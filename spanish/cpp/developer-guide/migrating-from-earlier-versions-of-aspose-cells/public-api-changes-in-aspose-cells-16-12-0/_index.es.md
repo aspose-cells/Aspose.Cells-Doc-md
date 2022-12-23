@@ -286,7 +286,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Soporte para ListObjects**
- Una tabla de Excel es una matriz de celdas que contiene cualquier número de filas y columnas, mientras que la misma tabla se denomina Objeto de lista en las API Aspose.Cells for C++. El espacio de nombres Aspose::Cells::Tables contiene todas las clases necesarias que se ocupan de las operaciones relacionadas con los objetos de la lista. Las clases más dignas de mención son IListObject e IListObjectCollection que permiten[crear y formatear objetos de lista](/cells/es/cpp/create-and-format-table/) y así.
+ Una tabla de Excel es una matriz de celdas que contiene cualquier número de filas y columnas, mientras que la misma tabla se denomina Objeto de lista en las API Aspose.Cells for C++. El espacio de nombres Aspose::Cells::Tables contiene todas las clases necesarias que se ocupan de las operaciones relacionadas con los objetos de la lista. Las clases más dignas de mención son IListObject e IListObjectCollection que permiten[crear y formatear objetos de lista](/cells/es/cpp/create-and-format-table/) etcétera.
 
 El siguiente código de muestra carga el archivo de hoja de cálculo de muestra y luego crea un objeto de lista (tabla) en un rango A1: H10, luego utiliza sus diversos métodos para mostrar el subtotal.
 

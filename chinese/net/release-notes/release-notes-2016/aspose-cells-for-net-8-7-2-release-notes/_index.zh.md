@@ -17,8 +17,8 @@ url: /zh/net/aspose-cells-for-net-8-7-2-release-notes/
 |CELLSNET-44305 |工作簿构造函数在加载文件时挂起|表现|
 |CELLSNET-44262 |SVG 图表图像由 Aspose.Cells 生成的 excel 文件生成错误|漏洞|
 |CELLSNET-44221 |打开并刷新后文件损坏|漏洞|
-|CELLSNET-44075 |绘图形状渲染不佳 - Excel 到 PDF 的转换|漏洞|
-|CELLSNET-44208 |在将电子表格呈现为 PDF 时镜像文本框中的文本|漏洞|
+|CELLSNET-44075 |绘图形状无法正常渲染 - Excel 到 PDF 的转换|漏洞|
+|CELLSNET-44208 |在将电子表格呈现为 PDF 时，TextBox 中的文本被镜像|漏洞|
 |CELLSNET-44298 |ICustomFunction 尝试将 HYPERLINK 解析为自定义函数来代替本机 excel 函数|漏洞|
 |CELLSNET-44268 |关于不向上移动的图像的 Cells.DeleteRange 问题|漏洞|
 |CELLSNET-44256 |Aspose.Cells公式计算引擎计算公式问题|漏洞|
@@ -27,18 +27,18 @@ url: /zh/net/aspose-cells-for-net-8-7-2-release-notes/
 |CELLSNET-44278 |Aspose.Cells API 导出为图像的范围具有文本重叠边框|漏洞|
 |CELLSNET-44251 |导出为 pdf 时不同的单元格间距|漏洞|
 |CELLSNET-44257 |图表保存为 png 时 X 轴和渐变线错误|漏洞|
-|CELLSNET-44246 |转换为 PDF 格式时占用大量内存|漏洞|
+|CELLSNET-44246 |转换为 PDF 格式时内存使用率高|漏洞|
 |CELLSNET-44229 |重新保存带有图表的电子表格后，DataLabel 的填充格式从实心填充更改为无填充|漏洞|
 |CELLSNET-44228 |使用图表重新保存电子表格后，DataLabel 的字体从 Calibri 更改为 Arial|漏洞|
 |CELLSNET-44018 |当显示大小设置为 150% 时，Chart2Image 功能会在一角生成一个带有较小图表的较大图像|漏洞|
-|CELLSNET-44227 |将图表呈现为 PNG 时文本框文本之间出现不需要的空格|漏洞|
+|CELLSNET-44227 |将图表渲染到 PNG 时文本框文本之间出现不需要的空格|漏洞|
 |CELLSNET-44306 |复制工作表后 GetRangeByName 返回 null|漏洞|
 |CELLSNET-44299 |电子表格中的图片未呈现为 PDF 格式|漏洞|
 |CELLSNET-44294 |单击 Excel 上的“保存”按钮显示修复警告|漏洞|
 |CELLSNET-44292 |示例应用程序生成带有更高版本的损坏文件|漏洞|
 |CELLSNET-44281 |此程序的签名已损坏或无效，在 IE 11 中下载 Aspose.Cells MSI 时出错|漏洞|
 |CELLSNET-44261 |表结构化引用未针对 totalsRowFormula 更新|漏洞|
-|CELLSNET-44259 |XLS 显示安全警告以启用电子表格中没有宏的宏|漏洞|
+|CELLSNET-44259 |XLS 显示安全警告以在电子表格中没有宏的情况下启用宏|漏洞|
 |CELLSNET-44258 |无法启动嵌入 pdf 替换 ppt 的源应用程序错误|漏洞|
 |CELLSNET-44253 |ODS 输出不产生图像|漏洞|
 |CELLSNET-44174 |表格在保存为 pdf 或转换为范围时丢失左右边框|漏洞|

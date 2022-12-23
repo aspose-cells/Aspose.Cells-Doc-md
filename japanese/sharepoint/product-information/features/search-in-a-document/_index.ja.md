@@ -6,10 +6,10 @@ url: /ja/sharepoint/search-in-a-document/
 ---
 Aspose.Cells for SharePoint は、SharePoint サイトに保存されているドキュメントの検索をサポートしています。 Aspose.Cells for Share Point は、ドキュメントをプレビューするために次の入力形式をサポートしています。
 
-- XLS – Microsoft エクセル 97 - 2003
-- XLSX – Office オープン XML
-- XLSM、XLTX、XLTM – オフィス オープン XML
-- XML - Microsoft Excel スプレッドシートML
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – オフィス オープン XML
+- XLSM、XLTX、XLTM – Office オープン XML
+- XML - Microsoft エクセル SpreadsheetML
 
 ドキュメント内を検索するには:
 

@@ -13,15 +13,15 @@ url: /sv/java/aspose-cells-for-java-17-7-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42322|Stöd för avancerad filterfunktion (MS Excel) för att visa poster som uppfyller komplexa kriterier|Ny funktion|
-|CELLSJAVA-42336|ResultSet importerar noll istället för null-värde i XLSX-fil|Förbättring|
+|CELLSJAVA-42336|ResultSet importerar noll istället för null-värde i filen XLSX|Förbättring|
 |CELLSJAVA-42329|Förbättringar som behövs för datafilter och personsökningsfunktioner - Aspose.Cells.GridWeb (Java)|Förbättring|
 |CELLSJAVA-41616|SaveCustomStyleFile finns inte i GridWeb (Java)|Förbättring|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() ska inte vara (global) statisk funktion|Förbättring|
-|CELLSJAVA-42327|Vissa former förvrängs och ändras i Excel till PDF-rendering|Insekt|
+|CELLSJAVA-42327|Vissa former är förvrängda och ändras i Excel till PDF-rendering|Insekt|
 |CELLSJAVA-42290|Mdash och ndash infogade i textrutor i diagram renderas inte korrekt i diagrammets PDF|Insekt|
 |CELLSJAVA-42338|Fel resultat när du använder SUMIFS-formler|Insekt|
 |CELLSJAVA-42337|Aspose.Cells kan inte beräkna värdet på cell B4 i kalkylbladet|Insekt|
-|CELLSJAVA-42330|Konstigt resultat när du konverterar från Excel till PDF eller PDF/A med trådar|Insekt|
+|CELLSJAVA-42330|Konstigt resultat vid konvertering från Excel till PDF eller PDF/A med trådar|Insekt|
 |CELLSJAVA-42331|Ändringar i kommentarsförfattarfältet bevaras inte|Insekt|
 |CELLSJAVA-42328|Fel IconSet returnerade|Insekt|
 |CELLSJAVA-42324|Kartans bakgrund saknas efter att ha ställt in en bilds data|Insekt|
@@ -39,7 +39,7 @@ Indikerar om man ska försöka använda arbetsbokens standardteckensnitt först 
 ### **Lägger till egenskapen ImageOrPrintOptions.CheckWorkbookDefaultFont**
 Indikerar om man ska försöka använda arbetsbokens standardteckensnitt först för att visa tecknen vilket teckensnitt som inte är korrekt inställt.
 ### **Lägger till FileFormatType.Numbers, LoadFormat.Numbers och SaveFormat.Numbers enum**
-Representerar Numbers-kalkylarksfilformatet av Apple Inc/.
+Representerar kalkylarksfilformatet Numbers av Apple Inc/.
 ### **Lägger till metoden Worksheet.AdvancedFilter().**
 Filtrerar data med hjälp av komplexa kriterier.
 ### **Lägger till egenskapen WorkbookSettings.SignificantDigits**
@@ -65,7 +65,7 @@ Gör att GridWeb-kontrollen är kompatibel med aktuell webbläsarfönsterstorlek
 ### **Användningsexempel**
 Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 
-- [Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Läs Numbers Kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions att ha prioritet](/cells/sv/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Importera data från Microsoft Access Database ResultSet Object till arbetsbladet](/cells/sv/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

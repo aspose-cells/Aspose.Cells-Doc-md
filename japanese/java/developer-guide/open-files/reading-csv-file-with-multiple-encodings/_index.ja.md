@@ -1,16 +1,16 @@
 ﻿---
-title: 複数のエンコーディングを含む CSV ファイルの読み取り
+title: 複数のエンコーディングを持つ CSV ファイルの読み取り
 type: docs
 weight: 140
 url: /ja/java/reading-csv-file-with-multiple-encodings/
 ---
 {{% alert color="primary" %}} 
 
-CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UTF7 など) が含まれている場合があります。 Aspose.Cells を使用すると、そのような CSV ファイルを読み込んで、PDF や XLSX などの他の形式に変換できます。
+CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UTF7 など) が含まれている場合があります。 Aspose.Cells を使用すると、そのような CSV ファイルをロードして、PDF や XLSX などの他の形式に変換できます。
 
 {{% /alert %}} 
 
- Aspose.Cells は TxtLoadOptions.setMultiEncoded() メソッドを提供します。これを設定する必要があります。**真実**複数のエンコーディングを使用して CSV ファイルを適切にロードします。
+ Aspose.Cells は TxtLoadOptions.setMultiEncoded() メソッドを提供します。これを設定する必要があります。**真実**複数のエンコーディングで CSV ファイルを適切にロードします。
 
 次のスクリーンショットは、2 行を含むサンプル CSV ファイルを示しています。最初の行は**ANSI**エンコーディングと2行目は**ユニコード**エンコーディング
 
@@ -18,7 +18,7 @@ CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UT
 
 ![todo:画像_代替_文章](reading-csv-file-with-multiple-encodings_1.png)
 
-次のスクリーンショットは、TxtLoadOptions.setMultiEncoded() メソッドを true に設定せずに上記の CSV ファイルから変換された XLSX ファイルを示しています。ご覧のとおり、Unicode テキストは適切に変換されていません。
+次のスクリーンショットは、TxtLoadOptions.setMultiEncoded() メソッドを true に設定せずに、上記の CSV ファイルから変換された XLSX ファイルを示しています。ご覧のとおり、Unicode テキストは適切に変換されていません。
 
 **出力ファイル 1: 複数のエンコードに対応していません** 
 

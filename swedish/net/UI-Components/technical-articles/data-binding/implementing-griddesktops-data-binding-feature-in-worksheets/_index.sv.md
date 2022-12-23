@@ -49,7 +49,7 @@ Anslut nu till exempeldatabasen för att hämta och fylla data i ett DataSet-obj
 ## **Bindande arbetsblad med DataSet**
 Bind samman kalkylbladet med tabellen Produkter i datauppsättningen:
 
-1. Öppna önskat arbetsblad.
+1. Öppna ett önskat arbetsblad.
 1. Bind samman kalkylbladet med DataSets produkttabell.
 
  Lägg till följande kod till**Bind arbetsblad** knappens klickhändelse.
@@ -60,7 +60,7 @@ Bind samman kalkylbladet med tabellen Produkter i datauppsättningen:
 ## **Ställa in kolumnrubriker för kalkylblad**
 Det bundna kalkylbladet laddar nu data framgångsrikt men kolumnrubrikerna är märkta A, B och C som standard. Det skulle vara bättre att ställa in kolumnrubrikerna till kolumnnamnen i databastabellen.
 
-Så här ställer du in kolumnrubriker för kalkylblad:
+Så här ställer du in kalkylbladets kolumnrubriker:
 
 1. Hämta bildtexterna för varje kolumn i datatabellen (produkter) i datauppsättningen.
 1. Tilldela bildtexterna till rubrikerna i kalkylbladskolumner.

@@ -24,7 +24,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 ### **Hatalar**
 
-(CELLSNET-43744) - PivotTable, PDF'ye kaydederken yenilenmiyor
+(CELLSNET-43744) - PivotTable, PDF'e kaydedilirken yenilenmiyor
 
 (CELLSNET-43735) - Pivot Tablonun Bantlı Satırlar seçeneği kayboldu
 
@@ -54,7 +54,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-43726) - Çalışma Kitaplarını birleştirmek Grafik stilini değiştiriyor
 
-(CELLSNET-43700) - PDF'ye dönüştürüldükten sonra resmin rengi farklı görünüyor
+(CELLSNET-43700) - PDF'e dönüştürüldükten sonra resmin rengi farklı görünüyor
 
 (CELLSNET-43199) - Excel PDF'e kaydedildiğinde içerikler ve şekiller değişiyor
 
@@ -68,7 +68,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-43742) - Tutarsız Çalışma Kitabı koruma davranışı
 
-(CELLSNET-43734) - Excel, XLSM'den XLS'ye dönüştürüldükten sonra dosyayı açamıyor
+(CELLSNET-43734) - Excel, XLSM'den XLS'e dönüştürüldükten sonra dosyayı açamıyor
 
 (CELLSNET-43727) - Çalışma Kitaplarını birleştirmek, Excel'in "Grup düzenleme modunda bir PivotTable düzenlenemez" uyarısına neden oluyor
 
@@ -76,7 +76,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-43768) - Diğer çalışma kitabından çalışma sayfası kopyalanırken Bilinmeyen Alan hatası
 
-(CELLSNET-43716) - Şekilden görüntüye PDF'ye dönüştürme hatası
+(CELLSNET-43716) - Şekilden görüntüye dönüştürme hatası PDF
 
 (CELLSNET-43764) - Strict OpenXML olarak kaydedilen elektronik tablo ile Workbook ctor'da NullReferenceException
 

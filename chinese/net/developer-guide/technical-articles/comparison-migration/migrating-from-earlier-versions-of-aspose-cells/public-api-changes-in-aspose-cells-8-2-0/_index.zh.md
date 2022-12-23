@@ -14,7 +14,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-2-0/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[多线程环境下同时读取Cells个值](http://aspose.com/docs/display/cellsnet/Reading+Cells+Values+in+Multiple+Threads+Simultaneously)了解更多信息。
+请查看详细文章[多线程环境下同时读取Cells个值](http://aspose.com/docs/display/cellsnet/Reading+Cells+Values+in+Multiple+Threads+Simultaneously)想要查询更多的信息。
 
 {{% /alert %}}
 ## **添加了 AutoFitRows 和 AutoFitColumns 方法的重载**

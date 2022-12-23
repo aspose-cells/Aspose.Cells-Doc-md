@@ -45,20 +45,20 @@ Aspose.Cells for .NET v4.8.0.0 中已解决的问题
 |**问题编号** |**零件** |**概括** |
 |:- |:- |:- |
 |8741 |图表2图像|Chart2Image 问题|
-|8749 |图表2图像|Excel PDF 中不显示图表|
+|8749 |图表2图像|图表未在 Excel 中显示 PDF|
 |9712 |图表2图像|支持分组形状到图像|
 |9766 |图表2图像|获取零值|
-|8738 |CSV文件|加载 csv 文件失败|
-|8737 |CSV文件|打开 csv 文件似乎写入控制台|
-|8984 | HTML|将工作簿另存为 HTML 时性能下降|
+|8738 |CSV |加载 csv 文件失败|
+|8737 |CSV |打开 csv 文件似乎写入控制台|
+|8984 |HTML |将工作簿另存为 HTML 时性能下降|
 |7915 | PDF格式|单元格转pdf的问题|
 |8669 | PDF格式|Excel 到 PDF 的转换问题|
 |8672 | PDF格式|将 Excel 文件生成为 Pdf 文件时的输出差异|
-|8678 | PDF格式|Cells 对于 PDF，页脚图像模糊|
-|8749 | PDF格式|Excel PDF 中不显示图表|
+|8678 | PDF格式|Cells 至 PDF，页脚图像模糊|
+|8749 | PDF格式|图表未在 Excel 中显示 PDF|
 |8986 | PDF格式|从 Excel 转换为 PDF|
-|8988 | PDF格式|将工作簿另存为 PDF 损坏|
-|9608 | PDF格式|XLS转换问题（负长度？）|
+|8988 | PDF格式|将工作簿保存为 PDF 损坏|
+|9608 | PDF格式|XLS 转换问题（负长度？）|
 |9609 | PDF格式|使用多线程实现保存到 FileFormatType.Pdf|
 |9670 | PDF格式|具有分组形状问题的 Excel2PDF|
 |9761 | PDF格式|另存为 Aspose.Pdf.xml 时出错|
@@ -102,7 +102,7 @@ Aspose.Cells for .NET v4.8.0.0 中已解决的问题
 |9267 |Xls|条件验证下拉列表|
 |9293 |Xls|CalculateFormula 不会计算|
 |9488 |Xls|打开xls文件的问题。|
-|9501 |Xls|DeleteRows 不删除嵌入的图像|
+|9501 |Xls| DeleteRows 不删除嵌入的图像|
 |9545 |Xls|SetDataSource() 抛出错误|
 |9546 |Xls|数字颜色错误|
 |9672 |Xls|计算查找函数错误|

@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-19-9-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46864|Prise en charge de la lecture et du rendu Contrôle des fichiers ODS|Nouvelle fonctionnalité|
 |CELLSNET-46877|Ajouter la surcharge SheetRender.ToPrinter(PrinterSettings PrinterSettings) aux API|Nouvelle fonctionnalité|
@@ -22,16 +22,16 @@ url: /fr/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46875|Le contenu déborde de la page lors de la conversion PDF|Punaise|
 |CELLSNET-46865|Un objet est modifié après ouverture et enregistrement|Punaise|
 |CELLSNET-46866|La définition de la police et de la taille de police de Drawing.TextBox ne fonctionne pas dans ODS|Punaise|
-|CELLSNET-46867|Cases à cocher perdues lors de la réenregistrement de XLSX|Punaise|
+|CELLSNET-46867|Cases à cocher perdues lors du réenregistrement XLSX|Punaise|
 |CELLSNET-46873|Réf ! indiqué comme formule non appliquée|Punaise|
-|CELLSNET-46876|Lien d'objet OLE non accessible depuis le fichier XLS|Punaise|
+|CELLSNET-46876|Lien d'objet OLE non accessible à partir du fichier XLS|Punaise|
 |CELLSNET-46881|Le regroupement et le dégroupement ne masquent pas les bordures|Punaise|
 |CELLSNET-46884|Les feuilles de calcul sont regroupées lors de l'utilisation de VisibilityType.VeryHidden/Hidden|Punaise|
 |CELLSNET-46886|Tableau avec une seule ligne étendue à une ligne supplémentaire ci-dessous après l'enregistrement du classeur|Punaise|
 |CELLSNET-46887|La mise en forme conditionnelle n'est pas conservée après l'ouverture du fichier dans MS Excel et son enregistrement.|Punaise|
 |CELLSNET-46891|Le remplissage dégradé d'OleObject est lu comme FillType.Solid|Punaise|
 |CELLSNET-46894|Afficher le paramètre d'onglet de feuille décoché lors de l'enregistrement du fichier Excel|Punaise|
-|CELLSNET-46906|Aspose.Cells pendu à l'ouverture d'un fichier XLSX|Punaise|
+|CELLSNET-46906|Aspose.Cells pendu à l'ouverture d'un dossier XLSX|Punaise|
 |CELLSNET-46909|La mise en forme de l'objet OLE a changé après l'ouverture et l'enregistrement du fichier Excel|Punaise|
 |CELLSNET-46857|Les connexions de filtre sur le tableau croisé dynamique perdent les paramètres lors de l'enregistrement après l'actualisation des tableaux croisés dynamiques|Punaise|
 |CELLSNET-46862|Le paramètre "Masquer les éléments sans données" dans le segment est perdu après l'actualisation des tableaux croisés dynamiques|Punaise|

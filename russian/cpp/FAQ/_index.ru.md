@@ -1,5 +1,5 @@
 ﻿---
-title: Часто задаваемые вопросы
+title: Вопросы-Ответы
 type: docs
 weight: 100
 url: /ru/cpp/faq/

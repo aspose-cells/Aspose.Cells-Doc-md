@@ -34,9 +34,9 @@ url: /it/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
-|22987 | Componente server| Problema di codifica dell'esportazione CSV SSRS|
+|22987 | Componente server| SSRS CSV Problema di codifica dell'esportazione|
 |17208 | Componente server| Esporta Report Service Report in MS Excel 2007 Errore|
 |18133 | Cliente e Server| Gruppi di colonne in Aspose.Cells.ReportingServices|
 |20251 | Componente server| Estensione di Reporting Services|

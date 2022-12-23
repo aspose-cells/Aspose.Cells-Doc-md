@@ -22,6 +22,6 @@ Das unten bereitgestellte Code-Snippet zeigt die Verwendung von Aspose.Cells for
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateWaterfallChart-CreateWaterfallChart.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Erstellen und Anpassen von Diagrammen](/cells/de/java/creating-and-customizing-charts/)

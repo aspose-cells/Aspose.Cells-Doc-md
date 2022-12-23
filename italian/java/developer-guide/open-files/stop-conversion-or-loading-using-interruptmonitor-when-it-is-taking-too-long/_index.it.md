@@ -10,7 +10,7 @@ Aspose.Cells consente di interrompere la conversione della cartella di lavoro in
 
 ## **Interrompi la conversione o il caricamento utilizzando InterruptMonitor quando impiega troppo tempo**
 
-Il seguente codice di esempio spiega l'utilizzo di[**Monitor di interruzione**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)oggetto. Il codice converte un file Excel piuttosto grande in PDF. Ci vorranno diversi secondi (es*più di 30 secondi*) per convertirlo a causa di queste righe di codice.
+Il seguente codice di esempio spiega l'utilizzo di[**Monitor di interruzione**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)oggetto. Il codice converte un file Excel piuttosto grande in PDF. Ci vorranno diversi secondi (es.*più di 30 secondi*) per convertirlo a causa di queste righe di codice.
 
 {{< highlight "java" >}}
 
@@ -22,7 +22,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-Come vedi**AB1000000**è piuttosto una cella più lontana nel file XLSX. in ogni caso, il*WaitForWhileAndThenInterrupt()*Il metodo interrompe la conversione dopo 10 secondi e il programma termina/termina. Utilizzare il codice seguente per eseguire il codice di esempio.
+Come vedi**AB1000000**è piuttosto una cella più lontana nel file XLSX. comunque, il*WaitForWhileAndThenInterrupt()*Il metodo interrompe la conversione dopo 10 secondi e il programma termina/termina. Utilizzare il codice seguente per eseguire il codice di esempio.
 
 {{< highlight "java" >}}
 
@@ -30,6 +30,6 @@ new StopConversionOrLoadingUsingInterruptMonitor().testRun();
 
 {{< /highlight >}}
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-StopConversionOrLoadingUsingInterruptMonitor-1.java" >}}

@@ -1,16 +1,16 @@
 ﻿---
-title: Экспорт комментариев при сохранении файла Excel в HTML
+title: Экспорт комментариев при сохранении файла Excel на номер HTML
 type: docs
 weight: 40
 url: /ru/java/export-comments-while-saving-excel-file-to-html/
 ---
 ## **Возможные сценарии использования**
 
-При сохранении файла Excel в формате HTML комментарии не экспортируются. Однако Aspose.Cells предоставляет эту функцию с помощью[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)имущество. Если вы установите его**истинный**, то HTML также будет отображать комментарии, присутствующие в вашем файле Excel.
+Когда вы сохраняете файл Excel в HTML, комментарии не экспортируются. Однако Aspose.Cells предоставляет эту функцию с помощью[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)имущество. Если вы установите его**истинный**то HTML также отобразит комментарии, присутствующие в вашем файле Excel.
 
 ## **Экспорт комментариев при сохранении файла Excel в HTML**
 
-В следующем примере кода объясняется использование[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) имущество. На снимке экрана показано влияние кода на HTML, когда для свойства установлено значение**истинный**Пожалуйста, загрузите[образец файла Excel](50528270.xlsx)и[сгенерированный HTML](50528269)для справки.
+В следующем примере кода объясняется использование[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments) имущество. На снимке экрана показано действие кода на HTML, когда для свойства установлено значение**истинный**. Пожалуйста, загрузите[образец файла Excel](50528270.xlsx)и[сгенерировано HTML](50528269)для справки.
 
 ![дело:изображение_альтернативный_текст](export-comments-while-saving-excel-file-to-html_1.png)
 

@@ -14,7 +14,7 @@ Nous sommes heureux d'annoncer Aspose.Cells for Java v2.1.0 !
 
 Ce qui a changé :
 
-l Ajouter de nouvelles fonctionnalités pour le fichier Open Document Spreadsheet (ODS): lien hypertexte, options de mise en page, contour de groupe, formatage conditionnel, validation des données, filtre automatique, saut de page, PrintTitleRows / Columns, objets liés aux formes (commentaire, arc, bouton, case à cocher, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
+l Ajouter de nouvelles fonctionnalités pour le fichier Open Document Spreadsheet (ODS): lien hypertexte, options de mise en page, contour de groupe, mise en forme conditionnelle, validation des données, filtre automatique, saut de page, PrintTitleRows / Columns, objets liés aux formes (Commentaire, Arc, Bouton, Case à cocher, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
 
 l Fournir de nouvelles fonctionnalités pour le format de fichier MS Excel 2007 : insertion d'images, ajout de graphiques.
 
@@ -28,9 +28,9 @@ l Fonction Calculer le lien hypertexte.
 
 l Supprimer les noms définis par l'utilisateur.
 
-Inclure les attributs de filtre automatique lors de la copie de classeur/feuille de calcul.
+l Inclure les attributs de filtre automatique lors de la copie de classeur/feuille de calcul.
 
-l Prise en charge des hyperliens dans la conversion xls2pdf.
+Prise en charge des hyperliens dans la conversion xls2pdf.
 
 l Extrayez les objets Ole dans le fichier modèle.
 
@@ -40,7 +40,7 @@ l 48 correctifs et autres améliorations.
 
 Problèmes résolus dans Aspose.Cells for Java v2.1.0
 
-|**ID du problème**|**Composant**|**Sommaire**|
+|**ID du problème**|**Composant**|**Résumé**|
 |:- |:- |:- |
 |9771|xl|Adresse du lien hypertexte|
 |9770|xl|fichiers modèles contenant des données MSODrawing volumineuses|
@@ -52,7 +52,7 @@ Problèmes résolus dans Aspose.Cells for Java v2.1.0
 |9674|xl|Cell.getStringValue() pour arrondir les valeurs décimales|
 |9498|xl|lecture de fichiers modèles contenant à la fois des enregistrements BIFF7 et BIFF8|
 |9616|xl|PageSetup.Print_Titres/impression_Zones|
-|9499|xl|fusionner des cellules|
+|9499|xl|fusionner les cellules|
 |9500|graphique|Axe du graphique|
 |7919|Xls|Fonction SOUS-TOTAL|
 |7953|Xls2pdf|hyperliens pour xls2pdf|
@@ -61,7 +61,7 @@ Problèmes résolus dans Aspose.Cells for Java v2.1.0
 |9363|xl|SmartMarker avec drapeau horizontal :|
 |9364|xlsx|ferme le flux de sortie de l'utilisateur|
 |9404|xl|fichier de modèle de lecture créé par Microsoft Jet Engine|
-|9264|CSV|importation/exportation au format de fichier CSV|
+|9264|CSV|importation/exportation du format de fichier CSV|
 |9265|Xls2Pdf|cellules fusionnées dans xls2pdf|
 |9173|xlsx|Propriété Style.isCellLocked() pour le format de fichier Excel2007|
 |9174|xl|définir la taille de l'image dans l'en-tête/le pied de page de PageSetup|

@@ -6,7 +6,7 @@ url: /ar/net/check-if-digital-signature-of-vba-code-is-valid/
 ---
 {{% alert color="primary" %}}
 
- يسمح لك Aspose.Cells بالتحقق مما إذا كان التوقيع الرقمي لكود VBA صالحًا باستخدام امتداد[**المصنف. VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned) منشأه. سوف يعود**حقيقي** إذا كان التوقيع ساري المفعول وإلا سيعود**خاطئة**. يصبح التوقيع الرقمي لرمز VBA غير صالح عند تغيير رمز VBA.
+ يسمح لك Aspose.Cells بالتحقق مما إذا كان التوقيع الرقمي لكود VBA صالحًا باستخدام امتداد[**المصنف. VbaProject.IsValidSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isvalidsigned) خاصية. سوف يعود**حقيقي** إذا كان التوقيع ساري المفعول وإلا سيعود**خاطئة**. يصبح التوقيع الرقمي لرمز VBA غير صالح عند تغيير رمز VBA.
 
 {{% /alert %}}
 

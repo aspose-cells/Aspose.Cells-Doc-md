@@ -23,7 +23,7 @@ url: /ar/java/execute-client-side-function-on-gridweb-page-change/
 
 {{< /highlight >}}
 
-توضح التعليمات البرمجية التالية كيفية تمكين الترحيل وتعيين الخاصية OnPageChangeClientFunction.
+توضح التعليمات البرمجية التالية كيفية تمكين الترحيل وتعيين خاصية OnPageChangeClientFunction.
 
 {{< highlight "java" >}}
 

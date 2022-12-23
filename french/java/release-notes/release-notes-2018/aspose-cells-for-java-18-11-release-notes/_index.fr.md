@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.11.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42738|Un nombre incorrect de valeurs de validation est lu à partir de XLSX|Renforcement|
 |CELLSJAVA-42734|Problème lors du traitement des délimiteurs consécutifs comme distincts|Renforcement|

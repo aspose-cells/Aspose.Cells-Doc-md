@@ -11,7 +11,7 @@ url: /ar/java/aspose-cells-for-java-8-0-2-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for Java إلى الإصدار 8.0.2 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 10 تحسينات مفيدة جديدة.
-باستخدام Aspose.Cells for Java يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا إنشاء المصنفات وتعديلها وتحويلها وعرضها وطباعتها دون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for Java يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا إنشاء المصنفات وتعديلها وتحويلها وعرضها وطباعتها دون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for Java.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار Aspose.Cells for Java.
@@ -28,9 +28,9 @@ url: /ar/java/aspose-cells-for-java-8-0-2-release-notes/
 
 (CELLSJAVA-40793) - النطاق لا يشير إلى المنطقة الصحيحة
 (CELLSJAVA-40768) - طريقة WorkbookRender.toPrinter () لا تطبع picutre
-(CELLSJAVA-40669) - مشكلة كبيرة في العمود المحوري أثناء عرض XLTX إلى PDF
-(CELLSJAVA-40801) - Cell مشكلات المحاذاة في ملف PDF الذي تم تقديمه
-(CELLSJAVA-40406) - تحويل ملف Excel مع عدد كبير من الأعمدة إلى ملف PDF
+(CELLSJAVA-40669) - العمود المحوري مشكلة كبرى أثناء التقديم XLTX إلى PDF
+(CELLSJAVA-40801) - Cell مشكلات المحاذاة في الملف PDF الذي تم تقديمه
+(CELLSJAVA-40406) - تحويل ملف Excel بعدد كبير من الأعمدة إلى ملف PDF
 (CELLSJAVA-40794) - لا تعمل AutoFitColumns عند استخدامها مع إعدادات خطوط مختلفة
 (CELLSJAVA-40816) - لا يزال المؤشر يتحرك إلى العمود الأخير بعد استخدام Cells.DeleteColumn () لحذفه
 (CELLSJAVA-40786) - شكل emf المُنشأ يختلف عن الشكل الأصلي

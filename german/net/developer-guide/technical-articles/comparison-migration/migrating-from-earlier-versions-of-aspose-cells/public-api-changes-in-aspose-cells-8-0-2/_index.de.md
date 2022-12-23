@@ -84,6 +84,6 @@ Der Standardwert der ConvertFormulasData-Eigenschaft ist false.
 
 {{% /alert %}}
 ## **ImageOptions-Eigenschaft zur HtmlSaveOptions-Klasse hinzugefügt**
-Die ImageOptions-Eigenschaft wurde der HtmlSaveOptions-Klasse hinzugefügt. Das Verfügbarmachen der ImageOptions-Eigenschaft hat es den Entwicklern ermöglicht, die Einstellungen für die in den HTML-Code eingebetteten Bilder beim Exportieren von Tabellenkalkulationen festzulegen.
+Die ImageOptions-Eigenschaft wurde der HtmlSaveOptions-Klasse hinzugefügt. Das Verfügbarmachen der ImageOptions-Eigenschaft hat es den Entwicklern ermöglicht, die Einstellungen für die in HTML eingebetteten Bilder beim Exportieren von Tabellenkalkulationen festzulegen.
 ## **Veraltete HtmlSaveOptions.ExportChartImageFormat-Eigenschaft**
-HtmlSaveOptions.ExportChartImageFormat wurde ab Aspose.Cells for .NET 8.0.2 als veraltet markiert. Es wird empfohlen, beim Exportieren von Tabellenkalkulationen in das HTML-Format stattdessen HtmlSaveOptions.ImageOptions für Bildformateinstellungen zu verwenden.
+HtmlSaveOptions.ExportChartImageFormat wurde ab Aspose.Cells for .NET 8.0.2 als veraltet markiert. Es wird empfohlen, stattdessen HtmlSaveOptions.ImageOptions für Bildformateinstellungen zu verwenden, während Tabellenkalkulationen in das Format HTML exportiert werden.

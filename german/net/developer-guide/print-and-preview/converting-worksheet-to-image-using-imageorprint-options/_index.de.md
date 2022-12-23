@@ -30,7 +30,7 @@ Ich habe eine neue Arbeitsmappe in MS Excel erstellt und einige Daten im ersten 
 
 ### **Laden Sie Aspose.Cells herunter und installieren Sie es**
 
- Zuerst müssen Sie[Download](https://downloads.aspose.com/cells/net) Aspose.Cells für .Net. Installieren Sie es auf Ihrem Entwicklungscomputer. Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Zuerst müssen Sie[Download](https://downloads.aspose.com/cells/net) Aspose.Cells für .Net. Installieren Sie es auf Ihrem Entwicklungscomputer. Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 
 ### **Erstellen Sie ein Projekt**
 

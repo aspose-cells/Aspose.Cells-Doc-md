@@ -37,24 +37,24 @@ url: /zh/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|使用 EmfOnly 选项将工作表转换为 Emf 图像时字体失真|漏洞|
 |CELLSNET-48049|从 xlsx 工作簿转换为 emf 时轴间距不同|漏洞|
 |CELLSNET-48509|图表有时不会根据图例位置出现|漏洞|
-|CELLSNET-48580|Excel 图表输出 SVG 中的 Miss Legend 条目|漏洞|
+|CELLSNET-48580|Excel图表输出SVG中的Miss Legend条目|漏洞|
 |CELLSNET-48696|修改数据标签颜色出错|漏洞|
-|CELLSNET-48698|导出为 PDF 时的图表颜色问题|漏洞|
+|CELLSNET-48698|PDF 中导出时的图表颜色问题|漏洞|
 |CELLSNET-48797|从 xlsx 读取时平均标记值错误|漏洞|
 |CELLSNET-48455|自动调整行高问题|漏洞|
 |CELLSNET-48473|AutoFit 列无法正常工作|漏洞|
 |CELLSNET-48605|将 VBA 代码添加到工作簿会产生损坏的结果|漏洞|
-|CELLSNET-48644|通过分页符将 XLSX 转换为 HTML 时丢失行和水印|漏洞|
+|CELLSNET-48644|XLSX分页转HTML时漏行和水印|漏洞|
 |CELLSNET-48669|.ods 文件的命名范围被读取为 Table 。|漏洞|
 |CELLSNET-48718|获取错误的嵌入对象名称|漏洞|
 |CELLSNET-48966|复制单元格范围后公式丢失|漏洞|
 |CELLSNET-49055|合并单元格的自动调整列不起作用|漏洞|
-|CELLSNET-49100|导出为 HTML 时某些单元格缺少网格线|漏洞|
+|CELLSNET-49100|导出到 HTML 时某些单元格缺少网格线|漏洞|
 |CELLSNETCORE-149|复制值后复制样式会擦除 Excel 97 格式的单元格值|漏洞|
-|CELLSNETCORE-152|无法从 XLS 文件中读取 EMF 图像数据|漏洞|
+|CELLSNETCORE-152|EMF 无法从 XLS 文件中读取图像数据|漏洞|
 |CELLSNET-48444|xlsb转xls文件时出现无效参数错误|例外|
 |CELLSNET-48607|形状到图像错误|例外|
-|CELLSNET-48866|无法将特定的 XLSX Excel 文件打开到 GridDesktop 控件中|例外|
+|CELLSNET-48866|无法将特定 XLSX Excel 文件打开到 GridDesktop 控件中|例外|
 |CELLSNET-48956|使用 Cell.SetStyle 设置单元格样式后出现异常|例外|
 |CELLSNET-48712|渲染 Box&Whisker 图表时数组越界|例外|
 |CELLSNET-48910|将 box&Whisker Chart 渲染为图像时抛出异常|例外|

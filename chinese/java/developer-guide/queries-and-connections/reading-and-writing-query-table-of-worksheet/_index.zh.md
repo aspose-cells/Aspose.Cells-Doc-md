@@ -15,15 +15,15 @@ Aspose.Cells提供[工作表.getQueryTables()](https://reference.aspose.com/cell
 
 {{% /alert %}} 
 ## **工作表读写查询表**
-下面的示例代码读取第一个[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)第一个工作表，然后打印两个[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)特性。然后它设置[查询表.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)至**真的**.
+下面的示例代码读取第一个[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)第一个工作表，然后打印两个[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)特性。然后它设置[查询表.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)到**真的**.
 
 以下屏幕截图显示了[源文件](5472578.xlsx)在代码中使用，它的属性显示了[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)值。
 
-![待办事项：图像_替代_文本](reading-and-writing-query-table-of-worksheet_1.png)
+![待办事项：图片_替代_文本](reading-and-writing-query-table-of-worksheet_1.png)
 
 以下屏幕截图显示了[输出excel文件](5472574.xlsx)由代码生成，其属性显示了[查询表](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)值。如您所见，现在已选中保留格式复选框。
 
-![待办事项：图像_替代_文本](reading-and-writing-query-table-of-worksheet_2.png)
+![待办事项：图片_替代_文本](reading-and-writing-query-table-of-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
 ## **控制台输出**

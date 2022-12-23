@@ -28,7 +28,7 @@ Si vos tâches liées aux documents sont populaires, il est fort probable que As
 
 {{% /alert %}}
 
-## La stabilité
+## Stabilité
 
 Aspose.Cells est soigneusement testé et emballé dans une seule DLL sans nécessiter l'installation de pièces supplémentaires pour fonctionner.
 
@@ -36,7 +36,7 @@ Aspose.Cells est soigneusement testé et emballé dans une seule DLL sans néces
 
 Les composants Aspose sont hautement évolutifs et rapides comme l'éclair. Ils constituent une véritable solution .NET et fonctionnent parfaitement sur un seul serveur alimentant une seule application ou sur une ferme Web à charge équilibrée alimentant une application d'entreprise.
 
-## Fonctionnalités
+## Caractéristiques
 
 - [Marqueurs intelligents dans Aspose.Cells](/cells/fr/net/smart-markers-in-aspose-cells/)
 - [Conversion](/cells/fr/net/conversion/)

@@ -32,7 +32,7 @@ Macro inconnue : {...}
 
  Problèmes résolus au Aspose.Cells for Java 2.4.2
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |20158 | Formule| La fonction INDIRECT ne fonctionne pas correctement avec la plage nommée|
 |20312 | Xlsx| Lire le fichier Excel2007|

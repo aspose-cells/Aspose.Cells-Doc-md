@@ -196,7 +196,7 @@ Die folgende Ausgabe wird erzielt, wenn Textumbruch aktiviert ist.
 
 
 #### **Schrumpfen, um zu passen**
- Eine Option zum Umbrechen von Text in einem Feld besteht darin, die Textgröße zu verkleinern, um sie an die Abmessungen einer Zelle anzupassen. Dies geschieht durch die Einstellung von[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) IsTextWrapped-Eigenschaft des Objekts auf**Stimmt**.
+ Eine Option zum Umbrechen von Text in einem Feld besteht darin, die Textgröße zu verkleinern, um sie an die Abmessungen einer Zelle anzupassen. Dies geschieht durch die Einstellung von[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) IsTextWrapped-Eigenschaft des Objekts auf**wahr**.
 
 Die folgende Ausgabe wird erzielt, wenn Text verkleinert wird, um in die Zelle zu passen.
 
@@ -297,7 +297,7 @@ In der Ausgabedatei ist in der Zelle „A1“ das Wort „Besuch“ mit der Stan
 
 {{% alert color="primary" %}} 
 
- Wenn du interessiert bist[Einen Teil von Rich Text in einer [Zelle] formatieren](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) , sollten Sie die Methoden Cell.getCharacters und Cell.setCharacters verwenden. Die Methode Cell.getCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**erhalten** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
+ Wenn du interessiert bist[Einen Teil von Rich Text in einer [Zelle] formatieren](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) , sollten Sie die Methoden Cell.getCharacters und Cell.setCharacters verwenden. Die Methode Cell.getCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**bekommen** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
 
 {{% /alert %}} 
 ## **Aktivieren von Blättern und Aktivieren von Cell oder Wählen Sie einen Bereich von Cells im Arbeitsblatt aus**
@@ -351,7 +351,7 @@ Das Formatieren der Zeilen und Spalten in einer Tabelle, um dem Bericht ein Auss
 
 In diesem Artikel versuchen wir zu erklären, wie Sie Aspose.Cells for Java API verwenden, um Formatierungen auf Zeilen und Spalten anzuwenden.
 ### **Zeilen und Spalten formatieren**
- Aspose.Cells bietet eine Klasse,[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) -Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse stellt die Sammlung Cells bereit. Die Cells-Sammlung stellt eine Rows-Sammlung bereit.
+ Aspose.Cells bietet eine Klasse,[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) -Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse stellt die Sammlung Cells bereit. Die Cells-Sammlung stellt eine Rows-Sammlung bereit.
 #### **Formatieren einer Zeile**
 Jedes Element in der Rows-Auflistung repräsentiert ein Row-Objekt. Das Row-Objekt bietet die applyStyle-Methode, die zum Anwenden der Formatierung auf eine Zeile verwendet wird.
 
@@ -382,7 +382,7 @@ Die Sammlung Cells stellt eine Spaltensammlung bereit. Jedes Element in der Colu
 
 
 
-#### **Festlegen des Anzeigeformats von Zahlen und Daten für Zeilen und Spalten**
+#### **Festlegen des Anzeigeformats von Numbers und Daten für Zeilen und Spalten**
 Wenn das Anzeigeformat von Zahlen und Datumsangaben für eine komplette Zeile oder Spalte festgelegt werden soll, ist der Vorgang mehr oder weniger der gleiche wie oben beschrieben, aber anstatt Parameter für den Textinhalt festzulegen, werden Sie die Formatierung für Zahlen festlegen und Datumsangaben mit Style.Number oder Style.Custom. Bitte beachten Sie, dass die Eigenschaft „Style.Number“ vom Typ „Integer“ ist und sich auf die integrierten Zahlen- und Datumsformate bezieht, während die Eigenschaft „Style.Custom“ vom Typ „String“ ist und die gültigen Muster akzeptiert.
 
 
@@ -399,6 +399,6 @@ Wenn das Anzeigeformat von Zahlen und Datumsangaben für eine komplette Zeile od
 
 {{% alert color="primary" %}} 
 
- Bitte lesen Sie den ausführlichen Artikel auf[Festlegen des Anzeigeformats von Zahlen und [Datum]](/cells/de/java/data-formatting/).
+ Bitte lesen Sie den ausführlichen Artikel auf[Einstellen der Anzeigeformate von Numbers und [Datum]](/cells/de/java/data-formatting/).
 
 {{% /alert %}}

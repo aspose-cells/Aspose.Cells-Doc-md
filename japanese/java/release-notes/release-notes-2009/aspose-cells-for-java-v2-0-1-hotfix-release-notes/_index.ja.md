@@ -42,9 +42,9 @@ Aspose.Cells for Java 2.0.1 を発表できることをうれしく思います�
 
 |**問題ID** |**成分** |**概要** |
 |:- |:- |:- |
-|6722 |ODS| R/W ODS ファイル|
+|6722 |ODS |R/W ODS ファイル|
 |7834 |xls| Cell.getPrecedents|
-|6516 | HTML|ワークシートを HTML 形式でストリームに保存します。|
+|6516 |HTML |ワークシートを HTML 形式でストリームに保存します。|
 |7744 |xls| R/W 暗号化ファイル: Microsoft 強力な暗号化プロバイダー。|
 |7745 |xls| NSeries コレクションから ASeries を削除します。|
 |7571 | xlsx|ハイパーリンク。|

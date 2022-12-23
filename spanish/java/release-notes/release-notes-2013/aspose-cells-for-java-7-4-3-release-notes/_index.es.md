@@ -16,6 +16,6 @@ Esta página contiene notas de la versión para [ Aspose.Cells for Java 7.4.3|ht
 
  40367 - Problema de impresión de Excel con imagen
 
- 40474 - No se puede copiar el formato de celda
+40474 - No se puede copiar el formato de celda
 
  40480 - Problema con fórmulas COUNTA e INDIRECTO

@@ -34,7 +34,7 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44031) - v8.6.1 で保存した後、Excel 2010 で XLSB が破損する
 
-(CELLSNET-43990) - スプレッドシートを PDF にレンダリング中に AutoShape が誤って配置される
+(CELLSNET-43990) - スプレッドシートを PDF にレンダリングする際に AutoShape が誤って配置される
 
 (CELLSNET-43989) - テキスト ボックス内の行間のスペースが減少する
 
@@ -50,11 +50,11 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44045) - Workbook.CalculateFormula メソッドが無期限にスタックする
 
-(CELLSNET-44051) - PDF に条件付き書式アイコンがない
+(CELLSNET-44051) - 条件付き書式アイコンが PDF にありません
 
-(CELLSNET-44047) - 出力 PDF でページがズームアウトされる
+(CELLSNET-44047) - 出力でページがズームアウトされる PDF
 
-(CELLSNET-44025) - 境界線の太さが印刷領域ごとに保持されない
+ (CELLSNET-44025) - 境界線の太さが印刷領域ごとに保持されない
 
 (CELLSNET-44002) - コードに何らかの問題があるため、画像がスケーリングされます
 
@@ -80,7 +80,7 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44060) - シートをコピーした後の図形のフォントの色が間違っている
 
-(CELLSNET-44056) - PDF に保存すると垂直方向の境界線が失われます
+(CELLSNET-44056) - PDF に保存すると垂直方向の境界線が失われる
 
 (CELLSNET-44049) - 非表示の列の幅が失われる
 
@@ -96,7 +96,7 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44006) - 再保存された XLS を開く際の保護ビュー エラー
 
-(CELLSNET-44001) - SpreadsheetML(XML) から PDF への変換で NOW() 式が正しく表示されない
+(CELLSNET-44001) - NOW() 式が SpreadsheetML(XML) から PDF への変換で正しく表示されない
 
 (CELLSNET-43894) - OLE リンクの ObjectSourceFullName を更新できませんでした
 
@@ -110,13 +110,13 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-43926) - Workbook.CalculateFormula での CellsException
 
- (CELLSNET-44052) - Excel から PDF への変換で Workbook.Save() で例外が発生しました
+ (CELLSNET-44052) - Excel の Workbook.Save() から PDF への変換で例外が発生しました
 
 (CELLSNET-44050) - Workbook ctor での System.FormatException
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -124,7 +124,7 @@ url: /ja/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **新機能**
 
 
-(CELLSNET-44036) - セルに異なる色のテキストがある場合でも、テキスト全体でフォントの色が同じです
+ (CELLSNET-44036) - セルに異なる色のテキストがある場合でも、テキスト全体でフォントの色が同じです
 
 (CELLSNET-44033) - サーバー側で Ajax モードで変更されたセルを取得する
 
@@ -176,7 +176,7 @@ WorkbookDesigner.CallBack プロパティと ISmartMarkerCallBack インター�
 
 
 
- GridWeb に AjaxCallFinished イベントを追加
+GridWeb に AjaxCallFinished イベントを追加
 
 コントロールの ajax 更新が完了したときに発生します (EnableAJAX は true に設定されます)。
 

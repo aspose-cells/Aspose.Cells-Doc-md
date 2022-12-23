@@ -1,11 +1,11 @@
 ﻿---
-title: قراءة ملف CSV بترميزات متعددة
+title: اقرأ CSV ملف ذو ترميزات متعددة
 type: docs
 weight: 70
 url: /ar/java/read-csv-file-with-multiple-encodings/
 ---
-## **Aspose.Cells - قراءة ملف CSV بترميزات متعددة**
-في وقت ما ، يحتوي ملف CSV الخاص بك على ترميزات متعددة (Unicode ، ANSI ، UTF8 ، UTF7 ، إلخ). يسمح لك Aspose.Cells بتحميل ملفات CSV هذه وتحويلها إلى تنسيقات أخرى ، على سبيل المثال PDF أو XLSX.
+## **Aspose.Cells - قراءة CSV ملف بترميزات متعددة**
+في وقت ما ، يحتوي ملف CSV الخاص بك على ترميزات متعددة (Unicode ، ANSI ، UTF8 ، UTF7 ، إلخ). يسمح لك Aspose.Cells بتحميل مثل هذه الملفات CSV وتحويلها إلى تنسيقات أخرى ، على سبيل المثال PDF أو XLSX.
 
 **Java**
 
@@ -26,7 +26,7 @@ Workbook workbook = new Workbook(dataDir + "MultiEncoded.csv", options);
 workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
@@ -34,6 +34,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[قراءة ملف CSV بترميزات متعددة](/cells/ar/java/reading-csv-file-with-multiple-encodings).
+ لمزيد من التفاصيل ، قم بزيارة[قراءة CSV ملف ذو ترميزات متعددة](/cells/ar/java/reading-csv-file-with-multiple-encodings).
 
 {{% /alert %}}

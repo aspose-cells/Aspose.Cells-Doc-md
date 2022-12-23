@@ -25,7 +25,7 @@ Buggar
 
 (CELLSJAVA-41084) - Diagramstaplar för de negativa värdena tappar färg när kalkylbladet sparas av Aspose.Cells
 (CELLSJAVA-41082) - Fel vid beräkning av celler - undantag för beräkningsformel
-(CELLSJAVA-41070) - HTML till XLS problem - formaterat nummer återges som tomt
+(CELLSJAVA-41070) - HTML till XLS nummer - formaterat nummer återges som tomt
 (CELLSJAVA-41034) - Textrutatext ingår inte i diagrambilden
 (CELLSJAVA-41083) - Excel-funktionen NOW() fungerar inte i ryska inställningar
 (CELLSJAVA-41062) - Color.getBlack().equals(Color.getEmpty()) returnerar true. Det bör returnera falskt
@@ -34,26 +34,26 @@ Buggar
 (CELLSJAVA-41068) - XLSX-filen är skadad efter att ha sparat filen på nytt via Aspose.Cells API:er
 (CELLSJAVA-41066) - Sjökortsaxelsteg gick sönder efter kopiering av kalkylblad
 (CELLSJAVA-41060) - Om du ändrar arbetsbokens färgpalett samtidigt som du sparar XLSX till XLS får MS Excel att öppna det resulterande kalkylbladet i skyddad vy
-(CELLSJAVA-41059) - Ändra i ordningen för regler för villkorlig formatering samtidigt som du sparar XLSX till XLS med Pallet Change
+(CELLSJAVA-41059) - Ändra i ordningen för regler för villkorlig formatering samtidigt som du sparar XLSX till XLS med Palettändring
 (CELLSJAVA-41057) - Förlorade noteringar för vissa namngivna intervall
 (CELLSJAVA-41056) - Cells.copyRows() metoden kopierar inte sparklines i filformatet XLSX
 (CELLSJAVA-41055) - Problem med textformatering vid läsning av cellernas stilar
 (CELLSJAVA-41049) - Får #VALUE! fel när RATE-funktionen används
 (CELLSJAVA-41038) - Dolda serier inuti förklaringen visas igen efter att arbetsbladet har kopierats.
 (CELLSJAVA-41036) - Diagramaxelsteg gick sönder när arbetsboken sparades på nytt
-(CELLSJAVA-41054) - Kopiera inklistrad bild återges inte i PDF-filen
-(CELLSJAVA-41044) - Aspose.Cells genererad PDF klarar inte PDF/A-1b överensstämmelsetestet
+(CELLSJAVA-41054) - Kopiera inklistrad bild återges inte i PDF
+(CELLSJAVA-41044) - Aspose.Cells genererad PDF klarar inte PDF/A-1b efterlevnadstestet
 (CELLSJAVA-41015) - Aspose.Cells Genererat PD/A-1b-dokument misslyckas med preflight-valideringen
-(CELLSJAVA-40951) - PDF-dokumentet är trasigt och kan inte öppnas i Acrobat Reader efter konvertering från Excel-mallfil
+(CELLSJAVA-40951) - PDF dokumentet är trasigt och kan inte öppnas i Acrobat Reader efter konvertering från Excel-mallfil
 (CELLSJAVA-40725) - Clipart visas inte i pdf
 (CELLSJAVA-40692) - Överensstämmelse PDF/A-1b misslyckades med Adobe Preflight
 (CELLSJAVA-41086) - Användardefinierade diagramserienamn är tomma
 (CELLSJAVA-41065) - Listornas titlar är förstörda
-(CELLSJAVA-41047) - Dataseparator för staplade kolumndiagram har olika tjocklek samtidigt som den renderar kalkylark till PDF-format
-(CELLSJAVA-41045) - Kolumner i diagrammet överlappar den nedre axeln medan kalkylbladet renderas till PDF-format
-(CELLSJAVA-40989) - Stapeldiagram har extra vertikala linjer till höger om staplarna när det renderas som PDF
-(CELLSJAVA-40988) - Diagrammets dataetikett beskärs i den renderade PDF-filen
-(CELLSJAVA-40987) - Diagrammets axeletiketter och -förklaring överlappar i den renderade PDF-filen
+(CELLSJAVA-41047) - Dataseparator för staplade kolumndiagram har olika tjocklek samtidigt som den renderar kalkylark till formatet PDF
+(CELLSJAVA-41045) - Kolumner i diagrammet överlappar den nedre axeln medan kalkylbladet renderas till formatet PDF
+(CELLSJAVA-40989) - Stapeldiagram har extra vertikala linjer till höger om staplarna när det återges som PDF
+(CELLSJAVA-40988) - Diagrammets dataetikett trimmas av i den renderade PDF
+(CELLSJAVA-40987) - Diagrammets axeletiketter och -förklaring överlappar i den renderade PDF
 (CELLSJAVA-40945) - Textrutor försvinner från diagrammet
 
 Undantag
@@ -67,7 +67,7 @@ Andra förbättringar och förändringar
 Nya egenskaper
 
 (CELLSJAVA-41074) - Exportera data från GridWeb till Excel-fil eller XML-fil - GridWeb för JAVA
-(CELLSJAVA-41078) - Stöd för att exportera SpreadsheetML (.xml)-fil - GridWeb (JAVA)
+(CELLSJAVA-41078) - Stöd för att exportera SpreadsheetML (.xml) fil - GridWeb (JAVA)
 
 Buggar
 

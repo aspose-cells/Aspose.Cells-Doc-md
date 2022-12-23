@@ -13,7 +13,7 @@ url: /tr/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-41|Excel elektronik tablolarındaki formülleri hesaplayın|Yeni özellik|
-|CELLSCPP-42|XLSX dosyalarını okumada geliştirilmiş performans|Gelişme|
+|CELLSCPP-42|XLSX dosyalarını okumada iyileştirilmiş performans|Gelişme|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for C++ numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **IWorkbook::CalculateFormula() yöntemini ekler**

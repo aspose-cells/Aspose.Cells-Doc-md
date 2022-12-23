@@ -6,11 +6,11 @@ url: /it/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 ---
 {{% alert color="primary" %}}
 
- volte, si desidera specificare quale tipo di dati deve essere caricato durante la creazione della cartella di lavoro dal file modello. Il filtraggio dei dati caricati può migliorare le prestazioni per il tuo scopo speciale, specialmente durante l'utilizzo[API di LightCells](/cells/it/net/using-lightcells-api/) . Si prega di utilizzare il[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) proprietà a tale scopo.
+ A volte, si desidera specificare quale tipo di dati deve essere caricato durante la creazione della cartella di lavoro dal file modello. Il filtraggio dei dati caricati può migliorare le prestazioni per il tuo scopo speciale, specialmente durante l'utilizzo[API di LightCells](/cells/it/net/using-lightcells-api/) . Si prega di utilizzare il[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter) proprietà a tale scopo.
 
 {{% /alert %}}
 
-Il codice di esempio seguente carica solo oggetti shape durante il caricamento della cartella di lavoro da[file modello](5115552.xlsx) che puoi scaricare dal link indicato. Lo screenshot seguente mostra il[file modello](5115552.xlsx) contenuti e spiega anche che i dati in colore rosso e sfondo giallo non verranno caricati perché[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)è stata impostata la proprietà[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
+Il codice di esempio seguente carica solo oggetti shape durante il caricamento della cartella di lavoro da[file modello](5115552.xlsx) che puoi scaricare dal link indicato. Lo screenshot seguente mostra il[file modello](5115552.xlsx)contenuti e spiega anche che i dati in colore rosso e sfondo giallo non verranno caricati perché[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)è stata impostata la proprietà[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
 
 ![cose da fare:immagine_alt_testo](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 

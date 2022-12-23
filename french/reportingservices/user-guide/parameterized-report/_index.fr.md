@@ -6,7 +6,7 @@ url: /fr/reportingservices/parameterized-report/
 ---
 {{% alert color="primary" %}} 
 
- UN*rapport paramétré* est un rapport qui accepte les valeurs d'entrée utilisées lors du traitement du rapport.
+ UNE*rapport paramétré* est un rapport qui accepte les valeurs d'entrée utilisées lors du traitement du rapport.
 
  Avec un rapport paramétré, vous pouvez faire varier la sortie d'un rapport en fonction des valeurs définies au moment de l'exécution. Reporting Services prend en charge deux types de paramètres : les paramètres de requête et les paramètres de rapport.
 

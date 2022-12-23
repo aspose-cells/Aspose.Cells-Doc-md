@@ -11,6 +11,6 @@ url: /ar/java/working-with-worksheets-using-aspose-cells/
 - [عرض وإخفاء أشرطة التمرير من المصنفات](/cells/ar/java/display-and-hide-scrollbars-of-workbooks/)
 - [عرض وإخفاء علامات تبويب المصنف باستخدام Aspose.Cells](/cells/ar/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
 - [تشفير المصنف باستخدام Aspose.Cells](/cells/ar/java/encrypt-workbook-using-aspose-cells/)
-- [قراءة ملف CSV بترميزات متعددة](/cells/ar/java/read-csv-file-with-multiple-encodings/)
-- [احفظ كل ورقة عمل إلى PDF مختلف باستخدام Aspose.Cells](/cells/ar/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+- [اقرأ CSV ملف ذو ترميزات متعددة](/cells/ar/java/read-csv-file-with-multiple-encodings/)
+- [احفظ كل ورقة عمل مختلفة PDF باستخدام Aspose.Cells](/cells/ar/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [قم بتعيين لون علامة تبويب ورقة العمل في Aspose.Cells](/cells/ar/java/set-worksheet-tab-color-in-aspose-cells/)

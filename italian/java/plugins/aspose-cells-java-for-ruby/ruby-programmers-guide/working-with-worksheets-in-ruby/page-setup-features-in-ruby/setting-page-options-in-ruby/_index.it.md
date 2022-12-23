@@ -6,7 +6,7 @@ url: /it/java/setting-page-options-in-ruby/
 ---
 ## **Aspose.Cells - Impostazione Opzioni Pagina**
 ### **Orientamento della pagina**
- Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java per Ruby** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
+ Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java per Rubino** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
 
 **Codice Rubino**
 
@@ -52,7 +52,7 @@ end   
 
 {{< /highlight >}}
 ### **Fattore di scala**
- Per applicare il ridimensionamento utilizzando**Aspose.Cells Java per Ruby** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
+ Per applicare il ridimensionamento utilizzando**Aspose.Cells Java per Rubino** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
 
 **Codice Rubino**
 
@@ -97,6 +97,6 @@ end
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Impostazione opzioni pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Impostazione opzioni pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagesetup.rb)

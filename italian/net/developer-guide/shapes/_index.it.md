@@ -10,7 +10,7 @@ description: Gestisci immagini, oleoobject, forme in file Excel.
 
 A volte è necessario inserire alcune forme necessarie nel foglio di lavoro. Potrebbe essere necessario inserire la stessa forma in diverse posizioni del foglio di lavoro. Oppure è necessario inserire in batch le forme nel foglio di lavoro.
 
- Non preoccuparti![Aspose.Cells](https://products.aspose.com/cells/) supporta tutte queste operazioni.
+ Non preoccuparti![Aspose.Cells](https://products.aspose.com/cells/)supporta tutte queste operazioni.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ Le forme in excel si suddividono principalmente nelle seguenti tipologie:
 - **Stelle e striscioni**
 - **Didascalie**
 
-Questo documento guida selezionerà una o due forme da ogni tipo per creare campioni. Attraverso questi esempi imparerai come usare[Aspose.Cells](https://products.aspose.com/cells/) per inserire la forma specificata nel foglio di lavoro.
+ Questo documento guida selezionerà una o due forme da ogni tipo per creare campioni. Attraverso questi esempi imparerai come usare[Aspose.Cells](https://products.aspose.com/cells/) per inserire la forma specificata nel foglio di lavoro.
 
 ## **Aggiunta di immagini nel foglio di lavoro di Excel in C#**
 
@@ -51,7 +51,7 @@ L'esempio seguente mostra come aggiungere uno o più oggetti OLE in un foglio di
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-OLE-InsertingOLEObjects-1.cs" >}}
 
-## **Inserimento di una riga in un foglio di lavoro Excel in C#**
+## **Inserimento di una riga nel foglio di lavoro Excel in C#**
 
  La forma della linea appartiene al**linee** categoria.
 
@@ -92,9 +92,9 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una freccia di linea nel foglio di lavoro di Excel in C#**
+## **Inserimento di una freccia di linea nel foglio di lavoro Excel in C#**
 
- La forma della freccia della linea appartiene al**Linee**categoria. È un caso speciale di linea.
+ La forma della freccia della linea appartiene al**Linee** categoria. È un caso speciale di linea.
 
 ***In Microsoft Excel (ad esempio 2007):***
 
@@ -133,7 +133,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di un rettangolo in un foglio di lavoro di Excel in C#**
+## **Inserimento di un rettangolo in un foglio di lavoro Excel in C#**
 
  La forma del rettangolo appartiene al**Rettangoli** categoria.
 
@@ -176,7 +176,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 ## **Inserimento di un foglio di lavoro da cubo a Excel in C#**
 
- La forma del cubo appartiene al**Forme di base** categoria.
+La forma del cubo appartiene al**Forme di base** categoria.
 
 ***In Microsoft Excel (ad esempio 2007):***
 
@@ -216,7 +216,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una freccia quadrupla callout nel foglio di lavoro di Excel in C#**
+## **Inserimento di una freccia quadrupla callout nel foglio di lavoro Excel in C#**
 
  La forma della freccia quadrupla di callout appartiene al**Frecce di blocco** categoria.
 
@@ -258,7 +258,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di un segno di moltiplicazione nel foglio di lavoro di Excel in C#**
+## **Inserimento di un segno di moltiplicazione nel foglio di lavoro Excel in C#**
 
  La forma del segno di moltiplicazione appartiene al**Forme di equazione** categoria.
 
@@ -302,7 +302,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 ## **Inserimento di un multidocumento nel foglio di lavoro Excel in C#**
 
-La forma del multidocumento appartiene al**Diagrammi di flusso** categoria.
+ La forma del multidocumento appartiene al**Diagrammi di flusso** categoria.
 
 ***In Microsoft Excel (ad esempio 2007):***
 
@@ -342,7 +342,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 
 
-## **Inserimento di una stella a cinque punte nel foglio di lavoro di Excel in C#**
+## **Inserimento di una stella a cinque punte nel foglio di lavoro Excel in C#**
 
  La forma della stella a cinque punte appartiene al**Stelle e striscioni** categoria.
 

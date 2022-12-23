@@ -10,7 +10,7 @@ url: /ru/net/copy-and-paste-rows-in-griddesktop-within-the-control-and-between-t
 
 {{% /alert %}} 
 ## **Установка свойства GridDesktop.ClipboardCopyPaste в режиме разработки и во время выполнения**
- В следующем примере кода свойство GridDesktop.ClipboardCopyPaste задается в**Время работы**.
+ В следующем примере кода свойство GridDesktop.ClipboardCopyPaste задается в**Время выполнения**.
 
 
 

@@ -30,7 +30,7 @@ url: /ar/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 - مشكلة تتعلق بتحديث الجدول (الجداول) المحورية
+ 41891 - مشكلة تتعلق بتحديث الجدول (الجداول) المحورية
 
  41868 - مشكلة صيغة DSUM
 
@@ -50,7 +50,7 @@ url: /ar/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \ 3) Aspose.Cells.GridDesktop
+ 3) Aspose.Cells.GridDesktop
 
 
 

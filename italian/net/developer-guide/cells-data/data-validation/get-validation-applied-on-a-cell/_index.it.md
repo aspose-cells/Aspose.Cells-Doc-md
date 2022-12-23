@@ -3,7 +3,7 @@ title: Ottieni la convalida applicata su uno Cell
 type: docs
 weight: 200
 url: /it/net/get-validation-applied-on-a-cell/
-description: Questo articolo mostra come applicare la convalida su un Cell con C#
+description: Questo articolo mostra come applicare la convalida su uno Cell con C#
 keywords: apply cell validation in excel with c#, apply validation on a cell in excel with c#, apply validation in excel with c#, cell validation in excel with c#, c# apply cell validation in excel, c# apply validation on a cell in excel, c# cell validation in excel, c# cell validation
 ---
 {{% alert color="primary" %}}
@@ -14,7 +14,7 @@ keywords: apply cell validation in excel with c#, apply validation on a cell in 
 
 {{% /alert %}}
 
-## Codice C# per ottenere la convalida applicata su un Cell
+## C# codice per ottenere la validazione applicata su uno Cell
 
 Sotto l'esempio di codice, viene mostrato come ottenere la convalida applicata su una cella.
 

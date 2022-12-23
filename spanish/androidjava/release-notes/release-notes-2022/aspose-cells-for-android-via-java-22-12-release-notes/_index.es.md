@@ -14,11 +14,11 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |:- |:- |:- |
 |CELLSJAVA-44890|admitir archivo de importación con contraseña abierta para GridWeb|
 |CELLSJAVA-43645|El atributo de "formato 3D" del rectángulo no se representa correctamente|
-|CELLSJAVA-44936|Establecer la configuración de DPI de la imagen del gráfico (PNG)|
+|CELLSJAVA-44936|Establecer imagen de gráfico (PNG) Configuración de DPI|
 |CELLSJAVA-44937|Establecer la configuración de DPI de la imagen del gráfico (JPG)|
-|CELLSJAVA-44998|Las comillas dobles causan que el estilo en línea falle en HTML|
-|CELLSJAVA-44884| Los números de lista son incorrectos después de la conversión de XLSX a HTML o PDF|
-|CELLSJAVA-44883|El libro de trabajo que contiene la tabla dinámica se corrompe después de procesar la tabla dinámica en él|
+|CELLSJAVA-44998|Las comillas dobles causaron un error en el estilo en línea en HTML|
+|CELLSJAVA-44884| Los números de lista son incorrectos después de la conversión XLSX a HTML o PDF|
+|CELLSJAVA-44883| El libro de trabajo que contiene la tabla dinámica se corrompe después de procesar la tabla dinámica en él|
 |CELLSJAVA-44879|El resultado formateado para GridWeb fue diferente de Cell.DisplayStringValue|
 |CELLSJAVA-44327|Se muestran bordes y menos líneas en sectores circulares en blanco y negro en el gráfico para la representación de imágenes|
 |CELLSJAVA-44853|Los datos en el ángulo del eje x no son los mismos que los de Excel en la representación de gráfico a imagen|
@@ -26,14 +26,14 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44904|Problemas al renderizar gráficos de Excel a la conversión de JPG|
 |CELLSJAVA-44850|Al importar un archivo XLT, el texto no se muestra completamente usando las últimas demostraciones con la última versión Aspose.Cells. GridWeb con los archivos de recursos más recientes|
 |CELLSJAVA-44857|Cuando se usa la versión Aspose.Cells.GridWeb for Java v22.8 con los archivos de recursos más recientes para abrir un documento de Excel, el efecto de las celdas es diferente del documento original|
-|CELLSJAVA-44903|La representación de SVG no funciona como se esperaba|
+|CELLSJAVA-44903|SVG la interpretación no funciona como se esperaba|
 |CELLSJAVA-44909| Cuando varias líneas están en negrita, parece que se está desbordando a las otras líneas innecesariamente.|
 |CELLSJAVA-44888|"+" y "-" desaparecieron después de la conversión: representación de Excel a HTML|
 |CELLSJAVA-44775|Las etiquetas de los gráficos se superponen en la representación del gráfico a la imagen|
 |CELLSJAVA-44882|Representación de gráfico a imagen: una de las etiquetas está dentro del gráfico de anillos|
 |CELLSJAVA-44943|XLSX a PDF: las etiquetas de los gráficos no se representan correctamente|
-|CELLSJAVA-44928|XLS a PDF: datos insuficientes para una imagen|
-|CELLSJAVA-44910|Convierta los resultados de Excel a HTML en miles de imágenes pequeñas similares|
+|CELLSJAVA-44928|XLS a PDF: Datos insuficientes para una imagen|
+|CELLSJAVA-44910|Convertir Excel a HTML da como resultado miles de imágenes pequeñas similares|
 |CELLSJAVA-44944|Cambiar el tamaño de las tablas cambia el formato de las celdas|
 |CELLSJAVA-44948| Las imágenes no se pueden mostrar en la hoja al convertir HTML a Excel|
 |CELLSJAVA-44970|Optimizar el efecto de sombra|
@@ -42,15 +42,15 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44949|La transparencia cambió al insertar el rango de Excel como imagen con formato diferente en la diapositiva PowerPoint|
 |CELLSJAVA-44985|Conversión de Excel a HTML: la leyenda del gráfico no aparece y el área de trazado se trunca|
 |CELLSJAVA-44952|Problema con el método DataBar.toImage con respecto al ancho|
-|CELLSJAVA-44986|Las imágenes importadas no están alineadas en una línea cuando las imágenes están en Div.|
+|CELLSJAVA-44986| Las imágenes importadas no están alineadas en una línea cuando las imágenes están en Div.|
 |CELLSJAVA-44987|Algunas imágenes están tapadas por otras al cargar html|
 |CELLSJAVA-44988|El texto no se gira al cargar html|
 |CELLSJAVA-44989|La configuración de fuente en div se pierde al cargar html|
 |CELLSJAVA-44997|Datos y formatos perdidos en la conversión de HTML a Excel|
-|CELLSJAVA-44999| Aspose.Cells La configuración de globalización personalizada no funciona para la mayoría de la tabla dinámica|
+|CELLSJAVA-44999|Aspose.Cells La configuración de globalización personalizada no funciona para la mayoría de la tabla dinámica|
 |CELLSJAVA-44898|La lectura de GZIPInputStream a veces arroja un error falso "El archivo está dañado" en 22.7 y versiones más nuevas|
 |CELLSJAVA-44881|Excepción "java.lang.ArrayIndexOutOfBoundsException: 15070" al cargar un archivo XLS|
-|CELLSJAVA-44908|Excepción "java.lang.OutOfMemoryError: Java heap space" al cargar archivos XLSB grandes|
+|CELLSJAVA-44908|Excepción "java.lang.OutOfMemoryError: Java heap space" al cargar archivos grandes XLSB|
 |CELLSJAVA-44929|Regresión: "java.lang.NullPointerException" en Workbook.calculateFormula()|
 |CELLSJAVA-44927|Excepción "java.lang.IndexOutOfBoundsException: Índice: 5, Tamaño: 5" al convertir un archivo de Excel a HTML|
 |CELLSJAVA-44939|Error "java.lang.StringIndexOutOfBoundsException: índice de cadena fuera de rango: 0" al intentar leer un archivo de Excel|

@@ -16,10 +16,10 @@ Aşağıdaki örnek kod, tüm pivot tabloyu açık mavi renkle biçimlendirir ve
 
 **Kodu çalıştırmadan önce giriş pivot tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](format-pivot-table-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_1.png)
 
 **Kodu çalıştırdıktan sonra çıkış pivot tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](format-pivot-table-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-FormatCells.py" >}}

@@ -25,12 +25,12 @@ El siguiente ejemplo muestra cómo activar una hoja de trabajo y hacer una celda
 
 ![todo:imagen_alternativa_texto](activating-sheets-and-activating-a-cell-in-worksheet_1.png)
 
-## Java código para configurar una hoja de cálculo activa en Excel
+## Java código para configurar una hoja de trabajo activa en Excel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ActivatingSheetsandActivatingCell-ActivatingSheetsandActivatingCell.java" >}}
 
 {{% alert color="primary" %}}
 
- En**evaluación** modo, es decir; sin establecer una licencia válida, la hoja de trabajo activa siempre será la que contenga la marca de agua de evaluación. Este comportamiento solo se puede anular configurando la licencia al inicio de la aplicación.
+ En**evaluación**modo, es decir; sin establecer una licencia válida, la hoja de trabajo activa siempre será la que contenga la marca de agua de evaluación. Este comportamiento solo se puede anular configurando la licencia al inicio de la aplicación.
 
 {{% /alert %}}

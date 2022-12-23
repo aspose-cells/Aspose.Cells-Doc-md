@@ -14,7 +14,7 @@ Bazen birden çok çalışma sayfasını tek bir çalışma sayfasında birleşt
 
 ## **Çalışma Sayfalarını Birleştirme**
 
- Aşağıdaki örnek,[**Aralık.kopya()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) tüm kaynak çalışma sayfalarını bir hedef çalışma kitabı içindeki tek bir sayfaya kopyalama yöntemi.
+ Aşağıdaki örnek,[**Aralık.kopya()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)tüm kaynak çalışma sayfalarını bir hedef çalışma kitabı içindeki tek bir sayfaya kopyalama yöntemi.
 
 ### **Kaynak Çalışma Kitabı**
 
@@ -22,15 +22,15 @@ Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu örnek için, ü
 
 **Çalışma sayfası 1**
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
 **Çalışma sayfası 2**
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
 **Çalışma sayfası 3**
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
 ### **Çıktı Çalışma Kitabı**
 
@@ -38,7 +38,7 @@ Aşağıdaki kodu çalıştırmak, üç çalışma sayfasının da verilerini i�
 
 **Çıktı çalışma sayfası artık 3 kaynak çalışma sayfasının tümünün verilerini içerir**
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
 ## **Kaynak Çalışma Kitabını ve Çıktı Çalışma Kitabını İndirin**
 

@@ -12,7 +12,7 @@ url: /es/net/aspose-cells-for-net-17-02-0-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-45049|Recorte filas y columnas en blanco mientras exporta hojas de cálculo a formato CSV|Nueva caracteristica|
+|CELLSNET-45049|Recorte filas y columnas en blanco mientras exporta hojas de cálculo al formato CSV|Nueva caracteristica|
 |CELLSNET-45069|Vincular hoja de trabajo a un objeto de colección personalizado (Aspose.Cells.GridWeb)|Nueva caracteristica|
 |CELLSNET-44787|SortRange no tiene la función de deshacer/rehacer (Aspose.Cells.GridDesktop)|Nueva caracteristica|
 |CELLSNET-44746|Aspose.Cells.GridDesktop: Problema con la función Deshacer/Rehacer al realizar Cortar/Copiar/Pegar|Nueva caracteristica|
@@ -22,15 +22,15 @@ url: /es/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-42687|Obtener una lista de fuentes utilizadas en una hoja de cálculo|Nueva caracteristica|
 |CELLSNET-45048|El archivo PDF resultante no es compatible con PDFA1B|Mejora|
 |CELLSNET-45099|Gráficos de cascada y TreeMap, Series.getValues() debe mostrar valores como visualización|Mejora|
-|CELLSNET-45026|El método CalculateFormula() tarda demasiado en volver|Actuación|
-|CELLSNET-45071|CellsException: sin memoria, al convertir Workbook a TIFF|Actuación|
-|CELLSNET-45067|La conversión a PDF tarda demasiado|Actuación|
-|CELLSNET-45105|La carga de HTML falla cuando CultureInfo está en francés|Insecto|
+|CELLSNET-45026|El método CalculateFormula() tarda demasiado en volver|Rendimiento|
+|CELLSNET-45071|CellsException: sin memoria, al convertir Workbook a TIFF|Rendimiento|
+|CELLSNET-45067|La conversión a PDF tarda demasiado|Rendimiento|
+|CELLSNET-45105|La carga de HTML falla cuando CultureInfo es francés|Insecto|
 |CELLSNET-45089|HTML a Excel: el archivo de Excel está dañado|Insecto|
 |CELLSNET-45072|WordArt de XLS no se procesa en HTML|Insecto|
 |CELLSNET-45053|Ciertas etiquetas HTML no se tienen en cuenta y faltan algunos contenidos|Insecto|
 |CELLSNET-45039|La regla de estilo mixto no se tiene en cuenta al representar el HTML en Excel|Insecto|
-|CELLSNET-45036|Los contenidos después de una etiqueta se recortan al importar HTML y convertir a XLSX|Insecto|
+|CELLSNET-45036|El contenido después de una etiqueta se recorta al importar HTML y convertirlo a XLSX|Insecto|
 |CELLSNET-45035|Todo el contenido de la celda se pone en negrita cuando parte de él está entre etiquetas FUERTES|Insecto|
 |CELLSNET-45033|Cell el contenido se recorta al importar HTML|Insecto|
 |CELLSNET-44336|No se puede convertir Html a XLSX correctamente|Insecto|
@@ -38,10 +38,10 @@ url: /es/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45093|La función SUMAPRODUCTO no funciona|Insecto|
 |CELLSNET-45085|El valor calculado de la función LOGNORM.DIST no es correcto en PDF|Insecto|
 |CELLSNET-44740|El patrón DateTime personalizado no se puede aplicar a GridColumn|Insecto|
-|CELLSNET-45130|Diferente resultado usando Excel exportar PDF y Aspose.Cells guardar como PDF|Insecto|
+|CELLSNET-45130|Resultado diferente usando la exportación de Excel PDF y Aspose.Cells guardar como PDF|Insecto|
 |CELLSNET-45095|La imagen de la hoja de cálculo no se ha renderizado a PDF|Insecto|
 |CELLSNET-45075|Los hipervínculos de la hoja de cálculo no se exportan a PDF|Insecto|
-|CELLSNET-45074|Problema de formato en la representación de Excel a PDF|Insecto|
+|CELLSNET-45074|Problema de formato en Excel para la representación PDF|Insecto|
 |CELLSNET-45070|El gráfico circular 3D no se procesa al convertir la hoja de cálculo a PDF en Mono|Insecto|
 |CELLSNET-41283|PDF diferente cuando se guarda desde Excel y Aspose.Cells|Insecto|
 |CELLSNET-41196|Problemas con la función ToTiff: se muestra una columna adicional|Insecto|
@@ -50,12 +50,12 @@ url: /es/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45084|El valor del gráfico es diferente al convertir la hoja de cálculo a PDF|Insecto|
 |CELLSNET-45082|El gráfico en la pestaña Chart9 está cambiando después de cargar y guardar el archivo fuente de Excel|Insecto|
 |CELLSNET-45066|Las formas se comprimen horizontalmente al convertir la hoja de cálculo a PDF|Insecto|
-|CELLSNET-45064|Las etiquetas de los ejes no se procesan al convertir una hoja de cálculo a PDF|Insecto|
+|CELLSNET-45064|Las etiquetas de los ejes no se procesan al convertir la hoja de cálculo a PDF|Insecto|
 |CELLSNET-44842|Falta la etiqueta cuando un gráfico se convierte en imagen|Insecto|
 |CELLSNET-44410|Grupo rotado de formas mal representadas en la imagen|Insecto|
 |CELLSNET-45121|El documento de Excel está vacío después de volver a guardar|Insecto|
 |CELLSNET-45120|El gráfico no se calcula/actualiza correctamente después de eliminar un rango|Insecto|
-|CELLSNET-45118|La hoja de cálculo se corrompe después de guardar como XLSM|Insecto|
+|CELLSNET-45118|La hoja de cálculo se corrompe después de guardarla como XLSM|Insecto|
 |CELLSNET-45107|Faltan cuadros de texto después de fusionar gráficos al combinar libros de trabajo|Insecto|
 |CELLSNET-45104|El cambio de LinkSource está creando entradas duplicadas|Insecto|
 |CELLSNET-45101|Cambiar el estilo del borde existente no parece funcionar|Insecto|
@@ -66,11 +66,11 @@ url: /es/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45052|La posición del texto se cambia después de cargar y guardar el archivo|Insecto|
 |CELLSNET-44835|System.NotImplementedException en el método WebWorksheet.CreateSubtotal|Excepción|
 |CELLSNET-45068|Se lanza una excepción al cargar el archivo de Excel|Excepción|
-|CELLSNET-45112|Cuando llama a Pictures.Clear(), luego Save XLS, se produce System.ArgumentOutOfRangeException|Excepción|
+|CELLSNET-45112|Cuando llame a Pictures.Clear(), luego guarde XLS, se produce System.ArgumentOutOfRangeException|Excepción|
 |CELLSNET-45111|Cuando se guarda XLS, se produce System.ArgumentOutOfRangeException|Excepción|
 |CELLSNET-45108|System.NullReferenceException en Workbook ctor para XLSB|Excepción|
 |CELLSNET-45103|Range.MoveTo() lanza una excepción|Excepción|
-|CELLSNET-45088|Excepción al renderizar una hoja de cálculo a formato de archivo PDF|Excepción|
+|CELLSNET-45088|Excepción al renderizar una hoja de cálculo al formato de archivo PDF|Excepción|
 |CELLSNET-45080|Excepción al cargar un formato de archivo HTML|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
@@ -145,7 +145,7 @@ var book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 #### **Agregado Cells. Método TextToColumns**
- La última revisión de las API Aspose.Cells for .NET ha expuesto el método Cells.TextToColumns para imitar el de Excel**Texto a columnas** rasgo. Excel proporciona esta función desde**Herramientas de datos** bajo la**Datos** pestaña. Tenga en cuenta que, para dividir el contenido de una columna en varias columnas, los datos deben contener un delimitador específico, como una coma (o cualquier otro carácter), según el cual el API intenta dividir el contenido de una celda en varias celdas.
+ La última revisión de las API Aspose.Cells for .NET ha expuesto el método Cells.TextToColumns para imitar el de Excel**Texto a columnas** rasgo. Excel proporciona esta función desde**Herramientas de datos** bajo la**Datos**pestaña. Tenga en cuenta que, para dividir el contenido de una columna en varias columnas, los datos deben contener un delimitador específico, como una coma (o cualquier otro carácter), según el cual el API intenta dividir el contenido de una celda en varias celdas.
 
 Aquí hay un escenario de uso simple para demostrar el uso de API recién expuesto.
 
@@ -199,7 +199,7 @@ foreach (Aspose.Cells.Font font in fonts)
 
 {{< /highlight >}}
 #### **Se agregó la propiedad TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Esta revisión de Aspose.Cells for .NET ha expuesto la propiedad de tipo booleano TrimLeadingBlankRowAndColumn para la clase TxtSaveOptions que indica si las filas y columnas en blanco iniciales deben recortarse como lo hace Excel al exportar datos a CSV o formatos delimitados por tabulaciones. El valor predeterminado de la propiedad mencionada anteriormente es false. En caso de que los datos de la hoja de trabajo no comiencen desde la primera celda, es decir: A1, la aplicación de Excel elimina las filas y columnas en blanco iniciales mientras exporta los datos a CSV o formatos delimitados por tabulaciones; sin embargo, las API Aspose.Cells de forma predeterminada conservan las filas y columnas en blanco para la misma muestra a fin de mantener la ubicación de los datos conservada si los archivos CSV o delimitados por tabulaciones exportados tienen que volver a importarse mediante las API Aspose.Cells.
+Esta revisión de Aspose.Cells for .NET ha expuesto la propiedad de tipo booleano TrimLeadingBlankRowAndColumn para la clase TxtSaveOptions que indica si las filas y columnas en blanco iniciales deben recortarse como lo hace Excel al exportar datos a CSV o formatos delimitados por tabulaciones. El valor predeterminado de la propiedad mencionada anteriormente es falso. En caso de que los datos en la hoja de trabajo no comiencen desde la primera celda, es decir: A1, la aplicación de Excel elimina las filas y columnas en blanco iniciales mientras exporta los datos a CSV o formatos delimitados por tabuladores; sin embargo, las API Aspose.Cells de manera predeterminada, retienen las filas y columnas en blanco para la misma muestra para mantener la ubicación de los datos si los archivos CSV o delimitados por tabulaciones exportados tienen que volver a importarse utilizando las API Aspose.Cells.
 
 Aquí hay un escenario de uso simple de la propiedad TrimLeadingBlankRowAndColumn.
 
@@ -285,12 +285,12 @@ Aspose.Cells.GridDesktop for .NET 17.02.0 ha proporcionado dos nuevos métodos q
 #### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-1. [Autoajustar columnas y filas al cargar HTML en Workbook](/cells/es/net/autofit-columns-and-rows-while-loading-html-in-workbook/)
+1. [Autoajustar columnas y filas al cargar HTML en el libro de trabajo](/cells/es/net/autofit-columns-and-rows-while-loading-html-in-workbook/)
 1. [Convertir Texto a Columnas usando Aspose.Cells](/cells/es/net/convert-text-to-columns-using-aspose-cells/)
 1. [Obtenga una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Recibe advertencias al cargar un archivo de Excel](/cells/es/net/get-warnings-while-loading-excel-file/)
 1. [Leer y manipular gráficos de Excel 2016](/cells/es/net/read-and-manipulate-excel-2016-charts/)
-1. [Recorte las filas y columnas en blanco iniciales mientras exporta hojas de cálculo a formato CSV](/cells/es/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Recorte las filas y columnas en blanco iniciales al exportar hojas de cálculo al formato CSV](/cells/es/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 1. [Vinculación de una hoja de trabajo a un objeto de colección personalizado mediante GridWeb](/cells/es/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/)
 1. [Cambie el nombre de las columnas duplicadas automáticamente al exportar datos de la hoja de trabajo](/cells/es/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
 1. [Dividir paneles en la hoja de trabajo de GridDesktop](/cells/es/net/split-panes-in-griddesktop-worksheet/)

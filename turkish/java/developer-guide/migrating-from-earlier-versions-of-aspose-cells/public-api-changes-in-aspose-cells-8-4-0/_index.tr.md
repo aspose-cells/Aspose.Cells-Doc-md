@@ -225,7 +225,7 @@ Aspose.Cells API'ler, elektronik tablolardan temayla ilgili verilerin çıkarıl
 ### **Özellik DrawObject.ImageBytes Eklendi**
 Aspose.Cells for Java 8.4.0, Grafik veya Şekil'den resim verilerini almak için DrawObject.ImageBytes özelliğini kullanıma sundu.
 ### **Özellik HtmlSaveOptions.ExportBogusRowData Eklendi**
- Aspose.Cells for Java 8.4.0, {HtmlSaveOptions.ExportBogusRowData}} özelliğini sağladı. Boole tipi özelliği, e-tabloyu HTML biçimine dışa aktarırken API'in sahte alt satır verileri enjekte edip etmeyeceğini belirler.
+ Aspose.Cells for Java 8.4.0, {HtmlSaveOptions.ExportBogusRowData}} özelliğini sağladı. Boole tipi özelliği, elektronik tabloyu HTML biçimine dışa aktarırken API'in sahte alt sıra verileri enjekte edip etmeyeceğini belirler.
 
 {{% alert color="primary" %}} 
 
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Özellik HtmlSaveOptions.CellCssPrefix Eklendi**
-Yeni eklenen özellik HtmlSaveOptions.CellCssPrefix, elektronik tabloları HTML biçimine dışa aktarırken CSS dosyaları için önek ayarlamanıza olanak tanır.
+Yeni eklenen özellik HtmlSaveOptions.CellCssPrefix, e-tabloları HTML biçiminde dışa aktarırken CSS dosyaları için önek ayarlamanıza olanak tanır.
 
 {{% alert color="primary" %}} 
 

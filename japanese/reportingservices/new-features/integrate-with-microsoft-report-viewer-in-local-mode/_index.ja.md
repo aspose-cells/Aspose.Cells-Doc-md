@@ -13,7 +13,7 @@ Microsoft Report Viewer は、RDL および RDLC レポートを WinForms およ
 - リモート モードでは、Report Viewer は、接続先の Report Server にインストールされているすべての形式にレポートをエクスポートできます。したがって、レポートをより多くの Microsoft Excel 形式にエクスポートするには、サーバーに Aspose.Cells for Reporting Services をインストールするだけで済みます。
 - ただし、ローカル モードでは、Report Viewer は Report Server に接続せず、エクスポート形式のリストはいくつかの組み込み形式に限定されます。
 
- Aspose.Cells for Reporting Services を開発マシンにインストールし、以下の手順に従うと、ローカル モードで動作している Report Viewer からより多くの Microsoft Excel 形式にエクスポートできます。
+Aspose.Cells for Reporting Services を開発マシンにインストールし、以下の手順に従うと、ローカル モードで動作している Report Viewer からより多くの Microsoft Excel 形式にエクスポートできます。
 
 {{% /alert %}} 
 ### **ローカル モードで Aspose.Cells を操作する**
@@ -246,7 +246,7 @@ End Sub
 {{< /highlight >}}
 
 1. コードから AddExtension メソッドを呼び出します。
- - Aspose.Cells for Reporting Services エクスポート形式を Report Viewer コントロール インスタンスに追加する必要があるときはいつでも、AddExtension (前の手順で示した) を呼び出すことができます。 Form からの呼び出しを検討する_ロードまたはページ_WinForms または ASP .NET アプリケーションのイベント ハンドラーを読み込みます。
+ Aspose.Cells for Reporting Services エクスポート形式を Report Viewer コントロール インスタンスに追加する必要があるときはいつでも、AddExtension (前の手順で示した) を呼び出すことができます。 Form からの呼び出しを検討する_ロードまたはページ_WinForms または ASP .NET アプリケーションのイベント ハンドラーを読み込みます。
  - すべてまたは一部のエクスポート Aspose.Cells for Reporting Services エクスポート形式を追加できます。レポート ビューアーに表示される形式の表示名を指定できます。
 ローカル モードで Aspose.Cells for Reporting Services エクスポート形式を Microsoft Report Viewer に追加するには、次のコードを使用します。
 

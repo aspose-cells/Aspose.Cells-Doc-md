@@ -6,7 +6,7 @@ url: /ar/net/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-بشكل افتراضي ، يخزن Aspose.Cells 17 رقمًا مهمًا من القيم المزدوجة داخل ملف Excel ، على عكس MS-Excel الذي يخزن فقط 15 رقمًا مهمًا. يمكنك تغيير السلوك الافتراضي لـ Aspose.Cells من 17 خانة مميزة إلى 15 رقمًا مميزًا باستخدام[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)منشأه.
+بشكل افتراضي ، يخزن Aspose.Cells 17 رقمًا مهمًا من القيم المزدوجة داخل ملف Excel ، على عكس MS-Excel الذي يخزن فقط 15 رقمًا مهمًا. يمكنك تغيير السلوك الافتراضي لـ Aspose.Cells من 17 خانة مميزة إلى 15 رقمًا مميزًا باستخدام[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)خاصية.
 
 ## **تحديد الارقام المهمة التي سيتم تخزينها في ملف اكسل**
 

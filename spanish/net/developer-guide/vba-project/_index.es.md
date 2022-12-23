@@ -13,7 +13,7 @@ description: Agregue el módulo VBA y modifique VBA o macro con la biblioteca As
 
 {{% /alert %}}
 
-El siguiente código de ejemplo crea un nuevo libro de trabajo y agrega un nuevo módulo VBA y código de macro y guarda el resultado en formato XLSM. Una vez, abrirá el archivo XLSM de salida en Microsoft Excel y haga clic en el**Desarrollador > Visual Basic** comandos de menú, verá un módulo llamado "TestModule" y dentro de él, verá el siguiente código de macro.
+El siguiente código de muestra crea un nuevo libro de trabajo y agrega un nuevo módulo VBA y código de macro y guarda la salida en el formato XLSM. Una vez, abrirá el archivo de salida XLSM en Microsoft Excel y haga clic en el**Desarrollador > Visual Basic** comandos de menú, verá un módulo llamado "TestModule" y dentro de él, verá el siguiente código de macro.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-Aquí está el código de muestra para generar el archivo XLSM de salida con el módulo VBA y el código de macro.
+Aquí está el código de muestra para generar el archivo de salida XLSM con el módulo VBA y el código de macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

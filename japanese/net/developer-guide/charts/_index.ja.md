@@ -4,7 +4,7 @@ linktitle: チャート
 type: docs
 weight: 130
 url: /ja/net/creating-charts/
-description: CSharp で Excel および ODS ファイル用のグラフを作成します。
+description: CSharp for Excel および ODS ファイルでグラフを作成します。
 keywords: create a chart, make a graph 
 ---
 {{% alert color="primary" %}}

@@ -12,23 +12,23 @@ A volte riceviamo la seguente domanda: perché dovremmo usare i prodotti Aspose 
 
 
 ## **xlsx4j**
-xlsx4j è una libreria Java open source (ASLv2) per la creazione e la manipolazione di file xlsx Excel Microsoft Open XML simile a docx4j per la manipolazione di file docx Microsoft Open XML Word.
+xlsx4j è una libreria open source (ASLv2) Java per la creazione e la manipolazione di file xlsx Microsoft Open XML Excel simile a docx4j per la manipolazione di file docx Microsoft Open XML Word.
 È simile all'SDK OpenXML di Microsoft, ma for Java. docx4j utilizza JAXB per creare la rappresentazione dell'oggetto in memoria.
 Dovrai dedicare del tempo a comprendere JAXB e la struttura dei file Open XML.
 
  Leggi di più su[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java è un pluripremiato componente Excel Spreadsheet che consente agli sviluppatori Java di integrare la capacità di leggere, scrivere e manipolare fogli di calcolo Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nelle proprie applicazioni Java senza dover fare affidamento su Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF e formati di file immagine nelle proprie applicazioni Java senza dover fare affidamento su Microsoft Excel®.
 
-Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dei dati di altri fornitori. Con Aspose.Cells for Java gli sviluppatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, eseguire lo streaming di dati Excel®, salvare in vari formati e molto altro - tutto questo senza la necessità di Microsoft Excel® o Microsoft Office Automation.
+Aspose.Cells for Java è un componente maturo, scalabile e ricco di funzionalità che offre molte funzioni che vanno ben oltre le semplici capacità di esportazione dei dati di altri fornitori. Con Aspose.Cells for Java gli sviluppatori possono esportare dati, formattare fogli di calcolo al livello più granulare, importare immagini, creare grafici, applicare e calcolare formule complesse, eseguire lo streaming di dati Excel®, salvare in vari formati e molto altro - tutto questo senza bisogno di Microsoft Excel® o Microsoft Domotica.
 
  Leggi di più su[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **Perché non xlsx4j**
-xlsx4j può solo analizzare e salvare file xlsx Microsoft Open XML Excel, Aspose.Cells for Java può elaborare tutti i formati di file Excel (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) e supporta varie conversioni di formati di file.
+xlsx4j only can parsing and saving Microsoft Open XML Excel xlsx files,Aspose.Cells for Java can process all Excel file formats(XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) and supports various file format conversions.
 
 ## **Aspose.Cells Java per xlsx4j**
-Il progetto Aspose.Cells per xlsx4j mostra come è possibile eseguire diverse attività utilizzando le API Java Aspose.Cells rispetto a xlsx4j. Il progetto copre anche le funzionalità che sono disponibili solo nelle API Aspose.Cells ma non in xlsx4j per la gestione dei fogli di calcolo.
+Il progetto Aspose.Cells per xlsx4j mostra come è possibile eseguire diverse attività utilizzando le API Aspose.Cells Java rispetto a xlsx4j. Il progetto copre anche le funzionalità che sono disponibili solo nelle API Aspose.Cells ma non in xlsx4j per la gestione dei fogli di calcolo.
 
 Questo progetto è utile per gli sviluppatori che desiderano confrontare xlsx4j con Aspose.Cells OPPURE migrare da xlsx4j a Aspose.Cells.
 ## **Requisiti di sistema e piattaforme supportate**
@@ -43,15 +43,15 @@ Di seguito le piattaforme supportate:
 
 - Aspose.Cells 8.3.0 o superiore.
 - librerie docx4j 3.1.0 o successive.
-- IDE Java (Eclipse, NetBeans, IntelliJ, ...).
+- Java IDE (Eclipse, NetBeans, IntelliJ, ...).
 ## **Download**
 Le seguenti versioni di esempi in esecuzione sono disponibili per il download su tutti i siti di social coding sotto indicati:
 
 ### **Git Hub**
-- [Aspose.Cells Java per Xlsx4j - versione 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
+- [Aspose.Cells Java per Xlsx4j-v 1.0](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 
- Da configurare**Aspose.Cells for Java API** , includi l'URL del repository Aspose e la dipendenza dell'API Aspose.Cells for Java nel tuo**pom.xml** come segue:
-### **Aspose Repository Maven**
+ Da configurare**Aspose.Cells for Java API** , includi l'URL del repository Aspose e la dipendenza Aspose.Cells for Java API maven nel tuo**pom.xml** come segue:
+### **Aspose Maven Archivio**
 {{< highlight "java" >}}
 
  <repositories>
@@ -88,7 +88,7 @@ Le seguenti versioni di esempi in esecuzione sono disponibili per il download su
 
 {{< /highlight >}}
 
-**Nota:**Utilizzare l'ultima versione disponibile dell'API Aspose.
+**Nota:**Si prega di utilizzare l'ultima versione disponibile del Aspose API.
 ## **Supporto, estensione e contributo**
 ### **Supporto**
 Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni prodotti non sarebbe bastato. Avevamo anche bisogno di fornire un buon servizio. Siamo sviluppatori noi stessi e comprendiamo quanto sia frustrante quando un problema tecnico o una stranezza nel software ti impedisce di fare ciò che devi fare. Siamo qui per risolvere i problemi, non per crearli.
@@ -137,5 +137,5 @@ Questa sezione include i seguenti argomenti
     - [Rileva Cells unito in xlsx4j](/cells/it/java/detect-merged-cells-in-xlsx4j/)
     - [Mostra e nascondi le barre di scorrimento delle cartelle di lavoro in xlsx4j](/cells/it/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
     - [Mostra e nascondi le schede della cartella di lavoro in xlsx4j](/cells/it/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-    - [Salva ogni foglio di lavoro in un PDF diverso in xlsx4j](/cells/it/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+    - [Salva ogni foglio di lavoro in un diverso PDF in xlsx4j](/cells/it/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Imposta il colore della scheda del foglio di lavoro in xlsx4j](/cells/it/java/set-worksheet-tab-color-in-xlsx4j/)

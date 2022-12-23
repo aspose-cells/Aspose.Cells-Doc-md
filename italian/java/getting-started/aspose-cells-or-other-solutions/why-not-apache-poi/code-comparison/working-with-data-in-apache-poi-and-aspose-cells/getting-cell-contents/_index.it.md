@@ -7,7 +7,7 @@ url: /it/java/getting-cell-contents/
 ## **Aspose.Cells - Ottenere Cell Contenuto**
 Il metodo Cells.get() è disponibile per accedere alle celle.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -67,7 +67,7 @@ RowCollection righe = cells.getRows();
 ## **Apache POI SS - HSSF XSSF - Ottenere Cell Contenuto**
 Apache POI fornisce la classe Cell per accedere a varie proprietà delle celle.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

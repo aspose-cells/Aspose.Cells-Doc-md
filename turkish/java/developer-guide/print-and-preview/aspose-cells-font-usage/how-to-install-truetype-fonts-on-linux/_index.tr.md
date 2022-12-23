@@ -6,7 +6,7 @@ url: /tr/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-En olası senaryo, elektronik tabloları PDF'ye dönüştürmek için Aspose.Cells'i kullanmanızdır. Bunu Linux gibi Windows tabanlı olmayan bir işletim sisteminde yapıyorsanız, bu konuda Aspose.Cells'in elektronik tablolarınızı en iyi şekilde aslına uygun olarak işlemesini nasıl sağlayacağınız açıklanmaktadır.
+En olası senaryo, elektronik tabloları PDF'e dönüştürmek için Aspose.Cells'i kullanmanızdır. Bunu Linux gibi Windows tabanlı olmayan bir işletim sisteminde yapıyorsanız, bu konuda Aspose.Cells'in elektronik tablolarınızı en iyi doğrulukla işlemesini nasıl sağlayacağınız açıklanmaktadır.
 
 Aspose.Cells tarafından dönüştürülen elektronik tabloların orijinaline olabildiğince yakın görünmesini sağlamak için Linux sisteminize "Windows yazı tipleri" veya "TrueType yazı tipleri" yüklemeniz gerekebilir çünkü en sık kullanılan TrueType yazı tipleri önceden yüklenmiş olarak gelmez. Varsayılan olarak Linux dağıtımları.
 

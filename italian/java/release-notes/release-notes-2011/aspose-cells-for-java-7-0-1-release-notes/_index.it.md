@@ -36,9 +36,9 @@ url: /it/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Eccezioni
 
- 29285 Ricevi un'eccezione durante il salvataggio di PDF con locale francese
+ 29285 Ottieni un'eccezione durante il salvataggio di PDF con locale francese
 
- 30459 Ricevi un'eccezione durante la lettura del file XLS con la locale predefinita che non ha il prefisso internazionale
+ 30459 Ricevi un'eccezione durante la lettura del file XLS con le impostazioni locali predefinite prive di prefisso internazionale
 
  30489 Worksheet.autoFitColumn() e Chart.toImage() possono causare "java.awt.HeadlessException"
 
@@ -46,8 +46,8 @@ url: /it/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Insetti
 
- 30103 I caratteri del grafico sono stati modificati dopo aver salvato nuovamente il file XLSX
+30103 I caratteri del grafico sono stati modificati dopo il nuovo salvataggio del file XLSX
 
-28858 L'ordinamento dei nomi provoca la modifica della cella collegata del controllo
+ 28858 L'ordinamento dei nomi provoca la modifica della cella collegata del controllo
 
  30486 L'allineamento verticale è stato modificato nel file XLSX nuovamente salvato

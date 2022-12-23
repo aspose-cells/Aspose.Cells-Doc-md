@@ -12,7 +12,7 @@ url: /ar/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and
 
 {{% /alert %}}
 
- تُظهر لقطة الشاشة التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على الجدول الفارغ ويبرز الخلية D5 الموجودة داخل الجدول. سنصل إلى هذا الجدول من الخلية D5 باستخدام[**Cell. GetTable ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) الطريقة ثم قم بإضافة القيم بداخلها باستخدام كليهما[**Cell.PutValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) و[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)طُرق.
+ تُظهر لقطة الشاشة التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على الجدول الفارغ ويبرز الخلية D5 الموجودة داخل الجدول. سنصل إلى هذا الجدول من الخلية D5 باستخدام[**Cell. GetTable ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) الطريقة ثم قم بإضافة القيم بداخلها باستخدام كليهما[**Cell.PutValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) و[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)أساليب.
 
 ## مثال
 

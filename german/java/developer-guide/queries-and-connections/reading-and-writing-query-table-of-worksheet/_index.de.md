@@ -15,7 +15,7 @@ Dies sind beides boolesche Werte. Sie können sie in Microsoft Excel über Daten
 
 {{% /alert %}} 
 ## **Lesen und Schreiben der Abfragetabelle des Arbeitsblatts**
- Der folgende Beispielcode liest die erste[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)des ersten Arbeitsblatts und druckt dann beide[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Eigenschaften. Dann setzt es die[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) zu**Stimmt**.
+ Der folgende Beispielcode liest die erste[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) des ersten Arbeitsblatts und druckt dann beide[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Eigenschaften. Dann setzt es die[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) zu**wahr**.
 
 Der folgende Screenshot zeigt die[Excel-Quelldatei](5472578.xlsx) im Code und seinen Eigenschaften verwendet, die beide zeigen[Abfragetabelle](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)Werte.
 
@@ -37,6 +37,6 @@ Preserve Formatting: false
 
 {{< /highlight >}}
 ## **Abfragetabellen-Ergebnisbereich abrufen**
-Aspose.Cells bietet die Möglichkeit, die Adresse, dh den Ergebnisbereich von Zellen für eine Abfragetabelle zu lesen. Der folgende Code demonstriert diese Funktion, indem er die Adresse des Ergebnisbereichs für eine Abfragetabelle liest. Die Beispieldatei kann heruntergeladen werden[hier](QueryTXT.xlsx).
+Aspose.Cells bietet die Möglichkeit, die Adresse, dh den Ergebnisbereich von Zellen für eine Abfragetabelle zu lesen. Der folgende Code demonstriert diese Funktion, indem er die Adresse des Ergebnisbereichs für eine Abfragetabelle liest. Die Beispieldatei kann heruntergeladen werden[Hier](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

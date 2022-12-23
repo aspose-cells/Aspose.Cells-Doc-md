@@ -22,4 +22,4 @@ url: /ar/jasperreports/world-class-free-technical-support/
 
 #### **هل تحتاج إلى مزيد من الدعم؟**
 
- يقدم Aspose دعمًا مجانيًا لجميع المستخدمين. بالنسبة للشركات التي ترغب في إعطاء الأولوية لمشكلتها ، أو الذين يرغبون في التأثير على خريطة طريق تطوير منتجاتنا ، فهناك[خيارات دعم متقدمة](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) مثل Priority Support و Enterprise Support.
+يقدم Aspose دعمًا مجانيًا لجميع المستخدمين. بالنسبة للشركات التي ترغب في إعطاء الأولوية لمشكلتها ، أو الذين يرغبون في التأثير على خريطة طريق تطوير منتجاتنا ، فهناك[خيارات دعم متقدمة](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) مثل Priority Support و Enterprise Support.

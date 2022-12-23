@@ -21,7 +21,7 @@ Aspose.Cells for .NET API を使用して引出線付きの円グラフを作成
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-TurnOnLeaderLines.cs" >}}
 
-最後に、次のコードは、グラフを画像形式で保存し、ワークブックを XLSX 形式で保存します。
+最後に、次のコードは、グラフをイメージ形式で保存し、ワークブックを XLSX 形式で保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-SaveChartInImageAndWorkbookInXLSX.cs" >}}
 

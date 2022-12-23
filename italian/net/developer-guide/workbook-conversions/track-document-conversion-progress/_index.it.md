@@ -12,7 +12,7 @@ url: /it/net/track-document-conversion-progress/
 
  L'esempio di codice seguente carica il file[file excel di origine](94896151.xlsx) e stampa l'avanzamento della conversione nella console utilizzando il file*TestPageSavingCallback* classe personalizzata che implementa il**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**interfaccia.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgress-1.cs" >}}
 

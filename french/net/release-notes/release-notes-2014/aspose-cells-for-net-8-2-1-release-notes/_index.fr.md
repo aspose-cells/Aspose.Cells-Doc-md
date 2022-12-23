@@ -34,15 +34,15 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42941) - Produit une erreur de contenu illisible dans le fichier XLSM
 
-(CELLSNET-42933) - Impossible d'éviter les étiquettes de ligne lors de la création d'un pivot à l'aide d'aspose
+ (CELLSNET-42933) - Impossible d'éviter les étiquettes de ligne lors de la création d'un pivot à l'aide d'aspose
 
  (CELLSNET-42857) - Le fichier est corrompu à l'ouverture et à l'enregistrement
 
- (CELLSNET-42816) - La zone de texte diagonale apparaît horizontalement lorsque la feuille de calcul est convertie en PDF
+ (CELLSNET-42816) - La zone de texte diagonale apparaît horizontale lorsque la feuille de calcul est convertie en PDF
 
- (CELLSNET-42815) - La zone de texte diagonale apparaît horizontalement lorsque la feuille de calcul est convertie en HTML
+ (CELLSNET-42815) - La zone de texte diagonale apparaît horizontale lorsque la feuille de calcul est convertie en HTML
 
- (CELLSNET-42676) - L'épaisseur des lignes fléchées du diagramme visio est incorrecte dans le pdf de sortie
+(CELLSNET-42676) - L'épaisseur des lignes fléchées du diagramme visio est incorrecte dans le pdf de sortie
 
  (CELLSNET-41568) - Excel vers une image avec une forme pivotée n'est pas rendu correctement
 
@@ -50,15 +50,15 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42802) - Problème de rendu graphique lors de la conversion de Xls en PDF
 
- (CELLSNET-42980) - Saut de page incorrect lors du rendu de la feuille de calcul au format PDF
+ (CELLSNET-42980) - Saut de page incorrect lors du rendu de la feuille de calcul en PDF
 
- (CELLSNET-42979) - Extension indésirable de la bordure lors du rendu de la feuille de calcul au format PDF
+ (CELLSNET-42979) - Extension indésirable de la bordure lors du rendu de la feuille de calcul vers PDF
 
  (CELLSNET-42970) - L'opération d'ajout dans le pied de page Excel ne fonctionne pas dans le rendu PDF
 
  (CELLSNET-42936) - Impression recto-verso de la page
 
-(CELLSNET-42938) - Liens hypertexte pour les formes perdues dans le format de fichier PDF rendu
+ (CELLSNET-42938) - Liens hypertexte pour les formes perdues dans le format de fichier rendu PDF
 
  (CELLSNET-42966) - Contenu illisible après l'ouverture et l'enregistrement du fichier xlsx
 
@@ -66,15 +66,15 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42946) - La valeur de la cellule L45 est incorrecte après le calcul de la formule
 
- (CELLSNET-42943) - Limitation Excel concernant le nombre de liens hypertexte dans Aspose.Cells
+(CELLSNET-42943) - Limitation Excel concernant le nombre de liens hypertexte dans Aspose.Cells
 
  (CELLSNET-42934) - Lecture incorrecte du type de diagramme de dispersion et des références de plage de noms
 
- (CELLSNET-42926) - Le pied de page n'est pas correct lors de la conversion à partir d'un document SpreadsheetML
+ (CELLSNET-42926) - Le pied de page n'est pas correct lors de la conversion à partir du document SpreadsheetML
 
  (CELLSNET-42837) - Afficher le tableau de données avec la clé de légende de chatt
 
- (CELLSNET-41129) - Logo disparu dans le fichier PDF de sortie
+ (CELLSNET-41129) - Logo disparu dans le fichier de sortie PDF
 
  (CELLSNET-42986) - Formule incorrecte copiée dans les cellules lors de l'insertion de lignes dans des tableaux
 
@@ -82,19 +82,19 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42802) - tarte, beignet. Calculer la formule
 
- (CELLSNET-42940) - Lien hypertexte en PDF de XLS
+ (CELLSNET-42940) - Lien hypertexte dans PDF de XLS
 
-(CELLSNET-42738) - La ligne lissée sur le diagramme de dispersion contient des boucles
+ (CELLSNET-42738) - La ligne lissée sur le diagramme de dispersion contient des boucles
 
  (CELLSNET-42739) - L'image du diagramme de dispersion affiche des marqueurs de grille d'axe X erronés
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42929) - IndexOutOfRangeException levée sur PivotTable.CalculateData
 
- (CELLSNET-42213) - Conversion d'un fichier XLS contenant une forme avec un arrière-plan dégradé en PDF
+(CELLSNET-42213) - Conversion d'un fichier XLS contenant une forme avec un arrière-plan dégradé en PDF
 
  (CELLSNET-42962) - Exception sur le classeur.RemoveExternalLinks()
 

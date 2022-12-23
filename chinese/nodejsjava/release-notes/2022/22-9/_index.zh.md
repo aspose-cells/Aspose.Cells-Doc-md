@@ -20,10 +20,10 @@ url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-22-9-release-notes/
 |CELLSJAVA-44860|在某些合并区域中，单元格文本的显示与 excel 中的不一样|
 |CELLSJAVA-44832|转换为 pdf 时输出多页而不是 Excel 中的一页|
 |CELLSJAVA-44812|无法减少图表的绘图区域|
-|CELLSJAVA-44831|Aspose.Cells for Java 打开XLSX文件转换后的DOCX时，MS Word提示错误“Word found unreadable content in...”|
+|CELLSJAVA-44831|Aspose.Cells for Java 从XLSX文件打开转换后的DOCX时，MS Word提示错误“Word found unreadable content in...”|
 |CELLSJAVA-44833|使用 Cell.setHtmlString() 方法时，文本颜色不会应用于输出 Excel 文件中的不同单词或部分内容|
-|CELLSJAVA-44852|静态Excel文件转HTML时边框不正确|
-|CELLSJAVA-44856|Excel 到 HTML 的转换 - 不显示/呈现迷你图（迷你图表）|
+|CELLSJAVA-44852|静态Excel文件转成边框不正确 HTML|
+|CELLSJAVA-44856| Excel 到 HTML 的转换 - 不显示/呈现迷你图（迷你图表）|
 |CELLSJAVA-44859|某些 Html 格式不适用于现有 Excel 文件中的工作表单元格|
 |CELLSJAVA-44842|将 XLSX 文件转换为 PDF 时出现异常“java.lang.OutOfMemoryError: Java heap space”|
 

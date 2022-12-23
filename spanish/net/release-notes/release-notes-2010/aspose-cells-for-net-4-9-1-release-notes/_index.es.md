@@ -36,7 +36,7 @@ url: /es/net/aspose-cells-for-net-4-9-1-release-notes/
 - Realiza el copiado y pegado de celdas con el control ComboBox
 - Maneja el evento emergente de ContextMenu
 - Importa una hoja de trabajo desde un archivo de Excel
-- Recupera todos los rangos seleccionados en la hoja de cálculo
+- Recupera todos los rangos seleccionados en la hoja de trabajo
 - 2 mejoras
 
 
@@ -49,7 +49,7 @@ url: /es/net/aspose-cells-for-net-4-9-1-release-notes/
 |:- |:- |:- |
 |13526 | Gráfico2Imagen| Problema con el método Chart ToImage|
 |14888 | Gráfico2Imagen| Problema de posicionamiento de PlotArea con Chart.ToImage|
-|16011 | CSV| Leer CSV con nueva línea|
+|16011 |CSV | Lea CSV con nueva línea|
 |14183 | pdf| Encabezado/Pie de página que no se alinea con los márgenes de la página|
 |14501 | pdf| Error al convertir el archivo de excel a pdf|
 |15741 | pdf| Las líneas de cuadrícula no se muestran|
@@ -60,7 +60,7 @@ url: /es/net/aspose-cells-for-net-4-9-1-release-notes/
 |16377 | pdf| Parte del texto de las celdas está desapareciendo|
 |16402 | pdf| Problema de conversión de XLS a PDF|
 |16472 | pdf| Problemas de formato|
-|16499 | pdf| PDF sin fuentes incrustadas|
+|16499 | pdf| PDF fuentes no incrustadas|
 |13606 | Hoja de trabajo2Imagen| Algunas diferencias en el archivo de Excel impreso/guardado|
 |16236 | Hoja de trabajo2Imagen| El tema de sheet2imagebypage|
 |15981 | xls| Problema relacionado con el cálculo de fórmulas|

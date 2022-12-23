@@ -29,7 +29,7 @@ Esto muestra el cuadro de diálogo Crear lista.
 
 ![todo:imagen_alternativa_texto](picture2.png)
 
-Implementando el objeto List y especificando Total Row (Select**Datos**, después**Lista**, seguido por**fila total**).
+Implementando el objeto List y especificando Total Row (Select**Datos**, después**Lista**seguido por**fila total**).
 
 **Creación de un objeto de lista** 
 
@@ -37,9 +37,9 @@ Implementando el objeto List y especificando Total Row (Select**Datos**, despué
 
 ## **Creación de un objeto de lista usando Aspose.Cells API**
 
-Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
-Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de trabajo. Para crear un[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)en una hoja de trabajo, utilice[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)colección propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)clase. Cada[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)es, de hecho, un objeto de la[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)clase, que proporciona además la[**agregar**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) método para agregar un objeto List y especificar un rango de celdas para la lista.
+Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de cálculo. Para crear un[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)en una hoja de trabajo, use[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)colección propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)clase. Cada[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)es, de hecho, un objeto de la[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)clase, que proporciona además la[**agregar**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) método para agregar un objeto List y especificar un rango de celdas para la lista.
 
 De acuerdo con el rango de celdas especificado, el objeto List se crea en la hoja de trabajo por Aspose.Cells. Use atributos (por ejemplo, ShowTotals, ListColumns, etc.) del[**ListObject**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)clase para controlar la lista.
 

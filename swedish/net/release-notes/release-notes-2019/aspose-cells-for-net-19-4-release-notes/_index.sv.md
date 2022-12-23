@@ -14,15 +14,15 @@ url: /sv/net/aspose-cells-for-net-19-4-release-notes/
 |:- |:- |:- |
 |CELLSNET-46619|Stöd för att spara dokument i Markdown-format|Ny funktion|
 |CELLSNET-46124|Stöd för att lägga till WebExtension-form|Ny funktion|
-|CELLSNET-46553|Stöd import av JSON-filer|Ny funktion|
+|CELLSNET-46553|Stöd för import av JSON-filer|Ny funktion|
 |CELLSNET-46653|Stöd för att lägga till WebExtension-uppgiftsrutan|Ny funktion|
 |CELLSNET-46656|Stöd trådade kommentarer|Ny funktion|
 |CELLSNET-46657|Stöd för att klippa och klistra celler|Ny funktion|
 |CELLSNET-46686|Stöd att ta blankt utrymme (teckenkod 20) som nummergruppsavgränsare för det franska språket|Förbättring|
-|CELLSNET-46649|Stor PDF genererad jämfört med onlineverktyget iLovePDF|Förbättring|
+|CELLSNET-46649|Stort PDF genererat jämfört med onlineverktyget iLovePDF|Förbättring|
 |CELLSNET-46093|Diagram respekterar inte Page Setup Black and White|Förbättring|
 |CELLSNET-46677|Att exportera Excel till PDF återger inte arabiska texter exakt i diagram|Förbättring|
-|CELLSNET-46639|Stöd vertikal sidbrytning för ODS-fil.|Förbättring|
+|CELLSNET-46639|Stöd vertikal sidbrytning för filen ODS.|Förbättring|
 |CELLSNET-46631|Exception OutOfMemoryException under rendering|Prestanda|
 |CELLSNET-46596|Etiketter saknas i form|Insekt|
 |CELLSNET-46615|Shape.ToImage() exporterar bilder av olika storlek|Insekt|
@@ -31,9 +31,9 @@ url: /sv/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46652|Pivotbordsskärare tas bort efter laddning och sparas|Insekt|
 |CELLSNET-46678|PivotField.IsRepeatItemLabels bibehålls inte i utdata XLSB|Insekt|
 |CELLSNET-46671|Range.Copy efter Range.CopyData korrumperar arbetsboken|Insekt|
-|CELLSNET-42423|Om du sparar till PDF trimmas raddata|Insekt|
-|CELLSNET-45698|Metoden Worksheet.AutoFitColumns skär bort den långa texten medan den renderas till PDF|Insekt|
-|CELLSNET-46661|Mindre antal sidor som återges i PDF jämfört med Excel 365|Insekt|
+|CELLSNET-42423|Att spara till PDF trimmar raddata|Insekt|
+|CELLSNET-45698|Metoden Worksheet.AutoFitColumns skär av den långa texten medan den renderas till PDF|Insekt|
+|CELLSNET-46661|Mindre antal sidor renderade i PDF jämfört med Excel 365|Insekt|
 |CELLSNET-46673|Filstorleksproblem vid konvertering av Excel till PDF|Insekt|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue fungerar inte som förväntat|Insekt|
 |CELLSNET-46655|Kategoriaxeletiketter på flera nivåer förlorade när du sparar med RefreshChartCache = true|Insekt|
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46651|Excel-filen skadades när den öppnades och sparades|Insekt|
 |CELLSNET-46654|Stöd för att lägga till WebExtension|Insekt|
 |CELLSNET-46662|Problem med att hämta BuiltInDocumentProperties|Insekt|
-|CELLSNET-46663|Bildstorleken ändrades vid konvertering av XLS till PDF|Insekt|
+|CELLSNET-46663|Bildstorleken ändrades när XLS konverterades till PDF|Insekt|
 |CELLSNET-46667|Dolda rader hämtas medan PlotVisibleRows = true|Insekt|
 |CELLSNET-46668|Den prickade linjen blir heldragen när XLSX sparas som ODS|Insekt|
 |CELLSNET-46669|Form till bild Fel vid rendering av en Excel-fil till PDF|Undantag|
@@ -90,4 +90,4 @@ Representerar de trådade kommentarerna till kommentaren.
 #### **Lägg till metoderna CommentCollection.AddThreadedComment() och CommentCollection.GetThreadedComments().**
 Lägger till och får de trådade kommentarerna.
 #### **Lägg till egenskapen Chart.SubTitle.**
-Hämtar diagrammets underrubrik. Endast för fil i ODS-format.
+Hämtar diagrammets underrubrik. Endast för ODS filformat.

@@ -7,15 +7,15 @@ url: /zh/net/adding-html-rich-text-inside-the-cell/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将 Microsoft 面向 Excel 的 HTML 转换为 XLS/XLSX 格式。这意味着，可以使用 Aspose.Cells 将 Microsoft Excel 生成的 HTML 转换回 XLS/XLSX 格式。
+Aspose.Cells支持将面向Microsoft Excel的HTML转换为XLS/XLSX格式。这意味着，Microsoft Excel生成的HTML可以使用Aspose.Cells转换回XLS/XLSX格式。
 
-同样，如果有一些简单的 HTML，Aspose.Cells 可以将其转换为 HTML Rich Text。 Aspose.Cells提供[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)属性，它可以采用这样一个简单的 HTML 并将其转换为格式化的单元格文本。
+同样，如果有一些简单的HTML，Aspose.Cells可以将其转换为HTML Rich Text。 Aspose.Cells提供[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring)属性可以采用这样一个简单的 HTML 并将其转换为格式化的单元格文本。
 
 {{% /alert %}}
 
 下面的代码示例向您展示了如何在单元格内添加 HTML 富文本。请查看输出 Excel 文件的屏幕截图。
 
-![待办事项：图像_替代_文本](adding-html-rich-text-inside-the-cell_1)
+![待办事项：图片_替代_文本](adding-html-rich-text-inside-the-cell_1)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-AddingHTMLRichTextInCell-AddingHTMLRichTextInCell.cs" >}}
 

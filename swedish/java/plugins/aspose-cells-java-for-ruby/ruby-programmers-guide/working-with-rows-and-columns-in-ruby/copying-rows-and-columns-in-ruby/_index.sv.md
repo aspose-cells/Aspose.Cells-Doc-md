@@ -76,7 +76,7 @@ arbetsblad = workbook.getWorksheets().get(0)
 
 # Lägg några data i rubrikrader (A1:A4)
 
-= 0
+i = 0
 
  medan jag< 5
 

@@ -38,23 +38,23 @@ url: /ja/java/aspose-cells-for-java-8-7-0-release-notes/
 ## **バグ**
 
 
-(CELLSJAVA-41685) - スプレッドシートを HTML に変換する際に、チャート画像のサイズが 0 KB になる
+(CELLSJAVA-41685) - スプレッドシートを HTML に変換すると、チャート画像のサイズが 0 KB になる
 
-(CELLSJAVA-41684) - HTMLにチャート画像がありません
+(CELLSJAVA-41684) - HTML にチャート画像がありません
 
-(CELLSJAVA-41676) - HTML出力で予測できない結果が生成される
+(CELLSJAVA-41676) - HTML 出力で予測できない結果が生成される
 
 (CELLSJAVA-41665) - スプレッドシートの画像が HTML にエクスポートされない
 
-(CELLSJAVA-41632) - EXCEL から HTML に変換してから EXCEL に戻す際の日付の配置の問題
+(CELLSJAVA-41632) - EXCEL から HTML に変換してから EXCEL に戻す際の日付の位置合わせの問題
 
 (CELLSJAVA-41603) - セルの範囲を html にエクスポートすると、セルの間違った背景色が表示される
 
 (CELLSJAVA-41337) - HTML に変換すると、非常に巨大な HTML ファイルが生成されます
 
-(CELLSJAVA-41705) - テキストの色が Excel テーブルの HTML で正しくレンダリングされない
+(CELLSJAVA-41705) - Excel テーブルの HTML でテキストの色が正しくレンダリングされない
 
-(CELLSJAVA-41647) - スプレッドシートを HTML に変換すると、範囲を指す ListObject のハイパーリンクが壊れる
+(CELLSJAVA-41647) - スプレッドシートが HTML に変換されると、範囲を指す ListObject のハイパーリンクが壊れる
 
 (CELLSJAVA-41659) - セルに名前付きスタイルを適用しても、Excel インターフェイスの [スタイル] セクションに反映されない
 
@@ -80,47 +80,47 @@ url: /ja/java/aspose-cells-for-java-8-7-0-release-notes/
 
 (CELLSJAVA-41689) - HTML へのエクスポート中に、アンチエイリアシングがチャートの系列の塗りつぶしに有効にならないようです
 
-(CELLSJAVA-41686) - RenderingHints.VALUE_文章_スプレッドシートを HTML に変換する際に ANTIALIAS_GASP が有効にならない
+(CELLSJAVA-41686) - RenderingHints.VALUE_文章_スプレッドシートを HTML に変換している間、ANTIALIAS_GASP が有効にならない
 
-(CELLSJAVA-41678) - グラフの PDF で正しくない色がレンダリングされる
+(CELLSJAVA-41678) - チャートの PDF で正しくない色がレンダリングされる
 
-(CELLSJAVA-41669) - グラフの PDF ですべてのバーが 0 値ルールの下に表示される
+(CELLSJAVA-41669) - チャートのPDFでは、すべてのバーが0値ルールの下に表示されます
 
-(CELLSJAVA-41667) - 出力 PDF ファイル形式でクラスター棒グラフが表示されない
+(CELLSJAVA-41667) - クラスター棒グラフが出力 PDF ファイル形式で表示されない
 
-(CELLSJAVA-41660) - グラフの PDF で X 軸と Y 軸の太さが大きくなる
+(CELLSJAVA-41660) - グラフの PDF で X 軸と Y 軸の太さが増加する
 
 (CELLSJAVA-41657) - 画像への変換中にバブル チャートが正しく表示されない
 
 (CELLSJAVA-41656) - チャート系列の値が斜めに表示される
 
-(CELLSJAVA-41646) - グラフの PDF の X 軸の下部がトリミングされている
+(CELLSJAVA-41646) - チャート PDF の X 軸の下部がトリミングされている
 
-(CELLSJAVA-41644) - グラフを PDF にレンダリングする際に軸ラベルが傾いて表示される
+(CELLSJAVA-41644) - グラフを PDF にレンダリングしているときに軸ラベルが傾いて表示される
 
-(CELLSJAVA-41628) - チャートから PDF へのヘッダーの配置が正確でない
+(CELLSJAVA-41628) - PDF に対するチャートのヘッダーの配置が正確ではない
 
 (CELLSJAVA-41623) - Chart.toPdf を使用すると、Chart の PDF にいくつかのデータ系列バーが表示されない
 
 (CELLSJAVA-41468) - チャートの品質の問題 - 影がないとアンチエイリアスが適用されない
 
-(CELLSJAVA-41445) - レンダリングされた HTML ファイル形式でバブル チャートにアンチエイリアス効果がない
+(CELLSJAVA-41445) - レンダリングされた HTML ファイル形式では、バブル チャートにアンチエイリアス効果がありません
 
 (CELLSJAVA-41306) - Excel から PDF への変換の問題 - 右側が切れる
 
-(CELLSJAVA-41697) - 生成された HTML/画像/PDF 形式のテーブルと範囲に間違ったフォントの色が表示される
+(CELLSJAVA-41697) - 生成された HTML/Image/PDF 形式のテーブルと範囲に間違ったフォントの色が表示される
 
 (CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash() が、マクロ コードによる再保護後に 0 を返す
 
 (CELLSJAVA-41675) - 出力 PDF で画像が透明にならない
 
-(CELLSJAVA-41671) - 結果の PDF で条件付きで書式設定された Cell 色が正しくレンダリングされない
+(CELLSJAVA-41671) - 結果 PDF の条件付きで書式設定された Cell 色の不適切なレンダリング
 
 (CELLSJAVA-41663) - 条件付き書式のアイコン画像データをファイルに保存すると空白の画像になる
 
 (CELLSJAVA-41661) - xml から xlsx ファイルへのロードおよび変換中にプロセスが停止する
 
-(CELLSJAVA-41597) - XLSB を再保存すると、Excel 2007 でコンテンツが読み取れない
+(CELLSJAVA-41597) - XLSB を再保存した後、Excel 2007 で読み取れないコンテンツ
 
 
 ## **例外**
@@ -130,7 +130,7 @@ url: /ja/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -172,7 +172,7 @@ TxtLoadOptions.HasFormula プロパティを追加します。
 
 
 
- Proptection.IsProtectedWithPassword プロパティを追加します。
+Proptection.IsProtectedWithPassword プロパティを追加します。
 
 ワークシートがパスワードで保護されているかどうかを示します。
 

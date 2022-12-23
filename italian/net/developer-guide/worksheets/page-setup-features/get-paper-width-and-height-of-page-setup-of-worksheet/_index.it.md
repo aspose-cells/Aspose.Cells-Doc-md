@@ -12,7 +12,7 @@ volte, è necessario conoscere la larghezza e l'altezza del formato della carta 
 
  Il seguente codice di esempio spiega l'utilizzo di[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) e[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) proprietà. Prima cambia il formato della carta in*A2*e poi trova la larghezza e l'altezza del foglio, poi lo cambia in*A3*, *A4*, *Lettera*e trova rispettivamente la larghezza e l'altezza della carta.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-GetPageDimensions.cs" >}}
 

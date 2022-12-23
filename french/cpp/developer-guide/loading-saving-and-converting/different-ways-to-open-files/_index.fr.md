@@ -7,7 +7,7 @@ url: /fr/cpp/different-ways-to-open-files/
 ---
 {{% alert color="primary" %}} 
 
-Avec Aspose.Cells, il est possible d'ouvrir des fichiers, par exemple pour récupérer des données, ou d'utiliser un modèle de concepteur pour accélérer le processus de développement. Aspose.Cells peut ouvrir une gamme de fichiers différents, tels que des feuilles de calcul Excel Microsoft (XLS, XLSX, XLSM, XLSB), des fichiers CSV ou TabDelimited.
+Avec Aspose.Cells, il est possible d'ouvrir des fichiers, par exemple pour récupérer des données, ou d'utiliser un modèle de concepteur pour accélérer le processus de développement. Aspose.Cells peut ouvrir une gamme de fichiers différents, tels que les feuilles de calcul Excel Microsoft (XLS, XLSX, XLSM, XLSB), CSV ou TabDelimited.
 
 {{% /alert %}} 
 ## **Ouvrir un fichier via un chemin**

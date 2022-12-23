@@ -10,6 +10,6 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.4.1 per W
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-758| Risolto un problema di prefisso per l'immagine|Insetti|

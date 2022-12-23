@@ -14,7 +14,7 @@ Microsoft يسمح Excel للمستخدمين بالعثور على خلايا �
 
 ### **باستخدام Microsoft إكسل**
 
-Microsoft يسمح Excel للمستخدمين بالعثور على خلايا في ورقة عمل تحتوي على بيانات محددة. إذا اخترت**يحرر** من**تجد** القائمة في Microsoft Excel ، سترى مربع حوار حيث يمكنك تحديد قيمة البحث.
+ Microsoft يسمح Excel للمستخدمين بالعثور على خلايا في ورقة عمل تحتوي على بيانات محددة. إذا اخترت**تعديل** من**يجد** القائمة في Microsoft Excel ، سترى مربع حوار حيث يمكنك تحديد قيمة البحث.
 
 هنا ، نبحث عن قيمة "البرتقال". يسمح Aspose.Cells أيضًا للمطورين بالعثور على خلايا في ورقة العمل تحتوي على قيم محددة.
 
@@ -30,7 +30,7 @@ Microsoft يسمح Excel للمستخدمين بالعثور على خلايا �
 
 ## **إيجاد Cells الذي يحتوي على صيغة**
 
- يمكن للمطورين العثور على صيغة محددة في ورقة العمل عن طريق استدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**تجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) طريقة. عادةً ما يكون ملف[**تجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)تقبل الطريقة ثلاث معاملات:
+ يمكن للمطورين العثور على صيغة محددة في ورقة العمل عن طريق استدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**يجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) طريقة. عادةً ما يكون ملف[**يجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)تقبل الطريقة ثلاث معاملات:
 
 - **هدف:**الكائن المطلوب البحث عنه. يجب أن يكون النوع int ، double ، DateTime ، string ، bool.
 - **الخلية السابقة:**الخلية السابقة بنفس الكائن. يمكن ضبط هذه المعلمة على قيمة خالية في حالة البحث من البداية.
@@ -42,9 +42,9 @@ Microsoft يسمح Excel للمستخدمين بالعثور على خلايا �
 
 ## **البحث عن البيانات أو الصيغ باستخدام FindOptions**
 
- من الممكن العثور على قيم محددة باستخدام[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**تجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) طريقة مختلفة[**FindOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions) . عادةً ما يكون ملف[**تجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)تقبل الطريقة المعلمات التالية:
+ من الممكن العثور على قيم محددة باستخدام[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**يجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) طريقة مختلفة[**FindOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions) . عادةً ما يكون ملف[**يجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index)تقبل الطريقة المعلمات التالية:
 
-- **قيمة البحث**، البيانات أو القيمة المراد البحث عنها.
+- **قيمة البحث**، البيانات أو القيمة التي سيتم البحث عنها.
 - **الخلية السابقة**، وهي الخلية الأخيرة التي تحتوي على نفس القيمة. يمكن ضبط هذه المعلمة على قيمة خالية عند البحث من البداية.
 - **ابحث عن الخيارات**، خيارات البحث.
 
@@ -52,9 +52,9 @@ Microsoft يسمح Excel للمستخدمين بالعثور على خلايا �
 
 ## **إيجاد Cells يتضمن قيمة أو رقم سلسلة محدد**
 
- من الممكن العثور على قيم سلسلة محددة عن طريق استدعاء نفس[**تجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) الطريقة الموجودة في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) جمع مع مختلف[**FindOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
+ من الممكن العثور على قيم سلسلة محددة عن طريق استدعاء نفس[**يجد**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) الطريقة الموجودة في[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) جمع مع مختلف[**FindOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- حدد ال[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) و[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)الخصائص. يوضح رمز المثال التالي كيفية استخدام هذه الخصائص للعثور على خلايا ذات عدد متنوع من السلاسل في**بداية** أو في**المركز** أو في**نهاية** من سلسلة الخلية.
+ حدد ال[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) و[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) الخصائص. يوضح رمز المثال التالي كيفية استخدام هذه الخصائص للعثور على خلايا ذات عدد متنوع من السلاسل في**بداية** أو في**المركز** أو في**نهاية** من سلسلة الخلية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

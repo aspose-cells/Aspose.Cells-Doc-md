@@ -27,7 +27,7 @@ Aspose .NET Umbraco 模块的数据库数据导出器到 Excel 允许用户直�
 
 .
 
-![待办事项：图像_替代_文本](umbraco-database-data-exporter-to-excel_1)
+![待办事项：图片_替代_文本](umbraco-database-data-exporter-to-excel_1)
 ## **系统要求和支持的平台**
 ### **系统要求**
 为了设置 Aspose .NET Database Data Exporter to Excel for Umbraco 模块，您需要满足以下要求：
@@ -69,11 +69,11 @@ Aspose .NET Umbraco 模块的数据库数据导出器到 Excel 允许用户直�
 
 请查看下面的屏幕截图以了解详细信息。
 
-![待办事项：图像_替代_文本](umbraco-database-data-exporter-to-excel_2)
+![待办事项：图片_替代_文本](umbraco-database-data-exporter-to-excel_2)
 
 您已成功将 Aspose .NET Database Data Exporter to Excel 模块添加到您的页面。
 
-![待办事项：图像_替代_文本](umbraco-database-data-exporter-to-excel_1)
+![待办事项：图片_替代_文本](umbraco-database-data-exporter-to-excel_1)
 
 1. 输入或使用预填充的 MS SQL Server 连接字符串
 1. 选择数据源类型（表、视图、自定义查询）

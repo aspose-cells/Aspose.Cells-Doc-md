@@ -6,7 +6,7 @@ url: /fr/java/reading-and-writing-query-table-of-worksheet/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells fournit[Feuille de calcul.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) collection qui retourne le[QueryTableCollectionQueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection) . Pour obtenir un[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) , Utilisez le[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\) ) et transmettez l'index de QueryTable. La[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) La classe a les deux propriétés suivantes pour ajuster le QueryTable.
+ Aspose.Cells fournit[Feuille de calcul.getQueryTables()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#QueryTables) collection qui retourne le[QueryTableCollectionQueryTableCollection](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTableCollection) . Pour obtenir un[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) , Utilisez le[QueryTableCollection.get()](https://reference.aspose.com/cells/java/com.aspose.cells/querytablecollection#Item%20\(int\) ) et transmettez l'index de QueryTable. Le[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) La classe a les deux propriétés suivantes pour ajuster le QueryTable.
 
 - [QueryTable.getAdjustColumnWidth()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#AdjustColumnWidth)
 - [QueryTable.getPreserveFormatting()](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting)
@@ -15,7 +15,7 @@ Ce sont deux valeurs booléennes. Vous pouvez les visualiser dans Microsoft Exce
 
 {{% /alert %}} 
 ## **Table de requête de lecture et d'écriture de la feuille de travail**
- L'exemple de code suivant lit le premier[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)de la première feuille de calcul, puis imprime les deux[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Propriétés. Ensuite, il définit le[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) à**vrai**.
+ L'exemple de code suivant lit le premier[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) de la première feuille de calcul, puis imprime les deux[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) Propriétés. Ensuite, il définit le[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) à**vrai**.
 
 La capture d'écran suivante montre le[fichier excel source](5472578.xlsx) utilisé dans le code et ses propriétés montrant à la fois les[Table de requête](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)valeurs.
 

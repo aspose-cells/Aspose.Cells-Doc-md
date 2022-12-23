@@ -11,23 +11,23 @@ url: /tr/net/aspose-cells-for-net-8-8-2-release-notes/
 |CELLSNET-44314 | Unicode Tamamlayıcı karakterler nasıl oluşturulur?| Yeni özellik|
 |CELLSNET-41817 | Metin efektini Dikdörtgen Şeklinde Ofset olarak ayarlama| Artırma|
 |CELLSNET-41454 | Aspose.Cells, bazı dosya biçimlerini hatalı olarak belirliyor| Artırma|
-|CELLSNET-44476 | HTML dosya formatı olarak kaydedilirken Metin Yönü dikkate alınmaz| Böcek|
+|CELLSNET-44476 | HTML dosya biçimi olarak kaydedilirken Metin Yönü yoksayılır| Böcek|
 |CELLSNET-44457 | HTML dosyasına dönüştürülürken tablodaki alt kenarlıklar kayboluyor| Böcek|
-|CELLSNET-44446 | HTML olarak kaydederken tüm CSS stillerinin önüne eklenmez| Böcek|
+|CELLSNET-44446 | HTML olarak kaydederken hiçbir CSS stilinin önüne eklenmez| Böcek|
 |CELLSNET-44444 | Pivot Tablo içeren dosyanın açılması ve kaydedilmesi elektronik tablonun bozulmasına neden olur| Böcek|
-|CELLSNET-44443 | Pivot Grafiği PDF'ye - İkincil y ekseni karışık| Böcek|
-|CELLSNET-44450 | Ortaya çıkan PDF'de resim döndürme doğru değil| Böcek|
+|CELLSNET-44443 | Pivot Grafiği PDF'e - İkincil y ekseni berbat| Böcek|
+|CELLSNET-44450 | Sonuç olarak resim döndürme doğru değil PDF| Böcek|
 |CELLSNET-44303 | SheetRender.ToImage grafiğin veri etiketlerini doğru şekilde oluşturmuyor| Böcek|
-|CELLSNET-44478 |Excel dosyasını açıp yeniden yazdıktan sonra yakınlaştırma düzeyi değişir| Böcek|
+|CELLSNET-44478 | Excel dosyasını açıp yeniden yazdıktan sonra yakınlaştırma düzeyi değişir| Böcek|
 |CELLSNET-44477 | Liste Nesnesi adları, çalışma sayfası kopyasında çakışıyor| Böcek|
 |CELLSNET-44472 | CustomXmlParts, XLS dosyası için düzgün çalışmıyor| Böcek|
-|CELLSNET-44466 | HTML'yi Excel'e aktardıktan sonra resimler doğru şekilde gösterilemiyor| Böcek|
+|CELLSNET-44466 |HTML'i Excel'e aktardıktan sonra resimler doğru şekilde gösterilemiyor| Böcek|
 |CELLSNET-44465 | Boş satırlar / sütunlar silinirken grafikler kaldırılır| Böcek|
-|CELLSNET-44463 | TextBox'taki siyah metin PDF'de beyaz oluyor| Böcek|
+|CELLSNET-44463 | TextBox'taki siyah metin, PDF'de beyaza dönüşür| Böcek|
 |CELLSNET-44456 | Range.CopyData() çağrısından sonra hedef dosyadaki kalın stil kayboldu| Böcek|
 |CELLSNET-44453 | ExternalLink.IsReferred Özelliği beklendiği gibi çalışmıyor| Böcek|
 |CELLSNET-44445 | CopyStyle (Akıllı İşaretleyiciler) tüm birleştirilmiş hücrelerde çalışmıyor| Böcek|
-|CELLSNET-44263 | HTML'yi XLSX olarak içe aktarırken biçimlendirme kayboluyor| Böcek|
+|CELLSNET-44263 | HTML, XLSX olarak içe aktarılırken biçimlendirme kayboluyor| Böcek|
 |CELLSNET-44439 | PivotField.IsAscendSort'ta NullReferenceException| İstisna|
 |CELLSNET-44430 | Karmaşık hesaplamalar yapılırken hata oluşuyor| İstisna|
 ### **2) Aspose.Cells Izgara Süit**

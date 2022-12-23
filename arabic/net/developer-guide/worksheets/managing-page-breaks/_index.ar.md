@@ -29,7 +29,7 @@ url: /ar/net/managing-page-breaks/
 
 ### **مضيفا فواصل الصفحات**
 
- لإضافة فاصل صفحات في ورقة عمل ، قم بإدراج فواصل صفحات عمودية وأفقية في الخلية المحددة عن طريق استدعاء ملف[**أفقي PageBreakCollection.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) و[**VerticalPageBreakCollection.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) طُرق. كل**يضيف** تأخذ الطريقة اسم الخلية حيث يجب إضافة الفاصل.
+ لإضافة فاصل صفحات في ورقة عمل ، قم بإدراج فواصل صفحات عمودية وأفقية في الخلية المحددة عن طريق استدعاء ملف[**أفقي PageBreakCollection.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) و[**VerticalPageBreakCollection.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) أساليب. كل**يضيف** تأخذ الطريقة اسم الخلية حيث يجب إضافة الفاصل.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
@@ -41,13 +41,13 @@ url: /ar/net/managing-page-breaks/
 
 ### **مسح كافة فواصل الصفحات**
 
- لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي صفحة بريككولكشن**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) المجموعات[**صافي()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)طُرق.
+ لمسح كل فواصل الصفحات في ورقة عمل ، قم باستدعاء[**أفقي بيجبريككولكشن**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) و[**VerticalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) المجموعات[**صافي()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)أساليب.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
 ### **إزالة فاصل صفحة معين**
 
- لإزالة فاصل صفحة معين ، اتصل بـ[**أفقي PageBreakCollection.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) و[**VerticalPageBreakCollection.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) طُرق. كل**RemoveAt**يأخذ الأسلوب فهرس فاصل الصفحة على وشك إزالته.
+ لإزالة فاصل صفحة معين ، اتصل بـ[**أفقي PageBreakCollection.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) و[**VerticalPageBreakCollection.RemoveAt ()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) أساليب. كل**RemoveAt**يأخذ الأسلوب فهرس فاصل الصفحة على وشك إزالته.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 

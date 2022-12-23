@@ -7,7 +7,7 @@ url: /ja/java/split-panes-in-php/
 ## **Aspose.Cells - ペインの分割**
 を使用してペインを分割するには**Aspose.Cells Java for PHP**、単に呼び出す**SplitPanes**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

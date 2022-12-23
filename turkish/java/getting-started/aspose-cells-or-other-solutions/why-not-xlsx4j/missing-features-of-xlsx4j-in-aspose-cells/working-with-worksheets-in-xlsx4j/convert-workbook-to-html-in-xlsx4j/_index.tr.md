@@ -1,11 +1,11 @@
 ﻿---
-title: Çalışma Kitabını xlsx4j'de HTML'ye Dönüştür
+title: Çalışma Kitabını xlsx4j'de HTML'e Dönüştür
 type: docs
 weight: 10
 url: /tr/java/convert-workbook-to-html-in-xlsx4j/
 ---
-## **Aspose.Cells - Çalışma Kitabını HTML'ye Dönüştür**
- Aspose.Cells API'leri, elektronik tabloların HTML biçiminde dışa aktarılması için destek sağlar. Bu amaç için,**Aspose.Cells** kullanır**HtmlKaydetme Seçenekleri** geliştiricilerin çıktı HTML'sinin çeşitli yönlerini kontrol etmesine izin veren sınıf.
+## **Aspose.Cells - Çalışma Kitabını HTML'e Dönüştür**
+ Aspose.Cells API'leri, elektronik tabloların HTML biçiminde dışa aktarılması için destek sağlar. Bu amaç için,**Aspose.Cells** kullanır**HtmlKaydetme Seçenekleri** geliştiricilerin HTML çıktısının çeşitli yönlerini kontrol etmesine izin veren sınıf.
 
 **Java**
 
@@ -31,6 +31,6 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Excel Dosyalarını HTML'ye Dönüştürme](/cells/tr/java/converting-workbook-to-different-formats/).
+ Daha fazla ayrıntı için, ziyaret edin[Excel Dosyalarını HTML'e Dönüştürme](/cells/tr/java/converting-workbook-to-different-formats/).
 
 {{% /alert %}}

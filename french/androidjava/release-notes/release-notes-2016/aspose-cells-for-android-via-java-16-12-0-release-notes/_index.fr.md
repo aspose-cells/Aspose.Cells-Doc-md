@@ -4,29 +4,29 @@ type: docs
 weight: 10
 url: /fr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42042|Prise en charge des étiquettes de sous-total/total dans d'autres langues|Nouvelle fonctionnalité|
 |CELLSJAVA-42043|Spécifiez les positions des points du graphique|Nouvelle fonctionnalité|
-|CELLSJAVA-41974|L'actualisation du tableau croisé dynamique ne fonctionne pas dans le fichier PDF rendu|Punaise|
+|CELLSJAVA-41974|L'actualisation du tableau croisé dynamique ne fonctionne pas dans le fichier rendu PDF|Punaise|
 |CELLSJAVA-41900|XLSM est corrompu par une simple opération de chargement et de sauvegarde|Punaise|
-|CELLSJAVA-41790|Les liens hypertexte ne fonctionnent pas comme prévu après la conversion de la feuille de calcul en HTML|Punaise|
-|CELLSJAVA-42010|Certains caractères ne s'affichent pas dans le PDF de sortie|Punaise|
-|CELLSJAVA-41977|L'ordre de la légende du graphique a été modifié dans le PDF du graphique|Punaise|
-|CELLSJAVA-41972|L'ordre Z des lignes haut-bas n'est pas correct dans le PDF|Punaise|
+|CELLSJAVA-41790|Les hyperliens ne fonctionnent pas comme prévu après la conversion de la feuille de calcul en HTML|Punaise|
+|CELLSJAVA-42010|Certains caractères ne sont pas rendus dans la sortie PDF|Punaise|
+|CELLSJAVA-41977|L'ordre de la légende du graphique a changé dans Chart's PDF|Punaise|
+|CELLSJAVA-41972|L'ordre Z des lignes haut-bas n'est pas correct dans PDF|Punaise|
 |CELLSJAVA-42015|La feuille de calcul est corrompue après avoir été réenregistrée avec Aspose.Cells|Punaise|
 |CELLSJAVA-42005|La formule est modifiée après l'insertion dans une cellule|Punaise|
 |CELLSJAVA-41997|Comportement étrange avec un haricot simple utilisant des marqueurs intelligents|Punaise|
 |CELLSJAVA-41994|Le texte de Cell déborde sur la cellule suivante|Punaise|
 |CELLSJAVA-42039|CalculateFormula a un problème pour recalculer les cellules en référence aux cellules avec des formules|Punaise|
-|CELLSJAVA-42050|Les caractères de contrôle hébreux ne sont pas rendus correctement dans le PDF|Punaise|
-|CELLSJAVA-42020|La conversion XLS en PDF prend trop de temps|Punaise|
-|CELLSJAVA-42017|Problème de mise en page lors de la conversion d'une feuille de calcul en PDF|Punaise|
-|CELLSJAVA-42023|Les étiquettes de l'axe X chevauchent la légende lorsqu'elles sont rendues au format PDF|Punaise|
+|CELLSJAVA-42050|Les caractères de contrôle hébreux ne sont pas rendus correctement dans PDF|Punaise|
+|CELLSJAVA-42020|La conversion de XLS à PDF prend trop de temps|Punaise|
+|CELLSJAVA-42017|Problème de mise en page lors de la conversion de la feuille de calcul en PDF|Punaise|
+|CELLSJAVA-42023|Les étiquettes de l'axe X chevauchent la légende lorsqu'elles sont rendues à PDF|Punaise|
 |CELLSJAVA-42022|L'image n'est pas bien mise à l'échelle et son fichier SVG n'est pas correct|Punaise|
 |CELLSJAVA-42003|Rendu incorrect du graphique lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-41986|Les espaces sont omis du texte dans la sortie PNG du graphique|Punaise|
-|CELLSJAVA-41438|État de la sélection ou de la vérification non enregistré lors de l'enregistrement au format PDF|Punaise|
+|CELLSJAVA-41438|L'état de la sélection ou de la vérification n'est pas enregistré lors de l'enregistrement dans PDF|Punaise|
 |CELLSJAVA-41339|Le texte et l'alignement du texte sont foirés dans le fichier|Punaise|
 |CELLSJAVA-42056|L'extension de l'objet table/liste MS Excel modifie la mise en forme des cellules|Punaise|
 |CELLSJAVA-42055|L'ajout d'Arc à un nouveau classeur génère une feuille de calcul potentiellement dangereuse|Punaise|
@@ -36,33 +36,33 @@ url: /fr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42073|XLSM est corrompu après une opération de réenregistrement|Punaise|
 |CELLSJAVA-42060|La largeur de la barre de données n'est pas correcte lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-42016|La ligne orange n'est pas incluse dans la somme du tableau croisé dynamique|Punaise|
-|CELLSJAVA-42006|L'image est coupée dans le HTML de sortie|Punaise|
+|CELLSJAVA-42006|L'image est coupée dans la sortie HTML|Punaise|
 |CELLSJAVA-42067|Le graphique est manquant lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-41983|La hauteur de ligne n'est pas correcte lors de la conversion de XLSX en HTML|Punaise|
 |CELLSJAVA-42089|La formule DCOUNTA Excel n'est pas évaluée correctement par le moteur de calcul de formule Aspose.Cells|Punaise|
-|CELLSJAVA-42081|Problème avec le formatage conditionnel DataBar lors de l'enregistrement d'un fichier XLSM au format PDF|Punaise|
-|CELLSJAVA-42100|L'espace entre certains caractères est supprimé à quelques endroits dans le fichier PDF de sortie|Punaise|
-|CELLSJAVA-42078|Les étiquettes de graphique ne sont pas affichées/rendues de la même manière (selon le fichier Excel d'origine) dans le fichier PDF de sortie|Punaise|
-|CELLSJAVA-42077|Problème avec les attributs de police de TextBox dans le PDF de sortie|Punaise|
+|CELLSJAVA-42081|Problème avec le formatage conditionnel de DataBar lors de l'enregistrement d'un fichier XLSM sous le nom PDF|Punaise|
+|CELLSJAVA-42100|L'espace entre certains caractères est supprimé à quelques endroits dans le fichier de sortie PDF|Punaise|
+|CELLSJAVA-42078|Les étiquettes de graphique ne sont pas affichées/rendues de la même manière (selon le fichier Excel d'origine) dans le fichier de sortie PDF|Punaise|
+|CELLSJAVA-42077|Problème avec les attributs de police de TextBox dans la sortie PDF|Punaise|
 |CELLSJAVA-42064|La couleur et la taille du contenu de TextBox sont modifiées lors de la conversion de la feuille de calcul en EMF|Punaise|
 |CELLSJAVA-42063|La couleur et la taille du contenu de TextBox sont modifiées lors de la conversion de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-42059|Les mots hébreux ne sont pas rendus correctement lors de la conversion d'un fichier Excel au format de fichier PDF|Punaise|
-|CELLSJAVA-42053|Le contenu de TextBox est tronqué lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-42052|Les lignes fléchées sont mal placées lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-42049|Problème avec l'image SVG du graphique dans le fichier HTML rendu|Punaise|
+|CELLSJAVA-42053|Le contenu de TextBox est tronqué lors du rendu de la feuille de calcul en PDF|Punaise|
+|CELLSJAVA-42052|Les lignes fléchées sont mal placées lors du rendu de la feuille de calcul en PDF|Punaise|
+|CELLSJAVA-42049|Problème avec l'image SVG du graphique dans le fichier rendu HTML|Punaise|
 |CELLSJAVA-42036|La substitution de police ne semble pas prendre effet pour la légende du graphique lors de l'utilisation de Chart.toPdf|Punaise|
-|CELLSJAVA-42024|Légende chevauchant le texte dans le PDF du graphique|Punaise|
+|CELLSJAVA-42024|Légende chevauchant le texte dans le graphique PDF|Punaise|
 |CELLSJAVA-42070|Valeurs ShapeXPx et ShapeYPx de ChartPoint incorrectes|Punaise|
 |CELLSJAVA-42083|Rendu incomplet de la forme Rectangle lors de la conversion de XLS en HTML|Punaise|
 |CELLSJAVA-42104|Le texte est tronqué lors de la conversion de la feuille de calcul au format de fichier PDF|Punaise|
-|CELLSJAVA-42098|Des pages supplémentaires sont ajoutées car certaines pages ne sont pas rendues complètement dans une page PDF|Punaise|
+|CELLSJAVA-42098|Des pages supplémentaires sont ajoutées car certaines pages ne sont pas entièrement restituées sur une seule page PDF|Punaise|
 |CELLSJAVA-42097|SheetRender - Index de colonne non valide|Punaise|
 |CELLSJAVA-42093|L'extension du tableau Excel modifie les données|Punaise|
 |CELLSJAVA-42092|L'ouverture et l'enregistrement du fichier lors de l'utilisation de SheetRender corrompt le fichier Excel de sortie|Punaise|
 |CELLSJAVA-42085|La définition du texte de la forme modifie le style du texte|Punaise|
 |CELLSJAVA-42074|Le texte de certaines cellules comme C2 et C3 devient non gras|Punaise|
 |CELLSJAVA-42058|La méthode Worksheet.autoFitColumns ne semble pas prendre effet lorsque la police requise n'est pas présente sous Linux|Punaise|
-|CELLSJAVA-42054|Couleur d'arrière-plan inattendue appliquée aux zones de texte lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-42054|Couleur d'arrière-plan inattendue appliquée aux zones de texte lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-42072|java.lang.ArrayIndexOutOfBoundsException de Workbook.calculateFormula (false)|Exception|
 |CELLSJAVA-42066|CellsException at Workbook.save lors de la conversion d'un XLS en PDF|Exception|
 |CELLSJAVA-42101|Exception de formule non valide à l'ouverture du fichier Excel|Exception|
@@ -75,7 +75,7 @@ url: /fr/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41988|NullPointerException lors de l'ouverture d'un fichier 2.xlsm|Exception|
 |CELLSJAVA-41987|NullPointerException lors de l'ouverture d'un fichier 1.xlsm|Exception|
 |CELLSJAVA-41968|IndexOutOfBoundsException : Index : 23, taille : 14 lors de l'actualisation du graphique croisé dynamique|Exception|
-|CELLSJAVA-42014|ClassCastException lors de la ré-enregistrement de XLSX|Exception|
+|CELLSJAVA-42014|ClassCastException lors de la ré-enregistrement XLSX|Exception|
 |CELLSJAVA-42004|java.lang.NullPointerException, at Workbook ctor lors du chargement du fichier XLSX|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Android. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.

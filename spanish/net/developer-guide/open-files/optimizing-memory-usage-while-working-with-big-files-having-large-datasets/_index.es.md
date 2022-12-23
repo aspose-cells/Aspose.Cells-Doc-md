@@ -8,7 +8,7 @@ url: /es/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 Al crear un libro de trabajo con grandes conjuntos de datos, o al leer un gran archivo de Excel Microsoft, la cantidad total de RAM que necesitará el proceso siempre es una preocupación. Hay medidas que se pueden adaptar para hacer frente al desafío. Aspose.Cells proporciona algunas opciones relevantes y API llamadas para reducir, reducir y optimizar el uso de la memoria. Además, puede ayudar a que el proceso funcione de manera más eficiente y se ejecute más rápido.
 
- Utilizar el[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) Opción para optimizar el uso de la memoria para los datos de las celdas y disminuir el costo total de la memoria. Al crear un gran conjunto de datos para celdas, puede ahorrar una cierta cantidad de memoria en comparación con el uso de la configuración predeterminada ([**AjusteMemoria.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+ Utilizar el[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)Opción para optimizar el uso de la memoria para los datos de las celdas y disminuir el costo total de la memoria. Al crear un gran conjunto de datos para celdas, puede ahorrar una cierta cantidad de memoria en comparación con el uso de la configuración predeterminada ([**AjusteMemoria.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 

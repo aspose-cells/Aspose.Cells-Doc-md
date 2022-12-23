@@ -20,7 +20,7 @@ So erstellen Sie eine Pivot-Tabelle erklärt, wie Sie eine einfache Pivot-Tabell
 
 Microsoft Excel bietet eine Reihe verschiedener voreingestellter Berichtsformate. Aspose.Cells unterstützen diese Formatierungsoptionen ebenfalls. Um darauf zuzugreifen:
 
-1.  Satz[**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) zu**Stimmt**.
+1.  Satz[**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) zu**wahr**.
 1.  Weisen Sie eine Formatierungsoption aus der zu[**PivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)Aufzählung.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}

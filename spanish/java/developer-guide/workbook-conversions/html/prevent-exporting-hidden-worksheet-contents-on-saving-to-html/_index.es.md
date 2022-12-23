@@ -14,10 +14,10 @@ Aspose.Cells proporciona el[**HtmlSaveOptions.ExportHiddenWorksheet**](https://r
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PreventExportingHiddenWorksheetContent-PreventExportingHiddenWorksheetContent.java" >}}
 
-Además de controlar si exportar hojas de trabajo ocultas o no, también puede configurar ajustes adicionales para exportar el libro de trabajo a HTML. Los siguientes artículos muestran otras funciones admitidas por Aspose.Cells para exportar libros de trabajo a HTML.
+Además de controlar si exportar hojas de trabajo ocultas o no, también puede configurar ajustes adicionales para exportar el libro de trabajo a HTML. Los siguientes artículos muestran otras características admitidas por Aspose.Cells para exportar libros de trabajo a HTML.
 
-- [Convertir Excel a HTML con encabezados](/cells/es/java/convert-excel-to-html-with-headings/)
+- [Convierta Excel a HTML con encabezados](/cells/es/java/convert-excel-to-html-with-headings/)
 - [Excluir estilos no utilizados durante la conversión de Excel a HTML](/cells/es/java/exclude-unused-styles-during-excel-to-html-conversion/)
-- [Exportar comentarios mientras se guarda un archivo de Excel en HTML](/cells/es/java/export-comments-while-saving-excel-file-to-html/)
+- [Exportar comentarios mientras se guarda el archivo de Excel en HTML](/cells/es/java/export-comments-while-saving-excel-file-to-html/)
 - [Ocultar contenido superpuesto con CrossHideRight mientras se guarda en HTML](/cells/es/java/hiding-overlaid-content-with-crosshideright-while-saving-to-html/)
 - [Exporte un estilo de borde similar cuando los navegadores web no admitan el estilo de borde](/cells/es/java/export-similar-border-style-when-border-style-is-not-supported-by-web-browsers/)

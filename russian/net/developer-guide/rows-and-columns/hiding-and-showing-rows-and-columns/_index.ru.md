@@ -16,7 +16,7 @@ url: /ru/net/hiding-and-showing-rows-and-columns/
 
 ### **Скрытие строк и столбцов**
 
- Разработчики могут скрыть строку или столбец, вызвав метод[**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) а также[**СкрытьКолонку**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают индекс строки и столбца в качестве параметра, чтобы скрыть конкретную строку или столбец.
+ Разработчики могут скрыть строку или столбец, вызвав метод[**HideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderow) и[**СкрытьКолонку**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumn) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают индекс строки и столбца в качестве параметра, чтобы скрыть конкретную строку или столбец.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingRowsAndColumns-1.cs" >}}
 
@@ -28,7 +28,7 @@ url: /ru/net/hiding-and-showing-rows-and-columns/
 
 ### **Отображение строк и столбцов**
 
- Разработчики могут показать любую скрытую строку или столбец, вызвав метод[**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) а также[**Показать столбец**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают два параметра:
+ Разработчики могут показать любую скрытую строку или столбец, вызвав метод[**UnhideRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderow) и[**Показать столбец**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumn) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают два параметра:
 
 - **Индекс строки или столбца** - индекс строки или столбца, который используется для отображения конкретной строки или столбца.
 - **Высота строки или ширина столбца** - высота строки или ширина столбца, назначенная строке или столбцу после отображения.
@@ -43,12 +43,12 @@ url: /ru/net/hiding-and-showing-rows-and-columns/
 
 ### **Скрытие нескольких строк и столбцов**
 
- Разработчики могут скрыть сразу несколько строк или столбцов, вызвав метод[**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) а также[**Скрыть столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают в качестве параметров начальный индекс строки или столбца и количество строк или столбцов, которые должны быть скрыты.
+ Разработчики могут скрыть сразу несколько строк или столбцов, вызвав метод[**HideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hiderows) и[**Скрыть столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/hidecolumns) методы[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)сборник соответственно. Оба метода принимают в качестве параметров начальный индекс строки или столбца и количество строк или столбцов, которые должны быть скрыты.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Hiding-HidingMultipleRowsAndColumns-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Также можно использовать[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) учебный класс'[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) а также[**Показать столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)методы, чтобы сделать несколько строк и столбцов видимыми.
+ Также можно использовать[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) учебный класс'[**UnhideRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) и[**Показать столбцы**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)методы, чтобы сделать несколько строк и столбцов видимыми.
 
 {{% /alert %}}

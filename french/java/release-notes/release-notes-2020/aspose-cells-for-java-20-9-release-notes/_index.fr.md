@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-20-9-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-40792|Le tableau croisé dynamique n'est pas créé pour le fichier ODS|Nouvelle fonctionnalité|
 |CELLSJAVA-43263|Problème SmartMarker lorsqu'une cellule est définie avec une couleur de remplissage et une mise en forme conditionnelle|Punaise|
@@ -19,16 +19,16 @@ url: /fr/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43280|Problème de filtre après l'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43281|Problème d'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43285|Les filtres statiques sont perdus après l'actualisation du tableau croisé dynamique|Punaise|
-|CELLSJAVA-43288|Le fichier XLSB résultant est corrompu lors de l'enregistrement du fichier dans XLSB|Punaise|
+|CELLSJAVA-43288|Le fichier de résultat XLSB est corrompu lors de l'enregistrement du fichier au format XLSB|Punaise|
 |CELLSJAVA-43289|Problème de filtre après l'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43293|Problème avec les options de filtre après PivotTable.refreshData()|Punaise|
 |CELLSJAVA-43279|Les valeurs ne sont pas récupérées correctement à l'aide de getStringValue()|Punaise|
 |CELLSJAVA-43291|Contenu de la grille non visible|Punaise|
 |CELLSJAVA-43037|Problème de police lors de la conversion PDF|Punaise|
-|CELLSJAVA-43249|Problèmes d'impression lors de l'utilisation d'imprimantes physiques, d'imprimantes XPS et PDF|Punaise|
+|CELLSJAVA-43249|Problèmes d'impression lors de l'utilisation d'imprimantes physiques, imprimantes XPS et PDF|Punaise|
 |CELLSJAVA-43254|Différence de police lors de la conversion d'une feuille de calcul en image|Punaise|
 |CELLSJAVA-43266|La version Java ne prend pas en charge le chargement de la police à partir du dossier de polices de l'utilisateur actuel par défaut|Punaise|
-|CELLSJAVA-43268|Rendu Excel vers TIFF - certaines valeurs sont remplacées par des caractères "#"|Punaise|
+|CELLSJAVA-43268|Excel vers le rendu TIFF - certaines valeurs sont remplacées par des caractères "#"|Punaise|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException : Erreur pour ZipFile|Punaise|
 |CELLSJAVA-43277|Problème avec le rapport hauteur largeur|Punaise|
 |CELLSJAVA-43245|Le graphique combiné ne s'affiche pas correctement après la conversion du fichier Excel en PDF|Punaise|
@@ -47,7 +47,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Ajoute la propriété AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Pour des raisons de performances et de commodité pour l'utilisateur, nous ajoutons cette propriété et définissons sa valeur par défaut sur false afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de AbstractCalculationEngine a modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
+ Pour des raisons de performances et de commodité pour l'utilisateur, nous ajoutons cette propriété et définissons sa valeur par défaut sur false afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de AbstractCalculationEngine a modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
 
 ### **Ajoute la propriété TxtLoadOptions.HasTextQualifier**
 
@@ -147,4 +147,4 @@ Représente les axes croisés à la valeur minimale.
 
 ### **Ajoute la propriété XlsbSaveOptions.ExportAllColumnIndexes.**
 
-Indique si les index de colonne sont exportés pour toutes les cellules lors de l'enregistrement des fichiers XLSB.
+Indique si les index de colonne d'exportation pour toutes les cellules lors de l'enregistrement des fichiers XLSB.

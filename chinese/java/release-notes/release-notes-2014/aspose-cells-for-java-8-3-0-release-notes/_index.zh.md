@@ -33,27 +33,27 @@ url: /zh/java/aspose-cells-for-java-8-3-0-release-notes/
 (CELLSJAVA-41076) - XLA 引用未被 ExternalLink.setDataSource 正确删除
 (CELLSJAVA-41068) - XLSX 文件在通过 Aspose.Cells API 重新保存文件后损坏
 (CELLSJAVA-41066) - 图表轴步骤在复制工作表后中断
-(CELLSJAVA-41060) - 在将 XLSX 保存为 XLS 时更改工作簿调色板会导致 MS Excel 在受保护的视图中打开生成的电子表格
+(CELLSJAVA-41060) - 在将 XLSX 保存为 XLS 的同时更改工作簿调色板会导致 MS Excel 在受保护的视图中打开生成的电子表格
 (CELLSJAVA-41059) - 在使用 Pallet Change 将 XLSX 保存为 XLS 时更改条件格式规则的顺序
 (CELLSJAVA-41057) - 某些命名范围丢失引号
-(CELLSJAVA-41056) - Cells.copyRows() 方法未复制 XLSX 文件格式的迷你图
+(CELLSJAVA-41056) - Cells.copyRows() 方法不复制 XLSX 文件格式的迷你图
 (CELLSJAVA-41055) - 读取单元格样式时出现文本格式问题
 (CELLSJAVA-41049) - 获取#VALUE！使用 RATE 函数时出错
 (CELLSJAVA-41038) - 图例中的隐藏系列在复制工作表后再次出现。
 (CELLSJAVA-41036) - 重新保存工作簿时图表轴步骤中断
-(CELLSJAVA-41054) - 复制粘贴的图片未在 PDF 中呈现
-(CELLSJAVA-41044) - Aspose.Cells 生成的 PDF 未通过 PDF/A-1b 合规性测试
+(CELLSJAVA-41054) - 复制粘贴的图片在 PDF 中不呈现
+(CELLSJAVA-41044) - Aspose.Cells 生成的 PDF 没有通过 PDF/A-1b 一致性测试
 (CELLSJAVA-41015) - Aspose.Cells 生成的 PD/A-1b 文档未通过预检验证
-(CELLSJAVA-40951) - 从 Excel 模板文件转换后，PDF 文档已损坏且无法在 Acrobat Reader 中打开
+(CELLSJAVA-40951) - PDF 文档已损坏，从 Excel 模板文件转换后无法在 Acrobat Reader 中打开
 (CELLSJAVA-40725) - 剪贴画不显示在 pdf 中
-(CELLSJAVA-40692) - Compaliance PDF/A-1b 使用 Adobe Preflight 失败
+(CELLSJAVA-40692) - Compaliance PDF/A-1b 因 Adobe Preflight 而失败
 (CELLSJAVA-41086) - 用户定义的图表系列名称为空
 (CELLSJAVA-41065) - 图表标题混乱
 (CELLSJAVA-41047) - 在将电子表格呈现为 PDF 格式时，堆积柱形图的数据分隔符具有不同的厚度
-(CELLSJAVA-41045) - 在将电子表格呈现为 PDF 格式时图表的列与底轴重叠
+(CELLSJAVA-41045) - 在将电子表格呈现为 PDF 格式时，图表的列与底轴重叠
 (CELLSJAVA-40989) - 当呈现为 PDF 时，条形图在条形右侧有额外的垂直线
 (CELLSJAVA-40988) - 图表的数据标签在呈现的 PDF 中被修剪掉
-(CELLSJAVA-40987) - 图表的轴标签和图例在呈现的 PDF 中重叠
+(CELLSJAVA-40987) - 图表的轴标签和图例在渲染中重叠 PDF
 (CELLSJAVA-40945) - 文本框从图表中丢失
 
 例外情况
@@ -64,7 +64,7 @@ url: /zh/java/aspose-cells-for-java-8-3-0-release-notes/
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-41074) - 将数据从 GridWeb 导出到 Excel 文件或 XML 文件 - GridWeb for JAVA
 (CELLSJAVA-41078) - 支持导出 SpreadsheetML (.xml) 文件 - GridWeb (JAVA)

@@ -10,7 +10,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.1.1 a l
 
 {{% /alert %}} 
 ## **Se agregó soporte para advertencia si ocurre sustitución de fuente**
-Con Aspose.Cells for .NET 8.1.2, las clases WarningInfo, WarningType, la interfaz IWarningCallback y las propiedades SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback se han agregado para facilitar que el usuario reciba una advertencia si se produce una sustitución de fuentes al convertir hojas de cálculo a imágenes o formato PDF.
+Con Aspose.Cells for .NET 8.1.2, las clases WarningInfo, WarningType, la interfaz IWarningCallback y las propiedades SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback se han agregado para facilitar que el usuario reciba una advertencia si se produce una sustitución de fuentes al convertir hojas de cálculo a imágenes o al formato PDF.
 
 {{% alert color="primary" %}} 
 

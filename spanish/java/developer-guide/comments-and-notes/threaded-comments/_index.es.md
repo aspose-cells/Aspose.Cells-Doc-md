@@ -50,7 +50,7 @@ Para leer comentarios encadenados en Excel, simplemente pase el mouse sobre la c
 
 ![todo:imagen_alternativa_texto](threaded-comments_1.jpg)
 ### **Leer comentarios encadenados usando Aspose.Cells**
-Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede iterar sobre el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)para ver los comentarios.
+Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede iterar sobre el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)para ver los comentarios.
 
 El siguiente ejemplo demuestra la lectura de comentarios de la columna A1 cargando el[ejemplo de archivo de Excel](ThreadedCommentsSample.xlsx). Consulte la salida de la consola generada por el código como referencia.
 #### **Código de muestra**
@@ -60,7 +60,7 @@ Comentario: comentario de prueba
 
 Autor: Aspose Prueba
 ### **Leer tiempo de creación de comentarios encadenados**
-Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede iterar sobre el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)y usa el[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)propiedad.
+Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede iterar sobre el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)y usa el[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)propiedad.
 
 El siguiente ejemplo demuestra la lectura del tiempo creado de comentarios encadenados cargando el[ejemplo de archivo de Excel](ThreadedCommentsSample.xlsx). Consulte la salida de la consola generada por el código como referencia.
 #### **Código de muestra**
@@ -77,7 +77,7 @@ Para editar un comentario encadenado en Excel, haga clic en el**Editar**enlace e
 
 ![todo:imagen_alternativa_texto](threaded-comments_7.jpg)
 ### **Editar comentario en hilo usando Aspose.Cells**
-Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede actualizar el comentario requerido en el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)y guardar el libro de trabajo.
+Aspose.Cells proporciona[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) para recuperar comentarios encadenados para la columna especificada.[Comentarios.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)acepta el nombre de la columna como parámetro y devuelve el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puede actualizar el comentario requerido en el[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)y guardar el libro de trabajo.
 
 El siguiente ejemplo muestra la edición del primer comentario encadenado en la columna A1 cargando el[ejemplo de archivo de Excel](ThreadedCommentsSample.xlsx). Por favor vea el[archivo de salida de Excel](EditThreadedComments.xlsx)generado por el código que muestra el comentario actualizado como referencia.
 #### **Código de muestra**
@@ -96,6 +96,6 @@ El siguiente ejemplo demuestra la eliminación de comentarios en la columna A1 c
 
 {{% alert color="primary" %}} 
 
- Tenga en cuenta que al eliminar el comentario con Aspose.Cells, el autor no se elimina automáticamente. Si también necesita eliminar al autor, utilice el[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) como se muestra en el ejemplo anterior.
+ Tenga en cuenta que al eliminar el comentario con Aspose.Cells, el autor no se elimina automáticamente. Si también necesita eliminar al autor, utilice el[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)como se muestra en el ejemplo anterior.
 
 {{% /alert %}}

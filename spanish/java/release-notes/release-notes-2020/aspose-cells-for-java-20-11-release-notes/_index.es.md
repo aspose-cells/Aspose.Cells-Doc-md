@@ -16,15 +16,15 @@ url: /es/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43191| ¿Proporciona medios para manejar escenarios al especificar tipos de fuente incorrectos?|Mejora|
 |CELLSJAVA-43319|Problema de obtener el valor de la celda con la fórmula|Insecto|
 |CELLSJAVA-43330|Problema después de volver a guardar el archivo XLSB: archivo dañado|Insecto|
-|CELLSJAVA-43333|Posicionamiento incorrecto de las imágenes y el texto al representar Excel como HTML|Insecto|
+|CELLSJAVA-43333|Posicionamiento incorrecto de imágenes y texto al renderizar Excel como HTML|Insecto|
 |CELLSJAVA-43321|Problema de Autofiltro: se muestran filas en blanco|Insecto|
 |CELLSJAVA-43335|Se produjo un interbloqueo al calcular fórmulas en el libro de trabajo|Insecto|
 |CELLSJAVA-43313|La etiqueta del gráfico cambia de posición cuando se imprime|Insecto|
 |CELLSJAVA-43314|Línea 0/100 % no impresa para gráficos circulares 100 %|Insecto|
 |CELLSJAVA-43316| Varios problemas al imprimir gráficos|Insecto|
-|CELLSJAVA-40582|El texto de arte inteligente no se procesa correctamente en PDF/imagen|Insecto|
+|CELLSJAVA-40582|El texto de arte inteligente no se representa correctamente en PDF/imagen|Insecto|
 |CELLSJAVA-41639|Los anchos de columna no se conservan al convertir del formato "XML Spreadsheet 2003" al formato XLSX|Insecto|
-|CELLSJAVA-43315|La conversión de XLS a XLSX hace que el archivo se corrompa y da el error "Forma a imagen" al convertir la salida XLSX a PDF|Insecto|
+|CELLSJAVA-43315|La conversión de XLS a XLSX corrompe el archivo y da el error "Forma a imagen" al convertir la salida XLSX a PDF|Insecto|
 |CELLSJAVA-43334|Problema de autofiltro en la tabla|Insecto|
 |
 

@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-8-2-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java wurde auf Version 8.2.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 30 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -27,19 +27,19 @@ Neue Eigenschaften
 
 Fehler
 
-(CELLSJAVA-40977) – Die bedingte Formatierung funktioniert nicht, wenn eine Excel-Datei in HTML konvertiert wird
-(CELLSJAVA-40959) – Zusätzliches Ausrichtungsattribut in der HTML-Ausgabe.
-(CELLSJAVA-40954) – Spalten stimmen in der HTML-Ausgabe nicht überein
+(CELLSJAVA-40977) – Die bedingte Formatierung funktioniert nicht, wenn die Excel-Datei in HTML konvertiert wird
+(CELLSJAVA-40959) – Zusätzliches Ausrichtungsattribut in der Ausgabe von HTML.
+(CELLSJAVA-40954) – Spalten stimmen in der Ausgabe von HTML nicht überein
 (CELLSJAVA-40953) - Einige Zellenränder wurden beim Konvertieren von Excel in HTML etwas verlängert
 (CELLSJAVA-40980) – Der Wert der verknüpften Zelle wird nicht aus der externen Arbeitsmappe aktualisiert
 (CELLSJAVA-40957) – Das Schützen von Arbeitsblättern im lizenzierten Modus führt dazu, dass MS Excel in der Vorschau abstürzt
 (CELLSJAVA-40956) – Chart.getName() gibt einen falschen Diagrammnamen zurück
 (CELLSJAVA-40952) – Series.hasLeaderLines() gibt keinen korrekten Wert zurück
-(CELLSJAVA-40944) – Eingebettete PDF-Dateien werden nach dem Zusammenführen von Arbeitsmappen beschädigt
-(CELLSJAVA-40979) – Einige Quadrate sind in der gerenderten PDF-Datei an Datenbeschriftungen im Kreisdiagramm angehängt
-(CELLSJAVA-40975) - Umwandlung von XLSX in JPEG - Leistung
+(CELLSJAVA-40944) – Embedded PDF wird nach dem Zusammenführen von Arbeitsmappen beschädigt
+(CELLSJAVA-40979) – Einige Quadrate sind an Datenbeschriftungen im Kreisdiagramm im gerenderten PDF angehängt
+(CELLSJAVA-40975) - Konvertierung von XLSX in JPEG - Leistung
 (CELLSJAVA-40973) – SetExtractContentPermission deaktivieren – Option „Berechtigung zum Kopieren oder Extrahieren von Inhalten“ funktioniert nicht
-(CELLSJAVA-40965) - Cells laufen im PDF zusammen
+(CELLSJAVA-40965) - Cells treffen sich in der PDF
 (CELLSJAVA-40962) - Aspose.Cells gibt den #NV-Wert anders wieder als MS Excel
 (CELLSJAVA-40926) – Der Tabellenrand ist normal statt fett bei 100 % Zoom
 (CELLSJAVA-40833) – Die Bildqualität des Diagramms ist niedrig – Konvertierung von Diagramm zu Bild
@@ -47,10 +47,10 @@ Fehler
 (CELLSJAVA-40948) – Benutzerdefiniertes Bild in Datenpunkten wird nicht im Diagrammbild angezeigt
 (CELLSJAVA-40947) – Chinesische Schriftzeichen werden im Diagrammbild nicht angezeigt
 (CELLSJAVA-40946) – Datenbeschriftungen befinden sich an der falschen Position im Diagrammbild
-(CELLSJAVA-40821) – Textfeld fehlt, wenn das Diagramm mit ToImage als EMF gespeichert wird
-(CELLSJAVA-40819) – Falsche Achsenwerte, wenn Diagramm mit ToImage als EMF gespeichert wird
-(CELLSJAVA-40818) – Fehlender Achsentitel, wenn Diagramm mit ToImage als EMF gespeichert wird
-(CELLSJAVA-40830) – Umgekehrter Z-Index in gestapelter Fläche und Balkendiagramm beim Exportieren in PDF
+(CELLSJAVA-40821) – Das Textfeld fehlt, wenn das Diagramm mit ToImage als EMF gespeichert wird
+(CELLSJAVA-40819) – Falsche Achsenwerte, wenn das Diagramm mit ToImage als EMF gespeichert wird
+(CELLSJAVA-40818) – Fehlender Achsentitel, wenn das Diagramm mit ToImage als EMF gespeichert wird
+(CELLSJAVA-40830) – Invertierter Z-Index in gestapelter Fläche und Balkendiagramm beim Exportieren nach PDF
 
 Ausnahmen
 

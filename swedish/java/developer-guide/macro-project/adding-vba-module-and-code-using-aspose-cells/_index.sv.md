@@ -12,7 +12,7 @@ url: /sv/java/adding-vba-module-and-code-using-aspose-cells/
 
 ## **Lägger till VBA-modul och kod med Aspose.Cells**
 
-Följande exempelkod skapar en ny arbetsbok och lägger till en ny VBA-modul och makrokod och sparar utdata i XLSM-format. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel och klicka på**Utvecklare > Visual Basic** menykommandon kommer du att se en modul som heter "TestModule" och inuti den kommer du att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok och lägger till en ny VBA-modul och makrokod och sparar utdata i formatet XLSM. En gång öppnar du utdatafilen XLSM i Microsoft Excel och klickar på**Utvecklare > Visual Basic** menykommandon kommer du att se en modul som heter "TestModule" och inuti den kommer du att se följande makrokod.
 
 {{< highlight "java" >}}
 
@@ -26,6 +26,6 @@ End Sub
 
 ## Exempelkod
 
-Här är en exempelkod för att generera utdata-XLSM-filen med VBA-modul och makrokod.
+Här är en exempelkod för att generera utdatafilen XLSM med VBA-modul och makrokod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

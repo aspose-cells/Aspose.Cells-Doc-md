@@ -6,7 +6,7 @@ url: /it/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
- volte, è necessario copiare i dati da un intervallo di celle a un altro, copiando solo i dati, non la formattazione. Aspose.Cells offre questa funzionalità fornendo il[Intervallo.copiaDati](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) metodo.
+ A volte, è necessario copiare i dati da un intervallo di celle a un altro, copiando solo i dati, non la formattazione. Aspose.Cells offre questa funzionalità fornendo il[Intervallo.copiaDati](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) metodo.
 
 {{% /alert %}} 
 ## **Copia solo i dati dell'intervallo**

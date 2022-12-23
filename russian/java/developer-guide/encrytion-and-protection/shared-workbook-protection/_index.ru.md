@@ -7,7 +7,7 @@ url: /ru/java/password-protect-or-unprotect-the-shared-workbook/
 ---
 ## **Возможные сценарии использования**
 
-Вы можете защитить или снять защиту с общей книги с помощью Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с[**Рабочая книга.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) а также[**Рабочая книга.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) методы.
+Вы можете защитить или снять защиту с общей книги с помощью Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с[**Рабочая книга.protectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) и[**Рабочая книга.unprotectSharedWorkbook()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) методы.
 
 ![дело:изображение_альтернативный_текст](password-protect-or-unprotect-the-shared-workbook_1.png)
 

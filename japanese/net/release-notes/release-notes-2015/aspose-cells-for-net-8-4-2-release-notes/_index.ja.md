@@ -30,7 +30,7 @@ url: /ja/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **バグ**
 
 
-(CELLSNET-43581) - Excel ファイルを PDF に変換すると、テキストがバナーから移動します
+(CELLSNET-43581) - Excel ファイルを PDF に変換すると、テキストがバナーの外に移動する
 
 (CELLSNET-43639) - 透かしが正しく表示されない
 
@@ -38,7 +38,7 @@ url: /ja/net/aspose-cells-for-net-8-4-2-release-notes/
 
 (CELLSNET-43613) - カスタム フォントが SheetRender で機能しない
 
-(CELLSNET-43573) - PDF への変換時に列が次のページに移動する
+(CELLSNET-43573) - PDF に変換すると列が次のページに移動する
 
 (CELLSNET-43571) - Aspose.Cells 経由で生成された PDF の改ページが正しくない
 
@@ -46,7 +46,7 @@ url: /ja/net/aspose-cells-for-net-8-4-2-release-notes/
 
 (CELLSNET-43591) - 円グラフのデータラベル値が正しくない
 
-(CELLSNET-43574) - PDF に変換すると、データ ラベルのテキストがグラフ領域を超えます
+(CELLSNET-43574) - PDF に変換すると、データ ラベルのテキストがチャート領域を超えます
 
 (CELLSNET-43568) - チャートを画像に変換し、画像を挿入する
 
@@ -108,7 +108,7 @@ url: /ja/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -140,8 +140,8 @@ VBA モジュールを追加します。
 
 
 
-PasteType.Default および PasteType.DefaultExceptBorders 列挙型を追加します。
+ PasteType.Default および PasteType.DefaultExceptBorders 列挙型を追加します。
 
- MS Excel で範囲を「すべて」および「境界線を除くすべて」としてコピーするために使用されます。
+MS Excel で範囲を「すべて」および「境界線を除くすべて」としてコピーするために使用されます。
 
 

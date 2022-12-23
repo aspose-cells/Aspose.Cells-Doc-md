@@ -10,7 +10,7 @@ url: /it/sharepoint/aspose-cells-for-sharepoint-17-7-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSSP-39|Supporta SharePoint 2016|Nuova caratteristica|
 |CELLSSP-53|Risolto un problema riguardante il risultato restituito per la filigrana aggiunta|Aumento|

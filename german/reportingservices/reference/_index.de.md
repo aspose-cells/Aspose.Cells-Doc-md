@@ -1,5 +1,5 @@
 ﻿---
-title: Bezug
+title: Referenz
 type: docs
 weight: 60
 url: /de/reportingservices/reference/

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /de/java/cells-number-settings/
 ---
-## **Anzeigeformate für Zahlen und Daten einstellen**
+## **Festlegen der Anzeigeformate von Numbers und Datumsangaben**
 
 Ein sehr starkes Merkmal von Microsoft Excel ist, dass Benutzer die Anzeigeformate von numerischen Werten und Datumsangaben festlegen können. Wir wissen, dass numerische Daten verwendet werden können, um verschiedene Werte darzustellen, darunter Dezimal-, Währungs-, Prozent-, Bruch- oder Buchhaltungswerte usw. Alle diese numerischen Werte werden in unterschiedlichen Formaten angezeigt, je nach Art der Informationen, die sie darstellen. Ebenso gibt es viele Formate, in denen ein Datum oder eine Uhrzeit angezeigt werden kann.
 Aspose.Cells unterstützt diese Funktionalität und ermöglicht es Entwicklern, ein beliebiges Anzeigeformat für eine Zahl oder ein Datum festzulegen.
@@ -14,13 +14,13 @@ Aspose.Cells unterstützt diese Funktionalität und ermöglicht es Entwicklern, 
 Anzeigeformate in Microsoft Excel einstellen:
 
 1. Klicken Sie mit der rechten Maustaste auf eine beliebige Zelle.
-1.  Auswählen**Cells formatieren**. Es erscheint ein Dialog, der verwendet wird, um die Anzeigeformate beliebiger Werte einzustellen.
+1.  Wählen**Cells formatieren**. Es erscheint ein Dialog, der verwendet wird, um die Anzeigeformate beliebiger Werte einzustellen.
 
- Auf der linken Seite des Dialogs gibt es viele Kategorien von Werten wie z**Allgemein**, **Nummer**, **Währung**, **Buchhaltung**, **Datum**, **Zeit**, **Prozentsatz,**usw. Aspose.Cells unterstützt alle diese Anzeigeformate.
+ Auf der linken Seite des Dialogs gibt es viele Kategorien von Werten wie z**Allgemein**, **Anzahl**, **Währung**, **Buchhaltung**, **Datum**, **Zeit**, **Prozentsatz,**usw. Aspose.Cells unterstützt alle diese Anzeigeformate.
 
 ## **Verwenden von integrierten Zahlenformaten**
 
- Aspose.Cells bietet einige eingebaute Zahlenformate, um die Anzeigeformate der Zahlen und Daten zu konfigurieren. Allen integrierten Zahlenformaten werden eindeutige numerische Werte zugewiesen. Entwickler können dem einen beliebigen numerischen Wert zuweisen[**Nummer**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) Methode der[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/style) Objekt, um das Anzeigeformat anzuwenden. Dieser Ansatz ist schnell. Die von Aspose.Cells unterstützten integrierten Zahlenformate sind unten aufgeführt.
+ Aspose.Cells bietet einige eingebaute Zahlenformate, um die Anzeigeformate der Zahlen und Daten zu konfigurieren. Allen integrierten Zahlenformaten werden eindeutige numerische Werte zugewiesen. Entwickler können dem einen beliebigen numerischen Wert zuweisen[**Anzahl**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) Methode der[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/style) Objekt, um das Anzeigeformat anzuwenden. Dieser Ansatz ist schnell. Die von Aspose.Cells unterstützten integrierten Zahlenformate sind unten aufgeführt.
 
 |**Wert**|**Typ**|**Zeichenkette formatieren**|
 |:- |:- |:- |
@@ -81,7 +81,7 @@ Um Ihre eigene benutzerdefinierte Formatzeichenfolge zum Festlegen des Anzeigefo
 
 {{% alert color="primary" %}}
 
- Wenn Sie die verwenden[**Brauch**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) um das Zahlenformat einzustellen, jedes vorherige Format, das mit eingestellt wurde[**Nummer**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） is overridden and vice versa.
+ Wenn Sie die verwenden[**Brauch**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) um das Zahlenformat einzustellen, jedes vorherige Format, das mit eingestellt wurde[**Anzahl**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） is overridden and vice versa.
 
 {{% /alert %}}
 

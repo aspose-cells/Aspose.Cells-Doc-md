@@ -26,7 +26,7 @@ url: /tr/net/aspose-cells-net-3-7-0-0-new-release-release-notes/
 
  Eskiden iki sürüm türü vardı: Professional ve Enterprise. Bu, bir sürüm türü Professional olarak değiştirilmiştir.
 
-Professional sürümü artık Enterprise sürümünde bulunan tüm özellikleri içeriyor. Professional sürümüne sahip olan müşteriler, yükseltme yaptıklarında Enterprise sürümünde bulunan tüm özelliklere erişebilirler.
+Professional sürümü artık Enterprise sürümünde bulunan tüm özellikleri içermektedir. Professional sürümüne sahip olan müşteriler, yükseltme yaptıklarında Enterprise sürümünde bulunan tüm özelliklere erişebilirler.
 
 
 ## **Yeni özellikler**

@@ -21,4 +21,4 @@ url: /sv/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
  Lade till nya C# diagramdemos
  Fixat bugg vid laddning av fil med UNC-hyperlänkar
  Fixat bugg i formatering av celler med en Aspose skapad Excel-fil i vissa fall
-Formad formelberäkningsmotor
+ Formad formelberäkningsmotor

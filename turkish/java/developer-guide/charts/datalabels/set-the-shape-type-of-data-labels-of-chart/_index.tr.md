@@ -28,7 +28,7 @@ etc.
 
 Aşağıdaki örnek kod, grafiğin veri etiketlerinin şekil türünü şu şekilde değiştirir:[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Lütfen bkz[örnek excel dosyası](60489794.xlsx)Bu kodda kullanılan ve[çıktı excel dosyası](60489793.xlsx)onun tarafından oluşturulur. Ekran görüntüsü, kodun örnek Excel dosyası üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](set-the-shape-type-of-data-labels-of-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](set-the-shape-type-of-data-labels-of-chart_1.png)
 
 ## **Basit kod**
 

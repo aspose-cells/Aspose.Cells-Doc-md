@@ -18,7 +18,7 @@ Aspose.Cells は、**[SheetRender](https://reference.aspose.com/cells/java/com.a
 
 {{% alert color="primary" %}}
 
-Aspose.Cells for Java は TIFF 形式への変換にも対応しています。ワークシートを TIFF 画像に変換するには、JAI ライブラリをクラスパスに追加します。
+Aspose.Cells for Java は、TIFF 形式への変換もサポートしています。ワークシートを TIFF イメージに変換するには、JAI ライブラリをクラスパスに追加します。
 
 {{% /alert %}} {{% alert color="primary" %}}
 
@@ -32,9 +32,9 @@ Aspose.Cells for Java は TIFF 形式への変換にも対応しています。�
 
 ## **ワークシートを SVG に変換する**
 
- SVG は**スケーラブルなベクター グラフィックス**SVG は、2 次元ベクター グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
+ SVG の略**スケーラブルなベクター グラフィックス**SVG は、2 次元ベクトル グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
 
-v7.1.0 のリリース以降、**Aspose.Cells for Java**ワークシートを SVG 画像に変換できます。
+ v7.1.0 のリリース以降、**Aspose.Cells for Java**ワークシートを SVG 画像に変換できます。
 
 この機能を使用するには、com.aspose.cells 名前空間をプログラムまたはプロジェクトにインポートする必要があります。レンダリングと印刷に役立ついくつかのクラスがあります。たとえば、**[SheetRender](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**, **[ImageOrPrintOptions](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**, **[WorkbookRender](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender)**、 その他。
 
@@ -48,12 +48,12 @@ v7.1.0 のリリース以降、**Aspose.Cells for Java**ワークシートを SV
 
 ### **ワークブックにアクティブなワークシートを表示する**
 
-ワークブック内のアクティブなワークシートを変換する簡単な方法は、アクティブなシート インデックスを設定し、ワークブックを SVG として保存することです。アクティブなシートを SVG にレンダリングします。次のサンプル コードは、この機能を示しています。
+ワークブック内のアクティブなワークシートを変換する簡単な方法は、アクティブなシート インデックスを設定し、ワークブックを SVG として保存することです。これにより、アクティブなシートが SVG にレンダリングされます。次のサンプル コードは、この機能を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
 
 ## 関連記事
 
-- [viewBox 属性を使用してチャートを SVG にエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
+- [viewBox属性を使用してグラフをSVGにエクスポートします](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
 - [ワークシートまたはチャートを目的の幅と高さの画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [ワークシートから画像へ、ワークシートから画像へのページ単位での変換](/cells/ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

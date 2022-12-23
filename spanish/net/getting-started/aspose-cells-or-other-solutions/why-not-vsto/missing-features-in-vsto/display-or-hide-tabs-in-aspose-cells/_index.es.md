@@ -6,7 +6,7 @@ url: /es/net/display-or-hide-tabs-in-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Si observa detenidamente la parte inferior de un archivo de Excel Microsoft, verá una serie de controles. Éstos incluyen:
+Si observa detenidamente la parte inferior de un archivo de Excel Microsoft, verá una serie de controles. Éstas incluyen:
 
 - Pestañas de hoja.
 - Botones de desplazamiento de pestañas.

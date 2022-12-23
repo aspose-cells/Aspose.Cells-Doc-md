@@ -6,7 +6,7 @@ url: /es/net/adjust-workbook-compression-level/
 ---
 ## **Ajustar el nivel de compresión del libro de trabajo**
 
-Los desarrolladores pueden ajustar el nivel de compresión del libro de trabajo cuando trabajan con libros de trabajo más grandes. Los desarrolladores pueden priorizar tamaños de archivo más pequeños sobre el tiempo de procesamiento o viceversa. Aspose.Cells proporciona**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeración que puede usar para establecer el nivel de compresión del libro de trabajo. los**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeración proporciona los siguientes miembros.
+Los desarrolladores pueden ajustar el nivel de compresión del libro de trabajo cuando trabajan con libros de trabajo más grandes. Los desarrolladores pueden priorizar tamaños de archivo más pequeños sobre el tiempo de procesamiento o viceversa. Aspose.Cells proporciona**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeración que puede usar para establecer el nivel de compresión del libro de trabajo. Él**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** enumeración proporciona los siguientes miembros.
 
 - Level1: La compresión más rápida pero menos efectiva.
 - Nivel 2: Un poco más lento, pero mejor que el nivel 1.

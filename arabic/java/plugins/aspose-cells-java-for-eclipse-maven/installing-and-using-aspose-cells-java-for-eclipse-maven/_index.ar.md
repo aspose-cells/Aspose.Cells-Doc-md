@@ -28,12 +28,12 @@ url: /ar/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ![ما يجب القيام به: image_بديل_نص](project_2.png)
 
-1. تزود**اسم المشروع ، الموقع ، GroupId ، ArtifactId**و**إصدار**لمشروعك Maven وانقر**إنهاء.**
+1. يمد**اسم المشروع ، الموقع ، GroupId ، ArtifactId**و**الإصدار**لمشروعك Maven وانقر**ينهي.**
 
 ![ما يجب القيام به: image_بديل_نص](project_3.png)
 
-1. سيؤدي هذا إلى استرداد ملف[Aspose.Cells for Java](https://products.aspose.com/cells/java/) آخر[Maven التبعية](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) إشارة من[Aspose مستودع سحابة Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) وتهيئته في**pom.xml**. إذا كنت قد اخترت**قم أيضًا بتنزيل أمثلة التعليمات البرمجية ،** تنزيل ملف**أمثلة التعليمات البرمجية** سيبدأ أيضًا من[Aspose.Cells for Java API مستودع الأمثلة.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-1. التالية**Maven** سيتم إنشاء المشروع على الخاص بك**كسوف IDE** عند الانتهاء من المعالج:
+1. سيؤدي هذا إلى استرداد ملف[Aspose.Cells for Java](https://products.aspose.com/cells/java/) الأحدث[Maven التبعية](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) إشارة من[Aspose مستودع سحابة Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) وتهيئته في**pom.xml**. إذا كنت قد اخترت**قم أيضًا بتنزيل أمثلة التعليمات البرمجية ،** تنزيل ملف**أمثلة التعليمات البرمجية** سيبدأ أيضًا من[Aspose.Cells for Java API مستودع الأمثلة.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+1. التالي**Maven** سيتم إنشاء المشروع على الخاص بك**كسوف IDE** عند الانتهاء من المعالج:
 
 ![ما يجب القيام به: image_بديل_نص](project_4.png)
 
@@ -46,7 +46,7 @@ url: /ar/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 {{% alert color="primary" %}}
 
- لتكون قادرة على استخدام**Aspose.Cells معالج مثال الرمز**مريح: يوصى دائمًا بالاختيار**قم أيضًا بتنزيل أمثلة التعليمات البرمجية** أثناء الإنشاء**Maven المشروع**على**Aspose.Cells Maven المشروع** **ساحر**,
+ لتكون قادرة على استخدام**Aspose.Cells معالج مثال الرمز**مريح: يوصى دائمًا بالاختيار**قم أيضًا بتنزيل أمثلة التعليمات البرمجية** أثناء الإنشاء**Maven المشروع**تشغيل**Aspose.Cells Maven المشروع** **ساحر**,
 
 {{% /alert %}}
 
@@ -58,11 +58,11 @@ url: /ar/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ![ما يجب القيام به: image_بديل_نص](example_1.png)
 
-1.  اختر مشروعك ثم قم بتوسيع الشجرة لتحديدها**مثال رمز** فئة وانقر**إنهاء**.
+1.  اختر مشروعك ثم قم بتوسيع الشجرة لتحديدها**مثال رمز** فئة وانقر**ينهي**.
 
 ![ما يجب القيام به: image_بديل_نص](example_2.png)
 
-1.  سيؤدي هذا إلى نسخ الفئة المحددة**أمثلة التعليمات البرمجية**Java في المشروع تحت**com.aspose.cells.examples**حزمة. كما سيتم نسخ أي موارد مطلوبة تحتاجها أمثلة التعليمات البرمجية إلى**src / main / resources**المجلد ، كما هو موضح أدناه:
+1.  سيؤدي هذا إلى نسخ الفئة المحددة**أمثلة التعليمات البرمجية**Java في المشروع تحت**com.aspose.cells.examples**صفقة. كما سيتم نسخ أي موارد مطلوبة تحتاجها أمثلة التعليمات البرمجية إلى**src / main / resources**المجلد ، كما هو موضح أدناه:
 
 ![ما يجب القيام به: image_بديل_نص](example_3.png)
 

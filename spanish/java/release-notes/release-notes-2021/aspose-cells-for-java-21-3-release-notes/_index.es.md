@@ -15,7 +15,7 @@ url: /es/java/aspose-cells-for-java-21-3-release-notes/
 |CELLSJAVA-43400|Admite la función ÚNICA ()|
 |CELLSJAVA-42863|Obtener el subtítulo del gráfico|
 |CELLSJAVA-43401|Admite el resultado de formato unificado para la era japonesa para todos los JDK|
-|CELLSJAVA-43398|El formato condicional no se representa correctamente en la conversión de ODS a HTML|
+|CELLSJAVA-43398|El formato condicional no se procesa correctamente en la conversión ODS a HTML|
 |CELLSJAVA-43388|El archivo de salida está dañado después de copiar el libro de trabajo|
 |CELLSJAVA-43406|Problemas al convertir HTML a Excel|
 |CELLSJAVA-43399|CalculateFormula() crea muchos valores de tipo de error #VALOR|

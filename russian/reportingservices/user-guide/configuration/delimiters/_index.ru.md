@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Параметр разделителя полей в**rsreportserver.config** имеет приоритет над параметром разделителя полей в**Aspose.Cells.ReportingServices.xml** Когда параметр разделителя полей в**rsreportserver.config** имеет значение null или значение по умолчанию, параметр разделителя полей в**Aspose.Cells.ReportingServices.xml** используется.
+ Параметр разделителя полей в**rsreportserver.config** имеет приоритет над параметром разделителя полей в**Aspose.Cells.ReportingServices.xml** . Когда параметр разделителя полей в**rsreportserver.config** имеет значение null или значение по умолчанию, параметр разделителя полей в**Aspose.Cells.ReportingServices.xml** используется.

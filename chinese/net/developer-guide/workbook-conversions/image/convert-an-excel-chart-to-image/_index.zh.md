@@ -8,7 +8,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 图表在视觉上很吸引人，使用户可以轻松查看数据中的比较、模式和趋势。例如，图表不是分析工作表数字的列，而是一目了然地显示销售额是下降还是上升，或者实际销售额与预计销售额的比较情况。人们经常被要求以易于理解和易于维护的方式呈现统计和图形信息。图片有帮助。
 
-有时，应用程序或网页中需要图表。或者，Word 文档、PDF 文件、PowerPoint 演示文稿或其他一些应用程序可能需要它。在每种情况下，您都希望将图表呈现为图像，以便您可以在其他地方使用它。
+有时，应用程序或网页中需要图表。或者 Word 文档、PDF 文件、PowerPoint 演示文稿或其他一些应用程序可能需要它。在每种情况下，您都希望将图表呈现为图像，以便您可以在其他地方使用它。
 
 {{% /alert %}}
 
@@ -18,11 +18,11 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 ### **将饼图转换为图像文件**
 
-首先，在 Microsoft Excel 中创建一个饼图，然后将其转换为带有 Aspose.Cells 的图像文件。本例中的代码基于模板 Microsoft Excel 文件中的饼图创建了一个 EMF 图像。
+首先，在Microsoft Excel中创建一个饼图，然后用Aspose.Cells将其转换为图像文件。本例中的代码根据模板Microsoft Excel文件中的饼图创建一个EMF图像。
 
 |**输出：饼图图像**|
 |:- |
-|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_1.png)|
+|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_1.png)|
 
 1. 在 Microsoft Excel 中创建饼图：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -32,7 +32,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输入文件。**|
 |:- |
-|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_2.png)|
+|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_2.png)|
 
 1. 下载并安装 Aspose.Cells：
    1. [下载 Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
@@ -50,11 +50,11 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 ### **将柱形图转换为图像文件**
 
-先在Microsoft Excel中创建一个柱状图，并转换成图片文件，如上。执行示例代码后，将根据模板Excel文件中的柱形图创建一个JPEG文件。
+先在Microsoft Excel中创建一个柱状图，并转换成图片文件，如上。执行示例代码后，根据模板Excel文件中的柱形图创建一个JPEG文件。
 
 |**输出文件：柱形图图像。**|
 |:- |
-|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_3.png)|
+|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_3.png)|
 
 1. 在Microsoft Excel中创建柱形图：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -64,7 +64,7 @@ url: /zh/net/convert-an-excel-chart-to-image/
 
 |**输入文件。**|
 |:- |
-|![待办事项：图像_替代_文本](convert-an-excel-chart-to-image_4.png)|
+|![待办事项：图片_替代_文本](convert-an-excel-chart-to-image_4.png)|
 
 1. 如上所述，使用参考设置项目。
 1. 将图表动态转换为图像。以下是组件用于完成任务的代码。代码与上一个类似：

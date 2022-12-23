@@ -13,7 +13,7 @@ Il s'agit d'un sujet de base pour les développeurs qui décrit simplement l'app
 Pour supprimer une colonne de la feuille de calcul, veuillez suivre les étapes ci-dessous :
 
 -  Accédez à tout**Feuille de travail**
--  Retirer**Colonne** du**Feuille de travail** en précisant l'index de la colonne à supprimer
+-  Supprimer**Colonne** du**Feuille de travail** en précisant l'index de la colonne à supprimer
 
 
 

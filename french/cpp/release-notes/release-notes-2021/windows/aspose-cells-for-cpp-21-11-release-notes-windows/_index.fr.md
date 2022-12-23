@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.11 pour Wi
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-539| Optimiser les performances|Amélioration|

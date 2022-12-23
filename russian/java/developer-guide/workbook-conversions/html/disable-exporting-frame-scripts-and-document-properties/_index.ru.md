@@ -6,7 +6,7 @@ url: /ru/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells экспортирует сценарии фреймов и свойства документа при преобразовании книги в HTML. В версии 8.6.0 Aspose.Cells for Java появилась опция, позволяющая отключить экспорт сценариев фреймов и свойств документа. Пожалуйста, используйте[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) свойство, чтобы отключить экспорт.
+ Aspose.Cells экспортирует сценарии фреймов и свойства документа при преобразовании книги в HTML. Версия 8.6.0 Aspose.Cells for Java представляет параметр, который позволяет при необходимости отключить экспорт сценариев фреймов и свойств документа. Пожалуйста, используйте[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) свойство, чтобы отключить экспорт.
 
 {{% /alert %}} 
 ## **Отключить экспорт скриптов фреймов и свойств документа**

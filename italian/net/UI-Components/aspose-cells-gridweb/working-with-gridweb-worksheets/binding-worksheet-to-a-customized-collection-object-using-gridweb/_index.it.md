@@ -6,7 +6,7 @@ url: /it/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/
 ---
 {{% alert color="primary" %}} 
 
- Microsoft .NET Framework offre molte classi di raccolta, ma a volte non soddisfano i requisiti di sviluppo, quindi gli sviluppatori creano**collezioni personalizzate**e potrebbe essere necessario associare tali raccolte personalizzate a Aspose.Cells.GridWeb.
+ Il framework Microsoft .NET offre molte classi di raccolta ma a volte non soddisfano i requisiti di sviluppo, quindi gli sviluppatori creano**collezioni personalizzate**e potrebbe essere necessario associare tali raccolte personalizzate a Aspose.Cells.GridWeb.
 
 {{% /alert %}} 
 ## **Associare un foglio di lavoro con una raccolta personalizzata**

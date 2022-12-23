@@ -4,7 +4,7 @@ linktitle: Diagram
 type: docs
 weight: 130
 url: /sv/net/creating-charts/
-description: Skapa ett diagram i CSharp för Excel- och ODS-filer.
+description: Skapa ett diagram i CSharp för Excel och ODS-filer.
 keywords: create a chart, make a graph 
 ---
 {{% alert color="primary" %}}
@@ -58,7 +58,7 @@ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Diag
 
 **Steg:**
 
-1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod.
+1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) föremål[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)metod.
  Detta kommer att användas som datakälla för diagrammet.
 1.  Lägg till ett diagram i kalkylbladet genom att anropa[**Diagram**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) metod, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)objekt.
 1.  Ange typen av diagram med[**ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)uppräkning.

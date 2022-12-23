@@ -24,17 +24,17 @@ url: /sv/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-44829|Utdata HTML matchar inte med Microsoft Excel|Insekt|
 |CELLSNET-44319|Pivottabellens filtervärde behålls inte vid uppdatering|Insekt|
 |CELLSNET-45887|#VÄRDE!' fel för ArrayFormulas beräkning|Insekt|
-|CELLSNET-45883|3D-cirkeldiagram - återges inte bra i utdata-PDF|Insekt|
+|CELLSNET-45883|3D-cirkeldiagram - återges inte bra i utdata PDF|Insekt|
 |CELLSNET-45881|Att öppna och spara indatafilen i Excel orsakar varning för Red Protected View i MS Excel|Insekt|
 |CELLSNET-45880|En del av x-axeletiketter återges på den andra raden i diagrammet|Insekt|
-|CELLSNET-45864|EMF konverterad från Aspose.Cells är inte exakt korrekt|Insekt|
+|CELLSNET-45864|EMF konverterat från Aspose.Cells är inte exakt korrekt|Insekt|
 |CELLSNET-45885|Typen (attributet) för extern länk ändras efter öppna/spara|Insekt|
 |CELLSNET-45872|Det går inte att läsa Excel-dataanslutning när dess typ är CSV|Insekt|
 |CELLSNET-45868|PrintTitleRows egenskapsvärde försvinner efter att ha öppnats och sparats med Aspose.Cells|Insekt|
 |CELLSNET-45865|Specialtecken som används i ett kolumnnamn fungerar inte - Problem med smarta markörer|Insekt|
 |CELLSNET-45858|Ändring av länkkälla påverkar innehållet i rullgardinsmenyn|Insekt|
 |CELLSNET-45857|Skadad fil när du kopierar ark från en arbetsbok till en annan|Insekt|
-|CELLSNET-45901|Textrutejustering förloras när den renderades till PDF|Insekt|
+|CELLSNET-45901|Textrutejustering förlorade när den renderades till PDF|Insekt|
 |CELLSNET-45875|Cell-värdet försvinner och en del av x-axeletiketterna återges på den andra raden|Insekt|
 |CELLSNET-45873|Implementering av interaktiv kontroll för grupper av radioknappar i GridWeb|Insekt|
 |CELLSNET-45902|Arbetsbladet blir för stort och svarar inte när du navigerar till eller klickar på det i Aspose.Cells.GridWeb|Insekt|
@@ -46,7 +46,7 @@ Följande är en lista över alla ändringar som gjorts för allmänheten API, s
 #### **Lägger till LoadDataFilterOptions.DefinedNames enum**
 Anger om definierade namnobjekt laddas när mallfilen laddas.
 #### **Ändrar beteendet för LoadDataFilterOptions.Formula enum**
-I äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
+äldre versioner laddar vi alltid definierade namnobjekt när vi laddar formler. Nu tillhandahåller vi separat enum för definierade Name-objekt explicit, så Formel Enum kommer bara att beteckna att formler ska laddas nu, oavsett vilka definierade Name-objekt kommer att laddas eller inte. En sak bör dock noteras, vanligen definierade namnobjekt används av formler, om användaren bara laddar formler och inte laddar de definierade namnobjekten, kommer cellformeln som refererar till dessa namn att bli skadad och kan orsaka undantag. Så, i allmänhet, om användaren vill ladda formler, bör de definierade namnobjekten också laddas. Men användaren kan bara ladda definierade namnobjekt utan att ladda formler.
 #### **Lägg till SheetType.Dialog enum**
 Representerar dialogblad.
 #### **Lägger till egenskapen WorkbookSettings.MaxRowsOfSharedFormula**

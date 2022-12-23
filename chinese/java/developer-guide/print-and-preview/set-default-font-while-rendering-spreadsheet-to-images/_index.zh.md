@@ -14,10 +14,10 @@ url: /zh/java/set-default-font-while-rendering-spreadsheet-to-images/
 
 这是设置后的输出图像[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)财产给*快递新*.
 
-![待办事项：图像_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![待办事项：图片_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
 这是设置后的输出图像[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)财产给*英语字体格式一种*.
 
-![待办事项：图像_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![待办事项：图片_替代_文本](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

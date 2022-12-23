@@ -6,11 +6,11 @@ url: /es/java/fit-all-worksheet-columns-on-single-pdf-page/
 ---
 {{% alert color="primary" %}}
 
- A veces desea generar un archivo PDF que se ajuste a todas las columnas de una hoja de trabajo en una sola página. los[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) property proporciona esta característica de una manera muy fácil de usar. Los cálculos complejos, como el alto y el ancho de la página PDF de salida, se manejan internamente y se basan en los datos de la hoja de trabajo.
+ A veces desea generar un archivo PDF que ajuste todas las columnas de una hoja de trabajo en una sola página. Él[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)property proporciona esta característica de una manera muy fácil de usar. Los cálculos complejos, como el alto y el ancho de la página de salida PDF, se manejan internamente y se basan en los datos de la hoja de trabajo.
 
 {{% /alert %}}
 
-## **Ajustar columnas de hoja de trabajo en una sola página PDF**
+## **Ajustar columnas de la hoja de trabajo en una sola página PDF**
 
 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)asegura que todas las columnas de una hoja de trabajo se representen en una sola página PDF, aunque las filas pueden expandirse a varias páginas dependiendo de los datos en la hoja de trabajo.
 
@@ -26,6 +26,6 @@ Cuando una hoja de cálculo determinada tiene muchas columnas, el archivo PDF re
 
 {{% alert color="primary" %}}
 
- Si su hoja de cálculo contiene fórmulas, es mejor llamar[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) justo antes de convertir la hoja de cálculo en formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+Si su hoja de cálculo contiene fórmulas, es mejor llamar[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) justo antes de convertir la hoja de cálculo al formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
 
 {{% /alert %}}

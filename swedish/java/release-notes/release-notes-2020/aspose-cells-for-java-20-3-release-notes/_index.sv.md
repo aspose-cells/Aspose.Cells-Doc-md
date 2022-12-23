@@ -17,15 +17,15 @@ url: /sv/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43141|Lägg till egenskapen ThreadedComment.CreatedTime|Ny funktion|
 |CELLSJAVA-42068|GIF i kalkylbladet är fel när arbetsboken konverteras till HTML|Insekt|
 |CELLSJAVA-43127|Excel-pivottabellen uppdateras inte automatiskt när filen först öppnas|Insekt|
-|CELLSJAVA-43129|Kinesisk text är förvanskad i HTML till XLS-konvertering|Insekt|
+|CELLSJAVA-43129|Kinesisk text är förvrängd i konverteringen HTML till XLS|Insekt|
 |CELLSJAVA-43139|Diagrammen i bladet uppdateras inte när kalkylblad renderas till bild|Insekt|
 |CELLSJAVA-43148|Kartetikettens positionsfel|Insekt|
 |CELLSJAVA-43124|Vid konvertering till PDF skärs två kolumner bort från tabellen|Insekt|
-|CELLSJAVA-43091|Dataetiketter på Donuts-diagrammet överlappas i PDF-filen|Insekt|
+|CELLSJAVA-43091|Dataetiketter på Donuts-diagrammet överlappas i filen PDF|Insekt|
 |CELLSJAVA-43132|Dataetiketter saknas i vissa diagram vid export av diagram till bild|Insekt|
-|CELLSJAVA-43143|Efter WorkbookDesigner.process, diagramutdata null i HTML|Insekt|
-|CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för XLS-filformat|Insekt|
-|CELLSJAVA-43122|Ett problem med ordning av trådade kommentarer efter import till Office365 XLSX-filformat|Insekt|
+|CELLSJAVA-43143|Efter WorkbookDesigner.process, diagramutmatning null i HTML|Insekt|
+|CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för filformatet XLS|Insekt|
+|CELLSJAVA-43122|Ett problem med ordning av trådade kommentarer efter import till filformatet Office365 XLSX|Insekt|
 |CELLSJAVA-43134|Strängvärdet för en cell är tomt i Apple Numbers'09|Insekt|
 |CELLSJAVA-43144|IsItalic-egenskapen har upptäckts på ett annat sätt än MS Excel (Java)|Insekt|
 |CELLSJAVA-43140|IllegalArgumentException vid anrop av calculateFormula()|Undantag|

@@ -25,7 +25,7 @@ Så här ställer du in formelberäkningsläget i Microsoft Excel:
 - [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
- Följande exempelkod skapar först en arbetsbok och ställer sedan in formelberäkningsläget till**Manuell** och sparar arbetsboken som utdata Excel-fil på disk.
+Följande exempelkod skapar först en arbetsbok och ställer sedan in formelberäkningsläget till**Manuell** och sparar arbetsboken som utdata Excel-fil på disk.
 
 **Utdatafilen. Notera formelberäkningsläget.**
 

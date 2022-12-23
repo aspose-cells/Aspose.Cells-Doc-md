@@ -23,7 +23,7 @@ url: /sv/net/aspose-cells-for-net-7-2-1-release-notes/
 - Formernas linjer är felaktigt arkiverade efter konvertering till PDF
 - Makro försvann efter att ha sparat en XLSM-fil i XLS-format
 - Listboxalternativ överlappar varandra
-- Aspose.Cells korrumperar XLSM-filen efter att ha anropat metoden Workbook.Save()
+- Aspose.Cells korrumperar filen XLSM efter att ha anropat metoden Workbook.Save()
 - Komponenten förstör egenskaperna för arbetsbokens XMLs CalcPr-nod
 - Du vill lägga en sträng längre än 32K
 - Smart Markers-syntax för kolumnindex
@@ -35,7 +35,7 @@ url: /sv/net/aspose-cells-for-net-7-2-1-release-notes/
 
 - GetNamedRanges()-metod som ger funktion som inte stöds
 - Undantag: Ogiltig IMEModeType-strängvärde
-- Undantag vid inläsning av ett XLSX-kalkylblad från SharePoint
+- Undantag vid inläsning av ett XLSX kalkylblad från SharePoint
 - GetNamedRanges()-metoden som kastar NullReferenceException
 - Undantag vid initialisering med .xlsm-indatafil
 - Misslyckas med att öppna ett dokument med komplexa formler
@@ -71,12 +71,12 @@ url: /sv/net/aspose-cells-for-net-7-2-1-release-notes/
 - Det kopierade diagrammet roterar visningsenhetens etiketter 90 grader
 - Beräkningsfel med en arbetsbok
 - Utföra subtotalberäkningar på grupperad kolumn
-- Problemen för PDF-konvertering när det gäller att rita former
+- Frågorna för PDF-konvertering angående ritningsformer
 
  - Namngivna Ranges-problem
 
 - Aspose.Cells korrumperar Excel-filer som innehåller pivottabeller
-- XLSX till PDF-konverteringsproblem
+- XLSX till PDF konverteringsproblem
 
  -Aspose.Cells hanterar datumvärde felaktigt
 
@@ -86,7 +86,7 @@ url: /sv/net/aspose-cells-for-net-7-2-1-release-notes/
 
  -Problem hittat i den relativa XML-filen
 
-- Formnamnet ändrades efter att XLSM-filen sparats i en ny arbetsbok
+- Formnamnet ändrades efter att filen XLSM sparats i en ny arbetsbok
 - Bugg med VLookup-formel med jokertecken (t.ex. "*")
 
 

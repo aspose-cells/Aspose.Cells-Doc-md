@@ -93,7 +93,7 @@ end 
 end 
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 تحميل**إدارة فواصل الصفحات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreaks.rb)

@@ -1,5 +1,5 @@
 ﻿---
-title: تثبيت
+title: التركيب
 type: docs
 weight: 20
 url: /ar/java/installation/

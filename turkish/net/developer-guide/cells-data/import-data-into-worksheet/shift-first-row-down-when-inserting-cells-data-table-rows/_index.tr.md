@@ -10,11 +10,11 @@ Aspose.Cells, çalışma sayfasına bir tablo eklerken ilk satırı aşağı kay
 
 ## **Cells Veri Tablosu Satırlarını eklerken İlk Satırı aşağı kaydır**
 
-Aşağıdaki örnek kod, çalışma sayfasına bir tablo eklerken ilk satırın nasıl aşağı kaydırılacağını gösterir. Özelliği göstermek için kodda basit bir şablon Excel dosyası kullanıyoruz. Boole değerini ayarlayarak özelliği kullanabilirsiniz.[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/shiftfirstrowdown) öznitelik**Doğru**/**Yanlış** daha iyi anlamak için. Lütfen bkz[örnek excel dosyası](45056031.xlsx), [çıktı Excel Yanlış dosyası](45056032.xlsx) , ve[çıktı Excel True dosyası](45056033.xlsx)senin referansın için.
+Aşağıdaki örnek kod, çalışma sayfasına bir tablo eklerken ilk satırın nasıl aşağı kaydırılacağını gösterir. Özelliği göstermek için kodda basit bir şablon Excel dosyası kullanıyoruz. Boole değerini ayarlayarak özelliği kullanabilirsiniz.[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/shiftfirstrowdown) öznitelik**Doğru**/**YANLIŞ** daha iyi anlamak için. Lütfen bkz[örnek excel dosyası](45056031.xlsx), [çıktı Excel Yanlış dosyası](45056032.xlsx) , ve[çıktı Excel True dosyası](45056033.xlsx)senin referansın için.
 
 ## **Ekran görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+![yapılacaklar:resim_alternatif_metin](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **Basit kod**
 

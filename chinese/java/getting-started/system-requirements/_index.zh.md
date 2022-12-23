@@ -23,7 +23,7 @@ Aspose.Cells for Java 支持任何运行 Java 运行时的操作系统，包括�
 - Microsoft Windows 10（x64，x86）
 ### **Linux**
 - Linux（Ubuntu、openSUSE、CentOS 等）
-### **苹果电脑**
+### **苹果**
 - Mac OS X 等
 ## **支持的 Java 版本**
 Aspose.Cells for Java支持以下Java版本：

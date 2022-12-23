@@ -26,7 +26,7 @@ url: /zh/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · 修复了读取/保存 Excel 97-2003 文件的错误。
 
- · 改进了图表转图像、工作表转图像和 Excel 转 PDF 功能。
+ · 增强了图表到图像、工作表到图像和 Excel 到 PDF 功能。
 
  · 增强了解析公式。
 
@@ -48,7 +48,7 @@ url: /zh/java/aspose-cells-for-java-2-5-1-release-notes/
 |22971 |Xls|获取/设置形状的绝对位置|
 |22947 |赔率|阅读公式 2|
 |22950 |Xls|设置公式|
-|22998 |Xls|读取 XLS 文件|
+|22998 |Xls|读取 XLS 个文件|
 |22286 |Xls|可中断库|
 |23070 | Xlsx|保存数据透视表|
 |23048 | Xlsx|读取模板文件|
@@ -58,6 +58,6 @@ url: /zh/java/aspose-cells-for-java-2-5-1-release-notes/
 |23649 |Xls|读取条件格式|
 |23600 | Xlsx|保存图表 2|
 |23658 |图表2图像| Chart2Image问题|
-|23721 |xls2pdf|生成的 PDF 的布局问题|
+|23721 |xls2pdf|生成的布局问题 PDF|
 |23687 | Xlsx|保存图表的第二轴|
 

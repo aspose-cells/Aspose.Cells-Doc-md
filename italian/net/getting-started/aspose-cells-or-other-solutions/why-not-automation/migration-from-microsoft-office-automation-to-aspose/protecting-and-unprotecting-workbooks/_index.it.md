@@ -8,15 +8,15 @@ url: /it/net/protecting-and-unprotecting-workbooks/
 
 Per impedire a qualcuno di modificare, spostare o eliminare accidentalmente o deliberatamente i fogli di lavoro, è possibile proteggere gli elementi della cartella di lavoro con o senza password. Per proteggere la struttura di una cartella di lavoro in modo che i fogli di lavoro nella cartella di lavoro non possano essere spostati, eliminati, nascosti, scoperti o rinominati e non possano essere inseriti nuovi fogli di lavoro, specificare ProtectionType come Structure.
 
- Per proteggere Windows in modo che abbiano le stesse dimensioni e posizione ogni volta che si apre la cartella di lavoro, specificare il ProtectionType come Windows. In questo articolo, mostriamo come[proteggere](/cells/it/net/protecting-and-unprotecting-workbooks/) e[Non protetto](/cells/it/net/protecting-and-unprotecting-workbooks/) cartelle di lavoro che utilizzano VSTO e Aspose.Cells for .NET per confrontare i due metodi.
+ Per proteggere Windows in modo che abbiano le stesse dimensioni e posizione ogni volta che viene aperta la cartella di lavoro, specificare il ProtectionType come Windows. In questo articolo viene mostrato come[proteggere](/cells/it/net/protecting-and-unprotecting-workbooks/) e[Non protetto](/cells/it/net/protecting-and-unprotecting-workbooks/) cartelle di lavoro che utilizzano VSTO e Aspose.Cells for .NET per confrontare i due metodi.
 
-Aspose.Cells funziona indipendentemente da Microsoft Office Automation ed è sviluppato per essere facile da usare e produrre codice accurato.
+Aspose.Cells funziona indipendentemente da Microsoft Office Automation ed è sviluppato per essere facile da usare e produrre codice pulito.
 
 La protezione di una cartella di lavoro non impedisce agli utenti di modificare le celle. Per proteggere i dati, è necessario proteggere i fogli di lavoro.
 
 {{% /alert %}} 
 ## **Protezione di una cartella di lavoro**
-Per aprire un file Microsoft Excel esistente, proteggere la cartella di lavoro con la struttura e gli attributi di Windows e salvare il file.
+Per aprire un file Excel Microsoft esistente, proteggere la cartella di lavoro con la struttura e gli attributi Windows e salvare il file.
 
 Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB) che mostrano come proteggere una cartella di lavoro.
 ### **VSTO**
@@ -111,7 +111,7 @@ workbook.Save(@"d:\test\MyBook.xls");
 
 {{< /highlight >}}
 ## **Rimozione della protezione di una cartella di lavoro**
-Per rimuovere la protezione di una cartella di lavoro, usare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
+Per rimuovere la protezione di una cartella di lavoro, utilizzare le seguenti righe di codice per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB).
 ### **VSTO**
 **C#**
 

@@ -8,10 +8,10 @@ url: /ja/java/aspose-cells-for-java-17-1-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42132|PageSetup クラスに追加された GetPaperWidth および GetPaperHeight メソッド|新機能|
 |CELLSJAVA-41950|スプレッドシートを HTML に変換する際にワードアートのグラデーション塗りつぶしをサポート|新機能|
-|CELLSJAVA-42129|HTMLへの保存は間違っています|バグ|
+|CELLSJAVA-42129|HTML への保存は間違っています|バグ|
 |CELLSJAVA-42125|HTML に変換すると、シェイプの背後にあるグリッド線がエクスポートされない|バグ|
-|CELLSJAVA-42110|HTML のインポート時に一部の CSS ルールが無視される|バグ|
-|CELLSJAVA-42094|変換後の HTML で内容に取り消し線が引かれている|バグ|
+|CELLSJAVA-42110|インポート時に一部の CSS ルールが無視される HTML|バグ|
+|CELLSJAVA-42094|HTML 変換後の内容は取り消し線|バグ|
 |CELLSJAVA-42091|HTML に保存すると、一部のセルのテキスト スタイルが正しくない|バグ|
 |CELLSJAVA-42088|セルに背景色が設定されている場合に DataBar が正しくない|バグ|
 |CELLSJAVA-42018|EMF または SVG 形式を使用すると、チャート画像が保存されない|バグ|
@@ -22,16 +22,16 @@ url: /ja/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42117|LoadFilter クラスの startSheet メソッドをオーバーライドしている間、インスタンス変数 m_LoadDataFilterOptions にアクセスできません|バグ|
 |CELLSJAVA-41882|Cell 異なる JDK バージョンに基づく文字列値と丸めの問題|バグ|
 |CELLSJAVA-42142|Linux で変換を行うと、PDF で右から左および左から右の制御文字が正しくレンダリングされない|バグ|
-|CELLSJAVA-42136|ヘブライ語 - Excel のように中央揃えにする必要があるのに対し、PDF では折り返し行が右揃えになっています。|バグ|
+|CELLSJAVA-42136|ヘブライ語 - 表では、PDF では折り返し行が右揃えになっていますが、Excel では中央揃えにする必要があります。|バグ|
 |CELLSJAVA-42113|アラビア語ワークシートの SVG への間違った変換|バグ|
 |CELLSJAVA-42135|ヘブライ語 - Excel のように PDF で折り返されたテキストが右揃えにならない|バグ|
 |CELLSJAVA-42134|ヘブライ語 - ワード ラップがある場合のシリーズ ラベルで、文字が正しい順序で表示されない|バグ|
-|CELLSJAVA-42127|03.xls を PDF にレンダリングする際のシェイプからイメージへのエラー|バグ|
-|CELLSJAVA-42126|02.xls を PDF にレンダリングする際のシェイプからイメージへのエラー|バグ|
-|CELLSJAVA-42087|HTML のチャート画像が間違っている|バグ|
+|CELLSJAVA-42127|03.xls を PDF にレンダリング中のシェイプからイメージへのエラー|バグ|
+|CELLSJAVA-42126|02.xls を PDF にレンダリング中のシェイプからイメージへのエラー|バグ|
+|CELLSJAVA-42087|HTML のチャート画像が間違っています|バグ|
 |CELLSJAVA-42079|ダイアグラムを含むスプレッドシートを PDF にレンダリングする際の交点での不均一な線の太さ|バグ|
 |CELLSJAVA-42078|出力 PDF ファイルで、グラフ ラベルが (元の Excel ファイルと同じように) 表示/レンダリングされない|バグ|
-|CELLSJAVA-42076|グラフの PDF で x 軸ラベルの角度が正しくない|バグ|
+|CELLSJAVA-42076|グラフの PDF で x 軸ラベルの角度が正しくありません|バグ|
 |CELLSJAVA-42065|スプレッドシートを HTML にレンダリングする際の棒グラフのレンダリングが正しくない|バグ|
 |CELLSJAVA-42152|外部ワークブックを参照する数式を設定すると、3D 数式が作成されます|バグ|
 |CELLSJAVA-42146|スプレッドシートを再保存した後の Excel 2007 での読み取り不能コンテンツ エラー|バグ|
@@ -42,7 +42,7 @@ url: /ja/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42069|Linux で XLSM ファイルを再保存中に Vba モジュールが失われる|バグ|
 |CELLSJAVA-42025|API は、変更された式に余分なアポストロフィを追加します|バグ|
 |CELLSJAVA-41984|{-1} を使用したデザイナー スプレッドシートの動的数式 {-2} return 無効な数式エラー|バグ|
-|CELLSJAVA-41739|XLS から XLSB への変換中に、形状の透明度が 0 にリセットされる|バグ|
+|CELLSJAVA-41739|XLS を XLSB に変換する際に、形状の透明度が 0 にリセットされる|バグ|
 |CELLSJAVA-42122|サイズの大きい Excel ファイルを開くと NullPointerException が発生する|例外|
 |CELLSJAVA-42123|形状から画像へのエラー - Excel ファイルのレンダリング中|例外|
 |CELLSJAVA-42144|new Workbook() は Aspose.Cells for Java 16.12.6 で例外をスローする可能性があります|例外|

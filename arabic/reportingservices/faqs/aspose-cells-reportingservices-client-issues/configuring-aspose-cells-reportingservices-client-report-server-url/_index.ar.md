@@ -16,10 +16,10 @@ url: /ar/reportingservices/configuring-aspose-cells-reportingservices-client-rep
 
 1. معلومات تكوين خادم تقرير الإدخال (URL واسم المستخدم وكلمة المرور).
  1. يجب أن يكون عنوان URL لخادم التقارير بالتنسيق http: // host / ReportServer. على سبيل المثال http://172.16.204.11/ReportServer.
- 1. اسم المستخدم هو اسم مستخدم Window Server. على سبيل المثال ، المسؤول.
+1. اسم المستخدم هو اسم مستخدم Window Server. على سبيل المثال ، المسؤول.
  1. كلمة المرور هي كلمة مرور مستخدم Window Server. على سبيل المثال ، 123456.
-1. القيمة الافتراضية للمجال خالية.
-1.  انقر على**اختبار** زر للتحقق من معلومات التكوين.
+ 1. القيمة الافتراضية للمجال خالية.
+1.  انقر على**امتحان** زر للتحقق من معلومات التكوين.
 1.  انقر**يحفظ** وحفظ معلومات تكوين خادم التقرير.
 
 ![ما يجب القيام به: image_بديل_نص](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)
@@ -27,4 +27,4 @@ url: /ar/reportingservices/configuring-aspose-cells-reportingservices-client-rep
 
 
 
-1.  انقر**تعديل** زر لتعديل معلومات التكوين.
+1.  انقر**يُعدِّل** زر لتعديل معلومات التكوين.

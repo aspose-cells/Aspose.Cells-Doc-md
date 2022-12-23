@@ -4,8 +4,8 @@ type: docs
 weight: 10
 url: /ja/java/converting-excel-files-to-html-in-python/
 ---
-## **Aspose.Cells - Excel ファイルを HTML に変換する**
-Python の Aspose.Cells for Java を使用して Excel を HTML に変換するには、単にワークシートを呼び出します。_に_Converter モジュールの html() メソッド。
+## **Aspose.Cells - Excel ファイルを HTML に変換しています**
+Python で Aspose.Cells for Java を使用して Excel を HTML に変換するには、ワークシートを呼び出すだけです。_に_Converter モジュールの html() メソッド。
 
 **Python コード**
 

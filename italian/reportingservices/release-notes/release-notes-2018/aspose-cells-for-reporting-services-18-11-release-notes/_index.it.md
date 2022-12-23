@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-521|Utilizzare la funzione di ricerca SSRS con Aspose.Cells for Reporting Services|Nuova caratteristica|
 |CELLSRS-528|Comprimi o espandi i campi della tabella pivot in Aspose.Cells for Reporting Services|Nuova caratteristica|

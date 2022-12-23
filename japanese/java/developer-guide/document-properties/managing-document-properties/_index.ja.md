@@ -44,7 +44,7 @@ Microsoft Excel では、Excel ファイルのドキュメント プロパティ
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、ドキュメントを PDF にレンダリングすると、Aspose.Cells for Java が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells for Java v17.9' などの値を持つフィールド。
+ Aspose.Cells for Java は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for Java が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells for Java v17.9' などの値を持つフィールド。
 
 出力ドキュメントからこの情報を変更または削除するように Aspose.Cells for Java に指示することはできないことに注意してください。
 
@@ -85,7 +85,7 @@ Aspose.Cells API は、組み込みとカスタムの両方のタイプのドキ
 
 ### **「コンテンツへのリンク」カスタム プロパティの構成**
 
-特定の範囲のコンテンツにリンクされたカスタム プロパティを作成するには、[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) メソッドと、プロパティ名とソースを渡します。を使用して、プロパティがコンテンツにリンクされているように構成されているかどうかを確認できます。[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)財産。さらに、以下を使用してソース範囲を取得することもできます。[**ソース**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)のプロパティ[**ドキュメント プロパティ**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)クラス。
+特定の範囲のコンテンツにリンクされたカスタム プロパティを作成するには、[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) メソッドと、プロパティ名とソースを渡します。を使用して、プロパティがコンテンツにリンクされているように構成されているかどうかを確認できます。[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent)財産。さらに、以下を使用してソース範囲を取得することもできます。[**ソース**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source)のプロパティ[**ドキュメント プロパティ**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)クラス。
 
 この例では、単純なテンプレート Microsoft Excel ファイルを使用します。ワークブックには、ラベルが付けられた定義済みの名前付き範囲があります**マイレンジ**これはセル値を参照します。
 

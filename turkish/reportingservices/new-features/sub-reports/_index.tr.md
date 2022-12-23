@@ -11,10 +11,10 @@ Tablo grubu satırına Alt Rapor Gömme desteği ekledik. Biçim:
 &=subreport{ReportName=raporunuzun adı; parametre1 adı = parametre1 değeri; parametre2 adı = parametre2 değeri;......} 
 
 {{% /alert %}} 
-### **Örnek**
+### **Örnek vermek**
 **Tablodaki bir alt rapor** 
 
-![yapılacaklar:resim_alternatif_Metin](sub-reports_1.png)
+![yapılacaklar:resim_alternatif_metin](sub-reports_1.png)
 
  Örnekte alt raporun adı “Satış Siparişi Detayı”dır. Bir parametresi vardır,*Satış sipariş numarası* . parametrenin değeri*EmpSalesDetail.SalesOrderNumber.*
 #### **Alt Raporların kullanımına ilişkin kısıtlamalar**

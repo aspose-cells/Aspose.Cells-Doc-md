@@ -13,7 +13,7 @@ url: /ja/net/implement-errors-and-boolean-value-in-russian-or-any-other-language
 
 ## **ロシア語またはその他の言語でエラーとブール値を実装する**
 
-次のサンプル コードは、ロシア語またはその他の言語でエラーとブール値を実装する方法を示しています。を確認してください[サンプル Excel ファイル](73990159.xlsx)このコードとその[PDF出力](73990160.pdf).スクリーンショットは、参照用にサンプル Excel ファイルと出力 PDF の違いを示しています。
+次のサンプル コードは、ロシア語またはその他の言語でエラーとブール値を実装する方法を示しています。を確認してください[サンプル Excel ファイル](73990159.xlsx)このコードとその[出力 PDF](73990160.pdf).スクリーンショットは、参照用にサンプル Excel ファイルと出力 PDF の違いを示しています。
 
 ![todo:画像_代替_文章](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 

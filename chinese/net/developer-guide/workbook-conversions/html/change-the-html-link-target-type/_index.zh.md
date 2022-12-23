@@ -14,7 +14,7 @@ Aspose.Cells 允许您更改 HTML 链接目标类型。 HTML 链接看起来像�
 
 {{< /highlight >}}
 
-如您所见，上述 HTML 链接中的目标属性是 **_self**。您可以使用 [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) 属性控制此目标属性。此属性采用具有以下值的 [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) 枚举。
+可以看到上面HTML链接中的target属性是**_self**。您可以使用 [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) 属性控制此目标属性。此属性采用具有以下值的 [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) 枚举。
 
 - HtmlLinkTargetType.空白
 - HtmlLinkTargetType.Parent

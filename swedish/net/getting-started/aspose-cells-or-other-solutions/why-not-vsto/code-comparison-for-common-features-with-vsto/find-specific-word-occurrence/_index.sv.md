@@ -116,7 +116,7 @@ private static void findNow(Worksheet objSheet, string textToFind)
 
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Find.Specific.Word.Occurrence.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/p/asposevsto/wiki/Home/)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/wiki/Find%20Specific%20Word%20Occurrence)

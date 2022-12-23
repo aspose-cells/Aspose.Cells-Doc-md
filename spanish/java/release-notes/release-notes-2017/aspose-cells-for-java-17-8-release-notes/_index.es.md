@@ -15,9 +15,9 @@ url: /es/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42356|Agregue una propiedad para indicar si generar una página vacía o no cuando no hay nada que imprimir|Nueva caracteristica|
 |CELLSJAVA-42322|Admite la función de filtro avanzado (MS Excel) para mostrar registros que cumplen con criterios complejos|Nueva caracteristica|
 |CELLSJAVA-42341|InterruptMonitor tarda más en interrumpir el proceso de guardado del libro de trabajo para un archivo grande que tiene una tabla dinámica|Mejora|
-|CELLSJAVA-42358|La fórmula no se muestra en el PDF resultante|Mejora|
+|CELLSJAVA-42358|La fórmula no se muestra en el resultado PDF|Mejora|
 |CELLSJAVA-42351|La fórmula WEEKDAY devuelve un valor incorrecto en el cálculo de la fórmula del libro de trabajo|Mejora|
-|CELLSJAVA-42332|Aspose.Cells no puede convertir el archivo HTML correctamente, mientras que MS-Excel puede convertirlo correctamente|Insecto|
+|CELLSJAVA-42332|Aspose.Cells no puede convertir el archivo HTML correctamente mientras que MS-Excel puede convertirlo correctamente|Insecto|
 |CELLSJAVA-42355|Para el número 39, MS Excel formatea el valor negativo con '-' en lugar de '()' para Italia|Insecto|
 |CELLSJAVA-42350|El texto de la etiqueta se desplaza para el gráfico circular|Insecto|
 |CELLSJAVA-42343|Varios estilos del gráfico Waterfall no se representan correctamente.|Insecto|
@@ -31,7 +31,7 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 ### **Agrega la propiedad HtmlSaveOptions.IsExportComments**
 Indica si al exportar comentarios al guardar el archivo en HTML, el valor predeterminado es falso.
 ### **Agrega la propiedad HtmlSaveOptions.DisableDownlevelRevealedComments**
-Indica que si se desactivan los comentarios condicionales revelados por nivel inferior al exportar un archivo a HTML, el valor predeterminado es falso.
+Indica si se deshabilitan los comentarios condicionales revelados por nivel inferior al exportar el archivo a HTML, el valor predeterminado es falso.
 ### **Agrega la clase CustomImplementationFactory**
 Proporciona API para que el usuario amplíe/mejore la capacidad del componente mediante algunas implementaciones especiales para algunas situaciones especiales. Actualmente no hay una implementación personalizada compatible con la versión for Java.
 ### **Agrega la propiedad CellsHelper.CustomImplementationFactory**

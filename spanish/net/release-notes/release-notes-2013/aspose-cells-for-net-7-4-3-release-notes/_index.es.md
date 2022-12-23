@@ -18,7 +18,7 @@ url: /es/net/aspose-cells-for-net-7-4-3-release-notes/
 
 
 
- Actuación
+ Rendimiento
 
  Excepciones
 

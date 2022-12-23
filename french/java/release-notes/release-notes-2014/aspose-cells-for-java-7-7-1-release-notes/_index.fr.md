@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java a été mis à jour vers la version 7.7.1 et nous sommes heureux d'annoncer que cette version apporte l'ajout de plus de 20 nouvelles améliorations utiles.
+Aspose.Cells for Java a été mis à jour vers la version 7.7.1 et nous sommes heureux d'annoncer que cette version apporte l'ajout de plus de 20 nouvelles améliorations utiles.
 En utilisant Aspose.Cells for Java, vous pouvez travailler avec XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS et d'autres formats dans vos applications. Vous pouvez également générer, modifier, convertir, rendre et imprimer des classeurs sans utiliser Microsoft Excel.
 Consultez la documentation pour savoir comment démarrer avec Aspose.Cells for Java.
 Notez que ce téléchargement contient une version entièrement fonctionnelle du produit, mais sans jeu de licences, il fonctionnera en mode d'évaluation avec certaines limitations. Pour tester Aspose.Cells sans ces limitations d'évaluation, vous pouvez demander une licence temporaire gratuite de 30 jours.
@@ -43,22 +43,22 @@ Autres améliorations et modifications
 Insectes
 
 (CELLSJAVA-40700) - Une valeur négative devient positive après le calcul
-(CELLSJAVA-40668) - Le contenu de l'en-tête est déformé dans le fichier PDF de sortie
-(CELLSJAVA-40695) - XLSX en PDF : le résultat n'a pas de marges gauche et droite
+(CELLSJAVA-40668) - Le contenu de l'en-tête est déformé dans le fichier de sortie PDF
+(CELLSJAVA-40695) - XLSX à PDF : le résultat n'a pas de marges gauche et droite
 (CELLSJAVA-40698) - Problème avec le tableau croisé dynamique (remplacez le filtre par une autre valeur ou étiquette)
 (CELLSJAVA-40671) - Cell.getDisplayStyle() ne renvoie pas la couleur correcte pour la mise en forme conditionnelle Top 10
 (CELLSJAVA-40655) - L'alignement du texte dans la forme est modifié du centre vers la gauche
-(CELLSJAVA-40572) - Un signet a été créé pour la feuille vierge même si la feuille elle-même n'était pas présente dans le PDF de sortie
-(CELLSJAVA-40548) - En-tête de charte manquant après l'enregistrement de xlsx dans un fichier PDF
+(CELLSJAVA-40572) - Un signet a été créé pour la feuille vierge même si la feuille elle-même n'était pas présente dans la sortie PDF
+(CELLSJAVA-40548) - En-tête de charte manquant après l'enregistrement de xlsx dans le fichier PDF
 (CELLSJAVA-40564) - Perte de données lors de la conversion d'un fichier Excel en pdf
 (CELLSJAVA-40702) - Le tableau croisé dynamique n'est pas actualisé correctement
 (CELLSJAVA-40704) - La valeur change après le calcul dans le fichier xlsb
 (CELLSJAVA-40701) - Perte de données et alignement incorrect des étiquettes lors de la conversion d'Excel en PDF
-(CELLSJAVA-40518) - Image dans les lignes d'en-tête apparaissant uniquement sur la première page du PDF
+(CELLSJAVA-40518) - Image dans les lignes d'en-tête apparaissant uniquement sur la première page en PDF
 (CELLSJAVA-40239) - Traitement de formule incorrect
 (CELLSJAVA-40703) - La forme n'était pas transparente dans le pdf de sortie
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40697) - Aspose.cells lève une exception lors de la copie d'un graphique créé dans Excel 2013
 (CELLSJAVA-40706) - ArrayIndexOutOfBoundsException à l'ouverture du fichier

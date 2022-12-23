@@ -74,7 +74,7 @@ Der Beispielcode fügt C1 eine benutzerdefinierte Ausdrucksvalidierung hinzu. Be
 ### **Validierung erzwingen**
 Mit Aspose.Cells.GridWeb können Benutzer Eingabedaten an einen Server senden. Selbst wenn Validierungsregeln für verschiedene Zellen vorhanden sind, die ForceValidation-Eigenschaft des GridWeb-Steuerelements jedoch nicht auf „true“ festgelegt ist, werden auch falsche Eingabedaten an den Server gesendet, und es wird keine Validierung erzwungen. Die ForceValidation-Eigenschaft von GridWeb ist standardmäßig immer auf true festgelegt.
 
- Wenn die ForceValidation-Eigenschaft wahr ist, sendet das Steuerelement keine Daten an den Webserver, bis die Eingabewerte aller Zellen gültig sind. Wenn beispielsweise jemand einen ungültigen Eingabewert in eine Zelle eingibt oder keinen Wert eingibt, wird die clientseitige Validierung aktiviert und die Benutzer können keine Daten posten, selbst wenn sie darauf klicken**Einreichen**.
+ Wenn die ForceValidation-Eigenschaft wahr ist, sendet das Steuerelement keine Daten an den Webserver, bis die Eingabewerte aller Zellen gültig sind. Wenn beispielsweise jemand einen ungültigen Eingabewert in eine Zelle eingibt oder keinen Wert eingibt, wird die clientseitige Validierung aktiviert und die Benutzer können keine Daten posten, selbst wenn sie darauf klicken**einreichen**.
 
 **Falscher Eingabewert von GridWeb hervorgehoben** 
 

@@ -5,7 +5,7 @@ weight: 20
 url: /it/java/working-with-rows-and-columns-gridweb/
 ---
 ## **Inserimento di righe e colonne**
-Questo argomento spiega come inserire nuove righe e colonne in un foglio di lavoro usando l'API Aspose.Cells.GridWeb. Righe o colonne possono essere inserite in qualsiasi posizione nel foglio di lavoro.
+Questo argomento spiega come inserire nuove righe e colonne in un foglio di lavoro usando Aspose.Cells.GridWeb API. Righe o colonne possono essere inserite in qualsiasi posizione nel foglio di lavoro.
 ### **Inserimento di righe**
 Per inserire una riga in qualsiasi posizione in un foglio di lavoro:
 
@@ -33,7 +33,7 @@ Per inserire una colonna in qualsiasi posizione in un foglio di lavoro:
 
 {{% /alert %}} 
 ## **Eliminazione di righe e colonne**
-Questo argomento illustra come eliminare righe e colonne da un foglio di lavoro usando l'API Aspose.Cells.GridWeb. Con l'aiuto di questa funzione, gli sviluppatori possono eliminare righe o colonne in fase di esecuzione.
+Questo argomento illustra come eliminare righe e colonne da un foglio di lavoro utilizzando Aspose.Cells.GridWeb API. Con l'aiuto di questa funzionalità, gli sviluppatori possono eliminare righe o colonne in fase di esecuzione.
 ### **Eliminazione di righe**
 Per eliminare una riga dal foglio di lavoro:
 
@@ -88,7 +88,7 @@ Per impostare la larghezza di una colonna:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-SettingColumnWidth-SettingColumnWidth.jsp" >}}
 ## **Personalizzazione delle intestazioni di righe e colonne**
-Come Microsoft Excel, Aspose.Cells.GridWeb utilizza anche intestazioni o didascalie standard per righe (numeri come 1, 2, 3 e così via) e colonne (alfabetiche come A, B, C e così via). Aspose.Cells.GridWeb permette anche di personalizzare le didascalie. Questo argomento illustra la personalizzazione delle intestazioni di riga e colonna in fase di esecuzione utilizzando l'API Aspose.Cells.GridWeb.
+Come Microsoft Excel, Aspose.Cells.GridWeb utilizza anche intestazioni o didascalie standard per righe (numeri come 1, 2, 3 e così via) e colonne (alfabetiche come A, B, C e così via). Aspose.Cells.GridWeb permette anche di personalizzare le didascalie. Questo argomento illustra la personalizzazione delle intestazioni di riga e colonna in fase di esecuzione utilizzando Aspose.Cells.GridWeb API.
 ### **Personalizzazione dell'intestazione di riga**
 Per personalizzare l'intestazione o la didascalia di una riga:
 

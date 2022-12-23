@@ -12,11 +12,11 @@ url: /de/net/adding-cell-controls-in-worksheets/
 ## **Einführung**
 Derzeit unterstützt Aspose.Cells.GridDesktop das Hinzufügen von drei Arten von Zellsteuerelementen, darunter die folgenden:
 
-- **Taste**
+- **Knopf**
 - **Kontrollkästchen**
 - **Kombinationsfeld**
 
-Alle diese Steuerelemente werden von einer abstrakten Klasse abgeleitet,**CellControl**. Jedes Arbeitsblatt enthält eine Sammlung von**Kontrollen**Über diese können neue Zellensteuerungen hinzugefügt und auf vorhandene zugegriffen werden**Kontrollen**Abholung problemlos.
+Alle diese Steuerelemente werden von einer abstrakten Klasse abgeleitet,**CellControl**Jedes Arbeitsblatt enthält eine Sammlung von**Kontrollen**. Über diese können neue Zellensteuerungen hinzugefügt und auf vorhandene zugegriffen werden**Kontrollen**Abholung problemlos.
 
 **WICHTIG:**Wenn Sie allen Zellen einer Spalte Zellsteuerelemente hinzufügen möchten, anstatt sie einzeln hinzuzufügen, können Sie auf verweisen[Verwalten von Cell-Steuerelementen in Spalten.](/cells/de/net/adding-cell-controls-in-worksheets/)
 ### **Schaltfläche hinzufügen**
@@ -24,18 +24,18 @@ Um dem Arbeitsblatt mit Aspose.Cells.GridDesktop eine Schaltfläche hinzuzufüge
 
 - Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 - Greifen Sie beliebig zu**Arbeitsblatt**
-- Hinzufügen**Taste**zum**Kontrollen**Sammlung der**Arbeitsblatt**
+- Addieren**Knopf**zum**Kontrollen**Sammlung der**Arbeitsblatt**
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-AddingCellControls-AddingButton.cs" >}}
 
 
-Beim Hinzufügen**Taste**, können wir die Position der Zelle (wo sie angezeigt werden soll), Breite und Höhe sowie die Beschriftung der Schaltfläche angeben.
+Beim Hinzufügen**Knopf**, können wir die Position der Zelle (wo sie angezeigt werden soll), Breite und Höhe sowie die Beschriftung der Schaltfläche angeben.
 #### **Ereignisbehandlung der Schaltfläche**
-Wir haben über das Hinzufügen gesprochen**Taste**Kontrolle an die**Arbeitsblatt**Aber was ist der Vorteil, nur eine Schaltfläche im Arbeitsblatt zu haben, wenn wir sie nicht verwenden können? Hier kommt also die Notwendigkeit der Ereignisbehandlung der Schaltfläche.
+Wir haben über das Hinzufügen gesprochen**Knopf**Kontrolle an die**Arbeitsblatt**Aber was ist der Vorteil, nur eine Schaltfläche im Arbeitsblatt zu haben, wenn wir sie nicht verwenden können? Hier kommt also die Notwendigkeit der Ereignisbehandlung der Schaltfläche.
 
-Um die zu handhaben**Klicken**Veranstaltung der**Taste**Steuerung, Aspose.Cells.GridDesktop bietet**CellButtonClick**Ereignis, das von den Entwicklern nach ihren Bedürfnissen implementiert werden sollte. Zum Beispiel haben wir gerade eine Nachricht angezeigt, wenn auf die Schaltfläche geklickt wird, wie unten gezeigt:
+Um die zu handhaben**Klicken**Veranstaltung der**Knopf**Steuerung, Aspose.Cells.GridDesktop bietet**CellButtonClick**Ereignis, das von den Entwicklern nach ihren Bedürfnissen implementiert werden sollte. Zum Beispiel haben wir gerade eine Nachricht angezeigt, wenn auf die Schaltfläche geklickt wird, wie unten gezeigt:
 
 
 
@@ -54,7 +54,7 @@ Um ein Kontrollkästchen mit Aspose.Cells.GridDesktop in das Arbeitsblatt einzuf
 
 - Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 - Greifen Sie beliebig zu**Arbeitsblatt**
-- Hinzufügen**Kontrollkästchen**zum**Kontrollen**Sammlung der**Arbeitsblatt**
+- Addieren**Kontrollkästchen**zum**Kontrollen**Sammlung der**Arbeitsblatt**
 
 
 
@@ -74,7 +74,7 @@ Um eine Combobox mit Aspose.Cells.GridDesktop zum Arbeitsblatt hinzuzufügen, f�
 - Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 - Greifen Sie beliebig zu**Arbeitsblatt**
 - Erstellen Sie ein Array von Elementen (oder Werten), denen hinzugefügt wird**Kombinationsfeld**
-- Hinzufügen**Kombinationsfeld**zum**Kontrollen**Sammlung der**Arbeitsblatt**durch Angabe der Position der Zelle (wo das Kombinationsfeld angezeigt wird) und der Elemente/Werte, die angezeigt werden, wenn auf das Kombinationsfeld geklickt wird
+- Addieren**Kombinationsfeld**zum**Kontrollen**Sammlung der**Arbeitsblatt**durch Angabe der Position der Zelle (wo das Kombinationsfeld angezeigt wird) und der Elemente/Werte, die angezeigt werden, wenn auf das Kombinationsfeld geklickt wird
 
 
 

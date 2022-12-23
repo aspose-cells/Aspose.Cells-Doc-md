@@ -25,7 +25,7 @@ Möglicherweise müssen Sie die Abhängigkeit einer bestimmten Zelle von anderen
 
 Microsoft Excel ermöglicht es Benutzern, Präzedenzfälle und Abhängige zu verfolgen.
 
-1.  Auf der**Symbolleiste anzeigen** , auswählen**Formel Auditing**.
+1.  Auf der**Symbolleiste anzeigen** , wählen**Formel Auditing**.
  Das Dialogfeld "Formelprüfung" wird angezeigt.
    **Das Dialogfeld "Formelprüfung".** 
 

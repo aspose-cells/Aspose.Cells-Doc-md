@@ -10,11 +10,11 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% /alert %}} 
 ## **Добавлена поддержка предупреждения о замене шрифта.**
-В версии Aspose.Cells for Java 8.1.2 были добавлены классы WarningInfo и WarningType, интерфейс IWarningCallback и свойства SaveOptions.WarningCallback и ImageOrPrintOptions.WarningCallback, позволяющие разработчикам получать предупреждения о замене шрифта при преобразовании электронных таблиц в изображения, форматы XPS и PDF.
+В Aspose.Cells for Java 8.1.2 были добавлены классы WarningInfo и WarningType, интерфейс IWarningCallback и свойства SaveOptions.WarningCallback и ImageOrPrintOptions.WarningCallback, позволяющие разработчикам получать предупреждения о замене шрифта при преобразовании электронных таблиц в форматы XPS и PDF.
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Получение предупреждений о замене шрифта при рендеринге электронных таблиц](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей о[Получение предупреждений о замене шрифта при рендеринге электронных таблиц](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File) для дополнительной информации.
 
 {{% /alert %}}
 ## **Удалено устаревшее свойство PdfSaveOptions.ChartImageType**

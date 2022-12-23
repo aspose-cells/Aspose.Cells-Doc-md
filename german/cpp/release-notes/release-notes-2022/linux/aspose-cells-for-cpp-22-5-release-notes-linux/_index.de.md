@@ -15,4 +15,4 @@ Wir freuen uns, die Veröffentlichung von Aspose.Cells for C++ 22.5 für Linux b
 |:- |:- |:- |
 |CELLSCPP-778| XML-Modul optimieren|Optimieren|
 |CELLSCPP-784| DateTime::parseUTC-Problem behoben|Fehler|
-|CELLSCPP-786| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-786| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|

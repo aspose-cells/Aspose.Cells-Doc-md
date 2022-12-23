@@ -10,7 +10,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-1-0/
 
 {{% /alert %}} 
 ## **添加了 HtmlSaveOptions.ExportHiddenWorksheet 属性**
-HtmlSaveOptions 类公开了 ExportHiddenWorksheet 属性，该属性可用于指定是否将隐藏工作表导出为 HTML 格式。默认值是true。而如果设置为 false，Aspose.Cells 将不会导出隐藏的工作表内容。
+HtmlSaveOptions 类公开了 ExportHiddenWorksheet 属性，可用于指定隐藏工作表是否导出为 HTML 格式。默认值是true。而如果设置为 false，Aspose.Cells 将不会导出隐藏的工作表内容。
 
 {{% alert color="primary" %}} 
 

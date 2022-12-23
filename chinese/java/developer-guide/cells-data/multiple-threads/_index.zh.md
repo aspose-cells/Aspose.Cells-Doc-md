@@ -11,7 +11,7 @@ url: /zh/java/reading-cell-values-in-multiple-threads-simultaneously/
 
 {{% /alert %}}
 
-要同时读取多个线程中的单元格值，请设置[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading)至**真的**.如果不这样做，您可能会得到错误的单元格值。请注意，多线程不支持某些功能，例如格式化单元格值。所以 MultiThreadReading 只允许您访问单元格的原始数据。在多线程环境下，如果您尝试获取单元格的格式化值，例如通过 Cell.getStringValue() 获取数值，您可能会得到意外的结果或异常。
+要同时读取多个线程中的单元格值，请设置[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading)到**真的**.如果不这样做，您可能会得到错误的单元格值。请注意，多线程不支持某些功能，例如格式化单元格值。所以 MultiThreadReading 只允许您访问单元格的原始数据。在多线程环境下，如果您尝试获取单元格的格式化值，例如通过 Cell.getStringValue() 获取数值，您可能会得到意外的结果或异常。
 
 以下代码：
 

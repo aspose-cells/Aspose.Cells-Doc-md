@@ -22,7 +22,7 @@ url: /ar/java/sort-data-of-excel/
 
 بشكل عام ، يتم إجراء الفرز على قائمة - يتم تعريفها على أنها مجموعة متجاورة من البيانات حيث يتم عرض البيانات في أعمدة.
 
-**مربع حوار الفرز في Microsoft Excel**
+**مربع الحوار "فرز" في Microsoft Excel**
 
 ![ما يجب القيام به: image_بديل_نص](data-sorting_1.png)
 
@@ -32,7 +32,7 @@ url: /ar/java/sort-data-of-excel/
 
  يجب عليك تحديد المفاتيح وتعيين ترتيب الفرز قبل تنفيذ فرز البيانات. يوفر الفصل[**فرز**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) الطريقة المستخدمة لإجراء فرز البيانات استنادًا إلى بيانات الخلية في ورقة العمل.
 
- ال[**فرز**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) تقبل الطريقة المعلمات التالية:
+ ال[**فرز**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) طريقة يقبل المعلمات التالية:
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)، خلايا ورقة العمل.
 - [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)، نطاق الخلايا. حدد منطقة الخلية قبل تطبيق فرز البيانات.

@@ -27,7 +27,7 @@ Aspose.Cells supporta tutte le impostazioni di protezione avanzate offerte da Ex
 
 Per visualizzare le impostazioni di protezione disponibili in Excel XP:
 
-1.  Dal**Strumenti** menù, selezionare**Protezione** seguito da**Proteggi Foglio**. Verrà visualizzata una finestra di dialogo.
+1.  Dal**Utensili** menù, selezionare**Protezione** seguito da**Proteggi Foglio**. Verrà visualizzata una finestra di dialogo.
 
 Per visualizzare le impostazioni di protezione disponibili in Excel 2016
 
@@ -40,7 +40,7 @@ Seguendo i passaggi menzionati sopra verrà visualizzata una finestra di dialogo
 
 Aspose.Cells supporta tutte le impostazioni di protezione avanzate.
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
  Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) proprietà utilizzata per applicare queste impostazioni di protezione avanzate. Il[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) la proprietà è infatti un oggetto del[**Protezione**](https://reference.aspose.com/cells/net/aspose.cells/protection)classe che incapsula diverse proprietà booleane per disabilitare o abilitare le restrizioni.
 
@@ -62,6 +62,6 @@ Se si desidera impedire agli utenti di modificare le celle, le celle devono esse
 |:- |
 |![cose da fare:immagine_alt_testo](advanced-protection-settings-since-excel-xp_1.png)|
 
-È possibile bloccare le celle anche utilizzando l'API Aspose.Cells. Ogni cella può ottenere[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) formattazione che contiene una proprietà booleana,[**È bloccato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Impostare il[**È bloccato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) proprietà a**VERO** o**falso** per bloccare o sbloccare la cella.
+È possibile bloccare le celle anche utilizzando lo Aspose.Cells API. Ogni cella può ottenere[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) formattazione che contiene una proprietà booleana,[**È bloccato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Impostare il[**È bloccato**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) proprietà a**VERO** o**falso** per bloccare o sbloccare la cella.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

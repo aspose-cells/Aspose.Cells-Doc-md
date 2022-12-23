@@ -10,7 +10,7 @@ url: /ru/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 {{% /alert %}}
 
-Следующий пример кода загружает только объекты формы при загрузке книги из[файл шаблона](5115552.xlsx) который вы можете скачать по указанной ссылке. На следующем снимке экрана показано[файл шаблона](5115552.xlsx) содержимое, а также объясняет, что данные красного цвета и желтого фона не будут загружены, потому что[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)свойство установлено на[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
+Следующий пример кода загружает только объекты формы при загрузке книги из[файл шаблона](5115552.xlsx) который вы можете скачать по указанной ссылке. На следующем снимке экрана показано[файл шаблона](5115552.xlsx)содержимое, а также объясняет, что данные красного цвета и желтого фона не будут загружены, потому что[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)свойство установлено на[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
 
 ![дело:изображение_альтернативный_текст](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 

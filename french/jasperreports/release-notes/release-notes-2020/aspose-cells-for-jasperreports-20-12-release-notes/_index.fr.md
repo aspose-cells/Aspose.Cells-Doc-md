@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for JasperReports 20.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJR-4| Licence de support pour le produit "Aspose.Total for JasperReports"|
 

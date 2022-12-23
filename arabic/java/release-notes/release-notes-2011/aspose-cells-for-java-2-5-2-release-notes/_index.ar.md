@@ -22,9 +22,9 @@ url: /ar/java/aspose-cells-for-java-2-5-2-release-notes/
  تم إجراء تحسينات لميزات Chart-to-Image و Sheet-to-Image و Excel-to-PDF.
  تم إجراء تحسين لتحليل الصيغ.
  تم إجراء تحسين لنسخ Cells.
- 31 إصلاحات وتحسينات.
+31 إصلاحات وتحسينات.
 
-تم حل المشكلات في Aspose.Cells for Java 2.5.2.
+ تم حل المشكلات في Aspose.Cells for Java 2.5.2.
 
 
 

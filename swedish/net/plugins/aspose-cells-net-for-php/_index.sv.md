@@ -80,7 +80,7 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727>regasm c:\cells\Aspose.Cells.Inter
 
 ###### **Metod 1**
 
- Klona PHP-exempel från[github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
+ Klona PHP exempel från[github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 och kör följande kommando
 
 {{< highlight "java" >}}
@@ -150,7 +150,7 @@ Det här avsnittet innehåller följande ämnen
       - [Spara filer i PHP](/cells/sv/net/saving-files-in-php/)
     - [Verktygsfunktioner i PHP](/cells/sv/net/utility-features-in-php/)
       - [Kryptera filer i PHP](/cells/sv/net/encrypting-files-in-php/)
-      - [Excel till PDF-konvertering i PHP](/cells/sv/net/excel-to-pdf-conversion-in-php/)
+      - [Excel till PDF Konvertering i PHP](/cells/sv/net/excel-to-pdf-conversion-in-php/)
       - [Hantera dokumentegenskaper i PHP](/cells/sv/net/managing-document-properties-in-php/)
       - [Arbetsblad till bildkonvertering i PHP](/cells/sv/net/worksheet-to-image-conversion-in-php/)
   - [Arbeta med formler i PHP](/cells/sv/net/working-with-formulas-in-php/)

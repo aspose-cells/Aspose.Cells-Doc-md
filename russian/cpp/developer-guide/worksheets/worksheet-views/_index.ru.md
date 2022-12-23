@@ -14,7 +14,7 @@ url: /ru/cpp/worksheet-views/
 ### **Управление режимами просмотра**
  Aspose.Cells предоставляет класс[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) который представляет собой файл Excel Microsoft.[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) класс содержит[Рабочие листы](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
 
- Рабочий лист представлен[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)учебный класс.[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Класс предоставляет широкий спектр методов для управления рабочими листами. Чтобы включить обычный режим или режим предварительного просмотра с разрывом страницы, используйте кнопку[Испажебреакпревью](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) метод[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) учебный класс.[Испажебреакпревью](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) возвращает логическое значение, что означает, что он может хранить только**истинный** или же**ЛОЖЬ** ценность.
+ Рабочий лист представлен[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)учебный класс.[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) Класс предоставляет широкий спектр методов для управления рабочими листами. Чтобы включить обычный режим или режим предварительного просмотра с разрывом страницы, используйте кнопку[Испажебреакпревью](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) метод[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) учебный класс.[Испажебреакпревью](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892) возвращает логическое значение, что означает, что он может хранить только**истинный** или же**ЛОЖЬ** стоимость.
 #### **Включение обычного просмотра**
 Установите рабочий лист в обычный вид, установив[Испажебреакпревью](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)метод[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) класс для**ЛОЖЬ**.
 #### **Включение предварительного просмотра разрыва страницы**
@@ -45,7 +45,7 @@ Microsoft Excel предоставляет функцию, которая поз
 - **Строка**, индекс строки ячейки, с которой начнется замораживание.
 - **Столбец**, индекс столбца ячейки, с которой начнется замораживание.
 - **Замороженные строки**, количество видимых строк в верхней панели.
-- **Замороженные столбцы**, количество видимых столбцов на левой панели
+- **Замороженные столбцы**, количество видимых столбцов в левой панели
 
  Ниже приведен полный пример, который показывает, как использовать[Замерзшие оконные стекла](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)метод заморозки строк и столбцов (начиная с C4, представленных 4-й строкой и 3-м столбцом, где строки и столбцы начинаются с индекса 0) первого рабочего листа файла Excel.
 

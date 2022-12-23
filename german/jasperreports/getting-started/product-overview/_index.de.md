@@ -10,7 +10,7 @@ url: /de/jasperreports/product-overview/
 
 ### **Willkommen bei der Aspose.Cells for JasperReports Dokumentation!**
 
- Aspose.Cells for JasperReports ist eine Bibliothek, die als Ersatz für funktioniert[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)s Original Microsoft Excel Exporter, gebündelt mit einigen großartigen Verbesserungen. Es eliminiert die Abhängigkeit von der POI-Bibliothek und verwendet Aspose.Cells for Java im Backend, um Berichte in Microsoft Excel-Formaten (XLS, XLSX) zu exportieren.
+ Aspose.Cells for JasperReports ist eine Bibliothek, die als Ersatz für funktioniert[JasperReports](https://community.jaspersoft.com/project/jasperreports-library)s Original Microsoft Excel Exporter, gebündelt mit einigen großartigen Verbesserungen. Es beseitigt die Abhängigkeit von der POI-Bibliothek und verwendet Aspose.Cells for Java im Back-End, um Berichte in Microsoft-Excel-Formaten (XLS, XLSX) zu exportieren.
 
 {{% /alert %}}
 

@@ -167,7 +167,7 @@ So löschen Sie eine Zeile:
 
 1. Klicken Sie auf eine Zelle in der Zeile, die Sie löschen möchten.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Zeile löschen** Taste.
+1.  Klicken**Zeile löschen** Knopf.
 
 Der Editor löscht die Zeile, die die ausgewählte Zelle enthält.
 
@@ -207,7 +207,7 @@ So löschen Sie eine Spalte:
 
 1. Klicken Sie auf eine Zelle in der Spalte, die Sie löschen möchten.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Spalte löschen** Taste.
+1.  Klicken**Spalte löschen** Knopf.
 
 Der Editor löscht die Spalte, die die ausgewählte Zelle enthält.
 
@@ -247,9 +247,9 @@ So ändern Sie die Breite einer Spalte:
 
 1. Klicken Sie auf eine beliebige Zelle innerhalb der Spalte.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Spaltenbreite** Taste zum Öffnen**Spaltenbreite**Dialog.
+1.  Klicken**Spaltenbreite** Taste zum Öffnen**Spaltenbreite** Dialog.
 1. Geben Sie im Dialogfeld einen neuen Wert ein.
-1.  Klicken**Nah dran**.
+1.  Klicken**Nahe**.
 
 Der Editor ändert die Spaltenbreite.
 
@@ -259,9 +259,9 @@ So ändern Sie die Höhe einer Zeile:
 
 1. Klicken Sie auf eine beliebige Zelle innerhalb der Zeile.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Zeilenhöhe** Taste zum Öffnen**Zeilenhöhe**Dialog.
+1.  Klicken**Zeilenhöhe** Taste zum Öffnen**Zeilenhöhe** Dialog.
 1. Geben Sie im Dialogfeld einen neuen Wert ein.
-1.  Klicken**Nah dran**.
+1.  Klicken**Nahe**.
 
 Der Editor ändert die Zeilenhöhe.
 
@@ -314,8 +314,8 @@ So fügen Sie eine neue Zelle hinzu:
 
 1. Klicken Sie auf eine Zelle, in die Sie neu möchten.
 1.  Wechseln zu**Registerkarte einfügen**.
-1.  Klicken**Cell** Taste.
-1.  Wählen**Verschiebung Cells Rechts** oder**Schicht Cells Runter** Taste.
+1.  Klicken**Cell** Knopf.
+1.  Wählen**Verschiebung Cells Rechts** oder**Schicht Cells Runter** Knopf.
 
 Der Editor fügt an der ausgewählten Stelle eine neue Zelle hinzu. Die angrenzenden Zellen werden automatisch entweder horizontal oder vertikal verschoben, um Platz für die neue zu schaffen.
 

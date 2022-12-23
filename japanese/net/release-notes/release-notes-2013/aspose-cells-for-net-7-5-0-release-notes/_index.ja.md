@@ -22,11 +22,11 @@ url: /ja/net/aspose-cells-for-net-7-5-0-release-notes/
 
 バグ
 
-41748 - XLSX として保存されたワークブックが破損している
+41748 - XLSX として保存されたワークブックが破損しています
 
 41710 - 1 文字がクエスチョン マークになる
 
-41614 - フィルタリングされたアイテムが PDF に表示されない
+41614 - PDF フィルターされたアイテムが表示されない
 
 41695 - チャートの凡例が間違った位置にある
 
@@ -44,6 +44,6 @@ url: /ja/net/aspose-cells-for-net-7-5-0-release-notes/
 
 バグ
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 バグ

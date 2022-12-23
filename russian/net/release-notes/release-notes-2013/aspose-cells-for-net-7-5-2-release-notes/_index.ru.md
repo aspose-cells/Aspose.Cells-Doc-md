@@ -30,7 +30,7 @@ url: /ru/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 — проблема с обновлением сводных таблиц.
+ 41891 — проблема с обновлением сводных таблиц.
 
  41868 — проблема с формулой DSUM
 
@@ -50,7 +50,7 @@ url: /ru/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

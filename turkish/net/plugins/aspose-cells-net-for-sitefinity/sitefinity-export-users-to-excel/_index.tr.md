@@ -6,7 +6,7 @@ url: /tr/net/sitefinity-export-users-to-excel/
 ---
 **İçindekiler Özeti**
 
-- [giriiş](#SitefinityExportUserstoExcel-Introduction)
+- [Giriş](#SitefinityExportUserstoExcel-Introduction)
 - [Sistem Gereksinimleri ve Desteklenen Platformlar](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
   - [sistem gereksinimleri](#SitefinityExportUserstoExcel-SystemRequirements)
   - [Desteklenen Platformlar](#SitefinityExportUserstoExcel-SupportedPlatforms)
@@ -18,9 +18,9 @@ url: /tr/net/sitefinity-export-users-to-excel/
 - [Kullanım ve Video Demosu](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
   - [kullanma](#SitefinityExportUserstoExcel-Using)
   - [Video Demosu](#SitefinityExportUserstoExcel-VideoDemo)
-- [Destek](#SitefinityExportUserstoExcel-Support)
+- [Destek olmak](#SitefinityExportUserstoExcel-Support)
 - [Genişletin ve Katkıda Bulunun](#SitefinityExportUserstoExcel-ExtendandContribute)
-## **giriiş**
+## **Giriş**
 Aspose .NET SiteFinity Modülü için Kullanıcıları Excel'e Aktar, geliştiricilerin SiteFinity Kullanıcılarını Microsoft Excel'e veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
@@ -66,19 +66,19 @@ Lütfen indirilen ZIP dosyasını çıkartın. Aşağıdakileri gerçekleştirme
 **2. Adım: Aspose Sitefinity İçerik Dışa Aktarma eklentisini Sitefinity'ye kaydedin**
 
 1. ' ile Sitefinity CMS'nize giriş yapın**yönetici** ' hesap. Giriş sayfasına şu adresten ulaşılabilir:<http://www.mywebsite.com/sitefinity>
-1.  Tıklamak**Yönetim** ve daha sonra**Ayarlar**.
+1.  Tıklamak**Yönetim** ve sonra**Ayarlar**.
 Temel Ayarlar sayfası görünür.
 1.  Tıkla**Gelişmiş** bağlantı.
  Ayarlar sayfası görünür.
-1.  Sol bölmede,**Araç kutuları** bunu takiben**Araç kutuları** , sonra**Sayfa Denetimleri**, **Bölümler** ve**İçerikAraç KutusuBölümü** , sonra**Aletler.**
+1.  Sol bölmede,**Araç kutuları** bunu takiben**Araç kutuları** , o zamanlar**Sayfa Denetimleri**, **Bölümler** ve**İçerikAraç KutusuBölümü** , o zamanlar**Araçlar.**
 1.  Tıklamak**Yeni oluşturmak**.
  Widget kayıt formu görünür.
 1.  Form alanlarını aşağıdaki gibi doldurun:
  1. Emin olun**Etkinleştirilmiş** seçildi.
  1. ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx dosyasını ekleyin
 
- 1. ` ` içinde**Kontrol CLR Tipi veya Sanal Yol** alan.
- 1. Ekle**İsim**, **Başlık** ve**Tanım** aşağıdaki gibi:
+ 1. ` ` içinde**Kontrol CLR Tipi veya Sanal Yol** tarla.
+ 1. Ekle**İsim**, **Başlık** ve**Açıklama** aşağıdaki gibi:
  Aspose.SiteFinity.ExportUsersToExcel
  Aspose SiteFinity Kullanıcılarını Excel'e Aktar
  SiteFinity Kullanıcılarını Excel'e Aktarın
@@ -97,7 +97,7 @@ Aspose Sitefinity Export Users to Excel eklentisini kurup yapılandırdıktan so
 Aspose Sitefinity Export Kullanıcılarını Excel'e başarıyla eklediniz.
 ### **Video Demosu**
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=O1524u-Pom4) modülü çalışırken görmek için aşağıdaki
-## **Destek**
+## **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

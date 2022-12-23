@@ -16,7 +16,7 @@ Se non hai impostato lo stile della cella su Formato percentuale, i dati di inpu
 Il seguente codice di esempio imposta la cella A1 GridTableItemStyle.NumberType come 10, pertanto i dati di input 3% vengono automaticamente formattati come 3,00% come mostrato nello screenshot.
 
 ![cose da fare:immagine_alt_testo](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
-### **Codice di esempio**
+### **Codice d'esempio**
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-SetCellPercentageFormat.aspx-SetCellPercentageFormat.cs" >}}

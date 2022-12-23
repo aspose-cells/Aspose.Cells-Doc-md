@@ -18,9 +18,9 @@ Beim Lesen von Vorlagendateien analysiert die Komponente jede Zelle und stellt d
 
 In beiden Verfahren wird ein Cell-Objekt verarbeitet und dann verworfen, das Workbook-Objekt enthält die Sammlung nicht. In diesem Modus wird also beim Importieren und Exportieren von Microsoft Excel-Dateien mit einem großen Datensatz, der sonst viel Speicher verbrauchen würde, Speicherplatz gespart.
 
-Obwohl LightCells API die Zellen für XLSX- und XLS-Dateien auf die gleiche Weise verarbeitet (es lädt nicht alle Zellen in den Speicher, sondern verarbeitet eine Zelle und verwirft sie dann), spart es aufgrund von für XLSX-Dateien effektiver Speicher als für XLS-Dateien die unterschiedlichen Datenmodelle und Strukturen der beiden Formate.
+Obwohl LightCells API die Zellen für XLSX- und XLS-Dateien auf die gleiche Weise verarbeitet (es lädt nicht alle Zellen in den Speicher, sondern verarbeitet eine Zelle und verwirft sie dann), spart es aufgrund von XLSX-Dateien effektiver Speicher als XLS-Dateien die unterschiedlichen Datenmodelle und Strukturen der beiden Formate.
 
- Jedoch,**für XLS-Dateien** , um mehr Speicher zu sparen, können Entwickler einen temporären Speicherort zum Speichern temporärer Daten angeben, die während des Speichervorgangs generiert werden. Häufig,**Die Verwendung von LightCells API zum Speichern einer XLSX-Datei kann 50 % oder mehr Speicherplatz einsparen** als den üblichen Weg zu gehen,**Durch das Speichern von XLS können etwa 20-40 % Speicher eingespart werden**.
+ Jedoch,**für XLS Dateien** , um mehr Speicher zu sparen, können Entwickler einen temporären Speicherort zum Speichern temporärer Daten angeben, die während des Speichervorgangs generiert werden. Häufig,**Die Verwendung von LightCells API zum Speichern der Datei XLSX kann 50 % oder mehr Speicherplatz sparen** als den üblichen Weg zu gehen,**Durch das Speichern von XLS können etwa 20-40 % Speicher eingespart werden**.
 ## Schreiben einer großen Excel-Datei
 Aspose.Cells bieten eine Schnittstelle, LightCellsDataProvider, die in Ihrem Programm implementiert werden muss. Die Schnittstelle stellt den Datenlieferanten dar, um große Tabellenkalkulationsdateien im Lightweight-Modus zu speichern.
 

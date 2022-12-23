@@ -16,7 +16,7 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Nouvelles fonctionnalités
 
- 13872 Exporter vers un fichier XPS
+ 13872 Exporter vers le fichier XPS
 
  28363 Créer des fichiers XLSX protégés en écriture
 
@@ -34,11 +34,11 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27760 Prise en charge de la source de la table en tant que plages nommées
 
- 27955 Spécifiez la zone d'impression dynamique lors de l'impression ou du rendu au format PDF
+ 27955 Spécifiez la zone d'impression dynamique lors de l'impression ou du rendu au PDF
 
  Performance
 
- 28139 Problème de performances Excel vers PDF
+ 28139 Excel à PDF problème de performances
 
  27095 Problème avec la méthode Workbook.CalculateFormula()
 
@@ -46,7 +46,7 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27367 L'ouverture d'un fichier XLSX est lente
 
- Exceptions
+ Des exceptions
 
  28221 L'ouverture du classeur provoque une exception
 
@@ -74,13 +74,13 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28024 Obtenir des plages et des tables nommées
 
- 18503 Les lignes diagonales ne s'affichent pas correctement dans le PDF
+ 18503 Les lignes diagonales ne s'affichent pas correctement dans PDF
 
- 27168 Les formes groupées sont déformées lors de l'enregistrement au format PDF
+ 27168 Les formes groupées sont déformées lors de l'enregistrement dans PDF
 
  27240 Conversion d'Excel en PDF - Problème de plages de graphiques
 
- 28112 L'enregistrement d'un fichier Excel (XLS) au format PDF entraîne un problème
+ 28112 L'enregistrement du fichier Excel (XLS) sous le nom PDF entraîne un problème
 
  27061 Avertissement de vue protégée dans MS Excel 2010
 
@@ -92,7 +92,7 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Puces manquantes dans l'image exportée dans la fonction Feuille vers image
 
- 28413 Le format de la colonne dans la conversion TIFF n'est pas correct
+ 28413 Le format de la colonne dans TIFF La conversion n'est pas correcte
 
  27906 Caractère d'échappement dans les marqueurs intelligents
 
@@ -120,7 +120,7 @@ url: /fr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 Le paramètre ShowDefaultGridLine = false n'est pas disponible lorsque XhtmlMode de GridWeb est défini sur "true"
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Nouvelles fonctionnalités
 

@@ -23,7 +23,7 @@ Die folgende Abbildung zeigt die mit dem Beispielcode generierte Excel-Ausgabeda
 
 {{% alert color="primary" %}}
 
-## **In Verbindung stehende Artikel**
+## **Zum Thema passende Artikel**
 
 - [Zellen verbinden und teilen](/cells/de/java/merging-and-unmerging-cells/).
 

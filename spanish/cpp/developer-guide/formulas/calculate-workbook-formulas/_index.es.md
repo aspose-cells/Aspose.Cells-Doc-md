@@ -9,7 +9,7 @@ url: /es/cpp/calculate-workbook-formulas/
 ## **Código de muestra**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Formulas-CalculateWorkbookFormulas.cpp" >}}
 ## **Salida de consola**
-Esta es la salida de la consola del código de ejemplo anterior.
+Esta es la salida de la consola del código de muestra anterior.
 
 {{< highlight "java" >}}
 

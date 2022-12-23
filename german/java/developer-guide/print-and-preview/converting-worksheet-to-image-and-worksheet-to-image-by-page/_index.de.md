@@ -50,7 +50,7 @@ Dieser Artikel zeigt, wie Sie mit Aspose.Cells ein Arbeitsblatt in eine Bilddate
 
 {{% /alert %}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Konvertieren von Arbeitsblättern in verschiedene Bildformate](/cells/de/java/converting-worksheet-to-different-image-formats/)
 - [Arbeitsblatt oder Diagramm in Bild mit gewünschter Breite und Höhe exportieren](/cells/de/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)

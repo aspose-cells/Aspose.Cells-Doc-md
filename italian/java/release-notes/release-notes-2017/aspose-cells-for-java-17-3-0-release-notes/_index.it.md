@@ -10,28 +10,28 @@ url: /it/java/aspose-cells-for-java-17-3-0-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42205|L'impostazione della formula con risultati letterali a stringa lunga in un file Excel corrotto|Aumento|
 |CELLSJAVA-42204|I bordi punteggiati del foglio di calcolo non sono stati visualizzati in HTML|Insetto|
 |CELLSJAVA-42198|Il calcolo della formula è errato con il file Excel generato da Aspose.Cells|Insetto|
-|CELLSJAVA-42156|I bordi superiore e inferiore delle celle vengono eliminati durante la conversione in HTML|Insetto|
-|CELLSJAVA-42208|I commenti (alla fine) vengono tagliati verticalmente quando vengono generati PDF tramite Aspose.Cells|Insetto|
-|CELLSJAVA-42206|Le linee tratteggiate della serie per i grafici non vengono visualizzate correttamente nel PDF di output|Insetto|
+|CELLSJAVA-42156|I bordi superiore e inferiore delle celle sono spariti durante la conversione in HTML|Insetto|
+|CELLSJAVA-42208|I commenti (alla fine) vengono tagliati verticalmente quando generati PDF tramite Aspose.Cells|Insetto|
+|CELLSJAVA-42206|Le linee tratteggiate della serie per i grafici non vengono visualizzate correttamente nell'output PDF|Insetto|
 |CELLSJAVA-42167 |Etichette dell'asse delle categorie visualizzate su due righe dopo la conversione del grafico in immagine|Insetto|
 |CELLSJAVA-42199|Grafico a cascata, la linea dalla barra totale e la barra subito prima che manca|Insetto|
 |CELLSJAVA-42201|Attività secondaria: etichette dell'asse delle categorie visualizzate su due righe dopo la conversione del grafico in immagine|Insetto|
 |CELLSJAVA-42155|Il grafico esportato ha etichette dell'asse x diverse da quelle in Excel|Insetto|
 |CELLSJAVA-42128|Il grafico è errato all'apertura e al salvataggio del file Excel di origine|Insetto|
-|CELLSJAVA-42203|Il carattere è stato modificato dopo aver semplicemente caricato e salvato nuovamente XLSM|Insetto|
+|CELLSJAVA-42203|Il carattere è stato modificato dopo aver semplicemente caricato e salvato nuovamente lo XLSM|Insetto|
 |CELLSJAVA-42196|La formattazione del file risultante è incasinata nel file salvato di nuovo|Insetto|
 |CELLSJAVA-42195|Grafico a cascata, la serie Total sembra sbagliata|Insetto|
 |CELLSJAVA-42181|Vista protetta dopo aver salvato nuovamente un file XLS|Insetto|
 |CELLSJAVA-42045|L'immagine del grafico radar non viene generata|Insetto|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Personalizza le impostazioni di globalizzazione di una tabella pivot**
-Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle proprie applicazioni .NET, indipendentemente dal linguaggio di testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
+Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle loro applicazioni .NET, indipendentemente dalla lingua del testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
 
 1. **Aggiunge il metodo GlobalizationSettings.getPivotTotalName()** - Ottiene il nome dell'etichetta "Totale" nella tabella pivot. Gli sviluppatori possono eseguire l'override di questo metodo quando la tabella pivot contiene due o più campi pivot nell'area dati.
 1. **Aggiunge il metodo GlobalizationSettings.getPivotGrandTotalName()** - Ottiene il nome dell'etichetta "Totale complessivo" nella tabella pivot.
@@ -42,9 +42,9 @@ Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono pe
 1. **Aggiunge il metodo GlobalizationSettings.getEmptyDataName()** - Ottiene il nome dell'etichetta "(vuoto)" nella tabella pivot.
 1. **Aggiunge il metodo GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType)** - Ottiene il nome del tipo "PivotFieldSubtotalType" nella tabella pivot.
 
-Questo esempio di codice illustra come personalizzare le impostazioni di globalizzazione di una tabella pivot. Crea una classe CustomPivotTableGlobalizationSettings derivata da una classe base GlobalizationSettings ed esegue l'override di tutti i relativi metodi necessari. Questi metodi restituiscono il testo personalizzato per Totale pivot, Totale parziale, Totale complessivo, Tutti gli elementi, Elementi multipli, Etichette colonna, Etichette riga, Valori vuoti. Quindi assegna l'oggetto di questa classe alla proprietà Workbook.GlobalizationSettings. Il codice carica il file excel di origine che contiene la tabella pivot, aggiorna e calcola i suoi dati e lo salva come file PDF di output. Gli sviluppatori possono anche salvare la cartella di lavoro in qualsiasi formato supportato.
+Questo esempio di codice illustra come personalizzare le impostazioni di globalizzazione di una tabella pivot. Crea una classe CustomPivotTableGlobalizationSettings derivata da una classe base GlobalizationSettings ed esegue l'override di tutti i relativi metodi necessari. Questi metodi restituiscono il testo personalizzato per Totale pivot, Totale parziale, Totale complessivo, Tutti gli elementi, Elementi multipli, Etichette colonna, Etichette riga, Valori vuoti. Quindi assegna l'oggetto di questa classe alla proprietà Workbook.GlobalizationSettings. Il codice carica il file excel di origine che contiene la tabella pivot, aggiorna e calcola i suoi dati e lo salva come file di output PDF. Gli sviluppatori possono anche salvare la cartella di lavoro in qualsiasi formato supportato.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -298,7 +298,7 @@ Utilizzando la proprietà OnPageChangeClientFunction del controllo GridWeb, gli 
 
 Questo esempio di codice mostra l'utilizzo della proprietà OnPageChangeClientFunction. Imposta la proprietà con la funzione lato client denominata MyOnPageChange. Ora, ogni volta che l'utente cambierà la pagina GridWeb, chiamerà la funzione lato client MyOnPageChange che stampa il**indice della pagina corrente**sul**consolare**:
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

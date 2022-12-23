@@ -1,6 +1,6 @@
 ﻿---
 title: تنسيق الصفوف والأعمدة
-linktitle: الصفوف والأعمدة
+linktitle: الصفوف و الأعمة
 type: docs
 weight: 100
 url: /ar/net/adjusting-row-height-and-column-width/
@@ -58,7 +58,7 @@ url: /ar/net/adjusting-row-height-and-column-width/
 
 ### **ضبط عرض كل الأعمدة في ورقة عمل**
 
- لتعيين نفس عرض العمود لجميع الأعمدة في ورقة العمل ، استخدم ملف[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) المجموعة[**العرض القياسي**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)منشأه.
+ لتعيين نفس عرض العمود لجميع الأعمدة في ورقة العمل ، استخدم ملف[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) المجموعة[**العرض القياسي**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
 
@@ -67,7 +67,7 @@ url: /ar/net/adjusting-row-height-and-column-width/
 - [تحويل النص إلى أعمدة باستخدام Aspose.Cells](/cells/ar/net/convert-text-to-columns-using-aspose-cells/)
 - [نسخ الصفوف والأعمدة](/cells/ar/net/copying-rows-and-columns/)
 - [احذف الصفوف والأعمدة الفارغة في ورقة عمل](/cells/ar/net/delete-blank-rows-and-columns-in-a-worksheet/)
-- [تجميع الصفوف والأعمدة وإلغاء تجميعها](/cells/ar/net/grouping-and-ungrouping-rows-and-columns/)
+- [تجميع وإلغاء تجميع الصفوف والأعمدة](/cells/ar/net/grouping-and-ungrouping-rows-and-columns/)
 - [إخفاء وإظهار الصفوف والأعمدة](/cells/ar/net/hiding-and-showing-rows-and-columns/)
 - [قم بإدراج أو حذف صفوف في ورقة عمل Excel](/cells/ar/net/insert-or-delete-rows-in-an-excel-worksheet/)
 - [إدراج وحذف صفوف وأعمدة ملف إكسل](/cells/ar/net/inserting-and-deleting-rows-and-columns/)

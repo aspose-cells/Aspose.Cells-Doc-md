@@ -14,4 +14,4 @@ Microsoft Excel permet aux utilisateurs d'ajouter des commentaires aux cellules 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
- La[fichier de sortie](102662195.xlsx) généré par le code ci-dessus est joint pour votre référence.
+ Le[fichier de sortie](102662195.xlsx) généré par le code ci-dessus est joint pour votre référence.

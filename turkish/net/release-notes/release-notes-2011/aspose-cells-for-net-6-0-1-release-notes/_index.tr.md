@@ -26,13 +26,13 @@ url: /tr/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **İstisnalar**
  28780 SheetRender API, "Biçim belirleyicisi geçersizdi" hatası veriyor. istisna
 
- 28961 PDF'ye dönüştürürken Nesne Referans Hatası
+ PDF'e dönüştürülürken 28961 Nesne Referans Hatası
 
  29163 Hedef dizi yeterince uzun istisna değildi
 
  28924 Worksheet.Validations'ın düzgün çalışması sağlanamıyor
 
- 28867 Excel'i TIFF'e dönüştürmede geçersiz parametre
+ 28867 Excel'in TIFF'e dönüştürülmesinde geçersiz parametre
 ### **Hatalar**
  29129 Lejant/Veri Etiketleri, görüntüler oluşturulurken grafiklerde koyu renkle gösterilir
 
@@ -50,31 +50,31 @@ url: /tr/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28571 HTML'de yer değiştirmiş hücreler
 
- 24963 PDF çıktısında şeffaf arka planlarla oluşturulmuş görüntü
+ 24963 PDF çıktısında saydam arka planlarla işlenen görüntü
 
- 28697 PDF'ye dönüştürürken filigran sorunu
+ 28697 PDF'e dönüştürülürken filigran sorunu
 
- 28610 Excel'i PDF'ye dönüştürürken nesne grubu kayboluyor
+ 28610 Excel PDF'e dönüştürülürken nesne grubu kayboluyor
 
- 28815 XLS'den PDF'ye yanlış dönüştürme
+ 28815 XLS'den PDF'e yanlış dönüştürme
 
- 28960 Metin, PDF'ye dönüştürüldüğünde kesiliyor
+ 28960 Metin, PDF'e dönüştürüldüğünde kesiliyor
 
- 28930 PDF'ye dönüştürülürken hücrelerdeki metin kesiliyor
+ 28930 Hücrelerdeki metin, PDF'e dönüştürülürken kesiliyor
 
- 29184 Kırpılan görüntüler artık PDF'ye dönüştürülürken kırpılmış olarak kalmıyor
+ 29184 Kırpılan resimler, PDF'e dönüştürülürken artık kırpılmış kalmıyor
 
  28352 Pivot Tablo - ekstra özet sütunu oluşturuldu
 
- 28751 Pivot tablo işlevini yenile
+28751 Pivot tablo işlevini yenile
 
  28489 Boş XLSX dosyasını TIFF'e dönüştürme sorunu
 
-29058 Oluşturma sorunu
+ 29058 Oluşturma sorunu
 
  28929 SheetRender API hatasından bitmap veya kağıt boyutu alma
 
- 24912 XLSB'yi veri filtreleriyle kaydetmek, geçersiz adlandırılmış aralık ekliyor
+ 24912 XLSB veri filtreleriyle kaydediliyor, geçersiz adlandırılmış aralık ekliyor
 
  Çalışma sayfası veri doğrulaması içerdiğinde 28782 XLSB oluşturma sorunu
 
@@ -96,12 +96,12 @@ url: /tr/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Hatalar**
  29289 Satırları filtrelerken dikey kaydırma çubuğu oluşturma sorunu
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 ### **Yeni özellikler**
- 26751 Excel dosyasından çizelgeleri ve şekilleri içe aktarın
+26751 Excel dosyasından çizelgeleri ve şekilleri içe aktarın
 ### **Geliştirmeler**
  28964 256'dan fazla sütunu Excel 2007 dosyalarına aktarın
 
-26751 Şekil görüntülerini JPEG formatı yerine EMF formatıyla işleyin
+ 26751 Şekil görüntülerini JPEG biçimi yerine EMF biçiminde işleyin
 ### **Hatalar**
  28808 Dizi genişliğini ölçün

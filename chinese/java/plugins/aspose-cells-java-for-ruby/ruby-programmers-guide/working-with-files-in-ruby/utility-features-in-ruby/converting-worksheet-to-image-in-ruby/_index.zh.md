@@ -11,7 +11,7 @@ url: /zh/java/converting-worksheet-to-image-in-ruby/
 
 {{< highlight "ruby" >}}
 
-定义工作表_至_图片（工作簿）
+定义工作表_到_图片（工作簿）
 
 #为ImageOptions创建一个对象
 

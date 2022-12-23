@@ -6,7 +6,7 @@ url: /fr/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
 {{% alert color="primary" %}}
 
- Vous pouvez définir l'interligne du paragraphe, son espace avant et son espace après en utilisant le[**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBeforeTextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) et[**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) propriétés de la[**TexteParagraphe**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph)classer.
+ Vous pouvez définir l'interligne du paragraphe, son espace avant et son espace après en utilisant le[**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBeforeTextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) et[**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) propriétés de la[**TexteParagraphe**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph)classe.
 
 {{% /alert %}}
 

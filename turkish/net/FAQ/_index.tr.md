@@ -10,8 +10,8 @@ Bazen kullanıcılar, Workbook.CalculateFormula yönteminde System.StackOverFlow
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Excel'i PDF'ye dönüştürürken çizgilerin kalınlığı sorunu**
-Bazen, Excel dosyası PDF'ye dönüştürüldüğünde, çıktı PDF'sinde çizgilerin kalınlığı farklıdır. Bu sorun Aspose.Cells'den kaynaklanmaz.**Adobe okuyucu** ayarları ne zaman**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"** kontrol edilir. Bu seçeneklerin işaretini kaldırmak, PDF'yi iyi görüntüler.
+## **Excel'i PDF'e dönüştürürken çizgilerin kalınlığı sorunu**
+Bazen, Excel dosyası PDF'e dönüştürüldüğünde, PDF çıktısındaki çizgilerin kalınlığı farklıdır. Bu sorun Aspose.Cells'den kaynaklanmaz.**Adobe okuyucu** ayarları ne zaman**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"** kontrol edilir. Bu seçeneklerin işaretini kaldırmak PDF para cezasını gösterecektir.
 
  eğer kontrol**"Pürüzsüz çizgi sanatı"** ve**"İnce çizgileri geliştirin"**, çizgilerin kalınlığı farklıdır. Nasıl yapıldığını aşağıdaki adımlara bakın:
 

@@ -16,7 +16,7 @@ Aspose.Cells يسمح للمطورين بإضافة بيانات إلى الخل
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-AddAndRetrieveData-AddingDataToCells.cpp" >}}
 ### **تحسين الكفاءة**
- كما ترى[ضع القيمة](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9)طريقة لوضع كمية كبيرة من البيانات في ورقة عمل ، يجب إضافة قيم إلى الخلايا ، أولاً بالصفوف ثم بالأعمدة. يعمل هذا الأسلوب على تحسين كفاءة تطبيقاتك بشكل كبير.
+ إذا كنت تستخدم[ضع القيمة](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4a5f4b8cdd54eccb4eb2ea51babcbca9)طريقة لوضع كمية كبيرة من البيانات في ورقة عمل ، يجب إضافة قيم إلى الخلايا ، أولاً بالصفوف ثم بالأعمدة. يعمل هذا الأسلوب على تحسين كفاءة تطبيقاتك بشكل كبير.
 ## **استرجاع البيانات من Cells**
  Aspose.Cells يوفر فئة[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) يمثل ملف Excel Microsoft. ال[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) فئة تحتوي على[أوراق العمل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) مجموعة تسمح بالوصول إلى أوراق العمل الموجودة في الملف. يتم تمثيل ورقة العمل بواسطة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) فئة توفر أ[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) مجموعة. كل عنصر في[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) تمثل المجموعة كائنًا من[آيسيل](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)صف دراسي.
 

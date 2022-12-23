@@ -16,7 +16,7 @@ GridCells.CopyRow, GridCells.CopyColumn, GridCells.CopyRows & GridCells.CopyColu
 ### **Tek Satır Kopyalama**
 Örneği basit tutmak için makale, tek satırlı mevcut bir elektronik tablo ve satırdaki tüm değerleri toplayan basit bir formül kullanır. Satırı kopyalamadan önce elektronik tablonun Aspose.Cells.GridWeb arayüzünde nasıl görüntülendiği aşağıda açıklanmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_1.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_1.png)
 
 Kod parçacığı aşağıda gösterildiği gibi basittir. İlk satırın bir sonraki satıra kopyasını oluşturmak için aktif çalışma sayfasının GridCells nesnesine erişir.
 
@@ -27,11 +27,11 @@ Kod parçacığı aşağıda gösterildiği gibi basittir. İlk satırın bir so
 
 Aspose.Cells.GridWeb satır kopyalama işleminden sonra şu şekilde görünür.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_2.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_2.png)
 ### **Tek Sütunu Kopyalama**
 Aşağıdaki örnekte, tek sütunlu mevcut bir elektronik tablo ve sütundaki tüm değerleri toplayan basit bir formül kullanılmaktadır. Sütunu kopyalamadan önce elektronik tablonun Aspose.Cells.GridWeb arayüzünde nasıl görüntülendiği aşağıda açıklanmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_3.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_3.png)
 
 Yukarıdaki örneğe benzer şekilde, aşağıdaki kod parçacığı, ilk sütunun sonraki sütuna bir kopyasını oluşturmak için etkin çalışma sayfasının GridCells nesnesine erişir.
 
@@ -43,7 +43,7 @@ Yukarıdaki örneğe benzer şekilde, aşağıdaki kod parçacığı, ilk sütun
 
 Sütun kopyalama işleminden sonra Aspose.Cells.GridWeb şu şekilde görünür.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_4.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_4.png)
 
 {{% alert color="primary" %}} 
 
@@ -61,9 +61,9 @@ Kopyalanacak kaynak satır sayısını belirtmek için tamsayı türünde ek bir
 
 Aspose.Cells.GridWeb, satırları kopyalama işleminden önce ve sonra nasıl göründüğünü burada bulabilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_5.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_5.png)
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_6.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_6.png)
 ### **Birden Çok Sütunu Kopyalama**
 GridCells sınıfı, kopyalanacak kaynak sütun sayısını belirtmek için tamsayı türünde ek bir parametre alan CopyColumns yöntemini de sağlar.
 
@@ -75,6 +75,6 @@ GridCells sınıfı, kopyalanacak kaynak sütun sayısını belirtmek için tams
 
 Aspose.Cells.GridWeb, satırları kopyalama işleminden önce ve sonra nasıl göründüğünü burada bulabilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_7.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_7.png)
 
-![yapılacaklar:resim_alternatif_Metin](copy-gridweb-rows-and-columns_8.png)
+![yapılacaklar:resim_alternatif_metin](copy-gridweb-rows-and-columns_8.png)

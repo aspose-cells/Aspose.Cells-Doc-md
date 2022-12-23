@@ -13,10 +13,10 @@ url: /zh/java/aspose-cells-for-java-17-11-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-42433|获取所需页面图像所需的 ImageOrPrintOptions.PageIndex 和 ImageOrPrintOptions.Count 属性|新功能|
-|CELLSJAVA-42427|导出带边框的网格线不会在 Excel 中显示边框内的网格线到 HTML 呈现|漏洞|
+|CELLSJAVA-42427|导出带边框的网格线不会在 Excel 中显示边框内的网格线到 HTML 渲染|漏洞|
 |CELLSJAVA-42438|LightCellsDataProvider 正在删除前导和尾随空格|漏洞|
-|CELLSJAVA-42422|MS Excel 图表的 PDF 输出中使用了不正确的字体|漏洞|
-|CELLSJAVA-42353|输出 HTML 中缺少一些箭头或标注|漏洞|
+|CELLSJAVA-42422|PDF MS Excel图表输出中使用了不正确的字体|漏洞|
+|CELLSJAVA-42353|输出中缺少一些箭头或标注 HTML|漏洞|
 |CELLSJAVA-42455|工作表评论集合中缺少第二条评论|漏洞|
 |CELLSJAVA-42454|从 XLSM 文件读取时，工作簿创建似乎挂起|漏洞|
 |CELLSJAVA-42450|Style.QuotePrefix 属性不适用于 XLSB 文件|漏洞|

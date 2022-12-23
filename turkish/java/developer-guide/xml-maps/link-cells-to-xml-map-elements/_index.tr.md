@@ -14,7 +14,7 @@ Aspose.Cells'i kullanarak hücrelerinizi XML Harita öğelerine bağlayabilirsin
 
  eğer açarsan[çıktı excel dosyası](5472517.xlsx) ve tıklayın*Geliştirici > Kaynak*düğmesini tıklattığınızda, hücrelerin XML Harita öğeleriyle bağlantılı olduğunu göreceksiniz ve ayrıca bu resimde gösterildiği gibi Microsoft Excel tarafından vurgulanacaklar.
 
-![yapılacaklar:resim_alternatif_Metin](link-cells-to-xml-map-elements_1.png)
+![yapılacaklar:resim_alternatif_metin](link-cells-to-xml-map-elements_1.png)
 
 ## **Basit kod**
 

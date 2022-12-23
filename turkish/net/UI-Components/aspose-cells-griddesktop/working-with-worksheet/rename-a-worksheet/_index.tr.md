@@ -9,7 +9,7 @@ url: /tr/net/rename-a-worksheet/
 Bu konuda, Aspose.Cells.GridDesktop kullanılarak bir çalışma sayfasının adının nasıl değiştirileceği anlatılmaktadır.
 
 {{% /alert %}} 
-## **Örnek**
+## **Örnek vermek**
 Bir çalışma sayfasını yeniden adlandırmak, çok yararlı olabilecek basit bir iştir. Örneğin, çalışma sayfalarını, her birinin ne içerdiğini açıkça gösterecek şekilde etiketlemek istiyorsanız. Örneğin, bir modelde gider bilgilerini tutmak için her biri aya göre adlandırılan 12 çalışma sayfası olabilir.
 
 Aspose.Cells.GridDesktop kontrolünü kullanarak bir çalışma sayfasını yeniden adlandırmak için:

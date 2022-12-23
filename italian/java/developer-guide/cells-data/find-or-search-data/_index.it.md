@@ -6,7 +6,7 @@ url: /it/java/find-or-search-data/
 ---
 {{% alert color="primary" %}} 
 
- In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare** poi**Trova** apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK** per cercarlo. Excel evidenzia i campi corrispondenti.
+ In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare** e poi**Trova** apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK** per cercarlo. Excel evidenzia i campi corrispondenti.
 
 **Utilizzo della finestra di dialogo Trova per trovare celle contenenti un valore specifico** 
 
@@ -24,9 +24,9 @@ Aspose.Cells consente agli sviluppatori di cercare tra le celle in un foglio di 
 
 Tutti i metodi find restituiscono i riferimenti di cella per tutte le celle che contengono il valore di ricerca specificato.
 ## **Trovare contenente una formula**
- Gli sviluppatori possono trovare una formula specificata nel foglio di lavoro chiamando il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) ) metodo, impostando il[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) a[LookInType.FORMULE](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) e passandolo come parametro al file[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
+ Gli sviluppatori possono trovare una formula specificata nel foglio di lavoro chiamando il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) ) metodo, impostando il[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType) a[LookInType.FORMULE](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS) passandolo come parametro al file[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
 
- Tipicamente, il[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)accetta due o più parametri:
+ Tipicamente, il[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) accetta due o più parametri:
 
 - Oggetto da cercare: rappresenta un oggetto che è necessario trovare nel foglio di lavoro.
 - Il precedente Cell: rappresenta la cella precedente con la stessa formula. Questo parametro può essere impostato su null durante la ricerca dall'inizio.
@@ -38,13 +38,13 @@ Tutti i metodi find restituiscono i riferimenti di cella per tutte le celle che 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
 ## **Alla ricerca di stringhe**
-La ricerca di celle che contengono un valore stringa è semplice e flessibile. Esistono diversi modi di ricerca, ad esempio cercare celle che contengono stringhe che iniziano con un particolare carattere o insieme di caratteri.
+La ricerca di celle che contengono un valore stringa è semplice e flessibile. Esistono diversi modi di ricerca, ad esempio cercare celle che contengono stringhe che iniziano con un determinato carattere o insieme di caratteri.
 ### **Ricerca di stringhe che iniziano con caratteri specifici**
- Per cercare il primo carattere in una stringa, chiama il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), impostare il metodo[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) a[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)e passarlo come parametro al file[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
+ Per cercare il primo carattere in una stringa, chiama il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), impostare il metodo[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) a[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)passarlo come parametro al file[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **Ricerca di stringhe che terminano con caratteri specifici**
- Aspose.Cells può anche trovare stringhe che terminano con caratteri specifici. Per cercare gli ultimi caratteri in una stringa, chiama il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), impostare il metodo[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) a[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)e passarlo come parametro al file[trova](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
+ Aspose.Cells può anche trovare stringhe che terminano con caratteri specifici. Per cercare gli ultimi caratteri in una stringa, chiama il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)), impostare il metodo[FindOptions.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType) a[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)passarlo come parametro al file[Trovare](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) metodo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **Ricerca con espressioni regolari: la funzione RegEx**

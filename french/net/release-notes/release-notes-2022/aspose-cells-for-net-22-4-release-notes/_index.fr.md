@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-22-4-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-50624|Prise en charge de la suppression des cellules vides résiduelles pour enregistrer le format csv|
 |CELLSNET-50747|Ajoutez Style.HasBorders pour vérifier s'il y a des bordures pour cela|
@@ -20,35 +20,35 @@ url: /fr/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50751|Prend en charge PasteType.ValuesAndFormats lors de la copie de la plage.|
 |CELLSNET-50620|Lors de la conversion de xls en pdf, la taille de la ligne vide du texte dans la zone de texte n'est pas rendue correctement|
 |CELLSNET-50684|Problème d'extraction des pièces jointes OLE à partir du fichier ODS|
-|CELLSNET-50712|Les effets et les formes WordArt ne sont pas rendus correctement dans la conversion Excel en PDF|
+|CELLSNET-50712|Les effets et les formes WordArt ne sont pas rendus correctement dans Excel vers la conversion PDF|
 |CELLSNET-50714|Le fichier XLSB est corrompu lors de l'ouverture et de l'enregistrement par les API Aspose.Cells|
-|CELLSNET-50778|Il manque des lignes verticales pour le tableau croisé dynamique dans le PDF de sortie|
+|CELLSNET-50778|Il manque des lignes verticales pour le tableau croisé dynamique dans la sortie PDF|
 |CELLSNET-50517|Mauvaise référence dans la formule de mise en forme conditionnelle après l'insertion/la suppression de lignes|
 |CELLSNET-50622|L'en-tête de ligne/colonne vide avec un style personnalisé n'est pas exporté au format csv|
 |CELLSNET-50645|Résultats incorrects avec la méthode Workbook.CalculateFormula|
 |CELLSNET-50695|Name.RefersTo/R1C1RefersTo a changé lors du référencement à une adresse de cellule unique|
 |CELLSNET-50553| Le style de colonne n'est pas appliqué sur la colonne complète dans GridDesktop|
 |CELLSNET-50641|Problème d'ouverture d'un fichier protégé par mot de passe avec un mot de passe vide ("") dans Aspose.Cells.GridDesktop|
-|CELLSNET-50672| ajouter un événement FailLoadFile|
+|CELLSNET-50672|ajouter un événement FailLoadFile|
 |CELLSNET-50815| double-cliquez sur modifier le comportement de la valeur de la cellule n'est pas correct|
 |CELLSNET-50594|Le texte est masqué derrière les champs de saisie lors de la conversion de XLSX en HTML|
 |CELLSNET-50665|La validation Pdf/A-1b a échoué après avoir défini CreatedTime lors de la conversion en pdf|
-|CELLSNET-50701|La luminosité et le contraste de l'image insérée sont réinitialisés dans la conversion Excel en PDF|
-|CELLSNET-50834|Problème avec les cellules fusionnées du tableau dans la conversion Excel vers HTML|
-|CELLSNET-50595|XLSX à SVG : Différences dans le graphique|
-|CELLSNET-50596|Les unités d'axe ne sont pas modifiées dans le fichier XLSX de sortie|
-|CELLSNET-50740|XLSX vers JPG : texte décalé vers la droite sur les graphiques|
-|CELLSNET-50309|Plage vers PNG : sortie non conforme aux attentes|
+|CELLSNET-50701|La luminosité et le contraste de l'image insérée sont réinitialisés dans Excel à la conversion PDF|
+|CELLSNET-50834|Problème avec les cellules fusionnées du tableau dans Excel vers la conversion HTML|
+|CELLSNET-50595|XLSX à SVG : Différences dans le tableau|
+|CELLSNET-50596|Les unités d'axe ne sont pas modifiées dans le fichier de sortie XLSX|
+|CELLSNET-50740|XLSX en JPG : texte décalé vers la droite sur les graphiques|
+|CELLSNET-50309|Plage jusqu'à PNG : sortie non conforme aux attentes|
 |CELLSNET-50610|RecalculateBeforeSave toujours faux dans la nouvelle version|
-|CELLSNET-50611|Problème avec la valeur booléenne dans le rendu Excel vers PDF|
+|CELLSNET-50611|Problème avec la valeur booléenne dans Excel pour le rendu PDF|
 |CELLSNET-50706| La taille du fichier a été réduite plusieurs fois lors de l'enregistrement avec SaveToStream() à la deuxième fois|
-|CELLSNET-50749|Méthode DeleteBlankColumns(options) supprimant les colonnes qui n'ont que des commentaires|
+|CELLSNET-50749| Méthode DeleteBlankColumns(options) supprimant les colonnes qui n'ont que des commentaires|
 |CELLSNET-50759|Les formules ne sont pas enregistrées correctement lorsqu'un classeur contient des liens externes vers un classeur qui n'a pas été enregistré|
 |CELLSNET-50776|Les marqueurs intelligents ne sont pas traités lors de l'utilisation d'une liste générique de type System.Dynamic.ExpandoObject comme source de données pour un objet imbriqué|
 |CELLSNET-50779| Perte potentielle de données concernant les objets intégrés lors de la conversion XLS -> XLSX -> XLS|
 |CELLSNET-50821|Problème avec Range.AutoFill - les données ne sont pas remplies automatiquement correctement si la zone de plage est intersectée|
 |CELLSNET-50777|La méthode PutValue lève System.StackOverflowException sur le format régional australien|
-|CELLSNET-50275|Exception "Référence d'objet non définie sur une instance d'un objet" lors du rendu d'ODS en HTML|
+|CELLSNET-50275|Exception "Référence d'objet non définie sur une instance d'un objet" lors du rendu ODS à HTML|
 |CELLSNET-50713|System.NullReferenceException lors du chargement d'un fichier XLSB|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

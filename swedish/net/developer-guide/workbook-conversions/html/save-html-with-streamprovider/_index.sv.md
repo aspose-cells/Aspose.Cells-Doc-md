@@ -10,7 +10,7 @@ När vi konverterar Excel-filer som innehåller bilder och former till html-file
 1. Var ska vi spara bilderna och formerna när vi sparar excel-fil till html-ström.
 1. Ersätt standardsökvägen med undantagen sökväg.
 
- Den här artikeln förklarar hur du implementerar[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) gränssnitt för att ställa in[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) fast egendom. Genom att implementera detta gränssnitt kommer du att kunna spara de skapade resurserna under HTML-generering till dina specifika platser eller minnesströmmar.
+ Den här artikeln förklarar hur du implementerar[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) gränssnitt för att ställa in[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) fast egendom. Genom att implementera detta gränssnitt kommer du att kunna spara de skapade resurserna under HTML-genereringen till dina specifika platser eller minnesströmmar.
 
 {{% /alert %}} 
 

@@ -9,7 +9,7 @@ description: Questo articolo descrive come utilizzare il filtro di caricamento p
  Si prega di utilizzare[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)property durante il filtraggio dei dati dalla cartella di lavoro.
 
  Il[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)enumerazione ha i seguenti valori.
-- Tutto
+- Tutti
 - Impostazioni libro
 - CellBlank
 - CellBool
@@ -39,6 +39,6 @@ description: Questo articolo descrive come utilizzare il filtro di caricamento p
 ## **Filtra i dati durante il caricamento della cartella di lavoro**
  Il codice di esempio seguente illustra come filtrare il disegno dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5472489.xlsx) . Come puoi vedere, tutti i grafici/forme/immagini sono stati filtrati dalla cartella di lavoro.
 ![cartella di lavoro senza immagine](nodrawing.png)
-### **Codice di esempio**
+### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingFilter.cs" >}}
  

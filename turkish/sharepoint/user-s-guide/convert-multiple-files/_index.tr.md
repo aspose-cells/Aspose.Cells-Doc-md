@@ -14,7 +14,7 @@ url: /tr/sharepoint/convert-multiple-files/
 
    **Alt klasördeki tüm dosyaları dönüştürün** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-multiple-files_1.png)
+![yapılacaklar:resim_alternatif_metin](convert-multiple-files_1.png)
 
 
 
@@ -23,10 +23,10 @@ url: /tr/sharepoint/convert-multiple-files/
 
    **Dönüştürme sırasını değiştirme** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-multiple-files_2.png)
+![yapılacaklar:resim_alternatif_metin](convert-multiple-files_2.png)
 ### **SharePoint 2010 altında Sunucu Şerit Düğmesini Kullanma**
- SharePoint 2010 altında, SharePoint 2007 / WSS 3 ile kullanılan özel eylem menüsü yerine sunucu şeridi düğmesi mevcuttur.
+SharePoint 2010 altında, SharePoint 2007 / WSS 3 ile kullanılan özel eylem menüsü yerine sunucu şeridi düğmesi mevcuttur.
 
 **SharePoint 2010'da Aspose.Cells for SharePoint ile belgeleri dönüştürme** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-multiple-files_3.png)
+![yapılacaklar:resim_alternatif_metin](convert-multiple-files_3.png)

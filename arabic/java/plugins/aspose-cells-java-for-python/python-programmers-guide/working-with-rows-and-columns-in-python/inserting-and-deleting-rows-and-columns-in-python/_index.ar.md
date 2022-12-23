@@ -10,10 +10,10 @@ description: استخدم Python Excel API لإنشاء جداول بيانات 
 ### **إدخال صف**
 أدخل صفًا في أي مكان باستدعاء طريقة insertRows للمجموعة Cells. تأخذ طريقة insertRows فهرس الصف حيث سيتم إدراج الصف الجديد كوسيطة أولى ، وعدد الصفوف التي سيتم إدراجها كوسيطة ثانية. فيما يلي الخطوات:
 
-- قم بتحميل مصنف XLS أو XLSX
+- قم بتحميل المصنف XLS أو XLSX
 - قم بالوصول إلى ورقة العمل
 - أدخل الصف
-- حفظ كمصنف XLS أو XLSX
+- احفظ كمصنف XLS أو XLSX
 
 **Python كود**
 
@@ -200,7 +200,7 @@ print "Delete Column Successfully."
 
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**إدارة الصفوف / الأعمدة (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

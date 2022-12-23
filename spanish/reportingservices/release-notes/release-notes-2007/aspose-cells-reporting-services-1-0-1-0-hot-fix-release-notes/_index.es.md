@@ -19,7 +19,7 @@ url: /es/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
  ¿Qué hay de nuevo?
 
 - Compatible con matriz de exportación
-- Compatible para exportar archivos CSV y TabDelimited
+- Admitido para exportar archivos CSV y TabDelimited
 - Apoyó la imagen de fondo.
 
  ¿Qué está arreglado?

@@ -6,7 +6,7 @@ url: /es/java/copying-and-moving-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Copiar y mover hojas de trabajo**
 ### **Copiar hojas de trabajo dentro de un libro de trabajo**
- Para copiar la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamar**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+ Para copiar la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamada**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
 
 **código rubí**
 
@@ -32,7 +32,7 @@ end 
 
 {{< /highlight >}}
 ### **Mover hojas de trabajo dentro de un libro de trabajo**
- Para mover la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamar**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+ Para mover la hoja de trabajo usando**Aspose.Cells for Java en rubí** , llamada**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
 
 **código rubí**
 

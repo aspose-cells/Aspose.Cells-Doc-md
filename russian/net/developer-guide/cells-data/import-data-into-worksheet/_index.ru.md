@@ -21,7 +21,7 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 ### **Образец кода**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
 
-Реализация*источник данных клиента*, *Покупатель*, а также*список клиентов* классы приведены ниже
+Реализация*источник данных клиента*, *Покупатель*, и*список клиентов* классы приведены ниже
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ICellsDataTableDataSourceForWorkbookDesigner-2.cs" >}}
 
@@ -30,7 +30,7 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 
  Чтобы импортировать данные в электронную таблицу из массива, вызовите метод[**ИмпортМассив**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index) метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Существует множество перегруженных версий[**ИмпортМассив**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importarray/index)метод, но типичная перегрузка принимает следующие параметры:
 
-- **Множество**, объект массива, из которого вы импортируете содержимое.
+- **Множество**, объект массива, из которого вы импортируете контент.
 - **Номер строки**номер строки первой ячейки, в которую будут импортированы данные.
 - **Номер столбца**, номер столбца первой ячейки, в которую будут импортированы данные.
 - **Вертикальный**, логическое значение, указывающее, следует ли импортировать данные вертикально или горизонтально.
@@ -66,7 +66,7 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 
 - **Таблица данных** ,*Таблица данных* объект, из которого вы импортируете содержимое.
 - **Показано ли имя поля** , указывает, будут ли имена*Таблица данных*столбцы должны быть импортированы на лист как первая строка или нет.
-- **Начальная ячейка** представляет имя начальной ячейки (например, «A1»), откуда импортируется содержимое*Таблица данных*.
+- **Начальная ячейка** , представляет имя начальной ячейки (например, «A1»), откуда импортируется содержимое*Таблица данных*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -114,20 +114,20 @@ Aspose.Cells предоставляет функции для работы с д
 
  Чтобы импортировать данные из*Вид сетки* контроль, звоните[**Импортгридвиев**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)коллекция.
 
-Aspose.Cells позволяет нам учитывать значения в формате HTML при импорте данных в электронную таблицу. Когда синтаксический анализ HTML включен при импорте данных, Aspose.Cells преобразует HTML в соответствующий формат ячейки.
+Aspose.Cells позволяет нам соблюдать форматированные значения HTML при импорте данных в электронную таблицу. Когда синтаксический анализ HTML включен при импорте данных, Aspose.Cells преобразует HTML в соответствующий формат ячейки.
 
 ## **Импорт данных в формате HTML**
 
- Aspose.Cells предоставляет[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)класс, предоставляющий очень полезные методы для импорта данных из внешних источников данных. В этой статье показано, как анализировать текст в формате HTML при импорте данных и преобразовывать HTML в форматированные значения ячеек.
+ Aspose.Cells предоставляет[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)класс, предоставляющий очень полезные методы для импорта данных из внешних источников данных. В этой статье показано, как анализировать форматированный текст HTML при импорте данных и преобразовывать HTML в форматированные значения ячеек.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
 ## **Импорт данных из JSON**
 
-Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) класс для обработки JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) класс имеет[**Импорт данных**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) метод импорта данных JSON. Aspose.Cells также предоставляет[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) класс, который представляет параметры макета JSON.[**Импорт данных**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)метод принимает[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)как параметр.[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)класс предоставляет следующие свойства.
+Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) класс обработки JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) класс имеет[**Импорт данных**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) метод импорта данных JSON. Aspose.Cells также предоставляет[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) класс, представляющий параметры макета JSON.[**Импорт данных**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)метод принимает[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)как параметр.[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)класс предоставляет следующие свойства.
 
 - [**Массив как таблица**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Указывает на то, что массив должен обрабатываться как таблица или нет.
-- [**КонвертироватьЧисловойОрДате**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Получает или задает значение, указывающее, следует ли преобразовать строку в формате JSON в числовую или дату.
+- [**КонвертироватьЧисловойОрДате**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Получает или задает значение, указывающее, следует ли преобразовать строку в JSON в число или дату.
 - [**Формат даты**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Получает и задает формат значения даты.
 - [**Игнораррайтитле**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): указывает, следует ли игнорировать заголовок, если свойство объекта является массивом
 - [**ИгнорироватьНулл**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Указывает, следует ли игнорировать нулевое значение.
@@ -135,7 +135,7 @@ Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspos
 - [**Формат номера**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): Получает и задает формат числового значения.
 - [**НазваниеСтиль**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): Получает и задает стиль заголовка.
 
-Пример кода, приведенный ниже, демонстрирует использование[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) а также[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) классы для импорта данных JSON.
+Пример кода, приведенный ниже, демонстрирует использование[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) и[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) классы для импорта данных JSON.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

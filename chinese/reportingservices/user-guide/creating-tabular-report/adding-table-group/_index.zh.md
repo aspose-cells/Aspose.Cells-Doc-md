@@ -10,7 +10,7 @@ url: /zh/reportingservices/adding-table-group/
 
 1）选中表格数据列第一列左边的分组标签单元格，表格数据行下方，如下图。
 
-![待办事项：图像_替代_文本](adding-table-group_1.png)
+![待办事项：图片_替代_文本](adding-table-group_1.png)
 
 
 
@@ -22,7 +22,7 @@ url: /zh/reportingservices/adding-table-group/
 
 
 
-![待办事项：图像_替代_文本](adding-table-group_2.png)
+![待办事项：图片_替代_文本](adding-table-group_2.png)
 
 
 
@@ -30,7 +30,7 @@ url: /zh/reportingservices/adding-table-group/
 
 
 
-![待办事项：图像_替代_文本](adding-table-group_3.png)
+![待办事项：图片_替代_文本](adding-table-group_3.png)
 
 
 
@@ -38,7 +38,7 @@ url: /zh/reportingservices/adding-table-group/
 
 
 
-![待办事项：图像_替代_文本](adding-table-group_4.png)
+![待办事项：图片_替代_文本](adding-table-group_4.png)
 
 
 
@@ -46,7 +46,7 @@ url: /zh/reportingservices/adding-table-group/
 
 
 
-![待办事项：图像_替代_文本](adding-table-group_5.png)
+![待办事项：图片_替代_文本](adding-table-group_5.png)
 
 
 

@@ -22,27 +22,27 @@ url: /de/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|Ignorieren Sie 3D-Referenzen für die bedingte Formatierung beim Kopieren in eine andere Arbeitsmappe|Erweiterung|
 |CELLSNET-49984|Lesen Sie einige Daten aus einer beschädigten XLS-Datei.|Erweiterung|
 |CELLSNET-49990|Unterstützung der Einstellung benutzerdefinierter Summenzeilenformeln der Tabelle.|Erweiterung|
-|CELLSNET-49825|Leistungsproblem mit dem ExportImagesAsBase64-Attribut bei der Excel-zu-HTML-Konvertierung|Leistung|
+|CELLSNET-49825|Leistungsproblem mit dem ExportImagesAsBase64-Attribut in Excel zu HTML-Konvertierung|Leistung|
 |CELLSNET-49827|RefersTo des definierten Bereichs wird fälschlicherweise maskiert|Insekt|
 |CELLSNET-49759|Leere Zellen werden weiterhin als leere XML-Elemente exportiert|Insekt|
 |CELLSNET-49817|Text wird beim Rendern in EMF nicht mittig auf die Schriftart „Credit Suisse Type Light“ ausgerichtet|Insekt|
-|CELLSNET-49864|Wörter, die in umgekehrter Reihenfolge für rechts-nach-links-Text in der XLSX-zu-PDF-Wiedergabe erscheinen|Insekt|
+|CELLSNET-49864|Wörter, die in umgekehrter Reihenfolge für Text von rechts nach links in der Wiedergabe von XLSX bis PDF erscheinen|Insekt|
 |CELLSNET-49873|Xlsx zu PDF: Der Seitenumbruch unterscheidet sich von Excel-generiertem PDF|Insekt|
 |CELLSNET-49922|Zeichen passen nicht auf eine Seite und die Druckposition wird in Excel auf PDF-Rendering geändert|Insekt|
-|CELLSNET-49998|Eine bestimmte XLS-Datei mit HTML-Markup kann nicht angezeigt werden|Insekt|
+|CELLSNET-49998|Bestimmte XLS-Datei mit HTML-Markup kann nicht angezeigt werden|Insekt|
 |CELLSNET-49742|Unterschiede in chart1.xml nach dem Speichern|Insekt|
-|CELLSNET-49875|XLSX zu EMF überlappende Teilstriche|Insekt|
-|CELLSNET-49904|Diagramm in PNG-Daten nicht richtig konvertiert|Insekt|
+|CELLSNET-49875|XLSX bis EMF überlappende Teilstriche|Insekt|
+|CELLSNET-49904|Diagramm bis PNG Daten nicht richtig konvertiert|Insekt|
 |CELLSNET-49905|Regression: Problem beim Konvertieren des Diagramms in PNG|Insekt|
-|CELLSNET-49969|Überlauffehler beim Speichern des XLS-Dokuments in XLSX/XSLM|Insekt|
+|CELLSNET-49969|Überlauffehler beim Speichern des Dokuments XLS in XLSX/XSLM|Insekt|
 |CELLSNET-49760|Der zusammengeführte Bereich wird beim Konvertieren in HTML falsch angezeigt.|Insekt|
 |CELLSNET-49789|Das Excel-Originalraster sollte beim Speichern der HTML-Datei nicht geändert werden|Insekt|
 |CELLSNET-49850|Bild: FitToCell-Parameter funktioniert nicht in Bild-Smart-Markern|Insekt|
 |CELLSNET-49870|Die Kopfzeile wird breiter, wenn mehrere Blätter in Excel-Tabellen kombiniert werden|Insekt|
 |CELLSNET-49898|Zeigen Sie den Rand der Zellen an, während Sie Bilder mit Smart Markers an die Zellen anpassen|Insekt|
-|CELLSNET-49924|Aspose generierte XLSX-Dateien werden mit Fehler geöffnet|Insekt|
+|CELLSNET-49924|Aspose-generierte XLSX-Dateien werden mit Fehler geöffnet|Insekt|
 |CELLSNETCORE-301|Arbeitsblatt hinzufügen schlägt fehl, wenn Hyperlink eine Nulladresse hat|Insekt|
-|CELLSNET-49812|Ausnahme beim Öffnen einer ODS-Datei|Ausnahme|
+|CELLSNET-49812|Ausnahme beim Öffnen der Datei ODS|Ausnahme|
 |CELLSNET-49876|Ausnahme beim erneuten Speichern einer XLSX-Datei|Ausnahme|
 |CELLSNET-49943|System.NullReferenceException beim Kopieren der Arbeitsmappe|Ausnahme|
 |

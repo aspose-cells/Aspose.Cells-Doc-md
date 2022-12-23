@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42838|Désactivation de la propriété d'affichage automatique du volet des tâches.|Nouvelle fonctionnalité|
 |CELLSJAVA-42853|Problème de performances lors de la conversion de XLSX en HTML|Renforcement|
@@ -19,15 +19,15 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42856|Problème Excel vers HTML|Punaise|
 |CELLSJAVA-42872|Image de la feuille, les lignes de droite et du bas sont manquantes|Punaise|
 |CELLSJAVA-42873|La feuille préconditionnée comporte plusieurs arrière-plans de cellules et du texte manquant et est masquée.|Punaise|
-|CELLSJAVA-42874|Perte de colonne lors de l'export d'un fichier en HTML|Punaise|
+|CELLSJAVA-42874|Perte de colonne lors de l'export d'un fichier vers HTML|Punaise|
 |CELLSJAVA-42875|La largeur est incorrecte et l'affichage est déformé|Punaise|
 |CELLSJAVA-42878|Le résultat des formules de calcul n'est pas correct|Punaise|
-|CELLSJAVA-40419|Impossible de créer un PDF balisé lors de l'exportation d'Excel vers PDF|Punaise|
-|CELLSJAVA-40570|Conversion erronée en PDF et JPG pour des pages de tailles différentes|Punaise|
+|CELLSJAVA-40419|Impossible de créer la balise PDF lors de l'exportation d'Excel vers PDF|Punaise|
+|CELLSJAVA-40570|Mauvaise conversion en PDF et JPG pour des pages de tailles différentes|Punaise|
 |CELLSJAVA-42833|Problème lors de l'intégration du même fichier PDF dans plusieurs feuilles d'un classeur|Punaise|
 |CELLSJAVA-42858|Problème lors de l'ajout d'une image à des cellules fusionnées à l'aide de marqueurs intelligents avec l'option Picture:FitToCell|Punaise|
 |CELLSJAVA-42862|Le nom de la feuille est renommé dans les formules après l'importation CSV|Punaise|
-|CELLSJAVA-42865|Mauvaise heure de lecture d'une cellule dans le fichier ODS|Punaise|
+|CELLSJAVA-42865|Mauvaise heure lue à partir d'une cellule dans le fichier ODS|Punaise|
 |CELLSJAVA-42879|Le fichier Excel est corrompu après avoir été enregistré par Aspose.Cells|Punaise|
 |CELLSJAVA-42860|java.lang.NullPointerException lors du chargement d'un format de fichier ODS|Exception|
 |CELLSJAVA-42871|java.lang.Exception : clone non pris en charge pour le flux sauvegardé lors de la conversion de XLSX en PDF|Exception|
@@ -66,4 +66,4 @@ Représente les commentaires thématiques sur le commentaire.
 ### **Ajoutez les méthodes CommentCollection.AddThreadedComment() et CommentCollection.GetThreadedComments().**
 Ajoute et obtient les commentaires filetés.
 ### **Ajoutez la propriété Chart.SubTitle.**
-Obtient le sous-titre du graphique. Uniquement pour les fichiers au format ODS.
+Obtient le sous-titre du graphique. Uniquement pour le fichier au format ODS.

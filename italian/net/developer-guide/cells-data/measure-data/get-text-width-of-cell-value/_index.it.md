@@ -12,6 +12,6 @@ Il file di origine utilizzato nel seguente frammento di codice è allegato come 
 
 [File sorgente](96928090.xlsx)
 
-## Codice di esempio
+## Codice d'esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-GetTextWidth-1.cs" >}}

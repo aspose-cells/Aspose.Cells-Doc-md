@@ -9,7 +9,7 @@ url: /ar/java/copy-sheet-within-workbook/
 
 1. لنقل الأوراق أو نسخها داخل المصنفات أو بينها ، افتح المصنف الذي سيتلقى الأوراق.
 1. قم بالتبديل إلى المصنف الذي يحتوي على الأوراق التي تريد نقلها أو نسخها ، ثم حدد الأوراق.
-1.  على ال**يحرر** القائمة ، انقر فوق**نقل أو نسخ الورقة**.
+1.  على ال**تعديل** القائمة ، انقر فوق**نقل أو نسخ الورقة**.
 1. في مربع الكتاب ، انقر فوق المصنف لتلقي الأوراق.
 1.  لنقل الأوراق المحددة أو نسخها إلى مصنف جديد ، انقر فوق "موافق"**كتاب جديد**.
 1.  في ال**قبل الورقة** في المربع ، انقر فوق الورقة التي تريد إدراج الأوراق المنقولة أو المنسوخة قبلها.
@@ -64,7 +64,7 @@ wb.createSheet("second sheet");
 Sheet cloneSheet = wb.cloneSheet(0);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / workheets / copysheetwithinworkbook)

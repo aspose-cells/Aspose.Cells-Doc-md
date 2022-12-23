@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **メソッド Chart.toPdf が追加されました**
-Aspose.Cells for Java 8.6.2 では、Chart シェイプを PDF 形式に直接レンダリングするために使用できる Chart.toPdf メソッドが公開されています。上記のメソッドは現在、結果のファイルをディスクに保存するためのファイル パスの場所として String 型のパラメーターを受け入れます。
+Aspose.Cells for Java 8.6.2 は、Chart 形状を PDF 形式に直接レンダリングするために使用できる Chart.toPdf メソッドを公開しました。上記のメソッドは現在、結果のファイルをディスクに保存するためのファイル パスの場所として String 型のパラメーターを受け入れます。
 
 以下は、簡単な使用シナリオです。
 

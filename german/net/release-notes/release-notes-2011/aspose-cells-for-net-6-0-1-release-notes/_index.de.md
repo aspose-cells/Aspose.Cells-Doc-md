@@ -40,7 +40,7 @@ url: /de/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28399 ROUND-Funktion von Aspose.Cells ergibt einen anderen Wert als MS Excel
 
- 28523 INDIREKTE Formel funktioniert nicht, wenn sie im XLSB-Format generiert wird
+ 28523 INDIREKTE Formel funktioniert nicht, wenn sie im Format XLSB generiert wird
 
  28624 #Rekursive Referenz! Das Ergebnis wird aus der Formel erhalten
 
@@ -50,15 +50,15 @@ url: /de/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28571 Verdrängte Zellen in HTML
 
- 24963 Bild wird in der PDF-Ausgabe mit transparentem Hintergrund gerendert
+ 24963 Bild mit transparentem Hintergrund in PDF-Ausgabe gerendert
 
  28697 Wasserzeichenproblem beim Konvertieren in PDF
 
- 28610 Objektgruppe verschwindet beim Konvertieren von Excel in PDF
+ 28610 Objektgruppe verschwindet beim Konvertieren von Excel nach PDF
 
  28815 Falsche Konvertierung von XLS nach PDF
 
- 28960 Text wird beim Konvertieren in PDF abgeschnitten
+ 28960 Text wird abgeschnitten, wenn er in PDF konvertiert wird
 
  28930 Text in Zellen wird beim Konvertieren in PDF abgeschnitten
 
@@ -66,21 +66,21 @@ url: /de/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28352 Pivot-Tabelle - zusätzliche Zusammenfassungsspalte erstellt
 
- 28751 Aktualisieren der Pivot-Tabellenfunktion
+28751 Aktualisieren der Pivot-Tabellenfunktion
 
  28489 Problem beim Konvertieren einer leeren XLSX-Datei in TIFF
 
-29058 Darstellungsproblem
+ 29058 Darstellungsproblem
 
  28929 Abrufen von Bitmap- oder Papiergröße von SheetRender API Fehler
 
  24912 Beim Speichern von XLSB mit Datenfiltern wird ein ungültiger benannter Bereich hinzugefügt
 
- 28782 Problem bei der XLSB-Generierung, wenn das Arbeitsblatt eine Datenvalidierung enthält
+ 28782 XLSB Generierungsproblem, wenn das Arbeitsblatt eine Datenvalidierung enthält
 
- 28714 Ein Problem mit dem XLSB-Dateiformat
+ 28714 Ein Problem mit dem Dateiformat XLSB
 
- 28659 Beschädigung der Arbeitsmappe für das XLSM-Format
+ 28659 Beschädigung der Arbeitsmappe für das Format XLSM
 
  28690 Das Importieren einer Arbeitsmappe verursacht ein Problem mit der Rahmenformatierung
 
@@ -96,12 +96,12 @@ url: /de/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Fehler**
  29289 Renderproblem mit vertikaler Bildlaufleiste beim Filtern von Zeilen
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 ### **Neue Eigenschaften**
- 26751 Diagramme und Formen aus Excel-Datei importieren
+26751 Diagramme und Formen aus Excel-Datei importieren
 ### **Verbesserungen**
  28964 Exportieren Sie mehr als 256 Spalten in Excel 2007-Dateien
 
-26751 Rendern Sie Formbilder im EMF-Format anstelle des JPEG-Formats
+ 26751 Rendern Sie Formbilder im Format EMF statt im Format JPEG
 ### **Fehler**
  28808 Saitenbreite messen

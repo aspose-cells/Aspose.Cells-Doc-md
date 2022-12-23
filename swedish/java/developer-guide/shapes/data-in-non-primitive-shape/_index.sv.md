@@ -10,7 +10,7 @@ Ibland behöver du komma åt data från en form som inte är inbyggd. Inbyggda f
 
 ## **En icke-primitiv form**
 
- I Aspose.Cells tilldelas icke-primitiva former typen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Du kan kontrollera deras typ med hjälp av[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)metod.
+ Aspose.Cells tilldelas icke-primitiva former typen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Du kan kontrollera deras typ med hjälp av[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)metod.
 
  Få åtkomst till formdata med hjälp av[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)metod. Den returnerar alla anslutna banor som utgör den icke-primitiva formen. Dessa banor är av typen ShapePath som innehåller en lista över alla segment som i sin tur innehåller punkterna i varje segment.
 

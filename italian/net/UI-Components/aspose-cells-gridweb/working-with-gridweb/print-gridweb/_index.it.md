@@ -6,7 +6,7 @@ url: /it/net/print-gridweb/
 ---
 {{% alert color="primary" %}} 
 
-Ci sono momenti in cui gli sviluppatori devono stampare i contenuti di GridWeb da una pagina web senza salvare il risultato come file di foglio di calcolo di Microsoft Excel. Il controllo Aspose.Cells.GridWeb supporta questa funzionalità tramite la funzione lato client.
+Ci sono momenti in cui gli sviluppatori devono stampare i contenuti di GridWeb da una pagina web senza salvare il risultato come file di foglio di calcolo Excel Microsoft. Il controllo Aspose.Cells.GridWeb supporta questa funzionalità tramite la funzione lato client.
 
 {{% /alert %}} 
 ## **Stampa GridWeb**
@@ -18,7 +18,7 @@ Per stampare i contenuti, Aspose.Cells.GridWeb for .NET ha esposto la funzione l
 
 
 
-Una volta che la funzione JavaScript è a posto, può essere attivata su qualsiasi evento di scelta. Controlla il seguente frammento di codice ASP.NET che utilizza la funzione JavaScript sopra definita su un evento di clic del pulsante.
+Una volta che la funzione JavaScript è a posto, può essere attivata su qualsiasi evento di scelta. Controlla il seguente frammento ASP.NET che utilizza la funzione JavaScript sopra definita su un evento di clic del pulsante.
 
 
 

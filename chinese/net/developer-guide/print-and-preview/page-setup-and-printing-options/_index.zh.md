@@ -22,7 +22,7 @@ url: /zh/net/page-setup-and-printing-options/
 
 |**输出文件。**|
 |:- |
-|![待办事项：图像_替代_文本](page-setup-and-printing-options_1.png)|
+|![待办事项：图片_替代_文本](page-setup-and-printing-options_1.png)|
 
 1. 在 Microsoft Excel 中创建包含一些数据的工作表：
  1.在Microsoft Excel中打开一个新的工作簿。
@@ -32,7 +32,7 @@ url: /zh/net/page-setup-and-printing-options/
 
 |**默认页面设置选项。**|
 |:- |
-|![待办事项：图像_替代_文本](page-setup-and-printing-options_2.png)|
+|![待办事项：图片_替代_文本](page-setup-and-printing-options_2.png)|
 
 1. 下载并安装 Aspose.Cells：
    1. [下载](https://downloads.aspose.com/cells/net) .Net 的 Aspose.Cells。
@@ -66,11 +66,11 @@ url: /zh/net/page-setup-and-printing-options/
 
 |**输入文档**|
 |:- |
-|![待办事项：图像_替代_文本](page-setup-and-printing-options_3.png)|
+|![待办事项：图片_替代_文本](page-setup-and-printing-options_3.png)|
 执行代码会更改打印选项。
 
 |**输出文件**|
 |:- |
-|![待办事项：图像_替代_文本](page-setup-and-printing-options_4.png)|
+|![待办事项：图片_替代_文本](page-setup-and-printing-options_4.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}

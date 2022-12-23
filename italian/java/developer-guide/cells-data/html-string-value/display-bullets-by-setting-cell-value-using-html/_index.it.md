@@ -3,12 +3,12 @@ title: Visualizza elenchi puntati impostando il valore Cell utilizzando HTML
 type: docs
 weight: 120
 url: /it/java/display-bullets-by-setting-cell-value-using/
-description: Scopri come aggiungere elenchi puntati a Excel Cells utilizzando HTML e Aspose.Cells for Java API.
+description: Scopri come aggiungere punti elenco a Excel Cells utilizzando HTML e Aspose.Cells for Java API.
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells ora supporta la visualizzazione di elenchi puntati con codice HTML. Questo articolo spiegherà come visualizzare i punti elenco impostando il valore della cella utilizzando HTML. Noi useremo[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) property per impostare il valore della cella con il nostro codice HTML.
+ Aspose.Cells ora supporta la visualizzazione di elenchi puntati con il codice HTML. Questo articolo spiegherà come visualizzare i punti elenco impostando il valore della cella utilizzando HTML. Useremo[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) proprietà per impostare il valore della cella con il nostro HTML.
 
 {{% /alert %}}
 
@@ -26,4 +26,4 @@ Lo screenshot seguente mostra l'output del codice di esempio precedente.
 
 ## articoli Correlati
 
-- [Aggiunta di HTML Rich Text all'interno del Cell](/cells/it/java/adding-html-rich-text-inside-the-cell/)
+- [Aggiunta di HTML Rich Text all'interno di Cell](/cells/it/java/adding-html-rich-text-inside-the-cell/)

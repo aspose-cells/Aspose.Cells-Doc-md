@@ -16,7 +16,7 @@ Bir yazılım uygulamasındaki endişeleri ayırmanın bir yolu, Model-Görünü
 Aspose.Cells for Java, doğrudan Java içinde çok çeşitli belge işleme görevlerini gerçekleştirmenizi sağlayan gelişmiş bir sınıf kitaplığıdır for Java
 uygulamalar.
 
-Aspose.Cells for Java, Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF ve tüm resim formatlarının işlenmesini destekler. Aspose.Cells ile yapabilirsiniz
+Aspose.Cells for Java, Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF ve tüm görüntü biçimlerinin işlenmesini destekler. Aspose.Cells ile yapabilirsiniz
 Microsoft Cells kullanmadan belgeler oluşturun, değiştirin ve dönüştürün.
 ## **sistem gereksinimleri**
 **Struts 1.3 web uygulaması için Aspose.Cells Java sistem gereksinimleri aşağıdadır:**

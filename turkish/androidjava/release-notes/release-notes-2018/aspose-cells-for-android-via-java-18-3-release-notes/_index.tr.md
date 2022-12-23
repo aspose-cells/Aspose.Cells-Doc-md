@@ -20,40 +20,40 @@ Bu sayfa Aspose.Cells for Android via Java 18.3 için sürüm notları içerir.
 |CELLSJAVA-42543|Excel dosyasına gömülü Paket Nesneleri için ayarlanabilen etiket adını ayıklayın|Yeni özellik|
 |CELLSJAVA-42510|Filtre uygulandığında Microsoft Excel 2013 ve 2016'da çok yavaş filtreleme gözlemleyin|Artırma|
 |CELLSJAVA-42464|Tüm ActiveX denetimleri için gerekli düzeltme|Artırma|
-|CELLSJAVA-42490|Excel dosyasını HTML'ye dışa aktarırken kullanılmayan stilleri hariç tutun (ana sorun kimliği: CELLSJAVA-42471)|Artırma|
+|CELLSJAVA-42490|Excel dosyasını HTML'e dışa aktarırken kullanılmayan stilleri hariç tutun (üst sorun kimliği: CELLSJAVA-42471)|Artırma|
 |CELLSJAVA-42529|DrawObjectEventHandler aracılığıyla çalışma sayfası şekillerini belirleme|Artırma|
 |CELLSJAVA-42558|Yatay kategori ekseni etiket öğelerine erişilemiyor|Artırma|
 |CELLSJAVA-42473|Görüntülerin bazı bölümleri kesik veya eksik ve orijinal kaynak görüntülerle eşleşmiyor|Böcek|
-|CELLSJAVA-42469|Görüntü, çıktı PDF'sindeki şekilden dışarı çıkıyor|Böcek|
-|CELLSJAVA-42461|Çıktı HTML'sinde öğe şekli yanlış|Böcek|
+|CELLSJAVA-42469|Görüntü, PDF çıktısındaki şekilden dışarı çıkıyor|Böcek|
+|CELLSJAVA-42461|HTML çıktısında öğe şekli yanlış|Böcek|
 |CELLSJAVA-42495|Excel'den Html'ye - Metni kaydırma yoksayılır|Böcek|
 |CELLSJAVA-42489|XLSB dosyası açıldıktan ve kaydedildikten sonra bozuluyor|Böcek|
 |CELLSJAVA-42487|HTML çıktı tutarsızlığı - Boşluklarla ilgili sorun|Böcek|
-|CELLSJAVA-42471|HTML'ye kaydederken dahil edilen alakasız veriler|Böcek|
-|CELLSJAVA-42467|Yeniden kaydettikten sonra XLSB bozuldu|Böcek|
+|CELLSJAVA-42471|HTML'e kaydederken dahil edilen alakasız veriler|Böcek|
+|CELLSJAVA-42467|XLSB, yeniden kaydettikten sonra bozuldu|Böcek|
 |CELLSJAVA-42488|15 basamaklı sayılar MS Excel'dekilerle eşleşmiyor|Böcek|
-|CELLSJAVA-42499|Çıktı PDF'sini (Aspose.Cells'e göre) MS Excel tarafından oluşturulan PDF ile karşılaştırırken kenar boşlukları ve düzen farklılıkları|Böcek|
+|CELLSJAVA-42499|PDF çıktısı (Aspose.Cells'e göre) MS Excel tarafından oluşturulan PDF ile karşılaştırılırken kenar boşlukları ve düzen farklılıkları|Böcek|
 |CELLSJAVA-42486|Özellik Java'de çalışmıyor - ResultSet|Böcek|
 |CELLSJAVA-42497|Sheet1 şekilleri kayboluyor ve Sheet2'deki Yıldızlar yuvarlanıyor|Böcek|
 |CELLSJAVA-42512|Geçersiz kodlama - Excel dosyası yüklenirken istisna oluşuyor|Böcek|
 |CELLSJAVA-42507|Makro ve İletişim Sayfaları normal çalışma sayfaları olarak algılanır|Böcek|
 |CELLSJAVA-42503|MS Excel, XLS dosyasının tekrar kaydedilmesine izin vermiyor|Böcek|
 |CELLSJAVA-42502|Aspose.Cells, verileri doğru şekilde filtrelemiyor, bunun yerine tüm satırları gizliyor|Böcek|
-|CELLSJAVA-42552|Çıktı HTML'si Excel ile eşleşmiyor|Böcek|
+|CELLSJAVA-42552|HTML çıktısı Excel ile eşleşmiyor|Böcek|
 |CELLSJAVA-42536|Aspose.Cells API'leri tarafından açıldıktan/kaydedildikten sonra bozulan Excel dosyaları|Böcek|
-|CELLSJAVA-42513|Bir aralık için çıktı HTML'sindeki her satırın sonuna fazladan sütunlar geliyor|Böcek|
+|CELLSJAVA-42513|Bir aralık için HTML çıktısında her satırın sonuna fazladan sütunlar geliyor|Böcek|
 |CELLSJAVA-42542|Excel dosyası bozuk ve kaydettikten sonra bazı hücreler değişti|Böcek|
 |CELLSJAVA-42524|Hesaplama hataları, KD020 adlı gizli sayfada mevcuttur.|Böcek|
 |CELLSJAVA-42514|ResultSet çalışma sayfasına aktarılırken ImportTableOptions.setInsertRows() çalışmıyor|Böcek|
 |CELLSJAVA-42505|Excel dosyasını GridWeb'e aktarırken hücrelere (şablon dosyasındaki) eklenen yorumlar gösterilmez|Böcek|
 |CELLSJAVA-42520|ImageOrPrintOptions.DrawObjectEventHandler tarafından bildirilen tutarsız hücre koordinatları|Böcek|
-|CELLSJAVA-42518|Çıktı PDF'sinde satırların kenarları yanlış hizalanmış|Böcek|
+|CELLSJAVA-42518|PDF çıktısında satırların kenarları yanlış hizalanmış|Böcek|
 |CELLSJAVA-42561|Excel grafiğinin PNG çıktısında X Ekseni ölçeği yanlış|Böcek|
-|CELLSJAVA-42556|Çıkış PDF'sinde grafiğin oluşturulması doğru değil|Böcek|
-|CELLSJAVA-42547|XLSX'i ODS'ye dönüştürürken grafik Kırmızı X ile değiştirilir|Böcek|
-|CELLSJAVA-42546|ODS'yi XLSX'e dönüştürürken kaybolan görüntüler|Böcek|
-|CELLSJAVA-42538|Özellikler, XLS ve XLSX dosyalarından çıkarılmaz|Böcek|
-|CELLSJAVA-42534|XLS'yi XLSB'ye kaydetmek allowEditRanges'i kaldırır|Böcek|
+|CELLSJAVA-42556|PDF çıktısında grafiğin işlenmesi doğru değil|Böcek|
+|CELLSJAVA-42547|XLSX'i ODS'e dönüştürürken tablo Kırmızı X ile değiştirilir|Böcek|
+|CELLSJAVA-42546|ODS'i XLSX'e dönüştürürken görüntüler kayboldu|Böcek|
+|CELLSJAVA-42538|Özellikler XLS ve XLSX dosyalarından çıkarılmaz|Böcek|
+|CELLSJAVA-42534|XLS'i XLSB'e kaydetmek allowEditRanges'i kaldırır|Böcek|
 |CELLSJAVA-42533|SmartArt şekli metni ayıklanırken "NullPointerException" istisnası oluştu|Böcek|
 |CELLSJAVA-42532|Makale Kodu - WorkbookSetting.StreamProvider kullanarak Harici Kaynakları Kontrol Etme - çalışmıyor for Java|Böcek|
 |CELLSJAVA-42525|Makale Kodu - Verileri Çalışma Sayfasına Aktarırken Formül Alanlarını Belirtin - çalışmıyor for Java|Böcek|

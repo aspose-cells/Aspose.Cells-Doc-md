@@ -1,13 +1,13 @@
 ﻿---
-title: Stellen Sie den HTML-Dateipfad des exportierten Arbeitsblatts über die IFilePathProvider-Schnittstelle bereit
+title: Geben Sie den Dateipfad des exportierten Arbeitsblatts HTML über die IFilePathProvider-Schnittstelle an
 type: docs
 weight: 870
 url: /de/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Mögliche Nutzungsszenarien**
  Angenommen, Sie haben eine Excel-Datei mit mehreren Blättern und möchten jedes Blatt in eine einzelne HTML-Datei exportieren. Wenn eines Ihrer Blätter Links zu anderen Blättern enthält, werden diese Links im exportierten HTML unterbrochen. Um dieses Problem zu lösen, bietet Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)Schnittstelle, die Sie implementieren können, um die defekten Links zu reparieren.
-## **Stellen Sie den HTML-Dateipfad des exportierten Arbeitsblatts über die IFilePathProvider-Schnittstelle bereit**
- Bitte laden Sie die herunter[Excel-Beispieldatei](5473417.zip) wird im folgenden Code und den exportierten HTML-Dateien verwendet. Alle diese Dateien befinden sich in der*Temp* Verzeichnis. Sie sollten es extrahieren*C:* Fahrt. Dann wird es*C:\Temp*Verzeichnis. Dann öffnen Sie die*Blatt1.html* Datei im Browser und klicken Sie auf die beiden darin enthaltenen Links. Diese Links verweisen auf diese beiden exportierten HTML-Arbeitsblätter, die sich in der befinden*C:\Temp\OtherSheets*Verzeichnis.
+## **Geben Sie den Dateipfad des exportierten Arbeitsblatts HTML über die IFilePathProvider-Schnittstelle an**
+ Bitte laden Sie die herunter[Excel-Beispieldatei](5473417.zip) wird im folgenden Code und seinen exportierten HTML-Dateien verwendet. Alle diese Dateien befinden sich in der*Temp* Verzeichnis. Sie sollten es extrahieren*C:* Fahrt. Dann wird es*C:\Temp* Verzeichnis. Dann öffnen Sie die*Blatt1.html* Datei im Browser und klicken Sie auf die beiden darin enthaltenen Links. Diese Links verweisen auf diese beiden exportierten HTML-Arbeitsblätter, die sich in der*C:\Temp\OtherSheets*Verzeichnis.
 
 {{< highlight "java" >}}
 
@@ -21,11 +21,11 @@ Der folgende Screenshot zeigt, wie die*C:\Temp\Tabelle1.html*und seine Links aus
 
 ![todo: Bild_alt_Text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Der folgende Screenshot zeigt die HTML-Quelle. Wie Sie sehen können, beziehen sich die Links jetzt darauf*C:\Temp\OtherSheets* Verzeichnis. Dies wurde mit Hilfe von erreicht[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)Schnittstelle.
+ Der folgende Screenshot zeigt die Quelle HTML. Wie Sie sehen können, beziehen sich die Links jetzt darauf*C:\Temp\OtherSheets* Verzeichnis. Dies wurde mit Hilfe von erreicht[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)Schnittstelle.
 
 ![todo: Bild_alt_Text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Beispielcode**
- bitte beachten Sie*C:\Temp* Verzeichnis dient nur der Veranschaulichung. Sie können ein beliebiges Verzeichnis Ihrer Wahl und Ihres Ortes verwenden[Excel-Beispieldatei](5473414.xlsx) darin und führen Sie den bereitgestellten Beispielcode aus. Es wird dann erstellt*AndereBlätter* Unterverzeichnis in Ihrem Verzeichnis und exportieren Sie das zweite und dritte HTML-Arbeitsblatt darin. Bitte ändern Sie die*dirPfad*-Variable innerhalb des bereitgestellten Codes und verweisen Sie sie vor der Ausführung auf das Verzeichnis Ihrer Wahl.
+ bitte beachten Sie*C:\Temp* Verzeichnis dient nur der Veranschaulichung. Sie können ein beliebiges Verzeichnis Ihrer Wahl und Ihres Ortes verwenden[Excel-Beispieldatei](5473414.xlsx) darin und führen Sie den bereitgestellten Beispielcode aus. Es wird dann erstellt*AndereBlätter* Unterverzeichnis in Ihrem Verzeichnis und exportieren Sie das zweite und dritte Arbeitsblatt HTML darin. Bitte ändern Sie die*dirPfad*-Variable innerhalb des bereitgestellten Codes und verweisen Sie sie vor der Ausführung auf das Verzeichnis Ihrer Wahl.
 
 {{% alert color="primary" %}} 
 

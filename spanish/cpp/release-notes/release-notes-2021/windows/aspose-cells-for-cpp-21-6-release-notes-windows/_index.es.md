@@ -13,5 +13,5 @@ Esta página contiene notas de la versión para Aspose.Cells for C++ 21.6 para W
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSCPP-292| Optimizar los resultados de búsqueda en nuget|Mejora|
-|CELLSCPP-283| Arreglar el error del constructor ArrayList|Insecto|
-|CELLSCPP-284|Problema de inicialización de PathHelper|Insecto|
+|CELLSCPP-283|Arreglar el error del constructor ArrayList|Insecto|
+|CELLSCPP-284| Problema de inicialización de PathHelper|Insecto|

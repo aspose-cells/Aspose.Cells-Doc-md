@@ -11,6 +11,6 @@ url: /fr/net/using-workbookmetadata/
 
 {{% /alert %}}
 
- L'exemple de code suivant utilise[**Métadonnées du classeur**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) classe pour modifier les propriétés de document personnalisées d'un classeur. Une fois que vous avez ouvert le classeur à l'aide de[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, vous pourrez lire les propriétés du document. Voici un exemple de code utilisant le[**Métadonnées du classeur**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)classer.
+ L'exemple de code suivant utilise[**Métadonnées du classeur**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) classe pour modifier les propriétés de document personnalisées d'un classeur. Une fois que vous avez ouvert le classeur à l'aide de[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, vous pourrez lire les propriétés du document. Voici un exemple de code utilisant le[**Métadonnées du classeur**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)classe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}

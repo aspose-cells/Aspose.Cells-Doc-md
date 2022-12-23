@@ -22,7 +22,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 ## **Nuevas características**
 
 
-(CELLSNET-42761): eliminación de escenarios de las hojas de trabajo
+ (CELLSNET-42761): eliminación de escenarios de las hojas de trabajo
 
 
 ## **Insectos**
@@ -32,19 +32,19 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42387) - El texto se movió fuera del banner.
 
- (CELLSNET-42385) - La forma del conector curvo no aparece al renderizar XLSX a PDF
+ (CELLSNET-42385): la forma del conector curvo no aparece al renderizar XLSX a PDF
 
  (CELLSNET-42379) - El texto de Matrix se muestra diferente
 
  (CELLSNET-42752) - Los subtotales de la tabla dinámica tienen una combinación de celdas incorrecta
 
- (CELLSNET-42703): la conversión de la hoja de cálculo con tabla dinámica a PDF presenta problemas relacionados con el estilo.
+ (CELLSNET-42703): la conversión de la hoja de cálculo que tiene una tabla dinámica a PDF tiene problemas relacionados con el estilo.
 
  (CELLSNET-42386) - La función GetPivotData calcula el valor erróneo
 
- (CELLSNET-42742) - Aspose.Cells incrusta fuentes incorrectas en el PDF
+ (CELLSNET-42742) - Aspose.Cells incrusta fuentes incorrectas en PDF
 
- (CELLSNET-42697) - El encabezado se duplica en el pdf de salida
+(CELLSNET-42697) - El encabezado se duplica en el pdf de salida
 
  (CELLSNET-42759) - Las etiquetas del eje X del gráfico están recortadas
 
@@ -52,9 +52,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42750) - Las flechas se muestran reflejadas en un eje vertical
 
-(CELLSNET-42748) - Las líneas de la leyenda son más delgadas que en Excel
+ (CELLSNET-42748) - Las líneas de la leyenda son más delgadas que en Excel
 
- (CELLSNET-42730): XLSM a PDF tiende a bloquearse cuando se realizan cambios en el valor y formato Cell
+ (CELLSNET-42730) - XLSM a PDF tiende a bloquearse cuando se realizan cambios en el valor y formato Cell
 
  (CELLSNET-42381) - La lista de viñetas no se imprime correctamente en el encabezado de la lista
 
@@ -66,11 +66,11 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42725) - La imagen insertada pierde el tamaño original
 
- (CELLSNET-42716) - Cintas XLSM perdidas después de volver a guardar el archivo XLSM
+ (CELLSNET-42716) - XLSM Cintas perdidas después de volver a guardar el archivo XLSM
 
- (CELLSNET-42711): Row.ApplyStyle no funciona correctamente
+(CELLSNET-42711): Row.ApplyStyle no funciona correctamente
 
- (CELLSNET-42708): el color de fondo verde de las celdas desaparece en HTML
+ (CELLSNET-42708) - El color de fondo verde de las celdas desaparece en HTML
 
  (CELLSNET-42695) - Error de vista protegida en archivo de MS Excel - Se requiere investigación
 
@@ -80,7 +80,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42782) - System.FormatException al leer el archivo xlsx
 
-(CELLSNET-42758): la conversión especificada no es una excepción válida en Cell.GetDisplayStyle()
+ (CELLSNET-42758): la conversión especificada no es una excepción válida en Cell.GetDisplayStyle()
 
  (CELLSNET-42724): se produjo StackOverflowException al llamar al método Worksheet/Workbook.CalculateFormula()
 

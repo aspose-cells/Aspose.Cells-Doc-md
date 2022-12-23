@@ -24,7 +24,7 @@ Vi är
  Undantag
 
 - Cell.setHtmlString()-metoden kastar NullPointerException
-- Läsning av en XLSX-mall ger NullPointerException
+- Readingan XLSX mall filethrows NullPointerException
 
  Buggar
 
@@ -32,5 +32,5 @@ Vi är
 - Innehållet i Textbox har inte renderats korrekt
 - RUNDA-funktionen kan inte avrunda ett värde som är större än 922337,20
 - Diagrammet lästes inte korrekt från ODStemplate-filen
-- Anpassat nummerformat: "dd.MM.åååå" sparades inte korrekt för ODS-filen
+- Anpassat nummerformat: "dd.MM.åååå" sparades inte korrekt för filen ODS
 - LineShape blir kortare i det genererade PDF-dokumentet

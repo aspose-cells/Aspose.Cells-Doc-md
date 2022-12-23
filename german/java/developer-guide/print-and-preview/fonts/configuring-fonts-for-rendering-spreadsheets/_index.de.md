@@ -6,7 +6,7 @@ url: /de/java/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformaten zu rendern und sie in PDF- und XPS-Formate zu konvertieren. Um die Konvertierungstreue zu maximieren, müssen die in der Tabelle verwendeten Schriftarten im Standardverzeichnis für Schriftarten des Betriebssystems verfügbar sein. Falls die erforderlichen Schriftarten nicht vorhanden sind, versuchen die Aspose.Cells-APIs, die erforderlichen Schriftarten durch die verfügbaren zu ersetzen.
+Aspose.Cells-APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformaten zu rendern und sie in die Formate PDF und XPS zu konvertieren. Um die Konvertierungstreue zu maximieren, müssen die in der Tabelle verwendeten Schriftarten im Standardverzeichnis für Schriftarten des Betriebssystems verfügbar sein. Falls die erforderlichen Schriftarten nicht vorhanden sind, versuchen die Aspose.Cells-APIs, die erforderlichen Schriftarten durch die verfügbaren zu ersetzen.
 
 ## **Auswahl an Schriftarten**
 
@@ -21,7 +21,7 @@ Unten ist der Prozess, dem Aspose.Cells-APIs hinter den Kulissen folgen.
 
 {{% alert color="primary" %}}
 
- Die Aspose.Cells-APIs scannen immer das Standardschriftverzeichnis des Betriebssystems mit einer Ausnahme, das heißt; wenn JVM argumentiert**-DAspose.Cells.FontDirExc="YourFontDir"** eingestellt sind. In diesem Fall überspringen die Aspose.Cells-APIs das Scannen des Standardverzeichnisses für Schriftarten des Betriebssystems und durchsuchen nur den Pfad, der in den oben genannten JVM-Argumenten angegeben ist.
+ Die Aspose.Cells-APIs scannen immer das Standardschriftverzeichnis des Betriebssystems mit einer Ausnahme, das heißt; wenn JVM argumentiert**-DAspose.Cells.FontDirExc="YourFontDir"**eingestellt sind. In diesem Fall überspringen die Aspose.Cells-APIs das Scannen des Standardverzeichnisses für Schriftarten des Betriebssystems und durchsuchen nur den Pfad, der in den oben genannten JVM-Argumenten angegeben ist.
 
 {{% /alert %}}
 
@@ -35,7 +35,7 @@ Unten ist der Prozess, dem Aspose.Cells-APIs hinter den Kulissen folgen.
 
 {{% alert color="primary" %}}
 
- Beide[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) )-Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Vorbeigehen**Stimmt**Der zweite Parameter weist die Aspose.Cells-APIs an, die Unterordner nach den Schriftartdateien zu durchsuchen.
+ Beide[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) )-Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Vorbeigehen**wahr**Der zweite Parameter weist die Aspose.Cells-APIs an, die Unterordner nach den Schriftartdateien zu durchsuchen.
 
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ Wenn mehr als eine der oben genannten Methoden zum Festlegen der Schriftartquell
 
 Aspose.Cells-APIs bieten auch die Möglichkeit, die Ersatzschriftart für Wiedergabezwecke anzugeben. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste mit Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die Methode FontConfigs.setFontSubstitutes verfügbar gemacht, die zwei Parameter akzeptiert. Der erste Parameter ist vom Typ**Schnur** , das sollte der Name der Schriftart sein, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ**Schnur**. Benutzer können eine Liste mit Schriftartnamen als Ersatz für die ursprüngliche Schriftart (angegeben im ersten Parameter) bereitstellen.
 
-Hier ist ein einfaches Anwendungsszenario.
+Hier ist ein einfaches Nutzungsszenario.
 
 {{< highlight "java" >}}
 

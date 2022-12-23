@@ -13,7 +13,7 @@ Aspose.Cells for C++ stöder följande 64-bitars eller 32-bitars operativsystem 
 <table>  
 	<tr>
 			<td style="font-weight: bold; width:400px">Operativ system</td>
-			<td style="font-weight: bold; width:400px">Versioner</td>
+			<td style="font-weight: bold; width:400px">versioner</td>
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>

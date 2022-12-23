@@ -15,7 +15,7 @@ Puede hacer que una hoja de trabajo sea más atractiva agregando una imagen como
 
 Para configurar la imagen de fondo de una hoja en Microsoft Excel (por ejemplo, Microsoft Excel 2019):
 
-1.  Desde el**Diseño de página** menú, encuentra el**Configuración de página** opción y, a continuación, haga clic en el**Fondo** opción.
+1.  Desde el**Diseño de página** menú, encuentra el**Configuración de página** opción y, a continuación, haga clic en el**Antecedentes** opción.
 1. Seleccione una imagen para establecer la imagen de fondo de la hoja.
 
    **Establecer un fondo de hoja**

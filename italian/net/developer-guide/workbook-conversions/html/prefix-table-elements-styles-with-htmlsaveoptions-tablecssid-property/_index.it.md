@@ -22,14 +22,14 @@ etc.
 
 {{< /highlight >}}
 
- Lo screenshot seguente mostra l'effetto dell'utilizzo[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)proprietà sull'output HTML.
+ Lo screenshot seguente mostra l'effetto dell'utilizzo[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)immobile in uscita HTML.
 
 ![cose da fare:immagine_alt_testo](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **Anteporre agli stili degli elementi di tabella la proprietà HtmlSaveOptions.TableCssId**
 
- Il codice di esempio seguente illustra come utilizzare[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) proprietà. Si prega di controllare[output HTML](60489790.zip) generato dal codice per un riferimento.
+ Il codice di esempio seguente illustra come utilizzare[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) proprietà. Si prega di controllare[uscita HTML](60489790.zip) generato dal codice per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-HTML-PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.cs" >}}

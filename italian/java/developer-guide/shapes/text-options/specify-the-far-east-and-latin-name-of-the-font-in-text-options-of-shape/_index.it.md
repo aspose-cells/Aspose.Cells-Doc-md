@@ -14,6 +14,6 @@ Il seguente codice di esempio crea una casella di testo e vi aggiunge del testo 
 
 ![cose da fare:immagine_alt_testo](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.java" >}}

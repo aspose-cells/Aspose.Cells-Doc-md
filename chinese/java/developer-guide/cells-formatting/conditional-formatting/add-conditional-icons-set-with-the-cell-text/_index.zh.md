@@ -10,12 +10,12 @@ url: /zh/java/add-conditional-icons-set-with-the-cell-text/
 
 {{% /alert %}} 
 
-以下是从头开始创建 XLSX 文件的示例，将条件图标添加到包含文本的单元格而不应用条件格式。
+下面是一个示例，它从头开始创建一个 XLSX 文件，将条件图标添加到包含文本的单元格而不应用条件格式。
 
 执行代码时，条件图标集中的图像将添加到单元格区域“B2:C4”中，如下所示。
 
 **输出文件** 
 
-![待办事项：图像_替代_文本](add-conditional-icons-set-with-the-cell-text_1.png)
+![待办事项：图片_替代_文本](add-conditional-icons-set-with-the-cell-text_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddConditionalIconsSet-AddConditionalIconsSet.java" >}}

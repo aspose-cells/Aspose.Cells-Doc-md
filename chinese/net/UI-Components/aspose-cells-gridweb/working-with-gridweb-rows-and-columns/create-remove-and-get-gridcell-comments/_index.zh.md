@@ -7,7 +7,7 @@ url: /zh/net/create-remove-and-get-gridcell-comments/
 ## **可能的使用场景**
 以下文章介绍了如何在 GridWeb 工作表中创建、删除和获取 GridCell 注释。值得注意的是，当您将鼠标悬停在单元格上时，GridWeb 会像 MS-Excel 一样将注释显示为工具提示，如此屏幕截图所示。
 
-![待办事项：图像_替代_文本](create-remove-and-get-gridcell-comments_1.png)
+![待办事项：图片_替代_文本](create-remove-and-get-gridcell-comments_1.png)
 ## **在 Cell 内创建 Comment 对象**
 请使用 GridCell.CreateComment 方法在单元格内创建评论对象。以下示例代码在 GridWeb 的第一个工作表的单元格 B4 中创建示例注释。
 

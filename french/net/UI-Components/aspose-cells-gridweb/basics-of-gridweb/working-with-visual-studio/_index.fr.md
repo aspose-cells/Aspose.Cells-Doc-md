@@ -13,7 +13,7 @@ Cette rubrique explique comment utiliser Aspose.Cells.GridWeb dans les applicati
 Cette rubrique montre comment utiliser Aspose.Cells.GridWeb en créant un exemple de site Web dans Visual Studio 2013. Le processus a été divisé en étapes.
 ### **Étape 1 : Création d'un nouveau site Web**
 1. Ouvrez Visual Studio 2013.
-1.  Du**Dossier** menu, sélectionnez**Nouveau menu** , alors**Site Internet**. 
+1.  Du**Dossier** menu, sélectionnez**Nouveau menu** , ensuite**Site Internet**. 
 
 ![tâche : image_autre_texte](working-with-visual-studio_1.png)
 
@@ -55,7 +55,7 @@ Tous les dossiers et applications Web stockés dans votre dossier racine IIS son
  Une nouvelle application Web avec le nom par défaut WebSite est créée.
 
 1. Renommez l'application Web. Nous l'avons renommé GridWebOn2013.
-1.  Cliquez sur**Ouvert**. 
+1.  Cliquez sur**Ouvrir**. 
 
 ![tâche : image_autre_texte](working-with-visual-studio_6.png)
 
@@ -129,7 +129,7 @@ Supprimez la page Default.aspx ajoutée par Visual Studio et ajoutez une nouvell
 
 
 
-1.  Conserver, modifier ou supprimer le<!DOCTYPE>étiquette.
+1.  Conserver, modifier ou supprimer le<!DOCTYPE> étiquette.
 1.  Ou modifier le<!DOCTYPE> balise avec celle-ci :
 
 {{< highlight "csharp" >}}

@@ -22,9 +22,9 @@ url: /it/net/creating-hierarchical-view-sheet/
 
 {{% /alert %}} 
 ## **Creare relazioni per DataTable**
-Ad esempio, utilizzi l'API ADO.Net ed estrai i dati dalle tabelle del database. Per creare un foglio di visualizzazione gerarchico, è necessario progettare un DataSet
+Ad esempio, utilizzi ADO.Net API ed estrai i dati dalle tabelle del database. Per creare un foglio di visualizzazione gerarchico, è necessario progettare un DataSet
 
- oggetto basato su alcune tabelle e creare prima una relazione tra di loro. Usa VS.NET**Progettazione set di dati** per creare la relazione. In
+ oggetto basato su alcune tabelle e creare prima una relazione tra di esse. Usa i VS.NET**Progettazione set di dati** per creare la relazione. In
 
  In questo esempio sono presenti tre DataTable: Customers, Orders, Order Details. Il foglio mostra tutte le informazioni del cliente per impostazione predefinita. quando
 
@@ -41,13 +41,13 @@ Affinché ciò funzioni, è necessario stabilire le seguenti relazioni tra le ta
 
 
 
-1.  Crea una chiave esterna su DataTable Order Details, il campo chiave è OrderID.
+1. Crea una chiave esterna su DataTable Order Details, il campo chiave è OrderID.
 
 ![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_3.png)
 
 
 
-Il DataSet Designer ora ha questo aspetto:
+ Il DataSet Designer ora ha questo aspetto:
 
 ![cose da fare:immagine_alt_testo](creating-hierarchical-view-sheet_4.png)
 ### **Associa foglio di lavoro**
@@ -115,7 +115,7 @@ End Sub
 
 {{< /highlight >}}
 ### **Carica dati da database e associazione**
- Come descritto in[Associare un foglio di lavoro a un set di dati utilizzando la finestra di progettazione dei fogli di lavoro di GridWeb](/cells/it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
+Come descritto in[Associare un foglio di lavoro a un set di dati utilizzando la finestra di progettazione dei fogli di lavoro di GridWeb](/cells/it/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/),
  è necessario aggiungere codice al blocco Page_Load per caricare i dati nel DataSet da un database e associare il DataSet al foglio nel
 
  passo successivo.
@@ -253,11 +253,11 @@ Private Sub BindWithoutInSheetHeaders()
 
  Dim db As DemoDatabase2 = Nuovo DemoDatabase2()
 
- Dim percorso As String = MapPath(".")
+Dim percorso As String = MapPath(".")
 
-percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
+ percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
 
-percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
+ percorso = percorso.Substring(0, percorso.LastIndexOf("\"))
 
  db.OleDbConnection1.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Origine dati=" + percorso + "\Database\Northwind.mdb"
 

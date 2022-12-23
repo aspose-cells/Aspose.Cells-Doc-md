@@ -14,11 +14,11 @@ Diese Seite beschreibt die interessantesten neuen Aspose.Cells for Reporting Ser
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* Unterstützung zum Rendern des SXC-Formats.
+* Unterstützung für das Rendern des Formats SXC.
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* Unterstützung für das Rendern des XLTX-Formats.
+* Unterstützung für das Rendern des Formats XLTX.
 
 ## Aspose.Cells for Reporting Services  22.7
 

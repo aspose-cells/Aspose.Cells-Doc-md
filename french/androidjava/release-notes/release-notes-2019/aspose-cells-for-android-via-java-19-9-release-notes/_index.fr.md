@@ -10,18 +10,18 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSANDROID-92|Produit de support.Licence familiale|Nouvelle fonctionnalité|
 |CELLSJAVA-42949|Est-ce que Aspose.Cells prend en charge les algorithmes ECDSA et RSA|Nouvelle fonctionnalité|
 |CELLSJAVA-42979|Obtenez le nombre total de pages avant de convertir en pdf/image|Nouvelle fonctionnalité|
-|CELLSJAVA-42967|Insérer le fichier SVG dans la feuille de calcul|Nouvelle fonctionnalité|
+|CELLSJAVA-42967|Insérez le fichier SVG dans la feuille de calcul|Nouvelle fonctionnalité|
 |CELLSJAVA-42969|Prise en charge Java 12 en Aspose.Cells for Java|Renforcement|
 |CELLSJAVA-42977|Consommation élevée de CPU et de mémoire lors de la conversion d'Excel en PDF|Renforcement|
 |CELLSJAVA-42861|Impossible d'obtenir le texte alternatif de la forme au format de fichier ODS|Punaise|
-|CELLSJAVA-42929|Modifications du titre du graphique lors de la conversion de XLSX en PDF|Punaise|
+|CELLSJAVA-42929|Le titre du graphique change lors de la conversion de XLSX à PDF|Punaise|
 |CELLSJAVA-42933|La couleur des graphiques change lors de la conversion du fichier Excel en PDF|Punaise|
-|CELLSJAVA-42946|Mauvais rendu du graphique à barres empilées avec des séries au format PDF|Punaise|
+|CELLSJAVA-42946|Mauvais rendu du graphique à barres empilées avec des séries jusqu'à PDF|Punaise|
 |CELLSJAVA-42942|Pages imprimées au niveau de la feuille de calcul et non au niveau du classeur|Punaise|
 |CELLSJAVA-42952|Mauvaise indentation du haut de la cellule dans certains mots|Punaise|
 |CELLSJAVA-42902|Le style de graphique en cascade n'est pas copié correctement lors de la copie du classeur|Punaise|
@@ -32,24 +32,24 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42944|Erreur lors de la conversion de XLSX en HTML|Punaise|
 |CELLSJAVA-42966|L'actualisation du tableau croisé dynamique et des graphiques croisés dynamiques corrompt le fichier Excel|Punaise|
 |CELLSJAVA-42975|Différences dans la conversion HTML|Punaise|
-|CELLSJAVA-42971|# N/A est affiché dans le PDF rendu
+|CELLSJAVA-42971|# N/A est montré dans le rendu PDF
 |Punaise|
-|CELLSJAVA-42970|Ligne de bordure étendue indésirable dans le rendu Excel vers PDF|Punaise|
-|CELLSJAVA-42976|Inadéquation de la position de l'image lors du rendu du fichier Excel au format PDF|Punaise|
+|CELLSJAVA-42970|Ligne de bordure étendue indésirable dans Excel au rendu PDF|Punaise|
+|CELLSJAVA-42976|Incompatibilité de position d'image lors du rendu du fichier Excel en PDF|Punaise|
 |CELLSJAVA-42961|Les propriétés de la table ne sont pas copiées correctement lors de la copie des données à l'aide de copyColumns|Punaise|
 |CELLSJAVA-42980|L'image transparente devient opaque pendant la copie de l'image|Punaise|
 |CELLSJAVA-42990|Les lignes masquées sont affichées lors de la conversion du fichier Excel en HTML lorsque le filtre automatique existe|Punaise|
 |CELLSJAVA-42997|CalculateFormula() échoue avec de grandes chaînes de formule|Punaise|
 |CELLSJAVA-43000|CalculateFormula() corrompt le fichier Excel|Punaise|
-|CELLSJAVA-42987|Problèmes de formatage lors de la conversion d'un fichier Excel en PDF|Punaise|
-|CELLSJAVA-42986|Texte se chevauchant après la conversion du fichier chinois XLSX en PDF|Punaise|
+|CELLSJAVA-42987|Problèmes de formatage lors de la conversion du fichier Excel en PDF|Punaise|
+|CELLSJAVA-42986|Texte qui se chevauche après la conversion du fichier chinois XLSX en PDF|Punaise|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) ne fonctionne pas pour les nouvelles versions d'Excel|Punaise|
-|CELLSJAVA-42996|Les étiquettes de données basées sur des formules ne sont pas correctement rendues en PDF|Punaise|
-|CELLSJAVA-42945|Enregistrer au format HTML génère une exception si ExportImagesAsBase64 est défini|Exception|
-|CELLSJAVA-42953|NullPointerException lors de la conversion de fichiers XLS en HTML|Exception|
+|CELLSJAVA-42996|Les étiquettes de données basées sur des formules ne sont pas correctement rendues dans PDF|Punaise|
+|CELLSJAVA-42945|Enregistrer sous HTML lève une exception si ExportImagesAsBase64 est défini|Exception|
+|CELLSJAVA-42953|NullPointerException lors de la conversion des fichiers XLS en HTML|Exception|
 |CELLSJAVA-42951|java.lang.NullPointerException levée par comment.setHtmlNote()|Exception|
 |CELLSJAVA-42954|Exception levée lors du chargement et de l'enregistrement du XLSX|Exception|
-|CELLSJAVA-42957|Une valeur FontUnderlineType non valide est générée lors de l'enregistrement de XLSX|Exception|
+|CELLSJAVA-42957|Une valeur FontUnderlineType non valide est générée lors de l'enregistrement XLSX|Exception|
 |CELLSJAVA-42992|Exception levée lors de la conversion de XLSM en image|Exception|
 |CELLSJAVA-42991|Exception "La largeur de la colonne doit être comprise entre 0 et 255" lors de la conversion d'Excel en PDF sous macOS|Exception|
 |CELLSJAVA-43004|Exception java.lang.NumberFormatException : pour la chaîne d'entrée : "0.0" lors de la conversion d'Excel en HTML|Exception|

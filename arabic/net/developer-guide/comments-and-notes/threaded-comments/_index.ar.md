@@ -75,7 +75,7 @@ url: /ar/net/threaded-comments/
 
 ### **قراءة وقت الإنشاء للتعليقات المترابطة**
 
-يوفر Aspose.Cells[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)طريقة لاسترداد التعليقات المترابطة للعمود المحدد.[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)يقبل الأسلوب اسم العمود كمعامل ويعيد[**مجموعة التعليقات المترابطة**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). يمكنك التكرار على امتداد[**مجموعة التعليقات المترابطة**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) واستخدم[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) منشأه.
+يوفر Aspose.Cells[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)طريقة لاسترداد التعليقات المترابطة للعمود المحدد.[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)يقبل الأسلوب اسم العمود كمعامل ويعيد[**مجموعة التعليقات المترابطة**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). يمكنك التكرار على امتداد[**مجموعة التعليقات المترابطة**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) واستخدم[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) خاصية.
 
 يوضح المثال التالي قراءة الوقت الذي تم إنشاؤه للتعليقات المترابطة عن طريق تحميل ملف[نموذج لملف Excel](89849861.xlsx). يرجى الاطلاع على إخراج وحدة التحكم التي تم إنشاؤها بواسطة الرمز كمرجع.
 
@@ -95,7 +95,7 @@ url: /ar/net/threaded-comments/
 
 ### **تحرير تعليق مترابطة مع Excel**
 
- لتحرير تعليق مترابط في Excel ، انقر فوق**يحرر** رابط التعليق كما هو موضح في الصورة التالية.
+ لتحرير تعليق مترابط في Excel ، انقر فوق**تعديل** رابط التعليق كما هو موضح في الصورة التالية.
 
 ![ما يجب القيام به: image_بديل_نص](threaded-comments_7.jpg)
 
@@ -121,7 +121,7 @@ url: /ar/net/threaded-comments/
 
 يوفر Aspose.Cells[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)طريقة لإزالة التعليقات للعمود المحدد.[**التعليقات**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/removeat/index)يقبل الأسلوب اسم العمود كمعامل يزيل التعليقات الموجودة في هذا العمود.
 
-يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](89849861.xlsx). الرجاء مراجعة[إخراج ملف Excel](89849864.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
+يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](89849861.xlsx). الرجاء مراجعة[إخراج ملف Excel](89849864.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
 
 #### **عينة من الرموز**
 

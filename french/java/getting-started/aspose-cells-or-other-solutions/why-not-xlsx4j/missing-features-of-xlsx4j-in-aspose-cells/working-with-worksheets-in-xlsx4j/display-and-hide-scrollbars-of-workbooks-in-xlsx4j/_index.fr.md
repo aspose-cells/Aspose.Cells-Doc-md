@@ -5,7 +5,7 @@ weight: 30
 url: /fr/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/
 ---
 ## **Aspose.Cells - Afficher et masquer les barres de défilement des classeurs**
- Aspose.Cells fournit une classe,**Cahier** qui représente un fichier Excel.**Cahier** fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser**setVScrollBarVisiblesetVScrollBarVisible** & **setHScrollBarVisible** méthodes de la**Cahier** classer.
+ Aspose.Cells fournit une classe,**Cahier** qui représente un fichier Excel.**Cahier** fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser**setVScrollBarVisiblesetVScrollBarVisible** & **setHScrollBarVisible** méthodes de la**Cahier** classe.
 
 **Java**
 

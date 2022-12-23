@@ -36,10 +36,10 @@ Aspose.Cells 4.7.1'de Çözülen Sorunlar
 |8114 | Charts2Image| Çalışma kitabını HTML'de bozuk grafikle kaydetme|
 |8119 | Charts2Image| FillFormat.Pattern'i Kullanma|
 |8223 | Charts2Image| Kategori X Ekseni başlığı görüntülenmiyor|
-|8113 | HTML| Boşluk içeren çalışma sayfası adında bozuk Html|
-|8420 | HTML| HTML dışa aktarma biçimi sorunu|
+|8113 |HTML | Boşluk içeren çalışma sayfası adında bozuk Html|
+|8420 |HTML | HTML dışa aktarma biçimi sorunu|
 |7718 | Pdf| Hücreleri doğrudan pdf'ye dönüştürmede köprüyü destekler|
-|7723 | Pdf| Aspose.Cells'in PDF'ye dönüştürülmesiyle ilgili yazı tipi sorunları|
+|7723 | Pdf| Aspose.Cells'in PDF'e dönüştürülmesiyle ilgili yazı tipi sorunları|
 |7726 | Pdf| Cells 4.7.0, PDF akışına kaydetme çalışmıyor|
 |7727 | Pdf| Pdf dosyası çok büyük|
 |7730 | Pdf| Anahtar zaten sözlük istisnasına eklendi|
@@ -47,7 +47,7 @@ Aspose.Cells 4.7.1'de Çözülen Sorunlar
 |7978 | Pdf| Bazı Aspose.Cells kaydetme sorunları|
 |7980 | Pdf| Çıktıdaki farklılıklar|
 |7728 | YayılmışML| Dizin aralığın dışında|
-|8116 | YayılmışML| Bir sayfa silindiğinde hatalı SpreadsheetML|
+|8116 | YayılmışML| Bir sayfa silindiğinde bozuk SpreadsheetML|
 |8118 | YayılmışML| PRINT_AREA mevcut olduğunda hata|
 |7381 | Xl'ler| Excel2007 için Yöntem EndCellinRow|
 |7722 | Xl'ler| Kopyalama aralığında doğrulamaları kopyalayın.|

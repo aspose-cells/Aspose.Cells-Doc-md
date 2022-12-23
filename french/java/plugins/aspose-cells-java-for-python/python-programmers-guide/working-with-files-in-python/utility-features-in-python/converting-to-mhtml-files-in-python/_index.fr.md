@@ -5,7 +5,7 @@ weight: 30
 url: /fr/java/converting-to-mhtml-files-in-python/
 ---
 ## **Aspose.Cells - Conversion en MHTML**
-Pour convertir une feuille de calcul en fichier MHTML en utilisant Aspose.Cells for Java dans Python, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
+Pour convertir la feuille de calcul en fichier MHTML en utilisant Aspose.Cells for Java dans Python, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
 
 **Code Python**
 

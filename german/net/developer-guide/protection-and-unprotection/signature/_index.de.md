@@ -14,7 +14,7 @@ description: Excel-Datei digitale Signatur, Verifizierung. Um die Authentizität
 
 ## **Einführung**
 
- Verwenden Sie das Dialogfeld „Digitale Signatur“, um eine digitale Signatur anzuhängen. Das Dialogfeld „Digitale Signatur“ listet gültige Zertifikate auf. Sie können das Dialogfeld „Digitale Signatur“ verwenden, um Zertifikate anzuzeigen und das Zertifikat auszuwählen, das Sie verwenden möchten. Wenn eine Arbeitsmappe eine digitale Signatur hat, erscheint der Name der Signatur in der**Zertifikatname** aufstellen. Wenn Sie auf die klicken**Entfernen** Schaltfläche im Dialogfeld Digitale Signatur entfernt Microsoft Excel auch die digitale Signatur.
+ Verwenden Sie das Dialogfeld „Digitale Signatur“, um eine digitale Signatur anzuhängen. Das Dialogfeld „Digitale Signatur“ listet gültige Zertifikate auf. Sie können das Dialogfeld „Digitale Signatur“ verwenden, um Zertifikate anzuzeigen und das Zertifikat auszuwählen, das Sie verwenden möchten. Wenn eine Arbeitsmappe eine digitale Signatur hat, erscheint der Name der Signatur in der**Zertifikatname** Gebiet. Wenn Sie auf die klicken**Entfernen** Schaltfläche im Dialogfeld Digitale Signatur entfernt Microsoft Excel auch die digitale Signatur.
 
 Aspose.Cells bietet die[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)Namespace, um den Job auszuführen (digitale Signaturen zuweisen und validieren). Der Namespace verfügt über einige nützliche Funktionen zum Hinzufügen und Validieren digitaler Signaturen.
 

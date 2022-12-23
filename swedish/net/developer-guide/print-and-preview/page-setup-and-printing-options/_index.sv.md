@@ -26,7 +26,7 @@ Skapa först ett enkelt kalkylblad i Microsoft Excel. Använd sedan sidinställn
 
 1. Skapa ett kalkylblad med lite data i Microsoft Excel:
  1. Öppna en ny arbetsbok i Microsoft Excel.
- 1. Lägg till några data.
+ 1. Lägg till lite data.
 1. Ange alternativ för sidinställningar:
  Tillämpa sidinställningar på filen. Nedan finns en skärmdump av standardalternativen, innan de nya alternativen tillämpas.
 

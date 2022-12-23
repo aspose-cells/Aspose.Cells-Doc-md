@@ -19,7 +19,7 @@ url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|Hämtade formaterade cellvärden är felaktiga i Excel-kalkylbladet|Förbättring|
 |CELLSNET-48078|Djup kopia av arbetsbok efter beräkning med CreateCalcChain-inställning|Förbättring|
 |CELLSNET-48079| Hur man kontrollerar om ett kalkylblad är tomt|Förbättring|
-|CELLSNET-48135| Problem med skyddad arbetsbok (med lösenord) genererad av Aspose.Cells|Förbättring|
+|CELLSNET-48135|Problem med skyddad arbetsbok (med lösenord) genererad av Aspose.Cells|Förbättring|
 |CELLSNET-48050| cpu hänger på öppen arbetsbok|Prestanda|
 |CELLSNET-48063|Tme kostnad när du ringer api Cells.GetRowRawHeightPoint|Prestanda|
 |CELLSNET-48046|Formens textförskjutning är felaktig (pil:quad).|Insekt|
@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48080|Pivottabell kan inte använda "值" eller "Värden" som kolumnnamn när du skapar pivottabell|Insekt|
 |CELLSNET-48085| Dold kolumnrubrik återges|Insekt|
 |CELLSNET-48105|Textboxens placering ändras när Excel konverteras till HTML|Insekt|
-|CELLSNET-48048| Undantag när du sparar XLSX med kommentarer till PDF-format|Insekt|
+|CELLSNET-48048| Undantag när du sparar XLSX med kommentarer till formatet PDF|Insekt|
 |CELLSNET-48082|Om du lägger till fler än 30 rader med ImportCustomObjects genereras en skadad fil|Insekt|
 |CELLSNET-48086|Namngivna intervall skapades inte korrekt i 21.5 men fungerade 21.4|Insekt|
 |CELLSNET-48118|Stöd för att uppdatera dynamiska arrayformler enligt det uppdaterade utspillda intervallet|Insekt|
@@ -44,7 +44,7 @@ url: /sv/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48065|Återsparad fil med ett specifikt namngivet intervallvärde gör att Excel skadas|Insekt|
 |CELLSNET-48067|SetChartDataRange kände inte igen sammanslagna celler|Insekt|
 |CELLSNET-48072|Läs tomt diagram kommer att få en felaktig diagramtyp|Insekt|
-|CELLSNET-48133|Fel uppstod av MS Excel när du öppnade XLSX-filen|Insekt|
+|CELLSNET-48133|Fel uppstod av MS Excel vid öppning av utdatafilen XLSX|Insekt|
 |CELLSNET-48045|Ett undantag görs när svg konverteras till bild|Undantag|
 |CELLSNET-48062|Undantag höjdes vid konvertering av XLS till XLSX|Undantag|
 |CELLSNET-48074|Värdet kan inte vara null när Apple-nummerfilen öppnas|Undantag|
@@ -61,7 +61,7 @@ I gamla versioner gäller den här egenskapen endast formelceller. För att det 
 
 ### **Ändrar beteendet för Cell.Value-egenskapen.**
 
-I gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
+gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
 
 ### **Lägger till egenskapen Cell.IsNumericValue.**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 16.12.0
+title: Pubblico API Modifiche Aspose.Cells 16.12.0
 type: docs
 weight: 370
 url: /it/java/public-api-changes-in-aspose-cells-16-12-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -15,7 +15,7 @@ Aspose.Cells 16.12.0 ha esposto la classe LoadFilter insieme alla proprietà Loa
 
 Ecco un semplice scenario di utilizzo per caricare solo le proprietà del documento da un file modello.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -41,7 +41,7 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 Lo snippet seguente carica tutto da un foglio di calcolo esistente ad eccezione dei grafici.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -67,7 +67,7 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 Il seguente codice carica solo i dati della cella (insieme alle formule) e la formattazione da un foglio di calcolo esistente.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -95,7 +95,7 @@ Aspose.Cells 16.12.0 ha aggiunto la voce OTS all'enumerazione FileFormatType per
 
 Il seguente frammento utilizza FileFormatType.OTS.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -127,7 +127,7 @@ Aspose.Cells 16.12.0 ha aggiunto il metodo WorksheetCollection.createRange che c
 
 Il seguente frammento utilizza il metodo WorksheetCollection.createRange per creare un intervallo di celle che si estende da A1 a A2 nel primo foglio di lavoro (predefinito).
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

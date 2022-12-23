@@ -19,7 +19,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.1，我们很高兴地宣布此版�
 \1) Aspose.Cells 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-42923) - 支持不重叠显示图例的选项
@@ -38,7 +38,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.1，我们很高兴地宣布此版�
 
 (CELLSNET-42857) - 文件在打开和保存时损坏
 
-(CELLSNET-42816) - 当电子表格转换为 PDF 时，对角线文本框显示为水平
+(CELLSNET-42816) - 当电子表格转换为 PDF 时，对角文本框显示为水平
 
 (CELLSNET-42815) - 当电子表格转换为 HTML 时，对角线文本框显示为水平
 
@@ -52,7 +52,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.1，我们很高兴地宣布此版�
 
 (CELLSNET-42980) - 将电子表格呈现为 PDF 时不正确的分页符
 
-(CELLSNET-42979) - 将电子表格呈现为 PDF 时不需要的边框扩展
+(CELLSNET-42979) - 将电子表格渲染到 PDF 时不需要的边框扩展
 
 (CELLSNET-42970) - Excel 页脚中的添加操作在 PDF 渲染中不起作用
 
@@ -82,7 +82,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.1，我们很高兴地宣布此版�
 
 (CELLSNET-42802) - 馅饼、甜甜圈。计算公式
 
-(CELLSNET-42940) - XLS PDF 中的超链接
+(CELLSNET-42940) - XLS 的 PDF 中的超链接
 
 (CELLSNET-42738) - 散点图上的平滑线包含循环
 
@@ -94,7 +94,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.1，我们很高兴地宣布此版�
 
 (CELLSNET-42929) - 在 PivotTable.CalculateData 抛出 IndexOutOfRangeException
 
- (CELLSNET-42213) - 将包含具有渐变背景的形状的 XLS 文件转换为 PDF
+(CELLSNET-42213) - 将包含具有渐变背景的形状的 XLS 文件转换为 PDF
 
  (CELLSNET-42962) - Workbook.RemoveExternalLinks() 异常
 

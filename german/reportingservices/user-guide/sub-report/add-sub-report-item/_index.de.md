@@ -32,7 +32,7 @@ So fügen Sie ein untergeordnetes Berichtselement hinzu:
 
 
 
-1.  Klicken**Nah dran**. 
+1.  Klicken**Nahe**. 
 
    **Ein Unterbericht wurde ausgewählt** 
 

@@ -14,19 +14,19 @@ url: /zh/java/aspose-cells-for-java-21-8-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42494|大量未使用的样式生成到 CSS 部分|
 |CELLSJAVA-43576|将 XLSX 转换为 PDF 时不显示图形文本值|
-|CELLSJAVA-43483|将 HTML 文档转换为工作簿时，不会强调“em”标记中“br”标记后的文本|
+|CELLSJAVA-43483|将 HTML 文档转换为工作簿时，不会强调“em”标签中“br”标签后的文本|
 |CELLSJAVA-43526|IllegalArgumentException：无效的列索引|
 |CELLSJAVA-43557|另存为 html 时颜色不正确|
 |CELLSJAVA-43567|回归：MDURATION 公式计算不正确|
 |CELLSJAVA-43583|幂运算符“^”不适用于公式计算|
-|CELLSJAVA-43549|输出 PDF 中缺少图像|
+|CELLSJAVA-43549|输出中缺少图像 PDF|
 |CELLSJAVA-43566|MacOS Big Sur 上的默认字体|
 |CELLSJAVA-42579|轴标签显示不正确 - 将 Excel 保存为 Pdf 时缺少右对齐|
 |CELLSJAVA-43554|图表数据表文本未显示在输出图像中|
-|CELLSJAVA-43556|XLSX 到 PDF：不完整的图表标题|
+|CELLSJAVA-43556|XLSX 至 PDF：图表标题不完整|
 |CELLSJAVA-40051|Apple iWork 支持|
-|CELLSJAVA-43119|转换为 PDF - 自 2014 年起不支持文件格式 Number3.5|
-|CELLSJAVA-43538|没有数据的图表导致 XLSX 在使用 Aspose Cells 保存后损坏|
+|CELLSJAVA-43119|转换为 PDF - 自 2014 年以来不支持文件格式 Number3.5|
+|CELLSJAVA-43538|没有数据的图表导致 XLSX 在用 Aspose 保存后损坏 Cells|
 |CELLSJAVA-43547|AutoFitRow 更改工作表标准高度|
 |CELLSJAVA-43591|在 Aspose.Cells 保存的 MS Excel 中打开文件时出错|
 |CELLSJAVA-43523|读取形状的宏名称的 CellsException：无效的公式|

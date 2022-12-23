@@ -40,7 +40,7 @@ Så här laddar du upp en fil från en lokal dator:
 1.  Klick**Öppna från datorn** för att öppna dialogrutan Bläddra.
 1. Gå till önskad plats för filen.
 1. Klicka på önskad fil för att välja den.
-1.  Klick**Öppna**.
+1.  Klick**Öppen**.
 
 Filen kommer att öppnas i editorn.
 
@@ -86,7 +86,7 @@ Filen kommer att öppnas i editorn.
 
 **Lasta och lasta av**
 
- Metoden***LoaderService.fromInputStream*** läser***InputStream*** tillhandahålls av fileUpload***komponent*** skapa instans av***com.aspose.cells.Workbook*** klass. Denna instans sparas i minnet så länge användaren fortsätter att visa eller redigera kalkylarket i webbläsaren. När användaren lämnar editorn eller stänger webbläsaren laddas de oanvända instanserna automatiskt bort från minnet för att hålla servern ren.
+ Metoden***LoaderService.fromInputStream*** läser***InputStream*** tillhandahålls av fileUpload***komponent*** skapa instans av***com.aspose.cells.Workbook***klass. Denna instans sparas i minnet så länge användaren fortsätter att visa eller redigera kalkylarket i webbläsaren. När användaren lämnar editorn eller stänger webbläsaren laddas de oanvända instanserna automatiskt bort från minnet för att hålla servern ren.
 
 
 
@@ -278,9 +278,9 @@ Din valda fil kommer att öppnas från Dropbox.
 
 **Hur det fungerar?**
 
- De**Öppna från Dropbox** knappen använder**Dropbox JavaScript-väljare API**för att öppna dialogrutan Dropbox Väljare. Väljaren tillhandahåller URL till den valda filen, som fångas upp av återuppringningsfunktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar några hushållsgrejer och skickar DOM-uppdateringar tillbaka till webbläsaren. Webbläsaren renderar och uppdaterar HTML-koden och användaren är redo att redigera det laddade dokumentet.
+ De**Öppna från Dropbox** knappen använder**Dropbox JavaScript-väljare API** för att öppna dialogrutan Dropbox Väljare. Väljaren tillhandahåller URL till den valda filen, som fångas upp av återuppringningsfunktionen och skickas tillbaka till servern. Servern skapar en instans av kalkylblad från URL, initierar några hushållsgrejer och skickar DOM-uppdateringar tillbaka till webbläsaren. Webbläsaren renderar och uppdaterar HTML och användaren är redo att redigera det laddade dokumentet.
 ### **Öppna från URL**
- Filer kan öppnas direkt från URL:er. Detta tillåter användaren att redigera alla offentligt tillgängliga filer på Internet. För att öppna filen lägg till**?url=plats** parameter med värdet av önskat värde**plats** medan du laddar redigeraren. Till exempel:
+ Filer kan öppnas direkt från URL:er. Detta tillåter användaren att redigera alla offentligt tillgängliga filer på Internet. För att öppna filen lägg till**?url=plats** parameter med värdet på önskat värde**plats** medan du laddar redigeraren. Till exempel:
 
 {{< highlight "java" >}}
 
@@ -298,11 +298,11 @@ Din valda fil kommer att öppnas från Dropbox.
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache**en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+ Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 
-När kalkylbladet är klart på serversidan används JSF-komponenter för att generera ny HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
+När kalkylbladet är klart på serversidan används JSF-komponenter för att generera nya HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
 
 
 
@@ -517,11 +517,11 @@ Redaktören stänger det öppnade kalkylarket, om det finns, och öppnar ett nyt
 
 **Cachning**
 
- Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache**en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
+ Cachning sker direkt efter att kalkylarket har laddats. De**LoaderService** samtal**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** och**LoaderService.buildRowHeightCache** en efter en för att cachelagra innehållet i kalkylarket och hålla alla operationer snabba och smidiga.
 
 **DOM-uppdateringar**
 
-När kalkylbladet är klart på serversidan används JSF-komponenter för att generera ny HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
+När kalkylbladet är klart på serversidan används JSF-komponenter för att generera nya HTML och skicka DOM-uppdateringar till användaren som renderas av webbläsaren.
 
 
 
@@ -706,7 +706,7 @@ Den ändrade filen kommer att exporteras för nedladdning. Följande format stö
 - Excel XLTX
 - Excel XLTM
 - SpreadsheetML
-- Portable Document Format (PDF)
+- Portabelt dokumentformat (PDF)
 - OpenDocument Spreadsheet (ODS)
 
 **Hur det fungerar?**

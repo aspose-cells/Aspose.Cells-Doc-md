@@ -15,15 +15,15 @@ Bilgileri gizlemek için:
 1.  Microsoft Excel'de, tıklayın**Dyn-Hide** Aspose.Cells komut çubuğunda.
  Dyn-Hide iletişim kutusu görüntülenir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-dyn-hide-form_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-dyn-hide-form_1.png)
 
 
 
 
 1. Gizleme bilgilerini düzenleyin.
-1.  Tıklamak**Ekle** gizleme bilgilerini eklemek için.
+1.  Tıklamak**Eklemek** gizleme bilgilerini eklemek için.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-dyn-hide-form_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-dyn-hide-form_2.png)
 
 
 

@@ -10,7 +10,7 @@ MS Excel でカスタム用紙サイズを作成するための直接的なオ�
 
 ## **レンダリング用ワークシートのカスタム用紙サイズの実装**
 
- Aspose.Cells を使用すると、ワークシートの目的の用紙サイズを実装できます。あなたは使用することができます[**カスタム用紙サイズ**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize)の方法[**ページ設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスを使用して、カスタム ページ サイズを指定します。次のサンプル コードは、ブックの最初のワークシートにカスタム用紙サイズを指定する方法を示しています。もご覧ください[PDF出力](45056028.pdf)参照用に次のコードで生成されます。
+ Aspose.Cells を使用すると、ワークシートの目的の用紙サイズを実装できます。あなたは使用することができます[**カスタム用紙サイズ**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/custompapersize)の方法[**ページ設定**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)クラスを使用して、カスタム ページ サイズを指定します。次のサンプル コードは、ブックの最初のワークシートにカスタム用紙サイズを指定する方法を示しています。もご覧ください[出力 PDF](45056028.pdf)参照用に次のコードで生成されます。
 
 ## **スクリーンショット**
 

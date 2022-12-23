@@ -9,7 +9,7 @@ La classe PageSetup fornisce il metodo setHeader per aggiungere un'intestazione 
 
 **Intestazione**
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -35,7 +35,7 @@ pageSetup.setHeader(2, "&\"Times New Roman,Bold\"&12&F");
 
 **Piè di pagina**
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -65,7 +65,7 @@ pageSetup.setFooter(2, "&Pof&N");
 ## **Apache POI SS - HSSF XSSF - Intestazione e piè di pagina**
 La classe di intestazione è disponibile per regolare l'intestazione nei fogli di calcolo.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

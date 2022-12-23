@@ -17,7 +17,7 @@ Birden çok dosyayı bir klasörden önizlemek için:
 
 **SharePoint ile belge önizlemesi** 
 
-![yapılacaklar:resim_alternatif_Metin](preview-multiple-documents_1.png)
+![yapılacaklar:resim_alternatif_metin](preview-multiple-documents_1.png)
 
 Birkaç belgeyi önizlerken, veri alanı listedeki ilk belgeyi gösterir. Belgeler listesi, önizlemesi yapılan tüm belgeleri gösterir. Başka bir belgeyi görüntülemek için:
 

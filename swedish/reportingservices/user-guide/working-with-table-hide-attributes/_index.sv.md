@@ -39,7 +39,7 @@ Dialogrutan Ändra rapport visas.
 
 
 
-1. Redigera all annan göm information.
+1. Redigera annan dölj information.
 1.  Klick**Lägg till** för att lägga till dölj informationen.
 
 ![todo:image_alt_text](working-with-table-hide-attributes_5.png)

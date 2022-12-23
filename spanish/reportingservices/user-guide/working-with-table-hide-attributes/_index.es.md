@@ -23,7 +23,7 @@ Aparece el cuadro de diálogo Modificar informe.
 
 1. Edite la información oculta.
 1.  Hacer clic**Efectos**.
- los**Editar fórmula** se muestra el cuadro de diálogo.
+ Él**Editar fórmula** se muestra el cuadro de diálogo.
 
 ![todo:imagen_alternativa_texto](working-with-table-hide-attributes_3.png)
 
@@ -32,7 +32,7 @@ Aparece el cuadro de diálogo Modificar informe.
 
 
 1. Edite el valor de la expresión.
-1.  Hacer clic**OK** para guardar la fórmula en el cuadro de diálogo Modificar informe.
+1.  Hacer clic**DE ACUERDO** para guardar la fórmula en el cuadro de diálogo Modificar informe.
 
 ![todo:imagen_alternativa_texto](working-with-table-hide-attributes_4.png)
 
@@ -48,7 +48,7 @@ Aparece el cuadro de diálogo Modificar informe.
 
 
 1.  Hacer clic**Comprometerse** para agregar la información oculta en el caché del informe.
-1.  Hacer clic**Cerca** para cerrar el diálogo.
+1.  Hacer clic**Cerrar** para cerrar el diálogo.
 
 ![todo:imagen_alternativa_texto](working-with-table-hide-attributes_6.png)
 

@@ -12,23 +12,23 @@ Bu sayfa Aspose.Cells for Java 19.3 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42845|Bir XLS dosyasını CSV'ye dışa aktarırken boş satırlar için ayırıcılar tutun|Yeni özellik|
+|CELLSJAVA-42845|Bir XLS dosyasını CSV'e dışa aktarırken boş satırlar için ayırıcıları koruyun|Yeni özellik|
 |CELLSJAVA-42846|Metin çıkarma sonuçları orijinalinden farklı|Artırma|
-|CELLSJAVA-42844|Metin, PDF çıktısında düzgün şekilde hizalanmamış|Böcek|
-|CELLSJAVA-42834|HTML oluşturmada metin rengi (siyah) kırmızı olarak değiştirilir|Böcek|
-|CELLSJAVA-42839|Dağılım grafiği, Excel'de PDF'ye dönüştürmede işlenmez|Böcek|
-|CELLSJAVA-42840|Yatay eksen etiketleri, Excel'den PDF'e dönüştürmedeki grafikler için iyi işlenmez|Böcek|
-|CELLSJAVA-42842|2B Kabarcık grafiği Excel'de PDF'ye dönüştürmede işlenmez|Böcek|
+|CELLSJAVA-42844|PDF çıktısında metin düzgün hizalanmamış|Böcek|
+|CELLSJAVA-42834|HTML oluşturmada metin rengi (siyah) kırmızı olarak değiştirildi|Böcek|
+|CELLSJAVA-42839|Dağılım grafiği, Excel'de PDF dönüşümüne işlenmez|Böcek|
+|CELLSJAVA-42840|Yatay eksen etiketleri, Excel'deki grafikler için PDF işlemeye uygun şekilde işlenmez|Böcek|
+|CELLSJAVA-42842|2D Baloncuk grafiği Excel'de PDF dönüşümüne dönüştürülmüyor|Böcek|
 |CELLSJAVA-42833|Aynı PDF dosyasını bir çalışma kitabındaki birden çok sayfaya katıştırırken sorun|Böcek|
 |CELLSJAVA-42836|Workbook.hasExernalLinks(), DDE bağlantıları için true değerini döndürmez|Böcek|
 |CELLSJAVA-42848|Yazı tipi ayarı ve Range.copy() işlevi kullanılarak kopyalanmayan diğer nesneler|Böcek|
-|CELLSJAVA-42849|XLSX'i HTML'ye dönüştürürken IndexOutOfBoundsException istisnası|İstisna|
+|CELLSJAVA-42849|XLSX'i HTML'e dönüştürürken IndexOutOfBoundsException istisnası|İstisna|
 |CELLSJAVA-42831|Başlık hücrelerinin aralığına stil uygulandıktan sonra MS Excel tarafından ortaya çıkan istisna|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **Yüklenen XLS şablon dosyasının varsayılan yazı tipindeki değişiklikler**
-Daha eski sürümlerde, XLS şablon dosyalarını yüklerken temada tanımlanan yazı tipinin (MS Excel 2007 ve sonraki sürümlerde gelişmiş özellik) bölgeye göre uygulanmasını desteklemiyorduk. Bazı kullanıcıların gereksinimi üzerine, onu v19.3'ten destekledik. Bölge, XLS şablon dosyasında belirtilmişse, kaydedilen belirtilen bölge değerine göre temada tanımlanan yazı tipini uygulayacağız. Aksi takdirde, uygulama ortamının bölgesel ayarlarına göre temada tanımlanan yazı tipini uygulayacağız. Bu, çalışma kitabının varsayılan yazı tipinin (tema verilerini belirten XLS şablon dosyasından yüklenen) değişmesine neden olur ve ardından sütun genişliği, şekil boyutu, oluşturma efekti, ...vb. gibi diğer özellikleri etkiler.
+Daha eski sürümlerde, XLS şablon dosyalarını yüklerken temada tanımlanan yazı tipinin (MS Excel 2007 ve sonraki sürümlerde gelişmiş özellik) bölgeye göre uygulanmasını desteklemiyorduk. Bazı kullanıcıların gereksinimi üzerine, onu v19.3'ten destekledik. XLS şablon dosyasında bölge belirtilmişse, kaydedilen belirtilen bölge değerine göre temada tanımlanan yazı tipini uygulayacağız. Aksi takdirde, uygulama ortamının bölgesel ayarlarına göre temada tanımlanan yazı tipini uygulayacağız. Bu, çalışma kitabının varsayılan yazı tipinin (tema verilerini belirten XLS şablon dosyasından yüklenen) değişmesine neden olur ve ardından sütun genişliği, şekil boyutu, işleme efekti, ...vb. gibi diğer özellikleri etkiler.
 ### **Name.GetReferredAreas(bool recalculate) yöntemini ekler**
 GetRanges(bool recalculate) yöntemi gibi tanımlı Ad tarafından başvurulan referansları sağlar. Ancak döndürülen referanslar, harici bağlantılar dahil olmak üzere daha zengin özellikler sağlayan ReferredArea nesnesi tarafından temsil edilir.
 ### **TxtSaveOptions.KeepSeparatorsForBlankRow özelliğini ekler**

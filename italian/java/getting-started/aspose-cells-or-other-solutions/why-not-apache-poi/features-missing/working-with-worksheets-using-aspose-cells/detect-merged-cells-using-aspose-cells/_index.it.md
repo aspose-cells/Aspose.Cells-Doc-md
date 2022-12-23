@@ -5,10 +5,10 @@ weight: 30
 url: /it/java/detect-merged-cells-using-aspose-cells/
 ---
 ## **Aspose.Cells - Rileva unione Cells**
-In Microsoft Excel, è possibile unire più celle in una sola. Viene spesso utilizzato per creare tabelle complesse o per creare una cella che contenga un'intestazione che si estende su più colonne.
+In Microsoft Excel, più celle possono essere unite in una sola. Viene spesso utilizzato per creare tabelle complesse o per creare una cella che contenga un'intestazione che si estende su più colonne.
 Aspose.Cells consente di identificare le aree di celle unite in un foglio di lavoro. Puoi separarli anche tu.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

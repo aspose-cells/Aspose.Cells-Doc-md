@@ -6,9 +6,9 @@ url: /tr/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 ---
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-35|XLSM dosya biçimini Oku / Yaz|Yeni özellik|
-|CELLSCPP-36|CSV dosya biçimini Oku / Yaz|Yeni özellik|
-|CELLSCPP-37|XLSB dosya formatını Oku / Yaz|Yeni özellik|
+|CELLSCPP-35|Okuma / Yazma XLSM dosya formatı|Yeni özellik|
+|CELLSCPP-36|Okuma / Yazma CSV dosya formatı|Yeni özellik|
+|CELLSCPP-37|Okuma / Yazma XLSB dosya formatı|Yeni özellik|
 |CELLSCPP-38|Adlandırılmış Aralıklar oluşturun ve değiştirin|Yeni özellik|
 |CELLSCPP-39|Okuma / Yazma Sekmesiyle Ayrılmış dosya biçimi|Yeni özellik|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -62,6 +62,6 @@ Dosyanın yüklendiği andaki sistem kültürü bilgisini alır.
 #### **ICells::ImportTwoDimensionArray() yöntemini ekler**
 İki boyutlu bir veri dizisini bir çalışma sayfasına aktarır
 #### **ICells::ImportCSV() yöntemini ekler**
-Hücrelere bir CSV dosyası aktarır.
+Bir CSV dosyasını hücrelere aktarır.
 #### **ICells::LinkToXmlMap() yöntemini ekler**
 Bir xml haritasına bağlantılar.

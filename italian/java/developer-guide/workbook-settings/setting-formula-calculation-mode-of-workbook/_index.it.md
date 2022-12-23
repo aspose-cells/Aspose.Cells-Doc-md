@@ -16,7 +16,7 @@ Microsoft Excel consente di impostare la modalità di calcolo delle formule, ovv
 
 Per impostare la modalità di calcolo della formula in Microsoft Excel:
 
-1.  Selezionare**Formule** poi**Opzioni di calcolo**.
+1.  Selezionare**Formule** e poi**Opzioni di calcolo**.
 1. Seleziona una delle opzioni.
 
  Aspose.Cells permette anche di impostare il**Modalità di calcolo della formula** usando il[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) proprietà. Puoi assegnargli il[**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType)enumerazione che ha uno dei seguenti valori:
@@ -25,7 +25,7 @@ Per impostare la modalità di calcolo della formula in Microsoft Excel:
 - [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
- Il codice di esempio seguente crea innanzitutto una cartella di lavoro, quindi imposta la modalità di calcolo della formula su**Manuale** e salva la cartella di lavoro come file Excel di output su disco.
+Il codice di esempio seguente crea innanzitutto una cartella di lavoro, quindi imposta la modalità di calcolo della formula su**Manuale** e salva la cartella di lavoro come file Excel di output su disco.
 
 **Il file di output. Notare la modalità di calcolo della formula.**
 

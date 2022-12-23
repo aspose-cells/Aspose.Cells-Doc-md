@@ -3,6 +3,7 @@ title: ワークシートとタブの表示と非表示
 type: docs
 weight: 10
 url: /ja/net/show-and-hide-worksheets-and-tabs/
+description: この記事では、C# API または .NET ライブラリを使用して Excel ワークシートをプログラムで表示および非表示にするためのサンプル コードを提供します。さらに、Excel ワークブックのタブを表示および非表示にする方法。
 ---
 {{% alert color="primary" %}}
 

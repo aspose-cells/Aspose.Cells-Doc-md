@@ -12,12 +12,12 @@ url: /it/reportingservices/getting-started/
 
 - ***Aspose.Cells.Renderer for Reporting Services***
 
-&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services è in realtà un'implementazione dell'estensione per il rendering di Microsoft Reporting Services. Può eseguire il rendering di report RDL progettati sia da Visual Studio che da Aspose.Cells.Report.Designer.
+&nbsp;&nbsp;&nbsp;&nbsp;Aspose.Cells.Renderer for Reporting Services è in realtà un'implementazione di Microsoft Reporting Services Rendering Extension. Può eseguire il rendering di report RDL progettati sia da Visual Studio che da Aspose.Cells.Report.Designer.
 
 
 **Come ottenere Aspose.Cells for Reporting Services.** 
 
-- [Scarica]( https://downloads.aspose.com/cells/reportingservices/ )
+- [Scaricamento]( https://downloads.aspose.com/cells/reportingservices/ )
 
 **Come installare Aspose.Cells for Reporting Services.**
 

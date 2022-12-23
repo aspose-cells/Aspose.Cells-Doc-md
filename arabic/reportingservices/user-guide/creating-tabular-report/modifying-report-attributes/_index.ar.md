@@ -13,7 +13,7 @@ url: /ar/reportingservices/modifying-report-attributes/
 ).
 يتم سرد التقارير المتاحة في اللوحة اليمنى.
 
-1.  حدد تقرير وانقر**تعديل**. 
+1.  حدد تقرير وانقر**يُعدِّل**. 
 
    **اختيار تقرير** 
 
@@ -31,4 +31,4 @@ url: /ar/reportingservices/modifying-report-attributes/
 
 
 
-1.  انقر**ارتكب** لانهاء.
+1.  انقر**يقترف** لانهاء.

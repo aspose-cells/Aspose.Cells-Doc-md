@@ -25,7 +25,7 @@ url: /ar/net/aspose-cells-for-net-4-9-0-release-notes/
 - يتضمن ICustomTypeDesciptor كمصدر بيانات للعلامات الذكية
 - يتم دعم بيانات المصدر المرتبطة الخارجية في ميزة الرسم البياني للصورة
 - يتم دعم خيارات إعداد الصفحة الخارجية لبرنامج MS Excel 2007 في ملف xls
-- تحدد محتوى HTML كقيمة الخلية أو ملاحظة التعليق
+- يحدد محتوى HTML كقيمة الخلية أو ملاحظة التعليق
 - 112 إصلاحات وتحسينات أخرى.
 
  (ملاحظة: تمت إعادة تسمية فئة الرسوم البيانية Aspose.Cells.ChartCollection class إلى Aspose.Cells.ChartCollection class.)
@@ -42,7 +42,7 @@ url: /ar/net/aspose-cells-for-net-4-9-0-release-notes/
  ما تغير في Aspose.Cells.GridDesktop:
 
 - تعيين تنسيقات التاريخ "MM / DD / YYYY" و "M / D / YYYY" مع مربع حوار تنسيق Cells
-- يستورد تنسيق ملف CSV
+- يستورد CSV تنسيق ملف
 - يدعم الصيغ: LOOKUP ، MATCH
 - 3 إصلاحات وتحسينات أخرى.
 

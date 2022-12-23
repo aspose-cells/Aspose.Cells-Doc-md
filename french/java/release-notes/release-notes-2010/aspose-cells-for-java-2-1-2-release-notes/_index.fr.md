@@ -16,8 +16,8 @@ url: /fr/java/aspose-cells-for-java-2-1-2-release-notes/
 
 - Fournit la fonctionnalité Graphique à Image.
  Importe RichText à partir du fichier de modèle SpreadSheetML.
-Prend en charge l'exportation de l'objet Name avec des références externes pour le fichier SpreadSheetML.
- Exporte les images dans PageSetup pour les fichiers Excel 2007.
+ Prend en charge l'exportation de l'objet Name avec des références externes pour le fichier SpreadSheetML.
+Exporte les images dans PageSetup pour les fichiers Excel 2007.
  Importe des contrôles TextBox à partir de fichiers Excel 2007.
  Fournit un support pour définir la limite d'enregistrement lors de l'importation de données à partir de ResultSet pour les marqueurs intelligents.
  Définit la position d'un Shape au centre d'une plage donnée.
@@ -30,14 +30,14 @@ Prend en charge l'exportation de l'objet Name avec des références externes pou
  Améliore les performances de lecture des gros fichiers Excel 2007.
  Améliore les performances de LightCells API pour les gros fichiers Excel 2007.
  L'opération de lecture des propriétés d'un document est améliorée.
-L'opération d'importation de fichiers CSV est améliorée.
+ L'opération d'importation des fichiers CSV est améliorée.
  67 correctifs et améliorations.
 
- Problèmes résolus au Aspose.Cells for Java 2.1.2
+Problèmes résolus au Aspose.Cells for Java 2.1.2
 
 
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |6245 | xl| Rassembler les styles|
 |6362 | xl| Copier le style lors de l'insertion de lignes/colonnes|
@@ -48,7 +48,7 @@ L'opération d'importation de fichiers CSV est améliorée.
 |11928 | xl| Lire le fichier modèle|
 |11943 | SpreadSheetML| Lire le fichier spécial généré par OWC|
 |11973 | SpreadSheetML| Lire le fichier spécial généré par OWC|
-|12006 | CSV| Lire le fichier csv|
+|12006 |CSV | Lire le fichier csv|
 |12032 | Moteur de formule| formule NB.SI|
 |12034 | xl| Ajustement automatique des colonnes|
 |12056 | Moteur de formule| Formule SI|
@@ -72,11 +72,11 @@ L'opération d'importation de fichiers CSV est améliorée.
 |12493 | xlsx| Lire la mise en forme conditionnelle|
 |12498 | graphique| Collection ChartPoints et LegendEntries|
 |12575 | graphique| Taille de PlotArea|
-|12576 | graphique|Barre d'erreur|
+|12576 | graphique| Barre d'erreur|
 |12622 | xlsx| Lire la formule partagée|
 |12625 | xlsx| Lire le graphique|
 |12667 | xl| Valeur date-heure|
-|12684 | CSV| Lire le numéro|
+|12684 |CSV |Lire le numéro|
 |12717 | xl| Image avec Mac OS|
 |12727 | xl| Lire les propriétés du document|
 |12750 | xl| Obtenir le lien hypertexte de la forme|

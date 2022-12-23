@@ -15,7 +15,7 @@ Aspose.Cells for Java 8.9.0 hat die DefaultFontName-Eigenschaft für die HtmlSav
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Festlegen der Standardschriftart zum Rendern von Tabellenkalkulationen im HTML-Format](/cells/de/java/set-default-font-while-rendering-spreadsheet-to/).
+ Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Festlegen der Standardschriftart zum Rendern von Tabellenkalkulationen auf das Format HTML](/cells/de/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **ImageOrPrintOptions.DefaultFont-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.9.0 ermöglicht das Festlegen des Standardschriftartnamens für die ImageOrPrintOptions-Klasse durch Verfügbarmachen der DefaultFont-Eigenschaft. Die besagte Eigenschaft kann verwendet werden, wenn Unicode-Zeichen in der Tabelle nicht mit der richtigen Schriftart im Zellenstil gesetzt sind, daher können solche Zeichen als Blöcke in den resultierenden Bildern erscheinen.
+ Aspose.Cells for Java 8.9.0 ermöglicht das Festlegen des Standardschriftartnamens für die ImageOrPrintOptions-Klasse durch Verfügbarmachen der DefaultFont-Eigenschaft. Die besagte Eigenschaft kann verwendet werden, wenn Unicode-Zeichen in der Tabelle nicht mit der richtigen Schriftart im Zellenstil gesetzt sind, daher können solche Zeichen als Blöcke in den resultierenden Bildern erscheinen.
 
 {{% alert color="primary" %}} 
 

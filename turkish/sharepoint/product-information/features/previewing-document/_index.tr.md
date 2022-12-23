@@ -9,17 +9,17 @@ Share Point için Aspose.Cells, belgeleri doğrudan SharePoint'ten önizlemeyi d
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Açık XML
 - XLSM, XLTX, XLTM – Office Açık XML
-- XML – Microsoft Excel Hesap TablosuML
+- XML – Microsoft Excel SpreadsheetML
 
 **Önizlemek için bir belge seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](previewing-document_1.png)
+![yapılacaklar:resim_alternatif_metin](previewing-document_1.png)
 
 
 
 **Bir SharePoint kitaplığından belge önizlemesi** 
 
-![yapılacaklar:resim_alternatif_Metin](previewing-document_2.png)
+![yapılacaklar:resim_alternatif_metin](previewing-document_2.png)
 
 
 

@@ -29,7 +29,7 @@ url: /zh/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48060|将 RemoveUnusedStyles 函数与自定义样式一起使用时出错|漏洞|
 |CELLSNET-48080|创建数据透视表时数据透视表不能使用“值”或“值”作为列名|漏洞|
 |CELLSNET-48085|呈现隐藏的列标题|漏洞|
-|CELLSNET-48105|将 Excel 转换为 HTML 时，文本框的位置发生了变化|漏洞|
+|CELLSNET-48105|将 Excel 转换为 HTML 时更改文本框位置|漏洞|
 |CELLSNET-48048|将带有注释的 XLSX 保存为 PDF 格式时出现异常|漏洞|
 |CELLSNET-48082|使用 ImportCustomObjects 添加超过 30 行会生成损坏的文件|漏洞|
 |CELLSNET-48086|命名范围在 21.5 中未正确创建但在 21.4 中有效|漏洞|
@@ -37,14 +37,14 @@ url: /zh/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48081|图像未显示在 GridWeb 中|漏洞|
 |CELLSNET-48117|为 GridDesktop 添加 GridCell.GetValidation()|漏洞|
 |CELLSNET-47627|使用 Aspose.Cells 访问/修改 Excel 图表的 X 轴时出现问题|漏洞|
-|CELLSNET-48041|提取的图表在图表中扭曲为图像/PDF 渲染|漏洞|
+|CELLSNET-48041|提取的图表在图表中扭曲到图像/PDF 渲染|漏洞|
 |CELLSNET-48049|从 xlsx 工作簿转换为 emf 时轴间距不同|漏洞|
 |CELLSNET-48101|中文字符显示为 Rectagle Linux Docker|漏洞|
 |CELLSNET-48061|查询替换后 PowerQueries 消失|漏洞|
 |CELLSNET-48065|重新保存具有特定命名范围值的文件会导致 Excel 损坏|漏洞|
 |CELLSNET-48067|SetChartDataRange 无法识别合并的单元格|漏洞|
 |CELLSNET-48072|读取空图表会得到错误的图表类型|漏洞|
-|CELLSNET-48133|打开输出 XLSX 文件时 MS Excel 引发的错误|漏洞|
+|CELLSNET-48133|打开输出 XLSX 文件时 MS Excel 引发错误|漏洞|
 |CELLSNET-48045|将 svg 转换为图像时抛出异常|例外|
 |CELLSNET-48062|将 XLS 转换为 XLSX 时出现异常|例外|
 |CELLSNET-48074|打开 Apple 数字文件时值不能为空|例外|

@@ -14,6 +14,6 @@ url: /it/sharepoint/aspose-cells-for-sharepoint-2-0-0-release-notes/
 
  Cosa c'è di nuovo:
 
-· Supporta Microsoft SharePoint Server 2010.
+ · Supporta Microsoft SharePoint Server 2010.
 
  · Aggiunge l'opzione "Sovrascrivi" nella pagina delle impostazioni di conversione dei file.

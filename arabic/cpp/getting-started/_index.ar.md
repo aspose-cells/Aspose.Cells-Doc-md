@@ -11,15 +11,15 @@ description: كيفية تثبيت Aspose Cells for C++ وإنشاء تطبيق 
 
 {{% /alert %}}
 
-## **تثبيت**
+## **التركيب**
 
 ### **قم بتثبيت Aspose Cells حتى NuGet**
 
-NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for C++.
+ NuGet هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for C++.
 1. قم بإنشاء Microsoft مشروع Visual Studio for C++.
 2. قم بتضمين ملف الرأس "Aspose.Cells.h".
 3. افتح Microsoft Visual Studio و NuGet مدير الحزم.
- 4. ابحث عن "aspose.cells.cpp" للعثور على Aspose.Cells for C++ المطلوب.
+4. ابحث عن "aspose.cells.cpp" للعثور على Aspose.Cells for C++ المطلوب.
 5. انقر فوق "تثبيت" ، سيتم تنزيل Aspose.Cells for C++ والإشارة إليه في مشروعك.
 
 **! [تثبيت Aspose Cells حتى NuGet] (InstallThroughNuget.png)**

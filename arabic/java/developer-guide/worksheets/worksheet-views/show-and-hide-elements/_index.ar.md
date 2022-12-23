@@ -12,11 +12,11 @@ Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مص
 
 ## **إظهار وإخفاء ورقة العمل**
 
- يمكن أن يحتوي ملف Excel على ورقة عمل واحدة أو أكثر. عندما نقوم بإنشاء ملف Excel ، نضيف أوراق العمل إلى ملف Excel الذي نعمل فيه. كل ورقة عمل في ملف Excel مستقلة عن ورقة العمل الأخرى من خلال وجود بياناتها وإعدادات التنسيق الخاصة بها وما إلى ذلك. في بعض الأحيان ، قد يطلب المطورون إخفاء أوراق عمل قليلة والأخرى مرئية في ملف Excel لمصلحتهم الخاصة. لذا،**Aspose.Cells** يسمح للمطورين بالتحكم في رؤية أوراق العمل في ملفات Excel الخاصة بهم.
+ يمكن أن يحتوي ملف Excel على ورقة عمل واحدة أو أكثر. عندما نقوم بإنشاء ملف Excel ، نضيف أوراق العمل إلى ملف Excel الذي نعمل فيه. كل ورقة عمل في ملف Excel مستقلة عن ورقة العمل الأخرى من خلال وجود بياناتها وإعدادات التنسيق الخاصة بها وما إلى ذلك. في بعض الأحيان ، قد يطلب المطورون إخفاء أوراق عمل قليلة والأخرى مرئية في ملف Excel لمصلحتهم الخاصة. وبالتالي،**Aspose.Cells** يسمح للمطورين بالتحكم في رؤية أوراق العمل في ملفات Excel الخاصة بهم.
 
 **التحكم في رؤية أوراق العمل:**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel.[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel.[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تحتوي على[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) يسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
  يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ورقة العمل. ولكن للتحكم في رؤية ورقة العمل ، يمكن للمطورين استخدامها[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) طريقة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.
 
@@ -44,7 +44,7 @@ Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مص
 
 **ورقة عمل - بعد تنفيذ كود المثال:**
 
-**كتاب 1.xls** يتم فتح الملف باستخدام ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة ثم ورقة العمل الأولى من**كتاب 1.xls** تم إخفاء الملف. يتم حفظ الملف المعدل كملف**الإخراج. xls**الملف الذي تظهر صورته أدناه:
+**كتاب 1.xls** يتم فتح الملف باستخدام ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)فئة ثم ورقة العمل الأولى من**كتاب 1.xls** تم إخفاء الملف. يتم حفظ الملف المعدل كملف**الإخراج. xls** الملف الذي تظهر صورته أدناه:
 
 ![ما يجب القيام به: image_بديل_نص](show-and-hide-elements_2.png)
 
@@ -199,7 +199,7 @@ Aspose.Cells يسمح للمستخدم بإظهار وإخفاء عناصر مص
 
 **مثال: إخفاء خطوط الشبكة في ورقة عمل معينة**
 
- يوضح المثال أدناه استخدام[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**setGridlinesVisible (خطأ)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) طريقة لإخفاء خطوط الشبكة في ورقة العمل الأولى من ملف Excel.
+ يوضح المثال أدناه استخدام امتداد[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[**setGridlinesVisible (خطأ)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) طريقة لإخفاء خطوط الشبكة في ورقة العمل الأولى من ملف Excel.
 
 توضح لقطة الشاشة أدناه أن ملف Book1.xls يحتوي على ثلاث أوراق عمل: Sheet1 و Sheet2 و Sheet3. تحتوي كل أوراق العمل هذه على خطوط شبكية.
 

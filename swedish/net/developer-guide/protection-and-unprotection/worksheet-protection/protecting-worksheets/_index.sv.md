@@ -17,7 +17,7 @@ När ett kalkylblad är skyddat är de åtgärder en användare kan vidta begrä
 De allmänna skyddsalternativen i Microsoft Excel är:
 
 - Innehåll
-- Objekt
+- Föremål
 - Scenarier
 
 Skyddade kalkylblad döljer eller skyddar inte känslig data, så det skiljer sig från filkryptering. I allmänhet är kalkylbladsskydd lämpligt för presentationsändamål. Det hindrar slutanvändaren från att ändra data, innehåll och formatering i kalkylbladet.
@@ -38,7 +38,7 @@ Skyddade kalkylblad döljer eller skyddar inte känslig data, så det skiljer si
 |:- |:- |
 |Allt|Användaren kan inte ändra något i detta kalkylblad|
 |Innehåll|Användaren kan inte ange data i detta kalkylblad|
-|Objekt|Användaren kan inte ändra ritobjekt|
+|Föremål|Användaren kan inte ändra ritobjekt|
 |Scenarier|Användaren kan inte ändra sparade scenarier|
 |Strukturera|Användaren kan inte ändra strukturen|
 |Windows|Skydd tillämpas på fönster|
@@ -78,7 +78,7 @@ Följande punkter beskriver hur du låser några celler med MS Excel. Denna meto
 
 den här metoden använder vi Aspose.Cells API endast för att utföra uppgiften.
 
- Exempel: Följande exempel visar hur man skyddar några få celler i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan 3 celler (A1, B1, C1) i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objekt innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till sant eller falskt och tillämpas*Column/Row.ApplyStyle()* metod för att låsa eller låsa upp raden/kolumnen med dina önskade attribut.
+ Exempel: Följande exempel visar hur man skyddar några få celler i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan 3 celler (A1, B1, C1) i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style)objektet innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till sant eller falskt och tillämpas*Column/Row.ApplyStyle()* metod för att låsa eller låsa upp raden/kolumnen med dina önskade attribut.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
 
@@ -86,7 +86,7 @@ den här metoden använder vi Aspose.Cells API endast för att utföra uppgiften
 
  Aspose.Cells låter dig enkelt låsa valfri rad i kalkylbladet. Här kan vi använda oss av[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) metod av[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row) klass att ansöka[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) till en viss rad i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objekt som har alla medlemmar relaterade till tillämpad formatering.
 
- Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan den första raden i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till true eller false för att låsa eller låsa upp raden/kolumnen med hjälp av[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objekt.
+ Följande exempel visar hur man skyddar en rad i kalkylbladet. Den låser upp alla celler i kalkylbladet först och låser sedan den första raden i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objektet innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till true eller false för att låsa eller låsa upp raden/kolumnen med hjälp av[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objekt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
 
@@ -94,7 +94,7 @@ den här metoden använder vi Aspose.Cells API endast för att utföra uppgiften
 
  Aspose.Cells låter dig enkelt låsa valfri kolumn i kalkylbladet. Här kan vi använda oss av[**ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/column/methods/applystyle) metod av[**Aspose.Cells.Column**](https://reference.aspose.com/cells/net/aspose.cells/column) klass att ansöka[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) till en viss kolumn i kalkylbladet. Denna metod tar två argument: a[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt och[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objekt som har alla medlemmar relaterade till tillämpad formatering.
 
-Följande exempel visar hur man skyddar en kolumn i kalkylbladet. Det låser upp alla celler i kalkylbladet först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till true eller false för att låsa eller låsa upp raden/kolumnen med hjälp av[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objekt.
+Följande exempel visar hur man skyddar en kolumn i kalkylbladet. Det låser upp alla celler i kalkylbladet först och låser sedan den första kolumnen i det. Slutligen skyddar det kalkylbladet. De[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objektet innehåller en boolesk egenskap,[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Du kan ställa in[**Är låst**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) egenskapen till true eller false för att låsa eller låsa upp raden/kolumnen med hjälp av[**StilFlagga**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objekt.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
 

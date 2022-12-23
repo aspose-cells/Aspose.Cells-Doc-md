@@ -18,7 +18,7 @@ url: /ar/nodejs-java/optimizing-memory-usage-while-working-with-big-files-having
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 
-## **حذر**
+## **الحذر**
 
  الخيار الافتراضي ،[**إعداد الذاكرة**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)يتم تطبيقه على جميع الإصدارات. بالنسبة لبعض المواقف ، مثل إنشاء مصنف بمجموعة بيانات كبيرة للخلايا ، فإن ملف[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)الخيار قد يحسن استخدام الذاكرة ويقلل من تكلفة الذاكرة للتطبيق. ومع ذلك ، قد يؤدي هذا الخيار إلى تدهور الأداء في بعض الحالات الخاصة مثل المتابعة.
 

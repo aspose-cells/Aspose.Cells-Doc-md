@@ -26,7 +26,7 @@ Det här avsnittet har följande ämnen:
     - [Importerar från ArrayList](/cells/sv/net/importing-from-arraylist/)
     - [Importera från anpassade objekt](/cells/sv/net/importing-from-custom-objects/)
     - [Importerar från DataTable](/cells/sv/net/importing-from-datatable/)
-- [Spara arbetsboken i text- eller CSV-format i Aspose.Cells](/cells/sv/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [Spara arbetsbok till text eller CSV format i Aspose.Cells](/cells/sv/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [Smarta markörer på Aspose.Cells](/cells/sv/net/smart-markers-in-aspose-cells/)
   - [Gruppera data](/cells/sv/net/grouping-data/)
   - [Bildmarkörer](/cells/sv/net/image-markers/)

@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.11.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45748|Funzionalità simile a XmlMapQuery necessaria come disponibile in MS Excel|Nuova caratteristica|
 |CELLSNET-45747|Proprietà associata necessaria per XMLMaps per ottenere il RootElementName per la mappa|Nuova caratteristica|
@@ -20,20 +20,20 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.11.
 |CELLSNET-45755|Impossibile ottenere il testo delle forme Smart Art|Aumento|
 |CELLSNET-45720|La tabella pivot impiega troppo tempo per aggiornare i dati|Prestazione|
 |CELLSNET-45680|La direzione della forma è errata quando viene convertita in formato immagine|Insetto|
-|CELLSNET-45679|Le forme delle stelle non vengono visualizzate correttamente nel PDF di output|Insetto|
+|CELLSNET-45679|Le forme a stella non vengono visualizzate correttamente nell'output PDF|Insetto|
 |CELLSNET-45669|I caratteri si sovrappongono durante la conversione in immagine|Insetto|
 |CELLSNET-45665|Alcuni elementi del disegno sono invertiti mentre altri sono spostati a destra|Insetto|
-|CELLSNET-43912|Posizione degli oggetti linea modificata durante il rendering del foglio di calcolo in PDF|Insetto|
+|CELLSNET-43912|Posizione degli oggetti linea modificata durante il rendering del foglio di calcolo a PDF|Insetto|
 |CELLSNET-45715|Opzioni tabella pivot - Mostra la riga dei valori - viene abilitata al nuovo salvataggio|Insetto|
 |CELLSNET-45671|Valori totali mancanti per i campi calcolati durante l'aggiornamento/calcolo dei dati della tabella pivot|Insetto|
 |CELLSNET-45650|Errore nell'espansione dei dati nelle colonne appropriate durante il salvataggio di un formato di file MHTML in un file Excel|Insetto|
 |CELLSNET-45721|LightCellsDataProvider sta rimuovendo gli spazi iniziali e finali|Insetto|
 |CELLSNET-45719|Il calcolo della formula risolve la formula in modo imprevisto in errore|Insetto|
 |CELLSNET-45724|Il salvataggio di Excel come PDF riduce la larghezza della colonna|Insetto|
-|CELLSNET-45712|La legenda del grafico non è presente nel PDF di output|Insetto|
+|CELLSNET-45712|La legenda del grafico non è presente nell'output PDF|Insetto|
 |CELLSNET-45710|La formattazione dei numeri nel grafico viene persa dopo il salvataggio di un file Excel come PDF|Insetto|
 |CELLSNET-45708|Il file PDF creato da Aspose.Cells causa un errore in Adobe Acrobat Reader|Insetto|
-|CELLSNET-45684|Da grafico a immagine o PDF - Il grafico a linee 3D non è corretto o è ruotato|Insetto|
+|CELLSNET-45684|Da grafico a immagine o PDF - Grafico a linee 3D non corretto o ruotato|Insetto|
 |CELLSNET-45760|La convalida non viene copiata correttamente da un foglio di lavoro a un altro|Insetto|
 |CELLSNET-45758|La proprietà Style.QuotePrefix non funziona per il formato di file XLSB|Insetto|
 |CELLSNET-45757|La cartella di lavoro specifica di Excel viene nascosta dopo l'apertura e il salvataggio|Insetto|
@@ -46,14 +46,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.11.
 |CELLSNET-45714|L'altezza della riga diventa troppo grande dopo l'adattamento automatico delle righe|Insetto|
 |CELLSNET-45735|Problema con CellColor quando si utilizza il menu di scelta rapida per modificare|Insetto|
 |CELLSNET-45707|Eccezione quando si usa PivotTable.RefreshData|Eccezione|
-|CELLSNET-45728|L'indice era fuori dall'intervallo durante il salvataggio come pagina PDF|Eccezione|
+|CELLSNET-45728|L'indice non rientrava nell'intervallo durante il salvataggio come pagina PDF|Eccezione|
 |CELLSNET-45704|Workbook.Save() ha esito negativo con un'eccezione quando si usa Aspose.Cells come processo Web di Azure|Eccezione|
 |CELLSNET-45753|Quando XLSB viene convertito in PDF, si verifica System.ArgumentOutOfRangeException|Eccezione|
 |CELLSNET-45751|La proprietà ExportTableOptions.Indexes utilizzata nel metodo ExportDataTable() causa un'eccezione|Eccezione|
-|CELLSNET-45726|Eccezione durante il caricamento del file XLS di output (con oggetti OLE, immagini, ecc. esclusi)|Eccezione|
+|CELLSNET-45726|Eccezione durante il caricamento del file di output XLS (con oggetti OLE, immagini, ecc. esclusi)|Eccezione|
 |CELLSNET-45723|R1C1Formula genera un'eccezione se la formula contiene il carattere "[" ]|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo Shape.GetResultOfSmartArt()**
 Converti la smart art in una forma di gruppo.
 #### **Aggiunge la proprietà Shape.IsSmartArt**

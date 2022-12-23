@@ -23,13 +23,13 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44204|Paginierungsproblem für csv|
 |CELLSJAVA-43934|Die Kreisdiagrammbeschriftungen werden nach dem Bearbeiten oder Aktualisieren des Diagramms nicht mit Excel abgeglichen|
 |CELLSJAVA-44122|Beim Exportieren von HTML unterscheiden sich die Datenbeschriftungen von denen von Excel|
-|CELLSJAVA-41949| Inhalte werden beim Speichern von Arbeitsmappen im XLSX- und HTML-Format anders gerendert|
-|CELLSJAVA-44207|Beim Exportieren in HTML wird die Zeilenhöhe höher|
-|CELLSJAVA-44233|Endlosschleife beim Konvertieren von XLSX-Dateien|
+|CELLSJAVA-41949| Inhalt wird anders gerendert, wenn Workbook in den Formaten XLSX und HTML gespeichert wird|
+|CELLSJAVA-44207|Beim Exportieren nach HTML wird die Zeilenhöhe höher|
+|CELLSJAVA-44233|Endlosschleife beim Konvertieren der XLSX-Datei|
 |CELLSJAVA-44271|Bei der Konvertierung von Excel nach PDF verschiebt sich die Ausgabeposition im Vergleich zur manuellen Konvertierung|
-|CELLSJAVA-44197|Beim Konvertieren von XLSX in PDF wird die Zeitachsenform (Fenster) der Pivot-Tabelle nicht angezeigt|
+|CELLSJAVA-44197|Beim Konvertieren von XLSX in PDF wird die Pivot-Tabellen-Zeitachsenform (Fenster) nicht angezeigt|
 |CELLSJAVA-44267|Arbeitsmappe, die eine Pivot-Tabelle enthält, wird beschädigt|
-|CELLSJAVA-44114|XLSX in PDF: Daten im wissenschaftlichen Zahlenformat aus der XLSX-Datei stimmen nicht mit den Daten in der PDF-Ausgabedatei überein|
+|CELLSJAVA-44114|XLSX bis PDF: Daten im wissenschaftlichen Zahlenformat aus der Datei XLSX stimmen nicht mit den Daten in der Ausgabedatei PDF überein|
 |CELLSJAVA-44293|Die erneut gespeicherte Excel-Datei muss beim Öffnen in MS Excel wiederhergestellt werden|
 |CELLSJAVA-43194|Bilder werden falsch angezeigt|
 |CELLSJAVA-44243|Die Speicherdatei der GridWeb Spring Demo ist in jdk1.8 fehlgeschlagen|
@@ -38,8 +38,8 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44229|Die Formel geht verloren, wenn der td-Inhalt von einem div-Tag umschlossen wird|
 |CELLSJAVA-44247|Einzeiliger Text wird beim Konvertieren in PDF umgebrochen|
 |CELLSJAVA-44175| Problem mit überlappenden Donut-Diagrammbeschriftungen|
-|CELLSJAVA-44192| Der Elementname der Kategorieachse im Diagramm wird bei der Konvertierung von Excel in PDF abgeschnitten|
-|CELLSJAVA-44233|Endlosschleife beim Konvertieren von XLSX-Dateien|
+|CELLSJAVA-44192|Der Elementname der Kategorieachse im Diagramm wird in Excel auf die Konvertierung PDF abgeschnitten|
+|CELLSJAVA-44233|Endlosschleife beim Konvertieren der XLSX-Datei|
 |CELLSJAVA-44263|Das Festlegen der Richtung des Diagrammbeschriftungstexts auf vertikal wird nicht wirksam|
 |CELLSJAVA-44268| Ausnahme "java.lang.NullPointerException" bei der Chart.toPdf-Methode|
 |CELLSJAVA-44302|Die Textrichtung der Koordinatenachse ist falsch, nachdem die Excel-Datei in HTML konvertiert wurde|
@@ -48,21 +48,21 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44369| Formhöhe ist nicht korrekt|
 |CELLSJAVA-44366|Das Kopieren des Blattinhalts auf eine neue Blattseite und das Speichern als HTML führt zu einem anormalen Stil der Excel-Mathematikformel|
 |CELLSJAVA-44408|Das Prozentformat von Cell geht verloren, wenn wir die beiden geänderten Zeilen erweitern|
-|CELLSJAVA-44341|Cell Breite ist in der DOCX-Ausgabe in Excel in DOCX-Konvertierung nicht korrekt|
+|CELLSJAVA-44341|Cell Breite ist nicht korrekt in der Ausgabe DOCX in Excel zu DOCX Konvertierung|
 |CELLSJAVA-44383|Die bedingte Formatierung funktionierte nicht mehr, nachdem benutzerdefinierte Eigenschaften hinzugefügt wurden|
 |CELLSJAVA-44370|Excel-Datei wird beschädigt, wenn sie geöffnet und mit Aspose.Cells gespeichert wird|
-|CELLSJAVA-44344| Problem mit horizontalem Kopieren von Bereichen in der XLSX-Ausgabe|
+|CELLSJAVA-44344|Problem mit horizontalem Kopieren von Bereichen in der Ausgabe XLSX|
 |CELLSJAVA-44363| Die Zeilenkopfhöhe stimmt nicht mit dem Zeileninhalt in der Datei mit Freezepane überein|
 |CELLSJAVA-44349|Bild/Form soll nach dem Neustart des Servers für GridWeb beibehalten werden|
 |CELLSJAVA-44367|Die Farbe des Säulendiagramms wird bei der Konvertierung in html weiß|
-|CELLSJAVA-44328| Einige Datenbeschriftungen von Excel-Diagrammen gehen verloren, wenn eine Excel-Datei als HTML gespeichert wird|
-|CELLSJAVA-44193|Der Winkel der Kategorieachsenelemente im Diagramm unterscheidet sich bei der Excel-in-PDF-Konvertierung|
+|CELLSJAVA-44328| Einige Datenbeschriftungen von Excel-Diagrammen gehen verloren, wenn die Excel-Datei als HTML gespeichert wird|
+|CELLSJAVA-44193|Der Winkel der Kategorieachsenelemente im Diagramm unterscheidet sich in Excel von der PDF-Konvertierung|
 |CELLSJAVA-44314|Falsche Diagrammkategorie-Achsenbeschriftungen beim Diagramm-zu-Bild-Rendering|
 |CELLSJAVA-44332|Cell Link-Unterstreichung kann nicht entfernt werden, wenn xlsx in html konvertiert wird|
 |CELLSJAVA-44234|Nicht genügend Arbeitsspeicher für die Datei data.xls|
 |CELLSJAVA-44246|Ausnahme "Ungültiger Endrow-Index" für leere Datei|
 |CELLSJAVA-44258| Nullzeiger-Ausnahme für Datei|
-|CELLSJAVA-44311|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern in das HTML-Dateiformat|
+|CELLSJAVA-44311|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern in das Dateiformat HTML|
 |CELLSJAVA-44285|Ausnahme „java.lang.ClassCastException: com.aspose.cells.n2f kann nicht in com.aspose.cells.o90 umgewandelt werden“ beim Aufruf von Workbook.calculateFormula()|
 |CELLSJAVA-44323|Ausnahme beim Hinzufügen einer Signaturzeile|
 |CELLSJAVA-44361|CellsException beim Konvertieren von xlsx in html ausgelöst|
@@ -89,7 +89,7 @@ In alten Versionen?DataSorter.Sort() Methoden geben nichts zurück. Ab dieser Ve
 
 ### **Fügt die TxtLoadOptions.ExtendToNextSheet-Eigenschaft hinzu.**
 
-Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Anzahl der Zeilen oder Spalten der Daten das Limit von MS Excel überschreitet.
+Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Zeilen- oder Spaltenanzahl der Daten das Limit von MS Excel überschreitet.
 
 ### **Fügt die Methode ExternalLinkCollection.Clear() hinzu.**
 

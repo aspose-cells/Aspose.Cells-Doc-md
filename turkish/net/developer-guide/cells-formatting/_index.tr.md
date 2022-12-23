@@ -6,7 +6,7 @@ weight: 120
 url: /tr/net/cells-formatting/
 description: .NET Framework, .NET Core, Mono veya Xamarin Platformlarında Excel dosyaları için sayı biçimini, kenarlığı ve arka plan rengini ayarlayın.
 ---
-## **giriiş**
+## **Giriş**
 
 {{% alert color="primary" %}}
 
@@ -66,7 +66,7 @@ Aspose.Cells bu özelliği de desteklemektedir. Bu konuda, bu özelliği nasıl 
 
 {{% alert color="primary" %}}
 
- Bir hücredeki Zengin Metnin bir bölümünü biçimlendirmekle ilgileniyorsanız,[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemler. bu[[**Cell.GetCharacters**]](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) Yöntem, metnin bölümlerine erişmek için kullanılacaktır ve daha sonra düzeltmeler kullanılarak yapılabilir.[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntem oysa**Almak**yöntem bir dizi döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi çeşitli özellikleri ayarlamak için değiştirilebilen nesneler ve**Ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+ Bir hücredeki Zengin Metnin bir bölümünü biçimlendirmekle ilgileniyorsanız,[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntemler. bu[[**Cell.GetCharacters**]](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) Yöntem, metnin bölümlerine erişmek için kullanılacaktır ve daha sonra düzeltmeler kullanılarak yapılabilir.[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) yöntem oysa**Elde etmek**yöntem bir dizi döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) yazı tipi adı, yazı tipi rengi, kalınlık vb. gibi çeşitli özellikleri ayarlamak için değiştirilebilen nesneler ve**Ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
 
 {{% /alert %}}
 

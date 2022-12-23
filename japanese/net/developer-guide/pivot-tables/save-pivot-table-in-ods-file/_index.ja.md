@@ -1,5 +1,5 @@
 ﻿---
-title: ピボット テーブルを ODS ファイルに保存する
+title: ピボットテーブルを ODS ファイルに保存
 type: docs
 weight: 150
 url: /ja/net/save-pivot-table-in-ods-file/

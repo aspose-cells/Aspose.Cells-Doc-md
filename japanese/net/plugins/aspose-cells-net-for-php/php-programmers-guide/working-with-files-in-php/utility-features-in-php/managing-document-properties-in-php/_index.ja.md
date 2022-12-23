@@ -7,7 +7,7 @@ url: /ja/net/managing-document-properties-in-php/
 ## **Aspose.Cells - ドキュメント プロパティの管理**
 Microsoft Excel ファイルのドキュメント プロパティの管理
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

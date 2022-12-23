@@ -60,7 +60,7 @@ wb.Write(sw);
 sw.Close();
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**إعادة ترتيب أوراق العمل** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/ReOrder.WorkSheets.zip)

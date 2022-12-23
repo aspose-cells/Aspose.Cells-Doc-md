@@ -10,6 +10,6 @@ Aspose.Cells destekler*DBNum*özel desen biçimlendirme. Örneğin, hücre değe
 
 ## **Basit kod**
 
- Aşağıdaki örnek kod, nasıl belirtileceğini gösterir*DBNum*özel desen biçimlendirme. Lütfen kontrol edin[çıktı PDF](43352082.pdf) daha fazla yardım için
+ Aşağıdaki örnek kod, nasıl belirtileceğini gösterir*DBNum*özel desen biçimlendirme. Lütfen kontrol edin[çıkış PDF](43352082.pdf) daha fazla yardım için
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}

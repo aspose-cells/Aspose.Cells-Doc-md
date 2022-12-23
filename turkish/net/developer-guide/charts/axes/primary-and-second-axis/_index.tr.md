@@ -10,6 +10,6 @@ Bir grafikteki sayılar veri serisinden veri serisine büyük farklılıklar gö
  Lütfen yeni bir Excel dosyası oluşturan ve grafiğin değerlerini ilk çalışma sayfasına koyan aşağıdaki örnek koda bakın.
 Sonra bir grafik ekleyip ikinci ekseni gösteriyoruz.
 
-![yapılacaklar:resim_alternatif_Metin](excel.png)
+![yapılacaklar:resim_alternatif_metin](excel.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "primary-and-second-axis.cs" >}}

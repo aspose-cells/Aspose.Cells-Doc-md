@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-20-7-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47432|Ajouter la prise en charge des critères FilterString()|Nouvelle fonctionnalité|
 |CELLSNET-47410|Type de feuille incorrect renvoyé pour la feuille macro internationale|Nouvelle fonctionnalité|
@@ -21,24 +21,24 @@ url: /fr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47433|Worksheet.Cells.RemoveDuplicates ne fonctionne pas ou prend trop de temps.|Performance|
 |CELLSNET-46753|WorkbookDesigner.Process() se bloque pour les données volumineuses|Performance|
 |CELLSNET-47379|Conversion HTML vers Excel - Les bordures sont manquantes lorsqu'elles sont définies dans CSS|Punaise|
-|CELLSNET-47394|La légende du graphique contenant des dates a un format différent dans la sortie PDF|Punaise|
+|CELLSNET-47394|La légende du graphique contenant les dates a un format différent dans la sortie PDF|Punaise|
 |CELLSNET-47400|Format conditionnel différent de celui défini dans Excel|Punaise|
 |CELLSNET-47402|Tableaux croisés dynamiques non actualisés|Punaise|
 |CELLSNET-47404|Les caractères chinois sont illisibles lors du chargement du fichier .mht.|Punaise|
 |CELLSNET-47411|Impossible de créer une copie de XLSB|Punaise|
-|CELLSNET-47427|Le contenu est décalé lors de l'exportation au format HTML|Punaise|
+|CELLSNET-47427|Le contenu est décalé lors de l'exportation vers HTML|Punaise|
 |CELLSNET-47471|Les CellAreas des formats conditionnels ne sont pas corrects après l'actualisation et le calcul du tableau croisé dynamique|Punaise|
 |CELLSNET-47426|Valeur incorrecte de la règle de validation des données|Punaise|
-|CELLSNET-47456|GetValidation().IgnoreBlank ne fonctionne pas|Punaise|
+|CELLSNET-47456|GetValidation(). IgnoreBlank ne fonctionne pas|Punaise|
 |CELLSNET-47472|Problème de performances avec la définition de la fonction de formule partagée dans les versions plus récentes|Punaise|
 |CELLSNET-47443|Les filtres automatiques ne fonctionnent pas correctement dans Aspose.Cells.GridDesktop|Punaise|
 |CELLSNET-47460|L'impression de GridWeb sur Firefox récent (versions : 77 et 78) ne fonctionne pas|Punaise|
 |CELLSNET-47461|La sélection de plusieurs cellules dans GridWeb ne fonctionne pas sur les dernières versions de Firefox|Punaise|
-|CELLSNET-47417|La hauteur de cellule est insuffisante dans le rendu Excel vers PDF|Punaise|
-|CELLSNET-47437|Le PDF converti à partir de XLS génère une erreur dans Acrobat Reader|Punaise|
-|CELLSNET-47423|Les étiquettes de l'axe des valeurs et de l'axe des catégories dans les graphiques ne sont pas rendues lors de la conversion d'Excel en PDF|Punaise|
+|CELLSNET-47417|La hauteur de cellule est insuffisante dans Excel pour le rendu PDF|Punaise|
+|CELLSNET-47437|PDF converti à partir de XLS génère une erreur dans Acrobat Reader|Punaise|
+|CELLSNET-47423|Les étiquettes de l'axe des valeurs et de l'axe des catégories dans les graphiques ne sont pas rendues dans Excel à la conversion PDF|Punaise|
 |CELLSNET-47429|Le graphique Sunburst avec une couleur de remplissage personnalisée et aucune étiquette de données génère une erreur dans la méthode ToImage|Punaise|
-|CELLSNET-47438|Couleur du graphique en nuage de points Conversion Excel en PDF|Punaise|
+|CELLSNET-47438|Couleur du graphique en nuage Conversion Excel en PDF|Punaise|
 |CELLSNET-47401|Les valeurs du tableau ont changé après la suppression de lignes|Punaise|
 |CELLSNET-47407|Les fichiers fusionnés sont corrompus.|Punaise|
 |CELLSNET-47412|Type de graphique incorrect renvoyé pour certains graphiques|Punaise|
@@ -54,12 +54,12 @@ url: /fr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47454|Différentes hauteurs de ligne à la même valeur en pixels|Punaise|
 |CELLSNET-47459|La taille du graphique est modifiée après la conversion de .xlsx en .xlsb|Punaise|
 |CELLSNET-47462|Erreur lors de l'importation de JSON vers Excel|Punaise|
-|CELLSNET-47465|Style du tableau perdu lors de l'enregistrement du fichier XLS|Punaise|
+|CELLSNET-47465|Style de tableau perdu lors de l'enregistrement du fichier XLS|Punaise|
 |CELLSNET-47477|Les fabricants intelligents FieldName a un point|Punaise|
 |CELLSNET-47439|Exception de référence nulle lors de l'application du style|Exception|
-|CELLSNET-47446|Index de ligne de début non valide lors de la suppression de la feuille de calcul|Exceptions|
-|CELLSNET-47466|NullReferenceException lors du chargement de XLSX|Exceptions|
-|CELLSNET-47476|La référence d'objet n'est pas définie sur une instance d'une exception d'objet lors du chargement de XLSX|Exceptions|
+|CELLSNET-47446|Index de ligne de début non valide lors de la suppression de la feuille de calcul|Des exceptions|
+|CELLSNET-47466|NullReferenceException lors du chargement XLSX|Des exceptions|
+|CELLSNET-47476|La référence d'objet n'est pas définie sur une instance d'une exception d'objet lors du chargement XLSX|Des exceptions|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Ajoute la méthode Cells.RemoveDuplicates().**

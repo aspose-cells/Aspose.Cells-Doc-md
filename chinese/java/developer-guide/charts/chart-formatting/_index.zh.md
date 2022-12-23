@@ -32,7 +32,7 @@ url: /zh/java/chart-formatting/
 
 **带有填充区域的柱形图** 
 
-![待办事项：图像_替代_文本](chart-formatting_1.png)
+![待办事项：图片_替代_文本](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
@@ -42,7 +42,7 @@ url: /zh/java/chart-formatting/
 
 **应用线条样式后的柱形图** 
 
-![待办事项：图像_替代_文本](chart-formatting_2.png)
+![待办事项：图片_替代_文本](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
@@ -58,13 +58,13 @@ url: /zh/java/chart-formatting/
 
 **使用 Microsoft Excel 设置图表及其轴的标题** 
 
-![待办事项：图像_替代_文本](chart-formatting_3.png)
+![待办事项：图片_替代_文本](chart-formatting_3.png)
 
 Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。所有图表及其轴都包含一个[**标题.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)可用于设置其标题的方法，如下例所示。执行示例代码后，将在工作表中添加一个柱形图，如下所示：
 
 **设置标题后的柱状图** 
 
-![待办事项：图像_替代_文本](chart-formatting_4.png)
+![待办事项：图片_替代_文本](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
@@ -76,7 +76,7 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **隐藏主要网格线的柱形图** 
 
-![待办事项：图像_替代_文本](chart-formatting_5.png)
+![待办事项：图片_替代_文本](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
@@ -86,7 +86,7 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **带有彩色主要网格线的柱形图** 
 
-![待办事项：图像_替代_文本](chart-formatting_6.png)
+![待办事项：图片_替代_文本](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
@@ -117,13 +117,13 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **示例代码执行前的图表大小和位置** 
 
-![待办事项：图像_替代_文本](chart-formatting_7.png)
+![待办事项：图片_替代_文本](chart-formatting_7.png)
 
 执行后，输出文件如下所示：
 
 **示例代码执行后的图表大小和位置** 
 
-![待办事项：图像_替代_文本](chart-formatting_8.png)
+![待办事项：图片_替代_文本](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
@@ -141,7 +141,7 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **输入饼图** 
 
-![待办事项：图像_替代_文本](chart-formatting_9.png)
+![待办事项：图片_替代_文本](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
@@ -151,7 +151,7 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **饼图已修改** 
 
-![待办事项：图像_替代_文本](chart-formatting_10.png)
+![待办事项：图片_替代_文本](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
@@ -163,13 +163,13 @@ Aspose.Cells 还允许开发人员在运行时设置图表的标题及其轴。�
 
 **输入折线图** 
 
-![待办事项：图像_替代_文本](chart-formatting_11.png)
+![待办事项：图片_替代_文本](chart-formatting_11.png)
 
 现在我们操作折线图（包含在**折线图.xls**文件）使用以下代码。以下输出由代码生成。
 
 **操纵的折线图** 
 
-![待办事项：图像_替代_文本](chart-formatting_12.png)
+![待办事项：图片_替代_文本](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
@@ -186,14 +186,14 @@ Aspose.Cells 提供了一个 API 用于在电子表格中操作迷你图。
 1. 选择要显示迷你图的单元格。为了便于查看，请选择数据旁边的单元格。
 1. 点击**插入**在功能区上，然后选择**柱子**在里面**迷你图**团体。
 
-![待办事项：图像_替代_文本](chart-formatting_13.png)
+![待办事项：图片_替代_文本](chart-formatting_13.png)
 
 1. 选择或输入工作表中包含源数据的单元格范围。
 图表出现。
 
 例如，迷你图可帮助您查看趋势或垒球联赛的输赢记录。迷你图甚至可以总结联盟中每支球队的整个赛季。
 
-![待办事项：图像_替代_文本](chart-formatting_14.png)
+![待办事项：图片_替代_文本](chart-formatting_14.png)
 
 ### **使用 Aspose.Cells 的迷你图**
 
@@ -218,7 +218,7 @@ Aspose.Cells 提供了一个 API 用于在电子表格中操作迷你图。
 
 **具有 3D 格式的柱形图**
 
-![待办事项：图像_替代_文本](chart-formatting_15.png)
+![待办事项：图片_替代_文本](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 

@@ -14,7 +14,7 @@ JPype, python programlarının java sınıf kitaplıklarına tam erişimine izin
 
 Aspose.Cells for Java, doğrudan Java uygulamalarınız içinde çok çeşitli belge işleme görevlerini gerçekleştirmenizi sağlayan gelişmiş bir sınıf kitaplığıdır for Java.
 
-Aspose.Cells for Java, Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Virgülle Ayrılmış Değer), TSV (Sekmeyle ayrılmış değerler), TabDelimited (Sekmeyle ayrılmış metin dosyası), Html, MHtml, ODS ( OpenDocument Elektronik Tablosu), SpreadsheetML ve Numbers (belge, Apple'ın "Numbers" uygulaması tarafından oluşturulur) dosyalarıdır. Aspose.Cells ile Microsoft Excel kullanmadan belgeler oluşturabilir, değiştirebilir ve dönüştürebilirsiniz.
+Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma Separated Value), TSV (Tab-separated values), TabDelimited (Tab delimited text file), Html, MHtml, ODS ( OpenDocument Elektronik Tablosu), SpreadsheetML ve Numbers (belge, Apple'ın "Numbers" uygulaması tarafından oluşturulur) dosyaları. Aspose.Cells ile Microsoft Excel kullanmadan belgeler oluşturabilir, değiştirebilir ve dönüştürebilirsiniz.
 
 ## **Jython için Aspose.Cells Java**
 

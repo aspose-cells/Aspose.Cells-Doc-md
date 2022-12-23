@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **تمت إضافة طريقة ICells :: LinkToXmlMap**
 تمت إضافة طريقة LinkToXmlMap إلى فئة ICells والتي تفيد في ربط مخطط XML.
 ### **تمت إضافة طريقة ICells :: ImportCSV**
-تمت إضافة طريقة ImportCSV إلى فئة ICells والتي تعد مفيدة في استيراد ملف CSV إلى خلايا ورقة العمل.
+تمت إضافة أسلوب ImportCSV إلى فئة ICells وهو أمر مفيد في استيراد ملف CSV إلى خلايا ورقة العمل.
 ### **تمت إضافة طريقة ICells :: ImportTwoDimensionArray**
 تمت إضافة أسلوب GetIProtectedRangeCollection إلى فئة ICells وهو أمر مفيد في استيراد مصفوفة ثنائية الأبعاد من البيانات إلى ورقة عمل.
 ### **تمت إضافة طريقة IWorksheet :: GetIProtectedRangeCollection**

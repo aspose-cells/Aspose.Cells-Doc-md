@@ -22,13 +22,13 @@ Muchos clientes de todo el mundo confían en las funciones completas de importac
 |**Rasgo**|**Descripción**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Conversiones de alta calidad|Convierta de forma rápida y confiable entre varios formatos de documentos populares.|Sí|
-|Microsoft Libro de Excel (XLS)|La implementación de formato XLS más rápida y completa que puedas encontrar.|Sí|
-|Hoja de cálculo ML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Es más,<br>el componente admite todos los principales formatos de archivo de Excel 2007 y versiones posteriores, por ejemplo, XLSX, XLTX, XLSM, XLTM, XLSB, etc.|Sí|
+|Microsoft Libro de Excel (XLS)|La implementación del formato XLS más rápida y completa que puedas encontrar.|Sí|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Es más,<br>el componente admite todos los principales formatos de archivo de Excel 2007 y versiones posteriores, por ejemplo, XLSX, XLTX, XLSM, XLTM, XLSB, etc.|Sí|
 |Valor separado por comas (CSV)|Soporte integral del formato CSV para interactuar con una variedad de aplicaciones.|Sí|
 |HTML|Guardar como HTML está disponible.|Sí|
 |Documento abierto (ODS)|Aspose.Cells puede cargar y guardar documentos en formato de hoja de cálculo OpenDocument (.ods).|Sí|
 |Formato de documento portátil de Adobe (PDF)|Convierta cualquier hoja de cálculo a PDF con alta fidelidad.|Sí|
-|Delimitado por tabulaciones|Cargue y guarde documentos en el formato de archivo delimitado por tabulaciones.|Sí|
+|Delimitado por tabulaciones|Cargue y guarde documentos en el formato de archivo delimitado por tabuladores.|Sí|
 |Texto sin formato (TXT)|Extraiga texto fácilmente guardándolo en formato de texto sin formato.|Sí|
 ## **Renderizado e Impresión**
 Aspose.Cells for Java ahora ofrece representación de alta fidelidad de páginas de hojas de cálculo.
@@ -36,10 +36,10 @@ Aspose.Cells for Java ahora ofrece representación de alta fidelidad de páginas
 |**Rasgo**|**Aspose.Cells for Java**|
 |:- |:- |
 |Diseñe el documento en páginas con alta fidelidad a Microsoft Excel® (exactamente como lo haría Microsoft Excel®).|Sí|
-|Renderice páginas de hojas de trabajo en imágenes rasterizadas (PNG, JPEG, BMP, etc.).|Sí|
-|Renderice páginas de hojas de cálculo en imágenes vectoriales (EMF).|Sí|
+|Renderice las páginas de la hoja de trabajo en imágenes de trama (PNG, JPEG, BMP, etc.).|Sí|
+|Transforme páginas de hojas de cálculo en imágenes vectoriales (EMF).|Sí|
 |Especifique la resolución de la imagen, la calidad, la compresión y otras opciones.|Sí|
-| Imprima hojas de cálculo utilizando la infraestructura de impresión Java. El componente tiene un método de impresión incorporado para imprimir<br>hojas de trabajo como se muestra en la vista previa de impresión de Excel Microsoft.|Sí|
+|Imprima hojas de cálculo utilizando la infraestructura de impresión Java. El componente tiene un método de impresión integrado para imprimir<br>hojas de trabajo como se muestra en la vista previa de impresión de Excel Microsoft.|Sí|
 |Actualice los números de página y otros campos antes de renderizar o imprimir.|Sí|
 ## **Características del contenido de la hoja de cálculo**
 Aspose.Cells for Java proporciona un modelo de objetos enriquecido que consta de más de 100 clases/interfaces públicas, que le permiten generar, combinar, modificar, analizar o examinar hojas de cálculo cargadas mediante programación. Algunas características clave se dan en la siguiente tabla.

@@ -18,17 +18,17 @@ url: /ja/python-java/aspose-cells-for-python-via-java-21-7-release-notes/
 |CELLSJAVA-41121|SheetRender がフロー チャートを正しくレンダリングしない|
 |CELLSJAVA-43331|XLS から HTML への変換中に円内のテキストが欠落する|
 |CELLSJAVA-43507|java下にエクセルを挿入するsvgを実行すると異常終了します。|
-|CELLSJAVA-41887|ピボット テーブルのパーセンテージ データが HTML で正しく表示されない|
-|CELLSJAVA-43482|HTML ドキュメントをワークブックに変換するときに上付き文字と下付き文字が正しく書式設定されない|
+|CELLSJAVA-41887|HTML でピボット テーブルのパーセンテージ データが正しく表示されない|
+|CELLSJAVA-43482|HTML ドキュメントをワークブックに変換すると、上付き文字と下付き文字が正しく書式設定されない|
 |CELLSJAVA-43501|getStringValue() 関数を使用して読み取った値が正しくない|
 |CELLSJAVA-43515|MDURATION式の問題|
 |CELLSJAVA-43528|作成日時、更新日は抽出できません|
 |CELLSJAVA-43529|BuiltInDocumentProperties を抽出できません|
 |CELLSJAVA-43530|日時プロパティの結果が異なる|
-|CELLSJAVA-41693|TextBox 内の数式が PDF にレンダリングされない|
-|CELLSJAVA-43487|Excel から PDF への変換で出力 PDF のテキストが中央に配置されない|
+|CELLSJAVA-41693|TextBox の数式が PDF にレンダリングされない|
+|CELLSJAVA-43487|Excel の出力 PDF から PDF への変換でテキストが中央に配置されない|
 |CELLSJAVA-42867|ODS ファイル形式で形状が取得されない|
-|CELLSJAVA-42895|MS Excel チャートの PNG 出力に不一致がある|
+|CELLSJAVA-42895|PNG MS Excel チャートの出力に矛盾があります|
 |CELLSJAVA-43015|setPrintArea() メソッド使用時の SheetRender.toImage() の問題|
 |CELLSJAVA-43258|ワークブックのコピー後にグラフ ポイントのフォントの太字が変更される|
 |CELLSJAVA-43436|Aspose Cells は、ダイアグラムで反転された y 軸を無視します|

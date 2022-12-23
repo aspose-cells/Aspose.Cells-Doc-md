@@ -10,6 +10,6 @@ url: /zh/jasperreports/aspose-cells-for-jasperreports-1-1-2-release-notes/
 
 {{% /alert %}} 
 
-新的功能
+新功能
 
 JasperReports 4.0、4.5 和 4.7

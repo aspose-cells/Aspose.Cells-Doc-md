@@ -29,15 +29,15 @@ url: /es/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51001|El objeto de forma en el gráfico no está bien posicionado|
 |CELLSNET-51156| Conversión de gráfico a imagen: visualización diferente del gráfico en la imagen de salida|
 |CELLSNET-51213|El gráfico circular 3D no se representa correctamente - Conversión de gráfico a imagen|
-|CELLSNET-51472|Faltan etiquetas de gráfico en SVG cuando se establece en el extremo exterior|
-|CELLSNET-51491|Valores erróneos utilizados en series de gráficos al renderizar a imagen o HTML|
+|CELLSNET-51472|Faltan las etiquetas del gráfico de SVG cuando se establece en el extremo exterior|
+|CELLSNET-51491|Se utilizan valores incorrectos en series de gráficos al renderizar a imagen o HTML|
 |CELLSNET-51525|El gráfico de cascada es diferente cuando se exporta a HTML/PNG o PDF|
-|CELLSNET-51353|Convertir un archivo XLSB con enlace DDE a archivo XLSM está cambiando la posición de la aplicación DDE en el enlace|
+|CELLSNET-51353|La conversión de un archivo XLSB con enlace DDE a un archivo XLSM cambia la posición de la aplicación DDE en el enlace|
 |CELLSNET-51376|El tamaño de página se cambia automáticamente de A4? Carta para una hoja|
 |CELLSNET-51379| El enlace externo de tipo OLE en el archivo XLS se lee como de tipo DDE|
 |CELLSNET-51402|El contenido se desplaza fuera de la celda al guardar el archivo html|
 |CELLSNET-51417|Los enlaces de la forma a la hoja en el archivo se eliminan después de la actualización de 22.5 a 22.6.1|
-|CELLSNET-51418|Un enlace externo de tipo xlPathMissing se cambia al tipo externalLinkPath normal en la conversión de XLSB a XLSM|
+|CELLSNET-51418|Un enlace externo de tipo xlPathMissing se cambia al tipo externalLinkPath normal en la conversión XLSB a XLSM|
 |CELLSNET-51420|Diferencias en las propiedades del documento en el archivo app.xml|
 |CELLSNET-51427|Enlace externo que contiene el carácter especial "#" del que no se escapa Aspose.Cells|
 |CELLSNET-51482|La combinación de hojas de diferentes libros de trabajo da como resultado un archivo corrupto que puede bloquear MS Excel|

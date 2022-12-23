@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/cpp/using-icustomfunction-feature/
 ---
-## **giriiş**
+## **Giriş**
 Bu makale, Aspose.Cells API'leri ile özel işlevleri uygulamak için ICustomFunction özelliğinin nasıl kullanılacağına ilişkin bir anlayış sağlar.
 
 ICustomFunction arabirimi, belirli gereksinimleri karşılamak üzere Aspose.Cells temel hesaplama motorunu genişletmek için özel formül hesaplama işlevleri eklemenize olanak tanır. Bu özellik, bir şablon dosyasında veya bir kodda özel (kullanıcı tanımlı) işlevleri tanımlamak için kullanışlıdır; burada özel işlev, diğer herhangi bir varsayılan Microsoft Excel işlevi gibi Aspose.Cells API'leri kullanılarak uygulanıp değerlendirilebilir.

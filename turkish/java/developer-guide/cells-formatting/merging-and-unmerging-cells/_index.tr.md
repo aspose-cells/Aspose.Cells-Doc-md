@@ -10,7 +10,7 @@ Her satırda veya sütunda her zaman aynı sayıda hücre olmasını istemezsini
 
 **Microsoft Excel'de soldaki hücreler olarak biçimlendirilmiş bir hücre aralığını birleştirmenin ve ardından bölmenin sonucu** 
 
-![yapılacaklar:resim_alternatif_Metin](merging-and-unmerging-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](merging-and-unmerging-cells_1.png)
 
 Aspose.Cells bu özelliği destekler ve ayrıca bir çalışma sayfasındaki hücreleri birleştirebilir. Birleştirilmiş hücreleri de ayırabilir veya bölebilirsiniz. Birleştirilmiş bir hücrenin hücre referansı, orijinal olarak seçilen aralıktaki sol üst hücrenin referansıdır.
 
@@ -38,7 +38,7 @@ Aşağıdaki çıktı, aşağıdaki kod yürütüldükten sonra oluşturulur.
 
 **Hücreler (C6:E7) birleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](merging-and-unmerging-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](merging-and-unmerging-cells_2.png)
 
 #### **Kod Örneği**
 

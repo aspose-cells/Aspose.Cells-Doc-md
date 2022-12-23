@@ -21,9 +21,9 @@ url: /de/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26607 - Unterstützung zur Berechnung der EOMONTH-Funktion
 ### **Verbesserungen**
- 26655 - Import/Export von Datums- und Rahmenstilen für ODS-Datei
+ 26655 - Import/Export von Datums- und Rahmenstilen für die Datei ODS
 
- 27317 – Behalten Sie die Miniaturansicht des erneut gespeicherten Diagramms mit der Originaldatei bei, wenn Sie XLS in PPT einbetten
+ 27317 – Behalten Sie die Miniaturansicht des neu gespeicherten Diagramms mit der Originaldatei bei, wenn Sie XLS in PPT einbetten
 
  27214 - Elemente des Pivot-Felds ein-/ausblenden
 
@@ -31,19 +31,19 @@ url: /de/java/aspose-cells-for-java-2-5-4-release-notes/
 ### **Leistung**
  27041 – Das Lesen von ODS-Dateien verursacht Speicherprobleme
 ### **Ausnahmen**
- 26710 – Ausnahme beim Lesen von Formularsteuerelementen aus XLSX-Datei
+ 26710 – Ausnahme beim Lesen von Formularsteuerelementen aus der Datei XLSX
 
- 27128 – Behandlung von „NumberFormatException“ beim Lesen einer ODS-Datei, deren Zeilenindex des geteilten Bereichs das Limit von „Short“ überschreitet
+ 27128 – Behandlung von „NumberFormatException“ beim Lesen von ODS-Datei, deren Zeilenindex des geteilten Bereichs das Limit von „Short“ überschreitet
 
-27578 – Eine Ausnahme „IllegalArgumentException“ ist aufgetreten, wenn ODS-Dateien gelesen wurden, deren Definition der Spaltenbreite das Limit der Excel-Datei überschreitet
+27578 – Beim Lesen von ODS-Dateien, deren Spaltenbreitendefinition das Limit der Excel-Datei überschreitet, ist eine Ausnahme „IllegalArgumentException“ aufgetreten
 
- 27773 – Umgang mit „ArrayIndexOutOfBoundsException“ beim Lesen von Hyperlinks aus ODS-Datei
+ 27773 – Umgang mit „ArrayIndexOutOfBoundsException“ beim Lesen von Hyperlinks aus der Datei ODS
 
- 27780 – „NumberFormatException“ beim Rendern einer PDF-Datei
+ 27780 – „NumberFormatException“ beim Rendern der Datei PDF
 ### **Fehler**
  26563 – Problem mit der Achsenskalierung in der Diagramm-zu-Bild-Funktion
 
- 27793 – Rahmenstil geht beim erneuten Speichern der XLS-Datei verloren
+ 27793 – Rahmenstil geht beim erneuten Speichern der Datei XLS verloren
 
  26610 - Berechnung der Funktionen GERADE, UNGERADE, AUF-/ABRUNDEN
 
@@ -59,7 +59,7 @@ url: /de/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26600 - Rendern eines explodierten Kreisdiagramms für die Diagramm-zu-Bild-Funktion
 
- 27754 – Generierte HTML-Datei erzeugt das Problem „Datei nicht gefunden…“.
+ 27754 – Die generierte HTML-Datei erzeugt das Problem „Datei nicht gefunden…“.
 
 26599 – Problem beim Rendern von Rasterlinien für die Diagramm-zu-Bild-Funktion
 
@@ -67,7 +67,7 @@ url: /de/java/aspose-cells-for-java-2-5-4-release-notes/
 
  27040 – Problem beim Lesen von Rahmenstilen und Formeln
 
- 26151 – Problem beim Lesen von Daten vor dem 28.02.1900 aus der ODS-Vorlagendatei
+ 26151 – Problem beim Lesen von Daten vor dem 28.02.1900 aus der Vorlagendatei ODS
 
  27426 – Problem beim Lesen von Formen im Diagramm
 
@@ -77,7 +77,7 @@ url: /de/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26561 – Problem mit der rechten Ausrichtung großer Zahlen für die Blatt-zu-Bild-Funktion
 
- 27792 - Benutzerdefiniertes Datumsformat in ODS-Datei speichern
+ 27792 - Benutzerdefiniertes Datumsformat in Datei ODS speichern
 
  27445 – Problem mit der Achsenskalierung in der Diagramm-zu-Bild-Funktion
 

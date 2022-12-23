@@ -19,11 +19,11 @@ url: /zh/net/wrapping-cell-text-in-vsto-and-aspose-cells/
 
 ## **使用 VSTO Excel 输出**
 
-![待办事项：图像_替代_文本](picture1.png)
+![待办事项：图片_替代_文本](picture1.png)
 
 ## **输出使用 Aspose.Cells for .NET**
 
-![待办事项：图像_替代_文本](picture2.png)
+![待办事项：图片_替代_文本](picture2.png)
 
 ## **VSTO**
 

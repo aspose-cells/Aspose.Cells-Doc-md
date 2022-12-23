@@ -7,7 +7,7 @@ url: /ru/cpp/different-ways-to-open-files/
 ---
 {{% alert color="primary" %}} 
 
-С помощью Aspose.Cells можно открывать файлы, например, для получения данных или использовать шаблон конструктора для ускорения процесса разработки. Aspose.Cells может открывать ряд различных файлов, таких как Microsoft электронные таблицы Excel (XLS, XLSX, XLSM, XLSB), CSV или файлы TabDelimited.
+С помощью Aspose.Cells можно открывать файлы, например, для получения данных или использовать шаблон конструктора для ускорения процесса разработки. Aspose.Cells может открывать различные файлы, такие как Microsoft электронные таблицы Excel (XLS, XLSX, XLSM, XLSB), CSV или TabDelimited файлы.
 
 {{% /alert %}} 
 ## **Открытие файла через путь**
@@ -16,7 +16,7 @@ url: /ru/cpp/different-ways-to-open-files/
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingPath.cpp" >}}
 
 ## **Открытие файла с помощью потока**
- Также можно открыть файл Excel в виде потока. Для этого используйте перегруженную версию конструктора, который принимает*Ручей*объект, содержащий файл.
+ Также можно открыть файл Excel в виде потока. Для этого используйте перегруженную версию конструктора, который принимает*Транслировать*объект, содержащий файл.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-LoadingSavingAndConverting-OpeningFiles-OpeningExcelFileUsingStream.cpp" >}}
 

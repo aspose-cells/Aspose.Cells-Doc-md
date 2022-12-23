@@ -39,7 +39,7 @@ Toutes les sources de données et les requêtes sont répertoriées dans la boî
 
 
 1.  Dans la boîte de dialogue, appelez la source de données**Serveur SQL** et l'ensemble de données**EmpsSalesDetail**.
-1.  Cliquez sur**Prochain**. 
+1.  Cliquez sur**Suivant**. 
 
    **Ajout d'ensembles de données et de sources de données** 
 

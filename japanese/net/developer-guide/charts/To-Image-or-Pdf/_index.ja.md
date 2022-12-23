@@ -7,7 +7,7 @@ url: /ja/net/chart-rendering/
 ---
 ## **チャートのレンダリング**
 
- Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel チャートを画像や PDF 形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)クラスが暴露した[**イメージへ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**PDFへ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)アプリケーションの要件に最も適したオーバーロードの真実性を持つメソッド。
+ Aspose.Cells API は、Excel チャートを画像や PDF 形式に変換することをサポートしており、追加のツールやアプリケーションは必要ありません。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)クラスが暴露した[**イメージへ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**PDFへ**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)アプリケーションの要件に最も適したオーバーロードの真実性を持つメソッド。
 
 ### **グラフを画像にレンダリングする**
 
@@ -19,9 +19,9 @@ url: /ja/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **グラフを PDF にレンダリング**
+### **PDF へのレンダリング チャート**
 
-グラフを PDF 形式にレンダリングするために、Aspose.Cells API は[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)結果の PDF をディスク パスまたはストリームに保存する機能を備えたメソッド。
+グラフを PDF 形式でレンダリングするために、Aspose.Cells API は[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)結果の PDF をディスク パスまたはストリームに格納する機能を備えたメソッド。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 

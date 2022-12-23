@@ -5,7 +5,7 @@ description: Cómo ejecutar Aspose.Cells para .Net6
 weight: 138
 url: /es/net/how-to-run-aspose-cells-for-net6/
 ---
-## Visión general
+## Descripción general
 
  Para las plataformas .NET6 (o posteriores), en comparación con las plataformas anteriores (.netcore31 o anteriores), una diferencia importante es la biblioteca de gráficos.
  En este oficial[Microsoft Documento](https://learn.microsoft.com/en-gb/dotnet/core/compatibility/core-libraries/6.0/system-drawing-common-windows-only), explica que para .NET6 o versiones posteriores, la biblioteca de gráficos "System.Drawing.Common" solo se admitirá en Windows y brinda recomendaciones para reemplazar la biblioteca de gráficos.

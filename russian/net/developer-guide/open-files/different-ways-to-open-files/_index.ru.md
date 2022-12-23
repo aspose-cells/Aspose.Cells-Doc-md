@@ -18,13 +18,13 @@ url: /ru/net/different-ways-to-open-files/
 
 ## **Открытие файла через поток**
 
-Также просто открыть файл Excel в виде потока. Для этого используйте перегруженную версию конструктора, который принимает*Ручей*объект, содержащий файл.
+Также просто открыть файл Excel в виде потока. Для этого используйте перегруженную версию конструктора, который принимает*Транслировать*объект, содержащий файл.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
 ## **Открытие файла только с данными**
 
- Чтобы открыть файл только с данными, используйте**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** а также**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**классы, чтобы установить связанные атрибуты и параметры классов для загружаемого файла шаблона.
+ Чтобы открыть файл только с данными, используйте**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**классы, чтобы установить связанные атрибуты и параметры классов для загружаемого файла шаблона.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilewithDataOnly-1.cs" >}}
 
@@ -40,7 +40,7 @@ url: /ru/net/different-ways-to-open-files/
 
 {{% alert color="primary" %}}
 
-Исключение будет выдано, если вы попытаетесь открыть неродные файлы Excel или файлы других форматов (например, PPT/PPTX, DOC/DOCX и т. д.) по номеру Aspose.Cells.
+Будет выдано исключение, если вы попытаетесь открыть неродные файлы Excel или файлы других форматов (например, PPT/PPTX, DOC/DOCX и т. д.) по номеру Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

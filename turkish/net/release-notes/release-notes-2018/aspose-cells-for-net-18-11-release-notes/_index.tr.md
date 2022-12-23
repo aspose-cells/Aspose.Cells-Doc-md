@@ -20,32 +20,32 @@ url: /tr/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46117|Metnin konumu, şeklin grubu çözülürken biraz değişir|Artırma|
 |CELLSNET-46400|PivotTable.RefreshData çağrılırken kilitleniyor|Verim|
 |CELLSNET-46441|Cell.GetDisplayStyle() bir hücre için kilitleniyor|Verim|
-|CELLSNET-46423|XLSX'i PDF'ye dönüştürürken biçimlendirme sorunları|Böcek|
+|CELLSNET-46423|XLSX'i PDF'e dönüştürürken biçimlendirme sorunları|Böcek|
 |CELLSNET-46410|Pivot tablo formatı yenilemeden sonra karışıyor|Böcek|
-|CELLSNET-46404|HTML'yi kaydederken diyagramları resimlerle aynı şekilde işleme|Böcek|
-|CELLSNET-46388|Bir XLSX dosya biçimi yüklenip yeniden kaydedildikten sonra dosya bozuk|Böcek|
+|CELLSNET-46404|Kaydederken diyagramları resimlerle aynı şekilde işleme HTML|Böcek|
+|CELLSNET-46388|XLSX dosya biçimini yükleyip yeniden kaydettikten sonra dosya bozuk|Böcek|
 |CELLSNET-46387|Pivot tablo sıralama sorunu|Böcek|
-|CELLSNET-46366|HTML'yi XLSX'e dönüştürürken kenarlıklar ve arka plan renkleri eksik|Böcek|
-|CELLSNET-46365|Başvurulan CSS stil sayfaları HTML açılırken göz ardı edildi|Böcek|
+|CELLSNET-46366|HTML, XLSX'e dönüştürülürken kenarlıklar ve arka plan renkleri eksik|Böcek|
+|CELLSNET-46365|Başvurulan CSS stil sayfaları HTML açılırken yoksayıldı|Böcek|
 |CELLSNET-46431|VLookup formül sonucu, MS Excel sonucundan farklı|Böcek|
-|CELLSNET-46430|Workbook.Combine in XLSX'ten XLSB'ye dönüştürme işleminden sonra dizi formülü çalışmıyor|Böcek|
+|CELLSNET-46430|Workbook.Combine in XLSX - XLSB dönüşümünden sonra dizi formülü çalışmıyor|Böcek|
 |CELLSNET-46428|Name.RefersTo doğru değeri almıyor|Böcek|
-|CELLSNET-46413|Koşullu biçimlendirme ile XLSX oluşturmak bozuk dosya üretiyor|Böcek|
-|CELLSNET-46403|Dizi formülü, XLSB dosya biçimine kaydetmek için Workbook.Combine'den sonra çalışmıyor|Böcek|
-|CELLSNET-46396|SVG olarak kaydedilen çalışma kitabı, aslında TIFF dosyası olduğu için bozuk|Böcek|
+|CELLSNET-46413|XLSX'i koşullu biçimlendirmeyle oluşturmak bozuk dosya üretiyor|Böcek|
+|CELLSNET-46403|XLSB dosya biçimine kaydetmek için Workbook.Combine'den sonra dizi formülü çalışmıyor|Böcek|
+|CELLSNET-46396|SVG olarak kaydedilen çalışma kitabı aslında TIFF dosyası olduğu için bozuk|Böcek|
 |CELLSNET-46420|PDF'deki grafik ani artış sorunu yaşıyor|Böcek|
-|CELLSNET-46411|XLSX'i PDF'ye dönüştürürken takılıyor|Böcek|
+|CELLSNET-46411|XLSX'i PDF'e dönüştürürken takılıyor|Böcek|
 |CELLSNET-46408|MS Excel dosyasındaki çıktı grafiği görüntüsünde veri işaretleri eksik|Böcek|
-|CELLSNET-46393|MS Excel grafiği PNG görüntü formatına dönüştürüldükten sonra eksen etiketleri yanlış hizalandı|Böcek|
+|CELLSNET-46393|MS Excel grafiği PNG resim formatına dönüştürüldükten sonra eksen etiketleri yanlış hizalandı|Böcek|
 |CELLSNET-46359|Çıktı SVG dosyasındaki grafikteki etiketler için yazı tipi boyutunda değişiklik|Böcek|
 |CELLSNET-46433|Adlandırılmış aralık silinirken koşullu biçimlendirme silinir|Böcek|
 |CELLSNET-46427|MS Excel, Aspose.Cells ile açtıktan/kaydettikten sonra bir sorun bildiriyor|Böcek|
 |CELLSNET-46421|Akışa kaydedildikten sonra Document CreatedTime özelliği değişir|Böcek|
 |CELLSNET-46417|Metni kaydırma, metnin üzerinde boş bir satırla birlikte çalışmıyor|Böcek|
-|CELLSNET-46416|XLSX dosyasını yüklerken ve kaydederken kaybolan grafik verileri|Böcek|
+|CELLSNET-46416|XLSX dosyasını yüklerken ve kaydederken grafik verileri kayboldu|Böcek|
 |CELLSNET-46409|XML'den dönüştürdükten sonra Açılır listeyle ilgili sorun|Böcek|
-|CELLSNET-46407|Bir XLSM dosya biçimi yüklenirken çalışma kitabının başlatılması çok uzun sürüyor|Böcek|
-|CELLSNET-46397|XLS'yi XLSM'ye dönüştürürken grafik başlığı kayboluyor|Böcek|
+|CELLSNET-46407|XLSM dosya biçimi yüklenirken çalışma kitabının başlatılması çok uzun sürüyor|Böcek|
+|CELLSNET-46397|XLS, XLSM'e dönüştürülürken grafik başlığı kayboldu|Böcek|
 |CELLSNET-46401|Oluşturulan HTML dosyasıyla çalışırken ArgumentException|İstisna|
 |CELLSNET-46426|AutoFitColumns() çağrılırken istisna|İstisna|
 |CELLSNET-46415|ParsingFormulaOnOpen yanlış olduğunda kaydetme sırasında CellsException istisnası|İstisna|

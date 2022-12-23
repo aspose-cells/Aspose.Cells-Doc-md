@@ -36,6 +36,6 @@ La licenza ZIP contiene:
 
 {{% alert color="primary" %}}
 
- Si riceverà un avviso durante l'esecuzione della fase di distribuzione se il servizio di amministrazione di Windows SharePoint Services non è stato avviato.**Stsadm.exe**si affida a questo servizio e al servizio timer di Windows SharePoint per replicare i dati della soluzione all'interno della farm. Se questi servizi non sono in esecuzione nella server farm, potrebbe essere necessario distribuire la licenza separatamente su ciascun server.
+ Si riceverà un avviso durante l'esecuzione della fase di distribuzione se il servizio di amministrazione di SharePoint Services Windows non è stato avviato.**Stsadm.exe**si basa su questo servizio e su Windows SharePoint Timer Service per replicare i dati della soluzione all'interno della farm. Se questi servizi non sono in esecuzione nella server farm, potrebbe essere necessario distribuire la licenza separatamente su ciascun server.
 
 {{% /alert %}}

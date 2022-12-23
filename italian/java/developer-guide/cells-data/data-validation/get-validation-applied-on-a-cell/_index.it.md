@@ -3,16 +3,16 @@ title: Ottieni la convalida applicata su uno Cell
 type: docs
 weight: 80
 url: /it/java/get-validation-applied-on-a-cell/
-description: Questo articolo mostra come applicare la convalida su un Cell con Java
+description: Questo articolo mostra come applicare la convalida su uno Cell con Java
 keywords: apply cell validation in excel with java, apply validation on a cell in excel with java, apply validation in excel with java, cell validation in excel with java, java apply cell validation in excel, java apply validation on a cell in excel, java cell validation in excel, java cell validation
 ---
 {{% alert color="primary" %}}
 
- È possibile utilizzare l'API Aspose.Cells per ottenere la convalida applicata a qualsiasi cella. Aspose.Cells fornisce il[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation() ) metodo per questo scopo. Se non c'è convalida sulla cella, restituisce null. Allo stesso modo, puoi usare il[**Worksheet.getValidations().getValidationInCell(int riga, int colonna)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) per acquisire la validazione applicata ad una cella fornendo i suoi indici di riga e colonna.
+ È possibile utilizzare Aspose.Cells API per ottenere la convalida applicata a qualsiasi cella. Aspose.Cells fornisce il[**Cell.getValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation() ) metodo per questo scopo. Se non c'è convalida sulla cella, restituisce null. Allo stesso modo, puoi usare il[**Worksheet.getValidations().getValidationInCell(int riga, int colonna)**](https://reference.aspose.com/cells/java/com.aspose.cells/validationcollection#getValidationInCell(int,%20int)) per acquisire la validazione applicata ad una cella fornendo i suoi indici di riga e colonna.
 
 {{% /alert %}}
 
- Lo snapshot seguente mostra il file Microsoft Excel di esempio utilizzato nel codice di esempio riportato di seguito. Cell**C1** ha**convalida decimale** applicato e può assumere solo valori**tra le 10 e le 20**.
+ Lo snapshot seguente mostra il file Excel Microsoft di esempio utilizzato nel codice di esempio riportato di seguito. Cell**C1** ha**convalida decimale** applicato e può assumere solo valori**tra le 10 e le 20**.
 
 **Una cella con convalida**
 

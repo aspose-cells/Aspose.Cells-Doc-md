@@ -30,4 +30,4 @@ Reporting Services 的格式**全局变量标记**是 &= 全局变量！变量�
 
 **重复的动态公式和生成的 Excel 工作表** 
 
-![待办事项：图像_替代_文本](aspose-cells-template-and-smart-markers_1.png)
+![待办事项：图片_替代_文本](aspose-cells-template-and-smart-markers_1.png)

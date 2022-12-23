@@ -28,9 +28,9 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 |:- |:- |:- |
 |16478 |服务器组件|在 XLSX 文件中导出后矩阵报告的标题行出现问题|
 |16170 |服务器组件|Aspose.Cells for Reporting Services - 各种问题|
-|16248 |服务器组件|XLSX 导出无法正常工作|
+|16248 |服务器组件|XLSX 出口工作不正常|
 |16239 |服务器组件|重命名报表查看器中的下拉选项|
 |16202 |服务器组件|导出到 Excel 2007 时无法正常工作|
 |16169 |服务器组件|在 SharePoint 集成模式下支持 SSRS 呈现扩展？|
-|15972 |服务器组件|导出到 XLSX 文件后不会出现矩阵表标题|
+|15972 |服务器组件|导出到 XLSX 文件后矩阵表标题不会出现|
 

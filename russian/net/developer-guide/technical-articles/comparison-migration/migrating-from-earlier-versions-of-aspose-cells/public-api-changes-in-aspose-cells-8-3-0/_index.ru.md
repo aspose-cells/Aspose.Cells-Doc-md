@@ -15,7 +15,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-3-0/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Настройка автоматического восстановления электронной таблицы](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) Чтобы получить больше информации.
+ Пожалуйста, проверьте статью[Настройка автоматического восстановления электронной таблицы](http://aspose.com/docs/display/cellsnet/How+to+set+AutoRecover+property+of+Workbook) для дополнительной информации.
 
 {{% /alert %}} 
 

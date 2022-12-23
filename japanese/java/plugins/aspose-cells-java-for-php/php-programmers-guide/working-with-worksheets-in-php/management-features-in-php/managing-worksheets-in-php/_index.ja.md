@@ -8,7 +8,7 @@ url: /ja/java/managing-worksheets-in-php/
 ### **新しい Excel ファイルへのワークシートの追加**
 を使用して新しい Excel ファイルにワークシートを追加するには**Aspose.Cells Java for PHP**、単に呼び出す**add_worksheet**方法**ワークシートの管理**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -36,7 +36,7 @@ $workbook->save($dataDir . "book.out.xls");
 ### **シート名を使用してワークシートを削除する**
 を使用してシート名でワークシートを削除するには**Aspose.Cells Java for PHP**、単に呼び出す**remove_worksheet_by_name**方法**ワークシートの管理**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -64,7 +64,7 @@ $fstream->close();
 ### **シート インデックスを使用してワークシートを削除する**
 を使用してシート インデックスごとにワークシートを削除するには**Aspose.Cells Java for PHP**、単に呼び出す**remove_worksheet_by_index**方法**ワークシートの管理**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

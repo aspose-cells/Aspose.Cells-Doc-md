@@ -1,10 +1,10 @@
 ﻿---
-title: Çalışma Sayfasını Jython'da SVG'ye Dönüştürme
+title: Çalışma Sayfasını Jython'da SVG'e Dönüştürme
 type: docs
 weight: 40
 url: /tr/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
+## **Aspose.Cells - Çalışma Sayfasını SVG'e Dönüştürme**
  Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**

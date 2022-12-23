@@ -24,7 +24,7 @@ url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29632 Kasta undantag när arknamnet innehåller specialtecken
 
- 29153 Stöder villkorlig formatering på HTML-utdata
+ 29153 Stöder villkorlig formatering på HTML-utgång
 
  Prestanda
 
@@ -32,7 +32,7 @@ url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29461 Prestanda för metoden CalculateFormula().
 
- 30041 Kan inte öppna ODS-filen
+ 30041 Kan inte öppna ODS Fil
 
  29983 AutoFitColumns() är extremt långsam när kolumner har nummerformat
 
@@ -50,7 +50,7 @@ url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Buggar
 
- 29413 DataRow-värden ändras
+29413 DataRow-värden ändras
 
  29599 Diagram med 3D-staplar till bild-problem
 
@@ -58,7 +58,7 @@ url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Radar Chart to Image-problem
 
-29777 VLookup fungerar inte
+ 29777 VLookup fungerar inte
 
  29408 Lägg till beräknat objekt i pivottabellen
 
@@ -94,7 +94,7 @@ url: /sv/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Importera formler med värden från Excel-fil
 
- 29381 Importera Excel-fil från stream utan att beräkna alla formler
+29381 Importera Excel-fil från stream utan att beräkna alla formler
 
  Buggar
 

@@ -12,7 +12,7 @@ Pour s'assurer que le texte d'une cellule peut être lu, des sauts de ligne et d
 
 ## **Pour envelopper du texte dans un Cell**
 
- Pour envelopper du texte dans une cellule, utilisez la[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)propriété.
+ Pour envelopper du texte dans une cellule, utilisez la[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 

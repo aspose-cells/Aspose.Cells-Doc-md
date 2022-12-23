@@ -19,19 +19,19 @@ _格式_: **Excel**
 _格式_: **XLS**
 - [C# XLS 到数据表](#csharp-xls-to-datatable)
 - [C# 将 XLS 转换为 DataTable](#csharp-convert-xls-to-datatable)
-- [C# 将 XLS 导入 DataTable](#csharp-import-xls-to-datatable)
+- [C# 导入XLS到DataTable](#csharp-import-xls-to-datatable)
 - [C# 从 XLS 导出到 DataTable](#csharp-export-to-datatable-from-xls)
 
 _格式_: **XLSX**
 - [C# XLSX 到数据表](#csharp-xlsx-to-datatable)
 - [C# 将 XLSX 转换为 DataTable](#csharp-convert-xlsx-to-datatable)
-- [C# 将 XLSX 导入 DataTable](#csharp-import-xlsx-to-datatable)
+- [C# 导入XLSX到DataTable](#csharp-import-xlsx-to-datatable)
 - [C# 从 XLSX 导出到 DataTable](#csharp-export-to-datatable-from-xlsx)
 
-_格式_: **消耗臭氧层物质**
-- [C# ODS 到 DataTable](#csharp-ods-to-datatable)
+_格式_: **ODS**
+- [C# ODS 到数据表](#csharp-ods-to-datatable)
 - [C# 将 ODS 转换为 DataTable](#csharp-convert-ods-to-datatable)
-- [C# 将ODS导入DataTable](#csharp-import-ods-to-datatable)
+- [C# 导入ODS到DataTable](#csharp-import-ods-to-datatable)
 - [C# 从 ODS 导出到 DataTable](#csharp-export-to-datatable-from-ods)
 
 ## **C# 导出Excel数据**
@@ -48,7 +48,7 @@ _格式_: **消耗臭氧层物质**
 
 ## **使用 Aspose.Cells 将数据导出到 DataTable**
 
-开发人员可以轻松地将他们的工作表数据导出到[**数据表**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)通过调用对象[**导出数据表**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index)或者[**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)班级。这两种方法用于不同的场景，下面将对此进行更详细的讨论。
+开发人员可以轻松地将他们的工作表数据导出到[**数据表**](https://docs.microsoft.com/en-gb/dotnet/api/system.data.datatable?view=netframework-4.8)通过调用对象[**导出数据表**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index)要么[**ExportDataTableAsString**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatableasstring/index)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)班级。这两种方法用于不同的场景，下面将对此进行更详细的讨论。
 
 ## **包含强类型数据的列**
 
@@ -67,17 +67,17 @@ _步骤：将数据导出到 DataTable_
   - <a name="csharp-xlsx-to-datatable" id="csharp-xlsx-to-datatable"><strong><em>脚步：</em> XLSX 到 C# 中的 DataTable</strong></a>
   - <a name="csharp-ods-to-datatable" id="csharp-ods-to-datatable"><strong><em>脚步：</em> ODS 到 C# 中的 DataTable</strong></a>
 - <a name="csharp-convert-excel-to-datatable" id="csharp-convert-excel-to-datatable"><strong><em>脚步：</em> C#中Excel转DataTable</strong></a>
-  - <a name="csharp-convert-xls-to-datatable" id="csharp-convert-xls-to-datatable"><strong><em>脚步：</em>在 C# 中将 XLS 转换为 DataTable</strong></a>
-  - <a name="csharp-convert-xlsx-to-datatable" id="csharp-convert-xlsx-to-datatable"><strong><em>脚步：</em>在 C# 中将 XLSX 转换为 DataTable</strong></a>
-  - <a name="csharp-convert-ods-to-datatable" id="csharp-convert-ods-to-datatable"><strong><em>脚步：</em> C#中ODS转DataTable</strong></a>
+  - <a name="csharp-convert-xls-to-datatable" id="csharp-convert-xls-to-datatable"><strong><em>脚步：</em>将XLS转换为C#中的DataTable</strong></a>
+  - <a name="csharp-convert-xlsx-to-datatable" id="csharp-convert-xlsx-to-datatable"><strong><em>脚步：</em>将XLSX转换为C#中的DataTable</strong></a>
+  - <a name="csharp-convert-ods-to-datatable" id="csharp-convert-ods-to-datatable"><strong><em>脚步：</em>将ODS转换为C#中的DataTable</strong></a>
 - <a name="csharp-import-excel-to-datatable" id="csharp-import-excel-to-datatable"><strong><em>脚步：</em> C#中导入Excel到DataTable</strong></a>
-  - <a name="csharp-import-xls-to-datatable" id="csharp-import-xls-to-datatable"><strong><em>脚步：</em> C#中导入XLS到DataTable</strong></a>
-  - <a name="csharp-import-xlsx-to-datatable" id="csharp-import-xlsx-to-datatable"><strong><em>脚步：</em> C#中导入XLSX到DataTable</strong></a>
-  - <a name="csharp-import-ods-to-datatable" id="csharp-import-ods-to-datatable"><strong><em>脚步：</em> C#中导入ODS到DataTable</strong></a>
+  - <a name="csharp-import-xls-to-datatable" id="csharp-import-xls-to-datatable"><strong><em>脚步：</em>导入XLS到C#中的DataTable</strong></a>
+  - <a name="csharp-import-xlsx-to-datatable" id="csharp-import-xlsx-to-datatable"><strong><em>脚步：</em>导入XLSX到C#中的DataTable</strong></a>
+  - <a name="csharp-import-ods-to-datatable" id="csharp-import-ods-to-datatable"><strong><em>脚步：</em>导入ODS到C#中的DataTable</strong></a>
 - <a name="csharp-export-to-datatable-from-excel" id="csharp-export-to-datatable-from-excel"><strong><em>脚步：</em>在 C# 中从 Excel 导出到 DataTable</strong></a>
-  - <a name="csharp-export-to-datatable-from-xls" id="csharp-export-to-datatable-from-xls"><strong><em>脚步：</em>在 C# 中从 XLS 导出到 DataTable</strong></a>
-  - <a name="csharp-export-to-datatable-from-xlsx" id="csharp-export-to-datatable-from-xlsx"><strong><em>脚步：</em>在 C# 中从 XLSX 导出到 DataTable</strong></a>
-  - <a name="csharp-export-to-datatable-from-ods" id="csharp-export-to-datatable-from-ods"><strong><em>脚步：</em> C#中ODS导出DataTable</strong></a>
+  - <a name="csharp-export-to-datatable-from-xls" id="csharp-export-to-datatable-from-xls"><strong><em>脚步：</em>从C#中的XLS导出到DataTable</strong></a>
+  - <a name="csharp-export-to-datatable-from-xlsx" id="csharp-export-to-datatable-from-xlsx"><strong><em>脚步：</em>从C#中的XLSX导出到DataTable</strong></a>
+  - <a name="csharp-export-to-datatable-from-ods" id="csharp-export-to-datatable-from-ods"><strong><em>脚步：</em>从C#中的ODS导出到DataTable</strong></a>
 
 _代码步骤：_
 

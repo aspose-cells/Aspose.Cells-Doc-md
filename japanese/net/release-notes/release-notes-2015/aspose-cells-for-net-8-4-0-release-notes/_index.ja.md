@@ -16,7 +16,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **新機能**
 
 
-(CELLSNET-43362) - ワークシートからのピボットテーブルの削除のサポート
+ (CELLSNET-43362) - ワークシートからのピボットテーブルの削除のサポート
 
 (CELLSNET-43279) - コンテンツ タイプのプロパティが XLS 形式で表示されない
 
@@ -32,7 +32,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 (CELLSNET-43454) - Aspose.Pdf は出力 PDF/A-1B を検証しません
 
-(CELLSNET-43452) - 出力 PDF の PDFA1B 準拠が検証されていませんでした
+(CELLSNET-43452) - 出力 PDF の PDFA1B 準拠は検証されませんでした
 
 (CELLSNET-42646) - Workbook RefreshChartCache は、地域および言語設定で動作します
 
@@ -44,7 +44,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **パフォーマンス**
 
 
-(CELLSNET-43438) - Spreadsheet to HTML で 1GB の HTML ファイルが生成される
+(CELLSNET-43438) - スプレッドシートを HTML にすると、1 GB の HTML ファイルが生成される
 
 (CELLSNET-43399) - CalculateFormula() メソッドのパフォーマンスの問題
 
@@ -68,9 +68,9 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 (CELLSNET-43331) - ピボット テーブルの作成後に Excel ファイルが破損する
 
-(CELLSNET-43328) - 出力 PDF で画像の位置が間違っている
+(CELLSNET-43328) - 出力で画像の位置が間違っている PDF
 
-(CELLSNET-43322) - ファイルを再保存すると、ピボットグラフにボタンが表示されます
+ (CELLSNET-43322) - ファイルを再保存すると、ピボットグラフにボタンが表示されます
 
 (CELLSNET-42919) - ピボット データを更新した後の「Excel で読み取り不能が見つかりました...」エラー
 
@@ -90,19 +90,19 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 (CELLSNET-43375) - チャートを画像に変換する際に、チャートのタイトルが正しくレンダリングされない
 
-(CELLSNET-43352) - XLSX から変換すると PDF のサイズが 2 倍になる
+(CELLSNET-43352) - XLSX から変換すると、PDF のサイズが 2 倍になる
 
-(CELLSNET-43351) - XLSX から PDF への変換中のチャート凡例の問題
+(CELLSNET-43351) - XLSX を PDF に変換する際のチャートの凡例の問題
 
-(CELLSNET-43350) - XLSX から PDF への変換中のチャート軸の問題
+(CELLSNET-43350) - XLSX を PDF に変換する際のチャート軸の問題
 
-(CELLSNET-43349) - XLSX から PDF への変換中のグラフィックの問題
+(CELLSNET-43349) - XLSX を PDF に変換する際のグラフィックの問題
 
 (CELLSNET-43347) - ワークブックのコピー中にチャートの系列の影がコピーされない
 
-(CELLSNET-43339) - 出力 PDF でグラフが正しくレンダリングされない
+(CELLSNET-43339) - グラフが出力で正しくレンダリングされない PDF
 
-(CELLSNET-42573) - 円グラフのラベルが重なっています
+ (CELLSNET-42573) - 円グラフのラベルが重なっています
 
 (CELLSNET-42558) - 円グラフのレンダリング時にラベルが重なる
 
@@ -116,7 +116,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 (CELLSNET-43456) - xls を読み込んで保存すると、ワードアートのフォントの色が変わる
 
-(CELLSNET-43441) - XLSX から XLSB への変換で破損したスプレッドシートが生成される
+(CELLSNET-43441) - XLSX から XLSB に変換するとスプレッドシートが破損する
 
 (CELLSNET-43434) - xls に埋め込まれた Docm または Dotx を開くことができない
 
@@ -148,7 +148,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 (CELLSNET-43336) - 条件付き書式のレンダリングに関する問題 - Excel から HTML
 
-(CELLSNET-43335) - 条件付き書式のレンダリングに関する問題 - Excel から PDF
+ (CELLSNET-43335) - 条件付き書式のレンダリングに関する問題 - Excel から PDF
 
  (CELLSNET-43333) - Insert Rows パラメータが Cells.ImportDataReader() メソッドで正常に機能しない
 
@@ -182,7 +182,7 @@ url: /ja/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -230,7 +230,7 @@ HtmlSaveOptions.ExportBogusRowData 属性を追加します
 
 
 
-PivotTable.ShowInTabularForm() メソッドを追加
+ PivotTable.ShowInTabularForm() メソッドを追加
 
 ピボットテーブルを表形式でレイアウトします。
 

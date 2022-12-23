@@ -6,7 +6,7 @@ url: /it/java/copy-and-move-worksheets-within-and-between-workbooks/
 ---
 {{% alert color="primary" %}}
 
-volte, hai bisogno di un numero di fogli di lavoro con formattazione e immissione dati comuni. Ad esempio, se lavori con budget trimestrali, potresti voler creare una cartella di lavoro con fogli che contengono le stesse intestazioni di colonna, intestazioni di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo tre volte.
+A volte, hai bisogno di un numero di fogli di lavoro con formattazione e immissione dati comuni. Ad esempio, se lavori con budget trimestrali, potresti voler creare una cartella di lavoro con fogli che contengono le stesse intestazioni di colonna, intestazioni di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo tre volte.
 
 Aspose.Cells supporta la copia o lo spostamento di fogli di lavoro all'interno o tra cartelle di lavoro. Fogli di lavoro inclusi dati, formattazione, tabelle, matrici, grafici, immagini e altri oggetti vengono copiati con il massimo grado di precisione.
 
@@ -41,14 +41,14 @@ I passaggi iniziali sono gli stessi per tutti gli esempi.
 1. Scarica e installa Aspose.Cells:
    1. [Scarica Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
  1. Decomprimilo sul tuo computer di sviluppo.
- Tutto[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
+ Tutti[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
 1. Crea un progetto:
  1. Creare un progetto utilizzando un editor Java come Eclipse o creare un semplice programma utilizzando un editor di testo.
 1. Aggiungi un percorso di classe:
 1. Estrarre Aspose.Cells.jar e dom4j_1.6.1.jar da Aspose.Cells.zip.
  1. Imposta il classpath del progetto in Eclipse:
  1. Seleziona il tuo progetto in Eclipse e fai clic sui menu**Progetto** , poi**Proprietà**.
- 1. Selezionare**Percorso di compilazione Java** nella parte sinistra della finestra di dialogo, quindi seleziona la scheda Librerie,
+ 1. Selezionare**Java Costruisci Percorso** nella parte sinistra della finestra di dialogo, quindi seleziona la scheda Librerie,
  1. Fare clic**Aggiungi JAR** o**Aggiungi JAR esterni** per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli nei percorsi di compilazione.
 
 {{% alert color="primary" %}}
@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Copia il foglio di lavoro all'interno di una cartella di lavoro:
- Di seguito è riportato il codice utilizzato da per eseguire l'attività. Copia il foglio di lavoro Copia all'interno di FirstWorkbook.xls.
+Di seguito è riportato il codice utilizzato da per eseguire l'operazione. Copia il foglio di lavoro Copia all'interno di FirstWorkbook.xls.
 
 L'esecuzione del codice sposta il foglio di lavoro denominato Copia all'interno di FirstWorkbook.xls con il nuovo nome Last Sheet.
 

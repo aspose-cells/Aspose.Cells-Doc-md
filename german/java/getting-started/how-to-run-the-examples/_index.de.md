@@ -5,7 +5,7 @@ weight: 100
 url: /de/java/how-to-run-the-examples/
 ---
 ## **Von GitHub herunterladen**
- Alle Beispiele von Aspose.Cells for Java werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Sie können das Repository entweder mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von herunterladen[hier](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+ Alle Beispiele von Aspose.Cells for Java werden gehostet[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Sie können das Repository entweder mit Ihrem bevorzugten GitHub-Client klonen oder die ZIP-Datei von herunterladen[Hier](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
  Extrahieren Sie den Inhalt der ZIP-Datei in einen beliebigen Ordner auf Ihrem Computer. Alle Beispiele befinden sich in der**Beispiele** Mappe.
 
@@ -41,7 +41,7 @@ Weitere Hilfe finden Sie im folgenden Screenshot und in den hervorgehobenen Bere
 
 ![todo: Bild_alt_Text](how-to-run-the-examples_1.png)
 
-## **Beitragen**
+## **Dazu beitragen**
 Wenn Sie ein Beispiel hinzufügen oder verbessern möchten, ermutigen wir Sie, zum Projekt beizutragen. Alle Beispiele und Vorzeigeprojekte in diesem Repository sind Open Source und können in Ihren eigenen Anwendungen frei verwendet werden.
 
 Um einen Beitrag zu leisten, können Sie das Repository forken, den Quellcode bearbeiten und eine Pull-Anforderung erstellen. Wir werden die Änderungen überprüfen und bei Bedarf in das Repository aufnehmen.

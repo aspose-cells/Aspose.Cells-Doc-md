@@ -20,7 +20,7 @@ Begränsningarna visas nedan:
  När du kör ditt program kan du bara öppna 100 Excel-filer med Aspose.Cells Python via .Net-biblioteket. Om din ansökan överstiger detta antal kommer ett undantag att kastas.
 
 
-Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells Python via bibliotek. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utdata-PDF- eller bildfilen med Aspose.Cells Python via, skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden.
+Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells Python via bibliotek. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utgången PDF eller bildfilen med Aspose.Cells Python via, skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden.
 
 {{% alert color="primary" %}}
 

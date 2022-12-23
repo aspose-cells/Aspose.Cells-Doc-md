@@ -164,11 +164,11 @@ oleObject.AutoLoad = true;
 
 
 ### **Ajout de la propriété HTMLLoadOptions.SupportDivTag**
-Aspose.Cells for .NET 8.8.3 a exposé la propriété HTMLLoadOptions.SupportDivTag qui permet d'analyser les balises DIV intégrées dans les balises TD lors du chargement de fichiers/extraits HTML dans le modèle d'objet Aspose.Cells. La propriété de type booléen a la valeur par défaut de false.
+Aspose.Cells for .NET 8.8.3 a exposé la propriété HTMLLoadOptions.SupportDivTag qui permet d'analyser les balises DIV intégrées dans les balises TD lors du chargement des fichiers/extraits HTML dans le modèle d'objet Aspose.Cells. La propriété de type booléen a la valeur par défaut de false.
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Prise en charge des balises DIV internes lors du chargement du code HTML](/cells/fr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+ Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Prise en charge des balises DIV internes lors du chargement HTML](/cells/fr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -280,7 +280,7 @@ Aspose.Cells for .NET 8.8.3 a exposé la propriété HtmlSaveOptions.ExportGridL
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Rendre les lignes de la grille en HTML](/cells/fr/net/export-excel-to-html-with-gridlines/).
+ Pour plus de détails sur cette fonctionnalité, veuillez consulter l'article détaillé sur[Rendu des lignes de grille à HTML](/cells/fr/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 

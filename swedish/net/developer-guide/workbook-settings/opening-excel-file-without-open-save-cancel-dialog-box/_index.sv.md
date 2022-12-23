@@ -27,7 +27,7 @@ I Windows Explorer:
 
 1.  På**Verktyg** menyn, välj**Mappalternativ**.
 1. Klicka på fliken Filtyper i dialogrutan Mappalternativ.
-1. Välj filtypen XLS-tillägg.
+1. Välj filtypen XLS.
 1.  Klick**Avancerad**. 
 En dialogruta visas. Den har tre alternativ längst ner.
 1.  Avmarkera**Bekräfta öppning efter nedladdning**.

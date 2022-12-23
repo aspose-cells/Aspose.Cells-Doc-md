@@ -24,7 +24,7 @@ url: /ar/net/developer-guide/
             <li><a href="/cells/ar/net/opening-different-microsoft-excel-versions-files/">فتح ملفات إصدارات Excel Microsoft المختلفة</a></li>
             <li><a href="/cells/ar/net/opening-files-with-different-formats/">فتح ملفات بتنسيقات مختلفة</a></li>
             <li><a href="/cells/ar/net/get-warnings-while-loading-excel-file/">احصل على تحذيرات أثناء تحميل ملف Excel</a></li>
-            <li><a href="/cells/ar/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">اقرأ جدول بيانات الأرقام الذي طورته شركة Apple Inc. باستخدام Aspose.Cells</a></li>
+            <li><a href="/cells/ar/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">اقرأ جدول البيانات Numbers الذي طورته شركة Apple Inc. باستخدام Aspose.Cells</a></li>
         </ul>
         <p>يحفظ</p>
         <ul>
@@ -41,13 +41,13 @@ url: /ar/net/developer-guide/
         <p>التقديم والتحويل</p>
         <ul>
             <li><a href="/cells/ar/net/convert-workbook-to-different-formats/">تحويل المصنف إلى تنسيقات مختلفة</a></li>
-            <li><a href="/cells/ar/net/convert-excel-workbook-to-pdf/">تحويل Excel Workbook إلى PDF</a></li>
+            <li><a href="/cells/ar/net/convert-excel-workbook-to-pdf/">تحويل مصنف Excel إلى PDF</a></li>
             <li><a href="/cells/ar/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">قم بتحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a</a></li>
             <li><a href="/cells/ar/net/convert-excel-to-image/">تحويل المصنف إلى تنسيقات صور مختلفة</a></li>
             <li><a href="/cells/ar/net/track-document-conversion-progress/">تتبع تقدم تحويل المستند</a></li>
             <li><a href="/cells/ar/net/convert-excel-to-html/">تحويل Excel إلى HTML</a></li>
-            <li><a href="/cells/ar/net/convert-json-to-csv/">تحويل JSON إلى CSV</a></li>
-            <li><a href="/cells/ar/net/convert-csv-to-json/">تحويل CSV إلى JSON</a></li>
+            <li><a href="/cells/ar/net/convert-json-to-csv/">حوّل JSON إلى CSV</a></li>
+            <li><a href="/cells/ar/net/convert-csv-to-json/">حوّل CSV إلى JSON</a></li>
         </ul>
         <p>خيارات</p>
         <ul>
@@ -64,15 +64,15 @@ url: /ar/net/developer-guide/
 		 <li><a href="/cells/ar/net/accessing-cells-of-a-worksheet/">الوصول إلى Cells من ورقة العمل</a></li>
 		 <li><a href="/cells/ar/net/add-and-retrieve-data/">إضافة واسترداد البيانات</a></li>
 		 <li><a href="/cells/ar/net/manage-worksheets/">أوراق عمل</a></li>
-		 <li><a href="/cells/ar/net/rows-and-columns/">الصفوف والأعمدة</a></li>
+		 <li><a href="/cells/ar/net/rows-and-columns/">الصفوف و الأعمة</a></li>
         </ul>
         <p><a href="/cells/ar/net/cells-formatting/">أسلوب</a></p>
         <ul>
-		 <li><a href="/cells/ar/net/cells-number-settings/">رقم</a></li>
-		 <li><a href="/cells/ar/net/cells-alignment-settings/">محاذاة</a></li>
+		 <li><a href="/cells/ar/net/cells-number-settings/">عدد</a></li>
+		 <li><a href="/cells/ar/net/cells-alignment-settings/">التوافق</a></li>
 		 <li><a href="/cells/ar/net/cells-font-settings/">الخط</a></li>
 		 <li><a href="/cells/ar/net/cells-border-settings/">الحدود</a></li>
-		 <li><a href="/cells/ar/net/cells-fill-settings/">يملأ</a></li>
+		 <li><a href="/cells/ar/net/cells-fill-settings/">ملء</a></li>
         </ul>
         <p>تنسيق مشروط</p>
         <ul>
@@ -161,7 +161,7 @@ url: /ar/net/developer-guide/
 		  <ul>
             <li><a href="/cells/ar/net/creating-charts/">إنشاء الرسوم البيانية</a></li>
             <li><a href="/cells/ar/net/customizing-charts/">تخصيص الرسوم البيانية</a></li>
-			<li><a href="/cells/ar/net/create-pivot-tables-and-pivot-charts/">إنشاء الجداول المحورية والمخططات المحورية</a></li>
+			<li><a href="/cells/ar/net/create-pivot-tables-and-pivot-charts/">إنشاء جداول محورية ومخططات محورية</a></li>
 	   </ul>
         <p>سباركلينز</p>		
 		 <ul>	
@@ -345,7 +345,7 @@ url: /ar/net/developer-guide/
         <ul>
          <li><a href="/cells/ar/net/worksheet-views/#page-break-preview">معاينة فاصل الصفحة</a></li>
         </ul>
-        <p>يعرض</p>
+        <p>تبين</p>
          <ul>
 		<li><a href="/cells/ar/net/show-and-hide-gridlines-and-row-column-headers/">عرض خطوط الشبكة والعنوان</a></li>
         </ul>

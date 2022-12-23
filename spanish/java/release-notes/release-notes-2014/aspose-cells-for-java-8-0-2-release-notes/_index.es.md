@@ -22,13 +22,13 @@ Otras mejoras y cambios
 Mejoras
 
 (CELLSJAVA-40788): soporte de tema personalizado para propiedades de forma
-(CELLSJAVA-40803): establecer sugerencias de representación para imágenes al exportar hojas de cálculo a HTML
+(CELLSJAVA-40803): establecer sugerencias de representación para imágenes al exportar hojas de cálculo en HTML
 
 Insectos
 
 (CELLSJAVA-40793) - El rango no se refiere al área correcta
 (CELLSJAVA-40768): el método WorkbookRender.toPrinter() no imprime la imagen
-(CELLSJAVA-40669): gran problema de la columna pivote al representar XLTX en PDF
+(CELLSJAVA-40669): gran problema de la columna pivote al renderizar XLTX a PDF
 (CELLSJAVA-40801) - Cell problemas de alineación en el archivo PDF renderizado
 (CELLSJAVA-40406): conversión de un archivo de Excel con una gran cantidad de columnas en un archivo PDF
 (CELLSJAVA-40794) - AutoFitColumns no funciona cuando se usa con diferentes configuraciones de fuente
@@ -40,7 +40,7 @@ Insectos
 Excepciones
 
 (CELLSJAVA-40797) - Cell.getDependents() lanza NullPointerException
-(CELLSJAVA-40800): CellsException al convertir una hoja de cálculo a PDF en MAC OS
+(CELLSJAVA-40800): CellsException al convertir la hoja de cálculo a PDF en MAC OS
 
 Public API y cambios incompatibles con versiones anteriores
 

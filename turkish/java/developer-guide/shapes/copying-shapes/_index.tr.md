@@ -35,11 +35,11 @@ Bu makalede, aşağıdakilerin nasıl yapılacağı açıklanmaktadır:
 
    **Grafik içeren çalışma sayfası “Grafik”**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_1.png)
 
 **Resimli “Resim” çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_2.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_2.png)
 
 Şimdi, “Resim” adlı çalışma sayfasındaki resmi, son çalışma sayfası olan “Sonuç” a kopyalayın.
 
@@ -80,7 +80,7 @@ Yukarıdaki kodu çalıştırdıktan sonra, “Resim” çalışma sayfasındaki
 
 **Kopyalanan resim ile çalışma sayfası “Sonuç”**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_3.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_3.png)
 
 ### **Görev 2: Grafiği Bir Çalışma Sayfasından Diğerine Kopyalama**
 
@@ -96,13 +96,13 @@ Yukarıdaki kodu çalıştırdıktan sonra, "Grafik" çalışma sayfasındaki gr
 
 **Kopyalanan resim ve çizelge ile “Sonuç” çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_4.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_4.png)
 
 ### **Görev 3: Kontrolleri ve Diğer Çizim Nesnelerini Bir Çalışma Sayfasından Diğerine Kopyalama**
 
 **Metin kutusu ve oval içeren çalışma sayfası “Kontrol”**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_5.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_5.png)
 
 Lütfen istediğiniz sonuçları elde etmek için gerçekleştirmeniz gereken aşağıdaki basit adımlara bakın.
 
@@ -118,7 +118,7 @@ Yukarıdaki kodu çalıştırdıktan sonra, "Kontrol" çalışma sayfasındaki k
 
 **Kopyalanan metin kutusu ve oval ile çalışma sayfası "Sonuç"**
 
-![yapılacaklar:resim_alternatif_Metin](copy-shapes-between-worksheets_6.png)
+![yapılacaklar:resim_alternatif_metin](copy-shapes-between-worksheets_6.png)
 
 ## **Çözüm**
 

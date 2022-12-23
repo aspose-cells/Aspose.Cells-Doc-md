@@ -6,20 +6,20 @@ url: /fr/java/aspose-cells-for-java-8-9-1-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41925|Le temps de calcul a augmenté avec les récentes révisions API|Nouvelle fonctionnalité|
 |CELLSJAVA-40958|Un mécanisme de substitution de polices configurable par l'utilisateur est requis|Nouvelle fonctionnalité|
 |CELLSJAVA-41936|La méthode Workbook.calculateFormula() ne se termine jamais pour le fichier Excel source|Renforcement|
-|CELLSJAVA-41928|Impossible d'attraper la ressource d'image lors du rendu de la feuille de calcul au format HTML avec IStreamProvider|Punaise|
+|CELLSJAVA-41928|Impossible d'attraper la ressource d'image lors du rendu de la feuille de calcul en HTML avec IStreamProvider|Punaise|
 |CELLSJAVA-41841|Problème avec le rendu des cases à cocher en HTML|Punaise|
 |CELLSJAVA-41932|Problème avec getDisplayStringValue() pour les valeurs au format Date|Punaise|
 |CELLSJAVA-41930|En utilisant les API Light Cells pour traiter un fichier XLS, la première cellule de la première feuille est toujours traitée|Punaise|
-|CELLSJAVA-41931|L'espacement des caractères et la rupture ne sont pas corrects pour le texte vertical lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-41931|L'espacement des caractères et la rupture ne sont pas corrects pour le texte vertical lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-41709|Les largeurs de colonne sont différentes sur CentOS que sur Windows|Punaise|
-|CELLSJAVA-41933|L'échelle du graphique s'est déplacée lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-41934|Problème d'alignement lors du rendu d'un fichier Excel au format PDF|Punaise|
-|CELLSJAVA-41935|Le formatage des entrées de légende est perturbé lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-41933|L'échelle du graphique s'est déplacée lors du rendu de la feuille de calcul vers PDF|Punaise|
+|CELLSJAVA-41934|Problème d'alignement lors du rendu d'un fichier Excel au PDF|Punaise|
+|CELLSJAVA-41935|Le formatage des entrées de légende est perturbé lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-41943|Les étiquettes d'axe horizontal n'ont pas été rendues complètement, c'est-à-dire ; toutes les étiquettes manquent de contenu dans l'image rendue.|Punaise|
 |CELLSJAVA-41940|Le fichier est corrompu après le calcul de la formule et l'enregistrement|Punaise|
 |CELLSJAVA-41927|Exception : "java.lang.OutOfMemoryError" lors de l'enregistrement au format de fichier HTML|Exception|

@@ -16,7 +16,7 @@ url: /ja/java/render-the-worksheet-and-workbook-to-image-using-imageorprintoptio
 
 API は、いくつかの価値のあるクラスを提供します。たとえば、[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)など
 
-の[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)クラスは、ワークシートの画像をレンダリングするタスクを処理しますが、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)ワークブックに対しても同じことを行います。前述の両方のクラスには、いくつかのオーバーロードされたバージョンの*toImage*ワークシートまたはワークブックを、目的の属性またはオプションで指定された画像ファイルに直接変換できるメソッド。画像ファイルをディスク/ストリームに保存できます。 BMP、PNG、GIFF、JPEG、TIFF、EMF など、いくつかの画像形式がサポートされています。
+の[**シートレンダリング**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)クラスは、ワークシートの画像をレンダリングするタスクを処理しますが、[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)ワークブックに対しても同じことを行います。前述の両方のクラスには、いくつかのオーバーロードされたバージョンの*toImage*ワークシートまたはワークブックを、目的の属性またはオプションで指定された画像ファイルに直接変換できるメソッド。画像ファイルをディスク/ストリームに保存できます。 BMP、PNG、GIFF、JPEG、TIFF、EMF など、いくつかの画像フォーマットがサポートされています。
 
 ### **ワークシートを画像に変換**
 
@@ -38,7 +38,7 @@ API は、いくつかの価値のあるクラスを提供します。たとえ�
 
 {{% alert color="primary" %}}
 
-の[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)クラスはワークブックを TIFF 形式でのみ保存できます。
+の[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)クラスは、ワークブックを TIFF 形式でのみ保存できます。
 
 {{% /alert %}}
 
@@ -47,6 +47,6 @@ API は、いくつかの価値のあるクラスを提供します。たとえ�
 ## 関連記事
 
 - [ワークシートを別の画像形式に変換する](/cells/ja/java/converting-worksheet-to-different-image-formats/)
-- [viewBox 属性を使用してチャートを SVG にエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
+- [viewBox属性を使用してグラフをSVGにエクスポートします](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
 - [ワークシートまたはチャートを目的の幅と高さの画像にエクスポート](/cells/ja/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [ワークシートから画像へ、ワークシートから画像へのページ単位での変換](/cells/ja/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

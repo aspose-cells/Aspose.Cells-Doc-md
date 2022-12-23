@@ -26,7 +26,7 @@ url: /ar/net/using-icustomfunction-feature/
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-ICustomFunction.cs" >}}
 
 
-فيما يلي كيفية استخدام الوظيفة المحددة حديثًا في جدول البيانات
+فيما يلي كيفية استخدام الوظيفة المحددة حديثًا في جدول بيانات
 
 
 

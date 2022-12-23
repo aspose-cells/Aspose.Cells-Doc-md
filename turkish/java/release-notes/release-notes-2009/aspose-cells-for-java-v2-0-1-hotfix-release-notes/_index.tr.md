@@ -14,7 +14,7 @@ url: /tr/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  Neler değişti:
 
- l R/W Açık Belge Elektronik Tablo dosyasını (ODS) destekler: Cell veri ve stil, Satır/Sütun stili, Birleştirilmiş Cells, Çalışma Sayfası/Çalışma Kitabı özellikleri, Belge özellikleri, Formül/Ad.
+ l R/W Açık Belge Elektronik Tablo dosyasını destekler(ODS): Cell veri ve stil, Satır/Sütun stili, Birleştirilmiş Cells, Çalışma Sayfası/Çalışma Kitabı özellikleri, Belge özellikleri, Formül/Ad.
 
  l Paylaşılan formülü ayarlamayı destekler.
 
@@ -42,15 +42,15 @@ Kontrolleri manipüle etmeyi destekler: Onay kutusu, Düğme, Radyo düğmesi, A
 
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |
-|6722 | ODS| R/W ODS dosyası|
+|6722 |ODS | R/W ODS dosya|
 |7834 | Xl'ler| Cell.getÖrnekler|
-|6516 | HTML| Akış için çalışma sayfasını html biçiminde kaydeder.|
+|6516 |HTML | Akış için çalışma sayfasını html biçiminde kaydeder.|
 |7744 | Xl'ler| R/W şifreli dosya: Microsoft Güçlü Şifreleme Sağlayıcı.|
 |7745 | Xl'ler| ASeries'i NSeries koleksiyonundan kaldırır.|
 |7571 | Xlsx| köprüler.|
 |7572 | Xl'ler| Formül: TOPLA.|
-|7575 | Xl'ler|Formül: YUVARLAK.|
-|7649 | Xl'ler| PivotChart'ın Veri Etiketleri.|
+|7575 | Xl'ler| Formül: YUVARLAK.|
+|7649 | Xl'ler|PivotChart'ın Veri Etiketleri.|
 |7343 | Xl'ler| OleObject'in özelliğini ayarlar: OleSize.|
 |7408 | Xl'ler| Otomatik Filtre oluşturur.|
 |7500 | Xl'ler| Grafikteki Alanın FillFormat'ını kaydeder.|

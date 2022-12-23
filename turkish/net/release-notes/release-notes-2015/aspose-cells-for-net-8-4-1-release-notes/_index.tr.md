@@ -32,41 +32,41 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **Hatalar**
 
 
- (CELLSNET-43475) - Özet Tablonun HTML'deki veri görünümü birbiriyle ilişkili değil
+ (CELLSNET-43475) - Pivot Tablonun HTML'deki veri görünümü ilişkili değil
 
- (CELLSNET-43474) - Özet Tablo, HTML'ye dönüştürülürken yenilenmiyor
+ (CELLSNET-43474) - Pivot Tablo, HTML'e dönüştürülürken yenilenmiyor
 
  (CELLSNET-43473) - Rapor Filtresi seçimleri değişti
 
- (CELLSNET-43450) - Elektronik tabloyu HTML'ye dönüştürürken HTML'nin yanlış oluşturulması
+ (CELLSNET-43450) - Elektronik tablo HTML'e dönüştürülürken HTML'in hatalı oluşturulması
 
- (CELLSNET-43428) - grup başlıklarındaki özet tablo hücrelerinin stilleri yanlış
+(CELLSNET-43428) - grup başlıklarındaki özet tablo hücrelerinin stilleri yanlış
 
-(CELLSNET-43422) - Kaynak sayfanın kaldırılması, kaydetmede istisnaya neden oluyor
+ (CELLSNET-43422) - Kaynak sayfanın kaldırılması, kaydetmede istisnaya neden oluyor
 
  (CELLSNET-43417) - PivotChart'ın seri veri noktalarının sıralama düzeni yanlış
 
- (CELLSNET-43413) - HTML dosyasından PDF'ye yanlış dönüştürme
+ (CELLSNET-43413) - HTML dosyasından PDF dosyasına yanlış dönüştürme
 
- (CELLSNET-43340) - XLS elektronik tablosunun yeniden kaydedilmesi sonucun bozulmasına neden oluyor
+ (CELLSNET-43340) - XLS e-tablosunun yeniden kaydedilmesi sonucun bozulmasına neden oluyor
 
  (CELLSNET-43545) - Oluşturulan PDF dosya biçimindeki sol altbilgideki metinle tarih çakışıyor
 
  (CELLSNET-43543) - Çift hücre kenarlığı, son hücre için düzgün yazdırılmıyor
 
- (CELLSNET-43541) - PDF'ye dönüştürülürken eksik tablo başlığı kenarlığı
+ (CELLSNET-43541) - PDF'e dönüştürülürken tablo başlığı kenarlığı eksik
 
  (CELLSNET-43516) - Aspose boş sayfa yazdırmıyor
 
- (CELLSNET-43508) - Elektronik Tablodan PDF'e, boş bir PDF oluşturur
+ (CELLSNET-43508) - PDF e-tablosu boş bir PDF oluşturur
 
- (CELLSNET-43507) - Çıktı PDF dosyasındaki görüntünün pikselleri biraz bozuldu
+ (CELLSNET-43507) - PDF çıktı dosyasındaki görüntü için pikseller biraz bozuldu
 
  (CELLSNET-43481) - Cells, İbranice kelimeler içeren tarihler ve/veya sayılar
 
- (CELLSNET-43479) - Girintili logo yanlış
+(CELLSNET-43479) - Girintili logo yanlış
 
-(CELLSNET-43478) - İlk satırdaki son kelimenin sonunda iki nokta üst üste koptu
+ (CELLSNET-43478) - İlk satırdaki son kelimenin sonunda iki nokta üst üste koptu
 
  (CELLSNET-43477) - İbranice kelimeler arasındaki boşluklar kayboldu ve cümle tek kelimeye dönüştürüldü
 
@@ -96,7 +96,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-42854) - x ekseni için yarım sayı satırları ve metin görünmüyor
 
- (CELLSNET-42614) - PDF'ye aktarılan grafikte fazladan satırlar var
+ (CELLSNET-42614) - PDF'e aktarılan grafikte fazladan satırlar var
 
  (CELLSNET-40984) - 0 baytlık bir görüntüm var - Shape2Image Hatası
 
@@ -110,9 +110,9 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - Yükleme ve kaydetme işleminden sonra açılan filtre seçilemez
 
- (CELLSNET-43518) - XLSM'yi yüklemek ve kaydetmek sonucu bozuyor
+ (CELLSNET-43518) - XLSM'in yüklenmesi ve kaydedilmesi sonucun bozulmasına neden oluyor
 
- (CELLSNET-43515) - Adlandırılmış aralık hücresini içeren formül iyi okunmuyor
+ (CELLSNET-43515) - Adlandırılmış aralık hücresini içeren formül iyi okunmadı
 
  (CELLSNET-43494) - Radyo Düğmesinin Bağlantılı Cell değeri yanlış
 
@@ -126,7 +126,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **İstisnalar**
 
 
- (CELLSNET-43304) - Bir MHTML dosyasını bir Çalışma Kitabı örneğine yüklerken System.ArgumentException
+ (CELLSNET-43304) - Workbook örneğine bir MHTML dosyası yüklenirken System.ArgumentException
 
  (CELLSNET-43503) - Workbook.Save'de System.NullReferenceException gözlemlendi
 
@@ -136,7 +136,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -150,7 +150,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) - GridDesktop katıştırılmış kaynak lisansını bulamıyor
 
-(CELLSNET-42509) - Gridweb'de şekiller düzgün şekilde oluşturulmuyor
+ (CELLSNET-42509) - Gridweb'de şekiller düzgün şekilde oluşturulmuyor
 
  (CELLSNET-42559) - GridDesktop'ta çalışma sayfalarını taşıma
 
@@ -178,7 +178,7 @@ url: /tr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  ImageOrPrintOptions.SVGFitToViewPort özelliğini ekler.
 
- Oluşturulan SVG görüntüsünün bağlantı noktasını görüntülemek için uygun olup olmadığını gösterir.
+ Oluşturulan SVG görüntüsünün görüntüleme bağlantı noktasına uygun olup olmadığını gösterir.
 
 
 

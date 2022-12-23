@@ -13,17 +13,17 @@ url: /sv/php-java/aspose-cells-for-php-via-java-21-12-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Stöd för att avbryta exekveringen av WorkbookDesigner.process i SmarkMarker|
-|CELLSJAVA-44039|Ändra PDF Producer-attribut från den genererade PDF-filen|
+|CELLSJAVA-44039|Ändra PDF Producer-attribut från den genererade PDF|
 |CELLSJAVA-43469|Möjlig regression: Prestandaförsämring av FormatConditionCollection.addArea()|
 |CELLSJAVA-43983|Regression: Oändlig loop vid konvertering av XLSX till PDF|
-|CELLSJAVA-44029|XLSX till PDF: Bilden konverteras inte|
+|CELLSJAVA-44029|XLSX till PDF: Bilden har inte konverterats|
 |CELLSJAVA-44093| Problem med textavkortning med rektangelformer vid rendering till bild i nyare Aspose.Cells for Java versioner|
 |CELLSJAVA-44089|DataLabels.setShadow() är inte tillgänglig och den är inte lika med metoden Series.setShadow()|
-|CELLSJAVA-44000|Cells stil är felaktig i HTML när man använder ikonuppsättning och annan villkorlig formatering samtidigt|
+|CELLSJAVA-44000|Cells-stilen är felaktig i HTML när ikonuppsättning och annan villkorlig formatering används samtidigt|
 |CELLSJAVA-43932|Problem med att ställa in dataetiketternas position för exploderade munkdiagram i utdatabilden|
 |CELLSJAVA-43934|Cirkeldiagrametiketterna matchade inte med Excel efter manipulering eller uppdatering av diagram|
 |CELLSJAVA-44094|Diagramtitel trunkeras vid export till PDF|
-|CELLSJAVA-43533|Problem med att skapa XLSX till HTML i Ubuntu|
+|CELLSJAVA-43533|XLSX till Html-skapande problem i Ubuntu|
 |CELLSJAVA-43987|Den högra kanten av sammanslagna celler går förlorad i html|
 |CELLSJAVA-44016|Problem vid konvertering av Excel-filen som innehåller bildens URL till HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: Du har angett för få parametrar för funktionen IF när du anropar Workbook.calculateFormula()|

@@ -12,7 +12,7 @@ Bir çalışma sayfasındaki boş sütunları ve satırları sildiğinizde, diğ
 
 ## **Bir çalışma sayfasındaki boş sütunları ve satırları silerken diğer çalışma sayfalarındaki referansları güncelleyin**
 
- Lütfen aşağıdaki örnek koda ve konsol çıktısına bakın. İkinci çalışma sayfasındaki E3 hücresi, birinci çalışma sayfasındaki C3 hücresine atıfta bulunan =Sayfa1!C3 formülüne sahiptir. eğer ayarlayacaksan[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) olarak mülkiyet**doğru** , bu formül güncellenecek ve ilk çalışma sayfasındaki boş sütunlar ve satırlar silindiğinde =Sayfa1!A1 olacaktır. Ancak, ayarlayacaksanız[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) olarak mülkiyet**yanlış**, ikinci çalışma sayfasının E3 hücresindeki formül =Sayfa1!C3 olarak kalacak ve geçersiz olacaktır.
+ Lütfen aşağıdaki örnek koda ve konsol çıktısına bakın. İkinci çalışma sayfasındaki E3 hücresi, birinci çalışma sayfasındaki C3 hücresine atıfta bulunan =Sayfa1!C3 formülüne sahiptir. eğer ayarlayacaksan[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) olarak mülkiyet**doğru** , bu formül güncellenecek ve ilk çalışma sayfasındaki boş sütunlar ve satırlar silindiğinde =Sayfa1!A1 olacaktır. Ancak, ayarlayacaksanız[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) olarak mülkiyet**YANLIŞ**, ikinci çalışma sayfasının E3 hücresindeki formül =Sayfa1!C3 olarak kalacak ve geçersiz olacaktır.
 
 ### **Programlama Örneği**
 
@@ -43,7 +43,7 @@ Cell Value: 4
 
 {{< /highlight >}}
 
- Bu, yukarıdaki örnek kodun konsol çıktısıdır.[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) özellik olarak ayarlandı**yanlış**. Gördüğünüz gibi, ikinci çalışma sayfasının E3 hücresindeki formül güncellenmedi ve hücre değeri artık 4 yerine geçersiz olan 0 oldu.
+ Bu, yukarıdaki örnek kodun konsol çıktısıdır.[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) özellik olarak ayarlandı**YANLIŞ**. Gördüğünüz gibi, ikinci çalışma sayfasının E3 hücresindeki formül güncellenmedi ve hücre değeri artık 4 yerine geçersiz olan 0 oldu.
 
 {{< highlight "java" >}}
 

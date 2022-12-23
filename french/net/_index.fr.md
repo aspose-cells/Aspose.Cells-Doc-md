@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/net/
 is_root: true
-description: Une bibliothèque de programmation de feuilles de calcul puissante et rapide écrite en C#. Elle prend en charge les formats de fichiers Excel populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML et JSON et permet d'exporter des fichiers Excel vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires tels que TIFF, JPG, PNG, BMP et SVG.
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, y compris TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Une bibliothèque de programmation de feuilles de calcul puissante 
 
 Combiné avec des API et des contrôles GUI, Aspose.Cells for .NET accélère la programmation et la conversion Microsoft Excel®.
 
-Aspose.Cells for .NET prend en charge les formats de fichiers de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel au format PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+Aspose.Cells for .NET prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texte brut et formats d'image populaires, y compris TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -43,7 +43,7 @@ Aspose.Cells for .NET prend en charge les formats de fichiers de feuille de calc
 			<hr><p><a href="/cells/fr/net/getting-started/">Commencer</a></p></hr>
 			<ul>
 				<li><a href="/cells/fr/net/supported-file-formats/">Formats de fichiers pris en charge</a></li>
-				<li><a href="/cells/fr/net/aspose-cells-features/">Fonctionnalités</a></li>
+				<li><a href="/cells/fr/net/aspose-cells-features/">Caractéristiques</a></li>
 				<li><a href="/cells/fr/net/system-requirements/">Configuration requise</a></li>
 				<li><a href="/cells/fr/net/getting-started/#how-to-install">Installation</a></li>
 				<li><a href="/cells/fr/net/installation/">Installez Aspose Cells à NuGet</a></li>

@@ -69,7 +69,7 @@ workbook.Save("Chart_Aspose.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Crea grafici** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Crea grafici** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Create.Charts.Aspose.Cells.zip)
 

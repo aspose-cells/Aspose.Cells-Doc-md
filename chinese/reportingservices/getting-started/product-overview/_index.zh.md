@@ -4,7 +4,7 @@ type: docs
 weight: 9
 url: /zh/reportingservices/product-overview/
 ---
-![待办事项：图像_替代_文本](product-overview_1.png)
+![待办事项：图片_替代_文本](product-overview_1.png)
 **欢迎使用 Aspose.Cells for Reporting Services 文档！**
 Aspose.Cells 是一个屡获殊荣的电子表格组件，它允许开发人员将读取、写入和操作 Excel 电子表格的能力嵌入到他们自己的应用程序中，而无需依赖 Microsoft Excel。
 
@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services 是为需要在 Reporting Services 中交付
 
 **使用 Aspose.Cells for Reporting Services 呈现的示例报告** 
 
-![待办事项：图像_替代_文本](product-overview_2.png)
+![待办事项：图片_替代_文本](product-overview_2.png)
 
 Aspose.Cells for Reporting Services 由两部分组成。
 - **Aspose.Cells.Report.Designer**

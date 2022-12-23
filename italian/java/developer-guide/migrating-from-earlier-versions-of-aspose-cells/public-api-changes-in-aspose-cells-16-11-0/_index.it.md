@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 16.11.0
+title: Pubblico API Modifiche Aspose.Cells 16.11.0
 type: docs
 weight: 360
 url: /it/java/public-api-changes-in-aspose-cells-16-11-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.10.0 alla 16.11.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.10.0 alla 16.11.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -18,7 +18,7 @@ Aspose.Cells 16.11.0 ha esposto la classe GlobalizationSettings insieme alla pro
 
 Ecco una semplice classe personalizzata che estende la classe GlobalizationSettings e ne esegue l'override dei metodi sopra menzionati per restituire etichette personalizzate per la funzione di consolidamento Average.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -74,7 +74,7 @@ Ecco una semplice classe personalizzata che estende la classe GlobalizationSetti
 
 Lo snippet seguente carica un foglio di calcolo esistente e aggiunge il subtotale di tipo Media sui dati già disponibili nel foglio di lavoro. La classe CustomSettings ei relativi metodi getTotalName e getGrandTotalName verranno chiamati al momento dell'aggiunta di Subtotal al foglio di lavoro.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -114,7 +114,7 @@ book.save(dir + "output.xlsx");
 
 La classe GlobalizationSettings offre anche il metodo getOtherName utile per ottenere il nome delle etichette "Altro" per i grafici a torta. Ecco un semplice scenario di utilizzo del metodo GlobalizationSettings.getOtherName.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -162,7 +162,7 @@ La classe GlobalizationSettings offre anche il metodo getOtherName utile per ott
 
 Il frammento di codice seguente carica un foglio di calcolo esistente contenente un grafico a torta ed esegue il rendering del grafico in immagine mentre utilizza la classe CustomSettings creata in precedenza.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -198,7 +198,7 @@ Aspose.Cells 16.11.0 ha esposto la classe CellsFactory che attualmente ha un met
 
 Ecco un semplice scenario di utilizzo del metodo CellsFactory.createStyle.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -224,7 +224,7 @@ Nel caso in cui non sia stato trovato alcun collegamento ipertestuale nella cell
 
 Ecco un semplice scenario di utilizzo del metodo getHyperlink.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

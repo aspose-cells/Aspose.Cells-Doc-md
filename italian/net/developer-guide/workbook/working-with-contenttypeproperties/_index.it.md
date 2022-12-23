@@ -12,6 +12,6 @@ Il file di output generato dal codice di esempio è allegato per riferimento.
 
 [File di uscita](95584314.xlsx)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-WorkingWithContentTypeProperties-1.cs" >}}

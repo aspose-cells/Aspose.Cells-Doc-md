@@ -18,14 +18,14 @@ url: /es/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47373|Guardar el libro de trabajo en PDF MemoryStream dura más de 2 minutos|Mejora|
 |CELLSNET-43418|Copie y pegue (solo datos) un rango no contiguo|Mejora|
 |CELLSNET-47315|El archivo no se pudo abrir cuando se guardó en zip64|Mejora|
-|CELLSNET-47384|Mejorar el rendimiento de carga de imágenes/formas|Actuación|
-|CELLSNET-47382|La conversión de HTML a Excel pierde formato|Insecto|
-|CELLSNET-47390|El color de algunas palabras es incorrecto en la representación de HTML a ODS|Insecto|
+|CELLSNET-47384|Mejorar el rendimiento de carga de imágenes/formas|Rendimiento|
+|CELLSNET-47382|HTML a conversión de Excel pierde formato|Insecto|
+|CELLSNET-47390|El color de algunas palabras es incorrecto en la representación HTML a ODS|Insecto|
 |CELLSNET-47385|Cells.InsertCutCells se rompe en libros de trabajo con una intersección de rango|Insecto|
 |CELLSNET-47389|HLOOKUP cálculo incorrecto|Insecto|
 |CELLSNET-47352|Después de hacer clic en el texto, el texto desaparece|Insecto|
 |CELLSNET-47380|La columna no se alinea|Insecto|
-|CELLSNET-47366|Puntos no representados en archivo PDF|Insecto|
+|CELLSNET-47366|Puntos no representados en el archivo PDF|Insecto|
 |CELLSNET-47364|Las etiquetas de los ejes se representan incorrectamente si la hoja de trabajo se representa como una imagen|Insecto|
 |CELLSNET-47370|Falta el punto del gráfico y la forma se aprieta al cargar y guardar el archivo de Excel|Insecto|
 |CELLSNET-47367|Dirección de flecha de eje incorrecta al convertir el gráfico en una imagen|Insecto|

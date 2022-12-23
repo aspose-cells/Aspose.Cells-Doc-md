@@ -26,7 +26,7 @@ url: /fr/java/aspose-cells-for-java-v1-9-4-hot-fix-release-notes/
  Qu'est-ce qui est corrigé ?
 
 - Correction de quelques bugs de formule de calcul
- Correction d'un bug d'export au format Excel2007 XLSX
+ Correction d'un bug d'exportation au format Excel2007 XLSX
  Correction d'un bug de style de copie
  Correction d'un bug de copie de formule
  Correction d'un bug de sauvegarde de la taille de l'image

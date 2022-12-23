@@ -18,10 +18,10 @@ url: /ja/java/aspose-cells-for-java-19-9-release-notes/
 |CELLSJAVA-42987|Excel ファイルを PDF に変換する際のフォーマットの問題|バグ|
 |CELLSJAVA-42986|中国語の XLSX ファイルを PDF に変換した後にテキストが重なる|バグ|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) が新しい Excel バージョンで機能しない|バグ|
-|CELLSJAVA-42996|数式に基づくデータ ラベルが PDF で正しく表示されない|バグ|
-|CELLSJAVA-42992|XLSM から画像への変換中に例外が発生しました|例外|
-|CELLSJAVA-42991|macOS で Excel を PDF に変換する際に「列幅は 0 から 255 の間である必要があります」という例外が発生する|例外|
-|CELLSJAVA-43004|例外 java.lang.NumberFormatException: 入力文字列の場合: "0.0" Excel から HTML への変換中|例外|
+|CELLSJAVA-42996|数式に基づくデータ ラベルが PDF で正しくレンダリングされない|バグ|
+|CELLSJAVA-42992|XLSM を画像に変換中に例外が発生しました|例外|
+|CELLSJAVA-42991|macOS で Excel を PDF に変換すると、「列幅は 0 から 255 の間でなければなりません」という例外が発生する|例外|
+|CELLSJAVA-43004|例外 java.lang.NumberFormatException: 入力文字列の場合: Excel を HTML に変換中の "0.0"|例外|
 |CELLSJAVA-43010|deleteBlankColumns() の実行中に IllegalArgumentException が発生する|例外|
 
 ## **Public API および下位互換性のない変更**

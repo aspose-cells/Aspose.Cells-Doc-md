@@ -32,7 +32,7 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 ## **插入带格式的行**
 要插入带有格式选项的行，请使用[插入行](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)超载需要[插入选项](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)作为参数。设置[复制格式类型](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)的财产[插入选项](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)类[复制格式类型](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)枚举。这[复制格式类型](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)枚举具有三个成员，如下所列。
 
-- [相同的_作为_以上](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)：格式化与上一行相同的行。
+- [相同的_作为_多于](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)：格式化与上一行相同的行。
 - [相同的_作为_以下](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW)格式化与下一行相同的行。
 - [清除](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR)：清除格式。
 

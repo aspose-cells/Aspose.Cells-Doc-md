@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-20-12-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47309|Le formule IFS vengono racchiuse tra parentesi graffe dopo il salvataggio con ASPOSE|Nuova caratteristica|
 |CELLSNET-47710|Supporta la formula con la funzione Foglio()|Nuova caratteristica|
@@ -19,10 +19,10 @@ url: /it/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47749|Rimuovi la macro ods in Workbook.RemoveMacro|Aumento|
 |CELLSNET-47759|Supporto tag h1 quando si imposta Cell.HtmlString|Aumento|
 |CELLSNET-47771|Manca il nuovo foglio di lavoro mc:Ignorable="x14ac xr xr2 xr3"|Aumento|
-|CELLSNET-47758| La conversione del complesso XLSM in HTML richiede molto tempo|Prestazione|
+|CELLSNET-47758| Il complesso di conversione da XLSM a HTML richiede molto tempo|Prestazione|
 |CELLSNET-47578|Markup non valido con tag SPAN di chiusura non aperto viene prodotto durante la conversione del documento Cells in HTML|Insetto|
 |CELLSNET-47776|DirectoryNotFoundException durante il tentativo di aprire HTML|Insetto|
-|CELLSNET-47643|Alcune colonne extra nel nuovo output nel rendering da Excel a HTML|Insetto|
+|CELLSNET-47643|Alcune colonne extra nel nuovo output in Excel per il rendering HTML|Insetto|
 |CELLSNET-47688|Alcuni TD causeranno errori di carattere per il carattere Wingdings nel rendering da HTML a PDF|Insetto|
 |CELLSNET-47690|La conversione di Html in Xlsx non rispetta lo stile della tabella html|Insetto|
 |CELLSNET-47718|Le immagini sono allineate in modo errato durante l'importazione del file in html|Insetto|
@@ -56,9 +56,9 @@ url: /it/net/aspose-cells-for-net-20-12-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cell.SetDynamicArrayFormula(string arrayFormula, Opzioni FormulaParseOptions, bool calcola).**
 
@@ -93,7 +93,7 @@ si prega di mantenere il valore predefinito.
 ### **Aggiunge la proprietà LoadOptions.AutoFilter**
 
 Indica se filtrare automaticamente i dati durante il caricamento dei file.
-A volte, sebbene sia impostato il filtro automatico, le righe corrispondenti non sono nascoste nel file. Ora funziona solo per il file SpreadSheetML.
+volte, sebbene sia impostato il filtro automatico, le righe corrispondenti non sono nascoste nel file. Ora funziona solo per il file SpreadSheetML.
 
 ### **Aggiunge la proprietà WorkbookSettings.Author**
 

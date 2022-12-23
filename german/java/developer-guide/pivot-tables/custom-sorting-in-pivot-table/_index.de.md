@@ -13,6 +13,6 @@ Beispielquelldatei und Ausgabedateien können hier zum Testen des Beispielcodes 
 
 [Excel-Datei ausgeben](95584328.xlsx)
 
-[PDF-Datei ausgeben](95584329.pdf)
+[Ausgabe PDF Datei](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

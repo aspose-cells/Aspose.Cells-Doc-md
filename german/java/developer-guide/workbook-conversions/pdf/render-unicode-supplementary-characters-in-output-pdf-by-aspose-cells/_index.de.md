@@ -1,5 +1,5 @@
 ﻿---
-title: Rendert Unicode-Ergänzungszeichen in Ausgabe-PDF von Aspose.Cells
+title: Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells
 type: docs
 weight: 690
 url: /de/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -14,11 +14,11 @@ Im Unicode-Zeichenstandard sind ergänzende Zeichen die Zeichen, denen Codepunkt
 - In UTF-16 erfordern diese Zeichen 2 Ersatzzeichen (16-Bit-Einheiten).
 
 {{% /alert %}} 
-## **Rendert Unicode-Ergänzungszeichen in Ausgabe-PDF von Aspose.Cells**
- Der folgende Screenshot zeigt, wie Aspose.Cells die gerendert[Excel-Quelldatei](5473390.xlsx) in die[PDF ausgeben](5473391.pdf)Wie Sie sehen können, wurden alle drei Unicode-Ergänzungszeichen genau so gerendert wie von Microsoft Excel.
+## **Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells**
+ Der folgende Screenshot zeigt, wie Aspose.Cells die gerendert[Excel-Quelldatei](5473390.xlsx) in die[Ausgang PDF](5473391.pdf). Wie Sie sehen können, wurden alle drei Unicode-Ergänzungszeichen genau so gerendert wie von Microsoft Excel.
 
 ![todo: Bild_alt_Text](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-Sie können diesen Beispielcode verwenden, um die zu konvertieren[Excel-Quelldatei](5473390.xlsx) hinein[PDF ausgeben](5473391.pdf).
+Sie können diesen Beispielcode verwenden, um die zu konvertieren[Excel-Quelldatei](5473390.xlsx) hinein[Ausgang PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

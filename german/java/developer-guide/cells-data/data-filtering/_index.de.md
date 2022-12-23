@@ -29,7 +29,7 @@ Einige der Autofilter-Optionen sind:
 
 |**Optionen**|**Beschreibung**|
 |:- |:- |
-|Alle|Alle Elemente in der Liste einmal anzeigen.|
+|Alles|Alle Elemente in der Liste einmal anzeigen.|
 |Brauch|Passen Sie Filterkriterien wie enthält/enthält nicht an|
 |Nach Farbe filtern|Filter basierend auf gefüllter Farbe|
 |Datumsfilter|Filtert Zeilen basierend auf verschiedenen Kriterien nach Datum|
@@ -81,7 +81,7 @@ Manchmal sind dynamische Filter basierend auf einem Datum erforderlich, z. B. al
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 
-##### **Nummer**
+##### **Anzahl**
 
 Benutzerdefinierte Filter können mit Aspose.Cells angewendet werden, z. B. das Auswählen von Zellen mit einer Nummer zwischen einem bestimmten Bereich. Das folgende Beispiel demonstriert die Verwendung von[**Brauch()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) Funktion zum Filtern von Zahlen. Beispieldateien können unter den folgenden Links heruntergeladen werden.
 

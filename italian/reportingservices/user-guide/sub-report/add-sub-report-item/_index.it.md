@@ -22,7 +22,7 @@ Per aggiungere un elemento del sottoreport:
 
 
 1.  Clic**Aggiungi sottoreport**.
- Viene visualizzato il modulo Recupera report.
+ Viene visualizzato il modulo Recupera rapporto.
 1.  Seleziona un rapporto.
 
    **Selezione di un rapporto** 

@@ -13,11 +13,11 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-10-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-43768|Java 将 XLSX 文件转换为 PDF 时出现堆空间问题|
-|CELLSJAVA-43875|加载 XLSX 文件时出现“无效的 FontUnderlineType 字符串 val”异常|
+|CELLSJAVA-43875|加载 XLSX 文件时出现异常“无效的 FontUnderlineType 字符串 val”|
 |CELLSJAVA-43876|加载 XLSX 文件时出现异常“java.lang.ArrayIndexOutOfBoundsException”|
 |CELLSJAVA-43646|文字阴影效果渲染不正确|
 |CELLSJAVA-43760|等腰三角形方向不正确|
-|CELLSJAVA-43786|将 XLS 文件转换为 XLSX 时，有关形状的某些部分无法正确呈现|
+|CELLSJAVA-43786|将 XLS 文件转换为 XLSX 时，有关形状的某些部分未正确呈现|
 |CELLSJAVA-43838|执行XlsToXlsx后自选图形丢失|
 |CELLSJAVA-43839|执行XlsToXlsx后，LeftBracket丢失|
 |CELLSJAVA-43842|执行XlsToXlsx后，LeftBracket的形状和原来的不一样|
@@ -25,11 +25,11 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-10-release-notes/
 |CELLSJAVA-43880|将 xls 转换为 xlsx 后文本框的圆角不正确|
 |CELLSJAVA-43867|导出到 html 时条件格式图标不同|
 |CELLSJAVA-43812|excelToHtml：形状位置偏移不正确|
-|CELLSJAVA-43871|Prism 9 OLE 对象未显示在输出 PDF 上|
+|CELLSJAVA-43871|Prism 9 OLE 对象未显示在输出上 PDF|
 |CELLSJAVA-43883|渲染页面的大小不正确|
 |CELLSJAVA-43881|合并文件导致工作表的背景颜色设置丢失|
 |CELLSJAVA-43892|转换为 HTML 的 Excel 边框丢失|
-|CELLSJAVA-43787|Excel 到 HTML 呈现中的异常“IllegalArgumentException：破折号长度全为零...”|
+|CELLSJAVA-43787|Excel 中的异常“IllegalArgumentException：破折号长度全为零...”到 HTML 渲染|
 |CELLSJAVA-43885|转换 excel 时出现 IllegalArgumentException|
 |CELLSJAVA-43874|仅当应用 Aspose 许可证时，Workbook.save 才会通过 Aspose.Cells 在特定文件上引发异常|
 

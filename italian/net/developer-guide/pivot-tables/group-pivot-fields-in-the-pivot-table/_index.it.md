@@ -14,6 +14,6 @@ Microsoft Excel consente di raggruppare i campi pivot della tabella pivot. Quand
 
 ![cose da fare:immagine_alt_testo](group-pivot-fields-in-the-pivot-table_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-GroupPivotFieldsInPivotTable.cs" >}}

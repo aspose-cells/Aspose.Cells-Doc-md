@@ -12,14 +12,14 @@ url: /ja/net/aspose-cells-for-ios-via-xamarin-features/
 |**特徴**|**説明**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |高品質のコンバージョン|迅速かつ確実に、いくつかの一般的なドキュメント形式間で変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft エクセルブック（XLS）|最速かつ最も完全な XLS 形式の実装です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、<br>このコンポーネントは、XLSX、XLTX、XLSM、XLTM などの主要な Excel 2007、2010、および 2013 ファイル形式をすべてサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft エクセルワークブック (XLS)|あなたが見つけることができる最速かつ最も完全な XLS フォーマットの実装。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、<br>このコンポーネントは、Excel 2007、2010、および 2013 のすべての主要なファイル形式 (XLSX、XLTX、XLSM、XLTM など) をサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |カンマ区切り値 (CSV)|さまざまなアプリケーションと対話するための CSV 形式の包括的なサポート。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|HTMLとして保存が可能です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|HTMLとして保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |オープンドキュメント (ODS)|Aspose.Cells は、ドキュメントを OpenDocument スプレッドシート (.ods) 形式で読み込んで保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|スプレッドシートを高忠実度で PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|スプレッドシートを忠実度の高い PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |タブ区切り|ドキュメントをタブ区切りファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|プレーンテキスト (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|平文 (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **スプレッドシートのコンテンツ機能**
 Aspose.Cells は、100 を超えるパブリック クラス/インターフェイスで構成されるリッチ オブジェクト モデルを提供します。これにより、ロードされたスプレッドシートをプログラムで生成、結合、変更、解析、または調査することができます。主な機能の一部を下の表に示します。
 
@@ -52,7 +52,7 @@ Aspose.Cells は、100 を超えるパブリック クラス/インターフェ�
 |リスト オブジェクトの作成/Microsoft Excel テーブル|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |小計の作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |フォーム コントロールおよびその他の描画図形/オブジェクトを挿入する|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|ピボット テーブルとピボット チャートを作成する|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|ピボット テーブルとピボット グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |アドイン、VBA、マクロを保持または削除する|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |名前付き範囲を操作する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |カスタム グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/cross >}}|

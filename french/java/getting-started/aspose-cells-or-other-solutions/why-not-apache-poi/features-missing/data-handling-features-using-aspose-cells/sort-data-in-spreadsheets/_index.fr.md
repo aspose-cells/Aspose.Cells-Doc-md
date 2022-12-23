@@ -71,6 +71,6 @@ sorter.sort(cells, ca);
 
 {{% alert color="primary" %}} 
 
- Pour plus de détails, visitez[Trier les données](/java/sort-data) , ou[Tri des données](/cells/fr/java/data-sorting).
+ Pour plus de détails, visitez[Trier les données](/java/sort-data) , ou alors[Tri des données](/cells/fr/java/data-sorting).
 
 {{% /alert %}}

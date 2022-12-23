@@ -45,7 +45,7 @@ $customProperties->remove("Publisher");
 $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**الوصول إلى خصائص المستند (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

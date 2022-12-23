@@ -49,7 +49,7 @@ Du kan ladda ner Export Members to Excel Add-on från en av följande platser
 
 När du har laddat ner, följ dessa steg för att installera det här paketet på din Umbraco-webbplats:
 
-1.  Logga in på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco/`
+1.  Logga in på Umbraco**Utvecklare** sektion, till exempel `http://www.myblog.com/umbraco/`
 1.  Från trädet, expandera**Paket** mapp.
 1.  Härifrån finns det två sätt att installera ett paket: välj**Installera det lokala paketet** eller bläddra i**Umbraco Package Repository.**
 1. Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
@@ -67,7 +67,7 @@ När du har laddat ner, följ dessa steg för att installera det här paketet p�
 
 När du har installerat makrot är det väldigt enkelt att börja använda det på din webbplats:
 
-1. Se till att du är inloggad på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco/`
+1. Se till att du är inloggad på Umbraco**Utvecklare** sektion, till exempel `http://www.myblog.com/umbraco/`
 1.  Klick**Medlemmar** i listan med avsnitt längst ner till vänster på skärmen.
 1.  I slutet av trädet ser du en nod med titeln**Exportera medlemmar till Excel** klicka på den för att starta tillägget Exportera till Excel.
 1. Välj önskat utdatadokument och välj Medlemmar att exportera. Om du vill kan du exportera alla medlemmar lämna medlemsvalet eller klicka på kryssrutan i rubrikraden.

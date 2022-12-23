@@ -45,7 +45,7 @@ La licenza può essere caricata da un file nelle seguenti posizioni:
 1. Percorso esplicito.
 1. Cartella di lavoro.
 
- Utilizzare il[Licenza.setLicenza](https://reference.aspose.com/cells/python-java/asposecells.api/License)metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
+ Usa il[Licenza.setLicenza](https://reference.aspose.com/cells/python-java/asposecells.api/License) metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
 
 ### **Esempio**
 

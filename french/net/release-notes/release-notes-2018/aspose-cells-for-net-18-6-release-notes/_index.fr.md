@@ -10,10 +10,10 @@ url: /fr/net/aspose-cells-for-net-18-6-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46159|Rendre la forme du trancheur au format d'image|Nouvelle fonctionnalité|
-|CELLSNET-46179|Mettre à jour Slicer dans les formats de fichiers XLSB et XLSX|Nouvelle fonctionnalité|
+|CELLSNET-46179|Mettre à jour Slicer dans les formats de fichier XLSB et XLSX|Nouvelle fonctionnalité|
 |CELLSNET-46167|Créer un trancheur aux formats de fichier XLSB et XLSX|Nouvelle fonctionnalité|
 |CELLSNET-44455|Créer ou mettre à jour Slicer dans Excel 2013 en utilisant Aspose.Cells|Nouvelle fonctionnalité|
 |CELLSNET-46130|Ajoutez API pour obtenir et définir l'ID CustomXmlPart|Nouvelle fonctionnalité|
@@ -22,44 +22,44 @@ url: /fr/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46178|Prise en charge du format DateTimeOffset lors de l'importation d'objets personnalisés|Renforcement|
 |CELLSNET-46171|La définition de GroupShape est trompeuse|Renforcement|
 |CELLSNET-46152|Des méthodes pertinentes dans Aspose.Cells API sont ajoutées pour GetRangeAddess(), GetCellCount(), GetEntireAddress() et GetOffset()|Renforcement|
-|CELLSNET-46122|Convertir l'art intelligent du format de fichier XLSX au format XLS|Renforcement|
-|CELLSNET-46121|Convertir l'art intelligent du format de fichier XLS au format XLSX|Renforcement|
+|CELLSNET-46122|Convertir l'art intelligent du format de fichier XLSX au format de fichier XLS|Renforcement|
+|CELLSNET-46121|Convertir l'art intelligent du format de fichier XLS au format de fichier XLSX|Renforcement|
 |CELLSNET-45961|Les outils d'encre ont disparu lors de la conversion en PDF|Renforcement|
 |CELLSNET-45160|Des parties de l'image dans la feuille de calcul s'affichent dans des couleurs différentes lors de la conversion de la feuille de calcul en image|Renforcement|
 |CELLSNET-43592|Ink Objects ne s'affiche pas lors de la conversion de la feuille de calcul au format PDF|Renforcement|
-|CELLSNET-45891|Certaines formes sont manquantes et certaines sont dispersées (dis-positionnées) - Conversion Excel en HTML|Punaise|
-|CELLSNET-46112|Lorsque Issue4 callout placement.xlsx est converti en PDF, le formatage n'est pas bon|Punaise|
+|CELLSNET-45891|Certaines formes sont manquantes et certaines sont dispersées (dis-positionnées) - Conversion Excel vers HTML|Punaise|
+|CELLSNET-46112|Lorsque Issue4 callout placement.xlsx converti en PDF, le formatage n'est pas bon|Punaise|
 |CELLSNET-45212|Image plus grande déplacée lors de la conversion d'un XLSM en PDF|Punaise|
-|CELLSNET-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel vers le rendu HTML|Punaise|
+|CELLSNET-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel au rendu HTML|Punaise|
 |CELLSNET-42627|Impossible d'extraire correctement les images d'art intelligentes|Punaise|
-|CELLSNET-42618|La forme est déplacée pour couvrir les données dans le rendu Excel vers HTML|Punaise|
+|CELLSNET-42618|La forme est déplacée pour couvrir les données dans Excel au rendu HTML|Punaise|
 |CELLSNET-46146|Toutes les données des colonnes et des lignes précédentes restent dans le tableau croisé dynamique après le filtrage|Punaise|
-|CELLSNET-46127|Le HTML de sortie est bon dans Chrome mais faux dans IE ou Edge|Punaise|
+|CELLSNET-46127|La sortie HTML est bonne dans Chrome mais fausse dans IE ou Edge|Punaise|
 |CELLSNET-45005|Lignes importées dans une seule cellule lors de l'importation du format de fichier HTML|Punaise|
-|CELLSNET-45004|Cell valeur tronquée lors de l'import HTML|Punaise|
+|CELLSNET-45004|Cell valeur tronquée lors de l'importation de HTML|Punaise|
 |CELLSNET-46162|Les guillemets simples disparaissent de la formule lors de l'ouverture du fichier|Punaise|
 |CELLSNET-46069|Les formules (contenant une source de données liée dans d'autres classeurs) ne sont pas calculées correctement|Punaise|
 |CELLSNET-46142|La barre d'onglets devient masquée lorsque l'utilisateur change d'onglet car la hauteur de la grille augmente|Punaise|
 |CELLSNET-46177|L'impression de Aspose.Cells diffère d'Excel|Punaise|
 |CELLSNET-46176|La sortie PDF ignore tous les sauts de page dans un fichier MS Excel|Punaise|
 |CELLSNET-46153|La couleur de la forme change lors de la conversion au format de fichier PDF|Punaise|
-|CELLSNET-46126|Le document Excel glisse lors de l'enregistrement au format PDF|Punaise|
-|CELLSNET-46125|Mélange de la page 1 et de la page 2 dans le PDF de sortie|Punaise|
+|CELLSNET-46126|Le document Excel glisse lors de l'enregistrement sous PDF|Punaise|
+|CELLSNET-46125|Mélange de la page 1 et de la page 2 dans la sortie PDF|Punaise|
 |CELLSNET-46114|Un seul mot est divisé en deux lignes dans l'image de sortie rendue Aspose.Cells'|Punaise|
 |CELLSNET-45766|Impossible de charger le fichier ODS protégé par mot de passe|Punaise|
-|CELLSNET-46164|Le diagramme de Pareto ne s'affiche pas dans le fichier MS Excel, mais il s'affiche assez bien en PDF|Punaise|
+|CELLSNET-46164|Le graphique de Pareto ne s'affiche pas dans le fichier MS Excel, mais il s'affiche assez bien dans PDF|Punaise|
 |CELLSNET-46155|L'étiquette de l'axe horizontal du graphique est corrompue|Punaise|
-|CELLSNET-46150|L'enregistrement du fichier XLT au format XLS après avoir effacé la série de données du graphique provoque un avertissement rouge "Vue protégée"|Punaise|
+|CELLSNET-46150|L'enregistrement du fichier XLT sous le nom XLS après l'effacement de la série de données du graphique provoque un avertissement rouge "Vue protégée"|Punaise|
 |CELLSNET-46140|Le filigrane fonctionne bien avec les feuilles de calcul mais rien n'apparaît sur les graphiques|Punaise|
 |CELLSNET-46129|Les graduations de l'axe Y dans l'image du graphique ne correspondent pas à MS-Excel|Punaise|
 |CELLSNET-46100|CellsException - System.OutOfMemoryException lors de la conversion du fichier Excel en PDF|Punaise|
 |CELLSNET-46082|Les couleurs de la légende du graphique à secteurs changent après l'enregistrement au format PDF et ne correspondent pas aux tranches de graphique à secteurs|Punaise|
-|CELLSNET-46072|L'enregistrement d'un fichier XLT/XLTX au format XLS/XLSX provoque un avertissement rouge "Vue protégée"|Punaise|
+|CELLSNET-46072|L'enregistrement d'un fichier XLT/XLTX sous XLS/XLSX provoque un avertissement rouge "Vue protégée"|Punaise|
 |CELLSNET-46166|Les liens hypertexte sont corrompus lorsqu'ils font référence à une feuille avec des caractères spéciaux dans son nom|Punaise|
 |CELLSNET-46141|Manière standardisée pour les trois derniers chiffres dans le nom de la forme de la signature|Punaise|
 |CELLSNET-46131|Le redimensionnement du tableau sans tête corrompt le fichier MS Excel de sortie|Punaise|
 |CELLSNET-46128|Le fichier Excel de sortie est corrompu après la création d'un objet de liste|Punaise|
-|CELLSNET-46134|Lors du rendu d'un document Excel au format PDF, le processus ne se termine jamais|Punaise|
+|CELLSNET-46134|Lors du rendu d'un document Excel au PDF, le processus ne se termine jamais|Punaise|
 |CELLSNET-46175|Aspose.Cells.CellsException à Aspose.Cells.Workbook.Save()|Exception|
 |CELLSNET-46147|Erreur lors de l'initialisation d'un fichier XLSX|Exception|
 |CELLSNET-46138|EndOfStreamException lorsque Aspose.Cells.Dll (dernier assembly) est fusionné|Exception|

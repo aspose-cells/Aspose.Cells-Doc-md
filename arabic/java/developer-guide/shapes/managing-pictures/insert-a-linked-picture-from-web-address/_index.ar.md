@@ -32,7 +32,7 @@ url: /ar/java/insert-a-linked-picture-from-web-address/
 
  Aspose.Cells for Java يدعم اضافة صورة مرتبطة باستخدام الطريقة[**ShapeCollection.addLinkedPicture (int upperLeftRow ، int upperLeftColumn ، int height ، int width ، java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
- تقوم الطريقة بإرجاع ملف[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)هدف.
+ تقوم الطريقة بإرجاع ملف[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)موضوع.
 
 يوضح المثال التالي كيفية إضافة صورة مرتبطة من عنوان ويب إلى ورقة عمل.
 

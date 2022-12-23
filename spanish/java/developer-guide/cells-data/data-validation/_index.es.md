@@ -14,7 +14,7 @@ Microsoft Excel proporciona algunas buenas funciones para filtrar automáticamen
 ## **Tipos de validación de datos y ejecución**
 Microsoft Excel admite varios tipos diferentes de validación de datos. Cada tipo se usa para controlar qué tipo de datos se ingresan en una celda o rango de celdas. A continuación, los fragmentos de código ilustran cómo validar eso:
 
-- [los numeros son enteros](/cells/es/java/data-validation/)es decir, que no tienen parte decimal.
+- [Numbers son enteros](/cells/es/java/data-validation/)es decir, que no tienen parte decimal.
 - [Los números decimales siguen la estructura correcta](/cells/es/java/data-validation/). El ejemplo de código define que un rango de celdas debe tener dos espacios decimales.
 - [Los valores están restringidos a una lista de valores.](/cells/es/java/data-validation/). La validación de lista define una lista separada de valores que se pueden aplicar a una celda o rango de celdas.
 - [Las fechas caen dentro de un rango específico](/cells/es/java/data-validation/).
@@ -44,7 +44,7 @@ Cuando el[Validación](https://reference.aspose.com/cells/java/com.aspose.cells/
 #### **Tipos de validación de datos**
 La validación de datos le permite crear reglas comerciales en cada celda para que las entradas incorrectas generen mensajes de error. Las reglas comerciales son las políticas y los procedimientos que rigen el funcionamiento de una empresa. Aspose.Cells admite todos los tipos importantes de validación de datos.
 
-los[Tipo de validación](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)enumeración tiene los siguientes miembros:
+Él[Tipo de validación](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)enumeración tiene los siguientes miembros:
 
 |**Nombre de miembro**|**Descripción**|
 |:- |:- |
@@ -53,7 +53,7 @@ los[Tipo de validación](https://reference.aspose.com/cells/java/com.aspose.cell
 |[DECIMAL](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Indica el tipo de validación para números decimales.|
 |[LISTA](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Indica el tipo de validación para la lista desplegable.|
 |[FECHA](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Indica el tipo de validación para las fechas.|
-|[TIEMPO](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Indica el tipo de validación para Hora.|
+|[HORA](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Indica el tipo de validación para Hora.|
 |[TEXTO_LONGITUD](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Indica el tipo de validación para la longitud del texto.|
 |[DISFRAZ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Indica un tipo de validación personalizado.|
 #### **Ejemplo de programación: Validación de datos de números enteros**
@@ -112,7 +112,7 @@ Cuando se implementan validaciones de datos, se puede verificar la validación a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Agregar CellArea a la validación existente**
-Puede haber casos en los que desee agregar[área de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)a existente[Validación](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). cuando agregas[área de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)usando[Validación.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells comprueba todas las áreas existentes para ver si la nueva área ya existe. Si el archivo tiene una gran cantidad de validaciones, esto afecta el rendimiento. Para superar esto, el API proporciona la[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) método. los*chequeIntersección*El parámetro indica si se debe verificar la intersección de un área dada con áreas de validación existentes. Configurándolo en**falso**deshabilitará la verificación de otras áreas. los*comprobarBorde*El parámetro indica si se deben verificar las áreas aplicadas. Si la nueva área se convierte en el área superior izquierda, se reconstruyen las configuraciones internas. Si está seguro de que la nueva área no es el área superior izquierda, puede configurar este parámetro como**falso**.
+Puede haber casos en los que desee agregar[área de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)a existente[Validación](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). cuando agregas[área de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)usando[Validación.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells comprueba todas las áreas existentes para ver si la nueva área ya existe. Si el archivo tiene una gran cantidad de validaciones, esto afecta el rendimiento. Para superar esto, el API proporciona la[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) método. Él*chequeIntersección*El parámetro indica si se debe verificar la intersección de un área dada con áreas de validación existentes. Configurándolo en**falso**deshabilitará la verificación de otras áreas. Él*comprobarBorde*El parámetro indica si se deben verificar las áreas aplicadas. Si la nueva área se convierte en el área superior izquierda, se reconstruyen las configuraciones internas. Si está seguro de que la nueva área no es el área superior izquierda, puede configurar este parámetro como**falso**.
 
 El siguiente fragmento de código demuestra el uso de la[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) método para agregar nuevos[área de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)a existente[Validación](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 
@@ -128,6 +128,6 @@ Los archivos de Excel de origen y salida se adjuntan como referencia.
 
 
 ## **Temas avanzados**
-- [Obtenga la validación Cell en archivos ODS](/cells/es/java/get-cell-validation-in-ods-files/)
+- [Obtenga la validación Cell en los archivos ODS](/cells/es/java/get-cell-validation-in-ods-files/)
 - [Obtenga la validación aplicada en un Cell](/cells/es/java/get-validation-applied-on-a-cell/)
 - [Verifique que el valor Cell cumpla con las reglas de validación de datos](/cells/es/java/verify-that-cell-value-satisfies-data-validation-rules/)

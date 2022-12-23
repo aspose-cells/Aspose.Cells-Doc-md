@@ -17,21 +17,21 @@ url: /zh/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-46716|渲染 PDF 时文本被剪切|虫子|
 |CELLSNET-47618|图像变成全白，其他图像/形状中的一些文本损坏|虫子|
 |CELLSNET-47635|不同表上的切片器生成损坏的文件|虫子|
-|CELLSNET-47642|XLSB 文件在加载和保存后损坏|虫子|
+|CELLSNET-47642|XLSB 加载和保存后文件损坏|虫子|
 |CELLSNET-47660|包含日期的图表字段在 PDF 格式中具有不同的格式|虫子|
 |CELLSNET-47661|Aspose.Cells 为特定 Cells 文档的特定工作表生成无效的 HTML 标记|虫子|
 |CELLSNET-47680|数据透视表未刷新|虫子|
 |CELLSNET-47659|查找具有特定样式的单元格的问题|虫子|
 |CELLSNET-47679|Aspose.Cells和Excel计算的区别|虫子|
 |CELLSNET-47666|无法在 SharePoint 中显示工作簿|虫子|
-|CELLSNET-47698|在将 XLS 文件转换为 PDF 时移动徽标位置|虫子|
+|CELLSNET-47698|将 XLS 文件转换为 PDF 时徽标位置发生变化|虫子|
 |CELLSNET-47651|将极坐标图导出为 pdf 是倾斜的|虫子|
 |CELLSNET-47662|将 excel 图表转换为图像时出现错误的数据标签|虫子|
 |CELLSNET-47667|输出图像中条形图中缺少条形|虫子|
-|CELLSNET-47697|一些 Y 轴值超出了输出 PDF 中的图表|虫子|
+|CELLSNET-47697|一些 Y 轴值在输出 PDF 中超出了图表|虫子|
 |CELLSNET-43579|从 Excel 转换为 PDF 时，WortArt 文本的曲率发生了变化|虫子|
-|CELLSNET-47675|XLS 文件的内容在加载和保存后发生变化|虫子|
-|CELLSNET-47704|自定义属性在编辑/保存受密码保护（加密）的 XLS 文件后消失|虫子|
+|CELLSNET-47675|XLS 文件加载保存后内容改变|虫子|
+|CELLSNET-47704|编辑/保存密码保护（加密）XLS 文件后自定义属性消失|虫子|
 |CELLSNET-47708|排序顺序无法正确使用动态公式（智能标记）|虫子|
 |CELLSNET-47682|加载特定 Htm 时出现异常|例外情况|
 |CELLSNET-47683|加载特定 Htm 时出现异常|例外情况|
@@ -46,7 +46,7 @@ url: /zh/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47677|如果行被隐藏，DataBar.ToImage 引发异常。|例外情况|
 |CELLSNET-47686|无法将 XLSB 转换为 XLSX|例外情况|
 |CELLSNET-47687|无法加载 Ods|例外情况|
-|CELLSNET-47694|打开文档 XLSX 文件时出现异常|例外情况|
+|CELLSNET-47694|打开文档XLSX文件时出现异常|例外情况|
 |CELLSNET-47695|DeleteRange 后的单元格名称无效|例外情况|
 |CELLSNET-47699|打开 ODS 文件时出现异常|例外情况|
 |CELLSNET-47702|加载加密的“Microsoft Excel 5.0/95 Workbook”文件时出现异常|例外情况|
@@ -90,7 +90,7 @@ url: /zh/net/aspose-cells-for-net-20-11-release-notes/
 
 ### **添加 ListObject.Filter() 方法。**
 
-过滤表格。
+过滤表。
 
 ### **添加 XmlMapCollection.Clear() 方法。**
 

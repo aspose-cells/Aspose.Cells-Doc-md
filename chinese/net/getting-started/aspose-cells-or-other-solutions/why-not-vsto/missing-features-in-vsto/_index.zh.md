@@ -26,7 +26,7 @@ url: /zh/net/missing-features-in-vsto/
     - [从 ArrayList 导入](/cells/zh/net/importing-from-arraylist/)
     - [从自定义对象导入](/cells/zh/net/importing-from-custom-objects/)
     - [从数据表导入](/cells/zh/net/importing-from-datatable/)
-- [在 Aspose.Cells 中将工作簿保存为文本或 CSV 格式](/cells/zh/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [将工作簿保存为文本或Aspose.Cells中的CSV格式](/cells/zh/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [Aspose.Cells 中的智能标记](/cells/zh/net/smart-markers-in-aspose-cells/)
   - [分组数据](/cells/zh/net/grouping-data/)
   - [图像标记](/cells/zh/net/image-markers/)

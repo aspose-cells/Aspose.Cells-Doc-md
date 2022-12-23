@@ -15,7 +15,7 @@ url: /it/net/read-the-values-of-the-gridweb-cells-on-client-side/
 Il codice di esempio seguente recupera tutte le celle e ne stampa il nome, il valore, la riga e la colonna. Puoi vedere l'output della sua console in fondo a questo articolo. Lo screenshot seguente mostra l'output della console del codice di esempio su Google Chrome.
 ## **Immagine dello schermo**
 ![cose da fare:immagine_alt_testo](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCellsClientSide.aspx" >}}
 
 Si prega di chiamare la funzione JavaScript ReadGridWebCells() come mostrato nel codice di esempio precedente in questo modo.

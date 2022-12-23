@@ -46,7 +46,7 @@ Microsoft Excel には、スプレッドシート ファイルにプロパティ
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、ドキュメントを PDF にレンダリングすると、Aspose.Cells for .NET が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells v17.9' などの値を持つフィールド。
+ Aspose.Cells for .NET は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for .NET が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells v17.9' などの値を持つフィールド。
 
 出力ドキュメントからこの情報を変更または削除するように Aspose.Cells for .NET に指示することはできないことに注意してください。
 

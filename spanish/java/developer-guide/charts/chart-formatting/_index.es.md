@@ -25,7 +25,7 @@ En el ejemplo que se muestra a continuación, hemos aplicado diferentes configur
 
 - área de parcela
 - Área de gráfico
-- [**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) área
+- [**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) zona
 - El área de un solo punto en un[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
 Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
@@ -48,7 +48,7 @@ Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas
 
 ### **Aplicar Microsoft temas de Excel 2007/2010 a los gráficos**
 
- Los desarrolladores pueden aplicar diferentes Microsoft temas y colores de Excel al[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)u otros objetos del gráfico, como se muestra en el siguiente ejemplo.
+Los desarrolladores pueden aplicar diferentes Microsoft temas y colores de Excel al[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)u otros objetos del gráfico, como se muestra en el siguiente ejemplo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -60,7 +60,7 @@ Puede usar Microsoft Excel para configurar los títulos de un gráfico y sus eje
 
 ![todo:imagen_alternativa_texto](chart-formatting_3.png)
 
-Aspose.Cells también permite a los desarrolladores establecer los títulos de un gráfico y sus ejes en tiempo de ejecución. Todos los gráficos y sus ejes contienen un[**Título.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)método que se puede utilizar para establecer sus títulos como se muestra a continuación en un ejemplo. Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
+ Aspose.Cells también permite a los desarrolladores establecer los títulos de un gráfico y sus ejes en tiempo de ejecución. Todos los gráficos y sus ejes contienen un[**Título.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)método que se puede utilizar para establecer sus títulos como se muestra a continuación en un ejemplo. Después de ejecutar el código de ejemplo, se agregará un gráfico de columnas a la hoja de trabajo como se muestra a continuación:
 
 **Gráfico de columnas después de configurar títulos** 
 
@@ -100,7 +100,7 @@ El ejemplo que se muestra a continuación muestra cómo establecer el borde de l
 
 ## **Cambiar la posición y el tamaño del gráfico**
 
- A veces, desea cambiar la posición o el tamaño del gráfico nuevo o existente dentro de la hoja de trabajo. Aspose.Cells proporciona el[**Gráfico.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) propiedad para lograrlo. Puede usar sus subpropiedades para cambiar el tamaño del gráfico con nuevos**altura** y**ancho** o reubicarlo con nuevo** X** y**Coordenadas Y**.
+ A veces, desea cambiar la posición o el tamaño del gráfico nuevo o existente dentro de la hoja de trabajo. Aspose.Cells proporciona el[**Gráfico.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)propiedad para lograrlo. Puede usar sus subpropiedades para cambiar el tamaño del gráfico con nuevos**altura** y**ancho** o reubicarlo con nuevo** X** y**Coordenadas Y**.
 
 ### **Modificación de la posición y el tamaño del gráfico**
 
@@ -214,7 +214,7 @@ Es posible que necesite estilos de gráficos en 3D para poder obtener solo los r
 
 ### **Configuración del formato 3D en el gráfico**
 
-A continuación se proporciona un ejemplo completo para demostrar cómo crear un gráfico y aplicar el formato 3D Microsoft Excel 2007. Después de ejecutar el código de ejemplo anterior, se agregará un gráfico de columnas (con efectos 3D) a la hoja de trabajo, como se muestra a continuación.
+continuación se proporciona un ejemplo completo para demostrar cómo crear un gráfico y aplicar el formato 3D Microsoft Excel 2007. Después de ejecutar el código de ejemplo anterior, se agregará un gráfico de columnas (con efectos 3D) a la hoja de trabajo, como se muestra a continuación.
 
 **Un gráfico de columnas con formato 3D**
 

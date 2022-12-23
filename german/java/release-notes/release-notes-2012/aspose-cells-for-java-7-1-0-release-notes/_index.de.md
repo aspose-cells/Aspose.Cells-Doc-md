@@ -22,14 +22,14 @@ url: /de/java/aspose-cells-for-java-7-1-0-release-notes/
 
  Fehler
 
- -Cell Inhalt aus der generierten PDF-Datei verschwunden
+ -Cell Inhalte sind aus der generierten PDF-Datei verschwunden
 
--Fehlermeldung: „Die Pivot-Tabelle wurde in einer neueren Version von Excel erstellt…“beim Öffnen der Datei in MS Excel
+ -Fehlermeldung: „Die Pivot-Tabelle wurde in einer neueren Version von Excel erstellt…“beim Öffnen der Datei in MS Excel
 
  ` `- Der Zoom des Blatts wird geändert, wenn eine XLS-Vorlagendatei geöffnet wird
 
  -Cell.getStringValue() gibt einen falschen Wert für Double-Typen zurück
 
- - Beim Speichern im PDF-Format wird der rechte Teil des Formtexts abgeschnitten und ein Teil des Bilds geht verloren
+ - Beim Speichern unter PDF wird der rechte Teil des Formtextes abgeschnitten und ein Teil des Bildes geht verloren
 
- - Zahlenformat geht beim Speichern im ODS-Dateiformat verloren
+ - Zahlenformat geht beim Speichern im Dateiformat ODS verloren

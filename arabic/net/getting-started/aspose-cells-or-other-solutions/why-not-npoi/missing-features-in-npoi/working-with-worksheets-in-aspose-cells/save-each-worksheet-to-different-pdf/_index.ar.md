@@ -1,11 +1,11 @@
 ﻿---
-title: احفظ كل ورقة عمل في ملف PDF مختلف
+title: احفظ كل ورقة عمل في PDF مختلف
 type: docs
 weight: 10
 url: /ar/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - احفظ كل ورقة عمل في ملف PDF مختلف**
-يدعم Aspose.Cells تحويل ملفات XLS (التي تحتوي على صور ومخططات وما إلى ذلك) إلى مستندات PDF. يمكن أن يعمل Aspose.Cells for .NET بشكل مستقل لتحويل جدول بيانات إلى مستند Pdf ولن تحتاج إلى استخدام Aspose.Pdf for .NET للتحويل بعد الآن. لا يتطلب التحويل إنشاء / استخدام أي ملف (ملفات) مؤقتة أيضًا حيث يمكن إجراء العملية بأكملها في الذاكرة.
+## **Aspose.Cells - حفظ كل ورقة عمل PDF مختلفة**
+يدعم Aspose.Cells تحويل ملفات XLS (التي تحتوي على صور ورسوم بيانية وما إلى ذلك) إلى وثائق PDF. يمكن أن يعمل Aspose.Cells for .NET بشكل مستقل لتحويل جدول بيانات إلى مستند Pdf ولن تحتاج إلى استخدام Aspose.Pdf for .NET للتحويل بعد الآن. لا يتطلب التحويل إنشاء / استخدام أي ملف (ملفات) مؤقتة أيضًا حيث يمكن إجراء العملية بأكملها في الذاكرة.
 
 **C#**
 
@@ -54,8 +54,8 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 }
 
 {{< /highlight >}}
-## **تحميل كود الجري**
- تحميل**احفظ كل ورقة عمل في ملف PDF مختلف** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
+## **قم بتنزيل كود التشغيل**
+ تحميل**احفظ كل ورقة عمل في PDF مختلف** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 

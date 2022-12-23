@@ -12,9 +12,9 @@ Aspose.Cells提供[数据透视表.getCellByDisplayName()](https://reference.asp
 ## **通过PivotTable的PivotField的DisplayName获取Cell对象**
 以下代码访问工作表的第一个数据透视表，然后通过数据透视表的第二个数据字段的显示名称获取单元格。然后它将单元格的填充颜色和字体颜色分别更改为浅蓝色和黑色。下面的屏幕截图显示了代码执行前后数据透视表的外观。
 ### **数据透视表 - 之前**
-![待办事项：图像_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)
+![待办事项：图片_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)
 ### **数据透视表 - 之后**
-![待办事项：图像_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)
+![待办事项：图片_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellObject-GetCellObject.java" >}}
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Cargue o importe un archivo CSV con fórmulas
+title: Cargue o importe el archivo CSV con fórmulas
 type: docs
 weight: 350
 url: /es/net/load-or-import-csv-file-with-formulas/
@@ -10,7 +10,7 @@ url: /es/net/load-or-import-csv-file-with-formulas/
 
 {{% /alert %}} 
 
- El siguiente código ilustra cómo puede cargar e importar un archivo CSV con fórmulas. Puede utilizar cualquier archivo CSV. Con fines ilustrativos, utilizamos el[archivo csv sencillo](5115034.csv) que contiene estos datos. Como ves contiene una fórmula.
+ El siguiente código ilustra cómo puede cargar e importar un archivo CSV con fórmulas. Puede usar cualquier archivo CSV. Con fines ilustrativos, utilizamos el[archivo csv sencillo](5115034.csv) que contiene estos datos. Como ves contiene una fórmula.
 
 {{< highlight "java" >}}
 
@@ -22,7 +22,7 @@ url: /es/net/load-or-import-csv-file-with-formulas/
 
 
 
- El código primero carga el archivo CSV y luego lo vuelve a importar en la celda D4. Finalmente, guarda el objeto del libro de trabajo en formato XSLX. los[archivo XLSX de salida](5115052.xlsx) Se ve como esto. Como ve, las celdas C3 y F4 contienen fórmula y su resultado 800.
+El código primero carga el archivo CSV, luego lo importa nuevamente en la celda D4. Finalmente, guarda el objeto del libro de trabajo en formato XSLX. Él[archivo de salida XLSX](5115052.xlsx) Se ve como esto. Como ve, las celdas C3 y F4 contienen fórmula y su resultado 800.
 
 |![todo:imagen_alternativa_texto](load-or-import-csv-file-with-formulas_1.png)|
 |:- |

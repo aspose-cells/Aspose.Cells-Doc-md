@@ -14,7 +14,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe von Aspose.Cells.GridDesktop
 
 -  Greifen Sie beliebig zu**Arbeitsblatt**
 -  Zugriff a**Spalte** auf die wir a anwenden wollen**Stil**
--  Erhalten**Stil** des**Spalte**
+-  Bekommen**Stil** des**Spalte**
 -  Satz**Stil** Eigenschaften nach Ihren individuellen Bedürfnissen
 -  Endlich einstellen**Stil** des**Spalte** mit dem aktualisierten
 
@@ -27,10 +27,10 @@ Führen Sie die folgenden Schritte aus, um mithilfe von Aspose.Cells.GridDesktop
 Führen Sie die folgenden Schritte aus, um mit Aspose.Cells.GridDesktop einen benutzerdefinierten Stil auf eine Zeile anzuwenden:
 
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Die Zeile** auf die wir a anwenden wollen**Stil**
--  Erhalten**Stil** des**Die Zeile**
+-  Zugriff a**Reihe** auf die wir a anwenden wollen**Stil**
+-  Bekommen**Stil** des**Reihe**
 -  Satz**Stil** Eigenschaften nach Ihren individuellen Bedürfnissen
--  Endlich einstellen**Stil** des**Die Zeile** mit dem aktualisierten
+-  Endlich einstellen**Stil** des**Reihe** mit dem aktualisierten
 
  Es gibt viele nützliche Eigenschaften und Methoden, die von angeboten werden**Stil** Objekt, das von Entwicklern verwendet werden kann, um den Stil an ihre Anforderungen anzupassen.
 

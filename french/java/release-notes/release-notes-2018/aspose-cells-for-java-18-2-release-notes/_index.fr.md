@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.2.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42509|Ajouter la constante LoadDataFilterOptions.NAMES pour filtrer les noms définis lors du chargement du classeur|Nouvelle fonctionnalité|
 |CELLSJAVA-42510|Observez un filtrage très lent dans Microsoft Excel 2013 et 2016 lorsque le filtre est appliqué|Renforcement|

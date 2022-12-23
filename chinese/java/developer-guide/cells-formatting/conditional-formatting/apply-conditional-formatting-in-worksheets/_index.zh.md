@@ -37,7 +37,7 @@ url: /zh/java/apply-conditional-formatting-in-worksheets/
  1、在Eclipse中设置项目的类路径：
  1.在Eclipse中选择你的项目然后选择**特性**来自**项目**菜单。
 1. 选择对话框左侧的“Java Build Path”。
- 1. 在**图书馆**选项卡，选择**添加 JAR**或者**添加外部 JAR**选择 Aspose.Cells.jar 和 dom4j_1.6.1.jar 并将它们添加到构建路径中。
+ 1. 在**图书馆**选项卡，选择**添加 JAR**要么**添加外部 JAR**选择 Aspose.Cells.jar 和 dom4j_1.6.1.jar 并将它们添加到构建路径中。
  1.编写应用调用Aspose的组件API。
 或者您可以在运行时在 Windows 中的 DOS 提示符下设置路径。
 
@@ -56,11 +56,11 @@ url: /zh/java/apply-conditional-formatting-in-worksheets/
 
 **输出A1值小于50的Excel文件**
 
-![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_1.png)
+![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_1.png)
 
 **输出 A1 在 50 到 100 之间的 Excel 文件**
 
-![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_2.png)
+![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_2.png)
 
 ### **任务 2：使用 Aspose.Cells 应用基于公式的条件格式**
 
@@ -73,11 +73,11 @@ url: /zh/java/apply-conditional-formatting-in-worksheets/
 
 **输出B3值小于100的Excel文件**
 
-![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_3.png)
+![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_3.png)
 
 **输出B3大于100的Excel文件**
 
-![待办事项：图像_替代_文本](apply-conditional-formatting-in-worksheets_4.png)
+![待办事项：图片_替代_文本](apply-conditional-formatting-in-worksheets_4.png)
 
 ### **结论**
 

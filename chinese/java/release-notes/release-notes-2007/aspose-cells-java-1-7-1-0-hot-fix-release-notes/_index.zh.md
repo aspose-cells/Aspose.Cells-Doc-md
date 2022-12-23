@@ -14,8 +14,8 @@ url: /zh/java/aspose-cells-java-1-7-1-0-hot-fix-release-notes/
 
 我们已经发布了 Aspose.Cells for Java V1.7.1！包括以下增强和修复：
 
-- 支持从 SpreadsheetML 文件中导入单元格的内容和样式
-支持将单元格的内容和样式导出到SpreadsheetML文件
+- 支持从SpreadsheetML文件导入单元格的内容和样式
+支持导出单元格内容和样式到SpreadsheetML文件
 支持公式的计算引擎
 支持设置R1C1公式
 支持另外两种数据源类型数据透视表

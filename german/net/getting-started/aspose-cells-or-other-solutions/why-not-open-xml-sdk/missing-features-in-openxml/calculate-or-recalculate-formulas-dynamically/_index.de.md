@@ -61,7 +61,7 @@ Wenn die Benutzervorlage jedoch viele verschiedene Formeln enthält, kann die er
 
 Mit Aspose.Cells können Sie das Erstellen einer Berechnungskette deaktivieren, was in Szenarien nützlich ist, in denen Sie Formeln Ihrer Datei nur einmal berechnen möchten.
 
- Wenn Sie die Leistung von Formelberechnungen durch Aspose.Cells verbessern möchten und keine Formelberechnungskette erstellen möchten, dann stellen Sie dies bitte ein**FormulaSettings.EnableCalculationChain** wie**FALSCH** . Standardmäßig ist es eingestellt als**Stimmt**.
+ Wenn Sie die Leistung von Formelberechnungen durch Aspose.Cells verbessern möchten und keine Formelberechnungskette erstellen möchten, dann stellen Sie dies bitte ein**FormulaSettings.EnableCalculationChain** als**FALSCH** . Standardmäßig ist es eingestellt als**wahr**.
 
 {{< highlight "csharp" >}}
 

@@ -24,7 +24,7 @@ url: /zh/java/aspose-cells-for-java-18-5-release-notes/
 |CELLSJAVA-42589|将 HTML 添加到单元格时出现 NullPointerException|漏洞|
 |CELLSJAVA-41414|重新保存 XLSX 文件时，线条从图表中消失|漏洞|
 |CELLSJAVA-42602|在轻量级模式下合并单元格时出现异常“IndexOutOfBoundsException”|例外|
-|CELLSJAVA-42610|加载 XLS 文件时出现异常“java.lang.IllegalStateException：无效编码：null”|例外|
+|CELLSJAVA-42610|加载 XLS 文件时出现异常“java.lang.IllegalStateException: Invalid encoding: null”|例外|
 |CELLSJAVA-42608|打开 Excel 文件时发生 ArrayIndexOutOfBoundsException|例外|
 |CELLSJAVA-42596|打开 Excel 文件时出现“java.lang.ArrayIndexOutOfBoundsException”|例外|
 |CELLSJAVA-42595|打开 Excel 文件时出现“java.io.IOException: File is corrupted”|例外|

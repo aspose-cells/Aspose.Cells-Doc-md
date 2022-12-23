@@ -6,7 +6,7 @@ url: /tr/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports, bir .jasper dosyasının bir XLS dosyasına aktarılabilmesi için önce bir .jrprint veya JasperPrint nesnesine doldurulmasını gerektirir. .jrxml dosyası için herhangi bir değişiklik yapılması gerekmez. Doldurma prosedürü, grafiklerin dahili temsillerini, daha sonra düzenlenebilir grafikler oluşturmak için kullanılan JasperPrint nesnesine depolar.
+ Aspose.Cells for JasperReports, XLS dosyasına aktarılabilmesi için önce bir .jasper dosyasının bir .jrprint veya JasperPrint nesnesine doldurulmasını gerektirir. .jrxml dosyası için herhangi bir değişiklik yapılması gerekmez. Doldurma prosedürü, grafiklerin dahili temsillerini, daha sonra düzenlenebilir grafikler oluşturmak için kullanılan JasperPrint nesnesine depolar.
 
 {{% /alert %}} 
 

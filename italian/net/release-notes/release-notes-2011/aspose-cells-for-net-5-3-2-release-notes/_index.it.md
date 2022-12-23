@@ -33,11 +33,11 @@ url: /it/net/aspose-cells-for-net-5-3-2-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v5.3.2.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |13695 | GrigliaWeb| Risolto il problema con il cursore che rimane sulla stessa riga quando si usano i tasti Ctrl-Invio|
 |25599 | GrigliaDesktop| Risolto il problema con l'esportazione degli stili delle colonne nel file Excel|
-|25346 | Formula| Collegamento XLS VS. Collegamento XLSX|
+|25346 | Formula| XLS Collegamento VS. XLSX Link|
 |25496 | Formula| I campi numerici visualizzati come #VALUE!|
 |25574 | Formula| La formula VLOOKUP non funziona con ListObjects|
 |25625 | Formula| Errore Workbook.CalculateFormula fuori|
@@ -45,16 +45,16 @@ url: /it/net/aspose-cells-for-net-5-3-2-release-notes/
 |25699 | Formula| La funzione CELL() non funziona|
 |25147 | HTML| Problema di layout css salvataggio html e grafici|
 |24514 | PDF| Problema di conversione da Excel a PDF|
-|25149 | PDF| Esportazione PDF - Problema di prestazioni della Garbage Collection|
-|25260 | PDF| Problema da XLS a PDF|
+|25149 | PDF| PDF export - Problema di prestazioni di Garbage Collection|
+|25260 | PDF| XLS a PDF problema|
 |25289 | PDF| Numero come problema con esponente grande|
 |25365 | PDF| Formattazione dei singoli caratteri in grassetto|
 |25490 | PDF| Ottenere errore durante l'unione di documenti Excel vuoti|
-|25615 | PDF| Problema di conversione PDF|
+|25615 | PDF| PDF problema di conversione|
 |24199 | Tabella pivot| PivotTable RefreshData genera un'eccezione|
-|25267 | Tabella pivot| Problema con la tabella pivot|
+|25267 | Tabella pivot|Problema con la tabella pivot|
 |24577 | XL| AutoFitColumn non imposta correttamente la larghezza|
-|25329 | XL|OutOfMemoryException all'apertura di Excel con due forme|
+|25329 | XL| OutOfMemoryException all'apertura di Excel con due forme|
 |25404 | XL| Controlla se il grafico è un grafico 3D|
 |25412 | XL| Modo più rapido per sostituire tutte le formule con valore|
 |25422 | XL| Bug con le proporzioni dell'immagine|
@@ -76,8 +76,8 @@ url: /it/net/aspose-cells-for-net-5-3-2-release-notes/
 |25421 | Xlsx| Diagram: Cambia il tipo di asse|
 |25430 | Xlsx| RadioButtons non funziona come previsto|
 |25508 | Xlsx| Grafico di Excel 2007 con problema di codice VBA|
-|25510 | Xlsx| Gli oggetti incorporati non rimangono nella stessa posizione|
+|25510 | Xlsx|Gli oggetti incorporati non rimangono nella stessa posizione|
 |25555 | Xlsx| I grafici non vengono copiati correttamente|
-|25677 | Xlsx|Aspose.Cells aggiunge un bordo alle bitmap durante il salvataggio nei formati Excel 2007|
+|25677 | Xlsx| Aspose.Cells aggiunge un bordo alle bitmap durante il salvataggio nei formati Excel 2007|
 |25906 | Xlsx| Rotazione delle etichette di spunta non valida|
 

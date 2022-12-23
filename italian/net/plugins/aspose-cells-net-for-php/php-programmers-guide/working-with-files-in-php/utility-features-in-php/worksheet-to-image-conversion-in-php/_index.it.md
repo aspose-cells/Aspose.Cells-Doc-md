@@ -5,7 +5,7 @@ weight: 40
 url: /it/net/worksheet-to-image-conversion-in-php/
 ---
 ## **Aspose.Cells - Converti foglio di lavoro in immagine**
-Converti un foglio di lavoro Microsoft Excel in un file immagine
+Converti un foglio di lavoro Excel Microsoft in un file immagine
 
 **Codice PHP**
 
@@ -45,6 +45,6 @@ Converti un foglio di lavoro Microsoft Excel in un file immagine
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Da foglio di lavoro a immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Da foglio di lavoro a immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/WorksheetToImage.php)

@@ -15,7 +15,7 @@ Para guardar el contenido del control Aspose.Cells.GridDesktop como un archivo d
 1. **Guardar como archivo**
 1. **Guardar como flujo**
 ## **Guardar archivo**
- Cree una aplicación de escritorio y agregue dos botones con un control GridControl al formulario. Establecer las propiedades de texto de los botones como**Guardar como archivo** y**Guardar como secuencia** respectivamente.
+ Cree una aplicación de escritorio y agregue dos botones con un control GridControl al formulario. Establecer las propiedades de texto de los botones como**Guardar como archivo** y**Guardar como transmisión** respectivamente.
 ### **Guardar como archivo**
  Cree el evento Click del**Guardar como archivo** botón y pegue el siguiente código dentro de él.
 
@@ -29,7 +29,7 @@ IMPORTANTE: Un punto importante a discutir es que el control Aspose.Cells.GridDe
 
 {{% /alert %}} 
 ### **Guardar como flujo**
- A veces, los desarrolladores pueden solicitar que guarden el contenido de su cuadrícula en una secuencia (por ejemplo, MemoryStream). Para facilitar esta tarea, el control Aspose.Cells.GridDesktop también admite guardar datos de Grid en una secuencia. Cree el evento Click del**Guardar como secuencia** botón y pegue el siguiente código dentro de él.
+ A veces, los desarrolladores pueden solicitar que guarden el contenido de su cuadrícula en una secuencia (por ejemplo, MemoryStream). Para facilitar esta tarea, el control Aspose.Cells.GridDesktop también admite guardar datos de Grid en una secuencia. Cree el evento Click del**Guardar como transmisión** botón y pegue el siguiente código dentro de él.
 
 
 

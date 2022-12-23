@@ -10,7 +10,7 @@ url: /ru/net/data-in-non-primitive-shape/
 
 ## **Непримитивная форма**
 
- В Aspose.Cells непримитивным формам присваивается тип[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Вы можете проверить их тип с помощью[**Форма.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)имущество.
+В Aspose.Cells непримитивным формам присваивается тип[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Вы можете проверить их тип с помощью[**Форма.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)имущество.
 
  Доступ к данным формы с помощью[**Форма.Пути**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)имущество. Он возвращает все связанные пути, которые составляют не примитивную форму. Эти пути относятся к типу[**Путь формы**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)который содержит список всех сегментов, которые, в свою очередь, содержат точки в каждом сегменте.
 

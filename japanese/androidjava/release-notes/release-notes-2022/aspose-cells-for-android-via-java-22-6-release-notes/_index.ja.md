@@ -31,17 +31,17 @@ url: /ja/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44464|追加問題1、列シート4のyscl.xlsの背景色がExcelと同じではありません|
 |CELLSJAVA-44466|追加の問題 3、setCalculateFormula を false に設定しても機能しない|
 |CELLSJAVA-44496|HTML をロードするときにテーブルのキャプション タグ/要素を含める|
-|CELLSJAVA-44429|Excel での Excel グラフの効果は、HTML での効果とは異なります|
-|CELLSJAVA-44414|JSON の Unicode は、生成された XLSX および CSV を壊します|
+|CELLSJAVA-44429|Excel での Excel グラフの効果は、HTML のものとは異なります|
+|CELLSJAVA-44414|JSON の Unicode は、生成された XLSX と CSV を壊します|
 |CELLSJAVA-44481|ThreadedComment.setCreatedTime() メソッドの問題|
 |CELLSJAVA-44483|行をグループ化した後に並べ替えが機能しない|
 |CELLSJAVA-44522|文字列に倍精度値を指定すると末尾ゼロが返されますが、これは ms Excel の結果と比較すると正しくありません。|
 |CELLSJAVA-44501| duohangduolie.zip ファイルの次号を検索します。|
 |CELLSJAVA-44529|フリーズペインの検索を実装する|
 |CELLSJAVA-44530|setactivecell が時々機能しない問題を調査する|
-|CELLSJAVA-44534|Excel から HTML への変換でエクスポートされない印刷領域のグラフィック|
+|CELLSJAVA-44534|Excel で HTML 変換にエクスポートされない印刷領域のグラフィック|
 |CELLSJAVA-44539|印刷領域のある html に変換するときにグラフが右にシフトする|
-|CELLSJAVA-44568|HTML から XLS への変換で最初の行を除いて複数行のキャプションが失われる|
+|CELLSJAVA-44568|HTML から XLS への変換で、最初の行を除いて複数行のキャプションが失われる|
 |CELLSJAVA-44512|チャートを html で svg にエクスポートする際にチャートが見つからない|
 |CELLSJAVA-44556|座標軸を対数スケールに設定した後のデータ テーブルのデータ表示の問題 - Excel から HTML/PDF への変換|
 |CELLSJAVA-44628|ピボット列/フィールドのノード データを展開するときに、特定のピボット行のパーセンテージ形式を保持する方法|
@@ -58,7 +58,7 @@ url: /ja/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44615|XLS ファイルからの出力画像に描かれた灰色の線|
 |CELLSJAVA-44665|ODS ファイルの読み込みがハングする|
 |CELLSJAVA-44404|XLSX ファイルを GridWeb にロードするときの例外「java.lang.IllegalArgumentException: Invalid column index」|
-|CELLSJAVA-44651|ExcelシートをHTML/PDFに変換する際の「数値ではありません」エラー|
+|CELLSJAVA-44651|Excel シートを HTML/PDF に変換する際の「数値ではありません」エラー|
 
 
 ## **Public API および下位互換性のない変更**

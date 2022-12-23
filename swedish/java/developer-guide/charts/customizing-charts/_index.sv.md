@@ -30,13 +30,13 @@ Innan du skapar diagram är det viktigt att förstå några grundläggande begre
 - [**ChartFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), ramobjektet i ett diagram.
 - [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), en enda punkt i en serie i ett diagram.
 - [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), en samling som innehåller alla punkter i en serie.
-- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , en samling av[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objekt.
+- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , en samling av[**Diagram**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)föremål.
 -  DataLabels, DataLabels för den angivna[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Trendlinje**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
 - [**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), fyllningsformat för en form.
 - [**Golv**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), golvet i ett 3D-diagram.
 - [**Legend**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), sjökortsförklaringen.
 - [**Linje**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), diagramlinjen.
-- [**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objekt.
+- [**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)föremål.
 - [**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), representerar en enskild dataserie i ett diagram.
 - [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), bockmarkeringsetiketterna som är associerade med bockmarkeringar på en diagramaxel.
 - [**Titel**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), titeln på ett diagram eller en axel.
@@ -127,7 +127,7 @@ Lägg till vilken typ av diagram som helst i ett kalkylblad med hjälp av[**Char
 |PyramidColumn3D|Representerar 3D Pyramid Column Chart|
 Så här skapar du ett diagram med Aspose.Cells:
 
-1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) objekt[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod.
+1.  Lägg till några data till kalkylbladsceller med[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) föremål[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod.
  Detta kommer att användas som datakälla för diagrammet.
 1.  Lägg till ett diagram i kalkylbladet genom att anropa[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) samlingens[*Lägg till*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) metod, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objekt.
 1.  Ange typen av diagram med[**ChartType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)uppräkning.
@@ -176,7 +176,7 @@ Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som 
 
 Utvecklare kan skapa anpassade diagram vid körning med Aspose.Cells enkel API.
 
- Ett diagram är sammansatt av en dataserie. Varje dataserie i Aspose.Cells representeras av en[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objekt medan[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) objekt fungerar som en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objekt. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier (samlade i en[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objekt).
+ Ett diagram är sammansatt av en dataserie. Varje dataserie i Aspose.Cells representeras av en[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objekt medan[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) objekt fungerar som en samling av[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)föremål. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier (samlade i en[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objekt).
 
 {{% alert color="primary" %}}
 

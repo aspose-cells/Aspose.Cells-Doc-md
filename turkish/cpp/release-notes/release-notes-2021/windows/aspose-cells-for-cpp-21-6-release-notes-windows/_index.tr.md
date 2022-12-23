@@ -13,5 +13,5 @@ Bu sayfa Aspose.Cells for C++ 21.6 için Windows için sürüm notları içerir.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-292| nuget'de arama sonuçlarını optimize edin|Gelişme|
-|CELLSCPP-283| ArrayList yapıcı hatasını düzeltin|Böcek|
-|CELLSCPP-284|PathHelper başlatma sorunu|Böcek|
+|CELLSCPP-283|ArrayList yapıcı hatasını düzeltin|Böcek|
+|CELLSCPP-284| PathHelper başlatma sorunu|Böcek|

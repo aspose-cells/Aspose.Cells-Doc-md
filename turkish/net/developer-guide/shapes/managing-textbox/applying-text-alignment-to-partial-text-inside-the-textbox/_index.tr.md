@@ -13,7 +13,7 @@ Aşağıdaki örnek kod, metin hizalamasını bir TextBox'a uygular.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.cs" >}}
 
-Ayrıca, bir TextBox şekli içindeki bazı metnin metin hizalamasını uygun HTML metniyle değiştirebilirsiniz. Aşağıdaki örnek kod, metin hizalamasını TextBox içindeki kısmi metne uygular.
+Bir Metin Kutusu şekli içindeki bazı metinlerin metin hizalamasını uygun HTML metniyle de değiştirebilirsiniz. Aşağıdaki örnek kod, metin hizalamasını Metin Kutusu içindeki kısmi metne uygular.
 
 [Kaynak dosyası](SampleTextboxExcel2016.xlsx)
 

@@ -21,10 +21,10 @@ url: /de/java/aspose-cells-for-java-2-3-1-release-notes/
 - Legt benutzerdefinierte Zahlenformate für PivotField fest.
 - Enthält neue integrierte Dokumenteigenschaften für Excel 2007-Dateien.
 - Kombiniert mehrere Arbeitsmappen.
-- Unterstützt das Speichern von PDF in Stream für die direkte Excel-zu-PDF-Funktion.
+- Unterstützt das Speichern von PDF im Stream für die direkte Excel-to-PDF-Funktion.
 - Für das Lesen/Schreiben von Excel 2007-Dateien wurde eine Erweiterung vorgenommen.
 - Für das Lesen/Schreiben von Excel 2003-Dateien wurde eine Erweiterung vorgenommen.
-- Für das Lesen von XLS-Vorlagendateien wurde eine Erweiterung vorgenommen.
+- Für das Lesen von XLS-Vorlagendateien wird eine Erweiterung vorgenommen.
 - 25 Korrekturen und andere Verbesserungen.
 
  In Aspose.Cells for Java behobene Probleme 2.3.1
@@ -37,7 +37,7 @@ url: /de/java/aspose-cells-for-java-2-3-1-release-notes/
 |17818 | XLSX| Lesen der Vorlagendatei|
 |17835 | HTML| Linienfarbe, RichText-Format|
 |17837 | XLs| Problem mit der Spaltenbreite|
-|17960 | Pdf| Generiertes PDF bleibt leer|
+|17960 | Pdf| Generiert PDF bleibt leer|
 |17963 | XLs| getStringValue()|
 |17968 | Diagramm2Bild| Diagramm2Bild|
 |17989 | SmartMarker| Dynamische Formeln|
@@ -47,9 +47,9 @@ url: /de/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | XLSX| Pivot-Tabelle für Excel 2007-Datei speichern|
 |18188 | XLSX| Festlegen des Schriftartnamens für die Excel 2007-Datei|
 |18201 | XLs| Cell.getDependents() löst eine Ausnahme aus|
-|18257 | Pdf| Bereiche im exportierten PDF drucken|
-|18274 | XLs| Arbeitsblatt mit Bildern entfernen|
-|18288 | Pdf|Verbesserung der Leistung beim Speichern von Pdf|
+|18257 | Pdf| Druckbereiche in exportiertem PDF|
+|18274 | XLs|Arbeitsblatt mit Bildern entfernen|
+|18288 | Pdf| Verbesserung der Leistung beim Speichern von Pdf|
 |18307 | XLSX| Excel 2007-Dokumenteigenschaften|
 |18328 | XLs| Einstellen des benutzerdefinierten Formats auf pivotField dataField|
 |18345 | XLSX| Diagramm für Excel 2007-Dateien speichern|

@@ -18,7 +18,7 @@ Aspose.Cells for Java يدعم فقط تنسيقات الصور: BMP ، JPEG ، 
 
 من السهل جدًا إضافة الصور إلى جدول البيانات. لا يتطلب الأمر سوى بضعة أسطر من التعليمات البرمجية.
 
- ما عليك سوى الاتصال بـ[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) طريقة ال[**الصور**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) هدف). ال[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) تأخذ الطريقة المعلمات التالية:
+ ما عليك سوى الاتصال بـ[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) طريقة ال[**الصور**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) موضوع). ال[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) تأخذ الطريقة المعلمات التالية:
 
 - **فهرس الصف العلوي الأيسر**، فهرس الصف العلوي الأيسر.
 - **فهرس العمود الأيسر العلوي**، فهرس العمود الأيسر العلوي.
@@ -34,7 +34,7 @@ Aspose.Cells for Java يدعم فقط تنسيقات الصور: BMP ، JPEG ، 
 
 ### **تحديد المواقع المطلقة**
 
- يمكن للمطورين وضع الصور تمامًا باستخدام ملف[**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) و[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) طرق[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)هدف.
+ يمكن للمطورين وضع الصور تمامًا باستخدام ملف[**setUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) و[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) طرق[**صورة**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)موضوع.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
 

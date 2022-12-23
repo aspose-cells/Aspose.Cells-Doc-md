@@ -22,7 +22,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 ## **Nouvelles fonctionnalités**
 
 
-(CELLSNET-42761) - Supprimer des scénarios des feuilles de calcul
+ (CELLSNET-42761) - Supprimer des scénarios des feuilles de calcul
 
 
 ## **Insectes**
@@ -32,7 +32,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42387) - Le texte est déplacé hors de la bannière.
 
- (CELLSNET-42385) - La forme du connecteur incurvé n'apparaît pas lors du rendu de XLSX en PDF
+ (CELLSNET-42385) - La forme du connecteur incurvé n'apparaît pas lors du rendu XLSX à PDF
 
  (CELLSNET-42379) - Le texte dans la matrice est affiché différemment
 
@@ -42,9 +42,9 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42386) - La fonction GetPivotData calcule une valeur erronée
 
- (CELLSNET-42742) - Aspose.Cells Incorpore des polices incorrectes dans le PDF
+ (CELLSNET-42742) - Aspose.Cells Intègre des polices incorrectes dans le PDF
 
- (CELLSNET-42697) - L'en-tête est dupliqué dans le pdf de sortie
+(CELLSNET-42697) - L'en-tête est dupliqué dans le pdf de sortie
 
  (CELLSNET-42759) - Les étiquettes de l'axe X du graphique sont coupées
 
@@ -52,9 +52,9 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42750) - Les flèches s'affichent en miroir sur un axe vertical
 
-(CELLSNET-42748) - Les lignes de légende sont plus fines que dans Excel
+ (CELLSNET-42748) - Les lignes de légende sont plus fines que dans Excel
 
- (CELLSNET-42730) - XLSM en PDF a tendance à se bloquer lorsque des modifications sont apportées à la valeur et au format Cell
+ (CELLSNET-42730) - XLSM à PDF a tendance à se bloquer lorsque des modifications sont apportées à la valeur et au format Cell
 
  (CELLSNET-42381) - La liste à puces n'est pas imprimée correctement sous l'en-tête de liste
 
@@ -68,19 +68,19 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42716) - Rubans XLSM perdus après réenregistrement du fichier XLSM
 
- (CELLSNET-42711) - Row.ApplyStyle ne fonctionne pas correctement
+(CELLSNET-42711) - Row.ApplyStyle ne fonctionne pas correctement
 
- (CELLSNET-42708) - La couleur d'arrière-plan verte des cellules disparaît en HTML
+ (CELLSNET-42708) - La couleur de fond verte des cellules disparaît dans HTML
 
  (CELLSNET-42695) - Erreur de vue protégée dans le fichier MS Excel - Enquête requise
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42782) - System.FormatException lors de la lecture du fichier xlsx
 
-(CELLSNET-42758) - La distribution spécifiée n'est pas une exception valide sur Cell.GetDisplayStyle()
+ (CELLSNET-42758) - La distribution spécifiée n'est pas une exception valide sur Cell.GetDisplayStyle()
 
  (CELLSNET-42724) - StackOverflowException s'est produite lors de l'appel de la méthode Worksheet/Workbook.CalculateFormula()
 

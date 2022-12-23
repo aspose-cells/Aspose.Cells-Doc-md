@@ -12,13 +12,13 @@ url: /ar/net/set-default-font-while-rendering-spreadsheet-to-images/
 
 ## قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ، ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) الملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) الملكية ل*تايمز نيو رومان*.
+ينشئ نموذج التعليمات البرمجية التالي مصنفًا ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ، ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*تايمز نيو رومان*.
 
- هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) الملكية ل*ساعي جديد*.
+ هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*ساعي جديد*.
 
 ![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) الملكية ل*تايمز نيو رومان*.
+ هذه هي صورة الإخراج بعد ضبط ملف[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) ملكية ل*تايمز نيو رومان*.
 
 ![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 

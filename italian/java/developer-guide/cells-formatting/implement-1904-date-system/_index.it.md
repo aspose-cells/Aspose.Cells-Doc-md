@@ -12,7 +12,7 @@ Microsoft Excel supporta due sistemi di data: il sistema di data 1900 (il sistem
 
 Per implementare il sistema di data 1904 in Microsoft Excel (ad esempio Microsoft Excel 2003):
 
-1.  Dal**Strumenti** menù, selezionare**Opzioni** e selezionare il**Calcolo** scheda.
+1.  Dal**Utensili** menù, selezionare**Opzioni** e selezionare il**Calcolo** scheda.
 1.  Seleziona il**Sistema di data 1904** opzione.
 1.  Clic**OK**.
 

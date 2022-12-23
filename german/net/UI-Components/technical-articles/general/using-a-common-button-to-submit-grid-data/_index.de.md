@@ -6,13 +6,13 @@ url: /de/net/using-a-common-button-to-submit-grid-data/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb bietet einige integrierte Befehlsschaltflächen wie**Einreichen** und**Speichern**. Verwenden Sie diese Schaltflächen, um verwandte Aufgaben auszuführen.
+ Aspose.Cells.GridWeb bietet einige integrierte Befehlsschaltflächen wie**einreichen** und**Speichern**. Verwenden Sie diese Schaltflächen, um verwandte Aufgaben auszuführen.
 
 In diesem Artikel wird gezeigt, wie Sie Daten an einen Server übermitteln, indem Sie nicht nur auf die integrierte GridWeb klicken**Speichern** Befehlsschaltfläche, sondern durch Klicken auf eine allgemeine ASP.NET-Schaltfläche (Websteuerung). Der Zweck dieses Artikels besteht darin, die Flexibilität von Aspose.Cells.GridWeb zu zeigen. Darüber hinaus verwendet dieser Artikel auch spezielle Funktionen, die von Aspose.Cells.GridWeb verfügbar gemacht werden, um im clientseitigen Skript verwendet zu werden.
 
 {{% /alert %}} 
 ## **Übermitteln von Rasterdaten mithilfe einer ASP.NET-Schaltfläche**
-Aspose.Cells.GridWeb bietet drei integrierte Schaltflächen (**Einreichen**, **Speichern** und**Rückgängig machen** ). Nach der Bearbeitung in GridWeb kann ein Benutzer auf die klicken**Einreichen** oder**Speichern** Schaltfläche in der Registerkartenleiste, damit GridWeb Daten an den Server senden kann. Wenn der Benutzer auf eine Blattregisterkarte klickt, führt das GridWeb-Steuerelement dieselbe Aufgabe aus wie die integrierten Befehlsschaltflächen. Aspose.Cells. GridWeb unterstützt auch das Hinzufügen dieser Funktionalität zu einem allgemeinen ASP.NET Button-Steuerelement, aber Sie müssen der Anwendung zusätzlichen Code hinzufügen.
+Aspose.Cells.GridWeb bietet drei integrierte Schaltflächen (**einreichen**, **Speichern** und**Rückgängig machen** ). Nach der Bearbeitung in GridWeb kann ein Benutzer auf die klicken**einreichen** oder**Speichern** Schaltfläche in der Registerkartenleiste, damit GridWeb Daten an den Server senden kann. Wenn der Benutzer auf eine Blattregisterkarte klickt, führt das GridWeb-Steuerelement dieselbe Aufgabe aus wie die integrierten Befehlsschaltflächen. Aspose.Cells. GridWeb unterstützt auch das Hinzufügen dieser Funktionalität zu einem allgemeinen ASP.NET Button-Steuerelement, aber Sie müssen der Anwendung zusätzlichen Code hinzufügen.
 ### **1. Erstellen einer Testanwendung**
 Öffnen Sie Ihre Visual Studio.NET-IDE und erstellen Sie ein neues ASP.NET-Webanwendungsprojekt. Nachdem die Anwendung erstellt wurde, wird Ihrem Projekt eine Standardseite „WebForm1.aspx“ hinzugefügt. Ziehen Sie das GridWeb-Steuerelement per Drag & Drop aus Ihrer Toolbox in das Web Form. Wenn Sie das GridWeb-Steuerelement nicht in Ihrer Toolbox finden können, lesen Sie diese Seite:[Integrieren Sie Aspose.Cells-Rastersteuerelemente in Visual Studio.NET](/cells/de/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/) um mehr darüber zu erfahren. Nachdem das GridWeb-Steuerelement zu Ihrem Webformular hinzugefügt wurde, fügen Sie Ihrem Webformular auch ein Schaltflächen-Websteuerelement aus der Toolbox hinzu.
 ### **2. Hinzufügen von Code zum Page_Load-Ereignis**

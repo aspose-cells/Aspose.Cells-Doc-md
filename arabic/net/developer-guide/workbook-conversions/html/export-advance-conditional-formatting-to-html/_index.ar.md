@@ -6,7 +6,7 @@ url: /ar/net/export-databar-colorscale-and-iconset-conditional-formatting-while-
 ---
 {{% alert color="primary" %}} 
 
-يمكنك تصدير التنسيق الشرطي DataBar و ColorScale و IconSet أثناء تحويل ملف Excel إلى HTML. هذه الميزة مدعومة جزئيًا بواسطة Microsoft Excel ولكن Aspose.Cells يدعمها بشكل كامل.
+يمكنك تصدير تنسيق شرطي DataBar و ColorScale و IconSet أثناء تحويل ملف Excel إلى HTML. هذه الميزة مدعومة جزئيًا بواسطة Microsoft Excel ولكن Aspose.Cells يدعمها بالكامل.
 
 {{% /alert %}} 
 ## **تصدير التنسيق الشرطي DataBar و ColorScale و IconSet أثناء تحويل Excel إلى HTML**
@@ -14,11 +14,11 @@ url: /ar/net/export-databar-colorscale-and-iconset-conditional-formatting-while-
 
 ![ما يجب القيام به: image_بديل_نص](conversion_1.png)
 
-تُظهر لقطة الشاشة التالية ملف HTML الناتج Aspose.Cells الذي يُظهر DataBar و ColorScale و IconSet Conditional Formatting. كما ترى ، يبدو تمامًا[نموذج ملف اكسل](5115558.xlsx).
+تُظهر لقطة الشاشة التالية الملف Aspose.Cells الناتج HTML الذي يُظهر DataBar و ColorScale و IconSet Conditional Formatting. كما ترى ، يبدو تمامًا[نموذج ملف اكسل](5115558.xlsx).
 
 ![ما يجب القيام به: image_بديل_نص](conversion_2.png)
 ### **عينة من الرموز**
- يحول نموذج التعليمات البرمجية التالي نموذج ملف Excel إلى HTML وهو مجرد ملف عادي[Excel لتحويل HTML](/cells/ar/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
+ يقوم نموذج التعليمات البرمجية التالي بتحويل ملف Excel النموذجي إلى HTML وهو أمر عادي[Excel لتحويل HTML](/cells/ar/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml).
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConvertingToHTMLFiles -1.cs" >}}
 
 

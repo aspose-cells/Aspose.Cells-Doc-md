@@ -10,7 +10,7 @@ url: /zh/reportingservices/sub-report/
 
 **报表定义中的子报表** 
 
-![待办事项：图像_替代_文本](sub-report_1.png)
+![待办事项：图片_替代_文本](sub-report_1.png)
 
 在示例中，子报表的名称为“销售订单明细”。它有一个参数，SalesOrderNumber。该参数的值为 EmpSalesDetail.SalesOrderNumber。
 ### **子报告的限制**

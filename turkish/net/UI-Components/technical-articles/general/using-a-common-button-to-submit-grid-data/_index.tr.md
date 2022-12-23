@@ -6,13 +6,13 @@ url: /tr/net/using-a-common-button-to-submit-grid-data/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb, aşağıdaki gibi bazı yerleşik komut düğmeleri sağlar**Göndermek** ve**Kaydetmek**. İlgili görevleri gerçekleştirmek için bu düğmeleri kullanın.
+ Aspose.Cells.GridWeb, aşağıdaki gibi bazı yerleşik komut düğmeleri sağlar**Göndermek** ve**Kayıt etmek**. İlgili görevleri gerçekleştirmek için bu düğmeleri kullanın.
 
-Bu makale, verilerin yalnızca GridWeb'in yerleşik**Kaydetmek** komut düğmesi, ancak ortak bir ASP.NET Düğmesine (Web Kontrolü) tıklayarak. Bu makalenin amacı Aspose.Cells.GridWeb'in esnekliğini göstermektir. Ayrıca bu makale, istemci tarafı komut dosyasında kullanılmak üzere Aspose.Cells.GridWeb tarafından sunulan özel işlevleri de kullanır.
+Bu makale, verilerin yalnızca GridWeb'in yerleşik**Kayıt etmek** komut düğmesi, ancak ortak bir ASP.NET Düğmesine (Web Kontrolü) tıklayarak. Bu makalenin amacı Aspose.Cells.GridWeb'in esnekliğini göstermektir. Ayrıca bu makale, istemci tarafı komut dosyasında kullanılmak üzere Aspose.Cells.GridWeb tarafından sunulan özel işlevleri de kullanır.
 
 {{% /alert %}} 
 ## **ASP.NET Düğmesini Kullanarak Kılavuz Verilerini Gönderme**
-Aspose.Cells.GridWeb üç yerleşik düğme sağlar (**Göndermek**, **Kaydetmek** ve**Geri alma** ). GridWeb'de düzenleme yaptıktan sonra, bir kullanıcı**Göndermek** veya**Kaydetmek** GridWeb'in verileri sunucuya göndermesine izin vermek için Sekme Çubuğundaki düğme. Kullanıcı bir Sayfa Sekmesine tıklarsa, GridWeb denetimi yerleşik komut düğmeleriyle aynı görevi gerçekleştirir. Aspose.Cells.GridWeb, bu işlevi ortak bir ASP.NET Düğme denetimine eklemeyi de destekler, ancak uygulamaya bazı ekstra kodlar eklemeniz gerekir.
+Aspose.Cells.GridWeb üç yerleşik düğme sağlar (**Göndermek**, **Kayıt etmek** ve**Geri alma** ). GridWeb'de düzenleme yaptıktan sonra, bir kullanıcı**Göndermek** veya**Kayıt etmek** GridWeb'in verileri sunucuya göndermesine izin vermek için Sekme Çubuğundaki düğme. Kullanıcı bir Sayfa Sekmesine tıklarsa, GridWeb denetimi yerleşik komut düğmeleriyle aynı görevi gerçekleştirir. Aspose.Cells.GridWeb, bu işlevi ortak bir ASP.NET Düğme denetimine eklemeyi de destekler, ancak uygulamaya bazı ekstra kodlar eklemeniz gerekir.
 ### **1. Test Uygulaması Oluşturma**
 Visual Studio.NET IDE'nizi açın ve yeni bir ASP.NET Web Uygulaması projesi oluşturun. Uygulama oluşturulduktan sonra, projenize varsayılan bir WebForm1.aspx sayfası eklenecektir. GridWeb kontrolünü Araç Kutunuzdan Web Formuna sürükleyip bırakın. Araç Kutunuzda GridWeb kontrolünü bulamıyorsanız, bu sayfaya bakın:[Aspose.Cells Izgara Denetimlerini Visual Studio.NET ile entegre edin](/cells/tr/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/) Web Formunuza GridWeb denetimi eklendikten sonra, Toolbox'tan Web Formunuza bir Button web denetimi de ekleyin.
 ### **2. Page_Load Olayına Kod Ekleme**

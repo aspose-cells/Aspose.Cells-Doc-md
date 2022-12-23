@@ -20,19 +20,19 @@ url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42543|提取可以为嵌入在 Excel 文件中的包对象设置的标签名称|新功能|
 |CELLSJAVA-42510|应用过滤器时观察 Microsoft Excel 2013 和 2016 中的过滤速度非常慢|强化|
 |CELLSJAVA-42464|所有 ActiveX 控件都需要修复|强化|
-|CELLSJAVA-42490|将 Excel 文件导出为 HTML 时排除未使用的样式（父问题 ID：CELLSJAVA-42471）|强化|
+|CELLSJAVA-42490|Exclude unused styles when exporting Excel file to HTML (parent issue id: CELLSJAVA-42471)|强化|
 |CELLSJAVA-42529|如何通过 DrawObjectEventHandler 识别工作表形状|强化|
 |CELLSJAVA-42558|无法访问水平分类轴标签项目|强化|
 |CELLSJAVA-42473|部分图像被截断或丢失，并且与原始源图像不匹配|漏洞|
-|CELLSJAVA-42469|图像从输出 PDF 中的形状突出|漏洞|
-|CELLSJAVA-42461|输出 HTML 中的元素形状不正确|漏洞|
+|CELLSJAVA-42469|图像从输出中的形状突出 PDF|漏洞|
+|CELLSJAVA-42461|输出中的元素形状不正确 HTML|漏洞|
 |CELLSJAVA-42495|Excel 到 Html - 环绕文本被忽略|漏洞|
 |CELLSJAVA-42489|XLSB 文件在打开和保存后损坏|漏洞|
 |CELLSJAVA-42487|HTML 输出差异 - 空格问题|漏洞|
-|CELLSJAVA-42471|保存为 HTML 时包含不相关的数据|漏洞|
-|CELLSJAVA-42467|重新保存后 XLSB 损坏|漏洞|
+|CELLSJAVA-42471|保存到 HTML 时包含不相关的数据|漏洞|
+|CELLSJAVA-42467|XLSB 重新保存后损坏|漏洞|
 |CELLSJAVA-42488|15 位数字与 MS Excel 中的不匹配|漏洞|
-|CELLSJAVA-42499|将输出 PDF（按 Aspose.Cells）与 MS Excel 生成的 PDF 进行比较时的边距和布局差异|漏洞|
+|CELLSJAVA-42499|将输出 PDF（由 Aspose.Cells）与 MS Excel 生成的 PDF 进行比较时的边距和布局差异|漏洞|
 |CELLSJAVA-42486|功能在 Java - ResultSet 中不起作用|漏洞|
 |CELLSJAVA-42497|Sheet1 形状丢失，Sheet2 中的星星变圆|漏洞|
 |CELLSJAVA-42512|编码无效 - 加载 Excel 文件时出现异常|漏洞|
@@ -47,18 +47,18 @@ url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 |CELLSJAVA-42514|将 ResultSet 导入工作表时，ImportTableOptions.setInsertRows() 不起作用|漏洞|
 |CELLSJAVA-42505|将 Excel 文件导入 GridWeb 时，不显示附加到单元格（在模板文件中）的注释|漏洞|
 |CELLSJAVA-42520|ImageOrPrintOptions.DrawObjectEventHandler 报告的单元格坐标不一致|漏洞|
-|CELLSJAVA-42518|输出 PDF 中的行边框未对齐|漏洞|
-|CELLSJAVA-42561|Excel 图表的 PNG 输出中的 X 轴刻度不正确|漏洞|
-|CELLSJAVA-42556|输出 PDF 中图表的呈现不正确|漏洞|
+|CELLSJAVA-42518|输出中行的边框未对齐 PDF|漏洞|
+|CELLSJAVA-42561|PNG Excel 图表输出中的 X 轴刻度不正确|漏洞|
+|CELLSJAVA-42556|输出中图表的呈现不正确 PDF|漏洞|
 |CELLSJAVA-42547|将 XLSX 转换为 ODS 时，图表被替换为红色 X|漏洞|
 |CELLSJAVA-42546|将 ODS 转换为 XLSX 时图像丢失|漏洞|
-|CELLSJAVA-42538|不从 XLS 和 XLSX 文件中提取属性|漏洞|
-|CELLSJAVA-42534|将 XLS 保存为 XLSB 会删除 allowEditRanges|漏洞|
+|CELLSJAVA-42538|未从 XLS 和 XLSX 文件中提取属性|漏洞|
+|CELLSJAVA-42534|将 XLS 保存到 XLSB 会删除 allowEditRanges|漏洞|
 |CELLSJAVA-42533|提取 SmartArt 形状文本时出现异常“NullPointerException”|漏洞|
 |CELLSJAVA-42532|文章代码 - 使用 WorkbookSetting.StreamProvider 控制外部资源 - 不起作用 for Java|漏洞|
 |CELLSJAVA-42525|文章代码 - 将数据导入工作表时指定公式字段 - 不起作用 for Java|漏洞|
 |CELLSJAVA-42521|嵌入文件名（标题）中的汉字在记事本中显示不佳|漏洞|
-|CELLSJAVA-42545|加载ODS文件时出现异常“ReadElementString only called when the content is simple or empty”|例外|
+|CELLSJAVA-42545|加载 ODS 文件时出现异常“ReadElementString only called when the content is simple or empty”|例外|
 |CELLSJAVA-42500|加载 MS Excel 文件时发生 NullPointerException|例外|
 |CELLSJAVA-42526|Cell错误B4-无效公式-设置公式时出现异常|例外|
 |CELLSJAVA-42522|通过 Aspose.Cells 打开文件时出现 ArrayIndexOutOfBoundsException|例外|
@@ -68,13 +68,13 @@ url: /zh/java/aspose-cells-for-android-via-java-18-3-release-notes/
 #### **添加 LoadOptions.ParsingPivotCachedRecords 属性**
 指示加载文件时是否解析透视缓存记录。默认值为false。仅适用于Excel Xlsx、Xltx、Xltm、Xlsm和Xlsb文件格式。
 #### **添加 HtmlSaveOptions.ExcludeUnusedStyles 属性**
-表示是否排除未使用的样式。默认值为false。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+表示是否排除未使用的样式。默认值为false。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportDocumentProperties 属性**
-是否导出文档属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+是否导出文档属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportWorksheetProperties 属性**
-表示是否导出工作表属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+表示是否导出工作表属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportWorkbookProperties 属性**
-是否导出工作簿属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+是否导出工作簿属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 PivotTable.GetChildren() 方法**
 获取使用此数据透视表数据作为数据源的子数据透视表。
 #### **添加 LoadDataFilterOptions.DefinedNames 枚举**

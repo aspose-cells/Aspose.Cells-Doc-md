@@ -1,5 +1,5 @@
 ﻿---
-title: تحويل XLS بالصور والرسوم البيانية إلى PDF
+title: حول XLS بالصور والرسوم البيانية إلى PDF
 type: docs
 weight: 230
 url: /ar/java/convert-xls-with-images-and-charts-to-pdf/
@@ -8,7 +8,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 ---
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells تحويل ملفات XLS التي تحتوي على صور ومخططات إلى مستندات PDF. يمكن أن يعمل Aspose.Cells for Java بشكل مستقل لتحويل جدول بيانات إلى PDF: Aspose.PDF واجهات برمجة التطبيقات (API) غير مطلوبة للتحويل.
+يدعم Aspose.Cells تحويل ملفات XLS التي تحتوي على صور ورسوم بيانية إلى وثائق PDF. يمكن أن يعمل Aspose.Cells for Java بشكل مستقل لتحويل جدول بيانات إلى PDF: Aspose.PDF واجهات برمجة التطبيقات (API) غير مطلوبة للتحويل.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) فقط قبل التقديم إلى PDF. يضمن القيام بذلك إعادة حساب القيم التابعة للصيغة ، وتجسيد القيم الصحيحة في ملف PDF.
+ إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل التقديم إلى PDF. القيام بذلك يضمن إعادة حساب القيم التابعة للصيغة ، ويتم تقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}
 

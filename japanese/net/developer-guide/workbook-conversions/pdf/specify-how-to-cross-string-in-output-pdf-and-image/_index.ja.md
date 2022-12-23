@@ -1,5 +1,5 @@
 ﻿---
-title: 出力 PDF と画像での文字列の交差方法を指定する
+title: 出力PDFと画像の文字列の交差方法を指定
 type: docs
 weight: 120
 url: /ja/net/specify-how-to-cross-string-in-output-pdf-and-image/
@@ -10,13 +10,13 @@ url: /ja/net/specify-how-to-cross-string-in-output-pdf-and-image/
 
 - **TextCrossType.Default**: 次のセルに依存する MS Excel のようなテキストを表示します。次のセルが null の場合、文字列が交差するか、切り捨てられます。
 
-- **TextCrossType.CrossKeep**: PDF/画像をエクスポートするMS Excelのような文字列を表示します
+- **TextCrossType.CrossKeep**: MS Excel exporting PDF/Image のような文字列を表示します
 
 - **TextCrossType.CrossOverride**: 他のセルと交差してすべてのテキストを表示し、交差したセルのテキストを上書きします
 
 - **TextCrossType.StrictInCell**: セルの幅内に文字列のみを表示します。
 
-## **TextCrossType を使用して、出力 PDF/画像で文字列を交差させる方法を指定します**
+## **TextCrossType を使用して、出力 PDF/Image で文字列を交差させる方法を指定します**
 
 次のサンプル コードは、サンプルの Excel ファイルを読み込み、別のファイルを指定して PDF/Image 形式で保存します。[**TextCrossType**](https://reference.aspose.com/cells/net/aspose.cells/textcrosstype).サンプルの Excel ファイルと出力ファイルは、次のリンクからダウンロードできます。
 

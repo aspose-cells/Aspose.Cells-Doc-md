@@ -26,7 +26,7 @@ Bu makaledeki kod örnekleri, aşağıdaki ekran görüntüsündeki gibi yinelen
 
 **Çalışma sayfası için bir arka plan ayarlandı.**
 
-![yapılacaklar:resim_alternatif_Metin](set-background-picture-of-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](set-background-picture-of-a-worksheet_1.png)
 
 ### **VSTO ile Arka Plan Resimleri Ayarlama**
 

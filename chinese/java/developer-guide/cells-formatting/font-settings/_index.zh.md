@@ -11,7 +11,7 @@ url: /zh/java/dealing-with-font-settings/
 
 **Microsoft Excel 中的字体设置** 
 
-![待办事项：图像_替代_文本](dealing-with-font-settings_1.png)
+![待办事项：图片_替代_文本](dealing-with-font-settings_1.png)
 
 与Microsoft Excel一样，Aspose.Cells也支持配置单元格的字体设置。
 

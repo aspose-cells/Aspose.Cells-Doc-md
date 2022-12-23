@@ -12,7 +12,7 @@ url: /it/java/how-to-fix-the-java-lang-outofmemoryerror-while-loading-large-spre
 ## **Come correggere java.lang.OutOfMemoryError durante il caricamento di un foglio di calcolo di grandi dimensioni**
 Aspose.Cells Le API forniscono le preferenze di memoria per ottimizzare il consumo di memoria durante il caricamento e l'elaborazione dei fogli di calcolo. Queste opzioni sono utili anche per caricare in modo efficiente i fogli di calcolo di grandi dimensioni contenenti enormi set di dati nell'oggetto cartella di lavoro, come illustrato di seguito.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

@@ -12,7 +12,7 @@ url: /ar/java/get-worksheet-of-the-chart/
 
 ## مثال
 
- يوضح المثال التالي كيفية استخدام ملف[**Chart.getWorksheet ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) منشأه. يقوم الرمز أولاً بطباعة اسم ورقة العمل ، ثم يصل إلى المخطط الأول في ورقة العمل. ثم يقوم بطباعة اسم ورقة العمل مرة أخرى باستخدام امتداد[**Chart.getWorksheet ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)منشأه.
+ يوضح المثال التالي كيفية استخدام ملف[**Chart.getWorksheet ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) خاصية. يقوم الرمز أولاً بطباعة اسم ورقة العمل ، ثم يصل إلى المخطط الأول في ورقة العمل. ثم يقوم بطباعة اسم ورقة العمل مرة أخرى باستخدام امتداد[**Chart.getWorksheet ()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)خاصية.
 
 ### Java كود للوصول الى ورقة العمل الخاصة بالمخطط
 

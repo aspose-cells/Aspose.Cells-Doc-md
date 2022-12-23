@@ -14,14 +14,14 @@ Bu sayfa Aspose.Cells for Java 18.9 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-42715|Formüller, MS Excel dosyasındakiyle aynı şekilde alınmaz|Böcek|
 |CELLSJAVA-42711|PDF'deki grafik Excel şablonundan oluşturulmuyor|Böcek|
-|CELLSJAVA-42710|Excel'deki grafikteki yinelenen gösterge öğesi metnini PDF'ye dönüştürme|Böcek|
+|CELLSJAVA-42710|Excel'deki grafikteki yinelenen gösterge öğesi metnini PDF'e dönüştürme|Böcek|
 |CELLSJAVA-42706|PDF çıktısı grafik etiketini göstermiyor|Böcek|
 |CELLSJAVA-42700|Grafik verilerini değiştirdikten sonra şelale grafiği düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42717|Cells.deleteRow hatalı çalışıyor|Böcek|
 |CELLSJAVA-42716|Sınır stili için yanlış değer alındı|Böcek|
 |CELLSJAVA-42709|Birleştirilmiş hücre için yanlış alt kenarlık stili döndürüldü|Böcek|
 |CELLSJAVA-42705|MS Excel, Otomatik Filtre ayarlandıktan sonra dosya yüklenirken hata veriyor|Böcek|
-|CELLSJAVA-42703|ODS'yi PDF'ye dönüştürürken grafik görüntülenmiyor|Böcek|
+|CELLSJAVA-42703|ODS, PDF'e dönüştürülürken grafik oluşturulmadı|Böcek|
 |CELLSJAVA-42702|Çalışma sayfasında hücre stilini okuduktan sonra gri kenarlıklar görünüyor|Böcek|
 |CELLSJAVA-42699|PasteType.VALUES_VE_NUMBER_FORMATS düzgün çalışmıyor|Böcek|
 |CELLSJAVA-42646|İstisna: Name.getRefersTo() üzerinde "FormulaBuild Bilinmeyen formül belirteci0"|İstisna|
@@ -81,7 +81,7 @@ CustomDocumentPropertyCollection'ın PDF dosyasına nasıl aktarılacağını be
 
 ### **PdfSaveOptions.CustomPropertiesExport özelliğini ekler**
 
-CustomDocumentPropertyCollection öğesinin PDF dosyasına dışa aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
+CustomDocumentPropertyCollection'ın PDF dosyasına aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
 
 ### **XmlDataBinding sınıfını ekler**
 

@@ -150,7 +150,7 @@ Aspose.Cells .NET for PHP はオープン ソースであり、そのソース �
       - [PHP でファイルを保存する](/cells/ja/net/saving-files-in-php/)
     - [PHP のユーティリティ機能](/cells/ja/net/utility-features-in-php/)
       - [PHP でのファイルの暗号化](/cells/ja/net/encrypting-files-in-php/)
-      - [PHP での Excel から PDF への変換](/cells/ja/net/excel-to-pdf-conversion-in-php/)
+      - [PHPでのExcelからPDFへの変換](/cells/ja/net/excel-to-pdf-conversion-in-php/)
       - [PHP でのドキュメント プロパティの管理](/cells/ja/net/managing-document-properties-in-php/)
       - [PHP でのワークシートから画像への変換](/cells/ja/net/worksheet-to-image-conversion-in-php/)
   - [PHP で数式を操作する](/cells/ja/net/working-with-formulas-in-php/)

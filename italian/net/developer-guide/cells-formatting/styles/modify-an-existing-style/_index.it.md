@@ -10,13 +10,13 @@ Per applicare le stesse opzioni di formattazione alle celle, crea un nuovo ogget
 
 Puoi anche utilizzare uno stile esistente, salvarlo con la cartella di lavoro e utilizzarlo per formattare le informazioni con gli stessi attributi.
 
- Quando le celle non sono formattate in modo esplicito, il**Normale** style (lo stile predefinito della cartella di lavoro). Microsoft Excel predefinisce diversi stili oltre allo stile Normale, inclusi Virgola, Valuta e Percentuale.
+ Quando le celle non sono formattate in modo esplicito, il**Normale** style (lo stile predefinito della cartella di lavoro). Microsoft Excel predefinisce diversi stili oltre allo stile Normale, tra cui Virgola, Valuta e Percentuale.
 
 Aspose.Cells consente di modificare uno qualsiasi di questi stili o qualsiasi altro stile definito con gli attributi desiderati.
 
 {{% /alert %}}
 
-## **Utilizzo di Microsoft Excel**
+## **Utilizzando Microsoft Excel**
 
 Per aggiornare uno stile in Microsoft Excel 97-2003:
 

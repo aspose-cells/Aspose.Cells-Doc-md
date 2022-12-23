@@ -24,11 +24,11 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 
  Problèmes résolus au Aspose.Cells for Reporting Services 1.5.2.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |16478 | Composant serveur| Problème dans la ligne d'en-tête du rapport matriciel après exportation dans le fichier XLSX|
 |16170 | Composant serveur| Aspose.Cells for Reporting Services - Divers problèmes|
-|16248 | Composant serveur| L'exportation XLSX ne fonctionne pas correctement|
+|16248 | Composant serveur| XLSX l'exportation ne fonctionne pas correctement|
 |16239 | Composant serveur| Renommer les options déroulantes dans Report Viewer|
 |16202 | Composant serveur| Ne fonctionne pas correctement lors de l'exportation vers Excel 2007|
 |16169 | Composant serveur| Prise en charge des extensions de rendu SSRS en mode intégré SharePoint ?|

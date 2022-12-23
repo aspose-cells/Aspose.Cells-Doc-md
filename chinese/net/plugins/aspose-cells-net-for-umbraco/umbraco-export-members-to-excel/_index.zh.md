@@ -14,7 +14,7 @@ url: /zh/net/umbraco-export-members-to-excel/
 
 - 将成员导出到 Microsoft Excel 文档（.xls、.xlsx 和 .xlsb）
 - 将成员导出到制表符分隔的文本文档 (.txt)
-- 将成员导出为 CSV（逗号分隔）(*.csv)
+- 将成员导出到 CSV（逗号分隔）(*.csv)
 - 将成员导出到 OpenDocument 电子表格 (*.ods)
 - 导出前选择所需输出格式的选项
 - 将所有或选定成员导出为选定输出文档格式的选项。

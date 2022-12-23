@@ -35,7 +35,7 @@ Tutte queste impostazioni di allineamento sono completamente supportate da Aspos
 |Riempire|Rappresenta l'allineamento del testo di riempimento|
 |Generale|Rappresenta l'allineamento generale del testo|
 |Giustificare|Rappresenta giustifica l'allineamento del testo|
-|Sono partiti|Rappresenta l'allineamento del testo a sinistra|
+|Sinistra|Rappresenta l'allineamento del testo a sinistra|
 |Destra|Rappresenta l'allineamento del testo a destra|
 |Superiore|Rappresenta l'allineamento del testo superiore|
 |Giustificato Basso|Allinea il testo con una lunghezza kashida regolata per il testo arabo.|
@@ -49,7 +49,7 @@ Tutte queste impostazioni di allineamento sono completamente supportate da Aspos
 
 ## **Allineamento orizzontale, verticale e rientro**
 
- Utilizzare il[**Allineamento orizzontale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) proprietà per allineare il testo orizzontalmente e[**Allineamento verticale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment)proprietà per allineare il testo verticalmente.
+ Usa il[**Allineamento orizzontale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) proprietà per allineare il testo orizzontalmente e[**Allineamento verticale**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment)proprietà per allineare il testo verticalmente.
  È possibile impostare il livello di indentazione del testo in una cella con il[**Livello rientro**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) proprietà
 e ha effetto solo quando l'allineamento orizzontale è a sinistra oa destra.
 

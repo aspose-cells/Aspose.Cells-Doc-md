@@ -12,5 +12,5 @@ Bu sayfa Aspose.Cells for C++ 22.7 için Windows için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-829| IWarningCallback arayüzü ekleyin|Destek|
-|CELLSCPP-839| Özellikleri .Net sürümüyle senkronize edin|Destek|
+|CELLSCPP-829| IWarningCallback arayüzü ekleyin|Destek olmak|
+|CELLSCPP-839| Özellikleri .Net sürümüyle senkronize edin|Destek olmak|

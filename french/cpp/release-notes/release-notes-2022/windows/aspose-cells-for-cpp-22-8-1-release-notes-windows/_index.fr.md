@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.8.1 pour W
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-905| Correction de quelques bogues internes|Punaise|

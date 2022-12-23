@@ -25,26 +25,26 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|مصنف جديد معلق على ملف غير صالح|أداء|
 |CELLSNET-48012|تحسين الأداء لقراءة ملف ods. مع مجموعة كبيرة من عمليات التحقق من الصحة.|أداء|
 |CELLSNET-48039|حلقة لا نهائية عند حفظ المصنف المنسوخ|أداء|
-|CELLSNET-44224|لا يتم عرض علامة WordArt المائية في تنسيق ملف PDF الناتج|حشرة|
-|CELLSNET-47887|وضع النص داخل الشكل في غير محله|حشرة|
-|CELLSNET-47920|بعض المحتويات مفقودة في تحويل HTML إلى Excel|حشرة|
-|CELLSNET-47981|نتيجة تصدير النطاق مع الخلايا المدمجة إلى html غير صحيحة|حشرة|
-|CELLSNET-47985|عدد أقل من الصفوف عند التحويل إلى html|حشرة|
-|CELLSNET-47987|انقل الحقل المحوري إلى قسم الصفحة أو إلى المرشحات المحورية|حشرة|
-|CELLSNET-47997|يتم إنشاء أعمدة إضافية بعد حفظ الملف في html|حشرة|
-|CELLSNET-48009|الملف تالف بعد حفظ المصنف باستخدام Slicers|حشرة|
-|CELLSNET-48036|لا تتم إضافة عنصر تحكم مقسم الشرائح استنادًا إلى حقل عامل تصفية الصفحة في الجدول المحوري|حشرة|
-|CELLSNET-48044| يظهر الاستثناء عند قراءة ملف mhtml معين|حشرة|
-|CELLSNET-47118|تم استرداد قيمة غير صحيحة "TRUE" من Cell بدلاً من القيمة "FALSE"|حشرة|
-|CELLSNET-48042|قيم الخلايا المنسقة التي تم استردادها خاطئة في ورقة عمل Excel|حشرة|
-|CELLSNET-48031|يظهر "خطأ في الشكل إلى صورة" عند تحويل ملف xlsx إلى html|حشرة|
-|CELLSNET-48037|الصورة مشوهة عند الحفظ في PDF|حشرة|
-|CELLSNET-47714|يتداخل النص في المحور الرأسي مع المحور الأفقي على الرسم البياني عند التحويل إلى EMF|حشرة|
-|CELLSNET-47856|مشكلة تحويل XLSX إلى PDF مع الجداول المحورية|حشرة|
-|CELLSNET-47986|مخطط إلى صورة / PDF - ناتج خاطئ بنوع مخطط الشلال|حشرة|
-|CELLSNET-48010|استثناء عند تحميل ملفات Excel 2010 XLSX|حشرة|
-|CELLSNET-48020|يتم حذف عناصر تحكم النموذج بعد تحميل وحفظ Excel 95 عبر Aspose.Cells|حشرة|
-|CELLSNET-48033|ملف Excel تالف بعد التحميل والحفظ|حشرة|
+|CELLSNET-44224|لا يتم تقديم علامة WordArt المائية في تنسيق ملف الإخراج PDF|خلل برمجي|
+|CELLSNET-47887|وضع النص داخل الشكل في غير محله|خلل برمجي|
+|CELLSNET-47920|تم فقدان بعض المحتويات في HTML لتحويل Excel|خلل برمجي|
+|CELLSNET-47981|نتيجة تصدير النطاق مع الخلايا المدمجة إلى html غير صحيحة|خلل برمجي|
+|CELLSNET-47985|عدد أقل من الصفوف عند التحويل إلى html|خلل برمجي|
+|CELLSNET-47987|انقل الحقل المحوري إلى قسم الصفحة أو إلى المرشحات المحورية|خلل برمجي|
+|CELLSNET-47997|يتم إنشاء أعمدة إضافية بعد حفظ الملف في html|خلل برمجي|
+|CELLSNET-48009|الملف تالف بعد حفظ المصنف باستخدام Slicers|خلل برمجي|
+|CELLSNET-48036|لا تتم إضافة عنصر تحكم مقسم الشرائح استنادًا إلى حقل عامل تصفية الصفحة في الجدول المحوري|خلل برمجي|
+|CELLSNET-48044| يظهر الاستثناء عند قراءة ملف mhtml معين|خلل برمجي|
+|CELLSNET-47118|تم استرداد قيمة غير صحيحة "TRUE" من Cell بدلاً من القيمة "FALSE"|خلل برمجي|
+|CELLSNET-48042|قيم الخلايا المنسقة التي تم استردادها خاطئة في ورقة عمل Excel|خلل برمجي|
+|CELLSNET-48031|يظهر "خطأ في الشكل إلى صورة" عند تحويل ملف xlsx إلى html|خلل برمجي|
+|CELLSNET-48037|الصورة مشوهة عند الحفظ بالرقم PDF|خلل برمجي|
+|CELLSNET-47714|يتداخل النص في المحور الرأسي مع المحور الأفقي على الرسم البياني عند التحويل إلى EMF|خلل برمجي|
+|CELLSNET-47856|XLSX إلى PDF مشكلة التحويل مع الجداول المحورية|خلل برمجي|
+|CELLSNET-47986|رسم بياني للصورة / PDF - إخراج خاطئ بنوع مخطط الشلال|خلل برمجي|
+|CELLSNET-48010|استثناء عند تحميل ملفات Excel 2010 XLSX|خلل برمجي|
+|CELLSNET-48020|يتم حذف عناصر تحكم النموذج بعد تحميل وحفظ Excel 95 عبر Aspose.Cells|خلل برمجي|
+|CELLSNET-48033|ملف Excel تالف بعد التحميل والحفظ|خلل برمجي|
 |CELLSNET-47957| يظهر "خطأ في الشكل إلى صورة" عند تحويل ملف Excel إلى تنسيق ملف PDF|استثناء|
 |CELLSNET-48027|استثناء معلمة غير صالح عند تحويل الشكل إلى صورة|استثناء|
 |CELLSNET-48029|يطرح "خطأ في الشكل على الصورة"|استثناء|
@@ -52,11 +52,11 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-48034|حجم الخط غير صالح في ملف Mht.|استثناء|
 |CELLSNET-47977|استثناء عند تحليل الصيغة "[96] ورقة التكلفة"! $ D $ 6|استثناء|
 |CELLSNET-47979|استثناء مرجع الكائن في أسلوب الحفظ|استثناء|
-|CELLSNET-48040|يزيد الاستثناء أثناء تحويل XLSB إلى XLSX|استثناء|
+|CELLSNET-48040|يتم رفع الاستثناء أثناء تحويل XLSB إلى XLSX|استثناء|
 |CELLSNET-47980|حدث خطأ أثناء حفظ ملف Excel بحلول Aspose.Cells|استثناء|
 |CELLSNET-48001|استثناء فهرس الصف غير صالح عند استدعاء GetPrintingPageBreaks ()|استثناء|
 |CELLSNET-48022|غير متوقع Border.LineType للخلية|استثناء|
-|CELLSNET-48032|استثناء عند فتح ملف ODS|استثناء|
+|CELLSNET-48032|استثناء عند فتح ملف الوثيقة ODS|استثناء|
 |
 
 
@@ -143,22 +143,22 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
 استخدم DynamicFilterType.Feburay enum بدلاً من ذلك.
 
-### **Obsoletes FileFormatType.BMP تعداد ويضيف FileFormatType.Bmp enum.**
+### **تقادم FileFormatType.BMP enum ويضيف FileFormatType.Bmp enum.**
 
  
 استخدم FileFormatType.Bmp enum بدلاً من ذلك.
 
-### **تقادم FileFormatType.CSV تعداد وإضافة FileFormatType.Csv enum.**
+### **تقادم FileFormatType.CSV enum ويضيف FileFormatType.Csv enum.**
 
  
  استخدم FileFormatType.Csv enum بدلاً من ذلك.
 
-### **تقادم FileFormatType.TSV تعداد وإضافة FileFormatType.Tsv enum.**
+### **تقادم FileFormatType.TSV enum وإضافة تعداد FileFormatType.Tsv.**
 
  
  استخدم تعداد FileFormatType.Tsv بدلاً من ذلك.
 
-### **Obsoletes FileFormatType.FODS تعداد وإضافة FileFormatType.Fods enum.**
+### **تقادم FileFormatType.FODS enum وإضافة FileFormatType.Fods enum.**
 
  استخدم FileFormatType.Fods enum بدلاً من ذلك.
 
@@ -182,7 +182,7 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
  استخدم FileFormatType.Odp enum بدلاً من ذلك.
 
-### **تقادم FileFormatType.ODS تعداد وإضافة FileFormatType.Ods enum.**
+### **تقادم FileFormatType.ODS enum وإضافة FileFormatType.Ods enum.**
 
  
  استخدم FileFormatType.Ods enum بدلاً من ذلك.
@@ -208,7 +208,7 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  استخدم FileFormatType.Ott enum بدلاً من ذلك.
 
 
-### **تقادم FileFormatType.SVG enum ويضيف FileFormatType.Svg enum.**
+### **تقادم FileFormatType.SVG enum وإضافة FileFormatType.Svg enum.**
 
  
  استخدم FileFormatType.Svg enum بدلاً من ذلك.
@@ -218,7 +218,7 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
  استخدم FileFormatType.Sxc enum بدلاً من ذلك.
 
-### **Obsoletes FileFormatType.TIFF enum ويضيف FileFormatType.Tiff enum.**
+### **تقادم FileFormatType.TIFF enum ويضيف FileFormatType.Tiff enum.**
 
  
  استخدم FileFormatType.Tiff enum بدلاً من ذلك.
@@ -239,7 +239,7 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
  استخدم FileFormatType.Xml enum بدلاً من ذلك.
 
-### **يتخلى عن تعداد FileFormatType.XPS ويضيف تعداد FileFormatType.Xps.**
+### **تقادم FileFormatType.XPS enum وإضافة تعداد FileFormatType.Xps.**
 
  
  استخدم FileFormatType.Xps enum بدلاً من ذلك.
@@ -249,30 +249,30 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
  استخدم FileFormatType.SpreadsheetML enum بدلاً من ذلك.
 
-### **يتخلى عن تعداد SaveFormat.XPS ويضيف تعداد SaveFormat.Xps.**
+### **تقادم SaveFormat.XPS enum وإضافة SaveFormat.Xps enum.**
 
  
  استخدم SaveFormat.Xps enum بدلاً من ذلك.
 
-### **Obsoletes SaveFormat.TSV enum ويضيف تعداد SaveFormat.Tsv.**
+### **تقادم SaveFormat.TSV تعداد وإضافة SaveFormat.Tsv enum.**
 
  استخدم SaveFormat.Tsv enum بدلاً من ذلك.
 
-### **Obsoletes SaveFormat.TIFF enum ويضيف SaveFormat.Tiff enum.**
+### **تقادم SaveFormat.TIFF enum وإضافة SaveFormat.Tiff enum.**
 
  
 استخدم SaveFormat.Tiff تعداد بدلاً من ذلك.
 
-### **يتخلى عن تعداد SaveFormat.SXC ويضيف تعداد SaveFormat.Sxc.**
+### **تقادم SaveFormat.SXC enum وإضافة SaveFormat.Sxc enum.**
 
 استخدم SaveFormat.Sxc enum بدلاً من ذلك.
 
-### **Obsoletes SaveFormat.SVG enum ويضيف SaveFormat.Svg enum.**
+### **تقادم SaveFormat.SVG enum وإضافة SaveFormat.Svg enum.**
 
  
 استخدم SaveFormat.Svg enum بدلاً من ذلك.
 
-### **Obsoletes SaveFormat.ODS enum ويضيف تعداد SaveFormat.Ods.**
+### **تقادم SaveFormat.ODS تعداد وإضافة SaveFormat.Ods enum.**
 
  
  استخدم SaveFormat.Ods enum بدلاً من ذلك.
@@ -282,31 +282,31 @@ url: /ar/net/aspose-cells-for-net-21-5-release-notes/
  
  استخدم SaveFormat.Fods enum بدلاً من ذلك.
 
-### **Obsoletes SaveFormat.CSV enum ويضيف SaveFormat.Csv enum.**
+### **تقادم SaveFormat.CSV enum وإضافة SaveFormat.Csv enum.**
 
  
  استخدم SaveFormat.Csv enum بدلاً من ذلك.
 
-### **Obsoletes LoadFormat.CSV enum ويضيف LoadFormat.Csv enum.**
+### **تقادم LoadFormat.CSV enum وإضافة LoadFormat.Csv enum.**
 
  
  استخدم LoadFormat.Csv enum بدلاً من ذلك.
 
-### **Obsoletes LoadFormat.TSV enum ويضيف LoadFormat.Tsv enum.**
+### **تقادم LoadFormat.TSV enum وإضافة LoadFormat.Tsv enum.**
 
  
-استخدم LoadFormat.Tsv enum بدلاً من ذلك.
+ استخدم LoadFormat.Tsv enum بدلاً من ذلك.
 
-### **Obsoletes LoadFormat.ODS enum ويضيف LoadFormat.Ods enum.**
+### **تقادم LoadFormat.ODS enum وإضافة LoadFormat.Ods enum.**
 
  استخدم LoadFormat.Ods enum بدلاً من ذلك.
 
-### **Obsoletes LoadFormat.SXC enum ويضيف LoadFormat.Sxc enum.**
+### **تقادم LoadFormat.SXC enum وإضافة LoadFormat.Sxc enum.**
 
  
  استخدم LoadFormat.Sxc enum بدلاً من ذلك.
 
-### **Obsoletes LoadFormat.FODS enum ويضيف LoadFormat.Fods enum.**
+### **تقادم LoadFormat.FODS enum وإضافة LoadFormat.Fods enum.**
 
  
  استخدم LoadFormat.Fods enum بدلاً من ذلك.

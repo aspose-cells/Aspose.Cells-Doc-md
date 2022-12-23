@@ -15,12 +15,12 @@ url: /zh/java/aspose-cells-for-java-21-3-release-notes/
 |CELLSJAVA-43400|支持 UNIQUE() 函数|
 |CELLSJAVA-42863|获取图表子标题|
 |CELLSJAVA-43401|支持所有JDK统一日本纪元格式化结果|
-|CELLSJAVA-43398|在 ODS 到 HTML 的转换中，条件格式未正确呈现|
+|CELLSJAVA-43398|条件格式在 ODS 到 HTML 的转换中未正确呈现|
 |CELLSJAVA-43388|复制工作簿后输出文件已损坏|
 |CELLSJAVA-43406|将 HTML 转换为 Excel 时出现问题|
 |CELLSJAVA-43399|CalculateFormula() 创建大量错误类型值 #VALUE|
 |CELLSJAVA-43362|打印图表时标签的百分比问题|
-|CELLSJAVA-43384|渲染为 PDF 和打印图表时某些标签的百分比问题|
+|CELLSJAVA-43384|渲染到 PDF 和打印图表时某些标签的百分比问题|
 |CELLSJAVA-43402|从 Excel 文件生成精确的图表图像|
 |CELLSJAVA-43408|图表顶部被切断，斜线上升|
 |CELLSJAVA-43412|xlsx 到 html 转换中的 CellsException|

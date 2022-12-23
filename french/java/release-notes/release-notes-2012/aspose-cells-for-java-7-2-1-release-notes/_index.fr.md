@@ -22,15 +22,15 @@ Nous sommes
 - Cells.findString()/find() prend en charge la recherche de RegExand dans une plage spécifique
 - Prise en charge de Picture.setTitle()/getTitle()
 - Enregistrer les graphiques MS Excel dans le fichier ODS
-- Rendre le fichier XLS créé Aspose.Cells compatible avec POI
+- Rendre le fichier Aspose.Cells créé XLS compatible avec POI
 
- Exceptions
+ Des exceptions
 
 - La lecture du fichier XLSX produit : "java.lang.ClassCastException:org.dom4j.Namespace"
 
  Insectes
 
 - Le fichier XLSX enregistré donne l'erreur : "Datamay has been lost"
-- Le numéro formaté était incorrect dans le PDF généré (des milliers de caractères de groupe ont été perdus)
+- Le numéro formaté était incorrect dans le PDF généré (mille caractères de groupe ont été perdus)
 - Le graphique à barres n'apparaissait pas dans le PDF généré pour la version JDK6
 - Les références ne sont pas mises à jour lors de l'extension d'une plage

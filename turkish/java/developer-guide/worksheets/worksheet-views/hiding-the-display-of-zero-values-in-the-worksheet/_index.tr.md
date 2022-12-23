@@ -12,13 +12,13 @@ Bazen bir e-tabloda sıfır değerleri gizlemeniz gerekir. Kişisel tercih veya 
 
 Microsoft Excel'de (örneğin Microsoft Excel 2003) bir çalışma sayfasında sıfır değerleri gizlemek için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler** ve ardından**görüş** sekme.
+1.  itibaren**Araçlar** menü, seç**Seçenekler** ve ardından**görüş** sekme.
 1.  seçimini kaldır**Sıfır değerler** seçenek.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
    **Microsoft Excel'de sıfır değerleri gizleme** 
 
-![yapılacaklar:resim_alternatif_Metin](hiding-the-display-of-zero-values-in-the-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](hiding-the-display-of-zero-values-in-the-worksheet_1.png)
 
 Lütfen Aspose.Cells kullanarak sıfırların nasıl gizleneceğini gösteren aşağıdaki örnek koda bakın.
 

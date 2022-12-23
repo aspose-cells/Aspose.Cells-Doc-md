@@ -22,6 +22,6 @@ Aspose.Cells поддерживает ту же функцию.
 ## **Настройка разных верхних и нижних колонтитулов с помощью Aspose.Cells**
 
 Aspose.Cells ведет себя так же, как Excel.
-1.  Устанавливает флаги[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) а также[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
+1.  Устанавливает флаги[PageSetup.IsHFDiffOddEven](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/ishfdiffoddeven/) и[PageSetup.IsHFDiffFirst](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/IsHFDiffFirst/) 
 1. Введите разные верхние и нижние колонтитулы.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DiffHeaderFooter.cs" >}}

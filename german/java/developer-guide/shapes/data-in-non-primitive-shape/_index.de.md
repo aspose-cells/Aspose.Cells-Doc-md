@@ -10,7 +10,7 @@ Manchmal müssen Sie auf Daten aus einem Shape zugreifen, das nicht integriert i
 
 ## **Eine nicht primitive Form**
 
- In Aspose.Cells wird nicht primitiven Formen der Typ zugewiesen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Sie können ihren Typ mit überprüfen[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)Methode.
+In Aspose.Cells wird nicht primitiven Formen der Typ zugewiesen[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Sie können ihren Typ mit überprüfen[**Shape.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)Methode.
 
  Greifen Sie mit dem auf die Formdaten zu[**Shape.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)Methode. Es gibt alle verbundenen Pfade zurück, die die nicht primitive Form umfassen. Diese Pfade sind vom Typ ShapePath, der eine Liste aller Segmente enthält, die wiederum die Punkte in jedem Segment enthalten.
 

@@ -21,7 +21,7 @@ keywords: formula function calculate
 يسمح لك محرك حساب الصيغة Aspose.Cells 'بضبط وقراءة وحساب نتائج الصيغ والوظائف التالية.
 
 ###### **أ**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |عضلات المعدة|
 |قبول|
@@ -47,7 +47,7 @@ keywords: formula function calculate
 |المتوسطات|
 
 ###### **ب**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |بيسلي|
 |بسيلج|
@@ -69,7 +69,7 @@ keywords: formula function calculate
 |بيتكسور|
 
 ###### ** ج **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |السقف|
 |السقف|
@@ -83,10 +83,10 @@ keywords: formula function calculate
 |CHISQ.DIST.RT|
 |CHISQ.INV.RT|
 |CHISQ.TEST|
-|يختار|
+|أختر|
 |ينظف|
 |الشفرة|
-|عمودي|
+|عمود|
 |الأعمدة|
 |الجمع|
 |مركب|
@@ -117,7 +117,7 @@ keywords: formula function calculate
 |كومبرينك|
 
 ###### **د**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |تاريخ|
 |DATEDIF|
@@ -152,7 +152,7 @@ keywords: formula function calculate
 |DVARP|
 
 ###### ** ه **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |EDATE|
 |تأثير|
@@ -160,13 +160,13 @@ keywords: formula function calculate
 |ERF|
 |ERFC|
 |نوع الخطأ|
-|حتى|
+|حتى في|
 |بالضبط|
 |EXP|
 |EXPONDIST|
 
 ###### **F**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |حقيقة|
 |حقيقة|
@@ -182,7 +182,7 @@ keywords: formula function calculate
 |فيشر|
 |فيشيرينف|
 |مُثَبَّت|
-|أرضية|
+|الأرض|
 |FLOOR.MATH|
 |تنبؤ بالمناخ|
 |FORECAST.LINEAR|
@@ -192,7 +192,7 @@ keywords: formula function calculate
 |FVSCHEDULE|
 
 ###### ** ز **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |جاما|
 |GAMMADIST|
@@ -206,7 +206,7 @@ keywords: formula function calculate
 |نمو|
 
 ###### ** ح **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |حرمان|
 |HEX2BIN|
@@ -219,7 +219,7 @@ keywords: formula function calculate
 |طبيب مختص|
 
 ###### **أنا**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |إذا|
 |IFERROR|
@@ -264,12 +264,12 @@ keywords: formula function calculate
 |ISPMT|
 
 ###### **ك**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |كورت|
 
 ###### ** لام **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |كبير|
 |LCM|
@@ -290,9 +290,9 @@ keywords: formula function calculate
 |أدنى|
 
 ###### ** م **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
-|مباراة|
+|تطابق|
 |الأعلى|
 |ماكسا|
 |ماكسيفس|
@@ -317,7 +317,7 @@ keywords: formula function calculate
 |متعددة|
 
 ###### **ن**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |ن|
 |غير متوفر|
@@ -335,13 +335,13 @@ keywords: formula function calculate
 |NORM.SINV|
 |نورمسينف|
 |ليس|
-|حاليا|
+|الآن|
 |NPER|
 |صافي القيمة الحالية|
 |NUMBERVALUE|
 
 ###### ** يا **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |OCT2BIN|
 |OCT2DEC|
@@ -355,7 +355,7 @@ keywords: formula function calculate
 |أو|
 
 ###### ** ف **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |بيرسون|
 |PERCENTILE.EXC|
@@ -375,12 +375,12 @@ keywords: formula function calculate
 |PRICEDISC|
 |PRICEMAT|
 |اختبار|
-|منتج|
-|مناسب|
+|المنتج|
+|لائق|
 |PV|
 
 ###### ** س **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |الربع|
 |QUARTILE.EXC|
@@ -388,7 +388,7 @@ keywords: formula function calculate
 |حاصل القسمة|
 
 ###### ** ص **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |راديان|
 |راند|
@@ -398,14 +398,14 @@ keywords: formula function calculate
 |الترتيب|
 |مرتبة|
 |معدل|
-|تلقى|
+|استلمو|
 |يحل محل|
 |استبدال|
 |REPT|
 |حقا|
 |الحق ب|
 |رومان|
-|دائري|
+|مستدير|
 |المستدير لأسفل|
 |جمع الشمل|
 |صف|
@@ -413,7 +413,7 @@ keywords: formula function calculate
 |RSQ|
 
 ###### **س**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |بحث|
 |بحث|
@@ -441,7 +441,7 @@ keywords: formula function calculate
 |STDEVP|
 |STDEVPA|
 |ستايكس|
-|بديل|
+|استبدل|
 |المجموع الفرعي|
 |مجموع|
 |سوميف|
@@ -455,7 +455,7 @@ keywords: formula function calculate
 |SYD|
 
 ###### ** تي **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |تي|
 |تان|
@@ -468,7 +468,7 @@ keywords: formula function calculate
 |TDIST|
 |نص|
 |TEXTJOIN|
-|زمن|
+|الوقت|
 |الوقت ثمين|
 |T.INV.2T|
 |TINV|
@@ -481,10 +481,10 @@ keywords: formula function calculate
 |TRUNC|
 |TEST|
 |TTEST|
-|يكتب|
+|اكتب|
 
 ###### ** يو **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |يونيكار|
 |يونيكود|
@@ -492,7 +492,7 @@ keywords: formula function calculate
 |أعلى|
 
 ###### **الخامس**
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |القيمة|
 |VAR|
@@ -505,7 +505,7 @@ keywords: formula function calculate
 |VLOOKUP|
 
 ###### ** W **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |WEEKDAY|
 |WEEKNUM|
@@ -515,14 +515,14 @@ keywords: formula function calculate
 |WORKDAY.INTL|
 
 ###### ** X **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |XIRR|
 |XLOOKUP|
 |XNPV|
 
 ###### ** نعم **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |عام|
 |YEARFRAC|
@@ -531,7 +531,7 @@ keywords: formula function calculate
 |YIELDMAT|
 
 ###### ** Z **
-|**دور**|**ملخص**|
+|**وظيفة**|**ملخص**|
 |:- |:- |
 |Z.TEST|
 |ZTEST|

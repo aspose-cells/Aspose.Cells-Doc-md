@@ -7,21 +7,21 @@ url: /zh/java/aspose-cells-for-java-16-12-0-release-notes/
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
 |CELLSJAVA-42043 |指定图表点的位置|新功能|
-|CELLSJAVA-42073 |XLSM 在重新保存操作后损坏|漏洞|
+|CELLSJAVA-42073 |XLSM 重新保存操作后损坏|漏洞|
 |CELLSJAVA-42060 |将电子表格转换为 HTML 时 DataBar 宽度不正确|漏洞|
 |CELLSJAVA-42016 |橙色行不包括在数据透视表的 SUM 中|漏洞|
-|CELLSJAVA-42006 |图像在输出 HTML 中被截断|漏洞|
+|CELLSJAVA-42006 |图像在输出中被截断 HTML|漏洞|
 |CELLSJAVA-42067 |将电子表格转换为 HTML 时缺少图表|漏洞|
 |CELLSJAVA-41983 |将 XLSX 转换为 HTML 时行高不正确|漏洞|
 |CELLSJAVA-42089 |DCOUNTA Excel 公式未被 Aspose.Cells 公式计算引擎正确评估|漏洞|
 |CELLSJAVA-42081 |将 XLSM 文件另存为 PDF 时 DataBar 条件格式出现问题|漏洞|
-|CELLSJAVA-42100 |某些字符之间的空格在输出 PDF 文件的一些地方被删除|漏洞|
+|CELLSJAVA-42100 |某些字符之间的空格在输出 PDF 文件中的一些地方被删除|漏洞|
 |CELLSJAVA-42078 |输出 PDF 文件中的图表标签未显示/呈现相同（根据原始 Excel 文件）|漏洞|
-|CELLSJAVA-42077 |输出 PDF 中 TextBox 的字体属性问题|漏洞|
+|CELLSJAVA-42077 |输出中 TextBox 的字体属性问题 PDF|漏洞|
 |CELLSJAVA-42064 |将工作表转换为 EMF 时，文本框的内容颜色和大小发生变化|漏洞|
 |CELLSJAVA-42063 |将电子表格转换为 PDF 时，文本框的内容颜色和大小发生变化|漏洞|
-|CELLSJAVA-42059 |将 Excel 文件转换为 PDF 文件格式时，希伯来语单词无法正确呈现|漏洞|
-|CELLSJAVA-42053 |将电子表格呈现为 PDF 时，TextBox 中的内容被剪裁|漏洞|
+|CELLSJAVA-42059 |将 Excel 文件转换为 PDF 文件格式时，希伯来语单词未正确呈现|漏洞|
+|CELLSJAVA-42053 |在将电子表格呈现为 PDF 时，TextBox 中的内容被剪裁|漏洞|
 |CELLSJAVA-42052 |将电子表格呈现为 PDF 时箭头线错位|漏洞|
 |CELLSJAVA-42049 |呈现的 HTML 文件中图表的 SVG 图像出现问题|漏洞|
 |CELLSJAVA-42036 |使用 Chart.toPdf() 时，字体替换似乎不会对图表图例生效|漏洞|
@@ -38,7 +38,7 @@ url: /zh/java/aspose-cells-for-java-16-12-0-release-notes/
 |CELLSJAVA-42058 |当 Linux 中不存在所需字体时，Worksheet.autoFitColumns 方法似乎没有生效|漏洞|
 |CELLSJAVA-42054 |将电子表格呈现为 PDF 时，意外的背景颜色应用于文本框|漏洞|
 |CELLSJAVA-42072 |java.lang.ArrayIndexOutOfBoundsException 在 Workbook.calculateFormula(false)|例外|
-|CELLSJAVA-42066 |将 XLS 转换为 PDF 时 Workbook.save 出现 CellsException|例外|
+|CELLSJAVA-42066 |将 XLS 转换为 PDF 时，Workbook.save 出现 CellsException|例外|
 |CELLSJAVA-42101 |打开 Excel 文件时出现无效公式异常|例外|
 |CELLSJAVA-42080 |保存工作簿时出现异常|例外|
 ## **公共 API 和向后不兼容的更改**

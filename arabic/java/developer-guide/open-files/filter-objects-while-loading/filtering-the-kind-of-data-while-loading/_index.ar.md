@@ -16,7 +16,7 @@ url: /ar/java/filtering-the-kind-of-data-while-loading-the-workbook-from-templat
 
 ![ما يجب القيام به: image_بديل_نص](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-تُظهر لقطة الشاشة التالية ملف[إخراج PDF](5472554.pdf) والتي يمكنك تنزيلها من الرابط المحدد. هنا يمكنك أن ترى ، البيانات باللون الأحمر والخلفية الصفراء غير موجودة ولكن جميع الأشكال موجودة.
+تُظهر لقطة الشاشة التالية ملف[الإخراج PDF](5472554.pdf) والتي يمكنك تنزيلها من الرابط المحدد. هنا يمكنك أن ترى ، البيانات باللون الأحمر والخلفية الصفراء غير موجودة ولكن جميع الأشكال موجودة.
 
 ![ما يجب القيام به: image_بديل_نص](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

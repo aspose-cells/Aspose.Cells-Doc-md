@@ -24,7 +24,7 @@ url: /de/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41401 – Finden ausgeblendeter Zeilen – Add-Ins-Formel festlegen
 
- 41382 – In PDF exportieren – Formatierung ist nicht korrekt
+ 41382 – Export nach PDF – Formatierung ist nicht korrekt
 
  41431 - Ausnahme: „Index war außerhalb des gültigen Bereichs“
 
@@ -36,7 +36,7 @@ url: /de/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 – Problem beim Aktualisieren der PivotTable
 
- 41411 – XLSX in HTML speichern – Formatierungsfehler
+41411 - XLSX bis HTML speichern - Formatierungsfehler
 
  41406 – DATEDIF-Formel/Funktionsproblem
 
@@ -48,7 +48,7 @@ url: /de/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41427 – Excel beendet das Laden nicht – Excel 2013-Datei
 
-41400 – Arbeitsblattwert/Eingabe ändert sich beim Speichern
+ 41400 – Arbeitsblattwert/Eingabe ändert sich beim Speichern
 
 2 
 

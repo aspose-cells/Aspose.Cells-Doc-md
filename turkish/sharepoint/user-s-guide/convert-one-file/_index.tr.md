@@ -10,25 +10,25 @@ url: /tr/sharepoint/convert-one-file/
 
 {{% /alert %}} 
 ### **Bireysel Dosyaları Dönüştürme**
-Bir belge kitaplığındaki belirli bir belgeyi dönüştürmek için:
+ Bir belge kitaplığındaki belirli bir belgeyi dönüştürmek için:
 
 1.  Seçme**Aspose.Cells.SharePoint ile dönüştürün** belgenin Düzenleme Kontrol Bloğunda (ECB).
 
    **Belgenin ECB'sinde “Aspose.Cells aracılığıyla dönüştür” öğesinin seçilmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-one-file_1.png)
+![yapılacaklar:resim_alternatif_metin](convert-one-file_1.png)
 
 
 
 Dönüştürme ayarları ekranı görüntülenir. Burada, dönüştürmede ince ayar yapabilirsiniz:
 
 1.  hedef dosya biçimini seçin.**E dönüşmek** liste.
-1.  Çıktı dosyasının adını şuraya girin:**Hedef dosyası** alan.
+1.  Çıktı dosyasının adını şuraya girin:**Hedef dosyası** tarla.
  Varsayılan olarak, Aspose.Cells for SharePoint bu alanı kaynak dosyanın adıyla önceden doldurur.
  Uzantı, seçilen formata göre otomatik olarak eklenir.
 1.  Tıklayarak dönüştürmeyi başlatın**Dönüştürmek**.
- (Veya üzerine tıklayarak ayarlarınızı kaldırarak kitaplığa geri dönün.**İptal**.)
+(Veya üzerine tıklayarak ayarlarınızı kaldırarak kitaplığa geri dönün.**İptal etmek**.)
 
 **Bir dosya dönüştürme için Dönüştürme Ayarları ekranı** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-one-file_2.png)
+![yapılacaklar:resim_alternatif_metin](convert-one-file_2.png)

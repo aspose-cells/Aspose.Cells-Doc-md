@@ -39,10 +39,10 @@ url: /ja/net/aspose-cells-for-net-7-3-1-release-notes/
 - カスタム マーカーの作成方法
 - サブチャートにアクセスできません
 
--HTML 出力のオートシェイプ
+-HTML 出力の AutoShapes
 
 - DataBars - ピボットテーブルの条件付き書式
-- MS Excel 2007 形式で Web クエリが失われる
+- MS Excel 2007 形式の Web クエリが失われる
 - 外部データ範囲とそのプロパティを管理する
 - MS Excel の XLSB ファイル サイズの問題
 
@@ -54,7 +54,7 @@ url: /ja/net/aspose-cells-for-net-7-3-1-release-notes/
 - Aspose.Cellsで解決策を探しています
 - 例外: 「インデックスが範囲外でした」
 - Loadingworkbook スロー:「入力文字列の形式が正しくありませんでした」
-- 形状から画像への Excel から PDF への機能のエラー
+- PDF 機能への Excel のエラーをイメージする図形
 
 
 
@@ -69,7 +69,7 @@ url: /ja/net/aspose-cells-for-net-7-3-1-release-notes/
 
 -保存されたタブ区切りファイルの引用符
 
-- 一部の入力では CSV の読み取り/書き込みが「往復」しない
+- CSV 読み取り/書き込みが一部の入力で「往復」しない
 
 -StringValue が間違った値を返す
 
@@ -89,14 +89,14 @@ url: /ja/net/aspose-cells-for-net-7-3-1-release-notes/
 
 - HTML として保存すると、出力に非表示の列が表示されます
 - 保存するとフォーマットがクリアされます
-- HTML 出力のグラフィック
+- HTML 出力のグラフィックス
 - HTML フォーマットの問題 (余分な境界線について)
 
  -SheetRender の XPS とカスタム数値形式の問題
 
--PDF として保存すると、書式が保持されません
+-PDF として保存すると、フォーマットが保持されません
 
-- Excel および PDF 出力での XLSX フォーマットの問題
+- Excel での XLSX の書式設定と PDF の出力に関する問題
 - PDF にレンダリングされた Excel のピボット テーブルが正しくない
 - PDF のカスタム フォント
 - Cell の垂直配置のレンダリングの問題

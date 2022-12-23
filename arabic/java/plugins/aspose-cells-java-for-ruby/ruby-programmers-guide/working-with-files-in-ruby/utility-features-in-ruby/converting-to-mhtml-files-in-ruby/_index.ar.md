@@ -1,5 +1,5 @@
 ﻿---
-title: التحويل إلى ملفات MHTML في روبي
+title: التحويل إلى MHTML ملفات في روبي
 type: docs
 weight: 50
 url: /ar/java/converting-to-mhtml-files-in-ruby/
@@ -28,7 +28,7 @@ url: /ar/java/converting-to-mhtml-files-in-ruby/
 end
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 تحميل**التحويل إلى ملفات MHTML (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

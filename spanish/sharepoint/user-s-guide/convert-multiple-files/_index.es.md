@@ -25,7 +25,7 @@ url: /es/sharepoint/convert-multiple-files/
 
 ![todo:imagen_alternativa_texto](convert-multiple-files_2.png)
 ### **Uso del botón de cinta del servidor en SharePoint 2010**
- En SharePoint 2010, el botón de la cinta del servidor está disponible en lugar del menú de acción personalizado que se usa con SharePoint 2007/WSS 3.
+En SharePoint 2010, el botón de la cinta del servidor está disponible en lugar del menú de acción personalizado que se usa con SharePoint 2007/WSS 3.
 
 **Conversión de documentos con Aspose.Cells for SharePoint en SharePoint 2010** 
 

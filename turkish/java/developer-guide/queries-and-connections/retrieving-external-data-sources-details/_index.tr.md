@@ -18,7 +18,7 @@ Kod çalıştığında, bağlantı detayları konsola yazdırılır.
 
 **SQL bağlantı bilgileri** 
 
-![yapılacaklar:resim_alternatif_Metin](retrieving-external-data-sources-details_1.png)
+![yapılacaklar:resim_alternatif_metin](retrieving-external-data-sources-details_1.png)
 
 
 

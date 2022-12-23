@@ -8,7 +8,7 @@ url: /ja/java/opening-files-in-php/
 ### **パスを介して開く**
 ファイルのパスを参照して、Microsoft Excel ファイルを開くだけです。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "ruby" >}}
 
@@ -20,7 +20,7 @@ $workbook1 = new Workbook($dataDir . "Book1.xls");
 ### **ストリームを介して開く**
 開こうとしている Excel ファイルがストリームとして保存されている場合があります。その場合は、Excel ファイルを含む Stream オブジェクトを受け取る Open メソッドのオーバーロード バージョンを使用して、ファイルを開きます。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "ruby" >}}
 

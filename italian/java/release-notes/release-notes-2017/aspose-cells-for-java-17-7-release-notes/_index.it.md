@@ -10,15 +10,15 @@ url: /it/java/aspose-cells-for-java-17-7-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42322|Supporta la funzione Filtro avanzato (MS Excel) per visualizzare i record che soddisfano criteri complessi|Nuova caratteristica|
-|CELLSJAVA-42336|ResultSet importa il valore zero anziché nullo nel file XLSX|Aumento|
+|CELLSJAVA-42336|ResultSet importa zero invece di un valore nullo nel file XLSX|Aumento|
 |CELLSJAVA-42329|Miglioramenti necessari per i filtri di dati e le funzionalità di paging - Aspose.Cells.GridWeb (Java)|Aumento|
 |CELLSJAVA-41616|SaveCustomStyleFile non è presente in GridWeb (Java)|Aumento|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() non dovrebbe essere una funzione statica (globale).|Aumento|
-|CELLSJAVA-42327|Alcune forme sono distorte e modificate nel rendering da Excel a PDF|Insetto|
-|CELLSJAVA-42290|I trattini e gli ndash inseriti nelle caselle di testo nei grafici non vengono visualizzati correttamente nel PDF del grafico|Insetto|
+|CELLSJAVA-42327|Alcune forme sono distorte e modificate in Excel nel rendering PDF|Insetto|
+|CELLSJAVA-42290|Mdashes e ndash inseriti in TextBox nei grafici non vengono visualizzati correttamente nel grafico PDF|Insetto|
 |CELLSJAVA-42338|Risultati errati quando si utilizzano le formule SOMMA.PIÙ.SE|Insetto|
 |CELLSJAVA-42337|Aspose.Cells non è in grado di calcolare il valore della cella B4 del foglio di lavoro Calcoli|Insetto|
 |CELLSJAVA-42330|Strano risultato durante la conversione da Excel a PDF o PDF/A utilizzando i thread|Insetto|
@@ -28,8 +28,8 @@ url: /it/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42340|Eccezione nel thread "Thread-2" java.lang.OutOfMemoryError: limite di overhead GC superato|Eccezione|
 |CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si utilizza OutputFileStream|Eccezione|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: password non valida all'apertura del file Excel|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge i metodi GlobalizationSettings.GetBooleanValueString()/GetErrorValueString()**
 Ottiene il valore della stringa di visualizzazione personalizzata per il valore booleano e di errore della cella durante la formattazione/il rendering.
 ### **Rimuove il metodo ValidationCollection.Add() obsoleto**
@@ -65,10 +65,10 @@ Rende il controllo GridWeb compatibile con le dimensioni correnti della finestra
 ### **Esempi di utilizzo**
 Si prega di controllare l'elenco degli argomenti della guida aggiunti nei documenti Wiki Aspose.Cells:
 
-- [Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells](/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Leggi Numbers Foglio di calcolo Sviluppato da Apple Inc. utilizzando Aspose.Cells](/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Impostare la proprietà DefaultFont di PdfSaveOptions e ImageOrPrintOptions in modo che abbia la priorità](/cells/it/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
-- [Importa i dati dall'oggetto ResultSet del database di Microsoft Access nel foglio di lavoro](/cells/it/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Importa dati dall'oggetto ResultSet del database di accesso Microsoft al foglio di lavoro](/cells/it/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementa errori e valore booleano in russo o in qualsiasi altra lingua](/cells/it/java/implement-errors-and-boolean-value-in-russian-or-any-other-language/)
 - [Determinare se il formato carta del foglio di lavoro è automatico](/cells/it/java/determine-if-paper-size-of-worksheet-is-automatic/)
 

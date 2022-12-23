@@ -1,5 +1,5 @@
 ﻿---
-title: 新的功能
+title: 新功能
 type: docs
 weight: 40
 url: /zh/reportingservices/new-features/

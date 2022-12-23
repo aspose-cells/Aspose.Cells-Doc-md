@@ -15,10 +15,10 @@ description: Come convertire Excel in Ods (OpenOffice / LibreOffice Calc) o conv
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-ODS-to-Excel.cs" >}}
 
 ## **Converti Excel in Ods (OpenOffice / LibreOffice Calc)**
-Aspose.Cells supporta la conversione di file Excel in file Ods, Sxc e Fods. L'esempio di codice seguente mostra come convertire il file[modello](book1.xlsx) al file Ods, Sxc e Fods.
+ Aspose.Cells supporta la conversione di file Excel in file Ods, Sxc e Fods. L'esempio di codice seguente mostra come convertire il file[modello](book1.xlsx) al file Ods, Sxc e Fods.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 ## **Argomenti avanzati**
-- [Salva file ODS nelle specifiche ODF 1.1 e 1.2](/cells/it/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
+- [Salva il file ODS nelle specifiche ODF 1.1 e 1.2](/cells/it/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
 - [Lavorare con lo sfondo nei file ODS](/cells/it/net/working-with-background-in-ods-files/)

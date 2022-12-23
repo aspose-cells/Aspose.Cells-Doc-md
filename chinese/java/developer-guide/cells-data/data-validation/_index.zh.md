@@ -14,7 +14,7 @@ Microsoft Excel 提供了一些很好的功能来自动筛选或验证工作表�
 ## **数据验证类型和执行**
 Microsoft Excel 支持多种不同类型的数据验证。每种类型用于控制将什么类型的数据输入单元格或单元格范围。下面的代码片段说明了如何验证这一点：
 
-- [数字是整数](/cells/zh/java/data-validation/)，也就是说，它们没有小数部分。
+- [Numbers整](/cells/zh/java/data-validation/)，也就是说，它们没有小数部分。
 - [小数遵循正确的结构](/cells/zh/java/data-validation/).代码示例定义了一系列单元格应该有两个小数位。
 - [值仅限于值列表](/cells/zh/java/data-validation/).列表验证定义可应用于单元格或单元格区域的单独值列表。
 - [日期在特定范围内](/cells/zh/java/data-validation/).
@@ -30,7 +30,7 @@ Microsoft Excel 支持多种不同类型的数据验证。每种类型用于控�
 
    **数据验证设置** 
 
-![待办事项：图像_替代_文本](data-validation_1.png)
+![待办事项：图片_替代_文本](data-validation_1.png)
 ### **使用 Aspose.Cells 进行数据验证**
 数据验证是一项强大的功能，用于验证输入到工作表中的信息。通过数据验证，开发人员可以为用户提供选择列表，将数据条目限制为特定类型或大小等。
 在 Aspose.Cells 中，每个[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)类有一个[验证](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Validations)代表集合的对象[验证](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)对象。要设置验证，请设置一些[验证](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)类的属性：

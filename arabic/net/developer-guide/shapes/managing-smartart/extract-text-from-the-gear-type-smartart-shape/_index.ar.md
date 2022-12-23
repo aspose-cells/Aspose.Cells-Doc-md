@@ -6,7 +6,7 @@ url: /ar/net/extract-text-from-the-gear-type-smartart-shape/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- يمكن Aspose.Cells استخراج نص من نوع Gear Smart Art Shape. للقيام بذلك ، يجب عليك أولاً تحويل Smart Art Shape إلى Group Shape باستخدام ملف[**Shape.GetResultOfSmartArt ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) طريقة. ثم يجب أن تحصل على مجموعة من جميع الأشكال الفردية التي تشكل شكل المجموعة باستخدام[**GroupShape.GetGroupedShapes ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) طريقة. أخيرًا ، يمكنك تكرار كل الأشكال الفردية واحدًا تلو الآخر في حلقة واستخراج نصها باستخدام ملف[**الشكل والنص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)منشأه.
+ يمكن Aspose.Cells استخراج نص من نوع Gear Smart Art Shape. للقيام بذلك ، يجب عليك أولاً تحويل Smart Art Shape إلى Group Shape باستخدام ملف[**Shape.GetResultOfSmartArt ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/getresultofsmartart) طريقة. ثم يجب أن تحصل على مجموعة من جميع الأشكال الفردية التي تشكل شكل المجموعة باستخدام[**GroupShape.GetGroupedShapes ()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/groupshape/methods/getgroupedshapes) طريقة. أخيرًا ، يمكنك تكرار كل الأشكال الفردية واحدًا تلو الآخر في حلقة واستخراج نصها باستخدام ملف[**الشكل والنص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)خاصية.
 
 ## **استخراج النص من نوع العتاد شكل SmartArt**
 

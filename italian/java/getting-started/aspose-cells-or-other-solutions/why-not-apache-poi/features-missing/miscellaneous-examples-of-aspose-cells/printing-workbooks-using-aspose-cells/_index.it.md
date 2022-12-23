@@ -9,7 +9,7 @@ Dopo aver finito di creare il tuo foglio di calcolo, probabilmente vorrai stampa
 
 Foglio di lavoro per la stampa
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ sr.toPrinter("Samsung ML-1520 Series");
 
 Cartella di lavoro di stampa
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

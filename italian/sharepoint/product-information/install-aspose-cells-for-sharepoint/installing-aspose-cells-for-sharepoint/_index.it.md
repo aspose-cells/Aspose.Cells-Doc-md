@@ -15,7 +15,7 @@ L'archivio Aspose.Cells.SharePoint.zip contiene:
 - Aspose.Cells.SharePoint.wsp: file della soluzione SharePoint. Aspose.Cells for SharePoint è confezionato come soluzione SharePoint per facilitare la distribuzione/ritiro e l'attivazione/disattivazione delle funzionalità nella server farm.
 - Aspose_LicenseAgreement.rtf – Contratto di licenza con l'utente finale
 - Aspose.Cells for SharePoint.pdf – Documentazione utente
-- Aspose.Cells for SharePoint Documentation.chm – Documentazione per l'utente con riferimento all'API pubblica
+- Aspose.Cells for SharePoint Documentation.chm – Documentazione utente con riferimento API pubblico
 - setup.exe – Programma di installazione
 - setup.exe.config: file di configurazione dell'installazione
 

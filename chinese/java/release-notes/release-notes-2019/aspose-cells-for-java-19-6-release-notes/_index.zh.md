@@ -17,12 +17,12 @@ url: /zh/java/aspose-cells-for-java-19-6-release-notes/
 |CELLSJAVA-42930|Excel95加载失败|强化|
 |CELLSJAVA-42927|删除列后保存的文件在 Excel 中打开速度很慢|强化|
 |CELLSJAVA-42932|Style.getDisplayStyle 方法的条件格式错误|漏洞|
-|CELLSJAVA-42928|某些行未反映在 XLSX 到 PDF 的转换中|漏洞|
+|CELLSJAVA-42928|XLSX 到 PDF 转换中有些行没有体现|漏洞|
 |CELLSJAVA-42904|标题图像似乎损坏了文件|漏洞|
 |CELLSJAVA-42907|保存工作簿后过滤器丢失|漏洞|
 |CELLSJAVA-42915|将工作表添加到工作簿后更改过滤器|漏洞|
-|CELLSJAVA-42918|转换后文件的图表展平（XLS 到 XLSX 转换）|漏洞|
-|CELLSJAVA-42938|加载 XLSX 文件会暂停应用程序|漏洞|
+|CELLSJAVA-42918|转换后文件的图表扁平化（XLS 到 XLSX 转换）|漏洞|
+|CELLSJAVA-42938|加载 XLSX 文件暂停应用程序|漏洞|
 |CELLSJAVA-42859|从 ODS 文件加载名称的 CellsException|例外|
 |CELLSJAVA-42908|调用 Name.getRefersTo() 时出现异常|例外|
 |CELLSJAVA-42926|加载工作簿时出现 IllegalStateException|例外|

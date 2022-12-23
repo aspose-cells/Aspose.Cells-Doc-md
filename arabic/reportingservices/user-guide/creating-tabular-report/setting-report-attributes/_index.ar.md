@@ -67,4 +67,4 @@ url: /ar/reportingservices/setting-report-attributes/
 
 ![ما يجب القيام به: image_بديل_نص](setting-report-attributes_6.png)
 
-1.  انقر**إنهاء**.
+1.  انقر**ينهي**.

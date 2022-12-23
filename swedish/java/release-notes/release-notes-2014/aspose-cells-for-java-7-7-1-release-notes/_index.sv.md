@@ -10,8 +10,8 @@ url: /sv/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java har uppdaterats till version 7.7.1 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
-Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Aspose.Cells for Java har uppdaterats till version 7.7.1 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
+Genom att använda Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
@@ -43,13 +43,13 @@ Andra förbättringar och förändringar
 Buggar
 
 (CELLSJAVA-40700) - Negativt värde blir positivt efter beräkning
-(CELLSJAVA-40668) - Rubrikinnehållet blir förvrängt i PDF-filen
+(CELLSJAVA-40668) - Rubrikinnehåll blir förvrängt i utdatafilen PDF
 (CELLSJAVA-40695) - XLSX till PDF: Resultatet har inte vänster- och högermarginaler
 (CELLSJAVA-40698) - Problem med pivottabell (Ändra filtret till ett annat värde eller etikett)
 (CELLSJAVA-40671) - Cell.getDisplayStyle() returnerar inte korrekt färg för Top 10 villkorlig formatering
 (CELLSJAVA-40655) - Justering av text i form ändras från mitten till vänster
-(CELLSJAVA-40572) - Bokmärke skapades för det tomma arket trots att själva arket inte fanns i utdata-PDF-filen
-(CELLSJAVA-40548) - Charterhuvud saknas efter att xlsx har sparats till PDF-fil
+(CELLSJAVA-40572) - Bokmärke skapades för det tomma arket trots att själva arket inte fanns i utdata PDF
+(CELLSJAVA-40548) - Charterhuvud saknas efter att xlsx har sparats i PDF-fil
 (CELLSJAVA-40564) - Dataförlust när excel-fil konverteras till pdf
 (CELLSJAVA-40702) - Pivottabellen uppdateras inte ordentligt
 (CELLSJAVA-40704) - Värdeförändringar efter beräkning i xlsb-fil

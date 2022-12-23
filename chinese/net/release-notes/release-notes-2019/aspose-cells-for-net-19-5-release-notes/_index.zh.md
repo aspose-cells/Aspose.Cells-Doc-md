@@ -13,7 +13,7 @@ url: /zh/net/aspose-cells-for-net-19-5-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSNET-46703|新的日本日历显示不正确|新功能|
-|CELLSNET-46693|ODS支持后台|新功能|
+|CELLSNET-46693|支持后台ODS|新功能|
 |CELLSNET-46695|设置ODS文件背景|新功能|
 |CELLSNET-46706|将阿拉伯字体转换为 PDF 时数字顺序无效。|强化|
 |CELLSNET-46692|使用 IStreamProvider 接口控制所有外部数据|强化|
@@ -25,15 +25,15 @@ url: /zh/net/aspose-cells-for-net-19-5-release-notes/
 |CELLSNET-46707|PivotTable.GetChildren() 返回错误数量的依赖项|漏洞|
 |CELLSNET-46689|将工作簿另存为 PDF 与 excel 的本机输出不同|漏洞|
 |CELLSNET-46704|使用 Aspose.Cells 将 Excel 转换为 PDF 的输出与 Excel 不同|漏洞|
-|CELLSNET-46720|Excel 到 PDF 转换中最后一页的页面结构已损坏|漏洞|
-|CELLSNET-46727|将工作簿另存为 PDF 时页码错误|漏洞|
+|CELLSNET-46720|Excel 中最后一页的页面结构已损坏至 PDF 转换|漏洞|
+|CELLSNET-46727|将工作簿保存为 PDF 时页码错误|漏洞|
 |CELLSNET-46700|饼图数据标签相互重叠|漏洞|
-|CELLSNET-46696|将带有Microsoft图表的XLS转换为XLSX和XLSM导致不可读内容错误|漏洞|
+|CELLSNET-46696|将带有Microsoft图表的XLS转换为XLSX和XLSM导致内容不可读错误|漏洞|
 |CELLSNET-46697|将带有 OLE 对象的 XLSM 转换为 XLS 会导致错误|漏洞|
-|CELLSNET-46712|将带有Microsoft图表的XLS转换为XLSX和XLSM导致不可读内容错误|漏洞|
+|CELLSNET-46712|将带有Microsoft图表的XLS转换为XLSX和XLSM导致内容不可读错误|漏洞|
 |CELLSNET-46715|Cells.InsertCutCells() 问题|漏洞|
 |CELLSNET-46725|"_x000a_" 在多线图表中添加了字符串 alt 文本描述|漏洞|
-|CELLSNET-46683|将 Excel 文件渲染为 PDF 时出现异常|例外|
+|CELLSNET-46683|将 Excel 文件渲染到 PDF 时出现异常|例外|
 |CELLSNET-46690|从 Shape.ForeignData 加载 Excel 工作簿时出现异常 (Diagram)|例外|
 |CELLSNET-46728|将流另存为工作簿时出现异常|例外|
 ### **公共 API 和向后不兼容的更改**
@@ -45,8 +45,8 @@ url: /zh/net/aspose-cells-for-net-19-5-release-notes/
 #### **添加 ImportTableOptions.CheckMergedCells 属性**
 指示在导入数据时是否检查合并的单元格。
 #### **添加 ODSCellFieldCollection、ODSCellField 类和 ODSCellFieldType 枚举。**
-表示 ODS 的单元格字段。
+代表ODS的单元格字段。
 #### **添加 Cells.ODSCellFields 属性。**
 获取 ODS 的单元格字段列表。
 #### **添加 ODSPageBackground 类和 PageSetup.ODSPageBackground 属性**
-代表 ODS 的背景。
+代表ODS的背景。

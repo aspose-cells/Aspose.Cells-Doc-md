@@ -25,7 +25,7 @@ Unbekanntes Makro: {...}
 - Überprüfen Sie, ob die Lizenz festgelegt wurde, einschließlich Unterstützung, um das Ablaufdatum Ihres Abonnements zu erhalten.
 - Das Lesen/Speichern von Excel 2007-Dateien wurde verbessert.
 - Die Diagramm-zu-Bild-Funktion wurde verbessert.
-- Direct Excel to PDF-Funktion wurde verbessert.
+- Funktion „Excel direkt an PDF“ wurde verbessert.
 - Die Funktion zum Formatieren von Cell-Werten wurde verbessert.
 - Das Lesen/Speichern von Excel 97-2003-Dateien wurde verbessert.
 - 21 Korrekturen und Verbesserungen.

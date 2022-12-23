@@ -18,7 +18,7 @@ Aspose.Cells可以帮你找回SQL连接数据。这包括连接到 SQL 服务器
 
 **在 Microsoft Excel 中显示 SQL 连接选项** 
 
-![待办事项：图像_替代_文本](retrieving-sql-connection-data_1.png)
+![待办事项：图片_替代_文本](retrieving-sql-connection-data_1.png)
 
 Aspose.Cells 提供了用于检索外部连接的 Workbook.getDataConnections() 方法。它返回工作簿中的 ExternalConnection 对象的集合。
 

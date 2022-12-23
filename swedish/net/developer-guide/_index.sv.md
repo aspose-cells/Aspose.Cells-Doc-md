@@ -18,13 +18,13 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
         <ul>
             <li><a href="/cells/sv/net/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Skapa en ny arbetsbok</a></li>
         </ul>
-        <p>Öppna</p>
+        <p>Öppen</p>
         <ul>
             <li><a href="/cells/sv/net/different-ways-to-open-files/">Olika sätt att öppna filer</a></li>
             <li><a href="/cells/sv/net/opening-different-microsoft-excel-versions-files/">Öppna olika Microsoft Excel-versionsfiler</a></li>
             <li><a href="/cells/sv/net/opening-files-with-different-formats/">Öppna filer med olika format</a></li>
             <li><a href="/cells/sv/net/get-warnings-while-loading-excel-file/">Få varningar när du laddar Excel-fil</a></li>
-            <li><a href="/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells</a></li>
+            <li><a href="/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Läs Numbers Kalkylblad Utvecklat av Apple Inc. med Aspose.Cells</a></li>
         </ul>
         <p>Spara</p>
         <ul>
@@ -135,7 +135,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
 			<li><a href="/cells/sv/net/insert-shapes/#inserting-a-multiplication-sign-to-worksheet">Infoga ett multiplikationstecken i arbetsbladet</a></li>
 			<li><a href="/cells/sv/net/insert-shapes/#inserting-a-multidocument-to-worksheet">Infoga ett multidokument i kalkylblad</a></li>
 			<li><a href="/cells/sv/net/insert-shapes/#inserting-a-five-pointed-star-to-worksheet">Infoga en femuddig stjärna i arbetsbladet</a></li>
-			<li><a href="/cells/sv/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Infoga ett tankebubbelmoln i arbetsblad</a></li>
+			<li><a href="/cells/sv/net/insert-shapes/#inserting-a-thought-bubble-cloud-to-worksheet">Infogar ett tankebubbelmoln i arbetsblad</a></li>
         </ul>
         <p>Ikoner</p>
         <ul>
@@ -333,7 +333,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
     <div class="col-md-6">
         <p>Ändringar</p>
         <ul>
-         <li><a href="/cells/sv/net/convert-revision-of-xlsb-to-xlsm/">Konvertera Revision av XLSB till XLSM</a></li>
+         <li><a href="/cells/sv/net/convert-revision-of-xlsb-to-xlsm/">Konvertera revision av XLSB till XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -345,7 +345,7 @@ Den här utvecklarguiden ger information om hur du använder Aspose.Cells i en m
         <ul>
          <li><a href="/cells/sv/net/worksheet-views/#page-break-preview">Förhandsvisning av sidbrytning</a></li>
         </ul>
-        <p>Show</p>
+        <p>Visa</p>
          <ul>
 		<li><a href="/cells/sv/net/show-and-hide-gridlines-and-row-column-headers/">Visa rutnät och rubrik</a></li>
         </ul>

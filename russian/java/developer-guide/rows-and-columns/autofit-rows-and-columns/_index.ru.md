@@ -65,8 +65,8 @@ Microsoft Excel предоставляет хорошую функцию авт�
 
 Сигнатуры вышеуказанных методов следующие:
 
-1.  autoFitRows(int startRow, int endRow,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)опции)
-1.  autoFitColumns (int firstColumn, int lastColumn,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)опции)
+1.  autoFitRows(int startRow, int endRow,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)параметры)
+1.  autoFitColumns (int firstColumn, int lastColumn,[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)параметры)
 ## **Важно знать**
 {{% alert color="primary" %}} 
 

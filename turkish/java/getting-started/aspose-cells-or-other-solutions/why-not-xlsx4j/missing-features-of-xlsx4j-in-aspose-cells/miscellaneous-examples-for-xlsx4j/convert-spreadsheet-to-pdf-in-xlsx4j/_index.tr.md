@@ -1,10 +1,10 @@
 ﻿---
-title: Elektronik Tabloyu xlsx4j'de PDF'ye Dönüştür
+title: Elektronik Tabloyu xlsx4j'de PDF'e Dönüştür
 type: docs
 weight: 10
 url: /tr/java/convert-spreadsheet-to-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - XLS'yi PDF'ye dönüştür**
+## **Aspose.Cells - XLS'i PDF'e dönüştür**
 PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde standart bir format olarak yaygın şekilde kullanılmaktadır. Yazılım geliştiricilerinden genellikle Microsoft Excel dosyalarını kolayca PDF belgelerine dönüştürmenin bir yolunu bulmaları istenir. Aspose.Cells bu özelliği destekler.
 
 **Java**

@@ -9,5 +9,5 @@ url: /sv/java/working-with-worksheets-in-xlsx4j/
 - [Identifiera sammanslagna Cells i xlsx4j](/cells/sv/java/detect-merged-cells-in-xlsx4j/)
 - [Visa och dölj rullningslister för arbetsböcker i xlsx4j](/cells/sv/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
 - [Visa och dölj flikar i arbetsboken i xlsx4j](/cells/sv/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-- [Spara varje kalkylblad till olika PDF-filer i xlsx4j](/cells/sv/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+- [Spara varje arbetsblad till olika PDF i xlsx4j](/cells/sv/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
 - [Ställ in kalkylbladsflikfärg i xlsx4j](/cells/sv/java/set-worksheet-tab-color-in-xlsx4j/)

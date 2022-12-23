@@ -10,7 +10,7 @@ PHP/Java Bridge 是一个流式的、基于 XML 的实现[网络协议](http://p
 
 阅读更多[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java 是屡获殊荣的 Excel 电子表格组件，允许 Java 开发人员嵌入读取、编写和操作 Excel® 电子表格（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）、HTML、MHTML、PDF 的功能和图像文件格式导入到自己的 Java 应用程序中，而无需依赖 Microsoft Excel®。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF和图像文件格式导入自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
 
 Aspose.Cells for Java 是一个成熟、可扩展且功能丰富的组件，它提供的许多功能远远超出其他供应商的简单数据导出功能。使用 Aspose.Cells for Java 开发人员可以导出数据、将电子表格格式化为最精细的级别、导入图像、创建图表、应用和计算复杂公式、流式传输 Excel® 数据、以各种格式保存等等 - 所有这些都不需要 Microsoft Excel®或 Microsoft 办公自动化。
 ### **Aspose.Cells Java for PHP**
@@ -153,7 +153,7 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 \1.像往常一样安装 PHP5 和配置
 \2。如果您还没有安装 JRE 6（Java 运行时环境）。您可以在 C:\Program Files 等中查看。您可以在此处下载。我正在使用 JRE 6，因为它与 PHP Java Bridge (PJB) 兼容。
 
-\3。安装 Apache Tomcat 8.0。你可以在这里下载
+\3。安装 Apache Tomcat 8.0。您可以在这里下载
 
 4.下载[JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download).将此文件复制到 tomcat webapps 目录。
 （例如：C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps）

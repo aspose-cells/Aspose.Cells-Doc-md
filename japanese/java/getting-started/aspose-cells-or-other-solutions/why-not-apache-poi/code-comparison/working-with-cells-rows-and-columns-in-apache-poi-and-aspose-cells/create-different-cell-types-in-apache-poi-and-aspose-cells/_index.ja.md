@@ -93,6 +93,6 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[数字と日付の表示形式を設定する](/cells/ja/java/data-formatting/).
+詳細については、次を参照してください。[Numbersと日付の表示形式を設定する](/cells/ja/java/data-formatting/).
 
 {{% /alert %}}

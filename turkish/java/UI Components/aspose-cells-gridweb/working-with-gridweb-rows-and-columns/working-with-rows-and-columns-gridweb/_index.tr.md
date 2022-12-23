@@ -72,7 +72,7 @@ Aspose.Cells.GridWeb, nokta, inç, piksel vb. cinsinden satır yüksekliği ve s
 
 **Çıktı: 1. sıranın yüksekliği 50 punto olarak ayarlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_1.png)
 
 
 
@@ -98,7 +98,7 @@ Bir satırın başlığını veya başlığını özelleştirmek için:
 
 **1. ve 2. satırın başlıkları özelleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_2.png)
 
 
 
@@ -112,7 +112,7 @@ Bir sütunun başlığını veya başlığını özelleştirmek için:
 
 **1. ve 2. sütunun başlıkları özelleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_3.png)
 
 
 
@@ -134,7 +134,7 @@ Belirli sayıda satır ve sütunu dondurmak için:
 
 **Dondurulmuş durumdaki satırlar ve sütunlar** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_4.png)
 
 
 
@@ -148,7 +148,7 @@ Satırları ve sütunları çözmek için:
 
 **Çözüldükten sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_5.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_5.png)
 
 
 
@@ -160,13 +160,13 @@ GridWeb, son kullanıcıların kontrol üzerinde işlem yapmak için kullanabile
 
 **Eksiksiz bağlamsal seçenekler** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_6.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_6.png)
 
 Bağlam menüsünde bulunan seçenekleri kısıtlayarak, satırlar ve sütunlar üzerinde her türlü istemci tarafı işlemi kısıtlamak mümkündür. GridWeb denetiminin EnableClientColumnOperations ve EnableClientRowOperations öznitelikleri false olarak ayarlanarak yapılabilir. GridWeb kontrolünün EnableClientFreeze özniteliğini false olarak ayarlayarak kullanıcıların satırları ve sütunları dondurmasını kısıtlamak da mümkündür.
 
 **Satır ve sütun seçeneklerini kısıtladıktan sonra içerik menüsü** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-rows-and-columns-gridweb_7.png)
+![yapılacaklar:resim_alternatif_metin](working-with-rows-and-columns-gridweb_7.png)
 
 
 

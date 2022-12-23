@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **添加了属性 TxtLoadOptions.HasFormula**
- Aspose.Cells for .NET 8.7.0 已经支持[在加载具有定界纯数据的 CSV/TXT 文件时识别和解析公式](/cells/zh/net/load-or-import-csv-file-with-formulas/).新公开的 TxtLoadOptions.HasFormula 属性在设置为 true 时指示 API 从输入分隔文件中解析公式并将它们设置到相关单元格，而无需任何额外处理。
+ Aspose.Cells for .NET 8.7.0 已经支持[在加载具有分隔纯数据的 CSV/TXT 文件时识别和解析公式](/cells/zh/net/load-or-import-csv-file-with-formulas/).新公开的 TxtLoadOptions.HasFormula 属性在设置为 true 时指示 API 从输入分隔文件中解析公式并将它们设置到相关单元格，而无需任何额外处理。
 
 以下是简单的使用场景。
 

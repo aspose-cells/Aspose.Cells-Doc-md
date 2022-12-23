@@ -6,7 +6,7 @@ url: /it/net/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-È possibile eliminare tutte le righe e le colonne vuote da un foglio di lavoro. Ciò è utile quando, ad esempio, si genera un file PDF da un file Microsoft Excel e si desidera convertire solo righe e colonne che contengono dati.
+È possibile eliminare tutte le righe e le colonne vuote da un foglio di lavoro. Ciò è utile quando, ad esempio, si genera un file PDF da un file Excel Microsoft e si desidera convertire solo righe e colonne che contengono dati.
 
 Utilizzare i seguenti metodi Aspose.Cells per eliminare righe e colonne vuote:
 
@@ -15,10 +15,10 @@ Utilizzare i seguenti metodi Aspose.Cells per eliminare righe e colonne vuote:
 
 {{% /alert %}}
 
-## Codice C# per eliminare le righe vuote
+## C# codice per eliminare righe vuote
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankRows-1.cs" >}}
 
-## Codice C# per eliminare colonne vuote
+## C# codice per eliminare colonne vuote
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DeleteBlankRowsColumns-DeletingBlankColumns-1.cs" >}}

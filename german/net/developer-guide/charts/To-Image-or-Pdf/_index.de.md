@@ -7,7 +7,7 @@ url: /de/net/chart-rendering/
 ---
 ## **Diagramme rendern**
 
- Aspose.Cells APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um Rendering-Unterstützung bereitzustellen, wird die[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Klasse hat ausgesetzt[**Vorstellen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ZuPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)Methoden mit einer Vielzahl von Überladungen, um den Anwendungsanforderungen am besten zu entsprechen.
+ Aspose.Cells-APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um Rendering-Unterstützung bereitzustellen, wird die[**Diagramm**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) Klasse hat ausgesetzt[**Vorstellen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ZuPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)Methoden mit einer Vielzahl von Überladungen, um den Anwendungsanforderungen am besten zu entsprechen.
 
 ### **Rendern von Diagrammen in Bilder**
 
@@ -19,9 +19,9 @@ url: /de/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Diagramm in PDF rendern**
+### **Rendering-Diagramm bis PDF**
 
- Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die bereitgestellt[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)-Methode mit der Möglichkeit, das resultierende PDF im Disc-Pfad oder Stream zu speichern.
+ Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)Methode mit der Möglichkeit, das Ergebnis PDF auf dem Disc-Pfad oder Stream zu speichern.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -73,7 +73,7 @@ url: /de/net/chart-rendering/
 |**Radar**|Radar|**Y**|
 ||RadarWithDataMarkers|**Y**|
 ||Radargefüllt|**Y**|
-|**Auftauchen**|Surface3D|N|
+|**Oberfläche**|Surface3D|N|
 ||SurfaceWireframe3D|N|
 ||Oberflächenkontur|N|
 ||SurfaceContourWireframe|N|
@@ -115,9 +115,9 @@ url: /de/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDFs.
+Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
 
 {{% /alert %}}
 
 ## **Themen vorantreiben**
-- [Diagramm in PDF mit gewünschter Seitengröße konvertieren](/cells/de/net/chart-to-pdf/)
+- [Konvertieren Sie das Diagramm mit der gewünschten Seitengröße in PDF](/cells/de/net/chart-to-pdf/)

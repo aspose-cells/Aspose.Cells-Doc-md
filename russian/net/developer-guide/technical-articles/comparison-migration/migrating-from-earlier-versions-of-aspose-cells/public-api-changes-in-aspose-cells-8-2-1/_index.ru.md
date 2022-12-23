@@ -14,7 +14,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-2-1/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Применить проверку к номеру Cell](/cells/ru/net/get-validation-applied-on-a-cell/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей о[Применить проверку к номеру Cell](/cells/ru/net/get-validation-applied-on-a-cell/) для дополнительной информации.
 
 {{% /alert %}}
 ## **Добавлен метод GetValidationValue() для класса Cell.**

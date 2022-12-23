@@ -5,7 +5,7 @@ weight: 30
 url: /fr/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Travailler avec des polices**
-Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classer. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classer.
+Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
 **Java**
 

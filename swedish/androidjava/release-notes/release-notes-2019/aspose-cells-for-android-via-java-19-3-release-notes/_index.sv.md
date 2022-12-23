@@ -12,7 +12,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.3.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41026|Stöd för Excel 95/5.0 (XLS-filer)|Ny funktion|
+|CELLSJAVA-41026|Stöd för Excel 95/5.0 (XLS filer)|Ny funktion|
 |CELLSJAVA-42827|Infoga rad med InsertOptions liknande MS Excel|Ny funktion|
 |CELLSJAVA-42845|Behåll avgränsare för tomma rader när du exporterar en XLS-fil till CSV|Ny funktion|
 |CELLSJAVA-42778|Undantag "stil textRotation måste vara mellan 0 och 180" när XLSM laddas|Förbättring|
@@ -22,22 +22,22 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.3.
 |CELLSANDROID-85|Problem med omvandling av ark till bild med transparenta bilder ovanför andra bilder|Insekt|
 |CELLSJAVA-42290|Mdash och ndash infogade i textrutor i diagram renderas inte korrekt i diagrammets PDF|Insekt|
 |CELLSJAVA-42750|Det gick inte att hämta sidfältens objekt i pivottabellsrapporten|Insekt|
-|CELLSJAVA-42783|Problem med genomstruken text i genererat HTML-filformat|Insekt|
+|CELLSJAVA-42783|Problem med genomstruken text i genererat HTML filformat|Insekt|
 |CELLSJAVA-42784|Data i vissa celler (t.ex. G7, H7, etc.) renderas inte på samma sätt som i originalfilen i Excel till HTML/bildkonvertering|Insekt|
-|CELLSJAVA-42797|Vissa stilar återges inte i HTML-inmatning|Insekt|
+|CELLSJAVA-42797|Vissa stilar återges inte i HTML-ingången|Insekt|
 |CELLSJAVA-42807|Formel/funktion "ISOWEEKNUM"-beräkning är inte detsamma som MS Excel|Insekt|
 |CELLSJAVA-42794|ODS till XLSX - Textfärg ändrad|Insekt|
-|CELLSJAVA-42795|ODS till XLSX - Teckensnittet genomstrukits inte korrekt bevarat|Insekt|
-|CELLSJAVA-42796|ODS till XLSX - Textrutans dimensioner ändrade|Insekt|
+|CELLSJAVA-42795|ODS till XLSX - Genomstruket teckensnitt har inte bevarats korrekt|Insekt|
+|CELLSJAVA-42796|ODS till XLSX - Textrutans mått har ändrats|Insekt|
 |CELLSJAVA-42798|ODS -> XLSX - Hyperlänk är funktionell men visas som vanlig text|Insekt|
-|CELLSJAVA-42802|ODS till XLSX, procentandelar går förlorade i stapeldiagrammet|Insekt|
-|CELLSJAVA-42803|Outline "SummaryRowBelow" påverkas inte när du sparar som XLSB-filformat|Insekt|
-|CELLSJAVA-42826|Data med villkorlig formatering utelämnades vid konvertering av XLSX till HTML|Insekt|
+|CELLSJAVA-42802|ODS till XLSX, procentandelar går förlorade i stapeldiagram|Insekt|
+|CELLSJAVA-42803|Outline "SummaryRowBelow" påverkas inte när du sparar som XLSB filformat|Insekt|
+|CELLSJAVA-42826|Data med villkorlig formatering utelämnad vid konvertering från XLSX till HTML|Insekt|
 |CELLSJAVA-42815|Att lägga till komplexa referenser till definierade namn resulterar i korrupt MS Excel-arbetsbok|Insekt|
 |CELLSJAVA-42822|Cell.getValidationValue returnerar fel värde för det angivna värdet|Insekt|
 |CELLSJAVA-42829|Anpassat funktionsnamn inom de delade formlerna ersatt av ett annat namn|Insekt|
 |CELLSJAVA-42824|Axeltitlar saknas och annan formatering är fel av diagram i Excel till PDF/A-konvertering|Insekt|
-|CELLSJAVA-42814|Pilarna i PNG-utdata matchar inte pilarna i Excel-diagrammet|Insekt|
+|CELLSJAVA-42814|Pilarna i PNG-utgången matchar inte pilarna i Excel-diagrammet|Insekt|
 |CELLSJAVA-42777|Fel radhöjd har ändrats när du använder automatisk anpassning av rader|Insekt|
 |CELLSJAVA-42813|Arbetsboksinställningen "ReCalculateOnOpen" kvarstod inte|Insekt|
 |CELLSJAVA-42816|Ofullständig visning för AutoFitterOptions.setAutoFitMergedCells(true)|Insekt|
@@ -48,14 +48,14 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.3.
 |CELLSJAVA-42834|Ändrar svart textfärg till röd|Insekt|
 |CELLSJAVA-42839|Spridningsdiagram renderas inte i Excel till PDF-konvertering|Insekt|
 |CELLSJAVA-42840|Horisontella axeletiketter renderas inte bra för diagram i Excel till PDF-rendering|Insekt|
-|CELLSJAVA-42842|2D Bubble diagram renderas inte i Excel till PDF-konvertering|Insekt|
+|CELLSJAVA-42842|2D Bubble diagram renderas inte i Excel till PDF konvertering|Insekt|
 |CELLSJAVA-42833|Problem när du bäddar in samma PDF-fil i flera ark i en arbetsbok|Insekt|
 |CELLSJAVA-42836|Workbook.hasExernalLinks() returnerar inte sant för DDE-länkar|Insekt|
 |CELLSJAVA-42848|Teckensnittsinställning och andra objekt som inte kopierats med Range.copy()-funktionen|Insekt|
 |CELLSJAVA-42757|CellsException vid konvertering av filer|Undantag|
-|CELLSJAVA-42799|Undantag "java.lang.ArrayIndexOutOfBoundsException: -32768" när ett XLSX-filformat laddas|Undantag|
+|CELLSJAVA-42799|Undantag "java.lang.ArrayIndexOutOfBoundsException: -32768" vid laddning av ett XLSX filformat|Undantag|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException när en arbetsbok laddas|Undantag|
-|CELLSJAVA-42820|Undantag "Invalid IMEModeType string val" när ett XLSX-filformat laddas|Undantag|
+|CELLSJAVA-42820|Undantag "Invalid IMEModeType string val" vid inläsning av ett XLSX filformat|Undantag|
 |CELLSJAVA-42849|IndexOutOfBoundsException undantag vid konvertering av XLSX till HTML|Undantag|
 |CELLSJAVA-42831|Undantag har tagits upp av Excel efter att ha tillämpat stil på intervallet av rubrikceller|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -77,7 +77,7 @@ Får alla nycklar till datasorteraren.
 ### **Lägger till SortOnType enum**
 Representerar typen av sorterad data.
 ### **Lägger till klass ODSLoadOptions**
-Representerar alternativen för att ladda ODS-fil.
+Representerar alternativen för att ladda ODS-filen.
 ### **Lägger till egenskapen HTMLLoadOptions.ProgId**
 Hämtar program-id för att skapa filen. används endast för MHT-filer.
 ### **Lägger till egenskapen PdfSaveOptions.TextCrossType**
@@ -108,8 +108,8 @@ Hämtar och ställer in linjens temafärg.
 Kapslar in objektet som representerar en enda 3D-modell i ett kalkylblad.
 ### **Lägger till ImageType.Gltf enum**
 Representerar typen av 3D-modell.
-### **Ändringar för standardteckensnitt för laddad XLS-mallfil**
-äldre versioner stödde vi inte att använda teckensnittet som definierats i temat (avancerad funktion i MS Excel 2007 och senare versioner) enligt regionen när XLS-mallfilerna laddas. På vissa användares krav har vi stött det från v19.3. Om regionen har specificerats i XLS-mallfilen kommer vi att tillämpa teckensnittet som definierats i temat enligt det sparade specificerade regionvärdet. Annars kommer vi att tillämpa typsnittet som definieras i temat enligt applikationsmiljöns regionala inställningar. Detta kommer att göra att standardteckensnittet för arbetsboken (laddat från XLS-mallfil som har specificerat temadata) ändras och sedan påverka andra funktioner, såsom kolumnbredd, formstorlek, renderingseffekt, ... etc.
+### **Ändringar för standardteckensnitt för inläst XLS mallfil**
+äldre versioner stödde vi inte att använda teckensnittet som definierats i temat (avancerad funktion i MS Excel 2007 och senare versioner) enligt regionen när XLS-mallfilerna laddas. På vissa användares krav har vi stött det från v19.3. Om regionen har specificerats i mallfilen XLS, kommer vi att tillämpa teckensnittet som definieras i temat enligt det sparade specificerade regionvärdet. Annars kommer vi att tillämpa typsnittet som definieras i temat enligt applikationsmiljöns regionala inställningar. Detta kommer att göra att standardteckensnittet för arbetsboken (laddat från XLS mallfil som har specificerat temadata) ändras och sedan påverka andra funktioner, såsom kolumnbredd, formstorlek, renderingseffekt, ...etc.
 ### **Lägger till metoden Name.GetReferredAreas(bool recalculate).**
 Tillhandahåller referenserna som hänvisas till av det definierade namnet som GetRanges(bool recalculate)-metoden. Men de returnerade referenserna representeras av ReferredArea-objekt som ger rikare funktioner inklusive externa länkar.
 ### **Lägger till egenskapen TxtSaveOptions.KeepSeparatorsForBlankRow**

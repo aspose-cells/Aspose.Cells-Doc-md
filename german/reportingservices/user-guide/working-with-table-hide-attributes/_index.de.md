@@ -40,15 +40,15 @@ Das Dialogfeld „Bericht ändern“ wird angezeigt.
 
 
 1. Bearbeiten Sie alle anderen Versteckinformationen.
-1.  Klicken**Hinzufügen** um die Versteckinformationen hinzuzufügen.
+1.  Klicken**Addieren** um die Versteckinformationen hinzuzufügen.
 
 ![todo: Bild_alt_Text](working-with-table-hide-attributes_5.png)
 
 
 
 
-1.  Klicken**Verpflichten** , um die Informationen zum Ausblenden zum Berichtscache hinzuzufügen.
-1.  Klicken**Nah dran** um den Dialog zu schließen.
+1.  Klicken**Begehen** , um die Informationen zum Ausblenden zum Berichtscache hinzuzufügen.
+1.  Klicken**Nahe** um den Dialog zu schließen.
 
 ![todo: Bild_alt_Text](working-with-table-hide-attributes_6.png)
 

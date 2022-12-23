@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.1
 
 {{% /alert %}} 
 ## **Stöd för varning om teckensnittsersättning har lagts till**
-Med Aspose.Cells for .NET 8.1.2 har WarningInfo, WarningType-klasserna, IWarningCallback-gränssnittet och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att underlätta för användaren att ta emot varningar vid konvertering av teckensnittsformat eller PDF-format.
+Med Aspose.Cells for .NET 8.1.2 har WarningInfo, WarningType-klasserna, IWarningCallback-gränssnittet och SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det lättare för användaren att få varningar om teckensnittsbyte eller20s16 konverterar bilder.
 
 {{% alert color="primary" %}} 
 

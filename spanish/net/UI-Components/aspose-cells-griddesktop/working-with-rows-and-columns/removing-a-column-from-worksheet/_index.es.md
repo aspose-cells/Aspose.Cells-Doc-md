@@ -13,7 +13,7 @@ Este es un tema básico para los desarrolladores que solo describe el enfoque m�
 Para eliminar una columna de la hoja de trabajo, siga los pasos a continuación:
 
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Remover**Columna** desde el**Hoja de cálculo** especificando el índice de la columna a eliminar
+-  Eliminar**Columna** desde el**Hoja de cálculo** especificando el índice de la columna a eliminar
 
 
 

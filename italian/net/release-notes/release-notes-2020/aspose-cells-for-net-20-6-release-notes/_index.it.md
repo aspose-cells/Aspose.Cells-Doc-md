@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-20-6-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47353|Supporto per l'archiviazione di file temporanei per le informazioni sulla sessione in GridWeb|Aumento|
 |CELLSNET-47388|GridWeb SessionMode.File memorizzerà il file di cache per diverse pagine/schede|Aumento|
@@ -25,12 +25,12 @@ url: /it/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47389|Calcolo CERCA.ORIZZ non corretto|Insetto|
 |CELLSNET-47352|Dopo aver fatto clic sul testo, il testo scompare|Insetto|
 |CELLSNET-47380|La colonna non è allineata|Insetto|
-|CELLSNET-47366|Punti non renderizzati nel file PDF|Insetto|
+|CELLSNET-47366|Punti non resi nel file PDF|Insetto|
 |CELLSNET-47364|Il rendering delle etichette degli assi non è corretto se il foglio di lavoro viene visualizzato come immagine|Insetto|
 |CELLSNET-47370|Punto del grafico mancante e forma schiacciata durante il caricamento e il salvataggio del file Excel|Insetto|
 |CELLSNET-47367|Direzione della freccia dell'asse errata durante la conversione del grafico in un'immagine|Insetto|
 |CELLSNET-47362|SourceFullName e ImageType non sono corretti|Insetto|
-|CELLSNET-47375|XLSX convertito in file XLS danneggiato.|Insetto|
+|CELLSNET-47375|XLSX convertito nel file XLS danneggiato.|Insetto|
 |CELLSNET-47398|Worksheet.Cells.ImportData salta le righe durante la suddivisione dei dati in più fogli|Insetto|
 |CELLSNET-47371|Eccezione sull'aggiornamento delle tabelle pivot nel foglio|Eccezione|
 |CELLSNET-47377|Worksheet.RefreshPivotTables() solleva un'eccezione|Eccezione|
@@ -38,8 +38,8 @@ url: /it/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47365|Eccezione durante il caricamento di un file XLSX|Eccezione|
 |CELLSNET-47381|La proprietà Picture.Data genera un'eccezione ArgumentOutOfRange|Eccezione|
 |CELLSNET-47374|Interruzione della modifica in RemoveACell durante l'aggiornamento da 19.10 a 20.5|Regressione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo ReferredArea.GetValues(boolcalculateFormulas)/GetValue(introwOffset, int colOffset, boolcalculateFormulas).**
 Offre all'utente la possibilità di controllare se le formule devono essere calcolate in modo ricorsivo nell'implementazione di AbstractCalculationEngine.
 #### **Aggiunge l'enumerazione WarningType.InvalidFontName e WarningType.InvalidTextOfDefinedName.**

@@ -16,7 +16,7 @@ Microsoft Excel, formül hesaplama modunu, yani formüllerin hesaplanma şeklini
 
 Microsoft Excel'de formül hesaplama modunu ayarlamak için:
 
-1.  Seçme**formüller** ve daha sonra**Hesaplama Seçenekleri**.
+1.  Seçme**formüller** ve sonra**Hesaplama Seçenekleri**.
 1. Seçeneklerden birini seçin.
 
  Aspose.Cells ayrıca**Formül Hesaplama Modu** kullanarak[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/calculationmode) mod özelliği. atayabilirsiniz[**CalcModeType**](https://reference.aspose.com/cells/net/aspose.cells/calcmodetype)Aşağıdaki değerlerden birine sahip numaralandırma:

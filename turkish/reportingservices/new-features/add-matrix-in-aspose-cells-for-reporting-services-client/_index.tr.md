@@ -12,6 +12,6 @@ url: /tr/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-cli
 
 **Bir matris rapor öğesi** 
 
-![yapılacaklar:resim_alternatif_Metin](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![yapılacaklar:resim_alternatif_metin](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

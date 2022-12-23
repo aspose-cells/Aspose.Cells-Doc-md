@@ -11,5 +11,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 22.
 ## **Komplett lista över problem och förbättringar som tas upp i denna version**
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|27177 |Stöd för JSON-renderare.|Ny funktion|
+|27177 |Stöd till JSON renderer.|Ny funktion|
 |27178 |Uppgradera version Aspose.Cells till 22.1.| Förbättring|

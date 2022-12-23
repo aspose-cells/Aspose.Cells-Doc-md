@@ -14,19 +14,19 @@ url: /zh/net/aspose-cells-for-net-18-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-46479|单页工作簿转换为 HTML 时选项卡名称不可用|新功能|
 |CELLSNET-46503|使用 LoadDataFilterOptions 控制 VBA 数据的加载|新功能|
-|CELLSNET-42414|在从 XLSB 到 XLSM 和从 XLS 到 XLSM 的转换过程中跟踪更改丢失|强化|
-|CELLSNET-46090|将 XLS 保存为 XLSX 时，取消组合形状后文本移动了一点|强化|
+|CELLSNET-42414|在从 XLSB 到 XLSM 和 XLS 到 XLSM 的转换过程中跟踪更改丢失|强化|
+|CELLSNET-46090|将 XLS 保存到 XLSX 时，取消组合形状后文本移动了一点|强化|
 |CELLSNET-46439|内存性能优化：加载工作簿后释放原始流|表现|
-|CELLSNET-46371|转换 XLSX->HTML->XLSX 时，某些工作表中不显示网格线|漏洞|
+|CELLSNET-46371|转换 XLSX->HTML->XLSX 时，某些工作表中未显示网格线|漏洞|
 |CELLSNET-46447|格式在 HTML 到 XLS 渲染中丢失|漏洞|
 |CELLSNET-46494|MHT 到 XLSX 转换 - 单元格内容问题|漏洞|
 |CELLSNET-46468|MS Excel 打开输出文件时提示错误|漏洞|
 |CELLSNET-46487|非英语语言环境公式不起作用|漏洞|
 |CELLSNET-46489|删除具有索引的行并读取具有相同索引的行返回 Cell.ValuType: IsNull|漏洞|
 |CELLSNET-46406|无法打开受密码保护的 ODS 文档|漏洞|
-|CELLSNET-46466|条形码下的底部文本在 MS Excel 到 PDF 的渲染中丢失|漏洞|
-|CELLSNET-46470|图像在呈现为 TIFF 输出后丢失|漏洞|
-|CELLSNET-46499|从 Excel 转换为 PDF 时图像无法正确呈现|漏洞|
+|CELLSNET-46466|MS Excel 中条形码下的底部文本丢失到 PDF 渲染|漏洞|
+|CELLSNET-46470|再现到 TIFF 输出后图像丢失|漏洞|
+|CELLSNET-46499|从 Excel 转换为 PDF 时图像未正确呈现|漏洞|
 |CELLSNET-46443|从 MS Excel 图表呈现的图像中出现额外的文本|漏洞|
 |CELLSNET-46450|MS Excel 图表的渲染图像比原始图表具有更多的轴单位|漏洞|
 |CELLSNET-46451|将模板文件（包含图表）呈现为 PDF 文件格式时出现问题|漏洞|
@@ -34,7 +34,7 @@ url: /zh/net/aspose-cells-for-net-18-12-release-notes/
 |CELLSNET-46471|无法在 XLS 文件格式中设置颜色标记 LineWithDataMarkers|漏洞|
 |CELLSNET-42729|当 SmartArt 图表呈现为 HTML 文件格式时，文本被置换|漏洞|
 |CELLSNET-46462|用文本替换标签时重复文本|漏洞|
-|CELLSNET-46483|将带有自定义 UI xml 的文档从 XLSB 转换为 XLSM 后出错|漏洞|
+|CELLSNET-46483|使用自定义 UI xml 将文档从 XLSB 转换为 XLSM 后出错|漏洞|
 |CELLSNET-46495|将图表转换为图像时发现的问题|漏洞|
 |CELLSNET-46486|将 XLS 转换为 PDF 时出现异常|例外|
 |CELLSNET-46472|PivotTable.GetChildren() 引发异常“无效的 Cell 名称”|例外|

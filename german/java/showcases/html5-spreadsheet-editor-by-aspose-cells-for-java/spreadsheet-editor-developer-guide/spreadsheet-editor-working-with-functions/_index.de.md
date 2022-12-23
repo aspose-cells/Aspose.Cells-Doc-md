@@ -36,4 +36,4 @@ So fügen Sie eine Funktion oder Formel ein:
 
 1. Klicken Sie auf eine Zelle, um sie auszuwählen.
 1.  Klicken**Funktion einfügen** Knopf oben.
-1.  Befolgen Sie die Anweisungen auf der**Funktion einfügen**Dialog.
+1.  Befolgen Sie die Anweisungen auf der**Funktion einfügen** Dialog.

@@ -10,16 +10,16 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.11.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42738|Il conteggio errato dei valori di convalida viene letto da XLSX|Aumento|
 |CELLSJAVA-42734|Problema durante il trattamento dei delimitatori consecutivi come distinti|Aumento|
-|CELLSJAVA-42739|Aspose.Cells.GridWeb (Java) si arresta in modo anomalo quando viene utilizzato contemporaneamente in un ambiente multiutente|Insetto|
-|CELLSJAVA-42737|Linea del grafico mancante nella conversione XLSX->PNG|Insetto|
+|CELLSJAVA-42739|Aspose.Cells.GridWeb (Java) si arresta in modo anomalo quando lo si utilizza contemporaneamente in un ambiente multiutente|Insetto|
+|CELLSJAVA-42737|La riga del grafico è mancante nella conversione XLSX->PNG|Insetto|
 |CELLSJAVA-42735|Problema con il metodo getActualChartSize|Insetto|
 |CELLSJAVA-40861|SmartArt non viene copiato quando la cartella di lavoro viene copiata|Insetto|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà PivotTable.RefreshedByWho**
 Ottiene il nome dell'utente che ha aggiornato la tabella pivot l'ultima volta.
 ### **Aggiunge la proprietà PivotTable.RefreshDate**

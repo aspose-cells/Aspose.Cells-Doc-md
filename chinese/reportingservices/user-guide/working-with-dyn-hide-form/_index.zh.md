@@ -15,7 +15,7 @@ url: /zh/reportingservices/working-with-dyn-hide-form/
 1. 在 Microsoft Excel 中，单击**动态隐藏**在 Aspose.Cells 命令栏上。
 显示 Dyn-Hide 对话框。
 
-![待办事项：图像_替代_文本](working-with-dyn-hide-form_1.png)
+![待办事项：图片_替代_文本](working-with-dyn-hide-form_1.png)
 
 
 
@@ -23,7 +23,7 @@ url: /zh/reportingservices/working-with-dyn-hide-form/
 1. 编辑隐藏信息。
 1. 点击**添加**添加隐藏信息。
 
-![待办事项：图像_替代_文本](working-with-dyn-hide-form_2.png)
+![待办事项：图片_替代_文本](working-with-dyn-hide-form_2.png)
 
 
 

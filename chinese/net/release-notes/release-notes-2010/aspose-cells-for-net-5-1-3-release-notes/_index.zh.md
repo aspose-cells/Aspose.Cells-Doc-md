@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-5-1-3-release-notes/
 
  Aspose.Cells 中发生了什么变化：
 
-- 增强保存 PDF 文件的性能。
+- 增强了保存 PDF 文件的性能。
 -  39 项改进和修复。
 
  Aspose.Cells.GridWeb 发生了什么变化：
@@ -52,21 +52,21 @@ url: /zh/net/aspose-cells-for-net-5-1-3-release-notes/
 |19246 |网格桌面| Cells 数据格式问题——日期变成数字|
 |19336 |网格桌面|合并 0 行或 0 列范围时会引发异常。|
 |19411 |网格桌面| VLOOKUP 函数不支持使用 double 或 int 值|
-|19721 |HTML|将 Excel 文档另存为 HTML 需要很长时间|
+|19721 |HTML|将 Excel 文档保存为 HTML 需要很长时间|
 |17485 | PDF格式|缺少徽标和模糊/浅色文本|
-|18114 | PDF格式|PDF转换问题|
+|18114 | PDF格式|PDF 转换问题|
 |19237 | PDF格式|从 Excel 打印和输出到 PDF 的区别|
-|19392 | PDF格式|图像宽度在转换为 PDF 时缩小|
+|19392 | PDF格式|转换为 PDF 时图像宽度缩小|
 |19409 | PDF格式|PDF 外观与 XLSX 不同|
 |19420 | PDF格式|日期格式|
 |19425 | PDF格式|转换为 PDF 时文件大小 = 0|
 |19546 | PDF格式|将此文件转换为 PDF|
 |19651 | PDF格式|由于无效的 pdf 格式错误，无法将 Excel 文件转换为 PDF|
 |19873 | PDF格式|文本超出表格且无法完全打印|
-|19430 |数据透视表|数据透视表损坏的 2003 XLS|
-|19542 |数据透视表| DataBordyRange 没有返回正确的区域|
+|19430 |数据透视表|2003 XLS 数据透视表已损坏|
+|19542 |数据透视表|DataBordyRange 没有返回正确的区域|
 |19852 |数据透视表|数据透视表在 XLSX 文件中导致错误，但在 XLS 中工作正常|
-|19942 | SpreadML|带有命名空间属性的 SpreadsheetML 文档打开问题|
+|19942 | SpreadML|SpreadsheetML 命名空间属性的文档打开问题|
 |19052 |Xls|复制具有命令按钮事件处理程序的 Excel|
 |19238 |Xls|getPrecedents 返回第 164 列|
 |19541 |Xls|命名范围数组公式错误|

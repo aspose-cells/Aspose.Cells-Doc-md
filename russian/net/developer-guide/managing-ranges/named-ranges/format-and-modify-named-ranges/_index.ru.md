@@ -8,7 +8,7 @@ url: /ru/net/format-and-modify-named-ranges/
 
 ### **Установка цвета фона и атрибутов шрифта для именованного диапазона**
 
- Чтобы применить форматирование, определите[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style) объекта, чтобы указать настройки стиля и применить их к[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range)объект.
+ Чтобы применить форматирование, определите[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style) объекта, чтобы указать настройки стиля и применить их к[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range)объект.
 
 В следующем примере показано, как установить сплошной цвет заливки (цвет заливки) с настройками шрифта в диапазоне.
 
@@ -16,7 +16,7 @@ url: /ru/net/format-and-modify-named-ranges/
 
 ### **Добавление границ к именованному диапазону**
 
- Можно добавить границы к диапазону ячеек, а не только к одной ячейке.[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект обеспечивает[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)метод, который принимает следующие параметры для добавления границы к диапазону ячеек:
+ Можно добавить границы к диапазону ячеек, а не только к одной ячейке.[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект обеспечивает[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)метод, который принимает следующие параметры для добавления границы к диапазону ячеек:
 
 -  Тип границы, тип границы, выбранный из[**Тип границы**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)перечисление.
 -  Стиль линии, стиль линии, выбранный из[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)перечисление.
@@ -44,7 +44,7 @@ url: /ru/net/format-and-modify-named-ranges/
 
 ## **Пересечение диапазонов**
 
- Aspose.Cells обеспечивает[**Диапазон.Пересечение**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) метод пересечения двух диапазонов. Метод возвращает[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект. Чтобы проверить, пересекается ли диапазон с другим диапазоном, используйте[**Диапазон.Пересечение**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect)метод, который возвращает логическое значение. В следующем примере показано, как пересекать диапазоны.
+ Aspose.Cells обеспечивает[**Диапазон.Пересечение**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) метод пересечения двух диапазонов. Метод возвращает[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект. Чтобы проверить, пересекается ли диапазон с другим диапазоном, используйте[**Диапазон.Пересечение**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect)метод, который возвращает логическое значение. В следующем примере показано, как пересекать диапазоны.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IntersectionofRanges-1.cs" >}}
 

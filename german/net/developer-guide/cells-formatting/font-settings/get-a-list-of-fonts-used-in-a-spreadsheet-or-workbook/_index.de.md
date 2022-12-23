@@ -6,7 +6,7 @@ url: /de/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Häufig ist es erforderlich, die Schriftarten zu kennen, die in Ihrer Arbeitsmappe zum Rendern verwendet werden. Wenn Sie Ihre Arbeitsmappe in PDF oder Bild konvertieren, erfordert Aspose.Cells, dass alle erforderlichen Schriftarten auf Ihrem System installiert oder in Ihrem vorhanden sind**Fonts-Verzeichnis**Wenn Aspose.Cells die benötigte Schriftart nicht finden kann, versucht es, sie durch eine andere geeignete Schriftart zu ersetzen, die auf Ihrem System oder in Ihrem Schriftartenverzeichnis vorhanden ist und Ihre tatsächliche Schriftart ersetzen kann. Dies führt nicht nur zur ungewollten Wiedergabe von PDFs oder Bildern, sondern kostet auch Rechenzeit, um geeignete Schriftarten zu finden.
+Häufig ist es erforderlich, die Schriftarten zu kennen, die in Ihrer Arbeitsmappe zum Rendern verwendet werden. Wenn Sie Ihre Arbeitsmappe in PDF oder ein Bild konvertieren, erfordert Aspose.Cells, dass alle erforderlichen Schriftarten auf Ihrem System installiert oder in Ihrem vorhanden sind**Fonts-Verzeichnis**Wenn Aspose.Cells die benötigte Schriftart nicht finden kann, versucht es, sie durch eine andere geeignete Schriftart zu ersetzen, die auf Ihrem System oder in Ihrem Schriftartenverzeichnis vorhanden ist und Ihre tatsächliche Schriftart ersetzen kann. Dies führt nicht nur zur unerwünschten Wiedergabe von PDF oder Bildern, sondern nimmt auch Rechenzeit in Anspruch, um geeignete Schriftarten zu finden.
 
 Um mit solchen Fällen umzugehen, sollten Sie wissen, welche Schriftarten von Ihrer Arbeitsmappe verwendet werden, und diese Schriftarten dann entweder auf Ihrem System im Falle einer Windows-Umgebung installieren oder sie in Ihrem Schriftartenverzeichnis im Falle einer Windows- oder Linux-Umgebung ablegen.
 
@@ -14,7 +14,7 @@ Um mit solchen Fällen umzugehen, sollten Sie wissen, welche Schriftarten von Ih
 
 ## **Rufen Sie eine Liste der Schriftarten ab, die in einer Tabelle oder Arbeitsmappe verwendet werden**
 
- Der folgende Beispielcode lädt die Excel-Quelldatei und ruft die Liste der darin verwendeten Schriftarten ab. Es hat ein Dummy-Arbeitsblatt, dem einige Dummy-Schriftarten zur Veranschaulichung hinzugefügt wurden. Wenn der Code alle Schriftarten in der Arbeitsmappe druckt, werden auch diese Dummy-Schriftarten gedruckt. Der folgende Screenshot zeigt die[Excel-Beispieldatei](25395211.xlsx)und wie die Dummy-Fonts aufgelistet werden.
+ Der folgende Beispielcode lädt die Excel-Quelldatei und ruft die Liste der darin verwendeten Schriftarten ab. Es hat ein Dummy-Arbeitsblatt, dem einige Dummy-Schriftarten zur Veranschaulichung hinzugefügt wurden. Wenn der Code alle Schriftarten in der Arbeitsmappe druckt, werden auch diese Dummy-Schriftarten gedruckt. Der folgende Screenshot zeigt die[Excel-Beispieldatei](25395211.xlsx) und wie die Dummy-Fonts aufgelistet werden.
 
 ![todo: Bild_alt_Text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 

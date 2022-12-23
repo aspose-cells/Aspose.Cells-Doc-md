@@ -11,4 +11,4 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 22.
 ## **Komplett lista över problem och förbättringar som tas upp i denna version**
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|33637 |Stöd för XLTX-renderare.|Ny funktion|
+|33637 |Stöd till XLTX renderer.|Ny funktion|

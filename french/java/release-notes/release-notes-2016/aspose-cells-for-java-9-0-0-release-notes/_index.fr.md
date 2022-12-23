@@ -6,21 +6,21 @@ url: /fr/java/aspose-cells-for-java-9-0-0-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSJAVA-41947 | Capacité à détecter si un DataPoint est en Pie ou Bar|Nouvelle fonctionnalité|
 |CELLSJAVA-41827 | La feuille de calcul prend plus de 3 minutes pour calculer les formules lors de l'utilisation de la méthode Workbook.calculateFormula()| Renforcement|
-|CELLSJAVA-41969 | Cell l'ombrage est manquant lors de la conversion du format de fichier HTML au format XLSX| Punaise|
-|CELLSJAVA-41955 | Le classeur en HTML affiche '#' dans les cellules| Punaise|
-|CELLSJAVA-41942 |Bordures, trames de cellule et images manquantes - Rendu HTML vers Excel| Punaise|
-|CELLSJAVA-41967 | Cells manquant dans le PDF lorsque plusieurs zones d'impression sont définies dans une seule feuille| Punaise|
+|CELLSJAVA-41969 | L'ombrage Cell est manquant lors de la conversion du format de fichier HTML au format XLSX| Punaise|
+|CELLSJAVA-41955 | Le classeur à HTML affiche '#' dans les cellules| Punaise|
+|CELLSJAVA-41942 | Bordures, trames de cellule et images manquantes - HTML vers le rendu Excel| Punaise|
+|CELLSJAVA-41967 | Cells manquant dans PDF lorsque plusieurs zones d'impression sont définies dans une seule feuille| Punaise|
 |CELLSJAVA-41958 | La légende de droite est tronquée dans l'image du graphique| Punaise|
 |CELLSJAVA-41953 | Texte mal placé dans le diagramme après conversion au format HTML| Punaise|
 |CELLSJAVA-41948 | Le graphique est modifié lors de la conversion de la feuille de calcul en HTML| Punaise|
-|CELLSJAVA-41981 | Position incorrecte de la ligne verticale dans le PDF du graphique| Punaise|
+|CELLSJAVA-41981 | Position incorrecte de la ligne verticale dans le graphique PDF| Punaise|
 |CELLSJAVA-41964 | L'ajustement automatique ne tient pas compte du niveau d'indentation| Punaise|
 |CELLSJAVA-40260 | Modification du texte d'un WordArt existant dans un fichier Excel| Punaise|
-|CELLSJAVA-41971 | Cell.getValiationValue() lève NullPointerException pour le type de validation personnalisé| Exception|
+|CELLSJAVA-41971 |Cell.getValiationValue() lève NullPointerException pour le type de validation personnalisé| Exception|
 |CELLSJAVA-41963 | Une exception de taille de clé illégale se produit lors de l'ouverture de la source a5.xlsx| Exception|
 |CELLSJAVA-41962 | L'exception ArrayIndexOutOfBoundsException se produit lors de l'ouverture de la source a4.xls| Exception|
 |CELLSJAVA-41961 | Une chaîne non valide dans l'exception de fichier se produit lors de l'ouverture de la source a3.xls| Exception|
@@ -28,9 +28,9 @@ url: /fr/java/aspose-cells-for-java-9-0-0-release-notes/
 |CELLSJAVA-41959 | L'exception NullPointerException se produit lors de l'ouverture de la source a1.xlsx| Exception|
 ## **2) Suite de grille Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
-|CELLSJAVA-41965 |Obtenez la version comme CELLSNET-44565 et CELLSNET-44676 qui est également nécessaire pour GridWeb (Java)| Renforcement|
+|CELLSJAVA-41965 | Obtenez la version comme CELLSNET-44565 et CELLSNET-44676 qui est également nécessaire pour GridWeb (Java)| Renforcement|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la propriété Shape.TextOptions**

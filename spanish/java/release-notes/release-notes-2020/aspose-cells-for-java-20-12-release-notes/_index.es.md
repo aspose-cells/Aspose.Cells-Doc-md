@@ -16,19 +16,19 @@ url: /es/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43338|Diferencia en la salida al convertir un archivo de Excel a PDF|
 |CELLSJAVA-43346|El archivo de salida está dañado al agregar más de 12 campos en los filtros de la página de la tabla dinámica|
 |CELLSJAVA-43351|El color de fondo de la tabla de encabezado no es correcto al convertir a pdf|
-|CELLSJAVA-43358|Falta texto durante la conversión de HTML a Excel|
+|CELLSJAVA-43358|Falta texto durante la conversión HTML a Excel|
 |CELLSJAVA-43341|Columnas extra vacías al exportar CSV con LightCellsDataProvider|
 |CELLSJAVA-43352|El archivo de Excel convertido a PDF produce un problema de grandes números|
 |CELLSJAVA-43339|La imagen está fuera de lugar al convertir el archivo fuente a pdf|
-|CELLSJAVA-43340|Faltan contenidos en la conversión de XLS a PDF|
+|CELLSJAVA-43340|Faltan contenidos en la conversión XLS a PDF|
 |CELLSJAVA-43336| Las entradas de la leyenda del gráfico se muestran demasiado a la izquierda|
 |CELLSJAVA-43356|Los valores vacíos/los espacios en un gráfico no se respetan entre 2 valores|
 |CELLSJAVA-43344|El nombre de usuario actual se muestra como autor del último comentario|
-|CELLSJAVA-43349|Las filas ocultas no se mantienen desde la conversión de XML a XLS/XLSX|
+|CELLSJAVA-43349|Las filas ocultas no se mantienen de la conversión XML a XLS/XLSX|
 |CELLSJAVA-43361|Color de celda incorrecto en la conversión de xls a xlsx|
 |CELLSJAVA-43366|La propiedad SetAsTotal no se actualiza|
-|CELLSJAVA-43348|Conversión de XLSB a PDF: CellsException: -2147483648|
-|CELLSJAVA-43343|Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
+|CELLSJAVA-43348|XLSB a PDF conversión: CellsException: -2147483648|
+|CELLSJAVA-43343| Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
@@ -66,7 +66,7 @@ por favor, mantenga el valor predeterminado.
 ### **Agrega la propiedad LoadOptions.AutoFilter**
 
 Indica si se filtran automáticamente los datos al cargar los archivos.
-A veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
+veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
 
 ### **Agrega la propiedad WorkbookSettings.Author**
 

@@ -16,7 +16,7 @@ url: /sv/jasperreports/configuration-parameters/
 |ÄR_ETT_SIDA_PER_ ARK| Ett booleskt värde som anger om varje rapportsida ska skrivas till ett annat XLS-kalkylblad.|
 |ÄR_TA BORT_TÖMMA_PLATS_ BETWEEN_ROWS| Ett booleskt värde som anger om de tomma blanksteg som kan visas mellan rader ska tas bort eller inte.|
 |ÄR_TA BORT_TÖMMA_PLATS_ BETWEEN_COLUMNS|Ett booleskt värde som anger om de tomma mellanslag som kan visas mellan kolumner ska tas bort eller inte.|
-|ÄR_VIT_ PAGE_BACKGROUND| Ett booleskt värde som anger om sidbakgrunden ska vara vit eller standard XLS-bakgrundsfärg. Vad XLS-bakgrundsfärgen är kan variera beroende på XLS-visningsprogrammets egenskaper eller operativsystemets färgschema.|
+|ÄR_VIT_ PAGE_BACKGROUND| Ett booleskt värde som anger om sidbakgrunden ska vara vit eller standardbakgrundsfärgen XLS. Vad XLS bakgrundsfärg är kan variera beroende på XLS visningsegenskaper eller operativsystemets färgschema.|
 |ÄR_UPPTÄCKA, DETEKTERA_ CELL_TYPE| Flagga används för att indikera om exportören ska ta hänsyn till typen av de ursprungliga textfältsuttrycken och ställa in celltyperna och värdena därefter.|
 | SHEET_NAMES|En rad strängar som representerar anpassade arknamn. Detta är användbart när det används med IS_ETT_SIDA_PER_ SHEET parameter.|
 |ÄR_FONT_STORLEK_FIXERA_ AKTIVERAD| Flagga för att minska teckenstorleken så att texten passar in i den angivna cellhöjden.|

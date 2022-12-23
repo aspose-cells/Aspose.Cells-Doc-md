@@ -19,7 +19,7 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 
  Aspose.Cells tillhandahåller[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ) metod i[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass som används för att ställa in en cells formateringsstil. Också föremålet för[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style)klass används och ger egenskaper för att konfigurera teckensnittsinställningar.
 #### **Lägger till gränser till en Cell**
- Lägg till kanter till en cell med[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\) ) metod. Gränstypen skickas som en parameter. Alla kanttyper är fördefinierade i[BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType)uppräkning.
+ Lägg till kanter till en cell med[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\) ) metod. Gränstypen skickas som en parameter. Alla kanttyper är fördefinierade i[BorderType](https://reference.aspose.com/cells/java/com.aspose.cells/BorderType)uppräkning.
 
 |**Kanttyper**|**Beskrivning**|
 |:- |:- |
@@ -31,7 +31,7 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 |[TOP_BORDER](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#TOP_BORDER)|Den övre gränslinjen|
 |[HORISONTELL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#HORIZONTAL)|Endast för dynamisk stil, till exempel villkorlig formatering.|
 |[VERTIKAL](https://reference.aspose.com/cells/java/com.aspose.cells/bordertype#VERTICAL)|Endast för dynamisk stil, till exempel villkorlig formatering.|
- För att ställa in linjefärgen, välj en färg med hjälp av[Färg](https://reference.aspose.com/cells/java/com.aspose.cells/Color) uppräkning och skicka den till[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\) ) metodens färgparameter. Linjestilarna är fördefinierade i[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)uppräkning.
+ För att ställa in linjefärgen, välj en färg med hjälp av[Färg](https://reference.aspose.com/cells/java/com.aspose.cells/Color) uppräkning och skicka den till[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\) ) metodens färgparameter. Linjestilarna är fördefinierade i[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)uppräkning.
 
 |**Linjestilar**|**Beskrivning**|
 |:- |:- |
@@ -49,7 +49,7 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 |[SLUTA_RUSA_PUNKT](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)|Representerar en lutande medelhög streckad linje|
 |[TJOCK](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Representerar tjock linje|
 |[TUNN](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Representerar tunn linje|
- Välj en av ovanstående linjestilar och tilldela den sedan till[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style)objekt[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metod.
+ Välj en av ovanstående linjestilar och tilldela den sedan till[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style)föremål[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metod.
 
 Följande utdata genereras när koden nedan exekveras.
 
@@ -91,7 +91,7 @@ Aspose.Cells stöder också en palett med 56 färger. En standardfärgpalett vis
 
 {{% alert color="primary" %}} 
 
-Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta endast begränsningen i XLS (Excel 97 - 2003) filformat eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010) filformat.
+Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta endast begränsningen i filformatet XLS (Excel 97 - 2003), eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010) filformat.
 
 {{% /alert %}} 
 
@@ -120,7 +120,7 @@ Aspose.Cells tillhandahåller[setStyle](https://reference.aspose.com/cells/java/
 
 {{% alert color="primary" %}} 
 
- För att ställa in förgrunds- eller bakgrundsfärgen för en cell, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setBakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) eller[setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) egenskaper. Dessa egenskaper träder endast i kraft om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
+ För att ställa in förgrunds- eller bakgrundsfärgen för en cell, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[setBakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) eller[setForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) egenskaper. Dessa egenskaper träder i kraft endast om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
 
 {{% /alert %}} 
 
@@ -141,7 +141,7 @@ De[setPattern](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pa
 |[INGEN](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Representerar ingen bakgrund|
 |[OMVÄND_DIAGONAL_RAND](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Representerar omvänt diagonalt randmönster|
 |[FAST](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Representerar ett fast mönster|
-|[TJOCK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Representerar ett tjockt diagonalt kryssmönster|
+|[TJOCK_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Representerar ett tjockt diagonalt rutmönster|
 |[TUNN_DIAGONAL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Representerar ett tunt diagonalt streckmönster|
 |[TUNN_DIAGONAL_RAND](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Representerar ett tunt diagonalt randmönster|
 |[TUNN_HORISONTELL_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Representerar ett tunt horisontellt streckmönster|
@@ -161,7 +161,7 @@ Följande utdata genereras när koden exekveras.
 ### **Viktigt att veta**
 {{% alert color="primary" %}} 
 
--  För att ställa in en cells förgrunds- eller bakgrundsfärg, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[Förgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) eller[Bakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) egenskaper. Båda egenskaperna träder i kraft endast om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objekt[Mönster](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
+-  För att ställa in en cells förgrunds- eller bakgrundsfärg, använd[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[Förgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) eller[Bakgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor) egenskaper. Båda egenskaperna träder i kraft endast om[Stil](https://reference.aspose.com/cells/java/com.aspose.cells/Style) föremål[Mönster](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen är konfigurerad.
 -  De[Förgrundsfärg](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) egenskapen anger cellens nyansfärg.
  De[Mönster](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) egenskapen anger typen av bakgrundsmönster som används för förgrunden eller bakgrundsfärgen. Aspose.Cells tillhandahåller en uppräkning,[Bakgrundstyp](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType)som innehåller en uppsättning fördefinierade typer av bakgrundsmönster.
 -  Om du väljer[BackgroundType.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE) värde från[Bakgrundstyp](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType) uppräkning tillämpas inte förgrundsfärgen.

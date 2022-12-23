@@ -47,8 +47,8 @@ url: /it/net/aspose-cells-gridweb-web-grid-control/
 - Microsoft Internet Explorer
 - Mozilla Firefox
 - musica lirica
-- Google Chrome
-- Microsoft Edge
+- Google Cromo
+- Microsoft Bordo
 ### **Microsoft Excel supportato**
 - Microsoft Excel 97
 - Microsoft Excel 2000
@@ -58,4 +58,4 @@ url: /it/net/aspose-cells-gridweb-web-grid-control/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Piattaforme supportate**
-- Moduli Web ASP.NET
+- ASP.NET Moduli Web

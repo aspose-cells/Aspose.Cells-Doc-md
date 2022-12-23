@@ -15,7 +15,7 @@ url: /it/net/aspose-cells-for-net-5-2-0-release-notes/
  Cosa è cambiato in Aspose.Cells:
 
 - Supporta la firma e la convalida delle firme digitali nei file XLSX.
- Supporta le tabelle pivot R/W nei file XLS e XLSX.
+ Supporta tabelle pivot R/W nei file XLS e XLSX.
 Calcola i dati della tabella pivot in celle.
  31 miglioramenti e correzioni.
 

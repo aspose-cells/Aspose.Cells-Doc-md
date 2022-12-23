@@ -7,9 +7,9 @@ url: /it/java/auto-fit-row-and-column/
 ## **Aspose.Cells - Adatta riga e colonna automaticamente**
 L'approccio più diretto al ridimensionamento automatico della larghezza e dell'altezza di una riga consiste nel chiamare il metodo Worksheet.autoFitRow. Il metodo autoFitRow accetta un indice di riga (della riga da ridimensionare) come parametro.
 
-**Notare che:** Se desideri adattare automaticamente righe e colonne nei fogli di calcolo Excel utilizzando Java, visita[Adatta automaticamente righe e colonne](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Notare che:**Se desideri adattare automaticamente righe e colonne nei fogli di calcolo Excel utilizzando Java, visita[Adatta automaticamente righe e colonne](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -32,7 +32,7 @@ workbook.save("AutoFit_Aspose.xls");
 ## **Apache POI SS - HSSF XSSF - Adatta riga e colonna automaticamente**
 Apache POI SS - HSSF e XSSF fornisce Sheet.autoSizeColumn per adattare automaticamente le colonne
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

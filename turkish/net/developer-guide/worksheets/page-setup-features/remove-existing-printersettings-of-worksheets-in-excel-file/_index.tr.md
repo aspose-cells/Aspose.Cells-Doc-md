@@ -9,7 +9,7 @@ Bazen geliştiriciler, Excel'in dahil edilmesini engellemek ister.*.çöp Kutusu
 ## **Excel dosyasındaki Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır**
 Aspose.Cells, Excel dosyasındaki farklı sayfalar için belirtilen mevcut yazıcı ayarlarını kaldırmanıza olanak tanır. Aşağıdaki örnek kod, çalışma kitabındaki tüm çalışma sayfaları için varolan yazıcı ayarlarının nasıl kaldırılacağını gösterir. Lütfen bakın[örnek excel dosyası](45056020.xlsx), [çıktı excel dosyası](45056021.xlsx), konsol çıktısı ve referans için ekran görüntüsü.
 ## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_Metin](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+![yapılacaklar:resim_alternatif_metin](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
 ## **Konsol Çıkışı**

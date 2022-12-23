@@ -6,7 +6,7 @@ url: /de/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[Nur Bereichsdaten kopieren](/cells/de/java/copy-range-data-only/) und[Bereichsdaten mit Stil kopieren](/cells/de/java/copy-range-data-with-style/) erklärt, wie man Daten mit oder ohne Formatierung von einem Bereich in einen anderen kopiert. Es ist auch möglich, nur die Formatierung des Bereichs zu kopieren. Dieser Artikel zeigt, wie.
+[Nur Bereichsdaten kopieren](/cells/de/java/copy-range-data-only/) und[Bereichsdaten mit Stil kopieren](/cells/de/java/copy-range-data-with-style/)erklärt, wie man Daten mit oder ohne Formatierung von einem Bereich in einen anderen kopiert. Es ist auch möglich, nur die Formatierung des Bereichs zu kopieren. Dieser Artikel zeigt, wie.
 
 {{% /alert %}} 
 ## **Nur Bereichsstil kopieren**

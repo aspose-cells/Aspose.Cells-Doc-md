@@ -10,26 +10,26 @@ url: /fr/net/aspose-cells-for-net-17-6-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSNET-45356|Entre guillemets toutes les valeurs d'attribut en HTML|Nouvelle fonctionnalité|
+|CELLSNET-45356|Citez toutes les valeurs d'attribut dans HTML|Nouvelle fonctionnalité|
 |CELLSNET-45394|Prise en charge des nouvelles fonctions d'Office 365|Nouvelle fonctionnalité|
 |CELLSNET-45348|Support Table comme source de données du graphique|Nouvelle fonctionnalité|
 |CELLSNET-45317|Supprimer les anciens paramètres Web.config de Aspose.Cells.GridWeb comme force script_path et forcepath|Nouvelle fonctionnalité|
 |CELLSNET-45370|Le message d'exception est incorrect - Le nombre d'hyperliens ne peut pas être supérieur à 66530|Renforcement|
-|CELLSNET-45391|Le pied de page Excel dans le PDF de sortie n'est pas en italique - il devrait être Arial 9 et italique|Renforcement|
+|CELLSNET-45391|Le pied de page Excel dans la sortie PDF n'est pas en italique - il devrait être Arial 9 et italique|Renforcement|
 |CELLSNET-45328|Copiez les paramètres PageSetup de la feuille de calcul existante|Renforcement|
 |CELLSNET-45345|Certaines parties des étiquettes en indice sont coupées et décalées vers une ligne inférieure|Punaise|
-|CELLSNET-45344|Le texte en indice est légèrement déplacé vers la droite - Rendu Excel en PDF|Punaise|
+|CELLSNET-45344|Le texte en indice est légèrement déplacé vers la droite - Excel vers PDF|Punaise|
 |CELLSNET-44595|Le fichier Excel de sortie n'est pas bon lors de la conversion d'un fichier HTML au format de fichier Excel|Punaise|
 |CELLSNET-44596|Le fichier Excel de sortie n'est pas bon lors de la conversion d'un fichier HTML au format de fichier Excel - I|Punaise|
-|CELLSNET-45409|Exception levée après plusieurs chargements et enregistrements d'un fichier XLS|Punaise|
+|CELLSNET-45409|Exception levée après plusieurs chargements et enregistrement d'un fichier XLS|Punaise|
 |CELLSNET-45411|Load Filter provoque un crash lors du chargement d'un fichier Excel|Punaise|
 |CELLSNET-45405|L'utilisation de IFERROR avec NPER ne peut pas être traitée correctement|Punaise|
-|CELLSNET-45414|Le PDF de sortie doit avoir une page au lieu de deux pages|Punaise|
+|CELLSNET-45414|La sortie PDF doit avoir une page au lieu de deux pages|Punaise|
 |CELLSNET-45399|Image rendue incorrectement lorsqu'une cellule a un nom de devise arabe|Punaise|
 |CELLSNET-45389|La forme des parenthèses est mal rendue dans la sortie PDF/image|Punaise|
-|CELLSNET-45376|Aspose.Cells Le PDF enregistré n'est pas comme le PDF enregistré dans MS Excel|Punaise|
+|CELLSNET-45376|Aspose.Cells enregistré PDF n'est pas comme MS Excel enregistré PDF|Punaise|
 |CELLSNET-45400|Les sparklines ne s'affichent pas correctement lorsqu'elles sont rendues sous forme d'image|Punaise|
 |CELLSNET-45372|Couleurs d'élément de légende incorrectes lorsque le graphique BankActionRatPie est converti en image|Punaise|
 |CELLSNET-45371|Couleurs d'élément de légende incorrectes lorsque le graphique TotalActionRatPie est converti en image|Punaise|
@@ -55,8 +55,8 @@ url: /fr/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45373|Lors de l'ajout de lignes près d'un ListObject contenant des formules, ces formules sont dupliquées à tort vers le haut|Punaise|
 |CELLSNET-45369|Le format du texte a changé (espacement augmenté) après le chargement et l'enregistrement du XLS|Punaise|
 |CELLSNET-45368|La propriété PrintObject des boutons de commande est définie sur true après le chargement et l'enregistrement d'un fichier XLSM|Punaise|
-|CELLSNET-45365|La mise en forme des cellules perdue après le rendu au format PDF|Punaise|
-|CELLSNET-45361|Le fichier XLSX est corrompu après la modification de l'image d'arrière-plan d'un graphique|Punaise|
+|CELLSNET-45365|La mise en forme de la cellule est perdue après le rendu au format PDF|Punaise|
+|CELLSNET-45361|XLSX Le fichier est corrompu après la modification de l'image d'arrière-plan d'un graphique|Punaise|
 |CELLSNET-45360|L'insertion de plages augmente également la taille du graphique ci-dessus|Punaise|
 |CELLSNET-45343|ListObject.ConvertToRange rompt les formules dans la ligne des totaux|Punaise|
 |CELLSNET-45320|Certaines fonctionnalités ne fonctionnent pas|Punaise|

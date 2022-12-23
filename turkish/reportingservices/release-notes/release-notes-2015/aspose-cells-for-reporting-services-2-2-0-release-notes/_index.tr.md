@@ -58,7 +58,7 @@ Lütfen Aspose.Cells for Reporting Services V2.2.0'ın yeni sürümünü karşı
 
 (SSRS-40185) Madde Etki Analizi Raporu - Raporun üst kısmında, başlık ile tablo arasındaki boşluk fazla, üstteki iki başlık arasındaki boşluk azdır.
 
-(SSRS-40184) Bütünlük Endeksi Raporu - Rapor, XLSX'te dışa aktarılmıyor ve şu hatayı veriyor: "Rapor dışa aktarılırken bir hata oluştu."
+(SSRS-40184) Bütünlük Endeksi Raporu - Rapor XLSX'de dışa aktarılmıyor, hata veriyor: "Rapor dışa aktarılırken bir hata oluştu."
 
 (SSRS-40183) Pano Raporu - Dördüncü dörtlüde, metin ile iyileştirme, sürdürme ve izleme kategorileri arasında çok fazla boşluk var.
 
@@ -66,7 +66,7 @@ Lütfen Aspose.Cells for Reporting Services V2.2.0'ın yeni sürümünü karşı
 
 (SSRS-40181) Aspose.Cells 2.1.0'da Belge Haritası Yok
 
-(SSRS-40180) Otomatik olarak "tanımlı adlar" oluşturmak mümkün müdür?
+(SSRS-40180) Otomatik olarak "tanımlı adlar" oluşturmak mümkün mü?
 
 (SSRS-40179) Dışa aktarmada istisna oluşuyor - Ayrıştırılamayan ek karakterler dizenin sonunda.
 
@@ -86,7 +86,7 @@ Lütfen Aspose.Cells for Reporting Services V2.2.0'ın yeni sürümünü karşı
 
 (SSRS-40170) Alt raporların kullanıldığı raporlarda "Excel okunamayan içerik buldu..." penceresi çıkıyor
 
-(SSRS-40169) Dışa aktarılan Excel dosyasında (XLSX) gizli olarak ayarlanmış, görünür gruplandırılmış satırlar
+(SSRS-40169) Dışa aktarılan Excel dosyasında gizli gruplandırılmış satırlar kümesi görünür (XLSX)
 
 (SSRS-40168) Oluşturulan XLSX dosya biçimindeki satır gruplamaları kayboluyor
 

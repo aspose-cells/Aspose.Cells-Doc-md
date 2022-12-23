@@ -20,15 +20,15 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43112) - Grafiğin içindeki Trend çizgisi denkleminin metnini al
 
-(CELLSNET-42303) - Grafiği SVG formatında resme dönüştürme
+(CELLSNET-42303) - Grafiği SVG biçiminde resme dönüştürme
 
 (CELLSNET-43158) - Otomatik Kurtarma çalışma kitabı özelliğini ayarlama desteği
 
 ### **Hatalar**
 
-(CELLSNET-41756) - XLS'den HTML'ye dönüştürmede resimlerle ilgili sorun
+(CELLSNET-41756) - XLS'den HTML'e dönüştürmede görüntülerle ilgili sorun
 
-(CELLSNET-41755) - XLS'den PDF'e dönüştürmede resimlerle ilgili sorun
+(CELLSNET-41755) - XLS'den PDF'e dönüştürmede görüntülerle ilgili sorun
 
 (CELLSNET-43111) - XLSB kaldırma ön ayarlarına hücre değerleri ekleme
 
@@ -38,21 +38,21 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43095) - Grafik konumunu değiştiriyor
 
-(CELLSNET-43053) - HTML'yi Chrome ve Safari'de görüntülerken hatalar
+(CELLSNET-43053) - Chrome ve Safari'de HTML'i görüntülerken hatalar
 
 (CELLSNET-42984) - Excel'den görüntü oluşturulurken görüntü parlaklığı kayboluyor
 
 (CELLSNET-42871) - 1 hücrede 2 köprü sorunu
 
-(CELLSNET-42797) - Metin kutuları, XPS'ye kaydedilirken iki yana yaslama hizalamasını kaybediyor
+(CELLSNET-42797) - Metin kutuları, XPS'e kaydedildiği için hizalamayı kaybediyor
 
-(CELLSNET-42796) - Metin kutuları, PDF'ye kaydedilirken yaslama hizalamasını kaybediyor
+(CELLSNET-42796) - Metin kutuları, PDF'e kaydedildiği için hizalamayı kaybediyor
 
 (CELLSNET-42199) - Excel Diagram Doğru Vermiyor
 
 (CELLSNET-40902) - Görüntüye dönüştürülürken Excel metin kutusu yanlış yeniden boyutlandırılıyor
 
-(CELLSNET-43138) - SpreadsheetML'yi PDF formatına dönüştürürken kırmızı metin Siyah olarak işleniyor
+(CELLSNET-43138) - SpreadsheetML, PDF formatına dönüştürülürken kırmızı metin Siyah olarak işleniyor
 
 (CELLSNET-43133) - Birden çok kopya yazdır sorunu
 
@@ -64,9 +64,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-42402) - Uyumluluk PDF/A-1b, Adobe X Pro Preflight ile başarısız oldu
 
-(CELLSNET-41906) - PDF/A Doğrulaması başarısız oluyor ve yazı tipleriyle ilgili diğer sorunlar
+(CELLSNET-41906) - PDF/A Doğrulama başarısız oluyor ve yazı tipleriyle ilgili diğer sorunlar
 
-(CELLSNET-41832) - Aspose Cells başarısız doğrulamalarıyla oluşturulan PDF/A
+(CELLSNET-41832) - PDF/A, Aspose Cells başarısız doğrulamalarla oluşturuldu
 
 (CELLSNET-43103) - Eğilim çizgisi Çizim Alanının dışına çıkıyor
 
@@ -74,7 +74,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43052) - Chart.Calculate düzgün çalışmıyor
 
-(CELLSNET-43040) - Çizgi Grafiği, Chart.ToImage kullanılarak PNG'ye kaydedildiğinde Boş Görülüyor
+(CELLSNET-43040) - Chart.ToImage kullanılarak PNG'e kaydedildiğinde Çizgi Grafiği Boş Görülüyor
 
 (CELLSNET-43039) - Grafiğin Veri Etiketleri yanlış yerleştirilmiş.
 
@@ -84,13 +84,13 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-41690) - Dijital imza şeffaflığını kaybediyor
 
-(CELLSNET-43152) - XLSB dosyasını açıp kaydetmek onu bozuyor
+(CELLSNET-43152) - XLSB dosyasının açılıp kaydedilmesi dosyayı bozuyor
 
 (CELLSNET-43143) - Çalışma kitaplarını R# gibi adlı çalışma sayfalarıyla birleştirmek bozuk çalışma kitaplarına neden oluyor
 
 (CELLSNET-43139) - Aspose.Cells, TEXT işlevini yanlış hesaplıyor
 
-(CELLSNET-43131) - Resmin saydam rengini ayarlamak XLSX biçimi için çalışır
+(CELLSNET-43131) - Resmin şeffaf rengini ayarlamak XLSX formatı için çalışır
 
 (CELLSNET-43128) - İbranice Yazı Tipleriyle Karakter Kümesi Problemi
 
@@ -108,13 +108,13 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43094) - Kat formülü doğru hesaplanmamış
 
-(CELLSNET-43091) - ODS'yi XLSX biçimine dönüştürürken Grafiğin Düzeni değişti
+(CELLSNET-43091) - ODS, XLSX biçimine dönüştürülürken Grafiğin Düzeni değişti
 
-(CELLSNET-43087) - ODS'den XLSX'e dönüştürme, bozuk e-tablo üretiyor
+(CELLSNET-43087) - ODS'den XLSX'e dönüştürme bozuk e-tablo üretiyor
 
 (CELLSNET-43080) - Excel'i Html olarak kaydet : Koşullu Biçimlendirme çalışmıyor
 
-(CELLSNET-42969) - Elektronik tabloyu PDF'ye dönüştürürken Koşullu Biçimlendirme korunmuyor
+(CELLSNET-42969) - Elektronik tablo PDF'e dönüştürülürken Koşullu Biçimlendirme korunmuyor
 
 (CELLSNET-42356) - Çalışma Kitaplarını birleştirmek, çalışma sayfa(lar)ındaki çizim nesnesi özelliklerini korumaz
 
@@ -122,7 +122,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43142) - Excel dosyasını açarken System.OverflowException
 
-(CELLSNET-43119) - Excel dosyasını PDF'ye dönüştürürken Şekilden Görüntüye Hata
+(CELLSNET-43119) - Excel dosyası PDF'e dönüştürülürken Şekilden Görüntüye Hata
 
 (CELLSNET-43078) - CSV dosyası yüklenirken hata oluştu
 

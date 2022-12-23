@@ -39,7 +39,7 @@ AsposeCellsExamples.DrawingObjects
 ## **截屏**
 请查看以下屏幕截图及其突出显示的区域以获得更多帮助。
 
-![待办事项：图像_替代_文本](how-to-run-the-examples_1.png)
+![待办事项：图片_替代_文本](how-to-run-the-examples_1.png)
 
 ## **贡献**
 如果您想添加或改进示例，我们鼓励您为该项目做出贡献。此存储库中的所有示例和展示项目都是开源的，可以在您自己的应用程序中自由使用。

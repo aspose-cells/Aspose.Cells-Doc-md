@@ -15,7 +15,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.5.
 |CELLSJAVA-42550|Den samtidiga konverteringen till PDF medan varje arbetsbok har sin egen privata (exklusiva) uppsättning teckensnitt|Ny funktion|
 |CELLSJAVA-42594|Upptäck LoadFormat och FileFormatType av XLAM|Förbättring|
 |CELLSJAVA-42604|Pivottabellens formatering och beteende ändrades efter att ha öppnat/sparat mallfilen|Insekt|
-|CELLSJAVA-41918|Kalkylark (XLS) blir skadat efter enkel laddning och lagring|Insekt|
+|CELLSJAVA-41918|Kalkylark (XLS) blir skadat efter enkel inläsning och lagring|Insekt|
 |CELLSJAVA-42616|Aspose.Cells bryter iteratorgränssnittet när Iterator.hasnext() anropas två gånger|Insekt|
 |CELLSJAVA-42607|Egenskapsvärden förvanskade vid extrahering av dokumentegenskaper|Insekt|
 |CELLSJAVA-42601|Arbetsboken är skadad efter att ha lagt till en vattenstämpel|Insekt|

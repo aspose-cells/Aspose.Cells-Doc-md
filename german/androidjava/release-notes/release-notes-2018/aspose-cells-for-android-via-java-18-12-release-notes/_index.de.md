@@ -15,7 +15,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |CELLSJAVA-42745|Ändern Sie den zurückgegebenen Wert zum Abrufen von Verbindungspunkten|Neue Funktion|
 |CELLSJAVA-42662|Bieten Sie die Möglichkeit, den Bereich als HTML zu exportieren|Neue Funktion|
 |CELLSJAVA-42746|Datenbalken fehlen, wenn XLSX in HTML konvertiert wird|Neue Funktion|
-|CELLSJAVA-42747|Der Wert ist noch vorhanden, wenn XLSX in HTML konvertiert wird|Neue Funktion|
+|CELLSJAVA-42747|Wert ist noch vorhanden, wenn XLSX in HTML umgewandelt wird|Neue Funktion|
 |CELLSJAVA-42634|Konvertieren Sie die linke rechte Bandform in ein Bild|Erweiterung|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - fehlende Paketlistendatei|Erweiterung|
 |CELLSJAVA-42528|Die Schriftart ist kein gültiges HTML5- und selbstschließendes Tag, und Webbrowser stellen ihren Inhalt falsch dar|Erweiterung|
@@ -23,31 +23,31 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |CELLSJAVA-42734|Problem bei der Behandlung aufeinanderfolgender Trennzeichen als unterschiedlich|Erweiterung|
 |CELLSJAVA-42731|Das Datumsformat ist für das japanische Gebietsschema falsch|Erweiterung|
 |CELLSJAVA-42748|LightCells API kann riesige Datei nicht laden|Erweiterung|
-|CELLSJAVA-42728|Beim Speichern in der PDF-Ausgabe wird eine Ausnahme (StackOverFlow) ausgelöst|Insekt|
+|CELLSJAVA-42728|Beim Speichern in die Ausgabe PDF wird eine Ausnahme (StackOverFlow) ausgelöst|Insekt|
 |CELLSJAVA-42729|Falscher Wert von ROUNDUP() berechnet|Insekt|
 |CELLSJAVA-42724|Kopieren Sie einen Bereich mit PasteType.ALL (Einfügeoptionen), wobei die Zeilenhöhen nicht ordnungsgemäß kopiert werden|Insekt|
 |CELLSJAVA-42722|Hyperlink-Textformatierung geht verloren, wenn neuer Text festgelegt wird|Insekt|
 |CELLSJAVA-42688|Ungültige Ausgabe im russischen Datumsformat|Insekt|
 |CELLSJAVA-42721|Problem mit SheetRender-Schriftarten|Insekt|
-|CELLSJAVA-42723|Ausnahme "java.lang.OutOfMemoryError: Java heap space" beim Rendern von MS Excel-Dateien in PDF|Insekt|
+|CELLSJAVA-42723|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern der MS Excel-Datei auf PDF|Insekt|
 |CELLSJAVA-42725|Anführungszeichen erscheinen in der Formel, wenn die Zellformel über Aspose.Cells abgerufen wird|Insekt|
 |CELLSJAVA-42720|Leistungsabfall bei Verwendung der bedingten Formatierung|Insekt|
-|CELLSJAVA-42737|Bei der XLSX->PNG-Konvertierung fehlt die Diagrammlinie|Insekt|
+|CELLSJAVA-42737|Bei der Konvertierung von XLSX->PNG fehlt die Diagrammlinie|Insekt|
 |CELLSJAVA-42735|Problem mit der getActualChartSize-Methode|Insekt|
 |CELLSJAVA-40861|SmartArt kopiert nicht, wenn die Arbeitsmappe kopiert wird|Insekt|
 |CELLSJAVA-42727|In der HTML-Ausgabe des Excel-Bereichs fehlt die Textformatierung|Insekt|
 |CELLSJAVA-42744|Symbolsätze werden falsch ausgerichtet, wenn XLSX in HTML konvertiert wird|Insekt|
-|CELLSJAVA-42772|Das Exportieren benannter Bereichsdaten wird nicht korrekt in HTML gerendert (Java)|Insekt|
+|CELLSJAVA-42772|Das Exportieren benannter Bereichsdaten wird nicht korrekt in HTML (Java) gerendert|Insekt|
 |CELLSJAVA-42753|Named-Range-Problem|Insekt|
 |CELLSJAVA-42764|Die Validierung gibt für die Methode „getInCellDropDown()“ immer „true“ zurück|Insekt|
 |CELLSJAVA-42768|Für verschiedene Gebietsschemas (Deutschland, Frankreich, Italien und Spanien) wird ein falsches benutzerdefiniertes Kulturformat zurückgegeben|Insekt|
-|CELLSJAVA-42758|Excel-in-PDF-Konvertierung – Problem beim Rendern von Messuhrdiagrammen|Insekt|
-|CELLSJAVA-42761|Die PDF-Wiedergabe löst eine OutOfMemoryError-Ausnahme aus|Insekt|
+|CELLSJAVA-42758|Konvertierung von Excel in PDF – Problem beim Rendern von Messuhrdiagrammen|Insekt|
+|CELLSJAVA-42761|PDF Wiedergabe löst OutOfMemoryError-Ausnahme aus|Insekt|
 |CELLSJAVA-42759|CellsException beim Konvertieren von Dateien|Ausnahme|
 |CELLSJAVA-42755|Ausnahme "NullPointerException" beim Instanziieren der XLSX-Datei(en)|Ausnahme|
 |CELLSJAVA-42762|NumberFormatException beim Verarbeiten von Dateien|Ausnahme|
-|CELLSJAVA-42774|NullPointerException beim Laden einer CSV|Ausnahme|
-|CELLSJAVA-42765|Ausnahme "com.aspose.cells.CellsException" beim Rendern einer Excel-Datei in das PDF-Dateiformat|Ausnahme|
+|CELLSJAVA-42774|NullPointerException beim Laden eines CSV|Ausnahme|
+|CELLSJAVA-42765|Ausnahme „com.aspose.cells.CellsException“ beim Rendern einer Excel-Datei in das Dateiformat PDF|Ausnahme|
 |CELLSJAVA-42754|Ausnahme „IllegalStateException: Invalid encoding: null“ beim Instanziieren eines XLS-Dateiformats|Ausnahme|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -56,7 +56,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 
 **Fügt die HtmlSaveOptions.WidthScalable-Eigenschaft hinzu**
 
-Gibt an, ob beim Exportieren der Datei in HTML eine skalierbare Einheit zur Beschreibung der Spaltenbreite verwendet wird. Der Standardwert ist falsch.
+Gibt an, ob beim Exportieren der Datei nach HTML eine skalierbare Einheit zur Beschreibung der Spaltenbreite verwendet wird. Der Standardwert ist „false“.
 
 **Fügt die WorkbookDesigner.UpdateEmptyStringAsNull-Eigenschaft hinzu**
 
@@ -92,7 +92,7 @@ Bietet dem Benutzer eine Methode zum Sammeln und Verarbeiten von Zirkelverweisen
 
 **Fügt die Eigenschaft TxtLoadOptions.TreatConsecutiveDelimitersAsOne hinzu**
 
-Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren einer CSV-Datei als eines verwendet werden sollen.
+Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren der CSV-Datei als eines verwendet werden sollen.
 
 **Fügt die Methode FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) hinzu**
 

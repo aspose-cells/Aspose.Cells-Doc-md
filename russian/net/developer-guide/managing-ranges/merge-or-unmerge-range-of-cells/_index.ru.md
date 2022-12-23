@@ -8,7 +8,7 @@ keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in r
 ---
 {{% alert color="primary" %}}
 
- Вы можете использовать Aspose.Cells для объединения или разделения диапазона ячеек. Aspose.Cells обеспечивает[**Диапазон.Объединить()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) а также[**Диапазон.Разъединить()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) методы для этой цели. В этой статье объясняется, как объединить диапазон ячеек в одну ячейку.
+ Вы можете использовать Aspose.Cells для объединения или разделения диапазона ячеек. Aspose.Cells обеспечивает[**Диапазон.Объединить()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) и[**Диапазон.Разъединить()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) методы для этой цели. В этой статье объясняется, как объединить диапазон ячеек в одну ячейку.
 
 {{% /alert %}}
 

@@ -21,7 +21,7 @@ Aspose.Cells tillhandahåller en speciell uppsättning klasser i[**Aspose.Cells.
 
 ### **Skapa en enkel pivottabell med Aspose.Cells**
 
-1. Lägg till data i ett kalkylblad med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod.
+1. Lägg till data i ett kalkylblad med hjälp av[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) föremål[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) metod.
  Dessa data kommer att användas som pivottabellens datakälla.
 1.  Lägg till en pivottabell till kalkylbladet genom att anropa[**Pivottabeller**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)metod, som är inkapslad i Worksheet-objektet.
 1.  Få tillgång till det nya[**Pivottabell**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) objekt från[**Pivottabeller**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)samling genom att skicka pivottabellindexet.
@@ -51,6 +51,6 @@ När du tilldelar ett cellområde som datakälla måste området gå från övre
 - [Pivottabell och källdata](/cells/sv/net/pivot-table-and-source-data/)
 - [Pivottabell Dölj och sortera data](/cells/sv/net/pivot-table-hide-and-sort-data/)
 - [Uppdatera och beräkna pivottabellen med beräknade objekt](/cells/sv/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [Spara pivottabell i ODS-fil](/cells/sv/net/save-pivot-table-in-ods-file/)
+- [Spara pivottabellen i filen ODS](/cells/sv/net/save-pivot-table-in-ods-file/)
 - [Visa alternativ för rapportfiltersidor](/cells/sv/net/show-report-filter-pages-option/)
 - [Arbeta med datavisningsformat för DataField i pivottabell](/cells/sv/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

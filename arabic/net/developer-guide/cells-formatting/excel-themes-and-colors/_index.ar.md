@@ -18,11 +18,11 @@ url: /ar/net/excel-themes-and-colors/
 - [**النمط ، الخلفية ، الموضوع ، اللون**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundthemecolor): يستخدم لضبط لون الخلفية.
 - [**الخط**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/themecolor): يستخدم لضبط لون الخط.
 - [**المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/getthemecolor): يُستخدم للحصول على لون نسق.
-- [**المصنف. SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): يستخدم لتعيين لون النسق.
+- [**المصنف. SetThemeColor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/setthemecolor): يُستخدم لتعيين لون النسق.
 
 يوضح المثال التالي كيفية الحصول على ألوان النسق وتعيينها.
 
-يستخدم المثال التالي ملف XLSX للقالب ، ويحصل على ألوان لأنواع مختلفة من ألوان النسق ، ويغير الألوان ويحفظ ملف Excel Microsoft.
+يستخدم المثال التالي ملف قالب XLSX ، ويحصل على ألوان لأنواع مختلفة من ألوان النسق ، ويغير الألوان ويحفظ ملف Excel Microsoft.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
@@ -30,7 +30,7 @@ url: /ar/net/excel-themes-and-colors/
 
 يوضح المثال التالي كيفية تطبيق السمات المخصصة بالألوان التي تريدها. نستخدم نموذج ملف تم إنشاؤه يدويًا في Microsoft Excel 2007.
 
-يقوم المثال التالي بتحميل قالب XLSX ، ويحدد الألوان لأنواع مختلفة من ألوان السمات ، ويطبق الألوان المخصصة ويحفظ ملف Excel.
+يقوم المثال التالي بتحميل ملف قالب XLSX ، وتحديد الألوان لأنواع ألوان السمة المختلفة ، وتطبيق الألوان المخصصة وحفظ ملف Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 

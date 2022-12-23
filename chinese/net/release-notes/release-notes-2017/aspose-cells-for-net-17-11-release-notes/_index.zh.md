@@ -20,10 +20,10 @@ url: /zh/net/aspose-cells-for-net-17-11-release-notes/
 |CELLSNET-45755|无法获取 Smart Art 形状的文本|强化|
 |CELLSNET-45720|数据透视表刷新数据的时间太长|表现|
 |CELLSNET-45680|转换为图像格式时形状方向错误|漏洞|
-|CELLSNET-45679|星形在输出 PDF 中未正确显示|漏洞|
+|CELLSNET-45679|星形未在输出中正确显示 PDF|漏洞|
 |CELLSNET-45669|转换为图像时字符重叠|漏洞|
 |CELLSNET-45665|一些绘图元素倒置，而另一些向右移动|漏洞|
-|CELLSNET-43912|将电子表格呈现为 PDF 时线条对象的位置发生了变化|漏洞|
+|CELLSNET-43912|将电子表格呈现为 PDF 时，线条对象的位置发生了变化|漏洞|
 |CELLSNET-45715|数据透视表选项 - 显示值行 - 在重新保存时启用|漏洞|
 |CELLSNET-45671|刷新/计算数据透视表数据时缺少计算字段的总值|漏洞|
 |CELLSNET-45650|将 MHTML 文件格式保存到 Excel 文件时，将数据扩展到适当的列时出错|漏洞|
@@ -38,9 +38,9 @@ url: /zh/net/aspose-cells-for-net-17-11-release-notes/
 |CELLSNET-45758|Style.QuotePrefix 属性不适用于 XLSB 文件格式|漏洞|
 |CELLSNET-45757|特定的 Excel 工作簿在打开和保存后隐藏|漏洞|
 |CELLSNET-45754|列在合并的工作簿中意外扩展|漏洞|
-|CELLSNET-45749|具有多种字体的 HTML 字符串会损坏输出的 Excel 文件|漏洞|
+|CELLSNET-45749|HTML 具有多种字体的字符串损坏了输出 Excel 文件|漏洞|
 |CELLSNET-45739|通过 Aspose.Cells 重新保存时的 SpreadsheetML 文件包含应用的附加保护设置|漏洞|
-|CELLSNET-45738|AutoFitColumns 破坏输出 Excel 文件中的 HTML 格式|漏洞|
+|CELLSNET-45738|AutoFitColumns 中断输出 Excel 文件中的格式设置 HTML|漏洞|
 |CELLSNET-45734|MS Excel 打开输出文件时提示错误信息|漏洞|
 |CELLSNET-45733|取消组合形状后更改文本框字体|漏洞|
 |CELLSNET-45714|自动调整行后行高变得太大|漏洞|
@@ -48,7 +48,7 @@ url: /zh/net/aspose-cells-for-net-17-11-release-notes/
 |CELLSNET-45707|使用 PivotTable.RefreshData 时出现异常|例外|
 |CELLSNET-45728|另存为 PDF 页面时索引超出范围异常|例外|
 |CELLSNET-45704|将 Aspose.Cells 用作 Azure Web 作业时，Workbook.Save() 失败并出现异常|例外|
-|CELLSNET-45753|XLSB转PDF时出现System.ArgumentOutOfRangeException|例外|
+|CELLSNET-45753|XLSB转换为PDF时出现System.ArgumentOutOfRangeException|例外|
 |CELLSNET-45751|ExportDataTable() 方法中使用的 ExportTableOptions.Indexes 属性导致异常|例外|
 |CELLSNET-45726|加载输出 XLS 文件时出现异常（排除 OLE 对象、图像等）|例外|
 |CELLSNET-45723|如果公式包含字符“[”]，R1C1Formula 将抛出异常|例外|

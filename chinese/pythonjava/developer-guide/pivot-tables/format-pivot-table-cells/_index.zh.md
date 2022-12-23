@@ -16,10 +16,10 @@ url: /zh/python-java/format-pivot-table-cells/
 
 **输入数据透视表，在执行代码之前**
 
-![待办事项：图像_替代_文本](format-pivot-table-cells_1.png)
+![待办事项：图片_替代_文本](format-pivot-table-cells_1.png)
 
 **执行代码后的输出数据透视表**
 
-![待办事项：图像_替代_文本](format-pivot-table-cells_2.png)
+![待办事项：图片_替代_文本](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "PivotTables-FormatCells.py" >}}

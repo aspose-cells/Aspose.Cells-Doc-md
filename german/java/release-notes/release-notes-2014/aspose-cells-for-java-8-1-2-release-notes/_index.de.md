@@ -10,8 +10,8 @@ url: /de/java/aspose-cells-for-java-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java wurde auf Version 8.1.2 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 20 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+ Aspose.Cells for Java wurde auf Version 8.1.2 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 20 neue nützliche Verbesserungen enthält.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -34,22 +34,22 @@ Verbesserungen
 Fehler
 
 (CELLSJAVA-40866) – Beim Konvertieren in HTML wird ImageFormat in SaveOptions nicht berücksichtigt
-(CELLSJAVA-40854) – HtmlHiddenRowDisplayType.HIDDEN bewirkt, dass sich die Zellen im resultierenden HTML verschieben (Spanning-Problem)
+(CELLSJAVA-40854) – HtmlHiddenRowDisplayType.HIDDEN bewirkt, dass sich die Zellen im Ergebnis HTML verschieben (Spanning-Problem)
 (CELLSJAVA-40835) – Exportproblem mit versteckten Spalten in der gerenderten HTML-Datei
 (CELLSJAVA-40879) – Problem beim Erstellen eines Bildes des Datenbereichs (Blatt zu Bild)
 (CELLSJAVA-40878) – Die Einstellung der vertikalen und horizontalen Auflösung beim Speichern der Tabelle als JPEG-Bild wird nicht wirksam
-(CELLSJAVA-40877) – Excel in PDF – Schlechte Bildqualität, gerendert von Aspose Cells 8.xx
+(CELLSJAVA-40877) - Excel an PDF - Schlechte Bildqualität, gerendert von Aspose Cells 8.xx
 (CELLSJAVA-40910) – Bilder gehen verloren, wenn PDF mit PdfSaveOptions.setImageType(ImageFormat.getPng()) gerendert wird
 (CELLSJAVA-40907) – Datenpunktmarkierungen fehlen im Diagramm, wenn eine Excel-Vorlagendatei als HTML gespeichert wird
-(CELLSJAVA-40904) – Einige Diagramme werden nicht korrekt in unser HTML-Dateiformat gerendert
+(CELLSJAVA-40904) – Einige Diagramme werden nicht korrekt in das Dateiformat HTML gerendert
 (CELLSJAVA-40899) – Problem mit abgeschnittenen Daten in Sheet18
 (CELLSJAVA-40898) – Problem mit abgeschnittenen Daten in Sheet17
 (CELLSJAVA-40886) – Serienmarkierungen beim erneuten Speichern einer Excel-Datei unterbrochen
 (CELLSJAVA-40885) – Diagrammexport fehlende Datenpunktform im Ausgabebildformat
 (CELLSJAVA-40869) – Bei Gleichungen fehlen Glyphen und bestimmter formatierter Text wird in der gerenderten PDF-Datei abgeschnitten
 (CELLSJAVA-40865) – Das Bild ist in der PDF-Ausgabe nicht klar
-(CELLSJAVA-40860) – Blaseneigenschaften im Diagramm geändert, wenn die XLSX-Vorlagendatei erneut gespeichert wird
-(CELLSJAVA-40859) – Blaseneigenschaften im Diagramm geändert, wenn die XLSX-Vorlagendatei erneut gespeichert wird
+(CELLSJAVA-40860) – Blaseneigenschaften im Diagramm geändert, wenn die Vorlagendatei XLSX erneut gespeichert wird
+(CELLSJAVA-40859) – Blaseneigenschaften im Diagramm geändert, wenn die Vorlagendatei XLSX erneut gespeichert wird
 (CELLSJAVA-40858) – Column100PercentStacked oder Bar Label-Eigenschaft ist verloren gegangen
 (CELLSJAVA-40817) – Das Bild in der Ausgabe-PDF wird unscharf
 (CELLSJAVA-40880) – DateTime-Typ wird nicht erkannt, wenn ein DateTime-Wert zur Laufzeit über Aspose.Cells hinzugefügt wird
@@ -57,7 +57,7 @@ Fehler
 
 Ausnahmen
 
-(CELLSJAVA-40901) – Ausnahme: „Shape to image Error! “ beim Rendern in das PDF-Dateiformat
+(CELLSJAVA-40901) – Ausnahme: „Shape to image Error! “ beim Rendern in das Dateiformat PDF
 
 
 Öffentliche API und rückwärts inkompatible Änderungen

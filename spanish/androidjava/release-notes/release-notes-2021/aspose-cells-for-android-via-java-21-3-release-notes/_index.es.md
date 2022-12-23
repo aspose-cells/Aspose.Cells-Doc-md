@@ -16,7 +16,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43400|Admite la función ÚNICA ()|
 |CELLSJAVA-42863|Obtener el subtítulo del gráfico|
 |CELLSJAVA-43401|Admite el resultado de formato unificado para la era japonesa para todos los JDK|
-|CELLSJAVA-43398|El formato condicional no se representa correctamente en la conversión de ODS a HTML|
+|CELLSJAVA-43398|El formato condicional no se procesa correctamente en la conversión ODS a HTML|
 |CELLSJAVA-43371|La conversión de XLSX a PDF se cuelga|
 |CELLSJAVA-43353|Diferentes diagramas en excel a pdf.|
 |CELLSJAVA-43377|Problemas de colocación de imágenes al convertir Excel a Html|
@@ -28,8 +28,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43378|Mostrar como cambios en blanco de verdadero a falso después de clonar el libro de trabajo|
 |CELLSJAVA-43382|La copia produce un libro de trabajo dañado|
 |CELLSJAVA-43364|Problema al guardar el gráfico con una imagen en el marcador en la imagen|
-|CELLSJAVA-43389|Se pierde la configuración de protección con contraseña del libro de trabajo/hoja de trabajo al guardar como formato de archivo XLSB|
-|CELLSJAVA-43392|La hoja de copia produce un libro de trabajo corrupto|
+|CELLSJAVA-43389|La configuración de protección con contraseña del libro de trabajo/hoja de trabajo se pierde al guardar como formato de archivo XLSB|
+|CELLSJAVA-43392| La hoja de copia produce un libro de trabajo corrupto|
 |CELLSJAVA-43388|El archivo de salida está dañado después de copiar el libro de trabajo|
 |CELLSJAVA-43406|Problemas al convertir HTML a Excel|
 |CELLSJAVA-43399|CalculateFormula() crea muchos valores de tipo de error #VALOR|
@@ -37,8 +37,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43384|Problema de porcentajes para algunas etiquetas al renderizar a PDF e imprimir gráficos|
 |CELLSJAVA-43402|Genere una imagen de gráfico exacta desde un archivo de Excel|
 |CELLSJAVA-43408|La parte superior del gráfico se corta y la línea inclinada sube|
-|CELLSJAVA-43379|Excepción generada al guardar el libro de trabajo como HTML|
-|CELLSJAVA-43376|Excepción "java.lang.ClassCastException: Desbordamiento en la conversión de int a byte. Valor de int: 144" al cargar un archivo XLSX|
+|CELLSJAVA-43379|Se generó una excepción al guardar el libro de trabajo como HTML|
+|CELLSJAVA-43376|Excepción "java.lang.ClassCastException: desbordamiento en la conversión de int a byte. valor de int: 144" al cargar un archivo XLSX|
 |CELLSJAVA-43387|Exportar una sola hoja a HTML genera una excepción|
 |CELLSJAVA-43412|CellsException en la conversión de xlsx a html|
 

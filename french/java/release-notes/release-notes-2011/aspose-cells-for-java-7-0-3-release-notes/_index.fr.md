@@ -16,17 +16,17 @@ url: /fr/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Prend en charge LightCellsDataProvider pour enregistrer le fichier XLS
 
- Des améliorations sont apportées à la fonctionnalité Excel vers PDF
+ Des améliorations sont apportées pour la fonctionnalité Excel vers PDF
 
  31329 - Incluez une méthode utile : PivotField.getBaseIndex()
 
- 40015 - Rendre la bibliothèque compatible avec webservices-rt.jar
+40015 - Rendre la bibliothèque compatible avec webservices-rt.jar
 
  40011 - Prise en charge pour obtenir toutes les couleurs utilisées par différents objets dans le classeur
 
- Exceptions
+ Des exceptions
 
-40022 - Lecture du fichier modèle XLS avec jeu d'options : LoadDataOnly=true donne une exception
+ 40022 - Lecture du fichier modèle XLS avec jeu d'options : LoadDataOnly=true donne une exception
 
  40017 - La méthode WorksheetCollection.getNamedRanges() donne une exception
 
@@ -34,9 +34,9 @@ url: /fr/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Insectes
 
- 31303 - La valeur Cell avec le caractère '"' et ',' n'a pas été enregistrée correctement pour le fichier CSV
+ 31303 - La valeur Cell avec le caractère '"' et ',' a été enregistrée de manière incorrecte pour le fichier CSV
 
- 31376 - L'enregistrement du PDF prenait trop de temps et générait un fichier PDF très volumineux
+ 31376 - L'enregistrement de PDF a pris trop de temps et a généré un très gros fichier PDF
 
  40001 - Le symbole monétaire a été perdu lors du formatage des valeurs de cellule
 
@@ -48,13 +48,13 @@ url: /fr/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40013 - Les symboles du filtre automatique ont été dupliqués et sont devenus plus grands lors de la ré-enregistrement du fichier XLS
 
- 40014 - Le quadrillage n'était pas affiché dans l'image générée pour une feuille
+40014 - Le quadrillage n'était pas affiché dans l'image générée pour une feuille
 
- 40016 - Le fichier XLS enregistré provoque l'envoi de messages d'avertissement par MS Excel -1
+ 40016 - Le fichier XLS enregistré fait que MS Excel donne des messages d'avertissement -1
 
  40020 - Le fichier XLS enregistré fait que MS Excel donne des messages d'avertissement -2
 
-40021 - Le fichier XLS enregistré provoque l'envoi de messages d'avertissement par MS Excel -3
+ 40021 - Le fichier XLS enregistré provoque l'envoi de messages d'avertissement par MS Excel -3
 
  40023 - Cell perdre le format après la suppression de lignes
 
@@ -68,4 +68,4 @@ url: /fr/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40084 - Les valeurs DateTime sont lues au format double
 
- 40085 - Lorsque la ligne/colonne dépasse la limite du fichier XLS, le XLS enregistré provoque : erreur "Excel a trouvé du contenu illisible" lors de son ouverture dans MS Excel
+ 40085 - Lorsque la ligne/colonne dépasse la limite du fichier XLS, le XLS enregistré provoque : erreur "Excel trouvé un contenu illisible" lors de l'ouverture dans MS Excel

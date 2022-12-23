@@ -56,7 +56,7 @@ book.Save(myDir + "output.xlsx");
 
 {{% /alert %}}
 ## **Ajout de la propriété ConvertFormulasData à la classe HTMLLoadOptions**
-La propriété ConvertFormulasData a été ajoutée à la classe HTMLLoadOptions, afin de faciliter aux développeurs le chargement de formules Excel à partir de fichiers HTML. La propriété booléenne ConvertFormulasData indique s'il faut ou non convertir la chaîne en formule lorsque la valeur de la chaîne commence par le caractère '='.
+La propriété ConvertFormulasData a été ajoutée à la classe HTMLLoadOptions, afin de permettre aux développeurs de charger des formules Excel à partir de fichiers HTML. La propriété booléenne ConvertFormulasData indique s'il faut ou non convertir la chaîne en formule lorsque la valeur de la chaîne commence par le caractère '='.
 
 **C#**
 
@@ -84,6 +84,6 @@ La valeur par défaut de la propriété ConvertFormulasData est false.
 
 {{% /alert %}}
 ## **Ajout de la propriété ImageOptions à la classe HtmlSaveOptions**
-La propriété ImageOptions a été ajoutée à la classe HtmlSaveOptions. L'exposition de la propriété ImageOptions a permis aux développeurs de définir les préférences pour les images intégrées dans le code HTML lors de l'exportation des feuilles de calcul.
+La propriété ImageOptions a été ajoutée à la classe HtmlSaveOptions. L'exposition de la propriété ImageOptions a permis aux développeurs de définir les préférences pour les images intégrées dans le HTML lors de l'exportation des feuilles de calcul.
 ## **Propriété HtmlSaveOptions.ExportChartImageFormat obsolète**
 HtmlSaveOptions.ExportChartImageFormat a été marqué comme obsolète à partir de Aspose.Cells for .NET 8.0.2. Il est conseillé d'utiliser plutôt HtmlSaveOptions.ImageOptions pour les paramètres de format d'image lors de l'exportation de feuilles de calcul au format HTML.

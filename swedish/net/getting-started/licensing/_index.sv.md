@@ -41,7 +41,7 @@ Dessa inställningar kan vara obligatoriska i vissa fall/scenarier om du använd
 
 {{% /alert %}}
 
-Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells-biblioteket. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utdata-PDF- eller bildfilen vid Aspose.Cells skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden. Du kan inte dölja utvärderingsupphovsrättsvarningen (det extra kalkylbladet) i GridWeb-kontrollen också, den kommer alltid att läggas till (i slutet i kalkylbladsflikarna) i kontrollen.
+Dessutom kommer ett kalkylblad med utvärderingsvattenstämpel alltid att visas som det aktiva kalkylbladet i den genererade excel-filen med Aspose.Cells-biblioteket. Endast i licensierad version kan du ställa in det aktiva kalkylbladet till andra kalkylblad. I utgången PDF eller bildfilen av Aspose.Cells skulle en utvärderingsvattenstämpel klistras överst i dokumentet/bilden. Du kan inte dölja utvärderingsupphovsrättsvarningen (det extra kalkylbladet) i GridWeb-kontrollen också, den kommer alltid att läggas till (i slutet i kalkylbladsflikarna) i kontrollen.
 
 {{% alert color="primary" %}}
 

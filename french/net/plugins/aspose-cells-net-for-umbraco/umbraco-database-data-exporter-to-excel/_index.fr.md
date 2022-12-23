@@ -20,7 +20,7 @@ Cette version initiale de l'Add-on possède les fonctionnalités suivantes :
 - Autoriser l'utilisation en tant que source de données (table, vues, requête personnalisée)
 - Exporter des données vers des documents Excel Microsoft (.xls, .xlsx et .xlsb)
 - Exporter les données vers un document texte délimité par des tabulations (*.txt)
-- Exporter des données vers CSV (délimité par des virgules) (*.csv)
+- Exporter les données vers CSV (délimité par des virgules) (*.csv)
 - Exporter des données vers une feuille de calcul OpenDocument (*.ods)
 - Option pour sélectionner le format de sortie souhaité avant l'exportation.
 - Le document exporté est automatiquement envoyé au navigateur pour téléchargement.
@@ -57,7 +57,7 @@ Une fois téléchargé, veuillez suivre ces étapes pour installer ce package su
 
 **Noter:** Vous pouvez obtenir une erreur "Longueur maximale de la demande dépassée" lors de l'installation. Vous pouvez facilement résoudre ce problème en mettant à jour la valeur 'maxRequestLength' dans votre fichier Umbraco web.config.
 <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" />
-## **Utilisant**
+## **En utilisant**
 Après avoir installé le module Aspose .NET Exportateur de données de base de données vers Excel pour Umbraco, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer
 
 1.  Assurez-vous que vous êtes connecté à Umbraco**Développeur** section, par exemple `http://www.myblog.com/umbraco/`

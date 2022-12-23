@@ -10,6 +10,6 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.12 per Wi
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-963| Sincronizza le funzionalità con la versione .Net|Supporto|

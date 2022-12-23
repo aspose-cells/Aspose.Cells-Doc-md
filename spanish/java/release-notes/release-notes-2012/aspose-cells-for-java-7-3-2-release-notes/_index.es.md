@@ -20,12 +20,12 @@ Estamos
 
  Mejoras
 
-- Cerrar flujos internos para liberar recursos de memoria en la conversión de PDF
+- Cerrar flujos internos para liberar recursos de memoria en la conversión PDF
 - Copie Sparklines al copiar la hoja de trabajo
 
  Excepciones
 
-- Abrir un archivo XLS causó StackOverflowError
+- Abrir un archivo XLS provocó un error de desbordamiento de pila
 - Guardar PDF provocó una excepción
 - Worksheet.getFreezedPanes() causó NullPointerException
 - Abrir un archivo XML vacío provocó una excepción
@@ -43,7 +43,7 @@ Estamos
 
  Insectos
 
-- Algunas regiones guardadas en las plantillas XLS no se pueden reconocer al leer
+- Algunas regiones guardadas en las plantillas XLS no se pudieron reconocer al leer
 - Chart-to-Image falla al representar la escala para los gráficos de barras
 - Pérdida de datos después de la conversión de XLSX a PDF
 - Los gráficos circulares y de dispersión no funcionan si se borra Cellcollection

@@ -16,6 +16,6 @@ Il codice di esempio seguente carica il file[esempio di file Excel](55541812.xls
 |:- |:- |
 |![cose da fare:immagine_alt_testo](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3.png)|![cose da fare:immagine_alt_testo](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4.png)|
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Rendering-RenderLimitedNoOfSequentialPages-1.java" >}}

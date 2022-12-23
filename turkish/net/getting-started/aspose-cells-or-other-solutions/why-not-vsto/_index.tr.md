@@ -36,7 +36,7 @@ Aspose.Cells, çalışması için herhangi bir ek parçanın yüklenmesini gerek
 
 Aspose bileşenleri yüksek düzeyde ölçeklenebilir ve ışık hızındadır. Bunlar gerçek bir .NET çözümüdür ve tek bir uygulamaya güç sağlayan tek bir sunucuda veya kurumsal bir uygulamaya güç veren yük dengeli bir web grubu üzerinde kusursuz bir şekilde çalışır.
 
-## Özellikler
+## Özellikleri
 
 - [Aspose.Cells'deki Akıllı İşaretçiler](/cells/tr/net/smart-markers-in-aspose-cells/)
 - [Dönüştürmek](/cells/tr/net/conversion/)

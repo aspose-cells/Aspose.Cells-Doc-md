@@ -9,7 +9,7 @@ keywords: insert comments, insert notes
 ---
 ## **introduzione**
 
-commenti vengono utilizzati per aggiungere ulteriori informazioni alle celle. Aspose.Cells fornisce due metodi per aggiungere commenti alle celle. Il primo consiste nel creare manualmente i commenti in un file di progettazione. Questi commenti vengono quindi importati utilizzando Aspose.Cells. Il secondo consiste nell'aggiungere commenti utilizzando l'API Aspose.Cells in fase di esecuzione. Questo argomento illustra l'aggiunta di commenti alle celle utilizzando l'API Aspose.Cells. Verranno spiegati anche i commenti di formattazione.
+I commenti vengono utilizzati per aggiungere ulteriori informazioni alle celle. Aspose.Cells fornisce due metodi per aggiungere commenti alle celle. Il primo consiste nel creare manualmente i commenti in un file di progettazione. Questi commenti vengono quindi importati utilizzando Aspose.Cells. Il secondo consiste nell'aggiungere commenti utilizzando Aspose.Cells API in fase di esecuzione. Questo argomento illustra l'aggiunta di commenti alle celle utilizzando Aspose.Cells API. Verrà inoltre illustrata la formattazione dei commenti.
 
 ## **Aggiunta di un commento**
 
@@ -25,7 +25,7 @@ commenti vengono utilizzati per aggiungere ulteriori informazioni alle celle. As
 
 ## **Aggiungi un'immagine al commento**
 
-Con Microsoft Excel 2007, è anche possibile avere un'immagine come sfondo di un commento di cella. In Excel 2007 ciò si ottiene eseguendo i seguenti passaggi. (Suppongono che tu abbia già aggiunto un commento di cella.)
+Con Microsoft Excel 2007 è anche possibile avere un'immagine come sfondo di un commento di cella. In Excel 2007 ciò si ottiene eseguendo i seguenti passaggi. (Suppongono che tu abbia già aggiunto un commento di cella.)
 
 1. Fare clic con il pulsante destro del mouse sulla cella che contiene il commento.
 1.  Selezionare**Mostra/Nascondi commenti**e cancella qualsiasi testo dal commento.

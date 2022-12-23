@@ -10,7 +10,7 @@ url: /ar/java/get-the-version-number-of-the-application-that-created-the-excel-d
 
 {{% /alert %}}
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[**Workbook.getBuiltInDocumentProperties (). getVersion ()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)منشأه. يقوم بتحميل ملفات Excel التي تم إنشاؤها باستخدام Microsoft Excel 2003 و 2007 و 2010 و 2013 ويطبع رقم إصدار التطبيق الذي أنشأ مستندات Excel هذه.
+ يوضح نموذج التعليمات البرمجية التالي استخدام[**Workbook.getBuiltInDocumentProperties (). getVersion ()**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Version)خاصية. يقوم بتحميل ملفات Excel التي تم إنشاؤها باستخدام Microsoft Excel 2003 و 2007 و 2010 و 2013 ويطبع رقم إصدار التطبيق الذي أنشأ مستندات Excel هذه.
 
 كمرجع لك ، يوجد أدناه إخراج وحدة التحكم الذي ينشئه نموذج التعليمات البرمجية.
 

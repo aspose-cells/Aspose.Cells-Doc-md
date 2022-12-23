@@ -6,7 +6,7 @@ url: /sv/java/display-or-hide-row-column-headers-in-ruby/
 ---
 ## **Aspose.Cells - Visa eller dölj radkolumnrubriker**
 ### **Döljer rad-/kolumnrubriker**
-För att dölja rad-/kolumnrubriker med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**DisplayHideRowColumnHeaders** modul.
+ För att dölja rad-/kolumnrubriker med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**DisplayHideRowColumnHeaders** modul.
 
 **Ruby kod**
 

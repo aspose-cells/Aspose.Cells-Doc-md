@@ -37,7 +37,7 @@ Im obigen Screenshot sehen Sie, dass eine Formel zu B3 hinzugefügt, aber noch n
 
 {{% alert color="primary" %}} 
 
- Benutzer können Formeln auch durch Klicken berechnen**Einreichen**.
+ Benutzer können Formeln auch durch Klicken berechnen**einreichen**.
 
 **Klicken Sie auf die Schaltfläche Senden von GridWeb** 
 

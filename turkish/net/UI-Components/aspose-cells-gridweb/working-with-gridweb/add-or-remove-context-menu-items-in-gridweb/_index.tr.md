@@ -28,7 +28,7 @@ Aşağıdaki ASP.NET işaretlemesi, GridWeb'e bağlam menüsü öğesi ekler.
 
 Yukarıdaki ASP.NET işaretlemesi kullanılarak eklendikten sonra içerik menüsü öğesi bu şekilde görünür.
 
-![yapılacaklar:resim_alternatif_Metin](add-or-remove-context-menu-items-in-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](add-or-remove-context-menu-items-in-gridweb_1.png)
 
 Bu, bağlam menüsü öğesi tıklandığında yürütülen olay işleyici kodudur. Kod önce komut adını kontrol eder, bizim komutumuzla eşleşirse, aktif GridWeb çalışma sayfasının A1 hücresine bir metin ekler ve metni görünür kılmak için ilk sütun genişliğini 40 birim olarak ayarlar.
 
@@ -39,7 +39,7 @@ Bu, bağlam menüsü öğesi tıklandığında yürütülen olay işleyici kodud
 
 Bağlam menüsü öğesine tıkladığınızda GridWeb böyle görünür.
 
-![yapılacaklar:resim_alternatif_Metin](add-or-remove-context-menu-items-in-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](add-or-remove-context-menu-items-in-gridweb_2.png)
 ## **Kod Kullanarak Aspose.Cells.GridWeb'de Bağlam Menüsü Öğeleri Ekleme**
 Bu kod, kod kullanarak bir GridWeb içine bağlam menüsü öğesinin nasıl ekleneceğini gösterir.
 

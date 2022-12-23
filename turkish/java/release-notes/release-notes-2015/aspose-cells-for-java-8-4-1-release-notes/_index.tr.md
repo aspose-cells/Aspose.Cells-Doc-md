@@ -28,13 +28,13 @@ Ana kod tabanı Java 6'ya taşındı (Java 7 ve 8 de desteklenir). Destek düşt
 
 ### **Hatalar**
 
-(CELLSJAVA-41229) - Aspose.Cells, Excel'deki sayfalar için HTML'ye dönüştürme için ayrı HTM'ler ve CSS dosyası oluşturmuyor
+(CELLSJAVA-41229) - Aspose.Cells, Excel'deki sayfalar için HTML'e dönüştürme için ayrı HTM'ler ve CSS dosyası oluşturmuyor
 
 (CELLSJAVA-41170) - SheetRender.toImage, grafiğin x ekseninde "(boş)" etiketleriyle görüntüyü oluşturur
 
 (CELLSJAVA-41270) - Birleştirilmiş alan iyi kaydırılmadığından Cells.insertRange() ile sorun
 
-(CELLSJAVA-41240) - Elektronik tablo PDF'ye dönüştürülürken Arial yazı tipindeki metin üstten kırpılıyor
+(CELLSJAVA-41240) - Elektronik tablo PDF olarak işlenirken Arial yazı tipindeki metin üstten kırpılıyor
 
 (CELLSJAVA-41238) - KAĞIT_A_2, PDF olarak kaydederken beklendiği gibi çalışmıyor
 
@@ -46,23 +46,23 @@ Ana kod tabanı Java 6'ya taşındı (Java 7 ve 8 de desteklenir). Destek düşt
 
 (CELLSJAVA-40993) - Büyüme Tablosunda Yatay Kılavuz Çizgiler eksik
 
-(CELLSJAVA-41259) - Elektronik tabloyu HTML'ye dönüştürürken Name.setRefersTo'yu ayarlamak ve formülleri yeniden hesaplamak yanlış değer veriyor
+(CELLSJAVA-41259) - Elektronik tabloyu HTML'e dönüştürürken Name.setRefersTo'yu ayarlamak ve formülleri yeniden hesaplamak yanlış değer veriyor
 
-(CELLSJAVA-41258) - XLSX'i Aspose.Cells ile yüklemek ve kaydetmek, ortaya çıkan e-tabloyu bozar
+(CELLSJAVA-41258) - XLSX'in Aspose.Cells ile yüklenmesi ve kaydedilmesi, ortaya çıkan e-tabloyu bozar
 
-(CELLSJAVA-41255) - XLSX çıkışında özel düğme resme dönüşür ve başlık kaybolur
+(CELLSJAVA-41255) - Özel düğme resim olur ve çıktıda başlık kaybolur XLSX
 
-(CELLSJAVA-41254) - Microsoft Çıktı XLSX dosyası açıldığında Excel çöküyor
+(CELLSJAVA-41254) - Microsoft XLSX çıktı dosyası açıldığında Excel çöküyor
 
-(CELLSJAVA-41253) - Çıktı XLSX dosyasındaki açılır liste kayboluyor
+(CELLSJAVA-41253) - XLSX çıktı dosyasındaki açılır liste kayboluyor
 
 ### **İstisnalar**
 
-(CELLSJAVA-41266) - şablon XLSX dosyası açılırken java.lang.NumberFormatException oluştu
+(CELLSJAVA-41266) - XLSX şablonu dosyası açılırken java.lang.NumberFormatException oluştu
 
-(CELLSJAVA-41248) - Kaynak XLSX dosyası açılırken boş işaretçi istisnası
+(CELLSJAVA-41248) - Kaynak XLSX dosyasını açarken boş işaretçi istisnası
 
-(CELLSJAVA-41265) - İstisna: Bir SpreadsheetML dosyası açılırken "java.lang.NullPointerException"
+(CELLSJAVA-41265) - İstisna: SpreadsheetML dosyası açılırken "java.lang.NullPointerException"
 
 (CELLSJAVA-41264) - Cell.getStringValueWithoutFormat kullanılırken istisna
 
@@ -100,7 +100,7 @@ Lütfen bunun yerine Cell.Formula özelliğini kullanın.
 
 ImageOrPrintOptions.SVGFitToViewPort özelliğini ekler.
 
-Oluşturulan SVG görüntüsünün bağlantı noktasını görüntülemek için uygun olup olmadığını gösterir.
+Oluşturulan SVG görüntüsünün görüntüleme bağlantı noktasına uygun olup olmadığını gösterir.
 
 ImageOrPrintOptions.SetDesiredSize yöntemini ekler.
 

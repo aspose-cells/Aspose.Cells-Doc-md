@@ -138,7 +138,7 @@ url: /zh/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsConditionalFormatting – 可以是 true 或 false：
+-  IsConditionalFormatting – 可以是 true 或 false：
  - 当 Performance 参数设置为“off”时，默认值为 false。
  - 当 Performance 参数设置为“on”时，默认值为 true。
  - 当 Performance 参数设置为 'on' 时，子元素报告可以重新设置点报告的 AutoRowFile 参数。

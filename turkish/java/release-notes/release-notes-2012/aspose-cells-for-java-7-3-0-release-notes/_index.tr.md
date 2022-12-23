@@ -24,7 +24,7 @@ Biz
 
 
 
-Diğer önemli özellikler, geliştirmeler ve düzeltmeler aşağıda verilmiştir.
+ Diğer önemli özellikler, geliştirmeler ve düzeltmeler aşağıda verilmiştir.
 
  Yeni özellikler
 
@@ -44,7 +44,7 @@ Diğer önemli özellikler, geliştirmeler ve düzeltmeler aşağıda verilmişt
 - Adlandırılmış aralık iki kez oluşturuldu
 - sortNames() yöntemi, bir XLSM dosyasını kaydederken istisnaya neden oldu
 - Sayı, kesir için doğru biçimlendirilmemiş
-- PrintOrderType.OVER için boş PDF oluşturuldu_SONRA_AŞAĞI
+- Boş PDF, PrintOrderType.OVER için oluşturuldu_O ZAMANLAR_AŞAĞI
 - Oluşturulan PDF'de arka plan rengi ve ızgaralar yanlış
 - Kesişim ve Eğim fonksiyonları doğru hesaplanmadı
 - Excel 2007 dosya biçimleri için Pivot alan öğelerinin 33 bin sınırını kaldırın

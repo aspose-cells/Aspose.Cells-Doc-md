@@ -21,55 +21,55 @@ url: /tr/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45161|E-tablodaki resmin açısı biraz farklı|Böcek|
 |CELLSNET-45159|Otomatik şekil nesneleri yanlış oluşturuldu|Böcek|
 |CELLSNET-45138|PrintArea, görüntüleri doğru şekilde dönüştürmeyi başaramıyor|Böcek|
-|CELLSNET-45136|Excel, PDF'ye dönüştürüldüğünde kutular döndürülür|Böcek|
+|CELLSNET-45136|Excel PDF'e dönüştürüldüğünde kutular döndürülür|Böcek|
 |CELLSNET-45182|Ortaya çıkan e-tablo, onarım olmadan Excel'e yüklenemez|Böcek|
-|CELLSNET-45143|Aspose.Cells, XLSB'ye kaydedildiğinde rapor filtreli bozuk pivot tablo üretiyor|Böcek|
-|CELLSNET-45135|HTML'yi XLSX olarak içe aktarırken resimler çakışıyor|Böcek|
-|CELLSNET-45134|HTML'yi XLSX olarak içe aktarırken sütun genişlikleri kayboluyor|Böcek|
-|CELLSNET-45133|HTML'yi XLSX olarak içe aktarırken içerik stili kayboluyor|Böcek|
+|CELLSNET-45143|Aspose.Cells, XLSB'e kaydedildiğinde rapor filtreli bozuk pivot tablo üretiyor|Böcek|
+|CELLSNET-45135|HTML, XLSX olarak içe aktarılırken resimler üst üste biniyor|Böcek|
+|CELLSNET-45134|HTML, XLSX olarak içe aktarılırken sütun genişlikleri kayboluyor|Böcek|
+|CELLSNET-45133|HTML, XLSX olarak içe aktarılırken içerik stili kayboluyor|Böcek|
 |CELLSNET-45132|HTML'de etkinleştirilen WrapText, XLSX biçiminde kaydedildiğinde kayboluyor|Böcek|
-|CELLSNET-45127|HTML'yi XLSX olarak içe aktardıktan sonra yazı tipi stili ve boyutu değiştirildi|Böcek|
+|CELLSNET-45127|HTML'i XLSX olarak içe aktardıktan sonra yazı tipi stili ve boyutu değiştirildi|Böcek|
 |CELLSNET-45115|Bazı verileri ekledikten sonra pivot tabloyu yenilemek bozuk Excel dosyası oluşturuyor|Böcek|
 |CELLSNET-45109|Tarih sütununa göre gruplandırılmış Pivot Tablonun Yenilenmesinde hata|Böcek|
 |CELLSNET-45081|Pivot Tablo'nun etiketleri birleştirme özelliği çalışmıyor|Böcek|
-|CELLSNET-45076|Hizalama çalışmıyor ve Excel'den HTML'ye dönüştürmede metin hücre dışına çıkıyor|Böcek|
-|CELLSNET-45057|HTML'nin XLSX'e dönüştürülmesi doğru değil|Böcek|
-|CELLSNET-45040|Bazı pivot alan öğeleri, Sayılar yerine Tarih değerleri olarak işleniyor|Böcek|
+|CELLSNET-45076|Hizalama çalışmıyor ve metin Excel'de hücreden çıkıp HTML dönüşümüne gidiyor|Böcek|
+|CELLSNET-45057|HTML'in XLSX'e dönüştürülmesi doğru değil|Böcek|
+|CELLSNET-45040|Bazı pivot alan öğeleri, Numbers yerine Tarih değerleri olarak işleniyor|Böcek|
 |CELLSNET-40265|Giriş dosyalarının kültürüyle ilgili sorun|Böcek|
 |CELLSNET-45142|Harici aralık kullanıldığında DÜŞEYARA işleviyle ilgili sorun|Böcek|
 |CELLSNET-45150|Çalışma sayfasının son satırlarını genişletmek veya daraltmak imkansız|Böcek|
 |CELLSNET-45139|Çağrı, bir sayfada iki GridWeb ile çalışmıyor|Böcek|
 |CELLSNET-45137|Gruplandırılmış satırlar veya sütunlar, Internet Explorer 11'de çalıştırıldığında GridWeb'de sorunlar yaşıyor|Böcek|
-|CELLSNET-45203|Bir Excel dosyasını PDF'ye dönüştürürken karakterler çakışıyor|Böcek|
-|CELLSNET-45196|Çıktı, dışa aktarılan XPS'de bozuk|Böcek|
+|CELLSNET-45203|PDF'e bir Excel dosyası oluşturulurken karakterler çakışıyor|Böcek|
+|CELLSNET-45196|Dışa aktarılan XPS'de çıktı bozuk|Böcek|
 |CELLSNET-45187|Etiketler, TrueType spesifikasyonuna göre artan sırada olmalıdır|Böcek|
 |CELLSNET-45169|Uyarı: Bölge için maksimum boyut 262144 bayttır, SheetRender.ToImage on Mono'de|Böcek|
 |CELLSNET-45167|SheetRender.ToImage, Mono'de içeriği bozuk ve eksik hale getiriyor|Böcek|
 |CELLSNET-45166|SheetRender.ToImage, Mono'de yalnızca sayfa üstbilgisini ve altbilgisini oluşturur|Böcek|
-|CELLSNET-43732|EMF'ye dönüştürme ve Word'e yapıştırma, ortaya çıkan PDF'de metnin üst üste binmesine neden olur|Böcek|
-|CELLSNET-45186|Alan grafiği PDF dışa aktarmada gösterilmiyor|Böcek|
+|CELLSNET-43732|EMF'e dönüştürmek ve Word'e yapıştırmak, sonuçta PDF'de metnin üst üste binmesine neden olur|Böcek|
+|CELLSNET-45186|PDF dışa aktarmada alan grafiği gösterilmiyor|Böcek|
 |CELLSNET-45178|Grafikten görüntüye işlenirken eksen etiketleri kırpılıyor|Böcek|
 |CELLSNET-45177|Grafikten resme dönüştürülürken eksen etiketleri eksik - II|Böcek|
-|CELLSNET-45151|Elektronik tabloyu PDF'ye dönüştürürken grafikler tüm biçimlendirmeyi kaybediyor|Böcek|
-|CELLSNET-45147|Elektronik tablo PDF'ye dönüştürülürken grafik eksik|Böcek|
-|CELLSNET-44998|Elektronik tabloyu PDF'ye dönüştürdükten sonra grafiğin veri etiketleri değişiyor|Böcek|
-|CELLSNET-44984|İkinci diyagramdaki eğilim çizgisi, çıktı PDF'sinde düzgün şekilde oluşturulmuyor|Böcek|
+|CELLSNET-45151|Elektronik tablo PDF olarak oluşturulurken grafikler tüm biçimlendirmeyi kaybediyor|Böcek|
+|CELLSNET-45147|Elektronik tablo PDF'e dönüştürülürken grafik eksik|Böcek|
+|CELLSNET-44998|E-tablo PDF'e dönüştürüldükten sonra grafiğin veri etiketleri değişiyor|Böcek|
+|CELLSNET-44984|İkinci diyagramdaki eğilim çizgisi, PDF çıktısında düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSNET-41539|Yeşil elips kelime sanatı/resmi, PDF'deki grafiğin etrafında yanlış bir şekilde işleniyor|Böcek|
 |CELLSNET-45197|Range.MoveTo veri doğrulamasını ve koşullu biçimlendirmeyi taşımaz|Böcek|
 |CELLSNET-45183|ActiveX denetiminin (ComboBox) "Kilitli" özelliği değiştirilmedi|Böcek|
 |CELLSNET-45179|XLSX dosyasında CodeName ayarı iyi çalışmıyor|Hatalar|
-|CELLSNET-45175|Resim biçimlendirme, XLSX dosyaları için çalışmıyor|Böcek|
+|CELLSNET-45175|Resim biçimlendirme XLSX dosyaları için çalışmıyor|Böcek|
 |CELLSNET-45174|Print_Area aralığı, DeleteRange'den sonra bozuldu|Böcek|
-|CELLSNET-45173|Kaydettikten sonra XLSX dosyası bozuk|Böcek|
+|CELLSNET-45173|XLSX dosyası kaydedildikten sonra bozuk|Böcek|
 |CELLSNET-45171|Aralığın taşınması, iç aralıkların bir hücre uzunluğunda küçülmesine neden olur|Böcek|
 |CELLSNET-45162|Aralık silindikten sonra grafik doğru hesaplanmıyor/yenilenmiyor|Böcek|
 |CELLSNET-45155|Cells.InsertColumns/DeleteColumns, ListObject/Table için "#REF"e neden oluyor|Böcek|
 |CELLSNET-45154|Aralığın taşınması başka bir sayfadaki referansları güncellemez|Böcek|
 |CELLSNET-45145|CameraTool nesnesi silinemiyor|Böcek|
 |CELLSNET-45060|Düğmenin yazı tipi ayarları, basit yükleme ve kaydetme işleminden sonra değişti|Böcek|
-|CELLSNET-43722|Dosya hatası: XLS açılırken Excel tarafından atılan veriler kaybolmuş olabilir|Böcek|
+|CELLSNET-43722|Dosya hatası: XLS açılırken veriler kaybolmuş, Excel tarafından atılmış olabilir|Böcek|
 |CELLSNET-45190|İŞGÜNÜ formülü hesaplanırken istisna oluştu|İstisna|
-|CELLSNET-45199|Excel'den PDF'e - Dizin dışı dizi istisnası|İstisna|
+|CELLSNET-45199|Excel'den PDF'e - Dizi istisna dışında Dizin|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **Pivot Tablonun Genelleştirme Ayarlarını Özelleştirme**
@@ -84,7 +84,7 @@ Geliştiriciler, son 17.3.0 veya sonraki sürümü kullanarak bir Excel dosyası
 1. **GlobalizationSettings.GetEmptyDataName() yöntemini ekler** - PivotTable'da "(boş)" etiketinin adını alır.
 1. **GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType) yöntemini ekler** - PivotTable'da "PivotFieldSubtotalType" türünün adını alır.
 
-Bu kod örneği, bir pivot tablonun genelleştirme ayarlarının nasıl özelleştirileceğini ayrıntılı olarak açıklar. GlobalizationSettings temel sınıfından türetilen bir CustomPivotTableGlobalizationSettings sınıfı oluşturur ve gerekli tüm yöntemleri geçersiz kılar. Bu yöntemler, Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler için özelleştirilmiş metni döndürür. Daha sonra bu sınıfın nesnesini Workbook.GlobalizationSettings özelliğine atar. Kod, pivot tabloyu içeren kaynak excel dosyasını yükler, verilerini yeniler ve hesaplar ve bunu bir çıktı PDF dosyası olarak kaydeder. Geliştiriciler ayrıca çalışma kitabını desteklenen herhangi bir biçimde kaydedebilir.
+Bu kod örneği, bir pivot tablonun genelleştirme ayarlarının nasıl özelleştirileceğini ayrıntılı olarak açıklar. GlobalizationSettings temel sınıfından türetilen bir CustomPivotTableGlobalizationSettings sınıfı oluşturur ve gerekli tüm yöntemleri geçersiz kılar. Bu yöntemler, Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler için özelleştirilmiş metni döndürür. Daha sonra bu sınıfın nesnesini Workbook.GlobalizationSettings özelliğine atar. Kod, pivot tabloyu içeren kaynak excel dosyasını yükler, verilerini yeniler ve hesaplar ve bir çıktı PDF dosyası olarak kaydeder. Geliştiriciler ayrıca çalışma kitabını desteklenen herhangi bir biçimde kaydedebilir.
 
 **.NET, C#**
 

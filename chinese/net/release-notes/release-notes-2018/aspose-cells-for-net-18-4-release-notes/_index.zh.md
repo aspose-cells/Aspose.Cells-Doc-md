@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-45590|支持渲染 Histogram MS Excel 2016 Chart|新功能|
 |CELLSNET-46007|将等效属性添加到 MS Excel 工作表对象 (VBA) 的“FilterMode”属性|新功能|
 |CELLSNET-46026|在 cellModifiedOnAjax 中支持额外的单元格修改 - Aspose.Cells.GridWeb|新功能|
-|CELLSNET-46013|另存为 HTML 时隐藏覆盖内容的新交叉类型|强化|
+|CELLSNET-46013|另存为 HTML 时隐藏覆盖内容的新十字类型|强化|
 |CELLSNET-45965|能够在向后转换期间处理标准 LINK 元素|强化|
 |CELLSNET-46032|Excel文件为空时不生成单页空白PDF|强化|
 |CELLSNET-46027|Excel 到 PDF 渲染 - 页眉/页脚问题|强化|
@@ -39,7 +39,7 @@ url: /zh/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-46024|在保存 OriginalDataSource 期间将斜杠更改为反斜杠|漏洞|
 |CELLSNET-46018|保存 OTS 文件时缺少图像和图表|漏洞|
 |CELLSNET-46003|ActiveX ComboBox 中的 ListFillRange 未更新|漏洞|
-|CELLSNET-46002|页眉行仅显示在输出 PDF 的第一页上|漏洞|
+|CELLSNET-46002|页眉行仅显示在输出的第一页上 PDF|漏洞|
 |CELLSNET-45996|A30 处的错误 - 换行符已删除|漏洞|
 |CELLSNET-45995|C32 处的错误 - 删除了空白|漏洞|
 |CELLSNET-45968|Workbook.CalculateFormula 更改为“#REF!”命名？”|漏洞|
@@ -54,14 +54,14 @@ url: /zh/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-45919|导入 Excel 文件时不呈现控件（选项按钮和滚动条）|漏洞|
 |CELLSNET-45975|Cells 范围 L10:L12 无法合并|例外|
 |CELLSNET-46008|文件中的字符串无效 - 打开 XLS 文件时发生异常|例外|
-|CELLSNET-46004|打开 XLSX 文件时出现“输入字符串格式不正确”的异常|例外|
+|CELLSNET-46004|打开 XLSX 文件时出现异常“输入字符串的格式不正确”|例外|
 |CELLSNET-45992|Aspose.Cells 18.2：打开特定的 XLS 文件导致 ArgumentOutOfRangeException|例外|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **为 HtmlCrossType 枚举添加新项目“CrossHideRight”**
-显示 HTML 交叉字符串并在文本重叠时隐藏正确的字符串。
+显示 HTML 交叉字符串并在文本重叠时隐藏右侧字符串。
 #### **为 LoadFormat、SaveFormat 和 FileFormatType 枚举添加新项目“TSV”**
-代表一个TSV(Tab-separated values)文件，同“TabDelimited”。
+表示一个TSV（制表符分隔值）文件，与“TabDelimited”相同。
 #### **添加枚举 ImageType**
 表示图像的类型。
 #### **添加 MsoTextFrame.RotateTextWithShape 和 ShapeTextAlignment.RotateTextWithShape 属性**
@@ -73,7 +73,7 @@ url: /zh/net/aspose-cells-for-net-18-4-release-notes/
 #### **添加重载 AutoFilter.Refresh (System.Boolean) 方法**
 获取所有隐藏行的索引并刷新自动过滤器。
 #### **添加重载 Cell.GetHtmlString(System.Boolean) 方法**
-获取此单元格中包含数据和某些格式的 HTML 字符串。
+获取包含此单元格中的数据和某些格式的 HTML 字符串。
 #### **添加 BuiltInDocumentPropertyCollection.Language 属性**
 获取和设置文件的语言。
 #### **添加 Style.SetPatternColor（Aspose.Cells.BackgroundType，System.Drawing.Color，System.Drawing.Color）**

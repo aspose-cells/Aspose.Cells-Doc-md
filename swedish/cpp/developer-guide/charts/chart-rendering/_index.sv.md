@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Återge diagram till PDF**
+### **Återgivningsdiagram till PDF**
 
-För att rendera diagrammet till PDF-format har API:erna Aspose.Cells exponerat Chart.ToPdf-metoden med möjlighet att lagra den resulterande PDF-filen på skivväg eller Stream.
+För att rendera diagrammet till formatet PDF har API:erna Aspose.Cells exponerat Chart.ToPdf-metoden med möjlighet att lagra den resulterande PDF på skivväg eller Stream.
 
 {{< highlight "cpp" >}}
 
@@ -176,6 +176,6 @@ Det finns några diagramtyper som för närvarande inte stöds för rendering. S
 
 {{% alert color="primary" %}}
 
-Om du försöker rendera diagramtyperna som inte stöds till bild eller PDF, kan du sluta med 0-stora bilder eller tom PDF.
+Om du försöker rendera diagramtyperna som inte stöds till bild eller PDF, kan du sluta med 0-stora bilder eller tomma PDF.
 
 {{% /alert %}}

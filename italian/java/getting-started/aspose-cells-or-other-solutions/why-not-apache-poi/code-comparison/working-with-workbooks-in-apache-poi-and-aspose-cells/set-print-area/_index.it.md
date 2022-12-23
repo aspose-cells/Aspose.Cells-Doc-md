@@ -9,7 +9,7 @@ Per impostazione predefinita, solo l'area di stampa incorpora tutte le aree del 
 
 Per selezionare un'area di stampa specifica, utilizzare il[Impostazione della pagina](/java/pagesetup)class' metodo setPrintArea. Assegnare a questa proprietà un'area di celle che definisce l'area di stampa.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -35,7 +35,7 @@ pageSetup.setPrintArea("A1:F20");
 ## **Apache POI SS - HSSF XSSF - Imposta area di stampa**
 Il metodo Workbook.setPrintArea è disponibile per impostare le proprietà della pagina dell'area di stampa.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

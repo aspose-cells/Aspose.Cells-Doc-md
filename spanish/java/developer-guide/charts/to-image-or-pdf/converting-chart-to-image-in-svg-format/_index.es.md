@@ -14,7 +14,7 @@ Aspose.Cells puede guardar gráficos como imágenes en varios formatos como BMP,
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo explica cómo usar Aspose.Cells para convertir un gráfico en una imagen en formato SVG. El código carga el archivo fuente de Excel y luego guarda el primer gráfico que se encuentra en la primera hoja de trabajo en SVG.
+El siguiente código de ejemplo explica cómo usar Aspose.Cells para convertir un gráfico en una imagen de formato SVG. El código carga el archivo fuente de Excel y luego guarda el primer gráfico que se encuentra en la primera hoja de trabajo en SVG.
 
 La siguiente captura de pantalla muestra la imagen del gráfico convertido en formato SVG creado con el código de muestra.
 

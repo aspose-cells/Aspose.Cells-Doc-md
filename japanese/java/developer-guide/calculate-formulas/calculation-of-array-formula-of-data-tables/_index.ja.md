@@ -14,10 +14,10 @@ Microsoft Excel で [データ] > [What-If 分析] > [データ テーブル...]
 
 ![todo:画像_代替_文章](calculation-of-array-formula-of-data-tables_1.png)
 
-セル B1 の値を 100 に変更すると、黄色で塗りつぶされたデータ テーブルの値は 120 になります。サンプル コードは、[PDF出力](5472577.pdf)この画像に示すように、データ テーブルの値として 120 が表示されます。
+セル B1 の値を 100 に変更すると、黄色で塗りつぶされたデータ テーブルの値は 120 になります。サンプル コードは、[出力 PDF](5472577.pdf)この画像に示すように、データ テーブルの値として 120 が表示されます。
 
 ![todo:画像_代替_文章](calculation-of-array-formula-of-data-tables_2.png)
 
-生成に使用するサンプルコードは次のとおりです。[PDF出力](5472577.pdf)から[ソースエクセルファイル](5472579.xlsx).詳細については、コメントをお読みください。
+生成に使用するサンプルコードは次のとおりです。[出力 PDF](5472577.pdf)から[ソースエクセルファイル](5472579.xlsx).詳細については、コメントをお読みください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

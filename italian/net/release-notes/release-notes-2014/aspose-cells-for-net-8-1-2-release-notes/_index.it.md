@@ -10,8 +10,8 @@ url: /it/net/aspose-cells-for-net-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET è stato aggiornato alla versione 8.1.2 e siamo lieti di annunciare che questa versione apporta l'aggiunta di oltre 20 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+ Aspose.Cells for .NET è stato aggiornato alla versione 8.1.2 e siamo lieti di annunciare che questa versione apporta l'aggiunta di oltre 20 nuovi utili miglioramenti.
+Usando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
  Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -22,17 +22,17 @@ Nota che questo download contiene una versione completamente funzionante del pro
 ## **Prestazione**
 
 
- (CELLSNET-42820) - FileFormatUtil.DetectFileFormat utilizza tutta la memoria disponibile del sistema durante il rilevamento di un foglio di calcolo danneggiato
+(CELLSNET-42820) - FileFormatUtil.DetectFileFormat utilizza tutta la memoria disponibile del sistema durante il rilevamento di un foglio di calcolo danneggiato
 
 
 ## **Insetti**
 
 
- (CELLSNET-42801) - Mancano dati quando la tabella pivot viene convertita in PDF
+ (CELLSNET-42801) - Dati mancanti quando la tabella pivot viene convertita in PDF
 
- (CELLSNET-42800) - Titolo totale mancante quando la tabella pivot viene convertita in PDF
+ (CELLSNET-42800) - Manca il titolo totale quando la tabella pivot viene convertita in PDF
 
-(CELLSNET-42799) - Cell Problema di unione quando la tabella pivot viene convertita in PDF
+ (CELLSNET-42799) - Cell Problema di unione quando la tabella pivot viene convertita in PDF
 
  (CELLSNET-42775) - Bug della tabella pivot relativo ai subtotali
 
@@ -40,13 +40,13 @@ Nota che questo download contiene una versione completamente funzionante del pro
 
  (CELLSNET-42438) - Il contenuto delle celle unite scompare quando le righe vengono filtrate e il foglio di calcolo viene convertito in HTML
 
- (CELLSNET-42353) - Aspose.Cells produce frecce di spessore doppio mentre converte XLS in PDF
+ (CELLSNET-42353) - Aspose.Cells produce frecce di spessore doppio durante la conversione da XLS a PDF
 
  (CELLSNET-42747) - Il risultato stampato non è centrato correttamente e l'ultima riga va persa
 
  (CELLSNET-42744) - Il testo nelle celle unite non viene visualizzato durante la conversione in PDF
 
- (CELLSNET-42781) - Errore da forma a immagine durante la conversione di ExcelShapeToImageRedactedEx.xls in Tiff
+(CELLSNET-42781) - Errore da forma a immagine durante la conversione di ExcelShapeToImageRedactedEx.xls in Tiff
 
  (CELLSNET-42780) - Errore da forma a immagine durante la conversione di ExcelShapeToImageError.xls in Tiff
 
@@ -54,7 +54,7 @@ Nota che questo download contiene una versione completamente funzionante del pro
 
  (CELLSNET-42622) - Le etichette dei grafici di Excel si sovrappongono dopo l'apertura e il salvataggio del file xlsm
 
-(CELLSNET-42836) - La formula di corrispondenza non viene calcolata correttamente con Workbook.CalculateFormula
+ (CELLSNET-42836) - La formula di corrispondenza non viene calcolata correttamente con Workbook.CalculateFormula
 
  (CELLSNET-42818) - #NUM! errore durante la lettura di determinate celle
 
@@ -71,10 +71,10 @@ Nota che questo download contiene una versione completamente funzionante del pro
  (CELLSNET-42788) - System.NullReferenceException al salvataggio del file ods
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 

@@ -7,9 +7,9 @@ url: /es/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 ## **Uso de FormulaBar con Aspose.Cells.GridDesktop**
 ### **Paso 1: Creación de un nuevo proyecto**
 1. Abra Visual Studio 2019.
-1. Desde el**Expediente**menú, seleccione**Nuevo**, después**Proyecto**.
+1. Desde el**Archivo**menú, seleccione**Nuevo**, después**Proyecto**.
  Se abre el cuadro de diálogo Crear un nuevo proyecto.
-1. Seleccione**Windows Aplicación de formularios (.NET Framework)**desde las plantillas de proyecto instaladas de Visual Studio y haga clic en**próximo**.
+1. Seleccione**Windows Aplicación de formularios (.NET Framework)**desde las plantillas de proyecto instaladas de Visual Studio y haga clic en**Próximo**.
 
 ![todo:imagen_alternativa_texto](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
@@ -18,7 +18,7 @@ url: /es/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 ![todo:imagen_alternativa_texto](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
 ### **Paso 2: agregue controles a la caja de herramientas**
 1.  Haga clic en el**Caja de herramientas**
-1.  Elegir**Controles comunes**, haga clic con el botón derecho y seleccione "**Elija elementos...**" del menú contextual.
+1.  Escoger**Controles comunes**, haga clic con el botón derecho y seleccione "**Elija elementos...**" del menú contextual.
 1.  En el**.NET Componentes del marco** ficha de la**Elija elementos de la caja de herramientas** ventana, desplácese y seleccione**GridEscritorio** y**Barra de formulas** componentes
 
 ![todo:imagen_alternativa_texto](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)

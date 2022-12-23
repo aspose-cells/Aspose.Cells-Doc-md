@@ -14,21 +14,21 @@ Bir raporu önizlemek için:
 
 1.  Tıklamak**görüş** 
 
-![yapılacaklar:resim_alternatif_Metin](previewing-report_1.png)
+![yapılacaklar:resim_alternatif_metin](previewing-report_1.png)
 
 Aspose.Cells.Report.Designer araç çubuğunda.
 
 1.  Rapor Sunucusunun URL'sini girin ve**Yenile** buton.
 
-![yapılacaklar:resim_alternatif_Metin](previewing-report_2.png)
+![yapılacaklar:resim_alternatif_metin](previewing-report_2.png)
 
 
 
 
 1.  Bir rapor seçin ve tıklayın**Ön izleme** buton.
 
-![yapılacaklar:resim_alternatif_Metin](previewing-report_3.png)
+![yapılacaklar:resim_alternatif_metin](previewing-report_3.png)
 
-1.  İletişim kutusunda rapor parametrelerini girin ve dışa aktarma dosyası formatını seçin. Tıkla**TAMAM** raporu dışa aktarmak için düğmesine basın.
+1.  İletişim kutusunda rapor parametrelerini girin ve dışa aktarma dosyası formatını seçin. Tıkla**Tamam** raporu dışa aktarmak için düğmesine basın.
 
-![yapılacaklar:resim_alternatif_Metin](previewing-report_4.png)
+![yapılacaklar:resim_alternatif_metin](previewing-report_4.png)

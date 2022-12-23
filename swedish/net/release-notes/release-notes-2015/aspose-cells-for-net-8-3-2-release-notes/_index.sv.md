@@ -40,7 +40,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Förbättringar**
 
 
- (CELLSNET-43144) - Rendera HTML för varje ark med endast innehållet i elementet
+ (CELLSNET-43144) - Återge HTML för varje ark med endast innehållet i elementet
 
  (CELLSNET-43282) - Importera en CSV-fil till en Excel XLSX-fil
 
@@ -66,7 +66,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-43271) - Att öppna och spara kalkylarket gör det korrupt
 
- (CELLSNET-43266) - Det andra kalkylbladet renderas inte bra i den utgående PDF-filen
+ (CELLSNET-43266) - Andra kalkylbladet renderas inte bra i utdata PDF
 
  (CELLSNET-43262) - Metoder för IStreamProvider anropas inte
 
@@ -74,11 +74,11 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43215) - PivotItem flyttas inte till angiven plats när PivotItem.Move används
 
- (CELLSNET-43205) - Vissa grafiska element är felplacerade i HTML-utdata
+ (CELLSNET-43205) - Vissa grafiska element är felplacerade i utgången HTML
 
- (CELLSNET-43204) - Vissa grafiska element är felplacerade i utdata-PDF-filen
+ (CELLSNET-43204) - Vissa grafiska element är felplacerade i utgången PDF
 
- (CELLSNET-43051) - Sjökortsdatapunkter visas under bilden i det renderade HTML-filformatet
+ (CELLSNET-43051) - Sjökortsdatapunkter visas under bilden i det renderade filformatet HTML
 
  (CELLSNET-42878) - Pivottabellens bakgrundsfärg är inställd på svart
 
@@ -86,11 +86,11 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43306) - Aspose.Cells konverterar inte prickad linje till rät linje
 
- (CELLSNET-43288) - Bilder återges inte när kalkylark konverteras till PDF
+(CELLSNET-43288) - Bilder renderas inte när kalkylark konverteras till PDF
 
-(CELLSNET-43263) - Problem om rendering av bild
+ (CELLSNET-43263) - Problem om rendering av bild
 
- (CELLSNET-43245) - Layouten krymps och kanterna blir tjockare i den utgående PDF-filen
+ (CELLSNET-43245) - Layouten krymps och kanterna blir tjockare i utgången PDF
 
  (CELLSNET-42973) - Problem med sidfotsjustering
 
@@ -102,7 +102,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43273) - Vertikala (värde) axelhuvudrutnät går inte längre att välja
 
- (CELLSNET-43272) - Bildrotation används inte i det renderade PDF-filformatet
+ (CELLSNET-43272) - Bildrotation används inte i det renderade filformatet PDF
 
  (CELLSNET-43267) - Hebreisk text är omvänd i diagrammet
 
@@ -112,9 +112,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43210) - Fältknappar saknas i pivotdiagram
 
- (CELLSNET-43046) - Chart.ToImage återger inte datumformatet som överensstämmer med CultureInfo
+(CELLSNET-43046) - Chart.ToImage återger inte datumformatet som överensstämmer med CultureInfo
 
-(CELLSNET-42993) - Grafdataetiketter visas inte vid rendering till PDF
+ (CELLSNET-42993) - Grafdataetiketter visas inte vid rendering till PDF
 
  (CELLSNET-42893) - SheetRender.ToImage återger inte diagrammet korrekt
 
@@ -136,13 +136,13 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43280) - Ställ in CommentShapes placeringstyp till "Flytta"
 
- (CELLSNET-43275) - Excel-dokument öppnat i blockerande skyddad vy
+(CELLSNET-43275) - Excel-dokument öppnat i blockerande skyddad vy
 
-(CELLSNET-43270) - Inställning av zoom för diagramtyp Arbetsblad träder inte i kraft
+ (CELLSNET-43270) - Inställning av zoom för diagramtyp Arbetsblad träder inte i kraft
 
  (CELLSNET-43269) - UpdateLinkedDataSource hämtar inte ny data från extern arbetsbok
 
- (CELLSNET-43265) - Ansi Pound sign SpreadsheetML-konverteringsproblem
+ (CELLSNET-43265) - Ansi Pound sign SpreadsheetML konverteringsproblem
 
  (CELLSNET-43264) - Tillämpa kanter på celler
 
@@ -166,9 +166,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-43323) - Undantag på arbetsbok.CalculateFormula()-metoden
 
- (CELLSNET-43319) - System.ArgumentOutOfRangeException vid öppning av XLA-fil
+(CELLSNET-43319) - System.ArgumentOutOfRangeException vid öppning av XLA-fil
 
-(CELLSNET-43292) - Undantag för att spara arbetsbok med tomt diagramblad
+ (CELLSNET-43292) - Undantag för att spara arbetsbok med tomt diagramblad
 
  (CELLSNET-43278) - Fel vid laddning av Excel-dokument med Sparklines
 
@@ -178,7 +178,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -218,7 +218,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
- Lägger till metoden WorkbookSettings.CheckWriteProtectedPassword().
+Lägger till metoden WorkbookSettings.CheckWriteProtectedPassword().
 
  Kontrollerar om lösenordet är korrekt skrivskyddat lösenord.
 
@@ -244,7 +244,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  Lägger till metoden PivotItem.Move(int count, bool isSameParent).
 
- Flyttar objektet uppåt eller nedåt.
+Flyttar objektet uppåt eller nedåt.
 
 
 
@@ -256,7 +256,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  Lägger till metoden Workbook.GetNamedStyle(strängnamn).
 
-Hämtar den namngivna stilen i arbetsbokens stilpool efter namn.
+ Hämtar den namngivna stilen i arbetsbokens stilpool efter namn.
 
 
 
@@ -296,7 +296,7 @@ Hämtar den namngivna stilen i arbetsbokens stilpool efter namn.
 
 
 
-Lägger till metoden WorkbookRender.ToPrinter(sträng PrinterName, int PrintPageIndex, int PrintPageCount)
+ Lägger till metoden WorkbookRender.ToPrinter(sträng PrinterName, int PrintPageIndex, int PrintPageCount)
 
  Återger arbetsboken till skrivaren.
 
@@ -322,11 +322,11 @@ Lägger till metoden WorkbookRender.ToPrinter(sträng PrinterName, int PrintPage
 
  Föråldrade metoden PivotItem.Move(int count).
 
- Använder metoden PivotItem.Move(int count, bool isSameParent) för istället.
+Använder metoden PivotItem.Move(int count, bool isSameParent) för istället.
 
 
 
-Tar bort alla föråldrade Open()- och Save()-metoder i Workbook.
+ Tar bort alla föråldrade Open()- och Save()-metoder i Workbook.
 
 
 
@@ -346,7 +346,7 @@ Tar bort alla föråldrade Open()- och Save()-metoder i Workbook.
 
 
 
- Tar bort föråldrade egenskaper för ReCalcOnOpen,Language, Encoding och ConvertNumericData för WorkbookSettings.
+Tar bort föråldrade egenskaper för ReCalcOnOpen,Language, Encoding och ConvertNumericData för WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ Tar bort alla föråldrade Open()- och Save()-metoder i Workbook.
 
 
 
-Tar bort föråldrade DisplayHTMLCrossString och ExportChartImageFormat av HtmlSaveOptions.
+ Tar bort föråldrade DisplayHTMLCrossString och ExportChartImageFormat av HtmlSaveOptions.
 
 
 

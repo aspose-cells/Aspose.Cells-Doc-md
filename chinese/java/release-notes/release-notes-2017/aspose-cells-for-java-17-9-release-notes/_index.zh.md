@@ -12,11 +12,11 @@ url: /zh/java/aspose-cells-for-java-17-9-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-42391|Cell 使用“显示公式”功能时，结果 PDF 中显示的宽度与 Excel 文件中的宽度不同|新功能|
-|CELLSJAVA-42379|呈现为 PDF 输出时实现命名目标（书签查询）|新功能|
+|CELLSJAVA-42391|Cell 结果 PDF 中显示的宽度与使用“显示公式”功能时 Excel 文件中的宽度不同|新功能|
+|CELLSJAVA-42379|渲染到 PDF 输出时实现命名目标（书签查询）|新功能|
 |CELLSJAVA-42401|必须枚举所有形状才能正确设置形状的 Z 顺序|强化|
 |CELLSJAVA-42368|设置 ActiveX 控件的名称 (ListBox)|强化|
-|CELLSJAVA-42369|Excel 文档的 HTML 输出包含哈希值而不是实际值|漏洞|
+|CELLSJAVA-42369|HTML Excel 文档的输出包含散列值而不是实际值|漏洞|
 |CELLSJAVA-42366|将“2.2 CompleteEmail.html”保存为 XLSX 格式会生成损坏的文件|漏洞|
 |CELLSJAVA-42365|在 Workbook 对象中加载“2.1 CompleteEmail.html”会引发 NullPointerException|漏洞|
 |CELLSJAVA-42381|查找 Excel 公式的工作簿计算错误|漏洞|
@@ -27,10 +27,10 @@ url: /zh/java/aspose-cells-for-java-17-9-release-notes/
 |CELLSJAVA-42384|Excel 转换为 PDF 时负条的颜色不正确|漏洞|
 |CELLSJAVA-42378|使用 setCrossAt() 将 Excel 转换为 PDF 时条形颜色发生变化|漏洞|
 |CELLSJAVA-42377|图表中轴的主要单位值返回错误|漏洞|
-|CELLSJAVA-42364|导出为 PDF 时，单元格范围内的数据标签不会出现|漏洞|
+|CELLSJAVA-42364|导出到 PDF 时，单元格范围内的数据标签不会出现|漏洞|
 |CELLSJAVA-42359|条形值为 100 的系列缺少数据标签|漏洞|
-|CELLSJAVA-42314|输出 PNG 中的图表为空白|漏洞|
-|CELLSJAVA-42313|输出 PDF 中的图表为空白|漏洞|
+|CELLSJAVA-42314|图表在输出 PNG 中为空白|漏洞|
+|CELLSJAVA-42313|图表在输出 PDF 中为空白|漏洞|
 |CELLSJAVA-42374|Aspose Cells 错误解析的字符引用|漏洞|
 |CELLSJAVA-42373|复制工作簿然后保存会损坏输出 Excel 文件|漏洞|
 |CELLSJAVA-42392|异常“com.aspose.cells.CellsException：未知的 excel 内容！”关于实例化加密的 Excel 文件|例外|
@@ -72,7 +72,7 @@ url: /zh/java/aspose-cells-for-java-17-9-release-notes/
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
 - [添加带有命名目标的 PDF 书签](/cells/zh/java/add-pdf-bookmarks-with-named-destinations/)
-- [在呈现为 PDF 时控制 MS Excel 工作簿中外部资源的加载](/cells/zh/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [渲染到 PDF 时控制 MS Excel 工作簿中外部资源的加载](/cells/zh/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [将 VBA 宏 UserForm DesignerStorage 从模板复制到目标工作簿](/cells/zh/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [创建删除和获取 GridCell 注释](/cells/zh/java/create-remove-and-get-gridcell-comments/)
 - [在工作表内发送形状前面或后面](/cells/zh/java/send-shape-front-or-back-inside-the-worksheet/)

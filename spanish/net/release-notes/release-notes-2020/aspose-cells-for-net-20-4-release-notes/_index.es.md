@@ -12,19 +12,19 @@ url: /es/net/aspose-cells-for-net-20-4-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-47276|XLSX a CSV, se requieren comas para celdas en blanco también similar a MS Excel|Nueva caracteristica|
+|CELLSNET-47276|XLSX a CSV, se requieren comas para celdas en blanco también similares a MS Excel|Nueva caracteristica|
 |CELLSNET-47054|Admite la unión de múltiples celdas como un rango|Nueva caracteristica|
 |CELLSNET-47091|Opción para actualizar el campo fuente de PowerQueryFormulaItems|Nueva caracteristica|
 |CELLSNET-47273|Establezca la fuente de texto latino y la fuente de texto asiático para el eje de categoría del gráfico|Mejora|
 |CELLSNET-47217|Admite formatos condicionales de barra de datos, escala de color y conjunto de iconos de ODS.|Mejora|
 |CELLSNET-47201|Abra el archivo protegido con contraseña usando Aspose.Cells.GridDesktop|Mejora|
 |CELLSNET-47254|Admite ingresar una nueva línea como en MS-EXCEL en la barra de fórmulas|Mejora|
-|CELLSNET-47224|Mejore el rendimiento de la actualización de elementos pivotables.|Actuación|
-|CELLSNET-47243|Espere GetDisplayStyle para una hoja de trabajo con filas 65536|Actuación|
-|CELLSNET-47289|CalculateFormula() nunca regresa|Actuación|
-|CELLSNET-47263|Colgando al intentar abrir el documento ODP en el constructor del libro de trabajo|Actuación|
+|CELLSNET-47224|Mejore el rendimiento de la actualización de elementos pivotables.|Rendimiento|
+|CELLSNET-47243|Espere GetDisplayStyle para una hoja de trabajo con filas 65536|Rendimiento|
+|CELLSNET-47289|CalculateFormula() nunca regresa|Rendimiento|
+|CELLSNET-47263|Colgando al intentar abrir el documento ODP en el constructor del libro de trabajo|Rendimiento|
 |CELLSNET-42556|La clasificación de PivotField no parece funcionar|Insecto|
-|CELLSNET-47046|Delimitadores de comillas sin abrir en los atributos HTML de IMG en el marcado HTML generado|Insecto|
+|CELLSNET-47046|Delimitadores de cotizaciones sin abrir en los atributos IMG HTML en el marcado HTML generado|Insecto|
 |CELLSNET-47208|La tabla dinámica no mantiene el formato con la última versión|Insecto|
 |CELLSNET-47219|Fórmula incorrecta en la columna de la tabla después de insertar una fila y actualizarla|Insecto|
 |CELLSNET-47261|Representación de Excel a HTML: tamaño de fuente incorrecto en una tabla exportada|Insecto|
@@ -38,13 +38,13 @@ url: /es/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47200|Problema de superposición en los botones de navegación al configurar la hoja oculta como la hoja activa|Insecto|
 |CELLSNET-47274|Imagen de fondo no configurada en GridWeb|Insecto|
 |CELLSNET-47179|Firma VBA con Bouncy Castle lib|Insecto|
-|CELLSNET-47258|Problema con las imágenes de código de barras en la representación de hoja a TIFF|Insecto|
+|CELLSNET-47258|Problema con las imágenes de código de barras en la hoja para la representación TIFF|Insecto|
 |CELLSNET-47216|PowerQueries desapareció después del reemplazo de la fuente|Insecto|
 |CELLSNET-47241|El archivo ODS se rompe al configurar el estilo de fuente y guardar|Insecto|
 |CELLSNET-47252|Marcador inteligente numérico que inserta el valor de la celda como texto|Insecto|
 |CELLSNET-47262|Problema con barra 100 % apilada y la unidad principal y la unidad secundaria|Insecto|
 |CELLSNET-47271|Guardar XLSX con visio incrustado corrompe el archivo|Insecto|
-|CELLSNET-47282|Aspose.Cells 20.3: Problema de conversión de XLSB a XLS|Insecto|
+|CELLSNET-47282|Aspose.Cells 20.3: XLSB a XLS Problema de conversión|Insecto|
 |CELLSNET-47291|Carácter de viñeta incorrecto leído del archivo de Excel|Insecto|
 |CELLSNET-47096|Problema con la barra de fórmulas de GridDesktop con SplitterPane|Insecto|
 |CELLSNET-47247|Excepción generada cuando se llama a Cell.R1C1Formula|Excepción|

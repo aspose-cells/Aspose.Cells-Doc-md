@@ -5,7 +5,7 @@ weight: 70
 url: /it/java/page-break-preview-in-ruby/
 ---
 ## **Aspose.Cells - Anteprima interruzione di pagina**
- Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java per Ruby** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
+ Per impostare il foglio di lavoro sull'anteprima dell'interruzione di pagina utilizzando**Aspose.Cells Java per Rubino** , semplicemente invocare**Anteprima interruzione di pagina** modulo.
 
 **Codice Rubino**
 
@@ -37,6 +37,6 @@ puts "Set page break preview, please check the output file."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Anteprima interruzione di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Anteprima interruzione di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/pagebreakpreview.rb)

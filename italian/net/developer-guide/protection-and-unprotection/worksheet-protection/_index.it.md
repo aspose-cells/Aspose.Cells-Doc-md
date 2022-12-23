@@ -6,7 +6,7 @@ url: /it/net/protect-and-unprotect-worksheets/
 description: Proteggi e rimuovi la protezione del foglio di lavoro dei file Excel con Aspose.Cells per .Net.
 ---
 {{% alert color="primary" %}}
- Per impedire ad altri utenti di modificare, spostare o eliminare accidentalmente o deliberatamente i dati in un foglio di lavoro, è possibile bloccare le celle nel foglio di lavoro di Excel e quindi proteggere il foglio con una password.
+Per impedire ad altri utenti di modificare, spostare o eliminare accidentalmente o deliberatamente i dati in un foglio di lavoro, è possibile bloccare le celle nel foglio di lavoro di Excel e quindi proteggere il foglio con una password.
 {{% /alert %}}
 
 
@@ -26,7 +26,7 @@ Sono necessarie solo le seguenti semplici righe di codice per implementare la pr
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Example-Protect-Worksheet.cs" >}}
 
 ## **Rimuovere la protezione del foglio di lavoro utilizzando Aspose.Cell per .Net**
-Il foglio di lavoro non protetto è facile con l'API Aspose.Cells. Se il foglio di lavoro è protetto da password, è richiesta una password corretta.
+Il foglio di lavoro non protetto è facile con Aspose.Cells API. Se il foglio di lavoro è protetto da password, è richiesta una password corretta.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Example-Unprotect-Worksheet.cs" >}}
 

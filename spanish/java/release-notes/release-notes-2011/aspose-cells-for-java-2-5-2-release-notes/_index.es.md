@@ -15,16 +15,16 @@ url: /es/java/aspose-cells-for-java-2-5-2-release-notes/
  Qué ha cambiado:
 
 - Admite la lectura de tablas dinámicas desde los archivos de plantilla.
- Agrega LineShape a los archivos XLSX de Excel 2007.
+ Agrega LineShape a los archivos de Excel 2007 XLSX.
  Brinda soporte para establecer el nombre de la serie al configurar la fuente de datos del gráfico.
  Admite obtener/establecer la visibilidad de Gridlines de diferentes hojas de trabajo en archivos ODS.
- Se ha mejorado la lectura de formas de archivos XLSX.
+ Se ha mejorado la lectura de Formas de los archivos XLSX.
  Se han realizado mejoras para las funciones Gráfico a imagen, Hoja a imagen y Excel a PDF.
  La mejora se realiza para analizar fórmulas.
  La mejora se realiza para copiar Cells.
- 31 correcciones y mejoras.
+31 correcciones y mejoras.
 
-Incidencias Resueltas en Aspose.Cells for Java 2.5.2.
+ Incidencias Resueltas en Aspose.Cells for Java 2.5.2.
 
 
 

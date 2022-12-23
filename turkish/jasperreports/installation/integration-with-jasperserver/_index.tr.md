@@ -81,8 +81,8 @@ Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıda
 
 
 
-1.  Tüm GIF resimlerini kopyalayın.**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için*<InstallDir>\apache-tomcat\webapps\jasperserver\images* dosya.
-1.  Kopyala**aspose.cells.jasperreports.jar** gelen dosya**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** dosya.
+1.  Tüm GIF görüntüleri kopyalayın.**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için*<InstallDir>\apache-tomcat\webapps\jasperserver\images* Klasör.
+1.  Kopyala**aspose.cells.jasperreports.jar** gelen dosya**\ lib** içindeki klasör**aspose.cells.jasperreports.zip** için**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** Klasör.
 1.  aşağıdaki satırları ekleyin**<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** dosya.
  (Bu fasulye, dışa aktarmayı yapılandırmaya yönelik çeşitli yapılandırma ayarları içerebilir. Örneğin, JasperReports yazı tipi eşleme özelliğini kullanabilir veya Aspose.Cells for JasperReports lisans dosyasının konumunu belirtebilirsiniz.)
 
@@ -109,7 +109,7 @@ Aspose.Cells for JasperReports'i JasperServer ile entegre etmek için aşağıda
 
 **JasperServer'a Aspose.Cells for JasperReports yüklendikten sonra yeni dışa aktarma biçimleri kullanılabilir (sağda)** 
 
-![yapılacaklar:resim_alternatif_Metin](integration-with-jasperserver_1.png)
+![yapılacaklar:resim_alternatif_metin](integration-with-jasperserver_1.png)
 
 
 

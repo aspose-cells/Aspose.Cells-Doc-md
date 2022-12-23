@@ -31,7 +31,7 @@ url: /it/net/aspose-cells-for-net-7-5-3-release-notes/
 
  41884 - L'immagine TIF di output non è corretta
 
- 41865 - Problemi relativi alla conversione di Excel in MHTML
+ 41865 - Conversione di Excel in MHTML problema/i
 
 41914 - File danneggiati durante l'unione delle cartelle di lavoro
 
@@ -46,11 +46,11 @@ url: /it/net/aspose-cells-for-net-7-5-3-release-notes/
 
 ## **Insetti**
 41975 - La funzione Blocca riquadri non funziona
- Internet Explorer 10 (Grid Web)
+ Internet Explorer 10 (GridWeb)
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

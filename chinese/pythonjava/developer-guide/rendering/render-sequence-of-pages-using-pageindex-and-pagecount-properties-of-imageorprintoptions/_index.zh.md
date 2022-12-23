@@ -9,9 +9,9 @@ url: /zh/python-java/render-sequence-of-pages-using-pageindex-and-pagecount-prop
 
 以下示例代码加载示例 Excel 文件并使用[ImageOrPrintOptions.PageIndex](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageIndex)和[ImageOrPrintOptions.PageCount](https://reference.aspose.com/cells/python/asposecells.api/imageorprintoptions#PageCount)特性。以下是示例代码生成的渲染页面图片。
 
-|![待办事项：图像_替代_文本](outputImage-4.png)|![待办事项：图像_替代_文本](outputImage-5.png)|
+|![待办事项：图片_替代_文本](outputImage-4.png)|![待办事项：图片_替代_文本](outputImage-5.png)|
 |:- |:- |
-|![待办事项：图像_替代_文本](outputImage-6.png)|![待办事项：图像_替代_文本](outputImage-7.png)|
+|![待办事项：图片_替代_文本](outputImage-6.png)|![待办事项：图片_替代_文本](outputImage-7.png)|
 
 
 

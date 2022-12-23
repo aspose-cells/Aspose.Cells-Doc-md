@@ -4,13 +4,13 @@ type: docs
 weight: 60
 url: /ru/java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Используйте Python Excel API для создания электронных таблиц Excel в Python. Вставляйте или удаляйте строки из XLSX или XLS в приложениях Python без MS Office.
+description: Используйте Python Excel API для создания электронных таблиц Excel в Python. Вставляйте или удаляйте строки из XLSX или XLS в ваших приложениях Python без MS Office.
 ---
 ## **Создание электронных таблиц Excel в Python — Управление строками/столбцами**
 ### **Вставка строки**
 Вставьте строку в любое место, вызвав метод insertRows коллекции Cells. Метод insertRows принимает индекс строки, в которую будет вставлена новая строка, в качестве первого аргумента и количество вставляемых строк в качестве второго аргумента. Ниже приведены шаги:
 
-- Загрузить книгу XLS или XLSX
+- Загрузите книгу XLS или XLSX
 - Доступ к рабочему листу
 - Вставьте строку
 - Сохранить как книгу XLS или XLSX

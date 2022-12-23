@@ -10,7 +10,7 @@ url: /ru/sharepoint/evaluate-aspose-cells/
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Загрузка пробной и полной версий Aspose.Cells for SharePoint одинакова. Просто загрузите Aspose.Cells for SharePoint из[страница загрузки](https://downloads.aspose.com/cells/sharepoint) а также[установить его](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells по умолчанию работает в ознакомительном режиме.
+ Загрузка пробной и полной версий Aspose.Cells for SharePoint одинакова. Просто загрузите Aspose.Cells for SharePoint из[страница загрузки](https://downloads.aspose.com/cells/sharepoint) и[установить его](/cells/ru/sharepoint/install-aspose-cells-for-sharepoint/). Aspose.Cells по умолчанию работает в ознакомительном режиме.
 
 {{% /alert %}}
 

@@ -1,18 +1,18 @@
 ﻿---
-title: Передискретизировать изображения для преобразования Excel в PDF
+title: Передискретизируйте изображения для Excel в преобразование PDF
 type: docs
 weight: 250
 url: /ru/java/resample-images-for-excel-to-pdf-conversion/
-description: В этой статье показано уменьшение размеров изображений при преобразовании файлов Excel в PDF.
+description: В этой статье показано уменьшение размера изображения при преобразовании файлов Excel в формат PDF.
 keywords: excel to pdf, resample images during excel to pdf conversion, compress images during excel to pdf conversion, reduce image sizes during excel to pdf conversion, convert excel to pdf with smaller size, excel to pdf conversion with image resampling, excel to pdf conversion with image compression, resample images during excel to pdf conversion java
 ---
 {{% alert color="primary" %}}
 
-При работе с большими Microsoft файлами Excel с большим количеством изображений может потребоваться сжатие добавленных изображений, чтобы уменьшить размер выходного PDF-файла и повысить общую производительность преобразования. Aspose.Cells поддерживает повторную выборку добавленных изображений для уменьшения размера выходного PDF-файла и повышения производительности.
+При работе с большими Microsoft файлами Excel с большим количеством изображений может потребоваться сжать добавленные изображения, чтобы уменьшить размер выходного PDF файла и повысить общую производительность преобразования. Aspose.Cells поддерживает повторную выборку добавленных изображений для уменьшения размера выходного PDF файла и повышения производительности.
 
 {{% /alert %}}
 
-## **Передискретизировать изображения для преобразования Excel в PDF**
+## **Передискретизируйте изображения для Excel в преобразование PDF**
 
 См. следующий пример кода, описывающий выполнение задачи с использованием Aspose.Cells API. В примере файл Excel Microsoft преобразуется в файл PDF при сжатии изображений в файле.
 
@@ -20,10 +20,10 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 
 {{% alert color="primary" %}}
 
- С использованием[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) минимизирует размер выходного PDF-файла, но может немного повлиять на качество изображения.
+ С использованием[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) минимизирует размер вывода PDF, но может немного повлиять на качество изображения.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Если ваша электронная таблица содержит формулы, лучше всего вызвать[**Рабочая книга.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()непосредственно перед преобразованием электронной таблицы в формат PDF. Это гарантирует, что значения, зависящие от формулы, будут пересчитаны, а в PDF-файле отобразятся правильные значения.
+Если ваша электронная таблица содержит формулы, лучше всего вызвать[**Рабочая книга.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()непосредственно перед рендерингом электронной таблицы в формат PDF. Это обеспечит пересчет значений, зависящих от формулы, и отображение правильных значений в файле PDF.
 
 {{% /alert %}}

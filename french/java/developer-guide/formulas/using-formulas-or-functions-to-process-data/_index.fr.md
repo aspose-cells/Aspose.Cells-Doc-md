@@ -12,7 +12,7 @@ L'une des caractéristiques convaincantes d'Excel Microsoft est sa capacité à 
 
 ## **Utiliser des formules et des fonctions**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
  Il est possible d'appliquer des formules aux cellules en utilisant les propriétés et les méthodes offertes par le[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe, discuté plus en détail ci-dessous.
 
@@ -47,7 +47,7 @@ L'une des caractéristiques convaincantes d'Excel Microsoft est sa capacité à 
 
  Aspose.Cells fournit des fonctionnalités pour enregistrer des fonctions supplémentaires à l'aide de[**Feuilles de calcul.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Ensuite, quand nous avons mis[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, le fichier Excel de sortie contient la valeur calculée à partir de la fonction AddIn.
 
-Ensuite, le fichier XLAM doit être téléchargé pour enregistrer la fonction complémentaire dans l'exemple de code ci-dessous. De même, le fichier de sortie "test_udf.xlsx" peut être téléchargé pour vérifier la sortie.
+Après le fichier XLAM doit être téléchargé pour enregistrer la fonction complémentaire dans l'exemple de code ci-dessous. De même, le fichier de sortie "test_udf.xlsx" peut être téléchargé pour vérifier la sortie.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -65,17 +65,17 @@ Les formules matricielles sont des formules qui fonctionnent avec des tableaux, 
 
 Certaines fonctions Excel Microsoft renvoient des tableaux de valeurs. Pour calculer plusieurs résultats avec une formule matricielle, entrez le tableau dans une plage de cellules avec le même nombre de lignes et de colonnes que les arguments du tableau.
 
- Il est possible d'appliquer une formule matricielle à une cellule en appelant la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) méthode. La[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) prend les paramètres suivants :
+ Il est possible d'appliquer une formule matricielle à une cellule en appelant la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) méthode. Le[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) prend les paramètres suivants :
 
-- **Formule matricielle**, la formule matricielle.
-- **Nombre de rangées**le nombre de lignes à remplir résultat de la formule matricielle.
+- **Formule matricielle**la formule matricielle.
+- **Nombre de rangées**, le nombre de lignes à remplir résultat de la formule matricielle.
 - **Le nombre de colonnes**, le nombre de colonnes pour remplir le résultat de la formule matricielle.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}
 
 ## **Utilisation de la formule R1C1**
 
- Appliquer un**R1C1** formule de style de référence à une cellule avec le[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer'[**setR1C1Formule**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)propriété.
+ Appliquer un**R1C1** formule de style de référence à une cellule avec le[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe'[**setR1C1Formule**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 

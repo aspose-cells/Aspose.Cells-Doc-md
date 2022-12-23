@@ -9,6 +9,6 @@ weight: 11
 Questa pagina contiene le note sulla versione per Aspose.Cells Reporting Services 21.11
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|24992 |Supporta l'esportazione in formato PDF.| Nuova caratteristica|
+|24992 |Supporta il formato di esportazione PDF.|Nuova caratteristica|

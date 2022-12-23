@@ -6,7 +6,7 @@ url: /fr/reportingservices/working-with-pivottable/
 ---
 {{% alert color="primary" %}} 
 
- UN*tableau croisé dynamique* est un tableau interactif qui résume les données et les présente de manière significative. SQL Server Reporting Services ne peut pas exporter un rapport au format Microsoft Excel tout en conservant un tableau croisé dynamique. Les utilisateurs de rapports doivent créer manuellement des tableaux croisés dynamiques chaque fois qu'ils exportent un rapport de tableau croisé dynamique de Reporting Services vers Microsoft Excel. Avec Aspose.Cells for Reporting Services, vous pouvez concevoir un tableau croisé dynamique une seule fois au moment de la conception du rapport. Chaque fois que le rapport s'exécute, Aspose.Cells for Reporting Services exporte le rapport vers Microsoft Excel et actualise les données dans le tableau croisé dynamique.
+ UNE*tableau croisé dynamique* est un tableau interactif qui résume les données et les présente de manière significative. SQL Server Reporting Services ne peut pas exporter un rapport au format Microsoft Excel tout en conservant un tableau croisé dynamique. Les utilisateurs de rapports doivent créer manuellement des tableaux croisés dynamiques chaque fois qu'ils exportent un rapport de tableau croisé dynamique de Reporting Services vers Microsoft Excel. Avec Aspose.Cells for Reporting Services, vous pouvez concevoir un tableau croisé dynamique une seule fois au moment de la conception du rapport. Chaque fois que le rapport s'exécute, Aspose.Cells for Reporting Services exporte le rapport vers Microsoft Excel et actualise les données dans le tableau croisé dynamique.
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  Dans Microsoft Excel, à partir du**Insérer** menu, sélectionnez**Nom** et alors**Définir**.
+1.  Dans Microsoft Excel, à partir du**Insérer** menu, sélectionnez**Nom** et puis**Définir**.
 1. Définissez un nom comme "ventes".
  La plage du nom commence par la première cellule du titre de l'en-tête et se termine à la dernière cellule de la ligne de données du tableau, comme indiqué ci-dessous.
 
@@ -78,7 +78,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 1.  Du**Données** menu, sélectionnez**Tableau croisé dynamique et rapport de graphique croisé dynamique** pour ajouter un tableau croisé dynamique.
  Une boîte de dialogue s'affiche.
 1.  Sélectionner**Microsoft Liste ou base de données Office Excel** comme source de données et**tableau croisé dynamique** comme type de rapport.
-1.  Cliquez sur**Prochain** continuer.
+1.  Cliquez sur**Suivant** continuer.
 
 ![tâche : image_autre_texte](working-with-pivottable_3.png)
 
@@ -86,7 +86,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 1. Dans la boîte de dialogue, entrez "ventes", le nom que vous avez défini ci-dessus.
-1.  Cliquez sur**Prochain** continuer.
+1.  Cliquez sur**Suivant** continuer.
 
 ![tâche : image_autre_texte](working-with-pivottable_4.png)
 

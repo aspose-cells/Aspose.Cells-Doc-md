@@ -47,7 +47,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
  Aspose.Cells 提供使用以下功能注册添加功能的功能[**工作表.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)).之后当我们设置[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn，输出 Excel 文件包含来自 AddIn 函数的计算值。
 
-下面的示例代码中需要下载 XLAM 文件用于注册插件功能。同样，可以下载输出文件“test_udf.xlsx”来检查输出。
+下面的示例代码中需要下载XLAM文件用于注册插件功能。同样，可以下载输出文件“test_udf.xlsx”来检查输出。
 
 [测试UDF.xlam](TestUDF.xlam)
 
@@ -61,7 +61,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **在单元格 G2 上设置数组公式** 
 
-![待办事项：图像_替代_文本](using-formulas-or-functions-to-process-data_1.png)
+![待办事项：图片_替代_文本](using-formulas-or-functions-to-process-data_1.png)
 
 一些 Microsoft Excel 函数返回值数组。要使用数组公式计算多个结果，请将数组输入到一系列单元格中，这些单元格的行数和列数与数组参数相同。
 

@@ -6,7 +6,7 @@ url: /es/net/use-custom-xml-parts-in-aspose-cells/
 ---
 ## Uso de elementos XML personalizados en Aspose.Cells
 
-Las partes XML personalizadas son los datos XML almacenados por diferentes aplicaciones como SharePoint, etc. dentro del archivo de Excel. Estos datos son consumidos por diferentes aplicaciones que los necesitan. Microsoft Excel no utiliza estos datos, por lo que no hay GUI para agregarlos. Puede ver estos datos cambiando la extensión de**.xlsx** dentro**.Código Postal** y luego abriéndolo usando**WinZip** . También puede abrir el archivo ZIP usando cualquier utilidad zip Windows de tercera parte, como WinRAR o WinZip, etc. Los datos están presentes dentro del**customXml** carpeta.
+Las partes XML personalizadas son los datos XML almacenados por diferentes aplicaciones como SharePoint, etc. dentro del archivo de Excel. Estos datos son consumidos por diferentes aplicaciones que los necesitan. Microsoft Excel no utiliza estos datos, por lo que no hay GUI para agregarlos. Puede ver estos datos cambiando la extensión de**.xlsx** en**.Código Postal** y luego abriéndolo usando**WinZip** . También puede abrir el archivo ZIP usando cualquier utilidad zip Windows de tercera parte, como WinRAR o WinZip, etc. Los datos están presentes dentro del**customXml** carpeta.
 
  Puede agregar partes XML personalizadas usando Aspose.Cells a través del[**Libro de trabajo.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)método.
 

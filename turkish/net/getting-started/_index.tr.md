@@ -14,7 +14,7 @@ Bu sayfa size Aspose Cells'i nasıl kuracağınızı ve Hello World uygulamasın
 
 ### **Aspose.Cells'den NuGet'e yükleyin**
 
-NuGet Aspose.Cells for .NET indirip kurmanın en kolay yolu.
+ NuGet Aspose.Cells for .NET indirip kurmanın en kolay yolu.
 
 1.  Microsoft Visual Studio ve NuGet paket yöneticisini açın.
 1.  İstediğiniz Aspose.Cells for .NET'i bulmak için "aspose.cells" araması yapın.

@@ -15,10 +15,10 @@ url: /zh/sharepoint/multiple-format-support/
 Aspose.Cells for SharePoint 支持以下输入格式：
 
 - XLS – Microsoft Excel 97~2003
-- XLSX——Office Open XML
+- XLSX – Office Open XML
 - XLSM、XLTX、XLTM – Office Open XML
 - CSV – 逗号分隔值工作表文档
-- ODS——OpenDocument
+- ODS – OpenDocument
 - XML – Microsoft Excel SpreadsheetML
 
 生成文档，Aspose.Cells for SharePoint依赖内置版本[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)，来自 Aspose 的市场领先的电子表格处理组件。 Microsoft 不使用 Excel 生成文档。
@@ -29,19 +29,19 @@ Aspose.Cells for SharePoint 支持的输出格式的完整列表是：
 
 - PDF – Adobe 便携式文档
 - XLS – Microsoft Excel 97 - 2003
-- XLSX——Office Open XML
+- XLSX – Office Open XML
 - XLSM – 启用宏的 Office Open XML
-- TXT——纯文本
+- TXT – 纯文本
 - XML – Microsoft Excel SpreadsheetML
-- ODS——OpenDocument
+- ODS – OpenDocument
 - CSV – 逗号分隔值
 - XLSB – Microsoft Excel 二进制 2007
 - MHTML – 多用途 Internet 邮件扩展 HTML
 - XPS – XML 纸张规范
 - TIFF – 标记图像文件格式
-- SVG——可缩放矢量图形
-- DIF – 绘图交换格式
+- SVG – 可缩放矢量图形
+- DIF – 图纸交换格式
 
 **列出了文件可用的受支持转换格式** 
 
-![待办事项：图像_替代_文本](multiple-format-support_1.png)
+![待办事项：图片_替代_文本](multiple-format-support_1.png)

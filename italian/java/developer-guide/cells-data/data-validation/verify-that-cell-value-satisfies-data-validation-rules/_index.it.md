@@ -14,13 +14,13 @@ Microsoft Excel consente agli utenti di aggiungere regole di convalida dei dati 
 
 A volte è necessario verificare dinamicamente se un determinato valore soddisfa le regole di convalida dei dati applicate alla cella. A tale scopo, le API Aspose.Cells forniscono il[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metodo. Se il valore in una cella non soddisfa la regola di convalida dei dati applicata a quella cella, restituisce**Falso** , altro**Vero**.
 
- Il seguente file Microsoft Excel di esempio viene utilizzato con il codice di esempio riportato di seguito per testare il file[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() metodo. Come puoi vedere nell'istantanea che le celle**C1** ha**convalida dei dati decimali** applicato e accetterà solo valori**tra le 10 e le 20** . Ogni volta che il valore della cella è compreso tra 10 e 20,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) verrà restituito**Vero** , altrimenti tornerà**Falso**.
+Il seguente file Excel di esempio Microsoft viene utilizzato con il codice di esempio riportato di seguito per testare il file[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metodo. Come puoi vedere nell'istantanea che le celle**C1** ha**convalida dei dati decimali** applicato e accetterà solo valori**tra le 10 e le 20** . Ogni volta che il valore della cella è compreso tra 10 e 20,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) verrà restituito**Vero** , altrimenti tornerà**Falso**.
 
 ![cose da fare:immagine_alt_testo](verify-that-cell-value-satisfies-data-validation-rules_1.png)
 
  Il codice di esempio seguente illustra come il[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) il metodo funziona. Innanzitutto, inserisce il valore 3 in C1. Poiché ciò non soddisfa la regola di convalida dei dati, il file[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) restituisce il metodo**Falso** . Quindi, inserisce il valore 15 in C1. Poiché questo valore soddisfa la regola di convalida dei dati, il[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) restituisce il metodo**Vero** . Allo stesso modo, ritorna**Falso** per valore 30.
 
-## Codice Java per verificare se un valore Cell soddisfa le regole di convalida dei dati
+## Java codice per verificare se un valore Cell soddisfa le regole di convalida dei dati
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-VerifyCellValueSatisfiesDataValidationRules-VerifyCellValueSatisfiesDataValidationRules.java" >}}
 

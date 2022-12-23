@@ -82,7 +82,7 @@ Ardından, pom.xml'nizde Aspose.Cells for Java API bağımlılığını aşağı
 
 Tebrikler! Maven projenizde Aspose.Cells for Java Maven bağımlılığını başarıyla tanımladınız.
 
-## **Destek**
+## **Destek olmak**
 
 Hızlı teknik destek almak için lütfen aşağıdakileri kontrol edin
 

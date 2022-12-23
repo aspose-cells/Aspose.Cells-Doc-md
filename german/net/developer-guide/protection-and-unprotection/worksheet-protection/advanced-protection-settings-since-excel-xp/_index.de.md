@@ -32,7 +32,7 @@ So zeigen Sie die in Excel XP verfügbaren Schutzeinstellungen an:
 So zeigen Sie die in Excel 2016 verfügbaren Schutzeinstellungen an
 
 1.  Von dem**Datei** Menü, auswählen**Arbeitsmappe schützen** gefolgt von**Aktuelles Blatt schützen**.
-1.  Wähle aus**Schutzblatt** in dem**Rezension** Speisekarte.
+1.  Wähle aus**Schutzblatt** in dem**Überprüfung** Speisekarte.
 
 Wenn Sie den oben genannten Schritten folgen, wird ein Dialogfeld angezeigt, in dem Sie Arbeitsblattfunktionen zulassen oder einschränken oder ein Kennwort auf das Arbeitsblatt anwenden können.
 
@@ -62,6 +62,6 @@ Wenn Sie verhindern möchten, dass Benutzer Zellen bearbeiten, müssen die Zelle
 |:- |
 |![todo: Bild_alt_Text](advanced-protection-settings-since-excel-xp_1.png)|
 
-Es ist auch möglich, Zellen unter der Nummer Aspose.Cells API zu sperren. Jede Zelle kann bekommen[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Formatierung, die eine boolesche Eigenschaft enthält,[**Ist gesperrt**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Stellen Sie die ein[**Ist gesperrt**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) Eigentum zu**Stimmt** oder**FALSCH** um die Zelle zu sperren oder zu entsperren.
+Es ist auch möglich, Zellen unter der Nummer Aspose.Cells API zu sperren. Jede Zelle kann bekommen[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Formatierung, die eine boolesche Eigenschaft enthält,[**Ist gesperrt**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Stellen Sie die ein[**Ist gesperrt**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) Eigentum zu**wahr** oder**FALSCH** um die Zelle zu sperren oder zu entsperren.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

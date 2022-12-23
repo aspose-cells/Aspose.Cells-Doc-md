@@ -9,7 +9,7 @@ url: /es/java/spreadsheet-editor-getting-started/
 - [Introducción](#SpreadsheetEditorGettingStarted-Introduction)
 - [Requisitos del sistema](#SpreadsheetEditorGettingStarted-SystemRequirements)
 - [Descarga e Instalación](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
-- [Apoyo](#SpreadsheetEditorGettingStarted-Support)
+- [Soporte](#SpreadsheetEditorGettingStarted-Support)
 - [Contribuir](#SpreadsheetEditorGettingStarted-Contribute)
 - [Licencia](#SpreadsheetEditorGettingStarted-License)
 ### **Introducción**
@@ -17,11 +17,11 @@ Html5 Spreadsheet Editor es una aplicación web que puede ver y editar documento
 
 ![todo:imagen_alternativa_texto](aowcrc1.png)
 
- Editor de hojas de cálculo HTML5 utiliza muchas características de[Aspose.Cells for Java](https://products.aspose.com/cells/java/) muestra cómo usarlos para crear, manipular y representar una hoja de cálculo en su aplicación Java.
+ Editor de hojas de cálculo HTML5 utiliza muchas características de[Aspose.Cells for Java](https://products.aspose.com/cells/java/) y muestra cómo usarlos para crear, manipular y representar una hoja de cálculo en su aplicación Java.
 
 **Características**
 
--  Trabajar con archivos
+- Trabajar con archivos
  - Formatos soportados
  - Abrir archivos locales
  - Abrir desde Dropbox
@@ -74,7 +74,7 @@ Los requisitos de hardware varían según el servidor de aplicaciones Java que e
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
 - [Código Google](https://code.google.com/archive/p/html5-spreadsheet-editor/)
-- [FuenteForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
+- [FuenteForja](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 Use uno de los siguientes comandos para descargar el código fuente a través de la línea de comandos:
 
@@ -102,7 +102,7 @@ Use uno de los siguientes comandos para descargar el código fuente a través de
 
 {{< /highlight >}}
 
-**FuenteForge**
+**FuenteForja**
 
 {{< highlight "bash" >}}
 
@@ -137,13 +137,13 @@ El proceso de creación del proyecto se gestiona mediante Maven. Por lo tanto, p
 1. Descarga el código fuente del proyecto.
 1. Abre el***Importar*** cuadro de diálogo del menú Archivo.
 1.  Seleccione***Maven Proyecto*** desde el cuadro de diálogo de importación.
-1.  Hacer clic***próximo***.
+1.  Hacer clic***Próximo***.
 1.  Hacer clic***Navegar*** para seleccionar la ubicación del código fuente.
 1.  Seleccione***pom.xml*** de la lista a continuación.
 1.  Hacer clic***Finalizar***.
 
 El IDE de Eclipse debería importar y cargar el proyecto.
-### **Apoyo**
+### **Soporte**
 **Informe de error**
 
  Para enviar un informe de error, cree un nuevo problema en[Página del proyecto Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) y aplicar la etiqueta***insecto***.
@@ -176,7 +176,7 @@ HTML5 Spreadsheet Editor es un proyecto de código abierto que permite máximas 
  La fuente del proyecto está disponible en[Github](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java). También mantenemos réplicas de Git en los siguientes sitios:
 
 - [Bitbucket](https://bitbucket.org/asposeshowcase/html5_spreadsheet_editor_by_aspose.cells_for_java)
-- [FuenteForge](https://sourceforge.net/p/html5-spreadsheet-editor/)
+- [FuenteForja](https://sourceforge.net/p/html5-spreadsheet-editor/)
 
 **Solicitudes de extracción**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.4.2
+title: Pubblico API Modifiche Aspose.Cells 8.4.2
 type: docs
 weight: 150
 url: /it/net/public-api-changes-in-aspose-cells-8-4-2/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.4.1 alla 8.4.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.4.1 alla 8.4.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -113,7 +113,7 @@ workbook.Save(output);
 
 
 ### **Campi di enumerazione PasteType.Default e PasteType.DefaultExceptBorders aggiunti**
-Con il rilascio di v8.4.2, l'API Aspose.Cells ha aggiunto 2 nuovi campi di enumerazione per PasteType come descritto di seguito.
+Con il rilascio di v8.4.2, Aspose.Cells API ha aggiunto 2 nuovi campi di enumerazione per PasteType come descritto di seguito.
 
 - PasteType.Default: funziona in modo simile alla funzionalità "Tutto" di Excel per incollare un intervallo di celle.
 - PasteType.DefaultExceptBorders: funziona in modo simile alla funzionalità "Tutto tranne i bordi" di Excel per incollare un intervallo di celle.

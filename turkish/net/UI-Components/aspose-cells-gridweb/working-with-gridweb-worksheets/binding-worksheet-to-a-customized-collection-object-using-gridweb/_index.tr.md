@@ -265,7 +265,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **Özel bir koleksiyonla ciltlenmiş çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_1.png)
 
 
 
@@ -273,7 +273,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **Menüden Satır Ekle seçeneğinin seçilmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_2.png)
 
 
 
@@ -281,15 +281,15 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 **Varsayılan verilerle çalışma sayfasına yeni satır eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_3.png)
 
 
 
-Verilerde değişiklik yaptıktan sonra tıklayın.**Kaydetmek** veya**Göndermek** değişikliklerinizi kaydetmek için
+Verilerde değişiklik yaptıktan sonra tıklayın.**Kayıt etmek** veya**Göndermek** değişikliklerinizi kaydetmek için
 
 **Kaydet düğmesine tıklayarak değişiklikleri kaydetme** 
 
-![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-customized-collection-object-using-gridweb_4.png)
 ## **Çözüm**
 {{% alert color="primary" %}} 
 

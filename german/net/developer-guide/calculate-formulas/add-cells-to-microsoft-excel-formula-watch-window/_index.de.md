@@ -6,7 +6,7 @@ url: /de/net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Microsoft Excel Watch Window ist ein nützliches Tool, um die Zellenwerte und ihre Formeln bequem in einem Fenster zu beobachten. Sie können die öffnen*Schaufenster* Verwenden Sie Microsoft Excel, indem Sie auf klicken*Formeln > Beobachten* *Fenster*. Es hat die*Uhr hinzufügen*Schaltfläche, mit der die Zellen zur Inspektion hinzugefügt werden können. Ebenso können Sie verwenden[**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) Methode zum Hinzufügen von Zellen*Schaufenster*mit Aspose.Cells API.
+Microsoft Excel Watch Window ist ein nützliches Tool, um die Zellenwerte und ihre Formeln bequem in einem Fenster zu beobachten. Sie können die öffnen*Schaufenster* Verwenden Sie Microsoft Excel, indem Sie auf klicken*Formeln > Beobachten* *Fenster*. Es hat die*Uhr hinzufügen*Schaltfläche, mit der die Zellen zur Inspektion hinzugefügt werden können. Ebenso können Sie verwenden[**Worksheet.CellWatches.Add()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index)Methode zum Hinzufügen von Zellen*Schaufenster*mit Aspose.Cells API.
 
 ## **Fügen Sie Cells zu Microsoft Excel-Formel-Überwachungsfenster hinzu**
 

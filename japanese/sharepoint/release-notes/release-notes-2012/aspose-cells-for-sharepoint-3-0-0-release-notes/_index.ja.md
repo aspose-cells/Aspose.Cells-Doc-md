@@ -22,6 +22,6 @@ SharePoint 内でプレビューする
 機能強化
 
 - サポートを追加
-変換用の新しい形式 (XLSB、MHtml、XPS、TIFF、SVG、DIF) 用
+新しい形式 (XLSB、MHtml、XPS、TIFF、SVG、DIF) の変換用
 - オプティマイズ Aspose.Cells
  for SharePoint コンポーネント

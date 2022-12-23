@@ -26,7 +26,7 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43682) - ExportDataTableAsString 関数は、セル値を StringValueWithoutFormat としてエクスポートする必要があります
 
-(CELLSNET-41619) - XLSB のリビジョンを XLSM に変換
+(CELLSNET-41619) - リビジョン XLSB を XLSM に変換
 
 (CELLSNET-40366) - ライセンスが登録されているかどうかを知る方法
 
@@ -46,7 +46,7 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43667) - Worksheet.CalculateFormula を呼び出した後の数式値が正しくない
 
-(CELLSNET-43584) - PDF への変換時にグラフのラベルが失われる
+(CELLSNET-43584) - PDF に変換するとチャート ラベルが失われる
 
 (CELLSNET-43705) - 出力 PDF で日付形式が異なる
 
@@ -76,7 +76,7 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43600) - Excel ファイルが正しくレンダリングされない
 
-(CELLSNET-43593) - テキストが行の上にある、および Excel から PDF へのその他の書式設定の問題
+(CELLSNET-43593) - テキストが行の上にある、および Excel のその他のフォーマットの問題が PDF に
 
 (CELLSNET-43481) - ヘブライ語の Cells で RTL の一貫性が失われていた
 
@@ -88,7 +88,7 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43102) - フォント間隔の違い
 
-(CELLSNET-42832) - 改ページの外側のテキストが PDF で折り返されたテキストとしてレンダリングされる
+(CELLSNET-42832) - PDF で、改ページの外側のテキストが折り返されたテキストとしてレンダリングされる
 
 (CELLSNET-42751) - テキストがセルをオーバーランし、途切れる
 
@@ -98,31 +98,31 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-42696) - 変換後にキャラクター同士が接触
 
-(CELLSNET-42542) - XLSX から PDF への変換中に、マージされてゆがんだテキストが途切れる
+(CELLSNET-42542) - XLSX から PDF への変換中に、マージされてワープされたテキストが途切れる
 
 (CELLSNET-42537) - 下線が二重下枠と重なっています
 
-(CELLSNET-42474) - PDFへの変換後にフォントサイズが変更されました
+(CELLSNET-42474) - 変換後にフォント サイズが PDF に変更されました
 
 (CELLSNET-42260) - Aspose.Cells で生成された PDF と MS Excel の比較
 
-(CELLSNET-41519) - XLSX ファイルを PDF に変換するときにページが整列しない
+(CELLSNET-41519) - XLSX ファイルを PDF に変換すると、ページが整列しません
 
 (CELLSNET-43683) - Aspose 8.4.2 がチャート プロパティを正しく読み取らず、スワップされる
 
-(CELLSNET-43680) - Excel から PDF への変換で出力 PDF ファイルに凡例の色が表示されない
+(CELLSNET-43680) - Excel から PDF への変換で、出力 PDF ファイルに凡例の色がありません
 
-(CELLSNET-43679) - グラフの水平方向の x 軸のスケーリングが、レンダリングされた PDF ファイル形式で欠落しています
+(CELLSNET-43679) - レンダリングされた PDF ファイル形式で、チャートの水平方向の x 軸スケーリングが欠落している
 
 (CELLSNET-43677) - カテゴリ軸をテキスト軸に設定できない
 
-(CELLSNET-43668) - Excel から PDF への変換で 3D 円グラフが正しくレンダリングされない
+(CELLSNET-43668) - 3D 円グラフが Excel で PDF 変換に正しくレンダリングされない
 
 (CELLSNET-43657) - OoxmlSaveOptions.RefreshChartCache = true で保存した後、グラフが正しく生成されない
 
 (CELLSNET-43648) - SheetRender.ToImage を使用すると、セル参照の画像が切り捨てられる
 
-(CELLSNET-42922) - PDF ファイル形式にレンダリングすると、リーダー線が非表示になります
+(CELLSNET-42922) - PDF ファイル形式にレンダリングすると、リーダー線が非表示になる
 
 (CELLSNET-42376) - XLSX から PDF へのレンダリング中にテキストが TextBox から切り取られる
 
@@ -132,9 +132,9 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43711) - ワークシートに新しく挿入された画像が縦に引き伸ばされる
 
-(CELLSNET-43665) - XLSX で XLS を保存すると、ワークシートから TextBoxes が削除されました
+(CELLSNET-43665) - XLSX に XLS を保存すると、ワークシートから TextBoxes が削除されました
 
-(CELLSNET-43664) - ODS として保存すると、ユーロ記号がドル記号に変更されます
+(CELLSNET-43664) - ODS として保存すると、ユーロ記号がドル記号に変更される
 
 (CELLSNET-43659) - 一部の線のスタイルが異なる
 
@@ -158,7 +158,7 @@ url: /ja/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -225,7 +225,7 @@ CalculationOptions で式を計算するためのメソッドを追加します:
 
 
 
-ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) のパラメーターの変更
+ ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) のパラメーターの変更
 
 ここで、対応するパラメータが参照である場合、またはその計算結果が参照である場合に、参照される領域の値または値配列の代わりに、ReferredArea オブジェクトを「paramsList」に追加します。また、contextObjexts から ReferredAreaCollection を削除します。
 

@@ -35,7 +35,7 @@ Per pubblicare un report su Report Server, attenersi alla seguente procedura:
 
 Viene visualizzata la finestra di dialogo Impostazione origine dati.
 
-1.  Nella finestra di dialogo immettere le informazioni sull'origine dati. Clic**Selezionare** per selezionare le origini dati condivise. (Se ne hai bisogno, le origini dati condivise dovrebbero essere l'origine dati principale del report). Clicca il**OK** pulsante per completare il lavoro.
+1.  Nella finestra di dialogo immettere le informazioni sull'origine dati. Clic**Selezionare** per selezionare le origini dati condivise. (Se ne hai bisogno, le origini dati condivise dovrebbero essere l'origine dati principale del rapporto). Clicca il**OK** pulsante per completare il lavoro.
 
 ![cose da fare:immagine_alt_testo](publishing-report_5.png)
 

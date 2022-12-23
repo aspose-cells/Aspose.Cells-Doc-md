@@ -15,7 +15,7 @@ url: /de/java/create-pivot-table/
 Die Pivot-Tabellenobjekte sind:
 
 - [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): Es repräsentiert ein Feld in einer Pivot-Tabelle.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : Es stellt eine Sammlung aller dar[**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)Objekte in der Pivot-Tabelle.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) Es stellt eine Sammlung aller dar[**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)Objekte in der Pivot-Tabelle.
 - [**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): Es stellt eine Pivot-Tabelle dar.
 - [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): Es stellt die Sammlung aller Pivot-Tabellenobjekte auf dem Arbeitsblatt dar.
 
@@ -26,7 +26,7 @@ Die Pivot-Tabellenobjekte sind:
 Um eine Pivot-Tabelle mit Aspose.Cells zu erstellen, führen Sie bitte die folgenden Schritte aus:
 
 1.  Fügen Sie einige Daten zu Arbeitsblattzellen hinzu, indem Sie die verwenden[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Objekt[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)Methode. Diese Daten werden als Datenquelle für die Pivot-Tabelle verwendet.
-1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[**hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) Methode der[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) Klasse, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Objekt.
+1. Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[**addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) Methode der[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) Klasse, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Objekt.
 1.  Greife auf ... zu[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) Objekt aus der[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) durch das Passieren der[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)Index.
 1.  Verwenden Sie eines der (oben erläuterten) Pivot-Tabellenobjekte, die in gekapselt sind[**PivotTable**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)Objekt zum Verwalten der Pivot-Tabelle.
 

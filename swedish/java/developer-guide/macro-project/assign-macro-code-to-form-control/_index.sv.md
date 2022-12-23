@@ -10,7 +10,7 @@ url: /sv/java/assign-macro-code-to-form-control/
 
 {{% /alert %}} 
 ## **Tilldela makrokod till formulärkontroll med Aspose.Cells**
-Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i XLSM-formatet. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel du kommer att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i formatet XLSM. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel, du kommer att se följande makrokod.
 
 {{< highlight "java" >}}
 
@@ -22,6 +22,6 @@ End Sub
 
 {{< /highlight >}}
 
-Här är en exempelkod för att generera utdata-XLSM-filen med makrokod.
+Här är en exempelkod för att generera utdatafilen XLSM med makrokod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}

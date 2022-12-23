@@ -18,7 +18,7 @@ Eine normale Ansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbr
 #### **Normalansicht aktivieren**
 Versetzen Sie jedes Arbeitsblatt in die normale Ansicht, indem Sie die verwenden[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) Methode der[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und Bestehen**FALSCH** als Parameter.
 #### **Seitenumbruchvorschau aktivieren**
-Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau mit ein[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)Methode der[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und Bestehen**Stimmt**als Parameter.
+Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau mit ein[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)Methode der[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse und Bestehen**wahr**als Parameter.
 
  Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[setPageBreakPreview](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)-Methode, um den Seitenumbruch-Vorschaumodus für das erste Arbeitsblatt der Excel-Datei zu aktivieren.
 
@@ -78,7 +78,7 @@ Aspose.Cells bietet eine[Arbeitsmappe](https://reference.aspose.com/cells/java/c
 
  Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Rufen Sie zum Konfigurieren von Einfrierfenstern die[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse'[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) Methode. Das[freezePanes](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\))-Methode nimmt die folgenden Parameter an:
 
-- **Die Zeile**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
+- **Reihe**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
 - **Spalte**, der Spaltenindex der Zelle, ab der das Einfrieren beginnt.
 - **Gefrorene Reihen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
 - **Gefrorene Säulen**, die Anzahl der sichtbaren Spalten im linken Bereich

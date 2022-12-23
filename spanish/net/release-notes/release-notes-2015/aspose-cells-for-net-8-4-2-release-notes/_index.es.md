@@ -30,11 +30,11 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Insectos**
 
 
- (CELLSNET-43581): el texto se mueve fuera del encabezado cuando el archivo de Excel se convierte a PDF.
+ (CELLSNET-43581): el texto se mueve fuera del encabezado cuando el archivo de Excel se convierte a PDF
 
  (CELLSNET-43639) - Las marcas de agua no se muestran correctamente
 
- (CELLSNET-43645): no se puede guardar el objeto OLE incrustado de XLSX en HTML.
+ (CELLSNET-43645): no se puede guardar el objeto OLE incrustado del XLSX al HTML
 
  (CELLSNET-43613) - La fuente personalizada no funciona con SheetRender
 
@@ -52,9 +52,9 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43502) - Las líneas principales de cuadrícula desaparecen y la leyenda de la serie aparece en el centro
 
- (CELLSNET-41716) - Las etiquetas del eje X no se muestran correctamente
+(CELLSNET-41716) - Las etiquetas del eje X no se muestran correctamente
 
-(CELLSNET-43641): problema con el cálculo de fórmulas cuando se habilita el cálculo iterativo
+ (CELLSNET-43641): problema con el cálculo de fórmulas cuando se habilita el cálculo iterativo
 
  (CELLSNET-43637) - Resultados de fórmula incorrectos para la función PERCENTRANK
 
@@ -78,11 +78,11 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Excepciones**
 
 
- (CELLSNET-43585) - Aspose.Cells.CellsException al convertir una hoja de cálculo a PDF
+ (CELLSNET-43585) - Aspose.Cells.CellsException al convertir la hoja de cálculo a PDF
 
- (CELLSNET-43609): excepción al representar un archivo de Excel en formato de archivo PDF
+(CELLSNET-43609): excepción al representar un archivo de Excel en el formato de archivo PDF
 
-(CELLSNET-43583) - Error de GDI en el método SheetRender.ToImage
+ (CELLSNET-43583) - Error de GDI en el método SheetRender.ToImage
 
  (CELLSNET-43565) - CellsException al guardar xlsx en pdf
 
@@ -104,11 +104,11 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43570) - ListObject.ConvertToRange lanza NullReferenceException en una tabla
 
- (CELLSNET-43564) - NullReferenceException al volver a guardar un archivo XLSB
+ (CELLSNET-43564) - NullReferenceException al guardar un archivo XLSB
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -116,9 +116,9 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Insectos**
 
 
- (CELLSNET-43610): el evento SaveCommand no se activa
+(CELLSNET-43610): el evento SaveCommand no se activa
 
-(CELLSNET-43551) - IE8 no funciona bien con el formato personalizado holandés-belga
+ (CELLSNET-43551) - IE8 no funciona bien con el formato personalizado holandés-belga
 
 
 ## **Public API y cambios incompatibles con versiones anteriores**
@@ -140,8 +140,8 @@ url: /es/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-Agrega las enumeraciones PasteType.Default y PasteType.DefaultExceptBorders.
+ Agrega las enumeraciones PasteType.Default y PasteType.DefaultExceptBorders.
 
- Se usa para copiar el rango como "Todos" y "Todos excepto los bordes" en MS Excel.
+Se usa para copiar el rango como "Todos" y "Todos excepto los bordes" en MS Excel.
 
 

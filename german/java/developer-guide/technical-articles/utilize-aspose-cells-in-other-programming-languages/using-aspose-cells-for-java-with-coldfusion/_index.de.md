@@ -16,7 +16,7 @@ Dieser Artikel zeigt, wie Sie mit ColdFusion eine einfache Webseite erstellen un
 
 Mit Aspose.Cells können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail und auf jeder Ebene formatieren, Bilder importieren, Diagramme importieren, Diagramme erstellen, Diagramme manipulieren, Microsoft Excel-Daten streamen und in verschiedenen Formaten speichern, darunter XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integriert) und viele mehr.
 
- Weitere Informationen zu Produktinformationen, Funktionen und ein Programmierhandbuch finden Sie in der Dokumentation Aspose.Cells und im Online-Feature[Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Du kannst[Download](https://downloads.aspose.com/cells/java) und kostenlos auswerten.
+ Weitere Informationen zu Produktinformationen, Funktionen und ein Programmierhandbuch finden Sie in der Dokumentation Aspose.Cells und im Online-Feature[Demos](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Sie können[Download](https://downloads.aspose.com/cells/java) und kostenlos auswerten.
 
 ### **Voraussetzungen**
 

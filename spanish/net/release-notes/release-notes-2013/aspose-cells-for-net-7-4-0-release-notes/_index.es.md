@@ -25,7 +25,7 @@ url: /es/net/aspose-cells-for-net-7-4-0-release-notes/
 
 
 
- Actuación
+ Rendimiento
 
 - Colgado al guardar en formato PDF
 
@@ -78,19 +78,19 @@ url: /es/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Insectos
 
- 41279 - La lista del menú de validación de GridWeb fallará en los elementos del menú que contengan el signo de dólar - "$"
+41279 - La lista del menú de validación de GridWeb fallará en los elementos del menú que contengan el signo de dólar - "$"
 
  41280- La lista del menú de validación de GridWeb se actualiza después de actualizar el valor de la celda a la que se hace referencia
 
  41294 - GridWeb no funcionará en FireFox para los archivos que contienen celdas con lista de validación
 
-41308 - Al editar un valor de celda, al presionar la tecla Intro se perderá el salto de línea original en IE
+ 41308 - Al editar un valor de celda, al presionar la tecla Intro se perderá el salto de línea original en IE
 
 - Problema de copiar y pegar en la cuadrícula web que no funciona para Chrome, FireFox, etc.
 
 
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 
 
 

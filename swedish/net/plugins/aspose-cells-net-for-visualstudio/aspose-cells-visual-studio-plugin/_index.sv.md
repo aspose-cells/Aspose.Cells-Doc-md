@@ -12,12 +12,12 @@ Microsoft Visual Studio är en integrerad utvecklingsmiljö (IDE) från Microsof
 
 Aspose.Cells for .NET tillhandahåller den mest flexibla gruppen av komponenter som gör det möjligt för .NET-applikationer att skapa, ändra, konvertera, rendera och skriva ut Excel®-kalkylblad utan att behöva installera Microsoft Excel® på servern.
 
-Aspose.Cells for .NET stöder alla stora Microsoft Excel och andra filformat inklusive XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML och PDF, etc.
+Aspose.Cells for .NET Stöd
  För mer information om[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Utforska Aspose.Cells for .NET Exempel med Visual Studio**
 
- Aspose Visual Studio Plugin -**Utforska Aspose.Cells for .NET Exempel** är ett utmärkt verktyg för att snabbt ladda ner och utforska Aspose.Cells for .NET API exempel. Det sparar mycket tid och ansträngningar genom att tillhandahålla ett mycket enkelt alternativ för att sömlöst välja, ladda ner och öppna de senaste exempelprojekten utan att behöva lämna din Visual Studio.
+Aspose Visual Studio Plugin -**Utforska Aspose.Cells for .NET Exempel** är ett utmärkt verktyg för att snabbt ladda ner och utforska Aspose.Cells for .NET API exempel. Det sparar mycket tid och ansträngningar genom att tillhandahålla ett mycket enkelt alternativ för att sömlöst välja, ladda ner och öppna de senaste exempelprojekten utan att behöva lämna din Visual Studio.
 
 Denna version har följande funktioner:
 

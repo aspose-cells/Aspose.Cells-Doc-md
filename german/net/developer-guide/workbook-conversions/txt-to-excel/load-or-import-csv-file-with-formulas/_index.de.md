@@ -1,12 +1,12 @@
 ﻿---
-title: CSV-Datei mit Formeln laden oder importieren
+title: Laden oder importieren Sie die Datei CSV mit Formeln
 type: docs
 weight: 350
 url: /de/net/load-or-import-csv-file-with-formulas/
 ---
 {{% alert color="primary" %}} 
 
- Die CSV-Datei enthält hauptsächlich Textdaten und keine Formeln. Manchmal kommt es jedoch vor, dass CSV-Dateien auch Formeln enthalten. Solche CSV-Dateien sollten geladen werden, indem das gesetzt wird[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) wie**Stimmt** . Sobald diese Eigenschaft festgelegt wird**Stimmt**, Aspose.Cells behandelt die Formel nicht als einfachen Text. Sie werden als Formel behandelt und von der Formelberechnungs-Engine Aspose.Cells wie gewohnt verarbeitet.
+ CSV-Datei enthält hauptsächlich Textdaten und keine Formeln. Manchmal kommt es jedoch vor, dass CSV-Dateien auch Formeln enthalten. Solche CSV-Dateien sollten geladen werden, indem Sie die[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) als**wahr** . Sobald diese Eigenschaft festgelegt wird**wahr**, Aspose.Cells behandelt die Formel nicht als einfachen Text. Sie werden als Formel behandelt und von der Formelberechnungs-Engine Aspose.Cells wie gewohnt verarbeitet.
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ url: /de/net/load-or-import-csv-file-with-formulas/
 
 
 
- Der Code lädt zuerst die CSV-Datei und importiert sie dann erneut in Zelle D4. Schließlich wird das Arbeitsmappenobjekt im XSLX-Format gespeichert. Das[XLSX-Datei ausgeben](5115052.xlsx) sieht aus wie das. Wie Sie sehen, enthalten die Zellen C3 und F4 die Formel und ihr Ergebnis 800.
+Der Code lädt zuerst die Datei CSV und importiert sie dann erneut in Zelle D4. Schließlich wird das Arbeitsmappenobjekt im XSLX-Format gespeichert. Das[Ausgabedatei XLSX](5115052.xlsx) sieht aus wie das. Wie Sie sehen, enthalten die Zellen C3 und F4 die Formel und ihr Ergebnis 800.
 
 |![todo: Bild_alt_Text](load-or-import-csv-file-with-formulas_1.png)|
 |:- |

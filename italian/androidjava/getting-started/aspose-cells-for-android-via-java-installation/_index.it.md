@@ -9,7 +9,7 @@ Aspose.Cells for Android via Java è indipendente dalla piattaforma e può esser
 
 - Android 5.1 versione 22
 ## **Installa Aspose.Cells for Android via Java dal repository Maven**
-1. Aggiungi il repository Maven nel tuo build.gradle
+1. Aggiungi il repository maven al tuo build.gradle
 1. Aggiungi 'Aspose.Cells for Android via Java' JAR come dipendenza
 
 {{< highlight "java" >}}
@@ -48,8 +48,8 @@ Se non hai ancora installato Android Studio, devi prima acquisire la configurazi
 
  Aspose.Cells for Android via Java pacchetto scaricabile da[qui](https://downloads.aspose.com/cells/androidjava). Si noti che ogni pacchetto di rilascio di Aspose.Cells for Android via Java consiste principalmente di 2 file come descritto di seguito.
 
-- **aspose-cells-xxxjar** è il file della libreria principale contenente tutti gli spazi dei nomi dall'API Aspose.Cells for Android via Java.
-- **aspose-cells-xxx-libs.apk** è l'APK contenente il bcprov-jdk15-146.jar di terze parti utilizzato per le strutture di crittografia e decrittografia offerte dall'API Aspose.Cells for Android via Java.
+- **aspose-cells-xxxjar** è il file della libreria principale contenente tutti gli spazi dei nomi da Aspose.Cells for Android via Java API.
+- **aspose-cells-xxx-libs.apk** è l'APK contenente il bcprov-jdk15-146.jar di terze parti utilizzato per le strutture di crittografia e decrittografia offerte da Aspose.Cells for Android via Java API.
 
 {{% /alert %}} 
 ### **Iniziare con Aspose.Cells for Android via Java in Android Studio**

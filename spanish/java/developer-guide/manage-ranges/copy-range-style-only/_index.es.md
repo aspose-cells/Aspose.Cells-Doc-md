@@ -6,7 +6,7 @@ url: /es/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[Copiar solo datos de rango](/cells/es/java/copy-range-data-only/) y[Copiar datos de rango con estilo](/cells/es/java/copy-range-data-with-style/) explicó cómo copiar datos de un rango a otro con o sin formato. También es posible copiar solo el formato del rango. Este artículo muestra cómo.
+[Copiar solo datos de rango](/cells/es/java/copy-range-data-only/) y[Copiar datos de rango con estilo](/cells/es/java/copy-range-data-with-style/)explicó cómo copiar datos de un rango a otro con o sin formato. También es posible copiar solo el formato del rango. Este artículo muestra cómo.
 
 {{% /alert %}} 
 ## **Copiar solo estilo de rango**

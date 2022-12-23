@@ -10,7 +10,7 @@ url: /es/net/find-out-if-vba-project-is-protected/
 
 ## **Código de muestra**
 
- El siguiente código de muestra crea un libro de trabajo y luego verifica si su proyecto VBA está protegido o no. Luego protege el proyecto de VBA y nuevamente verifica si su proyecto de VBA está protegido o no. Consulte su salida de consola para obtener una referencia. Antes de la protección,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) devoluciones**falso** pero después de la protección, vuelve**verdadero**.
+El siguiente código de muestra crea un libro de trabajo y luego verifica si su proyecto VBA está protegido o no. Luego protege el proyecto de VBA y nuevamente verifica si su proyecto de VBA está protegido o no. Consulte su salida de consola para obtener una referencia. Antes de la protección,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) devoluciones**falso** pero después de la protección, vuelve**verdadero**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 

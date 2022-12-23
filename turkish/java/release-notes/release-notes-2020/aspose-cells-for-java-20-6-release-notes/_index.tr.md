@@ -15,19 +15,19 @@ url: /tr/java/aspose-cells-for-java-20-6-release-notes/
 |CELLSJAVA-43186|Genişletilmiş sütunla her satır için genel toplamı hesaplayın|Artırma|
 |CELLSJAVA-43191|Yanlış yazı tipi türlerini belirtirken senaryoları işlemek için araçlar sağlayın|Artırma|
 |CELLSJAVA-43187|XLS "Microsoft Excel 5.0 / 95 Çalışma Kitabı" dosyalarını yüklerken istisna|Artırma|
-|CELLSJAVA-43180|Siyah çalışma sayfası çıktısı oluşturan HTML'den Excel'e dönüştürme|Böcek|
-|CELLSJAVA-43181|Excel'i HTML'ye dönüştürmede satır yüksekliğindeki fark|Böcek|
-|CELLSJAVA-43188|Arka plan renk stili, HTML'den Excel'e dönüştürme sırasında korunmuyor|Böcek|
+|CELLSJAVA-43180|HTML'den Excel'e dönüştürme, siyah çalışma sayfası çıktısı oluşturuyor|Böcek|
+|CELLSJAVA-43181|Excel'i HTML'e dönüştürmede satır yüksekliğindeki fark|Böcek|
+|CELLSJAVA-43188|Excel dönüştürme işlemi için HTML sırasında arka plan renk stili korunmuyor|Böcek|
 |CELLSJAVA-43196|Aspose.Cells for Java 20.4 ve 20.5 kullanılarak farklı sayıda VBA modülü algılandı|Böcek|
 |CELLSJAVA-43202|Çalışma kitabı oluşturma tamamlandığında yayınlanmayan kaynaklar|Böcek|
 |CELLSJAVA-43203|Unicode adlarıyla adlandırılmış aralıklara dayalı olarak bazı Excel doğrulama listeleri işlenemiyor|Böcek|
-|CELLSJAVA-43185|Linux'ta setImageResample'da JPEG kalitesi her zaman 75'tir|Böcek|
+|CELLSJAVA-43185|JPEG kalitesi Linux'ta setImageResample'da her zaman 75'tir|Böcek|
 |CELLSJAVA-43192|Varsayılan olarak macOS'ta /System/Library/Fonts yazı tipi klasörünü yükle|Böcek|
 |CELLSJAVA-43157|Şelale grafiği oluşturulurken özelleştirilmiş veri serisi rengi korunmaz|Böcek|
 |CELLSJAVA-43175|Çalışma kitabını diğer çalışma kitaplarına başvururken grafik serisi adıyla ilgili bir sorun|Böcek|
-|CELLSJAVA-43201|HTML'ye kaydetme sırasında "java.util.EmptyStackException" istisnası|İstisna|
+|CELLSJAVA-43201|HTML'e kaydetme sırasında "java.util.EmptyStackException" istisnası|İstisna|
 |CELLSJAVA-43204|Cell.getDisplayStringValue() kullanılırken NegativeArraySizeException oluşuyor|İstisna|
-|CELLSJAVA-43189|XLS dosyası yüklenirken ortaya çıkan istisna|İstisna|
+|CELLSJAVA-43189|XLS dosyası yüklenirken istisna oluştu|İstisna|
 |CELLSJAVA-43193|Bazı XLSX dosyaları yüklenirken NullPointerException oluştu|İstisna|
 |CELLSJAVA-43200|Dosya yüklenirken "java.lang.ArrayIndexOutOfBoundsException" istisnası|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

@@ -22,7 +22,7 @@ Aşağıdaki kod parçacığının çıktısı aşağıda gösterilmiştir.
 
 **GridWeb kontrolünün genişliği ve yüksekliği değiştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](resize-gridweb-and-its-header-bar_1.png)
+![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_1.png)
 
 
 
@@ -37,13 +37,13 @@ Bu başlık çubuklarının her ikisi de aşağıda gösterilmiştir.
 
 **Başlık çubukları** 
 
-![yapılacaklar:resim_alternatif_Metin](resize-gridweb-and-its-header-bar_2.png)
+![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_2.png)
 
 Sırasıyla GridWeb denetiminin HeaderBarHeight ve HeaderBarWidth özelliklerini kullanarak üst başlık çubuğunun yüksekliğini ve sol başlık çubuğunun genişliğini değiştirin. Aşağıdaki şekil, aşağıdaki kod örneğinin çıktısını göstermektedir.
 
 **Başlık çubuğunun genişliği ve yüksekliği değiştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](resize-gridweb-and-its-header-bar_3.png)
+![yapılacaklar:resim_alternatif_metin](resize-gridweb-and-its-header-bar_3.png)
 
 
 

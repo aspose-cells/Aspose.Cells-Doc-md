@@ -1,10 +1,10 @@
 ﻿---
-title: Spara varje arbetsblad till olika PDF-filer
+title: Spara varje arbetsblad till olika PDF
 type: docs
 weight: 10
 url: /sv/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Spara varje kalkylblad till en annan PDF**
+## **Aspose.Cells - Spara varje arbetsblad till olika PDF**
 Aspose.Cells stöder konvertering av XLS-filer (som innehåller bilder, diagram etc.) till PDF-dokument. Aspose.Cells for .NET kan arbeta självständigt för att konvertera ett kalkylblad till Pdf-dokument och du behöver inte längre använda Aspose.Pdf for .NET för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
 
 **C#**
@@ -55,7 +55,7 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Ladda ner Running Code**
- Ladda ner**Spara varje arbetsblad till olika PDF-filer** bilda någon av nedan nämnda sociala kodningswebbplatser:
+ Ladda ner**Spara varje arbetsblad till olika PDF** bilda någon av nedan nämnda sociala kodningswebbplatser:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 

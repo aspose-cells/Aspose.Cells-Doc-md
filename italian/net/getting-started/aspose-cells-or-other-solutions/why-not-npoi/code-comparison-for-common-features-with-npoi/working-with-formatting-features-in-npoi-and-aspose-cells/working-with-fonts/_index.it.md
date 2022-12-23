@@ -92,7 +92,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Lavorare con i caratteri** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Lavorare con i caratteri** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.1/Working.with.Fonts.zip)
 

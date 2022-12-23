@@ -12,16 +12,16 @@ Aspose.Cells proporciona una amplia colección de estilos reutilizables para for
 
 {{% /alert %}}
 
-## **Cómo usar estilos incorporados**
+## **Cómo usar estilos integrados**
 
- El método[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) y la enumeración[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) que sea conveniente usar estilos integrados. Aquí hay una lista de todos los estilos integrados posibles:
+ El método[**Workbook.CreateBuiltinStyle**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createbuiltinstyle) y la enumeración[**BuiltinStyleType**](https://reference.aspose.com/cells/net/aspose.cells/builtinstyletype) que sea conveniente usar estilos integrados. Aquí hay una lista de todos los estilos incorporados posibles:
 
-- VEINTE_POR CIENTO_ACENTO_1
-- VEINTE_POR CIENTO_ACENTO_2
-- VEINTE_POR CIENTO_ACENTO_3
-- VEINTE_POR CIENTO_ACENTO_4
-- VEINTE_POR CIENTO_ACENTO_5
-- VEINTE_POR CIENTO_ACENTO_6
+- 20_POR CIENTO_ACENTO_1
+- 20_POR CIENTO_ACENTO_2
+- 20_POR CIENTO_ACENTO_3
+- 20_POR CIENTO_ACENTO_4
+- 20_POR CIENTO_ACENTO_5
+- 20_POR CIENTO_ACENTO_6
 - CUARENTA_POR CIENTO_ACENTO_1
 - CUARENTA_POR CIENTO_ACENTO_2
 - CUARENTA_POR CIENTO_ACENTO_3

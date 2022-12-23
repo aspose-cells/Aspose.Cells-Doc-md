@@ -4,13 +4,13 @@ type: docs
 weight: 30
 url: /tr/cpp/tables-and-ranges/
 ---
-## **giriiş**
+## **Giriş**
 Bazen Microsoft Excel'de bir tablo oluşturursunuz ve beraberinde gelen tablo işleviyle çalışmaya devam etmek istemezsiniz. Bunun yerine, masaya benzeyen bir şey istiyorsunuz. Biçimlendirmeyi kaybetmeden verileri bir tabloda tutmak için tabloyu normal bir veri aralığına dönüştürün. Aspose.Cells, tablolar ve liste nesneleri için Microsoft Excel'in bu özelliğini destekler.
 ## **Microsoft Excel'i kullanma**
  Kullan**Aralığa Dönüştür** biçimlendirmeyi kaybetmeden bir tabloyu hızla bir aralığa dönüştürme özelliği. Microsoft Excel 2007/2010'da:
 
 1. Aktif hücrenin bir tablo sütununda olduğundan emin olmak için tabloda herhangi bir yeri tıklayın.
-1.  Üzerinde**Tasarım** sekmesinde, içinde**Aletler** grup, tıklayın**Aralığa Dönüştür**.
+1.  Üzerinde**Tasarım** sekmesinde, içinde**Araçlar** grup, tıklayın**Aralığa Dönüştür**.
 
 {{% alert color="primary" %}} 
 

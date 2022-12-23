@@ -29,19 +29,19 @@ Il seguente frammento di codice mostra come impostare l'area del grafico.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartArea-1.cs" >}}
 ### **Impostazione delle linee del grafico**
- Gli sviluppatori possono anche applicare diversi tipi di stili alle linee o agli indicatori di dati del file[SerieCollezione](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection). Il seguente frammento di codice mostra come impostare le linee del grafico utilizzando l'API Aspose.Cells.
+ Gli sviluppatori possono anche applicare diversi tipi di stili alle linee o agli indicatori di dati del file[SerieCollezione](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection). Il seguente frammento di codice mostra come impostare le linee del grafico utilizzando Aspose.Cells API.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingChartLines-1.cs" >}}
-### **Applicazione di temi di Microsoft Excel 2007/2010 ai grafici**
- Gli sviluppatori possono applicare diversi temi/colori di Microsoft Excel a[SerieCollezione](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)o altri oggetti cartografici come mostrato di seguito nell'esempio.
+### **Applicazione di temi Microsoft Excel 2007/2010 ai grafici**
+ Gli sviluppatori possono applicare diversi temi/colori di Excel Microsoft a[SerieCollezione](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)o altri oggetti cartografici come mostrato di seguito nell'esempio.
 
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
 ### **Impostazione dei titoli dei grafici o degli assi**
-È possibile utilizzare Microsoft Excel per impostare i titoli di un grafico ei relativi assi in un ambiente WYSIWYG. Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[Titolo](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)proprietà che può essere utilizzata per impostare i loro titoli come mostrato di seguito in un esempio.
+È possibile utilizzare Microsoft Excel per impostare i titoli di un grafico e i relativi assi in un ambiente WYSIWYG. Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[Titolo](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)proprietà che può essere utilizzata per impostare i loro titoli come mostrato di seguito in un esempio.
 
 Il seguente frammento di codice mostra come impostare titoli su grafici e assi.
 

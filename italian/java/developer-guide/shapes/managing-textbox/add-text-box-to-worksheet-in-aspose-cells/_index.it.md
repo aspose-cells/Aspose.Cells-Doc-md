@@ -32,7 +32,7 @@ Ora ottieni una casella di testo.
 
 ## Aggiungi casella di testo al foglio di lavoro in Aspose.Cells
 
- Quando devi inserire in blocco TextBox nel foglio di lavoro, il metodo di inserimento manuale è ovviamente un disastro. Se questo ti dà fastidio, penso che questo documento ti aiuterà.[Aspose.Cells](https://products.aspose.com/cells/) ti fornisce un'API per eseguire facilmente inserimenti di massa nel tuo codice.
+ Quando devi inserire in blocco TextBox nel foglio di lavoro, il metodo di inserimento manuale è ovviamente un disastro. Se questo ti dà fastidio, penso che questo documento ti aiuterà.[Aspose.Cells](https://products.aspose.com/cells/) ti fornisce uno API per fare facilmente inserimenti di massa nel tuo codice.
 
 Il codice di esempio seguente crea una casella di testo.
 

@@ -29,7 +29,7 @@ Aspose.Cells 允许开发人员通过调用[电池](https://reference.aspose.com
 - [获取浮动值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4e36c4be4c76447f54f8032b17cecf44)返回单元格的浮点值。
 - [获取整数值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a7acc93c97c062cbd60a7f1ab00a022d8)返回单元格的整数值。
 
-当字段未填充时，单元格[获取双值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a5f21cd4c755da84135176c74425f230a)或者[获取浮动值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4e36c4be4c76447f54f8032b17cecf44)抛出异常。
+当字段未填充时，单元格[获取双值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a5f21cd4c755da84135176c74425f230a)要么[获取浮动值](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a4e36c4be4c76447f54f8032b17cecf44)抛出异常。
 
 单元格中包含的数据类型也可以使用[电池](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)班级[获取类型](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba)方法。事实上，[电池](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)班级[获取类型](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a36708b1bad0bbf45cbf9577ccab101ba)方法是基于[单元值类型](https://reference.aspose.com/cells/cpp/namespace/aspose.cells#a745bf00b4815ec8dcf1bd11922fa4b62)下面列出了预定义值的枚举：
 

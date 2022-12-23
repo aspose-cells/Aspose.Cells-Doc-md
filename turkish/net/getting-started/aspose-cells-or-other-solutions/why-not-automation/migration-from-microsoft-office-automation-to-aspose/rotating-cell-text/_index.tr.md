@@ -26,7 +26,7 @@ Bazen bir sütun başlığı, aşağıdaki hücrelerdeki verilerden çok daha ge
 Bu makaledeki kod örnekleri, aşağıda gösterilen çıktıyı verir.
 **Döndürülmüş metne sahip bir hücre.**
 
-![yapılacaklar:resim_alternatif_Metin](rotating-cell-text_1.png)
+![yapılacaklar:resim_alternatif_metin](rotating-cell-text_1.png)
 
 ### **VSTO ile Metni Döndürme**
 

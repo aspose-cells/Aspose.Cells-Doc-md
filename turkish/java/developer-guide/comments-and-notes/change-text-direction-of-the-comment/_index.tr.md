@@ -18,6 +18,6 @@ Aşağıdaki resim, Microsoft Excel'deki biçim ayarlarıyla birlikte yorumu gö
 
 **Sağdan sola metin yönüyle yorum yapın**
 
-![yapılacaklar:resim_alternatif_Metin](change-text-direction-of-the-comment_1.png)
+![yapılacaklar:resim_alternatif_metin](change-text-direction-of-the-comment_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirectionofComment.java" >}}

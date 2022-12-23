@@ -3,6 +3,7 @@ title: 行、列、およびスクロール バーの表示と非表示
 type: docs
 weight: 20
 url: /ja/net/show-and-hide-rows-columns-and-scroll-bars/
+description: この記事では、C# 言語と .NET API またはライブラリを使用して、Excel ワークシートの行と列をプログラムで表示および非表示にする方法を示します。スクロール バーの表示を調整したり、いくつかの行や列を非表示にしたりできます。
 ---
 {{% alert color="primary" %}}
 

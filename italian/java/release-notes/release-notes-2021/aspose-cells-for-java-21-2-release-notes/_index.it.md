@@ -10,17 +10,17 @@ url: /it/java/aspose-cells-for-java-21-2-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43382|La copia produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43364|Problema durante il salvataggio del grafico con un'immagine nel marcatore dell'immagine|
-|CELLSJAVA-43389|Impostazioni di protezione password cartella di lavoro/foglio di lavoro perse durante il salvataggio come formato di file XLSB|
-|CELLSJAVA-43392|La copia del foglio produce una cartella di lavoro danneggiata|
+|CELLSJAVA-43389|Impostazioni di protezione password cartella di lavoro/foglio di lavoro perse durante il salvataggio nel formato file XLSB|
+|CELLSJAVA-43392| La copia del foglio produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43387|L'esportazione di un singolo foglio in HTML genera un'eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento di Cells.DeleteBlankRows()/Cells.DeleteBlankRows(DeleteOptions)**
 

@@ -19,8 +19,8 @@ url: /tr/java/change-adjustment-values-of-the-shape/
 ## **Şeklin Ayarlama Değerlerini Değiştirme**
 Aşağıdaki örnek kod, kaynak excel dosyasındaki ilk çalışma sayfasının ilk üç şekline erişir ve ardından şekillerin ayar değerlerini değiştirir. Aşağıdaki ekran görüntüleri, ayar değerlerini değiştirmeden önce ve ardından ayar değerlerini değiştirdikten sonra şekillerin nasıl göründüğünü gösterir.
 ### **Ayar Değerlerini Değiştirmeden Önce Şekiller Çizme**
-![yapılacaklar:resim_alternatif_Metin](change-adjustment-values-of-the-shape_1.png)
+![yapılacaklar:resim_alternatif_metin](change-adjustment-values-of-the-shape_1.png)
 ### **Ayar Değerlerini Değiştirdikten Sonra Şekiller Çizme**
-![yapılacaklar:resim_alternatif_Metin](change-adjustment-values-of-the-shape_2.png)
+![yapılacaklar:resim_alternatif_metin](change-adjustment-values-of-the-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAdjustmentValuesOfShape-ChangeAdjustmentValuesOfShape.java" >}}

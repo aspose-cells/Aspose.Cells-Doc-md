@@ -22,7 +22,7 @@ Aspose est réputé pour son support technique gratuit et illimité fourni direc
 
 #### **Besoin de plus d'assistance ?**
 
- Aspose offre une assistance gratuite à tous les utilisateurs. Pour les entreprises qui souhaitent que leur problème soit prioritaire ou qui souhaitent influencer notre feuille de route de développement de produits, il existe[options d'assistance avancées](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) comme l'assistance prioritaire et l'assistance aux entreprises.
+Aspose offre une assistance gratuite à tous les utilisateurs. Pour les entreprises qui souhaitent que leur problème soit prioritaire ou qui souhaitent influencer notre feuille de route de développement de produits, il existe[options d'assistance avancées](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) comme l'assistance prioritaire et l'assistance aux entreprises.
 
 **Il y a beaucoup d'activité dans les forums Aspose.Support.**
 

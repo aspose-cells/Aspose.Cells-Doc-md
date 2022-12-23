@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-503|Lost RowNumber durante il salvataggio del file di definizione del report con Aspose.Cells for Reporting Services Client|Insetto|
 |CELLSRS-504|Opzioni di formato di esportazione mancanti in Aspose.Cells per il componente aggiuntivo RS Excel|Insetto|

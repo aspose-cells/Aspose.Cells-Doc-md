@@ -36,7 +36,7 @@ Aspose.Cells 提供了这个有价值的功能。
 
 **输出文件**
 
-![待办事项：图像_替代_文本](add-a-picture-to-an-excel-comment_1.png)
+![待办事项：图片_替代_文本](add-a-picture-to-an-excel-comment_1.png)
 
 ## 示例代码
 

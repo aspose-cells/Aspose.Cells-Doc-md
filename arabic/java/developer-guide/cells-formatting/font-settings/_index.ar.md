@@ -32,24 +32,24 @@ url: /ar/java/dealing-with-font-settings/
 - [تعيين النص إلى منخفض](/cells/ar/java/dealing-with-font-settings/).
 - [تعيين النص إلى نص مرتفع](/cells/ar/java/dealing-with-font-settings/).
 ### **تعيين اسم الخط**
- تطبيق خط معين على النص في الخلايا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[اسم مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)منشأه.
+ تطبيق خط معين على النص في الخلايا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[اسم مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
 ### **تعيين نمط الخط إلى غامق**
- قم بتعيين النص إلى غامق عن طريق تعيين[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) الملكية ل**حقيقي**.
+ قم بتعيين النص إلى غامق عن طريق تعيين[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) ملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
 ### **ضبط حجم الخط**
- اضبط حجم الخط باستخدام ملف[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[ضبط الحجم](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)منشأه.
+ اضبط حجم الخط باستخدام ملف[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[ضبط الحجم](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **تعيين نوع تسطير الخط**
- تسطير النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[وضع السطر](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) منشأه. يوفر Aspose.Cells أنواعًا مختلفة من تسطير الخط المعرفة مسبقًا في تنسيق[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)تعداد.
+ تسطير النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[وضع السطر](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) خاصية. يوفر Aspose.Cells أنواعًا مختلفة من تسطير الخط المعرفة مسبقًا في تنسيق[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)تعداد.
 
 |**أنواع تسطير الخط**|**وصف**|
 |:- |:- |
 |[لا أحد](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|بدون تسطير|
-|[غير مرتبطة](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|تسطير واحد|
+|[غير متزوج](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|تسطير واحد|
 |[مزدوج](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|تسطير مزدوج|
 |[محاسبة](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|تسطير محاسبة واحد|
 |[DOUBLE_ACCOUNTING](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE_ACCOUNTING)|تسطير مزدوج المحاسبة|
@@ -73,28 +73,28 @@ url: /ar/java/dealing-with-font-settings/
 
 
 ### **ضبط لون الخط**
- اضبط لون الخط بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) منشأه. حدد أي لون من ملف[اللون](https://reference.aspose.com/cells/java/com.aspose.cells/Color) تعداد وتعيين اللون المحدد إلى[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+ اضبط لون الخط بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) خاصية. حدد أي لون من ملف[اللون](https://reference.aspose.com/cells/java/com.aspose.cells/Color) تعداد وتعيين اللون المحدد إلى[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[مجموعة](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
 ### **ضبط تأثير الشطب على النص**
- نص مشطوب بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)منشأه.
+ نص مشطوب بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
 ### **إعداد منخفض**
- جعل النص مرتفعًا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)منشأه.
+ جعل النص مرتفعًا باستخدام[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
 ### **إعداد مرتفع**
- تطبيق نص مرتفع على النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)منشأه.
+ تطبيق نص مرتفع على النص بامتداد[الخط](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[تعيين](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 

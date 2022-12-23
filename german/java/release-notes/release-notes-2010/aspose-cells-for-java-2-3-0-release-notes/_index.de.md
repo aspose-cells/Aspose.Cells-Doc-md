@@ -15,7 +15,7 @@ url: /de/java/aspose-cells-for-java-2-3-0-release-notes/
  Was hat sich geändert:
 
 - Unterstützt das direkte Speichern von PDF-Dateien ohne Verwendung von Aspose.Pdf for Java.
-- Enthält Unterstützung für das EMF-Bildformat für die Chart-to-Image-Funktion.
+- Enthält EMF-Bildformatunterstützung für die Diagramm-zu-Bild-Funktion.
 - Importiert das Attribut CalculationMode aus MS Excel 2007-Vorlagendateien.
 - Der Kopiervorgang des Arbeitsblatts wurde verbessert.
 - Verbessert das Kopieren von Formeln.
@@ -43,10 +43,10 @@ url: /de/java/aspose-cells-for-java-2-3-0-release-notes/
 |17174 | Formel| Formelzeichenfolge erhalten|
 |17001 | Formel| Formel einstellen|
 |16997 | XLS| Formen entfernen|
-|17107 | ODS| Diagramme in ODS-Dateien speichern|
-|17016 | XLS| Zellen kopieren, Vorlagendatei lesen|
+|17107 |ODS | Diagramme in ODS-Dateien speichern|
+|17016 | XLS|Zellen kopieren, Vorlagendatei lesen|
 |17140 | XLS| Vorlagendatei lesen|
-|17019 | XLSX|CalculationMode-Eigenschaft lesen|
+|17019 | XLSX| CalculationMode-Eigenschaft lesen|
 |16870 | XLSX| XLSX-Datei speichern|
 |16986 | XLS| Dateiformat ändern|
 |15975 | html| HTML speichern – Leistungsproblem|

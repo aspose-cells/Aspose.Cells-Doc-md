@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **添加了 ICells::LinkToXmlMap 方法**
 LinkToXmlMap 方法已添加到 ICells 类中，该方法在链接 XML 映射时很有用。
 ### **添加了 ICells::ImportCSV 方法**
-ImportCSV 方法已添加到 ICells 类，这对于将 CSV 文件导入工作表的单元格非常有用。
+ImportCSV 方法已添加到 ICells 类，这对于将 CSV 文件导入工作表的单元格很有用。
 ### **添加了 ICells::ImportTwoDimensionArray 方法**
 GetIProtectedRangeCollection 方法已添加到 ICells 类中，这对于将二维数据数组导入工作表非常有用。
 ### **添加了 IWorksheet::GetIProtectedRangeCollection 方法**

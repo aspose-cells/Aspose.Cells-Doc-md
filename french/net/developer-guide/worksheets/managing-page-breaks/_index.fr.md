@@ -19,13 +19,13 @@ Dans le reste de la discussion, nous décrirons comment ajouter des sauts de pag
 
 ## **Sauts de page**
 
-Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)fournit un large éventail de propriétés et de méthodes utilisées pour gérer une feuille de calcul.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)fournit un large éventail de propriétés et de méthodes utilisées pour gérer une feuille de calcul.
 
- Pour ajouter des sauts de page, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer'[**Sauts de page horizontaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) et[**Sauts de page verticaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Propriétés.
+ Pour ajouter des sauts de page, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Sauts de page horizontaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) et[**Sauts de page verticaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Propriétés.
 
- La[**Sauts de page horizontaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) et[**Sauts de page verticaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Les propriétés sont des collections qui peuvent contenir plusieurs sauts de page. Chaque collection contient plusieurs méthodes de gestion des sauts de page horizontaux et verticaux.
+ Le[**Sauts de page horizontaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) et[**Sauts de page verticaux**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Les propriétés sont des collections qui peuvent contenir plusieurs sauts de page. Chaque collection contient plusieurs méthodes de gestion des sauts de page horizontaux et verticaux.
 
 ### **Ajouter des sauts de page**
 

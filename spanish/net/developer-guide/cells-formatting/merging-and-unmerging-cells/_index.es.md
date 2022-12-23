@@ -28,7 +28,7 @@ Los siguientes pasos describen cómo combinar celdas en la hoja de trabajo usand
 ### **Fusionando Cells con Aspose.Cells**
 La clase Aspose.Cells.Cells tiene algunos métodos útiles para la tarea. Por ejemplo, el método Merge() fusiona las celdas en una sola celda dentro de un rango específico.
 
-El siguiente ejemplo muestra cómo fusionar celdas (C6:E7) en una hoja de cálculo.
+El siguiente ejemplo muestra cómo fusionar celdas (C6:E7) en una hoja de trabajo.
 
 
 

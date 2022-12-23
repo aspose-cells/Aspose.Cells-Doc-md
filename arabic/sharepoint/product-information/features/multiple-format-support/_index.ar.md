@@ -14,9 +14,9 @@ url: /ar/sharepoint/multiple-format-support/
 
 Aspose.Cells for SharePoint يدعم تنسيقات الإدخال التالية:
 
-- XLS - Microsoft Excel 97 ~ 2003
+- XLS-Microsoft Excel 97 ~ 2003
 - XLSX - Office Open XML
-- XLSM و XLTX و XLTM - Office Open XML
+- XLSM، XLTX، XLTM - Office Open XML
 - CSV - مستند ورقة عمل القيم المفصولة بفواصل
 - ODS - OpenDocument
 - XML - Microsoft Excel SpreadsheetML
@@ -27,18 +27,18 @@ Aspose.Cells for SharePoint يدعم تنسيقات الإدخال التالي�
 
 القائمة الكاملة لتنسيقات الإخراج التي يدعمها Aspose.Cells for SharePoint هي:
 
-- PDF - مستند Adobe Portable
-- XLS - Microsoft إكسل 97 - 2003
+- PDF - مستند Adobe المحمول
+- XLS-Microsoft إكسل 97-2003
 - XLSX - Office Open XML
 - XLSM - تم تمكين Office Open XML لوحدات الماكرو
 - TXT - نص عادي
 - XML - Microsoft Excel SpreadsheetML
 - ODS - OpenDocument
 - CSV - قيم مفصولة بفواصل
-- XLSB - Microsoft Excel Binary 2007
-- MHTML - ملحق بريد إنترنت متعدد الأغراض HTML
+- XLSB-Microsoft إكسل ثنائي 2007
+- MHTML - ملحق بريد الإنترنت متعدد الأغراض HTML
 - XPS - مواصفات ورق XML
-- TIFF - تنسيق ملف صورة ذي علامات
+- TIFF - تنسيق ملف الصورة الموسوم
 - SVG - رسومات موجهة قابلة للتحجيم
 - DIF - تنسيق تبادل الرسم
 

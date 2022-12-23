@@ -14,16 +14,16 @@ url: /zh/java/aspose-cells-for-android-via-java-19-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42838|禁用自动显示任务窗格属性。|新功能|
 |CELLSJAVA-42853|将 XLSX 转换为 HTML 时出现性能问题|强化|
-|CELLSANDROID-88|将工作簿转换为 PDF 时图像丢失|漏洞|
+|CELLSANDROID-88|工作簿到 PDF 转换过程中图像丢失|漏洞|
 |CELLSJAVA-42852|两个轴上的标签都没有显示|漏洞|
 |CELLSJAVA-42856|Excel转HTML问题|漏洞|
 |CELLSJAVA-42872|工作表的图片，缺少右侧和底部的线条|漏洞|
 |CELLSJAVA-42873|预处理工作表有几个单元格背景和文本丢失并被隐藏。|漏洞|
-|CELLSJAVA-42874|将文件导出为 HTML 时列丢失|漏洞|
+|CELLSJAVA-42874|将文件导出到 HTML 时列丢失|漏洞|
 |CELLSJAVA-42875|宽度不对，显示变形|漏洞|
 |CELLSJAVA-42878|计算公式的结果不正确|漏洞|
-|CELLSJAVA-40419|从 Excel 导出为 PDF 时无法创建带标签的 PDF|漏洞|
-|CELLSJAVA-40570|不同尺寸的页面错误地转换为 PDF 和 JPG|漏洞|
+|CELLSJAVA-40419|从 Excel 导出到 PDF 时无法创建标记 PDF|漏洞|
+|CELLSJAVA-40570|不同尺寸的页面错误转换为 PDF 和 JPG|漏洞|
 |CELLSJAVA-42833|在工作簿的多个工作表中嵌入相同的 PDF 文件时出现问题|漏洞|
 |CELLSJAVA-42858|使用带有 Picture:FitToCell 选项的智能标记将图像添加到合并单元格时出现问题|漏洞|
 |CELLSJAVA-42862|CSV 导入后工作表名称在公式中重命名|漏洞|

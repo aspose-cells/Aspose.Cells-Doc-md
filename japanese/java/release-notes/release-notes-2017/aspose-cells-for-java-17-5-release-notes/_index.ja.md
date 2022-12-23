@@ -29,10 +29,10 @@ url: /ja/java/aspose-cells-for-java-17-5-release-notes/
 |CELLSJAVA-42271|Worksheet.autoFitColumns() は、改行のあるセルではうまく機能しません|バグ|
 |CELLSJAVA-42266|コメントを含む Excel ファイルを並べ替えると、出力 Excel ファイルが破損する|バグ|
 |CELLSJAVA-42265|コメントを並べ替えると、出力ファイルを MS Excel で開いたときに「Excel で読み取り不能なコンテンツが見つかりました....」というエラーが発生する|バグ|
-|CELLSJAVA-42264|HTML または PDF に変換する際の OpenOffice ODS ファイルの下付き文字と上付き文字の問題|バグ|
+|CELLSJAVA-42264|OpenOffice ODS ファイルを HTML または PDF に変換する際の下付き文字と上付き文字の問題|バグ|
 |CELLSJAVA-42268|例外: チャートを画像にレンダリングするときの「java.lang.NullPointerException」|例外|
-|CELLSJAVA-42278|例外: HTML ファイル形式で保存する場合の「java.lang.IndexOutOfBoundsException: インデックス: 12、サイズ: 12」|例外|
-|CELLSJAVA-42274|例外: XLSX ファイルのロード時の「java.lang.StringIndexOutOfBoundsException: 文字列インデックスが範囲外です: 0」|例外|
+|CELLSJAVA-42278|例外: HTML ファイル形式で保存する場合、「java.lang.IndexOutOfBoundsException: インデックス: 12、サイズ: 12」|例外|
+|CELLSJAVA-42274|例外: XLSX ファイルのロード時に「java.lang.StringIndexOutOfBoundsException: String index out of range: 0」|例外|
 ## **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for Java に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 ### **ExportTableOptions.ExportAsHtmlString プロパティを追加**
@@ -54,7 +54,7 @@ PDFA-1a と互換性のある PDF 形式を表します。
 ### **使用例**
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換する](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [ページ設定の設定をソース ワークシートからコピー先ワークシートにコピーする](/cells/ja/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
 - [レンダリング用ワークシートのカスタム用紙サイズの実装](/cells/ja/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Excel ファイルのワークシートの既存の PrinterSettings を削除する](/cells/ja/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

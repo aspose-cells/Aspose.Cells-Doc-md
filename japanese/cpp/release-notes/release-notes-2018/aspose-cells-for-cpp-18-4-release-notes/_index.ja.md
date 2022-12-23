@@ -29,11 +29,11 @@ url: /ja/cpp/aspose-cells-for-cpp-18-4-release-notes/
 |CELLSCPP-89|Charts/EnumTypes ディレクトリのテスト ケースを翻訳してデバッグする|新機能|
 |CELLSCPP-91|Finds でテスト ケースを翻訳する|新機能|
 |CELLSCPP-96|Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts ディレクトリのテスト ケースを翻訳してデバッグする|新機能|
-|CELLSCPP-97|XLSX/XLS から PDF へのレンダリングに関する問題のデバッグと修正|新機能|
+|CELLSCPP-97|XLSX/XLS から PDF のレンダリングに関する問題をデバッグおよび修正します。|新機能|
 |CELLSCPP-98|LightCells ディレクトリのテスト ケースを翻訳してデバッグする|新機能|
-|CELLSCPP-100|Merges/OpenSaves/PageSetups/PDF ディレクトリにあるテスト ケースの翻訳とデバッグ|新機能|
+|CELLSCPP-100|Merges/OpenSaves/PageSetups/PDF ディレクトリのテスト ケースを翻訳してデバッグする|新機能|
 |CELLSCPP-101|PivotTables ディレクトリでテスト ケースを翻訳してデバッグする|新機能|
-|CELLSCPP-102|XLSX ファイル形式を開いたり保存したりするときに、グラフが解析 (保持) されない|新機能|
+|CELLSCPP-102|XLSX ファイル形式を開いたり保存したりすると、チャートが解析 (保持) されない|新機能|
 |CELLSCPP-103|Shapes ディレクトリでテスト ケースを翻訳してデバッグする|新機能|
 |CELLSCPP-105|XlsxTest ディレクトリのテスト ケースを翻訳してデバッグする|新機能|
 |CELLSCPP-108|ファイルを開いてチャート関連の問題を確認する|新機能|

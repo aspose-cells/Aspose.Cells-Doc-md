@@ -22,21 +22,21 @@ url: /sv/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50462|Regression: Efter kopiering av cellintervall går formler förlorade|
 |CELLSNET-50545| Villkorligt formaterade fält är inte färgade i rätt färg|
 |CELLSNET-50565|Formler beräknades inte korrekt|
-|CELLSNET-50309|Område till PNG: utdata inte som förväntat|
-|CELLSNET-50334|Regression: XLS till PDF: rubriken renderas inte korrekt|
+|CELLSNET-50309|Intervall till PNG: utgången inte som förväntat|
+|CELLSNET-50334|Regression: XLS till PDF: rubriken inte renderad korrekt|
 |CELLSNET-50367|Att konvertera .XLSX till PDF tar lång tid och ger extra sidor|
 |CELLSNET-50401|Numeriska värden eller siffror följt av rader är inte synliga i den resulterande pdf-filen|
 |CELLSNET-50478|Workbook.ExportXml returnerar endast första raden med tabelldata|
 |CELLSNET-50507|Xml Import visar tidigare dolda kolumner i mallen|
-|CELLSNET-50554|Innehållet renderas inte korrekt i Excel till PDF-konvertering|
+|CELLSNET-50554|Innehållet renderas inte korrekt i Excel till PDF konvertering|
 |CELLSNET-50316|Inslagna texter fungerar inte på diagram när PDF genereras|
-|CELLSNET-50411|Horisontella axeletiketter i diagrammet återges inte korrekt i den utgående PDF-filen|
+|CELLSNET-50411|Horisontella axeletiketter i diagrammet återges inte korrekt i utgången PDF|
 |CELLSNET-50341|Problem med komprimera och expandera grupper på flera nivåer|
-|CELLSNET-50368| ODS till PDF-konvertering felaktig|
-|CELLSNET-50377|Anpassad "Text"-formatering tillämpas inte i XLS-filen|
+|CELLSNET-50368|ODS till PDF felaktig konvertering|
+|CELLSNET-50377|Anpassad "Text"-formatering tillämpas inte i filen XLS|
 |CELLSNET-50380| Egenskapen ImportTableOptions.IsHtmlString matar inte ut länkar korrekt|
 |CELLSNET-50418|Ladda HTML i arbetsboken fungerar inte|
-|CELLSNET-50494|Problem med färg för villkorligt formaterade celler i XLSX-utdatafilen|
+|CELLSNET-50494|Problem med färg för villkorligt formaterade celler i utdatafilen XLSX|
 |CELLSNET-50563|Problem när du ställer in inbäddad licens för att producera singelfil i .NET 6.0-applikationen|
 |CELLSNET-50585|Inga snedstreck framåt utan snedstreck bakåt för externa länkar med URL|
 |CELLSNET-50390| System.ArgumentException: Radnummer eller kolumnnummer kan inte vara noll vid import av JSON-data som tabell|

@@ -10,7 +10,7 @@ Aşağıdaki örnek çalışma sayfasına benzeyen biçimde verilerle dolu bir �
 
 **Bir sütun veya veri içeren girdi dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-shared-formula_1.png)
+![yapılacaklar:resim_alternatif_metin](setting-shared-formula_1.png)
 
  B2'de ilk veri satırı için satış vergisini hesaplayacak bir işlev eklemek istiyorsunuz. vergi**9%** Satış vergisini hesaplayan formül şu şekildedir:**"=A2*0,09"**. Bu makalede, bu formülün Aspose.Cells ile nasıl uygulanacağı açıklanmaktadır.
 
@@ -28,6 +28,6 @@ Aşağıdaki örnek nasıl kullanılacağını göstermektedir. Aşağıdaki ekr
 
 **Çıktı dosyası: paylaşılan formül uygulandı** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-shared-formula_2.png)
+![yapılacaklar:resim_alternatif_metin](setting-shared-formula_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingSharedFormula-SettingSharedFormula.java" >}}

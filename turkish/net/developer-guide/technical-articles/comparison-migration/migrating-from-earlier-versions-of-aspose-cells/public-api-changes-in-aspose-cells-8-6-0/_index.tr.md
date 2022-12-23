@@ -37,7 +37,7 @@ metadata.Save(filePath);
 
 
 ### **Özellik HtmlSaveOptions.ExportFrameScriptsAndProperties Eklendi**
-Aspose.Cells for .NET 8.6.0, elektronik tabloları HTML formatına dönüştürürken ek komut dosyalarının oluşturulmasını etkilemek için kullanılabilecek HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini ortaya çıkardı. Varsayılan ayarlarla, Aspose.Cells API'leri, Excel uygulamasının dışa aktarımı yaptığı gibi elektronik tabloyu HTML biçiminde dışa aktarır, yani; ortaya çıkan HTML, tarayıcı türünü algılayan ve düzeni buna göre ayarlayan çerçeveleri ve koşullu yorumları içerir. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, yani; dışa aktarma Excel standartlarına göre yapılır. Ancak özellik false olarak ayarlanırsa API[çerçeveler ve koşullu yorumlarla ilgili komut dosyalarını oluşturun](/cells/tr/net/disable-exporting-frame-scripts-and-document-properties/). Bu durumda, ortaya çıkan HTML herhangi bir tarayıcıda doğru bir şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak geri alınamaz.
+Aspose.Cells for .NET 8.6.0, elektronik tabloları HTML biçimine dönüştürürken ek komut dosyalarının oluşturulmasını etkilemek için kullanılabilecek HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğini kullanıma sundu. Varsayılan ayarlarla, Aspose.Cells API'leri, Excel uygulamasının dışa aktarımı yaptığı gibi elektronik tabloyu HTML biçiminde dışa aktarır, yani; ortaya çıkan HTML, tarayıcı türünü algılayan ve düzeni buna göre ayarlayan çerçeveleri ve koşullu yorumları içerir. HtmlSaveOptions.ExportFrameScriptsAndProperties özelliğinin varsayılan değeri true'dur, yani; dışa aktarma Excel standartlarına göre yapılır. Ancak özellik false olarak ayarlanırsa API[çerçeveler ve koşullu yorumlarla ilgili komut dosyalarını oluşturun](/cells/tr/net/disable-exporting-frame-scripts-and-document-properties/). Bu durumda, ortaya çıkan HTML herhangi bir tarayıcıda doğru bir şekilde görüntülenebilir, ancak Aspose.Cells API'leri kullanılarak geri alınamaz.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -63,7 +63,7 @@ book.Save("output.html", options);
 
 
 ### **Özellik Shape.MarcoName Eklendi**
- Aspose.Cells for .NET 8.6.0, kullanılabilecek Shape.MarcoName özelliğini kullanıma sundu.[herhangi bir VBA modülünü bir form kontrolüne atayın](/cells/tr/net/assign-macro-to-form-control/) etkileşimi sağlamak için böyle bir Düğme. Özellik string türündedir, bu nedenle modül adını kabul edebilir ve onu kontrole atar.
+Aspose.Cells for .NET 8.6.0, kullanılabilecek Shape.MarcoName özelliğini kullanıma sundu.[herhangi bir VBA modülünü bir form kontrolüne atayın](/cells/tr/net/assign-macro-to-form-control/) etkileşimi sağlamak için böyle bir Düğme. Özellik string türündedir, bu nedenle modül adını kabul edebilir ve onu kontrole atar.
 
 Basit kullanım senaryosu aşağıdadır.
 

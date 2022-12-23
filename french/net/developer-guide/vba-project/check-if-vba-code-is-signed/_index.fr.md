@@ -10,7 +10,7 @@ Aspose.Cells permet à l'utilisateur de vérifier si le projet de code VBA est s
 
 {{% /alert %}}
 
- Le code suivant explique comment vérifier si le code VBA est signé ou non en utilisant le[**Workbook.VbaProject.IsSignedWorkbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) propriété. Vous pouvez utiliser n'importe lequel de vos fichiers Excel pour tester ce code. À des fins de test, vous pouvez utiliser[ce fichier excel utilisé dans le code](5115032.xlsm).
+ Le code suivant explique comment vérifier si le code VBA est signé ou non en utilisant le[**Workbook.VbaProject.IsSignedWorkbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) la propriété. Vous pouvez utiliser n'importe lequel de vos fichiers Excel pour tester ce code. À des fins de test, vous pouvez utiliser[ce fichier excel utilisé dans le code](5115032.xlsm).
 
 ## **Vérifiez si le code VBA est signé en C#**
 

@@ -15,10 +15,10 @@ Unicode Character Standard では、補助文字は、U+10000 から U+10FFFF �
 
 {{% /alert %}} 
 ## **Aspose.Cells による出力 PDF の Unicode 補助文字のレンダリング**
-次のスクリーンショットは、Aspose.Cells がどのようにレンダリングされたかを示しています。[ソースエクセルファイル](5473390.xlsx)に[PDF出力](5473391.pdf).ご覧のとおり、3 つの Unicode Supplementary 文字はすべて、Microsoft Excel とまったく同じようにレンダリングされています。
+次のスクリーンショットは、Aspose.Cells がどのようにレンダリングされたかを示しています。[ソースエクセルファイル](5473390.xlsx)に[出力 PDF](5473391.pdf).ご覧のとおり、3 つの Unicode Supplementary 文字はすべて、Microsoft Excel とまったく同じようにレンダリングされています。
 
 ![todo:画像_代替_文章](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-このサンプル コードを使用して、[ソースエクセルファイル](5473390.xlsx)の中へ[PDF出力](5473391.pdf).
+このサンプル コードを使用して、[ソースエクセルファイル](5473390.xlsx)の中へ[出力 PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

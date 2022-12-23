@@ -10,9 +10,9 @@ Ibland behöver du komma åt data från en form som inte är inbyggd. Inbyggda f
 
 ## **En icke-primitiv form**
 
- I Aspose.Cells tilldelas icke-primitiva former typen[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Du kan kontrollera deras typ med hjälp av[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)fast egendom.
+ Aspose.Cells tilldelas icke-primitiva former typen[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Du kan kontrollera deras typ med hjälp av[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)fast egendom.
 
- Få åtkomst till formdata med hjälp av[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)fast egendom. Den returnerar alla anslutna banor som utgör den icke-primitiva formen. Dessa stigar är av typen[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)som innehåller en lista över alla segment som i sin tur innehåller punkterna i varje segment.
+ Få åtkomst till formdata med hjälp av[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)fast egendom. Den returnerar alla anslutna banor som utgör den icke-primitiva formen. Dessa vägar är av typen[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)som innehåller en lista över alla segment som i sin tur innehåller punkterna i varje segment.
 
 |**Visar ett exempel på en icke-primitiv form**|
 |:- |

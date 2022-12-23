@@ -10,7 +10,7 @@ A veces, necesita presentar imágenes de hojas de trabajo en aplicaciones o pág
 
 {{% /alert %}}
 
- los[**HojaRenderizar**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)class es capaz de convertir una hoja de trabajo en un archivo de imagen con cualquier atributo especificado, por ejemplo, formato de imagen, hojas paginadas, etc. Se admiten varios formatos de imagen, incluidos BMP, GIF, JPG, TIFF y EMF.
+ Él[**HojaRenderizar**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)class es capaz de convertir una hoja de trabajo en un archivo de imagen con cualquier atributo especificado, por ejemplo, formato de imagen, hojas paginadas, etc. Se admiten varios formatos de imagen, incluidos BMP, GIF, JPG, TIFF y EMF.
 
  Cuando utiliza la función de hoja a imagen, la imagen de salida tiene un espacio en blanco/en blanco, es decir, un borde, alrededor de forma predeterminada. Puedes eliminar esto. Establezca los márgenes de configuración de página superior, izquierda, inferior y derecha para la hoja de trabajo de origen en 0 y especifique[**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)atributos en consecuencia.
 

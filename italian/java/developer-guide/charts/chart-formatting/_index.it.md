@@ -46,9 +46,9 @@ Dopo aver eseguito il codice di esempio, un istogramma verrà aggiunto al foglio
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
-### **Applicazione di temi di Microsoft Excel 2007/2010 ai grafici**
+### **Applicazione di temi Microsoft Excel 2007/2010 ai grafici**
 
- Gli sviluppatori possono applicare diversi temi e colori di Microsoft Excel al file[**SerieCollezione**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)o altri oggetti cartografici come mostrato nell'esempio seguente.
+Gli sviluppatori possono applicare diversi temi e colori di Excel Microsoft al file[**SerieCollezione**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)o altri oggetti cartografici come mostrato nell'esempio seguente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -60,7 +60,7 @@ Dopo aver eseguito il codice di esempio, un istogramma verrà aggiunto al foglio
 
 ![cose da fare:immagine_alt_testo](chart-formatting_3.png)
 
-Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[**Titolo.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)metodo che può essere utilizzato per impostare i loro titoli come mostrato di seguito in un esempio. Dopo aver eseguito il codice di esempio, un istogramma verrà aggiunto al foglio di lavoro come mostrato di seguito:
+ Aspose.Cells consente inoltre agli sviluppatori di impostare i titoli di un grafico e i suoi assi in fase di esecuzione. Tutti i grafici e i relativi assi contengono a[**Titolo.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)metodo che può essere utilizzato per impostare i loro titoli come mostrato di seguito in un esempio. Dopo aver eseguito il codice di esempio, un istogramma verrà aggiunto al foglio di lavoro come mostrato di seguito:
 
 **Istogramma dopo aver impostato i titoli** 
 
@@ -100,7 +100,7 @@ L'esempio fornito di seguito mostra come impostare il bordo del fianco utilizzan
 
 ## **Modificare la posizione e le dimensioni del grafico**
 
- A volte, si desidera modificare la posizione o le dimensioni del grafico nuovo o esistente all'interno del foglio di lavoro. Aspose.Cells fornisce il[**Grafico.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) proprietà per raggiungere questo obiettivo. Puoi utilizzare le sue proprietà secondarie per ridimensionare il grafico con new**altezza** e**larghezza** o riposizionarlo con new** X** e**Coordinate Y**.
+ A volte, si desidera modificare la posizione o le dimensioni del grafico nuovo o esistente all'interno del foglio di lavoro. Aspose.Cells fornisce il[**Grafico.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)proprietà per raggiungere questo obiettivo. Puoi utilizzare le sue proprietà secondarie per ridimensionare il grafico con new**altezza** e**larghezza** o riposizionarlo con new** X** e**Coordinate Y**.
 
 ### **Modifica della posizione e delle dimensioni del grafico**
 
@@ -133,7 +133,7 @@ C'è un momento in cui potrebbe essere necessario manipolare o modificare i graf
 
 ### **Manipolazione dei grafici Designer nei file modello**
 
- Per manipolare grafici di progettazione in un file modello, utilizza tutte le chiamate API relative ai grafici. Ad esempio, usa[**Foglio di lavoro.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) property per ottenere la raccolta di grafici esistente nel file modello.
+ Per manipolare i grafici del designer in un file modello, utilizzare tutte le chiamate API relative al grafico. Ad esempio, usa[**Foglio di lavoro.getCharts**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Charts) property per ottenere la raccolta di grafici esistente nel file modello.
 
 #### **Creazione di un grafico**
 
@@ -177,11 +177,11 @@ Innanzitutto, dai un'occhiata al grafico a linee del designer.
 
 Microsoft Excel 2010 può analizzare le informazioni in più modi che mai. Consente agli utenti di tracciare ed evidenziare importanti tendenze dei dati con nuovi strumenti di analisi e visualizzazione dei dati. I grafici sparkline sono mini-grafici che puoi posizionare all'interno delle celle in modo da poter visualizzare i dati e il grafico sulla stessa tabella. Quando i grafici sparkline vengono utilizzati correttamente, l'analisi dei dati è più rapida e mirata. Forniscono anche una semplice visualizzazione delle informazioni, evitando fogli di lavoro sovraffollati con molti grafici occupati.
 
-Aspose.Cells fornisce un'API per la manipolazione dei grafici sparkline nei fogli di calcolo.
+Aspose.Cells fornisce un API per la manipolazione dei grafici sparkline nei fogli di calcolo.
 
 ### **Sparkline in Microsoft Excel**
 
-Per inserire grafici sparkline in Microsoft Excel 2010:
+Per inserire sparkline in Microsoft Excel 2010:
 
 1. Seleziona le celle in cui vuoi che appaiano i grafici sparkline. Per facilitarne la visualizzazione, seleziona le celle a lato dei dati.
 1.  Clic**Inserire** sul nastro e poi scegli**colonna** nel**Sparkline** gruppo.
@@ -197,7 +197,7 @@ Gli sparkline ti aiutano a vedere le tendenze, ad esempio, o il record di vittor
 
 ### **Sparkline utilizzando Aspose.Cells**
 
-Gli sviluppatori possono creare, eliminare o leggere sparkline (nel file modello) utilizzando l'API fornita da Aspose.Cells. Aggiungendo grafici personalizzati per un determinato intervallo di dati, gli sviluppatori hanno la libertà di aggiungere diversi tipi di piccoli grafici alle aree delle celle selezionate.
+Gli sviluppatori possono creare, eliminare o leggere sparkline (nel file modello) utilizzando API fornito da Aspose.Cells. Aggiungendo grafici personalizzati per un determinato intervallo di dati, gli sviluppatori hanno la libertà di aggiungere diversi tipi di piccoli grafici alle aree delle celle selezionate.
 
 L'esempio seguente mostra la funzionalità Sparkline. L'esempio mostra come:
 
@@ -210,11 +210,11 @@ L'esempio seguente mostra la funzionalità Sparkline. L'esempio mostra come:
 
 ## **Applicazione del formato 3D al grafico**
 
-Potresti aver bisogno di stili di grafici 3D in modo da poter ottenere solo i risultati per il tuo scenario. Aspose.Cells Le API forniscono l'API pertinente per applicare la formattazione 3D di Microsoft Excel 2007, come illustrato in questo articolo.
+Potresti aver bisogno di stili di grafici 3D in modo da poter ottenere solo i risultati per il tuo scenario. Le API Aspose.Cells forniscono il API pertinente per applicare la formattazione 3D di Excel 2007 Microsoft, come illustrato in questo articolo.
 
 ### **Impostazione del formato 3D sulla carta**
 
-Di seguito viene fornito un esempio completo per dimostrare come creare un grafico e applicare la formattazione 3D di Microsoft Excel 2007. Dopo aver eseguito il codice di esempio precedente, un istogramma (con effetti 3D) verrà aggiunto al foglio di lavoro come mostrato di seguito.
+Di seguito viene fornito un esempio completo per dimostrare come creare un grafico e applicare la formattazione 3D di Excel 2007 Microsoft. Dopo aver eseguito il codice di esempio precedente, un istogramma (con effetti 3D) verrà aggiunto al foglio di lavoro come mostrato di seguito.
 
 **Un istogramma con formattazione 3D**
 

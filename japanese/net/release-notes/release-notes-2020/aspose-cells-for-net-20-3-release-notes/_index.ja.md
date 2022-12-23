@@ -20,7 +20,7 @@ url: /ja/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47094|スムーズなサイズ変更のために GridDesktop のちらつきを減らします|強化|
 |CELLSNET-47173|Aspose.Cells.GridDesktop で非表示/非常に非表示のシートを区別する|強化|
 |CELLSNET-47101|行全体で条件付き書式と検証を保存するパフォーマンスを向上させます。|強化|
-|CELLSNET-47178|テーブルの作成中および HTML への変換中にインデントが失われる|バグ|
+|CELLSNET-47178|テーブルの作成中にインデントが失われ、HTML に変換される|バグ|
 |CELLSNET-47199|CreateCalcChain を true と false に設定した場合の名前付き範囲の計算の違い|バグ|
 |CELLSNET-47077|ExcelファイルをGridDesktopにインポートするときに、セル（データがある）に境界線を適用できませんでした|バグ|
 |CELLSNET-47172|条件付き書式の適用に関する問題|バグ|
@@ -30,10 +30,10 @@ url: /ja/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47167|表示されるリンクの数が間違っています|バグ|
 |CELLSNET-47184|キリル文字を含む BIFF5 が誤って XLSX に変換される|バグ|
 |CELLSNET-47205|列範囲の Range.ApplyStyle() により、ワークブックのファイル サイズが大幅に増加しました|バグ|
-|CELLSNET-47210|Apple Numbers'09 でセルのリッチ フォーマット文字列値が空になる|バグ|
+|CELLSNET-47210|Apple Numbers'09 で、セルのリッチ フォーマットされた文字列値が空です|バグ|
 |CELLSNET-47213|シートを別のワークブックにコピーする - 非表示のセル (行) が消える|バグ|
 |CELLSNETCORE-53|PDF に変換した後、Excel チャート ラインのデータポイントが削除される|バグ|
-|CELLSNET-47212|特定の XLSM を XLS に保存するときの NullReferenceException|例外|
+|CELLSNET-47212|特定の XLSM から XLS を保存するときの NullReferenceException|例外|
 |CELLSNET-47222|Aspose.Cells 20.2: 特定の XLSB ファイルを Excel97To2003 に変換すると例外が発生する|例外|
 |CELLSNET-47226|Aspose.Cells 20.2: 空白の列を削除しようとすると例外が発生する|例外|
 ### **Public API および下位互換性のない変更**

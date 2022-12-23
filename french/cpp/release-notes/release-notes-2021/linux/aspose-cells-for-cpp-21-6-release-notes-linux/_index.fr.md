@@ -12,6 +12,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.6 pour Lin
 
 Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 21.6 pour Linux.
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-285|Synchroniser la bibliothèque pour Linux et Windows|Nouvelle fonctionnalité|

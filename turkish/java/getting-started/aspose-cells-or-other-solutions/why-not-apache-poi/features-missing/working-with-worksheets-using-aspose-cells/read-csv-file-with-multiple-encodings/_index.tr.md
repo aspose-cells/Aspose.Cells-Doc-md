@@ -1,11 +1,11 @@
 ﻿---
-title: Birden Çok Kodlamayla CSV Dosyasını Okuyun
+title: Birden Fazla Kodlama İçeren CSV Dosyasını Okuyun
 type: docs
 weight: 70
 url: /tr/java/read-csv-file-with-multiple-encodings/
 ---
-## **Aspose.Cells - Birden Çok Kodlama İçeren CSV Dosyasını Oku**
-Bazen, CSV dosyanız birden çok Kodlama içerir (Unicode, ANSI, UTF8, UTF7 vb.). Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları örneğin PDF veya XLSX gibi diğer biçimlere dönüştürmenize olanak tanır.
+## **Aspose.Cells - Birden Fazla Kodlamalı CSV Dosyasını Oku**
+Bazen, CSV dosyanız birden çok Kodlama (Unicode, ANSI, UTF8, UTF7 vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları başka biçimlere, örneğin PDF veya XLSX'e dönüştürmenize olanak tanır.
 
 **Java**
 
@@ -34,6 +34,6 @@ workbook.save(dataDir + "EncodedNewFile_Out.xlsx", SaveFormat.XLSX);
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Birden Çok Kodlamayla CSV Dosyasını Okuma](/cells/tr/java/reading-csv-file-with-multiple-encodings).
+ Daha fazla ayrıntı için, ziyaret edin[Birden Fazla Kodlama İçeren CSV Dosyasını Okuma](/cells/tr/java/reading-csv-file-with-multiple-encodings).
 
 {{% /alert %}}

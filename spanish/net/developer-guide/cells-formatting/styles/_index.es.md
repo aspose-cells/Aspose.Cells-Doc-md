@@ -29,7 +29,7 @@ Con la siguiente pieza de código, se inicia un objeto Style para cada celda al 
 ### **Usando SetStyle()**
 El primer enfoque es fácil y directo, entonces, ¿por qué agregamos el segundo enfoque?
 
-Agregamos el segundo enfoque para optimizar el uso de la memoria. Después de usar el método Cell.GetStyle para recuperar un objeto Style, modifíquelo y use el método Cell.SetStyle para volver a configurarlo en esta celda. Este objeto Style no se conservará y .NET GC lo recopilará cuando no se haga referencia a él.
+Agregamos el segundo enfoque para optimizar el uso de la memoria. Después de usar el método Cell.GetStyle para recuperar un objeto Style, modifíquelo y use el método Cell.SetStyle para volver a establecerlo en esta celda. Este objeto Style no se conservará y .NET GC lo recopilará cuando no se haga referencia a él.
 
 Al llamar al método Cell.SetStyle, el objeto Style no se guarda para cada celda. En su lugar, comparamos este objeto de estilo con un grupo de objetos de estilo interno para ver si se puede reutilizar. Solo los objetos Style que difieren de los existentes se conservan para cada objeto Workbook. Esto significa que solo hay varios cientos de objetos Style para cada archivo de Excel en lugar de miles. Para cada celda, solo se conserva un índice para el conjunto de objetos de estilo.
 

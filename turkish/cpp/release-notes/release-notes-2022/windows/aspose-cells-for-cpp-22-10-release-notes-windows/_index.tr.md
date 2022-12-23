@@ -12,4 +12,4 @@ Bu sayfa Aspose.Cells for C++ 22.10 için Windows için sürüm notları içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-943| Özellikleri .Net sürümüyle senkronize edin|Destek|
+|CELLSCPP-943| Özellikleri .Net sürümüyle senkronize edin|Destek olmak|

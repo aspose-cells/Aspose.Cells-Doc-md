@@ -33,7 +33,7 @@ url: /ru/net/missing-features-in-openxml/
   - [Преобразование диаграмм в изображения](/cells/ru/net/convert-charts-to-images/)
   - [Печать электронных таблиц](/cells/ru/net/print-spreadsheets/)
   - [Укажите разрешение изображения, качество, сжатие и другие параметры.](/cells/ru/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Сохранить книгу в текстовом формате или формате CSV, используя Aspose.Cells](/cells/ru/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Сохранить книгу в текст или формат CSV, используя Aspose.Cells](/cells/ru/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Установите внешние ссылки в формулах в Aspose.Cells](/cells/ru/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Настройка режима вычисления формулы рабочей книги в Aspose.Cells](/cells/ru/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Установка общей формулы в Aspose.Cells](/cells/ru/net/setting-shared-formula-in-aspose-cells/)

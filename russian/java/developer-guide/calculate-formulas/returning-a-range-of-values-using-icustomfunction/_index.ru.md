@@ -22,7 +22,7 @@ url: /ru/java/returning-a-range-of-values-using-icustomfunction/
 
 ## **Возврат диапазона значений с помощью ICustomFunction**
 
- Следующий код реализует[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) и возвращает диапазон значений через свой метод. Пожалуйста, проверьте[выходной файл excel](5472922.xlsx) а также[пдф](5472925.pdf) сгенерированный с кодом для вашей справки.
+ Следующий код реализует[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) и возвращает диапазон значений через свой метод. Пожалуйста, проверьте[выходной файл excel](5472922.xlsx) и[пдф](5472925.pdf) сгенерированный с кодом для вашей справки.
 
 Создайте класс с функцией*ВычислитьПользовательскуюФункция*. Этот класс реализует[**ICustomFunction**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction).
 

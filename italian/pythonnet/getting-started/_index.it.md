@@ -8,13 +8,13 @@ keywords: python, excel, instal
 description: Configurazione Aspose.Cells for Python via .NET e linee guida per l'installazione.
 ---
 ## **Requisiti di sistema**
- Aspose.Cells for Python via .NET è un'API indipendente dalla piattaforma e può essere utilizzata su qualsiasi piattaforma (Windows e Linux) dove[Pitone](https://www.python.org/downloads/) è installato.
+ Aspose.Cells for Python via .NET è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows e Linux) dove[Python](https://www.python.org/downloads/) è installato.
 
-## **Versione Python**
+## **Python Versione**
 - Python 3.6 o superiore
 
 ## **Installazione**
-### **Finestre:**
+### **Windows:**
  Puoi facilmente utilizzare Aspose.Cells for Python via .NET da[pypi](https://pypi.org/project/aspose-cells-python/) con il seguente comando.
 {{< highlight "NET" >}}
 

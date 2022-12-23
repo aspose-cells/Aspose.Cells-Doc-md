@@ -18,21 +18,21 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.6.
 |CELLSJAVA-42646|Excepción: "FormulaBuild](/p Fórmula desconocida token0" en Name.getRefersTo()|Mejora|
 |CELLSJAVA-42645|Excepción: "FormulaBuild Más de un token en la pila..." en Cell.getFormula()|Mejora|
 |CELLSJAVA-42516|Aspose.Cells acepta y corrige una fórmula inválida|Mejora|
-|CELLSJAVA-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en Excel para la representación HTML|Insecto|
 |CELLSJAVA-42627|CELLSJAVA-42619: no se pueden extraer imágenes Smart Art correctamente|Insecto|
-|CELLSJAVA-42618|La forma se desplaza para cubrir los datos en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42618|La forma se desplaza para cubrir los datos en Excel a la representación HTML|Insecto|
 |CELLSJAVA-42628|El cálculo de las fórmulas es incorrecto, por ejemplo, ¡genera #DIV/0! errores|Insecto|
-|CELLSJAVA-42615|Cell El formato A3 no es correcto en el HTML de salida|Insecto|
-|CELLSJAVA-42621|Rendimiento deficiente al generar un archivo PDF a partir de un archivo de MS Excel|Insecto|
+|CELLSJAVA-42615|Cell El formato A3 no es correcto en la salida HTML|Insecto|
+|CELLSJAVA-42621|Rendimiento deficiente al generar el archivo PDF desde un archivo de MS Excel|Insecto|
 |CELLSJAVA-42620|XLSX a TIFF - excepción NoClassDefFoundError|Insecto|
 |CELLSJAVA-42599|Las imágenes se pierden cuando el archivo de Excel se convierte a PDF|Insecto|
 |CELLSJAVA-42630|El método Chart.calculate provoca OutOfMemoryError|Insecto|
-|CELLSJAVA-42623|La memoria aumenta al renderizar archivos de Excel a formato de archivo PDF|Insecto|
+|CELLSJAVA-42623|La memoria aumenta al renderizar el archivo de Excel al formato de archivo PDF|Insecto|
 |CELLSJAVA-42592|El tamaño de fuente cambió en el título del gráfico debido al método de caracteres ()|Insecto|
 |CELLSJAVA-41860|El efecto de sombra se cambia al volver a guardar XLS|Insecto|
 |CELLSJAVA-42654|Conversión de Excel a PDF: la conversión nunca se completa|Insecto|
 |CELLSJAVA-42647|No se puede obtener o establecer texto alternativo para la forma de comentario|Insecto|
-|CELLSJAVA-42644|Aspose.Cells se bloquea al convertir un archivo ml de hoja de cálculo (xml) a PDF con una etiqueta de estilos de cierre automático|Insecto|
+|CELLSJAVA-42644|Aspose.Cells se bloquea al convertir un archivo ml de hoja de cálculo (xml) a PDF con etiqueta de estilos de cierre automático|Insecto|
 |CELLSJAVA-42632|No se puede establecer texto alternativo para la forma SmartArt|Insecto|
 |CELLSJAVA-42631|getFirstVisibleRow() y getFirstVisibleColumn() que devuelven índices no válidos|Insecto|
 |CELLSJAVA-42624|Los hipervínculos con símbolos codificados (como "%5c") se descodifican después de volver a guardarlos|Insecto|
@@ -88,7 +88,7 @@ Obtiene o establece la profundidad de bits para que se aplique solo al guardar p
 
 ### **Sobrecarga el método WorkbookRender.ToImage()**
 
-Representa el libro de trabajo en imagen por el índice de la página.
+Representa el libro de trabajo en una imagen por el índice de la página.
 
 ### **Agrega el método Legend.LegendEntriesLabels()**
 

@@ -12,6 +12,6 @@ url: /zh/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-cli
 
 **矩阵报表项** 
 
-![待办事项：图像_替代_文本](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
+![待办事项：图片_替代_文本](add-matrix-in-aspose-cells-for-reporting-services-client_1.png)
 
 {{% /alert %}}

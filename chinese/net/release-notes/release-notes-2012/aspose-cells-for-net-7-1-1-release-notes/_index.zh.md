@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-7-1-1-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 - 追踪先例和家属
 
@@ -24,7 +24,7 @@ url: /zh/net/aspose-cells-for-net-7-1-1-release-notes/
 - AutoFitColumn 选项
 - .NET版本有GetDependents()方法吗
 
--支持 HTML 表格中的 TH 元素
+-支持HTML表中的TH元素
 
 - Excel 到 PDF（阿拉伯语）- 转换时的字/日期格式不正确
 - 防病毒软件从电子邮件中删除 Excel 文件
@@ -42,10 +42,10 @@ url: /zh/net/aspose-cells-for-net-7-1-1-release-notes/
 
 -按钮属性
 
-- Cells 转换为 PDF 时，英尺和英寸不正确
+- 转换为 PDF 时，带有英尺和英寸的 Cells 不正确
 - 在 PDF 输出中呈现破折号字符时出现问题
 - 合并工作簿中的页面布局已更改
-- 另存为 XLSX 有时会生成无效文件
+- 另存为 XLSX 有时会产生无效文件
 
 -XLS 文件在使用 Aspose.Cells 后以保护模式打开
 
@@ -53,15 +53,15 @@ url: /zh/net/aspose-cells-for-net-7-1-1-release-notes/
 - AutoFitRow 和 IndentLevel 问题
 - 使用 Combine 操作时命名范围的问题
 - 当没有时，TickLabels 是不可见的。 Ticklabels 的计数更大
-- 将 MS Excel 图表转换为 PDF 时出现问题，Y 轴缺失
+- 将 MS Excel 图表转换为 PDF 时出现问题，缺少 Y 轴
 - 图形和空白文本区域中的线宽问题
 - ADDRESS、COUNTBLANK 和 IF 函数的问题
 - VLOOKUP 和 OFFSET 函数问题
 - 无 MS Excel 公式验证
-- XLS 输出中的 NETWORKDAYS 函数问题
+- XLS 输出中 NETWORKDAYS 函数的问题
 - HTML 到 Excel 的转换问题
 
-` `- HTML 的行跨度和类属性问题
+` `- HTML'srowspan 和类属性问题
 
 -Cells是否支持datauri
 

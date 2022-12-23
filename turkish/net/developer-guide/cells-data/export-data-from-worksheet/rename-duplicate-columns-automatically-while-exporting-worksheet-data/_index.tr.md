@@ -12,7 +12,7 @@ Bazen kullanıcı, verileri çalışma sayfasından veri tablosuna aktarırken y
 
  Aşağıdaki örnek kod, çalışma sayfasının ilk üç sütununa bazı veriler ekler, ancak tüm sütunların adı aynıdır;*İnsanlar* . Ardından, çalışma sayfasındaki verileri belirterek veri tablosuna aktarır.[**Stratejiyi Yeniden Adlandır**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Harf stratejisi. Ardından, Aspose.Cells tarafından oluşturulan veri tablosunun sütun adlarını yazdırır. Aşağıdaki ekran görüntüsü, görselleştiricide dışa aktarılan verilerle birlikte veri tablosunu gösterir. Gördüğünüz gibi, yinelenen sütunlar PeopleA, PeopleB vb. olarak yeniden adlandırıldı.
 
-![yapılacaklar:resim_alternatif_Metin](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
+![yapılacaklar:resim_alternatif_metin](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 
 ## **Basit kod**
 

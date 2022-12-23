@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-3-3-release-notes/
 我们是
 很高兴宣布 Aspose.Cells for Java v7.3.3！
 
-新的功能
+新功能
 
 - 添加 Row.getLastDataCell() 方法以获取一行中最后一个有数据的单元格
 - 添加了新的 API，用于为具有相同样式设置的单元格获取相同的 Styleobject
@@ -28,7 +28,7 @@ url: /zh/java/aspose-cells-for-java-7-3-3-release-notes/
 
 - 使用 Unicode 字符的条件格式设置失败
 - 在添加条件格式区域之前设置公式，然后重命名工作表导致保存工作簿时出错
-- 重新保存 XLS 模板文件导致 NegativeArraySizeException
+- 重新保存一个XLS模板文件导致NegativeArraySizeException
 
 虫子
 
@@ -38,4 +38,4 @@ url: /zh/java/aspose-cells-for-java-7-3-3-release-notes/
 - 图表的数据标签格式不正确
 - 渲染的 PDF 文件中的字体下划线消失了
 - 设置字体样式对 LightCells 模式下的 XLSX 无效
-- 保存为 PDF 时部分页脚丢失
+- 保存到 PDF 时部分页脚丢失

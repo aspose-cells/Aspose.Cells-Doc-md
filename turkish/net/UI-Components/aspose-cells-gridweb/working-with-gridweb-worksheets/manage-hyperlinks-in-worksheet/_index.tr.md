@@ -53,7 +53,7 @@ Aşağıdaki örnek, bir çalışma sayfasına iki köprü ekler. Birinin hedefi
 
 **Çıktı: çalışma sayfasına eklenen metin köprüleri** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-hyperlinks-in-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_1.png)
 
 
 
@@ -73,15 +73,15 @@ Bir resim köprüsü eklemek için:
 
 **Çıktı: çalışma sayfasına eklenen görüntü köprüleri** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-hyperlinks-in-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_2.png)
 
 {{% alert color="primary" %}} 
 
- Görüntü köprüsünün AltText'ini ayarlamak, bir<ALT> HTML'de etiketleyin. Metin, yalnızca köprü bağlantılı görüntü görüntülenmiyorsa görüntülenir. (Örneğin, resim belirtilen konumda değilse.) İkinci köprünün resmi bulunmazsa, aşağıdaki kod parçacığının çıktısı aşağıdaki gibi görünecektir.
+ Görüntü köprüsünün AltText'ini ayarlamak, bir<ALT> HTML'deki etiket. Metin yalnızca köprü bağlantılı resim görüntülenmiyorsa görüntülenir. (Örneğin, resim belirtilen konumda değilse.) İkinci köprünün resmi bulunmazsa, aşağıdaki kod parçacığının çıktısı aşağıdaki gibi görünecektir.
 
 **Resim URL'si için resim bulunamadı** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-hyperlinks-in-worksheet_3.png)
+![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_3.png)
 
 {{% /alert %}} 
 
@@ -103,7 +103,7 @@ Bir hücre komutu köprüsü eklemek için:
 
 **Çalışma sayfasına bir hücre komut köprüsü eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-hyperlinks-in-worksheet_4.png)
+![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_4.png)
 
 
 
@@ -117,7 +117,7 @@ Olay işleyicisi, köprü tıklandığında çağrılır.
 
 **Çıktı: köprü tıklandığında A6 hücresine eklenen metin** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-hyperlinks-in-worksheet_5.png)
+![yapılacaklar:resim_alternatif_metin](manage-hyperlinks-in-worksheet_5.png)
 
 
 

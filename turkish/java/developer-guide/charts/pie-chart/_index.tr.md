@@ -19,7 +19,7 @@ url: /tr/java/creating-pie-chart-with-leader-lines/
 
 **Sonuç Pasta Grafiği**
 
-![yapılacaklar:resim_alternatif_Metin](creating-pie-chart-with-leader-lines_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-pie-chart-with-leader-lines_1.png)
 
 ## İlgili Makaleler
 

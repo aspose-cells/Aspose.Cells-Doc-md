@@ -10,18 +10,18 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.8.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Désactiver le ruban du tableau croisé dynamique|Nouvelle fonctionnalité|
 |CELLSJAVA-42568|Protéger le classeur et la feuille de calcul dans le fichier ODS|Nouvelle fonctionnalité|
 |CELLSJAVA-42677|Problème d'interruption avec l'enregistrement du processus de fichier XLSX|Renforcement|
 |CELLSJAVA-42687|Le lien hypertexte ne fonctionne pas lorsqu'il est référencé à partir d'une autre feuille|Renforcement|
 |CELLSJAVA-41176|Alignement incorrect lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-42676|Les données du tableau ont été déplacées vers la mauvaise ligne et la mauvaise colonne lors de la conversion du format de fichier HTML au format MS Excel|Punaise|
+|CELLSJAVA-42676|Les données du tableau ont été déplacées vers la mauvaise ligne et la mauvaise colonne lors de la conversion du format de fichier HTML au format de fichier MS Excel|Punaise|
 |CELLSJAVA-41670|La position de l'image du graphique est incorrecte dans Chrome et FireFox lors de la conversion en HTML|Punaise|
-|CELLSJAVA-41245|Le contrôle Slicer n'est pas rendu lors de la conversion d'un fichier Excel au format de fichier HTML|Punaise|
+|CELLSJAVA-41245|Le contrôle Slicer n'est pas rendu lors de la conversion du fichier Excel au format de fichier HTML|Punaise|
 |CELLSJAVA-42684|La ligne verticale au centre du graphique n'est pas tracée correctement dans l'image rendue|Punaise|
-|CELLSJAVA-42682|La couleur du dégradé pour les bulles négatives ne s'applique pas dans la sortie PDF|Punaise|
+|CELLSJAVA-42682|La couleur de dégradé pour les bulles négatives ne s'applique pas dans la sortie PDF|Punaise|
 |CELLSJAVA-42681|Le titre de la catégorie de graphique ne s'affiche pas correctement dans l'image|Punaise|
 |CELLSJAVA-42695|Mauvais style de bordure renvoyé pour la cellule fusionnée|Punaise|
 |CELLSJAVA-42694|Lire le filigrane du fichier Excel|Punaise|

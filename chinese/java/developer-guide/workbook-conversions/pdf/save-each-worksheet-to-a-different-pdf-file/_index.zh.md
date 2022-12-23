@@ -6,7 +6,7 @@ url: /zh/java/save-each-worksheet-to-a-different-pdf-file/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells 支持将电子表格文件（包含图像、图表等）转换为 PDF 文档。 Aspose.Cells for Java 可以独立工作将电子表格转换为PDF文档，您不再需要使用Aspose.PDF for Java 进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
+Aspose.Cells 支持将电子表格文件（包含图像、图表等）转换为 PDF 文档。 Aspose.Cells for Java 可以独立工作，将电子表格转换为 PDF 文档，您不再需要使用 Aspose.PDF for Java 进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
 
 {{% /alert %}}
 
@@ -16,6 +16,6 @@ Aspose.Cells 支持将电子表格文件（包含图像、图表等）转换为 
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法就在将电子表格呈现为 PDF 之前。这可确保重新计算依赖于公式的值，并在 PDF 中呈现正确的值。
+如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法，就在将电子表格呈现为 PDF 之前。这可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}

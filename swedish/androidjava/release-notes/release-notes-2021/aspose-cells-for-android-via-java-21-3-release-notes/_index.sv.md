@@ -16,8 +16,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.3.
 |CELLSJAVA-43400|Stöd UNIQUE() funktion|
 |CELLSJAVA-42863|Hämta diagrams undertitel|
 |CELLSJAVA-43401|Stöd för enhetligt formateringsresultat för japanska eran för alla JDK:er|
-|CELLSJAVA-43398|Villkorlig formatering återges inte korrekt i ODS till HTML-konvertering|
-|CELLSJAVA-43371|XLSX till PDF-konvertering hänger sig|
+|CELLSJAVA-43398|Villkorlig formatering återges inte korrekt i konverteringen ODS till HTML|
+|CELLSJAVA-43371|XLSX till PDF konvertering hänger|
 |CELLSJAVA-43353|Olika diagram på excel till pdf|
 |CELLSJAVA-43377|Bildplaceringsproblem vid konvertering av Excel till HTML|
 |CELLSJAVA-43381|DAYS funktionsberäkningsfel|
@@ -28,18 +28,18 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.3.
 |CELLSJAVA-43378|Visa som tomt ändras från sant till falskt efter kloning av arbetsboken|
 |CELLSJAVA-43382|Kopiera producerar skadad arbetsbok|
 |CELLSJAVA-43364|Problem när du sparar diagram med bild i markören till bild|
-|CELLSJAVA-43389|Arbetsbok/arbetsblad Lösenordsskyddsinställningar förlorade när du sparade som XLSB-filformat|
-|CELLSJAVA-43392|Kopiering av ark ger en korrupt arbetsbok|
+|CELLSJAVA-43389|Arbetsbok/arbetsblad Lösenordsskyddsinställningar förlorade när du sparade som XLSB filformat|
+|CELLSJAVA-43392| Kopiering av ark ger en korrupt arbetsbok|
 |CELLSJAVA-43388|Utdatafilen är korrupt efter kopiering av arbetsbok|
 |CELLSJAVA-43406|Problem vid konvertering av HTML till Excel|
 |CELLSJAVA-43399|CalculateFormula() skapar många feltypvärden #VALUE|
 |CELLSJAVA-43362|Procentuellt problem för etiketter vid utskrift av diagram|
-|CELLSJAVA-43384|Procentuella problem för vissa etiketter vid rendering till PDF och utskrift av diagram|
+|CELLSJAVA-43384|Procentproblem för vissa etiketter vid rendering till PDF och utskrift av diagram|
 |CELLSJAVA-43402|Generera exakt diagrambild från Excel-fil|
 |CELLSJAVA-43408|Toppen av diagrammet skärs av och den lutande linjen går upp|
 |CELLSJAVA-43379|Undantag uppstod när arbetsboken sparades som HTML|
 |CELLSJAVA-43376|Undantag "java.lang.ClassCastException: Överflöde i int till byte-konvertering. int värde: 144" vid inläsning av en XLSX-fil|
-|CELLSJAVA-43387|Export av ett ark till HTML ger undantag|
+|CELLSJAVA-43387|Export av enstaka ark till HTML höjer undantag|
 |CELLSJAVA-43412|CellsException i xlsx till html-konvertering|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

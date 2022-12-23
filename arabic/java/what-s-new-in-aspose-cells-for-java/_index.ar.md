@@ -8,7 +8,7 @@ url: /ar/java/what-s-new-in-aspose-cells-for-java/
 تصف هذه الصفحة الميزات الجديدة الأكثر إثارة للاهتمام Aspose.Cells التي تم تقديمها في الإصدارات الأخيرة.
 
 ## Aspose.Cells for Java 22.12
-* دعم تصدير ملفات Excel إلى JSON بهيكل هرمي متعدد الطبقات
+* دعم تصدير ملف Excel إلى JSON بهيكل هرمي متعدد الطبقات
 
 ## Aspose.Cells for Java 22.11
 

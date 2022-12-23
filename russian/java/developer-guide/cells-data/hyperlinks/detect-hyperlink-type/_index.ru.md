@@ -9,8 +9,8 @@ url: /ru/java/detect-hyperlink-type/
 Файл Excel может иметь различные типы гиперссылок, такие как внешние ссылки, ссылки на ячейки, пути к файлам и т. д. Aspose.Cells поддерживает функцию определения типа гиперссылок. Типы гиперссылок представлены[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Перечисление.[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Перечисление имеет следующие члены.
 
 - [**ВНЕШНИЙ**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Внешняя ссылка
-- [**ПУТЬ К ФАЙЛУ**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Локальный и полный путь к файлам\папкам.
-- [**ЭЛ. АДРЕС**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Эл. адрес
+- [**ПУТЬ ФАЙЛА**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): Локальный и полный путь к файлам\папкам.
+- [**ЭЛЕКТРОННОЕ ПИСЬМО**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): Электронное письмо
 - [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): ссылка на ячейку или именованный диапазон.
 
 Чтобы проверить тип гиперссылки,[**Гиперссылка**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) класс предоставляет[**Тип ссылки**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) свойство с возвращаемым типом[**Тип таргетмоде**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). Следующий фрагмент кода демонстрирует использование[**Тип ссылки**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)свойство с помощью этого[исходный файл excel](LinkTypes.xlsx).

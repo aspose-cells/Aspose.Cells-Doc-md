@@ -34,7 +34,7 @@ wb.save(filePath + ".out.mht", sv)
 print "Excel to MHTML conversion performed successfully."
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**التحويل إلى MHTML (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

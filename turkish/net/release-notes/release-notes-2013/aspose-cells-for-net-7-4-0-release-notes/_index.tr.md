@@ -27,7 +27,7 @@ url: /tr/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Verim
 
-- PDF formatına kaydederken askıda kaldı
+- PDF biçiminde kaydederken askıda kaldı
 
 
 
@@ -43,7 +43,7 @@ url: /tr/net/aspose-cells-for-net-7-4-0-release-notes/
 - Pivot tablonun yenilenmesi ve veri hesaplama sorunu
 - YATAYARADOLAYLI formüller hatasıyla
 - Excel 2013 ile kaydedilen dosyalar için korumayı kaldırma çalışma sayfası başarısız oluyor
-- PDF'ye dışa aktarmada alt bilgi sayfa numarası sorunu
+- PDF'e dışa aktarmada alt bilgi sayfa numarası sorunu
 - Çalışma Kitabını akışlara kaydederken AcceptAllRevisions düzgün uygulanmıyor
 
  -Kayıt sırasında oluşturulan bozuk onay kutuları
@@ -78,19 +78,19 @@ url: /tr/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Hatalar
 
- 41279 - GridWeb'in doğrulama menü listesi, Dolar işareti - "$" içeren menü öğelerinde başarısız olacak
+41279 - GridWeb'in doğrulama menü listesi, Dolar işareti - "$" içeren menü öğelerinde başarısız olacak
 
  41280- Başvurulan hücre değeri güncellendikten sonra GridWeb'in doğrulama menü listesi yenilendi
 
  41294 - GridWeb, doğrulama listesine sahip hücreleri içeren dosyalar için FireFox'ta çalışmaz
 
-41308 - Bir hücre değerini düzenlerken, Enter tuşuna basıldığında IE'deki orijinal satır sonu kaybolacak
+ 41308 - Bir hücre değerini düzenlerken, Enter tuşuna basıldığında IE'deki orijinal satır sonu kaybolacak
 
 - Chrome, FireFox vb. için çalışmayan web ızgarasında Kopyala-Yapıştır sorunu
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

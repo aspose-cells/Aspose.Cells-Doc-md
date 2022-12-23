@@ -164,7 +164,7 @@ m_workbook.Save("output.xlsx")
 {{% /alert %}} 
 
 ### **プロパティ OdsSaveOptions.IsStrictSchema11 が追加されました**
-開発者が ODF v1.2 仕様に準拠した形式でスプレッドシートを保存できるようにするために、プロパティ IsStrictSchema11 が OdsSaveOptions クラスに追加されました。 IsStrictSchema11 プロパティのデフォルト値は false です。つまり、Aspose.Cells API のバージョン 8.3.1 以降、ODS ファイルはデフォルトで ODF フォーマット バージョン 1.2 として保存されます。
+開発者が ODF v1.2 仕様に準拠した形式でスプレッドシートを保存できるようにするために、プロパティ IsStrictSchema11 が OdsSaveOptions クラスに追加されました。 IsStrictSchema11 プロパティのデフォルト値は false です。これは、Aspose.Cells API のバージョン 8.3.1 以降、デフォルトで ODS ファイルが ODF フォーマット バージョン 1.2 として保存されることを意味します。
 
 以下のコード スニペットは、ODS ファイルを ODF 1.2 形式で保存します。
 

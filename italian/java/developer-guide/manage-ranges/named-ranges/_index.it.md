@@ -6,11 +6,11 @@ url: /it/java/named-ranges/
 ---
 {{% alert color="primary" %}} 
 
-Normalmente, le etichette di colonna e riga vengono utilizzate per fare riferimento a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, in particolare se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
+Normalmente, le etichette di colonna e riga vengono utilizzate per fare riferimento a singole celle. È possibile creare nomi descrittivi per rappresentare celle, intervalli di celle, formule o valori costanti. La parola**nome** può fare riferimento a una stringa di caratteri che rappresenta una cella, un intervallo di celle, una formula o un valore costante. Assegnare un nome a un intervallo significa che quell'intervallo di celle può essere indicato con il suo nome. Utilizzare nomi di facile comprensione, ad esempio Prodotti, per fare riferimento a intervalli di difficile comprensione, ad esempio Vendite!C20:C30. Le etichette possono essere utilizzate in formule che fanno riferimento a dati sullo stesso foglio di lavoro; se vuoi rappresentare un intervallo su un altro foglio di lavoro, puoi usare un nome. *Gli intervalli denominati sono tra le funzionalità più potenti di Microsoft Excel, soprattutto se utilizzati come intervallo di origine per controlli elenco, tabelle pivot, grafici e così via.
 
 {{% /alert %}} 
 ## **Creazione di un intervallo denominato**
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 passaggi seguenti descrivono come denominare una cella o un intervallo di celle utilizzando Microsoft Excel. Questo metodo si applica a Microsoft Office Excel 2003, Microsoft Excel 97, 2000 e 2002.
 
 1. Selezionare la cella, l'intervallo di celle a cui si desidera assegnare un nome.
@@ -24,16 +24,16 @@ Non puoi nominare una cella mentre stai modificando il contenuto della cella.
 
 {{% /alert %}} 
 ### **Utilizzando Aspose.Cells**
-Qui, utilizziamo l'API Aspose.Cells per eseguire l'attività.
+Qui, usiamo lo Aspose.Cells API per svolgere l'attività.
 
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione.
 
  È possibile creare un intervallo denominato chiamando l'overloaded[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ) metodo del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Una versione tipica del[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) accetta i seguenti parametri:
 
 - Nome della cella in alto a sinistra, il nome della cella in alto a sinistra nell'intervallo.
 - Nome della cella in basso a destra, il nome della cella in basso a destra nell'intervallo.
 
- Quando il[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ) viene chiamato, restituisce l'intervallo denominato appena creato come istanza di[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/range) classe.
+ Quando il[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ) viene chiamato, restituisce l'intervallo denominato appena creato come istanza di[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/range) classe.
 
 L'esempio seguente mostra come creare un intervallo denominato di celle che si estende su B4:G14.
 
@@ -45,7 +45,7 @@ L'esempio seguente mostra come accedere a tutti gli intervalli denominati in una
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Accedi a un intervallo denominato specifico**
- Chiama il[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) della collezione[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) per ottenere un intervallo specificato per nome. Un tipico[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) prende il nome dell'intervallo denominato e restituisce l'intervallo denominato specificato come istanza di[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/range)classe.
+ Chiama il[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) della collezione[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) per ottenere un intervallo specificato per nome. Un tipico[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) prende il nome dell'intervallo denominato e restituisce l'intervallo denominato specificato come istanza di[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/range)classe.
 
 L'esempio seguente mostra come accedere a un intervallo specificato in base al relativo nome.
 
@@ -69,13 +69,13 @@ L'esempio seguente mostra come inserire alcuni valori nelle celle di un interval
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-InputDataInCellsInRange-InputDataInCellsInRange.java" >}}
 #### **Intervalli di formato...Impostazione del colore di sfondo e degli attributi dei caratteri su un intervallo denominato**
- Per applicare la formattazione, definire a[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) oggetto per specificare le impostazioni di stile e applicarlo al file[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/range)oggetto.
+ Per applicare la formattazione, definire a[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) oggetto per specificare le impostazioni di stile e applicarlo al file[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/range)oggetto.
 
 L'esempio seguente mostra come impostare il colore di riempimento a tinta unita (colore di ombreggiatura) con le impostazioni del carattere su un intervallo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Intervalli di formato...Aggiunta di bordi a un intervallo denominato**
- È possibile aggiungere bordi a un intervallo di celle invece che a una singola cella. Il[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/range) oggetto fornisce a[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)metodo che accetta i seguenti parametri per aggiungere un bordo all'intervallo di celle:
+ È possibile aggiungere bordi a un intervallo di celle invece che a una singola cella. Il[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/range) oggetto fornisce a[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)metodo che accetta i seguenti parametri per aggiungere un bordo all'intervallo di celle:
 
 -  borderStyle: il tipo di bordo, selezionato dal file[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)enumerazione.
 -  borderColor: il colore della linea del bordo, selezionato dal file[Colore](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumerazione.
@@ -89,7 +89,7 @@ L'esempio seguente mostra come impostare un bordo del contorno su un intervallo.
 
 ![cose da fare:immagine_alt_testo](named-ranges_1.png)
 #### **Applicare lo stile alle celle in un intervallo**
-A volte, vuoi creare applicare uno stile alle celle in a[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/range) . Per questo, puoi scorrere le celle nell'intervallo e utilizzare il[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) per applicare lo stile alla cella.
+A volte, vuoi creare applicare uno stile alle celle in a[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/range) . Per questo, puoi scorrere le celle nell'intervallo e utilizzare il[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) per applicare lo stile alla cella.
 
 L'esempio seguente mostra come applicare gli stili alle celle in un intervallo.
 

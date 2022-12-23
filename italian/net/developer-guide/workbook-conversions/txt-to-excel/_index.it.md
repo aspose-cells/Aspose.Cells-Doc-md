@@ -11,21 +11,21 @@ Usando Aspose.Cells, puoi convertire il file CSV in Excel, OpenOffice, Pdf, Json
 {{% /alert %}}
 
 
-## **Apertura di file CSV**
+## **Apertura file CSV**
 
-I file CSV (Comma Separated Values) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in formato CSV.
+file Comma Separated Values (CSV) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
 ## **Apertura di file CSV e sostituzione di caratteri non validi**
 
-In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto dall'API Aspose.Cells che è dimostrato nell'esempio di codice fornito di seguito.
+In Excel, quando viene aperto il file CSV con caratteri speciali, i caratteri vengono sostituiti automaticamente. Lo stesso viene fatto da Aspose.Cells API che è dimostrato nell'esempio di codice fornito di seguito.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
 ## **Utilizzo del parser preferito**
 
-Questo non è sempre necessario per utilizzare le impostazioni predefinite del parser per l'apertura dei file CSV. A volte l'importazione di file CSV non crea l'output previsto come il formato della data non è come previsto o i campi vuoti vengono gestiti in modo diverso. Per questo scopo**TxtLoadOptions.PreferredParsers**è disponibile per fornire il proprio parser preferito per analizzare diversi tipi di dati secondo il requisito. Il seguente codice di esempio illustra l'utilizzo del parser preferito.
+Questo non è sempre necessario per utilizzare le impostazioni predefinite del parser per aprire i file CSV. A volte l'importazione del file CSV non crea l'output previsto come il formato della data non è come previsto o i campi vuoti vengono gestiti in modo diverso. Per questo scopo**TxtLoadOptions.PreferredParsers**è disponibile per fornire il proprio parser preferito per analizzare diversi tipi di dati secondo il requisito. Il seguente codice di esempio illustra l'utilizzo del parser preferito.
 
 Il file sorgente di esempio e i file di output possono essere scaricati dai seguenti collegamenti per testare questa funzione.
 
@@ -55,6 +55,6 @@ Il file con valori separati da tabulazioni (TSV) contiene i dati del foglio di c
 
 
 ## **Argomenti avanzati**
-- [Carica o importa file CSV con formule](/cells/it/net/load-or-import-csv-file-with-formulas/)
-- [Lettura di file CSV con codifiche multiple](/cells/it/net/reading-csv-file-with-multiple-encodings/)
+- [Carica o importa il file CSV con le formule](/cells/it/net/load-or-import-csv-file-with-formulas/)
+- [Lettura del file CSV con codifiche multiple](/cells/it/net/reading-csv-file-with-multiple-encodings/)
 

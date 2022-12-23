@@ -10,7 +10,7 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% /alert %}} 
 ## **フォントの置換が発生した場合の警告のサポートを追加**
-Aspose.Cells for Java 8.1.2 では、WarningInfo クラスと WarningType クラス、IWarningCallback インターフェイス、SaveOptions.WarningCallback プロパティと ImageOrPrintOptions.WarningCallback プロパティが追加され、スプレッドシートを画像、XPS および PDF 形式に変換するときにフォントの置換が発生したときに開発者が警告を受け取ることができるようになりました。
+Aspose.Cells for Java 8.1.2 では、WarningInfo および WarningType クラス、IWarningCallback インターフェイス、SaveOptions.WarningCallback および ImageOrPrintOptions.WarningCallback プロパティが追加され、スプレッドシートを画像、XPS および PDF 形式に変換するときにフォントの置換が発生したときに開発者が警告を受け取ることができるようになりました。
 
 {{% alert color="primary" %}} 
 

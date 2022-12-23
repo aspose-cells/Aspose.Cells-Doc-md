@@ -12,7 +12,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSRS-584 | Png/Emf-Rendering verbessert.| Verbesserung|
-|CELLSRS-588 |Verbesserung des Tiff-Renderings.| Verbesserung|
+|CELLSRS-584 |Png/Emf-Rendering verbessert.| Verbesserung|
+|CELLSRS-588 | Verbesserung des Tiff-Renderings.| Verbesserung|
 
 

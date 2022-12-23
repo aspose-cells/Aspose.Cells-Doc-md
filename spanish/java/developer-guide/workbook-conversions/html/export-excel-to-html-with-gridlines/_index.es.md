@@ -10,9 +10,9 @@ url: /es/java/export-excel-to-html-with-gridlines/
 
 {{% /alert %}} 
 ## **Exportar Excel a HTML con GridLines**
- El siguiente código de ejemplo crea un libro de trabajo y llena su hoja de trabajo con algunos valores y luego lo guarda en formato HTML después de configurar el[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) a**verdadero**.
+El siguiente código de muestra crea un libro de trabajo y llena su hoja de trabajo con algunos valores y luego lo guarda en formato HTML después de configurar el[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) a**verdadero**.
 
-La siguiente captura de pantalla muestra el HTML de salida generado con este código de muestra. Como puede ver, también muestra líneas de cuadrícula en el HTML de salida.
+La siguiente captura de pantalla muestra el resultado HTML generado con este código de muestra. Como puede ver, también muestra líneas de cuadrícula en la salida HTML.
 
 ![todo:imagen_alternativa_texto](export-excel-to-html-with-gridlines_1.png)
 

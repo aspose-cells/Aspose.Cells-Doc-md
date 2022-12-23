@@ -13,17 +13,17 @@ url: /sv/java/aspose-cells-for-java-17-3-0-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42205|Inställning av formel med lång sträng bokstavlig resulterar i korrupt Excel-fil|Förbättring|
-|CELLSJAVA-42204|Prickade ramar från kalkylarket har inte renderats till HTML|Insekt|
+|CELLSJAVA-42204|Prickade kanter från kalkylarket har inte återgetts till HTML|Insekt|
 |CELLSJAVA-42198|Formelberäkningen är fel med Aspose.Cells genererad Excel-fil|Insekt|
 |CELLSJAVA-42156|De övre och nedre gränserna för celler försvinner vid konvertering till HTML|Insekt|
 |CELLSJAVA-42208|Kommentarer (i slutet) skärs vertikalt när de genereras PDF via Aspose.Cells|Insekt|
-|CELLSJAVA-42206|Seriestrecklinjer för diagram renderas inte korrekt i den utgående PDF-filen|Insekt|
+|CELLSJAVA-42206|Seriestrecklinjer för diagram renderas inte korrekt i utdata PDF|Insekt|
 |CELLSJAVA-42167 |Kategoriaxeletiketter visas i två rader efter konvertering av diagram till bild|Insekt|
 |CELLSJAVA-42199|Vattenfallsdiagram, linjen från totalstapeln och stapeln precis innan den saknas|Insekt|
 |CELLSJAVA-42201|Underuppgift - Kategoriaxeletiketter visas på två rader efter konvertering av diagram till bild|Insekt|
 |CELLSJAVA-42155|Det exporterade diagrammet har x-axeletiketter som skiljer sig från den i Excel|Insekt|
 |CELLSJAVA-42128|Diagrammet är fel när du öppnar och sparar källfilen i Excel|Insekt|
-|CELLSJAVA-42203|Teckensnittet har ändrats efter att du enkelt laddat in och sparat XLSM|Insekt|
+|CELLSJAVA-42203|Teckensnittet har ändrats efter att ha laddat in och sparat om XLSM|Insekt|
 |CELLSJAVA-42196|Formateringen av den resulterande filen är förstörd i den återsparade filen|Insekt|
 |CELLSJAVA-42195|Vattenfallsdiagram, Totalserie ser fel ut|Insekt|
 |CELLSJAVA-42181|Skyddad vy efter att ha sparat en XLS-fil igen|Insekt|
@@ -42,7 +42,7 @@ Med den senaste versionen 17.3.0 eller senare kan utvecklare anpassa globaliseri
 1. **Lägger till metoden GlobalizationSettings.getEmptyDataName().** - Den får namnet "(tom)"-etikett i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType)** - Den får namnet på typen "PivotFieldSubtotalType" i pivottabellen.
 
-Detta kodexempel utvecklar hur man anpassar globaliseringsinställningarna för en pivottabell. Den skapar en klass CustomPivotTableGlobalizationSettings härledd från en basklass GlobalizationSettings och åsidosätter alla nödvändiga metoder. Dessa metoder returnerar den anpassade texten för Pivot Summa, Sub Summa, Totalsumma, Alla artiklar, Flera artiklar, Kolumnetiketter, Radetiketter, Tomma värden. Sedan tilldelar den objektet för den här klassen till egenskapen Workbook.GlobalizationSettings. Koden laddar källexcel-filen som innehåller pivottabellen, uppdaterar och beräknar dess data och sparar den som en utdata-PDF-fil. Utvecklare kan också spara arbetsboken i valfritt format som stöds.
+Detta kodexempel utvecklar hur man anpassar globaliseringsinställningarna för en pivottabell. Den skapar en klass CustomPivotTableGlobalizationSettings härledd från en basklass GlobalizationSettings och åsidosätter alla nödvändiga metoder. Dessa metoder returnerar den anpassade texten för Pivot Summa, Sub Summa, Totalsumma, Alla artiklar, Flera artiklar, Kolumnetiketter, Radetiketter, Tomma värden. Sedan tilldelar den objektet för den här klassen till egenskapen Workbook.GlobalizationSettings. Koden laddar källexcelfilen som innehåller pivottabellen, uppdaterar och beräknar dess data och sparar den som en utdatafil PDF. Utvecklare kan också spara arbetsboken i valfritt format som stöds.
 
 **Java**
 

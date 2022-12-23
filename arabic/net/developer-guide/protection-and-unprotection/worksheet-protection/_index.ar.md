@@ -16,7 +16,7 @@ description: حماية وإلغاء حماية ورقة عمل ملفات Excel
 
 1.  انقر**مراجعة> حماية ورقة العمل**.
 1.  أدخل كلمة المرور في**مربع كلمة المرور**.
-1.  يختار**السماح** والخيارات.
+1.  يختار**يسمح** والخيارات.
 1.  يختار**نعم** ، وأعد إدخال كلمة المرور لتأكيدها ، ثم حدد**نعم** تكرارا.
 
 
@@ -32,7 +32,7 @@ description: حماية وإلغاء حماية ورقة عمل ملفات Excel
 
 ## **موضوعات مسبقة**
 - [إعدادات الحماية المتقدمة منذ Excel XP](/cells/ar/net/advanced-protection-settings-since-excel-xp/)
-- [اكتشاف ما إذا كانت ورقة العمل محمية بكلمة مرور](/cells/ar/net/detect-if-worksheet-is-password-protected/)
+- [اكتشف ما إذا كانت ورقة العمل محمية بكلمة مرور](/cells/ar/net/detect-if-worksheet-is-password-protected/)
 - [حماية أوراق العمل](/cells/ar/net/protecting-worksheets/)
 - [قم بإلغاء حماية ورقة العمل](/cells/ar/net/unprotect-a-worksheet/)
 - [تحقق من كلمة المرور المستخدمة لحماية ورقة العمل](/cells/ar/net/verify-password-used-to-protect-the-worksheet/)

@@ -1,11 +1,11 @@
 ﻿---
-title: Convertir hoja de trabajo a SVG en Ruby
+title: Conversión de hoja de trabajo a SVG en Ruby
 type: docs
 weight: 70
 url: /es/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Conversión de hoja de trabajo a SVG**
-Para convertir la hoja de trabajo a SVG usando Aspose.Cells for Java en Ruby, simplemente invoque la hoja de trabajo_a_Método svg() del módulo Converter.
+## **Aspose.Cells - Hoja de trabajo de conversión a SVG**
+Para convertir Worksheet a SVG usando Aspose.Cells for Java en Ruby, simplemente invoque worksheet_a_Método svg() del módulo Converter.
 
 **código rubí**
 

@@ -16,7 +16,7 @@ url: /ru/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 ### Скриншоты, сравнивающие исходный и выходной файлы
 
- На следующем снимке экрана показан исходный файл Excel, используемый внутри кода. Он содержит пустую таблицу и выделяет ячейку D5, которая находится внутри таблицы. Мы получим доступ к этой таблице из ячейки D5, используя[**Cell.получитьТаблицу()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ), а затем добавьте значения внутри него, используя как[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) а также[**ListObject.putCellValue (смещение строки, смещение столбца, значение)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) методы.
+ На следующем снимке экрана показан исходный файл Excel, используемый внутри кода. Он содержит пустую таблицу и выделяет ячейку D5, которая находится внутри таблицы. Мы получим доступ к этой таблице из ячейки D5, используя[**Cell.получитьТаблицу()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ), а затем добавьте значения внутри него, используя как[**Cell.putValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) и[**ListObject.putCellValue (смещение строки, смещение столбца, значение)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) методы.
 
 ![дело:изображение_альтернативный_текст](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 

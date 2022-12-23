@@ -22,33 +22,33 @@ url: /es/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50684|Problema con la extracción de archivos adjuntos OLE del archivo ODS|
 |CELLSNET-50712|Los efectos y las formas de WordArt no se representan correctamente en la conversión de Excel a PDF|
 |CELLSNET-50714|El archivo XLSB está dañado cuando se abre y se guarda con las API Aspose.Cells|
-|CELLSNET-50778|Faltan líneas verticales para la tabla dinámica en el PDF de salida|
+|CELLSNET-50778|Faltan líneas verticales para la tabla dinámica en la salida PDF|
 |CELLSNET-50517|Referencia incorrecta en la fórmula de formato condicional después de insertar/eliminar filas|
 |CELLSNET-50622|El encabezado de fila/columna en blanco con estilo personalizado no se exporta a csv|
 |CELLSNET-50645|Resultados incorrectos con el método Workbook.CalculateFormula|
 |CELLSNET-50695|Name.RefersTo/R1C1RefersTo cambió al hacer referencia a una dirección de celda única|
 |CELLSNET-50553| El estilo de columna no se aplica en la columna completa en GridDesktop|
 |CELLSNET-50641|Problema al abrir un archivo protegido con contraseña con una contraseña en blanco ("") en Aspose.Cells.GridDesktop|
-|CELLSNET-50672| agregar evento FailLoadFile|
+|CELLSNET-50672|agregar evento FailLoadFile|
 |CELLSNET-50815| el comportamiento del valor de celda de edición de doble clic no es correcto|
 |CELLSNET-50594|El texto se oculta detrás de los campos de entrada al convertir XLSX a HTML|
 |CELLSNET-50665|La validación de Pdf/A-1b falló después de configurar el tiempo creado al convertir a pdf|
-|CELLSNET-50701|El brillo y el contraste de la imagen insertada se restablecen en la conversión de Excel a PDF|
-|CELLSNET-50834|Problema con las celdas combinadas de la tabla en la conversión de Excel a HTML|
-|CELLSNET-50595|XLSX a SVG: diferencias en el gráfico|
-|CELLSNET-50596|Las unidades del eje no se cambian en el archivo XLSX de salida|
-|CELLSNET-50740|XLSX a JPG: texto desplazado hacia el lado derecho en los gráficos|
+|CELLSNET-50701|El brillo y el contraste de la imagen insertada se restablecen en Excel a la conversión PDF|
+|CELLSNET-50834|Problema con las celdas combinadas de la tabla en Excel para la conversión HTML|
+|CELLSNET-50595|XLSX a SVG: Diferencias en el gráfico|
+|CELLSNET-50596|Las unidades del eje no se cambian en el archivo de salida XLSX|
+|CELLSNET-50740|XLSX a JPG: texto desplazado hacia la derecha en los gráficos|
 |CELLSNET-50309|Rango a PNG: la salida no es la esperada|
 |CELLSNET-50610|RecalculateBeforeSave siempre falso en la versión más reciente|
-|CELLSNET-50611|Problema con el valor booleano en la representación de Excel a PDF|
+|CELLSNET-50611|Problema con el valor booleano en Excel para la representación PDF|
 |CELLSNET-50706| El tamaño del archivo se reduce muchas veces cuando se guarda con SaveToStream() por segunda vez|
-|CELLSNET-50749|Método DeleteBlankColumns (opciones) que elimina columnas que solo tienen comentarios|
+|CELLSNET-50749| Método DeleteBlankColumns (opciones) que elimina columnas que solo tienen comentarios|
 |CELLSNET-50759|Las fórmulas no se guardan correctamente cuando un libro de trabajo tiene vínculos externos a un libro de trabajo que no se ha guardado|
 |CELLSNET-50776|Los marcadores inteligentes no se procesan cuando se usa una lista genérica de tipo System.Dynamic.ExpandoObject como fuente de datos para objetos anidados.|
-|CELLSNET-50779| Posible pérdida de datos con respecto a objetos incrustados al convertir XLS -> XLSX -> XLS|
+|CELLSNET-50779| Posible pérdida de datos con respecto a objetos incrustados durante la conversión XLS -> XLSX -> XLS|
 |CELLSNET-50821|Problema con Range.AutoFill: los datos no se completan automáticamente correctamente si el área del rango se cruza|
 |CELLSNET-50777|El método PutValue lanza System.StackOverflowException en formato regional australiano|
-|CELLSNET-50275|Excepción "Referencia de objeto no establecida en una instancia de un objeto" al representar ODS en HTML|
+|CELLSNET-50275|Excepción "Referencia de objeto no establecida en una instancia de un objeto" al representar ODS a HTML|
 |CELLSNET-50713|System.NullReferenceException al cargar un archivo XLSB|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

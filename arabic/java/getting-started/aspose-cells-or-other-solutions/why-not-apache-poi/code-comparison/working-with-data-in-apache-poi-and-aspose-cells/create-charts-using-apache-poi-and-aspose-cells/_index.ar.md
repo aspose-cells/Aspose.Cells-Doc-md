@@ -141,7 +141,7 @@ data.addSeries(xs, ys2);
 chart.plot(data, bottomAxis, leftAxis);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تنزيل أمثلة تشغيل لـ**قم بإنشاء مخططات باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)

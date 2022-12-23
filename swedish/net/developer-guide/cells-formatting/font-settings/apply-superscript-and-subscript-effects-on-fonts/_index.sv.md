@@ -14,7 +14,7 @@ Aspose.Cells tillhandahåller funktionen för att applicera upphöjd (text ovanf
 
 ## **Arbeta med Superscript och Subscript**
 
- Använd den upphöjda effekten genom att ställa in[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) objekt[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) egendom till**Sann** . För att tillämpa prenumeration, ställ in[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) objekt[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) egendom till**Sann**.
+ Använd den upphöjda effekten genom att ställa in[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) föremål[**IsSuperscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) egendom till**Sann** . För att tillämpa prenumeration, ställ in[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) föremål[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) egendom till**Sann**.
 
 Följande kodexempel visar hur du applicerar super och subscript på text.
 

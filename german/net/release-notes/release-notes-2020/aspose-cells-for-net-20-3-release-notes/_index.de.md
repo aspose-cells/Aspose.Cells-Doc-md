@@ -16,11 +16,11 @@ url: /de/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47168|Unterstützung für die FILTER-Funktion|Neue Funktion|
 |CELLSNET-47204|Holen Sie sich die eindeutige ID des Arbeitsblatts|Neue Funktion|
 |CELLSNET-47229|Unterstützung für das Setzen von chart.series.dataLables.TextDirection auf vertikal|Neue Funktion|
-|CELLSNET-47092|Stellen Sie Symbole wie gewöhnliche Bilder für IStreamProvider zur Verfügung, während Sie das Dokument in HTML speichern|Erweiterung|
+|CELLSNET-47092|Stellen Sie Symbole wie gewöhnliche Bilder für IStreamProvider zur Verfügung, während Sie das Dokument unter HTML speichern|Erweiterung|
 |CELLSNET-47094|Reduzieren Sie das Flackern in GridDesktop für eine reibungslose Größenänderung|Erweiterung|
 |CELLSNET-47173|Unterscheiden Sie versteckte/sehr versteckte Blätter in Aspose.Cells.GridDesktop|Erweiterung|
 |CELLSNET-47101|Verbessern Sie die Leistung beim Speichern der bedingten Formatierung und Validierung mit ganzen Zeilen.|Erweiterung|
-|CELLSNET-47178|Beim Erstellen einer Tabelle und beim Konvertieren in HTML ging die Einrückung verloren|Insekt|
+|CELLSNET-47178|Einrückung verloren beim Erstellen einer Tabelle und Konvertieren in HTML|Insekt|
 |CELLSNET-47199|Der Unterschied in der Berechnung für den benannten Bereich, während CreateCalcChain auf „true“ und „false“ gesetzt wird|Insekt|
 |CELLSNET-47077|Beim Importieren einer Excel-Datei in GridDesktop konnten keine Rahmen auf die Zellen (mit Daten) angewendet werden|Insekt|
 |CELLSNET-47172|Problem beim Anwenden der bedingten Formatierung|Insekt|
@@ -33,13 +33,13 @@ url: /de/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47210|Der reich formatierte Zeichenfolgenwert einer Zelle ist in Apple Numbers'09 leer|Insekt|
 |CELLSNET-47213|Blatt in eine andere Arbeitsmappe kopieren - ausgeblendete Zellen (Zeilen) verschwinden|Insekt|
 |CELLSNETCORE-53|Der Datenpunkt auf der Excel-Diagrammlinie wird nach der Konvertierung in PDF entfernt|Insekt|
-|CELLSNET-47212|NullReferenceException beim Speichern bestimmter XLSM in XLS|Ausnahme|
+|CELLSNET-47212|NullReferenceException beim Speichern bestimmter XLSM bis XLS|Ausnahme|
 |CELLSNET-47222|Aspose.Cells 20.2: Ausnahme beim Konvertieren einer bestimmten XLSB-Datei in Excel97To2003|Ausnahme|
 |CELLSNET-47226|Aspose.Cells 20.2: Ausnahme beim Versuch, leere Spalten zu löschen|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.
 #### **Ändern Sie das Verhalten von Formatierungsfunktionen für einige benutzerspezifische CultureInfos. (NUR .NET)**
- In alten Versionen kann unsere Formatierungs-Engine einige Eigenschaften einiger spezieller Kulturen ändern, um das allgemein formatierte Ergebnis zu erhalten. In den meisten Situationen sollte zum Beispiel JapaneseCalendar verwendet werden, um Datums- und Uhrzeitwerte zu formatieren, sodass wir in alten Versionen immer dafür sorgen, dass CultureInfo von „ja-JP“ JapaneseCalendar für die Formatierung verwendet. Es ist jedoch nicht immer für Benutzer gedacht, wenn sie ihre benutzerdefinierte CultureInfo über APIs wie WorkbookSettings.CultureInfo oder CustomImplementationFactory.CreateCultureInfo() angeben. Ab 20.3 verwenden wir also die Eigenschaft CultureInfo.UseUserOverride, um zu entscheiden, ob die Eigenschaften automatisch für die Formatierung geändert werden. Für die angegebene CultureInfo, wenn diese Eigenschaft ist**Stimmt** , dann nehmen wir an, dass dieser Benutzer alle erforderlichen Eigenschaften überschrieben hat, also werden wir es nicht mehr für die Formatierung ändern. Wenn diese Eigenschaft ist**FALSCH**, dann können wir bei Bedarf andere Eigenschaften davon automatisch ändern.
+In alten Versionen kann unsere Formatierungs-Engine einige Eigenschaften einiger spezieller Kulturen ändern, um das allgemein formatierte Ergebnis zu erhalten. In den meisten Situationen sollte zum Beispiel JapaneseCalendar verwendet werden, um Datums- und Uhrzeitwerte zu formatieren, sodass wir in alten Versionen immer dafür sorgen, dass CultureInfo von „ja-JP“ JapaneseCalendar für die Formatierung verwendet. Es ist jedoch nicht immer für Benutzer gedacht, wenn sie ihre benutzerdefinierte CultureInfo über APIs wie WorkbookSettings.CultureInfo oder CustomImplementationFactory.CreateCultureInfo() angeben. Ab 20.3 verwenden wir also die Eigenschaft CultureInfo.UseUserOverride, um zu entscheiden, ob die Eigenschaften automatisch für die Formatierung geändert werden. Für die angegebene CultureInfo, wenn diese Eigenschaft ist**wahr** , dann nehmen wir an, dass dieser Benutzer alle erforderlichen Eigenschaften überschrieben hat, also werden wir es nicht mehr für die Formatierung ändern. Wenn diese Eigenschaft ist**FALSCH**, dann können wir bei Bedarf andere Eigenschaften davon automatisch ändern.
 #### **Fügen Sie die Eigenschaft LoadFilter.SheetsInLoadingOrder hinzu.**
 Benutzer können diese Eigenschaft überschreiben, um die Blätter und die Reihenfolge anzugeben, die beim Importieren von Arbeitsmappen aus der Vorlagendatei geladen werden sollen.
 #### **Löscht die veraltete TickLabels.Background-Eigenschaft**

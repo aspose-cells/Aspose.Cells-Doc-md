@@ -6,7 +6,7 @@ url: /fr/java/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Parfois, vous souhaitez modifier l'alignement de plusieurs cellules, mais souhaitez également conserver la mise en forme existante. Aspose.Cells vous permet de le faire en utilisant le[**StyleFlag.Alignements**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) propriété. Si vous le réglez**vrai** , des changements d'alignement auront lieu sinon. Veuillez noter,[**StyleDrapeau**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) objet est passé en paramètre à[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) méthode qui applique réellement la mise en forme à la plage de cellules.
+Parfois, vous souhaitez modifier l'alignement de plusieurs cellules, mais souhaitez également conserver la mise en forme existante. Aspose.Cells vous permet de le faire en utilisant le[**StyleFlag.Alignements**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) la propriété. Si vous le réglez**vrai** , des changements d'alignement auront lieu sinon. Veuillez noter,[**StyleDrapeau**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) objet est passé en paramètre à[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) méthode qui applique réellement la mise en forme à la plage de cellules.
 
 ## **Modifier l'alignement Cells et conserver la mise en forme existante**
 

@@ -20,7 +20,7 @@ Det finns två typer av data att hantera när du arbetar med diagram med Aspose.
 
 ### **Diagramdata**
 
- Diagramdata är den data som vi använder som datakälla för att bygga våra diagram. Vi kan lägga till ett intervall av cellerna (som innehåller diagramdata) genom att anropa[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) objekt[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) metod.
+ Diagramdata är den data som vi använder som datakälla för att bygga våra diagram. Vi kan lägga till ett intervall av cellerna (som innehåller diagramdata) genom att anropa[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) föremål[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 

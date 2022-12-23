@@ -10,12 +10,12 @@ La configuration comprend deux sections et 8 types de propriétés de mise en pa
 - **indice** représente l'index de feuille de calcul du fichier Excel exporté.
 - **FitToPagesTall** représente le nombre de pages de hauteur sur lesquelles la feuille de calcul sera mise à l'échelle lors de son impression.
 - **FitToPagesWide** représente le nombre de pages de largeur sur lesquelles la feuille de calcul sera mise à l'échelle lors de son impression.
-- **Marge de pied de page**représente la distance entre le bas de la page et le pied de page, en centimètres.
+- **Marge de pied de page** représente la distance entre le bas de la page et le pied de page, en centimètres.
 - **Marge d'en-tête** représente la distance entre le haut de la page et l'en-tête, en centimètres.
 - **Marge de gauche** représente la taille de la marge de gauche, en centimètres.
 - **Marge droite** représente la taille de la marge droite, en centimètres.
 - **Marge supérieure** représente la taille de la marge supérieure, en centimètres.
-- **Marge inférieure** représente la taille de la marge inférieure, en centimètres.
+- **Marge inférieure**représente la taille de la marge inférieure, en centimètres.
 
 Exemple de configuration PageSetup :
 

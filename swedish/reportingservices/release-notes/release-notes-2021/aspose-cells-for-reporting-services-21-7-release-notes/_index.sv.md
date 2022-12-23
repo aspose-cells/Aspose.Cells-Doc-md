@@ -12,7 +12,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 21.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSRS-584 | Förbättring av Png/Emf-rendering.| Förbättring|
-|CELLSRS-588 |Förbättring Tiff-rendering.| Förbättring|
+|CELLSRS-584 |Förbättring av Png/Emf-rendering.| Förbättring|
+|CELLSRS-588 | Förbättring Tiff-rendering.| Förbättring|
 
 

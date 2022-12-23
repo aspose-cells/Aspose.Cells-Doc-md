@@ -11,7 +11,7 @@ url: /tr/java/aspose-cells-for-java-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java, 8.1.0 sürümüne güncellendi ve bu sürümün 10 yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
  Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -27,8 +27,8 @@ Geliştirmeler
 Hatalar
 
 (CELLSJAVA-40809) - Bir tabloda bazı renkler sütundan hemen önce gösteriliyor
-(CELLSJAVA-40814) - Elektronik tablo Ubuntu'da dönüştürüldüğünde ortaya çıkan PDF'de resimler eksik
-(CELLSJAVA-40826) - Çıktı HTML'sinde kılavuz çizgileri ve Yazı Tipi ayarları eksik
+(CELLSJAVA-40814) - Elektronik tablo Ubuntu'da dönüştürüldüğünde ortaya çıkan PDF'de görüntüler eksik
+(CELLSJAVA-40826) - HTML çıktısında kılavuz çizgileri ve Yazı tipi ayarları eksik
 (CELLSJAVA-40829) - Çalışma sayfalarının baskı kalitesi ayarlanamıyor
 (CELLSJAVA-40838) - PrintCopies, XLS biçimi için korunur ancak XLSX biçimi için korunmaz
 

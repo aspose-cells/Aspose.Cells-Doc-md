@@ -12,13 +12,13 @@ url: /sv/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-40544|Prestandaflaskhals på Workbook.calculateFormula|Förbättring|
 |CELLSJAVA-41817|Att ställa in ShowAllItems för PivotField verkar inte ha effekt|Insekt|
 |CELLSJAVA-41810|Texten blir överbelastad och överlappar i EMF-bilden|Insekt|
-|CELLSJAVA-41801|Textetiketter överlappar varandra i EMF-bilden|Insekt|
+|CELLSJAVA-41801|Textetiketter överlappar i EMF-bilden|Insekt|
 |CELLSJAVA-41834|Undantag görs vid kopiering av arbetsbok|Insekt|
-|CELLSJAVA-41819|Kalkylark till HTML: Inriktningen av text i en form är fel efter kopiering av tema från källkalkylark|Insekt|
-|CELLSJAVA-41824|Grafen återges inte i utdata-PDF-filen|Insekt|
+|CELLSJAVA-41819|Kalkylark till HTML: Justering av text i en form är fel efter kopiering av tema från källkalkylark|Insekt|
+|CELLSJAVA-41824|Grafen återges inte i utdata PDF|Insekt|
 |CELLSJAVA-41805|X-axeletiketter saknas i diagrammets PDF|Insekt|
 |CELLSJAVA-41767|Felaktigt nummerformat för X-axeletiketter i diagrammets PDF|Insekt|
-|CELLSJAVA-41640|Långa bindestreck visas inte på rätt sätt i utdata-PDF/bilden för diagrammet|Insekt|
+|CELLSJAVA-41640|Långa bindestreck visas inte korrekt i utgången PDF/Bild för diagrammet|Insekt|
 |CELLSJAVA-41604|Horisontella rutnätslinjer i diagrammet visas inte korrekt i PDF|Insekt|
 |CELLSJAVA-41832|Få diagramstaplar saknas när kalkylbladet renderas till bild|Insekt|
 |CELLSJAVA-41837|Lägg till Chart.toPDF(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)|Insekt|
@@ -37,9 +37,9 @@ url: /sv/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41851|Pivotdiagram skapat med Aspose.Cells visas inte i Excel 2016 för MAC|Insekt|
 |CELLSJAVA-41840|Aspose.Cells lägger till null i slutet av sökvägen för resurser HTML|Insekt|
 |CELLSJAVA-41878|LightCells API:er genererar endast händelser för den första kolumnen i raden|Insekt|
-|CELLSJAVA-41859|Cell kanter visas efter att XLS har sparats om|Insekt|
-|CELLSJAVA-41888|Logotypbild försvinner när XLS konverteras till PDF|Insekt|
-|CELLSJAVA-41874|Teckenpositionen skiljer sig i den renderade PDF-filen från en XLS-fil|Insekt|
+|CELLSJAVA-41859|Cell-kanter visas efter att ha sparats om XLS|Insekt|
+|CELLSJAVA-41888|Logotypbild försvinner vid konvertering av XLS till PDF|Insekt|
+|CELLSJAVA-41874|Teckenpositionen skiljer sig i den renderade PDF från en XLS-fil|Insekt|
 |CELLSJAVA-41852|Text överlappar när kalkylbladet konverteras till EMF på Linux|Insekt|
 |CELLSJAVA-41823|Textdensitet och radbrytningar är olika jämfört med Excel-genererade PDF|Insekt|
 |CELLSJAVA-41822|Text beskärs och överlappas medan kalkylarket renderas till PDF|Insekt|
@@ -48,36 +48,36 @@ url: /sv/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41890|Spara arbetsbok två gånger, innehållet som sparas andra gången kommer att skilja sig från första gången|Insekt|
 |CELLSJAVA-41884|Problem med PageBreaks som inte sorteras innan du sparar till Excel-fil|Insekt|
 |CELLSJAVA-41876|Fil korrupt om den öppnas, sparas, öppnas igen och sparas av Aspose.Cells API:er|Insekt|
-|CELLSJAVA-41867|Diagramaxelvärden har ändrats efter att en XLS-fil har sparats på nytt|Insekt|
+|CELLSJAVA-41867|Diagramaxelvärden ändrades efter att en XLS-fil sparats på nytt|Insekt|
 |CELLSJAVA-41861|NullReferenceException när en Excel XLS-fil laddas|Insekt|
 |CELLSJAVA-41298|Får inte korrekt information om WordArt-formformatering från Aspose.Cells API:er|Insekt|
 |CELLSJAVA-40366|Problem med inbäddad ikon - inte utskrift|Insekt|
 |CELLSJAVA-41883|CellsException: Okänd typ av tilläggsfunktion: 9, på Workbook.calculateFormula|Undantag|
 |CELLSJAVA-41858|CellsException: Fel vid beräkning av Cell[0BMW CAN Bus Codes V0.4!R4], på Workbook.calculateFormula|Undantag|
-|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 på Workbook.save medan XLS sparas på nytt|Undantag|
+|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 på Workbook.save medan du sparar om XLS|Undantag|
 |CELLSJAVA-41864|Undantag: java.lang.IllegalStateException: Ogiltig kodning: null vid omspara av en XLS-fil|Undantag|
-|CELLSJAVA-41901|Staplar rör sig uppåt i utdata-PDF-filen|Förbättring|
+|CELLSJAVA-41901|Staplar rör sig uppåt i utgången PDF|Förbättring|
 |CELLSJAVA-41909|Det fungerar inte att ange anpassade decimaler och gruppseparatorer för arbetsbok|Insekt|
 |CELLSJAVA-41895|Resultatet av formelberäkningen skiljer sig från den inbyggda Excel-beräkningen|Insekt|
 |CELLSJAVA-41917|Kryssrutor renderas inte korrekt när du använder metoden SheetRender.toImage().|Insekt|
 |CELLSJAVA-41903|Teckenorienteringen är annorlunda vid rendering till PDF|Insekt|
-|CELLSJAVA-41896|Vissa tecken saknas eller har inte klistrats in direkt i Excel till PDF-konvertering|Insekt|
+|CELLSJAVA-41896|Vissa tecken saknas eller har inte klistrats in rätt i Excel till PDF konvertering|Insekt|
 |CELLSJAVA-41740|Vissa av DataBar-bilderna är tomma|Insekt|
-|CELLSJAVA-41769|Staplarna i diagrammet är inte korrekt justerade med celler i PDF|Insekt|
+|CELLSJAVA-41769|Staplarna i diagrammet är inte korrekt justerade med cellerna i PDF|Insekt|
 |CELLSJAVA-41905|Feljusterade staplar efter rendering av kalkylark till EMF|Insekt|
 |CELLSJAVA-41894|Teckenutrymmesproblem vid rendering av kalkylark till PDF|Buggar|
-|CELLSJAVA-41893|Bakgrundsbilden är förvrängd eller suddig i den utgående PDF-filen|Insekt|
-|CELLSJAVA-41892|Bakgrundsbilden är utdragen i utdata-PDF|Insekt|
+|CELLSJAVA-41893|Bakgrundsbilden är förvrängd eller suddig i utdata PDF|Insekt|
+|CELLSJAVA-41892|Bakgrundsbilden sträcks ut i utgång PDF|Insekt|
 |CELLSJAVA-41916|Trasiga externa formelreferenser när du använder Cells.copyColumns|Insekt|
 |CELLSJAVA-41915|Skadad XLSX-fil efter textersättning|Insekt|
 |CELLSJAVA-41912|Problem med removeFormula på ett kalkylblad som hänvisar till Named Ranges|Insekt|
-|CELLSJAVA-41899|Kan inte upptäcka XLSX-laddningsformat med FileFormatUtil.detectFileFormat|Insekt|
+|CELLSJAVA-41899|Kan inte detektera XLSX laddningsformat med FileFormatUtil.detectFileFormat|Insekt|
 |CELLSJAVA-41328|Förlust av textblock i frenchCommonWords.xlsx|Insekt|
 |CELLSJAVA-40307|Textspillkontroll|Insekt|
 |CELLSJAVA-41919|CellsException: 2"="Stra?e zu breit",", vid Workbook ctor|Undantag|
 |CELLSJAVA-41914|java.lang.ArrayIndexOutOfBoundsException: 4 när teckensnittet för cellen hämtas|Undantag|
 |CELLSJAVA-41920|StringIndexOutOfBoundsException: Strängindex utanför intervallet: 7, vid export av diagram till bild|Undantag|
-|CELLSJAVA-41913|Undantag: "IllegalArgumentException: length" vid laddning av en Excel-fil (XLS).|Undantag|
+|CELLSJAVA-41913|Undantag: "IllegalArgumentException: length" vid inläsning av en Excel-fil (XLS)|Undantag|
 |CELLSJAVA-41911|Undantag: "Fel i Cell: ... -Ogiltig formel" när en Excel-fil laddas via Aspose.Cells API:er|Undantag|
 |CELLSJAVA-41906|Arbetsbokskonstruktorn kastar undantag: "java.lang.NumberFormatException: tom sträng"|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -115,7 +115,7 @@ Får och ställer tabellens kommentar.
 ### **Lägger till metoden ShapeCollection.AddActiveXControl().**
 Lägger till ActiveX-kontroll.
 ### **Lägger till egenskapen HTMLLoadOptions.DefaultFontName**
-Anger standardteckensnittsnamnet för export av HTML, standardteckensnittet kommer att användas när stilteckensnittet inte finns. Om den här egenskapen är null kommer Aspose.Cells att använda universellt teckensnitt som har samma familj som det ursprungliga teckensnittet, standardvärdet är null.
+Anger standardteckensnittsnamnet för export av HTML, standardteckensnittet kommer att användas när stiltypsnittet inte finns. Om den här egenskapen är null kommer Aspose.Cells att använda universellt teckensnitt som har samma familj som det ursprungliga teckensnittet, standardvärdet är null.
 ### **Lägger till egenskapen PivotTable.IsExcel2003Compatible**
 Anger om pivottabellen är kompatibel med Excel2003 vid uppdatering av pivottabell. Om sant måste en sträng vara mindre än eller lika med 255 tecken, så om strängen är större än 255 tecken,
 den kommer att trunkeras. Om falskt, kommer en sträng inte att ha den ovannämnda begränsningen. Standardvärdet är sant.

@@ -25,7 +25,7 @@ Möglicherweise müssen Sie die Abhängigkeit einer bestimmten Zelle von anderen
 
 Microsoft Excel ermöglicht es Benutzern, Präzedenzfälle und Abhängige zu verfolgen.
 
-1.  Auf der**Symbolleiste anzeigen** , auswählen**Formel Auditing**. Das Dialogfeld "Formelüberwachung" wird angezeigt.
+1.  Auf der**Symbolleiste anzeigen** , wählen**Formel Auditing**. Das Dialogfeld "Formelüberwachung" wird angezeigt.
 1. Präzedenzfälle verfolgen:
 1. Wählen Sie die Zelle aus, die die Formel enthält, für die Sie vorangegangene Zellen suchen möchten.
  1. Um einen Verfolgungspfeil zu jeder Zelle anzuzeigen, die direkt Daten für die aktive Zelle bereitstellt, klicken Sie auf**Präzedenzfälle verfolgen** auf der**Formel Auditing** Symbolleiste.

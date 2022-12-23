@@ -1,12 +1,12 @@
 ﻿---
-title: تحميل أو استيراد ملف CSV مع الصيغ
+title: قم بتحميل أو استيراد ملف CSV باستخدام الصيغ
 type: docs
 weight: 350
 url: /ar/net/load-or-import-csv-file-with-formulas/
 ---
 {{% alert color="primary" %}} 
 
- يحتوي ملف CSV في الغالب على بيانات نصية ولا يحتوي على أي صيغ. ومع ذلك ، يحدث أحيانًا أن تحتوي ملفات CSV أيضًا على صيغ. يجب تحميل ملفات CSV هذه عن طريق تعيين الامتداد[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) كما**حقيقي** . بمجرد تعيين هذه الخاصية**حقيقي**، Aspose.Cells لن يتعامل مع الصيغة كنص بسيط. سيتم التعامل معها كصيغة وسيقوم محرك حساب الصيغة Aspose.Cells بمعالجتها كالمعتاد.
+ يحتوي ملف CSV في الغالب على بيانات نصية ولا يحتوي على أي صيغ. ومع ذلك ، يحدث أحيانًا أن تحتوي ملفات CSV أيضًا على صيغ. يجب تحميل هذه الملفات CSV عن طريق تحديد الامتداد[TxtLoadOptions.HasFormula](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/hasformula) مثل**حقيقي** . بمجرد تعيين هذه الخاصية**حقيقي**، Aspose.Cells لن يتعامل مع الصيغة كنص بسيط. سيتم التعامل معها كصيغة وسيقوم محرك حساب الصيغة Aspose.Cells بمعالجتها كالمعتاد.
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ url: /ar/net/load-or-import-csv-file-with-formulas/
 
 
 
- يقوم الرمز أولاً بتحميل ملف CSV ، ثم استيراده مرة أخرى في الخلية D4. أخيرًا ، يحفظ كائن المصنف بتنسيق XSLX. ال[إخراج ملف XLSX](5115052.xlsx) يشبه هذا. كما ترى ، تحتوي الخلية C3 و F4 على صيغة ونتائجها 800.
+يقوم الرمز أولاً بتحميل الملف CSV ، ثم استيراده مرة أخرى في الخلية D4. أخيرًا ، يحفظ كائن المصنف بتنسيق XSLX. ال[ملف الإخراج XLSX](5115052.xlsx) يشبه هذا. كما ترى ، تحتوي الخلية C3 و F4 على صيغة ونتائجها 800.
 
 |![ما يجب القيام به: image_بديل_نص](load-or-import-csv-file-with-formulas_1.png)|
 |:- |

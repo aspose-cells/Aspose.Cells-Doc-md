@@ -14,17 +14,17 @@ Bazen, istenen aralığın dışındaki tüm hücre değerlerini yok sayarak bir
 
 Aspose.Cells şunları sağlar:[**FindOptions.setRange()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#setRange(com.aspose.cells.CellArea)) veri ararken bir aralık belirtmek için yöntem.
 
- Dizeyi aramak istediğinizi varsayalım**"arama"** ve onunla değiştir**"yer değiştirmek"** aralıkta**E3:H6**. Aşağıdaki ekran görüntüsünde, "arama" dizesi birkaç hücrede görülebilir, ancak biz onu yalnızca belirli bir aralıkta değiştirmek istiyoruz, burada sarı renkle vurgulanmıştır.
+ Dizeyi aramak istediğinizi varsayalım**"Ara"** ve onunla değiştir**"yer değiştirmek"** aralıkta**E3:H6**. Aşağıdaki ekran görüntüsünde, "arama" dizesi birkaç hücrede görülebilir, ancak biz onu yalnızca belirli bir aralıkta değiştirmek istiyoruz, burada sarı renkle vurgulanmıştır.
 
 **Giriş dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](search-and-replace-data-in-a-range_1.png)
+![yapılacaklar:resim_alternatif_metin](search-and-replace-data-in-a-range_1.png)
 
 Kodun çalıştırılmasından sonra çıktı dosyası aşağıdaki gibi görünür. Aralık içindeki tüm "arama" dizeleri "değiştir" ile değiştirilmiştir.
 
 **Çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](search-and-replace-data-in-a-range_2.png)
+![yapılacaklar:resim_alternatif_metin](search-and-replace-data-in-a-range_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchReplaceDataInRange-SearchReplaceDataInRange.java" >}}
 

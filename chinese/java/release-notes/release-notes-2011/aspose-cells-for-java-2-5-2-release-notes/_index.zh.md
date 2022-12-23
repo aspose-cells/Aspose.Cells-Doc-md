@@ -18,13 +18,13 @@ url: /zh/java/aspose-cells-for-java-2-5-2-release-notes/
 将 LineShape 添加到 Excel 2007 XLSX 文件。
 支持设置Chart数据源时设置Series名称。
 支持获取/设置网格线对 ODS 文件中不同工作表的可见性。
-改进了从 XLSX 文件读取形状的功能。
-增强了图表到图像、工作表到图像和 Excel 到 PDF 的功能。
+从 XLSX 文件中读取形状进行了增强。
+ Chart-to-Image、Sheet-to-Image 和 Excel-to-PDF 功能得到增强。
 对解析公式进行了增强。
 对复制 Cells 进行了增强。
- 31 个修复和改进。
+31 个修复和改进。
 
-Aspose.Cells for Java 2.5.2 中已解决的问题。
+ Aspose.Cells for Java 2.5.2 中已解决的问题。
 
 
 

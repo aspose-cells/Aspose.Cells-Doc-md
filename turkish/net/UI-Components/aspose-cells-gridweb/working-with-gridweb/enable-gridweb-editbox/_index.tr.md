@@ -34,8 +34,8 @@ GridWeb denetimi, geliştiricilerin araç çubuğunu açmak için bunu "True" ol
 
 **Edit Box ile GridWeb kontrolü** 
 
-![yapılacaklar:resim_alternatif_Metin](enable-gridweb-editbox_1.png)
-### **Örnek**
+![yapılacaklar:resim_alternatif_metin](enable-gridweb-editbox_1.png)
+### **Örnek vermek**
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-DisplayCellEditBox.aspx-DisplayCellEditBox.cs" >}}

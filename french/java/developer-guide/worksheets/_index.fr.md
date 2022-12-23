@@ -1,6 +1,6 @@
 ﻿---
-title: Gérer les feuilles de calcul
-linktitle: Des feuilles de calcul
+title: Gérer les feuilles de travail
+linktitle: Feuilles de travail
 type: docs
 weight: 60
 url: /fr/java/manage-worksheets/
@@ -21,17 +21,17 @@ La gestion des feuilles de calcul à l'aide de Aspose.Cells est aussi simple qu'
 
  Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel.[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Voyons comment utiliser cet ensemble d'API de base.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Voyons comment utiliser cet ensemble d'API de base.
 
 ## **Ajout de feuilles de calcul à un nouveau fichier Excel**
 
- Pour créer un nouveau fichier Excel par programmation, les développeurs doivent créer un objet de[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe qui représente un fichier Excel. Ensuite, les développeurs peuvent appeler[**ajouter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ) méthode de la[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Quand nous appelons[**ajouter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ), une feuille de calcul vide est automatiquement ajoutée au fichier Excel, qui peut être référencée en transmettant l'index de feuille de la feuille de calcul nouvellement ajoutée à la[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Une fois la référence de la feuille de calcul obtenue, les développeurs peuvent travailler sur leurs feuilles de calcul en fonction de leurs besoins. Une fois le travail terminé sur les feuilles de calcul, les développeurs peuvent enregistrer leur fichier Excel nouvellement créé avec de nouvelles feuilles de calcul en appelant le[**enregistrer**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) méthode de la[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classer.
+ Pour créer un nouveau fichier Excel par programmation, les développeurs doivent créer un objet de[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe qui représente un fichier Excel. Ensuite, les développeurs peuvent appeler[**ajouter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ) méthode de la[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Quand nous appelons[**ajouter**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() ), une feuille de calcul vide est automatiquement ajoutée au fichier Excel, qui peut être référencée en transmettant l'index de feuille de la feuille de calcul nouvellement ajoutée à la[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) . Une fois la référence de la feuille de calcul obtenue, les développeurs peuvent travailler sur leurs feuilles de calcul en fonction de leurs besoins. Une fois le travail terminé sur les feuilles de calcul, les développeurs peuvent enregistrer leur fichier Excel nouvellement créé avec de nouvelles feuilles de calcul en appelant le[**sauvegarder**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) méthode de la[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
 ## **Ajout de feuilles de calcul à une feuille de calcul Designer**
 
-Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est entièrement identique à celui de l'approche ci-dessus, sauf que le fichier Excel est déjà créé et que nous devons d'abord ouvrir ce fichier Excel avant d'y ajouter une feuille de calcul. Une feuille de calcul de concepteur peut être ouverte en transmettant le chemin d'accès au fichier ou le flux lors de l'initialisation du[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classer.
+Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est entièrement identique à celui de l'approche ci-dessus, sauf que le fichier Excel est déjà créé et que nous devons d'abord ouvrir ce fichier Excel avant d'y ajouter une feuille de calcul. Une feuille de calcul de concepteur peut être ouverte en transmettant le chemin d'accès au fichier ou le flux lors de l'initialisation du[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoDesignerSpreadsheet-AddingWorksheetstoDesignerSpreadsheet.java" >}}
 
@@ -69,5 +69,5 @@ L'approche ci-dessus de suppression des feuilles de calcul fonctionne bien si le
 - [Fonctionnalités de mise en page](/cells/fr/java/page-setup-features/)
 - [Mettre à jour les références dans d'autres feuilles de calcul tout en supprimant des colonnes et des lignes vides dans une feuille de calcul](/cells/fr/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
 - [Utiliser la propriété Sheet.SheetId d'OpenXml en utilisant Aspose.Cells](/cells/fr/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [Utilisation de l'arrière-plan dans les fichiers ODS](/cells/fr/java/working-with-background-in-ods-files/)
+- [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/java/working-with-background-in-ods-files/)
 - [Vues de feuille de calcul](/cells/fr/java/worksheet-views/)

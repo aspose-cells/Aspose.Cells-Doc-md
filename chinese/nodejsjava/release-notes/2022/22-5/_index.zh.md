@@ -23,7 +23,7 @@ url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-22-5-release-notes/
 |CELLSJAVA-44530|调查setactivecell有时不起作用的问题|
 |CELLSJAVA-44534|打印区域中的图形未在 Excel 中导出为 HTML 转换|
 |CELLSJAVA-44539|在使用打印区域转换为 html 时图表向右移动|
-|CELLSJAVA-44568|除 HTML 到 XLS 转换中的第一行外，多行字幕丢失|
+|CELLSJAVA-44568|HTML 到 XLS 转换中除第一行外多行字幕丢失|
 |CELLSJAVA-44512|将图表导出到 html 中的 svg 时图表丢失|
 |CELLSJAVA-44556|坐标轴设置为对数刻度后数据表中数据显示的问题-Excel转HTML/PDF|
 

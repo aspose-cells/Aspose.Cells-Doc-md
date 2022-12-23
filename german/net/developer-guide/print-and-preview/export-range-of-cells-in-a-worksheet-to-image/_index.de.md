@@ -10,7 +10,7 @@ Sie können mit Aspose.Cells ein Bild eines Arbeitsblatts erstellen. Manchmal m�
 
 ## **Exportieren Sie den Bereich von Cells in einem Arbeitsblatt in ein Bild**
 
- Um ein Bild eines Bereichs aufzunehmen, stellen Sie den Druckbereich auf den gewünschten Bereich und dann alle Ränder auf 0 ein. Auch einstellen[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) zu**Stimmt** . Der folgende Code nimmt ein Bild des Bereichs D8:G16 auf. Unten ist ein Screenshot der[Beispiel-Excel-Datei](47153160.xlsx) im Code verwendet. Sie können den Code mit jeder Excel-Datei ausprobieren.
+ Um ein Bild eines Bereichs aufzunehmen, stellen Sie den Druckbereich auf den gewünschten Bereich und dann alle Ränder auf 0 ein. Auch einstellen[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet) zu**wahr** . Der folgende Code nimmt ein Bild des Bereichs D8:G16 auf. Unten ist ein Screenshot der[Beispiel-Excel-Datei](47153160.xlsx) im Code verwendet. Sie können den Code mit jeder Excel-Datei ausprobieren.
 
 ## **Screenshot der Beispiel-Excel-Datei und ihres exportierten Bildes**
 

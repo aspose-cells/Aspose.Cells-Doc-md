@@ -40,19 +40,19 @@ url: /ar/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) - تم تحديد خيار Merge & Center حتى لو كان يحتوي على خلية واحدة
 
- (CELLSJAVA-41429) - تم تغيير إعدادات توافق Lotus لإدخال الصيغة الانتقالية بعد إعادة حفظ جدول البيانات
+(CELLSJAVA-41429) - تم تغيير إعدادات توافق Lotus لإدخال الصيغة الانتقالية بعد إعادة حفظ جدول البيانات
 
- (CELLSJAVA-41427) - عدد كبير جدًا من عمليات التحقق Cells تفسد ملف XLS
+ (CELLSJAVA-41427) - عدد كبير جدًا من التحقق من الصحة Cells يفسد الملف XLS
 
-(CELLSJAVA-41424) - استخدام الوظيفة المخصصة عبر واجهة ICustomFunction لا يحسب القيمة الصحيحة
+ (CELLSJAVA-41424) - استخدام الوظيفة المخصصة عبر واجهة ICustomFunction لا يحسب القيمة الصحيحة
 
- (CELLSJAVA-41423) - تخطيط خاطئ عند عرض PDF من ملف ODS
+ (CELLSJAVA-41423) - تخطيط خاطئ عند تقديم PDF من ملف ODS
 
  (CELLSJAVA-41422) - Cells.copyRows مع التنسيق الشرطي في الخلايا يتسبب في زيادة حجم الملف ومشكلة في الأداء
 
  (CELLSJAVA-41419) - OutOfMemoryError ، Aspose.Cells يحتفظ بملايين الخلايا إلى الأبد
 
- (CELLSJAVA-41395) - تحويل ODS إلى HTML - مشكلات نمط النص
+ (CELLSJAVA-41395) - ODS إلى HTML التحويل - مشكلات نمط النص
 
  (CELLSJAVA-41426) - مخطط Cell مع المحور السيني غير المقياس بشكل صحيح عند التحويل إلى pdf
 
@@ -74,7 +74,7 @@ url: /ar/java/aspose-cells-for-java-8-5-2-release-notes/
 
  يضيف خاصية SaveOptions.MergeAreas.
 
- يتم استخدامه لدمج CellAreas الفردية من التنسيق الشرطي والتحقق من الصحة.
+يتم استخدامه لدمج CellAreas الفردية من التنسيق الشرطي والتحقق من الصحة.
 
 
 
@@ -84,7 +84,7 @@ url: /ar/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-يضيف طريقة SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
+ يضيف طريقة SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
 
  تقديم صفحة معينة من SheetRender إلى رسومات.
 

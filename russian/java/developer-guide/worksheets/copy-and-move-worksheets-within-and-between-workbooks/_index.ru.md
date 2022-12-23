@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Скопируйте рабочий лист в рабочую книгу:
- Ниже приведен код, используемый для выполнения задачи. Он копирует копию рабочего листа в FirstWorkbook.xls.
+Ниже приведен код, используемый для выполнения задачи. Он копирует копию рабочего листа в FirstWorkbook.xls.
 
 Выполнение кода перемещает рабочий лист с именем Copy в файле FirstWorkbook.xls с новым именем Last Sheet.
 
@@ -111,7 +111,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
-## **Вывод**
+## **Заключение**
 
 {{% alert color="primary" %}}
 

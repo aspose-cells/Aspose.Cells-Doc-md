@@ -8,7 +8,7 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 ---
 {{% alert color="primary" %}}
 
- Usando Aspose.Cells puede abrir archivos con diferentes formatos.**Aspose.Cells** puede abrir una variedad de formatos de archivo, como hojas de cálculo de Excel Microsoft (XLS, XLSX, XLSM, XLSB), SpreadsheetML, valores separados por comas (CSV), archivos delimitados por tabulaciones o valores separados por tabulaciones (TSV), etc.
+ Usando Aspose.Cells puede abrir archivos con diferentes formatos.**Aspose.Cells** puede abrir una variedad de formatos de archivo como Microsoft hojas de cálculo de Excel (XLS, XLSX, XLSM, XLSB), SpreadsheetML, archivos de valores separados por comas (CSV), archivos delimitados por tabuladores o valores separados por tabuladores (TSV), etc.
 
 Si necesita conocer todos los formatos de archivo admitidos, consulte las siguientes páginas:
 [Formatos de archivo admitidos](https://docs.aspose.com/cells/net/supported-file-formats/)
@@ -17,35 +17,35 @@ Si necesita conocer todos los formatos de archivo admitidos, consulte las siguie
 
 ## **Apertura de archivos con diferentes formatos**
 
-Aspose.Cells permite a los desarrolladores abrir archivos de hojas de cálculo con diferentes formatos, como SpreadsheetML, valores separados por comas (CSV), valores delimitados por tabuladores o separados por tabuladores (TSV), archivos ODS. Para abrir dichos archivos, los desarrolladores pueden usar la misma metodología que usan para abrir archivos de diferentes versiones de Excel Microsoft.
+Aspose.Cells permite a los desarrolladores abrir archivos de hoja de cálculo con diferentes formatos, como SpreadsheetML, valores separados por comas (CSV), valores delimitados por tabulaciones o separados por tabulaciones (TSV), archivos ODS. Para abrir dichos archivos, los desarrolladores pueden usar la misma metodología que usan para abrir archivos de diferentes versiones de Excel Microsoft.
 
-### **Apertura de archivos de hoja de cálculo ML**
+### **Apertura de archivos SpreadsheetML**
 
-Los archivos SpreadsheetML son representaciones XML de hojas de cálculo que incluyen toda la información al respecto, como formato, fórmulas, etc. Desde Microsoft Excel XP, se agregó una opción de exportación XML a Microsoft Excel que exporta sus hojas de cálculo a archivos SpreadsheetML.
+Los archivos SpreadsheetML son representaciones XML de hojas de cálculo que incluyen toda la información al respecto, como formato, fórmulas, etc. Desde Microsoft Excel XP, se agrega una opción de exportación XML a Microsoft Excel que exporta sus hojas de cálculo a archivos SpreadsheetML.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningSpreadsheetMLFiles-1.cs" >}}
 
-### **Abrir archivos HTML**
+### **Apertura de archivos HTML**
 
-Aspose.Cells le permite abrir un archivo HTML en el objeto Libro de trabajo. El archivo HTML debe ser Microsoft orientado a Excel, es decir, MS-Excel debería poder abrirlo.
+Aspose.Cells le permite abrir el archivo HTML en el objeto Libro de trabajo. El archivo HTML debería estar orientado a Excel, es decir, MS-Excel debería poder abrirlo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningHTMLFile-1.cs" >}}
 
-### **Abrir archivos CSV**
+### **Apertura de archivos CSV**
 
-Los archivos de valores separados por comas (CSV) contienen registros en los que los valores están separados por comas. Los datos se almacenan como una tabla donde cada columna está separada por el carácter de coma y citada por el carácter de comillas dobles. Si un valor de campo contiene un carácter de comillas dobles, se escapa con un par de caracteres de comillas dobles. También puede usar Microsoft Excel para exportar datos de hojas de cálculo a CSV.
+Los archivos de valores separados por comas (CSV) contienen registros donde los valores están separados por comas. Los datos se almacenan como una tabla donde cada columna está separada por el carácter de coma y citada por el carácter de comillas dobles. Si un valor de campo contiene un carácter de comillas dobles, se escapa con un par de caracteres de comillas dobles. También puede usar Microsoft Excel para exportar datos de hojas de cálculo a CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
 #### **Abrir archivos CSV y reemplazar caracteres no válidos**
 
-En Excel, cuando se abre un archivo CSV con caracteres especiales, los caracteres se reemplazan automáticamente. Lo mismo hace Aspose.Cells API, que se demuestra en el ejemplo de código que se proporciona a continuación.
+En Excel, cuando se abre el archivo CSV con caracteres especiales, los caracteres se reemplazan automáticamente. Lo mismo hace Aspose.Cells API, que se demuestra en el ejemplo de código que se proporciona a continuación.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
 #### **Usando el analizador preferido**
 
-Esto no siempre es necesario para usar la configuración predeterminada del analizador para abrir los archivos CSV. A veces, la importación de un archivo CSV no crea el resultado esperado, como que el formato de fecha no es el esperado o los campos vacíos se manejan de manera diferente. Para este propósito**TxtLoadOptions.PreferredParsers**está disponible para proporcionar su propio analizador preferido para analizar diferentes tipos de datos según el requisito. El siguiente código de ejemplo demuestra el uso del analizador preferido.
+Esto no siempre es necesario para usar la configuración predeterminada del analizador para abrir los archivos CSV. A veces, la importación del archivo CSV no crea el resultado esperado, como que el formato de fecha no es el esperado o los campos vacíos se manejan de manera diferente. Para este propósito**TxtLoadOptions.PreferredParsers**está disponible para proporcionar su propio analizador preferido para analizar diferentes tipos de datos según el requisito. El siguiente código de ejemplo demuestra el uso del analizador preferido.
 
 El archivo fuente de muestra y los archivos de salida se pueden descargar desde los siguientes enlaces para probar esta función.
 
@@ -67,7 +67,7 @@ El archivo delimitado por tabuladores (texto) contiene datos de hoja de cálculo
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningTabDelimitedFiles-1.cs" >}}
 
-### **Apertura de archivos de valores separados por tabuladores (TSV)**
+### **Abrir archivos de valores separados por tabuladores (TSV)**
 
 El archivo de valores separados por tabuladores (TSV) contiene datos de hoja de cálculo pero sin ningún formato. Es lo mismo con el archivo delimitado por tabuladores donde los datos se organizan en filas y columnas como en tablas y hojas de cálculo.
 

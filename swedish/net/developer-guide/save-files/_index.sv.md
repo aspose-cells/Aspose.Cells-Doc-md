@@ -23,40 +23,40 @@ Aspose.Cells gör det möjligt att skapa och spara filer. Den här artikeln för
 |Excel97To2003|Representerar en Excel 97 - 2003-fil|
 |Xlsx|Representerar en Excel 2007 XLSX-fil|
 |Xlsm|Representerar en Excel 2007 XLSM-fil|
-|Xltx|Representerar en Excel 2007 mall XLTX-fil|
+|Xltx|Representerar en Excel 2007-mall XLTX-fil|
 |Xltm|Representerar en Excel 2007 makroaktiverad XLTM-fil|
 |Xlsb|Representerar en Excel 2007 binär XLSB-fil|
 |SpreadsheetML|Representerar en XML-fil för kalkylblad|
 |TSV|Representerar en tabbseparerad värdefil|
 |TabDelimited|Representerar en tabbavgränsad textfil|
 |ODS|Representerar en ODS-fil|
-|Html|Representerar HTML-fil(er)|
-|MHtml|Representerar en MHTML-fil(er)|
+|Html|Representerar HTML fil(er)|
+|MHtml|Representerar en MHTML fil(er)|
 |Pdf|Representerar en PDF-fil|
 |XPS|Representerar ett XPS-dokument|
-|TIFF|Representerar Tagged Image File Format (TIFF)|
+|TIFF|Representerar taggat bildfilformat (TIFF)|
 
 ## **Spara fil i olika format**
 
- För att spara filer till en lagringsplats, ange filnamnet (komplett med lagringssökväg) och önskat filformat (från**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**uppräkning) när du anropar**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objekt**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
+För att spara filer till en lagringsplats, ange filnamnet (komplett med lagringssökväg) och önskat filformat (från**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** uppräkning) när du anropar**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** föremål**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
 ## **Spara arbetsbok som pdf**
-Portable Document Format (PDF) är en typ av dokument som skapades av Adobe redan på 1990-talet. Syftet med detta filformat var att införa en standard för representation av dokument och annat referensmaterial i ett format som är oberoende av applikationsprogramvara, hårdvara samt operativsystem. PDF-filformatet har full förmåga att innehålla information som text, bilder, hyperlänkar, formulärfält, rich media, digitala signaturer, bilagor, metadata, geospatiala funktioner och 3D-objekt i det som kan bli en del av källdokumentet.
+Portable Document Format (PDF) är en typ av dokument som skapades av Adobe redan på 1990-talet. Syftet med detta filformat var att införa en standard för representation av dokument och annat referensmaterial i ett format som är oberoende av applikationsprogramvara, hårdvara samt operativsystem. Filformatet PDF har full förmåga att innehålla information som text, bilder, hyperlänkar, formulärfält, rich media, digitala signaturer, bilagor, metadata, geospatiala funktioner och 3D-objekt i det som kan bli en del av källdokumentet.
 
 Följande koder visar hur man sparar arbetsbok som pdf-fil med Aspose.Cells:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
 
-## **Spara arbetsbok i text- eller CSV-format**
+## **Spara arbetsbok till text- eller CSV-format**
 
-Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.), sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
+Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till textformat. För textformat (till exempel TXT, TabDelim, CSV, etc.) sparar både Microsoft Excel och Aspose.Cells endast innehållet i det aktiva kalkylbladet som standard.
 
 Följande kodexempel förklarar hur man sparar en hel arbetsbok i textformat. Ladda källarbetsboken som kan vara valfri Microsoft Excel- eller OpenOffice-kalkylarksfil (såsom XLS, XLSX, XLSM, XLSB, ODS och så vidare) med valfritt antal kalkylblad.
 
-När koden exekveras konverterar den data från alla ark i arbetsboken till TXT-format.
+När koden exekveras konverterar den data från alla ark i arbetsboken till formatet TXT.
 
- Du kan ändra samma exempel för att spara din fil i CSV. Som standard,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**är komma, så ange inte en avgränsare om du sparar i CSV-format.
+Du kan ändra samma exempel för att spara din fil till CSV. Som standard,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**är komma, så ange inte en avgränsare om du sparar i formatet CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -68,12 +68,12 @@ Textfiler innehåller kalkylbladsdata utan formatering. Filen är en sorts vanli
 
 ## **Spara fil till en ström**
 
- För att spara filer i en stream, skapa en*MemoryStream* eller*FileStream* objekt och spara filen till det strömobjektet genom att anropa**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objekt**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. Ange önskat filformat med hjälp av**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** uppräkning när du ringer till**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
+ För att spara filer i en stream, skapa en*MemoryStream* eller*FileStream* objekt och spara filen till det strömobjektet genom att anropa**[Arbetsbok](https://reference.aspose.com/cells/net/aspose.cells/workbook)** föremål**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** metod. Ange önskat filformat med hjälp av**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** uppräkning när du ringer till**[Spara](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**metod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
 ## **Spara filer som HTML- och Mht-filer**
-Aspose.Cells kan helt enkelt spara en Excel-fil, JSON, CSV eller andra filer som kan laddas av Aspose.Cells som .html- och .mht-filer.
+Aspose.Cells kan helt enkelt spara en Excel-fil ,JSON, CSV eller andra filer som kan laddas av Aspose.Cells som .html- och .mht-filer.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
  
 

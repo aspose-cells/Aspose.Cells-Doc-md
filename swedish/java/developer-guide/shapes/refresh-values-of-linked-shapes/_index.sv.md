@@ -6,7 +6,7 @@ url: /sv/java/refresh-values-of-linked-shapes/
 ---
 {{% alert color="primary" %}}
 
-Ibland har du en länkad form i din Excel-fil som är länkad till någon cell. I Microsoft Excel ändras värdet på den länkade cellen också värdet på den länkade formen. Detta fungerar också bra med Aspose.Cells om du vill spara din arbetsbok i XLS- eller XLSX-format. Men om du vill spara din arbetsbok i PDF- eller HTML-format måste du ringa[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) metod för att uppdatera värdet på den länkade formen.
+Ibland har du en länkad form i din Excel-fil som är länkad till någon cell. I Microsoft Excel ändras värdet på den länkade cellen också värdet på den länkade formen. Detta fungerar också bra med Aspose.Cells om du vill spara din arbetsbok i formatet XLS eller XLSX. Men om du vill spara din arbetsbok i formatet PDF eller HTML måste du ringa[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) metod för att uppdatera värdet på den länkade formen.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Ibland har du en länkad form i din Excel-fil som är länkad till någon cell. 
 
 ![todo:image_alt_text](refresh-values-of-linked-shapes_1.png)
 
-Du kan ladda ner[käll Excel-fil](5472956.xlsx) och den[mata ut PDF](5472955.pdf) från de angivna länkarna.
+Du kan ladda ner[käll Excel-fil](5472956.xlsx) och den[utgång PDF](5472955.pdf) från de angivna länkarna.
 
 ### Java kod för att uppdatera värdena för länkade former
 

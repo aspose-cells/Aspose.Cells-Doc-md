@@ -36,7 +36,7 @@ System.out.println(properties.getVersion());
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取图表的工作表](/cells/zh/java/get-worksheet-of-the-chart/)了解更多信息。
+请查看详细文章[获取图表的工作表](/cells/zh/java/get-worksheet-of-the-chart/)想要查询更多的信息。
 
 {{% /alert %}} 
 

@@ -6,7 +6,7 @@ url: /ar/java/get-warnings-while-loading-excel-file/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-يحاول المستخدم أحيانًا تحميل المصنف التالف إلى حد ما ولكنه قابل للتحميل. في مثل هذه الحالة ، يقوم Aspose.Cells بإصدار تحذيرات أثناء تحميل المصنف. يمكنك التقاط هذه التحذيرات من خلال تنفيذ**[IWarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** الواجهة والإعداد**[LoadOptions.WarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**منشأه.
+يحاول المستخدم أحيانًا تحميل المصنف التالف إلى حد ما ولكنه قابل للتحميل. في مثل هذه الحالة ، يقوم Aspose.Cells بإصدار تحذيرات أثناء تحميل المصنف. يمكنك التقاط هذه التحذيرات من خلال تنفيذ**[IWarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** الواجهة والإعداد**[LoadOptions.WarningCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**خاصية.
 
 ## **احصل على تحذيرات أثناء تحميل ملف Excel**
 

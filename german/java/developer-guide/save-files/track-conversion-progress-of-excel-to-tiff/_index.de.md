@@ -1,5 +1,5 @@
 ﻿---
-title: Verfolgen Sie den Konvertierungsfortschritt von Excel in TIFF
+title: Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF
 type: docs
 weight: 140
 url: /de/java/track-conversion-progress-of-excel-to-tiff/
@@ -8,9 +8,9 @@ url: /de/java/track-conversion-progress-of-excel-to-tiff/
 
 Manchmal kann das Konvertieren großer Excel-Dateien einige Zeit dauern. Während dieser Zeit möchten Sie möglicherweise den Fortschritt der Dokumentkonvertierung statt nur eines Ladebildschirms anzeigen, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentenkonvertierungsprozesses durch Bereitstellung der**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle. Das**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle bietet**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**und**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** Methoden, die Sie in Ihrer benutzerdefinierten Klasse implementieren können. Sie können auch steuern, welche Seiten gerendert werden, wie in gezeigt*TestTiffPageSavingCallback*benutzerdefinierte Klasse.
 
-## **Verfolgen Sie den Konvertierungsfortschritt von Excel in TIFF**
+## **Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF**
 
-Das folgende Codebeispiel lädt die[Excel-Quelldatei](sampleUseWorkbookRenderForImageConversion.xlsx)und druckt seinen Konvertierungsfortschritt in der Konsole mithilfe von*TestTiffPageSavingCallback*benutzerdefinierte Klasse, die die implementiert**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle. Die generierte Ausgabedatei ist als Referenz beigefügt.
+Das folgende Codebeispiel lädt die[Excel-Quelldatei](sampleUseWorkbookRenderForImageConversion.xlsx) und druckt seinen Konvertierungsfortschritt in der Konsole mithilfe von*TestTiffPageSavingCallback*benutzerdefinierte Klasse, die die implementiert**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**Schnittstelle. Die generierte Ausgabedatei ist als Referenz beigefügt.
 
 [Ausgabedatei](DocumentConversionProgressForTiff_out.tiff)
 

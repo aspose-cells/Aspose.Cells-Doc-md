@@ -5,7 +5,7 @@ weight: 20
 url: /fr/java/working-with-colors-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Travailler avec les couleurs**
-Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classer. La classe Worksheet fournit une Cellscollection. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classer.
+Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook), qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fournit une Cellscollection. Chaque pièce de la collection Cells représente un objet de la[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
 Aspose.Cells fournit la méthode setStyle dans la classe Cell qui est utilisée pour définir la mise en forme d'une cellule. En outre, l'objet Style de la classe Style peut être utilisé pour configurer les paramètres de police.
 

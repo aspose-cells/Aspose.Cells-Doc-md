@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-6-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43880) - 将宏分配给表单控件
@@ -42,7 +42,7 @@ url: /zh/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **虫子**
 
 
-(CELLSNET-43884) - 在将某些电子表格转换为 HTML 时，Wingdings 符号无法正确呈现
+(CELLSNET-43884) - Wingdings 符号在将某些电子表格转换为 HTML 时无法正确呈现
 
 (CELLSNET-43877) - Excel 总是在添加数据透视表后修复生成的电子表格
 
@@ -54,17 +54,17 @@ url: /zh/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-43842) - Aspose.Cells 行插入错误
 
-(CELLSNET-43879) - 字符重叠并在 Excel 中转换为 ######## 到 PDF 呈现
+(CELLSNET-43879) - 字符重叠并在 Excel 中转换为 ######## 以呈现 PDF
 
-(CELLSNET-43854) - 生成图像时上标和下标向上移动太多
+ (CELLSNET-43854) - 生成图像时上标和下标向上移动太多
 
 (CELLSNET-42762) - 图表轴标签呈现为锯齿状文本
 
-(CELLSNET-42384) - 当 XLSX 转换为 PDF 时艺术字框被遮挡
+(CELLSNET-42384) - 当 XLSX 转换为 PDF 时，艺术字框被遮挡
 
 (CELLSNET-42380) - SmartArt 盒子变黑了。
 
- (CELLSNET-42377) - SmartArt 布局标题与图片标题下的下划线重叠。
+(CELLSNET-42377) - SmartArt 布局标题与图片标题下的下划线重叠。
 
  (CELLSNET-41493) - 生成的 PDF 中的文本被截断/换行
 
@@ -72,7 +72,7 @@ url: /zh/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-43894) - 无法更新 OLE 链接 ObjectSourceFullName
 
-(CELLSNET-43882) - PageSetup.Zoom 在打开和保存工作簿后发生了变化
+ (CELLSNET-43882) - PageSetup.Zoom 在打开和保存工作簿后发生了变化
 
 (CELLSNET-43881) - 复制行时一些单元格公式丢失
 
@@ -94,13 +94,13 @@ url: /zh/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **例外情况**
 
 
-(CELLSNET-43866) - 将电子表格呈现为 PDF 时出现 CellsException
+(CELLSNET-43866) - 将电子表格渲染到 PDF 时出现 CellsException
 
  (CELLSNET-43847) - 尝试调用 RefreshPivotTables 时发生异常
 
 (CELLSNET-43852) - Workbook.CalculateFormula 中的 CellsException
 
-(CELLSNET-43893) - 将电子表格呈现为 PDF 格式时出现 CellsException
+ (CELLSNET-43893) - 将电子表格呈现为 PDF 格式时出现 CellsException
 
  (CELLSNET-42108) - CellsException：参数无效：将 XLS 转换为 PDF 时
 

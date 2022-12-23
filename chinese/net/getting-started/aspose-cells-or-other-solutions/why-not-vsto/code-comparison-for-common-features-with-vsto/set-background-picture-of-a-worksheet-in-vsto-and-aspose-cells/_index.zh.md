@@ -14,7 +14,7 @@ url: /zh/net/set-background-picture-of-a-worksheet-in-vsto-and-aspose-cells/
 
 本文中的代码示例创建了一个具有重复背景图像的工作表，如下面的屏幕截图所示。
 
-![待办事项：图像_替代_文本](picture1.png)
+![待办事项：图片_替代_文本](picture1.png)
 
 已为工作表设置背景。
 

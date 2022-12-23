@@ -11,4 +11,4 @@ Bu sayfa Aspose.Cells Reporting Services 21.11 için sürüm notları içerir
 ## **Bu Sürümde yer alan sorunların ve geliştirmelerin tam listesi**
 |**İD**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|24992 |PDF formatını dışa aktarmayı destekleyin.|Yeni özellik|
+|24992 |PDF formatını dışa aktarmayı destekler.|Yeni özellik|

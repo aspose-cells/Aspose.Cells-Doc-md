@@ -7,11 +7,11 @@ is_root: true
 ---
 {{% alert color="primary" %}}
 
-**![todo:image_alt_text](android-via-java-home_1 için-cells-aspose)**
+**![todo:image_alt_text](aspose-cells-for-android-via-java-home_1)**
 
 **Hoşgeldiniz Aspose.Cells for Android via Java**
 
-Aspose.Cells for Android via Java, Android uygulamalarının Microsoft Excel gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Aspose.Cells for Android via Java'in nihai hedefi, Android Studio veya Android geliştirmeyi destekleyen herhangi bir IDE ile Java'de yerel Android geliştirmeyi mümkün kılan Aspose.Cells for Java'in tüm çarpıcı özelliklerini Android platformuna getirmektir. Aspose.Cells for Android via Java, yerel Android uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Android via Java, XLS, XLSX, CSV, SpreadsheetML, ODS, Sekmeyle Ayrılmış, HTML, PDF, XPS ve diğer biçimleri destekler. Aspose.Cells for Android via Java ile elektronik tablolar oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
+Aspose.Cells for Android via Java, Android uygulamalarının Microsoft Excel gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Aspose.Cells for Android via Java'in nihai hedefi, Android Studio veya Android geliştirmeyi destekleyen herhangi bir IDE ile Java'de yerel Android geliştirmeyi mümkün kılan Aspose.Cells for Java'in tüm çarpıcı özelliklerini Android platformuna getirmektir. Aspose.Cells for Android via Java, yerel Android uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Android via Java, XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS ve diğer formatları destekler. Aspose.Cells for Android via Java ile elektronik tablolar oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
 
 {{% /alert %}}
 

@@ -6,7 +6,7 @@ url: /fr/java/display-or-hide-scroll-bars-in-ruby/
 ---
 ## **Aspose.Cells - Afficher ou masquer les barres de défilement**
 ### **Masquer les barres de défilement**
- Pour masquer les barres de défilement à l'aide de**Aspose.Cells Java pour rubis** , appel**affichermasquerles barres de défilement** module.
+ Pour masquer les barres de défilement à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**affichermasquerles barres de défilement** module.
 
 **Code rubis**
 

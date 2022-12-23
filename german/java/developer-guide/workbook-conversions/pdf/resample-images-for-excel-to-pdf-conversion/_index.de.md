@@ -1,5 +1,5 @@
 ﻿---
-title: Resampling von Bildern für die Konvertierung von Excel in PDF
+title: Resampling von Bildern für Excel in PDF-Konvertierung
 type: docs
 weight: 250
 url: /de/java/resample-images-for-excel-to-pdf-conversion/
@@ -8,11 +8,11 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 ---
 {{% alert color="primary" %}}
 
-Bei der Arbeit mit großen Microsoft Excel-Dateien mit vielen Bildern müssen Sie möglicherweise hinzugefügte Bilder komprimieren, um die Größe der PDF-Ausgabedatei zu reduzieren und die Konvertierungsleistung insgesamt zu verbessern. Aspose.Cells unterstützt das Resampling hinzugefügter Bilder, um die Größe der PDF-Ausgabedatei zu reduzieren und die Leistung zu verbessern.
+Beim Arbeiten mit großen Microsoft Excel-Dateien mit vielen Bildern müssen Sie eventuell hinzugefügte Bilder komprimieren, um die Größe der PDF Ausgabedatei zu reduzieren und die Konvertierungsleistung insgesamt zu verbessern. Aspose.Cells unterstützt das Resampling hinzugefügter Bilder, um die Ausgabedateigröße PDF zu reduzieren und die Leistung zu verbessern.
 
 {{% /alert %}}
 
-## **Resampling von Bildern für die Konvertierung von Excel in PDF**
+## **Resampling von Bildern für Excel in PDF-Konvertierung**
 
 Bitte sehen Sie sich den folgenden Beispielcode an, der beschreibt, wie die Aufgabe mit Aspose.Cells API ausgeführt wird. Das Beispiel konvertiert eine Microsoft-Excel-Datei in eine PDF-Datei, während die Bilder in der Datei komprimiert werden.
 
@@ -20,10 +20,10 @@ Bitte sehen Sie sich den folgenden Beispielcode an, der beschreibt, wie die Aufg
 
 {{% alert color="primary" %}}
 
- Verwendung der[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) minimiert die Größe der Ausgabe-PDF, kann aber die Bildqualität etwas beeinträchtigen.
+ Verwendung der[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) Option minimiert die Größe der Ausgabe PDF, kann aber die Bildqualität etwas beeinträchtigen.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Wenn Ihre Tabellenkalkulation Formeln enthält, rufen Sie am besten an[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()kurz vor dem Rendern der Tabelle im PDF-Format. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte im PDF wiedergegeben werden.
+Wenn Ihre Tabellenkalkulation Formeln enthält, rufen Sie am besten an[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()kurz vor dem Rendern der Tabelle in das Format PDF. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte in PDF wiedergegeben werden.
 
 {{% /alert %}}

@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-java-for-ruby/
 RJB est un programme de pont qui se connecte entre Ruby et Java avec l'interface native Java. Rake + Rjb est l'outil de construction le plus puissant et le plus utile que Maven et Ant. Vous pouvez tester votre classe de logique métier Java elle-même avec la simulation de Rjb. Il aide à migrer l'objet modèle de Struts dans votre application RoR. Mais attention à l'application buildSwing, Ruby (et Rjb) ne prend pas en compte la gestion native des threads de JVM...
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java est un composant de feuille de calcul Excel primé qui permet aux développeurs Java d'intégrer la possibilité de lire, d'écrire et de manipuler des feuilles de calcul Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF et les formats de fichiers image dans leurs propres Java applications sans avoir besoin de s'appuyer sur Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF et les formats de fichiers image dans leurs propres applications Java sans avoir besoin de s'appuyer sur Microsoft Excel®.
 
 Aspose.Cells for Java est un composant mature, évolutif et riche en fonctionnalités qui offre de nombreuses fonctions qui vont bien au-delà des simples capacités d'exportation de données d'autres fournisseurs. Avec Aspose.Cells for Java, les développeurs peuvent exporter des données, formater des feuilles de calcul au niveau le plus granulaire, importer des images, créer des graphiques, appliquer et calculer des formules complexes, diffuser des données Excel®, enregistrer dans différents formats et bien plus encore - tout cela sans avoir besoin de Microsoft Excel® ou Microsoft Bureautique.
 ### **Aspose.Cells Java pour rubis**
@@ -49,7 +49,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
 
 {{< /highlight >}}
 
-1.  Et puis exécuter
+1. Et puis exécuter
 
 {{< highlight "java" >}}
 
@@ -57,7 +57,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
 
 {{< /highlight >}}
 
-**OU**
+**OU ALORS**
 
 1.  Exécutez la commande suivante.
 
@@ -66,7 +66,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
  $ gem install aspose-cellsjava
 
 {{< /highlight >}}
-### **Utilisant**
+### **En utilisant**
 Incluez les fichiers requis pour travailler avec l'exemple helloworld.
 
 {{< highlight "java" >}}
@@ -114,12 +114,12 @@ Vous pouvez obtenir le dernier code source à partir de l'un des emplacements su
       - [Enregistrer des fichiers dans Ruby](/cells/fr/java/saving-files-in-ruby/)
     - [Fonctionnalités utilitaires dans Ruby](/cells/fr/java/utility-features-in-ruby/)
       - [Conversion d'un graphique en image dans Ruby](/cells/fr/java/converting-chart-to-image-in-ruby/)
-      - [Conversion de fichiers Excel en HTML dans Ruby](/cells/fr/java/converting-excel-files-to-html-in-ruby/)
-      - [Conversion de fichiers Excel en PDF dans Ruby](/cells/fr/java/converting-excel-to-pdf-files-in-ruby/)
-      - [Conversion de fichiers HTML en feuilles de calcul Excel dans Ruby](/cells/fr/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
-      - [Conversion en fichiers MHTML dans Ruby](/cells/fr/java/converting-to-mhtml-files-in-ruby/)
+      - [Conversion de fichiers Excel en HTML en Ruby](/cells/fr/java/converting-excel-files-to-html-in-ruby/)
+      - [Conversion d'Excel en fichiers PDF en Ruby](/cells/fr/java/converting-excel-to-pdf-files-in-ruby/)
+      - [Conversion de fichiers HTML en feuilles de calcul Excel en Ruby](/cells/fr/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
+      - [Conversion en fichiers MHTML en Ruby](/cells/fr/java/converting-to-mhtml-files-in-ruby/)
       - [Conversion d'une feuille de calcul en image dans Ruby](/cells/fr/java/converting-worksheet-to-image-in-ruby/)
-      - [Conversion d'une feuille de calcul en SVG dans Ruby](/cells/fr/java/converting-worksheet-to-svg-in-ruby/)
+      - [Conversion de la feuille de calcul en SVG en Ruby](/cells/fr/java/converting-worksheet-to-svg-in-ruby/)
       - [Crypter des fichiers Excel en Ruby](/cells/fr/java/encrypting-excel-files-in-ruby/)
       - [Gestion des propriétés de document dans Ruby](/cells/fr/java/managing-document-properties-in-ruby/)
   - [Travailler avec des feuilles de calcul dans Ruby](/cells/fr/java/working-with-worksheets-in-ruby/)

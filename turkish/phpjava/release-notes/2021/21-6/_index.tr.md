@@ -21,13 +21,13 @@ url: /tr/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 |CELLSJAVA-43491|Veri tablosunu kullanan formülün değeri doğru şekilde çıkarılamıyor|
 |CELLSJAVA-43498|zh_CN yerel ayarı için sayısal değerin biçimlendirilmiş sonucu yanlış|
 |CELLSJAVA-43451|Excel dosyasının içeriği yanlış görüntüleniyor ve ChangeStyle (yay) demosu düzgün çalışmıyor|
-|CELLSJAVA-43484|Excel'den PDF'e dönüştürmede içerik düzeni tutarsız|
-|CELLSJAVA-43465|Excel'i PDF'ye dönüştürürken birkaç grafik dizisi eksik|
-|CELLSJAVA-43468|Excel'den PDF'e dönüştürmede düz çizgi denklemiyle ilgili sorun|
-|CELLSJAVA-43432|Bir XLS dosya biçimi yeniden kaydedilirken grafik içeriği uyuşmuyor|
+|CELLSJAVA-43484|İçerik düzeni, Excel'de PDF oluşturmayla tutarsız|
+|CELLSJAVA-43465|Excel'i PDF'e dönüştürürken birkaç grafik dizisi eksik|
+|CELLSJAVA-43468|Excel'de PDF oluşturmaya yönelik düz çizgi denklemiyle ilgili sorun|
+|CELLSJAVA-43432|XLS dosya biçimi yeniden kaydedilirken grafik içeriği uyuşmuyor|
 |CELLSJAVA-43475|Regresyon: Çizgiye sarılmış hücreler kesilir|
 |CELLSJAVA-43478|Regresyon: NUMBERS - PDF, çok fazla veri eksik|
-|CELLSJAVA-43485|Gerileme: ODS'den PDF oluştururken ekstra içerik|
+|CELLSJAVA-43485|Gerileme: ODS'den PDF'i oluştururken ekstra içerik|
 |CELLSJAVA-43492| Bir XML (SpreadsheetML) dosyasının dönüştürülmesi, XLS ve XLSX çıktılarındaki "Ad Tanımı"ndaki Gizli ayarı kaldırır|
 |CELLSJAVA-43486|Bir HTML belgesini Çalışma Kitabına dönüştürürken NullPointerException|
 

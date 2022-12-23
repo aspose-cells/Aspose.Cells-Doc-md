@@ -6,7 +6,7 @@ url: /de/java/convert-csv-tsv-and-txt-to-excel/
 ---
 ## **Öffnen von CSV-Dateien**
 
-Comma Separated Values (CSV)-Dateien enthalten Datensätze, deren Werte durch Kommas getrennt oder begrenzt sind. In CSV-Dateien werden Daten in einem tabellarischen Format gespeichert, das Felder enthält, die durch Kommas getrennt und durch doppelte Anführungszeichen eingeschlossen sind. Wenn der Wert eines Felds ein doppeltes Anführungszeichen enthält, wird es mit einem Paar doppelter Anführungszeichen maskiert. Sie können auch Microsoft Excel verwenden, um Ihre Tabellendaten in eine CSV-Datei zu exportieren.
+Dateien mit kommagetrennten Werten (CSV) enthalten Datensätze, deren Werte durch Kommas getrennt oder begrenzt sind. In CSV-Dateien werden Daten in einem tabellarischen Format gespeichert, das Felder enthält, die durch Kommas getrennt und durch doppelte Anführungszeichen eingeschlossen sind. Wenn der Wert eines Felds ein doppeltes Anführungszeichen enthält, wird es mit einem Paar doppelter Anführungszeichen maskiert. Sie können auch Microsoft Excel verwenden, um Ihre Tabellenkalkulationsdaten in eine CSV-Datei zu exportieren.
 
 Verwenden Sie zum Öffnen von CSV-Dateien die**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** Klasse und wählen Sie die aus**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** Wert, vordefiniert in der**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**Aufzählung.
 
@@ -14,7 +14,7 @@ Verwenden Sie zum Öffnen von CSV-Dateien die**[LoadOptions](https://reference.a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningCSVFiles-OpeningCSVFiles.java" >}}
 
-### **CSV-Dateien öffnen und ungültige Zeichen ersetzen**
+### **Öffnen von CSV-Dateien und Ersetzen ungültiger Zeichen**
 
 Wenn in Excel eine CSV-Datei mit Sonderzeichen geöffnet wird, werden die Zeichen automatisch ersetzt. Dasselbe wird von Aspose.Cells API durchgeführt, was in dem unten angegebenen Codebeispiel demonstriert wird.
 
@@ -24,7 +24,7 @@ Wenn in Excel eine CSV-Datei mit Sonderzeichen geöffnet wird, werden die Zeiche
 
 ## **Öffnen von CSV-Dateien mit dem bevorzugten Parser**
 
-Dies ist nicht immer erforderlich, um die Standard-Parser-Einstellungen zum Öffnen der CSV-Dateien zu verwenden. Manchmal erzeugt der Import einer CSV-Datei nicht die erwartete Ausgabe, da das Datumsformat nicht wie erwartet ist oder leere Felder anders behandelt werden. Für diesen Zweck**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**ist verfügbar, um einen eigenen bevorzugten Parser bereitzustellen, um verschiedene Datentypen gemäß den Anforderungen zu analysieren. Der folgende Beispielcode demonstriert die Verwendung des bevorzugten Parsers.
+Dies ist nicht immer erforderlich, um die Standard-Parser-Einstellungen zum Öffnen der CSV-Dateien zu verwenden. Manchmal erzeugt das Importieren der Datei CSV nicht die erwartete Ausgabe, da das Datumsformat nicht wie erwartet ist oder leere Felder anders behandelt werden. Für diesen Zweck**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**ist verfügbar, um einen eigenen bevorzugten Parser bereitzustellen, um verschiedene Datentypen gemäß den Anforderungen zu analysieren. Der folgende Beispielcode demonstriert die Verwendung des bevorzugten Parsers.
 
 Beispiel-Quelldatei und Ausgabedateien können von den folgenden Links heruntergeladen werden, um diese Funktion zu testen.
 
@@ -47,6 +47,6 @@ Um tabulatorgetrennte Dateien zu öffnen, sollten Entwickler die**[LoadOptions](
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
 ## **Themen vorantreiben**
-- [CSV-Datei mit Formeln laden oder importieren](/cells/de/java/load-or-import-csv-file-with-formulas/)
-- [Trimmen Sie führende leere Zeilen und Spalten beim Exportieren von Tabellenkalkulationen in das CSV-Format](/cells/de/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+- [Laden oder importieren Sie die Datei CSV mit Formeln](/cells/de/java/load-or-import-csv-file-with-formulas/)
+- [Trimmen Sie führende leere Zeilen und Spalten beim Exportieren von Tabellenkalkulationen in das Format CSV](/cells/de/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 

@@ -10,19 +10,19 @@ Aspose.Cells は、多くのフォーマット間の変換をサポートして�
 
 {{% /alert %}}
 
-## **Excel から XPS への変換**
+## **Excel を XPS に変換する**
 
 XPS ドキュメント形式は、ドキュメントのレイアウトと各ページの外観を定義する構造化された XML マークアップと、ドキュメントの配布、アーカイブ、レンダリング、処理、および印刷のためのレンダリング ルールで構成されます。
 
-XPS のマークアップ言語は XAML のサブセットであり、XAML を使用して Windows Presentation Foundation (WPF) プリミティブをマークアップし、ドキュメントにベクター グラフィック要素を組み込むことができます。使用される要素は、パスおよびその他のジオメトリ プリミティブの観点から記述されます。
+XPS のマークアップ言語は XAML のサブセットであり、XAML を使用して Windows プレゼンテーション ファウンデーション (WPF) プリミティブをマークアップし、ドキュメントにベクター グラフィック要素を組み込むことができます。使用される要素は、パスおよびその他のジオメトリ プリミティブの観点から記述されます。
 
-XPS ファイルは、実際には、ドキュメントを構成するファイルを含む、Open Packaging Conventions を使用した Unicode ZIP アーカイブです。これらには、各ページの XML マークアップ ファイル、テキスト、埋め込みフォント、ラスター イメージ、2D ベクター グラフィックス、およびデジタル著作権管理情報が含まれます。 XPS ファイルの内容は、ZIP ファイルをサポートするアプリケーションで開くだけで調べることができます。
+XPS ファイルは、実際には Open Packaging Conventions を使用した Unicode ZIP アーカイブであり、ドキュメントを構成するファイルが含まれています。これらには、各ページの XML マークアップ ファイル、テキスト、埋め込みフォント、ラスター イメージ、2D ベクター グラフィックス、およびデジタル著作権管理情報が含まれます。 XPS ファイルの内容は、ZIP ファイルをサポートするアプリケーションで開くだけで調べることができます。
 
-Aspose.Cells 6.0.0 から、Microsoft Excel tp XPS 変換に対応しました。
+Aspose.Cells 6.0.0 から、Microsoft Excel tp XPS への変換に対応しました。
 
 ### **単一のワークシートを XPS に変換する**
 
-次の例は、Excel ファイル内の 1 つのワークシートを XPS に変換する方法を示しています。
+次の例は、Excel ファイル内の単一のワークシートを XPS に変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-ConvertingsingleWorksheetToXPS-ConvertingsingleWorksheetToXPS.java" >}}
 
@@ -38,9 +38,9 @@ Aspose.Cells 6.0.0 から、Microsoft Excel tp XPS 変換に対応しました�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-QuickExcelToXPSConversion-QuickExcelToXPSConversion.java" >}}
 
-## **Excel から MHTML ファイルへの変換**
+## **Excel を MHTML ファイルに変換する**
 
-[MHTML](https://en.wikipedia.org/wiki/MHTML)通常の HTML と外部リソースを組み合わせます。つまり、通常は画像、アニメーション、音声などを 1 つのファイルにリンクするコンテンツです。これらは、ファイル拡張子が .mht の電子メールに使用されます。
+[MHTML](https://en.wikipedia.org/wiki/MHTML)通常の HTML を外部リソースと組み合わせます。つまり、通常は画像、アニメーション、音声などを 1 つのファイルにリンクするコンテンツです。これらは、ファイル拡張子が .mht の電子メールに使用されます。
 
 {{% alert color="primary" %}}
 
@@ -48,7 +48,7 @@ Aspose.Cells は、MHTML ファイルの読み取りと書き込みをサポー�
 
 {{% /alert %}}
 
-以下に示すように、スプレッドシートを MHTML に変換する操作は簡単です。
+以下に示すように、スプレッドシートを MHTML に変換するのは簡単な操作です。
 
 次のコード例は、ワークブックを MHTML ファイルとして保存する方法を示しています。
 
@@ -68,24 +68,24 @@ Aspose.Cells API は、スプレッドシートを HTML 形式にエクスポー
 
 {{% /alert %}}
 
-### **HTML の画像プリファレンスの設定**
+### **HTML の画像設定**
 
 8.0.2から、Aspose.Cellsが公開されました**[ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**のために**[HtmlSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/HtmlSaveOptions)**クラスを使用すると、開発者はスプレッドシートを HTML 形式で保存するときに画像の設定を指定できます。
 
 適用できる画像設定は次のとおりです。
 
-- **[画像タイプ](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: 画像の種類を取得または設定します。チャートを含むすべての形状は、出力 HTML で画像としてレンダリングされることに注意してください。
+- **[画像タイプ](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#ImageType)**: 画像の種類を取得または設定します。グラフを含むすべての図形は、出力 HTML でイメージとしてレンダリングされることに注意してください。
 - **[品質](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Quality)**: ImageFormat が Jpeg として指定されている場合、画像の品質を 0 ～ 100 で取得または設定します。
 - **[VerticalResolution](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#VerticalResolution)**: イメージの垂直方向の解像度をドット/インチで取得または設定します。
 - **[水平解像度](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#HorizontalResolution)**: イメージの水平方向の解像度をドット/インチで取得または設定します。
-- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**: ImageFormat が Tiff として指定されている場合、イメージの圧縮タイプを取得または設定します。
-- **[透明](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**ImageFormat が Png として指定されている場合、画像の背景を透明にするかどうかを示します。
+- **[TiffCompression](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#TiffCompression)**ImageFormat が Tiff として指定されている場合、イメージの圧縮タイプを取得または設定します。
+- **[透明](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent)**: ImageFormat が Png として指定されている場合、画像の背景を透明にするかどうかを示します。
 
 以下のコードは、使用方法を示しています**[HtmlSaveOptions.ImageOptions](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ImageOptions)**さまざまな設定を指定します。
 
-|**エクスポート前のスプレッドシート ビュー**|**エクスポート後の HTML ビュー**|
+|**エクスポート前のスプレッドシート ビュー**|**HTML エクスポート後のビュー**|
 |:- |:- |
-|![エクスポート前のスプレッドシート ビュー](converting-workbook-to-different-formats_1.png)|![エクスポート後の HTML ビュー](converting-workbook-to-different-formats_2.png)|
+|![エクスポート前のスプレッドシート ビュー](converting-workbook-to-different-formats_1.png)|![HTML エクスポート後のビュー](converting-workbook-to-different-formats_2.png)|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SettingImagePrefrencesforHTML-SettingImagePrefrencesforHTML.java" >}}
 
@@ -93,15 +93,15 @@ Aspose.Cells API は、スプレッドシートを HTML 形式にエクスポー
 
 PDF ドキュメントは、組織、政府部門、および個人の間でドキュメントを交換するための標準形式として広く使用されています。ソフトウェア開発者は、Microsoft Excel ファイルを PDF ドキュメントに簡単に変換する方法を考案するように求められることがよくあります。 Aspose.Cells はこれらの機能をサポートしています。この記事では、その方法を示します。
 
-### **Excel から PDF への変換**
+### **Excel を PDF に変換する**
 
-Microsoft Excel から PDF への変換は、Aspose.Cells for Java 2.3.0 で導入されました。そのリリースから、Aspose.Cells で[スプレッドシートを直接 PDF に変換](#direct-conversion)（含む[PDF/A](#saving-excel-spreadsheets-to-pdfa-complied-files))、別の製品なし。古いバージョンの Aspose.Cells のスプレッドシートを変換するには、[変換には Aspose.PDF を使用します](#conversion-with-asposepdf-asposecells-prior-to-230).
+Microsoft Excel から PDF への変換は、Aspose.Cells for Java 2.3.0 で導入されました。そのリリースから、Aspose.Cells は[スプレッドシートを PDF に直接変換する](#direct-conversion)（含む[PDF/あ](#saving-excel-spreadsheets-to-pdfa-complied-files))、別の製品なし。古いバージョンの Aspose.Cells のスプレッドシートを変換するには、[変換には Aspose.PDF を使用します](#conversion-with-asposepdf-asposecells-prior-to-230).
 
-Aspose.Cell は、スプレッドシートを高い精度と忠実度で PDF に変換します。ただし、いくつかあります[制限事項](/cells/ja/java/converting-workbook-to-different-formats/#conversion-attributes)、この記事の最後に記載されています。
+Aspose.Cell's は、スプレッドシートを高い精度と忠実度で PDF に変換します。ただし、いくつかあります[制限事項](/cells/ja/java/converting-workbook-to-different-formats/#conversion-attributes)、この記事の最後に記載されています。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、ドキュメントを PDF にレンダリングすると、Aspose.Cells for Java が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells for Java v17.9' などの値を持つフィールド。
+ Aspose.Cells for Java は、出力ドキュメントに API とバージョン番号に関する情報を直接書き込みます。たとえば、Document を PDF にレンダリングすると、Aspose.Cells for Java が読み込まれます。**応用**値が「Aspose.Cells」のフィールドと**PDF プロデューサー** 'Aspose.Cells for Java v17.9' などの値を持つフィールド。
 
 出力ドキュメントからこの情報を変更または削除するように Aspose.Cells for Java に指示することはできないことに注意してください。
 
@@ -109,7 +109,7 @@ Aspose.Cell は、スプレッドシートを高い精度と忠実度で PDF に
 
 #### **直接変換**
 
-を使用して、Excel ファイルを直接 PDF に保存します。**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**メソッドを提供し、**[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**インターフェイスメンバー。このような直接変換は、最も効率的な変換方法です。データやフォーマットは失われませんが、出力 PDF は入力 Excel ファイルのように見えます。
+を使用して Excel ファイルを直接 PDF に保存します。**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**メソッドを提供し、**[SaveFormat.PDF](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)**インターフェイスメンバー。このような直接変換は、最も効率的な変換方法です。データやフォーマットは失われませんが、出力 PDF は入力 Excel ファイルのように見えます。
 
  PDF に保存するときにセキュリティ オプションを指定するには、次を使用します。**[PdfSaveOptions](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)**.
 
@@ -129,22 +129,22 @@ Aspose.Cell は、スプレッドシートを高い精度と忠実度で PDF に
 
 バージョン 2.3.0 より前の Aspose.Cells バージョンでは、次のようなコンポーネントを使用する必要があります[Aspose.PDF for Java](/pdf/java/)スプレッドシートを PDF ファイルに変換します。 Aspose.Cells と Aspose.PDF は連携して、中間ステップを介してスプレッドシートを PDF に変換します。
 
-スプレッドシートを Aspose.Cells および Aspose.PDF で PDF に変換するには:
+スプレッドシートを Aspose.Cells と Aspose.PDF で PDF に変換するには:
 
 1. のオブジェクトをインスタンス化する**[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**空のコンストラクターを呼び出してクラスを作成します。
 1. Aspose.Cells API を使用して、スプレッドシートで必要な作業を行います。
 1. 電話する**[Workbook.save](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions))**スプレッドシートを保存する方法:
-1. ファイル形式を XML に設定します。
- 1. FileFormatType インターフェイスから Aspose_Pdf (定義済みの値) を選択します。これにより、Aspose.PDF for Java が PDF ドキュメントを生成できるように、Aspose.PDF スキーマと互換性のある XML 形式でスプレッドシートを生成するように save メソッドに指示されます。
+ 1. ファイル形式を XML に設定します。
+ 1. FileFormatType インターフェイスから Aspose_Pdf (定義済みの値) を選択します。これは、Aspose.PDF for Java が PDF ドキュメントを生成できるように、Aspose.PDF スキーマと互換性のある XML 形式でスプレッドシートを生成するように save メソッドに指示します。
 1. XML ファイルが作成されたら、aspose.pdf パッケージに Pdf クラスのオブジェクトを作成します。
 1. Pdf クラスの bindXML メソッドを呼び出し、出力 XML ファイルの名前を渡します。
-1. PDF ドキュメントを生成するには、Pdf クラスの save メソッドを呼び出します。
+1. Pdf クラスの save メソッドを呼び出して、PDF ドキュメントを生成します。
 
 上記の手順は、以下の例で実装されています。
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、**[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())**スプレッドシートを PDF 形式にレンダリングする直前のメソッド。そうすることで、数式に依存する値が再計算され、正しい値が PDF に表示されます。
+スプレッドシートに数式が含まれている場合は、**[Workbook.calculateFormula](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())**スプレッドシートを PDF 形式にレンダリングする直前のメソッド。そうすることで、式に依存する値が再計算され、正しい値が PDF に表示されるようになります。
 
 {{% /alert %}}
 

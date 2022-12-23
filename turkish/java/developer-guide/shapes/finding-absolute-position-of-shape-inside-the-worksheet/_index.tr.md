@@ -6,17 +6,17 @@ url: /tr/java/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Bazen bir şeklin çalışma sayfasındaki mutlak konumunu bilmeniz gerekir. Aspose.Cells şunları sağlar:[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) Bu amaç için özellikler. Bu özellikler, çalışma sayfasındaki bir şeklin mutlak konumunu piksel cinsinden döndürür.
+ Bazen bir şeklin çalışma sayfasındaki mutlak konumunu bilmeniz gerekir. Aspose.Cells şunları sağlar:[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) Bu amaç için özellikler. Bu özellikler, çalışma sayfasındaki bir şeklin mutlak konumunu piksel cinsinden döndürür.
 
 {{% /alert %}}
 
 ## **Shape.getLeftToCorner() ve Shape.getTopToCorner() özelliklerinin açıklaması**
 
- Bu ekran görüntüsü,[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)özellikleri ölçer.
+Bu ekran görüntüsü,[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) ve[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)özellikleri ölçer.
 
 **Mutlak konum ölçümü**
 
-![yapılacaklar:resim_alternatif_Metin](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](finding-absolute-position-of-shape-inside-the-worksheet_1.png)
 
 Aşağıdaki örnek kod, bir çalışma sayfasındaki ilk şeklin mutlak konumunu piksel cinsinden görüntüler. Kod, konsolda aşağıdaki çıktıyı görüntüler:
 

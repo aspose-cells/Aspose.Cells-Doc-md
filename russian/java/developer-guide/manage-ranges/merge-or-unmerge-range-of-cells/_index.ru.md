@@ -8,7 +8,7 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
 ---
 {{% alert color="primary" %}}
 
- Вы можете использовать Aspose.Cells для объединения или разделения диапазона ячеек. Aspose.Cells обеспечивает[**Диапазон.слияние()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge() ) а также[**Диапазон.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) методы для этой цели. В этой статье объясняется, как объединить диапазон ячеек в одну ячейку.
+ Вы можете использовать Aspose.Cells для объединения или разделения диапазона ячеек. Aspose.Cells обеспечивает[**Диапазон.слияние()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge() ) и[**Диапазон.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) методы для этой цели. В этой статье объясняется, как объединить диапазон ячеек в одну ячейку.
 
 {{% /alert %}}
 

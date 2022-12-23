@@ -11,7 +11,7 @@ url: /ar/java/create-manipulate-or-remove-scenarios-from-worksheets/
 
 {{% /alert %}}
 
- يوفر Aspose.Cells بعض الفئات المفيدة ، على سبيل المثال[**مجموعة سيناريو**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioCollection), [**سيناريو**](https://reference.aspose.com/cells/java/com.aspose.cells/Scenario), [**السيناريو InputCellCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCellCollection) و[**سيناريو InputCell**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCell) . كما يوفر[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Scenarios)منشأه. يفتح نموذج التعليمة البرمجية أدناه ملف XLSX Excel (الذي يحتوي على بعض السيناريوهات) ويزيل سيناريو موجود من ورقة العمل. كما يضيف سيناريو جديدًا قبل حفظ ملف Excel. يستخدم ملف قالب بسيط للغاية يحتوي على سيناريو.
+ يوفر Aspose.Cells بعض الفئات المفيدة ، على سبيل المثال[**مجموعة سيناريو**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioCollection), [**سيناريو**](https://reference.aspose.com/cells/java/com.aspose.cells/Scenario), [**السيناريو InputCellCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCellCollection) و[**سيناريو InputCell**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCell) . كما يوفر[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Scenarios)خاصية. يفتح نموذج التعليمات البرمجية أدناه ملف XLSX Excel (الذي يحتوي على بعض السيناريوهات) ويزيل سيناريو موجود من ورقة العمل. كما يضيف سيناريو جديدًا قبل حفظ ملف Excel. يستخدم ملف قالب بسيط للغاية يحتوي على سيناريو.
 
 بعد تنفيذ التعليمات البرمجية ، تتم إزالة سيناريو موجود وإضافة سيناريو جديد إلى ورقة العمل.
 

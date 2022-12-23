@@ -17,6 +17,6 @@ Algunos tipos de gráficos en el archivo de definición de informes de SQL Serve
 - Range-BoxPlot
 - Embudo de forma
 
- Al representar elementos de gráfico que no tienen opciones equivalentes en Microsoft Excel, Aspose.Cells los genera en imágenes.
+Al representar elementos de gráfico que no tienen opciones equivalentes en Microsoft Excel, Aspose.Cells los genera en imágenes.
 
 {{% /alert %}}

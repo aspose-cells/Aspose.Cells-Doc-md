@@ -14,4 +14,4 @@ Aspose.Cells.Report.Designer, rapor şablonu olarak Microsoft Excel'i kullandı�
 - **Aspose.Cells.Report.Designer araç çubuğu**
 **Kullanıcılar, bir RDL Rapor dosyasını değiştirmek için Aspose.Cells.Report.Designer araç çubuğunu kullanabilir** 
 
-![yapılacaklar:resim_alternatif_Metin](make-use-of-report-designer-client-tool_1.png)
+![yapılacaklar:resim_alternatif_metin](make-use-of-report-designer-client-tool_1.png)

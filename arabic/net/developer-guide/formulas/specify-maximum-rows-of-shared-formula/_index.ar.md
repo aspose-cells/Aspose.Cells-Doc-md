@@ -12,7 +12,7 @@ url: /ar/net/specify-maximum-rows-of-shared-formula/
 
 ## **حدد الحد الأقصى لصفوف الصيغة المشتركة**
 
-يشرح نموذج التعليمات البرمجية التالي استخدام ملف[**المصنف.الإعدادات. MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) منشأه. يقوم بتعيين الحد الأقصى لصفوف الصيغة المشتركة إلى 5 ويضيف الصيغة المشتركة في الخلية D1 لـ 100 صف ويحفظ في[إخراج ملف Excel](61767856.xlsx). إذا قمت باستخراج محتويات ملف Excel الناتج وتحقق من ملف*ورقة 1.xml*، سترى انقسام الصيغة المشتركة بعد كل 5 صفوف كما هو موضح في لقطة الشاشة أعلاه.
+يشرح نموذج التعليمات البرمجية التالي استخدام ملف[**المصنف.الإعدادات. MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) خاصية. يقوم بتعيين الحد الأقصى لصفوف الصيغة المشتركة إلى 5 ويضيف الصيغة المشتركة في الخلية D1 لـ 100 صف ويحفظ في[إخراج ملف Excel](61767856.xlsx). إذا قمت باستخراج محتويات ملف Excel الناتج وتحقق من ملف*ورقة 1.xml*، سترى انقسام الصيغة المشتركة بعد كل 5 صفوف كما هو موضح في لقطة الشاشة أعلاه.
 
 ## **عينة من الرموز**
 

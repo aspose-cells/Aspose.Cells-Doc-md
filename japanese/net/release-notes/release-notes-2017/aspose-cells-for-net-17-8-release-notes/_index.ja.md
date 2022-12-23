@@ -12,25 +12,25 @@ url: /ja/net/aspose-cells-for-net-17-8-release-notes/
 
 |**鍵** |**概要** |**カテゴリー** |
 |:- |:- |:- |
-|CELLSNET-45357 |HTML へのエクスポート中に条件付きコメントのダウンレベル公開タイプを無効にするオプション|新機能|
-|CELLSNET-45330 |画像、HTML、または PDF として保存するときにコメントをレンダリングする|新機能|
+|CELLSNET-45357 |HTML へのエクスポート中に、下位レベルで公開されたタイプの条件付きコメントを無効にするオプション|新機能|
+|CELLSNET-45330 |画像として保存するときにコメントをレンダリングする、HTML または PDF|新機能|
 |CELLSNET-45014 |Office 2013 以降のチャートの style.xml をサポート|新機能|
 |CELLSNET-45501 |設計時と実行時の両方で、Aspose.Cells.Workbook.DefaultStyle のような GridDesktop のデフォルト スタイルを設定します。|新機能|
 |CELLSNET-44243 |GridDesktop コンポーネントのタブで移動中にロックされたセルをスキップする|新機能|
 |CELLSNET-45517 |共有 xlsx ファイルのサポートを追加|強化|
 |CELLSNET-45554 |Cell コメントがサーバー側で更新された後、クライアント側でコメントを同期または更新します|強化|
 |CELLSNET-45530 |MS Excel は、出力ファイルを開くために、より多くのメモリ (約 2GB) を消費します。|パフォーマンス|
-|CELLSNET-45531 |出力 PDF で形状テキストの位置が間違っている - Excel から PDF への変換|バグ|
+|CELLSNET-45531 |出力 PDF で図形テキストの位置が間違っている - Excel から PDF への変換|バグ|
 |CELLSNET-45507 |出力 Pdf で図が正しくレンダリングされない|バグ|
 |CELLSNET-45477 |シートから画像への変換で形状をレンダリングする際の問題|バグ|
 |CELLSNET-45473 |Aspose.Cells API によって XLS ファイルを HTML として保存する際のテキスト配置の問題|バグ|
 |CELLSNET-45536 |Excelシートを画像にレンダリングするときにテキストが切り取られる|バグ|
 |CELLSNET-45524 |シートから画像への変換で形状をレンダリング中に余分な線が表示される|バグ|
 |CELLSNET-45522 |Cells から PDF - フッター テキストに含まれるフッターが折り返されない|バグ|
-|CELLSNET-45512 |Aspose.Cells シートを画像ファイルにレンダリングすると、大量の EMF ファイルが作成されます|バグ|
+|CELLSNET-45512 |Aspose.Cells は、シートを画像ファイルにレンダリングするときに大量の EMF ファイルを作成します|バグ|
 |CELLSNET-45508 |行を自動調整した後でもデータが切り捨てられる|バグ|
 |CELLSNET-45495 |署名済みのドキュメントにデジタル署名を追加する|バグ|
-|CELLSNET-45553 |結果の PDF のチャートに予期しない値があります|バグ|
+|CELLSNET-45553 |結果 PDF のグラフに予期しない値が含まれています|バグ|
 |CELLSNET-45551 |PDF ファイル形式にレンダリングすると画像が黒くなる|バグ|
 |CELLSNET-45547 |出力 EMF 画像でスパークラインが滑らかにならない|バグ|
 |CELLSNET-45514 |エラーバーのキャップが正しくレンダリングされない|バグ|
@@ -40,7 +40,7 @@ url: /ja/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45555 |Cells.GroupRows isHidden 属性がネストされたグループで正しく表示されない|バグ|
 |CELLSNET-45552 |XLSX ファイルを開いて再保存すると、リンクされた画像がチャート内で複製される|バグ|
 |CELLSNET-45549 |ソース Xls ファイルを開いて保存すると、出力 XLS ファイルが破損する|バグ|
-|CELLSNET-45548 |SpreadsheetML AllowFilter 要素が出力 XLSX で機能しない|バグ|
+|CELLSNET-45548 |SpreadsheetML AllowFilter 要素が出力で機能しません XLSX|バグ|
 |CELLSNET-45546 |ODS ファイルを開いて保存中にセル データが見つからない|バグ|
 |CELLSNET-45544 |範囲を移動している間、数式は範囲の最初のセルのみを参照します|バグ|
 |CELLSNET-45543 |条件付きで書式設定されたセルを移動すると、書式設定が削除されます|バグ|
@@ -49,17 +49,17 @@ url: /ja/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45534 |Workbook.Unprotect メソッドが間違ったパスワードでも機能する|バグ|
 |CELLSNET-45532 |数式を使用した整数データの検証が機能しないことを許可する|バグ|
 |CELLSNET-45529 |ListObject.Resize はフォーマットを変更し、フィルタを設定します|バグ|
-|CELLSNET-45520 |コメント フィールドが SpreadsheetML から正しく開かれない|バグ|
+|CELLSNET-45520 |コメント フィールドが SpreadsheetML から正しく開かれていない|バグ|
 |CELLSNET-45518 |出力 Excel ファイルのデータ検証が機能しない|バグ|
-|CELLSNET-45509 |埋め込みオブジェクト/画像が Excel から PDF への変換でレンダリングされない|バグ|
-|CELLSNET-45505 |画像を抽出して再挿入すると、XLS ファイルで一部の形状がずれてしまう|バグ|
+|CELLSNET-45509 |埋め込みオブジェクト/画像が Excel で PDF 変換にレンダリングされない|バグ|
+|CELLSNET-45505 |画像を抽出して再挿入すると、XLS ファイルで一部の形状が移動する|バグ|
 |CELLSNET-45504 |出力 xlsx ファイルに先頭の引用符がありません|バグ|
 |CELLSNET-45502 |ワークブックの複製により、Excel 2016/2007 の破損したファイルが生成される|バグ|
 |CELLSNET-45527 |非表示の行 (固定されたペイン) にグループ行を適用すると、GridWeb が編集できなくなります。|バグ|
 |CELLSNET-45523 |一部の非表示の行が GridDesktop で正しく表示されない|バグ|
 |CELLSNET-45472 |例外: XLSX ファイルを PDF ファイル形式にレンダリングするときの「Shape to image Error」|例外|
 |CELLSNET-45550 |ソース Excel ファイルを開く際の System.NullReferenceException|例外|
-|CELLSNET-45526 |XLSX ファイルを XLSB ファイル形式に保存するときの例外|例外|
+|CELLSNET-45526 |XLSX ファイルを XLSB ファイル形式で保存するときの例外|例外|
 |CELLSNET-45519 |テンプレート XLSB ファイルを開く際の例外 (Office 365 (1707 update))|例外|
 ## **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
@@ -89,7 +89,7 @@ API を提供して、ユーザーがいくつかの特別な状況でいくつ�
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
 - [署名済みの Excel ファイルにデジタル署名を追加する](/cells/ja/net/add-digital-signature-to-an-already-signed-excel-file/)
-- [HTML への保存中にダウンレベルの公開されたコメントを無効にする](/cells/ja/net/disable-downlevel-revealed-comments-while-saving-to/)
+- [HTML に保存する際にダウンレベルの公開コメントを無効にする](/cells/ja/net/disable-downlevel-revealed-comments-while-saving-to/)
 - [ExcelファイルをHtmlに保存しながらコメントをエクスポート](/cells/ja/net/export-comments-while-saving-excel-file-to/)
 - [印刷するものがない場合に白紙ページを出力する](/cells/ja/net/output-blank-page-when-there-is-nothing-to-print/)
 - [CustomImplementationFactory を使用してメモリ ストリームのカスタム実装を作成する](/cells/ja/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/)

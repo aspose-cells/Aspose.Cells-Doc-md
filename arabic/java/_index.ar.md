@@ -4,11 +4,11 @@ type: docs
 weight: 20
 url: /ar/java/
 is_root: true
-description: Aspose.Cells for Java هي مكتبة فئات تدعم إنشاء وتحديث وحفظ ملفات Excel. ويدعم Aspose.Cells for Java أيضًا تحويل الملفات إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+description: Aspose.Cells for Java هي مكتبة فئات تدعم إنشاء وتحديث وحفظ ملفات Excel. ويدعم Aspose.Cells for Java أيضًا تحويل الملفات إلى PDF و DOCX و PPTX و JSON.XPS و HTML و MHTML والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
-**! [todo: image_alt_text] (home_1.png)**
+**![todo:image_alt_text](home_1.png)**
 
 **مرحبا بكم في Aspose.Cells for Java**
 
@@ -16,7 +16,7 @@ description: Aspose.Cells for Java هي مكتبة فئات تدعم إنشاء 
 
 إلى جانب واجهات برمجة التطبيقات وعناصر تحكم واجهة المستخدم الرسومية ، يعمل Aspose.Cells for Java على تسريع Microsoft برمجة وتحويل برنامج Excel®.
 
-Aspose.Cells for Java يدعم جداول البيانات الشائعة (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، XLTM ، CSV ، SpreadsheetML ، ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و JSON ， Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+Aspose.Cells for Java يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML ، والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}

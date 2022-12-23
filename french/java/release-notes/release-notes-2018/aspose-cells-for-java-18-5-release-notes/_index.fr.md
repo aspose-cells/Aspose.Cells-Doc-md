@@ -10,9 +10,9 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.5.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSJAVA-42550|La conversion simultanée en PDF tandis que chaque classeur a son propre ensemble de polices privé (exclusif)|Nouvelle fonctionnalité|
+|CELLSJAVA-42550|La conversion simultanée en PDF alors que chaque classeur a son propre jeu de polices privé (exclusif)|Nouvelle fonctionnalité|
 |CELLSJAVA-42594|Détecter LoadFormat et FileFormatType de XLAM|Renforcement|
 |CELLSJAVA-42604|La mise en forme et le comportement du tableau croisé dynamique ont changé après l'ouverture/l'enregistrement du fichier de modèle|Punaise|
 |CELLSJAVA-41918|La feuille de calcul (XLS) est corrompue après un simple chargement et enregistrement|Punaise|

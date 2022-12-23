@@ -31,13 +31,13 @@ Grafikleri oluşturmadan önce, Aspose.Cells'i kullanarak grafikler oluştururke
 - [**Harita Noktası**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), grafikteki bir dizideki tek bir nokta.
 - [**Harita Noktası Toplama**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), bir dizideki tüm noktaları içeren bir koleksiyon.
 - [**Grafik Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , koleksiyonu[**Çizelge**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)nesneler.
--  DataLabels, belirtilen için DataLabels[**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Harita Noktası**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**trend çizgisi**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), vb.
+-  DataLabels, belirtilen için DataLabels[**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Harita Noktası**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**trend çizgisi**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), vb.
 - [**Doldurma Biçimi**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), bir şekil için dolgu biçimi.
 - [**Zemin**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), bir 3B grafiğin zemini.
 - [**Efsane**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), grafik efsanesi.
 - [**Astar**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), grafik çizgisi.
-- [**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , koleksiyonu[**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)nesneler.
-- [**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), grafikteki tek bir veri serisini temsil eder.
+- [**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , koleksiyonu[**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)nesneler.
+- [**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), grafikteki tek bir veri serisini temsil eder.
 - [**TikEtiketler**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), bir grafik eksenindeki değer işaretleriyle ilişkili onay işareti etiketleri.
 - [**Başlık**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), grafiğin veya eksenin başlığı.
 - [**trend çizgisi**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), grafikte bir eğilim çizgisi.
@@ -52,9 +52,9 @@ kullanarak bir çalışma sayfasına herhangi bir grafik türü ekleyin.[**Grafi
 
 ### **Basit Grafik Oluşturma**
 
- Aspose.Cells ile birçok farklı türde grafik oluşturmak mümkündür. Aspose.Cells tarafından desteklenen tüm standart grafikler, adlı bir numaralandırmada önceden tanımlanmıştır.[**Grafik türü**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). Önceden tanımlanmış grafik türleri şunlardır:
+ Aspose.Cells ile birçok farklı türde grafik oluşturmak mümkündür. Aspose.Cells tarafından desteklenen tüm standart grafikler, adlı bir numaralandırmada önceden tanımlanmıştır.[**Grafik tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). Önceden tanımlanmış grafik türleri şunlardır:
 
-|**Grafik Türleri**|**Tanım**|
+|**Grafik Türleri**|**Açıklama**|
 |:- |:- |
 |Kolon|Kümelenmiş Sütun Grafiğini Temsil Eder|
 |SütunYığılmış|Yığılmış Sütun Grafiğini Temsil Eder|
@@ -63,7 +63,7 @@ kullanarak bir çalışma sayfasına herhangi bir grafik türü ekleyin.[**Grafi
 |Sütun3DSığılmış|3B Yığılmış Sütun Grafiğini Temsil Eder|
 |Sütun3D100YığılmışYüzde|3B %100 Yığılmış Sütun Grafiğini Temsil Eder|
 |Sütun3D|3B Sütun Grafiğini Temsil Eder|
-|Çubuk|Kümelenmiş Çubuk Grafiği Temsil Eder|
+|Bar|Kümelenmiş Çubuk Grafiği Temsil Eder|
 |Çubuk Yığılmış|Yığılmış Çubuk Grafiği Temsil Eder|
 |Bar100YığılmışYüzde|%100 Yığılmış Çubuk Grafiği Temsil Eder|
 |Bar3Dkümelenmiş|3B Kümelenmiş Çubuk Grafiği Temsil Eder|
@@ -130,7 +130,7 @@ Aspose.Cells'i kullanarak bir grafik oluşturmak için:
 1.  ile çalışma sayfası hücrelerine bazı veriler ekleyin.[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) nesnenin[**değer ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)yöntem.
  Bu, grafiğin veri kaynağı olarak kullanılacaktır.
 1.  Çağırarak çalışma sayfasına bir grafik ekleyin.[**Grafik Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) koleksiyonun[*Ekle*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) yöntemi, kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)nesne.
-1.  ile grafiğin türünü belirtin.[**Grafik türü**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)numaralandırma.
+1.  ile grafiğin türünü belirtin.[**Grafik tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)numaralandırma.
  Örneğin, örnek kullanır[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)grafik türü olarak değer.
 1.  Yeniye erişin[**Çizelge**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) gelen nesne[**Grafik Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)indeksini geçerek koleksiyon.
 1.  Kapsüllenmiş grafik nesnelerinden herhangi birini kullanın.[**Çizelge**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)grafiği yönetmek için nesne.
@@ -144,27 +144,27 @@ Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığı yalnız
 
 {{% /alert %}}
 
-Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak tanır. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
+Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak sağlar. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
 
 Örnek kod yürütüldüğünde, çalışma sayfasına aşağıda gösterildiği gibi bir piramit grafiği eklenir.
 
 **Veri kaynağıyla birlikte piramit grafiği**
 
-![yapılacaklar:resim_alternatif_Metin](creating-and-customizing-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-and-customizing-charts_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
- Balon grafiği oluşturmak için,[**Grafik türü**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)olarak ayarlanması gerekir[**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)ve BubbleSizes, Values & XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir balon grafiği eklenir.
+ Balon grafiği oluşturmak için,[**Grafik tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)olarak ayarlanması gerekir[**ChartType.BUBBLE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#BUBBLE)ve BubbleSizes, Values & XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir balon grafiği eklenir.
 
 **Veri kaynağıyla birlikte balon grafiği**
 
-![yapılacaklar:resim_alternatif_Metin](creating-and-customizing-charts_2.jpg)
+![yapılacaklar:resim_alternatif_metin](creating-and-customizing-charts_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
 #### **Veri İşareti Grafiği ile Çizgi**
 
-Veri işaretleyici grafiğiyle bir çizgi oluşturmak için,[**Grafik türü**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)olarak ayarlanması gerekir[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) ve arka plan alanı, Seri İşaretleyiciler, Değerler ve XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına veri işaretçi grafiği içeren bir satır eklenir.
+Veri işaretleyici grafiğiyle bir çizgi oluşturmak için,[**Grafik tipi**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)olarak ayarlanması gerekir[**ChartType.LINE_WITH_DATA_MARKERS**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#LINE_WITH_DATA_MARKERS) ve arka plan alanı, Seri İşaretleyiciler, Değerler ve XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına veri işaretçi grafiği içeren bir satır eklenir.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-CreateLineWithDataMarkerChart-1.java" >}}
 
@@ -176,7 +176,7 @@ Veri işaretleyici grafiğiyle bir çizgi oluşturmak için,[**Grafik türü**](
 
 Geliştiriciler, Aspose.Cells basit API'i kullanarak çalışma zamanında özel grafikler oluşturabilir.
 
- Grafik, bir veri serisinden oluşur. Aspose.Cells'deki her veri serisi, bir[**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) nesne oysa[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesne koleksiyonu olarak hizmet eder[**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)nesneler. Özel bir grafik oluştururken, geliştiriciler farklı veri serileri için farklı türde grafikler kullanma özgürlüğüne sahiptir (bir[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)nesne).
+ Grafik, bir veri serisinden oluşur. Aspose.Cells'deki her veri serisi, bir[**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) nesne oysa[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesne koleksiyonu olarak hizmet eder[**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)nesneler. Özel bir grafik oluştururken, geliştiriciler farklı veri serileri için farklı türde grafikler kullanma özgürlüğüne sahiptir (bir[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)nesne).
 
 {{% alert color="primary" %}}
 
@@ -188,7 +188,7 @@ Aşağıdaki örnek kod, özel grafiklerin nasıl oluşturulacağını gösterir
 
 **Sütun ve çizgi grafiklerini birleştiren özel grafik**
 
-![yapılacaklar:resim_alternatif_Metin](creating-and-customizing-charts_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-and-customizing-charts_3.png)
 
 **Programlama Örneği**
 

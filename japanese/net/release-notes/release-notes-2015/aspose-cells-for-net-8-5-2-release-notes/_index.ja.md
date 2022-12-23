@@ -52,7 +52,7 @@ url: /ja/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43806) - XY 散布図のプロット/曲線が同じではありません。
 
- (CELLSNET-43805) - スプレッドシートから PDF への変換: ボールド スタイルが失われる
+(CELLSNET-43805) - スプレッドシートから PDF への変換: ボールド スタイルが失われる
 
 (CELLSNET-43804) - スプレッドシートから PDF への変換: TextBox のコンテンツがインデント付きでレンダリングされる
 
@@ -62,13 +62,13 @@ url: /ja/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43771) - スプレッドシートを PDF にレンダリングした後、画像がずれてしまう
 
-(CELLSNET-43748) - Excel から PDF へのレンダリングで TextBox テキストが重なる
+(CELLSNET-43748) - TextBox テキストが Excel でオーバーラップして PDF レンダリングされる
 
 (CELLSNET-43820) - 再保存後にスライサーを含むスプレッドシートが破損する
 
 (CELLSNET-43812) - 出力 Excel ファイルでグラフが空白になり、Excel 2013 に表示されない
 
-(CELLSNET-43810) - Aspose.Cells API 経由で保存された XLSX ファイルを開く際のエラー
+(CELLSNET-43810) - 保存された XLSX ファイルを Aspose.Cells API 経由で開く際のエラー
 
 (CELLSNET-43807) - ピボット テーブルを含むスプレッドシートを再保存すると破損する
 
@@ -90,7 +90,7 @@ url: /ja/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43814) - xlsm 形式で Excel をロードすると、null 参照エラーがスローされる
 
-(CELLSNET-43793) - Aspose.Cells.CellsException: XLSX ファイルのロード時のオーバーライド要素エラー
+(CELLSNET-43793) - Aspose.Cells.CellsException: XLSX ファイルの読み込み時のオーバーライド要素エラー
 
 (CELLSNET-43784) - Workbook.Combine での System.ArgumentException
 
@@ -100,7 +100,7 @@ url: /ja/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **新機能**
@@ -108,7 +108,7 @@ url: /ja/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43809) - griddesktop の非同期コールバック イベントを追加します。
 
- (CELLSNET-42316) - キーボード ショートカット Ctrl + Shift + 矢印キーが機能しない。
+(CELLSNET-42316) - キーボード ショートカット Ctrl + Shift + 矢印キーが機能しない。
 
  (CELLSNET-42174) - Control + 矢印キーでデータのあるセルにジャンプしない
 
@@ -142,7 +142,7 @@ PivotField の DisplayName で Cell オブジェクトを取得します。
 
 
 
-SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) メソッドを追加
+ SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) メソッドを追加
 
 SheetRender の特定のページを Graphics にレンダリングします。
 
@@ -160,7 +160,7 @@ SheetRender の特定のページを Graphics にレンダリングします。
 
 
 
-GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate イベントを追加します。
+ GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate イベントを追加します。
 
 ワークブック ファイルを GridDesktop にロードするさまざまな状態で発生します。
 

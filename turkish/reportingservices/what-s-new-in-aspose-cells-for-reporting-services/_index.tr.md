@@ -14,11 +14,11 @@ Bu sayfada, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells for Report
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* SXC formatını işlemek için destek.
+* SXC biçimini oluşturma desteği.
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* XLTX formatını işlemek için destek.
+* XLTX biçimini oluşturma desteği.
 
 ## Aspose.Cells for Reporting Services  22.7
 
@@ -30,7 +30,7 @@ Bu sayfada, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells for Report
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * XPS ve Tiff'in işlenmesi için iyileştirme.
+ * XPS ve Tiff'in oluşturulması için iyileştirme.
 
 ## Aspose.Cells for Reporting Services  22.4
 

@@ -174,7 +174,7 @@ Finora, quando abbiamo discusso dei grafici, abbiamo esaminato i grafici standar
 
 ### **Creazione di grafici personalizzati**
 
-Gli sviluppatori possono creare grafici personalizzati in fase di esecuzione utilizzando la semplice API Aspose.Cells.
+Gli sviluppatori possono creare grafici personalizzati in fase di esecuzione utilizzando Aspose.Cells semplice API.
 
  Un grafico è composto da una serie di dati. Ogni serie di dati in Aspose.Cells è rappresentata da a[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) oggetto mentre il[**SerieCollezione**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) oggetto funge da raccolta di[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)oggetti. Durante la creazione di un grafico personalizzato, gli sviluppatori hanno la libertà di utilizzare diversi tipi di grafici per diverse serie di dati (raccolte in un file[**SerieCollezione**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)oggetto).
 

@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.6.1 pour W
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-817| Résoudre le problème d'encodage utf8|Punaise|

@@ -34,7 +34,7 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43900) - Hyperlink.TextToDisplay güncellenmedi
 
- (CELLSNET-43892) - Her kaydetmede XLSX belge boyutu artar
+ (CELLSNET-43892) - XLSX belge boyutu her kaydetmede artar
 
  (CELLSNET-43869) - Aspose.Cells, Medium Trust'ta çalışamaz
 
@@ -42,13 +42,13 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Hatalar**
 
 
- (CELLSNET-43884) - Wingdings sembolleri, belirli elektronik tabloları HTML'ye dönüştürürken doğru şekilde oluşturulmuyor
+(CELLSNET-43884) - Belirli elektronik tablo HTML'e dönüştürülürken Wingdings sembolleri doğru şekilde oluşturulmuyor
 
  (CELLSNET-43877) - Excel, PivotTable'ı ekledikten sonra her zaman ortaya çıkan elektronik tabloyu onarır
 
  (CELLSNET-43831) - HTML'den Excel'e - CSS Stili Yoksayıldı
 
-(CELLSNET-43750) - Grafiği yeniledikten sonra ortaya çıkan e-tablodaki grafik değişiklikleri
+ (CELLSNET-43750) - Grafiği yeniledikten sonra ortaya çıkan e-tablodaki grafik değişiklikleri
 
  (CELLSNET-43843) - Workbook.CalculateFormula asla döndürmez
 
@@ -60,11 +60,11 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-42762) - Grafik Ekseni etiketleri pürüzlü metin olarak işleniyor
 
- (CELLSNET-42384) - XLSX PDF'ye dönüştürüldüğünde WordArt Kutuları engelleniyor
+ (CELLSNET-42384) - XLSX, PDF'e dönüştürüldüğünde WordArt Kutuları engelleniyor
 
  (CELLSNET-42380) - SmartArt kutuları siyah geliyor.
 
- (CELLSNET-42377) - SmartArt mizanpaj başlığı, Resim başlığı altında alt çizgiyle üst üste geliyor.
+(CELLSNET-42377) - SmartArt mizanpaj başlığı, Resim başlığı altında alt çizgiyle üst üste geliyor.
 
  (CELLSNET-41493) - Oluşturulan PDF'de metin kesiliyor/sarmalanıyor
 
@@ -72,7 +72,7 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43894) - OLE bağlantısı ObjectSourceFullName güncellenemedi
 
-(CELLSNET-43882) - Çalışma kitabını açıp kaydettikten sonra PageSetup.Zoom değişti
+ (CELLSNET-43882) - Çalışma kitabını açıp kaydettikten sonra PageSetup.Zoom değişti
 
  (CELLSNET-43881) - Satır kopyalandığında bazı hücre formülleri kayboluyor
 
@@ -80,13 +80,13 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43864) - İki XLSM çalışma kitabının birleştirilmesi bozuk bir çalışma kitabı oluşturuyor
 
- (CELLSNET-43839) - Elektronik tablodaki resimler PDF'ye dönüştürülürken işlenmiyor
+ (CELLSNET-43839) - Elektronik tablodaki resimler, PDF'e dönüştürülürken işlenmiyor
 
  (CELLSNET-43837) - Çalışma Kitabı nesnesi başlatıldıktan ve kaydedildikten sonra Bağlantılı Resim grafiğin içinde değil
 
  (CELLSNET-43836) - Range.CopyData çalışıyor ancak Range.Copy çalışmıyor
 
- (CELLSNET-43830) - Köprüye 2084'ten fazla karakter eklemek çıktı xlsx dosyasını bozuyor
+(CELLSNET-43830) - Köprüye 2084'ten fazla karakter eklemek çıktı xlsx dosyasını bozuyor
 
  (CELLSNET-43829) - Excel işlevi #NAME ile oluşturuluyor mu? Sayfa 1'de hata
 
@@ -94,25 +94,25 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **İstisnalar**
 
 
- (CELLSNET-43866) - Bir elektronik tabloyu PDF'ye dönüştürürken CellsException
+ (CELLSNET-43866) - PDF'e bir elektronik tablo oluşturulurken CellsException
 
  (CELLSNET-43847) - RefreshPivotTable'ları çağırmaya çalışırken istisna oluşuyor
 
  (CELLSNET-43852) - Workbook.CalculateFormula'da CellsException
 
-(CELLSNET-43893) - Bir elektronik tabloyu PDF formatına dönüştürürken CellsException
+ (CELLSNET-43893) - Bir elektronik tabloyu PDF biçiminde işlerken CellsException
 
- (CELLSNET-42108) - CellsException: Parametre geçerli değil: XLS'yi PDF'ye dönüştürürken
+ (CELLSNET-42108) - CellsException: Parametre geçerli değil: XLS'i PDF'e dönüştürürken
 
- (CELLSNET-43835) - Bir XLS dosyasını PDF dosya formatına dönüştürürken System.OutOfMemoryException
+ (CELLSNET-43835) - Bir XLS dosyasını PDF dosya biçimine dönüştürürken System.OutOfMemoryException
 
- (CELLSNET-43865) - Elektronik tabloyu PDF ve HTML'ye dönüştürürken ArgumentException
+ (CELLSNET-43865) - Elektronik tabloyu PDF & HTML'e dönüştürürken ArgumentException
 
  (CELLSNET-43862) - Workbook.Save'de NullReferenceException
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -132,7 +132,7 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  WorkbookMetadata ad alanı ve sınıfları ekler.
 
- Dosyanın meta verilerini okumak ve kaydetmek için kullanılır.
+Dosyanın meta verilerini okumak ve kaydetmek için kullanılır.
 
 
 
@@ -150,6 +150,6 @@ url: /tr/net/aspose-cells-for-net-8-6-0-release-notes/
 
  OoxmlSaveOptions.UpdateZoom özelliğini ekler
 
-PageSetup.FitToPagesWide ve PageSetup.FitToPagesTall özellikleri çalışma sayfasının nasıl ölçeklendiğini kontrol ediyorsa, PageSetup.Zoom'u güncellemek için kullanılır.
+ PageSetup.FitToPagesWide ve PageSetup.FitToPagesTall özellikleri çalışma sayfasının nasıl ölçeklendiğini kontrol ediyorsa, PageSetup.Zoom'u güncellemek için kullanılır.
 
 

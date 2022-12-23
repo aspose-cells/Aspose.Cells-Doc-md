@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- El parámetro delimitador de campo en**rsreportserver.config** tiene prioridad sobre el parámetro delimitador de campo en**Aspose.Cells.ReportingServices.xml** Cuando el parámetro delimitador de campo en**rsreportserver.config** es nulo o el valor predeterminado, el parámetro delimitador de campo en**Aspose.Cells.ReportingServices.xml** se usa
+ El parámetro delimitador de campo en**rsreportserver.config** tiene prioridad sobre el parámetro delimitador de campo en**Aspose.Cells.ReportingServices.xml** . Cuando el parámetro delimitador de campo en**rsreportserver.config** es nulo o el valor predeterminado, el parámetro delimitador de campo en**Aspose.Cells.ReportingServices.xml** se usa

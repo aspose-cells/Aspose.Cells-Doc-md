@@ -1,5 +1,5 @@
 ﻿---
-title: .jrprint Dosyalarını XLS Formatlarına Aktarma
+title: .jrprint Dosyalarını XLS Biçimlerine Dışa Aktarma
 type: docs
 weight: 20
 url: /tr/jasperreports/exporting-jrprint-files-to-xls-formats/

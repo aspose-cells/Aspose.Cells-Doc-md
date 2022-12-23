@@ -12,18 +12,18 @@ url: /zh/net/aspose-cells-for-net-19-10-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSNET-46926|保存为 TIFF 时的 PageSavingCallback|新功能|
+|CELLSNET-46926|保存到 TIFF 时的 PageSavingCallback|新功能|
 |CELLSNET-46927|IMailMergeDataSource 相当于 Cells|新功能|
 |CELLSNET-46903|更改 ContentTypeProperties 的样式|强化|
 |CELLSNET-46954|引发类似于 Excel 的异常而不是挂起程序|表现|
 |CELLSNET-46896|漏斗图消失|漏洞|
 |CELLSNET-46934|转换为 PDF 文件格式时的延迟和内存使用|漏洞|
-|CELLSNET-43416|将电子表格呈现为 PDF 后，数据透视字段的排序发生了变化|漏洞|
+|CELLSNET-43416|将电子表格呈现为 PDF 后，数据透视字段的排序发生更改|漏洞|
 |CELLSNET-44686|提取图表时不应用数据透视排序|漏洞|
 |CELLSNET-46793|数据透视表的问题|漏洞|
 |CELLSNET-46882|按日期分组数据透视表并另存为 PDF 时出现问题|漏洞|
-|CELLSNET-46935|换行未在 HTML 中呈现的文本|漏洞|
-|CELLSNET-46940|表格边框未在 HTML 中正确呈现|漏洞|
+|CELLSNET-46935|包装未在 HTML 中呈现的文本|漏洞|
+|CELLSNET-46940|表格边框在 HTML 中未正确呈现|漏洞|
 |CELLSNET-46939|支持 TEXTJOIN() 函数|漏洞|
 |CELLSNET-46237|Cell 格式不粘|漏洞|
 |CELLSNET-46245|剪切/粘贴不会将 Cell 的名称复制到 GridDesktop 中的新位置|漏洞|
@@ -37,11 +37,11 @@ url: /zh/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46925|从 XLSX 中提取 OLE 对象时出现问题|漏洞|
 |CELLSNET-46928|联合总牌照问题|漏洞|
 |CELLSNET-46929|复制工作表时图表轴标签（标题）的方向发生变化|漏洞|
-|CELLSNET-46933|打开和保存 XLS 文件会删除所有文档和自定义属性|漏洞|
+|CELLSNET-46933|打开并保存 XLS 文件会删除所有文档和自定义属性|漏洞|
 |CELLSNET-46945|扩展范围.删除重复项|漏洞|
 |CELLSNET-46948|Range.Copy 大容量性能|漏洞|
 |CELLSNET-46949|复制工作表时 OLE 对象变成图片|漏洞|
-|CELLSNET-46941|当单元格具有文件引用时，另存为 HTML 会引发异常|例外|
+|CELLSNET-46941|另存为 HTML 当单元格有文件引用时抛出异常|例外|
 |CELLSNET-46952|调用 Workbook.RemoveUnusedStyles() 时出现异常|例外|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。

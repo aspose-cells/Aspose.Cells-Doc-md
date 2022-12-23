@@ -7,7 +7,7 @@ url: /ja/java/auto-fit-row-and-column/
 ## **Aspose.Cells - 行と列の自動調整**
 行の幅と高さを自動サイズ変更する最も簡単な方法は、Worksheet.autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更する行の) 行インデックスをパラメーターとして受け取ります。
 
-**ご注意ください：** Java を使用して Excel スプレッドシートの行と列を自動調整する場合は、次の URL にアクセスしてください。[行と列の自動調整](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**ご注意ください：**Java を使用して Excel スプレッドシートの行と列を自動調整する場合は、次の URL にアクセスしてください。[行と列の自動調整](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 

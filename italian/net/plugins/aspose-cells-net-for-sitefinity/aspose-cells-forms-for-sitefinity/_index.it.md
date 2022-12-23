@@ -6,7 +6,7 @@ url: /it/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **introduzione**
 
-Il modulo Dynamic Forms for Sitefinity Aspose.Cells consente agli utenti di generare questionari e sondaggi dinamici, salvare l'input dell'utente in un foglio di calcolo Excel ed esportare i risultati in fogli di calcolo Excel, testo, CSV e OpenDocument utilizzando Aspose.Cells. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells for .NET.
+Aspose.Cells Il modulo Dynamic Forms for Sitefinity consente agli utenti di generare questionari e sondaggi dinamici, salvare l'input dell'utente in un foglio di calcolo Excel ed esportare i risultati in Excel, testo, CSV e foglio di calcolo OpenDocument utilizzando Aspose.Cells. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells for .NET.
 
 |<p>![cose da fare:immagine_alt_testo](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |
@@ -22,9 +22,9 @@ Questa prima versione del modulo è arricchita con le seguenti funzionalità per
 - Consenti di aggiungere/aggiornare etichette per ogni campo
 - Consenti di mostrare/nascondere i campi del modulo
 - Adatta automaticamente le colonne alla lunghezza del contenuto e applica la formattazione della colonna di intestazione come testo in grassetto
-- Esporta dati in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
+- Esporta dati in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
 - Esporta dati in un documento di testo delimitato da tabulazioni (*.txt)
-- Esporta dati in CSV (delimitato da virgola) (*.csv)
+- Esporta dati a CSV (delimitato da virgola) (*.csv)
 - Esporta dati in un foglio di calcolo OpenDocument (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione.
 - Il documento esportato viene inviato automaticamente al browser per il download.
@@ -63,11 +63,11 @@ Estrai il file ZIP scaricato. Avrai bisogno dell'FTP o dell'accesso diretto alla
 **Passaggio 2: registra il componente aggiuntivo Aspose Sitefinity Content Export in Sitefinity**
 
 1. Accedi al tuo Sitefinity CMS con un '**Amministratore** ' account. La pagina di login può essere raggiunta da<http://www.mywebsite.com/sitefinity>
-1.  Clic**Amministrazione** poi**Impostazioni**.
- Viene visualizzata la pagina Impostazioni di base.
+1.  Clic**Amministrazione** e poi**Impostazioni**.
+Viene visualizzata la pagina Impostazioni di base.
 1.  Clicca il**Avanzate** collegamento.
  Viene visualizzata la pagina Impostazioni.
-1.  Nel riquadro di sinistra, fare clic su**Cassette degli attrezzi** seguito da**Cassette degli attrezzi** , poi**PageControls**, **Sezioni** e**ContentToolboxSection** , poi**Strumenti.**
+1.  Nel riquadro di sinistra, fare clic su**Cassette degli attrezzi** seguito da**Cassette degli attrezzi** , poi**PageControls**, **Sezioni** e**ContentToolboxSection** , poi**Utensili.**
 1.  Clic**Creare nuovo**.
  Viene visualizzato il modulo di registrazione del widget.
 1.  Compila i campi del modulo come segue:
@@ -113,7 +113,7 @@ Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, 
 1.  Assicurati di aver effettuato l'accesso fai clic sul menu Pagina fai clic sulla prima riga**Visualizzazione** pulsante di opzione vicino**Colonna Azione.**  
 1.  Clic**Modificare** pulsante disponibile vicino all'etichetta dell'opzione.
 1.  Ci sono pochi campi predefiniti, puoi modificare/nascondere semplicemente facendo clic**Modificare** in griglia.
-1.  Puoi creare/eliminare/aggiornare nuovi campi di qualsiasi tipo**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Title, Success Message)**
+1. Puoi creare/eliminare/aggiornare nuovi campi di qualsiasi tipo**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Title, Success Message)**
 
 #### **Invio modulo dinamico**
 
@@ -124,7 +124,7 @@ Per rimuovere il messaggio di valutazione e le limitazioni delle funzionalità, 
 #### **Esporta dati salvati**
 
 1. Assicurati di aver effettuato l'accesso, vai al menu Pagine e fai clic sul pulsante di opzione di visualizzazione della prima riga vicino alla colonna delle azioni
-1.  Passaggio del mouse**Icona Esporta** e fare clic**su di esso**si aprirà la pagina di esportazione
+1.  Passaggio del mouse**Icona Esporta** e fare clic**su di essa**si aprirà la pagina di esportazione
 1.  Selezionare**Tipo di esportazione**
 1.  Clic**Esporta dati**
 1. Il file di dati esportato secondo il tipo di esportazione verrà visualizzato per il download/apertura

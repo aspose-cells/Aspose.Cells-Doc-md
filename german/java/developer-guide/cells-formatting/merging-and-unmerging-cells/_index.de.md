@@ -66,7 +66,7 @@ Das folgende Beispiel zeigt, wie die verbundenen Zellen geteilt werden (C6). Das
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UnMergingCellsInWorksheet-UnMergingCellsInWorksheet.java" >}}
 
-## **In Verbindung stehende Artikel**
+## **Zum Thema passende Artikel**
 
 - [Zusammengeführte Zellen finden und teilen](/cells/de/java/detect-merged-cells-in-a-worksheet/).
 - [Verbinden und teilen Sie einen Zellbereich mit den Methoden Range.merge() und Range.unMerge()](/cells/de/java/merge-or-unmerge-range-of-cells/).

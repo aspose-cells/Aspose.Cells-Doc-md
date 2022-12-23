@@ -12,10 +12,10 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.5.
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-42550|La conversión simultánea a PDF mientras cada libro de trabajo tiene su propio conjunto privado (exclusivo) de fuentes|Nueva caracteristica|
+|CELLSJAVA-42550|La conversión simultánea a PDF, mientras que cada libro de trabajo tiene su propio conjunto de fuentes privado (exclusivo)|Nueva caracteristica|
 |CELLSJAVA-42594|Detectar LoadFormat y FileFormatType de XLAM|Mejora|
 |CELLSJAVA-42604|El formato y el comportamiento de la tabla dinámica cambiaron después de abrir/guardar el archivo de plantilla|Insecto|
-|CELLSJAVA-41918|La hoja de cálculo (XLS) se corrompe después de una simple carga y guardado|Insecto|
+|CELLSJAVA-41918|La hoja de cálculo (XLS) se corrompe después de cargar y guardar|Insecto|
 |CELLSJAVA-42616|Aspose.Cells rompe la interfaz del iterador al llamar a Iterator.hasnext() dos veces|Insecto|
 |CELLSJAVA-42607|Los valores de las propiedades se distorsionan al extraer las propiedades del documento|Insecto|
 |CELLSJAVA-42601|El libro de trabajo está dañado después de agregar una marca de agua|Insecto|

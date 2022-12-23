@@ -72,7 +72,7 @@ Aspose.Cells.GridWeb 接受以点、英寸、像素等为单位的行高和列�
 
 **输出：第 1 行的高度已设置为 50 点** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_1.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_1.png)
 
 
 
@@ -98,7 +98,7 @@ Aspose.Cells.GridWeb 接受以点、英寸、像素等为单位的行高和列�
 
 **第 1 行和第 2 行的标题已自定义** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_2.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_2.png)
 
 
 
@@ -112,7 +112,7 @@ Aspose.Cells.GridWeb 接受以点、英寸、像素等为单位的行高和列�
 
 **第 1 列和第 2 列的标题已自定义** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_3.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_3.png)
 
 
 
@@ -134,7 +134,7 @@ Aspose.Cells.GridWeb 接受以点、英寸、像素等为单位的行高和列�
 
 **处于冻结状态的行和列** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_4.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_4.png)
 
 
 
@@ -148,7 +148,7 @@ Aspose.Cells.GridWeb 接受以点、英寸、像素等为单位的行高和列�
 
 **解冻后的工作表** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_5.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_5.png)
 
 
 
@@ -160,13 +160,13 @@ GridWeb 提供了一个上下文菜单，最终用户可以使用该菜单对控
 
 **完整的上下文选项** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_6.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_6.png)
 
 通过限制上下文菜单中可用的选项，可以限制对行和列的任何类型的客户端操作。这可以通过将 GridWeb 控件的 EnableClientColumnOperations 和 EnableClientRowOperations 属性设置为 false 来完成。也可以通过将 GridWeb 控件的 EnableClientFreeze 属性设置为 false 来限制用户冻结行和列。
 
 **限制行和列选项后的上下文菜单** 
 
-![待办事项：图像_替代_文本](working-with-rows-and-columns-gridweb_7.png)
+![待办事项：图片_替代_文本](working-with-rows-and-columns-gridweb_7.png)
 
 
 

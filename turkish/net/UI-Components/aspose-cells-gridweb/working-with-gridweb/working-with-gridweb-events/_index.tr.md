@@ -21,7 +21,7 @@ Bu liste, Control sınıfından Aspose.Cells.GridWeb tarafından devralınan ola
 
 {{% /alert %}} 
 
-|**Olaylar** |**Tanım** |
+|**Olaylar** |**Açıklama** |
 |:- |:- |
 | Hücre Komutu| Bir hücrenin komut köprüsü tıklandığında gerçekleşir. Bu olay başlatıldığında, e.Argument parametresi komutun adını sağlar.|
 | HücreDoubleClick| Hücre çift tıklandığında gerçekleşir.|
@@ -37,12 +37,12 @@ Bu liste, Control sınıfından Aspose.Cells.GridWeb tarafından devralınan ola
 | Satır Silme| Bir kullanıcı, istemci yan menüsünü kullanarak bir çalışma sayfasından bir satırı silmeye çalıştığında gerçekleşir.|
 | SatırDoubleClick|Satır başlığına çift tıklandığında gerçekleşir.|
 | Satır Eklendi| Bir kullanıcı, istemci yan menüsünü kullanarak çalışma sayfasına bir satır eklediğinde gerçekleşir.|
-| Komutu Kaydet| Ne zaman oluşur**Kaydetmek** butonu tıklanır.|
+| Komutu Kaydet| Ne zaman oluşur**Kayıt etmek** butonu tıklanır.|
 | SheetDataGüncellendi| Denetim deftere nakledilen verileri yüklediğinde ve çalışma sayfası verilerini güncelleştirdiğinde gerçekleşir.|
 | SheetSekmeClick| Bir sayfa sekmesi tıklandığında gerçekleşir.|
 | Komut Gönder| Ne zaman oluşur**Göndermek** butonu tıklanır.|
 | Komutu Geri Al| Ne zaman oluşur**Geri alma** butonu tıklanır.|
-| AjaxCallBitti| Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanmalıdır).|
+| AjaxCallBitti| Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanacaktır).|
 | CellModifiedOnAjax| AJAX çağrısında hücre değiştirildiğinde tetiklenir.|
 | OnAfterColumnFilter| Filtre bir sütuna uygulandıktan sonra tetiklenir.|
 | OnBeforeColumnFilter| Filtre bir sütuna uygulanmadan önce tetiklenir.|
@@ -58,7 +58,7 @@ Belirli bir olayı tetikleme konusunda belirli bir işlem gerçekleştirmek içi
 
    **Seçilen bir olaya çift tıklama** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb-events_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb-events_1.png)
 
 
 
@@ -67,22 +67,22 @@ Belirli bir olayı tetikleme konusunda belirli bir işlem gerçekleştirmek içi
 
 **Visual Studio tarafından oluşturulan bir olay işleyicisi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb-events_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb-events_2.png)
 
 
 
 
 1. Olay işleyici içinde bazı eylemler gerçekleştirmek için kod ekleyin.
 
- Burada, ızgara içeriğini bir Excel dosyasına kaydeden tek bir kod satırı**Kaydetmek** butonu tıklandığında eklendi.
+ Burada, ızgara içeriğini bir Excel dosyasına kaydeden tek bir kod satırı**Kayıt etmek** butonu tıklandığında eklendi.
 
 Daha fazla bilgi almak için, bazı kodları görmek üzere imleci yukarıya hareket ettirin, ardından Visual Studio'nun GridWeb'in SaveCommand olayına bir olay işleyicisi eklemek için yeterince akıllı olduğunu göreceksiniz.
 ### **3. Adım: Uygulamanızı Çalıştırma**
 1. Uygulamayı oluşturun ve çalıştırın.
-1.  Tıklamak**Kaydetmek**.
+1.  Tıklamak**Kayıt etmek**.
 
  Izgara içeriği bir Excel dosyasına kaydedilir.
 
 **Çalışma modunda uygulama** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb-events_3.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb-events_3.png)

@@ -16,8 +16,8 @@ url: /es/net/aspose-cells-for-net-5-0-0-release-notes/
 
 - Incluye compatibilidad con el formato de archivo MS Excel 2007 XLSB.
  Proporciona la función especial de copiar y pegar.
- Admite la clasificación de marcadores inteligentes.
-37 mejoras y correcciones.
+Admite la clasificación de marcadores inteligentes.
+ 37 mejoras y correcciones.
 
  Qué ha cambiado en Aspose.Cells.GridWeb:
 

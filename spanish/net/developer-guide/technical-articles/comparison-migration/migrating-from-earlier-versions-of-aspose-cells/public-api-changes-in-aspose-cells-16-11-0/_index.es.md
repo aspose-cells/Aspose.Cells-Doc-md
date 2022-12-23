@@ -72,7 +72,7 @@ Aquí hay una clase personalizada simple que extiende la clase GlobalizationSett
 
 
 
-El siguiente fragmento carga una hoja de cálculo existente y agrega el Subtotal de tipo Promedio en los datos ya disponibles en la hoja de cálculo. La clase CustomSettings y sus métodos GetTotalName y GetGrandTotalName se llamarán en el momento de agregar Subtotal a la hoja de cálculo.
+El siguiente fragmento carga una hoja de cálculo existente y agrega el Subtotal de tipo Promedio en los datos ya disponibles en la hoja de trabajo. La clase CustomSettings y sus métodos GetTotalName y GetGrandTotalName se llamarán en el momento de agregar Subtotal a la hoja de trabajo.
 
 **C#**
 

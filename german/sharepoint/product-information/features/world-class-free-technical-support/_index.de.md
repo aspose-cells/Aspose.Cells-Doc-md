@@ -10,7 +10,7 @@ Aspose ist bekannt für seinen kostenlosen und unbegrenzten technischen Support,
 
 {{% /alert %}}
 
-### **Unterstützung erhalten**
+### **Unterstützung bekommen**
 
 #### **Foren**
 
@@ -22,7 +22,7 @@ Aspose ist bekannt für seinen kostenlosen und unbegrenzten technischen Support,
 
 #### **Brauchen Sie mehr Unterstützung?**
 
- Aspose bietet allen Benutzern kostenlosen Support. Für Unternehmen, die möchten, dass ihr Thema priorisiert wird, oder die unsere Produktentwicklungs-Roadmap beeinflussen möchten, gibt es sie[Erweiterte Support-Optionen](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) wie Priority Support und Enterprise Support.
+Aspose bietet allen Benutzern kostenlosen Support. Für Unternehmen, die möchten, dass ihr Thema priorisiert wird, oder die unsere Produktentwicklungs-Roadmap beeinflussen möchten, gibt es sie[Erweiterte Support-Optionen](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) wie Priority Support und Enterprise Support.
 
 **In den Aspose.Support-Foren herrscht reges Treiben.**
 

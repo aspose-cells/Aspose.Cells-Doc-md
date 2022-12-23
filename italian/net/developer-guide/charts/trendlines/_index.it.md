@@ -11,11 +11,11 @@ url: /it/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- La seguente schermata mostra il grafico con una linea di tendenza e il suo testo dell'equazione è mostrato in colore rosso. Recupereremo questo testo utilizzando il file[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)property nel codice di esempio seguente.
+La seguente schermata mostra il grafico con una linea di tendenza e il suo testo dell'equazione è mostrato in colore rosso. Recupereremo questo testo utilizzando il file[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)property nel codice di esempio seguente.
 
 ![cose da fare:immagine_alt_testo](get-equation-text-of-chart-trendline_1.png)
 
-## Codice C# per ottenere il testo dell'equazione della linea di tendenza del grafico
+## C# codice per ottenere il testo dell'equazione della linea di tendenza del grafico
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetEquationTextOfChartTrendLine-1.cs" >}}
 

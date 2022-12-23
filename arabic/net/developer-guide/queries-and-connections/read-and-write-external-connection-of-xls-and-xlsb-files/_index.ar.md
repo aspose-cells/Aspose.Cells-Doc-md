@@ -1,22 +1,22 @@
 ﻿---
-title: قراءة وكتابة الاتصال الخارجي لملفات XLS و XLSB
+title: قراءة وكتابة التوصيل الخارجي لملفات XLS و XLSB
 type: docs
 weight: 80
 url: /ar/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-يدعم Aspose.Cells بالفعل قراءة وكتابة الاتصال الخارجي لملف XLSX ولكنه يدعم الآن أيضًا هذه الميزة لملف XLSB و XLS. ومع ذلك ، فإن الكود هو نفسه لجميع أنواع التنسيقات.
+يدعم Aspose.Cells بالفعل قراءة وكتابة الاتصال الخارجي لملف XLSX ولكنه الآن يدعم هذه الميزة لملف XLSB و XLS. ومع ذلك ، فإن الكود هو نفسه لجميع أنواع التنسيقات.
 
-## **قراءة وكتابة الاتصال الخارجي لملف XLS / XLSB**
+## **قراءة وكتابة الوصلة الخارجية لملف XLS/XLSB**
 
- يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف XLSB (يمكن أيضًا تحميل XLS) ويقرأ أول اتصال خارجي وهو بالفعل Microsoft Access DB Connection. ثم يقوم بتعديل ملف[**الاسم**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) الخاصية ويحفظها كملف إخراج XLS / XLSB. تظهر لقطة الشاشة تأثير الكود على[نموذج لملف XLSB](51740722.xlsb) و[إخراج ملف XLSB](51740723.xlsb) بعد تنفيذه. يرجى أيضًا الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مرجع.
+ يقوم نموذج التعليمات البرمجية التالي بتحميل نموذج ملف XLSB (يمكن أيضًا تحميل XLS) ويقرأ أول اتصال خارجي وهو في الواقع Microsoft Access DB Connection. ثم يقوم بتعديل ملف[**الاسم**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) الخاصية ويحفظها كملف الإخراج XLS/XLSB. تظهر لقطة الشاشة تأثير الكود على[عينة ملف XLSB](51740722.xlsb) و[ملف الإخراج XLSB](51740723.xlsb) بعد تنفيذه. يرجى أيضًا الاطلاع على إخراج وحدة التحكم لعينة التعليمات البرمجية الواردة أدناه للحصول على مرجع.
 
 ![ما يجب القيام به: image_بديل_نص](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
 ## **عينة من الرموز**
 
-يجب أن تعمل الكود التالي مع ملفات XLSB و XLS عن طريق تحميل وحفظ الملفات بالملحق المناسب.
+يجب أن يعمل الكود التالي لكل من ملفات XLSB و XLS عن طريق تحميل وحفظ الملفات بالملحق المناسب.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 

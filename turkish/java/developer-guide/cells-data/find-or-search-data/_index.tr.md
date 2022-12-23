@@ -6,11 +6,11 @@ url: /tr/java/find-or-search-data/
 ---
 {{% alert color="primary" %}} 
 
- Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek** ve daha sonra**Bulmak** Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**TAMAM** onu aramak için Excel, eşleşen alanları vurgular.
+ Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek** ve sonra**Bulmak** Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**Tamam** onu aramak için Excel, eşleşen alanları vurgular.
 
 **Belirli bir değer içeren hücreleri bulmak için Bul iletişim kutusunu kullanma** 
 
-![yapılacaklar:resim_alternatif_Metin](find-or-search-data_1.png)
+![yapılacaklar:resim_alternatif_metin](find-or-search-data_1.png)
 
 Bu örnekte arama değeri "Portakallar"dır.
 
@@ -34,7 +34,7 @@ Tüm bulma yöntemleri, belirtilen arama değerini içeren tüm hücreler için 
 
 **Örnek çalışma sayfası verileri** 
 
-![yapılacaklar:resim_alternatif_Metin](find-or-search-data_2.png)
+![yapılacaklar:resim_alternatif_metin](find-or-search-data_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
 ## **Dizeleri Arama**

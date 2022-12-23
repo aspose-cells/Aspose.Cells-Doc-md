@@ -1,12 +1,12 @@
 ﻿---
-title: 每个 Excel 工作表渲染一个 PDF 页面 - Excel 到 PDF 的转换
+title: 每个 Excel 工作表渲染一个 PDF 页 - Excel 到 PDF 的转换
 type: docs
 weight: 100
 url: /zh/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}} 
 
-处理大型 Microsoft Excel 文件时（例如，有许多工作表的工作簿，每个工作表有 50 列和 300 或更多行数据），您可能希望 PDF 输出显示每个工作表一页，而不管工作表的大小.这意味着每个页面可能具有完全不同的页面大小。这可以通过使用 Aspose.Cells for .NET 来实现。
+处理大型 Microsoft Excel 文件时（例如，工作簿有很多工作表，每个工作表有 50 列和 300 行或更多行数据），您可能希望 PDF 输出显示每个工作表一页，而不管工作表的大小.这意味着每个页面可能具有完全不同的页面大小。这可以通过使用 Aspose.Cells for .NET 来实现。
 
 {{% /alert %}} 
 

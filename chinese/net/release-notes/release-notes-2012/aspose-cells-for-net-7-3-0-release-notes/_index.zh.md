@@ -18,7 +18,7 @@ url: /zh/net/aspose-cells-for-net-7-3-0-release-notes/
 
 
 
-新的功能
+新功能
 
  40701 - 支持读写 MHT 文件
 
@@ -52,7 +52,7 @@ url: /zh/net/aspose-cells-for-net-7-3-0-release-notes/
 - Cells.ExportDataTableAsString() 方法和自定义格式的问题
 - 数据透视表的一个严重问题
 - 在 flygives #VALUE 的多个工作簿上使用 Workbook.CalculateFormula() 方法
-- 业务形状（内部文本）的 PDF 渲染效果不佳
+- PDF 商业形状（里面的文字）的渲染不好
 - 根据打印页数发布 XLS 目录
 
 -PDF 转换遗漏了命名区域的值
@@ -62,7 +62,7 @@ url: /zh/net/aspose-cells-for-net-7-3-0-release-notes/
 -Cells 格式化问题
 
 - 公式引用图像的问题
-- SpreadsheetML 中的数组公式在转换为 XLSX 时不会保留
+- 转换为 XLSX 时，SpreadsheetML 中的数组公式不会结转
 - XLSM 中丢失命名范围错误
 
 

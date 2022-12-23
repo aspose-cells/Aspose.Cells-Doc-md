@@ -29,24 +29,24 @@ url: /ja/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48060|カスタム スタイルでの RemoveUnusedStyles 関数の使用エラー|バグ|
 |CELLSNET-48080|ピボットテーブルを作成するとき、ピボットテーブルは列名として「值」または「値」を使用できません|バグ|
 |CELLSNET-48085|非表示の列見出しが表示される|バグ|
-|CELLSNET-48105|Excel から HTML への変換中にテキストボックスの配置が変更される|バグ|
-|CELLSNET-48048|コメント付きの XLSX を PDF 形式に保存する際の例外|バグ|
+|CELLSNET-48105|Excel を HTML に変換する際にテキスト ボックスの配置が変更される|バグ|
+|CELLSNET-48048|コメント付きの XLSX を PDF 形式で保存すると例外が発生する|バグ|
 |CELLSNET-48082|ImportCustomObjects を使用して 30 を超える行を追加すると、破損したファイルが生成される|バグ|
 |CELLSNET-48086|名前付き範囲は 21.5 では正しく作成されませんでしたが、21.4 では機能しました|バグ|
 |CELLSNET-48118|更新されたスピル範囲に従って動的配列式をリフレッシュするサポート|バグ|
 |CELLSNET-48081|GridWeb に画像が表示されない|バグ|
 |CELLSNET-48117|GridDesktop に GridCell.GetValidation() を追加|バグ|
 |CELLSNET-47627|Aspose.Cells を使用して Excel チャートの X 軸にアクセス/変更する際の問題|バグ|
-|CELLSNET-48041|抽出されたチャートがチャートから画像/PDF へのレンダリングで歪む|バグ|
+|CELLSNET-48041|抽出されたグラフは、グラフの画像/PDF レンダリングで歪んでいます。|バグ|
 |CELLSNET-48049|xlsx ワークブックから emf に変換するときの軸間隔の違い|バグ|
 |CELLSNET-48101|中国語の文字が Rectangle Linux Docker として表示される|バグ|
 |CELLSNET-48061|クエリの置換後に PowerQuery が消える|バグ|
 |CELLSNET-48065|特定の名前付き範囲値でファイルを再保存すると、Excel が破損する|バグ|
 |CELLSNET-48067|SetChartDataRange は結合セルを認識しませんでした|バグ|
 |CELLSNET-48072|空のチャートを読むと、間違ったチャートタイプが取得されます|バグ|
-|CELLSNET-48133|出力 XLSX ファイルを開くときに MS Excel によって発生するエラー|バグ|
+|CELLSNET-48133|出力 XLSX ファイルを開くときに MS Excel によって発生したエラー|バグ|
 |CELLSNET-48045|svg を画像に変換するときに例外がスローされる|例外|
-|CELLSNET-48062|XLS から XLSX への変換中に発生した例外|例外|
+|CELLSNET-48062|XLS を XLSX に変換中に例外が発生しました|例外|
 |CELLSNET-48074|Apple 番号ファイルを開くときに値を null にすることはできません|例外|
 |
 

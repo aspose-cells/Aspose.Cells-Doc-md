@@ -33,28 +33,28 @@ url: /fr/net/aspose-cells-for-net-5-3-2-release-notes/
 
  Problèmes résolus dans Aspose.Cells for .NET v5.3.2.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |13695 | GrilleWeb| Correction du curseur restant sur la même ligne lors de l'utilisation des touches Ctrl-Entrée|
 |25599 | GrilleDesktop| Correction de l'exportation des styles de colonnes vers un fichier Excel|
-|25346 | Formule| Lien XLS VS. Lien XLSX|
+|25346 | Formule| XLS Lien VS. XLSX Lien|
 |25496 | Formule| Les champs numériques s'affichent sous la forme #VALUE !|
 |25574 | Formule| La formule VLOOKUP ne fonctionne pas avec ListObjects|
 |25625 | Formule| Erreur Workbook.CalculateFormula en sortie|
 |25683 | Formule| CalculateFormula - StackOverflowException|
 |25699 | Formule| La fonction CELL() ne fonctionne pas|
 |25147 | HTML| Enregistrement Html et problème de mise en page CSS des graphiques|
-|24514 | PDF| Problème de conversion Excel en PDF|
-|25149 | PDF| Exportation PDF - Problème de performances de Garbage Collection|
-|25260 | PDF| Problème XLS vers PDF|
+|24514 | PDF| Problème de conversion Excel vers PDF|
+|25149 | PDF| PDF export - Problème de performances de Garbage Collection|
+|25260 | PDF| Numéro XLS à PDF|
 |25289 | PDF| Numéro comme problème de grand exposant|
 |25365 | PDF| Mise en forme des caractères individuels en gras|
 |25490 | PDF| Obtention d'une erreur lors de la fusion de documents Excel vides|
-|25615 | PDF| problème de conversion PDF|
+|25615 | PDF| PDF problème de conversion|
 |24199 | Tableau croisé dynamique| PivotTable RefreshData lève une exception|
-|25267 | Tableau croisé dynamique| Problème de tableau croisé dynamique|
+|25267 | Tableau croisé dynamique|Problème de tableau croisé dynamique|
 |24577 | Xls| AutoFitColumn ne définit pas correctement la largeur|
-|25329 | Xls|OutOfMemoryException lors de l'ouverture d'Excel avec deux formes|
+|25329 | Xls| OutOfMemoryException lors de l'ouverture d'Excel avec deux formes|
 |25404 | Xls| Vérifier si le graphique est un graphique 3D|
 |25412 | Xls| Un moyen plus rapide de remplacer toutes les formules par une valeur|
 |25422 | Xls| Bug avec le rapport d'aspect de l'image|
@@ -76,8 +76,8 @@ url: /fr/net/aspose-cells-for-net-5-3-2-release-notes/
 |25421 | Xlsx| Diagram : Type de changement d'axe|
 |25430 | Xlsx| Les RadioButtons ne fonctionnent pas comme prévu|
 |25508 | Xlsx| Graphique Excel 2007 avec problème de code VBA|
-|25510 | Xlsx| Les objets intégrés ne restent pas au même emplacement|
+|25510 | Xlsx|Les objets intégrés ne restent pas au même emplacement|
 |25555 | Xlsx| Les graphiques ne se copient pas correctement|
-|25677 | Xlsx|Aspose.Cells ajoute une bordure aux Bitmaps lors de l'enregistrement aux formats Excel 2007|
+|25677 | Xlsx| Aspose.Cells ajoute une bordure aux Bitmaps lors de l'enregistrement aux formats Excel 2007|
 |25906 | Xlsx| Rotation des étiquettes de graduation non valide|
 

@@ -17,9 +17,9 @@ url: /zh/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49651|支持保存为json文件。|新功能|
 |CELLSNET-48499|检索特定单元格的格式化单元格值|强化|
 |CELLSNET-49523|清除工作表时清除定义的名称。|强化|
-|CELLSNET-48646|Excel 到 PDF 转换时发生 StackOverflow 异常|表现|
-|CELLSNET-49378|Excel 到 HTML 的转换性能和空单元格问题|表现|
-|CELLSNET-49453|在将 Excel 转换为 HTML 时提高性能|表现|
+|CELLSNET-48646|Excel 到 PDF 转换时出现 StackOverflow 异常|表现|
+|CELLSNET-49378|Excel 问题到 HTML 转换性能和空单元格|表现|
+|CELLSNET-49453|将 Excel 转换为 HTML 时提高性能|表现|
 |CELLSNET-48095|3D，云的形状改变了|漏洞|
 |CELLSNET-49544|保存引用多张工作表范围的外部 NamedRange 的错误|漏洞|
 |CELLSNET-49588|单一类型数据保存方式与原始值不同|漏洞|
@@ -34,10 +34,10 @@ url: /zh/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49193|GridDesktop 无法正常工作|漏洞|
 |CELLSNET-49642|Aspose.Cells.GridWeb 对 Newtonsoft.Json 有未声明的依赖|漏洞|
 |CELLSNET-49452|多行文本未正确呈现|漏洞|
-|CELLSNET-49498|HTML 流到 Excel 引发最新版本的异常|漏洞|
+|CELLSNET-49498|HTML 流式传输到 Excel 使用最新版本引发异常|漏洞|
 |CELLSNET-49610|Xml 导入丢失模板格式|漏洞|
 |CELLSNET-49671|带有 Windings 字体的文本未正确呈现为图像/HTML|漏洞|
-|CELLSNETCORE-278|当区域性设置为挪威语时，无法打开 XLSX 到 PDF 的转换结果|漏洞|
+|CELLSNETCORE-278|XLSX 到 PDF 文化设置为挪威语时无法打开转换结果|漏洞|
 |CELLSNET-49560|XML 的差异|漏洞|
 |CELLSNET-49598|回归：保存后 XML 的差异|漏洞|
 |CELLSNET-49630|转换为 EMF 时刻度线不正确|漏洞|

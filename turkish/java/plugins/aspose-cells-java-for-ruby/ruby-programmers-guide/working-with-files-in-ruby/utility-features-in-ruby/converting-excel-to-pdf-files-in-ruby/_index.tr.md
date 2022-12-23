@@ -1,5 +1,5 @@
 ﻿---
-title: Ruby'de Excel'i PDF Dosyalarına Dönüştürme
+title: Excel'i Ruby'de PDF Dosyalarına Dönüştürme
 type: docs
 weight: 30
 url: /tr/java/converting-excel-to-pdf-files-in-ruby/

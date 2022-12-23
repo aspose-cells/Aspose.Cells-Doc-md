@@ -10,7 +10,7 @@ url: /de/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Wir freuen uns, Aspose.Cells for Java v2.4.1 ankündigen zu können!
+Wir freuen uns, Aspose.Cells for Java v2.4.1 ankündigen zu können!
 
  Was hat sich geändert:
 
@@ -21,7 +21,7 @@ url: /de/java/aspose-cells-for-java-2-4-1-release-notes/
 - Unterstützt die Bearbeitung von Fensterpositions- und Größeneigenschaften für Workbook.
 - Das Lesen/Speichern von Excel 2007-Dateien wurde verbessert.
 - Die Diagramm-zu-Bild-Funktion wurde verbessert.
-- Direct Excel to PDF-Funktion wurde verbessert.
+- Funktion „Excel direkt an PDF“ wurde verbessert.
 - Die Formatierung von Cell-Werten wurde verbessert.
 - Das Lesen von Excel 97-2003-Dateien wurde verbessert.
 - Das Modul zum Speichern von Diagrammen wurde verbessert.
@@ -38,8 +38,8 @@ url: /de/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | XLSX| Lesen Sie die Excel2007-Datei|
 |19596 | XLs| Cells.getMaxDataColumn()|
 |19641 | XLs| Optionen zur Fehlerprüfung|
-|19696 | Diagramm| Diagramm für Excel2003-Datei speichern|
-|19822 | Diagramm|Verknüpfte Zellen für ChartFrames wie Title/DataLabels|
+|19696 | Diagramm|Diagramm für Excel2003-Datei speichern|
+|19822 | Diagramm| Verknüpfte Zellen für ChartFrames wie Title/DataLabels|
 |19823 | HTML| Cell Grenzen|
 |19832 | Diagramm2Bild| Wasserfalldiagramm mit StackedBar-Diagramm|
 |19894 | XLs| Holen Sie sich die Größe der Form, lesen Sie den Stil|

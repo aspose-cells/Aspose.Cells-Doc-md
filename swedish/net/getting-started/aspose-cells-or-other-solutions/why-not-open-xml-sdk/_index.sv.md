@@ -38,13 +38,13 @@ Följande tabell jämför funktionerna Open XML SDK och Aspose.Cells.
 
 |**Funktion eller funktionskategori**|**Öppna XML SDK**|**Aspose.Cells**|
 |:- |:- |:- |
-|Excel eller andra format som stöds|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Tab Delimited, ODS, Plain Text (TXT), PDF, XPS|
+|Excel eller andra format som stöds|XLSX|XLS, CSV, SpreadsheetML 2003, XLSX, HTML, Tab Delimited, ODS, vanlig text (TXT), 0816143474|
 |Konvertera mellan Excel-format|Nej|Ja|
 |<p>Högnivåprogrammering med en arbetsboksobjektmodell:</p><p>- Hitta och ersätta.</p><p>- Sätt ihop kalkylblad.</p><p>- Kopiera fragment och kalkylblad mellan arbetsböcker.</p>|Nej|Ja|
 |Detaljerad programmering med en dokumentobjektmodell, tillgång till enskilda element och formateringsegenskaper för alla kalkylbladselement.|Ja|Ja|
 |Direkt och fullständig tillgång på låg nivå till de underliggande XML-elementen och attributen såsom relationsidentifierare, listidentifierare för ett OOXML-dokument.|Ja|Nej|
 |<p>Generera rapporter, fyll i dokument med data:</p><p>- Importera/exportera data till/från en datatabell / _ResultSet.</p><p>- Funktionen Smart Markers.</p><p>- Infoga/ta bort rader/kolumner/intervall.</p><p>- Anpassade datakällor.</p>|Nej|Ja|
-|<p>Rendering och utskrift:* Rendera kalkylbladssidor till rasterbilder (TIFF, flersidig TIFF, PNG, JPEG, BMP).* Gör kalkylbladssidor till vektorbilder (EMF).</p><p>- Konvertera diagram till bilder (TIFF, flersidig TIFF, PNG, JPEG, BMP, EMF, etc.)</p><p>- Ange bildupplösning, kvalitet, komprimering och andra alternativ.</p><p>- Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Förhandsgranskning av Microsoft Excel.</p>|Nej|Ja|
+|<p>Rendering och utskrift:* Återge kalkylbladssidor till rasterbilder (TIFF, flersidiga TIFF, PNG, JPEG, BMP).* Återge kalkylbladssidor till vektorbilder (EMF).</p><p>- Konvertera diagram till bilder (TIFF, flersidig TIFF, PNG, JPEG, BMP, EMF, etc.)</p><p>- Ange bildupplösning, kvalitet, komprimering och andra alternativ.</p><p>- Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Förhandsgranskning av Microsoft Excel.</p>|Nej|Ja|
 |Beräkna/beräkna om formler dynamiskt|Nej|Ja|
 |Plattformar som stöds|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 
@@ -56,7 +56,7 @@ Det här projektet är också användbart för utvecklare som vill migrera från
 
  Utforska[pluginet med källkodsexempel på Aspose.Cells for .NET funktioner i jämförelse med OpenXML](https://github.com/asposemarketplace/Aspose_for_OpenXML).
 
-Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/net/licensing/) artikel för att göra detta.
+ Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/net/licensing/) artikel för att göra detta.
 
 {{% /alert %}}
 

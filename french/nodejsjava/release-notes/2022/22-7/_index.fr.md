@@ -10,17 +10,17 @@ url: /fr/nodejs-java/aspose-cells-for-node-js-via-java-22-7-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44721|Prise en charge du tri PivotField via un champ calculé|
 |CELLSJAVA-44733|Étudiez les règles de ms excel pour afficher la bordure de la cellule lorsque la colonne adjacente est masquée : la bordure de la cellule n'a pas été synchronisée|
-|CELLSJAVA-44695| Mauvaise conversion en PDF à partir de XLS avec Line Callout à gauche de la feuille|
+|CELLSJAVA-44695| Mauvaise conversion en PDF à partir de XLS avec légende de ligne à gauche de la feuille|
 |CELLSJAVA-44700|Les champs calculés du tableau croisé dynamique ne sont pas actualisés lors de la mise à jour de la source de données|
 |CELLSJAVA-44705|Cell.getDependents() lance une exception ou ne peut pas fournir toutes les personnes à charge|
 |CELLSJAVA-44717|Problème avec le style de bordure (ligne)|
 |CELLSJAVA-44707| la ligne de bordure ne s'affiche pas|
 |CELLSJAVA-44670| Problème avec les formules dans la sortie HTML - Conversion d'Excel en HTML|
-|CELLSJAVA-44202|Lors de l'exportation au format HTML, la légende du graphique n'est pas la même que celle de MS Excel|
+|CELLSJAVA-44202|Lors de l'exportation vers HTML, la légende du graphique n'est pas la même que celle de MS Excel|
 |CELLSJAVA-44591|La rotation du texte des étiquettes ne correspond pas à Excel dans l'image de sortie du graphique|
 |CELLSJAVA-44655|Impossible d'afficher le graphique Treemap avec une valeur négative, ce qui entraîne la poursuite de l'exécution|
 |CELLSJAVA-44686|Le texte du titre du graphique (2016) est incorrect lorsque Title.IsAutoText est vrai|

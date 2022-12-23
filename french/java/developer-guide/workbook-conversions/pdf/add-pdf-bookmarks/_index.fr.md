@@ -1,12 +1,12 @@
 ﻿---
-title: Ajouter des signets PDF
+title: Ajouter PDF Signets
 type: docs
 weight: 10
 url: /fr/java/add-pdf-bookmarks/
 ---
 {{% alert color="primary" %}} 
 
-Cet article explique comment insérer des signets PDF lors de la conversion d'une feuille de calcul au format PDF.
+Cet article fournit des informations sur la façon d'insérer des signets PDF lors de la conversion d'une feuille de calcul en PDF.
 
 Aspose.Cells vous permet d'ajouter des signets lors de l'exécution. Les signets PDF peuvent considérablement améliorer la navigabilité des longs documents. Lorsque vous ajoutez des liens de signet à un document PDF, vous pouvez avoir un contrôle précis sur la vue exacte que vous souhaitez, vous n'êtes pas limité à un lien vers une page. Vous pouvez configurer la vue précise en positionnant la page cible, puis créer le signet.
 

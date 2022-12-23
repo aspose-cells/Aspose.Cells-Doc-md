@@ -14,7 +14,7 @@ Wir freuen uns, Aspose.Cells for JasperReports 1.0.1 ankündigen zu können!
 
 Was gibt's Neues:
 
-- Schriftgrößen werden entsprechend angepasst, um Zeichen im Excel-Format Microsoft ähnlich wie Zeichen im PDF-Format einzufügen.
+- Die Schriftgrößen werden entsprechend angepasst, um Zeichen im Excel-Format Microsoft ähnlich wie Zeichen im Format PDF einzufügen.
 -  Achsenbeschriftungen (von Diagrammen) im Datumsformat werden korrekt und entsprechend gerendert.
 - Verlaufsfülleffekte für die Bereiche werden unterstützt, einschließlich Diagrammhintergrund (Diagrammbereich, Plotbereich usw.), Legendenhintergrund, Balken und Blasen usw.
 

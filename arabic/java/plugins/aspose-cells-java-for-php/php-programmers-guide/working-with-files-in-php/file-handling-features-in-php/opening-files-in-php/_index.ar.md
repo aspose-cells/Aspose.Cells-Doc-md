@@ -5,7 +5,7 @@ weight: 10
 url: /ar/java/opening-files-in-php/
 ---
 ## **Aspose.Cells - طرق بسيطة لفتح ملفات Excel**
-### **فتح من خلال المسار**
+### **فتح طريق**
 ما عليك سوى فتح ملف Microsoft Excel بالرجوع إلى مسار الملف
 
 **كود PHP**
@@ -33,7 +33,7 @@ $workbook2 = new Workbook($fstream);
 $fstream->close();
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**فتح الملفات (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/OpeningFiles.php)

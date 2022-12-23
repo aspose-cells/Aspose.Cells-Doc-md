@@ -6,7 +6,7 @@ url: /ar/java/refresh-values-of-linked-shapes/
 ---
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، يكون لديك شكل مرتبط في ملف Excel مرتبط ببعض الخلايا. في Microsoft Excel ، يؤدي تغيير قيمة الخلية المرتبطة أيضًا إلى تغيير قيمة الشكل المرتبط. يعمل هذا أيضًا بشكل جيد مع Aspose.Cells إذا كنت تريد حفظ المصنف بتنسيق XLS أو XLSX. ومع ذلك ، إذا كنت تريد حفظ المصنف الخاص بك بتنسيق PDF أو HTML ، فسيتعين عليك الاتصال[**Worksheet.getShapes (). updateSelectedValue ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) طريقة لتحديث قيمة الشكل المرتبط.
+في بعض الأحيان ، يكون لديك شكل مرتبط في ملف Excel مرتبط ببعض الخلايا. في Microsoft Excel ، يؤدي تغيير قيمة الخلية المرتبطة أيضًا إلى تغيير قيمة الشكل المرتبط. يعمل هذا أيضًا بشكل جيد مع Aspose.Cells إذا كنت تريد حفظ المصنف بتنسيق XLS أو XLSX. ومع ذلك ، إذا كنت تريد حفظ المصنف بتنسيق PDF أو HTML ، فسيتعين عليك الاتصال[**Worksheet.getShapes (). updateSelectedValue ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue()) طريقة لتحديث قيمة الشكل المرتبط.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /ar/java/refresh-values-of-linked-shapes/
 
 ![ما يجب القيام به: image_بديل_نص](refresh-values-of-linked-shapes_1.png)
 
-يمكنك تنزيل ملف[ملف Excel المصدر](5472956.xlsx) و ال[إخراج PDF](5472955.pdf) من الروابط المعطاة.
+يمكنك تنزيل ملف[ملف Excel المصدر](5472956.xlsx) و ال[الإخراج PDF](5472955.pdf) من الروابط المعطاة.
 
 ### كود Java لتجديد قيم الأشكال المرتبطة
 

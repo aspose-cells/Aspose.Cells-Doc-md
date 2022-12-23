@@ -6,7 +6,7 @@ url: /es/reportingservices/performance-configuration/
 ---
 {{% alert color="primary" %}} 
 
-Los usuarios pueden optimizar el rendimiento hasta cierto punto. Puede configurar algunos atributos y parámetros en el**Aspose.Cells.ReportingServices.xml** archivo como se describe a continuación.
+ Los usuarios pueden optimizar el rendimiento hasta cierto punto. Puede configurar algunos atributos y parámetros en el**Aspose.Cells.ReportingServices.xml** archivo como se describe a continuación.
 
 {{% /alert %}} 
 ### **Sección de rendimiento**
@@ -52,7 +52,7 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
  - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
  - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
  - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
- Consulte la siguiente configuración.
+Consulte la siguiente configuración.
 
 **XML**
 
@@ -82,7 +82,7 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
  - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
  - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
  - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
- Consulte la siguiente configuración.
+Consulte la siguiente configuración.
 
 **XML**
 
@@ -112,7 +112,7 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
  - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
  - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
  - Cuando el parámetro Rendimiento se establece en 'activado', un informe de subelemento puede restablecer el parámetro AutoRowFile del informe.
- Consulte la siguiente configuración.
+Consulte la siguiente configuración.
 
 **XML**
 
@@ -138,12 +138,12 @@ Esto muestra la sección Rendimiento tal como está de forma predeterminada.
 
 {{< /highlight >}}
 
-- IsConditionalFormatting: puede ser verdadero o falso:
+-  IsConditionalFormatting: puede ser verdadero o falso:
  - Cuando el parámetro Rendimiento se establece en 'apagado', el valor predeterminado es falso.
  - Cuando el parámetro Rendimiento se establece en 'activado', el valor predeterminado es verdadero.
  - Cuando el parámetro Rendimiento se establece en 'activado', el informe de subelementos puede restablecer el parámetro AutoRowFile del informe de puntos.
  - Cuando el parámetro IsSetStyle se establece en false, el valor del parámetro Performance no es válido.
- Consulte la siguiente configuración.
+Consulte la siguiente configuración.
 
 **XML**
 

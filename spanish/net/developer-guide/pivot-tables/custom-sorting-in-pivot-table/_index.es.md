@@ -13,7 +13,7 @@ El archivo fuente de muestra y los archivos de salida se pueden descargar desde 
 
 [Archivo de Excel de salida](98107429.xlsx)
 
-[Archivo PDF de salida](98107430.pdf)
+[Salida PDF Archivo](98107430.pdf)
 
 
 

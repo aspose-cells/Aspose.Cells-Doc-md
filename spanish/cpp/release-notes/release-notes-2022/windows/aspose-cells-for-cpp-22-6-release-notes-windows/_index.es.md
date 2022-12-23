@@ -12,5 +12,5 @@ Esta página contiene notas de la versión para Aspose.Cells for C++ 22.6.0 para
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSCPP-759| Compatible con la clase gestionada SHA512|Apoyo|
-|CELLSCPP-812| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-759| Compatible con la clase gestionada SHA512|Soporte|
+|CELLSCPP-812| Funciones de sincronización con la versión .Net|Soporte|

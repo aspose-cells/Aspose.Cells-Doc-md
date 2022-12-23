@@ -29,7 +29,7 @@ Para crear subtotales en Microsoft Excel:
 
 ## **Usando Aspose.Cells API**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
  Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de trabajo y otros objetos. Cada hoja de trabajo consta de un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación. Para crear subtotales en una hoja de trabajo, use el[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)método subtotal de la clase. Proporcione valores apropiados para los parámetros del método para obtener el resultado que desea.
 

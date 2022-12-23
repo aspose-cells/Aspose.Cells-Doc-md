@@ -14,7 +14,7 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-18-2-release-note
 |:- |:- |:- |
 |CELLSRS-519|Aspose.Cells for Reporting Services を使用して MS Excel 印刷形式を呼び出す|新機能|
 |CELLSRS-514|ACTXT でタブ区切りテキスト ファイルの目的の結果が得られない|バグ|
-|CELLSRS-515|CSV または TXT にエクスポートする場合 - 値とパーセント記号の間に追加のスペースが含まれます|バグ|
-|CELLSRS-516|ACTXT ではなく CSV ファイルに似た不適切な形式のレポートが表示される|バグ|
+|CELLSRS-515|CSV または TXT にエクスポートすると、値とパーセント記号の間に追加のスペースが含まれます|バグ|
+|CELLSRS-516|ACTXT ではなく CSV ファイルのように表示される不適切な形式のレポート|バグ|
 |CELLSRS-517|Aspose.Cells for Reporting Services - 評価版で複数の問題が見つかりました|バグ|
 

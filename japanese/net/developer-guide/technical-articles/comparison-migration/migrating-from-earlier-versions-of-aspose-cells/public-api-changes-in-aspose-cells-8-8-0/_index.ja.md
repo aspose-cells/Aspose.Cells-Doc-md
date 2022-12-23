@@ -77,11 +77,11 @@ workbook.Save(dir + "output.xlsx");
 
 
 ### **HTMLLoadOptions.DeleteRedundantSpaces プロパティを追加**
-Aspose.Cells for .NET 8.8.0 では、改行タグ (<br>タグ) HTML 文字列またはファイルからデータをインポートするときに。 HTMLLoadOptions.DeleteRedundantSpaces プロパティのデフォルト値は false です。つまり、すべての余分なスペースが保持され、Workbook オブジェクトにインポートされます。ただし、true に設定すると、API は改行タグの後にある余分なスペースをすべて削除します。
+Aspose.Cells for .NET 8.8.0 では、改行タグ (<br>タグ) HTML 文字列またはファイルからデータをインポートするとき。 HTMLLoadOptions.DeleteRedundantSpaces プロパティのデフォルト値は false です。つまり、すべての余分なスペースが保持され、Workbook オブジェクトにインポートされます。ただし、true に設定すると、API は、改行タグの後にある余分なスペースをすべて削除します。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[HTML から余分なスペースを削除する](/cells/ja/net/delete-redundant-spaces-after-line-break-while-importing/)
+この機能の詳細については、次の詳細記事を参照してください。[HTML から余分なスペースを削除](/cells/ja/net/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 

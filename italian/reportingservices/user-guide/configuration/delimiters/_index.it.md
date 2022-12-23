@@ -64,7 +64,7 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** può controllare tutte le estensioni per il rendering di tipo TXT.
+1.  Il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** può controllare tutte le estensioni per il rendering del tipo TXT.
 
 {{< highlight "java" >}}
 
@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Il parametro del delimitatore di campo in**rsreportserver.config** ha la priorità sul parametro delimitatore di campo in**Aspose.Cells.ReportingServices.xml** Quando il parametro delimitatore di campo in**rsreportserver.config** è nullo o il valore predefinito, il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** viene usato.
+ Il parametro del delimitatore di campo in**rsreportserver.config** ha la priorità sul parametro delimitatore di campo in**Aspose.Cells.ReportingServices.xml** . Quando il parametro delimitatore di campo in**rsreportserver.config** è nullo o il valore predefinito, il parametro del delimitatore di campo in**Aspose.Cells.ReportingServices.xml** viene usato.

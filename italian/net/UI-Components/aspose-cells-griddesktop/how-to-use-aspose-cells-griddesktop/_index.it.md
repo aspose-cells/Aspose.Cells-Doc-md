@@ -19,9 +19,9 @@ Gli sviluppatori che hanno lavorato con Aspose.Grid.Desktop potrebbero riscontra
 ### **Creazione di un progetto di applicazione Windows**
 Prima di tutto, crea un progetto di applicazione Windows in cui utilizzare il controllo Aspose.Cells.GridDesktop. Segui i seguenti passaggi;
 
-1. **Aprire l'IDE di Visual Studio.NET.**
+1. **Apri l'IDE di Visual Studio.NET.**
 1. **Dal menu File, selezionare Nuovo, il Progetto.**
-1. **Selezionare Applicazione Windows dalla finestra di dialogo Nuovo progetto.**
+1. **Selezionare Windows Applicazione dalla finestra di dialogo Nuovo progetto.**
 
 Dopo aver eseguito i passaggi precedenti, verrà creata un'applicazione finestra con un modulo vuoto.
 ### **Aggiunta del controllo GridDesktop al form**
@@ -35,6 +35,6 @@ Non solo è possibile aggiungere valori al controllo, ma anche eseguire altre at
 
 {{% alert color="primary" %}} 
 
-Aspose.Grid.Desktop è stato rinominato ed è diventato parte di Aspose.Cells, quindi non è più possibile utilizzare la versione precedente di Aspose.Grid.Desktop. Solo per sottolineare, non c'è molto lavoro da fare per l'aggiornamento all'ultima versione del componente Aspose.Cells.GridDesktop. Non vi è alcun cambiamento nell'API poiché le classi con i membri, le strutture, le enumerazioni ecc. Rimangono le stesse. L'unica modifica apportata riguarda lo spazio dei nomi del controllo.
+Aspose.Grid.Desktop è stato rinominato ed è diventato parte di Aspose.Cells, quindi non è più possibile utilizzare la versione precedente di Aspose.Grid.Desktop. Solo per sottolineare, non c'è molto lavoro da fare per l'aggiornamento all'ultima versione del componente Aspose.Cells.GridDesktop. Non vi è alcun cambiamento nello API poiché le classi con i membri, le strutture, le enumerazioni ecc. Rimangono le stesse. L'unica modifica apportata riguarda lo spazio dei nomi del controllo.
 
 {{% /alert %}}

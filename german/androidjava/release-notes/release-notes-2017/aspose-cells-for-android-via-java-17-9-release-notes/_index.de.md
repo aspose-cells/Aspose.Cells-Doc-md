@@ -14,54 +14,54 @@ Diese Seite enthält Versionshinweise für[Aspose.Cells for Android via Java 17.
 |:- |:- |:- |
 |CELLSJAVA-42356|Fügen Sie eine Eigenschaft hinzu, um anzugeben, ob eine leere Seite ausgegeben werden soll oder nicht, wenn nichts zu drucken ist|Neue Funktion|
 |CELLSJAVA-42322|Unterstützt erweiterte Filter (MS Excel)-Funktion, um Datensätze anzuzeigen, die komplexe Kriterien erfüllen|Neue Funktion|
-|CELLSJAVA-42391|Cell Die im resultierenden PDF angezeigte Breite ist nicht dieselbe wie in der Excel-Datei, wenn die Funktion "Formel anzeigen" verwendet wird|Neue Funktion|
-|CELLSJAVA-42379|Implementieren des benannten Ziels beim Rendern in die PDF-Ausgabe (Lesezeichenabfrage)|Neue Funktion|
-|CELLSJAVA-42336|ResultSet importiert Null anstelle des Nullwerts in die XLSX-Datei|Erweiterung|
+|CELLSJAVA-42391|Die im Ergebnis PDF angezeigte Breite von Cell ist nicht dieselbe wie in der Excel-Datei, wenn die Funktion "Formel anzeigen" verwendet wird|Neue Funktion|
+|CELLSJAVA-42379|Implementieren des benannten Ziels beim Rendern in die Ausgabe PDF (Lesezeichenabfrage)|Neue Funktion|
+|CELLSJAVA-42336|ResultSet importiert Null anstelle des Nullwerts in die Datei XLSX|Erweiterung|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() sollte keine (globale) statische Funktion sein|Erweiterung|
 |CELLSJAVA-42341|InterruptMonitor benötigt mehr Zeit, um den Speichervorgang der Arbeitsmappe für eine große Datei mit PivotTable zu unterbrechen|Erweiterung|
-|CELLSJAVA-42358|Die Formel wird im resultierenden PDF nicht angezeigt|Erweiterung|
+|CELLSJAVA-42358|Die Formel wird im Ergebnis PDF nicht angezeigt|Erweiterung|
 |CELLSJAVA-42351|Die WOCHENTAG-Formel gibt bei der Formelberechnung der Arbeitsmappe einen falschen Wert zurück|Erweiterung|
 |CELLSJAVA-42401|Sie müssen alle Formen aufzählen, um die Z-Reihenfolge der Form richtig festzulegen|Erweiterung|
 |CELLSJAVA-42368|Name des ActiveX-Steuerelements (ListBox) festlegen|Erweiterung|
-|CELLSJAVA-42308|PivotTable-Probleme (fehlende Zeilen, doppelt gedruckte Kopfzeilen von Pivot-Feldern, Datum in numerische Werte konvertiert usw.) für das HTML-Rendering|Insekt|
+|CELLSJAVA-42308|PivotTable-Probleme (fehlende Zeilen, doppelt gedruckte Kopfzeilen von Pivot-Feldern, in numerische Werte konvertiertes Datum usw.) für das Rendern von HTML|Insekt|
 |CELLSJAVA-42298|Zusätzliche Zeichen in der HTML-Ausgabe der Excel-Datei|Insekt|
-|CELLSJAVA-42277|Das Bild wird nicht im Ausgabe-HTML angezeigt, wenn HtmlSaveOptions.setExportHiddenWorksheet auf „false“ gesetzt ist|Insekt|
-|CELLSJAVA-42259|HTML konnte nicht richtig in eine Excel-Datei konvertiert werden|Insekt|
-|CELLSJAVA-42256|Problem mit der Wiedergabe von HTML-Tabellen in Excel|Insekt|
+|CELLSJAVA-42277|Das Bild wird nicht in der Ausgabe HTML angezeigt, wenn HtmlSaveOptions.setExportHiddenWorksheet auf „false“ gesetzt ist|Insekt|
+|CELLSJAVA-42259|HTML konnte nicht ordnungsgemäß in eine Excel-Datei konvertiert werden|Insekt|
+|CELLSJAVA-42256|Problem mit HTML-Tabelle zum Excel-Rendering|Insekt|
 |CELLSJAVA-42319|Problem bei der Berechnung des Druckbereichs bei der Angabe von Formeln|Insekt|
 |CELLSJAVA-42320|Das Diagramm wird nicht aktualisiert, wenn es in einem separaten Blatt vorhanden ist|Insekt|
 |CELLSJAVA-42295|Cell Wert wird am Anfang angehängt, wenn wir auf eine vorhandene Zelle klicken (mit einem Wert)|Insekt|
 |CELLSJAVA-42325|Wenn XLSX als PDF gespeichert wird, werden die Wörter gespiegelt|Insekt|
-|CELLSJAVA-42299|Zusätzliche Zeichen im ausgegebenen PDF/Bild der Excel-Datei|Insekt|
-|CELLSJAVA-42301|Balken fehlen in der PDF-Ausgabe des Balkendiagramms|Insekt|
-|CELLSJAVA-42293|Das Diagrammbild ist im Ausgabe-HTML falsch|Insekt|
-|CELLSJAVA-42292|Das Bild des Diagramms ist im Ausgabe-HTML falsch|Insekt|
+|CELLSJAVA-42299|Zusätzliche Zeichen in der Ausgabe PDF/Bild der Excel-Datei vorhanden|Insekt|
+|CELLSJAVA-42301|In der Ausgabe PDF des Balkendiagramms fehlen Balken|Insekt|
+|CELLSJAVA-42293|Das Diagrammbild ist in der Ausgabe HTML falsch|Insekt|
+|CELLSJAVA-42292|Das Bild des Diagramms ist in der Ausgabe HTML falsch|Insekt|
 |CELLSJAVA-42270|Inhalt fehlt, wenn Excel-Diagramm in PDF konvertiert wird|Insekt|
-|CELLSJAVA-42258|Das PDF des Diagramms hat ein falsches Datumsformat der X-Achsenbeschriftungen|Insekt|
-|CELLSJAVA-42252|Falsche Skalierung der Y-Achse in der Ausgabe-PDF|Insekt|
-|CELLSJAVA-42245|Stil/Formatierung ist beim Speichern in HTML falsch|Insekt|
+|CELLSJAVA-42258|Das Diagramm PDF hat ein falsches Datumsformat der x-Achsenbeschriftungen|Insekt|
+|CELLSJAVA-42252|Falsche Skalierung der Y-Achse in der Ausgabe PDF|Insekt|
+|CELLSJAVA-42245|Stil/Formatierung ist beim Speichern unter HTML falsch|Insekt|
 |CELLSJAVA-42316|Die Option zum Komprimieren von Bildern wird beim Öffnen und Speichern der Excel-Datei nicht beibehalten|Insekt|
 |CELLSJAVA-42306|Die Hintergrundfarbe der Zellen in Datei2 wird beim Öffnen und Speichern der Arbeitsmappe geändert|Insekt|
 |CELLSJAVA-42305|Die Hintergrundfarbe der Zellen in Datei1 wird beim Öffnen und Speichern der Arbeitsmappe geändert|Insekt|
 |CELLSJAVA-42303|Excel-Formelzelle wird zu Nicht-Formelzelle, wenn Text für die Form festgelegt wird|Insekt|
 |CELLSJAVA-42284|Workbook.getFonts() zeigt nach dem erneuten Laden derselben Tabelle zusätzliche Schriftarten an|Insekt|
 |CELLSJAVA-42327|Einige Formen sind verzerrt und in Excel in PDF-Rendering geändert|Insekt|
-|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Gedankenstriche werden in der PDF-Datei des Diagramms nicht richtig gerendert|Insekt|
+|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Striche werden in Diagramm PDF nicht richtig gerendert|Insekt|
 |CELLSJAVA-42338|Falsche Ergebnisse bei Verwendung von SUMIFS-Formeln|Insekt|
 |CELLSJAVA-42337|Aspose.Cells kann den Wert der Zelle B4 des Arbeitsblatts "Berechnungen" nicht berechnen|Insekt|
-|CELLSJAVA-42330|Seltsames Ergebnis beim Konvertieren von Excel nach PDF oder PDF/A mit Threads|Insekt|
+|CELLSJAVA-42330|Seltsames Ergebnis bei der Konvertierung von Excel nach PDF oder PDF/A mit Threads|Insekt|
 |CELLSJAVA-42331|Änderungen am Kommentarautorenfeld werden nicht beibehalten|Insekt|
 |CELLSJAVA-42328|Falsches IconSet zurückgegeben|Insekt|
 |CELLSJAVA-42324|Der Hintergrund des Diagramms fehlt, nachdem die Daten eines Bildes eingestellt wurden|Insekt|
-|CELLSJAVA-42332|Aspose.Cells kann die HTML-Datei nicht korrekt konvertieren, während MS-Excel sie korrekt konvertieren kann|Insekt|
+|CELLSJAVA-42332|Aspose.Cells kann die Datei HTML nicht korrekt konvertieren, während MS-Excel sie korrekt konvertieren kann|Insekt|
 |CELLSJAVA-42355|Für Nummer 39 formatiert MS Excel negative Werte mit „-“ anstelle von „()“ für Italien|Insekt|
 |CELLSJAVA-42350|Beschriftungstext wird für das Kreisdiagramm verschoben|Insekt|
 |CELLSJAVA-42343|Verschiedene Stile des Wasserfalldiagramms werden nicht richtig gerendert.|Insekt|
 |CELLSJAVA-42342|Das Wasserfalldiagramm zeigt immer Verbindungslinien|Insekt|
 |CELLSJAVA-42352|Shape wird nicht mit dem richtigen Wert aktualisiert|Insekt|
-|CELLSJAVA-42349|Excel-zu-PDF-Konvertierung für eine XLSX-Datei aufgehängt|Insekt|
+|CELLSJAVA-42349|Konvertierung von Excel in PDF für eine XLSX-Datei hängen geblieben|Insekt|
 |CELLSJAVA-42348|Die XLSB-Datei (von Aspose.Cells-APIs) kann nicht in die MS-Access-Datenbank importiert werden|Insekt|
-|CELLSJAVA-42369|Die HTML-Ausgabe des Excel-Dokuments enthält Hash-Werte anstelle von tatsächlichen Werten|Insekt|
+|CELLSJAVA-42369|HTML Ausgabe des Excel-Dokuments enthält Hash-Werte anstelle von tatsächlichen Werten|Insekt|
 |CELLSJAVA-42366|Das Speichern von "2.2 CompleteEmail.html" im Xlsx-Format erzeugt eine beschädigte Datei|Insekt|
 |CELLSJAVA-42365|Das Laden von „2.1 CompleteEmail.html“ in das Workbook-Objekt löst NullPointerException aus|Insekt|
 |CELLSJAVA-42381|Die Arbeitsmappenberechnung ist für die Lookup-Excel-Formel falsch|Insekt|
@@ -74,20 +74,20 @@ Diese Seite enthält Versionshinweise für[Aspose.Cells for Android via Java 17.
 |CELLSJAVA-42377|Der Wert der Haupteinheiten der Achse im Diagramm wird falsch zurückgegeben|Insekt|
 |CELLSJAVA-42364|Datalabels aus dem Zellbereich kommen nicht, wenn sie in Pdf exportiert werden|Insekt|
 |CELLSJAVA-42359|Fehlende Datalabels für eine Reihe mit Balkenwerten von 100|Insekt|
-|CELLSJAVA-42314|Das Diagramm ist im Ausgabe-PNG leer|Insekt|
-|CELLSJAVA-42313|Das Diagramm ist in der Ausgabe-PDF leer|Insekt|
+|CELLSJAVA-42314|Das Diagramm ist in der Ausgabe PNG leer|Insekt|
+|CELLSJAVA-42313|Das Diagramm ist in der Ausgabe PDF leer|Insekt|
 |CELLSJAVA-42374|Zeichenreferenzen wurden von Aspose Cells falsch geparst|Insekt|
 |CELLSJAVA-42373|Das Kopieren der Arbeitsmappe und das anschließende Speichern beschädigt die Excel-Ausgabedatei|Insekt|
 |CELLSJAVA-42392|Ausnahme "com.aspose.cells.CellsException: unbekannter Excel-Inhalt!" beim Instanziieren einer verschlüsselten Excel-Datei|Ausnahme|
-|CELLSJAVA-42307|Ausnahme: "Der Zeilenindex sollte sich nicht im schwenkbaren Bericht befinden" trat beim Rendern in das HTML-Dateiformat auf|Ausnahme|
-|CELLSJAVA-42285|Ausnahme: "Zeilenindex darf nicht negativ sein" trat auf, wenn eine PivotTable im Arbeitsblatt vorhanden war, das in das HTML-Dateiformat konvertiert werden soll|Ausnahme|
+|CELLSJAVA-42307|Ausnahme: „Der Zeilenindex sollte nicht innerhalb des schwenkbaren Berichts sein“ trat beim Rendern in das Dateiformat HTML auf|Ausnahme|
+|CELLSJAVA-42285|Ausnahme: "Zeilenindex darf nicht negativ sein" trat auf, wenn eine PivotTable im Arbeitsblatt vorhanden war, die in das Dateiformat HTML konvertiert werden soll|Ausnahme|
 |CELLSJAVA-42318|Beim Versuch, Workbook zu öffnen, wird eine Ausnahme ausgelöst|Ausnahme|
-|CELLSJAVA-42311|Ausnahme: "java.lang.NullPointerException" beim Öffnen einer ODS-Datei über Aspose.Cells-APIs|Ausnahme|
+|CELLSJAVA-42311|Ausnahme: „java.lang.NullPointerException“ beim Öffnen einer ODS-Datei über Aspose.Cells-APIs|Ausnahme|
 |CELLSJAVA-42302|NullPointerException beim Erstellen einer Workbook-Instanz aus einer Excel-Quelldatei|Ausnahme|
 |CELLSJAVA-42340|Ausnahme in Thread „Thread-2“ java.lang.OutOfMemoryError: GC-Overhead-Limit überschritten|Ausnahme|
 |CELLSJAVA-42334|Bei Verwendung von OutputFileStream wird die Ausnahme „Error for ZipFile“ ausgelöst|Ausnahme|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: Ungültiges Passwort beim Öffnen der Excel-Datei|Ausnahme|
-|CELLSJAVA-42357|Eine Ausnahme tritt auf, wenn eine Excel-Datei im HTML-Format gespeichert wird|Ausnahme|
+|CELLSJAVA-42357|Eine Ausnahme tritt auf, wenn eine Excel-Datei im Format HTML gespeichert wird|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
 ### **Fügt Aufzählung StyleModifyFlag.RelativeIndent hinzu**
@@ -117,9 +117,9 @@ Ersetzt den Text der Form.
 ### **Fügt Cells.importResultSet(ResultSet rs, int rowIndex, int columnIndex, ImportTableOptions-Optionen)/Cells.importResultSet(ResultSet rs, String startCell, ImportTableOptions-Optionen) hinzu**
 Unterstützt den Import von ResultSet mit mehr Optionen.
 ### **Fügt die HtmlSaveOptions.IsExportComments-Eigenschaft hinzu**
-Gibt an, dass beim Exportieren von Kommentaren beim Speichern der Datei in HTML der Standardwert „false“ ist.
+Gibt an, dass beim Exportieren von Kommentaren beim Speichern der Datei unter HTML der Standardwert falsch ist.
 ### **Fügt die HtmlSaveOptions.DisableDownlevelRevealedComments-Eigenschaft hinzu**
-Gibt an, ob beim Exportieren der Datei in HTML bedingte Kommentare auf niedrigerer Ebene deaktiviert werden sollen. Der Standardwert ist „false“.
+Gibt an, ob beim Exportieren der Datei nach HTML von Downlevel angezeigte bedingte Kommentare deaktiviert werden, der Standardwert ist falsch.
 ### **Fügt die CustomImplementationFactory-Klasse hinzu**
 Bietet API für den Benutzer, um die Fähigkeit der Komponente durch einige spezielle Implementierungen für einige spezielle Situationen zu erweitern/verbessern. Derzeit wird keine benutzerdefinierte Implementierung der Version for Java unterstützt.
 ### **Fügt die CellsHelper.CustomImplementationFactory-Eigenschaft hinzu**

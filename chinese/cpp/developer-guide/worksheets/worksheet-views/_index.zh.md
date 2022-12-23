@@ -14,7 +14,7 @@ url: /zh/cpp/worksheet-views/
 ### **控制视图模式**
  Aspose.Cells提供类[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)表示 Microsoft Excel 文件。这[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)类包含一个[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)允许访问 Excel 文件中每个工作表的集合。
 
-工作表由[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)班级。这[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)类提供了多种管理工作表的方法。要启用普通或分页预览模式，请使用[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)的方法[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)班级。[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)返回一个布尔值，这意味着它只能存储一个**真的**或者**错误的**价值。
+工作表由[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)班级。这[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)类提供了多种管理工作表的方法。要启用普通或分页预览模式，请使用[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)的方法[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)班级。[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)返回一个布尔值，这意味着它只能存储一个**真的**要么**错误的**价值。
 #### **启用普通视图**
 通过将工作表设置为普通视图[IsPageBreakPreview](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#aa1af81cfb7635232c7f839192b442892)的方法[工作表](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)类**错误的**.
 #### **启用分页预览**

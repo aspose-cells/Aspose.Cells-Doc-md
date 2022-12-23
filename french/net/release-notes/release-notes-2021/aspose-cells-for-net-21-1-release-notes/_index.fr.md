@@ -10,21 +10,21 @@ url: /fr/net/aspose-cells-for-net-21-1-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47376|Version Aspose.Cells for .NET 5.0|Nouvelle fonctionnalité|
-|CELLSNET-40624| Comment changer de série de données de ligne/colonne à l'aide d'aspose|Nouvelle fonctionnalité|
+|CELLSNET-40624|Comment changer de série de données de ligne/colonne à l'aide d'aspose|Nouvelle fonctionnalité|
 |CELLSNET-42195|Convertir le contrôle de xlsm en xls|Nouvelle fonctionnalité|
 |CELLSNET-47806|Obtient la plage de sources de données du graphique.|Nouvelle fonctionnalité|
-|CELLSNET-47756|Les formes SmartArt ne sont pas rendues correctement dans la conversion Excel en PDF|Punaise|
+|CELLSNET-47756|Les formes SmartArt ne sont pas bien rendues dans Excel pour la conversion PDF|Punaise|
 |CELLSNET-47391|Les formes ne sont pas positionnées correctement dans les conversions Excel en PDF|Punaise|
 |CELLSNET-47766|Le graphique en flèche est incomplet|Punaise|
-|CELLSNET-47653|Diagram blocs sont décalés lors de la conversion en HTML|Punaise|
+|CELLSNET-47653|Les blocs Diagram sont décalés lors de la conversion en HTML|Punaise|
 |CELLSNET-47720|Balisage CSS et HTML non valide lors de la conversion de XLSX en HTML|Punaise|
-|CELLSNET-47746|Guillemets non codés dans les valeurs des attributs HTML|Punaise|
+|CELLSNET-47746|Citations non codées dans les valeurs des attributs HTML|Punaise|
 |CELLSNET-47792|Les images chevauchent le texte lors de l'importation de HTML vers Excel|Punaise|
 |CELLSNET-47797|Mauvais lien lorsque le fichier XLSM est rendu en HTML|Punaise|
-|CELLSNET-47807|Balisage HTML non valide avec éléments A imbriqués|Punaise|
+|CELLSNET-47807|Balisage HTML non valide avec des éléments A imbriqués|Punaise|
 |CELLSNET-47778|Le calcul IRR est évalué à #NUM|Punaise|
 |CELLSNET-47814|Les barres de défilement de GridDesktop ne sont pas masquées|Punaise|
 |CELLSNET-47744|Les tracés radiaux sont écrasés lorsqu'ils sont exportés au format pdf|Punaise|
@@ -39,7 +39,7 @@ url: /fr/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNETCORE-93|La balise H1 n'est pas rendue sans balises supplémentaires comme le soulignement, l'italique ou le gras|Punaise|
 |CELLSNETCORE-97|L'appel de RemoveExternalLinks() déclenche une exception|Punaise|
 |CELLSNET-47719|Impossible d'enregistrer xlsb en xlsx|Exception|
-|CELLSNET-47784|Exception lors de l'importation d'un document HTML avec IStreamProvider|Exception|
+|CELLSNET-47784|Exception lors de l'importation du document HTML avec IStreamProvider|Exception|
 |CELLSNET-47801|CalculateData sur le tableau croisé dynamique lève une exception|Exception|
 |CELLSNET-47809|Cell.ContainsExternalLink lance 'Impossible de diffuser|Exception|
 |CELLSNET-47791| Graphique provoquant l'échec de Workbook.Save|Exception|

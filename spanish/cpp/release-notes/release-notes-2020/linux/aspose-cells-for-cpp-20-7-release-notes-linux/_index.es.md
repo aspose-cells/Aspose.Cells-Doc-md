@@ -22,15 +22,15 @@ Nos complace anunciar el lanzamiento de Aspose.Cells for C++ 20.7 para Linux.
 |CELLSCPP-12|Agregar y manipular tablas dinámicas en las hojas de cálculo|Nueva caracteristica|
 |CELLSCPP-13|Agrupar filas y columnas en la hoja de trabajo|Nueva caracteristica|
 |CELLSCPP-14|Agregar objeto de tabla/lista a la hoja de trabajo|Nueva caracteristica|
-|CELLSCPP-20|Abrir/Guardar formatos de archivo XLS, OOXML|Nueva caracteristica|
+|CELLSCPP-20|Abrir/Guardar XLS, formatos de archivo OOXML|Nueva caracteristica|
 |CELLSCPP-21|Establecer estilos y formato en las celdas de la hoja de trabajo|Nueva caracteristica|
 |CELLSCPP-22|Aplicar validación de datos a las celdas.|Nueva caracteristica|
 |CELLSCPP-23|Establecer datos y fórmulas en las celdas|Nueva caracteristica|
 |CELLSCPP-24|Aplicar opciones de configuración de página|Nueva caracteristica|
 |CELLSCPP-25|Filtrar datos usando un Autofiltro|Nueva caracteristica|
-|CELLSCPP-35|Formato de archivo XLSM de lectura/escritura|Nueva caracteristica|
-|CELLSCPP-36|Leer/Escribir formato de archivo CSV|Nueva caracteristica|
-|CELLSCPP-37|Formato de archivo XLSB de lectura/escritura|Nueva caracteristica|
+|CELLSCPP-35|Leer/escribir formato de archivo XLSM|Nueva caracteristica|
+|CELLSCPP-36|Leer/escribir formato de archivo CSV|Nueva caracteristica|
+|CELLSCPP-37|Leer/escribir formato de archivo XLSB|Nueva caracteristica|
 |CELLSCPP-38|Crear y manipular rangos con nombre|Nueva caracteristica|
 |CELLSCPP-39|Formato de archivo delimitado por tabuladores de lectura/escritura|Nueva caracteristica|
 |CELLSCPP-41|Calcular fórmulas en archivo(s) de Excel|Nueva caracteristica|

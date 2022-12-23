@@ -21,4 +21,4 @@ url: /fr/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
  Ajout de nouvelles démos de graphiques C#
  Correction d'un bug lors du chargement d'un fichier avec des hyperliens UNC
  Correction d'un bug dans le formatage des cellules avec un fichier Excel créé Aspose dans certains cas
-Moteur de calcul de formules mises en forme
+ Moteur de calcul de formules mises en forme

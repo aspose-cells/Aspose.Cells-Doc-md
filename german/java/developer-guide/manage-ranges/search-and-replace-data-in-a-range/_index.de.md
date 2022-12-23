@@ -28,6 +28,6 @@ Nach der Ausführung des Codes sieht die Ausgabedatei wie folgt aus. Alle „Suc
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SearchReplaceDataInRange-SearchReplaceDataInRange.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Daten finden oder suchen](/cells/de/java/find-or-search-data/)

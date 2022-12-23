@@ -9,7 +9,7 @@ url: /zh/net/what-s-new-in-aspose-cells-for-net/
 
 ## Aspose.Cells for .NET 22.12
 
-* 支持将excel导出为多层次结构的json
+* 支持导出excel到JSON，具有多层层次结构
 
 ## Aspose.Cells for .NET 22.11
 

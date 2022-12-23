@@ -40,38 +40,38 @@ Problem lösta i Aspose.Cells 4.7.0
 |7447 | Pdf| Det gick inte att spara arbetsboken till PDF|
 |6944 | Pivottabell| AutoSortField påverkar inte.|
 |6900 | SpreadML| Undantag görs vid export till SpreadML|
-|6865 | XLS|Konverterar tidssträngens värde till DateTime|
-|6867 | XLS|Smart Marker är samma som [tabell].[kolumn]|
-|7007 | XLS| Formler med namngivna intervall|
-|7016 | XLS| Utrop i kalkylbladets namn orsakar ett fel i formler|
-|7063 | XLS| Det gick inte att spara arbetsboken|
-|7084 | XLS| Infogar ett formelproblem|
-|7121 | XLS| AutoFitRow gör inte rader tillräckligt stora med radbrytning på|
-|7201 | XLS| Villkorlig formatering|
-|7335 | XLS| AutoFitColumns fungerar inte|
-|7336 | XLS| Flytta en form|
-|7337 | XLS| ArgumentOutOfRange undantag när bilder extraheras|
-|7338 | XLS| Frågan om den sista cellen|
-|7346 | XLS| System.NullReferenceException med SheetToImage|
-|7366 | XLS| Ett fel vid användning av metoden Cells.InsertRange i vissa fall|
-|7367 | XLS| Externa länkar i formler|
-|7443 | XLS| Stöder globalt namngivna intervall|
-|7446 | XLS| Coping formnamnet|
-|7448 | XLS| Ett problem med de villkorliga formaten|
-|7505 | XLS| Ogiltig formelundantag|
-|7506 | XLS| Förbättra prestandan för metoden Cells.DeleteBlankRows|
-|7507 | XLS| Bugg i att öppna några speciella XLS-filer|
-|7549 | XLS| En förbättring av metoden Cells.InsertColumns|
-|7555 | XLS| Fel vid anrop av arbetsbok.Spara|
-|7613 | XLS|Skadat kalkylark efter kopiering|
-|6909 | XLS| Förbättra prestandan för att radera rader|
-|7202 | XLS| RTF-formateringsfel|
-|7450 | XLS| Problem med Workbook.Open()|
-|7468 | XLS| Olika kolumner som DataTable|
-|7650 | XLS| Förbättra metoden Cells.ImportTwoDimensionalObjects|
-|6856 | XLSX| OleObject kunde inte öppnas bugg efter konvertering av XLSX till XLS|
-|6983 | XLSX| Digital signatur som försvinner bugg|
-|7175 | XLSX| Workbook.Open ger ett undantag|
-|7185 | XLSX| InCellDropDown fungerar inte|
-|7564 | XLSX| Namngiven intervall som datakälla för pivottabell|
-|7617 | XLSX| En pivottabell förlorad i Excel 2007-fil|
+|6865 |XLS |Konverterar tidssträngens värde till DateTime|
+|6867 |XLS |Smart Marker är samma som [tabell].[kolumn]|
+|7007 |XLS | Formler med namngivna intervall|
+|7016 |XLS | Utrop i kalkylbladets namn orsakar ett fel i formler|
+|7063 |XLS | Det gick inte att spara arbetsboken|
+|7084 |XLS | Infogar ett formelproblem|
+|7121 |XLS | AutoFitRow gör inte rader tillräckligt stora med radbrytning på|
+|7201 |XLS | Villkorlig formatering|
+|7335 |XLS | AutoFitColumns fungerar inte|
+|7336 |XLS | Flytta en form|
+|7337 |XLS | ArgumentOutOfRange undantag när bilder extraheras|
+|7338 |XLS | Frågan om den sista cellen|
+|7346 |XLS | System.NullReferenceException med SheetToImage|
+|7366 |XLS | Ett fel vid användning av metoden Cells.InsertRange i vissa fall|
+|7367 |XLS | Externa länkar i formler|
+|7443 |XLS | Stöder globalt namngivna intervall|
+|7446 |XLS | Coping formnamnet|
+|7448 |XLS | Ett problem med de villkorliga formaten|
+|7505 |XLS | Ogiltig formelundantag|
+|7506 |XLS | Förbättra prestandan för metoden Cells.DeleteBlankRows|
+|7507 |XLS | Fel i att öppna några speciella XLS-filer|
+|7549 |XLS | En förbättring av metoden Cells.InsertColumns|
+|7555 |XLS | Fel vid anrop av arbetsbok.Spara|
+|7613 |XLS |Skadat kalkylark efter kopiering|
+|6909 |XLS | Förbättra prestandan för att radera rader|
+|7202 |XLS | RTF-formateringsfel|
+|7450 |XLS | Problem med Workbook.Open()|
+|7468 |XLS | Olika kolumner som DataTable|
+|7650 |XLS | Förbättra metoden Cells.ImportTwoDimensionalObjects|
+|6856 |XLSX | OleObject kunde inte öppnas bugg efter konvertering av XLSX till XLS|
+|6983 |XLSX | Digital signatur som försvinner bugg|
+|7175 |XLSX | Workbook.Open ger ett undantag|
+|7185 |XLSX | InCellDropDown fungerar inte|
+|7564 |XLSX | Namngiven intervall som datakälla för pivottabell|
+|7617 |XLSX | En pivottabell förlorad i Excel 2007-fil|

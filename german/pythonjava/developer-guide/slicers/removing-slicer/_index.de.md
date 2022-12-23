@@ -5,7 +5,7 @@ weight: 40
 url: /de/python-java/removing-slicer/
 ---
 ## **Slicer entfernen**
- Um den Slicer in Microsoft Excel zu entfernen, wählen Sie einfach den Slicer aus und drücken Sie die*Löschen* Taste. Verwenden Sie zum Speichern mit Aspose.Cells for Python via Java die Methode Worksheet.getSlicers().remove(). Der Slicer wird aus dem Arbeitsblatt entfernt.
+ Um den Slicer in Microsoft Excel zu entfernen, wählen Sie einfach den Slicer aus und drücken Sie die*Löschen* Knopf. Verwenden Sie zum Speichern mit Aspose.Cells for Python via Java die Methode Worksheet.getSlicers().remove(). Der Slicer wird aus dem Arbeitsblatt entfernt.
 
 Das folgende Code-Snippet lädt die[Beispiel-Excel-Datei](106364970.xlsx)die einen vorhandenen Slicer enthält. Es greift auf den Slicer zu, entfernt ihn und speichert die[Excel-Datei ausgeben](106364971.xlsx). Der folgende Screenshot zeigt den Slicer, der entfernt wird.
 

@@ -33,7 +33,7 @@ Console.WriteLine(properties.Version);
 
 
 ### **Property Chart.Arbeitsblatt hinzugefügt**
-Vor der Veröffentlichung von Aspose.Cells 8.2.2 war es nicht möglich, die Instanz des Arbeitsblatts aus einem darin enthaltenen Diagrammobjekt abzurufen. Aspose.Cells 8.2.2 hat diese Lücke durch die Bereitstellung der Eigenschaft Chart.Worksheet geschlossen.
+Vor der Veröffentlichung von Aspose.Cells 8.2.2 war es nicht möglich, die Instanz des Arbeitsblatts aus einem darin enthaltenen Diagrammobjekt abzurufen. Aspose.Cells 8.2.2 hat diese Lücke durch die Bereitstellung der Eigenschaft Chart.Worksheet gefüllt.
 
 {{% alert color="primary" %}} 
 

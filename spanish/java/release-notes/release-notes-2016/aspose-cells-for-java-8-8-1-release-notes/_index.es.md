@@ -8,7 +8,7 @@ url: /es/java/aspose-cells-for-java-8-8-1-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSJAVA-41664 |Exportación de barras de datos basadas en formato condicional a HTML| Nueva caracteristica|
+|CELLSJAVA-41664 | Exportación de barras de datos basadas en formato condicional a HTML| Nueva caracteristica|
 |CELLSJAVA-40746 | Admite ColorScale, DataBar, IconSet al exportar XLSX a HTML| Nueva caracteristica|
 |CELLSJAVA-41820 | La hoja de trabajo no tiene método calcualteFormula (fórmula de cadena, opciones de CalculationOptions)| Nueva caracteristica|
 |CELLSJAVA-40544 | Cuello de botella de rendimiento en Workbook.calculateFormula| Mejora|
@@ -17,12 +17,12 @@ url: /es/java/aspose-cells-for-java-8-8-1-release-notes/
 |CELLSJAVA-41801 | Las etiquetas de texto se superponen en la imagen EMF| Insecto|
 |CELLSJAVA-41834 | Se lanza una excepción al copiar el libro de trabajo| Insecto|
 |CELLSJAVA-41819 | Hoja de cálculo a HTML: la alineación del texto en una forma es incorrecta después de copiar el tema de la hoja de cálculo de origen| Insecto|
-|CELLSJAVA-41824 | El gráfico no se representa en el PDF de salida| Insecto|
-|CELLSJAVA-41805 | Faltan las etiquetas del eje X en el PDF del gráfico| Insecto|
-|CELLSJAVA-41767 | Formato de número incorrecto de las etiquetas del eje X en el PDF del gráfico| Insecto|
-|CELLSJAVA-41640 | Los guiones largos no se muestran correctamente en el PDF o la imagen de salida del gráfico| Insecto|
-|CELLSJAVA-41604 | Las líneas de cuadrícula horizontales del gráfico no aparecen correctamente en el PDF de salida| Insecto|
-|CELLSJAVA-41832 |Faltan algunas barras de gráfico al renderizar Hoja de trabajo a imagen| Insecto|
+|CELLSJAVA-41824 | El gráfico no se representa en la salida PDF| Insecto|
+|CELLSJAVA-41805 | Faltan etiquetas del eje X en el gráfico PDF| Insecto|
+|CELLSJAVA-41767 | Formato de número incorrecto de las etiquetas del eje X en el gráfico PDF| Insecto|
+|CELLSJAVA-41640 | Los guiones largos no se muestran correctamente en la salida PDF/Imagen del gráfico| Insecto|
+|CELLSJAVA-41604 |Las líneas de cuadrícula horizontales del gráfico no aparecen correctamente en la salida PDF| Insecto|
+|CELLSJAVA-41832 | Faltan algunas barras de gráfico al renderizar Hoja de trabajo a imagen| Insecto|
 |CELLSJAVA-41837 | Agregue Chart.toPDF (java.io.OutputStream, com.aspose.cells.PdfSaveOptions)| Insecto|
 |CELLSJAVA-41839 | Se crea un rango con nombre cuando se usa el método Cells.copyRow() dentro de un rango con nombre| Insecto|
 |CELLSJAVA-41838 | Al aplicar autoSizeColumns en la hoja, la columna no se ensancha correctamente| Insecto|
@@ -54,7 +54,7 @@ Crea un objeto de validación para una celda de cuadrícula.
 ### **Agrega el método GridCell.RemoveValidation().**
 Elimina el objeto de validación de una celda de cuadrícula.
 ### **Agrega el método Chart.ToPdf(System.IO.Stream stream).**
-Agrega el gráfico de ahorro a PDF como una secuencia.
+Agrega un gráfico de ahorro a PDF como una secuencia.
 
 {{% alert color="primary" %}} 
 

@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Désactiver le ruban du tableau croisé dynamique|Nouvelle fonctionnalité|
 |CELLSJAVA-42568|Protéger le classeur et la feuille de calcul dans le fichier ODS|Nouvelle fonctionnalité|
@@ -18,18 +18,18 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42627|Impossible d'extraire correctement les images Smart Art - Conversion de forme en image (CELLSJAVA-42619)|Renforcement|
 |CELLSJAVA-42677|Problème d'interruption avec l'enregistrement du processus de fichier XLSX|Renforcement|
 |CELLSJAVA-42687|Le lien hypertexte ne fonctionne pas lorsqu'il est référencé à partir d'une autre feuille|Renforcement|
-|CELLSJAVA-42672|Le document PDF de sortie est trop volumineux|Punaise|
+|CELLSJAVA-42672|Le document de sortie PDF est trop volumineux|Punaise|
 |CELLSJAVA-42671|Problème d'hyperliens lors de l'affichage du fichier Excel de sortie dans la version japonaise de MS Excel|Punaise|
 |CELLSJAVA-42667|Obtenir '#NUM !' pour une cellule ayant une fonction IRR|Punaise|
 |CELLSJAVA-42658|Les classeurs avec des macros XL4 (XLSM) sont corrompus après l'enregistrement|Punaise|
 |CELLSJAVA-42656|AlternativeText renvoie la valeur du commentaire Text|Punaise|
-|CELLSJAVA-42635|HTML vers XLS - Style CSS ignoré|Punaise|
+|CELLSJAVA-42635|HTML à XLS - Style CSS ignoré|Punaise|
 |CELLSJAVA-41176|Alignement incorrect lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-42676|Les données du tableau ont été déplacées vers la mauvaise ligne et la mauvaise colonne lors de la conversion du format de fichier HTML au format MS Excel|Punaise|
+|CELLSJAVA-42676|Les données du tableau ont été déplacées vers la mauvaise ligne et la mauvaise colonne lors de la conversion du format de fichier HTML au format de fichier MS Excel|Punaise|
 |CELLSJAVA-41670|La position de l'image du graphique est incorrecte dans Chrome et FireFox lors de la conversion en HTML|Punaise|
-|CELLSJAVA-41245|Le contrôle Slicer n'est pas rendu lors de la conversion d'un fichier Excel au format de fichier HTML|Punaise|
+|CELLSJAVA-41245|Le contrôle Slicer n'est pas rendu lors de la conversion du fichier Excel au format de fichier HTML|Punaise|
 |CELLSJAVA-42684|La ligne verticale au centre du graphique n'est pas tracée correctement dans l'image rendue|Punaise|
-|CELLSJAVA-42682|La couleur du dégradé pour les bulles négatives ne s'applique pas dans la sortie PDF|Punaise|
+|CELLSJAVA-42682|La couleur de dégradé pour les bulles négatives ne s'applique pas dans la sortie PDF|Punaise|
 |CELLSJAVA-42681|Le titre de la catégorie de graphique ne s'affiche pas correctement dans l'image|Punaise|
 |CELLSJAVA-42695|Mauvais style de bordure renvoyé pour la cellule fusionnée|Punaise|
 |CELLSJAVA-42694|Lire le filigrane du fichier Excel|Punaise|
@@ -37,15 +37,15 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42685|La propriété "numéro de révision" n'est pas cochée correctement|Punaise|
 |CELLSJAVA-41485|Les macros du fichier ODS ne sont pas conservées dans le format de fichier ODS généré|Punaise|
 |CELLSJAVA-42715|Les formules ne sont pas récupérées de la même manière que dans le fichier Excel|Punaise|
-|CELLSJAVA-42711|Le graphique au format PDF n'est pas généré à partir du modèle Excel|Punaise|
-|CELLSJAVA-42710|Dupliquer le texte de l'élément de légende dans le graphique lors de la conversion d'Excel en PDF|Punaise|
-|CELLSJAVA-42706|La sortie PDF n'affiche pas l'étiquette du graphique|Punaise|
+|CELLSJAVA-42711|Le graphique dans PDF n'est pas généré à partir du modèle Excel|Punaise|
+|CELLSJAVA-42710|Dupliquer le texte de l'élément de légende dans le graphique dans Excel en conversion PDF|Punaise|
+|CELLSJAVA-42706|PDF la sortie n'affiche pas l'étiquette du graphique|Punaise|
 |CELLSJAVA-42700|Le graphique en cascade n'est pas rendu correctement après la modification des données du graphique|Punaise|
 |CELLSJAVA-42717|Cells.deleteRow ne fonctionne pas correctement|Punaise|
 |CELLSJAVA-42716|Mauvaise valeur récupérée pour le style de bordure|Punaise|
 |CELLSJAVA-42709|Mauvais style de bordure inférieure renvoyé pour la cellule fusionnée|Punaise|
 |CELLSJAVA-42705|Excel génère une erreur lors du chargement du fichier après avoir défini le filtre automatique|Punaise|
-|CELLSJAVA-42703|Graphique non rendu lors de la conversion d'ODS en PDF|Punaise|
+|CELLSJAVA-42703|Graphique non rendu lors de la conversion de ODS en PDF|Punaise|
 |CELLSJAVA-42702|Des bordures grises apparaissent après la lecture du style de cellule dans la feuille de calcul|Punaise|
 |CELLSJAVA-42699|PasteType.VALUES_ET_NUMBER_FORMATS ne fonctionne pas correctement|Punaise|
 |CELLSJAVA-42646|Exception : "FormulaBuild Unknown formula token0" sur Name.getRefersTo()|Exception|
@@ -53,7 +53,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42673|Exception "java.lang.NumberFormatException" lors du chargement d'un fichier Excel|Exception|
 |CELLSJAVA-42669|Exception "java.lang.NullPointerException" lors du calcul de formules dans le classeur|Exception|
 |CELLSJAVA-42663|Chart.calculate () lève IndexOutOfBoundsException|Exception|
-|CELLSJAVA-42655|Exception : "Encodage invalide : null" lors du chargement d'un fichier XLS - II|Exception|
+|CELLSJAVA-42655|Exception : "Encoding invalide : null" lors du chargement d'un fichier XLS - II|Exception|
 |CELLSJAVA-42675|NumberFormatException déclenché lors du chargement du fichier HTML dans le classeur|Exception|
 |CELLSJAVA-42689|Exception NullPointerException déclenchée lors de l'appel de CalculateFormula|Exception|
 |CELLSJAVA-42678|Exception lors du rendu de la feuille de calcul au format de fichier PNG|Exception|
@@ -158,11 +158,11 @@ Obtient le nom de style de police anglais standard (régulier, gras, italique) p
 
 ### **Ajoute l'énumération PdfCustomPropertiesExport**
 
-Spécifie la manière dont CustomDocumentPropertyCollection est exporté vers un fichier PDF.
+Spécifie la manière dont CustomDocumentPropertyCollection est exporté vers le fichier PDF.
 
 ### **Ajoute la propriété PdfSaveOptions.CustomPropertiesExport**
 
-Obtient ou définit une valeur déterminant la façon dont CustomDocumentPropertyCollection est exporté vers un fichier PDF. La valeur par défaut est Aucun.
+Obtient ou définit une valeur déterminant la manière dont CustomDocumentPropertyCollection est exporté vers le fichier PDF. La valeur par défaut est Aucun.
 
 ### **Ajoute la classe XmlDataBinding**
 

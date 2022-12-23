@@ -13,6 +13,6 @@ Esta página contiene notas de la versión Aspose.Cells for C++ 22.12 para Linux
 Nos complace anunciar el lanzamiento de Aspose.Cells for C++ 22.12 para Linux.
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSCPP-963| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-963| Funciones de sincronización con la versión .Net|Soporte|
 
 

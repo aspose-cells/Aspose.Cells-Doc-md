@@ -63,8 +63,8 @@ var book = new Workbook(filePath, options);
 {{< /highlight >}}
 
 
-### **直接将图表转换为 PDF**
-Aspose.Cells API 已经提供了在使用 Chart.ToPdf 方法时将图表呈现为 PDF 的工具。在此版本中，API 公开了上述方法的另一个重载版本，它可以接受 Stream 的实例，允许用户将图表的 PDF 保存在 MemoryStream 的实例中。
+### **直接转换 Chart 为 PDF**
+Aspose.Cells API 已经提供了在使用 Chart.ToPdf 方法时向 PDF 呈现图表的工具。在此版本中，API 公开了上述方法的另一个重载版本，它可以接受 Stream 的实例，允许用户将图表的 PDF 保存在 MemoryStream 的实例中。
 
 以下是简单的使用场景。
 

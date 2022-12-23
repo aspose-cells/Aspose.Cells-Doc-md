@@ -10,7 +10,7 @@ url: /ar/net/specifying-the-absolute-position-of-the-pivot-item/
 
 -  مضاف[**PivotItem. الوظيفة**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/position) الخاصية التي يمكن استخدامها لتحديد فهرس الموضع في جميع عناصر PivotItems بغض النظر عن العقدة الأصلية. مضاف[**PivotItem.PositionInSameParentNode**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/properties/positioninsameparentnode) الخاصية التي يمكن استخدامها لتحديد فهرس الموضع في PivotItems ضمن نفس العقدة الأصلية.
 -  مضاف[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move)لتحريك العنصر لأعلى أو لأسفل استنادًا إلى قيمة الجرد ، حيث يكون العدد هو رقم الموضع لتحريك PivotItem لأعلى أو لأسفل. إذا كانت قيمة العد أقل من الصفر ، فسيتم نقل العنصر لأعلى حيث كما لو كانت قيمة العد أكبر من الصفر ، سينتقل PivotItem إلى أسفل ، والنوع المنطقي هو نفس المعلمة الأصلية تحدد ما إذا كان يجب تنفيذ عملية النقل في نفس العقدة الأصلية أم لا.
--  عفا عليها الزمن*PivotItem.Move (عدد العمليات)* لذلك يُقترح استخدام الطريقة المضافة حديثًا[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) في حين أن.
+-  عفا عليها الزمن*PivotItem.Move (عدد العمليات)* لذلك يُقترح استخدام الطريقة المضافة حديثًا[**PivotItem.Move (عدد صحيح ، منطقي هو نفس الأصل)**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotitem/methods/move) بدلاً من.
 
 {{% /alert %}}
 

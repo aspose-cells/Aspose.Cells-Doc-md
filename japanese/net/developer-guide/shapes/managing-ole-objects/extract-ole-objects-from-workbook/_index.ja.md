@@ -41,6 +41,6 @@ Aspose コンポーネントはすべて、インストールすると評価モ�
 
 ### **OLE オブジェクトを抽出する**
 
-以下のコードは、OLE オブジェクトを見つけて抽出する実際の作業を行います。 OLE オブジェクト (DOC、XLS、および PDF ファイル) がディスクに保存されます。
+以下のコードは、OLE オブジェクトを見つけて抽出する実際の作業を行います。 OLE オブジェクト (DOC、XLS および PDF ファイル) がディスクに保存されます。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}

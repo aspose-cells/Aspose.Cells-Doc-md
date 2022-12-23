@@ -181,7 +181,7 @@ Aspose.Cells for .NET API は、文字列をパラメーターとして受け取
 ### **メソッド Cells.ImportTwoDimensionArray が追加されました**
 Aspose.Cells for .NET API は、Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions) メソッドを公開することで、2 次元配列をスプレッドシートのセルにインポートできるようにしました。上記のメソッドは、TxtLoadOptions で定義されたより柔軟なオプションを使用して、データの 2 次元配列をワークシートにインポートします。
 ### **プロパティ OnePagePerSheet、PageIndex、PageCount を追加**
-Aspose.Cells for .NET 8.3.2 は、XpsSaveOptions クラスの OnePagePerSheet、PageIndex、および PageCount プロパティを公開しました。ユーザーは、OnePagePerSheet プロパティを使用してスプレッドシートのすべてのコンテンツを XPS の 1 ページに収めたり、PageCount プロパティを使用して印刷するページ数を取得したりできます。 PageIndex プロパティは、保存する最初のページの 0 から始まるインデックスを取得または設定します。
+Aspose.Cells for .NET 8.3.2 は、XpsSaveOptions クラスの OnePagePerSheet、PageIndex、および PageCount プロパティを公開しました。ユーザーは、OnePagePerSheet プロパティを使用して XPS の 1 ページにスプレッドシートのすべてのコンテンツを収めたり、PageCount プロパティを使用して印刷するページ数を取得したりできます。 PageIndex プロパティは、保存する最初のページの 0 から始まるインデックスを取得または設定します。
 ### **プロパティ NumberDecimalSeparator および NumberGroupSeparator が追加されました**
 Aspose.Cells for .NET 8.3.2 では NumberDecimalSeparator および NumberGroupSeparator プロパティが導入され、スプレッドシートの数値の書式設定と解析に使用されるカスタム セパレータを取得/設定できます。
 

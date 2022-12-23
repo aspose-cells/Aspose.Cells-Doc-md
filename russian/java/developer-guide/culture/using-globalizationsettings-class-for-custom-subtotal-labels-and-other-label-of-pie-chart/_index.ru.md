@@ -5,7 +5,7 @@ weight: 50
 url: /ru/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
 ## **Возможные сценарии использования**
- Aspose.Cells API-интерфейсы раскрыли[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) класс, чтобы иметь дело со сценариями, когда пользователь хочет использовать настраиваемые метки для промежуточных итогов в электронной таблице. Более того,[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)класс также может быть использован для изменения**Другой** метка для круговой диаграммы при отображении рабочего листа или диаграммы.
+ Aspose.Cells API-интерфейсы раскрыли[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) класс, чтобы иметь дело со сценариями, когда пользователь хочет использовать настраиваемые метки для промежуточных итогов в электронной таблице. Более того,[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) класс также может быть использован для изменения**Другой** метка для круговой диаграммы при отображении рабочего листа или диаграммы.
 ## **Введение в класс GlobalizationSettings**
 [Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) класс в настоящее время предлагает следующие 3 метода, которые можно переопределить в пользовательском классе, чтобы получить желаемые метки для промежуточных итогов или отобразить пользовательский текст для**Другой** метка круговой диаграммы.
 
@@ -13,7 +13,7 @@ url: /ru/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): получает общее имя функции.
 1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): получает имя метки «Другое» для круговых диаграмм.
 ### **Пользовательские метки для промежуточных итогов**
-[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) можно использовать для настройки меток промежуточных итогов путем переопределения[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) методы, как показано выше.
+[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)можно использовать для настройки меток промежуточных итогов путем переопределения[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) методы, как показано выше.
 
 
 
@@ -46,6 +46,6 @@ url: /ru/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
 
 
- Ниже приведено результирующее изображение, когда языковой стандарт машины установлен на Францию. Как вы можете видеть, метка «Другое» была переведена на «Autre», как определено в*Пользовательские настройки*учебный класс.
+Ниже приведено результирующее изображение, когда языковой стандарт машины установлен на Францию. Как вы можете видеть, метка «Другое» была переведена на «Autre», как определено в*Пользовательские настройки*учебный класс.
 
 ![дело:изображение_альтернативный_текст](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

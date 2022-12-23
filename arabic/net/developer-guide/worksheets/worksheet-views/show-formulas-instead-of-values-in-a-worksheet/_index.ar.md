@@ -3,6 +3,7 @@ title: إظهار الصيغ بدلاً من القيم في ورقة عمل
 type: docs
 weight: 20
 url: /ar/net/show-formulas-instead-of-values-in-a-worksheet/
+description: توفر هذه المقالة نموذج التعليمات البرمجية لاستخدام مكتبة C# API أو .NET لعرض الصيغ برمجيًا بدلاً من القيم في ورقة عمل أو جدول بيانات Excel.
 ---
 {{% alert color="primary" %}}
 
@@ -10,6 +11,6 @@ url: /ar/net/show-formulas-instead-of-values-in-a-worksheet/
 
 {{% /alert %}}
 
- يوفر Aspose.Cells أ[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas) منشأه. اضبط هذا على**حقيقي**لتعيين Microsoft Excel لعرض الصيغ.
+ يوفر Aspose.Cells أ[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/showformulas) خاصية. اضبط هذا على**حقيقي**لتعيين Microsoft Excel لعرض الصيغ.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ShowFormulasInsteadOfValues-1.cs" >}}

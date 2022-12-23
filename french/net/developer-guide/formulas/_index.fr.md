@@ -12,7 +12,7 @@ L'une des caractéristiques convaincantes d'Excel Microsoft est sa capacité à 
 
 ## **Utiliser des formules et des fonctions**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque pièce de la collection Cells représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque pièce de la collection Cells représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe.
 
  Il est possible d'appliquer des formules aux cellules en utilisant les propriétés et les méthodes offertes par le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe, discuté plus en détail ci-dessous.
 
@@ -27,7 +27,7 @@ L'une des caractéristiques convaincantes d'Excel Microsoft est sa capacité à 
 
  Aspose.Cells prend en charge la plupart des formules ou fonctions proposées par Microsoft Excel. Les développeurs peuvent utiliser ces formules via le API ou[feuille de calcul de concepteur](/cells/fr/net/what-is-a-designer-spreadsheet/). Aspose.Cells prend en charge un vaste ensemble de formules mathématiques, de chaîne, booléennes, de date/heure, statistiques, de base de données, de recherche et de référence.
 
- Utilisez le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Formule**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)propriété pour ajouter une formule à une cellule.**Formules complexes**, par exemple
+ Utilisez le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**Formule**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)propriété pour ajouter une formule à une cellule.**Formules complexes**, par exemple
 
 {{< highlight "java" >}}
 
@@ -61,17 +61,17 @@ Les formules matricielles sont des formules qui prennent des tableaux, au lieu d
 
 Certaines fonctions Excel Microsoft renvoient des tableaux de valeurs. Pour calculer plusieurs résultats avec une formule matricielle, entrez le tableau dans une plage de cellules avec le même nombre de lignes et de colonnes que les arguments du tableau.
 
- Il est possible d'appliquer une formule matricielle à une cellule en appelant la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) méthode. La[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) méthode prend les paramètres suivants :
+ Il est possible d'appliquer une formule matricielle à une cellule en appelant la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) méthode. Le[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) méthode prend les paramètres suivants :
 
-- **Formule matricielle**, la formule matricielle.
-- **Nombre de rangées**le nombre de lignes à remplir résultat de la formule matricielle.
+- **Formule matricielle**la formule matricielle.
+- **Nombre de rangées**, le nombre de lignes à remplir résultat de la formule matricielle.
 - **Le nombre de colonnes**le nombre de colonnes à remplir résultat de la formule matricielle.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}
 
 ## **Utilisation de la formule R1C1**
 
- Ajouter un**R1C1** formule de style de référence à une cellule avec le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**Formule R1C1**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) propriété.
+ Ajouter un**R1C1** formule de style de référence à une cellule avec le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**Formule R1C1**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 

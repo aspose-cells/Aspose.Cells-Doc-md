@@ -18,26 +18,26 @@ url: /ar/java/aspose-cells-for-java-18-6-release-notes/
 |CELLSJAVA-42646|استثناء: "FormulaBuild] (/ p صيغة غير معروفة token0" في Name.getRefersTo ()|التعزيز|
 |CELLSJAVA-42645|استثناء: "FormulaBuild أكثر من رمز مميز في المكدس ...." في Cell.getFormula ()|التعزيز|
 |CELLSJAVA-42516|Aspose.Cells يقبل ويصحح معادلة غير صالحة|التعزيز|
-|CELLSJAVA-42636|يتم إزاحة بعض أشكال الرسم أو عرضها بشكل خاطئ في عرض Excel إلى HTML|حشرة|
-|CELLSJAVA-42627|CELLSJAVA-42619 - غير قادر على استخراج صور Smart Art بشكل صحيح|حشرة|
-|CELLSJAVA-42618|يتم إزاحة الشكل لتغطية البيانات في Excel إلى عرض HTML|حشرة|
-|CELLSJAVA-42628|حساب الصيغ خاطئ ، على سبيل المثال أنه يولد # DIV / 0! أخطاء|حشرة|
-|CELLSJAVA-42615|تنسيق Cell A3 غير صحيح في HTML الناتج|حشرة|
-|CELLSJAVA-42621|أداء ضعيف عند إنشاء ملف PDF من ملف MS Excel|حشرة|
-|CELLSJAVA-42620|XLSX إلى TIFF - استثناء NoClassDefFoundError|حشرة|
-|CELLSJAVA-42599|تُفقد الصور عند تحويل ملف Excel إلى PDF|حشرة|
-|CELLSJAVA-42630|يتسبب أسلوب Chart.calculate في حدوث OutOfMemoryError|حشرة|
-|CELLSJAVA-42623|تزداد الذاكرة في تحويل ملف Excel إلى تنسيق ملف PDF|حشرة|
-|CELLSJAVA-42592|تم تغيير حجم الخط في عنوان المخطط بسبب طريقة الأحرف ()|حشرة|
-|CELLSJAVA-41860|يتغير تأثير الظل أثناء إعادة حفظ XLS|حشرة|
-|CELLSJAVA-42654|تحويل Excel إلى PDF - لا يكتمل التحويل أبدًا|حشرة|
-|CELLSJAVA-42647|تعذر الحصول على نص بديل أو تعيينه لشكل التعليق|حشرة|
-|CELLSJAVA-42644|يتوقف Aspose.Cells عند تحويل ملف مل لجدول بيانات (xml) إلى PDF بعلامة أنماط الإغلاق الذاتي|حشرة|
-|CELLSJAVA-42632|تعذر تعيين نص بديل لشكل SmartArt|حشرة|
-|CELLSJAVA-42631|يقوم getFirstVisibleRow () و getFirstVisibleColumn () بإرجاع فهارس غير صالحة|حشرة|
-|CELLSJAVA-42624|الارتباطات التشعبية ذات الرموز المشفرة (مثل ، "٪ 5c") تقوم بفك تشفيرها بعد إعادة الحفظ|حشرة|
+|CELLSJAVA-42636|يتم إزاحة بعض أشكال الرسم أو تقديمها بشكل خاطئ في Excel إلى عرض HTML|خلل برمجي|
+|CELLSJAVA-42627|CELLSJAVA-42619 - غير قادر على استخراج صور Smart Art بشكل صحيح|خلل برمجي|
+|CELLSJAVA-42618|تم إزاحة الشكل لتغطية البيانات في Excel إلى عرض HTML|خلل برمجي|
+|CELLSJAVA-42628|حساب الصيغ خاطئ ، على سبيل المثال أنه يولد # DIV / 0! أخطاء|خلل برمجي|
+|CELLSJAVA-42615|تنسيق Cell A3 غير صحيح في الإخراج HTML|خلل برمجي|
+|CELLSJAVA-42621|ضعف الأداء عند إنشاء ملف PDF من ملف MS Excel|خلل برمجي|
+|CELLSJAVA-42620|XLSX إلى TIFF - استثناء NoClassDefFoundError|خلل برمجي|
+|CELLSJAVA-42599|تُفقد الصور عند تحويل ملف Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-42630|يتسبب أسلوب Chart.calculate في حدوث OutOfMemoryError|خلل برمجي|
+|CELLSJAVA-42623|تزداد الذاكرة في تحويل ملف Excel إلى تنسيق ملف PDF|خلل برمجي|
+|CELLSJAVA-42592|تم تغيير حجم الخط في عنوان المخطط بسبب طريقة الأحرف ()|خلل برمجي|
+|CELLSJAVA-41860|تم تغيير تأثير الظل أثناء إعادة حفظ XLS|خلل برمجي|
+|CELLSJAVA-42654|Excel إلى تحويل PDF - لا يكتمل التحويل أبدًا|خلل برمجي|
+|CELLSJAVA-42647|تعذر الحصول على نص بديل أو تعيينه لشكل التعليق|خلل برمجي|
+|CELLSJAVA-42644|Aspose.Cells يتوقف عند تحويل ملف مل لجدول بيانات (xml) إلى PDF بعلامة أنماط الإغلاق الذاتي|خلل برمجي|
+|CELLSJAVA-42632|تعذر تعيين نص بديل لشكل SmartArt|خلل برمجي|
+|CELLSJAVA-42631|يقوم getFirstVisibleRow () و getFirstVisibleColumn () بإرجاع فهارس غير صالحة|خلل برمجي|
+|CELLSJAVA-42624|الارتباطات التشعبية ذات الرموز المشفرة (مثل ، "٪ 5c") تقوم بفك تشفيرها بعد إعادة الحفظ|خلل برمجي|
 |CELLSJAVA-42638|Cell.getDisplayStringValue () يطرح java.lang.NullPointerException|استثناء|
-|CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException حدث أثناء تحميل ملف XLS|استثناء|
+|CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException حدث عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42650|استثناء: "ترميز غير صالح: فارغ" عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42649|استثناء: "لا يمكن أن يكون عدد HPageBreaks أكبر من 1024" عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42648|استثناء: "فشل قراءة بيانات الصورة" على Picture.getData ()|استثناء|

@@ -19,26 +19,26 @@ url: /zh/net/aspose-cells-for-net-9-0-0-release-notes/
 |CELLSNET-44581 |电子表格到 HTML 的转换问题：BODY 和 HTML 标签之间的 STYLE 标签|漏洞|
 |CELLSNET-44718 |ICustomFunction 不适用于 [@columnName]|漏洞|
 |CELLSNET-44705 |计算公式时显示错误的 SUM|漏洞|
-|CELLSNET-44692 |API 与 MS Excel 相比计算公式值不正确|漏洞|
+|CELLSNET-44692 | API 与 MS Excel 相比计算公式值不正确|漏洞|
 |CELLSNET-44688 |单元格值计算错误|漏洞|
 |CELLSNET-44684 |计算公式时单元格的值错误|漏洞|
-|CELLSNET-44716 |PDF 结果与用于打印标题行的 Excel 不匹配|漏洞|
+|CELLSNET-44716 |PDF 结果与打印标题行的 Excel 不匹配|漏洞|
 |CELLSNET-44713 |数据隐藏在PDF的转换结果中|漏洞|
 |CELLSNET-44675 |工作表渲染到图像文件失败|漏洞|
-|CELLSNET-44717 |电子表格到 XPS：进程永远不会完成并占用太多内存|漏洞|
-|CELLSNET-44678 |将电子表格呈现为 PDF/图像时，迷你图未正确呈现|漏洞|
+|CELLSNET-44717 |电子表格到 XPS：过程永远不会完成并占用太多内存|漏洞|
+|CELLSNET-44678 |将电子表格渲染到 PDF/image 时，迷你图未正确渲染|漏洞|
 |CELLSNET-44654 |Chart.Calculate() 方法破坏了图表图像|漏洞|
 |CELLSNET-44714 |保存到memorystream（SpreadsheetML），进程挂了，耗时多|漏洞|
 |CELLSNET-44711 |取消隐藏被 Aspose.Cells 隐藏的行在 Microsoft Excel 中无法正常工作|漏洞|
 |CELLSNET-44709 |删除并重新插入图片后图片公式消失了|漏洞|
 |CELLSNET-44708 |在 XLS 中重新嵌入演示幻灯片会在双击时显示演示视图|漏洞|
-|CELLSNET-44696 |带箭头的线在 XLSX 和 PDF 格式中未完全呈现|漏洞|
-|CELLSNET-44689 |打开和重新保存源 XLS 文件时更改打印机设置|漏洞|
+|CELLSNET-44696 |带箭头的线未完全以 XLSX 和 PDF 格式呈现|漏洞|
+|CELLSNET-44689 |打开并重新保存源 XLS 文件时更改打印机设置|漏洞|
 |CELLSNET-44683 |“customSheetView”xml 中的“pane”xml 未从设计器电子表格中复制|漏洞|
 |CELLSNET-44660 |加载并保存 XLS 文件后，图表的 Y 轴和 X 轴变为粗体|漏洞|
 |CELLSNET-44658 |加载和保存 XLS 文件后图表的垂直轴标签的文本大小发生变化|漏洞|
-|CELLSNET-44691 |由于显示：源 HTML 中无|例外|
-|CELLSNET-44685 |Workbook.CalculateFormula() 方法在源 Excel 文件上引发异常|例外|
+|CELLSNET-44691 |由于 display:none in source HTML，Workbook ctor 出现 NullReferenceException|例外|
+|CELLSNET-44685 | Workbook.CalculateFormula() 方法在源 Excel 文件上引发异常|例外|
 |CELLSNET-44712 |异常：“定义名称的无效文本。”打开 Excel 文件时|例外|
 ### **2) Aspose.Cells 网格套件**
 

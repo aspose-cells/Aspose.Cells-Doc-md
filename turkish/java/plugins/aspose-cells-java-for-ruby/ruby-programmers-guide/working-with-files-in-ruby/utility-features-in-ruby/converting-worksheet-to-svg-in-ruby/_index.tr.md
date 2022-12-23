@@ -1,11 +1,11 @@
 ﻿---
-title: Çalışma Sayfasını Ruby'de SVG'ye Dönüştürme
+title: Çalışma Sayfasını Ruby'de SVG'e Dönüştürme
 type: docs
 weight: 70
 url: /tr/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
-Ruby'de Aspose.Cells for Java kullanarak Çalışma Sayfasını SVG'ye dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
+## **Aspose.Cells - Çalışma Sayfası SVG'e dönüştürülüyor**
+Ruby'de Aspose.Cells for Java kullanarak Worksheet'i SVG'e dönüştürmek için worksheet'i çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
 
 **Yakut Kodu**
 
@@ -19,7 +19,7 @@ img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-img_options.setSaveFormat(kaydet_biçim.SVG)
+img_options.setSaveFormat(kaydet_format.SVG)
 
 img_options.setOnePagePerSheet(doğru)
 
@@ -55,6 +55,6 @@ end 
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfasını SVG'ye Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirmek**Çalışma Sayfasını SVG'e (Aspose.Cells) Dönüştürme**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

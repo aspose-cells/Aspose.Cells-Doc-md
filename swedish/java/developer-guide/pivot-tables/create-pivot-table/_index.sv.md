@@ -15,7 +15,7 @@ url: /sv/java/create-pivot-table/
 Pivottabellobjekten är:
 
 - [**Pivotfält**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): det representerar ett fält i en pivottabell.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : det representerar en samling av alla[**Pivotfält**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objekt i pivottabellen.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) det representerar en samling av alla[**Pivotfält**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objekt i pivottabellen.
 - [**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): den representerar en pivottabell.
 - [**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): det representerar samlingen av alla pivottabellobjekt på kalkylbladet.
 
@@ -25,7 +25,7 @@ Pivottabellobjekten är:
 
 För att skapa en pivottabell med Aspose.Cells, följ stegen nedan:
 
-1.  Lägg till några data till kalkylbladsceller genom att använda[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) objekt[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod. Dessa data kommer att användas som en datakälla för pivottabellen.
+1.  Lägg till några data till kalkylbladsceller genom att använda[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) föremål[**satt värde**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)metod. Dessa data kommer att användas som en datakälla för pivottabellen.
 1. Lägg till en pivottabell till kalkylbladet genom att anropa[**Lägg till**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) metod för[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) klass, inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objekt.
 1.  Få tillgång till[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) objekt från[**PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) genom att passera[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)index.
 1.  Använd något av pivottabellsobjekten (förklarat ovan) inkapslade i[**Pivottabell**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)objekt för att hantera pivottabellen.

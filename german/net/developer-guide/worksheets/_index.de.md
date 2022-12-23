@@ -21,7 +21,7 @@ Entwickler können Arbeitsblätter in Microsoft-Excel-Dateien einfach programmge
 So erstellen Sie programmgesteuert eine neue Excel-Datei:
 
 1.  Erstellen Sie ein Objekt der[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klasse.
-1.  Ruf den[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) Methode der[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Klasse. Der Excel-Datei wird automatisch ein leeres Arbeitsblatt hinzugefügt. Es kann darauf verwiesen werden, indem der Blattindex des neuen Arbeitsblatts an die übergeben wird[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung.
+1.  Ruf den ... an[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) Methode der[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Klasse. Der Excel-Datei wird automatisch ein leeres Arbeitsblatt hinzugefügt. Es kann darauf verwiesen werden, indem der Blattindex des neuen Arbeitsblatts an die übergeben wird[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung.
 1. Besorgen Sie sich eine Arbeitsblattreferenz.
 1. Bearbeiten Sie die Arbeitsblätter.
 1.  Speichern Sie die neue Excel-Datei mit neuen Arbeitsblättern, indem Sie die aufrufen[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse'[**Speichern**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)Methode.

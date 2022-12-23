@@ -10,7 +10,7 @@ Vous pouvez modifier la langue du fichier Excel en cliquant avec le bouton droit
 
 ## **Spécifiez la langue du fichier Excel à l'aide des propriétés de document intégrées**
 
- L'exemple de code suivant crée un classeur et modifie sa propriété de document intégrée nommée Language. Veuillez consulter le[fichier Excel de sortie](64716891.xlsx) généré par le code et capture d'écran qui montre le champ Langue modifié par[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)propriété.
+ L'exemple de code suivant crée un classeur et modifie sa propriété de document intégrée nommée Language. Veuillez consulter le[fichier Excel de sortie](64716891.xlsx) généré par le code et capture d'écran qui montre le champ Langue modifié par[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)la propriété.
 
 ![tâche : image_autre_texte](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 

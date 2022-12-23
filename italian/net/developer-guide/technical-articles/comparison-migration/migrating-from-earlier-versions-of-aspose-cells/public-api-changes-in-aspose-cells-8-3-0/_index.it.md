@@ -1,16 +1,16 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.3.0
+title: Pubblico API Modifiche Aspose.Cells 8.3.0
 type: docs
 weight: 100
 url: /it/net/public-api-changes-in-aspose-cells-8-3-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.2.2 alla 8.3.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.2.2 alla 8.3.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
 
 {{% /alert %}} 
 ## **API aggiunte**
-### **Proprietà WorkbookSettings.AutoRecover aggiunta**
+### **Proprietà WorkbookSettings.AutoRecover aggiunto**
 La nuova proprietà AutoRecover è stata aggiunta alla classe WorkbookSettings per consentire agli sviluppatori di impostare l'opzione di Auto-Recovery per i fogli di calcolo nelle loro applicazioni.
 
 {{% alert color="primary" %}} 
@@ -81,7 +81,7 @@ Console.WriteLine(settings.RepairLoad);
 
 
 ### **Proprietà TxtLoadOptions.KeepExactFormat Aggiunta**
-La proprietà KeepExactFormat è stata aggiunta alla classe TxtLoadOptions che indica se la formattazione esatta deve essere mantenuta per il valore della cella quando la stringa/testo viene convertita in numeri o DateTime. Questa proprietà è stata aggiunta per corrispondere al comportamento dell'applicazione MS Excel per il caricamento di DateTime o valori numerici da file CSV. Per simulare il comportamento di MS Excel, imposta la proprietà KeepExactFormat su false, mentre il valore predefinito è true, quindi il valore della cella verrà formattato come la stringa nel file CSV.
+La proprietà KeepExactFormat è stata aggiunta alla classe TxtLoadOptions che indica se la formattazione esatta deve essere mantenuta per il valore della cella quando la stringa/testo viene convertita in numeri o DateTime. Questa proprietà è stata aggiunta per corrispondere al comportamento dell'applicazione MS Excel per il caricamento di valori DateTime o numerici dai file CSV. Per simulare il comportamento di MS Excel, imposta la proprietà KeepExactFormat su false, mentre il valore predefinito è true, quindi il valore della cella verrà formattato come la stringa nel file CSV.
 
 **C#**
 

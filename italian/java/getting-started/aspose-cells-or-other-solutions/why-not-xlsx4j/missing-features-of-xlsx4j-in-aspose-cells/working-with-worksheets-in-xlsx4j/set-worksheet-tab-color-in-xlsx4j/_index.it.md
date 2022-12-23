@@ -12,7 +12,7 @@ Aspose.Cells ti consente di cambiare il colore delle singole schede del foglio d
 1. Seleziona un colore dalla tavolozza.
 1. Clic**OK**.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

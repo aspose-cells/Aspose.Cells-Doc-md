@@ -6,7 +6,7 @@ url: /es/net/cut-and-paste-cells/
 ---
 ## **Cortar y Pegar Cells**
 
-Aspose.Cells le brinda la posibilidad de cortar y pegar celdas dentro de una hoja de trabajo usando el[**InsertarCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación. los[**InsertarCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)acepta los siguientes parámetros.
+Aspose.Cells le brinda la posibilidad de cortar y pegar celdas dentro de una hoja de trabajo usando el[**InsertarCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación. Él[**InsertarCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)acepta los siguientes parámetros.
 
 - [**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range)El rango de celdas a cortar.
 - Índice de fila: el índice de la fila para insertar celdas.

@@ -8,7 +8,7 @@ url: /ja/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **IntelliJ アイデア**
 
-**IntelliJ アイデア**Java ソフトウェア開発者向けの統合開発環境 (IDE) です。 JetBrains によって開発されています。当初は for Java で作成されましたが、現在、JavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure、Kotlin など、さまざまな言語をサポートしています。
+**IntelliJ アイデア**Java ソフトウェア開発者向けの統合開発環境 (IDE) です。 JetBrains によって開発されています。最初に作成された for Java は、現在、JavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure、Kotlin など、さまざまな言語をサポートしています。
 
  2010年に**インフォワールド**レポートによると、IntelliJ は 4 つの上位 Java プログラミング ツール (Eclipse、IntelliJ IDEA、NetBeans、および Oracle JDeveloper) の中で最高のテスト センター スコアを獲得しました。
 
@@ -82,7 +82,7 @@ IntellliJ IDEA をダウンロードするには
  - に行く**ファイル** > **設定**...>**プラグイン**
  - 選択する**「リポジトリの参照」**
  - 検索ボックスの種類: 「Aspose」
- 選択する "**Aspose Cells Java IntelliJ IDEA Maven の場合**"インストールするプラグイン。
+ 選択する "**Aspose Cells Java IntelliJ IDEA Maven の場合**" インストールするプラグイン。
 
 ## **インストール**
 

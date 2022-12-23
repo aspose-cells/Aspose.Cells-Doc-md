@@ -17,7 +17,7 @@ url: /zh/net/aspose-cells-for-net-5-0-0-release-notes/
 - 包括 MS Excel 2007 XLSB 文件格式支持。
 提供复制和粘贴特殊功能。
 支持排序智能标记。
-37 项增强和修复。
+ 37 项增强和修复。
 
  Aspose.Cells.GridWeb 发生了什么变化：
 

@@ -11,7 +11,7 @@ url: /tr/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET, 8.0.1 sürümüne güncellendi ve bu sürümün 30'dan fazla yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -44,15 +44,15 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42533) - Pivot filtreleme eklendikten sonra çıktı dosyası MS Excel'de kilitlendi
 
- (CELLSNET-42516) - HTML'ye dışa aktarıldığında gizli yorum gösteriliyor
+ (CELLSNET-42516) - Gizli yorum, HTML'e aktarıldığında gösterilir
 
- (CELLSNET-42470) - Excel, Aspose.Cells'de oluşturulan XLSX'te okunamayan içerik mesajı buldu
+ (CELLSNET-42470) - Excel, Aspose.Cells'de okunamayan içerik mesajı buldu, XLSX oluşturdu
 
  (CELLSNET-42468) - Excel, PivotTable'ı ekledikten sonra elektronik tabloda okunamayan içerikler buldu
 
- (CELLSNET-42314) - Birçok VML öğesi (kontrol) düzgün şekilde işlenmiyor (Excel'den HTML'ye dönüştürme)
+ (CELLSNET-42314) - Birçok VML öğesi (denetimi) düzgün şekilde işlenmiyor (Excel'den HTML'e dönüştürme)
 
-(CELLSNET-42259) - HTML Dönüştürmedeki VML Form Öğeleri İşlenmiyor
+(CELLSNET-42259) - HTML Dönüşümündeki VML Form Öğeleri İşlenmiyor
 
  (CELLSNET-42180) - Zengin Metin biçimlendirmesi korunmaz.
 
@@ -60,15 +60,15 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42551) - PDF çıktısında sözcükler arasındaki boşluklar kayboluyor
 
- (CELLSNET-42543) - PDF'ye kaydederken görüntü bulanıklaşıyor
+ (CELLSNET-42543) - PDF'e kaydederken görüntü bulanıklaşıyor
 
- (CELLSNET-42502) - XLSX PDF'ye dönüştürüldüğünde kaydırma satırlarında Metin Hizalama sorunu
+ (CELLSNET-42502) - XLSX, PDF'e dönüştürüldüğünde kaydırma satırlarında Metin Hizalama sorunu
 
- (CELLSNET-42501) - XLSX PDF'ye dönüştürüldüğünde içerikler konumlarını korumuyor
+ (CELLSNET-42501) - XLSX, PDF'e dönüştürüldüğünde içerikler konumlarını korumuyor
 
  (CELLSNET-42483) - Yatay hizalama ve görüntüleme sorunu
 
- (CELLSNET-42429) - XLSX'ten PDF'ye dönüştürürken eksik karakterler
+ (CELLSNET-42429) - XLSX'den PDF'e dönüştürülürken eksik karakterler
 
  (CELLSNET-41777) - SaveAsPDF'de fazladan sayfa sonu
 
@@ -114,7 +114,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -122,9 +122,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 ## **Hatalar**
 
 
- (CELLSNET-42522) - GridWeb sorunu: sütun genişliğini ayarla kromda çalışmıyor
+(CELLSNET-42522) - GridWeb sorunu: sütun genişliğini ayarla kromda çalışmıyor
 
-(CELLSNET-42509) - Gridweb'de şekiller düzgün şekilde oluşturulmuyor
+ (CELLSNET-42509) - Gridweb'de şekiller düzgün şekilde oluşturulmuyor
 
  (CELLSNET-42503) - Aspose.cells ad alanında aralık belirsiz
 

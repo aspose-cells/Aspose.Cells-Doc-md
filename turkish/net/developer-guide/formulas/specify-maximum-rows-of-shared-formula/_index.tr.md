@@ -8,7 +8,7 @@ url: /tr/net/specify-maximum-rows-of-shared-formula/
 
 Paylaşılan formülün varsayılan maksimum satır sayısı 64'tür. Herhangi bir sayı olabilir, örneğin 1000 olabilir. Paylaşılan formülün performansı, farklı satır sayısıyla değişir. Bu nedenle, Aspose.Cells,[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula)paylaşılan formülün maksimum satırlarını belirtmek için kullanılabilen özellik. Aşağıdaki ekran görüntüsünde gösterildiği gibi, paylaşılan formülün toplam satırları bundan büyükse, paylaşılan formül birkaç paylaşılan formüle bölünecektir.
 
-![yapılacaklar:resim_alternatif_Metin](specify-maximum-rows-of-shared-formula_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-maximum-rows-of-shared-formula_1.png)
 
 ## **Paylaşılan Formülün Maksimum Satırını Belirtin**
 

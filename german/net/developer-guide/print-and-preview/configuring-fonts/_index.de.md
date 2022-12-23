@@ -6,7 +6,7 @@ url: /de/net/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformaten zu rendern und sie in PDF- und XPS-Formate zu konvertieren. Um die Konvertierungstreue zu maximieren, müssen die in der Tabelle verwendeten Schriftarten im Standardverzeichnis für Schriftarten des Betriebssystems verfügbar sein. Falls die erforderlichen Schriftarten nicht vorhanden sind, versuchen die Aspose.Cells-APIs, die erforderlichen Schriftarten durch die verfügbaren zu ersetzen.
+Aspose.Cells-APIs bieten die Möglichkeit, die Tabellenkalkulationen in Bildformaten zu rendern und sie in die Formate PDF und XPS zu konvertieren. Um die Konvertierungstreue zu maximieren, müssen die in der Tabelle verwendeten Schriftarten im Standardverzeichnis für Schriftarten des Betriebssystems verfügbar sein. Falls die erforderlichen Schriftarten nicht vorhanden sind, versuchen die Aspose.Cells-APIs, die erforderlichen Schriftarten durch die verfügbaren zu ersetzen.
 
 ## **Auswahl an Schriftarten**
 
@@ -29,7 +29,7 @@ Unten ist der Prozess, dem Aspose.Cells-APIs hinter den Kulissen folgen.
 
 {{% alert color="primary" %}}
 
- Beide**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Vorbeigehen**Stimmt** da der zweite Parameter die Aspose.Cells-APIs anweist, die Unterordner nach den Schriftartdateien zu durchsuchen.
+ Beide**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** Methoden akzeptieren einen zweiten Parameter vom Typ Boolean. Vorbeigehen**wahr** da der zweite Parameter die Aspose.Cells-APIs anweist, die Unterordner nach den Schriftartdateien zu durchsuchen.
 
 {{% /alert %}}
 
@@ -49,7 +49,7 @@ Wenn alle oben genannten Methoden zum Einstellen der Schriftartquellen verwendet
 
  Aspose.Cells-APIs bieten auch die Möglichkeit, die Ersatzschriftart für Wiedergabezwecke anzugeben. Dieser Mechanismus ist hilfreich, wenn eine erforderliche Schriftart auf dem Computer, auf dem die Konvertierung stattfinden soll, nicht verfügbar ist. Benutzer können eine Liste mit Schriftartnamen als Alternative zur ursprünglich erforderlichen Schriftart bereitstellen. Um dies zu erreichen, haben die Aspose.Cells-APIs die ausgesetzt**[FontConfigs.SetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontsubstitutes)** Methode, die 2 Parameter akzeptiert. Der erste Parameter ist vom Typ**Schnur** , das sollte der Name der Schriftart sein, die ersetzt werden muss. Der zweite Parameter ist ein Array vom Typ**Schnur**Benutzer können eine Liste mit Schriftartnamen als Ersatz für den ursprünglichen Schriftartnamen (angegeben im ersten Parameter) bereitstellen.
 
-Hier ist ein einfaches Anwendungsszenario.
+Hier ist ein einfaches Nutzungsszenario.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetCustomFontFolders-FontSubstitution.cs" >}}
 

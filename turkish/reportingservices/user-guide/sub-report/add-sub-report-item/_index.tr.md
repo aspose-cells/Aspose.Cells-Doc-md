@@ -9,14 +9,14 @@ Alt rapor öğesi eklemek için:
 1. Alt rapor öğesine referans verecek hücreyi seçin.
 1.  Tıklamak**Alt Rapor** (
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_1.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_1.png)
 
 ).
  Alt rapor formu gösterilir.
 
 **Alt Rapor formu** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_2.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_2.png)
 
 
 
@@ -27,16 +27,16 @@ Alt rapor öğesi eklemek için:
 
    **Bir rapor seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_3.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_3.png)
 
 
 
 
-1.  Tıklamak**Kapat**. 
+1.  Tıklamak**Kapalı**. 
 
    **Bir alt rapor seçildi** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_4.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_4.png)
 
 
 
@@ -45,7 +45,7 @@ Alt rapor öğesi eklemek için:
 
    **Formülü Düzenle iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_5.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_5.png)
 
 
 
@@ -54,7 +54,7 @@ Alt rapor öğesi eklemek için:
 
    **Alt raporu adlandırma** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_6.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_6.png)
 
 
 
@@ -63,4 +63,4 @@ Alt rapor öğesi eklemek için:
 
    **Bir rapor tablosuna eklenen alt rapor** 
 
-![yapılacaklar:resim_alternatif_Metin](add-sub-report-item_7.png)
+![yapılacaklar:resim_alternatif_metin](add-sub-report-item_7.png)

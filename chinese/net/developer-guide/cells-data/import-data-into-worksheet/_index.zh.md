@@ -17,7 +17,7 @@ url: /zh/net/import-data-into-worksheet/
 Aspose.Cells提供了[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示 Microsoft Excel 文件的类。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)收藏。[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection 提供了从不同数据源导入数据的有用方法。本文解释了如何使用这些方法。
 
 ## **使用 ICellsDataTable 接口将数据导入 Excel**
-实施[ICells数据表](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)包装您的各种数据源，然后使用[Cells.导入数据（）](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata)将数据导入 Excel 工作表。
+实行[ICells数据表](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable)包装您的各种数据源，然后使用[Cells.导入数据（）](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata)将数据导入 Excel 工作表。
 ### **示例代码**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ImportICellsDataTableIntoWorksheet.cs" >}}
 
@@ -82,7 +82,7 @@ Aspose.Cells 提供将动态对象用作数据源的功能。它有助于使用�
 
 ## **从 DataColumn 导入 (.NET)**
 
-一个*数据表*或者*数据视图*对象由一列或多列组成。开发人员还可以从任何 Column/Columns 中导入数据*数据表*或者*数据视图*通过调用[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)收藏。这[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法接受类型参数[**导入表选项**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions).这[**导入表选项**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)类提供了[**列索引**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)接受列索引数组的属性。
+一种*数据表*要么*数据视图*对象由一列或多列组成。开发人员还可以从任何 Column/Columns 中导入数据*数据表*要么*数据视图*通过调用[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)收藏。这[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)方法接受类型参数[**导入表选项**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions).这[**导入表选项**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions)类提供了[**列索引**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)接受列索引数组的属性。
 
 下面给出的示例代码演示了使用[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)导入选择性列。
 
@@ -114,7 +114,7 @@ Aspose.Cells 提供将动态对象用作数据源的功能。它有助于使用�
 
 从中导入数据*网格视图*控制，调用[**导入网格视图**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)的方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)收藏。
 
-Aspose.Cells 允许我们在将数据导入电子表格时遵循 HTML 格式的值。在导入数据时启用 HTML 解析时，Aspose.Cells 会将 HTML 转换为相应的单元格格式。
+Aspose.Cells 允许我们在将数据导入电子表格时遵循 HTML 格式的值。导入数据时启用 HTML 解析时，Aspose.Cells 将 HTML 转换为相应的单元格格式。
 
 ## **导入 HTML 格式的数据**
 
@@ -124,10 +124,10 @@ Aspose.Cells提供了[**Cells**](https://reference.aspose.com/cells/net/aspose.c
 
 ## **从 JSON 导入数据**
 
-Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)处理JSON的类。[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)类有一个[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)导入JSON数据的方法。 Aspose.Cells还提供了[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)表示 JSON 布局选项的类。这[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)作为参数。这[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)类提供以下属性。
+Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)处理类 JSON。[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)类有一个[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)JSON数据导入方法。 Aspose.Cells还提供了[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)表示 JSON 布局选项的类。这[**导入数据**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)作为参数。这[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)类提供以下属性。
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable)：表示数组中是否作为表格处理。
-- [**转换数字或日期**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate)：获取或设置一个值，该值表示将JSON中的字符串转换为数值型还是日期型。
+- [**转换数字或日期**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): 获取或设置一个值，该值指示JSON中的字符串是转换为数字还是日期。
 - [**日期格式**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat)：获取和设置日期值的格式。
 - [**忽略数组标题**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): 表示如果对象的属性是数组，是否忽略标题
 - [**忽略空值**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull)：指示是否应忽略空值。
@@ -135,7 +135,7 @@ Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/net/asp
 - [**数字格式**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat)：获取和设置数值的格式。
 - [**标题样式**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle)获取和设置标题的样式。
 
-下面给出的示例代码演示了使用[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)和[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)用于导入 JSON 数据的类。
+下面给出的示例代码演示了使用[**Json工具**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)和[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)导入 JSON 数据的类。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

@@ -11,19 +11,19 @@ url: /de/net/aspose-cells-for-net-8-8-2-release-notes/
 |CELLSNET-44314 | So rendern Sie Unicode-Ergänzungszeichen| Neue Funktion|
 |CELLSNET-41817 | Festlegen des Texteffekts auf Versatz in Rechteckform| Erweiterung|
 |CELLSNET-41454 | Aspose.Cells bestimmt einige Dateiformate falsch| Erweiterung|
-|CELLSNET-44476 | Die Textrichtung wird beim Speichern im HTML-Dateiformat ignoriert| Insekt|
-|CELLSNET-44457 | Beim Konvertieren in eine HTML-Datei gehen die unteren Ränder der Tabelle verloren| Insekt|
+|CELLSNET-44476 | Die Textrichtung wird beim Speichern im Dateiformat HTML ignoriert| Insekt|
+|CELLSNET-44457 | Die unteren Ränder in der Tabelle gehen beim Konvertieren in eine HTML-Datei verloren| Insekt|
 |CELLSNET-44446 | Allen CSS-Stilen wird beim Speichern als HTML kein Präfix vorangestellt| Insekt|
 |CELLSNET-44444 | Das Öffnen und Speichern einer Datei, die eine Pivot-Tabelle enthält, führt zu einer beschädigten Tabelle| Insekt|
-|CELLSNET-44443 | Pivot-Diagramm zu PDF - Sekundäre Y-Achse durcheinander| Insekt|
-|CELLSNET-44450 | Die Bilddrehung ist im resultierenden PDF nicht korrekt| Insekt|
+|CELLSNET-44443 | Pivot-Diagramm zu PDF - Sekundäre Y-Achse durcheinander gebracht| Insekt|
+|CELLSNET-44450 | Die Bilddrehung ist im Ergebnis PDF nicht korrekt| Insekt|
 |CELLSNET-44303 | SheetRender.ToImage gibt die Datenbeschriftung(en) des Diagramms nicht korrekt wieder| Insekt|
-|CELLSNET-44478 |Die Zoomstufe ändert sich nach dem Öffnen und Neuschreiben der Excel-Datei| Insekt|
+|CELLSNET-44478 | Die Zoomstufe ändert sich nach dem Öffnen und Neuschreiben der Excel-Datei| Insekt|
 |CELLSNET-44477 | Listenobjektnamenskonflikt beim Kopieren des Arbeitsblatts| Insekt|
-|CELLSNET-44472 | CustomXmlParts funktionieren nicht richtig für XLS-Dateien| Insekt|
-|CELLSNET-44466 | Die Bilder können nach dem Exportieren von HTML nach Excel nicht korrekt angezeigt werden| Insekt|
+|CELLSNET-44472 | CustomXmlParts funktionieren nicht richtig für die Datei XLS| Insekt|
+|CELLSNET-44466 |Die Bilder können nach dem Exportieren von HTML nach Excel nicht korrekt angezeigt werden| Insekt|
 |CELLSNET-44465 | Diagramme werden entfernt, wenn leere Zeilen / Spalten gelöscht werden| Insekt|
-|CELLSNET-44463 | Schwarzer Text in TextBox wird im PDF weiß dargestellt| Insekt|
+|CELLSNET-44463 | Schwarzer Text in TextBox wird in PDF weiß dargestellt| Insekt|
 |CELLSNET-44456 | Der Fettdruck in der Zieldatei ging nach dem Aufruf von Range.CopyData() verloren| Insekt|
 |CELLSNET-44453 | ExternalLink.IsReferred-Eigenschaft funktioniert nicht wie erwartet| Insekt|
 |CELLSNET-44445 | CopyStyle (intelligente Markierungen) funktioniert nicht bei allen verbundenen Zellen| Insekt|

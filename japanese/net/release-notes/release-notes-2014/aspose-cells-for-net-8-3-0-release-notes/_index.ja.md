@@ -26,13 +26,13 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 ### **バグ**
 
-(CELLSNET-41756) - XLS の画像を HTML に変換する際の問題
+(CELLSNET-41756) - XLS から HTML への変換における画像の問題
 
-(CELLSNET-41755) - XLS の画像を PDF に変換する際の問題
+(CELLSNET-41755) - XLS から PDF への変換における画像の問題
 
-(CELLSNET-43111) - セル値を XLSB 削除プリセットに追加する
+(CELLSNET-43111) - XLSB 削除プリセットにセル値を追加する
 
-(CELLSNET-43110) - XLSB 出力のピボットフィールド (ダブル) が原因のエラー「Excel で読み取り不能なコンテンツが見つかりました」
+(CELLSNET-43110) - XLSB 出力のピボットフィールド (double) が原因のエラー「Excel で読み取り不能なコンテンツが見つかりました」
 
 (CELLSNET-43109) - XLSX 出力のピボットフィールド (double) が原因のエラー「Excel で読み取り不能なコンテンツが見つかりました」
 
@@ -44,9 +44,9 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-42871) - 1 つのセルに 2 つのハイパーリンクがある問題
 
-(CELLSNET-42797) - XPS に保存されているテキスト ボックスの両端揃えが失われる
+(CELLSNET-42797) - テキストボックスが XPS に保存されると両端揃えが失われる
 
-(CELLSNET-42796) - PDF に保存すると、テキストボックスの両端揃えが失われます
+(CELLSNET-42796) - テキストボックスが PDF に保存されると両端揃えが失われる
 
 (CELLSNET-42199) - Excel Diagram が正しくエクスポートされない
 
@@ -66,7 +66,7 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-41906) - PDF/A 検証の失敗およびその他のフォント関連の問題
 
-(CELLSNET-41832) - Aspose Cells で作成された PDF/A が検証に失敗する
+(CELLSNET-41832) - Aspose Cells で作成された PDF/A の検証失敗
 
 (CELLSNET-43103) - トレンドラインがプロット エリアからはみ出す
 
@@ -80,7 +80,7 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-42988) - ソース ファイルを開いて再保存すると、グラフの軸ラベルが変更される
 
-(CELLSNET-42945) - チャートの凡例の位置がXLS形式で選択されていません
+(CELLSNET-42945) - チャートの凡例の位置が XLS 形式で選択されていない
 
 (CELLSNET-41690) - デジタル署名が透明性を失っている
 
@@ -90,7 +90,7 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43139) - Aspose.Cells TEXT 関数が正しく計算されない
 
-(CELLSNET-43131) - 画像の透明色の設定が XLSX 形式で機能する
+(CELLSNET-43131) - 画像の透明色の設定は XLSX 形式で機能します
 
 (CELLSNET-43128) - ヘブライ語フォントの文字セットの問題
 
@@ -108,13 +108,13 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43094) - 床の式が正しく計算されない
 
-(CELLSNET-43091) - ODS を XLSX 形式に変換中にチャートのレイアウトが変更される
+(CELLSNET-43091) - ODS を XLSX 形式に変換中にチャートのレイアウトが変更された
 
 (CELLSNET-43087) - ODS から XLSX への変換で破損したスプレッドシートが生成される
 
 (CELLSNET-43080) - Excel を Html として保存: 条件付き書式が機能しない
 
-(CELLSNET-42969) - スプレッドシートを PDF に変換するときに条件付き書式が保持されない
+(CELLSNET-42969) - スプレッドシートを PDF に変換すると、条件付き書式が保持されない
 
 (CELLSNET-42356) - ワークブックを結合すると、ワークシートの描画オブジェクトのプロパティが保持されません
 
@@ -122,7 +122,7 @@ url: /ja/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43142) - Excel ファイルを開くと System.OverflowException が発生する
 
-(CELLSNET-43119) - Excel ファイルを PDF に変換する際の Shape to Image エラー
+(CELLSNET-43119) - Excel ファイルを PDF に変換すると、形状から画像へのエラーが発生する
 
 (CELLSNET-43078) - CSV ファイルの読み込み中にエラーが発生しました
 

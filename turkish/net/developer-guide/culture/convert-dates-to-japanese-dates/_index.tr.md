@@ -12,9 +12,9 @@ Japon** **Takviminde, yeni bir imparatorun saltanatı ile yeni bir dönem başla
 
 
 
- Aspose.Cells, Miladi tarihleri Japon tarihlerine çevirmenin bir yolunu sunar. Bu dönüşüm sırasında dönemdeki değişimler de göz önünde bulundurulur. Aşağıdaki kod parçacığı dönüştürür[kaynak Excel](90112015.xlsx) Gregoryen tarihlerini içeren dosya[çıktı PDF](90112016.pdf) Aşağıdaki resimde gösterildiği gibi Japon tarihleriyle.
+ Aspose.Cells, Miladi tarihleri Japon tarihlerine çevirmenin bir yolunu sunar. Bu dönüşüm sırasında dönemdeki değişimler de göz önünde bulundurulur. Aşağıdaki kod parçacığı dönüştürür[kaynak Excel](90112015.xlsx) Gregoryen tarihlerini içeren dosya[çıkış PDF](90112016.pdf) Aşağıdaki resimde gösterildiği gibi Japon tarihleriyle.
 
-![yapılacaklar:resim_alternatif_Metin](convert-dates-to-japanese-dates_1.jpg)
+![yapılacaklar:resim_alternatif_metin](convert-dates-to-japanese-dates_1.jpg)
 
 
 

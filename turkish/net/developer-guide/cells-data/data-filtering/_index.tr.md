@@ -19,7 +19,7 @@ Otomatik filtreleme, çalışma sayfasından yalnızca bir listede görüntülem
 Microsoft Excel'de otomatik filtreleme özelliğini etkinleştirmek için:
 
 1. Bir çalışma sayfasındaki başlık satırını tıklayın.
-1.  itibaren**Veri** menü, seç**filtre** ve daha sonra**Otomatik filtre**.
+1.  itibaren**Veri** menü, seç**filtre** ve sonra**Otomatik filtre**.
 
 Bir çalışma sayfasına otomatik filtre uyguladığınızda, sütun başlıklarının sağında filtre anahtarları (siyah oklar) görünür.
 
@@ -27,7 +27,7 @@ Bir çalışma sayfasına otomatik filtre uyguladığınızda, sütun başlıkla
 
 Otomatik filtreleme seçeneklerinden bazıları şunlardır:
 
-|**Seçenekler**|**Tanım**|
+|**Seçenekler**|**Açıklama**|
 |:- |:- |
 |Herşey|Listedeki tüm öğeleri bir kez göster.|
 |Gelenek|İçerir/içermez gibi filtre kriterlerini özelleştirin|

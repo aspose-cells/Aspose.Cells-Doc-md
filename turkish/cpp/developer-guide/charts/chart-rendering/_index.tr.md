@@ -6,7 +6,7 @@ url: /tr/cpp/chart-rendering/
 ---
 ## **Grafik Oluşturma**
 
-Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/cpp/creating-and-customizing-charts/). Grafikleri resim ve PDF formatında işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
+Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/cpp/creating-and-customizing-charts/). Grafikleri görüntü & PDF biçiminde işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
 
 {{< highlight "cpp" >}}
 
@@ -48,7 +48,7 @@ Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi ç
 
 ## **Oluşturma Grafikleri**
 
-Aspose.Cells API'ler, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Oluşturma desteği sağlamak için Chart sınıfı, uygulama gereksinimlerine en iyi şekilde uyacak şekilde ToImage & ToPdf yöntemlerini çeşitli aşırı yüklemelerle kullanıma sunmuştur.
+Aspose.Cells API'leri, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Oluşturma desteği sağlamak için Chart sınıfı, uygulama gereksinimlerine en iyi şekilde uyacak şekilde ToImage & ToPdf yöntemlerini çeşitli aşırı yüklemelerle kullanıma sunmuştur.
 
 ### **Grafikleri Görüntülere Dönüştürme**
 
@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Grafiği PDF'e Dönüştürme**
+### **Tabloyu PDF'e Oluşturma**
 
-Grafiği PDF formatına dönüştürmek için, Aspose.Cells API'leri, elde edilen PDF'yi disk yolunda veya Akışta depolama yeteneği ile Chart.ToPdf yöntemini kullanıma sunmuştur.
+Grafiği PDF biçiminde işlemek için Aspose.Cells API'leri, elde edilen PDF'i disk yolunda veya Akışta depolama yeteneğiyle Chart.ToPdf yöntemini kullanıma sundu.
 
 {{< highlight "cpp" >}}
 
@@ -90,7 +90,7 @@ chart->ToPdf(outputPdfFile);
 
 Şu anda işleme için desteklenmeyen birkaç grafik türü vardır. Bu tür grafik türleri şunları içerir:**içinde N****Aşağıdaki tablonun desteklenen** sütunu.
 
-|**Grafik türü**|**Grafik alt türü**|**desteklenen**|
+|**Grafik tipi**|**Grafik alt türü**|**desteklenen**|
 |:- |:- |:- |
 |**Kolon**|Kolon|**e**|
 ||SütunYığılmış|**e**|
@@ -99,7 +99,7 @@ chart->ToPdf(outputPdfFile);
 ||Sütun3DSığılmış|**e**|
 ||Sütun3D100YığılmışYüzde|**e**|
 ||Sütun3D|**e**|
-|**Çubuk**|Çubuk|**e**|
+|**Bar**|Bar|**e**|
 ||Çubuk Yığılmış|**e**|
 ||Bar100YığılmışYüzde|**e**|
 ||Bar3Dkümelenmiş|**e**|
@@ -176,6 +176,6 @@ chart->ToPdf(outputPdfFile);
 
 {{% alert color="primary" %}}
 
-Desteklenmeyen grafik türlerini görüntüye veya PDF'ye dönüştürmeye çalışırsanız, 0 boyutlu görüntüler veya boş PDF ile karşılaşabilirsiniz.
+Desteklenmeyen grafik türlerini resim veya PDF'e dönüştürmeye çalışırsanız, 0 boyutlu resimler veya boş PDF ile sonuçlanabilirsiniz.
 
 {{% /alert %}}

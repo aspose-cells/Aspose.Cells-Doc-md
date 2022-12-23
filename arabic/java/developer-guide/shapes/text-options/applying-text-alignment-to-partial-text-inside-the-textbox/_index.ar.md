@@ -13,7 +13,7 @@ keywords: apply/set alignment TextBox Worksheet Excel Aspose
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-يمكنك أيضًا تغيير محاذاة النص لبعض النص داخل شكل مربع نص باستخدام نص HTML المناسب. يطبق نموذج التعليمات البرمجية التالي محاذاة النص على النص الجزئي داخل TextBox.
+يمكنك أيضًا تغيير محاذاة النص لبعض النص داخل شكل مربع نص باستخدام نص HTML المناسب. يطبق نموذج التعليمات البرمجية التالي محاذاة النص على نص جزئي داخل مربع نص.
 
 [مصدر الملف](SampleTextboxExcel2016.xlsx)
 

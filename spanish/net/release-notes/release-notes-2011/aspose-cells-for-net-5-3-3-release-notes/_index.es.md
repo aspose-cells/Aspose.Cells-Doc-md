@@ -16,27 +16,27 @@ url: /es/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Renderizar casillas de verificación en archivo Html
 
- 26082 Admite alineación justificada en la representación de formato PDF
+ 26082 Admite alineación justificada en el formato de representación PDF
 
  26341 Mejora de Excel a PDF para Mono
 
  26342 Los enlaces web externos tienen algunos caracteres extraños adjuntos
 
- 25332 Mejora varias propiedades personalizadas en documentos XLS, XLSX/XLSM
+ 25332 Mejora varias propiedades personalizadas en los documentos XLS, XLSX/XLSM
 
  26472 Admite la función/fórmula STDEV.S
-### **Actuación**
+### **Rendimiento**
  25774 Conversión de Excel a PDF
 ### **Excepciones**
  27076 Manejar FormatException al abrir un archivo ODS
 
  27063 Índice de columna no válido - Aspose.Cells.CellsException del método SheetRender.ToImage()
 
- 26571 Aspose.Cells no se puede abrir el archivo XLS
+26571 Aspose.Cells no puede abrir el archivo XLS
 
  26309 La matriz de origen no era lo suficientemente larga: excepción al abrir el archivo de Excel
 
-25972 El método SheetRender.ToImage() no pudo procesar algunas hojas de trabajo
+ 25972 El método SheetRender.ToImage() no pudo procesar algunas hojas de trabajo
 ### **Insectos**
  26141 Representar una imagen casi en blanco (del método Chart.ToImage()), las líneas discontinuas no se representan correctamente
 
@@ -48,11 +48,11 @@ url: /es/net/aspose-cells-for-net-5-3-3-release-notes/
 
  18878 Reduzca el tamaño de la fuente al guardar en un archivo PDF
 
- 19318 Texto incorrecto en la exportación de PDF
+ 19318 Texto incorrecto en PDF Exportar
 
  24011 Guardar en PDF (errores)
 
- 26727 Varios problemas al guardar el archivo de Excel generado como PDF
+ 26727 Problemas múltiples al guardar el archivo de Excel generado como PDF
 
  25920 Las tablas dinámicas se corrompen
 
@@ -62,19 +62,19 @@ url: /es/net/aspose-cells-for-net-5-3-3-release-notes/
 
  Problema de corrupción de archivos 24961
 
- 26198 Obtenga el valor máximo de ValueAxis en un gráfico de Excel
+26198 Obtenga el valor máximo de ValueAxis en un gráfico de Excel
 
  26198 Un problema con los métodos PutValue y ClearContents
 
  26544 Problema con la copia de filas y el formato condicional
 
-26711 La celda calculada tiene “¡#VALOR!” después de usar el método Workbook.CalculateFormula()
+ 26711 La celda calculada tiene “¡#VALOR!” después de usar el método Workbook.CalculateFormula()
 
  26728 Obtener "#Valor!" en las celdas calculadas
 
  26984 Problema con cálculo de fórmulas en hojas de cálculo
 
- 26308 La fórmula XLSB devuelve un valor diferente al de la fórmula XLSX
+ 26308 XLSB La fórmula devuelve un valor diferente al de la fórmula XLSX
 
  25783 El archivo de Excel se abre con una advertencia después de usar Range.CopyValue para el encabezado de la tabla
 
@@ -82,7 +82,7 @@ url: /es/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25879 2007 El archivo de Excel coloca una forma con zOrderPosition de 0 en la parte superior
 
- 25970 Procesar texto alternativo en archivo XLSX de MS Excel 2010
+ 25970 Representar texto alternativo en MS Excel 2010 XLSX archivo
 
  26013 TextBox Linked Cell devuelve nulo
 

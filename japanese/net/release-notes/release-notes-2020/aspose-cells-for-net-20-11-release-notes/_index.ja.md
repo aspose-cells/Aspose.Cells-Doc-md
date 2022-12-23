@@ -14,11 +14,11 @@ url: /ja/net/aspose-cells-for-net-20-11-release-notes/
 |:- |:- |:- |
 |CELLSNET-47706|スペイン地域の年のロケール依存書式パターン「aaaa」をサポート|機能強化|
 |CELLSNET-47641|29 枚のシートを追加し、MS Excel で出力 XLS ファイルを開くときに警告が発生する|パフォーマンス|
-|CELLSNET-46716|PDF のレンダリング時にテキストが切れる|バグ|
+|CELLSNET-46716|PDF レンダリング時にテキストが切れる|バグ|
 |CELLSNET-47618|画像がすべて白くなり、他の画像/図形のテキストが破損する|バグ|
 |CELLSNET-47635|別のテーブルのスライサーが破損したファイルを生成する|バグ|
-|CELLSNET-47642|ロードおよび保存後に XLSB ファイルが破損する|バグ|
-|CELLSNET-47660|日付を含むグラフ フィールドが PDF 形式で異なる形式になる|バグ|
+|CELLSNET-47642|XLSB ロードおよび保存後にファイルが破損する|バグ|
+|CELLSNET-47660|日付を含むグラフ フィールドの形式が PDF 形式と異なる|バグ|
 |CELLSNET-47661|Aspose.Cells は、特定の Cells ドキュメントの特定のワークシートに対して無効な HTML マークアップを生成します|バグ|
 |CELLSNET-47680|ピボット テーブルが更新されませんでした|バグ|
 |CELLSNET-47659|特定のスタイルのセルを見つける問題|バグ|
@@ -28,9 +28,9 @@ url: /ja/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47651|ポーラー チャートの PDF へのエクスポートが歪んでいる|バグ|
 |CELLSNET-47662|Excel チャートを画像に変換すると、間違ったデータ ラベルが表示される|バグ|
 |CELLSNET-47667|出力画像の棒グラフに棒がありません|バグ|
-|CELLSNET-47697|一部の Y 軸の値が出力 PDF のグラフからはみ出しています|バグ|
+|CELLSNET-47697|出力 PDF で一部の Y 軸の値がグラフの外に出ています。|バグ|
 |CELLSNET-43579|Excel から PDF への変換中に WortArt テキストの曲率が変更される|バグ|
-|CELLSNET-47675|読み込んで保存するとXLSファイルの内容が変わる|バグ|
+|CELLSNET-47675|読み込んで保存すると、XLS ファイルの内容が変更されます|バグ|
 |CELLSNET-47704|パスワードで保護された (暗号化された) XLS ファイルを編集/保存すると、カスタム プロパティが消える|バグ|
 |CELLSNET-47708|並べ替え順序が動的数式 (スマート マーカー) で正しく機能していませんでした|バグ|
 |CELLSNET-47682|特定の Htm をロードするときの例外|例外|
@@ -42,7 +42,7 @@ url: /ja/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47629|空白の行と列を削除した後にセル値を呼び出すと、ArgumentException が発生する|例外|
 |CELLSNET-47700|CalculateFormula が InvalidCastException をスローする|例外|
 |CELLSNET-47703|Workbook.CalculateFormula() の呼び出し中に発生した例外|例外|
-|CELLSNET-47669|最初のワークシートを HTML に変換しているときに、無効な列インデックス ArgumentException がスローされます|例外|
+|CELLSNET-47669|最初のワークシートを HTML に変換しているときに、無効な列インデックス ArgumentException がスローされる|例外|
 |CELLSNET-47677|行が非表示の場合、DataBar.ToImage は例外を発生させます。|例外|
 |CELLSNET-47686|XLSB を XLSX に変換できません|例外|
 |CELLSNET-47687|オッズを読み込めません|例外|

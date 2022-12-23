@@ -22,7 +22,7 @@ Aspose.Cells.GridWeb 控件可以打开和加载 Microsoft Excel 文件 - 包含
 
 **一个 Excel 文件被加载到 GridWeb**
 
-![待办事项：图像_替代_文本](working-with-gridweb_1.png)
+![待办事项：图片_替代_文本](working-with-gridweb_1.png)
 
 ## **保存 Microsoft Excel 文件**
 
@@ -40,7 +40,7 @@ Aspose.Cells.GridWeb 控件可以打开和加载 Microsoft Excel 文件 - 包含
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
-上面的代码片段可以以多种方式使用。一种常见的方法是添加一个按钮，单击该按钮可将网格内容保存到 Excel 文件中。 Aspose.Cells.GridWeb 为该任务提供了一种更简单的方法。 Aspose.Cells.GridWeb 有一个名为 SaveCommand 的事件。上面的代码片段可以添加到 SaveCommand 事件的事件处理程序中，它允许用户通过单击 Aspose.Cells.GridWeb 的内置**节省**按钮。
+上面的代码片段可以以多种方式使用。一种常见的方法是添加一个按钮，单击该按钮可将网格内容保存到 Excel 文件中。 Aspose.Cells.GridWeb 为该任务提供了一种更简单的方法。 Aspose.Cells.GridWeb 有一个名为 SaveCommand 的事件。上面的代码片段可以添加到 SaveCommand 事件的事件处理程序中，它允许用户通过单击 Aspose.Cells.GridWeb 的内置**救球**按钮。
 
 ## **调整 Aspose.Cells.GridWeb 及其标题栏**
 
@@ -60,7 +60,7 @@ Aspose.Cells.GridWeb 控件可以打开和加载 Microsoft Excel 文件 - 包含
 
 **更改了 GridWeb 控件的宽度和高度**
 
-![待办事项：图像_替代_文本](working-with-gridweb_2.png)
+![待办事项：图片_替代_文本](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
@@ -75,13 +75,13 @@ Aspose.Cells.GridWeb 控件包含两个标题栏，如下所示：
 
 **标题栏**
 
-![待办事项：图像_替代_文本](working-with-gridweb_3.png)
+![待办事项：图片_替代_文本](working-with-gridweb_3.png)
 
 分别使用 GridWeb 控件的 HeaderBarHeight 和 HeaderBarWidth 属性更改顶部标题栏的高度和左侧标题栏的宽度。下图显示了后面的代码示例的输出。
 
 **更改了标题栏的宽度和高度**
 
-![待办事项：图像_替代_文本](working-with-gridweb_4.png)
+![待办事项：图片_替代_文本](working-with-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
@@ -110,7 +110,7 @@ Aspose.Cells.GridWeb 控件支持多个事件，这些事件在控件中触发�
 |行删除|当用户尝试使用客户端菜单从工作表中删除行时发生。|
 |行双击|双击行标题时发生。|
 |插入行|当用户使用客户端菜单将行插入工作表时发生。|
-|保存命令|发生时**节省**按钮被点击。|
+|保存命令|发生时**救球**按钮被点击。|
 |工作表选项卡单击|单击工作表选项卡时发生。|
 |提交命令|发生时**提交**按钮被点击。|
 |撤消命令|发生时**撤消**按钮被点击。|
@@ -196,7 +196,7 @@ GridWeb 控件提供 PresetStyle 属性，开发人员可以将任何所需的�
 
 **应用了 Colorful1 样式的 GridWeb 控件**
 
-![待办事项：图像_替代_文本](working-with-gridweb_5.png)
+![待办事项：图片_替代_文本](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
@@ -224,7 +224,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 请参阅下图，其中显示了应用了自定义样式的 GridWeb。
 
-![待办事项：图像_替代_文本](working-with-gridweb_6.png)
+![待办事项：图片_替代_文本](working-with-gridweb_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
 
@@ -252,7 +252,7 @@ GridWeb 控件提供了 HeaderBarStyle 属性，该属性在控件的两个标�
 
 您需要在其中创建以下目录结构**网络应用程序**Tomcat 服务器目录
 
-![待办事项：图像_替代_文本](working-with-gridweb_7.png)
+![待办事项：图片_替代_文本](working-with-gridweb_7.png)
 
 这些是您需要创建的目录和文件。请阅读评论并关注他们。您可以从中获取最新的 Aspose.Cells.GridWeb for Java 发布档案[这个链接](https://downloads.aspose.com/cells/java).
 
@@ -290,7 +290,7 @@ SamplePageGridWebJava\SamplePage.jsp
 
 本节显示在上述目录结构中创建的各种文件的代码。请获取这些代码并将它们添加到您的文件中，方法是在记事本中打开它们并复制/粘贴。
 
-**网站.xml**
+**网页.xml**
 
 {{< highlight "java" >}}
 
@@ -452,7 +452,7 @@ span.wrap {
 
 您将看到类似以下屏幕截图的内容。恭喜，您已经成功地在 JSP 页面上使用了 GridWeb 控件。
 
-![待办事项：图像_替代_文本](working-with-gridweb_8.png)
+![待办事项：图片_替代_文本](working-with-gridweb_8.png)
 
 ## **印刷网格网**
 
@@ -501,7 +501,7 @@ span.wrap {
 
 **编辑模式下的 GridWeb 控件**
 
-![待办事项：图像_替代_文本](working-with-gridweb_9.png)
+![待办事项：图片_替代_文本](working-with-gridweb_9.png)
 
 开发人员还可以通过将 GridWeb 控件的 EditMode 属性设置为 true，以编程方式切换到编辑模式。
 
@@ -511,11 +511,11 @@ span.wrap {
 
 ### **查看模式**
 
-当 GridWeb 控件处于 View 模式时，用户不能编辑或修改网格内容，这意味着用户只能查看网格内容。这就是为什么这种模式被称为查看模式。在查看模式下，一些按钮（**提交**, **节省**和**撤消** ) 被隐藏，右键单击时出现的菜单仅包含**复制**和**寻找**选项。
+当 GridWeb 控件处于 View 模式时，用户不能编辑或修改网格内容，这意味着用户只能查看网格内容。这就是为什么这种模式被称为查看模式。在查看模式下，一些按钮（**提交**, **救球**和**撤消** ) 被隐藏，右键单击时出现的菜单仅包含**复制**和**寻找**选项。
 
 **视图模式下的 GridWeb 控件** 
 
-![待办事项：图像_替代_文本](working-with-gridweb_10.png)
+![待办事项：图片_替代_文本](working-with-gridweb_10.png)
 
 如果开发人员希望他们的用户只查看数据，那么他们可以通过将 GridWeb 控件的 EditMode 属性设置为以编程方式切换到查看模式**错误的**.
 

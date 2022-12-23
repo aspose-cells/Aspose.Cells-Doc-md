@@ -16,7 +16,7 @@ Web 应用程序与传统网站的不同之处在于 Web 应用程序可以创�
 Aspose.Cells for Java 是一个高级类库 for Java，使您能够直接在 Java 中执行大量文档处理任务
 应用程序。
 
-Aspose.Cells for Java 支持处理 Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF 和所有图像格式。使用 Aspose.Cells 您可以
+Aspose.Cells for Java 支持处理 Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF 等所有图片格式。使用 Aspose.Cells 您可以
 无需使用 Microsoft Cells 即可生成、修改和转换文档。
 ## **系统要求**
 **以下是 Aspose.Cells Java for Struts 1.3 Web 应用程序的系统要求：**

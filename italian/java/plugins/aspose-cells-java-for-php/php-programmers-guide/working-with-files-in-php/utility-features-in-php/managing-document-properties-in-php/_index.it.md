@@ -46,6 +46,6 @@ $workbook->save($dataDir . "Test_Workbook_RemovedProperty.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Accesso alle proprietà del documento (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Accesso alle proprietà del documento (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ManagingDocumentProperties.php)

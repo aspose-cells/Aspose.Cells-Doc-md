@@ -24,6 +24,6 @@ url: /es/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40610 - La eliminación del gráfico genera una hoja de cálculo ilegible
 
-40467 - No se puede cambiar el tamaño del cuadro de texto en XLSX40623 - "¡#VALOR!" error después del cálculo
+ 40467 - No se puede cambiar el tamaño del cuadro de texto en XLSX40623 - "¡#VALOR!" error después del cálculo
 
  40620 - Error al ejecutar reemplazar en el cuadro de texto

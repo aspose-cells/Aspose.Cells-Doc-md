@@ -60,8 +60,8 @@ kullanarak bir çalışma sayfasına herhangi bir grafik türü ekleyin.[**Grafi
 
 1.  ile çalışma sayfası hücrelerine bazı veriler ekleyin.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) nesnenin[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)yöntem.
  Bu, grafiğin veri kaynağı olarak kullanılacaktır.
-1.  Çağırarak çalışma sayfasına bir grafik ekleyin.[**Grafikler**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) koleksiyonun[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) kapsüllenmiş yöntem,[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)nesne.
-1.  ile grafiğin türünü belirtin.[**Grafik türü**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)numaralandırma.
+1.  Çağırarak çalışma sayfasına bir grafik ekleyin.[**Grafikler**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) koleksiyonun[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) kapsüllenmiş yöntem,[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)nesne.
+1.  ile grafiğin türünü belirtin.[**Grafik tipi**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)numaralandırma.
  Örneğin, aşağıdaki örnekte[**ChartType.Piramit**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)grafik türü olarak değer.
 1.  Yeniye erişin[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) gelen nesne[**Grafikler**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)indeksini geçerek koleksiyon.
 1.  Kapsüllenmiş grafik nesnelerinden herhangi birini kullanın.[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)grafiği yönetmek için nesne.
@@ -69,13 +69,13 @@ kullanarak bir çalışma sayfasına herhangi bir grafik türü ekleyin.[**Grafi
 
 Grafiğe kaynak verileri eklerken, veri kaynağı bir hücre aralığı ("A1:C3" gibi) veya bitişik olmayan bir hücre dizisi ("A1, A3, A5" gibi) veya bir dizi olabilir. değerler ("1,2,3" gibi).
 
-Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak tanır. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
+Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak sağlar. Farklı grafikler oluşturmak için farklı grafik nesneleri kullanın.
 
  Aspose.Cells ile birçok farklı türde grafik oluşturmak mümkündür. Aspose.Cells tarafından desteklenen tüm standart grafikler, adlı bir numaralandırmada önceden tanımlanmıştır.[**Aspose.Cells.Charts.ChartType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype).
 
 Önceden tanımlanmış grafik türleri şunlardır:
 
-|**Grafik Türleri**|**Tanım**|
+|**Grafik Türleri**|**Açıklama**|
 |:- |:- |
 |Kolon|Kümelenmiş Sütun Grafiğini Temsil Eder|
 |SütunYığılmış|Yığılmış Sütun Grafiğini Temsil Eder|
@@ -84,7 +84,7 @@ Bu genel adımlar, herhangi bir türde grafik oluşturmanıza olanak tanır. Far
 |Sütun3DSığılmış|3B Yığılmış Sütun Grafiğini Temsil Eder|
 |Sütun3D100YığılmışYüzde|3B %100 Yığılmış Sütun Grafiğini Temsil Eder|
 |Sütun3D|3B Sütun Grafiğini Temsil Eder|
-|Çubuk|Kümelenmiş Çubuk Grafiği Temsil Eder|
+|Bar|Kümelenmiş Çubuk Grafiği Temsil Eder|
 |Çubuk Yığılmış|Yığılmış Çubuk Grafiği Temsil Eder|
 |Bar100YığılmışYüzde|%100 Yığılmış Çubuk Grafiği Temsil Eder|
 |Bar3Dkümelenmiş|3B Kümelenmiş Çubuk Grafiği Temsil Eder|
@@ -160,17 +160,17 @@ Veri kaynağı olarak bir hücre aralığı atadığınızda, aralığı yalnız
 
 #### **Çizgi grafik**
 
- Yukarıdaki örnekte, basitçe değiştirmek[**Grafik türü**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) ile*Astar*bir çizgi grafiği oluşturur. Tam kaynak aşağıda verilmiştir. kod yürütüldüğünde, çalışma sayfasına bir çizgi grafik eklenir.
+ Yukarıdaki örnekte, basitçe değiştirmek[**Grafik tipi**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) ile*Astar*bir çizgi grafiği oluşturur. Tam kaynak aşağıda verilmiştir. kod yürütüldüğünde, çalışma sayfasına bir çizgi grafik eklenir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 
 #### **Kabarcık Grafiği**
 
- Balon grafiği oluşturmak için,[**Grafik türü**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) olarak ayarlanması gerekir[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)ve BubbleSizes, Values & XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına bir balon grafiği eklenir.
+ Balon grafiği oluşturmak için,[**Grafik tipi**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) olarak ayarlanması gerekir[**ChartType.Bubble**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)ve BubbleSizes, Values & XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına bir balon grafiği eklenir.
 
 #### **Veri İşareti Grafiği ile Çizgi**
 
- Veri işaretleyici grafiği ile bir çizgi oluşturmak için,[**Grafik türü**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)olarak ayarlanması gerekir*ChartType.LineWithDataMarkers*ve arka plan alanı, Seri İşaretleyiciler, Değerler ve XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına veri işaretçi grafiğini içeren bir satır eklenir.
+ Veri işaretleyici grafiği ile bir çizgi oluşturmak için,[**Grafik tipi**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)olarak ayarlanması gerekir*ChartType.LineWithDataMarkers*ve arka plan alanı, Seri İşaretleyiciler, Değerler ve XValues gibi birkaç ekstra özelliğin buna göre ayarlanması gerekir. Aşağıdaki kodu çalıştırdıktan sonra, çalışma sayfasına veri işaretçi grafiğini içeren bir satır eklenir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-CreateLineWithDataMarkerChart-1.cs" >}}
 

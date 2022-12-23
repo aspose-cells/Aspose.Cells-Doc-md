@@ -19,7 +19,7 @@ url: /sv/net/grid-features/
 |**Dokumentation**||||
 | Microsoft Hjälp 2|**X**|**X**|**X**|
 | Html Hjälp|**X**|**X**|**X**|
-| Online programmerares guide i HTML-format|**X**|**X**|**X**|
+| Onlineprogrammeringsguide i HTML-format|**X**|**X**|**X**|
 |**Fullständiga demos**||||
 | Visual Basic.NET|**X**|**X**||
 |C# |**X**|**X**|**X**|

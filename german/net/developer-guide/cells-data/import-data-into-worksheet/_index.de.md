@@ -62,11 +62,11 @@ Verwenden Sie zum Importieren von Daten aus einer Sammlung von Objekten in ein A
 
 ## **Importieren aus DataTable**
 
- So importieren Sie Daten aus einer*Datentabelle* , Ruf den[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**Datentabelle importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) Methode. Es gibt viele überladene Versionen der[**Datentabelle importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)-Methode, aber eine typische Überladung nimmt die folgenden Parameter an:
+ So importieren Sie Daten aus einer*Datentabelle* , Ruf den ... an[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**Datentabelle importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) Methode. Es gibt viele überladene Versionen der[**Datentabelle importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)-Methode, aber eine typische Überladung nimmt die folgenden Parameter an:
 
-- **Datentabelle** , das*Datentabelle* Objekt, aus dem Sie den Inhalt importieren.
+- **Datentabelle** , Die*Datentabelle* Objekt, aus dem Sie den Inhalt importieren.
 - **Feldname wird angezeigt** , gibt an, ob die Namen der*Datentabelle*Spalten als erste Zeile in das Arbeitsblatt importiert werden sollen oder nicht.
-- **Zelle starten** steht für den Namen der Startzelle (z. B. "A1"), aus der der Inhalt der importiert werden soll*Datentabelle*.
+- **Zelle starten** , steht für den Namen der Startzelle (z. B. "A1"), aus der der Inhalt der importiert werden soll*Datentabelle*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -74,7 +74,7 @@ Verwenden Sie zum Importieren von Daten aus einer Sammlung von Objekten in ein A
 
 Aspose.Cells bietet Funktionen zum Arbeiten mit dynamischen Objekten als Datenquelle. Es hilft bei der Verwendung von Datenquellen, bei denen Eigenschaften dynamisch zu den Objekten hinzugefügt werden. Sobald die Eigenschaften zum Objekt hinzugefügt wurden, betrachtet Aspose.Cells den ersten Eintrag als Vorlage und behandelt den Rest entsprechend. Das heißt, wenn eine dynamische Eigenschaft nur zu einem ersten Element und nicht zu anderen Objekten hinzugefügt wird, geht Aspose.Cells davon aus, dass alle Elemente in der Sammlung gleich sein sollten.
 
-In diesem Beispiel wird ein Vorlagenmodell verwendet, das zunächst nur zwei Variablen enthält. Diese Liste wird in eine Liste dynamischer Objekte umgewandelt. Dann wird ein zusätzliches Feld hinzugefügt und schließlich in die Arbeitsmappe geladen. Die Arbeitsmappe wählt nur die Werte aus, die in der XLSX-Vorlagendatei enthalten sind. Diese Vorlagenarbeitsmappe verwendet intelligente Markierungen, die auch Parameter enthalten. Mit Parametern können Sie die Anordnung der Informationen ändern. Details zu den Smart Markern können folgendem Artikel entnommen werden:
+In diesem Beispiel wird ein Vorlagenmodell verwendet, das zunächst nur zwei Variablen enthält. Diese Liste wird in eine Liste dynamischer Objekte umgewandelt. Dann wird ein zusätzliches Feld hinzugefügt und schließlich in die Arbeitsmappe geladen. Die Arbeitsmappe wählt nur die Werte aus, die in der Vorlagendatei XLSX enthalten sind. Diese Vorlagenarbeitsmappe verwendet intelligente Markierungen, die auch Parameter enthalten. Mit Parametern können Sie die Anordnung der Informationen ändern. Details zu den Smart Markern können folgendem Artikel entnommen werden:
 
 [Verwenden von Smart-Markern](/cells/de/net/using-smart-markers/)
 
@@ -90,7 +90,7 @@ Der unten angegebene Beispielcode demonstriert die Verwendung von[**ImportTableO
 
 ## **Importieren aus DataView (.NET)**
 
- So importieren Sie Daten aus einer*Datenansicht* , Ruf den[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) Methode. Es gibt viele überladene Versionen der[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)-Methode, aber die für DataView nimmt die folgenden Parameter an:
+ So importieren Sie Daten aus einer*Datenansicht* , Ruf den ... an[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) Methode. Es gibt viele überladene Versionen der[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)-Methode, aber die für DataView nimmt die folgenden Parameter an:
 
 - **Datenansicht:** Das*Datenansicht*Objekt, aus dem Sie Inhalte importieren möchten.
 - **Erste Reihe:**die Zeilennummer der ersten Zelle, in die die Daten importiert werden.
@@ -103,7 +103,7 @@ Der unten angegebene Beispielcode demonstriert die Verwendung von[**ImportTableO
 
  Es ist möglich, Daten aus einem zu importieren*DataGrid* durch Anruf beim[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Es gibt viele überladene Versionen der[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)-Methode, aber eine typische Überladung nimmt die folgenden Parameter an:
 
-- **Datenraster** , das*DataGrid*Objekt, aus dem Sie Inhalte importieren.
+- **Datenraster** , Die*DataGrid*Objekt, aus dem Sie Inhalte importieren.
 - **Zeilennummer**die Zeilennummer der ersten Zelle, in die die Daten importiert werden.
 - **Spaltennummer**, die Spaltennummer der ersten Zelle, in die die Daten importiert werden.
 - **Zeilen einfügen**, eine boolesche Eigenschaft, die angibt, ob zusätzliche Zeilen zum Arbeitsblatt hinzugefügt werden sollen, um Daten anzupassen oder nicht.
@@ -114,17 +114,17 @@ Der unten angegebene Beispielcode demonstriert die Verwendung von[**ImportTableO
 
  So importieren Sie Daten aus einer*Rasteransicht* Kontrolle, rufen Sie die[**GridView importieren**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) Methode der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Sammlung.
 
-Aspose.Cells ermöglicht es uns, HTML-formatierte Werte beim Importieren von Daten in die Tabelle zu berücksichtigen. Wenn beim Importieren von Daten die HTML-Analyse aktiviert ist, konvertiert Aspose.Cells den HTML-Code in die entsprechende Zellenformatierung.
+Aspose.Cells ermöglicht es uns, HTML formatierte Werte beim Importieren von Daten in die Tabelle zu respektieren. Wenn die HTML-Analyse beim Importieren von Daten aktiviert ist, konvertiert Aspose.Cells die HTML in die entsprechende Zellenformatierung.
 
-## **Importieren von Daten im HTML-Format**
+## **Importieren von HTML formatierten Daten**
 
- Aspose.Cells bietet eine[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Klasse, die sehr nützliche Methoden zum Importieren von Daten aus externen Datenquellen bereitstellt. In diesem Artikel wird gezeigt, wie Sie HTML-formatierten Text beim Importieren von Daten parsen und den HTML-Code in formatierte Zellenwerte konvertieren.
+ Aspose.Cells bietet eine[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Klasse, die sehr nützliche Methoden zum Importieren von Daten aus externen Datenquellen bereitstellt. Dieser Artikel zeigt, wie Sie HTML formatierten Text beim Importieren von Daten parsen und HTML in formatierte Zellenwerte konvertieren.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
-## **Importieren von Daten aus JSON**
+## **Importieren von Daten von JSON**
 
-Aspose.Cells bietet eine[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) Klasse zur Verarbeitung von JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) Klasse hat eine[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) Methode zum Importieren von JSON-Daten. Aspose.Cells bietet auch eine[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) Klasse, die die Optionen des JSON-Layouts darstellt. Das[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)Methode akzeptiert[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)als Parameter. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)Klasse bietet die folgenden Eigenschaften.
+Aspose.Cells bietet eine[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) Klasse für die Verarbeitung JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) Klasse hat eine[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) Methode zum Importieren von JSON-Daten. Aspose.Cells bietet auch eine[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) Klasse, die die Optionen des JSON-Layouts darstellt. Das[**Daten importieren**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)Methode akzeptiert[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)als Parameter. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)Klasse bietet die folgenden Eigenschaften.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Gibt an, ob das Array als Tabelle verarbeitet werden soll oder nicht.
 - [**ConvertNumericOderDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Zeichenfolge in JSON in eine Zahl oder ein Datum konvertiert werden soll.

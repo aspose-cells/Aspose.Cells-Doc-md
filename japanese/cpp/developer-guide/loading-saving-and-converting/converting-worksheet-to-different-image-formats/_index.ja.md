@@ -19,23 +19,23 @@ Aspose.Cells は、Excel ワークシートの画像への変換をサポート�
 `Aspose.Cells.Rendering.ISheetRender` クラスは、画像としてレンダリングするワークシートを表します。オーバーロードされたメソッドがあり、[イメージへ](https://reference.aspose.com/cells/cpp/class/aspose.cells.rendering.i_sheet_render#ae508827a76d0c353ab0890024ec363c5)、さまざまな属性またはオプションを使用してワークシートを画像ファイルに変換できます。 BMP、PNG、GIF、JPG、JPEG、TIFF、EMF など、いくつかの画像形式がサポートされています。
 
 次のコード スニペットは、Excel ファイルのワークシートを画像ファイルに変換する方法を示しています。
-### **PNG形式**
-次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力PNG画像](67338401.zip).
+### **PNG フォーマット**
+次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力 PNG 画像](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
-### **TIFF形式**
-次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力TIFF画像](67338419.zip).
+### **TIFF フォーマット**
+次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力 TIFF 画像](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
 ## **ワークシートを SVG に変換する**
-SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクター グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
+SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクトル グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
 
-Aspose.Cells for C++ は、バージョン 18.5.0 からワークシートを SVG 画像に変換できるようになりました。
+Aspose.Cells for C++ は、バージョン 18.5.0 以降、ワークシートを SVG 画像に変換できるようになりました。
 
 この機能を使用するには、`Aspose.Cells.Rendering` 名前空間をプログラムまたはプロジェクトにインポートします。 `ISheetRender`、`IImageOrPrintOptions` など、レンダリングと印刷に役立つクラスがいくつかあります。
 
 `Aspose.Cells.Rendering.IImageOrPrintOptions` クラスは、ワークシートが SVG 形式で保存されることを指定します。次のコード スニペットは、Excel ファイルのワークシートを SVG イメージ ファイルに変換する方法を示しています。
 
-次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力SVG画像](67338403.zip).
+次のサンプル コードを参照してください。[サンプル Excel ファイル](67338402.xlsx)、 そしてその[出力 SVG 画像](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}

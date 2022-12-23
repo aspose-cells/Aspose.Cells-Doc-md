@@ -13,7 +13,7 @@ url: /ar/net/custom-sorting-in-pivot-table/
 
 [إخراج ملف Excel](98107429.xlsx)
 
-[إخراج ملف PDF](98107430.pdf)
+[إخراج PDF ملف](98107430.pdf)
 
 
 

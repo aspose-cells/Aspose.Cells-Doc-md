@@ -28,15 +28,15 @@ Déplacement de la base de code principale vers Java 6 (Java 7 et 8 sont égalem
 
 ### **Insectes**
 
-(CELLSJAVA-41229) - Aspose.Cells ne génère pas de fichiers HTM et CSS individuels pour les feuilles dans la conversion Excel vers HTML
+(CELLSJAVA-41229) - Aspose.Cells ne génère pas de fichiers HTM et CSS individuels pour les feuilles dans Excel vers la conversion HTML
 
 (CELLSJAVA-41170) - SheetRender.toImage rend l'image avec des étiquettes "(vide)" sur l'axe des x du graphique
 
 (CELLSJAVA-41270) - Problème avec Cells.insertRange() car la zone fusionnée n'est pas bien décalée
 
-(CELLSJAVA-41240) - Le texte en police Arial est coupé à partir du haut lors du rendu de la feuille de calcul au format PDF
+(CELLSJAVA-41240) - Le texte en police Arial est coupé à partir du haut lors du rendu de la feuille de calcul en PDF
 
-(CELLSJAVA-41238) - PAPIER_UN_2 ne fonctionne pas comme prévu lors de l'enregistrement au format PDF
+(CELLSJAVA-41238) - PAPIER_UNE_2 ne fonctionne pas comme prévu lors de l'enregistrement sous PDF
 
 (CELLSJAVA-41217) - Lorsque les données de catégorie de série comportent une virgule, les légendes du graphique PIE ne s'affichent pas correctement
 
@@ -54,9 +54,9 @@ Déplacement de la base de code principale vers Java 6 (Java 7 et 8 sont égalem
 
 (CELLSJAVA-41254) - Microsoft Excel se bloque lorsque le fichier de sortie XLSX est ouvert
 
-(CELLSJAVA-41253) - La liste déroulante disparaît dans le fichier XLSX de sortie
+(CELLSJAVA-41253) - La liste déroulante disparaît dans le fichier de sortie XLSX
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSJAVA-41266) - java.lang.NumberFormatException s'est produit lors de l'ouverture du fichier modèle XLSX
 

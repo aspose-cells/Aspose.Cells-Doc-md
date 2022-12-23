@@ -6,11 +6,11 @@ url: /ar/java/aspose-cells-java-for-php/
 ---
 ## **مقدمة إلى Aspose.Cells Java for PHP**
 ### **جسر PHP / Java**
-PHP / Java Bridge هو تطبيق لبث يعتمد على XML[بروتوكول الشبكة](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)، والتي يمكن استخدامها لتوصيل محرك نصي أصلي ، على سبيل المثال PHP أو Scheme أو Python ، بجهاز ظاهري Java. إنه أسرع بما يصل إلى 50 مرة من RPC المحلي عبر SOAP ، ويتطلب موارد أقل على جانب خادم الويب. إنها[أسرع](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)وأكثر موثوقية من الاتصال المباشر عبر الواجهة الأصلية Java ، ولا يتطلب أي مكونات إضافية لاستدعاء إجراءات Java من إجراءات PHP أو PHP من Java.
+PHP / Java Bridge هو تطبيق لبث يعتمد على XML[بروتوكول الشبكة](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)، والتي يمكن استخدامها لتوصيل محرك نصي أصلي ، على سبيل المثال PHP أو Scheme أو Python ، بجهاز ظاهري Java. إنه أسرع بما يصل إلى 50 مرة من RPC المحلي عبر SOAP ، ويتطلب موارد أقل على جانب خادم الويب. أنه[أسرع](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)وأكثر موثوقية من الاتصال المباشر عبر الواجهة الأصلية Java ، ولا يتطلب أي مكونات إضافية لاستدعاء إجراءات Java من إجراءات PHP أو PHP من Java.
 
  اقراء المزيد على[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java هو مكون جداول بيانات Excel حائز على جوائز يسمح لمطوري Java بتضمين القدرة على قراءة جداول بيانات Excel® وكتابتها ومعالجتها (XLS و XLSX و XLSM و XLSB و XLTX و SpreadsheetML و CSV و ODS) و HTML و MHTML و PDF وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
+Aspose.Cells for Java هو أحد مكونات جداول بيانات Excel الحائز على جوائز والذي يسمح لمطوري Java بتضمين القدرة على قراءة وكتابة ومعالجة جداول بيانات Excel® (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، 07618310481 ، 0761910481 ، SpreadsheetML ، 076191481) وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
 
 Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني بالميزات يقدم العديد من الوظائف التي تفوق بكثير قدرات تصدير البيانات البسيطة للبائعين الآخرين. مع Aspose.Cells for Java يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات إلى المستوى الأكثر دقة واستيراد الصور وإنشاء المخططات وتطبيق وحساب الصيغ المعقدة ودفق بيانات Excel® وحفظها بتنسيقات مختلفة وغير ذلك الكثير - كل هذا دون الحاجة إلى Microsoft Excel® أو Microsoft أتمتة المكاتب.
 ### **Aspose.Cells Java for PHP**
@@ -29,10 +29,10 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
     - [ميزات المنفعة في PHP](/cells/ar/java/utility-features-in-php/)
       - [تحويل الرسم البياني إلى صورة في PHP](/cells/ar/java/converting-chart-to-image-in-php/)
       - [تحويل ملفات Excel إلى HTML في PHP](/cells/ar/java/converting-excel-files-to-html-in-php/)
-      - [تحويل ملفات Excel إلى ملفات PDF في PHP](/cells/ar/java/converting-excel-to-pdf-files-in-php/)
-      - [التحويل إلى ملفات MHTML في PHP](/cells/ar/java/converting-to-mhtml-files-in-php/)
+      - [تحويل ملفات Excel إلى PDF في PHP](/cells/ar/java/converting-excel-to-pdf-files-in-php/)
+      - [التحويل إلى MHTML ملفات في PHP](/cells/ar/java/converting-to-mhtml-files-in-php/)
       - [تحويل ورقة العمل إلى صورة في PHP](/cells/ar/java/converting-worksheet-to-image-in-php/)
-      - [تحويل ورقة العمل إلى SVG في PHP](/cells/ar/java/converting-worksheet-to-svg-in-php/)
+      - [تحويل ورقة العمل إلى SVG بلغة PHP](/cells/ar/java/converting-worksheet-to-svg-in-php/)
       - [إدارة خصائص الوثيقة في PHP](/cells/ar/java/managing-document-properties-in-php/)
   - [التعامل مع الصفوف والأعمدة في PHP](/cells/ar/java/working-with-rows-and-columns-in-php/)
     - [ضبط ارتفاع الصف وعرض العمود في PHP](/cells/ar/java/adjusting-row-height-and-column-width-in-php/)
@@ -158,7 +158,7 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
  4. تحميل[JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). انسخ هذا الملف إلى دليل تطبيقات الويب tomcat.
 (على سبيل المثال: C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps)
 
-\ 5. أعد تشغيل خدمة اباتشي tomcat.
+\ 5. أعد تشغيل خدمة اباتشي القط.
 
  6- اذهب إلى**المضيف المحلي: 8080 / JavaBridge / test.php** للتحقق مما إذا كان php يعمل. يمكنك أن تجد أمثلة أخرى هناك
 

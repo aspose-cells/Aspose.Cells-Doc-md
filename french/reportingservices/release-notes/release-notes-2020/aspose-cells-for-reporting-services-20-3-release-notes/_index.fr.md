@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-556|Prend en charge les services de rapport Microsoft 2019.|Nouvelle fonctionnalité|
 |CELLSRS-568|Intégrez Aspose.Cells for Reporting Services dans Visual Studio 2017/2019.|Nouvelle fonctionnalité|

@@ -21,16 +21,16 @@ Wir sind
 
 - Cells.findString()/find() unterstützt die Suche nach RegExand in einem bestimmten Bereich
 - Unterstützung von Picture.setTitle()/getTitle()
-- Speichern Sie MS Excel-Diagramme in einer ODS-Datei
+- Speichern Sie MS Excel-Diagramme in der Datei ODS
 - Aspose.Cells erstellte XLS-Datei mit POI kompatibel machen
 
  Ausnahmen
 
-- Das Lesen der XLSX-Datei erzeugt: „java.lang.ClassCastException:org.dom4j.Namespace“
+- Das Lesen der Datei XLSX erzeugt: „java.lang.ClassCastException:org.dom4j.Namespace“
 
  Fehler
 
-- Gespeicherte XLSX-Datei gibt Fehler aus: „Datamay has been lost“
-- Die formatierte Zahl war im generierten PDF falsch (Tausend Gruppenzeichen gingen verloren)
+- Gespeicherte XLSX-Datei gibt Fehler: „Datamay has been lost“
+- Die formatierte Nummer war in der generierten PDF falsch (Tausend Gruppenzeichen gingen verloren)
 - Das Balkendiagramm wurde in der generierten PDF-Version für JDK6 nicht angezeigt
 - Referenzen werden beim Erweitern eines Bereichs nicht aktualisiert

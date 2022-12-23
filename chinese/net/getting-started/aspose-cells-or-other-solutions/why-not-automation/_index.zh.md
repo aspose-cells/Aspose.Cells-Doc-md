@@ -61,7 +61,7 @@ Aspose 组件具有高度可扩展性和闪电般的速度。 Office 应用程�
 
 ### **特征**
 
- Aspose 组件提供了管理 Office 文件所需的一切，还有很多很多。它们的设计理念是让开发人员以最少的工作量取得最大的成果。与 Office 自动化不同，Aspose 组件提供了许多强大、省时的功能。例如，[Aspose.Cells](https://products.aspose.com/cells/)为开发人员提供从**数据表**或者**数据视图**直接导入Excel文件。[Aspose.Words](https://products.aspose.com/words/)提供了一个类似的功能，允许开发人员直接从任何 .NET 数据对象填充 Word 邮件合并文档。[每个组件](https://products.aspose.com/total/)Aspose 系列提供了自己的一套独特的强大功能。
+ Aspose 组件提供了管理 Office 文件所需的一切，还有很多很多。它们的设计理念是让开发人员以最少的工作量取得最大的成果。与 Office 自动化不同，Aspose 组件提供了许多强大、省时的功能。例如，[Aspose.Cells](https://products.aspose.com/cells/)为开发人员提供从**数据表**要么**数据视图**直接导入Excel文件。[Aspose.Words](https://products.aspose.com/words/)提供了一个类似的功能，允许开发人员直接从任何 .NET 数据对象填充 Word 邮件合并文档。[每个组件](https://products.aspose.com/total/)Aspose 系列提供了自己的一套独特的强大功能。
 
 购买 Aspose 组件或组件套件的最佳部分是可以访问我们的开发团队。我们的开发团队意识到，如果您的公司需要某项功能，那么其他公司很可能也需要它。虽然并非每个功能请求都可以添加，但我们的团队在提供帮助时会尽量保持开放和灵活的态度。这种心态帮助 Aspose 组件变得如此强大。如果您需要 Office 自动化对象的其他功能，那么添加它们的机会非常非常低。
 

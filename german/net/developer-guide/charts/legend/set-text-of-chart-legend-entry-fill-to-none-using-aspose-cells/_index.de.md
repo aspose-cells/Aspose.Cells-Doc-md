@@ -6,7 +6,7 @@ url: /de/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Wenn Sie den Text der Legendeneintragsfüllung des Diagramms auf „Keine“ setzen möchten, sodass er nicht in der Diagrammlegende angezeigt werden soll, dann stellen Sie bitte das ein[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) zu**Stimmt**.
+ Wenn Sie den Text der Legendeneintragsfüllung des Diagramms auf „Keine“ setzen möchten, sodass er nicht in der Diagrammlegende angezeigt werden soll, dann stellen Sie bitte das ein[**LegendEntry.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill) zu**wahr**.
 
 {{% /alert %}}
 

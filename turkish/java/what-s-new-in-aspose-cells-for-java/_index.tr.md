@@ -8,7 +8,7 @@ url: /tr/java/what-s-new-in-aspose-cells-for-java/
 Bu sayfada, son sürümlerde tanıtılan en ilginç yeni Aspose.Cells özellikleri açıklanmaktadır.
 
 ## Aspose.Cells for Java 22.12
-* Çok katmanlı hiyerarşi yapısı ile excel'i JSON'a aktarma desteği
+* Çok katmanlı hiyerarşi yapısı ile excel'i JSON'e aktarma desteği
 
 ## Aspose.Cells for Java 22.11
 
@@ -47,7 +47,7 @@ LightCells modunda çalışma kitabını kaydederken hücre formülünü ayarlam
 
 ## Aspose.Cells for Java 22.4
 
-* CSV'yi dışa aktarmak için boş hücreleri kontrol etmek için geliştirilmiş seçenekler.
+* CSV'i dışa aktarmak için boş hücreleri kontrol etmek için geliştirilmiş seçenekler.
 * Ekleme/silme işlemleri için karmaşık bölme ve koşullu biçimlendirmenin güncellenmesini destekler
 
 ## Aspose.Cells for Java 22.3
@@ -80,6 +80,6 @@ Bozuk xls dosyasından mümkün olduğunca fazla veri okuma desteği
 
 * XLookup formülünün/işlevinin hesaplanmasını destekler.
 * Kaydetme çalışma kitabına json ve görüntüleri kaydetmeyi entegre edin.
-* Excel'i HTML'ye dönüştürürken performansı artırın.
+* Excel'i HTML'e dönüştürürken performansı artırın.
 
 

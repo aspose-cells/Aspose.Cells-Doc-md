@@ -16,7 +16,7 @@ Microsoft Excel används flitigt av företag och privatpersoner i alla typer av 
 
 VSTO tillåter Microsoft Office-dokument att exekvera kod inslagen i en .NET-sammansättning. Det används för att utveckla applikationer som fungerar med Microsoft Office-filer och funktioner. Utvecklare har använt ASP, Office Web-komponenter och COM-interop i applikationer i flera år. Microsoft har förbättrat VSTO för att utveckla och distribuera applikationer och förbättra minneshanteringen. Men frågan kvarstår: är VSTO utformad för att vara enklare att använda och mer pålitlig än andra metoder som finns tillgängliga idag? Utvecklare vill arbeta med lösningar som inte sviker dem när det gäller förbättrad prestanda, säkerhet, skalbarhet, stabilitet, tillförlitlighet eller funktioner.
 
-[Aspose](http://www.aspose.com/)ger en stor rad .NET, Java, Cloud och Android API. Aspose API:er inkluderar produkter som Aspose.Cells, Aspose.Words, Aspose.Pdf och Aspose.Slides, API:er som hjälper[utvecklare öppnar, modifierar, genererar, sparar, slår samman och konverterar dokument i olika format inklusive XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
+[Aspose](http://www.aspose.com/)ger en stor rad .NET, Java, Cloud och Android API. Aspose API:er inkluderar produkter som Aspose.Cells, Aspose.Words, Aspose.Pdf och Aspose.Slides, API:er som hjälper[utvecklare öppnar, ändrar, genererar, sparar, slår samman och konverterar dokument i olika format inklusive XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
 
 I den här artikeln jämför vi VSTO med Aspose.Cells for .NET.
 
@@ -24,7 +24,7 @@ I den här artikeln jämför vi VSTO med Aspose.Cells for .NET.
 
 -  Kolla in[Aspose.Cells dokumentation](https://docs.aspose.com/cells/net/).
 -  Se hur det fungerar i[online demos](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  Testa:[ladda ner](https://downloads.aspose.com/cells/net) en utvärderingsversion gratis.
+-  Testa:[ladda ner](https://downloads.aspose.com/cells/net)en utvärderingsversion gratis.
 
 Den här artikeln jämför VSTO och Aspose.Cells om olika aspekter relaterade till Microsoft Excel. Listan är inte komplett men den representerar några frågor som beslutsfattare måste förstå innan de fattar ett slutgiltigt beslut innan de antar ett tillvägagångssätt.
 
@@ -40,7 +40,7 @@ Vilka funktioner som VSTO tillhandahåller beror på vilken kombination av VSTO-
 
 Aspose.Cells tillhandahåller allt som behövs för att hantera Microsoft Office Excel-filer plus mycket, mycket mer. API ger utvecklare fantastiska resultat med minsta möjliga ansträngning. Aspose.Cells har många kraftfulla, tidsbesparande funktioner. API tillhandahåller lättanvända API:er för alla typer av kalkylarkshanteringsaktiviteter, som täcker nästan alla funktioner som Microsoft Excel tillhandahåller. Alla uppgifter som anges för VSTO kan enkelt utföras av Aspose.Cells.
 
-Aspose.Cells stöder också flera avancerade funktioner, inklusive stöd för Smart Markers, import och export av data till och från ett antal datakällor, objekt och Excel-filer, stöd för COM-klienter (ASP-klient) Interoperabilitet med komponenten, konvertering av Excel-filer till PDF-format , spara Excel-diagram och kalkylblad som bildfiler.
+Aspose.Cells stöder även flera avancerade funktioner, inklusive stöd för Smart Markers, import och export av data till och från ett antal datakällor, objekt och Excel-filer, stöd för COM-klienter (ASP-klient) Interoperabilitet med komponenten, konvertering av Excel-filer till PDF-format , spara Excel-diagram och kalkylblad som bildfiler.
 
 ### **säkerhet**
 
@@ -77,7 +77,7 @@ VSTO har en lång lista med förutsättningar:
 - En eller flera av följande utgåvor av Visual Studio Tools for Office:
  - Microsoft Visual Studio 2005-verktyg för Microsoft Office System
  - Microsoft Visual Studio 2005 Verktyg för 2007 Microsoft Office System
- Visual Studio 2008 Professional Edition
+ - Visual Studio 2008 Professional Edition
  - Visual Studio 2008 Team Suite Edition
  - En version av Microsoft Office:
  - Microsoft Office Professional 2003 SP1

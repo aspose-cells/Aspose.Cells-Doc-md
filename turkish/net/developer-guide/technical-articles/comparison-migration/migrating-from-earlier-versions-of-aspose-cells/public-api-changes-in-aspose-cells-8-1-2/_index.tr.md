@@ -10,7 +10,7 @@ Bu belge, Aspose.Cells API sürümünde 8.1.1'den 8.1.2'ye modül/uygulama geli�
 
 {{% /alert %}} 
 ## **Yazı Tipi Değiştirme Oluşursa Uyarı İçin Destek Eklendi**
-Aspose.Cells for .NET 8.1.2 ile elektronik tabloları resimlere veya PDF formatına dönüştürürken yazı tipi değişikliği olursa kullanıcının uyarı almasını kolaylaştırmak için WarningInfo, WarningType sınıfları, IWarningCallback arayüzü ve SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback özellikleri eklendi.
+Aspose.Cells for .NET 8.1.2 ile elektronik tabloları görsele veya PDF formatına dönüştürürken yazı tipi değişikliği olursa kullanıcının uyarı almasını kolaylaştırmak için WarningInfo, WarningType sınıfları, IWarningCallback arayüzü ve SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback özellikleri eklendi.
 
 {{% alert color="primary" %}} 
 

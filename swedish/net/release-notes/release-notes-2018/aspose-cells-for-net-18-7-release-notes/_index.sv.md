@@ -12,10 +12,10 @@ url: /sv/net/aspose-cells-for-net-18-7-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-46046|Runda bilder blir kvadratiska bilder i den utgående PDF-filen|Ny funktion|
+|CELLSNET-46046|Runda bilder blir kvadratiska bilder i utgången PDF|Ny funktion|
 |CELLSNET-43538|Stöd Pivot Table Slicers|Ny funktion|
 |CELLSNET-41946|Handtagsskärare och pivotbord|Ny funktion|
-|CELLSNET-46163|Stöd för kryptering och dekryptering av ODS-fil|Ny funktion|
+|CELLSNET-46163|Stöd kryptering och dekryptering av ODS-fil|Ny funktion|
 |CELLSNET-46186|Använder List<dynamic> eller Lista<ExpandoObject> som DataSource för att importera data till kalkylblad|Ny funktion|
 |CELLSNET-46185|Lägg till egenskaperna WorkbookSettings.MaxRow och WorkbookSettings.MaxColumn|Ny funktion|
 |CELLSNET-46205|Lägg till egenskapen WriteProtection.Author för att uppdatera författaren|Förbättring|
@@ -24,14 +24,14 @@ url: /sv/net/aspose-cells-for-net-18-7-release-notes/
 |CELLSNET-46217|#NUM!' inuti "FV(NPER())"-formeln orsakar utvärderingsfel|Insekt|
 |CELLSNET-46214|Undantag "Ogiltig BIFF8-fil" när en XLS-fil laddas|Insekt|
 |CELLSNET-46212|Undantag vid laddning av en XLSX-fil|Insekt|
-|CELLSNET-46193|Validering fungerar inte i XLS-format men det fungerar bra i XLSX-format|Insekt|
-|CELLSNET-46189|Utdata-PDF-dokumentet är inte detsamma som MS Excel-utdata|Insekt|
-|CELLSNET-46187|Dubbel understruken längd är inte korrekt - Excel till PDF-konvertering|Insekt|
-|CELLSNET-46213|OLE-objekt trasigt under lagring till XLSB|Insekt|
+|CELLSNET-46193|Validering fungerar inte i formatet XLS men det fungerar bra i formatet XLSX|Insekt|
+|CELLSNET-46189|Utdatadokumentet PDF är inte detsamma som MS Excel-utdata|Insekt|
+|CELLSNET-46187|Dubbel understruken längd är inte korrekt - Excel till PDF konvertering|Insekt|
+|CELLSNET-46213|OLE-objekt trasiga medan du sparade till XLSB|Insekt|
 |CELLSNET-46210|Det fungerar inte att skapa kommentarer med HtmlNote-egenskapen|Insekt|
-|CELLSNET-46198|Tom PDF skapad vid konvertering av XLSX till PDF|Insekt|
+|CELLSNET-46198|Tomt PDF skapades vid konvertering av XLSX till PDF|Insekt|
 |CELLSNET-46196|Diagramhöjden ändras i utdatafilen när arbetsböcker kombineras|Insekt|
-|CELLSNET-46195|Konvertering av bifogad XLSX till PDF ger undantag|Insekt|
+|CELLSNET-46195|Konvertering av bifogade XLSX till PDF ger upphov till undantag|Insekt|
 |CELLSNET-46192|Konvertering av en XLSX-fil med dde till XLS kommer att uppmanas med skyddad vy|Insekt|
 |CELLSNET-46180|Formateringsproblem när storleken på ListObject/Table ändras|Insekt|
 |CELLSNET-46216|Undantag vid laddning av XLS-fil|Undantag|

@@ -1,5 +1,5 @@
 ﻿---
-title: Сохранить книгу в текстовом формате или формате CSV по номеру Aspose.Cells
+title: Сохранить книгу в текст или формат CSV в формате Aspose.Cells
 type: docs
 weight: 110
 url: /ru/net/save-workbook-to-text-or-csv-format-in-aspose-cells/

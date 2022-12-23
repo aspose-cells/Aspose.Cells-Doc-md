@@ -13,9 +13,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.7.
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-42861|No se pudo obtener el texto alternativo de la forma en formato de archivo ODS|Insecto|
-|CELLSJAVA-42929|Cambios en el título del gráfico en la conversión de XLSX a PDF|Insecto|
-|CELLSJAVA-42933|El color de los gráficos cambia al convertir un archivo de Excel a PDF|Insecto|
-|CELLSJAVA-42946|Representación incorrecta del gráfico de barras apiladas con series en PDF|Insecto|
+|CELLSJAVA-42929|Cambios en el título del gráfico en la conversión XLSX a PDF|Insecto|
+|CELLSJAVA-42933|El color de los gráficos cambia al convertir el archivo de Excel a PDF|Insecto|
+|CELLSJAVA-42946|Representación incorrecta del gráfico de barras apiladas con la serie PDF|Insecto|
 |CELLSJAVA-42942|Páginas impresas en el nivel de la hoja de trabajo y no en el nivel del libro de trabajo|Insecto|
 |CELLSJAVA-42952|Sangría incorrecta desde la parte superior de la celda en algunas palabras|Insecto|
 |CELLSJAVA-42902|El estilo de gráfico de cascada no se copia correctamente al copiar el libro de trabajo|Insecto|
@@ -25,7 +25,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.7.
 |CELLSJAVA-42945|Guardar como HTML arroja una excepción si se establece ExportImagesAsBase64|Excepción|
 |CELLSJAVA-42953|NullPointerException al convertir archivos XLS a HTML|Excepción|
 |CELLSJAVA-42951|java.lang.NullPointerException lanzada por comment.setHtmlNote()|Excepción|
-|CELLSJAVA-42954|Excepción generada al cargar y guardar el XLSX|Excepción|
+|CELLSJAVA-42954|Se produjo una excepción al cargar y guardar el XLSX|Excepción|
 |CELLSJAVA-42957|Se arroja un valor de FontUnderlineType no válido al guardar XLSX|Excepción|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

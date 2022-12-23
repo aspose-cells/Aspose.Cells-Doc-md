@@ -19,8 +19,8 @@ url: /tr/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47243|65536 satırlı bir çalışma sayfası için getdisplaystyle üzerinde bekleyin|Verim|
 |CELLSNET-47044|Pivot tablodaki ilk sütun hücrelerinde tarih biçimlendirme sorunu|Böcek|
 |CELLSNET-47301|Hesaplamadan sonra pivot tablo bir görüntüye aktarılarak Satırlar/Sütunlar gizlenir|Böcek|
-|CELLSNET-47308|Cell.HtmlString ayarlandıktan sonra çıktı HTML'sinde birkaç özellik eksik|Böcek|
-|CELLSNET-47343|Yazdırma alanı HTML'ye dönüştürülürken başlıklar eksik|Böcek|
+|CELLSNET-47308|Cell.HtmlString ayarlandıktan sonra HTML çıkışında birkaç özellik eksik|Böcek|
+|CELLSNET-47343|Yazdırma alanı HTML'e dönüştürülürken başlıklar eksik|Böcek|
 |CELLSNET-47344|Yalnızca yazdırma alanı beklendiğinde tüm çalışma sayfası dışa aktarıldı|Böcek|
 |CELLSNET-47322|OFFSET işlevi kullanılırken Aspose.Cells tarafından hesaplanan yanlış değer|Böcek|
 |CELLSNET-47333|CalculateFormula API'i bir çalışma sayfasında kullanırken iki hücrenin değeri hatalı|Böcek|
@@ -36,12 +36,12 @@ url: /tr/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47323|Gridweb clear cell'in arka görüntüsü, sayfanın IsPostBack false ile yüklenmesine neden oluyor|Böcek|
 |CELLSNET-47346|GridDesktop, değiştirilecek parolayı girerken '*' yerine düz karakterler gösteriyor|Böcek|
 |CELLSNET-47349|JS hatası|Böcek|
-|CELLSNET-47281|Excel dosyasını PDF'ye dönüştürürken hücrelerde kasıtsız satır sonları|Böcek|
+|CELLSNET-47281|Excel dosyası PDF'e dönüştürülürken hücrelerde kasıtsız satır sonları|Böcek|
 |CELLSNET-47298|Aspose.Cells ile değiştirilen mevcut yazı tipi|Böcek|
-|CELLSNET-47299|Excel'den PDF'e dönüştürme sırasında CellsException|Böcek|
+|CELLSNET-47299|Excel'de PDF'e dönüştürme sırasında CellsException|Böcek|
 |CELLSNET-47320|XML'i hücreye içe aktar yanlış değer alıyor|Böcek|
 |CELLSNET-47321|XML içe aktarıldığında çıktı dosyası bozulur|Böcek|
-|CELLSNET-47324|Excel'den PDF'e dönüştürmede simge hatası|Böcek|
+|CELLSNET-47324|Excel'de simge hatası PDF'e dönüştürme|Böcek|
 |CELLSNET-46149|Grafik Görüntüsünde Metin Hizalama Sorunu|Böcek|
 |CELLSNET-47231|Daha yeni sürümle işlenirken grafik görüntüsünde eksik bir etiket|Böcek|
 |CELLSNET-47116|sample.xlsx'i .xls'ye dönüştürürken veriler kayboluyor|Böcek|
@@ -53,9 +53,9 @@ url: /tr/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47348|ODS dosyası yüklenip kaydedildikten sonra tarih formatı değişti|Böcek|
 |CELLSNET-47290|Belirli bir HTML dosyasını açmaya çalışırken istisna|İstisna|
 |CELLSNET-47305|RANDBETWEEN(), ArgumentOutOfRangeException istisnasını yükseltir|İstisna|
-|CELLSNET-47351|PDF'ye kaydederken StackOverflowException'a neden olan koşullu biçimlendirme|İstisna|
-|CELLSNET-47319|bağlantılı SVG resmi ile Excel dosyasında NullReferenceException|İstisna|
-|CELLSNET-47359|Bir XLSX dosyası yüklenirken istisna|İstisna|
+|CELLSNET-47351|PDF'e kaydederken StackOverflowException'a neden olan koşullu biçimlendirme|İstisna|
+|CELLSNET-47319|Bağlantılı SVG resimli Excel dosyasında NullReferenceException|İstisna|
+|CELLSNET-47359|XLSX dosyası yüklenirken istisna|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **WorkbookSettings.GetThemeFont() yöntemini ekler.**

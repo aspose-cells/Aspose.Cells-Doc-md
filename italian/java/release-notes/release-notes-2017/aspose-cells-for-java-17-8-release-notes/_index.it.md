@@ -10,12 +10,12 @@ url: /it/java/aspose-cells-for-java-17-8-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42356|Aggiungi una proprietà per indicare se generare o meno una pagina vuota quando non c'è niente da stampare|Nuova caratteristica|
 |CELLSJAVA-42322|Supporta la funzione Filtro avanzato (MS Excel) per visualizzare i record che soddisfano criteri complessi|Nuova caratteristica|
 |CELLSJAVA-42341|InterruptMonitor impiega più tempo per interrompere il processo di salvataggio della cartella di lavoro per un file di grandi dimensioni con tabella pivot|Aumento|
-|CELLSJAVA-42358|La formula non viene visualizzata nel PDF risultante|Aumento|
+|CELLSJAVA-42358|La formula non viene visualizzata nel risultato PDF|Aumento|
 |CELLSJAVA-42351|La formula WEEKDAY restituisce un valore errato nel calcolo della formula della cartella di lavoro|Aumento|
 |CELLSJAVA-42332|Aspose.Cells non è in grado di convertire correttamente il file HTML mentre MS-Excel è in grado di convertirlo correttamente|Insetto|
 |CELLSJAVA-42355|Per il numero 39 MS Excel formatta il valore negativo con '-' invece di '()' per l'Italia|Insetto|
@@ -25,9 +25,9 @@ url: /it/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42352|La forma non viene aggiornata con il valore corretto|Insetto|
 |CELLSJAVA-42349|Conversione da Excel a PDF impiccata per un file XLSX|Insetto|
 |CELLSJAVA-42348|Impossibile importare il file XLSB (tramite API Aspose.Cells) nel database MS-Access|Insetto|
-|CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel in formato HTML|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+|CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel nel formato HTML|Eccezione|
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.IsExportComments**
 Indica se durante l'esportazione dei commenti durante il salvataggio del file in HTML, il valore predefinito è false.
 ### **Aggiunge la proprietà HtmlSaveOptions.DisableDownlevelRevealedComments**

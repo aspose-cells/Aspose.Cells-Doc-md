@@ -18,12 +18,12 @@ url: /ja/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47016|Aspose.Cellsの最新版では折り返し文字が違う|強化|
 |CELLSNET-47023|ODS ファイルのロードおよび保存中にチャートが失われる|強化|
 |CELLSNET-47056|ODS ファイルのロードおよび保存中にチャートがレンダリングされない|強化|
-|CELLSNET-46679|XLSX を PDF にエクスポートする際の不適切なレンダリング|バグ|
-|CELLSNET-46680|XLSX を PDF に変換するときに wingding シンボルが見つからない|バグ|
-|CELLSNET-46740|Excel ファイルを PDF に変換中に画像にエラーが発生しました|バグ|
+|CELLSNET-46679|XLSX から PDF へのエクスポート時のレンダリングが正しくない|バグ|
+|CELLSNET-46680|XLSX を PDF に変換する際に wingding 記号が見つからない|バグ|
+|CELLSNET-46740|Excel ファイルを PDF に変換する際の画像のエラー|バグ|
 |CELLSNET-46901|3Dモデルの位置がずれる|バグ|
-|CELLSNET-46936|HTML でフォントが正しく表示されない|バグ|
-|CELLSNET-47013|Excel ファイルを PDF に変換すると、ファンネル グラフの数字が消える|バグ|
+|CELLSNET-46936|HTML でフォントが正しくレンダリングされない|バグ|
+|CELLSNET-47013|Excel ファイルを PDF に変換すると、ファンネル グラフの Numbers が消える|バグ|
 |CELLSNET-43846|ピボット テーブルで、カスタム フィールド名と [値を次の形式で表示] 設定が失われる|バグ|
 |CELLSNET-46444|PivotTable.CalculateData の呼び出し後にピボット テーブルの値が変更されました|バグ|
 |CELLSNET-46484|RefreshData は、Excel でファイルを開く前にデータを並べ替えません。|バグ|
@@ -32,19 +32,19 @@ url: /ja/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47034|HTML から Excel への変換中に列の幅と行の高さが圧迫される|バグ|
 |CELLSNET-47007|式の評価中に値エラーが表示される|バグ|
 |CELLSNET-47029|値 FALSE ではなく、Cell から誤った値 TRUE が取得される|バグ|
-|CELLSNET-47052|Excel から PDF への変換中に DateTimeFormat が破損する|バグ|
-|CELLSNET-46757|XLSX から PDF への変換中の問題|バグ|
-|CELLSNET-46976|Excel から PDF へのレンダリングで一部の境界線が消える|バグ|
+|CELLSNET-47052|Excel を PDF に変換中に DateTimeFormat が破損する|バグ|
+|CELLSNET-46757|XLSX を PDF に変換する際の問題|バグ|
+|CELLSNET-46976|Excel で一部の境界線が消えて PDF レンダリングになる|バグ|
 |CELLSNET-47000|パスワードで保護された .ods ファイルからの SheetRender による不適切な結果画像|バグ|
-|CELLSNET-47025|XLSM のマクロが検出されない|バグ|
-|CELLSNET-47038|Aspose.Cells 経由で開くか保存すると、ODS ファイルの折れ線グラフが正しくレンダリングされない|バグ|
+|CELLSNET-47025|XLSM のマクロが検出されませんでした|バグ|
+|CELLSNET-47038|ODS ファイルの折れ線グラフは、Aspose.Cells で開いたり保存したりすると正しく表示されません。|バグ|
 |CELLSNET-47045|VBA モジュール名の変更がクラッシュする|バグ|
 |CELLSNET-47051|コピー後もチャートは最初のワークシートにバインドされています|バグ|
 |CELLSNET-47053|不正なファイル形式が検出され、ファイルを開くときにプロセスがスタックする|バグ|
 |CELLSNET-46922|XLS ファイルのロード中に例外が発生しました|例外|
 |CELLSNET-46999|.ods ファイルをレンダリングすると、「パラメーターが無効です」という例外がスローされます。|例外|
 |CELLSNET-47017|変換されたファイルを開くときに OpenXML SDK が例外をスローする|例外|
-|CELLSNET-47022|XLSX ファイル形式の読み込み時の例外|例外|
+|CELLSNET-47022|XLSX ファイル形式をロードするときの例外|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 #### **廃止された DataLabels.BaseField プロパティを削除します**
@@ -86,9 +86,9 @@ LoadDataFilterOptions.Shape の代わりに (LoadDataFilterOptions.Drawing & ~Lo
 #### **EmfRenderSetting クラスを追加します**
 Emf メタファイルのレンダリングを設定します。
 #### **PdfSaveOptions.EmfRenderSetting プロパティを追加します**
-PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするための設定。
+PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするように設定します。
 #### **ShapeCollection.AddSvg() メソッドを追加します**
-SVG 画像を追加します。
+SVGの画像を追加。
 #### **WorkbookSettings.QuotePrefixToStyle プロパティを追加します**
 文字列値 (一重引用符で始まる) をセルに入力するときに Style.QuotePrefix プロパティを設定するかどうかを示します
 #### **HtmlSaveOptions.AddTooltipText プロパティを追加します**

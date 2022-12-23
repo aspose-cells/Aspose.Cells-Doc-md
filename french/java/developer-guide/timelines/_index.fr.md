@@ -8,7 +8,7 @@ description: Apprenez à créer une chronologie avec Aspose.Cells pour java.
 ---
 ## **Scénarios d'utilisation possibles**
 
- Au lieu d'ajuster les filtres pour afficher les dates, vous pouvez utiliser une chronologie de tableau croisé dynamique —— une option de filtre dynamique qui vous permet de filtrer facilement par date/heure et de zoomer sur la période souhaitée avec un curseur. Microsoft Excel vous permet de créer une chronologie en sélectionnant un tableau croisé dynamique, puis en cliquant sur le*Insertion > Chronologie*. Aspose.Cells pour Java vous permet également de créer une chronologie à l'aide de la méthode [**Worksheet.getTimelines.add()**].
+ Au lieu d'ajuster les filtres pour afficher les dates, vous pouvez utiliser une chronologie de tableau croisé dynamique——une option de filtre dynamique qui vous permet de filtrer facilement par date/heure et de zoomer sur la période souhaitée avec un curseur. Microsoft Excel vous permet de créer une chronologie en sélectionnant un tableau croisé dynamique, puis en cliquant sur le*Insertion > Chronologie*. Aspose.Cells pour Java vous permet également de créer une chronologie à l'aide de la méthode [**Worksheet.getTimelines.add()**].
 
 ## **Créer une chronologie dans un tableau croisé dynamique**
 

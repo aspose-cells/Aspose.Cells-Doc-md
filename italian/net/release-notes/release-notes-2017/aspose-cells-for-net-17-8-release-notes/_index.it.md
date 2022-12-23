@@ -10,37 +10,37 @@ url: /it/net/aspose-cells-for-net-17-8-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave** |**Riepilogo** |**Categoria** |
+|**Chiave** |**Sommario** |**Categoria** |
 |:- |:- |:- |
-|CELLSNET-45357 |Opzione per disabilitare il tipo di commento condizionale rivelato di livello inferiore durante l'esportazione in HTML|Nuova caratteristica|
-|CELLSNET-45330 |Renderizza i commenti durante il salvataggio come immagine, HTML o PDF|Nuova caratteristica|
+|CELLSNET-45357 |Opzione per disabilitare il tipo di commento condizionale rivelato a livello inferiore durante l'esportazione a HTML|Nuova caratteristica|
+|CELLSNET-45330 |Rendering dei commenti durante il salvataggio come immagine, HTML o PDF|Nuova caratteristica|
 |CELLSNET-45014 |Supporto style.xml del grafico dall'ufficio 2013|Nuova caratteristica|
 |CELLSNET-45501 |Imposta lo stile predefinito di GridDesktop simile a Aspose.Cells.Workbook.DefaultStyle sia in fase di progettazione che in fase di esecuzione|Nuova caratteristica|
 |CELLSNET-44243 |Salta le celle bloccate durante la navigazione con Tab sul componente GridDesktop|Nuova caratteristica|
 |CELLSNET-45517 |Aggiunto il supporto per Condividi file xlsx|Aumento|
 |CELLSNET-45554 |Sincronizza o aggiorna il commento sul lato client dopo che il commento Cell è stato aggiornato sul lato server|Aumento|
 |CELLSNET-45530 |MS Excel consuma più memoria (circa 2 GB) per aprire il file di output|Prestazione|
-|CELLSNET-45531 |La posizione del testo della forma è errata nel PDF di output - Conversione da Excel a PDF|Insetto|
+|CELLSNET-45531 |La posizione del testo della forma è errata nell'output PDF - Conversione da Excel a PDF|Insetto|
 |CELLSNET-45507 |Diagrammi non renderizzati correttamente in Output Pdf|Insetto|
 |CELLSNET-45477 |Problemi con il rendering delle forme nella conversione da foglio a immagine|Insetto|
-|CELLSNET-45473 |Problemi di allineamento del testo durante il salvataggio di un file XLS come HTML dalle API Aspose.Cells|Insetto|
+|CELLSNET-45473 |Problemi di allineamento del testo durante il salvataggio di un file XLS come HTML tramite API Aspose.Cells|Insetto|
 |CELLSNET-45536 |Testo tagliato durante il rendering del foglio Excel in immagine|Insetto|
 |CELLSNET-45524 |È apparsa una linea ridondante durante il rendering delle forme nella conversione da foglio a immagine|Insetto|
-|CELLSNET-45522 |Cells in PDF - il piè di pagina non va a capo quando il testo del piè di pagina contiene|Insetto|
+|CELLSNET-45522 |Da Cells a PDF - il piè di pagina non va a capo quando il testo del piè di pagina contiene|Insetto|
 |CELLSNET-45512 |Aspose.Cells crea un enorme file EMF durante il rendering del foglio in un file immagine|Insetto|
 |CELLSNET-45508 |I dati vengono troncati anche dopo l'adattamento automatico delle righe|Insetto|
 |CELLSNET-45495 |Aggiungi firme digitali a documenti già firmati|Insetto|
-|CELLSNET-45553 |Il grafico nel PDF risultante ha valori imprevisti|Insetto|
-|CELLSNET-45551 |L'immagine diventa nera durante il rendering in formato file PDF|Insetto|
-|CELLSNET-45547 |grafici sparkline non sono più uniformi nell'immagine EMF di output|Insetto|
+|CELLSNET-45553 |Il grafico nel risultato PDF ha valori imprevisti|Insetto|
+|CELLSNET-45551 |L'immagine diventa nera durante il rendering nel formato file PDF|Insetto|
+|CELLSNET-45547 |I grafici sparkline non sono più uniformi nell'immagine di output EMF|Insetto|
 |CELLSNET-45514 |ErrorBar caps non vengono visualizzati correttamente|Insetto|
 |CELLSNET-45398 |Il titolo dell'asse secondario nei grafici è stato visualizzato in modo errato|Insetto|
 |CELLSNET-45570 |Il file Excel è danneggiato a causa dell'intervallo di convalida dei dati dopo averlo aperto e salvato nuovamente tramite le API Aspose.Cells|Insetto|
 |CELLSNET-45560 |Il messaggio di errore viene visualizzato in Microsoft Excel dopo aver chiamato il metodo RemoveMacro()|Insetto|
 |CELLSNET-45555 |L'attributo Cells.GroupRows isHidden viene visualizzato in modo errato con i gruppi nidificati|Insetto|
 |CELLSNET-45552 |Le immagini collegate vengono duplicate all'interno del grafico quando si apre e si salva nuovamente un file XLSX|Insetto|
-|CELLSNET-45549 |Il file XLS di output è corrotto all'apertura e al salvataggio del file Xls di origine|Insetto|
-|CELLSNET-45548 |L'elemento SpreadsheetML AllowFilter non funziona nell'output XLSX|Insetto|
+|CELLSNET-45549 |Il file di output XLS è corrotto all'apertura e al salvataggio del file Source Xls|Insetto|
+|CELLSNET-45548 |SpreadsheetML L'elemento AllowFilter non funziona nell'output XLSX|Insetto|
 |CELLSNET-45546 |Dati della cella mancanti durante l'apertura e il salvataggio del file ODS|Insetto|
 |CELLSNET-45544 |Durante lo spostamento dell'intervallo, la formula fa riferimento solo alla prima cella dell'intervallo|Insetto|
 |CELLSNET-45543 |Lo spostamento delle celle formattate in modo condizionale rimuove la formattazione|Insetto|
@@ -49,7 +49,7 @@ url: /it/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45534 |Il metodo Workbook.Unprotect funziona anche con una password errata|Insetto|
 |CELLSNET-45532 |Consenti la convalida dei dati con numeri interi con formula non funzionante|Insetto|
 |CELLSNET-45529 |ListObject.Resize cambia il formato e imposta il filtro|Insetto|
-|CELLSNET-45520 |I campi dei commenti non vengono aperti correttamente da SpreadsheetML|Insetto|
+|CELLSNET-45520 |I campi di commento non vengono aperti correttamente da SpreadsheetML|Insetto|
 |CELLSNET-45518 |La convalida dei dati nel file Excel di output non funziona|Insetto|
 |CELLSNET-45509 |Gli oggetti/immagini incorporati non vengono visualizzati nella conversione da Excel a PDF|Insetto|
 |CELLSNET-45505 |Alcune forme vengono spostate nel file XLS durante l'estrazione e il reinserimento delle immagini|Insetto|
@@ -57,12 +57,12 @@ url: /it/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45502 |La duplicazione della cartella di lavoro genera file danneggiati per Excel 2016/2007|Insetto|
 |CELLSNET-45527 |L'applicazione di righe di gruppo a righe nascoste (nel riquadro bloccato) rende GridWeb non modificabile|Insetto|
 |CELLSNET-45523 |Alcune righe nascoste vengono visualizzate erroneamente in GridDesktop|Insetto|
-|CELLSNET-45472 |Eccezione: "Errore da forma a immagine" durante il rendering di un file XLSX in formato file PDF|Eccezione|
+|CELLSNET-45472 |Eccezione: "Errore da forma a immagine" durante il rendering di un file XLSX nel formato file PDF|Eccezione|
 |CELLSNET-45550 |System.NullReferenceException all'apertura del file Excel di origine|Eccezione|
-|CELLSNET-45526 |Eccezione durante il salvataggio di file XLSX nel formato file XLSB|Eccezione|
-|CELLSNET-45519 |Eccezione all'apertura del file XLSB modello (Office 365 (aggiornamento 1707))|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+|CELLSNET-45526 |Eccezione durante il salvataggio dei file XLSX nel formato file XLSB|Eccezione|
+|CELLSNET-45519 |Eccezione all'apertura del file modello XLSB (Office 365 (aggiornamento 1707))|Eccezione|
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ## **Aggiunge la proprietà HtmlSaveOptions.IsExportComments**
 Indica se durante l'esportazione dei commenti durante il salvataggio del file in html, il valore predefinito è false.
 ## **Aggiunge la proprietà HtmlSaveOptions.DisableDownlevelRevealedComments**

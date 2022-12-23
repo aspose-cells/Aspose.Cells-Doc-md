@@ -8,25 +8,25 @@ url: /de/java/aspose-cells-for-java-8-8-1-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSJAVA-41664 |Exportieren von DataBars basierend auf bedingter Formatierung in HTML| Neue Funktion|
-|CELLSJAVA-40746 | Unterstützt ColorScale, DataBar, IconSet beim Exportieren von XLSX nach HTML| Neue Funktion|
+|CELLSJAVA-41664 | Exportieren von DataBars basierend auf bedingter Formatierung nach HTML| Neue Funktion|
+|CELLSJAVA-40746 | Unterstützt ColorScale, DataBar, IconSet beim Exportieren von XLSX bis HTML| Neue Funktion|
 |CELLSJAVA-41820 | Arbeitsblatt hat keine Methode calcualteFormula(String Formel, CalculationOptions Optionen)| Neue Funktion|
 |CELLSJAVA-40544 | Leistungsengpass bei Workbook.calculateFormula| Erweiterung|
 |CELLSJAVA-41817 | Das Festlegen von ShowAllItems für PivotField scheint nicht wirksam zu werden| Insekt|
-|CELLSJAVA-41810 | Text wird im EMF-Bild überfüllt und überlappt| Insekt|
-|CELLSJAVA-41801 | Textbeschriftungen überlappen sich im EMF-Bild| Insekt|
+|CELLSJAVA-41810 | Text wird im Bild EMF überfüllt und überlappt| Insekt|
+|CELLSJAVA-41801 | Textbeschriftungen überlappen sich im Bild EMF| Insekt|
 |CELLSJAVA-41834 | Beim Kopieren der Arbeitsmappe wird eine Ausnahme ausgelöst| Insekt|
-|CELLSJAVA-41819 | Tabellenkalkulation in HTML: Die Ausrichtung von Text in einer Form ist nach dem Kopieren des Designs aus der Quelltabelle falsch| Insekt|
-|CELLSJAVA-41824 | Das Diagramm wird in der Ausgabe-PDF nicht gerendert| Insekt|
-|CELLSJAVA-41805 | X-Achsenbeschriftungen fehlen im PDF des Diagramms| Insekt|
-|CELLSJAVA-41767 | Falsches Zahlenformat der X-Achsenbeschriftungen im PDF des Diagramms| Insekt|
-|CELLSJAVA-41640 | Lange Bindestriche werden im Ausgabe-PDF/Bild für das Diagramm nicht richtig angezeigt| Insekt|
-|CELLSJAVA-41604 | Horizontale Gitterlinien des Diagramms werden in der Ausgabe-PDF nicht richtig angezeigt| Insekt|
-|CELLSJAVA-41832 |Beim Rendern von Worksheet-to-Image fehlen einige Diagrammbalken| Insekt|
+|CELLSJAVA-41819 | Tabelle bis HTML: Die Ausrichtung von Text in einer Form ist falsch, nachdem das Design aus der Quelltabelle kopiert wurde| Insekt|
+|CELLSJAVA-41824 | Graph wird in der Ausgabe PDF nicht gerendert| Insekt|
+|CELLSJAVA-41805 | X-Achsenbeschriftungen fehlen in Diagramm PDF| Insekt|
+|CELLSJAVA-41767 | Falsches Zahlenformat der X-Achsenbeschriftungen im Diagramm PDF| Insekt|
+|CELLSJAVA-41640 | Lange Bindestriche werden in der Ausgabe PDF/Image für das Diagramm nicht richtig angezeigt| Insekt|
+|CELLSJAVA-41604 |Horizontale Gitterlinien des Diagramms werden in der Ausgabe PDF nicht richtig angezeigt| Insekt|
+|CELLSJAVA-41832 | Beim Rendern von Worksheet-to-Image fehlen einige Diagrammbalken| Insekt|
 |CELLSJAVA-41837 | Chart.toPDF(java.io.OutputStream, com.aspose.cells.PdfSaveOptions) hinzufügen| Insekt|
 |CELLSJAVA-41839 | Ein benannter Bereich wird erstellt, wenn die Methode Cells.copyRow() innerhalb eines benannten Bereichs verwendet wird| Insekt|
 |CELLSJAVA-41838 | Beim Anwenden von autoSizeColumns auf das Blatt wird die Spalte nicht richtig verbreitert| Insekt|
-|CELLSJAVA-41835 | CellsException beim Speichern der Tabelle als PDF| Ausnahme|
+|CELLSJAVA-41835 | CellsException beim Speichern der Tabelle auf PDF| Ausnahme|
 |CELLSJAVA-41826 | NaN-Ausnahme| Ausnahme|
 ## **2) Aspose.Cells Grid-Suite**
 
@@ -54,7 +54,7 @@ Erstellt ein Validierungsobjekt für eine Rasterzelle.
 ### **Fügt die Methode GridCell.RemoveValidation() hinzu.**
 Entfernt das Validierungsobjekt aus einer Rasterzelle.
 ### **Fügt die Methode Chart.ToPdf(System.IO.Stream stream) hinzu.**
-Fügt das Speichern von Diagrammen als Stream in PDF hinzu.
+Fügt Speicherdiagramm zu PDF als Stream hinzu.
 
 {{% alert color="primary" %}} 
 

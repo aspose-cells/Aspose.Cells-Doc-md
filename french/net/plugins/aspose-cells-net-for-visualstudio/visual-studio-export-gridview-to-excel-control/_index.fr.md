@@ -73,7 +73,7 @@ Dans le menu Outils, cliquez sur Choisir les éléments de la boîte à outils.
 Lorsque vous ouvrez un contrôle aspx ou ascx dans la boîte à outils de gauche, vous verrez ExportGridViewToWord sous l'onglet Général
 
 ![tâche : image_autre_texte](visual-studio-export-gridview-to-excel-control_2.png)
-## **Utilisant**
+## **En utilisant**
 Une fois installé, il est très facile de commencer à utiliser ce contrôle dans vos applications ASP.NET
 
 |**Pour .NET framework 4.0 et supérieur** |**Pour .NET framework 2.0 et supérieur** |** |
@@ -103,14 +103,14 @@ Si vous rencontrez des problèmes lors de l'utilisation des méthodes ci-dessus 
 ### **FAQ**
 Questions et problèmes courants auxquels vous pourriez être confronté lors de l'utilisation de ce contrôle
 
-|**#** |**Question** |**Réponse** |
+|**#** |**Question** |**Répondre** |
 |:- |:- |:- |
 |1 | Je ne vois pas le contrôle ExportGridViewToExcel dans Toolbox|<p>**Visual Studio 2010 et supérieur** </p><p>1. Assurez-vous que vous avez installé ce contrôle à l'aide du fichier d'extension VSIX trouvé dans le package téléchargé. Pour vérifier, allez dans Outils -> Extension et mises à jour. Sous installé, vous devriez voir 'Aspose Exporter Exporter GridView vers Excel Control'. Si vous ne le voyez pas, essayez de le réinstaller</p><p>2. Assurez-vous que votre application Web s'exécute dans le framework .NET 4.0 ou supérieur, pour les versions inférieures du framework .NET, veuillez vérifier la méthode alternative ci-dessus.<br>   **Anciennes versions de Visual Studio**</p><p>3. Assurez-vous d'avoir ajouté manuellement ce contrôle à votre boîte à outils conformément aux instructions ci-dessus.</p>|
 |2 | J'obtiens l'erreur "Accès refusé" lors de l'exécution de l'application|<p>1. Si vous rencontrez ce problème en production, assurez-vous de copier à la fois Aspose.Excel.dll et Aspose.Excel.GridViewExport.dll dans votre dossier bin.</p><p>2. Si vous utilisez Visual Studio, assurez-vous de l'exécuter en tant qu'administrateur même si vous êtes déjà connecté en tant qu'administrateur.</p>|
 ### **Aspose .NET Exporter GridView vers les propriétés de contrôle Excel**
 Les propriétés suivantes sont exposées pour configurer et utiliser les fonctionnalités intéressantes fournies par ce contrôle
 
-|**Nom de la propriété** |**Taper** |**Exemple/Valeurs possibles** |**La description** |
+|**Nom de la propriété** |**Taper** |**Exemple/Valeurs possibles** |**Description** |
 |:- |:- |:- |:- |
 | ExportButtonText| chaîne de caractères| Exporter vers Excel| Vous pouvez utiliser cette propriété pour remplacer le texte par défaut existant|
 |ExportButtonCssClass| chaîne de caractères| btn btn-primaire| Classe CSS appliquée à la div externe du bouton d'exportation. Pour appliquer css sur le bouton, vous pouvez utiliser l'entrée .yourClass|

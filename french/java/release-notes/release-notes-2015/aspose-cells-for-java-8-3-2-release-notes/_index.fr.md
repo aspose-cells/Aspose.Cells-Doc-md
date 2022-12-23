@@ -23,13 +23,13 @@ Autres améliorations et modifications
 
 Nouvelles fonctionnalités
 
-(CELLSJAVA-41144) - Possibilité de supprimer le style de la StyleCollection lors de l'enregistrement du code HTML
+(CELLSJAVA-41144) - Possibilité de supprimer le style de la StyleCollection lors de l'enregistrement HTML
 (CELLSJAVA-41127) - Spécifiez des séparateurs personnalisés pour le classeur complet
 (CELLSJAVA-41143) - Spécifiez le nom du travail/du document lors de l'impression avec Aspose.Cells
 
 Améliorations
 
-(CELLSJAVA-41145) - Génération intelligente de CSS lors de l'exportation de feuilles de calcul au format HTML
+(CELLSJAVA-41145) - Génération intelligente de CSS lors de l'exportation de feuilles de calcul vers HTML
 (CELLSJAVA-41177) - Cell.setHtmlString ne fonctionne pas lors de l'utilisation de "<s><span style="color:#ff00ff;">S2</span></s>"
 (CELLSJAVA-41162) - Ajout de répertoires de polices par défaut pour Mac et Linux dans la liste de recherche de polices
 
@@ -39,24 +39,24 @@ Performance
 
 Insectes
 
-(CELLSJAVA-41165) - Le graphique croisé dynamique ne s'actualise pas après la mise à jour des données source et le rendu de la feuille de calcul au format PDF
+(CELLSJAVA-41165) - Le graphique croisé dynamique ne s'actualise pas après la mise à jour des données source et le rendu de la feuille de calcul en PDF
 (CELLSJAVA-41156) - Chart.refreshPivotData entraîne la conversion des dates dans l'axe du graphique en nombres lors de la conversion de la feuille de calcul en PDF
 (CELLSJAVA-41154) - Une ligne supplémentaire apparaît dans la sortie HTML lors du collage de la plage avec PasteType.ALL
 (CELLSJAVA-41151) - Comportement étrange concernant la mise en forme dans le rapport de tableau croisé dynamique de sortie lors de l'utilisation et sans l'utilisation de la ligne de code qui correspond à la récupération de la plage de lignes
-(CELLSJAVA-41150) - FormatCondition non pris en charge concernant le format des nombres lors du rendu au format de fichier HTML
+(CELLSJAVA-41150) - FormatCondition non prise en charge concernant le format Numbers lors du rendu au format de fichier HTML
 (CELLSJAVA-41146) - Rendu incorrect de la bordure lors de la conversion de la feuille de calcul en HTML
 (CELLSJAVA-41134) - XLSB2007TestNewS.xlsb ne se charge pas et continue d'augmenter la consommation de mémoire
 (CELLSJAVA-41129) - Des lignes supplémentaires sont affichées lorsque la sortie HTML est affichée dans Chrome
-(CELLSJAVA-41122) - Ouverture et sauvegarde Financière_Déclaration_Saisir_Signaler_Withdata.xlsb le rend corrompu
-(CELLSJAVA-41098) - Actualiser le tableau croisé dynamique supprime la mise en forme du tableau croisé dynamique lors de la conversion au format PDF
+(CELLSJAVA-41122) - Ouverture et sauvegarde Financière_Déclaration_Contribution_Rapport_Withdata.xlsb le rend corrompu
+(CELLSJAVA-41098) - Actualiser le tableau croisé dynamique supprime la mise en forme du tableau croisé dynamique lors de la conversion en PDF
 (CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE provoque la corruption du XLS
 (CELLSJAVA-41149) - Rendu incorrect de l'heure lors de la conversion de la feuille de calcul en PDF
 (CELLSJAVA-41148) - Excel a trouvé du contenu illisible... erreur lors de l'ouverture et de l'enregistrement du classeur
 (CELLSJAVA-41141) - Cell n'est pas défini avec la méthode ListObject.putCellValue()
 (CELLSJAVA-41140) - L'extension du tableau ne copie pas la formule dans les nouvelles lignes
-(CELLSJAVA-41166) - La visionneuse XPS ne peut pas ouvrir le XPS généré Aspose.Cells
+(CELLSJAVA-41166) - XPS La visionneuse ne peut pas ouvrir Aspose.Cells a généré XPS
 (CELLSJAVA-41163) - L'exportation SVG crée un fichier non valide
-(CELLSJAVA-41153) - Shape.toImage stocke l'image au format BMP plutôt qu'au format SVG pour les formes autres que Chart
+(CELLSJAVA-41153) - Shape.toImage stocke l'image au format BMP plutôt que SVG pour les formes autres que Chart
 (CELLSJAVA-41137) - Problème avec la définition des valeurs de plage de cellules des étiquettes de données
 (CELLSJAVA-41128) - Les graphiques ne sont pas rendus correctement lors de la ré-enregistrement du fichier XLSX
 (CELLSJAVA-41125) - L'image du graphique présente un bruit lorsqu'elle est convertie avec une résolution inférieure
@@ -65,10 +65,10 @@ Insectes
 (CELLSJAVA-41159) - Problème de calcul des données du tableau croisé dynamique
 (CELLSJAVA-41175) - Les séries Trendline ne sont pas affichées dans la légende
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-41164) - java.lang.NullPointerException à Cells.find
-(CELLSJAVA-41131) - L'enregistrement au format PDF est bloqué et problème de mémoire avec le fichier XLSB source
+(CELLSJAVA-41131) - L'enregistrement vers PDF est bloqué et problème de mémoire avec le fichier source XLSB
 
 Public API et modifications incompatibles avec les versions antérieures
 
@@ -77,7 +77,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
  Ajoute les propriétés WorkbookSettings.NumberDecimalSeparator, NumberGroupSeparator
  Obtient/définit les séparateurs utilisés pour le formatage/l'analyse des valeurs numériques.
 
- Ajoute la méthode WorkbookSettings.CheckWriteProtectedPassword()
+Ajoute la méthode WorkbookSettings.CheckWriteProtectedPassword()
  Vérifie si le mot de passe est correct mot de passe protégé en écriture.
 
  Ajoute la propriété Picture.SignatureLine et la classe SignatureLine.
@@ -116,7 +116,7 @@ Obtient ou définit le nombre de pages à enregistrer.
  Ajoute la méthode SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 Rend la feuille de calcul à l'imprimante.
 
-Ajoute la méthode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Ajoute la méthode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 Rend le classeur à l'imprimante.
 
  Ajoute les propriétés PdfSaveOptions.IsFontSubstitutionCharGranularity
@@ -137,7 +137,7 @@ Les utilisateurs doivent utiliser Workbook.CreateStyle() pour créer et manipule
  Obsolète la méthode PivotItem.Move(int count).
 Utilisation de la méthode PivotItem.Move(int count, bool isSameParent) à la place.
 
-Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
+ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
  Supprime la méthode obsolète Workbook.SetOleSize().
 
@@ -147,7 +147,7 @@ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
  Supprime les méthodes Open() et Save() obsolètes de WorkbookDesigner.
 
- Supprime les propriétés obsolètes ReCalcOnOpen, Language, Encoding et ConvertNumericData de WorkbookSettings.
+Supprime les propriétés obsolètes ReCalcOnOpen, Language, Encoding et ConvertNumericData de WorkbookSettings.
 
  Supprime les propriétés obsolètes HidePivotFieldList, EnableHTTPCompression, IsMinimized, IsHidden, SheetTabBarWidth de WorksheetCollection.
 
@@ -157,7 +157,7 @@ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
  Supprime les HPageBreaks et VPageBreaks obsolètes de Worksheet.
 
-Supprime les DisplayHTMLCrossString et ExportChartImageFormat obsolètes de HtmlSaveOptions.
+ Supprime les DisplayHTMLCrossString et ExportChartImageFormat obsolètes de HtmlSaveOptions.
 
  Supprime la propriété obsolète ExpCellNameToXLSX de SaveOptions.
 

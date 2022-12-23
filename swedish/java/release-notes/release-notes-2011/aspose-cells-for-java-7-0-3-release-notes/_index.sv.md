@@ -14,19 +14,19 @@ url: /sv/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Allmänna funktioner / förbättringar
 
- Stöd LightCellsDataProvider för att spara XLS-fil
+ Stöd LightCellsDataProvider för att spara XLS-filen
 
- Förbättringar görs för Excel-till-PDF-funktionen
+ Förbättringar görs för Excel-to-PDF-funktionen
 
  31329 - Inkludera en användbar metod: PivotField.getBaseIndex()
 
- 40015 - Gör biblioteket kompatibelt med webservices-rt.jar
+40015 - Gör biblioteket kompatibelt med webservices-rt.jar
 
  40011 - Stöd för att få alla färger som används av olika objekt i arbetsboken
 
  Undantag
 
-40022 - Läser XLS-mallfil med alternativuppsättning: LoadDataOnly=true ger undantag
+ 40022 - Läser XLS mallfil med alternativuppsättning: LoadDataOnly=true ger undantag
 
  40017 - Metoden WorksheetCollection.getNamedRanges() ger undantag
 
@@ -34,13 +34,13 @@ url: /sv/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Buggar
 
- 31303 - Cell värde med tecknet "" och "," sparades felaktigt för CSV-fil
+ 31303 - Cell värde med tecknet "" och "," sparades felaktigt för filen CSV
 
- 31376 - Att spara PDF tog för lång tid och genererade en mycket stor PDF-fil
+ 31376 - Att spara PDF tog för lång tid och genererade mycket stor PDF-fil
 
  40001 - Valutasymbol försvann vid formatering av cellvärden
 
- 40003 - Textorienteringen för sammanslagna celler ändras i den genererade PDF-filen
+ 40003 - Textorientering för sammanslagna celler ändras i den genererade PDF-filen
 
  40002 - Sparad pivottabell gör att MS Excel ger fel
 
@@ -48,13 +48,13 @@ url: /sv/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40013 - Symboler för autofilter duplicerades och blev större när XLS-filen sparades på nytt
 
- 40014 - Rutnätslinjer visades inte i den genererade bilden för ett ark
+40014 - Rutnätslinjer visades inte i den genererade bilden för ett ark
 
- 40016 - Sparad XLS-fil gör att MS Excel ger varningsmeddelanden -1
+ 40016 - Sparad XLS fil gör att MS Excel ger varningsmeddelanden -1
 
- 40020 - Sparad XLS-fil gör att MS Excel ger varningsmeddelanden -2
+ 40020 - Sparad XLS fil gör att MS Excel ger varningsmeddelanden -2
 
-40021 - Sparad XLS-fil gör att MS Excel ger varningsmeddelanden -3
+ 40021 - Sparad XLS fil gör att MS Excel ger varningsmeddelanden -3
 
  40023 - Cell förlorar format efter radering av rader
 
@@ -68,4 +68,4 @@ url: /sv/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40084 - DateTime-värden läses som dubbelformat
 
- 40085 - När rad/kolumn överskrider XLS-filens gräns, orsakar den sparade XLS:en "Excel hittade oläsbart innehåll" fel när den öppnas i MS Excel
+ 40085 - När rad/kolumn överskrider gränsen för XLS-filen, orsakar det sparade XLS: "Excel hittade oläsbart innehåll"-fel när det öppnas i MS Excel

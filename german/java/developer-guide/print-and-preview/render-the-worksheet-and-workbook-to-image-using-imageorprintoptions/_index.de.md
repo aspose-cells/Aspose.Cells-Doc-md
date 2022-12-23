@@ -38,15 +38,15 @@ Oder Sie können durch die Arbeitsmappe blättern und jedes darin enthaltene Arb
 
 {{% alert color="primary" %}}
 
- Das[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) Klasse kann die Arbeitsmappe nur im TIFF-Format speichern.
+ Das[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) Klasse kann die Arbeitsmappe nur im Format TIFF speichern.
 
 {{% /alert %}}
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ConvertWorkbooktoImage-1.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Konvertieren von Arbeitsblättern in verschiedene Bildformate](/cells/de/java/converting-worksheet-to-different-image-formats/)
-- [Diagramm mit viewBox-Attribut nach SVG exportieren](/cells/de/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Diagramm nach SVG mit viewBox-Attribut exportieren](/cells/de/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Arbeitsblatt oder Diagramm in Bild mit gewünschter Breite und Höhe exportieren](/cells/de/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Konvertieren von Arbeitsblatt in Bild und Arbeitsblatt in Bild für Seite](/cells/de/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

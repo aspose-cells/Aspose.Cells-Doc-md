@@ -31,7 +31,7 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, "Hello W
 
 **Oluşturulan e-tablo** 
 
-![yapılacaklar:resim_alternatif_Metin](your-first-aspose-cells-application-hello-world_1.png)
+![yapılacaklar:resim_alternatif_metin](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CreatingWorkbook-1.java" >}}
 

@@ -11,19 +11,19 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Python via .NET 
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSPYTHONNET-82|Il nuovo salvataggio di un file XLSM con controlli ActiveX ha danneggiato le macro nel file|
 |CELLSNET-52026|Supporta la copia della sequenza temporale|
 |CELLSNET-52022|Distinguere o distinguere tra la formula di matrice legacy CSE e la normale formula di matrice|
-|CELLSNET-52156|Disabilita le celle di tabella unite durante il salvataggio di XLSX in HTML|
+|CELLSNET-52156|Disattiva celle di tabella unite durante il salvataggio da XLSX a HTML|
 |CELLSNET-52159|Supporto per analizzare la proprietà compressa durante la conversione di HTML in Excel|
-|CELLSNET-51939|Da XLSX a PDF: disallineamento dei contenuti|
+|CELLSNET-51939|Da XLSX a PDF: disallineamento del contenuto|
 |CELLSNET-51940|Da XLS a PDF: disallineamento del contenuto nelle celle|
 |CELLSNET-52068|Da XLSX a PDF: forme mancanti/compressione del layout|
 |CELLSNET-52092|La stampa e la spaziatura dei caratteri nelle figure di Excel è tagliata|
-|CELLSNET-52186|Le forme/caselle sono vuote durante la conversione di documenti XLSX in PDF|
-|CELLSNET-52225|Caratteri da XLSX a PDF nelle caselle di testo invertiti|
+|CELLSNET-52186|Le forme/caselle sono vuote durante la conversione del documento XLSX in PDF|
+|CELLSNET-52225|Da XLSX a PDF Caratteri nelle caselle di testo invertiti|
 |CELLSNET-52086|Connessioni esterne danneggiate nel file generato|
 |CELLSNET-52133|Le formule di Excel sono racchiuse tra parentesi graffe nel file xlsb risalvato|
 |CELLSNET-52158|Rilevamento errato del riferimento circolare|
@@ -44,5 +44,5 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Python via .NET 
 |CELLSNET-52181|Da XLSX a HTML: l'intervallo Cells non viene esportato correttamente|
 |CELLSNET-52214|Il contenuto dell'ultima riga viene troncato nel file Excel di output|
 |CELLSNET-52236| Il marcatore intelligente (gruppo: unisci) non funziona per le celle unite|
-|CELLSNET-52241|Le caselle (forme) nel documento non vengono visualizzate nel PDF di output|
+|CELLSNET-52241|Le caselle (forme) nel documento non vengono visualizzate nell'output PDF|
 |CELLSNET-52243|La modifica del progetto VBA genererà un errore quando la cartella di lavoro viene salvata|

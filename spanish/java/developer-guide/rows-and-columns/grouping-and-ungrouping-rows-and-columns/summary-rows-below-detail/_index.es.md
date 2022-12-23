@@ -10,7 +10,7 @@ Este artículo explicará cómo aplicar el subtotal a los datos y cómo cambiar 
 
  Puede aplicar Subtotal a los datos usando[**Hoja de trabajo.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) método. Toma los siguientes parámetros.
 
-- **área de celda** - El rango para aplicar el subtotal en
+- **área de celda** El rango para aplicar el subtotal en
 - **Agrupar por** - El campo por el que agrupar, como un desplazamiento de entero basado en cero
 - **Función** - La función de subtotal.
 - **ListaTotal** - Una matriz de compensaciones de campo de base cero, que indica los campos a los que se agregan los subtotales.

@@ -15,9 +15,9 @@ Dessa är båda booleska värden. Du kan se dem i Microsoft Excel via Data > Ans
 
 {{% /alert %}} 
 ## **Läsa och skriva frågetabell med arbetsblad**
- Följande exempelkod läser den första[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)av det första kalkylbladet och skriver sedan ut båda[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) egenskaper. Sedan ställer den in[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) till**Sann**.
+ Följande exempelkod läser den första[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) av det första kalkylbladet och skriver sedan ut båda[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) egenskaper. Sedan ställer den in[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) till**Sann**.
 
-Följande skärmdump visar[källkod excel-fil](5472578.xlsx) används i koden och dess egenskaper som visar båda[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)värden.
+Följande skärmdump visar[source excel-fil](5472578.xlsx) används i koden och dess egenskaper som visar båda[Frågetabell](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)värden.
 
 ![todo:image_alt_text](reading-and-writing-query-table-of-worksheet_1.png)
 

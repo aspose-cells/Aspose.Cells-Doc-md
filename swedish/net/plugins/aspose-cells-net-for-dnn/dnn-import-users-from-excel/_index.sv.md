@@ -36,7 +36,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 1. Logga in på din webbplats som antingen värd eller ett annat konto på superanvändarnivå.
 1.  Navigera till**Värd** menyn och välj**Tillägg**.
 1.  Klick**Installera tilläggsguiden**.
-1. Bläddra enligt anvisningarna till platsen för den nedladdade zip-filen, välj den och klicka sedan**Öppna**.
+1. Bläddra enligt anvisningarna till platsen för den nedladdade zip-filen, välj den och klicka sedan**Öppen**.
 1.  Klick**Nästa** , acceptera licensen, fortsätt genom installationen. När du är klar klickar du på**Lämna tillbaka** knapp.
 
  Vänligen kontrollera[denna modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) från DNN för mer information.

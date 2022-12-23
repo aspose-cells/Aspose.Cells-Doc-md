@@ -9,6 +9,6 @@ url: /ru/java/specifying-sort-warning-while-sorting-data/
 
 ![дело:изображение_альтернативный_текст](specifying-sort-warning-while-sorting-data_1.png)
 ## **Образец кода**
- Следующий пример кода иллюстрирует использование[DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber)собственности, как было объяснено ранее. Пожалуйста, проверьте его[образец файла Excel](43352077.xlsx) а также[выходной файл Excel](43352078.xlsx) для получения дополнительной помощи.
+ Следующий пример кода иллюстрирует использование[DataSorter.SortAsNumber](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortAsNumber)собственности, как было объяснено ранее. Пожалуйста, проверьте его[образец файла Excel](43352077.xlsx) и[выходной файл Excel](43352078.xlsx) для получения дополнительной помощи.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingSortWarningWhileSortingData.java" >}}

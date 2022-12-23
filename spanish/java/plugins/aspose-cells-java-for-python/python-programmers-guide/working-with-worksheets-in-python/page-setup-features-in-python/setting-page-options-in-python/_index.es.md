@@ -6,7 +6,7 @@ url: /es/java/setting-page-options-in-python/
 ---
 ## **Aspose.Cells - Configuración de opciones de página**
 ### **Orientación de la página**
- Para aplicar la configuración de orientación de la página usando**Aspose.Cells Java para rubí** , llamar**orientación de la página** método de**configuración de página** módulo.
+ Para aplicar la configuración de orientación de la página usando**Aspose.Cells Java para rubí** , llamada**orientación de la página** método de**configuración de página** módulo.
 
 **Código Python**
 
@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Factor de escala**
- Para aplicar la escala usando**Aspose.Cells Java for Python** , llamar**escalada** método de**configuración de página** módulo.
+ Para aplicar la escala usando**Aspose.Cells Java for Python** , llamada**escalada** método de**configuración de página** módulo.
 
 **Código Python**
 

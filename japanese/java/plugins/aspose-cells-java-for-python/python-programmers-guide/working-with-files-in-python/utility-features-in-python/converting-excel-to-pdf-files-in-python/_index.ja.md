@@ -1,5 +1,5 @@
 ﻿---
-title: Python で Excel を PDF ファイルに変換する
+title: Python の Excel を PDF ファイルに変換する
 type: docs
 weight: 20
 url: /ja/java/converting-excel-to-pdf-files-in-python/

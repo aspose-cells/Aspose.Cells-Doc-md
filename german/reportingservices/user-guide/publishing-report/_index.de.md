@@ -23,7 +23,7 @@ Führen Sie die folgenden Schritte aus, um einen Bericht auf dem Berichtsserver 
 
 
 
-1.  Geben Sie im Dialogfeld die URL des Berichtsservers ein und klicken Sie auf die**Aktualisierung** Taste.
+1.  Geben Sie im Dialogfeld die URL des Berichtsservers ein und klicken Sie auf die**Aktualisierung** Knopf.
 
 ![todo: Bild_alt_Text](publishing-report_3.png)
 
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um einen Bericht auf dem Berichtsserver 
 
 Das Dialogfeld DataSource Setup wird angezeigt.
 
-1.  Geben Sie im Dialogfeld die Datenquelleninformationen ein. Klicken**Auswählen** um die freigegebenen Datenquellen auszuwählen. (Wenn Sie sie benötigen, sollten die gemeinsam genutzten Datenquellen die Hauptdatenquelle des Berichts sein). Drücke den**OK** Taste, um die Arbeit abzuschließen.
+1.  Geben Sie im Dialogfeld die Datenquelleninformationen ein. Klicken**Wählen** um die freigegebenen Datenquellen auszuwählen. (Wenn Sie sie benötigen, sollten die gemeinsam genutzten Datenquellen die Hauptdatenquelle des Berichts sein). Drücke den**OK** Taste, um die Arbeit abzuschließen.
 
 ![todo: Bild_alt_Text](publishing-report_5.png)
 

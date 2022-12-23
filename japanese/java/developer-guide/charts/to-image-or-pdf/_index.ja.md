@@ -7,13 +7,13 @@ url: /ja/java/chart-rendering/
 ---
 ## **チャートの作成**
 
-Aspose.Cells API は、トピックで詳述されているように、Excel チャートの真正性を作成することをサポートします[Excel チャートの作成とカスタマイズ](/cells/ja/java/creating-and-customizing-charts/)Aspose.Cells API を使用してチャートを画像および PDF 形式でレンダリングする方法を示すために、次のスニペットに従って列タイプのチャートを作成します。
+Aspose.Cells API は、トピックで詳述されているように、Excel チャートの真正性を作成することをサポートします[Excel チャートの作成とカスタマイズ](/cells/ja/java/creating-and-customizing-charts/)Aspose.Cells API を使用して画像と PDF 形式でグラフをレンダリングする方法を示すために、次のスニペットに従って列タイプのグラフを作成します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **チャートのレンダリング**
 
- Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel チャートを画像や PDF 形式に変換することをサポートしています。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)クラスが暴露した[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**PDFへ**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)アプリケーションの要件に最適なオーバーロードの真正性を備えたメソッド。
+ Aspose.Cells API は、Excel チャートを画像や PDF 形式に変換することをサポートしており、追加のツールやアプリケーションは必要ありません。レンダリングのサポートを提供するために、[**チャート**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)クラスが暴露した[**toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**PDFへ**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)アプリケーションの要件に最適なオーバーロードの真正性を備えたメソッド。
 
 ### **グラフを画像にレンダリングする**
 
@@ -25,9 +25,9 @@ Aspose.Cells API は、トピックで詳述されているように、Excel チ
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **グラフを PDF にレンダリング**
+### **PDF へのレンダリング チャート**
 
-グラフを PDF 形式にレンダリングするために、Aspose.Cells API は[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) メソッドを使用して、結果の PDF をディスク パスまたは OutputStream のインスタンスに保存できます。
+グラフを PDF 形式でレンダリングするために、Aspose.Cells API は[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) メソッドを使用して、結果の PDF をディスク パスまたは OutputStream のインスタンスに格納できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -128,5 +128,5 @@ Aspose.Cells API は、トピックで詳述されているように、Excel チ
 
 ## **先行トピック**
 - [チャートを SVG 形式の画像に変換する](/cells/ja/java/converting-chart-to-image-in-svg-format/)
-- [目的のページ サイズでチャート PDF を作成する](/cells/ja/java/create-chart-pdf-with-desired-page-size/)
-- [viewBox 属性を使用してチャートを SVG にエクスポート](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)
+- [目的のページ サイズでグラフ PDF を作成する](/cells/ja/java/create-chart-pdf-with-desired-page-size/)
+- [viewBox属性を使用してグラフをSVGにエクスポートします](/cells/ja/java/export-chart-to-svg-with-viewbox-attribute/)

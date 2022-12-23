@@ -13,21 +13,21 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-12-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43645|Dikdörtgenin "3-D-format" özelliği doğru şekilde oluşturulmadı|
-|CELLSJAVA-44936|Grafik görüntüsü (PNG) DPI ayarlarını belirleyin|
+|CELLSJAVA-44936|Tablo görüntüsü (PNG) DPI ayarlarını ayarla|
 |CELLSJAVA-44937|Grafik görüntüsü (JPG) DPI ayarlarını belirleyin|
-|CELLSJAVA-44998|Satır içi stilin HTML'de başarısız olmasına neden olan çift alıntı|
+|CELLSJAVA-44998|Satır içi stiline neden olan çift alıntı HTML'de başarısız oldu|
 |CELLSJAVA-44970|Gölge efektini optimize edin|
 |CELLSJAVA-44967|v22.6.0 ve sonraki sürümlerde farklı değer döndüren getDataLabels().getText() grafiği|
-|CELLSJAVA-44969|Excel'i HTML'ye dönüştürün, veri etiketleri hataları gösteriyor|
+|CELLSJAVA-44969|Excel'i HTML'e dönüştürün, veri etiketleri hataları gösteriyor|
 |CELLSJAVA-44949|PowerPoint slayda Excel aralığını farklı formatta resim olarak eklerken şeffaflık değişti|
-|CELLSJAVA-44985|Excel'den HTML'ye dönüştürme - grafik açıklaması görünmüyor ve çizim alanı kesiliyor|
+|CELLSJAVA-44985|Excel'den HTML'e dönüştürme - grafik açıklaması görünmüyor ve çizim alanı kesiliyor|
 |CELLSJAVA-44952|Genişliğe ilişkin DataBar.toImage yöntemiyle ilgili sorun|
-|CELLSJAVA-44986|Görüntüler Div'deyken içe aktarılan resimler bir satırda hizalanmıyor|
+|CELLSJAVA-44986| Görüntüler Div'deyken içe aktarılan resimler bir satırda hizalanmıyor|
 |CELLSJAVA-44987|Html yüklenirken bazı resimler başkaları tarafından kapsanıyor|
 |CELLSJAVA-44988|Html yüklenirken metin döndürülmez|
 |CELLSJAVA-44989|Html yüklenirken div'deki yazı tipi ayarları kayboluyor|
-|CELLSJAVA-44997|HTML'den Excel'e dönüştürmede kaybolan veriler ve biçimlendirmeler|
-|CELLSJAVA-44999| Aspose.Cells Özel GlobalizationSettings, pivot tablonun çoğu için çalışmıyor|
+|CELLSJAVA-44997|HTML'de Excel'e dönüştürme işleminde kaybolan veriler ve biçimlendirmeler|
+|CELLSJAVA-44999|Aspose.Cells Özel GlobalizationSettings, pivot tablonun çoğu için çalışmıyor|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

@@ -15,23 +15,23 @@ Bu makalede, Apache Tomcat Sunucusunda GridWeb Java Demoları için Aspose.Cells
 ### **GridWeb Java Demolarını Çalıştırmak İçin Adım Adım Kılavuz**
 1.  Çıkarmak**apache-tomcat-7.0.52.zip** herhangi bir dizinde, örneğin C:\Tomcat
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_1.png)
 
 
 
  Aşağıdaki anlık görüntü, Apache Tomcat sunucusunun çıkarılan dizinlerini ve dosyalarını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_2.png)
 
 
 
  Ortam değişkenini de ayarlamanız gerekebilir.**CATALINA_HOME** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_3.png)
 
 1. Aç**erkek kedi kullanıcıları.xml** dosya.
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_4.png)
 
 1. Bu kullanıcıyı ekle:
 
@@ -47,71 +47,71 @@ Bu makalede, Apache Tomcat Sunucusunda GridWeb Java Demoları için Aspose.Cells
 
 **Burada kullanıcı adı tomcat ve şifre gizlidir.** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_5.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_5.png)
 
 1.  çalıştır**başlangıç.bat** dosya.
  Apache Tomcat Sunucusunu çalıştıracaktır.
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_6.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_6.png)
 
 
 
 **Bir komut penceresinde çalışan Tomcat sunucusu** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_7.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_7.png)
 
 1.  Şimdi tarayıcıyı açın ve yazın**yerel ana bilgisayar: 8080**.
  Apache Tomcat web sayfası görüntülenir.
 
    **Apache Tomcat web sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_8.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_8.png)
 
 1.  Tıklamak**Yönetici Uygulaması** ve kullanıcı adı ve şifreyi yazın. (Yukarıdaki gibi: erkek kedi, gizli)
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_9.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_9.png)
 
 1.  bölüme ilerleyin**Dağıtılacak WAR dosyası** ve göz atın**gridwebdemo.savaş** dosya.
 1.  Tıklamak**Dağıtmak**. 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_10.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_10.png)
 
 1.  Araştır**gridwebdemo.savaş** dosya.
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_11.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_11.png)
 
 1.  Tıklamak**Dağıtmak**. 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_12.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_12.png)
 
 1.  Dağıtıldıktan sonra, tıklayın**/gridweb demosu** ve demoları çalıştırmaya başlayın.
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_13.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_13.png)
 
 
  GridWeb Demo sayfası görüntülenir.
 
 **GridWeb Demo sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_14.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_14.png)
 
 1.  Herhangi bir demoya tıklayın ve çalıştırın.
 
    **İçerik oluşturma demosu çalışıyor** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_15.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_15.png)
 
 
 
 **Çalışma sayfaları demosu çalışıyor** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_16.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_16.png)
 
 
 
 **HeaderBar ve CommandButton demosu çalışıyor** 
 
-![yapılacaklar:resim_alternatif_Metin](introduction-of-gridweb_17.png)
+![yapılacaklar:resim_alternatif_metin](introduction-of-gridweb_17.png)
 ## **Aspose.Cells.GridWeb - Demolar**
 {{% alert color="primary" %}} 
 

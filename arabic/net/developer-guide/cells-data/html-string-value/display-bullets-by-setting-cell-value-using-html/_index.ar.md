@@ -8,13 +8,13 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 ---
 {{% alert color="primary" %}}
 
- يدعم Aspose.Cells إظهار الرموز النقطية مع كود HTML. تشرح هذه المقالة كيفية عرض الرموز النقطية عن طريق تعيين قيمة الخلية باستخدام HTML. سوف نستخدم[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) لتعيين قيمة الخلية باستخدام HTML الخاص بنا.
+يدعم Aspose.Cells إظهار الرموز النقطية برمز HTML. تشرح هذه المقالة كيفية عرض الرموز النقطية عن طريق تعيين قيمة الخلية باستخدام HTML. سوف نستخدمها[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) خاصية لتعيين قيمة الخلية باستخدام HTML الخاص بنا.
 
 {{% /alert %}}
 
-## كود C# لعرض الرموز النقطية بتحديد قيمة Cell باستخدام HTML
+## C# كود لعرض التعداد النقطي عن طريق ضبط قيمة Cell باستخدام HTML
 
-تستخدم التعليمات البرمجية التالية رمز HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الرمز ، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
+يستخدم الكود التالي رمز HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الرمز ، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-DisplayBulletsInCellUsingHtml-DisplayBulletsInCellUsingHtml.cs" >}}
 

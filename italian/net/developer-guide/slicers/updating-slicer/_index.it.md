@@ -14,6 +14,6 @@ Se desideri aggiornare l'affettatrice in Microsoft Excel, seleziona o deselezion
 
 ![cose da fare:immagine_alt_testo](updating-slicer_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-UpdatingSlicer.cs" >}}

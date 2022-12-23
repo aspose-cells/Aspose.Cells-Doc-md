@@ -23,13 +23,13 @@ Diğer İyileştirmeler ve Değişiklikler
 
 Yeni özellikler
 
-(CELLSJAVA-41144) - HTML'yi kaydederken Stili StyleCollection'dan silme yeteneği
+(CELLSJAVA-41144) - HTML kaydedilirken Stili StyleCollection'dan silme yeteneği
 (CELLSJAVA-41127) - Tam Çalışma Kitabı için Özel Ayırıcılar belirtin
 (CELLSJAVA-41143) - Aspose.Cells ile yazdırırken iş/belge adını belirtin
 
 Geliştirmeler
 
-(CELLSJAVA-41145) - Elektronik Tabloları HTML'ye aktarırken Akıllı CSS Üretimi
+(CELLSJAVA-41145) - Elektronik Tabloları HTML'e dışa aktarırken Akıllı CSS Üretimi
 (CELLSJAVA-41177) - Cell.setHtmlString " kullanırken çalışmıyor<s><span style="color:#ff00ff;">Ö2</span></s>"
 (CELLSJAVA-41162) - Yazı tipi arama listesine Mac ve Linux için varsayılan yazı tipi dizinlerini ekleyin
 
@@ -39,23 +39,23 @@ Verim
 
 Hatalar
 
-(CELLSJAVA-41165) - PivotChart, kaynak verileri güncelledikten ve e-tabloyu PDF'ye dönüştürdükten sonra yenilenmiyor
-(CELLSJAVA-41156) - Chart.refreshPivotData, elektronik tabloyu PDF'ye dönüştürürken grafik eksenindeki tarihlerin sayılara dönüşmesine neden olur
-(CELLSJAVA-41154) - Aralığı PasteType.ALL ile yapıştırırken HTML çıktısında fazladan satır görünüyor
+(CELLSJAVA-41165) - PivotChart, kaynak verileri güncelleştirdikten ve e-tabloyu PDF olarak oluşturduktan sonra yenilenmiyor
+(CELLSJAVA-41156) - Chart.refreshPivotData, elektronik tabloyu PDF'e dönüştürürken grafik eksenindeki tarihlerin sayılara dönüşmesine neden olur
+(CELLSJAVA-41154) - PasteType.ALL ile aralığı yapıştırırken HTML çıktısında fazladan satır görünüyor
 (CELLSJAVA-41151) - Alınan Row aralığına karşılık gelen kod satırını kullanırken ve kullanmadan çıktı PivotTable raporundaki biçimlendirmeyle ilgili garip davranış
-(CELLSJAVA-41150) - HTML dosya biçimine dönüştürülürken Numbers biçimiyle ilgili olarak FormatCondition desteklenmiyor
-(CELLSJAVA-41146) - Elektronik tabloyu HTML'ye dönüştürürken kenarlığın yanlış oluşturulması
+(CELLSJAVA-41150) - HTML dosya biçimine dönüştürülürken Numbers biçimine ilişkin FormatCondition desteklenmiyor
+(CELLSJAVA-41146) - Elektronik tablo HTML'e dönüştürülürken kenarlığın yanlış oluşturulması
 (CELLSJAVA-41134) - XLSB2007TestNewS.xlsb yüklenmiyor ve bellek tüketimini artırmaya devam ediyor
-(CELLSJAVA-41129) - Çıktı HTML'si Chrome'da görüntülendiğinde fazladan satırlar gösteriliyor
-(CELLSJAVA-41122) - Finansal Açma ve Kaydetme_Beyan_Giriş_Bildiri_Withdata.xlsb onu bozuk yapar
-(CELLSJAVA-41098) - Pivot tabloyu yenile, PDF'ye dönüştürürken Pivot Tablo biçimlendirmesini kaldırır
-(CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE, XLS'nin bozulmasına neden olur
-(CELLSJAVA-41149) - Elektronik tablo PDF'ye dönüştürüldüğünde Zamanın yanlış oluşturulması
+(CELLSJAVA-41129) - Chrome'da HTML çıktısı görüntülendiğinde fazladan satırlar gösteriliyor
+(CELLSJAVA-41122) - Finansal Açma ve Kaydetme_İfade_Giriş_Bildiri_Withdata.xlsb onu bozuk yapar
+(CELLSJAVA-41098) - Pivot tabloyu yenile, PDF'e dönüştürülürken Pivot Tablo biçimlendirmesini kaldırır
+(CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE, XLS'in bozulmasına neden olur
+(CELLSJAVA-41149) - Elektronik tablo PDF'e dönüştürüldüğünde Zamanın yanlış oluşturulması
 (CELLSJAVA-41148) - Excel okunamayan içerik buldu... çalışma kitabını açarken ve kaydederken hata oluştu
 (CELLSJAVA-41141) - Cell, ListObject.putCellValue() yöntemiyle ayarlanmadı
 (CELLSJAVA-41140) - Tabloyu genişletmek, formülü yeni satırlara kopyalamaz
-(CELLSJAVA-41166) - XPS Viewer, Aspose.Cells tarafından oluşturulan XPS'i açamıyor
-(CELLSJAVA-41163) - SVG dışa aktarımı geçersiz dosya oluşturuyor
+(CELLSJAVA-41166) - XPS Görüntüleyici açılamıyor Aspose.Cells oluşturuldu XPS
+(CELLSJAVA-41163) - SVG dışa aktarma geçersiz dosya oluşturuyor
 (CELLSJAVA-41153) - Shape.toImage, Chart dışındaki şekiller için görüntüyü SVG yerine BMP biçiminde depolar
 (CELLSJAVA-41137) - Veri etiketlerinin hücre aralığı değerlerini ayarlamayla ilgili sorun
 (CELLSJAVA-41128) - XLSX dosyası yeniden kaydedilirken grafikler iyi işlenmiyor
@@ -68,7 +68,7 @@ Hatalar
 İstisnalar
 
 (CELLSJAVA-41164) - java.lang.NullPointerException at Cells.find
-(CELLSJAVA-41131) - PDF'ye kaydet takılıyor ve kaynak XLSB dosyasında bellek sorunu var
+(CELLSJAVA-41131) - PDF'e kaydet takılıyor ve kaynak XLSB dosyasında bellek sorunu var
 
 Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler
 
@@ -77,7 +77,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
  WorkbookSettings.NumberDecimalSeparator, NumberGroupSeparator özelliklerini ekler
  Sayısal değerleri biçimlendirmek/ayrıştırmak için kullanılan ayırıcıları alır/ayarlar.
 
- WorkbookSettings.CheckWriteProtectedPassword() yöntemini ekler
+WorkbookSettings.CheckWriteProtectedPassword() yöntemini ekler
  Parolanın doğru yazma korumalı parola olup olmadığını kontrol eder.
 
  Picture.SignatureLine özelliğini ve SignatureLine sınıfını ekler.
@@ -116,7 +116,7 @@ Kaydedilecek sayfa sayısını alır veya ayarlar.
  SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemini ekler
 Çalışma sayfasını Yazıcıya işler.
 
-WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemini ekler
+ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemini ekler
 Çalışma kitabını Yazıcıya işler.
 
  PdfSaveOptions.IsFontSubstitutionCharGranularity özelliklerini ekler
@@ -137,7 +137,7 @@ Kullanıcılar çalışma kitabı için StyleCollection.Add() yerine stil oluşt
  Eski PivotItem.Move(int count) yöntemi.
 Bunun yerine PivotItem.Move(int count, bool isSameParent) yöntemini kullanma.
 
-Çalışma Kitabının tüm kullanılmayan Open() ve Save() yöntemlerini siler.
+ Çalışma Kitabının tüm kullanılmayan Open() ve Save() yöntemlerini siler.
 
  Eski Workbook.SetOleSize() yöntemini siler.
 
@@ -147,7 +147,7 @@ Bunun yerine PivotItem.Move(int count, bool isSameParent) yöntemini kullanma.
 
  WorkbookDesigner'ın kullanılmayan Open() ve Save() yöntemlerini siler.
 
- WorkbookSettings'in eskimiş ReCalcOnOpen,Language,Encoding ve ConvertNumericData özelliklerini siler.
+WorkbookSettings'in eskimiş ReCalcOnOpen,Language,Encoding ve ConvertNumericData özelliklerini siler.
 
  WorksheetCollection'ın kullanılmayan HidePivotFieldList,EnableHTTPCompression,IsMinimized,IsHidden,SheetTabBarWidth özelliklerini siler.
 
@@ -157,7 +157,7 @@ Bunun yerine PivotItem.Move(int count, bool isSameParent) yöntemini kullanma.
 
  Çalışma Sayfasının eskimiş HPageBreaks ve VPageBreaks öğelerini siler.
 
-HtmlSaveOptions'ın kullanılmayan DisplayHTMLCrossString ve ExportChartImageFormat öğelerini siler.
+ HtmlSaveOptions'ın kullanılmayan DisplayHTMLCrossString ve ExportChartImageFormat öğelerini siler.
 
  SaveOptions'ın kullanılmayan ExpCellNameToXLSX özelliğini siler.
 

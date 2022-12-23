@@ -9,7 +9,7 @@ url: /fr/net/access-worksheets/
 Cette rubrique traite de l'accès aux feuilles de calcul dans le contrôle Aspose.Cells.GridWeb. Nous les appellerons "feuilles de calcul Web" car elles appartiennent à Aspose.Cells.GridWeb et sont utilisées dans les applications Web.
 
 {{% /alert %}} 
-## **Accéder à une feuille de travail**
+## **Accéder à une feuille de calcul**
 Toutes les feuilles de calcul contenues dans Aspose.Cells.GridWeb sont stockées dans GridWorksheetCollection du contrôle GridWeb. Il existe deux façons d'accéder à une feuille de calcul : par son index de feuille ou par son nom de feuille.
 ### **Utilisation de l'index des feuilles**
 L'extrait de code ci-dessous montre comment accéder à une feuille de calcul Web spécifique à partir de GridWorksheetCollection du contrôle GridWeb à l'aide de l'index de feuille.

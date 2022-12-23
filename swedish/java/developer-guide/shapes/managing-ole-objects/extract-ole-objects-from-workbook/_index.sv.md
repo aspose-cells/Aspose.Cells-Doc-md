@@ -19,7 +19,7 @@ Ibland behöver du extrahera OLE-objekt från en arbetsbok. Aspose.Cells stöder
 
 ### **Extrahera OLE-objekt**
 
-Koden nedan gör själva arbetet med att hitta och extrahera OLE-objekt som DOCX, XLSX, PPTX och PDF-filer.
+Koden nedan utför själva arbetet med att hitta och extrahera OLE-objekt som DOCX, XLSX, PPTX och PDF filer.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 

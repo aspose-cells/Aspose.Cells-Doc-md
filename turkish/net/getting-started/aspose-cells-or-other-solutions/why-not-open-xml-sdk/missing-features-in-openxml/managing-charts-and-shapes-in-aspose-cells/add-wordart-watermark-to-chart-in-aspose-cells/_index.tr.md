@@ -14,11 +14,11 @@ Aşağıdaki örnek, mevcut bir grafiğin çizim alanı için bir WordArt şekli
 
 **giriş dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 **çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](picture2.png)
+![yapılacaklar:resim_alternatif_metin](picture2.png)
 
 **C#**
 

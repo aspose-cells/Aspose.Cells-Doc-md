@@ -13,7 +13,7 @@ url: /tr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Konsol Çıkışı**
- Lütfen yukarıdaki örnek kodun aşağıdaki kodla yürütülmesinden sonra oluşturulan aşağıdaki konsol çıktısına bakın:[örnek excel dosyası](5473373.xlsx) . Eğer[İkincil Arsa İçinde](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) dır-dir**yanlış** , veri noktası Pastanın içindeyse veya**doğru**, ardından veri noktası Çubuğun içindedir.
+ Lütfen yukarıdaki örnek kodun aşağıdaki kodla yürütülmesinden sonra oluşturulan aşağıdaki konsol çıktısına bakın:[örnek excel dosyası](5473373.xlsx) . Eğer[İkincil Arsa İçinde](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) dır-dir**YANLIŞ** , veri noktası Pastanın içindeyse veya**doğru**, ardından veri noktası Çubuğun içindedir.
 
 {{< highlight "java" >}}
 

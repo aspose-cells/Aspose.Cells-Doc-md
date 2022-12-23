@@ -6,7 +6,7 @@ url: /it/java/opening-files-in-ruby/
 ---
 ## **Aspose.Cells - Semplici modi per aprire file Excel**
 ### **Apertura attraverso il percorso**
-Basta aprire un file Microsoft Excel facendo riferimento al percorso del file
+Basta aprire un file Excel Microsoft facendo riferimento al percorso del file
 
 **Codice Rubino**
 
@@ -18,7 +18,7 @@ workbook = Rjb::import('com.aspose.cells.Workbook').new(data_dir + 'Book1.xls')
 
 {{< /highlight >}}
 ### **Apertura tramite Stream**
-volte, il file Excel che desideri aprire viene archiviato come flusso. In tal caso, utilizzare una versione di overload del metodo Open che accetta l'oggetto Stream che contiene il file Excel per aprire il file.
+A volte, il file Excel che desideri aprire viene archiviato come flusso. In tal caso, utilizzare una versione di overload del metodo Open che accetta l'oggetto Stream che contiene il file Excel per aprire il file.
 
 **Codice Rubino**
 

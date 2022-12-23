@@ -26,7 +26,7 @@ url: /es/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · Corrige errores de lectura/guardado de archivos de Excel 97-2003.
 
- · Se realizan mejoras para las funciones Gráfico a imagen, Hoja a imagen y Excel a PDF.
+ · Se han mejorado las características Gráfico a imagen, Hoja a imagen y Excel a PDF.
 
  · Se realizan mejoras para analizar fórmulas.
 

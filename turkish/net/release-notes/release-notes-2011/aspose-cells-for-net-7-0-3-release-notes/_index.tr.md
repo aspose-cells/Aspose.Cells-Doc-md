@@ -20,7 +20,7 @@ Aspose.Cells
 
  30020 Desteği Cell Degrade Renk, PDF belgesine dönüştürülürken düzgün ayarlanmamış
 
-40010 Grafiğin Eksenini biçimlendirirken Çok Düzeyli Kategori Etiketlerinin işaretini kaldırın
+ 40010 Grafiğin Eksenini biçimlendirirken Çok Düzeyli Kategori Etiketlerinin işaretini kaldırın
 
  Geliştirmeler
 
@@ -44,15 +44,15 @@ Aspose.Cells
 
  40047 Belirli bir çalışma sayfası, bir çalışma sayfasıyla başka bir çalışma kitabına kopyalanamıyor
 
- 40060 Excel çalışma kitabını XPS'ye dönüştürürken Geçersiz Fırça Türü
+ 40060 Excel çalışma kitabını XPS'e dönüştürürken Geçersiz Fırça Türü
 
- WorksheetCollection.GetNamedRanges() yöntemini çağırırken 40061 StackOverflow
+WorksheetCollection.GetNamedRanges() yöntemini çağırırken 40061 StackOverflow
 
  Verim
 
- 31266 XLS'den PDF veya XPS'ye geçiş çok zaman alıyor
+ 31266 XLS ila PDF veya XPS çok zaman alıyor
 
- 40053 Excel'den PDF'e Performans, çalışma sayfası sayısı arttıkça düşüyor
+ 40053 Excel-to- PDF Çalışma sayfası sayısı arttıkça performans düşüyor
 
  Hatalar
 
@@ -60,11 +60,11 @@ Aspose.Cells
 
  30224 Grafik görüntüleri Excel'in grafikleriyle eşleşmiyor
 
-30651 Cell.SetStyle(Stil stili, bool açıkFlag) beklendiği gibi çalışmıyor
+ 30651 Cell.SetStyle(Stil stili, bool açıkFlag) beklendiği gibi çalışmıyor
 
  31334 BuiltInDocumentProperties.HyperlinkBase okunamıyor veya ayarlanamıyor
 
- 40009 XLSM dosyası açma sorunu
+ 40009 Açılış XLSM dosya sorunu
 
  40012 Stil, çalışma kitabı işlemine kopya sayfasını birleştirdikten veya ekledikten sonra değişti
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 Dizi formülü referansları, bir satır veya sütun silindiğinde güncellenmiyor
 
- 40065 Negatif bigInt sorunu
+40065 Negatif bigInt sorunu
 
  40073 Aspose.Cells Akıllı İşaretleyiciler parametre sorunu
 
@@ -88,7 +88,7 @@ Aspose.Cells
 
  40075 Pivot tablo yenilenirken sorunlar bulundu
 
- 40076 XLSM dosyası kaydedilirken hata oluştu
+ 40076 XLSM dosyasını kaydederken hata oluştu
 
  40079 Excel'in varsayılan koşullu biçimlendirmesinin kullanımı çalışmıyor
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Yeni özellikler
 
-29869 Destek Koşullu biçimlendirme (yalnızca Excel 2003 stilleri desteklenmektedir (şu anda))
+ 29869 Destek Koşullu biçimlendirme (yalnızca Excel 2003 stilleri desteklenmektedir (şu anda))
 
  Hatalar
 

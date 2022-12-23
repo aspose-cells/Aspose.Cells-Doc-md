@@ -18,7 +18,7 @@ Cette page décrit les nouvelles fonctionnalités Aspose.Cells for Reporting Ser
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* Prise en charge du rendu du format XLTX.
+* Prise en charge du rendu au format XLTX.
 
 ## Aspose.Cells for Reporting Services  22.7
 

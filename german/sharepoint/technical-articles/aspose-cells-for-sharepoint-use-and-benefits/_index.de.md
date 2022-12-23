@@ -19,7 +19,7 @@ Die Inhalte auf SharePoint-Websites liegen in Form von Dokumenten vor, die an ei
 **Eine Dokumentenbibliothek** 
 
 
-### **Vorteile**
+### **Leistungen**
 Die folgende Liste zeigt einige Vorteile der Verwendung von Aspose.Cells for SharePoint:
 
 - Der SharePoint-Site-Server verfügt nicht über eine integrierte Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem Server. Aspose.Cells for SharePoint fügt diese Funktion dem SharePoint-Site-Server hinzu.
@@ -42,7 +42,7 @@ Führen Sie die folgenden Schritte aus, um ein Microsoft-Excel-Dokument aus Ihre
 
 
 1. Wählen Sie das Ausgabeformat.
-Hier können Sie auch den Namen der Ausgabedatei und den Zielordner ändern.
+ Hier können Sie auch den Namen der Ausgabedatei und den Zielordner ändern.
 1.  Klicken**Konvertieren**. 
 
    **Auswahl des Ausgabeformats** 
@@ -66,6 +66,6 @@ Hier können Sie auch den Namen der Ausgabedatei und den Zielordner ändern.
 
 Die Installation und Verwendung von Aspose.Cells for SharePoint ist einfach. Es fügt nicht nur eine Funktion zum Konvertieren von Microsoft Excel-Dateien direkt auf dem SharePoint-Server hinzu, sondern beseitigt auch die Notwendigkeit, Microsoft Excel auf den Client-Computern zu installieren. Darüber hinaus können Entwickler die öffentliche API von Aspose.Cells for SharePoint verwenden, um ihre eigenen SharePoint-Lösungen zu entwickeln.
 
- Mit anderen Worten, es ist von Vorteil for SharePoint Site-Administratoren, Entwickler und Endbenutzer.
+Mit anderen Worten, es ist von Vorteil for SharePoint Site-Administratoren, Entwickler und Endbenutzer.
 
 {{% /alert %}}

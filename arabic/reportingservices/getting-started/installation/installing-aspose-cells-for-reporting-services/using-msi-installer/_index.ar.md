@@ -36,7 +36,7 @@ url: /ar/reportingservices/using-msi-installer/
 
 
 
-1.  قم بتأكيد رغبتك في تثبيت Aspose.Cells for Reporting Services بالنقر فوق**تثبيت**. 
+1.  قم بتأكيد رغبتك في تثبيت Aspose.Cells for Reporting Services بالنقر فوق**ثَبَّتَ**. 
 
 ![ما يجب القيام به: image_بديل_نص](using-msi-installer_4.png)
 
@@ -49,6 +49,6 @@ url: /ar/reportingservices/using-msi-installer/
 
 
 
-1.  بمجرد اكتمال التثبيت ، انقر فوق**إنهاء** لإغلاق المثبت.
+1.  بمجرد اكتمال التثبيت ، انقر فوق**ينهي** لإغلاق المثبت.
 
 ![ما يجب القيام به: image_بديل_نص](using-msi-installer_6.png)

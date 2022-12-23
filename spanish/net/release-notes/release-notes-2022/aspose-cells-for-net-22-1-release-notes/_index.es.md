@@ -20,8 +20,8 @@ url: /es/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50072|Función no admitida: CONJUNTOCUBO|Mejora|
 |CELLSNET-50017|Cómo agregar una burbuja junto al título del gráfico y el texto del eje del gráfico|Mejora|
 |CELLSNET-50038| Comportamiento diferente sobre el colapso y la expansión de grupos de varios niveles|Mejora|
-|CELLSNET-50041| Los archivos de imagen BMP no se muestran en el encabezado/pie de página|Mejora|
-|CELLSNET-50108|XLS a PDF: la conversión se detiene con memoria insuficiente|Actuación|
+|CELLSNET-50041| BMP los archivos de imagen no se muestran en el encabezado/pie de página|Mejora|
+|CELLSNET-50108|XLS a PDF: la conversión se detiene sin memoria|Rendimiento|
 |CELLSNET-50128|El espacio entre líneas se vuelve más estrecho: conversión de Excel a PDF|Insecto|
 |CELLSNET-50086|Cell los colores desaparecen después de la conversión a PDF|Insecto|
 |CELLSNET-49996|Los valores de texto enriquecido de las celdas pueden perderse con el modo MemoryPreference|Insecto|
@@ -29,7 +29,7 @@ url: /es/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50055|La propiedad de nombre de rango local Texto completo no se escapa si la hoja de trabajo principal tiene un apóstrofo|Insecto|
 |CELLSNET-50154|GridWeb no puede cargar/guardar desde la memoria caché para el archivo .csv|Insecto|
 |CELLSNET-50063|La impresión de un archivo de Excel genera dos páginas en lugar de una página|Insecto|
-|CELLSNET-50094|El contenido de la hoja de trabajo no se representa correctamente en la conversión de Excel a PDF|Insecto|
+|CELLSNET-50094|El contenido de la hoja de trabajo no se representa correctamente en Excel para la conversión PDF|Insecto|
 |CELLSNET-50129|La posición de impresión sube a medida que se sigue la página: conversión de Excel a PDF|Insecto|
 |CELLSNET-50131|Faltan los caracteres: conversión de Excel a PDF|Insecto|
 |CELLSNET-49578| Valor máximo/mínimo incorrecto calculado a partir de gráficos por Aspose.Cells|Insecto|
@@ -42,11 +42,11 @@ url: /es/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50208|Algunos textos se pierden al guardar como Html|Insecto|
 |CELLSNET-50095|Excepción al abrir el archivo XSLB|Excepción|
 |CELLSNET-50096| StackOverflowException al eliminar columnas vacías|Excepción|
-|CELLSNET-50071|Conversión a excepción HTML "Función no admitida: CUBESET"|Excepción|
+|CELLSNET-50071|Conversión a HTML excepción "Función no compatible: CUBESET"|Excepción|
 |CELLSNET-50097|Excepción al abrir el archivo XSLX a través de Aspose.Cells|Excepción|
 |CELLSNET-50133|NullReferenceException al comparar FillFormat|Excepción|
 |CELLSNET-50138|Excepción al abrir un archivo XLSB|Excepción|
-|CELLSNET-50016|Gráfico a valores de eje incorrectos de EMF|Regresión|
+|CELLSNET-50016|Gráfico a EMF valores de eje incorrectos|Regresión|
 |
 
 

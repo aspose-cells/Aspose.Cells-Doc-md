@@ -18,7 +18,7 @@ Bu seçenek, dönüştürme için bir klasör veya birkaç ayrı dosya seçtiği
 
 **Dosyaları birleştirme** 
 
-![yapılacaklar:resim_alternatif_Metin](conversion-options_1.png)
+![yapılacaklar:resim_alternatif_metin](conversion-options_1.png)
 
 
 

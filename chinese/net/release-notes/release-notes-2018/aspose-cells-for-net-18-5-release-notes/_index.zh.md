@@ -15,25 +15,25 @@ url: /zh/net/aspose-cells-for-net-18-5-release-notes/
 |CELLSNET-46095|实现函数 CEILING.PRECISE|新功能|
 |CELLSNET-46023|支持严格的 Open XML 电子表格格式|新功能|
 |CELLSNET-46080|转换为 PDF 时图像的颜色应为黑色|强化|
-|CELLSNET-46087|页面设置 PrintErrorType 在 Excel 到 PDF 渲染中不起作用|强化|
-|CELLSNET-46084|PageSetup.PrintDraft 在保存为 PDF 时不生效|强化|
+|CELLSNET-46087|页面设置 PrintErrorType 在 Excel 中无法正常工作以呈现 PDF|强化|
+|CELLSNET-46084|PageSetup.PrintDraft 保存时不生效 PDF|强化|
 |CELLSNET-46100|将 Excel 文件转换为 PDF 时出现 System.OutOfMemoryException|表现|
 |CELLSNET-46033|名为“缺少项目是”的页面字段在刷新时丢失|漏洞|
 |CELLSNET-46096|使用计算链和定义名称时计算错误|漏洞|
 |CELLSNET-46047|将 Excel 文件导入 GridWeb 时，有几列消失了|漏洞|
 |CELLSNET-46110|“Issue2 wrapping-no 时文本换行不正确_风俗_page_size.xlsx" 转换为 PDF|漏洞|
-|CELLSNET-46109|“Issue2 wrapping.xlsx”转PDF时文字换行不正确|漏洞|
-|CELLSNET-46108|“Issue3 wrapping.xlsx”转PDF时文字换行不正确|漏洞|
-|CELLSNET-46088|页面设置缩放系数会在 PDF 中创建不正确的页数|漏洞|
+|CELLSNET-46109|“Issue2 wrapping.xlsx”转换为PDF时文字换行不正确|漏洞|
+|CELLSNET-46108|“Issue3 wrapping.xlsx”转换为PDF时文字换行不正确|漏洞|
+|CELLSNET-46088|页面设置缩放因子在 PDF 中创建了不正确的页数|漏洞|
 |CELLSNET-46076|将工作簿保存到 MemoryStream 时出现异常|漏洞|
 |CELLSNET-46052|某些单元格周围的某些网格线未正确绘制|漏洞|
-|CELLSNET-46036|图表标题被压扁，字符在 Excel 中一起运行到 PDF 呈现|漏洞|
-|CELLSNET-46082|饼图图例颜色在保存为 PDF 后发生变化并且与饼图切片不匹配|漏洞|
+|CELLSNET-46036|图表标题被压扁，字符在 Excel 中一起运行到 PDF 渲染|漏洞|
+|CELLSNET-46082|饼图图例颜色在保存到 PDF 后发生变化并且与饼图切片不匹配|漏洞|
 |CELLSNET-46104|将 XLSB 保存到 XLSM 会创建损坏的 MS Excel 文件|漏洞|
 |CELLSNET-46098|复制到现有工作簿时命名范围丢失|漏洞|
 |CELLSNET-46077|重新保存 XLSX 文件时，输出文件中嵌入的绘图对象太窄|漏洞|
 |CELLSNET-46068|Aspose.Cells 将 SpreadsheetML 文件另存为 PDF 时返回空白 PDF|漏洞|
-|CELLSNET-46060|将 ODS 转换为 XLSX 文件格式时出现数据丢失|漏洞|
+|CELLSNET-46060|ODS转XLSX文件格式时出现数据丢失|漏洞|
 |CELLSNET-46057|命名范围不使用智能标记“shift”参数扩展|漏洞|
 |CELLSNET-46055|在智能标记中使用“shift”参数，生成的行不会以相同的样式/格式呈现|漏洞|
 |CELLSNET-46048|条件格式在具有 shift 参数的智能标记中不起作用|漏洞|
@@ -41,7 +41,7 @@ url: /zh/net/aspose-cells-for-net-18-5-release-notes/
 |CELLSNET-41678|调整 ListObject/Table 的大小不会更新其条件格式|漏洞|
 |CELLSNET-46059|无法打开 XLS 文件，因为它在加载时抛出异常|例外|
 |CELLSNET-46097|异常“无效的公式：”'新'名称'！G11：G15“。”刷新数据透视图数据时|例外|
-|CELLSNET-46075|将 Excel 文件渲染为 PDF 时出现异常|例外|
+|CELLSNET-46075|将 Excel 文件渲染到 PDF 时出现异常|例外|
 |CELLSNET-46101|在 Mono Ubuntu Linux 上打开 MS Excel 文件时出现 NullReferenceExceptions|例外|
 |CELLSNET-46085|使用 ListObject.ConvertToRange 方法时出现异常|例外|
 ### **公共 API 和向后不兼容的更改**

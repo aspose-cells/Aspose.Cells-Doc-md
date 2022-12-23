@@ -14,7 +14,7 @@ NPOI (versión NET del proyecto POI Java) es un proyecto de código abierto que 
 
 **XSSF** es la implementación pura Java del Proyecto POI del formato de archivo Excel 2007 OOXML (.xlsx).
 
-HSSF y XSSF proporcionan formas de leer hojas de cálculo, crear, modificar, leer y escribir hojas de cálculo XLS. Ellos proveen:
+HSSF y XSSF brindan formas de leer hojas de cálculo, crear, modificar, leer y escribir XLS hojas de cálculo. Ellos proveen:
 
 - estructuras de bajo nivel para personas con necesidades especiales
 - una API de modelo de evento para un acceso eficiente de solo lectura
@@ -38,7 +38,7 @@ Este proyecto también es útil para los desarrolladores que buscan migrar de NP
 
  Explorar[el complemento con ejemplos de código fuente de las características Aspose.Cells for .NET en comparación con NPOI](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/NPOI).
 
-Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/net/licensing/) artículo para hacer esto.
+ Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/net/licensing/) artículo para hacer esto.
 
 {{% /alert %}}
 
@@ -56,7 +56,7 @@ Los componentes Aspose son altamente escalables y ultrarrápidos. Son una verdad
 
 Los componentes Aspose brindan todo lo que necesita para administrar archivos de Office, y mucho, mucho más. Están diseñados con la filosofía de permitir que los desarrolladores logren los mejores resultados con la menor cantidad de trabajo.
 
- Los componentes Aspose proporcionan muchas funciones potentes que ahorran tiempo. Por ejemplo,[Aspose.Cells](https://products.aspose.com/cells/net/) ofrece una función que permite a los desarrolladores importar JSON a archivos de Excel. Vale la pena señalar que cada componente de la familia Aspose ofrece su propio conjunto de funciones únicas y potentes.
+Los componentes Aspose proporcionan muchas funciones potentes que ahorran tiempo. Por ejemplo,[Aspose.Cells](https://products.aspose.com/cells/net/) ofrece una función que permite a los desarrolladores importar JSON a archivos de Excel. Vale la pena señalar que cada componente de la familia Aspose ofrece su propio conjunto de funciones únicas y potentes.
 
 ## Ver también
 

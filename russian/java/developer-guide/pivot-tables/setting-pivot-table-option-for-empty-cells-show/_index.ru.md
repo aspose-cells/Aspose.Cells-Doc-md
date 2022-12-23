@@ -19,6 +19,6 @@ url: /ru/java/setting-pivot-table-option-for-empty-cells-show/
 
 {{% /alert %}}
 
-Aspose.Cells обеспечивает[**Сводная таблица.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) а также[**Сводная таблица.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString)свойства для установки опции сводной таблицы "Для пустых ячеек показывать".
+Aspose.Cells обеспечивает[**Сводная таблица.setDisplayNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#DisplayNullString) и[**Сводная таблица.setNullString()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#NullString)свойства для установки опции сводной таблицы "Для пустых ячеек показывать".
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPivotTableOption-SettingPivotTableOption.java" >}}

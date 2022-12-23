@@ -12,9 +12,9 @@ A veces, necesita ocultar valores cero en una hoja de cálculo. Puede ser una pr
 
 Para ocultar valores cero en una hoja de cálculo en Microsoft Excel (por ejemplo, Microsoft Excel 2003):
 
-1.  Desde el**Instrumentos** menú, seleccione**Opciones** y, a continuación, seleccione el**Vista** pestaña.
+1.  Desde el**Herramientas** menú, seleccione**Opciones** y, a continuación, seleccione el**Vista** pestaña.
 1.  Deseleccione el**Valores cero** opción.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
 
    **Ocultar valores cero en Microsoft Excel** 
 

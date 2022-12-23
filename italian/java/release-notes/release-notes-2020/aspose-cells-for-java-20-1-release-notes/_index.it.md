@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-20-1-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41325|Il metodo Cell.getValidation restituisce null per ODS|Nuova caratteristica|
 |CELLSJAVA-43074|Da XLSX a PDF, differenza nell'output PDF quando si utilizza Oracle JDK rispetto a Open JDK|Aumento|
@@ -21,14 +21,14 @@ url: /it/java/aspose-cells-for-java-20-1-release-notes/
 |CELLSJAVA-43070|calcolaFormula() non calcola il valore|Insetto|
 |CELLSJAVA-43086|Lo stile di formato percentuale viene applicato in modo non corretto nelle impostazioni internazionali norvegesi|Insetto|
 |CELLSJAVA-43082|Carattere più piccolo reso in ogni prima riga della tabella|Insetto|
-|CELLSJAVA-41360|Cells con le formule vengono visualizzate all'interno del PDF mentre non vengono visualizzate all'interno dell'ODS|Insetto|
-|CELLSJAVA-42786|Da ODS a XLSX: il grafico a linee perde le righe e le voci delle legende|Insetto|
-|CELLSJAVA-42788|Da ODS a XLSX: il cerchio diventa quadrato|Insetto|
+|CELLSJAVA-41360|Cells con formule sono visualizzate all'interno di PDF mentre non sono visualizzate all'interno di ODS|Insetto|
+|CELLSJAVA-42786|Da ODS a XLSX - il grafico a linee perde le righe e le legende|Insetto|
+|CELLSJAVA-42788|ODS a XLSX - il cerchio diventa quadrato|Insetto|
 |CELLSJAVA-43073|Informazioni DataMashup non accessibili nella cartella di lavoro|Insetto|
 |CELLSJAVA-43092|Impossibile elaborare il file Excel|Insetto|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ReplaceOptions.RegexKey.**
  Indica se la chiave cercata è regex. Se**VERO**quindi la chiave cercata (da sostituire parte) verrà presa come regex specificata dall'utente.
 ### **Elimina il metodo ValidationCollection.Add(Aspose.Cells.Validation) obsoleto.**
@@ -38,7 +38,7 @@ Ottiene la definizione della formula della query avanzata.
 ### **Aggiunge la proprietà DBConnection.PowerQueryFormula.**
 Ottiene la definizione della formula di query di alimentazione.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExportHeadings.**
-Indica se esportare le intestazioni durante il salvataggio del file in HTML. Il valore predefinito è falso. Se desideri importare il file HTML in Excel, mantieni il valore predefinito.
+Indica se esportare le intestazioni durante il salvataggio del file in HTML. Il valore predefinito è false. Se desideri importare il file HTML in Excel, mantieni il valore predefinito.
 ### **Aggiunge la classe XAdESTType**
 Tipo di firma elettronica avanzata XML (XAdES).
 ### **Aggiunge la proprietà DigitalSignature.XAdESTType**

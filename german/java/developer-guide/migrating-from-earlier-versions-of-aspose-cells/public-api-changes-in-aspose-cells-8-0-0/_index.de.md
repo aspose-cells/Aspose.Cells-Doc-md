@@ -121,13 +121,13 @@ RowCollection erbt CollectionBase nicht mehr, da es kein Row-Objekt in seiner in
 
 {{% /alert %}}
 ## **Cell.StringValue-Verhalten geändert**
- In früheren Versionen spezielles Muster_wurde beim Formatieren von Zellenwerten ignoriert, wobei das Sonderzeichen * immer ein Zeichen im formatierten Ergebnis erzeugte. Ab dieser Version haben wir die Logik geändert, um Sonderzeichen zu behandeln_ und* um das formatierte Ergebnis gleich wie bei der Excel-Anwendung zu machen. Das benutzerdefinierte Zellenformat „_(\$* #,##0.00_)" verwendet, um den Wert 123 darzustellen, erzeugte das Ergebnis als "$ 123,00". In neuen Versionen enthält Cell.StringValue das Ergebnis als "$ 123,00", was das gleiche Verhalten ist, das die Excel-Anwendung beim Kopieren der Zelle zeigt als Text oder als CSV exportieren.
+ In früheren Versionen spezielles Muster_wurde beim Formatieren von Zellenwerten ignoriert, wobei das Sonderzeichen * immer ein Zeichen im formatierten Ergebnis erzeugte. Ab dieser Version haben wir die Logik geändert, um Sonderzeichen zu behandeln_ und* um das formatierte Ergebnis gleich wie bei der Excel-Anwendung zu machen. Das benutzerdefinierte Zellenformat „_(\$* #,##0.00_)" verwendet, um den Wert 123 darzustellen, erzeugte das Ergebnis als "$ 123,00". In neuen Versionen enthält Cell.StringValue das Ergebnis als "$ 123,00", was das gleiche Verhalten ist, das die Excel-Anwendung beim Kopieren der Zelle zeigt per SMS oder Export an CSV.
 ## **CreatedTime zu PdfSaveOptions hinzugefügt**
-Jetzt können Benutzer die PDF-Erstellungszeit abrufen oder festlegen, während sie die Tabelle als PDF speichern, während sie die PdfSaveOptions-Klasse verwenden.
+Jetzt können Benutzer die Erstellungszeit PDF abrufen oder festlegen, während sie die Tabelle unter Verwendung der PdfSaveOptions-Klasse auf PDF speichern.
 ## **ShowFormulas zum Arbeitsblatt hinzugefügt**
 Von nun an können Benutzer die von Worksheet angebotene boolesche Eigenschaft ShowFormulas verwenden, um die Ansicht zwischen Formel und Wert eines bestimmten Arbeitsblatts umzuschalten.
 ## **Ooxml zu FileFormatType hinzugefügt**
-Der FileFormatType-Klasse wurde eine neue Konstante Ooxml hinzugefügt, um die verschlüsselte Office Open XML-Datei wie XLSX, DOCX, PPTX und mehr darzustellen.
+Der FileFormatType-Klasse wurde eine neue Konstante Ooxml hinzugefügt, um die verschlüsselte Office Open XML-Datei darzustellen, z. B. XLSX, DOCX, PPTX und mehr.
 ## **Veraltete FilterColumnCollection von AutoFilter**
 Mit Aspose.Cells for Java wurde die Methode getFilterColumnCollection als veraltet markiert. Es wird empfohlen, stattdessen die Methode AuotFilter.getFilterColumns zu verwenden.
 ## **SeriesCollection.SecondCatergoryData durch SeriesCollection.SecondCategoryData ersetzt**

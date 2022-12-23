@@ -20,7 +20,7 @@ Denna första version av tillägget har följande funktioner:
 - Tillåt att användas som datakälla (tabell, vyer, anpassad fråga)
 - Exportera data till Microsoft Excel-dokument (.xls, .xlsx och .xlsb)
 - Exportera data till tabbavgränsat textdokument (*.txt)
-- Exportera data till CSV (kommaseparerad) (*.csv)
+- Exportera data till CSV (kommaavgränsad) (*.csv)
 - Exportera data till OpenDocument-kalkylblad (*.ods)
 - Möjlighet att välja önskat utdataformat innan export.
 - Exporterat dokument skickas automatiskt till webbläsaren för nedladdning.
@@ -49,7 +49,7 @@ Du kan ladda ner Aspose .NET Cells Database Data Exporter till Excel för Umbrac
 ## **Installerar**
 När du har laddat ner, följ dessa steg för att installera det här paketet på din Umbraco-webbplats:
 
-1.  Logga in på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco`
+1.  Logga in på Umbraco**Utvecklare** sektion, till exempel `http://www.myblog.com/umbraco`
 1.  Från trädet, expandera**Paket** mapp.
 1.  Härifrån finns det två sätt att installera ett paket: välj**Installera det lokala paketet** eller bläddra i**Umbraco Package Repository.**
 1. Om du installerar**lokalt paket**, packa inte upp paketet utan ladda blixtlåset i Umbraco.
@@ -60,7 +60,7 @@ När du har laddat ner, följ dessa steg för att installera det här paketet p�
 ## **Använder sig av**
 Efter att du har installerat Aspose .NET Databas Data Exporter till Excel för Umbraco-modulen är det väldigt enkelt att börja använda den på din webbplats. Följ dessa enkla steg för att komma igång
 
-1.  Se till att du är inloggad på Umbraco**Utvecklaren** sektion, till exempel `http://www.myblog.com/umbraco/`
+1.  Se till att du är inloggad på Umbraco**Utvecklare** sektion, till exempel `http://www.myblog.com/umbraco/`
 1.  Klick**inställningar** i listan med avsnitt längst ner till vänster på skärmen.
 1.  Expandera**Mallar** nod och välj mallen som du vill lägga till, till exempel Textpage.
 1. Välj positionen i den valda mallen där du vill exportera knappen som ska läggas till. Vanligtvis kanske du vill lägga till den längst upp till höger på sidan, eller längst ner på sidan.

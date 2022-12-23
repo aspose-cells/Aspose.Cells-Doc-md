@@ -8,7 +8,7 @@ url: /tr/java/licensing/
 
  değerlendirme sürümünü indirebilirsiniz.**Aspose.Cells** for Java gelen[indirme sayfası](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven deposu. Değerlendirme sürümü, ürünün lisanslı sürümüyle kesinlikle aynı yetenekleri sağlar. Ayrıca, bir lisans satın aldığınızda ve lisansı uygulamak için birkaç satır kod eklediğinizde, değerlendirme sürümü kolayca lisanslanır.
 
- Değerlendirmenizden memnun olduğunuzda**Aspose.Cells** , yapabilirsiniz[lisans satın al](https://purchase.aspose.com)Aspose web sitesinde. Sunulan farklı abonelik türleri hakkında bilgi sahibi olun. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
+ Değerlendirmenizden memnun olduğunuzda**Aspose.Cells** , yapabilirsin[lisans satın al](https://purchase.aspose.com)Aspose web sitesinde. Sunulan farklı abonelik türleri hakkında bilgi sahibi olun. Herhangi bir sorunuz varsa, Aspose satış ekibiyle iletişime geçmekten çekinmeyin.
 
 Her Aspose lisansı, bu süre içinde çıkan tüm yeni sürümlere veya düzeltmelere ücretsiz yükseltmeler için bir yıllık abonelik içerir. Teknik destek ücretsiz ve sınırsızdır ve hem lisanslı hem de değerlendirme kullanıcılarına sağlanır.
 
@@ -30,7 +30,7 @@ Programınızı çalıştırırken sadece 100 Excel dosyası açabilirsiniz. Uyg
 
 ### **2. Sınırlama: Değerlendirme Filigranlı Çalışma Sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](licensing_1.png)
+![yapılacaklar:resim_alternatif_metin](licensing_1.png)
 
 Bu çalışma sayfası her zaman etkin çalışma sayfası olarak gösterilir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz.
 

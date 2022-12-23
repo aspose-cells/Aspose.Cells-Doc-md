@@ -14,5 +14,5 @@ url: /es/sharepoint/aspose-cells-for-sharepoint-1-0-0-release-notes/
 
  Qué hay de nuevo:
 
--  Compatibilidad con formatos de entrada de MS Excel: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
+- Compatibilidad con formatos de entrada de MS Excel: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
 -  Soporte para formatos de salida: XLS, XLSX, CSV, HTML, ODS, PDF, SpreadsheetML, TXT.

@@ -14,7 +14,7 @@ url: /it/cpp/cells-formatting/
 - Imposta l'allineamento orizzontale o verticale del testo su destra, sinistra, alto, basso, centro, ecc.
 
  Se si desidera impostare lo stile di una singola cella, utilizzare[ICell->SetIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#afa3d5b2aa5e90b286effc9e92de59dd5) metodo e se si desidera impostare lo stile di un intervallo di celle, utilizzare[IRange->ApplicaIStyle()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_range#aaad6703b803565b674999bbaf5eed3a0)metodo.
-## **Codice di esempio**
+## **Codice d'esempio**
  Il seguente codice di esempio formatta la cella C4 del foglio di lavoro in vari modi e lo screenshot mostra il file[file excel di output](21266438.xlsx) generato da esso per il vostro riferimento.
 
 ![cose da fare:immagine_alt_testo](cells-formatting_1.png)

@@ -15,7 +15,7 @@ El código de muestra que se proporciona a continuación carga los siguientes do
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-averiguar si el tamaño del papel de su primera hoja de trabajo es automático o no. En Microsoft Excel, puede verificar si el tamaño del papel es automático o no a través de la ventana Configurar página como se muestra en esta captura de pantalla.
+y averiguar si el tamaño del papel de su primera hoja de trabajo es automático o no. En Microsoft Excel, puede verificar si el tamaño del papel es automático o no a través de la ventana Configurar página como se muestra en esta captura de pantalla.
 
 ![todo:imagen_alternativa_texto](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 

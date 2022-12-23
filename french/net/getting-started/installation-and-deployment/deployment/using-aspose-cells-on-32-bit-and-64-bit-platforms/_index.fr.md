@@ -12,7 +12,7 @@ Aspose.Cells est un composant .NET pur qui peut simplifier votre processus de d�
 ## **Déploiement**
 Aspose.Cells prend en charge les environnements 32 bits et 64 bits. Lorsque vous installez le composant Aspose.Cells for .NET à l'aide du programme d'installation MSI Aspose.Cells, différentes DLL sont ajoutées à différents dossiers dans le ou les dossiers Aspose.Cells ${installation_Path}. Consultez la description dans le tableau du dossier contenant les assemblages que vous devez utiliser avec une version particulière du Framework .NET.
 
-|**Dossier**|**La description**|
+|**Dossier**|**Description**|
 |:- |:- |
 |net2.0|Contient des assemblys à utiliser avec .NET Framework 2.0, 3.0, 3.5, 4.0 et Mono. Ce sont les assemblys que vous devez normalement utiliser pour les environnements 32 bits et 64 bits.|
 |net2.0_AuthenticodeSigned|Comme ci-dessus, mais les assemblages sont signés numériquement avec Authenticode. Les assemblys signés peuvent se charger plus lentement que sans Authenticode|

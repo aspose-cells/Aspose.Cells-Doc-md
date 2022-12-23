@@ -1,11 +1,11 @@
 ﻿---
-title: Öppna CSV-filer
+title: Öppna CSV Filer
 type: docs
 weight: 10
 url: /sv/python-java/open-csv-files/
 ---
-## **Öppna CSV-filer**
-CSV-filer (Comma Separated Values) innehåller poster vars värden är avgränsade eller separerade med kommatecken. Du kan använda Microsoft Excel för att spara ditt kalkylblad i CSV-format.
+## **Öppna CSV Filer**
+Kommaseparerade värden (CSV) filer innehåller poster vars värden är avgränsade eller separerade med kommatecken. Du kan använda Microsoft Excel för att spara ditt kalkylblad i CSV-format.
 
 För att öppna CSV-filer, använd[LoadOptions](https://reference.aspose.com/cells/python/asposecells.api/LoadOptions)klass och välj[CSV](https://reference.aspose.com/cells/python/asposecells.api/fileformattype#CSV)värde, fördefinierat i[FileFormatType](https://reference.aspose.com/cells/python/asposecells.api/FileFormatType)uppräkning.
 

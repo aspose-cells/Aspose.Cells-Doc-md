@@ -10,7 +10,7 @@ Le pont PHP/Java est une implémentation d'un flux basé sur XML[protocole rése
 
  Lire la suite sur[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java est un composant de feuille de calcul Excel primé qui permet aux développeurs Java d'intégrer la possibilité de lire, d'écrire et de manipuler des feuilles de calcul Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF et les formats de fichiers image dans leurs propres Java applications sans avoir besoin de s'appuyer sur Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF et les formats de fichiers image dans leurs propres applications Java sans avoir besoin de s'appuyer sur Microsoft Excel®.
 
 Aspose.Cells for Java est un composant mature, évolutif et riche en fonctionnalités qui offre de nombreuses fonctions qui vont bien au-delà des simples capacités d'exportation de données d'autres fournisseurs. Avec Aspose.Cells for Java, les développeurs peuvent exporter des données, formater des feuilles de calcul au niveau le plus granulaire, importer des images, créer des graphiques, appliquer et calculer des formules complexes, diffuser des données Excel®, enregistrer dans différents formats et bien plus encore - tout cela sans avoir besoin de Microsoft Excel® ou Microsoft Bureautique.
 ### **Aspose.Cells Java for PHP**
@@ -29,10 +29,10 @@ Aspose.Cells for Java est un composant mature, évolutif et riche en fonctionnal
     - [Fonctionnalités utilitaires en PHP](/cells/fr/java/utility-features-in-php/)
       - [Conversion d'un graphique en image en PHP](/cells/fr/java/converting-chart-to-image-in-php/)
       - [Conversion de fichiers Excel en HTML en PHP](/cells/fr/java/converting-excel-files-to-html-in-php/)
-      - [Conversion de fichiers Excel en PDF en PHP](/cells/fr/java/converting-excel-to-pdf-files-in-php/)
+      - [Conversion d'Excel en fichiers PDF en PHP](/cells/fr/java/converting-excel-to-pdf-files-in-php/)
       - [Conversion en fichiers MHTML en PHP](/cells/fr/java/converting-to-mhtml-files-in-php/)
       - [Conversion d'une feuille de calcul en image en PHP](/cells/fr/java/converting-worksheet-to-image-in-php/)
-      - [Conversion d'une feuille de calcul en SVG en PHP](/cells/fr/java/converting-worksheet-to-svg-in-php/)
+      - [Conversion de la feuille de calcul en SVG en PHP](/cells/fr/java/converting-worksheet-to-svg-in-php/)
       - [Gestion des propriétés de document en PHP](/cells/fr/java/managing-document-properties-in-php/)
   - [Travailler avec des lignes et des colonnes en PHP](/cells/fr/java/working-with-rows-and-columns-in-php/)
     - [Ajuster la hauteur des lignes et la largeur des colonnes en PHP](/cells/fr/java/adjusting-row-height-and-column-width-in-php/)

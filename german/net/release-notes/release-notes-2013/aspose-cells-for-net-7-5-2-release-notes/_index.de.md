@@ -30,7 +30,7 @@ url: /de/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 – Problem beim Aktualisieren von Pivot-Tabelle(n)
+ 41891 – Problem beim Aktualisieren von Pivot-Tabelle(n)
 
  41868 – DSUM-Formelproblem
 
@@ -50,7 +50,7 @@ url: /de/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

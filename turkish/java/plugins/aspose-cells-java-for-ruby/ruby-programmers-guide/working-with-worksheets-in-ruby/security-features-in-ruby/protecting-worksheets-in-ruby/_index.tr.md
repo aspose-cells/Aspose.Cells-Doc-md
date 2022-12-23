@@ -5,7 +5,7 @@ weight: 10
 url: /tr/java/protecting-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Çalışma Sayfalarını Koruma**
- Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , aramak**koruma_çalışma sayfası** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , Arama**koruma_çalışma sayfası** yöntemi**koruma** modül.
 
 **Yakut Kodu**
 

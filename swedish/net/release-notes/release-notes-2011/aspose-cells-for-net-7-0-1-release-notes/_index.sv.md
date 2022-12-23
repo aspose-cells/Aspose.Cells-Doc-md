@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Nya egenskaper
 
-29512 Lägg till en ny överbelastad metod: Cell.SetStyle(Style style, bool explicitFlag)
+ 29512 Lägg till en ny överbelastad metod: Cell.SetStyle(Style style, bool explicitFlag)
 
  Förbättringar
 
@@ -48,17 +48,17 @@ url: /sv/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30303 Problem med att kopiera arbetsblad
 
- 30035 MS Excel (Format->AutoFit radhöjd) VS Aspose.Cells' AutoFitRow-funktion
+30035 MS Excel (Format->AutoFit radhöjd) VS Aspose.Cells' AutoFitRow-funktion
 
  29841 Problem med cirkeldiagram
 
  30154 Problem med diagramdataetiketter
 
-30153 Makron är inaktiverade i utdata-XLSM-filen
+ 30153 Makron är inaktiverade i utdatafilen XLSM
 
  30332 Problem med att diagramaxelns skala ändras
 
- 30308 Sekundär axel i XLSX förlorade vid Spara
+ 30308 Sekundär axel i XLSX förlorat på Spara
 
  \2) GridDesktop
 

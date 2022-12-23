@@ -5,7 +5,7 @@ weight: 50
 url: /zh/java/converting-worksheet-to-svg-in-python/
 ---
 ## **Aspose.Cells - 将工作表转换为 SVG**
-要使用 Python 中的 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_至_Converter 模块的 svg() 方法。
+要使用 Python 中的 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_到_Converter 模块的 svg() 方法。
 
 **Python 代码**
 

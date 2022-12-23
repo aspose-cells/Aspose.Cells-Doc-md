@@ -1,12 +1,12 @@
 ﻿---
-title: Elimine espacios redundantes después del salto de línea al importar HTML
+title: Eliminar espacios redundantes después del salto de línea al importar HTML
 type: docs
 weight: 20
 url: /es/net/delete-redundant-spaces-after-line-break-while-importing/
 ---
 {{% alert color="primary" %}}
 
- Por favor use[**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) propiedad y establecerlo**verdadero** para eliminar todos los espacios redundantes que vienen después de la etiqueta de salto de línea. Por defecto, esta propiedad es**falso** y los espacios redundantes se conservan en los archivos de salida de Excel.
+ Por favor use[**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) propiedad y establecerlo**verdadero** para eliminar todos los espacios redundantes que vienen después de la etiqueta de salto de línea. Por defecto, esta propiedad es**falso** los espacios redundantes se conservan en los archivos de salida de Excel.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /es/net/delete-redundant-spaces-after-line-break-while-importing/
 
 ![todo:imagen_alternativa_texto](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
 
-## Elimine espacios redundantes después del salto de línea al importar HTML
+## Eliminar espacios redundantes después del salto de línea al importar HTML
 
 ### Ejemplo de programación
 

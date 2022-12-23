@@ -12,7 +12,7 @@ url: /it/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
  Il seguente codice di esempio spiega l'utilizzo di[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) e[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)proprietà. Prima cambia il formato della carta in A2 e poi trova la larghezza e l'altezza della carta, quindi lo cambia in A3, A4, Letter e trova rispettivamente la larghezza e l'altezza della carta.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-GetPaperWidthHeight-GetPaperWidthHeight.java" >}}
 

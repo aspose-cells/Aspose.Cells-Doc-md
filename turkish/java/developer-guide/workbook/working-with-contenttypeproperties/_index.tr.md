@@ -6,7 +6,7 @@ url: /tr/java/working-with-contenttypeproperties/
 ---
  Aspose.Cells sağlar[**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) bir excel dosyasına özel ContentTypeProperties eklemek için yöntem. ayarlayarak özelliği isteğe bağlı hale de getirebilirsiniz.[**ContentTypeProperty.IsNillaable**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypeproperty#IsNillable) mülkiyet**doğru**. Aşağıdaki kod parçacığı, bir excel dosyasına isteğe bağlı özel ContentTypeProperties eklemeyi gösterir. Aşağıdaki görüntü, örnek kod tarafından eklenen her iki özelliği de göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-contenttypeproperties_1.jpg)
+![yapılacaklar:resim_alternatif_metin](working-with-contenttypeproperties_1.jpg)
 
 Örnek kod tarafından oluşturulan çıktı dosyası başvuru için eklenmiştir.
 

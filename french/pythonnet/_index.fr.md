@@ -4,7 +4,7 @@ type: docs
 weight: 110
 url: /fr/python-net/
 is_root: true
-description: Aspose.Cells for Python prend en charge les formats de fichiers de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+description: Aspose.Cells for Python prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ description: Aspose.Cells for Python prend en charge les formats de fichiers de 
 
 **Bienvenue au Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET permet à vos applications d'effectuer une large gamme de tâches de traitement de feuille de calcul. Aspose.Cells for Python via .NET prend en charge les formats de fichiers de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
+Aspose.Cells for Python via .NET permet à vos applications d'effectuer une large gamme de tâches de traitement de feuille de calcul. Aspose.Cells for Python via .NET prend en charge les formats de fichier de feuille de calcul populaires (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que votre entreprise utilise au quotidien. Il permet également d'exporter des fichiers Excel® vers PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texte brut et formats d'image populaires, notamment TIFF, JPG, PNG, BMP et SVG.
 
 {{% /alert %}}
 

@@ -20,15 +20,15 @@ url: /sv/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43341|Extra tomma kolumner vid export av CSV med LightCellsDataProvider|
 |CELLSJAVA-43352|Excel-fil konverterad till PDF ger ett problem med stora siffror|
 |CELLSJAVA-43339|Bilden är felplacerad när källfilen konverteras till pdf|
-|CELLSJAVA-43340|Saknat innehåll i XLS till PDF-konvertering|
+|CELLSJAVA-43340|Saknat innehåll i konverteringen XLS till PDF|
 |CELLSJAVA-43336| Sjökortsförklaringsposter renderas för långt till vänster|
 |CELLSJAVA-43356|Tomma värden/luckor på ett diagram respekteras inte mellan två värden|
 |CELLSJAVA-43344|Aktuellt användarnamn visas som författare till den senaste kommentaren|
-|CELLSJAVA-43349|Dolda rader underhålls inte från XML till XLS/XLSX-konvertering|
+|CELLSJAVA-43349|Dolda rader underhålls inte från XML till XLS/XLSX konvertering|
 |CELLSJAVA-43361|Fel cellfärg vid konvertering av xls till xlsx|
 |CELLSJAVA-43366|Egenskapen SetAsTotal uppdateras inte|
-|CELLSJAVA-43348|XLSB till PDF-konvertering: CellsException: -2147483648|
-|CELLSJAVA-43343|Undantag vid export av en fil till PDF som inte har ett markerat objekt för en form|
+|CELLSJAVA-43348|XLSB till PDF konvertering: CellsException: -2147483648|
+|CELLSJAVA-43343| Undantag vid export av en fil till PDF som inte har ett valt objekt för en form|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

@@ -24,7 +24,7 @@ Bu sorunu önlemek için portal yöneticilerine MySite Web uygulamasını yönet
 
    **Kullanıcı ekleme ve kontrol seviyesini ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](known-issue-permissions-to-personal-site-collections_1.png)
+![yapılacaklar:resim_alternatif_metin](known-issue-permissions-to-personal-site-collections_1.png)
 
 
 

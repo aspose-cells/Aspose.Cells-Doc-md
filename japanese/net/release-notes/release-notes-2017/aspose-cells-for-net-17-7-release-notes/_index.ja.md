@@ -12,7 +12,7 @@ url: /ja/net/aspose-cells-for-net-17-7-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-45437|Excel から PDF へのレンダリングでロシア語ロケールのエラーとブール値をサポート|新機能|
+|CELLSNET-45437|Excel のロシア語ロケールのエラーとブール値を PDF レンダリングにサポート|新機能|
 |CELLSNET-45456|数値ファイルからセルのデータ、数式、スタイルを読み取る|新機能|
 |CELLSNET-45483|Aspose.Cells.GridDesktop で行インデックスの開始値を (1 ではなく) 0 に変更するサポート|新機能|
 |CELLSNET-45434|GridWeb ViewPanel が常に表示されるとは限らない|新機能|
@@ -24,16 +24,16 @@ url: /ja/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45388|シートからイメージ (.jpg) へのレンダリングで矢印の形状が正しくレンダリングされない|バグ|
 |CELLSNET-45426|グラフ データがピボット テーブルからデータを更新できない|バグ|
 |CELLSNET-45447|ソース データのインポート後にピボットテーブルを追加すると、Excel ファイルが破損する|バグ|
-|CELLSNET-45396|Excel ファイルを HTML に変換する際のフォーマット エラー|バグ|
+|CELLSNET-45396|Excel ファイルを HTML に変換するとフォーマット エラーが発生する|バグ|
 |CELLSNET-45402|Cell.DisplayStringValue が元の値と一致しません|バグ|
 |CELLSNET-45479|Aspose.Cells 17.5 - DSA 証明書によるデジタル署名が正しくない|バグ|
 |CELLSNET-45420|DefaultFont 設定が機能しない|バグ|
-|CELLSNET-45364|出力 PDF で一部の形状/オブジェクトがカットされる|バグ|
+|CELLSNET-45364|出力で一部の形状/オブジェクトが切り取られている PDF|バグ|
 |CELLSNET-45491|チャートの出力画像に、データラベルに付着した黒いぼやけたものが現れた|バグ|
 |CELLSNET-45476|軸ラベルの日付形式が変更され、凡例エントリで上書きされます|バグ|
-|CELLSNET-45471|PDFの2ページ目のテキスト「III.LowerQualityAboveSML」が壊れています|バグ|
+|CELLSNET-45471|PDF の 2 ページ目の「III.LowerQualityAboveSML」というテキストが壊れています|バグ|
 |CELLSNET-45454|同じコード行を使用しても、チャートごとにバブルの色が少し変更されます|バグ|
-|CELLSNET-45452|出力 PDF でスパークラインが正しくレンダリングされない|バグ|
+|CELLSNET-45452|出力でスパークラインが正しくレンダリングされない PDF|バグ|
 |CELLSNET-45493|ListObject のサイズを変更すると、カスタム書式設定が引き継がれません|バグ|
 |CELLSNET-45482|画像を抽出して再挿入すると、XLS ファイルで一部の形状が失われる|バグ|
 |CELLSNET-45466|いくつかの追加の境界線が自動的に追加されています|バグ|
@@ -46,8 +46,8 @@ url: /ja/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45438|セルのテキストを 90 度回転すると、セルのテキストの配置が崩れる|バグ|
 |CELLSNET-45425|GridWeb は Excel ドロップダウン エントリにスペースを追加します|バグ|
 |CELLSNET-42363|ピボットテーブル (GridWeb) のピボット フィールドのキャプションに関する問題|バグ|
-|CELLSNET-45486|Excel ワークブック (セルが結合されている) を HTML ファイル形式に保存すると、NullReferenceException が発生しました。|例外|
-|CELLSNET-45478|Aspose.Cells API 経由で破損した MHTML ファイルを開くと例外が発生する|例外|
+|CELLSNET-45486|Excel ワークブック (セルが結合されている) を HTML ファイル形式で保存すると、NullReferenceException が発生しました。|例外|
+|CELLSNET-45478|Aspose.Cells API 経由で破損した MHTML ファイルを開く際の例外|例外|
 |CELLSNET-45467|MHTML ファイルのロード時に System.ArgumentOutOfRangeException' が発生しました|例外|
 |CELLSNET-45485|有効な式の計算中に例外が発生しました|例外|
 |CELLSNET-45433|fd1507a97b7f40fb85f9725535ecd215.xlsb を開くと例外が発生する|例外|
@@ -64,7 +64,7 @@ url: /ja/net/aspose-cells-for-net-17-7-release-notes/
 最初にワークブックの既定のフォントを使用して、フォントが正しく設定されていない文字を表示するかどうかを示します。
 #### **ImageOrPrintOptions.CheckWorkbookDefaultFont プロパティを追加します**
 最初にワークブックの既定のフォントを使用して、フォントが正しく設定されていない文字を表示するかどうかを示します。
-#### **FileFormatType.Numbers、LoadFormat.Numbers、SaveFormat.Numbers 列挙型を追加**
+#### **FileFormatType.Numbers、LoadFormat.Numbers、SaveFormat.Numbers列挙型を追加**
 Apple Inc/ による Numbers スプレッドシート ファイル形式を表します。
 #### **Worksheet.AdvancedFilter() メソッドを追加**
 複雑な基準を使用してデータをフィルタリングします。
@@ -91,7 +91,7 @@ GridWeb コントロールを現在のブラウザー ウィンドウ サイズ�
 #### **使用例**
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
-- [Aspose.Cells を使用して Apple Inc. が開発した数値スプレッドシートを読む](/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発](/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [PdfSaveOptions と ImageOrPrintOptions の DefaultFont プロパティを優先するように設定する](/cells/ja/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する](/cells/ja/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [ロシア語またはその他の言語でエラーとブール値を実装する](/cells/ja/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

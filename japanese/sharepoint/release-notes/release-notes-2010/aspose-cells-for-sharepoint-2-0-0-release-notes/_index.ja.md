@@ -10,7 +10,7 @@ url: /ja/sharepoint/aspose-cells-for-sharepoint-2-0-0-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for SharePoint v2.0.0 を発表できることをうれしく思います。
+ Aspose.Cells for SharePoint v2.0.0 を発表できることをうれしく思います。
 
 新着情報：
 

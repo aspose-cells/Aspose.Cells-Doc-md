@@ -12,10 +12,10 @@ url: /de/net/aspose-cells-for-net-20-2-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSNET-47113|Durch Pipes getrennte / CSV-zu-JSON-Konvertierung|Neue Funktion|
+|CELLSNET-47113|Durch Pipes getrennt / Konvertierung von CSV in JSON|Neue Funktion|
 |CELLSNET-47141|Die Verbindung zwischen der Pivot-Tabelle und der externen Verbindung|Neue Funktion|
 |CELLSNET-47135|Aspose.Cells betrachtet TEXTJOIN() erweiterte Formel/Funktion nicht als Formel|Erweiterung|
-|CELLSNET-47126|Aspose.Cells löscht „volatileDependencies.xml“ aus der Datei mit RTD-Formeln während der Aktualisierung der XLSX-Datei|Erweiterung|
+|CELLSNET-47126|Aspose.Cells löscht „volatileDependencies.xml“ aus der Datei mit RTD-Formeln, während die Datei XLSX aktualisiert wird|Erweiterung|
 |CELLSNET-47159|Zu viel Zeitaufwand für PivotTable.CalculateStyle|Leistung|
 |CELLSNET-42065|Zuvor berechneter Pivot-Prozentsatz bricht nach dem pivot.CalculateData()|Insekt|
 |CELLSNET-47102|„#“ wird nach der Konvertierung von Excel in PDF im benutzerdefinierten Negativzeitformat (h:mm) angezeigt|Insekt|
@@ -27,17 +27,17 @@ url: /de/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop braucht lange, um große Dateien zu laden|Insekt|
 |CELLSNET-47043|Es kann keine Zelle für ein geschütztes Blatt in GridDesktop ausgewählt werden|Insekt|
 |CELLSNET-47117|Aspose.Cells 20.1 XAdES-Typ ist nicht definiert, wenn zuvor signierte Dateien mit XAdES-Signaturen gelesen werden|Insekt|
-|CELLSNET-47081|Diagramm in PDF rendern|Insekt|
+|CELLSNET-47081|Rendering-Diagramm bis PDF|Insekt|
 |CELLSNET-47085|Das Diagramm wird nicht richtig gerendert, wenn die Textrichtung der Achsenbeschriftungen "Stack" ist|Insekt|
 |CELLSNET-47112|Die Diagramm-zu-Bild-Konvertierung schlägt fehl|Insekt|
 |CELLSNET-47133|Inkonsistenz beim Export nach PDF|Insekt|
 |CELLSNET-47107|Bedingtes Formatierungsobjekt gibt falsche Ergebnisse für IsAboveAverage-Attribut|Insekt|
 |CELLSNET-47114|Workbook RemoveExternalLinks führt zu einem beschädigten Dokument|Insekt|
-|CELLSNET-47139|ODS-Datei mit externer Linkformel zeigt zusätzliche Arbeitsblätter|Insekt|
-|CELLSNET-47145|Der benannte Bereich verschwindet nach dem Öffnen und Speichern der ODS-Datei|Insekt|
+|CELLSNET-47139|ODS Datei mit externer Linkformel zeigt zusätzliche Arbeitsblätter|Insekt|
+|CELLSNET-47145|Der benannte Bereich verschwindet nach dem Öffnen und Speichern der Datei ODS|Insekt|
 |CELLSNET-47146|Datei wird nicht geöffnet|Insekt|
 |CELLSNET-47147|Problem mit dem Blattcodenamen|Insekt|
-|CELLSNET-47153|ODS-Diagramme ändern sich nach dem Speichern|Insekt|
+|CELLSNET-47153|ODS Diagramme ändern sich nach dem Speichern|Insekt|
 |CELLSNET-47157|Falsche Anzahl externer Links|Insekt|
 |CELLSNET-47164|IsItalic-Eigenschaft anders erkannt als MS Excel|Insekt|
 |CELLSNET-47169|CategoryType.CategoryScale im ParetoLine-Diagramm nicht festgelegt|Insekt|
@@ -45,7 +45,7 @@ url: /de/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47156|IndexOutOfRangeException beim Zugriff auf ExternalLink.IsReferred oder IsVisible|Ausnahme|
 |CELLSNET-47140|Ausnahme beim Laden von ODS in GridDesktop|Ausnahme|
 |CELLSNET-47105|Ausnahme beim Importieren von XML-Daten, bei der eine Spalte in der Tabelle nicht zugeordnet wurde|Ausnahme|
-|CELLSNET-47170|Ausnahme "Ungültige Umwandlung von 'DateTime' in 'Double'" beim Speichern einer Excel-Datei als PDF|Ausnahme|
+|CELLSNET-47170|Ausnahme "Invalid cast from 'DateTime' to 'Double'" beim Speichern einer Excel-Datei auf PDF|Ausnahme|
 |CELLSNET-47152|Worksheet.Cells.EndCellInRow mit Fehler für die Datei|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.

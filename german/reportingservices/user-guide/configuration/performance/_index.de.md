@@ -39,7 +39,7 @@ Die verschiedenen Leistungsparameter sind wie folgt:
 
 
 
-- **IsAutoRowFit** : Wenn der Wert der Leistung ist**aus** , ist der Wert von IsAutoRowFit**FALSCH**standardmäßig. Wenn der Wert des Leistungsparameters ist**an** , der Wert ist**Stimmt** standardmäßig. Wenn der Wert der Leistung ist**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
+- **IsAutoRowFit** : Wenn der Wert der Leistung ist**aus** , ist der Wert von IsAutoRowFit**FALSCH** standardmäßig. Wenn der Wert des Leistungsparameters ist**an** , der Wert ist**wahr** standardmäßig. Wenn der Wert der Leistung ist**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ Die verschiedenen Leistungsparameter sind wie folgt:
 
 
 
-- **IsMerged** : Wenn der Wert der Leistung ist**aus** , IsMerged-Standardwert ist**FALSCH** . Wenn der Wert der Leistung ist**an** , der Standardwert ist**Stimmt** . Wenn der Wert Performance-Parameter ist**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
+- **IsMerged** : Wenn der Wert der Leistung ist**aus** , IsMerged-Standardwert ist**FALSCH** . Wenn der Wert der Leistung ist**an** , der Standardwert ist**wahr** . Wenn der Wert Performance-Parameter ist**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
 
 {{< highlight "java" >}}
 
@@ -89,7 +89,7 @@ Die verschiedenen Leistungsparameter sind wie folgt:
 
 
 
-- **IsSetStyle** : Wenn der Wert der Leistung ist**aus** , der Standardwert ist**FALSCH** . Wenn Leistung ist**an** , der Standardwert ist**Stimmt** . Auch bei der Leistung**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
+- **IsSetStyle** : Wenn der Wert der Leistung ist**aus** , der Standardwert ist**FALSCH** . Wenn Leistung ist**an** , der Standardwert ist**wahr** . Auch bei der Leistung**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen.
 
 {{< highlight "java" >}}
 
@@ -114,7 +114,7 @@ Die verschiedenen Leistungsparameter sind wie folgt:
 
 
 
-- **IsConditionalFormatting** : Wenn Leistung ist**aus** , der Standardwert ist**FALSCH** . Wenn Leistung ist**an** , der Standardwert ist**Stimmt** . Auch bei der Leistung**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen. Wenn der IsSetStyle-Parameterwert auf festgelegt ist**FALSCH** , ist der Wert der Leistung ungültig.
+- **IsConditionalFormatting** : Wenn Leistung ist**aus** , der Standardwert ist**FALSCH** . Wenn Leistung ist**an** , der Standardwert ist**wahr** . Auch bei der Leistung**an** , kann ein Unterelementbericht den Punktbericht auf den AutoRowFit-Wert zurücksetzen. Wenn der IsSetStyle-Parameterwert auf festgelegt ist**FALSCH** , ist der Wert der Leistung ungültig.
 
 {{< highlight "java" >}}
 

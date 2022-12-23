@@ -10,15 +10,15 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.9.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42990|Les lignes masquées sont affichées lors de la conversion du fichier Excel en HTML lorsque le filtre automatique existe|Punaise|
 |CELLSJAVA-42997|CalculateFormula() échoue avec de grandes chaînes de formule|Punaise|
 |CELLSJAVA-43000|CalculateFormula() corrompt le fichier Excel|Punaise|
-|CELLSJAVA-42987|Problèmes de formatage lors de la conversion d'un fichier Excel en PDF|Punaise|
-|CELLSJAVA-42986|Texte qui se chevauche après la conversion du fichier chinois XLSX en PDF|Punaise|
+|CELLSJAVA-42987|Problèmes de formatage lors de la conversion du fichier Excel en PDF|Punaise|
+|CELLSJAVA-42986|Texte superposé après la conversion du fichier chinois XLSX en PDF|Punaise|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) ne fonctionne pas pour les nouvelles versions d'Excel|Punaise|
-|CELLSJAVA-42996|Les étiquettes de données basées sur des formules ne sont pas correctement rendues en PDF|Punaise|
+|CELLSJAVA-42996|Les étiquettes de données basées sur des formules ne sont pas correctement rendues dans PDF|Punaise|
 |CELLSJAVA-42992|Exception levée lors de la conversion de XLSM en image|Exception|
 |CELLSJAVA-42991|Exception "La largeur de la colonne doit être comprise entre 0 et 255" lors de la conversion d'Excel en PDF sous macOS|Exception|
 |CELLSJAVA-43004|Exception java.lang.NumberFormatException : pour la chaîne d'entrée : "0.0" lors de la conversion d'Excel en HTML|Exception|

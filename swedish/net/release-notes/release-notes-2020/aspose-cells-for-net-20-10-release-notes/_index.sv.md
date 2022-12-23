@@ -25,26 +25,26 @@ url: /sv/net/aspose-cells-for-net-20-10-release-notes/
 |CELLSNETCORE-83|Excel-filen visades inte korrekt i GridWeb|Insekt|
 |CELLSNETCORE-86|Formvisningsproblem i GridWeb|Insekt|
 |CELLSNET-47597|Fyllningsområdena är mycket olika jämfört med källfilen|Insekt|
-|CELLSNET-47614|Vissa symboler saknas i PDF-utdata i Excel till PDF-rendering|Insekt|
-|CELLSNET-47636|Excel till PDF-konvertering - Resultatet går över sidan i liggande riktning|Insekt|
-|CELLSNET-47637|Konvertera Excel till PDF-problem med Calibri Light|Insekt|
+|CELLSNET-47614|Vissa symboler saknas i utdata PDF i Excel till PDF rendering|Insekt|
+|CELLSNET-47636|Excel till PDF konvertering - Resultatet går över sidan i liggande orientering|Insekt|
+|CELLSNET-47637|Konvertera Excel till PDF problem med Calibri Light|Insekt|
 |CELLSNET-42982|Diagramstorlek och layout ändrades efter Workbook.Combine|Insekt|
 |CELLSNET-47594|Möjlighet att få PlotBy och OnAction-information som liknar MS Excel|Insekt|
 |CELLSNET-47595|Diagrammet behölls inte korrekt i Excel-filen när det laddades och sparades tillbaka|Insekt|
 |CELLSNET-47599|AddControlRefrernce lägger inte till en referens till MS Forms 2.0|Insekt|
 |CELLSNET-47600|Formkontrollnamn och få andra egenskaper är annorlunda jämfört med MS Excel|Insekt|
-|CELLSNET-47613|LTR och RTL bevaras inte efter laddning och sparas med XLSB-fil|Insekt|
+|CELLSNET-47613|LTR och RTL bevaras inte efter laddning och sparas med filen XLSB|Insekt|
 |CELLSNET-47615|Power Point-fil inbäddad i Excel-fil kan inte öppnas efter spara|Insekt|
 |CELLSNET-47645|Reparationsmeddelande från MS Excel efter att ha laddat och sparat Excel-filer med Aspose.Cells|Insekt|
 |CELLSNET-47647|Reparationsmeddelande från Excel vid konvertering av XLSB->XLSX->XLSB|Insekt|
 |CELLSNET-47648|XLSB-filen är skadad efter konvertering (XLSB->XLSX-XLSB)|Insekt|
 |CELLSNET-47658|Teckenstorleken är avrundad när vi har angett decimalsymbol med regioninställning|Insekt|
-|CELLSNETCORE-81|Alternativet "Wrap text" bevaras inte i XLSB-filen efter Ladda och spara|Insekt|
-|CELLSNETCORE-82|Specifikt ark inuti XLSB-filen går sönder efter laddning och spara|Insekt|
+|CELLSNETCORE-81|Alternativet "Wrap text" är inte bevarat i XLSB-filen efter Ladda och spara|Insekt|
+|CELLSNETCORE-82|Specifikt ark inuti XLSB fil bryts efter laddning och spara|Insekt|
 |CELLSNETCORE-84|Stilinformation returnerades tillsammans med rubriktexten|Insekt|
 |CELLSNETCORE-85|Cells.InsertCutCells korrumperar anteckningar|Insekt|
 |CELLSNET-47544|Bilder saknas och textens position var fel vid rendering av Excel i Linux|Insekt|
-|CELLSNET-47571|HTML-konvertering från XLS går in i en kontinuerlig konverteringsslinga|Insekt|
+|CELLSNET-47571|HTML konvertering från XLS går in i en kontinuerlig konverteringsslinga|Insekt|
 |CELLSNET-47583|PivotTable.TableRange2 ger fel värde för pivottabellen|Insekt|
 |CELLSNET-47584|Aspose.Cells HTML till Excel-konvertering visade inga bilder|Insekt|
 |CELLSNET-47609|Diagram visas inte i html när arket inte har något annat innehåll|Insekt|
@@ -54,9 +54,9 @@ url: /sv/net/aspose-cells-for-net-20-10-release-notes/
 |CELLSNET-47608|NullReferenceException vid laddning av XLSX|Undantag|
 |CELLSNET-47624|System.ArgumentException vid laddning av krypterad fil till XLAM|Undantag|
 |CELLSNET-47630|Det angivna argumentet låg utanför intervallet för giltiga värden undantag vid borttagning av kolumn|Undantag|
-|CELLSNET-47649|Undantag höjs vid läsning av DBConnection.PowerQueryFormula från XLSX-fil|Undantag|
+|CELLSNET-47649|Undantag höjs vid läsning av DBConnection.PowerQueryFormula från XLSX-filen|Undantag|
 |CELLSNET-47655|CellsException under konvertering av Excel till PDF|Undantag|
-|CELLSNETCORE-80|Det gick inte att casta objektundantaget när XLSB konverterades till XLSM|Undantag|
+|CELLSNETCORE-80|Det gick inte att casta objektundantaget vid konvertering av XLSB till XLSM|Undantag|
 |CELLSNET-47593|Undantag när man försöker öppna en viss HTM|Undantag|
 |CELLSNET-47656|Form till bild Fel vid konvertering av XLSB till PDF|Undantag|
 

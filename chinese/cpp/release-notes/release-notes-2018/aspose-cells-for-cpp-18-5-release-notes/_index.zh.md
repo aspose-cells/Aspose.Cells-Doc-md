@@ -12,7 +12,7 @@ url: /zh/cpp/aspose-cells-for-cpp-18-5-release-notes/
 
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
-|CELLSCPP-117 |保存到 EMF（格式）问题|漏洞|
+|CELLSCPP-117 |保存为EMF（格式）问题|漏洞|
 |CELLSCPP-123 |字形哈希表问题|漏洞|
 |CELLSCPP-124 |将图表转换为 PDF 时轴网格线颜色问题|漏洞|
 ### **公共 API 和向后不兼容的更改**

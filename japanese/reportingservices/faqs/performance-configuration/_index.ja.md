@@ -138,7 +138,7 @@ url: /ja/reportingservices/performance-configuration/
 
 {{< /highlight >}}
 
-- IsConditionalFormatting – true または false のいずれかになります。
+-  IsConditionalFormatting – true または false のいずれかになります。
  - Performance パラメータが「off」に設定されている場合、デフォルト値は false です。
  - Performance パラメータが「on」に設定されている場合、デフォルト値は true です。
  - パフォーマンス パラメーターが「オン」に設定されている場合、サブ要素レポートはポイント レポートの AutoRowFile パラメーターを再設定できます。

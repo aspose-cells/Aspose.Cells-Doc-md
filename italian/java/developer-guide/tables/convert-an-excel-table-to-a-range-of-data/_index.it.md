@@ -12,15 +12,15 @@ Aspose.Cells supporta questa funzionalità di Microsoft Excel per tabelle e ogge
 
 {{% /alert %}}
 
-## **Utilizzo di Microsoft Excel**
+## **Utilizzando Microsoft Excel**
 
- Utilizzare il**Converti in intervallo** funzionalità per convertire rapidamente una tabella in un intervallo senza perdere la formattazione. In Microsoft Excel 2007/2010:
+ Usa il**Converti in intervallo** funzionalità per convertire rapidamente una tabella in un intervallo senza perdere la formattazione. In Microsoft Excel 2007/2010:
 
 1. Fare clic in un punto qualsiasi della tabella per assicurarsi che la cella attiva sia in una colonna della tabella.
 
 ![cose da fare:immagine_alt_testo](convert-an-excel-table-to-a-range-of-data_1.gif)
 
-1.  Sul**Disegno** scheda, nel**Strumenti** gruppo, fare clic**Converti in intervallo**.
+1.  Sul**Design** scheda, nel**Utensili** gruppo, fare clic**Converti in intervallo**.
 
 ![cose da fare:immagine_alt_testo](convert-an-excel-table-to-a-range-of-data_2.gif)
 

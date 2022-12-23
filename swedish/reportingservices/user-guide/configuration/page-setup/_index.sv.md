@@ -10,12 +10,12 @@ Konfigurationen inkluderar två sektioner och 8 typer av sidinställningar. Dess
 - **index** representerar kalkylbladsindex för den exporterade Excel-filen.
 - **FitToPagesTall** representerar antalet sidor som kalkylbladet skalas till när det skrivs ut.
 - **FitToPagesWide** representerar antalet sidor brett som kalkylbladet skalas till när det skrivs ut.
-- **FooterMargin**representerar avståndet från botten av sidan till sidfoten, i enheten centimeter.
+- **FooterMargin** representerar avståndet från botten av sidan till sidfoten, i enheten centimeter.
 - **HeaderMargin** representerar avståndet från toppen av sidan till sidhuvudet, i centimeterenhet.
 - **Vänster marginal** representerar storleken på den vänstra marginalen, i enheten centimeter.
 - **Högermarginal** representerar storleken på högermarginalen, i enheten centimeter.
 - **TopMargin** representerar storleken på den övre marginalen, i enheten centimeter.
-- **Bottenmarginal** representerar storleken på bottenmarginalen, i enheten centimeter.
+- **Bottenmarginal**representerar storleken på bottenmarginalen, i enheten centimeter.
 
 Exempel på konfiguration av sidinställningar:
 

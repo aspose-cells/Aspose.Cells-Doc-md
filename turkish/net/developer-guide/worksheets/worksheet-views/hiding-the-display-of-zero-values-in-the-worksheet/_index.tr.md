@@ -12,9 +12,9 @@ Bazen bir e-tabloda sıfır değerleri gizlemeniz gerekir. Kişisel bir tercih v
 
 Microsoft Excel'de (örneğin Microsoft Excel 2003) bir çalışma sayfasında sıfır değerleri gizlemek için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler** ve ardından**görüş** sekme.
+1.  itibaren**Araçlar** menü, seç**Seçenekler** ve ardından**görüş** sekme.
 1.  seçimini kaldır**Sıfır değerler** seçenek.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 Lütfen Aspose.Cells kullanarak sıfırları gizlemeyi gösteren aşağıdaki örnek koda bakın.
 

@@ -11,15 +11,15 @@ url: /ja/java/aspose-cells-for-java-8-9-1-release-notes/
 |CELLSJAVA-41925|最近の API リビジョンで計算時間が増加しました|新機能|
 |CELLSJAVA-40958|ユーザー設定可能なフォント置換メカニズムが必要です|新機能|
 |CELLSJAVA-41936|ソース Excel ファイルの Workbook.calculateFormula() メソッドが終了しない|強化|
-|CELLSJAVA-41928|IStreamProvider を使用してスプレッドシートを HTML にレンダリングする際に画像リソースをキャッチできない|バグ|
+|CELLSJAVA-41928|IStreamProvider を使用してスプレッドシートを HTML にレンダリング中に画像リソースをキャッチできない|バグ|
 |CELLSJAVA-41841|CheckBox を HTML にレンダリングする際の問題|バグ|
 |CELLSJAVA-41932|日付形式の値に対する getDisplayStringValue() の問題|バグ|
-|CELLSJAVA-41930|Light Cells API を使用して XLS ファイルを処理すると、最初のシートの最初のセルが常に処理される|バグ|
+|CELLSJAVA-41930|Light Cells API を使用して XLS ファイルを処理すると、最初のシートの最初のセルが常に処理されます。|バグ|
 |CELLSJAVA-41931|スプレッドシートを PDF にレンダリングする際に、縦書きテキストの文字間隔と改行が正しくない|バグ|
 |CELLSJAVA-41709|CentOS と Windows では列幅が異なります|バグ|
-|CELLSJAVA-41933|スプレッドシートを PDF にレンダリング中にグラフの縮尺がずれました|バグ|
+|CELLSJAVA-41933|スプレッドシートのレンダリング中にグラフのスケールが PDF にシフトしました|バグ|
 |CELLSJAVA-41934|Excel ファイルを PDF にレンダリングする際の位置合わせの問題|バグ|
-|CELLSJAVA-41935|スプレッドシートを PDF にレンダリングする際に、凡例エントリの書式設定が乱れる|バグ|
+|CELLSJAVA-41935|スプレッドシートを PDF にレンダリングすると、凡例エントリの書式設定が乱れる|バグ|
 |CELLSJAVA-41943|横軸ラベルは完全にはレンダリングされていません。レンダリングされたイメージでは、すべてのラベルの一部のコンテンツが欠落しています。|バグ|
 |CELLSJAVA-41940|数式の計算と保存後にファイルが破損する|バグ|
 |CELLSJAVA-41927|例外: HTML ファイル形式への保存中に「java.lang.OutOfMemoryError」が発生する|例外|

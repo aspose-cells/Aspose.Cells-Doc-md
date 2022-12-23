@@ -6,7 +6,7 @@ url: /it/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 ---
 {{% alert color="primary" %}}
 
-Puoi utilizzare Aspose.Cells per esportare il foglio di lavoro o il grafico in un'immagine con la larghezza e l'altezza desiderate. Fornisce[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) metodo per impostare la larghezza e l'altezza desiderate dell'immagine esportata. La larghezza e l'altezza sono specificate nell'unità di pixel.
+ Puoi utilizzare Aspose.Cells per esportare il foglio di lavoro o il grafico in un'immagine con la larghezza e l'altezza desiderate. Fornisce[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) metodo per impostare la larghezza e l'altezza desiderate dell'immagine esportata. La larghezza e l'altezza sono specificate nell'unità di pixel.
 
 {{% /alert %}}
 

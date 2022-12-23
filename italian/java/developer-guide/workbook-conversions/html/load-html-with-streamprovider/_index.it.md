@@ -14,7 +14,7 @@ Quando si carica html che contiene risorse esterne, spesso ci troviamo di fronte
 
 {{% /alert %}} 
 
- Questo è il codice principale che mostra l'utilizzo di[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Questo è il codice principale che mostra l'utilizzo di[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

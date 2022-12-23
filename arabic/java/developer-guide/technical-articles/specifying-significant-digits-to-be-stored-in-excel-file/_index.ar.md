@@ -6,7 +6,7 @@ url: /ar/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-بشكل افتراضي ، يقوم Aspose.Cells بتخزين 17 رقمًا مهمًا من القيم المزدوجة في جداول البيانات بخلاف تطبيق Excel الذي يخزن فقط 15 رقمًا مهمًا. يمكنك تغيير السلوك الافتراضي Aspose.Cells لهذه الحالة ، أي ؛ يمكنك تغيير عدد الأرقام المعنوية من 17 إلى 15 أثناء استخدام[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)منشأه.
+بشكل افتراضي ، يقوم Aspose.Cells بتخزين 17 رقمًا مهمًا من القيم المزدوجة في جداول البيانات بخلاف تطبيق Excel الذي يخزن فقط 15 رقمًا مهمًا. يمكنك تغيير السلوك الافتراضي Aspose.Cells لهذه الحالة ، أي ؛ يمكنك تغيير عدد الأرقام المعنوية من 17 إلى 15 أثناء استخدام[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)خاصية.
 
 ## **تحديد الارقام المهمة التي سيتم تخزينها في ملف اكسل**
 

@@ -70,7 +70,7 @@ Signaturerna för ovannämnda metoder är följande:
 
 {{% alert color="primary" %}}
 
- Om en cell slås samman kommer inte AutoFit-metoderna att tillämpas, vilket är samma beteende som i Microsoft Excel. Du kan komma runt detta genom att använda autofiltret API. Dessutom, om texten i en cell är radbruten,[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*AutoFit*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
+ Om en cell slås samman kommer inte AutoFit-metoderna att tillämpas, vilket är samma beteende som i Microsoft Excel. Du kan komma runt detta genom att använda autofiltret API. Dessutom, om texten i en cell är radbruten,[**AutoFitColumn**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*Autopassning*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
 
 {{% /alert %}}
 

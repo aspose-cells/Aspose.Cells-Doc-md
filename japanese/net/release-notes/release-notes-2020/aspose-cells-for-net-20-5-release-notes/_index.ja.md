@@ -20,7 +20,7 @@ url: /ja/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47044|ピボット テーブルの最初の列セルの日付形式の問題|バグ|
 |CELLSNET-47301|計算後にピボットテーブルを画像にエクスポートすることにより、行/列が非表示になります|バグ|
 |CELLSNET-47308|Cell.HtmlString を設定した後、出力 HTML にいくつかのプロパティがありません|バグ|
-|CELLSNET-47343|印刷領域を HTML に変換するときに見出しが表示されない|バグ|
+|CELLSNET-47343|印刷領域を HTML に変換すると、見出しが欠落する|バグ|
 |CELLSNET-47344|印刷領域のみが予想されるときにエクスポートされたワークシート全体|バグ|
 |CELLSNET-47322|OFFSET 関数の使用中に Aspose.Cells によって計算された間違った値|バグ|
 |CELLSNET-47333|ワークシートで CalculateFormula API を使用すると、2 つのセルの値がエラーになります|バグ|
@@ -36,7 +36,7 @@ url: /ja/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47323|Gridweb クリア セルの背面イメージにより、IsPostBack false でページの読み込みが発生する|バグ|
 |CELLSNET-47346|変更するパスワードの入力中に、GridDesktop に「*」ではなくプレーン文字が表示される|バグ|
 |CELLSNET-47349|JSエラー|バグ|
-|CELLSNET-47281|Excel ファイルを PDF に変換するときに、セルで意図しない改行が発生する|バグ|
+|CELLSNET-47281|Excel ファイルを PDF に変換すると、セルが意図せず改行される|バグ|
 |CELLSNET-47298|Aspose.Cells に置き換えられた既存のフォント|バグ|
 |CELLSNET-47299|Excel から PDF への変換中の CellsException|バグ|
 |CELLSNET-47320|XML をセルにインポートすると間違った値が取得される|バグ|
@@ -50,7 +50,7 @@ url: /ja/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47327|ODS ファイルを再保存またはレンダリングすると、ハイパーリンクのテキストが失われる|バグ|
 |CELLSNET-47332|TextParagraph プロパティを設定すると、複数のテキスト行が重なる|バグ|
 |CELLSNET-47339|Cell 保存後にフォーマットが失われる/コンテンツが失われる|バグ|
-|CELLSNET-47348|ロードして保存した後、ODS ファイルの日付形式が変更されました|バグ|
+|CELLSNET-47348|ODS ファイルを読み込んで保存した後、日付形式が変更されました|バグ|
 |CELLSNET-47290|特定の HTML ファイルを開こうとすると例外が発生する|例外|
 |CELLSNET-47305|RANDBETWEEN() で例外 ArgumentOutOfRangeException が発生する|例外|
 |CELLSNET-47351|PDF に保存するときに StackOverflowException を引き起こす条件付き書式設定|例外|

@@ -10,7 +10,7 @@ Use WordArt para agregar efectos de texto especiales a las hojas de cálculo. Po
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo agregar una forma de WordArt para establecer una marca de agua de fondo para una hoja de trabajo.
+El siguiente ejemplo muestra cómo agregar una forma de WordArt para establecer una marca de agua de fondo para una hoja de cálculo.
 
 Después de ejecutar el código, el archivo de salida contiene una marca de agua de WordArt de color rojo pálido.
 

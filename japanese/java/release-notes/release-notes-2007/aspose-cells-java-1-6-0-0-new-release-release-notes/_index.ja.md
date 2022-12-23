@@ -15,7 +15,7 @@ url: /ja/java/aspose-cells-java-1-6-0-0-new-release-release-notes/
 Aspose.Cells for Java V1.6.0 をリリースしました!次の機能強化と修正が含まれています。
 
 - スマート マーカー デザイナーをサポート
-EMF/WMF 形式の画像の挿入をサポート
+EMF/WMF形式の画像挿入に対応
 チャートに滑らかな線を設定できるようになりました
 エリアを非表示/再表示する Area.setVisible() メソッドを追加
 デモを更新します

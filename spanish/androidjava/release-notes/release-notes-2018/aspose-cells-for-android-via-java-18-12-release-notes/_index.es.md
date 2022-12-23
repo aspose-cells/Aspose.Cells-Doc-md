@@ -13,9 +13,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-42745|Cambiar el valor devuelto para obtener puntos de conexión|Nueva caracteristica|
-|CELLSJAVA-42662|Proporcionar la capacidad de exportar el rango como HTML|Nueva caracteristica|
-|CELLSJAVA-42746|Faltan barras de datos cuando XLSX se convierte a HTML|Nueva caracteristica|
-|CELLSJAVA-42747|El valor aún existe cuando XLSX se convierte a HTML|Nueva caracteristica|
+|CELLSJAVA-42662|Proporcione la capacidad de exportar el rango como HTML|Nueva caracteristica|
+|CELLSJAVA-42746|Faltan barras de datos cuando XLSX se convierte en HTML|Nueva caracteristica|
+|CELLSJAVA-42747|El valor aún existe cuando XLSX se convierte en HTML|Nueva caracteristica|
 |CELLSJAVA-42634|Convierta la forma de la cinta izquierda derecha en imagen|Mejora|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs: falta el archivo de lista de paquetes|Mejora|
 |CELLSJAVA-42528|La fuente no es un HTML5 válido y una etiqueta de cierre automático y los navegadores web tergiversan su contenido|Mejora|
@@ -23,26 +23,26 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42734|Problema al tratar delimitadores consecutivos como distintos|Mejora|
 |CELLSJAVA-42731|El formato de fecha es incorrecto para la configuración regional japonesa|Mejora|
 |CELLSJAVA-42748|LightCells API no puede cargar un archivo enorme|Mejora|
-|CELLSJAVA-42728|Se produce una excepción (StackOverFlow) al guardar en formato PDF|Insecto|
+|CELLSJAVA-42728|Se genera una excepción (StackOverFlow) al guardar en la salida PDF|Insecto|
 |CELLSJAVA-42729|Valor incorrecto calculado por ROUNDUP()|Insecto|
 |CELLSJAVA-42724|Copie un rango con PasteType.ALL (opciones de pegado) que no copian las alturas de las filas correctamente|Insecto|
 |CELLSJAVA-42722|El formato del texto del hipervínculo se pierde cuando se establece un texto nuevo|Insecto|
 |CELLSJAVA-42688|Salida de formato de fecha rusa no válida|Insecto|
 |CELLSJAVA-42721|Problema con las fuentes de SheetRender|Insecto|
-|CELLSJAVA-42723|Excepción "java.lang.OutOfMemoryError: Java espacio de almacenamiento dinámico" al representar un archivo de MS Excel en PDF|Insecto|
+|CELLSJAVA-42723|Excepción "java.lang.OutOfMemoryError: Java espacio de almacenamiento dinámico" al representar el archivo de MS Excel en PDF|Insecto|
 |CELLSJAVA-42725|Aparecen comillas en la fórmula al recuperar la fórmula de la celda a través de Aspose.Cells|Insecto|
 |CELLSJAVA-42720|Degradación del rendimiento al usar formato condicional|Insecto|
 |CELLSJAVA-42737|Falta la línea del gráfico en la conversión XLSX->PNG|Insecto|
 |CELLSJAVA-42735|Problema con el método getActualChartSize|Insecto|
 |CELLSJAVA-40861|SmartArt no copia cuando se copia el libro de trabajo|Insecto|
 |CELLSJAVA-42727|Falta el formato de texto en la salida HTML del rango de Excel|Insecto|
-|CELLSJAVA-42744|Los conjuntos de iconos se desalinean cuando XLSX se convierte a HTML|Insecto|
+|CELLSJAVA-42744|Los conjuntos de iconos se desalinean cuando XLSX se convierte en HTML|Insecto|
 |CELLSJAVA-42772|La exportación de datos de rango con nombre no se representa correctamente en HTML (Java)|Insecto|
 |CELLSJAVA-42753|Problema de rango con nombre|Insecto|
 |CELLSJAVA-42764|La validación siempre devuelve verdadero para el método 'getInCellDropDown ()'|Insecto|
 |CELLSJAVA-42768|Se devuelve un formato personalizado de cultura incorrecto para diferentes lugares (Alemania, Francia, Italia y España)|Insecto|
 |CELLSJAVA-42758|Conversión de Excel a PDF: problema de representación del gráfico de indicadores|Insecto|
-|CELLSJAVA-42761|La representación en PDF arroja la excepción OutOfMemoryError|Insecto|
+|CELLSJAVA-42761|PDF la interpretación lanza la excepción OutOfMemoryError|Insecto|
 |CELLSJAVA-42759|CellsException al convertir archivos|Excepción|
 |CELLSJAVA-42755|Excepción "NullPointerException" al instanciar los archivos XLSX|Excepción|
 |CELLSJAVA-42762|NumberFormatException al procesar archivos|Excepción|
@@ -56,7 +56,7 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 
 **Agrega la propiedad HtmlSaveOptions.WidthScalable**
 
-Indica si se utiliza una unidad escalable para describir el ancho de columna al exportar un archivo a HTML. El valor predeterminado es falso.
+Indica si se utiliza una unidad escalable para describir el ancho de columna al exportar el archivo a HTML. El valor predeterminado es falso.
 
 **Agrega la propiedad WorkbookDesigner.UpdateEmptyStringAsNull**
 
@@ -80,7 +80,7 @@ Obtiene la fecha en la que se actualizó la tabla dinámica por última vez.
 
 **Agrega propiedades CalculationData.CellRow/CellColumn**
 
-Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de buscar el objeto Cell.
+Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de obtener el objeto Cell.
 
 **Agrega la clase CalculationCell**
 
@@ -92,7 +92,7 @@ Proporciona un método para que el usuario recopile y procese referencias circul
 
 **Agrega la propiedad TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
 
-Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar un archivo CSV.
+Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar el archivo CSV.
 
 **Agrega el método FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal)**
 
@@ -124,7 +124,7 @@ Representa la forma de arte inteligente.
 
 **Agrega la propiedad HtmlSaveOptions.ExportSingleTab**
 
-Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de trabajo. El valor predeterminado es falso.
+Indica si exportar la pestaña única cuando el archivo solo tiene una hoja de cálculo. El valor predeterminado es falso.
 
 **Agrega la propiedad HtmlSaveOptions.ExportPrintAreaOnly**
 

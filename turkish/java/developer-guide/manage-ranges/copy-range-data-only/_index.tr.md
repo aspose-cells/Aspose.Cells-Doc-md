@@ -6,7 +6,7 @@ url: /tr/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
-Bazen, biçimlendirmeyi değil, yalnızca verileri kopyalayarak verileri bir hücre aralığından diğerine kopyalamanız gerekir. Aspose.Cells sağlayarak bu özelliği sunar[Aralık.kopya verileri](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) yöntem.
+ Bazen, biçimlendirmeyi değil, yalnızca verileri kopyalayarak verileri bir hücre aralığından diğerine kopyalamanız gerekir. Aspose.Cells sağlayarak bu özelliği sunar[Aralık.kopya verileri](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) yöntem.
 
 {{% /alert %}} 
 ## **Yalnızca Aralık Verilerini Kopyala**

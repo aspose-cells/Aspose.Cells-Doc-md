@@ -43,7 +43,7 @@ Yukarıdaki kodu çalıştırdıktan sonra, Satış Raporu adlı yeni, biçimlen
 
 **çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](format-worksheet-cells-in-a-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](format-worksheet-cells-in-a-workbook_1.png)
 
 ## **Özet**
 

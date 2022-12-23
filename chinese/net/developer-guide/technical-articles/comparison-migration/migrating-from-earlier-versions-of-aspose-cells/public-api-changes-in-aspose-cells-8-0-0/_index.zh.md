@@ -58,7 +58,7 @@ book.Settings.MemorySetting = MemorySetting.MEMORY_PREFERENCE;
 
 {{% /alert %}}
 ## **Row & Cell 的实现已更改**
-在以前的版本中，Row 和 Cell 对象被保存在内存中以表示工作表中相应的行和单元格。每当返回相同的实例**RowCollection[int 索引]**或者**Cells[整数行，整数列]**被找回。出于内存性能的考虑，现在内存中只保留Row和Cell的属性和数据。因此，Row & Cell 对象已成为上述属性的包装器。
+在以前的版本中，Row 和 Cell 对象被保存在内存中以表示工作表中相应的行和单元格。每当返回相同的实例**RowCollection[int 索引]**要么**Cells[整数行，整数列]**被找回。出于内存性能的考虑，现在内存中只保留Row和Cell的属性和数据。因此，Row & Cell 对象已成为上述属性的包装器。
 ### **例子**
 从现在开始演示如何比较 Cell 和 Row 对象。
 
@@ -123,13 +123,13 @@ RowCollection 不再继承 CollectionBase，因为它的内部列表中没有 Ro
 
 {{% /alert %}}
 ## **Cell.StringValue 行为已更改**
-在以前的版本中，特殊模式_在格式化单元格值时被忽略，其中特殊字符 * 总是在格式化结果中产生一个字符。从这个版本开始，我们改变了处理特殊字符的逻辑_和*为了使格式化结果与 Excel 应用程序相同。例如，自定义单元格格式“_(\$* #,##0.00_)”用于表示值 123 产生的结果为“$ 123.00”。在新版本中，Cell.StringValue 将包含结果为“$123.00”，这与 Excel 应用程序在复制单元格时表现出的行为相同发送文本或导出为 CSV。
+在以前的版本中，特殊模式_在格式化单元格值时被忽略，其中特殊字符 * 总是在格式化结果中生成一个字符。从这个版本开始，我们改变了处理特殊字符的逻辑_和*为了使格式化结果与 Excel 应用程序相同。例如，自定义单元格格式“_(\$* #,##0.00_)”用于表示值 123 产生的结果为“$ 123.00”。在新版本中，Cell.StringValue 将包含结果为“$123.00”，这与 Excel 应用程序在复制单元格时表现出的行为相同发短信或导出到 CSV。
 ## **将 CreatedTime 添加到 PdfSaveOptions**
-现在，用户可以在使用 PdfSaveOptions 类将电子表格保存为 PDF 时获取或设置 PDF 创建时间。
+现在，用户可以在使用 PdfSaveOptions 类将电子表格保存到 PDF 时获取或设置 PDF 创建时间。
 ## **添加 ShowFormulas 到工作表**
 从现在开始，用户可以使用 Worksheet 提供的布尔属性 ShowFormulas 将视图从公式更改为给定工作表的值。
 ## **将 Ooxml 添加到 FileFormatType**
-FileFormatType 类中添加了一个新常量 Ooxml，用于表示 XLSX、DOCX、PPTX 等加密的 Office 打开 XML 文件。
+FileFormatType 类中添加了一个新常量 Ooxml，用于表示加密的 Office 打开 XML 文件，例如 XLSX、DOCX、PPTX 等。
 ## **AutoFilter 的废弃 FilterColumnCollection**
 对于 Aspose.Cells for Java，FilterColumnCollection 属性已标记为已废弃。建议改用 AuotFilter.FilterColumns 属性。
 ## **将 SeriesCollection.SecondCategoryData 替换为 SeriesCollection.SecondCategoryData**

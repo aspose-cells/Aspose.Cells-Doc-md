@@ -9,7 +9,7 @@ Kopieren Sie die Sparkline, indem Sie den Datenbereich und den Speicherort der S
 Microsoft Mit Excel können Sie eine Sparkline kopieren, indem Sie den Datenbereich und den Speicherort der Sparkline-Gruppe angeben. Befolgen Sie diese Schritte, um Ihre Sparkline in andere Zellen zu kopieren.
 
 - Wählen Sie die Zelle aus, die Ihre Sparkline enthält.
--  Auswählen**Daten bearbeiten** von dem**Sparkline** Abschnitt innerhalb der**Entwurf** Tab
+-  Wählen**Daten bearbeiten** von dem**Sparkline** Abschnitt innerhalb der**Design** Tab
 -  Wählen**Standort und Daten der Gruppe bearbeiten...**
 - Geben Sie Datenbereich und Speicherort an und klicken Sie auf OK.
 

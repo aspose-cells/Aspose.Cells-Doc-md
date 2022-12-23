@@ -24,7 +24,7 @@ Pour ajouter des boutons dans une colonne à l'aide de Aspose.Cells.GridDesktop,
 
 -  Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
 -  Accédez à tout**Feuille de travail**
--  Ajouter**Bouton** à tout spécifié**Colonne** de la**Feuille de travail**
+-  Ajouter**Bouton** à tout spécifié**Colonne** du**Feuille de travail**
 
 **REMARQUE:** En ajoutant**Bouton**, nous pouvons spécifier la largeur, la hauteur et la légende du bouton.
 
@@ -39,7 +39,7 @@ Pour ajouter des cases à cocher dans une colonne à l'aide de Aspose.Cells.Grid
 
 -  Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
 -  Accédez à tout**Feuille de travail**
--  Ajouter**Case à cocher** à tout spécifié**Colonne** de la**Feuille de travail**
+-  Ajouter**Case à cocher** à tout spécifié**Colonne** du**Feuille de travail**
 
 **REMARQUE:** En ajoutant**Case à cocher**, nous pouvons également spécifier l'état de la case à cocher.
 
@@ -55,7 +55,7 @@ Pour ajouter des listes déroulantes dans une colonne à l'aide de Aspose.Cells.
 -  Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
 -  Accédez à tout**Feuille de travail**
 -  Créez un tableau d'éléments (ou de valeurs) qui seront ajoutés à**Boîte combo**
--  Ajouter**Boîte combo** (contenant des éléments ou des valeurs) à tout spécifié**Colonne** de la**Feuille de travail**
+-  Ajouter**Boîte combo** (contenant des éléments ou des valeurs) à tout spécifié**Colonne** du**Feuille de travail**
 
 
 

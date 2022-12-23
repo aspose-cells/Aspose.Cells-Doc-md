@@ -6,7 +6,7 @@ url: /it/net/add-borders-to-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite l'applicazione che un utente può eseguire in Microsoft Excel. Aspose.Cells è performante e robusto e ha l'ulteriore vantaggio di lavorare indipendentemente da Microsoft Automation. Questo articolo mostra come aggiungere bordi alle celle in un foglio di lavoro utilizzando Aspose.Cells for .NET rispetto a VSTO.
+Aspose.Cells for .NET consente di eseguire quasi tutte le attività tramite l'applicazione che un utente può eseguire in Microsoft Excel. Aspose.Cells è performante e robusto e ha l'ulteriore vantaggio di lavorare indipendentemente dall'automazione Microsoft. Questo articolo mostra come aggiungere bordi alle celle in un foglio di lavoro utilizzando Aspose.Cells for .NET rispetto a VSTO.
 
 {{% /alert %}}
 
@@ -22,8 +22,8 @@ Per aggiungere bordi alle celle in un foglio di calcolo, procedi come segue:
  1. Aggiungi testo alle celle a cui aggiungerai i bordi.
 1. Aggiungi bordi:
  1. Definire un intervallo.
- 1. Applicare uno stile di bordo all'intervallo.
-Ripeti per ogni intervallo e ogni stile di bordo che desideri impostare. Questo esempio applica linee sottili, linee sottili, medie e spesse.
+1. Applicare uno stile di bordo all'intervallo.
+ Ripeti per ogni intervallo e ogni stile di bordo che desideri impostare. Questo esempio applica linee sottili, linee sottili, medie e spesse.
 1. Fine:
  1. Adatta automaticamente la colonna in cui si trovano le celle per adattare perfettamente il testo.
  1. Salva il documento.

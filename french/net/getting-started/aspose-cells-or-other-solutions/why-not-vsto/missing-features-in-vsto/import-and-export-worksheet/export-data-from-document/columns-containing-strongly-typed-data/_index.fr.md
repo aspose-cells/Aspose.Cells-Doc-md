@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /fr/net/columns-containing-strongly-typed-data/
 ---
- Nous savons qu'une feuille de calcul stocke les données sous la forme d'une séquence de lignes et de colonnes. Si toutes les valeurs des colonnes d'une feuille de calcul sont fortement typées (cela signifie que toutes les valeurs d'une colonne doivent avoir le même type de données), nous pouvons exporter le contenu de la feuille de calcul en appelant le**ExporterTableDeDonnées** méthode de la classe Cells.**ExporterTableDeDonnées** prend les paramètres suivants pour exporter les données de la feuille de calcul en tant que**Tableau de données** objet:**Numéro de ligne** , représente le numéro de ligne de la première cellule à partir de laquelle les données seront exportées
+Nous savons qu'une feuille de calcul stocke les données sous la forme d'une séquence de lignes et de colonnes. Si toutes les valeurs des colonnes d'une feuille de calcul sont fortement typées (cela signifie que toutes les valeurs d'une colonne doivent avoir le même type de données), nous pouvons exporter le contenu de la feuille de calcul en appelant le**ExporterTableDeDonnées** méthode de la classe Cells.**ExporterTableDeDonnées** prend les paramètres suivants pour exporter les données de la feuille de calcul en tant que**Tableau de données** objet:**Numéro de ligne** , représente le numéro de ligne de la première cellule à partir de laquelle les données seront exportées
 
 - **Numéro de colonne** , représente le numéro de colonne de la première cellule à partir de laquelle les données seront exportées
 - **Nombre de rangées** , représente le nombre de lignes à exporter

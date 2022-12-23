@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-22-7-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-51296| Gridweb continue de revenir en haut lorsque vous essayez de copier et coller|
 |CELLSNET-51355|Et Range.Top, Left, Width, Height en unité de points|
@@ -31,13 +31,13 @@ url: /fr/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51213|Le graphique à secteurs 3D n'est pas rendu correctement - Conversion de graphique en image|
 |CELLSNET-51472|Les étiquettes de graphique sont manquantes dans SVG lorsqu'elles sont définies sur l'extrémité extérieure|
 |CELLSNET-51491|Valeurs incorrectes utilisées dans les séries de graphiques lors du rendu en image ou HTML|
-|CELLSNET-51525|Le graphique en cascade est différent lorsqu'il est exporté au format HTML/PNG ou PDF|
+|CELLSNET-51525|Le graphique en cascade est différent lorsqu'il est exporté vers HTML/PNG ou PDF|
 |CELLSNET-51353|La conversion d'un fichier XLSB avec un lien DDE en fichier XLSM modifie la position de l'application DDE dans le lien|
 |CELLSNET-51376|La taille de la page est automatiquement changée de A4 ? Lettre pour une feuille|
-|CELLSNET-51379| Le lien externe de type OLE dans le fichier XLS est en cours de lecture comme de type DDE|
+|CELLSNET-51379| Le lien externe de type OLE dans le fichier XLS est lu comme étant de type DDE|
 |CELLSNET-51402|Le contenu est déplacé hors de la cellule lors de l'enregistrement du fichier html|
 |CELLSNET-51417|Les liens de la forme à la feuille dans le fichier sont supprimés après la mise à niveau de 22.5 à 22.6.1|
-|CELLSNET-51418|Un lien externe de type xlPathMissing est changé en type externalLinkPath normal dans la conversion XLSB vers XLSM|
+|CELLSNET-51418|Un lien externe de type xlPathMissing est changé en type externalLinkPath normal dans la conversion XLSB à XLSM|
 |CELLSNET-51420|Différences dans les propriétés du document dans le fichier app.xml|
 |CELLSNET-51427|Lien externe contenant le caractère spécial "#" qui n'est pas échappé par Aspose.Cells|
 |CELLSNET-51482|La combinaison de feuilles de différents classeurs entraîne un fichier corrompu qui peut planter MS Excel|

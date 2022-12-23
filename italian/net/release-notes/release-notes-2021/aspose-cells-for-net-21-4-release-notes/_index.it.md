@@ -10,26 +10,26 @@ url: /it/net/aspose-cells-for-net-21-4-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47891|Supporto per ottenere lo stile di visualizzazione con l'abilitazione della cache|Nuova caratteristica|
-|CELLSNET-47922|Renderizza i dati con le coordinate della cella nella conversione da Excel a HTML|Aumento|
-|CELLSNET-47924|Implementa Crypto con l'API di BouncyCastle|Aumento|
+|CELLSNET-47922|Renderizza i dati con le coordinate della cella in Excel alla conversione HTML|Aumento|
+|CELLSNET-47924|Implementa Crypto con lo API di BouncyCastle|Aumento|
 |CELLSNET-47951|Supporta mappe XML tramite XSD|Aumento|
 |CELLSNET-47206|Raggruppamento di dati con indicatori intelligenti orizzontali e origine dati nidificata|Aumento|
 |CELLSNET-47888|SmartMarker appropriati necessari per ottenere l'output desiderato|Aumento|
 |CELLSNET-47918|Righe comprimibili insieme a marcatori intelligenti|Aumento|
 |CELLSNET-47953|Supporta l'aggiunta di immagini .webp ai file .xlsx.|Aumento|
-|CELLSNET-47916|Il tag in stile HTML consuma 4 GB di memoria e si arresta in modo anomalo durante il caricamento nella cartella di lavoro|Prestazione|
-|CELLSNET-46869|WordArts e forme non vengono visualizzate correttamente in PDF|Insetto|
+|CELLSNET-47916|Il tag di stile HTML consuma 4 GB di memoria e si arresta in modo anomalo durante il caricamento nella cartella di lavoro|Prestazione|
+|CELLSNET-46869|WordArts e forme non vengono visualizzati correttamente in PDF|Insetto|
 |CELLSNET-47890|Le linee andranno alla deriva durante la conversione Pdf|Insetto|
 |CELLSNET-47858|Le forme non vengono visualizzate correttamente in HTML e PDF|Insetto|
 |CELLSNET-47907|Il posizionamento del grafico viene modificato durante la conversione di Excel in HTML|Insetto|
-|CELLSNET-47856|Problema di conversione da XLSX a PDF con tabelle pivot|Insetto|
+|CELLSNET-47856|Problema di conversione da XLSX a PDF con le tabelle pivot|Insetto|
 |CELLSNET-47846|Implementazione di GridWeb incompatibile con i componenti DevExpress recenti|Insetto|
 |CELLSNET-47923|Visualizzazione del layout di pagina non corretta per la cartella di lavoro con carattere predefinito diverso da Calibri|Insetto|
 |CELLSNET-47965| Conversione da Excel a PDF - Pagine del documento confuse|Insetto|
-|CELLSNET-46161|Il testo obliquo non viene visualizzato correttamente nel PDF di output|Insetto|
+|CELLSNET-46161|Il testo obliquo non viene visualizzato correttamente nell'output PDF|Insetto|
 |CELLSNET-47917|Etichette del grafico a torta incasinate in PDF generate dal foglio di lavoro di Excel|Insetto|
 |CELLSNET-47919|Valore massimo errato estratto dai grafici|Insetto|
 |CELLSNET-46363|La struttura nidificata non viene importata correttamente in XLSX|Insetto|
@@ -43,7 +43,7 @@ url: /it/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|Viene generata un'eccezione quando si apre un file mht speciale.|Eccezione|
 |CELLSNET-47944|Eccezione nulla durante la conversione della forma affettatrice in immagine|Eccezione|
 |CELLSNET-47932|Eccezione nulla durante il caricamento di un file xlsx speciale con una formula strana.|Eccezione|
-|CELLSNET-47963|Il parametro non è un'eccezione valida durante il rendering dell'intervallo in PNG|Eccezione|
+|CELLSNET-47963|Il parametro non è un'eccezione valida durante il rendering dell'intervallo su PNG|Eccezione|
 |CELLSNET-47967|Errore di overflow durante il salvataggio di un file XLS|Eccezione|
 |CELLSNET-47921|Eccezione nulla durante il caricamento di un file xlsx speciale|Eccezione|
 |CELLSNET-47945|Eccezione nulla durante il caricamento di un file html speciale|Eccezione|
@@ -53,9 +53,9 @@ url: /it/net/aspose-cells-for-net-21-4-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi StartAccessCache()/CloseAccessCache() per la cartella di lavoro e il foglio di lavoro.**
 
@@ -63,7 +63,7 @@ Fornire agli utenti la possibilità di accedere ai dati in modalità batch con p
 
 ### **Aggiunge le proprietà TxtSaveOptions.ExportQuotePrefix e TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Fornisci agli utenti la possibilità di decidere come fare con la prima virgoletta singola del valore della cella durante l'esportazione/importazione di file CSV/TSV.
+Fornire agli utenti la possibilità di decidere come fare con la prima virgoletta singola del valore della cella durante l'esportazione/importazione di file CSV/TSV.
 
 ### **Aggiunge i metodi GlobalizationSettings.GetCollationKey(string,bool) e Compare(string,string,bool).**
 

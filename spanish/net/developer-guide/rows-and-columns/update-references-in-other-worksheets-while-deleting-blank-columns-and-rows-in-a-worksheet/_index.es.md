@@ -20,7 +20,7 @@ Cuando elimina columnas y filas en blanco en una hoja de trabajo, sus referencia
 
 ### **Salida de consola**
 
- Esta es la salida de la consola del código de ejemplo anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**verdadero**.
+ Esta es la salida de la consola del código de muestra anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**verdadero**.
 
 {{< highlight "java" >}}
 
@@ -43,7 +43,7 @@ Cell Value: 4
 
 {{< /highlight >}}
 
- Esta es la salida de la consola del código de ejemplo anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
+ Esta es la salida de la consola del código de muestra anterior cuando[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
 
 {{< highlight "java" >}}
 

@@ -6,7 +6,7 @@ url: /tr/python-net/where-to-use-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells, geliştiricilerin Microsoft Excel elektronik tablolarını programlı olarak oluşturmasına ve yönetmesine yardımcı olmak için oluşturulmuştur. Aspose.Cells, yalnızca Microsoft Excel Sayfa Biçimi'ndeki (XLS/XLSX) elektronik tabloları değil, aynı zamanda Virgülle Ayrılmış Değerler (CSV), Sekmeyle Ayrılmış/TSV (Metin), Elektronik TabloML vb. birçok başka dosya biçimini de anlar.
+Aspose.Cells, geliştiricilerin Microsoft Excel elektronik tablolarını programlı olarak oluşturmasına ve yönetmesine yardımcı olmak için oluşturulmuştur. Aspose.Cells, yalnızca Microsoft Excel Sayfa Biçimi'ndeki (XLS/XLSX) elektronik tabloları değil, Virgülle Ayrılmış Değerler (CSV), Sekmeyle Ayrılmış/TSV (Metin), SpreadsheetML vb. gibi diğer birçok dosya biçimini de anlar.
 
 Aspose.Cells, Microsoft Excel'de bulunan özelliklerin çoğunu sağlar, ancak heyecan verici olan şey, Aspose.Cells'in Excel dosyalarını dinamik olarak işleyebilmesidir, bu da geliştiricilerin binlerce veya milyonlarca elektronik tabloyu çok hızlı bir şekilde işlemesine olanak tanır.
 

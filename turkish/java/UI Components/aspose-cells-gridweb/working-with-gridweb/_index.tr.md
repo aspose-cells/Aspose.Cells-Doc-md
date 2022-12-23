@@ -22,7 +22,7 @@ Yukarıdaki kod parçasını istediğiniz gibi kullanabilirsiniz. Örneğin, bir
 
 **GridWeb'e bir Excel dosyası yüklenir**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_1.png)
 
 ## **Microsoft Excel Dosyasını Kaydetme**
 
@@ -40,7 +40,7 @@ Aşağıdaki kod örneği, ızgara içeriğinin bir Excel dosyasına nasıl kayd
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
- Yukarıdaki kod parçacığı birkaç şekilde kullanılabilir. Yaygın bir yol, tıklandığında ızgara içeriğini bir Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb, görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'de SaveCommand adında bir olay var. Yukarıdaki kod parçacığı, SaveCommand olayının olay işleyicisine eklenebilir ve bu, kullanıcıların Aspose.Cells.GridWeb'in yerleşik**Kaydetmek** buton.
+ Yukarıdaki kod parçacığı birkaç şekilde kullanılabilir. Yaygın bir yol, tıklandığında ızgara içeriğini bir Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb, görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'de SaveCommand adında bir olay var. Yukarıdaki kod parçacığı, SaveCommand olayının olay işleyicisine eklenebilir ve bu, kullanıcıların Aspose.Cells.GridWeb'in yerleşik**Kayıt etmek** buton.
 
 ## **Aspose.Cells.GridWeb ve Başlık Çubuğunu Yeniden Boyutlandırma**
 
@@ -60,7 +60,7 @@ Aşağıdaki kod parçacığının çıktısı aşağıda gösterilmiştir.
 
 **GridWeb kontrolünün genişliği ve yüksekliği değiştirildi**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangedwidthheightofGridWebcontrol-ChangedwidthheightofGridWebcontrol.jsp" >}}
 
@@ -75,13 +75,13 @@ Bu başlık çubuklarının her ikisi de aşağıda gösterilmiştir.
 
 **Başlık çubukları**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_3.png)
 
 Sırasıyla GridWeb denetiminin HeaderBarHeight ve HeaderBarWidth özelliklerini kullanarak üst başlık çubuğunun yüksekliğini ve sol başlık çubuğunun genişliğini değiştirin. Aşağıdaki şekil, aşağıdaki kod örneğinin çıktısını göstermektedir.
 
 **Başlık çubuğunun genişliği ve yüksekliği değiştirildi**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-ChangingWidthandHeightofHeaderBar-ChangingWidthandHeightofHeaderBar.jsp" >}}
 
@@ -95,7 +95,7 @@ Bu konu, Aspose.Cells.GridWeb denetimi tarafından desteklenen tüm olaylara bir
 
 Aspose.Cells.GridWeb kontrolü, kontrolde belirli olaylar tetiklendiğinde işlemlerin gerçekleştirilmesi için daha fazla kontrol sağlayan birkaç olayı destekler. Aspose.Cells.GridWeb denetimi tarafından desteklenen olayların tam listesi aşağıda bulunabilir.
 
-|**Olaylar**|**Tanım**|
+|**Olaylar**|**Açıklama**|
 |:- |:- |
 |Hücre Komutu|Bir hücrenin komut köprüsü tıklandığında gerçekleşir. Bu olay başlatıldığında, e.Argument parametresi komutun adını sağlar.|
 |HücreDoubleClick|Hücre çift tıklandığında gerçekleşir.|
@@ -110,11 +110,11 @@ Aspose.Cells.GridWeb kontrolü, kontrolde belirli olaylar tetiklendiğinde işle
 |Satır Silme|Bir kullanıcı, istemci tarafındaki menüyü kullanarak bir çalışma sayfasından bir satırı silmeye çalışırken gerçekleşir.|
 |SatırDoubleClick|Satır başlığına çift tıklandığında gerçekleşir.|
 |Satır Eklendi|Kullanıcı, istemci tarafındaki menüyü kullanarak çalışma sayfasına bir satır eklediğinde gerçekleşir.|
-|Komutu Kaydet| Ne zaman oluşur**Kaydetmek** butonu tıklanır.|
+|Komutu Kaydet| Ne zaman oluşur**Kayıt etmek** butonu tıklanır.|
 |SheetSekmeClick|Bir sayfa sekmesi tıklandığında gerçekleşir.|
 |Komut Gönder| Ne zaman oluşur**Göndermek** butonu tıklanır.|
 |Komutu Geri Al| Ne zaman oluşur**Geri alma** butonu tıklanır.|
-|AjaxCallBitti|Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanmalıdır).|
+|AjaxCallBitti|Kontrolün AJAX güncellemesi bittiğinde tetiklenir. (EnableAJAX, true olarak ayarlanacaktır).|
 |CellModifiedOnAjax|AJAX çağrısında hücre değiştirildiğinde tetiklenir.|
 |Sütun Filtresinden Sonra|Filtre bir sütuna uygulandığında tetiklenir.|
 
@@ -180,9 +180,9 @@ Geliştiricilerin çabalarından tasarruf etmek için Aspose.Cells.GridWeb bazı
 
 |**stiller**|**Renk uyumu**|
 |:- |:- |
-|Standart|Gümüş|
+|Standart|Gümüş rengi|
 |Renkli1|Gül|
-|renkli2|Mavi|
+|Renkli2|Mavi|
 |Profesyonel1|camgöbeği|
 |Profesyonel2|tekrar camgöbeği|
 |Geleneksel1|Karanlık|
@@ -196,7 +196,7 @@ Aşağıdaki kod parçacığının çıktısı aşağıda gösterilmiştir.
 
 **Üzerine Colorful1 stili uygulanmış GridWeb denetimi**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_5.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-Colorful1style-Colorful1style.jsp" >}}
 
@@ -224,7 +224,7 @@ Varolan bir stil dosyasından GridWeb denetimine stil ayarları uygulamak için,
 
 Lütfen GridWeb'i kendisine uygulanan özel stille gösteren aşağıdaki resme bakın.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_6.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-CustomStyleSheet-CustomStyleSheet.jsp" >}}
 
@@ -252,7 +252,7 @@ Bu makale, üzerinde GridWeb kontrolü olan basit bir web formu JSP'nin (Java Su
 
  Aşağıdaki dizin yapısını oluşturmanız gerekir.**ağ uygulamaları**Tomcat Sunucusunun dizini
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_7.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_7.png)
 
  Bunlar, oluşturmanız gereken dizinler ve dosyalardır. Lütfen yorumları okuyun ve takip edin. En son Aspose.Cells.GridWeb for Java sürüm arşivlerini şu adresten edinebilirsiniz:[bu bağlantı](https://downloads.aspose.com/cells/java).
 
@@ -452,7 +452,7 @@ span.wrap {
 
 Aşağıdaki ekran görüntüsü gibi bir şey göreceksiniz. Tebrikler, JSP sayfanızda GridWeb kontrolünü başarıyla kullandınız.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_8.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_8.png)
 
 ## **GridWeb'i Yazdırma**
 
@@ -501,7 +501,7 @@ Aspose.Cells.GridWeb denetimi varsayılan olarak Düzenleme modundadır. Düzenl
 
 **Düzenleme Modunda GridWeb kontrolü**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_9.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_9.png)
 
 Geliştiriciler ayrıca GridWeb denetiminin EditMode özelliğini true olarak ayarlayarak program aracılığıyla Düzenleme moduna geçebilirler.
 
@@ -511,13 +511,13 @@ Geliştiriciler ayrıca GridWeb denetiminin EditMode özelliğini true olarak ay
 
 ### **Görünüm Modu**
 
-GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** ve**Bulmak** seçenek.
+GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kayıt etmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** ve**Bulmak** seçenek.
 
 **Görüntüleme Modunda GridWeb kontrolü** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-gridweb_10.png)
+![yapılacaklar:resim_alternatif_metin](working-with-gridweb_10.png)
 
- Geliştiriciler, kullanıcılarının yalnızca verileri görüntülemesini istiyorsa, GridWeb kontrolünün EditMode özelliğini olarak ayarlayarak programlı olarak Görünüm moduna geçebilirler.**yanlış**.
+ Geliştiriciler, kullanıcılarının yalnızca verileri görüntülemesini istiyorsa, GridWeb kontrolünün EditMode özelliğini olarak ayarlayarak programlı olarak Görünüm moduna geçebilirler.**YANLIŞ**.
 
 ### **Kod Örneği**
 

@@ -20,7 +20,7 @@ Sınırlamalar aşağıda gösterilmiştir:
  Programınızı çalıştırırken .Net kütüphanesi üzerinden Aspose.Cells Python kullanarak sadece 100 Excel dosyasını açabilirsiniz. Uygulamanız bu sayıyı aşarsa bir istisna atılır.
 
 
-Ayrıca kütüphane aracılığıyla Aspose.Cells Python kullanılarak oluşturulan excel dosyasında değerlendirme filigranlı bir çalışma sayfası her zaman aktif çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. Aspose.Cells Python üzerinden alınan PDF veya resim dosyası çıktısında, belgenin/resmin üst kısmına bir değerlendirme filigranı yapıştırılır.
+Ayrıca kütüphane aracılığıyla Aspose.Cells Python kullanılarak oluşturulan excel dosyasında değerlendirme filigranlı bir çalışma sayfası her zaman aktif çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. PDF çıktısında veya Aspose.Cells Python aracılığıyla görüntü dosyasında, belgenin/görüntünün üstüne bir değerlendirme filigranı yapıştırılır.
 
 {{% alert color="primary" %}}
 

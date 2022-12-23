@@ -20,8 +20,8 @@ url: /sv/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  *Vad är förbättrat?
 
-- Konvertering av Excel till Pdf har förbättrats* När du sparar arbetsboken som Excel2003-filformat, kommer Aspose.Cells automatiskt att skära ut de celler vars kolumn eller rad överskrider gränsen för 65536 rader och 256 kolumner.* När kodning saknas, kommer läsning av CSV-fil att försöka hämta och använda systemets standardkodning
+- Konvertering av Excel till Pdf har förbättrats* När du sparar arbetsboken som Excel2003-filformat, kommer Aspose.Cells automatiskt att skära ut de celler vars kolumn eller rad överskrider gränsen för 65536 rader och 256 kolumner.* När utan kodning specificerad, kommer läsning av CSV-filen att försöka få och använda systemets standardkodning
 
  *Vad är fixat?
 
-- Fixade några buggar i beräkningsformeln* Fixade några buggar med att läsa mallfilen*Fixade en bugg för att få bildens skala* Fixade en bugg med att spara NamedStyle* Fixade ett fel med att ställa in kommentarens gränslinje synlig* Fixade en bugg med att ställa in cellens kantlinje* Fixade en bugg med HYPERLINK-formeln* Fixade en bugg med att spara namn* Fixade en bugg med att spara arbetsbok med skyddad struktur* Fixade en bugg i set Name-objektets text* Fixade en bugg med att hämta strängvärde för sammanslagna celler* Fixade en bugg för bearbetning av SmartMarker for WorkbookDesigner
+- Fixade några buggar i beräkningsformeln*Fixade några buggar med att läsa mallfilen* Fixade en bugg för att få bildens skala* Fixade en bugg med att spara NamedStyle* Fixade ett fel med att ställa in kommentarens gränslinje synlig* Fixade en bugg med att ställa in cellens kantlinje* Fixade en bugg med HYPERLINK-formeln* Fixade en bugg med att spara namn* Fixade en bugg med att spara arbetsbok med skyddad struktur* Fixade en bugg i set Name-objektets text* Fixade en bugg med att hämta strängvärde för sammanslagna celler* Fixade en bugg för bearbetning av SmartMarker for WorkbookDesigner

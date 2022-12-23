@@ -13,7 +13,7 @@ Aspose.Cells for JasperReports は、JasperReports および JasperServer から
 |**特徴** |**説明** |
 |:- |:- |
 |[XLS または XLSX エクスポート](/cells/ja/jasperreports/xls-or-xlsx-export/)|Microsoft Excel を使用せずに、アプリケーションからレポートを Microsoft Excel XLS 形式でエクスポートします。|
-|[レポートデザインへの高い忠実度](/cells/ja/jasperreports/high-fidelity-to-the-report-design/)|XLS/XLSX レポートのレイアウトと外観は、PDF やその他の形式と同様に、元のレポートと同じです。|
+|[レポートデザインへの高い忠実度](/cells/ja/jasperreports/high-fidelity-to-the-report-design/)|XLS/XLSX レポートのレイアウトと外観は、PDF またはその他の形式と同様に、元のレポートと同じです。|
 |[簡単で軽量な導入](/cells/ja/jasperreports/easy-and-lightweight-deployment/)| Aspose.Cells[ジャスパーレポート](https://community.jaspersoft.com/project/jasperreports-library)です[ジャスパーレポート](https://community.jaspersoft.com/project/jasperreports-library)JasperServer エクスポーターを Microsoft Excel 形式に変換します。|
 |[シンプルで手頃なライセンス](/cells/ja/jasperreports/simple-and-affordable-licensing/)|ソースコードで簡単に使用できる手頃な価格のライセンスを提供します|
 |[ワールドクラスの無料技術サポート](/cells/ja/jasperreports/world-class-free-technical-support/)|無制限のテクニカル サポートは、製品の開発者によって直接提供されます。|

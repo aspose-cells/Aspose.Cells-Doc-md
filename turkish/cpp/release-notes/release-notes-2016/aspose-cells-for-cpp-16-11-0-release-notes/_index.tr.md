@@ -14,7 +14,7 @@ Aspose.Cells for C++ yepyeni ürünümüzü lanse etmekten mutluluk duyuyoruz!
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSPORTINGC-417|XLS, OOXML dosya formatlarını Aç/Kaydet|Yeni özellik|
+|CELLSPORTINGC-417|Aç/Kaydet XLS, OOXML dosya biçimleri|Yeni özellik|
 |CELLSPORTINGC-418|Stilleri ve Biçimlendirmeyi çalışma sayfası hücrelerine ayarla|Yeni özellik|
 |CELLSPORTINGC-419|Hücrelere veri doğrulama uygula|Yeni özellik|
 |CELLSPORTINGC-420|Otomatik Filtre kullanarak verileri filtreleme|Yeni özellik|

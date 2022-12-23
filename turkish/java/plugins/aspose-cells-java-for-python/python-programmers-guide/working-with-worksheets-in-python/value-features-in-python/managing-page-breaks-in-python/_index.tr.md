@@ -6,7 +6,7 @@ url: /tr/java/managing-page-breaks-in-python/
 ---
 ## **Aspose.Cells - Sayfa Sonlarını Yönetme**
 ### **Sayfa Sonları Ekleme**
- kullanarak sayfa sonları eklemek için**Yakut için Aspose.Cells Java** , aramak**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ kullanarak sayfa sonları eklemek için**Yakut için Aspose.Cells Java** , Arama**add_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 
@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Tüm Sayfa Sonlarını Temizleme**
- kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for Python** , aramak**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ kullanarak tüm sayfa sonlarını temizlemek için**Aspose.Cells Java for Python** , Arama**clear_all_page_breaks** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Belirli Sayfa Sonunu Kaldırma**
- Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for Python** , aramak**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
+ Kullanarak belirli sayfa sonunu kaldırmak için**Aspose.Cells Java for Python** , Arama**remove_page_break** yöntemi**sayfa sonları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 

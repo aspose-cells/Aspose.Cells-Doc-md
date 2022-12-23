@@ -10,6 +10,6 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.12 per Wi
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-570|Aggiungi istruzione throw per correggere l'eccezione del puntatore nullo|Insetti|

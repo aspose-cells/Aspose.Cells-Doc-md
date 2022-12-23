@@ -10,7 +10,7 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-22-3-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSSP-72|Améliorer Aspose.Cells pour Share Point|Amélioration|
 

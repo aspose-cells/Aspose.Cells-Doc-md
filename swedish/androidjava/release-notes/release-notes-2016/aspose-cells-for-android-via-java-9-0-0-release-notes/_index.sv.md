@@ -18,25 +18,25 @@ url: /sv/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41930|Genom att använda Light Cells API:er för att bearbeta en XLS-fil, bearbetas alltid den första cellen i det första arket|Insekt|
 |CELLSJAVA-41931|Teckenavstånd och brytning är inte korrekta för vertikal text vid rendering av kalkylark till PDF|Insekt|
 |CELLSJAVA-41709|Kolumnbredderna är annorlunda på CentOS än på Windows|Insekt|
-|CELLSJAVA-41933|Diagramskalan har ändrats vid rendering av kalkylark till PDF|Insekt|
+|CELLSJAVA-41933|Diagramskalan har ändrats under renderingen av kalkylarket till PDF|Insekt|
 |CELLSJAVA-41934|Justeringsproblem vid rendering av en Excel-fil till PDF|Insekt|
 |CELLSJAVA-41935|Formatering av förklaringsposter störs när kalkylbladet renderas till PDF|Insekt|
 |CELLSJAVA-41943|Horisontella axeletiketter har inte renderats helt, det vill säga; alla etiketter saknar visst innehåll i den renderade bilden.|Insekt|
 |CELLSJAVA-41940|Filen är skadad efter formelberäkning och spara|Insekt|
 |CELLSJAVA-41952|Beräkningsresultatet är inte korrekt|Insekt|
 |CELLSJAVA-41941|Matrisformeln beräknas inte korrekt|Insekt|
-|CELLSJAVA-41937|Vissa värden från Excel-filen saknas i utgången HTML - XLS till HTML-konvertering|Insekt|
+|CELLSJAVA-41937|Vissa värden från Excel-filen saknas i utgången HTML - XLS till HTML konvertering|Insekt|
 |CELLSJAVA-41969|Cell skuggning saknas vid konvertering av HTML till XLSX|Insekt|
 |CELLSJAVA-41955|Arbetsbok till HTML visar '#' i celler|Insekt|
 |CELLSJAVA-41942|Kanter saknas, cellskuggning och bilder - HTML till Excel-rendering|Insekt|
 |CELLSJAVA-41967|Cells saknas i PDF när flera utskriftsområden definieras i ett enda ark|Insekt|
 |CELLSJAVA-41958|Förklaringen på höger sida avkortas i diagrambilden|Insekt|
-|CELLSJAVA-41953|Text felplacerad i diagrammet efter konvertering till HTML-format|Insekt|
-|CELLSJAVA-41948|Diagrammet ändras vid konvertering av kalkylblad till HTML|Insekt|
-|CELLSJAVA-41981|Felaktig position av vertikal linje i diagrammets PDF|Insekt|
+|CELLSJAVA-41953|Text felplacerad i diagrammet efter omvandling till HTML-format|Insekt|
+|CELLSJAVA-41948|Diagrammet ändras när kalkylbladet konverteras till HTML|Insekt|
+|CELLSJAVA-41981|Felaktig position för vertikal linje i diagrammets PDF|Insekt|
 |CELLSJAVA-41964|Autofit tar inte hänsyn till indragsnivå|Insekt|
 |CELLSJAVA-40260|Ändra texten i en befintlig WordArt i en Excel-fil|Insekt|
-|CELLSJAVA-41927|Undantag: "java.lang.OutOfMemoryError" när du sparar i HTML-filformat|Undantag|
+|CELLSJAVA-41927|Undantag: "java.lang.OutOfMemoryError" när du sparar i filformatet HTML|Undantag|
 |CELLSJAVA-41945|CellsException: Fel vid beräkning av Cell[0Sheet1!E5]at Workbook.calculateFormula vid beräkning av TREND-funktionen|Undantag|
 |CELLSJAVA-41946|Att öppna Excel-fil orsakar java.lang.NumberFormatException: För inmatningssträng: "80000020"|Undantag|
 |CELLSJAVA-41922|IndexOutOfBoundsException vid kopiering av celler|Undantag|

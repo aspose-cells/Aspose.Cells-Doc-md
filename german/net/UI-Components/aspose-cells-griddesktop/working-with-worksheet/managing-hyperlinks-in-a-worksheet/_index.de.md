@@ -16,9 +16,9 @@ Um mit Aspose.Cells.GridDesktop einen Hyperlink zu einer Zelle hinzuzufügen, f�
 -  Greifen Sie beliebig zu**Arbeitsblatt**
 -  Greifen Sie auf eine gewünschte zu**Cell** in dem Arbeitsblatt, das verlinkt wird
 - Fügen Sie der zu verknüpfenden Zelle einen Wert hinzu
--  Hinzufügen**Hyperlinks** zum Arbeitsblatt hinzufügen, indem Sie den Zellennamen angeben, auf den der Hyperlink angewendet werden soll
+-  Addieren**Hyperlinks** zum Arbeitsblatt hinzufügen, indem Sie den Zellennamen angeben, auf den der Hyperlink angewendet werden soll
 
-**Hyperlinks** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Hinzufügen** Methode. Entwickler können jede überladene Version von verwenden**Hinzufügen** Methode nach ihren spezifischen Bedürfnissen.
+**Hyperlinks** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Addieren** Methode. Entwickler können jede überladene Version von verwenden**Addieren** Methode nach ihren spezifischen Bedürfnissen.
 
  Der folgende Code fügt einen Hyperlink hinzu**B2** und**C3** Zellen des Arbeitsblatts.
 

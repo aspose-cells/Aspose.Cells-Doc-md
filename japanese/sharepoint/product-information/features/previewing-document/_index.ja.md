@@ -6,10 +6,10 @@ url: /ja/sharepoint/previewing-document/
 ---
 Aspose.Cells for Share Point は、SharePoint から直接ドキュメントをプレビューすることをサポートしています。次の形式はプレビューをサポートしています。
 
-- XLS – Microsoft エクセル 97 - 2003
-- XLSX – Office オープン XML
-- XLSM、XLTX、XLTM – オフィス オープン XML
-- XML – Microsoft Excel スプレッドシートML
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – オフィス オープン XML
+- XLSM、XLTX、XLTM – Office オープン XML
+- XML – Microsoft エクセル SpreadsheetML
 
 **プレビューするドキュメントの選択** 
 

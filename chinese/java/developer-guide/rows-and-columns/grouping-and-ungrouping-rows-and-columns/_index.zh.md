@@ -11,7 +11,7 @@ url: /zh/java/grouping-and-ungrouping-rows-and-columns/
 
 行和列的分组
 
-![待办事项：图像_替代_文本](grouping-and-ungrouping-rows-and-columns_1.png)
+![待办事项：图片_替代_文本](grouping-and-ungrouping-rows-and-columns_1.png)
 ## **行列分组管理**
 Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)表示 Microsoft Excel 文件。这[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类包含一个[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)允许访问 Excel 文件中每个工作表的集合。工作表由[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)班级。这[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)类提供了[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)代表工作表中所有单元格的集合。
 
@@ -29,12 +29,12 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 ## **群组设置**
 Microsoft Excel 还允许配置用于显示的组设置：
 
-- 详细信息下方的摘要行。
+- 详细信息下方的汇总行。
 - 详细信息右侧的摘要列。
 
 **群组设置** 
 
-![待办事项：图像_替代_文本](grouping-and-ungrouping-rows-and-columns_2.png)
+![待办事项：图片_替代_文本](grouping-and-ungrouping-rows-and-columns_2.png)
 
 可以使用 Worksheet 类的 Outline 属性配置这些组设置。
 ### **详细信息下方的汇总行**

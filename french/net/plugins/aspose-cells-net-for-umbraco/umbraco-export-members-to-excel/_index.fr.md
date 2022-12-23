@@ -14,7 +14,7 @@ Cette version initiale de l'Add-on possède les fonctionnalités suivantes :
 
 - Exporter des membres vers des documents Excel Microsoft (.xls, .xlsx et .xlsb)
 - Exporter les membres vers un document texte délimité par des tabulations (.txt)
-- Exporter les membres au format CSV (délimité par des virgules) (*.csv)
+- Exporter les membres vers CSV (séparés par des virgules) (*.csv)
 - Exporter les membres vers la feuille de calcul OpenDocument (*.ods)
 - Option pour sélectionner le format de sortie souhaité avant l'exportation
 - Option pour exporter tous les membres ou certains membres vers le format de document de sortie sélectionné.
@@ -63,9 +63,9 @@ Une fois téléchargé, veuillez suivre ces étapes pour installer ce package su
 
 {{< /highlight >}}
 
-## **Utilisant**
+## **En utilisant**
 
-Après avoir installé la macro, il est très simple de commencer à l'utiliser sur votre site Web :
+Après avoir installé la macro, il est très simple de commencer à l'utiliser sur votre site Web :
 
 1. Assurez-vous que vous êtes connecté à Umbraco**Développeur** section, par exemple `http://www.myblog.com/umbraco/`
 1.  Cliquez sur**Membres** dans la liste des rubriques en bas à gauche de l'écran.

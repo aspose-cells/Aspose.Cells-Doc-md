@@ -21,13 +21,13 @@ url: /es/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47984|Admite la función ELSE al convertir xls a xlsx|Mejora|
 |CELLSNET-47989| Admite la configuración de PageOrientationType global|Mejora|
 |CELLSNET-48051|PasteType.Values solo funciona cuando se pega en otro lugar que no sea el rango de origen|Mejora|
-|CELLSNET-47956|Espera calculando la fórmula|Actuación|
-|CELLSNET-47982|Nuevo libro de trabajo colgado en un archivo no válido|Actuación|
-|CELLSNET-48012|Mejore el rendimiento para leer archivos .ods con una amplia gama de validaciones.|Actuación|
-|CELLSNET-48039|Bucle infinito al guardar el libro de trabajo copiado|Actuación|
-|CELLSNET-44224|La marca de agua de WordArt no se representa en el formato de archivo PDF de salida|Insecto|
+|CELLSNET-47956|Espera calculando la fórmula|Rendimiento|
+|CELLSNET-47982|Nuevo libro de trabajo colgado en un archivo no válido|Rendimiento|
+|CELLSNET-48012|Mejore el rendimiento para leer archivos .ods con una amplia gama de validaciones.|Rendimiento|
+|CELLSNET-48039|Bucle infinito al guardar el libro de trabajo copiado|Rendimiento|
+|CELLSNET-44224|La marca de agua de WordArt no se representa en el formato de archivo de salida PDF|Insecto|
 |CELLSNET-47887|El texto dentro de la forma está fuera de lugar|Insecto|
-|CELLSNET-47920|Se pierden algunos contenidos en la conversión de HTML a Excel|Insecto|
+|CELLSNET-47920|Se pierden algunos contenidos en la conversión HTML a Excel|Insecto|
 |CELLSNET-47981|El resultado de exportar rango con celdas combinadas a html es incorrecto|Insecto|
 |CELLSNET-47985|Menos número de filas al convertir a html|Insecto|
 |CELLSNET-47987|Mueva el campo dinámico a la sección de página o a los filtros dinámicos|Insecto|
@@ -38,14 +38,14 @@ url: /es/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|Valor incorrecto 'VERDADERO' recuperado de Cell en lugar del valor 'FALSO'|Insecto|
 |CELLSNET-48042|Los valores de celda con formato recuperados son incorrectos en la hoja de cálculo de Excel|Insecto|
 |CELLSNET-48031|Aparece el "Error de forma a imagen" al convertir un archivo xlsx a html|Insecto|
-|CELLSNET-48037|La imagen se distorsiona al guardar en PDF|Insecto|
+|CELLSNET-48037|La imagen está distorsionada al guardar en PDF|Insecto|
 |CELLSNET-47714|El texto en el eje vertical se superpone al eje horizontal en el gráfico cuando se convierte a EMF|Insecto|
-|CELLSNET-47856|Problema de conversión de XLSX a PDF con tablas dinámicas|Insecto|
-|CELLSNET-47986|Gráfico a imagen/PDF: salida incorrecta con el tipo de gráfico de cascada|Insecto|
-|CELLSNET-48010|Excepción al cargar archivos XLSX de Excel 2010|Insecto|
+|CELLSNET-47856|XLSX a PDF problema de conversión con tablas dinámicas|Insecto|
+|CELLSNET-47986|Gráfico a imagen/PDF: salida incorrecta con el tipo de gráfico Cascada|Insecto|
+|CELLSNET-48010|Excepción al cargar archivos de Excel 2010 XLSX|Insecto|
 |CELLSNET-48020|Los controles de formulario se eliminan después de Cargar y guardar Excel 95 a través de Aspose.Cells|Insecto|
 |CELLSNET-48033|Archivo de Excel dañado después de cargar y guardar|Insecto|
-|CELLSNET-47957| Aparece el mensaje "Error de forma a imagen" al convertir un archivo de Excel a formato de archivo PDF|Excepción|
+|CELLSNET-47957| Aparece el mensaje "Error de forma a imagen" al convertir un archivo de Excel al formato de archivo PDF|Excepción|
 |CELLSNET-48027|Excepción de parámetro no válido al convertir forma en imagen|Excepción|
 |CELLSNET-48029|Aparece el mensaje "Error de forma a imagen"|Excepción|
 |CELLSNET-48017|Excepción "La cadena de entrada no tenía el formato correcto" al importar un archivo html|Excepción|
@@ -56,7 +56,7 @@ url: /es/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47980|Se produjo un error al guardar un archivo de Excel por Aspose.Cells|Excepción|
 |CELLSNET-48001|Excepción de índice de fila no válida al llamar a GetPrintingPageBreaks()|Excepción|
 |CELLSNET-48022|Border.LineType inesperado de una celda|Excepción|
-|CELLSNET-48032|Excepción al abrir el archivo ODS del documento|Excepción|
+|CELLSNET-48032|Excepción al abrir el documento ODS archivo|Excepción|
 |
 
 
@@ -295,7 +295,7 @@ Utilice la enumeración SaveFormat.Svg en su lugar.
 ### **Obsoleta la enumeración LoadFormat.TSV y agrega la enumeración LoadFormat.Tsv.**
 
  
-Utilice la enumeración LoadFormat.Tsv en su lugar.
+ Utilice la enumeración LoadFormat.Tsv en su lugar.
 
 ### **Obsoleta la enumeración LoadFormat.ODS y agrega la enumeración LoadFormat.Ods.**
 

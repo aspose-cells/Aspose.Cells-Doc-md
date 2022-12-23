@@ -28,7 +28,7 @@ url: /de/java/aspose-cells-for-java-8-5-2-release-notes/
 ## **Verbesserungen**
 
 
- (CELLSJAVA-41373) – Nichtübereinstimmung in den Ausrichtungseinstellungen nach dem Speichern einer Excel-Datei im HTML-Dateiformat
+ (CELLSJAVA-41373) – Abweichung in den Ausrichtungseinstellungen nach dem Speichern der Excel-Datei im Dateiformat HTML
 
 
 ## **Fehler**
@@ -40,11 +40,11 @@ url: /de/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) – Die Option „Zusammenführen und zentrieren“ wurde ausgewählt, obwohl sie eine einzelne Zelle hat
 
- (CELLSJAVA-41429) – Die Lotus-Kompatibilitätseinstellungen für die Eingabe von Übergangsformeln werden nach dem erneuten Speichern der Tabelle geändert
+(CELLSJAVA-41429) – Die Lotus-Kompatibilitätseinstellungen für die Eingabe von Übergangsformeln werden nach dem erneuten Speichern der Tabelle geändert
 
  (CELLSJAVA-41427) – Zu viele Validierung Cells beschädigt die XLS-Datei
 
-(CELLSJAVA-41424) – Die Verwendung einer benutzerdefinierten Funktion über die ICustomFunction-Schnittstelle berechnet nicht den korrekten Wert
+ (CELLSJAVA-41424) – Die Verwendung einer benutzerdefinierten Funktion über die ICustomFunction-Schnittstelle berechnet nicht den korrekten Wert
 
  (CELLSJAVA-41423) – Falsches Layout beim Rendern von PDF aus einer ODS-Datei
 
@@ -52,7 +52,7 @@ url: /de/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells hält Millionen von Zellen für immer fest
 
- (CELLSJAVA-41395) – Konvertierung von ODS in HTML – Probleme mit dem Textstil
+ (CELLSJAVA-41395) - ODS bis HTML Konvertierung - Probleme mit dem Textstil
 
  (CELLSJAVA-41426) - Cell Diagramm mit x-Achse wird beim Konvertieren in PDF nicht korrekt skaliert
 
@@ -74,7 +74,7 @@ url: /de/java/aspose-cells-for-java-8-5-2-release-notes/
 
  Fügt die SaveOptions.MergeAreas-Eigenschaft hinzu.
 
- Es wird verwendet, um einzelne CellAreas der bedingten Formatierung und Validierung zusammenzuführen.
+Es wird verwendet, um einzelne CellAreas der bedingten Formatierung und Validierung zusammenzuführen.
 
 
 
@@ -84,7 +84,7 @@ url: /de/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-Fügt die Methode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) hinzu
+ Fügt die Methode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) hinzu
 
  Rendern Sie eine bestimmte Seite von SheetRender in eine Grafik.
 

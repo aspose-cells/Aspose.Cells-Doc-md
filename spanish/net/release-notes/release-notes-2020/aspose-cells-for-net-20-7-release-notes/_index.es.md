@@ -18,10 +18,10 @@ url: /es/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47408|Investigue problemas al cargar dos archivos sincronizados en aspose.cells.app|Mejora|
 |CELLSNET-47441|Vínculos de control de formulario eliminados en Office 365|Mejora|
 |CELLSNET-47473|Compruebe si la estructura o ventana del libro de trabajo está protegida con una contraseña.|Mejora|
-|CELLSNET-47433|Worksheet.Cells.RemoveDuplicates no funciona o lleva demasiado tiempo.|Actuación|
-|CELLSNET-46753|WorkbookDesigner.Process () se bloquea para grandes datos|Actuación|
+|CELLSNET-47433|Worksheet.Cells.RemoveDuplicates no funciona o lleva demasiado tiempo.|Rendimiento|
+|CELLSNET-46753|WorkbookDesigner.Process () se bloquea para grandes datos|Rendimiento|
 |CELLSNET-47379|Conversión de HTML a Excel: faltan los bordes cuando se definen en CSS|Insecto|
-|CELLSNET-47394|La leyenda del gráfico que contiene fechas tiene un formato diferente en la salida de PDF|Insecto|
+|CELLSNET-47394|La leyenda del gráfico que contiene fechas tiene un formato diferente en la salida PDF|Insecto|
 |CELLSNET-47400|Formato condicional diferente al establecido en Excel|Insecto|
 |CELLSNET-47402|Tablas dinámicas no actualizadas|Insecto|
 |CELLSNET-47404|Los caracteres chinos son ilegibles al cargar el archivo .mht.|Insecto|
@@ -34,11 +34,11 @@ url: /es/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47443|Los autofiltros no funcionan correctamente en Aspose.Cells.GridDesktop|Insecto|
 |CELLSNET-47460|La impresión de GridWeb en Firefox reciente (versiones: 77 y 78) no funciona|Insecto|
 |CELLSNET-47461|La selección de varias celdas en GridWeb no funciona en las últimas versiones de Firefox|Insecto|
-|CELLSNET-47417|La altura de la celda es insuficiente en la representación de Excel a PDF|Insecto|
+|CELLSNET-47417|La altura de la celda es insuficiente en Excel para la representación PDF|Insecto|
 |CELLSNET-47437|PDF convertido de XLS genera un error en Acrobat Reader|Insecto|
-|CELLSNET-47423|Las etiquetas del eje de valor y del eje de categoría en los gráficos no se representan en la conversión de Excel a PDF|Insecto|
+|CELLSNET-47423|Las etiquetas del eje de valor y del eje de categoría en los gráficos no se representan en Excel para la conversión PDF|Insecto|
 |CELLSNET-47429|El gráfico Sunburst con color de relleno personalizado y sin etiquetas de datos arroja un error en el método ToImage|Insecto|
-|CELLSNET-47438|Color del gráfico de dispersión Conversión de Excel a PDF|Insecto|
+|CELLSNET-47438|Color del gráfico de dispersión Excel a PDF conversión|Insecto|
 |CELLSNET-47401|Los valores de la tabla cambiaron después de eliminar filas|Insecto|
 |CELLSNET-47407|Los archivos combinados están dañados.|Insecto|
 |CELLSNET-47412|Tipo de gráfico incorrecto devuelto para algunos gráficos|Insecto|
@@ -77,4 +77,4 @@ Obtiene un enumerador sobre los elementos de esta colección en la secuencia ade
 #### **Agrega la propiedad Workbook.IsWorkbookProtectedWithPassword.**
 Indica si la estructura y la ventana están protegidas con contraseña.
 #### **Agregue las clases PowerQueryFormulaParameters y PowerQueryFormulaParameter**
-Representa los parámetros de la fórmula de consulta de potencia.
+Representa los parámetros de la fórmula de consulta de energía.

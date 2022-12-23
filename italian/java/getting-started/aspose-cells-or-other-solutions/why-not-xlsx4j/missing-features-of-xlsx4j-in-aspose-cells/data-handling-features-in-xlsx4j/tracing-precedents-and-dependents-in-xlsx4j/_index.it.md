@@ -16,7 +16,7 @@ Aspose.Cells permette di rintracciare le celle e scoprire quali sono collegate.
 
 Rintracciare i precedenti
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -86,7 +86,7 @@ if(ret != null)
 
 Tracciamento dei dipendenti
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

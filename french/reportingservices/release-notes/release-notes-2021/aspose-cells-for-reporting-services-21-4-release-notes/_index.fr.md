@@ -10,9 +10,9 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSRS-577|Prise en charge de l'exportation TIFF.|Nouvelle fonctionnalité|
+|CELLSRS-577|Support pour exporter TIFF.|Nouvelle fonctionnalité|
 |CELLSRS-578|Met à niveau la version Aspose.Cells vers 21.4.2.| Amélioration|
 
 

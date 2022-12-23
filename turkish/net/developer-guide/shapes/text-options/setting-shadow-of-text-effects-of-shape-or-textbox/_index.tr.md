@@ -6,7 +6,7 @@ url: /tr/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
 {{% alert color="primary" %}}
 
- ayarlayabilirsiniz**Gölge** nın-nin**Metin Efektleri** herhangi bir Şekil veya Metin Kutusu. lütfen[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) Emlak. Şeklin metninin ayarını sunar ve döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) nesneler. Eriştikten sonra, lütfen**Gölge** aracılığıyla[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) Emlak. Bu özellik şu türdendir:[**ÖnayarGölgeTürü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)birkaç değeri olan. Bunlardan bazıları
+ ayarlayabilirsiniz**Gölge** ile ilgili**Metin Efektleri** herhangi bir Şekil veya Metin Kutusu. lütfen[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) Emlak. Şeklin metninin ayarını sunar ve döndürür[**Yazı Tipi Ayarı**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) nesneler. Eriştikten sonra, lütfen**Gölge** yolu ile[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) Emlak. Bu özellik şu türdendir:[**ÖnayarGölgeTürü**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)birkaç değeri olan. Bunlardan bazıları
 
 - OfsetÇaprazAltSağ
 - OfsetAlt

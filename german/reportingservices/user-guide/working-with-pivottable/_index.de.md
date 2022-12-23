@@ -77,7 +77,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 1. Erstellen Sie ein neues Blatt für die Pivot-Tabelle.
 1.  Von dem**Daten** Menü, auswählen**PivotTable- und PivotChart-Bericht** um eine Pivot-Tabelle hinzuzufügen.
  Ein Dialogfeld wird angezeigt.
-1.  Auswählen**Microsoft Office Excel-Liste oder -Datenbank** als Datenquelle u**Pivot-Tabelle** als Berichtstyp.
+1.  Wählen**Microsoft Office Excel-Liste oder -Datenbank** als Datenquelle u**Pivot-Tabelle** als Berichtstyp.
 1.  Klicken**Nächste** weitermachen.
 
 ![todo: Bild_alt_Text](working-with-pivottable_3.png)

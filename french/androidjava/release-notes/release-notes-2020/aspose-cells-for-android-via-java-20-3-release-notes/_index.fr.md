@@ -10,18 +10,18 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41325|La méthode Cell.getValidation renvoie null pour ODS|Nouvelle fonctionnalité|
 |CELLSJAVA-43137|Light Cells API : traitement des feuilles dans un ordre spécifique|Nouvelle fonctionnalité|
 |CELLSJAVA-43135|Supprimer ActiveXControl de la forme de l'image|Nouvelle fonctionnalité|
 |CELLSJAVA-43141|Ajouter la propriété ThreadedComment.CreatedTime|Nouvelle fonctionnalité|
-|CELLSJAVA-43074|XLSX en PDF, différence de sortie PDF lors de l'utilisation d'Oracle JDK par rapport à Open JDK|Renforcement|
-|CELLSJAVA-43076|Définir le type d'image EMF dans le fichier HTML rendu|Renforcement|
+|CELLSJAVA-43074|XLSX à PDF, différence de sortie PDF lors de l'utilisation d'Oracle JDK par rapport à Open JDK|Renforcement|
+|CELLSJAVA-43076|Définir le type d'image EMF dans le fichier rendu HTML|Renforcement|
 |CELLSJAVA-43113|Conversion en PDF - java.lang.NumberFormatException : pour la chaîne d'entrée|Renforcement|
-|CELLSJAVA-43114|Conversion en PDF - Formule invalide :"'AVRIL''12'.A1:'AVRIL''12'.I23"|Renforcement|
+|CELLSJAVA-43114|Conversion en PDF - Formule invalide :"'AVRIL''12'.A1 :'AVRIL''12'.I23"|Renforcement|
 |CELLSJAVA-43117|Conversion en PDF - hex n'est pas un nombre hexadécimal valide !|Renforcement|
-|CELLSJAVA-43118|Conversion en PDF - java.lang.NumberFormatException : pour la chaîne d'entrée : "341,403,811.74"|Renforcement|
+|CELLSJAVA-43118|Conversion en PDF - java.lang.NumberFormatException : pour la chaîne d'entrée : "341 403 811.74"|Renforcement|
 |CELLSJAVA-43083|L'opacité n'est pas appliquée aux histogrammes|Punaise|
 |CELLSJAVA-41879|%of, %of Row, %of ParentRowTotal, %ParentTotal, etc. ne fonctionnent pas dans la sortie pivot excel|Punaise|
 |CELLSJAVA-43062|La couleur d'arrière-plan par défaut de Cell est incorrecte dans la sortie HTML|Punaise|
@@ -29,30 +29,30 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43070|calculateFormula() ne calcule pas la valeur|Punaise|
 |CELLSJAVA-43086|Le style de format de pourcentage est appliqué de manière incorrecte sous les paramètres régionaux norvégiens|Punaise|
 |CELLSJAVA-43082|Police plus petite rendue dans chaque première ligne du tableau|Punaise|
-|CELLSJAVA-41360|Cells avec des formules sont affichées à l'intérieur du PDF alors qu'elles ne sont pas affichées à l'intérieur de l'ODS|Punaise|
-|CELLSJAVA-42786|ODS vers XLSX - le graphique linéaire perd des entrées de lignes et de légendes|Punaise|
-|CELLSJAVA-42788|ODS vers XLSX - le cercle devient carré|Punaise|
+|CELLSJAVA-41360|Cells avec des formules sont affichés à l'intérieur du PDF alors qu'ils ne sont pas affichés à l'intérieur du ODS|Punaise|
+|CELLSJAVA-42786|ODS à XLSX - le graphique linéaire perd des entrées de lignes et de légendes|Punaise|
+|CELLSJAVA-42788|ODS à XLSX - le cercle devient carré|Punaise|
 |CELLSJAVA-43073|Les informations DataMashup ne sont pas accessibles dans le classeur|Punaise|
 |CELLSJAVA-43092|Impossible de traiter le fichier Excel|Punaise|
-|CELLSJAVA-43077|Exception "Type d'image inattendu" déclenchée lors du rendu de la feuille de calcul au format HTML|Punaise|
+|CELLSJAVA-43077|Exception "Type d'image inattendu" déclenchée lors du rendu de la feuille de calcul à HTML|Punaise|
 |CELLSJAVA-43096|Le programme se bloque lors de la conversion du fichier Excel en HTML|Punaise|
 |CELLSJAVA-43107|Conversion en PDF - com.aspose.cells.CellsException : Erreur de forme en image !|Punaise|
 |CELLSJAVA-43108|Conversion en PDF - com.aspose.cells.CellsException|Punaise|
-|CELLSJAVA-43088|La carte radar n'est pas rendue dans le fichier de sortie lors de la conversion XLSX en PDF|Punaise|
+|CELLSJAVA-43088|La carte radar n'est pas rendue dans le fichier de sortie lors de la conversion XLSX à PDF|Punaise|
 |CELLSJAVA-43099|L'image de la feuille de calcul ne s'affiche pas correctement|Punaise|
 |CELLSJAVA-43093|Le contrôle ActiveX n'est pas détecté dans le format de fichier XLS|Punaise|
 |CELLSJAVA-43104|Problèmes avec getShowTabs et setShowTabs|Punaise|
-|CELLSJAVA-43121|OOM essayant d'obtenir le nombre de pages en XLS|Punaise|
+|CELLSJAVA-43121|OOM essayant d'obtenir le nombre de pages dans XLS|Punaise|
 |CELLSJAVA-43125|Les objets formulaire et ActiveX sont dupliqués|Punaise|
 |CELLSJAVA-42068|GIF dans la feuille de calcul est incorrect lorsque le classeur est converti en HTML|Punaise|
 |CELLSJAVA-43127|Le tableau croisé dynamique Excel n'est pas automatiquement actualisé lors de la première ouverture du fichier|Punaise|
-|CELLSJAVA-43129|Le texte chinois est tronqué lors de la conversion HTML vers XLS|Punaise|
+|CELLSJAVA-43129|Le texte chinois est brouillé dans la conversion HTML à XLS|Punaise|
 |CELLSJAVA-43139|Les graphiques de la feuille ne sont pas actualisés lors du rendu de la feuille de calcul en image|Punaise|
 |CELLSJAVA-43148|Erreur de position de l'étiquette du graphique|Punaise|
 |CELLSJAVA-43124|Lors de la conversion en PDF, deux colonnes sont coupées du tableau|Punaise|
 |CELLSJAVA-43091|Les étiquettes de données sur le graphique Donuts se chevauchent dans le fichier PDF|Punaise|
 |CELLSJAVA-43132|Étiquettes de données manquantes dans certains graphiques lors de l'exportation d'un graphique vers une image|Punaise|
-|CELLSJAVA-43143|Après WorkbookDesigner.process, la sortie du graphique est nulle en HTML|Punaise|
+|CELLSJAVA-43143|Après WorkbookDesigner.process, la sortie du graphique est nulle dans HTML|Punaise|
 |CELLSJAVA-43098|Le remplacement d'un objet intégré par une image ne fonctionne pas pour le format de fichier XLS|Punaise|
 |CELLSJAVA-43122|Problème avec l'ordre des commentaires filetés après l'importation au format de fichier Office365 XLSX|Punaise|
 |CELLSJAVA-43134|La valeur de chaîne d'une cellule est vide dans Apple Numbers'09|Punaise|
@@ -63,10 +63,10 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43105|Conversion en PDF - java.lang.ArrayIndexOutOfBoundsException : 60|Exception|
 |CELLSJAVA-43106|Conversion en PDF - java.lang.IllegalArgumentException|Exception|
 |CELLSJAVA-43109|Conversion en PDF - java.lang.NullPointerException|Exception|
-|CELLSJAVA-43111|Conversion en PDF - com.aspose.cells.CellsException : données invalides !|Exception|
+|CELLSJAVA-43111|Conversion en PDF - com.aspose.cells.CellsException : données non valides !|Exception|
 |CELLSJAVA-43112|Conversion en PDF - java.lang.NullPointerException|Exception|
 |CELLSJAVA-43115|Conversion en PDF - java.lang.NegativeArraySizeException|Exception|
-|CELLSJAVA-43116|Conversion en PDF - java.lang.IllegalStateException : Le stockage structuré semble être corrompu.|Exception|
+|CELLSJAVA-43116|Conversion en PDF - java.lang.IllegalStateException : Le stockage structuré semble être corrompu.|Exception|
 |CELLSJAVA-43120|java.lang.NumberFormatException lors de la conversion du classeur en PDF|Exception|
 |CELLSJAVA-43140|IllegalArgumentException lors de l'appel de calculateFormula()|Exception|
 |CELLSJAVA-43110|Conversion en PDF - java.lang.NullPointerException|Exception|
@@ -87,7 +87,7 @@ Type de signature électronique avancée XML (XAdES).
 ### **Ajoute la propriété DigitalSignature.XAdESType**
 Obtient et définit le type de signature électronique avancée XML (XAdES). La valeur par défaut est Aucune (XAdES est désactivé).
 ### **Ajoute la propriété FormulaParseOptions.Parse.**
- Indique si la formule doit être analysée lors de la définition d'une expression de formule dans la cellule. La valeur par défaut est**vrai** . Si**faux**l'expression de formule d'entrée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser ou que des données de formule analysées soient requises par d'autres opérations telles que le calcul de formules.
+ Indique si la formule doit être analysée lors de la définition d'une expression de formule dans la cellule. La valeur par défaut est**vrai** . Si**faux**, l'expression de formule d'entrée sera conservée telle quelle pour la cellule jusqu'à ce que l'utilisateur appelle d'autres méthodes pour les analyser ou que des données de formule analysées soient requises par d'autres opérations telles que le calcul de formules.
 ### **Ajoute la méthode Workbook.ParseFormulas(bool ignoreError).**
 Analyse toutes les formules qui n'ont pas été analysées lorsqu'elles ont été chargées ou définies dans une cellule.
 ### **Ajoute la propriété PivotTable.ExternalConnectionDataSource.**

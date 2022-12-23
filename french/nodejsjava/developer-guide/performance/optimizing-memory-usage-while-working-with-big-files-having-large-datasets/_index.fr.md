@@ -18,7 +18,7 @@ L'exemple suivant montre comment optimiser l'utilisation de la mémoire tout en 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-nodejs-optimize-memory-usage-while-working-with-large-data.java" >}}
 
-## **Mise en garde**
+## **Prudence**
 
  L'option par défaut,[**Réglage de la mémoire.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL)est appliqué pour toutes les versions. Dans certaines situations, telles que la création d'un classeur avec un grand ensemble de données pour les cellules, le[**MemorySetting.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)L'option peut optimiser l'utilisation de la mémoire et réduire le coût de la mémoire pour l'application. Cependant, cette option peut dégrader les performances dans certains cas particuliers tels que les suivants.
 

@@ -6,7 +6,7 @@ url: /zh/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-有时，您想要将一系列页面打印到输出 PDF 文件。 Aspose.Cells 可以设置将 Excel 电子表格转换为 PDF 时生成多少页的限制。
+有时，您希望将一系列页面打印到输出 PDF 文件中。 Aspose.Cells 可以设置将 Excel 电子表格转换为 PDF 时生成多少页的限制。
 
 {{% /alert %}}
 

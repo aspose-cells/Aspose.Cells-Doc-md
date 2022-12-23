@@ -8,7 +8,7 @@ url: /tr/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 
 - [Yeni Çalışma Sayfası Oluştur](/cells/tr/java/create-new-worksheet)
 - [Çalışma Sayfasına Görüntü Ekle](/cells/tr/java/add-images-in-worksheet/)
-- [Çalışma Sayfasını CSV'ye Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
+- [Çalışma Sayfasını CSV'e Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
 - [Çalışma Kitabı İçinde Sayfayı Kopyala](/cells/tr/java/copy-sheet-within-workbook/)
 - [Çalışma Kitabında Sayfaları Yeniden Sırala](/cells/tr/java/re-order-sheets-within-workbook/)
 - [Üstbilgi ve Altbilgiler](/cells/tr/java/header-and-footers/)

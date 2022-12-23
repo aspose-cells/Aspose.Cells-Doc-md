@@ -19,12 +19,12 @@ Estamos
  y escribir archivos MHT
 - Soporta
  mapas XML
-- Aplicar
+- Solicitar
  Temas de MS Excel 2007/2010 para gráficos
 
 
 
-Otras características notables, mejoras y correcciones se dan a continuación.
+ Otras características notables, mejoras y correcciones se dan a continuación.
 
  Nuevas características
 

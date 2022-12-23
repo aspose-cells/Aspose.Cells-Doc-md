@@ -19,5 +19,5 @@ Para buscar varios archivos a la vez:
 
 Las siguientes opciones están disponibles:
 
-- **Buscar opciones**enfoque su búsqueda buscando en celdas, fórmulas o buscando fórmulas que contengan una expresión específica.
+- **Buscar opciones**: enfoque su búsqueda buscando en celdas, fórmulas o buscando fórmulas que contengan una expresión específica.
 - **Distingue mayúsculas y minúsculas**: cuando se selecciona la opción que distingue entre mayúsculas y minúsculas, la búsqueda coincide con los caracteres exactamente, incluidas las letras mayúsculas y minúsculas.

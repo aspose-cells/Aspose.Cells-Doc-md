@@ -55,7 +55,7 @@ Aspose.Cells fournit une vaste collection de styles réutilisables pour formater
 - HEADER_4
 - HYPERLIEN
 - FOLLOWED_HYPERLINK
-- SAISIR
+- CONTRIBUTION
 - LINKED_CELL
 - NEUTRE
 - ORDINAIRE

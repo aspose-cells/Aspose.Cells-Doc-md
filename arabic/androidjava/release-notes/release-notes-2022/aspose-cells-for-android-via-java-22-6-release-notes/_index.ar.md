@@ -31,19 +31,19 @@ url: /ar/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44464|المشكلة الإضافية 1 ، العمود لون الخلفية ليس هو نفسه في Excel لـ yscl.xls في الورقة 4|
 |CELLSJAVA-44466| المسألة الإضافية 3 ، لا يعمل setCalculateFormula إلى false|
 |CELLSJAVA-44496|قم بتضمين عنصر / علامة التسمية التوضيحية للجدول عند تحميل html|
-|CELLSJAVA-44429|يختلف تأثير مخطط Excel في Excel عن تأثير مخطط Excel|
-|CELLSJAVA-44414| سيؤدي Unicode في JSON إلى كسر XLSX و CSV اللذين تم إنشاؤهما|
+|CELLSJAVA-44429|يختلف تأثير مخطط Excel في Excel عن تأثير مخطط Excel في HTML|
+|CELLSJAVA-44414| سيتم كسر Unicode في JSON الناتج XLSX و CSV|
 |CELLSJAVA-44481|مشكلة متعلقة بأسلوب ThreadedComment.setCreatedTime ()|
 |CELLSJAVA-44483|الفرز لا يعمل بعد تجميع الصفوف|
 |CELLSJAVA-44522|تعطي القيمة المزدوجة للسلسلة صفرًا للخلف وهو أمر غير صحيح عند مقارنته بنتيجة ms excel|
 |CELLSJAVA-44501| ابحث في العدد التالي عن الملف duohangduolie.zip|
 |CELLSJAVA-44529|تنفيذ البحث عن freezepane|
 |CELLSJAVA-44530|التحقيق في مسألة setactivecell لا يعمل في بعض الأحيان|
-|CELLSJAVA-44534|لم يتم تصدير الرسم في منطقة الطباعة في تحويل Excel إلى HTML|
+|CELLSJAVA-44534|لم يتم تصدير الرسم في منطقة الطباعة في Excel لتحويل HTML|
 |CELLSJAVA-44539|يتم إزاحة الرسم البياني إلى اليمين أثناء التحويل إلى html مع منطقة الطباعة|
-|CELLSJAVA-44568|يتم فقد التسميات التوضيحية متعددة الأسطر باستثناء السطر الأول في تحويل HTML إلى XLS|
+|CELLSJAVA-44568|يتم فقد التسميات التوضيحية متعددة الأسطر باستثناء السطر الأول في التحويل من HTML إلى XLS|
 |CELLSJAVA-44512|المخطط مفقود أثناء تصدير المخطط إلى svg في html|
-|CELLSJAVA-44556|مشكلة في عرض البيانات في جدول البيانات بعد تعيين محور الإحداثيات على المقياس اللوغاريتمي - تحويل Excel إلى HTML / PDF|
+|CELLSJAVA-44556|مشكلة في عرض البيانات في جدول البيانات بعد تعيين المحور الإحداثي على المقياس اللوغاريتمي - تحويل Excel إلى HTML/PDF|
 |CELLSJAVA-44628|كيفية الاحتفاظ بتنسيق النسبة المئوية لصفوف محورية معينة عند توسيع بيانات العقدة لعمود / حقل محوري|
 |CELLSJAVA-44483|الفرز لا يعمل بعد تجميع الصفوف|
 |CELLSJAVA-44609|نسخ بطيء بتنسيق شرطي باستخدام إصدار أحدث|
@@ -52,13 +52,13 @@ url: /ar/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44646|يؤدي مسح المحتوى على الورقة المنسوخة إلى ظهور NullPointerException|
 |CELLSJAVA-44656|يقوم Cells.getMaxDataColumn بإرجاع قيمة مختلفة (خاطئة) في 22.5|
 |CELLSJAVA-44650|صفحة مستند Excel غير مرتبة عند التحميل في Aspose.Cells.GridWeb (Java)|
-|CELLSJAVA-44660|مشكلة في محاذاة البيانات عند تحميل XLS في Aspose.Cells.GridWeb (Java)|
+|CELLSJAVA-44660|مشكلة تتعلق بمحاذاة البيانات عند تحميل XLS إلى Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|مشكلة عند تحميل ملف et في Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|يتم تدوير عنوان المحور في المخطط في صورة الإخراج - تحويل الرسم البياني إلى الصورة|
-|CELLSJAVA-44615|خط رمادي مرسوم في صورة الإخراج من ملف XLS|
-|CELLSJAVA-44665|توقف تحميل ملف ODS|
+|CELLSJAVA-44615|رسم خط رمادي في صورة الإخراج من ملف XLS|
+|CELLSJAVA-44665|توقف تحميل ODS الملف|
 |CELLSJAVA-44404|استثناء "java.lang.IllegalArgumentException: فهرس العمود غير صالح" عند تحميل ملف XLSX في GridWeb|
-|CELLSJAVA-44651|خطأ "ليست قيمة رقمية" عند تحويل ورقة Excel إلى HTML / PDF|
+|CELLSJAVA-44651|خطأ "ليست قيمة رقمية" عند تحويل ورقة Excel إلى HTML/PDF|
 
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
@@ -175,7 +175,7 @@ url: /ar/java/aspose-cells-for-android-via-java-22-6-release-notes/
 
 ### **يضيف Cell.GetPrecedentsInCalculation () طريقة**
 
-وفقًا لسلسلة الحساب الحالية ، احصل على جميع السابقات (مرجع للخلايا في المصنف الحالي) المستخدمة بواسطة صيغة هذه الخلية أثناء حسابها.
+وفقًا لسلسلة الحساب الحالية ، احصل على جميع السابقات (الإشارة إلى الخلايا في المصنف الحالي) المستخدمة بواسطة صيغة هذه الخلية أثناء حسابها.
 
 ### **عفا عليها الزمن Cell. GetLeafs () و Cell.**
 

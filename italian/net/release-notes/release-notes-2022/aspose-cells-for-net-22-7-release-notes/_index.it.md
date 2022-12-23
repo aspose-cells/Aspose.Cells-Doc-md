@@ -10,13 +10,13 @@ url: /it/net/aspose-cells-for-net-22-7-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-51296| Gridweb continua a tornare all'inizio quando prova a copiare e incollare|
 |CELLSNET-51355|Range.Top, Left, Width ,Height in unità di punti|
 |CELLSNET-51367|Converti tutti i fogli in una pagina quando salvi come html.|
 |CELLSNET-51486|Il testo reso come quadratini|
-|CELLSNET-51492|Il carattere predefinito non viene applicato durante la conversione di XLSX in HTML|
+|CELLSNET-51492|Il carattere predefinito non viene applicato durante la conversione da XLSX a HTML|
 |CELLSNET-51306|Stili di tabella pivot non copiati correttamente utilizzando l'ultima versione di Aspose.Cells for .NET|
 |CELLSNET-51268|Problema con la formula COUNTIFS che tratta 0 in modo errato|
 |CELLSNET-51297|Cell.GetPrecedents() non fornisce tutti i precedenti quando la formula fa riferimento a un nome definito|
@@ -29,10 +29,10 @@ url: /it/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51001|L'oggetto forma sul grafico non è posizionato correttamente|
 |CELLSNET-51156| Conversione da grafico a immagine - Visualizzazione diversa del grafico nell'immagine di output|
 |CELLSNET-51213|Grafico a torta 3D non correttamente visualizzato - Conversione da grafico a immagine|
-|CELLSNET-51472|Le etichette del grafico non sono presenti in SVG quando sono impostate sull'estremità esterna|
-|CELLSNET-51491|Valori errati utilizzati nelle serie di grafici durante il rendering in immagine o HTML|
+|CELLSNET-51472|Le etichette del grafico mancano da SVG quando sono impostate sull'estremità esterna|
+|CELLSNET-51491|Valori errati utilizzati nelle serie di grafici durante il rendering nell'immagine o HTML|
 |CELLSNET-51525|Il grafico a cascata è diverso se esportato in HTML/PNG o PDF|
-|CELLSNET-51353|La conversione di un file XLSB con collegamento DDE in un file XLSM sta modificando la posizione dell'applicazione DDE nel collegamento|
+|CELLSNET-51353|La conversione di un file XLSB con collegamento DDE al file XLSM sta modificando la posizione dell'applicazione DDE nel collegamento|
 |CELLSNET-51376|La dimensione della pagina viene modificata automaticamente da A4 ? Lettera per un foglio|
 |CELLSNET-51379| Il collegamento esterno di tipo OLE nel file XLS viene letto come di tipo DDE|
 |CELLSNET-51402|Il contenuto viene spostato fuori dalla cella durante il salvataggio del file html|
@@ -45,9 +45,9 @@ url: /it/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51280|Eccezione durante il salvataggio del file ODS (RB-60121)|
 |CELLSNET-51483|Il caricamento del file non riesce con l'eccezione "L'array di origine non era abbastanza lungo..."|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.GetDependentsInCalculation(int,int,bool)**
 

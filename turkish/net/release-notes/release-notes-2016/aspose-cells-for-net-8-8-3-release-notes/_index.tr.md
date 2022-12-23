@@ -11,10 +11,10 @@ url: /tr/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44175 | Hesaplanan öğelerle Pivot Tabloların yenilenmesini ve hesaplanmasını destekler| Yeni özellik|
 |CELLSNET-44535 | Geçiş Düğmesi dahil olmak üzere ActiveX denetimlerini eklemek/manipüle etmek için ilgili API'leri duyurun| Yeni özellik|
 |CELLSNET-44482 | Elektronik tabloyu Korumalı Görünüm ile kaydetme seçeneği sağlayın| Yeni özellik|
-|CELLSNET-44385 |Excel Metin Kutusundaki karakter aralığını değiştirme| Yeni özellik|
+|CELLSNET-44385 | Excel Metin Kutusundaki karakter aralığını değiştirme| Yeni özellik|
 |CELLSNET-41013 | "Chart Olmadan" yükleme seçeneği için destek| Yeni özellik|
-|CELLSNET-44502 | Excel'den HTML'ye dönüştürme için kılavuz çizgilerini destekleyin| Artırma|
-|CELLSNET-44525 | ICustomFunction ve CalculationData.CalculatedValue uygulaması tarafından döndürülen ondalık değeri destekler| Artırma|
+|CELLSNET-44502 | Excel'den HTML'e dönüştürme için kılavuz çizgilerini destekleyin| Artırma|
+|CELLSNET-44525 |ICustomFunction ve CalculationData.CalculatedValue uygulaması tarafından döndürülen ondalık değeri destekler| Artırma|
 |CELLSNET-44492 | Simüle kalın yazı tipinin baskı kalitesi iyi değil| Artırma|
 |CELLSNET-44530 | ListObject/Tabloya Yorum Özelliği Ekleme| Artırma|
 |CELLSNET-44523 | Akıllı İşaretleyicilerde Dizi Formüllerini Kullanma| Artırma|
@@ -24,36 +24,36 @@ url: /tr/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44514 | Verileri yenilerken PivotItem.IsHidden ile ilgili sorun| Böcek|
 |CELLSNET-44513 | Html'yi Excel'e Aktar - bağlantının sonuna eklenen "!A1" metni| Böcek|
 |CELLSNET-44500 | Pivot Tablo yenilendikten ve çalışma kitabını kopyaladıktan sonra dosya bozuluyor| Böcek|
-|CELLSNET-44470 | Cell e-tabloyu HTML'ye dönüştürürken gölgelendirme eşit şekilde uygulanmıyor| Böcek|
-|CELLSNET-44467 | HTML iç içe 'div' öğelerine sahip olduğunda, tüm HTML içeriği Excel'e aktarılamaz| Böcek|
-|CELLSNET-44490 |Özel saat biçimiyle ilgili sorun| Böcek|
+|CELLSNET-44470 | Cell e-tablo HTML'e dönüştürülürken gölgeleme eşit şekilde uygulanmıyor| Böcek|
+|CELLSNET-44467 | HTML iç içe 'div' öğelerine sahip olduğunda, HTML içeriğinin tümü Excel'e aktarılamaz| Böcek|
+|CELLSNET-44490 | Özel saat biçimiyle ilgili sorun| Böcek|
 |CELLSNET-44201 | CHAR formülünde desteklenmeyen karakter dizinleriyle ilgili sorun| Böcek|
-|CELLSNET-44521 | PDF'ye dönüştürme, Excel'in baskı önizlemesinin aksine 2 PDF sayfasıyla sonuçlanır| Böcek|
-|CELLSNET-44489 | Excel'den PDF'e Dönüştürme - Yaslanmış karakter biçimlendirmesiyle kayboldu| Böcek|
-|CELLSNET-44481 | Excel'den PDF'e dönüştürme - Sayfa sonu konumu değiştirildi| Böcek|
+|CELLSNET-44521 | PDF'e dönüştürme, Excel'in baskı önizlemesinin aksine 2 PDF sayfayla sonuçlanır| Böcek|
+|CELLSNET-44489 |Excel'den PDF'e Dönüştürme - Yaslanmış karakter biçimlendirmesiyle birlikte kayboldu| Böcek|
+|CELLSNET-44481 | Excel'den PDF'e oluşturma - Sayfa sonu konumu değiştirildi| Böcek|
 |CELLSNET-44531 | Aspose.Cells, Oturum 1 ve Oturum 0'da aynı çalışma sayfasını farklı boyutlardaki görüntülere dönüştürür| Böcek|
 |CELLSNET-44491 | Sistem dışı yüklü yazı tipi Metin Kutuları için çalışmıyor| Böcek|
 |CELLSNET-44433 | Görüntü, orijinal grafikten farklı bir şekilde işlendi| Böcek|
 |CELLSNET-44074 | Grafiği Görüntüye aktarırken grafikte gereksiz çizgiler| Böcek|
 |CELLSNET-44012 | Grafik görüntüsü kaynaktan farklı| Böcek|
-|CELLSNET-40572 | PDF'ye dönüştürüldüğünde grafik alanı anlamsız hale geliyor .NET| Böcek|
+|CELLSNET-40572 | PDF .NET'e dönüştürüldüğünde grafik alanı anlamsız hale geliyor| Böcek|
 |CELLSNET-44536 | Aspose.Cells, grafik başlığının yazı tipi boyutunu yanlış tanıyor| Böcek|
 |CELLSNET-44522 | Metni şablon dosyasından şekle ayarlayın.| Böcek|
 |CELLSNET-44519 | Tablodaki referanslar, iki boyutlu diziyi tabloya aktardıktan sonra bozuluyor| Böcek|
 |CELLSNET-44511 | Tablodaki referanslar, dosyayla yapılan bazı işlemlerden sonra bozuluyor| Böcek|
 |CELLSNET-44508 | Çıktı PDF'lerinde Excel'den farklı sayfa boyutları| Böcek|
-|CELLSNET-44507 |Shape.GetCharacters() yöntemiyle ilgili sorun| Böcek|
-|CELLSNET-44505 | Cell doğrulama DOLAYLI işlevle doğru çalışmıyor| Böcek|
-|CELLSNET-44498 | Elektronik tablo Türkçe yerel ayar ile PDF'ye dönüştürüldüğünde başlık satırları tekrarlanmıyor| Böcek|
-|CELLSNET-44496 | OTT, ODS olarak algılandı| Böcek|
+|CELLSNET-44507 | Shape.GetCharacters() yöntemiyle ilgili sorun| Böcek|
+|CELLSNET-44505 |Cell doğrulama DOLAYLI işlevle doğru çalışmıyor| Böcek|
+|CELLSNET-44498 | E-tablo Türkçe yerel ayar ile PDF'e dönüştürüldüğünde başlık satırları tekrarlanmıyor| Böcek|
+|CELLSNET-44496 | OTT ODS olarak algılandı| Böcek|
 |CELLSNET-44494 | TextBox.IsFilled false olarak ayarlandı ancak OpenOffice'te ODS görüntülendiğinde fill açık mavi görünüyor| Böcek|
 |CELLSNET-44488 | Shape.UpdateSelectedValue sonrasında dosya bozuluyor| Böcek|
 |CELLSNET-44329 | Excel dosyasındaki seçili veya seçili olmayan hücreler için farklı kaydedilmiş Pdf dosyası sayfa boyutları| Böcek|
-|CELLSNET-44271 | ODS'den PDF'e: ilk 2 sayfa mavi gölge içeriyor| Böcek|
+|CELLSNET-44271 | ODS ila PDF: ilk 2 sayfa mavi gölge içerir| Böcek|
 |CELLSNET-44172 | 8.6.1 ve 8.6.3 genelinde Pivot Tabloda kullanıldığında Smart Marker işleme davranışındaki değişiklik| Böcek|
 |CELLSNET-44493 | ArgumentException: Form denetimi yeniden boyutlandırılırken parametre geçerli değil| Böcek|
 |CELLSNET-44528 | PivotTable.CalculateData üzerinde ArgumentOutOfRangeException| İstisna|
-|CELLSNET-44526 | İstisna: "Giriş dizesi doğru biçimde değildi." bir HTML dosya biçimi yüklerken| İstisna|
+|CELLSNET-44526 | İstisna: "Giriş dizesi doğru biçimde değildi." HTML dosya biçimini yüklerken| İstisna|
 |CELLSNET-44534 | Workbook.Save yönteminde istisna.| İstisna|
 |CELLSNET-41993 | WorkbookDesigner.Process() çağrılırken istisna| İstisna|
 ### **2) Aspose.Cells Izgara Süit**

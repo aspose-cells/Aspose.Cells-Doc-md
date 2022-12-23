@@ -40,7 +40,7 @@ Bir Excel dosyasını akış olarak açmak da kolaydır. Bunu yapmak için, yap�
 
 {{% alert color="primary" %}}
 
-Aspose.Cells'e kadar yerel olmayan Excel dosyalarını veya diğer dosya biçimlerini (örneğin PPT/PPTX, DOC/DOCX vb.) açmaya çalışırsanız bir istisna atılacaktır.
+Yerel olmayan Excel dosyalarını veya diğer dosya biçimlerini (örneğin PPT/PPTX, DOC/DOCX, vb.) Aspose.Cells'e kadar açmaya çalışırsanız bir istisna atılacaktır.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

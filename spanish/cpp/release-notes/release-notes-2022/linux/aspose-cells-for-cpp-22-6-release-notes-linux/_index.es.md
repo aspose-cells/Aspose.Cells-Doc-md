@@ -13,6 +13,6 @@ Esta página contiene notas de la versión Aspose.Cells for C++ 22.6 para Linux.
 Nos complace anunciar el lanzamiento de Aspose.Cells for C++ 22.6 para Linux.
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSCPP-759| Compatible con la clase gestionada SHA512|Apoyo|
-|CELLSCPP-812| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-759| Compatible con la clase gestionada SHA512|Soporte|
+|CELLSCPP-812| Funciones de sincronización con la versión .Net|Soporte|
 

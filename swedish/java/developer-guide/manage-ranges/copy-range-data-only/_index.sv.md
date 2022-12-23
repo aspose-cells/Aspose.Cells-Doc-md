@@ -6,7 +6,7 @@ url: /sv/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
-Ibland måste du kopiera data från ett cellområde till ett annat, bara kopiera data, inte formateringen. Aspose.Cells erbjuder denna funktion genom att tillhandahålla[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) metod.
+ Ibland måste du kopiera data från ett cellområde till ett annat, bara kopiera data, inte formateringen. Aspose.Cells erbjuder denna funktion genom att tillhandahålla[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) metod.
 
 {{% /alert %}} 
 ## **Kopiera endast intervalldata**

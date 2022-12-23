@@ -6,9 +6,9 @@ url: /fr/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}}
 
-Parfois, lors du rendu de fichiers Excel Microsoft au format PDF, Aspose.Cells remplace les polices. Aspose.Cells fournit une fonctionnalité qui permet aux développeurs de savoir qu'une police particulière a été remplacée en déclenchant un avertissement. Il s'agit d'une fonctionnalité utile qui peut vous aider à identifier pourquoi le PDF rendu Aspose.Cells est différent du fichier Excel réel et vous pouvez ensuite prendre les mesures appropriées. Par exemple, vous pouvez installer les polices manquantes afin que les résultats du rendu soient identiques.
+Parfois, lors du rendu des fichiers Excel Microsoft vers PDF, Aspose.Cells remplace les polices. Aspose.Cells fournit une fonctionnalité qui permet aux développeurs de savoir qu'une police particulière a été remplacée en déclenchant un avertissement. Il s'agit d'une fonctionnalité utile qui peut vous aider à identifier pourquoi Aspose.Cells rendu PDF est différent du fichier Excel réel et vous pouvez ensuite prendre les mesures appropriées. Par exemple, vous pouvez installer les polices manquantes afin que les résultats du rendu soient identiques.
 
-Si vous souhaitez obtenir les avertissements de substitution de police lors du rendu d'un fichier Excel au format PDF, implémentez l'interface IWarningCallback et définissez la méthode PdfSaveOptions.setWarningCallback() avec votre interface implémentée.
+Si vous souhaitez obtenir les avertissements de substitution de police lors du rendu d'un fichier Excel en PDF, implémentez l'interface IWarningCallback et définissez la méthode PdfSaveOptions.setWarningCallback() avec votre interface implémentée.
 
 {{% /alert %}}
 
@@ -20,9 +20,9 @@ Aspose.Cells remplacera les polices dans les cellules A6 et A7 par des polices a
 
 ![tâche : image_autre_texte](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Télécharger le fichier source et le PDF de sortie**
+## **Télécharger le fichier source et la sortie PDF**
 
-Vous pouvez télécharger le fichier Excel source et le PDF de sortie à partir des liens suivants
+Vous pouvez télécharger le fichier Excel source et la sortie PDF à partir des liens suivants
 
 - [source.xlsx](5472700.xlsx)
 - [sortie.pdf](5472699.pdf)
@@ -83,6 +83,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}}
 
- Si votre feuille de calcul contient des formules, il est préférable d'appeler la méthode Workbook.calculateFormula juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si votre feuille de calcul contient des formules, il est préférable d'appeler la méthode Workbook.calculateFormula juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le fichier PDF.
 
 {{% /alert %}}

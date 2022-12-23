@@ -26,13 +26,13 @@ url: /zh/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **例外情况**
 28780 SheetRender API 抛出“格式说明符无效。”例外
 
-28961 转换为 PDF 时出现对象引用错误
+28961 转换为 PDF 时对象引用错误
 
 29163 目标数组不够长异常
 
 28924 无法获取 Worksheet.Validations 以正常工作
 
-28867 在将 Excel 转换为 TIFF 时参数无效
+28867 将 Excel 转换为 TIFF 时参数无效
 ### **虫子**
 29129 图例/数据标签在生成图像时在图表上加粗
 
@@ -50,9 +50,9 @@ url: /zh/net/aspose-cells-for-net-6-0-1-release-notes/
 
 28571 HTML 中的移位单元格
 
-24963 在 PDF 输出中使用透明背景呈现的图像
+24963 在 PDF 输出中使用透明背景渲染的图像
 
-28697 转换为 PDF 时出现水印问题
+28697 转换为 PDF 时的水印问题
 
 28610 将 Excel 转换为 PDF 时对象组消失
 
@@ -68,17 +68,17 @@ url: /zh/net/aspose-cells-for-net-6-0-1-release-notes/
 
 28751 刷新数据透视表功能
 
-28489 将空 XLSX 文件转换为 TIFF 时出现问题
+28489 将空文件 XLSX 转换为 TIFF 时出现问题
 
 29058 渲染问题
 
 28929 从 SheetRender API 错误获取位图或纸张大小
 
-24912 使用数据过滤器保存 XLSB 添加了无效的命名范围
+24912 使用数据过滤器保存 XLSB 添加无效的命名范围
 
-28782 当工作表包含数据验证时 XLSB 生成问题
+28782 XLSB 工作表包含数据验证时生成问题
 
-28714 XLSB 文件格式问题
+28714 XLSB 文件格式的问题
 
 28659 XLSM 格式的工作簿损坏
 
@@ -89,7 +89,7 @@ url: /zh/net/aspose-cells-for-net-6-0-1-release-notes/
 28521 工作簿构造函数抛出“无效的单元格名称”
 
 \2) Aspose.Cells.GridWeb
-### **新的功能**
+### **新功能**
  29286 从 Excel 文件导入图表和形状
 ### **增强功能**
 29287客户端打印功能
@@ -97,7 +97,7 @@ url: /zh/net/aspose-cells-for-net-6-0-1-release-notes/
 29289 过滤行时呈现垂直滚动条问题
 
 \3) Aspose.Cells.GridDesktop
-### **新的功能**
+### **新功能**
 26751 从 Excel 文件导入图表和形状
 ### **增强功能**
 28964 将超过 256 列导出到 Excel 2007 文件

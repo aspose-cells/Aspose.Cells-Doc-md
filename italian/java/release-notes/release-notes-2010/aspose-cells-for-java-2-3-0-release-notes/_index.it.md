@@ -26,7 +26,7 @@ url: /it/java/aspose-cells-for-java-2-3-0-release-notes/
 
  Problemi risolti in Aspose.Cells for Java 2.3.0.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |16386 | xls| Copia del foglio di lavoro|
 |17416 | xls| Inserisci il problema della colonna|
@@ -43,10 +43,10 @@ url: /it/java/aspose-cells-for-java-2-3-0-release-notes/
 |17174 | formula| Ottieni la stringa della formula|
 |17001 | formula| Imposta formula|
 |16997 | xls| Rimuovi le forme|
-|17107 | ODS| Salva i grafici nei file ODS|
-|17016 | xls| Copia le celle, leggi il file modello|
+|17107 |ODS | Salva i grafici nei file ODS|
+|17016 | xls|Copia le celle, leggi il file modello|
 |17140 | xls| Leggi il file modello|
-|17019 | xlsx|Leggere la proprietà CalculationMode|
+|17019 | xlsx| Leggere la proprietà CalculationMode|
 |16870 | xlsx| Salva il file xlsx|
 |16986 | xls| Cambia formato file|
 |15975 | html| Salva html – Problema di prestazioni|

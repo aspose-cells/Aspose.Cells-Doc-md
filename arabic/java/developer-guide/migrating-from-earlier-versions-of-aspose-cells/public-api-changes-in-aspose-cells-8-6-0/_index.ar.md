@@ -35,7 +35,7 @@ metaWorkbook.save(filePath);
 
 {{< /highlight >}}
 ### **تمت إضافة الخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties**
-كشف Aspose.Cells for Java 8.6.0 خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء نصوص إضافية أثناء تحويل جداول البيانات إلى تنسيق HTML. باستخدام الإعدادات الافتراضية ، تقوم واجهات برمجة تطبيقات Aspose.Cells بتصدير جدول البيانات بتنسيق HTML حيث يقوم تطبيق Excel بالتصدير ، أي ؛ يحتوي HTML الناتج على الإطارات والتعليقات الشرطية التي تكتشف نوع المتصفح وتضبط التخطيط وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties صحيحة ، وهذا يعني ؛ يتم التصدير وفقًا لمعايير Excel. إذا تم تعيين الخاصية على "خطأ" ، فلن يقوم API بذلك[إنشاء البرامج النصية المتعلقة بالإطارات والتعليقات الشرطية](/cells/ar/java/disable-exporting-frame-scripts-and-document-properties/). في هذه الحالة ، يمكن عرض HTML الناتج بشكل صحيح في أي متصفح ، ومع ذلك ، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة تطبيقات Aspose.Cells.
+كشف Aspose.Cells for Java 8.6.0 خاصية HtmlSaveOptions.ExportFrameScriptsAndProperties التي يمكن استخدامها للتأثير على إنشاء نصوص إضافية أثناء تحويل جداول البيانات إلى تنسيق HTML. باستخدام الإعدادات الافتراضية ، تقوم واجهات برمجة تطبيقات Aspose.Cells بتصدير جدول البيانات بتنسيق HTML حيث يقوم تطبيق Excel بالتصدير ، أي ؛ الناتج HTML يحتوي على الإطارات والتعليقات الشرطية التي تكتشف نوع المتصفح وتضبط التخطيط وفقًا لذلك. القيمة الافتراضية لخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties صحيحة ، وهذا يعني ؛ يتم التصدير وفقًا لمعايير Excel. إذا تم تعيين الخاصية على "خطأ" ، فلن يقوم API بذلك[إنشاء البرامج النصية المتعلقة بالإطارات والتعليقات الشرطية](/cells/ar/java/disable-exporting-frame-scripts-and-document-properties/). في هذه الحالة ، يمكن عرض HTML الناتج بشكل صحيح في أي متصفح ، ومع ذلك ، لا يمكن استيراده مرة أخرى باستخدام واجهات برمجة تطبيقات Aspose.Cells.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
@@ -59,7 +59,7 @@ book.save("output.html", options)
 
 {{< /highlight >}}
 ### **شكل الخاصية تمت إضافة اسم ماركو**
- كشف Aspose.Cells for Java 8.6.0 خاصية Shape.MarcoName التي يمكن استخدامها[قم بتعيين وحدة نمطية لـ VBA إلى عنصر تحكم النموذج](/cells/ar/java/assign-macro-code-to-form-control/) مثل هذا الزر من أجل توفير التفاعل. الخاصية هي من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتخصيصها لعنصر التحكم.
+كشف Aspose.Cells for Java 8.6.0 خاصية Shape.MarcoName التي يمكن استخدامها[قم بتعيين وحدة نمطية لـ VBA إلى عنصر تحكم النموذج](/cells/ar/java/assign-macro-code-to-form-control/) مثل هذا الزر من أجل توفير التفاعل. الخاصية هي من نوع سلسلة لذلك يمكنها قبول اسم الوحدة وتخصيصها لعنصر التحكم.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

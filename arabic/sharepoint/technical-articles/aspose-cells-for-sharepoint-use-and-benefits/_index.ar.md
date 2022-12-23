@@ -42,7 +42,7 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 
 
 1. حدد تنسيق الإخراج.
-هنا ، يمكنك أيضًا تغيير اسم ملف الإخراج والمجلد الوجهة.
+ هنا ، يمكنك أيضًا تغيير اسم ملف الإخراج والمجلد الوجهة.
 1.  انقر**يتحول**. 
 
    **اختيار تنسيق الإخراج** 
@@ -66,6 +66,6 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-use-and-benefits/
 
 تركيب واستخدام Aspose.Cells for SharePoint سهل. فهو لا يضيف فقط ميزة لتحويل ملفات Microsoft Excel مباشرة على خادم SharePoint ، ولكنه يلغي أيضًا الحاجة إلى تثبيت Microsoft Excel على أجهزة العملاء. علاوة على ذلك ، يمكن للمطورين استخدام Aspose.Cells for SharePoint العام API لتطوير حلول SharePoint الخاصة بهم.
 
- بمعنى آخر ، من المفيد for SharePoint مسؤولي الموقع والمطورين والمستخدمين النهائيين.
+بمعنى آخر ، من المفيد for SharePoint مسؤولي الموقع والمطورين والمستخدمين النهائيين.
 
 {{% /alert %}}

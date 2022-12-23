@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-17-4-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45216|Prise en charge de l'option de protection "Verrouiller le projet pour l'affichage" dans les propriétés de VbaProject|Nouvelle fonctionnalité|
 |CELLSNET-44219|Mot de passe protéger le projet VBA|Nouvelle fonctionnalité|
@@ -18,41 +18,41 @@ url: /fr/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45278|Fonction SetColumnHeaderToolTip(int colIndex, string toolTip) manquante dans le nouvel ensemble d'API - Aspose.Cells.GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-45201|Modifier la liste de filtres en plusieurs listes de sélection de cases à cocher pour GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-42557|La sélection de groupement de tableau croisé dynamique et de filtre de rapport croisé dynamique disparaît lors du chargement dans GridWeb|Nouvelle fonctionnalité|
-|CELLSNET-45281|Les sparklines disparaissent après le rendu au format PDF|Renforcement|
+|CELLSNET-45281|Les sparklines disparaissent après le rendu en PDF|Renforcement|
 |CELLSNET-45280|Les sparklines disparaissent après avoir réenregistré le fichier|Renforcement|
-|CELLSNET-44438|OutOfMemoryException lors de l'enregistrement de CSV au format PDF|Performance|
-|CELLSNET-45231|La balise de format dans le contenu de SpreadsheetML reste suspendue au chargement|Performance|
+|CELLSNET-44438|OutOfMemoryException lors de l'enregistrement de CSV à PDF|Performance|
+|CELLSNET-45231|La balise de format dans le contenu SpreadsheetML reste suspendue au chargement|Performance|
 |CELLSNET-45219|Supprimer certains appels à la méthode string.ToUpper() (si possible) dans le code source|Performance|
-|CELLSNET-45242|Certaines formes sont séparées/déformées et sombres dans le fichier PDF rendu|Punaise|
+|CELLSNET-45242|Certaines formes sont séparées/déformées et sombres dans le fichier rendu PDF|Punaise|
 |CELLSNET-45275|La suppression de la feuille de calcul entraîne l'enregistrement d'un XLSM corrompu|Punaise|
-|CELLSNET-45262|Enregistrement de la feuille de calcul au format HTML avec du texte débordé dans les cellules|Punaise|
-|CELLSNET-45248|Certains textes se chevauchent ou sont invisibles et l'alignement vertical n'est pas correct dans le rendu Excel vers HTML|Punaise|
-|CELLSNET-45229|Lorsque HTML est enregistré au format XLSX, la disposition du texte est différente|Punaise|
-|CELLSNET-45228|Lorsque HTML est enregistré au format XLSX, le format du texte est modifié|Punaise|
-|CELLSNET-45227|Lorsque HTML est enregistré au format XLSX, une partie du contenu est manquante|Punaise|
-|CELLSNET-45195|Lors du chargement du HTML et de son enregistrement au format XLSX, des paragraphes sont manquants et modifiés|Punaise|
+|CELLSNET-45262|Enregistrement de la feuille de calcul sous HTML avec du texte débordé dans les cellules|Punaise|
+|CELLSNET-45248|Certains textes se chevauchent ou sont invisibles et l'alignement vertical n'est pas correct dans Excel pour le rendu HTML|Punaise|
+|CELLSNET-45229|Lorsque HTML est enregistré sous XLSX, la disposition du texte est différente|Punaise|
+|CELLSNET-45228|Lorsque HTML est enregistré sous XLSX, le format du texte est modifié|Punaise|
+|CELLSNET-45227|Lorsque HTML est enregistré sous XLSX, une partie du contenu est manquante|Punaise|
+|CELLSNET-45195|Lors du chargement de HTML et de l'enregistrer sous XLSX, des paragraphes sont manquants et modifiés|Punaise|
 |CELLSNET-45254|Problème avec le texte des filtres de pivot|Punaise|
 |CELLSNET-45267|Le format numérique ne fonctionne pas correctement dans le tableau croisé dynamique|Punaise|
 |CELLSNET-45170|Certains textes chevauchent d'autres cellules et l'alignement vertical n'est pas correct|Punaise|
-|CELLSNET-45263|Problème lors de l'importation de dates vers 1900 à partir d'un fichier CSV|Punaise|
-|CELLSNET-45283|La police est plus grasse dans le fichier PDF de sortie lorsque le type d'optimisation PDF est défini sur "MinimumSize"|Punaise|
+|CELLSNET-45263|Problème lors de l'importation des dates autour de 1900 à partir du fichier CSV|Punaise|
+|CELLSNET-45283|La police est plus en gras dans le fichier de sortie PDF lors de la définition du type d'optimisation PDF sur "MinimumSize"|Punaise|
 |CELLSNET-45265|Police modifiée dans l'image de sortie/PDF|Punaise|
 |CELLSNET-45235|Légère différence d'alignement vertical entre Excel et Aspose.Cells Pdfs|Punaise|
-|CELLSNET-45272|La police est différente et le signe de pourcentage est manquant dans le fichier PDF de sortie|Punaise|
+|CELLSNET-45272|La police est différente et le signe de pourcentage est manquant dans le fichier de sortie PDF|Punaise|
 |CELLSNET-45233|Les graphiques ont "Titre de l'axe"|Punaise|
-|CELLSNET-45232|Les graphiques à colonnes 3D ne sont pas rendus correctement dans le fichier PDF de sortie|Punaise|
-|CELLSNET-45188|Les étiquettes de l'axe des catégories ne s'affichent pas dans le graphique dans le PDF de sortie|Punaise|
-|CELLSNET-45292|La suppression d'une feuille de calcul dans XLSM laisse une feuille restante dans le projet vba|Punaise|
+|CELLSNET-45232|Les graphiques à colonnes 3D ne sont pas rendus correctement dans le fichier de sortie PDF|Punaise|
+|CELLSNET-45188|Les étiquettes de l'axe des catégories ne s'affichent pas dans le graphique dans la sortie PDF|Punaise|
+|CELLSNET-45292|La suppression de la feuille de calcul dans XLSM laisse une feuille restante dans le projet vba|Punaise|
 |CELLSNET-45286|Lorsqu'un fichier spécifique est enregistré, la sortie est corrompue|Punaise|
 |CELLSNET-45285|Les documents Excel sont corrompus après l'enregistrement|Punaise|
 |CELLSNET-45261|La formule 'DAYS' dans les tableaux Excel est remplacée par une NamedRange|Punaise|
 |CELLSNET-45260|La définition de la valeur LightAngle corrompt le fichier Excel|Punaise|
 |CELLSNET-45253|Insertion de formules de rupture de lignes liées à un classeur externe|Punaise|
-|CELLSNET-45252|Le style du tableau a été modifié (les lignes du tableau sont manquantes) après ré-enregistrement dans un XLS spécifique|Punaise|
+|CELLSNET-45252|Le style de tableau a été modifié (les lignes du tableau sont manquantes) après réenregistrement dans un XLS spécifique|Punaise|
 |CELLSNET-45249|Aspose.Cells trie bien mais les formules sont converties en valeurs|Punaise|
 |CELLSNET-45244|Cells la suppression de la plage avec l'option de décalage vers le haut ne s'applique pas aux cellules|Punaise|
 |CELLSNET-45241|Le classeur est corrompu après l'ouverture et l'enregistrement|Punaise|
-|CELLSNET-45237|La table de données n'est pas déplacée correctement vers le bas dans un XLSX|Punaise|
+|CELLSNET-45237|Datatable n'est pas déplacé correctement vers le bas dans un XLSX|Punaise|
 |CELLSNET-45236|Impossible de lire les feuilles de calcul d'un fichier XLSX protégé par mot de passe|Punaise|
 |CELLSNET-45234|Cells.DeleteRange() ne fonctionne pas correctement|Punaise|
 |CELLSNET-45226|Impossible de mettre à jour la propriété OleObject.ObjectSourceFullName|Punaise|

@@ -10,7 +10,7 @@ MS Excel 365 offre una funzionalità per aggiungere commenti in thread. Questi c
 
 ![cose da fare:immagine_alt_testo](threaded-comments_1.jpg)
 
-commenti in thread vengono visualizzati in questo modo nelle versioni precedenti di Excel. Le seguenti immagini sono state scattate aprendo il file di esempio in Excel 2016.
+I commenti in thread vengono visualizzati in questo modo nelle versioni precedenti di Excel. Le seguenti immagini sono state scattate aprendo il file di esempio in Excel 2016.
 
 ![cose da fare:immagine_alt_testo](threaded-comments_2.jpg)
 
@@ -45,7 +45,7 @@ Aspose.Cells fornisce[**Commenti.AddThreadedComment**](https://reference.aspose.
 
 L'esempio di codice seguente illustra l'utilizzo di[**Commenti.AddThreadedComment**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/addthreadedcomment/methods/1)metodo per aggiungere un commento in thread alla cella A1. Si prega di consultare il[file Excel di output](89849859.xlsx) generato dal codice per riferimento.
 
-#### **Codice di esempio**
+#### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-AddThreadedComments-1.cs" >}}
 
@@ -63,7 +63,7 @@ Aspose.Cells fornisce[**Comments.GetThreadedComments**](https://reference.aspose
 
 L'esempio seguente illustra la lettura dei commenti dalla colonna A1 caricando il file[file Excel di esempio](89849861.xlsx). Si prega di consultare l'output della console generato dal codice per riferimento.
 
-#### **Codice di esempio**
+#### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedComments-1.cs" >}}
 
@@ -79,7 +79,7 @@ Aspose.Cells fornisce[**Comments.GetThreadedComments**](https://reference.aspose
 
 L'esempio seguente mostra la lettura dell'ora di creazione dei commenti in thread caricando il file[file Excel di esempio](89849861.xlsx). Si prega di consultare l'output della console generato dal codice per riferimento.
 
-#### **Codice di esempio**
+#### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadThreadedCommentCreatedTime-1.cs" >}}
 
@@ -105,7 +105,7 @@ Aspose.Cells fornisce[**Comments.GetThreadedComments**](https://reference.aspose
 
 L'esempio seguente mostra la modifica del primo commento con thread nella colonna A1 caricando il file[file Excel di esempio](89849861.xlsx). Si prega di consultare il[file Excel di output](89849862.xlsx)generato dal codice che mostra il commento aggiornato per riferimento.
 
-#### **Codice di esempio**
+#### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-EditThreadedComments-1.cs" >}}
 
@@ -123,7 +123,7 @@ Aspose.Cells fornisce[**Commenti.RimuoviAt**](https://reference.aspose.com/cells
 
 L'esempio seguente mostra la rimozione dei commenti nella colonna A1 caricando il file[file Excel di esempio](89849861.xlsx). Si prega di consultare il[file Excel di output](89849864.xlsx)generato dal codice per riferimento.
 
-#### **Codice di esempio**
+#### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-RemoveThreadedComments-1.cs" >}}
 

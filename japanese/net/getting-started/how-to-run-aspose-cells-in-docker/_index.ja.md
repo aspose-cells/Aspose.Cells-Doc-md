@@ -113,7 +113,7 @@ docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm actest from Doc
 
 ## Aspose.Cellsをサポートする画像
 
-- Aspose.Cells for .NET 標準は Linux で EMF と TIFF をサポートしていません。
+- Aspose.Cells for .NET 標準では、Linux では EMF と TIFF はサポートされていません。
 
 
 ## その他の例

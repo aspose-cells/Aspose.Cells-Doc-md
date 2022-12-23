@@ -14,7 +14,7 @@ El formateo lleva tiempo. ¿Qué podría acelerar el desarrollo?
 
 {{% /alert %}}
 
-## **La solución - Hojas de cálculo de diseño**
+## **La solución - Hojas de cálculo de diseñador**
 
 Para acelerar su desarrollo, Aspose.Cells ofrece la emocionante hoja de cálculo del diseñador de características.
 
@@ -32,6 +32,6 @@ Una hoja de cálculo de diseñador es un archivo de Excel creado con Microsoft E
 
 ### **Marcadores inteligentes**
 
- Además, Aspose.Cells le permite agregar[marcadores inteligentes](/cells/es/python-net/smart-markers/) la hoja de cálculo del diseñador. Los marcadores inteligentes se procesan en tiempo de ejecución mediante el método Process de la clase WorkbookDesigner. Esto puede ayudarlo a escribir menos código y aun así obtener excelentes resultados.
+ Además, Aspose.Cells le permite agregar[marcadores inteligentes](/cells/es/python-net/smart-markers/) a la hoja de cálculo del diseñador. Los marcadores inteligentes se procesan en tiempo de ejecución mediante el método Process de la clase WorkbookDesigner. Esto puede ayudarlo a escribir menos código y aun así obtener excelentes resultados.
 
 [Obtenga más información sobre los marcadores inteligentes](/cells/es/python-net/smart-markers/).

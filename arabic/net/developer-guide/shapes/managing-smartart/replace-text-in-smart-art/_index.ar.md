@@ -6,7 +6,7 @@ url: /ar/net/replace-text-in-smart-art/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- الفن الذكي هو أحد الأشياء الرئيسية في المصنف. في كثير من الأحيان هناك حاجة لتحديث النص في الفن الذكي. Aspose.Cells توفير هذه الميزة عن طريق الضبط[**الشكل والنص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) منشأه.
+الفن الذكي هو أحد الأشياء الرئيسية في المصنف. في كثير من الأحيان هناك حاجة لتحديث النص في الفن الذكي. Aspose.Cells توفير هذه الميزة عن طريق الضبط[**الشكل والنص**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) خاصية.
 
 يمكن تنزيل نموذج الملف المصدر من الرابط التالي:
 

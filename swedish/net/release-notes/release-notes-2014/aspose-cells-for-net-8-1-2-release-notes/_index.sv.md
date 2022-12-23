@@ -10,8 +10,8 @@ url: /sv/net/aspose-cells-for-net-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+ Aspose.Cells for .NET har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
  Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -22,7 +22,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 ## **Prestanda**
 
 
- (CELLSNET-42820) - FileFormatUtil.DetectFileFormat använder allt systemets tillgängliga minne samtidigt som det upptäcker ett skadat kalkylblad
+(CELLSNET-42820) - FileFormatUtil.DetectFileFormat använder allt systemets tillgängliga minne samtidigt som det upptäcker ett skadat kalkylblad
 
 
 ## **Buggar**
@@ -32,7 +32,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42800) - Total titel saknas när pivottabell konverteras till PDF
 
-(CELLSNET-42799) - Cell Sammanfogningsproblem när pivottabell konverteras till PDF
+ (CELLSNET-42799) - Cell Sammanfogningsproblem när pivottabell konverteras till PDF
 
  (CELLSNET-42775) - Pivottabell-bugg angående delsummor
 
@@ -40,13 +40,13 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42438) - Sammanfogat cellinnehåll försvinner när rader filtreras och kalkylark konverteras till HTML
 
- (CELLSNET-42353) - Aspose.Cells producera pil dubbel i tjocklek samtidigt som XLS konverteras till PDF
+ (CELLSNET-42353) - Aspose.Cells producerar dubbel tjocklek samtidigt som du konverterar XLS till PDF
 
  (CELLSNET-42747) - Utskrivet resultat centreras inte korrekt och sista raden går vilse
 
  (CELLSNET-42744) - Texten i sammanslagna celler visas inte vid konvertering till PDF
 
- (CELLSNET-42781) - Form till bild Fel vid konvertering av ExcelShapeToImageRedactedEx.xls till Tiff
+(CELLSNET-42781) - Form till bild Fel vid konvertering av ExcelShapeToImageRedactedEx.xls till Tiff
 
  (CELLSNET-42780) - Form till bild Fel vid konvertering av ExcelShapeToImageError.xls till Tiff
 
@@ -54,7 +54,7 @@ Observera att den här nedladdningen innehåller en fullt fungerande version av 
 
  (CELLSNET-42622) - Excel-diagrametiketter överlappar efter att ha öppnat och sparat xlsm-filen
 
-(CELLSNET-42836) - Matchningsformeln har inte beräknats korrekt med Workbook.CalculateFormula
+ (CELLSNET-42836) - Matchningsformeln har inte beräknats korrekt med Workbook.CalculateFormula
 
  (CELLSNET-42818) - #NUM! fel vid läsning av vissa celler
 

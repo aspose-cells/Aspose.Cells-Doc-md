@@ -51,7 +51,7 @@ L'extrait de code suivant montre comment définir des titres pour les graphiques
 ### **Travailler avec le quadrillage principal**
 Il est possible de personnaliser l'apparence des principaux quadrillages. Masquez ou affichez les quadrillages, ou définissez leur couleur et d'autres paramètres. Ci-dessous, nous montrons comment masquer les lignes de grille et comment changer leur couleur.
 #### **Masquer le quadrillage principal**
-Les développeurs peuvent contrôler la visibilité des principaux quadrillages en définissant le[Est visible](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) propriété de la[Ligne](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) s'opposer à**vrai** ou**faux**.
+Les développeurs peuvent contrôler la visibilité des principaux quadrillages en définissant le[Est visible](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) propriété de la[La ligne](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) s'opposer à**vrai** ou alors**faux**.
 
 L'extrait de code suivant montre comment masquer les principaux quadrillages. Après avoir masqué les principaux quadrillages, un histogramme sera ajouté à la feuille de calcul sans quadrillage.
 

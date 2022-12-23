@@ -61,8 +61,8 @@ options.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
-### **مباشرة تحويل الرسم البياني إلى PDF**
-لقد وفرت واجهات برمجة التطبيقات Aspose.Cells بالفعل تسهيلات لتقديم المخططات إلى PDF أثناء استخدام طريقة Chart.toPdf. مع هذا الإصدار ، كشف API عن نسخة أخرى محملة بشكل زائد من الطريقة المذكورة والتي يمكن أن تقبل مثيل OutputStream ، مما يسمح للمستخدمين بحفظ ملف PDF للمخطط في مثيل ByteArrayOutputStream.
+### **قم بتحويل الرسم البياني مباشرة إلى PDF**
+لقد وفرت واجهات برمجة التطبيقات Aspose.Cells بالفعل إمكانية تقديم المخططات إلى PDF أثناء استخدام طريقة Chart.toPdf. مع هذا الإصدار ، كشف API عن نسخة أخرى محملة بشكل زائد من الطريقة المذكورة والتي يمكن أن تقبل مثيل OutputStream ، مما يسمح للمستخدمين بحفظ الرسم البياني PDF في مثيل ByteArrayOutputStream.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

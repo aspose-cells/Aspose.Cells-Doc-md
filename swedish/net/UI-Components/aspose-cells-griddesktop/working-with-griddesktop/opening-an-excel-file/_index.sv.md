@@ -23,7 +23,7 @@ det här exemplet skapar du ett skrivbordsprogram och gör följande.
 - Lägg till en GridControl-kontroll i formuläret.
 - Lägg till tre knappar med deras textegenskaper inställda enligt följande:
   - **Öppna Excel-fil**
-  - **Öppna CSV-fil**
+  - **Öppna CSV Fil**
   - **Öppna från Stream**
 ### **Öppna från en fil**
  För att ladda innehållet från en Excel-fil till Aspose.Cells.GridDesktop-kontroll, måste du anropa en metod för kontrollen för att ange sökvägen till Excel-filen. Efter det kommer Aspose.Cells.GridDesktop control automatiskt att hitta filen från den angivna sökvägen och visa dess innehåll. Kodavsnittet för att ladda innehållet i en Excel-fil finns i exemplet nedan. Skapa Click-händelsen för**Öppna Excel-fil** knappen och klistra in följande kod i den.
@@ -35,7 +35,7 @@ det här exemplet skapar du ett skrivbordsprogram och gör följande.
 
 Ovanstående kodavsnitt kan användas av utvecklare på vilket sätt de vill. Till exempel, om du vill ladda en Excel-fil automatiskt när ett Windows-formulär laddas kan du lägga till den här koden under Load-händelsen i ditt formulär.
 ### **Öppna en CSV-fil**
-Aspose.Cells.GridDesktop-kontroll stöder också inläsning av CSV-fil. Skapa Click-händelsen för**Öppna CSV-fil** knappen och klistra in följande kod i den.
+Aspose.Cells.GridDesktop-kontroll stöder också inläsning av CSV-fil. Skapa Click-händelsen för**Öppna CSV Fil** knappen och klistra in följande kod i den.
 
 
 

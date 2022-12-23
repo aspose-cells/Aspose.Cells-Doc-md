@@ -10,11 +10,11 @@ Aspose.Cells を使用すると、ブックからワークシートをエクス�
 
 {{% /alert %}}
 
-## ワークブックを TIFF に変換する
+## ワークブックを TIFF に変換しています
 
-Excel ファイルには、複数のページを持つ複数のシートを含めることができます。[WorkbookRender](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) Excel を複数ページの TIFF に変換できます。また、TIFF の複数のオプションを制御することもできます。[圧縮](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression), [色深度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcolordepth)、 解決（[水平解像度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution), [垂直解像度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)).
+Excel ファイルには、複数のページを持つ複数のシートを含めることができます。[WorkbookRender](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender) Excel を複数ページの TIFF に変換できます。また、TIFF の複数のオプションを制御できます。[圧縮](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcompression), [色深度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/tiffcolordepth)、 解決（[水平解像度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/horizontalresolution), [垂直解像度](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/verticalresolution)).
 
-次のコード スニペットは、Excel を複数ページの TIFF に変換する方法を示しています。の[ソースの Excel ファイル](workbook-to-tiff-with-mulitiple-pages.xlsx)と[生成された TIFF イメージ](workbook-to-tiff-with-mulitiple-pages.tiff)ご参考までに添付します。
+次のコード スニペットは、Excel を複数ページの TIFF に変換する方法を示しています。の[ソースの Excel ファイル](workbook-to-tiff-with-mulitiple-pages.xlsx)と[生成された TIFF 画像](workbook-to-tiff-with-mulitiple-pages.tiff)ご参考までに添付します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Workbook-To-Tiff-With-Mulitiple-Pages.cs" >}}
 
@@ -40,14 +40,14 @@ Aspose.Cells は、Excel ワークシートの画像への変換をサポート�
 
 ## **ワークシートを SVG に変換する**
 
-SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクター グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
+SVG はスケーラブル ベクター グラフィックスの略です。 SVG は、2 次元ベクトル グラフィックスの XML 標準に基づく仕様です。これは、1999 年から World Wide Web Consortium (W3C) によって開発されているオープン標準です。
 
-Aspose.Cells for .NET は、バージョン 7.1.0 からワークシートを SVG 画像に変換できました。次のコード スニペットは、Excel ファイルのワークシートを SVG イメージ ファイルに変換する方法を示しています。
+Aspose.Cells for .NET は、バージョン 7.1.0 以降、ワークシートを SVG 画像に変換できました。次のコード スニペットは、Excel ファイルのワークシートを SVG イメージ ファイルに変換する方法を示しています。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheetToSVG-1.cs" >}}
 
 ## **先行トピック**
 - [Excel チャートを画像に変換する](/cells/ja/net/convert-an-excel-chart-to-image/)
 - [チャートを SVG 形式の画像に変換する](/cells/ja/net/converting-chart-to-image-in-svg-format/)
-- [viewBox 属性を使用してチャートを SVG にエクスポート](/cells/ja/net/export-chart-to-svg-with-viewbox-attribute/)
-- [Excel から TIFF への変換の進行状況を追跡する](/cells/ja/net/track-conversion-progress-of-excel-to-tiff/)
+- [viewBox属性を使用してグラフをSVGにエクスポートします](/cells/ja/net/export-chart-to-svg-with-viewbox-attribute/)
+- [Excel の変換の進行状況を TIFF に追跡する](/cells/ja/net/track-conversion-progress-of-excel-to-tiff/)

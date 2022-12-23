@@ -46,13 +46,13 @@ Per eseguire un'operazione specifica quando viene attivato un evento specifico, 
 
 **Passaggio 1: selezione di un evento di Aspose.Cells.GridDesktop Control**
 
-1. In Visual Studio selezionare il controllo Aspose.Cells.GridDesktop e aprirlo**Proprietà**dialogo.
+1. In Visual Studio selezionare il controllo Aspose.Cells.GridDesktop e aprirlo**Proprietà** dialogo.
 1.  Clicca il**Eventi** scheda.
 1.  Seleziona un evento. (per questo esempio, il**CellClic** l'evento è selezionato).
 
 **Passaggio 2: creazione di un gestore di eventi**
 
-1.  Fare doppio clic su un evento selezionato nel file**Proprietà**dialogo.
+1.  Fare doppio clic su un evento selezionato nel file**Proprietà** dialogo.
 1. Quando si fa doppio clic sull'evento, Visual Studio.NET crea un gestore eventi. Di seguito è riportato il codice generato dal progettista che mostra che viene creato un evento per il controllo GridControl.
 
 

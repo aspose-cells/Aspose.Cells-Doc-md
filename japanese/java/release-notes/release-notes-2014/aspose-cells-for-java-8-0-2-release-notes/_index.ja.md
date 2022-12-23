@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-8-0-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java がバージョン 8.0.2 に更新されました。このリリースで 10 を超える新しい便利な改善が追加されたことをお知らせいたします。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -22,19 +22,19 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 機能強化
 
 (CELLSJAVA-40788) - シェイプ プロパティのカスタム テーマをサポート
-(CELLSJAVA-40803) - スプレッドシートを HTML にエクスポートする際に画像のレンダリング ヒントを設定する
+(CELLSJAVA-40803) - スプレッドシートのエクスポート中に画像のレンダリング ヒントを HTML に設定する
 
 バグ
 
 (CELLSJAVA-40793) - 範囲が正しい領域を参照していません
 (CELLSJAVA-40768) - WorkbookRender.toPrinter() メソッドが画像を印刷しない
-(CELLSJAVA-40669) - XLTX を PDF にレンダリングする際のピボット列グランドの問題
-(CELLSJAVA-40801) - Cell レンダリングされた PDF ファイルの配置の問題
-(CELLSJAVA-40406) - 多数の列を含む Excel ファイルを PDF ファイルに変換する
+(CELLSJAVA-40669) - XLTX から PDF へのレンダリング中のピボット列グランドの問題
+(CELLSJAVA-40801) - レンダリングされた PDF ファイルの Cell アライメントの問題
+(CELLSJAVA-40406) - 列数の多い Excel ファイルを PDF ファイルに変換する
 (CELLSJAVA-40794) - 異なるフォント設定で使用すると AutoFitColumns が機能しない
 (CELLSJAVA-40816) - Cells.DeleteColumn() を使用して削除した後もカーソルが最後の列に移動する
 (CELLSJAVA-40786) - 生成されたEMF形状が元のものと同じではありません
-(CELLSJAVA-40806) - PDF への変換時に Excel ブックマークが生成されない
+(CELLSJAVA-40806) - PDF に変換すると Excel ブックマークが生成されない
 
 
 例外

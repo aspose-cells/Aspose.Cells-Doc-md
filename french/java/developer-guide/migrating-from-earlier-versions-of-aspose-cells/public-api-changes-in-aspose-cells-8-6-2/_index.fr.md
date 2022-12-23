@@ -11,7 +11,7 @@ Ce document décrit les modifications apportées au Aspose.Cells API de la versi
 {{% /alert %}} 
 ## **API ajoutées**
 ### **Prise en charge du rappel avec des marqueurs intelligents**
-Cette version de Aspose.Cells for Java API a exposé le champ WorkbookDesigner.CallBack et l'interface ISmartMarkerCallBack qui, ensemble, permettent de[obtenir les notifications concernant la référence de cellule et/ou le marqueur intelligent en cours de traitement](/cells/fr/java/getting-notifications-while-merging-data-with-smart-markers/) . Le morceau de code suivant illustre l'utilisation de l'interface ISmartMarkerCallBack pour définir une nouvelle classe qui gère le rappel de la méthode WorkbookDesigner.process.
+ Cette version de Aspose.Cells for Java API a exposé le champ WorkbookDesigner.CallBack et l'interface ISmartMarkerCallBack qui, ensemble, permettent de[obtenir les notifications concernant la référence de cellule et/ou le marqueur intelligent en cours de traitement](/cells/fr/java/getting-notifications-while-merging-data-with-smart-markers/) . Le morceau de code suivant illustre l'utilisation de l'interface ISmartMarkerCallBack pour définir une nouvelle classe qui gère le rappel de la méthode WorkbookDesigner.process.
 
 **Java**
 

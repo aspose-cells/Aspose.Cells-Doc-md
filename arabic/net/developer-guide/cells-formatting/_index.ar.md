@@ -26,10 +26,10 @@ description: قم بتعيين تنسيق الأرقام والحدود ولون
 
 ### **استخدام نمط الكائن لتنسيق مختلف Cells**
 
- إذا احتاج المطورون إلى تطبيق نفس نمط التنسيق على خلايا مختلفة ، فيمكنهم استخدامها[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) هدف. يرجى اتباع الخطوات أدناه لاستخدام[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف:
+ إذا احتاج المطورون إلى تطبيق نفس نمط التنسيق على خلايا مختلفة ، فيمكنهم استخدامها[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) موضوع. يرجى اتباع الخطوات أدناه لاستخدام[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)موضوع:
 
 1.  أضف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) عن طريق استدعاء[**خلق نمط**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle) طريقة[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)صف دراسي
-1.  الوصول إلى ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف
+1.  الوصول إلى ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)موضوع
 1.  قم بتعيين الخصائص / السمات المطلوبة لملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)لتطبيق إعدادات التنسيق المطلوبة
 1. قم بتعيين ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)كائن على الخلايا التي تريدها
 
@@ -66,7 +66,7 @@ Aspose.Cells يدعم هذه الميزة أيضًا. يشرح هذا الموض
 
 {{% alert color="primary" %}}
 
- إذا كنت مهتمًا بتنسيق جزء من نص منسق في خلية ، ففكر في استخدام ملحق[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) طُرق. ال[[** Cell.GetCharacters **]](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) يتم استخدام الطريقة للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) طريقة بينما**احصل على**تقوم الطريقة بإرجاع مصفوفة من[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) الكائنات التي يمكن معالجتها لتعيين خصائص مختلفة مثل اسم الخط ولون الخط والجرأة وما إلى ذلك**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
+ إذا كنت مهتمًا بتنسيق جزء من نص منسق في خلية ، ففكر في استخدام ملحق[**Cell.GetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) & [**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) أساليب. ال[[** Cell.GetCharacters **]](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters) يتم استخدام الطريقة للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام[**Cell.SetCharacters**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) طريقة بينما**يحصل**تقوم الطريقة بإرجاع مصفوفة من[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) الكائنات التي يمكن معالجتها لتعيين خصائص مختلفة مثل اسم الخط ولون الخط والجرأة وما إلى ذلك**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
 
 {{% /alert %}}
 
@@ -81,18 +81,18 @@ Aspose.Cells يدعم هذه الميزة أيضًا. يشرح هذا الموض
 
 ### **تنسيق صف**
 
- كل عنصر في[**صفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) تمثل المجموعة أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) هدف. ال[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)يقدم الكائن[**تطبيق**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) الطريقة المستخدمة لتعيين تنسيق الصف. لتطبيق نفس التنسيق على صف ، استخدم ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف. توضح الخطوات أدناه كيفية استخدامه.
+ كل عنصر في[**صفوف**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/rows) تمثل المجموعة أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) موضوع. ال[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)يقدم الكائن[**تطبيق**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) الطريقة المستخدمة لتعيين تنسيق الصف. لتطبيق نفس التنسيق على صف ، استخدم ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)موضوع. توضح الخطوات أدناه كيفية استخدامه.
 
 1.  أضف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) يعترض على[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class عن طريق استدعاء[**خلق نمط**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/createstyle)طريقة.
 1.  تعيين[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)خصائص الكائن لتطبيق إعدادات التنسيق.
-1.  اجعل السمات ذات الصلة قيد التشغيل لـ[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)هدف.
-1. قم بتعيين ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) يعترض على[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)هدف.
+1.  اجعل السمات ذات الصلة قيد التشغيل لـ[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)موضوع.
+1. قم بتعيين ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) يعترض على[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row)موضوع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingARow-1.cs" >}}
 
 ### **تنسيق عمود**
 
- ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) توفر المجموعة أيضًا ملف[**الأعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) مجموعة. كل عنصر في[**الأعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) تمثل المجموعة أ[**عمودي**](https://reference.aspose.com/cells/net/aspose.cells/column) هدف. على غرار أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) كائن[**عمودي**](https://reference.aspose.com/cells/net/aspose.cells/column) يقدم الكائن أيضًا[**تطبيق**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)طريقة تنسيق العمود.
+ ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) توفر المجموعة أيضًا ملف[**الأعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) مجموعة. كل عنصر في[**الأعمدة**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/columns) تمثل المجموعة أ[**عمود**](https://reference.aspose.com/cells/net/aspose.cells/column) موضوع. على غرار أ[**صف**](https://reference.aspose.com/cells/net/aspose.cells/row) كائن[**عمود**](https://reference.aspose.com/cells/net/aspose.cells/column) يقدم الكائن أيضًا[**تطبيق**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle)طريقة تنسيق العمود.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-FormatRowsColumns-FormattingAColumn-1.cs" >}}
 

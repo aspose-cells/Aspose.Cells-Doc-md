@@ -12,9 +12,9 @@ En este tema, describiremos la característica básica de agregar e insertar col
 ## **Agregar una columna a la hoja de trabajo**
 Para agregar una nueva columna a la hoja de trabajo, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Agregar**Columna** hacia**Hoja de cálculo**
+-  Agregar**Columna** al**Hoja de cálculo**
 
 
 
@@ -22,9 +22,9 @@ Para agregar una nueva columna a la hoja de trabajo, siga los pasos a continuaci
 ## **Insertar una columna en la hoja de trabajo**
 Para insertar una nueva columna en la hoja de trabajo en una posición específica, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Insertar**Columna** dentro**Hoja de cálculo** (en una posición específica especificando el índice de la columna donde insertarlo)
+-  Insertar**Columna** en**Hoja de cálculo** (en una posición específica especificando el índice de la columna donde insertarlo)
 
 {{< highlight "java" >}}
 

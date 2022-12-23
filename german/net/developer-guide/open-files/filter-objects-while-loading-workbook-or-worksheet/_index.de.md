@@ -9,7 +9,7 @@ Bitte verwende[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/as
 
  Das[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)Enumeration hat die folgenden möglichen Werte.
 
-- Alle
+- Alles
 - Bucheinstellungen
 - ZelleLeer
 - CellBool
@@ -37,7 +37,7 @@ Bitte verwende[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/as
 - VBA
 - XmlMap
 ## **Filtern Sie Objekte beim Laden der Arbeitsmappe**
- Der folgende Beispielcode veranschaulicht, wie Diagramme aus der Arbeitsmappe gefiltert werden. Bitte überprüfen Sie die[Excel-Beispieldatei](5115258.xlsx) in diesem Code verwendet und die[PDF ausgeben](5115257.pdf)dadurch erzeugt. Wie Sie im Ausgabe-PDF sehen können, wurden alle Diagramme aus der Arbeitsmappe herausgefiltert.
+ Der folgende Beispielcode veranschaulicht, wie Diagramme aus der Arbeitsmappe gefiltert werden. Bitte überprüfen Sie die[Excel-Beispieldatei](5115258.xlsx) in diesem Code verwendet und die[Ausgang PDF](5115257.pdf)dadurch erzeugt. Wie Sie in der Ausgabe PDF sehen können, wurden alle Diagramme aus der Arbeitsmappe herausgefiltert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **Filtern Sie Objekte beim Laden des Arbeitsblatts**

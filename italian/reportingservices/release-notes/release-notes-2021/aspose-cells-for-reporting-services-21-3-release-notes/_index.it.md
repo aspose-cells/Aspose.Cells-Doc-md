@@ -10,9 +10,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-575|Aggiorna la versione Aspose.Cells alla 21.3.|Compito|
-|CELLSRS-576|Supporto per SVG esportato.|Nuova caratteristica|
+|CELLSRS-576|Supporto per esportato SVG.|Nuova caratteristica|
 
 

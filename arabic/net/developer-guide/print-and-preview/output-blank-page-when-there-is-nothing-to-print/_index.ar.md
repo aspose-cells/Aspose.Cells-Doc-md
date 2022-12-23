@@ -6,7 +6,7 @@ url: /ar/net/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-إذا كانت الورقة فارغة ، فلن يطبع Aspose.Cells أي شيء عند تصدير ورقة العمل إلى الصورة. يمكنك تغيير هذا السلوك باستخدام[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) منشأه. عندما تقوم بتعيينه**حقيقي**، سيتم طباعة الصفحة الفارغة.
+ إذا كانت الورقة فارغة ، فلن يطبع Aspose.Cells أي شيء عند تصدير ورقة العمل إلى الصورة. يمكنك تغيير هذا السلوك باستخدام[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) خاصية. عندما تقوم بتعيينه**حقيقي**، سيتم طباعة الصفحة الفارغة.
 
 ## **إخراج صفحة فارغة عندما لا يوجد شيء للطباعة**
 

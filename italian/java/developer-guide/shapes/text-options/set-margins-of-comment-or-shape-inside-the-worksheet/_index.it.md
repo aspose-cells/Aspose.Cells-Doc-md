@@ -14,6 +14,6 @@ url: /it/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 
 ![cose da fare:immagine_alt_testo](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.java" >}}

@@ -10,7 +10,7 @@ Utilizzare il metodo Aspose.Cells.GridWeb.GridWeb.GetVersion() per ottenere la v
 
 {{% /alert %}} 
 ## **Ottieni la versione di rilascio o in esecuzione di Aspose.Cells.GridWeb**
-Il codice di esempio seguente trova la versione in esecuzione di Aspose.Cells.GridWeb e la stampa su ASP.NET Label Control.
+Il seguente codice di esempio trova la versione in esecuzione di Aspose.Cells.GridWeb e la stampa su ASP.NET Label Control.
 
 
 

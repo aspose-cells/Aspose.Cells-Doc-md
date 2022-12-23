@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/java/managing-document-properties/
 ---
-## **giriiş**
+## **Giriş**
 
 Microsoft Excel, elektronik tablo dosyalarına özellikler ekleme yeteneği sağlar. Bu belge özellikleri yararlı bilgiler sağlar ve aşağıda ayrıntıları verildiği gibi 2 kategoriye ayrılır.
 
@@ -19,23 +19,23 @@ Yerleşik ve özel özellikler hakkında bilinmesi gereken en önemli nokta, yer
 
 ## **Microsoft Excel Kullanarak Belge Özelliklerini Yönetme**
 
- Microsoft Excel, Excel dosyalarının belge özelliklerini WYSIWYG tarzında yönetmeye izin verir. açmak için lütfen aşağıdaki adımları izleyin.**Özellikleri** Excel 2016'da iletişim kutusu.
+ Microsoft Excel, Excel dosyalarının belge özelliklerini WYSIWYG tarzında yönetmeye izin verir. açmak için lütfen aşağıdaki adımları izleyin.**Özellikler** Excel 2016'da iletişim kutusu.
 
 1.  itibaren**Dosya** menü, seç**Bilgi**.
 
 |**Bilgi Menüsünün Seçilmesi**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_1.png)|
-1.  Tıklamak**Özellikleri** başlığını açın ve "Gelişmiş Özellikler"i seçin.
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_1.png)|
+1.  Tıklamak**Özellikler**başlığını açın ve "Gelişmiş Özellikler"i seçin.
 
 |**Gelişmiş Özellikler Seçimine Tıklama**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_2.png)|
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_2.png)|
 1. Dosyanın belge özelliklerini yönetin.
 
 |**Özellikler İletişim Kutusu**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_3.png)|
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_3.png)|
 Özellikler iletişim kutusunda Genel, Özet, İstatistikler, İçerik ve Gümrük gibi farklı sekmeler bulunur. Her sekme, dosyayla ilgili farklı türden bilgilerin yapılandırılmasına yardımcı olur. Özel sekmesi, özel özellikleri yönetmek için kullanılır.
 
 ## **Aspose.Cells Kullanarak Belge Özellikleriyle Çalışma**
@@ -44,7 +44,7 @@ Geliştiriciler, Aspose.Cells API'lerini kullanarak belge özelliklerini dinamik
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belgeyi PDF'ye dönüştürürken, Aspose.Cells for Java doldurulur**Başvuru** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcısı** değeri olan alan, örneğin 'Aspose.Cells for Java v17.9'.
+ Aspose.Cells for Java, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belge PDF'e işlendiğinde, Aspose.Cells for Java doldurulur**Uygulama** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcı** değeri olan alan, örneğin 'Aspose.Cells for Java v17.9'.
 
 Lütfen Aspose.Cells for Java'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi unutmayın.
 
@@ -52,7 +52,7 @@ Lütfen Aspose.Cells for Java'e bu bilgileri çıktı Belgelerinden değiştirme
 
 ### **Belge Özelliklerine Erişme**
 
- Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)sınıf.
+Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)sınıf.
 
  Kullan[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Dosyanın belge özelliklerine aşağıda açıklandığı gibi erişmek için.
 
@@ -85,7 +85,7 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
 ### **"İçeriğe bağlantı" Özel Özelliğini Yapılandırma**
 
- Belirli bir aralığın içeriğine bağlı özel bir özellik oluşturmak için[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) yöntemi ve özelliğin adını ve kaynağını iletin. Bir özelliğin içeriğe bağlı olarak yapılandırılıp yapılandırılmadığını kontrol edebilirsiniz.[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) Emlak. Ayrıca, kullanarak kaynak aralığını elde etmek de mümkündür.[**Kaynak**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) mülkiyeti[**Belge Özelliği**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)sınıf.
+ Belirli bir aralığın içeriğine bağlı özel bir özellik oluşturmak için[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) yöntemi ve özelliğin adını ve kaynağını iletin. Bir özelliğin içeriğe bağlı olarak yapılandırılıp yapılandırılmadığını kontrol edebilirsiniz.[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) Emlak. Ayrıca, kullanarak kaynak aralığını elde etmek de mümkündür.[**Kaynak**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) mülkiyeti[**Belge Özelliği**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)sınıf.
 
  Örnekte basit bir şablon Microsoft Excel dosyası kullanıyoruz. Çalışma kitabı, etiketli tanımlanmış bir adlandırılmış aralığa sahiptir.**Aralığım** bu da bir hücre değerini ifade eder.
 

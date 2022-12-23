@@ -16,7 +16,7 @@ url: /fr/net/sitefinity-export-users-to-excel/
   - [Téléchargement](#SitefinityExportUserstoExcel-Downloading)
   - [Installation](#SitefinityExportUserstoExcel-Installing)
 - [Utilisation et démo vidéo](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
-  - [Utilisant](#SitefinityExportUserstoExcel-Using)
+  - [En utilisant](#SitefinityExportUserstoExcel-Using)
   - [Démo vidéo](#SitefinityExportUserstoExcel-VideoDemo)
 - [Soutien](#SitefinityExportUserstoExcel-Support)
 - [Prolonger et contribuer](#SitefinityExportUserstoExcel-ExtendandContribute)
@@ -66,19 +66,19 @@ Veuillez extraire le fichier ZIP téléchargé. Vous aurez besoin d'un FTP ou d'
 **Étape 2: Enregistrez le module complémentaire d'exportation de contenu Sitefinity Aspose dans Sitefinity**
 
 1. Connectez-vous à votre CMS Sitefinity avec un '**Administrateur** ' Compte. La page de connexion est accessible par<http://www.mywebsite.com/sitefinity>
-1.  Cliquez sur**Administration** et alors**Réglages**.
+1.  Cliquez sur**Administration** et puis**Réglages**.
 La page Paramètres de base s'affiche.
 1.  Clique le**Avancé** lien.
  La page Paramètres s'affiche.
-1.  Dans le volet de gauche, cliquez sur**Boîtes à outils** suivie par**Boîtes à outils** , alors**PageControls**, **Sections** et**ContentToolboxSection** , alors**Outils.**
+1.  Dans le volet de gauche, cliquez sur**Boîtes à outils** suivie par**Boîtes à outils** , ensuite**PageControls**, **Sections** et**ContentToolboxSection** , ensuite**Outils.**
 1.  Cliquez sur**Créer un nouveau**.
  Le formulaire d'enregistrement du widget s'affiche.
 1.  Remplissez les champs du formulaire comme suit :
- 1. Assurez-vous**Activé** est sélectionné.
+ 1. Assurez-vous**Autorisé** est sélectionné.
  1. Ajouter ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx
 
- 1. ` `dans le**Contrôler le type CLR ou le chemin virtuel** champ.
- 1. Ajouter**Nom**, **Titre** et**La description** comme suit:
+ 1. ` `dans le**Contrôler le type CLR ou le chemin virtuel** domaine.
+ 1. Ajouter**Nom**, **Titre** et**Description** comme suit:
  Aspose.SiteFinity.ExportUsersToExcel
  Aspose Exporter les utilisateurs de SiteFinity vers Excel
  Exporter les utilisateurs de SiteFinity vers Excel
@@ -86,7 +86,7 @@ La page Paramètres de base s'affiche.
 1.  Lorsque vous avez terminé, cliquez sur**Sauvegarder les modifications**.
  Le widget est enregistré dans la boîte à outils et peut être utilisé dans Sitefinity.
 ## **Utilisation et démo vidéo**
-### **Utilisant**
+### **En utilisant**
 Après avoir installé et configuré le module complémentaire Aspose Sitefinity Export Users to Excel, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer :
 
 1. Assurez-vous que vous êtes connecté à Sitefinity avec un compte de niveau administrateur.

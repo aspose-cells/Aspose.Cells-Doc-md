@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells Java per puntoni
+title: Aspose.Cells Java Per puntoni
 type: docs
 weight: 30
 url: /it/java/aspose-cells-java-for-struts/
@@ -11,7 +11,7 @@ Le applicazioni Web differiscono dai siti Web convenzionali in quanto le applica
 
 Un modo per separare le preoccupazioni in un'applicazione software consiste nell'utilizzare un'architettura Model-View-Controller (MVC). Il modello rappresenta il codice aziendale o del database, la vista rappresenta il codice di progettazione della pagina e il controller rappresenta il codice di navigazione. Il framework Struts è progettato per aiutare gli sviluppatori a creare applicazioni Web che utilizzano un'architettura MVC.
 
-[Scopri di più](http://struts.apache.org/birdseye.html)
+[Per saperne di più](http://struts.apache.org/birdseye.html)
 ### **Aspose.Cells for Java**
 Aspose.Cells for Java è una libreria di classi avanzata for Java che ti consente di eseguire una vasta gamma di attività di elaborazione dei documenti direttamente all'interno del tuo Java
 applicazioni.
@@ -19,7 +19,7 @@ applicazioni.
 Aspose.Cells for Java supporta l'elaborazione Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF e tutti i formati immagine. Con Aspose.Cells puoi
 generare, modificare e convertire documenti senza utilizzare Microsoft Cells.
 ## **Requisiti di sistema**
-**Di seguito sono riportati i requisiti di sistema per l'applicazione web Aspose.Cells Java for Struts 1.3:**
+**Di seguito sono riportati i requisiti di sistema per Aspose.Cells Java per l'applicazione web Struts 1.3:**
 
 - Java 1.6 o superiore installato.
 - Apache Tomcat Server 7 o superiore
@@ -30,4 +30,4 @@ generare, modificare e convertire documenti senza utilizzare Microsoft Cells.
 **Di seguito le piattaforme supportate:**
 
 - Aspose.Cells 8.5.0 o superiore.
-- IDE Java (Eclipse, NetBeans, IntelliJ, ...).
+- Java IDE (Eclipse, NetBeans, IntelliJ, ...).

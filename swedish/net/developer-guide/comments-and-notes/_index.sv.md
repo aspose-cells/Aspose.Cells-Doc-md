@@ -13,7 +13,7 @@ Kommentarer används för att lägga till ytterligare information till celler. A
 
 ## **Lägger till en kommentar**
 
- Lägg till en kommentar till en cell genom att anropa[**Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/add/index) metod (inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objekt). Den nya[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) objekt kan nås från[**Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) insamling genom att passera kommentarsindex. Efter att ha kommit åt[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) objekt, anpassa kommentarsanteckningen med hjälp av[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) objekt[**Notera**](https://reference.aspose.com/cells/net/aspose.cells/comment/properties/note)fast egendom.
+ Lägg till en kommentar till en cell genom att anropa[**Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) samlingens[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/add/index) metod (inkapslad i[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objekt). Den nya[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) objekt kan nås från[**Kommentarer**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) insamling genom att passera kommentarsindex. Efter att ha kommit åt[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) objekt, anpassa kommentaren genom att använda[**Kommentar**](https://reference.aspose.com/cells/net/aspose.cells/comment) föremål[**Notera**](https://reference.aspose.com/cells/net/aspose.cells/comment/properties/note)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddingComment-1.cs" >}}
 
@@ -37,7 +37,7 @@ Med Microsoft Excel 2007 är det också möjligt att ha en bild som bakgrund til
 1. Leta upp och välj bilden.
 1.  Klick**OK** tills alla dialogrutor har stängts.
 
-Aspose.Cells tillhandahåller också denna funktion. Nedan är ett kodexempel som skapar en XLSX-fil från grunden och lägger till en kommentar till cell "A1" med en bild som bakgrund.
+Aspose.Cells tillhandahåller också denna funktion. Nedan finns ett kodexempel som skapar en XLSX-fil från grunden och lägger till en kommentar till cell "A1" med en bild som bakgrund.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddImageToComment-1.cs" >}}
 

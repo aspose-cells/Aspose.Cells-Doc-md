@@ -4,7 +4,7 @@ type: docs
 weight: 110
 url: /tr/python-net/
 is_root: true
-description: Aspose.Cells for Python, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+description: Aspose.Cells for Python, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatlarına dışa aktarılmasına olanak tanır.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ description: Aspose.Cells for Python, işletmenizin her gün kullandığı popü
 
 **Hoşgeldiniz Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via .NET, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca, Excel® dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim biçimlerine dışa aktarılmasına olanak tanır.
 
 {{% /alert %}}
 

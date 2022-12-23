@@ -14,7 +14,7 @@ url: /de/net/creating-hierarchical-view-sheet/
 
  In diesem Thema wird das Erstellen eines hierarchischen Ansichtsblatts erläutert. Einige der Zeilen im Blatt haben untergeordnete Ansichten. Wenn ein Benutzer auf die Zeile klickt**Erweitern**
 
- Taste{{< emoticons/cross >}} , wird die untergeordnete Ansichtstabelle dieser Zeile nach unten erweitert. Diese Funktion ist sehr hilfreich beim Erstellen eines hierarchischen Ansichtsberichts.
+ Knopf{{< emoticons/cross >}} , wird die untergeordnete Ansichtstabelle dieser Zeile nach unten erweitert. Diese Funktion ist sehr hilfreich beim Erstellen eines hierarchischen Ansichtsberichts.
 
 **Eine Tabelle mit einer hierarchischen Ansicht** 
 
@@ -24,7 +24,7 @@ url: /de/net/creating-hierarchical-view-sheet/
 ## **Erstellen Sie Beziehungen für DataTables**
 Sie verwenden beispielsweise ADO.Net API und extrahieren Daten aus den Datenbanktabellen. Um ein hierarchisches Ansichtsblatt zu erstellen, müssen Sie ein DataSet entwerfen
 
- Objekt basierend auf einigen Tabellen und erstellen Sie zuerst eine Beziehung zwischen ihnen. Verwenden Sie die VS.NET**DataSet-Designer** um die Beziehung herzustellen. Im
+ Objekt basierend auf einigen Tabellen und erstellen Sie zuerst eine Beziehung zwischen ihnen. Verwenden Sie die VS.NET**DataSet-Designer** um die Beziehung herzustellen. In
 
  In diesem Beispiel gibt es drei DataTables: Kunden, Bestellungen, Bestelldetails. Das Blatt zeigt standardmäßig alle Kundeninformationen an. Wann
 
@@ -63,7 +63,7 @@ Damit dies funktioniert, müssen folgende Beziehungen zwischen den Datentabellen
 ### **Passen Sie die Bindungsspalten der untergeordneten Tabellen an**
  Das Steuerelement stellt ein Ereignis namens GridWeb.BindingChildView bereit, das Entwickler verwenden, um die Bindungsspalten der untergeordneten Tabellen anzupassen. Dieses Beispiel
 
- muss die Bestelldetails anzeigen**Stückpreis** Feld in einem Währungsformat. Fügen Sie einen Ereignishandler hinzu, um das Zahlenformat der Bindungsspalte zu ändern.
+ muss die Bestelldetails anzeigen**Einzelpreis** Feld in einem Währungsformat. Fügen Sie einen Ereignishandler hinzu, um das Zahlenformat der Bindungsspalte zu ändern.
 
 **C#**
 
@@ -124,7 +124,7 @@ Die Klasse Asppose.Grid.Web.Data.WebWorksheet hat einige nützliche Eigenschafte
 
 - Beispielsweise wird die Eigenschaft EnableCreateBindColumnHeader verwendet, um die Überschriften der gebundenen Spalte innerhalb des Blatts oder der Spalte zu erstellen
 
- headers zeigt die gebundenen Spaltennamen an. Es nimmt die Werte**Stimmt** oder**FALSCH**. 
+ headers zeigt die gebundenen Spaltennamen an. Es nimmt die Werte**wahr** oder**FALSCH**. 
 
 - Die Eigenschaften BindStartRow und BindStartColumn geben die Position im Blatt des GridWeb-Steuerelements an, an das die Quelle gebunden werden soll.
 - Die Eigenschaft EnableExpandChildView wird verwendet, um die erweiterte untergeordnete Ansicht für das Arbeitsblatt zu deaktivieren. Standardmäßig ist es auf true gesetzt.

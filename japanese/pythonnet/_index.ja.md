@@ -4,7 +4,7 @@ type: docs
 weight: 110
 url: /ja/python-net/
 is_root: true
-description: Aspose.Cells for Python は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+description: Aspose.Cells for Python は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、および SVG を含む一般的な画像形式にエクスポートすることもできます。
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ description: Aspose.Cells for Python は、ビジネスで毎日使用される�
 
 **Aspose.Cells for Python via .NET へようこそ**
 
-Aspose.Cells for Python via .NET を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via .NET は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for Python via .NET を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via .NET は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 

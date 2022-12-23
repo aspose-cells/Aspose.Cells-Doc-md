@@ -12,18 +12,18 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-43844|En förbättring som behövs för bokföringsnummerformat|
-|CELLSJAVA-43953|Återge specifik text/del "Cell" och "Kommentar" för att översättas till japanska i Excel till PDF-konvertering|
-|CELLSJAVA-43935|Forma text teckensnittsstorlek när du sparar och laddar XLS-fil|
+|CELLSJAVA-43844| En förbättring som behövs för bokföringsnummerformat|
+|CELLSJAVA-43953|Återge specifik text/del "Cell" och "Kommentar" för att översättas till japanska i Excel till PDF konvertering|
+|CELLSJAVA-43935|Forma text teckensnittsstorlek när du sparar och laddar XLS-filen|
 |CELLSJAVA-43952|Tillfällig licens Utgångsfråga|
 |CELLSJAVA-43954|XLSX till PDF: Bilden orsakar ett undantag "java.lang.OutOfMemoryError: Java heap space"|
-|CELLSJAVA-43902|Vissa kanter i Excel som konverterats till HTML är överflödiga|
+|CELLSJAVA-43902|Vissa gränser i Excel konverterade till HTML är överflödiga|
 |CELLSJAVA-43933|När du exporterar till HTML med endast en data skiljer sig det villkorliga formatet från Excel|
 |CELLSJAVA-43878| Felaktig placering av Excel-klusterstapeldiagramdataetiketter|
-|CELLSJAVA-43895|Linjeform och andra diagramformer renderas inte korrekt när XLS konverteras till XLSX|
+|CELLSJAVA-43895|Linjeform och andra diagramformer renderas inte korrekt vid konvertering av XLS till XLSX|
 |CELLSJAVA-43932|Problem med att ställa in dataetiketternas position för exploderade munkdiagram i utdatabilden|
 |CELLSJAVA-43934|Cirkeldiagrametiketterna matchade inte med Excel efter manipulering eller uppdatering av diagram|
-|CELLSJAVA-43519|Sammanslagna celler som ingår i dolda rader eller kolumner ger en ojämn HTML-tabell|
+|CELLSJAVA-43519|Sammanslagna celler som ingår i dolda rader eller kolumner ger en ojämn HTML tabell|
 |CELLSJAVA-43962|Effekten är inkonsekvent efter att det villkorliga formatet i excel har konverterats till HTML|
 |CELLSJAVA-43969|Ett namn med COUNTIF-funktionen och extern referens ger ett NullPointerException|
 |CELLSJAVA-43903|java.lang.NumberFormatException: För inmatningssträng vid rendering av Excel-fil till HTML|

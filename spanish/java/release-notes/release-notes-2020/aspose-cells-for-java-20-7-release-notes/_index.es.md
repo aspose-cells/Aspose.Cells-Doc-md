@@ -22,7 +22,7 @@ url: /es/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43219|Agregar una referencia de fórmula a diferentes resultados de hoja en un libro de Excel dañado|Insecto|
 |CELLSJAVA-43232|Problema de la función REDONDEAR|Insecto|
 |CELLSJAVA-43243|No se pudo recuperar la fórmula al cambiar la fórmula de la celda vecina|Insecto|
-|CELLSJAVA-43217|La impresión de XLSX a XPS pierde el formato de fondo|Insecto|
+|CELLSJAVA-43217|Al imprimir XLSX a XPS se pierde el formato de fondo|Insecto|
 |CELLSJAVA-43224|Problema al imprimir en una impresora física|Insecto|
 |CELLSJAVA-43241|Problema con la altura de línea y el borde al crear una imagen desde el área de Excel|Insecto|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal (true) no genera los resultados esperados al usar SmartMarkers|Insecto|
@@ -70,4 +70,4 @@ Indica si la estructura y la ventana están protegidas con contraseña.
 
 ### **Agregue las clases PowerQueryFormulaParameters y PowerQueryFormulaParameter**
 
-Representa los parámetros de la fórmula de consulta de potencia.
+Representa los parámetros de la fórmula de consulta de energía.

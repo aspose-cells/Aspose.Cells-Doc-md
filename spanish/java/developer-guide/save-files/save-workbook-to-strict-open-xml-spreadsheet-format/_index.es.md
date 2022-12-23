@@ -6,7 +6,7 @@ url: /es/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Posibles escenarios de uso**
 
-Aspose.Cells le permite guardar el libro de trabajo en*Hoja de cálculo XML abierta estricta*formato. Para tal efecto, dispone la**[Libro de trabajo.Configuración.Cumplimiento](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**propiedad. Si establece su valor como**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** , el archivo de salida de Excel se guardará en*Hoja de cálculo XML abierta estricta* formato.
+Aspose.Cells le permite guardar el libro de trabajo en*Hoja de cálculo XML abierta estricta*formato. Para tal efecto, dispone la**[Libro de trabajo.Configuración.Cumplimiento](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**propiedad. Si establece su valor como**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** el archivo de salida de Excel se guardará en*Hoja de cálculo XML abierta estricta* formato.
 
 ## **Guardar libro de trabajo en formato de hoja de cálculo XML abierto estricto**
 

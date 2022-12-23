@@ -82,7 +82,7 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
 \1.像往常一样安装 PHP5 和配置
 \2。如果您还没有安装 JRE 6（Java 运行时环境）。您可以在 C:\Program Files 等中查看。您可以在此处下载。我正在使用 JRE 6，因为它与 PHP Java Bridge (PJB) 兼容。
 
-\3。安装 Apache Tomcat 8.0。你可以在这里下载
+\3。安装 Apache Tomcat 8.0。您可以在这里下载
 
 4.下载[JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download).将此文件复制到 tomcat webapps 目录。
 （例如：C:\Program Files\Apache Software Foundation\Tomcat 8.0\webapps）

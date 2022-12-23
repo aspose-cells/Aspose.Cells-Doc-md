@@ -22,15 +22,15 @@ Lorsqu'une ligne (ou une colonne) est copiée, les données qu'elle contient, y 
 
 ## **Copie d'une seule ligne**
 
- Aspose.Cells fournit le[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\) ) méthode de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)classer. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la ligne source vers la ligne de destination.
+ Aspose.Cells fournit le[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\) ) méthode de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)classe. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la ligne source vers la ligne de destination.
 
- La[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) prend les paramètres suivants :
+ Le[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) prend les paramètres suivants :
 
 -  la source[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)objet,
 - l'index de la ligne source, et
 - l'index de la ligne de destination.
 
- Utilisez cette méthode pour copier une ligne dans une feuille ou dans une autre feuille. La[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) fonctionne de manière similaire à Microsoft Excel. Ainsi, par exemple, vous n'avez pas besoin de définir explicitement la hauteur de la ligne de destination, cette valeur est également copiée.
+ Utilisez cette méthode pour copier une ligne dans une feuille ou dans une autre feuille. Le[copierRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) fonctionne de manière similaire à Microsoft Excel. Ainsi, par exemple, vous n'avez pas besoin de définir explicitement la hauteur de la ligne de destination, cette valeur est également copiée.
 
 L'exemple suivant montre comment copier une ligne dans une feuille de calcul. Il utilise un modèle de fichier Excel Microsoft et copie la deuxième ligne (complète avec les données, le formatage, les commentaires, les images, etc.) et le colle à la 12e ligne de la même feuille de calcul.
 
@@ -71,7 +71,7 @@ Voici la vue de feuille de calcul résultante après l'exécution de l'extrait d
 
  Aspose.Cells fournit le[copierColonne](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\) ) méthode de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)classe, cette méthode copie tous les types de données, y compris les formules - avec des références mises à jour - et les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la colonne source vers la colonne de destination.
 
- La[copierColonne](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) prend les paramètres suivants :
+ Le[copierColonne](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) prend les paramètres suivants :
 
 -  la source[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)objet,
 - index de colonne source, et

@@ -37,7 +37,7 @@ Aspose.Cells for Reporting Services Report Designer-Optimierung.
 - ` `(SSRS-40131) Die Spaltenbreite wird bei Fällen für den Aspose-Nur-Daten-Renderer nicht umbrochen
 - ` `(SSRS-40130) Probleme mit der Währungsformatierung
 - ` `(SSRS-40129) Bedingter Seitenumbruch funktioniert nicht in Aspose-Renderern
-- ` `(SSRS-40128) SSRS-Export nach XLSX verkleinert Spaltenüberschriften
+- ` `(SSRS-40128) SSRS-Export nach XLSX schrumpfende Spaltenüberschriften
 - ` `(SSRS-40127) Aspose Berichtsausgabe „Nur Daten“ – Seite 2 wird nicht über die Konfiguration für Berichtskopfzeile gesteuert
 - ` ` (SSRS-40126) Die Ausgabe der ersten Berichtsspalte wird in zwei Excel-Spalten zusammengeführt
 - ` `(SSRS-40125) Probleme mit der Währungsformatierung in Excel und Excel „Nur Daten“.
@@ -53,7 +53,7 @@ Aspose.Cells for Reporting Services Report Designer-Optimierung.
 - ` ` (SSRS-40114) Horizontales Berichtsformat
 - ` ` (SSRS-40112) Einfügen zusätzlicher Blätter in eine exportierte Arbeitsmappe
 - ` `(SSRS-40111) Fehler beim Exportieren des Berichts
-- ` `(SSRS-40109) Excel 2007 XLSX-Rendering-Probleme
+- ` `(SSRS-40109) Excel 2007 XLSX Darstellungsprobleme
 - ` `(SSRS-40108) Excel hat unlesbaren Inhalt gefunden
 - ` `(SSRS-40107) Tabelle wird nicht als Tablix im RDL generiert
 - ` `(SSRS-40106) Fehler: Objektverweis nicht auf eine Instanz eines Objekts festgelegt

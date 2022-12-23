@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/net/spreadsheetml-xlsx-xml/
 ---
-## **Om SpreadsheetML**
+## **Cirka SpreadsheetML**
 SpreadsheetML är ett namn på en familj av XML-baserade format för kalkylarksdokument. Det finns flera versioner av SpreadsheetML:
 
 1. SpreadsheetML version 2003 introducerades i Microsoft Word 2003. SpreadsheetML var ett betydande steg av Microsoft mot att göra dokumentformatet öppet.
@@ -19,7 +19,7 @@ Det finns tre "versioner" av SpreadsheetML tillgängliga:
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Ja|
 |Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|Ja|
 |Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|Ja|
-OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, som är ZIP-paket. Förutom XLSX. Aspose.Cells ger omfattande stöd för att ladda, spara och konvertera SpreadsheetML-dokument. En sådan allomfattande implementering är möjlig eftersom Aspose.Cells utformades med strukturen Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
+OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, som är ZIP-paket. Förutom XLSX. Aspose.Cells ger omfattande stöd för att ladda, spara och konvertera SpreadsheetML dokument. En sådan allomfattande implementering är möjlig eftersom Aspose.Cells utformades med strukturen Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
 ### **OOXML är öppet, varför använda Aspose.Cells?**
 Det är sant att Office Open XML-teknik gör det möjligt att bygga dokumentbehandling och generera applikationer med bara XML-klasserna utan att förlita sig på tredjepartsbibliotek som Aspose.Cells. Vi tror dock starkt att det fortfarande är mycket fördelaktigt att använda Aspose.Cells när du har att hantera OOXML-dokument, snarare än att arbeta genom XML eller andra bibliotek.
 

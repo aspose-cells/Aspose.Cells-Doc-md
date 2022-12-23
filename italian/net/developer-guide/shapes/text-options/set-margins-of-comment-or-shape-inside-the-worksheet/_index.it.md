@@ -14,6 +14,6 @@ Aspose.Cells consente di impostare i margini di qualsiasi forma o commento utili
 
 ![cose da fare:immagine_alt_testo](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SetMarginsOfCommentOrShapeInsideTheWorksheet.cs" >}}

@@ -22,7 +22,7 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **新機能**
 
 
- (CELLSNET-43905) - HTMLハイパーリンクのターゲット属性を「_blank」に変更するサポート
+ (CELLSNET-43905) - HTML ハイパーリンクのターゲット属性を「_blank」に変更するサポート
 
 (CELLSNET-43885) - WebQuery タイプの ExternalConnection の ConnectionString を取得する機能
 
@@ -52,31 +52,31 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-43936) - Chart.ChartDataTable.ShowLegendKey が false に設定されていても、凡例キーを表示します
 
-(CELLSNET-43991) - ワークシートを削除すると、結果の XLSX が破損する
+(CELLSNET-43991) - ワークシートを削除すると結果の XLSX が破損する
 
 (CELLSNET-43988) - XLSX を Aspose.Cells で再保存すると、変更するパスワードが失われる
 
-(CELLSNET-43984) - XLSM が再保存されると、[変更するパスワード] が [開くためのパスワード] に変換される
+(CELLSNET-43984) - XLSM を再保存すると、変更するパスワードが開くパスワードに変換されます
 
-(CELLSNET-43983) - XLSX が再保存されると、[変更するパスワード] が [開くためのパスワード] に変換される
+(CELLSNET-43983) - XLSX を再保存すると、変更するパスワードが開くパスワードに変換されます
 
-(CELLSNET-43982) - XLTM が再保存されると、[変更するパスワード] が [開くためのパスワード] に変換される
+(CELLSNET-43982) - XLTM を再保存すると、変更するパスワードが開くパスワードに変換されます
 
 (CELLSNET-43981) - XLTM を再保存すると、変更するパスワードが失われる
 
-(CELLSNET-43980) - XLTX が再保存されると、[変更するパスワード] が [開くためのパスワード] に変換されます
+(CELLSNET-43980) - XLTX を再保存すると、変更するパスワードが開くパスワードに変換されます
 
 (CELLSNET-43979) - SetStyle フォントが特定のフォントに適用されない
 
 (CELLSNET-43977) - XLTX を Aspose.Cells で再保存すると、変更するパスワードが失われる
 
-(CELLSNET-43976) - パスワードで保護された XLSX を複数回開こうとする
+(CELLSNET-43976) - パスワードで保護された XLSX を開こうとすると複数回試行される
 
 (CELLSNET-43973) - XLSM を再保存すると、変更するパスワードが失われる
 
-(CELLSNET-43968) - Excel アプリケーションは、結果の XLSB を読み取り専用で開くことを推奨します。
+(CELLSNET-43968) - Excel アプリケーションは、結果の XLSB を読み取り専用で開くことを推奨します
 
- (CELLSNET-43967) - パスワードで保護された XLT が再保存後に破損する
+(CELLSNET-43967) - パスワードで保護された XLT が再保存後に破損する
 
 (CELLSNET-43966) - CalculateFormula の後で ISNONTEXT 数式が間違った値を返す
 
@@ -104,13 +104,13 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-42120) - 特定のシナリオで DisplayStringValue 値が正しくない
 
-(CELLSNET-42110) - XLSX の範囲の境界線セットが PDF に表示されない
+(CELLSNET-42110) - XLSX の範囲に設定された境界線が PDF に表示されない
 
 
 ## **例外**
 
 
-(CELLSNET-43932) - 形状から画像へのエラー!スプレッドシートを PDF にレンダリング中
+(CELLSNET-43932) - 形状から画像へのエラー!スプレッドシートを PDF にレンダリングしている間
 
 (CELLSNET-43964) - すべてのセルの表示スタイルを取得すると IndexOutOfRangeException がスローされる
 
@@ -124,7 +124,7 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -138,7 +138,7 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **機能強化**
 
 
-(CELLSNET-43873) - 古いコード - Cells の範囲のフォーマット - 記事が機能しない
+ (CELLSNET-43873) - 古いコード - Cells の範囲のフォーマット - 記事が機能しない
 
 
 ## **バグ**
@@ -166,4 +166,4 @@ url: /ja/net/aspose-cells-for-net-8-6-1-release-notes/
 
 列挙型 HtmlLinkTargetType と HtmlSaveOptions.LinkTargetType を追加します。
 
- HTMLでターゲット属性のタイプを設定するために使用されます
+ HTML でターゲット属性のタイプを設定するために使用されます

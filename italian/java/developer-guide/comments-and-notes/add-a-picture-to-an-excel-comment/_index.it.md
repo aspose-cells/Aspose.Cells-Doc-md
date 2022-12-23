@@ -12,7 +12,7 @@ I commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, 
 
 {{% /alert %}}
 
-## Aggiungi un'immagine a Excel Commenta con Microsoft Excel
+## Aggiungi immagine a Excel Comment con Microsoft Excel
 
 Con Microsoft Excel 2007, è possibile avere un'immagine come sfondo di un commento di cella. In Excel 2007, ciò viene eseguito (supponendo che il commento sia già stato aggiunto) in questo modo:
 
@@ -20,7 +20,7 @@ Con Microsoft Excel 2007, è possibile avere un'immagine come sfondo di un comme
 1.  Scegliere**Mostra/Nascondi commenti** e cancella qualsiasi testo dal commento.
 1. Fare clic sul bordo del commento per selezionarlo.
 1.  Scegliere**Formato** , poi**Commento**.
-1. Nella scheda Colori e linee, fare clic sulla freccia per**Colore**.
+1.  Nella scheda Colori e linee, fare clic sulla freccia per**Colore**.
 1.  Clic**Effetti di riempimento**.
 1.  Nella scheda Immagine fare clic su**Seleziona Immagine**.
 1. Individua e seleziona l'immagine
@@ -38,6 +38,6 @@ Dopo aver eseguito il codice, A1 ha un commento con un'immagine di sfondo.
 
 ![cose da fare:immagine_alt_testo](add-a-picture-to-an-excel-comment_1.png)
 
-## Codice di esempio
+## Codice d'esempio
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPicturetoExcelComment-AddPicturetoExcelComment.java" >}}

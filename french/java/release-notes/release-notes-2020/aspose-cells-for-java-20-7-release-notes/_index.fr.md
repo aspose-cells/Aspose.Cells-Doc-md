@@ -10,10 +10,10 @@ url: /fr/java/aspose-cells-for-java-20-7-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43221|Exception "java.lang.NullPointerException" lors du chargement du fichier XLT|Renforcement|
-|CELLSJAVA-43222|Exception "com.aspose.cells.CellsException : les données de la formule auraient dû être corrompues...." lors du chargement d'un fichier XLS|Renforcement|
+|CELLSJAVA-43222|Exception "com.aspose.cells.CellsException : les données de formule auraient dû être corrompues...." lors du chargement d'un fichier XLS|Renforcement|
 |CELLSJAVA-43223|Exception "java.lang.IllegalStateException : Encodage invalide : null" lors du chargement d'un fichier XLS|Renforcement|
 |CELLSJAVA-43226|Exception "java.lang.ArrayIndexOutOfBoundsException" lors de la récupération des données de l'image|Renforcement|
 |CELLSJAVA-43234|Les données avant 2014 ne sont pas lues à partir du tableau croisé dynamique|Punaise|
@@ -22,19 +22,19 @@ url: /fr/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43219|Ajout d'une référence de formule à différents résultats de feuille dans un classeur Excel corrompu|Punaise|
 |CELLSJAVA-43232|Problème de fonction ROUNDUP|Punaise|
 |CELLSJAVA-43243|La formule n'a pas pu être récupérée lors de la modification de la formule de la cellule voisine|Punaise|
-|CELLSJAVA-43217|L'impression XLSX vers XPS perd le formatage en arrière-plan|Punaise|
+|CELLSJAVA-43217|L'impression de XLSX à XPS perd le formatage d'arrière-plan|Punaise|
 |CELLSJAVA-43224|Problème lors de l'impression sur une imprimante physique|Punaise|
 |CELLSJAVA-43241|Problème avec la hauteur de ligne et la bordure lors de la création d'une image à partir de la zone Excel|Punaise|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) ne génère pas les résultats attendus lors de l'utilisation de SmartMarkers|Punaise|
 |CELLSJAVA-43213|Aspose.Cells 20.6 ne fonctionne pas correctement avec les contrôles de formulaire sur Office 365 (version 2005 Build 12827.20268)|Punaise|
 |CELLSJAVA-43214|Lors de la traduction de XLS en XLSX, il produit un fichier XLSX cassé|Punaise|
-|CELLSJAVA-43216|Conversion XLS en XLSX - l'audace et le positionnement de la police sont modifiés pour la forme|Punaise|
+|CELLSJAVA-43216|Conversion de XLS à XLSX - la mise en gras et le positionnement de la police sont modifiés pour la forme|Punaise|
 |CELLSJAVA-43228|Le XLS généré est en vue protégée|Punaise|
 |CELLSJAVA-43231|Erreur dans le fichier de sortie après les remplacements|Punaise|
 |CELLSJAVA-43225|Exception "java.lang.NullPointerException" lors de la récupération de la valeur de chaîne de la cellule|Exception|
 |CELLSJAVA-43229|Exception lors du chargement du fichier XLSM avec l'option setKeepUnparsedData(false)|Exception|
 |CELLSJAVA-43238|Le calcul échoue avec NPE (java.lang.NullPointerException)|Exception|
-|CELLSJAVA-43199|Exception "java.lang.NegativeArraySizeException" lors de l'enregistrement au format HTML|Exception|
+|CELLSJAVA-43199|Exception "java.lang.NegativeArraySizeException" lors de l'enregistrement dans HTML|Exception|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

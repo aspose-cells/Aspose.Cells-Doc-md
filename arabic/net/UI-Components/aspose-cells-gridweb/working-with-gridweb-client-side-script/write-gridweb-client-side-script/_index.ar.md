@@ -65,7 +65,7 @@ Aspose.Cells.GridWeb يعرض أيضًا وظائف خاصة للبرمجة ال
 لإنشاء تطبيق اختبار يحتوي على برامج نصية من جانب العميل تعمل مع Aspose.Cells.GridWeb ، اتبع الخطوات التالية:
 
 1. قم بإنشاء وظائف JavaScript ليتم استدعاؤها بواسطة GridWeb.
- ستتم إضافة هذه الوظائف إلى صفحات ASP.NET<script></script>بطاقة شعار.
+ ستتم إضافة هذه الوظائف إلى صفحات ASP.NET<script></script> بطاقة شعار.
 1. قم بتعيين أسماء الدالات إلى الخاصيتين OnSubmitClientFunction و OnValidationErrorClientFunction.
 
 يتم عرض إخراج مثال الكود أدناه:

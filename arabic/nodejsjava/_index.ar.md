@@ -7,11 +7,11 @@ is_root: true
 ---
 {{% alert color="primary" %}}
 
-**! [todo: image_alt_text] (aspose-cells-for-node-js-via-java-home_1)**
+**![todo:image_alt_text](aspose-cells-for-node-js-via-java-home_1)**
 
 **مرحبا بكم في Aspose.Cells for Node.js via Java**
 
-يقدم Aspose.Cells for Node.js via Java جميع الميزات المفيدة لـ Aspose.Cells for Java باستخدام Node.js. Aspose.Cells for Node.js via Java هي مكتبة فئات تمكنك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Node.js via Java هو API قابل للتطوير وغني بالميزات يوفر تحويل تنسيق جدول البيانات ، وتصميم أوراق العمل إلى المستوى الأكثر دقة ، وإدارة الرسوم البيانية وعرضها ، ومحرك حساب الصيغة الموثوق به. Aspose.Cells for Node.js via Java يدعم XLS و XLSX و ODS و SpreadsheetML و CSV و Tab Delimited و HTML / MHTML و PDF و XPS وغيرها من التنسيقات. باستخدام Aspose.Cells for Node.js via Java ، يمكنك إنشاء مستندات Excel وتعديلها وتحويلها وتقديمها.
+يقدم Aspose.Cells for Node.js via Java جميع الميزات المفيدة لـ Aspose.Cells for Java باستخدام Node.js. Aspose.Cells for Node.js via Java هي مكتبة فئات تمكنك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Node.js via Java هو API قابل للتطوير وغني بالميزات يوفر تحويل تنسيق جدول البيانات ، وتصميم أوراق العمل إلى المستوى الأكثر دقة ، وإدارة الرسوم البيانية وعرضها ، ومحرك حساب الصيغة الموثوق به. Aspose.Cells for Node.js via Java يدعم XLS، XLSX، ODS، SpreadsheetML، CSV، Tab Delimited، HTML/MHTML، PDF، XPS وتنسيقات أخرى. باستخدام Aspose.Cells for Node.js via Java ، يمكنك إنشاء مستندات Excel وتعديلها وتحويلها وتقديمها.
 
 {{% /alert %}}
 

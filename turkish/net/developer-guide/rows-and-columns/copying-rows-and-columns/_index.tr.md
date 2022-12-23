@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /tr/net/copying-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 
 Bazen, tüm çalışma sayfasını kopyalamadan çalışma sayfasındaki satırları ve sütunları kopyalamanız gerekir. Aspose.Cells ile çalışma kitaplarının içinde veya arasında satır ve sütun kopyalamak mümkündür.
 Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri de dahil olmak üzere içerdiği veriler de kopyalanır.

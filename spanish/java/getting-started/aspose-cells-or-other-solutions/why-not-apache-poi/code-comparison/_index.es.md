@@ -8,7 +8,7 @@ Es posible que los desarrolladores que buscan bibliotecas de procesamiento de ho
 
 - Características
 - Esfuerzos necesarios para utilizar la biblioteca
-- Actuación
+- Rendimiento
 
 Si es un desarrollador Java que busca elegir una biblioteca de procesamiento de hojas de cálculo para procesar hojas de cálculo, es posible que desee comparar Apache POI HSSF y XSSF SDK con Aspose.Cells. En este caso, este mismo proyecto lo ayudará a comparar características y código utilizando ambas bibliotecas. .
 

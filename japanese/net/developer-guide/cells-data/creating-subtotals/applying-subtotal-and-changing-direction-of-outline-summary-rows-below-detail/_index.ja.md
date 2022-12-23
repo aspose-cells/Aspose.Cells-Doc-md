@@ -10,7 +10,7 @@ url: /ja/net/applying-subtotal-and-changing-direction-of-outline-summary-rows-be
 
 を使用して小計をデータに適用できます[**Worksheet.Cells.Subtotal()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)方法。次のパラメータを取ります。
 
-- **セルエリア** - 小計を適用する範囲
+- **セルエリア** 小計を適用する範囲
 - **グループ化** ゼロベースの整数オフセットとして、グループ化するフィールド
 - **関数** 小計機能。
 - **トータルリスト** 小計が追加されるフィールドを示すゼロから始まるフィールド オフセットの配列。

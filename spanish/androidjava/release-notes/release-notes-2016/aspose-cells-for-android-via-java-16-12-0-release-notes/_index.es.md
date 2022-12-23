@@ -11,8 +11,8 @@ url: /es/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41974|La actualización de la tabla dinámica no funciona en el archivo PDF representado|Insecto|
 |CELLSJAVA-41900|XLSM se corrompe con una simple operación de carga y guardado|Insecto|
 |CELLSJAVA-41790|Los hipervínculos no funcionan como se esperaba después de convertir la hoja de cálculo a HTML|Insecto|
-|CELLSJAVA-42010|Algunos caracteres no se representan en el PDF de salida|Insecto|
-|CELLSJAVA-41977|El orden de la leyenda del gráfico cambió en el PDF del gráfico|Insecto|
+|CELLSJAVA-42010|Algunos caracteres no se representan en la salida PDF|Insecto|
+|CELLSJAVA-41977|El orden de la leyenda del gráfico cambió en Chart's PDF|Insecto|
 |CELLSJAVA-41972|El orden Z de las líneas altas y bajas no es correcto en PDF|Insecto|
 |CELLSJAVA-42015|La hoja de cálculo se corrompe después de volver a guardar con Aspose.Cells|Insecto|
 |CELLSJAVA-42005|La fórmula se cambia después de insertar en una celda|Insecto|
@@ -21,37 +21,37 @@ url: /es/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42039|CalculateFormula tiene problemas para recalcular celdas con referencia a celdas con fórmulas|Insecto|
 |CELLSJAVA-42050|Los caracteres de control hebreos no se representan correctamente en PDF|Insecto|
 |CELLSJAVA-42020|La conversión de XLS a PDF lleva demasiado tiempo|Insecto|
-|CELLSJAVA-42017|Problema de diseño al convertir una hoja de cálculo a PDF|Insecto|
+|CELLSJAVA-42017|Problema de diseño al convertir la hoja de cálculo a PDF|Insecto|
 |CELLSJAVA-42023|Las etiquetas del eje X se superponen con la Leyenda cuando se representan en PDF|Insecto|
-|CELLSJAVA-42022|La imagen no se escala bien y su archivo SVG no es correcto|Insecto|
+|CELLSJAVA-42022|La imagen no escala bien y su archivo SVG no es correcto|Insecto|
 |CELLSJAVA-42003|Representación incorrecta del gráfico al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-41986|Los espacios se omiten del texto en la salida PNG del gráfico|Insecto|
-|CELLSJAVA-41438|La selección o el estado de verificación no se guardaron al guardar en PDF|Insecto|
+|CELLSJAVA-41438|El estado de selección o verificación no se guardó al guardar en PDF|Insecto|
 |CELLSJAVA-41339|El texto y la alineación del texto están desordenados en el archivo|Insecto|
 |CELLSJAVA-42056|La extensión de la tabla de MS Excel/objeto de lista cambia el formato de las celdas|Insecto|
 |CELLSJAVA-42055|Agregar Arc a un nuevo libro de trabajo genera una hoja de cálculo potencialmente insegura|Insecto|
 |CELLSJAVA-42038|La columna de la tabla se resuelve rota si contiene '[']|Insecto|
 |CELLSJAVA-42021|Problema con la extensión del contenido de la tabla/objeto de lista de Excel con respecto a las fórmulas|Insecto|
 |CELLSJAVA-42019|Fórmula incorrecta devuelta desde una celda de hoja de cálculo|Insecto|
-|CELLSJAVA-42073|XLSM se corrompe después de volver a guardar la operación|Insecto|
+|CELLSJAVA-42073|XLSM se corrompe después de la operación de volver a guardar|Insecto|
 |CELLSJAVA-42060|El ancho de DataBar no es correcto al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-42016|La fila naranja no está incluida en la suma de la tabla dinámica|Insecto|
-|CELLSJAVA-42006|La imagen está recortada en el HTML de salida|Insecto|
+|CELLSJAVA-42006|La imagen está recortada en la salida HTML|Insecto|
 |CELLSJAVA-42067|Falta el gráfico al convertir la hoja de cálculo a HTML|Insecto|
-|CELLSJAVA-41983|La altura de fila no es correcta al convertir XLSX a HTML|Insecto|
+|CELLSJAVA-41983|La altura de la fila no es correcta al convertir XLSX a HTML|Insecto|
 |CELLSJAVA-42089|La fórmula de Excel DCOUNTA no se evalúa bien con el motor de cálculo de fórmulas Aspose.Cells|Insecto|
 |CELLSJAVA-42081|Problema con el formato condicional de DataBar al guardar un archivo XLSM como PDF|Insecto|
-|CELLSJAVA-42100|El espacio entre ciertos caracteres se elimina en algunos lugares del archivo PDF de salida|Insecto|
-|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran ni representan de la misma manera (como en el archivo de Excel original) en el archivo PDF de salida|Insecto|
-|CELLSJAVA-42077|Problema con los atributos de fuente de TextBox en el PDF de salida|Insecto|
+|CELLSJAVA-42100|El espacio entre ciertos caracteres se elimina en algunos lugares del archivo de salida PDF|Insecto|
+|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran/procesan igual (según el archivo de Excel original) en el archivo de salida PDF|Insecto|
+|CELLSJAVA-42077|Problema con los atributos de fuente de TextBox en la salida PDF|Insecto|
 |CELLSJAVA-42064|El color y el tamaño del contenido de TextBox se cambian al convertir la hoja de trabajo a EMF|Insecto|
-|CELLSJAVA-42063|El color y el tamaño del contenido de TextBox se cambian al convertir la hoja de cálculo a PDF|Insecto|
-|CELLSJAVA-42059|Las palabras hebreas no se representan correctamente al convertir un archivo de Excel a formato de archivo PDF|Insecto|
+|CELLSJAVA-42063|El color y el tamaño del contenido de TextBox cambian al convertir la hoja de cálculo a PDF|Insecto|
+|CELLSJAVA-42059|Las palabras hebreas no se representan correctamente al convertir un archivo de Excel al formato de archivo PDF|Insecto|
 |CELLSJAVA-42053|El contenido en TextBox se recorta al representar la hoja de cálculo en PDF|Insecto|
 |CELLSJAVA-42052|Las líneas con flechas están fuera de lugar al representar la hoja de cálculo en PDF|Insecto|
-|CELLSJAVA-42049|Problema con la imagen SVG del gráfico en el archivo HTML representado|Insecto|
+|CELLSJAVA-42049|Problema con la imagen SVG del gráfico en el archivo renderizado HTML|Insecto|
 |CELLSJAVA-42036|La sustitución de fuentes no parece tener efecto para la leyenda del gráfico al usar Chart.toPdf|Insecto|
-|CELLSJAVA-42024|Leyenda superpuesta con texto en el PDF del gráfico|Insecto|
+|CELLSJAVA-42024|Leyenda superpuesta con texto en Chart's PDF|Insecto|
 |CELLSJAVA-42070|Valores incorrectos de ShapeXPx y ShapeYPx de ChartPoint|Insecto|
 |CELLSJAVA-42083|Representación incompleta de la forma Rectángulo al convertir XLS a HTML|Insecto|
 |CELLSJAVA-42104|El texto se trunca al convertir la hoja de cálculo al formato de archivo PDF|Insecto|

@@ -12,28 +12,28 @@ url: /tr/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41947|Bir DataPoint'in Pie'de mi yoksa Bar'da mı olduğunu algılama yeteneği|Yeni özellik|
 |CELLSJAVA-41936|Workbook.calculateFormula() yöntemi, kaynak Excel dosyası için hiçbir zaman sonlandırılmaz|Artırma|
 |CELLSJAVA-41827|Elektronik tablonun formülleri Workbook.calculateFormula() yöntemiyle hesaplaması 3 dakikadan uzun sürüyor|Artırma|
-|CELLSJAVA-41928|IStreamProvider ile elektronik tablo HTML'ye dönüştürülürken görüntü kaynağı yakalanamıyor|Böcek|
-|CELLSJAVA-41841|Onay kutularını HTML'ye dönüştürmeyle ilgili sorun|Böcek|
+|CELLSJAVA-41928|IStreamProvider ile elektronik tablo HTML'e dönüştürülürken görüntü kaynağı yakalanamıyor|Böcek|
+|CELLSJAVA-41841|Onay kutuları HTML'e dönüştürülürken sorun|Böcek|
 |CELLSJAVA-41932|Tarih biçimlendirilmiş değerler için getDisplayStringValue() ile ilgili sorun|Böcek|
 |CELLSJAVA-41930|Bir XLS dosyasını işlemek için Light Cells API'leri kullanıldığında, her zaman ilk sayfanın ilk hücresi işlenir|Böcek|
-|CELLSJAVA-41931|Elektronik tabloyu PDF'ye dönüştürürken dikey metin için karakter aralığı ve kesme doğru değil|Böcek|
+|CELLSJAVA-41931|E-tablo PDF'e dönüştürülürken dikey metin için karakter aralığı ve kesme doğru değil|Böcek|
 |CELLSJAVA-41709|Sütun genişlikleri, CentOS'ta Windows'dekinden farklıdır|Böcek|
-|CELLSJAVA-41933|Elektronik tablo PDF'ye dönüştürülürken grafik ölçeği değişti|Böcek|
-|CELLSJAVA-41934|Bir Excel dosyasını PDF'ye dönüştürürken hizalama sorunu|Böcek|
-|CELLSJAVA-41935|Elektronik tabloyu PDF'ye dönüştürürken gösterge girişlerinin biçimlendirmesi bozuluyor|Böcek|
+|CELLSJAVA-41933|Elektronik tablo oluşturulurken grafik ölçeği PDF olarak değişti|Böcek|
+|CELLSJAVA-41934|Bir Excel dosyasını PDF olarak işlerken hizalama sorunu|Böcek|
+|CELLSJAVA-41935|Elektronik tablo PDF'e dönüştürülürken açıklama girişlerinin biçimlendirmesi bozuldu|Böcek|
 |CELLSJAVA-41943|Yatay eksen etiketleri tam olarak işlenmemiştir, yani; işlenen görüntüdeki tüm etiketlerde bazı içerikler eksik.|Böcek|
 |CELLSJAVA-41940|Dosya, formül hesaplamasından sonra bozuldu ve kaydedildi|Böcek|
 |CELLSJAVA-41952|Hesaplama sonucu doğru değil|Böcek|
 |CELLSJAVA-41941|Dizi formülü düzgün hesaplanmıyor|Böcek|
-|CELLSJAVA-41937|Excel dosyasındaki bazı değerler çıktı HTML'sinde eksik - XLS'den HTML'ye dönüştürme|Böcek|
-|CELLSJAVA-41969|Cell HTML'yi XLSX'e dönüştürürken gölgelendirme eksik|Böcek|
-|CELLSJAVA-41955|Çalışma kitabından HTML'ye hücrelerde '#' gösteriliyor|Böcek|
-|CELLSJAVA-41942|Eksik kenarlıklar, hücre gölgelendirme ve resimler - HTML'den Excel'e dönüştürme|Böcek|
+|CELLSJAVA-41937|HTML - XLS - HTML çıktısında Excel dosyasındaki bazı değerler eksik|Böcek|
+|CELLSJAVA-41969|HTML, XLSX'e dönüştürülürken Cell gölgelendirme eksik|Böcek|
+|CELLSJAVA-41955|HTML çalışma kitabı hücrelerde '#' gösteriyor|Böcek|
+|CELLSJAVA-41942|Eksik kenarlıklar, hücre gölgelendirme ve resimler - HTML'den Excel'e işleme|Böcek|
 |CELLSJAVA-41967|Tek bir sayfada birden çok yazdırma alanı tanımlandığında PDF'de Cells eksik|Böcek|
 |CELLSJAVA-41958|Grafik görüntüsünde sağ taraf açıklaması kesiliyor|Böcek|
 |CELLSJAVA-41953|HTML biçimine dönüştürüldükten sonra diyagramda yanlış yerleştirilmiş metin|Böcek|
-|CELLSJAVA-41948|E-tablo HTML'ye dönüştürülürken grafik değiştirildi|Böcek|
-|CELLSJAVA-41981|Chart'ın PDF'sindeki dikey çizginin yanlış konumu|Böcek|
+|CELLSJAVA-41948|Elektronik tablo HTML'e dönüştürülürken grafik değiştirildi|Böcek|
+|CELLSJAVA-41981|Tablo PDF'de dikey çizginin yanlış konumu|Böcek|
 |CELLSJAVA-41964|Otomatik sığdırma, girinti düzeyini dikkate almaz|Böcek|
 |CELLSJAVA-40260|Bir Excel dosyasındaki mevcut bir WordArt'ın metnini değiştirme|Böcek|
 |CELLSJAVA-41927|İstisna: HTML dosya biçimine kaydederken "java.lang.OutOfMemoryError"|İstisna|
@@ -51,7 +51,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 ### **CopyOptions.ReferToDestinationSheet özelliğini ve Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int targetRowIndex, int rowNumber, CopyOptions copyOptions) yöntemini ekler**
 Aralık kopyalanırken ve grafik kaynak sayfaya başvuruyorsa, Yanlış, kopyalanan grafiğin veri kaynağının değişmeyeceği anlamına gelir. Doğru, kopyalanan grafiğin veri kaynağının hedef sayfaya başvurduğu anlamına gelir.
 ### **HtmlSaveOptions.FilePathProvider özelliğini ekler**
-Çalışma Sayfasını HTML'ye ayrı olarak dışa aktarmak için IFilePathProvider'ı alır veya ayarlar.
+Çalışma Sayfasını HTML'e ayrı olarak dışa aktarmak için IFilePathProvider'ı alır veya ayarlar.
 ### **IFilePathProvider arabirimini ekler**
 Dışa aktarılan dosya yolu sağlayıcısını temsil eder.
 ### **FontConfigs sınıfını ekler**

@@ -12,7 +12,7 @@ description: Aspose.Cells で Excel ファイルのスライサーを管理し�
 
 ## **ピボット テーブルにスライサーを作成する**
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](67338470.xlsx)ピボットテーブルが含まれています。次に、最初のベース ピボット フィールドに基づいてスライサーを作成します。最後に、ワークブックを[出力XLSX](67338471.xlsx)と[出力XLSB](67338472.xlsb)フォーマット。次のスクリーンショットは、出力 Excel ファイルで Aspose.Cells によって作成されたスライサーを示しています。
+以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](67338470.xlsx)ピボットテーブルが含まれています。次に、最初のベース ピボット フィールドに基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](67338471.xlsx)と[出力 XLSB](67338472.xlsb)フォーマット。次のスクリーンショットは、出力 Excel ファイルで Aspose.Cells によって作成されたスライサーを示しています。
 
 ![todo:画像_代替_文章](create-slicer-to-a-pivot-table_1.png)
 
@@ -22,7 +22,7 @@ description: Aspose.Cells で Excel ファイルのスライサーを管理し�
 
 ## **Excel テーブルへのスライサーの作成**
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
+以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
 
 ### **サンプルコード**
 

@@ -44,7 +44,7 @@ url: /fr/net/aspose-cells-for-net-7-3-4-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 - Exception "Formule non valide" lors de l'ouverture d'un fichier XLSX
 - Aspose.Cells lève l'exception "ArgumentNullException" lors de l'ouverture d'un fichier de modèle
@@ -74,17 +74,17 @@ url: /fr/net/aspose-cells-for-net-7-3-4-release-notes/
 
  -La conversion de XLS en XLSX crée un mauvais document
 
-- Le rendu d'un fichier MS Excel en document PDF présente un problème de contenu
+- Le rendu d'un fichier MS Excel dans le document PDF présente un problème de contenu
 
 
 
- \2) GrilleWeb
+ \2) Grille Web
 
 
 
  Insectes
 
-40838 - GridWeb - Le formatage n'est pas enregistré correctement
+ 40838 - GridWeb - Le formatage n'est pas enregistré correctement
 
  41140 - Problème lors de l'utilisation de l'option "Ajouter une ligne"
 

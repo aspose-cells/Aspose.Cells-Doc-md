@@ -10,7 +10,7 @@ url: /ja/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
 を使用して小計をデータに適用できます[**Worksheet.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])） 方法。次のパラメータを取ります。
 
-- **セルエリア** - 小計を適用する範囲
+- **セルエリア** 小計を適用する範囲
 - **グループ化** ゼロベースの整数オフセットとして、グループ化するフィールド
 - **関数** 小計機能。
 - **トータルリスト** 小計が追加されるフィールドを示すゼロから始まるフィールド オフセットの配列。

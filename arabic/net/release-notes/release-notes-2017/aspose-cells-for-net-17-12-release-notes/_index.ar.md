@@ -14,30 +14,30 @@ url: /ar/net/aspose-cells-for-net-17-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-45358|احصل على CSS بشكل منفصل عن ترميز HTML عند التصدير إلى HTML باستخدام التدفقات|ميزة جديدة|
 |CELLSNET-45697|نفذ Cell.FormulaLocal مثل Microsoft Interop FormulaLocal|ميزة جديدة|
-|CELLSNET-45801|دعم وظائف Office الإضافية في تحويل Excel إلى PDF|ميزة جديدة|
+|CELLSNET-45801|دعم وظائف Office الإضافية في Excel لعرض PDF|ميزة جديدة|
 |CELLSNET-45796|العلامات الذكية - كيفية تعبئة البيانات تلقائيًا في ورقة العمل الثانية إذا كانت البيانات كبيرة جدًا ولا يمكن إدراجها في ورقة واحدة|ميزة جديدة|
 |CELLSNET-45791|قم بتحديث "الاحتفاظ بمحفوظات التغيير" عند مشاركة المصنف|ميزة جديدة|
 |CELLSNET-45746|يتداخل النص في الخلايا مع خلايا أخرى في Aspose.Cells.GridDesktop|ميزة جديدة|
 |CELLSNET-45774|يتم الخلط بين الصور في شكل صورة مع تعبئة نسيج|التعزيز|
-|CELLSNET-45731|تحديث PivotTable يفسد ملف MS Excel|حشرة|
-|CELLSNET-45794|يتم حساب صيغة المصفوفة التي تتضمن "MEDIAN" على أنها فارغة|حشرة|
-|CELLSNET-45779|Cell تم تغيير محاذاة النص في الصورة المحولة|حشرة|
-|CELLSNET-45772|فقدت صفحة واحدة عند تحويل ورقة العمل إلى صورة|حشرة|
-|CELLSNET-45764|حالة DataBars غير صحيحة في ملف PDF الناتج|حشرة|
-|CELLSNET-45785|وضع سلسلة "Nominale in Essere (mln)" تصنيفات البيانات غير صحيح|حشرة|
-|CELLSNET-45775|تسمية المحور العمودي الثانية مفقودة عند تحويل الرسم البياني إلى صورة|حشرة|
-|CELLSNET-45762|Chart.Calculate يستغرق المزيد من الوقت ولا يعمل|حشرة|
-|CELLSNET-45799|يتغير المسار المطلق إلى المسار النسبي عند إعادة حفظ ملف XLSX|حشرة|
-|CELLSNET-45797|SetArrayFormula - لا تتم معاملته كصيغة صفيف|حشرة|
-|CELLSNET-45792|فقدت الخلايا المدمجة عند النسخ ، والصق العمود في الأعمدة التالية|حشرة|
-|CELLSNET-45784|يؤدي إدراج عمود إلى مطالبة MS Excel برسالة خطأ|حشرة|
-|CELLSNET-45778|تم تغيير إعدادات التعليق عند فتح ملف MS Excel وحفظه|حشرة|
-|CELLSNET-45773|يتم تغيير تنسيق التعبئة لجميع أشكال النص في المصنف بدلاً من الشكل المحدد|حشرة|
-|CELLSNET-45770|ملف Xlsx تالف بعد التحميل والحفظ|حشرة|
-|CELLSNET-45769|القيمة الافتراضية للخاصية OoxmlSaveOptions.ExportCellName صحيحة بدلاً من false|حشرة|
-|CELLSNET-45768|Workbook.Save (دفق الدفق ، SaveFormat saveFormat) يفشل إذا كان الدفق لا يدعم Seek|حشرة|
-|CELLSNET-45780|مشكلة في عرض بيانات ورقة العمل من اليمين إلى اليسار|حشرة|
-|CELLSNET-45745|خطأ عند النقر فوق شريط التمرير في Aspose.Cells.GridDesktop|حشرة|
+|CELLSNET-45731|تحديث PivotTable يفسد ملف MS Excel|خلل برمجي|
+|CELLSNET-45794|يتم حساب صيغة المصفوفة التي تتضمن "MEDIAN" على أنها فارغة|خلل برمجي|
+|CELLSNET-45779|Cell تم تغيير محاذاة النص في الصورة المحولة|خلل برمجي|
+|CELLSNET-45772|فقدت صفحة واحدة عند تحويل ورقة العمل إلى صورة|خلل برمجي|
+|CELLSNET-45764|حالة DataBars غير صحيحة في الإخراج PDF|خلل برمجي|
+|CELLSNET-45785|وضع سلسلة "Nominale in Essere (mln)" تصنيفات البيانات غير صحيح|خلل برمجي|
+|CELLSNET-45775|تسمية المحور العمودي الثانية مفقودة عند تحويل الرسم البياني إلى صورة|خلل برمجي|
+|CELLSNET-45762|Chart.Calculate يستغرق المزيد من الوقت ولا يعمل|خلل برمجي|
+|CELLSNET-45799|يتغير المسار المطلق إلى المسار النسبي عند إعادة حفظ ملف XLSX|خلل برمجي|
+|CELLSNET-45797|SetArrayFormula - لا تتم معاملته كصيغة صفيف|خلل برمجي|
+|CELLSNET-45792|فقدت الخلايا المدمجة عند النسخ ، والصق العمود في الأعمدة التالية|خلل برمجي|
+|CELLSNET-45784|يؤدي إدراج عمود إلى مطالبة MS Excel برسالة خطأ|خلل برمجي|
+|CELLSNET-45778|تم تغيير إعدادات التعليق عند فتح ملف MS Excel وحفظه|خلل برمجي|
+|CELLSNET-45773|يتم تغيير تنسيق التعبئة لجميع أشكال النص في المصنف بدلاً من الشكل المحدد|خلل برمجي|
+|CELLSNET-45770|ملف Xlsx تالف بعد التحميل والحفظ|خلل برمجي|
+|CELLSNET-45769|القيمة الافتراضية للخاصية OoxmlSaveOptions.ExportCellName صحيحة بدلاً من false|خلل برمجي|
+|CELLSNET-45768|Workbook.Save (دفق الدفق ، SaveFormat saveFormat) يفشل إذا كان الدفق لا يدعم Seek|خلل برمجي|
+|CELLSNET-45780|مشكلة في عرض بيانات ورقة العمل من اليمين إلى اليسار|خلل برمجي|
+|CELLSNET-45745|خطأ عند النقر فوق شريط التمرير في Aspose.Cells.GridDesktop|خلل برمجي|
 |CELLSNET-45777|يحدث خطأ من شكل إلى صورة أثناء تحويل ملف Excel إلى PDF|استثناء|
 |CELLSNET-45804|استثناء عند فتح ملف Excel (Strict Open XML Spreadsheet)|استثناء|
 |CELLSNET-45798|كان الفهرس خارج حدود المصفوفة - استثناء أثناء عرض ملف Excel|استثناء|
@@ -79,7 +79,7 @@ LoadDataFilterOptions.None أعطى اتجاهات غامضة وتسبب في ح
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Cells مستندات Wiki:
 
 - [الملء التلقائي لبيانات العلامات الذكية في أوراق عمل أخرى إذا كانت البيانات كبيرة جدًا](/cells/ar/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [تصدير ورقة العمل CSS بشكل منفصل في إخراج HTML](/cells/ar/net/export-worksheet-css-separately-in-output/)
+- [تصدير ورقة العمل CSS بشكل منفصل في الإخراج HTML](/cells/ar/net/export-worksheet-css-separately-in-output/)
 - [نفذ Cell.FormulaLocal مماثل لنطاق Excel VBA](/cells/ar/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [أنماط عناصر الجدول البادئة مع الخاصية HtmlSaveOptions.TableCssId](/cells/ar/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [عرض وظائف Office الإضافية أثناء تحويل Excel إلى Pdf](/cells/ar/net/render-office-add-ins-while-converting-excel-to-pdf/)

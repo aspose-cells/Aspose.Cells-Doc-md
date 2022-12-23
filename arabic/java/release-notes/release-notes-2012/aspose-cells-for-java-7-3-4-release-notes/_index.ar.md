@@ -11,11 +11,11 @@ url: /ar/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 نحن
- يسعدني أن نعلن Aspose.Cells for Java v7.3.4!
+يسعدني أن نعلن Aspose.Cells for Java v7.3.4!
 
  ميزات جديدة
 
-- دعم تنسيق TIFF في ورقة إلى صورة
+- دعم تنسيق TIFF في ميزة "ورقة إلى صورة"
 
  التحسينات
 

@@ -14,7 +14,7 @@ Resim küçük olduğunda ve kalitesini kaybetmeden şeklin tüm yüzeyini kapla
 
 ## **Ekran görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](tile-picture-as-a-texture-inside-the-shape_1.png)
+![yapılacaklar:resim_alternatif_metin](tile-picture-as-a-texture-inside-the-shape_1.png)
 
 ## **Basit kod**
 

@@ -10,7 +10,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-1-1/
 
 {{% /alert %}} 
 ## **添加了 HtmlSaveOptions.PresentationPreference 属性**
-HtmlSaveOptions 类公开了 PresentationPreference 属性，可用于在将电子表格导出为 HTML 或 MHTML 时以更好的布局呈现结果。默认值为假。而如果设置为 true，则 Aspose.Cells API 将以更好的呈现方式导出工作表内容。
+HtmlSaveOptions 类公开了 PresentationPreference 属性，可用于在将电子表格导出到 HTML 或 MHTML 时以更好的布局呈现结果。默认值为 false。而如果设置为 true，则 Aspose.Cells API 将以更好的呈现方式导出工作表内容。
 
 {{% alert color="primary" %}} 
 

@@ -35,7 +35,7 @@ In questo esempio creare un'applicazione desktop e procedere come segue.
 
 Il suddetto frammento di codice può essere utilizzato dagli sviluppatori in qualsiasi modo desiderino. Ad esempio, se vuoi caricare automaticamente un file Excel quando viene caricato un Windows Form, puoi aggiungere questo codice sotto l'evento Load del tuo Form.
 ### **Apertura di un file CSV**
-Aspose.Cells. Il controllo GridDesktop supporta anche il caricamento di file CSV. Crea l'evento Click di**Apri il file CSV** pulsante e incollare il seguente codice al suo interno.
+Aspose.Cells. Il controllo GridDesktop supporta anche il caricamento del file CSV. Crea l'evento Click di**Apri il file CSV** pulsante e incollare il seguente codice al suo interno.
 
 
 

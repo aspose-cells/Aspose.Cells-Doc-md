@@ -21,7 +21,7 @@ url: /ru/net/setting-pivot-table-option-for-empty-cells-show/
 
 ## **Настройка параметра сводной таблицы с помощью Aspose.Cells**
 
- Aspose.Cells обеспечивает[**Сводная таблица. DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring) а также[**Сводная таблица.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) свойства для установки опции сводной таблицы "Для пустых ячеек показывать".
+ Aspose.Cells обеспечивает[**Сводная таблица. DisplayNullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/displaynullstring) и[**Сводная таблица.NullString**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/nullstring) свойства для установки опции сводной таблицы "Для пустых ячеек показывать".
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
 

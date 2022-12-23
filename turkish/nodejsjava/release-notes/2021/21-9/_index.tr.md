@@ -13,34 +13,34 @@ url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-21-9-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43639|Oluşturma tarihi ve saati ile değişiklik tarihi çıkarılamaz|
-|CELLSJAVA-43622|XLSX'ten PDF'e: Şekilden görüntüye Hata|
-|CELLSJAVA-43756| Excel'den HTML'ye geçiş sırasında görüntü bozulması|
-|CELLSJAVA-43309|Excel'den HTML'ye dönüştürmede ayrıntılar değişti|
-|CELLSJAVA-43578|Excel'i HTML'ye dönüştürürken biçimlendirme sorunları|
-|CELLSJAVA-43579|Excel'den HTML'ye dönüştürme sırasında Metin Hizalama sorunu|
-|CELLSJAVA-43630|Excel HTML'ye dönüştürüldüğünde köprü işlevi köprüsü geçersiz|
+|CELLSJAVA-43622|XLSX - PDF: Şekilden görüntüye Hata|
+|CELLSJAVA-43756| Excel sırasında görüntü bozulması HTML|
+|CELLSJAVA-43309|Ayrıntılar Excel'de HTML dönüşümü olarak değiştirildi|
+|CELLSJAVA-43578|Excel'i HTML'e dönüştürürken biçimlendirme sorunları|
+|CELLSJAVA-43579|Excel'den HTML'e dönüştürme sırasında Metin Hizalama sorunu|
+|CELLSJAVA-43630|Excel HTML'e dönüştürüldüğünde köprü işlevi köprüsü geçersiz|
 |CELLSJAVA-43635|Html'yi dışa aktarırken, veri çubuğunun uzunluğu excel'dekinden daha kısa|
 |CELLSJAVA-43709|Yeniden kaydedilen XLSM dosyası, ms excel tarafından açılırken dosya bozulmasına neden oluyor|
 |CELLSJAVA-43758|Dizi formülü değerlendirme sorunu|
 |CELLSJAVA-43680|Oluşturulan pdf'de koşullu biçimlendirmenin veri çubuğu sorunu|
 |CELLSJAVA-43689|Koşullu biçimlendirmeyi hücreye ayarlamak ve DataBar.toImage kullanmak boş resimle sonuçlanır|
-|CELLSJAVA-43723|Hücredeki yazı tipi tam olarak görüntülenmiyor Excel dosyası PDF'ye dönüştürüldüğünde|
-|CELLSJAVA-43724|Karmaşık HTML'yi CSV'ye dönüştüremiyor|
-|CELLSJAVA-43728| Excel'den PDF'e dönüştürme sırasında metin yönü değişti|
-|CELLSJAVA-43752|Excel'den HTML'ye dönüştürme - sınırları gizlemek için koşullu biçimlendirme sorunu|
-|CELLSJAVA-43792|HTML'den Excel'e dönüştürme için HtmlLoadOptions ayarlanırken yazı tipi yanlış|
-|CELLSJAVA-43571| XLSX'i PDF'ye Dönüştürürken DataLabels kesme sorunu|
+|CELLSJAVA-43723|Hücredeki yazı tipi tam olarak görüntülenmiyor Excel dosyası PDF'e dönüştürüldüğünde|
+|CELLSJAVA-43724|Karmaşık HTML, CSV'e dönüştürülemiyor|
+|CELLSJAVA-43728| Excel PDF'e dönüştürülürken metin yönü değişti|
+|CELLSJAVA-43752|Excel'den HTML'e dönüştürme - kenarlıkları gizlemek için koşullu biçimlendirme sorunu|
+|CELLSJAVA-43792|HTML için HtmlLoadOptions'ı Excel dönüşümüne ayarlarken yazı tipi yanlış|
+|CELLSJAVA-43571| XLSX'i PDF'e Dönüştürürken DataLabels kesme sorunu|
 |CELLSJAVA-43587|Halka grafik etiketleri yanlış yerleştirilmiş|
-|CELLSJAVA-43620|Excel dosyası (Şelale grafiği içeren) HTML'ye dönüştürülürken dikey eksen değerleri ve nokta etiketleri düzgün şekilde oluşturulmuyor|
+|CELLSJAVA-43620|Excel dosyası (Şelale grafiği içeren) HTML'e dönüştürülürken dikey eksen değerleri ve nokta etiketleri düzgün şekilde oluşturulmuyor|
 |CELLSJAVA-43621|İşlev RANDBETWEEN(alt, üst) değer sonuçları Excel sonuçlarından farklı|
-|CELLSJAVA-41710|XLSX'ten dönüştürüldükten sonra HTML'nin yanlış oluşturulması|
-|CELLSJAVA-43422|HTML'den Excel'e dönüştürme - CSS'deki "mso-ignore: dolgu"nun hiçbir etkisi yoktur|
+|CELLSJAVA-41710|XLSX'den dönüştürüldükten sonra HTML'in yanlış oluşturulması|
+|CELLSJAVA-43422|HTML'den Excel'e dönüştürme - CSS'deki "mso-ignore: dolgu"nun hiçbir etkisi yok|
 |CELLSJAVA-43606|Dosyaları birleştirirken arka plan metni biçimlendirmesi değişti|
 |CELLSJAVA-43769|MSO Excel (XLS) belgesi yüklenemiyor|
 |CELLSJAVA-43631|XLSM dosyası yüklenirken "java.lang.NullPointerException" istisnası|
 |CELLSJAVA-43655|getStringValue ile ArrayIndexOutOfBoundsException|
 |CELLSJAVA-43788|Grafik serisi için değer ayarlanırken istisna oluştu|
-|CELLSJAVA-43632| Bir XLSX dosyası yüklenirken "Geçersiz FontUnderlineType dize değeri" istisnası|
+|CELLSJAVA-43632| XLSX dosyası yüklenirken "Geçersiz FontUnderlineType dize değeri" istisnası|
 |CELLSJAVA-43633|Bir XLSX dosyası yüklenirken "Geçersiz MsoLineDashStyle dize değeri" istisnası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -53,7 +53,7 @@ Otomatik sığdırma için biçimlendirilmiş stratejiyi alır ve ayarlar.
 
 ### **MsoFormatPicture.Transparency özelliğini ekler.**
 
-Alanın şeffaflık derecesini 0,0 (opak) ila 1,0 (temiz) arasında bir değer olarak döndürür veya ayarlar.
+ Alanın şeffaflık derecesini 0,0 (opak) ila 1,0 (temiz) arasında bir değer olarak döndürür veya ayarlar.
 
 ### **Aşırı yüklenmiş PivotTableCollection.Remove() yöntemlerini ekler.**
 
@@ -61,5 +61,5 @@ Belirtilen PivotTable'ı siler ve hücrelerin verilerinin tutulup tutulmadığı
 
 ### **ImageOrPrintOptions.IsOptimized özelliğini ekler.**
 
- Çıkış öğelerinin optimize edilip edilmediğini gösterir. Varsayılan değer yanlıştır. Şu anda, bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
+Çıkış öğelerinin optimize edilip edilmediğini gösterir. Varsayılan değer yanlıştır. Şu anda, bu özellik true olarak ayarlandığında yalnızca sınır çizgileri optimize edilir.
 

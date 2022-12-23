@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.4 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-755| Fonctionnalités de synchronisation avec la version .Net|Nouvelles fonctionnalités|
 |CELLSCPP-733| Résoudre les fuites de mémoire|Insectes|

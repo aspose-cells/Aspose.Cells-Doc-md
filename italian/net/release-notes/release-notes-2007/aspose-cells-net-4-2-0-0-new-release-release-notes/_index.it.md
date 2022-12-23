@@ -14,7 +14,7 @@ url: /it/net/aspose-cells-net-4-2-0-0-new-release-release-notes/
 
  Abbiamo rilasciato Aspose.Cells for .NET v4.2!
 
-In questa nuova versione vengono aggiunte alcune importanti novità:
+ In questa nuova versione vengono aggiunte alcune importanti novità:
 
 - Ora Aspose.Cells supporta totalmente la manipolazione di grafici, immagini e altri oggetti di disegno nei file modello
 - La funzione Chart2Image è supportata. Attualmente sono supportati solo i grafici a colonne, linee, torta e barre. E sono supportati solo i grafici 2D. Supporteremo più tipi di grafici nelle versioni future.

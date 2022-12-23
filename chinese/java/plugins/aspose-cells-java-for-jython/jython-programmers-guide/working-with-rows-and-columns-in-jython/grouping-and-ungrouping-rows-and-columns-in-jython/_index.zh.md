@@ -5,7 +5,7 @@ weight: 40
 url: /zh/java/grouping-and-ungrouping-rows-and-columns-in-jython/
 ---
 ## **Aspose.Cells - 对行和列进行分组和取消分组**
-使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 

@@ -10,31 +10,31 @@ url: /zh/net/aspose-cells-for-net-8-9-1-release-notes/
 |:- |:- |:- |
 |CELLSNET-44274 |在将电子表格呈现为 PDF 时支持 TTE 字体类型|新功能|
 |CELLSNET-42277 |在 PDF 渲染中使用私有字符|强化|
-|CELLSNET-44630 |从 DataGrid 导入数据时数字格式 (DateTime) 丢失 (.NET)|强化|
+|CELLSNET-44630 |Numbers 从 DataGrid 导入数据时格式 (DateTime) 丢失 (.NET)|强化|
 |CELLSNET-44626 |使用 CopyRows 复制的图表仍然引用图表数据范围中的源工作表|强化|
 |CELLSNET-44619 |将日期字符串转换为日期格式|强化|
 |CELLSNET-44625 |Colspan as 2 大大增加了 HTML 加载和转换时间|表现|
-|CELLSNET-44338 |将电子表格渲染为 PDF 时性能下降|表现|
+|CELLSNET-44338 |将电子表格渲染到 PDF 时性能下降|表现|
 |CELLSNET-44610 |将 HTML 转换为 XLSX 时，粗体属性丢失|漏洞|
 |CELLSNET-44609 |将 HTML 转换为 XLSX 时内容的方向发生了变化|漏洞|
 |CELLSNET-44608 |将 HTML 转换为 XLSX 时缺少边框|漏洞|
-|CELLSNET-44607 |Cell 将 HTML 转换为 XLSX 时缺少底纹|漏洞|
+|CELLSNET-44607 |Cell 将 HTML 转换为 XLSX 时缺少阴影|漏洞|
 |CELLSNET-44606 |将 HTML 转换为 XLSX 时缺少内容|漏洞|
-|CELLSNET-44605 |HTML 到 XLSX 的不正确转换|漏洞|
-|CELLSNET-44579 |MHTML 到 XLS/XLSX 将作为空白文档返回|漏洞|
+|CELLSNET-44605 |HTML 到 XLSX 的转换不当|漏洞|
+|CELLSNET-44579 |MHTML 到 XLS/XLSX 作为空白文档返回|漏洞|
 |CELLSNET-44572 |引用同一文档中工作表的超链接出现问题|漏洞|
 |CELLSNET-44617 |SumProduct 公式计算不正确|漏洞|
 |CELLSNET-44604 |XLS 到 Pdf/A 转换后丢失的文本|漏洞|
 |CELLSNET-44603 |将电子表格呈现为 PDF 时单元格内容触及顶部边框的垂直对齐问题|漏洞|
-|CELLSNET-44602 |将电子表格呈现为 PDF 时，值前面带有 $ 符号的水平对齐问题|漏洞|
-|CELLSNET-42715 |PDF 中丢失的字体|漏洞|
+|CELLSNET-44602 |在将电子表格呈现为 PDF 时，值前面带有 $ 符号的水平对齐问题|漏洞|
+|CELLSNET-42715 |PDF中丢失的字体|漏洞|
 |CELLSNET-44637 |如果 TextBox 中的文本包含新行，则 CalculateTextSize 的结果始终为默认高度|漏洞|
 |CELLSNET-44635 |sample2.xlsx 中的图表不正确（Excel 到 PDF 的转换）|漏洞|
 |CELLSNET-44634 | sample2.xlsx 中的数据表不正确（Excel 到 PDF 的转换）|漏洞|
 |CELLSNET-44633 | sample1.xlsx 中的数据表不正确（Excel 到 PDF 的转换）|漏洞|
-|CELLSNET-44623 |修改后的雷达图标记无法正确转换为 PDF|漏洞|
+|CELLSNET-44623 |修改后的雷达图标记不能正确转换为 PDF|漏洞|
 |CELLSNET-44601 |图像渲染图表中缺少水平轴标签|漏洞|
-|CELLSNET-44570 |渲染的 PDF 文件中艺术字形状的格式问题|漏洞|
+|CELLSNET-44570 |呈现的 PDF 文件中艺术字形状的格式设置问题|漏洞|
 |CELLSNET-44655 |对齐在文本框内不起作用|漏洞|
 |CELLSNET-44646 |文件被 Aspose.Cells API 处理后损坏（超链接变成普通文本）|漏洞|
 |CELLSNET-44639 |在 XLS 中重新嵌入演示幻灯片会在双击时显示演示视图|漏洞|
@@ -42,12 +42,12 @@ url: /zh/net/aspose-cells-for-net-8-9-1-release-notes/
 |CELLSNET-44629 |复制行和计算公式后公式导致#REF 错误|漏洞|
 |CELLSNET-44624 |保存为 SpeadsheetML 文件时不保留日期格式|漏洞|
 |CELLSNET-44618 |插入单元格范围会导致某些单元格的背景消失|漏洞|
-|CELLSNET-44614 |XLS 电子表格的外部数据链接的路径问题|漏洞|
+|CELLSNET-44614 |XLS 电子表格的外部数据链接路径问题|漏洞|
 |CELLSNET-44611 |使用自定义主题重新保存电子表格会导致 Open XML SDK 出错|漏洞|
 |CELLSNET-44649 |自定义计算引擎导致计算只发生一次|漏洞|
-|CELLSNET-44584 |导入 HTML 文件时发生 System.FormatException|例外|
+|CELLSNET-44584 |导入HTML文件时出现System.FormatException|例外|
 |CELLSNET-44643 |打开文件时抛出异常|例外|
-|CELLSNET-44612 |CellsException：Cell 中的错误：加载 XLSM 时 O93 无效的公式，它是用 Aspose.Cells 保存的|例外|
+|CELLSNET-44612 |CellsException：Cell 中的错误：O93-加载 XLSM 时公式无效，该公式与 Aspose.Cells 一起保存|例外|
 |CELLSNET-44600 |System.ArgumentException 在 Workbook.Save|例外|
 ### **2) Aspose.Cells 网格套件**
 

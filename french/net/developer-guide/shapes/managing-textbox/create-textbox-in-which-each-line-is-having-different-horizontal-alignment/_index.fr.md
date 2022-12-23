@@ -6,7 +6,7 @@ url: /fr/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 ---
 {{% alert color="primary" %}}
 
-Vous pouvez définir l'alignement horizontal du texte de votre paragraphe à l'aide de la[**TextParagraph.AlignmentTypeTextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) propriété.
+Vous pouvez définir l'alignement horizontal du texte de votre paragraphe à l'aide de la[**TextParagraph.AlignmentTypeTextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) la propriété.
 
 {{% /alert %}}
 

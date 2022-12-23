@@ -6,7 +6,7 @@ url: /es/java/get-html5-string-from-cell/
 ---
 ## **Posibles escenarios de uso**
 
-Aspose.Cells devuelve la cadena HTML de la celda usando el[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)método. si pasas**falso**como parámetro, le devolverá HTML normal, pero si pasa**verdadero**como parámetro, devolverá una cadena HTML5.
+Aspose.Cells devuelve la cadena HTML de la celda usando el[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)método. si pasas**falso**como parámetro te devolverá Normal HTML pero si pasas**verdadero**como parámetro, devolverá una cadena HTML5.
 
 ## **Obtener cadena HTML5 de Cell**
 

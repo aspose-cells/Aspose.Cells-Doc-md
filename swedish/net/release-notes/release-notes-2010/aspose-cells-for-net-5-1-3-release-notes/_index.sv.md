@@ -54,19 +54,19 @@ url: /sv/net/aspose-cells-for-net-5-1-3-release-notes/
 |19411 | GridDesktop| VLOOKUP-funktionen stöder inte användning av dubbla eller int-värden|
 |19721 | Html| Att spara Excel-dokument som HTML tar mycket lång tid|
 |17485 | Pdf| saknar logotyp och luddig/lätt text|
-|18114 | Pdf| PDF-konverteringsproblem|
-|19237 | Pdf|Skillnad i utskrift från Excel och Outputing till PDF|
+|18114 | Pdf| PDF Konverteringsproblem|
+|19237 | Pdf|Skillnad i utskrift från Excel och Outputting till PDF|
 |19392 | Pdf| Bildbredden krympte vid konvertering till PDF|
-|19409 | Pdf| PDFs utseende och känsla skiljer sig från XLSX|
+|19409 | Pdf| PDF utseende och känsla skiljer sig från XLSX|
 |19420 | Pdf| Datumformat|
-|19425 | Pdf| Filstorlek = 0 vid konvertering till PDF|
-|19546 | Pdf| Konvertera denna fil till PDF|
-|19651 | Pdf| Excel-filen kan inte konverteras till PDF på grund av fel i Ogiltigt pdf-format|
+|19425 | Pdf| Filstorlek = 0 när den konverteras till PDF|
+|19546 | Pdf| Konvertera den här filen till PDF|
+|19651 | Pdf| Excel-filen kan inte konverteras till PDF på grund av fel i Ogiltig pdf-format|
 |19873 | Pdf| Text kommer ut från bordet och skrivs inte ut helt|
 |19430 | Pivottabell| 2003 XLS med pivottabeller skadade|
 |19542 | Pivottabell| DataBordyRange returnerar inte korrekt område|
 |19852 | Pivottabell| Pivottabellen orsakar fel i XLSX-filer men fungerar bra i XLS|
-|19942 | SpreadML| SpreadsheetML-dokumentöppningsproblem med namnområdesattribut|
+|19942 | SpreadML| SpreadsheetML problem med att öppna dokument med namnområdesattribut|
 |19052 | Xls| Kopiera Excel med kommandoknapphändelsehanterare|
 |19238 | Xls| getPrecedents returnerar en kolumn 164|
 |19541 | Xls| Fel på Named Range Array Formula|
@@ -76,8 +76,8 @@ url: /sv/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | Xls| Problem med lösenord och Excel 2003|
 |19901 | Xls| INDEX OCH UPPSLAGSFORMLER problem i GridWeb.|
 |19911 | Xls| Förlorar individuella datapunktetikettformat|
-|19931 | Xls| Problem med att lägga till hyperlänk till Cell|
-|19934 | Xls|ImportTwoDimensionArray verkar ogiltigförklara vissa celler|
+|19931 | Xls|Problem med att lägga till hyperlänk till Cell|
+|19934 | Xls| ImportTwoDimensionArray verkar ogiltigförklara vissa celler|
 |19250 | Xlsx| Excel Hittade oläsbart innehåll feldialogrutan|
 |19334 | Xlsx| Kan inte öppna Excel-arbetsbok som innehåller diagram|
 |19341 | Xlsx| Problem med kalkylblad med kommatecken|

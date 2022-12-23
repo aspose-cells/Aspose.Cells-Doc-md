@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-gridlines-in-ruby/
 ---
 ## **Aspose.Cells - Kılavuz Çizgilerini Görüntüle veya Gizle**
 ### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , aramak**displayhidegridlines** modül.
+ kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , Arama**displayhidegridlines** modül.
 
 **Yakut Kodu**
 

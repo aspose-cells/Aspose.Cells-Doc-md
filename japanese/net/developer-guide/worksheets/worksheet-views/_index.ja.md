@@ -3,6 +3,7 @@ title: ワークシート ビュー
 type: docs
 weight: 40
 url: /ja/net/worksheet-views/
+description: この記事では、C# と .NET API を使用して、Excel ブックとワークシートの改ページ プレビューを操作する方法について説明します。分割されたペイン、固定されたペイン、ズーム倍率も操作できます。
 ---
 ## **改ページプレビュー**
 
@@ -71,7 +72,7 @@ Aspose.Cells は[**ワークブック**](https://reference.aspose.com/cells/net/
 - **凍結された行**、上部ペインに表示される行の数。
 - **冷凍列**、左ペインに表示される列の数
 
-book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)インスタンス化中のクラスのコンストラクターと、最初のワークシートでいくつかの行と列が固定されています。変更されたファイルは、output.xls として保存されます。
+ book1.xls ファイルは、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)インスタンス化中のクラスのコンストラクターと、最初のワークシートでいくつかの行と列が固定されています。変更されたファイルは、output.xls として保存されます。
 
 の使用方法を示す完全な例を以下に示します。[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Excel ファイルの最初のワークシートの行と列 (行と列が 0 インデックスから始まる、4 行目と 3 列目で表される C4 から始まる) を固定するメソッド。
 

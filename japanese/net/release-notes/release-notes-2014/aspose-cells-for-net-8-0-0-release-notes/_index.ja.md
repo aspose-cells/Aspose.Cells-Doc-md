@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET がバージョン 8.0.0 に更新されました。このリリースでは、50 を超える新しい便利な改善が追加されたことをお知らせします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -48,7 +48,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 ## **バグ**
 
-(CELLSNET-42367) - 出力 PDF の縦書きの問題
+(CELLSNET-42367) - 出力の縦書きの問題 PDF
 
 (CELLSNET-42409) - 計算フィールドが計算/出力されない
 
@@ -62,7 +62,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42357) - 出力 HTML に一部のチェックボックスがありません
 
-(CELLSNET-42352) - XLSX から HTML への変換中に境界線が欠落する
+(CELLSNET-42352) - XLSX を HTML に変換中に境界線が欠落する
 
 (CELLSNET-42476) - Aspose.Cells v7.7.2.5 で削除テストが失敗する
 
@@ -72,7 +72,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42491) - 下線と二重底のセル枠が正しく印刷されない
 
-(CELLSNET-42474) - PDFへの変換後にフォントサイズが変更されました
+(CELLSNET-42474) - 変換後にフォント サイズが PDF に変更されました
 
 (CELLSNET-42463) - 異なるフッター ピクチャでの SheetRender の問題
 
@@ -88,19 +88,19 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42428) - Excel から PDF への変換 - 行が表示されない
 
-(CELLSNET-42421) - 一部のビューアーで PDF ファイルに 8 がありません
+(CELLSNET-42421) - 一部のビューアで PDF ファイルに番号 8 がありません
 
-(CELLSNET-42410) - Excel から PDF への変換での余分な改ページ
+(CELLSNET-42410) - Excel で余分な改ページが PDF に変換される
 
 (CELLSNET-42338) - 出力 XPS の値とグラフの不一致と問題
 
 (CELLSNET-41853) - XLS ページのデザインが完全に失われる
 
-(CELLSNET-41803) - 出力 PDF に負のデータバーが表示されない
+(CELLSNET-41803) - 負のデータバーが出力に表示されない PDF
 
-(CELLSNET-42473) - 出力 PDF にチャートにマーカーが含まれていない
+(CELLSNET-42473) - グラフの出力にマーカーが含まれていない PDF
 
-(CELLSNET-42403) - XLSX から PDF への変換中のチャートのサイズと配置の問題
+(CELLSNET-42403) - XLSX を PDF に変換する際のチャートのサイズと配置の問題
 
 (CELLSNET-42372) - 出力 XLSX ファイルでチャートのデータ系列が削除される
 
@@ -116,13 +116,13 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42424) - 間違った WEEKNUM() 出力
 
-(CELLSNET-42412) - CalculateFormula() を呼び出した後、一部の式が出力 PDF で機能しない
+(CELLSNET-42412) - CalculateFormula() を呼び出した後、一部の数式が出力 PDF で機能しない
 
 (CELLSNET-42397) - 数式プロパティがセル オブジェクトで機能しない
 
 (CELLSNET-42395) - Workbook.Copy 関数の使用時にカスタム メニュー/リボンが表示されない
 
-(CELLSNET-42394) - パスワードで保護された Word および PowerPoint ファイルで DetectFileFormat が正しく動作しない
+(CELLSNET-42394) - パスワードで保護された Word および PowerPoint ファイルで DetectFileFormat が正しく機能しない
 
 (CELLSNET-42392) - Cells の SetLicense が機能しない
 
@@ -133,7 +133,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ### **例外**
 
 
-(CELLSNET-42441) - GetNamedRanges を呼び出す XLSX のエラー
+(CELLSNET-42441) - XLSX の GetNamedRanges 呼び出しエラー
 
 ## 2) Aspose.Cells グリッドスイート
 

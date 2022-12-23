@@ -16,15 +16,15 @@ url: /tr/net/aspose-cells-for-net-5-3-0-release-notes/
 
 - Grafikten Görüntüye özelliği geliştirildi.
  Excel'den PDF'e özelliği geliştirildi.
- R/W ODS dosyaları özelliği geliştirildi.
+ R/W ODS dosya özelliği geliştirildi.
  Satırları otomatik sığdırma özelliği geliştirildi.
  63 geliştirme ve düzeltme.
 
  Aspose.Cells.GridWeb'de neler değişti:
 
 - FireFox'taki kontrolün tüm özelliklerini destekler.
- Bir liste koleksiyonunu DataTable nesnesine dönüştürmek için destek sağlar.
-KÜÇÜK işlevi/formülü destekler.
+Bir liste koleksiyonunu DataTable nesnesine dönüştürmek için destek sağlar.
+ KÜÇÜK işlevi/formülü destekler.
  Otomatik filtreleri Excel dosyalarına aktarır.
  IE için istemci betiklerinin performansı artırıldı.
  Formülleri hesaplarken maksimum satır/sütun miktarının otomatik olarak genişletilip genişletilmeyeceğini destekler.

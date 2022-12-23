@@ -18,7 +18,7 @@ url: /tr/java/working-with-the-reflection-effect-of-shape-or-chart/
 
  Aşağıdaki ekran görüntüsü, ayarlamak için Microsoft Excel arayüzünü gösterir.*Yansıma Etkisi*şekil.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-the-reflection-effect-of-shape-or-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-the-reflection-effect-of-shape-or-chart_1.png)
 ## **Şeklin veya Grafiğin Yansıma Efektiyle Çalışma**
  Aşağıdaki örnek kod,[kaynak excel dosyası](5472529.xlsx) ve ilk çalışma sayfasındaki ilk şekle erişir ve alt özelliklerini ayarlar.[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)özelliğine ve ardından çalışma kitabını şuraya kaydeder:[çıktı excel dosyası](5472539.xlsx).
 ## **Basit kod**

@@ -44,7 +44,7 @@ La siguiente tabla compara las características de Open XML SDK y Aspose.Cells.
 |Programación detallada con un modelo de objeto de documento, acceso a elementos individuales y propiedades de formato de todos los elementos de la hoja de cálculo.|Sí|Sí|
 |Acceso directo y completo de bajo nivel a los elementos y atributos XML subyacentes, como identificadores de relación, identificadores de lista de un documento OOXML.|Sí|No|
 |<p>Genere informes, complete documentos con datos:</p><p>- Importar/Exportar datos a/desde una tabla de datos / _ResultSet.</p><p>- Función de marcadores inteligentes.</p><p>- Insertar/Eliminar filas/columnas/rangos.</p><p>- Fuentes de datos personalizadas.</p>|No|Sí|
-|<p>Renderizado e Impresión:* Renderice páginas de hojas de trabajo en imágenes rasterizadas (TIFF, TIFF de varias páginas, PNG, JPEG, BMP).* Renderice páginas de hojas de cálculo en imágenes vectoriales (EMF).</p><p>- Convierta gráficos en imágenes (TIFF, TIFF multipágina, PNG, JPEG, BMP, EMF, etc.)</p><p>- Especificar la resolución de la imagen, la calidad, la compresión y otras opciones.</p><p>- Imprimir hojas de cálculo utilizando la infraestructura de impresión .NET. El componente tiene un método de impresión incorporado para imprimir las hojas de trabajo como se muestra en Vista previa de impresión de Microsoft Excel.</p>|No|Sí|
+|<p>Renderizado e Impresión:* Renderice páginas de la hoja de trabajo en imágenes de trama (TIFF, multipágina TIFF, PNG, JPEG, BMP).* Transforme páginas de hojas de cálculo en imágenes vectoriales (EMF).</p><p>- Convertir gráficos en imágenes (TIFF, multipágina TIFF, PNG, JPEG, BMP, EMF, etc.)</p><p>- Especificar la resolución de la imagen, la calidad, la compresión y otras opciones.</p><p>- Imprimir hojas de cálculo utilizando la infraestructura de impresión .NET. El componente tiene un método de impresión incorporado para imprimir las hojas de trabajo como se muestra en Vista previa de impresión de Microsoft Excel.</p>|No|Sí|
 |Calcular/Recalcular fórmulas dinámicamente|No|Sí|
 |Plataformas compatibles|Windows, .NET|Windows, Linux, Java, .NET, Mono|
 
@@ -56,7 +56,7 @@ Este proyecto también es útil para los desarrolladores que buscan migrar de Op
 
  Explorar[el complemento con ejemplos de código fuente de las características Aspose.Cells for .NET en comparación con OpenXML](https://github.com/asposemarketplace/Aspose_for_OpenXML).
 
-Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/net/licensing/) artículo para hacer esto.
+ Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/net/licensing/) artículo para hacer esto.
 
 {{% /alert %}}
 
@@ -65,7 +65,7 @@ Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando est�
 ## **¿Por qué no abrir XML SDK?**
 Open XML SDK es una biblioteca de clases que proporciona una forma segura de trabajar con documentos OOXML. Aspose.Cells es una biblioteca de procesamiento de hojas de cálculo muy útil que brinda un excelente soporte para todos los Microsoft Excel y otros formatos de archivo.
 
-Si todo lo que necesita hacer es una operación de programación bastante básica en un documento XLSX, Open XML SDK podría ser una opción adecuada. Con Open XML SDK, se sentirá bastante cómodo realizando tareas simples como generar un documento XLSX simple o eliminar comentarios, encabezados/pies de página, extraer imágenes y otros.
+Si todo lo que necesita hacer es una operación de programación bastante básica en un documento XLSX, Open XML SDK podría ser una opción adecuada. Con Open XML SDK, se sentirá bastante cómodo realizando tareas sencillas como generar un documento simple XLSX o eliminar comentarios, encabezados/pies de página, extraer imágenes u otros.
 Algunas tareas se pueden lograr con Open XML SDK, pero no se pueden lograr con Aspose.Cells. Por ejemplo, si necesita acceder directamente a los elementos y atributos XML de un documento OOXML, debe usar Open XML SDK.
 
 Sin embargo, si necesita realizar operaciones complejas en documentos, como algunas de las siguientes tareas, usar Aspose.Cells es su mejor opción:

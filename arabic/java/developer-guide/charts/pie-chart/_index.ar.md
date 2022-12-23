@@ -7,7 +7,7 @@ url: /ar/java/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
- تشرح هذه المقالة كيفية إنشاء مخطط دائري بخطوط سابقة من البداية أثناء استخدام Aspose.Cells for Java API. في Excel ، يتم تعيين الخيار "إظهار الخطوط البادئة" افتراضيًا ، لذلك عند إنشاء مخطط دائري في Excel ، تظهر الخطوط البادئة. ومع ذلك ، أثناء إنشاء مخطط مشابه باستخدام واجهات برمجة تطبيقات Aspose.Cells ، يجب عليك تعيين ملف[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/series#HasLeaderLines) منشأه.
+ تشرح هذه المقالة كيفية إنشاء مخطط دائري بخطوط سابقة من البداية أثناء استخدام Aspose.Cells for Java API. في Excel ، يتم تعيين الخيار "إظهار الخطوط البادئة" افتراضيًا ، لذلك عند إنشاء مخطط دائري في Excel ، تظهر الخطوط البادئة. ومع ذلك ، أثناء إنشاء مخطط مشابه باستخدام واجهات برمجة تطبيقات Aspose.Cells ، يجب عليك تعيين ملف[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/series#HasLeaderLines) خاصية.
 
 {{% /alert %}}
 

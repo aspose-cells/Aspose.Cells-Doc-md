@@ -6,7 +6,7 @@ url: /es/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **Introducción**
 
-Aspose.Cells Formularios dinámicos para el módulo Sitefinity permite a los usuarios generar encuestas y cuestionarios dinámicos, guardar la entrada del usuario en la hoja de cálculo de Excel y exportar los resultados a Excel, texto, CSV y hoja de cálculo de OpenDocument utilizando Aspose.Cells. Este módulo demuestra la potente función de creación de hojas de cálculo proporcionada por Aspose.Cells for .NET.
+Aspose.Cells Formularios dinámicos para el módulo Sitefinity permite a los usuarios generar encuestas y cuestionarios dinámicos, guardar la entrada del usuario en una hoja de cálculo de Excel y exportar los resultados a Excel, texto, CSV y hoja de cálculo de OpenDocument utilizando Aspose.Cells. Este módulo demuestra la potente función de creación de hojas de cálculo proporcionada por Aspose.Cells for .NET.
 
 |<p>![todo:imagen_alternativa_texto](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |
@@ -63,11 +63,11 @@ Extraiga el archivo ZIP descargado. Necesitará FTP o acceso directo a la carpet
 **Paso 2: Registre el complemento Aspose Sitefinity Content Export en Sitefinity**
 
 1. Inicie sesión en su Sitefinity CMS con un '**Administrador** ' cuenta. Se puede acceder a la página de inicio de sesión<http://www.mywebsite.com/sitefinity>
-1.  Hacer clic**Administración** y entonces**Ajustes**.
+1.  Hacer clic**Administración** y luego**Ajustes**.
 Aparece la página Configuración básica.
 1.  Haga clic en el**Avanzado** Enlace.
  Aparece la página Configuración.
-1.  En el panel izquierdo, haga clic en**Cajas de herramientas** seguido por**Cajas de herramientas** , después**Controles de página**, **Secciones** y**ContentToolboxSection** , después**Instrumentos.**
+1.  En el panel izquierdo, haga clic en**Cajas de herramientas** seguido por**Cajas de herramientas** , después**Controles de página**, **Secciones** y**ContentToolboxSection** , después**Herramientas.**
 1.  Hacer clic**Crear nuevo**.
  Aparece el formulario de registro del widget.
 1.  Rellene los campos del formulario de la siguiente manera:
@@ -106,7 +106,7 @@ Ha agregado con éxito el módulo Aspose.Cells Dynamic Form Builder for Sitefini
 Para eliminar el mensaje de evaluación y las limitaciones de funciones, se debe aplicar la licencia del producto. Recibirá un archivo de licencia después de haber comprado el producto. Siga los pasos a continuación para aplicar la licencia
 
 -  Asegúrese de que el archivo de licencia se llame como**Aspose.Total.lic**
--  Lugar**Aspose.Total.lic** presentar en**Datos de aplicación** carpeta de su sitio web de Sitefinity, por ejemplo, "Sitefinity Root Folder/App_Data/Aspose.Total.lic"
+-  Sitio**Aspose.Total.lic** presentar en**Datos de aplicación** carpeta de su sitio web de Sitefinity, por ejemplo, "Sitefinity Root Folder/App_Data/Aspose.Total.lic"
 
 #### **Configuración de formularios dinámicos**
 
@@ -137,7 +137,7 @@ Ha agregado con éxito Aspose Usuarios de exportación de Sitefinity a Excel.
 
 ## **Apoyar, Extender y Contribuir**
 
-### **Apoyo**
+### **Soporte**
 
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
@@ -163,5 +163,5 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1. Abra Visual Studio 2013 y elija**Expediente** > **Proyecto abierto**
+1. Abra Visual Studio 2013 y elija**Archivo** > **Proyecto abierto**
 1. Busque el código fuente más reciente que haya descargado y abra el**.sln**expediente.

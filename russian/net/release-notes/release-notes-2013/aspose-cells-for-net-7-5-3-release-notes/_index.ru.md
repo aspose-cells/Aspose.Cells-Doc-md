@@ -31,7 +31,7 @@ url: /ru/net/aspose-cells-for-net-7-5-3-release-notes/
 
  41884 - Выходное изображение TIF неверно
 
- 41865 — проблемы с преобразованием Excel в MHTML
+ 41865 - Преобразование Excel в проблемы MHTML
 
 41914 — поврежденные файлы при объединении книг
 
@@ -50,7 +50,7 @@ url: /ru/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

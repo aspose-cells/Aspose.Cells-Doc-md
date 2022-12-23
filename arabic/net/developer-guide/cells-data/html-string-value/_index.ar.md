@@ -1,5 +1,5 @@
 ﻿---
-title: إضافة نص منسق HTML داخل Cell
+title: إضافة HTML نص منسق داخل Cell
 linktitle: قيمة سلسلة Html
 type: docs
 weight: 50
@@ -7,13 +7,13 @@ url: /ar/net/adding-html-rich-text-inside-the-cell/
 ---
 {{% alert color="primary" %}}
 
-يدعم Aspose.Cells تحويل Microsoft Excel الموجه HTML إلى تنسيق XLS / XLSX. هذا يعني أن HTML الذي تم إنشاؤه بواسطة Microsoft Excel يمكن تحويله مرة أخرى إلى تنسيق XLS / XLSX باستخدام Aspose.Cells.
+يدعم Aspose.Cells تحويل Microsoft Excel المنحى HTML إلى تنسيق XLS/XLSX. هذا يعني أنه يمكن تحويل HTML الذي تم إنشاؤه بواسطة Microsoft Excel إلى تنسيق XLS/XLSX باستخدام Aspose.Cells.
 
- وبالمثل ، إذا كان هناك بعض HTML البسيط ، فيمكن Aspose.Cells تحويله إلى HTML Rich Text. Aspose.Cells يوفر[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) التي يمكن أن تأخذ مثل هذا HTML البسيط وتحويله إلى نص خلية منسق.
+ وبالمثل ، إذا كان هناك بعض HTML بسيطًا ، فيمكن لـ Aspose.Cells تحويله إلى نص منسق HTML. يوفر Aspose.Cells[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) التي يمكن أن تأخذ مثل هذا HTML البسيط وتحويله إلى نص خلية منسق.
 
 {{% /alert %}}
 
-يوضح نموذج التعليمات البرمجية أدناه كيفية إضافة نص منسق HTML داخل الخلية. يرجى الاطلاع على لقطة الشاشة لملف Excel الناتج.
+يوضح نموذج التعليمات البرمجية أدناه كيفية إضافة HTML نص منسق داخل الخلية. يرجى الاطلاع على لقطة الشاشة لملف Excel الناتج.
 
 ![ما يجب القيام به: image_بديل_نص](adding-html-rich-text-inside-the-cell_1)
 

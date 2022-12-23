@@ -4,8 +4,8 @@ type: docs
 weight: 50
 url: /ja/java/converting-worksheet-to-svg-in-python/
 ---
-## **Aspose.Cells - ワークシートを SVG に変換する**
-Python で Aspose.Cells for Java を使用してワークシートを SVG に変換するには、ワークシートを呼び出すだけです。_に_Converter モジュールの svg() メソッド。
+## **Aspose.Cells - ワークシートを SVG に変換中**
+Python で Aspose.Cells for Java を使用してワークシートを SVG に変換するには、単にワークシートを呼び出します。_に_Converter モジュールの svg() メソッド。
 
 **Python コード**
 
@@ -53,6 +53,6 @@ print "Excel to SVG conversion completed successfully."
 
 {{< /highlight >}}
 ## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを SVG に変換中(Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+ダウンロード**ワークシートを SVG(Aspose.Cells) に変換する**以下のソーシャルコーディングサイトのいずれかから：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

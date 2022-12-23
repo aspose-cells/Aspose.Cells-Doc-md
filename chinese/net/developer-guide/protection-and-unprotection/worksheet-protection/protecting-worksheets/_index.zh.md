@@ -52,13 +52,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 |**警告用户无法修改工作表的对话框**|
 |:- |
-|![待办事项：图像_替代_文本](protecting-worksheets_1.png)|
+|![待办事项：图片_替代_文本](protecting-worksheets_1.png)|
 
 要处理工作表，请通过选择取消保护工作表**保护**， 然后**取消保护工作表**来自**工具**菜单项。
 
 选择取消保护工作表菜单项后，将打开一个对话框，提示您输入密码，以便您可以在工作表上工作，如下所示：
 
-|![待办事项：图像_替代_文本](protecting-worksheets_2.png)|
+|![待办事项：图片_替代_文本](protecting-worksheets_2.png)|
 
 ### **使用Microsoft Excel保护工作表中的几个Cells**
 

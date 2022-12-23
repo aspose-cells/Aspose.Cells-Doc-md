@@ -6,7 +6,7 @@ url: /ar/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- Microsoft يسمح لك Excel بتغيير تسمية العرض الخاصة بكائن Ole كما هو موضح في لقطة الشاشة التالية. يمكنك أيضًا الوصول إلى تسمية العرض الخاصة بكائن Ole أو تعديلها باستخدام واجهات برمجة التطبيقات Aspose.Cells بامتداد[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)منشأه.
+ Microsoft يسمح لك Excel بتغيير تسمية العرض الخاصة بكائن Ole كما هو موضح في لقطة الشاشة التالية. يمكنك أيضًا الوصول إلى تسمية العرض الخاصة بكائن Ole أو تعديلها باستخدام واجهات برمجة التطبيقات Aspose.Cells بامتداد[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)خاصية.
 
 ![ما يجب القيام به: image_بديل_نص](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 

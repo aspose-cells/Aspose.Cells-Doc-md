@@ -22,9 +22,9 @@ L'effetto è il seguente:
 
 ![](2.png)
 
- Ecco, ci siamo preparati*codice di esempio* per aiutarti a inserire le icone usando[Aspose.Cells](https://products.aspose.com/cells/) .C'è anche un necessario[file di esempio](sample.xlsx) e un'icona[file di risorse](icon.zip) .Abbiamo utilizzato l'interfaccia di Excel per inserire un'icona con lo stesso effetto di visualizzazione del[file di risorse](icon.zip) nel[file di esempio](sample.xlsx).
+ Ecco, ci siamo preparati*Codice d'esempio* per aiutarti a inserire le icone usando[Aspose.Cells](https://products.aspose.com/cells/) .C'è anche un necessario[file di esempio](sample.xlsx) e un'icona[file di risorse](icon.zip) .Abbiamo utilizzato l'interfaccia di Excel per inserire un'icona con lo stesso effetto di visualizzazione del[file di risorse](icon.zip) nel[file di esempio](sample.xlsx).
 
-### Giava
+### Java
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-AddIconsToWorksheetInAsposeCells.java" >}}
 

@@ -10,9 +10,9 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-22-9-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-44194|La forma del disegno non viene visualizzata nel rendering da Excel a PDF|
+|CELLSJAVA-44194|La forma del disegno non viene visualizzata in Excel per il rendering PDF|
 |CELLSJAVA-44864|Il caricamento simultaneo di cartelle di lavoro genera errori "File danneggiato".|
 |CELLSJAVA-44327|Bordi e meno linee mostrate nelle fette di torta in bianco e nero nel grafico per il rendering dell'immagine|
 |CELLSJAVA-44591|La rotazione del testo delle etichette non corrisponde a Excel nell'immagine di output del grafico|
@@ -20,16 +20,16 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-22-9-release-notes/
 |CELLSJAVA-44860|la visualizzazione del testo della cella non è la stessa di Excel in alcune aree unite|
 |CELLSJAVA-44832|Vengono emesse più pagine invece di una pagina come in Excel durante la conversione in pdf|
 |CELLSJAVA-44812|Impossibile ridurre l'area del tracciato per il grafico|
-|CELLSJAVA-44831|MS Word richiede un errore "Word ha trovato contenuto illeggibile in..." quando si apre il DOCX convertito dal file XLSX da Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word richiede un errore "Word ha trovato contenuto illeggibile in..." quando si apre il file DOCX convertito da XLSX da Aspose.Cells for Java|
 |CELLSJAVA-44833|Il colore del testo non viene applicato a parole diverse o parte del contenuto nel file Excel di output quando si utilizza il metodo Cell.setHtmlString()|
 |CELLSJAVA-44852| Il bordo non è corretto quando il file Excel statico viene convertito in HTML|
 |CELLSJAVA-44856| Conversione da Excel a HTML - Sparkline (mini grafico) non viene visualizzato/renderizzato|
 |CELLSJAVA-44859|Alcune formattazioni Html non funzionano per le celle del foglio di lavoro in un file Excel esistente|
-|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante la conversione di un file XLSX in PDF|
+|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante la conversione di un file XLSX in PDF|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi Cell.SetTableFormula(...).**
 

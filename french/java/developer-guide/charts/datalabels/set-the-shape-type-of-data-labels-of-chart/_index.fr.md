@@ -6,7 +6,7 @@ url: /fr/java/set-the-shape-type-of-data-labels-of-chart/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Vous pouvez modifier le type de forme des étiquettes de données du graphique à l'aide de la[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)propriété. Il prend la valeur de[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)énumération et modifie le type de forme des étiquettes de données en conséquence. Certaines de ses valeurs sont
+Vous pouvez modifier le type de forme des étiquettes de données du graphique à l'aide de la[**DataLabels.ShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)la propriété. Il prend la valeur de[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)énumération et modifie le type de forme des étiquettes de données en conséquence. Certaines de ses valeurs sont
 
 {{< highlight "java" >}}
 

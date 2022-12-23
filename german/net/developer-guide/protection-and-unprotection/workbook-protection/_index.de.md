@@ -16,7 +16,7 @@ Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, A
 
 1.  Klicken**Überprüfen > Arbeitsmappe schützen**.
 1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Auswählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** wieder.
+1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
 
 
 ## **Schützen Sie die Arbeitsmappenstruktur mit Aspose.Cell für .Net**

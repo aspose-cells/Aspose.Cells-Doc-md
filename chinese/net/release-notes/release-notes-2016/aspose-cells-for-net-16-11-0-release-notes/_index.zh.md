@@ -22,16 +22,16 @@ url: /zh/net/aspose-cells-for-net-16-11-0-release-notes/
 |CELLSNET-44814 |当有 1 个数据列时，调用 PivotTable.CalculateData() 会导致崩溃|漏洞|
 |CELLSNET-44799 |Excel 文件在打开并重新保存后已损坏|漏洞|
 |CELLSNET-44790 |忽略列宽、行高和自动换行等的 CSS 样式（HTML 到 Excel）|漏洞|
-|CELLSNET-44786 | TD 和 TH 单元格中的字体粗细和文本对齐问题|漏洞|
-|CELLSNET-44448 |数据透视表内容未在输出 PDF 中正确显示|漏洞|
+|CELLSNET-44786 |TD 和 TH 单元格中的字体粗细和文本对齐问题|漏洞|
+|CELLSNET-44448 |数据透视表内容未在输出中正确显示 PDF|漏洞|
 |CELLSNET-44892 |工作簿的文化设置对使用 Chart.ToImage 的 Chart DataLabels 不生效|漏洞|
 |CELLSNET-44809 |具有外部范围的 SUMPRODUCT 函数导致“#REF!”错误|漏洞|
 |CELLSNET-44818 |将工作表转换为图像时，单元格中的长值呈现为“#”字符串|漏洞|
 |CELLSNET-43623 |转换文件的大小问题（Excel 到 PDF 转换）|漏洞|
 |CELLSNET-43439 |相对较小的 Excel 文件的输出 PDF 文件大小显着增加|漏洞|
 |CELLSNET-44842 |图表转换为图像时标签丢失|漏洞|
-|CELLSNET-44806 |图表中的趋势线在输出 PDF 中呈现不正常|漏洞|
-|CELLSNET-44737 |SheetRender.ToImage：图表与它下面的行重叠|漏洞|
+|CELLSNET-44806 |图表中的趋势线在输出中呈现不佳 PDF|漏洞|
+|CELLSNET-44737 | SheetRender.ToImage：图表与它下面的行重叠|漏洞|
 |CELLSNET-44885 |工作簿计算后公式得到_xlfn前缀|漏洞|
 |CELLSNET-44884 |当工作表名称为“或”时，重新保存操作会损坏电子表格|漏洞|
 |CELLSNET-44880 |Aspose.Cells API 生成的损坏输出文件|漏洞|
@@ -57,10 +57,10 @@ url: /zh/net/aspose-cells-for-net-16-11-0-release-notes/
 |CELLSNET-44745 |Aspose.Cells.GridDesktop：粘贴在上下文菜单中始终处于非活动状态|漏洞|
 |CELLSNET-44698 |GridWeb 控件，向左拖动列消失|漏洞|
 |CELLSNET-44886 |另存为 HTML 导致 NullReferenceException|例外|
-|CELLSNET-44875 |保存 PulseSecure 时出现异常_价位表_平面文件_2016年11月_102816_v1.0.xlsx Excel 文件到 HTML|例外|
-|CELLSNET-44874 |保存 PulseSecure 时出现异常_价位表_平坦的_文件_Oct2016.xlsx Excel 文件到 HTML|例外|
-|CELLSNET-44873 |保存 PulseSecure 时出现异常_价位表_2016年11月_102816_ v1.0.xlsx Excel文件转HTML|例外|
-|CELLSNET-44872 |保存 PulseSecure 时出现异常_价位表_2016年10月_093016_v1.xlsx Excel 文件转 HTML|例外|
+|CELLSNET-44875 |保存 PulseSecure 时出现异常_价位表_平面文件_2016年11月_102816_v1.0.xlsx Excel文件到HTML|例外|
+|CELLSNET-44874 |保存 PulseSecure 时出现异常_价位表_平坦的_文件_Oct2016.xlsx Excel文件到HTML|例外|
+|CELLSNET-44873 |保存 PulseSecure 时出现异常_价位表_2016年11月_102816_ v1.0.xlsx Excel文件到HTML|例外|
+|CELLSNET-44872 |保存 PulseSecure 时出现异常_价位表_2016年10月_093016_v1.xlsx Excel文件到HTML|例外|
 |CELLSNET-44882 |科学记数法的价值是抛出异常|例外|
 |CELLSNET-44849 |从特定 XLS 转换为 XLSX 时抛出异常|例外|
 |CELLSNET-44898 |使用 FileFormatUtil.DetectFileFormat 时发生堆栈溢出|例外|

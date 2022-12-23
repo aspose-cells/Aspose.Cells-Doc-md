@@ -36,7 +36,7 @@ Pour mettre à jour un style dans Microsoft Excel 97-2003 :
 
  Pour modifier un style nommé, qu'il soit créé dynamiquement à l'aide de Aspose.Cells ou prédéfini, appelez le[**Style.mise à jour**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) pour refléter tout changement de style appliqué à une cellule ou à une plage.
 
- La[**Style.mise à jour**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) se comporte comme la méthode**D'ACCORD** bouton dans la boîte de dialogue Style : après avoir apporté des modifications à un style existant, appelez pour implémenter la modification. Si vous avez déjà appliqué un style à une plage de cellules, modifiez les attributs de style et appelez la méthode, la mise en forme de ces cellules est automatiquement mise à jour
+ Le[**Style.mise à jour**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) se comporte comme la méthode**D'ACCORD** bouton dans la boîte de dialogue Style : après avoir apporté des modifications à un style existant, appelez pour implémenter la modification. Si vous avez déjà appliqué un style à une plage de cellules, modifiez les attributs de style et appelez la méthode, la mise en forme de ces cellules est automatiquement mise à jour
 
 ### **Création et modification d'un style**
 

@@ -77,10 +77,10 @@ Raderna eller kolumnerna som kommer att upprepas definieras genom att skicka der
 
 ### **Ställ in sidordning**
 
- De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass ger[**Ordning**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)egenskap som används för att beställa flera sidor i ditt kalkylblad som ska skrivas ut. Det finns två möjligheter att beställa sidorna enligt följande.
+ De[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass ger[**Beställa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)egenskap som används för att beställa flera sidor i ditt kalkylblad som ska skrivas ut. Det finns två möjligheter att beställa sidorna enligt följande.
 
 - **Ner och sedan över:** skriver ut alla sidor innan du skriver ut några sidor till höger.
-- **Över sedan ner:** skriver ut sidor från vänster till höger innan du skriver ut sidorna nedan.
+- **Över och ner:** skriver ut sidor från vänster till höger innan du skriver ut sidorna nedan.
 
  Aspose.Cells tillhandahåller en uppräkning,[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)som innehåller alla fördefinierade ordertyper.
 

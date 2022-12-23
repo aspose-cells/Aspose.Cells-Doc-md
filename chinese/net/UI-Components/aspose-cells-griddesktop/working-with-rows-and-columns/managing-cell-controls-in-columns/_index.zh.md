@@ -18,7 +18,7 @@ url: /zh/net/managing-cell-controls-in-columns/
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
 ## **删除 Cell 控件**
-要删除现有的单元格控件，开发人员可以简单地访问所需的工作表，然后**消除**通过使用特定列的单元格控件**删除单元格控件**的方法**Aspose.Cells.GridDesktop.Data.GridColumn**.
+要删除现有的单元格控件，开发人员可以简单地访问所需的工作表，然后**去掉**通过使用特定列的单元格控件**删除单元格控件**的方法**Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 
 

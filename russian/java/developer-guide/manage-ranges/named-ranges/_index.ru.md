@@ -33,7 +33,7 @@ url: /ru/java/named-ranges/
 - Имя верхней левой ячейки, имя верхней левой ячейки в диапазоне.
 - Имя нижней правой ячейки, имя нижней правой ячейки в диапазоне.
 
- Когда[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ), он возвращает только что созданный именованный диапазон как экземпляр[Диапазон](https://reference.aspose.com/cells/java/com.aspose.cells/range) учебный класс.
+ Когда[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ), он возвращает только что созданный именованный диапазон как экземпляр[Спектр](https://reference.aspose.com/cells/java/com.aspose.cells/range) учебный класс.
 
 В следующем примере показано, как создать именованный диапазон ячеек, охватывающий B4:G14.
 
@@ -45,7 +45,7 @@ url: /ru/java/named-ranges/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Доступ к определенному именованному диапазону**
- Позвоните[Рабочий листКоллекция](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) коллекция[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) для получения указанного диапазона по имени. Типичный[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) принимает имя именованного диапазона и возвращает указанный именованный диапазон как экземпляр[Диапазон](https://reference.aspose.com/cells/java/com.aspose.cells/range)учебный класс.
+ Позвоните[Рабочий листКоллекция](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) коллекция[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) для получения указанного диапазона по имени. Типичный[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) ) принимает имя именованного диапазона и возвращает указанный именованный диапазон как экземпляр[Спектр](https://reference.aspose.com/cells/java/com.aspose.cells/range)учебный класс.
 
 В следующем примере показано, как получить доступ к указанному диапазону по его имени.
 
@@ -69,13 +69,13 @@ url: /ru/java/named-ranges/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-InputDataInCellsInRange-InputDataInCellsInRange.java" >}}
 #### **Диапазоны форматов... Установка цвета фона и атрибутов шрифта для именованного диапазона**
- Чтобы применить форматирование, определите[Стиль](https://reference.aspose.com/cells/java/com.aspose.cells/style) объекта, чтобы указать настройки стиля и применить их к[Диапазон](https://reference.aspose.com/cells/java/com.aspose.cells/range)объект.
+ Чтобы применить форматирование, определите[Стиль](https://reference.aspose.com/cells/java/com.aspose.cells/style) объекта, чтобы указать настройки стиля и применить их к[Спектр](https://reference.aspose.com/cells/java/com.aspose.cells/range)объект.
 
 В следующем примере показано, как установить сплошной цвет заливки (цвет заливки) с настройками шрифта в диапазоне.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Форматирование диапазонов... Добавление границ к именованному диапазону**
- Можно добавить границы к диапазону ячеек, а не только к одной ячейке.[Диапазон](https://reference.aspose.com/cells/java/com.aspose.cells/range) объект обеспечивает[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)), который принимает следующие параметры для добавления границы к диапазону ячеек:
+ Можно добавить границы к диапазону ячеек, а не только к одной ячейке.[Спектр](https://reference.aspose.com/cells/java/com.aspose.cells/range) объект обеспечивает[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)), который принимает следующие параметры для добавления границы к диапазону ячеек:
 
 -  borderStyle: тип границы, выбранный из[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)перечисление.
 -  borderColor: цвет линии границы, выбранный из[Цвет](https://reference.aspose.com/cells/java/com.aspose.cells/Color) перечисление.
@@ -89,7 +89,7 @@ url: /ru/java/named-ranges/
 
 ![дело:изображение_альтернативный_текст](named-ranges_1.png)
 #### **Применение стиля к ячейкам в диапазоне**
-Иногда вы хотите применить стиль к ячейкам в[Диапазон](https://reference.aspose.com/cells/java/com.aspose.cells/range) . Для этого вы можете перебирать ячейки в диапазоне и использовать[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) для применения стиля к ячейке.
+Иногда вы хотите применить стиль к ячейкам в[Спектр](https://reference.aspose.com/cells/java/com.aspose.cells/range) . Для этого вы можете перебирать ячейки в диапазоне и использовать[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) для применения стиля к ячейке.
 
 В следующем примере показано, как применять стили к ячейкам в диапазоне.
 

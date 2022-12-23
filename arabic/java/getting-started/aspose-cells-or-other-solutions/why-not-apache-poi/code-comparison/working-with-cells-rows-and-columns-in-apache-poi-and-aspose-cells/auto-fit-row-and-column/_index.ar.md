@@ -7,7 +7,7 @@ url: /ar/java/auto-fit-row-and-column/
 ## **Aspose.Cells - احتواء تلقائي للصف والعمود**
 الطريقة الأكثر مباشرة لتغيير حجم عرض الصف وارتفاعه تلقائيًا هي استدعاء طريقة Worksheet.autoFitRow. تأخذ طريقة autoFitRow فهرس صف (للصف المراد تغيير حجمه) كمعامل.
 
-**يرجى الملاحظة:** إذا كنت تريد احتواء الصفوف والأعمدة تلقائيًا في جداول بيانات Excel باستخدام Java ، يرجى زيارة[احتواء تلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**يرجى الملاحظة:**إذا كنت تريد احتواء الصفوف والأعمدة تلقائيًا في جداول بيانات Excel باستخدام Java ، يرجى زيارة[احتواء تلقائي للصفوف والأعمدة](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
@@ -55,7 +55,7 @@ workbook.write(fileOut);
 fileOut.close();
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / cells / أمثلة / featurescomparison / cellrowscolumns / autofitrowandcolumn)

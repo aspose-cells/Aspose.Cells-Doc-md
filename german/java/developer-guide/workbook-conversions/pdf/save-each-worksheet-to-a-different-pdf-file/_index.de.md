@@ -16,6 +16,6 @@ Wenn Sie jedes Arbeitsblatt in Ihrer Excel-Vorlagendatei speichern müssen, um v
 
 {{% alert color="primary" %}}
 
- Wenn die Tabelle Formeln enthält, rufen Sie am besten die auf[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())-Methode direkt vor dem Rendern der Tabelle in PDF. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die korrekten Werte im PDF wiedergegeben werden.
+ Wenn die Tabelle Formeln enthält, rufen Sie am besten die auf[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())-Methode direkt vor dem Rendern der Tabelle in PDF. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die richtigen Werte in PDF gerendert werden.
 
 {{% /alert %}}

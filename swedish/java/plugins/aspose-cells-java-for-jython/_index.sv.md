@@ -19,7 +19,7 @@ Jython är en Java-implementering av Python som kombinerar uttryckskraft med kla
 Aspose.Cells for Java är ett avancerat klassbibliotek for Java som gör att du kan utföra ett stort antal dokumentbehandlingsuppgifter direkt i din Java
 applikationer.
 
-Aspose.Cells for Java stöder bearbetning Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF och alla bildformat. Med Aspose.Cells kan du
+Aspose.Cells for Java stöder bearbetning Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS bildformat, XPS och alla bildformat. Med Aspose.Cells kan du
 generera, ändra och konvertera dokument utan att använda Microsoft Cells.
 
 ### **Aspose.Cells Java för Jython**

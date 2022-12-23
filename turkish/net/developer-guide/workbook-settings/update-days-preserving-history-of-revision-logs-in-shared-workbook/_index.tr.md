@@ -8,7 +8,7 @@ url: /tr/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 
  Bir çalışma kitabını paylaştığınızda, şunu söyleyen bir seçenek alırsınız:***N gün boyunca değişiklik geçmişini sakla*** aşağıdaki ekran görüntüsünde gösterildiği gibi. Aspose.Cells'i kullanarak geçmişi saklamak için gün sayısını güncelleyebilirsiniz.[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/net/aspose.cells.revisions/revisionlogcollection/properties/dayspreservinghistory)Emlak.
 
-![yapılacaklar:resim_alternatif_Metin](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
 ## **Paylaşılan Çalışma Kitabında Revizyon Günlüklerinin Geçmişini Koruyan Güncelleme Günleri**
 

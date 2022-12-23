@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-22-1-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-50082|Supporto per restituire indici originali di righe/colonne ordinate per la funzione sort()|Nuova caratteristica|
 |CELLSNET-50088|Supporto per impostare il nome del lavoro di stampa con PrinterSettings durante il rendering sulla stampante|Nuova caratteristica|
@@ -20,23 +20,23 @@ url: /it/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50072|Funzione non supportata: CUBESET|Aumento|
 |CELLSNET-50017|Come aggiungere una bolla accanto al titolo del grafico e al testo dell'asse del grafico|Aumento|
 |CELLSNET-50038| Comportamento diverso riguardo alla compressione e all'espansione di gruppi a più livelli|Aumento|
-|CELLSNET-50041| I file immagine BMP non vengono visualizzati nell'intestazione/piè di pagina|Aumento|
-|CELLSNET-50108|Da XLS a PDF: la conversione si blocca con memoria esaurita|Prestazione|
-|CELLSNET-50128|L'interlinea diventa più stretta - Conversione da Excel a PDF|Insetto|
-|CELLSNET-50086|Cell i colori scompaiono dopo la conversione in PDF|Insetto|
-|CELLSNET-49996|I valori RTF delle celle possono andare persi con la modalità MemoryPreference|Insetto|
+|CELLSNET-50041| I file di immagine BMP non vengono visualizzati nell'intestazione/piè di pagina|Aumento|
+|CELLSNET-50108|Da XLS a PDF: La conversione va in stallo con Out of Memory|Prestazione|
+|CELLSNET-50128|L'interlinea si restringe: conversione da Excel a PDF|Insetto|
+|CELLSNET-50086|I colori Cell scompaiono dopo la conversione in PDF|Insetto|
+|CELLSNET-49996|valori RTF delle celle possono andare persi con la modalità MemoryPreference|Insetto|
 |CELLSNET-50042| Il nome delle celle viene modificato durante la registrazione|Insetto|
 |CELLSNET-50055|Proprietà del nome dell'intervallo locale FullText non viene sottoposto a escape se il foglio di lavoro padre ha un apostrofo|Insetto|
 |CELLSNET-50154|GridWeb non riesce a caricare/salvare dalla cache per il file .csv|Insetto|
 |CELLSNET-50063|La stampa del file Excel esegue il rendering di due pagine invece di una pagina|Insetto|
-|CELLSNET-50094|I contenuti del foglio di lavoro non vengono visualizzati correttamente nella conversione da Excel a PDF|Insetto|
+|CELLSNET-50094|Il contenuto del foglio di lavoro non viene visualizzato correttamente nella conversione da Excel a PDF|Insetto|
 |CELLSNET-50129|La posizione di stampa aumenta man mano che la pagina viene seguita: conversione da Excel a PDF|Insetto|
-|CELLSNET-50131|Mancano i caratteri - Conversione da Excel a PDF|Insetto|
+|CELLSNET-50131|Mancano i caratteri: conversione da Excel a PDF|Insetto|
 |CELLSNET-49578| Valore max/min errato calcolato dai grafici di Aspose.Cells|Insetto|
 |CELLSNET-50087|Il grafico di output non viene visualizzato correttamente dopo aver modificato il tipo di serie|Insetto|
 |CELLSNET-50197|La legenda nel grafico a cascata non può essere eliminata o nascosta|Insetto|
 |CELLSNET-50065|Comportamento diverso per quanto riguarda la compressione e l'espansione di gruppi di righe a più livelli|Insetto|
-|CELLSNET-50137|Variabile non dichiarata da XLSX a HTML "nodo" nello script|Insetto|
+|CELLSNET-50137|Da XLSX a HTML variabile non dichiarata "nodo" nello script|Insetto|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine non funziona per le colonne di adattamento automatico|Insetto|
 |CELLSNET-50165|Il carattere della guida fonetica viene modificato dopo il salvataggio del file|Insetto|
 |CELLSNET-50208|Alcuni testi vengono persi durante il salvataggio come Html|Insetto|
@@ -46,13 +46,13 @@ url: /it/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50097|Eccezione all'apertura del file XSLX tramite Aspose.Cells|Eccezione|
 |CELLSNET-50133|NullReferenceException quando si confronta FillFormat|Eccezione|
 |CELLSNET-50138|Eccezione all'apertura di un file XLSB|Eccezione|
-|CELLSNET-50016|Dal grafico ai valori dell'asse errati EMF|Regressione|
+|CELLSNET-50016|Grafico a EMF valori asse errati|Regressione|
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della rimozione dei collegamenti esterni dalla cartella di lavoro.**
 
@@ -60,7 +60,7 @@ Nelle vecchie versioni, non rimuoviamo il collegamento esterno il cui URL contie
 
 ### **Modifica il comportamento di Cell. Digitare per un valore data/ora non valido.**
 
-Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato per ottenere il valore della cella dall'API appropriata.
+Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato a ottenere il valore della cella tramite API corretto.
 
 ### **Modifica il comportamento di Cells.MaxDisplayRange.**
 
@@ -72,7 +72,7 @@ Nelle vecchie versioni i metodi DataSorter.Sort() non restituiscono nulla. Da qu
 
 ### **Aggiunge la proprietà TxtLoadOptions.ExtendToNextSheet.**
 
-Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o delle colonne dei dati supera il limite di ms excel.
+Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o il conteggio delle colonne dei dati supera il limite di ms excel.
 
 ### **Aggiunge il metodo ExternalLinkCollection.Clear().**
 

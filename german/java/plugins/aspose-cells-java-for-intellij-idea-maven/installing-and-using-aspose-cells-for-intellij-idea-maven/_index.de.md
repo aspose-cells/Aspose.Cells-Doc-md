@@ -1,5 +1,5 @@
 ﻿---
-title: Installieren und Verwenden von Aspose.Cells für IntelliJ IDEA – Maven
+title: Installieren und Verwenden von Aspose.Cells für IntelliJ IDEA - Maven
 type: docs
 weight: 10
 url: /de/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
@@ -12,7 +12,7 @@ url: /de/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 **Aspose.Cells Java für IntelliJ IDEA (Maven)** Plugin kann einfach (ohne manuellen Download) aus IntelliJ IDEA heraus installiert werden. Es zu tun:
 
-1.  Auswählen**Einstellungen** von dem**Datei** Speisekarte.
+1.  Wählen**Einstellungen** von dem**Datei** Speisekarte.
 1.  Klicken**Plugins** , durchsuchen Sie dann die Repositories in IntelliJ IDEA.
 
 ![todo: Bild_alt_Text](lbtci11.jpg)
@@ -38,8 +38,8 @@ Durch die Installation dieses Plugins wird ein neuer Projekttyp eingeführt –
 
 Führen Sie dann die folgenden Schritte aus:
 
- \1. Auswählen**Neues Projekt**.
- \2. Auswählen**Aspose.Cells Maven Projekt** 
+ \1. Wählen**Neues Projekt**.
+ \2. Wählen**Aspose.Cells Maven Projekt** 
  \3. Klicken**Nächste**. 
 
 ![todo: Bild_alt_Text](m1du9a1.jpg)
@@ -52,7 +52,7 @@ Führen Sie dann die folgenden Schritte aus:
 
 `    ` Sie können das Kontrollkästchen „Also Download Examples Source Code“ aktivieren, um die Beispiele für die Verwendung von API herunterzuladen (wie im obigen Schnappschuss gezeigt).
 
- \6. Zur Verfügung stellen**Projektname** und**Ort**genau wie beim Erstellen einer Java-Anwendung
+ \6. Zur Verfügung stellen**Projektname** und**Standort**genau wie beim Erstellen einer Java-Anwendung
 
 ![todo: Bild_alt_Text](0gszuiu.jpg)
 
@@ -77,7 +77,7 @@ Führen Sie dann die folgenden Schritte aus:
 
 Führen Sie dann die folgenden Schritte in IntelliJ IDEA aus:
 
- \1. Auswählen**Datei** => **Neu -** Wie nachfolgend dargestellt:
+ \1. Wählen**Datei** => **Neu -** Wie nachfolgend dargestellt:
 
 ![todo: Bild_alt_Text](n8tt9q0.jpg)
 
@@ -87,7 +87,7 @@ Führen Sie dann die folgenden Schritte in IntelliJ IDEA aus:
 ![todo: Bild_alt_Text](aubwkhp.jpg)
 
 
- \2. Auswählen**Aspose.Cells Beispiel** Option aus dem Menü - Wie unten gezeigt:
+ \2. Wählen**Aspose.Cells Beispiel** Option aus dem Menü - Wie unten gezeigt:
 
 ![todo: Bild_alt_Text](g4nwlem.jpg)
 

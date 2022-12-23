@@ -21,7 +21,7 @@ url: /it/net/sitefinity-export-users-to-excel/
 - [Supporto](#SitefinityExportUserstoExcel-Support)
 - [Estendi e contribuisci](#SitefinityExportUserstoExcel-ExtendandContribute)
 ## **introduzione**
-Aspose Il modulo .NET Export Users to Excel per SiteFinity consente agli sviluppatori di esportare gli utenti SiteFinity in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzione di creazione di fogli di calcolo fornita da Aspose.Cells.
+Aspose .NET Esporta utenti in Excel per SiteFinity Il modulo consente agli sviluppatori di esportare utenti SiteFinity in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells.
 
 ## **Requisiti di sistema e piattaforme supportate**
 ### **Requisiti di sistema**
@@ -66,11 +66,11 @@ Estrai il file ZIP scaricato. Avrai bisogno dell'FTP o dell'accesso diretto alla
 **Passaggio 2: registra il componente aggiuntivo Aspose Sitefinity Content Export in Sitefinity**
 
 1. Accedi al tuo Sitefinity CMS con un '**Amministratore** ' account. La pagina di login può essere raggiunta da<http://www.mywebsite.com/sitefinity>
-1.  Clic**Amministrazione** poi**Impostazioni**.
- Viene visualizzata la pagina Impostazioni di base.
+1.  Clic**Amministrazione** e poi**Impostazioni**.
+Viene visualizzata la pagina Impostazioni di base.
 1.  Clicca il**Avanzate** collegamento.
  Viene visualizzata la pagina Impostazioni.
-1.  Nel riquadro di sinistra, fare clic su**Cassette degli attrezzi** seguito da**Cassette degli attrezzi** , poi**PageControls**, **Sezioni** e**ContentToolboxSection** , poi**Strumenti.**
+1.  Nel riquadro di sinistra, fare clic su**Cassette degli attrezzi** seguito da**Cassette degli attrezzi** , poi**PageControls**, **Sezioni** e**ContentToolboxSection** , poi**Utensili.**
 1.  Clic**Creare nuovo**.
  Viene visualizzato il modulo di registrazione del widget.
 1.  Compila i campi del modulo come segue:

@@ -80,6 +80,6 @@ workbook.save(dataDir + "AsposeSortedData_Out.xls");
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[排序数据](/java/sort-data)或者[资料整理](/cells/zh/java/data-sorting).
+欲了解更多详情，请访问[排序数据](/java/sort-data)要么[资料整理](/cells/zh/java/data-sorting).
 
 {{% /alert %}}

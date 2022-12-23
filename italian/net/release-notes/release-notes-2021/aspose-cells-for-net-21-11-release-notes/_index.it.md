@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-11-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-48141|Supporta la formula/funzione XLookup|Nuova caratteristica|
 |CELLSNET-49614|Supporta il salvataggio delle immagini con il metodo workbook.Save().|Nuova caratteristica|
@@ -18,7 +18,7 @@ url: /it/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-48499|Recupera i valori delle celle formattate rispetto a determinate celle|Aumento|
 |CELLSNET-49523|Cancella i nomi definiti durante la cancellazione dei fogli di lavoro.|Aumento|
 |CELLSNET-48646|Eccezione StackOverflow durante la conversione da Excel a PDF|Prestazione|
-|CELLSNET-49378|Problema con le prestazioni di conversione da Excel a HTML e le celle vuote|Prestazione|
+|CELLSNET-49378|Problema con prestazioni di conversione da Excel a HTML e celle vuote|Prestazione|
 |CELLSNET-49453|Migliora le prestazioni durante la conversione di Excel in HTML|Prestazione|
 |CELLSNET-48095|3D, la forma della nuvola è cambiata|Insetto|
 |CELLSNET-49544|Errore nel salvataggio di NamedRange esterno che fa riferimento a un intervallo di più fogli|Insetto|
@@ -34,18 +34,18 @@ url: /it/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49193|GridDesktop non funziona correttamente|Insetto|
 |CELLSNET-49642|Aspose.Cells.GridWeb ha una dipendenza non dichiarata da Newtonsoft.Json|Insetto|
 |CELLSNET-49452|Il testo multilinea non viene riprodotto bene|Insetto|
-|CELLSNET-49498|Flusso HTML in Excel che solleva un'eccezione con le versioni più recenti|Insetto|
+|CELLSNET-49498|HTML stream in Excel sollevando un'eccezione con le versioni più recenti|Insetto|
 |CELLSNET-49610|Xml Import perdendo la formattazione del modello|Insetto|
-|CELLSNET-49671|Il testo con caratteri Windings non viene visualizzato correttamente in immagini/HTML|Insetto|
+|CELLSNET-49671|Il testo con i caratteri Windings non viene visualizzato correttamente in images/HTML|Insetto|
 |CELLSNETCORE-278|I risultati della conversione da XLSX a PDF non sono apribili quando la cultura è impostata su norvegese|Insetto|
 |CELLSNET-49560|Differenze in XML|Insetto|
 |CELLSNET-49598|Regressione: differenze in XML dopo il salvataggio|Insetto|
-|CELLSNET-49630|Segni di graduazione errati sulla conversione in EMF|Insetto|
+|CELLSNET-49630|Segni di graduazione errati durante la conversione in EMF|Insetto|
 |CELLSNET-49673|Alcune parti delle linee tratteggiate sono diventate linee continue durante la conversione dei grafici in immagini|Insetto|
 |CELLSNET-49545|I tipi HtmlCrossType.Default e HtmlCrossType.FitToCell sono interrotti|Insetto|
-|CELLSNET-49654|Le macro non funzionano dopo aver convertito XLS in XLSM|Insetto|
+|CELLSNET-49654|Le macro non funzionano dopo la conversione da XLS a XLSM|Insetto|
 |CELLSNET-49727|Le immagini dei file Mht non sono visibili in IE.|Insetto|
-|CELLSNET-49609|"Errore da forma a immagine" durante la conversione di file Excel in PDF|Eccezione|
+|CELLSNET-49609|"Errore da forma a immagine" durante la conversione del file Excel in PDF|Eccezione|
 |CELLSNET-49608|Aspose.Cells dà errori quando si tenta di aggiungere determinati nomi di intervalli|Eccezione|
 |CELLSNET-49697|Da XLSX a PDF: la stringa di input non era in un formato corretto.|Eccezione|
 |CELLSNETCORE-287|NullPointerException durante il calcolo della formula|Eccezione|
@@ -55,9 +55,9 @@ url: /it/net/aspose-cells-for-net-21-11-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum CellValueFormatStrategy.DisplayString.**
 

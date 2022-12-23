@@ -12,7 +12,7 @@ url: /tr/net/aspose-cells-for-net-21-8-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-48470|Dosyaları HTML'ye dışa aktarırken çalışma sayfası sayfalarının ölçeklenmesini destekler|Yeni özellik|
+|CELLSNET-48470|Dosyaları HTML'e dışa aktarırken çalışma sayfası sayfalarının ölçeklendirilmesini destekler|Yeni özellik|
 |CELLSNET-41286|Destek XML Haritaları|Yeni özellik|
 |CELLSNET-45255|Apple'ın .numbers'ı için destek? dosya formatı|Yeni özellik|
 |CELLSNET-47737| En son Apple .numbers dosya biçimini okuma desteği|Yeni özellik|
@@ -21,23 +21,23 @@ url: /tr/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-46412|Lisans, IIS sunucusuna dağıtıldığında MVC uygulamasının yayın sürümünde çalışmıyor|Artırma|
 |CELLSNET-47888|İstenen çıktıyı elde etmek için gereken uygun SmartMarker'lar|Artırma|
 |CELLSNET-48452|Görüntü form numaraları 09 dosyalarını okuma desteği.|Artırma|
-|CELLSNET-48372|Bekle, XLSB dosyası için html'ye kaydet|Verim|
+|CELLSNET-48372|XLSB dosyası için html'ye kaydetmeyi bekleyin|Verim|
 |CELLSNET-48091|Dönen nesne bozuk.|Böcek|
 |CELLSNET-48173|Diyagram şekillerindeki metinlerde kayma|Böcek|
 |CELLSNET-48241|Beşgen şeklindeki metin konumu yanlış|Böcek|
 |CELLSNET-48247|PDF'ye dönüştürürken bükme oku kaybolur.|Böcek|
 |CELLSNET-48363|Zengin metnin konumu art arda hesaplanarak metnin yukarı doğru kaymasına neden olur.|Böcek|
-|CELLSNET-47839|Şekilden görüntüye XLSX'i PDF'ye kaydederken hata oluştu|Böcek|
+|CELLSNET-47839|XLSX'i PDF'e kaydederken şekil hatası|Böcek|
 |CELLSNET-48312|Çıktı html'sindeki yakınlaştırma düzeyiyle ilgili sorun.|Böcek|
-|CELLSNET-48329|Aralığı HTML'ye aktarırken resim hizalama sorunu|Böcek|
-|CELLSNET-48333| Alta hizalı aralıktaki Tablo Sütunları dönüştürülmüş HTML'de birleştirilir|Böcek|
+|CELLSNET-48329|Aralık HTML'e aktarılırken resim hizalama sorunu|Böcek|
+|CELLSNET-48333| Alt hizalı aralıktaki Tablo Sütunları, dönüştürülen HTML'de birleştirilir|Böcek|
 |CELLSNET-48365| Pivot tablo taban alanlarından oluşturulan dilimleyiciler çalışmıyor|Böcek|
-|CELLSNET-48359|Makrolar, XLS'den XLSM'ye geçişten sonra kaldırılır|Böcek|
+|CELLSNET-48359|XLS'den XLSM'e geçişten sonra makrolar kaldırılır|Böcek|
 |CELLSNET-48448|Adlandırılmış aralığa sahip grafik veri kaynağı doğru şekilde ayrıştırılmadı|Böcek|
 |CELLSNET-47369|Oluşturulan EMF görüntüsünde grafik noktası eksik ve sıkıştırılmış şekil|Böcek|
 |CELLSNET-48497|Oluşturulan xlsx dosyası, hücreyi XmlMap'e bağladıktan sonra bozuldu|Böcek|
 |CELLSNET-48132| Halka Grafiğinin veri etiketi konumunu değiştirirken sorun|Böcek|
-|CELLSNET-48385|XLSX'ten TIFF'e: Grafik çubukları çıktıda işlenmez|Böcek|
+|CELLSNET-48385|XLSX ila TIFF: Grafik çubukları çıktıda işlenmez|Böcek|
 |CELLSNET-48386|Kategori ekseni onay etiketi yazı tipi adı için yanlış yazı tipi adı|Böcek|
 |CELLSNET-48503|Eksen başlığı hizalaması çıktı pdf'sinde kayıyor|Böcek|
 |CELLSNET-48509|Gösterge pozisyonuna göre grafik bazen görünmüyor|Böcek|
@@ -52,7 +52,7 @@ url: /tr/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48477|PivotTable.CalculateData yöntemi özel durum oluşturuyor|İstisna|
 |CELLSNET-48395|Display.xlsx dosyası için docker ortamında şekil yükseltme istisnası|İstisna|
 |CELLSNET-48367|PlotArea genişliği 0 olduğunda özel durum oluşturuldu|İstisna|
-|CELLSNET-48172|Excel dosyasını PDF'ye dönüştürürken "Şekilden görüntüye hata"|İstisna|
+|CELLSNET-48172|Excel dosyasını PDF'e dönüştürürken "Şekilden görüntüye hata"|İstisna|
 |CELLSNET-48490|"Aritmetik işlem taşmayla sonuçlandı." XLS dosyasını açarken istisna|İstisna|
 |CELLSNET-48545|Shape.UpdateSelectedValue() çağrılırken istisna oluştu|İstisna|
 |

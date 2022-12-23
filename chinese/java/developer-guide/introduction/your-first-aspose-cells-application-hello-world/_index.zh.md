@@ -31,7 +31,7 @@ url: /zh/java/your-first-aspose-cells-application-hello-world/
 
 **生成的电子表格** 
 
-![待办事项：图像_替代_文本](your-first-aspose-cells-application-hello-world_1.png)
+![待办事项：图片_替代_文本](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-introduction-CreatingWorkbook-1.java" >}}
 

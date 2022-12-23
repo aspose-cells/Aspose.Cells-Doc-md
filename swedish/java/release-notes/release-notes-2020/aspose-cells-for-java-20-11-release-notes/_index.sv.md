@@ -16,15 +16,15 @@ url: /sv/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43191| Tillhandahålla medel för att hantera scenarier när du anger felaktiga teckensnittstyper?|Förbättring|
 |CELLSJAVA-43319|Problem med att få cellvärde med formel|Insekt|
 |CELLSJAVA-43330|Problem efter återlagring av XLSB-fil - skadad fil|Insekt|
-|CELLSJAVA-43333|Bilder och textpositionering fel vid rendering av Excel som HTML|Insekt|
+|CELLSJAVA-43333|Bilder och textpositionering är felaktig när Excel renderas som HTML|Insekt|
 |CELLSJAVA-43321|Problem med autofilter - tomma rader visas|Insekt|
 |CELLSJAVA-43335|Dödläge inträffade vid beräkning av formler på arbetsbok|Insekt|
 |CELLSJAVA-43313|Sjökortetiketten ändrar sin position när den skrivs ut|Insekt|
 |CELLSJAVA-43314|0/100 % rad skrivs inte ut för 100 % cirkeldiagram|Insekt|
 |CELLSJAVA-43316| Olika problem vid utskrift av diagram|Insekt|
 |CELLSJAVA-40582|Smart art-text renderas inte korrekt till PDF/bild|Insekt|
-|CELLSJAVA-41639|Kolumnbredder bevaras inte vid konvertering från "XML Spreadsheet 2003"-format till XLSX-format|Insekt|
-|CELLSJAVA-43315|Konvertering av XLS till XLSX gör filen korrupt och ger "Shape to Image"-fel vid konvertering av utdata XLSX till PDF|Insekt|
+|CELLSJAVA-41639|Kolumnbredder bevaras inte vid konvertering från formatet "XML Spreadsheet 2003" till formatet XLSX|Insekt|
+|CELLSJAVA-43315|Konvertering av XLS till XLSX gör filen korrupt och ger "Shape to Image" fel vid konvertering av utdata XLSX till PDF|Insekt|
 |CELLSJAVA-43334|Problem med autofilter på tabell|Insekt|
 |
 

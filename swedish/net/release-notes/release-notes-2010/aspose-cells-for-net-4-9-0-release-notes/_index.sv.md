@@ -25,7 +25,7 @@ url: /sv/net/aspose-cells-for-net-4-9-0-release-notes/
 - Inkluderar ICustomTypeDesciptor som datakälla för smarta markörer
 - Extern länkad källdata i diagram till bild-funktionen stöds
 - MS Excel 2007 externa sidinställningar i xls-filen stöds
-- Anger HTML-innehåll som cellens värde eller kommentarens anteckning
+- Anger HTML innehåll som cellens värde eller kommentarens anteckning
 - 112-fixar och andra förbättringar.
 
  (Obs: Aspose.Cells.Charts-klassen har bytt namn till Aspose.Cells.ChartCollection-klassen.)
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-4-9-0-release-notes/
  Vad har ändrats i Aspose.Cells.GridDesktop:
 
 - Ställer in datumformaten "MM/DD/ÅÅÅÅ" och "M/D/ÅÅÅÅ" med dialogrutan Format Cells
-- Importerar CSV-filformat
+- Importerar CSV filformat
 - Stöder formler: LOOKUP, MATCH
 - 3 korrigeringar och andra förbättringar.
 

@@ -10,11 +10,11 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.12.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45358|Ottieni CSS separatamente dal markup HTML durante l'esportazione in HTML utilizzando i flussi|Nuova caratteristica|
-|CELLSNET-45697|Implementare Cell.FormulaLocal simile a Microsoft Interop FormulaLocal|Nuova caratteristica|
-|CELLSNET-45801|Supporto per i componenti aggiuntivi di Office nel rendering da Excel a PDF|Nuova caratteristica|
+|CELLSNET-45697|Implementa Cell.FormulaLocal simile a Microsoft Interop FormulaLocal|Nuova caratteristica|
+|CELLSNET-45801|Supporto per i componenti aggiuntivi di Office in Excel per il rendering PDF|Nuova caratteristica|
 |CELLSNET-45796|Indicatori intelligenti: come popolare automaticamente i dati nel secondo foglio di lavoro se i dati sono troppo grandi e non possono essere inseriti in un singolo foglio|Nuova caratteristica|
 |CELLSNET-45791|Aggiorna "Mantieni cronologia modifiche" durante la condivisione della cartella di lavoro|Nuova caratteristica|
 |CELLSNET-45746|Il testo nelle celle si sovrappone ad altre celle su Aspose.Cells.GridDesktop|Nuova caratteristica|
@@ -23,7 +23,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.12.
 |CELLSNET-45794|La formula di matrice che include "MEDIAN" viene calcolata come vuota|Insetto|
 |CELLSNET-45779|Cell l'allineamento del testo viene modificato nell'immagine convertita|Insetto|
 |CELLSNET-45772|Una pagina persa durante la conversione del foglio di lavoro in immagine|Insetto|
-|CELLSNET-45764|Lo stato di DataBars non è corretto nel PDF di output|Insetto|
+|CELLSNET-45764|Lo stato di DataBars non è corretto nell'output PDF|Insetto|
 |CELLSNET-45785|Serie "Nominale in Essere (mln)" Il posizionamento delle etichette dati è errato|Insetto|
 |CELLSNET-45775|Manca l'etichetta del secondo asse verticale durante la conversione del grafico in immagine|Insetto|
 |CELLSNET-45762|Chart.Calculate richiede più tempo e non funziona|Insetto|
@@ -38,13 +38,13 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for .NET 17.12.
 |CELLSNET-45768|Workbook.Save(Stream stream, SaveFormat saveFormat) ha esito negativo se il flusso non supporta Seek|Insetto|
 |CELLSNET-45780|Problema con la visualizzazione dei dati del foglio di lavoro da destra a sinistra|Insetto|
 |CELLSNET-45745|Errore quando si fa clic sulla barra di scorrimento su Aspose.Cells.GridDesktop|Insetto|
-|CELLSNET-45777|Si verifica un errore Shape to Image durante la conversione di file Excel in PDF|Eccezione|
+|CELLSNET-45777|Si verifica un errore Shape to Image durante la conversione del file Excel in PDF|Eccezione|
 |CELLSNET-45804|Eccezione all'apertura di un file Excel (Strict Open XML Spreadsheet).|Eccezione|
 |CELLSNET-45798|L'indice era al di fuori dei limiti dell'array - Eccezione durante il rendering del file Excel|Eccezione|
 |CELLSNET-45795|È necessario immettere i dati per i criteri di convalida: si verifica un'eccezione durante il salvataggio della cartella di lavoro|Eccezione|
 |CELLSNET-45781|ArgumentOutOfRangeException si verifica quando il foglio di lavoro viene copiato in un'altra cartella di lavoro|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.TableCssId**
 Ottiene e imposta il prefisso del nome di tipo css come tr,col,td e così via, sono contenuti nell'elemento table che ha l'attributo specifico TableCssId. Il valore predefinito è "".
 #### **Aggiunge la proprietà Cell.FormulaLocal**

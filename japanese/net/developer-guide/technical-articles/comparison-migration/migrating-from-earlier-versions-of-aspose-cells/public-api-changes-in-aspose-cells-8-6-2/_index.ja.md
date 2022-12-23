@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **メソッド Chart.ToPdf が追加されました**
-Aspose.Cells for .NET 8.6.2 は Chart.ToPdf メソッドを公開しました。[Chart シェイプを PDF 形式に直接レンダリングする](/cells/ja/net/convert-an-excel-chart-to-image/).上記のメソッドは現在、文字列型のパラメータをファイル パスの場所として受け入れ、結果のファイルをディスクに保存します。
+Aspose.Cells for .NET 8.6.2 は Chart.ToPdf メソッドを公開しました。[チャート シェイプを PDF 形式に直接レンダリングする](/cells/ja/net/convert-an-excel-chart-to-image/).上記のメソッドは現在、文字列型のパラメータをファイル パスの場所として受け入れ、結果のファイルをディスクに保存します。
 
 以下は、簡単な使用シナリオです。
 

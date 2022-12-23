@@ -18,4 +18,4 @@ Mejoras
 
 
 
-`   ` Se realizan mejoras para la representación de formas en la conversión de PDF
+`   ` Se realizan mejoras para la representación de formas en la conversión PDF

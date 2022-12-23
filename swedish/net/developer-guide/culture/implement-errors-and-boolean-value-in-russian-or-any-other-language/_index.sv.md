@@ -13,7 +13,7 @@ Om du använder Microsoft Excel i ryska språket eller språket eller något ann
 
 ## **Implementera fel och booleskt värde på ryska eller något annat språk**
 
- Följande exempelkod illustrerar hur man implementerar fel och booleskt värde på ryska eller något annat språk. Vänligen kontrollera[Exempel på Excel-fil](73990159.xlsx) används i denna kod och dess[Utdata PDF](73990160.pdf)Skärmdumpen visar skillnaden mellan Exempel Excel-fil och utdata-PDF som referens.
+ Följande exempelkod illustrerar hur man implementerar fel och booleskt värde på ryska eller något annat språk. Vänligen kontrollera[Exempel på Excel-fil](73990159.xlsx) används i denna kod och dess[Utgång PDF](73990160.pdf)Skärmdumpen visar skillnaden mellan Exempel Excel-fil och utgången PDF som referens.
 
 ![todo:image_alt_text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 

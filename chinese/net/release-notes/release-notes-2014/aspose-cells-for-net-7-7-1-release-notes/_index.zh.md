@@ -10,8 +10,8 @@ url: /zh/net/aspose-cells-for-net-7-7-1-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET 已更新至 7.7.1 版，我们很高兴地宣布此版本新增了 80 多项有用的改进。
-使用 Aspose.Cells for .NET，您可以在应用程序中处理 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
+ Aspose.Cells for .NET 已更新至 7.7.1 版，我们很高兴地宣布此版本新增了 80 多项有用的改进。
+使用 Aspose.Cells for .NET，您可以在应用程序中使用 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
 访问文档以了解如何开始使用 Aspose.Cells for .NET。
 请注意，此下载包含该产品的完整工作版本，但如果没有许可证集，它将在评估模式下运行，但有一些限制。要在没有这些评估限制的情况下测试 Aspose.Cells，您可以申请免费的 30 天临时许可证。
 以下是此版本 Aspose.Cells 的更改列表。
@@ -29,7 +29,7 @@ xlsb读写数据透视表返工
 
 ## **次要特征**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-42116) - 计算 DataBars 条件格式的最小值和最大值
@@ -64,7 +64,7 @@ xlsb读写数据透视表返工
 
 (CELLSNET-40904) - 从 Excel 图片渲染时图像中使用了错误的颜色
 
-(CELLSNET-42249) - Aspose.Cells 损坏了 XLSB 文件
+(CELLSNET-42249) - Aspose.Cells 破坏了 XLSB 文件
 
 (CELLSNET-42217) - MS Excel 显示“不可读内容”消息
 
@@ -76,7 +76,7 @@ xlsb读写数据透视表返工
 
  (CELLSNET-41363) - PivotField 问题 - 不正确的“重复项目标签”状态 (*.xlsb)
 
- (CELLSNET-41362) - PivotField 问题 - 不正确的“IsCalculatedField”状态 (*.xlsb)
+(CELLSNET-41362) - PivotField 问题 - 不正确的“IsCalculatedField”状态 (*.xlsb)
 
  (CELLSNET-41361) - PivotField 问题 - 排序字段的状态不正确 (*.xlsb)
 
@@ -88,7 +88,7 @@ xlsb读写数据透视表返工
 
  (CELLSNET-41343) - 数据透视表 - 不正确的“每个字段保留的项目数”状态 (*.xlsb)
 
-(CELLSNET-41342) - 数据透视表 - “RowHeaderCaption”字段的缺失值 (*.xlsb)
+ (CELLSNET-41342) - 数据透视表 - “RowHeaderCaption”字段的缺失值 (*.xlsb)
 
  (CELLSNET-41341) - 数据透视表 - 具有多个合并范围的数据透视表的数据源缺失值 (*.xlsb)
 
@@ -96,7 +96,7 @@ xlsb读写数据透视表返工
 
 (CELLSNET-41339) - 不正确的“行/列标题”状态 (*.xlsb)
 
- (CELLSNET-41338) - 数据透视表 - 不正确的“排序时使用自定义列表”状态 (*.xlsb)
+(CELLSNET-41338) - 数据透视表 - 不正确的“排序时使用自定义列表”状态 (*.xlsb)
 
  (CELLSNET-41337) - 数据透视表 - 不正确的“AutoFormat”值 (*.xlsb)
 
@@ -114,7 +114,7 @@ xlsb读写数据透视表返工
 
  (CELLSNET-42232) - 多行单元格在转换为图像时被截断（工作表到图像）
 
- (CELLSNET-42231) - 导出为 PDF - 多行文本在单元格中被截断和重叠
+ (CELLSNET-42231) - 导出到 PDF - 多行文本在单元格中被截断和重叠
 
 (CELLSNET-42227) - XLSX 到 PDF：结果没有左右边距
 
@@ -124,13 +124,13 @@ xlsb读写数据透视表返工
 
 (CELLSNET-41847) - Excel 文件转换为 PDF 格式时出现数据丢失和标签对齐不正确的问题
 
-(CELLSNET-42112) - 数据的 PDF 生成格式问题
+(CELLSNET-42112) - PDF 数据生成格式问题
 
 (CELLSNET-42266) - 标题行在输出 pdf 的第一页出现两次
 
 (CELLSNET-42097) - PDF 生成 - 数据格式问题
 
-(CELLSNET-41435) - 为有条件格式化的单元格将 Excel 渲染为 PNG 图像时不保持垂直单元格对齐
+(CELLSNET-41435) - 将 Excel 呈现为条件格式单元格的 PNG 图像时，垂直单元格对齐不保持
 
 (CELLSNET-42267) - 无法获取图表图像
 
@@ -146,7 +146,7 @@ xlsb读写数据透视表返工
 
 (CELLSNET-42275) - MS Excel 2007 中的自动调整行高问题
 
-(CELLSNET-42273) - 组合工作表重置表名称
+(CELLSNET-42273) - 组合工作表重置表名
 
 (CELLSNET-42242) - 使用 Worksheet.Copy 方法时，换行文本格式未正确复制
 
@@ -166,19 +166,19 @@ xlsb读写数据透视表返工
 
 (CELLSNET-42113) - 调用 Worksheet.AutoFitRows() 方法时图像变短
 
-(CELLSNET-41918) - Aspose Cells 损坏包含嵌入式对象的 XLSB 工作簿
+(CELLSNET-41918) - Aspose Cells 损坏包含嵌入对象的 XLSB 工作簿
 
 (CELLSNET-41852) - 四个单元格 A1-D1 在“0 VS 空白”方面不同
 
 (CELLSNET-41824) - 数据透视表未针对某些日期列调整足够大
 
-(CELLSNET-41789) - Aspose.Cells 另存为 XLSX 和 Open Xml SDK 问题
+(CELLSNET-41789) - 由 Aspose.Cells 另存为 XLSX 和 Open Xml SDK 问题
 
 (CELLSNET-41636) - 保存 XLSX 文件后不保留条件格式
 
 (CELLSNET-41595) - 使用 Aspose Cells 保存工作簿时签名行功能丢失
 
-(CELLSNET-41355) - XLSX 字符格式不起作用
+(CELLSNET-41355) - XLSX 字符格式不工作
 
 (CELLSNET-41240) - 设置 Chart.Name 和 Title 会导致输出文件损坏
 

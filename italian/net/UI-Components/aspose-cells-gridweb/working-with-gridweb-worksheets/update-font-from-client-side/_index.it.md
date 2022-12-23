@@ -10,7 +10,7 @@ In questo argomento viene illustrata la modifica delle impostazioni dei caratter
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb ora supporta la modifica delle impostazioni dei caratteri dal lato client. Per questo, l'API fornisce le seguenti funzioni
+Aspose.Cells GridWeb ora supporta la modifica delle impostazioni dei caratteri dal lato client. Per questo, il API fornisce le seguenti funzioni
 
 - **updateCellFontStyle**: Params - r/i/b/ib per regolare/corsivo/grassetto/corsivo&&grassetto
 - **updateCellFontSize**: Params - nome carattere, ecc. 'Sistema'
@@ -21,6 +21,6 @@ Aspose.Cells GridWeb ora supporta la modifica delle impostazioni dei caratteri d
 
 Il frammento di codice seguente illustra la modifica delle impostazioni dei caratteri dal lato client in GridWeb.
 
-## Codice di esempio
+## Codice d'esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-Worksheets-UpdateFontFromClientSide.aspx" >}}

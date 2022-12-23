@@ -6,7 +6,7 @@ url: /tr/java/create-transparent-image-of-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Bazen, çalışma sayfanızın görüntüsünü şeffaf bir görüntü olarak oluşturmanız gerekir. Dolgu renkleri olmayan tüm hücrelere saydamlık uygulamak istiyorsunuz. Aspose.Cells şunları sağlar:[**ImageOrPrintOptions.setTransparent()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent) çalışma sayfası görüntüsüne saydamlık uygulama özelliği. Bu özellik ne zaman**yanlış** , daha sonra dolgu renkleri olmayan hücreler beyaz renkle çizilir ve**doğru**, dolgu renkleri olmayan hücreler saydam olarak çizilir.
+ Bazen, çalışma sayfanızın görüntüsünü şeffaf bir görüntü olarak oluşturmanız gerekir. Dolgu renkleri olmayan tüm hücrelere saydamlık uygulamak istiyorsunuz. Aspose.Cells şunları sağlar:[**ImageOrPrintOptions.setTransparent()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#Transparent) çalışma sayfası görüntüsüne saydamlık uygulama özelliği. Bu özellik ne zaman**YANLIŞ** , daha sonra dolgu renkleri olmayan hücreler beyaz renkle çizilir ve**doğru**, dolgu renkleri olmayan hücreler saydam olarak çizilir.
 
 {{% /alert %}}
 
@@ -14,13 +14,13 @@ Aşağıdaki çalışma sayfası görüntüsünde saydamlık uygulanmamıştır.
 
 **Saydamlık uygulamadan çalışma sayfası görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](create-transparent-image-of-excel-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](create-transparent-image-of-excel-worksheet_1.png)
 
 Aşağıdaki çalışma sayfası görüntüsünde ise şeffaflık uygulanmıştır. Dolgu rengi olmayan hücreler şeffaftır.
 
 **Saydamlık uygulandıktan sonra çalışma sayfası görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](create-transparent-image-of-excel-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](create-transparent-image-of-excel-worksheet_2.png)
 
 Excel çalışma sayfanızın saydam bir görüntüsünü oluşturmak için aşağıdaki örnek kodu kullanabilirsiniz.
 

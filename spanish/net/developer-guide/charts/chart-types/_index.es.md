@@ -19,13 +19,13 @@ Los gráficos estándar son los que normalmente se utilizan con formato estánda
 - Línea
 - Tarta
 - Dispersión
-- Área
+- Zona
 - Rosquilla
 - Radar
 - Embudo
 - Superficie 3D
 - Burbuja
-- Valores
+- Existencias
 - Cilindro
 - Cono
 - Pirámide

@@ -21,14 +21,14 @@ description: Bir XML veri dosyasından Microsoft Excel'e veri aktarın.
 
 Aşağıdaki ekran görüntüsü, Microsoft Excel kullanılarak XML Eşlemesinin nasıl içe aktarılacağını gösterir.
 
-|![yapılacaklar:resim_alternatif_Metin](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
+|![yapılacaklar:resim_alternatif_metin](import-xml-map-inside-a-workbook-using-aspose-cells_1.png)|
 |:- |
 
 ## **Aspose.Cells kullanarak XML Haritasını içe aktarın**
 
 Aşağıdaki örnek kod, nasıl kullanılacağını gösterir.[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) . üretir[çıktı excel dosyası](5115036.xlsx) bu ekran görüntüsünde gösterildiği gibi.
 
-|![yapılacaklar:resim_alternatif_Metin](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
+|![yapılacaklar:resim_alternatif_metin](import-xml-map-inside-a-workbook-using-aspose-cells_2.png)|
 |:- |
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ImportXmlData-ImportXmlDataIntoWorkbook.cs" >}}

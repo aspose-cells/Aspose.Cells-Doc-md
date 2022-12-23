@@ -14,7 +14,7 @@ url: /ru/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to
 
 {{< /highlight >}}
 
-Здесь первые три ячейки или столбца пусты. Когда вы открываете такой CSV-файл в Microsoft Excel, Microsoft Excel отбрасывает эти начальные пустые строки и столбцы.
+Здесь первые три ячейки или столбца пусты. Когда вы открываете такой файл CSV в Microsoft Excel, то Microsoft Excel отбрасывает эти начальные пустые строки и столбцы.
 
  По умолчанию Aspose.Cells не отбрасывает начальные пустые столбцы и строки при сохранении, но если вы хотите удалить их так же, как Microsoft Excel, тогда Aspose.Cells предоставляет**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/trimleadingblankrowandcolumn)** имущество. Пожалуйста, установите его на**истинный**а затем все ведущие пустые строки и столбцы будут удалены при сохранении.
 

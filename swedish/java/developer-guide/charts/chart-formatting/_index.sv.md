@@ -48,7 +48,7 @@ Efter exekvering av exempelkoden kommer ett kolumndiagram att läggas till i kal
 
 ### **Tillämpa Microsoft Excel 2007/2010-teman på diagram**
 
- Utvecklare kan tillämpa olika Microsoft Excel-teman och färger på[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)eller andra diagramobjekt som visas i exemplet nedan.
+Utvecklare kan tillämpa olika Microsoft Excel-teman och färger på[**Seriekollektion**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)eller andra diagramobjekt som visas i exemplet nedan.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -60,7 +60,7 @@ Du kan använda Microsoft Excel för att ställa in titlarna på ett diagram och
 
 ![todo:image_alt_text](chart-formatting_3.png)
 
-Aspose.Cells tillåter också utvecklare att ställa in titlarna på ett diagram och dess axlar under körning. Alla diagram och deras axlar innehåller en[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)metod som kan användas för att ställa in deras titlar som visas nedan i ett exempel. Efter exekvering av exempelkoden kommer ett kolumndiagram att läggas till i kalkylbladet enligt nedan:
+ Aspose.Cells tillåter också utvecklare att ställa in titlarna på ett diagram och dess axlar under körning. Alla diagram och deras axlar innehåller en[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)metod som kan användas för att ställa in deras titlar som visas nedan i ett exempel. Efter exekvering av exempelkoden kommer ett kolumndiagram att läggas till i kalkylbladet enligt nedan:
 
 **Kolumndiagram efter inställning av titlar** 
 
@@ -100,7 +100,7 @@ Exemplet nedan visar hur man ställer in sidoväggens kant genom att använda ol
 
 ## **Ändra diagramposition och storlek**
 
- Ibland vill du ändra positionen eller storleken på det nya eller befintliga diagrammet i kalkylbladet. Aspose.Cells tillhandahåller[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) egendom för att uppnå detta. Du kan använda dess underegenskaper för att ändra storlek på diagrammet med nytt**höjd** och**bredd** eller placera om den med ny** X** och**Y** koordinater.
+ Ibland vill du ändra positionen eller storleken på det nya eller befintliga diagrammet i kalkylbladet. Aspose.Cells tillhandahåller[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)egendom för att uppnå detta. Du kan använda dess underegenskaper för att ändra storlek på diagrammet med nytt**höjd** och**bredd** eller placera om den med ny** X** och**Y** koordinater.
 
 ### **Ändra diagrammets position och storlek**
 
@@ -157,7 +157,7 @@ Följande exempel visar hur man manipulerar det befintliga diagrammet. I det hä
 
 #### **Manipulera ett linjediagram i designermallen**
 
-det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några dataserier till det befintliga diagrammet och ändra deras linjefärger.
+I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några dataserier till det befintliga diagrammet och ändra deras linjefärger.
 
 Ta först en titt på designerns linjediagram.
 

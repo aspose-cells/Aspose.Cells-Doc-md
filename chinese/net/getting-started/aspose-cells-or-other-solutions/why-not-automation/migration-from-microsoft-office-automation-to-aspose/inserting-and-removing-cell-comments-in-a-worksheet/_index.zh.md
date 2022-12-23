@@ -1,5 +1,5 @@
 ﻿---
-title: 在工作表中插入和删除 Cell 注释
+title: 在工作表中插入和删除 Cell 评论
 type: docs
 weight: 30
 url: /zh/net/inserting-and-removing-cell-comments-in-a-worksheet/

@@ -78,7 +78,7 @@ Aspose .NET تصدير المستخدمين إلى Excel لـ SiteFinity Module 
  1. أضف ~ / Addons / Aspose.SiteFinity.ExportUsersToExcel / AsposeExportUsersToExcel.ascx
 
  1. ` `in**التحكم في نوع CLR أو المسار الظاهري** مجال.
- 1. أضف**اسم**, **عنوان** و**وصف** كالآتي:
+ 1. أضف**اسم**, **لقب** و**وصف** كما يلي:
  Aspose.SiteFinity.ExportUsersToExcel
  Aspose تصدير مستخدمي SiteFinity إلى Excel
  تصدير مستخدمي SiteFinity إلى Excel

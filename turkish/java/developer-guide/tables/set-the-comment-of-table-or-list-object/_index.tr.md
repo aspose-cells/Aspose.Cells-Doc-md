@@ -10,6 +10,6 @@ url: /tr/java/set-the-comment-of-table-or-list-object/
 
  Aşağıdaki örnek kod,[kaynak excel dosyası](5472561.xlsx), çalışma sayfasındaki ilk tablonun veya liste nesnesinin yorumunu ayarlar ve ekran görüntüsü bu kod tarafından oluşturulan yorumu kırmızı dikdörtgen içinde gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](set-the-comment-of-table-or-list-object_1.png)
+![yapılacaklar:resim_alternatif_metin](set-the-comment-of-table-or-list-object_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-tables-SettheCommentofTableorListObject-SettheCommentofTableorListObject.java" >}}

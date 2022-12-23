@@ -21,10 +21,10 @@ url: /tr/java/aspose-cells-for-java-2-3-1-release-notes/
 - PivotField için özel sayı biçimlerini ayarlar.
 - Excel 2007 dosyası için yeni Yerleşik belge özelliklerini içerir.
 - Birden çok Çalışma Kitabını birleştirir.
-- Doğrudan Excel'den PDF'e özelliği için PDF'yi Akışa kaydetmeyi destekler.
+- Doğrudan Excel'den PDF'e özelliği için Akışa PDF'i kaydetmeyi destekler.
 - Excel 2007 dosyalarını okuma/yazma için geliştirme yapılmıştır.
 - Excel 2003 dosyalarını okuma/yazma için geliştirme yapılmıştır.
-- XLS şablon dosyalarının okunması için geliştirme yapılmıştır.
+- XLS şablon dosyalarını okumak için geliştirme yapılmıştır.
 - 25 düzeltme ve diğer geliştirmeler.
 
  Aspose.Cells for Java 2.3.1'de Çözülen Sorunlar
@@ -37,7 +37,7 @@ url: /tr/java/aspose-cells-for-java-2-3-1-release-notes/
 |17818 | Xlsx| Şablon dosyasını okuma|
 |17835 | html| Çizgi boyama, RichText formatı|
 |17837 | Xl'ler| Sütun genişliği sorunu|
-|17960 | Pdf| Oluşturulan PDF boş kalır|
+|17960 | Pdf| Oluşturulan PDF boş kalıyor|
 |17963 | Xl'ler| getStringValue()|
 |17968 | Chart2Image| Chart2Image|
 |17989 | SmartMarker| dinamik formüller|
@@ -47,9 +47,9 @@ url: /tr/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | Xlsx| Pivot Tablo Excel 2007 dosyası için kaydediliyor|
 |18188 | Xlsx| Excel 2007 dosyası için yazı tipi adını ayarlama|
 |18201 | Xl'ler| Cell.getDependents() istisna atar|
-|18257 | Pdf| Dışa aktarılan PDF'deki yazdırma alanları|
-|18274 | Xl'ler| Resimlerle çalışma sayfasını kaldırma|
-|18288 | Pdf|Pdf kaydetme performansını artırma|
+|18257 | Pdf| Dışa aktarılan yazdırma alanları PDF|
+|18274 | Xl'ler|Resimlerle çalışma sayfasını kaldırma|
+|18288 | Pdf| Pdf kaydetme performansını artırma|
 |18307 | Xlsx| Excel 2007 Belge Özellikleri|
 |18328 | Xl'ler| Özel biçimi pivotField dataField olarak ayarlama|
 |18345 | Xlsx| Grafiği Excel 2007 dosyaları için kaydetme|

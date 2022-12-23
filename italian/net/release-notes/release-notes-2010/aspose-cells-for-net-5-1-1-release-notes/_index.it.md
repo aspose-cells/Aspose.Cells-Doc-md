@@ -19,12 +19,12 @@ url: /it/net/aspose-cells-for-net-5-1-1-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v5.1.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
-|18024 | Grafico2Immagine| Problema relativo al formato dell'etichetta del segno di spunta del grafico durante la conversione in PDF|
+|18024 | Grafico2Immagine| Problema relativo al formato dell'etichetta del tick del grafico durante la conversione in PDF|
 |18028 | Grafico2Immagine| Grafico_Problema di sovrapposizione|
 |18458 | Grafico2Immagine| Problema con l'etichetta dei dati troncata|
-|18652 | PDF| Nome Cell non valido durante il salvataggio in formato PDF|
+|18652 | PDF| Nome Cell non valido durante il salvataggio nel formato PDF|
 |18034 | Shape2Image| Il layout e il design del primo foglio vengono persi e il testo si sovrappone|
 |18687 | Foglio di lavoro2Immagine| ToImage genera un'eccezione|
 |18473 | XL|Office 2010 ha rilevato un problema con il file XLS|

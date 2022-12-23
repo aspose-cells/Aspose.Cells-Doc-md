@@ -22,7 +22,7 @@ Vi stöter på olika kalkylbladskomponenter på marknaden idag som verkligen lov
 
 Aspose.Cells for Java är en flexibel komponent som gör det möjligt för Java-applikationer att skapa och hantera Excel-kalkylblad utan Microsoft Excel installerat på systemet (klient eller server). Till skillnad från liknande produkter från andra leverantörer stöder Aspose.Cells for Java inte bara generering av kalkylblad och grundläggande filformateringsfunktioner, utan också ett antal avancerade funktioner. Dessa avancerade funktioner gör det enkelt för utvecklare att manipulera kalkylbladsinnehåll, cellformatering och filskyddsalternativ.
 
-Aspose.Cells for Java kan också importera data till kalkylblad från olika datakällor, lägga till vanliga och komplexa matematiska, datum/tid, finansiella, textformler och funktioner, importera bilder (alla större format stöds inklusive BMP, GIF, JPG, PNG, WMF, EMF och mer), skapa kommentarer, skapa ritobjekt och kontroller och utföra en rad andra uppgifter.
+Aspose.Cells for Java kan också importera data till kalkylblad från olika datakällor, lägga till vanliga och komplexa matematiska, datum/tid, finansiella, textformler och funktioner, importera bilder (alla större format stöds inklusive BMP, GIF, JPG43, 4076, 616, 4016, W1MF43, 4816, 516, 5000 och mer), skapa kommentarer, skapa ritobjekt och kontroller och utföra en rad andra uppgifter.
 
 Aspose.Cells for Java stöder även tillägg, VBA och makron.
 
@@ -44,7 +44,7 @@ Aspose.Cells tillåter utvecklare att automatiskt anpassa rader och kolumner i e
 
 ### **Unika funktioner**
 
-Det finns också ett antal unika funktioner som utvecklare bara hittar i Aspose.Cells for Java, till exempel stöd för ett brett utbud av format inklusive XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML och HTML.
+Det finns också ett antal unika funktioner som utvecklare bara hittar i Aspose.Cells for Java, till exempel stöd för ett brett utbud av format inklusive XLS, XLT, XLSX, CSV, CSV, 0761406, 81406 de XML, 81406, 81406 och XML, CSV, CSV, CSV, CSV, 071416 de 071406 de 861406 de 461406 de
 
 API tillåter också utvecklare att lägga till en kopia av ett befintligt kalkylblad (med fullständigt innehåll, bilder och diagram) till en fil, ställa in gradientbakgrund för diagram genom API, skapa kommentarer, ställa in lokal- och regioninställningar, autofilter och sidbrytningar , ställ in komplexa formler, villkorlig formatering, alla typer av skyddsalternativ som introducerats i Microsoft Excel XP eller högre, och manipulera namngivna intervall.
 
@@ -62,7 +62,7 @@ Vidare lägger Aspose.Cells till ett anpassat diagram API och en effektiv formel
 
 JExcelAPI är en Java API som används för att läsa, skriva och ändra Excel-kalkylblad. Det är en öppen källkod Java API som gör att Java-utvecklare kan läsa Excel-kalkylblad och skapa Excel-kalkylblad dynamiskt. Dessutom innehåller den en mekanism som gör att Java-applikationer kan läsa ett kalkylblad, ändra celler och skriva det nya kalkylbladet.
 
-I skrivande stund har den en begränsad uppsättning funktioner. Den stöder: läsa och skriva inbyggd Microsoft Excel-fil (Excel97-2003) endast i XLS-filformat. Den har ett begränsat stöd för formelberäkning. Det kan manipulera teckensnitt, stödja nummer- och datumformatering, ändra befintliga kalkylblad, lokalinställningar, bevara diagram (men tillåter inte utvecklare att skapa eller manipulera diagram), infoga bilder och så vidare.
+I skrivande stund har den en begränsad uppsättning funktioner. Den stöder: läsning och skrivning av den ursprungliga Excel-filen Microsoft (Excel97-2003) endast i filformatet XLS. Den har ett begränsat stöd för formelberäkning. Det kan manipulera teckensnitt, stödja nummer- och datumformatering, ändra befintliga kalkylblad, lokalinställningar, bevara diagram (men tillåter inte utvecklare att skapa eller manipulera diagram), infoga bilder och så vidare.
 
 #### **Begränsat diagramstöd**
 
@@ -105,7 +105,7 @@ Följande tabell försöker ge en funktionsöversikt om hur Aspose.Cells for Jav
 |**Funktion** |**JExcelAPI** |**POI:s HSSF** |**Aspose.Cells for Java** |
 |:- |:- |:- |:- |
 |**Filformat**||||
-| Läs och skriv filformat (XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML och HTML)| Stöds delvis| Stöds delvis| Stöds|
+| Läs- och skrivfilformat (XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML och HTML)| Stöds delvis| Stöds delvis| Stöds|
 | Öppna filen och spara i en stream||| Stöds|
 | Konvertera Excel-fil till PDF-dokument||| Stöds|
 | Lösenordsskyddade filer|| Stöds| Stöds|

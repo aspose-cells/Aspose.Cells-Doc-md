@@ -14,7 +14,7 @@ Aspose.Cells offre anche la possibilità di lavorare con le estensioni Web.
 
 Aspose.Cells fornisce anche la funzione per aggiungere estensioni Web utilizzando il[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) e[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) classi. L'esempio di codice seguente illustra l'utilizzo di[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) e[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)classi per aggiungere un'estensione Web al file Excel. Si prega di consultare il[file Excel di output](89849869.xlsx)generato dal codice per riferimento.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AddWebExtension-1.cs" >}}
 
@@ -22,7 +22,7 @@ Aspose.Cells fornisce anche la funzione per aggiungere estensioni Web utilizzand
 
  Aspose.Cells offre la possibilità di accedere alle informazioni delle estensioni Web nel file Excel. L'esempio di codice seguente mostra come accedere alle informazioni sull'estensione Web caricando il file[esempio di file Excel](89849870.xlsx). Si prega di consultare l'output della console generato dal codice per riferimento.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-AccessWebExtensionInformation-1.cs" >}}
 

@@ -6,26 +6,26 @@ url: /fr/java/aspose-cells-for-java-16-10-0-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
-|CELLSJAVA-41974 | L'actualisation du tableau croisé dynamique ne fonctionne pas dans le fichier PDF rendu| Punaise|
+|CELLSJAVA-41974 | L'actualisation du tableau croisé dynamique ne fonctionne pas dans le fichier rendu PDF| Punaise|
 |CELLSJAVA-41900 | XLSM est corrompu par une simple opération de chargement et de sauvegarde| Punaise|
-|CELLSJAVA-41790 | Les liens hypertexte ne fonctionnent pas comme prévu après la conversion de la feuille de calcul en HTML| Punaise|
-|CELLSJAVA-42010 | Certains caractères ne s'affichent pas dans le PDF de sortie| Punaise|
-|CELLSJAVA-41977 | L'ordre de la légende du graphique a été modifié dans le PDF du graphique| Punaise|
-|CELLSJAVA-41972 | L'ordre Z des lignes haut-bas n'est pas correct dans le PDF| Punaise|
-|CELLSJAVA-42015 | La feuille de calcul est corrompue après avoir été réenregistrée avec Aspose.Cells| Punaise|
+|CELLSJAVA-41790 | Les hyperliens ne fonctionnent pas comme prévu après la conversion de la feuille de calcul en HTML| Punaise|
+|CELLSJAVA-42010 | Certains caractères ne sont pas rendus dans la sortie PDF| Punaise|
+|CELLSJAVA-41977 | L'ordre de la légende du graphique a changé dans Chart's PDF| Punaise|
+|CELLSJAVA-41972 | L'ordre Z des lignes haut-bas n'est pas correct dans PDF| Punaise|
+|CELLSJAVA-42015 |La feuille de calcul est corrompue après avoir été réenregistrée avec Aspose.Cells| Punaise|
 |CELLSJAVA-42005 | La formule est modifiée après l'insertion dans une cellule| Punaise|
 |CELLSJAVA-41997 | Comportement étrange avec un haricot simple utilisant des marqueurs intelligents| Punaise|
 |CELLSJAVA-41993 | NullPointerException lors de l'ouverture d'un fichier 7.xlsm| Exception|
 |CELLSJAVA-41992 | NullPointerException lors de l'ouverture d'un fichier 6.xlsm| Exception|
-|CELLSJAVA-41991 |NullPointerException lors de l'ouverture d'un fichier 5.xlsm| Exception|
+|CELLSJAVA-41991 | NullPointerException lors de l'ouverture d'un fichier 5.xlsm| Exception|
 |CELLSJAVA-41990 | NullPointerException lors de l'ouverture d'un fichier 4.xlsm| Exception|
 |CELLSJAVA-41989 | NullPointerException lors de l'ouverture d'un fichier 3.xlsm| Exception|
 |CELLSJAVA-41988 | NullPointerException lors de l'ouverture d'un fichier 2.xlsm| Exception|
 |CELLSJAVA-41987 | NullPointerException lors de l'ouverture d'un fichier 1.xlsm| Exception|
 |CELLSJAVA-41968 | IndexOutOfBoundsException : Index : 23, taille : 14 lors de l'actualisation du graphique croisé dynamique| Exception|
-|CELLSJAVA-42014 | ClassCastException : com.aspose.cells.zadp ne peut pas être converti en com.aspose.cells.zadq lors de la ré-enregistrement de XLSX| Exception|
+|CELLSJAVA-42014 | ClassCastException : com.aspose.cells.zadp ne peut pas être converti en com.aspose.cells.zadq lors de la ré-enregistrement XLSX| Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 ### **Ajoute la propriété Shape.Reflection et la classe ReflectionEffect**

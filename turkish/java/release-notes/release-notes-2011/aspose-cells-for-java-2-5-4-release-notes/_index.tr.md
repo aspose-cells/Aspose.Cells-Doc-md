@@ -21,9 +21,9 @@ url: /tr/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26607 - EOMONTH işlevini hesaplama desteği
 ### **Geliştirmeler**
- 26655 - ODS dosyası için içe/dışa aktarma tarihi ve kenarlık stilleri
+ 26655 - ODS dosyası için tarih ve kenarlık stillerini içe/dışa aktarma
 
- 27317 - XLS'yi PPT'ye yerleştirirken yeniden kaydedilen grafiğin küçük resmini orijinal dosyayla aynı tutun
+ 27317 - XLS'i PPT'ye katıştırırken yeniden kaydedilen grafiğin küçük resmini orijinal dosyayla aynı tutun
 
  27214 - Pivot alanının öğelerini gizleyin/gösterin
 
@@ -33,13 +33,13 @@ url: /tr/java/aspose-cells-for-java-2-5-4-release-notes/
 ### **İstisnalar**
  26710 - XLSX dosyasından form kontrollerini okurken bir istisna alın
 
- 27128 - Bölünmüş bölmenin satır dizini Kısa sınırını aşan ODS dosyasını okurken “NumberFormatException” işleyin
+ 27128 - Bölünmüş bölmenin satır dizini Kısa sınırını aşan ODS dosyasını okurken "NumberFormatException"ı işleyin
 
-27578 - Sütun genişliği tanımı Excel dosyasının sınırını aşan ODS dosyalarını okurken "IllegalArgumentException" istisnası oluştu
+27578 - Sütun genişliği tanımı Excel dosyasının sınırını aşan ODS dosyası okunurken "IllegalArgumentException" istisnası oluştu
 
  27773 - ODS dosyasından Köprüleri okurken "ArrayIndexOutOfBoundsException" ile başa çıkın
 
- 27780 - PDF dosyasını işlerken “NumberFormatException” alın
+ 27780 - PDF dosyasını işlerken "NumberFormatException" alın
 ### **Hatalar**
  26563 - Grafikten Görüntüye özelliğinde Eksen ölçeğiyle ilgili sorun
 
@@ -67,7 +67,7 @@ url: /tr/java/aspose-cells-for-java-2-5-4-release-notes/
 
  27040 - Kenarlık stilini ve formülleri okumayla ilgili sorun
 
- 26151 - ODS şablon dosyasından 1900-02-28'den önceki Tarihleri okumayla ilgili sorun
+ 26151 - ODS şablon dosyasından 1900-02-28 öncesi Tarihler okunurken sorun
 
  27426 - Grafikteki şekilleri okumayla ilgili sorun
 

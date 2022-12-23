@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-21-5-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-43452|无法正确读取使用 Excel 函数的日本日历|
-|CELLSJAVA-43420|另存为 HTML 时，旋转的文本未正确对齐|
+|CELLSJAVA-43420|另存为 HTML 时，旋转文本未正确对齐|
 |CELLSJAVA-43450|数据透视表刷新问题|
 |CELLSJAVA-43444|回归：getLastSavedUniversalTime 返回不正确的日期|
 |CELLSJAVA-43446|Cells 跟踪更改异常|
@@ -21,7 +21,7 @@ url: /zh/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|保存复制的工作簿时无限循环|
 |CELLSJAVA-43442|单击 GridWeb spring 演示中的标题链接时出现数据排序问题|
 |CELLSJAVA-43443|GridWeb 中的编辑模式问题 Java|
-|CELLSJAVA-43455|将 EmbedStandardWindowsFonts 设置为 false 时，非 ASCII 字符的字体不会嵌入 PDF|
+|CELLSJAVA-43455|将 EmbedStandardWindowsFonts 设置为 false 时，非 ASCII 字符的字体未嵌入 PDF|
 |CELLSJAVA-43449|无法将图表元素的字体系列从“Calibri”更改为“Aktiv Grotesk”|
 |CELLSJAVA-43454|X 轴标签被切断|
 |CELLSJAVA-43445|回归：缺少 .numbers 文件的行数据|

@@ -13,23 +13,23 @@ url: /ar/java/aspose-cells-for-java-18-12-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-42745|لا تحصل على نقاط اتصال لأن نوعها الذي تم إرجاعه هو "zo []"|ميزة جديدة|
-|CELLSJAVA-42662|توفير القدرة على تصدير النطاق بتنسيق HTML|ميزة جديدة|
+|CELLSJAVA-42662|توفير القدرة على تصدير النطاق كما HTML|ميزة جديدة|
 |CELLSJAVA-42746|أشرطة البيانات مفقودة عند تحويل XLSX إلى HTML|ميزة جديدة|
 |CELLSJAVA-42747|تظل القيمة موجودة عند تحويل XLSX إلى تنسيق ملف HTML|ميزة جديدة|
 |CELLSJAVA-42748|فشل LightCells API في تحميل ملف ضخم|التعزيز|
-|CELLSJAVA-42727|تنسيق النص مفقود في إخراج HTML لنطاق MS Excel|حشرة|
-|CELLSJAVA-42744|تصبح مجموعات الرموز غير محاذاة عند تحويل XLSX إلى HTML|حشرة|
-|CELLSJAVA-42772|لا يتم تقديم تصدير بيانات النطاق المسمى بشكل صحيح إلى HTML (Java)|حشرة|
-|CELLSJAVA-42753|تم العثور على مشكلة في النطاق المحدد|حشرة|
-|CELLSJAVA-42764|يُرجع التحقق دائمًا صحيحًا لطريقة "getInCellDropDown ()"|حشرة|
-|CELLSJAVA-42768|يتم إرجاع التنسيق المخصص للثقافة الخطأ لمواقع مختلفة (ألمانيا ، الفرنسية ، إيطاليا وإسبانيا)|حشرة|
-|CELLSJAVA-42758|تحويل Excel إلى PDF - مشكلة عرض مخطط القياس|حشرة|
-|CELLSJAVA-42761|يطرح تحويل PDF استثناء OutOfMemoryError|حشرة|
+|CELLSJAVA-42727|تنسيق النص مفقود في HTML إخراج نطاق MS Excel|خلل برمجي|
+|CELLSJAVA-42744|تصبح مجموعات الرموز غير محاذاة عند تحويل XLSX إلى HTML|خلل برمجي|
+|CELLSJAVA-42772|لم يتم تقديم تصدير بيانات النطاق المسمى بشكل صحيح إلى HTML (Java)|خلل برمجي|
+|CELLSJAVA-42753|تم العثور على مشكلة في النطاق المحدد|خلل برمجي|
+|CELLSJAVA-42764|يُرجع التحقق دائمًا صحيحًا لطريقة "getInCellDropDown ()"|خلل برمجي|
+|CELLSJAVA-42768|يتم إرجاع التنسيق المخصص للثقافة الخطأ لمواقع مختلفة (ألمانيا ، الفرنسية ، إيطاليا وإسبانيا)|خلل برمجي|
+|CELLSJAVA-42758|تحويل Excel إلى PDF - مشكلة عرض مخطط القياس|خلل برمجي|
+|CELLSJAVA-42761|PDF يطرح التسليم خطأ OutOfMemoryError|خلل برمجي|
 |CELLSJAVA-42759|CellsException أثناء تحويل الملفات|استثناء|
 |CELLSJAVA-42755|استثناء "NullPointerException" عند إنشاء مثيل لملف (ملفات) XLSX|استثناء|
 |CELLSJAVA-42762|NumberFormatException أثناء معالجة الملفات|استثناء|
-|CELLSJAVA-42774|NullPointerException عند تحميل ملف CSV|استثناء|
-|CELLSJAVA-42765|استثناء "com.aspose.cells.CellsException" عند تحويل ملف Excel إلى تنسيق ملف PDF|استثناء|
+|CELLSJAVA-42774|NullPointerException عند تحميل CSV|استثناء|
+|CELLSJAVA-42765|استثناء "com.aspose.cells.CellsException" عند تقديم ملف Excel إلى تنسيق ملف PDF|استثناء|
 |CELLSJAVA-42754|"IllegalStateException: ترميز غير صالح: فارغ" عند إنشاء تنسيق ملف XLS|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
@@ -49,12 +49,12 @@ url: /ar/java/aspose-cells-for-java-18-12-release-notes/
 الحصول على سلسلة نمط الثقافة المستقلة لتنسيق الأرقام (بما في ذلك سلسلة النمط للرقم المضمن).
 ### **يضيف خاصية FindOptions.ValueTypeSensitive**
 يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه.
-### **تقادم FindOptions.SearchNext الخاصية**
+### **تقادم FindOptions.SearchNext خاصية**
 استخدم خاصية FindOptions.SearchBackward بدلاً من ذلك ، القيمة الحقيقية لهذه الخاصية الجديدة تقابل خطأ SearchNext.
 ### **حذف طرق البحث Cells.FindString و FindStringStartsWith و FindStringEndsWith و FindStringContains و FindNumber القديمة**
 استخدم Cells. أوجد طريقة (كائن ، Cell ، FindOptions) بدلاً من ذلك. للحصول على نفس النتائج باستخدام الطرق FindNumber و FindString ، يرجى تعيين FindOptions.ValueTypeSensitive على أنه صحيح.
 ### **يحذف الطريقة القديمة Cells.ImportGridView (System.Web.UI.WebControls.GridView، int، int، bool، bool، bool)**
-استخدم طريقة Cells.ImportGridView (System.Web.UI.WebControls.GridView GridView ، int firstRow ، int firstColumn ، ImportTableOptions options). في حين أن.
+استخدم طريقة Cells.ImportGridView (System.Web.UI.WebControls.GridView GridView ، int firstRow ، int firstColumn ، ImportTableOptions options). بدلاً من.
 ### **يحذف Cells المتقادم. خاصية البدء**
 استخدم Cells.FirstCell بدلاً من ذلك.
 ### **يحذف خاصية النهاية Cells.End المتقادمة**

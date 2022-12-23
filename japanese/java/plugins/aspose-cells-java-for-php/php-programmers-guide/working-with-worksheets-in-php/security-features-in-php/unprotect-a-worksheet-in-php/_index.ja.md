@@ -7,7 +7,7 @@ url: /ja/java/unprotect-a-worksheet-in-php/
 ## **Aspose.Cells - ワークシートの保護を解除する**
 を使用してワークシートを保護するには**Aspose.Cells Java for PHP**、 電話**unprotect_worksheet**方法**保護**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

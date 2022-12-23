@@ -10,8 +10,8 @@ Questo argomento illustra l'aggiunta e la rimozione di commenti dal lato client 
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di commenti dal lato client. Per questo, l'API fornisce le funzioni "addcomments" e "delcomments". Il frammento di codice seguente illustra l'aggiunta e la rimozione di commenti dal lato client in GridWeb.
+Aspose.Cells GridWeb ora supporta l'aggiunta e la rimozione di commenti dal lato client. Per questo lo API mette a disposizione le funzioni "aggiungicommenti" e "cancellacommenti". Il frammento di codice seguente illustra l'aggiunta e la rimozione di commenti dal lato client in GridWeb.
 
-## Codice di esempio
+## Codice d'esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples.GridWeb-CSharp-Worksheets-AddRemoveCommentsFromClientSide.aspx" >}}

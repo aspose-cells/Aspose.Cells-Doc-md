@@ -10,7 +10,7 @@ Visual Studio'da veri kaynakları ve sorgular oluşturabilir ve bunları bir RDL
 
 **EmpSalesDetail RDL dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](using-data-sources-and-queries-created-in-visual-studio_1.png)
+![yapılacaklar:resim_alternatif_metin](using-data-sources-and-queries-created-in-visual-studio_1.png)
 
 Bu makale, Aspose.Cells.Report.Designer'da bir RDL dosyasıyla nasıl çalışılacağını gösterir.
 
@@ -23,7 +23,7 @@ RDL dosyalarını Aspose.Cells.Report.Designer ile açabilir ve bunlarla çalı�
 
    **Raporu Aç düğmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](using-data-sources-and-queries-created-in-visual-studio_2.png)
+![yapılacaklar:resim_alternatif_metin](using-data-sources-and-queries-created-in-visual-studio_2.png)
 
 
 
@@ -33,4 +33,4 @@ RDL dosyalarını Aspose.Cells.Report.Designer ile açabilir ve bunlarla çalı�
 
    **Mevcut veri setleri** 
 
-![yapılacaklar:resim_alternatif_Metin](using-data-sources-and-queries-created-in-visual-studio_3.png)
+![yapılacaklar:resim_alternatif_metin](using-data-sources-and-queries-created-in-visual-studio_3.png)

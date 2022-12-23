@@ -36,9 +36,9 @@ url: /es/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Excepciones
 
- 29285 Obtener una excepción al guardar PDF con idioma francés
+ 29285 Obtenga una excepción al guardar PDF con configuración regional francesa
 
- 30459 Obtiene una excepción al leer un archivo XLS con la configuración regional predeterminada que no tiene código de país
+ 30459 Obtiene una excepción al leer el archivo XLS con la configuración regional predeterminada que no tiene código de país
 
  30489 Worksheet.autoFitColumn() y Chart.toImage() pueden causar "java.awt.HeadlessException"
 
@@ -46,8 +46,8 @@ url: /es/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Insectos
 
- 30103 Las fuentes del gráfico cambiaron después de volver a guardar el archivo XLSX
+30103 Las fuentes del gráfico cambiaron después de volver a guardar el archivo XLSX
 
-28858 Ordenar nombres hace que la celda vinculada del control cambie
+ 28858 Ordenar nombres hace que la celda vinculada del control cambie
 
- 30486 La alineación vertical se cambia en el archivo XLSX vuelto a guardar
+ 30486 La alineación vertical se cambia en el archivo XLSX que se volvió a guardar

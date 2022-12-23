@@ -38,17 +38,17 @@ url: /ja/java/aspose-cells-for-java-8-4-2-release-notes/
 
 (CELLSJAVA-41308) - スプレッドシートを PDF 形式にレンダリングする際に形状の位置が間違っている
 
-(CELLSJAVA-41282) - 図面を含むスプレッドシートを PDF に変換すると、矢印の頭が大きくなります
+(CELLSJAVA-41282) - 図面を含むスプレッドシートを PDF に変換すると、矢印の頭が拡大される
 
 (CELLSJAVA-41249) - 出力 PDF ファイルでワードアートが正しくレンダリングされない
 
 (CELLSJAVA-41243) - スプレッドシートを PDF に変換する際に、シェイプ内の水平テキストが垂直にレンダリングされる
 
-(CELLSJAVA-41242) - スプレッドシートを PDF にレンダリングする際に描画が乱れる
+(CELLSJAVA-41242) - スプレッドシートを PDF にレンダリングしているときに描画が乱れる
 
-(CELLSJAVA-41241) - スプレッドシートを PDF にレンダリングする際に、円の形状が楕円に変換されます
+(CELLSJAVA-41241) - スプレッドシートを PDF にレンダリングすると、円の形が楕円形に変換されます
 
-(CELLSJAVA-41233) - Aspose.Cells を使用して、Excel テンプレートの描画オブジェクトと形状が出力 PDF で正しくレンダリングされない
+(CELLSJAVA-41233) - Aspose.Cells を使用すると、Excel テンプレートの描画オブジェクトと形状が出力 PDF で正しくレンダリングされない
 
 (CELLSJAVA-41302) - 最新の Aspose バージョンは、以前のバージョンで保存されたファイルの保存に失敗します
 
@@ -64,7 +64,7 @@ url: /ja/java/aspose-cells-for-java-8-4-2-release-notes/
 
 (CELLSJAVA-41306) - Excel から PDF への変換の問題 - 右側が切れる
 
-(CELLSJAVA-41316) - ワークブックをコピーするときに、レンダリングされた HTML ファイルで一部の DataLabels が欠落している
+(CELLSJAVA-41316) - ワークブックをコピーすると、レンダリングされた HTML ファイルに一部の DataLabels がありません
 
 (CELLSJAVA-41314) - グラフの DataLabels がレンダリングされた EMF 画像に表示されない
 
@@ -76,15 +76,15 @@ url: /ja/java/aspose-cells-for-java-8-4-2-release-notes/
 
 (CELLSJAVA-41285) - ワークブックを結合した後、グラフのプロット エリアの高さが増加する
 
-(CELLSJAVA-41277) - 円グラフのみをレンダリングすると空白のPDFが表示される
+(CELLSJAVA-41277) - 円グラフのみをレンダリングすると空白PDFになる
 
 (CELLSJAVA-41276) - Chart.toImage が円グラフの空白の画像を生成する
 
-(CELLSJAVA-41275) - グラフを画像に変換する際に、結果の EMF で 2 つの軸ラベルが欠落している
+(CELLSJAVA-41275) - グラフを画像に変換しているときに、結果の EMF で 2 つの軸ラベルが欠落している
 
 (CELLSJAVA-40606) - チャートのレンダリング画像が正しくない (Chart to Image)
 
-(CELLSJAVA-40368) - Chart.calculate() が X 軸と Y 軸のラベルを誤って配置する
+ (CELLSJAVA-40368) - Chart.calculate() が X 軸と Y 軸のラベルを誤って配置する
 
 
 ## **例外**
@@ -118,9 +118,9 @@ VBA モジュールを追加します。
 
 
 
-PasteType.Default および PasteType.DefaultExceptBorders 列挙型を追加します。
+ PasteType.Default および PasteType.DefaultExceptBorders 列挙型を追加します。
 
- MS Excel で範囲を「すべて」および「境界線を除くすべて」としてコピーするために使用されます。
+MS Excel で範囲を「すべて」および「境界線を除くすべて」としてコピーするために使用されます。
 
 
 

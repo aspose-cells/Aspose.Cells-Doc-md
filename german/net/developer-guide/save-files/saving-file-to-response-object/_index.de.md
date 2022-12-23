@@ -28,15 +28,15 @@ Die Enumeration enthält die folgenden vordefinierten Speichertypen:
 |Anhang|Sendet die Tabelle an den Browser und wird in einer Anwendung als Anhang geöffnet, der mit .xls/.xlsx oder anderen Erweiterungen verknüpft ist|
 |In der Reihe|Sendet das Dokument an den Browser und bietet eine Option zum Speichern der Tabelle auf der Festplatte oder zum Öffnen im Browser|
 
-### **XLS-Dateien**
+### **XLS Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX-Dateien**
+### **XLSX Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF-Dateien**
+### **PDF Dateien**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

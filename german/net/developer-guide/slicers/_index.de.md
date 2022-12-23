@@ -30,7 +30,7 @@ description: Verwalten Sie Slicer von Excel-Dateien mit Aspose.Cells.
 
 ## **Themen vorantreiben**
 - [Slicer-Eigenschaften ändern](/cells/de/net/change-slicer-properties/)
-- [Slicer zeichnen, während Excel in PDF gerendert wird](/cells/de/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Slicer zeichnen, während Excel auf PDF gerendert wird](/cells/de/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [Slicer formatieren](/cells/de/net/formatting-slicer/)
 - [Slicer entfernen](/cells/de/net/removing-slicer/)
 - [Rendering-Slicer](/cells/de/net/rendering-slicer/)

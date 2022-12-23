@@ -18,8 +18,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42927|El archivo guardado se abre lentamente en Excel después de eliminar columnas|Mejora|
 |CELLSJAVA-42857|Se muestra un valor incorrecto para las formas en el PDF exportado|Insecto|
 |CELLSJAVA-42890|La imagen es opaca y no transparente después de la conversión: representación de Excel a HTML|Insecto|
-|CELLSJAVA-42893|Falta el gráfico en la representación de Excel a HTML|Insecto|
-|CELLSJAVA-42899|Problema de Excel a HTML|Insecto|
+|CELLSJAVA-42893|Falta el gráfico en Excel para la representación HTML|Insecto|
+|CELLSJAVA-42899|Excel a HTML problema|Insecto|
 |CELLSJAVA-42903|Problema de representación de Excel a HTML en CentOS|Insecto|
 |CELLSJAVA-42882|No se pudieron extraer datos de un archivo MS Excel 95 XLS|Insecto|
 |CELLSJAVA-42887|Diferencia de cálculo entre MS Excel y Aspose.Cells|Insecto|
@@ -30,7 +30,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42896|La conversión a PDF entrega números de teléfono|Insecto|
 |CELLSJAVA-42900|La conversión a PDF cambia el orden del texto|Insecto|
 |CELLSJAVA-42932|Error de formato condicional con el método Style.getDisplayStyle|Insecto|
-|CELLSJAVA-42928|Algunas líneas no se reflejan en la conversión de XLSX a PDF|Insecto|
+|CELLSJAVA-42928|Algunas líneas no se reflejan en la conversión XLSX a PDF|Insecto|
 |CELLSJAVA-42904|La imagen del encabezado aparentemente corrompe el archivo|Insecto|
 |CELLSJAVA-42907|Filtro perdido después de guardar el libro de trabajo|Insecto|
 |CELLSJAVA-42915|Los filtros se cambian después de agregar una hoja al libro de trabajo|Insecto|

@@ -22,7 +22,7 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30919 La proprietà TabColor del foglio di lavoro per i fogli di lavoro di tipo Grafico
 
- 25224 Esportare i dati senza limitazioni XLS nel file SpreadsheetML
+ 25224 Esporta dati senza limitazione XLS nel file SpreadsheetML
 
  30672 Indicatori intelligenti - Come raggruppare le righe (calcolare totali, totali parziali e totali complessivi)
 
@@ -30,7 +30,7 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30548 StackOverflowException si è verificata durante l'apertura di determinati file
 
- 30609 Il costruttore della cartella di lavoro genera NullReferenceException
+30609 Il costruttore della cartella di lavoro genera NullReferenceException
 
  30989 Eccezione: file Excel2007Xlsx non valido
 
@@ -38,17 +38,17 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  29663 Conversione da Excel a PDF (problema di elementi mancanti)
 
-29692 Problema nella conversione da Excel a PDF
+ 29692 Problema nella conversione da Excel a PDF
 
  29840 Problema con la versione 6.0.1.3 (relativa ai grafici)
 
  30102 Problema con l'immagine del grafico relativa alle etichette dati e alle barre di errore
 
- 30270 Problema di stampa - I numeri vengono visualizzati come "#######"
+ 30270 Problema di stampa - Numbers vengono visualizzati come "########"
 
  30533 Problema con la funzione DeleteRange
 
- 30603 Problema EMF Vs PNG
+ 30603 EMF Vs PNG Emissione
 
  30729 Problema di wrapping durante la conversione da XLS a PDF
 
@@ -62,11 +62,11 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30877 Le date vengono visualizzate come numeri di serie nei grafici
 
- 30918 Problemi di immagine durante il salvataggio in formato XLS
+ 30918 Problemi di immagine durante il salvataggio nel formato XLS
 
- 30949 Cell il contenuto si divide parzialmente in una parola durante la conversione da XLS a PDF
+30949 Cell il contenuto si divide parzialmente in una parola durante la conversione da XLS a PDF
 
- 30980 Il caricamento e l'aggiornamento di XLSM, quindi il salvataggio causano ERRORI
+ 30980 Il caricamento e l'aggiornamento XLSM quindi il salvataggio causa ERRORI
 
  30998 Problemi con Excel 2010 e XLSM
 
@@ -74,7 +74,7 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31005 Valori negativi tra parentesi
 
-31068 In alcuni casi, il salvataggio del file si arresta in modo anomalo dopo l'utilizzo del metodo DeleteRange
+ 31068 In alcuni casi, il salvataggio del file si arresta in modo anomalo dopo l'utilizzo del metodo DeleteRange
 
  31078 Aggiorna tabella pivot: non ordina correttamente
 
@@ -90,7 +90,7 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31243 Copia dell'intervallo con convalida
 
- 31277 Salvando in XLSX il documento è protetto da scrittura
+ 31277 Salvando allo XLSX il documento è protetto da scrittura
 
  \2) GridDesktop
 
@@ -100,4 +100,4 @@ url: /it/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31053 Il parametro non è valido, si è verificata un'eccezione in GridDesktop
 
- 31071 Rendering errato del documento tramite il metodo GridDesktop.ImportExcelFile
+31071 Rendering errato del documento tramite il metodo GridDesktop.ImportExcelFile

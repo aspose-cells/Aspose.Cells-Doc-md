@@ -22,9 +22,9 @@ url: /de/java/aspose-cells-for-java-22-1-release-notes/
 |CELLSJAVA-44204|Paginierungsproblem für csv|
 |CELLSJAVA-43934|Die Kreisdiagrammbeschriftungen werden nach dem Bearbeiten oder Aktualisieren des Diagramms nicht mit Excel abgeglichen|
 |CELLSJAVA-44122|Beim Exportieren von HTML unterscheiden sich die Datenbeschriftungen von denen von Excel|
-|CELLSJAVA-41949| Inhalte werden beim Speichern von Arbeitsmappen im XLSX- und HTML-Format anders gerendert|
-|CELLSJAVA-44207|Beim Exportieren in HTML wird die Zeilenhöhe höher|
-|CELLSJAVA-44233|Endlosschleife beim Konvertieren von XLSX-Dateien|
+|CELLSJAVA-41949| Inhalt wird anders gerendert, wenn Workbook in den Formaten XLSX und HTML gespeichert wird|
+|CELLSJAVA-44207|Beim Exportieren nach HTML wird die Zeilenhöhe höher|
+|CELLSJAVA-44233|Endlosschleife beim Konvertieren der XLSX-Datei|
 |CELLSJAVA-44234|Nicht genügend Arbeitsspeicher für die Datei data.xls|
 |CELLSJAVA-44246|Ausnahme "Ungültiger Endrow-Index" für leere Datei|
 |CELLSJAVA-44258| Nullzeiger-Ausnahme für Datei|
@@ -51,7 +51,7 @@ In alten Versionen?DataSorter.Sort() Methoden geben nichts zurück. Ab dieser Ve
 
 ### **Fügt die TxtLoadOptions.ExtendToNextSheet-Eigenschaft hinzu.**
 
-Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Anzahl der Zeilen oder Spalten der Daten das Limit von MS Excel überschreitet.
+Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Zeilen- oder Spaltenanzahl der Daten das Limit von MS Excel überschreitet.
 
 ### **Fügt die Methode ExternalLinkCollection.Clear() hinzu.**
 

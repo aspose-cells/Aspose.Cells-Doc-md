@@ -18,13 +18,13 @@ Aspose.Cells şunları sağlar:[**Cells.ConvertStringToNumericValue()**](https:/
 
 |**Giriş dosyası: metin dizeleri olarak girilen sayılar**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-text-numeric-data-to-number_1.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-text-numeric-data-to-number_1.png)|
 
 Bu dize numaraları, kullanılarak sayılara dönüştürüldü.[**Cells.ConvertStringToNumericValue()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/convertstringtonumericvalue)aşağıdaki ekran görüntüsünde. Gördüğünüz gibi, artık sağa hizalanmış durumdalar.
 
 |**Çıktı dosyası: dizeler sayılara dönüştürüldü**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-text-numeric-data-to-number_2.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-text-numeric-data-to-number_2.png)|
 
 ## Dizi sayısal verilerini gerçek sayılara dönüştürmek için C# kodu
 

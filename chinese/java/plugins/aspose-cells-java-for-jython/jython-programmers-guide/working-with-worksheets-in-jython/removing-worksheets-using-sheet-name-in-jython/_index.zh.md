@@ -5,7 +5,7 @@ weight: 120
 url: /zh/java/removing-worksheets-using-sheet-name-in-jython/
 ---
 ## **Aspose.Cells - 使用工作表名称删除工作表**
-使用附加文件**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
+使用附加文档**Aspose.Cells Java 对于 Jython**.在这里您可以看到示例代码。
 
 **Jython代码**
 

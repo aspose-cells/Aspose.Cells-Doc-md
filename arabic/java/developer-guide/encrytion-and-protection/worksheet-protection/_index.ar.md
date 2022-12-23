@@ -106,7 +106,7 @@ url: /ar/java/protect-and-unprotect-worksheet/
 
 ### **حماية عمود في ورقة العمل**
 
- يسمح لك Aspose.Cells بقفل أي عمود في ورقة العمل بسهولة. هنا ، يمكننا الاستفادة من[**تطبيق نمط ()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) طريقة[**عمودي**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) فئة لتطبيق النمط على عمود معين في ورقة العمل. تأخذ هذه الطريقة حجتين: أ[**أسلوب**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) كائن و[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الهيكل الذي يحتوي على جميع الأعضاء المتعلقين بالتنسيق المطبق.
+ يسمح لك Aspose.Cells بقفل أي عمود في ورقة العمل بسهولة. هنا ، يمكننا الاستفادة من[**تطبيق نمط ()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) طريقة[**عمود**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) فئة لتطبيق النمط على عمود معين في ورقة العمل. تأخذ هذه الطريقة حجتين: أ[**أسلوب**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) كائن و[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) الهيكل الذي يحتوي على جميع الأعضاء المتعلقين بالتنسيق المطبق.
 
 يوضح المثال التالي كيفية حماية عمود في ورقة العمل. يقوم بإلغاء تأمين جميع الخلايا الموجودة في ورقة العمل أولاً ثم يقوم بتأمين العمود الأول فيها. أخيرًا ، يحمي ورقة العمل. يحتوي الصف / العمود على نمط API يحتوي أيضًا على مجموعة Locked method. يمكنك قفل أو إلغاء قفل الصف / العمود باستخدام بنية StyleFlag.
 

@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-20-7-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43221|Eccezione "java.lang.NullPointerException" durante il caricamento del file XLT|Aumento|
 |CELLSJAVA-43222|Eccezione "com.aspose.cells.CellsException: i dati della formula dovrebbero essere stati danneggiati..." durante il caricamento di un file XLS|Aumento|
@@ -22,23 +22,23 @@ url: /it/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43219|L'aggiunta del riferimento alla formula a fogli diversi risulta in una cartella di lavoro di Excel danneggiata|Insetto|
 |CELLSJAVA-43232|Problema con la funzione ROUNDUP|Insetto|
 |CELLSJAVA-43243|Impossibile recuperare la formula durante la modifica della formula della cella adiacente|Insetto|
-|CELLSJAVA-43217|La stampa da XLSX a XPS perde la formattazione in background|Insetto|
+|CELLSJAVA-43217|La stampa da XLSX a XPS perde la formattazione dello sfondo|Insetto|
 |CELLSJAVA-43224|Problema durante la stampa su una stampante fisica|Insetto|
 |CELLSJAVA-43241|Problema con l'altezza della linea e il bordo durante la creazione di un'immagine dall'area di Excel|Insetto|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) non genera i risultati previsti durante l'utilizzo di SmartMarkers|Insetto|
 |CELLSJAVA-43213|Aspose.Cells 20.6 non funziona correttamente con i controlli dei moduli in Office 365 (versione 2005 Build 12827.20268)|Insetto|
-|CELLSJAVA-43214|Quando si traduce XLS in XLSX, produce un file XLSX danneggiato|Insetto|
-|CELLSJAVA-43216|Conversione da XLS a XLSX: l'audacia e il posizionamento dei caratteri vengono modificati per la forma|Insetto|
-|CELLSJAVA-43228|L'XLS generato è in visualizzazione protetta|Insetto|
+|CELLSJAVA-43214|Durante la traduzione da XLS a XLSX, produce un file XLSX danneggiato|Insetto|
+|CELLSJAVA-43216|Conversione da XLS a XLSX: l'audacia e il posizionamento del carattere vengono modificati per la forma|Insetto|
+|CELLSJAVA-43228|Generato XLS è in visualizzazione protetta|Insetto|
 |CELLSJAVA-43231|Errore nel file di output dopo le sostituzioni|Insetto|
 |CELLSJAVA-43225|Eccezione "java.lang.NullPointerException" durante il recupero del valore stringa dalla cella|Eccezione|
 |CELLSJAVA-43229|Eccezione durante il caricamento del file XLSM con l'opzione setKeepUnparsedData(false)|Eccezione|
 |CELLSJAVA-43238|Il calcolo non riesce con NPE (java.lang.NullPointerException)|Eccezione|
 |CELLSJAVA-43199|Eccezione "java.lang.NegativeArraySizeException" al salvataggio in HTML|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.RemoveDuplicates().**
 

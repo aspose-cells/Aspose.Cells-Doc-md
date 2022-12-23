@@ -6,7 +6,7 @@ url: /ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class من أجل التعامل مع السيناريوهات التي يرغب فيها المستخدم في استخدام تسميات مخصصة للمجاميع الفرعية في جدول بيانات. وعلاوة على ذلك، فإن[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)يمكن أيضًا استخدام class لتعديل**آخر** تسمية المخطط الدائري أثناء عرض ورقة العمل أو المخطط.
+ كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class من أجل التعامل مع السيناريوهات التي يرغب فيها المستخدم في استخدام تسميات مخصصة للمجاميع الفرعية في جدول بيانات. وعلاوة على ذلك، فإن[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) يمكن أيضًا استخدام class لتعديل**آخر** تسمية المخطط الدائري أثناء عرض ورقة العمل أو المخطط.
 
 ## **مقدمة في فئة GlobalizationSettings**
 
@@ -18,7 +18,7 @@ url: /ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **تسميات مخصصة للمجموعات الفرعية**
 
- ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) يمكن استخدام الفئة لتخصيص تسميات الإجمالي الفرعي عن طريق تجاوز[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)الأساليب كما هو موضح في المستقبل.
+ ال[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)يمكن استخدام الفئة لتخصيص تسميات الإجمالي الفرعي عن طريق تجاوز[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)الأساليب كما هو موضح في المستقبل.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 

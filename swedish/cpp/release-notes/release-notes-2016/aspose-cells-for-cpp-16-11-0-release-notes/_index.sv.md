@@ -14,7 +14,7 @@ Vi är glada att kunna lansera vår helt nya produkt, Aspose.Cells for C++!
 
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
-|CELLSPORTINGC-417|Öppna/spara XLS, OOXML filformat|Ny funktion|
+|CELLSPORTINGC-417|Öppna/Spara XLS, OOXML filformat|Ny funktion|
 |CELLSPORTINGC-418|Ställ in stilar och formatering till kalkylbladsceller|Ny funktion|
 |CELLSPORTINGC-419|Tillämpa datavalidering på cellerna|Ny funktion|
 |CELLSPORTINGC-420|Filtrera data med hjälp av ett autofilter|Ny funktion|

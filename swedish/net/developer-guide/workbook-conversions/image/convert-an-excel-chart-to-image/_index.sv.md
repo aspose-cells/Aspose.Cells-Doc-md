@@ -8,7 +8,7 @@ url: /sv/net/convert-an-excel-chart-to-image/
 
 Diagram är visuellt tilltalande och gör det enkelt för användare att se jämförelser, mönster och trender i data. Till exempel, snarare än att analysera kolumner med kalkylbladsnummer, visar ett diagram med ett ögonkast om försäljningen faller eller stiger, eller hur den faktiska försäljningen jämför med den beräknade försäljningen. Människor uppmanas ofta att presentera statistisk och grafisk information på ett lättförståeligt och lättskött sätt. En bild hjälper.
 
-Ibland behövs diagram i en applikation eller webbsidor. Eller det kan behövas för ett Word-dokument, en PDF-fil, en PowerPoint-presentation eller någon annan applikation. I varje fall vill du rendera diagrammet som en bild så att du kan använda det någon annanstans.
+Ibland behövs diagram i en applikation eller webbsidor. Eller det kan behövas för ett Word-dokument, en PDF-fil, en PowerPoint-presentation eller något annat program. I varje fall vill du rendera diagrammet som en bild så att du kan använda det någon annanstans.
 
 {{% /alert %}}
 
@@ -18,7 +18,7 @@ I exemplen här konverteras ett cirkeldiagram och ett kolumndiagram till bilder.
 
 ### **Konvertera ett cirkeldiagram till en bildfil**
 
-Skapa först ett cirkeldiagram i Microsoft Excel och konvertera det sedan till en bildfil med Aspose.Cells. Koden i det här exemplet skapar en EMF-bild baserat på cirkeldiagrammet i mallen Microsoft Excel-fil.
+Skapa först ett cirkeldiagram i Microsoft Excel och konvertera det sedan till en bildfil med Aspose.Cells. Koden i detta exempel skapar en EMF-bild baserat på cirkeldiagrammet i mallen Microsoft Excel-fil.
 
 |**Utdata: cirkeldiagrambild**|
 |:- |
@@ -50,7 +50,7 @@ Skapa först ett cirkeldiagram i Microsoft Excel och konvertera det sedan till e
 
 ### **Konvertera ett kolumndiagram till en bildfil**
 
-Skapa först ett kolumndiagram i Microsoft Excel och konvertera det till en bildfil, enligt ovan. Efter exekvering av exempelkoden skapas en JPEG-fil baserat på kolumndiagrammet i mallens Excel-fil.
+Skapa först ett kolumndiagram i Microsoft Excel och konvertera det till en bildfil, enligt ovan. Efter exekvering av exempelkoden skapas en JPEG-fil baserat på kolumndiagrammet i Excel-mallen.
 
 |**Utdatafil: en kolumndiagrambild.**|
 |:- |

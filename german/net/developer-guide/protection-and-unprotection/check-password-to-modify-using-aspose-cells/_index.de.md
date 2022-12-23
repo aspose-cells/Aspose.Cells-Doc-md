@@ -12,7 +12,7 @@ url: /de/net/check-password-to-modify-using-aspose-cells/
 
 ## **Aktivieren Sie das zu ändernde Passwort in Microsoft Excel**
 
-Sie können zuweisen**Passwort zum Öffnen** und**Zu änderndes Passwort** beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel. Bitte sehen Sie sich diesen Screenshot an, der die Schnittstelle Microsoft zeigt, die Excel bereitstellt, um diese Passwörter anzugeben.
+ Sie können zuweisen**Passwort zum öffnen** und**Zu änderndes Passwort** beim Erstellen Ihrer Arbeitsmappen in Microsoft Excel. Bitte sehen Sie sich diesen Screenshot an, der die Schnittstelle Microsoft zeigt, die Excel bereitstellt, um diese Passwörter anzugeben.
 
 |![todo: Bild_alt_Text](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |

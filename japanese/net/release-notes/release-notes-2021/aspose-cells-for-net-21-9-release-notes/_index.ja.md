@@ -27,7 +27,7 @@ url: /ja/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-48998|スライサー オブジェクトのプロパティへの変更が失われるか、失われる|バグ|
 |CELLSNET-48614|Excel のフィルター機能が正常に動作しないようです|バグ|
 |CELLSNETCORE-136|Linux 環境で矢印が表示されない|バグ|
-|CELLSNETCORE-137|Excel から SVG への変換中に矢印が見つからない|バグ|
+|CELLSNETCORE-137|Excel を SVG に変換中に矢印が見つからない|バグ|
 |CELLSNET-49045|添付ファイルの読み込み中に GridWeb で不適切なセルの高さが観察される|バグ|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode が機能しない|バグ|
 |CELLSNET-40974|Excel から Xps への変換: 変換後、リンクをクリックできません .NET|バグ|
@@ -37,24 +37,24 @@ url: /ja/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|EmfOnly オプションを使用してシートを Emf 画像に変換しているときにフォントが歪む|バグ|
 |CELLSNET-48049|xlsx ワークブックから emf に変換するときの軸間隔の違い|バグ|
 |CELLSNET-48509|凡例の位置に基づいてグラフが表示されないことがある|バグ|
-|CELLSNET-48580|Excel グラフの出力 SVG に凡例エントリがありません|バグ|
+|CELLSNET-48580|Excel チャートの出力 SVG に凡例エントリがありません|バグ|
 |CELLSNET-48696|データ ラベルの色の変更中にエラーが発生しました|バグ|
-|CELLSNET-48698|PDF でエクスポートするときのグラフの色の問題|バグ|
+|CELLSNET-48698|PDF でのエクスポート時のグラフの色の問題|バグ|
 |CELLSNET-48797|xlsx からの読み取り時に平均マーカー値がエラーになる|バグ|
 |CELLSNET-48455|行の高さの自動調整の問題|バグ|
 |CELLSNET-48473|列の自動調整が正しく機能しない|バグ|
 |CELLSNET-48605|ワークブックに VBA コードを追加すると、破損した結果が生成されました|バグ|
-|CELLSNET-48644|改ページによって XLSX を HTML に変換するときに行と透かしが失われる|バグ|
+|CELLSNET-48644|改ページで XLSX を HTML に変換すると行と透かしが失われる|バグ|
 |CELLSNET-48669|.ods ファイルの名前付き範囲は Table として読み取られます。|バグ|
 |CELLSNET-48718|間違った埋め込みオブジェクト名を取得する|バグ|
 |CELLSNET-48966|セルの範囲をコピーした後、数式が失われます|バグ|
 |CELLSNET-49055|結合セルの列の自動調整が機能しない|バグ|
 |CELLSNET-49100|HTML にエクスポートすると、一部のセルにグリッド線が表示されない|バグ|
 |CELLSNETCORE-149|値をコピーした後にスタイルをコピーすると、Excel 97 形式のセルの値が消去される|バグ|
-|CELLSNETCORE-152|XLSファイルからEMF画像データを読み込めません|バグ|
+|CELLSNETCORE-152|EMF XLS ファイルから画像データを読み込めません|バグ|
 |CELLSNET-48444|xlsb を xls ファイルに変換する際の無効なパラメータ エラー|例外|
 |CELLSNET-48607|形状から画像へのエラー|例外|
-|CELLSNET-48866|特定の XLSX Excel ファイルを GridDesktop コントロールで開くことができない|例外|
+|CELLSNET-48866|特定の XLSX Excel ファイルを GridDesktop コントロールに開けない|例外|
 |CELLSNET-48956|Cell.SetStyle を使用してセル スタイルを設定した後の例外|例外|
 |CELLSNET-48712|Box&Whisker チャートのレンダリング時に配列が範囲外です|例外|
 |CELLSNET-48910|箱ひげ図とひげ図を画像にレンダリングするときに例外がスローされる|例外|

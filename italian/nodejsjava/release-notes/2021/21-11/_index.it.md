@@ -10,13 +10,13 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-43844|Un miglioramento necessario per il formato dei numeri contabili|
-|CELLSJAVA-43953|Renderizza testo/parte specifici "Cell" e "Commento" da tradurre in giapponese nella conversione da Excel a PDF|
-|CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo durante il salvataggio e il caricamento del file XLS|
+|CELLSJAVA-43844| Un miglioramento necessario per il formato dei numeri contabili|
+|CELLSJAVA-43953|Renderizza testo/parte specifici "Cell" e "Commento" da tradurre in giapponese in Excel alla conversione PDF|
+|CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo della forma durante il salvataggio e il caricamento del file XLS|
 |CELLSJAVA-43952|Problema di scadenza della licenza temporanea|
-|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java heap space"|
+|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java spazio heap"|
 |CELLSJAVA-43902|Alcuni bordi di Excel convertiti in HTML sono ridondanti|
 |CELLSJAVA-43933|Quando si esporta in HTML con un solo dato, il formato condizionale è diverso da Excel|
 |CELLSJAVA-43878| Posizione errata delle etichette dei dati del grafico a barre del cluster di Excel|
@@ -26,11 +26,11 @@ url: /it/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 |CELLSJAVA-43519|Le celle unite incluse in righe o colonne nascoste producono una tabella HTML irregolare|
 |CELLSJAVA-43962|L'effetto è incoerente dopo che il formato condizionale in Excel è stato convertito in HTML|
 |CELLSJAVA-43969|Un nome con funzione CONTA.SE e riferimento esterno produce un'eccezione NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException: per la stringa di input durante il rendering del file Excel in HTML|
+|CELLSJAVA-43903|java.lang.NumberFormatException: per la stringa di input durante il rendering del file Excel su HTML|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum CellValueFormatStrategy.DisplayString.**
 

@@ -1,11 +1,11 @@
 ﻿---
-title: Открыть CSV-файлы
+title: Открыть файлы CSV
 type: docs
 weight: 10
 url: /ru/python-java/open-csv-files/
 ---
-## **Открыть CSV-файлы**
-Файлы со значениями, разделенными запятыми (CSV), содержат записи, значения которых разделены запятыми. Вы можете использовать Excel Microsoft, чтобы сохранить электронную таблицу в формате CSV.
+## **Открыть файлы CSV**
+Файлы значений, разделенных запятыми (CSV) содержат записи, значения которых разделены запятыми. Вы можете использовать Excel Microsoft, чтобы сохранить электронную таблицу в формате CSV.
 
 Чтобы открыть файлы CSV, используйте[Параметры загрузки](https://reference.aspose.com/cells/python/asposecells.api/LoadOptions)класс и выберите[CSV](https://reference.aspose.com/cells/python/asposecells.api/fileformattype#CSV)значение, заданное в[FileFormatType](https://reference.aspose.com/cells/python/asposecells.api/FileFormatType)перечисление.
 

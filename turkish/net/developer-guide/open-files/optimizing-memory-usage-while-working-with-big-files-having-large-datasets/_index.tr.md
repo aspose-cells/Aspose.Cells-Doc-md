@@ -8,7 +8,7 @@ url: /tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 Büyük veri kümeleri içeren bir çalışma kitabı oluştururken veya büyük bir Microsoft Excel dosyasını okurken, işlemin alacağı toplam RAM miktarı her zaman endişe vericidir. Zorlukla başa çıkmak için uyarlanabilecek önlemler var. Aspose.Cells bazı ilgili seçenekler sunar ve API hafıza kullanımını azaltmak, azaltmak ve optimize etmek için çağrı yapar. Ayrıca, sürecin daha verimli çalışmasına ve daha hızlı çalışmasına yardımcı olabilir.
 
- Kullan[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) Hücre verileri için bellek kullanımını optimize etme ve genel bellek maliyetini düşürme seçeneği. Hücreler için büyük bir veri kümesi oluştururken, varsayılan ayarı kullanmaya kıyasla belirli bir miktarda bellek tasarrufu sağlayabilir ([**Bellek Ayarı.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+ Kullan[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)Hücre verileri için bellek kullanımını optimize etme ve genel bellek maliyetini düşürme seçeneği. Hücreler için büyük bir veri kümesi oluştururken, varsayılan ayarı kullanmaya kıyasla belirli bir miktarda bellek tasarrufu sağlayabilir ([**Bellek Ayarı.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 

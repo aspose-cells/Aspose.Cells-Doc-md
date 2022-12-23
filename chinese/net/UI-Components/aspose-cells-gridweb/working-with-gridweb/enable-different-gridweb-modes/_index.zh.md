@@ -29,7 +29,7 @@ url: /zh/net/enable-different-gridweb-modes/
 
 **编辑模式下的 GridWeb 控件** 
 
-![待办事项：图像_替代_文本](enable-different-gridweb-modes_1.png)
+![待办事项：图片_替代_文本](enable-different-gridweb-modes_1.png)
 
 开发人员还可以通过将 GridWeb 控件的 EditMode 属性设置为 true，以编程方式切换到编辑模式。
 
@@ -45,11 +45,11 @@ url: /zh/net/enable-different-gridweb-modes/
 
 {{% /alert %}} 
 ## **查看模式**
-当 GridWeb 控件处于 View 模式时，用户不能编辑或修改网格内容，这意味着用户只能查看网格内容。这就是为什么这种模式被称为查看模式。在查看模式下，一些按钮（**提交**, **节省**和**撤消** ) 被隐藏，右键单击时出现的菜单仅包含**复制**选项。
+当 GridWeb 控件处于 View 模式时，用户不能编辑或修改网格内容，这意味着用户只能查看网格内容。这就是为什么这种模式被称为查看模式。在查看模式下，一些按钮（**提交**, **救球**和**撤消** ) 被隐藏，右键单击时出现的菜单仅包含**复制**选项。
 
 **视图模式下的 GridWeb 控件** 
 
-![待办事项：图像_替代_文本](enable-different-gridweb-modes_1.png)
+![待办事项：图片_替代_文本](enable-different-gridweb-modes_1.png)
 
 如果开发人员希望他们的用户只查看数据，那么他们可以通过将 GridWeb 控件的 EditMode 属性设置为 false 以编程方式切换到查看模式。
 

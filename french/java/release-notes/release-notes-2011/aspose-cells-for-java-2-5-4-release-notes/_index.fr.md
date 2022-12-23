@@ -17,20 +17,20 @@ url: /fr/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26627 - Définir les propriétés de l'axe, telles que la valeur Max/Min comme "Automatique"
 
- 26655 - Exporter des images GIF animées pour un fichier HTML
+ 26655 - Exporter des images animées GIF pour le fichier HTML
 
  26607 - Prise en charge du calcul de la fonction EOMONTH
 ### **Améliorations**
  26655 - Styles de date et de bordure d'importation/exportation pour le fichier ODS
 
- 27317 - Conservez la vignette du graphique réenregistré identique au fichier d'origine lors de l'intégration de XLS dans PPT
+ 27317 - Conservez la vignette du graphique réenregistré avec le fichier d'origine lors de l'intégration de XLS dans PPT
 
  27214 - Masquer/afficher les éléments du champ pivot
 
  26626 - Lecture/enregistrement des styles de tableau croisé dynamique
 ### **Performance**
- 27041 - La lecture de fichiers ODS provoque des problèmes de mémoire
-### **Exceptions**
+ 27041 - La lecture des fichiers ODS provoque des problèmes de mémoire
+### **Des exceptions**
  26710 - Obtenez une exception lors de la lecture des contrôles de formulaire à partir du fichier XLSX
 
  27128 - Gérer "NumberFormatException" lors de la lecture du fichier ODS dont l'index de ligne du volet partagé dépasse la limite de Short
@@ -67,7 +67,7 @@ url: /fr/java/aspose-cells-for-java-2-5-4-release-notes/
 
  27040 - Problème de lecture du style de bordure et des formules
 
- 26151 - Problème de lecture des dates antérieures au 1900-02-28 à partir du fichier de modèle ODS
+ 26151 - Problème de lecture des dates antérieures au 1900-02-28 à partir du fichier modèle ODS
 
  27426 - Problème de lecture des formes dans le graphique
 

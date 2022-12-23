@@ -13,7 +13,7 @@ url: /es/java/get-equation-text-of-chart-trendline/
 
 ## **Ejemplo**
 
- La siguiente captura de pantalla muestra el gráfico con una línea de tendencia y su texto de ecuación se muestra en color rojo. Recuperaremos este texto usando el[**Línea de tendencia.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)propiedad en el siguiente código de ejemplo.
+La siguiente captura de pantalla muestra el gráfico con una línea de tendencia y su texto de ecuación se muestra en color rojo. Recuperaremos este texto usando el[**Línea de tendencia.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)propiedad en el siguiente código de ejemplo.
 
 ![todo:imagen_alternativa_texto](get-equation-text-of-chart-trendline_1.png)
 
@@ -23,7 +23,7 @@ url: /es/java/get-equation-text-of-chart-trendline/
 
 ### Salida generada por el código de muestra
 
-Esta es la salida de la consola del código de ejemplo anterior.
+Esta es la salida de la consola del código de muestra anterior.
 
 {{< highlight "java" >}}
 

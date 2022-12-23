@@ -16,7 +16,7 @@ url: /fr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Nouvelles fonctionnalités
 
-29512 Ajoutez une nouvelle méthode surchargée : Cell.SetStyle(Style style, bool explicitFlag)
+ 29512 Ajoutez une nouvelle méthode surchargée : Cell.SetStyle(Style style, bool explicitFlag)
 
  Améliorations
 
@@ -28,7 +28,7 @@ url: /fr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30045 Aspose.Cells raccroche à l'ouverture du dossier
 
- Exceptions
+ Des exceptions
 
  30188 Une erreur s'est produite lors de la conversion de la colonne Date (avec une chaîne vide) au format Excel XML
 
@@ -48,17 +48,17 @@ url: /fr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30303 Problème lors de la copie des feuilles de travail
 
- 30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' Fonction AutoFitRow
+30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' Fonction AutoFitRow
 
  29841 Problème avec le graphique à secteurs
 
  30154 Problème avec les étiquettes de données de graphique
 
-30153 Les macros sont désactivées dans le fichier XLSM de sortie
+ 30153 Les macros sont désactivées dans le fichier de sortie XLSM
 
  30332 Problème avec le changement d'échelle de l'axe du graphique
 
- 30308 Axe secondaire dans XLSX perdu lors de la sauvegarde
+ 30308 Axe secondaire dans XLSX perdu sur Save
 
  \2) GrilleDesktop
 

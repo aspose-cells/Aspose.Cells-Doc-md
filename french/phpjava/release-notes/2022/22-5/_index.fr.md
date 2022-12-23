@@ -10,7 +10,7 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-5-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44554|Améliorez le modèle LightCells pour définir des formules|
 |CELLSJAVA-44535|mettre en œuvre une cellule de mise au point avec une barre de défilement verticale/horizontale défilement automatique jusqu'à la position appropriée|
@@ -23,9 +23,9 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-5-release-notes/
 |CELLSJAVA-44530|enquêter sur le problème de setactivecell ne fonctionne pas parfois|
 |CELLSJAVA-44534|Graphique dans la zone d'impression non exporté dans Excel vers la conversion HTML|
 |CELLSJAVA-44539|Le graphique est décalé vers la droite lors de la conversion en HTML avec zone d'impression|
-|CELLSJAVA-44568|Les légendes multi-lignes sont perdues sauf la première ligne dans la conversion HTML vers XLS|
+|CELLSJAVA-44568|Les légendes multi-lignes sont perdues sauf la première ligne dans la conversion HTML à XLS|
 |CELLSJAVA-44512|Le graphique est manquant lors de l'exportation du graphique vers svg en html|
-|CELLSJAVA-44556|Problème d'affichage des données dans le tableau de données après que l'axe des coordonnées est défini sur l'échelle logarithmique - Conversion Excel vers HTML/PDF|
+|CELLSJAVA-44556|Problème avec l'affichage des données dans la table de données après que l'axe des coordonnées est défini sur l'échelle logarithmique - Conversion d'Excel en HTML/PDF|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

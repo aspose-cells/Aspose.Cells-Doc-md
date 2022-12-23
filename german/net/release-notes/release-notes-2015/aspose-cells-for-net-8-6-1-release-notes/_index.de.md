@@ -36,7 +36,7 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43933) - Cell.Formula kann eine ungültige Formel akzeptieren und API versucht, sie zu korrigieren
 
- (CELLSNET-43476) - API erforderlich, um zu prüfen, ob die Lizenz geladen ist oder nicht
+(CELLSNET-43476) - API erforderlich, um zu prüfen, ob die Lizenz geladen ist oder nicht
 
  (CELLSNET-43310) – Umbenennen von doppelten Arbeitsblattnamen beim Kombinieren von Arbeitsmappen
 
@@ -48,35 +48,35 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43946) – Cell.HtmlString gibt eine Zeichenfolge zurück, die die normale Zeichenfolge als Index darstellt
 
-(CELLSNET-43941) – Diagramm wird nicht korrekt generiert
+ (CELLSNET-43941) – Diagramm wird nicht korrekt generiert
 
  (CELLSNET-43936) – Zeigt Legendenschlüssel an, selbst wenn Chart.ChartDataTable.ShowLegendKey auf „false“ gesetzt ist
 
- (CELLSNET-43991) – Das Entfernen der Arbeitsblätter beschädigt das resultierende XLSX
+ (CELLSNET-43991) – Durch das Entfernen der Arbeitsblätter wird das Ergebnis XLSX beschädigt
 
- (CELLSNET-43988) – Das zu ändernde Passwort geht verloren, wenn XLSX mit Aspose.Cells erneut gespeichert wird
+ (CELLSNET-43988) – Das zu ändernde Passwort geht verloren, wenn XLSX erneut mit Aspose.Cells gespeichert wird
 
- (CELLSNET-43984) – Das zu ändernde Passwort wird in ein Passwort zum Öffnen umgewandelt, wenn XLSM erneut gespeichert wird
+ (CELLSNET-43984) – Das zu ändernde Kennwort wird in ein Kennwort zum Öffnen umgewandelt, wenn XLSM erneut gespeichert wird
 
- (CELLSNET-43983) – Kennwort zum Ändern wird in Kennwort zum Öffnen konvertiert, wenn XLSX erneut gespeichert wird
+ (CELLSNET-43983) – Das zu ändernde Kennwort wird in ein Kennwort zum Öffnen umgewandelt, wenn XLSX erneut gespeichert wird
 
  (CELLSNET-43982) – Das zu ändernde Kennwort wird in ein Kennwort zum Öffnen umgewandelt, wenn XLTM erneut gespeichert wird
 
- (CELLSNET-43981) – Das zu ändernde Passwort geht verloren, wenn XLTM erneut gespeichert wird
+(CELLSNET-43981) – Das zu ändernde Passwort geht verloren, wenn XLTM erneut gespeichert wird
 
  (CELLSNET-43980) – Das zu ändernde Kennwort wird in ein Kennwort zum Öffnen umgewandelt, wenn XLTX erneut gespeichert wird
 
  (CELLSNET-43979) – SetStyle-Schriftart wird für bestimmte Schriftarten nicht angewendet
 
- (CELLSNET-43977) – Das zu ändernde Passwort geht verloren, wenn XLTX mit Aspose.Cells erneut gespeichert wird
+ (CELLSNET-43977) – Das zu ändernde Passwort geht verloren, wenn XLTX erneut mit Aspose.Cells gespeichert wird
 
- (CELLSNET-43976) – Mehrere Versuche, passwortgeschützte XLSX zu öffnen
+ (CELLSNET-43976) – Mehrere Versuche, die passwortgeschützte XLSX zu öffnen
 
-(CELLSNET-43973) – Das zu ändernde Passwort geht nach dem erneuten Speichern von XLSM verloren
+ (CELLSNET-43973) – Das zu ändernde Passwort geht nach dem erneuten Speichern von XLSM verloren
 
- (CELLSNET-43968) – Die Excel-Anwendung empfiehlt, das resultierende XLSB schreibgeschützt zu öffnen
+ (CELLSNET-43968) – Die Excel-Anwendung empfiehlt, die resultierende XLSB schreibgeschützt zu öffnen
 
- (CELLSNET-43967) – Passwortgeschütztes XLT wird nach dem erneuten Speichern beschädigt
+ (CELLSNET-43967) – Passwortgeschützte XLT wird nach dem erneuten Speichern beschädigt
 
  (CELLSNET-43966) – Die ISNOTEXT-Formel gibt nach CalculateFormula den falschen Wert zurück
 
@@ -86,17 +86,17 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43950) – Probleme mit der Schutzidentifikation in Aspose.Cells
 
- (CELLSNET-43944) - Die Größe des Bildes ist nicht korrekt und ändert sich nach dem Zurücksetzen
+(CELLSNET-43944) - Die Größe des Bildes ist nicht korrekt und ändert sich nach dem Zurücksetzen
 
  (CELLSNET-43943) – Kann Hochstellung nicht aus Zellzeichen lesen
 
  (CELLSNET-43940) – Beim Öffnen des Berichts wurde eine falsche Zelle ausgewählt
 
- (CELLSNET-43931) – Das Löschen von Zeilen aus dem benannten Bereich beschädigt das resultierende XLSX
+ (CELLSNET-43931) – Das Löschen von Zeilen aus dem benannten Bereich beschädigt das Ergebnis XLSX
 
  (CELLSNET-43928) – DocumentProperty Author-Wert wird unvollständig gelesen
 
-(CELLSNET-43927) – #REF in Formel, die Listenobjekt auf einem anderen Arbeitsblatt referenziert
+ (CELLSNET-43927) – #REF in Formel, die Listenobjekt auf einem anderen Arbeitsblatt referenziert
 
  (CELLSNET-43891) – Problem mit Workbook.VBAProject.Modules-Vorgängen
 
@@ -104,27 +104,27 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-42120) – DisplayStringValue-Wert in bestimmten Szenarien falsch
 
- (CELLSNET-42110) – Der Rahmensatz für Bereiche in XLSX wird im PDF nicht angezeigt
+ (CELLSNET-42110) – Der für Bereiche in XLSX festgelegte Rahmen wird in PDF nicht angezeigt
 
 
 ## **Ausnahmen**
 
 
- (CELLSNET-43932) – Form-zu-Bild-Fehler! beim Rendern einer Tabelle in PDF
+ (CELLSNET-43932) – Form-zu-Bild-Fehler! beim Rendern einer Tabelle auf PDF
 
  (CELLSNET-43964) – Das Abrufen des Anzeigestils aller Zellen löst IndexOutOfRangeException aus
 
- (CELLSNET-43926) – CellsException bei Workbook.CalculateFormula
+(CELLSNET-43926) – CellsException bei Workbook.CalculateFormula
 
  (CELLSNET-43911) – CellsException bei Workbook.Save
 
  (CELLSNET-43930) – Die Methode „GetNamedRanges()“ löst eine Domain-First-Chance-Ausnahme aus
 
- (CELLSNET-43918) – Ausnahme beim Öffnen der XLSX-Vorlagendatei
+ (CELLSNET-43918) – Ausnahme beim Öffnen der Vorlagendatei XLSX
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -138,13 +138,13 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Verbesserungen**
 
 
-(CELLSNET-43873) – Alter Code im Artikel – Formatieren eines Bereichs von Cells – funktioniert nicht
+ (CELLSNET-43873) – Alter Code im Artikel – Formatieren eines Bereichs von Cells – funktioniert nicht
 
 
 ## **Fehler**
 
 
- (CELLSNET-43997) – Aktive Zelle im Blatt befindet sich beim Laden/Speichern einer XLSX-Datei nicht an der richtigen Position – GridWeb
+ (CELLSNET-43997) – Aktive Zelle im Blatt befindet sich nicht an der richtigen Position, wenn eine XLSX-Datei geladen/gespeichert wird – GridWeb
 
  (CELLSNET-43993) – C2686-Fehler beim Kompilieren von VS2008 C++ mit griddesktop.dll
 
@@ -154,7 +154,7 @@ url: /de/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43952) – LoadValueList API fehlt in der Klasse Aspose.Cells.GridWeb.Validation
 
- (CELLSNET-43859) – Cell gefüllt mit gelber Farbe wird nicht in XLSX-Datei exportiert
+(CELLSNET-43859) – Cell gefüllt mit gelber Farbe wird nicht in die XLSX-Datei exportiert
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

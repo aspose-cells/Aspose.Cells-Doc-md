@@ -10,20 +10,20 @@ url: /fr/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSJAVA-43844|Une amélioration nécessaire pour le format des numéros comptables|
-|CELLSJAVA-43953|Rendre le texte/partie spécifique "Cell" et "Commentaire" à traduire en japonais lors de la conversion Excel en PDF|
+|CELLSJAVA-43844| Une amélioration nécessaire pour le format des numéros comptables|
+|CELLSJAVA-43953|Rendre le texte / partie spécifique "Cell" et "Commentaire" à traduire en japonais dans Excel en conversion PDF|
 |CELLSJAVA-43935|Problème de taille de police du texte de forme lors de l'enregistrement et du chargement du fichier XLS|
 |CELLSJAVA-43952|Problème d'expiration de la licence temporaire|
-|CELLSJAVA-43954|XLSX en PDF : l'image provoque une exception "java.lang.OutOfMemoryError : Java heap space"|
+|CELLSJAVA-43954|XLSX à PDF : l'image provoque une exception "java.lang.OutOfMemoryError : Java heap space"|
 |CELLSJAVA-43902|Certaines bordures d'Excel converties en HTML sont redondantes|
 |CELLSJAVA-43933|Lors de l'exportation vers HTML avec une seule donnée, le format conditionnel est différent d'Excel|
 |CELLSJAVA-43878| Position incorrecte des étiquettes de données du graphique à barres de cluster Excel|
 |CELLSJAVA-43895|La forme de ligne et les autres formes de graphique ne sont pas rendues correctement lors de la conversion de XLS en XLSX|
 |CELLSJAVA-43932|Problème avec la définition de la position des étiquettes de données pour les graphiques en anneau éclatés dans l'image de sortie|
 |CELLSJAVA-43934|Les étiquettes du graphique à secteurs ne correspondent pas à Excel après la manipulation ou la mise à jour du graphique|
-|CELLSJAVA-43519|Les cellules fusionnées incluses dans des lignes ou des colonnes masquées produisent un tableau HTML irrégulier|
+|CELLSJAVA-43519|Les cellules fusionnées incluses dans des lignes ou des colonnes masquées produisent un tableau HTML inégal|
 |CELLSJAVA-43962|L'effet est incohérent après la conversion du format conditionnel dans Excel en HTML|
 |CELLSJAVA-43969|Un nom avec la fonction COUNTIF et une référence externe produit une NullPointerException|
 |CELLSJAVA-43903|java.lang.NumberFormatException : pour la chaîne d'entrée lors du rendu du fichier Excel en HTML|

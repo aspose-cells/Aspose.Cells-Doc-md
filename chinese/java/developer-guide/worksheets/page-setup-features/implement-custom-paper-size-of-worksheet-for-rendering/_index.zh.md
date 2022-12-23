@@ -10,11 +10,11 @@ url: /zh/java/implement-custom-paper-size-of-worksheet-for-rendering/
 
 ## **实现工作表的自定义纸张大小以进行渲染**
 
-Aspose.Cells 允许您通过使用[**自定义纸张大小**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) 的方法[**页面设置**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup).以下示例代码说明了如何为工作簿中的第一个工作表指定自定义纸张大小。另请参阅[输出PDF](45056030.pdf)使用以下代码生成以供参考。
+Aspose.Cells 允许您通过使用[**自定义纸张大小**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#customPaperSize(double,%20double) 的方法[**页面设置**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup).以下示例代码说明了如何为工作簿中的第一个工作表指定自定义纸张大小。另请参阅[输出 PDF](45056030.pdf)使用以下代码生成以供参考。
 
 ## **截屏**
 
-![待办事项：图像_替代_文本](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
+![待办事项：图片_替代_文本](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
 ## **示例代码**
 

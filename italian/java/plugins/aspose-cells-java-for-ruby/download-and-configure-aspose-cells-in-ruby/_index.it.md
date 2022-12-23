@@ -5,7 +5,7 @@ weight: 10
 url: /it/java/download-and-configure-aspose-cells-in-ruby/
 ---
 ## **Scarica le librerie richieste**
-Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per eseguire Aspose.Cells Java per esempi Ruby.
+Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per l'esecuzione di Aspose.Cells Java per gli esempi di Ruby.
 
 - [Aspose.Cell for Java Componente](https://downloads.aspose.com/cells/java/)
 ## **Scarica esempi dai siti di codifica sociale**
@@ -13,7 +13,7 @@ Le seguenti versioni di esempi in esecuzione sono disponibili per il download su
 
 **Git Hub**
 
-- [Aspose.Cells Java per Ruby](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
+- [Aspose.Cells Java per Rubino](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_Ruby)
 ## **Installazione**
 È molto semplice e facile da installare Aspose.cells Java per Ruby gem, segui questi semplici passaggi:
 
@@ -25,7 +25,7 @@ Le seguenti versioni di esempi in esecuzione sono disponibili per il download su
 
 {{< /highlight >}}
 
-1.  E poi eseguire
+1.  poi eseguire
 
 {{< highlight "java" >}}
 

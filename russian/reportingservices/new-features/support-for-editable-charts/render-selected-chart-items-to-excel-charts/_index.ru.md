@@ -8,7 +8,7 @@ url: /ru/reportingservices/render-selected-chart-items-to-excel-charts/
 
 Чтобы отобразить только некоторые диаграммы в отчете в диаграммы Excel:
 
-1. Открой**Aspose.Cells.ReportingServices.xml** файл.
+1. Открыть**Aspose.Cells.ReportingServices.xml** файл.
 1.  Измените параметры конфигурации**Aspose.Cells.ReportingServices.xml** файл.
 1. Добавьте требуемую информацию о конфигурации отчета.
 1. Добавьте информацию об элементах диаграммы, которые вы не хотите экспортировать в виде редактируемых диаграмм. Эти элементы экспортируются как статические изображения.

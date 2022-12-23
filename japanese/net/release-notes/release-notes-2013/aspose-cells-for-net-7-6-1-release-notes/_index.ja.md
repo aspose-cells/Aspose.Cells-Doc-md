@@ -22,7 +22,7 @@ url: /ja/net/aspose-cells-for-net-7-6-1-release-notes/
 
 41354 - ピボットテーブルとスマート マーカーの問題
 
-41528 - 出力 PDF のフォーマットの問題
+41528 - 出力の書式設定の問題 PDF
 
 \2) Aspose.Cells.GridWeb
 

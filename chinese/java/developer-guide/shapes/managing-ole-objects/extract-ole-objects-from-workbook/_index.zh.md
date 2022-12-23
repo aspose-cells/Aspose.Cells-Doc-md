@@ -19,7 +19,7 @@ url: /zh/java/extract-ole-objects-from-workbook/
 
 ### **提取 OLE 对象**
 
-下面的代码执行查找和提取 OLE 对象作为 DOCX、XLSX、PPTX 和 PDF 文件的实际工作。
+下面的代码执行查找和提取 OLE 对象的实际工作，如 DOCX、XLSX、PPTX 和 PDF 文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 

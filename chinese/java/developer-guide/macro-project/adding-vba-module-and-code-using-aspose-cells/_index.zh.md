@@ -12,7 +12,7 @@ Aspose.Cells 允许您使用 Aspose.Cells 添加新的 VBA 模块和宏代码。
 
 ## **使用 Aspose.Cells 添加 VBA 模块和代码**
 
-以下示例代码创建一个新工作簿并添加一个新的 VBA 模块和宏代码，并将输出保存为 XLSM 格式。一次，您将在 Microsoft Excel 中打开输出 XLSM 文件并单击**开发人员 > Visual Basic**菜单命令，您将看到一个名为“TestModule”的模块，在其中，您将看到以下宏代码。
+以下示例代码创建一个新工作簿并添加一个新的 VBA 模块和宏代码，并以 XLSM 格式保存输出。一次，您将在 Microsoft Excel 中打开输出 XLSM 文件并单击**开发人员 > Visual Basic**菜单命令，您将看到一个名为“TestModule”的模块，在其中，您将看到以下宏代码。
 
 {{< highlight "java" >}}
 

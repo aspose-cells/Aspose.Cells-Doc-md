@@ -10,7 +10,7 @@ url: /es/net/aspose-cells-for-net-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET se ha actualizado a la versión 8.1.2 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
+ Aspose.Cells for .NET se ha actualizado a la versión 8.1.2 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
 Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
@@ -19,20 +19,20 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 \1) Aspose.Cells 
 ## **Otras mejoras y cambios**
 
-## **Actuación**
+## **Rendimiento**
 
 
- (CELLSNET-42820) - FileFormatUtil.DetectFileFormat utiliza toda la memoria disponible del sistema al detectar una hoja de cálculo dañada
+(CELLSNET-42820) - FileFormatUtil.DetectFileFormat utiliza toda la memoria disponible del sistema al detectar una hoja de cálculo dañada
 
 
 ## **Insectos**
 
 
- (CELLSNET-42801) - Faltan datos cuando la tabla dinámica se convierte a PDF
+ (CELLSNET-42801): faltan datos cuando la tabla dinámica se convierte a PDF
 
- (CELLSNET-42800) - Falta el título total cuando la tabla dinámica se convierte a PDF
+ (CELLSNET-42800): falta el título total cuando la tabla dinámica se convierte a PDF
 
-(CELLSNET-42799) - Cell Problema de combinación cuando la tabla dinámica se convierte a PDF
+ (CELLSNET-42799) - Cell Problema de combinación cuando la tabla dinámica se convierte a PDF
 
  (CELLSNET-42775): error de tabla dinámica con respecto a los subtotales
 
@@ -40,13 +40,13 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42438): el contenido de la celda combinada desaparece cuando se filtran las filas y la hoja de cálculo se convierte a HTML.
 
- (CELLSNET-42353) - Aspose.Cells produce una flecha de doble grosor al convertir XLS a PDF
+ (CELLSNET-42353) - Aspose.Cells produce una flecha de doble grosor al convertir XLS en PDF
 
  (CELLSNET-42747) - El resultado impreso no está centrado correctamente y la última línea se pierde
 
  (CELLSNET-42744) - El texto de las celdas combinadas no se muestra cuando se convierte a PDF
 
- (CELLSNET-42781): error de forma a imagen al convertir ExcelShapeToImageRedactedEx.xls a Tiff
+(CELLSNET-42781): error de forma a imagen al convertir ExcelShapeToImageRedactedEx.xls a Tiff
 
  (CELLSNET-42780) - Error de forma a imagen al convertir ExcelShapeToImageError.xls a Tiff
 
@@ -54,7 +54,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42622) - Las etiquetas de los gráficos de Excel se superponen después de abrir y guardar el archivo xlsm
 
-(CELLSNET-42836): la fórmula de coincidencia no se calcula correctamente con Workbook.CalculateFormula
+ (CELLSNET-42836): la fórmula de coincidencia no se calcula correctamente con Workbook.CalculateFormula
 
  (CELLSNET-42818) - #¡NÚMERO! error al leer ciertas celdas
 
@@ -66,7 +66,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42635) - MonoDevelop provoca un error SIGSEGV
 
- (CELLSNET-42812) - CellsException al convertir una hoja de cálculo a PDF
+ (CELLSNET-42812): CellsException al convertir la hoja de cálculo a PDF
 
  (CELLSNET-42788): System.NullReferenceException al guardar el archivo ods
 

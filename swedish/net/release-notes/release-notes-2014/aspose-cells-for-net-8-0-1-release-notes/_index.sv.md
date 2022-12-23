@@ -11,7 +11,7 @@ url: /sv/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET har uppdaterats till version 8.0.1 och vi är glada att kunna meddela att denna utgåva kommer med över 30 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, 807.3s andra applikationer och 807.3s andra applikationer och 807.3. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -46,7 +46,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42516) - Den dolda kommentaren visas när den exporteras till HTML
 
- (CELLSNET-42470) - Excel hittade oläsbart innehållsmeddelande på Aspose.Cells genererad XLSX
+ (CELLSNET-42470) - Excel hittade oläsbart innehållsmeddelande på Aspose.Cells genererat XLSX
 
  (CELLSNET-42468) - Excel hittade oläsbart innehåll i kalkylarket efter att ha lagt till pivottabellen
 
@@ -114,7 +114,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -122,9 +122,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Buggar**
 
 
- (CELLSNET-42522) - GridWeb-problem: justera kolumnbredden fungerar inte i krom
+(CELLSNET-42522) - GridWeb-problem: justera kolumnbredden fungerar inte i krom
 
-(CELLSNET-42509) - Former återges inte korrekt i gridweb
+ (CELLSNET-42509) - Former återges inte korrekt i gridweb
 
  (CELLSNET-42503) - Räckvidden är tvetydig i namnutrymmet Aspose.cells
 

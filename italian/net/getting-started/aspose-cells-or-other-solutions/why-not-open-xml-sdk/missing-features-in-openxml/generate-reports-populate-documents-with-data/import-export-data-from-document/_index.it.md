@@ -259,7 +259,7 @@ Gli sviluppatori possono facilmente esportare i dati del foglio di lavoro in un 
 
 ### **Colonne contenenti dati fortemente tipizzati**
 
- Sappiamo che un foglio di calcolo memorizza i dati come una sequenza di righe e colonne. Se tutti i valori nelle colonne di un foglio di lavoro sono fortemente tipizzati (ciò significa che tutti i valori in una colonna devono avere lo stesso tipo di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il**ExportDataTable** metodo della classe Cells.**ExportDataTable** Il metodo accetta i seguenti parametri per esportare i dati del foglio di lavoro come**Tabella dati** oggetto:**Numero riga** , rappresenta il numero di riga della prima cella da cui verranno esportati i dati
+Sappiamo che un foglio di calcolo memorizza i dati come una sequenza di righe e colonne. Se tutti i valori nelle colonne di un foglio di lavoro sono fortemente tipizzati (ciò significa che tutti i valori in una colonna devono avere lo stesso tipo di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il**ExportDataTable** metodo della classe Cells.**ExportDataTable** Il metodo accetta i seguenti parametri per esportare i dati del foglio di lavoro come**Tabella dati** oggetto:**Numero riga** , rappresenta il numero di riga della prima cella da cui verranno esportati i dati
 
 - **Numero di colonna** , rappresenta il numero di colonna della prima cella da cui verranno esportati i dati
 - **Numero di righe** , rappresenta il numero di righe da esportare
@@ -298,7 +298,7 @@ fstream.Close();
 
 ### **Colonne contenenti dati non fortemente tipizzati**
 
-Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
+ Se tutti i valori nelle colonne di un foglio di lavoro non sono fortemente tipizzati (ciò significa che i valori in una colonna possono avere i diversi tipi di dati), allora possiamo esportare il contenuto del foglio di lavoro chiamando il metodo**ExportDataTableAsString** metodo della classe Cells.**ExportDataTableAsString** Il metodo accetta lo stesso set di parametri di quello di**ExportDataTable** metodo per esportare i dati del foglio di lavoro come**Tabella dati** oggetto.
 
 {{< highlight "csharp" >}}
 

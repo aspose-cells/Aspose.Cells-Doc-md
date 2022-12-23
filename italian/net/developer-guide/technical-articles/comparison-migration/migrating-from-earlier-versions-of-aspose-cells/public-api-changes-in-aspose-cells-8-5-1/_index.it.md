@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.5.1
+title: Pubblico API Modifiche Aspose.Cells 8.5.1
 type: docs
 weight: 170
 url: /it/net/public-api-changes-in-aspose-cells-8-5-1/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.5.0 alla 8.5.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-5-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.5.0 alla 8.5.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-5-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -48,7 +48,7 @@ Aspose.Cells for .NET 8.5.1 ha esposto l'enumerazione Aspose.Cells.Tables.TableD
 1. TableDataSourceType.Foglio di lavoro
 1. TableDataSourceType.XML
 ### **Proprietà ListObject.DataSourceType aggiunto**
-Con il rilascio di v8.5.1, l'API Aspose.Cells ha esposto la proprietà ListObject.DataSourceType di sola lettura che può essere utilizzata per rilevare il tipo di origine dati di un ListObject.
+Con il rilascio di v8.5.1, Aspose.Cells API ha esposto la proprietà ListObject.DataSourceType di sola lettura che può essere utilizzata per rilevare il tipo di origine dati di un ListObject.
 
 Ecco lo scenario di utilizzo più semplice.
 

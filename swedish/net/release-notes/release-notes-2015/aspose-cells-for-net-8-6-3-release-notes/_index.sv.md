@@ -46,7 +46,7 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 (CELLSNET-44092) - Problem med att läsa Hyperlink.Address med kyrilliska tecken
 
-(CELLSNET-44090) - XLSB-fil med pivottabell blir skadad i v8.6.2
+(CELLSNET-44090) - XLSB fil med pivottabell blir skadad i v8.6.2
 
 (CELLSNET-44073) - Konvertering till HTML med HtmlHiddenColDisplayType.Remove skapar ett tomt diagram
 
@@ -64,7 +64,7 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 (CELLSNET-44086) - Horisontell axel för diagrammet inuti pdf-filen är fel skalad och omvänd
 
-(CELLSNET-44079) - Vissa poster i diagramförklaringen saknas när du sparar till PDF
+(CELLSNET-44079) - Vissa poster i sjökortsförklaringen saknas när du sparar till PDF
 
 (CELLSNET-44046) - Chart.ToImage ändrar etikettjustering
 
@@ -74,13 +74,13 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 (CELLSNET-44131) - Vissa felaktiga formler visas runt beroende på antalet infogade rader
 
-(CELLSNET-44128) - Spara till XLSB bryter formler som =SUM(Tabell[Kol])
+(CELLSNET-44128) - Spara till XLSB bryter formler som =SUMMA(Tabell[Kol])
 
 (CELLSNET-44082) - Aspose.Cells visar dolda stilar när du sparar
 
 (CELLSNET-44081) - När två arbetsböcker kombineras skapas en skadad fil
 
-(CELLSNET-44076) - ListObject.ListColumns[i].Namnet är felaktigt när arbetsboken öppnar XLS-fil
+(CELLSNET-44076) - ListObject.ListColumns[i].Namnet är felaktigt när arbetsboken öppnar filen XLS
 
 (CELLSNET-44028) - Pivottabellen uppdateras inte när du klickar på knappen Data>Uppdatera alla
 
@@ -100,9 +100,9 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 (CELLSNET-44099) - CalculateFormula ger undantag
 
-(CELLSNET-44127) - Att spara till PDF-fil/minnesström orsakar undantag
+(CELLSNET-44127) - Att spara till PDF fil/minnesström orsakar undantag
 
-(CELLSNET-44085) - System.Undantag vid laddning av ODS
+(CELLSNET-44085) - System.Undantag vid laddning ODS
 
 (CELLSNET-43720) - Fel i okänt område vid kombination av arbetsböcker med pivottabeller
 

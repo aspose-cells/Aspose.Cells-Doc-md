@@ -3,6 +3,7 @@ title: Viste del foglio di lavoro
 type: docs
 weight: 40
 url: /it/net/worksheet-views/
+description:  Questo articolo descriverà come utilizzare C# e .NET API per interagire con l'anteprima dell'interruzione di pagina di una cartella di lavoro e fogli di lavoro di Excel. Lavora anche con riquadri divisi, riquadri congelati e fattore di zoom.
 ---
 ## **Anteprima interruzione di pagina**
 
@@ -15,7 +16,7 @@ La visualizzazione normale è la visualizzazione predefinita di un foglio di lav
 
 ### **Controllo delle modalità di visualizzazione**
 
-Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe che rappresenta un file di Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per abilitare le modalità di anteprima normale o interruzione di pagina, utilizzare il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) proprietà.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) è una proprietà booleana, il che significa che può memorizzare solo a**VERO** o un**falso** valore.
 
@@ -35,14 +36,14 @@ Il file book1.xls viene aperto creando un'istanza del file[**Cartella di lavoro*
 
 ## **Fattore di ingrandimento**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 Microsoft Excel fornisce una funzionalità che consente agli utenti di impostare lo zoom o il fattore di ridimensionamento di un foglio di lavoro. Questa funzione aiuta gli utenti a vedere i contenuti del foglio di lavoro in viste più piccole o più grandi. Gli utenti possono impostare il fattore di zoom su qualsiasi valore.
 
 ### **Aspose.Cells e fattore di ingrandimento**
 
 Aspose.Cells consente agli sviluppatori di impostare il fattore di zoom del foglio di lavoro.
-Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe che rappresenta un file di Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per impostare il fattore di zoom di un foglio di lavoro, utilizzare il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Ingrandisci**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)proprietà. Il fattore di zoom viene impostato assegnando un valore numerico (intero) a[**Ingrandisci**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) proprietà.
 
@@ -54,7 +55,7 @@ Il file book1.xls viene aperto creando un'istanza del file[**Cartella di lavoro*
 
 ## **Blocca i riquadri**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 Blocca riquadri è una funzionalità fornita da Microsoft Excel. Il blocco dei riquadri consente di selezionare i dati in modo che rimangano visibili durante lo scorrimento in un foglio di lavoro.
 
@@ -62,7 +63,7 @@ Blocca riquadri è una funzionalità fornita da Microsoft Excel. Il blocco dei r
 
 Aspose.Cells consente agli sviluppatori di applicare blocchi di riquadri ai fogli di lavoro in fase di esecuzione.
 
-Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe che rappresenta un file di Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
+Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel.
 
 Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per configurare i riquadri bloccati, chiama la classe Foglio di lavoro'[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)metodo. Il[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)metodo accetta i seguenti parametri:
 
@@ -71,7 +72,7 @@ Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.
 - **Righe congelate**, il numero di righe visibili nel riquadro superiore.
 - **Colonne congelate**, il numero di colonne visibili nel riquadro sinistro
 
-Il file book1.xls viene aperto chiamando il file[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' durante la creazione di un'istanza e alcune righe e colonne vengono bloccate nel primo foglio di lavoro. Il file modificato viene salvato come output.xls.
+ Il file book1.xls viene aperto chiamando il file[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' durante la creazione di un'istanza e alcune righe e colonne vengono bloccate nel primo foglio di lavoro. Il file modificato viene salvato come output.xls.
 
  Di seguito viene fornito un esempio completo che mostra come utilizzare il file[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)metodo per bloccare righe e colonne (a partire da C4, rappresentato dalla 4a riga e dalla 3a colonna, dove le righe e le colonne iniziano dall'indice 0) del primo foglio di lavoro del file Excel.
 
@@ -79,7 +80,7 @@ Il file book1.xls viene aperto chiamando il file[**Cartella di lavoro**](https:/
 
 ## **Riquadri divisi**
 
-Se devi dividere lo schermo per ottenere due visualizzazioni diverse nello stesso foglio di lavoro, dividi i riquadri. Microsoft Excel offre una funzionalità molto utile che ti consente di visualizzare più di una copia del tuo foglio di lavoro e di poter scorrere ogni riquadro del tuo foglio di lavoro in modo indipendente: i riquadri divisi.
+Se devi dividere lo schermo per ottenere due visualizzazioni diverse nello stesso foglio di lavoro, dividi i riquadri. Microsoft Excel offre una funzione molto utile che ti consente di visualizzare più di una copia del tuo foglio di lavoro e di poter scorrere ogni riquadro del tuo foglio di lavoro in modo indipendente: i riquadri divisi.
 
 I riquadri funzionano contemporaneamente. Se apporti una modifica in uno, la modifica appare contemporaneamente nell'altro. Aspose.Cells fornisce la funzione di riquadri divisi per gli utenti.
 
@@ -87,7 +88,7 @@ I riquadri funzionano contemporaneamente. Se apporti una modifica in uno, la mod
 
 #### **Divisione dei riquadri**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per implementare le visualizzazioni divise, utilizzare il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Diviso**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Per rimuovere i riquadri divisi, utilizzare il[**RimuoviSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)metodo.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per implementare le visualizzazioni divise, utilizzare il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Diviso**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Per rimuovere i riquadri divisi, utilizzare il[**RimuoviSplit**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)metodo.
 
 Nell'esempio, viene utilizzato un semplice file modello che viene caricato, quindi la funzione Imposta riquadri divisi viene applicata a una cella nel primo foglio di lavoro. Il file aggiornato viene salvato.
 

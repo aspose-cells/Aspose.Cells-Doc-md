@@ -12,7 +12,7 @@ url: /ar/net/opening-different-microsoft-excel-versions-files/
 
 ## **فتح ملفات مختلفة من إصدارات إكسل Microsoft**
 
-غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي تنسيق من عدة تنسيقات ، بما في ذلك XLS و XLSX و XLSM و XLSB و SpreadsheetML و TabDelimited أو TSV و CSV و ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[تنسيق الملف] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** نوع السمة التي تحدد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**تعداد.
+ غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي من التنسيقات المتعددة ، بما في ذلك XLS ، XLSX ، XLSM ، XLSB ، SpreadsheetML ، TabDelimited أو TSV ، CSV ، ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** صف دراسي'**[تنسيق الملف] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)**نوع السمة التي تحدد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**تعداد.
 
  ال**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**يحتوي التعداد على العديد من تنسيقات الملفات المحددة مسبقًا والتي يرد بعضها أدناه.
 
@@ -20,14 +20,14 @@ url: /ar/net/opening-different-microsoft-excel-versions-files/
 |:- |:- |
 |Csv|يمثل ملف CSV|
 |إكسل 97 إلى 2003|يمثل ملف Excel 97 - 2003|
-|xlsx|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSX|
-|Xlsm|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSM|
-|Xltx|يمثل ملف Excel 2007/2010/2013/2016/2019 وقالب Office 365 XLTX|
-|Xltm|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف XLTM ممكّن للماكرو في Office 365|
-|Xlsb|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 الثنائي XLSB|
+|xlsx|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSX|
+|Xlsm|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSM|
+|Xltx|يمثل ملف Excel 2007/2010/2013/2016/2019 ونموذج Office 365 XLTX|
+|Xltm|يمثل ملف XLTM ممكّن للماكرو في Excel 2007/2010/2013/2016/2019 و Office 365|
+|Xlsb|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 ثنائي XLSB|
 |SpreadsheetML|يمثل ملف SpreadsheetML|
 |Tsv|يمثل ملف قيم مفصولة بعلامات جدولة|
-|علامة التبويب محدد|يمثل ملفًا نصيًا محددًا بعلامات جدولة|
+|TabDelimited|يمثل ملفًا نصيًا محددًا بعلامات جدولة|
 |أود|يمثل ملف ODS|
 |لغة البرمجة|يمثل ملف HTML|
 |Mhtml|يمثل ملف MHTML|
@@ -48,7 +48,7 @@ url: /ar/net/opening-different-microsoft-excel-versions-files/
 
 ### **فتح Microsoft Excel 2007/2010/2013/2016/2019 وملفات Office 365 XLSX**
 
- لفتح تنسيق Microsoft Excel 2007/2010/2013/2016/2019 وتنسيق Office 365 ، أي XLSX أو XLSB ، حدد مسار الملف. تستطيع ايضا استخذام**[LoadOptions] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** وقم بتعيين السمة / الخيارات ذات الصلة لـ**[LoadOptions] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**فئة ملف القالب المراد تحميله.
+لفتح تنسيق Microsoft Excel 2007/2010/2013/2016/2019 وتنسيق Office 365 ، أي XLSX أو XLSB ، حدد مسار الملف. تستطيع ايضا استخذام**[LoadOptions] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** وقم بتعيين السمة / الخيارات ذات الصلة لـ**[LoadOptions] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**فئة ملف القالب المراد تحميله.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 

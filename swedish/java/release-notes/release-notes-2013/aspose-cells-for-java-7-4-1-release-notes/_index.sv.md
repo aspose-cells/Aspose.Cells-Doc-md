@@ -16,7 +16,7 @@ url: /sv/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Förbättringar
 
-40407 - Stöd roterad text i cellerna
+ 40407 - Stöd roterad text i cellerna
 
  Undantag
 

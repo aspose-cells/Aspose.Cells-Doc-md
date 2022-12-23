@@ -48,7 +48,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 如上所述，所有图表对象都是其各自类的实例，并提供特定的属性和方法来执行特定的任务。使用图表对象创建图表。
 
-使用[**图表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)收藏。中的每一项[**图表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)集合代表一个[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)目的。一个[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)对象封装了自定义图表外观所需的所有图表对象。下一节将展示如何使用一些基本的图表对象来创建一个简单的图表。
+使用[**图表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)收藏。中的每一项[**图表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)集合代表一个[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)目的。一种[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)对象封装了自定义图表外观所需的所有图表对象。下一节将展示如何使用一些基本的图表对象来创建一个简单的图表。
 
 ### **创建一个简单的图表**
 
@@ -67,7 +67,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 |酒吧堆叠|表示堆积条形图|
 |Bar100Percent 堆叠|表示 100% 堆积条形图|
 |Bar3DClustered|表示 3D 簇状条形图|
-|Bar3D堆叠|表示 3D 堆叠条形图|
+|Bar3D堆叠|表示 3D 堆积条形图|
 |Bar3D100PercentStacked|表示 3D 100% 堆积条形图|
 |线|代表折线图|
 |线堆叠|表示堆叠折线图|
@@ -93,7 +93,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 |三维区域|表示 3D 面积图|
 |Area3D堆叠|表示 3D 堆积面积图|
 |Area3D100PercentStacked|表示 3D 100% 堆积面积图|
-|甜甜圈|代表甜甜圈图|
+|油炸圈饼|代表甜甜圈图|
 |甜甜圈爆炸|代表爆炸甜甜圈图|
 |雷达|代表雷达图|
 |带数据标记的雷达|代表带有数据标记的雷达图|
@@ -150,7 +150,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **金字塔图及其数据源**
 
-![待办事项：图像_替代_文本](creating-and-customizing-charts_1.png)
+![待办事项：图片_替代_文本](creating-and-customizing-charts_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreatePyramidChart-HowToCreatePyramidChart.java" >}}
 
@@ -158,7 +158,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **气泡图及其数据源**
 
-![待办事项：图像_替代_文本](creating-and-customizing-charts_2.jpg)
+![待办事项：图片_替代_文本](creating-and-customizing-charts_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-HowToCreateBubbleChart-HowToCreateBubbleChart.java" >}}
 
@@ -188,7 +188,7 @@ Aspose.Cells 提供了一组特殊的类，用于创建各种图表。这些类�
 
 **组合柱形图和折线图的自定义图表**
 
-![待办事项：图像_替代_文本](creating-and-customizing-charts_3.png)
+![待办事项：图片_替代_文本](creating-and-customizing-charts_3.png)
 
 **编程实例**
 

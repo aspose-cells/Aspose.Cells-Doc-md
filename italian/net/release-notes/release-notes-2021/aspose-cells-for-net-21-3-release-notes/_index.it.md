@@ -10,11 +10,11 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47857|Cancella tutte le aree di unione sul foglio|Nuova caratteristica|
-|CELLSNET-47892| Firma digitalmente Microsoft Signature Line nel foglio di calcolo Excel|Aumento|
-|CELLSNET-47905|Implementa l'algoritmo Digest tramite l'API di BouncyCastel|Aumento|
+|CELLSNET-47892| Firma digitalmente Microsoft Riga della firma nel foglio di calcolo Excel|Aumento|
+|CELLSNET-47905|Implementa l'algoritmo Digest di BouncyCastel's API|Aumento|
 |CELLSNET-47838|La tavolozza dei colori del grafico nativo non viene conservata|Aumento|
 |CELLSNET-47877|Workbook.Settings.RemovePersonalInformation non è efficace|Aumento|
 |CELLSNET-47879|Il file generato è danneggiato durante il salvataggio del file xls con il file doc word6.0 incorporato come xlsx.|Aumento|
@@ -29,33 +29,33 @@ url: /it/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47829| Il calcolo della formula risulta diverso quando si implementano riferimenti circolari e iterazioni|Insetto|
 |CELLSNET-47865|Aspose.Cells presenta in modo errato la data in formato giapponese|Insetto|
 |CELLSNET-47872|MS Excel richiede un messaggio di errore quando si apre un file XLTM risalvato da Aspose.Cells|Insetto|
-|CELLSNET-47897|La selezione dell'elemento dell'elenco non funziona quando viene caricata nell'applicazione ASP.NET|Insetto|
-|CELLSNET-47862|Excel Accounting La sottolineatura viene tagliata durante l'esportazione in PDF|Insetto|
+|CELLSNET-47897|La selezione degli elementi dell'elenco non funziona quando viene caricata nell'applicazione ASP.NET|Insetto|
+|CELLSNET-47862|La sottolineatura della contabilità di Excel viene tagliata durante l'esportazione in PDF|Insetto|
 |CELLSNET-47881|La larghezza della colonna è inferiore al previsto durante l'importazione/mappatura del file XML nella cartella di lavoro|Insetto|
 |CELLSNET-47804|Il testo della legenda del grafico non viene visualizzato correttamente|Insetto|
 |CELLSNET-47834|Chart.Calculate() nei grafici modifica la formattazione del grafico|Insetto|
-|CELLSNET-47856|Problema di conversione da XLSX a PDF con tabelle pivot|Insetto|
+|CELLSNET-47856|Problema di conversione da XLSX a PDF con le tabelle pivot|Insetto|
 |CELLSNET-41275|I grafici che fanno riferimento ad altri fogli non vengono visualizzati|Insetto|
 |CELLSNET-42847|Il grafico viene perso al nuovo salvataggio del file ODS|Insetto|
 |CELLSNET-47861|Differenza nel calcolo dell'altezza della riga|Insetto|
 |CELLSNET-47876|Le righe di adattamento automatico e l'altezza standard non funzionano correttamente per le celle unite|Insetto|
 |CELLSNET-47903|L'inserimento di una colonna in una tabella provoca il danneggiamento della cartella di lavoro|Insetto|
-|CELLSNET-47906|Problema con l'API InsertCutCells che interessa i riferimenti alle formule tra fogli di lavoro|Insetto|
+|CELLSNET-47906|Problema con InsertCutCells API che interessa i riferimenti alle formule tra fogli di lavoro|Insetto|
 |CELLSNET-47908|ForceFullCalculation ritorna a false dopo il nuovo salvataggio|Insetto|
 |CELLSNET-47909|La rimozione delle righe vuote non aggiorna di conseguenza le forme dei commenti|Insetto|
 |CELLSNET-47913|Shape.UpdateSelectedValue() causa un aggiornamento della forma improprio|Insetto|
 |CELLSNET-47866|Eccezione durante il caricamento di un file Html|Eccezione|
 |CELLSNET-47882|Eccezione sollevata durante l'importazione di html nel file excel|Eccezione|
 |CELLSNET-47863|L'aggiunta di tag HTML alla cella genera System.FormatException|Eccezione|
-|CELLSNET-47868|Eccezione dell'indice di fine riga non valida durante l'apertura del file XLS di Office 2000|Eccezione|
+|CELLSNET-47868|Eccezione dell'indice di fine riga non valida durante l'apertura del file di Office 2000 XLS|Eccezione|
 |CELLSNET-47869|Cells Errore di caricamento della cartella di lavoro con eccezione|Eccezione|
 |CELLSNET-47870|Eccezione sollevata durante il caricamento del file XLS|Eccezione|
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà SignatureLine.Id.**
 

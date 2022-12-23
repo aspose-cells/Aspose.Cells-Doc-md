@@ -6,13 +6,13 @@ url: /it/java/get-and-set-formula/
 ---
 {{% alert color="primary" %}}
 
-Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di elaborare dati con formule e funzioni. Microsoft Excel fornisce una serie di funzioni e formule integrate che aiutano gli utenti a eseguire rapidamente calcoli complessi. Aspose.Cells fornisce anche un vasto set di funzioni e formule integrate che aiutano gli sviluppatori a calcolare facilmente i valori. Aspose.Cells supporta anche funzioni aggiuntive. Inoltre, Aspose.Cells supporta l'array e le formule R1C1 in Aspose.Cells.
+Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di elaborare dati con formule e funzioni. Microsoft Excel fornisce una serie di funzioni e formule integrate che consentono agli utenti di eseguire rapidamente calcoli complessi. Aspose.Cells fornisce anche un vasto set di funzioni e formule integrate che aiutano gli sviluppatori a calcolare facilmente i valori. Aspose.Cells supporta anche funzioni aggiuntive. Inoltre, Aspose.Cells supporta l'array e le formule R1C1 in Aspose.Cells.
 
 {{% /alert %}}
 
 ## **Uso di formule e funzioni**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collezione. Ogni elemento del[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) collezione rappresenta un oggetto della[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
  È possibile applicare formule alle celle utilizzando proprietà e metodi offerti dal[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe, discussa più dettagliatamente di seguito.
 
@@ -25,9 +25,9 @@ Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di
 
  Le funzioni o le formule integrate vengono fornite come funzioni già pronte per ridurre gli sforzi e il tempo degli sviluppatori. Vedere[un elenco di funzioni integrate](/cells/it/java/supported-formula-functions/). Le funzioni sono elencate in ordine alfabetico. Altre funzioni saranno supportate in futuro.
 
- Aspose.Cells supporta la maggior parte delle formule o delle funzioni offerte da Microsoft Excel. Gli sviluppatori possono utilizzare queste formule tramite l'API o[foglio di calcolo del progettista](/cells/it/java/what-is-a-designer-spreadsheet/). Aspose.Cells supporta un enorme set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
+ Aspose.Cells supporta la maggior parte delle formule o delle funzioni offerte da Microsoft Excel. Gli sviluppatori possono utilizzare queste formule tramite API o[foglio di calcolo del progettista](/cells/it/java/what-is-a-designer-spreadsheet/). Aspose.Cells supporta un enorme set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
 
- Utilizzare il[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)proprietà del[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class per aggiungere una formula a una cella.**Formule complesse**, Per esempio
+ Usa il[**Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)proprietà del[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class per aggiungere una formula a una cella.**Formule complesse**, Per esempio
 
 {{< highlight "java" >}}
 
@@ -47,7 +47,7 @@ Una delle caratteristiche interessanti di Microsoft Excel è la sua capacità di
 
  Aspose.Cells fornisce funzionalità per registrare le funzioni aggiuntive utilizzando[**Fogli di lavoro.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Successivamente, quando siamo tramontati[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, il file Excel di output contiene il valore calcolato dalla funzione AddIn.
 
-Dopo il file XLAM deve essere scaricato per la registrazione della funzione di componente aggiuntivo nel codice di esempio sottostante. Allo stesso modo, il file di output "test_udf.xlsx" può essere scaricato per controllare l'output.
+Dopo il file XLAM deve essere scaricato per la registrazione della funzione aggiuntiva nel codice di esempio sottostante. Allo stesso modo, il file di output "test_udf.xlsx" può essere scaricato per controllare l'output.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -63,12 +63,12 @@ Le formule di matrice sono formule che funzionano con matrici, invece che con si
 
 ![cose da fare:immagine_alt_testo](using-formulas-or-functions-to-process-data_1.png)
 
-Alcune funzioni di Microsoft Excel restituiscono matrici di valori. Per calcolare più risultati con una formula di matrice, inserisci la matrice in un intervallo di celle con lo stesso numero di righe e colonne degli argomenti della matrice.
+Alcune funzioni di Excel Microsoft restituiscono matrici di valori. Per calcolare più risultati con una formula di matrice, inserisci la matrice in un intervallo di celle con lo stesso numero di righe e colonne degli argomenti della matrice.
 
  È possibile applicare una formula di matrice a una cella chiamando il metodo[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) metodo. Il[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) accetta i seguenti parametri:
 
-- **Formula matrice**, la formula di matrice.
-- **Numero di righe**il numero di righe da popolare risultato della formula di matrice.
+- **Formula matrice**la formula di matrice.
+- **Numero di righe**, il numero di righe da popolare risultato della formula di matrice.
 - **Numero di colonne**, il numero di colonne per popolare il risultato della formula di matrice.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

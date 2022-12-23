@@ -9,7 +9,7 @@ url: /de/java/aspose-cells-for-java-8-8-2-release-notes/
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
 |CELLSJAVA-41848 | Bestimmte Datenbeschriftungen fehlen beim Rendern des Diagramms in ein Bild| Insekt|
-|CELLSJAVA-41850 |CellsException: Cell wurde entfernt: D9 mit MemorySetting.MEMORY_PREFERENCE| Ausnahme|
+|CELLSJAVA-41850 | CellsException: Cell wurde entfernt: D9 mit MemorySetting.MEMORY_PREFERENCE| Ausnahme|
 |CELLSJAVA-41844 | Ausnahme: "Shape to image Error !" beim Rendern eines Arbeitsblatts in ein Bild| Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.

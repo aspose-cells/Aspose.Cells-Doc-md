@@ -13,9 +13,9 @@ url: /ja/java/aspose-cells-for-java-21-9-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43639|作成日時と変更日は抽出できません|
-|CELLSJAVA-43622|XLSX to PDF: Shape to image エラー|
-|CELLSJAVA-43756|Excel から HTML への変換時の画像の歪み|
-|CELLSJAVA-43309|Excel から HTML への変換に関する詳細の変更|
+|CELLSJAVA-43622|XLSX ～ PDF: 形状から画像へのエラー|
+|CELLSJAVA-43756|HTMLへのエクセル時の画像の歪み|
+|CELLSJAVA-43309|詳細はエクセルでHTML変換に変更|
 |CELLSJAVA-43578|Excel を HTML に変換する際のフォーマットの問題|
 |CELLSJAVA-43579|Excel から HTML への変換中のテキスト配置の問題|
 |CELLSJAVA-43630|Excel を HTML に変換するとハイパーリンク機能のハイパーリンクが無効になる|
@@ -24,20 +24,20 @@ url: /ja/java/aspose-cells-for-java-21-9-release-notes/
 |CELLSJAVA-43758|配列数式評価問題|
 |CELLSJAVA-43680|生成された pdf での条件付き書式設定のデータバーの問題|
 |CELLSJAVA-43689|セルに条件付き書式を設定し、DataBar.toImage を使用すると空白の画像が表示される|
-|CELLSJAVA-43723|ExcelファイルをPDFに変換すると、セル内のフォントが完全に表示されない|
-|CELLSJAVA-43724|複雑な HTML を CSV に変換できない|
+|CELLSJAVA-43723|ExcelファイルをPDFに変換するとセル内のフォントが完全に表示されない|
+|CELLSJAVA-43724|複雑な HTML を CSV に変換できません|
 |CELLSJAVA-43728|Excel から PDF への変換中にテキストの向きが変更されました|
 |CELLSJAVA-43752|Excel から HTML へのレンダリング - 境界線を非表示にする条件付き書式の問題|
-|CELLSJAVA-43792|HTML から Excel への変換に HtmlLoadOptions を設定すると、フォントが正しくない|
+|CELLSJAVA-43792|HTML の HtmlLoadOptions を Excel 変換に設定するとフォントが正しくない|
 |CELLSJAVA-43571|XLSX を PDF に変換するときの DataLabels の切り捨ての問題|
 |CELLSJAVA-43587|ドーナツ チャートのラベルの位置がずれている|
 |CELLSJAVA-43620|Excel ファイル (ウォーターフォール チャートを含む) を HTML にレンダリングすると、縦軸の値とポイント ラベルが正しくレンダリングされない|
 |CELLSJAVA-43621|関数 RANDBETWEEN(bottom, top) 値の結果が Excel の結果と異なる|
-|CELLSJAVA-41710|XLSX からの変換後の HTML の不適切なレンダリング|
-|CELLSJAVA-43422|HTML から Excel への変換 - CSS の "mso-ignore: padding" は効果がありません|
+|CELLSJAVA-41710|XLSX からの変換後の HTML の間違ったレンダリング|
+|CELLSJAVA-43422|HTML から Excel への変換 - CSS の "mso-ignore: padding" が効果がない|
 |CELLSJAVA-43606|ファイルのマージ中に背景テキストの書式が変更されました|
 |CELLSJAVA-43769|MSO Excel (XLS) ドキュメントを読み込めません|
-|CELLSJAVA-43631|XLSM ファイルの読み込み時の例外「java.lang.NullPointerException」|
+|CELLSJAVA-43631|XLSM ファイルのロード時の例外「java.lang.NullPointerException」|
 |CELLSJAVA-43655|getStringValue での ArrayIndexOutOfBoundsException|
 |CELLSJAVA-43788|チャート シリーズの値の設定中に例外が発生しました|
 |CELLSJAVA-43632|XLSX ファイルのロード時の例外「無効な FontUnderlineType 文字列 val」|

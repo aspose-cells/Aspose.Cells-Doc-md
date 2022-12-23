@@ -25,7 +25,7 @@ url: /sv/sharepoint/convert-multiple-files/
 
 ![todo:image_alt_text](convert-multiple-files_2.png)
 ### **Använda Server Ribbon Button under SharePoint 2010**
- Under SharePoint 2010 är serverbandsknappen tillgänglig istället för den anpassade åtgärdsmenyn som används med SharePoint 2007 / WSS 3.
+Under SharePoint 2010 är serverbandsknappen tillgänglig istället för den anpassade åtgärdsmenyn som används med SharePoint 2007 / WSS 3.
 
 **Konvertera dokument med Aspose.Cells for SharePoint på SharePoint 2010** 
 

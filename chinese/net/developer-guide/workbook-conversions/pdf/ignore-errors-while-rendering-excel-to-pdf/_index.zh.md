@@ -10,9 +10,9 @@ url: /zh/net/ignore-errors-while-rendering-excel-to-pdf/
 
 ## **将 Excel 呈现为 PDF 时忽略错误**
 
-下面的代码加载[示例 Excel 文件](55541778.xlsx)但示例 Excel 文件是错误的，并在执行期间抛出错误[转换成PDF](55541779.pdf)在 17.11 但因为我们正在使用[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)属性，它不会抛出错误。然而，一个*圆形红色箭头状*如此屏幕截图所示丢失。
+下面的代码加载[示例 Excel 文件](55541778.xlsx)但示例 Excel 文件是错误的，并在执行期间抛出错误[转换为 PDF](55541779.pdf)在 17.11 但因为我们正在使用[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/ignoreerror)属性，它不会抛出错误。然而，一个*圆形红色箭头状*如此屏幕截图所示丢失。
 
-![待办事项：图像_替代_文本](ignore-errors-while-rendering-excel-to-pdf_1.png)
+![待办事项：图片_替代_文本](ignore-errors-while-rendering-excel-to-pdf_1.png)
 
 ## **示例代码**
 

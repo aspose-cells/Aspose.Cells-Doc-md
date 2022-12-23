@@ -12,7 +12,7 @@ url: /ru/net/changing-the-layout-of-pivot-table/
 - Показать в форме схемы
 - Показать в табличной форме
 
- Aspose.Cells также предоставляет[**Сводная таблица.ShowInCompactForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showincompactform), [**Сводная таблица.ShowInOutlineForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showinoutlineform) а также[**Сводная таблица. Показать в табличной форме ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showintabularform) методы изменения макета сводной таблицы в этих трех формах.
+ Aspose.Cells также предоставляет[**Сводная таблица.ShowInCompactForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showincompactform), [**Сводная таблица.ShowInOutlineForm()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showinoutlineform) и[**Сводная таблица. Показать в табличной форме ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/showintabularform) методы изменения макета сводной таблицы в этих трех формах.
 
 {{% /alert %}}
 

@@ -24,12 +24,12 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-6-release-notes/
 |CELLSJAVA-44646|Kopyalanan sayfadaki içeriği temizle, NullPointerException'ı atar|
 |CELLSJAVA-44656|Cells.getMaxDataColumn, 22.5'te farklı (yanlış) değer döndürüyor|
 |CELLSJAVA-44650|Aspose.Cells.GridWeb(Java) içine yüklenirken Excel belge sayfası dağınık|
-|CELLSJAVA-44660|XLS'yi Aspose.Cells.GridWeb'e (Java) yüklerken veri hizalama sorunu|
+|CELLSJAVA-44660|XLS'i Aspose.Cells.GridWeb'e (Java) yüklerken veri hizalama sorunu|
 |CELLSJAVA-44661|Et dosyasını Aspose.Cells.GridWeb'e (Java) yüklerken sorun|
 |CELLSJAVA-44584|Grafikteki eksenin başlığı çıktı görüntüsünde döndürülür - Grafikten görüntüye dönüştürme|
 |CELLSJAVA-44615|XLS dosyasından çıktı görüntüsünde çizilen gri çizgi|
-|CELLSJAVA-44665|ODS dosyası yükleniyor askıda kalıyor|
-|CELLSJAVA-44651|Excel sayfasını HTML/PDF'ye dönüştürürken "sayısal bir değer değil" hatası|
+|CELLSJAVA-44665|ODS dosyası yükleniyor kilitleniyor|
+|CELLSJAVA-44651|Excel sayfasını HTML/PDF'e dönüştürürken "sayısal bir değer değil" hatası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

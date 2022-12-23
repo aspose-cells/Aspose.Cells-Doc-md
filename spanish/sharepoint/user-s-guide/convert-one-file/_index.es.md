@@ -10,7 +10,7 @@ url: /es/sharepoint/convert-one-file/
 
 {{% /alert %}} 
 ### **Conversión de archivos individuales**
-Para convertir un documento en particular en una biblioteca de documentos:
+ Para convertir un documento en particular en una biblioteca de documentos:
 
 1.  Seleccione**Convertir con Aspose.Cells.SharePoint** en el bloque de control de edición (ECB) del documento.
 
@@ -27,7 +27,7 @@ Se muestra la pantalla de configuración de conversión. Aquí, puede ajustar la
  De forma predeterminada, Aspose.Cells for SharePoint rellena previamente este campo con el nombre del archivo de origen.
  La extensión se agrega automáticamente según el formato seleccionado.
 1.  Inicie la conversión haciendo clic en**Convertir**.
- (O regrese a la biblioteca, descartando su configuración, haciendo clic en**Cancelar**.)
+(O regrese a la biblioteca, descartando su configuración, haciendo clic en**Cancelar**.)
 
 **Pantalla de configuración de conversión para la conversión de un archivo** 
 

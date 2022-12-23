@@ -5,13 +5,13 @@ weight: 40
 url: /zh/net/aspose-cells-forms-for-dnn/
 ---
 ## **介绍**
-Aspose.Cells DNN 模块的动态表单允许用户生成动态问卷和调查，将用户输入保存到 Excel 电子表格中，并使用 Aspose.Cells 将结果导出到 Excel、文本、CSV 和 OpenDocument 电子表格中。该模块演示了 Aspose.Cells for .NET 提供的强大的电子表格构建功能。
+Aspose.Cells DNN 模块的动态表单允许用户生成动态问卷和调查，将用户输入保存到 Excel 电子表格中，并将结果导出到 Excel、文本、CSV 和使用 Aspose.Cells 的 OpenDocument 电子表格。该模块演示了 Aspose.Cells for .NET 提供的强大的电子表格构建功能。
 ### **模块特点**
 该模块的初始版本增加了以下功能，使表单构建和导出过程简单易用
 
 - 在 Excel 中保存表单字段设置
 - 将表单的用户输入数据保存到 Excel
-- 允许添加新的和更新现有的表单域
+- 允许添加新的和更新现有的表单字段
 - 允许添加 TextBox、Multiline TextBox、RadioButtons、CheckBox 和 DropDownList、DropDownList 项目类型字段
 - 允许为每个字段添加/更新标签
 - 允许显示/隐藏表单字段
@@ -23,7 +23,7 @@ Aspose.Cells DNN 模块的动态表单允许用户生成动态问卷和调查，
 - 导出前选择所需输出格式的选项。
 - 导出的文档会自动发送到浏览器进行下载。
 
-![待办事项：图像_替代_文本](aspose-cells-forms-for-dnn_1)
+![待办事项：图片_替代_文本](aspose-cells-forms-for-dnn_1)
 ## **系统要求和支持的平台**
 ### **系统要求**
 要为 DNN 模块设置 Aspose.Cells .NET，您需要满足以下要求：
@@ -59,11 +59,11 @@ Aspose.Cells .NET 目前支持的DNN模块
 1. 选择**模块**其次是**添加新模块**从顶部功能区。
 1. 从列表中选择“Aspose.NET Dynamic Forms Builder”并将其拖动到位。
 
-![待办事项：图像_替代_文本](aspose-cells-forms-for-dnn_2)
+![待办事项：图片_替代_文本](aspose-cells-forms-for-dnn_2)
 
 您已成功将 Aspose .NET Dynamic Forms Builder for DNN 模块添加到您的页面。
 
-![待办事项：图像_替代_文本](aspose-cells-forms-for-dnn_1)
+![待办事项：图片_替代_文本](aspose-cells-forms-for-dnn_1)
 ### **动态表单设置**
 1. 确保您已登录并处于页面编辑模式
 1. 点击**设置**右上角模块弹出菜单中可用的选项以及模块标题

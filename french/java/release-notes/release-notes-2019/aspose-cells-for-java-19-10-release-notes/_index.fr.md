@@ -10,12 +10,12 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.10.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41814|Prise en charge du tri de données personnalisé pour la zone spécifique du rapport de tableau croisé dynamique|Nouvelle fonctionnalité|
 |CELLSJAVA-42988|Problème de performances avec calculateFormula()|Renforcement|
 |CELLSJAVA-41103|La coloration et la mise en forme des données du tableau croisé dynamique ne s'affichent pas correctement|Punaise|
-|CELLSJAVA-43007|Le PDF n'est pas généré comme prévu|Punaise|
+|CELLSJAVA-43007|PDF n'est pas généré comme prévu|Punaise|
 |CELLSJAVA-43025|Cell.getStyle.getCustom renvoie un format incorrect pour les paramètres régionaux allemands|Punaise|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException lors du chargement du fichier Excel|Exception|
 

@@ -19,5 +19,5 @@ Pour rechercher plusieurs fichiers à la fois :
 
 Les options suivantes sont disponibles :
 
-- **Options de recherche**Concentrez votre recherche en recherchant dans des cellules, des formules ou en trouvant des formules qui contiennent une expression spécifique.
+- **Options de recherche**: Concentrez votre recherche en recherchant dans des cellules, des formules ou en trouvant des formules qui contiennent une expression spécifique.
 - **Sensible aux majuscules et minuscules**: lorsque l'option sensible à la casse est sélectionnée, la recherche correspond exactement aux caractères, y compris les lettres minuscules et majuscules.

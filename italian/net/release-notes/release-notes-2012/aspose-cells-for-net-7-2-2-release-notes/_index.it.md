@@ -42,11 +42,11 @@ Noi siamo
  -#Riferimento ricorsivo! Errore
 
 - La copia del file utilizzando Aspose Cells richiede un lavoro di riparazione
-- Pensare che un file XLS di Excel 97 sia un documento di Word
+- Pensare che un file Excel 97 XLS sia un documento Word
 
- -L'esportazione in grafico PDF è diversa dalla versione Excel
+ -L'esportazione nel grafico PDF è diversa dalla versione Excel
 
-- L'esportazione in grafico PDF è diversa dalla versione Excel -2
+- L'esportazione nel grafico PDF è diversa dalla versione Excel -2
 
 -Le linee extra sono incorporate nei grafici
 

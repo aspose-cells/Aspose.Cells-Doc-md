@@ -3,6 +3,7 @@ title: Показывать формулы вместо значений на л
 type: docs
 weight: 20
 url: /ru/net/show-formulas-instead-of-values-in-a-worksheet/
+description: В этой статье представлен пример кода для использования библиотеки C# API или .NET для программного отображения формул, а не значений на листе или электронной таблице Excel.
 ---
 {{% alert color="primary" %}}
 

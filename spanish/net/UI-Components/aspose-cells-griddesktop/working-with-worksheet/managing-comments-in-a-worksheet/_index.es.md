@@ -12,7 +12,7 @@ En MS Excel, debe estar familiarizado con la función de comentarios que permite
 ## **Adición de comentarios**
 Para agregar un comentario a una celda usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Agregar**Comentario** a la hoja de trabajo especificando la celda (usando su nombre o número de fila y columna) en la que se agregará el comentario.
 
@@ -31,7 +31,7 @@ Para acceder y modificar un comentario existente en la hoja de trabajo, los desa
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AccessingComments.cs" >}}
 ## **Eliminar comentarios**
- Para eliminar un comentario existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Remover** comentario del**Comentarios** colección de la**Hoja de cálculo** especificando la celda (usando su nombre o número de fila y columna) que contiene el comentario.
+ Para eliminar un comentario existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Eliminar** comentario del**Comentarios** colección de la**Hoja de cálculo** especificando la celda (usando su nombre o número de fila y columna) que contiene el comentario.
 
 
 

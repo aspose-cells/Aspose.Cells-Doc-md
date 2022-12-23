@@ -6,7 +6,7 @@ url: /it/java/filter-vba-project-while-loading-a-workbook/
 ---
 ## **Possibili scenari di utilizzo**
 Alcuni file .xlsm/.xslb hanno una quantità estremamente grande di macro (o macro molto, molto lunghe). Aspose.Cells caricherà incondizionatamente questi (meta) dati all'apertura di tali cartelle di lavoro. Potrebbe essere necessario controllarlo tramite LoadDataFilterOptions, quando in realtà è necessario estrarre solo i nomi dei fogli per un numero elevato di cartelle di lavoro, saltando così tali contenuti non necessari. Questo filtro viene fornito introducendo la nuova opzione LoadDataFilterOptions.VBA.
-## **Codice di esempio**
+## **Codice d'esempio**
 Il codice di esempio seguente carica una cartella di lavoro in modo che venga filtrato solo VBA. Il file di esempio per testare questa funzione può essere scaricato dal seguente link:
 
 [sampleMacroEnabledWorkbook.xlsm](79527951.xlsm)

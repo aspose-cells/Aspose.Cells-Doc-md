@@ -23,7 +23,7 @@ url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 
 - تم تثبيت WSS 3.0 أو MOSS 2007 أو SharePoint 2010.
 - لدى المستخدم إذن لتثبيت حلول SharePoint.
-- قاعدة بيانات SharePoint على الإنترنت.
+- قاعدة بيانات SharePoint متصلة بالإنترنت.
 - بدأت خدمة إدارة WSS.
 - بدأت خدمة WSS Timer.
 
@@ -34,7 +34,7 @@ url: /ar/sharepoint/installing-aspose-cells-for-sharepoint/
 
 يقوم برنامج الإعداد بتنفيذ الإجراءات التالية:
 
-1.  تحقق من متطلبات التثبيت. لن يستمر الإعداد إذا فشل أي فحص.
+1.  تحقق من متطلبات التثبيت الأساسية. لن يستمر الإعداد إذا فشل أي فحص.
 
    **فحص النظام** 
 

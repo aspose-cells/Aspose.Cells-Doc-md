@@ -24,8 +24,8 @@ url: /ar/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |CELLSJAVA-44464|المشكلة الإضافية 1 ، العمود لون الخلفية ليس هو نفسه في Excel لـ yscl.xls في الورقة 4|
 |CELLSJAVA-44466| المسألة الإضافية 3 ، لا يعمل setCalculateFormula إلى false|
 |CELLSJAVA-44496|قم بتضمين عنصر / علامة التسمية التوضيحية للجدول عند تحميل html|
-|CELLSJAVA-44429|يختلف تأثير مخطط Excel في Excel عن تأثير مخطط Excel|
-|CELLSJAVA-44414| سيؤدي Unicode في JSON إلى كسر XLSX و CSV اللذين تم إنشاؤهما|
+|CELLSJAVA-44429|يختلف تأثير مخطط Excel في Excel عن تأثير مخطط Excel في HTML|
+|CELLSJAVA-44414| سيتم كسر Unicode في JSON الناتج XLSX و CSV|
 |CELLSJAVA-44404|استثناء "java.lang.IllegalArgumentException: فهرس العمود غير صالح" عند تحميل ملف XLSX في GridWeb|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

@@ -10,7 +10,7 @@ url: /es/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java se ha actualizado a la versión 7.7.2 y nos complace anunciar que esta versión trae la incorporación de unas 20 nuevas mejoras útiles.
+ Aspose.Cells for Java se ha actualizado a la versión 7.7.2 y nos complace anunciar que esta versión trae la incorporación de unas 20 nuevas mejoras útiles.
 Usando Aspose.Cells for Java puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for Java.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
@@ -33,7 +33,7 @@ Mejoras
 
 Insectos
 
-(CELLSJAVA-40711): Axis.setTickLabelSpacing() no funciona para la versión XLS
+(CELLSJAVA-40711) - Axis.setTickLabelSpacing() no funciona para la versión XLS
 (CELLSJAVA-40714) - Cell los bordes se representaron en celdas opacas
 (CELLSJAVA-40710) - Menos que igual al error de cálculo
 (CELLSJAVA-40715): problema con el análisis de comodines en el cálculo de fórmulas
@@ -51,7 +51,7 @@ Excepciones
 (CELLSJAVA-40717) - CellsException: nombre de celda no válido en el constructor del libro de trabajo
 (CELLSJAVA-40723) - Representación provocada por com.aspose.cells.CellsException: java.lang.String no se puede convertir a java.lang.Double
 (CELLSJAVA-40724) - com.aspose.cells.CellsException en SheetRender
-(CELLSJAVA-40727) - Excepción: java.lang.NullPointerException en la representación de gráficos en una hoja de cálculo
+(CELLSJAVA-40727) - Excepción: java.lang.NullPointerException en la representación de gráficos en una hoja de trabajo
 
 Nota
 Dado que el código base de Aspose.Cells for Java coincide con el código de la versión .NET relevante, la mayoría de los cambios, mejoras y correcciones incluidos en Aspose.Cells for .NET v7.7.2 también se incluyen en este Aspose.Cells for Java v7.7.2.

@@ -16,9 +16,9 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Neue Eigenschaften
 
- 13872 In XPS-Datei exportieren
+ 13872 Export in XPS-Datei
 
- 28363 Erstellen Sie schreibgeschützte XLSX-Dateien
+ 28363 Schreibgeschützte XLSX-Dateien erstellen
 
  Verbesserungen
 
@@ -34,11 +34,11 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27760 Unterstützungstabellenquelle als benannte Bereiche
 
- 27955 Geben Sie beim Drucken oder Rendern in PDF den dynamischen Druckbereich an
+ 27955 Geben Sie den dynamischen Druckbereich beim Drucken oder Rendern auf PDF an
 
  Leistung
 
- 28139 Excel-zu-PDF-Leistungsproblem
+ 28139 Leistungsproblem von Excel zu PDF
 
  27095 Problem mit der Workbook.CalculateFormula()-Methode
 
@@ -52,7 +52,7 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27382 Defektes Bild führt zum Absturz von Aspose.Cells
 
-27998 Ausnahme beim Öffnen einer legitimen XLSX-Datei
+27998 Ausnahme beim Öffnen der legitimen XLSX-Datei
 
  28318 Beim Speichern einer XLS-Arbeitsmappe im XLSM-Format ist eine Ausnahme aufgetreten
 
@@ -74,13 +74,13 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28024 Benannte Bereiche und Tabellen abrufen
 
- 18503 Diagonale Linien werden im PDF nicht korrekt angezeigt
+ 18503 Diagonale Linien werden in PDF nicht korrekt angezeigt
 
- 27168 Gruppierte Formen werden beim Speichern als PDF verzerrt
+ 27168 Gruppierte Formen werden beim Speichern in PDF verzerrt
 
- 27240 Konvertierung von Excel in PDF – Problem mit Diagrammbereichen
+ 27240 Umwandlung von Excel in PDF – Problem mit Diagrammbereichen
 
- 28112 Das Speichern einer Excel-Datei (XLS) als PDF führt zu einem Problem
+ 28112 Das Speichern der Excel-Datei (XLS) als PDF führt zu einem Problem
 
  27061 Warnung bei geschützter Ansicht in MS Excel 2010
 
@@ -92,11 +92,11 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Aufzählungszeichen fehlen im exportierten Bild in der Blatt-zu-Bild-Funktion
 
- 28413 Das Spaltenformat in der TIFF-Konvertierung ist nicht korrekt
+ 28413 Spaltenformat in TIFF Konvertierung ist nicht korrekt
 
  27906 Escape-Zeichen in Smart Markern
 
- 27342 Ein Problem beim Öffnen der SpreadsheetML-Datei
+ 27342 Ein Problem beim Öffnen der Datei SpreadsheetML
 
  28269 AutoRow-Höhenproblem beim Erstellen von Zeilen, die die maximale Höhe überschreiten
 
@@ -120,7 +120,7 @@ url: /de/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 Die Einstellung ShowDefaultGridLine = false ist nicht verfügbar, wenn der XhtmlMode von GridWeb auf „true“ gesetzt ist
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Neue Eigenschaften
 

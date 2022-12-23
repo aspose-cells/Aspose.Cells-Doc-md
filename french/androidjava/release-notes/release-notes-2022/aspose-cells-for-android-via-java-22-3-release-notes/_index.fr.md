@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44162|Support pour supprimer le lien externe sans supprimer les formules|
 |CELLSJAVA-44214|Prise en charge de l'ajustement automatique des lignes pour GridWeb|
@@ -22,14 +22,14 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44130|Le texte des étiquettes de données s'enroule dans l'image du graphique de sortie|
 |CELLSJAVA-44204|problème de pagination pour csv|
 |CELLSJAVA-43934|Les étiquettes du graphique à secteurs ne correspondent pas à Excel après la manipulation ou la mise à jour du graphique|
-|CELLSJAVA-44122|Lors de l'exportation HTML, les étiquettes de données sont différentes de celles d'Excel|
+|CELLSJAVA-44122|Lors de l'export HTML, les étiquettes de données sont différentes de celle d'Excel|
 |CELLSJAVA-41949| Le contenu s'affiche différemment lors de l'enregistrement du classeur aux formats XLSX et HTML|
-|CELLSJAVA-44207|Lors de l'exportation au format HTML, la hauteur de ligne devient plus élevée|
+|CELLSJAVA-44207|Lors de l'exportation vers HTML, la hauteur de ligne devient plus élevée|
 |CELLSJAVA-44233|Boucle infinie lors de la conversion du fichier XLSX|
 |CELLSJAVA-44271|Lors de la conversion d'Excel en PDF, la position de sortie se décale par rapport au cas de la conversion manuelle|
-|CELLSJAVA-44197|Lors de la conversion de XLSX en PDF, la forme de la chronologie du tableau croisé dynamique (fenêtre) ne s'affiche pas|
+|CELLSJAVA-44197|Lors de la conversion de XLSX en PDF, la forme chronologique du tableau croisé dynamique (fenêtre) ne s'affiche pas|
 |CELLSJAVA-44267|Le classeur contenant un tableau croisé dynamique est corrompu|
-|CELLSJAVA-44114|XLSX en PDF : les données au format numérique scientifique du fichier XLSX ne correspondent pas aux données du fichier PDF de sortie|
+|CELLSJAVA-44114|XLSX à PDF : les données au format numérique scientifique du fichier XLSX ne correspondent pas aux données du fichier de sortie PDF|
 |CELLSJAVA-44293|Le fichier Excel réenregistré doit être récupéré lors de son ouverture dans MS Excel|
 |CELLSJAVA-43194|Images mal affichées|
 |CELLSJAVA-44243|Échec de la sauvegarde du fichier de démonstration de GridWeb Spring dans jdk1.8|
@@ -38,25 +38,25 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44229|La formule est perdue lorsque le contenu td est enveloppé par une balise div|
 |CELLSJAVA-44247|Le texte d'une seule ligne est enveloppé lors de la conversion en pdf|
 |CELLSJAVA-44175| problème avec le chevauchement des étiquettes de graphique en anneau|
-|CELLSJAVA-44192| Le nom de l'élément de l'axe des catégories dans le graphique est coupé lors de la conversion d'Excel en PDF|
+|CELLSJAVA-44192|Le nom de l'élément de l'axe des catégories dans le graphique est coupé dans Excel en conversion PDF|
 |CELLSJAVA-44233|Boucle infinie lors de la conversion du fichier XLSX|
 |CELLSJAVA-44263|La définition de la direction du texte de l'étiquette du graphique sur verticale ne prend pas effet|
 |CELLSJAVA-44268| Exception "java.lang.NullPointerException" sur la méthode Chart.toPdf|
 |CELLSJAVA-44302|La direction du texte de l'axe des coordonnées est incorrecte après la conversion du fichier Excel en HTML|
 |CELLSJAVA-44314|Étiquettes d'axe de catégorie de graphique incorrectes dans le rendu Graphique vers image|
-|CELLSJAVA-44274|Le format SVG est-il pris en charge pour la lecture ou le rendu au format PDF|
+|CELLSJAVA-44274|Le format SVG est-il pris en charge pour la lecture ou le rendu vers PDF|
 |CELLSJAVA-44369| la hauteur de la forme n'est pas correcte|
 |CELLSJAVA-44366|Copier le contenu de la feuille sur une nouvelle page de feuille et l'enregistrer au format html rend le style de la formule mathématique Excel anormal|
 |CELLSJAVA-44408|Le format de pourcentage de Cell est perdu lorsque nous développons ces 2 lignes que nous avons modifiées|
-|CELLSJAVA-44341|Cell la largeur n'est pas correcte dans la sortie DOCX dans la conversion Excel vers DOCX|
+|CELLSJAVA-44341|La largeur Cell n'est pas correcte dans la sortie DOCX dans Excel pour la conversion DOCX|
 |CELLSJAVA-44383|La mise en forme conditionnelle a cessé de fonctionner après l'ajout de propriétés personnalisées|
 |CELLSJAVA-44370|Le fichier Excel est corrompu lorsqu'il est ouvert et enregistré avec Aspose.Cells|
-|CELLSJAVA-44344| Problème avec la copie horizontale des plages dans la sortie XLSX|
+|CELLSJAVA-44344|Problème avec la copie horizontale des plages dans la sortie XLSX|
 |CELLSJAVA-44363| la hauteur de l'en-tête de ligne ne correspond pas au contenu de la ligne dans le fichier avec freezepane|
 |CELLSJAVA-44349|l'image/la forme doit être conservée après le redémarrage du serveur pour GridWeb|
 |CELLSJAVA-44367|La couleur du graphique à colonnes devient blanche lors de la conversion en html|
-|CELLSJAVA-44328| Certaines étiquettes de données des graphiques Excel sont perdues lors de l'enregistrement du fichier Excel au format HTML|
-|CELLSJAVA-44193|L'angle des éléments de l'axe des catégories dans le graphique est différent dans la conversion Excel en PDF|
+|CELLSJAVA-44328| Certaines étiquettes de données des graphiques Excel sont perdues lors de l'enregistrement du fichier Excel sous HTML|
+|CELLSJAVA-44193|L'angle des éléments de l'axe des catégories dans le graphique est différent dans Excel de la conversion PDF|
 |CELLSJAVA-44314|Étiquettes d'axe de catégorie de graphique incorrectes dans le rendu Graphique vers image|
 |CELLSJAVA-44332|Cell le soulignement du lien ne peut pas être supprimé lors de la conversion de xlsx en html|
 |CELLSJAVA-44234|Problème de mémoire insuffisante pour le fichier data.xls|

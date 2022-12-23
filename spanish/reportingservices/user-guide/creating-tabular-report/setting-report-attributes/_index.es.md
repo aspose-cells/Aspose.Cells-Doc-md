@@ -27,7 +27,7 @@ Para configurar los atributos de un informe de tabla:
 
 
 
-1.  Hacer clic**próximo**.
+1.  Hacer clic**Próximo**.
 1. Seleccione un rango para el informe.
  El rango comienza en la primera celda de la fila de datos de la tabla y termina en la última celda de la fila del pie de página o, si no hay pies de página, en la última celda de los datos del grupo.
  El índice de las celdas inicial y final aparece en el**Rango** campo automáticamente. Aquí, el rango incluye celdas de D4 a H8.
@@ -39,7 +39,7 @@ Para configurar los atributos de un informe de tabla:
 
 
 
-1.  Hacer clic**próximo** continuar.
+1.  Hacer clic**Próximo** continuar.
 Todos los campos del conjunto de datos se enumeran en el panel izquierdo del cuadro de diálogo.
 1.  Seleccione los campos por los que agrupar los datos.
 
@@ -50,7 +50,7 @@ Todos los campos del conjunto de datos se enumeran en el panel izquierdo del cua
 
 
 
-1.  Hacer clic**próximo** continuar.
+1.  Hacer clic**Próximo** continuar.
 1.  Seleccione los campos por los que ordenar los datos.
 
    **Selección de campos para ordenar datos por** 
@@ -60,7 +60,7 @@ Todos los campos del conjunto de datos se enumeran en el panel izquierdo del cua
 
 
 
-1.  Hacer clic**próximo**.
+1.  Hacer clic**Próximo**.
 
  Se muestra un resumen del informe.
    **Resumen del informe** 

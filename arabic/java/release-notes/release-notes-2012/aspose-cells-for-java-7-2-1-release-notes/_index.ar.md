@@ -21,8 +21,8 @@ url: /ar/java/aspose-cells-for-java-7-2-1-release-notes/
 
 - Cells.findString () / find () يدعم البحث RegExand في نطاق معين
 - دعم Picture.setTitle () / getTitle ()
-- حفظ مخططات MS Excel في ملف ODS
-- اجعل Aspose.Cells أنشأ ملف XLS متوافقًا مع POI
+- احفظ مخططات MS Excel في ملف ODS
+- اجعل Aspose.Cells أنشأ XLS ملفًا متوافقًا مع POI
 
  استثناءات
 
@@ -30,7 +30,7 @@ url: /ar/java/aspose-cells-for-java-7-2-1-release-notes/
 
  البق
 
-- يعطي ملف XLSX المحفوظ خطأ: "Datamay has been lost"
-- الرقم المنسق غير صحيح في ملف PDF الذي تم إنشاؤه (تم فقد ألف حرف مجموعة)
+- يعطي الملف XLSX المحفوظ خطأ: "Datamay has been lost"
+- كان الرقم المنسق غير صحيح في PDF المتولد (تم فقد ألف حرف مجموعة)
 - لم يظهر المخطط الشريطي في ملف PDF الذي تم إنشاؤه لإصدار JDK6
 - لا يتم تحديث المراجع عند توسيع النطاق

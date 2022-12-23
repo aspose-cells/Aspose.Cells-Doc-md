@@ -6,7 +6,7 @@ url: /ar/net/read-color-of-shape-s-glow-effect/
 ---
 ## سيناريوهات الاستخدام الممكنة
 
- إذا كنت ترغب في قراءة لون تأثير التوهج لأي شكل ، فيرجى استخدام ملف[**شكل ، تدفق ، لون**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)منشأه. سيساعدك في العثور على الخصائص المختلفة المتعلقة بلون تأثير التوهج للشكل.
+ إذا كنت ترغب في قراءة لون تأثير التوهج لأي شكل ، فيرجى استخدام ملف[**شكل ، تدفق ، لون**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)خاصية. سيساعدك في العثور على الخصائص المختلفة المتعلقة بلون تأثير التوهج للشكل.
 
 ## اقرأ لون تأثير التوهج للشكل
 

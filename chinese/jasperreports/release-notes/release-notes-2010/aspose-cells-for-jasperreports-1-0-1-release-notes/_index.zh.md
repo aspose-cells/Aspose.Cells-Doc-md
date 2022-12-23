@@ -14,7 +14,7 @@ url: /zh/jasperreports/aspose-cells-for-jasperreports-1-0-1-release-notes/
 
 什么是新的：
 
-- Microsoft Excel 格式中的字体大小适当调整，以类似于 PDF 格式中的字符粘贴字符。
+- 适当调整字体大小以粘贴Microsoft Excel格式的字符类似于PDF格式的字符。
 - 日期格式的（图表的）轴标签正确且相应地呈现。
 - 支持区域的渐变填充效果，包括图表背景（图表区域、绘图区域等）、图例背景、条形图和气泡等。
 

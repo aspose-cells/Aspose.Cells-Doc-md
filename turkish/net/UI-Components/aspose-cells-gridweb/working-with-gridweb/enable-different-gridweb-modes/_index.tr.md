@@ -29,7 +29,7 @@ Aspose.Cells.GridWeb denetimi varsayılan olarak Düzenleme modundadır. Düzenl
 
 **Düzenleme Modunda GridWeb kontrolü** 
 
-![yapılacaklar:resim_alternatif_Metin](enable-different-gridweb-modes_1.png)
+![yapılacaklar:resim_alternatif_metin](enable-different-gridweb-modes_1.png)
 
 Geliştiriciler ayrıca GridWeb denetiminin EditMode özelliğini true olarak ayarlayarak program aracılığıyla Düzenleme moduna geçebilirler.
 
@@ -45,11 +45,11 @@ Aşağıdaki örnek, düzenleme modunun programlı olarak nasıl etkinleştirile
 
 {{% /alert %}} 
 ## **Görünüm Modu**
-GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kaydetmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** seçenek.
+GridWeb denetimi Görünüm modundayken, kullanıcılar ızgara içeriğini düzenleyemez veya değiştiremez; bu, kullanıcıların yalnızca ızgara içeriğini görüntüleyebileceği anlamına gelir. Bu yüzden bu moda Görünüm modu denir. Görünüm modunda, birkaç düğme (**Göndermek**, **Kayıt etmek** ve**Geri alma** ) gizlenir ve sağ tıklandığında görünen menü yalnızca**kopyala** seçenek.
 
 **Görüntüleme Modunda GridWeb kontrolü** 
 
-![yapılacaklar:resim_alternatif_Metin](enable-different-gridweb-modes_1.png)
+![yapılacaklar:resim_alternatif_metin](enable-different-gridweb-modes_1.png)
 
 Geliştiriciler, kullanıcılarının yalnızca verileri görüntülemesini istiyorsa, GridWeb denetiminin EditMode özelliğini false olarak ayarlayarak program aracılığıyla Görünüm moduna geçebilirler.
 

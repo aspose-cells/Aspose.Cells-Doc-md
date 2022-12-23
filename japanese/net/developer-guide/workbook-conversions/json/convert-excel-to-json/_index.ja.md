@@ -1,5 +1,5 @@
 ﻿---
-title: Excel から JSON への変換
+title: Convert-Excel-to-JSON
 type: docs
 weight: 300
 url: /ja/net/convert-excel-to-json/
@@ -12,9 +12,9 @@ Aspose.Cells は、ワークブックを Json (JavaScript Object Notation) フ�
 
 {{% /alert %}}
 
-## **Excel ワークブックを JSON に変換する**
+## **Excel ワークブックを JSON に変換**
 
-Apose.Cells for .NET ライブラリが最適な決定を下すため、Excel Workbook を JSON に変換する方法を考える必要はありません。 Aspose.Cells API は、スプレッドシートを JSON 形式に変換するためのサポートを提供します。ワークブックを JSON にエクスポートするには、次を渡します。[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)の 2 番目のパラメータとして[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法。使用することもできます[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions)クラスを使用して、ワークシートを JSON にエクスポートするための追加設定を指定します。
+Apose.Cells for .NET ライブラリには最適な決定があるため、Excel ワークブックを JSON に変換する方法を考える必要はありません。 Aspose.Cells API は、スプレッドシートを JSON 形式に変換するためのサポートを提供します。ワークブックを JSON にエクスポートするには、次を渡します。[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)の 2 番目のパラメータとして[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法。使用することもできます[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions)クラスを使用して、ワークシートを JSON にエクスポートするための追加設定を指定します。
 
 次のコード例は、Excel ワークブックを Json にエクスポートする方法を示しています。変換するコードを参照してください[ソースファイル](sample.xlsx)参照用のコードによって生成された Json ファイルに。
 

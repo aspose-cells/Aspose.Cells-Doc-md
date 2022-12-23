@@ -48,7 +48,7 @@ Autres améliorations et modifications
 
 ## **Insectes**
 
-(CELLSNET-42367) - Problème de texte vertical dans le PDF de sortie
+(CELLSNET-42367) - Problème de texte vertical dans la sortie PDF
 
 (CELLSNET-42409) - Le champ calculé n'est pas calculé/imprimé
 
@@ -60,7 +60,7 @@ Autres améliorations et modifications
 
 (CELLSNET-42358) - Problème d'alignement du texte avec des cases à cocher
 
-(CELLSNET-42357) - Certaines cases à cocher sont manquantes dans le HTML de sortie
+(CELLSNET-42357) - Certaines cases à cocher manquent dans la sortie HTML
 
 (CELLSNET-42352) - Bordures manquantes lors de la conversion de XLSX en HTML
 
@@ -88,21 +88,21 @@ Autres améliorations et modifications
 
 (CELLSNET-42428) - Conversion d'Excel en PDF - les lignes ne sont pas visibles
 
-(CELLSNET-42421) - Numéro 8 manquant dans le fichier PDF avec certains visualiseurs
+(CELLSNET-42421) - Numéro 8 manquant dans le fichier PDF avec certaines visionneuses
 
-(CELLSNET-42410) - Saut de page supplémentaire dans la conversion Excel en PDF
+(CELLSNET-42410) - Saut de page supplémentaire dans Excel en conversion PDF
 
-(CELLSNET-42338) - Écarts et problèmes pour les valeurs et les graphiques dans le XPS de sortie
+(CELLSNET-42338) - Écarts et problèmes pour les valeurs et les graphiques dans la sortie XPS
 
-(CELLSNET-41853) - Conceptions de la page XLS complètement perdues
+(CELLSNET-41853) - Dessins de la page XLS complètement perdus
 
-(CELLSNET-41803) - La barre de données négative n'apparaît pas dans le PDF de sortie
+(CELLSNET-41803) - La barre de données négative n'apparaît pas dans la sortie PDF
 
-(CELLSNET-42473) - Le graphique ne contient pas de marqueurs dans le PDF de sortie
+(CELLSNET-42473) - Le graphique ne contient pas de marqueurs dans la sortie PDF
 
 (CELLSNET-42403) - Problème de taille et de placement du graphique lors de la conversion de XLSX en PDF
 
-(CELLSNET-42372) - La série de données du graphique a été supprimée dans les fichiers XLSX de sortie
+(CELLSNET-42372) - La série de données du graphique a été supprimée dans les fichiers de sortie XLSX
 
 (CELLSNET-42055) - Fichier corrompu avec la dernière version de MS Excel (2013)
 
@@ -116,7 +116,7 @@ Autres améliorations et modifications
 
 (CELLSNET-42424) - Sortie WEEKNUM() incorrecte
 
-(CELLSNET-42412) - Certaines formules ne fonctionnent pas dans le PDF de sortie après l'appel de CalculateFormula()
+(CELLSNET-42412) - Certaines formules ne fonctionnent pas dans la sortie PDF après l'appel de CalculateFormula()
 
 (CELLSNET-42397) - La propriété de formule ne fonctionne pas sur l'objet cellule
 
@@ -130,10 +130,10 @@ Autres améliorations et modifications
 
 (CELLSNET-42371) - SmartMarkers : (group:merge AND skip:1) ne semblent pas fonctionner ensemble
 
-### **Exceptions**
+### **Des exceptions**
 
 
-(CELLSNET-42441) - Erreur lors de l'appel de GetNamedRanges par XLSX
+(CELLSNET-42441) - Erreur lors de l'appel de GetNamedRanges XLSX
 
 ## 2) Suite de grille Aspose.Cells
 

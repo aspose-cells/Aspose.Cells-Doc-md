@@ -18,7 +18,7 @@ url: /es/java/get-cell-string-value-with-and-without-formatting/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetCellStringValue-GetCellStringValue.java" >}}
 ## **Salida de consola**
-A continuación se muestra la salida de la consola del código de muestra anterior.
+A continuación se muestra la salida de la consola del código de ejemplo anterior.
 
 {{< highlight "java" >}}
 

@@ -40,7 +40,7 @@ Aspose.Cells for PHP via Java 作为 ZIP 存档分发。
 
 |> PHP 示例.php|
 |:- |
-### **苹果电脑：**
+### **苹果：**
 - 安装[PHP](https://www.php.net/downloads.php).
 - 安装 Oracle JDK（1.7 或 1.8）for Mac，配置 JAVA_HOME 环境变量。
 - 下载“Aspose.Cells for PHP via Java”API并解压。将有一个名为“aspose.cells”的文件夹。

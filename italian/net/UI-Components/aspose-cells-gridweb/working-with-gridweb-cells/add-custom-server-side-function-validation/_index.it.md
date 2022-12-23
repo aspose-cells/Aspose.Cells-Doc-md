@@ -18,5 +18,5 @@ A volte, potrebbe essere necessario implementare la convalida dei dati sul lato 
 ![cose da fare:immagine_alt_testo](add-custom-server-side-function-validation_4.png)
 
 ![cose da fare:immagine_alt_testo](add-custom-server-side-function-validation_5.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Cells-AddCustomServerSideFunctionValidation.aspx.cs" >}}

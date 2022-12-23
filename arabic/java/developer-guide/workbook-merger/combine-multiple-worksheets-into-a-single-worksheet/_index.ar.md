@@ -14,7 +14,7 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 ## **الجمع بين أوراق العمل**
 
- النموذج أدناه يستخدم ملف[**Range.copy ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) طريقة لنسخ جميع أوراق العمل المصدر في ورقة واحدة داخل مصنف الوجهة.
+ النموذج أدناه يستخدم ملف[**Range.copy ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)طريقة لنسخ جميع أوراق العمل المصدر في ورقة واحدة داخل مصنف الوجهة.
 
 ### **المصنف المصدر**
 

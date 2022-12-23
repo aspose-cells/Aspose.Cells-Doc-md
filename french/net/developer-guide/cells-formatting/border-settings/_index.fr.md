@@ -12,9 +12,9 @@ Avec Aspose.Cells, les développeurs peuvent ajouter des bordures et personnalis
 
 ### **Ajout de bordures au Cells**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
 
- Aspose.Cells fournit le[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)méthode dans la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classer. La[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)La méthode est utilisée pour définir le style de formatage d'une cellule. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)La classe fournit des propriétés pour ajouter des bordures aux cellules.
+ Aspose.Cells fournit le[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index)méthode dans la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe. Le[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index)La méthode est utilisée pour définir le style de formatage d'une cellule. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)La classe fournit des propriétés pour ajouter des bordures aux cellules.
 
 #### **Ajout de bordures à un Cell**
 
@@ -22,7 +22,7 @@ Les développeurs peuvent ajouter des bordures à une cellule en utilisant le[**
 
 **Dénombrement des frontières**
 
-|**Types de bordure**|**La description**|
+|**Types de bordure**|**Description**|
 |:- |:- |
 |BordureInférieure|Une ligne de bordure inférieure|
 |DiagonaleBas|Une ligne diagonale du haut à gauche vers le bas à droite|
@@ -31,7 +31,7 @@ Les développeurs peuvent ajouter des bordures à une cellule en utilisant le[**
 |Borduredroite|Une frontière droite|
 |Bordure supérieure|Une ligne de frontière supérieure|
 
-La[**Les frontières**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)collection stocke toutes les frontières. Chaque frontière dans le[**Les frontières**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) la collection est représentée par un[**Frontière**](https://reference.aspose.com/cells/net/aspose.cells/border) objet qui fournit deux propriétés,[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) et[**Style de ligne**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)pour définir respectivement la couleur et le style de ligne d'une bordure.
+Le[**Les frontières**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)collection stocke toutes les frontières. Chaque frontière dans le[**Les frontières**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) la collection est représentée par un[**Frontière**](https://reference.aspose.com/cells/net/aspose.cells/border) objet qui fournit deux propriétés,[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) et[**Style de ligne**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)pour définir respectivement la couleur et le style de ligne d'une bordure.
 
 Pour définir la couleur de ligne d'une bordure, sélectionnez une couleur à l'aide de l'énumération Color (qui fait partie du Framework .NET) et affectez-la à la propriété Color de l'objet Border.
 
@@ -39,7 +39,7 @@ Pour définir la couleur de ligne d'une bordure, sélectionnez une couleur à l'
 
 **Énumération CellBorderTypeCellBorderType énumération**
 
-|**Styles de ligne**|**La description**|
+|**Styles de ligne**|**Description**|
 |:- |:- |
 |TiretPoint|Ligne pointillée fine|
 |TiretPointPoint|Ligne fine tiret-point-pointillé|
@@ -55,7 +55,7 @@ Pour définir la couleur de ligne d'une bordure, sélectionnez une couleur à l'
 |PointTraitIncliné|Ligne pointillée moyenne inclinée|
 |Épais|Ligne épaisse|
 |Mince|Ligne fine|
-Sélectionnez l'un des styles de ligne, puis affectez-le au[**Frontière**](https://reference.aspose.com/cells/net/aspose.cells/border) objets[**Style de ligne**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) propriété.
+Sélectionnez l'un des styles de ligne, puis affectez-le au[**Frontière**](https://reference.aspose.com/cells/net/aspose.cells/border) objets[**Style de ligne**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
@@ -74,7 +74,7 @@ Il est également possible d'ajouter des bordures à une plage de cellules plut�
 - Nombre de lignes, le nombre de lignes dans la plage.
 - Nombre de colonnes, le nombre de colonnes dans la plage.
 
- La[**CréerPlage**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) méthode renvoie un[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) objet, qui contient la plage de cellules spécifiée. La[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) l'objet fournit un[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) méthode qui prend les paramètres suivants pour ajouter une bordure à la plage de cellules :
+ Le[**CréerPlage**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) méthode renvoie un[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) objet, qui contient la plage de cellules spécifiée. Le[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) l'objet fournit un[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) méthode qui prend les paramètres suivants pour ajouter une bordure à la plage de cellules :
 
 - **Type de bordure** , le type de bordure, sélectionné dans le[**Type de bordure**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)énumération.
 - **Style de ligne** , le style de bordure, sélectionné dans le[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)énumération.
@@ -94,7 +94,7 @@ Cette rubrique explique comment ajouter des couleurs personnalisées à la palet
 
 Aspose.Cells prend en charge la palette de 56 couleurs d'Excel Microsoft. Pour utiliser une couleur personnalisée qui n'est pas définie dans la palette, ajoutez la couleur à la palette.
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe offre une[**ChangerPalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) méthode qui prend les paramètres suivants pour ajouter une couleur personnalisée pour modifier la palette :
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe offre une[**ChangerPalette**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/changepalette) méthode qui prend les paramètres suivants pour ajouter une couleur personnalisée pour modifier la palette :
 
 - Couleur personnalisée, la couleur personnalisée à ajouter.
 - Index, l'index de la couleur dans la palette que la couleur personnalisée remplacera. Doit être compris entre 0 et 55.

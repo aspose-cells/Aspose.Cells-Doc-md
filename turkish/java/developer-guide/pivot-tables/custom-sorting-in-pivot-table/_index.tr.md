@@ -13,6 +13,6 @@ Aspose.Cells API kullanarak Pivot Tabloları alan değerlerine göre sıralayabi
 
 [Çıktı Excel Dosyası](95584328.xlsx)
 
-[Çıktı PDF Dosyası](95584329.pdf)
+[Çıktı PDF Dosya](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

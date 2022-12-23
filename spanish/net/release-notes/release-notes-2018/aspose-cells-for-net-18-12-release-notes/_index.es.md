@@ -15,24 +15,24 @@ url: /es/net/aspose-cells-for-net-18-12-release-notes/
 |CELLSNET-46479|El nombre de la pestaña no está disponible cuando el libro de trabajo de una sola hoja se convierte a HTML|Nueva caracteristica|
 |CELLSNET-46503|Controle la carga de datos de VBA mediante LoadDataFilterOptions|Nueva caracteristica|
 |CELLSNET-42414|Seguimiento de cambios perdidos durante la conversión de XLSB a XLSM y XLS a XLSM|Mejora|
-|CELLSNET-46090|El texto se movió un poco después de desagrupar la forma al guardar un XLS en XLSX|Mejora|
-|CELLSNET-46439|Optimización para el rendimiento de la memoria: libere el flujo original después de cargar el Libro de trabajo|Actuación|
-|CELLSNET-46371|Las líneas de cuadrícula no se muestran en algunas hojas al convertir XLSX->HTML->XLSX|Insecto|
-|CELLSNET-46447|Formatos perdidos en la representación de HTML a XLS|Insecto|
-|CELLSNET-46494|Conversión de MHT a XLSX: problema de contenido de la celda|Insecto|
+|CELLSNET-46090|El texto se movió un poco después de desagrupar la forma al guardar un XLS a XLSX|Mejora|
+|CELLSNET-46439|Optimización para el rendimiento de la memoria: libere el flujo original después de cargar el Libro de trabajo|Rendimiento|
+|CELLSNET-46371|Las líneas de cuadrícula no se muestran en algunas hojas durante la conversión XLSX->HTML->XLSX|Insecto|
+|CELLSNET-46447|Formatos perdidos en la representación HTML a XLS|Insecto|
+|CELLSNET-46494|Conversión de MHT a XLSX: problema de contenido de celda|Insecto|
 |CELLSNET-46468|MS Excel muestra un error al abrir el archivo de salida|Insecto|
 |CELLSNET-46487|La fórmula de configuración regional que no está en inglés no funciona|Insecto|
 |CELLSNET-46489|Eliminar una fila con un índice y leer la fila con el mismo índice devuelve Cell.ValuType: IsNull|Insecto|
-|CELLSNET-46406|No se puede abrir el documento ODS protegido con contraseña|Insecto|
-|CELLSNET-46466|Falta el texto inferior debajo del código de barras en la representación de MS Excel a PDF|Insecto|
+|CELLSNET-46406|No se puede abrir el documento protegido con contraseña ODS|Insecto|
+|CELLSNET-46466|Falta el texto inferior debajo del código de barras en MS Excel para la representación PDF|Insecto|
 |CELLSNET-46470|Falta la imagen después de la reproducción a la salida TIFF|Insecto|
-|CELLSNET-46499|Las imágenes no se procesan correctamente cuando se convierten de Excel a PDF|Insecto|
+|CELLSNET-46499|Las imágenes no se representan correctamente cuando se convierten de Excel a PDF|Insecto|
 |CELLSNET-46443|Apareció texto adicional en la imagen renderizada desde el gráfico de MS Excel|Insecto|
 |CELLSNET-46450|La imagen renderizada del gráfico de MS Excel tiene más unidades de eje que el gráfico original|Insecto|
-|CELLSNET-46451|Problema al representar el archivo de plantilla (que contiene el gráfico) en formato de archivo PDF|Insecto|
+|CELLSNET-46451|Problema al renderizar el archivo de plantilla (que contiene el gráfico) al formato de archivo PDF|Insecto|
 |CELLSNET-46454|El orden de la leyenda se representa de manera diferente al gráfico de Excel en la sesión 0 frente a la sesión 1|Insecto|
-|CELLSNET-46471|No se puede establecer el marcador de color LineWithDataMarkers en formato de archivo XLS|Insecto|
-|CELLSNET-42729|El texto se desplaza cuando los gráficos SmartArt se representan como formato de archivo HTML|Insecto|
+|CELLSNET-46471|No se puede establecer el marcador de color LineWithDataMarkers en el formato de archivo XLS|Insecto|
+|CELLSNET-42729|El texto se desplaza cuando los gráficos SmartArt se representan con el formato de archivo HTML|Insecto|
 |CELLSNET-46462|Texto repetido al reemplazar la etiqueta con texto|Insecto|
 |CELLSNET-46483|Error después de convertir el documento con la IU personalizada xml de XLSB a XLSM|Insecto|
 |CELLSNET-46495|Problemas encontrados al convertir el gráfico en imagen|Insecto|
@@ -40,7 +40,7 @@ url: /es/net/aspose-cells-for-net-18-12-release-notes/
 |CELLSNET-46472|PivotTable.GetChildren() genera la excepción "Nombre Cell no válido"|Excepción|
 |CELLSNET-46452|Excepción "NullReferenceException" al cargar un formato de archivo XLSB|Excepción|
 |CELLSNET-46456|ArgumentException al cargar el libro de trabajo|Excepción|
-|CELLSNET-46460|Excepción al acceder a TextBox.HtmlText desde XLS|Excepción|
+|CELLSNET-46460|Excepción al acceder a TextBox.HtmlText desde el XLS|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega la propiedad HtmlSaveOptions.ExportSingleTab**

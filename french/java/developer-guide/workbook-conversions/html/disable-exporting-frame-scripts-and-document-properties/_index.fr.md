@@ -6,7 +6,7 @@ url: /fr/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells exporte des scripts de cadre et des propriétés de document lors de la conversion d'un classeur en HTML. La version 8.6.0 de Aspose.Cells for Java introduit une option qui vous permet éventuellement de désactiver l'exportation des scripts de cadre et des propriétés du document. Veuillez utiliser le[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) propriété pour désactiver l'exportation.
+ Aspose.Cells exporte des scripts de cadre et des propriétés de document lors de la conversion d'un classeur en HTML. La version 8.6.0 de Aspose.Cells for Java introduit une option qui vous permet de désactiver éventuellement l'exportation de scripts de cadre et de propriétés de document. Veuillez utiliser le[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) propriété pour désactiver l'exportation.
 
 {{% /alert %}} 
 ## **Désactiver l'exportation des scripts de cadre et des propriétés du document**

@@ -74,7 +74,7 @@ Aspose.Cells提供[**整合功能**](https://reference.aspose.com/cells/java/com
 - [**合并函数.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
 - [**合并函数**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
-以下代码适用**平均**合并功能到第一个数据字段（或值字段）和**非重复计数**合并功能到第二个数据字段（或值字段）。
+以下代码适用**平均的**合并功能到第一个数据字段（或值字段）和**非重复计数**合并功能到第二个数据字段（或值字段）。
 
 {{% alert color="primary" %}}
 

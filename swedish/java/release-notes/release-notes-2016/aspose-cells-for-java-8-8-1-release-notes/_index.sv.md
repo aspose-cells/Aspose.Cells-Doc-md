@@ -8,21 +8,21 @@ url: /sv/java/aspose-cells-for-java-8-8-1-release-notes/
 
 |**Nyckel** |**Sammanfattning** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41664 |Exportera datafält baserat på villkorlig formatering till HTML| Ny funktion|
+|CELLSJAVA-41664 | Exportera datafält baserat på villkorlig formatering till HTML| Ny funktion|
 |CELLSJAVA-40746 | Stöd ColorScale, DataBar, IconSet när du exporterar XLSX till HTML| Ny funktion|
 |CELLSJAVA-41820 | Kalkylbladet har ingen metod calcualteFormula(Strängformel, alternativ för beräkningsalternativ)| Ny funktion|
 |CELLSJAVA-40544 | Prestandaflaskhals på Workbook.calculateFormula| Förbättring|
 |CELLSJAVA-41817 | Att ställa in ShowAllItems för PivotField verkar inte ha effekt| Insekt|
 |CELLSJAVA-41810 | Texten blir överbelastad och överlappar i EMF-bilden| Insekt|
-|CELLSJAVA-41801 | Textetiketter överlappar varandra i EMF-bilden| Insekt|
+|CELLSJAVA-41801 | Textetiketter överlappar i EMF-bilden| Insekt|
 |CELLSJAVA-41834 | Undantag görs vid kopiering av arbetsbok| Insekt|
-|CELLSJAVA-41819 | Kalkylark till HTML: Inriktningen av text i en form är fel efter kopiering av tema från källkalkylark| Insekt|
-|CELLSJAVA-41824 | Grafen återges inte i utdata-PDF-filen| Insekt|
+|CELLSJAVA-41819 | Kalkylark till HTML: Justering av text i en form är fel efter kopiering av tema från källkalkylark| Insekt|
+|CELLSJAVA-41824 | Grafen återges inte i utdata PDF| Insekt|
 |CELLSJAVA-41805 | X-axeletiketter saknas i diagrammets PDF| Insekt|
 |CELLSJAVA-41767 | Felaktigt nummerformat för X-axeletiketter i diagrammets PDF| Insekt|
-|CELLSJAVA-41640 | Långa bindestreck visas inte på rätt sätt i utdata-PDF/bilden för diagrammet| Insekt|
-|CELLSJAVA-41604 | Horisontella rutnätslinjer i diagrammet visas inte korrekt i den utgående PDF-filen| Insekt|
-|CELLSJAVA-41832 |Få diagramstaplar saknas vid rendering av kalkylblad till bild| Insekt|
+|CELLSJAVA-41640 | Långa bindestreck visas inte korrekt i utgången PDF/Bild för diagrammet| Insekt|
+|CELLSJAVA-41604 |Horisontella rutnätslinjer i diagrammet visas inte korrekt i utdata PDF| Insekt|
+|CELLSJAVA-41832 | Få diagramstaplar saknas vid rendering av kalkylblad till bild| Insekt|
 |CELLSJAVA-41837 | Lägg till Chart.toPDF(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)| Insekt|
 |CELLSJAVA-41839 | Ett namngivet intervall skapas när metoden Cells.copyRow() används inom ett namngivet intervall| Insekt|
 |CELLSJAVA-41838 | När du använder autoSizeColumns på arket breddas kolumnen inte ordentligt| Insekt|

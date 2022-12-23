@@ -13,7 +13,7 @@ Este tema explica cómo usar Aspose.Cells.GridWeb en aplicaciones ASP.NET con Vi
 Este tema muestra cómo usar Aspose.Cells.GridWeb creando un sitio web de muestra en Visual Studio 2013. El proceso se ha dividido en pasos.
 ### **Paso 1: Creación de un nuevo sitio web**
 1. Abra Visual Studio 2013.
-1.  Desde el**Expediente** menú, seleccione**Nuevo Menú** , después**Sitio web**. 
+1.  Desde el**Archivo** menú, seleccione**Nuevo Menú** , después**Sitio web**. 
 
 ![todo:imagen_alternativa_texto](working-with-visual-studio_1.png)
 
@@ -63,7 +63,7 @@ Se muestran todas las carpetas y aplicaciones web almacenadas en su carpeta raí
 
  Vuelve al cuadro de diálogo Nuevo sitio web. La ruta de la ubicación del sitio web se establece en<http://localhost/GridWebOn2013>. 
 
-1.  Hacer clic**OK** para permitir que Visual Studio cree un sitio web.
+1.  Hacer clic**DE ACUERDO** para permitir que Visual Studio cree un sitio web.
 
 ![todo:imagen_alternativa_texto](working-with-visual-studio_7.png)
 ### **Paso 2: Comprobación de las vistas de origen y diseño de una página web**
@@ -129,7 +129,7 @@ Elimine la página Default.aspx agregada por Visual Studio y agregue una nueva p
 
 
 
-1.  Conservar, modificar o eliminar la<!DOCTYPE>etiqueta.
+1.  Conservar, modificar o eliminar la<!DOCTYPE> etiqueta.
 1.  O modificar el<!DOCTYPE> etiqueta con la siguiente:
 
 {{< highlight "csharp" >}}

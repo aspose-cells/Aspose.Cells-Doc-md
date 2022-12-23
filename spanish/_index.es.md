@@ -10,7 +10,7 @@ url: /es/
 
 **Bienvenido a Aspose.Cells for .NET**
 
-Aspose.Cells for .NET es una biblioteca de programación de hojas de cálculo que permite a los desarrolladores de software crear, leer, convertir, actualizar e imprimir archivos de hojas de cálculo desde sus propias aplicaciones. Una combinación de API y controles GUI, Aspose.Cells for .NET acelera Microsoft la programación y conversión de Excel®. Aspose.Cells for .NET es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for .NET es una biblioteca de programación de hojas de cálculo que permite a los desarrolladores de software crear, leer, convertir, actualizar e imprimir archivos de hojas de cálculo desde sus propias aplicaciones. Una combinación de API y controles GUI, Aspose.Cells for .NET acelera Microsoft la programación y conversión de Excel®. Aspose.Cells for .NET es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluido TIFF, JPG, PNG, BMP and SVG.
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for Java**
 
-Aspose.Cells for Java es una biblioteca de clases que permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Java es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Java es una biblioteca de clases que permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Java es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluido TIFF, JPG, PNG, BMP and SVG.
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido al Aspose.Cells for C++**
 
-Aspose.Cells for C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft Excel. Aspose.Cells for C++ admite formatos de hoja de cálculo como MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML y otros formatos. También puede renderizar imágenes de hojas de trabajo y convertir hojas de cálculo de MS Excel a formato PDF. El API también le permite crear, manipular y representar gráficos y formas. Además, los cálculos de fórmulas son otro buen aspecto proporcionado por el componente y puede utilizarlo.
+Aspose.Cells for C++ es una biblioteca nativa de C++ que permite a los desarrolladores de C++ crear, manipular y convertir hojas de cálculo mediante programación sin necesidad de Office Automation o la aplicación Microsoft Excel. Aspose.Cells for C++ admite formatos de hoja de cálculo como MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML y otros formatos. También puede renderizar imágenes de hojas de trabajo y convertir hojas de cálculo de MS Excel al formato PDF. El API también le permite crear, manipular y representar gráficos y formas. Además, los cálculos de fórmulas son otro buen aspecto proporcionado por el componente y puede utilizarlo.
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido al Aspose.Cells for Android via Java**
 
-Aspose.Cells for Android via Java es un componente flexible que permite que las aplicaciones de Android creen y administren hojas de cálculo de Excel sin necesidad de Microsoft Excel. El objetivo final de Aspose.Cells for Android via Java es traer todas las características impresionantes de Aspose.Cells for Java a la plataforma Android que hace posible el desarrollo nativo de Android en Java, ya sea con Android Studio o cualquier IDE que admita el desarrollo de Android. Aspose.Cells for Android via Java es una biblioteca de clases que permite que sus aplicaciones nativas de Android realicen una gran variedad de tareas de procesamiento de documentos. Aspose.Cells for Android via Java admite XLS, XLSX, CSV, SpreadsheetML, ODS, delimitado por tabuladores, HTML, PDF, XPS y otros formatos. Con Aspose.Cells for Android via Java puede generar, modificar, convertir y renderizar hojas de cálculo.
+Aspose.Cells for Android via Java es un componente flexible que permite que las aplicaciones de Android creen y administren hojas de cálculo de Excel sin necesidad de Microsoft Excel. El objetivo final de Aspose.Cells for Android via Java es traer todas las características impresionantes de Aspose.Cells for Java a la plataforma Android que hace posible el desarrollo nativo de Android en Java, ya sea con Android Studio o cualquier IDE que admita el desarrollo de Android. Aspose.Cells for Android via Java es una biblioteca de clases que permite que sus aplicaciones nativas de Android realicen una gran variedad de tareas de procesamiento de documentos. Aspose.Cells for Android via Java admite XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS y otros formatos. Con Aspose.Cells for Android via Java puede generar, modificar, convertir y renderizar hojas de cálculo.
 
 {{% /alert %}}
 
@@ -106,7 +106,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for Node.js via Java**
 
-Aspose.Cells for Node.js via Java presenta todas las características útiles de Aspose.Cells for Java usando Node.js. Aspose.Cells for Node.js via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Node.js via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, estilo de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro confiable motor de cálculo de fórmulas. Aspose.Cells for Node.js via Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabuladores, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells for Node.js via Java puede generar, modificar, convertir y renderizar documentos de Excel.
+Aspose.Cells for Node.js via Java presenta todas las características útiles de Aspose.Cells for Java usando Node.js. Aspose.Cells for Node.js via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Node.js via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, estilo de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro confiable motor de cálculo de fórmulas. Aspose.Cells for Node.js via Java admite XLS, XLSX, ODS, SpreadsheetML, 0761111193481, tabats, HTML/MHTML, CSV, Tab y otros formats. Con Aspose.Cells for Node.js via Java puede generar, modificar, convertir y renderizar documentos de Excel.
 
 {{% /alert %}}
 
@@ -130,7 +130,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for PHP via Java**
 
-Aspose.Cells for PHP via Java proporciona todas las características valiosas de Aspose.Cells for Java usando JavaBridge. Aspose.Cells for PHP via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for PHP via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, diseño de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro motor de cálculo de fórmula confiable. Aspose.Cells for PHP via Java admite XLS, XLSX, ODS, SpreadsheetML, CSV, delimitado por tabuladores, HTML/MHTML, PDF, XPS y otros formatos. Con Aspose.Cells for PHP via Java puede generar, modificar, convertir y renderizar documentos de Excel.
+Aspose.Cells for PHP via Java proporciona todas las características valiosas de Aspose.Cells for Java usando JavaBridge. Aspose.Cells for PHP via Java es una biblioteca de clases que le permite realizar una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for PHP via Java es un API escalable y rico en funciones que ofrece conversión de formato de hoja de cálculo, estilo de hojas de trabajo al nivel más granular, gestión y representación de gráficos, y nuestro motor de cálculo de fórmula confiable. Aspose.Cells for PHP via Java admite XLS, XLSX, ODS, SpreadsheetML, 0761111193481, tabats, HTML/MHTML, CSV, Tab y otros formats. Con Aspose.Cells for PHP via Java puede generar, modificar, convertir y renderizar documentos de Excel.
 
 {{% /alert %}}
 
@@ -154,7 +154,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via Java es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Python via Java permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via Java es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
 
 {{% /alert %}}
 
@@ -221,7 +221,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for JasperReports**
 
- Aspose.Cells for JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en Microsoft formatos de Excel (XLS, XLSX).
+ Aspose.Cells for JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en formatos de Excel Microsoft (XLS, XLSX).
 
 {{% /alert %}}
 
@@ -243,7 +243,7 @@ Los siguientes son los enlaces a algunos recursos útiles que puede necesitar pa
 
 **Bienvenido a Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via .NET es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for Python via .NET permite que sus aplicaciones realicen una gran variedad de tareas de procesamiento de hojas de cálculo. Aspose.Cells for Python via .NET es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel® a PDF, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
 
 {{% /alert %}}
 

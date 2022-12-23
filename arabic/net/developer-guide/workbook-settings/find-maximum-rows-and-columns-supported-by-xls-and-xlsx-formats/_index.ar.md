@@ -1,5 +1,5 @@
 ﻿---
-title: ابحث عن الحد الأقصى من الصفوف والأعمدة التي تدعمها تنسيقات XLS و XLSX
+title: يمكنك البحث عن الحد الأقصى من الصفوف والأعمدة المدعومة بالتنسيقات XLS و XLSX
 type: docs
 weight: 20
 url: /ar/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
@@ -8,9 +8,9 @@ url: /ar/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 
 هناك عدد مختلف من الصفوف والأعمدة التي تدعمها تنسيقات Excel. على سبيل المثال ، يدعم XLS 65536 صفاً و 256 عموداً بينما يدعم XLSX 1048576 صفاً و 16384 عموداً. إذا كنت تريد معرفة عدد الصفوف والأعمدة التي يدعمها تنسيق معين ، فيمكنك استخدام[**المصنف.الإعدادات. MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و[**المصنف.الإعدادات. MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)الخصائص.
 
-## **ابحث عن الحد الأقصى من الصفوف والأعمدة التي تدعمها تنسيقات XLS و XLSX**
+## **يمكنك البحث عن الحد الأقصى من الصفوف والأعمدة المدعومة بالتنسيقات XLS و XLSX**
 
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف أولاً في XLS ثم بتنسيق XLSX. بعد الخلق ، تطبع قيم[**المصنف.الإعدادات. MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و[**المصنف.الإعدادات. MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)الخصائص. يرجى الاطلاع على إخراج وحدة التحكم من الكود الوارد أدناه للرجوع اليها.
+ينشئ نموذج التعليمات البرمجية التالي المصنف أولاً في XLS ثم بتنسيق XLSX. بعد الخلق ، تطبع قيم[**المصنف.الإعدادات. MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) و[**المصنف.الإعدادات. MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)الخصائص. يرجى الاطلاع على إخراج وحدة التحكم من الكود الوارد أدناه للرجوع اليها.
 
 ## **عينة من الرموز**
 

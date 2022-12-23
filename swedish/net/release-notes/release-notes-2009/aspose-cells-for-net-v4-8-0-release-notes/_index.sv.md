@@ -22,7 +22,7 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Förbättra prestandan för funktionen för automatisk anpassning av rader/kolumner
 
- l Lägg till WordArt-former i XLS-filen
+ l Lägg till WordArt-former i filen XLS
 
  Läs Gradient Fill-effekter för diagrammet
 
@@ -48,17 +48,17 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |8749 | Chart2Image| Diagram visas inte i Excel PDF|
 |9712 | Chart2Image| Stöder grupperad form till bild|
 |9766 | Chart2Image| Får nollvärden|
-|8738 | CSV| Det gick inte att ladda en csv-fil|
-|8737 | CSV| Att öppna csv-filen verkar skriva till konsolen|
-|8984 | HTML| Långsam prestanda när du sparar arbetsbok som HTML|
+|8738 |CSV | Det gick inte att ladda en csv-fil|
+|8737 |CSV | Att öppna csv-filen verkar skriva till konsolen|
+|8984 |HTML | Långsam prestanda när du sparar arbetsbok som HTML|
 |7915 | Pdf| Frågan om att konvertera celler till pdf|
-|8669 | Pdf| Excel till PDF-konverteringsproblem|
+|8669 | Pdf| Excel till PDF Konverteringsproblem|
 |8672 | Pdf| Skillnad i utdata när Excel-fil genereras till Pdf-fil|
 |8678 | Pdf| Cells Till PDF, sidfotsbilden är suddig|
 |8749 | Pdf| Diagram visas inte i Excel PDF|
-|8986 | Pdf| Konvertera från Excel till PDF|
-|8988 | Pdf|spara arbetsbok som PDF trasig|
-|9608 | Pdf| XLS-konverteringsproblem (negativ längd?)|
+|8986 | Pdf|Konvertera från Excel till PDF|
+|8988 | Pdf| sparar arbetsboken som PDF trasig|
+|9608 | Pdf| XLS konverteringsproblem (negativ längd?)|
 |9609 | Pdf| Spara till FileFormatType.Pdf med flertrådsimplementering|
 |9670 | Pdf| Excel2PDF med problem med grupperad form|
 |9761 | Pdf| Fel när spara som Aspose.Pdf.xml|
@@ -77,9 +77,9 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | SpreadML| Ett fel att öppna och spara filen|
 |9610 | SpreadML| Dölj kolumner förlorar sin breddinformation|
 |7916 | Xls| Uppdatera Frys rutor när du infogar/tar bort rader/kolumner|
-|8588 | Xls| Problem med att beräkna matrisformler|
+|8588 | Xls|Problem med att beräkna matrisformler|
 |8590 | Xls| Kopiera ark|
-|8604 | Xls|Problem med att kopiera rader.|
+|8604 | Xls| Problem med att kopiera rader.|
 |8668 | Xls| Problem med smarta markörer grupp med merge|
 |8673 | Xls| Bugg med SUMIF och beräkningsformel|
 |8676 | Xls| Cirkeldiagrammets dataetiketter|
@@ -100,9 +100,9 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | Xls| Extremt långsam AutoFitColumns-prestanda|
 |9266 | Xls| Formel är inte beräknad|
 |9267 | Xls| Lista över villkorlig validering|
-|9293 | Xls| CalculateFormula kommer inte att beräkna|
+|9293 | Xls|CalculateFormula kommer inte att beräkna|
 |9488 | Xls| Frågan om att öppna xls-filen.|
-|9501 | Xls|DeleteRows tar inte bort inbäddade bilder|
+|9501 | Xls| DeleteRows tar inte bort inbäddade bilder|
 |9545 | Xls| SetDataSource() ger ett fel|
 |9546 | Xls| Fel färg på siffror|
 |9672 | Xls| Beräkna uppslagsfunktionsfel|
@@ -122,9 +122,9 @@ url: /sv/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | Xls| Smart Marker Subtotal Rader - Statisk text dynamisk formel|
 |10153 | Xls| AutoFitRows() när kolumnen är dold|
 |10158 | Xls| Få diagram efter namn|
-|8587 | Xls| Beställ bilder / former|
+|8587 | Xls|Beställ bilder / former|
 |9062 | Xls| ExportDataTable Overflow/Underflow-problem|
-|9707 | Xls|Utskriftsområdet uppdateras inte vid radering av kolumner/rader|
+|9707 | Xls| Utskriftsområdet uppdateras inte vid radering av kolumner/rader|
 |10038 | Xls| Delsumma - SammanfattningBelowData|
 |10041 | Xls| Hitta sträng skiftlägeskänslig.|
 |8419 | Xlsx| Det går inte att läsa xlsx-filen|

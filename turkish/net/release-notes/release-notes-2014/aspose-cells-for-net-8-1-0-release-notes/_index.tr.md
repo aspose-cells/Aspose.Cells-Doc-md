@@ -11,7 +11,7 @@ url: /tr/net/aspose-cells-for-net-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET, 8.1.1 sürümüne güncellendi ve bu sürümün 20'den fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -22,7 +22,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 ## **Yeni özellikler**
 
 
-(CELLSNET-42761) - Çalışma sayfalarından senaryoları kaldır
+ (CELLSNET-42761) - Çalışma sayfalarından senaryoları kaldır
 
 
 ## **Hatalar**
@@ -32,19 +32,19 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42387) - Metin, başlığın dışına taşınır.
 
- (CELLSNET-42385) - XLSX'i PDF'ye dönüştürürken Eğimli Bağlayıcı şekli görünmüyor
+ (CELLSNET-42385) - XLSX'den PDF'e işlenirken Eğimli Bağlayıcı şekli görünmüyor
 
  (CELLSNET-42379) - Matrix'teki metin farklı görüntüleniyor
 
  (CELLSNET-42752) - PivotTable Alt Toplamlarında yanlış hücre birleştirme var
 
- (CELLSNET-42703) - PivotTable'a sahip elektronik tabloyu PDF'ye dönüştürmenin stille ilgili sorunları var
+ (CELLSNET-42703) - PivotTable içeren e-tablonun PDF'e dönüştürülmesi stille ilgili sorunlara neden oluyor
 
  (CELLSNET-42386) - GetPivotData işlevi hatalı değeri hesaplar
 
- (CELLSNET-42742) - Aspose.Cells PDF'ye Yanlış Yazı Tiplerini Gömüyor
+ (CELLSNET-42742) - Aspose.Cells, PDF'de Yanlış Yazı Tiplerini Gömüyor
 
- (CELLSNET-42697) - Başlık pdf çıktısında çoğaltılıyor
+(CELLSNET-42697) - Başlık pdf çıktısında çoğaltılıyor
 
  (CELLSNET-42759) - Grafiğin X ekseni etiketleri kesilir
 
@@ -52,9 +52,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42750) - Oklar dikey bir eksende yansıtılmış olarak gösteriliyor
 
-(CELLSNET-42748) - Açıklama satırları Excel'dekinden daha incedir
+ (CELLSNET-42748) - Açıklama satırları Excel'dekinden daha incedir
 
- (CELLSNET-42730) - XLSM'den PDF'e, Cell Değeri ve Formatında değişiklik yapıldığında askıda kalma eğilimi gösteriyor
+ (CELLSNET-42730) - XLSM - PDF, Cell Değeri ve Formatında değişiklik yapıldığında askıda kalma eğilimi gösteriyor
 
  (CELLSNET-42381) - Liste başlığı altında madde işaretli liste düzgün yazdırılmıyor
 
@@ -66,9 +66,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42725) - Eklenen resim orijinal boyutunu kaybediyor
 
- (CELLSNET-42716) - XLSM dosyasını yeniden kaydettikten sonra XLSM Şeritleri Kayboldu
+ (CELLSNET-42716) - XLSM XLSM dosyasını yeniden kaydettikten sonra Şeritler Kayboldu
 
- (CELLSNET-42711) - Row.ApplyStyle düzgün çalışmıyor
+(CELLSNET-42711) - Row.ApplyStyle düzgün çalışmıyor
 
  (CELLSNET-42708) - HTML'de hücrelerin yeşil arka plan rengi kayboluyor
 
@@ -80,7 +80,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42782) - xlsx dosyasını okurken System.FormatException
 
-(CELLSNET-42758) - Belirtilen atama, Cell.GetDisplayStyle() üzerinde geçerli bir istisna değil
+ (CELLSNET-42758) - Belirtilen atama, Cell.GetDisplayStyle() üzerinde geçerli bir istisna değil
 
  (CELLSNET-42724) - Worksheet/Workbook.CalculateFormula() yöntemi çağrılırken StackOverflowException oluştu
 

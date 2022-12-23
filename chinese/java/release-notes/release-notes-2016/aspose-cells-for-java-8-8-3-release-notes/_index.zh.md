@@ -10,19 +10,19 @@ url: /zh/java/aspose-cells-for-java-8-8-3-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41866|如何设置文本选项的图例条目属性|新功能|
 |CELLSJAVA-41865|创建文本框，其中每行具有不同的水平对齐方式|新功能|
-|CELLSJAVA-41873|转换为 HTML 会呈现多余的空行|漏洞|
+|CELLSJAVA-41873|转换为 HTML 呈现多余的空行|漏洞|
 |CELLSJAVA-41869|重新保存模板 XLS 文件后，文本对齐方式发生变化|漏洞|
 |CELLSJAVA-41854|带有 DataBars 的 Excel 文件未正确转换为 HTML|漏洞|
 |CELLSJAVA-41851|使用 Aspose.Cells 创建的数据透视图不显示在 Excel 2016 for MAC 中|漏洞|
 |CELLSJAVA-41840|Aspose.Cells 在资源 HTML 的路径末尾附加 null|漏洞|
 |CELLSJAVA-41878|LightCells API 只为行的第一列生成事件|漏洞|
-|CELLSJAVA-41859|Cell 重新保存 XLS 后出现边框|漏洞|
+|CELLSJAVA-41859|Cell 重新保存后出现边框 XLS|漏洞|
 |CELLSJAVA-41888|将 XLS 转换为 PDF 时徽标图像丢失|漏洞|
-|CELLSJAVA-41874|从 XLS 文件渲染的 PDF 中的字符位置不同|漏洞|
+|CELLSJAVA-41874|从 XLS 文件呈现的 PDF 中的字符位置不同|漏洞|
 |CELLSJAVA-41852|在 Linux 上将工作表转换为 EMF 时文本重叠|漏洞|
-|CELLSJAVA-41823|与 Excel 生成的 PDF 相比，文本密度和换行符不同|漏洞|
-|CELLSJAVA-41822|将电子表格呈现为 PDF 时文本被修剪和重叠|漏洞|
-|CELLSJAVA-41856|将图表呈现为 PDF 时出现问题|漏洞|
+|CELLSJAVA-41823|与 Excel 生成的文本密度和换行符不同 PDF|漏洞|
+|CELLSJAVA-41822|在将电子表格呈现为 PDF 时文本被修剪和重叠|漏洞|
+|CELLSJAVA-41856|将图表渲染到 PDF 时出现问题|漏洞|
 |CELLSJAVA-41855|打开并保存 Excel 文件会更改趋势线|漏洞|
 |CELLSJAVA-41890|工作簿保存两次，第二次保存的内容会和第一次不同|漏洞|
 |CELLSJAVA-41884|在保存到 Excel 文件之前未排序的分页符问题|漏洞|

@@ -39,7 +39,7 @@ url: /tr/reportingservices/performance/
 
 
 
-- **AutoRowFit mi** : Performance değeri şu olduğunda**kapalı** , IsAutoRowFit'in değeri:**yanlış**varsayılan olarak. Performans parametresinin değeri**üzerinde** , değer**doğru** varsayılan olarak. Performance'ın değeri şu olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **AutoRowFit mi** : Performance değeri şu olduğunda**kapalı** , IsAutoRowFit'in değeri:**YANLIŞ** varsayılan olarak. Performans parametresinin değeri**üzerinde** , değer**doğru** varsayılan olarak. Performance'ın değeri şu olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ url: /tr/reportingservices/performance/
 
 
 
-- **Birleştirilmiş** : Performance değeri şu olduğunda**kapalı** , IsMerged varsayılan değeri:**yanlış** . Performance'ın değeri şu olduğunda**üzerinde** , varsayılan değer**doğru** . Değer Performans parametresi olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **Birleştirilmiş** : Performance değeri şu olduğunda**kapalı** , IsMerged varsayılan değeri:**YANLIŞ** . Performance'ın değeri şu olduğunda**üzerinde** , varsayılan değer**doğru** . Değer Performans parametresi olduğunda**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
 
 {{< highlight "java" >}}
 
@@ -89,7 +89,7 @@ url: /tr/reportingservices/performance/
 
 
 
-- **SetStyle** : Performance değeri şu olduğunda**kapalı** , varsayılan değer**yanlış** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
+- **SetStyle** : Performance değeri şu olduğunda**kapalı** , varsayılan değer**YANLIŞ** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir.
 
 {{< highlight "java" >}}
 
@@ -114,7 +114,7 @@ url: /tr/reportingservices/performance/
 
 
 
-- **Koşullu Biçimlendirme** : Performans**kapalı** , varsayılan değer**yanlış** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir. IsSetStyle parametre değeri olarak ayarlandığında**yanlış** , Performans değeri geçersiz.
+- **Koşullu Biçimlendirme** : Performans**kapalı** , varsayılan değer**YANLIŞ** . Performans ne zaman**üzerinde** , varsayılan değer**doğru** . Ayrıca, Performans**üzerinde** , bir alt öğe raporu, nokta raporunu AutoRowFit değerine sıfırlayabilir. IsSetStyle parametre değeri olarak ayarlandığında**YANLIŞ** , Performans değeri geçersiz.
 
 {{< highlight "java" >}}
 

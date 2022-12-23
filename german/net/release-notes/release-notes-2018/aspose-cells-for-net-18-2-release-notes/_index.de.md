@@ -21,20 +21,20 @@ url: /de/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45833|Bildeigenschaften (Titel und Betreff) gehen bei der Form-zu-Bild-Konvertierung verloren|Insekt|
 |CELLSNET-45822|Umgekehrte Zeichen in Etiketten beim Konvertieren von Excel in PDF|Insekt|
 |CELLSNET-45776|Einige Spaltendaten werden nicht vollständig erweitert/angezeigt, wenn eine HTML-Datei im Excel-Dateiformat gespeichert wird|Insekt|
-|CELLSNET-44829|Ausgabe-HTML stimmt nicht mit Microsoft Excel überein|Insekt|
+|CELLSNET-44829|Ausgabe HTML stimmt nicht mit Microsoft Excel überein|Insekt|
 |CELLSNET-44319|Der Filterwert der Pivot-Tabelle wird bei der Aktualisierung nicht beibehalten|Insekt|
 |CELLSNET-45887|#WERT!' Fehler für die Berechnung von ArrayFormula|Insekt|
-|CELLSNET-45883|3D-Kreisdiagramm – wird im Ausgabe-PDF nicht gut wiedergegeben|Insekt|
+|CELLSNET-45883|3D-Kreisdiagramm - wird in der Ausgabe PDF nicht gut wiedergegeben|Insekt|
 |CELLSNET-45881|Das Öffnen und Speichern der Excel-Eingabedatei führt in MS Excel zu einer Warnung vor der roten geschützten Ansicht|Insekt|
 |CELLSNET-45880|Ein Teil der x-Achsenbeschriftungen wird in der zweiten Zeile des Diagramms gerendert|Insekt|
-|CELLSNET-45864|EMF umgerechnet von Aspose.Cells ist nicht ganz genau|Insekt|
+|CELLSNET-45864|EMF konvertiert von Aspose.Cells ist nicht ganz genau|Insekt|
 |CELLSNET-45885|Der Typ (Attribut) des externen Links wird nach dem Öffnen/Speichern geändert|Insekt|
-|CELLSNET-45872|Die Excel-Datenverbindung kann nicht gelesen werden, wenn der Typ CSV ist|Insekt|
+|CELLSNET-45872|Excel-Datenverbindung kann nicht gelesen werden, wenn der Typ CSV ist|Insekt|
 |CELLSNET-45868|Der Eigenschaftswert PrintTitleRows verschwindet nach dem Öffnen und Speichern um Aspose.Cells|Insekt|
 |CELLSNET-45865|Sonderzeichen, die in einem Spaltennamen verwendet werden, funktionieren nicht – Problem mit intelligenten Markierungen|Insekt|
 |CELLSNET-45858|Die Änderung der Linkquelle wirkt sich auf den Inhalt von Dropdowns aus|Insekt|
 |CELLSNET-45857|Beschädigte Datei beim Kopieren eines Blatts von einer Arbeitsmappe in eine andere|Insekt|
-|CELLSNET-45901|Die Textfeldausrichtung geht verloren, wenn sie in PDF gerendert wird|Insekt|
+|CELLSNET-45901|Die Ausrichtung des Textfelds geht verloren, wenn es auf PDF gerendert wird|Insekt|
 |CELLSNET-45875|Cell-Wert geht verloren und ein Teil der X-Achsen-Beschriftungen wird in der zweiten Zeile gerendert|Insekt|
 |CELLSNET-45873|Implementierung einer interaktiven Steuerung für Gruppen von Optionsfeldern in GridWeb|Insekt|
 |CELLSNET-45902|Das Arbeitsblatt wird zu groß und reagiert nicht mehr, wenn es in Aspose.Cells.GridWeb aufgerufen oder darauf geklickt wird|Insekt|

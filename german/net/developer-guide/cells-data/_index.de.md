@@ -8,7 +8,7 @@ description: Dieser Artikel beschreibt, wie Sie Daten von Excel-Dateien mit der 
 ---
 {{% alert color="primary" %}}
 
- Im[Zugriff auf Cells eines Arbeitsblatts](/cells/de/net/accessing-cells-of-a-worksheet/)haben wir grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt besprochen. Dieser Artikel verwendet einen dieser Ansätze, um Zellen verschiedene Datentypen hinzuzufügen.
+ In[Zugriff auf Cells eines Arbeitsblatts](/cells/de/net/accessing-cells-of-a-worksheet/)haben wir grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt besprochen. Dieser Artikel verwendet einen dieser Ansätze, um Zellen verschiedene Datentypen hinzuzufügen.
 
 {{% /alert %}}
 
@@ -16,13 +16,13 @@ description: Dieser Artikel beschreibt, wie Sie Daten von Excel-Dateien mit der 
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung. Jeder Artikel in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung stellt ein Objekt der[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)Klasse.
 
-Aspose.Cells ermöglicht Entwicklern das Hinzufügen von Daten zu den Zellen in Arbeitsblättern durch Aufrufen von[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse'[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode. Aspose.Cells bietet überladene Versionen der[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode, mit der Entwickler Zellen verschiedene Arten von Daten hinzufügen können. Die Verwendung dieser überladenen Versionen der[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Methode ist es möglich, der Zelle einen Boolean-, String-, Double-, Integer- oder Datums-/Zeitwert usw. hinzuzufügen.
+Aspose.Cells ermöglicht Entwicklern das Hinzufügen von Daten zu den Zellen in Arbeitsblättern durch Aufrufen von[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse'[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode. Aspose.Cells bietet überladene Versionen der[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode, mit der Entwickler Zellen verschiedene Arten von Daten hinzufügen können. Die Verwendung dieser überladenen Versionen der[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)-Methode ist es möglich, der Zelle einen Boolean-, String-, Double-, Integer- oder Datums-/Zeitwert usw. hinzuzufügen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AddingDataToCells-1.cs" >}}
 
 ## **Effizienz verbessern**
 
- Wenn du benutzt[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Um eine große Datenmenge in ein Arbeitsblatt einzufügen, sollten Sie den Zellen Werte hinzufügen, zuerst nach Zeilen und dann nach Spalten. Dieser Ansatz verbessert die Effizienz Ihrer Anwendungen erheblich.
+ Wenn du benutzt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)Um eine große Datenmenge in ein Arbeitsblatt einzufügen, sollten Sie den Zellen Werte hinzufügen, zuerst nach Zeilen und dann nach Spalten. Dieser Ansatz verbessert die Effizienz Ihrer Anwendungen erheblich.
 
 ## **Abrufen von Daten von Cells**
 
@@ -70,7 +70,7 @@ Während der Arbeit an Arbeitsblättern können Benutzer verschiedene Arten von 
 - [Daten aus Arbeitsblatt exportieren](/cells/de/net/export-data-from-worksheet/)
 - [Daten finden oder suchen](/cells/de/net/find-or-search-data/)
 - [Holen Sie sich Cell Zeichenfolgenwert mit und ohne Formatierung](/cells/de/net/get-cell-string-value-with-and-without-formatting/)
-- [Hinzufügen von HTML-Rich-Text in Cell](/cells/de/net/adding-html-rich-text-inside-the-cell/)
+- [Hinzufügen von HTML Rich Text in Cell](/cells/de/net/adding-html-rich-text-inside-the-cell/)
 - [Fügen Sie Hyperlinks in Excel oder OpenOffice ein](/cells/de/net/insert-hyperlinks-to-excel/)
 - [Daten in Arbeitsblatt importieren](/cells/de/net/import-data-into-worksheet/)
 - [Wie und wo Enumeratoren verwendet werden](/cells/de/net/how-and-where-to-use-enumerators/)

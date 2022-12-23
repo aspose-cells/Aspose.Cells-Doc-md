@@ -13,18 +13,18 @@ url: /tr/java/aspose-cells-for-java-20-5-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43173|Grup alanı boş bir değere sahip olduğunda, ara toplamN'nin sonucu boş grup için ara toplamı kaybeder|Artırma|
-|CELLSJAVA-43162|Excel'den HTML'ye dönüştürme - dönüştürme işlemi uzun zaman alıyor|Böcek|
+|CELLSJAVA-43162|Excel'den HTML'e dönüştürme - dönüştürme işlemi uzun zaman alıyor|Böcek|
 |CELLSJAVA-43164|HTML'den Excel'e dönüştürme, çıktıdaki zengin metin biçimlerini korumaz|Böcek|
-|CELLSJAVA-43166|Döndürülmüş metin, XLSX'ten HTML'ye dönüştürmede iyi işlenmez|Böcek|
-|CELLSJAVA-43178|Dosya HTML'ye dışa aktarılırken RichText biçimlendirmeleri kayboluyor|Böcek|
-|CELLSJAVA-43165|"20TT1" dizesi, CSV'den XLSB'ye dönüştürme sırasında 43850 sayısıyla değiştirildi|Böcek|
+|CELLSJAVA-43166|Döndürülen metin, XLSX'den HTML'e dönüştürmede düzgün işlenmez|Böcek|
+|CELLSJAVA-43178|Dosya HTML'e aktarılırken RichText biçimlendirmeleri kayboluyor|Böcek|
+|CELLSJAVA-43165|"20TT1" dizesi, CSV'den XLSB'e dönüştürme sırasında 43850 sayısıyla değiştirildi|Böcek|
 |CELLSJAVA-43026|Grafiği görüntüye dönüştürdükten sonra Veri Etiketleri stili değiştirir ve değerler aynı değildir|Böcek|
 |CELLSJAVA-43154|Bazı grafik noktaları etikete göre çakışıyor|Böcek|
-|CELLSJAVA-43089|XLS'den PDF'e dönüştürmede Radar grafiği ters çevrilmiş ve eksen değerleri orijinal grafikle aynı değil|Böcek|
+|CELLSJAVA-43089|XLS'den PDF'e dönüşümde Radar grafiği ters çevrilmiş ve eksen değerleri orijinal tabloyla aynı değil|Böcek|
 |CELLSJAVA-43171|Sayfaları kopyaladıktan sonra belge bozuldu|Böcek|
 |CELLSJAVA-43172|Birleştirilmiş hücrelerde akıllı işaretçilerle ilgili bir sorun|Böcek|
 |CELLSJAVA-43183|PivotTable hesaplanırken "ClassCastException: ...." istisnası|İstisna|
-|CELLSJAVA-43177|CSV dosyası içeren yeni Çalışma Kitabı "java.lang.IndexOutOfBoundsException: milisaniye" ile sonuçlanır|İstisna|
+|CELLSJAVA-43177|CSV dosyalı yeni Çalışma Kitabı "java.lang.IndexOutOfBoundsException: milisaniye" ile sonuçlanır|İstisna|
 |CELLSJAVA-43168|Excel dosyalarını birleştirirken "IllegalStateException: Bu yapılandırılmış bir depolama dosyası değil" istisnası|İstisna|
 |CELLSJAVA-43179|İstisna NumberFormatException: Giriş dizesi için: "koru"|İstisna|
 |CELLSJAVA-43182|XLS dosyası yüklenirken 'lang.IllegalStateException: Geçersiz kodlama: null' istisnası|İstisna|

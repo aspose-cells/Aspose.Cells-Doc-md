@@ -135,7 +135,7 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Spara ODS-fil i ODF 1.1 och 1.2 Specifikationer](/cells/sv/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) för mer information.
+ Vänligen kontrollera artikeln[Spara ODS-filen i ODF 1.1 och 1.2 Specifikationer](/cells/sv/java/save-ods-file-in-odf-1-1-and-1-2-specifications/) för mer information.
 
 {{% /alert %}} 
 
@@ -145,7 +145,7 @@ workbook.save("ODF1.1.ods", options);
 1. Välj cellen som innehåller din Sparkline.
 1.  Välj**Redigera data från Sparkline** avsnitt inuti**Design** flik
 1.  Välja**Redigera gruppplats och data**.
-1. Specificera**Dataområde** & **Plats**.
+1.  Specificera**Dataområde** & **Plats**.
 
  Följande exempelkod läser in källkalkylarket, kommer åt den första sparklinegruppen och lägger till nya dataintervall och platser för sparklinegruppen.
 

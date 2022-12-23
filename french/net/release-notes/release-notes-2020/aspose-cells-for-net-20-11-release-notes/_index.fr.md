@@ -10,11 +10,11 @@ url: /fr/net/aspose-cells-for-net-20-11-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47706|Prise en charge du modèle de formatage dépendant des paramètres régionaux "aaaa" pour l'année dans la région Espagne|Améliorations|
-|CELLSNET-47641|Avertissement émis lors de l'ajout de 29 feuilles et de l'ouverture du fichier XLS de sortie dans MS Excel|Performance|
-|CELLSNET-46716|Le texte a été coupé lors du rendu du PDF|Insectes|
+|CELLSNET-47641|Avertissement émis lors de l'ajout de 29 feuilles et de l'ouverture du fichier de sortie XLS dans MS Excel|Performance|
+|CELLSNET-46716|Le texte a été coupé lors du rendu PDF|Insectes|
 |CELLSNET-47618|Une image devient toute blanche et une partie du texte est corrompue dans d'autres images/formes|Insectes|
 |CELLSNET-47635| Un trancheur sur une table différente génère un fichier corrompu|Insectes|
 |CELLSNET-47642|Le fichier XLSB est corrompu après le chargement et l'enregistrement|Insectes|
@@ -28,28 +28,28 @@ url: /fr/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47651|L'exportation de la carte polaire au format pdf est faussée|Insectes|
 |CELLSNET-47662|Des étiquettes de données incorrectes apparaissent lors de la conversion d'un graphique Excel en image|Insectes|
 |CELLSNET-47667|Barres manquantes dans le graphique à barres de l'image de sortie|Insectes|
-|CELLSNET-47697|Certaines valeurs de l'axe Y sortent du graphique dans le PDF de sortie|Insectes|
+|CELLSNET-47697|Certaines valeurs de l'axe Y sortent du graphique dans la sortie PDF|Insectes|
 |CELLSNET-43579|La courbure du texte WortArt est modifiée lors de la conversion d'Excel en PDF|Insectes|
 |CELLSNET-47675|Le contenu du fichier XLS est modifié après le chargement et l'enregistrement|Insectes|
 |CELLSNET-47704|Les propriétés personnalisées ont disparu après avoir modifié/enregistré un fichier XLS protégé par mot de passe (crypté)|Insectes|
 |CELLSNET-47708|L'ordre de tri ne fonctionnait pas correctement avec les formules dynamiques (Smart Markers)|Insectes|
-|CELLSNET-47682|Exception lors du chargement d'un Htm particulier|Exceptions|
-|CELLSNET-47683|Exception lors du chargement d'un Htm particulier|Exceptions|
-|CELLSNET-47684|Exception lors du chargement d'un Htm particulier|Exceptions|
-|CELLSNET-47689|Exception lors de la conversion de XLSB en PNG et HTML|Exceptions|
-|CELLSNET-47701|Impossible de créer une copie du classeur XLTX|Exceptions|
-|CELLSNET-47628|La suppression de lignes vides dans des cellules provoque une exception ArgumentOutOfRangeException|Exceptions|
-|CELLSNET-47629|L'appel de valeurs de cellule après la suppression de lignes et de colonnes vides provoque ArgumentException|Exceptions|
-|CELLSNET-47700|CalculateFormula lève InvalidCastException|Exceptions|
-|CELLSNET-47703|Exception déclenchée lors de l'appel de Workbook.CalculateFormula()|Exceptions|
-|CELLSNET-47669|L'index de colonne non valide ArgumentException est levé lors de la conversion de la 1ère feuille de calcul en HTML|Exceptions|
-|CELLSNET-47677|DataBar.ToImage déclenche une exception si la ligne est masquée.|Exceptions|
-|CELLSNET-47686|Impossible de convertir XLSB en XLSX|Exceptions|
-|CELLSNET-47687|Impossible de charger les Ods|Exceptions|
-|CELLSNET-47694|Exception lors de l'ouverture du fichier XLSX du document|Exceptions|
-|CELLSNET-47695|Nom de cellule non valide après DeleteRange|Exceptions|
-|CELLSNET-47699|Exception lors de l'ouverture du fichier ODS|Exceptions|
-|CELLSNET-47702| Une exception s'est produite lors du chargement des fichiers chiffrés "Microsoft Excel 5.0/95 Workbook"|Exceptions|
+|CELLSNET-47682|Exception lors du chargement d'un Htm particulier|Des exceptions|
+|CELLSNET-47683|Exception lors du chargement d'un Htm particulier|Des exceptions|
+|CELLSNET-47684|Exception lors du chargement d'un Htm particulier|Des exceptions|
+|CELLSNET-47689|Exception lors de la conversion de XLSB en PNG et HTML|Des exceptions|
+|CELLSNET-47701|Impossible de créer une copie du classeur XLTX|Des exceptions|
+|CELLSNET-47628|La suppression de lignes vides dans des cellules provoque une exception ArgumentOutOfRangeException|Des exceptions|
+|CELLSNET-47629|L'appel de valeurs de cellule après la suppression de lignes et de colonnes vides provoque ArgumentException|Des exceptions|
+|CELLSNET-47700|CalculateFormula lève InvalidCastException|Des exceptions|
+|CELLSNET-47703|Exception déclenchée lors de l'appel de Workbook.CalculateFormula()|Des exceptions|
+|CELLSNET-47669|L'index de colonne non valide ArgumentException est levé lors de la conversion de la 1ère feuille de calcul en HTML|Des exceptions|
+|CELLSNET-47677|DataBar.ToImage déclenche une exception si la ligne est masquée.|Des exceptions|
+|CELLSNET-47686|Impossible de convertir XLSB en XLSX|Des exceptions|
+|CELLSNET-47687|Impossible de charger les Ods|Des exceptions|
+|CELLSNET-47694|Exception lors de l'ouverture du fichier document XLSX|Des exceptions|
+|CELLSNET-47695|Nom de cellule non valide après DeleteRange|Des exceptions|
+|CELLSNET-47699|Exception lors de l'ouverture du fichier ODS|Des exceptions|
+|CELLSNET-47702| Une exception s'est produite lors du chargement des fichiers chiffrés "Microsoft Excel 5.0/95 Workbook"|Des exceptions|
 
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

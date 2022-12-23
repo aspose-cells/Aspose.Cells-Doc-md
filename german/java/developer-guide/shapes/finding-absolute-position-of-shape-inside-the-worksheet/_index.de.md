@@ -6,13 +6,13 @@ url: /de/java/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
-Manchmal müssen Sie die absolute Position einer Form auf einem Arbeitsblatt kennen. Aspose.Cells bietet die[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) und[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) Eigenschaften für diesen Zweck. Diese Eigenschaften geben die absolute Position einer Form in einem Arbeitsblatt in Pixel zurück.
+ Manchmal müssen Sie die absolute Position einer Form auf einem Arbeitsblatt kennen. Aspose.Cells bietet die[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) und[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) Eigenschaften für diesen Zweck. Diese Eigenschaften geben die absolute Position einer Form in einem Arbeitsblatt in Pixel zurück.
 
 {{% /alert %}}
 
 ## **Erläuterung der Eigenschaften Shape.getLeftToCorner() und Shape.getTopToCorner()**
 
- Dieser Screenshot erklärt, welche Entfernungen die[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) und[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)Eigenschaften messen.
+Dieser Screenshot erklärt, welche Entfernungen die[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) und[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)Eigenschaften messen.
 
 **Absolutposition messen**
 

@@ -32,9 +32,9 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043) - Att öppna och spara en stor Excel-fil förstör dokumentet
 
-(CELLSNET-44031) - XLSB skadad i Excel 2010 efter att ha sparats i v8.6.1
+ (CELLSNET-44031) - XLSB skadad i Excel 2010 efter att ha sparats i v8.6.1
 
- (CELLSNET-43990) - Felplacerad AutoShape när kalkylblad renderades till PDF
+ (CELLSNET-43990) - Felplacerad AutoShape vid rendering av kalkylark till PDF
 
  (CELLSNET-43989) - Utrymmet mellan raderna med i en textruta minskas
 
@@ -44,21 +44,21 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43786) - Filen är skadad efter att ha uppdaterat pivottabellen i mallfilen
 
- (CELLSNET-43421) - Pilen återges inte korrekt när kalkylark konverteras till PDF
+ (CELLSNET-43421) - Pilen återges inte korrekt när kalkylbladet konverteras till PDF
 
  (CELLSNET-43391) - Problem med HTML-rendering för en tabell med en dold kolumn
 
- (CELLSNET-44045) - Arbetsbok.CalculateFormula-metoder fastnar på obestämd tid
+(CELLSNET-44045) - Arbetsbok.CalculateFormula-metoder fastnar på obestämd tid
 
- (CELLSNET-44051) - Ikoner för villkorlig formatering saknas i PDF
+ (CELLSNET-44051) - Ikoner för villkorlig formatering saknas från PDF
 
- (CELLSNET-44047) - Sidorna zoomas ut i den utgående PDF-filen
+ (CELLSNET-44047) - Sidorna zoomas ut i utgången PDF
 
  (CELLSNET-44025) - Kanttjockleken bevaras inte enligt utskriftsområdet
 
  (CELLSNET-44002) - Bilden skalas på grund av något problem i koden
 
-(CELLSNET-43960) - Kan inte läsa någon lösenordsskyddad fil
+ (CELLSNET-43960) - Kan inte läsa någon lösenordsskyddad fil
 
  (CELLSNET-44062) - Diagrammets förklaringspost tas inte bort när datakällans kolumn är dold
 
@@ -72,7 +72,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43978) - Diagram till bild genereras med extra värden
 
- (CELLSNET-43874) - Chart.NSeries.DataLabels nummerformat bibehålls inte vid omslagning
+(CELLSNET-43874) - Chart.NSeries.DataLabels nummerformat bibehålls inte vid omslagning
 
  (CELLSNET-44038) - Chart.ToImage() ändrar etikettens textjustering
 
@@ -80,23 +80,23 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44060) - Fel teckensnittsfärg efter kopiering av ark
 
- (CELLSNET-44056) - Spara till PDF tappar vertikala ramar
+ (CELLSNET-44056) - Spara till PDF förlorar vertikala kanter
 
-(CELLSNET-44049) - Dolda kolumner tappar sin bredd
+ (CELLSNET-44049) - Dolda kolumner tappar sin bredd
 
  (CELLSNET-44039) - Kunde inte beräkna formeln baserat på filtrerade värden i kalkylbladet
 
  (CELLSNET-44037) - Sammanlagd funktion resulterar i #NAME-fel tills användaren anger formelfältet
 
- (CELLSNET-44034) - Valideringar fungerar inte i XLSB-format
+ (CELLSNET-44034) - Valideringar fungerar inte i formatet XLSB
 
- (CELLSNET-44030) - SUMIFS Excel-funktionen fungerar inte i XLSB-format
+ (CELLSNET-44030) - SUMIFS Excel-funktionen fungerar inte i formatet XLSB
 
- (CELLSNET-44007) - Duplicering av kameraobjekt i resulterande kalkylblad samtidigt som XLSB sparas på nytt
+ (CELLSNET-44007) - Duplicering av kameraobjekt i resulterande kalkylblad samtidigt som du sparar om XLSB
 
- (CELLSNET-44006) - Skyddat visningsfel vid öppning av återsparad XLS
+ (CELLSNET-44006) - Skyddat visningsfel vid öppning återsparat XLS
 
- (CELLSNET-44001) - NOW()-formeln visas inte korrekt i SpreadsheetML(XML) till PDF-konvertering
+(CELLSNET-44001) - NOW()-formeln visas inte korrekt i konverteringen SpreadsheetML(XML) till PDF
 
  (CELLSNET-43894) - OLE-länk ObjectSourceFullName kunde inte uppdateras
 
@@ -108,15 +108,15 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44008) - CellsException på SheetRender.ToImage
 
- (CELLSNET-43926) - CellsException at Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException at Workbook.CalculateFormula
 
- (CELLSNET-44052) - Undantag inträffade på Workbook.Save() i Excel till PDF-konvertering
+ (CELLSNET-44052) - Undantag inträffade på Workbook.Save() i Excel till PDF konvertering
 
  (CELLSNET-44050) - System.FormatException vid Workbook ctor
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -124,7 +124,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **Nya egenskaper**
 
 
-(CELLSNET-44036) - Teckensnittsfärgen är densamma för hela texten även om cellen har texter med olika färger
+ (CELLSNET-44036) - Teckensnittsfärgen är densamma för hela texten även om cellen har texter med olika färger
 
  (CELLSNET-44033) - Få modifierade celler i Ajax-läge på serversidan
 
@@ -176,7 +176,7 @@ url: /sv/net/aspose-cells-for-net-8-6-2-release-notes/
 
 
 
- Lägger till AjaxCallFinished-evenemang i GridWeb
+Lägger till AjaxCallFinished-evenemang i GridWeb
 
  Avfyras när ajax-uppdateringen av kontrollen är klar. (EnableAJAX ska ställas in på sant).
 

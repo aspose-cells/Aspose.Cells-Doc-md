@@ -16,9 +16,9 @@ En un archivo de Excel Microsoft, puede crear un esquema para los datos que le p
 
 ## **Gestión de grupos de filas y columnas**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de cálculo.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de trabajo.
 
- los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection proporciona varios métodos para administrar filas o columnas en una hoja de trabajo, algunos de estos se analizan a continuación con más detalle.
+ Él[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection proporciona varios métodos para administrar filas o columnas en una hoja de trabajo, algunos de estos se analizan a continuación con más detalle.
 
 ### **Agrupación de filas y columnas**
 
@@ -37,17 +37,17 @@ Microsoft Excel le permite configurar ajustes de grupo para mostrar:
 - Filas de resumen debajo del detalle.
 - Columnas de resumen a la derecha del detalle.
 
- Los desarrolladores pueden configurar estos ajustes de grupo usando el[**Esquema**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
+ Los desarrolladores pueden configurar estos ajustes de grupo usando el[**Describir**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
 
 ### **Filas de resumen hasta debajo del detalle**
 
- Es posible controlar si las filas de resumen se muestran debajo del detalle configurando el[**Esquema**](https://reference.aspose.com/cells/net/aspose.cells/outline) clase'[**ResumenFilaDebajo**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) propiedad a**verdadero** o**falso**.
+ Es posible controlar si las filas de resumen se muestran debajo del detalle configurando el[**Describir**](https://reference.aspose.com/cells/net/aspose.cells/outline) clase'[**ResumenFilaDebajo**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) propiedad a**verdadero** o**falso**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Columnas de resumen a la derecha del detalle**
 
- Los desarrolladores también pueden controlar la visualización de columnas de resumen a la derecha del detalle configurando el[**ResumenColumnaDerecha**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) propiedad de[**Esquema**](https://reference.aspose.com/cells/net/aspose.cells/outline) clase a**verdadero** o**falso**.
+ Los desarrolladores también pueden controlar la visualización de columnas de resumen a la derecha del detalle configurando el[**ResumenColumnaDerecha**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) propiedad de[**Describir**](https://reference.aspose.com/cells/net/aspose.cells/outline) clase a**verdadero** o**falso**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 

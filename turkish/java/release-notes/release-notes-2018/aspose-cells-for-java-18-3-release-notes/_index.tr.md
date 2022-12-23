@@ -17,21 +17,21 @@ Bu sayfa Aspose.Cells for Java 18.3 için sürüm notları içerir.
 |CELLSJAVA-42535|Excel dosyasını GridWebBean.importExcelFile() yoluyla içe aktarmak için akışı kullanmak geçersiz veya mevcut değil|Artırma|
 |CELLSJAVA-42529|DrawObjectEventHandler aracılığıyla çalışma sayfası şekillerini belirleme|Artırma|
 |CELLSJAVA-42558|Yatay kategori ekseni etiket öğelerine erişilemiyor|Artırma|
-|CELLSJAVA-42552|Çıktı HTML'si, MS Excel ile eşleşmiyor|Böcek|
+|CELLSJAVA-42552|HTML çıktısı, MS Excel ile eşleşmiyor|Böcek|
 |CELLSJAVA-42536|Aspose.Cells API'leri tarafından açıldıktan/kaydedildikten sonra bozulan Excel dosyaları|Böcek|
-|CELLSJAVA-42513|Bir aralık için çıktı HTML'sindeki her satırın sonuna fazladan sütunlar geliyor|Böcek|
+|CELLSJAVA-42513|Bir aralık için HTML çıktısında her satırın sonuna fazladan sütunlar geliyor|Böcek|
 |CELLSJAVA-42542|Excel dosyası bozuk ve kaydettikten sonra bazı hücreler değişti|Böcek|
 |CELLSJAVA-42524|"KD020" adlı gizli sayfada hesaplama hataları var|Böcek|
 |CELLSJAVA-42514|ResultSet çalışma sayfasına aktarılırken ImportTableOptions.setInsertRows() çalışmıyor|Böcek|
 |CELLSJAVA-42505|Hücrelere iliştirilmiş yorumlar (şablon dosyasında), Excel dosyası GridWeb'e aktarıldığında gösterilmez.|Böcek|
 |CELLSJAVA-42520|ImageOrPrintOptions.DrawObjectEventHandler tarafından bildirilen tutarsız hücre koordinatları|Böcek|
-|CELLSJAVA-42518|Çıktı PDF'sinde satırların kenarları yanlış hizalanmış|Böcek|
+|CELLSJAVA-42518|PDF çıktısında satırların kenarları yanlış hizalanmış|Böcek|
 |CELLSJAVA-42561|Excel Grafiğinin PNG çıktısında X ekseni ölçeği yanlış|Böcek|
-|CELLSJAVA-42556|Çıkış PDF'sinde grafiğin oluşturulması doğru değil|Böcek|
-|CELLSJAVA-42547|XLSX'i ODS'ye dönüştürürken grafik kırmızı X ile değiştirilir|Böcek|
-|CELLSJAVA-42546|ODS'yi XLSX'e dönüştürürken kaybolan görüntüler|Böcek|
-|CELLSJAVA-42538|Özellikler, XLS ve XLSX dosyalarından çıkarılmaz|Böcek|
-|CELLSJAVA-42534|XLS'yi XLSB'ye kaydetmek allowEditRanges'i kaldırır|Böcek|
+|CELLSJAVA-42556|PDF çıktısında grafiğin işlenmesi doğru değil|Böcek|
+|CELLSJAVA-42547|XLSX'i ODS'e dönüştürürken tablo kırmızı X ile değiştirilir|Böcek|
+|CELLSJAVA-42546|ODS'i XLSX'e dönüştürürken görüntüler kayboldu|Böcek|
+|CELLSJAVA-42538|Özellikler XLS ve XLSX dosyalarından çıkarılmaz|Böcek|
+|CELLSJAVA-42534|XLS'i XLSB'e kaydetmek allowEditRanges'i kaldırır|Böcek|
 |CELLSJAVA-42532|WorkbookSetting.StreamProvider kullanarak harici kaynakları kontrol edin - for .NET'de çalışıyor ancak for Java'de çalışmıyor|Böcek|
 |CELLSJAVA-42525|Verileri çalışma sayfasına alırken formül alanlarını belirtin - for .NET çalışıyor ancak for Java çalışmıyor|Böcek|
 |CELLSJAVA-42521|Gömülü dosya adındaki (başlık) Çince karakterler not defterinde iyi görüntülenmiyor|Böcek|

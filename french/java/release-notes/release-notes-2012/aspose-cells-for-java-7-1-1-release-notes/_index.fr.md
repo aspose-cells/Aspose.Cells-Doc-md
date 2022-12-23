@@ -21,7 +21,7 @@ Nous sommes
 
 - Enregistrement sur XLSX avec LightCells API en effectuant un rendu direct sur OutputStream
 
- Exceptions
+ Des exceptions
 
 - La méthode Cell.setHtmlString() lève NullPointerException
 - La lecture d'un fichier de modèle XLSX lance une exception NullPointerException
@@ -32,5 +32,5 @@ Nous sommes
 - Le contenu de la zone de texte n'a pas été rendu correctement
 - La fonction ROUND ne peut pas arrondir une valeur supérieure à 922337,20
 - Le graphique n'a pas été lu correctement à partir du fichier ODStemplate
-- Format de numéro personnalisé : "jj.MM.aaaa" n'a pas été enregistré correctement pour le fichier ODS
+- Format de nombre personnalisé : "jj.MM.aaaa" n'a pas été enregistré correctement pour le fichier ODS
 - LineShape devient plus court dans le document PDF généré

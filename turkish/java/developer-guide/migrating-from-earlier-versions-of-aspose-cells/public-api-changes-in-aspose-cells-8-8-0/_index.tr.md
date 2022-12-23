@@ -81,11 +81,11 @@ workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **HTMLLoadOptions.DeleteRedundantSpaces Özelliği eklendi**
-Aspose.Cells for Java 8.8.0, satır sonu etiketinden () sonraki fazladan boşlukları korumak veya silmek için HTMLLoadOptions.DeleteRedundantSpaces özelliğini kullanıma sundu.<br>Etiket) HTML dizisinden veya dosyasından verileri içe aktarırken. HTMLLoadOptions.DeleteRedundantSpaces özelliği, false olarak varsayılan değere sahiptir; bu, tüm fazladan boşlukların korunacağı ve Workbook nesnesine aktarılacağı anlamına gelir, ancak, true olarak ayarlandığında, API, satır sonu etiketinden sonra gelen tüm gereksiz boşlukları siler.
+Aspose.Cells for Java 8.8.0, satır sonu etiketinden () sonraki fazladan boşlukları korumak veya silmek için HTMLLoadOptions.DeleteRedundantSpaces özelliğini kullanıma sundu.<br>Etiketi) HTML dizisinden veya dosyasından verileri içe aktarırken. HTMLLoadOptions.DeleteRedundantSpaces özelliği, false olarak varsayılan değere sahiptir; bu, tüm fazladan boşlukların korunacağı ve Workbook nesnesine aktarılacağı anlamına gelir, ancak, true olarak ayarlandığında, API, satır sonu etiketinden sonra gelen tüm gereksiz boşlukları siler.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Gereksiz Boşlukları HTML'den Sil](/cells/tr/java/delete-redundant-spaces-after-line-break-while-importing/)
+ Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[HTML'den Fazla Alanları Sil](/cells/tr/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 

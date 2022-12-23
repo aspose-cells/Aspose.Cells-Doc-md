@@ -16,8 +16,8 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-5-3-release-not
 
 
 
- · Unterstützt ODS-Exportformat.
+ · Unterstützt das Exportformat ODS.
 
- · Unterstützt XLSB-Exportformat.
+ · Unterstützt das Exportformat XLSB.
 
  · 11 Korrekturen und Verbesserungen.

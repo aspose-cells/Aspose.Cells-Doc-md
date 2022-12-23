@@ -10,7 +10,7 @@ A volte gli sviluppatori vogliono impedire l'inclusione di Excel*.bidone* file d
 Aspose.Cells consente di rimuovere le impostazioni della stampante esistenti specificate per diversi fogli nel file Excel. Il codice di esempio riportato di seguito illustra come rimuovere le impostazioni della stampante esistenti per tutti i fogli di lavoro della cartella di lavoro. Si prega di vedere il suo[esempio di file Excel](45056020.xlsx), [file Excel di output](45056021.xlsx), l'output della console e lo screenshot per riferimento.
 ## **Immagine dello schermo**
 ![cose da fare:immagine_alt_testo](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.cs" >}}
 ## **Uscita console**
 {{< highlight "java" >}}

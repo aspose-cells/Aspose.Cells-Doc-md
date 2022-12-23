@@ -20,30 +20,30 @@ url: /ja/net/aspose-cells-for-net-19-7-release-notes/
 |CELLSNET-46811|XLS ファイルの HeadingPairs および TitlesOfParts タグをサポートします。|強化|
 |CELLSNET-46783|CalculateFormula が非常に遅い|パフォーマンス|
 |CELLSNET-46746|CalculateFormula - 数式はチャートに影響しません|バグ|
-|CELLSNET-46772|グラフィックの欠落により作成された誤った PDF|バグ|
-|CELLSNET-46802|XLS では PDF とは異なる方法でレンダリングされたグラフ|バグ|
+|CELLSNET-46772|グラフィックの欠落により作成されたエラー PDF|バグ|
+|CELLSNET-46802|XLS と PDF で異なる方法でレンダリングされたグラフ|バグ|
 |CELLSNET-46806|コンボ チャートが PDF に正しくレンダリングされない|バグ|
 |CELLSNET-41449|複雑なピボットテーブル ファイルを含む XLSB|バグ|
-|CELLSNET-43921|XLSX を XLSB にレンダリングすると、破損したファイルが生成される|バグ|
-|CELLSNET-44593|HTML を Excel に変換しているときに Excel ファイルの出力がうまくいかない|バグ|
-|CELLSNET-46794|Cells HTML を XLSX に変換したときのシフト|バグ|
+|CELLSNET-43921|XLSX から XLSB をレンダリングすると、破損したファイルが生成される|バグ|
+|CELLSNET-44593|HTML を Excel に変換する際に Excel ファイルの出力がうまくいかない|バグ|
+|CELLSNET-46794|HTML が XLSX に変換された場合、Cells シフト|バグ|
 |CELLSNET-46809|条件付き書式により、列 (列 B、C、および D) のすべてのセルが空白になっています。|バグ|
 |CELLSNET-46778|CalculateFormula() が UNICHAR() の描写を壊す|バグ|
 |CELLSNET-46781|System.Globalization.CultureInfo.CurrentCulture が変更されました|バグ|
 |CELLSNET-46244|GridDesktop コピペでコメントエラーが出た|バグ|
-|CELLSNET-46774|大きなファイルを PDF に変換する際に行のテキストが歪む|バグ|
-|CELLSNET-46798|Excel から PDF への変換に関する問題|バグ|
+|CELLSNET-46774|大きなファイルを PDF に変換すると、行のテキストが歪む|バグ|
+|CELLSNET-46798|Excel を PDF に変換する際の問題|バグ|
 |CELLSNET-46797|Excel シートを BMP/Tiff にレンダリングする際に、下線のフォント スタイルが無視される|バグ|
-|CELLSNET-46664|クリーンアップされた XLS を XLSM ファイル形式に変換した後、HeadingPairs および TitlesOfParts タグが再び復元されます|バグ|
+|CELLSNET-46664|クリーンアップされた XLS を XLSM ファイル形式に変換した後、HeadingPairs および TitlesOfParts タグが再び復元されます。|バグ|
 |CELLSNET-46782|スマート マーカーがクロス シートの数式参照を更新しない|バグ|
 |CELLSNET-46784|スマート マーカー - プロパティを持つ JSON リスト オブジェクトの表示に関する問題|バグ|
 |CELLSNET-46800|開く/保存すると CheckBox.AlternativeText が削除されます|バグ|
-|CELLSNET-46807|XLS から PDF への変換中にテキストの一部が欠落する|バグ|
+|CELLSNET-46807|XLS を PDF に変換中にテキストの一部が欠落する|バグ|
 |CELLSNET-42168|IndexOutOfRangeException: Workbook.SaveToStream で|例外|
 |CELLSNET-46248|HTML ファイルの読み取り時に例外がスローされます。|例外|
 |CELLSNET-46792|特定のワークブックで空白の列を削除しようとすると例外が発生する|例外|
-|CELLSNET-46799|XLSX ファイルから PDF への変換中に発生した例外|例外|
-|CELLSNET-46803|XLSX ファイルをロードするときの例外「オブジェクト参照がオブジェクトのインスタンスに設定されていません」|例外|
+|CELLSNET-46799|XLSX ファイルを PDF に変換中に例外が発生しました|例外|
+|CELLSNET-46803|XLSX ファイルのロード時の例外「オブジェクト参照がオブジェクトのインスタンスに設定されていません」|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 #### **HTMLLoadOptions クラスを廃止し、HtmlLoadOptions クラスを追加**

@@ -15,7 +15,7 @@ url: /de/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `Arbeitsblatt in Bild konvertieren.
-- ` `Unterstützung zum Konvertieren von Excel-Dateien in das HTML-Dateiformat.
+- ` `Unterstützung zum Konvertieren von Excel-Dateien in das Dateiformat HTML.
 - ` `Support zum Sortieren der Daten von links nach rechts.
 
 
@@ -27,7 +27,7 @@ url: /de/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` `Unterstützt mehr Funktionen in der Formelberechnungs-Engine
 - ` `Unterstützt mehr benutzerdefinierte Filter im Autofilter.
 - ` `Erweiterte XLSX-Unterstützung für Excel 2007
-- ` `Erweiterte SpreadsheetML-Unterstützung
+- ` `Erweiterte SpreadsheetML Unterstützung
 - ` `Erweiterte xls2Pdf-Konvertierung
 - ` `Erweiterte Diagramme2Bildkonvertierung.
 - ` `Erweiterter Smartmarker

@@ -6,7 +6,7 @@ url: /tr/reportingservices/support-tablix-group-page-break/
 ---
 Tablo raporu öğesi için Grup Sayfa Sonu (Arasında) ve Sayfa Sonu ayarlar. Varsayılan değer sayfa sonu yok olarak ayarlanmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](support-tablix-group-page-break_1.png)
+![yapılacaklar:resim_alternatif_metin](support-tablix-group-page-break_1.png)
 
 
 

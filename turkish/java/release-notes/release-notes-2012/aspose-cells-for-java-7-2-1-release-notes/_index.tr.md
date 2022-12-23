@@ -21,8 +21,8 @@ Biz
 
 - Cells.findString()/find(), RegExand'ı belirli bir aralıkta aramayı destekler
 - Picture.setTitle()/getTitle()'ı destekleyin
-- MS Excel grafiklerini ODS dosyasına kaydedin
-- Aspose.Cells tarafından oluşturulan XLS dosyasını POI ile uyumlu hale getirin
+- MS Excel çizelgelerini ODS dosyasına kaydedin
+- Aspose.Cells'in oluşturduğu XLS dosyasını POI ile uyumlu hale getirin
 
  İstisnalar
 
@@ -30,7 +30,7 @@ Biz
 
  Hatalar
 
-- Kaydedilmiş XLSX dosyası hata veriyor: "Veriler kaybolmuş olabilir"
+- Kaydedilen XLSX dosyası hata veriyor: "Veriler kaybolmuş olabilir"
 - Oluşturulan PDF'de biçimlendirilen sayı yanlıştı (Bin grup karakteri kayboldu)
 - JDK6 sürümü için oluşturulan PDF'de çubuk grafik görünmüyordu
 - Bir aralık genişletilirken referanslar güncellenmez

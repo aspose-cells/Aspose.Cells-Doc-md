@@ -1,10 +1,10 @@
 ﻿---
-title: Salva ogni foglio di lavoro in un PDF diverso
+title: Salva ogni foglio di lavoro in un numero PDF diverso
 type: docs
 weight: 10
 url: /it/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Salva ogni foglio di lavoro in un PDF diverso**
+## **Aspose.Cells - Salva ogni foglio di lavoro in un diverso PDF**
 Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafici ecc.) in documenti PDF. Aspose.Cells for .NET può funzionare in modo indipendente per convertire un foglio di calcolo in un documento Pdf e non è più necessario utilizzare Aspose.Pdf for .NET per la conversione. La conversione non richiede di creare/utilizzare alcun file temporaneo, poiché l'intero processo può essere eseguito nella memoria.
 
 **C#**
@@ -55,7 +55,7 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Salva ogni foglio di lavoro in un PDF diverso** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Salva ogni foglio di lavoro in un numero PDF diverso** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 

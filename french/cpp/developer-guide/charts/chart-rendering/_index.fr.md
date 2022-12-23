@@ -6,7 +6,7 @@ url: /fr/cpp/chart-rendering/
 ---
 ## **Création de graphiques**
 
-Aspose.Cells Prise en charge des API pour créer une vérité de graphiques Excel comme détaillé sous le sujet[Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/). Afin de démontrer l'utilisation des API Aspose.Cells pour afficher les graphiques au format image et PDF, nous allons créer un graphique de type Colonne selon l'extrait suivant.
+Aspose.Cells Prise en charge des API pour créer une vérité de graphiques Excel comme détaillé sous le sujet[Création et personnalisation de graphiques Excel](/cells/fr/cpp/creating-and-customizing-charts/). Afin de démontrer l'utilisation des API Aspose.Cells pour rendre les graphiques au format image et PDF, nous allons créer un graphique de type Colonne selon l'extrait suivant.
 
 {{< highlight "cpp" >}}
 
@@ -48,7 +48,7 @@ Aspose.Cells Prise en charge des API pour créer une vérité de graphiques Exce
 
 ## **Graphiques de rendu**
 
-Aspose.Cells Prise en charge des API pour convertir les graphiques Excel en images et en formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir la prise en charge du rendu, la classe Chart a exposé les méthodes ToImage et ToPdf avec une multitude de surcharges pour répondre au mieux aux exigences de l'application.
+Prise en charge des API Aspose.Cells pour convertir les graphiques Excel en images et formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir la prise en charge du rendu, la classe Chart a exposé les méthodes ToImage et ToPdf avec une multitude de surcharges pour répondre au mieux aux exigences de l'application.
 
 ### **Rendu des graphiques en images**
 
@@ -70,7 +70,7 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Graphique de rendu au format PDF**
+### **Tableau de rendu au PDF**
 
 Afin de rendre le graphique au format PDF, les API Aspose.Cells ont exposé la méthode Chart.ToPdf avec la possibilité de stocker le PDF résultant sur le chemin du disque ou Stream.
 
@@ -105,7 +105,7 @@ Il existe quelques types de graphiques qui ne sont actuellement pas pris en char
 ||Bar3DCluster|**O**|
 ||Bar3DStacked|**O**|
 ||Barre3D100Pourcentage empilé|**O**|
-|**Ligne**|Ligne|**O**|
+|**La ligne**|La ligne|**O**|
 ||Ligneempilée|**O**|
 ||Line100PercentStacked|**O**|
 ||LineWithDataMarkers|**O**|
@@ -123,7 +123,7 @@ Il existe quelques types de graphiques qui ne sont actuellement pas pris en char
 ||ScatterConnectedByCurvesWithoutDataMarker|**O**|
 ||ScatterConnectedByLinesWithDataMarker|**O**|
 ||ScatterConnectedByLinesWithoutDataMarker|**O**|
-|**Zone**|Zone|**O**|
+|**Surface**|Surface|**O**|
 ||Zoneempilée|**O**|
 ||Area100PercentStacked|**O**|
 ||Zone3D|**O**|
@@ -176,6 +176,6 @@ Il existe quelques types de graphiques qui ne sont actuellement pas pris en char
 
 {{% alert color="primary" %}}
 
-Si vous essayez de rendre les types de graphiques non pris en charge en image ou en PDF, vous risquez de vous retrouver avec des images de taille 0 ou un PDF vierge.
+Si vous essayez de rendre les types de graphiques non pris en charge à l'image ou PDF, vous pouvez vous retrouver avec des images de taille 0 ou vide PDF.
 
 {{% /alert %}}

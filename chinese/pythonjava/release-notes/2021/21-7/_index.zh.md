@@ -25,16 +25,16 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-7-release-notes/
 |CELLSJAVA-43528|无法提取创建日期和时间以及更新日期|
 |CELLSJAVA-43529|无法提取 BuiltInDocumentProperties|
 |CELLSJAVA-43530|日期和时间属性结果不同|
-|CELLSJAVA-41693|TextBox 中的公式不会呈现为 PDF|
-|CELLSJAVA-43487|在 Excel 到 PDF 转换中，文本不在输出 PDF 的中心|
-|CELLSJAVA-42867|不以 ODS 文件格式检索形状|
-|CELLSJAVA-42895|MS Excel 图表的 PNG 输出有差异|
+|CELLSJAVA-41693|TextBox 中的方程不呈现为 PDF|
+|CELLSJAVA-43487|Excel 中的输出 PDF 到 PDF 转换中的文本未居中|
+|CELLSJAVA-42867|形状未以 ODS 文件格式检索|
+|CELLSJAVA-42895|PNG MS Excel图表输出有出入|
 |CELLSJAVA-43015|使用 setPrintArea() 方法时 SheetRender.toImage() 出现问题|
 |CELLSJAVA-43258|图表点字体粗体在工作簿复制后发生变化|
 |CELLSJAVA-43436|Aspose Cells 忽略图表中的倒置 y 轴|
 |CELLSJAVA-43510|使用 Aspose.Cells for Java 重新保存 Excel 文件后图表被弄乱|
 |CELLSJAVA-43532|提取图表系列名称时出现问题|
-|CELLSJAVA-43474|加载和保存 XLS 文件时更改了形状对象|
+|CELLSJAVA-43474|加载和保存 XLS 文件时更改形状对象|
 |CELLSJAVA-43493|检索到错误评论的作者|
 |CELLSJAVA-43527|Aspose.Cells for Java 空指针异常|
 |CELLSJAVA-43506|无效密码异常|

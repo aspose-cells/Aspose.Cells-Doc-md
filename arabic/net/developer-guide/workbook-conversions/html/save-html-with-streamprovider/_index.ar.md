@@ -10,11 +10,11 @@ url: /ar/net/convert-excel-to-html-with-streamprovider/
 1. أين يجب أن نحفظ الصور والأشكال عند حفظ ملف Excel في دفق html.
 1. استبدل المسار الافتراضي بالمسار المستثنى.
 
- تشرح هذه المقالة كيفية التنفيذ[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) واجهة لتعيين[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) منشأه. من خلال تنفيذ هذه الواجهة ، ستتمكن من حفظ الموارد التي تم إنشاؤها أثناء إنشاء HTML في مواقعك المحددة أو تدفقات الذاكرة.
+ تشرح هذه المقالة كيفية التنفيذ[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) واجهة لتعيين[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) خاصية. من خلال تنفيذ هذه الواجهة ، ستتمكن من حفظ الموارد التي تم إنشاؤها أثناء توليد HTML في مواقعك المحددة أو تدفقات الذاكرة.
 
 {{% /alert %}} 
 
- هذا هو الكود الرئيسي الذي يوضح استخدام[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)منشأه
+ هذا هو الكود الرئيسي الذي يوضح استخدام[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)خاصية
 
 
 

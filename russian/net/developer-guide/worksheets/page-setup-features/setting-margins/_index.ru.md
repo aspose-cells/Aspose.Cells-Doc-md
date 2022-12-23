@@ -29,12 +29,12 @@ Aspose.Cells полностью поддерживает параметры на
 
 ### **Центрировать на странице**
 
-Можно центрировать что-то на странице по горизонтали и по вертикали. Для этого есть несколько полезных членов[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) учебный класс,[**ЦентрГоризонтально**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) а также[**ЦентрВертикально**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
+Можно центрировать что-то на странице по горизонтали и по вертикали. Для этого есть несколько полезных членов[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) учебный класс,[**ЦентрГоризонтально**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centerhorizontally) и[**ЦентрВертикально**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/centervertically).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-CenterOnPage.cs" >}}
 
 ### **Поля верхнего и нижнего колонтитула**
 
- Установите поля верхнего и нижнего колонтитула с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) члены класса, такие как[**ЗаголовокМаргин**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) а также[**Нижний колонтитул**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
+ Установите поля верхнего и нижнего колонтитула с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/pagesetup) члены класса, такие как[**ЗаголовокМаргин**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/headermargin) и[**Нижний колонтитул**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/footermargin).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetMargins-HeaderAndFooterMargins.cs" >}}

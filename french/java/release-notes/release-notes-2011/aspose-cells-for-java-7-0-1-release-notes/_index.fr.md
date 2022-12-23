@@ -16,7 +16,7 @@ url: /fr/java/aspose-cells-for-java-7-0-1-release-notes/
 
  30556 Amélioration de la fonctionnalité Feuille de calcul vers image
 
- 30557 Amélioration de la conversion Excel en PDF
+ 30557 Amélioration de la conversion Excel vers PDF
 
 30458 Ajouter de nouvelles API : Worksheet.calculateFormula(), Row.getFirstCell(), Row.getLastCell()
 
@@ -34,20 +34,20 @@ url: /fr/java/aspose-cells-for-java-7-0-1-release-notes/
 
  30469 Inclure les getters/setters pour WorkbookSettings.WindowHeightInch/WindowWidthInch
 
- Exceptions
+ Des exceptions
 
- 29285 Obtenir une exception lors de l'enregistrement d'un PDF avec les paramètres régionaux français
+ 29285 Obtenez une exception lors de l'enregistrement de PDF avec les paramètres régionaux français
 
- 30459 Obtenez une exception lors de la lecture d'un fichier XLS avec les paramètres régionaux par défaut qui n'ont pas de code de pays
+ 30459 Obtenez une exception lors de la lecture du fichier XLS avec les paramètres régionaux par défaut qui n'ont pas de code de pays
 
  30489 Worksheet.autoFitColumn() et Chart.toImage() peuvent provoquer "java.awt.HeadlessException"
 
- 30587 Obtenir une exception lors de la lecture du fichier de modèle XLS
+ 30587 Obtenir une exception lors de la lecture du fichier modèle XLS
 
  Insectes
 
- 30103 Les polices du graphique ont changé après la ré-enregistrement du fichier XLSX
+30103 Les polices du graphique ont été modifiées après avoir réenregistré le fichier XLSX
 
-28858 Le tri des noms entraîne la modification de la cellule liée du contrôle
+ 28858 Le tri des noms entraîne la modification de la cellule liée du contrôle
 
  30486 L'alignement vertical est modifié dans le fichier XLSX réenregistré

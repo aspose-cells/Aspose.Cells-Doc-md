@@ -82,6 +82,6 @@ Il modo più semplice per ridimensionare automaticamente la larghezza e l'altezz
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Adatta automaticamente righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Adatta automaticamente righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

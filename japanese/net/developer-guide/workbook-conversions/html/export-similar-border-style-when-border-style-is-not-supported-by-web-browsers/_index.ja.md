@@ -10,7 +10,7 @@ Microsoft Excel は、Web ブラウザでサポートされていないある種
 
 ## **ボーダー スタイルが Web ブラウザーでサポートされていない場合に、同様のボーダー スタイルをエクスポートする**
 
-次のサンプル コードは、[サンプル Excel ファイル](64716806.xlsx)次のスクリーンショットに示すように、サポートされていない境界線が含まれています。スクリーンショットは、[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)内部のプロパティ[出力HTML](64716804.zip).
+次のサンプル コードは、[サンプル Excel ファイル](64716806.xlsx)次のスクリーンショットに示すように、サポートされていない境界線が含まれています。スクリーンショットは、[**HtmlSaveOptions.ExportSimilarBorderStyle**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportsimilarborderstyle)内部のプロパティ[出力 HTML](64716804.zip).
 
 ![todo:画像_代替_文章](export-similar-border-style-when-border-style-is-not-supported-by-web-browsers_1.png)
 

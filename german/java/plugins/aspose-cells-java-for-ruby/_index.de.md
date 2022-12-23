@@ -10,7 +10,7 @@ url: /de/java/aspose-cells-java-for-ruby/
 RJB ist ein Brückenprogramm, das eine Verbindung zwischen Ruby und Java mit Java Native Interface herstellt. Rake + Rjb ist das leistungsfähigere und nützlichere Build-Tool als Maven und Ant. Sie können Ihre Geschäftslogikklasse Java selbst mit Rjbs Mock testen. Es hilft, das Modellobjekt von Struts in Ihre RoR-Anwendung zu migrieren. Aber Vorsicht beim Erstellen der Swing-Anwendung, Ruby (und Rjb) berücksichtigt nicht die native Thread-Behandlung von JVM ...
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java ist eine preisgekrönte Excel-Tabellenkalkulationskomponente, mit der Java Entwickler die Möglichkeit zum Lesen, Schreiben und Bearbeiten von Excel®-Tabellen (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF einbetten können und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
 
 Aspose.Cells for Java ist eine ausgereifte, skalierbare und funktionsreiche Komponente, die viele Funktionen bietet, die weit über die einfachen Datenexportmöglichkeiten anderer Anbieter hinausgehen. Mit Aspose.Cells for Java können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail formatieren, Bilder importieren, Diagramme erstellen, komplexe Formeln anwenden und berechnen, Excel®-Daten streamen, in verschiedenen Formaten speichern und vieles mehr – all dies ohne Microsoft Excel® oder Microsoft Büroautomation.
 ### **Aspose.Cells Java für Rubin**
@@ -49,7 +49,7 @@ Es ist sehr einfach und leicht, Aspose.cells Java für Ruby Gem zu installieren,
 
 {{< /highlight >}}
 
-1.  Und dann ausführen
+1. Und dann ausführen
 
 {{< highlight "java" >}}
 
@@ -87,7 +87,7 @@ Lassen Sie uns den obigen Code verstehen.
 1. Schließen Sie die Dateien ein, die für den Zugriff auf die Aspose-Zellen erforderlich sind.
 1. Initialisieren Sie die Bibliotheken. Die aspose-JAVA-Klassen werden aus dem Pfad geladen, der in der Datei aspose.yml angegeben ist/
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.
@@ -119,7 +119,7 @@ Den neuesten Quellcode erhalten Sie von einer der folgenden Stellen:
       - [Konvertieren von HTML-Dateien in Excel-Tabellen in Ruby](/cells/de/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
       - [Konvertieren in MHTML-Dateien in Ruby](/cells/de/java/converting-to-mhtml-files-in-ruby/)
       - [Konvertieren von Arbeitsblättern in Bilder in Ruby](/cells/de/java/converting-worksheet-to-image-in-ruby/)
-      - [Konvertieren von Arbeitsblättern in SVG in Ruby](/cells/de/java/converting-worksheet-to-svg-in-ruby/)
+      - [Konvertieren des Arbeitsblatts in SVG in Ruby](/cells/de/java/converting-worksheet-to-svg-in-ruby/)
       - [Verschlüsseln von Excel-Dateien in Ruby](/cells/de/java/encrypting-excel-files-in-ruby/)
       - [Dokumenteigenschaften in Ruby verwalten](/cells/de/java/managing-document-properties-in-ruby/)
   - [Arbeiten mit Arbeitsblättern in Ruby](/cells/de/java/working-with-worksheets-in-ruby/)

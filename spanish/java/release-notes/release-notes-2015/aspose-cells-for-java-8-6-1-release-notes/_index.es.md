@@ -24,29 +24,29 @@ url: /es/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41528) - XLSB se corrompe después de volver a guardar con Aspose.Cells
 
- (CELLSJAVA-41499) - Los hipervínculos de referencia Cell no funcionan en el HTML resultante
+(CELLSJAVA-41499) - Los hipervínculos de referencia Cell no funcionan en el HTML resultante
 
  (CELLSJAVA-41487) - ¿Calcular los resultados de la fórmula de rango con nombre en #NOMBRE?
 
-(CELLSJAVA-41518) - Acrobat Reader muestra Hubo un error al procesar una página. Hubo un problema al leer este documento (135) error, al cargar el PDF generado Aspose.Cells
+ (CELLSJAVA-41518) - Acrobat Reader muestra Hubo un error al procesar una página. Hubo un problema al leer este documento (135) error, al cargar Aspose.Cells se generó PDF
 
  (CELLSJAVA-41515): la etiqueta de datos se superpone al punto de datos al representar el gráfico en PDF
 
  (CELLSJAVA-41513) - Aspose.Cells no puede convertir el archivo de Excel que tiene un gráfico en pdf
 
- (CELLSJAVA-41504): falta el valor del eje Y en la imagen del gráfico renderizado al convertir a formato de archivo PDF
+ (CELLSJAVA-41504): falta el valor del eje Y en la imagen del gráfico renderizado al convertir al formato de archivo PDF
 
- (CELLSJAVA-41501): los valores del eje X en el gráfico no son apropiados en la imagen/PDF de salida
+ (CELLSJAVA-41501): los valores del eje X en el gráfico no son apropiados en la salida PDF/ imagen
 
  (CELLSJAVA-41500): el borde del gráfico se rompe en algunas ubicaciones en el archivo de imagen/PDF de salida
 
- (CELLSJAVA-41494) - Las palabras parecen estar concatenadas en la salida de imagen/PDF del gráfico de Excel
+ (CELLSJAVA-41494) - Las palabras parecen estar concatenadas en PDF/Resultado de imagen del gráfico de Excel
 
- (CELLSJAVA-41493) - Los guiones largos no se muestran correctamente en la salida de imagen/PDF del gráfico de Excel
+(CELLSJAVA-41493) - Los guiones largos no se muestran correctamente en PDF/Resultado de imagen del gráfico de Excel
 
  (CELLSJAVA-41484): menos puntos de gráfico devueltos que puntos
 
-(CELLSJAVA-41475): la propiedad Axis Linked Source del gráfico se restablece al convertir XLSX a XLS.
+ (CELLSJAVA-41475): la propiedad Axis Linked Source del gráfico se restablece al convertir XLSX a XLS
 
  (CELLSJAVA-41541): el tamaño de fuente no se conserva al convertir la hoja de cálculo XML 2003 a otros formatos.
 
@@ -64,11 +64,11 @@ url: /es/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41502) - Se devuelve una altura de RadioButon incorrecta
 
- (CELLSJAVA-41488): la validación desplegable no se aplica a más de una región cuando la hoja de cálculo se guarda como XLS.
+(CELLSJAVA-41488): la validación desplegable no se aplica a más de una región cuando la hoja de cálculo se guarda como XLS
 
  (CELLSJAVA-41483): el reemplazo del código de macro aplasta un archivo XLS si contiene nombres cirílicos
 
-(CELLSJAVA-41461): los anchos de columna cambian después de volver a guardar con la pantalla configurada en 125 %
+ (CELLSJAVA-41461): los anchos de columna cambian después de volver a guardar con la pantalla configurada en 125 %
 
  (CELLSJAVA-41454): el contenido del archivo xl/drawings/vmlDrawing.vml cambió después de volver a guardar la hoja de cálculo
 
@@ -78,7 +78,7 @@ url: /es/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41435): algunas celdas con formato adicional en la parte inferior de la columna P y Q en el PDF
 
- (CELLSJAVA-41434): el PDF de salida tiene un formato aplicado que no está presente en Excel
+ (CELLSJAVA-41434): la salida PDF tiene un formato aplicado que no está presente en Excel
 
  (CELLSJAVA-41350): cambiar la fuente de la celda o parte del texto de una celda no tiene efecto.
 
@@ -86,7 +86,7 @@ url: /es/java/aspose-cells-for-java-8-6-1-release-notes/
 ## **Excepciones**
 
 
- (CELLSJAVA-41529) - Excepción: "java.lang.ArrayIndexOutOfBoundsException" al cargar un archivo XLSB
+(CELLSJAVA-41529) - Excepción: "java.lang.ArrayIndexOutOfBoundsException" al cargar un archivo XLSB
 
  (CELLSJAVA-41511) - Excepción: java.lang.NumberFormatException: para cadena de entrada: "Infinito" al fusionar documentos de Excel
 
@@ -94,7 +94,7 @@ url: /es/java/aspose-cells-for-java-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**

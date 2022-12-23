@@ -48,6 +48,6 @@ worksheet.setVisible(true)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Nascondere o scoprire un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Nascondere o scoprire un foglio di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/hideunhideworksheet.rb)

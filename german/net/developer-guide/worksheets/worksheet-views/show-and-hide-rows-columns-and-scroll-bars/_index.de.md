@@ -3,6 +3,7 @@ title: Anzeigen und Ausblenden von Zeilen, Spalten und Bildlaufleisten
 type: docs
 weight: 20
 url: /de/net/show-and-hide-rows-columns-and-scroll-bars/
+description: In diesem Artikel wird veranschaulicht, wie Zeilen und Spalten von Excel-Arbeitsblättern mithilfe der Sprache C# und der .NET API oder Bibliothek programmgesteuert angezeigt und ausgeblendet werden. Die Sichtbarkeit von Bildlaufleisten kann angepasst und mehrere Zeilen und Spalten ausgeblendet werden.
 ---
 {{% alert color="primary" %}}
 
@@ -58,11 +59,11 @@ Microsoft Excel bietet auch horizontale und vertikale Bildlaufleisten, damit Ben
 
 ### **Steuern der Sichtbarkeit von Bildlaufleisten**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) die eine Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um die Sichtbarkeit von Bildlaufleisten zu steuern, verwenden Sie die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)Eigenschaften.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sind boolesche Eigenschaften, was bedeutet, dass diese Eigenschaften nur speichern können**Stimmt** oder**FALSCH** Werte.
+ Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)die eine Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten einer Excel-Datei. Um die Sichtbarkeit von Bildlaufleisten zu steuern, verwenden Sie die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Eigenschaften.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) und[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sind boolesche Eigenschaften, was bedeutet, dass diese Eigenschaften nur speichern können**wahr** oder**FALSCH** Werte.
 
 #### **Bildlaufleisten sichtbar machen**
 
- Machen Sie Bildlaufleisten sichtbar, indem Sie die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) oder[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Eigentum zu**Stimmt**.
+ Machen Sie Bildlaufleisten sichtbar, indem Sie die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) oder[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Eigentum zu**wahr**.
 
 #### **Bildlaufleisten ausblenden**
 

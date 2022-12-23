@@ -6,7 +6,7 @@ url: /fr/java/managing-page-breaks-in-python/
 ---
 ## **Aspose.Cells - Gestion des sauts de page**
 ### **Ajouter des sauts de page**
- Pour ajouter des sauts de page à l'aide de**Aspose.Cells Java pour rubis** , appel**add_page_breaks** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
+ Pour ajouter des sauts de page à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**add_page_breaks** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
 
 **Code Python**
 
@@ -39,7 +39,7 @@ print "Add page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Effacer tous les sauts de page**
- Pour effacer tous les sauts de page à l'aide de**Aspose.Cells Java for Python** , appel**clear_all_page_breaks** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
+ Pour effacer tous les sauts de page à l'aide de**Aspose.Cells Java for Python** , téléphoner à**clear_all_page_breaks** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
 
 **Code Python**
 
@@ -67,7 +67,7 @@ print "Clear all page breaks, please check the output file."
 
 {{< /highlight >}}
 ### **Suppression d'un saut de page spécifique**
- Pour supprimer un saut de page spécifique à l'aide de**Aspose.Cells Java for Python** , appel**remove_page_break** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
+ Pour supprimer un saut de page spécifique à l'aide de**Aspose.Cells Java for Python** , téléphoner à**remove_page_break** méthode de**sauts de page** module. Ci-dessous, vous pouvez voir un exemple de code.
 
 **Code Python**
 

@@ -52,7 +52,7 @@ Aspose.Cells 提供了一组特殊的类[**Aspose.Cells.Charts**](https://refere
 
 如上所述，所有图表对象都是其各自类的实例，并提供特定的属性和方法来执行特定的任务。使用图表对象创建图表。
 
-使用[**图表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)收藏。中的每一项[**图表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)集合代表一个[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)目的。一个[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)对象封装了自定义图表外观所需的所有其他图表对象。下一节将展示如何使用一些基本的图表对象来创建一个简单的图表。
+使用[**图表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)收藏。中的每一项[**图表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts)集合代表一个[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)目的。一种[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)对象封装了自定义图表外观所需的所有其他图表对象。下一节将展示如何使用一些基本的图表对象来创建一个简单的图表。
 
 ### **使用 Aspose.Cells 创建图表**
 
@@ -88,7 +88,7 @@ Aspose.Cells 提供了一组特殊的类[**Aspose.Cells.Charts**](https://refere
 |酒吧堆叠|表示堆积条形图|
 |Bar100Percent 堆叠|表示 100% 堆积条形图|
 |Bar3DClustered|表示 3D 簇状条形图|
-|Bar3D堆叠|表示 3D 堆叠条形图|
+|Bar3D堆叠|表示 3D 堆积条形图|
 |Bar3D100PercentStacked|表示 3D 100% 堆积条形图|
 |线|代表折线图|
 |线堆叠|表示堆叠折线图|
@@ -114,7 +114,7 @@ Aspose.Cells 提供了一组特殊的类[**Aspose.Cells.Charts**](https://refere
 |三维区域|表示 3D 面积图|
 |Area3D堆叠|表示 3D 堆积面积图|
 |Area3D100PercentStacked|表示 3D 100% 堆积面积图|
-|甜甜圈|代表甜甜圈图|
+|油炸圈饼|代表甜甜圈图|
 |甜甜圈爆炸|代表爆炸甜甜圈图|
 |雷达|代表雷达图|
 |带数据标记的雷达|用数据标记表示雷达图|
@@ -160,7 +160,7 @@ Aspose.Cells 提供了一组特殊的类[**Aspose.Cells.Charts**](https://refere
 
 #### **折线图**
 
-在上面的示例中，只需更改[**图表类型**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)至*线*创建折线图。下面提供了完整的源代码。执行代码时，工作表中会添加一个折线图。
+在上面的示例中，只需更改[**图表类型**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)到*线*创建折线图。下面提供了完整的源代码。执行代码时，工作表中会添加一个折线图。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 

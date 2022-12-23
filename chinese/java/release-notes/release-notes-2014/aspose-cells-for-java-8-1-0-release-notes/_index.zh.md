@@ -27,8 +27,8 @@ Aspose.Cells for Java 已更新至版本 8.1.0，我们很高兴地宣布此版�
 虫子
 
 (CELLSJAVA-40809) - 一些颜色显示在一个表中的列之前
-(CELLSJAVA-40814) - 在 Ubuntu 上转换电子表格时生成的 PDF 中缺少图像
-(CELLSJAVA-40826) - 输出 HTML 中缺少网格线和字体设置
+(CELLSJAVA-40814) - 在 Ubuntu 上转换电子表格时，结果 PDF 中缺少图像
+(CELLSJAVA-40826) - 输出中缺少网格线和字体设置 HTML
 (CELLSJAVA-40829) - 无法设置工作表的打印质量
 (CELLSJAVA-40838) - PrintCopies 为 XLS 格式保留，但不为 XLSX 格式保留
 

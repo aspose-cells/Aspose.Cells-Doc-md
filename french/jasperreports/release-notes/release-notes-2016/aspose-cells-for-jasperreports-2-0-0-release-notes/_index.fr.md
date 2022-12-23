@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/jasperreports/aspose-cells-for-jasperreports-2-0-0-release-notes/
 ---
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSJAVA-41448 | JasperReports- Aspose.Cells n'exporte pas les formules ni n'exporte les valeurs calculées des formules|Nouvelle fonctionnalité|
 |CELLSJAVA-41449 | JasperReports - Aspose.Cells for JasperReports ne s'exécute pas sur les versions les plus récentes de JasperServers|Nouvelle fonctionnalité|

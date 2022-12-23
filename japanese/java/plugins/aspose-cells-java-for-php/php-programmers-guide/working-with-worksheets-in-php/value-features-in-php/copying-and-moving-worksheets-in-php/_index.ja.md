@@ -8,7 +8,7 @@ url: /ja/java/copying-and-moving-worksheets-in-php/
 ### **ワークブック内でワークシートをコピーする**
 を使用してワークシートをコピーするには**Aspose.Cells PHP で for Java**、 電話**copy_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -29,7 +29,7 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 ### **ワークブック内でワークシートを移動する**
 を使用してワークシートを移動するには**Aspose.Cells PHP で for Java**、 電話**move_worksheet**方法**コピーワークシート**モジュール。以下にコード例を示します。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

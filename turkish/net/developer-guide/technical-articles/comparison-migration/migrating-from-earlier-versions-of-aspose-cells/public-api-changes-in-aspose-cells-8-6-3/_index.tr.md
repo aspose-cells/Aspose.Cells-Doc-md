@@ -11,7 +11,7 @@ Bu belge, Aspose.Cells API sürümünde 8.6.2'den 8.6.3'e modül/uygulama geliş
 {{% /alert %}} 
 ## **Eklenen API'ler**
 ### **Verileri İçe Aktarırken HTML Ayrıştırma Desteği**
-Aspose.Cells for .NET API'in bu sürümü, API'i Çalışma Sayfasına veri aktarırken HTML etiketlerini ayrıştırmaya ve ayrıştırılan sonucu hücre değeri olarak ayarlamaya yönlendiren ImportTableOptions.IsHtmlString özelliğini ortaya çıkardı. Lütfen Aspose.Cells API'lerinin bu görevi tek bir hücre için gerçekleştirmek üzere Cell.HtmlString'i zaten sağladığını unutmayın, ancak verileri bir DataTable'dan toplu olarak içe aktarırken, ImportTableOptions.IsHtmlString özelliği (true olarak ayarlandığında) desteklenen tüm verileri ayrıştırmaya çalışır. HTML etiketleri ve ayrıştırılan sonuçları karşılık gelen hücrelere ayarlar.
+Aspose.Cells for .NET API'in bu sürümü, API'i Çalışma Sayfasına veri aktarırken HTML etiketlerini ayrıştırmaya ve ayrıştırılan sonucu hücre değeri olarak ayarlamaya yönlendiren ImportTableOptions.IsHtmlString özelliğini ortaya çıkardı. Lütfen Aspose.Cells API'lerinin bu görevi tek bir hücre için gerçekleştirmek üzere Cell.HtmlString'i zaten sağladığını unutmayın, ancak verileri bir DataTable'dan toplu olarak içe aktarırken, ImportTableOptions.IsHtmlString özelliği (true olarak ayarlandığında) desteklenen tüm verileri ayrıştırmaya çalışır. HTML, ayrıştırılan sonuçları ilgili hücrelere etiketler ve ayarlar.
 
 İşte en basit kullanım senaryosu.
 
@@ -91,7 +91,7 @@ cells.ImportGridView(gridView, 0, 0, importOptions);
 
 
 ### **Özellik ImportTableOptions.ConvertGridStyle Eklendi**
-Yukarıda belirtilen geliştirmelere referans olarak, Aspose.Cells for .NET API'in en son sürümü de ImportTableOptions.ConvertGridStyle özelliğini kullanıma sunmuştur. Bu Boole türü özelliği, geliştiricilerin içe aktarılan verilerin görünümünü kontrol etmelerine olanak tanır; burada ImportTableOptions.ConvertGridStyle özelliğinin true olarak ayarlanması, API'in verilerin içe aktarıldığı hücrelere GridView stilini uygulayacağını gösterir.
+Yukarıda belirtilen geliştirmelere referans olarak, Aspose.Cells for .NET API'in en son sürümü de ImportTableOptions.ConvertGridStyle özelliğini kullanıma sunmuştur. Bu Boole türü özelliği, geliştiricilerin içe aktarılan verilerin görünümünü kontrol etmelerine olanak tanır; burada ImportTableOptions.ConvertGridStyle özelliğinin true olarak ayarlanması, API'in verilerin içe aktarıldığı hücrelere GridView stilini uygulayacağını belirtir.
 
 Basit kullanım senaryosu aşağıdadır.
 

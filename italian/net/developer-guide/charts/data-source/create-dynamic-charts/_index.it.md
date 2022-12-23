@@ -16,7 +16,7 @@ Questo articolo illustra l'utilizzo delle API Aspose.Cells for .NET per creare g
 
 {{% alert color="primary" %}}
 
- Le tabelle di Excel sono indicate come ListObjects nella prospettiva Aspose.Cells', pertanto, per maggiore chiarezza, utilizzeremo il termine "ListObject" invece di "Table". Si prega di leggere in dettaglio su come[creare ListObject](/cells/it/net/create-and-format-table/) con API Aspose.Cells for .NET.
+ Le tabelle di Excel sono indicate come ListObjects nella prospettiva Aspose.Cells', pertanto, per maggiore chiarezza, utilizzeremo il termine "ListObject" invece di "Table". Si prega di leggere in dettaglio su come[creare ListObject](/cells/it/net/create-and-format-table/) con Aspose.Cells for .NET API.
 
 {{% /alert %}}
 
@@ -42,7 +42,7 @@ Per mantenere la dimostrazione semplice da capire, creeremo la cartella di lavor
 1.  Crea un vuoto[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1.  Accedi al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) del primo[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nel[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Inserisci alcuni dati nelle celle creando un intervallo denominato. Questi dati fungeranno da serie per il grafico dinamico.
-1.  Creare[**Combo box**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)in base all'intervallo denominato creato nel passaggio precedente.
+1.  Creare[**Casella combinata**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)in base all'intervallo denominato creato nel passaggio precedente.
 1. Inserisci altri dati nelle celle che fungeranno da origine per la funzione CERCA.VERT.
 1. Inserisci la funzione CERCA.VERT (con i parametri appropriati) in un intervallo di celle. Questo intervallo servirà come fonte per il grafico dinamico.
 1.  Creare[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)in base all'intervallo creato nel passaggio precedente.

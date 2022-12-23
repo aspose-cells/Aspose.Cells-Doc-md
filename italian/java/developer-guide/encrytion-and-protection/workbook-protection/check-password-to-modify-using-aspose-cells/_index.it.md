@@ -6,7 +6,7 @@ url: /it/java/check-password-to-modify-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Puoi assegnare un**Password per aprire** e un**Password da modificare** durante la creazione delle cartelle di lavoro in Microsoft Excel. Si prega di vedere questo screenshot che mostra l'interfaccia fornita da Microsoft Excel per specificare queste password.
+ Puoi assegnare un**Password per aprire** e un**Password da modificare** durante la creazione delle cartelle di lavoro in Microsoft Excel. Si prega di vedere questo screenshot che mostra l'interfaccia Microsoft fornita da Excel per specificare queste password.
 
 ![cose da fare:immagine_alt_testo](check-password-to-modify-using-aspose-cells_1.png)
 
@@ -14,7 +14,7 @@ url: /it/java/check-password-to-modify-using-aspose-cells/
 
 {{% /alert %}}
 
-## Codice Java per verificare Password da modificare utilizzando Aspose.Cells
+## Java codice da controllare Password da modificare utilizzando Aspose.Cells
 
  I seguenti codici di esempio caricano il file[fonte Excel](5473057.xlsx) file. Ha una password per aprire come*1234* e password da modificare come*5678* . Il codice prima controlla se*567* è la password corretta da modificare e ritorna**falso** e poi controlla se*5678* è la password da modificare e ritorna**VERO**.
 

@@ -12,11 +12,11 @@ url: /es/net/refresh-values-of-linked-shapes/
 
 ## Ejemplo
 
- La siguiente captura de pantalla muestra el archivo fuente de Excel utilizado en el código de ejemplo a continuación. Tiene una imagen vinculada vinculada a las celdas A1 a E4. Cambiaremos el valor de la celda B4 con Aspose.Cells y luego llamaremos[**Hoja de trabajo.Formas.ActualizarValorSeleccionado()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)para actualizar el valor de la imagen y guardarla en formato PDF.
+ La siguiente captura de pantalla muestra el archivo fuente de Excel utilizado en el código de ejemplo a continuación. Tiene una imagen vinculada vinculada a las celdas A1 a E4. Cambiaremos el valor de la celda B4 con Aspose.Cells y luego llamaremos[**Hoja de trabajo.Formas.ActualizarValorSeleccionado()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)método para actualizar el valor de la imagen y guardarla en formato PDF.
 
 ![todo:imagen_alternativa_texto](refresh-values-of-linked-shapes_1.jpg)
 
-Puedes descargar el[archivo fuente de Excel](95584291.xlsx) y el[PDF de salida](95584292.pdf) de los enlaces dados.
+Puedes descargar el[archivo fuente de Excel](95584291.xlsx) y el[salida PDF](95584292.pdf) de los enlaces dados.
 
 ### C# código para actualizar los valores de las formas vinculadas
 

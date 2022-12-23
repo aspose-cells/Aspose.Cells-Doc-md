@@ -18,7 +18,7 @@ El siguiente código toma una imagen del rango E8:H10. A continuación se muestr
 
 ![todo:imagen_alternativa_texto](export-range-of-cells-in-a-worksheet-to-image_1.png)
 
-Ejecutar el código crea una imagen del rango E8: H10 únicamente.
+Ejecutar el código crea una imagen del rango E8: H10 solamente.
 
 **Imagen de salida**
 
@@ -26,4 +26,4 @@ Ejecutar el código crea una imagen del rango E8: H10 únicamente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 
- También puede encontrar el artículo[Conversión de hoja de trabajo a diferentes formatos de imagen](/cells/es/java/converting-worksheet-to-different-image-formats/) útil.
+ También puede encontrar el artículo[Conversión de hoja de trabajo a diferentes formatos de imagen](/cells/es/java/converting-worksheet-to-different-image-formats/) servicial.

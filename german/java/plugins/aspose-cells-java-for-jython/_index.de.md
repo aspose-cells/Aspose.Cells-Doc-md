@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 

@@ -17,6 +17,6 @@ Kodu çalıştırdıktan sonra var olan bir senaryo kaldırılır ve çalışma 
 
 **çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](create-manipulate-or-remove-scenarios-from-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](create-manipulate-or-remove-scenarios-from-worksheets_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateScenariosfromWorksheets-CreateScenariosfromWorksheets.java" >}}

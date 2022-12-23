@@ -13,16 +13,16 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 17.11.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42433|ImageOrPrintOptions.PageIndex- und ImageOrPrintOptions.Count-Eigenschaften, die zum Abrufen des Bilds der gewünschten Seiten erforderlich sind|Neue Funktion|
-|CELLSJAVA-42427|Beim Exportieren von Gitternetzlinien mit Rahmen werden beim Rendern von Excel in HTML keine Gitternetzlinien innerhalb des Rahmens angezeigt|Insekt|
+|CELLSJAVA-42427|Beim Exportieren von Gitternetzlinien mit Rahmen werden in Excel keine Gitternetzlinien innerhalb des Rahmens für HTML-Rendering angezeigt|Insekt|
 |CELLSJAVA-42438|LightCellsDataProvider entfernt führende und nachgestellte Leerzeichen|Insekt|
-|CELLSJAVA-42422|In der PDF-Ausgabe des MS-Excel-Diagramms wird eine falsche Schriftart verwendet|Insekt|
-|CELLSJAVA-42353|Einige Pfeile oder Legenden fehlen im Ausgabe-HTML|Insekt|
+|CELLSJAVA-42422|In der Ausgabe PDF des MS Excel-Diagramms wird eine falsche Schriftart verwendet|Insekt|
+|CELLSJAVA-42353|In der Ausgabe HTML fehlen einige Pfeile oder Beschriftungen|Insekt|
 |CELLSJAVA-42455|Der zweite Kommentar fehlt in der Sammlung der Arbeitsblattkommentare|Insekt|
 |CELLSJAVA-42454|Die Arbeitsmappenerstellung scheint beim Lesen aus einer XLSM-Datei zu hängen|Insekt|
-|CELLSJAVA-42450|Die Eigenschaft Style.QuotePrefix funktioniert nicht für XLSB-Dateien|Insekt|
+|CELLSJAVA-42450|Die Eigenschaft Style.QuotePrefix funktioniert nicht für die Datei XLSB|Insekt|
 |CELLSJAVA-42445|Das Einstellen der Bilddaten wirkt sich auf das andere Diagramm aus und wird falsch angezeigt|Insekt|
 |CELLSJAVA-42444|Die Methode CheckBox.setName() funktioniert in MS Excel 2016, aber nicht in MS Excel 2007|Insekt|
-|CELLSJAVA-42443|MS Excel-Filter werden nicht korrekt konvertiert - XLSB-zu-XLSM-Konvertierung|Insekt|
+|CELLSJAVA-42443|MS Excel-Filter werden nicht korrekt konvertiert - Konvertierung von XLSB in XLSM|Insekt|
 |CELLSJAVA-42442|Das Ändern des Werts von ComboBoxActiveXControl ändert nicht den Wert der verknüpften Zelle|Insekt|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel und Cells.setRowHeightPixel verhalten sich unterschiedlich|Insekt|
 |CELLSJAVA-42431|Beim Erweitern des Tabellenbereichs werden Zellinhalte unerwartet verändert|Insekt|

@@ -20,7 +20,7 @@ Noi siamo
 
  Miglioramenti
 
-- Aggiungi virgolette ai valori delle celle vuote durante l'esportazione di un CSV con
+- Aggiungi virgolette ai valori delle celle vuote quando esporti un CSV con
 
  opzione
 

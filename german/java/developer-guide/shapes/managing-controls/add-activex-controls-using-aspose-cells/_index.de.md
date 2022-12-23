@@ -12,7 +12,7 @@ url: /de/java/add-activex-controls-using-aspose-cells/
 - [KOMBINATIONSFELD](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMBO_BOX)
 - [COMMAND_BUTTON](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#COMMAND_BUTTON)
 - [BILD](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#IMAGE)
-- [ETIKETT](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#LABEL)
+- [ETIKETTE](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#LABEL)
 - [LIST_BOX](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#LIST_BOX)
 - [RADIO KNOPF](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#RADIO_BUTTON)
 - [SCROLLLEISTE](https://reference.aspose.com/cells/java/com.aspose.cells/controltype#SCROLL_BAR)

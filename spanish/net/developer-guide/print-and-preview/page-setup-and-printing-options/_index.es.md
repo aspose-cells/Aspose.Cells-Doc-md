@@ -53,7 +53,7 @@ Primero cree una hoja de trabajo simple en Microsoft Excel. Luego aplique las op
 
 Los ajustes de configuración de página también proporcionan varias opciones de impresión (también llamadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de trabajo. Permiten a los usuarios:
 
-- Seleccione un área de impresión específica de una hoja de cálculo.
+- Seleccione un área de impresión específica de una hoja de trabajo.
 - Imprimir títulos.
 - Imprimir líneas de cuadrícula.
 - Imprimir encabezados de fila/columna.

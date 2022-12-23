@@ -16,7 +16,7 @@ Actuellement, Aspose.Cells.GridDesktop prend en charge l'ajout de trois types de
 - **Case à cocher**
 - **Boîte combo**
 
-Tous ces contrôles sont dérivés d'une classe abstraite,**CellControl**. Chaque feuille de travail contient une collection de**Les contrôles**De nouveaux contrôles de cellule peuvent être ajoutés et les contrôles existants sont accessibles à l'aide de cette**Les contrôles**collecte facilement.
+Tous ces contrôles sont dérivés d'une classe abstraite,**CellControl**Chaque feuille de travail contient une collection de**Les contrôles**. De nouveaux contrôles de cellule peuvent être ajoutés et les contrôles existants sont accessibles à l'aide de cette**Les contrôles**collecte facilement.
 
 **IMPORTANT:**Si vous souhaitez ajouter des contrôles de cellule à toutes les cellules d'une colonne au lieu d'en ajouter une par une, vous pouvez vous référer à[Gestion des contrôles Cell en colonnes.](/cells/fr/net/adding-cell-controls-in-worksheets/)
 ### **Ajouter un bouton**

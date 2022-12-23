@@ -12,20 +12,20 @@ Bu sayfa Aspose.Cells for Node.js via Java 19.8 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42861|Şeklin alternatif metni ODS dosya biçiminde alınamadı|Böcek|
-|CELLSJAVA-42929|XLSX'ten PDF'e dönüştürmede grafik başlığı değişir|Böcek|
-|CELLSJAVA-42933|Excel dosyasını PDF'ye dönüştürürken grafik rengi değişiyor|Böcek|
-|CELLSJAVA-42946|Dizili Yığılmış çubuk grafiğin PDF'ye yanlış işlenmesi|Böcek|
+|CELLSJAVA-42861|ODS dosya biçimindeki şeklin alternatif metni alınamadı|Böcek|
+|CELLSJAVA-42929|XLSX'den PDF'e dönüşümde grafik başlığı değişir|Böcek|
+|CELLSJAVA-42933|Excel dosyası PDF'e dönüştürülürken grafik rengi değişiyor|Böcek|
+|CELLSJAVA-42946|PDF serisine sahip Yığılmış çubuk grafiğin yanlış oluşturulması|Böcek|
 |CELLSJAVA-42942|Çalışma kitabı düzeyinde değil, çalışma sayfası düzeyinde yazdırılan sayfalar|Böcek|
 |CELLSJAVA-42952|Bazı kelimelerde hücrenin üst kısmından yanlış girinti|Böcek|
 |CELLSJAVA-42902|Çalışma kitabı kopyalanırken şelale grafik stili düzgün kopyalanmıyor|Böcek|
 |CELLSJAVA-42939|Bir çalışma kitabı için yalnızca Workbook.getVbaProject() öğesini çağırırsak, Excel tarafından oluşturulan uyarı|Böcek|
 |CELLSJAVA-42940|Tüm VBA modülü komut dosyalarını kaldırdıktan sonra güvenlik uyarısı|Böcek|
 |CELLSJAVA-42955|VBAProject'i açmak çalışma kitabını bozuyor|Böcek|
-|CELLSJAVA-42945|ExportImagesAsBase64 ayarlanırsa HTML olarak kaydet istisna atar|İstisna|
-|CELLSJAVA-42953|XLS dosyalarını HTML'ye dönüştürürken NullPointerException|İstisna|
+|CELLSJAVA-42945|HTML olarak kaydet, ExportImagesAsBase64 ayarlanmışsa istisna atar|İstisna|
+|CELLSJAVA-42953|XLS dosyaları HTML'e dönüştürülürken NullPointerException|İstisna|
 |CELLSJAVA-42951|Java.lang.NullPointerException, comment.setHtmlNote() tarafından oluşturuldu|İstisna|
-|CELLSJAVA-42954|XLSX dosyası yüklenirken ve kaydedilirken istisna oluştu|İstisna|
+|CELLSJAVA-42954|XLSX dosyasını yüklerken ve kaydederken istisna oluştu|İstisna|
 |CELLSJAVA-42957|XLSX dosyası kaydedilirken geçersiz FontUnderlineType değeri atılıyor|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API Aspose.Cells for Node.js Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.

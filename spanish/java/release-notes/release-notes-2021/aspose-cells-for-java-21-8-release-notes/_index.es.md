@@ -19,18 +19,18 @@ url: /es/java/aspose-cells-for-java-21-8-release-notes/
 |CELLSJAVA-43557|Color incorrecto al guardar como html|
 |CELLSJAVA-43567|Regresión: la fórmula MDURATION no se calculó correctamente|
 |CELLSJAVA-43583|El operador de potencia "^" no funciona para los cálculos de fórmulas|
-|CELLSJAVA-43549|Falta la imagen en el PDF de salida|
+|CELLSJAVA-43549|Falta la imagen en la Salida PDF|
 |CELLSJAVA-43566|Fuentes predeterminadas en MacOS Big Sur|
 |CELLSJAVA-42579|Las etiquetas del eje no se muestran correctamente: falta la alineación derecha al guardar Excel en PDF|
 |CELLSJAVA-43554|El texto de la tabla de datos del gráfico no se muestra en la imagen de salida|
-|CELLSJAVA-43556|XLSX a PDF: título de diagrama incompleto|
+|CELLSJAVA-43556|XLSX a PDF: Título del diagrama incompleto|
 |CELLSJAVA-40051|Soporte de iWork de Apple|
 |CELLSJAVA-43119|Conversión a PDF: formato de archivo no compatible Number3.5 desde 2014|
 |CELLSJAVA-43538|El gráfico sin datos hace que XLSX se corrompa después de guardar con Aspose Cells|
 |CELLSJAVA-43547|AutoFitRow cambia la altura estándar de la hoja de trabajo|
 |CELLSJAVA-43591|Error al abrir archivo en MS Excel guardado por Aspose.Cells|
 |CELLSJAVA-43523|CellsException para leer el nombre de la macro de la forma: fórmula no válida|
-|CELLSJAVA-43565|"java.lang.ClassCastException" al leer un archivo XLSB con LightCells|
+|CELLSJAVA-43565|"java.lang.ClassCastException" al leer el archivo XLSB con LightCells|
 |CELLSJAVA-43546|NullPointerException al extraer el nombre de la serie del gráfico|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

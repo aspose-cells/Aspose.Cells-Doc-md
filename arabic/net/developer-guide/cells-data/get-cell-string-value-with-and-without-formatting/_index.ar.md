@@ -6,7 +6,7 @@ url: /ar/net/get-cell-string-value-with-and-without-formatting/
 ---
 {{% alert color="primary" %}}
 
- يوفر Aspose.Cells طريقة[**Cell.GetStringValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue) والتي يمكن استخدامها للحصول على قيمة سلسلة الخلية مع أو بدون أي تنسيق. افترض أن لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض منزلتين عشريتين فقط. سيتم عرضه بعد ذلك على أنه 0.01 في Excel. يمكنك استرداد قيم السلسلة مثل 0.01 و 0.012345 باستخدام امتداد[**Cell.GetStringValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue) طريقة. تستغرق[**CellValueFormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue)تعداد كمعامل يحتوي على القيم التالية
+ يوفر Aspose.Cells طريقة[**Cell.GetStringValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue) والتي يمكن استخدامها للحصول على قيمة سلسلة الخلية مع أو بدون أي تنسيق. افترض أن لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض منزلتين عشريتين فقط. سيتم عرضه بعد ذلك على أنه 0.01 في Excel. يمكنك استرداد قيم السلسلة مثل 0.01 و 0.012345 باستخدام امتداد[**Cell.GetStringValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue) طريقة. فإنه يأخذ[**CellValueFormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstringvalue)تعداد كمعامل يحتوي على القيم التالية
 
 - CellValueFormatStrategy.CellStyle
 - CellValueFormatStrategy.DisplayStyle

@@ -10,7 +10,7 @@ In diesem Artikel wird erläutert, wie Sie die Zwischensumme auf Daten anwenden 
 
  Sie können die Zwischensumme auf die Daten anwenden, indem Sie verwenden[**Arbeitsblatt.Cells.Zwischensumme()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) Methode. Es nimmt die folgenden Parameter.
 
-- **Zellbereich** - Der Bereich, auf den die Zwischensumme angewendet werden soll
+- **Zellbereich** Der Bereich, auf den die Zwischensumme angewendet werden soll
 - **Gruppiere nach** - Das zu gruppierende Feld als nullbasierter ganzzahliger Offset
 - **Funktion** - Die Zwischensummenfunktion.
 - **Gesamtliste** - Ein Array von nullbasierten Feld-Offsets, das die Felder angibt, zu denen die Zwischensummen hinzugefügt werden.

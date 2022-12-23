@@ -32,33 +32,33 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043) – Das Öffnen und erneute Speichern einer großen Excel-Datei beschädigt das Dokument
 
-(CELLSNET-44031) – XLSB in Excel 2010 nach dem Speichern in v8.6.1 beschädigt
+ (CELLSNET-44031) – XLSB in Excel 2010 nach dem Speichern in v8.6.1 beschädigt
 
- (CELLSNET-43990) – Falsch platzierte AutoForm beim Rendern der Tabelle in PDF
+ (CELLSNET-43990) – Falsch platzierte AutoForm beim Rendern der Tabelle auf PDF
 
  (CELLSNET-43989) – Der Abstand zwischen den Zeilen in einem Textfeld wird verringert
 
  (CELLSNET-43901) – PivotTable umbricht Text beim Aktualisieren nicht
 
- (CELLSNET-43808) – PivotTable-Styling geht verloren, wenn Arbeitsblätter in eine andere Arbeitsmappe kopiert und als PDF gerendert werden
+ (CELLSNET-43808) – Das PivotTable-Styling geht verloren, wenn Arbeitsblätter in eine andere Arbeitsmappe kopiert und auf PDF gerendert werden
 
  (CELLSNET-43786) – Die Datei ist nach dem Aktualisieren der PivotTable in der Vorlagendatei beschädigt
 
- (CELLSNET-43421) – Pfeil wird beim Konvertieren von Tabellenkalkulationen in PDF nicht korrekt gerendert
+ (CELLSNET-43421) – Pfeil wird beim Konvertieren der Tabelle in PDF nicht korrekt gerendert
 
- (CELLSNET-43391) – Problem mit der HTML-Wiedergabe für eine Tabelle mit einer ausgeblendeten Spalte
+ (CELLSNET-43391) – Problem mit HTML-Rendering für eine Tabelle mit einer ausgeblendeten Spalte
 
- (CELLSNET-44045) – Workbook.CalculateFormula-Methoden bleiben auf unbestimmte Zeit hängen
+(CELLSNET-44045) – Workbook.CalculateFormula-Methoden bleiben auf unbestimmte Zeit hängen
 
  (CELLSNET-44051) – Symbole für bedingte Formatierung fehlen in PDF
 
- (CELLSNET-44047) – Seiten werden in der Ausgabe-PDF verkleinert
+ (CELLSNET-44047) - Seiten werden in der Ausgabe PDF verkleinert
 
  (CELLSNET-44025) – Die Randstärke wird nicht gemäß dem Druckbereich beibehalten
 
  (CELLSNET-44002) – Das Bild wird aufgrund eines Problems im Code skaliert
 
-(CELLSNET-43960) – Einige passwortgeschützte Dateien können nicht gelesen werden
+ (CELLSNET-43960) – Einige passwortgeschützte Dateien können nicht gelesen werden
 
  (CELLSNET-44062) – Der Legendeneintrag des Diagramms wird nicht entfernt, wenn die Datenquellenspalte ausgeblendet ist
 
@@ -72,7 +72,7 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43978) – Diagramm zu Bild wird mit zusätzlichen Werten generiert
 
- (CELLSNET-43874) – Das Zahlenformat Chart.NSeries.DataLabels wird beim erneuten Speichern nicht beibehalten
+(CELLSNET-43874) – Das Zahlenformat Chart.NSeries.DataLabels wird beim erneuten Speichern nicht beibehalten
 
  (CELLSNET-44038) – Chart.ToImage() ändert die Textausrichtung der Beschriftung
 
@@ -80,9 +80,9 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44060) - Formschriftfarbe nach dem Kopieren des Blattes falsch
 
- (CELLSNET-44056) – Beim Speichern in PDF gehen die vertikalen Ränder verloren
+ (CELLSNET-44056) - Speichern unter PDF verliert vertikale Rahmen
 
-(CELLSNET-44049) - Versteckte Spalten verlieren ihre Breite
+ (CELLSNET-44049) - Versteckte Spalten verlieren ihre Breite
 
  (CELLSNET-44039) – Die Formel konnte nicht basierend auf gefilterten Werten im Arbeitsblatt berechnet werden
 
@@ -90,13 +90,13 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44034) – Validierungen funktionieren nicht im XLSB-Format
 
- (CELLSNET-44030) – Die Excel-Funktion SUMIFS funktioniert nicht im XLSB-Format
+ (CELLSNET-44030) – Die Excel-Funktion SUMIFS funktioniert nicht im Format XLSB
 
  (CELLSNET-44007) – Duplizieren von Kameraobjekten in der resultierenden Tabelle beim erneuten Speichern von XLSB
 
- (CELLSNET-44006) – Fehler in der geschützten Ansicht beim Öffnen von neu gespeichertem XLS
+ (CELLSNET-44006) – Fehler in der geschützten Ansicht beim erneuten Öffnen von XLS
 
- (CELLSNET-44001) – NOW()-Formel wird bei der Konvertierung von SpreadsheetML(XML) in PDF nicht korrekt angezeigt
+(CELLSNET-44001) - NOW()-Formel wird bei der Konvertierung von SpreadsheetML (XML) in PDF nicht korrekt angezeigt
 
  (CELLSNET-43894) – OLE-Link ObjectSourceFullName konnte nicht aktualisiert werden
 
@@ -108,15 +108,15 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44008) – CellsException bei SheetRender.ToImage
 
- (CELLSNET-43926) – CellsException bei Workbook.CalculateFormula
+(CELLSNET-43926) – CellsException bei Workbook.CalculateFormula
 
- (CELLSNET-44052) – Eine Ausnahme trat bei Workbook.Save() bei der Konvertierung von Excel in PDF auf
+ (CELLSNET-44052) – Bei der Umwandlung von Workbook.Save() in Excel in PDF trat eine Ausnahme auf
 
  (CELLSNET-44050) – System.FormatException bei Workbook ctor
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -124,7 +124,7 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **Neue Eigenschaften**
 
 
-(CELLSNET-44036) – Die Schriftfarbe ist für den gesamten Text gleich, obwohl die Zelle Texte mit unterschiedlichen Farben enthält
+ (CELLSNET-44036) – Die Schriftfarbe ist für den gesamten Text gleich, obwohl die Zelle Texte mit unterschiedlichen Farben enthält
 
  (CELLSNET-44033) – Erhalten Sie geänderte Zellen im Ajax-Modus auf der Serverseite
 
@@ -176,7 +176,7 @@ url: /de/net/aspose-cells-for-net-8-6-2-release-notes/
 
 
 
- Fügt das AjaxCallFinished-Ereignis in GridWeb hinzu
+Fügt das AjaxCallFinished-Ereignis in GridWeb hinzu
 
  Wird ausgelöst, wenn die Ajax-Aktualisierung des Steuerelements abgeschlossen ist. (EnableAJAX muss auf „true“ gesetzt werden).
 

@@ -5,7 +5,7 @@ weight: 40
 url: /es/java/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Posibles escenarios de uso**
- A veces, desea mostrar etiquetas de subtotales y totales generales en idiomas que no sean inglés, como chino, japonés, árabe, hindi, etc. Aspose.Cells le permite hacer esto usando el[Configuración de globalización](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) clase y[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) propiedad. Consulte este artículo sobre cómo utilizar[Configuración de globalización](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)clase
+ veces, desea mostrar etiquetas de subtotales y totales generales en idiomas que no sean inglés, como chino, japonés, árabe, hindi, etc. Aspose.Cells le permite hacer esto usando el[Configuración de globalización](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) clase y[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) propiedad. Consulte este artículo sobre cómo utilizar[Configuración de globalización](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)clase
 
 - [Uso de la clase GlobalizationSettings para etiquetas de subtotales personalizadas y otras etiquetas de gráficos circulares](/cells/es/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 ## **Implementar etiquetas de Subtotal o Gran Total en otros idiomas**

@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-22-5-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-50663|Migliora le prestazioni di eliminazione delle colonne vuote|
 |CELLSNET-50877|Inizializza il valore calcolato della cella durante l'impostazione della formula dell'array dinamico|
@@ -30,8 +30,8 @@ url: /it/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50953|Disattiva copia/incolla da tastiera in GridDesktop|
 |CELLSNET-50771| Il carattere diventa in grassetto durante la conversione da Excel a PDF|
 |CELLSNET-50924|Cell sfondo perso dopo la conversione in html|
-|CELLSNET-50951|Conversione di Excel in risultati HTML con problemi|
-|CELLSNET-50962| Problema con l'interruzione del processo di salvataggio con l'opzione PdfSaveOptions.OnePagePerSheet per cartelle di lavoro di grandi dimensioni|
+|CELLSNET-50951|La conversione di Excel in HTML risulta con problemi|
+|CELLSNET-50962|Problema con l'interruzione del processo di salvataggio con l'opzione PdfSaveOptions.OnePagePerSheet per cartelle di lavoro di grandi dimensioni|
 |CELLSNET-50997|I contorni punteggiati della scatola delle celle si rompono sul lato destro della scatola in altezza|
 |CELLSNET-50865|Da grafico a immagine: rendering non corretto|
 |CELLSNET-50952|La conversione da XLS a XLSX modifica il gradiente a due colori dei formati condizionali|
@@ -41,9 +41,9 @@ url: /it/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50946|Una conversione del foglio di lavoro di Excel non riesce con l'errore "Impossibile trasmettere .."|
 |CELLSNET-51009|TextToColumns causa "System.NullReferenceException" al salvataggio|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifiche per il salvataggio della cartella di lavoro con LightCells**
 

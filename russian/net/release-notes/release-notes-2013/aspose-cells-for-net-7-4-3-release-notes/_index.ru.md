@@ -18,7 +18,7 @@ url: /ru/net/aspose-cells-for-net-7-4-3-release-notes/
 
 
 
- Производительность
+ Спектакль
 
  Исключения
 

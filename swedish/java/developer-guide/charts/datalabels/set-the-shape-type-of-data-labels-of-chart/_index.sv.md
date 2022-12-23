@@ -1,5 +1,5 @@
 ﻿---
-title: Ställ in formtyp för dataetiketter för diagram
+title: Ställ in formtypen för dataetiketter för diagram
 type: docs
 weight: 70
 url: /sv/java/set-the-shape-type-of-data-labels-of-chart/
@@ -24,7 +24,7 @@ etc.
 
 {{< /highlight >}}
 
-## **Ställ in formtyp för dataetiketter för diagram**
+## **Ställ in formtypen för dataetiketter för diagram**
 
 Följande exempelkod ändrar formtypen för dataetiketter i diagrammet till[**DataLabelShapeType.WEDGE_ELLIPSE_CALLOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabelshapetype#WEDGE_ELLIPSE_CALLOUT). Vänligen se[exempel på Excel-fil](60489794.xlsx)används i den här koden och[utdata Excel-fil](60489793.xlsx)genereras av det. Skärmdumpen visar effekten av koden på exemplet på Excel-filen.
 

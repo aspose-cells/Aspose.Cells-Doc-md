@@ -16,8 +16,8 @@ Um zu verhindern, dass andere Benutzer versehentlich oder absichtlich Daten in e
 
 1.  Klicken**Überprüfen > Arbeitsblatt schützen**.
 1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Auswählen**ermöglichen** Optionen.
-1.  Auswählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** wieder.
+1.  Wählen**ermöglichen** Optionen.
+1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
 
 
 ## **Schützen Sie das Arbeitsblatt mit Aspose.Cell for Python**

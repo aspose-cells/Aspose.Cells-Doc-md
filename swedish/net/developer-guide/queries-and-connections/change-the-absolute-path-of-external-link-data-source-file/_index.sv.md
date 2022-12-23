@@ -6,7 +6,7 @@ url: /sv/net/change-the-absolute-path-of-external-link-data-source-file/
 ---
 ## Möjliga användningsscenarier
 
- Om du vill ändra den absoluta sökvägen till den externa länkdatakällfilen, använd[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)fast egendom. Inledningsvis kommer den här egenskapen att ställas in på sökvägen varifrån excel-filen laddades. Men du kan ställa in den på en tom sträng eller så kan du ställa in den på någon lokal mappsökväg eller fjärrnätverkssökväg. Närhelst du ändrar den här egenskapen ändras även sökvägen till den externa länkdatakällfilen.
+ Om du vill ändra den absoluta sökvägen för den externa länkdatakällfilen, använd[**Workbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)fast egendom. Inledningsvis kommer den här egenskapen att ställas in på sökvägen varifrån excel-filen laddades. Men du kan ställa in den på en tom sträng eller så kan du ställa in den på någon lokal mappsökväg eller fjärrnätverkssökväg. Närhelst du ändrar den här egenskapen ändras även sökvägen till den externa länkdatakällfilen.
 
 ## Ändra den absoluta sökvägen för datakällfilen för extern länk
 

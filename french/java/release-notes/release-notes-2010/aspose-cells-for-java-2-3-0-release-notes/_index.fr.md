@@ -14,7 +14,7 @@ url: /fr/java/aspose-cells-for-java-2-3-0-release-notes/
 
  Ce qui a changé :
 
-- Prend en charge l'enregistrement de fichiers PDF directement sans utiliser Aspose.Pdf for Java.
+- Prend en charge l'enregistrement des fichiers PDF directement sans utiliser Aspose.Pdf for Java.
 - Inclut la prise en charge du format d'image EMF pour la fonction Chart-to-Image.
 - Importe l'attribut CalculationMode à partir des fichiers de modèle MS Excel 2007.
 - L'opération de copie de la feuille de calcul est améliorée.
@@ -26,7 +26,7 @@ url: /fr/java/aspose-cells-for-java-2-3-0-release-notes/
 
  Problèmes résolus au Aspose.Cells for Java 2.3.0.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |16386 | xl| Copie de la feuille de calcul|
 |17416 | xl| Problème d'insertion de colonne|
@@ -43,10 +43,10 @@ url: /fr/java/aspose-cells-for-java-2-3-0-release-notes/
 |17174 | formule| Obtenir la chaîne de formule|
 |17001 | formule| Définir la formule|
 |16997 | xl| Supprimer des formes|
-|17107 | SAO| Enregistrer les graphiques dans les fichiers ODS|
-|17016 | xl| Copier des cellules, lire le fichier modèle|
+|17107 |ODS | Enregistrer les graphiques dans les fichiers ODS|
+|17016 | xl|Copier des cellules, lire le fichier modèle|
 |17140 | xl| Lire le fichier modèle|
-|17019 | xlsx|Lire la propriété CalculationMode|
+|17019 | xlsx| Lire la propriété CalculationMode|
 |16870 | xlsx| Enregistrer le fichier xlsx|
 |16986 | xl| Changer le format de fichier|
 |15975 | html| Enregistrer html - Problème de performances|

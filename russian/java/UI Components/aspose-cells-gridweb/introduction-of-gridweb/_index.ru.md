@@ -7,7 +7,7 @@ url: /ru/java/introduction-of-gridweb/
 ## **Как запустить Aspose.Cells для демонстрации GridWeb Java**
 {{% alert color="primary" %}} 
 
- Aspose.Cells для демонстрационных версий GridWeb Java легко запустить. Вам просто нужно развернуть**gridwebdemo.war** на вашем веб-сервере. Пожалуйста, загрузите демо отсюда[ссылка на сайт](https://forum.aspose.com/uploads/discourse_instance3/22292).
+ Aspose.Cells для демонстрационных версий GridWeb Java легко запустить. Вам просто нужно развернуть**gridwebdemo.war** на вашем веб-сервере. Пожалуйста, загрузите демо отсюда[соединять](https://forum.aspose.com/uploads/discourse_instance3/22292).
 
 В этой статье описывается, как запустить Aspose.Cells для демонстрации GridWeb Java на сервере Apache Tomcat.
 
@@ -29,7 +29,7 @@ url: /ru/java/introduction-of-gridweb/
 
 ![дело:изображение_альтернативный_текст](introduction-of-gridweb_3.png)
 
-1. Открой**tomcat-users.xml** файл.
+1. Открыть**tomcat-users.xml** файл.
 
 ![дело:изображение_альтернативный_текст](introduction-of-gridweb_4.png)
 

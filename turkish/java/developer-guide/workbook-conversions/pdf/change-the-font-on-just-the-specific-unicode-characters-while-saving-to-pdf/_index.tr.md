@@ -1,5 +1,5 @@
 ﻿---
-title: PDF'ye kaydederken Yazı Tipini yalnızca belirli Unicode karakterlerinde değiştirin
+title: PDF'e kaydederken Yazı Tipini yalnızca belirli Unicode karakterlerinde değiştirin
 type: docs
 weight: 150
 url: /tr/java/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
@@ -12,14 +12,14 @@ Böyle bir karakter, Times New Roman gibi belirli bir yazı tipinde olan bir kel
 
 Ancak bu, bazı kullanıcılar için istenmeyen bir davranıştır ve tüm kelime veya cümlenin yazı tipini değiştirmek yerine yalnızca belirli bir karakterin yazı tipinin değiştirilmesini isterler.
 
- Bu sorunla başa çıkmak için Aspose.Cells şunları sağlar:[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) ayarlanması gereken özellik**doğru**böylece yalnızca görüntülenemeyen belirli karakterin yazı tipi değiştirilir ve kelimenin veya cümlenin geri kalanı için yazı tipi aynı kalır.
+ Bu sorunla başa çıkmak için Aspose.Cells şunları sağlar:[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) ayarlanması gereken özellik**doğru** böylece yalnızca görüntülenemeyen belirli karakterin yazı tipi değiştirilir ve kelimenin veya cümlenin geri kalanı için yazı tipi aynı kalır.
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
- Aşağıdaki ekran görüntüsü, aşağıdaki örnek kod tarafından oluşturulan iki çıktı PDF'sini karşılaştırır. Biri ayar yapılmadan oluşturuldu[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) özellik ve diğeri ayarlandıktan sonra oluşturuldu[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) mülkiyet**doğru**. İlk PDF'de görebileceğiniz gibi, Non-Breaking Tire nedeniyle tüm cümlenin yazı tipi Times New Roman'dan Arial Unicode MS'ye değişti. İkinci PDF'de ise, yalnızca Bölünemez Tire'nin yazı tipi değişti.
+ Aşağıdaki ekran görüntüsü, aşağıdaki örnek kod tarafından oluşturulan iki çıktı PDF'sini karşılaştırır. Biri ayar yapılmadan oluşturuldu[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) özellik ve diğeri ayarlandıktan sonra oluşturuldu[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) mülkiyet**doğru**. İlk PDF'de görebileceğiniz gibi, Non-Breaking Tire nedeniyle tüm cümlenin yazı tipi Times New Roman'dan Arial Unicode MS'ye değişmiştir. İkinci PDF'de ise sadece Kırılmaz Tire'nin yazı tipi değişti.
 
-![yapılacaklar:resim_alternatif_Metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
+![yapılacaklar:resim_alternatif_metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeFontonspecificUnicodecharacters-ChangeFontonspecificUnicodecharacters.java" >}}

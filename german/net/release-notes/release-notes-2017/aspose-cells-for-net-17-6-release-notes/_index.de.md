@@ -12,24 +12,24 @@ url: /de/net/aspose-cells-for-net-17-6-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSNET-45356|Setzen Sie alle Attributwerte in HTML in Anführungszeichen|Neue Funktion|
+|CELLSNET-45356|Geben Sie alle Attributwerte in HTML an|Neue Funktion|
 |CELLSNET-45394|Unterstützen Sie neue Funktionen von Office 365|Neue Funktion|
 |CELLSNET-45348|Stütztabelle als Datenquelle des Diagramms|Neue Funktion|
 |CELLSNET-45317|Entfernen Sie ältere Web.config-Einstellungen von Aspose.Cells.GridWeb wie force script_path und forcepath|Neue Funktion|
 |CELLSNET-45370|Ausnahmemeldung ist falsch – Die Anzahl der Hyperlinks darf nicht größer als 66530 sein|Erweiterung|
-|CELLSNET-45391|Die Excel-Fußzeile in der Ausgabe-PDF ist nicht kursiv - sie sollte Arial 9 und kursiv sein|Erweiterung|
+|CELLSNET-45391|Excel-Fußzeile in der Ausgabe PDF ist nicht kursiv - es sollte Arial 9 und kursiv sein|Erweiterung|
 |CELLSNET-45328|Kopieren Sie die PageSetup-Einstellungen aus dem vorhandenen Arbeitsblatt|Erweiterung|
 |CELLSNET-45345|Ein Teil der tiefgestellten Beschriftungen wird abgeschnitten und in eine niedrigere Zeile verschoben|Insekt|
-|CELLSNET-45344|Tiefgestellter Text wird etwas nach rechts verschoben - Excel-zu-PDF-Darstellung|Insekt|
-|CELLSNET-44595|Die Ausgabe einer Excel-Datei ist nicht gut, wenn eine HTML-Datei in das Excel-Dateiformat konvertiert wird|Insekt|
-|CELLSNET-44596|Die Ausgabe einer Excel-Datei ist nicht gut, wenn eine HTML-Datei in das Excel-Dateiformat konvertiert wird - I|Insekt|
+|CELLSNET-45344|Tiefgestellter Text wird etwas nach rechts verschoben - Excel auf PDF Rendering|Insekt|
+|CELLSNET-44595|Die Excel-Ausgabedatei ist nicht gut, wenn eine HTML-Datei in das Excel-Dateiformat konvertiert wird|Insekt|
+|CELLSNET-44596|Die Excel-Ausgabedatei ist nicht gut, wenn eine HTML-Datei in das Excel-Dateiformat konvertiert wird - I|Insekt|
 |CELLSNET-45409|Ausnahme nach mehrfachem Laden und Speichern einer XLS-Datei|Insekt|
 |CELLSNET-45411|Load Filter verursacht Absturz beim Laden einer Excel-Datei|Insekt|
 |CELLSNET-45405|Die Verwendung von IFERROR mit NPER kann nicht korrekt verarbeitet werden|Insekt|
-|CELLSNET-45414|Das Ausgabe-PDF sollte eine Seite statt zwei Seiten haben|Insekt|
+|CELLSNET-45414|Ausgabe PDF sollte eine Seite statt zwei Seiten haben|Insekt|
 |CELLSNET-45399|Bild wird falsch gerendert, wenn eine Zelle einen arabischen Währungsnamen hat|Insekt|
-|CELLSNET-45389|Die Form der Klammern wird im Ausgabe-PDF/Bild falsch gerendert|Insekt|
-|CELLSNET-45376|Aspose.Cells gespeichertes PDF ist nicht wie in MS Excel gespeichertes PDF|Insekt|
+|CELLSNET-45389|Die Form der Klammern wird in der Ausgabe PDF/image falsch wiedergegeben|Insekt|
+|CELLSNET-45376|Aspose.Cells gespeichert PDF ist nicht wie MS Excel gespeichert PDF|Insekt|
 |CELLSNET-45400|Sparklines werden nicht richtig angezeigt, wenn sie als Bild gerendert werden|Insekt|
 |CELLSNET-45372|Falsche Farben der Legendenelemente, wenn das BankActionRatPie-Diagramm in ein Bild konvertiert wird|Insekt|
 |CELLSNET-45371|Falsche Farben der Legendenelemente, wenn das TotalActionRatPie-Diagramm in ein Bild konvertiert wird|Insekt|
@@ -45,18 +45,18 @@ url: /de/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45401|Problem mit der Datenvalidierung - Wert1 enthält ein "?"|Insekt|
 |CELLSNET-45393|Cells.DeleteBlankColumns() entfernt eingebettete Objekte im Arbeitsblatt|Insekt|
 |CELLSNET-45392|Verweisen auf eine Spalte mit einer Kopfzeile, die mit einem Rautezeichen ('#') beginnt, aber ohne "@"-Zeichen|Insekt|
-|CELLSNET-45385|Das Öffnen und Speichern der XLSB-Datei beschädigt sie|Insekt|
+|CELLSNET-45385|Das Öffnen und Speichern der Datei XLSB beschädigt sie|Insekt|
 |CELLSNET-45384|Unerwartete Zeile nach Smart Makers in verschachtelte Liste eingefügt|Insekt|
 |CELLSNET-45383|Hash-Zeichen ("#") in den Tabellenköpfen und Verweis darauf in einer anderen Zelle|Insekt|
 |CELLSNET-45382|Leerzeichen am Ende von Tabellenüberschriften und Verweis darauf in einer anderen Zelle|Insekt|
 |CELLSNET-45381|Cell.GetValidationValue gibt einen falschen Wert zurück, wenn eine benutzerdefinierte Datenvalidierungsformel verwendet wird|Insekt|
 |CELLSNET-45378|Hyperlink im 3. Arbeitsblatt nicht identifiziert|Insekt|
-|CELLSNET-45375|Ausnahme beim Öffnen der XLS-Vorlagendatei über Aspose.Cells-APIs|Insekt|
+|CELLSNET-45375|Ausnahme beim Öffnen der Vorlagendatei XLS über Aspose.Cells-APIs|Insekt|
 |CELLSNET-45373|Beim Hinzufügen von Zeilen in der Nähe eines Listenobjekts, das Formeln enthält, werden diese Formeln fälschlicherweise nach oben dupliziert|Insekt|
-|CELLSNET-45369|Das Textformat hat sich nach dem Laden und Speichern des XLS geändert (Abstand vergrößert).|Insekt|
+|CELLSNET-45369|Das Textformat hat sich nach dem Laden und Speichern der XLS geändert (Abstand vergrößert).|Insekt|
 |CELLSNET-45368|Die PrintObject-Eigenschaft von Befehlsschaltflächen wird nach dem Laden und Speichern einer XLSM-Datei auf „true“ gesetzt|Insekt|
-|CELLSNET-45365|Die Zellenformatierung geht nach dem Rendern in das PDF-Format verloren|Insekt|
-|CELLSNET-45361|Die XLSX-Datei ist beschädigt, nachdem das Hintergrundbild eines Diagramms geändert wurde|Insekt|
+|CELLSNET-45365|Die Zellenformatierung ging nach dem Rendern in das Format PDF verloren|Insekt|
+|CELLSNET-45361|XLSX Datei ist beschädigt, nachdem das Hintergrundbild eines Diagramms geändert wurde|Insekt|
 |CELLSNET-45360|Das Einfügen von Bereichen erweitert auch die Größe des obigen Diagramms|Insekt|
 |CELLSNET-45343|ListObject.ConvertToRange unterbricht Formeln in der Summenzeile|Insekt|
 |CELLSNET-45320|Einige Funktionen funktionieren nicht|Insekt|

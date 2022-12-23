@@ -14,11 +14,11 @@ url: /tr/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Yeni özellikler
 
- 41522 - XLS'den XLSM'ye dönüştürmede Senaryoları Ayrıştır
+ 41522 - XLS'den XLSM'e dönüştürmede Senaryoları Ayrıştır
 
  Verim
 
- 41526 - XLSX'ten PDF'e dönüştürme askıda kalıyor
+ 41526 - XLSX - PDF dönüştürme kilitleniyor
 
  İstisnalar
 
@@ -30,7 +30,7 @@ url: /tr/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 - Metin Kutusu için Otomatik Boyutla İlgili Sorunlar
 
- 41751 - Kaydedildiğinde kaybolan dizi formülleri
+41751 - Kaydedildiğinde kaybolan dizi formülleri
 
  41787 - Kaydetme sırasında dosya bozuk
 

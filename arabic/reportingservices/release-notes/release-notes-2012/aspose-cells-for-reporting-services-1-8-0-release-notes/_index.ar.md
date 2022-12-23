@@ -50,7 +50,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - ETA علة / مشكلة
 - وحدة خوارزمية الصف
 - إخراج Excel 2007 (بيانات فقط)
- حشرة
+ خلل برمجي
 
 
 
@@ -60,7 +60,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 
 
-- مكون الخادم - يتم دمج الحقول عند تقديمها كـ XLSX
+- مكون الخادم - يتم دمج الحقول عند تقديمها بالشكل XLSX
 - مكون الخادم - تصدير المشكلات بحلول Aspose.Cells for Reporting Services
 - مكون الخادم - يكون العمود المخفي مرئيًا بعد التقديم
 - مكون الخادم - رؤوس مجموعة الأعمدة مفقودة
@@ -71,8 +71,8 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 - مكون الخادم - مشكلة لون الخلفية Cell (XL # CCS) في ReportingServices
 - مكون الخادم - مشكلة الصيغة الديناميكية وتذييلات الجدول
-- ServerComponent - قم بإنشاء ملف XLSX بدلاً من CSV إذا اختار المستخدم نوع تصدير CSV
+- ServerComponent - قم بإنشاء ملف XLSX بدلاً من CSV إذا اختار المستخدم CSV نوع التصدير
 - ServerComponent - غير قادر على تصدير تقرير Cross Tab إلى MS Excel 2007
-- مكون الخادم - مشكلة ترميز تصدير CSV
+- مكون الخادم - CSV تصدير مشكلة ترميز
 
 

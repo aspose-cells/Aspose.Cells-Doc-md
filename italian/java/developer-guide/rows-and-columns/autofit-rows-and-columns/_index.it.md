@@ -6,11 +6,11 @@ url: /it/java/autofit-rows-and-columns/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel offre una buona funzionalità per ridimensionare automaticamente la larghezza e l'altezza di una cella in base al suo contenuto. Questa funzione è disponibile anche per gli utenti Aspose.Cells con la possibilità di ridimensionare automaticamente le dimensioni di una cella in fase di esecuzione.
+Microsoft Excel fornisce una buona funzionalità per ridimensionare automaticamente la larghezza e l'altezza di una cella in base al suo contenuto. Questa funzione è disponibile anche per gli utenti Aspose.Cells con la possibilità di ridimensionare automaticamente le dimensioni di una cella in fase di esecuzione.
 
 {{% /alert %}} 
 ## **Montaggio automatico**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel.
 
  Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro. Questo articolo esamina l'utilizzo di[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)class per adattare automaticamente righe o colonne.
 ### **Riga AutoFit - Semplice**
@@ -50,10 +50,10 @@ Microsoft Excel offre una buona funzionalità per ridimensionare automaticamente
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitColumnsinaRangeofCells-AutoFitColumnsinaRangeofCells.java" >}}
 ### **Adatta righe per unione Cells**
-Con Aspose.Cells è possibile adattare automaticamente le righe anche per le celle che sono state unite utilizzando il[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)API.[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)la classe fornisce[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)proprietà che può essere utilizzata per adattare automaticamente le righe per le celle unite.[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)accetta[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType)enumerabile che ha i seguenti membri.
+Con Aspose.Cells è possibile adattare automaticamente le righe anche per le celle che sono state unite utilizzando il[AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions) API. [AutoFitterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitterOptions)la classe fornisce[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)proprietà che può essere utilizzata per adattare automaticamente le righe per le celle unite.[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/autofitteroptions#AutoFitMergedCellsType)accetta[AutoFitMergedCellsType](https://reference.aspose.com/cells/java/com.aspose.cells/AutoFitMergedCellsType)enumerabile che ha i seguenti membri.
 
 - [NESSUNO](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#NONE): ignora le celle unite.
-- [PRIMA LINEA](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE)espande solo l'altezza della prima riga.
+- [PRIMA LINEA](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#FIRST_LINE): espande solo l'altezza della prima riga.
 - [ULTIMA LINEA](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#LAST_LINE): espande solo l'altezza dell'ultima riga.
 - [OGNI LINEA](https://reference.aspose.com/cells/java/com.aspose.cells/autofitmergedcellstype#EACH_LINE): espande solo l'altezza di ogni riga.
 

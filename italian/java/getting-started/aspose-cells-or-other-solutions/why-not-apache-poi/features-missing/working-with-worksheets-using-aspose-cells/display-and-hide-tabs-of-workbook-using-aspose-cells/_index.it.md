@@ -5,9 +5,9 @@ weight: 50
 url: /it/java/display-and-hide-tabs-of-workbook-using-aspose-cells/
 ---
 ## **Aspose.Cells - Mostra e nascondi le schede della cartella di lavoro**
-Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Microsoft Excel. La classe Workbook fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per controllare la visibilità delle schede in un file Excel, gli sviluppatori possono utilizzare il metodo setShowTabs della classe Workbook.
+Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Excel Microsoft. La classe Workbook fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per controllare la visibilità delle schede in un file Excel, gli sviluppatori possono utilizzare il metodo setShowTabs della classe Workbook.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

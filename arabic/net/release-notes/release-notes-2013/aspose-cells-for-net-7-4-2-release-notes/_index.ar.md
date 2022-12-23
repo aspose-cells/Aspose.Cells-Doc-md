@@ -28,7 +28,7 @@ url: /ar/net/aspose-cells-for-net-7-4-2-release-notes/
 
  41440 - إصدار خط منقط - من ورقة إلى صورة
 
- 41470 - بخصوص تحويل ملف المصنف إلى ملف PDF
+ 41470 - بخصوص تحويل المصنف إلى ملف PDF
 
  41442 - وظيفة ToTiff: مشاكل محاذاة الأرقام
 
@@ -44,7 +44,7 @@ url: /ar/net/aspose-cells-for-net-7-4-2-release-notes/
 
  ميزات جديدة
 
- 41459 - استخدام GridWeb في JavaScript
+41459 - استخدام GridWeb في JavaScript
 
  البق
 

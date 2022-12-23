@@ -19,12 +19,12 @@ url: /tr/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45888|DDE bağlantısı Worksheets.ExternalLinks içinde mevcut değil|Artırma|
 |CELLSNET-45893|Aspose.Cells.GridWeb, kaydırma metni etkinleştirildiğinde Microsoft Excel gibi metin girmez|Artırma|
 |CELLSNET-45833|Görüntü özellikleri (Başlık ve Konu), Şekilden görüntüye dönüştürmede kayboluyor|Böcek|
-|CELLSNET-45822|Excel'i PDF'ye dönüştürürken etiketlerdeki ters karakterler|Böcek|
+|CELLSNET-45822|Excel'i PDF'e dönüştürürken etiketlerdeki ters karakterler|Böcek|
 |CELLSNET-45776|Bir MHTml dosyasını Excel dosya biçiminde kaydederken bazı sütun verileri tam olarak genişletilmiyor/görüntülenmiyor|Böcek|
-|CELLSNET-44829|Çıktı HTML'si, Microsoft Excel ile eşleşmiyor|Böcek|
+|CELLSNET-44829|HTML çıktısı, Microsoft Excel ile eşleşmiyor|Böcek|
 |CELLSNET-44319|Pivot tablo filtre değeri yenileme sonrasında korunmaz|Böcek|
 |CELLSNET-45887|#DEĞER!' ArrayFormula'nın hesaplamasında hata|Böcek|
-|CELLSNET-45883|3B Pasta grafiği - çıktı PDF'sinde iyi işlenmemiş|Böcek|
+|CELLSNET-45883|3B Pasta grafiği - PDF çıktısında iyi işlenmemiş|Böcek|
 |CELLSNET-45881|Giriş Excel dosyasının açılması ve kaydedilmesi, MS Excel'de Kırmızı Korumalı Görünüm uyarısına neden oluyor|Böcek|
 |CELLSNET-45880|X ekseni etiketlerinin bir kısmı, grafikteki ikinci satırda işlenir|Böcek|
 |CELLSNET-45864|Aspose.Cells'den dönüştürülen EMF tam olarak doğru değil|Böcek|
@@ -34,7 +34,7 @@ url: /tr/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45865|Sütun adında kullanılan özel karakterler çalışmıyor - Akıllı İşaretçiler sorunu|Böcek|
 |CELLSNET-45858|Bağlantı kaynağının değiştirilmesi açılır listelerin içeriğini etkiliyor|Böcek|
 |CELLSNET-45857|Sayfayı bir çalışma kitabından diğerine kopyalarken bozuk dosya|Böcek|
-|CELLSNET-45901|PDF'ye dönüştürüldüğünde metin kutusu hizalaması kayboldu|Böcek|
+|CELLSNET-45901|PDF olarak işlendiğinde metin kutusu hizalaması kayboldu|Böcek|
 |CELLSNET-45875|Cell değeri kayboluyor ve x ekseni etiketlerinin bir kısmı ikinci satırda işleniyor|Böcek|
 |CELLSNET-45873|GridWeb'de radyo düğmesi grupları için etkileşimli kontrolün uygulanması|Böcek|
 |CELLSNET-45902|Çalışma sayfası, Aspose.Cells.GridWeb'de gezinirken veya tıklatıldığında aşırı boyutlandırılıyor ve yanıt vermiyor|Böcek|

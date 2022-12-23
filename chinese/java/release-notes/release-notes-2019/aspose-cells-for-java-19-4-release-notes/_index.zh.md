@@ -18,11 +18,11 @@ url: /zh/java/aspose-cells-for-java-19-4-release-notes/
 |CELLSJAVA-42856|Excel 到 HTML 的转换问题|漏洞|
 |CELLSJAVA-42872|工作表的图片，缺少右侧和底部的线条|漏洞|
 |CELLSJAVA-42873|预处理工作表有几个单元格背景和文本丢失并被隐藏。|漏洞|
-|CELLSJAVA-42874|将文件导出为 HTML 时列丢失|漏洞|
+|CELLSJAVA-42874|导出文件时列丢失 HTML|漏洞|
 |CELLSJAVA-42875|宽度不对，显示变形|漏洞|
 |CELLSJAVA-42878|计算公式的结果不正确|漏洞|
-|CELLSJAVA-40419|从 Excel 导出为 PDF 时无法创建带标签的 PDF|漏洞|
-|CELLSJAVA-40570|不同尺寸的页面错误地转换为 PDF 和 JPG|漏洞|
+|CELLSJAVA-40419|从 Excel 导出到 PDF 时无法创建标记 PDF|漏洞|
+|CELLSJAVA-40570|不同尺寸的页面错误转换为 PDF 和 JPG|漏洞|
 |CELLSJAVA-42833|在工作簿的多个工作表中嵌入相同的 PDF 文件时出现问题|漏洞|
 |CELLSJAVA-42858|使用带有 Picture:FitToCell 选项的智能标记将图像添加到合并单元格时出现问题|漏洞|
 |CELLSJAVA-42862|CSV 导入后工作表名称在公式中重命名|漏洞|

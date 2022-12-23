@@ -12,7 +12,7 @@ url: /de/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [Löschen Sie eine Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **Auswahl einer Cell**
@@ -96,8 +96,8 @@ So löschen Sie eine Zelle:
 
 1. Klicken Sie auf eine Zelle, die Sie löschen möchten.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Cell löschen** Taste.
-1.  Wählen**Schicht Cells Hoch** oder**Schicht Cells Links** Taste.
+1.  Klicken**Cell löschen** Knopf.
+1.  Wählen**Schicht Cells Hoch** oder**Schicht Cells Links** Knopf.
 
 Der Editor löscht die ausgewählte Zelle. Die angrenzenden Zellen werden automatisch entweder horizontal oder vertikal verschoben, um den Abstand anzupassen.
 
@@ -146,7 +146,7 @@ So löschen Sie eine Zelle:
 
 1. Klicken Sie auf eine Zelle, die Sie löschen möchten.
 1.  Wechseln zu**Registerkarte „Format“.**.
-1.  Klicken**Klar Cell** Taste.
+1.  Klicken**Klar Cell** Knopf.
 1.  Wählen**Formate**, **Inhalt** oder**Beide** Möglichkeit.
 
 Der Editor löscht die ausgewählte Zelle.

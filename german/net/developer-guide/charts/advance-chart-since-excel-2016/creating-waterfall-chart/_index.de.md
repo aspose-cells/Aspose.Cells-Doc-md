@@ -18,7 +18,7 @@ Das unten bereitgestellte Code-Snippet zeigt die Verwendung von Aspose.Cells for
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateWaterfallChart-1.cs" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Erstellen von Diagrammen](/cells/de/net/creating-charts/)
 - [Anpassen von Diagrammen](/cells/de/net/customizing-charts/)

@@ -19,16 +19,16 @@ url: /es/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47070|Soporte para Regex en la función Reemplazar similar a Find () usando opciones|Nueva caracteristica|
 |CELLSNET-46998|Soporte para firmas XAdES|Nueva caracteristica|
 |CELLSNET-40174|Insertar casilla de verificación en la hoja de tipo de gráfico|Nueva caracteristica|
-|CELLSNET-43089|Compatibilidad con formato condicional al convertir ODS a XLSX|Nueva caracteristica|
-|CELLSNET-43090|Compatibilidad con la validación de datos al convertir ODS a formato XLSX|Nueva caracteristica|
+|CELLSNET-43089|Soporte para formato condicional al convertir ODS a XLSX|Nueva caracteristica|
+|CELLSNET-43090|Compatibilidad con la validación de datos al convertir el formato ODS al formato XLSX|Nueva caracteristica|
 |CELLSNET-47064|Admite las formas en el gráfico para el archivo .xlsx.|Mejora|
 |CELLSNET-47065|Obtener PowerQuery de DataConnections|Mejora|
 |CELLSNET-47066|Obtener PowerQuery MCode con formato similar a MS Excel|Mejora|
 |CELLSNET-47008|Problema al representar una imagen de un gráfico en un ángulo específico|Insecto|
 |CELLSNET-47063|Problema de procesamiento de Excel en la impresora cuando las fuentes no están instaladas|Insecto|
 |CELLSNET-44237|Orden descendente del campo de datos de la tabla dinámica|Insecto|
-|CELLSNET-47002|El valor calculado se muestra como "#REF!" en PDF resultante|Insecto|
-|CELLSNET-47050|Algunos campos de la primera página no aparecen en el PDF de salida|Insecto|
+|CELLSNET-47002|El valor calculado se muestra como "#REF!" en resultante PDF|Insecto|
+|CELLSNET-47050|Algunos campos de la primera página no aparecen en la salida PDF|Insecto|
 |CELLSNET-40733|Abra el archivo .ods de Office: el formato condicional no se mantiene|Insecto|
 |CELLSNET-47039|Los gráficos de dispersión XY en el archivo ODS no se representan correctamente|Insecto|
 |CELLSNET-47040|Los gráficos netos en el archivo ODS no se representan correctamente|Insecto|
@@ -49,7 +49,7 @@ Obtiene la definición de la fórmula de consulta de energía.
 #### **Agrega la propiedad DBConnection.PowerQueryFormula.**
 Obtiene la definición de la fórmula de consulta de potencia.
 #### **Agrega la propiedad HtmlSaveOptions.ExportHeadings.**
- Indica si se exportan encabezados al guardar el archivo en HTML. El valor predeterminado es**falso**. Si desea importar el archivo HTML a Excel, mantenga el valor predeterminado.
+ Indica si exportar encabezados al guardar el archivo en HTML. El valor predeterminado es**falso**. Si desea importar el archivo HTML a Excel, mantenga el valor predeterminado.
 #### **Agrega la clase XAdESType**
 Tipo de Firma Electrónica Avanzada XML (XAdES).
 #### **Agrega la propiedad DigitalSignature.XAdESType**

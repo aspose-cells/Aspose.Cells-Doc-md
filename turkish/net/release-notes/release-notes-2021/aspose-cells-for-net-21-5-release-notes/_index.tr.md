@@ -25,7 +25,7 @@ url: /tr/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|Yeni çalışma kitabı geçersiz dosyada asılı kalıyor|Verim|
 |CELLSNET-48012|Çok çeşitli doğrulamalarla .ods dosyasını okuma performansını artırın.|Verim|
 |CELLSNET-48039|Kopyalanan çalışma kitabını kaydederken sonsuz döngü|Verim|
-|CELLSNET-44224|WordArt filigranı çıktı PDF dosya biçiminde işlenmez|Böcek|
+|CELLSNET-44224|WordArt filigranı, PDF çıktı dosya biçiminde işlenmez|Böcek|
 |CELLSNET-47887|Şeklin içindeki metin yanlış yerleştirilmiş|Böcek|
 |CELLSNET-47920|HTML'den Excel'e dönüştürmede bazı içerikler gözden kaçıyor|Böcek|
 |CELLSNET-47981|Birleştirilmiş hücreler içeren aralığın html'ye dışa aktarılmasının sonucu yanlış|Böcek|
@@ -38,21 +38,21 @@ url: /tr/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|Cell'den 'FALSE' değeri yerine yanlış 'TRUE' değeri alındı|Böcek|
 |CELLSNET-48042|Alınan biçimlendirilmiş hücre değerleri Excel çalışma sayfasında yanlış|Böcek|
 |CELLSNET-48031|xlsx dosyası html'ye dönüştürülürken "Şekilden görüntüye Hata" çıkıyor|Böcek|
-|CELLSNET-48037|PDF'ye kaydederken görüntü bozuk|Böcek|
-|CELLSNET-47714|Dikey eksendeki metin, EMF'ye dönüştürülürken tablodaki yatay eksenle çakışıyor|Böcek|
-|CELLSNET-47856|Pivot tablolarla XLSX'ten PDF'e dönüştürme sorunu|Böcek|
-|CELLSNET-47986|Grafikten Görüntüye/PDF'ye - Şelale grafik türüyle yanlış çıktı|Böcek|
+|CELLSNET-48037|PDF'e kaydederken görüntü bozuluyor|Böcek|
+|CELLSNET-47714|EMF'e dönüştürülürken dikey eksendeki metin grafikte yatay eksenle çakışıyor|Böcek|
+|CELLSNET-47856|Pivot tablolarla XLSX'den PDF'e dönüştürme sorunu|Böcek|
+|CELLSNET-47986|Grafikten Resime/PDF - Şelale grafik türüyle yanlış çıktı|Böcek|
 |CELLSNET-48010|Excel 2010 XLSX dosyalarını yüklerken istisna|Böcek|
 |CELLSNET-48020|Excel 95'i Yükle ve Kaydet'ten sonra Aspose.Cells aracılığıyla form kontrolleri silinir|Böcek|
 |CELLSNET-48033|Yükleme ve kaydetme işleminden sonra bozuk Excel dosyası|Böcek|
-|CELLSNET-47957| Bir Excel dosyasını PDF dosya biçimine dönüştürürken "Şekilden görüntüye Hata" çıkıyor|İstisna|
+|CELLSNET-47957| Bir Excel dosyası PDF dosya biçimine dönüştürülürken "Şekilden görüntüye Hata" oluşuyor|İstisna|
 |CELLSNET-48027|Şekli resme dönüştürürken geçersiz parametre istisnası|İstisna|
 |CELLSNET-48029|"Şekilden görüntüye Hata" yükseltir|İstisna|
 |CELLSNET-48017|Html dosyasını içe aktarırken "Giriş dizesi doğru biçimde değildi" istisnası|İstisna|
 |CELLSNET-48034|Mht dosyasında geçersiz yazı tipi boyutu.|İstisna|
 |CELLSNET-47977|'[96]Maliyet Tablosu' formülünü ayrıştırırken istisna!$D$6|İstisna|
 |CELLSNET-47979|Save yönteminde nesne referans istisnası|İstisna|
-|CELLSNET-48040|XLSB'yi XLSX'e dönüştürürken istisna yükseliyor|İstisna|
+|CELLSNET-48040|XLSB'i XLSX'e dönüştürürken istisna yükseliyor|İstisna|
 |CELLSNET-47980|Aspose.Cells tarafından bir Excel dosyası kaydedilirken bir hata oluştu|İstisna|
 |CELLSNET-48001|GetPrintingPageBreaks() çağrılırken geçersiz satır dizini istisnası|İstisna|
 |CELLSNET-48022|Beklenmeyen Border.LineType hücre|İstisna|
@@ -158,7 +158,7 @@ Bunun yerine FileFormatType.Bmp enum kullanın.
  
  Bunun yerine FileFormatType.Tsv numaralandırmasını kullanın.
 
-### **FileFormatType.FODS sıralamasını geçersiz kılar ve FileFormatType.Fods sıralamasını ekler.**
+### **FileFormatType.FODS numaralandırmasını geçersiz kılar ve FileFormatType.Fods numaralandırmasını ekler.**
 
  Bunun yerine FileFormatType.Fods enum kullanın.
 
@@ -182,7 +182,7 @@ Bunun yerine FileFormatType.MsEquation numaralandırmasını kullanın.
  
  Bunun yerine FileFormatType.Odp numaralandırmasını kullanın.
 
-### **FileFormatType.ODS sıralamasını geçersiz kılar ve FileFormatType.Ods numaralandırmasını ekler.**
+### **FileFormatType.ODS numaralandırmasını geçersiz kılar ve FileFormatType.Ods numaralandırmasını ekler.**
 
  
  Bunun yerine FileFormatType.Ods enum kullanın.
@@ -239,7 +239,7 @@ Bunun yerine FileFormatType.MsEquation numaralandırmasını kullanın.
  
  Bunun yerine FileFormatType.Xml numaralandırmasını kullanın.
 
-### **FileFormatType.XPS listesini geçersiz kılar ve FileFormatType.Xps listesini ekler.**
+### **FileFormatType.XPS numaralandırmasını geçersiz kılar ve FileFormatType.Xps numaralandırmasını ekler.**
 
  
  Bunun yerine FileFormatType.Xps enum kullanın.
@@ -249,7 +249,7 @@ Bunun yerine FileFormatType.MsEquation numaralandırmasını kullanın.
  
  Bunun yerine FileFormatType.SpreadsheetML numaralandırmasını kullanın.
 
-### **SaveFormat.XPS listesini geçersiz kılar ve SaveFormat.Xps listesini ekler.**
+### **SaveFormat.XPS numaralandırmasını geçersiz kılar ve SaveFormat.Xps numaralandırmasını ekler.**
 
  
  Bunun yerine SaveFormat.Xps numaralandırmasını kullanın.
@@ -272,7 +272,7 @@ Bunun yerine SaveFormat.Sxc numaralandırmasını kullanın.
  
 Bunun yerine SaveFormat.Svg numaralandırmasını kullanın.
 
-### **SaveFormat.ODS listesini geçersiz kılar ve SaveFormat.Ods listesini ekler.**
+### **SaveFormat.ODS numaralandırmasını geçersiz kılar ve SaveFormat.Ods numaralandırmasını ekler.**
 
  
  Bunun yerine SaveFormat.Ods numaralandırmasını kullanın.
@@ -295,9 +295,9 @@ Bunun yerine SaveFormat.Svg numaralandırmasını kullanın.
 ### **LoadFormat.TSV numaralandırmasını geçersiz kılar ve LoadFormat.Tsv numaralandırmasını ekler.**
 
  
-Bunun yerine LoadFormat.Tsv numaralandırmasını kullanın.
+ Bunun yerine LoadFormat.Tsv numaralandırmasını kullanın.
 
-### **LoadFormat.ODS sıralamasını geçersiz kılar ve LoadFormat.Ods sıralamasını ekler.**
+### **LoadFormat.ODS numaralandırmasını geçersiz kılar ve LoadFormat.Ods numaralandırmasını ekler.**
 
  Bunun yerine LoadFormat.Ods numaralandırmasını kullanın.
 
@@ -306,7 +306,7 @@ Bunun yerine LoadFormat.Tsv numaralandırmasını kullanın.
  
  Bunun yerine LoadFormat.Sxc numaralandırmasını kullanın.
 
-### **LoadFormat.FODS sıralamasını geçersiz kılar ve LoadFormat.Fods sıralamasını ekler.**
+### **LoadFormat.FODS numaralandırmasını geçersiz kılar ve LoadFormat.Fods numaralandırmasını ekler.**
 
  
  Bunun yerine LoadFormat.Fods enum kullanın.

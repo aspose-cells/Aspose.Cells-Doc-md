@@ -12,7 +12,7 @@ url: /it/java/grouping-and-ungrouping-rows-and-columns-in-python/
 - Indice dell'ultima riga/colonna, l'ultima riga o colonna del gruppo.
 - È nascosto, un parametro booleano che specifica se nascondere o meno righe/colonne dopo il raggruppamento.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -49,7 +49,7 @@ Separa le righe o le colonne raggruppate chiamando i metodi UngroupRows e Ungrou
 - Indice della prima riga o colonna, la prima riga/colonna da separare.
 - Indice dell'ultima riga o colonna, l'ultima riga/colonna da separare.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -81,6 +81,6 @@ print "Ungroup Rows And Columns Successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Raggruppa e separa righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Raggruppa e separa righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

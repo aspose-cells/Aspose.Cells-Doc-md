@@ -1,18 +1,18 @@
 ﻿---
-title: Limiter le nombre de pages générées - Conversion Excel en PDF
+title: Limiter le nombre de pages générées - Conversion Excel à PDF
 type: docs
 weight: 60
 url: /fr/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-Parfois, vous souhaitez imprimer une plage de pages dans un fichier PDF de sortie. Aspose.Cells a la capacité de définir une limite sur le nombre de pages générées lors de la conversion d'une feuille de calcul Excel en PDF.
+Parfois, vous souhaitez imprimer une plage de pages dans un fichier de sortie PDF. Aspose.Cells a la capacité de définir une limite sur le nombre de pages générées lors de la conversion d'une feuille de calcul Excel en PDF.
 
 {{% /alert %}}
 
 ## **Limiter le nombre de pages générées**
 
-L'exemple suivant montre comment rendre une plage de pages (3 et 4) dans un fichier Excel Microsoft au format PDF.
+L'exemple suivant montre comment rendre une plage de pages (3 et 4) dans un fichier Excel Microsoft en PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LimitNumberofPagesGenerated-LimitNumberofPagesGenerated.java" >}}
 

@@ -10,7 +10,7 @@ description: Importera data från en XML-datafil till Microsoft Excel.
 
  Aspose.Cells låter dig importera XML-kartan inuti arbetsboken med hjälp av[**Workbook.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) metod. Du kan importera XML-karta med hjälp av Microsoft Excel med följande steg
 
--  Välj**Utvecklaren** flik
+-  Välj**Utvecklare** flik
 -  Klick**Importera** i XML-sektionen och följ de nödvändiga stegen.
 
  Du måste ange dina XML-data för att slutföra importen. Här är en[exempel på XML-data](5115037.txt) som du kan använda för att testa.

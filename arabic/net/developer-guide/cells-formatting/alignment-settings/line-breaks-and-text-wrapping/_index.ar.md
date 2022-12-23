@@ -12,7 +12,7 @@ url: /ar/net/line-breaks-and-text-wrapping/
 
 ## **التفاف النص في Cell**
 
- لالتفاف نص في خلية ، استخدم ملف[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)منشأه.
+ لالتفاف نص في خلية ، استخدم ملف[**Aspose.Cells.Style.IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 

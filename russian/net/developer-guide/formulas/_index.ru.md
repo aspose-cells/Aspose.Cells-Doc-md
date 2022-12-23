@@ -6,7 +6,7 @@ weight: 122
 url: /ru/net/using-formulas-or-functions-to-process-data/
 description: Aspose.Cells может просто получить, установить и вычислить формулы файлов Excel.
 ---
-## **Введение**
+## **Вступление**
 
 Одной из привлекательных особенностей Excel Microsoft является его способность обрабатывать данные с помощью формул и функций. Microsoft Excel предоставляет набор встроенных функций и формул, которые помогают пользователям быстро выполнять сложные вычисления. Aspose.Cells также предоставляет огромный набор встроенных функций и формул, которые помогают разработчикам легко вычислять значения. Aspose.Cells также поддерживает дополнительные функции. Кроме того, Aspose.Cells поддерживает массив и формулы R1C1 в Aspose.Cells.
 
@@ -47,7 +47,7 @@ description: Aspose.Cells может просто получить, устано
 
  Aspose.Cells предоставляет возможности для регистрации дополнительных функций с использованием[**Рабочие листы.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Впоследствии, когда мы устанавливаем cell.Formula = anyFunctionFromAddIn, выходной файл Excel содержит вычисленное значение из функции AddIn.
 
-Для регистрации функции надстройки в приведенном ниже примере кода необходимо загрузить следующий файл XLAM. Точно так же можно загрузить выходной файл «test_udf.xlsx» для проверки вывода.
+Следующий файл XLAM должен быть загружен для регистрации функции надстройки в приведенном ниже образце кода. Точно так же можно загрузить выходной файл «test_udf.xlsx» для проверки вывода.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -63,8 +63,8 @@ description: Aspose.Cells может просто получить, устано
 
  Формулу массива можно применить к ячейке, вызвав метод[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) учебный класс'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) метод.[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) метод принимает следующие параметры:
 
-- **Формула массива**, формула массива.
-- **Количество рядов**количество строк для заполнения результата формулы массива.
+- **Формула массива**формула массива.
+- **Количество рядов**, количество строк для заполнения результата формулы массива.
 - **Число столбцов**количество столбцов для заполнения результата формулы массива.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}

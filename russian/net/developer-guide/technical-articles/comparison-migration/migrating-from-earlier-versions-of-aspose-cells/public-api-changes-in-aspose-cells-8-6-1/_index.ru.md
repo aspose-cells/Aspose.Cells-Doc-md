@@ -10,8 +10,8 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-6-1/
 
 {{% /alert %}} 
 ## **Добавлены API**
-### **Поддержка целевого типа ссылки HTML**
-В этом выпуске Aspose.Cells for .NET API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/net/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значением по умолчанию является Self.
+### **Поддержка HTML Тип цели ссылки**
+ В этом выпуске Aspose.Cells for .NET API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/net/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значением по умолчанию является Self.
 
 1. HtmlLinkTargetType.Blank: открывает связанный документ/страницу в новом окне или вкладке.
 1. HtmlLinkTargetType.Parent: открывает связанный документ/страницу в родительском фрейме.
@@ -96,7 +96,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 
 
 ### **Добавлен метод Cell.SetCharacters**
- Метод Cell.SetCharacters можно использовать для[обновить части форматированного текста](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.GetCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.SetCharacters, тогда как метод**Получить** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**Установлен** можно использовать для применения изменений.
+ Метод Cell.SetCharacters можно использовать для[обновить части форматированного текста](/cells/ru/net/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.GetCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.SetCharacters, тогда как метод**Получать** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**Установлен** можно использовать для применения изменений.
 
 Ниже приведен простой сценарий использования.
 
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **Добавлено свойство VbaProject.IsSigned**
- Aspose.Cells for .NET 8.6.1 предоставил свойство VbaProject.IsSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/net/check-if-vba-project-in-a-workbook-is-signed/). Свойство логического типа возвращает true, если проект подписан.
+ Aspose.Cells for .NET 8.6.1 предоставил свойство VbaProject.IsSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/net/check-if-vba-project-in-a-workbook-is-signed/)Свойство логического типа возвращает true, если проект подписан.
 
 Ниже приведен простой сценарий использования.
 

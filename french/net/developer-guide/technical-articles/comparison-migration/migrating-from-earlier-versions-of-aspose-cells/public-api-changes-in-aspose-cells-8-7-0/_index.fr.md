@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Propriété TxtLoadOptions.HasFormula ajoutée**
- Aspose.Cells for .NET 8.7.0 a fourni un support pour[identifier et analyser les formules lors du chargement de fichiers CSV/TXT ayant des données simples délimitées](/cells/fr/net/load-or-import-csv-file-with-formulas/). La propriété TxtLoadOptions.HasFormula nouvellement exposée, lorsqu'elle est définie sur true, ordonne au API d'analyser les formules du fichier délimité d'entrée et de les définir sur les cellules pertinentes sans nécessiter de traitement supplémentaire.
+ Aspose.Cells for .NET 8.7.0 a fourni un support pour[identifier et analyser les formules lors du chargement des fichiers CSV/TXT ayant des données simples délimitées](/cells/fr/net/load-or-import-csv-file-with-formulas/). La propriété TxtLoadOptions.HasFormula nouvellement exposée, lorsqu'elle est définie sur true, ordonne au API d'analyser les formules du fichier délimité d'entrée et de les définir sur les cellules pertinentes sans nécessiter de traitement supplémentaire.
 
 Voici le scénario d'utilisation simple.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Propriété DataLabels.IsResizeShapeToFitText ajoutée**
- Une autre fonctionnalité utile que Aspose.Cells for .NET 8.7.0 a exposée est la propriété DataLabels.IsResizeShapeToFitText qui peut activer le[Redimensionner la forme pour l'adapter au texte](/cells/fr/net/resize-chart-s-data-label-shape-to-fit-text/) fonctionnalité de l'application Excel pour les étiquettes de données du graphique.
+ Une autre fonctionnalité utile que Aspose.Cells for .NET 8.7.0 a exposée est la propriété DataLabels.IsResizeShapeToFitText qui peut activer le[Redimensionner la forme pour l'adapter au texte](/cells/fr/net/resize-chart-s-data-label-shape-to-fit-text/)fonctionnalité de l'application Excel pour les étiquettes de données du graphique.
 
 Voici le scénario d'utilisation simple.
 

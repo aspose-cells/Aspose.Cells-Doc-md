@@ -14,7 +14,7 @@ Erstellen Sie eine neue Excel-Datei von Grund auf neu und fügen Sie ihr ein Arb
 - Entfernen Sie ein Arbeitsblatt aus einer Excel-Datei, indem Sie seinen Blattindex verwenden.
 - Aspose.Cells stellt eine Klasse Workbook bereit, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
+Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern.
 ## **Hinzufügen von Arbeitsblättern zu einer neuen Excel-Datei**
 So erstellen Sie programmgesteuert eine neue Excel-Datei:
 

@@ -14,7 +14,7 @@ keywords: java create waterfall chart in excel, java creating waterfall chart in
 
 ## Şelale Grafiği Oluşturma
 
- Aspose.Cells API'leri, çizgi grafiği yardımıyla bir şelale grafiği oluşturmaya izin verir. API ayrıca, grafiği şekillendirmek için en önemli özellikleri ayarlayarak, tablo görünümünü şelalenin şeklini verecek şekilde özelleştirmeye olanak tanır;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Seri.Aşağı Çubuklar**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)özellikleri.
+ Aspose.Cells API'leri, çizgi grafiği yardımıyla bir şelale grafiği oluşturmaya izin verir. API ayrıca, grafiği şekillendirmek için en önemli özellikleri ayarlayarak, tablo görünümünü şelalenin şeklini verecek şekilde özelleştirmeye olanak tanır;[**Series.UpBars**](https://reference.aspose.com/cells/java/com.aspose.cells/series#UpBars) & [**Seri.Aşağı Çubuklar**](https://reference.aspose.com/cells/java/com.aspose.cells/series#DownBars)özellikler.
 
 Aşağıda sağlanan kod parçacığı, sıfırdan bir şelale grafiği oluşturmak için Aspose.Cells for Java API kullanımını göstermektedir.
 

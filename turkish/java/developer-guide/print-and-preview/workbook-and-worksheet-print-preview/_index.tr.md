@@ -6,7 +6,7 @@ url: /tr/java/workbook-and-worksheet-print-preview/
 ---
 ## **Kullanım Senaryosu**
 
-Milyonlarca sayfa içeren Excel dosyalarının PDF'ye veya resimlere dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok fazla zaman ve kaynak tüketecektir. Bu gibi durumlarda, Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme özelliği yararlı olabilir. Bu tür dosyaları dönüştürmeden önce, kullanıcı toplam sayfa sayısını kontrol edebilir ve ardından dosyanın dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)toplam sayfa sayısını öğrenmek için sınıflar.
+Milyonlarca sayfa içeren Excel dosyalarının PDF veya görsellere dönüştürülmesi gereken durumlar olabilir. Bu tür dosyaların işlenmesi çok fazla zaman ve kaynak tüketecektir. Bu gibi durumlarda, Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme özelliği yararlı olabilir. Bu tür dosyaları dönüştürmeden önce, kullanıcı toplam sayfa sayısını kontrol edebilir ve ardından dosyanın dönüştürülüp dönüştürülmeyeceğine karar verebilir. Bu makale,[**Çalışma KitabıYazdırmaÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)ve[**SheetPrintingÖnizleme**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)toplam sayfa sayısını öğrenmek için sınıflar.
 
 ## **Çalışma Kitabı ve Çalışma Sayfası Baskı Önizleme**
 

@@ -36,7 +36,7 @@ Le WorkbookService est un bean backend JSF à portée de vue. Il fonctionne comm
 
 **initialiser**
 
- La**initialiser** est**Post-construction** méthode qui est exécutée juste après la création de l'objet par le serveur d'applications Java. Il vérifie**URL**paramètre dans la carte des paramètres de demande et charge la feuille de calcul correspondante à partir d'un emplacement donné, si possible.
+ Le**initialiser** est**Post-construction** méthode qui est exécutée juste après la création de l'objet par le serveur d'applications Java. Il vérifie**URL** paramètre dans la carte des paramètres de demande et charge la feuille de calcul correspondante à partir d'un emplacement donné, si possible.
 
 **détruire**
 
@@ -44,4 +44,4 @@ Il est responsable de nettoyer toutes les ressources acquises lorsqu'elles ne so
 ### **LoaderService**
 Il crée des instances de feuille de calcul et les garde en mémoire aussi longtemps qu'elles sont nécessaires.
 ### **CellsService**
- La**CellsService** gère le cache des lignes, des colonnes, des cellules, du formatage et de la structure des feuilles de calcul.
+ Le**CellsService** gère le cache des lignes, des colonnes, des cellules, du formatage et de la structure des feuilles de calcul.

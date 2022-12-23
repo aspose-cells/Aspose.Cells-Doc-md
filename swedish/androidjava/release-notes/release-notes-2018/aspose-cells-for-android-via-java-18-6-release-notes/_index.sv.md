@@ -18,16 +18,16 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.6.
 |CELLSJAVA-42625|Implementeringen av MS Excel-funktionen "Watch Window"|Ny funktion|
 |CELLSJAVA-42612|Det går inte att extrahera texten från kugghjulstypen SmartArt|Ny funktion|
 |CELLSJAVA-42572|Formel bör inte innehålla mer än 8192 tecken|Förbättring|
-|CELLSJAVA-42569|Det går inte att komma åt objekt för horisontella kategoriaxeletiketter i diagram i XLS|Förbättring|
+|CELLSJAVA-42569|Det går inte att komma åt objekt för horisontella kategoriaxeletiketter i diagrammet i XLS|Förbättring|
 |CELLSJAVA-42580|Hämta/ställ in språkdokumentegenskap|Förbättring|
 |CELLSJAVA-42565|Förgrundsfärg vs bakgrundsfärg vs fyllningsfärg - Använd en enda metod som tar två argument|Förbättring|
 |CELLSJAVA-42528|"\<Font>" är inte en giltig HTML5 och självstängande tagg och webbläsare ger en felaktig bild av dess innehåll|Förbättring|
-|CELLSJAVA-42413|Infoga SVG-bildtyp i kalkylbladsceller med Aspose.Cells|Förbättring|
+|CELLSJAVA-42413|Infoga SVG bildtyp i kalkylbladsceller med Aspose.Cells|Förbättring|
 |CELLSJAVA-42594|Upptäck LoadFormat och FileFormatType av XLAM|Förbättring|
 |CELLSJAVA-42646|Undantag: "FormulaBuild Unknown formula token 0" på Name.getRefersTo()|Förbättring|
 |CELLSJAVA-42645|Undantag: "FormulaBuild More than one token in stack...." på Cell.getFormula()|Förbättring|
 |CELLSJAVA-42516|Aspose.Cells accepterar och korrigerar en ogiltig formel|Förbättring|
-|CELLSJAVA-42551|Vissa former är inte korrekta i den utgående PDF-filen|Insekt|
+|CELLSJAVA-42551|Vissa former är inte korrekta i utgången PDF|Insekt|
 |CELLSJAVA-42578|Villkorlig formatering går förlorad när Excel sparas till HTML|Insekt|
 |CELLSJAVA-42571|Utdata HTML matchar inte med MS-Excel|Insekt|
 |CELLSJAVA-42553|Länkar till namngivet område är fel efter export till HTML|Insekt|
@@ -42,7 +42,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.6.
 |CELLSJAVA-42573|Aspose.Cells 18.3 rotation för en TextBox fungerar inte för EXCEL_97_TO_2003 spara format|Insekt|
 |CELLSJAVA-42570|En tom ny rad visas inuti textrutan efter att du har bearbetat och sparat Excel-filen|Insekt|
 |CELLSJAVA-42604|Pivottabellens formatering och beteende ändrades efter att ha öppnat/sparat mallfilen|Insekt|
-|CELLSJAVA-41918|Kalkylark (XLS) blir skadat efter enkel laddning och lagring|Insekt|
+|CELLSJAVA-41918|Kalkylark (XLS) blir skadat efter enkel inläsning och lagring|Insekt|
 |CELLSJAVA-42616|Aspose.Cells bryter iteratorgränssnittet när Iterator.hasnext() anropas två gånger|Insekt|
 |CELLSJAVA-42607|Egenskapsvärden förvanskade vid extrahering av dokumentegenskaper|Insekt|
 |CELLSJAVA-42601|Arbetsboken är skadad efter att ha lagt till en vattenstämpel|Insekt|
@@ -50,19 +50,19 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.6.
 |CELLSJAVA-42598|Egenskaper extraheras inte i mallfilen|Insekt|
 |CELLSJAVA-42589|NullPointerException när HTML läggs till i en cell|Insekt|
 |CELLSJAVA-41414|Linjer försvann från diagrammet när XLSX-filen sparas på nytt|Insekt|
-|CELLSJAVA-42636|Vissa ritningsformer förskjuts eller återges felaktigt i Excel till HTML-rendering|Insekt|
+|CELLSJAVA-42636|Vissa ritningsformer är förskjutna eller återgivna felaktigt i Excel till HTML-rendering|Insekt|
 |CELLSJAVA-42627|CELLSJAVA-42619 Det går inte att extrahera Smart Art-bilder korrekt|Insekt|
 |CELLSJAVA-42618|Formen förskjuts för att täcka data i Excel till HTML-rendering|Insekt|
 |CELLSJAVA-42628|Beräkning av formler är fel, t.ex. genererar #DIV/0! fel|Insekt|
-|CELLSJAVA-42615|Cell A3-formatet är inte korrekt i utdata-HTML|Insekt|
+|CELLSJAVA-42615|Cell A3-formatet är inte korrekt i utdata HTML|Insekt|
 |CELLSJAVA-42621|Dålig prestanda vid generering av PDF-fil från en Excel-fil|Insekt|
 |CELLSJAVA-42620|XLSX till TIFF - undantag NoClassDefFoundError|Insekt|
 |CELLSJAVA-42599|Bilder går förlorade när Excel-filen konverteras till pdf|Insekt|
 |CELLSJAVA-42630|Chart.calculate-metoden orsakar OutOfMemoryError|Insekt|
-|CELLSJAVA-42623|Minnet ökar vid rendering av Excel-fil till PDF-filformat|Insekt|
+|CELLSJAVA-42623|Minnet ökar när Excel-filen återges till filformatet PDF|Insekt|
 |CELLSJAVA-42592|Teckenstorleken har ändrats i diagramtiteln på grund av metoden characters().|Insekt|
-|CELLSJAVA-41860|Skuggeffekten ändras medan XLS sparas på nytt|Insekt|
-|CELLSJAVA-42654|Excel till PDF-konvertering - konverteringen slutförs aldrig|Insekt|
+|CELLSJAVA-41860|Skuggeffekten ändras medan XLS sparas igen|Insekt|
+|CELLSJAVA-42654|Excel till PDF konvertering - konverteringen slutförs aldrig|Insekt|
 |CELLSJAVA-42647|Det gick inte att hämta eller ställa in alternativ text för kommentarform|Insekt|
 |CELLSJAVA-42644|Aspose.Cells hänger sig vid konvertering av en kalkylarks ML-fil (xml) till PDF med självstängande Styles-tagg|Insekt|
 |CELLSJAVA-42632|Det gick inte att ställa in alternativ text för SmartArt-formen|Insekt|
@@ -87,11 +87,11 @@ Följande är en lista över eventuella ändringar som gjorts för allmänheten 
 
 ### **Lägger till nytt objekt "CrossHideRight" för HtmlCrossType enum**
 
-Visar HTML-korssträng och döljer den högra strängen när texten överlappas.
+Visar HTML tvärsträng och döljer den högra strängen när texten överlappas.
 
 ### **Lägger till nytt objekt "TSV" för LoadFormat, SaveFormat och FileFormatType enums**
 
-Representerar en TSV-fil (Tab-separated values), samma som "TabDelimited".
+Representerar en TSV-fil (tabbseparerade värden), samma som "TabDelimited".
 
 ### **Lägger till enum ImageType**
 

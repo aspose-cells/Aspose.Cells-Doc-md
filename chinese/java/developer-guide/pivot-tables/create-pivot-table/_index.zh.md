@@ -15,7 +15,7 @@ url: /zh/java/create-pivot-table/
 数据透视表对象是：
 
 - [**数据透视表**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)：它代表数据透视表中的一个字段。
-- [**数据透视字段集合**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection)：它代表所有的集合[**数据透视表**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)数据透视表中的对象。
+- [**数据透视字段集合**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) 它代表所有的集合[**数据透视表**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)数据透视表中的对象。
 - [**数据透视表**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): 它代表一个数据透视表。
 - [**数据透视表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection)：它代表工作表上所有数据透视表对象的集合。
 
@@ -40,6 +40,6 @@ url: /zh/java/create-pivot-table/
 
 **根据相应字段创建数据透视表**
 
-![待办事项：图像_替代_文本](create-pivot-table_1.png)
+![待办事项：图片_替代_文本](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}

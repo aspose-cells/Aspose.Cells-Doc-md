@@ -54,7 +54,7 @@ url: /it/net/aspose-cells-for-net-7-3-1-release-notes/
 - Cerco una soluzione allo Aspose.Cells
 - Eccezione: "L'indice era fuori intervallo"
 - Il caricamento della cartella di lavoro genera: "La stringa di input non era in un formato corretto"
-- Da forma a immagine Errore nella funzione Excel a PDF
+- Da forma a immagine Errore in Excel alla funzione PDF
 
 
 
@@ -69,7 +69,7 @@ url: /it/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -Citazioni nel file delimitato da tabulazioni salvato
 
-- La lettura/scrittura CSV non "andata e ritorno" per alcuni input
+- CSV lettura/scrittura non "andata e ritorno" per alcuni input
 
  -StringValue restituisce un valore errato
 
@@ -90,14 +90,14 @@ url: /it/net/aspose-cells-for-net-7-3-1-release-notes/
 - Salva come HTML mostra la colonna nascosta nell'output
 - Il salvataggio cancella la formattazione
 - Grafica nell'output HTML
-- Problemi di formattazione HTML (relativi ai bordi extra)
+- HTML problemi di formattazione (relativi ai bordi extra)
 
- -Problema con XPS e formato numerico personalizzato di SheetRender
+ -SheetRender's XPS e problema di formato numerico personalizzato
 
  -Salva come PDF non conserva la formattazione
 
-- Problemi con la formattazione XLSX negli output Excel e PDF
-- La tabella pivot di Excel resa in PDF non è corretta
+- Problemi con la formattazione XLSX in Excel e output PDF
+- La tabella pivot di Excel visualizzata in PDF non è corretta
 - Caratteri personalizzati in PDF
 - Problema di rendering dell'allineamento verticale di Cell
 - Testo mancante all'estremità più a destra
@@ -105,7 +105,7 @@ url: /it/net/aspose-cells-for-net-7-3-1-release-notes/
 - Problema con la formattazione nella riga totale nella tabella pivot
 - Office per Mac-Os 2k11 si arresta in modo anomalo dopo l'apertura di un file Excel
 
- -Perché questo codice non funziona?
+-Perché questo codice non funziona?
 
 - Il campo calcolato della tabella pivot viene modificato
 - Problema durante il salvataggio della cartella di lavoro con membri calcolati

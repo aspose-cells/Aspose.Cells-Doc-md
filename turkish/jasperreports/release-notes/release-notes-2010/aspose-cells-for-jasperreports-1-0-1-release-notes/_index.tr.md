@@ -14,7 +14,7 @@ Aspose.Cells for JasperReports 1.0.1'i duyurmaktan mutluluk duyuyoruz!
 
 Ne var ne yok:
 
-- Yazı boyutları, PDF formatındaki karakterlere benzer şekilde Microsoft Excel formatındaki karakterlerin yapıştırılması için uygun şekilde ayarlanmıştır.
+- Microsoft Excel formatındaki karakterlerin PDF formatındaki karakterlere benzer şekilde yapıştırılması için yazı tipi boyutları uygun şekilde ayarlanmıştır.
 -  Tarih biçimindeki eksen etiketleri (Grafiklerin) doğru ve buna göre işlenir.
 - Grafiğin arka planı (grafik alanı, çizim alanı vb.), göstergenin arka planı, çubuklar ve baloncuklar vb. dahil olmak üzere alanlar için Degrade Dolgu efektleri desteklenir.
 

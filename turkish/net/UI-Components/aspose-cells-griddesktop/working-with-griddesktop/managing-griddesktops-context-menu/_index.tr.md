@@ -9,7 +9,7 @@ url: /tr/net/managing-griddesktops-context-menu/
 Aspose.Cells.GridDesktop, yaygın olarak kullanılan tüm komutları içeren bir içerik menüsüne sahiptir. Kontrol, menü öğelerini gizlemenizi/göstermenizi sağlar. Ayrıca, olay işleyicileri ile menüye yeni menü öğeleri eklemek mümkündür.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 ContextMenuManager sınıfı, bağlam menüsü öğelerini yönetmek için kullanılır. GridDesktop.ContextMenuManager özniteliği, ContextMenuManager nesnesinin örneğini alır. Örneğin, ContextMenuManager.MenuItemAvailable_Copy özniteliği, **Kopyala** bağlam menüsü öğesinin kullanılabilir olup olmadığını gösteren bir değer alır veya ayarlar. Benzer şekilde, farklı bağlam menüsü öğeleri için karşılık gelen tüm özniteliklere sahibiz.
 
 **ÖNEMLİ:** Varsayılan olarak, tüm bağlam menüsü öğeleri listede görünür.
@@ -19,7 +19,7 @@ Bu görevi gerçekleştirmek için önce GridDesktop'un sahip olduğu varsayıla
 
 **GridDeskop'un varsayılan menüsü** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-griddesktops-context-menu_1.png)
+![yapılacaklar:resim_alternatif_metin](managing-griddesktops-context-menu_1.png)
 
 Şimdi, aşağıdaki kodu kullanarak bazı menü öğelerini gizleyin:
 
@@ -33,7 +33,7 @@ Yukarıdaki kodu çalıştırdıktan sonra, bazı menü öğeleri kullanıcılar
 
 **Bazı menü öğeleri gizlidir** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-griddesktops-context-menu_2.png)
+![yapılacaklar:resim_alternatif_metin](managing-griddesktops-context-menu_2.png)
 ### **Yeni Menü Öğeleri Ekleme**
 Aşağıdaki kod parçacığını kullanarak listeye yeni bir bağlam menüsü öğesi ekleyin.
 
@@ -54,4 +54,4 @@ Yukarıdaki kodu çalıştırdıktan sonra, bağlam menüsünde yeni bir menü �
 
 **Listeye yeni bir menü öğesi eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-griddesktops-context-menu_3.png)
+![yapılacaklar:resim_alternatif_metin](managing-griddesktops-context-menu_3.png)

@@ -6,7 +6,7 @@ url: /it/net/saving-files-in-php/
 ---
 ## **Aspose.Cells - Salva File Excel**
 ### **Apertura attraverso il percorso**
-Salvataggio di un file Microsoft Excel facendo riferimento al percorso del file
+Salvataggio di un file Excel Microsoft facendo riferimento al percorso del file
 
 **Codice PHP**
 
@@ -32,6 +32,6 @@ Salvataggio di un file Microsoft Excel facendo riferimento al percorso del file
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Salvataggio file (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Salvataggio file (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

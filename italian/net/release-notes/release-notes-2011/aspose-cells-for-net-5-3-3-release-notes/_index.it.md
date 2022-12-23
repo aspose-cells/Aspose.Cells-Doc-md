@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Renderizza le caselle di controllo nel file Html
 
- 26082 Supporto dell'allineamento giustificato nel rendering del formato PDF
+ 26082 Supporta l'allineamento giustificato nel formato di rendering PDF
 
  26341 Miglioramento da Excel a Pdf per Mono
 
@@ -32,11 +32,11 @@ url: /it/net/aspose-cells-for-net-5-3-3-release-notes/
 
  27063 Indice colonna non valido - Aspose.Cells.CellsException dal metodo SheetRender.ToImage()
 
- 26571 Aspose.Cells non può aprire il file XLS
+26571 Aspose.Cells non può aprire il file XLS
 
  26309 L'array di origine non era abbastanza lungo: eccezione all'apertura del file Excel
 
-25972 Il metodo SheetRender.ToImage() non riesce a eseguire il rendering di alcuni fogli di lavoro
+ 25972 Il metodo SheetRender.ToImage() non riesce a eseguire il rendering di alcuni fogli di lavoro
 ### **Insetti**
  26141 Rendering di un'immagine quasi vuota (dal metodo Chart.ToImage()), le linee tratteggiate non vengono visualizzate correttamente
 
@@ -62,19 +62,19 @@ url: /it/net/aspose-cells-for-net-5-3-3-release-notes/
 
  24961 Problema di danneggiamento dei file
 
- 26198 Ottenere il valore massimo di ValueAxis in un grafico Excel
+26198 Ottenere il valore massimo di ValueAxis in un grafico Excel
 
  26198 Un problema con i metodi PutValue e ClearContents
 
  26544 Problema con la copia di righe e la formattazione condizionale
 
-26711 La cella calcolata ha "#VALUE!" dopo aver utilizzato il metodo Workbook.CalculateFormula()
+ 26711 La cella calcolata ha "#VALORE!" dopo aver utilizzato il metodo Workbook.CalculateFormula()
 
  26728 Ottieni "#Valore!" nelle celle calcolate
 
  26984 Problema con il calcolo delle formule nei fogli di lavoro
 
- 26308 La formula XLSB restituisce un valore diverso dalla formula XLSX
+ 26308 XLSB La formula restituisce un valore diverso dalla formula XLSX
 
  25783 Il file Excel si apre con un avviso dopo l'utilizzo di Range.CopyValue per l'intestazione della tabella
 
@@ -82,7 +82,7 @@ url: /it/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25879 2007 Il file Excel posiziona una forma con zOrderPosition pari a 0 in cima
 
- 25970 Rendering di testo alternativo nel file XLSX di MS Excel 2010
+ 25970 Rendering di testo alternativo nel file MS Excel 2010 XLSX
 
  26013 Casella di testo collegata Cell restituisce null
 

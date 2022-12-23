@@ -34,7 +34,7 @@ workbook.Save("AsposeColoredTab_Out.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Imposta il colore della scheda del foglio di lavoro** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Imposta il colore della scheda del foglio di lavoro** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Worksheet.Tab.Color.Aspose.Cells.zip)
 

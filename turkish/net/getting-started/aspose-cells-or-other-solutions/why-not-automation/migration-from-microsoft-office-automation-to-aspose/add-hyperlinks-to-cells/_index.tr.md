@@ -27,7 +27,7 @@ Bir elektronik tablodaki hücrelere köprüler eklemek için aşağıdaki adıml
 
 Kod örnekleri, ilk çalışma sayfasındaki A1 hücresinde köprü bulunan bir Excel dosyası oluşturur.
 
-![yapılacaklar:resim_alternatif_Metin](add-hyperlinks-to-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](add-hyperlinks-to-cells_1.png)
 
 **A1 hücresine bir köprü eklenir.**
 

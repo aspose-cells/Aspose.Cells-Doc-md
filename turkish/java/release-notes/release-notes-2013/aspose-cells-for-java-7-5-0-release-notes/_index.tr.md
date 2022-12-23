@@ -22,6 +22,6 @@ url: /tr/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40490 - 3B grafiğin perspektif sorunu
 
- 40481 - XLS'den PDF'ye - Tablo hücre genişliği sorunu
+ 40481 - XLS - PDF - Tablo hücre genişliği sorunu
 
-40519 - Bir XLSX belgesini kaydederken istisna
+ 40519 - Bir XLSX belgesini kaydederken istisna

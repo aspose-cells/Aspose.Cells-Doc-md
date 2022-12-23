@@ -15,7 +15,7 @@ url: /zh/reportingservices/support-for-digital-signatures/
 {{% /alert %}} 
 ### **使用数字签名**
 #### **数字签名支持的 Excel 格式**
-Aspose.Cells for Reporting Services 导出到Excel 2007 和ODS 文件格式时支持数字签名。
+Aspose.Cells for Reporting Services 导出到Excel 2007和ODS文件格式时支持数字签名。
 #### **配置数字签名**
 这**Aspose.Cells.ReportingServices.xml**文件中包含数字签名的配置信息和文本<DigitalSignature>标签：
 
@@ -41,7 +41,7 @@ Aspose.Cells for Reporting Services 导出到Excel 2007 和ODS 文件格式时�
 
 {{< /highlight >}}
 
- DigitalSignature 部分有四个参数。这些是 ：
+ DigitalSignature 部分有四个参数。这些都是 ：
 
 - name – 指向需要数字签名的报告。参数为空时报表使用PFX文件进行数字签名。
 - pfxFilename——指向 PFX 文件。文件名必须是完整的文件名。它不能设置为空值。

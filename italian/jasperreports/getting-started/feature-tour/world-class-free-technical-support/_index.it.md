@@ -14,7 +14,7 @@ Aspose è rinomato per il suo supporto tecnico gratuito e illimitato fornito dir
 
 #### **Forum**
 
-[Forum di supporto di Aspose](https://forum.aspose.com/)è il luogo non solo per risolvere problemi tecnici, ma anche per partecipare alle discussioni con la vivace e crescente comunità di utenti di Aspose. Attualmente sono oltre 190.000 gli utenti registrati al sito Aspose.
+[Forum di supporto di Aspose](https://forum.aspose.com/) è il luogo non solo per risolvere problemi tecnici, ma anche per partecipare alle discussioni con la vivace e crescente comunità di utenti di Aspose. Attualmente sono oltre 190.000 gli utenti registrati al sito Aspose.
 
 #### **Blog**
 
@@ -22,4 +22,4 @@ Aspose è rinomato per il suo supporto tecnico gratuito e illimitato fornito dir
 
 #### **Hai bisogno di più supporto?**
 
- Aspose offre supporto gratuito a tutti gli utenti. Per le aziende che vogliono che il loro problema abbia la priorità, o che vogliono influenzare la nostra road map di sviluppo del prodotto, ci sono[opzioni di supporto avanzate](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) come il supporto prioritario e il supporto aziendale.
+Aspose offre supporto gratuito a tutti gli utenti. Per le aziende che vogliono che il loro problema abbia la priorità, o che vogliono influenzare la nostra road map di sviluppo del prodotto, ci sono[opzioni di supporto avanzate](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) come il supporto prioritario e il supporto aziendale.

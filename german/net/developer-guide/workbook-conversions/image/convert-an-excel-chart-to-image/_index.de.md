@@ -8,7 +8,7 @@ url: /de/net/convert-an-excel-chart-to-image/
 
 Diagramme sind optisch ansprechend und machen es Benutzern leicht, Vergleiche, Muster und Trends in Daten zu erkennen. Anstatt beispielsweise Spalten mit Arbeitsblattzahlen zu analysieren, zeigt ein Diagramm auf einen Blick, ob die Umsätze sinken oder steigen oder wie die tatsächlichen Umsätze im Vergleich zu den prognostizierten Umsätzen abschneiden. Menschen werden häufig gebeten, statistische und grafische Informationen auf leicht verständliche und leicht zu pflegende Weise darzustellen. Ein Bild hilft.
 
-Manchmal werden Diagramme in einer Anwendung oder auf Webseiten benötigt. Oder es wird für ein Word-Dokument, eine PDF-Datei, eine PowerPoint-Präsentation oder eine andere Anwendung benötigt. In jedem Fall möchten Sie das Diagramm als Bild rendern, damit Sie es an anderer Stelle verwenden können.
+Manchmal werden Diagramme in einer Anwendung oder auf Webseiten benötigt. Oder es könnte für ein Word-Dokument, eine PDF-Datei, eine PowerPoint-Präsentation oder eine andere Anwendung benötigt werden. In jedem Fall möchten Sie das Diagramm als Bild rendern, damit Sie es an anderer Stelle verwenden können.
 
 {{% /alert %}}
 
@@ -38,7 +38,7 @@ Erstellen Sie zunächst ein Kreisdiagramm in Microsoft Excel und konvertieren Si
    1. [Herunterladen Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
  1. Installieren Sie es auf Ihrem Entwicklungscomputer.
 
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten bei der Erstinstallation im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in Ausgabedokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten bei der Erstinstallation im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in Ausgabedokumente ein.
 
 1. Erstellen Sie ein Projekt:
  1. Starten Sie Visual Studio.Net.
@@ -50,7 +50,7 @@ Erstellen Sie zunächst ein Kreisdiagramm in Microsoft Excel und konvertieren Si
 
 ### **Konvertieren eines Säulendiagramms in eine Bilddatei**
 
-Erstellen Sie zunächst ein Säulendiagramm in Microsoft Excel und konvertieren Sie es wie oben in eine Bilddatei. Nach dem Ausführen des Beispielcodes wird basierend auf dem Säulendiagramm in der Excel-Vorlagendatei eine JPEG-Datei erstellt.
+Erstellen Sie zunächst ein Säulendiagramm in Microsoft Excel und konvertieren Sie es wie oben in eine Bilddatei. Nach dem Ausführen des Beispielcodes wird eine JPEG-Datei basierend auf dem Säulendiagramm in der Excel-Vorlagendatei erstellt.
 
 |**Ausgabedatei: ein Säulendiagrammbild.**|
 |:- |

@@ -10,7 +10,7 @@ url: /ar/net/how-to-run-the-examples/
 1. Visual Studio 2015 أو أعلى
 1. تم تثبيت NuGet Package Manager في Visual Studio. غالبًا ما يكون مثبتًا بالفعل في Visual Studio 2015. للحصول على تفاصيل حول كيفية تثبيت مدير الحزم NuGet ، يرجى التحقق من:[تركيب أدوات العميل NuGet](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools)
 1.  انتقل إلى Tools-> Options-> NuGet Package Manager-> Package Sources وتأكد من هذا الخيار**nuget.org** مفحوص
-1.  مثال مشروع يستخدم NuGet ميزة Automatic Package Restore وبالتالي يجب أن يكون لديك اتصال إنترنت نشط. إذا لم يكن لديك اتصال إنترنت نشط على الجهاز حيث سيتم تنفيذ الأمثلة ، فيرجى التحقق[تثبيت](/cells/ar/net/installation-and-deployment/) وقم يدويًا بإضافة مرجع إلى Aspose.Cells.dll في مثال المشروع.
+1.  مثال مشروع يستخدم NuGet ميزة Automatic Package Restore وبالتالي يجب أن يكون لديك اتصال إنترنت نشط. إذا لم يكن لديك اتصال إنترنت نشط على الجهاز حيث سيتم تنفيذ الأمثلة ، فيرجى التحقق[التركيب](/cells/ar/net/installation-and-deployment/) وقم يدويًا بإضافة مرجع إلى Aspose.Cells.dll في مثال المشروع.
 ## **تنزيل من جيثب**
 يتم استضافة جميع أمثلة Aspose.Cells for .NET على[جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
 ## **Aspose.Cells أمثلة**

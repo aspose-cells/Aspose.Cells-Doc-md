@@ -10,8 +10,8 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-6-3/
 
 {{% /alert %}} 
 ## **添加的 API**
-### **导入数据时支持 HTML 解析**
-此版本 Aspose.Cells for .NET API 公开了 ImportTableOptions.IsHtmlString 属性，该属性指示 API 在将数据导入工作表时解析 HTML 标记，并将解析结果设置为单元格值。请注意，Aspose.Cells API 已经提供了 Cell.HtmlString 来为单个单元格执行此任务，但是，在从 DataTable 等批量导入数据时，ImportTableOptions.IsHtmlString 属性（设置为 true 时）会尝试解析所有支持的HTML 标记并将解析的结果设置到相应的单元格中。
+### **支持HTML边导入数据边解析**
+此版本的 Aspose.Cells for .NET API 公开了 ImportTableOptions.IsHtmlString 属性，该属性指示 API 在将数据导入工作表时解析 HTML 标记并将解析结果设置为单元格值。请注意，Aspose.Cells API 已经提供了 Cell.HtmlString 来为单个单元格执行此任务，但是，在从 DataTable 等批量导入数据时，ImportTableOptions.IsHtmlString 属性（设置为 true 时）会尝试解析所有支持的HTML 标记并将解析的结果设置到相应的单元格中。
 
 这里是最简单的使用场景。
 

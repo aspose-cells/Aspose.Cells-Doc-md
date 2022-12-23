@@ -25,10 +25,10 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.12
 |CELLSJAVA-43019|Radiellt diagram renderas inte korrekt till HTML|Insekt|
 |CELLSJAVA-43027|Efter återgivning till PNG är skalningen av axeln annorlunda.|Insekt|
 |CELLSJAVA-42474|Pivottabellen uppdateras inte och är skadad efter uppdatering av källdata|Insekt|
-|CELLSJAVA-43033|Konvertering till PDF tar inte slut.|Insekt|
+|CELLSJAVA-43033|Konverteringen till PDF slutar inte.|Insekt|
 |CELLSJAVA-43034|Ogiltigt ryskt (anpassat) datumformat har hämtats|Insekt|
 |CELLSJAVA-43040|LoadFilter tar inte hänsyn till det obligatoriska arket|Insekt|
-|CELLSJAVA-43035|Gränser går förlorade när Excel-fil konverteras till EMF|Insekt|
+|CELLSJAVA-43035|Gränser försvinner när Excel-fil konverteras till EMF|Insekt|
 |CELLSJAVA-43016|Ogiltigt sidantal från SheetRender|Insekt|
 |CELLSJAVA-43026|Efter att ha renderat diagram till bild ändrar dataetiketter stil, och värdena är inte desamma|Insekt|
 |CELLSJAVA-43038|Hyperlänkar exporteras inte med Cell.setHtmlString()|Insekt|
@@ -36,12 +36,12 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.12
 |CELLSJAVA-41103|Pivottabellens datafärgning och formatering återges inte korrekt|Insekt|
 |CELLSJAVA-43007|PDF genereras inte som förväntat|Insekt|
 |CELLSJAVA-43025|Cell.getStyle.getCustom returnerar fel format för tysk språkversion|Insekt|
-|CELLSJAVA-42793|Fontwork SmartArt-objekt förlorade under ODS till XLSX-konvertering|Insekt|
+|CELLSJAVA-42793|Fontwork SmartArt-objekt förlorades under konverteringen ODS till XLSX|Insekt|
 |CELLSJAVA-43020|Radiell graf förvrängd efter anrop av Chart.Calcluate()|Insekt|
 |CELLSJAVA-43022|Form till bild-fel för XLS-filer|Insekt|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) orsakar oönskade resultat när getFormula() anropas|Insekt|
 |CELLSJAVA-43052|Valideringsproblem för booleska värden|Insekt|
-|CELLSJAVA-43054|Problem med CSV Merge i portugisiska inställningar|Insekt|
+|CELLSJAVA-43054|Problem med CSV Sammanfoga i portugisiska inställningar|Insekt|
 |CELLSJAVA-43056|Cell.setFormula() uppdateras inte för externa länkar|Insekt|
 |CELLSJAVA-42767|Bild missade under konvertering av Excel till PDF|Insekt|
 |CELLSJAVA-42913|Inbäddade Visio objekt renderade felaktigt till PDF|Insekt|
@@ -52,7 +52,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.12
 |CELLSJAVA-43069|MS Excel ger ett reparationsmeddelande när den återsparade filen öppnas med Aspose.Cells|Insekt|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException när Excel-filen laddas|Undantag|
 |CELLSJAVA-43060|Undantag "java.lang.NullPointerException" på Workbook.save efter att ha ställt in extern datakälla som tom|Undantag|
-|CELLSJAVA-42923|Undantag vid laddning av XLS-dokument|Undantag|
+|CELLSJAVA-42923|Undantag vid laddning av XLS Dokument|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över eventuella ändringar som gjorts för allmänheten API, t.ex. tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android via Java. Om du har frågor om någon ändring i listan, vänligen ta upp det på supportforumet Aspose.Cells.
 ### **Lägger till metoden Cells.RemoveDuplicates().**
@@ -124,9 +124,9 @@ Stöder detektering av .OTP-filformatet.
 ### **Lägger till AutoFitterOptions.AutoFitWrappedTextType-egenskapen och AutoFitWrappedTextType-enum.**
 Hämtar och ställer in typen av automatisk anpassning av inslagen text.
 ### **Lägger till klassen EmfRenderSetting**
-Uppsättningar för att rendera EMF-metafil.
+Uppsättningar för rendering av EMF metafil.
 ### **Lägger till egenskapen PdfSaveOptions.EmfRenderSetting**
-Uppsättningar för att rendera EMF-metafil under rendering till PDF-fil.
+Uppsättningar för att rendera EMF metafil medan rendering till PDF fil.
 ### **Lägger till metoden ShapeCollection.AddSvg().**
 Lägger till svg-bild.
 ### **Lägger till WorkbookSettings.QuotePrefixToStyle-egenskapen**

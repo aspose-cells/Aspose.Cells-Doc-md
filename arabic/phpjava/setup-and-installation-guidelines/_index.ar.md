@@ -41,7 +41,7 @@ Aspose.Cells for PHP via Java هو نظام أساسي مستقل API ويمكن
 |> php example.php|
 |:- |
 ### **ماك:**
-- تثبيت[بي أتش بي](https://www.php.net/downloads.php).
+- ثَبَّتَ[بي أتش بي](https://www.php.net/downloads.php).
 - قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام التشغيل Mac ، وقم بتكوين متغير بيئة JAVA_HOME.
 - قم بتنزيل "Aspose.Cells for PHP via Java" API واستخرجه. سيكون هناك مجلد باسم "aspose.cells".
 - قم بتنزيل PHP / Java Bridge binary (JavaBridge.jar) من http://php-java-bridge.sourceforge.net/pjb/download.php واحفظه في مجلد "aspose.cells".

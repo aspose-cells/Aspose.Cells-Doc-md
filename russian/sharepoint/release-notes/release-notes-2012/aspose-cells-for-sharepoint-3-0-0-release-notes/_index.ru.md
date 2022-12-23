@@ -14,7 +14,7 @@ url: /ru/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 
  Новые особенности
 
-- Разрешать
+- Позволять
  преобразование нескольких файлов одновременно
 - Документ
  предварительный просмотр в SharePoint
@@ -22,6 +22,6 @@ url: /ru/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
  Улучшения
 
 - Добавить поддержку
- для новых форматов (XLSB, MHtml, XPS, TIFF, SVG, DIF) для конвертации
+для новых форматов (XLSB, MHtml, XPS, TIFF, SVG, DIF) для конвертации
 - Оптимизировать Aspose.Cells
  for SharePoint компонент

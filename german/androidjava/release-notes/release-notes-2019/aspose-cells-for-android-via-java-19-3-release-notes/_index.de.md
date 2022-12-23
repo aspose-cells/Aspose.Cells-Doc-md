@@ -15,40 +15,40 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-41026|Unterstützung von Excel 95/5.0 (XLS-Dateien)|Neue Funktion|
 |CELLSJAVA-42827|Zeile mit InsertOptions ähnlich wie bei MS Excel einfügen|Neue Funktion|
 |CELLSJAVA-42845|Behalten Sie Trennzeichen für leere Zeilen bei, wenn Sie eine XLS-Datei in CSV exportieren|Neue Funktion|
-|CELLSJAVA-42778|Ausnahme „Stil textRotation muss zwischen 0 und 180 liegen“ beim Laden des XLSM|Erweiterung|
+|CELLSJAVA-42778|Ausnahme "style textRotation must be between 0 and 180" beim Laden von XLSM|Erweiterung|
 |CELLSJAVA-42712|Erweitern Sie JavaDocs für Aspose.Cells for Java|Erweiterung|
 |CELLSJAVA-42823|Die Verwendung von FontUnderlineType.WORDS löst eine Ausnahme aus|Erweiterung|
 |CELLSJAVA-42846|Die Ergebnisse der Textextraktion sind unterschiedlich|Erweiterung|
 |CELLSANDROID-85|Probleme bei der Konvertierung von Blatt zu Bild mit transparenten Bildern über anderen Bildern|Insekt|
-|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Gedankenstriche werden in der PDF-Datei des Diagramms nicht richtig gerendert|Insekt|
+|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Striche werden in Diagramm PDF nicht richtig gerendert|Insekt|
 |CELLSJAVA-42750|Die Elemente der Seitenfelder im PivotTable-Bericht können nicht abgerufen werden|Insekt|
 |CELLSJAVA-42783|Problem mit durchgestrichenem Text im generierten HTML-Dateiformat|Insekt|
-|CELLSJAVA-42784|Daten in einigen Zellen (z. B. G7, H7 usw.) werden nicht auf die gleiche Weise wie in der Originaldatei in der Excel-zu-HTML/Bild-Konvertierung gerendert|Insekt|
+|CELLSJAVA-42784|Daten in einigen Zellen (z. B. G7, H7 usw.) werden nicht wie in der Originaldatei in Excel nach HTML/Bildkonvertierung gerendert|Insekt|
 |CELLSJAVA-42797|Einige Stile werden in der HTML-Eingabe nicht gerendert|Insekt|
 |CELLSJAVA-42807|Formel/Funktion "ISOWEEKNUM"-Berechnung ist nicht dasselbe wie MS Excel|Insekt|
-|CELLSJAVA-42794|ODS zu XLSX - Textfarbe geändert|Insekt|
-|CELLSJAVA-42795|ODS zu XLSX - Durchgestrichene Schriftart wird nicht richtig beibehalten|Insekt|
-|CELLSJAVA-42796|ODS zu XLSX - Textfeldabmessungen geändert|Insekt|
-|CELLSJAVA-42798|ODS -> XLSX - Hyperlink ist funktionsfähig, wird aber als Klartext angezeigt|Insekt|
-|CELLSJAVA-42802|ODS zu XLSX, Prozentsätze gehen im Balkendiagramm verloren|Insekt|
-|CELLSJAVA-42803|Gliederung „SummaryRowBelow“ ist beim Speichern im XLSB-Dateiformat nicht betroffen|Insekt|
-|CELLSJAVA-42826|Daten mit bedingter Formatierung werden bei der XLSX-zu-HTML-Konvertierung weggelassen|Insekt|
+|CELLSJAVA-42794|ODS bis XLSX - Textfarbe geändert|Insekt|
+|CELLSJAVA-42795|ODS bis XLSX – Durchgestrichene Schriftart wird nicht ordnungsgemäß beibehalten|Insekt|
+|CELLSJAVA-42796|ODS bis XLSX - Textfeldabmessungen geändert|Insekt|
+|CELLSJAVA-42798|ODS -> XLSX - Hyperlink funktioniert, wird aber als Klartext angezeigt|Insekt|
+|CELLSJAVA-42802|ODS bis XLSX, Prozentwerte gehen im Balkendiagramm verloren|Insekt|
+|CELLSJAVA-42803|Gliederung „SummaryRowBelow“ ist beim Speichern im Dateiformat XLSB nicht betroffen|Insekt|
+|CELLSJAVA-42826|Daten mit bedingter Formatierung werden bei der Konvertierung von XLSX in HTML weggelassen|Insekt|
 |CELLSJAVA-42815|Das Hinzufügen eines komplexen Verweises auf einen definierten Namen führt zu einer beschädigten MS Excel-Arbeitsmappe|Insekt|
 |CELLSJAVA-42822|Cell.getValidationValue gibt einen falschen Wert für den angegebenen Wert zurück|Insekt|
 |CELLSJAVA-42829|Benutzerdefinierter Funktionsname in den freigegebenen Formeln durch einen anderen Namen ersetzt|Insekt|
-|CELLSJAVA-42824|Fehlende Achsentitel und andere Formatierungen von Diagrammen bei der Konvertierung von Excel in PDF/A sind falsch|Insekt|
-|CELLSJAVA-42814|Pfeile in der PNG-Ausgabe stimmen nicht mit den Pfeilen im Excel-Diagramm überein|Insekt|
+|CELLSJAVA-42824|Achsentitel fehlen und andere Formatierungen sind falsch von Diagrammen in Excel zu PDF/A Konvertierung|Insekt|
+|CELLSJAVA-42814|Pfeile in der Ausgabe von PNG stimmen nicht mit den Pfeilen im Excel-Diagramm überein|Insekt|
 |CELLSJAVA-42777|Die falsche Zeilenhöhe wurde geändert, während der Vorgang zum automatischen Anpassen von Zeilen verwendet wurde|Insekt|
 |CELLSJAVA-42813|Arbeitsmappeneinstellung „ReCalculateOnOpen“ nicht beibehalten|Insekt|
 |CELLSJAVA-42816|Unvollständige Anzeige für AutoFitterOptions.setAutoFitMergedCells(true)|Insekt|
 |CELLSJAVA-42817|Die Hintergrundfarbe der Textboxen wird unerwartet geändert|Insekt|
 |CELLSJAVA-42821|Beim Löschen der ersten Zeile eines Bereichs wird der Bereich falsch aktualisiert|Insekt|
 |CELLSJAVA-42828|Bei Verwendung von Cell.setHtmlString wird am Ende des Textes eine neue Zeile hinzugefügt|Insekt|
-|CELLSJAVA-42844|Der Text wird in der PDF-Ausgabe nicht richtig ausgerichtet|Insekt|
+|CELLSJAVA-42844|Der Text ist in der Ausgabe von PDF nicht richtig ausgerichtet|Insekt|
 |CELLSJAVA-42834|Ändert die schwarze Textfarbe in rot|Insekt|
-|CELLSJAVA-42839|Streudiagramm wird bei der Konvertierung von Excel in PDF nicht gerendert|Insekt|
-|CELLSJAVA-42840|Beschriftungen der horizontalen Achse werden für Diagramme beim Rendern von Excel in PDF nicht korrekt gerendert|Insekt|
-|CELLSJAVA-42842|2D-Blasendiagramme werden bei der Konvertierung von Excel in PDF nicht gerendert|Insekt|
+|CELLSJAVA-42839|Streudiagramm wird in Excel nicht in PDF-Konvertierung gerendert|Insekt|
+|CELLSJAVA-42840|Beschriftungen der horizontalen Achse werden für Diagramme in Excel nicht korrekt auf PDF gerendert|Insekt|
+|CELLSJAVA-42842|Das 2D-Blasendiagramm wird in Excel nicht in die PDF-Konvertierung gerendert|Insekt|
 |CELLSJAVA-42833|Problem beim Einbetten derselben PDF-Datei in mehrere Blätter einer Arbeitsmappe|Insekt|
 |CELLSJAVA-42836|Workbook.hasExernalLinks() gibt für DDE-Links nicht „true“ zurück|Insekt|
 |CELLSJAVA-42848|Schriftarteinstellung und andere Objekte, die nicht mit der Funktion Range.copy() kopiert wurden|Insekt|
@@ -77,7 +77,7 @@ Ruft alle Schlüssel des Datensortierers ab.
 ### **Fügt SortOnType-Aufzählung hinzu**
 Repräsentiert den Typ der sortierten Daten.
 ### **Fügt die ODSLoadOptions-Klasse hinzu**
-Stellt die Optionen zum Laden der ODS-Datei dar.
+Repräsentiert die Optionen zum Laden der Datei ODS.
 ### **Fügt die HTMLLoadOptions.ProgId-Eigenschaft hinzu**
 Ruft die Programm-ID zum Erstellen der Datei ab. Wird nur für MHT-Dateien verwendet.
 ### **Fügt die PdfSaveOptions.TextCrossType-Eigenschaft hinzu**
@@ -108,8 +108,8 @@ Ruft die Designfarbe der Linie ab und legt sie fest.
 Kapselt das Objekt, das ein einzelnes 3D-Modell in einer Tabelle darstellt.
 ### **Fügt ImageType.Gltf-Aufzählung hinzu**
 Stellt den Typ des 3D-Modells dar.
-### **Änderungen für die Standardschriftart der geladenen XLS-Vorlagendatei**
-In älteren Versionen haben wir es nicht unterstützt, die im Design definierte Schriftart (erweiterte Funktion in MS Excel 2007 und späteren Versionen) entsprechend der Region beim Laden der XLS-Vorlagendateien anzuwenden. Auf Anforderung einiger Benutzer haben wir es ab v19.3 unterstützt. Wenn die Region in der XLS-Vorlagendatei angegeben wurde, wenden wir die im Design definierte Schriftart gemäß dem gespeicherten angegebenen Regionswert an. Andernfalls wenden wir die im Design definierte Schriftart gemäß den regionalen Einstellungen der Anwendungsumgebung an. Dadurch wird die Standardschriftart der Arbeitsmappe (geladen aus einer XLS-Vorlagendatei mit festgelegten Designdaten) geändert und beeinflusst dann andere Funktionen wie Spaltenbreite, Formgröße, Rendering-Effekt usw.
+### **Änderungen für die Standardschriftart der geladenen Vorlagendatei XLS**
+In älteren Versionen haben wir es nicht unterstützt, die im Design definierte Schriftart (erweiterte Funktion in MS Excel 2007 und späteren Versionen) je nach Region beim Laden der XLS-Vorlagendateien anzuwenden. Auf Anforderung einiger Benutzer haben wir es ab v19.3 unterstützt. Wenn die Region in der Vorlagendatei XLS angegeben wurde, wenden wir die im Design definierte Schriftart gemäß dem gespeicherten angegebenen Regionswert an. Andernfalls wenden wir die im Design definierte Schriftart gemäß den regionalen Einstellungen der Anwendungsumgebung an. Dadurch wird die Standardschriftart der Arbeitsmappe (geladen aus der Vorlagendatei XLS mit festgelegten Designdaten) geändert und andere Funktionen wie Spaltenbreite, Formgröße, Rendereffekt usw. beeinflusst.
 ### **Fügt die Name.GetReferredAreas(bool recalculate)-Methode hinzu**
 Stellt die Referenzen bereit, auf die durch den definierten Namen wie die Methode GetRanges(bool recalculate) verwiesen wird. Die zurückgegebenen Verweise werden jedoch durch das Objekt ReferredArea dargestellt, das umfangreichere Funktionen einschließlich externer Links bietet.
 ### **Fügt die TxtSaveOptions.KeepSeparatorsForBlankRow-Eigenschaft hinzu**

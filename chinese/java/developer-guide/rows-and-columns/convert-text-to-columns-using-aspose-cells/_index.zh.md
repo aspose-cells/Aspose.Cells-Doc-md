@@ -9,6 +9,6 @@ url: /zh/java/convert-text-to-columns-using-aspose-cells/
 ## **使用 Aspose.Cells 将文本转换为列**
 下面的示例代码解释了[文本到列](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\)） 方法。该代码首先在第一个工作表的 A 列中添加一些人名。名字和姓氏由空格字符分隔。然后它应用[文本到列](https://reference.aspose.com/cells/java/com.aspose.cells/cells#textToColumns\(int,%20int,%20int,%20com.aspose.cells.TxtLoadOptions\) 方法，并将其保存为输出 excel 文件。如果你打开[输出excel文件](25395230.xlsx)，您会看到，名字在 A 列中，而姓氏在 B 列中，如屏幕截图所示。
 
-![待办事项：图像_替代_文本](convert-text-to-columns-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](convert-text-to-columns-using-aspose-cells_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-ConvertTexttoCols-ConvertTexttoCols.java" >}}

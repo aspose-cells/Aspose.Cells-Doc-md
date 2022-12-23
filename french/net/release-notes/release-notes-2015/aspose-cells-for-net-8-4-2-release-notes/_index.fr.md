@@ -52,9 +52,9 @@ url: /fr/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43502) - Les lignes principales de la grille disparaissent et la légende de la série apparaît au centre
 
- (CELLSNET-41716) - Les étiquettes de l'axe X ne s'affichent pas correctement
+(CELLSNET-41716) - Les étiquettes de l'axe X ne s'affichent pas correctement
 
-(CELLSNET-43641) - Problème de calcul des formules lors de l'activation du calcul itératif
+ (CELLSNET-43641) - Problème de calcul des formules lors de l'activation du calcul itératif
 
  (CELLSNET-43637) - Résultats de formule incorrects pour la fonction PERCENTRANK
 
@@ -75,14 +75,14 @@ url: /fr/net/aspose-cells-for-net-8-4-2-release-notes/
  (CELLSNET-43589) - Cell.GetValidationValue ne fonctionne pas pour la liste numérique
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
- (CELLSNET-43585) - Aspose.Cells.CellsException lors de la conversion d'une feuille de calcul en PDF
+ (CELLSNET-43585) - Aspose.Cells.CellsException lors de la conversion de la feuille de calcul en PDF
 
- (CELLSNET-43609) - Exception lors du rendu d'un fichier Excel au format de fichier PDF
+(CELLSNET-43609) - Exception lors du rendu d'un fichier Excel au format de fichier PDF
 
-(CELLSNET-43583) - Erreur GDI sur la méthode SheetRender.ToImage
+ (CELLSNET-43583) - Erreur GDI sur la méthode SheetRender.ToImage
 
  (CELLSNET-43565) - CellsException lors de l'enregistrement de xlsx en pdf
 
@@ -108,7 +108,7 @@ url: /fr/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -116,9 +116,9 @@ url: /fr/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Insectes**
 
 
- (CELLSNET-43610) - L'événement SaveCommand ne se déclenche pas
+(CELLSNET-43610) - L'événement SaveCommand ne se déclenche pas
 
-(CELLSNET-43551) - IE8 ne fonctionne pas correctement avec le format personnalisé néerlandais-belge
+ (CELLSNET-43551) - IE8 ne fonctionne pas correctement avec le format personnalisé néerlandais-belge
 
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -140,8 +140,8 @@ url: /fr/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-Ajoute les énumérations PasteType.Default et PasteType.DefaultExceptBorders.
+ Ajoute les énumérations PasteType.Default et PasteType.DefaultExceptBorders.
 
- Il est utilisé pour copier la plage sous la forme "Tous" et "Tous sauf les bordures" dans MS Excel.
+Il est utilisé pour copier la plage sous la forme "Tous" et "Tous sauf les bordures" dans MS Excel.
 
 

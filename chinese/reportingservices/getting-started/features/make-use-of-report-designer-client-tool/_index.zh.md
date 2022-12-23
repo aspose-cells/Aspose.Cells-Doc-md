@@ -14,4 +14,4 @@ url: /zh/reportingservices/make-use-of-report-designer-client-tool/
 - **Aspose.Cells.Report.Designer工具栏**
 **用户可以利用 Aspose.Cells.Report.Designer 工具栏来操作 RDL 报告文件** 
 
-![待办事项：图像_替代_文本](make-use-of-report-designer-client-tool_1.png)
+![待办事项：图片_替代_文本](make-use-of-report-designer-client-tool_1.png)

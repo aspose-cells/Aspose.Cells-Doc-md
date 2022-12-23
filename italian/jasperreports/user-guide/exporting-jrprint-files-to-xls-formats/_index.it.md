@@ -1,5 +1,5 @@
 ﻿---
-title: Esportazione di file .jrprint in formati XLS
+title: Esportazione di file .jrprint nei formati XLS
 type: docs
 weight: 20
 url: /it/jasperreports/exporting-jrprint-files-to-xls-formats/
@@ -12,7 +12,7 @@ url: /it/jasperreports/exporting-jrprint-files-to-xls-formats/
 
 Il seguente frammento di codice mostra come esportare l'oggetto jasperPrint in un percorso file, ad esempio destFile.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

@@ -21,9 +21,9 @@ url: /zh/java/developer-guide/
         <ul>
             <li><a href="/cells/zh/java/opening-files-with-different-formats/">打开不同格式的文件</a></li>
             <li><a href="/cells/zh/java/get-warnings-while-loading-excel-file/">加载 Excel 文件时收到警告</a></li>
-            <li><a href="/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Apple Inc. 使用 Aspose.Cells 开发的数字电子表格</a></li>
+            <li><a href="/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格</a></li>
         </ul>
-        <p>节省</p>
+        <p>救球</p>
         <ul>
             <li><a href="/cells/zh/java/different-ways-to-save-files/">保存文件的不同方法</a></li>
             <li><a href="/cells/zh/java/encrypting-excel-files/">加密 Excel 文件</a></li>
@@ -169,7 +169,7 @@ url: /zh/java/developer-guide/
         <ul>
             <li><a href="/cells/zh/java/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">管理 OLE 对象</a></li>
         </ul>
-        <p><a href="/cells/zh/java/slicers/">切片机</a></p>
+        <p><a href="/cells/zh/java/slicers/">切片器</a></p>
         <ul>
             <li><a href="/cells/zh/java/create-slicer-to-a-pivot-table/">为数据透视表创建切片器</a></li>
             <li><a href="/cells/zh/java/create-slicer-to-excel-table/">为 Excel 表创建切片器</a></li>
@@ -311,7 +311,7 @@ url: /zh/java/developer-guide/
             <li><a href="/cells/zh/java/how-to-change-the-comment-font-color/">如何更改评论字体颜色</a></li>
             <li><a href="/cells/zh/java/change-text-direction-of-the-comment/">更改评论的文本方向</a></li>            
             <li><a href="/cells/zh/java/set-margins-of-comment-or-shape-inside-the-worksheet/">在工作表中设置注释或形状的边距</a></li>
-            <li><a href="/cells/zh/java/disable-downlevel-revealed-comments-while-saving-to-html/">保存为 HTML 时禁用下层显示评论</a></li>
+            <li><a href="/cells/zh/java/disable-downlevel-revealed-comments-while-saving-to-html/">保存到 HTML 时禁用下层显示评论</a></li>
             <li><a href="/cells/zh/java/threaded-comments/">线程评论</a></li>
         </ul>
     </div>
@@ -337,7 +337,7 @@ url: /zh/java/developer-guide/
         <ul>
          <li><a href="/cells/zh/java/worksheet-views/#page-break-preview">分页预览</a></li>
         </ul>
-        <p>节目</p>
+        <p>展示</p>
          <ul>
 		<li><a href="/cells/zh/java/show-and-hide-elements/">显示和隐藏元素</a></li>
         </ul>

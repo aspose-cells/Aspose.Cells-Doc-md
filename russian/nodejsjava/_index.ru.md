@@ -11,7 +11,7 @@ is_root: true
 
 **Добро пожаловать на Aspose.Cells for Node.js via Java**
 
-Aspose.Cells for Node.js via Java представляет все полезные функции Aspose.Cells for Java с использованием Node.js. Aspose.Cells for Node.js via Java — это библиотека классов, позволяющая выполнять множество задач по обработке электронных таблиц. Aspose.Cells for Node.js via Java — это масштабируемое и многофункциональное приложение API, которое предлагает преобразование формата электронных таблиц, стилизацию рабочих листов на самом детальном уровне, управление диаграммами и визуализацию, а также наш надежный механизм расчета формул. Aspose.Cells for Node.js via Java поддерживает XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS и другие форматы. С Aspose.Cells for Node.js via Java вы можете создавать, изменять, преобразовывать и отображать документы Excel.
+Aspose.Cells for Node.js via Java представляет все полезные функции Aspose.Cells for Java с использованием Node.js. Aspose.Cells for Node.js via Java — это библиотека классов, позволяющая выполнять множество задач по обработке электронных таблиц. Aspose.Cells for Node.js via Java — это масштабируемое и многофункциональное приложение API, которое предлагает преобразование формата электронных таблиц, стилизацию рабочих листов на самом детальном уровне, управление диаграммами и визуализацию, а также наш надежный механизм расчета формул. Aspose.Cells for Node.js via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. С Aspose.Cells for Node.js via Java вы можете создавать, изменять, преобразовывать и отображать документы Excel.
 
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ Aspose.Cells for Node.js via Java представляет все полезны
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут вам понадобиться для выполнения ваших задач.
 
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Node.js через Java перенесено с Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
-- [Aspose.Cells for Node.js via Java Характеристики](/cells/ru/nodejs-java/features/)
+- [Aspose.Cells for Node.js via Java Особенности](/cells/ru/nodejs-java/features/)
 - [Aspose.Cells for Node.js via Java Ограничения и API Различия](/cells/ru/nodejs-java/limitations-and-api-differences/)
 - [Aspose.Cells for Node.js via Java Примечания к выпуску](/cells/ru/nodejs-java/release-notes/)
 - [Aspose.Cells for Node.js via Java Страница продукта](https://products.aspose.com/cells/nodejs-java/)

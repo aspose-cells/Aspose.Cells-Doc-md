@@ -11,18 +11,18 @@ url: /it/net/grid-features/
 |**Generale**||||
 | Scritto completamente in C#|**X**|**X**|**X**|
 | Funziona con .NET Framework 1.1 e 2.0|**X**|**X**||
-| Funziona con .NET Standard &Core||**X**|**X**|
+|Funziona con .NET Standard &Core||**X**|**X**|
 |**Piattaforme supportate**||||
-| Applicazioni Windows Form|**X**|||
-|Applicazioni Web Form||**X**||
+| Windows Modulistica domande|**X**|||
+| Applicazioni Web Form||**X**||
 | Applicazioni principali di Asp.Net|||**X**|
 |**Documentazione**||||
-| Guida Microsoft 2|**X**|**X**|**X**|
+| Microsoft Aiuto 2|**X**|**X**|**X**|
 | Aiuto HTML|**X**|**X**|**X**|
-| Guida per programmatori in linea in formato HTML|**X**|**X**|**X**|
+| Guida del programmatore in linea nel formato HTML|**X**|**X**|**X**|
 |**Demo complete**||||
-| Visual Basic.NET|**X**|**X**||
-| C#|**X**|**X**|**X**|
+| VisualBasic.NET|**X**|**X**||
+|C# |**X**|**X**|**X**|
 |**Microsoft Excel supportato**||||
 | Microsoft Excel 97|**X**|**X**|**X**|
 | Microsoft Excel 2000|**X**|**X**|**X**|
@@ -32,7 +32,7 @@ url: /it/net/grid-features/
 |**Browser** **Supportato**||||
 | Cromo|**X**|**X**|**X**|
 | Microsoft Internet Explorer|**X**|**X**||
-| Microsoft Edge|**X**|**X**|**X**|
+| Microsoft Bordo|**X**|**X**|**X**|
 | Mozilla|**X**|**X**|**X**|
 | Firefox|**X**|**X**|**X**|
 | musica lirica|**X**|**X**|**X**|
@@ -48,9 +48,9 @@ url: /it/net/grid-features/
 | Supporta l'impaginazione del foglio di lavoro||**X**||
 |**Gestione di righe e colonne**||||
 | Aggiungi/Inserisci/Rimuovi righe e colonne|**X**|**X**|**X**|
-| Nascondi/mostra righe e colonne|**X**|**X**||
+|Nascondi/mostra righe e colonne|**X**|**X**||
 | Blocca/Sblocca righe e colonne|**X**|**X**|**X**|
-|Personalizza le intestazioni di righe e colonne||**X**||
+| Personalizza le intestazioni di righe e colonne||**X**||
 |**Gestore Cells**||||
 | Impostazioni formato standard di Cells|**X**|**X**|**X**|
 | Impostazioni formato personalizzato di Cells||**X**||
@@ -76,15 +76,15 @@ url: /it/net/grid-features/
 |**Navigazione da tastiera**||||
 | Navigazione da tastiera in Cells|**X**|**X**|**X**|
 |**Controlli**||||
-| Aggiungi Rimuovi**Pulsante** , **Casella di controllo** & **Combo box** controlli allo Cells|**X**|||
+| Aggiungi Rimuovi**Pulsante** , **Casella di controllo** & **Casella combinata** controlli allo Cells|**X**|||
 |**Sicurezza**||||
 | Blocca o nascondi Cells|**X**|||
 |**Funzioni e formule**||||
 | Crea e calcola formule|**X**|**X**|**X**|
-| Oltre 80 funzioni predefinite|**X**|**X**|**X**|
+|Oltre 80 funzioni predefinite|**X**|**X**|**X**|
 | Motore di calcolo personalizzato||**X**|**X**|
 |**Tabelle pivot**||||
-|Crea tabelle pivot dinamiche||**X**||
+| Crea tabelle pivot dinamiche||**X**||
 |**Eventi di griglia**||||
 | Gestisci gli eventi della griglia|**X**|**X**||
 |**Modalità senza sessione**||||

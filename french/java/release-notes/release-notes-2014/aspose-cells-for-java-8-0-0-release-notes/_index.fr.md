@@ -38,32 +38,32 @@ Améliorations
 
 Insectes
 
-(CELLSJAVA-40738) - setExportActiveWorksheetOnly modifie l'alignement du tableau en HTML
+(CELLSJAVA-40738) - setExportActiveWorksheetOnly change l'alignement du tableau dans HTML
 (CELLSJAVA-40747) - L'image d'arrière-plan n'est pas copiée dans le classeur de destination lors de l'appel de Workbook.copy
-(CELLSJAVA-40276) - Le texte à l'intérieur d'une image semble être mis en miroir lors de l'enregistrement d'un classeur Excel au format PDF
-(CELLSJAVA-40573) - Certains mots sont séparés lors de l'enregistrement au format PDF
+(CELLSJAVA-40276) - Le texte à l'intérieur d'une image semble être mis en miroir lors de l'enregistrement d'un classeur Excel sous le nom PDF
+(CELLSJAVA-40573) - Certains mots sont séparés lors de l'enregistrement au PDF
 (CELLSJAVA-40743) - Le filtre automatique de table ne fonctionne pas au format xls mais fonctionne bien au format xlsx
-(CELLSJAVA-40750) - Lors de l'exportation au format HTML, les cellules couvertes par l'image perdent leur couleur d'arrière-plan
+(CELLSJAVA-40750) - Lors de l'exportation vers HTML, les cellules couvertes par l'image perdent leur couleur d'arrière-plan
 (CELLSJAVA-40748) - Le chemin de l'image d'arrière-plan n'est pas correct
 (CELLSJAVA-40731) - Problème de texte vertical
-(CELLSJAVA-40737) - Problème de formatage des formes/contrôles dans la conversion d'Excel en PDF
-(CELLSJAVA-40742) - Enveloppement incorrect des étiquettes Axis lors de la conversion de XLSX en PDF
+(CELLSJAVA-40737) - Problème de formatage des formes/contrôles dans Excel vers la conversion PDF
+(CELLSJAVA-40742) - Enveloppement incorrect des étiquettes d'axe lors de la conversion de XLSX en PDF
 (CELLSJAVA-40757) - Les colonnes DateTime sont lues de manière incorrecte à partir de CSV avec les paramètres régionaux européens
 (CELLSJAVA-40282) - Sortie d'image en miroir lors de la transformation d'une feuille de calcul Excel en PDF
-(CELLSJAVA-40585) - Aspose.Cells : le graphique de tracé sigma intégré n'est pas rendu correctement au format PDF/images
-(CELLSJAVA-40742) - Enveloppement incorrect des étiquettes Axis lors de la conversion de XLSX en PDF
+(CELLSJAVA-40585) - Aspose.Cells : le graphique de tracé sigma intégré n'est pas rendu correctement dans PDF/images
+(CELLSJAVA-40742) - Enveloppement incorrect des étiquettes d'axe lors de la conversion de XLSX en PDF
 (CELLSJAVA-40758) - Les données ne sont pas correctes dans le pdf de sortie
 (CELLSJAVA-40762) - Cell.getDependents(true) issue - Cells d'autres feuilles qui ne devraient pas figurer dans la liste
 (CELLSJAVA-40756) - CellsException : null à Workbook.calculateFormula (false)
 (CELLSJAVA-40748) - Le chemin de l'image d'arrière-plan n'est pas correct
 (CELLSJAVA-40754) - Exporter des formes au format HTML avec une erreur de couleur d'arrière-plan
-(CELLSJAVA-40766) - XLSX vers HTML : problème avec hideColumn produisant des valeurs nulles en HTML
+(CELLSJAVA-40766) - XLSX à HTML : problème avec hideColumn produisant des valeurs Null dans HTML
 (CELLSJAVA-40769) - Formule de cellule de recalcul
 
 (CELLSJAVA-40771) - Problème de ligne masquée et de hauteur de ligne
 
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40736) - com.aspose.cells.CellsException : nom de cellule non valide
 (CELLSJAVA-40767) - NullpointerException lors de l'enregistrement d'un livre

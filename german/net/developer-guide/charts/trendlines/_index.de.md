@@ -11,7 +11,7 @@ url: /de/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- Der folgende Screenshot zeigt das Diagramm mit einer Trendlinie und sein Gleichungstext wird in roter Farbe angezeigt. Wir werden diesen Text mit dem abrufen[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)-Eigenschaft im folgenden Beispielcode.
+Der folgende Screenshot zeigt das Diagramm mit einer Trendlinie und sein Gleichungstext wird in roter Farbe angezeigt. Wir werden diesen Text mit dem abrufen[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)-Eigenschaft im folgenden Beispielcode.
 
 ![todo: Bild_alt_Text](get-equation-text-of-chart-trendline_1.png)
 

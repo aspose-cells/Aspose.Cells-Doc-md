@@ -10,20 +10,20 @@ url: /fr/python-java/aspose-cells-for-python-via-java-22-3-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44369| la hauteur de la forme n'est pas correcte|
 |CELLSJAVA-44366|Copier le contenu de la feuille sur une nouvelle page de feuille et l'enregistrer au format html rend le style de la formule mathématique Excel anormal|
 |CELLSJAVA-44408|Le format de pourcentage de Cell est perdu lorsque nous développons ces 2 lignes que nous avons modifiées|
-|CELLSJAVA-44341|Cell la largeur n'est pas correcte dans la sortie DOCX dans la conversion Excel vers DOCX|
+|CELLSJAVA-44341|La largeur Cell n'est pas correcte dans la sortie DOCX dans Excel pour la conversion DOCX|
 |CELLSJAVA-44383|La mise en forme conditionnelle a cessé de fonctionner après l'ajout de propriétés personnalisées|
 |CELLSJAVA-44370|Le fichier Excel est corrompu lorsqu'il est ouvert et enregistré avec Aspose.Cells|
-|CELLSJAVA-44344| Problème avec la copie horizontale des plages dans la sortie XLSX|
+|CELLSJAVA-44344|Problème avec la copie horizontale des plages dans la sortie XLSX|
 |CELLSJAVA-44363| la hauteur de l'en-tête de ligne ne correspond pas au contenu de la ligne dans le fichier avec freezepane|
 |CELLSJAVA-44349|l'image/la forme doit être conservée après le redémarrage du serveur pour GridWeb|
 |CELLSJAVA-44367|La couleur du graphique à colonnes devient blanche lors de la conversion en html|
-|CELLSJAVA-44328| Certaines étiquettes de données des graphiques Excel sont perdues lors de l'enregistrement du fichier Excel au format HTML|
-|CELLSJAVA-44193|L'angle des éléments de l'axe des catégories dans le graphique est différent dans la conversion Excel en PDF|
+|CELLSJAVA-44328| Certaines étiquettes de données des graphiques Excel sont perdues lors de l'enregistrement du fichier Excel sous HTML|
+|CELLSJAVA-44193|L'angle des éléments de l'axe des catégories dans le graphique est différent dans Excel de la conversion PDF|
 |CELLSJAVA-44314|Étiquettes d'axe de catégorie de graphique incorrectes dans le rendu Graphique vers image|
 |CELLSJAVA-44332|Cell le soulignement du lien ne peut pas être supprimé lors de la conversion de xlsx en html|
 |CELLSJAVA-44323|Exception lors de l'ajout d'une ligne de signature|

@@ -8,7 +8,7 @@ url: /it/java/insert-cell-comments/
 
 Aggiungi un commento a una cella chiamando il metodo addComments della raccolta Shapes (incapsulato nell'oggetto Worksheet). È possibile accedere al nuovo oggetto Comment dalla raccolta Comments passando l'indice dei commenti. Dopo aver effettuato l'accesso all'oggetto Comment, personalizzare la nota di commento utilizzando il metodo setNote dell'oggetto Comment.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -34,7 +34,7 @@ comment.setNote("Hello Aspose!");
 
 Gli esempi sottostanti mostrano come i commenti possono essere inseriti utilizzando Apache POI API
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

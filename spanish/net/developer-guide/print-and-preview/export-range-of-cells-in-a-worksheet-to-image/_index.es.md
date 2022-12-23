@@ -16,7 +16,7 @@ Puede crear una imagen de una hoja de trabajo usando Aspose.Cells. Sin embargo, 
 
 **![todo:image_alt_text](exportar-rango-de-celdas-en-una-hoja-de-trabajo-a-image_1.png)**
 
-Ejecutar el código crea una imagen del rango D8: G16 únicamente.
+Ejecutar el código crea una imagen del rango D8: G16 solamente.
 
 **![todo:image_alt_text](Imagen-Salida.png)**
 

@@ -22,13 +22,13 @@ Base di codice principale spostata in Java 6 (sono supportati anche Java 7 e 8).
 
 ### **Nuove caratteristiche**
 
-(CELLSJAVA-41235) - Supporta l'API RenderToSize per l'immagine del foglio di lavoro
+(CELLSJAVA-41235) - Supporto RenderToSize API per l'immagine del foglio di lavoro
 
 (CELLSJAVA-41234) - Supporta i punti elenco durante l'utilizzo di SmartMarkers o il metodo Cell.setHtmlString
 
 ### **Insetti**
 
-(CELLSJAVA-41229) - Aspose.Cells non genera singoli HTM e file CSS per i fogli nella conversione da Excel a HTML
+(CELLSJAVA-41229) - Aspose.Cells non genera singoli HTM e file CSS per i fogli in Excel alla conversione HTML
 
 (CELLSJAVA-41170) - SheetRender.toImage esegue il rendering dell'immagine con etichette "(vuote)" sull'asse x del grafico
 
@@ -52,13 +52,13 @@ Base di codice principale spostata in Java 6 (sono supportati anche Java 7 e 8).
 
 (CELLSJAVA-41255) - Il pulsante personalizzato diventa immagine e la didascalia scompare nell'output XLSX
 
-(CELLSJAVA-41254) - Microsoft Excel si arresta in modo anomalo quando viene aperto il file XLSX di output
+(CELLSJAVA-41254) - Microsoft Excel si arresta in modo anomalo quando viene aperto il file di output XLSX
 
-(CELLSJAVA-41253) - Il menu a discesa scompare nel file XLSX di output
+(CELLSJAVA-41253) - Il menu a discesa scompare nel file di output XLSX
 
 ### **Eccezioni**
 
-(CELLSJAVA-41266) - java.lang.NumberFormatException si è verificata all'apertura del file XLSX del modello
+(CELLSJAVA-41266) - java.lang.NumberFormatException si è verificata all'apertura del file modello XLSX
 
 (CELLSJAVA-41248) - Eccezione puntatore nullo all'apertura del file XLSX di origine
 
@@ -86,9 +86,9 @@ Base di codice principale spostata in Java 6 (sono supportati anche Java 7 e 8).
 
 (CELLSJAVA-41256) - Alcune regole di formattazione condizionale non possono essere utilizzate o parzialmente utilizzate nel file modello quando vengono importate in GridWeb
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà Workbook.IsLicensed.
 

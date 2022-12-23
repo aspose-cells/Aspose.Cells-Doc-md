@@ -4,7 +4,7 @@ type: docs
 weight: 1200
 url: /fr/java/implementing-non-sequential-ranges/
 ---
- Normalement,[plages nommées](/cells/fr/java/named-ranges/) sont rectangulaires avec des cellules continues et adjacentes les unes aux autres. Mais parfois, vous devrez peut-être utiliser une plage de cellules non séquentielles dans laquelle les cellules ne sont pas adjacentes. Aspose.Cells prend en charge la création d'une plage nommée avec des cellules non adjacentes. Pour cela, le API fournit le[**Name.RefersToName.RefersTo**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) propriété.
+ En temps normal,[plages nommées](/cells/fr/java/named-ranges/) sont rectangulaires avec des cellules continues et adjacentes les unes aux autres. Mais parfois, vous devrez peut-être utiliser une plage de cellules non séquentielles dans laquelle les cellules ne sont pas adjacentes. Aspose.Cells prend en charge la création d'une plage nommée avec des cellules non adjacentes. Pour cela, le API fournit le[**Name.RefersToName.RefersTo**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) la propriété.
 
 ## Code Java pour implémenter des plages non séquentielles
 

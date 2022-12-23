@@ -1,5 +1,5 @@
 ﻿---
-title: HTMLのインポート中に改行後の余分なスペースを削除する
+title: HTML のインポート中に改行後の余分なスペースを削除する
 type: docs
 weight: 20
 url: /ja/net/delete-redundant-spaces-after-line-break-while-importing/
@@ -16,7 +16,7 @@ url: /ja/net/delete-redundant-spaces-after-line-break-while-importing/
 
 ![todo:画像_代替_文章](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
 
-## HTMLのインポート中に改行後の余分なスペースを削除する
+## HTML のインポート中に改行後の余分なスペースを削除する
 
 ### プログラミングサンプル
 

@@ -25,7 +25,7 @@ Microsoft Excel (たとえば、Microsoft Excel 2007/2010) で互換性チェッ
 
 をセットする[**WorkbookSettings.CheckComptibility**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity)プロパティへ**間違い** Microsoft Excel の互換性チェックを無効にします。
 
-テンプレートの XLS ファイルがあるとします。ユーザーが MS Excel 2007/2010/2013 で保存または再保存すると、下のスクリーンショットに示すように、[互換性チェック] ダイアログ ボックスが表示されます。
+テンプレート XLS ファイルがあるとします。ユーザーが MS Excel 2007/2010/2013 で保存または再保存すると、下のスクリーンショットに示すように、[互換性チェック] ダイアログ ボックスが表示されます。
 
 ![todo:画像_代替_文章](disable-compatibility-checker-in-excel_1.png)
 

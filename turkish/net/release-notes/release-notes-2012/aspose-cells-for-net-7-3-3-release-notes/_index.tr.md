@@ -39,12 +39,12 @@ Biz
 - MHT dosyasını kaydetme, Aspose.Cells'de okuma sorun
 - Bazı koşullu biçimlendirmeler doğru şekilde oluşturulmuyor
 - Karışık boyutlu yazı tipleriyle PDF'de hatalı metin konumlandırma
-- Excel dosyasından PDF'ye dışa aktarma, formülleri değiştirir
+- Excel dosyasından PDF'e dışa aktarma, formülleri değiştirir
 - Çalışma sayfası ve PDF oluşturma sorunları
 - Sütunları otomatik sığdırma sorunu
 - PivotTable Tema sorunları
 - PivotTable'ın yenilemesi başarısız oluyor
-- Makro içeren bir XLS dosyasını XLSM formatına yükseltirken sorun oluştu
+- Makro içeren bir XLS dosyasını XLSM biçimine yükseltirken sorun oluştu
 
 
 
@@ -67,7 +67,7 @@ Biz
 
 
 Yeni
-Özellikler
+ Özellikleri
 
 - GridDesktop Kaydırma Çubukları - Dikey ve yatay kaydırma çubuklarını gösterme/gizleme
 - Satır / Sütun olayları ekle

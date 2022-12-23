@@ -14,11 +14,11 @@ url: /de/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Neue Eigenschaften
 
- 41522 – Analysieren Sie Szenarien bei der XLS-zu-XLSM-Konvertierung
+ 41522 – Analysieren von Szenarien bei der Umwandlung von XLS in XLSM
 
  Leistung
 
- 41526 – XLSX-zu-PDF-Konvertierung hängt
+ 41526 - XLSX bis PDF Konvertierung hängt
 
  Ausnahmen
 
@@ -30,7 +30,7 @@ url: /de/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 – Probleme mit der automatischen Größenanpassung für das Textfeld
 
- 41751 - Matrixformel(en) gehen beim Speichern verloren
+41751 - Matrixformel(en) gehen beim Speichern verloren
 
  41787 – Datei ist beim Speichern beschädigt
 

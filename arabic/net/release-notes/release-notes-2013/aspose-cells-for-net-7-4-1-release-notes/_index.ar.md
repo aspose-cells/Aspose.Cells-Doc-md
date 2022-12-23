@@ -36,7 +36,7 @@ url: /ar/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 - مشكلة تتعلق بتحديث PivotTable
 
- 41411 - حفظ XLSX في HTML - خطأ في التنسيق
+41411 - حفظ XLSX إلى HTML - خطأ في التنسيق
 
  41406 - مشكلة صيغة / دالة DATEDIF
 
@@ -48,7 +48,7 @@ url: /ar/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41427 - لا ينتهي تحميل Excel - ملف Excel 2013
 
-41400 - تغييرات قيمة ورقة العمل / الإدخال عند حفظ
+ 41400 - تغييرات قيمة ورقة العمل / الإدخال عند حفظ
 
 2 
 

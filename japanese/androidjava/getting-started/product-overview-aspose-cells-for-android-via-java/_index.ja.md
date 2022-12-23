@@ -16,7 +16,7 @@ Aspose.Cells は、システムに Microsoft Excel をインストールしな�
 ## **ドキュメントの機能**
 - さまざまなソースからプレーンまたは暗号化された Excel ファイル (Excel97 - Excel2007 以降のバージョン) を開く
 - Excel ファイル (Excel97 - Excel2007 以降のバージョン) をさまざまな形式 (XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、タブ区切り、HTML など) で保存します。
-- Excel ファイルを PDF ドキュメントに変換する
+- ExcelファイルをPDFドキュメントに変換
 - Excel スプレッドシートを XPS ドキュメントに変換する
 - OpenDocument スプレッドシート (ODS) 形式の読み取りと書き込み
 - Excel ファイルのドキュメント プロパティを変更する

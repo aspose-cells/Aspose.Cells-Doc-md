@@ -5,7 +5,7 @@ weight: 80
 url: /zh/reportingservices/
 is_root: true
 ---
-![待办事项：图像_替代_文本](home_1)
+![待办事项：图片_替代_文本](home_1)
 
 **欢迎拨打Aspose.Cells for Reporting Services**
 

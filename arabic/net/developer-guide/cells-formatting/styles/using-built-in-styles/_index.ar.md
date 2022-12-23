@@ -40,7 +40,7 @@ keywords: c# use excel built in styles, c# programmatically apply styles in work
 - ACCENT_4
 - ACCENT_5
 - ACCENT_6
-- سيئ
+- سيء
 - عملية حسابية
 - CHECK_CELL
 - فاصلة
@@ -48,14 +48,14 @@ keywords: c# use excel built in styles, c# programmatically apply styles in work
 - عملة
 - CURRENCY_1
 - EXPLANATORY_TEXT
-- جيد
+- حسن
 - HEADER_1
 - HEADER_2
 - HEADER_3
 - HEADER_4
 - رابط تشعبي
 - FOLLOWED_HYPERLINK
-- الإدخال
+- إدخال
 - LINKED_CELL
 - محايد
 - عادي
@@ -63,7 +63,7 @@ keywords: c# use excel built in styles, c# programmatically apply styles in work
 - انتاج
 - نسبه مئويه
 - لقب
-- المجموع
+- مجموع
 - WARNING_TEXT
 - ROW_LEVEL
 - COLUMN_LEVEL

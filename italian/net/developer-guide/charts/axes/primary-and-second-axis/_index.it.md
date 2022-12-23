@@ -11,5 +11,5 @@ Quando i numeri in un grafico variano notevolmente da serie di dati a serie di d
 Quindi aggiungiamo un grafico e mostriamo il secondo asse.
 
 ![cose da fare:immagine_alt_testo](excel.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "primary-and-second-axis.cs" >}}

@@ -16,13 +16,13 @@ url: /fr/net/aspose-cells-for-net-7-6-1-release-notes/
 
  Améliorations
 
- Exceptions
+ Des exceptions
 
  Insectes
 
  41354 - Problème de tableau croisé dynamique avec marqueurs intelligents
 
- 41528 - Problèmes de formatage dans le PDF de sortie
+ 41528 - Problèmes de formatage dans la sortie PDF
 
  \2) Aspose.Cells.GridWeb
 

@@ -9,6 +9,6 @@ weight: 17
 Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 22.5
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |31011 |Miglioramento per il rendering di XPS e Tiff.| Miglioramento|

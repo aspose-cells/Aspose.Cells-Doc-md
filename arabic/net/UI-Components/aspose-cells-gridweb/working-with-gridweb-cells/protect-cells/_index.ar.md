@@ -32,7 +32,7 @@ url: /ar/net/protect-cells/
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeSelectedCellsReadOnly.cs" >}}
-### **جعل مجموعة مختارة Cells قابلة للتحرير**
+### **جعل مختارة Cells قابلة للتحرير**
 لإلغاء حماية نطاق من الخلايا:
 
 1. اجعل كل الخلايا مقروءة فقط عن طريق استدعاء الأسلوب SetAllCellsReadonly.

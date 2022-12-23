@@ -15,7 +15,7 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
  El siguiente código de ejemplo primero crea un rango - A1:D4 - y luego combina las celdas en el rango en una sola celda usando el[**Rango.merge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#merge()) método.
  De manera similar, es posible dividir celdas creando un rango y llamando al[**Rango.unMerge()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#unMerge()) método.
 
-La siguiente imagen muestra el archivo de salida de Excel generado con el código de muestra. Como puede ver, el rango A1:D4 se fusionó en una sola celda.
+La siguiente imagen muestra el archivo de salida de Excel generado con el código de ejemplo. Como puede ver, el rango A1:D4 se fusionó en una sola celda.
 
 ![todo:imagen_alternativa_texto](merge-or-unmerge-range-of-cells_1.png)
 

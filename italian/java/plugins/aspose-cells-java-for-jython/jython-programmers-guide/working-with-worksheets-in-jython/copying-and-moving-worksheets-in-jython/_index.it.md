@@ -98,6 +98,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Aggiungi documenti (Aspose.Cells)** da uno qualsiasi dei codici sociali sotto menzionati
+ Scaricamento**Aggiungi documenti (Aspose.Cells)** da uno qualsiasi dei codici sociali sotto menzionati
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithWorksheets/CopyingAndMovingWorksheets.py)

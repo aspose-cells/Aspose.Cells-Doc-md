@@ -15,10 +15,10 @@ Aspose.Cells est un composant flexible qui permet aux applications Android de cr
 {{% /alert %}} 
 ## **Caractéristiques des documents**
 - Ouvrez des fichiers Excel bruts ou cryptés (Excel97 - Excel2007 et versions ultérieures) à partir de différentes sources
-- Enregistrez des fichiers Excel (Excel97 - Excel2007 et versions ultérieures) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML, etc.)
-- Convertir un fichier Excel en document PDF
+- Enregistrez les fichiers Excel (Excel97 - Excel2007 et versions ultérieures) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML etc.)
+- Convertir le fichier Excel en document PDF
 - Convertir une feuille de calcul Excel en document XPS
-- Lire et écrire au format OpenDocument Spreadsheet (ODS)
+- Lire et écrire le format de feuille de calcul OpenDocument (ODS)
 - Modifier les propriétés de document des fichiers Excel
 ## **Fonctionnalités de la feuille de calcul**
 ## **Option d'affichage**
@@ -48,7 +48,7 @@ Aspose.Cells est un composant flexible qui permet aux applications Android de cr
 - Récupérer les données des cellules en fonction de leurs types de données
 - **Exporter les données des cellules vers Array**
 - Rechercher ou rechercher des données spécifiques dans des cellules
--  Régler**Formules avec fonctions intégrées ou complémentaires**
+-  Ensemble**Formules avec fonctions intégrées ou complémentaires**
 - Ajouter différents types d'hyperliens
 - Créer ou accéder à des plages nommées
 -  Appliquer**La validation des données** et**Filtrage automatique**
@@ -56,11 +56,11 @@ Aspose.Cells est un composant flexible qui permet aux applications Android de cr
 ## **Fonctionnalités de formatage**
 -  Appliquer**Paramètres de format de nombre** pour le Cells
 - Formater Cell comme date
--  Régler**Alignement du texte**
+-  Ensemble**Alignement du texte**
 - Fusionner plusieurs Cells en un seul
 - Appliquer différents types de**Paramètres de police** pour le Cells
 - Appliquez différentes couleurs à Cells, polices, quadrillages, objets graphiques, etc.
--  Régler**Texte riche** dans un seul Cell
+-  Ensemble**Texte riche** dans un seul Cell
 -  Appliquer différent**Paramètres de bordure** au Cells
 -  Appliquer différent**Motifs de fond** au Cells
 -  Appliquer**Paramètres de mise en forme** sur une feuille de calcul, une ligne ou une colonne, etc.
@@ -68,7 +68,7 @@ Aspose.Cells est un composant flexible qui permet aux applications Android de cr
 ## **Fonctionnalités graphiques et graphiques**
 - Créez facilement différents types de graphiques
 -  Personnaliser**Graphiques** en définissant leurs différentes propriétés
--  Régler**Données pour les graphiques** dynamiquement
+-  Ensemble**Données pour les graphiques** dynamiquement
 -  Ajouter**Graphiques personnalisés** aux feuilles de travail en utilisant API
 -  Ajouter**Des photos** aux feuilles de calcul au moment de l'exécution
 -  Créer et ajouter**commentaires** aux cellules
@@ -76,5 +76,5 @@ Aspose.Cells est un composant flexible qui permet aux applications Android de cr
 - Convertir une feuille de calcul en fichier image
 ## **Fonctionnalités avancées**
 -  Les soutiens**Calculs de formule** en utilisant un moteur de calcul de formule robuste
--  Changer**Données source d'un tableau croisé dynamique** lors de l'exécution
+-  Changement**Données source d'un tableau croisé dynamique** lors de l'exécution
 - Créer et manipuler des tableaux croisés dynamiques

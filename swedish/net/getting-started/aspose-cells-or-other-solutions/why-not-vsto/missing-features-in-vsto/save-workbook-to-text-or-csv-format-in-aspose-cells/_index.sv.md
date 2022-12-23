@@ -1,5 +1,5 @@
 ﻿---
-title: Spara arbetsboken i text- eller CSV-format i Aspose.Cells
+title: Spara arbetsbok till text eller CSV format i Aspose.Cells
 type: docs
 weight: 110
 url: /sv/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
@@ -12,9 +12,9 @@ Ibland vill du konvertera eller spara en arbetsbok med flera kalkylblad till tex
 
 Följande kodexempel förklarar hur man sparar en hel arbetsbok i textformat. Ladda källarbetsboken som kan vara valfri Microsoft Excel- eller OpenOffice-kalkylarksfil (såsom XLS, XLSX, XLSM, XLSB, ODS och så vidare) med valfritt antal kalkylblad.
 
-När koden exekveras konverterar den data från alla ark i arbetsboken till TXT-format.
+När koden exekveras konverterar den data från alla ark i arbetsboken till formatet TXT.
 
-Du kan ändra samma exempel för att spara din fil i CSV. Som standard är TxtSaveOptions.Separator komma, så ange inte en separator om du sparar i CSV-format.
+Du kan ändra samma exempel för att spara din fil till CSV. Som standard är TxtSaveOptions.Separator kommatecken, så ange inte en avgränsare om du sparar i formatet CSV.
 
 **C#**
 
@@ -76,5 +76,5 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 {{< /highlight >}}
 ## **Ladda ner Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

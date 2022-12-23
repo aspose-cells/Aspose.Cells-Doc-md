@@ -9,6 +9,6 @@ Microsoft Excel, Görünüm > Böl menü komutunu kullanarak bölmeleri ayırman
 ## **GridDesktop Çalışma Sayfasında Bölme Bölmeleri**
 Aşağıdaki ekran görüntüleri, bölünmüş düzlemlerden önce ve bölünmüş düzlemlerden sonra GridDesktop'u göstermektedir.
 ### **Bölünmüş Bölmelerden Önce GridDesktop**
-![yapılacaklar:resim_alternatif_Metin](split-panes-in-griddesktop-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](split-panes-in-griddesktop-worksheet_1.png)
 ### **Bölünmüş Bölmelerden Sonra GridDesktop**
-![yapılacaklar:resim_alternatif_Metin](split-panes-in-griddesktop-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](split-panes-in-griddesktop-worksheet_2.png)

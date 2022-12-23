@@ -27,7 +27,7 @@ url: /zh/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 |CELLSJAVA-44660|将 XLS 加载到 Aspose.Cells.GridWeb 时出现数据对齐问题 (Java)|
 |CELLSJAVA-44661|将 et 文件加载到 Aspose.Cells.GridWeb 时出现问题 (Java)|
 |CELLSJAVA-44584|图表中轴的标题在输出图像中旋转 - 图表到图像的转换|
-|CELLSJAVA-44615|XLS 文件的输出图像中绘制的灰线|
+|CELLSJAVA-44615|在 XLS 文件的输出图像中绘制的灰线|
 |CELLSJAVA-44665|加载 ODS 文件挂起|
 |CELLSJAVA-44651|将 Excel 工作表转换为 HTML/PDF 时出现“不是数值”错误|
 

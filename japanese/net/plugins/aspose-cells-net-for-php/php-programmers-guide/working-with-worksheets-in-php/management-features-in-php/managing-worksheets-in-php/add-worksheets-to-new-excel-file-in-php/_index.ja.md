@@ -7,7 +7,7 @@ url: /ja/net/add-worksheets-to-new-excel-file-in-php/
 ## **新しい Excel ファイルにワークシートを追加**
 新しい Excel ファイルにワークシートを追加
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

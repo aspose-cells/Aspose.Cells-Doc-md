@@ -14,7 +14,7 @@ url: /it/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
  Il codice di esempio seguente carica il file[esempio di file Excel](51740716.xlsx) , legge il relativo ID foglio o scheda, quindi gli assegna un nuovo ID scheda e lo salva come[file Excel di output](51740717.xlsx). Si prega di consultare anche l'output della console del codice fornito di seguito per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UtilizeSheet_SheetId_PropertyOfOpenXml.cs" >}}
 

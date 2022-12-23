@@ -10,7 +10,7 @@ Entwickler können verschiedene Zeichnungsobjekte wie Textfelder, Kontrollkästc
 
 ## **Hinzufügen eines Textfeld-Steuerelements zu einem Arbeitsblatt**
 
- Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, ist die Verwendung eines Textfelds. Fügen Sie beispielsweise Text hinzu, um den Firmennamen hervorzuheben oder die geografische Region mit den höchsten Umsätzen usw. anzugeben. Aspose.Cells bietet die[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) Klasse, die verwendet wird, um der Sammlung ein neues Textfeld hinzuzufügen. Es gibt eine andere Klasse,[**Textfeld**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox), das ein Textfeld darstellt, das zum Definieren aller Arten von Einstellungen verwendet wird. Es hat einige wichtige Mitglieder:
+ Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, ist die Verwendung eines Textfelds. Fügen Sie beispielsweise Text hinzu, um den Firmennamen hervorzuheben oder die geografische Region mit den höchsten Umsätzen usw. anzugeben. Aspose.Cells bietet die[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) Klasse, die verwendet wird, um der Sammlung ein neues Textfeld hinzuzufügen. Es gibt eine andere Klasse,[**Textfeld**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)das ein Textfeld darstellt, das zum Definieren aller Arten von Einstellungen verwendet wird. Es hat einige wichtige Mitglieder:
 
 -  Das[**Textrahmen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) Eigenschaft gibt zurück a[**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) Objekt zum Anpassen des Inhalts des Textfelds.
 -  Das[**Platzierung**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) -Eigenschaft gibt den Platzierungstyp an.
@@ -44,7 +44,7 @@ Gehen Sie folgendermaßen vor, um ein Kontrollkästchen-Steuerelement in Ihr Arb
 1.  Drücke den**Kontrollkästchen aktivieren** Werkzeug auf der Symbolleiste Formulare.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Kontrollkästchen und die Beschriftung neben dem Kontrollkästchen enthält.
 1. Sobald das Kontrollkästchen platziert ist, bewegen Sie den Mauszeiger in den Beschriftungsbereich und ändern Sie die Beschriftung.
-1.  In dem**Cell Verbindung**geben Sie die Adresse der Zelle an, mit der dieses Kontrollkästchen verknüpft werden soll.
+1.  Im**Cell Verbindung**geben Sie die Adresse der Zelle an, mit der dieses Kontrollkästchen verknüpft werden soll.
 1.  Klicke auf**OK**.
 
 ### **Mit Aspose.Cells**
@@ -71,7 +71,7 @@ Führen Sie die folgenden Schritte aus, um ein Optionsfeld-Steuerelement in Ihre
 1.  Drücke den**Optionsschaltfläche** Werkzeug.
 1. Klicken und ziehen Sie im Arbeitsblatt, um das Rechteck zu definieren, das die Optionsschaltfläche und die Beschriftung neben der Optionsschaltfläche enthält.
 1. Sobald das Optionsfeld im Arbeitsblatt platziert ist, bewegen Sie den Mauszeiger in den Beschriftungsbereich und ändern Sie die Beschriftung.
-1.  In dem**Cell Verbindung** Geben Sie im Feld die Adresse der Zelle an, mit der dieses Optionsfeld verknüpft werden soll.
+1.  Im**Cell Verbindung** Geben Sie im Feld die Adresse der Zelle an, mit der dieses Optionsfeld verknüpft werden soll.
 1.  Klicken**OK**.
 
 ### **Mit Aspose.Cells**
@@ -97,10 +97,10 @@ Um die Dateneingabe zu vereinfachen oder Einträge auf bestimmte von Ihnen defin
 Führen Sie die folgenden Schritte aus, um ein Kombinationsfeld-Steuerelement in Ihrem Arbeitsblatt zu platzieren:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Kombinationsfeld** Werkzeug.
+1.  Klicke auf das**Kombinationsfeld** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Kombinationsfeld enthält.
 1.  Sobald das Kombinationsfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement, um es anzuklicken**Formatsteuerung** und geben Sie den Eingangsbereich an.
-1.  In dem**Cell Verbindung** geben Sie die Adresse der Zelle an, mit der dieses Kombinationsfeld verknüpft werden soll.
+1.  Im**Cell Verbindung** geben Sie die Adresse der Zelle an, mit der dieses Kombinationsfeld verknüpft werden soll.
 1.  Klicke auf**OK**.
 
 ### **Mit Aspose.Cells**
@@ -118,7 +118,7 @@ Das folgende Beispiel zeigt, wie Sie dem Arbeitsblatt ein Kombinationsfeld hinzu
 
 ## **Label Control zu einem Arbeitsblatt hinzufügen**
 
- Labels sind ein Mittel, um Benutzern Informationen über den Inhalt einer Tabelle zu geben. Aspose.Cells ermöglicht das Hinzufügen und Bearbeiten von Beschriftungen in einem Arbeitsblatt. Das[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) Die Klasse stellt eine Methode mit dem Namen bereit[**Label hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) , wird verwendet, um dem Arbeitsblatt ein Beschriftungssteuerelement hinzuzufügen. Die Methode gibt a zurück[**Etikett**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) Objekt. Die Klasse[**Etikett**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) stellt eine Beschriftung im Arbeitsblatt dar. Es hat einige wichtige Mitglieder:
+ Labels sind ein Mittel, um Benutzern Informationen über den Inhalt einer Tabelle zu geben. Aspose.Cells ermöglicht das Hinzufügen und Bearbeiten von Beschriftungen in einem Arbeitsblatt. Das[**ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) Die Klasse stellt eine Methode mit dem Namen bereit[**Label hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabel) , wird verwendet, um dem Arbeitsblatt ein Beschriftungssteuerelement hinzuzufügen. Die Methode gibt a zurück[**Etikette**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) Objekt. Die Klasse[**Etikette**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) stellt eine Beschriftung im Arbeitsblatt dar. Es hat einige wichtige Mitglieder:
 
 -  Das[**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) -Methode gibt die Beschriftungszeichenfolge eines Labels an.
 -  Das[**Platzierung**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) Methode gibt die an[**Platzierungstyp**](https://reference.aspose.com/cells/net/aspose.cells.drawing/placementtype), die Art und Weise, wie die Beschriftung an die Zellen im Arbeitsblatt angehängt wird.
@@ -136,10 +136,10 @@ Ein Listenfeld-Steuerelement erstellt ein Listensteuerelement, das die Auswahl e
 So platzieren Sie ein Listenfeld-Steuerelement in einem Arbeitsblatt:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Listenfeld** Werkzeug.
+1.  Klicke auf das**Listenfeld** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Listenfeld enthält.
 1.  Sobald das Listenfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement, um es anzuklicken**Formatsteuerung** und geben Sie den Eingangsbereich an.
-1.  In dem**Cell Verbindung**Geben Sie die Adresse der Zelle an, mit der dieses Listenfeld verknüpft werden soll, und legen Sie das Attribut Auswahltyp (Einzeln, Mehrfach, Erweitern) fest
+1.  Im**Cell Verbindung**Geben Sie die Adresse der Zelle an, mit der dieses Listenfeld verknüpft werden soll, und legen Sie das Attribut Auswahltyp (Einzeln, Mehrfach, Erweitern) fest
 1.  Klicken**OK**.
 
 ### **Mit Aspose.Cells**
@@ -164,7 +164,7 @@ Schaltflächen sind nützlich, um einige Aktionen auszuführen. Manchmal ist es 
 So platzieren Sie ein Schaltflächen-Steuerelement in Ihrem Arbeitsblatt:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Taste** Werkzeug.
+1.  Klicke auf das**Knopf** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das die Schaltfläche halten wird.
 1.  Sobald das Listenfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie es aus**Formatsteuerung**, geben Sie dann ein VBA-Makro und Attribute für Schriftart, Ausrichtung, Größe, Rand usw. an.
 1.  Klicke auf**OK**.
@@ -296,7 +296,7 @@ So platzieren Sie ein Drehfeld-Steuerelement in Ihrem Arbeitsblatt:
 -  Drücke den*Spinner* Werkzeug.
 - Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Spinner halten wird.
 -  Sobald das Zahlenauswahlfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement, und klicken Sie darauf*Formatsteuerung* und geben Sie die maximalen, minimalen und inkrementellen Werte an.
--  In dem*Cell Verbindung* geben Sie die Adresse der Zelle an, mit der dieses Drehfeld verknüpft werden soll.
+-  Im*Cell Verbindung* geben Sie die Adresse der Zelle an, mit der dieses Drehfeld verknüpft werden soll.
 -  Klicke auf*OK*.
 
 ### **Mit Aspose.Cells**
@@ -324,11 +324,11 @@ Ein Bildlaufleisten-Steuerelement wird ähnlich wie ein Drehfeld-Steuerelement v
 -  Um eine Bildlaufleiste in Excel 2007 hinzuzufügen, klicken Sie auf*Entwickler* Registerkarte, klicken Sie auf*Einfügung* , und klicken Sie dann auf*Scrollleiste* im Abschnitt Formularsteuerelemente.
 -  Klicken Sie mit der rechten Maustaste auf die Bildlaufleiste, und klicken Sie dann*Formatsteuerung*.
 -  Geben Sie die folgenden Informationen ein und klicken Sie auf*OK*:
- - In dem*Aktueller Wert* Feld, Typ 1.
- - In dem*Mindestwert* Geben Sie im Feld 1 ein. Dieser Wert beschränkt den oberen Rand der Bildlaufleiste auf das erste Element in der Liste.
- - In dem*Maximalwert* Geben Sie im Feld 20 ein. Diese Zahl gibt die maximale Anzahl von Einträgen in der Liste an.
- - In dem*Inkrementelle Veränderung* Geben Sie in das Feld 1 ein. Dieser Wert steuert, um wie viele Zahlen das Bildlaufleisten-Steuerelement den aktuellen Wert erhöht.
- - In dem*Seitenwechsel* Geben Sie im Feld 5 ein. Dieser Eintrag steuert, um wie viel der aktuelle Wert erhöht wird, wenn Sie in die Bildlaufleiste auf beiden Seiten des Bildlauffelds klicken.
+ - Im*Aktueller Wert* Feld, Typ 1.
+ - Im*Mindestwert* Geben Sie im Feld 1 ein. Dieser Wert beschränkt den oberen Rand der Bildlaufleiste auf das erste Element in der Liste.
+ - Im*Maximalwert* Geben Sie im Feld 20 ein. Diese Zahl gibt die maximale Anzahl von Einträgen in der Liste an.
+ - Im*Inkrementelle Veränderung* Geben Sie in das Feld 1 ein. Dieser Wert steuert, um wie viele Zahlen das Bildlaufleisten-Steuerelement den aktuellen Wert erhöht.
+ - Im*Seitenwechsel* Geben Sie im Feld 5 ein. Dieser Eintrag steuert, um wie viel der aktuelle Wert erhöht wird, wenn Sie in die Bildlaufleiste auf beiden Seiten des Bildlauffelds klicken.
  Um einen Zahlenwert in Zelle G1 einzugeben (je nachdem, welches Element in der Liste ausgewählt ist), geben Sie G1 in das ein*Cell Link* Kasten.
 - Klicken Sie auf eine beliebige Zelle, sodass die Bildlaufleiste nicht ausgewählt ist.
 
@@ -358,7 +358,7 @@ Manchmal müssen Sie Optionsfelder oder andere Steuerelemente implementieren, di
 
 So platzieren Sie ein Gruppenfeld-Steuerelement in Ihrem Arbeitsblatt und platzieren darin Steuerelemente:
 
--  Um ein Formular zu starten, klicken Sie im Hauptmenü auf*Aussicht* , gefolgt von*Symbolleisten* und*Formen*.
+-  Um ein Formular zu starten, klicken Sie im Hauptmenü auf*Sicht* , gefolgt von*Symbolleisten* und*Formen*.
 -  Auf der*Formen* Symbolleiste, klicken Sie auf die*Gruppenfeld* und zeichnen Sie ein Rechteck auf dem Arbeitsblatt.
 - Geben Sie eine Beschriftungszeichenfolge für das Feld ein.
 -  Auf der*Formen* Symbolleiste, klicken Sie auf*Optionsschaltfläche* und klicken Sie hinein*Gruppenfeld* direkt unter der Beschriftungszeichenfolge.

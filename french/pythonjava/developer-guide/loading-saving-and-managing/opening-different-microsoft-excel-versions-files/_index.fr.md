@@ -12,23 +12,23 @@ Aspose.Cells peut ouvrir une gamme de différents fichiers de versions Excel Mic
 
 ## **Ouverture de fichiers de différentes versions d'Excel Microsoft**
 
-Une application doit souvent pouvoir ouvrir des fichiers Excel Microsoft créés dans différentes versions, par exemple, Microsoft Excel 95,97, ou Microsoft Excel 2007/2010/2013/2016/2019 et Office 365 . Vous devrez peut-être charger un fichier dans l'un des nombreux formats, notamment XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited ou TSV, CSV, ODS, etc. Utilisez le constructeur ou spécifiez le**[Classeur](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** classer'**[setFileFormat](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)** méthode pour spécifier le format à l'aide de la**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**énumération.
+ Une application doit souvent pouvoir ouvrir des fichiers Excel Microsoft créés dans différentes versions, par exemple, Microsoft Excel 95,97, ou Microsoft Excel 2007/2010/2013/2016/2019 et Office 365 . Vous devrez peut-être charger un fichier dans l'un des nombreux formats, y compris XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited ou TSV, CSV, ODS et ainsi de suite. Utilisez le constructeur ou spécifiez le**[Classeur](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** classe'**[setFileFormat](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)**méthode pour spécifier le format à l'aide de la**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**énumération.
 	
- La**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**énumération contient de nombreux formats de fichiers prédéfinis dont certains sont donnés ci-dessous.
+ Le**[FileFormatType](https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**énumération contient de nombreux formats de fichiers prédéfinis dont certains sont donnés ci-dessous.
 
-|**Types de formats de fichiers**|**La description**|
+|**Types de formats de fichiers**|**Description**|
 |:- |:- |
 |CSV|Représente un fichier CSV|
 |EXCELLER_97_À_2003|Représente un fichier Excel 97 - 2003|
 |XLSX|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 XLSX|
 |XLSM|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 XLSM|
-|XLTX|Représente un fichier XLTX de modèle Excel 2007/2010/2013/2016/2019 et Office 365|
+|XLTX|Représente un fichier de modèle Excel 2007/2010/2013/2016/2019 et Office 365 XLTX|
 |XLTM|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 prenant en charge les macros XLTM|
-|XLSB|Représente un fichier XLSB binaire Excel 2007/2010/2013/2016/2019 et Office 365|
+|XLSB|Représente un fichier Excel 2007/2010/2013/2016/2019 et Office 365 binaire XLSB|
 |SPREADSHEET_ML|Représente un fichier SpreadsheetML|
-|VST|Représente un fichier de valeurs séparées par des tabulations|
+|TSV|Représente un fichier de valeurs séparées par des tabulations|
 |ONGLET DÉLIMITÉ|Représente un fichier texte délimité par des tabulations|
-|SAO|Représente un fichier ODS|
+|ODS|Représente un fichier ODS|
 |HTML|Représente un fichier HTML|
 |M_HTML|Représente un fichier MHTML|
 
@@ -48,7 +48,7 @@ Pour ouvrir un fichier Microsoft Excel 95/5.0, utilisez**[LoadOptions](https://r
 
 ### **Ouverture Microsoft Fichiers Excel 2007/2010/2013/2016/2019 et Office 365 XLSX**
 
- Pour ouvrir un format Microsoft Excel 2007/2010/2013/2016/2019 et Office 365, c'est-à-dire XLSX ou XLSB, spécifiez le chemin du fichier. Vous pouvez aussi utiliser**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** et définissez les attributs/options associés du**ChargerOptions**class pour le fichier modèle à charger.
+Pour ouvrir un format Microsoft Excel 2007/2010/2013/2016/2019 et Office 365, c'est-à-dire XLSX ou XLSB, indiquez le chemin du fichier. Vous pouvez aussi utiliser**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** et définissez les attributs/options associés du**ChargerOptions**class pour le fichier modèle à charger.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel2007Files.py" >}}
 

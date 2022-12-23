@@ -13,9 +13,9 @@ url: /zh/java/spreadsheet-editor-getting-started/
 - [贡献](#SpreadsheetEditorGettingStarted-Contribute)
 - [执照](#SpreadsheetEditorGettingStarted-License)
 ### **介绍**
-Html5 电子表格编辑器是一个网络应用程序，可以在网络浏览器中查看和编辑电子表格文档。它支持 Excel、SpreadsheetML、CVS、OpenDocument 和 Microsoft Excel 支持的许多其他格式。支持所有基本功能，包括单元格编辑、格式设置、公式编辑、行和列管理等。
+Html5 电子表格编辑器是一个网络应用程序，可以在网络浏览器中查看和编辑电子表格文档。支持Excel、SpreadsheetML、CVS、OpenDocument等Microsoft Excel支持的多种格式。支持所有基本功能，包括单元格编辑、格式设置、公式编辑、行和列管理等。
 
-![待办事项：图像_替代_文本](aowcrc1.png)
+![待办事项：图片_替代_文本](aowcrc1.png)
 
  HTML5 电子表格编辑器使用了很多功能[Aspose.Cells for Java](https://products.aspose.com/cells/java/)并展示如何使用它们在 Java 应用程序中创建、操作和呈现电子表格。
 
@@ -126,7 +126,7 @@ HTML5 电子表格编辑器是一个 Java EE 应用程序，可以部署到任�
 
 - 下载项目源代码。
 - 在 NetBeans IDE 中打开项目。
-- 点击***跑***工具栏上的按钮。
+- 点击***跑步***工具栏上的按钮。
 - 选择***玻璃鱼***服务器作为应用程序服务器。
 
 **使用 Eclipse**
@@ -154,7 +154,7 @@ Eclipse IDE 应该导入并加载项目。
 
 **问题和帮助**
 
-您可以使用以下方式询问与 HTML5 电子表格编辑器相关的各种问题[Github问题](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues).只需创建一个新问题并应用***问题***标签。
+您可以使用以下方式询问与 HTML5 电子表格编辑器相关的各种问题[Github问题](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues).只需创建一个新问题并应用***题***标签。
 
 **Aspose.Cells for Java 论坛**
 
@@ -188,6 +188,6 @@ HTML5 Spreadsheet Editor 是一个开源项目，它允许每个人为项目做�
 
 **Aspose 许可证**
 
-该产品无需 Aspose 许可证即可工作，[有限制](/cells/zh/java/licensing/).要消除限制，您可以获得一个[免费临时许可证](https://purchase.aspose.com/temporary-license)或者[购买完整许可证](https://purchase.aspose.com/buy).
+该产品无需 Aspose 许可证即可工作，[有限制](/cells/zh/java/licensing/).要消除限制，您可以获得一个[免费临时许可证](https://purchase.aspose.com/temporary-license)要么[购买完整许可证](https://purchase.aspose.com/buy).
 
 默认情况下，编辑器会尝试加载**Aspose.Total.Java.lic**文件来自**src/main/resources/com/aspose/电子表格编辑器**目录。只需将许可证文件复制到此目录即可。可以通过编辑更改默认行为**Aspose许可证**班级。

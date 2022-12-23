@@ -14,10 +14,10 @@ url: /it/jasperreports/aspose-cells-for-jasperreports-v1-0-0-0-release-notes/
 
  Cosa c'è di nuovo:
 
- Fornire grafici modificabili in formato Microsoft Excel anziché immagini statiche.
+ l Fornire grafici modificabili in formato Excel Microsoft anziché immagini statiche.
 
  l Supporto per integrare Aspose.Cells for JasperReports a JasperServer.
 
- l Eliminare la dipendenza della libreria POI.
+ Eliminare la dipendenza della libreria POI.
 
  l Supporta vari tipi di grafici, tra cui grafico a barre, grafico ad area, grafico a torta, grafico a linee ecc.

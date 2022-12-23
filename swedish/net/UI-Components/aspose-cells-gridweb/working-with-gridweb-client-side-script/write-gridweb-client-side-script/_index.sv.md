@@ -65,7 +65,7 @@ Aspose.Cells.GridWeb exponerar också funktioner speciellt för klient-side scri
 För att skapa ett testprogram som innehåller skript på klientsidan som fungerar med Aspose.Cells.GridWeb, följ stegen nedan:
 
 1. Skapa JavaScript-funktioner som ska anropas av GridWeb.
- Dessa funktioner kommer att läggas till på ASP.NET-sidorna<script></script>märka.
+ Dessa funktioner kommer att läggas till på ASP.NET-sidorna<script></script> märka.
 1. Tilldela namnen på funktionerna till egenskaperna OnSubmitClientFunction och OnValidationErrorClientFunction.
 
 Utdata från kodexemplet visas nedan:

@@ -6,7 +6,7 @@ url: /ru/net/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells экспортирует сценарии фреймов и свойства документа при преобразовании книги в HTML. В версии 8.6.0 Aspose.Cells for .NET появилась опция, позволяющая отключить экспорт сценариев фреймов и свойств документа. Используйте свойство HtmlSaveOptions.ExportFrameScriptsAndProperties, чтобы отключить экспорт.
+Aspose.Cells экспортирует сценарии фреймов и свойства документа при преобразовании рабочей книги в HTML. Версия 8.6.0 Aspose.Cells for .NET представляет параметр, который позволяет при необходимости отключить экспорт сценариев фреймов и свойств документа. Используйте свойство HtmlSaveOptions.ExportFrameScriptsAndProperties, чтобы отключить экспорт.
 
 {{% /alert %}}
 

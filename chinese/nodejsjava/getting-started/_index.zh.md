@@ -103,7 +103,7 @@ console.log("hello world");
 {{< /highlight >}}
 
 - 现在运行“node hello.js”@命令提示符来运行它。
-### **苹果电脑：**
+### **苹果：**
 - 下载并安装 Node.js ([*https://nodejs.org/en/download/*](https://nodejs.org/en/download/))
 - 安装Oracle JDK 1.8（推荐）for Mac，配置JAVA_HOME环境变量。
 - 调整<key>JVM能力</key>“/Library/Java/JavaVirtualMachines/jdk1.8.0 中的部分_152.jdk/Contents/Info.plist”具有root权限。（“jdk1.8.0_152.jdk" 取决于您的 jdk 版本），使其看起来如下所示：

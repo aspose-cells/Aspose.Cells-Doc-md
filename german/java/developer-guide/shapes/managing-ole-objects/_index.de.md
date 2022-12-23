@@ -25,7 +25,7 @@ Das folgende Beispiel zeigt, wie Sie einem Arbeitsblatt ein OLE-Objekt hinzufüg
 
 Das folgende Beispiel zeigt, wie OLE-Objekte in einer Arbeitsmappe extrahiert werden. Das Beispiel ruft verschiedene OLE-Objekte aus einer vorhandenen XLS-Datei ab und speichert verschiedene Dateien (DOC, XLS, PPT, PDF usw.) basierend auf dem Dateiformattyp des OLE-Objekts.
 
-Hier ist der Screenshot der XLS-Vorlagendatei, sie hat verschiedene OLE-Objekte, die in das erste Arbeitsblatt eingebettet sind.
+Hier ist der Screenshot der Vorlagendatei XLS, sie hat verschiedene OLE-Objekte, die in das erste Arbeitsblatt eingebettet sind.
 
 **Die Vorlagendatei enthält vier OLE-Objekte** 
 

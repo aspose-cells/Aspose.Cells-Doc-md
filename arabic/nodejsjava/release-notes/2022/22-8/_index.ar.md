@@ -22,14 +22,14 @@ url: /ar/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 |CELLSJAVA-44773|يتم إفساد البيانات عند فتح مستند Excel بأعمدة مخفية في GridWeb (Java)|
 |CELLSJAVA-44781|التحقيق في مشكلة تغيير حجم الصف عند تغيير الحجم إلى ارتفاع صغير جدًا|
 |CELLSJAVA-44787|تم فقد الحد السفلي في الصف الأخير في المصنف|
-|CELLSJAVA-44761|الاستخدام المفرط للذاكرة عند تحويل ملف Excel إلى HTML|
-|CELLSJAVA-44801|تحويل Excel إلى PDF باستخدام Aspose.Cells for Java v22.7 يؤدي إلى أحرف مشوشة|
+|CELLSJAVA-44761|استخدام مفرط للذاكرة عند تحويل ملف Excel إلى HTML|
+|CELLSJAVA-44801|تحويل Excel إلى PDF باستخدام Aspose.Cells for Java v22.7 يتسبب في أحرف مشوشة|
 |CELLSJAVA-44741|فاصل الأسطر غير صحيح في الإخراج xlsx بعد تعيين سلسلة html في الخلية|
 |CELLSJAVA-44776|فقد تصميم صف رأس الجدول عند نسخ الورقة|
 |CELLSJAVA-44789|مشكلة تتعلق باستبدال سلسلة الأحرف لمربع نص تم وضعه في جدول بيانات Excel|
-|CELLSJAVA-44792| حفظ مصنف لا نهائي بتنسيق HTML (2892)|
+|CELLSJAVA-44792| مصنف حفظ لا نهاية له بتنسيق HTML (2892)|
 |CELLSJAVA-44763|استثناء "java.lang.IllegalArgumentException: لا يمكن تحليل رقم الوسيطة: 1: X8" عند تحميل ملف Excel باستخدام "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|خطأ عند الحفظ بتنسيق PDF - التحقيق مطلوب|
+|CELLSJAVA-44774|خطأ عند الحفظ كـ PDF - التحقيق مطلوب|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 

@@ -14,7 +14,7 @@ För att klara dina förväntningar har vi en boolesk egenskap som heter "**Chec
 
 ## **Ställ in egenskapen DefaultFont för PdfSaveOptions/ImageOrPrintOptions**
 
- Följande exempelkod öppnar en Excel-fil. A1-cellen (i det första kalkylbladet) har en text inställd på "Christmas Time Font text". Teckensnittsnamnet är "Christmas Time Personal Use" som inte är installerat på maskinen. Vi sätter***DefaultFont*** attribut av**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**/**[ImageOrPrintOptions](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)** till "Times New Roman". Vi ställer också in**CheckWorkbookDefaultFont** boolesk egendom till**"falsk"** vilket säkerställer att texten i A1-cellen renderas med typsnittet "Times New Roman" och inte bör använda standardteckensnittet i arbetsboken ("Calibri" i det här fallet). Koden återger det första kalkylbladet till PNG- och TIFF-bildformat. Den renderas äntligen till ett PDF-filformat.
+ Följande exempelkod öppnar en Excel-fil. A1-cellen (i det första kalkylbladet) har en text inställd på "Christmas Time Font text". Teckensnittsnamnet är "Christmas Time Personal Use" som inte är installerat på maskinen. Vi sätter***DefaultFont*** attribut av**[PdfSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions)**/**[ImageOrPrintOptions](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)** till "Times New Roman". Vi ställer också in**CheckWorkbookDefaultFont** boolesk egendom till**"falsk"** vilket säkerställer att texten i A1-cellen renderas med typsnittet "Times New Roman" och inte bör använda standardteckensnittet i arbetsboken ("Calibri" i det här fallet). Koden återger det första kalkylbladet till bildformaten PNG och TIFF. Den renderas äntligen till ett PDF filformat.
 
 {{% alert color="primary" %}}
 
@@ -26,7 +26,7 @@ För att klara dina förväntningar har vi en boolesk egenskap som heter "**Chec
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Detta är den utgående PNG-bilden efter att ha ställt in**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)**egendom till "Times New Roman".
+Detta är utgångsbilden PNG efter att ha ställt in**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/defaultfont/)**egendom till "Times New Roman".
 
 ![todo:image_alt_text](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 

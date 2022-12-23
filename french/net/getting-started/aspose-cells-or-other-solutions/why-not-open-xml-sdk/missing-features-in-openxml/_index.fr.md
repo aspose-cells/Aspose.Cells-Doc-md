@@ -33,7 +33,7 @@ Cette section comprend les rubriques suivantes
   - [Convertir des graphiques en images](/cells/fr/net/convert-charts-to-images/)
   - [Imprimer des feuilles de calcul](/cells/fr/net/print-spreadsheets/)
   - [Spécifiez la résolution, la qualité, la compression et d'autres options de l'image](/cells/fr/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Enregistrer le classeur au format texte ou CSV en utilisant Aspose.Cells](/cells/fr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Enregistrer le classeur au format texte ou CSV à l'aide de Aspose.Cells](/cells/fr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Définir les liens externes dans les formules dans Aspose.Cells](/cells/fr/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Définition du mode de calcul de formule du classeur dans Aspose.Cells](/cells/fr/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Définition de la formule partagée dans Aspose.Cells](/cells/fr/net/setting-shared-formula-in-aspose-cells/)

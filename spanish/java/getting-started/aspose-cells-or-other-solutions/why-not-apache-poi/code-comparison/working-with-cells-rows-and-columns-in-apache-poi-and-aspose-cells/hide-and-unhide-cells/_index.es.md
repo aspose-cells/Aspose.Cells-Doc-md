@@ -5,7 +5,7 @@ weight: 30
 url: /es/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells - Ocultar y mostrar filas y columnas**
-Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , que representa un archivo de Excel Microsoft. La clase Workbook contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. La clase Worksheet proporciona una colección Cells que representa todas las celdas de la hoja de trabajo. La colección Cells proporciona varios métodos para administrar filas o columnas en una hoja de cálculo.
+Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. La clase Workbook contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. La clase Worksheet proporciona una colección Cells que representa todas las celdas de la hoja de trabajo. La colección Cells proporciona varios métodos para administrar filas o columnas en una hoja de trabajo.
 
 **Java**
 

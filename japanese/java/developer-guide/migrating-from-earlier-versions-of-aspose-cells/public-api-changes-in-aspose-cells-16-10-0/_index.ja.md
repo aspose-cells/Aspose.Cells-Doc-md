@@ -18,7 +18,7 @@ Aspose.Cells 16.10.0 は、Shape オブジェクトの反射効果を制御す�
 - ReflectionEffect.Distance: 反射の距離をポイント単位で取得/設定します。
 - ReflectionEffect.FadeDirection: 反射をオフセットする方向を取得または設定します。
 - ReflectionEffect.RotWithShape: 反射が形状と共に回転するかどうかを取得/設定します。
-- ReflectionEffect.Size: 終了アルファ値の終了位置 (アルファ グラディエント ランプに沿った) をパーセンテージ単位で取得または設定します。
+- ReflectionEffect.Size: 終了アルファ値の終了位置 (アルファ グラディエント ランプに沿った) をパーセンテージ単位で取得/設定します。
 - ReflectionEffect.Transparency: 開始時の反射の透明度を 0.0 (不透明) から 1.0 (クリア) の値として取得/設定します。
 - ReflectionEffect.Type: プリセットの反射効果を取得/設定します。
 
@@ -73,7 +73,7 @@ Aspose.Cells 16.10.0 は、ShadowEffect クラスと共に Shape.ShadowEffect �
 - ShadowEffect.Angle: 0 ～ 359.9 度の照明角度を取得/設定します。
 - ShadowEffect.Blur: 0 ～ 100 ポイントの範囲の影のぼかしを取得および設定します。
 - ShadowEffect.Color: 影の色を取得/設定します。
-- ShadowEffect.Distance: 影の距離を 0 ～ 200 ポイントの範囲で取得/設定します。
+- ShadowEffect.Distance: 影の距離を 0 ～ 200 ポイントの範囲で取得または設定します。
 - ShadowEffect.PresetType: シャドウのプリセット シャドウ タイプを取得/設定します。
 - ShadowEffect.Size: 影のサイズを 0 から 2.0 の範囲で取得/設定します。内側の影の場合は意味がありません。
 - ShadowEffect.Transparency: 影の透明度を 0.0 (不透明) から 1.0 (透明) の範囲で取得/設定します。

@@ -13,7 +13,7 @@ url: /tr/java/aspose-cells-for-java-20-4-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43153|Şelale grafiği açıklamasını MS Excel'e benzer şekilde Türkçe olarak görüntüleyin|Artırma|
-|CELLSJAVA-43142|Excel'den HTML'ye dönüştürme - bazı hücreler dönüştürmeden sonra hizalanmaz|Böcek|
+|CELLSJAVA-43142|Excel'den HTML'e dönüştürme - bazı hücreler dönüştürmeden sonra hizalanmaz|Böcek|
 |CELLSJAVA-43155|Döndürülen metin, HTML olarak işlendiğinde hücrenin dışında ayarlanır|Böcek|
 |CELLSJAVA-43161|Denklemin yanlış oluşturulması|Böcek|
 |CELLSJAVA-43130|Şelale grafiği şeffaflık sorunu|Böcek|
@@ -33,8 +33,8 @@ Bunun yerine ChartTextFrame.ReadingOrder özelliğini kullanın.
 ### **Düzeltmelerin geliştirilmiş özelliği için sınıflar ekler.**
 Revizyon bilgilerini alır.
 ### **TxtSaveOptions.TrimLeadingBlankRowAndColumn özelliğinin varsayılan değerini değiştirir.**
-CSV'yi kaydetmenin varsayılan davranışını ms excel ile aynı yapmak için, bu özelliğin varsayılan değerini ve davranışını değiştirdik. Eski sürümler için varsayılan değeri "yanlış" idi. 20.4'ten itibaren varsayılan değeri "true" olur.
-### **CSV'yi kaydetmek için boş satırları/sütunları algılama davranışını değiştirir.**
+CSV kaydetme varsayılan davranışını ms excel ile aynı yapmak için, bu özelliğin varsayılan değerini ve davranışını değiştirdik. Eski sürümler için varsayılan değeri "yanlış" idi. 20.4'ten itibaren varsayılan değeri "true" olur.
+### **CSV'i kaydetmek için boş satırları/sütunları algılama davranışını değiştirir.**
 Eski sürümler için, veri içermeyen ancak özel ayarları (görünürlük, biçimlendirme, ...vb.) olan satırları/sütunları boş olarak aldık. 20.4'ten itibaren artık onları boş kabul etmiyoruz, yeni davranış ms excel ile aynı.
 ### **TxtSaveOptions.ExportArea özelliğini ekler.**
 Dışa aktarılacak hücre verilerinin aralığını belirtir. Kullanıcılar, TxtSaveOptions.TrimLeadingBlankRowAndColumn ve boş satırların/sütunların değişen davranışı için eski sürümlerle aynı sonucu elde etmek için bu seçeneği kullanabilir.

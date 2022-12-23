@@ -10,6 +10,6 @@ Aspose.Cells apoya el*DBnum*formato de patrón personalizado. Por ejemplo, si el
 
 ## **Código de muestra**
 
- El siguiente código de ejemplo ilustra cómo especificar*DBnum*formato de patrón personalizado. Por favor revise su[PDF de salida](43352082.pdf) para obtener más ayuda.
+ El siguiente código de ejemplo ilustra cómo especificar*DBnum*formato de patrón personalizado. Por favor revise su[salida PDF](43352082.pdf) para obtener más ayuda.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}

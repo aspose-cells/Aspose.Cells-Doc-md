@@ -5,7 +5,7 @@ weight: 20
 url: /es/python-java/convert-excel-to-image/
 ---
 ## **Convertir Excel a imagen**
-Aspose.Cells for Python via Java admite la conversión de archivos de Excel a diferentes formas de imágenes. Para esto, el API proporciona el[HojaRenderizar](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)y[ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions) clases Esta clase representa la hoja de trabajo que se representará en una imagen. los[HojaRenderizar](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)la clase proporciona la[a la imagen()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) para convertir una hoja de cálculo en un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
+Aspose.Cells for Python via Java admite la conversión de archivos de Excel a diferentes formas de imágenes. Para esto, el API proporciona el[HojaRenderizar](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)y[ImageOrPrintOptions](https://reference.aspose.com/cells/python/asposecells.api/ImageOrPrintOptions) clases Esta clase representa la hoja de trabajo que se representará en una imagen. Él[HojaRenderizar](https://reference.aspose.com/cells/python/asposecells.api/SheetRender)la clase proporciona la[a la imagen()](https://reference.aspose.com/cells/python/asposecells.api/sheetrender#toImage\(int,%20java.lang.String\)) para convertir una hoja de cálculo en un archivo de imagen. Se admiten los formatos BMP, PNG, JPEG, TIFF y EMF.
 
 El siguiente fragmento de código muestra cómo convertir una hoja de cálculo de Excel en una imagen PNG.
 

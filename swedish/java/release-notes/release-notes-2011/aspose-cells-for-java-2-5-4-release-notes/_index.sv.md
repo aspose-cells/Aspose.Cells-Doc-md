@@ -17,7 +17,7 @@ url: /sv/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26627 - Ställ in axelegenskaper, såsom Max/Min värde som "Automatisk"
 
- 26655 - Exportera animerade GIF-bilder för HTML-fil
+ 26655 - Exportera animerade GIF bilder för HTML fil
 
  26607 - Stöd för att beräkna EOMONTH-funktionen
 ### **Förbättringar**
@@ -31,19 +31,19 @@ url: /sv/java/aspose-cells-for-java-2-5-4-release-notes/
 ### **Prestanda**
  27041 - Att läsa ODS-filer orsakar minnesproblem
 ### **Undantag**
- 26710 - Få ett undantag när du läser formulärkontroller från XLSX-fil
+ 26710 - Få ett undantag när du läser formulärkontroller från XLSX-filen
 
  27128 - Hantera "NumberFormatException" när du läser ODS-fil vars radindex för delad ruta överskrider gränsen för Short
 
-27578 - Ett undantag "IllegalArgumentException" inträffade vid läsning av ODS-filer vars kolumnbreddsdefinition överskrider Excel-filens gräns
+27578 - Ett undantag "IllegalArgumentException" inträffade vid läsning av ODS filer vars kolumnbreddsdefinition överskrider Excel-filens gräns
 
- 27773 - Klara av "ArrayIndexOutOfBoundsException" när du läser hyperlänkar från ODS-fil
+ 27773 - Klara av "ArrayIndexOutOfBoundsException" när du läser hyperlänkar från ODS-filen
 
- 27780 - Få "NumberFormatException" när du renderar PDF-fil
+ 27780 - Hämta "NumberFormatException" när du renderar filen PDF
 ### **Buggar**
  26563 - Problem med axelskala i diagram-till-bild-funktionen
 
- 27793 - Border stil förlorade när XLS-fil sparades på nytt
+ 27793 - Gränsstil förlorades när XLS-filen sparades på nytt
 
  26610 - Beräkna JÄMN, UDDA, RUNDA UPP/ROUND NED-funktioner
 
@@ -59,7 +59,7 @@ url: /sv/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26600 - Återge exploderat cirkeldiagram för diagram-till-bild-funktionen
 
- 27754 - Genererad HTML-fil ger problemet "Filen hittades inte...".
+ 27754 - Genererad HTML fil producerar "File not found..." problem
 
 26599 - Problem med att rendera rutnätslinjer för diagram-till-bild-funktionen
 
@@ -77,7 +77,7 @@ url: /sv/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26561 - Problem med högerjustering av stora tal för ark-till-bild-funktionen
 
- 27792 - Spara anpassat datumformat i ODS-fil
+ 27792 - Spara anpassat datumformat i filen ODS
 
  27445 - Problem med axelskala i diagram-till-bild-funktionen
 

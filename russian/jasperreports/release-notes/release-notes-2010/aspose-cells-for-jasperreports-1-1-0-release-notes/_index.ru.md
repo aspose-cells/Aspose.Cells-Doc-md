@@ -10,7 +10,7 @@ url: /ru/jasperreports/aspose-cells-for-jasperreports-1-1-0-release-notes/
 
 {{% /alert %}} 
 
-Мы рады объявить Aspose.Cells for JasperReports v1.1.0 для пользователей!Что нового:
+Мы рады объявить Aspose.Cells for JasperReports v1.1.0 для пользователей! Что нового:
 
 - Поддерживает форматы Microsoft Excel 97–2003 и Microsoft Excel 2007. Более подробную информацию можно найти в документе «Параметры конфигурации» в документации по продукту.
 - Исправлено несколько ошибок расчета размера элемента отчета.

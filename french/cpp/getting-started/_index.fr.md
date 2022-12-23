@@ -15,11 +15,11 @@ Cette page vous montrera comment installer Aspose Cells for C++ et créer une ap
 
 ### **Installez Aspose Cells à NuGet**
 
-NuGet est le moyen le plus simple de télécharger et d'installer Aspose.Cells for C++.
+ NuGet est le moyen le plus simple de télécharger et d'installer Aspose.Cells for C++.
 1. Créez un projet Visual Studio Microsoft for C++.
 2. Inclure le fichier d'en-tête "Aspose.Cells.h".
 3. Ouvrez Microsoft Visual Studio et le gestionnaire de packages NuGet.
- 4. Recherchez "aspose.cells.cpp" pour trouver le Aspose.Cells for C++ souhaité.
+4. Recherchez "aspose.cells.cpp" pour trouver le Aspose.Cells for C++ souhaité.
 5. Cliquez sur "Installer", Aspose.Cells for C++ sera téléchargé et référencé dans votre projet.
 
 **![Installer Aspose Cells à NuGet](InstallThroughNuget.png)**
@@ -53,7 +53,7 @@ NuGet est le moyen le plus simple de télécharger et d'installer Aspose.Cells f
 
 Les étapes ci-dessous créent l'application Hello World en utilisant le Aspose.Cells API :
 
-1.  Créer une instance de[Cahier](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) classer.
+1.  Créer une instance de[Cahier](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) classe.
 1.  Si vous avez une licence, alors[appliquez-le](/cells/fr/cpp/licensing/).
  Si vous utilisez la version d'évaluation, ignorez les lignes de code liées à la licence.
 1. Accédez à n'importe quelle cellule souhaitée d'une feuille de calcul dans le fichier Excel.

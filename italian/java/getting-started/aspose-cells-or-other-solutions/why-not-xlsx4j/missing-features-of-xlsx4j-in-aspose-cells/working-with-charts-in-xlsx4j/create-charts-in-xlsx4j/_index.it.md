@@ -7,7 +7,7 @@ url: /it/java/create-charts-in-xlsx4j/
 ## **Aspose.Cells - Crea Grafici**
 È possibile aggiungere una varietà di grafici ai fogli di calcolo con Aspose.Cells. Aspose.Cells fornisce molti oggetti grafici flessibili.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

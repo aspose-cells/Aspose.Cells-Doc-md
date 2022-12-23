@@ -12,12 +12,12 @@ Microsoft Visual Studio es un entorno de desarrollo integrado (IDE) de Microsoft
 
 Aspose.Cells for .NET proporciona el grupo de componentes más flexible que permite que las aplicaciones .NET creen, modifiquen, conviertan, representen e impriman hojas de cálculo de Excel® sin necesidad de que Microsoft Excel® esté instalado en el servidor.
 
-Aspose.Cells for .NET admite todos los principales Microsoft Excel y otros formatos de archivo, incluidos XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, delimitado por tabuladores, SpreadsheetML y PDF, etc.
+Aspose.Cells for .NET admite todos los principales Microsoft Excel y otros formatos de archivo, incluyendo XLS, XLSX, XLSM, XLTX/XLTM, HTML, 0761934481, 076111111111111 años, 0761111111111111111 años, 0761111111111111111 años.
  Para más detalles sobre[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Explore Aspose.Cells for .NET Ejemplos con Visual Studio**
 
- Aspose Complemento de Visual Studio -**Explorar Aspose.Cells for .NET Ejemplos** es una gran herramienta para descargar y explorar rápidamente Aspose.Cells for .NET API ejemplos. Ahorra mucho tiempo y esfuerzo al proporcionar una opción muy simple para seleccionar, descargar y abrir sin problemas los últimos proyectos de ejemplo sin tener que salir de Visual Studio.
+Aspose Complemento de Visual Studio -**Explorar Aspose.Cells for .NET Ejemplos** es una gran herramienta para descargar y explorar rápidamente Aspose.Cells for .NET API ejemplos. Ahorra mucho tiempo y esfuerzo al proporcionar una opción muy simple para seleccionar, descargar y abrir sin problemas los últimos proyectos de ejemplo sin tener que salir de Visual Studio.
 
 Esta versión proporciona las siguientes características:
 
@@ -85,7 +85,7 @@ Una vez instalado, puede iniciar y usar fácilmente el complemento interactivo c
 
 ## **Apoyar, Extender y Contribuir**
 
-### **Apoyo**
+### **Soporte**
 
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
@@ -115,7 +115,7 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abierto**AsposeVisualStudioPlugin.sln**
 
 #### **Descripción general del código fuente**

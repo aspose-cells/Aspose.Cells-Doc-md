@@ -37,7 +37,7 @@ In genere, l'ordinamento viene eseguito su un elenco, definito come un gruppo co
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), le celle del foglio di lavoro.
 - [**CellArea**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), l'intervallo di celle. Definire l'area della cella prima di applicare l'ordinamento dei dati.
 
-Questo esempio mostra come ordinare i dati utilizzando l'API Aspose.Cells. L'esempio utilizza un file modello "Book1.xls" e ordina i dati per l'intervallo di dati (A1:B14) nel primo foglio di lavoro:
+Questo esempio mostra come ordinare i dati utilizzando Aspose.Cells API. L'esempio utilizza un file modello "Book1.xls" e ordina i dati per l'intervallo di dati (A1:B14) nel primo foglio di lavoro:
 
 Questo esempio utilizza il file modello "Book1.xls" creato in Microsoft Excel.
 
@@ -55,7 +55,7 @@ Dopo aver eseguito il codice seguente, i dati vengono ordinati in modo appropria
 
 {{% alert color="primary" %}}
 
- Ordinare*Da sinistra a destra* , utilizzare il[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight)attributo.
+ Ordinare*Da sinistra a destra* , Usa il[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#SortLeftToRight) attributo.
 
 {{% /alert %}}
 
@@ -69,7 +69,7 @@ Di seguito sono riportati i file di esempio che possono essere scaricati per tes
 
 [outputsampleBackGroundFile.xlsx](outputsampleBackGroundFile.xlsx)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-HTML-ExportPrintAreaToHtml-1.java" >}}
 

@@ -6,13 +6,13 @@ url: /tr/java/specify-the-language-of-the-excel-file-using-builtin-document-prop
 ---
 ## **Olası Kullanım Senaryoları**
 
-değiştirebilirsiniz*Dil*Dosyayı sağ tıklatarak ve ardından seçerek Excel dosyasının*Özellikler > Ayrıntılar*ve ardından düzenleme*Dil*alan. Lütfen kullan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Aspose.Cells API'leri kullanarak programlı olarak değiştirmek için özellik.
+değiştirebilirsiniz*Dil*Dosyayı sağ tıklatarak ve ardından seçerek Excel dosyasının*Özellikler > Ayrıntılar*ve ardından düzenleme*Dil*tarla. Lütfen kullan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Aspose.Cells API'leri kullanarak programlı olarak değiştirmek için özellik.
 
 ## **Yerleşik Belge Özelliklerini Kullanarak Excel Dosyasının Dilini Belirtin**
 
 Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve adlı yerleşik belge özelliğini değiştirir.*Dil*. Lütfen bkz[çıktı excel dosyası](outputSpecifyLanguageOfExcelFile.xlsx)değiştirileni gösteren kod ve ekran görüntüsü tarafından oluşturulur*Dil*tarafından alan[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)Emlak.
 
-![yapılacaklar:resim_alternatif_Metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Basit kod**
 

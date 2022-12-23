@@ -6,10 +6,10 @@ url: /it/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-
 ---
 Copia sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline in MS Excel
 
-Microsoft Excel consente di copiare un grafico sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline. Segui questi passaggi per copiare il tuo Sparkline in altre celle.
+Microsoft Excel consente di copiare uno sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline. Segui questi passaggi per copiare il tuo Sparkline in altre celle.
 
 - Seleziona la cella contenente il tuo Sparkline.
--  Selezionare**Modifica dati** dal**Scintilla** sezione all'interno del**Disegno** scheda
+-  Selezionare**Modifica dati** dal**Scintilla** sezione all'interno del**Design** scheda
 -  Scegliere**Modifica posizione e dati del gruppo...**
 - Specificare l'intervallo di dati e la posizione e fare clic su OK.
 
@@ -27,7 +27,7 @@ Lo screenshot seguente mostra il file Excel di output generato dal codice di ese
 
 ![cose da fare:immagine_alt_testo](copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group_2.png)
 
-### Codice Java per copiare sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline
+### Java codice per copiare il grafico sparkline specificando l'intervallo di dati e la posizione del gruppo sparkline
 
 Il seguente codice di esempio carica il file Excel di origine come mostrato nello screenshot precedente, quindi accede al primo gruppo sparkline e aggiunge intervalli di dati e posizioni all'interno del gruppo sparkline. Infine, scrive il file Excel di output su disco, mostrato anche nello screenshot qui sopra.
 

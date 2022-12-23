@@ -10,13 +10,13 @@ url: /it/net/aspose-cells-for-net-17-10-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45695|Imposta il formato numerico per le celle nella tabella dati del grafico|Nuova caratteristica|
 |CELLSNET-45666|Ottieni il campo SheetId del foglio di lavoro di Excel|Nuova caratteristica|
-|CELLSNET-45664|Lettura e scrittura Collegamento esterno di file XLSB|Nuova caratteristica|
+|CELLSNET-45664|Lettura e scrittura Collegamento esterno del file XLSB|Nuova caratteristica|
 |CELLSNET-45660|Rendering da foglio a immagine - Problema di allineamento per i caratteri asiatici|Aumento|
-|CELLSNET-45408|Il valore scompare o cambia colore durante la conversione in PDF|Insetto|
+|CELLSNET-45408|Il valore scompare o cambia colore quando viene convertito in PDF|Insetto|
 |CELLSNET-45696|L'affettatrice non si sposta verso il basso nel foglio durante l'inserimento delle righe|Insetto|
 |CELLSNET-45675|Errore nel calcolo delle formule (che coinvolgono "SUMPRODUCT" e "TRASPOSE")|Insetto|
 |CELLSNET-45651|Le dimensioni della casella di testo cambiano quando si utilizza il carattere cinese nella cartella di lavoro nel rendering in PDF|Insetto|
@@ -27,10 +27,10 @@ url: /it/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45700|Riquadro del componente aggiuntivo MS Excel 2016 rimosso dal file dopo l'apertura/salvataggio di Aspose.Cells|Insetto|
 |CELLSNET-45693|Il foglio di lavoro non è più protetto nel file di output nella conversione da SpreadsheetML a XLSX|Insetto|
 |CELLSNET-45691|Il documento è danneggiato durante il nuovo salvataggio|Insetto|
-|CELLSNET-45690|Gli stili sembrano essere trasferiti in modo errato per alcune celle: conversione da SpreadsheetML a XLSX|Insetto|
+|CELLSNET-45690|Gli stili sembrano essere riportati erroneamente per alcune celle - conversione da SpreadsheetML a XLSX|Insetto|
 |CELLSNET-45688|La colonna della data non è ordinata correttamente|Insetto|
 |CELLSNET-45687|Le proprietà di protezione dei fogli di lavoro non vengono trasferite da SpreadsheetML|Insetto|
-|CELLSNET-45683|L'elemento SpreadsheetML AllowSort non funziona nell'output XLSX|Insetto|
+|CELLSNET-45683|SpreadsheetML L'elemento AllowSort non funziona nell'output XLSX|Insetto|
 |CELLSNET-45682|MS Excel richiede un messaggio di errore "Excel ha trovato contenuto illeggibile..."|Insetto|
 |CELLSNET-45676|Il documento è danneggiato durante il nuovo salvataggio a causa dello spazio di non interruzione nel nome del foglio di lavoro|Insetto|
 |CELLSNET-45673|Stile di allineamento applicato a SpredsheetML|Insetto|
@@ -40,8 +40,8 @@ url: /it/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45645|L'eccezione si verifica all'apertura di BUDGET RH 3_0.xlsm in GridWeb|Insetto|
 |CELLSNET-45657|La stringa di input non era in un formato corretto - Eccezione sul metodo Pivot.CalculateData()|Eccezione|
 |CELLSNET-45703|Eccezione durante la conversione del file XLSM nel formato file XLS|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo AbstractCalculationMonitor.Interrupt(string).**
 Consente agli utenti di interrompere l'avanzamento dei calcoli delle formule.
 #### **Aggiunge l'enumerazione HtmlCrossType.MSExport**
@@ -65,4 +65,4 @@ Si prega di controllare l'elenco degli argomenti della guida aggiunti nei docume
 - [Utilizza la proprietà Sheet.SheetId di OpenXml utilizzando Aspose.Cells](/cells/it/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Leggere e scrivere la connessione esterna del file XLSB](/cells/it/net/read-and-write-external-connection-of-xls-and-xlsb-files/)
 - [Interrompere o annullare il calcolo della formula della cartella di lavoro](/cells/it/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [Specificare come incrociare la stringa nell'HTML di output utilizzando HtmlCrossType](/cells/it/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+- [Specificare come incrociare la stringa nell'output HTML usando HtmlCrossType](/cells/it/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

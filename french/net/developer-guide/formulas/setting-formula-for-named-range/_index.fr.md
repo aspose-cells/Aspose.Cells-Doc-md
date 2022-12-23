@@ -5,7 +5,7 @@ weight: 20
 url: /fr/net/setting-formula-for-named-range/
 ---
 ## **Définition de la formule pour la plage nommée**
- Comme l'application Excel, les API Aspose.Cells offrent la possibilité de spécifier une formule pour une plage nommée tout en utilisant son[Fait référence à](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto)propriété. Il peut y avoir de nombreux scénarios d'utilisation pour cette fonctionnalité, dont quelques-uns sont détaillés ci-dessous.
+ Comme l'application Excel, les API Aspose.Cells offrent la possibilité de spécifier une formule pour une plage nommée tout en utilisant son[Fait référence à](https://reference.aspose.com/cells/net/aspose.cells/range/properties/refersto)la propriété. Il peut y avoir de nombreux scénarios d'utilisation pour cette fonctionnalité, dont quelques-uns sont détaillés ci-dessous.
 ### **Définition d'une formule simple pour une plage nommée**
 Une formule simple peut être une référence à une autre cellule dans la même feuille de calcul (ou différente). L'exemple suivant crée une plage nommée dans une nouvelle feuille de calcul et définit sa référence à une autre cellule.
 

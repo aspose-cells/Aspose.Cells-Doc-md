@@ -21,26 +21,26 @@ url: /zh/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46686|支持以空格（char code 20）作为法语的数字组分隔符|强化|
 |CELLSNET-46649|与在线工具 iLovePDF 相比生成的大 PDF|强化|
 |CELLSNET-46093|图表不支持黑白页面设置|强化|
-|CELLSNET-46677|将 Excel 导出为 PDF 不会在图表中精确呈现阿拉伯文本|强化|
+|CELLSNET-46677|将 Excel 导出到 PDF 不会在图表中精确呈现阿拉伯文本|强化|
 |CELLSNET-46639|支持 ODS 文件的垂直分页符。|强化|
 |CELLSNET-46631|渲染时出现异常 OutOfMemoryException|表现|
 |CELLSNET-46596|形状中缺少标签|漏洞|
 |CELLSNET-46615|Shape.ToImage() 导出不同大小的图像|漏洞|
-|CELLSNET-46637|生成的 HTML 中的格式错误|漏洞|
+|CELLSNET-46637|生成的格式错误 HTML|漏洞|
 |CELLSNET-46650|PivotTable.ShowValuesRow 未以编程方式设置为 false|漏洞|
 |CELLSNET-46652|数据透视表切片器在加载和保存后被删除|漏洞|
 |CELLSNET-46678|PivotField.IsRepeatItemLabels 未在输出 XLSB 中维护|漏洞|
 |CELLSNET-46671|Range.CopyData 损坏工作簿后的 Range.Copy|漏洞|
-|CELLSNET-42423|保存为 PDF 会修剪行数据|漏洞|
-|CELLSNET-45698|Worksheet.AutoFitColumns 方法在呈现为 PDF 时切断长文本|漏洞|
-|CELLSNET-46661|与 Excel 365 相比，PDF 中呈现的页面数量更少|漏洞|
+|CELLSNET-42423|保存到 PDF 修剪行数据|漏洞|
+|CELLSNET-45698|Worksheet.AutoFitColumns 方法在渲染到 PDF 时切断了长文本|漏洞|
+|CELLSNET-46661|与 Excel 365 相比，PDF 中呈现的页面数量较少|漏洞|
 |CELLSNET-46673|将 Excel 转换为 PDF 时的文件大小问题|漏洞|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue 未按预期工作|漏洞|
 |CELLSNET-46655|使用 RefreshChartCache = true 保存时，多级类别轴标签丢失|漏洞|
 |CELLSNET-46665|在 Surface 图表上调用 NSeries.Clear() 后 Excel 文件损坏|漏洞|
 |CELLSNET-46672|将图表导出到图像时缺少系列数据|漏洞|
 |CELLSNET-46627|数据透视图指向的问题|漏洞|
-|CELLSNET-46640|保存 ODS 文件时，如果行为空，则水平分页符丢失|漏洞|
+|CELLSNET-46640|ODS 文件保存时若行为空则水平分页符丢失|漏洞|
 |CELLSNET-46643|复制列时不复制命名范围|漏洞|
 |CELLSNET-46644|HeadingPairs 和 TitlesOfParts 标签丢失|漏洞|
 |CELLSNET-46651|打开和保存时 Excel 文件损坏|漏洞|
@@ -48,8 +48,8 @@ url: /zh/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46662|获取 BuiltInDocumentProperties 时出现问题|漏洞|
 |CELLSNET-46663|将 XLS 转换为 PDF 时图像大小发生变化|漏洞|
 |CELLSNET-46667|当 PlotVisibleRows = true 时获取隐藏行|漏洞|
-|CELLSNET-46668|当 XLSX 另存为 ODS 时虚线变为实线|漏洞|
-|CELLSNET-46669|将 Excel 文件渲染为 PDF 时出现形状到图像错误|例外|
+|CELLSNET-46668|XLSX另存为ODS时虚线变为实线|漏洞|
+|CELLSNET-46669|将 Excel 文件渲染到 PDF 时形状到图像出错|例外|
 |CELLSNET-46645|调用 PivotTable.GetChildrens() 时引发异常|例外|
 |CELLSNET-46675|打开 XLSX 文件时出现异常|例外|
 |CELLSNET-46646|更新图表后打开 Excel 文件引发的异常|例外|

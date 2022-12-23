@@ -11,9 +11,9 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 {{% /alert %}} 
 ## **Trabajar con filas**
 ### **Ajuste de altura de fila**
- Aspose.Cells proporciona una clase,[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) que representa un archivo de Excel Microsoft. los[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la clase contiene un[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase. los[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la clase proporciona un[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección que representa todas las celdas de la hoja de cálculo. los[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)colección proporciona varios métodos para administrar filas o columnas en una hoja de cálculo. Algunos de estos se discuten a continuación con más detalle.
+ Aspose.Cells proporciona una clase,[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) que representa un archivo de Excel Microsoft. Él[ILibro de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la clase contiene un[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) clase. Él[IHoja de trabajo](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la clase proporciona un[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección que representa todas las celdas de la hoja de trabajo. Él[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)colección proporciona varios métodos para administrar filas o columnas en una hoja de trabajo. Algunos de estos se discuten a continuación con más detalle.
 #### **Establecer la altura de una fila**
- Es posible establecer la altura de una sola fila llamando al[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección[EstablecerRowHeight](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a7aa441877e03639232299627261a7d1f) método. los[EstablecerRowHeight](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a7aa441877e03639232299627261a7d1f)El método toma los siguientes parámetros de la siguiente manera:
+ Es posible establecer la altura de una sola fila llamando al[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección[EstablecerRowHeight](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a7aa441877e03639232299627261a7d1f) método. Él[EstablecerRowHeight](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a7aa441877e03639232299627261a7d1f)El método toma los siguientes parámetros de la siguiente manera:
 
 - **Índice de fila**, el índice de la fila cuya altura está cambiando.
 - **Altura de la fila**, el alto de fila que se aplicará en la fila.
@@ -23,7 +23,7 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfRow.cpp" >}}
 
 
-#### **Establecer la altura de todas las filas en una hoja de trabajo**
+#### **Establecer la altura de todas las filas en una hoja de cálculo**
  Si los desarrolladores necesitan establecer la misma altura de fila para todas las filas de la hoja de cálculo, pueden hacerlo mediante el[EstablecerAlturaEstándar](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#a0b79a3163e2b601aa1b6a6a1e3f1467f) metodo de la[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)recopilación.
 
 
@@ -31,7 +31,7 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-RowsAndColumns-AdjustingRowHeightAndColumnWidth-SettingHeightOfAllRowsInWorksheet.cpp" >}}
 ## **Trabajar con columnas**
 ### **Establecer el ancho de una columna**
- Establezca el ancho de una columna llamando al[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección[Establecer ancho de columna](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#ab1c6a4e89760d2a022d5bfba8bc40987) método. los[Establecer ancho de columna](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#ab1c6a4e89760d2a022d5bfba8bc40987)método toma los siguientes parámetros:
+ Establezca el ancho de una columna llamando al[ICélulas](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) colección[Establecer ancho de columna](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#ab1c6a4e89760d2a022d5bfba8bc40987) método. Él[Establecer ancho de columna](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#ab1c6a4e89760d2a022d5bfba8bc40987)método toma los siguientes parámetros:
 
 - **índice de columna**, el índice de la columna cuyo ancho está cambiando.
 - **Ancho de columna**, el ancho de columna deseado.

@@ -12,7 +12,7 @@ url: /es/net/resize-chart-s-data-label-shape-to-fit-text/
 
 ## **Cambiar el tamaño de la forma de la etiqueta de datos del gráfico para que se ajuste al texto en Microsoft Excel**
 
-Se puede acceder a esta opción en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haga clic con el botón derecho y seleccione el**Formatear etiquetas de datos** menú. En**Tamaño y propiedades** pestaña, expandir**Alineación** para revelar las propiedades relacionadas, incluida la**Cambiar el tamaño de la forma para corregir el texto** opción.
+Se puede acceder a esta opción en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haga clic con el botón derecho y seleccione el**Formatear etiquetas de datos** menú. Sobre**Tamaño y propiedades** pestaña, expandir**Alineación** para revelar las propiedades relacionadas, incluida la**Cambiar el tamaño de la forma para corregir el texto** opción.
 
 ## **Cambiar el tamaño de la forma de la etiqueta de datos del gráfico para que se ajuste al texto**
 

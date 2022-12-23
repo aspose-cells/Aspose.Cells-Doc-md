@@ -10,7 +10,7 @@ url: /zh/net/export-range-of-cells-in-a-worksheet-to-image/
 
 ## **将工作表中的 Cells 范围导出到图像**
 
-要拍摄某个范围的图像，请将打印区域设置为所需范围，然后将所有边距设置为 0。同时设置[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet)至**真的** .以下代码获取范围 D8:G16 的图像。下面是截图[示例 Excel 文件](47153160.xlsx)在代码中使用。您可以使用任何 Excel 文件试用该代码。
+要拍摄某个范围的图像，请将打印区域设置为所需范围，然后将所有边距设置为 0。同时设置[**ImageOrPrintOptions.OnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/onepagepersheet)到**真的** .以下代码获取范围 D8:G16 的图像。下面是截图[示例 Excel 文件](47153160.xlsx)在代码中使用。您可以使用任何 Excel 文件试用该代码。
 
 ## **示例 Excel 文件及其导出图像的屏幕截图**
 

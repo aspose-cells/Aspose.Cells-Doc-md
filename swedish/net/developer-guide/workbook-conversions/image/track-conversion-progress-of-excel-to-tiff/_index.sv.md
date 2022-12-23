@@ -10,7 +10,7 @@ url: /sv/net/track-conversion-progress-of-excel-to-tiff/
 
 ## **Spåra konverteringsförlopp för Excel till TIFF**
 
- Följande kodexempel laddar[källkod excel-fil](95584311.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback* anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**gränssnitt. Den genererade utdatafilen bifogas som referens.
+ Följande kodexempel laddar[source excel-fil](95584311.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback* anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**gränssnitt. Den genererade utdatafilen bifogas som referens.
 
 [Utdatafil](95584312.tiff)
 

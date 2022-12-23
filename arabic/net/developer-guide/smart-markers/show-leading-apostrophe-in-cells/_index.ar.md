@@ -4,7 +4,7 @@ type: docs
 weight: 70
 url: /ar/net/show-leading-apostrophe-in-cells/
 ---
- في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) منشأه. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[اقتباس](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) الملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
+ في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) خاصية. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[اقتباس](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[المصنف.الإعدادات](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/quoteprefixtostyle) ملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
 
 تُظهر لقطة الشاشة التالية ملف Excel الناتج مع الفاصلة العليا المرئية.
 

@@ -8,7 +8,7 @@ description: Este artículo describe cómo usar el filtro de carga para la bibli
 ## **Posibles escenarios de uso**
  Por favor use[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)propiedad al filtrar datos del libro de trabajo.
 
- los[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)enumeración tiene los siguientes valores.
+ Él[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)enumeración tiene los siguientes valores.
 - Todos
 - Configuración del libro
 - Celda en blanco
@@ -18,7 +18,7 @@ description: Este artículo describe cómo usar el filtro de carga para la bibli
 - CellNumeric
 - Cadena de celdas
 - valor de celda
-- Cuadro
+- Gráfico
 - Formato condicional
 - Validación de datos
 - Nombres definidos

@@ -29,7 +29,7 @@ Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/ne
 
 ### **Seitenumbrüche hinzufügen**
 
- Um einem Arbeitsblatt einen Seitenumbruch hinzuzufügen, fügen Sie vertikale und horizontale Seitenumbrüche an der angegebenen Zelle ein, indem Sie die aufrufen[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) und[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) Methoden. Jeder**Hinzufügen** Die Methode übernimmt den Namen der Zelle, in der der Umbruch hinzugefügt werden soll.
+ Um einem Arbeitsblatt einen Seitenumbruch hinzuzufügen, fügen Sie vertikale und horizontale Seitenumbrüche an der angegebenen Zelle ein, indem Sie die aufrufen[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) und[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) Methoden. Jeder**Addieren** Die Methode übernimmt den Namen der Zelle, in der der Umbruch hinzugefügt werden soll.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 

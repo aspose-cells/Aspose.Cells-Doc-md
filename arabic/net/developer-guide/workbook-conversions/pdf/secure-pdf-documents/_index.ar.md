@@ -1,5 +1,5 @@
 ﻿---
-title: مستندات PDF آمنة
+title: تأمين وثائق PDF
 type: docs
 weight: 120
 url: /ar/net/secure-pdf-documents/
@@ -8,7 +8,7 @@ url: /ar/net/secure-pdf-documents/
 
 في بعض الأحيان ، يحتاج المطورون إلى العمل مع ملفات PDF المشفرة. على سبيل المثال ، يحتاجون إلى تأمين المستندات بكلمات مرور المستخدم والمالك بحيث لا يمكن لأي شخص فتحها فقط ، أو يريدون تقييد ما إذا كان يمكن طباعة محتوى المستند أو استخراجه.
 
-تشرح هذه المقالة كيفية تمرير خيارات أمان PDF عند حفظ جداول البيانات في PDF.
+تشرح هذه المقالة كيفية تمرير خيارات الأمان PDF عند حفظ جداول البيانات في PDF.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ url: /ar/net/secure-pdf-documents/
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل الاتصال[**المصنف .CalculateFormula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)قبل تحويله إلى PDF. يضمن ذلك إعادة حساب القيم التابعة للصيغة وتقديم القيم الصحيحة في ملف PDF.
+ إذا كان جدول البيانات يحتوي على صيغ ، فمن الأفضل الاتصال[**المصنف .CalculateFormula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)قبل تحويله إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

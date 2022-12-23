@@ -15,7 +15,7 @@ url: /ja/net/aspose-cells-for-net-21-7-release-notes/
 |CELLSNET-48165|ピボットテーブルに条件付き書式を適用するオプション|新機能|
 |CELLSNET-48188|行領域、列領域、データ領域のピボットフィールドを介して、ピボットテーブルに条件付き書式を作成します。|新機能|
 |CELLSNET-40399|GridWeb - GridDesktop 機能に似た runFormulas|新機能|
-|CELLSNET-44065| GridWeb の行と列のグループ化機能|新機能|
+|CELLSNET-44065|GridWeb の行と列のグループ化機能|新機能|
 |CELLSNET-48196|HTML から XLSX への変換中にテキストの書式を保持する|強化|
 |CELLSNET-48213|HTML から XLSX への変換中にリッチ テキスト スタイルが失われる|強化|
 |CELLSNET-45625|関連するセルの値を変更した後、数式セルの値が自動的に更新されない|強化|
@@ -27,14 +27,14 @@ url: /ja/net/aspose-cells-for-net-21-7-release-notes/
 |CELLSNET-48207|チャートの文字（グリフ）を画像に表示できないフォントを置き換えます|強化|
 |CELLSNET-48164|Range.Copy を介して範囲をコピーするときに PasteOptions をサポート|強化|
 |CELLSNET-41616|html に変換した後、xls の Smart Art 画像が正しく表示されない|バグ|
-|CELLSNET-43625|Excel から PDF への変換での図形のレンダリングの問題|バグ|
-|CELLSNET-43749|スプレッドシートを PDF にレンダリングする際に吹き出しの位置が変更される|バグ|
-|CELLSNET-43766|出力PDFで円の文字が少し左にずれている|バグ|
+|CELLSNET-43625|Excel での形状のレンダリングの問題から PDF への変換|バグ|
+|CELLSNET-43749|スプレッドシートのレンダリング中に吹き出しの位置が PDF に変更される|バグ|
+|CELLSNET-43766|出力 PDF では、円の文字が少し左にずれています。|バグ|
 |CELLSNET-47952|透かしのある Excel ファイルが HTML に正しくレンダリングされない|バグ|
 |CELLSNET-48090|多くのテキストは対象外です。|バグ|
 |CELLSNET-48120|XLSX の特定のワークシートを HTML に変換する際の膨大な変換時間と出力ファイル サイズ|バグ|
-|CELLSNET-48131|XLSX を HTML に変換するときに画像と円グラフが正しく配置されない|バグ|
-|CELLSNET-48191|Excel から HTML への変換 - いくつか間違っています」<span>" 追加した|バグ|
+|CELLSNET-48131|XLSX を HTML に変換すると、画像と円グラフが正しく配置されない|バグ|
+|CELLSNET-48191|Excel から HTML への変換 - 一部間違っています」<span>" 追加した|バグ|
 |CELLSNET-48263|html に保存する間、しばらくお待ちください|バグ|
 |CELLSNET-48145|Excel から PDF への数式計算が間違っている|バグ|
 |CELLSNET-48149|Cells.ImportTwoDimensionArray が正常に動作しなくなりました|バグ|
@@ -42,16 +42,16 @@ url: /ja/net/aspose-cells-for-net-21-7-release-notes/
 |CELLSNET-44115|GridCell.GetWidthOfValue() によるテキストの折り返しまたは列幅の設定が正しく機能しない|バグ|
 |CELLSNET-44932|GridWeb Worksheets Designer のデータソースの問題|バグ|
 |CELLSNET-42997|Cell スプレッドシートを画像にレンダリング中に背景色が白に変更されました|バグ|
-|CELLSNET-43464|XLSX から PDF への変換で、必要以上のページを含む長いドキュメントが生成される|バグ|
-|CELLSNET-44706|スプレッドシートから PDF: 図形が正しく配置されていないか、歪んでいます|バグ|
+|CELLSNET-43464|XLSX から PDF への変換により、本来より多くのページを持つ長い文書が生成される|バグ|
+|CELLSNET-44706|PDF へのスプレッドシート: 形状が正しく配置されていないか、歪んでいます|バグ|
 |CELLSNET-45259|レンダリングされた emf イメージにテキスト スペースがありません|バグ|
-|CELLSNET-45744|Aspose.Cells は、PDF のレンダリングでマシンにインストールされているフォントを使用しません|バグ|
+|CELLSNET-45744|Aspose.Cells はレンダリングでマシンにインストールされているフォントを使用しません PDF|バグ|
 |CELLSNET-46630|保存後のグラフの変化|バグ|
 |CELLSNET-46758|オートシェイプで一部の文字が切れる|バグ|
-|CELLSNET-46796|埋め込まれた GIF 画像は、Excel から TIFF への変換でブラック ボックスとしてレンダリングされます。|バグ|
-|CELLSNET-47090|XLSX から PDF へのレンダリングの問題|バグ|
+|CELLSNET-46796|埋め込み GIF 画像が Excel でブラック ボックスとしてレンダリングされ、TIFF に変換される|バグ|
+|CELLSNET-47090|XLSX から PDF のレンダリングの問題|バグ|
 |CELLSNET-47341|散布図のデータ ラベルが出力画像に正しく表示されない|バグ|
-|CELLSNET-47590|Windows 10, Windows Server 2008, 2016 で Excel から PDF への変換で異なるグラフが作成される|バグ|
+|CELLSNET-47590|Excel から PDF への変換により、Windows 10、Windows Server 2008、2016 で異なるグラフが作成される|バグ|
 |CELLSNET-48136|グラフ タイトル int 出力 pdf のフォントが Excel と異なる|バグ|
 |CELLSNET-48067|SetChartDataRange は結合セルを認識しませんでした|バグ|
 |CELLSNET-48144|Worksheet.Pictures.Add() 関数による TIFF 画像の高さと幅のスケールは有効ではありません|バグ|
@@ -62,7 +62,7 @@ url: /ja/net/aspose-cells-for-net-21-7-release-notes/
 |CELLSNET-48217|XLSB ファイル間でシートをコピーすると、出力ファイルが破損する|例外|
 |CELLSNET-48226|Shape.ToImage 例外を発生させる|例外|
 |CELLSNET-48231|ワークシートのコピー時にスローされる例外|例外|
-|CELLSNET-48266|「パラメータが無効です。」 XLSX を HTML にレンダリングするときの例外|例外|
+|CELLSNET-48266|「パラメータが無効です。」 XLSX から HTML へのレンダリング時の例外|例外|
 |
 
 

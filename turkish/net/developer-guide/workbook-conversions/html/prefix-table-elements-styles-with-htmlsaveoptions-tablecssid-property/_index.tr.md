@@ -22,13 +22,13 @@ etc.
 
 {{< /highlight >}}
 
- Aşağıdaki ekran görüntüsü, kullanmanın etkisini gösterir.[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)çıkış HTML'sindeki özellik.
+ Aşağıdaki ekran görüntüsü, kullanmanın etkisini gösterir.[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)HTML çıkışındaki özellik.
 
-![yapılacaklar:resim_alternatif_Metin](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
+![yapılacaklar:resim_alternatif_metin](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **Tablo Elemanları Stillerini HtmlSaveOptions.TableCssId özelliğine sahip Önek**
 
- Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) Emlak. lütfen kontrol ediniz[çıktı HTML'si](60489790.zip) referans için kod tarafından oluşturulur.
+ Aşağıdaki örnek kod, nasıl kullanılacağını gösterir[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) Emlak. lütfen kontrol ediniz[çıkış HTML](60489790.zip) referans için kod tarafından oluşturulur.
 
 ## **Basit kod**
 

@@ -19,7 +19,7 @@ Excel grafiklerinde 3 tür Eksen vardır:
 ## **Eksen Seçenekleri**
  Aspose.Cells ayrıca çalışma zamanında grafiğin eksenlerini yönetmeye izin verir.[eksen](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/) nesne, Excel'de yapıldığı gibi Axis'in tüm seçeneklerini değiştirebilirsiniz.
 
-|![yapılacaklar:resim_alternatif_Metin](chart_axes.png)|
+|![yapılacaklar:resim_alternatif_metin](chart_axes.png)|
 
 ## **X ve Y Eksenlerini Yönetin**
 

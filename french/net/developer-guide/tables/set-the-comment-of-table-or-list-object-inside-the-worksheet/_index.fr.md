@@ -6,7 +6,7 @@ url: /fr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Vous pouvez définir le commentaire du tableau ou de l'objet de liste dans la feuille de calcul à l'aide de la[**ListObject.Comment**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/comment)propriété. Le commentaire sera visible dans le fichier xl/tables/tableName.xml.
+ Vous pouvez définir le commentaire du tableau ou de l'objet de liste dans la feuille de calcul à l'aide de la[**ListObject.Comment**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/comment)la propriété. Le commentaire sera visible dans le fichier xl/tables/tableName.xml.
 
 {{% /alert %}}
 

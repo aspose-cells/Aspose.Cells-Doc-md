@@ -26,9 +26,9 @@ url: /it/net/aspose-cells-for-net-7-5-0-release-notes/
 
  41710 - Un carattere diventa un punto interrogativo
 
- 41614 - PDF che non mostra gli elementi filtrati
+ 41614 - PDF non mostra gli elementi filtrati
 
-41695 - La legenda del grafico è nella posizione errata
+ 41695 - La legenda del grafico è nella posizione errata
 
 41632 - La legenda del grafico non può essere allineata al centro 41745 - Alcune funzionalità di copia/incolla non funzionano
 
@@ -44,6 +44,6 @@ url: /it/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Insetti
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Insetti

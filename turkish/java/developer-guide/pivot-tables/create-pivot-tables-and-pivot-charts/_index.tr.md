@@ -61,11 +61,11 @@ Aşağıda bir kod örneği verilmiştir. Kodun çalıştırılması yeni bir do
 
 **Giriş verileri** 
 
-![yapılacaklar:resim_alternatif_Metin](create-pivot-tables-and-pivot-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](create-pivot-tables-and-pivot-charts_1.png)
 
 **çıkış pivot tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](create-pivot-tables-and-pivot-charts_2.png)
+![yapılacaklar:resim_alternatif_metin](create-pivot-tables-and-pivot-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
@@ -81,7 +81,7 @@ Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdad
 
 **Pivot grafik sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](create-pivot-tables-and-pivot-charts_3.png)
+![yapılacaklar:resim_alternatif_metin](create-pivot-tables-and-pivot-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 

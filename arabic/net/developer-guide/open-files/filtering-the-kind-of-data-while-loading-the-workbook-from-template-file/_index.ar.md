@@ -10,11 +10,11 @@ url: /ar/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 {{% /alert %}}
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل كائنات الشكل فقط أثناء تحميل المصنف من ملف[ملف نموذجي](5115552.xlsx) والتي يمكنك تنزيلها من الرابط المحدد. تُظهر لقطة الشاشة التالية ملف[ملف نموذجي](5115552.xlsx) المحتويات ويوضح أيضًا أن البيانات باللون الأحمر والخلفية الصفراء لن يتم تحميلها بسبب[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)تم تعيين الخاصية على[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
+يقوم نموذج التعليمات البرمجية التالي بتحميل كائنات الشكل فقط أثناء تحميل المصنف من ملف[ملف نموذجي](5115552.xlsx) والتي يمكنك تنزيلها من الرابط المحدد. تُظهر لقطة الشاشة التالية ملف[ملف نموذجي](5115552.xlsx)المحتويات ويوضح أيضًا أن البيانات باللون الأحمر والخلفية الصفراء لن يتم تحميلها بسبب[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)تم تعيين الخاصية على[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
 
 ![ما يجب القيام به: image_بديل_نص](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-تُظهر لقطة الشاشة التالية ملف[إخراج PDF](5115555.pdf) والتي يمكنك تنزيلها من الرابط المحدد. هنا يمكنك أن ترى ، البيانات باللون الأحمر والخلفية الصفراء غير موجودة ولكن جميع الأشكال موجودة.
+تُظهر لقطة الشاشة التالية ملف[الإخراج PDF](5115555.pdf) والتي يمكنك تنزيلها من الرابط المحدد. هنا يمكنك أن ترى ، البيانات باللون الأحمر والخلفية الصفراء غير موجودة ولكن جميع الأشكال موجودة.
 
 ![ما يجب القيام به: image_بديل_نص](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

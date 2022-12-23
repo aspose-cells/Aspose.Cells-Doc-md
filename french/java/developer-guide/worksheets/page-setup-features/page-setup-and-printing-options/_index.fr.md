@@ -45,13 +45,13 @@ Créez d'abord une feuille de calcul simple dans Microsoft Excel. Ensuite, appli
  1. Décompressez-le sur votre ordinateur de développement.
  Tout[Aspose](http://www.aspose.com/) les composants, une fois installés, fonctionnent en mode d'évaluation. Le mode d'évaluation n'a pas de limite de temps et il injecte uniquement des filigranes dans les documents produits.
 1. Créez un projet.
- Créez un projet à l'aide d'un éditeur Java, par exemple Eclipse, ou créez un programme simple à l'aide d'un éditeur de texte.
+Créez un projet à l'aide d'un éditeur Java, par exemple Eclipse, ou créez un programme simple à l'aide d'un éditeur de texte.
 1. Ajoutez un chemin de classe.
 1. Extrayez les fichiers Aspose.Cells.jar et dom4j_1.6.1.jar de Aspose.Cells.zip.
  1. Définissez le chemin de classe du projet dans Eclipse :
  1. Sélectionnez votre projet dans Eclipse puis cliquez sur**Projet** suivie par**Propriétés**.
- 1. Sélectionnez**Java Chemin de construction**à gauche de la boîte de dialogue.
- 1. Sélectionnez l'onglet Bibliothèques, cliquez sur**Ajouter des JAR** ou**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter aux chemins de génération.
+ 1. Sélectionnez**Java Chemin de construction** à gauche de la boîte de dialogue.
+ 1. Sélectionnez l'onglet Bibliothèques, cliquez sur**Ajouter des JAR** ou alors**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter aux chemins de génération.
  Ou vous pouvez le définir lors de l'exécution à une invite DOS dans Windows :
 
 {{< highlight "java" >}}
@@ -90,7 +90,7 @@ L'exécution du code modifie les options d'impression.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 
-## **Sommaire**
+## **Résumé**
 
 {{% alert color="primary" %}}
 

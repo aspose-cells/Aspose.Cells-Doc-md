@@ -13,11 +13,11 @@ url: /tr/java/aspose-cells-for-java-22-10-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-44890|GridWeb için openpassword ile içe aktarma dosyasını destekler|
-|CELLSJAVA-44884| XLSX'ten HTML'ye veya PDF'ye dönüştürmeden sonra liste numaraları yanlış|
-|CELLSJAVA-44883|Pivot tablo içeren çalışma kitabı, içinde pivot tablo işlendikten sonra bozuluyor|
+|CELLSJAVA-44884| XLSX'den HTML'e veya PDF'e dönüşümden sonra liste numaraları yanlış|
+|CELLSJAVA-44883| Pivot tablo içeren çalışma kitabı, içinde pivot tablo işlendikten sonra bozuluyor|
 |CELLSJAVA-44879|GridWeb için biçimlendirilmiş sonuç Cell.DisplayStringValue'dan farklıydı.|
 |CELLSJAVA-44327|Grafikten görüntüye dönüştürmede siyah beyaz pasta dilimlerinde gösterilen kenarlıklar ve daha az çizgi|
-|CELLSJAVA-44853|X ekseni açısındaki veriler, grafikten görüntüye dönüştürmede Excel ile aynı değil|
+|CELLSJAVA-44853|ekseni açısındaki veriler, grafikten görüntüye dönüştürmede Excel ile aynı değil|
 |CELLSJAVA-44854|Y ekseni adımındaki veriler, tablodan görüntüye dönüştürmede Excel ile aynı değil|
 |CELLSJAVA-44904|Excel grafiklerini JPG dönüştürmeye dönüştürürken yaşanan sorunlar|
 |CELLSJAVA-44850|Bir XLT dosyasını içe aktarırken, en son kaynak dosyalarıyla en son Aspose.Cells.GridWeb sürümüyle en son demolar kullanılarak metin tam olarak görüntülenmiyor|
@@ -25,7 +25,7 @@ url: /tr/java/aspose-cells-for-java-22-10-release-notes/
 |CELLSJAVA-44903|SVG yorumlama beklendiği gibi çalışmıyor|
 |CELLSJAVA-44909| Birden fazla satır kalın yapıldığında diğer satırlara gereksiz yere taşıyormuş gibi görünüyor.|
 |CELLSJAVA-44898|GZIPInputStream'den okuma bazen 22.7 ve daha yeni sürümlerde sahte "Dosya bozuk" hatası veriyor|
-|CELLSJAVA-44881|Bir XLS dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException: 15070" istisnası|
+|CELLSJAVA-44881|XLS dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException: 15070" istisnası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

@@ -10,9 +10,9 @@ Esistono diversi numeri di righe e colonne supportati dai formati Excel. Ad esem
 
 ## **Trova il numero massimo di righe e colonne supportate dai formati XLS e XLSX**
 
-Il codice di esempio seguente crea la cartella di lavoro prima in XLS e quindi in formato XLSX. Dopo la creazione, stampa i valori di[**Cartella di lavoro.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) e[**Cartella di lavoro.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)proprietà. Si prega di consultare l'output della console del codice fornito di seguito per riferimento.
+Il codice di esempio seguente crea la cartella di lavoro prima nel formato XLS e quindi nel formato XLSX. Dopo la creazione, stampa i valori di[**Cartella di lavoro.Settings.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) e[**Cartella di lavoro.Settings.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)proprietà. Si prega di consultare l'output della console del codice fornito di seguito per riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.cs" >}}
 

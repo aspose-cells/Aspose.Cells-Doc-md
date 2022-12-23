@@ -13,26 +13,26 @@ url: /es/net/aspose-cells-for-net-21-4-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSNET-47891|Soporte para obtener estilo de visualización con caché habilitado|Nueva caracteristica|
-|CELLSNET-47922|Representar datos con coordenadas de celda en conversión de Excel a HTML|Mejora|
+|CELLSNET-47922|Representar datos con coordenadas de celda en Excel a conversión HTML|Mejora|
 |CELLSNET-47924|Implementar Crypto con BouncyCastle's API|Mejora|
 |CELLSNET-47951|Admite mapas XML por XSD|Mejora|
 |CELLSNET-47206|Agrupación de datos con marcadores inteligentes horizontales y fuente de datos anidada|Mejora|
 |CELLSNET-47888|Se requieren SmartMarkers apropiados para lograr el resultado deseado|Mejora|
 |CELLSNET-47918|Filas plegables junto con marcadores inteligentes|Mejora|
 |CELLSNET-47953|Admite agregar una imagen .webp a archivos .xlsx.|Mejora|
-|CELLSNET-47916|La etiqueta de estilo HTML consume 4 Gb de memoria y falla mientras se carga en el libro de trabajo|Actuación|
+|CELLSNET-47916|La etiqueta de estilo HTML consume 4 Gb de memoria y falla mientras se carga en el libro de trabajo|Rendimiento|
 |CELLSNET-46869|WordArts y las formas no se representan correctamente en PDF|Insecto|
 |CELLSNET-47890|Las líneas se desplazarán durante la conversión de PDF|Insecto|
 |CELLSNET-47858|Las formas no se representan correctamente en HTML y PDF|Insecto|
 |CELLSNET-47907|La ubicación del gráfico se cambia al convertir Excel a HTML|Insecto|
-|CELLSNET-47856|Problema de conversión de XLSX a PDF con tablas dinámicas|Insecto|
+|CELLSNET-47856|XLSX a PDF problema de conversión con tablas dinámicas|Insecto|
 |CELLSNET-47846|Implementación de GridWeb incompatible con los componentes recientes de DevExpress|Insecto|
 |CELLSNET-47923|Vista de diseño de página incorrecta para el libro de trabajo que tiene una fuente predeterminada distinta de Calibri|Insecto|
 |CELLSNET-47965| Conversión de Excel a PDF: páginas del documento mezcladas|Insecto|
-|CELLSNET-46161|El texto oblicuo no se muestra correctamente en el PDF de salida|Insecto|
-|CELLSNET-47917|Etiquetas de gráficos circulares en mal estado en PDF generado a partir de una hoja de cálculo de Excel|Insecto|
+|CELLSNET-46161|El texto oblicuo no se muestra correctamente en la salida PDF|Insecto|
+|CELLSNET-47917|Etiquetas de gráficos circulares desordenadas en PDF generadas a partir de la hoja de cálculo de Excel|Insecto|
 |CELLSNET-47919|Valor máximo incorrecto extraído de los gráficos|Insecto|
-|CELLSNET-46363|La estructura anidada no se importa correctamente a XLSX|Insecto|
+|CELLSNET-46363|La estructura anidada no se importa correctamente en XLSX|Insecto|
 |CELLSNET-47838|La paleta de colores del gráfico nativo no se conserva|Insecto|
 |CELLSNET-47910|Range.Copy actualiza incorrectamente el formato condicional|Insecto|
 |CELLSNET-47931|Style.SetBorder() falla cuando se configuran varias opciones simultáneamente|Insecto|
@@ -43,7 +43,7 @@ url: /es/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|Se lanza una excepción al abrir un archivo mht especial.|Excepción|
 |CELLSNET-47944|Excepción nula al convertir la forma de la segmentación en imagen|Excepción|
 |CELLSNET-47932|Excepción nula al cargar un archivo xlsx especial con fórmula extraña.|Excepción|
-|CELLSNET-47963|El parámetro no es una excepción válida al representar el rango en PNG|Excepción|
+|CELLSNET-47963|El parámetro no es una excepción válida cuando el rango de representación es PNG|Excepción|
 |CELLSNET-47967|Error de desbordamiento al guardar un archivo XLS|Excepción|
 |CELLSNET-47921|Excepción nula al cargar un archivo xlsx especial|Excepción|
 |CELLSNET-47945|Excepción nula al cargar un archivo html especial|Excepción|
@@ -63,7 +63,7 @@ Proporcione a los usuarios la capacidad de acceder a los datos en modo por lotes
 
 ### **Agrega las propiedades TxtSaveOptions.ExportQuotePrefix y TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Proporcione a los usuarios la capacidad de decidir qué hacer con la comilla simple inicial del valor de la celda al exportar/importar archivos CSV/TSV.
+Proporcione a los usuarios la capacidad de decidir cómo hacerlo con la comilla simple principal del valor de la celda al exportar/importar archivos CSV/TSV.
 
 ### **Agrega los métodos GlobalizationSettings.GetCollationKey(string,bool) y Compare(string,string,bool).**
 

@@ -6,7 +6,7 @@ url: /ja/net/secure-pdf-documents/
 ---
 {{% alert color="primary" %}}
 
-開発者は、暗号化された PDF ファイルを扱う必要がある場合があります。たとえば、ユーザーと所有者のパスワードを使用してドキュメントを保護し、誰もがドキュメントを開くことができないようにしたり、ドキュメントの内容を印刷または抽出できるように制限したりする必要があります。
+場合によっては、開発者は暗号化された PDF ファイルを操作する必要があります。たとえば、ユーザーと所有者のパスワードを使用してドキュメントを保護し、誰もがドキュメントを開くことができないようにしたり、ドキュメントの内容を印刷または抽出できるように制限したりする必要があります。
 
 この記事では、スプレッドシートを PDF に保存するときに PDF セキュリティ オプションを渡す方法について説明します。
 
@@ -18,6 +18,6 @@ Aspose.Cells は[**Aspose.Cells.Rendering.PdfSecurity**](https://reference.aspos
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)PDFにレンダリングする直前。これにより、数式に依存する値が再計算され、正しい値が PDF に表示されます。
+スプレッドシートに数式が含まれている場合は、[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
 
 {{% /alert %}}

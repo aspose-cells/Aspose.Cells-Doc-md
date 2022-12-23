@@ -28,7 +28,7 @@ Vi är
 
 - Villkorlig formatering med Unicode-tecken misslyckas
 - Att ställa in formel innan du lägger till områden för villkorlig formatering och sedan byter namn på kalkylblad orsakade ett fel när arbetsboken sparades
-- Återspara en XLS-mallfil orsakadeNegativeArraySizeException
+- Återspara en XLS mallfil orsakadNegativeArraySizeException
 
  Buggar
 
@@ -36,6 +36,6 @@ Vi är
 - Diagramserienamn går förlorade om CellCollection rensas
 - Att visa tomt som luckor/nollor fungerar inte för XLSX-filer
 - Dataetikettformatering för diagram är inte bra
-- Teckensnittets understrykning försvann i den återgivna PDF-filen
+- Teckensnittets understrykning försvann i den renderade PDF-filen
 - Att ställa in teckensnittsstilar fick ingen effekt för XLSX i LightCells-läge
 - En del av sidfoten försvann när du sparade till PDF

@@ -1,19 +1,19 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.5.1
+title: Pubblico API Modifiche Aspose.Cells 8.5.1
 type: docs
 weight: 180
 url: /it/java/public-api-changes-in-aspose-cells-8-5-1/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.5.0 alla 8.5.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-5-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.5.0 alla 8.5.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-5-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Metodo Workbook.Dispose aggiunto**
 Aspose.Cells for Java 8.5.1 ha esposto il metodo Workbook.dispose per rilasciare le risorse non gestite dell'oggetto Workbook. Il modello Dispose viene utilizzato solo per oggetti che accedono a risorse non gestite, ad esempio handle di file e pipe, handle di registro, handle di attesa o puntatori a blocchi di memoria non gestita. Questo perché il Garbage Collector è molto efficiente nel recuperare oggetti gestiti inutilizzati, ma non è in grado di recuperare oggetti non gestiti.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -36,11 +36,11 @@ Aspose.Cells for Java 8.5.1 ha esposto l'enumerazione com.aspose.cells.TableData
 1. TableDataSourceType.WORKSHEET
 1. TableDataSourceType.XML
 ### **Proprietà ListObject.DataSourceType aggiunto**
-Con il rilascio di v8.5.1, l'API Aspose.Cells ha esposto la proprietà ListObject.DataSourceType di sola lettura che può essere utilizzata per rilevare il tipo di origine dati di un ListObject.
+Con il rilascio di v8.5.1, Aspose.Cells API ha esposto la proprietà ListObject.DataSourceType di sola lettura che può essere utilizzata per rilevare il tipo di origine dati di un ListObject.
 
 Ecco lo scenario di utilizzo più semplice.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

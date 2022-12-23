@@ -22,12 +22,12 @@ url: /zh/java/aspose-cells-for-android-via-java-22-3-release-notes/
 |CELLSJAVA-44130|数据标签的文本包裹在输出图表图像中|
 |CELLSJAVA-44204|csv 的分页问题|
 |CELLSJAVA-43934|饼图标签在操作或更新图表后与 Excel 不匹配|
-|CELLSJAVA-44122|导出HTML时，数据标签与Excel不同|
+|CELLSJAVA-44122|HTML导出时，数据标签与Excel不一样|
 |CELLSJAVA-41949|将工作簿保存为 XLSX 和 HTML 格式时内容呈现不同|
-|CELLSJAVA-44207|导出为 HTML 时，行高变高|
-|CELLSJAVA-44233|转换 XLSX 文件时无限循环|
-|CELLSJAVA-44271|Excel 转 PDF 时，输出位置相对于手动转换有偏移|
-|CELLSJAVA-44197|将 XLSX 转换为 PDF 时，不显示数据透视表时间线形状（窗口）|
+|CELLSJAVA-44207|导出到HTML时，行高变高|
+|CELLSJAVA-44233|XLSX 文件转换时死循环|
+|CELLSJAVA-44271|Excel 转换为 PDF 时，输出位置相对于手动转换有偏移|
+|CELLSJAVA-44197|XLSX转PDF时，数据透视表时间轴形状（窗口）不显示|
 |CELLSJAVA-44267|包含数据透视表的工作簿已损坏|
 |CELLSJAVA-44114|XLSX 到 PDF：XLSX 文件中科学数字格式的数据与输出 PDF 文件中的数据不匹配|
 |CELLSJAVA-44293|在 MS Excel 中打开时需要恢复重新保存的 Excel 文件|
@@ -38,25 +38,25 @@ url: /zh/java/aspose-cells-for-android-via-java-22-3-release-notes/
 |CELLSJAVA-44229|td 内容被 div 标签包裹时公式丢失|
 |CELLSJAVA-44247|转换为 pdf 时单行文本被换行|
 |CELLSJAVA-44175|甜甜圈图标签重叠的问题|
-|CELLSJAVA-44192|图表中的类别轴项目名称在 Excel 到 PDF 转换中被截断|
-|CELLSJAVA-44233|转换 XLSX 文件时无限循环|
+|CELLSJAVA-44192|图表中的类别轴项目名称在 Excel 中被截断为 PDF 转换|
+|CELLSJAVA-44233|XLSX 文件转换时死循环|
 |CELLSJAVA-44263|将图表标签文本的方向设置为垂直不生效|
 |CELLSJAVA-44268|Chart.toPdf 方法上的异常“java.lang.NullPointerException”|
-|CELLSJAVA-44302|Excel文件转HTML后坐标轴文字方向错误|
+|CELLSJAVA-44302|Excel文件转成坐标轴文字方向错误 HTML|
 |CELLSJAVA-44314|图表中错误的图表类别轴标签到图像渲染|
-|CELLSJAVA-44274|是否支持 SVG 格式以读取或呈现为 PDF|
+|CELLSJAVA-44274|是否支持 SVG 格式读取或呈现为 PDF|
 |CELLSJAVA-44369|形状高度不正确|
 |CELLSJAVA-44366|将sheet内容复制到新的sheet页面另存为html导致Excel数学公式样式异常|
 |CELLSJAVA-44408|当我们扩展我们更改的那两行时，Cell 的百分比格式丢失|
-|CELLSJAVA-44341|Cell 宽度在 Excel 到 DOCX 转换中的输出 DOCX 中不正确|
+|CELLSJAVA-44341|Cell 宽度在 Excel 中输出 DOCX 到 DOCX 的转换中不正确|
 |CELLSJAVA-44383|添加自定义属性后条件格式停止工作|
 |CELLSJAVA-44370|使用 Aspose.Cells 打开和保存时 Excel 文件损坏|
-|CELLSJAVA-44344|输出 XLSX 中水平复制范围的问题|
+|CELLSJAVA-44344|输出中水平复制范围的问题 XLSX|
 |CELLSJAVA-44363|行标题高度与冻结窗格文件中的行内容不匹配|
 |CELLSJAVA-44349|图像/形状应在 GridWeb 服务器重启后保留|
 |CELLSJAVA-44367|转html时柱形图颜色变白|
-|CELLSJAVA-44328|将 Excel 文件另存为 HTML 时，Excel 图形的某些数据标签丢失|
-|CELLSJAVA-44193|图表中类别轴项目的角度在 Excel 到 PDF 转换中不同|
+|CELLSJAVA-44328|将 Excel 文件保存为 HTML 时，Excel 图形的某些数据标签丢失|
+|CELLSJAVA-44193|图表中类别轴项目的角度在Excel中不同 PDF 转换|
 |CELLSJAVA-44314|图表中错误的图表类别轴标签到图像渲染|
 |CELLSJAVA-44332|Cell 将 xlsx 转换为 html 时无法删除链接下划线|
 |CELLSJAVA-44234|文件 data.xls 内存不足问题|
@@ -89,7 +89,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-3-release-notes/
 
 ### **添加 TxtLoadOptions.ExtendToNextSheet 属性。**
 
-如果数据的行数或列数超过 ms excel 的限制，支持将 CSV/TSV 数据导入多个工作表。
+支持将CSV/TSV数据导入多个工作表，如果数据的行数或列数超过ms excel的限制。
 
 ### **添加 ExternalLinkCollection.Clear() 方法。**
 

@@ -42,7 +42,7 @@ För att konvertera ett Microsoft Excel-dokument från ditt SharePoint-dokumentb
 
 
 1. Välj utdataformat.
-Här kan du också ändra namnet på utdatafilen och målmappen.
+ Här kan du också ändra namnet på utdatafilen och målmappen.
 1.  Klick**Konvertera**. 
 
    **Välja utdataformat** 
@@ -66,6 +66,6 @@ Här kan du också ändra namnet på utdatafilen och målmappen.
 
 Det är enkelt att installera och använda Aspose.Cells for SharePoint. Det lägger inte bara till en funktion för att konvertera Microsoft Excel-filer direkt på SharePoint-servern, utan eliminerar också behovet av att Microsoft Excel ska installeras på klientdatorerna. Dessutom kan utvecklare använda Aspose.Cells for SharePoints offentliga API för att utveckla sina egna SharePoint-lösningar.
 
- Med andra ord är det fördelaktigt för for SharePoint webbplatsadministratörer, utvecklare och slutanvändare.
+Med andra ord är det fördelaktigt för for SharePoint webbplatsadministratörer, utvecklare och slutanvändare.
 
 {{% /alert %}}

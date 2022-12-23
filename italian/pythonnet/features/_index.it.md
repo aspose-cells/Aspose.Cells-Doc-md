@@ -12,17 +12,17 @@ Questa pagina riassume le caratteristiche di Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 ## **Formati di file e conversioni**
-- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) e formati di immagine popolari tra cui TIFF , JPG, PNG, BMP e SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP e SVG.
 ## **Rendering e stampa**
-- Rendering di fogli di calcolo in immagini vettoriali (EMF)
-- Rendering di fogli di lavoro in immagini raster (TIFF multipagina, GIF)
+- Renderizza il foglio di calcolo in immagini vettoriali (EMF)
+- Rendering di fogli di lavoro in immagini raster (multipagina TIFF, GIF)
 - Rendering di fogli di lavoro in immagini raster (PNG, JPEG, ecc.)
-- Trasforma il foglio di calcolo in PDF con alta fedeltà
+- Render Spreadsheet a PDF con alta fedeltà
 ## **Caratteristiche del contenuto del foglio di calcolo**
 - Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro
-- Inserisci immagini, crea grafici convenzionali e personalizzati e imposta lo sfondo sfumato per i grafici utilizzando l'API
+- Inserisci immagini, crea grafici convenzionali e personalizzati e imposta lo sfondo sfumato per i grafici utilizzando API
 - Aggiungi commenti alle celle
-- Temi e colori di Microsoft Excel 2007 e versioni successive
+- Microsoft Excel 2007 e versioni successive temi e colori
 - Crea filtri automatici
 - Implementare le convalide dei dati
 - Implementare l'ordinamento dei dati
@@ -38,14 +38,14 @@ Questa pagina riassume le caratteristiche di Aspose.Cells for Python via .NET.
 - Specificare le impostazioni delle proprietà del documento
 - Proteggere/rimuovere la protezione dei fogli di lavoro
 - Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive
-- Crea oggetti elenco/tabelle di Microsoft Excel
+- Crea oggetto elenco/Microsoft Tabelle Excel
 - Crea subtotali
 - Inserisci i controlli del modulo e altre forme/oggetti di disegno
 - Crea tabelle pivot e grafici pivot
 - Conserva o rimuovi componenti aggiuntivi, VBA, macro
 - Manipolare intervalli denominati
 - Aggiungi, conserva o estrai oggetti OLE dai fogli di calcolo.
-- Implementa gli sparkline di Microsoft Excel
+- Implementa gli sparkline di Excel Microsoft
 - Crittografare i file
 ## **Funzionalità di formattazione del foglio di calcolo**
 - Applica la formattazione di tutti i caratteri nelle celle inclusi caratteri, colori, effetti, bordi e ombreggiatura

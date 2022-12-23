@@ -1,5 +1,5 @@
 ﻿---
-title: Läser CSV-fil med flera kodningar
+title: Läser CSV Fil med flera kodningar
 type: docs
 weight: 140
 url: /sv/java/reading-csv-file-with-multiple-encodings/
@@ -12,7 +12,7 @@ Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7 etc). 
 
  Aspose.Cells tillhandahåller metoden TxtLoadOptions.setMultiEncoded() som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
 
- Följande skärmdump visar ett exempel på en CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
+ Följande skärmdump visar ett exempel på CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
 
 **Indatafil** 
 
@@ -24,13 +24,13 @@ Följande skärmdump visar XLSX-filen konverterad från ovanstående CSV-fil uta
 
 ![todo:image_alt_text](reading-csv-file-with-multiple-encodings_2.png)
 
-Följande skärmdump visar XSLX-filen som konverterats från ovanstående CSV-fil efter att ha ställt in metoden TxtLoadOptions.setMultiEncoded() till true. Som du kan se är Unicode-texten nu konverterad på rätt sätt.
+Följande skärmdump visar XSLX-filen konverterad från ovanstående CSV-fil efter att ha ställt in metoden TxtLoadOptions.setMultiEncoded() till true. Som du kan se är Unicode-texten nu konverterad på rätt sätt.
 
 **Utdatafil 2: IsMultiEncoded är satt till true** 
 
 ![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)
 
-Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format på rätt sätt.
+Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format korrekt.
 
 **Java**
 

@@ -13,6 +13,6 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-21-3-release-note
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSRS-575|Обновляет версию Aspose.Cells до 21.3.|Задача|
-|CELLSRS-576|Поддержка экспортированного SVG.|Новая особенность|
+|CELLSRS-576|Поддержка экспорта SVG.|Новая особенность|
 
 

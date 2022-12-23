@@ -14,7 +14,7 @@ Aspose.Cells fournit la fonctionnalité permettant d'appliquer des effets d'expo
 
 ## **Travailler avec l'exposant et l'indice**
 
- Appliquez l'effet exposant à l'aide de la[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setExposant**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) propriété. Pour appliquer l'indice, utilisez le[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setIndice**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)méthode.
+ Appliquez l'effet exposant à l'aide de la[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setExposant**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) la propriété. Pour appliquer l'indice, utilisez le[**Police de caractère**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[**setIndice**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)méthode.
 
 Les exemples de code suivants montrent comment appliquer un exposant et un indice au texte.
 

@@ -12,7 +12,7 @@ url: /it/net/extract-text-from-the-gear-type-smartart-shape/
 
  Il codice di esempio seguente carica il file[esempio di file Excel](67338483.xlsx) che contiene Gear Type Smart Art Shape. Quindi estrae il testo dalle sue singole forme come discusso sopra. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.cs" >}}
 

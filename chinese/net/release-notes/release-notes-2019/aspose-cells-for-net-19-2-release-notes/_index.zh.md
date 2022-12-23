@@ -14,17 +14,17 @@ url: /zh/net/aspose-cells-for-net-19-2-release-notes/
 |:- |:- |:- |
 |CELLSNET-46582|支持 Range.Hyperlinks 属性|新功能|
 |CELLSNET-46534|int32可以小为Cells.count属性|强化|
-|CELLSNET-46552|区分加密的XLSX与加密的PPTX和加密的DOCX|强化|
+|CELLSNET-46552|区分加密XLSX与加密PPTX和加密DOCX|强化|
 |CELLSNET-46568|设置 Box Whisker 图表样式|强化|
 |CELLSNET-46573|用括号等合适的符号替换无效字符|强化|
 |CELLSNET-46581|打开/保存删除表格替代文本|强化|
 |CELLSNET-46584|Aspose.Cells API 的性能问题|表现|
 |CELLSNET-46556|TextBox 的文本被剪切|漏洞|
-|CELLSNET-46565|象形图在 Excel 到 PDF 渲染中的输出 PDF 中不可见|漏洞|
+|CELLSNET-46565|象形图在Excel中输出PDF到PDF渲染不可见|漏洞|
 |CELLSNET-46477|数据透视表中的条件格式在复制的工作表中不起作用|漏洞|
-|CELLSNET-46547|HTML 到 Excel 转换中缺少的内容|漏洞|
-|CELLSNET-46566|使用 Aspose.Cells API 保存后 XLSX 文件损坏|漏洞|
-|CELLSNET-46572|添加超过 1 个数据字段时 XLSB 损坏，而 XLSX 工作正常|漏洞|
+|CELLSNET-46547|从 HTML 到 Excel 转换中缺少的内容|漏洞|
+|CELLSNET-46566|XLSX 使用 Aspose.Cells API 保存后文件损坏|漏洞|
+|CELLSNET-46572|XLSB 在添加超过 1 个数据字段时损坏，而 XLSX 工作正常|漏洞|
 |CELLSNET-46548|将 XLSX 转换为 PDF 文件格式时出现 NumberValue 问题|漏洞|
 |CELLSNET-46557|Aspose.Cells公式计算引擎计算出错误的单元格值|漏洞|
 |CELLSNET-46578|Worksheet.AutoFitColumns() 不完全适合列|漏洞|
@@ -32,7 +32,7 @@ url: /zh/net/aspose-cells-for-net-19-2-release-notes/
 |CELLSNET-46558|读取和保存 ODS 文件时图表的刻度线丢失|漏洞|
 |CELLSNET-46560|保存 ODS 文件时系列名称丢失|漏洞|
 |CELLSNET-46561|对于 ODS 文件，图表中绘图区域的默认边框不应该可见|漏洞|
-|CELLSNET-46562|读取和保存 XLSX 文件时删除 X 轴的网格线|漏洞|
+|CELLSNET-46562|读取和保存 XLSX 文件时 X 轴的网格线被删除|漏洞|
 |CELLSNET-46569|加载和保存 MS Excel 文件后页面设置设置更改|漏洞|
 |CELLSNET-46574|保存和打开 XLSB 文件的问题|漏洞|
 |CELLSNET-46555|编辑某些属性时引发异常|例外|

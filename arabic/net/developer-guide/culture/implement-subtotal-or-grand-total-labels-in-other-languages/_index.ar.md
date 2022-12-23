@@ -6,7 +6,7 @@ url: /ar/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- في بعض الأحيان ، تريد إظهار الإجمالي الفرعي والتسميات الإجمالية الكلية بلغات غير الإنجليزية مثل الصينية واليابانية والعربية والهندية وما إلى ذلك. يسمح لك Aspose.Cells بالقيام بذلك باستخدام[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)فئة و[**المصنف. إعدادات العولمة**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) منشأه. يرجى الاطلاع على هذه المقالة حول كيفية الاستفادة من[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)صف دراسي
+في بعض الأحيان ، تريد إظهار الإجمالي الفرعي والتسميات الإجمالية الكلية بلغات غير الإنجليزية مثل الصينية واليابانية والعربية والهندية وما إلى ذلك. يسمح لك Aspose.Cells بالقيام بذلك باستخدام[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)فئة و[**المصنف. إعدادات العولمة**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) خاصية. يرجى الاطلاع على هذه المقالة حول كيفية الاستفادة من[**العولمة الإعدادات**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)صف دراسي
 
 - [استخدام فئة GlobalizationSettings لملصقات المجموع الفرعي المخصص والتسميات الأخرى للمخطط الدائري](/cells/ar/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 

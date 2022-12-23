@@ -61,8 +61,8 @@ options.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
-### **チャートを PDF に直接変換**
-Aspose.Cells API は、Chart.toPdf メソッドを使用してチャートを PDF にレンダリングする機能をすでに提供しています。このリリースで、API は、OutputStream のインスタンスを受け入れることができる、前述のメソッドの別のオーバーロードされたバージョンを公開し、ユーザーがチャートの PDF を ByteArrayOutputStream のインスタンスに保存できるようにしました。
+### **チャートをPDFに直接変換**
+Aspose.Cells API は、Chart.toPdf メソッドを使用して PDF にグラフをレンダリングする機能を既に提供しています。このリリースでは、API は、OutputStream のインスタンスを受け入れることができる、前述のメソッドの別のオーバーロードされたバージョンを公開し、ユーザーがチャートの PDF を ByteArrayOutputStream のインスタンスに保存できるようにしました。
 
 以下は、簡単な使用シナリオです。
 

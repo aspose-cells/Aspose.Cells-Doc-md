@@ -26,7 +26,7 @@ url: /sv/java/aspose-cells-for-java-v1-9-4-hot-fix-release-notes/
  Vad är fixat?
 
 - Fixade några buggar i beräkningsformeln
- Fixade en bugg med att exportera Excel2007 XLSX-format
+ Fixade ett fel med att exportera Excel2007 XLSX-format
  Fixat en bugg med kopieringsstil
  Fixat en bugg med kopieringsformel
  Fixade en bugg med att spara bildstorlek

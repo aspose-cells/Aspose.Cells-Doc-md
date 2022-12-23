@@ -10,7 +10,7 @@ url: /it/net/find-the-root-element-name-of-xml-map/
 
 ![cose da fare:immagine_alt_testo](find-the-root-element-name-of-xml-map_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
  Il codice di esempio seguente carica il file[esempio di file Excel](55541789.xlsx) e accede alla prima mappa XML e stampa il suo file[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)proprietà. Si prega di vedere l'output della console del codice di esempio fornito di seguito.
 

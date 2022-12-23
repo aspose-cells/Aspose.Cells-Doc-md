@@ -13,14 +13,14 @@ url: /sv/net/aspose-cells-for-net-20-1-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47026|Stöd för "Rank minsta till största" och "Rank störst till minsta" visningsformat alternativ|Ny funktion|
-|CELLSNET-47030|Visa rubriker när du sparar i HTML|Ny funktion|
+|CELLSNET-47030|Visa rubriker när du sparar till HTML|Ny funktion|
 |CELLSNET-47089|Stöd alla datavisningsformat i DataField|Ny funktion|
 |CELLSNET-47062|Stöd för STDEV.P och STDEV.S|Ny funktion|
 |CELLSNET-47070|Stöd för Regex i Ersätt-funktion som liknar Find() med alternativ|Ny funktion|
 |CELLSNET-46998|Stöd för XAdES-signaturer|Ny funktion|
 |CELLSNET-40174|Infogar kryssruta i diagramtypblad|Ny funktion|
 |CELLSNET-43089|Stöd för villkorlig formatering vid konvertering av ODS till XLSX|Ny funktion|
-|CELLSNET-43090|Stöd för datavalidering vid konvertering av ODS till XLSX-format|Ny funktion|
+|CELLSNET-43090|Stöd för datavalidering vid konvertering av formatet ODS till XLSX|Ny funktion|
 |CELLSNET-47064|Stöd formerna i diagrammet för .xlsx-filen.|Förbättring|
 |CELLSNET-47065|Hämta PowerQuery från DataConnections|Förbättring|
 |CELLSNET-47066|Hämta formaterad PowerQuery MCode som liknar MS Excel|Förbättring|
@@ -28,9 +28,9 @@ url: /sv/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47063|Återge Excel till skrivarproblem när teckensnitt inte är installerade|Insekt|
 |CELLSNET-44237|Nedåtordning av pivottabellens datafält|Insekt|
 |CELLSNET-47002|Det beräknade värdet visas som "#REF!" i resulterande PDF|Insekt|
-|CELLSNET-47050|Vissa fält på första sidan visas inte i utdata-PDF-filen|Insekt|
+|CELLSNET-47050|Vissa fält på första sidan visas inte i utdata PDF|Insekt|
 |CELLSNET-40733|Öppna Office .ods-filen - den villkorliga formateringen stannar inte|Insekt|
-|CELLSNET-47039|XY-spridningsdiagram i ODS-fil renderas inte bra|Insekt|
+|CELLSNET-47039|XY-spridningsdiagram i ODS-filen renderas inte bra|Insekt|
 |CELLSNET-47040|Nätdiagram i ODS-filen renderas inte bra|Insekt|
 |CELLSNET-47060|Stöd anpassad XY av titel i ods-fil|Insekt|
 |CELLSNET-47072|Skillnaden i länksökvägen hämtad av Aspose.Cells jämfört med Excel|Insekt|

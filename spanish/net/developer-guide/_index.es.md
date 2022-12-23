@@ -24,7 +24,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
             <li><a href="/cells/es/net/opening-different-microsoft-excel-versions-files/">Apertura de diferentes archivos de versiones de Excel Microsoft</a></li>
             <li><a href="/cells/es/net/opening-files-with-different-formats/">Apertura de archivos con diferentes formatos</a></li>
             <li><a href="/cells/es/net/get-warnings-while-loading-excel-file/">Recibe advertencias al cargar un archivo de Excel</a></li>
-            <li><a href="/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lea la hoja de cálculo de números desarrollada por Apple Inc. usando Aspose.Cells</a></li>
+            <li><a href="/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells</a></li>
         </ul>
         <p>Ahorrar</p>
         <ul>
@@ -34,15 +34,15 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         </ul>
     </div>
     <div class="col-md-6">
-	   <p>Impresión</p>
+	   <p>Imprimir</p>
         <ul>
             <li><a href="/cells/es/net/print-and-preview/">Imprimir y previsualizar</a></li>
         </ul>
         <p>Representación y conversión</p>
         <ul>
             <li><a href="/cells/es/net/convert-workbook-to-different-formats/">Convertir libro de trabajo a diferentes formatos</a></li>
-            <li><a href="/cells/es/net/convert-excel-workbook-to-pdf/">Convertir libro de trabajo de Excel a PDF</a></li>
-            <li><a href="/cells/es/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convierta un archivo de Excel a formato PDF compatible con PDFA-1a</a></li>
+            <li><a href="/cells/es/net/convert-excel-workbook-to-pdf/">Convertir libro de Excel a PDF</a></li>
+            <li><a href="/cells/es/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convierta el archivo de Excel al formato PDF compatible con PDFA-1a</a></li>
             <li><a href="/cells/es/net/convert-excel-to-image/">Convierta el libro de trabajo a diferentes formatos de imagen</a></li>
             <li><a href="/cells/es/net/track-document-conversion-progress/">Seguimiento del progreso de la conversión de documentos</a></li>
             <li><a href="/cells/es/net/convert-excel-to-html/">Convertir Excel a HTML</a></li>
@@ -71,7 +71,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
 		 <li><a href="/cells/es/net/cells-number-settings/">Número</a></li>
 		 <li><a href="/cells/es/net/cells-alignment-settings/">Alineación</a></li>
 		 <li><a href="/cells/es/net/cells-font-settings/">Fuente</a></li>
-		 <li><a href="/cells/es/net/cells-border-settings/">Borde</a></li>
+		 <li><a href="/cells/es/net/cells-border-settings/">Frontera</a></li>
 		 <li><a href="/cells/es/net/cells-fill-settings/">Llenar</a></li>
         </ul>
         <p>Formato condicional</p>
@@ -81,7 +81,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         </ul>       
     </div>
     <div class="col-md-6">        
-        <p>Clasificar</p>
+        <p>Tipo</p>
         <ul>
 		 <li><a href="/cells/es/net/data-sorting/">Clasificación de datos</a></li>
          <li><a href="/cells/es/net/sort-data-in-column-with-custom-sort-list/">Ordenar datos en columna con lista de ordenación personalizada</a></li>
@@ -119,7 +119,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/es/net/managing-pictures/">Imagen</a></p>
+        <p><a href="/cells/es/net/managing-pictures/">Fotografía</a></p>
         <ul>
             <li><a href="/cells/es/net/insert-a-linked-picture-from-web-address/">Insertar una imagen vinculada desde una dirección web</a></li>
             <li><a href="/cells/es/net/insert-a-picture-based-on-cell-reference/">Insertar una imagen basada en la referencia Cell</a></li>
@@ -157,7 +157,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
             <li><a href="/cells/es/net/extract-text-from-the-gear-type-smartart-shape/">Extraiga texto de la forma SmartArt de tipo de engranaje</a></li>
             <li><a href="/cells/es/net/convert-the-smart-art-to-group-shape/">Convierta el arte inteligente en forma de grupo</a></li>
         </ul>
-         <p><a href="/cells/es/net/creating-charts/">Cuadro</a></p>
+         <p><a href="/cells/es/net/creating-charts/">Gráfico</a></p>
 		  <ul>
             <li><a href="/cells/es/net/creating-charts/">Creación de gráficos</a></li>
             <li><a href="/cells/es/net/customizing-charts/">Personalización de gráficos</a></li>
@@ -275,9 +275,9 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         <ul>
 		 <li><a href="/cells/es/net/reading-and-writing-query-table-of-worksheet/">Tabla de consulta de lectura y escritura de la hoja de trabajo</a></li>
         </ul>
-        <p>Clasificar</p>
+        <p>Tipo</p>
         <ul>
-         <li><a href="/cells/es/net/data-sorting/">Clasificar</a></li>
+         <li><a href="/cells/es/net/data-sorting/">Tipo</a></li>
           <li><a href="/cells/es/net/specifying-sort-warning-while-sorting-data/">Especificación de advertencia de ordenación al ordenar datos</a></li>
         </ul>
          <p>Filtrar</p>
@@ -295,7 +295,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Esquema</p>
+        <p>Describir</p>
         <ul>
 		<li><a href="/cells/es/net/creating-subtotals/">Creación de subtotales</a></li>
         </ul>
@@ -345,7 +345,7 @@ Esta Guía para desarrolladores proporciona información sobre el uso de Aspose.
         <ul>
          <li><a href="/cells/es/net/worksheet-views/#page-break-preview">La previsualización del salto de página</a></li>
         </ul>
-        <p>Espectáculo</p>
+        <p>Show</p>
          <ul>
 		<li><a href="/cells/es/net/show-and-hide-gridlines-and-row-column-headers/">Ver líneas de cuadrícula y encabezado</a></li>
         </ul>

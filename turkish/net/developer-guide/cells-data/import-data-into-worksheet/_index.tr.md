@@ -66,7 +66,7 @@ Nesne koleksiyonundan birleştirilmiş hücreler içeren bir çalışma sayfası
 
 - **Veri tablosu** ,*Veri tablosu* İçeriği içe aktardığınız nesne.
 - **alan adı gösteriliyor mu** , adlarının olup olmadığını belirtir*Veri tablosu*sütunlar çalışma sayfasına ilk satır olarak aktarılmalı veya alınmamalıdır.
-- **Hücreyi başlat** içeriğin içe aktarılacağı başlangıç hücresinin adını (örneğin "A1") temsil eder.*Veri tablosu*.
+- **Hücreyi başlat** , içeriğin içe aktarılacağı başlangıç hücresinin adını (örneğin "A1") temsil eder.*Veri tablosu*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -114,20 +114,20 @@ Aşağıda verilen örnek kod,[**ImportTableOptions.ColumnIndexes**](https://ref
 
  Verileri içe aktarmak için bir*Izgara Görünümü* kontrol, çağrı[**Grid Görünümünü İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) yöntemi[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)Toplamak.
 
-Aspose.Cells, elektronik tabloya veri aktarırken HTML formatlı değerlere uymamızı sağlar. Verileri içe aktarırken HTML ayrıştırma etkinleştirildiğinde, Aspose.Cells HTML'yi karşılık gelen hücre biçimlendirmesine dönüştürür.
+Aspose.Cells, elektronik tabloya veri aktarırken HTML biçimlendirilmiş değerlerine uymamızı sağlar. Verileri içe aktarırken HTML ayrıştırma etkinleştirildiğinde, Aspose.Cells, HTML'i karşılık gelen hücre biçimlendirmesine dönüştürür.
 
-## **HTML formatlı verileri içe aktarma**
+## **HTML biçimlendirilmiş verileri içe aktarma**
 
- Aspose.Cells bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)dış veri kaynaklarından veri almak için çok kullanışlı yöntemler sağlayan sınıf. Bu makale, verileri içe aktarırken HTML biçimlendirilmiş metnin nasıl ayrıştırılacağını ve HTML'yi biçimlendirilmiş hücre değerlerine dönüştürmeyi gösterir.
+ Aspose.Cells bir sağlar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)dış veri kaynaklarından veri almak için çok kullanışlı yöntemler sağlayan sınıf. Bu makale, verileri içe aktarırken HTML biçimlendirilmiş metnin nasıl ayrıştırılacağını ve HTML'in biçimlendirilmiş hücre değerlerine dönüştürülmesini gösterir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
-## **JSON'dan Verileri İçe Aktarma**
+## **JSON'den Verileri İçe Aktarma**
 
-Aspose.Cells bir sağlar[**Json Yardımcı Programı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) JSON'u işlemek için sınıf.[**Json Yardımcı Programı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıfın bir[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) JSON verilerini içe aktarma yöntemi. Aspose.Cells ayrıca bir[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) JSON düzeninin seçeneklerini temsil eden sınıf. bu[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)yöntem kabul eder[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)parametre olarak. bu[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)sınıf aşağıdaki özellikleri sağlar.
+Aspose.Cells bir sağlar[**Json Yardımcı Programı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) işleme sınıfı JSON.[**Json Yardımcı Programı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) sınıfın bir[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) JSON verilerini içe aktarma yöntemi. Aspose.Cells ayrıca bir[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) JSON düzeninin seçeneklerini temsil eden sınıf. bu[**Verileri İçe Aktar**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)yöntem kabul eder[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)parametre olarak. bu[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)sınıf aşağıdaki özellikleri sağlar.
 
 - [**DiziAsTablosu**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Dizide tablo olarak işlenip işlenmeyeceğini belirtir.
-- [**NümerikOrTarihi Dönüştür**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): JSON'daki dizenin sayısala mı yoksa tarihe mi dönüştürüleceğini gösteren bir değer alır veya ayarlar.
+- [**NümerikOrTarihi Dönüştür**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): JSON'deki dizenin sayısala mı yoksa tarihe mi dönüştürüleceğini gösteren bir değer alır veya ayarlar.
 - [**Tarih formatı**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Tarih değerinin biçimini alır ve ayarlar.
 - [**Dizi Başlığını Yoksay**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Nesnenin özelliği bir dizi ise, başlığın göz ardı edilip edilmeyeceğini belirtir
 - [**YoksayNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Boş değerin göz ardı edilip edilmeyeceğini gösterir.

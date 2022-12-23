@@ -17,7 +17,7 @@ Aspose.Cells for Python, Excel dosyalarının çalışma kitabı yapısını kor
 
 1.  Tıklamak**Gözden Geçir > Çalışma Kitabını Koru**.
 1.  içine bir şifre girin**Parola kutusu**.
-1.  Seçme**TAMAM** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**TAMAM** Yeniden.
+1.  Seçme**Tamam** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**Tamam** Yeniden.
 
 
 ## **Aspose.Cell for Python Kullanarak Çalışma Kitabı Yapısını Koruyun**

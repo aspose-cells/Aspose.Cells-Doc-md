@@ -51,7 +51,7 @@ url: /zh/net/setting-chart-appearance/
 ### **使用主要网格线**
 可以自定义主要网格线的外观。隐藏或显示网格线，或定义它们的颜色和其他设置。下面，我们将展示如何隐藏网格线以及如何更改它们的颜色。
 #### **隐藏主要网格线**
-开发人员可以通过设置[可见](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible)的财产[线](https://reference.aspose.com/cells/net/aspose.cells.drawing/line)反对**真的**或者**错误的**.
+开发人员可以通过设置[可见](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible)的财产[线](https://reference.aspose.com/cells/net/aspose.cells.drawing/line)反对**真的**要么**错误的**.
 
 以下代码片段演示了如何隐藏主要网格线。隐藏主要网格线后，工作表中将添加一个没有网格线的柱形图。
 

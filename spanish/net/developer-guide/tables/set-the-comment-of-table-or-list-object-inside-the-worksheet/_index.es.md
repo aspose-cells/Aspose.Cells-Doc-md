@@ -12,6 +12,6 @@ url: /es/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 
 ## **Establezca el comentario de la tabla o el objeto de lista dentro de la hoja de trabajo**
 
- El siguiente código de ejemplo carga el[archivo fuente excel](5115514.xlsx)establece el comentario de la primera tabla o el objeto de lista dentro de la hoja de trabajo.
+ El siguiente código de ejemplo carga el[archivo fuente excel](5115514.xlsx)establece el comentario de la primera tabla o el objeto de lista dentro de la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-SetCommentOfTableOrListObject-1.cs" >}}

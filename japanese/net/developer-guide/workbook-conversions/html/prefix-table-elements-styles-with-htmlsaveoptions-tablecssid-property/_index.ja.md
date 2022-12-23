@@ -28,7 +28,7 @@ etc.
 
 ## **HtmlSaveOptions.TableCssId プロパティを使用してテーブル要素スタイルをプレフィックスする**
 
-次のサンプル コードは、[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)財産。を確認してください[出力HTML](60489790.zip)参照用のコードによって生成されます。
+次のサンプル コードは、[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)財産。を確認してください[出力 HTML](60489790.zip)参照用のコードによって生成されます。
 
 ## **サンプルコード**
 

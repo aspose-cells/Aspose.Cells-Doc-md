@@ -45,7 +45,7 @@ Das folgende Beispiel zeigt, wie der Bearbeitungsmodus programmgesteuert aktivie
 
 {{% /alert %}} 
 ## **Ansichtsmodus**
-Wenn sich das GridWeb-Steuerelement im Ansichtsmodus befindet, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, was bedeutet, dass Benutzer den Rasterinhalt nur anzeigen können. Deshalb wird dieser Modus Ansichtsmodus genannt. Im Ansichtsmodus sind einige Schaltflächen (**Einreichen**, **Speichern** und**Rückgängig machen** ) sind ausgeblendet und das Menü, das beim Rechtsklick erscheint, enthält nur die**Kopieren** Möglichkeit.
+Wenn sich das GridWeb-Steuerelement im Ansichtsmodus befindet, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, was bedeutet, dass Benutzer den Rasterinhalt nur anzeigen können. Deshalb wird dieser Modus Ansichtsmodus genannt. Im Ansichtsmodus sind einige Schaltflächen (**einreichen**, **Speichern** und**Rückgängig machen** ) sind ausgeblendet und das Menü, das beim Rechtsklick erscheint, enthält nur die**Kopieren** Möglichkeit.
 
 **GridWeb-Steuerelement im Ansichtsmodus** 
 

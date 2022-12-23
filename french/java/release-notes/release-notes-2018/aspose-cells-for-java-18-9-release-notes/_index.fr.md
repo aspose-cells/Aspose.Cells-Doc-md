@@ -10,18 +10,18 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.9.
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42715|Les formules ne sont pas récupérées de la même manière que dans le fichier MS Excel|Punaise|
-|CELLSJAVA-42711|Le graphique au format PDF n'est pas généré à partir du modèle Excel|Punaise|
-|CELLSJAVA-42710|Dupliquer le texte de l'élément de légende dans le graphique lors de la conversion d'Excel en PDF|Punaise|
-|CELLSJAVA-42706|La sortie PDF n'affiche pas l'étiquette du graphique|Punaise|
+|CELLSJAVA-42711|Le graphique dans PDF n'est pas généré à partir du modèle Excel|Punaise|
+|CELLSJAVA-42710|Dupliquer le texte de l'élément de légende dans le graphique dans Excel en conversion PDF|Punaise|
+|CELLSJAVA-42706|PDF la sortie n'affiche pas l'étiquette du graphique|Punaise|
 |CELLSJAVA-42700|Le graphique en cascade n'est pas rendu correctement après la modification des données du graphique|Punaise|
 |CELLSJAVA-42717|Cells.deleteRow ne fonctionne pas correctement|Punaise|
 |CELLSJAVA-42716|Mauvaise valeur récupérée pour le style de bordure|Punaise|
 |CELLSJAVA-42709|Mauvais style de bordure inférieure renvoyé pour la cellule fusionnée|Punaise|
 |CELLSJAVA-42705|MS Excel génère une erreur lors du chargement du fichier après avoir défini le filtre automatique|Punaise|
-|CELLSJAVA-42703|Graphique non rendu lors de la conversion d'ODS en PDF|Punaise|
+|CELLSJAVA-42703|Graphique non rendu lors de la conversion de ODS en PDF|Punaise|
 |CELLSJAVA-42702|Des bordures grises apparaissent après la lecture du style de cellule dans la feuille de calcul|Punaise|
 |CELLSJAVA-42699|PasteType.VALUES_ET_NUMBER_FORMATS ne fonctionne pas correctement|Punaise|
 |CELLSJAVA-42646|Exception : "FormulaBuild Unknown formula token0" sur Name.getRefersTo()|Exception|
@@ -77,11 +77,11 @@ Obtient le nom de style de police anglais standard (régulier, gras, italique) p
 
 ### **Ajoute l'énumération PdfCustomPropertiesExport**
 
-Spécifie la manière dont CustomDocumentPropertyCollection est exporté vers un fichier PDF.
+Spécifie la manière dont CustomDocumentPropertyCollection est exporté vers le fichier PDF.
 
 ### **Ajoute la propriété PdfSaveOptions.CustomPropertiesExport**
 
-Obtient ou définit une valeur déterminant la façon dont CustomDocumentPropertyCollection est exporté vers un fichier PDF. La valeur par défaut est Aucun.
+Obtient ou définit une valeur déterminant la manière dont CustomDocumentPropertyCollection est exporté vers le fichier PDF. La valeur par défaut est Aucun.
 
 ### **Ajoute la classe XmlDataBinding**
 

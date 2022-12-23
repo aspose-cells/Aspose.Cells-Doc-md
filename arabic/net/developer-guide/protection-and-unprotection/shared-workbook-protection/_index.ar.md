@@ -6,7 +6,7 @@ url: /ar/net/password-protect-or-unprotect-the-shared-workbook/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- يمكنك حماية المصنف المشترك أو إلغاء حمايته باستخدام Microsoft Excel كما هو موضح في لقطة الشاشة التالية. يدعم Aspose.Cells أيضًا هذه الميزة مع[**المصنف .ProtectSharedWorkbook ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) و[**المصنف.**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)طُرق.
+ يمكنك حماية المصنف المشترك أو إلغاء حمايته باستخدام Microsoft Excel كما هو موضح في لقطة الشاشة التالية. يدعم Aspose.Cells أيضًا هذه الميزة مع[**المصنف .ProtectSharedWorkbook ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) و[**المصنف.**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)أساليب.
 
 ![ما يجب القيام به: image_بديل_نص](password-protect-or-unprotect-the-shared-workbook_1.png)
 

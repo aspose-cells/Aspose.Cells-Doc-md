@@ -21,7 +21,7 @@ url: /de/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|Endlosschleife beim Speichern der kopierten Arbeitsmappe|
 |CELLSJAVA-43442|Problem mit der Datensortierung beim Klicken auf Header-Links in der GridWeb Spring Demo|
 |CELLSJAVA-43443|Problem mit dem Bearbeitungsmodus im GridWeb Java|
-|CELLSJAVA-43455|Schriftarten werden nicht in PDF für Nicht-ASCII-Zeichen eingebettet, wenn EmbedStandardWindowsFonts auf „false“ festgelegt wird|
+|CELLSJAVA-43455|Schriftarten werden nicht in PDF für Nicht-ASCII-Zeichen eingebettet, während EmbedStandardWindowsFonts auf „false“ festgelegt wird|
 |CELLSJAVA-43449|Die Schriftfamilie der Diagrammelemente kann nicht von „Calibri“ auf „Aktiv Grotesk“ geändert werden|
 |CELLSJAVA-43454|Beschriftungen der X-Achse werden abgeschnitten|
 |CELLSJAVA-43445|Regression: fehlende Zeilendaten für .numbers-Dateien|

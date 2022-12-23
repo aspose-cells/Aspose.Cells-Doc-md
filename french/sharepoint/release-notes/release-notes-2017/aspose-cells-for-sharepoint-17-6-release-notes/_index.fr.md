@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for SharePoint 17.6.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSSP-25|Prise en charge du rendu au format de fichier XLSM|Nouvelle fonctionnalité|
 |CELLSSP-45|Ajouter un filigrane dans un document Excel|Nouvelle fonctionnalité|

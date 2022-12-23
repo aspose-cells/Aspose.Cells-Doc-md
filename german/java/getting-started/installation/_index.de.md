@@ -82,7 +82,7 @@ Definieren Sie dann die Abhängigkeit Aspose.Cells for Java API in Ihrer pom.xml
 
 Herzliche Glückwünsche! Sie haben die Abhängigkeit Aspose.Cells for Java Maven in Ihrem Maven-Projekt erfolgreich definiert.
 
-## **Die Unterstützung**
+## **Unterstützung**
 
 Bitte überprüfen Sie die folgenden Punkte, um schnellen technischen Support zu erhalten
 

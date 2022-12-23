@@ -24,7 +24,7 @@ Aspose.Cells kullanılarak bir hücreye üç tür köprü eklenebilir:
 
 Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)class, Excel dosyalarına farklı köprüler eklemek için farklı yöntemler sağlar.
 ## **Bir URL'ye Bağlantı Ekleme**
- bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf bir içerir[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) Toplamak. İçindeki her öğe[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyon temsil eder[köprü](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) . Çağırarak URL'lere köprüler ekleyin[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) koleksiyonun[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi aşağıdaki parametreleri alır:
+ bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf bir içerir[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) Toplamak. İçindeki her öğe[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyon temsil eder[köprü](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) . Çağırarak URL'lere köprüler ekleyin[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) koleksiyonun[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi aşağıdaki parametreleri alır:
 
 - Cell adı, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.
@@ -43,7 +43,7 @@ Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.c
 
 
 ## **Aynı Dosyada Cell'e Bağlantı Ekleme**
- Aynı Excel dosyasındaki hücrelere köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyonun[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi hem iç hem de dış köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
+ Aynı Excel dosyasındaki hücrelere köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyonun[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi hem iç hem de dış köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
 
 - Cell adı, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.
@@ -57,7 +57,7 @@ Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.c
 
 
 ## **Harici Dosyaya Bağlantı Ekleme**
- Dış Excel dosyalarına köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyonun[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Ekle](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi aşağıdaki parametreleri alır:
+ Dış Excel dosyalarına köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) koleksiyonun[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )yöntem. bu[Eklemek](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)) yöntemi aşağıdaki parametreleri alır:
 
 - Cell adı, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.

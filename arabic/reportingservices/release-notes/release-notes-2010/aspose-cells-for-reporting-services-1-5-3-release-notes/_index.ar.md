@@ -16,8 +16,8 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-5-3-release-not
 
 
 
- يدعم تنسيق تصدير المواد المستنفدة للأوزون.
+ يدعم ODS تنسيق التصدير.
 
- يدعم تنسيق تصدير XLSB.
+ يدعم XLSB تنسيق التصدير.
 
  11 إصلاحات وتحسينات.

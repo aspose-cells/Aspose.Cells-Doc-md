@@ -13,8 +13,8 @@ Microsoft Mit Excel können Sie eine Sparkline kopieren, indem Sie den Datenbere
 So kopieren Sie eine Sparkline in andere Zellen in Microsoft Excel:
 
 1. Wählen Sie die Zelle mit der Sparkline aus.
-1.  Auswählen**Daten bearbeiten** von dem**Sparkline** Abschnitt der**Entwurf** Tab.
-1.  Auswählen**Standort und Daten der Gruppe bearbeiten**.
+1.  Wählen**Daten bearbeiten** von dem**Sparkline** Abschnitt der**Design** Tab.
+1.  Wählen**Standort und Daten der Gruppe bearbeiten**.
 1. Geben Sie den Datenbereich und den Speicherort an.
 1.  Klicken**OK**.
 

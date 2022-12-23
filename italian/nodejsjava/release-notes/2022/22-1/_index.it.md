@@ -10,7 +10,7 @@ url: /it/nodejsjava/aspose-cells-for-node-js-via-java-22-1-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44162|Supporto per rimuovere il collegamento esterno senza rimuovere le formule|
 |CELLSJAVA-44214|Supporto per l'adattamento automatico delle righe per GridWeb|
@@ -22,16 +22,16 @@ url: /it/nodejsjava/aspose-cells-for-node-js-via-java-22-1-release-notes/
 |CELLSJAVA-44204|problema di impaginazione per csv|
 |CELLSJAVA-43934|Le etichette del grafico a torta non vengono abbinate a Excel dopo aver manipolato o aggiornato il grafico|
 |CELLSJAVA-44122|Quando si esporta HTML, le etichette dei dati sono diverse da quelle di Excel|
-|CELLSJAVA-41949| Il rendering del contenuto è diverso quando si salva la cartella di lavoro nei formati XLSX e HTML|
-|CELLSJAVA-44207|Quando esporti in HTML, l'altezza della riga aumenta|
-|CELLSJAVA-44233|Ciclo infinito durante la conversione di file XLSX|
+|CELLSJAVA-41949| Il contenuto viene visualizzato in modo diverso quando si salva la cartella di lavoro nei formati XLSX e HTML|
+|CELLSJAVA-44207|Quando si esporta in HTML, l'altezza della riga aumenta|
+|CELLSJAVA-44233|Ciclo infinito durante la conversione del file XLSX|
 |CELLSJAVA-44234|Problema di memoria insufficiente per il file data.xls|
 |CELLSJAVA-44246|Eccezione "Indice endrow non valido" per file vuoto|
 |CELLSJAVA-44258| Eccezione puntatore nullo per file|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della rimozione dei collegamenti esterni dalla cartella di lavoro.**
 
@@ -39,7 +39,7 @@ Nelle vecchie versioni, non rimuoviamo il collegamento esterno il cui URL contie
 
 ### **Modifica il comportamento di Cell. Digitare per un valore data/ora non valido.**
 
-Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato per ottenere il valore della cella dall'API appropriata.
+Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato a ottenere il valore della cella tramite API corretto.
 
 ### **Modifica il comportamento di Cells.MaxDisplayRange.**
 
@@ -51,7 +51,7 @@ Nelle vecchie versioni? I metodi DataSorter.Sort() non restituiscono nulla. Da q
 
 ### **Aggiunge la proprietà TxtLoadOptions.ExtendToNextSheet.**
 
-Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o delle colonne dei dati supera il limite di ms excel.
+Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o il conteggio delle colonne dei dati supera il limite di ms excel.
 
 ### **Aggiunge il metodo ExternalLinkCollection.Clear().**
 

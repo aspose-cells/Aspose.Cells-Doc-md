@@ -18,6 +18,6 @@ url: /it/java/changing-the-layout-of-pivot-table/
 
 ## **Esempio**
 
- Il codice di esempio seguente mostra innanzitutto la tabella pivot in**Forma compatta** , quindi mostra la tabella pivot in**Modulo contorno** infine, mostra la tabella pivot in**Forma tabulare**.
+ Il codice di esempio seguente mostra innanzitutto la tabella pivot in**Forma compatta** , quindi mostra la tabella pivot in**Modulo contorno** e infine, mostra la tabella pivot in**Forma tabulare**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}

@@ -15,19 +15,19 @@ url: /zh/java/aspose-cells-for-android-via-java-20-12-release-notes/
 |CELLSJAVA-43322|需要 Shape.getWorksheet() 属性|新功能|
 |CELLSJAVA-43367|支持计算ISFORMULA函数|
 |CELLSJAVA-43191|提供在指定不正确的字体类型时处理场景的方法|强化|
-|CELLSJAVA-40913|生成的 PDF 中的箭头方向已更改|漏洞|
+|CELLSJAVA-40913|结果 PDF 中的箭头方向已更改|漏洞|
 |CELLSJAVA-43282|刷新枢轴不起作用并损坏输出文件|漏洞|
 |CELLSJAVA-43286|Aspose.Cells 与 HtmlHiddenRowDisplayType.REMOVE 设置冲突|漏洞|
 |CELLSJAVA-43302|获取 Cells 值的问题|漏洞|
-|CELLSJAVA-43308|使用 wrapText 属性将 HTML 转换为 excel|漏洞|
+|CELLSJAVA-43308|HTML 使用 wrapText 属性进行 excel 转换|漏洞|
 |CELLSJAVA-43318|数据透视表刷新后的 Cell 值问题|漏洞|
 |CELLSJAVA-43299|获取 Cell 值的问题|漏洞|
 |CELLSJAVA-43284|对特定物理打印机使用 Aspose.Cells 时未打印图表|漏洞|
 |CELLSJAVA-43273|图例项中的文本在输出图像中被剪切|漏洞|
 |CELLSJAVA-43274|图表栏轮廓颜色的差异|漏洞|
 |CELLSJAVA-43276|将 XLSX 转换为 PDF 时出现换行问题|漏洞|
-|CELLSJAVA-43278|Excel 中的删除线未显示在 PDF 文件中|漏洞|
-|CELLSJAVA-43304|输出 PDF 中缺少图表的某些数据标签|漏洞|
+|CELLSJAVA-43278|PDF 文件中不显示 Excel 中的删除线|漏洞|
+|CELLSJAVA-43304|输出中缺少图表的某些数据标签 PDF|漏洞|
 |CELLSJAVA-43311|图表 X 轴标签在转换为图像时是垂直的而不是对角线的|漏洞|
 |CELLSJAVA-40992|重新保存 Excel 文件时图表文本位置出现问题|漏洞|
 |CELLSJAVA-43294|条件格式颜色主题无法正常工作|漏洞|
@@ -40,14 +40,14 @@ url: /zh/java/aspose-cells-for-android-via-java-20-12-release-notes/
 |CELLSJAVA-43313|图表标签在打印时更改其位置|漏洞|
 |CELLSJAVA-43314|0/100% 线不打印 100% 饼图|漏洞|
 |CELLSJAVA-43316|打印图表时的各种问题|漏洞|
-|CELLSJAVA-40582|智能艺术文本未正确呈现为 PDF/图像|漏洞|
+|CELLSJAVA-40582|智能艺术文本未正确呈现为 PDF/image|漏洞|
 |CELLSJAVA-41639|从“XML 电子表格 2003”格式转换为 XLSX 格式时不保留列宽|漏洞|
-|CELLSJAVA-43315|将 XLS 转换为 XLSX 会使文件损坏，并在将输出 XLSX 转换为 PDF 时出现“Shape to Image”错误|漏洞|
+|CELLSJAVA-43315|将 XLS 转换为 XLSX 会使文件损坏并在将输出 XLSX 转换为 PDF 时出现“形状到图像”错误|漏洞|
 |CELLSJAVA-43334|表问题上的自动筛选|漏洞|
 |CELLSJAVA-43338|将 Excel 文件转换为 PDF 时输出差异|
 |CELLSJAVA-43346|在数据透视表页面过滤器中添加超过 12 个字段时，输出文件已损坏|
 |CELLSJAVA-43351|转换为 pdf 时标题表的背景颜色不正确|
-|CELLSJAVA-43358|HTML 到 Excel 转换时缺少文本|
+|CELLSJAVA-43358|HTML 到 Excel 转换时文本丢失|
 |CELLSJAVA-43341|使用 LightCellsDataProvider 导出 CSV 时额外的空列|
 |CELLSJAVA-43352|转换为 PDF 的 Excel 文件会产生大量数字的问题|
 |CELLSJAVA-43339|将源文件转换为 pdf 时图像错位|
@@ -55,13 +55,13 @@ url: /zh/java/aspose-cells-for-android-via-java-20-12-release-notes/
 |CELLSJAVA-43336|图表图例条目呈现得太靠左|
 |CELLSJAVA-43356|当介于 2 个值之间时，不考虑图表上的空值/间隙|
 |CELLSJAVA-43344|当前用户名显示为最后评论的作者|
-|CELLSJAVA-43349|不维护从 XML 到 XLS/XLSX 转换的隐藏行|
+|CELLSJAVA-43349|不维护隐藏行从 XML 到 XLS/XLSX 的转换|
 |CELLSJAVA-43361|xls 到 xlsx 转换时的单元格颜色不正确|
 |CELLSJAVA-43366|SetAsTotal 属性不更新|
 |CELLSJAVA-43296|刷新数据透视表时出现 ArrayIndexOutOfBoundsException|例外|
-|CELLSJAVA-43298|Aspose.Cells 20.8：保存为 PDF 时出现异常。|例外|
+|CELLSJAVA-43298|Aspose.Cells 20.8：保存到 PDF 时出现异常。|例外|
 |CELLSJAVA-43348|XLSB 到 PDF 转换：CellsException：-2147483648|
-|CELLSJAVA-43343|将文件导出为没有形状选定项目的 PDF 时出现异常|
+|CELLSJAVA-43343|将文件导出到 PDF 时出现异常，该文件没有形状的选定项目|
 
 ## **公共 API 和向后不兼容的更改**
 
@@ -125,7 +125,7 @@ url: /zh/java/aspose-cells-for-android-via-java-20-12-release-notes/
 
 ### **添加 ListObject.Filter() 方法。**
 
-过滤表格。
+过滤表。
 
 ### **添加覆盖 XmlMapCollection.Clear() 方法。**
 

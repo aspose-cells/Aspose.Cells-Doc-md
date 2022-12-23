@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /ru/net/merge-files/
 ---
-## **Введение**
+## **Вступление**
 
  Aspose.Cells предоставляет различные способы объединения файлов. Для простых файлов с данными, форматированием и формулами[**Рабочая книга.Объединить()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) можно использовать для объединения нескольких рабочих книг, а[**Рабочий лист.Копировать()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)Метод можно использовать для копирования листов в новую книгу. Эти методы просты в использовании и эффективны, но если вам нужно объединить много файлов, вы можете обнаружить, что они требуют много системных ресурсов. Чтобы этого избежать, используйте[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)статический метод, более эффективный способ объединения нескольких файлов.
 

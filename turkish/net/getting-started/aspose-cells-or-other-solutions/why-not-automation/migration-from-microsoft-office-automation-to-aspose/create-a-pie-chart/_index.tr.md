@@ -100,7 +100,7 @@ Aşağıdaki kod örnekleri, VSTO kullanarak bir elektronik tabloya pasta grafi�
 
 **VSTO ile oluşturulmuş bir pasta grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](create-a-pie-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](create-a-pie-chart_1.png)
 
 ### **Aspose.Cells for .NET ile Pasta Grafik Oluşturma**
 
@@ -180,4 +180,4 @@ Aşağıdaki kod örnekleri, Aspose.Cells kullanarak bir elektronik tabloya past
 
 **Aspose.Cells for .NET ile oluşturulan pasta grafik** 
 
-![yapılacaklar:resim_alternatif_Metin](create-a-pie-chart_2.png)
+![yapılacaklar:resim_alternatif_metin](create-a-pie-chart_2.png)

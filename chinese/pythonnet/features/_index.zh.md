@@ -12,12 +12,12 @@ description: Aspose.Cells for Python via .NET 特点
 
 {{% /alert %}} 
 ## **文件格式和转换**
-- XLS、SpreadsheetML（XLSX、XML）、XLSB、XLSM、DOCX、PPTX、JSON、逗号分隔值 (CSV)、HTML、OpenDocument 电子表格 (ODS)、PDF、制表符分隔、纯文本 (TXT) 和流行的图像格式，包括 TIFF 、JPG、PNG、BMP 和 SVG。
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF 、JPG、PNG、BMP 和 SVG。
 ## **渲染和打印**
 - 将电子表格呈现为矢量图像 (EMF)
 - 将工作表渲染为光栅图像（多页 TIFF、GIF）
 - 将工作表渲染为光栅图像（PNG、JPEG 等）
-- 将电子表格呈现为高保真 PDF
+- 以高保真度将电子表格渲染到 PDF
 ## **电子表格内容功能**
 - 在工作簿内或工作簿之间复制或移动工作表
 - 使用 API 插入图像、创建常规和自定义图表并为图表设置渐变背景

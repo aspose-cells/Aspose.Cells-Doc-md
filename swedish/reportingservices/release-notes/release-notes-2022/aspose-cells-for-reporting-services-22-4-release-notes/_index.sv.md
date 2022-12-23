@@ -11,5 +11,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 22.
 ## **Komplett lista över problem och förbättringar som tas upp i denna version**
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|29968 |Stöd till SQL-renderare.|Ny funktion|
+|29968 |Stöd för SQL-renderare.|Ny funktion|
 |29969 |Uppdatera version Aspose.Cells till 22.4.|Ny funktion|

@@ -32,7 +32,7 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043) - يؤدي فتح ملف Excel الكبير وإعادة حفظه إلى إتلاف المستند
 
-(CELLSNET-44031) - XLSB تالف في Excel 2010 بعد الحفظ في v8.6.1
+ (CELLSNET-44031) - XLSB تالف في Excel 2010 بعد الحفظ في v8.6.1
 
  (CELLSNET-43990) - شكل تلقائي في غير محله أثناء تقديم جدول البيانات إلى PDF
 
@@ -46,19 +46,19 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43421) - لا يتم عرض السهم بشكل صحيح أثناء تحويل جدول البيانات إلى PDF
 
- (CELLSNET-43391) - مشكلة في عرض HTML لجدول به عمود مخفي
+ (CELLSNET-43391) - مشكلة مع عرض HTML لجدول بعمود مخفي
 
- (CELLSNET-44045) - المصنف. تتعطل طرق CalculateFormula لوقت غير محدد
+(CELLSNET-44045) - المصنف. تتعطل طرق CalculateFormula لوقت غير محدد
 
  (CELLSNET-44051) - رموز التنسيق الشرطي مفقودة من PDF
 
- (CELLSNET-44047) - تم تصغير الصفحات في ملف PDF الناتج
+ (CELLSNET-44047) - تم تصغير الصفحات في الإخراج PDF
 
  (CELLSNET-44025) - لا يتم الاحتفاظ بسماكة الحدود حسب منطقة الطباعة
 
  (CELLSNET-44002) - تم تحجيم الصورة بسبب بعض المشاكل في الكود
 
-(CELLSNET-43960) - لا يمكن قراءة بعض الملفات المحمية بكلمة مرور
+ (CELLSNET-43960) - لا يمكن قراءة بعض الملفات المحمية بكلمة مرور
 
  (CELLSNET-44062) - لا تتم إزالة إدخال وسيلة الإيضاح في المخطط عندما يكون عمود مصدر البيانات مخفيًا
 
@@ -72,7 +72,7 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43978) - الرسم البياني للصورة يتم إنشاؤه بقيم إضافية
 
- (CELLSNET-43874) - لا يتم الاحتفاظ بتنسيق الأرقام Chart.NSeries.DataLabels أثناء إعادة الحفظ
+(CELLSNET-43874) - لا يتم الاحتفاظ بتنسيق الأرقام Chart.NSeries.DataLabels أثناء إعادة الحفظ
 
  (CELLSNET-44038) - يقوم Chart.ToImage () بتعديل محاذاة نص الملصق
 
@@ -80,9 +80,9 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44060) - شكل لون الخط خطأ بعد نسخ الورقة
 
- (CELLSNET-44056) - يفقد الحفظ في PDF الحدود الرأسية
+ (CELLSNET-44056) - حفظ إلى PDF يفقد الحدود الرأسية
 
-(CELLSNET-44049) - الأعمدة المخفية تفقد عرضها
+ (CELLSNET-44049) - الأعمدة المخفية تفقد عرضها
 
  (CELLSNET-44039) - تعذر حساب الصيغة بناءً على القيم التي تمت تصفيتها في ورقة العمل
 
@@ -92,11 +92,11 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44030) - لا تعمل وظيفة SUMIFS Excel بتنسيق XLSB
 
- (CELLSNET-44007) - تكرار كائنات الكاميرا في جدول البيانات الناتج أثناء إعادة حفظ XLSB
+ (CELLSNET-44007) - تكرار كائنات الكاميرا في جدول البيانات الناتج مع إعادة حفظ XLSB
 
- (CELLSNET-44006) - خطأ في العرض المحمي أثناء فتح XLS المعاد حفظه
+ (CELLSNET-44006) - خطأ العرض المحمي أثناء الفتح تم إعادة حفظه XLS
 
- (CELLSNET-44001) - صيغة NOW () لا تظهر بشكل صحيح في SpreadsheetML (XML) لتحويل PDF
+(CELLSNET-44001) - صيغة NOW () لا تظهر بشكل صحيح في تحويل SpreadsheetML (XML) إلى PDF
 
  (CELLSNET-43894) - تعذر تحديث ارتباط OLE ObjectSourceFullName
 
@@ -108,15 +108,15 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44008) - CellsException في SheetRender.ToImage
 
- (CELLSNET-43926) - CellsException في Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException في Workbook.CalculateFormula
 
- (CELLSNET-44052) - حدث استثناء في Workbook.Save () في تحويل Excel إلى PDF
+ (CELLSNET-44052) - حدث استثناء في Workbook.Save () في Excel لتحويل PDF
 
  (CELLSNET-44050) - System.FormatException في Workbook ctor
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -124,7 +124,7 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **ميزات جديدة**
 
 
-(CELLSNET-44036) - لون الخط هو نفسه للنص بأكمله على الرغم من أن الخلية بها نصوص بألوان مختلفة
+ (CELLSNET-44036) - لون الخط هو نفسه للنص بأكمله على الرغم من أن الخلية بها نصوص بألوان مختلفة
 
  (CELLSNET-44033) - احصل على الخلايا المعدلة في وضع Ajax على جانب الخادم
 
@@ -176,7 +176,7 @@ url: /ar/net/aspose-cells-for-net-8-6-2-release-notes/
 
 
 
- يضيف حدث AjaxCallFinished في GridWeb
+يضيف حدث AjaxCallFinished في GridWeb
 
  حرائق عند انتهاء تحديث ajax لعنصر التحكم. (يجب ضبط EnableAJAX على true).
 

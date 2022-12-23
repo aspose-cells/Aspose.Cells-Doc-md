@@ -10,43 +10,43 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42356|Aggiungi una proprietà per indicare se generare o meno una pagina vuota quando non c'è niente da stampare|Nuova caratteristica|
 |CELLSJAVA-42322|Supporta la funzione Filtro avanzato (MS Excel) per visualizzare i record che soddisfano criteri complessi|Nuova caratteristica|
-|CELLSJAVA-42391|La larghezza Cell mostrata nel PDF risultante non è la stessa del file Excel quando si utilizza la funzione "Mostra formula"|Nuova caratteristica|
+|CELLSJAVA-42391|La larghezza Cell mostrata nel risultato PDF non è la stessa del file Excel quando si utilizza la funzione "Mostra formula"|Nuova caratteristica|
 |CELLSJAVA-42379|Implementazione della destinazione denominata durante il rendering nell'output PDF (query segnalibro)|Nuova caratteristica|
-|CELLSJAVA-42336|ResultSet importa il valore zero anziché nullo nel file XLSX|Aumento|
+|CELLSJAVA-42336|ResultSet importa zero invece di un valore nullo nel file XLSX|Aumento|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() non dovrebbe essere una funzione statica (globale).|Aumento|
 |CELLSJAVA-42341|InterruptMonitor impiega più tempo per interrompere il processo di salvataggio della cartella di lavoro per un file di grandi dimensioni con tabella pivot|Aumento|
-|CELLSJAVA-42358|La formula non viene visualizzata nel PDF risultante|Aumento|
+|CELLSJAVA-42358|La formula non viene visualizzata nel risultato PDF|Aumento|
 |CELLSJAVA-42351|La formula WEEKDAY restituisce un valore errato nel calcolo della formula della cartella di lavoro|Aumento|
 |CELLSJAVA-42401|Devi enumerare tutte le forme per impostare correttamente l'ordine Z della forma|Aumento|
 |CELLSJAVA-42368|Imposta il nome del controllo ActiveX (ListBox)|Aumento|
 |CELLSJAVA-42308|Problemi relativi alla tabella pivot (righe mancanti, intestazioni dei campi pivot stampate due volte, data convertita in valori numerici e così via) per il rendering HTML|Insetto|
 |CELLSJAVA-42298|Caratteri aggiuntivi presenti nell'output HTML del file Excel|Insetto|
-|CELLSJAVA-42277|L'immagine non viene visualizzata nell'HTML di output quando HtmlSaveOptions.setExportHiddenWorksheet è impostato su false|Insetto|
-|CELLSJAVA-42259|L'HTML non può essere convertito correttamente nel file Excel|Insetto|
+|CELLSJAVA-42277|L'immagine non viene visualizzata nell'output HTML quando HtmlSaveOptions.setExportHiddenWorksheet è impostato su false|Insetto|
+|CELLSJAVA-42259|HTML non può essere convertito correttamente in file Excel|Insetto|
 |CELLSJAVA-42256|Problema con il rendering della tabella HTML in Excel|Insetto|
 |CELLSJAVA-42319|Problema con il calcolo dell'area di stampa quando si specificano le formule|Insetto|
 |CELLSJAVA-42320|Il grafico non viene aggiornato se esiste in un foglio separato|Insetto|
 |CELLSJAVA-42295|Il valore Cell viene aggiunto all'inizio quando facciamo clic su una cella esistente (con un valore)|Insetto|
 |CELLSJAVA-42325|Quando XLSX viene salvato come PDF, le parole vengono rispecchiate|Insetto|
 |CELLSJAVA-42299|Caratteri extra presenti nell'output PDF/immagine del file Excel|Insetto|
-|CELLSJAVA-42301|Le barre non sono presenti nell'output PDF del grafico a barre|Insetto|
-|CELLSJAVA-42293|L'immagine del grafico è errata nell'HTML di output|Insetto|
-|CELLSJAVA-42292|L'immagine del grafico non è corretta nell'HTML di output|Insetto|
+|CELLSJAVA-42301|Mancano barre nell'output PDF del grafico a barre|Insetto|
+|CELLSJAVA-42293|L'immagine del grafico è errata nell'output HTML|Insetto|
+|CELLSJAVA-42292|L'immagine del grafico non è corretta nell'output HTML|Insetto|
 |CELLSJAVA-42270|Il contenuto è mancante quando il grafico di Excel viene convertito in PDF|Insetto|
-|CELLSJAVA-42258|Il PDF del grafico ha un formato della data errato per le etichette dell'asse x|Insetto|
-|CELLSJAVA-42252|Ridimensionamento errato dell'asse Y nel PDF di output|Insetto|
-|CELLSJAVA-42245|Lo stile/formattazione è errato durante il salvataggio in HTML|Insetto|
+|CELLSJAVA-42258|Lo PDF del grafico ha un formato data errato delle etichette dell'asse x|Insetto|
+|CELLSJAVA-42252|Ridimensionamento errato dell'asse Y nell'output PDF|Insetto|
+|CELLSJAVA-42245|Lo stile/formattazione è errato quando si salva in HTML|Insetto|
 |CELLSJAVA-42316|L'opzione per comprimere le immagini non viene conservata all'apertura e al salvataggio del file Excel|Insetto|
 |CELLSJAVA-42306|Il colore di sfondo delle celle in File2 viene modificato all'apertura e al salvataggio della cartella di lavoro|Insetto|
 |CELLSJAVA-42305|Il colore di sfondo delle celle in File1 viene modificato all'apertura e al salvataggio della cartella di lavoro|Insetto|
 |CELLSJAVA-42303|La cella della formula di Excel diventa una cella senza formula quando si imposta il testo per la forma|Insetto|
 |CELLSJAVA-42284|Workbook.getFonts() mostra un carattere aggiuntivo dopo aver ricaricato lo stesso foglio di calcolo|Insetto|
-|CELLSJAVA-42327|Alcune forme sono distorte e modificate nel rendering da Excel a PDF|Insetto|
-|CELLSJAVA-42290|I trattini e gli ndash inseriti nelle caselle di testo nei grafici non vengono visualizzati correttamente nel PDF del grafico|Insetto|
+|CELLSJAVA-42327|Alcune forme sono distorte e modificate in Excel nel rendering PDF|Insetto|
+|CELLSJAVA-42290|Mdashes e ndash inseriti in TextBox nei grafici non vengono visualizzati correttamente nel grafico PDF|Insetto|
 |CELLSJAVA-42338|Risultati errati quando si utilizzano le formule SOMMA.PIÙ.SE|Insetto|
 |CELLSJAVA-42337|Aspose.Cells non è in grado di calcolare il valore della cella B4 del foglio di lavoro Calcoli|Insetto|
 |CELLSJAVA-42330|Strano risultato durante la conversione da Excel a PDF o PDF/A utilizzando i thread|Insetto|
@@ -61,12 +61,12 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells for Android via Java
 |CELLSJAVA-42352|La forma non viene aggiornata con il valore corretto|Insetto|
 |CELLSJAVA-42349|Conversione da Excel a PDF impiccata per un file XLSX|Insetto|
 |CELLSJAVA-42348|Impossibile importare il file XLSB (tramite API Aspose.Cells) nel database MS-Access|Insetto|
-|CELLSJAVA-42369|L'output HTML del documento Excel contiene valori hash anziché valori effettivi|Insetto|
+|CELLSJAVA-42369|HTML l'output del documento Excel contiene valori hash anziché valori effettivi|Insetto|
 |CELLSJAVA-42366|Il salvataggio di "2.2 CompleteEmail.html" nel formato Xlsx genera un file corrotto|Insetto|
 |CELLSJAVA-42365|Il caricamento di "2.1 CompleteEmail.html" nell'oggetto cartella di lavoro genera NullPointerException|Insetto|
 |CELLSJAVA-42381|Il calcolo della cartella di lavoro è errato per la formula di ricerca di Excel|Insetto|
 |CELLSJAVA-42380|La formula di matrice nel foglio viene calcolata in modo diverso tramite Aspose.Cells|Insetto|
-|CELLSJAVA-42370|Collegamenti ipertestuali e contenuti PDF errati|Insetto|
+|CELLSJAVA-42370|Collegamenti ipertestuali errati e contenuto PDF|Insetto|
 |CELLSJAVA-42395|Rendering - L'immagine del grafico non è corretta|Insetto|
 |CELLSJAVA-42393|Le etichette dell'asse delle categorie mancano durante la conversione da Excel a Pdf|Insetto|
 |CELLSJAVA-42384|Il colore delle barre negative non è corretto quando Excel viene convertito in Pdf|Insetto|
@@ -74,22 +74,22 @@ Questa pagina contiene le note di rilascio per[Aspose.Cells for Android via Java
 |CELLSJAVA-42377|Il valore delle unità principali dell'asse nel grafico viene restituito errato|Insetto|
 |CELLSJAVA-42364|Le etichette dati dall'intervallo di celle non vengono esportate in Pdf|Insetto|
 |CELLSJAVA-42359|Etichette dati mancanti per una serie con valori barra pari a 100|Insetto|
-|CELLSJAVA-42314|Il grafico è vuoto nel PNG di output|Insetto|
-|CELLSJAVA-42313|Il grafico è vuoto nel PDF di output|Insetto|
+|CELLSJAVA-42314|Il grafico è vuoto nell'output PNG|Insetto|
+|CELLSJAVA-42313|Il grafico è vuoto nell'output PDF|Insetto|
 |CELLSJAVA-42374|Riferimenti di caratteri analizzati in modo errato da Aspose Cells|Insetto|
 |CELLSJAVA-42373|La copia della cartella di lavoro e il successivo salvataggio danneggiano il file Excel di output|Insetto|
 |CELLSJAVA-42392|Eccezione "com.aspose.cells.CellsException: contenuto excel sconosciuto!" sulla creazione di un'istanza di un file Excel crittografato|Eccezione|
-|CELLSJAVA-42307|Eccezione: "L'indice di riga non deve trovarsi all'interno del rapporto tabella pivot" si è verificato durante il rendering nel formato di file HTML|Eccezione|
-|CELLSJAVA-42285|Eccezione: "L'indice di riga non può essere negativo" si è verificato se esiste una tabella pivot nel foglio di lavoro da convertire nel formato di file HTML|Eccezione|
+|CELLSJAVA-42307|Eccezione: "L'indice di riga non deve trovarsi all'interno del rapporto pivottable" si è verificato durante il rendering nel formato file HTML|Eccezione|
+|CELLSJAVA-42285|Eccezione: "L'indice di riga non può essere negativo" si è verificato se nel foglio di lavoro esiste una tabella pivot da convertire nel formato di file HTML|Eccezione|
 |CELLSJAVA-42318|Viene generata un'eccezione quando si tenta di aprire la cartella di lavoro|Eccezione|
-|CELLSJAVA-42311|Eccezione: "java.lang.NullPointerException" all'apertura di un file ODS tramite API Aspose.Cells|Eccezione|
+|CELLSJAVA-42311|Eccezione: "java.lang.NullPointerException" quando si apre un file ODS tramite API Aspose.Cells|Eccezione|
 |CELLSJAVA-42302|NullPointerException sulla creazione dell'istanza della cartella di lavoro dal file Excel di origine|Eccezione|
 |CELLSJAVA-42340|Eccezione nel thread "Thread-2" java.lang.OutOfMemoryError: limite di overhead GC superato|Eccezione|
 |CELLSJAVA-42334|L'eccezione "Errore per ZipFile" viene generata quando si utilizza OutputFileStream|Eccezione|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: password non valida all'apertura del file Excel|Eccezione|
-|CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel in formato HTML|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+|CELLSJAVA-42357|L'eccezione si verifica quando si salva un file Excel nel formato HTML|Eccezione|
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge enum StyleModifyFlag.RelativeIndent**
 Rappresenta il rientro relativo.
 ### **Aggiunge la proprietà TextureFill.IsTiling**
@@ -161,6 +161,6 @@ Ottiene e imposta l'archiviazione della finestra di progettazione del progetto V
 
 {{% alert color="primary" %}} 
 
-Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni incluse in Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17.6, Aspose.Cells for .NET v17.7, 07617634181 v17. , Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v17.6, Aspose.Cells for .NET v17.7, Aspose.Cells for .NET v17.8, Aspose.Cells for .NET v17.9, Aspose.Cells for Java v17.6, Aspose.Cells for Java v17.7, Aspose.Cells for Java v17.8 and Aspose.Cells for Java v17.9 are also included in this Aspose.Cells for Android via Java v17.9.
 
 {{% /alert %}}

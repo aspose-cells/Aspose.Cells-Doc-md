@@ -8,25 +8,25 @@ url: /tr/java/aspose-cells-for-java-8-8-1-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41664 |Koşullu Biçimlendirmeye Dayalı DataBar'ları HTML'ye Aktarma| Yeni özellik|
-|CELLSJAVA-40746 | XLSX'i HTML'ye dışa aktarırken ColorScale, DataBar, IconSet'i destekleyin| Yeni özellik|
+|CELLSJAVA-41664 | DataBar'ları Koşullu Biçimlendirmeye dayalı olarak HTML'e dışa aktarma| Yeni özellik|
+|CELLSJAVA-40746 | XLSX'i HTML'e dışa aktarırken ColorScale, DataBar, IconSet desteği| Yeni özellik|
 |CELLSJAVA-41820 | Çalışma sayfasının yöntemi yok calcualteFormula(Dize formülü, CalculationOptions seçenekleri)| Yeni özellik|
 |CELLSJAVA-40544 | Workbook.calculateFormula'da performans darboğazı| Artırma|
 |CELLSJAVA-41817 | PivotField için ShowAllItems ayarı etkili görünmüyor| Böcek|
-|CELLSJAVA-41810 | EMF görüntüsünde metin tıkanıyor ve üst üste biniyor| Böcek|
-|CELLSJAVA-41801 | EMF görüntüsünde metin etiketleri çakışıyor| Böcek|
+|CELLSJAVA-41810 | EMF resminde metin tıkanıyor ve üst üste biniyor| Böcek|
+|CELLSJAVA-41801 | EMF görselinde metin etiketleri çakışıyor| Böcek|
 |CELLSJAVA-41834 | Çalışma kitabını kopyalarken özel durum oluştu| Böcek|
-|CELLSJAVA-41819 | E-tablodan HTML'ye: Kaynak e-tablodan tema kopyalandıktan sonra Şekildeki Metnin Hizalanması yanlış| Böcek|
-|CELLSJAVA-41824 | Grafik çıktı PDF'sinde işlenmez| Böcek|
-|CELLSJAVA-41805 | Grafiğin PDF'sinde X ekseni etiketleri eksik| Böcek|
-|CELLSJAVA-41767 | Chart'ın PDF'sindeki X ekseni etiketlerinin yanlış sayı biçimi| Böcek|
-|CELLSJAVA-41640 | Grafik için çıktı PDF/Görüntüsünde uzun tireler uygun şekilde görüntülenmiyor| Böcek|
-|CELLSJAVA-41604 | Grafiğin Yatay Izgara Çizgileri çıktı PDF'sinde düzgün görünmüyor| Böcek|
-|CELLSJAVA-41832 |Worksheet-to-Image oluşturulurken birkaç grafik çubuğu eksik| Böcek|
+|CELLSJAVA-41819 | E-tablodan HTML'e: Temayı kaynak e-tablodan kopyaladıktan sonra Şekildeki Metnin Hizalanması yanlış| Böcek|
+|CELLSJAVA-41824 | PDF çıktısında grafik görüntülenmiyor| Böcek|
+|CELLSJAVA-41805 | Grafiğin PDF'inde X ekseni etiketleri eksik| Böcek|
+|CELLSJAVA-41767 | Tablo PDF'deki X ekseni etiketlerinin yanlış sayı biçimi| Böcek|
+|CELLSJAVA-41640 | Grafik için PDF/Resim çıktısında uzun tireler uygun şekilde görüntülenmiyor| Böcek|
+|CELLSJAVA-41604 |Grafiğin Yatay Izgara Çizgileri, PDF çıktısında düzgün görünmüyor| Böcek|
+|CELLSJAVA-41832 | Worksheet-to-Image oluşturulurken birkaç grafik çubuğu eksik| Böcek|
 |CELLSJAVA-41837 | Chart.toPDF'yi ekleyin(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)| Böcek|
 |CELLSJAVA-41839 | Adlandırılmış bir aralık içinde Cells.copyRow() yöntemi kullanıldığında, adlandırılmış bir aralık oluşturulur| Böcek|
 |CELLSJAVA-41838 | Sayfada autoSizeColumns uygulanırken, sütun düzgün şekilde genişletilmiyor| Böcek|
-|CELLSJAVA-41835 | Elektronik tabloyu PDF'ye kaydederken CellsException| İstisna|
+|CELLSJAVA-41835 | Elektronik tabloyu PDF'e kaydederken CellsException| İstisna|
 |CELLSJAVA-41826 | NaN İstisnası| İstisna|
 ## **2) Aspose.Cells Izgara Süit**
 
@@ -54,7 +54,7 @@ Izgara hücresi için bir doğrulama nesnesi oluşturur.
 ### **GridCell.RemoveValidation() yöntemini ekler.**
 Doğrulama nesnesini bir ızgara hücresinden kaldırır.
 ### **Chart.ToPdf(System.IO.Stream stream) yöntemini ekler.**
-Akış olarak PDF'ye kaydetme tablosu ekler.
+PDF'e akış olarak kaydetme grafiği ekler.
 
 {{% alert color="primary" %}} 
 

@@ -11,11 +11,11 @@ url: /sv/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 Vi är
- glad att meddela Aspose.Cells for Java v7.3.4!
+glad att meddela Aspose.Cells for Java v7.3.4!
 
  Nya egenskaper
 
-- Stöd för TIFF-format i Sheet-to-Image-funktion
+- Stöd för TIFF-formatet i Sheet-to-Image-funktion
 
  Förbättringar
 
@@ -31,7 +31,7 @@ Vi är
  Buggar
 
 - Arabisk text blev skräppecken i den sparade CSV-filen med UTF-8
-- Felet "Data kan ha gått förlorad" för den återsparade XLS-filen av Aspose.Cells
+- Felet "Data kan ha gått förlorat" för den återsparade XLS-filen med Aspose.Cells
 - "Excel hittade oläsbart innehåll...."fel för Aspose.Cells' genererad rapport
 - Cell.getFormula() särskiljde inte olika namngivna intervall med samma namn men olika omfattning
 - Automatisk titel för PIE-diagramproblem

@@ -14,9 +14,9 @@ Attualmente, Aspose.Cells.GridDesktop supporta l'aggiunta di tre tipi di control
 
 - **Pulsante**
 - **Casella di controllo**
-- **Combo box**
+- **Casella combinata**
 
-Tutti questi controlli derivano da una classe astratta,**CellControl**. Ogni foglio di lavoro contiene una raccolta di**Controlli**È possibile aggiungere nuovi controlli cella e accedere a quelli esistenti utilizzando questo**Controlli**raccolta facilmente.
+Tutti questi controlli derivano da una classe astratta,**CellControl**Ogni foglio di lavoro contiene una raccolta di**Controlli**. È possibile aggiungere nuovi controlli cella e accedere a quelli esistenti utilizzando questo**Controlli**raccolta facilmente.
 
 **IMPORTANTE:**Se desideri aggiungere controlli di cella a tutte le celle di una colonna invece di aggiungerne uno per uno, puoi fare riferimento a[Gestione dei controlli Cell nelle colonne.](/cells/it/net/adding-cell-controls-in-worksheets/)
 ### **Aggiunta di pulsante**
@@ -73,8 +73,8 @@ Per aggiungere una casella combinata nel foglio di lavoro utilizzando Aspose.Cel
 
 - Aggiungi il controllo Aspose.Cells.GridDesktop al tuo**Modulo**
 - Accedi a qualsiasi desiderato**Foglio di lavoro**
-- Crea un array di elementi (o valori) a cui verranno aggiunti**Combo box**
-- Aggiungere**Combo box**al**Controlli**raccolta del**Foglio di lavoro**specificando la posizione della cella (dove verrà visualizzata la casella combinata) e gli elementi/valori che verranno visualizzati quando si fa clic sulla casella combinata
+- Crea un array di elementi (o valori) a cui verranno aggiunti**Casella combinata**
+- Aggiungere**Casella combinata**al**Controlli**raccolta del**Foglio di lavoro**specificando la posizione della cella (dove verrà visualizzata la casella combinata) e gli elementi/valori che verranno visualizzati quando si fa clic sulla casella combinata
 
 
 

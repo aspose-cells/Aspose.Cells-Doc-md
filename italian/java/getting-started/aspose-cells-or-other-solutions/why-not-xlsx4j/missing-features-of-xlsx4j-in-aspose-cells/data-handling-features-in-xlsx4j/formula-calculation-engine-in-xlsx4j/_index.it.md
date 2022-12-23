@@ -7,7 +7,7 @@ url: /it/java/formula-calculation-engine-in-xlsx4j/
 ## **Aspose.Cells - Motore di calcolo delle formule**
 Il motore di calcolo delle formule è incorporato in Aspose.Cells. Non solo può ricalcolare la formula importata da un file di foglio di calcolo del designer, ma supporta anche il calcolo dei risultati delle formule aggiunte in fase di esecuzione.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

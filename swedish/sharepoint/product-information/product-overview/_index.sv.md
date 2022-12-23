@@ -18,14 +18,14 @@ Du kan konvertera flera dokumentformat, till exempel:
 - XLS - MS Excel 97~2003
 - XLSX - Office Open XML
 - XLSM - Office Open XML för makron aktiverat
-- TXT - vanlig text
+- TXT - Klartext
 - XML - Microsoft Excel SpreadsheetML
-- ODS - OpenDocument Spreadsheet
-- CSV - kommaseparerade värden
+- ODS - OpenDocument Kalkylblad
+- CSV - Kommaseparerade värden
 - XLSB - Excel Binary 2007
 - MHtml - Multipurpose Internet Mail Extension HTML
-- XPS - XML Paper Specification
-- TIFF - Tagged Image File Format
+- XPS - XML-pappersspecifikation
+- TIFF - Taggad bildfilformat
 - SVG - Skalbar vektorgrafik
 - DIF - Drawing Interchange Format
 

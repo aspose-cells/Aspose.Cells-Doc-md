@@ -16,7 +16,7 @@ Aspose.Cells le permite encriptar y proteger con contraseña Microsoft archivos 
 
 Para establecer la configuración de cifrado de archivos en Microsoft Excel (aquí Microsoft Excel 2003):
 
-1.  Desde el**Instrumentos** menú, seleccione**Opciones**Aparecerá un cuadro de diálogo.
+1.  Desde el**Herramientas** menú, seleccione**Opciones**Aparecerá un cuadro de diálogo.
 1.  Selecciona el**Seguridad** pestaña.
 1.  Introduzca una contraseña y haga clic en**Avanzado**
 1. Elija el tipo de encriptación y confirme la contraseña.
@@ -40,9 +40,9 @@ El siguiente ejemplo muestra cómo cifrar y proteger con contraseña un archivo 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
-## **Cifrado/descifrado de archivo ODS con Aspose.Cells**
+## **Cifrado/descifrado del archivo ODS con Aspose.Cells**
 
-Aspose.Cells permite cifrar y descifrar archivos ODS. El archivo ODS descifrado se puede abrir tanto en Excel como en OpenOffice, sin embargo, OpenOffice solo puede abrir el archivo ODS encriptado después de proporcionar la contraseña. Excel no puede abrir el archivo ODS cifrado y puede generar un mensaje de advertencia. Las opciones de cifrado no se aplican a los archivos ODS, a diferencia de otros tipos de archivos. Para cifrar un archivo ODS, cargue el archivo y configure el[**WorkbookSettings.Contraseña**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valor a la contraseña real antes de guardarla. El archivo ODS cifrado de salida solo se puede abrir en OpenOffice.
+Aspose.Cells permite cifrar y descifrar el archivo ODS. El archivo ODS descifrado se puede abrir tanto en Excel como en OpenOffice, sin embargo, OpenOffice solo puede abrir el archivo ODS encriptado después de proporcionar la contraseña. Excel no puede abrir el archivo cifrado ODS y puede generar un mensaje de advertencia. Las opciones de cifrado no son aplicables para el archivo ODS a diferencia de otros tipos de archivos. Para cifrar un archivo ODS, cargue el archivo y configure el[**WorkbookSettings.Contraseña**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valor a la contraseña real antes de guardarla. El archivo de salida cifrado ODS solo se puede abrir en OpenOffice.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

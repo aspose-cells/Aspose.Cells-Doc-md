@@ -13,10 +13,10 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-44317|Texten i denna xlsx är förvrängd|
-|CELLSJAVA-44271|När du konverterar Excel till PDF skiftar utdatapositionen jämfört med fallet med manuell konvertering|
-|CELLSJAVA-44197|När du konverterar XLSX till PDF visas inte pivottabellens tidslinjeform (fönster).|
+|CELLSJAVA-44271|Vid konvertering av Excel till PDF skiftar utdatapositionen jämfört med fallet med manuell konvertering|
+|CELLSJAVA-44197|Vid konvertering av XLSX till PDF visas inte pivottabellens tidslinjeform (fönster)|
 |CELLSJAVA-44267|Arbetsbok som innehåller en pivottabell blir skadad|
-|CELLSJAVA-44114|XLSX till PDF: Data i vetenskapligt nummerformat från XLSX-filen matchar inte data i utdata-PDF-filen|
+|CELLSJAVA-44114|XLSX till PDF: Data i vetenskapligt nummerformat från XLSX-filen matchar inte data i utdatafilen PDF|
 |CELLSJAVA-44293|Återsparad Excel-fil måste återställas när den öppnas i MS Excel|
 |CELLSJAVA-43194|Bilderna visas felaktigt|
 |CELLSJAVA-44243|GridWeb spring demo spara fil misslyckades i jdk1.8|
@@ -25,14 +25,14 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |CELLSJAVA-44229|Formel går förlorad när td-innehåll lindas med div-tagg|
 |CELLSJAVA-44247|En rad text lindas under konvertering till pdf|
 |CELLSJAVA-44175| problem med överlappande Donut Chart-etiketter|
-|CELLSJAVA-44192| Kategoriaxelns objektnamn i grafen är avskuret i Excel till PDF-konvertering|
+|CELLSJAVA-44192|Kategoriaxelns objektnamn i grafen är avskuret i Excel till PDF konvertering|
 |CELLSJAVA-44233|Oändlig loop vid konvertering av XLSX-fil|
 |CELLSJAVA-44263|Att ställa in riktningen för kartetiketttexten till vertikalt träder inte i kraft|
 |CELLSJAVA-44268| Undantag "java.lang.NullPointerException" på Chart.toPdf-metoden|
 |CELLSJAVA-44302|Textriktningen för koordinataxeln är fel efter att Excel-filen konverterats till HTML|
 |CELLSJAVA-44314|Fel axeletiketter för diagramkategori i diagram till bild-rendering|
-|CELLSJAVA-44274|Stöds SVG-format för läsning eller rendering till PDF|
-|CELLSJAVA-44311|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering till HTML-filformat|
+|CELLSJAVA-44274|Stöds formatet SVG för läsning eller rendering till PDF|
+|CELLSJAVA-44311|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering till HTML filformat|
 |CELLSJAVA-44285|Undantag "java.lang.ClassCastException: com.aspose.cells.n2f kan inte castas till com.aspose.cells.o90" när Workbook.calculateFormula() anropas|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

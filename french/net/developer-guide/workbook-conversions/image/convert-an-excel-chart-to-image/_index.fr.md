@@ -18,7 +18,7 @@ Dans les exemples ici, un graphique à secteurs et un caractère de colonne sont
 
 ### **Conversion d'un graphique à secteurs en fichier image**
 
-Tout d'abord, créez un graphique à secteurs dans Microsoft Excel, puis convertissez-le en un fichier image avec Aspose.Cells. Le code de cet exemple crée une image EMF basée sur le graphique à secteurs dans le modèle de fichier Excel Microsoft.
+Commencez par créer un graphique à secteurs dans Excel Microsoft, puis convertissez-le en fichier image avec Aspose.Cells. Le code de cet exemple crée une image EMF basée sur le graphique à secteurs dans le fichier Excel modèle Microsoft.
 
 |**Sortie : image de graphique à secteurs**|
 |:- |

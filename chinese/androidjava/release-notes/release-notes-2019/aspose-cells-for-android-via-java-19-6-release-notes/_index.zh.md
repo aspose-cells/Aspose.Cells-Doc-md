@@ -16,27 +16,27 @@ url: /zh/java/aspose-cells-for-android-via-java-19-6-release-notes/
 |CELLSJAVA-42916|Workbook.save() 后的数据格式问题|强化|
 |CELLSJAVA-42930|Excel95加载失败|强化|
 |CELLSJAVA-42927|删除列后保存的文件在 Excel 中打开缓慢|强化|
-|CELLSJAVA-42857|导出的 PDF 中的形状显示错误值|漏洞|
-|CELLSJAVA-42890|图片不透明，转换后不透明-Excel转HTML渲染|漏洞|
-|CELLSJAVA-42893|Excel 到 HTML 呈现中缺少图表|漏洞|
+|CELLSJAVA-42857|导出的形状显示错误值 PDF|漏洞|
+|CELLSJAVA-42890|转换后图像不透明不透明-Excel转HTML渲染|漏洞|
+|CELLSJAVA-42893|图表在 Excel 中丢失到 HTML 渲染|漏洞|
 |CELLSJAVA-42899|Excel转HTML问题|漏洞|
-|CELLSJAVA-42903|CentOS 上的 Excel 到 HTML 渲染问题|漏洞|
+|CELLSJAVA-42903|CentOS 上的 Excel 到 HTML 呈现问题|漏洞|
 |CELLSJAVA-42882|无法从 MS Excel 95 XLS 文件中提取数据|漏洞|
 |CELLSJAVA-42887|MS Excel 和 Aspose.Cells 之间的计算差异|漏洞|
 |CELLSJAVA-42891|如果范围内存在任何空值，XIRR 函数会给出一个数字错误|漏洞|
 |CELLSJAVA-42909|DATEVALUE 函数的问题|漏洞|
 |CELLSJAVA-42910|当字符串中有字符时 VLOOKUP 函数出现问题|漏洞|
 |CELLSJAVA-42911|对日期使用 TEXT 函数时出现问题|漏洞|
-|CELLSJAVA-42896|转PDF转电话号码|漏洞|
+|CELLSJAVA-42896|转换为PDF转电话号码|漏洞|
 |CELLSJAVA-42900|转换为 PDF 会更改文本顺序|漏洞|
 |CELLSJAVA-42932|Style.getDisplayStyle 方法的条件格式错误|漏洞|
-|CELLSJAVA-42928|某些行未反映在 XLSX 到 PDF 的转换中|漏洞|
+|CELLSJAVA-42928|XLSX 到 PDF 转换中有些行没有体现|漏洞|
 |CELLSJAVA-42904|标题图像似乎损坏了文件|漏洞|
 |CELLSJAVA-42907|保存工作簿后过滤器丢失|漏洞|
 |CELLSJAVA-42915|将工作表添加到工作簿后更改过滤器|漏洞|
-|CELLSJAVA-42918|转换后文件的图表展平（XLS 到 XLSX 转换）|漏洞|
-|CELLSJAVA-42938|加载 XLSX 文件会暂停应用程序|漏洞|
-|CELLSJAVA-42881|加载 MS Excel 5.0/95 XLS 文件时出现异常“java.lang.IllegalStateException：无效编码：null”|例外|
+|CELLSJAVA-42918|转换后文件的图表扁平化（XLS 到 XLSX 转换）|漏洞|
+|CELLSJAVA-42938|加载 XLSX 文件暂停应用程序|漏洞|
+|CELLSJAVA-42881|加载 MS Excel 5.0/95 XLS 文件时出现异常“java.lang.IllegalStateException: Invalid encoding: null”|例外|
 |CELLSJAVA-42884|加载 MS Excel 5.0/95 XLS 文件时出现异常“java.lang.ArrayIndexOutOfBoundsException”|例外|
 |CELLSJAVA-42859|从 ODS 文件加载名称的 CellsException|例外|
 |CELLSJAVA-42908|调用 Name.getRefersTo() 时出现异常|例外|
@@ -50,11 +50,11 @@ url: /zh/java/aspose-cells-for-android-via-java-19-6-release-notes/
 ### **添加 ImportTableOptions.CheckMergedCells 属性**
 指示在导入数据时是否检查合并的单元格。
 ### **添加 ODSCellFieldCollection、ODSCellField 类和 ODSCellFieldType 枚举**
-表示 ODS 的单元格字段。
+代表ODS的单元格字段。
 ### **添加 Cells.ODSCellFields 属性**
 获取 ODS 的单元格字段列表。
 ### **添加 ODSPageBackground 类和 PageSetup.ODSPageBackground 属性**
-代表 ODS 的背景。
+代表ODS的背景。
 ### **添加枚举 FileFormatType.FODS、FileFormatType.SXC、LoadFormat.FODS、LoadFormat.SXC、SaveFormat.FODS 和 SaveFormat.SXC**
 表示 .FODS 和 .SXC 文件格式类型。
 ### **添加枚举 WarningType.UnsupportedFileFormat**

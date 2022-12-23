@@ -25,9 +25,9 @@ url: /ja/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|新しいワークブックが無効なファイルでハングする|パフォーマンス|
 |CELLSNET-48012|幅広い検証で .ods ファイルを読み取るパフォーマンスを向上させます。|パフォーマンス|
 |CELLSNET-48039|コピーしたブックを保存するときの無限ループ|パフォーマンス|
-|CELLSNET-44224|ワードアートの透かしが出力 PDF ファイル形式でレンダリングされない|バグ|
+|CELLSNET-44224|出力 PDF ファイル形式でワードアートの透かしが表示されない|バグ|
 |CELLSNET-47887|シェイプ内のテキストが正しく配置されていません|バグ|
-|CELLSNET-47920|HTML から Excel への変換で一部のコンテンツが欠落する|バグ|
+|CELLSNET-47920|HTML から Excel への変換で一部のコンテンツが欠落しています|バグ|
 |CELLSNET-47981|セルが結合された範囲を html にエクスポートした結果が正しくない|バグ|
 |CELLSNET-47985|html変換時の行数が少ない|バグ|
 |CELLSNET-47987|ピボット フィールドをページ セクションまたはピボット フィルターに移動する|バグ|
@@ -38,21 +38,21 @@ url: /ja/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|値「FALSE」ではなく、Cell から誤った値「TRUE」が取得されました|バグ|
 |CELLSNET-48042|取得した書式設定されたセルの値が Excel ワークシートで間違っている|バグ|
 |CELLSNET-48031|xlsx ファイルを html に変換するときに「Shape to image Error」が発生する|バグ|
-|CELLSNET-48037|PDF に保存すると画像が歪む|バグ|
+|CELLSNET-48037|PDF に保存すると画像が乱れる|バグ|
 |CELLSNET-47714|EMF に変換すると、縦軸のテキストがグラフの横軸に重なる|バグ|
 |CELLSNET-47856|ピボット テーブルでの XLSX から PDF への変換の問題|バグ|
-|CELLSNET-47986|チャートから画像/PDF - ウォーターフォール チャート タイプでの間違った出力|バグ|
-|CELLSNET-48010|Excel 2010 XLSX ファイルのロード時の例外|バグ|
+|CELLSNET-47986|Chart to Image/PDF - ウォーターフォール チャート タイプの間違った出力|バグ|
+|CELLSNET-48010|Excel 2010 XLSX ファイルの読み込み時の例外|バグ|
 |CELLSNET-48020|Load & Save Excel 95 via Aspose.Cells の後にフォーム コントロールが削除される|バグ|
 |CELLSNET-48033|ロードおよび保存後に Excel ファイルが破損する|バグ|
-|CELLSNET-47957|Excel ファイルを PDF ファイル形式に変換するときに「形状から画像へのエラー」が発生する|例外|
+|CELLSNET-47957|Excel ファイルを PDF ファイル形式に変換すると、「形状から画像へのエラー」が発生する|例外|
 |CELLSNET-48027|形状を画像に変換するときの無効なパラメーター例外|例外|
 |CELLSNET-48029|「形状から画像へのエラー」が発生します|例外|
 |CELLSNET-48017|html ファイルのインポート時に「入力文字列が正しい形式ではありませんでした」という例外が発生する|例外|
 |CELLSNET-48034|Mht ファイルのフォント サイズが無効です。|例外|
 |CELLSNET-47977|数式 '[96]Cost Sheet' の解析中に例外が発生しました!$D$6|例外|
 |CELLSNET-47979|Save メソッドでのオブジェクト参照例外|例外|
-|CELLSNET-48040|XLSB から XLSX への変換中に例外が発生する|例外|
+|CELLSNET-48040|XLSB を XLSX に変換中に例外が発生する|例外|
 |CELLSNET-47980|Aspose.Cells による Excel ファイルの保存時にエラーが発生しました|例外|
 |CELLSNET-48001|GetPrintingPageBreaks() を呼び出すときの無効な行インデックスの例外|例外|
 |CELLSNET-48022|セルの予期しない Border.LineType|例外|

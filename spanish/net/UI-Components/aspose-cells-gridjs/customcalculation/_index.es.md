@@ -9,7 +9,7 @@ description: Este artículo describe cómo usar el motor de cálculo personaliza
 
 Aspose.Cells.GridJs tiene un potente motor de cálculo que puede calcular casi todas las fórmulas Microsoft de Excel. A pesar de ello, también te permite ampliar el motor de cálculo predeterminado lo que te proporciona mayor potencia y flexibilidad.
 
-Las siguientes propiedades y clases se utilizan para implementar esta característica.
+Las siguientes propiedades y clases se utilizan para implementar esta función.
 
  
 - **[GridAbstractCalculationEngine](https://reference.aspose.com/cells/net/aspose.cells.gridjs/gridabstractcalculationengine)**

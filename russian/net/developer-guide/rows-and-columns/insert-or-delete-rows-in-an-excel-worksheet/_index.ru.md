@@ -12,9 +12,9 @@ keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows 
 
 {{% /alert %}}
 
- Aspose.Cells предлагает два метода вставки и удаления строк:[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) а также[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). Эти методы оптимизированы для производительности и делают работу очень быстро.
+ Aspose.Cells предлагает два метода вставки и удаления строк:[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) и[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index). Эти методы оптимизированы для производительности и делают работу очень быстро.
 
- Чтобы вставить или удалить несколько строк, мы рекомендуем всегда использовать[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) а также[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) методы вместо использования[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) или же[**УдалитьРов**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)методы в цикле.
+ Чтобы вставить или удалить несколько строк, мы рекомендуем всегда использовать[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index) и[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index) методы вместо использования[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow) или же[**УдалитьРов**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)методы в цикле.
 
 Aspose.Cells работает так же, как Microsoft Excel. При добавлении строк или столбцов содержимое рабочего листа смещается вниз и вправо. При удалении строк или столбцов содержимое рабочего листа сдвигается вверх или влево. Любые ссылки на других листах и ячейках обновляются при добавлении или удалении строк.
 

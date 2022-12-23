@@ -12,7 +12,7 @@ url: /zh/net/grouping-and-ungrouping-rows-and-columns/
 
 |**分组行和列。**|
 |:- |
-|![待办事项：图像_替代_文本](grouping-and-ungrouping-rows-and-columns_1.png)|
+|![待办事项：图片_替代_文本](grouping-and-ungrouping-rows-and-columns_1.png)|
 
 ## **行列分组管理**
 
@@ -34,20 +34,20 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 Microsoft Excel 允许您配置组设置以显示：
 
-- 详细信息下方的摘要行。
+- 详细信息下方的汇总行。
 - 详细信息右侧的摘要列。
 
 开发人员可以使用[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。
 
 ### **详细信息下方的汇总行**
 
-可以通过设置[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)班级'[**汇总行下方**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow)财产给**真的**或者**错误的**.
+可以通过设置[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)班级'[**汇总行下方**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow)财产给**真的**要么**错误的**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **详细信息右侧的摘要列**
 
-开发人员还可以通过设置[**摘要列右**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright)的财产[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)类**真的**或者**错误的**.
+开发人员还可以通过设置[**摘要列右**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright)的财产[**大纲**](https://reference.aspose.com/cells/net/aspose.cells/outline)类**真的**要么**错误的**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 

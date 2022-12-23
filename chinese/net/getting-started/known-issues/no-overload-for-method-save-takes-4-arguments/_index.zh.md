@@ -10,7 +10,7 @@ url: /zh/net/no-overload-for-method-save-takes-4-arguments/
 
 ### **错误截图**
 
-![待办事项：图像_替代_文本](no-overload-for-method-save-takes-4-arguments_1.png)
+![待办事项：图片_替代_文本](no-overload-for-method-save-takes-4-arguments_1.png)
 
 ### **解决方案**
 

@@ -11,5 +11,5 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 ## **Vollständige Liste der in dieser Version behandelten Probleme und Verbesserungen**
 |**ICH WÜRDE**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|27177 |Unterstützung für den JSON-Renderer.|Neue Funktion|
+|27177 |Unterstützung für JSON-Renderer.|Neue Funktion|
 |27178 |Aktualisieren Sie die Version Aspose.Cells auf 22.1.| Verbesserung|

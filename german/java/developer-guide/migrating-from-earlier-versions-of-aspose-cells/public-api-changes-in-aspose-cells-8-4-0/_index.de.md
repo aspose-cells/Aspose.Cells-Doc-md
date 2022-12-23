@@ -60,7 +60,7 @@ workbook.save("output.xlsm");
 Aspose.Cells for Java 8.4.0 hat zwei Methoden für die PivotTableCollection bereitgestellt, um die Funktion zum Entfernen von Pivot-Tabellen aus einer bestimmten Tabelle bereitzustellen. Die Einzelheiten der oben genannten Verfahren sind wie folgt.
 
 - Die PivotTableCollection.remove-Methode akzeptiert ein PivotTable-Objekt und entfernt es aus der Auflistung.
-- Die PivotTableCollection.removeAt-Methode akzeptiert einen nullindexbasierten ganzzahligen Wert und entfernt die bestimmte PivotTable aus der Sammlung.
+- Die PivotTableCollection.removeAt-Methode akzeptiert einen nullindexbasierten ganzzahligen Wert und entfernt die bestimmte PivotTable aus der Auflistung.
 
 Der folgende Codeausschnitt zeigt, wie die PivotTable mit den beiden oben genannten Methoden entfernt wird.
 
@@ -173,7 +173,7 @@ Aspose.Cells for Java 8.4.0 hat die TxtLoadStyleStrategy-Klasse und die TxtLoadO
 Mit der Veröffentlichung von v8.4.0 hat der Aspose.Cells API die DataBar.toImage-Methode bereitgestellt, um den bedingt formatierten DataBar im Bildformat zu speichern. Die Methode {DataBar.toImage}} akzeptiert zwei Parameter, wie unten beschrieben.
 
 - Der erste Parameter ist vom Typ com.aspose.cells.Cell, auf den bedingte Formatierung angewendet wurde.
-- Der zweite Parameter ist vom Typ com.aspose.cells.rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes einzustellen.
+- Der zweite Parameter ist vom Typ com.aspose.cells.rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes festzulegen.
 
 Der folgende Beispielcode veranschaulicht die Verwendung der DataBar.toImage-Methode zum Rendern des DataBar im Bildformat.
 
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Eigenschaft HtmlSaveOptions.CellCssPrefix Hinzugefügt**
-Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfixes für die CSS-Dateien beim Exportieren von Tabellenkalkulationen in das HTML-Format.
+Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfixes für die CSS-Dateien beim Exportieren von Tabellenkalkulationen in das Format HTML.
 
 {{% alert color="primary" %}} 
 

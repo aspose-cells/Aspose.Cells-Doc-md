@@ -5,7 +5,7 @@ weight: 60
 url: /zh/java/managing-document-properties-in-python/
 ---
 ## **Aspose.Cells - 管理文档属性**
-开发人员可以利用**指数**或者**姓名**从属性中获取特定属性**自定义属性**集合如下例所示。
+开发人员可以利用**指数**要么**姓名**从属性中获取特定属性**自定义属性**集合如下例所示。
 
 **Python 代码**
 

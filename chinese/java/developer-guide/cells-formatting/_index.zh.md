@@ -9,7 +9,7 @@ Microsoft Excel 允许用户通过添加边框来格式化单元格。
 
 **Microsoft Excel 中的边框设置** 
 
-![待办事项：图像_替代_文本](cells-formatting_1.png)
+![待办事项：图片_替代_文本](cells-formatting_1.png)
 
 边框的类型取决于添加的位置。例如，顶部边框是添加到单元格顶部位置的边框。用户还可以修改边框的线条样式和颜色。
 
@@ -55,7 +55,7 @@ Aspose.Cells 提供了[设置样式](https://reference.aspose.com/cells/java/com
 
 **应用于单元格所有边的边框** 
 
-![待办事项：图像_替代_文本](cells-formatting_2.png)
+![待办事项：图片_替代_文本](cells-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBordersToCells-AddingBordersToCells.java" >}}
 #### **为 Cells 范围添加边框**
@@ -75,7 +75,7 @@ Aspose.Cells 提供了[设置样式](https://reference.aspose.com/cells/java/com
 
 **应用于一系列单元格的边框** 
 
-![待办事项：图像_替代_文本](cells-formatting_3.png)
+![待办事项：图片_替代_文本](cells-formatting_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBorderstoRange-AddingBorderstoRange.java" >}}
 ## **颜色和调色板**
@@ -83,7 +83,7 @@ Aspose.Cells 提供了[设置样式](https://reference.aspose.com/cells/java/com
 
 **Microsoft Excel 中的调色板设置** 
 
-![待办事项：图像_替代_文本](cells-formatting_4.png)
+![待办事项：图片_替代_文本](cells-formatting_4.png)
 
 使用 Aspose.Cells 不仅可以使用现有颜色，还可以使用自定义颜色。在使用自定义颜色之前，将其添加到调色板中。本主题说明如何将自定义颜色添加到调色板。
 ### **将自定义颜色添加到调色板**
@@ -110,7 +110,7 @@ Microsoft Excel 可以设置单元格的前景（轮廓）和背景（填充）�
 
 **在 Microsoft Excel 中设置颜色和背景图案** 
 
-![待办事项：图像_替代_文本](cells-formatting_5.png)
+![待办事项：图片_替代_文本](cells-formatting_5.png)
 
 Aspose.Cells 也以灵活的方式支持这些功能。在本主题中，我们通过 Aspose.Cells 学习使用这些功能。
 ### **设置颜色和背景图案**
@@ -120,7 +120,7 @@ Aspose.Cells 提供了[设置样式](https://reference.aspose.com/cells/java/com
 
 {{% alert color="primary" %}} 
 
-要设置单元格的前景色或背景色，请使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[设置背景颜色](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor)或者[设置前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)特性。这些属性只有在[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[设置模式](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)属性已配置。
+要设置单元格的前景色或背景色，请使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[设置背景颜色](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor)要么[设置前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)特性。这些属性只有在[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[设置模式](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)属性已配置。
 
 {{% /alert %}} 
 
@@ -155,17 +155,17 @@ Aspose.Cells 提供了[设置样式](https://reference.aspose.com/cells/java/com
 
 **应用于具有背景图案的单元格的前景色和背景色** 
 
-![待办事项：图像_替代_文本](cells-formatting_6.png)
+![待办事项：图片_替代_文本](cells-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ColorsAndBackground-ColorsAndBackground.java" >}}
 ### **重要须知**
 {{% alert color="primary" %}} 
 
-- 要设置单元格的前景色或背景色，请使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)或者[背景颜色](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor)特性。只有当[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[图案](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)属性已配置。
+- 要设置单元格的前景色或背景色，请使用[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)要么[背景颜色](https://reference.aspose.com/cells/java/com.aspose.cells/style#BackgroundColor)特性。只有当[风格](https://reference.aspose.com/cells/java/com.aspose.cells/Style)对象的[图案](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)属性已配置。
 - 这[前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)属性设置单元格的阴影颜色。
 这[图案](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)属性指定用于前景色或背景色的背景图案类型。 Aspose.Cells 提供枚举，[背景类型](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType).包含一组预定义类型的背景图案。
 - 如果你选择[背景类型.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)价值来自[背景类型](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType)枚举，不应用前景色。
-同样，如果您选择[背景类型.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)或者[背景类型.SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)值。
+同样，如果您选择[背景类型.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)要么[背景类型.SOLID](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)值。
 - 检索单元格的阴影/填充颜色时，如果[样式.图案](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern)是[背景类型.NONE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE), [样式.前景色](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor)将返回*颜色.空*.
 
 {{% /alert %}} 
@@ -185,7 +185,7 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 
 **格式化所选字符** 
 
-![待办事项：图像_替代_文本](cells-formatting_7.png)
+![待办事项：图片_替代_文本](cells-formatting_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormattingSelectedCharacters-FormattingSelectedCharacters.java" >}}
 

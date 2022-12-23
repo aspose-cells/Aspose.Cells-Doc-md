@@ -28,13 +28,13 @@ Aspose.Cells позволяет разработчикам добавлять и
 
 ### **Пропорциональное позиционирование**
 
- Разработчики могут расположить изображения пропорционально высоте строки и ширине столбца, используя[**Верхняя дельтаX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax) а также[**Верхняя дельтаY**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay) свойства[**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) объект. А[**Картина**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) объект можно получить в[**Картинки**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)коллекции, передав ее индекс изображения. В этом примере изображение помещается в ячейку F6.
+ Разработчики могут расположить изображения пропорционально высоте строки и ширине столбца, используя[**Верхняя дельтаX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax) и[**Верхняя дельтаY**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay) свойства[**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) объект. А[**Рисунок**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture) объект можно получить в[**Картинки**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)коллекции, передав ее индекс изображения. В этом примере изображение помещается в ячейку F6.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.cs" >}}
 
 ### **Абсолютное позиционирование**
 
- Разработчики также могут позиционировать изображения абсолютно, используя[**Оставил**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) а также[**верхний**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) свойства[**Картина**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)объект. В этом примере изображение помещается в ячейку F6, на 60 пикселей слева и на 10 пикселей сверху ячейки.
+ Разработчики также могут позиционировать изображения абсолютно, используя[**Оставил**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) и[**Вершина**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) свойства[**Рисунок**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)объект. В этом примере изображение помещается в ячейку F6, на 60 пикселей слева и на 10 пикселей сверху ячейки.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-AbsolutePositioning-1.cs" >}}
 
@@ -42,7 +42,7 @@ Aspose.Cells позволяет разработчикам добавлять и
 
 Aspose.Cells позволяет отображать содержимое ячейки рабочего листа в форме изображения. Вы можете связать изображение с ячейкой, содержащей данные, которые вы хотите отобразить. Поскольку ячейка или диапазон ячеек связаны с графическим объектом, изменения, которые вы вносите в данные в этой ячейке или диапазоне ячеек, автоматически отображаются в графическом объекте.
 
- Добавьте изображение на рабочий лист, вызвав метод[**Добавить изображение**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) метод[**Коллекция форм**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) коллекция (инкапсулированная в[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) объект). Укажите диапазон ячеек с помощью[**Формула**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) атрибут[**Картина**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)объект.
+ Добавьте изображение на рабочий лист, вызвав метод[**Добавить изображение**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpicture/index) метод[**Коллекция форм**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) коллекция (инкапсулированная в[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) объект). Укажите диапазон ячеек с помощью[**Формула**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/formula) атрибут[**Рисунок**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)объект.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PictureCellReference-1.cs" >}}
 

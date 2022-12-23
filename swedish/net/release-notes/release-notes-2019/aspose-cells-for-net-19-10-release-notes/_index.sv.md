@@ -17,13 +17,13 @@ url: /sv/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46903|Ändra stil på ContentTypeProperties|Förbättring|
 |CELLSNET-46954|Höj undantag som liknar Excel istället för hängande program|Prestanda|
 |CELLSNET-46896|Trattdiagram försvinner|Insekt|
-|CELLSNET-46934|Fördröjning och minnesanvändning vid konvertering till PDF-filformat|Insekt|
-|CELLSNET-43416|Sorteringen av pivotfältet ändras efter att kalkylarket har renderats till PDF|Insekt|
+|CELLSNET-46934|Fördröjning och minnesanvändning vid konvertering till PDF filformat|Insekt|
+|CELLSNET-43416|Sortering av pivotfältet ändras efter att kalkylarket har renderats till PDF|Insekt|
 |CELLSNET-44686|Pivotsortering tillämpas inte vid extrahering av diagram|Insekt|
 |CELLSNET-46793|Ett problem med pivottabeller|Insekt|
 |CELLSNET-46882|Problem när du grupperar pivottabellen efter datum och sparar som PDF|Insekt|
-|CELLSNET-46935|Radbryt text som inte återges i HTML|Insekt|
-|CELLSNET-46940|Tabellkanter är inte korrekt renderade i HTML|Insekt|
+|CELLSNET-46935|Radbryt text inte återgiven i HTML|Insekt|
+|CELLSNET-46940|Tabellkanter är inte korrekt återgivna i HTML|Insekt|
 |CELLSNET-46939|Stöd för TEXTJOIN()-funktionen|Insekt|
 |CELLSNET-46237|Cell Format fastnar inte|Insekt|
 |CELLSNET-46245|Klipp ut/klistra in kopierar inte namnet på Cell till den nya platsen i GridDesktop|Insekt|
@@ -33,7 +33,7 @@ url: /sv/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46900|Kartdiagrammets färgschema ändras|Insekt|
 |CELLSNET-46902|Alternativet Radera rad manuellt är inaktiverat i tabellen efter att Excel-filen har fyllts i med ImportData|Insekt|
 |CELLSNET-46916|Insert Range orsakar filkorruption|Insekt|
-|CELLSNET-46919|Skadad fil vid byte till XLSB-filformat från XLSX|Insekt|
+|CELLSNET-46919|Skadad fil vid ändring till XLSB filformat från XLSX|Insekt|
 |CELLSNET-46925|Problem vid extrahering av OLE-objekt från XLSX|Insekt|
 |CELLSNET-46928|Conholdate Total licensemission|Insekt|
 |CELLSNET-46929|Kartaxeletikettens (titel) orientering ändrades vid kopiering av arbetsblad|Insekt|

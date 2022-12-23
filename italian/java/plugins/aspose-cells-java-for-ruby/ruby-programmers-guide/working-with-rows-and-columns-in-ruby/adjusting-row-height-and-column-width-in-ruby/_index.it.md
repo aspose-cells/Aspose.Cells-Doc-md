@@ -84,6 +84,6 @@ end
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

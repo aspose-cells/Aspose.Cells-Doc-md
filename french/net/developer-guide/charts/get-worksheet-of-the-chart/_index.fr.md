@@ -10,7 +10,7 @@ Parfois, vous souhaitez accéder à une feuille de calcul à partir de la réfé
 
 {{% /alert %}}
 
- L'exemple suivant montre comment utiliser le[**Graphique. Feuille de calcul**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) propriété. Le code imprime d'abord le nom de la feuille de calcul, puis accède au premier graphique de la feuille de calcul. Il imprime ensuite à nouveau le nom de la feuille de calcul, à l'aide de la[**Graphique. Feuille de calcul**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)propriété.
+ L'exemple suivant montre comment utiliser le[**Graphique. Feuille de calcul**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) la propriété. Le code imprime d'abord le nom de la feuille de calcul, puis accède au premier graphique de la feuille de calcul. Il imprime ensuite à nouveau le nom de la feuille de calcul, à l'aide de la[**Graphique. Feuille de calcul**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 

@@ -23,13 +23,13 @@ Aspose.Cells bir sağlar[**Çalışma kitabı**](https://reference.aspose.com/ce
 
  Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, bir çalışma sayfasını yönetmek için kullanılan çok çeşitli özellikler ve yöntemler sağlar.
 
- Sayfa sonlarını eklemek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikleri.
+ Sayfa sonlarını eklemek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler.
 
  bu[**Yatay Sayfa Sonları**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) ve[**VerticalPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)özellikler, birkaç sayfa sonu içerebilen koleksiyonlardır. Her koleksiyon, yatay ve dikey sayfa sonlarını yönetmek için çeşitli yöntemler içerir.
 
 ### **Sayfa Sonları Ekleme**
 
- Bir çalışma sayfasına sayfa sonu eklemek için belirtilen hücreye dikey ve yatay sayfa sonları ekleyin.[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) ve[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) yöntemler. Her biri**Ekle** method break eklenmesi gereken hücrenin adını alır.
+ Bir çalışma sayfasına sayfa sonu eklemek için belirtilen hücreye dikey ve yatay sayfa sonları ekleyin.[**HorizontalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) ve[**VerticalPageBreakCollection.Add()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) yöntemler. Her biri**Eklemek** method break eklenmesi gereken hücrenin adını alır.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 

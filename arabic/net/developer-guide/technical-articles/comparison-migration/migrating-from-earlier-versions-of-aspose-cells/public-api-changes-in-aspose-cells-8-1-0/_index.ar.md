@@ -10,7 +10,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-1-0/
 
 {{% /alert %}} 
 ## **تمت إضافة خاصية HtmlSaveOptions.ExportHiddenWorksheet**
-كشفت فئة HtmlSaveOptions عن خاصية ExportHiddenWorksheet التي يمكن استخدامها لتحديد ما إذا كان سيتم تصدير أوراق العمل المخفية إلى تنسيق HTML. القيمة الافتراضية هي الحقيقية. بينما إذا تم الضبط على "خطأ" ، فلن يقوم Aspose.Cells بتصدير محتويات ورقة العمل المخفية.
+كشفت فئة HtmlSaveOptions عن خاصية ExportHiddenWorksheet التي يمكن استخدامها لتحديد ما إذا كان سيتم تصدير أوراق العمل المخفية بتنسيق HTML. القيمة الافتراضية هي الحقيقية. بينما إذا تم الضبط على "خطأ" ، فلن يقوم Aspose.Cells بتصدير محتويات ورقة العمل المخفية.
 
 {{% alert color="primary" %}} 
 

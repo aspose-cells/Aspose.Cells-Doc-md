@@ -23,12 +23,12 @@ El punto más importante que debe saber acerca de las propiedades integradas y p
 
  Microsoft Excel le permite administrar las propiedades del documento de los archivos de Excel de manera WYSIWYG. Siga los pasos a continuación para abrir el**Propiedades** cuadro de diálogo en Excel 2016.
 
-1.  Desde el**Expediente** menú, seleccione**Información**.
+1.  Desde el**Archivo** menú, seleccione**Información**.
 
 |**Selección del menú de información**|
 |:- |
 |![todo:imagen_alternativa_texto](managing-document-properties_1.png)|
-1.  Haga clic en**Propiedades** encabezado y seleccione "Propiedades avanzadas".
+1.  Haga clic en**Propiedades**encabezado y seleccione "Propiedades avanzadas".
 
 |**Hacer clic en Selección de propiedades avanzadas**|
 |:- |
@@ -46,7 +46,7 @@ Los desarrolladores pueden administrar dinámicamente las propiedades del docume
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar Documento a PDF, Aspose.Cells for .NET se completa**Solicitud** campo con valor 'Aspose.Cells' y**Productor de PDF** campo con el valor, por ejemplo, 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET escribe directamente la información sobre API y el número de versión en los documentos de salida. Por ejemplo, al renderizar Documento a PDF, Aspose.Cells for .NET se rellena**Solicitud** campo con valor 'Aspose.Cells' y**PDF Productor** campo con el valor, por ejemplo, 'Aspose.Cells v17.9'.
 
 Tenga en cuenta que no puede indicar al Aspose.Cells for .NET que cambie o elimine esta información de los documentos de salida.
 
@@ -54,12 +54,12 @@ Tenga en cuenta que no puede indicar al Aspose.Cells for .NET que cambie o elimi
 
 ### **Acceso a las propiedades del documento**
 
- Aspose.Cells Las API admiten ambos tipos de propiedades de documentos, integradas y personalizadas. Aspose.Cells'[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase representa un archivo de Excel y, como un archivo de Excel, el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)La clase puede contener varias hojas de trabajo, cada una representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) mientras que la colección de hojas de trabajo está representada por el[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)clase.
+Aspose.Cells Las API admiten ambos tipos de propiedades de documentos, integradas y personalizadas. Aspose.Cells'[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase representa un archivo de Excel y, como un archivo de Excel, el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) La clase puede contener varias hojas de trabajo, cada una representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) mientras que la colección de hojas de trabajo está representada por el[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)clase.
 
  Utilizar el[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)para acceder a las propiedades del documento del archivo como se describe a continuación.
 
--  Para acceder a las propiedades del documento incorporado, use[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties).
--  Para acceder a las propiedades del documento personalizado, use[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties).
+-  Para acceder a las propiedades del documento incorporado, utilice[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties).
+-  Para acceder a las propiedades del documento personalizado, utilice[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties).
 
  Ambos[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties) y[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties) devolver la instancia de[**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection). Esta colección contiene[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)objetos, cada uno de los cuales representa una única propiedad de documento integrada o personalizada.
 
@@ -67,15 +67,15 @@ Tenga en cuenta que no puede indicar al Aspose.Cells for .NET que cambie o elimi
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingDocumentProperties.cs" >}}
 
- los[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)class permite recuperar el nombre, valor y tipo de la propiedad del documento:
+ Él[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)class permite recuperar el nombre, valor y tipo de la propiedad del documento:
 
 -  Para obtener el nombre de la propiedad, utilice[**DocumentoPropiedad.Nombre**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/name).
 -  Para obtener el valor de la propiedad, utilice[**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value). [**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value)devuelve el valor como un objeto.
--  Para obtener el tipo de propiedad, use[**DocumentProperty.Type**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/type) . Esto devuelve uno de los[**Tipo de propiedad**](https://reference.aspose.com/cells/net/aspose.cells.properties/propertytype) valores de enumeración. Después de obtener el tipo de propiedad, utilice uno de los**PropiedadDocumento.ToXXX** métodos para obtener el valor del tipo apropiado en lugar de utilizar[**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value) . los**PropiedadDocumento.ToXXX**Los métodos se describen en la siguiente tabla.
+-  Para obtener el tipo de propiedad, use[**DocumentProperty.Type**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/type) . Esto devuelve uno de los[**Tipo de propiedad**](https://reference.aspose.com/cells/net/aspose.cells.properties/propertytype) valores de enumeración. Después de obtener el tipo de propiedad, utilice uno de los**PropiedadDocumento.ToXXX** métodos para obtener el valor del tipo apropiado en lugar de utilizar[**DocumentoPropiedad.Valor**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/value) . Él**PropiedadDocumento.ToXXX**Los métodos se describen en la siguiente tabla.
 
 {{% alert color="primary" %}}
 
- los[**DocumentoPropiedad**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)class también proporciona un conjunto de métodos que devuelven los valores de otros tipos de datos.
+ Él[**DocumentoPropiedad**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)class también proporciona un conjunto de métodos que devuelven los valores de otros tipos de datos.
 
 {{% /alert %}}
 
@@ -85,7 +85,7 @@ Tenga en cuenta que no puede indicar al Aspose.Cells for .NET que cambie o elimi
 |Fecha|El tipo de datos de la propiedad es DateTime. Tenga en cuenta que Microsoft Excel solo almacena<br>la parte de la fecha, no se puede almacenar la hora en una propiedad personalizada de este tipo|HastaFechaHora|
 |Flotar|El tipo de datos de la propiedad es Doble|Para duplicar|
 |Número|El tipo de datos de propiedad es Int32|ToInt|
-|Cuerda|El tipo de datos de la propiedad es String|Encadenar|
+|Cadena|El tipo de datos de la propiedad es String|Encadenar|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
 
@@ -95,7 +95,7 @@ Como describimos anteriormente al comienzo de este tema, los desarrolladores no 
 
 ### **Adición de propiedades personalizadas**
 
- Aspose.Cells Las API han expuesto el[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) método para el[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class para agregar propiedades personalizadas a la colección. los[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) El método agrega la propiedad al archivo de Excel y devuelve una referencia para la propiedad del nuevo documento como un[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)objeto.
+ Aspose.Cells Las API han expuesto el[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) método para el[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class para agregar propiedades personalizadas a la colección. Él[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) El método agrega la propiedad al archivo de Excel y devuelve una referencia para la propiedad del nuevo documento como un[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)objeto.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 

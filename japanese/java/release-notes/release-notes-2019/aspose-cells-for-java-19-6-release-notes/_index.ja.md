@@ -17,11 +17,11 @@ url: /ja/java/aspose-cells-for-java-19-6-release-notes/
 |CELLSJAVA-42930|Excel95 読み込み失敗|強化|
 |CELLSJAVA-42927|列を削除した後、保存したファイルが Excel で開くのが遅くなる|強化|
 |CELLSJAVA-42932|Style.getDisplayStyle メソッドの条件付き書式エラー|バグ|
-|CELLSJAVA-42928|XLSXからPDFへの変換で一部の行が反映されない|バグ|
+|CELLSJAVA-42928|一部の行が XLSX から PDF への変換に反映されない|バグ|
 |CELLSJAVA-42904|ヘッダー画像がファイルを破損しているように見える|バグ|
 |CELLSJAVA-42907|ワークブックを保存した後にフィルターが失われた|バグ|
 |CELLSJAVA-42915|ワークブックにシートを追加した後にフィルターが変更される|バグ|
-|CELLSJAVA-42918|変換されたファイルのグラフが平坦化されました (XLS から XLSX への変換)|バグ|
+|CELLSJAVA-42918|変換されたファイルのチャートが平坦化されました (XLS から XLSX への変換)|バグ|
 |CELLSJAVA-42938|XLSX ファイルをロードするとアプリケーションが停止する|バグ|
 |CELLSJAVA-42859|ODS ファイルから Name をロードするための CellsException|例外|
 |CELLSJAVA-42908|Name.getRefersTo() の呼び出し中に例外が発生しました|例外|

@@ -16,20 +16,20 @@ url: /sv/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNETCORE-45|Ladda data från Datasource med alternativet att hoppa över något tecken som Apostrophe|Ny funktion|
 |CELLSNET-47018|Att beräkna vissa kombinationsdiagram kan orsaka ett undantag|Förbättring|
 |CELLSNET-47016|Radbrytning är annorlunda i den senaste versionen av Aspose.Cells|Förbättring|
-|CELLSNET-47023|Sjökortet gick förlorat när ODS-fil laddades och sparades|Förbättring|
-|CELLSNET-47056|Diagram renderas inte när ODS-fil laddas och sparas|Förbättring|
+|CELLSNET-47023|Diagrammet förlorades när ODS-filen laddades och sparades|Förbättring|
+|CELLSNET-47056|Diagram renderade inte när ODS-filen laddas och sparas|Förbättring|
 |CELLSNET-46679|Felaktig rendering vid export av XLSX till PDF|Insekt|
 |CELLSNET-46680|Wingding-symbol saknas vid konvertering av XLSX till PDF|Insekt|
 |CELLSNET-46740|Fel i bilder vid konvertering av Excel-fil till PDF|Insekt|
 |CELLSNET-46901|3D-modellens position skiftar|Insekt|
-|CELLSNET-46936|Teckensnittet återges inte bra i HTML|Insekt|
-|CELLSNET-47013|Siffror på trattdiagram försvinner när Excel-fil konverteras till PDF|Insekt|
+|CELLSNET-46936|Teckensnittet renderades inte bra i HTML|Insekt|
+|CELLSNET-47013|Numbers på trattdiagram försvinner när Excel-fil konverteras till PDF|Insekt|
 |CELLSNET-43846|Pivottabellen förlorar de anpassade fältnamnen och inställningen "Visa värde som...".|Insekt|
 |CELLSNET-46444|Pivottabellens värde ändrades efter anrop av PivotTable.CalculateData|Insekt|
 |CELLSNET-46484|RefreshData sorterar inte data innan filen öppnas i Excel|Insekt|
 |CELLSNET-47010|Ett problem med formateringen av pivottabellgrupprubriker|Insekt|
 |CELLSNET-47024|Felaktig sorteringsordning för rader i pivottabeller med värderad|Insekt|
-|CELLSNET-47034|Kolumnbredder och radhöjder pressas under HTML till Excel-konvertering|Insekt|
+|CELLSNET-47034|Kolumnbredder och radhöjder pressade under HTML till Excel-konvertering|Insekt|
 |CELLSNET-47007|Värdefel visas när formeln utvärderas|Insekt|
 |CELLSNET-47029|Felaktigt värde TRUE hämtat från Cell istället för värdet FALSE|Insekt|
 |CELLSNET-47052|Korrupt DateTimeFormat vid konvertering av Excel till PDF|Insekt|
@@ -41,10 +41,10 @@ url: /sv/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47045|Ändring av VBA-modulnamn kraschar|Insekt|
 |CELLSNET-47051|Diagrammet är fortfarande bundet till det första kalkylbladet efter kopian|Insekt|
 |CELLSNET-47053|Felaktigt filformatsavkänning och process har fastnat under filöppningen|Insekt|
-|CELLSNET-46922|Undantag vid laddning av XLS-filen|Undantag|
+|CELLSNET-46922|Undantag när filen XLS laddas|Undantag|
 |CELLSNET-46999|Ett undantag skapas när .ods-filen "Parametern är inte giltig."|Undantag|
 |CELLSNET-47017|OpenXML SDK skapar ett undantag när den konverterade filen öppnas|Undantag|
-|CELLSNET-47022|Undantag vid laddning av ett XLSX-filformat|Undantag|
+|CELLSNET-47022|Undantag vid laddning av ett XLSX filformat|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Tar bort föråldrad DataLabels.BaseField-egenskap**
@@ -86,9 +86,9 @@ Hämtar och ställer in typen av automatisk anpassning av inslagen text.
 #### **Lägger till klassen EmfRenderSetting**
 Uppsättningar för att rendera Emf-metafil.
 #### **Lägger till egenskapen PdfSaveOptions.EmfRenderSetting**
-Uppsättningar för att rendera EMF-metafil under rendering till PDF-fil.
+Uppsättningar för att rendera EMF metafil medan rendering till PDF fil.
 #### **Lägger till metoden ShapeCollection.AddSvg().**
-Lägger till SVG-bild.
+Lägger till SVG bild.
 #### **Lägger till WorkbookSettings.QuotePrefixToStyle-egenskapen**
 Anger om Style.QuotePrefix-egenskapen ställs in när strängvärdet (som börjar med ett citattecken ) anges i cellen
 #### **Lägger till egenskapen HtmlSaveOptions.AddTooltipText**

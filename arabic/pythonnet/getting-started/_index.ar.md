@@ -13,7 +13,7 @@ description: إعداد Aspose.Cells for Python via .NET وإرشادات الت
 ## **إصدار Python**
 - Python 3.6 أو أعلى
 
-## **تثبيت**
+## **التركيب**
 ### **Windows:**
  يمكنك بسهولة استخدام Aspose.Cells for Python via .NET من[بايبي](https://pypi.org/project/aspose-cells-python/) بالأمر التالي.
 {{< highlight "NET" >}}

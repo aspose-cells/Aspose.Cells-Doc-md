@@ -24,7 +24,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29632 Lancer une exception lorsque le nom de la feuille contient des caractères spéciaux
 
- 29153 Prise en charge de la mise en forme conditionnelle sur la sortie HTML
+ 29153 Prise en charge du formatage conditionnel sur la sortie HTML
 
  Performance
 
@@ -36,7 +36,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29983 AutoFitColumns() est extrêmement lent lorsque les colonnes ont un format numérique
 
- Exceptions
+ Des exceptions
 
 
 
@@ -50,7 +50,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Insectes
 
- 29413 Les valeurs DataRow sont modifiées
+29413 Les valeurs DataRow sont modifiées
 
  29599 Problème de graphique avec des barres 3D sur l'image
 
@@ -58,7 +58,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Problème de carte radar à image
 
-29777 VLookup ne fonctionne pas
+ 29777 VLookup ne fonctionne pas
 
  29408 Ajouter un élément calculé dans le tableau croisé dynamique
 
@@ -76,7 +76,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29828 ChartPoint.Datalabel a un problème concernant les couleurs
 
- \2) GrilleWeb
+ \2) Grille Web
 
  Insectes
 
@@ -94,7 +94,7 @@ url: /fr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Importer des formules avec des valeurs à partir d'un fichier Excel
 
- 29381 Importer un fichier Excel à partir du flux sans calculer toutes les formules
+29381 Importer un fichier Excel à partir du flux sans calculer toutes les formules
 
  Insectes
 

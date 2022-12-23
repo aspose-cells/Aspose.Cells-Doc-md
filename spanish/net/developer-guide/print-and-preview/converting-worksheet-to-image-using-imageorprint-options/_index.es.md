@@ -6,7 +6,7 @@ url: /es/net/converting-worksheet-to-image-using-imageorprint-options/
 ---
 {{% alert color="primary" %}}
 
-Este documento está diseñado para proporcionar una comprensión detallada de cómo convertir una hoja de trabajo en un archivo de imagen y aplicar diferentes opciones de imagen e impresión para la imagen, opciones como resolución, compresión TIFF, formato de imagen y calidad de página.
+Este documento está diseñado para proporcionar una comprensión detallada de cómo convertir una hoja de trabajo en un archivo de imagen y aplicar diferentes opciones de imagen e impresión para la imagen, opciones como resolución, TIFF compresión, formato de imagen y calidad de página.
 
 {{% /alert %}}
 
@@ -20,7 +20,7 @@ Este artículo muestra cómo crear una aplicación de consola en Visual Studio .
 
  Necesitas importar[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)espacio de nombres a su programa/proyecto. Tiene varias clases valiosas, por ejemplo,[**HojaRenderizar**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)etc.
 
-los[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class representa una hoja de trabajo para representar imágenes para la hoja de trabajo, tiene una sobrecarga[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)método que puede convertir directamente una hoja de trabajo en un archivo de imagen especificado con los atributos u opciones deseados. Puede devolver el objeto System.Drawing.Bitmap y puede guardar un archivo de imagen en el disco/secuencia. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
+Él[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class representa una hoja de trabajo para representar imágenes para la hoja de trabajo, tiene una sobrecarga[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)método que puede convertir directamente una hoja de trabajo en un archivo de imagen especificado con los atributos u opciones deseados. Puede devolver el objeto System.Drawing.Bitmap y puede guardar un archivo de imagen en el disco/secuencia. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
 
 ## **Usando Aspose.Cells para convertir la hoja de trabajo en imagen usando las opciones de ImageOrPrint.**
 

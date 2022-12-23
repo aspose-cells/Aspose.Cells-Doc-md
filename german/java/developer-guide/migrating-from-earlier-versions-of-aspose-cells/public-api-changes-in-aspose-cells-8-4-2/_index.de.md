@@ -109,7 +109,7 @@ workbook.save(output);
 
 {{< /highlight >}}
 
-### **Aufzählungsfelder PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS hinzugefügt**
+### **Aufzählungsfelder PasteType.DEFAULT & PasteType.ALL_EXCEPT_BORDERS Hinzugefügt**
 Mit der Veröffentlichung von v8.4.2 hat die Aspose.Cells API 2 neue Aufzählungsfelder für PasteType hinzugefügt, wie unten beschrieben.
 
 - PasteType.DEFAULT: Funktioniert ähnlich wie die „Alle“-Funktion von Excel zum Einfügen von Zellbereichen.

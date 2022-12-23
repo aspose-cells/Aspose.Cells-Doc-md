@@ -9,7 +9,7 @@ url: /zh/reportingservices/creating-new-query-using-existing-data-source/
 1. 打开 Microsoft Excel。
 1. 点击**构建数据集**在 Aspose.Cells.Report.Designer (
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_1.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_1.png)
 
 ).
 
@@ -18,7 +18,7 @@ url: /zh/reportingservices/creating-new-query-using-existing-data-source/
 
    **选择数据源** 
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_2.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_2.png)
 
 
 
@@ -28,7 +28,7 @@ url: /zh/reportingservices/creating-new-query-using-existing-data-source/
 
    **命名新数据集** 
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_3.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_3.png)
 
 
 
@@ -36,7 +36,7 @@ Aspose.Cells.Report.Designer 启动 Microsoft 查询并连接到选定的数据�
 
 **构建新查询** 
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_4.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_4.png)
 
 
 
@@ -45,7 +45,7 @@ Aspose.Cells.Report.Designer 启动 Microsoft 查询并连接到选定的数据�
 
    **返回报表设计器** 
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_5.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_5.png)
 
 
 
@@ -53,4 +53,4 @@ Aspose.Cells.Report.Designer 启动 Microsoft 查询并连接到选定的数据�
 
 **新数据集** 
 
-![待办事项：图像_替代_文本](creating-new-query-using-existing-data-source_6.png)
+![待办事项：图片_替代_文本](creating-new-query-using-existing-data-source_6.png)

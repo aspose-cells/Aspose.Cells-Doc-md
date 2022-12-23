@@ -15,7 +15,7 @@ Questo documento descrive alcuni modi per controllare quale versione del compone
 {{% /alert %}} 
 ## **Controllo del numero di versione**
 ### **1) Modo manuale**
-Se si dispone della versione/correzione di Java (Aspose.Cells for Java), è possibile decomprimere il file jar della libreria Aspose.Cells, aprire il file MANIFEST con il blocco note e cercare la stringa, ad esempio "Specification-Version: " per verificarne il valore.
+Se si dispone della versione/correzione Java (Aspose.Cells for Java), è possibile decomprimere il file jar della libreria Aspose.Cells, aprire il file MANIFEST con il blocco note e cercare la stringa, ad esempio "Specification-Version: " per verificarne il valore.
 
 ![cose da fare:immagine_alt_testo](check-version-number-of-the-component_1.png)
 

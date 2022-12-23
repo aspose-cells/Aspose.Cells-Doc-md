@@ -3,6 +3,7 @@ title: 显示和隐藏工作表和选项卡
 type: docs
 weight: 10
 url: /zh/net/show-and-hide-worksheets-and-tabs/
+description: 本文提供了使用 C# API 或 .NET 库以编程方式显示和隐藏 Excel 工作表的示例代码。此外，如何显示和隐藏 Excel 工作簿选项卡。
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +17,7 @@ Aspose.Cells 允许用户显示和隐藏工作簿的元素，包括工作表和�
 
 Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , 表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。
 
-工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制工作表的可见性，请使用[**可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。[**可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible)是一个布尔属性，这意味着它只能存储一个**真的**或者**错误的**价值。
+工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制工作表的可见性，请使用[**可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。[**可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible)是一个布尔属性，这意味着它只能存储一个**真的**要么**错误的**价值。
 
 ### **使工作表可见**
 
@@ -39,7 +40,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 使用 Aspose.Cells，开发人员可以控制 Excel 文件中工作表选项卡和选项卡滚动按钮的可见性。
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , 表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制 Excel 文件中选项卡的可见性，开发人员可以使用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs)财产。[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs)是一个布尔属性，这意味着它只能存储一个**真的**或者**错误的**价值。
+Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , 表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制 Excel 文件中选项卡的可见性，开发人员可以使用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs)财产。[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs)是一个布尔属性，这意味着它只能存储一个**真的**要么**错误的**价值。
 
 ### **使选项卡可见**
 

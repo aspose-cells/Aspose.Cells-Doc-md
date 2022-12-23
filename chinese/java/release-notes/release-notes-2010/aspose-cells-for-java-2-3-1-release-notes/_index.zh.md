@@ -21,7 +21,7 @@ url: /zh/java/aspose-cells-for-java-2-3-1-release-notes/
 - 为 PivotField 设置自定义数字格式。
 - 包括 Excel 2007 文件的新内置文档属性。
 - 合并多个工作簿。
-- 支持将 PDF 保存到 Stream 以实现直接 Excel 到 PDF 的功能。
+- 支持将 PDF 保存到 Stream，实现 Excel 直接转 PDF 功能。
 - 对读取/写入 Excel 2007 文件进行了增强。
 - 对读取/写入 Excel 2003 文件进行了增强。
 - 对读取 XLS 模板文件进行了增强。
@@ -47,7 +47,7 @@ url: /zh/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | Xlsx|为 Excel 2007 文件保存数据透视表|
 |18188 | Xlsx|设置 Excel 2007 文件的字体名称|
 |18201 |Xls|Cell.getDependents() 抛出异常|
-|18257 | PDF格式|在导出的 PDF 中打印区域|
+|18257 | PDF格式|导出的打印区域 PDF|
 |18274 |Xls|删除带图片的工作表|
 |18288 | PDF格式|提高保存 Pdf 的性能|
 |18307 | Xlsx|Excel 2007 文档属性|

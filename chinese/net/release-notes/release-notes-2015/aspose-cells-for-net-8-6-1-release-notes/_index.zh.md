@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-43905) - 支持将 HTML 超链接的目标属性更改为“_blank”
@@ -52,9 +52,9 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-43936) - 显示图例键，即使 Chart.ChartDataTable.ShowLegendKey 设置为 false
 
- (CELLSNET-43991) - 删除工作表会损坏生成的 XLSX
+ (CELLSNET-43991) - 删除工作表会破坏结果 XLSX
 
- (CELLSNET-43988) - 当使用 Aspose.Cells 重新保存 XLSX 时，修改密码丢失
+ (CELLSNET-43988) - 当用 Aspose.Cells 重新保存 XLSX 时修改密码丢失
 
 (CELLSNET-43984) - 重新保存 XLSM 时，修改密码转换为打开密码
 
@@ -72,11 +72,11 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-43976) - 多次尝试打开受密码保护的 XLSX
 
-(CELLSNET-43973) - 重新保存 XLSM 后修改密码丢失
+ (CELLSNET-43973) - 重新保存后修改密码丢失 XLSM
 
-(CELLSNET-43968) - Excel 应用程序建议以只读方式打开生成的 XLSB
+ (CELLSNET-43968) - Excel 应用程序建议以只读方式打开结果 XLSB
 
- (CELLSNET-43967) - 密码保护的 XLT 在重新保存后损坏
+ (CELLSNET-43967) - 密码保护 XLT 在重新保存后损坏
 
 (CELLSNET-43966) - ISNONTEXT 公式在 CalculateFormula 之后返回错误值
 
@@ -92,7 +92,7 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-43940) - 在报告打开时选择了错误的单元格
 
-(CELLSNET-43931) - 从命名范围中删除行会破坏生成的 XLSX
+(CELLSNET-43931) - 从命名范围中删除行会破坏结果 XLSX
 
  (CELLSNET-43928) - DocumentProperty Author 值读取不完整
 
@@ -104,17 +104,17 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-42120) - DisplayStringValue 值在某些情况下不正确
 
-(CELLSNET-42110) - 为 XLSX 中的范围设置的边框未显示在 PDF 中
+(CELLSNET-42110) - XLSX 中为范围设置的边框未显示在 PDF 中
 
 
 ## **例外情况**
 
 
-(CELLSNET-43932) - 形状到图像错误！将电子表格渲染为 PDF 时
+(CELLSNET-43932) - 形状到图像错误！在将电子表格渲染到 PDF 时
 
 (CELLSNET-43964) - 获取所有单元格的显示样式会引发 IndexOutOfRangeException
 
- (CELLSNET-43926) - Workbook.CalculateFormula 中的 CellsException
+(CELLSNET-43926) - Workbook.CalculateFormula 中的 CellsException
 
  (CELLSNET-43911) - Workbook.Save 中的 CellsException
 
@@ -129,7 +129,7 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-44004) - 支持加载和保存 SpreasheetML(XML) 文件 - GridDesktop
@@ -138,13 +138,13 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **增强功能**
 
 
-(CELLSNET-43873) - 中的旧代码 - 格式化 Cells 范围 - 文章不起作用
+ (CELLSNET-43873) - 中的旧代码 - 格式化 Cells 范围 - 文章不起作用
 
 
 ## **虫子**
 
 
-(CELLSNET-43997) - 加载/保存 XLSX 文件时工作表中的活动单元格不在正确位置 - GridWeb
+(CELLSNET-43997) - 加载/保存 XLSX 文件时，工作表中的活动单元格不在正确位置 - GridWeb
 
  (CELLSNET-43993) - 使用 griddesktop.dll 编译 VS2008 C++ 时出现 C2686 错误
 
@@ -154,7 +154,7 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 (CELLSNET-43952) - Aspose.Cells.GridWeb.Validation 类中缺少 LoadValueList API
 
- (CELLSNET-43859) - 填充黄色的 Cell 未导出到 XLSX 文件
+(CELLSNET-43859) - 填充黄色的 Cell 未导出到 XLSX 文件
 
 
 ## **公共 API 和向后不兼容的更改**
@@ -166,4 +166,4 @@ url: /zh/net/aspose-cells-for-net-8-6-1-release-notes/
 
 添加枚举 HtmlLinkTargetType 和 HtmlSaveOptions.LinkTargetType。
 
-用于设置HTML中target属性的类型
+ HTML 用于设置目标属性的类型

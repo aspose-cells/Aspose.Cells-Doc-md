@@ -32,7 +32,7 @@ Para agregar un elemento de subinforme:
 
 
 
-1.  Hacer clic**Cerca**. 
+1.  Hacer clic**Cerrar**. 
 
    **Se ha seleccionado un subinforme** 
 

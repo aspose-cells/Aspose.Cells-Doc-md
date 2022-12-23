@@ -27,10 +27,10 @@ Les paramètres suivants sont autorisés :
 
 - **pas d'ajout** - N'ajoutez pas de lignes supplémentaires pour ajuster les données.
 - **sauter :n** - Sauter n nombre de lignes pour chaque ligne de données.
-- **ascendant : n** ou**descendant:n** - Trier les données dans des marqueurs intelligents. Si n vaut 1, alors la colonne est la première clé du trieur. Les données sont triées après le traitement de la source de données. Par exemple : &=Table1.Field3(croissant : 1).
+- **ascendant : n** ou alors**descendant:n** - Trier les données dans des marqueurs intelligents. Si n vaut 1, alors la colonne est la première clé du trieur. Les données sont triées après le traitement de la source de données. Par exemple : &=Table1.Field3(croissant : 1).
 - **horizontal** - Écrivez les données de gauche à droite, au lieu de haut en bas.
 - **numérique** - Convertissez le texte en nombre si possible.
-- **décalage** - Maj vers le bas ou vers la droite, créant des lignes ou des colonnes supplémentaires pour s'adapter aux données. Le paramètre de décalage fonctionne de la même manière que dans Microsoft Excel. Par exemple, dans Microsoft Excel, lorsque vous sélectionnez une plage de cellules, cliquez avec le bouton droit et sélectionnez**Insérer** et précisez ?**décaler les cellules vers le bas**, **décaler les cellules vers la droite** et d'autres options. Bref, le**décalage** remplit la même fonction pour les marqueurs intelligents verticaux/normaux (de haut en bas) ou horizontaux (de gauche à droite).
+- **changement** - Maj vers le bas ou vers la droite, créant des lignes ou des colonnes supplémentaires pour s'adapter aux données. Le paramètre de décalage fonctionne de la même manière que dans Microsoft Excel. Par exemple, dans Microsoft Excel, lorsque vous sélectionnez une plage de cellules, cliquez avec le bouton droit et sélectionnez**Insérer** et précisez ?**décaler les cellules vers le bas**, **décaler les cellules vers la droite** et d'autres options. Bref, le**changement** remplit la même fonction pour les marqueurs intelligents verticaux/normaux (de haut en bas) ou horizontaux (de gauche à droite).
 - **style de copie** - Copiez le style de la cellule de base dans toutes les cellules de cette colonne.
 
 Les paramètres noadd et skip peuvent être combinés pour insérer des données sur des lignes alternées. Étant donné que le modèle est traité de bas en haut, vous devez ajouter noadd sur la première ligne pour éviter que des lignes supplémentaires ne soient insérées avant l'autre ligne.

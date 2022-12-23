@@ -1,5 +1,5 @@
 ﻿---
-title: Sichere PDF-Dokumente
+title: PDF Dokumente sichern
 type: docs
 weight: 120
 url: /de/net/secure-pdf-documents/
@@ -8,7 +8,7 @@ url: /de/net/secure-pdf-documents/
 
 Manchmal müssen Entwickler mit verschlüsselten PDF-Dateien arbeiten. Beispielsweise müssen sie Dokumente mit Benutzer- und Eigentümerkennwörtern sichern, damit nicht jeder sie öffnen kann, oder sie möchten einschränken, ob der Dokumentinhalt gedruckt oder extrahiert werden kann.
 
-In diesem Artikel wird erläutert, wie Sie PDF-Sicherheitsoptionen übergeben, wenn Sie Tabellenkalkulationen als PDF speichern.
+In diesem Artikel wird erläutert, wie Sie PDF-Sicherheitsoptionen übergeben, wenn Sie Tabellenkalkulationen unter PDF speichern.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ In diesem Artikel wird erläutert, wie Sie PDF-Sicherheitsoptionen übergeben, w
 
 {{% alert color="primary" %}}
 
- Wenn die Tabelle Formeln enthält, rufen Sie am besten an[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)kurz vor dem Rendern in PDF. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die korrekten Werte im PDF wiedergegeben werden.
+ Wenn die Tabelle Formeln enthält, rufen Sie am besten an[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)kurz vor dem Rendern in PDF. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die richtigen Werte in PDF gerendert werden.
 
 {{% /alert %}}

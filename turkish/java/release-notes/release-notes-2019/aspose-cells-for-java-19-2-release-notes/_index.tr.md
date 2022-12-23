@@ -15,11 +15,11 @@ Bu sayfa Aspose.Cells for Java 19.2 için sürüm notları içerir.
 |CELLSJAVA-42827|MS Excel'e benzer InsertOptions ile satır ekleyin|Yeni özellik|
 |CELLSJAVA-42712|Aspose.Cells for Java için JavaDocs'u geliştirin|Artırma|
 |CELLSJAVA-42823|FontUnderlineType.WORDS kullanmak istisna oluşturuyor|Artırma|
-|CELLSJAVA-42826|XLSX'ten HTML'ye dönüştürme sırasında koşullu biçimlendirmeye sahip veriler atlandı|Böcek|
+|CELLSJAVA-42826|XLSX'den HTML'e dönüştürme sırasında koşullu biçimlendirmeli veriler çıkarılmıştır|Böcek|
 |CELLSJAVA-42815|Tanımlanan ada karmaşık başvuru eklenmesi bozuk MS Excel çalışma kitabıyla sonuçlanır|Böcek|
 |CELLSJAVA-42822|Cell.getValidationValue, belirtilen değer için yanlış değer döndürüyor|Böcek|
 |CELLSJAVA-42829|Paylaşılan formüllerdeki özel işlev adı, başka bir adla değiştirilir|Böcek|
-|CELLSJAVA-42824|Eksen başlıkları eksik ve Excel'deki grafiklerin PDF/A'ya dönüştürülmesindeki diğer biçimlendirmeler yanlış|Böcek|
+|CELLSJAVA-42824|Eksen başlıkları eksik ve Excel'deki grafiklerin PDF/A dönüşümüne ilişkin diğer biçimlendirmeleri yanlış|Böcek|
 |CELLSJAVA-42814|PNG çıktısındaki oklar, Excel grafiğindeki oklarla eşleşmiyor|Böcek|
 |CELLSJAVA-42777|Satırları otomatik sığdırma işlemi kullanılırken yanlış satır yüksekliği değiştirildi|Böcek|
 |CELLSJAVA-42813|"ReCalculateOnOpen" çalışma kitabı ayarı kalıcı değil|Böcek|
@@ -27,7 +27,7 @@ Bu sayfa Aspose.Cells for Java 19.2 için sürüm notları içerir.
 |CELLSJAVA-42817|Metin Kutularının arka plan rengi beklenmedik bir şekilde değişti|Böcek|
 |CELLSJAVA-42821|Bir Aralığın ilk satırını silerken, Aralık yanlış güncelleniyor|Böcek|
 |CELLSJAVA-42828|Cell.setHtmlString kullanılırken metnin sonuna yeni bir satır eklenir|Böcek|
-|CELLSJAVA-42820|Bir XLSX dosya formatı yüklenirken "Geçersiz IMEModeType string val" istisnası|İstisna|
+|CELLSJAVA-42820|XLSX dosya biçimi yüklenirken "Geçersiz IMEModeType dize değeri" istisnası|İstisna|
 Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler
 
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

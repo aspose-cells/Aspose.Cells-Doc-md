@@ -40,9 +40,9 @@ url: /tr/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41366) - Şablon XLSX dosyasını açıp kaydettikten sonra e-tablo bozuldu
 
-(CELLSJAVA-41355) - HTML'ye dönüştürme, bir sütun için değerlerin sonuna # dizesi ekler
+ (CELLSJAVA-41355) - HTML'e dönüştürme, bir sütun için değerlerin sonuna # dize ekler
 
- (CELLSJAVA-41354) - Metin kutularındaki sayılar içeride görüntülenmiyor
+(CELLSJAVA-41354) - Numbers Metin kutuları içeride görüntülenmiyor
 
  (CELLSJAVA-41353) - Akıllı sanatların PDF'deki yerleşimi/hizalaması kaynak Excel dosyasıyla eşleşmiyor
 
@@ -56,19 +56,19 @@ url: /tr/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41339) - Şablon dosyasında metin ve metin hizalaması bozuk
 
- (CELLSJAVA-41336) - HTML'ye aktarılırken JavaScript hatası
+ (CELLSJAVA-41336) - HTML'e aktarılırken JavaScript hatası
 
  (CELLSJAVA-41327) - Şablon dosyasındaki metin kaybı
 
  (CELLSJAVA-41326) - Şablon dosyasındaki metin kaybı
 
- (CELLSJAVA-41304) - Aspose.Cells API'leri ile XLS'den PDF'ye dönüştürme başarısız oldu
+ (CELLSJAVA-41304) - Aspose.Cells API'leri ile XLS'den PDF'e başarısız dönüşümler
 
-(CELLSJAVA-41206) - Köprüler içeren Excel dosyası HTML'ye dönüştürülüyor - Cell referanslı köprüler çalışmıyor
+(CELLSJAVA-41206) - Köprü içeren Excel dosyasını HTML - Cell referanslı köprülere dönüştürme çalışmıyor
 
  (CELLSJAVA-40483) - Ok şeklinin / nesnesinin biçimlendirilmesiyle ilgili sorun - Excel'den PDF'e dönüştürme
 
- (CELLSJAVA-41372) - Gantt şeması çıktı PDF dosyası biçiminde işlenmez
+ (CELLSJAVA-41372) - Gantt şeması, PDF çıktı dosya biçiminde işlenmez
 
  (CELLSJAVA-41363) - Özel işlevin hesaplanmasında döndürülen parametre değerleriyle ilgili sorun
 
@@ -82,31 +82,31 @@ url: /tr/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41369) - Formüllerdeki Otomatik Filtrelerle ilgili sorun
 
- (CELLSJAVA-41348) - Sayı formatlı koşullu format XLS için çalışmıyor
+ (CELLSJAVA-41348) - XLS için sayı formatlı koşullu format çalışmıyor
 
- (CELLSJAVA-41347) - Style.isDateTime, Tarih olarak biçimlendirilmiş bir hücre için yanlış döndürür
+(CELLSJAVA-41347) - Style.isDateTime, Tarih olarak biçimlendirilmiş bir hücre için yanlış döndürür
 
-(CELLSJAVA-41338) - Bitişik gizli sütunu olan bir hücre için olmaması gerektiği halde görünen sol kenarlık
+ (CELLSJAVA-41338) - Bitişik gizli sütunu olan bir hücre için olmaması gerektiği halde görünen sol kenarlık
 
  (CELLSJAVA-41331) - Satırları ekledikten sonra formüller doğru şekilde güncellenmiyor
 
- (CELLSJAVA-41330) - PDF olarak kaydederken / yazdırırken dinamik yazdırma alanı bozuldu
+ (CELLSJAVA-41330) - Farklı kaydet / yazdır PDF olduğunda dinamik yazdırma alanı bozuldu
 
- (CELLSJAVA-41365) - Çıktı PDF dosyasında metin kutusundaki bazı İbranice karakterler eksik
+ (CELLSJAVA-41365) - PDF çıktı dosyasında metin kutusundaki bazı İbranice karakterler eksik
 
- (CELLSJAVA-41346) - Grafikteki değer ekseni ve kategori ekseni etiketleri karartıldı (Excel'den PDF'e dönüştürme)
+ (CELLSJAVA-41346) - Tablodaki değer ekseni ve kategori ekseni etiketleri karartılır (Excel'den PDF'e dönüştürme)
 
  (CELLSJAVA-41312) - Metin çok büyük ve kenar boşluğunun ötesine genişliyor
 
  (CELLSJAVA-41305) - Çalışma sayfasını resme dönüştürürken kalın metin karakterleri birbiriyle örtüşüyor
 
- (CELLSJAVA-40916) - Sayfa sonunun dışındaki metin, PDF'de kaydırılmış metin olarak işlenir
+ (CELLSJAVA-40916) - Sayfa sonu dışındaki metin, PDF'de kaydırılmış metin olarak işlenir
 
- (CELLSJAVA-40791) - Excel'den PDF'e dönüştürmede sayfa sonu, yazı tiplerini oluşturma ve kenar boşluklarıyla ilgili sorun
+ (CELLSJAVA-40791) - Excel'de PDF'e kadar sayfa sonu, yazı tipi oluşturma ve kenar boşlukları ile ilgili sorun
 
- (CELLSJAVA-40605) - Aspose.Cells: orijinal hücrede kesilen metin, PDF'ye dönüştürüldüğünde tam olarak gösteriliyor
+(CELLSJAVA-40605) - Aspose.Cells: orijinal hücredeki kesilmiş metin, PDF'e dönüştürüldüğünde tam olarak gösteriliyor
 
-(CELLSJAVA-40479) - Sayfa Düzeni sorunu (RTL) oluşturma
+ (CELLSJAVA-40479) - Sayfa Düzeni sorunu (RTL) oluşturma
 
  (CELLSJAVA-40448) - Oluşturulan PDF dosyasında alt bilgi karışık
 
@@ -130,7 +130,7 @@ url: /tr/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: Giriş dizesi için: Workbook ctor'da "0,00"
 
- (CELLSJAVA-41344) - java.lang.NullPointerException at Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException at Cells.find
 
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -146,7 +146,7 @@ url: /tr/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-SheetRender.PageScale özelliğini ekler.
+ SheetRender.PageScale özelliğini ekler.
 
  Sayfanın hesaplanan sayfa ölçeğini almak için kullanılır.
 
@@ -177,13 +177,13 @@ CalculationOptions ile formül hesaplama yöntemleri ekler: Cell.Calculate(Calcu
 
 
 
- Yöntemleri ekler: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Yöntemleri ekler: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Kullanıcının bir referanstan veri almasına izin ver.
 
 
 
-ICustomFunction.CalculateCustomFunction (string functionName, ArrayList paramsList, ArrayList contextObjects) parametreleri için değişiklikler
+ ICustomFunction.CalculateCustomFunction (string functionName, ArrayList paramsList, ArrayList contextObjects) parametreleri için değişiklikler
 
  Şimdi ilgili parametre bir referans olduğunda veya hesaplanan sonucu referans olduğunda, referans alanın değeri veya değer dizisi yerine "paramsList" içine ReferredArea nesnesini ekliyoruz. Ve ContextObjexts'ten ReferredAreaCollection'ı kaldırıyoruz.
 

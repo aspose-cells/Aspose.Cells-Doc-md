@@ -10,7 +10,7 @@ Aspose.Cells per GridDesktop ha aggiunto due nuovi eventi, ovvero AfterDeleteCol
 ![cose da fare:immagine_alt_testo](handling-events-after-deleting-columns-and-rows-in-griddesktop_1.png)
 ## **Gestione degli eventi dopo l'eliminazione di colonne e righe in GridDesktop**
 Il seguente codice di esempio spiega come utilizzare gli eventi AfterDeleteColumns e AfterDeleteRows. Ogni volta che elimini alcune colonne o righe, la funzione data verrà chiamata e mostrerà una finestra di messaggio che mostra l'indice della colonna o riga eliminata.
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< highlight "java" >}}
 
  private void gridDesktop1_AfterDeleteColumnsAndRows(object sender, Aspose.Cells.GridDesktop.WorksheetEventArgs args)

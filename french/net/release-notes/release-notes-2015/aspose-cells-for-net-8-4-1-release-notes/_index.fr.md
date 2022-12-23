@@ -32,25 +32,25 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **Insectes**
 
 
- (CELLSNET-43475) - La vue des données du tableau croisé dynamique en HTML n'est pas corrélée
+ (CELLSNET-43475) - La vue des données du tableau croisé dynamique dans HTML n'est pas corrélée
 
- (CELLSNET-43474) - Le tableau croisé dynamique ne s'actualise pas lors du rendu au format HTML
+ (CELLSNET-43474) - Le tableau croisé dynamique ne s'actualise pas lors du rendu vers HTML
 
  (CELLSNET-43473) - Modification des sélections de filtre de rapport
 
- (CELLSNET-43450) - Rendu HTML incorrect lors de la conversion de la feuille de calcul en HTML
+ (CELLSNET-43450) - Rendu incorrect de HTML lors de la conversion de la feuille de calcul en HTML
 
- (CELLSNET-43428) - les cellules du tableau croisé dynamique dans les en-têtes de groupe ont des styles incorrects
+(CELLSNET-43428) - les cellules du tableau croisé dynamique dans les en-têtes de groupe ont des styles incorrects
 
-(CELLSNET-43422) - La suppression de la feuille source provoque une exception lors de l'enregistrement
+ (CELLSNET-43422) - La suppression de la feuille source provoque une exception lors de l'enregistrement
 
  (CELLSNET-43417) - L'ordre de tri des points de données de la série du graphique croisé dynamique est incorrect
 
- (CELLSNET-43413) - Conversion incorrecte d'un fichier HTML en PDF
+ (CELLSNET-43413) - Mauvaise conversion du fichier HTML en PDF
 
- (CELLSNET-43340) - La ré-enregistrement de la feuille de calcul XLS rend le résultat corrompu
+ (CELLSNET-43340) - Réenregistrer la feuille de calcul XLS rend le résultat corrompu
 
- (CELLSNET-43545) - La date chevauche le texte dans le pied de page gauche dans le format de fichier PDF rendu
+ (CELLSNET-43545) - La date chevauche le texte dans le pied de page gauche dans le format de fichier rendu PDF
 
  (CELLSNET-43543) - La bordure de cellule double ne s'imprime pas correctement pour la dernière cellule
 
@@ -58,15 +58,15 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43516) - Aspose n'imprime pas de page vide
 
- (CELLSNET-43508) - La feuille de calcul au format PDF génère un PDF vierge
+ (CELLSNET-43508) - La feuille de calcul vers PDF génère un blanc PDF
 
- (CELLSNET-43507) - Les pixels se sont légèrement détériorés pour l'image dans le fichier PDF de sortie
+ (CELLSNET-43507) - Les pixels se sont un peu détériorés pour l'image dans le fichier de sortie PDF
 
  (CELLSNET-43481) - Cells qui avait des dates et/ou des nombres avec des mots en hébreu
 
- (CELLSNET-43479) - Le logo avec une mauvaise indentation
+(CELLSNET-43479) - Le logo avec une mauvaise indentation
 
-(CELLSNET-43478) - Le côlon à la fin du dernier mot de la première ligne s'est rompu
+ (CELLSNET-43478) - Le côlon à la fin du dernier mot de la première ligne s'est rompu
 
  (CELLSNET-43477) - Les espaces entre les mots hébreux ont disparu, écrasant la phrase en un seul mot
 
@@ -96,7 +96,7 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-42854) - Les demi-lignes numériques et le texte ne s'affichent pas pour l'axe des x
 
- (CELLSNET-42614) - Le graphique exporté au format PDF contient des lignes supplémentaires
+ (CELLSNET-42614) - Le graphique exporté vers PDF comporte des lignes supplémentaires
 
  (CELLSNET-40984) - J'ai une image de 0 octet - Erreur Shape2Image
 
@@ -110,7 +110,7 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - Le filtre déroulant ne peut pas être sélectionné après le chargement et l'enregistrement
 
- (CELLSNET-43518) - Le chargement et l'enregistrement du XLSM corrompt le résultat
+ (CELLSNET-43518) - Charger et enregistrer le XLSM rend le résultat corrompu
 
  (CELLSNET-43515) - La formule impliquant une cellule de plage nommée n'est pas lue correctement
 
@@ -123,7 +123,7 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
  (CELLSNET-43472) - Cells.CopyRows a un comportement étrange avec le formatage des bordures
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-43304) - System.ArgumentException lors du chargement d'un fichier MHTML dans une instance de Workbook
@@ -136,7 +136,7 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -150,7 +150,7 @@ url: /fr/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) - GridDesktop ne parvient pas à trouver la licence de ressource intégrée
 
-(CELLSNET-42509) - Les formes ne sont pas rendues correctement dans gridweb
+ (CELLSNET-42509) - Les formes ne sont pas rendues correctement dans gridweb
 
  (CELLSNET-42559) - Déplacement de feuilles de calcul dans GridDesktop
 

@@ -20,21 +20,21 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43112) – Text der Gleichung der Trendlinie im Diagramm abrufen
 
-(CELLSNET-42303) – Konvertieren von Diagrammen in Bilder im SVG-Format
+(CELLSNET-42303) – Konvertieren des Diagramms in ein Bild im SVG-Format
 
 (CELLSNET-43158) – Unterstützung zum Festlegen der AutoRecover-Arbeitsmappeneigenschaft
 
 ### **Fehler**
 
-(CELLSNET-41756) – Problem mit Bildern bei der XLS-zu-HTML-Konvertierung
+(CELLSNET-41756) – Problem mit Bildern bei der Konvertierung von XLS in HTML
 
 (CELLSNET-41755) – Problem mit Bildern bei der Konvertierung von XLS in PDF
 
 (CELLSNET-43111) – Hinzufügen von Zellenwerten zu den XLSB-Entfernungsvorgaben
 
-(CELLSNET-43110) – Fehler „Excel hat unlesbaren Inhalt gefunden“, verursacht durch Pivotfield (doppelt) in der XLSB-Ausgabe
+(CELLSNET-43110) – Fehler „Excel hat unlesbaren Inhalt gefunden“, verursacht durch Pivotfield (double) in XLSB-Ausgabe
 
-(CELLSNET-43109) – Fehler „Excel hat nicht lesbaren Inhalt gefunden“, verursacht durch Pivotfield (doppelt) in der XLSX-Ausgabe
+(CELLSNET-43109) – Fehler „Excel hat nicht lesbaren Inhalt gefunden“, verursacht durch Pivotfield (double) in XLSX-Ausgabe
 
 (CELLSNET-43095) – Diagramm verschiebt seine Position
 
@@ -46,13 +46,13 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-42797) – Textfelder verlieren die Rechtfertigungsausrichtung, wenn sie in XPS gespeichert werden
 
-(CELLSNET-42796) – Textfelder verlieren die Blocksatzausrichtung, wenn sie als PDF gespeichert werden
+(CELLSNET-42796) – Textfelder verlieren die Rechtfertigungsausrichtung, wenn sie auf PDF gespeichert werden
 
 (CELLSNET-42199) – Excel Diagram exportiert nicht korrekt
 
 (CELLSNET-40902) – Das Excel-Textfeld wird beim Rendern in ein Bild falsch skaliert
 
-(CELLSNET-43138) – Roter Text wird beim Konvertieren von SpreadsheetML in das PDF-Format in Schwarz gerendert
+(CELLSNET-43138) – Roter Text wird in Schwarz gerendert, während das Format SpreadsheetML in das Format PDF konvertiert wird
 
 (CELLSNET-43133) – Ausgabe mehrerer Exemplare drucken
 
@@ -64,9 +64,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-42402) – Compliance PDF/A-1b mit Adobe X Pro Preflight fehlgeschlagen
 
-(CELLSNET-41906) – PDF/A-Validierung schlägt fehl und andere Probleme im Zusammenhang mit Schriftarten
+(CELLSNET-41906) – PDF/A Validierung schlägt fehl und andere Probleme im Zusammenhang mit Schriftarten
 
-(CELLSNET-41832) – PDF/A erstellt mit Aspose Cells fehlgeschlagenen Überprüfungen
+(CELLSNET-41832) - PDF/A erstellt mit Aspose Cells fehlgeschlagenen Überprüfungen
 
 (CELLSNET-43103) – Die Trendlinie verlässt den Plotbereich
 
@@ -80,17 +80,17 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-42988) – Diagrammachsenbeschriftungen ändern sich, wenn die Quelldatei geöffnet und erneut gespeichert wird
 
-(CELLSNET-42945) – Die Position der Diagrammlegende ist für das XLS-Format nicht ausgewählt
+(CELLSNET-42945) – Die Position der Diagrammlegende ist für das Format XLS nicht ausgewählt
 
 (CELLSNET-41690) – Die digitale Signatur verliert an Transparenz
 
-(CELLSNET-43152) – Durch das Öffnen und Speichern der XLSB-Datei wird diese beschädigt
+(CELLSNET-43152) – Durch das Öffnen und Speichern der Datei XLSB wird sie beschädigt
 
 (CELLSNET-43143) – Das Kombinieren von Arbeitsmappen mit Arbeitsblättern mit Namen wie R# führt zu beschädigten Arbeitsmappen
 
 (CELLSNET-43139) - Aspose.Cells berechnet die TEXT-Funktion falsch
 
-(CELLSNET-43131) - Das Einstellen der transparenten Farbe von Bildern funktioniert für das XLSX-Format
+(CELLSNET-43131) - Das Einstellen der transparenten Farbe von Bildern funktioniert für das Format XLSX
 
 (CELLSNET-43128) – Zeichensatzproblem mit hebräischen Schriftarten
 
@@ -108,13 +108,13 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43094) – Floor-Formel wird nicht korrekt berechnet
 
-(CELLSNET-43091) – Das Layout des Diagramms hat sich beim Konvertieren von ODS in das XLSX-Format geändert
+(CELLSNET-43091) – Das Layout des Diagramms hat sich beim Konvertieren des Formats ODS in das Format XLSX geändert
 
-(CELLSNET-43087) – Die ODS-zu-XLSX-Konvertierung erzeugt eine beschädigte Tabelle
+(CELLSNET-43087) - Die Konvertierung von ODS in XLSX erzeugt eine beschädigte Tabelle
 
 (CELLSNET-43080) – Excel als HTML speichern: Bedingte Formatierung funktioniert nicht
 
-(CELLSNET-42969) – Bedingte Formatierung wird beim Konvertieren von Tabellenkalkulationen in PDF nicht beibehalten
+(CELLSNET-42969) – Die bedingte Formatierung wird beim Konvertieren der Tabelle in PDF nicht beibehalten
 
 (CELLSNET-42356) – Beim Kombinieren von Arbeitsmappen werden die Eigenschaften von Zeichnungsobjekten in den Arbeitsblättern nicht beibehalten.
 
@@ -122,9 +122,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43142) – System.OverflowException beim Öffnen der Excel-Datei
 
-(CELLSNET-43119) – Form-zu-Bild-Fehler beim Konvertieren von Excel-Dateien in PDF
+(CELLSNET-43119) – Form-zu-Bild-Fehler beim Konvertieren einer Excel-Datei in PDF
 
-(CELLSNET-43078) – Beim Laden der CSV-Datei ist ein Fehler aufgetreten
+(CELLSNET-43078) – Beim Laden der Datei CSV ist ein Fehler aufgetreten
 
 (CELLSNET-43155) – CellsException: „Ungültiger Zeilenstilindex, Zeilenindex: 32“ bei Workbook ctor
 
@@ -136,7 +136,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43107) – System.OverflowException: Der Wert war entweder zu groß oder zu klein für ein Int32 im Workbook-Ctor
 
-(CELLSNET-43085) – System.ArgumentOutOfRangeException beim Laden der ODS-Datei
+(CELLSNET-43085) – System.ArgumentOutOfRangeException beim Laden der Datei ODS
 
 ## 2) Aspose.Cells Grid-Suite
 
@@ -154,7 +154,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43126) – TableItemStyle.Custom funktioniert im GridWeb nicht
 
-(CELLSNET-42745) – Probleme mit Ausrichtung und Anzeigeformat beim Importieren von XLSX-Dateien in GridWeb
+(CELLSNET-42745) – Probleme mit der Ausrichtung und dem Anzeigeformat beim Importieren der Datei XLSX in GridWeb
 
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 

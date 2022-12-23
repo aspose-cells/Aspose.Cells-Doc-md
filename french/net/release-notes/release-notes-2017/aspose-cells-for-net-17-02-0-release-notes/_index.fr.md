@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45049|Coupez les lignes et les colonnes vides lors de l'exportation des feuilles de calcul au format CSV|Nouvelle fonctionnalité|
 |CELLSNET-45069|Lier une feuille de calcul à un objet de collection personnalisé (Aspose.Cells.GridWeb)|Nouvelle fonctionnalité|
@@ -23,12 +23,12 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45048|Le fichier PDF résultant n'est pas compatible PDFA1B|Renforcement|
 |CELLSNET-45099|Graphiques en cascade et TreeMap, Series.getValues() doit afficher les valeurs comme affichage|Renforcement|
 |CELLSNET-45026|La méthode CalculateFormula() met trop de temps à revenir|Performance|
-|CELLSNET-45071|CellsException : mémoire insuffisante lors de la conversion du classeur en TIFF|Performance|
+|CELLSNET-45071|CellsException : Mémoire insuffisante lors de la conversion du classeur en TIFF|Performance|
 |CELLSNET-45067|La conversion en PDF prend trop de temps|Performance|
-|CELLSNET-45105|Le chargement du HTML échoue lorsque CultureInfo est en français|Punaise|
+|CELLSNET-45105|Le chargement de HTML échoue lorsque CultureInfo est en français|Punaise|
 |CELLSNET-45089|HTML vers Excel : le fichier Excel est corrompu|Punaise|
-|CELLSNET-45072|WordArt du XLS ne s'affiche pas en HTML|Punaise|
-|CELLSNET-45053|Certaines balises HTML ne sont pas prises en compte et certains contenus sont manquants|Punaise|
+|CELLSNET-45072|WordArt du XLS ne s'affiche pas dans HTML|Punaise|
+|CELLSNET-45053|Certaines balises HTML ne sont pas prises en compte et certains contenus manquent|Punaise|
 |CELLSNET-45039|La règle de style mixte ne prend pas en compte lors du rendu du HTML vers Excel|Punaise|
 |CELLSNET-45036|Le contenu après une balise est coupé lors de l'importation de HTML et de la conversion en XLSX|Punaise|
 |CELLSNET-45035|Le contenu entier de la cellule devient gras lorsqu'une partie se trouve entre les balises STRONG|Punaise|
@@ -36,14 +36,14 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-44336|Impossible de convertir correctement Html en XLSX|Punaise|
 |CELLSNET-45096|Après l'appel de CalculateFormula(), le résultat de la formule est erroné|Punaise|
 |CELLSNET-45093|La fonction SOMMEPROD ne fonctionne pas|Punaise|
-|CELLSNET-45085|La valeur calculée de la fonction LOGNORM.DIST n'est pas correcte dans le PDF|Punaise|
+|CELLSNET-45085|La valeur calculée de la fonction LOGNORM.DIST n'est pas correcte dans PDF|Punaise|
 |CELLSNET-44740|Le modèle DateTime personnalisé ne peut pas être appliqué à GridColumn|Punaise|
-|CELLSNET-45130|Résultat différent en utilisant Excel exporter PDF et Aspose.Cells enregistrer au format PDF|Punaise|
-|CELLSNET-45095|L'image de la feuille de calcul n'a pas été rendue au format PDF|Punaise|
-|CELLSNET-45075|Les hyperliens de la feuille de calcul ne sont pas exportés au format PDF|Punaise|
-|CELLSNET-45074|Problème de formatage dans le rendu Excel vers PDF|Punaise|
-|CELLSNET-45070|Le graphique à secteurs 3D ne s'affiche pas lors de la conversion de la feuille de calcul en PDF au Mono|Punaise|
-|CELLSNET-41283|PDF différent lorsqu'il est enregistré à partir d'Excel et Aspose.Cells|Punaise|
+|CELLSNET-45130|Résultat différent en utilisant l'exportation Excel PDF et Aspose.Cells enregistrer sous PDF|Punaise|
+|CELLSNET-45095|L'image de la feuille de calcul n'a pas été rendue au PDF|Punaise|
+|CELLSNET-45075|Les hyperliens de la feuille de calcul ne sont pas exportés vers PDF|Punaise|
+|CELLSNET-45074|Problème de formatage dans Excel au rendu PDF|Punaise|
+|CELLSNET-45070|Le graphique à secteurs 3D ne s'affiche pas lors de la conversion de la feuille de calcul en PDF sur Mono|Punaise|
+|CELLSNET-41283|PDF différent lors de l'enregistrement à partir d'Excel et Aspose.Cells|Punaise|
 |CELLSNET-41196|Problèmes de fonction ToTiff - La colonne supplémentaire est affichée|Punaise|
 |CELLSNET-41195|Problèmes de fonction ToTiff - Perte de données|Punaise|
 |CELLSNET-45097|Le graphique perd la mise en forme des étiquettes après Workbook.Copy|Punaise|
@@ -55,11 +55,11 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-44410|Groupe de formes pivoté mal rendu à l'image|Punaise|
 |CELLSNET-45121|Le document Excel est vide après réenregistrement|Punaise|
 |CELLSNET-45120|Le graphique n'est pas calculé/actualisé correctement après la suppression d'une plage|Punaise|
-|CELLSNET-45118|La feuille de calcul est corrompue après avoir été enregistrée au format XLSM|Punaise|
+|CELLSNET-45118|La feuille de calcul est corrompue après avoir été enregistrée sous XLSM|Punaise|
 |CELLSNET-45107|Zones de texte manquantes après la fusion de graphiques lors de la combinaison de classeurs|Punaise|
 |CELLSNET-45104|Le changement de LinkSource crée des entrées doublées|Punaise|
 |CELLSNET-45101|Changer le style de la bordure existante ne semble pas fonctionner|Punaise|
-|CELLSNET-45094|La position du texte est modifiée après le chargement et l'enregistrement de XLS|Punaise|
+|CELLSNET-45094|La position du texte est modifiée après le chargement et l'enregistrement XLS|Punaise|
 |CELLSNET-45090|Ordre de tri multi-onglets non enregistré après l'ajout d'un pied de page|Punaise|
 |CELLSNET-45086|Case à cocher supplémentaire et texte "Case à cocher" apparaissant après avoir réenregistré le fichier Excel|Punaise|
 |CELLSNET-45065|Bordures de cellule indésirables ajoutées avec une simple opération de chargement et de sauvegarde|Punaise|
@@ -67,7 +67,7 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-44835|System.NotImplementedException à la méthode WebWorksheet.CreateSubtotal|Exception|
 |CELLSNET-45068|Une exception est levée lors du chargement du fichier Excel|Exception|
 |CELLSNET-45112|Lorsque vous appelez Pictures.Clear (), puis enregistrez XLS, System.ArgumentOutOfRangeException se produit|Exception|
-|CELLSNET-45111|Lors de l'enregistrement XLS, System.ArgumentOutOfRangeException se produit|Exception|
+|CELLSNET-45111|Lorsque Save XLS, System.ArgumentOutOfRangeException se produit|Exception|
 |CELLSNET-45108|System.NullReferenceException au niveau du classeur pour XLSB|Exception|
 |CELLSNET-45103|Range.MoveTo() lève une exception|Exception|
 |CELLSNET-45088|Exception lors du rendu d'une feuille de calcul au format de fichier PDF|Exception|
@@ -75,7 +75,7 @@ url: /fr/net/aspose-cells-for-net-17-02-0-release-notes/
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Vous trouverez ci-dessous une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler dans le forum d'assistance Aspose.Cells.
 #### **Ajout de la propriété HTMLLoadOptions.AutoFitColsAndRows**
-Cette version du Aspose.Cells for .NET API a ajouté la propriété HTMLLoadOptions.AutoFitColsAndRows qui indique si le API doit ajuster automatiquement les colonnes et les lignes lors de l'importation du HTML dans son mode objet. La propriété de type booléen a la valeur par défaut comme false, ce qui signifie que les hauteurs et largeurs de cellule seront importées telles quelles, cependant, lorsque la propriété susmentionnée est définie sur true, le API essaie d'ajuster les largeurs de colonne et les hauteurs de ligne en fonction du contenu .
+Cette version du Aspose.Cells for .NET API a ajouté la propriété HTMLLoadOptions.AutoFitColsAndRows qui indique si le API doit ajuster automatiquement les colonnes et les lignes lors de l'importation du HTML dans son mode objet. La propriété de type booléen a la valeur par défaut false, ce qui signifie que les hauteurs et largeurs de cellule seront importées telles quelles. Cependant, lorsque la propriété susmentionnée est définie sur true, le API essaie d'ajuster les largeurs de colonne et les hauteurs de ligne en fonction du contenu. .
 
 Voici le scénario d'utilisation simple de la propriété HTMLLoadOptions.AutoFitColsAndRows.
 
@@ -145,7 +145,7 @@ var book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 #### **Ajout de la méthode Cells.TextToColumns**
- La dernière révision des API Aspose.Cells for .NET a exposé la méthode Cells.TextToColumns afin d'imiter celle d'Excel.**Texte aux colonnes** caractéristique. Excel fournit cette fonctionnalité à partir de**Outils de données** sous le**Données** languette. Veuillez noter que pour diviser le contenu d'une colonne en plusieurs colonnes, les données doivent contenir un délimiteur spécifique tel qu'une virgule (ou tout autre caractère) sur la base duquel le API essaie de diviser le contenu d'une cellule en plusieurs cellules.
+ La dernière révision des API Aspose.Cells for .NET a exposé la méthode Cells.TextToColumns afin d'imiter celle d'Excel.**Texte aux colonnes** caractéristique. Excel fournit cette fonctionnalité à partir de**Outils de données** sous le**Données**languette. Veuillez noter que pour diviser le contenu d'une colonne en plusieurs colonnes, les données doivent contenir un délimiteur spécifique tel qu'une virgule (ou tout autre caractère) sur la base duquel le API essaie de diviser le contenu d'une cellule en plusieurs cellules.
 
 Voici un scénario d'utilisation simple pour démontrer l'utilisation de API nouvellement exposé.
 
@@ -199,7 +199,7 @@ foreach (Aspose.Cells.Font font in fonts)
 
 {{< /highlight >}}
 #### **Ajout de la propriété TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Cette révision de Aspose.Cells for .NET a exposé la propriété de type booléen TrimLeadingBlankRowAndColumn pour la classe TxtSaveOptions qui indique si les premières lignes et colonnes vides doivent être coupées comme le fait Excel lors de l'exportation de données au format CSV ou délimité par des tabulations. La valeur par défaut de la propriété susmentionnée est false. Si les données de la feuille de calcul ne commencent pas à partir de la première cellule, c'est-à-dire : A1, l'application Excel supprime les premières lignes et colonnes vides lors de l'exportation des données au format CSV ou délimité par des tabulations. Toutefois, les API Aspose.Cells par défaut conservent les lignes et colonnes vides pour le même échantillon afin de conserver l'emplacement des données si les fichiers CSV ou délimités par des tabulations exportés doivent être réimportés à l'aide des API Aspose.Cells.
+Cette révision de Aspose.Cells for .NET a exposé la propriété de type booléen TrimLeadingBlankRowAndColumn pour la classe TxtSaveOptions qui indique si les premières lignes et colonnes vides doivent être coupées comme le fait Excel lors de l'exportation de données vers CSV ou des formats délimités par des tabulations. La valeur par défaut de la propriété susmentionnée est false. Si les données de la feuille de calcul ne commencent pas à partir de la première cellule, c'est-à-dire : A1, l'application Excel supprime les premières lignes et colonnes vides lors de l'exportation des données vers les formats CSV ou délimités par des tabulations. Cependant, les API Aspose.Cells par défaut conservent les lignes et colonnes vides pour le même échantillon afin de conserver l'emplacement des données si les fichiers exportés CSV ou délimités par des tabulations doivent être réimportés à l'aide des API Aspose.Cells.
 
 Voici un scénario d'utilisation simple de la propriété TrimLeadingBlankRowAndColumn.
 
@@ -285,12 +285,12 @@ Aspose.Cells.GridDesktop for .NET 17.02.0 a fourni deux nouvelles méthodes qui 
 #### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
-1. [Ajuster automatiquement les colonnes et les lignes lors du chargement du code HTML dans le classeur](/cells/fr/net/autofit-columns-and-rows-while-loading-html-in-workbook/)
+1. [Ajustement automatique des colonnes et des lignes lors du chargement de HTML dans le classeur](/cells/fr/net/autofit-columns-and-rows-while-loading-html-in-workbook/)
 1. [Convertir du texte en colonnes à l'aide de Aspose.Cells](/cells/fr/net/convert-text-to-columns-using-aspose-cells/)
 1. [Obtenir une liste des polices utilisées dans une feuille de calcul ou un classeur](/cells/fr/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Obtenir des avertissements lors du chargement du fichier Excel](/cells/fr/net/get-warnings-while-loading-excel-file/)
 1. [Lire et manipuler des graphiques Excel 2016](/cells/fr/net/read-and-manipulate-excel-2016-charts/)
-1. [Coupez les premières lignes et colonnes vides lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Coupez les premières lignes et colonnes vides lors de l'exportation des feuilles de calcul au format CSV](/cells/fr/net/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
 1. [Liaison de feuille de calcul à un objet de collection personnalisé à l'aide de GridWeb](/cells/fr/net/binding-worksheet-to-a-customized-collection-object-using-gridweb/)
 1. [Renommer automatiquement les colonnes en double lors de l'exportation des données de la feuille de calcul](/cells/fr/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)
 1. [Fractionner les volets dans la feuille de calcul GridDesktop](/cells/fr/net/split-panes-in-griddesktop-worksheet/)

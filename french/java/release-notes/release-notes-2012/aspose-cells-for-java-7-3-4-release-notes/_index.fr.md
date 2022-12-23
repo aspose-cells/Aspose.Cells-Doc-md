@@ -11,17 +11,17 @@ url: /fr/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 Nous sommes
- heureux d'annoncer Aspose.Cells for Java v7.3.4 !
+heureux d'annoncer Aspose.Cells for Java v7.3.4 !
 
  Nouvelles fonctionnalités
 
-- Prise en charge du format TIFF dans la fonction Sheet-to-Image
+- Prise en charge du format TIFF dans la fonctionnalité Sheet-to-Image
 
  Améliorations
 
 - Le pied de page droit n'est pas au-dessus du pied de page central comme dans MS Excel
 
- Exceptions
+ Des exceptions
 
 - Exception de mémoire insuffisante lors de la conversion d'Excel en PDF
 - La définition de "+100" comme formule conditionnelle a provoqué une exception

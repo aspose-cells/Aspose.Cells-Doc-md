@@ -11,6 +11,6 @@ Questa pagina contiene le note sulla versione per Aspose.Cells Reporting Service
 '{{% /alert %}} '
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
 
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|35094 | Esporta in CSV (ACCSV): problemi di codifica|
+|35094 | Esporta a CSV (ACCSV) - problemi di codifica|

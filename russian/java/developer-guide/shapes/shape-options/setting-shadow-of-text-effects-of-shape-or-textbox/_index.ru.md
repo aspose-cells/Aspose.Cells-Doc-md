@@ -8,7 +8,7 @@ url: /ru/java/setting-shadow-of-text-effects-of-shape-or-textbox/
 
  Вы можете установить**Тень** из**Текстовые эффекты** любой фигуры или текстового поля. Пожалуйста, используйте[Shape.TextBody](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TextBody) имущество. Он представляет настройку текста формы и возвращает[FontSettingCollection](https://reference.aspose.com/cells/java/com.aspose.cells/FontSettingCollection) . После доступа[Настройка шрифта](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) от него, пожалуйста, установите**Тень** с помощью[FontSetting.getTextOptions().getShadow().setPresetType()](https://reference.aspose.com/cells/java/com.aspose.cells/shadoweffect#PresetType) имущество. Это свойство имеет тип[PresetShadowType](https://reference.aspose.com/cells/java/com.aspose.cells/PresetShadowType)который имеет несколько значений. Некоторые из них
 
-- [КОМПЕНСИРОВАТЬ_ДИАГОНАЛЬ_НИЖНИЙ ПРАВЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
+- [КОМПЕНСИРОВАТЬ_ДИАГОНАЛЬ_ВНИЗУ СПРАВА](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_BOTTOM_RIGHT)
 - [OFFSET_BOTTOM](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_BOTTOM)
 - [КОМПЕНСИРОВАТЬ_ДИАГОНАЛЬ_В ПРАВОМ ВЕРХНЕМ УГЛУ](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#OFFSET_DIAGONAL_TOP_RIGHT)
 - [INSIDE_LEFT](https://reference.aspose.com/cells/java/com.aspose.cells/presetshadowtype#INSIDE_LEFT)

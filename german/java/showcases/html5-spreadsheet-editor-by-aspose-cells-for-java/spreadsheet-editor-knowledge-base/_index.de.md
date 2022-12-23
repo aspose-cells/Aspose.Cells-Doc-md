@@ -10,7 +10,7 @@ Der HTML5-Tabellen-Editor kann in jede Website, jeden Blog und jedes Forum einge
 
 **Als eigenständiger Editor einbetten**
 
-Verwenden Sie zum Einbetten als eigenständiger Editor das HTML-IFRAME-Tag, um es in die Website einzufügen. Zum Beispiel:
+Verwenden Sie zum Einbetten als eigenständiger Editor das IFRAME-Tag HTML, um es der Website hinzuzufügen. Zum Beispiel:
 
 {{< highlight "html" >}}
 

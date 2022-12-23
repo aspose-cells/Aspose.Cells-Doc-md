@@ -6,7 +6,7 @@ url: /fr/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells vous permet d'enregistrer le classeur dans*Feuille de calcul Open XML stricte*format. A cet effet, il fournit la**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**propriété. Si vous définissez sa valeur comme**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, le fichier Excel de sortie sera enregistré au format Strict Open XML Spreadsheet.
+Aspose.Cells vous permet d'enregistrer le classeur dans*Feuille de calcul Open XML stricte*format. A cet effet, il fournit la**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**la propriété. Si vous définissez sa valeur comme**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**, le fichier Excel de sortie sera enregistré au format Strict Open XML Spreadsheet.
 
 ## **Enregistrer le classeur au format de feuille de calcul Open XML strict**
 

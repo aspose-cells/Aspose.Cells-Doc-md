@@ -13,30 +13,30 @@ url: /ja/java/aspose-cells-for-android-via-java-18-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42745|接続ポイントを取得するための戻り値を変更する|新機能|
-|CELLSJAVA-42662|範囲を HTML としてエクスポートする機能を提供する|新機能|
+|CELLSJAVA-42662|範囲を HTML としてエクスポートする機能を提供します|新機能|
 |CELLSJAVA-42746|XLSX を HTML に変換するとデータ バーが表示されない|新機能|
-|CELLSJAVA-42747|XLSX を HTML に変換しても値は存在する|新機能|
+|CELLSJAVA-42747|XLSX を HTML に変換しても値は存在します|新機能|
 |CELLSJAVA-42634|左右のリボンの形を画像に変換|強化|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - package-list ファイルがありません|強化|
 |CELLSJAVA-42528|フォントが有効な HTML5 ではなく、自己終了タグであり、Web ブラウザーがそのコンテンツを誤って表示している|強化|
-|CELLSJAVA-42738|XLSX から誤った数の検証値が読み取られる|強化|
+|CELLSJAVA-42738|XLSX から読み取られる検証値のカウントが正しくない|強化|
 |CELLSJAVA-42734|連続する区切り文字を別個のものとして扱う際の問題|強化|
 |CELLSJAVA-42731|日本語ロケールの日付形式が正しくない|強化|
 |CELLSJAVA-42748|LightCells API が巨大なファイルの読み込みに失敗する|強化|
-|CELLSJAVA-42728|PDF 出力への保存時に例外 (StackOverFlow) が発生する|バグ|
+|CELLSJAVA-42728|PDF 出力に保存すると例外 (StackOverFlow) が発生する|バグ|
 |CELLSJAVA-42729|ROUNDUP() によって計算された間違った値|バグ|
 |CELLSJAVA-42724|PasteType.ALL (貼り付けオプション) で範囲をコピーすると、行の高さが正しくコピーされない|バグ|
 |CELLSJAVA-42722|新しいテキストを設定すると、ハイパーリンク テキストの書式設定が失われる|バグ|
 |CELLSJAVA-42688|無効なロシアの日付形式の出力|バグ|
 |CELLSJAVA-42721|SheetRender フォントの問題|バグ|
-|CELLSJAVA-42723|MS Excel ファイルを PDF にレンダリングする際の例外「java.lang.OutOfMemoryError: Java ヒープ領域」|バグ|
+|CELLSJAVA-42723|MS Excel ファイルを PDF にレンダリングする際の例外「java.lang.OutOfMemoryError: Java heap space」|バグ|
 |CELLSJAVA-42725|Aspose.Cells 経由でセルの数式を取得すると、数式に引用符が表示される|バグ|
 |CELLSJAVA-42720|条件付き書式を使用した場合のパフォーマンスの低下|バグ|
 |CELLSJAVA-42737|XLSX->PNG 変換でグラフの線が表示されない|バグ|
 |CELLSJAVA-42735|getActualChartSize メソッドの問題|バグ|
 |CELLSJAVA-40861|ブックをコピーしても SmartArt がコピーされない|バグ|
 |CELLSJAVA-42727|Excel 範囲の HTML 出力にテキストの書式設定がありません|バグ|
-|CELLSJAVA-42744|XLSX を HTML に変換すると、アイコン セットの位置がずれる|バグ|
+|CELLSJAVA-42744|XLSX を HTML に変換すると、アイコン セットがずれる|バグ|
 |CELLSJAVA-42772|名前付き範囲データのエクスポートが HTML に正しくレンダリングされない (Java)|バグ|
 |CELLSJAVA-42753|名前付き範囲の問題|バグ|
 |CELLSJAVA-42764|「getInCellDropDown()」メソッドの場合、検証は常に true を返します|バグ|
@@ -47,7 +47,7 @@ url: /ja/java/aspose-cells-for-android-via-java-18-12-release-notes/
 |CELLSJAVA-42755|XLSX ファイルのインスタンス化時の例外「NullPointerException」|例外|
 |CELLSJAVA-42762|ファイル処理中の NumberFormatException|例外|
 |CELLSJAVA-42774|CSV をロードするときの NullPointerException|例外|
-|CELLSJAVA-42765|Excel ファイルを PDF ファイル形式にレンダリングするときの例外「com.aspose.cells.CellsException」|例外|
+|CELLSJAVA-42765|Excel ファイルを PDF ファイル形式にレンダリングする際の例外「com.aspose.cells.CellsException」|例外|
 |CELLSJAVA-42754|XLS ファイル形式のインスタンス化時の例外「IllegalStateException: Invalid encoding: null」|例外|
 
 ## **Public API および下位互換性のない変更**
@@ -92,7 +92,7 @@ Cell オブジェクトを取得する代わりに、ユーザーがセルの行
 
 **TxtLoadOptions.TreatConsecutiveDelimitersAsOne プロパティを追加**
 
-CSV ファイルのインポート時に、連続する区切り文字を 1 つとして扱うかどうかを選択できます。
+CSV ファイルをインポートするときに、連続する区切り文字を 1 つとして扱うかどうかをユーザーが選択できるようにします。
 
 **FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) メソッドを追加**
 

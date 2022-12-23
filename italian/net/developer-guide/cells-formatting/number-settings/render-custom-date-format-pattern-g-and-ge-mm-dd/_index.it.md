@@ -6,7 +6,7 @@ url: /it/net/render-custom-date-format-pattern-g-and-ge-mm-dd/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells è ora in grado di eseguire il rendering dei modelli di formato della data personalizzati come g, ge.mm.dd e simili. Si prega di controllare l'allegato[file excel di origine](5112361.xlsx) e il[PDF convertito](5112360.pdf) da Aspose.Cells per il vostro riferimento.
+ Aspose.Cells è ora in grado di eseguire il rendering dei modelli di formato della data personalizzati come g, ge.mm.dd e simili. Si prega di controllare l'allegato[file excel di origine](5112361.xlsx) e il[convertito PDF](5112360.pdf) da Aspose.Cells per il vostro riferimento.
 
 {{% /alert %}}
 

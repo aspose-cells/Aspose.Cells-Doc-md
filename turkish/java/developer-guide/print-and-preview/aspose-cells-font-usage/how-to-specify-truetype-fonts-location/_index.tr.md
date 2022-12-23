@@ -18,7 +18,7 @@ Bu makale şunları açıklamaktadır:
 
 ### **Aspose.Cells, Windows'de TrueType Yazı Tiplerini Aradığı Yer**
 
- Aspose.Cells, içinde yazı tiplerini arar.**Windows\Yazı Tipleri** dosya. Bu varsayılan ayar çoğu zaman çalışır, bu nedenle yalnızca gerçekten ihtiyacınız varsa kendi yazı tipi klasörlerinizi belirtin.
+ Aspose.Cells, içinde yazı tiplerini arar.**Windows\Yazı Tipleri** Klasör. Bu varsayılan ayar çoğu zaman çalışır, bu nedenle yalnızca gerçekten ihtiyacınız varsa kendi yazı tipi klasörlerinizi belirtin.
 
 ### **Aspose.Cells, Linux'ta TrueType Yazı Tiplerini Nerede Arar?**
 
@@ -43,7 +43,7 @@ Aspose.Cells API'ler, FontConfigs sınıfının aşağıda açıklandığı gibi
 
 {{% alert color="primary" %}}
 
-Yukarıda belirtilen yöntemlerden herhangi birini kullanarak yazı tipi klasörünü belirtirken, yazı tipi konumunu uygulamanın başlangıcında ayarlamanızı öneririz, aksi takdirde kötü biçimlendirilmiş sonuçlar alabilirsiniz.
+Yukarıda belirtilen yöntemlerden herhangi birini kullanarak yazı tipi klasörünü belirtirken, yazı tipi konumunu uygulamanın başında ayarlamanızı öneririz, aksi takdirde kötü biçimlendirilmiş sonuçlar alabilirsiniz.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
@@ -53,7 +53,7 @@ Yazı tipleri klasörünün yukarıdaki yöntemlerden herhangi biri kullanılara
 
 ### **Aspose.Cells'i Yalnızca Bir Yazı Tipi Klasörü Kullanacak Şekilde Kısıtlama**
 
- Aspose.Cells for Java 8.1.0'dan başlayarak, JVM argümanlarını şu şekilde ayarlayın:**-DAspose.Cells.FontDirExc="YourFontDir**Aspose.Cells API'in yalnızca belirtilen yazı tipi konumunu kullanmasını sağlayacaktır.
+ Aspose.Cells for Java 8.1.0'dan başlayarak, JVM bağımsız değişkenlerini şu şekilde ayarlayın:**-DAspose.Cells.FontDirExc="YourFontDir**Aspose.Cells API'in yalnızca belirtilen yazı tipi konumunu kullanmasını sağlayacaktır.
 
 Aşağıda gösterildiği gibi System.setProperty yöntemini kullanarak belirtilen bağımsız değişkenleri ayarlayın.
 

@@ -22,7 +22,7 @@ url: /zh/cpp/aspose-cells-for-cpp-20-7-release-notes-linux/
 |CELLSCPP-12|在电子表格中添加和操作数据透视表|新功能|
 |CELLSCPP-13|对工作表中的行和列进行分组|新功能|
 |CELLSCPP-14|将表/列表对象添加到工作表|新功能|
-|CELLSCPP-20|打开/保存 XLS、OOXML 文件格式|新功能|
+|CELLSCPP-20|打开/保存 XLS，OOXML 文件格式|新功能|
 |CELLSCPP-21|为工作表单元格设置样式和格式|新功能|
 |CELLSCPP-22|对单元格应用数据验证|新功能|
 |CELLSCPP-23|为单元格设置数据和公式|新功能|

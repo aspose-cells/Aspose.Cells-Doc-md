@@ -12,4 +12,4 @@ url: /it/jasperreports/aspose-cells-for-jasperreports-1-1-3-release-notes/
 
  Nuove caratteristiche
 
-40551 - Supporto
+ 40551 - Supporto

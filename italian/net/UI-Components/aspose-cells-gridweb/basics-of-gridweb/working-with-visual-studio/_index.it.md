@@ -20,7 +20,7 @@ Questo argomento illustra come usare Aspose.Cells.GridWeb creando un sito Web di
 
  Viene aperta la finestra di dialogo Nuovo sito Web.
 
-1.  Selezionare**Sito di moduli Web ASP.NET** dai modelli installati di Visual Studio.
+1.  Selezionare**ASP.NET Sito di moduli Web** dai modelli installati di Visual Studio.
 1.  Scegli la modalità HTTP per la posizione del sito web.
 
 ![cose da fare:immagine_alt_testo](working-with-visual-studio_2.png)
@@ -38,7 +38,7 @@ Questo argomento illustra come usare Aspose.Cells.GridWeb creando un sito Web di
  Viene visualizzata la finestra di dialogo Scegli posizione.
 
 1.  Clicca il**IIS locale** scheda.
- Vengono visualizzate tutte le cartelle e le applicazioni Web memorizzate nella cartella principale di IIS (ad esempio: C:\Inetpub\wwwroot).
+Vengono visualizzate tutte le cartelle e le applicazioni Web memorizzate nella cartella principale di IIS (ad esempio: C:\Inetpub\wwwroot).
 
 ![cose da fare:immagine_alt_testo](working-with-visual-studio_4.png)
 
@@ -75,7 +75,7 @@ Questo argomento illustra come usare Aspose.Cells.GridWeb creando un sito Web di
 
 
 
-Tutte le pagine Web (incluso ASP.NET) possono essere aperte in due modalità. Uno è la visualizzazione del codice sorgente che consente agli sviluppatori di accedere e modificare il codice sorgente. La seconda modalità è la visualizzazione del design che può essere utilizzata per progettare pagine Web in modo WYSIWYG. Lo screenshot sopra mostra una vista sorgente della pagina Web default.aspx. Per visualizzare la vista struttura, fare clic su**Disegno**. 
+Tutte le pagine Web (incluso ASP.NET) possono essere aperte in due modalità. Uno è la visualizzazione del codice sorgente che consente agli sviluppatori di accedere e modificare il codice sorgente. La seconda modalità è la visualizzazione del design che può essere utilizzata per progettare pagine Web in modo WYSIWYG. Lo screenshot sopra mostra una vista sorgente della pagina Web default.aspx. Per visualizzare la vista struttura, fare clic su**Design**. 
 
 **Visualizzazione struttura della pagina default.aspx** 
 
@@ -129,7 +129,7 @@ Eliminare la pagina Default.aspx aggiunta da Visual Studio e aggiungere una nuov
 
 
 
-1.  Conservare, modificare o eliminare il<!DOCTYPE>etichetta.
+1.  Conservare, modificare o eliminare il<!DOCTYPE> etichetta.
 1.  Oppure modificare il file<!DOCTYPE> contrassegnare con il seguente:
 
 {{< highlight "csharp" >}}

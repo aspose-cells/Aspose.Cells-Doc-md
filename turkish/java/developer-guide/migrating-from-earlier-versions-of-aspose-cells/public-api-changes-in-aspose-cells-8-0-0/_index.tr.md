@@ -11,7 +11,7 @@ Bu sayfa, Aspose.Cells 8.0.0'da tanıtılan genel API değişikliklerini listele
 {{% /alert %}} 
 ## **LoadOptions & WorkbookSettings'e MemorySetting eklendi**
 Aspose.Cells for Java v8.0.0'dan başlayarak, performans değerlendirmeleri için bellek kullanım seçeneklerini sağladık. MemorySetting özelliği artık LoadOptions & WorkbookSettings sınıflarında mevcuttur.
-### **Örnek**
+### **Örnek vermek**
 Optimize edilmiş modda (büyük boyutlu) bir Excel dosyasının nasıl okunacağını gösterir.
 
 **Java**
@@ -59,7 +59,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 {{% /alert %}}
 ## **Row & Cell uygulamaları değişti**
  Önceki sürümlerde, Satır ve Cell nesneleri, bir Çalışma Sayfasında karşılık gelen satır ve hücreyi temsil etmek için bellekte tutuluyordu. Aynı örnek her seferinde iade edildi**Satır Koleksiyonu[int dizini]** veya**Cells[int satır, int sütun]** alındı. Bellek performansının dikkate alınması için, bundan sonra yalnızca Row ve Cell'in özellikleri ve verileri bellekte tutulacaktır. Dolayısıyla, Row & Cell nesnesi, bahsedilen özelliklerin sarmalayıcısı haline geldi.
-### **Örnek**
+### **Örnek vermek**
 Bundan sonra Cell ve Row nesnelerinin nasıl karşılaştırılacağını gösterir.
 
 **Java**
@@ -78,7 +78,7 @@ cell1.equals(cell2);
 {{< /highlight >}}
 
 Row ve Cell nesneleri çağrıya göre başlatıldığından, Cells bileşeni tarafından bellekte tutulmayacak ve yönetilmeyecektir. Bu nedenle bazı ekleme ve silme işlemlerinden sonra Satır & Sütun indeksleri güncellenemeyebilir veya daha da kötüsü bu nesneler geçersiz hale gelebilir.
-### **Örnek**
+### **Örnek vermek**
 Örneğin, aşağıdaki kod parçacığı 8.0.0 ve üzerini kullanarak geçersiz sonuçlar verecektir,
 
 **Java**
@@ -121,13 +121,13 @@ RowCollection, iç listesinde Row nesnesi olmadığından artık CollectionBase'
 
 {{% /alert %}}
 ## **Cell.StringValue Davranışı Değiştirildi**
- Önceki sürümlerde özel desen_hücre değerleri biçimlendirilirken göz ardı edildi, burada * özel karakteri her zaman biçimlendirilmiş sonuçta bir karakter üretti. Bu sürümden itibaren, mantığı özel karakterleri işlemek için değiştirdik._ ve* biçimlendirilmiş sonucu Excel uygulamasındakiyle aynı yapmak için. Örneğin, özel hücre biçimi "_(\$* #,##0.00_)", 123 değerini temsil etmek için kullanıldığında sonucu "$ 123.00" olarak üretti. Yeni sürümlerde, Cell.StringValue sonucu, Excel uygulamasının hücreyi kopyalarken sergilediği davranışla aynı olan "$123.00" olarak içerecektir. metin veya CSV'ye dışa aktarma.
+ Önceki sürümlerde özel desen_hücre değerleri biçimlendirilirken göz ardı edildi, burada * özel karakteri her zaman biçimlendirilmiş sonuçta bir karakter üretti. Bu sürümden itibaren, mantığı özel karakterleri işlemek için değiştirdik._ ve* biçimlendirilmiş sonucu Excel uygulamasındakiyle aynı yapmak için. Örneğin, özel hücre biçimi "_(\$* #,##0.00_)", 123 değerini temsil etmek için kullanıldığında sonucu "$ 123.00" olarak üretti. Yeni sürümlerde, Cell.StringValue sonucu, Excel uygulamasının hücreyi kopyalarken sergilediği davranışla aynı olan "$123.00" olarak içerecektir. metin göndermek veya CSV'e aktarmak.
 ## **PdfSaveOptions'a CreatedTime eklendi**
-Artık kullanıcılar, PdfSaveOptions sınıfını kullanırken elektronik tabloyu PDF'ye kaydederken PDF oluşturma süresini alabilir veya ayarlayabilir.
+Artık kullanıcılar, PdfSaveOptions sınıfını kullanırken e-tabloyu PDF'e kaydederken PDF oluşturma zamanını alabilir veya ayarlayabilir.
 ## **Çalışma Sayfasına Formülleri Göster eklendi**
 Şu andan itibaren kullanıcılar, belirli bir çalışma sayfasının görünümü ve formülü arasında geçiş yapmak için Worksheet tarafından sunulan ShowFormulas Boolean özelliğini kullanabilir.
 ## **FileFormatType'a Ooxml eklendi**
-XLSX, DOCX, PPTX ve daha fazlası gibi şifrelenmiş Office açık XML dosyasını temsil etmesi için FileFormatType sınıfına yeni bir sabit Ooxml eklenmiştir.
+FileFormatType sınıfına, XLSX, DOCX, PPTX ve daha fazlası gibi şifrelenmiş Office açık XML dosyasını temsil etmesi için yeni bir Ooxml sabiti eklendi.
 ## **AutoFilter'ın Eski FilterColumnCollection'ı**
 Aspose.Cells for Java ile getFilterColumnCollection yöntemi geçersiz olarak işaretlendi. Bunun yerine AuotFilter.getFilterColumns yönteminin kullanılması önerilir.
 ## **SeriesCollection.SecondCategoryData, SeriesCollection.SecondCategoryData ile değiştirildi**

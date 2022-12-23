@@ -1,12 +1,12 @@
 ﻿---
-title: Begränsa antalet genererade sidor - Excel till PDF-konvertering
+title: Begränsa antalet genererade sidor - Excel till PDF konvertering
 type: docs
 weight: 60
 url: /sv/java/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-Ibland vill du skriva ut ett antal sidor till en utdata-PDF-fil. Aspose.Cells har möjlighet att sätta en gräns för hur många sidor som genereras vid konvertering av ett Excel-kalkylblad till PDF.
+Ibland vill du skriva ut ett antal sidor till en utdatafil PDF. Aspose.Cells har möjlighet att sätta en gräns för hur många sidor som genereras när ett Excel-kalkylblad konverteras till PDF.
 
 {{% /alert %}}
 

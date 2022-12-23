@@ -55,6 +55,6 @@ end 
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Conversione del foglio di lavoro in immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Conversione del foglio di lavoro in immagine (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

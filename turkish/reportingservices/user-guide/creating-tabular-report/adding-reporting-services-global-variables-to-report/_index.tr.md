@@ -18,14 +18,14 @@ Raporlara genel değişkenler eklemek için:
 
    **Seçilmiş bir hücre** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-reporting-services-global-variables-to-report_1.png)
+![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_1.png)
 
 
 
 
 1.  Tıklamak**Formül ekle**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](adding-reporting-services-global-variables-to-report_2.png)
+![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
@@ -36,14 +36,14 @@ Raporlara genel değişkenler eklemek için:
 
    **Genel bir değişken seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-reporting-services-global-variables-to-report_3.png)
+![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_3.png)
 
 
 
 
-1.  Tıklamak**TAMAM** bitirmek için.
+1.  Tıklamak**Tamam** bitirmek için.
  Hücre artık global bir değişken işaretçisi içeriyor.
 
    **Bir hücrede genel değişkenler işaretçisi** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-reporting-services-global-variables-to-report_4.png)
+![yapılacaklar:resim_alternatif_metin](adding-reporting-services-global-variables-to-report_4.png)

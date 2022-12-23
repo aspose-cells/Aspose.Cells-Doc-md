@@ -11,5 +11,5 @@ Esta página contiene notas de la versión para Aspose.Cells for Reporting Servi
 ## **Lista completa de problemas y mejoras cubiertas en esta versión**
 |**IDENTIFICACIÓN**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|27177 |Soporte al renderizador JSON.|Nueva caracteristica|
+|27177 |Compatibilidad con el renderizador JSON.|Nueva caracteristica|
 |27178 |Actualice la versión Aspose.Cells a la 22.1.| Mejora|

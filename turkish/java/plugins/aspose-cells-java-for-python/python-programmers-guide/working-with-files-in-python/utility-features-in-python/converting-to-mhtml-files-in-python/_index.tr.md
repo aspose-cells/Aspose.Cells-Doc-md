@@ -1,11 +1,11 @@
 ﻿---
-title: Python'de MHTML Dosyalarına Dönüştürme
+title: Python'deki MHTML Dosyalarına Dönüştürme
 type: docs
 weight: 30
 url: /tr/java/converting-to-mhtml-files-in-python/
 ---
-## **Aspose.Cells - MHTML'ye Dönüştürme**
-Aspose.Cells for Java'i Python'de kullanarak Çalışma Sayfasını MHTML dosyasına dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün mhtml() yöntemi.
+## **Aspose.Cells - MHTML'e Dönüştürme**
+Python'de Aspose.Cells for Java'i kullanarak Worksheet'i MHTML dosyasına dönüştürmek için worksheet'i çağırmanız yeterlidir_ile_Dönüştürücü modülünün mhtml() yöntemi.
 
 **Python Kod**
 
@@ -35,6 +35,6 @@ print "Excel to MHTML conversion performed successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**MHTML'ye Dönüştürme (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+ İndirmek**MHTML'e Dönüştürme (Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

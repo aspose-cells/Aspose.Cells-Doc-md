@@ -6,7 +6,7 @@ url: /sv/java/save-each-worksheet-to-a-different-pdf-file/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder konvertering av kalkylbladsfiler (som innehåller bilder, diagram, etc.) till PDF-dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF-dokument och du behöver inte längre använda Aspose.PDF for Java för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
+Aspose.Cells stöder konvertering av kalkylbladsfiler (som innehåller bilder, diagram, etc.) till PDF dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF dokument och du behöver inte längre använda Aspose.PDF for Java för konverteringen. Konverteringen kräver inte att man skapar/använder någon temporär fil(er) också eftersom hela processen kan göras i minnet.
 
 {{% /alert %}}
 
@@ -16,6 +16,6 @@ Om du behöver spara varje kalkylblad i din Excel-mall för att generera olika P
 
 {{% alert color="primary" %}}
 
- Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()-metoden precis innan du renderar kalkylarket till PDF. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+ Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()-metoden precis innan kalkylarket renderas till PDF. Detta säkerställer att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

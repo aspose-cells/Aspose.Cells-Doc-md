@@ -21,7 +21,7 @@ url: /es/java/aspose-cells-for-java-and-php/
 
  No olvide agregar aspose.cells.jar a java.class.path en el archivo php.ini.
 
- Las clases contenedoras de PHP proporcionan algunos métodos estáticos para crear clases de PHP para la clase Java correspondiente, en ClassFactory con la firma createXXX(). Si los constructores están sobrecargados, todos los métodos correspondientes en ClassFactory se definen como crear+número de serie+nombre de clase, por ejemplo: ((createXXX()}}, create1XXX(args...), create2XXX(args...), y así.
+ Las clases contenedoras de PHP proporcionan algunos métodos estáticos para crear clases de PHP para la clase Java correspondiente, en ClassFactory con la firma createXXX(). Si los constructores están sobrecargados, todos los métodos correspondientes en ClassFactory se definen como crear+número de serie+nombre de clase, por ejemplo: ((createXXX()}}, create1XXX(args...), create2XXX(args...), etcétera.
 
 Todas las constantes se definen en PHP como ClassName+" "+ConstantName, por ejemplo, BorderLineType.NONE se define como BorderLineType NONE en PHP.
 

@@ -16,7 +16,7 @@ url: /ar/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-
  1. للتكامل مع Visual Studio 2008 Report Designer: نسخة**Aspose.Cells.ReportingServices.dll**إلى الدليل C: \ Program Files \ Microsoft Visual Studio 9.0 \ Common7 \ IDE \ PrivateAssemblies Directory.
 1.  تسجيل Aspose.Cells for Reporting Services كامتداد تصيير:
  1. فتح**C: \ Program Files \ Microsoft Visual Studio <الإصدار> \ Common7 \ IDE \ PrivateAssemblies \ RSReportDesigner.config** 
- (أين<Version> هو "8" لبرنامج Visual Studio 2005 أو "9.0" لبرنامج Visual Studio 2008) وأضف الأسطر التالية إلى ملف<Render> عنصر:
+ (أين<Version> هو "8" لبرنامج Visual Studio 2005 أو "9.0" لبرنامج Visual Studio 2008) وأضف الأسطر التالية إلى ملف<Render> جزء:
 
 **XML**
 

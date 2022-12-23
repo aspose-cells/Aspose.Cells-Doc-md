@@ -59,7 +59,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-1.  انقر على**سلسلة** التبويب.
+1.  انقر على**مسلسل** التبويب.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-charts_3.png)
 
@@ -93,7 +93,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 1. في مربع الحوار ، قم بتعيين عنوان المخطط ومحور الفئة (س).
-1.  انقر**إنهاء** لإكمال العمل.
+1.  انقر**ينهي** لإكمال العمل.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-charts_7.png)
 

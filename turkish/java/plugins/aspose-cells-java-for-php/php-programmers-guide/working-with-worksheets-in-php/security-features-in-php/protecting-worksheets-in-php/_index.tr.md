@@ -5,7 +5,7 @@ weight: 10
 url: /tr/java/protecting-worksheets-in-php/
 ---
 ## **Aspose.Cells - Çalışma Sayfalarını Koruma**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , aramak**koruma_çalışma sayfası** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , Arama**koruma_çalışma sayfası** yöntemi**koruma** modül.
 
 **PHP Kodu**
 

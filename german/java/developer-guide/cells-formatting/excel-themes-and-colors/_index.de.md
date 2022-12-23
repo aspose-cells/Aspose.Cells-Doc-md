@@ -26,7 +26,7 @@ Aspose.Cells APIs bieten Funktionen zum Anpassen von Designs und Farben. Im Folg
 
 Das folgende Beispiel zeigt, wie Designfarben abgerufen und festgelegt werden.
 
-Das folgende Beispiel verwendet eine XLSX-Vorlagendatei, ruft die Farben für verschiedene Themenfarbtypen ab, ändert die Farben und speichert die Excel-Datei Microsoft.
+Das folgende Beispiel verwendet eine XLSX-Vorlagendatei, ruft die Farben für verschiedene Themenfarbtypen ab, ändert die Farben und speichert die Microsoft-Excel-Datei.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
 
@@ -38,7 +38,7 @@ Das folgende Beispiel zeigt, wie Sie benutzerdefinierte Designs mit Ihren gewün
 
 ![todo: Bild_alt_Text](excel-2007-themes-and-colors_2.png)
 
-Das folgende Beispiel lädt eine XLSX-Vorlagendatei, definiert Farben für verschiedene Themenfarbtypen, wendet die benutzerdefinierten Farben an und speichert die Excel-Datei.
+Das folgende Beispiel lädt eine Vorlagendatei XLSX, definiert Farben für verschiedene Themenfarbtypen, wendet die benutzerdefinierten Farben an und speichert die Excel-Datei.
 
 **Die generierte Datei mit benutzerdefinierten Designfarben**
 

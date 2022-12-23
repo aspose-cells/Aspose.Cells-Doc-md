@@ -115,7 +115,7 @@ ISheet foglio1 = wb.GetSheetAt(0);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Ottenere Cell Contenuto** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Ottenere Cell Contenuto** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Getting.Cell.Contents.Aspose.Cells.zip)
 

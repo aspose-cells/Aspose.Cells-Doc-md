@@ -22,12 +22,12 @@ url: /ja/python-java/aspose-cells-for-python-via-java-22-8-release-notes/
 |CELLSJAVA-44773|非表示の列を含む Excel ドキュメントを GridWeb で開くと、データがめちゃくちゃになる (Java)|
 |CELLSJAVA-44781|非常に小さな高さにサイズ変更する場合の行のサイズ変更の問題を調査します|
 |CELLSJAVA-44787|ブックの最後の行で失われた下罫線|
-|CELLSJAVA-44761|Excel ファイルを HTML に変換する際の過剰なメモリ使用量|
-|CELLSJAVA-44801|Aspose.Cells for Java v22.7 を使用した Excel から PDF への変換で文字化けが発生する|
+|CELLSJAVA-44761|Excel ファイルを HTML に変換するとメモリが過剰に使用される|
+|CELLSJAVA-44801|Aspose.Cells for Java v22.7 を使用して Excel を PDF に変換すると文字化けが発生する|
 |CELLSJAVA-44741|HTML文字列をセルに設定した後、出力xlsxで改行が正しくない|
 |CELLSJAVA-44776|シートのコピー時にテーブル ヘッダー行のスタイルが失われる|
 |CELLSJAVA-44789|Excel スプレッドシートに配置されたテキスト ボックスの文字列置換に関する問題|
-|CELLSJAVA-44792|ワークブックを HTML 形式にエンドレス保存する (2892)|
+|CELLSJAVA-44792|ワークブックを HTML 形式でエンドレス保存する (2892)|
 |CELLSJAVA-44763|"org.apache.commons.io.input.AutoCloseInputStream" を使用して Excel ファイルをロードすると、例外 "java.lang.IllegalArgumentException: 引数番号を解析できません: 1:X8" が発生する|
 |CELLSJAVA-44774|PDF として保存する際のエラー - 調査が必要です|
 

@@ -16,13 +16,13 @@ Aşağıdaki kod, E8:H10 aralığının bir görüntüsünü alır. Aşağıda, 
 
 **Giriş dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](export-range-of-cells-in-a-worksheet-to-image_1.png)
+![yapılacaklar:resim_alternatif_metin](export-range-of-cells-in-a-worksheet-to-image_1.png)
 
 Kodun çalıştırılması, yalnızca E8:H10 aralığının bir görüntüsünü oluşturur.
 
 **Çıktı görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](export-range-of-cells-in-a-worksheet-to-image_2.jpg)
+![yapılacaklar:resim_alternatif_metin](export-range-of-cells-in-a-worksheet-to-image_2.jpg)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-ExportRangeofCells-1.java" >}}
 

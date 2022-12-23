@@ -22,7 +22,7 @@ Labels bieten eine Möglichkeit, Benutzern Informationen über den Inhalt einer 
 - **Höhe** – die Höhe des Etiketts in Einheiten von 1/4000 des Diagrammbereichs.
 - **Breite** – die Breite des Etiketts in Einheiten von 1/4000 des Diagrammbereichs.
 
- Die Methode gibt ein Objekt der zurück[**Etikett**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) Klasse, wo die[**Etikett**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)Klasse stellt eine Bezeichnung im Diagramm dar. Es hat einige wichtige Mitglieder, wie unten beschrieben:
+ Die Methode gibt ein Objekt der zurück[**Etikette**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) Klasse, wo die[**Etikette**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)Klasse stellt eine Bezeichnung im Diagramm dar. Es hat einige wichtige Mitglieder, wie unten beschrieben:
 
 - [**Text**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text)-Eigenschaft gibt die Beschriftungszeichenfolge eines Labels an.
 - [**Füllen**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) -Eigenschaft gibt die Füllfarbenattribute an.

@@ -19,4 +19,4 @@ url: /sv/net/aspose-cells-net-4-0-0-0-new-release-release-notes/
 - Lade till Worksheets.SortNames-metod för att lösa ett problem när man lägger till en stor mängd namngivna intervall.
 - Lade till nya diagramdemos
 - Fixat en bugg i formelinställningen
-- Fixade ett fel när filen sparades för att streama med CSV-format
+- Fixade en bugg när filen sparades för att streama med formatet CSV

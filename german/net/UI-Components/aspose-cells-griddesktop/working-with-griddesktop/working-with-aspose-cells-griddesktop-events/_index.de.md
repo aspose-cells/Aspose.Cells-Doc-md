@@ -46,13 +46,13 @@ Erstellen Sie einen Ereignishandler, um eine bestimmte Operation auszuführen, w
 
 **Schritt 1: Auswählen eines Ereignisses von Aspose.Cells.GridDesktop Control**
 
-1. Wählen Sie in Visual Studio das Aspose.Cells.GridDesktop-Steuerelement aus und öffnen Sie es**Eigenschaften**Dialog.
+1. Wählen Sie in Visual Studio das Aspose.Cells.GridDesktop-Steuerelement aus und öffnen Sie es**Eigenschaften** Dialog.
 1.  Drücke den**Veranstaltungen** Tab.
 1.  Wählen Sie eine Veranstaltung aus. (für dieses Beispiel die**CellClick** Veranstaltung ausgewählt ist).
 
 **Schritt 2: Erstellen eines Ereignishandlers**
 
-1.  Doppelklicken Sie auf ein ausgewähltes Ereignis in der**Eigenschaften**Dialog.
+1.  Doppelklicken Sie auf ein ausgewähltes Ereignis in der**Eigenschaften** Dialog.
 1. Wenn auf das Ereignis doppelgeklickt wird, wird von Visual Studio.NET ein Ereignishandler erstellt. Es folgt ein vom Designer generierter Code, der zeigt, dass ein Ereignis für das GridControl-Steuerelement erstellt wird.
 
 

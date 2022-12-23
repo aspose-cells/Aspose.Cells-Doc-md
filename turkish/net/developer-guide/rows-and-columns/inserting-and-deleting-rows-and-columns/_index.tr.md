@@ -5,7 +5,7 @@ type: docs
 weight: 70
 url: /tr/net/inserting-and-deleting-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 
 Sıfırdan yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir.
 Bu gereklilikleri yerine getirmek için Aspose.Cells, aşağıda tartışılan çok basit bir sınıflar ve yöntemler seti sağlar.

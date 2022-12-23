@@ -8,26 +8,26 @@ url: /ja/java/aspose-cells-for-java-8-8-1-release-notes/
 
 |**鍵** |**概要** |**カテゴリー** |
 |:- |:- |:- |
-|CELLSJAVA-41664 |条件付き書式に基づく DataBar の HTML へのエクスポート|新機能|
-|CELLSJAVA-40746 |XLSX を HTML にエクスポートする際に ColorScale、DataBar、IconSet をサポート|新機能|
+|CELLSJAVA-41664 |条件付き書式に基づく DataBar を HTML にエクスポートする|新機能|
+|CELLSJAVA-40746 |XLSX から HTML へのエクスポート中に ColorScale、DataBar、IconSet をサポート|新機能|
 |CELLSJAVA-41820 |ワークシートにはメソッド calcualteFormula(String formula, CalculationOptions options) がありません|新機能|
 |CELLSJAVA-40544 |Workbook.calculateFormula のパフォーマンスのボトルネック|強化|
 |CELLSJAVA-41817 |PivotField に ShowAllItems を設定しても効果がないようです|バグ|
-|CELLSJAVA-41810 |文字が密集し、EMF 画像に重なっている|バグ|
+|CELLSJAVA-41810 |EMF の画像でテキストが密集して重なっています|バグ|
 |CELLSJAVA-41801 |EMF 画像でテキスト ラベルが重なっている|バグ|
 |CELLSJAVA-41834 |ワークブックのコピー時に例外がスローされる|バグ|
 |CELLSJAVA-41819 |スプレッドシートから HTML: ソース スプレッドシートからテーマをコピーした後、シェイプ内のテキストの配置が正しくない|バグ|
-|CELLSJAVA-41824 |出力 PDF でグラフがレンダリングされない|バグ|
+|CELLSJAVA-41824 |グラフが出力に表示されない PDF|バグ|
 |CELLSJAVA-41805 |グラフの PDF に X 軸のラベルがありません|バグ|
-|CELLSJAVA-41767 |グラフの PDF の X 軸ラベルの数値形式が正しくない|バグ|
-|CELLSJAVA-41640 |チャートの出力 PDF/画像で長いハイフンが適切に表示されない|バグ|
-|CELLSJAVA-41604 |グラフの水平グリッド線が出力 PDF に正しく表示されない|バグ|
-|CELLSJAVA-41832 |Worksheet-to-Image のレンダリング中にいくつかのグラフ バーが欠落する|バグ|
+|CELLSJAVA-41767 |グラフの PDF の X 軸ラベルの数値形式が正しくありません|バグ|
+|CELLSJAVA-41640 |長いハイフンが出力に適切に表示されない PDF/グラフの画像|バグ|
+|CELLSJAVA-41604 |チャートの水平グリッド線が出力に正しく表示されない PDF|バグ|
+|CELLSJAVA-41832 | Worksheet-to-Image のレンダリング中にいくつかのグラフ バーが欠落する|バグ|
 |CELLSJAVA-41837 |Chart.toPDF(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)を追加|バグ|
 |CELLSJAVA-41839 |名前付き範囲内で Cells.copyRow() メソッドが使用されると、名前付き範囲が作成されます|バグ|
 |CELLSJAVA-41838 |シートに autoSizeColumns を適用すると、列が適切に拡張されません|バグ|
-|CELLSJAVA-41835 |スプレッドシートを PDF に保存する際の CellsException|例外|
-|CELLSJAVA-41826 | NaN 例外|例外|
+|CELLSJAVA-41835 |スプレッドシートを PDF に保存中に CellsException が発生する|例外|
+|CELLSJAVA-41826 |NaN 例外|例外|
 ## **2) Aspose.Cells グリッドスイート**
 
 |**鍵** |**概要** |**カテゴリー** |
@@ -54,7 +54,7 @@ url: /ja/java/aspose-cells-for-java-8-8-1-release-notes/
 ### **GridCell.RemoveValidation() メソッドを追加します。**
 グリッド セルから検証オブジェクトを削除します。
 ### **Chart.ToPdf(System.IO.Stream stream) メソッドを追加。**
-保存チャートをストリームとして PDF に追加します。
+PDF に保存チャートをストリームとして追加します。
 
 {{% alert color="primary" %}} 
 

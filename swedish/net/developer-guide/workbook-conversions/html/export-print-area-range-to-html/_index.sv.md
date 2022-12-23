@@ -6,7 +6,7 @@ url: /sv/net/export-print-area-range-to/
 ---
 ## **Möjliga användningsscenarier**
 
- Detta är ett vanligt scenario där vi endast behöver exportera utskriftsområdet, dvs valt cellområde istället för hela arket till HTML. Den här funktionen är redan tillgänglig för PDF-rendering, men nu kan du utföra den här uppgiften även för HTML. Ställ först in utskriftsområdet i sidinställningarna i kalkylbladet. Använd senare[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) flagga för att endast exportera valt område.
+ Detta är ett vanligt scenario där vi endast behöver exportera utskriftsområdet, dvs valt cellområde istället för hela arket till HTML. Den här funktionen är redan tillgänglig för PDF-rendering, men nu kan du utföra denna uppgift för HTML också. Ställ först in utskriftsområdet i sidinställningarna i kalkylbladet. Använd senare[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportprintareaonly) flagga för att endast exportera valt område.
 
 ## Exempelkod
 

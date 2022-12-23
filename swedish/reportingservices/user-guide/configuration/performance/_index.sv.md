@@ -39,7 +39,7 @@ De olika prestandaparametrarna är följande:
 
 
 
-- **IsAutoRowFit** : När värdet på Performance är**av** , värdet på IsAutoRowFit är**falsk**som standard. När värdet på prestandaparametern är**på** , värdet är**Sann** som standard. När värdet av Performance är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet.
+- **IsAutoRowFit** : När värdet på Performance är**av** , värdet på IsAutoRowFit är**falsk** som standard. När värdet på prestandaparametern är**på** , värdet är**Sann** som standard. När värdet av Performance är**på** , kan en underelementrapport återställa punktrapporten till AutoRowFit-värdet.
 
 {{< highlight "java" >}}
 

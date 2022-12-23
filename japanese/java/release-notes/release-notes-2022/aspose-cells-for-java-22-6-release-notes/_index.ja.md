@@ -29,7 +29,7 @@ url: /ja/java/aspose-cells-for-java-22-6-release-notes/
 |CELLSJAVA-44584|チャートの軸のタイトルは、出力画像で回転されます - チャートから画像への変換|
 |CELLSJAVA-44615|XLS ファイルからの出力画像に描かれた灰色の線|
 |CELLSJAVA-44665|ODS ファイルの読み込みがハングする|
-|CELLSJAVA-44651|ExcelシートをHTML/PDFに変換する際の「数値ではありません」エラー|
+|CELLSJAVA-44651|Excel シートを HTML/PDF に変換する際の「数値ではありません」エラー|
 
 ## **Public API および下位互換性のない変更**
 

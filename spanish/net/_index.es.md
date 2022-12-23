@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /es/net/
 is_root: true
-description: Una potente y rápida biblioteca de programación de hojas de cálculo escrita en C#. Es compatible con los populares formatos de archivo Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML y JSON y permite exportar archivos de Excel a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, texto sin formato y formatos de imagen populares, incluido TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Una potente y rápida biblioteca de programación de hojas de cálc
 
 Combinado con API y controles GUI, Aspose.Cells for .NET acelera la programación y conversión Microsoft de Excel®.
 
-Aspose.Cells for .NET es compatible con los formatos de archivo de hoja de cálculo populares (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa utiliza todos los días. También permite exportar archivos de Excel a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texto sin formato y formatos de imagen populares, incluidos TIFF, JPG, PNG, BMP y SVG.
+Aspose.Cells for .NET es compatible con los populares formatos de archivo de hoja de cálculo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) que su empresa usa todos los días. También permite exportar archivos de Excel a PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, texto sin formato y formatos de imagen populares, incluido TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -25,7 +25,7 @@ Aspose.Cells for .NET es compatible con los formatos de archivo de hoja de cálc
 <div class="row">
 	<div class="col-md-4">
 		<p><b>Sobre Aspose.Cells</b></p>
-			<hr><p>Visión general</p></hr>
+			<hr><p>Descripción general</p></hr>
 			<ul>
 				<li><a href="/cells/es/net/what-s-new-in-aspose-cells-for-net/">Lo nuevo en Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/es/net/product-overview/">Descripción del producto</a></li>
@@ -66,7 +66,7 @@ Aspose.Cells for .NET es compatible con los formatos de archivo de hoja de cálc
 				<li><a href="/cells/es/net/print-and-preview/">Imprimir y previsualizar</a></li>
 				<li><a href="https://reference.aspose.com/cells/net">Aspose.Cells for .NET API Guía de referencia</a></li>
 			</ul>	
-			<p>Apoyo técnico</p>
+			<p>Soporte técnico</p>
 			<ul>
 				<li><a href="https://forum.aspose.com/c/cells/9">Aspose.Cells for .NET Foro de soporte gratuito</a></li>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Cells for .NET Soporte técnico de pago</a></li>

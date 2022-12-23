@@ -19,7 +19,7 @@ Stil iletişim kutusunu kullanmak için:
 
 **Format Seçme Cell** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_1.png)
 
 
 
@@ -27,7 +27,7 @@ Stil iletişim kutusunu kullanmak için:
 
 **Stil iletişim kutusu, hücreleri biçimlendirmek için kullanılır** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_2.png)
 
 Stil iletişim kutusu, kullanıcıların yazı tipi ve kenarlık ayarlarını özelleştirerek hücreleri biçimlendirmesine olanak tanır.
 ### **Yazı Tipi Ayarlarını Özelleştirme**
@@ -47,7 +47,7 @@ Seçilen yazı tipi ayarlarını küçük bir ön izleme alanında kontrol edebi
 
 **Özelleştirilmiş yazı tipi ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_3.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_3.png)
 ### **Kenarlık Ayarlarını Özelleştirme**
 Denetim, kullanıcıların Stil iletişim kutusundaki kenarlık ayarlarını özelleştirerek hücrelerin çevresine bir kenarlık çizmesine de olanak tanır.
 
@@ -57,7 +57,7 @@ Sınırla ilgili seçenekleri görüntülemek için:
 
 **Stil iletişim kutusundaki kenarlık seçenekleri** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_4.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_4.png)
 
 Stil iletişim kutusundan aşağıdaki kenarlık seçenekleri seçilebilir:
 
@@ -68,13 +68,13 @@ Stil iletişim kutusundan aşağıdaki kenarlık seçenekleri seçilebilir:
 
 **Özel kenarlık ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_5.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_5.png)
 ### **Ayarları Uygulamak**
- Tıklamak**TAMAM** değişiklikleri uygulamak için Stil iletişim kutusunda.
+ Tıklamak**Tamam** değişiklikleri uygulamak için Stil iletişim kutusunda.
 
 **Yazı tipi ve kenarlık ayarları uygulandı** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_6.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_6.png)
 
 
 ## **Cells'i API Kullanarak Biçimlendirme**
@@ -94,7 +94,7 @@ Yazı tipi ayarlarını programlı olarak özelleştirmek için:
 
 **Çıktı: A1'de gösterilen özelleştirilmiş yazı tipi ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_7.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_7.png)
 
 
 
@@ -115,7 +115,7 @@ Tek bir hücrenin kenarlıklarını ayarlamak için:
 
 **Tek bir hücrede özelleştirilmiş kenarlık ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_8.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_8.png)
 
 {{% alert color="primary" %}} 
 
@@ -137,7 +137,7 @@ Bir hücre aralığında kenarlıklar ayarlamak için:
 
 **Özel kenarlık ayarlarına sahip bir dizi hücre** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_9.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_9.png)
 
 
 
@@ -151,7 +151,7 @@ Tüm yerleşik sayı biçimleri, NumberType numaralandırmasındadır. Yerleşik
 
 **B1 ve B2'de uygulanan sayı biçimi ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](format-cells_10.png)
+![yapılacaklar:resim_alternatif_metin](format-cells_10.png)
 
 
 

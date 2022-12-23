@@ -37,7 +37,7 @@ Lütfen kullan[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/as
 - VBA
 - XmlMap
 ## **Çalışma Kitabını yüklerken Nesneleri Filtrele**
- Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5115258.xlsx) Bu kodda kullanılan ve[çıktı PDF](5115257.pdf)onun tarafından oluşturulur. Çıktı PDF'sinde görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
+ Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5115258.xlsx) Bu kodda kullanılan ve[çıkış PDF](5115257.pdf)onun tarafından oluşturulur. PDF çıktısında görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **Çalışma Sayfası yüklenirken Nesneleri Filtrele**

@@ -13,7 +13,7 @@ url: /de/net/aspose-cells-for-net-20-1-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-47026|Unterstützt die Anzeigeformatoptionen „Rang vom kleinsten zum größten“ und „Rang vom größten zum kleinsten“.|Neue Funktion|
-|CELLSNET-47030|Zeige Überschriften beim Speichern in HTML an|Neue Funktion|
+|CELLSNET-47030|Anzeigen von Überschriften beim Speichern in HTML|Neue Funktion|
 |CELLSNET-47089|Unterstützt alle Datenanzeigeformate von DataField|Neue Funktion|
 |CELLSNET-47062|Unterstützung für STABW.P und STABW.S|Neue Funktion|
 |CELLSNET-47070|Unterstützung für Regex in der Replace-Funktion ähnlich wie Find() mit Optionen|Neue Funktion|
@@ -27,11 +27,11 @@ url: /de/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47008|Problem beim Rendern eines Bildes eines Diagramms in einem bestimmten Winkel|Insekt|
 |CELLSNET-47063|Problem beim Rendern von Excel auf Drucker, wenn Schriftarten nicht installiert sind|Insekt|
 |CELLSNET-44237|Absteigende Reihenfolge des DataField der PivotTable|Insekt|
-|CELLSNET-47002|Der berechnete Wert wird als „#REF!“ angezeigt. im resultierenden PDF|Insekt|
-|CELLSNET-47050|Einige Felder auf der ersten Seite erscheinen nicht in der Ausgabe-PDF|Insekt|
+|CELLSNET-47002|Der berechnete Wert wird als „#REF!“ angezeigt. im Ergebnis PDF|Insekt|
+|CELLSNET-47050|Einige Felder auf der ersten Seite erscheinen nicht in der Ausgabe PDF|Insekt|
 |CELLSNET-40733|Öffnen Sie Office .ods-Datei - die bedingte Formatierung bleibt nicht erhalten|Insekt|
-|CELLSNET-47039|XY-Streudiagramme in ODS-Dateien werden nicht gut gerendert|Insekt|
-|CELLSNET-47040|Netzdiagramme in der ODS-Datei werden nicht korrekt gerendert|Insekt|
+|CELLSNET-47039|XY-Streudiagramme in der Datei ODS werden nicht gut gerendert|Insekt|
+|CELLSNET-47040|Netzdiagramme in der Datei ODS werden nicht korrekt wiedergegeben|Insekt|
 |CELLSNET-47060|Unterstützung von benutzerdefiniertem XY des Titels in der Odds-Datei|Insekt|
 |CELLSNET-47072|Der Unterschied im von Aspose.Cells abgerufenen Link-Pfad im Vergleich zu Excel|Insekt|
 |CELLSNET-47087|Habe ein Problem beim Drucken der Excel-Datei, die von Aspose.Cells for .NET gespeichert wurde|Insekt|
@@ -39,7 +39,7 @@ url: /de/net/aspose-cells-for-net-20-1-release-notes/
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.
 #### **Fügt die Eigenschaft ReplaceOptions.RegexKey hinzu.**
- Gibt an, ob es sich bei dem gesuchten Schlüssel um Regex handelt. Wenn**Stimmt**dann wird der gesuchte Schlüssel (zu ersetzender Teil) als benutzerdefinierter regulärer Ausdruck genommen.
+ Gibt an, ob es sich bei dem gesuchten Schlüssel um Regex handelt. Wenn**wahr**dann wird der gesuchte Schlüssel (zu ersetzender Teil) als benutzerdefinierter regulärer Ausdruck genommen.
 #### **Fügt die CustomImplementationFactory.CreateCultureInfo-Methode hinzu.**
 Einige Kulturen werden von der Umgebung des Benutzers möglicherweise nicht unterstützt. Um die Ausnahme für solche Situationen zu vermeiden, kann der Benutzer diese Methode überschreiben, um stattdessen eine gültige CultureInfo-Instanz bereitzustellen.
 #### **Löscht die veraltete ValidationCollection.Add(Aspose.Cells.Validation)-Methode.**
@@ -49,7 +49,7 @@ Ruft die Definition der Power-Abfrageformel ab.
 #### **Fügt die DBConnection.PowerQueryFormula-Eigenschaft hinzu.**
 Ruft die Definition der Leistungsabfrageformel ab.
 #### **Fügt die HtmlSaveOptions.ExportHeadings-Eigenschaft hinzu.**
- Gibt an, ob Überschriften exportiert werden, wenn die Datei in HTML gespeichert wird. Der Standardwert ist**FALSCH**. Wenn Sie die HTML-Datei in Excel importieren möchten, behalten Sie bitte den Standardwert bei.
+ Gibt an, ob Überschriften exportiert werden, wenn die Datei unter HTML gespeichert wird. Der Standardwert ist**FALSCH**. Wenn Sie die Datei HTML in Excel importieren möchten, behalten Sie bitte den Standardwert bei.
 #### **Fügt die XAdESType-Klasse hinzu**
 Art der erweiterten elektronischen XML-Signatur (XAdES).
 #### **Fügt die DigitalSignature.XAdESType-Eigenschaft hinzu**

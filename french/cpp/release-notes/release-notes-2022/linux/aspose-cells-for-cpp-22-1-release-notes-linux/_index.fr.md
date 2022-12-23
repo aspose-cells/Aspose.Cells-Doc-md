@@ -12,7 +12,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.1 pour Lin
 
 Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 22.1 pour Linux.
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-637| Optimiser les E/S de fichiers pour améliorer les performances de Windows|Amélioration|
 |CELLSCPP-645| Fournir une bibliothèque signée numériquement Aspose.Cells for C++|Amélioration|

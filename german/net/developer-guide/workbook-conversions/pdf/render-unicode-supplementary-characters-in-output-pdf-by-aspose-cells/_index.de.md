@@ -1,5 +1,5 @@
 ﻿---
-title: Rendert Unicode-Ergänzungszeichen in Ausgabe-PDF von Aspose.Cells
+title: Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells
 type: docs
 weight: 350
 url: /de/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -15,14 +15,14 @@ Im Unicode-Zeichenstandard sind ergänzende Zeichen die Zeichen, denen Codepunkt
 
 {{% /alert %}}
 
-## Rendert Unicode-Ergänzungszeichen in Ausgabe-PDF von Aspose.Cells
+## Rendert Unicode-Ergänzungszeichen in der Ausgabe PDF durch Aspose.Cells
 
- Der folgende Screenshot zeigt, wie Aspose.Cells die gerendert[Excel-Quelldatei](5115563.xlsx) in die[PDF ausgeben](5115564.pdf). Wie Sie sehen können, wurden alle drei Unicode-Ergänzungszeichen genau so gerendert wie von Microsoft Excel.
+ Der folgende Screenshot zeigt, wie Aspose.Cells die gerendert[Excel-Quelldatei](5115563.xlsx) in die[Ausgang PDF](5115564.pdf). Wie Sie sehen können, wurden alle drei Unicode-Ergänzungszeichen genau so gerendert wie von Microsoft Excel.
 
 ![todo: Bild_alt_Text](output.png)
 
 ## Beispielcode
 
- Sie können diesen Beispielcode zum Konvertieren verwenden[Excel-Quelldatei](5115563.xlsx) hinein[PDF ausgeben](5115564.pdf).
+ Sie können diesen Beispielcode zum Konvertieren verwenden[Excel-Quelldatei](5115563.xlsx) hinein[Ausgang PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

@@ -37,7 +37,7 @@ url: /zh/net/filter-objects-while-loading-workbook-or-worksheet/
 - VBA
 - XML地图
 ## **加载工作簿时过滤对象**
-以下示例代码说明了如何从工作簿中筛选图表。请检查[示例 excel 文件](5115258.xlsx)用于此代码和[输出PDF](5115257.pdf)由它产生。正如您在输出 PDF 中看到的那样，所有图表都已从工作簿中过滤掉。
+以下示例代码说明了如何从工作簿中筛选图表。请检查[示例 excel 文件](5115258.xlsx)用于此代码和[输出 PDF](5115257.pdf)由它产生。正如您在输出 PDF 中看到的那样，所有图表都已从工作簿中过滤掉。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **加载工作表时过滤对象**

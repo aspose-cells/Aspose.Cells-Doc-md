@@ -22,6 +22,6 @@ url: /ja/java/aspose-cells-for-java-7-5-0-release-notes/
 
 40490 - 3D チャートのパースペクティブの問題
 
-40481 - XLS から PDF - 表のセル幅の問題
+40481 - XLS から PDF - テーブルのセル幅の問題
 
 40519 - XLSX ドキュメントを保存するときの例外

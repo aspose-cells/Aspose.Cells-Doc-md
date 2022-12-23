@@ -22,7 +22,7 @@ url: /ar/net/data-formatting-in-charts/
 
 ### **بيانات الفئة**
 
- تُستخدم بيانات الفئة لتمييز بيانات المخطط ويمكن إضافتها إليها[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) باستخدام ملف[**فئة البيانات**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)منشأه. يتم إعطاء مثال كامل أدناه لتوضيح استخدام بيانات الرسم البياني والفئة. بعد تنفيذ رمز المثال أعلاه ، ستتم إضافة مخطط عمودي إلى ورقة العمل كما هو موضح أدناه.
+ تُستخدم بيانات الفئة لتمييز بيانات المخطط ويمكن إضافتها إليها[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) باستخدام ملف[**فئة البيانات**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)خاصية. يتم إعطاء مثال كامل أدناه لتوضيح استخدام بيانات الرسم البياني والفئة. بعد تنفيذ رمز المثال أعلاه ، ستتم إضافة مخطط عمودي إلى ورقة العمل كما هو موضح أدناه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 

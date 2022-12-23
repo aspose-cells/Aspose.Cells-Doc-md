@@ -12,7 +12,7 @@ La mise en forme conditionnelle est une fonctionnalité avancée d'Excel Microso
 
 Il est possible d'appliquer une mise en forme conditionnelle avec Microsoft Office Automation mais cela a ses inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple, la sécurité, la stabilité, l'évolutivité et la vitesse. La raison principale pour trouver une autre solution est que Microsoft eux-mêmes déconseillent fortement la bureautique pour les solutions logicielles.
 
-Cet article montre comment créer une application console, ajouter une mise en forme conditionnelle sur des cellules avec quelques lignes de code les plus simples en utilisant le Aspose.Cells API.
+Cet article montre comment créer une application console, ajouter une mise en forme conditionnelle sur les cellules avec quelques lignes de code les plus simples en utilisant le Aspose.Cells API.
 
 {{% /alert %}}
 
@@ -37,7 +37,7 @@ Cet article exécute les tâches suivantes :
  1. Définissez le chemin de classe du projet dans Eclipse :
  1. Sélectionnez votre projet dans Eclipse puis sélectionnez**Propriétés** du**Projet** menu.
  1. Sélectionnez "Java Build Path" à gauche de la boîte de dialogue.
- 1. Sur le**Bibliothèques** onglet, sélectionnez**Ajouter des JAR** ou**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter dans les chemins de génération.
+ 1. Sur le**Bibliothèques** onglet, sélectionnez**Ajouter des JAR** ou alors**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter dans les chemins de génération.
  1. Écrivez une application pour invoquer les API des composants de Aspose.
  Ou vous pouvez définir le chemin lors de l'exécution sur une invite DOS dans Windows.
 

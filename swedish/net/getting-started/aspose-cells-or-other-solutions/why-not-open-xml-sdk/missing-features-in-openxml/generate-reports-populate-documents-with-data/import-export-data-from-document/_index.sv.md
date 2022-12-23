@@ -245,7 +245,7 @@ workbook.Save(MyDir+"Import From Data Table.xls");
 
 {{< /highlight >}}
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Import%20to%20Worksheet%20%28Aspose.Cells%29.zip)
 
@@ -259,7 +259,7 @@ Utvecklare kan enkelt exportera sina kalkylbladsdata till ett DataTable-objekt g
 
 ### **Kolumner som innehåller starkt skrivna data**
 
- Vi vet att ett kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt skrivna (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTable** metod av klassen Cells.**ExportDataTable** metod använder följande parametrar för att exportera kalkylbladsdata som**Datatabell** objekt:**Radnummer** , representerar radnumret för den första cellen varifrån data kommer att exporteras
+Vi vet att ett kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt skrivna (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTable** metod av klassen Cells.**ExportDataTable** metod använder följande parametrar för att exportera kalkylbladsdata som**Datatabell** objekt:**Radnummer** , representerar radnumret för den första cellen varifrån data kommer att exporteras
 
 - **Kolumnnummer** , representerar kolumnnumret för den första cellen varifrån data kommer att exporteras
 - **Antal rader** , representerar antalet rader som ska exporteras
@@ -330,7 +330,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

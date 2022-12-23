@@ -10,6 +10,6 @@ url: /de/net/find-if-the-cell-value-starts-with-single-quote-mark/
 
 {{% /alert %}}
 
- Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie sample und 'sample nicht mit unterschieden werden können[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) Eigentum. Deshalb müssen wir verwenden[**Style.QuotePräfix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)Eigenschaft, sie zu unterscheiden.
+Der folgende Beispielcode erklärt, dass die Zeichenfolgen wie sample und 'sample nicht mit unterschieden werden können[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) Eigentum. Deshalb müssen wir verwenden[**Style.QuotePräfix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)Eigenschaft, sie zu unterscheiden.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}

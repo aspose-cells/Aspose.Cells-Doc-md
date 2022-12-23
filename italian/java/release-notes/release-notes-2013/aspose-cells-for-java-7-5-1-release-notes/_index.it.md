@@ -20,7 +20,7 @@ url: /it/java/aspose-cells-for-java-7-5-1-release-notes/
 
  40545 - Impossibile aprire il file Excel
 
- 40549 - Il grafico non è presente nell'output PDF
+ 40549 - Il grafico manca nell'output PDF
 
  Insetti
 

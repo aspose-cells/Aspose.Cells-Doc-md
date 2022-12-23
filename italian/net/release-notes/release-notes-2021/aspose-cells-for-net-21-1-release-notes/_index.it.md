@@ -10,17 +10,17 @@ url: /it/net/aspose-cells-for-net-21-1-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47376|Rilascio Aspose.Cells for .NET 5.0|Nuova caratteristica|
-|CELLSNET-40624| Come cambiare le serie di dati riga/colonna usando aspose|Nuova caratteristica|
+|CELLSNET-40624|Come cambiare le serie di dati riga/colonna usando aspose|Nuova caratteristica|
 |CELLSNET-42195|Converti il controllo da xlsm a xls|Nuova caratteristica|
 |CELLSNET-47806|Ottiene l'intervallo di origini dati del grafico.|Nuova caratteristica|
 |CELLSNET-47756|Le forme SmartArt non vengono visualizzate correttamente nella conversione da Excel a PDF|Insetto|
 |CELLSNET-47391|Le forme non sono posizionate correttamente nelle conversioni da Excel a PDF|Insetto|
 |CELLSNET-47766|Il grafico della freccia è incompleto|Insetto|
 |CELLSNET-47653|I blocchi Diagram vengono spostati durante la conversione in HTML|Insetto|
-|CELLSNET-47720|Markup CSS e HTML non valido durante la conversione di XLSX in HTML|Insetto|
+|CELLSNET-47720|CSS non valido e markup HTML durante la conversione da XLSX a HTML|Insetto|
 |CELLSNET-47746|Virgolette non codificate nei valori degli attributi HTML|Insetto|
 |CELLSNET-47792|Le immagini si sovrappongono al testo durante l'importazione di HTML in Excel|Insetto|
 |CELLSNET-47797|Collegamento errato quando il file XLSM viene visualizzato in HTML|Insetto|
@@ -30,16 +30,16 @@ url: /it/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNET-47744|I grafici radiali vengono schiacciati quando vengono esportati in pdf|Insetto|
 |CELLSNET-47786|XErrorBar non viene visualizzato nel grafico|Insetto|
 |CELLSNET-47787|XErrorBars scompare quando si copia il grafico da una cartella di lavoro a un'altra|Insetto|
-|CELLSNET-43907|WordArt non viene visualizzato durante la conversione di XLS in PDF|Insetto|
+|CELLSNET-43907|WordArt non viene visualizzato durante la conversione da XLS a PDF|Insetto|
 |CELLSNET-47780|Problema durante l'impostazione di due intervalli come origine dati del grafico|Insetto|
 |CELLSNET-47781|Il testo a capo non funziona per i file ODS|Insetto|
 |CELLSNETCORE-94| Il gruppo di tabelle pivot per giorno aumenta quando viene aggiornato|Insetto|
-|CELLSNETCORE-77|Errore durante la conversione di XLSX in PDF in Azure|Insetto|
+|CELLSNETCORE-77|Errore durante la conversione da XLSX a PDF in Azure|Insetto|
 |CELLSNETCORE-90|Problemi durante l'inserimento di allegati nel foglio di lavoro Excel|Insetto|
 |CELLSNETCORE-93|Tag H1 non reso senza tag aggiuntivi come sottolineato, corsivo o grassetto|Insetto|
 |CELLSNETCORE-97|La chiamata a RemoveExternalLinks() solleva un'eccezione|Insetto|
 |CELLSNET-47719|Impossibile salvare xlsb in xlsx|Eccezione|
-|CELLSNET-47784|Eccezione durante l'importazione di documenti HTML con IStreamProvider|Eccezione|
+|CELLSNET-47784|Eccezione durante l'importazione del documento HTML con IStreamProvider|Eccezione|
 |CELLSNET-47801|CalculateData sulla tabella pivot genera un'eccezione|Eccezione|
 |CELLSNET-47809|Cell.ContainsExternalLink genera "Impossibile trasmettere|Eccezione|
 |CELLSNET-47791| Grafico che causa l'esito negativo di Workbook.Save|Eccezione|
@@ -47,9 +47,9 @@ url: /it/net/aspose-cells-for-net-21-1-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Elimina la proprietà ReplaceOptions.IsCaseSensitive obsoleta (SOLO .NET).**
 

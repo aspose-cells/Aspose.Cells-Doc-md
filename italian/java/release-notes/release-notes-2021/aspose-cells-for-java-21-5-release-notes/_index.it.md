@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-21-5-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43452|Il calendario giapponese che utilizza una funzione di Excel non viene letto correttamente|
 |CELLSJAVA-43420| Testo ruotato allineato in modo errato quando salvato come HTML|
@@ -21,7 +21,7 @@ url: /it/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|Ciclo infinito durante il salvataggio della cartella di lavoro copiata|
 |CELLSJAVA-43442|Problema con l'ordinamento dei dati quando si fa clic sui collegamenti di intestazione nella demo primaverile di GridWeb|
 |CELLSJAVA-43443|Problema con la modalità di modifica in GridWeb Java|
-|CELLSJAVA-43455|I caratteri non vengono incorporati nel PDF per i caratteri non ASCII durante l'impostazione di EmbedStandardWindowsFonts su false|
+|CELLSJAVA-43455|I caratteri non sono incorporati in PDF per i caratteri non ASCII durante l'impostazione di EmbedStandardWindowsFonts su false|
 |CELLSJAVA-43449|Impossibile cambiare la famiglia di caratteri degli elementi del grafico da "Calibri" ad "Aktiv Grotesk"|
 |CELLSJAVA-43454|Le etichette dell'asse X sono tagliate|
 |CELLSJAVA-43445|Regressione: dati di riga mancanti per i file .numbers|
@@ -30,9 +30,9 @@ url: /it/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43439|NegativeArraySizeException si verifica al caricamento della cartella di lavoro|
 |CELLSJAVA-43453|NullPointerException sul metodo Workbook.save|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Slicer.AddPivotConnection(PivotTable pivot).**
 

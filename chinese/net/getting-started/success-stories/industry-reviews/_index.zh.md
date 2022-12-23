@@ -6,7 +6,7 @@ url: /zh/net/industry-reviews/
 ---
 {{% alert color="primary" %}} 
 
-本主题收集了 IT 专业人员对 Aspose.Cells 进行的一些技术评论。
+本主题收集了 IT 专业人员对 Aspose.Cells 进行的一些技术审查。
 
 {{% /alert %}} 
 ## **史蒂夫·奥尔**

@@ -5,10 +5,10 @@ weight: 70
 url: /it/net/binding-worksheet-to-a-dataset-at-runtime-using-gridweb/
 ---
 ## **Possibili scenari di utilizzo**
-Aspose.Cells.GridWeb fornisce una semplice API che può essere utilizzata per associare dinamicamente un DataSet a un foglio di lavoro.
+Aspose.Cells.GridWeb fornisce un semplice API che può essere utilizzato per associare dinamicamente un DataSet al foglio di lavoro.
 ## **Associazione di un foglio di lavoro a DataSet**
 Il codice di esempio seguente illustra come associare un foglio di lavoro a un DataSet in fase di esecuzione.
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< highlight "java" >}}
 
  // Implementing Page_Load event handler

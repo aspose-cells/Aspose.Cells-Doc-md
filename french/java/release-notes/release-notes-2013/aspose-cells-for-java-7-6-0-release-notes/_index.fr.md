@@ -16,7 +16,7 @@ url: /fr/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40510 - GB18030 Les caractères ne s'affichent pas 40603 - La qualité du graphique est trop faible
 
- Exceptions
+ Des exceptions
 
 40615 - NullPointerException lors de l'ouverture d'une feuille de calcul Excel
 
@@ -24,6 +24,6 @@ url: /fr/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40610 - La suppression du graphique rend la feuille de calcul illisible
 
-40467 - Impossible de redimensionner la zone de texte dans XLSX40623 - "#VALUE !" erreur après calcul
+ 40467 - Impossible de redimensionner la zone de texte dans XLSX40623 - "#VALUE !" erreur après calcul
 
  40620 - Erreur lors de l'exécution du remplacement dans la zone de texte

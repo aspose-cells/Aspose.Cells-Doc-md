@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-5-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43640) - 无法呈现自定义日期格式模式 g 和 ge.mm.dd
@@ -66,19 +66,19 @@ url: /zh/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-43690) - 在将工作表渲染为图像时，文本在底部被截断
 
-(CELLSNET-43676) - 输出 PDF 的页数不正确
+(CELLSNET-43676) - 输出 PDF 没有正确的页数
 
-(CELLSNET-43672) - 将工作表渲染为 PNG 时图像质量不佳
+(CELLSNET-43672) - 将工作表渲染到 PNG 时图像质量差
 
-(CELLSNET-43661) - 将电子表格呈现为 PDF 时文本被截断
+(CELLSNET-43661) - 在将电子表格呈现为 PDF 时文本被截断
 
 (CELLSNET-43644) - 文本未正确呈现
 
 (CELLSNET-43600) - Excel 文件未正确呈现
 
-(CELLSNET-43593) - Excel 到 PDF 中的文本位于行上方和其他格式问题
+(CELLSNET-43593) - 文本位于行上方以及 Excel 中的其他格式问题至 PDF
 
-(CELLSNET-43481) - Cells 与希伯来语单词失去了 RTL 一致性
+ (CELLSNET-43481) - Cells 与希伯来语单词失去了 RTL 一致性
 
 (CELLSNET-43457) - 阿拉伯货币符号在错误的一边
 
@@ -102,29 +102,29 @@ url: /zh/net/aspose-cells-for-net-8-5-0-release-notes/
 
 (CELLSNET-42537) - 下划线与双底边框重叠
 
-(CELLSNET-42474) - 转换为 PDF 后字体大小发生变化
+(CELLSNET-42474) - 字体大小在转换为 PDF 后更改
 
-(CELLSNET-42260) - Aspose.Cells 生成的 PDF 与 MS Excel 的比较
+(CELLSNET-42260) - PDF 与 Aspose.Cells 生成的比较与 MS Excel
 
-(CELLSNET-41519) - 将 XLSX 文件转换为 PDF 时页面不对齐
+ (CELLSNET-41519) - 将 XLSX 文件转换为 PDF 时页面不对齐
 
 (CELLSNET-43683) - Aspose 8.4.2 错误地读取图表属性并被交换
 
-(CELLSNET-43680) - 在 Excel 到 PDF 转换的输出 PDF 文件中缺少图例颜色
+(CELLSNET-43680) - 在 Excel 到 PDF 的转换中，输出文件 PDF 中缺少图例颜色
 
-(CELLSNET-43679) - 在呈现的 PDF 文件格式中缺少图表的水平 x 轴缩放
+(CELLSNET-43679) - 渲染的 PDF 文件格式中缺少图表的水平 x 轴缩放
 
 (CELLSNET-43677) - 无法将类别轴设置为文本轴
 
-(CELLSNET-43668) - 3D 饼图在 Excel 到 PDF 的转换中呈现不佳
+(CELLSNET-43668) - 3D 饼图在 Excel 到 PDF 转换中呈现不正确
 
 (CELLSNET-43657) - 使用 OoxmlSaveOptions.RefreshChartCache = true 保存后图表生成不正确
 
 (CELLSNET-43648) - 使用 SheetRender.ToImage 时，来自单元格引用的图像被截断
 
-(CELLSNET-42922) - 呈现为 PDF 文件格式时隐藏引导线
+(CELLSNET-42922) - 渲染为 PDF 文件格式时隐藏引导线
 
-(CELLSNET-42376) - 在将 XLSX 渲染为 PDF 时，文本从 TextBox 中截断
+(CELLSNET-42376) - 在将 XLSX 呈现为 PDF 时，文本从 TextBox 截断
 
 (CELLSNET-42369) - PDF 未正确呈现
 
@@ -163,7 +163,7 @@ url: /zh/net/aspose-cells-for-net-8-5-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43692) - 在 GridDesktop 中构建一个缩放滑块，就像在 Excel 中一样
@@ -225,7 +225,7 @@ url: /zh/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) 参数的更改
+ ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) 参数的更改
 
 现在我们将ReferredArea对象添加到“paramsList”中，而不是当相应的参数是一个引用或者它的计算结果是一个引用时引用区域的值或值数组。我们从 contextObjexts 中删除了 ReferredAreaCollection。
 

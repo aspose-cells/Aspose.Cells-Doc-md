@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-gridlines-in-python/
 ---
 ## **Aspose.Cells - Kılavuz Çizgilerini Gizle'yi Görüntüle**
 ### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , aramak**displayhidegridlines** modül.
+ kullanarak çalışma sayfasını gizlemek için**Yakut için Aspose.Cells Java** , Arama**displayhidegridlines** modül.
 
 **Python Kod**
 

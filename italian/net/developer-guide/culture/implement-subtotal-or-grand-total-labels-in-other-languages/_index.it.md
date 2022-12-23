@@ -6,7 +6,7 @@ url: /it/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Possibili scenari di utilizzo**
 
- A volte, vuoi mostrare le etichette del totale parziale e del totale complessivo in lingue diverse dall'inglese come cinese, giapponese, arabo, hindi ecc. Aspose.Cells ti consente di farlo utilizzando il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe e[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) proprietà. Si prega di consultare questo articolo su come utilizzare[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe
+ volte, vuoi mostrare le etichette del totale parziale e del totale complessivo in lingue diverse dall'inglese come cinese, giapponese, arabo, hindi ecc. Aspose.Cells ti consente di farlo utilizzando il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe e[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) proprietà. Si prega di consultare questo articolo su come utilizzare[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe
 
 - [Utilizzo della classe GlobalizationSettings per le etichette di totale parziale personalizzate e altre etichette del grafico a torta](/cells/it/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 

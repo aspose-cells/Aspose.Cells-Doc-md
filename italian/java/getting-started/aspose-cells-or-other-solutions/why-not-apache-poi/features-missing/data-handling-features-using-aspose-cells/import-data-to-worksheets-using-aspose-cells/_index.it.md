@@ -7,7 +7,7 @@ url: /it/java/import-data-to-worksheets-using-aspose-cells/
 ## **Aspose.Cells - Importa dati in fogli di lavoro**
 Importa dati da array
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ cells.importArray(names,0,0,false);
 
 Importa dati da ArrayList
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

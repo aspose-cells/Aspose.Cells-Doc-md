@@ -14,27 +14,27 @@ url: /de/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Allgemeine Funktionen/Verbesserungen
 
- Unterstützung von LightCellsDataProvider zum Speichern von XLS-Dateien
+ Unterstützung von LightCellsDataProvider zum Speichern der Datei XLS
 
- Es wurden Verbesserungen für die Excel-zu-PDF-Funktion vorgenommen
+ Für die Excel-zu-PDF-Funktion wurden Verbesserungen vorgenommen
 
  31329 – Fügen Sie eine nützliche Methode hinzu: PivotField.getBaseIndex()
 
- 40015 - Bibliothek mit webservices-rt.jar kompatibel machen
+40015 - Bibliothek mit webservices-rt.jar kompatibel machen
 
  40011 - Unterstützung, um alle Farben zu erhalten, die von verschiedenen Objekten in der Arbeitsmappe verwendet werden
 
  Ausnahmen
 
-40022 – Beim Lesen einer XLS-Vorlagendatei mit gesetzter Option: LoadDataOnly=true führt zu einer Ausnahme
+ 40022 – Beim Lesen der XLS-Vorlagendatei mit festgelegter Option: LoadDataOnly=true führt zu einer Ausnahme
 
  40017 – Methode WorksheetCollection.getNamedRanges() gibt Ausnahme
 
- 40033 – Beim Lesen der XLSX-Vorlagendatei wird eine Ausnahme „Ungültiges Passwort“ angezeigt
+ 40033 – Beim Lesen der Vorlagendatei XLSX wird eine Ausnahme „Ungültiges Passwort“ angezeigt
 
  Fehler
 
- 31303 - Cell Wert mit den Zeichen „““ und „,“ wurde für die CSV-Datei falsch gespeichert
+ 31303 - Cell-Wert mit den Zeichen „““ und „,“ wurde für die Datei CSV falsch gespeichert
 
  31376 – Das Speichern von PDF hat zu lange gedauert und eine sehr große PDF-Datei generiert
 
@@ -46,15 +46,15 @@ url: /de/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40010 - Das Einfügen von Zeilen führt dazu, dass verbundene Zellen beschädigt werden
 
- 40013 - Symbole des Autofilters wurden dupliziert und wurden beim erneuten Speichern der XLS-Datei größer
+ 40013 - Symbole des Autofilters wurden dupliziert und wurden beim erneuten Speichern der Datei XLS größer
 
- 40014 – Gitternetzlinien wurden im generierten Bild für ein Blatt nicht angezeigt
+40014 – Gitternetzlinien wurden im generierten Bild für ein Blatt nicht angezeigt
 
  40016 - Gespeicherte XLS-Datei führt dazu, dass MS Excel Warnmeldungen ausgibt -1
 
  40020 - Gespeicherte XLS-Datei führt dazu, dass MS Excel Warnmeldungen ausgibt -2
 
-40021 - Gespeicherte XLS-Datei führt dazu, dass MS Excel Warnmeldungen ausgibt -3
+ 40021 - Gespeicherte XLS-Datei führt dazu, dass MS Excel Warnmeldungen ausgibt -3
 
  40023 - Cell Formatverlust nach dem Löschen von Zeilen
 
@@ -68,4 +68,4 @@ url: /de/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40084 – DateTime-Werte werden im Double-Format gelesen
 
- 40085 – Wenn Zeile/Spalte das Limit der XLS-Datei überschreitet, verursacht die gespeicherte XLS-Datei beim Öffnen in MS Excel den Fehler „Excel hat nicht lesbaren Inhalt gefunden“.
+ 40085 – Wenn Zeile/Spalte das Limit der Datei XLS überschreitet, verursacht die gespeicherte Datei XLS den Fehler „Excel hat nicht lesbaren Inhalt gefunden“, wenn sie in MS Excel geöffnet wird

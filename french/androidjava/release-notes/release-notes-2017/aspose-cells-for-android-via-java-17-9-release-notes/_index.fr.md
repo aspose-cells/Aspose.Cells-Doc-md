@@ -10,43 +10,43 @@ Cette page contient des notes de version pour[Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42356|Ajouter une propriété pour indiquer s'il faut sortir une page vide ou non lorsqu'il n'y a rien à imprimer|Nouvelle fonctionnalité|
 |CELLSJAVA-42322|Prise en charge de la fonction de filtre avancé (MS Excel) pour afficher les enregistrements répondant à des critères complexes|Nouvelle fonctionnalité|
-|CELLSJAVA-42391|Cell la largeur affichée dans le PDF résultant n'est pas la même que dans le fichier Excel lors de l'utilisation de la fonction "Afficher la formule"|Nouvelle fonctionnalité|
-|CELLSJAVA-42379|Implémentation de la destination nommée lors du rendu en sortie PDF (requête de signet)|Nouvelle fonctionnalité|
+|CELLSJAVA-42391|La largeur Cell indiquée dans le résultat PDF n'est pas la même que dans le fichier Excel lors de l'utilisation de la fonction "Afficher la formule"|Nouvelle fonctionnalité|
+|CELLSJAVA-42379|Implémentation de la destination nommée lors du rendu vers la sortie PDF (requête de signet)|Nouvelle fonctionnalité|
 |CELLSJAVA-42336|ResultSet importe zéro au lieu d'une valeur nulle dans le fichier XLSX|Renforcement|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() ne doit pas être une fonction statique (globale)|Renforcement|
 |CELLSJAVA-42341|InterruptMonitor prend plus de temps pour interrompre le processus d'enregistrement du classeur pour un gros fichier ayant un tableau croisé dynamique|Renforcement|
-|CELLSJAVA-42358|La formule n'est pas affichée dans le PDF résultant|Renforcement|
+|CELLSJAVA-42358|La formule n'est pas affichée dans le résultat PDF|Renforcement|
 |CELLSJAVA-42351|La formule WEEKDAY renvoie une valeur erronée dans le calcul de la formule du classeur|Renforcement|
 |CELLSJAVA-42401|Il faut énumérer toutes les formes pour définir correctement l'ordre Z de la forme|Renforcement|
 |CELLSJAVA-42368|Définir le nom du contrôle ActiveX (ListBox)|Renforcement|
 |CELLSJAVA-42308|Problèmes de tableau croisé dynamique (lignes manquantes, en-têtes de champ croisé imprimés deux fois, date convertie en valeurs numériques, etc.) pour le rendu HTML|Punaise|
 |CELLSJAVA-42298|Caractères supplémentaires présents dans la sortie HTML du fichier Excel|Punaise|
-|CELLSJAVA-42277|L'image ne s'affiche pas dans le HTML de sortie lorsque HtmlSaveOptions.setExportHiddenWorksheet est défini sur false|Punaise|
+|CELLSJAVA-42277|L'image ne s'affiche pas dans la sortie HTML lorsque HtmlSaveOptions.setExportHiddenWorksheet est défini sur false|Punaise|
 |CELLSJAVA-42259|HTML n'a pas pu être converti correctement en fichier Excel|Punaise|
 |CELLSJAVA-42256|Problème avec le rendu du tableau HTML vers Excel|Punaise|
 |CELLSJAVA-42319|Problème de calcul de la zone d'impression lors de la spécification de formules|Punaise|
 |CELLSJAVA-42320|Le graphique n'est pas mis à jour s'il existe dans une feuille séparée|Punaise|
 |CELLSJAVA-42295|La valeur Cell est ajoutée au début lorsque nous cliquons sur une cellule existante (ayant une certaine valeur)|Punaise|
-|CELLSJAVA-42325|Lorsque XLSX est enregistré au format PDF, les mots sont mis en miroir|Punaise|
+|CELLSJAVA-42325|Lorsque XLSX est enregistré sous PDF, les mots sont mis en miroir|Punaise|
 |CELLSJAVA-42299|Caractères supplémentaires présents dans la sortie PDF/image du fichier Excel|Punaise|
 |CELLSJAVA-42301|Les barres sont manquantes dans la sortie PDF du graphique à barres|Punaise|
-|CELLSJAVA-42293|L'image du graphique est incorrecte dans le HTML de sortie|Punaise|
-|CELLSJAVA-42292|L'image du graphique est incorrecte dans le HTML de sortie|Punaise|
+|CELLSJAVA-42293|L'image du graphique est erronée dans la sortie HTML|Punaise|
+|CELLSJAVA-42292|L'image du graphique est incorrecte dans la sortie HTML|Punaise|
 |CELLSJAVA-42270|Le contenu est manquant lorsque le graphique Excel est converti en PDF|Punaise|
-|CELLSJAVA-42258|Le PDF du graphique a un format de date incorrect pour les étiquettes de l'axe des x|Punaise|
-|CELLSJAVA-42252|Mise à l'échelle incorrecte de l'axe Y dans le PDF de sortie|Punaise|
-|CELLSJAVA-42245|Le style/la mise en forme est erronée lors de l'enregistrement au format HTML|Punaise|
+|CELLSJAVA-42258|Le format de date PDF du graphique est incorrect pour les étiquettes de l'axe des x|Punaise|
+|CELLSJAVA-42252|Mise à l'échelle incorrecte de l'axe Y dans la sortie PDF|Punaise|
+|CELLSJAVA-42245|Le style/la mise en forme est erronée lors de l'enregistrement sous HTML|Punaise|
 |CELLSJAVA-42316|L'option de compression des images n'est pas conservée lors de l'ouverture et de l'enregistrement du fichier Excel|Punaise|
 |CELLSJAVA-42306|La couleur d'arrière-plan des cellules dans File2 est modifiée lors de l'ouverture et de l'enregistrement du classeur|Punaise|
 |CELLSJAVA-42305|La couleur d'arrière-plan des cellules dans File1 est modifiée lors de l'ouverture et de l'enregistrement du classeur|Punaise|
 |CELLSJAVA-42303|La cellule de formule Excel devient une cellule sans formule lors de la définition du texte de la forme|Punaise|
 |CELLSJAVA-42284|Workbook.getFonts() affiche une police supplémentaire après le rechargement de la même feuille de calcul|Punaise|
-|CELLSJAVA-42327|Certaines formes sont déformées et modifiées dans le rendu Excel en PDF|Punaise|
-|CELLSJAVA-42290|Les mdashes et ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le PDF du graphique|Punaise|
+|CELLSJAVA-42327|Certaines formes sont déformées et modifiées dans Excel en rendu PDF|Punaise|
+|CELLSJAVA-42290|Les mdashes et les ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le graphique PDF|Punaise|
 |CELLSJAVA-42338|Mauvais résultats lors de l'utilisation des formules SUMIFS|Punaise|
 |CELLSJAVA-42337|Aspose.Cells est incapable de calculer la valeur de la cellule B4 de la feuille de calcul Calculs|Punaise|
 |CELLSJAVA-42330|Résultat étrange lors de la conversion d'Excel en PDF ou PDF/A à l'aide de threads|Punaise|
@@ -59,14 +59,14 @@ Cette page contient des notes de version pour[Aspose.Cells for Android via Java 
 |CELLSJAVA-42343|Différents styles du graphique en cascade ne s'affichent pas correctement.|Punaise|
 |CELLSJAVA-42342|Le graphique en cascade affiche toujours les lignes de connexion|Punaise|
 |CELLSJAVA-42352|La forme n'est pas mise à jour avec la valeur correcte|Punaise|
-|CELLSJAVA-42349|Conversion Excel en PDF suspendue pour un fichier XLSX|Punaise|
+|CELLSJAVA-42349|Conversion Excel vers PDF suspendue pour un fichier XLSX|Punaise|
 |CELLSJAVA-42348|Impossible d'importer le fichier XLSB (par les API Aspose.Cells) dans la base de données MS-Access|Punaise|
-|CELLSJAVA-42369|La sortie HTML du document Excel contient des valeurs de hachage au lieu de valeurs réelles|Punaise|
+|CELLSJAVA-42369|HTML La sortie du document Excel contient des valeurs de hachage au lieu de valeurs réelles|Punaise|
 |CELLSJAVA-42366|L'enregistrement de "2.2 CompleteEmail.html" au format Xlsx génère un fichier corrompu|Punaise|
 |CELLSJAVA-42365|Le chargement de "2.1 CompleteEmail.html" dans l'objet Workbook lève NullPointerException|Punaise|
 |CELLSJAVA-42381|Le calcul du classeur est incorrect pour la formule Lookup Excel|Punaise|
 |CELLSJAVA-42380|La formule matricielle dans la feuille est calculée différemment via Aspose.Cells|Punaise|
-|CELLSJAVA-42370|Liens hypertexte et contenu PDF incorrects|Punaise|
+|CELLSJAVA-42370|Hyperliens incorrects et contenu PDF|Punaise|
 |CELLSJAVA-42395|Rendu - L'image du graphique n'est pas correcte|Punaise|
 |CELLSJAVA-42393|Les étiquettes de l'axe des catégories sont manquantes lors de la conversion d'Excel en Pdf|Punaise|
 |CELLSJAVA-42384|La couleur des barres négatives n'est pas correcte lors de la conversion d'Excel en PDF|Punaise|
@@ -75,7 +75,7 @@ Cette page contient des notes de version pour[Aspose.Cells for Android via Java 
 |CELLSJAVA-42364|Les étiquettes de données de la plage de cellules ne viennent pas lorsqu'elles sont exportées au format PDF|Punaise|
 |CELLSJAVA-42359|Datalabels manquants pour une série qui a des valeurs de barre de 100|Punaise|
 |CELLSJAVA-42314|Le graphique est vide dans la sortie PNG|Punaise|
-|CELLSJAVA-42313|Le graphique est vide dans le PDF de sortie|Punaise|
+|CELLSJAVA-42313|Le graphique est vide dans la sortie PDF|Punaise|
 |CELLSJAVA-42374|Références de caractères analysées de manière incorrecte par Aspose Cells|Punaise|
 |CELLSJAVA-42373|La copie du classeur puis l'enregistrement corrompt le fichier Excel de sortie|Punaise|
 |CELLSJAVA-42392|Exception "com.aspose.cells.CellsException : contenu Excel inconnu !" sur l'instanciation d'un fichier Excel chiffré|Exception|
@@ -117,9 +117,9 @@ Remplace le texte de la forme.
 ### **Ajoute Cells.importResultSet (ResultSet rs, int rowIndex, int columnIndex, options ImportTableOptions)/Cells.importResultSet (ResultSet rs, chaîne startCell, options ImportTableOptions)**
 Prend en charge l'importation de ResultSet avec plus d'options.
 ### **Ajoute la propriété HtmlSaveOptions.IsExportComments**
-Indique si l'exportation des commentaires lors de l'enregistrement du fichier au format HTML, la valeur par défaut est false.
+Indique si l'exportation des commentaires lors de l'enregistrement du fichier vers HTML, la valeur par défaut est false.
 ### **Ajoute la propriété HtmlSaveOptions.DisableDownlevelRevealedComments**
-Indique si désactiver les commentaires conditionnels révélés par le niveau inférieur lors de l'exportation du fichier au format HTML, la valeur par défaut est false.
+Indique si désactiver les commentaires conditionnels révélés par le niveau inférieur lors de l'exportation du fichier vers HTML, la valeur par défaut est false.
 ### **Ajoute la classe CustomImplementationFactory**
 Fournit API à l'utilisateur pour étendre/améliorer la capacité du composant par certaines implémentations spéciales pour certaines situations particulières. Actuellement, il n'y a pas de version for Java prise en charge par l'implémentation personnalisée.
 ### **Ajoute la propriété CellsHelper.CustomImplementationFactory**

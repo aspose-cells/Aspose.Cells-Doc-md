@@ -6,11 +6,11 @@ url: /ru/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 ---
 ## **Возможные сценарии использования**
 
- Иногда вам нужно знать ширину и высоту размера бумаги, поскольку он был установлен в настройках страницы рабочего листа. Пожалуйста, используйте[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) а также[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)свойств для этой цели.
+ Иногда вам нужно знать ширину и высоту размера бумаги, поскольку он был установлен в настройках страницы рабочего листа. Пожалуйста, используйте[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)свойств для этой цели.
 
 ## **Получить ширину и высоту бумаги из PageSetup рабочего листа**
 
- В следующем примере кода объясняется использование[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) а также[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)характеристики. Сначала он изменяет размер бумаги на A2, затем находит ширину и высоту бумаги, затем изменяет его на A3, A4, Letter и находит ширину и высоту бумаги соответственно.
+ В следующем примере кода объясняется использование[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)характеристики. Сначала он изменяет размер бумаги на A2, затем находит ширину и высоту бумаги, затем изменяет его на A3, A4, Letter и находит ширину и высоту бумаги соответственно.
 
 ## **Образец кода**
 

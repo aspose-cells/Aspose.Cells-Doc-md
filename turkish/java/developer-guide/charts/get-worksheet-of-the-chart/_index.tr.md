@@ -10,7 +10,7 @@ Bazen, bir grafiğin referansından bir çalışma sayfasına erişmek istersini
 
 {{% /alert %}}
 
-## Örnek
+## Örnek vermek
 
  Aşağıdaki örnek, nasıl kullanılacağını gösterir.[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) Emlak. Kod önce çalışma sayfasının adını yazdırır, ardından çalışma sayfasındaki ilk grafiğe erişir. Daha sonra çalışma sayfasının adını yeniden yazdırır.[**Chart.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)Emlak.
 

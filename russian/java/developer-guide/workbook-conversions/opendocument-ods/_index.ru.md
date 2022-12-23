@@ -7,9 +7,9 @@ url: /ru/java/opendocument-ods/
 ---
 ## **Об OpenDocument**
 
-[Формат OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) — это бесплатный и открытый формат файлов для электронных офисных документов, первоначально разработанный Sun для пакета Open Office. OpenDocument Spreadsheet (ODS) — это формат файла для документов Excel. OpenDocument в настоящее время является стандартом OASIS и ISO.
+[Формат OpenDocument (ODF)](https://en.wikipedia.org/wiki/OpenDocument) — это бесплатный и открытый формат файлов для электронных офисных документов, первоначально разработанный Sun для пакета Open Office. Электронная таблица OpenDocument (ODS) — это формат файла для документов Excel. OpenDocument в настоящее время является стандартом OASIS и ISO.
 
-## **ОДС в Aspose.Cells**
+## **ODS в Aspose.Cells**
 
  Aspose.Cells поддерживает загрузку документов OpenDocument 1.1 и 1.2. Aspose.Cells сохраняет документы в формате OpenDocument 1.1. Вы также можете увидеть[подробная спецификация](/cells/ru/java/opendocument-ods/) о том, какие функции OpenDocument поддерживаются.
 

@@ -10,9 +10,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSRS-584 | Miglioramento del rendering Png/Emf.| Miglioramento|
-|CELLSRS-588 |Miglioramento del rendering Tiff.| Miglioramento|
+|CELLSRS-584 |Miglioramento del rendering Png/Emf.| Miglioramento|
+|CELLSRS-588 | Miglioramento del rendering Tiff.| Miglioramento|
 
 

@@ -17,6 +17,6 @@ Certains types de graphiques dans le fichier de définition de rapport SQL Serve
 - Range-BoxPlot
 - Forme-Entonnoir
 
- Lors du rendu d'éléments de graphique qui n'ont pas d'options équivalentes dans Microsoft Excel, Aspose.Cells les génère en images.
+Lors du rendu d'éléments de graphique qui n'ont pas d'options équivalentes dans Microsoft Excel, Aspose.Cells les génère en images.
 
 {{% /alert %}}

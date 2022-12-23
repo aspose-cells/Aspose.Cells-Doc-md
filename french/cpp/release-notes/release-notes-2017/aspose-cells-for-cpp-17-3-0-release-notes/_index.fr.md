@@ -10,7 +10,7 @@ url: /fr/cpp/aspose-cells-for-cpp-17-3-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-51|Amélioration des performances d'écriture du fichier XLSX|Amélioration|
 ### **Public API et modifications incompatibles avec les versions antérieures**

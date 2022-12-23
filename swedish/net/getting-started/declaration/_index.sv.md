@@ -19,7 +19,7 @@ Du kan följa några rekommendationer för att köra Aspose.Cells for .NET på M
 
 - För att ställa in licensfilen i din kod, är det bättre att du anropar metoden License.SetLicense(Stream) istället efter att ha hämtat licensfilen i strömmar.
 - Typsnittens katalog (som kan nås med tillstånd) måste ställas in. Om det inte finns något sätt att komma åt filen på servern, lägg till de nödvändiga teckensnittsfilerna i din applikation.
-- I partiellt förtroendeläge stöds inte form-till-EMF-konvertering, så ställ in den exporterade bildtypen (för former) till ett annat bildformat.
+- I partiellt förtroendeläge stöds inte Shape-to-EMF-konvertering, så ställ in den exporterade bildtypen (för former) till ett annat bildformat.
 
 Se följande exempel som visar hur man använder/kör Aspose.Cells for .NET i Medium Trust-läge.
 

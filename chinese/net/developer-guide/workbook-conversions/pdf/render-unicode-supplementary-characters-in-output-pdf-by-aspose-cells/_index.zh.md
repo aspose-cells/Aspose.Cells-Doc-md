@@ -17,12 +17,12 @@ url: /zh/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cel
 
 ## 通过 Aspose.Cells 在输出 PDF 中渲染 Unicode 增补字符
 
-以下屏幕截图显示了 Aspose.Cells 如何呈现[源文件](5115563.xlsx)进入[输出PDF](5115564.pdf).如您所见，所有三个 Unicode 增补字符都呈现为与 Microsoft Excel 完全相同。
+以下屏幕截图显示了 Aspose.Cells 如何呈现[源文件](5115563.xlsx)进入[输出 PDF](5115564.pdf).如您所见，所有三个 Unicode 增补字符都呈现为与 Microsoft Excel 完全相同。
 
-![待办事项：图像_替代_文本](output.png)
+![待办事项：图片_替代_文本](output.png)
 
 ## 示例代码
 
-您可以使用此示例代码来转换[源文件](5115563.xlsx)进入[输出PDF](5115564.pdf).
+您可以使用此示例代码来转换[源文件](5115563.xlsx)进入[输出 PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

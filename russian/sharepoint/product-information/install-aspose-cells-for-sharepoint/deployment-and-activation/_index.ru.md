@@ -6,7 +6,7 @@ url: /ru/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[Установка Aspose.Cells for SharePoint](/cells/ru/sharepoint/installing-aspose-cells-for-sharepoint/)проведет вас через процесс установки. В этой статье объясняется, какой процесс установки развертывается и активируется.
+[Установка Aspose.Cells for SharePoint](/cells/ru/sharepoint/installing-aspose-cells-for-sharepoint/) проведет вас через процесс установки. В этой статье объясняется, какой процесс установки развертывается и активируется.
 
 {{% /alert %}} 
 ### **Развертывание**

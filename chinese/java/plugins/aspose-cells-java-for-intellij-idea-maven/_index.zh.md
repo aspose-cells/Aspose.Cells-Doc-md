@@ -8,7 +8,7 @@ url: /zh/java/aspose-cells-java-for-intellij-idea-maven/
 
 ### **IntelliJ IDEA**
 
-**IntelliJ IDEA**是面向软件开发人员的 Java 集成开发环境 (IDE)。它由 JetBrains 开发。最初创建for Java，目前支持多种语言，包括JavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure和Kotlin。
+**IntelliJ IDEA**是面向软件开发人员的 Java 集成开发环境 (IDE)。它由 JetBrains 开发。最初创建for Java，目前支持多种语言，包括JavaScript、Groovy、HTML、CSS、RSS、R、Haskell、PHP、Ruby、Python、Scala、Clojure、Kotlin。
 
 在 2010 年**资讯世界**报告显示，IntelliJ 在排名前四的 Java 编程工具中获得了最高的测试中心分数：Eclipse、IntelliJ IDEA、NetBeans 和 Oracle JDeveloper。
 
@@ -22,7 +22,7 @@ url: /zh/java/aspose-cells-java-for-intellij-idea-maven/
 
 - 该插件可帮助您使用**Aspose.Cells for Java API**在你最喜欢的 IntelliJ IDEA 中。
 
-![待办事项：图像_替代_文本](kwkgljg.png)
+![待办事项：图片_替代_文本](kwkgljg.png)
 
 **巫师**:
 该插件包含两个向导 -----

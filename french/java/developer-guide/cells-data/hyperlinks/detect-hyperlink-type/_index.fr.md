@@ -6,7 +6,7 @@ url: /fr/java/detect-hyperlink-type/
 ---
 ## **Détecter le type de lien hypertexte**
 
-Un fichier Excel peut avoir différents types d'hyperliens tels qu'externe, référence de cellule, chemin de fichier, etc. Aspose.Cells prend en charge la fonction de détection du type d'hyperlien. Les types d'hyperliens sont représentés par le[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Énumération. La[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)L'énumération a les membres suivants.
+Un fichier Excel peut avoir différents types d'hyperliens tels qu'externe, référence de cellule, chemin de fichier, etc. Aspose.Cells prend en charge la fonction de détection du type d'hyperlien. Les types d'hyperliens sont représentés par le[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)Énumération. Le[**TargetModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType)L'énumération a les membres suivants.
 
 - [**EXTERNE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): Lien externe
 - [**CHEMIN DU FICHIER**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): chemin local et complet vers les fichiers\dossiers.

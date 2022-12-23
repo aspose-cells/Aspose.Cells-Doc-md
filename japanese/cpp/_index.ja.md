@@ -12,7 +12,7 @@ description:  Aspose.Cells for C++ は、C++ 開発者が Office Automation や 
 
 **Aspose.Cells for C++ へようこそ**
 
-Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、および変換できるようにするネイティブ C++ ライブラリです。 Aspose.Cells for C++ は、MS Excel 97-2003 (XLS)、MS Excel 2007-2013/2016 (XLSX、XLSM、XLSB など)、Open Office XML などのスプレッドシート形式をサポートしています。また、ワークシートから画像をレンダリングし、MS Excel スプレッドシートを PDF 形式に変換することもできます。 API を使用すると、チャートや図形を作成、操作、およびレンダリングすることもできます。さらに、公式計算は、コンポーネントによって提供される別の優れた側面であり、それを利用することができます。
+Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、および変換できるようにするネイティブ C++ ライブラリです。 Aspose.Cells for C++ は、MS Excel 97-2003 (XLS)、MS Excel 2007-2013/2016 (XLSX、XLSM、XLSB など)、Open Office XML などのスプレッドシート形式をサポートしています。ワークシートから画像をレンダリングし、MS Excel スプレッドシートを PDF 形式に変換することもできます。 API を使用すると、チャートや図形を作成、操作、およびレンダリングすることもできます。さらに、公式計算は、コンポーネントによって提供される別の優れた側面であり、それを利用することができます。
 
 {{% /alert %}}
 

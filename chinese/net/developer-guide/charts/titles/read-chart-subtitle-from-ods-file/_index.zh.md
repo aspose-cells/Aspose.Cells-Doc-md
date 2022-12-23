@@ -6,7 +6,7 @@ url: /zh/net/read-chart-subtitle-from-ods-file/
 ---
 ## **从 ODS 文件中读取图表副标题**
 
-Aspose.Cells 使您能够通过使用[**图表.副标题**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle)财产。下面的示例代码加载[示例 ODS 文件](89620481.ods)并使用阅读图表副标题[**图表.副标题**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle)属性并将其打印在控制台窗口中。请参阅下面给出的代码的控制台输出以供参考。
+Aspose.Cells 为您提供阅读 ODS 文件中图表字幕的能力[**图表.副标题**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle)财产。下面的示例代码加载[样本 ODS 文件](89620481.ods)并使用阅读图表副标题[**图表.副标题**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle)属性并将其打印在控制台窗口中。请参阅下面给出的代码的控制台输出以供参考。
 
 ## **示例代码**
 

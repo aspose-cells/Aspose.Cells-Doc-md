@@ -10,16 +10,16 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.2.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42827|Insérer une ligne avec InsertOptions similaire à MS Excel|Nouvelle fonctionnalité|
 |CELLSJAVA-42712|Améliorer JavaDocs pour Aspose.Cells for Java|Renforcement|
 |CELLSJAVA-42823|L'utilisation de FontUnderlineType.WORDS lève une exception|Renforcement|
-|CELLSJAVA-42826|Données avec mise en forme conditionnelle omises lors de la conversion XLSX en HTML|Punaise|
+|CELLSJAVA-42826|Données avec mise en forme conditionnelle omises lors de la conversion de XLSX à HTML|Punaise|
 |CELLSJAVA-42815|L'ajout d'une référence complexe au nom défini entraîne un classeur MS Excel corrompu|Punaise|
 |CELLSJAVA-42822|Cell.getValidationValue renvoie une valeur erronée pour la valeur spécifiée|Punaise|
 |CELLSJAVA-42829|Nom de la fonction personnalisée dans les formules partagées remplacé par un autre nom|Punaise|
-|CELLSJAVA-42824|Titres d'axe manquants et autre formatage incorrect des graphiques dans la conversion Excel en PDF/A|Punaise|
+|CELLSJAVA-42824|Titres d'axe manquants et autre mise en forme incorrecte des graphiques dans Excel vers la conversion PDF/A|Punaise|
 |CELLSJAVA-42814|Les flèches de la sortie PNG ne correspondent pas aux flèches du graphique Excel|Punaise|
 |CELLSJAVA-42777|Modification de la hauteur des lignes incorrectes lors de l'utilisation de l'opération d'ajustement automatique des lignes|Punaise|
 |CELLSJAVA-42813|Le paramètre de classeur "ReCalculateOnOpen" n'est pas conservé|Punaise|

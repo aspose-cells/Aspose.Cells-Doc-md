@@ -6,7 +6,7 @@ url: /fr/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-Auparavant, les zones de texte étaient accessibles par index à partir du[Feuille de calcul.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) mais maintenant vous pouvez également accéder à la zone de texte par son nom à partir de cette collection. C'est un moyen pratique et rapide d'accéder à votre zone de texte si vous connaissez déjà son nom.
+ Auparavant, les zones de texte étaient accessibles par index à partir du[Feuille de calcul.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) mais maintenant vous pouvez également accéder à la zone de texte par son nom à partir de cette collection. C'est un moyen pratique et rapide d'accéder à votre zone de texte si vous connaissez déjà son nom.
 
 {{% /alert %}} 
 ## **Accéder à la zone de texte par le nom**

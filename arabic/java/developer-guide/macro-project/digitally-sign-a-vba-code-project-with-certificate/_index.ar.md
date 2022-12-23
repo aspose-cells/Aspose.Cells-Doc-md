@@ -17,7 +17,7 @@ url: /ar/java/digitally-sign-a-vba-code-project-with-certificate/
 
 ## **قم بالتوقيع رقميًا على مشروع رمز VBA باستخدام الشهادة في C#**
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**Workbook.VbaProject.Sign ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)) طريقة. فيما يلي ملفات الإدخال والإخراج لعينة التعليمات البرمجية. يمكنك استخدام أي ملف إكسل وأي شهادة لاختبار هذا الرمز.
+ يوضح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**Workbook.VbaProject.Sign ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)طريقة. فيما يلي ملفات الإدخال والإخراج لعينة التعليمات البرمجية. يمكنك استخدام أي ملف إكسل وأي شهادة لاختبار هذا الرمز.
 
 - [ملف Excel المصدر](5115028.xlsm) المستخدمة في نموذج التعليمات البرمجية.
 - [نموذج لملف pfx](5115039.pfx) لإنشاء التوقيع الرقمي. يرجى تثبيته على جهاز الكمبيوتر الخاص بك لتشغيل هذا الرمز. كلمة المرور الخاصة به هي 1234.

@@ -15,10 +15,10 @@ Aspose.Cells ist eine flexible Komponente, mit der Android-Anwendungen Excel-Tab
 {{% /alert %}} 
 ## **Dokumentfunktionen**
 - Öffnen Sie einfache oder verschlüsselte Excel-Dateien (Excel97 - Excel2007 und spätere Versionen) aus verschiedenen Quellen
-- Speichern Sie Excel-Dateien (Excel97 - Excel2007 und spätere Versionen) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML etc.)
-- Konvertieren Sie eine Excel-Datei in ein PDF-Dokument
-- Konvertieren Sie eine Excel-Tabelle in ein XPS-Dokument
-- Lesen und schreiben Sie das OpenDocument Spreadsheet (ODS)-Format
+- Speichern Sie Excel-Dateien (Excel97 - Excel2007 und spätere Versionen) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tabulatorgetrennt, HTML usw.)
+- Konvertieren Sie die Excel-Datei in das Dokument PDF
+- Konvertieren Sie die Excel-Tabelle in das Dokument XPS
+- Lesen und schreiben Sie das Format OpenDocument Spreadsheet (ODS).
 - Ändern Sie die Dokumenteigenschaften von Excel-Dateien
 ## **Arbeitsblattfunktionen**
 ## **Anzeigeoptionen**
@@ -51,10 +51,10 @@ Aspose.Cells ist eine flexible Komponente, mit der Android-Anwendungen Excel-Tab
 -  Satz**Formeln mit integrierten oder Add-in-Funktionen**
 - Fügen Sie verschiedene Arten von Hyperlinks hinzu
 - Benannte Bereiche erstellen oder darauf zugreifen
--  Sich bewerben**Datenvalidierung** und**Automatische Filterung**
--  Sich bewerben**Zwischensummen** zu Arbeitsblatttabellen
+-  Anwenden**Datenvalidierung** und**Automatische Filterung**
+-  Anwenden**Zwischensummen** zu Arbeitsblatttabellen
 ## **Formatierungsfunktionen**
--  Sich bewerben**Zahlenformateinstellungen** für die Cells
+-  Anwenden**Zahlenformateinstellungen** für die Cells
 - Formatieren Sie Cell als Datum
 -  Satz**Textausrichtung**
 - Führen Sie mehrere Cells zu einer einzigen zusammen
@@ -63,15 +63,15 @@ Aspose.Cells ist eine flexible Komponente, mit der Android-Anwendungen Excel-Tab
 -  Satz**Rich-Text** in einer einzigen Cell
 -  Bewerben Sie sich anders**Rahmeneinstellungen** unter Cells
 -  Bewerben Sie sich anders**Hintergrundmuster** unter Cells
--  Sich bewerben**Formateinstellungen** auf einem Arbeitsblatt, Zeile oder Spalte etc.
--  Sich bewerben**Bedingte Formatierung** unter Cells
+-  Anwenden**Formateinstellungen** auf einem Arbeitsblatt, Zeile oder Spalte etc.
+-  Anwenden**Bedingte Formatierung** unter Cells
 ## **Diagramm- und Grafikfunktionen**
 - Erstellen Sie ganz einfach verschiedene Arten von Diagrammen
 -  Anpassen**Diagramme** indem Sie ihre verschiedenen Eigenschaften festlegen
 -  Satz**Daten für die Charts** dynamisch
--  Hinzufügen**Benutzerdefinierte Diagramme** zu Arbeitsblättern mit API
--  Hinzufügen**Bilder** in Arbeitsblätter zur Laufzeit
--  Erstellen und hinzufügen**Kommentare** zu Zellen
+-  Addieren**Benutzerdefinierte Diagramme** zu Arbeitsblättern mit API
+-  Addieren**Bilder** in Arbeitsblätter zur Laufzeit
+-  Erstellen und hinzufügen**Bemerkungen** zu Zellen
 - Diagramm in Bilddatei umwandeln
 - Arbeitsblatt in Bilddatei konvertieren
 ## **Erweiterte Funktionen**

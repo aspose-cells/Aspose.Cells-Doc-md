@@ -16,7 +16,7 @@ Microsoft Excel 2013'te, Veri Etiketleri için Cell Aralığı görüntüleyebil
 
 Aşağıdaki ekran görüntüsü, referansınız için bu seçeneği vurgulamaktadır.
 
-![yapılacaklar:resim_alternatif_Metin](showing-cell-range-as-the-data-labels_1.png)
+![yapılacaklar:resim_alternatif_metin](showing-cell-range-as-the-data-labels_1.png)
 
 ## Aspose.Cells ile hücre aralığını veri etiketleri olarak göster
 

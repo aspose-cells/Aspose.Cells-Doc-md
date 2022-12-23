@@ -6,8 +6,8 @@ url: /de/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-int
 ---
 ## **Mögliche Nutzungsszenarien**
  Angenommen, Sie haben eine Excel-Datei mit mehreren Blättern und möchten jedes Blatt in eine einzelne HTML-Datei exportieren. Wenn eines Ihrer Blätter Links zu anderen Blättern enthält, werden diese Links im exportierten HTML unterbrochen. Um dieses Problem zu lösen, bietet Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)Schnittstelle, die Sie implementieren können, um die defekten Links zu reparieren.
-## **Stellen Sie den HTML-Dateipfad des exportierten Arbeitsblatts über die IFilePathProvider-Schnittstelle bereit**
- Bitte laden Sie die herunter[Excel-Beispieldatei](5115213.zip)wird im folgenden Code und den exportierten HTML-Dateien verwendet. Alle diese Dateien befinden sich im Temp-Verzeichnis. Sie sollten es auf Laufwerk C: extrahieren. Dann wird es zum C:\Temp-Verzeichnis. Dann öffnen Sie die Datei Sheet1.html im Browser und klicken auf die beiden darin enthaltenen Links. Diese Links verweisen auf diese beiden exportierten HTML-Arbeitsblätter, die sich im Verzeichnis C:\Temp\OtherSheets befinden.
+## **Geben Sie den Dateipfad des exportierten Arbeitsblatts HTML über die IFilePathProvider-Schnittstelle an**
+ Bitte laden Sie die herunter[Excel-Beispieldatei](5115213.zip)wird im folgenden Code und seinen exportierten HTML-Dateien verwendet. Alle diese Dateien befinden sich im Temp-Verzeichnis. Sie sollten es auf Laufwerk C: extrahieren. Dann wird es zum C:\Temp-Verzeichnis. Dann öffnen Sie die Datei Sheet1.html im Browser und klicken auf die beiden darin enthaltenen Links. Diese Links verweisen auf diese beiden exportierten HTML-Arbeitsblätter, die sich im Verzeichnis C:\Temp\OtherSheets befinden.
 
 {{< highlight "java" >}}
 
@@ -21,11 +21,11 @@ Der folgende Screenshot zeigt, wie die C:\Temp\Sheet1.html und ihre Links ausseh
 
 ![todo: Bild_alt_Text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Der folgende Screenshot zeigt die HTML-Quelle. Wie Sie sehen können, verweisen die Links jetzt auf das Verzeichnis C:\Temp\OtherSheets. Dies wurde mit Hilfe von erreicht[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)Schnittstelle.
+ Der folgende Screenshot zeigt die Quelle HTML. Wie Sie sehen können, verweisen die Links jetzt auf das Verzeichnis C:\Temp\OtherSheets. Dies wurde mit Hilfe von erreicht[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)Schnittstelle.
 
 ![todo: Bild_alt_Text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Beispielcode**
- Bitte beachten Sie, dass das Verzeichnis C:\Temp nur zu Illustrationszwecken dient. Sie können ein beliebiges Verzeichnis Ihrer Wahl und Ihres Ortes verwenden[Excel-Beispieldatei](5115211.xlsx)darin und führen Sie den bereitgestellten Beispielcode aus. Es erstellt dann das Unterverzeichnis OtherSheets in Ihrem Verzeichnis und exportiert das zweite und dritte HTML-Arbeitsblatt darin. Bitte ändern Sie die dirPath-Variable im bereitgestellten Code und verweisen Sie sie vor der Ausführung auf das Verzeichnis Ihrer Wahl.
+ Bitte beachten Sie, dass das Verzeichnis C:\Temp nur zu Illustrationszwecken dient. Sie können ein beliebiges Verzeichnis Ihrer Wahl und Ihres Ortes verwenden[Excel-Beispieldatei](5115211.xlsx)darin und führen Sie den bereitgestellten Beispielcode aus. Es erstellt dann das Unterverzeichnis OtherSheets in Ihrem Verzeichnis und exportiert das zweite und dritte Arbeitsblatt HTML darin. Bitte ändern Sie die dirPath-Variable im bereitgestellten Code und verweisen Sie sie vor der Ausführung auf das Verzeichnis Ihrer Wahl.
 
 {{% alert color="primary" %}} 
 

@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-2-2-release-notes/
 我们是
 很高兴宣布 Aspose.Cells for Java v7.2.2！
 
-新的功能
+新功能
 
 - RegEx 文本搜索 Cells.Find() 方法
 
@@ -35,6 +35,6 @@ url: /zh/java/aspose-cells-for-java-7-2-2-release-notes/
 - 散点图的 ChartType 错误
 - 从 CSV 模板文件读取时，双精度值丢失精度
 - 图表系列在将其转换为图像时上下颠倒
-- 重新保存的 XLSX 文件导致“Excelfound 不可读内容...”错误
+- 重新保存XLSX文件导致“Excelfound unreadable content…”错误
 - 在 MS Excel 中打开时保存的数据透视表导致“ProtectionView”
-- 使用 Aspose.Cellscreates 的列表验证，一个 XLS 文件在更改系统的列表分隔符后不起作用
+- 使用 Aspose.Cellscreates 的列表验证 XLS 文件在更改系统的列表分隔符后不起作用

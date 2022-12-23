@@ -11,17 +11,17 @@ A veces, los usuarios se enfrentan a System.StackOverFlowException en el método
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
 ## **Problema con el grosor de las líneas al renderizar Excel a PDF**
- veces, cuando el archivo de Excel se convierte a PDF, el grosor de las líneas es diferente en el PDF de salida. Este problema no es causado por Aspose.Cells. Es causado por**Adobe Reader** cuando su configuración**"Arte de línea suave"** y**"Mejora las líneas finas"** se comprueban. Desmarcar estas opciones mostrará PDF bien.
+ veces, cuando el archivo de Excel se convierte a PDF, el grosor de las líneas es diferente en la salida PDF. Este problema no es causado por Aspose.Cells. Es causado por**Adobe Reader** cuando su configuración**"Arte de línea suave"** y**"Mejora las líneas finas"** se comprueban. Desmarcar estas opciones mostrará PDF bien.
 
  Si marca**"Arte de línea suave"** y**"Mejora las líneas finas"**, el grosor de las líneas es diferente. Vea los siguientes pasos cómo se hace:
 
--  Ir**Editar**
+-  Ir a**Editar**
 -  Seleccione**preferencias**
 -  En el**Visualización de página** Categoría Verifique la**"Arte de línea suave"** y**"Mejora las líneas finas"**
 
  Si desmarca**"Arte de línea suave"** y**"Mejora las líneas finas"**, el grosor de las líneas es el mismo. Para lograr esto solo sigue los siguientes pasos:
 
--  Ir**Editar**
+-  Ir a**Editar**
 -  Seleccione**preferencias**
 -  En el**Visualización de página** Categoría Desmarque la**"Arte de línea suave"** y**"Mejora las líneas finas"**
 ## **¿Cómo arreglar System.OutOfMemoryException al cargar hojas de cálculo grandes?**

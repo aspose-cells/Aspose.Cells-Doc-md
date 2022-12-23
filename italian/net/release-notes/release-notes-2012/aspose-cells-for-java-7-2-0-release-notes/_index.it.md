@@ -35,7 +35,7 @@ Aspose.Cells
 - Shapes.AddCopy genera: l'indice era fuori intervallo
 - NullReferenceException dopo aver copiato il foglio di lavoro
 - Eccezione: si è verificata una stringa val MsoLineDashStyle non valida durante l'apertura del file
-- Impossibile convertire alcuni file XLSX in formato TIFF
+- Impossibile convertire alcuni file XLSX nel formato TIFF
 
 
 
@@ -43,8 +43,8 @@ Aspose.Cells
 
 
 
-- Errore di compilazione di .NET C++ C2686
-- La conversione di file XLS in XLSX elimina la formattazione del testo
+- .NET Errore di compilazione C++ C2686
+- Conversione del file XLS in XLSX elimina la formattazione del testo
 - Copia i grafici da una cartella di lavoro a un'altra
 - Colorazione delle celle danneggiata dopo la copia del foglio di lavoro
 - I collegamenti ipertestuali non si muovono con le celle ordinate
@@ -60,7 +60,7 @@ Aspose.Cells
 - Problema di qualità di Charts.ToImage()
 - Grafici Problema di effetti gradiente
 - Problema al motore di calcolo della formula
-- Problema con le celle calcolate durante il salvataggio in formato PDF
+- Problema con le celle calcolate durante il salvataggio nel formato PDF
 - Cells Il calcolo non è corretto
 
  -Formattazione personalizzata dei valori di testo durante l'esportazione in PDF
@@ -80,8 +80,8 @@ Aspose.Cells
 - Il componente sta danneggiando gli oggetti che contengono le formule del componente aggiuntivo di Excel
 - Impossibile stampare accuratamente le immagini delle immagini in Aspose.Cells
 - Errore durante l'utilizzo del metodo WorkBook.Copy()
-- Avviso relativo al componente aggiuntivo di convalida file di Microsoft Office
-- Problemi con il salvataggio in formato XLS con l'opzione ClearData
+- Microsoft Avviso componente aggiuntivo Convalida file Office
+- Problemi con il salvataggio nel formato XLS con l'opzione ClearData
 - Formattazione condizionale - Problemi di compatibilità con *.XLSB
 - Cartella di lavoro danneggiata dopo una semplice apertura\salvataggio
 - Excel produce un file XLS non valido durante la conversione del file XLSX creato daAspose.Cells

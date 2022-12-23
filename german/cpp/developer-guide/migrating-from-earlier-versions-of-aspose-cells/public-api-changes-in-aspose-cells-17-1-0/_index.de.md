@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **ICells::LinkToXmlMap-Methode hinzugefügt**
 Die LinkToXmlMap-Methode wurde der ICells-Klasse hinzugefügt, die beim Verknüpfen einer XML-Karte nützlich ist.
 ### **ICells::ImportCSV-Methode hinzugefügt**
-Die ImportCSV-Methode wurde der ICells-Klasse hinzugefügt, was beim Importieren einer CSV-Datei in die Zellen eines Arbeitsblatts nützlich ist.
+Die ImportCSV-Methode wurde der ICells-Klasse hinzugefügt, die beim Importieren einer CSV-Datei in die Zellen eines Arbeitsblatts hilfreich ist.
 ### **ICells::ImportTwoDimensionArray-Methode hinzugefügt**
 Die Methode GetIProtectedRangeCollection wurde der ICells-Klasse hinzugefügt, was beim Importieren eines zweidimensionalen Arrays von Daten in ein Arbeitsblatt nützlich ist.
 ### **IWorksheet::GetIProtectedRangeCollection-Methode hinzugefügt**
@@ -111,7 +111,7 @@ Die Methode GetIProtectedRangeCollection wurde der Klasse IWorksheet hinzugefüg
 ### **IWorkbookSettings::ClearPivottables-Methode hinzugefügt**
 Die ClearPivottables-Methode wurde der IWorkbookSettings-Klasse hinzugefügt, die beim Löschen aller Pivot-Tabellen aus einer bestimmten Tabelle hilfreich ist.
 ### **IWorksheetCollection::CreateIRange-Methode hinzugefügt**
-Die CreateIRange-Methode wurde der IWorksheetCollection-Klasse hinzugefügt, die beim Erstellen eines Objekts der IRange hilfreich ist, indem Zellreferenzen im Zeichenfolgenformat übergeben werden.
+Die CreateIRange-Methode wurde der IWorksheetCollection-Klasse hinzugefügt, die beim Erstellen eines IRange-Objekts nützlich ist, indem Zellreferenzen im Zeichenfolgenformat übergeben werden.
 ### **IExternalLink::IsVisible-Methode hinzugefügt**
 Die IsVisible-Methode ruft den Sichtbarkeitsstatus eines externen Links in der Excel-Anwendung ab.
 ### **GetScaleCrop- und SetScaleCrop-Methoden hinzugefügt**

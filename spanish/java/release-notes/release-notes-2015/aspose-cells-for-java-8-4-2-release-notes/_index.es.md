@@ -36,19 +36,19 @@ url: /es/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41315): la representación de formas en la página 5 no es correcta
 
- (CELLSJAVA-41308): la ubicación de la forma es incorrecta al representar la hoja de cálculo en formato PDF
+ (CELLSJAVA-41308): la ubicación de la forma es incorrecta al representar la hoja de cálculo en el formato PDF
 
- (CELLSJAVA-41282): las puntas de flecha se amplían al convertir una hoja de cálculo con dibujos a PDF
+ (CELLSJAVA-41282): las puntas de flecha se agrandan al convertir la hoja de cálculo con dibujos a PDF
 
-(CELLSJAVA-41249) - WordArt no se muestra bien en el archivo PDF de salida
+ (CELLSJAVA-41249) - WordArt no se muestra bien en el archivo de salida PDF
 
- (CELLSJAVA-41243): el texto horizontal en las formas se representa verticalmente al convertir la hoja de cálculo a PDF
+ (CELLSJAVA-41243): el texto horizontal en las formas se vuelve vertical al convertir la hoja de cálculo a PDF
 
- (CELLSJAVA-41242): el dibujo se desordena al procesar la hoja de cálculo en PDF
+(CELLSJAVA-41242): el dibujo se desordena al procesar la hoja de cálculo en PDF
 
  (CELLSJAVA-41241): las formas circulares se convierten en óvalos al representar la hoja de cálculo en PDF
 
- (CELLSJAVA-41233): los objetos de dibujo y las formas en la plantilla de Excel no se representan correctamente en el PDF de salida con Aspose.Cells
+ (CELLSJAVA-41233): los objetos de dibujo y las formas en la plantilla de Excel no se representan correctamente en la salida PDF con Aspose.Cells
 
  (CELLSJAVA-41302) - La última versión Aspose no puede guardar el archivo guardado en la versión anterior
 
@@ -62,11 +62,11 @@ url: /es/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41313): las líneas sólidas se muestran como líneas punteadas
 
-(CELLSJAVA-41306) - Problema de conversión de Excel a PDF - lado derecho cortado
+ (CELLSJAVA-41306) - Problema de conversión de Excel a PDF - lado derecho cortado
 
- (CELLSJAVA-41316): faltan algunas etiquetas de datos en el archivo HTML representado al copiar el libro de trabajo
+ (CELLSJAVA-41316): faltan algunas etiquetas de datos en el archivo renderizado HTML al copiar el libro de trabajo
 
- (CELLSJAVA-41314): las etiquetas de datos en el gráfico no se muestran en la imagen EMF renderizada.
+(CELLSJAVA-41314): las etiquetas de datos en el gráfico no se muestran en la imagen renderizada EMF
 
  (CELLSJAVA-41311): faltan las etiquetas del eje del gráfico al convertir a EMF
 
@@ -84,13 +84,13 @@ url: /es/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-40606): la imagen renderizada del gráfico no es correcta (Gráfico a imagen)
 
-(CELLSJAVA-40368) - Chart.calculate() extravía las etiquetas de los ejes X e Y
+ (CELLSJAVA-40368) - Chart.calculate() extravía las etiquetas de los ejes X e Y
 
 
 ## **Excepciones**
 
 
- (CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Índice: 2, Tamaño: 2, en Workbook ctro
+(CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Índice: 2, Tamaño: 2, en Workbook ctro
 
  (CELLSJAVA-41307) - java.lang.ArrayIndexOutOfBoundsException: -1 en Workbook ctor al cargar el archivo guardado con Aspose.Cells
 
@@ -118,9 +118,9 @@ url: /es/java/aspose-cells-for-java-8-4-2-release-notes/
 
 
 
-Agrega las enumeraciones PasteType.Default y PasteType.DefaultExceptBorders.
+ Agrega las enumeraciones PasteType.Default y PasteType.DefaultExceptBorders.
 
- Se usa para copiar el rango como "Todos" y "Todos excepto los bordes" en MS Excel.
+Se usa para copiar el rango como "Todos" y "Todos excepto los bordes" en MS Excel.
 
 
 

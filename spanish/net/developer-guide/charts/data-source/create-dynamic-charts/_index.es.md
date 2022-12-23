@@ -28,7 +28,7 @@ Este artículo demuestra el uso de las API Aspose.Cells for .NET para crear grá
 1.  Acceder al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) del primero[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) en el[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Inserte algunos datos en las celdas.
 1.  Crear[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)en base a los datos insertados.
-1.  Crear[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) basado en el rango de datos de[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1.  Crear[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) basado en el rango de datos de[**ListObject**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
 1. Guarde el resultado en el disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
@@ -45,7 +45,7 @@ Para que la demostración sea fácil de entender, crearemos el Libro de trabajo 
 1.  Crear[**Caja combo**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)basado en el rango con nombre creado en el paso anterior.
 1. Inserte algunos datos más en las celdas que servirán como fuente para la función BUSCARV.
 1. Inserte la función BUSCARV (con los parámetros apropiados) en un rango de celdas. Este rango servirá como fuente para el gráfico dinámico.
-1.  Crear[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)basado en el rango creado en el paso anterior.
+1.  Crear[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)basado en el rango creado en el paso anterior.
 1. Guarde el resultado en el disco.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

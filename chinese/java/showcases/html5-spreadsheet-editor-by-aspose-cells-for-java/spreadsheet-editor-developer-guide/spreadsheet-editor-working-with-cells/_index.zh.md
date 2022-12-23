@@ -12,13 +12,13 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [清除一个 Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - 工作表视图.clearCurrentCell
 ### **选择一个 Cell**
 使用鼠标指针指向一个单元格。单击一个单元格以将其选中。所选单元格以粗体矩形突出显示。
 
-**这个怎么运作？**
+**怎么运行的？**
 
 当用户单击一个单元格时，该事件由附加到 Primefaces 组件的 JavaScript 回调函数处理。
 #### **Cell选择回调**
@@ -97,11 +97,11 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
 1. 单击要删除的单元格。
 1. 切换到**格式选项卡**.
 1. 点击**删除 Cell**按钮。
-1. 选择**上移 Cells**或者**左移 Cells**按钮。
+1. 选择**上移 Cells**要么**左移 Cells**按钮。
 
 编辑器将删除选定的单元格。相邻的单元格将自动水平或垂直移动以调整空间。
 
-**这个怎么运作？**
+**怎么运行的？**
 
 这**上移 Cells**和**左移 Cells**由 JSF 后端 bean 处理**工作表视图**.各个方法的源码如下：
 #### **工作表视图.removeCellShiftUp**
@@ -147,11 +147,11 @@ url: /zh/java/spreadsheet-editor-working-with-cells/
 1. 单击要清除的单元格。
 1. 切换到**格式选项卡**.
 1. 点击**清除 Cell**按钮。
-1. 选择**格式**, **内容**或者**两个都**选项。
+1. 选择**格式**, **内容**要么**两个都**选项。
 
 编辑器将清除选定的单元格。
 
-**这个怎么运作？**
+**怎么运行的？**
 
 这**格式**, **内容**和**两个都**由 JSF 后端 bean 处理**工作表视图**.各个方法的源码如下：
 #### **工作表视图.clearCurrentCellFormatting**

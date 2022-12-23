@@ -12,7 +12,7 @@ Aspose.Cells, çalışma kitabını şuraya kaydetmenizi sağlar:*Kesin Açık X
 
 Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)** olarak mülkiyet**[OoxmlCompliance.Iso29500_2008_Strict](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)** olarak kaydeder ve[çıktı excel dosyası](67338272.xlsx) . Çıktı Excel dosyasını Microsoft Excel'de açarsanız ve Farklı Kaydet... iletişim kutusunu açarsanız, biçimini şu şekilde görürsünüz:*Kesin Açık XML Elektronik Tablosu*bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
+![yapılacaklar:resim_alternatif_metin](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
 ## **Basit kod**
 

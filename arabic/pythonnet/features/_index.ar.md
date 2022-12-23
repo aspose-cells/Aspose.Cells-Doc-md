@@ -12,12 +12,12 @@ description: Aspose.Cells for Python via .NET ميزات
 
 {{% /alert %}} 
 ## **تنسيقات الملفات والتحويلات**
-- XLS و SpreadsheetML (XLSX و XML) و XLSB و XLSM و DOCX و PPTX و JSON وقيمة مفصولة بفواصل (CSV) و HTML و OpenDocument Spreadsheet (ODS) و PDF و Tab Delimited و Plain Text (TXT) وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+- XLS ، SpreadsheetML (XLSX ، XML) ، XLSB ، XLSM ، DOCX ، PPTX ، JSON ، قيم مفصولة بفاصلة (CSV) ، HTML ، تنسيقات OpenDocument ، بما في ذلك 076110611481 ، تنسيق جدول بيانات OpenDocument ، 076110311481 ، ODS) و JPG و PNG و BMP و SVG.
 ## **التقديم والطباعة**
-- عرض جدول البيانات إلى صور متجهة (EMF)
-- تقديم أوراق العمل إلى صور نقطية (Multipage TIFF، GIF)
+- عرض جدول البيانات للصور المتجهة (EMF)
+- تقديم أوراق العمل إلى صور نقطية (Multipage TIFF ، GIF)
 - عرض أوراق العمل على الصور النقطية (PNG ، JPEG ، إلخ.)
-- تحويل جدول البيانات إلى PDF بدقة عالية
+- تقديم جدول البيانات إلى PDF بدقة عالية
 ## **ميزات محتوى جدول البيانات**
 - انسخ أوراق العمل أو انقلها داخل المصنفات أو بينها
 - قم بإدراج الصور وإنشاء المخططات التقليدية والمخصصة وتعيين خلفية متدرجة للمخططات باستخدام API

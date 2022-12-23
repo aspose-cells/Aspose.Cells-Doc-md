@@ -1,5 +1,5 @@
 ﻿---
-title: Supporto per l'interfaccia utente personalizzata di Microsoft Excel 2007 o 2010
+title: Supporto per l'interfaccia utente personalizzata di Excel 2007 o 2010 Microsoft
 type: docs
 weight: 50
 url: /it/reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/

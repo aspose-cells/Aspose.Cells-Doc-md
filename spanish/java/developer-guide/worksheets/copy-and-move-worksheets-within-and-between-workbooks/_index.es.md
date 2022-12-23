@@ -6,7 +6,7 @@ url: /es/java/copy-and-move-worksheets-within-and-between-workbooks/
 ---
 {{% alert color="primary" %}}
 
-veces, necesita varias hojas de trabajo con formato y entrada de datos comunes. Por ejemplo, si trabaja con presupuestos trimestrales, es posible que desee crear un libro de trabajo con hojas que contengan los mismos encabezados de columna, encabezados de fila y fórmulas. Hay una manera de hacer esto: creando una hoja y luego copiándola tres veces.
+A veces, necesita varias hojas de trabajo con formato y entrada de datos comunes. Por ejemplo, si trabaja con presupuestos trimestrales, es posible que desee crear un libro de trabajo con hojas que contengan los mismos encabezados de columna, encabezados de fila y fórmulas. Hay una manera de hacer esto: creando una hoja y luego copiándola tres veces.
 
 Aspose.Cells admite copiar o mover hojas de trabajo dentro o entre libros de trabajo. Las hojas de trabajo que incluyen datos, formato, tablas, matrices, gráficos, imágenes y otros objetos se copian con el mayor grado de precisión.
 
@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Copie la hoja de trabajo dentro de un libro de trabajo:
- A continuación se muestra el código utilizado por para realizar la tarea. Copia la hoja de trabajo Copiar dentro de FirstWorkbook.xls.
+ continuación se muestra el código utilizado por para realizar la tarea. Copia la hoja de trabajo Copiar dentro de FirstWorkbook.xls.
 
 Al ejecutar el código, se mueve la hoja de trabajo denominada Copia dentro de FirstWorkbook.xls con el nuevo nombre Última hoja.
 

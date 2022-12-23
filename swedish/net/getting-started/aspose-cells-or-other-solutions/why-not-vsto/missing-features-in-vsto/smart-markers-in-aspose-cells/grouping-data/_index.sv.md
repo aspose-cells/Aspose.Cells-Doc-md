@@ -87,6 +87,6 @@ wd.Process(true);
 wd.Workbook.Save(FileName);
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Grouping%20Data%20OLE%20DB%20%28Aspose.Cells%29.zip)

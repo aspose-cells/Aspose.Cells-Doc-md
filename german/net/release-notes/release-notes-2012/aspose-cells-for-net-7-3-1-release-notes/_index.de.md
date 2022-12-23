@@ -39,12 +39,12 @@ url: /de/net/aspose-cells-for-net-7-3-1-release-notes/
 - So erstellen Sie benutzerdefinierte Markierungen
 - Sub-Charts sind nicht zugänglich
 
- -AutoFormen in der HTML-Ausgabe
+ -AutoFormen in HTML Ausgabe
 
 - DataBars – Bedingte Formatierung in PivotTable
 - Verlorene Webabfragen in MS Excel 2007-Formaten
 - Verwalten Sie externe Datenbereiche und ihre Eigenschaften
-- Problem mit der XLSB-Dateigröße von MS Excel
+- Problem mit der Dateigröße XLSB von MS Excel
 
 
 
@@ -54,7 +54,7 @@ url: /de/net/aspose-cells-for-net-7-3-1-release-notes/
 - Suche nach einer Lösung unter Aspose.Cells
 - Ausnahme: „Index war außerhalb des gültigen Bereichs“
 - Beim Laden der Arbeitsmappe wird ausgelöst: „Die Eingabezeichenfolge hatte kein korrektes Format“
-- Form-zu-Bild-Fehler in Excel-zu-PDF-Funktion
+- Shape to image Error in Excel to PDF-Funktion
 
 
 
@@ -69,7 +69,7 @@ url: /de/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -Zitate in der gespeicherten tabulatorgetrennten Datei
 
-- CSV-Lesen/Schreiben funktioniert bei einigen Eingaben nicht
+- CSV Lesen/Schreiben funktioniert bei einigen Eingängen nicht
 
  -StringValue gibt einen falschen Wert zurück
 
@@ -87,25 +87,25 @@ url: /de/net/aspose-cells-for-net-7-3-1-release-notes/
 
  - Probleme bei der Berechnung der TRIM-Funktion
 
-- Als HTML speichern zeigt ausgeblendete Spalte in der Ausgabe an
+- Speichern unter HTML zeigt ausgeblendete Spalte in der Ausgabe
 - Speichern löscht die Formatierung
-- Grafiken in der HTML-Ausgabe
-- HTML-Formatierungsprobleme (in Bezug auf zusätzliche Ränder)
+- Grafiken in HTML ausgegeben
+- HTML Formatierungsprobleme (in Bezug auf zusätzliche Ränder)
 
- -Problem mit XPS und benutzerdefiniertem Zahlenformat von SheetRender
+ -Problem XPS und benutzerdefiniertes Zahlenformat von SheetRender
 
- -Als PDF speichern behält die Formatierung nicht bei
+ -Speichern unter PDF behält die Formatierung nicht bei
 
-- Probleme mit XLSX-Formatierung in Excel- und PDF-Ausgaben
-- Die in PDF gerenderte Pivot-Tabelle von Excel ist nicht korrekt
-- Benutzerdefinierte Schriftarten in PDF
+- Probleme mit XLSX-Formatierung in Excel und PDF-Ausgaben
+- Die auf PDF gerenderte Pivot-Tabelle von Excel ist nicht korrekt
+- Benutzerdefinierte Schriftarten unter PDF
 - Cell: Renderproblem bei der vertikalen Ausrichtung
 - Text fehlt ganz rechts
 - Einige bedingte Formatierungen werden nicht korrekt wiedergegeben
 - Problem mit der Formatierung in der Gesamtzeile in der PivotTable
 - Office für Mac-Os 2k11 stürzt nach dem Öffnen einer Excel-Datei ab
 
- -Warum schlägt dieser Code fehl?
+-Warum schlägt dieser Code fehl?
 
 - Das berechnete Feld von PivotTable wird geändert
 - Problem beim Speichern der Arbeitsmappe mit berechneten Elementen

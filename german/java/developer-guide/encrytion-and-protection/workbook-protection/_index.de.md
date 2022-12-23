@@ -3,7 +3,7 @@ title: Arbeitsmappenstruktur schützen und Schutz aufheben
 type: docs
 weight: 40
 url: /de/java/protect-and-unprotect-workbook-structure/
-description: Arbeitsmappenstruktur von Excel-Dateien mit Java-Codes schützen und entschützen. Excel-Dateien (xlsx, xls, xsb) und Open Office Calc (ODS)-Dateien mit Aspose.Cells for Java sperren und entsperren.
+description: Arbeitsmappenstruktur von Excel-Dateien mit Java-Codes schützen und entschützen. Excel-Dateien (xlsx, xls, xsb) und Open Office Calc (ODS) mit Aspose.Cells for Java sperren und entsperren.
 ---
 {{% alert color="primary" %}}
 Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, Arbeitsblätter hinzufügen, verschieben, löschen oder ausblenden und Arbeitsblätter umbenennen, können Sie die Struktur Ihrer Excel-Arbeitsmappe mit einem Kennwort schützen.
@@ -16,7 +16,7 @@ Um zu verhindern, dass andere Benutzer ausgeblendete Arbeitsblätter anzeigen, A
 
 1.  Klicken**Überprüfen > Arbeitsmappe schützen**.
 1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Auswählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** wieder.
+1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
 
 
 ## **Arbeitsmappenstruktur mit Aspose.Cell for Java schützen**

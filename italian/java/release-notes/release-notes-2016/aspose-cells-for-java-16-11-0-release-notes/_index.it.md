@@ -4,18 +4,18 @@ type: docs
 weight: 20
 url: /it/java/aspose-cells-for-java-16-11-0-release-notes/
 ---
-|**Chiave** |**Riepilogo** |**Categoria** |
+|**Chiave** |**Sommario** |**Categoria** |
 |:- |:- |:- |
 |CELLSJAVA-42042 | Supporta etichette subtotale/totale in altre lingue| Nuova caratteristica|
 |CELLSJAVA-41994 | Il testo di Cell va in overflow nella cella successiva| Insetto|
 |CELLSJAVA-42039 | CalculateFormula ha problemi a ricalcolare le celle con riferimento alle celle con formule| Insetto|
-|CELLSJAVA-42050 | caratteri di controllo ebraici non vengono visualizzati correttamente nel PDF| Insetto|
+|CELLSJAVA-42050 | I caratteri di controllo ebraici non vengono visualizzati correttamente in PDF| Insetto|
 |CELLSJAVA-42020 | La conversione da XLS a PDF richiede troppo tempo| Insetto|
 |CELLSJAVA-42017 | Problema di layout durante la conversione del foglio di calcolo in PDF| Insetto|
-|CELLSJAVA-42023 | Le etichette dell'asse X si sovrappongono alla legenda durante il rendering in PDF| Insetto|
+|CELLSJAVA-42023 | Le etichette dell'asse X si sovrappongono alla legenda quando vengono visualizzate in PDF| Insetto|
 |CELLSJAVA-42022 | L'immagine non si ridimensiona bene e il suo file SVG non è corretto| Insetto|
 |CELLSJAVA-42003 | Rendering errato del grafico durante la conversione del foglio di calcolo in HTML| Insetto|
-|CELLSJAVA-41986 | Gli spazi vengono omessi dal testo nell'output PNG di Chart| Insetto|
+|CELLSJAVA-41986 | Gli spazi sono omessi dal testo nell'output PNG di Chart| Insetto|
 |CELLSJAVA-41438 | Selezione o stato di controllo non salvato durante il salvataggio in PDF| Insetto|
 |CELLSJAVA-41339 |Il testo e l'allineamento del testo sono incasinati nel file (01_il_letame_attrezzo_baltico_20131215_ incl_logo.xlsx)| Insetto|
 |CELLSJAVA-42056 | L'estensione dell'oggetto tabella/elenco di MS Excel modifica la formattazione delle celle| Insetto|
@@ -23,9 +23,9 @@ url: /it/java/aspose-cells-for-java-16-11-0-release-notes/
 |CELLSJAVA-42038 |Risoluzione della colonna della tabella interrotta se contenente '[' ]| Insetto|
 |CELLSJAVA-42021 | Problema con l'estensione del contenuto dell'oggetto tabella/elenco di Excel relativo alle formule| Insetto|
 |CELLSJAVA-42019 | Formula errata restituita da una cella del foglio di lavoro| Insetto|
-|CELLSJAVA-42004 |java.lang.NullPointerException, in Workbook ctor durante il caricamento del file XLSX| Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+|CELLSJAVA-42004 | java.lang.NullPointerException, nella cartella di lavoro ctor durante il caricamento del file XLSX| Eccezione|
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà Workbook.AbsolutePath**
 Ottiene e imposta il percorso assoluto del file. Utilizzato solo per collegamenti esterni.
 #### **Aggiunge la classe GlobalizationSettings e la proprietà WorkbookSettings.GlobalizationSettings**

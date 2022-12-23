@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for .NET إلى الإصدار 7.7.1 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 80 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
  فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -34,7 +34,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42116) - حساب الحد الأدنى والحد الأقصى لقيم التنسيق الشرطي لأشرطة البيانات
 
-(CELLSNET-40910) - قراءة ملفات MS Excel الكبيرة في وضع الخلايا الخفيفة - (LightCells API)
+ (CELLSNET-40910) - قراءة ملفات MS Excel الكبيرة في وضع الخلايا الخفيفة - (LightCells API)
 
  (CELLSNET-42230) - عرض أشرطة بيانات التنسيق الشرطي بقيم سالبة في ميزة "الورقة إلى الصورة"
 
@@ -48,7 +48,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 ## **التحسينات**
 
 
- (CELLSNET-42247) - يتم فقد التنسيق الشرطي في PivotTable عند معالجته باستخدام Aspose.Cells
+(CELLSNET-42247) - يتم فقد التنسيق الشرطي في PivotTable عند معالجته باستخدام Aspose.Cells
 
  (CELLSNET-42228) - لا يؤدي تضمين ملف DOC في تنسيق XSLX إلى بدء تشغيل MS Word لتحميل DOC المضمن
 
@@ -58,7 +58,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 ## **البق**
 
 
- (CELLSNET-42220) - مشكلة في عرض شكل السهم في ملف PDF الناتج
+ (CELLSNET-42220) - مشكلة في عرض شكل السهم في ملف الإخراج PDF
 
  (CELLSNET-42139) - Cell.GetDisplayStyle () لا يعمل لأعلى 10٪ وأسفل 10٪ من التنسيقات الشرطية
 
@@ -66,9 +66,9 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42249) - Aspose.Cells يفسد ملف XLSB
 
-(CELLSNET-42217) - يعرض MS Excel رسالة "محتويات غير قابلة للقراءة"
+ (CELLSNET-42217) - يعرض MS Excel رسالة "محتويات غير قابلة للقراءة"
 
- (CELLSNET-42184) - Unicode / Double byte / JPN - مشكلات تحويل HTML
+ (CELLSNET-42184) - Unicode / Double byte / JPN - HTML مشكلات التحويل
 
  (CELLSNET-42149) - مشكلة Excel PivotTable RemoveField
 
@@ -76,7 +76,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41363) - مشكلة PivotField - حالة "تكرار تسميات العناصر" غير صحيحة (* .xlsb)
 
- (CELLSNET-41362) - مشكلة PivotField - حالة "IsCalculatedField" غير صحيحة (* .xlsb)
+(CELLSNET-41362) - مشكلة PivotField - حالة "IsCalculatedField" غير صحيحة (* .xlsb)
 
  (CELLSNET-41361) - مشكلة PivotField - حالة غير صحيحة لحقول الفرز (* .xlsb)
 
@@ -88,7 +88,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41343) - PivotTable - حالة "عدد العناصر المطلوب الاحتفاظ بها لكل حقل" غير صحيحة (* .xlsb)
 
-(CELLSNET-41342) - PivotTable - القيمة المفقودة للحقل "RowHeaderCaption" (* .xlsb)
+ (CELLSNET-41342) - PivotTable - القيمة المفقودة للحقل "RowHeaderCaption" (* .xlsb)
 
  (CELLSNET-41341) - PivotTable - القيمة المفقودة لمصدر البيانات للجداول المحورية ذات نطاقات التوحيد المتعددة (* .xlsb)
 
@@ -96,7 +96,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41339) - حالة "رؤوس الصف / العمود" غير صحيحة (* .xlsb)
 
- (CELLSNET-41338) - PivotTable - حالة "استخدام القوائم المخصصة عند الفرز" غير صحيحة (* .xlsb)
+(CELLSNET-41338) - PivotTable - حالة "استخدام القوائم المخصصة عند الفرز" غير صحيحة (* .xlsb)
 
  (CELLSNET-41337) - PivotTable - قيمة "تنسيق تلقائي" غير صحيحة (* .xlsb)
 
@@ -108,7 +108,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41331) - PivotTable - حالة الإجمالي الكلي غير صحيحة للصف / العمود (* .xlsb)
 
-(CELLSNET-41330) - PivotTable - حالة "السماح بفلاتر متعددة لكل حقل" غير صحيحة (* .xlsb)
+ (CELLSNET-41330) - PivotTable - حالة "السماح بفلاتر متعددة لكل حقل" غير صحيحة (* .xlsb)
 
  (CELLSNET-41329) - PivotTable - حالة "إظهار صف القيم" غير صحيحة (* .xlsb)
 
@@ -116,7 +116,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42231) - تصدير إلى PDF - يتم قطع النص متعدد الأسطر وتداخله في الخلايا
 
- (CELLSNET-42227) - XLSX إلى PDF: النتيجة لا تحتوي على هوامش يسرى ويمنى
+(CELLSNET-42227) - XLSX إلى PDF: النتيجة لا تحتوي على هوامش يمنى ويسرى
 
  (CELLSNET-42158) - مشكلة في Databars ذات قيمة سالبة في التنسيق الشرطي
 
@@ -124,21 +124,21 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41847) - فقدان البيانات ومشكلة محاذاة التسمية غير الصحيحة عند تحويل ملف Excel إلى تنسيق PDF
 
- (CELLSNET-42112) - مشكلة في تنسيق إنشاء ملف PDF مع البيانات
+ (CELLSNET-42112) - مشكلة تنسيق إنشاء PDF مع البيانات
 
  (CELLSNET-42266) - تظهر صفوف العنوان مرتين على الصفحة الأولى في ملف pdf الناتج
 
- (CELLSNET-42097) - إنشاء ملفات PDF - مشكلة في تكوين البيانات
+ (CELLSNET-42097) - توليد PDF - مشكلة في تكوين البيانات
 
-(CELLSNET-41435) - لا يتم الاحتفاظ بمحاذاة الخلية العمودية عند عرض Excel على صورة PNG للخلايا المنسقة شرطيًا
+ (CELLSNET-41435) - لم يتم الاحتفاظ بمحاذاة الخلية العمودية عند تقديم Excel إلى صورة PNG للخلايا المنسقة شرطيًا
 
  (CELLSNET-42267) - لا يمكن الحصول على صورة الرسم البياني
 
- (CELLSNET-42221) - مشكلة سهم التقديم في تنسيق ملف HTML الناتج
+ (CELLSNET-42221) - مشكلة سهم التقديم في تنسيق ملف الإخراج HTML
 
  (CELLSNET-41892) - تراجع في جودة SheetRender.oImage مع الورق الشفاف
 
- (CELLSNET-41834) - خطأ محتمل في شفافية مخطط عمودي
+(CELLSNET-41834) - خطأ محتمل في شفافية مخطط عمودي
 
  (CELLSNET-41438) - مشكلات وظيفة ToTiff لعرض المخططات (موسعة)
 
@@ -154,7 +154,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42239) - مشكلة الأنماط المتداخلة
 
-(CELLSNET-42238) - لم يتم تحديث الخلية المرتبطة من القائمة المنسدلة
+ (CELLSNET-42238) - لم يتم تحديث الخلية المرتبطة من القائمة المنسدلة
 
  (CELLSNET-42236) - يتغير ارتفاع الصور على الرغم من أن ارتفاعها ثابت في علامات SmartMarker
 
@@ -162,11 +162,11 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42135) - تقييم التنسيق الشرطي غير صحيح
 
- (CELLSNET-42119) - لا تقوم مجموعة أيقونات التنسيق الشرطي بإرجاع الرموز الصحيحة
+(CELLSNET-42119) - لا تقوم مجموعة أيقونات التنسيق الشرطي بإرجاع الرموز الصحيحة
 
  (CELLSNET-42113) - تصبح الصورة أقصر عندما يتم استدعاء طريقة Worksheet.AutoFitRows ()
 
- (CELLSNET-41918) - Aspose Cells يفسد مصنفات XLSB التي تحتوي على كائنات مضمنة
+ (CELLSNET-41918) - Aspose Cells يفسد XLSB المصنفات التي تحتوي على كائنات مضمنة
 
  (CELLSNET-41852) - تختلف الخلايا الأربع A1-D1 في "0 VS blank"
 
@@ -176,9 +176,9 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-41636) - لا يتم الحفاظ على التنسيق الشرطي بعد حفظ ملف XLSX
 
-(CELLSNET-41595) - فقدت ميزة Signature Line عند حفظ المصنف باستخدام Aspose Cells
+ (CELLSNET-41595) - فقدت ميزة Signature Line عند حفظ المصنف باستخدام Aspose Cells
 
- (CELLSNET-41355) - تنسيق أحرف XLSX لا يعمل
+ (CELLSNET-41355) - تنسيق الأحرف XLSX لا يعمل
 
  (CELLSNET-41240) - إعداد Chart.Name والعنوان يؤدي إلى ملف إخراج تالف
 
@@ -186,9 +186,9 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-40789) - فقد التنسيق عند حفظ المصنف
 
- (CELLSNET-40527) - يتغير نمط الحدود والخلفية عند تحويل جدول بيانات XML إلى تنسيق ملف XLSX
+(CELLSNET-40527) - نمط الحدود وتغيير الخلفية عند تحويل جدول بيانات XML إلى تنسيق ملف XLSX
 
- (CELLSNET-40321) - لا يتم استخدام خاصية "PageSetup.FirstPageNumber" للطباعة أو التقديم إلى تنسيق PDF
+ (CELLSNET-40321) - لا يتم استخدام خاصية "PageSetup.FirstPageNumber" للطباعة أو التقديم بتنسيق PDF
 
  (CELLSNET-40216) - يتم فقد تنسيق تاريخ Excel وقيمة السلسلة عندما نقوم بالتحويل عبر مكون Aspose.Cells
 
@@ -202,13 +202,13 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  (CELLSNET-42234) - مشكلة في تحميل ملف HTML
 
-(CELLSNET-42257) - حدث خطأ عام في GDI + أثناء تحويل XLSX إلى PDF
+ (CELLSNET-42257) - حدث خطأ عام في GDI + أثناء تحويل XLSX إلى PDF
 
  (CELLSNET-41299) - بحاجة إلى تحسينات لاستثناء ملف غير صالح
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -232,7 +232,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  إسقاط الدعم for .NET Framework 1.1.1
 
- بدءًا من هذا الإصدار ، لم يعد يتم توزيع Aspose.Cells مع DLL للاستخدام في .NET Framework 1.1. تم إسقاط دعم هذا الإصدار من إطار العمل من أجل تسهيل الميزات والإصلاحات بشكل أفضل حيث يصعب إضافة بعض الميزات إلى هذا الإصدار القديم من إطار العمل.
+بدءًا من هذا الإصدار ، لم يعد يتم توزيع Aspose.Cells مع DLL للاستخدام في .NET Framework 1.1. تم إسقاط دعم هذا الإصدار من إطار العمل من أجل تسهيل الميزات والإصلاحات بشكل أفضل حيث يصعب إضافة بعض الميزات إلى هذا الإصدار القديم من إطار العمل.
 
 
 
@@ -254,7 +254,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  يضيف خاصية FindOptions.Style
 
-يدعم البحث عن الخلايا عن طريق التنسيق.
+ يدعم البحث عن الخلايا عن طريق التنسيق.
 
 
 
@@ -272,7 +272,7 @@ url: /ar/net/aspose-cells-for-net-7-7-1-release-notes/
 
  يضيف طريقة Clear () إلى PivotFieldCollection
 
- يتم استخدامه لإزالة جميع الحقول المحورية في القائمة.
+يتم استخدامه لإزالة جميع الحقول المحورية في القائمة.
 
 
 

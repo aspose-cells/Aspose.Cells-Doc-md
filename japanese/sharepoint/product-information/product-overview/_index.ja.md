@@ -16,18 +16,18 @@ Aspose.Cells for SharePoint は、Microsoft SharePoint アプリケーション�
 
 - PDF - アドビポータブルドキュメント
 - XLS - MS Excel 97~2003
-- XLSX - Office オープン XML
-- XLSM - マクロ用 Office Open XML が有効
+- XLSX - オフィス オープン XML
+- XLSM - マクロ用の Office Open XML が有効
 - TXT - プレーンテキスト
-- XML - Microsoft Excel スプレッドシートML
+- XML - Microsoft エクセル SpreadsheetML
 - ODS - OpenDocument スプレッドシート
-- CSV - カンマ区切り値
+- CSV - コンマ区切り値
 - XLSB - Excel バイナリ 2007
-- MHtml - 多目的インターネット メール拡張 HTML
+- MHtml - 多目的インターネット メール拡張機能 HTML
 - XPS - XML 用紙仕様
 - TIFF - タグ付き画像ファイル形式
-- SVG - スケーラブルなベクター グラフィックス
-- DIF - 図面交換形式
+- SVG - スケーラブル ベクター グラフィックス
+- DIF - 図面交換フォーマット
 
 Aspose.Cells for SharePoint は、次の製品で使用するように設計されています。
 

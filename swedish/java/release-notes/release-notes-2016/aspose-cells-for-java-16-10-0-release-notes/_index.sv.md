@@ -11,15 +11,15 @@ url: /sv/java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41974 | Uppdatering av pivottabell fungerar inte i den renderade PDF-filen| Insekt|
 |CELLSJAVA-41900 | XLSM blir skadad av enkel laddning och lagring| Insekt|
 |CELLSJAVA-41790 | Hyperlänkar fungerar inte som förväntat efter konvertering av kalkylblad till HTML| Insekt|
-|CELLSJAVA-42010 | Vissa tecken återges inte i utdata-PDF-filen| Insekt|
-|CELLSJAVA-41977 | Ordningen på sjökortsförklaringen har ändrats i diagrammets PDF| Insekt|
-|CELLSJAVA-41972 | Z-ordningen av hög-låg rader är inte korrekt i PDF| Insekt|
-|CELLSJAVA-42015 | Kalkylarket blir skadat efter att ha sparats på nytt med Aspose.Cells| Insekt|
+|CELLSJAVA-42010 | Vissa tecken återges inte i utdata PDF| Insekt|
+|CELLSJAVA-41977 | Ordningsföljden för sjökortsförklaringen har ändrats i diagrammets PDF| Insekt|
+|CELLSJAVA-41972 | Z-ordningen av hög-låg linjer är inte korrekt i PDF| Insekt|
+|CELLSJAVA-42015 |Kalkylarket blir skadat efter att ha sparats på nytt med Aspose.Cells| Insekt|
 |CELLSJAVA-42005 | Formeln ändras efter infogning i en cell| Insekt|
 |CELLSJAVA-41997 | Konstigt beteende med enkla bönor med Smart Markers| Insekt|
 |CELLSJAVA-41993 | NullPointerException när du öppnar filen a7.xlsm| Undantag|
 |CELLSJAVA-41992 | NullPointerException när du öppnar filen a6.xlsm| Undantag|
-|CELLSJAVA-41991 |NullPointerException när du öppnar filen a5.xlsm| Undantag|
+|CELLSJAVA-41991 | NullPointerException när du öppnar filen a5.xlsm| Undantag|
 |CELLSJAVA-41990 | NullPointerException när du öppnar filen a4.xlsm| Undantag|
 |CELLSJAVA-41989 | NullPointerException när du öppnar filen a3.xlsm| Undantag|
 |CELLSJAVA-41988 | NullPointerException när du öppnar filen a2.xlsm| Undantag|

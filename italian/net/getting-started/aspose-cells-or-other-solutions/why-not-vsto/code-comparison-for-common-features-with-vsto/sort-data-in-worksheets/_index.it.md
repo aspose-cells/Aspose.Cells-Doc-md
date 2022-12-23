@@ -53,5 +53,5 @@ Di seguito è riportato l'esempio di codice di confronto per VSTO e Aspose.Cells
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scarica
+## **Scaricamento
 - [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/SortDataInWorksheets.Aspose.Cells.zip)

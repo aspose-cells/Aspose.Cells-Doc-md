@@ -32,7 +32,7 @@ Une fois qu'un lien hypertexte sera ajouté à une cellule, il peut également �
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
 ## **Suppression des hyperliens**
- Pour supprimer un lien hypertexte existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Retirer** lien hypertexte du**Hyperliens** collecte de la**Feuille de travail** en spécifiant la cellule hyperliée (en utilisant son nom ou son numéro de ligne et de colonne).
+ Pour supprimer un lien hypertexte existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Supprimer** lien hypertexte du**Hyperliens** collecte de la**Feuille de travail** en spécifiant la cellule hyperliée (en utilisant son nom ou son numéro de ligne et de colonne).
 
 
 

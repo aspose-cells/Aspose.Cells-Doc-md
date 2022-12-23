@@ -13,15 +13,15 @@ url: /es/net/aspose-cells-for-net-21-1-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSNET-47376|Lanzamiento Aspose.Cells for .NET 5.0|Nueva caracteristica|
-|CELLSNET-40624| Cómo cambiar la serie de datos de fila/columna usando aspose|Nueva caracteristica|
+|CELLSNET-40624|Cómo cambiar la serie de datos de fila/columna usando aspose|Nueva caracteristica|
 |CELLSNET-42195|Convertir control de xlsm a xls|Nueva caracteristica|
 |CELLSNET-47806|Obtiene el rango de origen de datos del gráfico.|Nueva caracteristica|
-|CELLSNET-47756|Las formas SmartArt no se representan correctamente en la conversión de Excel a PDF|Insecto|
+|CELLSNET-47756|Las formas de SmartArt no se representan correctamente en la conversión de Excel a PDF|Insecto|
 |CELLSNET-47391|Las formas no se colocan correctamente en las conversiones de Excel a PDF|Insecto|
 |CELLSNET-47766|El gráfico de flecha está incompleto|Insecto|
-|CELLSNET-47653|Diagram los bloques se desplazan al convertir a HTML|Insecto|
+|CELLSNET-47653|Los bloques Diagram se desplazan al convertir a HTML|Insecto|
 |CELLSNET-47720|Marcado CSS y HTML no válido al convertir XLSX a HTML|Insecto|
-|CELLSNET-47746|Comillas no codificadas en valores de atributos HTML|Insecto|
+|CELLSNET-47746|Comillas no codificadas en valores de HTML atributos|Insecto|
 |CELLSNET-47792|Las imágenes superponen el texto al importar html a Excel|Insecto|
 |CELLSNET-47797|Enlace incorrecto cuando el archivo XLSM se procesa en HTML|Insecto|
 |CELLSNET-47807|Marcado HTML no válido con elementos A anidados|Insecto|
@@ -39,7 +39,7 @@ url: /es/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNETCORE-93|La etiqueta H1 no se procesa sin etiquetas adicionales como subrayado, cursiva o negrita|Insecto|
 |CELLSNETCORE-97|Llamar a RemoveExternalLinks() genera una excepción|Insecto|
 |CELLSNET-47719|Error al guardar xlsb en xlsx|Excepción|
-|CELLSNET-47784|Excepción al importar documentos HTML con IStreamProvider|Excepción|
+|CELLSNET-47784|Excepción al importar el documento HTML con IStreamProvider|Excepción|
 |CELLSNET-47801|CalculateData en la tabla dinámica arroja una excepción|Excepción|
 |CELLSNET-47809|Cell.ContainsExternalLink lanza 'No se puede transmitir|Excepción|
 |CELLSNET-47791| Gráfico que hace que Workbook.Save falle|Excepción|

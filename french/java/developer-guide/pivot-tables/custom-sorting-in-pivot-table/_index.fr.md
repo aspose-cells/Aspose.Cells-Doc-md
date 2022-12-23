@@ -13,6 +13,6 @@ Un exemple de fichier source et de fichiers de sortie peut être téléchargé i
 
 [Fichier Excel de sortie](95584328.xlsx)
 
-[Fichier PDF de sortie](95584329.pdf)
+[Fichier de sortie PDF](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

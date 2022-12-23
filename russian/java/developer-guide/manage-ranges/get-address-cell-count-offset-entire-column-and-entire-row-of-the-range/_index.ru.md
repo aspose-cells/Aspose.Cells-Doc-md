@@ -6,7 +6,7 @@ url: /ru/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-
 ---
 ## **Возможные сценарии использования**
 
- Aspose.Cells обеспечивает[**Диапазон**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)объект, который имеет различные служебные методы, которые облегчают пользователю работу с диапазонами Excel. В этой статье показано использование следующих методов или свойств[**Диапазон**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)объект.
+ Aspose.Cells обеспечивает[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)объект, который имеет различные служебные методы, которые облегчают пользователю работу с диапазонами Excel. В этой статье показано использование следующих методов или свойств[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)объект.
 
 - **Адрес**
 

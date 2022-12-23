@@ -19,9 +19,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42969|Soporte Java 12 en Aspose.Cells for Java|Mejora|
 |CELLSJAVA-42977|Alto consumo de CPU y memoria durante la conversión de Excel a PDF|Mejora|
 |CELLSJAVA-42861|No se pudo obtener el texto alternativo de la forma en formato de archivo ODS|Insecto|
-|CELLSJAVA-42929|Cambios en el título del gráfico en la conversión de XLSX a PDF|Insecto|
-|CELLSJAVA-42933|El color de los gráficos cambia al convertir un archivo de Excel a PDF|Insecto|
-|CELLSJAVA-42946|Representación incorrecta del gráfico de barras apiladas con series en PDF|Insecto|
+|CELLSJAVA-42929|Cambios en el título del gráfico en la conversión XLSX a PDF|Insecto|
+|CELLSJAVA-42933|El color de los gráficos cambia al convertir el archivo de Excel a PDF|Insecto|
+|CELLSJAVA-42946|Representación incorrecta del gráfico de barras apiladas con la serie PDF|Insecto|
 |CELLSJAVA-42942|Páginas impresas en el nivel de la hoja de trabajo y no en el nivel del libro de trabajo|Insecto|
 |CELLSJAVA-42952|Sangría incorrecta desde la parte superior de la celda en algunas palabras|Insecto|
 |CELLSJAVA-42902|El estilo de gráfico de cascada no se copia correctamente al copiar el libro de trabajo|Insecto|
@@ -31,24 +31,24 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42902|El estilo de gráfico de cascada no se copia correctamente al copiar el libro de trabajo|Insecto|
 |CELLSJAVA-42944|Error al convertir XLSX a HTML|Insecto|
 |CELLSJAVA-42966|Actualizar tablas dinámicas y gráficos dinámicos daña el archivo de Excel|Insecto|
-|CELLSJAVA-42975|Diferencias en la conversión de HTML|Insecto|
-|CELLSJAVA-42971|# N/A se muestra en el PDF renderizado
+|CELLSJAVA-42975|Diferencias en la conversión HTML|Insecto|
+|CELLSJAVA-42971|# N/A se muestra en el renderizado PDF
 |Insecto|
-|CELLSJAVA-42970|Línea de borde extendida no deseada en la representación de Excel a PDF|Insecto|
-|CELLSJAVA-42976|La posición de la imagen no coincide al renderizar un archivo de Excel a PDF|Insecto|
+|CELLSJAVA-42970|Línea de borde extendida no deseada en Excel a la representación PDF|Insecto|
+|CELLSJAVA-42976|La posición de la imagen no coincide al representar el archivo de Excel en PDF|Insecto|
 |CELLSJAVA-42961|Las propiedades de la tabla no se copiaron correctamente al copiar datos usando copyColumns|Insecto|
 |CELLSJAVA-42980|La imagen transparente cambia a opaca durante la copia de la imagen|Insecto|
-|CELLSJAVA-42990|Las filas ocultas se muestran al convertir un archivo de Excel a HTML cuando existe Autofiltro|Insecto|
+|CELLSJAVA-42990|Las filas ocultas se muestran al convertir el archivo de Excel a HTML cuando existe el Autofiltro|Insecto|
 |CELLSJAVA-42997|CalculateFormula() falla con cadenas de fórmulas grandes|Insecto|
 |CELLSJAVA-43000|CalculateFormula() corrompe el archivo de Excel|Insecto|
-|CELLSJAVA-42987|Problemas de formato al convertir archivos de Excel a PDF|Insecto|
-|CELLSJAVA-42986|Texto superpuesto después de convertir un archivo XLSX chino a PDF|Insecto|
+|CELLSJAVA-42987|Problemas de formato al convertir un archivo de Excel a PDF|Insecto|
+|CELLSJAVA-42986|Texto superpuesto después de convertir el archivo chino XLSX a PDF|Insecto|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen (falso) no funciona para las versiones más nuevas de Excel|Insecto|
 |CELLSJAVA-42996|Las etiquetas de datos basadas en fórmulas no se representan correctamente en PDF|Insecto|
 |CELLSJAVA-42945|Guardar como HTML arroja una excepción si se establece ExportImagesAsBase64|Excepción|
 |CELLSJAVA-42953|NullPointerException al convertir archivos XLS a HTML|Excepción|
 |CELLSJAVA-42951|java.lang.NullPointerException lanzada por comment.setHtmlNote()|Excepción|
-|CELLSJAVA-42954|Excepción generada al cargar y guardar el XLSX|Excepción|
+|CELLSJAVA-42954|Se produjo una excepción al cargar y guardar el XLSX|Excepción|
 |CELLSJAVA-42957|Se arroja un valor de FontUnderlineType no válido al guardar XLSX|Excepción|
 |CELLSJAVA-42992|Excepción generada al convertir XLSM a imagen|Excepción|
 |CELLSJAVA-42991|Excepción "El ancho de la columna debe estar entre 0 y 255" al convertir Excel a PDF en macOS|Excepción|
@@ -73,7 +73,7 @@ La información de una página inicia el proceso de guardado.
 ### **Agrega la clase PageEndSavingArgs**
 La información de una página finaliza el proceso de guardado.
 ### **Agrega la clase SheetPrintingPreview**
-Representa la vista previa de impresión de la hoja de trabajo.
+Representa la vista previa de impresión de la hoja de cálculo.
 ### **Agrega la clase WorkbookPrintingPreview**
 Representa la vista previa de impresión del libro.
 ### **Agrega la propiedad QueryTable.ExternalConnection.**

@@ -17,7 +17,7 @@ url: /ar/net/chart-axes/
 {{% /alert %}}
 
 ## **خيارات المحور**
- Aspose.Cells يسمح أيضًا بإدارة محاور الرسم البياني في وقت التشغيل ， مع[محور](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/) كائن ، يمكنك تغيير جميع خيارات المحور كما هو الحال في Excel.
+ يسمح Aspose.Cells أيضًا بإدارة محاور الرسم البياني في وقت التشغيل ， مع[محور](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/) كائن ، يمكنك تغيير جميع خيارات المحور كما هو الحال في Excel.
 
 |![ما يجب القيام به: image_بديل_نص](chart_axes.png)|
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Lecture d'un fichier CSV avec plusieurs encodages
+title: Lecture du fichier CSV avec plusieurs encodages
 type: docs
 weight: 200
 url: /fr/net/reading-csv-file-with-multiple-encodings/
@@ -10,9 +10,9 @@ Parfois, votre fichier CSV contient plusieurs encodages (Unicode, ANSI, UTF8, UT
 
 {{% /alert %}}
 
- Aspose.Cells fournit le[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)propriété, que vous devez définir sur**vrai** pour charger correctement votre fichier CSV avec plusieurs encodages.
+ Aspose.Cells fournit le[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) propriété, que vous devez définir sur**vrai** pour charger correctement votre fichier CSV avec plusieurs encodages.
 
- La capture d'écran suivante montre un exemple de fichier CSV contenant deux lignes. La première ligne est dans**ANSI** encodage et la deuxième ligne est dans**Unicode** codage
+ La capture d'écran suivante montre un exemple de fichier CSV qui contient deux lignes. La première ligne est dans**ANSI** encodage et la deuxième ligne est dans**Unicode** codage
 
 |**Fichier d'entrée**|
 |:- |
@@ -36,4 +36,4 @@ Vous trouverez ci-dessous l'exemple de code qui convertit correctement le fichie
 
 ## Articles Liés
 
-- [Ouverture de fichiers CSV](/cells/fr/net/opening-files-with-different-formats/#opening-csv-files)
+- [Ouverture des fichiers CSV](/cells/fr/net/opening-files-with-different-formats/#opening-csv-files)

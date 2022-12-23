@@ -6,7 +6,7 @@ url: /it/net/calculate-or-recalculate-formulas-dynamically/
 ---
 **Calcolo della formula** motore è incorporato**Aspose.Cells**. Non solo può ricalcolare la formula importata dal file di progettazione, ma supporta anche il calcolo dei risultati delle formule aggiunte in fase di esecuzione.
 ## **Aggiunta di formule e calcolo dei risultati**
-Aspose.Cells supporta la maggior parte delle formule o funzioni che fanno parte di Microsoft Excel. Gli sviluppatori possono utilizzare queste formule utilizzando API o fogli di calcolo per designer. Aspose.Excel supporta un vasto set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
+Aspose.Cells supporta la maggior parte delle formule o delle funzioni che fanno parte di Microsoft Excel. Gli sviluppatori possono utilizzare queste formule utilizzando API o Designer Spreadsheets. Aspose.Excel supporta un vasto set di formule matematiche, stringhe, booleane, data/ora, statistiche, database, di ricerca e di riferimento.
 
 Utilizzare la proprietà Formula della classe Cell per aggiungere una formula a una cella. Quando si applica una formula a una cella, iniziare sempre la stringa con un segno di uguale (=) come si fa quando si crea una formula in Microsoft Excel. Utilizzare una virgola (,) per delimitare i parametri della funzione.
 
@@ -96,7 +96,7 @@ workbook.Save(FileName);
 Il motore di calcolo delle formule è incorporato in Aspose.Cells. Inoltre, ricalcolando la formula importata dal file di progettazione, Aspose.Cells supporta anche il calcolo diretto dei risultati delle formule.
 A volte, è necessario calcolare direttamente i risultati delle formule senza aggiungerli effettivamente in un foglio di lavoro. I valori delle celle utilizzate nella formula esistono già in un foglio di lavoro e tutto ciò che serve è trovare il risultato di quei valori in base a una formula Ms-Excel senza aggiungere la formula in un foglio di lavoro.
 
- È possibile utilizzare l'API del motore di calcolo delle formule Aspose.Cells, ad es**foglio di lavoro.Calcola(formula stringa)**per calcolare i risultati di tali formule senza aggiungerli effettivamente nel foglio di lavoro.
+ È possibile utilizzare Aspose.Cells Formula Calculation Engine API ie**foglio di lavoro.Calcola(formula stringa)**per calcolare i risultati di tali formule senza aggiungerli effettivamente nel foglio di lavoro.
 
 {{< highlight "csharp" >}}
 

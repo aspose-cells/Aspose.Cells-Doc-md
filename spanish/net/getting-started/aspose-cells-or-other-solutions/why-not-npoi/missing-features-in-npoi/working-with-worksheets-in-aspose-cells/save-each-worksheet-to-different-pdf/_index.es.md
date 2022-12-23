@@ -1,10 +1,10 @@
 ﻿---
-title: Guarde cada hoja de trabajo en un PDF diferente
+title: Guarde cada hoja de trabajo en diferentes PDF
 type: docs
 weight: 10
 url: /es/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Guardar cada hoja de trabajo en un PDF diferente**
+## **Aspose.Cells - Guarde cada hoja de trabajo en diferentes PDF**
 Aspose.Cells admite la conversión de archivos XLS (que contienen imágenes, gráficos, etc.) a documentos PDF. Aspose.Cells for .NET puede funcionar de forma independiente para convertir una hoja de cálculo a un documento PDF y ya no necesita usar Aspose.Pdf for .NET para la conversión. La conversión no requiere crear / usar ningún archivo temporal, ya que todo el proceso se puede realizar en la memoria.
 
 **C#**
@@ -55,7 +55,7 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Descargar código de ejecución**
- Descargar**Guarde cada hoja de trabajo en un PDF diferente** formar cualquiera de los sitios de codificación social mencionados a continuación:
+ Descargar**Guarde cada hoja de trabajo en diferentes PDF** formar cualquiera de los sitios de codificación social mencionados a continuación:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 

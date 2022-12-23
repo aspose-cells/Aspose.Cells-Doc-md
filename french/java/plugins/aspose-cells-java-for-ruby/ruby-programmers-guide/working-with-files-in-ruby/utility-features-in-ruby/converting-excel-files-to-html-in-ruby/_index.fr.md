@@ -1,5 +1,5 @@
 ﻿---
-title: Conversion de fichiers Excel en HTML dans Ruby
+title: Conversion de fichiers Excel en HTML en Ruby
 type: docs
 weight: 20
 url: /fr/java/converting-excel-files-to-html-in-ruby/

@@ -12,6 +12,6 @@ Pivot tablo tabanlı raporlar kullanışlıdır ancak hedef kullanıcıların bu
 
 ## **PivotTable.EnableWizard'ı kullanarak Pivot Tablo Şeridi'ni devre dışı bırakın**
 
-Aşağıdaki kod, bir sayfadan bir pivot tabloya erişerek ve ardından ayarlayarak bu özelliği gösterir.[**Etkinleştirme Sihirbazı**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) ile**yanlış** . Örnek pivot tablo dosyası buradan indirilebilir[bağlantı](pivot_table_test.xlsx).
+Aşağıdaki kod, bir sayfadan bir pivot tabloya erişerek ve ardından ayarlayarak bu özelliği gösterir.[**Etkinleştirme Sihirbazı**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) ile**YANLIŞ** . Örnek pivot tablo dosyası buradan indirilebilir[bağlantı](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}

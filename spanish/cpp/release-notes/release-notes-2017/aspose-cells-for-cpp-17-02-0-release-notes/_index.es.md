@@ -221,7 +221,7 @@ void Run()
 {{< /highlight >}}
 
 #### **Agrega el método IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula)**
-El método IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula) permite a los desarrolladores calcular los resultados de la fórmula directamente sin agregarlos a una hoja de trabajo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de trabajo y los desarrolladores solo necesitan encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de trabajo.
+El método IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::System::String> formula) permite a los desarrolladores calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de trabajo y los desarrolladores solo necesitan encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de trabajo.
 
 Este ejemplo de código demuestra cómo calcular las fórmulas directamente sin agregarlas a una hoja de trabajo en Excel:
 
@@ -278,9 +278,9 @@ Calcula todas las fórmulas en la hoja de cálculo.
 #### **Agrega el método IWorksheet::CalculateFormula(intrusive_ptr<Aspose::Cells::ICalculationOptions>, bool recursive)**
 Calcula todas las fórmulas en la hoja de cálculo.
 #### **Añade el método ICell::Calculate(intrusive_ptr<Aspose::Cells::ICalculationOptions>)**
-Calcula la fórmula de la celda en la hoja de cálculo.
+Calcula la fórmula de la celda en la hoja de trabajo.
 #### **Agrega el método ICell::Calculate(bool ignoreError , intrusive_ptr<Aspose::Cells::ICustomFunction> customFunction)**
-Calcula la fórmula de la celda en la hoja de cálculo.
+Calcula la fórmula de la celda en la hoja de trabajo.
 ### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 

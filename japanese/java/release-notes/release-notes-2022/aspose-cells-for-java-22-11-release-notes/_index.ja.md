@@ -12,17 +12,17 @@ url: /ja/java/aspose-cells-for-java-22-11-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-44888|変換後に「+」と「-」が消えた - Excel から HTML へのレンダリング|
+|CELLSJAVA-44888|変換後に「+」と「-」が消えた - Excel を HTML にレンダリング|
 |CELLSJAVA-44775|グラフから画像へのレンダリングでグラフ ラベルが重なる|
 |CELLSJAVA-44882|チャートから画像へのレンダリング - ラベルの 1 つがドーナツ チャート内にあります|
-|CELLSJAVA-44943|XLSX から PDF: チャート ラベルが正しくレンダリングされない|
-|CELLSJAVA-44928|XLS から PDF: 画像のデータが不十分です|
+|CELLSJAVA-44943|XLSX から PDF: グラフ ラベルが正しく表示されない|
+|CELLSJAVA-44928|XLS ～ PDF: 画像のデータが不足しています|
 |CELLSJAVA-44910|Excel を HTML に変換すると、何千もの同様の小さな画像が生成されます|
 |CELLSJAVA-44944|表のサイズを変更すると、セルの書式が変更されます|
 |CELLSJAVA-44948|HTML を Excel に変換すると、シートに画像が表示されない|
 |CELLSJAVA-44908|大きな XLSB ファイルをロードするときの例外「java.lang.OutOfMemoryError: Java ヒープ領域」|
 |CELLSJAVA-44929|リグレッション: Workbook.calculateFormula() での「java.lang.NullPointerException」|
-|CELLSJAVA-44927|Excel ファイルを HTML に変換するときの例外「java.lang.IndexOutOfBoundsException: インデックス: 5、サイズ: 5」|
+|CELLSJAVA-44927|Excel ファイルを HTML に変換すると、例外「java.lang.IndexOutOfBoundsException: インデックス: 5、サイズ: 5」が発生する|
 |CELLSJAVA-44939|エラー "java.lang.StringIndexOutOfBoundsException: String index out of range: 0" が Excel ファイルの読み取り中に発生する|
 
 ## **Public API および下位互換性のない変更**

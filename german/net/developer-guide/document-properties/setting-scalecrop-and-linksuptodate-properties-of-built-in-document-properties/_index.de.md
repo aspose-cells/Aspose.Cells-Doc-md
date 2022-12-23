@@ -7,11 +7,11 @@ url: /de/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document
 ## **Mögliche Nutzungsszenarien**
 [ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) und[LinksUpToDate](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)sind zwei erweiterte integrierte Dokumenteigenschaften, die im OpenXml-Format definiert sind. Der Zweck dieser Eigenschaften ist der folgende
 ## **1) ScaleCrop**
- Dieses Element gibt den Anzeigemodus des Miniaturbilds des Dokuments an. Setzen Sie dieses Element auf**STIMMT**um die Miniaturansicht des Dokuments auf die Anzeige zu skalieren. Setzen Sie dieses Element auf**FALSCH** , um das Zuschneiden der Miniaturansicht des Dokuments zu aktivieren, damit nur Abschnitte angezeigt werden, die in die Anzeige passen.
+ Dieses Element gibt den Anzeigemodus des Miniaturbilds des Dokuments an. Setzen Sie dieses Element auf**WAHR** um die Miniaturansicht des Dokuments auf die Anzeige zu skalieren. Setzen Sie dieses Element auf**FALSCH** , um das Zuschneiden der Miniaturansicht des Dokuments zu aktivieren, damit nur Abschnitte angezeigt werden, die in die Anzeige passen.
 
 Die möglichen Werte für dieses Element werden durch den booleschen Datentyp des W3C-XML-Schemas definiert.
 ## **2) LinksUpToDate**
- Dieses Element gibt an, ob Hyperlinks in einem Dokument aktuell sind. Setzen Sie dieses Element auf**STIMMT** um anzuzeigen, dass Hyperlinks aktualisiert werden. Setzen Sie dieses Element auf**FALSCH** um anzuzeigen, dass Hyperlinks veraltet sind.
+ Dieses Element gibt an, ob Hyperlinks in einem Dokument aktuell sind. Setzen Sie dieses Element auf**WAHR** um anzuzeigen, dass Hyperlinks aktualisiert werden. Setzen Sie dieses Element auf**FALSCH** um anzuzeigen, dass Hyperlinks veraltet sind.
 
 Die möglichen Werte für dieses Element werden durch den booleschen Datentyp des W3C-XML-Schemas definiert.
 ## **Screenshot, der diese Eigenschaften in der Datei „app.xml“ zeigt**

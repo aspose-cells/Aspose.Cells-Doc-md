@@ -10,7 +10,7 @@ In diesem Thema wird das Anzeigen der Schaltflächen „Hinzufügen/Entfernen“
 
 {{% /alert %}}
 
- Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern mithilfe von Schaltflächen in der Symbolleiste. Damit die Schaltflächen im Frontend sichtbar sind, müssen Sie festlegen**GridWeb1.ShowAddButton** zu**Stimmt**. Der folgende Codeausschnitt veranschaulicht das Hinzufügen von Schaltflächen zum Hinzufügen/Entfernen zur GridWeb-Symbolleiste.
+ Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern mithilfe von Schaltflächen in der Symbolleiste. Damit die Schaltflächen im Frontend sichtbar sind, müssen Sie festlegen**GridWeb1.ShowAddButton** zu**wahr**. Der folgende Codeausschnitt veranschaulicht das Hinzufügen von Schaltflächen zum Hinzufügen/Entfernen zur GridWeb-Symbolleiste.
 
 ## Beispielcode
 

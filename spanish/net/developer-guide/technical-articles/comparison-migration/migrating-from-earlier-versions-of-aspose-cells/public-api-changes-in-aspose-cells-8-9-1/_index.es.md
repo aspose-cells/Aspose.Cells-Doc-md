@@ -115,7 +115,7 @@ El siguiente es el escenario de uso simple de la propiedad HtmlSaveOptions.FileP
 
 var libro = nuevo libro de trabajo (dir + "muestra.xlsx");
 
-// Guarde cada hoja de trabajo en un archivo HTML separado
+// Guarde cada hoja de trabajo en un archivo separado HTML
 
  para (int i = 0; i< book.Worksheets.Count; i++)
 
@@ -207,7 +207,7 @@ Aquí se explica cómo implementar la interfaz IFilePathProvider.
 
 {{% /alert %}} 
 ### **Se agregó la propiedad CopyOptions.ReferToDestinationSheet y la sobrecarga para el método Cells.CopyRows**
-Aspose.Cells for .NET API ha expuesto la propiedad de tipo booleano CopyOptions.ReferToDestinationSheet junto con una sobrecarga del método Cells.CopyRows para facilitar la operación de copia de filas cuando las filas que se van a copiar también contienen un gráfico y su fuente de datos. Los desarrolladores pueden hacer uso de estas nuevas API para apuntar la fuente de datos del gráfico a las hojas de trabajo de origen o de destino.
+Aspose.Cells for .NET API ha expuesto la propiedad de tipo booleano CopyOptions.ReferToDestinationSheet junto con una sobrecarga del método Cells.CopyRows para facilitar la operación de copia de filas cuando las filas que se van a copiar también contienen un gráfico y su origen de datos. Los desarrolladores pueden hacer uso de estas nuevas API para apuntar la fuente de datos del gráfico a las hojas de trabajo de origen o de destino.
 
 El siguiente es el escenario de uso simple.
 

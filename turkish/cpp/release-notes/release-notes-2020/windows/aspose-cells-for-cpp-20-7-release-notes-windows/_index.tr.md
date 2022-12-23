@@ -13,4 +13,4 @@ Bu sayfa Aspose.Cells for C++ 20.7 için Windows için sürüm notları içerir.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-250|Aspose.Cells for C++, NuGet paket yöneticisi aracılığıyla referans verildiğinde VS 2019'da çalışmıyor|Yeni özellik|
-|CELLSCPP-234|Bir çalışma kitabını Kaydet işlevinde mutlak/göreli dizin yolu olmadan HTML olarak kaydederken istisna oluştu|Böcek|
+|CELLSCPP-234|Bir çalışma kitabını Kaydet işlevinde mutlak/göreli dizin yolu olmadan HTML olarak kaydederken özel durum oluştu|Böcek|

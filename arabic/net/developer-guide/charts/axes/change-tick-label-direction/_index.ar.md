@@ -6,7 +6,7 @@ url: /ar/net/change-tick-label-direction/
 ---
 ## **تغيير اتجاه تسمية التجزئة**
 
-يوفر لك Aspose.Cells القدرة على تغيير اتجاه تسمية علامة التجزئة على الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) منشأه. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) يقبل العقار[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) قيمة العد. ال[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)يوفر التعداد الأعضاء التالية
+يوفر لك Aspose.Cells القدرة على تغيير اتجاه تسمية علامة التجزئة على الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) خاصية. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) يقبل العقار[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) قيمة العد. ال[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)يوفر التعداد الأعضاء التالية
 
 - أفقي
 - عمودي

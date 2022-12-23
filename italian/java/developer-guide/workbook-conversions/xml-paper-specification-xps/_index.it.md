@@ -5,14 +5,14 @@ type: docs
 weight: 30
 url: /it/java/xml-paper-specification-xps/
 ---
-## **A proposito di XPS**
+## **Circa XPS**
 
-|![cose da fare:immagine_alt_testo](xml-paper-specification-xps_1.png)| Il[Specifica carta XML](https://en.wikipedia.org/wiki/XML_Paper_Specification) è un linguaggio di descrizione della pagina e un formato di documento fisso originariamente sviluppato da Microsoft. Come il PDF, XPS è un formato di documento a layout fisso progettato per preservare la fedeltà del documento e fornire un aspetto del documento indipendente dal dispositivo.|
+|![cose da fare:immagine_alt_testo](xml-paper-specification-xps_1.png)| Il[Specifica carta XML](https://en.wikipedia.org/wiki/XML_Paper_Specification) è un linguaggio di descrizione della pagina e un formato di documento fisso originariamente sviluppato da Microsoft. Come PDF, XPS è un formato di documento a layout fisso progettato per preservare la fedeltà del documento e fornire un aspetto del documento indipendente dal dispositivo.|
 |:- |:- |
-## **XPS al numero Aspose.Cells**
+## **XPS nel Aspose.Cells**
 Qualsiasi documento caricato in Aspose.Cells può essere convertito in XPS.
 
-Aspose.Cells utilizza lo stesso layout di pagina e motore di rendering ad alta fedeltà per produrre l'output in tutti i formati a layout fisso supportati, ad esempio PDF, XPS ecc.
+Aspose.Cells utilizza lo stesso layout di pagina e lo stesso motore di rendering ad alta fedeltà per produrre l'output in tutti i formati a layout fisso supportati, ad esempio PDF, XPS ecc.
 
 **Le immagini sottostanti mostrano l'alto grado di fedeltà con cui Aspose.Cells ha convertito un documento da XLS a XPS.**
 

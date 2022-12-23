@@ -10,7 +10,7 @@ url: /ar/java/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 
 ## **حدد مجموعة الخطوط الفردية أو الخاصة لعرض المصنف**
 
-يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](67338304.xlsx)بمجموعته الفردية أو الخاصة من الخطوط المحددة باستخدام امتداد[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)صف دراسي. الرجاء مراجعة[نموذج الخط](67338302.zip)المستخدمة داخل الكود بالإضافة إلى ملفات[إخراج PDF](67338303.pdf)ولدت به. توضح لقطة الشاشة التالية كيف يبدو ملف PDF الناتج إذا تم العثور على الخط بنجاح.
+يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج لملف Excel](67338304.xlsx)بمجموعته الفردية أو الخاصة من الخطوط المحددة باستخدام امتداد[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)صف دراسي. الرجاء مراجعة[نموذج الخط](67338302.zip)المستخدمة داخل الكود بالإضافة إلى ملفات[الإخراج PDF](67338303.pdf)ولدت به. توضح لقطة الشاشة التالية كيف يبدو الناتج PDF إذا تم العثور على الخط بنجاح.
 
 ![ما يجب القيام به: image_بديل_نص](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 

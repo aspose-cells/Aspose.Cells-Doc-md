@@ -14,7 +14,7 @@ Vi är glada att kunna meddela Aspose.Cells for Java v2.1.0!
 
 Vad har ändrats:
 
-l Lägg till nya funktioner för Open Document Spreadsheet-fil (ODS): Hyperlänk, Alternativ för sidinställningar, Gruppkontur, Villkorlig formatering, Datavalidering, AutoFilter, Sidbrytning, PrintTitleRows/Columns, Shapes-relaterade objekt (Comment, Arc, Button, CheckBox, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Diagram.
+l Lägg till nya funktioner för Open Document Spreadsheet-fil (ODS): Hyperlänk, Utskriftsalternativ, Gruppkontur, Villkorlig formatering, Datavalidering, AutoFilter, Sidbrytning, PrintTitleRows/Columns, Shapes-relaterade objekt (Comment, Arc, Button, CheckBox, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Diagram.
 
 l Tillhandahålla nya funktioner för MS Excel 2007-filformatet: Infoga bilder, lägga till diagram.
 
@@ -28,9 +28,9 @@ l Beräkna hyperlänksfunktion.
 
 l Ta bort användardefinierade namn.
 
-Inkludera AutoFilter-attribut när du kopierar arbetsbok/arbetsblad.
+l Inkludera AutoFilter-attribut när du kopierar arbetsbok/arbetsblad.
 
-l Stöd för hyperlänkar i xls2pdf-konvertering.
+Stöd för hyperlänkar i xls2pdf-konvertering.
 
 l Extrahera Ole Objects i mallfilen.
 
@@ -61,7 +61,7 @@ Problem lösta i Aspose.Cells for Java v2.1.0
 |9363|xls|SmartMarker med horisontell flagga:|
 |9364|xlsx|stänger användarens utdataström|
 |9404|xls|läsa mallfil som skapats av Microsoft Jet Engine|
-|9264|CSV|importera/exportera CSV-filformat|
+|9264|CSV|importera/exportera filformatet CSV|
 |9265|Xls2 pdf|sammanslagna celler i xls2pdf|
 |9173|xlsx|Style.isCellLocked()-egenskapen för filformatet Excel2007|
 |9174|xls|ställ in bildens storlek i sidhuvud/sidfot i PageSetup|

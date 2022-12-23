@@ -7,7 +7,7 @@ url: /tr/reportingservices/mapping-query-parameters-to-report-parameters/
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Veri Kümesi Oluştur**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](mapping-query-parameters-to-report-parameters_1.png)
+![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_1.png)
 
 ).
 
@@ -15,7 +15,7 @@ url: /tr/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **Bir veri seti seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](mapping-query-parameters-to-report-parameters_2.png)
+![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_2.png)
 
 
 
@@ -27,7 +27,7 @@ url: /tr/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **eşleme parametreleri** 
 
-![yapılacaklar:resim_alternatif_Metin](mapping-query-parameters-to-report-parameters_3.png)
+![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_3.png)
 
 
 
@@ -36,6 +36,6 @@ url: /tr/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **Eşleme tamamlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](mapping-query-parameters-to-report-parameters_4.png)
+![yapılacaklar:resim_alternatif_metin](mapping-query-parameters-to-report-parameters_4.png)
 
-1.  Tıklamak**Kapat**.
+1.  Tıklamak**Kapalı**.

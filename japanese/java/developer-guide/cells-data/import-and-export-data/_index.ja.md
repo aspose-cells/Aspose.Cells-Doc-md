@@ -65,7 +65,7 @@ Aspose.Cells はクラスを提供し、[**ワークブック**](https://referen
 
 #### JSON からのデータのインポート
 
-Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)JSON を処理するためのクラス。[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)クラスには[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) JSON データをインポートするためのメソッド。 Aspose.Cells も提供しています[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)JSON レイアウトのオプションを表すクラス。の[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) メソッドが受け入れる[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)パラメータとして。の[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)クラスは、次のプロパティを提供します。
+Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)JSON を処理するためのクラス。[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)クラスには[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) JSON データをインポートする方法。 Aspose.Cells も提供しています[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)JSON レイアウトのオプションを表すクラス。の[**ImportData**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) メソッドが受け入れる[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)パラメータとして。の[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)クラスは、次のプロパティを提供します。
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): 配列内をテーブルとして処理するかどうかを示します。
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): JSON の文字列を数値または日付に変換するかどうかを示す値を取得または設定します。
@@ -76,7 +76,7 @@ Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cel
 - [**NumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): 数値の形式を取得および設定します。
 - [**タイトルスタイル**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle)タイトルのスタイルを取得および設定します。
 
-以下のサンプル コードは、[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)と[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) JSON データをインポートするためのクラス。
+以下のサンプル コードは、[**Jsonユーティリティ**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)と[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) JSON データをインポートするクラス。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 

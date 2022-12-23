@@ -1,10 +1,10 @@
 ﻿---
-title: Jython でワークシートを SVG に変換する
+title: JythonでワークシートをSVGに変換する
 type: docs
 weight: 40
 url: /ja/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - ワークシートを SVG に変換する**
+## **Aspose.Cells - ワークシートを SVG に変換中**
 を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
 **Jython コード**

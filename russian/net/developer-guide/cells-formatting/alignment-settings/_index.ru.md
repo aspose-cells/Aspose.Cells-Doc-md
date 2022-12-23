@@ -24,7 +24,7 @@ url: /ru/net/cells-alignment-settings/
 
  Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , который представляет файл Excel.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс предоставляет[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция. Каждый элемент в[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция представляет собой объект[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)учебный класс.
 
- Aspose.Cells предоставляет[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) а также[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) методы для[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class, которые используются для получения и установки форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style)Класс предоставляет полезные свойства для настройки параметров выравнивания.
+ Aspose.Cells предоставляет[**GetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) и[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) методы для[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) class, которые используются для получения и установки форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style)Класс предоставляет полезные свойства для настройки параметров выравнивания.
 
  Выберите любой тип выравнивания текста с помощью[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype) перечисление. Предопределенные типы выравнивания текста в[**TextAlignmentType**](https://reference.aspose.com/cells/net/aspose.cells/textalignmenttype)перечисление:
 
@@ -38,8 +38,8 @@ url: /ru/net/cells-alignment-settings/
 |Общий|Представляет общее выравнивание текста|
 |Оправдывать|Представляет выравнивание текста по ширине|
 |Оставил|Представляет выравнивание текста по левому краю|
-|Верно|Представляет выравнивание текста по правому краю|
-|верхний|Представляет выравнивание текста по верхнему краю|
+|Правильно|Представляет выравнивание текста по правому краю|
+|Вершина|Представляет выравнивание текста по верхнему краю|
 |JustifiedLow|Выравнивает текст по скорректированной длине кашиды для арабского текста.|
 |ТайскийРаспределенный|Особенно распространен тайский текст, потому что каждый символ рассматривается как слово.|
 
@@ -100,7 +100,7 @@ url: /ru/net/cells-alignment-settings/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
- Другой способ - сначала вызвать[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) метод для создания диапазона ячеек, которые необходимо объединить.[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) метод принимает тот же набор параметров, что и метод[**Объединить**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) рассмотренный выше метод и возвращает[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект.[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект также обеспечивает[**Объединить**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) метод, который объединяет диапазон, указанный в[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range)объект.
+ Другой способ - сначала вызвать[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) коллекция[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) метод для создания диапазона ячеек, которые необходимо объединить.[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) метод принимает тот же набор параметров, что и метод[**Объединить**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) рассмотренный выше метод и возвращает[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект.[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект также обеспечивает[**Объединить**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) метод, который объединяет диапазон, указанный в[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range)объект.
 
 ##### **Направление текста**
 

@@ -42,23 +42,23 @@ url: /fr/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  Problèmes résolus dans Aspose.Cells for .NET v4.8.0.0
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |8741 | Graphique2Image| Problèmes de Chart2Image|
 |8749 | Graphique2Image| Les graphiques ne s'affichent pas dans Excel PDF|
 |9712 | Graphique2Image| Prend en charge la forme groupée à l'image|
 |9766 | Graphique2Image| Obtenir des valeurs nulles|
-|8738 | CSV| Le chargement d'un fichier csv a échoué|
-|8737 | CSV| L'ouverture du fichier csv semble écrire sur la console|
-|8984 | HTML| Performances lentes lors de l'enregistrement du classeur au format HTML|
+|8738 |CSV | Le chargement d'un fichier csv a échoué|
+|8737 |CSV | L'ouverture du fichier csv semble écrire sur la console|
+|8984 |HTML | Performances lentes lors de l'enregistrement du classeur sous HTML|
 |7915 | PDF| Le problème de la conversion des cellules en pdf|
-|8669 | PDF| Problème de conversion Excel en PDF|
+|8669 | PDF| Problème de conversion Excel vers PDF|
 |8672 | PDF| Différence de sortie lors de la génération d'un fichier Excel vers un fichier Pdf|
-|8678 | PDF| Cells Au format PDF, l'image du pied de page est floue|
+|8678 | PDF| Cells à PDF, l'image du pied de page est floue|
 |8749 | PDF| Les graphiques ne s'affichent pas dans Excel PDF|
-|8986 | PDF| Conversion d'Excel en PDF|
-|8988 | PDF|enregistrement du classeur au format PDF cassé|
-|9608 | PDF| Problème de conversion XLS (longueur négative ?)|
+|8986 | PDF|Conversion d'Excel en PDF|
+|8988 | PDF| enregistrement du classeur sous le nom PDF cassé|
+|9608 | PDF| XLS problème de conversion (longueur négative ?)|
 |9609 | PDF| Enregistrer dans FileFormatType.Pdf avec implémentation multithread|
 |9670 | PDF| Excel2PDF avec problème de forme groupée|
 |9761 | PDF| Erreur lors de l'enregistrement sous Aspose.Pdf.xml|
@@ -77,9 +77,9 @@ url: /fr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | SpreadML| Une erreur d'ouverture et d'enregistrement du fichier|
 |9610 | SpreadML| Les colonnes masquées perdent leurs informations de largeur|
 |7916 | Xls| Mettre à jour les volets Figer lors de l'insertion/suppression de lignes/colonnes|
-|8588 | Xls| Problème avec le calcul des formules matricielles|
+|8588 | Xls|Problème avec le calcul des formules matricielles|
 |8590 | Xls| Copie de feuilles|
-|8604 | Xls|Problème de copie de lignes.|
+|8604 | Xls| Problème de copie de lignes.|
 |8668 | Xls| Problème avec le groupe de marqueurs intelligents avec fusion|
 |8673 | Xls| Bug avec SUMIF et formule de calcul|
 |8676 | Xls| Étiquettes de données du graphique à secteurs|
@@ -100,9 +100,9 @@ url: /fr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | Xls| Performances AutoFitColumns extrêmement lentes|
 |9266 | Xls| La formule n'est pas calculée|
 |9267 | Xls| Liste déroulante de validation conditionnelle|
-|9293 | Xls| CalculateFormula ne calcule pas|
+|9293 | Xls|CalculateFormula ne calcule pas|
 |9488 | Xls| Le problème de l'ouverture du fichier xls.|
-|9501 | Xls|DeleteRows ne supprime pas les images incorporées|
+|9501 | Xls| DeleteRows ne supprime pas les images incorporées|
 |9545 | Xls| SetDataSource() génère une erreur|
 |9546 | Xls| Mauvaise couleur des chiffres|
 |9672 | Xls| Calculer l'erreur de la fonction de recherche|
@@ -122,9 +122,9 @@ url: /fr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | Xls| Lignes de sous-totaux de marqueur intelligent - Formule dynamique de texte statique|
 |10153 | Xls| AutoFitRows() lorsque la colonne est masquée|
 |10158 | Xls| Obtenir un graphique par nom|
-|8587 | Xls| Commander des images / formes|
+|8587 | Xls|Commander des images / formes|
 |9062 | Xls| Problèmes de débordement / sous-dépassement d'ExportDataTable|
-|9707 | Xls|Zone d'impression non mise à jour lors de la suppression de colonnes/lignes|
+|9707 | Xls| Zone d'impression non mise à jour lors de la suppression de colonnes/lignes|
 |10038 | Xls| Sous-total – Résumé en dessous des données|
 |10041 | Xls| Trouvez une chaîne sensible à la casse.|
 |8419 | Xlsx| Impossible de lire le fichier xlsx|

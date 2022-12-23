@@ -12,7 +12,7 @@ url: /zh/java/rotate-text-with-shape-inside-the-worksheet/
 
 下面的示例代码加载[示例 Excel 文件](64716919.xlsx)具有三角形形状，其文本随形状旋转。如果您在 Microsoft Excel 中打开示例 Excel 文件并旋转三角形，文本也会随之旋转。然后代码设置[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RotateTextWithShape)财产作为**错误的**并将其另存为[输出Excel文件](64716917.xlsx).如果现在在 Microsoft Excel 中打开输出 Excel 文件并旋转三角形，文本将不会随之旋转。请参阅以下屏幕截图，显示代码对示例 Excel 文件的影响以供参考。
 
-![待办事项：图像_替代_文本](rotate-text-with-shape-inside-the-worksheet_1.png)
+![待办事项：图片_替代_文本](rotate-text-with-shape-inside-the-worksheet_1.png)
 
 ## **示例代码**
 

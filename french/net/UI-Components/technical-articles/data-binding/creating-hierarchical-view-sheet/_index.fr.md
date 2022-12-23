@@ -124,7 +124,7 @@ La classe Asppose.Grid.Web.Data.WebWorksheet possède des propriétés utiles.
 
 - Par exemple, la propriété EnableCreateBindColumnHeader est utilisée pour créer les en-têtes de la colonne liée dans la feuille, ou la colonne
 
- headers affiche les noms des colonnes liées. Il prend les valeurs**vrai** ou**faux**. 
+ headers affiche les noms des colonnes liées. Il prend les valeurs**vrai** ou alors**faux**. 
 
 - Les propriétés BindStartRow et BindStartColumn spécifient la position dans la feuille du contrôle GridWeb auquel la source doit être liée.
 - La propriété EnableExpandChildView est utilisée pour désactiver la vue enfant développée pour la feuille de calcul. Par défaut, il est défini sur vrai.

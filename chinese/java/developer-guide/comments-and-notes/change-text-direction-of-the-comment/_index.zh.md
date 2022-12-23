@@ -18,6 +18,6 @@ Aspose.Cells提供了[**形状.setTextDirection()**](https://reference.aspose.co
 
 **使用从右到左的文本方向进行评论**
 
-![待办事项：图像_替代_文本](change-text-direction-of-the-comment_1.png)
+![待办事项：图片_替代_文本](change-text-direction-of-the-comment_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeTextDirectionofComment.java" >}}

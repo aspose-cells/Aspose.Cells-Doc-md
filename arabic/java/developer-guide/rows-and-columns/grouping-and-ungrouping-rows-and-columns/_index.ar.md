@@ -1,5 +1,5 @@
 ﻿---
-title: تجميع الصفوف والأعمدة وإلغاء تجميعها
+title: تجميع وإلغاء تجميع الصفوف والأعمدة
 type: docs
 weight: 40
 url: /ar/java/grouping-and-ungrouping-rows-and-columns/
@@ -50,7 +50,7 @@ Microsoft يسمح Excel أيضًا بتكوين إعدادات المجموعة
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowRight-1.java" >}}
 ### **فك تجميع الصفوف والأعمدة**
- قم بفك تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء ملف[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة[UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\) ) و[UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) طُرق. تأخذ كلتا الطريقتين نفس المعلمات:
+ قم بفك تجميع الصفوف أو الأعمدة المجمعة عن طريق استدعاء ملف[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) المجموعة[UngroupRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupRows\(int,%20int\) ) و[UngroupColumns](https://reference.aspose.com/cells/java/com.aspose.cells/cells#ungroupColumns\(int,%20int\)) أساليب. تأخذ كلتا الطريقتين نفس المعلمات:
 
 - الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
 - فهرس الصف أو العمود الأخير ، الصف / العمود الأخير المراد فك تجميعه.

@@ -7,7 +7,7 @@ url: /tr/java/create-remove-and-get-gridcell-comments/
 ## **Olası Kullanım Senaryoları**
 Aşağıdaki makale, GridWeb çalışma sayfası içinde GridCell yorumlarının nasıl oluşturulacağını, kaldırılacağını ve alınacağını açıklamaktadır. Bu ekran görüntüsünde gösterildiği gibi fareyi hücrenin üzerine getirdiğinizde GridWeb'in MS-Excel gibi bir Araç İpucu olarak yorum görüntülediğini belirtmekte fayda var.
 
-![yapılacaklar:resim_alternatif_Metin](create-remove-and-get-gridcell-comments_1.png)
+![yapılacaklar:resim_alternatif_metin](create-remove-and-get-gridcell-comments_1.png)
 ## **Cell içinde Yorum nesnesi oluştur**
 Lütfen hücre içinde bir yorum nesnesi oluşturmak için GridCell.CreateComment yöntemini kullanın. Aşağıdaki örnek kod, GridWeb'in ilk çalışma sayfasının B4 hücresinde örnek bir açıklama oluşturur.
 

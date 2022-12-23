@@ -14,7 +14,7 @@ url: /ar/net/aspose-cells-for-net-5-3-1-release-notes/
 
  ما تغير في Aspose.Cells:
 
-- يدعم تقديم النص العربي في تحويل PDF.
+- يدعم تحويل النص العربي في PDF.
  17 تحسينات وإصلاحات.
 
  ما تغير في Aspose.Cells.GridWeb:

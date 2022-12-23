@@ -10,7 +10,7 @@ url: /ar/net/web-extensions-office-add-ins/
 
 ## **إضافة ملحق ويب**
 
- يمكنك إضافة ملحقات ويب (وظائف Office الإضافية) في Excel بالنقر فوق**إدراج** علامة التبويب ثم النقر فوق**متجر**/**احصل على الوظائف الإضافية** حلقة الوصل. في مربع الوظائف الإضافية ، استعرض للوصول إلى الوظيفة الإضافية التي تريدها وقم بإضافتها.
+ يمكنك إضافة ملحقات ويب (وظائف Office الإضافية) في Excel بالنقر فوق**إدراج** علامة التبويب ثم النقر فوق**محل**/**احصل على الوظائف الإضافية** حلقة الوصل. في مربع الوظائف الإضافية ، استعرض للوصول إلى الوظيفة الإضافية التي تريدها وقم بإضافتها.
 
 يوفر Aspose.Cells أيضًا ميزة إضافة ملحقات ويب باستخدام امتداد[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) الطبقات. يوضح نموذج التعليمات البرمجية التالي استخدام[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) و[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)فئات لإضافة امتداد ويب إلى ملف Excel. الرجاء مراجعة[إخراج ملف Excel](89849869.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
 

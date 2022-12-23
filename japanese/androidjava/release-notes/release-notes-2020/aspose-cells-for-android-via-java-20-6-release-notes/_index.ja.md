@@ -16,46 +16,46 @@ url: /ja/java/aspose-cells-for-android-via-java-20-6-release-notes/
 |CELLSJAVA-43173|グループ フィールドに null 値がある場合、subtotalN の結果は null グループの小計を失う|強化|
 |CELLSJAVA-43186|展開された列を持つすべての行の総計を計算します|強化|
 |CELLSJAVA-43191|不適切なフォント タイプを指定する場合のシナリオを処理する手段を提供する|強化|
-|CELLSJAVA-43187|XLS「Microsoft Excel 5.0 / 95 Workbook」ファイルをロードするときの例外|強化|
+|CELLSJAVA-43187|XLS "Microsoft Excel 5.0 / 95 ワークブック" ファイルをロードするときの例外|強化|
 |CELLSJAVA-43142|Excel から HTML へのレンダリング - 変換後に一部のセルが整列されない|バグ|
-|CELLSJAVA-43155|HTML として表示されると、回転したテキストがセルの外に出てしまう|バグ|
+|CELLSJAVA-43155|HTML としてレンダリングすると、回転したテキストがセルの外に出てしまう|バグ|
 |CELLSJAVA-43161|方程式の不適切なレンダリング|バグ|
 |CELLSJAVA-43130|ウォーターフォール チャートの透明性の問題|バグ|
 |CELLSJAVA-43131|Excel から PDF - テキストを含む図形が正しく変換されない|バグ|
 |CELLSJAVA-43133|Chart.toImage は、出力画像にデータ ラベルを含めません。|バグ|
 |CELLSJAVA-43138|レンダリングの問題で生成された画像。|バグ|
-|CELLSJAVA-43151|XLSファイル変換後のスタイル変更|バグ|
+|CELLSJAVA-43151|XLS ファイルの変換後のスタイルの変更|バグ|
 |CELLSJAVA-43162|Excel から HTML へのレンダリング - 変換プロセスに時間がかかる|バグ|
 |CELLSJAVA-43164|HTML から Excel への変換でリッチ テキスト形式が出力に保持されない|バグ|
-|CELLSJAVA-43166|回転したテキストが XLSX から HTML への変換で正しくレンダリングされない|バグ|
-|CELLSJAVA-43178|ファイルを HTML にエクスポートすると、RichText の書式設定が失われる|バグ|
-|CELLSJAVA-43165|文字列「20TT1」は、CSV から XLSB への変換中に番号 43850 に置き換えられます|バグ|
+|CELLSJAVA-43166|XLSX から HTML への変換で、回転したテキストが正しくレンダリングされない|バグ|
+|CELLSJAVA-43178|ファイルを HTML にエクスポートすると、リッチテキスト形式が失われる|バグ|
+|CELLSJAVA-43165|文字列「20TT1」は、CSV から XLSB への変換中に数値 43850 に置き換えられます|バグ|
 |CELLSJAVA-43026|チャートを画像にレンダリングした後、データ ラベルのスタイルが変更され、値が同じではありません|バグ|
 |CELLSJAVA-43154|一部のグラフ ポイントがラベルによって重なっています|バグ|
-|CELLSJAVA-43089|XLS から PDF への変換で、レーダー チャートが反転し、軸の値が元のチャートと一致しない|バグ|
+|CELLSJAVA-43089|レーダー チャートが反転し、軸の値が XLS から PDF への変換で元のチャートと一致しない|バグ|
 |CELLSJAVA-43171|シートをコピーした後、文書が壊れている|バグ|
 |CELLSJAVA-43172|結合されたセルのスマート マーカーに関する問題|バグ|
-|CELLSJAVA-43180|黒いワークシート出力を作成する HTML から Excel への変換|バグ|
-|CELLSJAVA-43181|Excel を HTML に変換すると行の高さに違いがあります|バグ|
+|CELLSJAVA-43180|HTML から Excel への変換により、黒いワークシート出力が作成される|バグ|
+|CELLSJAVA-43181|ExcelをHTMLに変換すると行の高さに違いがあります|バグ|
 |CELLSJAVA-43188|HTML から Excel への変換中に背景色のスタイルが保持されない|バグ|
 |CELLSJAVA-43196|Aspose.Cells for Java 20.4 と 20.5 を使用して検出される VBA モジュールの数が異なります。|バグ|
 |CELLSJAVA-43202|ワークブックの作成完了時にリソースが解放されない|バグ|
 |CELLSJAVA-43203|Unicode 名を持つ名前付き範囲に基づく一部の Excel 検証リストを処理できません|バグ|
-|CELLSJAVA-43185|Linux の setImageResample で JPEG 品質が常に 75 になる|バグ|
+|CELLSJAVA-43185|JPEG Linux の setImageResample で品質が常に 75 になる|バグ|
 |CELLSJAVA-43192|デフォルトで macOS のフォント フォルダー /System/Library/Fonts を読み込む|バグ|
 |CELLSJAVA-43157|ウォーターフォール グラフの作成時に、カスタマイズされたデータ系列の色が保持されない|バグ|
 |CELLSJAVA-43175|ワークブックを他のワークブックに参照するときのチャート シリーズ名の問題|バグ|
 |CELLSJAVA-43158|IllegalArgumentException: マップ サイズ (0) は >= 1 でなければなりません|例外|
-|CELLSJAVA-43149|ワークシートを削除した後に XLSM を保存中に例外が発生しました|例外|
+|CELLSJAVA-43149|ワークシートを削除した後、XLSM を保存中に例外が発生しました|例外|
 |CELLSJAVA-43150|ファイル読み込み時の例外「java.lang.NumberFormatException」|例外|
 |CELLSJAVA-43183|ピボットテーブルの計算時の例外「ClassCastException: ....」|例外|
-|CELLSJAVA-43177|CSV ファイルを含む新しいワークブックで「java.lang.IndexOutOfBoundsException: millisecond」が発生する|例外|
+|CELLSJAVA-43177|CSV ファイルを含む新しいワークブックで "java.lang.IndexOutOfBoundsException: millisecond" が発生する|例外|
 |CELLSJAVA-43168|Excel ファイルをマージするときの例外「IllegalStateException: これは構造化ストレージ ファイルではありません」|例外|
 |CELLSJAVA-43179|例外 NumberFormatException: 入力文字列の場合: "preserve"|例外|
-|CELLSJAVA-43182|例外 'lang.IllegalStateException: Invalid encoding: null' XLS ファイルの読み込み中|例外|
+|CELLSJAVA-43182|例外 'lang.IllegalStateException: 無効なエンコード: null' XLS ファイルの読み込み中|例外|
 |CELLSJAVA-43201|HTML への保存時の例外「java.util.EmptyStackException」|例外|
 |CELLSJAVA-43204|Cell.getDisplayStringValue() を使用すると NegativeArraySizeException が発生する|例外|
-|CELLSJAVA-43189|XLS ファイルの読み込み中に例外が発生しました|例外|
+|CELLSJAVA-43189|XLS ファイルの読み込み中に発生した例外|例外|
 |CELLSJAVA-43193|一部の XLSX ファイルの読み込み中に NullPointerException が発生しました|例外|
 |CELLSJAVA-43200|ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException」|例外|
 ## **Public API および下位互換性のない変更**
@@ -67,8 +67,8 @@ url: /ja/java/aspose-cells-for-android-via-java-20-6-release-notes/
 ### **リビジョンの拡張機能のクラスを追加します。**
 リビジョンの情報を取得します。
 ### **TxtSaveOptions.TrimLeadingBlankRowAndColumn プロパティのデフォルト値を変更します。**
-CSV 保存の既定の動作を ms Excel と同じにするために、このプロパティの既定値と動作を変更しました。古いバージョンの場合、デフォルト値は「**間違い**"。20.4 から、そのデフォルト値は"**真実**".
-### **CSV保存時の空白行/列の検出動作を変更します。**
+CSV を保存するデフォルトの動作を ms Excel と同じにするために、このプロパティのデフォルト値と動作を変更しました。古いバージョンの場合、デフォルト値は「**間違い**"。20.4 から、そのデフォルト値は"**真実**".
+### **CSV を保存するための空白の行/列を検出するための動作を変更します。**
 古いバージョンでは、データがなくてもカスタム設定 (可視性、書式設定など) がある行/列を空白としました。 20.4 から、空白と見なされなくなりました。新しい動作は ms Excel と同じです。
 ### **TxtSaveOptions.ExportArea プロパティを追加します。**
 エクスポートするセル データの範囲を指定します。ユーザーは、このオプションを使用して、TxtSaveOptions.TrimLeadingBlankRowAndColumn および空白の行/列の変更された動作に対して古いバージョンで同じ結果を得ることができます。

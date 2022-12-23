@@ -10,9 +10,9 @@ Genel olarak, tüm çalışma kitapları için yazı tipi dizinini veya yazı ti
 
 ## **Çalışma Kitabı Oluşturma için Bireysel veya Özel Yazı Tipi Kümesi Belirtin**
 
-Aşağıdaki örnek kod,[örnek excel dosyası](67338304.xlsx)kullanılarak belirtilen bireysel veya özel yazı tipi seti ile[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)sınıf. Lütfen bkz[örnek yazı tipi](67338302.zip)kodunun yanı sıra kodun içinde de kullanılır.[çıktı PDF](67338303.pdf)onun tarafından oluşturulur. Aşağıdaki ekran görüntüsü, yazı tipi başarıyla bulunursa çıktı PDF'sinin nasıl görüneceğini gösterir.
+Aşağıdaki örnek kod,[örnek excel dosyası](67338304.xlsx)kullanılarak belirtilen bireysel veya özel yazı tipi seti ile[**IndividualFontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/individualfontconfigs)sınıf. Lütfen bkz[örnek yazı tipi](67338302.zip)kodunun yanı sıra kodun içinde de kullanılır.[çıkış PDF](67338303.pdf)onun tarafından oluşturulur. Aşağıdaki ekran görüntüsü, yazı tipi başarıyla bulunursa PDF çıktısının nasıl göründüğünü gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 
 ## **Basit kod**
 

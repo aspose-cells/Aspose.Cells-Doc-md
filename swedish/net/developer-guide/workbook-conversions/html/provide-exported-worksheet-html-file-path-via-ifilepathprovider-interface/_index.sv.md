@@ -5,8 +5,8 @@ weight: 70
 url: /sv/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Möjliga användningsscenarier**
- Anta att du har en excel-fil med flera ark och du vill exportera varje ark till en individuell HTML-fil. Om något av dina ark har länkar till andra ark kommer dessa länkar att brytas i den exporterade HTML-koden. För att hantera detta problem tillhandahåller Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)gränssnitt som du kan implementera för att fixa de trasiga länkarna.
-## **Ge exporterad kalkylblads-HTML-filsökväg via IFilePathProvider-gränssnittet**
+ Anta att du har en excel-fil med flera ark och du vill exportera varje ark till en individuell HTML-fil. Om något av dina ark har länkar till andra ark, kommer dessa länkar att brytas i den exporterade HTML. För att hantera detta problem tillhandahåller Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)gränssnitt som du kan implementera för att fixa de trasiga länkarna.
+## **Ange exporterat kalkylblad HTML filsökväg via IFilePathProvider-gränssnittet**
  Vänligen ladda ner[exempel på excel-fil](5115213.zip)används i följande kod och dess exporterade HTML-filer. Alla dessa filer finns i Temp-katalogen. Du bör extrahera den på C:-enhet. Då blir det C:\Temp-katalogen. Sedan öppnar du filen Sheet1.html i webbläsaren och klickar på de två länkarna i den. Dessa länkar hänvisar till dessa två exporterade HTML-kalkylblad som finns i katalogen C:\Temp\OtherSheets.
 
 {{< highlight "java" >}}
@@ -21,7 +21,7 @@ Följande skärmdump visar hur C:\Temp\Sheet1.html och dess länkar ser ut
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Följande skärmdump visar HTML-källan. Som du kan se att länkarna nu hänvisar till katalogen C:\Temp\OtherSheets. Detta uppnåddes med hjälp av[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)gränssnitt.
+ Följande skärmdump visar källan HTML. Som du kan se att länkarna nu hänvisar till katalogen C:\Temp\OtherSheets. Detta uppnåddes med hjälp av[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)gränssnitt.
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Exempelkod**

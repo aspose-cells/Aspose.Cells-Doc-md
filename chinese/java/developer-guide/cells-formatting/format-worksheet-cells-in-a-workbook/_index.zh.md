@@ -43,7 +43,7 @@ Aspose.Cells 可让您快速轻松地绘制单元格和范围边框。它还允�
 
 **输出文件**
 
-![待办事项：图像_替代_文本](format-worksheet-cells-in-a-workbook_1.png)
+![待办事项：图片_替代_文本](format-worksheet-cells-in-a-workbook_1.png)
 
 ## **概括**
 

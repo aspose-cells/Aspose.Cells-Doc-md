@@ -14,7 +14,7 @@ Este artículo analiza algunas técnicas de importación de datos a las que los 
 
 Cuando abre un archivo de Excel con Aspose.Cells, todos los datos del archivo se importan automáticamente. Aspose.Cells también puede importar datos de otras fuentes de datos.
 
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)La recopilación proporciona métodos útiles para importar datos de diferentes fuentes de datos. En este artículo se explica cómo se pueden utilizar estos métodos.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación.[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)La recopilación proporciona métodos útiles para importar datos de diferentes fuentes de datos. En este artículo se explica cómo se pueden utilizar estos métodos.
 
 ## **Importación de datos en Excel con la interfaz ICellsDataTable**
  Implementar[ICellsDataTable](https://reference.aspose.com/cells/net/aspose.cells/icellsdatatable) para envolver sus diversas fuentes de datos, luego use[Cells.Importar datos()](https://reference.aspose.com/cells/net/aspose.cells/cells/importdata/#importdata) para importar datos a la hoja de cálculo de Excel.
@@ -64,9 +64,9 @@ Para importar datos de una colección de objetos a una hoja de trabajo que conti
 
  Para importar datos de un*Tabla de datos* , llama a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección[**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index) método. Hay muchas versiones sobrecargadas del[**ImportDataTable**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatatable/index)pero una sobrecarga típica toma los siguientes parámetros:
 
-- **Tabla de datos** , la*Tabla de datos* objeto del que está importando el contenido.
+- **Tabla de datos** , el*Tabla de datos* objeto del que está importando el contenido.
 - **¿Se muestra el nombre del campo?** , especifica si los nombres de los*Tabla de datos*las columnas deben importarse a la hoja de trabajo como una primera fila o no.
-- **Celda de inicio** representa el nombre de la celda de inicio (por ejemplo, "A1") desde donde importar el contenido del*Tabla de datos*.
+- **Celda de inicio** , representa el nombre de la celda de inicio (por ejemplo, "A1") desde donde importar el contenido del*Tabla de datos*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -82,7 +82,7 @@ En este ejemplo, se utiliza un modelo de plantilla que inicialmente contiene sol
 
 ## **Importando desde DataColumn (.NET)**
 
-A*Tabla de datos*o*vista de datos*objeto se compone de una o más columnas. Los desarrolladores también pueden importar datos de cualquier Columna/Columnas del*Tabla de datos*o*vista de datos*llamando al[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación. los[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)método acepta un parámetro de tipo[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions). los[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) la clase proporciona un[**índices de columna**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)propiedad que acepta una matriz de índices de columnas.
+A*Tabla de datos*o*vista de datos*objeto se compone de una o más columnas. Los desarrolladores también pueden importar datos de cualquier Columna/Columnas del*Tabla de datos*o*vista de datos*llamando al[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación. Él[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)método acepta un parámetro de tipo[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions). Él[**ImportTableOptions**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) la clase proporciona un[**índices de columna**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes)propiedad que acepta una matriz de índices de columnas.
 
 El código de ejemplo que se proporciona a continuación demuestra el uso de[**ImportTableOptions.ColumnIndexes**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/columnindexes) para importar columnas selectivas.
 
@@ -92,7 +92,7 @@ El código de ejemplo que se proporciona a continuación demuestra el uso de[**I
 
  Para importar datos de un*vista de datos* , llama a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index) método. Hay muchas versiones sobrecargadas del[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdata/index)pero el de DataView toma los siguientes parámetros:
 
-- **Vista de datos:** los*vista de datos*objeto del que está a punto de importar contenido.
+- **Vista de datos:** Él*vista de datos*objeto del que está a punto de importar contenido.
 - **Primera fila:**el número de fila de la primera celda a la que se importarán los datos.
 - **Primera columna:**el número de columna de la primera celda a la que se importarán los datos.
 - **Opciones de importación de tabla:**Las opciones de importación.
@@ -103,7 +103,7 @@ El código de ejemplo que se proporciona a continuación demuestra el uso de[**I
 
  Es posible importar datos desde un*Cuadrícula de datos* llamando al[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) recopilación. Hay muchas versiones sobrecargadas del[**ImportDataGrid**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importdatagrid/index)pero una sobrecarga típica toma los siguientes parámetros:
 
-- **Cuadrícula de datos** , la*Cuadrícula de datos*objeto del que está importando contenido.
+- **Cuadrícula de datos** , el*Cuadrícula de datos*objeto del que está importando contenido.
 - **Numero de fila**el número de fila de la primera celda a la que se importarán los datos.
 - **Número de columna**, el número de columna de la primera celda a la que se importarán los datos.
 - **Insertar filas**, una propiedad booleana que indica si se deben agregar filas adicionales a la hoja de trabajo para ajustar los datos o no.
@@ -114,20 +114,20 @@ El código de ejemplo que se proporciona a continuación demuestra el uso de[**I
 
  Para importar datos de un*Vista en cuadrícula* controle, llame al[**Importar vista de cuadrícula**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)recopilación.
 
-Aspose.Cells nos permite respetar los valores con formato HTML al importar datos a la hoja de cálculo. Cuando el análisis de HTML está habilitado durante la importación de datos, Aspose.Cells convierte el HTML en el formato de celda correspondiente.
+Aspose.Cells nos permite respetar los valores con formato HTML al importar datos a la hoja de cálculo. Cuando el análisis HTML está habilitado durante la importación de datos, Aspose.Cells convierte el HTML en el formato de celda correspondiente.
 
 ## **Importación de datos con formato HTML**
 
- Aspose.Cells proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)clase que proporciona métodos muy útiles para importar datos de fuentes de datos externas. Este artículo muestra cómo analizar texto con formato HTML al importar datos y convertir el HTML en valores de celda con formato.
+ Aspose.Cells proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)clase que proporciona métodos muy útiles para importar datos de fuentes de datos externas. Este artículo muestra cómo analizar texto con formato HTML al importar datos y convertir HTML en valores de celda con formato.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
 ## **Importación de datos desde JSON**
 
-Aspose.Cells proporciona un[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) clase para procesar JSON.[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) la clase tiene un[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) método para importar datos JSON. Aspose.Cells también proporciona un[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) clase que representa las opciones del diseño JSON. los[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)método acepta[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)como parámetro. los[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)La clase proporciona las siguientes propiedades.
+Aspose.Cells proporciona un[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) clase para procesamiento JSON.[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) la clase tiene un[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) método para importar datos JSON. Aspose.Cells también proporciona un[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) clase que representa las opciones del diseño JSON. Él[**Datos de importacion**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)método acepta[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)como parámetro. Él[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)La clase proporciona las siguientes propiedades.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Indica en la matriz que se debe procesar como una tabla o no.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Obtiene o establece un valor que indica si la cadena en JSON se va a convertir en numérica o en fecha.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Obtiene o establece un valor que indica si la cadena en JSON se va a convertir en numérico o de fecha.
 - [**Formato de fecha**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Obtiene y establece el formato del valor de fecha.
 - [**IgnorarArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Indica si ignorar el título si la propiedad del objeto es una matriz
 - [**IgnorarNulo**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Indica si el valor nulo debe ignorarse o no.
@@ -135,7 +135,7 @@ Aspose.Cells proporciona un[**JsonUtilidad**](https://reference.aspose.com/cells
 - [**Formato numérico**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): Obtiene y establece el formato del valor numérico.
 - [**TítuloEstilo**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): Obtiene y establece el estilo del título.
 
-El código de ejemplo que se proporciona a continuación demuestra el uso de la[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) y[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) clases para importar datos JSON.
+El código de ejemplo que se proporciona a continuación demuestra el uso de la[**JsonUtilidad**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) y[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) clases para importar JSON datos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

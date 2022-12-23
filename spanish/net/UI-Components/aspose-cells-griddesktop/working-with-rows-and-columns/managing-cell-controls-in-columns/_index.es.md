@@ -18,7 +18,7 @@ Este tema analiza algunos conceptos importantes sobre la administración de cont
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithRowsandColumns-ManagingControlsInColumns-AccessCheckbox.cs" >}}
 ## **Extracción de los controles Cell**
- Para eliminar un control de celda existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Remover** el control de celda de la columna específica usando el**RemoveCellControl** método de**Aspose.Cells.GridDesktop.Data.GridColumn**.
+ Para eliminar un control de celda existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Eliminar** el control de celda de la columna específica usando el**RemoveCellControl** método de**Aspose.Cells.GridDesktop.Data.GridColumn**.
 
 
 

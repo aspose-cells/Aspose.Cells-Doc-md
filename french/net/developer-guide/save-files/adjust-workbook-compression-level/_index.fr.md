@@ -6,7 +6,7 @@ url: /fr/net/adjust-workbook-compression-level/
 ---
 ## **Ajuster le niveau de compression du classeur**
 
-Les développeurs peuvent ajuster le niveau de compression du classeur lorsqu'ils travaillent avec des classeurs plus volumineux. Les développeurs peuvent donner la priorité aux tailles de fichiers plus petites par rapport au temps de traitement ou vice versa. Aspose.Cells fournit**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** énumération que vous pouvez utiliser pour définir le niveau de compression du classeur. La**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** L'énumération fournit les membres suivants.
+Les développeurs peuvent ajuster le niveau de compression du classeur lorsqu'ils travaillent avec des classeurs plus volumineux. Les développeurs peuvent donner la priorité aux tailles de fichiers plus petites par rapport au temps de traitement ou vice versa. Aspose.Cells fournit**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** énumération que vous pouvez utiliser pour définir le niveau de compression du classeur. Le**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** L'énumération fournit les membres suivants.
 
 - Niveau 1 : La compression la plus rapide mais la moins efficace.
 - Niveau 2 : Un peu plus lent, mais meilleur, que le niveau 1.

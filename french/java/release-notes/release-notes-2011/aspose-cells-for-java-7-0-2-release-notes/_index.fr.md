@@ -20,7 +20,7 @@ url: /fr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Des améliorations sont apportées à la fonctionnalité Feuille à image
 
- Des améliorations sont apportées à la fonctionnalité Excel vers PDF
+ Des améliorations sont apportées pour la fonctionnalité Excel vers PDF
 
 
 
@@ -40,11 +40,11 @@ url: /fr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30809 - Inclure plus de types de conditions de format (pour la fonction de formatage conditionnel) lors de l'enregistrement du fichier XLS
 
- 31192 - Type de cryptage pris en charge : RC4, Microsoft Enhanced Cryptographic Provider 1.0 128 bits
+31192 - Type de cryptage pris en charge : RC4, Microsoft Enhanced Cryptographic Provider 1.0 128 bits
 
- Exceptions
+ Des exceptions
 
-30733 - Obtenez une exception lors de l'utilisation de valeurs scientifiques pour la formule de validation
+ 30733 - Obtenez une exception lors de l'utilisation de valeurs scientifiques pour la formule de validation
 
  30748 - La lecture du fichier de modèle Excel2007 crypté provoque une exception
 
@@ -54,7 +54,7 @@ url: /fr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Insectes
 
- 30616 - Image perdue dans la fonction XLS vers PDF
+ 30616 - Image perdue dans la fonction XLS à PDF
 
  30695 - Axe X/Y perdu dans la fonction graphique à image
 
@@ -62,7 +62,7 @@ url: /fr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30697 - L'image n'a pas été créée correctement pour le graphique pyramidal
 
- 30776 - Un fichier PDF non valide a été généré par la fonction XLS vers PDF
+ 30776 - Un fichier PDF non valide a été généré par la fonctionnalité XLS à PDF
 
  28545 - La valeur de Cell n'était pas rendue correctement avec la propriété "shrink to fit"
 
@@ -70,11 +70,11 @@ url: /fr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 - TextBox.setHtmlText() n'analyse pas correctement le texte enrichi
 
- 30479 - Un crochet supplémentaire a été ajouté pour la valeur de la cellule dans le fichier PDF généré
+30479 - Un crochet supplémentaire a été ajouté pour la valeur de la cellule dans le fichier PDF généré
 
  30899 - La valeur mise à l'échelle de l'image nouvellement ajoutée a été modifiée dans le fichier XLS enregistré
 
-30972 - Le contenu de la zone de texte n'était pas rendu correctement dans le fichier PDF
+ 30972 - Le contenu de la zone de texte n'était pas rendu correctement dans le fichier PDF
 
  31050 - Cell.getStringValue() n'a pas donné la valeur double correcte
 

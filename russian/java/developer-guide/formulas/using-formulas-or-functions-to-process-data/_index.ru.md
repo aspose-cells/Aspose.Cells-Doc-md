@@ -67,8 +67,8 @@ url: /ru/java/get-and-set-formula/
 
  Формулу массива можно применить к ячейке, вызвав метод[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) учебный класс'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) метод.[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) принимает следующие параметры:
 
-- **Формула массива**, формула массива.
-- **Количество рядов**количество строк для заполнения результата формулы массива.
+- **Формула массива**формула массива.
+- **Количество рядов**, количество строк для заполнения результата формулы массива.
 - **Число столбцов**, количество столбцов для заполнения результата формулы массива.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

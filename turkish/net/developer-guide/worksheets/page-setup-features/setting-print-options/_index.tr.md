@@ -35,7 +35,7 @@ Varsayılan olarak, yazdırma alanı, çalışma sayfasının veri içeren tüm 
 
 ### **Baskı Başlıklarını Ayarla**
 
- Aspose.Cells, yazdırılan bir çalışma sayfasının tüm sayfalarında yinelenecek satır ve sütun başlıkları belirlemenizi sağlar. Bunu yapmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Başlık Sütunlarını Yazdır**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) ve[**YazdırBaşlıkSatırları**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)özellikleri.
+ Aspose.Cells, yazdırılan bir çalışma sayfasının tüm sayfalarında yinelenecek satır ve sütun başlıkları belirlemenizi sağlar. Bunu yapmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Başlık Sütunlarını Yazdır**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) ve[**YazdırBaşlıkSatırları**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)özellikler.
 
 Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek tanımlanır. Örneğin, satırlar $1:$2 olarak tanımlanır ve sütunlar $A:$B olarak tanımlanır.
 
@@ -56,7 +56,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
  Önceden tanımlanmış değerler,[**YazdırYorum Türü**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)numaralandırma açıklamalarıyla birlikte aşağıda listelenmiştir.
 
-|**Yorum Türlerini Yazdır**|**Tanım**|
+|**Yorum Türlerini Yazdır**|**Açıklama**|
 |:- |:- |
 |Yerinde Yazdır|Yorumların çalışma sayfasında görüntülendiği şekilde yazdırılacağını belirtir.|
 |YazdırYorum Yok|Yorumların yazdırılmayacağını belirtir.|
@@ -66,7 +66,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
 
 
-|**Yazdırma Hatası Türleri**|**Tanım**|
+|**Yazdırma Hatası Türleri**|**Açıklama**|
 |:- |:- |
 |Yazdırma HatalarıBoş|Hataların yazdırılmayacağını belirtir.|
 |PrintErrorsTire|Hataların "--" olarak yazdırılacağını belirtir.|
@@ -86,7 +86,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
  Önceden tanımlanmış değerler[**BaskıSiparişTürü**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)numaralandırma aşağıda listelenmiştir.
 
-|**Yazdırma Sırası Türleri**|**Tanım**|
+|**Yazdırma Sırası Türleri**|**Açıklama**|
 |:- |:- |
 |AşağıSonraÜzeri|Baskı sırasını aşağı ve yukarı olarak temsil eder.|
 |YukarıSonraAşağı|Baskı sırasını aşağı ve yukarı olarak temsil eder.|

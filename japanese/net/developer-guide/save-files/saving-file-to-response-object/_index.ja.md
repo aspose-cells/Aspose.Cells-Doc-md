@@ -28,7 +28,7 @@ Aspose.Cells により、ファイルの操作が可能になります。この�
 |付属品|スプレッドシートをブラウザーに送信し、.xls/.xlsx またはその他の拡張子に関連付けられた添付ファイルとしてアプリケーションで開きます|
 |列をなして|ドキュメントをブラウザに送信し、スプレッドシートをディスクに保存するかブラウザ内で開くかを選択するオプションを提示します|
 
-### **XLSファイル**
+### **XLS ファイル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
@@ -36,7 +36,7 @@ Aspose.Cells により、ファイルの操作が可能になります。この�
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDFファイル**
+### **PDF ファイル**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

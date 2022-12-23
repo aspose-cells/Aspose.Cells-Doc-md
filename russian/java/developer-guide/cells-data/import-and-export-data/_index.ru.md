@@ -33,7 +33,7 @@ url: /ru/java/import-and-export-data/
 
  Чтобы импортировать данные в электронную таблицу из массива, вызовите метод importArray класса[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)коллекция. Существует много перегруженных версий метода importArray, но типичная перегрузка принимает следующие параметры:
 
-- **Множество**, объект массива, из которого вы импортируете содержимое.
+- **Множество**, объект массива, из которого вы импортируете контент.
 - **Номер строки**номер строки первой ячейки, в которую будут импортированы данные.
 - **Номер столбца**, номер столбца первой ячейки, в которую будут импортированы данные.
 - **Вертикальный**, логическое значение, указывающее, следует ли импортировать данные вертикально или горизонтально.
@@ -65,10 +65,10 @@ url: /ru/java/import-and-export-data/
 
 #### Импорт данных из JSON
 
- Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс для обработки JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс имеет[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод импорта данных JSON. Aspose.Cells также предоставляет[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)класс, который представляет параметры макета JSON.[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод принимает[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) как параметр.[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) класс предоставляет следующие свойства.
+ Aspose.Cells предоставляет[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс обработки JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) класс имеет[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод импорта данных JSON. Aspose.Cells также предоставляет[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)класс, представляющий параметры макета JSON.[**Импорт данных**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) метод принимает[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) как параметр.[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) класс предоставляет следующие свойства.
 
 - [**Массив как таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Указывает на то, что массив должен обрабатываться как таблица или нет.
-- [**КонвертироватьЧисловойОрДате**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Получает или задает значение, указывающее, следует ли преобразовать строку в формате JSON в числовую или дату.
+- [**КонвертироватьЧисловойОрДате**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Получает или задает значение, указывающее, следует ли преобразовать строку в JSON в число или дату.
 - [**Формат даты**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat): Получает и задает формат значения даты.
 - [**Игнораррайтитле**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle): указывает, следует ли игнорировать заголовок, если свойство объекта является массивом
 - [**ИгнорироватьНулл**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull): Указывает, следует ли игнорировать нулевое значение.
@@ -76,7 +76,7 @@ url: /ru/java/import-and-export-data/
 - [**Формат номера**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat): Получает и задает формат числового значения.
 - [**НазваниеСтиль**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle): Получает и задает стиль заголовка.
 
- Пример кода, приведенный ниже, демонстрирует использование[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) а также[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) классы для импорта данных JSON.
+ Пример кода, приведенный ниже, демонстрирует использование[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) и[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) классы для импорта данных JSON.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 

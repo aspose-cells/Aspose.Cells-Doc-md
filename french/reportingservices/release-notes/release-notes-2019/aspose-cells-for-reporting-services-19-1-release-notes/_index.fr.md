@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-511|Prise en charge du saut de page du groupe Tablix (concepteur de rapports Aspose.Cells for Reporting Services)|Nouvelle fonctionnalité|
 |CELLSRS-531|Créer plusieurs onglets en utilisant Aspose.Cells for Reporting Services|Nouvelle fonctionnalité|

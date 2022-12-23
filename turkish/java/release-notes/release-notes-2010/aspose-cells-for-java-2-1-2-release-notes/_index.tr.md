@@ -16,8 +16,8 @@ url: /tr/java/aspose-cells-for-java-2-1-2-release-notes/
 
 - Grafikten Görüntüye özelliği sağlar.
  SpreadSheetML şablon dosyasından RichText'i içe aktarır.
-SpreadSheetML dosyası için harici referanslarla Name nesnesini dışa aktarmayı destekler.
- PageSetup for Excel 2007 dosyalarındaki Resimleri dışa aktarır.
+ SpreadSheetML dosyası için harici referanslarla Name nesnesini dışa aktarmayı destekler.
+PageSetup for Excel 2007 dosyalarındaki Resimleri dışa aktarır.
  TextBox denetimlerini Excel 2007 dosyalarından içe aktarır.
  Smart Markers için ResultSet'ten veri alırken kayıt limiti belirleme desteği sağlar.
  Bir Şeklin konumunu verilen aralığın merkezine ayarlar.
@@ -30,10 +30,10 @@ SpreadSheetML dosyası için harici referanslarla Name nesnesini dışa aktarmay
  Büyük Excel 2007 dosyalarını okuma performansını artırır.
  Büyük Excel 2007 dosyaları için LightCells API performansını artırır.
  Bir belgenin özellikleri için okuma işlemi geliştirildi.
-CSV dosyalarını içe aktarma işlemi geliştirildi.
+ CSV dosyalarını içe aktarma işlemi geliştirildi.
  67 düzeltme ve geliştirme.
 
- Aspose.Cells for Java 2.1.2'de Çözülen Sorunlar
+Aspose.Cells for Java 2.1.2'de Çözülen Sorunlar
 
 
 
@@ -48,7 +48,7 @@ CSV dosyalarını içe aktarma işlemi geliştirildi.
 |11928 | xls| Şablon dosyasını oku|
 |11943 | Hesap TablosuML| OWC tarafından oluşturulan özel dosyayı okuyun|
 |11973 | Hesap TablosuML| OWC tarafından oluşturulan özel dosyayı okuyun|
-|12006 | CSV'ler| csv dosyasını oku|
+|12006 |CSV | csv dosyasını oku|
 |12032 | formül motoru| EĞERSAY formülü|
 |12034 | xls| Sütunları otomatik sığdır|
 |12056 | formül motoru| EĞER formülü|
@@ -72,11 +72,11 @@ CSV dosyalarını içe aktarma işlemi geliştirildi.
 |12493 | xlsx| Koşullu biçimlendirmeyi oku|
 |12498 | çizelge| ChartPoints ve LegendEntries koleksiyonu|
 |12575 | çizelge| PlotArea'nın boyutu|
-|12576 | çizelge|Hata çubuğu|
+|12576 | çizelge| Hata çubuğu|
 |12622 | xlsx| Paylaşılan formülü oku|
 |12625 | xlsx| Grafiği oku|
 |12667 | xls| tarih saat değeri|
-|12684 | CSV'ler| Numarayı oku|
+|12684 |CSV |Numarayı oku|
 |12717 | xls| Mac OS ile Resim|
 |12727 | xls| Belge özelliklerini oku|
 |12750 | xls| Şeklin köprüsünü al|

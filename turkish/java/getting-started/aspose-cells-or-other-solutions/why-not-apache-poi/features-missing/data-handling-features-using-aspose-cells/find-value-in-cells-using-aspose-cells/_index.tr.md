@@ -5,7 +5,7 @@ weight: 10
 url: /tr/java/find-value-in-cells-using-aspose-cells/
 ---
 ## **Aspose.Cells - Cells'de Değer Bulun**
-Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek**ve daha sonra**Bulmak**Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**TAMAM**onu aramak için Excel, eşleşen alanları vurgular.
+Microsoft Excel'de, kullanıcılar belirli verileri içeren hücreleri arayabilir. Örneğin, tıklama**Düzenlemek**ve sonra**Bulmak**Ara iletişim kutusunu açar. Kullanıcılar bir değer girer ve tıklar**Tamam**onu aramak için Excel, eşleşen alanları vurgular.
 
 **Java**
 

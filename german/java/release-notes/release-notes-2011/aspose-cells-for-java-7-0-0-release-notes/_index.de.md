@@ -34,7 +34,7 @@ Wir freuen uns, Aspose.Cells for Java v7.0.0 für die Benutzer ankündigen zu k�
  Verbesserungen wurden für die Shape-to-Image-Funktion vorgenommen
  Für die Chart-to-Image-Funktion wurden Verbesserungen vorgenommen
  Verbesserungen wurden für die Sheet-to-Image-Funktion vorgenommen
- Es wurden Verbesserungen für die Excel-zu-PDF-Funktion vorgenommen
+ Für die Excel-zu-PDF-Funktion wurden Verbesserungen vorgenommen
  Es wurden Verbesserungen für die Funktion „Zeilen/Spalten automatisch anpassen“ vorgenommen
 
 Bekannte Probleme/Einschränkungen
@@ -46,7 +46,7 @@ Bekannte Probleme/Einschränkungen
 - Verwenden von LightCells-APIs
  Lesen von HTML-Dateien
  Lesen/Speichern von Diagrammen/Formen für ODS-Dateien
- Bewahren von Makros beim Lesen der ODS-Datei und Speichern von Makros zurück in die ODS-Datei
+ Bewahren von Makros beim Lesen der Datei ODS und Speichern von Makros zurück in die Datei ODS
 
 
 

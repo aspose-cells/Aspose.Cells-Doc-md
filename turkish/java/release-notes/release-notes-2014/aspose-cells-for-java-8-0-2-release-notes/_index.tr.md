@@ -11,7 +11,7 @@ url: /tr/java/aspose-cells-for-java-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java, 8.0.2 sürümüne güncellendi ve bu sürümün 10'dan fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -22,25 +22,25 @@ Diğer İyileştirmeler ve Değişiklikler
 Geliştirmeler
 
 (CELLSJAVA-40788) - Şekil özellikleri için özel temayı destekler
-(CELLSJAVA-40803) - Elektronik Tabloları HTML'ye Aktarırken Görüntüler İçin İşleme İpuçlarını Ayarla
+(CELLSJAVA-40803) - Elektronik Tabloları Dışa Aktarırken Görüntüler için İşleme İpuçlarını HTML olarak ayarla
 
 Hatalar
 
 (CELLSJAVA-40793) - Aralık, doğru alanı ifade etmiyor
 (CELLSJAVA-40768) - WorkbookRender.toPrinter() yöntemi resim yazdırmıyor
-(CELLSJAVA-40669) - XLTX'i PDF'ye dönüştürürken Pivot Sütunu Büyük sorunu
-(CELLSJAVA-40801) - İşlenmiş PDF dosyasında Cell hizalama sorunları
+(CELLSJAVA-40669) - XLTX'den PDF'e işlenirken Pivot Sütunu Büyük sorunu
+(CELLSJAVA-40801) - İşlenen PDF dosyasında Cell hizalama sorunları
 (CELLSJAVA-40406) - Çok sayıda sütun içeren Excel dosyasını PDF dosyasına dönüştürme
 (CELLSJAVA-40794) - Farklı yazı tipi ayarlarıyla kullanıldığında AutoFitColumns çalışmıyor
 (CELLSJAVA-40816) - Silmek için Cells.DeleteColumn() kullanıldıktan sonra imleç hala son sütuna gidiyor
 (CELLSJAVA-40786) - Üretilen emf şekli orijinal ile aynı değil
-(CELLSJAVA-40806) - PDF'ye dönüştürüldüğünde Excel yer imleri oluşturulmuyor
+(CELLSJAVA-40806) - PDF'e dönüştürüldüğünde Excel yer imleri oluşturulmuyor
 
 
 İstisnalar
 
 (CELLSJAVA-40797) - Cell.getDependents(), NullPointerException'ı atar
-(CELLSJAVA-40800) - MAC OS'de e-tabloyu PDF'ye dönüştürürken CellsException
+(CELLSJAVA-40800) - MAC OS'de e-tabloyu PDF'e dönüştürürken CellsException
 
 Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler
 

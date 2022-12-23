@@ -8,9 +8,9 @@ url: /sv/java/managing-controls/
 
 Utvecklare kan lägga till olika ritobjekt såsom textrutor, kryssrutor, radioknappar, kombinationsrutor, etiketter, knappar, linjer, rektanglar, bågar, ovaler, spinnare, rullningslister, grupprutor etc. Aspose.Cells tillhandahåller namnutrymmet Aspose.Cells.Drawing som innehåller alla ritobjekt. Det finns dock några ritobjekt eller former som inte stöds ännu. Skapa dessa ritobjekt i ett designerkalkylblad med Microsoft Excel och importera sedan designerkalkylarket till Aspose.Cells. Med Aspose.Cells kan du ladda dessa ritobjekt från ett designerkalkylblad och skriva dem till en genererad fil.
 
-## **Lägger till TextBox Control till arbetsbladet**
+## **Lägga till TextBox Control till arbetsbladet**
 
-Ett sätt att betona viktig information i en rapport är att använda en textruta. Till exempel, lägg till text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning etc. Aspose.Cells tillhandahåller klassen TextBoxes, som används för att lägga till en ny textruta i samlingen. Det finns en annan klass,[**Textruta**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), som representerar en textruta som används för att definiera alla typer av inställningar. Den har några viktiga medlemmar:
+ Ett sätt att betona viktig information i en rapport är att använda en textruta. Till exempel, lägg till text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning etc. Aspose.Cells tillhandahåller klassen TextBoxes, som används för att lägga till en ny textruta i samlingen. Det finns en annan klass,[**Textruta**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)som representerar en textruta som används för att definiera alla typer av inställningar. Den har några viktiga medlemmar:
 
 -  De[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) metod returnerar en[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) objekt som används för att justera innehållet i textrutan.
 -  De[**setPlacering**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) metod anger placeringstypen.
@@ -18,7 +18,7 @@ Ett sätt att betona viktig information i en rapport är att använda en textrut
 -  De[**addHyperlink**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String))-metoden lägger till en hyperlänk för textrutan.
 -  De[**FillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) egendom returnerar[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) objekt som används för att ställa in fyllningsformatet för textrutan.
 -  De[**Linjeformat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) egendom returnerar[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) objekt som vanligtvis används för stil och vikt på textrutans rad.
--  De[**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)metod anger inmatningstexten för textrutan.
+-  De[**setText**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) metod anger inmatningstexten för textrutan.
 
 Följande exempel skapar två textrutor i det första kalkylbladet i arbetsboken. Den första textrutan är välutrustad med olika formatinställningar. Den andra är enkel.
 
@@ -38,7 +38,7 @@ Följande exempel använder Excel-filen Microsoft – tsttextboxes.xls – som v
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-ManipulatingTextBoxControls-1.java" >}}
 
-## **Lägger till kontrollruta i arbetsbladet**
+## **Lägger till CheckBox Control till arbetsbladet**
 
 Kryssrutor är praktiska om du vill tillhandahålla ett sätt för en användare att välja mellan två alternativ, till exempel sant eller falskt; Ja eller nej. Aspose.Cells låter dig använda kryssrutor i kalkylblad. Du kan till exempel ha utvecklat ett kalkylblad för ekonomisk projektion där du antingen kan redogöra för ett visst förvärv eller inte. I det här fallet kanske du vill placera en kryssruta överst på kalkylbladet. Du kan sedan länka statusen för den här kryssrutan till en annan cell, så att om kryssrutan är markerad är cellens värde True; om den inte är markerad är cellens värde False.
 
@@ -181,7 +181,7 @@ Följande exempel visar hur man lägger till en listruta i kalkylbladet. Följan
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingListBoxControl-1.java" >}}
 
-## **Lägga till knappkontroll till ett kalkylblad**
+## **Lägga till knappkontroll till ett arbetsblad**
 
 Knappar är användbara för att utföra vissa åtgärder. Ibland är det användbart att tilldela ett VBA-makro till knappen eller tilldela en hyperlänk för att öppna en webbsida.
 
@@ -217,7 +217,7 @@ Aspose.Cells låter dig rita autoformer i dina kalkylblad. Du kan enkelt skapa e
 
 ### **Använder Microsoft Excel**
 
-1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**och välj den linjestil du vill ha.
+1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**, och välj den linjestil du vill ha.
 1. Dra för att rita linjen.
 1. Gör ett eller båda av följande:
  1. För att begränsa linjen att rita i 15 graders vinkel från dess startpunkt, håll ned SKIFT medan du drar.

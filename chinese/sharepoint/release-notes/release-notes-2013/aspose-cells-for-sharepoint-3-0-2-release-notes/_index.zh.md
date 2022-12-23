@@ -12,7 +12,7 @@ url: /zh/sharepoint/aspose-cells-for-sharepoint-3-0-2-release-notes/
 
 
 
-新的功能
+新功能
 
 增强功能
 

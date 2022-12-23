@@ -17,7 +17,7 @@ Pour empêcher d'autres utilisateurs de modifier, déplacer ou supprimer acciden
 1.  Cliquez sur**Révision > Protéger la feuille de calcul**.
 1.  Entrez un mot de passe dans**la case Mot de passe**.
 1.  Sélectionner**Autoriser** options.
-1.  Sélectionner**D'ACCORD** , saisissez à nouveau le mot de passe pour le confirmer, puis sélectionnez**D'ACCORD** encore.
+1.  Sélectionner**D'ACCORD** , saisissez à nouveau le mot de passe pour le confirmer, puis sélectionnez**D'ACCORD** de nouveau.
 
 
 ## **Protéger la feuille de travail à l'aide de Aspose.Cell for Python**

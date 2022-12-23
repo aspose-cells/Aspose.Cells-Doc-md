@@ -144,7 +144,7 @@ xs.sheet.data.setColWidth(ci,width)
     ci:column index
 	width:the width for the column
 ```
--  Få bredden för kolumnen
+-  Hämta bredden för kolumnen
 ```javascript
 xs.sheet.data.cols.sumWidth(min,max)
     // the parameters are:
@@ -173,7 +173,7 @@ xs.sheet.data.displayRight2Left
 
 
 
-för detaljerad information kan du kolla exemplet här
+för detaljerad information, kan du kolla exemplet här
 <https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Examples_GridJs>
 
 

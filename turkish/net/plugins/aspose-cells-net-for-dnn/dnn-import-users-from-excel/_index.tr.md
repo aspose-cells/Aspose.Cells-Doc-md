@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /tr/net/dnn-import-users-from-excel/
 ---
-## **giriiş**
+## **Giriş**
 Aspose .NET Excel Modülünden Kullanıcıları İçe Aktar, geliştiricilerin Excel dosyasından toplu kullanıcıları içe aktarmasına olanak tanır. Bu modül, Aspose.Cells tarafından güçlü elektronik tablo özelliğini göstermektedir.
 ### **Modül Özellikleri**
 Modülün bu ilk sürümü, İçe Aktarma sürecini basit ve kullanımı kolay hale getirmek için aşağıdaki harika özelliklerle zenginleştirilmiştir:
@@ -37,7 +37,7 @@ Aspose .NET Cells DNN için Excel'den Kullanıcı İçe Aktar modülünü aşağ
 1.  Şuraya git:**Ev sahibi** menü ve seçin**Uzantılar**.
 1.  Tıklamak**Uzantı Sihirbazını Kur**.
 1. Belirtildiği gibi, indirilen zip dosyasının konumuna göz atın, onu seçin ve ardından tıklayın**Açık**.
-1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Dönüş** buton.
+1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Geri dönmek** buton.
 
  lütfen kontrol edin[bu modül kurulum videosu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) Daha fazla ayrıntı için DNN'den.
 ## **kullanma**
@@ -53,7 +53,7 @@ DNN modülü için Aspose .NET Cells Import Users from Excel modülünü sayfan�
 ## **Video Demosu**
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=7CN-tz1nYvo) modülü çalışırken görmek için aşağıdaki
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

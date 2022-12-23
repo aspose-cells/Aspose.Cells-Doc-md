@@ -37,7 +37,7 @@ Una vez descargado, siga estos pasos para instalar el módulo en su sitio web de
 1.  Navegar a la**Anfitrión** menú y seleccione**Extensiones**.
 1.  Hacer clic**Instalar asistente de extensión**.
 1. Como se indica, busque la ubicación del archivo zip descargado, selecciónelo y luego haga clic en**Abierto**.
-1.  Hacer clic**próximo** , acepte la licencia, continúe con la instalación. Cuando haya terminado, haga clic en el**Devolver** botón.
+1.  Hacer clic**Próximo** , acepte la licencia, continúe con la instalación. Cuando haya terminado, haga clic en el**Devolver** botón.
 
  por favor, compruebe[video de instalacion de este modulo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) de DNN para más detalles.
 ## **Usando**
@@ -53,7 +53,7 @@ Ha agregado con éxito Aspose .NET Cells Importar usuarios del módulo Excel par
 ## **Vídeo de demostración**
  por favor, compruebe[el video](https://www.youtube.com/watch?v=7CN-tz1nYvo) a continuación para ver el módulo en acción.
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
@@ -76,5 +76,5 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abierto**Aspose.DNN.ImportUsersFromExcel.sln**

@@ -17,9 +17,9 @@ url: /zh/java/create-pdfbookmarkentry-for-chart-sheet/
 - 书签-III
 - 书签-IV-图表2
 
-以下屏幕截图显示了[输出PDF](61767771.pdf)生成的示例代码供参考。
+以下屏幕截图显示了[输出 PDF](61767771.pdf)生成的示例代码供参考。
 
-![待办事项：图像_替代_文本](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![待办事项：图片_替代_文本](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **示例代码**
 

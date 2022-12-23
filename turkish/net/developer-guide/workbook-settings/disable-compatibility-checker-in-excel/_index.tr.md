@@ -21,12 +21,12 @@ Bazen, belirli bir e-tablo için Uyumluluk Denetleyicisini devre dışı bırakm
 
 Microsoft Excel'de Uyumluluk Denetleyicisini devre dışı bırakmak için (örneğin Microsoft Excel 2007/2010):
 
--  (Excel 2007) Office düğmesinde,**HAZIRLAMA** , sonra**Uyumluluk Denetleyicisini Çalıştır** ve ardından temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
--  (Excel 2010) Dosya sekmesinde,**Bilgi** , sonra**Sorunları kontrol et** , Tıklayın**Uyumluluğu Kontrol Edin** , ve son olarak, temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
+-  (Excel 2007) Office düğmesinde,**Hazırlamak** , o zamanlar**Uyumluluk Denetleyicisini Çalıştır** ve ardından temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
+-  (Excel 2010) Dosya sekmesinde,**Bilgi** , o zamanlar**Sorunları kontrol et** , Tıklayın**Uyumluluğu Kontrol Edin** , ve son olarak, temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
 
 ## **Aspose.Cells API'leri kullanma**
 
- Yı kur[**Workbook.Settings.CheckComptiliblite**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) mülkiyet**Yanlış** Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için.
+ Yı kur[**Workbook.Settings.CheckComptiliblite**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcompatibility) mülkiyet**YANLIŞ** Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için.
 
 ### **Kod Örnekleri**
 

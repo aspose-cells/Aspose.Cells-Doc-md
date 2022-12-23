@@ -10,6 +10,6 @@ url: /es/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 
 {{% /alert %}}
 
- El siguiente código crea**Gráfico de dispersión conectado por líneas con marcadores de datos** y luego agrega**Etiquetas personalizadas** hacia**Puntos de datos** en el**Serie** del**Cuadro**. Cada etiqueta personalizada muestra el**Nombre de la serie** y**Nombre del punto**. Puede utilizar cualquier otro texto en lugar de él.
+ El siguiente código crea**Gráfico de dispersión conectado por líneas con marcadores de datos** y luego agrega**Etiquetas personalizadas** al**Puntos de datos** en el**Serie** del**Gráfico**. Cada etiqueta personalizada muestra el**Nombre de la serie** y**Nombre del punto**. Puede utilizar cualquier otro texto en lugar de él.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}

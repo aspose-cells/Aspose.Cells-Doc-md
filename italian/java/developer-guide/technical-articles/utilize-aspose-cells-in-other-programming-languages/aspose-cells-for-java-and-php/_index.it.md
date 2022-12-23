@@ -15,7 +15,7 @@ url: /it/java/aspose-cells-for-java-and-php/
 
  Queste classi wrapper possono essere trovate nella directory PHP dell'archivio aspose.cells.zip sotto forma di file PHP.
 ## **Utilizzando PHP4**
- PHP4 funziona anche con Aspose.Cells for Java ma in questo caso gli sviluppatori dovrebbero lavorare direttamente con le classi Java.
+ PHP4 funziona anche con Aspose.Cells for Java ma in questo caso, gli sviluppatori dovrebbero lavorare direttamente con le classi Java.
 
 {{% alert color="primary" %}} 
 

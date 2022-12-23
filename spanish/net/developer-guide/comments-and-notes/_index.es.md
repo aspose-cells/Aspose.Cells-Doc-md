@@ -33,9 +33,9 @@ Con Microsoft Excel 2007, también es posible tener una imagen como fondo de un 
 1.  Seleccione**Formato** , después**Comentario**.
 1.  Sobre el**Colores y Líneas** pestaña, expanda la**Color** lista.
 1.  Hacer clic**Efectos de relleno**.
-1.  Sobre el**Imagen** pestaña, haga clic**Seleccionar imagen**.
+1.  Sobre el**Fotografía** pestaña, haga clic**Seleccionar imagen**.
 1. Localiza y selecciona la imagen.
-1.  Hacer clic**OK** hasta que todos los cuadros de diálogo se hayan cerrado.
+1.  Hacer clic**DE ACUERDO** hasta que todos los cuadros de diálogo se hayan cerrado.
 
 Aspose.Cells también ofrece esta función. A continuación se muestra un ejemplo de código que crea un archivo XLSX desde cero, agregando un comentario a la celda "A1" con una imagen configurada como fondo.
 

@@ -18,18 +18,18 @@ url: /zh/java/aspose-cells-for-java-18-6-release-notes/
 |CELLSJAVA-42646|异常：Name.getRefersTo() 上的“FormulaBuild](/p Unknown formula token0”|强化|
 |CELLSJAVA-42645|异常：Cell.getFormula() 上的“FormulaBuild More than one token in stack...”|强化|
 |CELLSJAVA-42516|Aspose.Cells 接受并更正一个无效的公式|强化|
-|CELLSJAVA-42636|某些绘图形状在 Excel 到 HTML 呈现中被置换或错误呈现|漏洞|
+|CELLSJAVA-42636|某些绘图形状在 Excel 中被置换或错误渲染为 HTML 渲染|漏洞|
 |CELLSJAVA-42627|CELLSJAVA-42619 - 无法正确提取 Smart Art 图像|漏洞|
 |CELLSJAVA-42618|形状被置换以覆盖 Excel 中的数据以 HTML 呈现|漏洞|
 |CELLSJAVA-42628|公式计算错误，例如生成#DIV/0！错误|漏洞|
-|CELLSJAVA-42615|Cell A3 格式在输出 HTML 中不正确|漏洞|
+|CELLSJAVA-42615|Cell 输出中的 A3 格式不正确 HTML|漏洞|
 |CELLSJAVA-42621|从 MS Excel 文件生成 PDF 文件时性能不佳|漏洞|
 |CELLSJAVA-42620|XLSX 到 TIFF - NoClassDefFoundError 异常|漏洞|
 |CELLSJAVA-42599|Excel 文件转换为 PDF 时图像丢失|漏洞|
 |CELLSJAVA-42630|Chart.calculate 方法导致 OutOfMemoryError|漏洞|
 |CELLSJAVA-42623|将 Excel 文件渲染为 PDF 文件格式时内存增加|漏洞|
 |CELLSJAVA-42592|由于 characters() 方法，图表标题的字体大小发生了变化|漏洞|
-|CELLSJAVA-41860|重新保存 XLS 时改变了阴影效果|漏洞|
+|CELLSJAVA-41860|重新保存时更改阴影效果 XLS|漏洞|
 |CELLSJAVA-42654|Excel 到 PDF 的转换 - 转换永远不会完成|漏洞|
 |CELLSJAVA-42647|无法获取或设置评论形状的替代文本|漏洞|
 |CELLSJAVA-42644|Aspose.Cells 在将电子表格 ml 文件 (xml) 转换为具有自闭合样式标签的 PDF 时挂起|漏洞|
@@ -56,7 +56,7 @@ url: /zh/java/aspose-cells-for-java-18-6-release-notes/
 
 ### **添加 CellWatchCollection 和 CellWatch 类，添加 Worksheet.CellWatches 属性**
 
-在“监视窗口”中添加 Cell 监视项目。
+在“监视窗口”中添加 Cell 监视项。
 
 ### **添加 CustomXmlShape 类和 MsoDrawingType.CustomXml 枚举**
 

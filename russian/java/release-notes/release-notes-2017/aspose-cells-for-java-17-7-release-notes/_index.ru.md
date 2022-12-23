@@ -17,13 +17,13 @@ url: /ru/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|Усовершенствования, необходимые для фильтров данных и функций разбиения по страницам — Aspose.Cells.GridWeb (Java)|Улучшение|
 |CELLSJAVA-41616|SaveCustomStyleFile отсутствует в GridWeb (Java)|Улучшение|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() не должна быть (глобальной) статической функцией|Улучшение|
-|CELLSJAVA-42327|Некоторые фигуры искажаются и изменяются при рендеринге Excel в PDF.|Ошибка|
-|CELLSJAVA-42290|Тире и тире, вставленные в текстовые поля на диаграммах, не отображаются должным образом в PDF-файле диаграммы.|Ошибка|
+|CELLSJAVA-42327|Некоторые фигуры искажены и изменены в Excel на рендеринг PDF.|Ошибка|
+|CELLSJAVA-42290|Тире и тире, вставленные в текстовые поля в диаграммах, не отображаются должным образом в диаграмме PDF.|Ошибка|
 |CELLSJAVA-42338|Неверные результаты при использовании формул СУММЕСЛИМН|Ошибка|
 |CELLSJAVA-42337|Aspose.Cells не удается вычислить значение ячейки B4 листа вычислений|Ошибка|
 |CELLSJAVA-42330|Странный результат при преобразовании из Excel в PDF или PDF/A с использованием потоков|Ошибка|
 |CELLSJAVA-42331|Изменения в поле автора комментария не сохраняются|Ошибка|
-|CELLSJAVA-42328|Возвращен неправильный IconSet|Ошибка|
+|CELLSJAVA-42328|Возвращен неверный IconSet|Ошибка|
 |CELLSJAVA-42324|Фон диаграммы отсутствует после установки данных изображения|Ошибка|
 |CELLSJAVA-42340|Исключение в потоке "Thread-2" java.lang.OutOfMemoryError: превышен лимит накладных расходов GC|Исключение|
 |CELLSJAVA-42334|Исключение «Ошибка для ZipFile» возникает при использовании OutputFileStream|Исключение|
@@ -65,7 +65,7 @@ url: /ru/java/aspose-cells-for-java-17-7-release-notes/
 ### **Примеры использования**
 Пожалуйста, проверьте список разделов справки, добавленных в Aspose.Cells вики-документы:
 
-- [Читать электронную таблицу чисел, разработанную Apple Inc. с использованием Aspose.Cells](/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells](/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Установите свойство DefaultFont PdfSaveOptions и ImageOrPrintOptions, чтобы иметь приоритет](/cells/ru/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Импорт данных из объекта ResultSet базы данных Microsoft на рабочий лист](/cells/ru/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Применить расширенный фильтр Microsoft Excel для отображения записей, отвечающих сложным критериям](/cells/ru/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

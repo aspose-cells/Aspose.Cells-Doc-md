@@ -14,7 +14,7 @@ url: /ar/java/aspose-cells-java-for-python/
 
 Aspose.Cells for Java هي مكتبة صفية متقدمة for Java تمكنك من أداء مجموعة كبيرة من مهام معالجة المستندات مباشرة داخل تطبيقات Java الخاصة بك.
 
-Aspose.Cells for Java يدعم معالجة Excel (XLS و XLSX و XLSB و XLSM و XLT و XLTX و XLTM) و CSV (قيم مفصولة بفواصل) و TSV (قيم مفصولة بعلامات جدولة) و TabDelimited (ملف نصي محدد بعلامات جدولة) و Html و MHtml و ODS ( OpenDocument Spreadsheet) و SpreadsheetML و Numbers (تم إنشاء المستند بواسطة تطبيق "Numbers" من Apple). باستخدام Aspose.Cells ، يمكنك إنشاء المستندات وتعديلها وتحويلها دون استخدام Microsoft Excel.
+Aspose.Cells for Java يدعم معالجة Excel (XLS ، XLSX ، XLSB ، XLSM ، XLT ، XLTX ، XLTM) ، CSV (قيمة مفصولة بفاصلة) ، TSV (قيم مفصولة بعلامات جدولة 1 ، TSV (قيم مفصولة بعلامات جدولة 1) ، TSV (قيم مفصولة بعلامات جدولة 1) ، TSV (قيم مفصولة بعلامات جدولة 481) ، TSV (قيم مفصولة بعلامات جدولة) جدول بيانات OpenDocument) ، SpreadsheetML ، و Numbers (تم إنشاء المستند بواسطة تطبيق Apple "Numbers"). باستخدام Aspose.Cells ، يمكنك إنشاء المستندات وتعديلها وتحويلها بدون استخدام Microsoft Excel.
 
 ## **Aspose.Cells Java لـ Jython**
 

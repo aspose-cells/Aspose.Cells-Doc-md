@@ -31,6 +31,6 @@ Rimozione di fogli di lavoro utilizzando l'indice dei fogli
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Rimozione di fogli di lavoro utilizzando l'indice dei fogli (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Rimozione di fogli di lavoro utilizzando l'indice dei fogli (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetIndex.php)

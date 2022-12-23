@@ -28,6 +28,6 @@ Führen Sie nun die Anwendung aus. Wenn Sie auf die Zelle doppelklicken, in der 
 
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridDesktop unterstützt die meisten häufig verwendeten Funktionen von MS Excel. Weitere Einzelheiten zur Liste der unterstützten Funktionen finden Sie unter[Klick hier.](/cells/de/net/list-of-supported-functions/)
+ Aspose.Cells.GridDesktop unterstützt die meisten häufig verwendeten Funktionen von MS Excel. Weitere Einzelheiten zur Liste der unterstützten Funktionen finden Sie unter[klicken Sie hier.](/cells/de/net/list-of-supported-functions/)
 
 {{% /alert %}}

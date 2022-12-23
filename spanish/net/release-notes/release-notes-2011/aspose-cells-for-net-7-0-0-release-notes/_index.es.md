@@ -20,13 +20,13 @@ url: /es/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29580 Repetición de partes de la hoja de trabajo en función de los datos de entrada
 
- 29377 Exportar problema de GroupShape a formato XLS
+ 29377 Exportar problema de GroupShape al formato XLS
 
  29632 Lanza una excepción cuando el nombre de la hoja contiene caracteres especiales
 
- 29153 Soporte de formato condicional en salida HTML
+ 29153 admite formato condicional en la salida HTML
 
- Actuación
+ Rendimiento
 
  29451 El método CalculateFormula() es muy lento
 
@@ -50,7 +50,7 @@ url: /es/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Insectos
 
- 29413 Se cambian los valores de DataRow
+29413 Se cambian los valores de DataRow
 
  29599 Problema de gráfico con barras 3D a imagen
 
@@ -58,7 +58,7 @@ url: /es/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Gráfico de radar a problema de imagen
 
-29777 VLookup no funciona
+ 29777 VLookup no funciona
 
  29408 Agregar elemento calculado en la tabla dinámica
 
@@ -94,7 +94,7 @@ url: /es/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Importar fórmulas con valores desde archivo Excel
 
- 29381 Importar archivo de Excel desde flujo sin calcular todas las fórmulas
+29381 Importar archivo de Excel desde flujo sin calcular todas las fórmulas
 
  Insectos
 

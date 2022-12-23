@@ -17,7 +17,7 @@ L'exemple de code suivant charge le[exemple de fichier Excel](61767772.xlsx)qui 
 - Signet-III
 - Signet-IV-Graphique2
 
-La capture d'écran suivante montre le[PDF de sortie](61767771.pdf)généré par l'exemple de code pour une référence.
+La capture d'écran suivante montre le[sortie PDF](61767771.pdf)généré par l'exemple de code pour une référence.
 
 ![tâche : image_autre_texte](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

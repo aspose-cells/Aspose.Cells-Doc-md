@@ -16,7 +16,7 @@ url: /ar/java/aspose-cells-java-for-struts/
 Aspose.Cells for Java هي مكتبة صفية متقدمة for Java تمكنك من أداء مجموعة كبيرة من مهام معالجة المستندات مباشرة داخل Java
 التطبيقات.
 
-Aspose.Cells for Java يدعم معالجة Cells (DOC و DOCX و OOXML و RTF) HTML و OpenDocument و PDF و EPUB و XPS و SWF وجميع تنسيقات الصور. مع Aspose.Cells يمكنك ذلك
+Aspose.Cells for Java يدعم معالجة Cells (DOC ، DOCX ، OOXML ، RTF) HTML ، OpenDocument ، PDF ، EPUB ، XPS ، SWF وجميع تنسيقات الصور. مع Aspose.Cells يمكنك ذلك
 إنشاء وتعديل وتحويل المستندات دون استخدام Microsoft Cells.
 ## **متطلبات النظام**
 **فيما يلي متطلبات النظام لـ Aspose.Cells Java لتطبيق الويب Struts 1.3:**

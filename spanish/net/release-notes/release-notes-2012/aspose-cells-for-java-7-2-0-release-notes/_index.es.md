@@ -35,7 +35,7 @@ Aspose.Cells
 - Shapes.AddCopy lanza: el índice estaba fuera de rango
 - NullReferenceException después de copiar la hoja de trabajo
 - Excepción: se produjo un valor de cadena MsoLineDashStyle no válido al abrir el archivo
-- No se pueden convertir algunos archivos XLSX a formato TIFF
+- No se pueden convertir algunos archivos XLSX al formato TIFF
 
 
 
@@ -44,7 +44,7 @@ Aspose.Cells
 
 
 - .NET C++ Error de compilación C2686
-- Conversión de archivo XLS a formato de texto de descarte XLSX
+- Convertir el archivo XLS a XLSX descartar formato de texto
 - Copie gráficos de un libro de trabajo a otro
 - Coloración de celda dañada después de copiar la hoja de trabajo
 - Hipervínculos que no se mueven con celdas ordenadas

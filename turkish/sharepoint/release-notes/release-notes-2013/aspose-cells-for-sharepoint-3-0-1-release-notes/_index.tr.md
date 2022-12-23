@@ -16,7 +16,7 @@ url: /tr/sharepoint/aspose-cells-for-sharepoint-3-0-1-release-notes/
 
  SHAREPOINT-40018- Belgede SharePoint'te arama yapın
 
-SHAREPOINT-40015- Ekle Aspose.Cells for SharePoint araç çubuğu for SharePoint 2010
+ SHAREPOINT-40015- Ekle Aspose.Cells for SharePoint araç çubuğu for SharePoint 2010
 
 
 

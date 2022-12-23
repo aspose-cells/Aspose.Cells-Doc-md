@@ -9,5 +9,5 @@ url: /ar/reportingservices/features/
 - [دعم RDL الشامل](/cells/ar/reportingservices/comprehensive-rdl-support/)
 - [استخدم أداة عميل مصمم التقارير](/cells/ar/reportingservices/make-use-of-report-designer-client-tool/)
 - [حساب الصيغة المتقدمة](/cells/ar/reportingservices/advanced-formula-calculation/)
-- [متفرقات](/cells/ar/reportingservices/miscellaneous/)
+- [متنوع](/cells/ar/reportingservices/miscellaneous/)
 - [دعم فني مجاني عالمي المستوى](/cells/ar/reportingservices/world-class-free-technical-support/)

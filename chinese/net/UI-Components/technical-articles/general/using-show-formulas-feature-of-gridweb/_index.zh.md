@@ -24,8 +24,8 @@ Aspose.Cells.GridWeb 提供了在 Microsoft Excel 中称为显示公式的功能
 
 该文件已加载到 GridWeb 中，我们可以在下图中看到一张包含所有值的工作表。
 
-![待办事项：图像_替代_文本](using-show-formulas-feature-of-gridweb_1.png)
+![待办事项：图片_替代_文本](using-show-formulas-feature-of-gridweb_1.png)
 
 按 CTRL + ~ 后，显示所有公式。
 
-![待办事项：图像_替代_文本](using-show-formulas-feature-of-gridweb_2.png)
+![待办事项：图片_替代_文本](using-show-formulas-feature-of-gridweb_2.png)

@@ -20,7 +20,7 @@ Aspose.Cells, çalışma zamanında çalışma sayfalarına üst bilgiler ve alt
 
 Komut dosyası komutları, üst bilgi ve alt bilgi biçimlendirmesini ayarlamanıza izin veren özel komutlardır.
 
-|**Komut Dosyası Komutları**|**Tanım**|
+|**Komut Dosyası Komutları**|**Açıklama**|
 |:- |:- |
 |&P|geçerli sayfa numarası|
 |&G|Bir resim|

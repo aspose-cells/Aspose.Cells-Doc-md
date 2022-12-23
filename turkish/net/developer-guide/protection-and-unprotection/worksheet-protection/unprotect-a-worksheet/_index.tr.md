@@ -16,7 +16,7 @@ Bir geliştiricinin dosyada bazı değişiklikler yapılabilmesi için çalışm
 
 Bir çalışma sayfasından korumayı kaldırmak için:
 
- itibaren**Aletler** menü, seç**Koruma** bunu takiben**Sayfanın korumasını kaldır**. Çalışma sayfası parola korumalı olmadığı sürece koruma kaldırılacaktır. Bu durumda, bir iletişim kutusu parola ister. Parolayı girin ve çalışma sayfası korumasız olacaktır.
+ itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfanın korumasını kaldır**. Çalışma sayfası parola korumalı olmadığı sürece koruma kaldırılacaktır. Bu durumda, bir iletişim kutusu parola ister. Parolayı girin ve çalışma sayfası korumasız olacaktır.
 
 ### **Aspose.Cells Kullanarak Basitçe Korunan Bir Çalışma Sayfasının Korumasını Kaldırma**
 

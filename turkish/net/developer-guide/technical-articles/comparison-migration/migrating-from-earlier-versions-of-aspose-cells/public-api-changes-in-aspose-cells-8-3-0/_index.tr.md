@@ -81,7 +81,7 @@ Console.WriteLine(settings.RepairLoad);
 
 
 ### **Özellik TxtLoadOptions.KeepExactFormat Eklendi**
-TxtLoadOptions sınıfına, dize/metin sayılara veya DateTime'a dönüştürüldüğünde hücre değeri için tam biçimlendirmenin korunması gerekip gerekmediğini gösteren KeepExactFormat özelliği eklendi. Bu özellik, CSV dosyalarından DateTime veya sayısal değerleri yüklemek için MS Excel uygulamasının davranışını eşleştirmek için eklenmiştir. MS Excel'in davranışını simüle etmek için, KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer ise true'dur, böylece hücre değeri CSV dosyasında dize olarak biçimlendirilecektir.
+TxtLoadOptions sınıfına, dize/metin sayılara veya DateTime'a dönüştürüldüğünde hücre değeri için tam biçimlendirmenin korunması gerekip gerekmediğini gösteren KeepExactFormat özelliği eklendi. Bu özellik, MS Excel uygulamasının CSV dosyalarından DateTime veya sayısal değerleri yükleme davranışına uyması için eklenmiştir. MS Excel'in davranışını simüle etmek için, KeepExactFormat özelliğini false olarak ayarlayın, varsayılan değer ise true'dur, böylece hücre değeri CSV dosyasında dize olarak biçimlendirilecektir.
 
 **C#**
 

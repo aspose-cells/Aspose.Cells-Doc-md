@@ -14,28 +14,28 @@ url: /tr/net/aspose-cells-for-net-20-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-47309|ASPOSE ile kaydettikten sonra IFS formülleri kaşlı ayraçlarla sarılır|Yeni özellik|
 |CELLSNET-47710|Sheet() işleviyle Destek Formülü|Yeni özellik|
-|CELLSNET-47672|HTML'ye dönüştürürken çıktı boyutunu azaltın|Artırma|
+|CELLSNET-47672|HTML'e dönüştürürken çıktı boyutunu azaltın|Artırma|
 |CELLSNET-47674|Metin sonraki hücrelerle örtüştüğünde ek sütunları göster|Artırma|
 |CELLSNET-47749|Workbook.RemoveMacro'da ods makrosunu kaldırın|Artırma|
 |CELLSNET-47759|Cell.HtmlString'i ayarlarken h1 etiketini destekleyin|Artırma|
 |CELLSNET-47771|Yeni çalışma sayfası eksik mc:Ignorable="x14ac xr xr2 xr3"|Artırma|
-|CELLSNET-47758| Karmaşık XLSM'yi HTML'ye dönüştürmek çok zaman alıyor|Verim|
-|CELLSNET-47578|Cells belgesi HTML'ye dönüştürülürken açılmamış SPAN etiketiyle geçersiz biçimlendirme üretildi|Böcek|
-|CELLSNET-47776|HTML açmaya çalışırken DirectoryNotFoundException|Böcek|
-|CELLSNET-47643|Excel'den HTML'ye dönüştürmedeki yeni çıktıdaki bazı ekstra sütunlar|Böcek|
-|CELLSNET-47688|Bazı tank avcıları, HTML'den PDF'e dönüştürmede Wingdings yazı tipi için yazı tipi hatasına neden olur|Böcek|
+|CELLSNET-47758| XLSM'den HTML'e dönüştürme kompleksi çok zaman alıyor|Verim|
+|CELLSNET-47578|Cells belgesi HTML'e dönüştürülürken açılmamış SPAN etiketiyle geçersiz biçimlendirme üretildi|Böcek|
+|CELLSNET-47776|HTML'i açmaya çalışırken DirectoryNotFoundException|Böcek|
+|CELLSNET-47643|Excel'deki yeni çıktıda HTML oluşturmaya yönelik bazı ekstra sütunlar|Böcek|
+|CELLSNET-47688|Bazı tank avcıları, HTML ila PDF oluşturmada Wingdings yazı tipi için yazı tipi hatasına neden olur|Böcek|
 |CELLSNET-47690|Html'nin Xlsx'e dönüştürülmesi, html tablosunun stiline uymuyor|Böcek|
 |CELLSNET-47718|Dosyayı html'ye aktarırken resimler yanlış hizalanıyor|Böcek|
 |CELLSNET-47729|Html'yi excel'e aktarırken resimler metni fazla kaplıyor|Böcek|
-|CELLSNET-47746|HTML niteliklerinin değerlerinde kodlanmamış alıntılar|Böcek|
-|CELLSNET-47747|Excel'i HTML'ye dönüştürürken farklar|Böcek|
+|CELLSNET-47746|HTML öznitelik değerlerinde kodlanmamış alıntılar|Böcek|
+|CELLSNET-47747|Excel'i HTML'e dönüştürürken farklar|Böcek|
 |CELLSNET-47763|Pivot verileri yenilendikten sonra serinin değeri doğru değil.|Böcek|
 |CELLSNET-47731|Yanlış PPMT formül yürütme sonucu|Böcek|
 |CELLSNET-47734|Sütun eklemek ve formülü değiştirmek diğer formülleri siler|Böcek|
 |CELLSNET-47738|otomatik filtre excel olarak çalışmıyor|Böcek|
-|CELLSNET-47764|XLSX'ten CSV'ye dönüştürme sırasında bilimsel sayıya dönüştürülen sayı|Böcek|
+|CELLSNET-47764|XLSX'den CSV'e dönüştürme sırasında bilimsel sayıya dönüştürülen sayı|Böcek|
 |CELLSNET-47740| Satırları otomatik sığdırırken metin özel yazı tipiyle kırpılır (ilk satır görüntülenmez)|Böcek|
-|CELLSNET-47753|Excel'i PDF'ye dönüştürürken simgenin etrafındaki kenarlık|Böcek|
+|CELLSNET-47753|Excel'i PDF'e dönüştürürken simgenin etrafındaki kenarlık|Böcek|
 |CELLSNETCORE-88|SetFontFolders, veri serisi etiketleriyle düzgün çalışmıyor|Böcek|
 |CELLSNET-47739|Açıklama, etiket metni yerine serinin adını gösterir|Böcek|
 |CELLSNET-47713|Excel dosyasında "gizli ad tanımı" bulunduğunda sayfaların kopyalanmasıyla ilgili sorun|Böcek|
@@ -51,7 +51,7 @@ url: /tr/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47735|XLSB açılırken istisna|İstisna|
 |CELLSNET-47741|DeleteBlankColumns çağrılırken sütun dizini pivot tablo raporu istisnası içinde olmamalıdır|İstisna|
 |CELLSNET-47750|XLSX açılamıyor|İstisna|
-|CELLSNET-47751|XLSX, XLSM'ye dönüştürülemiyor|İstisna|
+|CELLSNET-47751|XLSX, XLSM'e dönüştürülemiyor|İstisna|
 |CELLSNET-47773|Çalışma sayfasını resme dönüştürürken ArgumentOutOfRangeException|İstisna|
 |
 

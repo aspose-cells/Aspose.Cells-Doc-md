@@ -10,7 +10,7 @@ Aspose.Cells vous permet de définir un dégradé, une texture, un motif ou une 
 
 {{% /alert %}}
 
-Pour ce faire, Aspose.Cells fournit le[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) propriété. L'exemple de code suivant illustre l'utilisation de[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) propriété pour définir une image comme remplissage d'arrière-plan dans le graphique.
+Pour ce faire, Aspose.Cells fournit le[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) la propriété. L'exemple de code suivant illustre l'utilisation de[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) propriété pour définir une image comme remplissage d'arrière-plan dans le graphique.
 
 ## C# code pour définir l'image comme arrière-plan remplir le tableau
 

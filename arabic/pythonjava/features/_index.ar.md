@@ -12,12 +12,12 @@ description: Aspose.Cells for Python via Java ميزات
 
 {{% /alert %}} 
 ## **تنسيقات الملفات والتحويلات**
-- XLS و SpreadsheetML (XLSX و XML) وقيمة مفصولة بفواصل (CSV) و HTML و OpenDocument Spreadsheet (ODS) و PDF و Tab Delimited و Plain Text (TXT)
+- XLS، SpreadsheetML (XLSX، XML)، قيمة مفصولة بفواصل (CSV)، HTML، OpenDocument Spreadsheet (ODS)، PDF، Tab Delimited، Plain Text (TXT)
 ## **التقديم والطباعة**
-- عرض جدول البيانات إلى صور متجهة (EMF)
-- تقديم أوراق العمل إلى صور نقطية (Multipage TIFF، GIF)
+- عرض جدول البيانات للصور المتجهة (EMF)
+- تقديم أوراق العمل إلى صور نقطية (Multipage TIFF ، GIF)
 - عرض أوراق العمل على الصور النقطية (PNG ، JPEG ، إلخ.)
-- تحويل جدول البيانات إلى PDF بدقة عالية
+- تقديم جدول البيانات إلى PDF بدقة عالية
 ## **ميزات محتوى جدول البيانات**
 - انسخ أوراق العمل أو انقلها داخل المصنفات أو بينها
 - قم بإدراج الصور وإنشاء المخططات التقليدية والمخصصة وتعيين خلفية متدرجة للمخططات باستخدام API

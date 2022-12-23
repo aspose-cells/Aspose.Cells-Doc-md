@@ -14,4 +14,4 @@ Esta página contiene notas de la versión para Aspose.Cells for C++ 22.8 para W
 |:- |:- |:- |
 |CELLSCPP-859| Solucionar el problema de referencia API|Insecto|
 |CELLSCPP-880| Solucione el error de formato de archivo de fods abierto|Insecto|
-|CELLSCPP-881| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-881| Funciones de sincronización con la versión .Net|Soporte|

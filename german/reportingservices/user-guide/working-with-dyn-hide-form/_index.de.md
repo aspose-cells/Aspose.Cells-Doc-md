@@ -21,7 +21,7 @@ Informationen ausblenden:
 
 
 1. Bearbeiten Sie die Ausblendungsinformationen.
-1.  Klicken**Hinzufügen** Informationen zum Ausblenden hinzuzufügen.
+1.  Klicken**Addieren** Informationen zum Ausblenden hinzuzufügen.
 
 ![todo: Bild_alt_Text](working-with-dyn-hide-form_2.png)
 

@@ -35,11 +35,11 @@ url: /zh/java/copy-shapes-between-worksheets/
 
    **带有图表的工作表“图表”**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_1.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_1.png)
 
 **带有图片的工作表“图片”**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_2.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_2.png)
 
 现在，将名为“Picture”的工作表中的图片复制到最后一个工作表“Result”中。
 
@@ -80,7 +80,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar;类名.javajava -classpath %cla
 
 **带有复制图片的工作表“结果”**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_3.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_3.png)
 
 ### **任务 2：将图表从一个工作表复制到另一个工作表**
 
@@ -96,13 +96,13 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar;类名.javajava -classpath %cla
 
 **带有复制图片和图表的工作表“结果”**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_4.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_4.png)
 
 ### **任务 3：将控件和其他绘图对象从一个工作表复制到另一个工作表**
 
 **带有文本框和椭圆形的“控制”工作表**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_5.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_5.png)
 
 请参阅以下简单步骤，您需要执行这些步骤才能获得所需的结果。
 
@@ -118,7 +118,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar;类名.javajava -classpath %cla
 
 **带有复制的文本框和椭圆形的工作表“结果”**
 
-![待办事项：图像_替代_文本](copy-shapes-between-worksheets_6.png)
+![待办事项：图片_替代_文本](copy-shapes-between-worksheets_6.png)
 
 ## **结论**
 

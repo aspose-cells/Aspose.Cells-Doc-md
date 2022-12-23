@@ -37,7 +37,7 @@ url: /es/java/aspose-cells-for-java-2-3-1-release-notes/
 |17818 | xlsx| Lectura del archivo de plantilla|
 |17835 | html| Coloreado de líneas, formato RichText|
 |17837 | xls| Problema de ancho de columna|
-|17960 | pdf| El PDF generado permanece vacío|
+|17960 | pdf| PDF generado permanece vacío|
 |17963 | xls| getStringValue()|
 |17968 | Gráfico2Imagen| Gráfico2Imagen|
 |17989 | marcador inteligente| fórmulas dinámicas|
@@ -47,13 +47,13 @@ url: /es/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | xlsx| Guardar tabla dinámica para archivo de Excel 2007|
 |18188 | xlsx| Configuración del nombre de la fuente para el archivo de Excel 2007|
 |18201 | xls| Cell.getDependents() lanza una excepción|
-|18257 | pdf| Imprimir áreas en PDF exportado|
-|18274 | xls| Eliminación de hoja de trabajo con imágenes.|
-|18288 | pdf|Mejorar el rendimiento de guardar PDF|
+|18257 | pdf| Imprimir áreas en exportado PDF|
+|18274 | xls|Eliminación de hoja de trabajo con imágenes.|
+|18288 | pdf| Mejorar el rendimiento de guardar PDF|
 |18307 | xlsx| Propiedades del documento de Excel 2007|
 |18328 | xls| Configuración de formato personalizado para pivotField dataField|
 |18345 | xlsx| Guardar tabla para archivos de Excel 2007|
 |18459 | xlsx| Guardar la propiedad del documento para el archivo de Excel 2007|
-|18467 | Cuadro| Obtener propiedades de etiquetas de datos|
+|18467 | Gráfico| Obtener propiedades de etiquetas de datos|
 |13971 | xlsx| Tabla dinámica|
 

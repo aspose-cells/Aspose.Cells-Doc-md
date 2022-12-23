@@ -8,7 +8,7 @@ url: /zh/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 有时您需要在工作表中插入一些必要的形状。您可能需要在工作表的不同位置插入相同的形状。或者您需要在工作表中批量插入形状。
 
-不用担心！[Aspose.Cells](https://products.aspose.com/cells/)支持所有这些操作。
+不要担心！[Aspose.Cells](https://products.aspose.com/cells/)支持所有这些操作。
 
 {{% /alert %}}
 

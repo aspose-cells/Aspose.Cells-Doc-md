@@ -14,7 +14,7 @@ url: /es/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  Qué ha cambiado:
 
- l Admite el archivo de hoja de cálculo de documento abierto R/W (ODS): Cell datos y estilo, estilo de fila/columna, combinado Cells, propiedades de hoja de trabajo/libro de trabajo, propiedades de documento, fórmula/nombre.
+ l Admite el archivo de hoja de cálculo de documento abierto R/W (ODS): datos y estilo Cell, estilo de fila/columna, combinado Cells, propiedades de hoja de trabajo/libro de trabajo, propiedades de documento, fórmula/nombre.
 
  l Admite establecer una fórmula compartida.
 
@@ -42,15 +42,15 @@ url: /es/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |
-|6722 | SAO| Archivo ODS L/E|
+|6722 |ODS | L/E ODS archivo|
 |7834 | xls| Cell.getPrecedentes|
-|6516 | HTML| Guarda la hoja de trabajo para transmitir en formato html.|
+|6516 |HTML | Guarda la hoja de trabajo para transmitir en formato html.|
 |7744 | xls| Archivo cifrado R/W: Microsoft Proveedor criptográfico fuerte.|
 |7745 | xls| Elimina ASeries de la colección NSeries.|
 |7571 | xlsx| Hipervínculos.|
 |7572 | xls| Fórmula: SUMAR.SI.|
-|7575 | xls|Fórmula: REDONDO.|
-|7649 | xls| Etiquetas de datos de PivotChart.|
+|7575 | xls| Fórmula: REDONDO.|
+|7649 | xls|Etiquetas de datos de PivotChart.|
 |7343 | xls| Establece la propiedad de OleObject: OleSize.|
 |7408 | xls| Crea Autofiltro.|
 |7500 | xls| Guarda el formato de relleno del área en el gráfico.|

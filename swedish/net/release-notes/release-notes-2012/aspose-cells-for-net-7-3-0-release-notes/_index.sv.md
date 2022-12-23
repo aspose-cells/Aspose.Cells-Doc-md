@@ -52,18 +52,18 @@ url: /sv/net/aspose-cells-for-net-7-3-0-release-notes/
 - Ett problem med metoden Cells.ExportDataTableAsString() och anpassad formatering
 - Ett allvarligt problem med pivottabellen
 - Använder metoden Workbook.CalculateFormula() på flera arbetsböcker på flygives #VALUE
-- PDF-rendering av affärsformer (text inuti) är inte trevligt
-- Problem med XLS innehållsförteckning baserat på antalet utskrivna sidor
+- PDF rendering av affärsformer (text inuti) är inte trevligt
+- Utgåva med XLS innehållsförteckning baserat på antalet utskrivna sidor
 
- - PDF-konverteringen missar värdena för de namngivna områdena
+ -Konverteringen PDF missar värdena för de namngivna områdena
 
 - Att referera till celler med värden från matrisformler fungerar inte
 
- -Cells Formateringsproblem
+-Cells Formateringsproblem
 
 - Problem med formeln som refererar till en bild
 - Matrisformler i SpreadsheetML överförs inte vid konvertering till XLSX
-- Förlorar namngivna intervall bugg i XLSM
+- Förlorar namngivna intervall-fel i XLSM
 
 
 

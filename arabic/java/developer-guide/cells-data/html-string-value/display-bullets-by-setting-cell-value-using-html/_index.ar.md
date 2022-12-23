@@ -8,13 +8,13 @@ keywords: add bullets in excel, add bullets in excel java, display bullets in ex
 ---
 {{% alert color="primary" %}}
 
- يدعم Aspose.Cells الآن إظهار الرموز النقطية مع كود HTML. تشرح هذه المقالة كيفية عرض الرموز النقطية عن طريق تعيين قيمة الخلية باستخدام HTML. سوف نستخدم[**Cell.setHtmlString ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) لتعيين قيمة الخلية باستخدام HTML الخاص بنا.
+ يدعم Aspose.Cells الآن إظهار الرموز النقطية برمز HTML. تشرح هذه المقالة كيفية عرض الرموز النقطية عن طريق تعيين قيمة الخلية باستخدام HTML. سوف نستخدمها[**Cell.setHtmlString ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) خاصية لتعيين قيمة الخلية باستخدام HTML الخاص بنا.
 
 {{% /alert %}}
 
 ## **عرض الرموز النقطية بتحديد قيمة Cell باستخدام HTML**
 
-تستخدم التعليمات البرمجية التالية رمز HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الرمز ، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
+يستخدم الكود التالي رمز HTML لتعيين قيمة الخلية. بمجرد تشغيل هذا الرمز ، ستحصل على الإخراج كما هو موضح في الصورة أدناه.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisplayBullets-DisplayBullets.java" >}}
 
@@ -26,4 +26,4 @@ keywords: add bullets in excel, add bullets in excel java, display bullets in ex
 
 ## مقالات ذات صلة
 
-- [إضافة نص منسق HTML داخل Cell](/cells/ar/java/adding-html-rich-text-inside-the-cell/)
+- [إضافة HTML نص منسق داخل Cell](/cells/ar/java/adding-html-rich-text-inside-the-cell/)

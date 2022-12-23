@@ -22,7 +22,7 @@ Aşağıda, tema renklerini uygulayan birkaç yöntem ve özellik bulunmaktadır
 
 Aşağıdaki örnek, tema renklerinin nasıl alınacağını ve ayarlanacağını gösterir.
 
-Aşağıdaki örnek bir şablon XLSX dosyası kullanır, farklı tema renk türleri için renkleri alır, renkleri değiştirir ve Microsoft Excel dosyasını kaydeder.
+Aşağıdaki örnek, bir şablon XLSX dosyasını kullanır, farklı tema renk türleri için renkleri alır, renkleri değiştirir ve Microsoft Excel dosyasını kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 

@@ -6,7 +6,7 @@ url: /sv/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-Ibland, när du renderar en Microsoft Excel-fil till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta vilket typsnitt som har ersatts genom att avfyra en varning. Det här är en användbar funktion som kan hjälpa dig att identifiera varför en Aspose.Cells-renderad PDF ser annorlunda ut än den ursprungliga Excel-filen Microsoft så att du kan vidta lämpliga åtgärder. Till exempel att installera de saknade typsnitten så att renderingsresultaten ser likadana ut.
+Ibland, när du renderar en Microsoft Excel-fil till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta vilket typsnitt som har ersatts av en varning. Detta är en användbar funktion som kan hjälpa dig att identifiera varför en Aspose.Cells renderad PDF ser annorlunda ut än den ursprungliga Microsoft Excel-filen så att du kan vidta lämpliga åtgärder. Till exempel att installera de saknade typsnitten så att renderingsresultaten ser likadana ut.
 
 {{% /alert %}} 
 
@@ -22,8 +22,8 @@ Aspose.Cells kommer att ersätta typsnitten i cellerna A6 och A7 med lämpliga t
 |**Ersatta typsnitt**|
 |:- |
 |![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
-## **Ladda ner källfil och utdata-PDF**
-Du kan ladda ner källfilen för Excel och PDF-filen från följande länkar
+## **Ladda ner källfil och utdata PDF**
+Du kan ladda ner källfilen för Excel och utgången PDF från följande länkar
 
 - [source.xlsx](5112611.xlsx)
 - [output.pdf](5112616.pdf)
@@ -46,6 +46,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}} 
 
-Om ditt kalkylblad innehåller formler är det bäst att anropa Workbook.CalculateFormula-metoden precis innan du renderar kalkylarket till PDF-format. Om du gör det säkerställer du att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF-filen.
+Om ditt kalkylblad innehåller formler är det bäst att anropa Workbook.CalculateFormula-metoden precis innan du renderar kalkylarket till formatet PDF. Om du gör det säkerställs att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

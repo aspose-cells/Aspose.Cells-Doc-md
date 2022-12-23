@@ -24,9 +24,9 @@ Aspose.Cells for Java API yardımıyla hedefe ulaşmak için bazı kodlar yazmay
 
 Aşağıdaki anlık görüntü, Excel uygulamasında yüklenen sonuç elektronik tablosunu gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
 
  Gölgelendirmeyi alternatif sütunlara uygulamak için tek yapmanız gereken formülü değiştirmek.**=MOD(SATIR(),2)=0** olarak**=MOD(SÜTUN(),2)=0** , yani; satır dizinini almak yerine, sütun dizinini almak için formülü değiştirin.
 Ortaya çıkan elektronik tablo, bu durumda, aşağıdaki görüntü gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_Metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)
+![yapılacaklar:resim_alternatif_metin](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)

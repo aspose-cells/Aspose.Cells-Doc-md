@@ -24,7 +24,7 @@ Aspose.Cells
 
 
 - Cells.ImportDataView importerar endast 65535 rader
-- Det gick inte att uppdatera ComboBox i XLSM-filen
+- Det gick inte att uppdatera ComboBox i filen XLSM
 
 
 
@@ -44,7 +44,7 @@ Aspose.Cells
 
 
 - .NET C++ Build Error C2686
-- Konvertera XLS-fil till XLSX kassera textformatering
+- Konvertera XLS fil till XLSX kassera textformatering
 - Kopiera diagram från en arbetsbok till en annan
 - Korrupt cellfärgning efter kopiering av kalkylblad
 - Hyperlänkar rör sig inte med sorterade celler
@@ -52,7 +52,7 @@ Aspose.Cells
 - Worksheet.Copy() kopierar inte värden för ogiltiga formler
 - Problem med att tillämpa anpassad stil på celler
 - ListBox känner inte igen urvalsändringar
-- Diagramtitel går förlorad när XLSM-fil öppnas med Office 2010
+- Diagramtitel går förlorad när XLSM-filen öppnas med Office 2010
 
  -Buggar vid konvertering av en Excel-fil till en bild.
 
@@ -65,7 +65,7 @@ Aspose.Cells
 
  -Anpassad formatering av textvärden vid export till PDF
 
-- Problem med Excel till PDF-konvertering
+- Problem med konvertering av Excel till PDF
 - Arbetsboken blir skadad genom att ta bort ett ark som har en pivottabell
 - Tabeller som datakälla för pivottabell brutna med Designer
 - Korruption när fält läggs till i pivottabellen

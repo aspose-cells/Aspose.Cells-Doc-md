@@ -5,9 +5,9 @@ weight: 10
 url: /it/java/convert-spreadsheet-to-pdf-in-xlsx4j/
 ---
 ## **Aspose.Cells - Converti XLS in PDF**
-documenti PDF sono ampiamente utilizzati come formato standard per lo scambio di documenti tra organizzazioni, settori governativi e individui. Agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire facilmente i file Microsoft Excel in documenti PDF. Aspose.Cells supporta queste funzionalità.
+documenti PDF sono ampiamente utilizzati come formato standard per lo scambio di documenti tra organizzazioni, settori governativi e privati. Agli sviluppatori di software viene spesso chiesto di trovare un modo per convertire facilmente i file Excel Microsoft in documenti PDF. Aspose.Cells supporta queste funzionalità.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -25,6 +25,6 @@ workbook.save(dataDir + "AsposeConvert.pdf", SaveFormat.PDF);
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Conversione di file Excel in PDF](/java/converting-excel-to-pdf-files).
+ Per maggiori dettagli, visita[Conversione di Excel in file PDF](/java/converting-excel-to-pdf-files).
 
 {{% /alert %}}

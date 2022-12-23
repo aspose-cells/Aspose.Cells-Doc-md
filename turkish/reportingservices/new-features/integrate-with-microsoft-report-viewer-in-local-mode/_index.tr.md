@@ -13,11 +13,11 @@ Rapor Görüntüleyici, yerleşik bir motor ("yerel mod" olarak bilinir) kullana
 - Uzak modda, Rapor Görüntüleyici, raporları bağlı olduğu Rapor Sunucusunda yüklü olan tüm formatlara aktarabilir. Bu nedenle, raporları daha fazla Microsoft Excel formatına aktarmak için sunucuya yalnızca Aspose.Cells for Reporting Services yüklemeniz gerekir.
 - Ancak yerel modda, Rapor Görüntüleyici bir Rapor Sunucusuna bağlanmaz ve dışa aktarma biçimlerinin listesi yalnızca birkaç yerleşik biçimle sınırlıdır.
 
- Aspose.Cells for Reporting Services'i bir geliştirme makinesine yükleyerek ve aşağıdaki adımları izleyerek, yerel modda çalışan Report Viewer'dan daha fazla Microsoft Excel formatına dışa aktarabilirsiniz.
+Aspose.Cells for Reporting Services'i bir geliştirme makinesine yükleyerek ve aşağıdaki adımları izleyerek, yerel modda çalışan Report Viewer'dan daha fazla Microsoft Excel formatına dışa aktarabilirsiniz.
 
 {{% /alert %}} 
 ### **Aspose.Cells ile Yerel Modda Çalışma**
-1.  Referans**Aspose.Cells.ReportingServices.dll** Projede:
+1.  Referans**Aspose.Cells.ReportingServices.dll** projenin içinde:
  1. Projeyi Visual Studio'da açın.
  1. Sağ tıklayın**Referanslar** klasör ve seçin**Referans ekle**.
  1.**Araştır** sekmesine gidin ve aşağıdaki derlemeye göz atın:
@@ -26,7 +26,7 @@ Rapor Görüntüleyici, yerleşik bir motor ("yerel mod" olarak bilinir) kullana
 
       **Bir projeye Aspose.Cells.ReportingServices.dll başvurusu ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+![yapılacaklar:resim_alternatif_metin](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
 
 
 
@@ -246,7 +246,7 @@ End Sub
 {{< /highlight >}}
 
 1.  Koddan AddExtension yöntemini çağırın.
- - Bir Report Viewer kontrol örneğine Aspose.Cells for Reporting Services dışa aktarma biçimleri eklemeniz gerektiğinde AddExtension'ı (önceki adımda gösterilen) arayabilirsiniz. Formdan aramayı düşünün_Yükle veya Sayfa_Bir WinForms veya ASP .NET uygulamasının olay işleyicisini yükleyin.
+ Bir Report Viewer kontrol örneğine Aspose.Cells for Reporting Services dışa aktarma biçimleri eklemeniz gerektiğinde AddExtension'ı (önceki adımda gösterilen) arayabilirsiniz. Formdan aramayı düşünün_Yükle veya Sayfa_Bir WinForms veya ASP .NET uygulamasının olay işleyicisini yükleyin.
  - Aspose.Cells for Reporting Services dışa aktarma biçimlerinin tümünü veya yalnızca bazılarını ekleyebilirsiniz. Rapor Görüntüleyici'de görünecek biçimler için herhangi bir görünen ad belirtebilirsiniz.
  Yerel modda Aspose.Cells for Reporting Services dışa aktarma biçimlerini Microsoft Rapor Görüntüleyici'ye eklemek için aşağıdaki kodu kullanın:
 
@@ -290,10 +290,10 @@ End Sub
 
 1.  Yeni dışa aktarma biçimlerini test edin.
  1. Uygulamanızı çalıştırın.
-Bir dizi yeni dışa aktarma formatının mevcut olduğunu fark edeceksiniz.**İhracat** Rapor Görüntüleyici'deki menü.
+ Bir dizi yeni dışa aktarma formatının mevcut olduğunu fark edeceksiniz.**İhracat** Rapor Görüntüleyici'deki menü.
  1. Biçimlerden birini seçin ve dışa aktarmayı çalıştırın.
  1. Belgenin beklediğiniz gibi oluşturulduğunu doğrulayın.
 
 **Yerel modda çalışan Rapor Görüntüleyici'de yeni dışa aktarma biçimleri görünüyor** 
 
-![yapılacaklar:resim_alternatif_Metin](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![yapılacaklar:resim_alternatif_metin](integrate-with-microsoft-report-viewer-in-local-mode_2.png)

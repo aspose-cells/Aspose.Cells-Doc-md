@@ -7,7 +7,7 @@ url: /ja/net/using-workbookmetadata/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells を使用すると、ワークブックの軽量バージョンをメモリに読み込んで、そのメタデータ情報を編集できます。をご利用ください[**ワークブックのメタデータ**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)ワークブックをロードするクラス。
+ Aspose.Cells を使用すると、ワークブックの軽量バージョンをメモリに読み込んで、そのメタデータ情報を編集できます。をご利用ください[**ワークブックのメタデータ**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)ワークブックをロードするクラス。
 
 {{% /alert %}}
 

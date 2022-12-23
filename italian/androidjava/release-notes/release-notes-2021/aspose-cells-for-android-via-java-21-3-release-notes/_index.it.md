@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43375|Controlla la password VBA di Excel|
 |CELLSJAVA-43400|Supporta la funzione UNIQUE()|
@@ -24,27 +24,27 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43342|Il grafico combinato non può essere visualizzato correttamente in Excel in PDF|
 |CELLSJAVA-43354|Le percentuali non sono state mostrate negli istogrammi piccoli|
 |CELLSJAVA-40264|Errore con controlli modulo o controlli ActiveX durante il salvataggio come EXCEL_97_TO_2003|
-|CELLSJAVA-43372|File danneggiato creato durante la conversione di ODS in XLSX|
+|CELLSJAVA-43372|File danneggiato creato durante la conversione da ODS a XLSX|
 |CELLSJAVA-43378|Visualizza come modifiche vuote da true a false dopo la clonazione della cartella di lavoro|
 |CELLSJAVA-43382|La copia produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43364|Problema durante il salvataggio del grafico con un'immagine nel marcatore dell'immagine|
-|CELLSJAVA-43389|Impostazioni di protezione password cartella di lavoro/foglio di lavoro perse durante il salvataggio come formato di file XLSB|
-|CELLSJAVA-43392|La copia del foglio produce una cartella di lavoro danneggiata|
+|CELLSJAVA-43389|Impostazioni di protezione password cartella di lavoro/foglio di lavoro perse durante il salvataggio nel formato file XLSB|
+|CELLSJAVA-43392| La copia del foglio produce una cartella di lavoro danneggiata|
 |CELLSJAVA-43388|Il file di output è danneggiato dopo aver copiato la cartella di lavoro|
 |CELLSJAVA-43406|Problemi durante la conversione di HTML in Excel|
 |CELLSJAVA-43399|CalculateFormula() crea molti valori di tipo di errore #VALUE|
 |CELLSJAVA-43362|Problema di percentuale per le etichette durante la stampa dei grafici|
-|CELLSJAVA-43384|Problema relativo alle percentuali per alcune etichette durante il rendering in PDF e la stampa di grafici|
+|CELLSJAVA-43384|Problema di percentuali per alcune etichette durante il rendering su PDF e la stampa di grafici|
 |CELLSJAVA-43402|Genera l'immagine esatta del grafico dal file Excel|
 |CELLSJAVA-43408|La parte superiore del grafico viene tagliata e la linea obliqua sale|
 |CELLSJAVA-43379|Eccezione sollevata durante il salvataggio della cartella di lavoro come HTML|
-|CELLSJAVA-43376|Eccezione "java.lang.ClassCastException: Overflow nella conversione da int a byte. Valore int: 144" durante il caricamento di un file XLSX|
+|CELLSJAVA-43376|Eccezione "java.lang.ClassCastException: Overflow in int to byte conversion. int value: 144" al caricamento di un file XLSX|
 |CELLSJAVA-43387|L'esportazione di un singolo foglio in HTML genera un'eccezione|
 |CELLSJAVA-43412|CellsException nella conversione da xlsx a html|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Costruttore PdfSaveOptions(SaveFormat) obsoleto.**
 

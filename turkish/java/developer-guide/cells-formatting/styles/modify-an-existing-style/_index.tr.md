@@ -8,7 +8,7 @@ keywords: modify an existing style excel, modify an existing style excel java, m
 ---
 {{% alert color="primary" %}}
 
-Aynı biçimlendirme seçeneklerini hücrelere uygulamak için yeni bir biçimlendirme stili nesnesi oluşturun. Biçimlendirme stili nesnesi, bir küme olarak adlandırılan ve saklanan yazı tipi, yazı tipi boyutu, girinti, sayı, kenarlık, desenler vb. gibi biçimlendirme özelliklerinin bir kombinasyonudur. Uygulandığında, o stildeki biçimlendirmenin tümü uygulanır.
+Aynı biçimlendirme seçeneklerini hücrelere uygulamak için yeni bir biçimlendirme stili nesnesi oluşturun. Biçimlendirme stili nesnesi, bir küme olarak adlandırılan ve depolanan yazı tipi, yazı tipi boyutu, girinti, sayı, kenarlık, desenler vb. gibi biçimlendirme özelliklerinin bir kombinasyonudur. Uygulandığında, o stildeki biçimlendirmenin tümü uygulanır.
 
 Ayrıca mevcut bir stili kullanabilir, çalışma kitabıyla kaydedebilir ve aynı özniteliklere sahip bilgileri biçimlendirmek için kullanabilirsiniz.
 
@@ -26,9 +26,9 @@ Microsoft Excel 97-2003'te bir stili güncellemek için:
 1.  bölümünden değiştirmek istediğiniz stili seçin.**Stil adı** liste.
 1.  Tıklamak**Değiştir**.
 1. Biçim Cells iletişim kutusundaki sekmeleri kullanarak istediğiniz stil seçeneklerini seçin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 1.  Altında**Stil içerir**, istediğiniz stil özelliklerini belirtin.
-1.  Tıklamak**TAMAM** stili kaydetmek ve seçilen aralığa uygulamak için.
+1.  Tıklamak**Tamam** stili kaydetmek ve seçilen aralığa uygulamak için.
 
 ## **Aspose.Cells'i kullanma**
 
@@ -36,7 +36,7 @@ Microsoft Excel 97-2003'te bir stili güncellemek için:
 
  İster Aspose.Cells kullanılarak dinamik olarak oluşturulmuş ister önceden tanımlı olsun, adlandırılmış bir stili değiştirmek için[**Stil güncellemesi**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) bir hücreye veya aralığa uygulanan stildeki değişiklikleri yansıtma yöntemi.
 
- bu[**Stil güncellemesi**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) yöntemi şu şekilde davranır:**TAMAM** Stil iletişim kutusundaki düğme: mevcut bir stilde değişiklik yaptıktan sonra, değişikliği uygulamak için arayın. Bir hücre aralığına zaten bir stil uyguladıysanız, stil niteliklerini değiştirin ve yöntemi çağırın, bu hücrelerin biçimlendirmesi otomatik olarak güncellenir.
+ bu[**Stil güncellemesi**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) yöntemi şu şekilde davranır:**Tamam** Stil iletişim kutusundaki düğme: mevcut bir stilde değişiklik yaptıktan sonra, değişikliği uygulamak için arayın. Bir hücre aralığına zaten bir stil uyguladıysanız, stil niteliklerini değiştirin ve yöntemi çağırın, bu hücrelerin biçimlendirmesi otomatik olarak güncellenir.
 
 ### **Stil Oluşturma ve Değiştirme**
 

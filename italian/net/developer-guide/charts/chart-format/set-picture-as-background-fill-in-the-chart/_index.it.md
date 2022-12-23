@@ -12,6 +12,6 @@ Aspose.Cells consente di impostare un gradiente, una trama, un motivo o un'immag
 
 Per raggiungere questo obiettivo, Aspose.Cells fornisce il[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) proprietà. L'esempio di codice seguente illustra l'utilizzo di[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) proprietà per impostare un'immagine come sfondo riempire il grafico.
 
-## Codice C# per impostare l'immagine come sfondo riempire il grafico
+## C# codice per impostare l'immagine come sfondo compilare il grafico
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-SetPictureBackGroundFillChart-SetPictureBackGroundFillChart.cs" >}}

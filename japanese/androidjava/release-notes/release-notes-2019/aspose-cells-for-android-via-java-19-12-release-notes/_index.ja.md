@@ -15,7 +15,7 @@ url: /ja/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-41814|ピボットテーブル レポートの特定の領域に対するカスタム データの並べ替えをサポートする|新機能|
 |CELLSJAVA-43032|Validation.addArea (CellArea cellArea, boolean skipArea) または Validation.setAreas() メソッド/オーバーロードを API に追加します|新機能|
 |CELLSJAVA-42851|ODATA 接続の詳細を取得する|新機能|
-|CELLSJAVA-43047|HTML でエクスポートするためのセルへのツールチップ テキストの追加|新機能|
+|CELLSJAVA-43047|HTML でのエクスポート用のセルへのツールチップ テキストの追加|新機能|
 |CELLSJAVA-42988|calculateFormula() のパフォーマンスの問題|強化|
 |CELLSJAVA-43018|同じワークブックの一部の状態を暗黙的に変更することなく、印刷範囲の範囲を HTML にエクスポートします|強化|
 |CELLSJAVA-43041|Cells.importCSV が例外「文字列値は 255 文字を超えることはできません」をスローします|強化|
@@ -25,7 +25,7 @@ url: /ja/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-43019|放射状グラフが HTML に正しくレンダリングされない|バグ|
 |CELLSJAVA-43027|PNG にレンダリングした後、軸のスケーリングが異なります。|バグ|
 |CELLSJAVA-42474|ソース データを更新した後、ピボットテーブルが更新されず、破損する|バグ|
-|CELLSJAVA-43033|PDFへの変換は終わりません。|バグ|
+|CELLSJAVA-43033|PDF への変換が終了しません。|バグ|
 |CELLSJAVA-43034|無効なロシア語 (カスタム) 日付形式の出力が取得される|バグ|
 |CELLSJAVA-43040|LoadFilter は必要なシートを考慮しません|バグ|
 |CELLSJAVA-43035|Excel ファイルを EMF に変換中に境界線が失われる|バグ|
@@ -38,12 +38,12 @@ url: /ja/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-43025|Cell.getStyle.getCustom がドイツ語ロケールに対して間違った形式を返す|バグ|
 |CELLSJAVA-42793|ODS から XLSX への変換中に Fontwork SmartArt オブジェクトが失われる|バグ|
 |CELLSJAVA-43020|Chart.Calcluate() の呼び出し後に放射状グラフが歪む|バグ|
-|CELLSJAVA-43022|XLS ファイルの形状から画像へのエラー|バグ|
+|CELLSJAVA-43022|XLS ファイルのシェイプからイメージへのエラー|バグ|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) は、getFormula() の呼び出し中に望ましくない結果を引き起こします|バグ|
 |CELLSJAVA-43052|ブール値の検証の問題|バグ|
-|CELLSJAVA-43054|ポルトガル語の設定での CSV マージに関する問題|バグ|
+|CELLSJAVA-43054|ポルトガル語設定での CSV Merge の問題|バグ|
 |CELLSJAVA-43056|Cell.setFormula() が外部リンクを更新しない|バグ|
-|CELLSJAVA-42767|Excel から PDF への変換中に欠落した画像|バグ|
+|CELLSJAVA-42767|Excel から PDF への変換中に画像が失われた|バグ|
 |CELLSJAVA-42913|埋め込まれた Visio オブジェクトが PDF に正しくレンダリングされない|バグ|
 |CELLSJAVA-42883|Aspose.Cells for Java 95 形式のファイルからグラフ テキストを抽出する際の問題|バグ|
 |CELLSJAVA-42931|Excel95 から取得されない添付ファイル/オブジェクト|バグ|
@@ -124,9 +124,9 @@ LoadDataFilterOptions.Shape の代わりに (LoadDataFilterOptions.Drawing & ~Lo
 ### **AutoFitterOptions.AutoFitWrappedTextType プロパティと AutoFitWrappedTextType 列挙型を追加します。**
 自動調整のラップされたテキストのタイプを取得および設定します。
 ### **EmfRenderSetting クラスを追加します**
-EMF メタファイルをレンダリングするためのセット。
+EMF メタファイルのレンダリングを設定します。
 ### **PdfSaveOptions.EmfRenderSetting プロパティを追加します**
-PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするための設定。
+PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするように設定します。
 ### **ShapeCollection.AddSvg() メソッドを追加します**
 svg 画像を追加します。
 ### **WorkbookSettings.QuotePrefixToStyle プロパティを追加します**

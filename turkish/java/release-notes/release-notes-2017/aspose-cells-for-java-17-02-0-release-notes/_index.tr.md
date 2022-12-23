@@ -15,13 +15,13 @@ url: /tr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42009|Destek MS Excel 2016 Ağaç Haritası Grafiği|Yeni özellik|
 |CELLSJAVA-42008|Destek MS Excel 2016 Şelale Tablosu|Yeni özellik|
 |CELLSJAVA-41521|Metni Sütunlara Dönüştürme MS Excel özelliğini destekler|Yeni özellik|
-|CELLSJAVA-42165|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML'ye dönüştürürken veri kaybı|Böcek|
-|CELLSJAVA-42164|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML'ye dönüştürürken veri kaybı - II|Böcek|
-|CELLSJAVA-42162|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML'ye dönüştürürken veri kaybı - III|Böcek|
-|CELLSJAVA-40251|PDF olarak kaydet biçimlendirmeyi korumaz|Böcek|
+|CELLSJAVA-42165|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML'e dönüştürürken veri kaybı|Böcek|
+|CELLSJAVA-42164|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML - II'ye dönüştürürken veri kaybı|Böcek|
+|CELLSJAVA-42162|Gizli satırlar ve sütunlar içeren aralığı yeni çalışma kitabına kopyalayıp HTML - III'e dönüştürürken veri kaybı|Böcek|
+|CELLSJAVA-40251|PDF olarak kaydet, biçimlendirmeyi korumaz|Böcek|
 |CELLSJAVA-42187|Excel formülü çalışmıyor ve "#DIV/0!" olarak gösteriliyor.|Böcek|
 |CELLSJAVA-42184|Eşzamanlı kaydetme sorunu|Böcek|
-|CELLSJAVA-42156|HTML'ye dönüştürülürken hücrelerin üst ve alt kenarlıkları kayboldu|Böcek|
+|CELLSJAVA-42156|HTML'e dönüştürülürken hücrelerin üst ve alt kenarları kayboldu|Böcek|
 |CELLSJAVA-42147|Excel formülü düzgün çalışmıyor|Böcek|
 |CELLSJAVA-42131|Aspose Cells API'leri kullanılarak bir dizi formülün yeniden hesaplanması "#NUM!" hata|Böcek|
 |CELLSJAVA-42188|Matematiğin demo sayfası GridWeb (Java) demo projesinde doğru şekilde yüklenmiyor|Böcek|
@@ -30,21 +30,21 @@ url: /tr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSNET-45106|İstisna Türü'nün değiştirildiği deneme yakalama ve yeniden atma istisnasında hata|Böcek|
 |CELLSJAVA-42189|Şelale grafiği, hesapla() çağrıldığında, grafik serisi renkleri geri alınır.|Böcek|
 |CELLSJAVA-42160|Excel'deki logaritmik ölçek hatası, Aspose Cells'in askıda kalmasına neden oluyor|Böcek|
-|CELLSJAVA-42158|Elektronik tablo PDF'ye dönüştürülürken Dikey Eksen sınır değerleri değişti|Böcek|
-|CELLSJAVA-42157|Grafiği EMF'ye dönüştürürken yatay ve dikey eksen sınır değerleri değişti|Böcek|
+|CELLSJAVA-42158|E-tablo oluşturulurken Dikey Eksen sınır değerleri PDF olarak değiştirildi|Böcek|
+|CELLSJAVA-42157|Grafik EMF olarak oluşturulurken yatay ve dikey eksen sınır değerleri değiştirildi|Böcek|
 |CELLSJAVA-42133|İbranice - PDF'de boşluk karakteri eksik|Böcek|
 |CELLSJAVA-42107|Grafik, resme dönüştürülürken dikey olarak gizleniyor|Böcek|
 |CELLSJAVA-42105|Grafiği resme aktarırken DataTable serisi eksik|Böcek|
 |CELLSJAVA-42090|Grafik resme dönüştürüldüğünde başlıkta alt çizgi eksik|Böcek|
 |CELLSJAVA-42086|Grafikteki arka plan resmi yanlış|Böcek|
 |CELLSJAVA-42084|Çıktı PDF dosyasında boşluk s/b grafiğinin ekseni (İbranice) etiketleri/göstergesi eksik|Böcek|
-|CELLSJAVA-41831|E-tablo HTML'ye dönüştürülürken dikdörtgen şeklinin içeriği oluşturulmuyor|Böcek|
-|CELLSJAVA-42095|E-tablo HTML'ye dönüştürülürken grafik değiştirildi|Böcek|
-|CELLSJAVA-42096|E-tablo HTML'ye dönüştürülürken grafikteki formülün konumu değişti|Böcek|
+|CELLSJAVA-41831|E-tablo HTML'e dönüştürülürken dikdörtgen şeklinin içeriği işlenmiyor|Böcek|
+|CELLSJAVA-42095|E-tablo HTML'e dönüştürülürken grafik değiştirildi|Böcek|
+|CELLSJAVA-42096|Elektronik tablo HTML'e dönüştürülürken grafikteki formül konumu değiştirdi|Böcek|
 |CELLSJAVA-42169|Excel'den PDF'e dönüştürme - Arapça metin tersine çevrilir|Böcek|
 |CELLSJAVA-42193|Sayfa adı, formül eklenirken Büyük Harfli oluyor|Böcek|
 |CELLSJAVA-42191|updateSelectedValue, activeSheetIndex değişikliklerini güncelleme çağrısı|Böcek|
-|CELLSJAVA-42181|Bir XLS dosyasını yeniden kaydettikten sonra korumalı görünüm|Böcek|
+|CELLSJAVA-42181|XLS dosyasını yeniden kaydettikten sonra korumalı görünüm|Böcek|
 |CELLSJAVA-42180|Bir çalışma kitabının kopyalanması standardHeight'ı değiştirir|Böcek|
 |CELLSJAVA-42177|Çalışma kitabı XLS biçiminde kaydedildiğinde özel doğrulamadaki formül kayboluyor|Böcek|
 |CELLSJAVA-42173|Excel'in Aspose.Cells aracılığıyla basit kaydetme işleminden sonra dosyayı kurtarması gerekiyor|Böcek|
@@ -55,16 +55,16 @@ url: /tr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|Sayfaları çalışma kitaplarında kopyalamak formülü değiştirir|Böcek|
 |CELLSJAVA-42154|CheckBox'ın metin değeri okunamıyor|Böcek|
 |CELLSJAVA-42150|GetNames() yöntemi tüm adları döndürmüyor|Böcek|
-|CELLSJAVA-40511|Aspose.Cells tarafından oluşturulan PDF sayfalarının tümü siyah|Böcek|
+|CELLSJAVA-40511|PDF tarafından oluşturulan PDF sayfalarının tümü siyah|Böcek|
 |CELLSJAVA-42179|Bir HTML yüklenirken Workbook ctor'da NullPointerException|İstisna|
-|CELLSJAVA-42174|Bir HTML yüklerken Workbook ctor'da NullPointerException - II|İstisna|
+|CELLSJAVA-42174|HTML - II yüklenirken Workbook ctor'da NullPointerException|İstisna|
 |CELLSJAVA-42192|CellsException: Geçersiz delik boyutu: 10 ile 90 arasında olmalıdır|İstisna|
-|CELLSJAVA-42190|İstisna: XLSX dosya formatı yüklenirken "java.lang.IndexOutOfBoundsException"|İstisna|
+|CELLSJAVA-42190|İstisna: XLSX dosya biçimi yüklenirken "java.lang.IndexOutOfBoundsException"|İstisna|
 |CELLSJAVA-42185|İstisna - ReadElementString yalnızca çağrılabilir - çalışma kitabı açılırken oluştu|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **HTMLLoadOptions.AutoFitColsAndRows Özelliği eklendi**
-Aspose.Cells for Java API'in bu sürümü, API'in HTML'yi nesne modunda içe aktarırken sütunları ve satırları otomatik olarak sığdırıp sığdırmayacağını belirten HTMLLoadOptions.AutoFitColsAndRows özelliğini ekledi. Boole tipi özelliğinin varsayılan değeri false'tur; bu, hücre yüksekliklerinin ve genişliklerinin olduğu gibi içe aktarılacağı anlamına gelir, ancak yukarıda belirtilen özellik true olarak ayarlandığında, API, içeriğe göre sütun genişliklerini ve satır yüksekliklerini ayarlamaya çalışır. .
+Aspose.Cells for Java API'in bu sürümü, HTML'i nesne modunda içe aktarırken API'in sütunları ve satırları otomatik olarak sığdırıp sığdırmayacağını belirten HTMLLoadOptions.AutoFitColsAndRows özelliğini ekledi. Boole tipi özelliği, varsayılan değer olarak false'a sahiptir; bu, hücre yüksekliklerinin ve genişliklerinin olduğu gibi içe aktarılacağı anlamına gelir, ancak yukarıda belirtilen özellik true olarak ayarlandığında, API, içeriğe göre sütun genişliklerini ve satır yüksekliklerini ayarlamaya çalışır. .
 
 İşte HTMLLoadOptions.AutoFitColsAndRows özelliğinin basit kullanım senaryosu.
 
@@ -190,7 +190,7 @@ Font[]fonts = book.getFonts();
 
 {{< /highlight >}}
 ### **TxtSaveOptions.TrimLeadingBlankRowAndColumn Özelliği eklendi**
-Aspose.Cells for Java'in bu düzeltmesi, TxtSaveOptions sınıfı için Excel'in CSV'ye veya Sekmeyle ayrılmış biçimlere aktarılırken yaptığı gibi baştaki boş satırların ve sütunların kırpılması gerekip gerekmediğini gösteren Boolean türünde TrimLeadingBlankRowAndColumn özelliğini ortaya çıkardı. Yukarıda belirtilen özelliğin varsayılan değeri yanlıştır. Çalışma sayfasındaki verilerin ilk hücreden, yani A1'den başlamaması durumunda, Excel uygulaması verileri CSV veya Sekmeyle ayrılmış biçimlere dışa aktarırken baştaki boş satırları ve sütunları kaldırır, ancak varsayılan olarak Aspose.Cells API'leri korur dışa aktarılan CSV veya Sekmeyle ayrılmış dosyaların Aspose.Cells API'leri kullanılarak geri alınması gerekiyorsa veri konumunun korunmasını sağlamak için aynı örnek için boş satırlar ve sütunlar.
+Aspose.Cells for Java'in bu düzeltmesi, verileri CSV veya Sekmeyle ayrılmış biçimlere dışa aktarırken Excel'in yaptığı gibi önde gelen boş satırların ve sütunların kırpılıp kırpılmaması gerektiğini belirten TxtSaveOptions sınıfı için Boolean türünde TrimLeadingBlankRowAndColumn özelliğini ortaya çıkardı. Yukarıda belirtilen özelliğin varsayılan değeri yanlıştır. Çalışma sayfasındaki verilerin ilk hücreden, yani A1'den başlamaması durumunda, Excel uygulaması verileri CSV veya Sekmeyle ayrılmış biçimlere dışa aktarırken baştaki boş satırları ve sütunları kaldırır, ancak varsayılan olarak Aspose.Cells API'leri korur dışa aktarılan CSV veya Sekmeyle ayrılmış dosyaların Aspose.Cells API'leri kullanılarak geri alınması gerekiyorsa, veri konumunu korumak için aynı örnek için boş satırlar ve sütunlar.
 
 İşte TrimLeadingBlankRowAndColumn özelliğinin basit bir kullanım senaryosu.
 
@@ -225,4 +225,4 @@ Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini ko
 1. [Elektronik Tablo veya Çalışma Kitabında kullanılan Yazı Tiplerinin Listesini Alın](/cells/tr/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Excel Dosyasını Yüklerken Uyarılar Alın](/cells/tr/java/get-warnings-while-loading-excel-file/)
 1. [Excel 2016 Grafiklerini Okuyun ve İşleyin](/cells/tr/java/read-and-manipulate-excel-2016-charts/)
-1. [Elektronik tabloları CSV formatına dışa aktarırken Öndeki Boş Satırları ve Sütunları Kırpın](/cells/tr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Elektronik tabloları CSV biçimine dışa aktarırken Öndeki Boş Satırları ve Sütunları Kırp](/cells/tr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

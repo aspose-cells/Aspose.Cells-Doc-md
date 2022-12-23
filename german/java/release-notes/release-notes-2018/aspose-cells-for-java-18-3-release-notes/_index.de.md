@@ -17,21 +17,21 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.3.
 |CELLSJAVA-42535|Die Verwendung von Stream zum Importieren von Excel-Dateien über GridWebBean.importExcelFile() ist ungültig oder nicht vorhanden|Erweiterung|
 |CELLSJAVA-42529|So identifizieren Sie Arbeitsblattformen über DrawObjectEventHandler|Erweiterung|
 |CELLSJAVA-42558|Zugriff auf Beschriftungselemente der horizontalen Kategorieachse nicht möglich|Erweiterung|
-|CELLSJAVA-42552|Ausgabe-HTML stimmt nicht mit MS Excel überein|Insekt|
+|CELLSJAVA-42552|Ausgabe HTML stimmt nicht mit MS Excel überein|Insekt|
 |CELLSJAVA-42536|Excel-Dateien nach dem Öffnen/Speichern durch Aspose.Cells-APIs beschädigt|Insekt|
-|CELLSJAVA-42513|Zusätzliche Spalten kommen am Ende jeder Zeile im Ausgabe-HTML für einen Bereich|Insekt|
+|CELLSJAVA-42513|Zusätzliche Spalten kommen am Ende jeder Zeile in der Ausgabe HTML für einen Bereich|Insekt|
 |CELLSJAVA-42542|Die Excel-Datei ist beschädigt und einige Zellen wurden nach dem Speichern geändert|Insekt|
 |CELLSJAVA-42524|Rechenfehler sind im versteckten Blatt nämlich "KD020" vorhanden|Insekt|
 |CELLSJAVA-42514|ImportTableOptions.setInsertRows() funktioniert nicht, während das ResultSet in das Arbeitsblatt importiert wird|Insekt|
 |CELLSJAVA-42505|An die Zellen angehängte Kommentare (in der Vorlagendatei) werden nicht angezeigt, wenn die Excel-Datei in GridWeb importiert wird|Insekt|
 |CELLSJAVA-42520|Inkonsistente Zellkoordinaten, die von ImageOrPrintOptions.DrawObjectEventHandler gemeldet werden|Insekt|
-|CELLSJAVA-42518|Zeilenränder sind in der Ausgabe-PDF falsch ausgerichtet|Insekt|
-|CELLSJAVA-42561|Die Skalierung der X-Achse ist in der PNG-Ausgabe des Excel-Diagramms falsch|Insekt|
-|CELLSJAVA-42556|Das Rendern des Diagramms ist in der Ausgabe-PDF nicht korrekt|Insekt|
-|CELLSJAVA-42547|Das Diagramm wird beim Konvertieren von XLSX in ODS durch ein rotes X ersetzt|Insekt|
+|CELLSJAVA-42518|Zeilenränder sind in der Ausgabe PDF falsch ausgerichtet|Insekt|
+|CELLSJAVA-42561|Die Skalierung der X-Achse ist in der Ausgabe PNG des Excel-Diagramms falsch|Insekt|
+|CELLSJAVA-42556|Die Darstellung des Diagramms in der Ausgabe PDF ist nicht korrekt|Insekt|
+|CELLSJAVA-42547|Diagramm wird durch rotes X ersetzt, wenn XLSX in ODS umgewandelt wird|Insekt|
 |CELLSJAVA-42546|Bilder gehen beim Konvertieren von ODS in XLSX verloren|Insekt|
-|CELLSJAVA-42538|Eigenschaften werden nicht aus XLS- und XLSX-Dateien extrahiert|Insekt|
-|CELLSJAVA-42534|Beim Speichern von XLS in XLSB wird allowEditRanges entfernt|Insekt|
+|CELLSJAVA-42538|Eigenschaften werden nicht aus den Dateien XLS und XLSX extrahiert|Insekt|
+|CELLSJAVA-42534|Das Speichern von XLS in XLSB entfernt allowEditRanges|Insekt|
 |CELLSJAVA-42532|Steuern Sie externe Ressourcen mit WorkbookSetting.StreamProvider - es funktioniert for .NET, funktioniert aber nicht for Java|Insekt|
 |CELLSJAVA-42525|Geben Sie beim Importieren von Daten in ein Arbeitsblatt Formelfelder an - es funktioniert for .NET, aber nicht for Java|Insekt|
 |CELLSJAVA-42521|Chinesische Zeichen im eingebetteten Dateinamen (Titel) werden im Editor nicht gut angezeigt|Insekt|

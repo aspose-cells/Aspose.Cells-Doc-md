@@ -40,7 +40,7 @@ VSTO が提供する機能は、インストールした VSTO と Visual Studio 
 
 Aspose.Cells は、Microsoft Office Excel ファイルの管理に必要なすべてのものに加えて、さらに多くの機能を提供します。 API は、開発者に最小限の労力で素晴らしい結果をもたらします。 Aspose.Cells は、多くの強力で時間を節約する機能を提供します。 API は、あらゆる種類のスプレッドシート管理アクティビティに使いやすい API を提供し、Microsoft Excel が提供するほぼすべての機能をカバーします。 VSTO についてリストされているすべてのタスクは、Aspose.Cells で簡単に実行できます。
 
-Aspose.Cells は、スマート マーカーのサポート、多数のデータ ソース、オブジェクト、Excel ファイルとの間でのデータのインポートとエクスポート、COM クライアント (ASP クライアント) のサポート、コンポーネントとの相互運用性、Excel ファイルの PDF 形式への変換など、いくつかの高度な機能もサポートしています。 、Excel チャートとワークシートを画像ファイルとして保存します。
+Aspose.Cells は、スマート マーカーのサポート、多数のデータ ソース、オブジェクト、Excel ファイルとの間でのデータのインポートとエクスポート、COM クライアント (ASP クライアント) のサポート、コンポーネントとの相互運用性、Excel ファイルを PDF 形式に変換するなど、いくつかの高度な機能もサポートしています。 、Excel チャートとワークシートを画像ファイルとして保存します。
 
 ### **安全**
 
@@ -77,7 +77,7 @@ VSTO には、前提条件の長いリストがあります。
 - Visual Studio Tools for Office の次のエディションの 1 つ以上:
  - Microsoft Microsoft Office System 用の Visual Studio 2005 ツール
  Microsoft 2007 用の Visual Studio 2005 ツール Microsoft Office System
- Visual Studio 2008 プロフェッショナル版
+ - Visual Studio 2008 プロフェッショナル版
  Visual Studio 2008 チーム スイート エディション
  Microsoft Office の 1 つのバージョン:
  - Microsoft オフィス プロフェッショナル 2003 SP1

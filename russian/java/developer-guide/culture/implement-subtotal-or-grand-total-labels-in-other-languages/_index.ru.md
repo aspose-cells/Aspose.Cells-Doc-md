@@ -5,7 +5,7 @@ weight: 40
 url: /ru/java/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Возможные сценарии использования**
- Иногда вам нужно отобразить метки промежуточных и общих итогов на языках, отличных от английского, таких как китайский, японский, арабский, хинди и т. д. Aspose.Cells позволяет вам сделать это с помощью[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) класс и[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) имущество. Пожалуйста, ознакомьтесь с этой статьей о том, как использовать[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)учебный класс
+Иногда вам нужно отобразить метки промежуточных и общих итогов на языках, отличных от английского, таких как китайский, японский, арабский, хинди и т. д. Aspose.Cells позволяет вам сделать это с помощью[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) класс и[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) имущество. Пожалуйста, ознакомьтесь с этой статьей о том, как использовать[Настройки глобализации](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)учебный класс
 
 - [Использование класса GlobalizationSettings для пользовательских меток промежуточных итогов и других меток круговой диаграммы](/cells/ru/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 ## **Внедрение меток промежуточных или общих итогов на других языках**

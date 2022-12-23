@@ -83,4 +83,4 @@ public partial class GridBind : System.Web.UI.Page
 ## **Çıktı Ekran Görüntüsü**
 Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun yürütülmesinden sonraki GridWeb'i göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

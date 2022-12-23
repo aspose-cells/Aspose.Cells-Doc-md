@@ -7,7 +7,7 @@ url: /ar/net/access-and-update-the-portions-of-rich-text-of-cell/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells يسمح لك بالتوصل وتحديث أجزاء النص المنسق للخانة. لهذا الغرض ، يمكنك استخدام[**Cell. احصل على الأحرف ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) و[**مجموعة الأحرف ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) طُرق. ستعود هذه التوابع وتقبل مصفوفة[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)العناصر التي يمكنك استخدامها للوصول إلى الخصائص المختلفة للخط وتحديثها مثل اسم الخط ولون الخط والجرأة وما إلى ذلك.
+ Aspose.Cells يسمح لك بالتوصل وتحديث أجزاء النص المنسق للخانة. لهذا الغرض ، يمكنك استخدام[**Cell. احصل على الأحرف ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getcharacters/index) و[**مجموعة الأحرف ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setcharacters) أساليب. ستعود هذه التوابع وتقبل مصفوفة[**إعداد الخط**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting)العناصر التي يمكنك استخدامها للوصول إلى الخصائص المختلفة للخط وتحديثها مثل اسم الخط ولون الخط والجرأة وما إلى ذلك.
 
 {{% /alert %}}
 

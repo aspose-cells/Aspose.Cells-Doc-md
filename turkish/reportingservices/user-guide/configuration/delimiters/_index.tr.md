@@ -64,7 +64,7 @@ Specified field delimiters configuration reference:
 
 
 
-1.  Alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** tüm TXT tipi oluşturma uzantılarını kontrol edebilir.
+1.  Alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** tüm TXT tipi işleme uzantılarını kontrol edebilir.
 
 {{< highlight "java" >}}
 
@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Alan sınırlayıcı parametresi**rsreportserver.config** alan sınırlayıcı parametresine göre önceliklidir**Aspose.Cells.ReportingServices.xml** Alan sınırlayıcı parametresi**rsreportserver.config** boş veya varsayılan değer, alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** kullanıldı.
+ Alan sınırlayıcı parametresi**rsreportserver.config** alan sınırlayıcı parametresine göre önceliklidir**Aspose.Cells.ReportingServices.xml** . Alan sınırlayıcı parametresi**rsreportserver.config** boş veya varsayılan değer, alan sınırlayıcı parametresi**Aspose.Cells.ReportingServices.xml** kullanıldı.

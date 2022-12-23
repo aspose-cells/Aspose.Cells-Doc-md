@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/java/cells-number-settings/
 ---
-## **Ställa in visningsformat för siffror och datum**
+## **Ställa in visningsformat för Numbers och datum**
 
 En mycket stark egenskap hos Microsoft Excel är att den tillåter användare att ställa in visningsformat för numeriska värden och datum. Vi vet att numeriska data kan användas för att representera olika värden inklusive decimal-, valuta-, procent-, bråk- eller redovisningsvärden, etc. Alla dessa numeriska värden visas i olika format beroende på vilken typ av information den representerar. På samma sätt finns det många format där ett datum eller en tid kan visas.
 Aspose.Cells stöder denna funktion och låter utvecklare ställa in valfritt visningsformat för ett nummer eller datum.

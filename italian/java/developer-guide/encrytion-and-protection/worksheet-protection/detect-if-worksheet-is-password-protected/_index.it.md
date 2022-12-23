@@ -6,7 +6,7 @@ url: /it/java/detect-if-worksheet-is-password-protected/
 ---
 {{% alert color="primary" %}}
 
-È possibile proteggere separatamente le cartelle di lavoro e i fogli di lavoro. Ad esempio, un foglio di calcolo può contenere uno o più fogli di lavoro protetti da password, tuttavia il foglio di calcolo stesso può essere protetto o meno. Aspose.Cells Le API forniscono i mezzi per rilevare se un determinato foglio di lavoro è protetto da password o meno. Questo articolo illustra l'utilizzo dell'API Aspose.Cells for Java per ottenere lo stesso risultato.
+È possibile proteggere separatamente le cartelle di lavoro e i fogli di lavoro. Ad esempio, un foglio di calcolo può contenere uno o più fogli di lavoro protetti da password, tuttavia il foglio di calcolo stesso può essere protetto o meno. Aspose.Cells Le API forniscono i mezzi per rilevare se un determinato foglio di lavoro è protetto da password o meno. Questo articolo illustra l'utilizzo di Aspose.Cells for Java API per ottenere lo stesso risultato.
 
 {{% /alert %}}
 

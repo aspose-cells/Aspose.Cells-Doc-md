@@ -11,7 +11,7 @@ url: /fr/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- La capture d'écran suivante montre le graphique avec une ligne de tendance et son texte d'équation est affiché en rouge. Nous allons récupérer ce texte à l'aide de la[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)propriété dans l'exemple de code suivant.
+La capture d'écran suivante montre le graphique avec une ligne de tendance et son texte d'équation est affiché en rouge. Nous allons récupérer ce texte à l'aide de la[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)propriété dans l'exemple de code suivant.
 
 ![tâche : image_autre_texte](get-equation-text-of-chart-trendline_1.png)
 

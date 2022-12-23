@@ -7,7 +7,7 @@ keywords: nodejs, excel, instal
 description: الإعداد Aspose.Cells for Node.js via Java وإرشادات التثبيت
 ---
 ## **متطلبات النظام**
- Aspose.Cells for Node.js via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Node.js](https://nodejs.org/en/download/) و[عقدة جافا](https://github.com/joeferner/node-java) يتم تثبيت الجسر. يجب أن يحتوي الجهاز على Oracle JDK 7 أو إصدارات أحدث قبل إعداد التثبيت.
+ Aspose.Cells for Node.js via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Node.js](https://nodejs.org/en/download/) و[عقدة جافا](https://github.com/joeferner/node-java)يتم تثبيت الجسر. يجب أن يحتوي الجهاز على Oracle JDK 7 أو إصدارات أحدث قبل إعداد التثبيت.
 ## **التثبيت من NPM**
  يمكنك بسهولة استخدام Aspose.Cells for Node.js via Java من[NPM](https://www.npmjs.com/package/aspose.cells) بالأمر التالي.
 {{< highlight "java" >}}
@@ -24,7 +24,7 @@ description: الإعداد Aspose.Cells for Node.js via Java وإرشادات �
 -  تنزيل وتثبيت[Node.js](https://nodejs.org/en/download/).
 - قم بتثبيت Oracle JDK (1.7 أو 1.8) لنظام Linux ، قم بتكوين متغير بيئة JAVA_HOME.
 - قم بتثبيت python 2.x.
--  تثبيت[عقدة جافا](https://github.com/joeferner/node-java) كوبري. يمكنك تشغيل الأوامر أدناه @ terminal:
+-  ثَبَّتَ[عقدة جافا](https://github.com/joeferner/node-java) كوبري. يمكنك تشغيل الأوامر أدناه @ terminal:
 
 
 
@@ -65,7 +65,7 @@ console.log("hello world");
 - قم بتثبيت Node.js وإضافة node.exe إلى PATH.
 - تثبيت node-gyp.
 - قم بتثبيت Windows Build Tools.
--  تثبيت[جسر عقدة جافا](https://www.npmjs.com/package/java) وقم بتشغيل أوامر @ موجه الأوامر أدناه كمسؤول:
+-  ثَبَّتَ[جسر عقدة جافا](https://www.npmjs.com/package/java) وقم بتشغيل أوامر @ موجه الأوامر أدناه كمسؤول:
 
 
 
@@ -106,7 +106,7 @@ console.log("hello world");
 ### **ماك:**
 - قم بتنزيل وتثبيت Node.js ([*https://nodejs.org/en/download/*](https://nodejs.org/en/download/))
 - قم بتثبيت Oracle JDK 1.8 (موصى به) لنظام التشغيل Mac ، قم بتكوين متغير بيئة JAVA_HOME.
--  تعديل<key>قدرات JVM</key> قسم في "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk / المحتويات / Info.plist "بامتياز الجذر. (" jdk1.8.0_152.jdk "يعتمد على إصدار jdk الخاص بك) ، اجعله يبدو كما يلي:
+-  يُعدِّل<key>قدرات JVM</key> قسم في "/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk / المحتويات / Info.plist "بامتياز الجذر. (" jdk1.8.0_152.jdk "يعتمد على إصدار jdk الخاص بك) ، اجعله يبدو كما يلي:
 
 
 

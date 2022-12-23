@@ -9,6 +9,6 @@ Microsoft Excel'de dilimleyiciyi kaldırmak istiyorsanız, onu seçin ve*Silmek*
 ## **Dilimleyiciyi Çıkarma**
 Aşağıdaki örnek kod,[örnek excel dosyası](67338504.xlsx)mevcut bir dilimleyici içerir. Dilimleyicilere erişir ve ardından onu kaldırır. Son olarak, çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338502.xlsx). Aşağıdaki ekran görüntüsü, örnek kodun yürütülmesinden sonra kaldırılacak olan dilimleyiciyi göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](removing-slicer_1.png)
+![yapılacaklar:resim_alternatif_metin](removing-slicer_1.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Slicers-RemovingSlicer.java" >}}

@@ -14,7 +14,7 @@ Cette rubrique pour débutant montre comment les développeurs peuvent créer un
 
 Pour créer l'application Hello World à l'aide de Aspose.Cells API :
 
-1.  Créer une instance de**[Classeur](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**classer.
+1.  Créer une instance de**[Classeur](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**classe.
 1. Appliquer la licence :
 1. Si vous avez acheté une licence, utilisez la licence dans votre application pour accéder à toutes les fonctionnalités de Aspose.Cells.
  1. Si vous utilisez la version d'évaluation du composant (si vous utilisez Aspose.Cells sans licence), ignorez cette étape.

@@ -13,22 +13,22 @@ url: /de/net/aspose-cells-for-net-19-1-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-46429|Fügen Sie PivotTable mit der Option Berichtsfilterseiten anzeigen hinzu|Neue Funktion|
-|CELLSNET-46014|Unterstützung beim Umgang mit überfließenden Zelleninhalten beim Speichern als PDF und Bild|Neue Funktion|
+|CELLSNET-46014|Unterstützung beim Umgang mit überlaufenden Zelleninhalten beim Speichern als PDF und Bild|Neue Funktion|
 |CELLSNET-46490|Unterstützt Excel95/5.0 XLS-Dateien|Neue Funktion|
 |CELLSNET-46500|Nach Zellenhintergrundfarbe sortieren|Neue Funktion|
 |CELLSNET-46544|Erkennen, ob die generierte MHT-Datei ein Arbeitsblatt ist oder nicht|Neue Funktion|
 |CELLSNET-46538|Wenn XLSX als PDF oder TIFF gespeichert wird, fehlt der Text unten|Insekt|
 |CELLSNET-46509|R1C1-Formeln werden für bestimmte Zellen falsch gelesen|Insekt|
 |CELLSNET-46513|Aspose.Cells Formelberechnungsmodul berechnet eine Formel für die Zelle als "0" anstelle von "#REF!" Error|Insekt|
-|CELLSNET-46535|"#NAME?" für im XLSB-Format gespeicherte Formeln|Insekt|
+|CELLSNET-46535|"#NAME?" für im Format XLSB gespeicherte Formeln|Insekt|
 |CELLSNET-46539|Problem mit der Groß-/Kleinschreibung der Formel|Insekt|
 |CELLSNET-46531|Das Umbenennen von ListColumns beschädigt die Arbeitsmappe (wenn eine PivotTable vorhanden ist)|Insekt|
-|CELLSNET-46511|TIFF mit zusätzlichen leeren Seiten erstellt|Insekt|
+|CELLSNET-46511|TIFF erstellt mit zusätzlichen leeren Seiten|Insekt|
 |CELLSNET-46522|Anwenden regionaler Einstellungen zum Drucken von Setup-Kopfzeilen|Insekt|
-|CELLSNET-46529|Bild fehlt nach XLSX-zu-PDF-Konvertierung|Insekt|
-|CELLSNET-46451|Problem beim Rendern der Vorlagendatei in das PDF-Dateiformat|Insekt|
-|CELLSNET-46518|Layoutproblem (einige Achsenbeschriftungen sind zweizeilig) beim Rendern der Vorlagendatei in das PDF-Dateiformat|Insekt|
-|CELLSNET-46113|Das Dateiformat wird nicht unterstützt, Ausnahme für XLS-Dokumente|Insekt|
+|CELLSNET-46529|Bild fehlt nach Umwandlung von XLSX in PDF|Insekt|
+|CELLSNET-46451|Problem beim Rendern der Vorlagendatei in das Dateiformat PDF|Insekt|
+|CELLSNET-46518|Layoutproblem (einige Achsenbeschriftungen sind zweizeilig) beim Rendern der Vorlagendatei in das Dateiformat PDF|Insekt|
+|CELLSNET-46113|Das Dateiformat wird nicht unterstützt, Ausnahme für das Dokument XLS|Insekt|
 |CELLSNET-46504|Problem mit dem Linkpfad|Insekt|
 |CELLSNET-46506|Unterschied zur ImportObjectArray-Methode|Insekt|
 |CELLSNET-46541|Kombinationsdiagramm funktioniert nicht mit v18.12.x, funktioniert aber mit v18.4 und früheren Versionen|Insekt|
@@ -53,7 +53,7 @@ Ruft alle Schlüssel des Datensortierers ab.
 #### **Fügt SortOnType-Aufzählung hinzu**
 Repräsentiert den Typ der sortierten Daten.
 #### **Fügt die ODSLoadOptions-Klasse hinzu**
-Stellt die Optionen zum Laden der ODS-Datei dar.
+Repräsentiert die Optionen zum Laden der Datei ODS.
 #### **Fügt die HTMLLoadOptions.ProgId-Eigenschaft hinzu**
 Ruft die Programm-ID zum Erstellen der Datei ab. Wird nur für MHT-Dateien verwendet.
 #### **Fügt die PdfSaveOptions.TextCrossType-Eigenschaft hinzu**

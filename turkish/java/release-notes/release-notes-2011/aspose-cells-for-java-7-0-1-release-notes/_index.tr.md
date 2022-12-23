@@ -36,7 +36,7 @@ url: /tr/java/aspose-cells-for-java-7-0-1-release-notes/
 
  İstisnalar
 
- 29285 PDF'yi Fransızca yerel ayarlarla kaydederken bir İstisna Alın
+ 29285 PDF'i Fransız yerel ayarıyla kaydederken bir İstisna Alın
 
  30459 Ülke kodu olmayan varsayılan yerel ayar ile XLS dosyasını okurken bir İstisna Alın
 
@@ -46,8 +46,8 @@ url: /tr/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Hatalar
 
- 30103 XLSX dosyası yeniden kaydedildikten sonra grafik yazı tipleri değişti
+30103 XLSX dosyası yeniden kaydedildikten sonra grafik yazı tipleri değişti
 
-28858 Adları Sıralama, kontrolün bağlantılı hücresinin değişmesine neden oluyor
+ 28858 Adları Sıralama, kontrolün bağlantılı hücresinin değişmesine neden oluyor
 
  30486 Yeniden kaydedilen XLSX dosyasında dikey hizalama değiştirildi

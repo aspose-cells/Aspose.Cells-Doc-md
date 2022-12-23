@@ -30,7 +30,7 @@ Cette page contient les notes de version pour [ Aspose.Cells for Reporting Servi
 
 \3. 
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |11837 | Rendre| Fonctionnalités prises en charge par Aspose.Cells.ReportingServices|
 |11563 | Rendre| Abonnement SSRS enregistré dans le système de fichiers en tant que problème XLS|

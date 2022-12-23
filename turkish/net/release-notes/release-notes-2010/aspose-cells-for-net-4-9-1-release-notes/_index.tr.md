@@ -49,16 +49,16 @@ url: /tr/net/aspose-cells-for-net-4-9-1-release-notes/
 |:- |:- |:- |
 |13526 | Chart2Image| Chart ToImage yöntemiyle ilgili sorun|
 |14888 | Chart2Image| Chart.ToImage ile PlotArea konumlandırma sorunu|
-|16011 | CSV'ler| CSV'yi yeni satırla oku|
+|16011 |CSV | CSV'i yeni satırla oku|
 |14183 | Pdf| Üstbilgi/Altbilgi sayfa kenar boşluklarıyla hizalanmıyor|
 |14501 | Pdf| Excel dosyasını pdf'ye dönüştürürken hata|
 |15741 | Pdf| Kılavuz çizgileri gösterilmiyor|
 |15910 | Pdf| Yer imi ve sayfa arasında eksik bağlantı|
 |16207 | Pdf|PDF Dosyasını kaydederken hata oluştu|
 |16260 | Pdf| Çeşitli dosya türlerini tif'e dönüştürme|
-|16328 | Pdf| XLS'den PDF'e dönüştürme Sorunu|
+|16328 | Pdf| XLS - PDF dönüştürme Sorunu|
 |16377 | Pdf| Hücrelerdeki bazı metinler kayboluyor|
-|16402 | Pdf| XLS'den PDF'e dönüştürme Sorunu|
+|16402 | Pdf| XLS - PDF dönüştürme Sorunu|
 |16472 | Pdf| Biçimlendirme sorunları|
 |16499 | Pdf| PDF yazı tiplerini gömmüyor|
 |13606 | Çalışma Sayfası2Görüntü| Yazdırılan/Kaydedilen Excel Dosyasındaki Bazı Farklılıklar|

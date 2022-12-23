@@ -37,7 +37,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 - [**浮动值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)：返回单元格的浮点值。
 - [**整数值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/intvalue)：返回单元格的整数值。
 
-当字段未填充时，单元格[**双值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue)或者[**浮动值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)抛出异常。
+当字段未填充时，单元格[**双值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue)要么[**浮动值**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)抛出异常。
 
 单元格中包含的数据类型也可以使用[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)班级'[**类型**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type)财产。事实上，[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)班级'[**类型**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type)财产是基于[**单元值类型**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)下面列出了预定义值的枚举：
 

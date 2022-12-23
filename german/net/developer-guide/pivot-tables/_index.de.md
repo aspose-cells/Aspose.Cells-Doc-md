@@ -21,9 +21,9 @@ Aspose.Cells bietet eine spezielle Reihe von Klassen in der[**Aspose.Cells.Pivot
 
 ### **Erstellen einer einfachen Pivot-Tabelle mit Aspose.Cells**
 
-1. Fügen Sie mithilfe von Daten zu einem Arbeitsblatt hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutWert**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode.
+1. Fügen Sie mithilfe von Daten zu einem Arbeitsblatt hinzu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Objekt[**PutValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) Methode.
  Diese Daten werden als Datenquelle der Pivot-Tabelle verwendet.
-1.  Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) Sammlung[**hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)-Methode, die im Worksheet-Objekt gekapselt ist.
+1.  Fügen Sie dem Arbeitsblatt eine Pivot-Tabelle hinzu, indem Sie die aufrufen[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) Sammlung[**addieren**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)-Methode, die im Worksheet-Objekt gekapselt ist.
 1.  Greifen Sie auf das Neue zu[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) Objekt aus der[**PivotTables**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)-Auflistung durch Übergeben des PivotTable-Index.
 1.  Verwenden Sie eine der[**PivotTable**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)Objekte (oben erklärt), um die Pivot-Tabelle zu verwalten.
 
@@ -51,6 +51,6 @@ Wenn Sie einen Zellbereich als Datenquelle zuweisen, muss der Bereich von links 
 - [Pivot-Tabelle und Quelldaten](/cells/de/net/pivot-table-and-source-data/)
 - [Pivot-Tabelle Ausblenden und Sortieren von Daten](/cells/de/net/pivot-table-hide-and-sort-data/)
 - [Pivot-Tabelle mit berechneten Elementen aktualisieren und berechnen](/cells/de/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [Speichern Sie die Pivot-Tabelle in der ODS-Datei](/cells/de/net/save-pivot-table-in-ods-file/)
+- [Speichern Sie die Pivot-Tabelle in der Datei ODS](/cells/de/net/save-pivot-table-in-ods-file/)
 - [Option Berichtsfilterseiten anzeigen](/cells/de/net/show-report-filter-pages-option/)
 - [Arbeiten mit Datenanzeigeformaten von DataField in Pivot-Tabellen](/cells/de/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

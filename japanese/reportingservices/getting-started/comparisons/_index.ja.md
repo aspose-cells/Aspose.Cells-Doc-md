@@ -6,7 +6,7 @@ url: /ja/reportingservices/comparisons/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Servicesと他の類似商品との違いを以下にまとめました。
+Aspose.Cells for Reporting Servicesと他の類似商品との違いを以下にまとめます。
 - **機能比較**
 
 |**特徴** |**Aspose.Cells for Reporting Services** |**SAオフィスライター** |**Visual Studio + Microsoft Excel の標準レンダラー** |

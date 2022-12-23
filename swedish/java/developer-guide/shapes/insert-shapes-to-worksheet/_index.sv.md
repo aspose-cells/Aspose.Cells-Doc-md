@@ -8,7 +8,7 @@ url: /sv/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 Ibland behöver du infoga några nödvändiga former i kalkylbladet. Du kan behöva infoga samma form på olika positioner i kalkylbladet. Eller så måste du infoga former i kalkylbladet.
 
- Oroa dig inte![Aspose.Cells](https://products.aspose.com/cells/) stöder alla dessa operationer.
+ Oroa dig inte![Aspose.Cells](https://products.aspose.com/cells/)stöder alla dessa operationer.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Formerna i excel är huvudsakligen indelade i följande typer:
 - **Stjärnor och banderoller**
 - **Bildtexter**
 
-Detta guidedokument kommer att välja en eller två former från varje typ för att göra prover. Genom dessa exempel kommer du att lära dig hur du använder[Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i kalkylbladet.
+ Detta guidedokument kommer att välja en eller två former från varje typ för att göra prover. Genom dessa exempel kommer du att lära dig hur du använder[Aspose.Cells](https://products.aspose.com/cells/) för att infoga den angivna formen i kalkylbladet.
 
 
 
@@ -62,7 +62,7 @@ Utför koden ovan, du får följande resultat:
 
 ## **Infoga en linjepil i arbetsblad**
 
- Formen på linjepilen tillhör**Rader**kategori. Det är ett specialfall av linje.
+ Formen på linjepilen tillhör**Rader** kategori. Det är ett specialfall av linje.
 
 ***I Microsoft Excel (till exempel 2007):***
 
@@ -130,7 +130,7 @@ Utför koden ovan, du får följande resultat:
 
 ## **Infoga en kub i arbetsbladet**
 
- Formen på kuben tillhör**Grundläggande former** kategori.
+Formen på kuben tillhör**Grundläggande former** kategori.
 
 ***I Microsoft Excel (till exempel 2007):***
 
@@ -232,7 +232,7 @@ Utför koden ovan, du får följande resultat:
 
 ## **Infoga ett multidokument i kalkylblad**
 
-Formen på multidokument tillhör**Flödesdiagram** kategori.
+ Formen på multidokument tillhör**Flödesdiagram** kategori.
 
 ***I Microsoft Excel (till exempel 2007):***
 
@@ -298,7 +298,7 @@ Utför koden ovan, du får följande resultat:
 
 
 
-## **Infoga ett tankebubbelmoln i arbetsblad**
+## **Infogar ett tankebubbelmoln i arbetsblad**
 
  Formen på tankebubbelmoln tillhör**Bildtexter** kategori.
 

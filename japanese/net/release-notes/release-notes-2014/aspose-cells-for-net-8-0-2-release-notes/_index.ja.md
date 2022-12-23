@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET がバージョン 8.0.2 に更新されました。このリリースで 30 を超える新しい便利な改善が追加されたことをお知らせできることをうれしく思います。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -30,7 +30,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **パフォーマンス**
 
 
-(CELLSNET-42278) - XLSX を PDF に保存する際に System.OutOfMemoryException が発生し、XLSX には書式設定された空白セルが多数含まれます
+(CELLSNET-42278) - XLSX から PDF への保存中に System.OutOfMemoryException が発生し、XLSX には書式付きの空白セルが多数含まれています
 
 
 ## **バグ**
@@ -48,7 +48,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42562) - 数式が外貨で機能しない
 
-(CELLSNET-42269) - 出力 XPS のピボットテーブル形式が正しくない
+(CELLSNET-42269) - 出力 XPS のピボットテーブルのフォーマットが正しくない
 
 (CELLSNET-42597) - AutoFitRows により、ラップされたテキストが結果の PDF で非表示になる
 
@@ -58,13 +58,13 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42580) - Excel ファイルを PDF に保存すると、ヘッダーの色設定が無視される
 
-(CELLSNET-42579) - PDF へのレンダリング時の改ページの問題
+(CELLSNET-42579) - PDF にレンダリングする際の改ページの問題
 
 (CELLSNET-42498) - XLSX から PDF への変換中に境界線が次のページにコピーされる
 
 (CELLSNET-42495) - Pdf レンダリングの 2 ページ目と 3 ページ目に望ましくない行が含まれている
 
-(CELLSNET-42567) - PDFに変換するとグラフが消える
+(CELLSNET-42567) - PDF に変換するとグラフが消える
 
 (CELLSNET-42527) - 同じグラフの折れ線グラフと棒グラフが正しい位置にない
 
@@ -78,7 +78,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42586) - 右に設定した場合のコメント テキストの配置が機能しない
 
-(CELLSNET-42582) - Aspose.Cells を XLSB から XLSM に変換すると、Excel で読み取り不能なコンテンツが見つかりましたというエラーが表示される
+(CELLSNET-42582) - XLSB から XLSM に変換された Aspose.Cells を開くと、Excel で読み取り不能なコンテンツが見つかりましたというエラーが表示される
 
 (CELLSNET-42581) - ArgumentOutOfRangeException - Excel XLSX ファイルを開くとき
 
@@ -104,7 +104,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

@@ -14,15 +14,15 @@ url: /zh/java/aspose-cells-for-java-18-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42523|在 Aspose.Cells API 中使用符合 FIPS 标准的 Bouncy Castle 版本|新功能|
 |CELLSJAVA-42572|公式不应包含超过 8192 个字符|强化|
-|CELLSJAVA-42569|无法访问 XLS 中图表的水平分类轴标签项目|强化|
+|CELLSJAVA-42569|无法访问 XLS 中图表的水平分类轴标签项|强化|
 |CELLSJAVA-42580|获取/设置语言文档属性|强化|
 |CELLSJAVA-42565|前景色 vs 背景色 vs 填充色 - 使用带有两个参数的单一方法|强化|
 |CELLSJAVA-42528|"<Font>" 不是有效的 HTML5 和自关闭标签，网络浏览器会歪曲其内容|强化|
 |CELLSJAVA-42413|通过 Aspose.Cells 将 SVG 图像类型插入工作表单元格|强化|
-|CELLSJAVA-42551|输出 PDF 中的某些形状不正确|漏洞|
-|CELLSJAVA-42578|将 Excel 保存为 HTML 时条件格式丢失|漏洞|
+|CELLSJAVA-42551|输出中的某些形状不正确 PDF|漏洞|
+|CELLSJAVA-42578|将 Excel 保存到 HTML 时条件格式丢失|漏洞|
 |CELLSJAVA-42571|输出 HTML 与 MS-Excel 不匹配|漏洞|
-|CELLSJAVA-42553|导出为 HTML 后指向命名区域的链接是错误的|漏洞|
+|CELLSJAVA-42553|导出到 HTML 后指向命名区域的链接是错误的|漏洞|
 |CELLSJAVA-42530|数据透视表和相应的图表没有正确的日期格式|漏洞|
 |CELLSJAVA-42527|图表在 x 轴上有很多值，并且值相互重叠|漏洞|
 |CELLSJAVA-42581|Aspose.Cells 返回单元格 A2 的错误值|漏洞|
@@ -37,9 +37,9 @@ url: /zh/java/aspose-cells-for-java-18-4-release-notes/
 # **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **为 HtmlCrossType 枚举添加新项目“CrossHideRight”**
-显示 HTML 交叉字符串并在文本重叠时隐藏正确的字符串。
+显示 HTML 交叉字符串并在文本重叠时隐藏右侧字符串。
 #### **为 LoadFormat、SaveFormat 和 FileFormatType 枚举添加新项目“TSV”**
-代表一个TSV(Tab-separated values)文件，同“TabDelimited”。
+表示一个TSV（制表符分隔值）文件，与“TabDelimited”相同。
 #### **添加枚举 ImageType**
 表示图像的类型。
 #### **添加 MsoTextFrame.RotateTextWithShape 和 ShapeTextAlignment.RotateTextWithShape 属性**
@@ -51,7 +51,7 @@ url: /zh/java/aspose-cells-for-java-18-4-release-notes/
 #### **添加重载 AutoFilter.Refresh (System.Boolean) 方法**
 获取所有隐藏行的索引并刷新自动过滤器。
 #### **添加重载 Cell.GetHtmlString(System.Boolean) 方法**
-获取此单元格中包含数据和某些格式的 HTML 字符串。
+获取包含此单元格中的数据和某些格式的 HTML 字符串。
 #### **添加 BuiltInDocumentPropertyCollection.Language 属性**
 获取和设置文件的语言。
 #### **添加 Style.SetPatternColor（Aspose.Cells.BackgroundType，System.Drawing.Color，System.Drawing.Color）**

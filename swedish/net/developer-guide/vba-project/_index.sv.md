@@ -13,7 +13,7 @@ description: Lägg till VBA-modul och ändra VBA eller makro med Aspose.Cells-bi
 
 {{% /alert %}}
 
-Följande exempelkod skapar en ny arbetsbok och lägger till en ny VBA-modul och makrokod och sparar utdata i XLSM-format. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel och klicka på**Utvecklare > Visual Basic** menykommandon kommer du att se en modul som heter "TestModule" och inuti den kommer du att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok och lägger till en ny VBA-modul och makrokod och sparar utdata i formatet XLSM. En gång öppnar du utdatafilen XLSM i Microsoft Excel och klickar på**Utvecklare > Visual Basic** menykommandon kommer du att se en modul som heter "TestModule" och inuti den kommer du att se följande makrokod.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-Här är exempelkoden för att generera utdata-XLSM-filen med VBA-modul och makrokod.
+Här är exempelkoden för att generera utdatafilen XLSM med VBA-modul och makrokod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

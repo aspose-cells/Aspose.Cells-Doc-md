@@ -12,7 +12,7 @@ url: /tr/java/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **Çalışma Kitabındaki VBA projesinin İmzalı olup olmadığını kontrol edin**
 
- Aşağıdaki kod, çalışma kitabını yükler ve VBA projesinin kullanılarak imzalanıp imzalanmadığını kontrol eder.[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)Emlak. mülk geri dönecek**doğru** proje imzalanırsa aksi takdirde geri döner**yanlış**.
+ Aşağıdaki kod, çalışma kitabını yükler ve VBA projesinin kullanılarak imzalanıp imzalanmadığını kontrol eder.[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) Emlak. mülk geri dönecek**doğru** proje imzalanırsa aksi takdirde geri döner**YANLIŞ**.
 
 ## Basit kod
 

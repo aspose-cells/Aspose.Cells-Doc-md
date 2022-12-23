@@ -6,7 +6,7 @@ url: /it/net/dnn-database-data-exporter-to-excel/
 ---
 ## **introduzione**
 
-Aspose Il modulo .NET DNN Data Exporter to Excel consente agli utenti di esportare i dati direttamente da tabelle di database locali o remoti, viste e tramite query personalizzate in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzione di creazione di fogli di calcolo fornita da Aspose.Cells.
+Aspose .NET DNN Data Exporter to Excel Module consente agli utenti di esportare i dati direttamente da tabelle di database locali o remoti, viste e tramite query personalizzate in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells.
 
 ### **Caratteristiche del modulo**
 
@@ -21,9 +21,9 @@ Questa versione iniziale del modulo è arricchita con le seguenti interessanti f
 - Consenti di saltare la stringa più di 32k nelle celle Excel (LoadOptions)
 - Applicare la formattazione della colonna di intestazione come testo in grassetto
 - Consenti utilizzo come origine dati (tabella, viste, query personalizzata)
-- Esporta dati in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
+- Esporta dati in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
 - Esporta dati in un documento di testo delimitato da tabulazioni (*.txt)
-- Esporta dati in CSV (delimitato da virgola) (*.csv)
+- Esporta dati a CSV (delimitato da virgola) (*.csv)
 - Esporta dati in un foglio di calcolo OpenDocument (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione.
 - Il documento esportato viene inviato automaticamente al browser per il download.
@@ -68,7 +68,7 @@ Una volta scaricato, segui questi passaggi per installare il modulo nel tuo sito
 
 ## **Usando**
 
-Dopo aver installato il modulo Aspose .NET Database Data Expoeter for DNN, è davvero semplice iniziare ad usarlo sul tuo sito web. Segui questi semplici passaggi per iniziare:
+Dopo aver installato il modulo Aspose .NET Database Data Expoeter for DNN, è davvero semplice iniziare a utilizzarlo sul tuo sito web. Segui questi semplici passaggi per iniziare:
 
 1. Assicurati di aver effettuato l'accesso a DNN con un account a livello di host o amministratore.
 1. Passare alla pagina in cui si desidera aggiungere il modulo Esporta.
@@ -77,7 +77,7 @@ Dopo aver installato il modulo Aspose .NET Database Data Expoeter for DNN, è da
 
 ![cose da fare:immagine_alt_testo](picture2.png)
 
-Hai aggiunto correttamente Aspose .NET Database Data Exporter a Excel per il modulo DNN alla tua pagina.
+Hai aggiunto correttamente il modulo Aspose .NET Database Data Exporter a Excel per DNN alla tua pagina.
 
 ![cose da fare:immagine_alt_testo](picture3.png)
 
@@ -100,7 +100,7 @@ Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni p
 
 Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
 
-È possibile registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
+Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
 
 - [Aspose Foro](https://forum.aspose.com/c/cells/9)
 

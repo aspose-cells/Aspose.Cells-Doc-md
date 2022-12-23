@@ -22,14 +22,14 @@ Bu sayfa Aspose.Cells for Android via Java 22.3 için sürüm notları içerir.
 |CELLSJAVA-44130|Veri etiketlerinin metni, çıktı grafiği görüntüsüne sarılır|
 |CELLSJAVA-44204|csv için sayfalandırma sorunu|
 |CELLSJAVA-43934|Pasta grafiği etiketleri, grafiği değiştirdikten veya güncelledikten sonra Excel ile eşleşmiyor|
-|CELLSJAVA-44122|HTML'yi dışa aktarırken, veri etiketleri Excel'inkinden farklı|
-|CELLSJAVA-41949| Çalışma Kitabını XLSX ve HTML biçimlerine kaydederken içerik farklı işleniyor|
-|CELLSJAVA-44207|HTML'ye dışa aktarırken satır yüksekliği yükselir|
+|CELLSJAVA-44122|HTML dışa aktarılırken veri etiketleri Excel'dekinden farklı|
+|CELLSJAVA-41949| Çalışma Kitabı XLSX & HTML biçimlerine kaydedilirken içerik farklı işleniyor|
+|CELLSJAVA-44207|HTML'e dışa aktarırken satır yüksekliği artıyor|
 |CELLSJAVA-44233|XLSX dosyasını dönüştürürken sonsuz döngü|
-|CELLSJAVA-44271|Excel'i PDF'ye dönüştürürken, manuel dönüştürme durumuna kıyasla çıktı konumu kayar|
-|CELLSJAVA-44197|XLSX'i PDF'ye dönüştürürken, pivot tablo zaman çizelgesi şekli (pencere) görüntülenmiyor|
+|CELLSJAVA-44271|Excel'i PDF'e dönüştürürken, manuel dönüştürme durumuna kıyasla çıktı konumu kayar|
+|CELLSJAVA-44197|XLSX'i PDF'e dönüştürürken, pivot tablo zaman çizelgesi şekli (pencere) görüntülenmiyor|
 |CELLSJAVA-44267|Pivot tablo içeren çalışma kitabı bozuluyor|
-|CELLSJAVA-44114|XLSX'ten PDF'e: XLSX dosyasındaki Bilimsel sayı biçimindeki veriler, çıktı PDF dosyasındaki verilerle eşleşmiyor|
+|CELLSJAVA-44114|XLSX - PDF: XLSX dosyasındaki Bilimsel sayı biçimindeki veriler, PDF çıktı dosyasındaki verilerle eşleşmiyor|
 |CELLSJAVA-44293|Yeniden kaydedilen Excel dosyasının, MS Excel'de açılırken kurtarılması gerekiyor|
 |CELLSJAVA-43194|Resimler yanlış gösteriliyor|
 |CELLSJAVA-44243|GridWeb bahar demo kaydetme dosyası jdk1.8'de başarısız oldu|
@@ -38,25 +38,25 @@ Bu sayfa Aspose.Cells for Android via Java 22.3 için sürüm notları içerir.
 |CELLSJAVA-44229|td içeriği div etiketiyle sarıldığında formül kaybolur|
 |CELLSJAVA-44247|PDF'ye dönüştürülürken tek satırlık metin kaydırılıyor|
 |CELLSJAVA-44175| Çakışan Halka Grafik Etiketleri ile ilgili sorun|
-|CELLSJAVA-44192| Grafikteki kategori ekseni öğe adı, Excel'den PDF'ye dönüştürmede kesiliyor|
+|CELLSJAVA-44192|Grafikteki kategori ekseni öğe adı Excel'de kesilerek PDF'e dönüştürülür|
 |CELLSJAVA-44233|XLSX dosyasını dönüştürürken sonsuz döngü|
 |CELLSJAVA-44263|Grafik etiketi metninin yönünün dikey olarak ayarlanması etkili olmuyor|
 |CELLSJAVA-44268| Chart.toPdf yönteminde "java.lang.NullPointerException" istisnası|
-|CELLSJAVA-44302|Excel dosyası HTML'ye dönüştürüldükten sonra koordinat ekseninin metin yönü yanlış|
+|CELLSJAVA-44302|Excel dosyası HTML'e dönüştürüldükten sonra koordinat ekseninin metin yönü yanlış|
 |CELLSJAVA-44314|Grafikten görüntüye dönüştürmede yanlış grafik kategorisi eksen etiketleri|
-|CELLSJAVA-44274|SVG formatı, PDF'yi okumak veya oluşturmak için destekleniyor mu?|
+|CELLSJAVA-44274|SVG biçimi, PDF'i okumak veya işlemek için destekleniyor mu?|
 |CELLSJAVA-44369| şekil yüksekliği doğru değil|
 |CELLSJAVA-44366|Sayfa içeriğinin yeni bir sayfa sayfasına kopyalanması ve html olarak kaydedilmesi, Excel matematik formülü stilinin anormal olmasına neden olur|
 |CELLSJAVA-44408|Değiştirdiğimiz 2 satırı genişlettiğimizde Cell yüzde formatı kayboluyor|
-|CELLSJAVA-44341|Cell Excel'de DOCX'ten DOCX'e dönüştürme çıktısında genişlik doğru değil|
+|CELLSJAVA-44341|Cell Excel'de DOCX çıktısında DOCX'e dönüştürmede genişlik doğru değil|
 |CELLSJAVA-44383|Koşullu biçimlendirme, özel özellikler eklendikten sonra çalışmayı durdurdu|
 |CELLSJAVA-44370|Excel dosyası açılıp Aspose.Cells ile kaydedildiğinde bozuluyor|
-|CELLSJAVA-44344| XLSX çıktısında aralıkların yatay kopyalanmasıyla ilgili sorun|
+|CELLSJAVA-44344|XLSX çıktısında aralıkların yatay kopyalanmasıyla ilgili sorun|
 |CELLSJAVA-44363| satır başlığı yüksekliği dosyadaki satır içeriğiyle eşleşmiyor|
 |CELLSJAVA-44349|görüntü/şekil, GridWeb için sunucu yeniden başlatıldıktan sonra korunacaktır|
 |CELLSJAVA-44367|Sütun grafiğinin rengi, html'ye dönüştürülürken beyaza döner|
-|CELLSJAVA-44328| Excel dosyasını HTML olarak kaydederken Excel grafiklerinin bazı veri etiketleri kayboluyor|
-|CELLSJAVA-44193|Grafikteki kategori ekseni öğelerinin açısı Excel'den PDF'e dönüştürmede farklıdır|
+|CELLSJAVA-44328| Excel dosyası HTML olarak kaydedilirken Excel grafiklerinin bazı veri etiketleri kayboluyor|
+|CELLSJAVA-44193|Grafikteki kategori ekseni öğelerinin açısı, Excel'de PDF dönüşümünden farklıdır|
 |CELLSJAVA-44314|Grafikten görüntüye dönüştürmede yanlış grafik kategorisi eksen etiketleri|
 |CELLSJAVA-44332|Cell xlsx'i html'ye dönüştürürken altı çizili bağlantı kaldırılamıyor|
 |CELLSJAVA-44234|data.xls dosyası için yetersiz bellek sorunu|
@@ -89,7 +89,7 @@ Eski sürümlerde?DataSorter.Sort() yöntemleri hiçbir şey döndürmez. Bu ver
 
 ### **TxtLoadOptions.ExtendToNextSheet özelliğini ekler.**
 
-Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerini birden çok çalışma sayfasına aktarmayı destekler.
+Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerinin birden çok çalışma sayfasına aktarılmasını destekler.
 
 ### **ExternalLinkCollection.Clear() yöntemini ekler.**
 

@@ -42,7 +42,7 @@ SharePoint belge kitaplığınızdaki bir Microsoft Excel belgesini başka biçi
 
 
 1. Çıktı biçimini seçin.
-Burada çıktı dosyası adını ve hedef klasörü de değiştirebilirsiniz.
+ Burada çıktı dosyası adını ve hedef klasörü de değiştirebilirsiniz.
 1.  Tıklamak**Dönüştürmek**. 
 
    **Çıktı biçimini seçme** 
@@ -55,7 +55,7 @@ Burada çıktı dosyası adını ve hedef klasörü de değiştirebilirsiniz.
 
 
 
-1.  Tıklamak**Dönüş** Belge kitaplığına geri dönmek için.
+1.  Tıklamak**Geri dönmek** Belge kitaplığına geri dönmek için.
 1.  Dönüştürülen belge, SharePoint belge kitaplığında listelenir.
 
    **Dönüştürülen dosya belge kitaplığında listelenir** 
@@ -64,8 +64,8 @@ Burada çıktı dosyası adını ve hedef klasörü de değiştirebilirsiniz.
 ### **Özet**
 {{% alert color="primary" %}} 
 
-Aspose.Cells for SharePoint kurulumu ve kullanımı kolaydır. Microsoft Excel dosyalarını doğrudan SharePoint sunucusuna dönüştürmek için bir özellik eklemekle kalmaz, aynı zamanda Microsoft Excel'in istemci makinelere yüklenmesi ihtiyacını da ortadan kaldırır. Ayrıca, geliştiriciler kendi SharePoint çözümlerini geliştirmek için Aspose.Cells for SharePoint'in genel API'ini kullanabilirler.
+Aspose.Cells for SharePoint kurulumu ve kullanımı kolaydır. Microsoft Excel dosyalarını doğrudan SharePoint sunucusuna dönüştürmek için bir özellik eklemekle kalmaz, aynı zamanda istemci makinelerde Microsoft Excel'in yüklenmesi ihtiyacını da ortadan kaldırır. Ayrıca, geliştiriciler kendi SharePoint çözümlerini geliştirmek için Aspose.Cells for SharePoint'in genel API'ini kullanabilirler.
 
- Yani for SharePoint site yöneticileri, geliştiriciler ve son kullanıcılar için faydalıdır.
+Yani for SharePoint site yöneticileri, geliştiriciler ve son kullanıcılar için faydalıdır.
 
 {{% /alert %}}

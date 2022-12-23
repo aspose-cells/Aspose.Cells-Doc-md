@@ -3,7 +3,7 @@ title: Verifiera lösenordet för krypterade filer
 type: docs
 weight: 10
 url: /sv/net/verify-password-of-encrypted-excel-and-ods-files/
-description: Verifiera lösenordet för krypterade Excel-filer (xlsx, xlsb, xls, xlsm) och Open Office-filer (ODS) med hjälp av CShape-koder.
+description: Verifiera lösenordet för krypterade Excel-filer (xlsx, xlsb, xls, xlsm) och Open office (ODS) med hjälp av CShape-koder.
 ---
 {{% alert color="primary" %}}
 Om Excel (xlsx, xlsb, xls, xlsm) och Open office (ODS)-filer är låsta med lösenord, stöder Aspose enkel lösenordsverifiering utan att tolka specifik data för filerna.

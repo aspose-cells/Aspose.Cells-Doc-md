@@ -20,7 +20,7 @@ Pour supprimer la protection d'une feuille de calcul :
 
 ### **Déprotéger une feuille de calcul simplement protégée à l'aide de Aspose.Cells**
 
- Une feuille de calcul peut être déprotégée en appelant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer'[**Déprotéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index)méthode.
+ Une feuille de calcul peut être déprotégée en appelant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Déprotéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index)méthode.
  Une feuille de calcul simplement protégée est une feuille qui n'est pas protégée par un mot de passe. Ces feuilles de calcul peuvent être déprotégées en appelant le[**Déprotéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/unprotect/index)méthode sans passer de paramètre.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Unprotect-UnprotectingSimplyProtectedWorksheet-1.cs" >}}

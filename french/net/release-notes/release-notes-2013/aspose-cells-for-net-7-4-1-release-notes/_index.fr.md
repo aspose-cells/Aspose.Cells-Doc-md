@@ -16,7 +16,7 @@ url: /fr/net/aspose-cells-for-net-7-4-1-release-notes/
 
  Améliorations
 
- Exceptions
+ Des exceptions
 
  41371 - FormatException lors de l'ouverture du fichier
 
@@ -24,7 +24,7 @@ url: /fr/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41401 - Recherche de lignes masquées - Définir la formule des compléments
 
- 41382 - Exporter au format PDF - le formatage n'est pas correct
+ 41382 - Exporter vers PDF - le formatage n'est pas correct
 
  41431 - Exception : "L'index était hors plage"
 
@@ -36,7 +36,7 @@ url: /fr/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 - Problème d'actualisation du tableau croisé dynamique
 
- 41411 - Enregistrer XLSX en HTML - erreur de formatage
+41411 - Enregistrer XLSX en HTML - erreur de formatage
 
  41406 - Problème de formule/fonction DATEDIF
 
@@ -48,7 +48,7 @@ url: /fr/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41427 - Excel ne termine pas le chargement - Fichier Excel 2013
 
-41400 - La valeur de la feuille de calcul/les modifications d'entrée lors de l'enregistrement
+ 41400 - La valeur de la feuille de calcul/les modifications d'entrée lors de l'enregistrement
 
 2 
 

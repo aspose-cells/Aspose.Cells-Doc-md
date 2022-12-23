@@ -9,6 +9,6 @@ url: /ar/reportingservices/office-2000-xp-installation-question/
 ##### **المحلول**
 {{% alert color="primary" %}} 
 
- تثبيت**lockbackRegKey.msi**يعمل هذا على إصلاح مشكلة CLR على أجهزة Office الأقدم من Office 2003.
+ ثَبَّتَ**lockbackRegKey.msi**. يعمل هذا على إصلاح مشكلة CLR على أجهزة Office الأقدم من Office 2003.
 
 {{% /alert %}}

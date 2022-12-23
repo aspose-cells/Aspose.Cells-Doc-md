@@ -15,11 +15,11 @@ volte, è necessario estrarre oggetti OLE da una cartella di lavoro. Aspose.Cell
 ### **Creazione di una cartella di lavoro modello**
 
 1. Creato un foglio di calcolo in Microsoft Excel.
-1. Aggiungi un documento Microsoft Word, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
+1. Aggiungi un documento Word Microsoft, una cartella di lavoro Excel e un documento PDF come oggetti OLE nel primo foglio di lavoro.
 
 ### **Estrai oggetti OLE**
 
-Il codice seguente svolge il lavoro effettivo di ricerca ed estrazione di oggetti OLE come file DOCX, XLSX, PPTX e PDF.
+Il codice seguente esegue il lavoro effettivo di ricerca ed estrazione di oggetti OLE come file DOCX, XLSX, PPTX e PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 

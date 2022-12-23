@@ -13,4 +13,4 @@ Aspose.Cells for Reporting Services 隐藏隐藏参数中指定的任何基于�
 
 **指定隐藏选项** 
 
-![待办事项：图像_替代_文本](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)
+![待办事项：图片_替代_文本](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)

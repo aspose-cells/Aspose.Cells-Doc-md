@@ -21,9 +21,9 @@ url: /ja/nodejs-java/aspose-cells-for-node-js-via-java-22-5-release-notes/
 |CELLSJAVA-44501| duohangduolie.zip ファイルの次号を検索します。|
 |CELLSJAVA-44529|フリーズペインの検索を実装する|
 |CELLSJAVA-44530|setactivecell が時々機能しない問題を調査する|
-|CELLSJAVA-44534|Excel から HTML への変換でエクスポートされない印刷領域のグラフィック|
+|CELLSJAVA-44534|Excel で HTML 変換にエクスポートされない印刷領域のグラフィック|
 |CELLSJAVA-44539|印刷領域のある html に変換するときにグラフが右にシフトする|
-|CELLSJAVA-44568|HTML から XLS への変換で最初の行を除いて複数行のキャプションが失われる|
+|CELLSJAVA-44568|HTML から XLS への変換で、最初の行を除いて複数行のキャプションが失われる|
 |CELLSJAVA-44512|チャートを html で svg にエクスポートする際にチャートが見つからない|
 |CELLSJAVA-44556|座標軸を対数スケールに設定した後のデータ テーブルのデータ表示の問題 - Excel から HTML/PDF への変換|
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Lägga till HTML Rich Text i Cell
+title: Lägger till HTML Rich Text i Cell
 linktitle: Html-strängvärde
 type: docs
 weight: 50
@@ -7,13 +7,13 @@ url: /sv/net/adding-html-rich-text-inside-the-cell/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder konvertering av Microsoft Excel-orienterad HTML till XLS/XLSX-format. Det betyder att HTML som genereras av Microsoft Excel kan konverteras tillbaka till XLS/XLSX-format med Aspose.Cells.
+Aspose.Cells stöder konvertering av Microsoft Excel-orienterad HTML till XLS/XLSX-format. Det betyder att HTML som genereras av Microsoft Excel kan konverteras tillbaka till XLS/XLSX-formatet med Aspose.Cells.
 
- På samma sätt, om det finns någon enkel HTML, kan Aspose.Cells konvertera den till HTML Rich Text. Aspose.Cells tillhandahåller[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) egenskap som kan ta en så enkel HTML och konvertera den till formaterad celltext.
+ På samma sätt, om det finns en enkel HTML, kan Aspose.Cells konvertera den till HTML Rich Text. Aspose.Cells tillhandahåller[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) egenskap som kan ta en så enkel HTML och konvertera den till formaterad celltext.
 
 {{% /alert %}}
 
-Nedan kodexempel visar hur du lägger till HTML-rik text i cellen. Se skärmdumpen av den utgående Excel-filen.
+Nedan kodexempel visar hur du lägger till HTML rich text inuti cellen. Se skärmdumpen av den utgående Excel-filen.
 
 ![todo:image_alt_text](adding-html-rich-text-inside-the-cell_1)
 
@@ -21,5 +21,5 @@ Nedan kodexempel visar hur du lägger till HTML-rik text i cellen. Se skärmdump
 
 ## relaterade artiklar
 
-- [Visa punktpunkter genom att ställa in Cell Värde med HTML](/cells/sv/net/display-bullets-by-setting-cell-value-using/)
+- [Visa punkter genom att ställa in Cell Värde med HTML](/cells/sv/net/display-bullets-by-setting-cell-value-using/)
 - [Hämta HTML5-sträng från Cell](/cells/sv/net/get-html5-string-from-cell/)

@@ -14,10 +14,10 @@ url: /ar/java/chart-types/
 
 - [الأنواع القياسية](/cells/ar/java/chart-types/).
 - [أنواع مخصصة](/cells/ar/java/chart-types/).
-### **أنواع قياسية**
+### **الأنواع القياسية**
 المخططات القياسية هي تلك المستخدمة عادة مع التنسيق القياسي:
 
-|<p>- [عمودي](/cells/ar/java/chart-types/)</p><p>- [شريط](/cells/ar/java/chart-types/)</p><p>- [خط](/cells/ar/java/chart-types/)</p><p>- [فطيرة](/cells/ar/java/chart-types/)</p><p>- [مبعثر](/cells/ar/java/chart-types/)</p><p>- [منطقة](/cells/ar/java/chart-types/)</p><p>- [الدونات](/cells/ar/java/chart-types/)</p>|<p>- [رادار](/cells/ar/java/chart-types/)</p><p>- [السطح ثلاثي الأبعاد](/cells/ar/java/chart-types/)</p><p>- [فقاعة](/cells/ar/java/chart-types/)</p><p>- [مخزون](/cells/ar/java/chart-types/)</p><p>- [اسطوانة](/cells/ar/java/chart-types/)</p><p>- [مخروط](/cells/ar/java/chart-types/)</p><p>- [هرم](/cells/ar/java/chart-types/)</p><p>- [مخطط Treemap](/cells/ar/java/chart-types/)</p><p>- [أمة الله](/cells/ar/java/chart-types/)</p><p>- [الرسم البياني](/cells/ar/java/chart-types/)</p><p>- [صندوق وشارب](/cells/ar/java/chart-types/)</p><p>- [شلال](/cells/ar/java/chart-types/)</p>|
+|<p>- [عمود](/cells/ar/java/chart-types/)</p><p>- [شريط](/cells/ar/java/chart-types/)</p><p>- [خط](/cells/ar/java/chart-types/)</p><p>- [فطيرة](/cells/ar/java/chart-types/)</p><p>- [مبعثر](/cells/ar/java/chart-types/)</p><p>- [منطقة](/cells/ar/java/chart-types/)</p><p>- [الدونات](/cells/ar/java/chart-types/)</p>|<p>- [رادار](/cells/ar/java/chart-types/)</p><p>- [السطح ثلاثي الأبعاد](/cells/ar/java/chart-types/)</p><p>- [فقاعة](/cells/ar/java/chart-types/)</p><p>- [مخزون](/cells/ar/java/chart-types/)</p><p>- [اسطوانة](/cells/ar/java/chart-types/)</p><p>- [مخروط](/cells/ar/java/chart-types/)</p><p>- [هرم](/cells/ar/java/chart-types/)</p><p>- [مخطط Treemap](/cells/ar/java/chart-types/)</p><p>- [أمة الله](/cells/ar/java/chart-types/)</p><p>- [الرسم البياني](/cells/ar/java/chart-types/)</p><p>- [صندوق وشارب](/cells/ar/java/chart-types/)</p><p>- [شلال](/cells/ar/java/chart-types/)</p>|
 |:- |:- |
 يتم وصف كل نوع من أنواع المخططات القياسية بمزيد من التفاصيل أدناه.
 #### **المخططات العمودية**

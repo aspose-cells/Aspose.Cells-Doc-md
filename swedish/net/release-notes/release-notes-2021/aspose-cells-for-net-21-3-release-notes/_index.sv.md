@@ -34,9 +34,9 @@ url: /sv/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47881|Kolumnbredden är mindre än förväntat när du importerar/mappar XML-filen till arbetsboken|Insekt|
 |CELLSNET-47804|Sjökortsförklaringstext visas inte korrekt|Insekt|
 |CELLSNET-47834|Chart.Calculate() i diagram ändrar diagramformateringen|Insekt|
-|CELLSNET-47856|XLSX till PDF-konverteringsproblem med pivottabeller|Insekt|
+|CELLSNET-47856|XLSX till PDF konverteringsproblem med pivottabeller|Insekt|
 |CELLSNET-41275|Diagram som hänvisar till andra blad visas inte|Insekt|
-|CELLSNET-42847|Diagrammet går förlorat vid återlagring av ODS-fil|Insekt|
+|CELLSNET-42847|Diagrammet går förlorat när ODS-filen sparas på nytt|Insekt|
 |CELLSNET-47861|Skillnad i radhöjdsberäkning|Insekt|
 |CELLSNET-47876|Autopassning av rader och standardhöjd fungerar inte korrekt för sammanslagna celler|Insekt|
 |CELLSNET-47903|Att infoga kolumn i en tabell gör att arbetsboken skadas|Insekt|
@@ -46,10 +46,10 @@ url: /sv/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47913|Shape.UpdateSelectedValue() orsakar felaktig formuppdatering|Insekt|
 |CELLSNET-47866|Undantag vid laddning av en HTML|Undantag|
 |CELLSNET-47882|Undantag uppstod vid import av html till excel-fil|Undantag|
-|CELLSNET-47863|Att lägga till HTML-taggar till cell kastar System.FormatException|Undantag|
+|CELLSNET-47863|Att lägga till HTML-taggar i cell kastar System.FormatException|Undantag|
 |CELLSNET-47868|Ogiltigt undantag för slutradindex vid öppning av Office 2000 XLS-fil|Undantag|
 |CELLSNET-47869|Cells Arbetsbokladdningsfel med undantag|Undantag|
-|CELLSNET-47870|Undantag uppstod när XLS-filen laddades|Undantag|
+|CELLSNET-47870|Undantag uppstod när filen XLS laddades|Undantag|
 |
 
 

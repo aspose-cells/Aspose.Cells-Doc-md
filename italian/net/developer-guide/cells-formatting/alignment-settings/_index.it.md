@@ -37,7 +37,7 @@ Tutte queste impostazioni di allineamento sono completamente supportate da Aspos
 |Riempire|Rappresenta l'allineamento del testo di riempimento|
 |Generale|Rappresenta l'allineamento generale del testo|
 |Giustificare|Rappresenta giustifica l'allineamento del testo|
-|Sono partiti|Rappresenta l'allineamento del testo a sinistra|
+|Sinistra|Rappresenta l'allineamento del testo a sinistra|
 |Destra|Rappresenta l'allineamento del testo a destra|
 |Superiore|Rappresenta l'allineamento del testo superiore|
 |Giustificato Basso|Allinea il testo con una lunghezza kashida regolata per il testo arabo.|
@@ -51,7 +51,7 @@ Tutte queste impostazioni di allineamento sono completamente supportate da Aspos
 
 #### **Allineamento orizzontale**
 
- Utilizzare il[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) dell'oggetto[**Allineamento orizzontale**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)proprietà per allineare il testo orizzontalmente.
+ Usa il[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) dell'oggetto[**Allineamento orizzontale**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)proprietà per allineare il testo orizzontalmente.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
@@ -100,7 +100,7 @@ La sezione seguente illustra come controllare il testo impostando il ritorno a c
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
- L'altro modo è chiamare prima il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) della collezione[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metodo per creare un intervallo di celle da unire. Il[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Il metodo accetta lo stesso set di parametri di quello di[**Unisci**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) metodo discusso sopra e restituisce a[**Gamma**](https://reference.aspose.com/cells/net/aspose.cells/range) oggetto. Il[**Gamma**](https://reference.aspose.com/cells/net/aspose.cells/range) oggetto fornisce anche a[**Unisci**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) metodo che unisce l'intervallo specificato in[**Gamma**](https://reference.aspose.com/cells/net/aspose.cells/range)oggetto.
+ L'altro modo è chiamare prima il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) della collezione[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) metodo per creare un intervallo di celle da unire. Il[**Crea intervallo**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) Il metodo accetta lo stesso set di parametri di quello di[**Unisci**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) metodo discusso sopra e restituisce a[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range) oggetto. Il[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range) oggetto fornisce anche a[**Unisci**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) metodo che unisce l'intervallo specificato in[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range)oggetto.
 
 ##### **Direzione del testo**
 

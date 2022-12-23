@@ -6,7 +6,7 @@ url: /de/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells – Bildlaufleisten anzeigen oder ausblenden**
 ### **Zeilen-/Spaltenüberschriften ausblenden**
-Zeilen-/Spaltenüberschriften ausblenden mit**Aspose.Cells Java for Python** , Anruf**DisplayHideRowColumnHeader** Modul.
+ Zeilen-/Spaltenüberschriften ausblenden mit**Aspose.Cells Java for Python** , Anruf**DisplayHideRowColumnHeader** Modul.
 
 **Python Code**
 

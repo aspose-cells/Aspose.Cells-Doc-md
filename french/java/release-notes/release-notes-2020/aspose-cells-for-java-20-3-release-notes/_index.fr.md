@@ -10,20 +10,20 @@ url: /fr/java/aspose-cells-for-java-20-3-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43137|Light Cells API : traitement des feuilles dans un ordre spécifique|Nouvelle fonctionnalité|
 |CELLSJAVA-43135|Supprimer ActiveXControl de la forme de l'image|Nouvelle fonctionnalité|
 |CELLSJAVA-43141|Ajouter la propriété ThreadedComment.CreatedTime|Nouvelle fonctionnalité|
 |CELLSJAVA-42068|GIF dans la feuille de calcul est incorrect lorsque le classeur est converti en HTML|Punaise|
 |CELLSJAVA-43127|Le tableau croisé dynamique Excel n'est pas automatiquement actualisé lors de la première ouverture du fichier|Punaise|
-|CELLSJAVA-43129|Le texte chinois est tronqué lors de la conversion HTML vers XLS|Punaise|
+|CELLSJAVA-43129|Le texte chinois est brouillé dans la conversion HTML à XLS|Punaise|
 |CELLSJAVA-43139|Les graphiques de la feuille ne sont pas actualisés lors du rendu de la feuille de calcul en image|Punaise|
 |CELLSJAVA-43148|Erreur de position de l'étiquette du graphique|Punaise|
 |CELLSJAVA-43124|Lors de la conversion en PDF, deux colonnes sont coupées du tableau|Punaise|
 |CELLSJAVA-43091|Les étiquettes de données sur le graphique Donuts se chevauchent dans le fichier PDF|Punaise|
 |CELLSJAVA-43132|Étiquettes de données manquantes dans certains graphiques lors de l'exportation du graphique vers l'image|Punaise|
-|CELLSJAVA-43143|Après WorkbookDesigner.process, la sortie du graphique est nulle en HTML|Punaise|
+|CELLSJAVA-43143|Après WorkbookDesigner.process, la sortie du graphique est nulle dans HTML|Punaise|
 |CELLSJAVA-43098|Le remplacement d'un objet intégré par une image ne fonctionne pas pour le format de fichier XLS|Punaise|
 |CELLSJAVA-43122|Un problème avec l'ordre des commentaires filetés après l'importation au format de fichier Office365 XLSX|Punaise|
 |CELLSJAVA-43134|La valeur de chaîne d'une cellule est vide dans Apple Numbers'09|Punaise|

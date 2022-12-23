@@ -12,7 +12,7 @@ Um den Konvertierungsprozess so flexibel wie möglich zu gestalten, können Sie 
 ### **Optionen**
 Während der Konvertierung stehen folgende Optionen zur Verfügung:
 #### **Dateien verketten**
- Auswählen**Dateien kombinieren** um Dateien, die ursprünglich in unterschiedlichen Formaten vorlagen, in einem einzigen Dokument zusammenzufassen.
+ Wählen**Dateien kombinieren** um Dateien, die ursprünglich in unterschiedlichen Formaten vorlagen, in einem einzigen Dokument zusammenzufassen.
 
 Diese Option ist verfügbar, wenn Sie einen Ordner oder mehrere einzelne Dateien zur Konvertierung auswählen. Verschieben Sie Dokumente in der Liste nach oben oder unten, um die Reihenfolge festzulegen, in der die Dokumente kombiniert werden sollen.
 
@@ -23,7 +23,7 @@ Diese Option ist verfügbar, wenn Sie einen Ordner oder mehrere einzelne Dateien
 
 
 #### **Konvertieren Sie Dateien in Unterordnern**
- Auswählen**Konvertieren Sie Dateien in Unterordnern** um alle Dokumente und Unterordner in einem ausgewählten Ordner rekursiv zu konvertieren.
+ Wählen**Konvertieren Sie Dateien in Unterordnern** um alle Dokumente und Unterordner in einem ausgewählten Ordner rekursiv zu konvertieren.
 
 Die vorhandene Unterordnerstruktur wird im Zielordner erstellt.
 

@@ -15,11 +15,11 @@ Aspose.Cells, VBA projesini bir Excel dosyasından başka bir Excel dosyasına k
 
 Lütfen aşağıdaki örnek koda bakın. VBA projesini kopyalar.[şablon excel dosyası](50528367.xlsm)boş bir çalışma kitabına kaydeder ve[çıktı excel dosyası](50528366.xlsm). Şablon Excel dosyası içinde VBA projesini açarsanız, aşağıda gösterildiği gibi bir Kullanıcı Formu göreceksiniz. Kullanıcı Formu, Tasarımcı Depolama Alanından oluşur, bu nedenle kullanılarak kopyalanacaktır.[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)) ve[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])) yöntemler.
 
-![yapılacaklar:resim_alternatif_Metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
 Aşağıdaki ekran görüntüsü, şablon Excel dosyasından kopyalanan çıktı Excel dosyasını ve içeriğini gösterir. Düğme 1'e tıkladığınızda, tıklandığında bir mesaj kutusu gösteren bir komut düğmesine sahip olan VBA Kullanıcı Formunu açar.
 
-![yapılacaklar:resim_alternatif_Metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![yapılacaklar:resim_alternatif_metin](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
 ## **Basit kod**
 

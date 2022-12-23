@@ -18,7 +18,7 @@ Daten sind die Sammlung von Rohdaten, und wir erstellen Tabellendokumente oder B
 - **DataReader**
 - **Rasteransicht**
 
- Aspose.Cells bietet eine Klasse,**Arbeitsmappe** die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit.
+ Aspose.Cells bietet eine Klasse,**Arbeitsmappe** die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit.
 
 Cells-Sammlung bietet sehr nützliche Methoden zum Importieren von Daten aus verschiedenen Datenquellen.
 

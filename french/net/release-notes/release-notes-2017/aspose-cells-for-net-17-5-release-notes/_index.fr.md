@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-17-5-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-41365|Prise en charge de la conformité PDF/A-1a dans PdfSaveOptions|Nouvelle fonctionnalité|
 |CELLSNET-45347|Supprimer les PrinterSettings existants dans le fichier Excel|Nouvelle fonctionnalité|
@@ -20,17 +20,17 @@ url: /fr/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45350|Erreur OutOfMemory lors du rendu d'image|Performance|
 |CELLSNET-45341|La conversion de XLS en SpreadsheetML ayant des filtres corrompt le fichier de sortie|Performance|
 |CELLSNET-45217|L'enregistrement d'Excel au format PDF fait pivoter l'image|Punaise|
-|CELLSNET-45306|Styles incorrects lors de l'enregistrement au format HTML avec le préfixe CSS|Punaise|
-|CELLSNET-45304|L'alignement du texte du texte pivoté verticalement est incorrect dans le HTML de sortie|Punaise|
-|CELLSNET-45299|Le texte ne tient pas dans la cellule lors de l'enregistrement au format HTML|Punaise|
+|CELLSNET-45306|Mauvais styles lors de l'enregistrement en HTML avec le préfixe CSS|Punaise|
+|CELLSNET-45304|L'alignement du texte du texte pivoté verticalement est incorrect dans la sortie HTML|Punaise|
+|CELLSNET-45299|Le texte ne tient pas dans la cellule lors de l'enregistrement sous HTML|Punaise|
 |CELLSNET-45288|Une exception s'est produite lors du chargement d'un fichier HTML|Punaise|
 |CELLSNET-45274|Les données du tableau croisé dynamique ne sont pas actualisées correctement|Punaise|
 |CELLSNET-45336|La méthode de calcul du classeur ne parvient pas à calculer la formule XIRR - II|Punaise|
 |CELLSNET-45333|Les valeurs des cellules M114 et N114 ne sont pas correctes après le calcul de la formule du classeur|Punaise|
 |CELLSNET-45318|La méthode de calcul du classeur ne parvient pas à calculer la formule XIRR|Punaise|
 |CELLSNET-45310|Plusieurs utilisateurs rencontrent un problème dans GridWeb lorsque l'état de la session est hors processus|Punaise|
-|CELLSNET-45324|La position des caractères n'est pas alignée au centre lors du rendu d'un fichier Excel au format PDF|Punaise|
-|CELLSNET-45339|Le fichier converti d'ODS en XML (SpreadsheetML) n'est pas ouvert par MS Excel|Punaise|
+|CELLSNET-45324|La position des caractères n'est pas alignée au centre lors du rendu d'un fichier Excel au PDF|Punaise|
+|CELLSNET-45339|Le fichier converti de ODS en XML (SpreadsheetML) n'est pas ouvert par MS Excel|Punaise|
 |CELLSNET-45326|Cell.HtmlString ne met pas correctement en surbrillance la couleur de la police imbriquée|Punaise|
 |CELLSNET-45325|Les validations de données finissent par être étranges après l'insertion de nouvelles lignes|Punaise|
 |CELLSNET-45322|Cells.La méthode ImportDataTable a changé|Punaise|
@@ -47,7 +47,7 @@ url: /fr/net/aspose-cells-for-net-17-5-release-notes/
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Ajoute la propriété ExportTableOptions.ExportAsHtmlString**
-Exporte la valeur de chaîne HTML des cellules vers le DataTable.
+Exporte la valeur de chaîne HTML des cellules vers DataTable.
 #### **Ajoute la méthode PageSetup.Copy(PageSetup source,CopyOptions copyOptions)**
 Copie les paramètres de la mise en page.
 #### **Ajoute la propriété ImportTableOptions.ShiftFirstRowDown**
@@ -65,7 +65,7 @@ Représente le format PDF compatible avec PDFA-1a.
 #### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
-- [Convertir un fichier Excel au format PDF compatible avec PDFA-1a](/cells/fr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Convertir le fichier Excel au format PDF compatible avec PDFA-1a](/cells/fr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Copier les paramètres de mise en page de la feuille de calcul source dans la feuille de calcul de destination](/cells/fr/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
 - [Implémenter la taille de papier personnalisée de la feuille de calcul pour le rendu](/cells/fr/net/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Supprimer les paramètres d'imprimante existants des feuilles de calcul dans le fichier Excel](/cells/fr/net/remove-existing-printersettings-of-worksheets-in-excel-file/)

@@ -20,7 +20,7 @@ Die Einschränkungen sind unten aufgeführt:
  Wenn Sie Ihr Programm ausführen, können Sie nur 100 Excel-Dateien mit Aspose.Cells Python über die .Net-Bibliothek öffnen. Wenn Ihre Anwendung diese Zahl überschreitet, wird eine Ausnahme ausgelöst.
 
 
-Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei mit Aspose.Cells Python über die Bibliothek angezeigt. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter setzen. In der Ausgabe-PDF- oder Bilddatei von Aspose.Cells Python über würde ein Bewertungswasserzeichen am oberen Rand des Dokuments/Bilds eingefügt.
+Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei mit Aspose.Cells Python über die Bibliothek angezeigt. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter setzen. In der Ausgabe PDF oder Bilddatei von Aspose.Cells Python via würde ein Bewertungswasserzeichen am oberen Rand des Dokuments/Bildes eingefügt werden.
 
 {{% alert color="primary" %}}
 

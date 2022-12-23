@@ -44,7 +44,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42533) - Le fichier de sortie s'est écrasé dans MS Excel après l'ajout du filtrage Pivot
 
- (CELLSNET-42516) - Le commentaire masqué s'affiche lorsqu'il est exporté au format HTML
+ (CELLSNET-42516) - Le commentaire masqué s'affiche lorsqu'il est exporté vers HTML
 
  (CELLSNET-42470) - Excel a trouvé un message de contenu illisible sur Aspose.Cells généré XLSX
 
@@ -101,7 +101,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
  (CELLSNET-42504) - Les formes se chevauchent
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42535) - Exception lors de l'enregistrement et de la lecture des fichiers
@@ -114,7 +114,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -122,9 +122,9 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 ## **Insectes**
 
 
- (CELLSNET-42522) - Problème GridWeb : le réglage de la largeur de colonne ne fonctionne pas dans Chrome
+(CELLSNET-42522) - Problème GridWeb : le réglage de la largeur de colonne ne fonctionne pas dans Chrome
 
-(CELLSNET-42509) - Les formes ne sont pas rendues correctement dans gridweb
+ (CELLSNET-42509) - Les formes ne sont pas rendues correctement dans gridweb
 
  (CELLSNET-42503) - La plage est ambiguë dans l'espace de noms Aspose.cells
 

@@ -13,7 +13,7 @@ Este es otro tema básico para que los desarrolladores expliquen un enfoque bás
 Para eliminar una fila de la hoja de trabajo, siga los pasos a continuación:
 
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Remover**Fila** desde el**Hoja de cálculo** especificando el índice de la fila que se eliminará
+-  Eliminar**Fila** desde el**Hoja de cálculo** especificando el índice de la fila que se eliminará
 
 El ejemplo de código a continuación le muestra cómo eliminar una fila de la hoja de trabajo.
 

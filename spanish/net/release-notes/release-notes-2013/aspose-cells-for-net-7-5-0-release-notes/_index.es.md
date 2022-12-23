@@ -16,7 +16,7 @@ url: /es/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Mejoras
 
- Actuación
+ Rendimiento
 
  41664 - El cálculo de fórmulas es lento Excepciones
 
@@ -26,9 +26,9 @@ url: /es/net/aspose-cells-for-net-7-5-0-release-notes/
 
  41710 - Un carácter se convierte en un signo de interrogación
 
- 41614 - PDF que no muestra los elementos filtrados
+ 41614 - PDF no muestra los elementos filtrados
 
-41695 - La leyenda del gráfico está en una posición incorrecta
+ 41695 - La leyenda del gráfico está en una posición incorrecta
 
 41632 - La leyenda del gráfico no se puede alinear al centro 41745 - Ciertas funciones de Copiar/Pegar no funcionan
 
@@ -44,6 +44,6 @@ url: /es/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Insectos
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 
  Insectos

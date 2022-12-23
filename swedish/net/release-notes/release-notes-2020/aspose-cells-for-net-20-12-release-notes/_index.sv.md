@@ -14,20 +14,20 @@ url: /sv/net/aspose-cells-for-net-20-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-47309|IFS-formler lindas med lockiga hängslen efter att ha sparats med ASPOSE|Ny funktion|
 |CELLSNET-47710|Stöd formel med Sheet() funktion|Ny funktion|
-|CELLSNET-47672|Minska utdatastorleken när du konverterar till HTML|Förbättring|
+|CELLSNET-47672|Minska utdatastorleken vid konvertering till HTML|Förbättring|
 |CELLSNET-47674|Visa ytterligare kolumner när texten överlappar nästa celler|Förbättring|
 |CELLSNET-47749|Ta bort ods makro i Workbook.RemoveMacro|Förbättring|
 |CELLSNET-47759|Stöd h1-tagg när du ställer in Cell.HtmlString|Förbättring|
 |CELLSNET-47771|Nytt kalkylblad saknas mc:Ignorable="x14ac xr xr2 xr3"|Förbättring|
-|CELLSNET-47758| Konvertering av komplex XLSM till HTML tar mycket tid|Prestanda|
-|CELLSNET-47578|Ogiltig uppmärkning med oöppnad avslutande SPAN-tagg produceras vid konvertering av Cells-dokument till HTML|Insekt|
+|CELLSNET-47758| Konverteringskomplex XLSM till HTML tar mycket tid|Prestanda|
+|CELLSNET-47578|Ogiltig uppmärkning med oöppnad avslutande SPAN-tagg produceras vid konvertering av Cells dokument till HTML|Insekt|
 |CELLSNET-47776|DirectoryNotFoundException när du försöker öppna HTML|Insekt|
-|CELLSNET-47643|Några extra kolumner i den nya utgången i Excel till HTML-rendering|Insekt|
-|CELLSNET-47688|Vissa TD:er kommer att orsaka teckensnittsfel för Wingdings-teckensnitt i HTML till PDF-rendering|Insekt|
+|CELLSNET-47643|Några extra kolumner i den nya utdata i Excel till HTML-rendering|Insekt|
+|CELLSNET-47688|Vissa TD:er kommer att orsaka teckensnittsfel för Wingdings-teckensnitt i HTML till PDF rendering|Insekt|
 |CELLSNET-47690|Konvertering av HTML till Xlsx respekterar inte formateringen av HTML-tabellen|Insekt|
 |CELLSNET-47718|Bilderna är felaktigt justerade vid import av fil till html|Insekt|
 |CELLSNET-47729|Bilder överlappar texten när du importerar html till Excel|Insekt|
-|CELLSNET-47746|Okodade citattecken i värden för HTML-attribut|Insekt|
+|CELLSNET-47746|Okodade citattecken i värden för HTML attribut|Insekt|
 |CELLSNET-47747|Skillnader vid konvertering av Excel till HTML|Insekt|
 |CELLSNET-47763|Seriens värde är inte korrekt efter uppdatering av pivotdata.|Insekt|
 |CELLSNET-47731|Felaktigt resultat för körning av PPMT-formel|Insekt|
@@ -35,7 +35,7 @@ url: /sv/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47738|autofilter fungerar inte som excel|Insekt|
 |CELLSNET-47764|Antal konverterade till vetenskapligt under konvertering från XLSX till CSV|Insekt|
 |CELLSNET-47740| Text klipps (första raden visas inte) med anpassat teckensnitt när rader anpassas automatiskt|Insekt|
-|CELLSNET-47753|Kant runt ikonen när du konverterar Excel till PDF|Insekt|
+|CELLSNET-47753|Ram runt ikonen vid konvertering av Excel till PDF|Insekt|
 |CELLSNETCORE-88|SetFontFolders fungerar inte korrekt med dataserieetiketter|Insekt|
 |CELLSNET-47739|Förklaring visar namnet på serien istället för etiketttexten|Insekt|
 |CELLSNET-47713|Problem med att kopiera ark när "dold namndefinition" finns i Excel-fil|Insekt|
@@ -45,10 +45,10 @@ url: /sv/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNETCORE-89|Om du tar bort tomma kolumner tas kommentarerna i kolumnerna efter den borttagna kolumnen bort|Insekt|
 |CELLSNET-47732|RefreshPivotData kastar undantag|Undantag|
 |CELLSNET-47745|Undantag uppstod vid import av exempelfiler|Undantag|
-|CELLSNET-47711|Undantag vid öppning av ODS-fil|Undantag|
+|CELLSNET-47711|Undantag vid öppning av filen ODS|Undantag|
 |CELLSNET-47712|Undantag görs när man försöker ladda bifogat dokument|Undantag|
 |CELLSNET-47715|Kan inte ladda Xltx-fil|Undantag|
-|CELLSNET-47735|Undantag vid öppning av XLSB|Undantag|
+|CELLSNET-47735|Undantag vid öppning XLSB|Undantag|
 |CELLSNET-47741|Kolumnindexet ska inte finnas inom det pivotbara rapportundantaget när DeleteBlankColumns anropas|Undantag|
 |CELLSNET-47750|Kan inte öppna XLSX|Undantag|
 |CELLSNET-47751|Kan inte konvertera XLSX till XLSM|Undantag|

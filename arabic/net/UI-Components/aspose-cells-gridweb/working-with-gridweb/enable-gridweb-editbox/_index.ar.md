@@ -32,7 +32,7 @@ url: /ar/net/enable-gridweb-editbox/
 
 {{% /alert %}} 
 
-**التحكم في GridWeb مع مربع التحرير** 
+**التحكم في GridWeb باستخدام مربع التحرير** 
 
 ![ما يجب القيام به: image_بديل_نص](enable-gridweb-editbox_1.png)
 ### **مثال**

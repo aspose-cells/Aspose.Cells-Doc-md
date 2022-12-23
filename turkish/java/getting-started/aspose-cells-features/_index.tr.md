@@ -13,21 +13,21 @@ Aşağıdaki tablolar Aspose.Cells for Java özelliklerini özetlemekte ve ayrı
 ## **Desteklenen Platformlar**
 Aspose.Cells for Java ürünü, Java'i destekleyen popüler geliştirme ortamlarının ve dağıtım platformlarının çoğunu kapsar.
 
-|**Özellik**|**Tanım**|
+|**Özellik**|**Açıklama**|
 |:- |:- |
 |[Java](/cells/tr/java/installation/)|Aspose.Cells for Java, 1.6 ve sonraki sürümler için mevcuttur ve Java'in kurulu olduğu her yerde çalışır.|
 ## **Dosya Biçimleri ve Dönüşümler**
 Dünya çapındaki birçok müşteri, Aspose.Cells for Java tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
 
-|**Özellik**|**Tanım**|**Aspose.Cells for Java**|
+|**Özellik**|**Açıklama**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|Evet|
-|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS biçimi uygulaması.|Evet|
-|Elektronik TabloML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, XLSX, XLTX, XLSM, XLTM, XLSB vb. gibi tüm önemli Excel 2007 ve sonraki sürümlerin dosya biçimlerini destekler.|Evet|
-|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşime geçmek için kapsamlı CSV biçimi desteği.|Evet|
+|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS format uygulaması.|Evet|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, tüm önemli Excel 2007 ve sonraki sürümlerin dosya formatlarını destekler, örneğin XLSX, XLTX, XLSM, XLTM, XLSB vb.|Evet|
+|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV biçiminin kapsamlı desteği.|Evet|
 |HTML|HTML olarak kaydet kullanılabilir.|Evet|
 |Açık Belge (ODS)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|Evet|
-|Adobe Taşınabilir Belge Formatı (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'ye dönüştürün.|Evet|
+|Adobe Taşınabilir Belge Biçimi (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün.|Evet|
 |Sekmeyle Ayrılmış|Belgeleri sekmeyle ayrılmış dosya biçiminde yükleyin ve kaydedin.|Evet|
 |Düz Metin (TXT)|Düz metin biçiminde kaydederek metni kolayca çıkarın.|Evet|
 ## **Oluşturma ve Yazdırma**
@@ -36,10 +36,10 @@ Aspose.Cells for Java artık elektronik tablo sayfalarının aslına uygun olara
 |**Özellik**|**Aspose.Cells for Java**|
 |:- |:- |
 |Belgeyi Microsoft Excel®'e yüksek doğrulukla sayfalara yerleştirin (aynı Microsoft Excel®'in yapacağı gibi).|Evet|
-|Çalışma sayfası sayfalarını raster görüntülere (PNG, JPEG, BMP vb.) dönüştürün.|Evet|
-|Elektronik tablo sayfalarını vektör görüntülere (EMF) dönüştürün.|Evet|
+|Çalışma sayfası sayfalarını raster görüntülere dönüştürün (PNG, JPEG, BMP vb.).|Evet|
+|Elektronik tablo sayfalarını vektör görüntülere dönüştürün (EMF).|Evet|
 |Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin.|Evet|
-| Java yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşen, yazdırmak için yerleşik yazdırma yöntemine sahiptir<br>Microsoft Excel'in baskı önizlemesinde gösterildiği gibi çalışma sayfaları.|Evet|
+|Java yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşen, yazdırmak için yerleşik yazdırma yöntemine sahiptir<br>Microsoft Excel'in baskı önizlemesinde gösterildiği gibi çalışma sayfaları.|Evet|
 |Oluşturmadan veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelleyin.|Evet|
 ## **Elektronik Tablo İçeriği Özellikleri**
 Aspose.Cells for Java, yüklü elektronik tabloları programlı olarak oluşturmanıza, birleştirmenize, değiştirmenize, ayrıştırmanıza veya başka bir şekilde incelemenize izin veren 100'ün üzerinde genel sınıftan/arabirimden oluşan zengin bir nesne modeli sağlar. Bazı temel özellikler aşağıdaki tabloda verilmiştir.

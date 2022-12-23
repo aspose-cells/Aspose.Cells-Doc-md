@@ -12,7 +12,7 @@ url: /ru/java/aspose-cells-for-java-18-5-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|CELLSJAVA-42550|Параллельное преобразование в PDF, при этом каждая книга имеет свой собственный (эксклюзивный) набор шрифтов.|Новая особенность|
+|CELLSJAVA-42550|Параллельное преобразование в PDF, в то время как каждая книга имеет свой собственный (эксклюзивный) набор шрифтов.|Новая особенность|
 |CELLSJAVA-42594|Обнаружение LoadFormat и FileFormatType XLAM|Улучшение|
 |CELLSJAVA-42604|Форматирование и поведение сводной таблицы изменились после открытия/сохранения файла шаблона.|Ошибка|
 |CELLSJAVA-41918|Электронная таблица (XLS) повреждается после простой загрузки и сохранения|Ошибка|
@@ -24,7 +24,7 @@ url: /ru/java/aspose-cells-for-java-18-5-release-notes/
 |CELLSJAVA-42589|NullPointerException при добавлении HTML в ячейку|Ошибка|
 |CELLSJAVA-41414|Линии исчезли с графика при повторном сохранении файла XLSX|Ошибка|
 |CELLSJAVA-42602|Исключение «IndexOutOfBoundsException» при объединении ячеек в облегченном режиме|Исключение|
-|CELLSJAVA-42610|Исключение «java.lang.IllegalStateException: неверная кодировка: null» при загрузке файла XLS|Исключение|
+|CELLSJAVA-42610|Исключение «java.lang.IllegalStateException: Invalid encoding: null» при загрузке файла XLS|Исключение|
 |CELLSJAVA-42608|ArrayIndexOutOfBoundsException возникает при открытии файла Excel|Исключение|
 |CELLSJAVA-42596|«java.lang.ArrayIndexOutOfBoundsException» возникает при открытии файла Excel|Исключение|
 |CELLSJAVA-42595|«java.io.IOException: файл поврежден» возникает при открытии файла Excel|Исключение|

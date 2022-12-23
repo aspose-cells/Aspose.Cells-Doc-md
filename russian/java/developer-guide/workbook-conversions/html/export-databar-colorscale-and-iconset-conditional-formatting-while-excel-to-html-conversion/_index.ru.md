@@ -14,7 +14,7 @@ url: /ru/java/export-databar-colorscale-and-iconset-conditional-formatting-while
 
 ![дело:изображение_альтернативный_текст](conversion_1.png)
 
-На следующем снимке экрана показан выходной HTML-файл Aspose.Cells с условным форматированием DataBar, ColorScale и IconSet. Как видите, он выглядит точно так же, как[образец эксель файла](5473447.xlsx).
+На следующем снимке экрана показан выходной файл Aspose.Cells HTML, показывающий условное форматирование DataBar, ColorScale и IconSet. Как видите, он выглядит точно так же, как[образец эксель файла](5473447.xlsx).
 
 ![дело:изображение_альтернативный_текст](conversion_2.png)
 ## **Образец кода**

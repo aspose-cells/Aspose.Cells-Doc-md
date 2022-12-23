@@ -10,7 +10,7 @@ Ibland måste du kopiera rader och kolumner i ett kalkylblad utan att kopiera he
 När en rad (eller kolumn) kopieras, kopieras även data som finns i den, inklusive formler - med uppdaterade referenser - och värden, kommentarer, formatering, dolda celler, bilder och andra ritobjekt.
 ## **Kopiera rader och kolumner med Microsoft Excel**
 1. Välj den rad eller kolumn som du vill kopiera.
-1.  Klicka på för att kopiera rader eller kolumner**Kopiera** på**Standard** verktygsfältet eller tryck på**CTRL**+**C**.
+1.  För att kopiera rader eller kolumner, klicka**Kopiera** på**Standard** verktygsfältet eller tryck på**CTRL**+**C**.
 1. Välj en rad eller kolumn nedan eller till höger om var du vill kopiera ditt val.
 1.  Klicka på när du kopierar rader eller kolumner**Kopierat Cells** på**Föra in** meny.
 

@@ -10,11 +10,11 @@ Lors de la conversion de fichiers Excel contenant des images et des formes en fi
 1. Où devons-nous enregistrer les images et les formes lors de l'enregistrement du fichier Excel dans le flux HTML.
 1. Remplacez le chemin par défaut par un chemin excepté.
 
- Cet article explique comment mettre en œuvre[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface de réglage du[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) propriété. En implémentant cette interface, vous pourrez enregistrer les ressources créées lors de la génération HTML dans vos emplacements ou flux de mémoire spécifiques.
+ Cet article explique comment mettre en œuvre[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interface de réglage du[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) la propriété. En implémentant cette interface, vous pourrez enregistrer les ressources créées lors de la génération HTML dans vos emplacements ou flux de mémoire spécifiques.
 
 {{% /alert %}} 
 
- Ceci est le code principal montrant l'utilisation de[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)propriété
+ Ceci est le code principal montrant l'utilisation de[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider)la propriété
 
 
 

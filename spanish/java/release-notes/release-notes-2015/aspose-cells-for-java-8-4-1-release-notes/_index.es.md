@@ -28,13 +28,13 @@ Se movió la base de código principal a Java 6 (también se admiten Java 7 y 8)
 
 ### **Insectos**
 
-(CELLSJAVA-41229) - Aspose.Cells no genera archivos HTM y CSS individuales para las hojas en la conversión de Excel a HTML
+(CELLSJAVA-41229) - Aspose.Cells no genera archivos HTM y CSS individuales para las hojas en Excel a la conversión HTML
 
 (CELLSJAVA-41170): SheetRender.toImage representa la imagen con etiquetas "(en blanco)" en el eje x del gráfico
 
 (CELLSJAVA-41270) - Problema con Cells.insertRange() ya que el área fusionada no se desplaza correctamente
 
-(CELLSJAVA-41240): el texto en fuente Arial se recorta desde la parte superior al procesar la hoja de cálculo en PDF
+(CELLSJAVA-41240): el texto en fuente Arial se recorta desde la parte superior al representar la hoja de cálculo en PDF
 
 (CELLSJAVA-41238) - PAPEL_A_2 no funciona como se esperaba al guardar como PDF
 
@@ -52,15 +52,15 @@ Se movió la base de código principal a Java 6 (también se admiten Java 7 y 8)
 
 (CELLSJAVA-41255): el botón personalizado se convierte en imagen y el título desaparece en la salida XLSX
 
-(CELLSJAVA-41254) - Microsoft Excel se bloquea cuando se abre el archivo XLSX de salida
+(CELLSJAVA-41254) - Microsoft Excel falla cuando se abre el archivo de salida XLSX
 
-(CELLSJAVA-41253): el menú desplegable desaparece en el archivo XLSX de salida
+(CELLSJAVA-41253): el menú desplegable desaparece en el archivo de salida XLSX
 
 ### **Excepciones**
 
 (CELLSJAVA-41266) - Se produjo java.lang.NumberFormatException al abrir el archivo de plantilla XLSX
 
-(CELLSJAVA-41248): excepción de puntero nulo al abrir el archivo XLSX de origen
+(CELLSJAVA-41248): excepción de puntero nulo al abrir el archivo de origen XLSX
 
 (CELLSJAVA-41265) - Excepción: "java.lang.NullPointerException" al abrir un archivo SpreadsheetML
 

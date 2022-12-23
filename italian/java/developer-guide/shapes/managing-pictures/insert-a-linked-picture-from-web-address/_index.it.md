@@ -6,13 +6,13 @@ url: /it/java/insert-a-linked-picture-from-web-address/
 ---
 {{% alert color="primary" %}}
 
-A volte è necessario inserire un'immagine dal Web (http://) in un foglio di lavoro. Per fare ciò, specifica l'URL dell'immagine e l'immagine verrà scaricata ogni volta che il foglio di calcolo viene aperto in Microsoft Excel. L'immagine non è fisicamente incorporata nel documento Excel, ma punta a una risorsa web.
+volte è necessario inserire un'immagine dal Web (http://) in un foglio di lavoro. Per fare ciò, specifica l'URL dell'immagine e l'immagine verrà scaricata ogni volta che il foglio di calcolo viene aperto in Microsoft Excel. L'immagine non è fisicamente incorporata nel documento Excel, ma punta a una risorsa web.
 
 {{% /alert %}}
 
 ## **Inserimento di un'immagine collegata da un indirizzo Web**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 In Microsoft Excel (ad esempio 2007):
 

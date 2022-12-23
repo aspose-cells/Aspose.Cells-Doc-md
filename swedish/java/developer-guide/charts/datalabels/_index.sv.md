@@ -31,5 +31,5 @@ Följande kodavsnitt visar hur man hanterar DataLabels:
 - [Läs axeletiketter efter att ha beräknat diagrammet](/cells/sv/java/read-axis-labels-after-calculating-the-chart/)
 - [Ändra storlek på diagrammets dataetikettsform för att passa text](/cells/sv/java/resize-chart-s-data-label-shape-to-fit-text/)
 - [Rich Text anpassad dataetikett för diagrampunkt](/cells/sv/java/rich-text-custom-data-label-of-chart-point/)
-- [Ställ in formtyp för dataetiketter för diagram](/cells/sv/java/set-the-shape-type-of-data-labels-of-chart/)
+- [Ställ in formtypen för dataetiketter för diagram](/cells/sv/java/set-the-shape-type-of-data-labels-of-chart/)
 - [Visar Cell intervall som dataetiketter](/cells/sv/java/showing-cell-range-as-the-data-labels/)

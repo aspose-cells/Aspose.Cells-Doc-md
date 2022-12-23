@@ -17,45 +17,45 @@ url: /zh/java/aspose-cells-for-android-via-java-20-3-release-notes/
 |CELLSJAVA-43135|从图片形状中删除 ActiveXControl|新功能|
 |CELLSJAVA-43141|添加 ThreadedComment.CreatedTime 属性|新功能|
 |CELLSJAVA-43074|XLSX 到 PDF，使用 Oracle JDK 与 Open JDK 时 PDF 输出的差异|强化|
-|CELLSJAVA-43076|在呈现的 HTML 文件中设置图像类型 EMF|强化|
-|CELLSJAVA-43113|转换为 PDF - java.lang.NumberFormatException: 对于输入字符串|强化|
+|CELLSJAVA-43076|在渲染的 HTML 文件中设置图像类型 EMF|强化|
+|CELLSJAVA-43113|转换为 PDF - java.lang.NumberFormatException：对于输入字符串|强化|
 |CELLSJAVA-43114|转换为 PDF - 无效公式：“'APRIL''12'.A1:'APRIL''12'.I23”|强化|
 |CELLSJAVA-43117|转换为 PDF - 十六进制不是有效的十六进制数！|强化|
 |CELLSJAVA-43118|转换为 PDF - java.lang.NumberFormatException：对于输入字符串：“341,403,811.74”|强化|
 |CELLSJAVA-43083|不透明度未应用于柱形图|漏洞|
 |CELLSJAVA-41879|%of、%of Row、%of ParentRowTotal、%ParentTotal 等在 pivot excel 输出中不起作用|漏洞|
-|CELLSJAVA-43062|Cell 的默认背景颜色在输出 HTML 中是错误的|漏洞|
+|CELLSJAVA-43062|Cell 的默认背景颜色在输出中是错误的 HTML|漏洞|
 |CELLSJAVA-43063|SheetRender.toImage() 输出不正确|漏洞|
 |CELLSJAVA-43070|calculateFormula() 不计算值|漏洞|
 |CELLSJAVA-43086|百分比格式样式在挪威语言环境下应用不正确|漏洞|
 |CELLSJAVA-43082|表格第一行中呈现的较小字体|漏洞|
-|CELLSJAVA-41360|Cells 公式在PDF中显示，而在ODS中不显示|漏洞|
+|CELLSJAVA-41360|Cells 带公式显示在 PDF 内，而它们不显示在 ODS 内|漏洞|
 |CELLSJAVA-42786|ODS 到 XLSX - 折线图丢失线条和图例条目|漏洞|
 |CELLSJAVA-42788|ODS 到 XLSX - 圆变成方|漏洞|
 |CELLSJAVA-43073|无法在工作簿中访问 DataMashup 信息|漏洞|
 |CELLSJAVA-43092|无法处理 Excel 文件|漏洞|
-|CELLSJAVA-43077|将工作表呈现为 HTML 时出现异常“意外的图像类型”|漏洞|
+|CELLSJAVA-43077|将工作表渲染到 HTML 时引发异常“意外图像类型”|漏洞|
 |CELLSJAVA-43096|将 Excel 文件转换为 HTML 时程序挂起|漏洞|
 |CELLSJAVA-43107|转换为 PDF - com.aspose.cells.CellsException：形状到图像错误！|漏洞|
 |CELLSJAVA-43108|转换为 PDF - com.aspose.cells.CellsException|漏洞|
-|CELLSJAVA-43088|雷达图未在 XLSX 到 PDF 转换的输出文件中呈现|漏洞|
+|CELLSJAVA-43088|XLSX 到 PDF 转换的输出文件中未呈现雷达图|漏洞|
 |CELLSJAVA-43099|工作表图像未正确呈现|漏洞|
-|CELLSJAVA-43093|在 XLS 文件格式中未检测到 ActiveX 控件|漏洞|
+|CELLSJAVA-43093|XLS 文件格式中未检测到 ActiveX 控件|漏洞|
 |CELLSJAVA-43104|getShowTabs 和 setShowTabs 的问题|漏洞|
 |CELLSJAVA-43121|OOM 试图获取 XLS 中的页数|漏洞|
 |CELLSJAVA-43125|窗体和 ActiveX 对象重复|漏洞|
-|CELLSJAVA-42068|工作簿转换为 HTML 时工作表中的 GIF 是错误的|漏洞|
+|CELLSJAVA-42068|工作簿转换为HTML时，工作表中的GIF错误|漏洞|
 |CELLSJAVA-43127|首次打开文件时，Excel 数据透视表不会自动刷新|漏洞|
-|CELLSJAVA-43129|中文文本在HTML到XLS转换中出现乱码|漏洞|
+|CELLSJAVA-43129|HTML到XLS转换中文乱码|漏洞|
 |CELLSJAVA-43139|将工作表渲染为图像时，工作表中的图表不会刷新|漏洞|
 |CELLSJAVA-43148|图表标签位置错误|漏洞|
-|CELLSJAVA-43124|在转换为 PDF 时，两列从表格中删除|漏洞|
+|CELLSJAVA-43124|在转换为 PDF 时，两列从表中删除|漏洞|
 |CELLSJAVA-43091|甜甜圈图上的数据标签在 PDF 文件中重叠|漏洞|
 |CELLSJAVA-43132|将图表导出到图像时某些图表中缺少数据标签|漏洞|
-|CELLSJAVA-43143|在 WorkbookDesigner.process 之后，图表输出在 HTML 中为 null|漏洞|
-|CELLSJAVA-43098|用图片替换嵌入对象不适用于 XLS 文件格式|漏洞|
-|CELLSJAVA-43122|导入到 Office365 XLSX 文件格式后线程注释的顺序出现问题|漏洞|
-|CELLSJAVA-43134|Apple Numbers'09 中某个单元格的字符串值为空|漏洞|
+|CELLSJAVA-43143|在 WorkbookDesigner.process 之后，图表输出在 HTML 中为空|漏洞|
+|CELLSJAVA-43098|用图片替换嵌入对象对 XLS 文件格式不起作用|漏洞|
+|CELLSJAVA-43122|导入到 Office365 XLSX 文件格式后线程注释的顺序问题|漏洞|
+|CELLSJAVA-43134|Apple Numbers'09 单元格的字符串值为空|漏洞|
 |CELLSJAVA-43144|检测到的 IsItalic 属性与 MS Excel 不同 (Java)|漏洞|
 |CELLSJAVA-43094|加载 XLSX 文件格式时出现异常|例外|
 |CELLSJAVA-43100|在 Excel 文件中调用 Workbook.calculateFormula() 时出现异常“java.lang.ArrayIndexOutOfBoundsException”|例外|
@@ -81,7 +81,7 @@ url: /zh/java/aspose-cells-for-android-via-java-20-3-release-notes/
 ### **添加 DBConnection.PowerQueryFormula 属性。**
 获取幂查询公式的定义。
 ### **添加 HtmlSaveOptions.ExportHeadings 属性。**
-指示在将文件保存为 HTML 时是否导出标题。默认值为**错误的**.如果要将 HTML 文件导入 excel，请保持默认值。
+保存文件到HTML时是否导出标题，默认为**错误的**.如果要将HTML文件导入excel，请保持默认值。
 ### **添加 XAdESType 类**
 XML 高级电子签名 (XAdES) 的类型。
 ### **添加 DigitalSignature.XAdESType 属性**

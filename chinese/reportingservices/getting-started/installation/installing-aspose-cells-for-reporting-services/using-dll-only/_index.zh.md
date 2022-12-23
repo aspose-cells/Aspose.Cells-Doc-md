@@ -110,7 +110,7 @@ url: /zh/reportingservices/using-dll-only/
 1. 打开报告管理器并检查报告的可用导出类型列表。 （通过打开浏览器启动 Report Manager，然后在地址栏中键入 Report Manager URL。（默认情况下，URL 为 http://<ComputerName>/报告）。
  1. 选择服务器上的一份报告并打开**选择格式**列表。
 您应该看到 Aspose.Cells for Reporting Services 提供的导出格式列表。
-1. 选择**XLS – Excel 工作簿来自 Aspose.Cells**.
+1.选择**XLS – Excel 工作簿通过 Aspose.Cells**.
  1.点击**出口**.
 报告以选定的格式生成。
  1. 将其发送给客户并在适当的应用程序中打开它。在这种情况下，报表将在 Microsoft Excel 中打开。

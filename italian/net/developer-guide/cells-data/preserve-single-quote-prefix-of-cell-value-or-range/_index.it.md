@@ -16,7 +16,7 @@ Aspose.Cells nasconde anche l'apostrofo iniziale o le virgolette singole come Mi
 
  Il seguente codice di esempio spiega l'utilizzo di[**StyleFlag.QuotePrefix**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/quoteprefix)proprietà come descritto in precedenza. Si prega di leggere i commenti all'interno del codice e vedere l'output della console del codice indicato di seguito per ulteriore aiuto.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-PreserveSingleQuotePrefixOfCellValueOrRange.cs" >}}
 

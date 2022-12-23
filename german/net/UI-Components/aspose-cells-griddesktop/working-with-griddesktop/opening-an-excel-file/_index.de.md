@@ -23,7 +23,7 @@ Erstellen Sie in diesem Beispiel eine Desktop-Anwendung und gehen Sie wie folgt 
 - Fügen Sie dem Formular ein GridControl-Steuerelement hinzu.
 - Fügen Sie drei Schaltflächen hinzu, deren Texteigenschaften wie folgt festgelegt sind:
   - **Excel-Datei öffnen**
-  - **CSV-Datei öffnen**
+  - **Öffnen Sie die Datei CSV**
   - **Aus Stream öffnen**
 ### **Öffnen aus einer Datei**
  Um den Inhalt aus einer Excel-Datei in das Aspose.Cells.GridDesktop-Steuerelement zu laden, müssen Sie eine Methode des Steuerelements aufrufen, um den Pfad der Excel-Datei anzugeben. Danach findet das Aspose.Cells.GridDesktop-Steuerelement automatisch die Datei aus dem angegebenen Pfad und zeigt ihren Inhalt an. Das Code-Snippet zum Laden des Inhalts einer Excel-Datei wird im folgenden Beispiel bereitgestellt. Erstellen Sie das Click-Ereignis der**Excel-Datei öffnen** Schaltfläche und fügen Sie den folgenden Code darin ein.
@@ -35,7 +35,7 @@ Erstellen Sie in diesem Beispiel eine Desktop-Anwendung und gehen Sie wie folgt 
 
 Das obige Code-Snippet kann von Entwicklern beliebig verwendet werden. Wenn Sie beispielsweise eine Excel-Datei automatisch laden möchten, wenn ein Windows-Formular geladen wird, können Sie diesen Code unter dem Load-Ereignis Ihres Formulars hinzufügen.
 ### **Öffnen einer CSV-Datei**
-Aspose.Cells. Das GridDesktop-Steuerelement unterstützt auch das Laden von CSV-Dateien. Erstellen Sie das Click-Ereignis der**CSV-Datei öffnen** Schaltfläche und fügen Sie den folgenden Code darin ein.
+Das Aspose.Cells.GridDesktop-Steuerelement unterstützt auch das Laden der CSV-Datei. Erstellen Sie das Click-Ereignis der**Öffnen Sie die Datei CSV** Schaltfläche und fügen Sie den folgenden Code darin ein.
 
 
 

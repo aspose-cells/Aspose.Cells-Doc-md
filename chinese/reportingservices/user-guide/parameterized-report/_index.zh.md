@@ -6,7 +6,7 @@ url: /zh/reportingservices/parameterized-report/
 ---
 {{% alert color="primary" %}} 
 
-一个*参数化报告*是接受处理报表时使用的输入值的报表。
+一种*参数化报告*是接受处理报表时使用的输入值的报表。
 
 使用参数化报告，您可以根据运行时设置的值改变报告的输出。 Reporting Services 支持两种参数：查询参数和报表参数。
 

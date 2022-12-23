@@ -6,7 +6,7 @@ url: /fr/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[Copier uniquement les données de plage](/cells/fr/java/copy-range-data-only/) et[Copier les données de plage avec style](/cells/fr/java/copy-range-data-with-style/) expliqué comment copier des données d'une plage à une autre avec ou sans formatage. Il est également possible de ne copier que la mise en forme de la plage. Cet article montre comment.
+[Copier uniquement les données de plage](/cells/fr/java/copy-range-data-only/) et[Copier les données de plage avec style](/cells/fr/java/copy-range-data-with-style/)expliqué comment copier des données d'une plage à une autre avec ou sans formatage. Il est également possible de ne copier que la mise en forme de la plage. Cet article montre comment.
 
 {{% /alert %}} 
 ## **Copier le style de plage uniquement**

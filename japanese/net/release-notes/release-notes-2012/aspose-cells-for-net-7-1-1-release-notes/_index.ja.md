@@ -20,13 +20,13 @@ Aspose.Cells for .NET v7.1.1 を発表できることをうれしく思います
 
 機能強化
 
-- ワークブックを XLSX で保存するとエラーが発生する
+- ワークブックを XLSX に保存するとエラーがスローされる
 - AutoFitColumn オプション
 - .NET バージョンに GetDependents() メソッドはありますか
 
--HTML テーブルで TH 要素をサポート
+-HTML テーブルの TH 要素をサポート
 
-- Excel から PDF (アラビア語) - 変換時の単語/日付の書式設定が正しくない
+- Excel から PDF (アラビア語) - 変換時の不適切な単語/日付形式
 - ウイルス対策ソフトウェアは、電子メールから Excel ファイルを取り除きます
 
 例外
@@ -42,12 +42,12 @@ Aspose.Cells for .NET v7.1.1 を発表できることをうれしく思います
 
 -ボタンのプロパティ
 
-- PDF に変換すると、Cells のフィートとインチが正しくありません
+- Cells を PDF に変換すると、フィートとインチが正しくありません
 - PDF 出力で em ダッシュ文字をレンダリングする際の問題
 - マージされたワークブックで変更されたページ レイアウト
 - XLSX として保存すると無効なファイルが生成されることがある
 
- Aspose.Cells を使用した後、XLS ファイルが保護モードで開く
+-Aspose.Cells を使用した後、XLS ファイルが保護モードで開かれる
 
 - Cell.GetDependents() が NamedRange で機能しない
 - AutoFitRow と IndentLevel の問題
@@ -58,14 +58,14 @@ Aspose.Cells for .NET v7.1.1 を発表できることをうれしく思います
 - ADDRESS、COUNTBLANK、および IF 関数に関する問題
 - VLOOKUP と OFFSET 関数の問題
 - MS Excel 数式検証なし
-- XLS 出力での NETWORKDAYS 関数の問題
+- XLS 出力における NETWORKDAYS 関数の問題
 - HTML から Excel への変換の問題
 
 ` `- HTML の行スパンとクラス属性の問題
 
  Cells は datauri をサポートしますか
 
-- PDF への変換時にカスタム形式の境界線が失われる
+- PDF に変換すると、カスタム形式の境界線が失われる
 - PDF エクスポートのグリッドライン
 
 -Excel Found Unreadable Content エラー

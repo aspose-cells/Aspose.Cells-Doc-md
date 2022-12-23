@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-12-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-49680|Prise en charge de la conversion d'Excel en scripts SQL.|Nouvelle fonctionnalité|
 |CELLSNET-49717|Prise en charge de la conversion d'Excel en données XML|Nouvelle fonctionnalité|
@@ -22,25 +22,25 @@ url: /fr/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|Ignorer les références 3D pour la mise en forme conditionnelle lors de la copie dans un autre classeur|Renforcement|
 |CELLSNET-49984|Lire certaines données du fichier xls corrompu.|Renforcement|
 |CELLSNET-49990|Prend en charge la définition de la formule de ligne des totaux personnalisés du tableau.|Renforcement|
-|CELLSNET-49825|Problème de performances avec l'attribut ExportImagesAsBase64 dans la conversion Excel vers HTML|Performance|
+|CELLSNET-49825|Problème de performances avec l'attribut ExportImagesAsBase64 dans Excel vers la conversion HTML|Performance|
 |CELLSNET-49827|RefersTo de la plage définie est échappé de manière incorrecte|Punaise|
 |CELLSNET-49759|Les cellules vides sont toujours exportées en tant qu'éléments XML vides|Punaise|
 |CELLSNET-49817|Le texte n'est pas aligné au centre avec la police 'Credit Suisse Type Light' lors du rendu en Emf|Punaise|
-|CELLSNET-49864|Mots apparaissant dans l'ordre inverse pour le texte de droite à gauche dans le rendu XLSX vers PDF|Punaise|
+|CELLSNET-49864|Mots apparaissant dans l'ordre inverse pour le texte de droite à gauche dans le rendu XLSX à PDF|Punaise|
 |CELLSNET-49873|Xlsx en pdf : le saut de page est différent par rapport au pdf généré par Excel|Punaise|
-|CELLSNET-49922|Les caractères ne tiennent pas sur une page et la position d'impression est modifiée dans le rendu Excel en PDF|Punaise|
-|CELLSNET-49998|Impossible d'afficher un fichier XLS spécifique avec un balisage HTML|Punaise|
+|CELLSNET-49922|Les caractères ne tiennent pas sur une page et la position d'impression est modifiée dans Excel en rendu PDF|Punaise|
+|CELLSNET-49998|Impossible d'afficher le fichier XLS spécifique avec le balisage HTML|Punaise|
 |CELLSNET-49742|Différences dans chart1.xml après l'enregistrement|Punaise|
-|CELLSNET-49875|XLSX à EMF chevauchant des graduations|Punaise|
-|CELLSNET-49904|Le graphique en dates PNG n'est pas converti correctement|Punaise|
-|CELLSNET-49905|Régression : problème lors de la conversion d'un graphique en PNG|Punaise|
-|CELLSNET-49969|Erreur de débordement lors de l'enregistrement d'un document XLS dans XLSX/XSLM|Punaise|
+|CELLSNET-49875|XLSX à EMF coches qui se chevauchent|Punaise|
+|CELLSNET-49904|Graphique vers PNG dates non converties correctement|Punaise|
+|CELLSNET-49905|Régression : problème lors de la conversion du graphique en PNG|Punaise|
+|CELLSNET-49969|Erreur de débordement lors de l'enregistrement du document XLS dans XLSX/XSLM|Punaise|
 |CELLSNET-49760|La zone fusionnée s'affiche mal lors de la conversion en html.|Punaise|
 |CELLSNET-49789|La grille d'origine Excel ne doit pas être modifiée lors de l'enregistrement du fichier html|Punaise|
 |CELLSNET-49850|Image : le paramètre FitToCell ne fonctionne pas dans les marqueurs intelligents d'image|Punaise|
 |CELLSNET-49870|L'en-tête s'élargit lors de la combinaison de plusieurs feuilles dans des feuilles de calcul Excel|Punaise|
 |CELLSNET-49898|Afficher la bordure des cellules tout en adaptant les images aux cellules à l'aide de marqueurs intelligents|Punaise|
-|CELLSNET-49924|Ouverture des fichiers XLSX générés par Aspose avec erreur|Punaise|
+|CELLSNET-49924|Fichiers XLSX générés par Aspose s'ouvrant avec erreur|Punaise|
 |CELLSNETCORE-301|L'ajout d'une feuille de calcul échoue lorsque le lien hypertexte a une adresse nulle|Punaise|
 |CELLSNET-49812|Exception lors de l'ouverture du fichier ODS|Exception|
 |CELLSNET-49876|Exception lors de la ré-enregistrement d'un fichier XLSX|Exception|

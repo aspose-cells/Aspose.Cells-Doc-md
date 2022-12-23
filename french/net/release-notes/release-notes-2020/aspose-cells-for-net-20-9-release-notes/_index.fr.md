@@ -10,43 +10,43 @@ url: /fr/net/aspose-cells-for-net-20-9-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47567|Prise en charge de Get/Set les propriétés de la forme du slicer|Nouvelle fonctionnalité|
 |CELLSNET-47549|API client pour ajouter/supprimer des commentaires pour GridWeb|Nouvelle fonctionnalité|
-|CELLSNET-47555|Le graphique ne permet pas de traiter #N/A comme des cellules vides lors de l'enregistrement au format PDF|Renforcement|
+|CELLSNET-47555|Le graphique ne permet pas de traiter #N/A comme des cellules vides lors de l'enregistrement sous PDF|Renforcement|
 |CELLSNET-47579|La police Kaiti n'est pas correctement rendue|Renforcement|
 |CELLSNET-47154|Les tables de requête ne sont pas chargées à partir du fichier ODS|Renforcement|
 |CELLSNET-47556|Amélioration du gel et du fractionnement de la feuille de calcul|Renforcement|
 |CELLSNET-47570|Les macros doivent être supprimées lors de la combinaison/copie de classeurs|Renforcement|
 |CELLSNET-47543|Problème avec les marqueurs intelligents ayant une mise en forme conditionnelle appliquée|Punaise|
-|CELLSNET-47561|La devise avec un format personnalisé est affichée en dehors de la cellule en HTML|Punaise|
-|CELLSNET-47562|Enregistrement d'une feuille vide avec les paramètres de lignes de grille exportés au format HTML|Punaise|
+|CELLSNET-47561|La devise avec un format personnalisé est affichée à l'extérieur de la cellule dans HTML|Punaise|
+|CELLSNET-47562|Enregistrement d'une feuille vide avec les paramètres de lignes de grille exportés vers HTML|Punaise|
 |CELLSNET-47569|Le tableau croisé dynamique ne s'affiche pas correctement après la conversion de XLSX en PDF|Punaise|
 |CELLSNET-47475|CalculateFormula() calcule différemment de MS Excel|Punaise|
 |CELLSNET-47531|Les formules contenant des noms qui n'existent pas s'affichent sous la forme `WorkbookName`!Name|Punaise|
-|CELLSNET-47545|Numéro négatif personnalisé mal rendu au format PDF|Punaise|
+|CELLSNET-47545|Numéro négatif personnalisé rendu incorrect à PDF|Punaise|
 |CELLSNET-47548|Problème d'importation de fichier texte avec des guillemets doubles|Punaise|
-|CELLSNET-47558|Numéros négatifs personnalisés (utilisant la région Suisse) rendus incorrectement au format PDF|Punaise|
+|CELLSNET-47558|Numéros négatifs personnalisés (utilisant la région Suisse) rendus incorrectement à PDF|Punaise|
 |CELLSNET-47075|Besoin de synchroniser le défilement de deux grilles, tout comme SyncScrollingSideBySide d'Excel.|Punaise|
 |CELLSNET-47559|Impossible de sélectionner des cellules à l'aide des touches fléchées du clavier lorsque la feuille est définie en lecture seule|Punaise|
-|CELLSNET-47360|Les points de repère transparents dans le graphique du fichier Excel sont déformés dans le PDF de sortie|Punaise|
+|CELLSNET-47360|Les points de repère transparents dans le graphique du fichier Excel sont déformés dans la sortie PDF|Punaise|
 |CELLSNET-47565|L'image de pied de page de premier plan devient l'arrière-plan|Punaise|
-|CELLSNET-46502|La conversion XLSX en TIFF donne une boîte noire|Punaise|
+|CELLSNET-46502|La conversion de XLSX à TIFF donne une boîte noire|Punaise|
 |CELLSNET-46821|Conversion de la feuille de calcul en TIFF - L'image est noircie|Punaise|
 |CELLSNET-47458|Distorsion de forme après conversion en fichier PDF|Punaise|
 |CELLSNET-47551|L'axe X n'est pas correct lors de la conversion du graphique Excel en PDF|Punaise|
 |CELLSNET-47546| Supprimer les lignes/colonnes vides corrompt le document Excel|Punaise|
 |CELLSNET-47552|Erreur PowerQueryFormula.FormulaDefinition|Punaise|
 |CELLSNET-47573|Impossible de produire le formatage souhaité à l'aide de la touche Maj|Punaise|
-|CELLSNET-47574|XLS en HTML produit un fichier vide|Punaise|
+|CELLSNET-47574|XLS à HTML produit un fichier vide|Punaise|
 |CELLSNET-47581|MaxColumn est défini sur Column XFD après avoir appelé InsertCutCells()|Punaise|
 |CELLSNET-47586|Le classeur avec le graphique en cascade ne peut pas être ouvert à l'aide d'Excel 2016 après la copie|Punaise|
 |CELLSNET-47547|Exception déclenchée lors de l'ajout d'un segment pour la table|Exception|
-|CELLSNET-47553|Exception lors de l'enregistrement d'un fichier XLS dans XLSX|Exception|
+|CELLSNET-47553|Exception lors de l'enregistrement d'un fichier XLS vers XLSX|Exception|
 |CELLSNET-47563|Exception "Le fichier est corrompu" lors du chargement d'un format de fichier XLS|Exception|
 |CELLSNET-47580|ArgumentOutOfRangeException lors de la conversion d'Excel|Exception|
-|CELLSNET-47592|Exception lors de la conversion de XLSX en XLS particulier|Exception|
+|CELLSNET-47592|Exception lors de la conversion de XLSX particulier en XLS|Exception|
 |CELLSNET-47557|Certaines propriétés sont manquantes lors de la combinaison de classeurs|Régression|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -55,7 +55,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Ajoute la propriété AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Pour des raisons de performances et de commodité pour l'utilisateur, nous avons ajouté cette propriété et défini sa valeur par défaut sur**faux** afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de**RésuméCalculMoteur** modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
+ Pour des raisons de performances et de commodité pour l'utilisateur, nous avons ajouté cette propriété et défini sa valeur par défaut sur**faux** afin que l'utilisateur puisse se concentrer sur les fonctions qui n'ont pas été prises en charge par le moteur intégré. Si l'implémentation existante de l'utilisateur de**RésuméCalculMoteur** modifié le calcul de certaines fonctions intégrées, l'utilisateur doit remplacer cette propriété pour la rendre aussi**vrai** de**20.9**.
 
 ### **Ajoute la propriété TxtLoadOptions.HasTextQualifier**
 

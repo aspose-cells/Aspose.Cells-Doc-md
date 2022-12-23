@@ -16,39 +16,39 @@ url: /zh/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44899|第二次计算公式时性能低下|表现|
 |CELLSNET-44967|NameCollection.Remove 方法的性能注意事项|表现|
 |CELLSNET-44964|Aspose.Cells 在工作簿上使用 CalculateFormula() 时挂起。|表现|
-|CELLSNET-44819|无法将源 Excel 文件保存到 HTML 中并且超时|表现|
+|CELLSNET-44819|无法将源 Excel 文件保存到 HTML 并且超时|表现|
 |CELLSNET-44960|将电子表格转换为 PDF 文件格式时，数据透视表格式丢失|漏洞|
 |CELLSNET-44951|刷新数据透视表后将电子表格呈现为 PDF 时行数据错位|漏洞|
-|CELLSNET-44950|Cell 刷新数据透视表后将电子表格呈现为 PDF 时缺少阴影|漏洞|
+|CELLSNET-44950|刷新数据透视表后将电子表格呈现为 PDF 时缺少 Cell 阴影|漏洞|
 |CELLSNET-44949|刷新数据透视表后将电子表格呈现为 PDF 时缺少空白列|漏洞|
-|CELLSNET-44930|刷新并转换为 PDF 后数据透视表中的列丢失|漏洞|
+|CELLSNET-44930|刷新并转换为 PDF 后，数据透视表中的列丢失|漏洞|
 |CELLSNET-44929|刷新并转换为 PDF 后数据透视表中的数据丢失|漏洞|
 |CELLSNET-44908|包含切片器的电子表格在简单的重新保存操作后被损坏|漏洞|
 |CELLSNET-44206|在数据透视表上调用 RefreshData 会损坏生成的电子表格|漏洞|
 |CELLSNET-44184|刷新数据透视表和图表会生成损坏的 XLSX 文件|漏洞|
-|CELLSNET-44974|Cell 刷新数据透视表并呈现为 PDF 时着色混乱|漏洞|
-|CELLSNET-44972|Cell 在刷新数据透视表并呈现为 PDF 时将阴影应用于错误的单元格|漏洞|
-|CELLSNET-44963|保存为 PDF 为行创建额外的边框|漏洞|
+|CELLSNET-44974|Cell 刷新数据透视表并呈现为 PDF 时，阴影混乱|漏洞|
+|CELLSNET-44972|Cell 在刷新数据透视表和渲染到 PDF 时将阴影应用于错误的单元格|漏洞|
+|CELLSNET-44963|保存到 PDF 为行创建额外的边框|漏洞|
 |CELLSNET-44927|如果自定义格式包含洋红色，则数据类型被视为 DateTime|漏洞|
 |CELLSNET-44921|简单的重新保存操作后行高已更改|漏洞|
 |CELLSNET-44916|Workbook.CalculateFormula() 方法错误地计算单元格 B8 的值|漏洞|
-|CELLSNET-44910|将 ODS 文件格式转换为 PDF 文件格式时会出现一个额外的字符 4|漏洞|
+|CELLSNET-44910|将 ODS 文件格式转换为 PDF 文件格式时会出现一个附加字符 4|漏洞|
 |CELLSNET-44958|FontConfigs.PreferSystemFontSubstitutes 设置为 true 时不会发生字体替换|漏洞|
-|CELLSNET-44937|Excel转PDF渲染-部分单词在合并区域被一分为二|漏洞|
-|CELLSNET-44933|将 Excel 图表导出为 SVG|漏洞|
-|CELLSNET-44914|打印或另存为 PDF 时，右侧边距比 MS Excel 大|漏洞|
-|CELLSNET-44931|保存为 PDF 会创建额外的空白页。|漏洞|
-|CELLSNET-44926|图表的 PNG 图像与 MS-Excel 图表不匹配|漏洞|
-|CELLSNET-44912|用于将 XLS 转换为 XLSX 的时间很长|漏洞|
+|CELLSNET-44937|Excel 到 PDF 渲染 - 一些单词在合并区域被切成两半|漏洞|
+|CELLSNET-44933|将 Excel 图表导出到 SVG|漏洞|
+|CELLSNET-44914|打印或另存为 PDF 时，右侧边距大于 MS Excel 中的边距|漏洞|
+|CELLSNET-44931|保存到 PDF 会创建额外的空白页。|漏洞|
+|CELLSNET-44926|PNG 图表图像与 MS-Excel 图表不匹配|漏洞|
+|CELLSNET-44912|将 XLS 转换为 XLSX 所用的时间很高|漏洞|
 |CELLSNET-44905|PDF 导出在堆栈图表上显示 0|漏洞|
-|CELLSNET-44902|Excel 中图表数据系列的问题到 PDF 呈现|漏洞|
+|CELLSNET-44902|Excel 中图表数据系列的问题呈现为 PDF|漏洞|
 |CELLSNET-44897|标题为“生活”的图表图片不正确|漏洞|
 |CELLSNET-44890|简单重新保存后显示 VALUE 和 PERCENTAGE 的系列 DataLabel 值和百分比|漏洞|
-|CELLSNET-44883|渲染的 PDF 文件中的 X 轴（数据表）不相同|漏洞|
+|CELLSNET-44883|PDF 渲染文件中X轴（数据表）不一样|漏洞|
 |CELLSNET-44833|将电子表格转换为 PDF 时线条呈现不正确|漏洞|
 |CELLSNET-44831|API 当 ImageOrPrintOptions.OnlyArea 设置为 false 时，使用 SheetRender 呈现额外图例|漏洞|
 |CELLSNET-44803|使用 Chart.Calculate() 方法后，图表的数据堆叠部分在输出图表中丢失|漏洞|
-|CELLSNET-44979|Aspose 在以 XLSB 格式保存时在冻结窗格上启用拆分选项|漏洞|
+|CELLSNET-44979|Aspose 在冻结窗格上启用拆分选项，同时将其保存为 XLSB 格式|漏洞|
 |CELLSNET-44953|Cell.Copy 不将格式从一个工作簿复制到另一个|漏洞|
 |CELLSNET-44945|RTL 工作表转换为 LTR，同时将 XLSX 转换为 ODS|漏洞|
 |CELLSNET-44922|定义名称 Print_Area 在重新保存操作后改变|漏洞|

@@ -20,7 +20,7 @@ Noi siamo
  Miglioramenti
 
 - Rendi Aspose.Cells compatibile con la versione precedente dei barattoli Woodstox
-- I file OOXML incorporati OLE in XLS escono come file pacchettizzati OLE anziché file decompressi
+- I file OOXML incorporati OLE in XLS stanno uscendo come file pacchettizzati OLE anziché file decompressi
 - Supporta ExportObjectListener per il salvataggio di file HTML
 - Copia la formattazione condizionale durante la copia delle righe
 
@@ -33,7 +33,7 @@ Noi siamo
 
 - Cells.importCustomObjects() con il formato DateTime specificato non funziona
 - ChartType errato del grafico a dispersione
-- Il valore doppio perde precisione durante la lettura dal file modello CSV
+- Il doppio valore perde precisione durante la lettura dal file modello CSV
 - La serie di grafici è capovolta durante la conversione in un'immagine
 - Il file XLSX risalvato causa l'errore "Excelfound contenuto illeggibile…".
 - La tabella pivot salvata ha causato "ProtectionView" quando è stata aperta in MS Excel

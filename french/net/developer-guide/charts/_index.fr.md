@@ -16,7 +16,7 @@ Il est possible d'ajouter une variété de graphiques aux feuilles de calcul ave
 ## **Création de graphiques**
 
 ### **Créer simplement un graphique**
-Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
+Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateColumnChart-1.cs" >}}
 
 ### **Ce qu'il faut savoir pour créer un graphique**
@@ -52,7 +52,7 @@ Aspose.Cells fournit un ensemble spécial de classes dans le[**Aspose.Cells.Char
 
 Comme mentionné ci-dessus, tous les objets graphiques sont des instances de leurs classes respectives et fournissent des propriétés et des méthodes spécifiques pour effectuer des tâches spécifiques. Utilisez des objets graphiques pour créer des graphiques.
 
-Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de la[**Graphiques**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) le recueil. Chaque élément de la[**Graphiques**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) la collection représente un[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objet. UN[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)L'objet encapsule tous les autres objets graphiques requis pour personnaliser l'apparence du graphique. La section suivante montre comment utiliser quelques objets graphiques de base pour créer un graphique simple.
+Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de la[**Graphiques**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) le recueil. Chaque élément de la[**Graphiques**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) la collection représente un[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objet. UNE[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)L'objet encapsule tous les autres objets graphiques requis pour personnaliser l'apparence du graphique. La section suivante montre comment utiliser quelques objets graphiques de base pour créer un graphique simple.
 
 ### **Créer un graphique à l'aide de Aspose.Cells**
 
@@ -75,7 +75,7 @@ Ces étapes générales vous permettent de créer n'importe quel type de graphiq
 
 Les types de graphiques prédéfinis sont :
 
-|**Types de graphiques**|**La description**|
+|**Types de graphiques**|**Description**|
 |:- |:- |
 |Colonne|Représente l'histogramme groupé|
 |Colonneempilée|Représente un graphique à colonnes empilées|
@@ -90,7 +90,7 @@ Les types de graphiques prédéfinis sont :
 |Bar3DCluster|Représente un graphique à barres groupées 3D|
 |Bar3DStacked|Représente un graphique à barres empilées 3D|
 |Barre3D100Pourcentage empilé|Représente un graphique à barres empilées 3D à 100 %|
-|Ligne|Représente le graphique en courbes|
+|La ligne|Représente le graphique en courbes|
 |Ligneempilée|Représente un graphique en courbes empilées|
 |Line100PercentStacked|Représente un graphique linéaire empilé à 100 %|
 |LineWithDataMarkers|Représente le graphique linéaire avec des marqueurs de données|
@@ -108,7 +108,7 @@ Les types de graphiques prédéfinis sont :
 |ScatterConnectedByCurvesWithoutDataMarker|Représente le diagramme de dispersion relié par des courbes, sans marqueurs de données|
 |ScatterConnectedByLinesWithDataMarker|Représente le diagramme de dispersion relié par des lignes, avec des marqueurs de données|
 |ScatterConnectedByLinesWithoutDataMarker|Représente le diagramme de dispersion connecté par des lignes, sans marqueurs de données|
-|Zone|Représente le graphique en aires|
+|Surface|Représente le graphique en aires|
 |Zoneempilée|Représente un graphique en aires empilées|
 |Area100PercentStacked|Représente un graphique en aires empilées à 100 %|
 |Zone3D|Représente le graphique en aires 3D|
@@ -160,7 +160,7 @@ Lorsque l'exemple de code est exécuté, un graphique pyramidal est ajouté à l
 
 #### **Graphique en ligne**
 
- Dans l'exemple ci-dessus, il suffit de changer le[**Type de graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) à*Ligne*crée un graphique en courbes. La source complète est fournie ci-dessous. lorsque le code est exécuté, un graphique linéaire est ajouté à la feuille de calcul.
+ Dans l'exemple ci-dessus, il suffit de changer le[**Type de graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype) à*La ligne*crée un graphique en courbes. La source complète est fournie ci-dessous. lorsque le code est exécuté, un graphique linéaire est ajouté à la feuille de calcul.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateLineChart-1.cs" >}}
 

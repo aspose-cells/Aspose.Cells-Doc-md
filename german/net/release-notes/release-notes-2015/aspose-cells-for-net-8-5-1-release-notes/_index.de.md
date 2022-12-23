@@ -24,7 +24,7 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 ### **Fehler**
 
-(CELLSNET-43744) – PivotTable wird beim Speichern als PDF nicht aktualisiert
+(CELLSNET-43744) – PivotTable wird beim Speichern in PDF nicht aktualisiert
 
 (CELLSNET-43735) – Die Option „Gebänderte Zeilen“ der Pivot-Tabelle geht verloren
 
@@ -46,7 +46,7 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 (CELLSNET-43753) - Aspose.Cells rendert 2 Seiten
 
-(CELLSNET-43731) – Text wird abgeschnitten, während das Arbeitsblatt in ein EMF-Bild gerendert wird
+(CELLSNET-43731) – Text wird abgeschnitten, während das Arbeitsblatt in das Bild EMF gerendert wird
 
 (CELLSNET-43756) – Das Diagrammbild enthält nicht dieselben Werte wie die x-Achse aus dem Excel-Diagramm
 
@@ -56,7 +56,7 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 (CELLSNET-43700) - Die Farbe des Bildes sieht nach der Konvertierung in PDF anders aus
 
-(CELLSNET-43199) – Inhalte und Formen verschieben sich, wenn Excel als PDF gespeichert wird
+(CELLSNET-43199) – Inhalte und Formen verschieben sich, wenn Excel unter PDF gespeichert wird
 
 (CELLSNET-43767) – Excel zeigt die geschützte Ansicht auf der gespeicherten Tabelle Aspose.Cells an
 

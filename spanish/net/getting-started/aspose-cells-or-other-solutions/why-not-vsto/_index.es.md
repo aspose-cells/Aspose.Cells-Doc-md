@@ -20,7 +20,7 @@ Aspose.Cells for .NET proporciona el grupo de componentes más flexible que perm
 
 Si necesita completar alguna tarea no estándar o impopular relacionada con documentos, VSTO puede ayudarlo a implementar dicha solución. En otras palabras, VSTO se puede usar para ampliar las capacidades de Microsoft Office según los detalles de su problema.
 
-Si sus tareas relacionadas con documentos son populares, es muy probable que Aspose.Cells le proporcione un API para crear una solución efectiva y rápida. Vale la pena señalar que con Aspose.Cells puede manejar algunas situaciones bastante difíciles y complejas porque proporciona herramientas realmente poderosas y completas. Así ahorras tiempo y no reinventas la rueda.
+Si sus tareas relacionadas con documentos son populares, es muy probable que Aspose.Cells le proporcione un API para crear una solución eficaz y rápida. Vale la pena señalar que con Aspose.Cells puede manejar algunas situaciones bastante difíciles y complejas porque proporciona herramientas realmente poderosas y completas. Así ahorras tiempo y no reinventas la rueda.
 
 {{% alert color="primary" %}}
 

@@ -25,11 +25,11 @@ Además de admitir funciones comunes como crear o leer archivos de Excel nativos
 Además, también hay una serie de características únicas que los desarrolladores solo pueden encontrar en Aspose.Cells, como la compatibilidad con los formatos CSV y SpreadsheetML, agregar la copia de una hoja de trabajo existente (con contenido completo, imágenes y gráficos, etc.) a un archivo, configuración de fondo degradado para gráficos hasta API, creación de comentarios, filtros automáticos y saltos de página hasta API, configuración de fórmulas complejas, soporte de formato condicional, soporte de opciones de protección introducidas en Microsoft Excel XP o superior, manipulación de rangos con nombre, ubicación de API, soporte de gráfico personalizado API y motor de cálculo de fórmulas, etc.
 ## **Características del documento**
 - Abra archivos de Excel sin formato o cifrados (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) de diferentes fuentes
-- Abra archivos de números simples (creados por la aplicación "Números" de Apple) de diferentes fuentes
-- Guarde archivos de Excel (Excel97- Excel2007/2010/2013/2016/2019) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML, etc.)
+- Abra archivos Plain Numbers (creados por la aplicación "Numbers" de Apple) de diferentes fuentes
+- Guardar archivos de Excel (Excel97- Excel2007/2010/2013/2016/2010) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, 0761734481, TATM) etc.
 - Convertir archivo de Excel a documento PDF
-- Convierta una hoja de cálculo de Excel en un documento XPS
--  Convertir a formato de archivo de imagen etiquetado**(PELEA)**
+- Convierta la hoja de cálculo de Excel en el documento XPS
+-  Convertir a formato de archivo de imagen etiquetado**(TIFF)**
 -  Lee y escribe**Hoja de cálculo OpenDocument (ODS)** formato
 - Modificar las propiedades del documento de los archivos de Excel
 ## **Características de la hoja de trabajo**
@@ -37,15 +37,15 @@ Además, también hay una serie de características únicas que los desarrollado
 - **ocultar o mostrar** una hoja de trabajo
 -  mostrar u ocultar**pestañas, barras de desplazamiento, cuadrículas y encabezados de filas y columnas**
 - **Saltos de página de vista previa**
--  Establecer**nivel de zoom** para la hoja de trabajo
+-  Colocar**nivel de zoom** para la hoja de trabajo
 -  Hacer que los datos seleccionados permanezcan visibles mientras se desplaza usando**congelar paneles**
 ### **Protección de la hoja de trabajo**
 - **Protege contenidos, objetos y escenarios** de una hoja de trabajo
 ### **Opciones de configuración de página**
--  Establecer**orientación de la página, escala, tamaño del papel, calidad de impresión** etc.
--  Establecer**márgenes de página** como arriba, izquierda, derecha, abajo, etc.
--  Establecer**encabezados y pies de pagina**
--  Establecer**área de impresión**, **título de impresión** etc.
+-  Colocar**orientación de la página, escala, tamaño del papel, calidad de impresión** etc.
+-  Colocar**márgenes de página** como arriba, izquierda, derecha, abajo, etc.
+-  Colocar**encabezados y pies de pagina**
+-  Colocar**área de impresión**, **título de impresión** etc.
 ### **Saltos de página**
 -  Insertar**horizontal** y**saltos de página verticales** en una celda especificada
 ### **Funciones de filas y columnas**
@@ -60,28 +60,28 @@ Además, también hay una serie de características únicas que los desarrollado
 - Recuperar datos de celdas según sus tipos de datos
 - **Exportar datos de celdas a una matriz**
 - Buscar o buscar datos específicos en celdas
--  Establecer**fórmulas con funciones integradas o complementarias**
--  Establecer**formación** y**R1C1** fórmula de estilo de referencia
+-  Colocar**fórmulas con funciones integradas o complementarias**
+-  Colocar**formación** y**R1C1** fórmula de estilo de referencia
 - Agregar diferentes tipos de hipervínculos
 - Crear o acceder a rangos con nombre
--  Aplicar**validación de datos** y**filtrado automático**
--  Aplicar**subtotales** a las tablas de la hoja de trabajo
+-  Solicitar**validación de datos** y**filtrado automático**
+-  Solicitar**subtotales** a las tablas de la hoja de trabajo
 ### **Funciones de formato**
--  Aplicar**configuración de formato de número** para células
+-  Solicitar**configuración de formato de número** para células
 - Formatear celda como una fecha
--  Establecer**alineación del texto**
+-  Colocar**alineación del texto**
 - Combinar varias celdas
 - Aplicar diferentes tipos de**ajustes de fuente** para las celulas
 - Aplique diferentes colores a celdas, fuentes, líneas de cuadrícula, objetos gráficos, etc.
--  Establecer**Texto rico** en una sola celda
+-  Colocar**Texto rico** en una sola celda
 -  Aplicar diferentes**configuraciones de borde** en las celdas
 -  Aplicar diferentes**patrones de fondo** en las celdas
--  Aplicar**configuración de formato** en una hoja de trabajo, fila o columna, etc.
--  Aplicar**formato condicional** en las celdas
+-  Solicitar**configuración de formato** en una hoja de trabajo, fila o columna, etc.
+-  Solicitar**formato condicional** en las celdas
 ## **Funciones de gráficos y gráficos**
 - Crea diferentes tipos de gráficos fácilmente
 -  personalizar**gráficos** estableciendo propiedades
--  Establecer**datos para gráficos** dinamicamente
+-  Colocar**datos para gráficos** dinamicamente
 -  Agregar**gráficos personalizados** a las hojas de trabajo
 -  Agregar**fotos** a las hojas de trabajo en tiempo de ejecución
 - Crear y agregar comentarios a las celdas

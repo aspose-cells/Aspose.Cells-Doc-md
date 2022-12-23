@@ -11,7 +11,7 @@ url: /ar/java/aspose-cells-for-java-8-1-1-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for Java إلى الإصدار 8.1.1 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة 8 تحسينات مفيدة جديدة.
-باستخدام Aspose.Cells for Java يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا إنشاء المصنفات وتعديلها وتحويلها وعرضها وطباعتها دون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for Java يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا إنشاء المصنفات وتعديلها وتحويلها وعرضها وطباعتها دون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for Java.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
  فيما يلي قائمة بالتغييرات في هذا الإصدار Aspose.Cells for Java.
@@ -28,8 +28,8 @@ url: /ar/java/aspose-cells-for-java-8-1-1-release-notes/
 البق
 
 (CELLSJAVA-40848) - لا يتم عرض ألوان خلفية التنسيق الشرطي في ملف pdf
-(CELLSJAVA-40852) - تعيين شفافية ImageOrPrintOptions 'يجعل PNG بخلفية سوداء
-(CELLSJAVA-40855) - XLSX إلى PDF: لا يبدو أن CellsHelper.setFontDir يختار الخطوط
+(CELLSJAVA-40852) - إعداد شفافية ImageOrPrintOptions يجعل PNG بخلفية سوداء
+(CELLSJAVA-40855) - XLSX إلى PDF: يبدو أن CellsHelper.setFontDir لا يختار الخطوط
 (CELLSJAVA-40862) - Cell.getType () يكتشف الرقم كتاريخ ووقت
 (CELLSJAVA-40863) - دعم التنسيقات المترجمة في الصيغ
 

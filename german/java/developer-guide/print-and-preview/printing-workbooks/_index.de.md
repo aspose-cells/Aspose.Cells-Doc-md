@@ -38,6 +38,6 @@ Nachdem Sie mit der Erstellung Ihrer Tabelle fertig sind, möchten Sie wahrschei
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintingWholeWorkbook-PrintingWholeWorkbook.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Geben Sie den Auftrags- oder Dokumentnamen beim Drucken mit Aspose.Cells an](/cells/de/java/specify-job-or-document-name-while-printing-with-aspose-cells/)

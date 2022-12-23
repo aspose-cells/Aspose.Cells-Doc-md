@@ -27,7 +27,7 @@ url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-22-6-release-notes/
 |CELLSJAVA-44660|Проблема с выравниванием данных при загрузке XLS в Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Проблема при загрузке файла et в Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Название оси в диаграмме повернуто в выходном изображении - Преобразование диаграммы в изображение|
-|CELLSJAVA-44615|Серая линия, нарисованная на выходном изображении из файла XLS|
+|CELLSJAVA-44615|Серая линия на выходном изображении из файла XLS|
 |CELLSJAVA-44665|Загрузка файла ODS зависает|
 |CELLSJAVA-44651|Ошибка «Не числовое значение» при преобразовании листа Excel в HTML/PDF|
 

@@ -6,7 +6,7 @@ url: /es/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Esta página contiene notas de la versión para[Aspose.Cells for Java v1.9.5 revisión](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-v1.9.5-hotfix/)
+ Esta página contiene notas de la versión para[Aspose.Cells for Java v1.9.5 Revisión](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-for-java-v1.9.5-hotfix/)
 
 {{% /alert %}} 
 
@@ -24,4 +24,4 @@ url: /es/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  *¿Qué está arreglado?
 
-- Se corrigieron algunos errores de fórmula de cálculo.* Se corrigieron algunos errores de lectura del archivo de plantilla.*Se corrigió un error al obtener la escala de la imagen.* Se corrigió un error al guardar NamedStyle* Se corrigió un error de configuración de la línea del borde del comentario visible* Se corrigió un error al configurar el borde de la celda* Se corrigió un error de la fórmula HYPERLINK* Se corrigió un error al guardar nombres* Se corrigió un error al guardar el libro de trabajo con estructura protegida* Se corrigió un error del texto del objeto de nombre establecido* Se corrigió un error al obtener el valor de cadena de las celdas combinadas* Se corrigió un error al procesar SmartMarker para WorkbookDesigner
+- Se corrigieron algunos errores de fórmula de cálculo.*Se corrigieron algunos errores de lectura del archivo de plantilla.* Se corrigió un error al obtener la escala de la imagen.* Se corrigió un error al guardar NamedStyle* Se corrigió un error de configuración de la línea del borde del comentario visible* Se corrigió un error al configurar el borde de la celda* Se corrigió un error de la fórmula HYPERLINK* Se corrigió un error al guardar nombres* Se corrigió un error al guardar el libro de trabajo con estructura protegida* Se corrigió un error del texto del objeto de nombre establecido* Se corrigió un error al obtener el valor de cadena de las celdas combinadas* Se corrigió un error al procesar SmartMarker para WorkbookDesigner

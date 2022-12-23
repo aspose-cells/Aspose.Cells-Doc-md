@@ -20,7 +20,7 @@ Nach dem Ausführen des Codes passt Aspose.Cells Zeilen für verbundene Zellen a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutoFitRowsforMergedCells-AutoFitRowsforMergedCells.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Zeilen und Spalten automatisch anpassen](/cells/de/java/autofit-rows-and-columns/)
 - [Zeilenhöhe und Spaltenbreite anpassen](/cells/de/java/adjusting-row-height-and-column-width/)

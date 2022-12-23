@@ -20,19 +20,19 @@ url: /sv/net/aspose-cells-for-net-19-2-release-notes/
 |CELLSNET-46581|Öppna/spara tar bort tabellalternativ text|Förbättring|
 |CELLSNET-46584|Prestandaproblem med Aspose.Cells API:er|Prestanda|
 |CELLSNET-46556|Texten i TextBox klipps ut|Insekt|
-|CELLSNET-46565|Piktogram är inte synliga i PDF-utdata i Excel till PDF-rendering|Insekt|
+|CELLSNET-46565|Piktogram är inte synliga i utdata PDF i Excel till PDF rendering|Insekt|
 |CELLSNET-46477|Villkorlig formatering i pivottabell fungerar inte i ett kopierat ark|Insekt|
 |CELLSNET-46547|Innehåll saknas från HTML till Excel-konvertering|Insekt|
-|CELLSNET-46566|XLSX-fil korrupt efter att ha sparats med Aspose.Cells API:er|Insekt|
-|CELLSNET-46572|XLSB är skadad när man lägger till mer än 1 datafält medan XLSX fungerar bra|Insekt|
-|CELLSNET-46548|NumberValue-problem vid konvertering av XLSX till PDF-filformat|Insekt|
+|CELLSNET-46566|XLSX fil korrupt efter att ha sparats med Aspose.Cells API:er|Insekt|
+|CELLSNET-46572|XLSB är skadad när mer än 1 datafält har lagts till medan XLSX fungerar bra|Insekt|
+|CELLSNET-46548|NumberValue-problem vid konvertering av XLSX till PDF filformat|Insekt|
 |CELLSNET-46557|Fel cellvärde beräknat av Aspose.Cells formelberäkningsmotor|Insekt|
 |CELLSNET-46578|Worksheet.AutoFitColumns() passar inte helt kolumner|Insekt|
 |CELLSNET-46550|Märker text som är trasslig när du konverterar MS Excel-diagram till bilder|Insekt|
 |CELLSNET-46558|Tecknen på diagrammet går förlorade när du läser och sparar en ODS-fil|Insekt|
 |CELLSNET-46560|Serienamnet går förlorat när en ODS-fil sparas|Insekt|
-|CELLSNET-46561|Standardgränsen för plotområdet i diagrammet ska inte vara synlig för ODS-fil|Insekt|
-|CELLSNET-46562|X-axelns rutnätslinjer tas bort när du läser och sparar XLSX-fil|Insekt|
+|CELLSNET-46561|Standardgränsen för plottområdet i diagrammet bör inte vara synlig för ODS-filen|Insekt|
+|CELLSNET-46562|X-axelns rutnät tas bort när XLSX-filen läses och sparas|Insekt|
 |CELLSNET-46569|Utskriftsinställningarna ändrades efter att MS Excel-filen laddades och sparades|Insekt|
 |CELLSNET-46574|Problem med att spara och öppna XLSB-filer|Insekt|
 |CELLSNET-46555|Ett undantag uppstår när vissa egenskaper redigeras|Undantag|

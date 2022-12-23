@@ -1,10 +1,10 @@
 ﻿---
-title: Convertir hoja de trabajo a SVG en Jython
+title: Conversión de la hoja de trabajo a SVG en Jython
 type: docs
 weight: 40
 url: /es/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - Conversión de hoja de trabajo a SVG**
+## **Aspose.Cells - Hoja de trabajo de conversión a SVG**
  Para anexar documentos usando**Aspose.Cells Java para Jython**. Aquí puedes ver el código de ejemplo.
 
 **Código Jython**
@@ -27,7 +27,7 @@ desde com.aspose.cells importar SaveFormat
 
 clase ConvertingWorksheetToSVG:
 
- definitivamente__en eso__(uno mismo):
+ definitivamente__en eso__(ser):
 
  dataDir = Configuración.dataDir + 'Trabajar con archivos/Convertir hoja de trabajo a SVG/'
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Печать комментариев при сохранении в PDF
+title: Печать комментариев при сохранении на PDF
 type: docs
 weight: 10
 url: /ru/net/print-comments-while-saving-to-pdf/
@@ -20,8 +20,8 @@ Microsoft Excel позволяет печатать комментарии во 
 
 {{% /alert %}}
 
-## **Печать комментариев при сохранении в PDF**
+## **Печать комментариев при сохранении на PDF**
 
- В следующем примере кода показано, как использовать[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)для печати комментариев при сохранении в PDF.
+ В следующем примере кода показано, как использовать[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)для печати комментариев при сохранении на PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

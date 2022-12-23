@@ -20,7 +20,7 @@ url: /zh/java/aspose-cells-for-java-22-10-release-notes/
 |CELLSJAVA-44853|x轴角度上的数据与excel图表转图片不一样|
 |CELLSJAVA-44854|y轴步长上的数据与Excel中图表转图像渲染不一样|
 |CELLSJAVA-44904|将 Excel 图表呈现为 JPG 转换时出现的问题|
-|CELLSJAVA-44850|导入XLT文件，使用最新Aspose.Cells.GridWeb版本最新资源文件的最新演示，文本显示不完整|
+|CELLSJAVA-44850|导入XLT文件，使用latest demos with latest Aspose.Cells.GridWeb version with latest resource files，文字显示不完整|
 |CELLSJAVA-44857|使用Aspose.Cells.GridWeb for Java v22.8版本最新资源文件打开Excel文档时，单元格效果与原文档不同|
 |CELLSJAVA-44903|SVG 再现未按预期工作|
 |CELLSJAVA-44909|当多行加粗时，似乎不必要地溢出到其他行|

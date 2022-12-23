@@ -41,13 +41,13 @@ Microsoft Mit Excel können Sie Gruppeneinstellungen für die Anzeige konfigurie
 
 ### **Zusammenfassungszeilen unterhalb von Details**
 
- Es ist möglich, zu steuern, ob Übersichtszeilen unter den Details angezeigt werden, indem Sie festlegen[**Umriss**](https://reference.aspose.com/cells/net/aspose.cells/outline) Klasse'[**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) Eigentum zu**Stimmt** oder**FALSCH**.
+ Es ist möglich, zu steuern, ob Übersichtszeilen unter den Details angezeigt werden, indem Sie festlegen[**Umriss**](https://reference.aspose.com/cells/net/aspose.cells/outline) Klasse'[**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) Eigentum zu**wahr** oder**FALSCH**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Zusammenfassungsspalten rechts vom Detail**
 
- Entwickler können auch die Anzeige von Zusammenfassungsspalten rechts neben den Details steuern, indem sie das festlegen[**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) Eigentum von[**Umriss**](https://reference.aspose.com/cells/net/aspose.cells/outline) Klasse zu**Stimmt** oder**FALSCH**.
+ Entwickler können auch die Anzeige von Zusammenfassungsspalten rechts neben den Details steuern, indem sie das festlegen[**SummaryColumnRight**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) Eigentum von[**Umriss**](https://reference.aspose.com/cells/net/aspose.cells/outline) Klasse zu**wahr** oder**FALSCH**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 
@@ -58,6 +58,6 @@ Microsoft Mit Excel können Sie Gruppeneinstellungen für die Anzeige konfigurie
 - Index der ersten Zeile oder Spalte, die erste Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
 - Letzter Zeilen- oder Spaltenindex, die letzte Zeile/Spalte, deren Gruppierung aufgehoben werden soll.
 
-[**Gruppierung aufheben**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) hat eine Überladung, die einen booleschen dritten Parameter akzeptiert. Einstellen auf**Stimmt**entfernt alle gruppierten Informationen. Andernfalls werden nur die äußeren Gruppeninformationen entfernt.
+[**Gruppierung aufheben**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) hat eine Überladung, die einen booleschen dritten Parameter akzeptiert. Einstellen auf**wahr**entfernt alle gruppierten Informationen. Andernfalls werden nur die äußeren Gruppeninformationen entfernt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-UngroupingRowsAndColumns-1.cs" >}}

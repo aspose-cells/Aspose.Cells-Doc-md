@@ -6,7 +6,7 @@ weight: 80
 url: /ru/net/managing-document-properties/
 description: Управление свойствами документов файлов электронных таблиц.
 ---
-## **Введение**
+## **Вступление**
 
 Microsoft Excel позволяет добавлять свойства в файлы электронных таблиц. Эти свойства документа предоставляют полезную информацию и разделены на 2 категории, как подробно описано ниже.
 
@@ -28,7 +28,7 @@ Microsoft Excel позволяет добавлять свойства в фай
 |**Выбор информационного меню**|
 |:- |
 |![дело:изображение_альтернативный_текст](managing-document-properties_1.png)|
-1.  Нажмите на**Характеристики** заголовок и выберите «Дополнительные свойства».
+1.  Нажмите на**Характеристики**заголовок и выберите «Дополнительные свойства».
 
 |**Щелкнув Выбор дополнительных свойств**|
 |:- |
@@ -46,7 +46,7 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET непосредственно записывает информацию о API и номере версии в выходных документах. Например, при преобразовании документа в PDF Aspose.Cells for .NET заполняет**Заявление** поле со значением «Aspose.Cells» и**PDF-продюсер** поле со значением, например 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET непосредственно записывает информацию о API и номере версии в выходных документах. Например, при рендеринге Document на PDF, Aspose.Cells for .NET заполняет**Применение** поле со значением «Aspose.Cells» и**PDF Продюсер** поле со значением, например 'Aspose.Cells v17.9'.
 
 Обратите внимание, что вы не можете поручить Aspose.Cells for .NET изменить или удалить эту информацию из выходных документов.
 
@@ -54,14 +54,14 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 ### **Доступ к свойствам документа**
 
- Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)учебный класс.
+Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)учебный класс.
 
  Использовать[**Рабочий листКоллекция**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)для доступа к свойствам документа файла, как описано ниже.
 
 -  Чтобы получить доступ к встроенным свойствам документа, используйте[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties).
 -  Чтобы получить доступ к пользовательским свойствам документа, используйте[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties).
 
- Оба[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties) а также[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties) вернуть экземпляр[**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection). Эта коллекция содержит[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)объекты, каждый из которых представляет одно встроенное или пользовательское свойство документа.
+ Оба[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties) и[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties) вернуть экземпляр[**Aspose.Cells.Properties.DocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection). Эта коллекция содержит[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)объекты, каждый из которых представляет одно встроенное или пользовательское свойство документа.
 
  Это зависит от требований приложения, как получить доступ к свойству, то есть; используя индекс или имя свойства из[**DocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentpropertycollection)как показано в примере ниже.
 
@@ -79,10 +79,10 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 {{% /alert %}}
 
-|**Имя члена**|**Описание**|**Метод ToXXX**|
+|**Имя участника**|**Описание**|**Метод ToXXX**|
 |:- |:- |:- |
 |логический|Тип данных свойства — логический.|ToBool|
-|Свидание|Тип данных свойства — DateTime. Обратите внимание, что Microsoft Excel хранит только<br>часть даты, время не может быть сохранено в пользовательском свойстве этого типа|ToDateTime|
+|Датировать|Тип данных свойства — DateTime. Обратите внимание, что Microsoft Excel хранит только<br>часть даты, время не может быть сохранено в пользовательском свойстве этого типа|ToDateTime|
 |Плавать|Тип данных свойства — Double|Удвоить|
 |Число|Тип данных свойства — Int32.|ToInt|
 |Нить|Тип данных свойства — String|Нанизывать|

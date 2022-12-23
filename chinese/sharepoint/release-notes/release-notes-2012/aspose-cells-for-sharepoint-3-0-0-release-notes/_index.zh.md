@@ -12,7 +12,7 @@ url: /zh/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 
 我们很高兴地宣布 Aspose.Cells for SharePoint v3.0.0！
 
-新的功能
+新功能
 
 - 允许
 一次转换多个文件
@@ -22,6 +22,6 @@ url: /zh/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 增强功能
 
 - 添加支持
-用于转换新格式（XLSB、MHtml、XPS、TIFF、SVG、DIF）
+对于新格式 (XLSB, MHtml, XPS, TIFF, SVG, DIF) 进行转换
 - 优化Aspose.Cells
  for SharePoint 组件

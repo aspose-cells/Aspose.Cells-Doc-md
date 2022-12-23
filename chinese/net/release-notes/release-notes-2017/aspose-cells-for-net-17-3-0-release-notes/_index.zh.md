@@ -21,53 +21,53 @@ url: /zh/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45161|电子表格中图片的角度略有不同|漏洞|
 |CELLSNET-45159|自动形状对象呈现不正确|漏洞|
 |CELLSNET-45138|PrintArea 无法正确转换图像|漏洞|
-|CELLSNET-45136|将 Excel 转换为 PDF 时框会旋转|漏洞|
+|CELLSNET-45136|Excel 转换为 PDF 时框会旋转|漏洞|
 |CELLSNET-45182|生成的电子表格无法在不修复的情况下加载到 Excel 中|漏洞|
-|CELLSNET-45143|Aspose.Cells 保存到 XLSB 时生成带有报告筛选器的损坏数据透视表|漏洞|
+|CELLSNET-45143|Aspose.Cells 在保存到 XLSB 时生成带有报告筛选器的损坏数据透视表|漏洞|
 |CELLSNET-45135|将 HTML 导入为 XLSX 时图像重叠|漏洞|
 |CELLSNET-45134|将 HTML 导入为 XLSX 时列宽丢失|漏洞|
 |CELLSNET-45133|将 HTML 导入为 XLSX 时内容样式丢失|漏洞|
-|CELLSNET-45132|以 XLSX 格式保存时，在 HTML 中启用的 WrapText 会丢失|漏洞|
-|CELLSNET-45127|将 HTML 导入为 XLSX 后更改字体样式和大小|漏洞|
+|CELLSNET-45132|以 XLSX 格式保存时，HTML 中启用的 WrapText 丢失|漏洞|
+|CELLSNET-45127|将 HTML 导入为 XLSX 后，字体样式和大小发生了变化|漏洞|
 |CELLSNET-45115|添加一些数据后刷新数据透视表会生成损坏的 Excel 文件|漏洞|
 |CELLSNET-45109|刷新按日期列分组的数据透视表时出错|漏洞|
 |CELLSNET-45081|数据透视表的合并标签功能不起作用|漏洞|
-|CELLSNET-45076|对齐不起作用，文本从 Excel 到 HTML 转换中超出单元格|漏洞|
+|CELLSNET-45076|对齐不起作用，文本超出 Excel 中的单元格以转换为 HTML|漏洞|
 |CELLSNET-45057|HTML 到 XLSX 的转换不正确|漏洞|
-|CELLSNET-45040|一些数据透视字段项呈现为日期值而不是数字|漏洞|
+|CELLSNET-45040|一些数据透视字段项呈现为日期值而不是 Numbers|漏洞|
 |CELLSNET-40265|输入文件的文化问题|漏洞|
 |CELLSNET-45142|使用外部范围时 VLOOKUP 函数出现问题|漏洞|
 |CELLSNET-45150|无法展开或折叠工作表的最后一行|漏洞|
 |CELLSNET-45139|分页不适用于一页上的两个 GridWeb|漏洞|
 |CELLSNET-45137|在 Internet Explorer 11 上运行时，分组的行或列在 GridWeb 中有问题|漏洞|
-|CELLSNET-45203|将 Excel 文件渲染为 PDF 时字符重叠|漏洞|
-|CELLSNET-45196|打印输出在导出的 XPS 中出现乱码|漏洞|
+|CELLSNET-45203|将 Excel 文件呈现为 PDF 时字符重叠|漏洞|
+|CELLSNET-45196|输出打印输出乱码 XPS|漏洞|
 |CELLSNET-45187|标签应按照 TrueType 规范按升序排列|漏洞|
 |CELLSNET-45169|警告：区域的最大大小为 262144 字节，位于 SheetRender.ToImage on Mono|漏洞|
 |CELLSNET-45167|SheetRender.ToImage 渲染内容乱码不完整 Mono|漏洞|
 |CELLSNET-45166|SheetRender.ToImage 只渲染页眉和页脚 Mono|漏洞|
-|CELLSNET-43732|呈现为 EMF 并粘贴到 Word 会导致生成的 PDF 中的文本重叠|漏洞|
-|CELLSNET-45186|PDF 导出时未显示面积图|漏洞|
+|CELLSNET-43732|渲染到 EMF 并粘贴到 Word 中导致文本在结果 PDF 中重叠|漏洞|
+|CELLSNET-45186|面积图未显示在 PDF 出口|漏洞|
 |CELLSNET-45178|在将图表渲染为图像时修剪轴标签|漏洞|
 |CELLSNET-45177|将图表渲染为图像时轴标签丢失 - II|漏洞|
-|CELLSNET-45151|将电子表格呈现为 PDF 时图表会丢失所有格式|漏洞|
+|CELLSNET-45151|图表在将电子表格呈现为 PDF 时丢失所有格式|漏洞|
 |CELLSNET-45147|将电子表格呈现为 PDF 时缺少图表|漏洞|
 |CELLSNET-44998|将电子表格转换为 PDF 后图表的数据标签发生变化|漏洞|
-|CELLSNET-44984|第二张图中的趋势线在输出 PDF 中未正确呈现|漏洞|
-|CELLSNET-41539|PDF 中图表周围的绿色椭圆艺术字/图片错误呈现|漏洞|
+|CELLSNET-44984|第二张图中的趋势线在输出中未正确呈现 PDF|漏洞|
+|CELLSNET-41539|绿色椭圆艺术字/图片在 PDF 中的图表周围错误呈现|漏洞|
 |CELLSNET-45197|Range.MoveTo 不移动数据验证和条件格式|漏洞|
 |CELLSNET-45183|ActiveX 控件 (ComboBox) 的“锁定”属性未更改|漏洞|
 |CELLSNET-45179|在 XLSX 文件上设置代号无法正常工作|虫子|
 |CELLSNET-45175|图片格式不适用于 XLSX 文件|漏洞|
 |CELLSNET-45174|DeleteRange 后 Print_Area 范围中断|漏洞|
-|CELLSNET-45173|XLSX 文件在保存后损坏|漏洞|
+|CELLSNET-45173|XLSX 保存后文件损坏|漏洞|
 |CELLSNET-45171|移动范围会导致内部范围缩小为一个单元格长|漏洞|
 |CELLSNET-45162|删除范围后图表未正确计算/刷新|漏洞|
 |CELLSNET-45155|Cells.InsertColumns/DeleteColumns 导致 ListObject/Table 出现“#REF”|漏洞|
 |CELLSNET-45154|移动范围不会更新另一张纸上的引用|漏洞|
 |CELLSNET-45145|无法删除 CameraTool 对象|漏洞|
 |CELLSNET-45060|简单的加载和保存操作后按钮的字体设置发生了变化|漏洞|
-|CELLSNET-43722|文件错误：数据可能已丢失，打开 XLS 时被 Excel 抛出|漏洞|
+|CELLSNET-43722|文件错误：数据可能已丢失，打开时被Excel抛出XLS|漏洞|
 |CELLSNET-45190|计算 WORKDAY 公式时出现异常|例外|
 |CELLSNET-45199|Excel 到 PDF - 索引超出数组异常|例外|
 ### **公共 API 和向后不兼容的更改**

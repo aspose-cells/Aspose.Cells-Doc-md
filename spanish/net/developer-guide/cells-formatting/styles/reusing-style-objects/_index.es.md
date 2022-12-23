@@ -14,7 +14,7 @@ Para aplicar algún formato a una gran variedad de celdas en una hoja de trabajo
 
 1. Cree un objeto de estilo.
 1. Especifique los atributos.
-1. Aplique el estilo a las celdas del rango.
+1. Aplicar el estilo a las celdas del rango.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-StylingAndDataFormatting-ReusingStyleObjects-ReusingStyleObjects.cs" >}}
 

@@ -16,7 +16,7 @@ url: /tr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Html dosyasında Render Onay Kutuları
 
- 26082 PDF formatını oluştururken Yaslanmış Hizalamayı Destekler
+ 26082, PDF biçiminde işlemede Yaslanmış Hizalamayı Destekler
 
  26341 Mono için Excel'den PDF'e geliştirme
 
@@ -32,11 +32,11 @@ url: /tr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  27063 Geçersiz sütun dizini - SheetRender.ToImage() yönteminden Aspose.Cells.CellsException
 
- 26571 Aspose.Cells, XLS dosyasını açamıyor
+26571 Aspose.Cells, XLS dosyasını açamıyor
 
  26309 Kaynak dizisi yeterince uzun değildi – Excel dosyasını açarken istisna
 
-25972 SheetRender.ToImage() yöntemi bazı Çalışma Sayfalarını oluşturamadı
+ 25972 SheetRender.ToImage() yöntemi bazı Çalışma Sayfalarını oluşturamadı
 ### **Hatalar**
  26141 Neredeyse boş resim oluştur (Chart.ToImage() yönteminden), tire çizgileri iyi işlenmiyor
 
@@ -48,7 +48,7 @@ url: /tr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  18878 Pdf dosyasına kaydederken yazı tipi boyutunu azaltın
 
- 19318 PDF Dışa Aktarmada yanlış metin
+ 19318 PDF'de yanlış metin Ver
 
  24011 Pdf'ye Kaydet (hata)
 
@@ -62,19 +62,19 @@ url: /tr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  24961 Dosya Bozulması sorunu
 
- 26198 Bir Excel Grafiğinde ValueAxis'in Maksimum Değerini Alın
+26198 Bir Excel Grafiğinde ValueAxis'in Maksimum Değerini Alın
 
  26198 PutValue ve ClearContents yöntemleriyle ilgili bir sorun
 
  26544 Satırları Kopyalama ve Koşullu Biçimlendirme Sorunu
 
-26711 Hesaplanmış hücrede "#DEĞER!" var. Workbook.CalculateFormula() yöntemini kullandıktan sonra
+ 26711 Hesaplanmış hücrede "#DEĞER!" var. Workbook.CalculateFormula() yöntemini kullandıktan sonra
 
  26728 "#Değer!" Al hesaplanan hücrelerde
 
  26984 Çalışma Sayfalarında formül hesaplama sorunu
 
- 26308 XLSB Formülü, XLSX formülünden farklı bir değer döndürür
+ 26308 XLSB Formül, XLSX formülünden farklı bir değer döndürür
 
  25783 Excel dosyası, Tablo başlığı için Range.CopyValue kullanıldıktan sonra uyarıyla açılıyor
 

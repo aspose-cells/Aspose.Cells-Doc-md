@@ -11,7 +11,7 @@ url: /sv/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET har uppdaterats till version 8.0.0 och vi är glada att kunna meddela att denna utgåva kommer med över 50 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, 807.3s andra applikationer och 807.3s andra applikationer och 807.3. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -38,7 +38,7 @@ Andra förbättringar och förändringar
 
 (CELLSNET-42417) - Skrivfel i metodnamn - SeriesCollection.SecondCatergoryData
 
-(CELLSNET-42413) - Scenarier förlorade under konverteringen XLSB till XLSM
+(CELLSNET-42413) - Scenarier förlorade under konvertering XLSB till XLSM
 
 ### **Prestanda**
 
@@ -48,7 +48,7 @@ Andra förbättringar och förändringar
 
 ## **Buggar**
 
-(CELLSNET-42367) - Problem med vertikal text i utdata-PDF
+(CELLSNET-42367) - Vertikal textproblem i utgången PDF
 
 (CELLSNET-42409) - Beräknat fält beräknas/skrivs inte ut
 
@@ -60,7 +60,7 @@ Andra förbättringar och förändringar
 
 (CELLSNET-42358) - Problem med textjustering med kryssrutor
 
-(CELLSNET-42357) - Vissa kryssrutor saknas i utdata-HTML
+(CELLSNET-42357) - Vissa kryssrutor saknas i utgången HTML
 
 (CELLSNET-42352) - Kanter saknas vid konvertering av XLSX till HTML
 
@@ -86,23 +86,23 @@ Andra förbättringar och förändringar
 
 (CELLSNET-42432) - Objektet används för närvarande någonstans med undantag
 
-(CELLSNET-42428) - Excel till PDF-konvertering - rader är inte synliga
+(CELLSNET-42428) - Excel till PDF konvertering - rader är inte synliga
 
-(CELLSNET-42421) - Nummer 8 saknas i PDF-fil med vissa tittare
+(CELLSNET-42421) - Nummer 8 saknas i PDF-fil med några tittare
 
-(CELLSNET-42410) - Extra sidbrytning i Excel till PDF-konvertering
+(CELLSNET-42410) - Extra sidbrytning i Excel till PDF konvertering
 
 (CELLSNET-42338) - Avvikelser och problem för värden och diagram i utdata XPS
 
-(CELLSNET-41853) - Design från XLS-sidan helt förlorad
+(CELLSNET-41853) - Design från XLS sida helt förlorad
 
-(CELLSNET-41803) - Negativ datafält visas inte i utdata-PDF-filen
+(CELLSNET-41803) - Negativ datafält visas inte i utgången PDF
 
-(CELLSNET-42473) - Diagrammet innehåller inga markörer i utdata-PDF-filen
+(CELLSNET-42473) - Diagrammet innehåller inte markörer i utdata PDF
 
 (CELLSNET-42403) - Problem med diagramstorlek och placering vid konvertering av XLSX till PDF
 
-(CELLSNET-42372) - Diagrammets dataserie borttagen i XLSX-filerna
+(CELLSNET-42372) - Diagrammets dataserie borttagen i utdata XLSX filer
 
 (CELLSNET-42055) - Fil skadad med senaste versionen av MS Excel (2013)
 
@@ -116,7 +116,7 @@ Andra förbättringar och förändringar
 
 (CELLSNET-42424) - Felaktig WEEKNUM() utdata
 
-(CELLSNET-42412) - Vissa formler fungerar inte i utdata-PDF efter att ha anropat CalculateFormula()
+(CELLSNET-42412) - Vissa formler fungerar inte i utdata PDF efter att ha anropat CalculateFormula()
 
 (CELLSNET-42397) - Formelegenskapen fungerar inte på cellobjektet
 
@@ -133,7 +133,7 @@ Andra förbättringar och förändringar
 ### **Undantag**
 
 
-(CELLSNET-42441) - Fel i XLSX som anropar GetNamedRanges
+(CELLSNET-42441) - Fel i XLSX som anropade GetNamedRanges
 
 ## 2) Aspose.Cells Grid Suite
 

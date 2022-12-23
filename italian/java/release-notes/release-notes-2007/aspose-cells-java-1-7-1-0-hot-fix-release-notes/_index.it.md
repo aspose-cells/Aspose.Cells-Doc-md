@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells Java 1.7.1.0 Hot Fix Note sulla versione
+title: Aspose.Cells Java 1.7.1.0 Note sulla versione dell'hotfix
 type: docs
 weight: 100
 url: /it/java/aspose-cells-java-1-7-1-0-hot-fix-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells Correzione rapida Java 1.7.1.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.1.0-hot-fix/)
+ Questa pagina contiene le note di rilascio per[Aspose.Cells Java 1.7.1.0 Correzione rapida](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.1.0-hot-fix/)
 
 {{% /alert %}} 
 

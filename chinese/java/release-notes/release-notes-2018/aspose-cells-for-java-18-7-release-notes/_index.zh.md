@@ -14,10 +14,10 @@ url: /zh/java/aspose-cells-for-java-18-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42668|使用类样式时支持多个值（链接至：CELLSJAVA-42635）|强化|
 |CELLSJAVA-42627|无法正确提取 Smart Art 图像 - 形状到图像的转换 (CELLSJAVA-42619)|强化|
-|CELLSJAVA-42672|输出的 PDF 文档太大|漏洞|
+|CELLSJAVA-42672|输出 PDF 文档太大|漏洞|
 |CELLSJAVA-42671|在 MS Excel 日文版中查看输出 Excel 文件时出现超链接问题|漏洞|
 |CELLSJAVA-42667|获取“#NUM！”对于具有 IRR 函数的单元格|漏洞|
-|CELLSJAVA-42658|包含 XL4 宏 (XLSM) 的工作簿在保存后损坏|漏洞|
+|CELLSJAVA-42658|带有 XL4 宏的工作簿 (XLSM) 在保存后损坏|漏洞|
 |CELLSJAVA-42656|AlternativeText 返回评论文本的值|漏洞|
 |CELLSJAVA-42635|HTML 到 XLS - 忽略 CSS 样式|漏洞|
 |CELLSJAVA-42673|加载 Excel 文件时出现异常“java.lang.NumberFormatException”|例外|

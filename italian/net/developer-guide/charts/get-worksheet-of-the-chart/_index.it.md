@@ -6,7 +6,7 @@ url: /it/net/get-worksheet-of-the-chart/
 ---
 {{% alert color="primary" %}}
 
- A volte, vuoi accedere a un foglio di lavoro dal riferimento di un grafico. Aspose.Cells fornisce il[**Grafico.Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) proprietà che restituisce il riferimento del foglio di lavoro che contiene il grafico.
+ volte, vuoi accedere a un foglio di lavoro dal riferimento di un grafico. Aspose.Cells fornisce il[**Grafico.Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) proprietà che restituisce il riferimento del foglio di lavoro che contiene il grafico.
 
 {{% /alert %}}
 

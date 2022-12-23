@@ -26,7 +26,7 @@ description: Appliquez ConsolidationFunction aux champs de données du tableau c
 
 ### **Application de ConsolidationFunction aux champs de données du tableau croisé dynamique**
 
- Le code suivant s'applique**MOYEN** fonction de consolidation au premier champ de données (ou champ de valeur) et**STD_DEV** fonction de consolidation au deuxième champ de données (ou champ de valeur).
+ Le code suivant s'applique**MOYENNE** fonction de consolidation au premier champ de données (ou champ de valeur) et**STD_DEV** fonction de consolidation au deuxième champ de données (ou champ de valeur).
 
 Un exemple de fichier source et de fichiers de sortie peut être téléchargé ici pour tester l'exemple de code :
 

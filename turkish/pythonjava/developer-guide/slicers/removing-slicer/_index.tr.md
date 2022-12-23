@@ -9,6 +9,6 @@ url: /tr/python-java/removing-slicer/
 
 Aşağıdaki kod parçacığı,[örnek excel dosyası](106364970.xlsx)mevcut bir dilimleyici içerir. Dilimleyiciye erişir, onu kaldırır ve dilimleyiciyi kaydeder.[çıktı excel dosyası](106364971.xlsx). Aşağıdaki ekran görüntüsü, kaldırılacak olan dilimleyiciyi göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](Removing-Slicer-using-Aspose.Cells.png)
+![yapılacaklar:resim_alternatif_metin](Removing-Slicer-using-Aspose.Cells.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Slicers-RemovingSlicer.py" >}}

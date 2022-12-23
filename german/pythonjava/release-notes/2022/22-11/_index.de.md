@@ -12,12 +12,12 @@ url: /de/python-java/aspose-cells-for-python-via-java-22-11-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-44888|"+" und "-" waren nach der Konvertierung verschwunden - Excel-zu-HTML-Rendering|
+|CELLSJAVA-44888|"+" und "-" waren nach der Konvertierung verschwunden - Excel auf HTML rendern|
 |CELLSJAVA-44775|Diagrammbeschriftungen haben sich beim Rendern von Diagramm zu Bild überlappt|
 |CELLSJAVA-44882|Rendern von Diagramm zu Bild – Eines der Labels befindet sich innerhalb des Donut-Diagramms|
-|CELLSJAVA-44943|XLSX zu PDF: Diagrammbeschriftungen werden nicht korrekt gerendert|
-|CELLSJAVA-44928|XLS zu PDF: Unzureichende Daten für ein Bild|
-|CELLSJAVA-44910|Konvertieren Sie Excel in HTML-Ergebnisse in Tausenden ähnlicher kleiner Bilder|
+|CELLSJAVA-44943|XLSX bis PDF: Diagrammbeschriftungen werden nicht korrekt gerendert|
+|CELLSJAVA-44928|XLS bis PDF: Unzureichende Daten für ein Bild|
+|CELLSJAVA-44910|Konvertieren Sie Excel in HTML, was zu Tausenden ähnlicher kleiner Bilder führt|
 |CELLSJAVA-44944|Die Größenänderung von Tabellen ändert die Formatierung von Zellen|
 |CELLSJAVA-44948| Bilder können beim Konvertieren von HTML in Excel nicht im Blatt angezeigt werden|
 |CELLSJAVA-44908|Ausnahme „java.lang.OutOfMemoryError: Java heap space“ beim Laden großer XLSB-Dateien|

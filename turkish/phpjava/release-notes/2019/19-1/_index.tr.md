@@ -14,20 +14,20 @@ Bu sayfa Aspose.Cells for PHP via Java 19.1 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-41026|Excel 95/5.0 (XLS dosyaları) desteği|Yeni özellik|
 |CELLSJAVA-42778|XLSM yüklenirken "style textRotation 0 ile 180 arasında olmalıdır" istisnası|Artırma|
-|CELLSJAVA-42290|Grafiklerdeki Metin Kutularına eklenen kısa çizgiler ve kısa çizgiler, grafiğin PDF'sinde düzgün şekilde oluşturulmuyor|Böcek|
+|CELLSJAVA-42290|Grafiklerdeki Metin Kutularına eklenen kısa çizgiler ve kısa çizgiler, grafiğin PDF'inde düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42750|PivotTable raporundaki sayfa alanlarının öğeleri alınamıyor|Böcek|
-|CELLSJAVA-42783|Oluşturulan HTML dosyası biçimindeki üstü çizili metinle ilgili sorun|Böcek|
-|CELLSJAVA-42784|Bazı hücrelerdeki veriler (örn. G7, H7, vb.), HTML'ye/resme dönüştürmede Excel'deki orijinal dosyadakiyle aynı şekilde işlenmez.|Böcek|
+|CELLSJAVA-42783|Oluşturulan HTML dosya biçiminde üstü çizili metinle ilgili sorun|Böcek|
+|CELLSJAVA-42784|Bazı hücrelerdeki veriler (örn. G7, H7, vb.), Excel'deki HTML/resim dönüştürmeye orijinal dosyadaki gibi işlenmez|Böcek|
 |CELLSJAVA-42797|Bazı stiller HTML girişinde işlenmez|Böcek|
 |CELLSJAVA-42807|Formül/işlev "ISOWEEKNUM" hesaplaması MS Excel ile aynı değil|Böcek|
-|CELLSJAVA-42794|ODS'den XLSX'e - Metin rengi değişti|Böcek|
-|CELLSJAVA-42795|ODS'den XLSX'e - Üstü çizili yazı tipi düzgün korunmadı|Böcek|
-|CELLSJAVA-42796|ODS'den XLSX'e - Metin kutusu boyutları değişti|Böcek|
-|CELLSJAVA-42798|ODS -> XLSX - Köprü işlevseldir ancak düz metin olarak gösterilir|Böcek|
-|CELLSJAVA-42802|ODS'den XLSX'e, Yüzdeler çubuk grafik grafiğinde kayboluyor|Böcek|
+|CELLSJAVA-42794|ODS - XLSX - Metin rengi değişti|Böcek|
+|CELLSJAVA-42795|ODS - XLSX - Üstü çizili yazı tipi düzgün korunmadı|Böcek|
+|CELLSJAVA-42796|ODS - XLSX - Metin kutusu boyutları değiştirildi|Böcek|
+|CELLSJAVA-42798|ODS -> XLSX - Köprü çalışıyor ancak düz metin olarak gösteriliyor|Böcek|
+|CELLSJAVA-42802|ODS - XLSX, Yüzdeler çubuk grafik grafiğinde kayboluyor|Böcek|
 |CELLSJAVA-42803|Anahat "SummaryRowBelow", XLSB dosya biçimi olarak kaydedilirken etkilenmez|Böcek|
 |CELLSJAVA-42757|Dosyaları dönüştürürken CellsException|İstisna|
-|CELLSJAVA-42799|Bir XLSX dosya formatı yüklenirken "java.lang.ArrayIndexOutOfBoundsException: -32768" istisnası|İstisna|
+|CELLSJAVA-42799|XLSX dosya biçimi yüklenirken "java.lang.ArrayIndexOutOfBoundsException: -32768" istisnası|İstisna|
 |CELLSJAVA-42800|Çalışma kitabı yüklenirken ArrayIndexOutOfBoundsException|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API Aspose.Cells for PHP Aspose.Cells adresinde yapılan, eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve geriye dönük olarak uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa, lütfen bildirin. Aspose.Cells destek forumunda.

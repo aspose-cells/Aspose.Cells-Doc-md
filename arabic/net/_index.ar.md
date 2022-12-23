@@ -4,11 +4,11 @@ type: docs
 weight: 10
 url: /ar/net/
 is_root: true
-description: مكتبة برمجة جداول قوية وسريعة مكتوبة في C#. وهي تدعم تنسيقات ملفات Excel (XLS و XLSX و XLSM و XLSB و XLTX و XLTM و SpreadsheetML و CSV) و OpenOffice (ODS) و HTML و JSON وتسمح بتصدير ملفات Excel إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+description: مكتبة برمجة Speadsheet قوية وسريعة مكتوبة في C#. وهي تدعم Excel الشهير (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، XLTM،SpreadsheetML،CSV) ، تسمح ملفات OpenOffice (ODS) و 0761 PDF،DOCX ، PPTX ، JSON ، XPS ، HTML ، MHTML ، نص عادي وتنسيقات صور شائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
-**! [Aspose.Cells for .NET شعار المنتج] (home_1.png)**
+**![Aspose.Cells for .NET Product Logo](home_1.png)**
 
 **مرحبا بكم في Aspose.Cells for .NET**
 
@@ -16,7 +16,7 @@ description: مكتبة برمجة جداول قوية وسريعة مكتوبة
 
 إلى جانب واجهات برمجة التطبيقات وعناصر تحكم واجهة المستخدم الرسومية ، يعمل Aspose.Cells for .NET على تسريع Microsoft برمجة وتحويل برنامج Excel®.
 
-Aspose.Cells for .NET يدعم جداول البيانات الشائعة (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، XLTM ، CSV ، SpreadsheetML ، ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و JSON ， Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+Aspose.Cells for .NET يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML و JSON ， Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -45,7 +45,7 @@ Aspose.Cells for .NET يدعم جداول البيانات الشائعة (XLS �
 				<li><a href="/cells/ar/net/supported-file-formats/">تنسيقات الملفات المدعومة</a></li>
 				<li><a href="/cells/ar/net/aspose-cells-features/">سمات</a></li>
 				<li><a href="/cells/ar/net/system-requirements/">متطلبات النظام</a></li>
-				<li><a href="/cells/ar/net/getting-started/#how-to-install">تثبيت</a></li>
+				<li><a href="/cells/ar/net/getting-started/#how-to-install">التركيب</a></li>
 				<li><a href="/cells/ar/net/installation/">قم بتثبيت Aspose Cells حتى NuGet</a></li>
 			</ul>
 			<p>يتعلم</p>

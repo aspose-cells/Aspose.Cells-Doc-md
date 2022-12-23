@@ -36,9 +36,9 @@ url: /sv/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47461|Att välja flera celler i GridWeb fungerar inte på senaste versionerna av Firefox|Insekt|
 |CELLSNET-47417|Cellhöjden är otillräcklig i Excel för PDF-rendering|Insekt|
 |CELLSNET-47437|PDF konverterad från XLS ger upphov till ett fel i Acrobat Reader|Insekt|
-|CELLSNET-47423|Etiketter för värdeaxel och kategoriaxel i diagram renderas inte i Excel till PDF-konvertering|Insekt|
+|CELLSNET-47423|Värdeaxel- och kategoriaxeletiketter i diagram renderas inte i Excel till PDF-konvertering|Insekt|
 |CELLSNET-47429|Sunburst-diagram med anpassad fyllningsfärg och inga dataetiketter ger ett fel i ToImage-metoden|Insekt|
-|CELLSNET-47438|Scatter diagram färg Excel till PDF konvertering|Insekt|
+|CELLSNET-47438|Spridningsdiagram färg Excel till PDF konvertering|Insekt|
 |CELLSNET-47401|Tabellvärden ändrade efter radering av rader|Insekt|
 |CELLSNET-47407|Sammanslagna filer är skadade.|Insekt|
 |CELLSNET-47412|Felaktig diagramtyp returnerades för vissa diagram|Insekt|
@@ -54,7 +54,7 @@ url: /sv/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47454|Olika linjehöjder vid samma värde i pixlar|Insekt|
 |CELLSNET-47459|Diagrammets storlek ändras efter konvertering tillbaka från .xlsx till .xlsb|Insekt|
 |CELLSNET-47462|Fel vid import av JSON till Excel|Insekt|
-|CELLSNET-47465|Tabellens stil förlorade när XLS-fil sparades|Insekt|
+|CELLSNET-47465|Tabellens stil förlorade när XLS-filen sparades|Insekt|
 |CELLSNET-47477|Smarta tillverkare Fältnamn har en prick|Insekt|
 |CELLSNET-47439|Nullreferensundantag vid tillämpning av stil|Undantag|
 |CELLSNET-47446|Ogiltigt startradindex när kalkylbladet tas bort|Undantag|

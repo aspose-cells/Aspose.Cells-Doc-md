@@ -10,7 +10,7 @@ url: /fr/cpp/aspose-cells-for-cpp-17-4-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-62|Prise en charge des versions 64 bits de Windows|Nouvelle fonctionnalité|
 ### **Public API et modifications incompatibles avec les versions antérieures**

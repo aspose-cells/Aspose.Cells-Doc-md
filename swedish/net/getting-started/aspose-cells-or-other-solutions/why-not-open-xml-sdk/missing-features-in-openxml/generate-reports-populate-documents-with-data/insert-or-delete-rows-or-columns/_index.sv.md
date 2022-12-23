@@ -207,6 +207,6 @@ workbook.Save(MyDir + "Deleting Column.xls");
 fstream.Close();
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Work%20with%20Rows%20n%20Columns%20%28Aspose.Cells%29.zip)

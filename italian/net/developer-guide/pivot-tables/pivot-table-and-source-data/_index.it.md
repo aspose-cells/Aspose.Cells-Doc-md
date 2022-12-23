@@ -6,7 +6,7 @@ url: /it/net/pivot-table-and-source-data/
 ---
 ## **Dati di origine della tabella pivot**
 
-Ci sono momenti in cui si desidera creare report di Microsoft Excel con tabelle pivot che prendono dati da diverse origini dati (come un database) che non sono note in fase di progettazione. Questo articolo fornisce un approccio per modificare dinamicamente l'origine dati di una tabella pivot.
+Ci sono momenti in cui si desidera creare report Excel Microsoft con tabelle pivot che prendono dati da diverse origini dati (come un database) che non sono note in fase di progettazione. Questo articolo fornisce un approccio per modificare dinamicamente l'origine dati di una tabella pivot.
 
 ### **Modifica dei dati di origine di una tabella pivot**
 

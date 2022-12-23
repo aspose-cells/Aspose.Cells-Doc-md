@@ -71,8 +71,8 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 - Sunucu Bileşeni – Cell'in ReportingServices'teki Arka Plan Rengi Sorunu (XL#CCS)
 - Sunucu Bileşeni - Dinamik Formül ve Tablo Altbilgileri sorunu
-- ServerComponent - Bir kullanıcı CSV dışa aktarma türünü seçerse CSV yerine bir XLSX dosyası oluşturun
+- ServerComponent - Bir kullanıcı CSV exporttype'ı seçerse CSV yerine bir XLSX dosyası oluşturun
 - ServerComponent - Bir Çapraz Tablo raporu MS Excel 2007'ye aktarılamıyor
-- Sunucu Bileşeni - CSV Dışa Aktarma Kodlaması sorunu
+- Sunucu Bileşeni - CSV Kodlamayı Dışa Aktarma sorunu
 
 

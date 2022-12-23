@@ -15,7 +15,7 @@ Wie Sie der obigen Abbildung entnehmen können, gibt es verschiedene Ausrichtung
 - Textausrichtung (horizontal & vertikal)
 - Vertiefung.
 - Orientierung.
-- Textsteuerung.
+- Textkontrolle.
 - Textrichtung.
 
 Alle diese Ausrichtungseinstellungen werden von Aspose.Cells vollständig unterstützt und unten ausführlicher erläutert.
@@ -74,7 +74,7 @@ Im folgenden Abschnitt wird erläutert, wie Sie Text steuern, indem Sie Textumbr
 
 ### **Schrumpfen, um zu passen**
 
- Eine Option zum Umbrechen von Text in einem Feld besteht darin, die Textgröße zu verkleinern, um sie an die Abmessungen einer Zelle anzupassen. Dies geschieht durch die Einstellung von[**Schrumpfen bis es passt**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) Eigentum. zu**Stimmt**.
+ Eine Option zum Umbrechen von Text in einem Feld besteht darin, die Textgröße zu verkleinern, um sie an die Abmessungen einer Zelle anzupassen. Dies geschieht durch die Einstellung von[**Schrumpfen bis es passt**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) Eigentum. zu**wahr**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 

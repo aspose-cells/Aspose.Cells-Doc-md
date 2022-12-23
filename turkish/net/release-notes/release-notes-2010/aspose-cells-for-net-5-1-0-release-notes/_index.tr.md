@@ -47,25 +47,25 @@ Gizli hücreleri dışlamak için SumSelectedRanges yöntemi için aşırı yük
 |15467 | IzgaraMasaüstü| Yinelenen çalışma sayfasının adını ImportExcelFile yönteminde değiştirir|
 |17581 | Chart2Image| Grafiği resme dönüştürür|
 |17762 | Chart2Image| XY Dağılım grafikleri için veri tabloları, Değerler ve Kategori kayboluyor|
-|17900 | Chart2Image| Excel grafiğinden görüntü sorununa|
-|18023 | Chart2Image|Kabarcık çizelgeleri|
+|17900 | Chart2Image|Excel grafiğinden görüntü sorununa|
+|18023 | Chart2Image| Kabarcık çizelgeleri|
 |18190 | Chart2Image| Aspose.Cells, Azure'da yetersiz bellek istisnaları oluşturuyor|
-|18012 | CSV'ler| Excel'den farklı dışa aktarma|
-|16207 | Pdf| PDF Dosyasını kaydederken hata bul|
-|17535 | Pdf| XLSX'te bir yazı tipi, PDF'de iki yazı tipiyle sonuçlanır|
+|18012 |CSV | Excel'den farklı dışa aktarma|
+|16207 | Pdf| PDF Dosyasını kaydederken hata bulun|
+|17535 | Pdf| XLSX'deki bir yazı tipi, PDF'deki iki yazı tipiyle sonuçlanır|
 |17537 | Pdf| Para birimi biçimlendirilmiş boş hücreler|
-|17776 | Pdf| Excel'i PDF'ye dönüştürme sorunu|
+|17776 | Pdf| Excel'i PDF'e dönüştürme sorunu|
 |17804 | Pdf| Yalnızca sıfırlar varsa ondalık değerler görüntülenmez|
 |17821 | Pdf| Yerleşik Özellikler|
-|17981 | Pdf| Excel'den PDF'e Dönüştürme Sorunu|
-|18021 | Pdf| PDF'ye kaydediliyor - Yazı tipiyle ilgili sorunlar|
+|17981 | Pdf| Excel'den PDF'e Dönüşüm Sorunu|
+|18021 | Pdf| PDF'e kaydediliyor - Yazı tipiyle ilgili sorunlar|
 |18038 | Pdf| PDF belgesi bozuk görünüyor|
-|18136 | Pdf| PDF kaydetme sorunu|
-|18258 | Pdf| Hesaplanan formüller, Cells'den PDF'ye dönüşümde güncellenmiyor|
+|18136 | Pdf| Kaydetme sorunu PDF|
+|18258 | Pdf| Hesaplanan formüller, Cells'den PDF'e dönüşümde güncellenmiyor|
 |18316 | Pdf| Sayı işaretleri olarak gösterilen Verilerle Dönüşüm Sorunu|
-|18258 | Pdf| Hesaplanan formüller, Cells'den PDF'ye dönüşümde güncellenmiyor|
+|18258 | Pdf| Hesaplanan formüller, Cells'den PDF'e dönüşümde güncellenmiyor|
 |18316 | Pdf| Sayı işaretleri olarak gösterilen Verilerle Dönüşüm Sorunu|
-|18239 | E-tabloML| Geçersiz uç sütun dizini istisnası|
+|18239 |SpreadsheetML | Geçersiz uç sütun dizini istisnası|
 |17111 | Çalışma Sayfası2Görüntü| Sayısal verileri Düzgün Biçimlendirmiyor|
 |17633 | Çalışma Sayfası2Görüntü| Grafiklerdeki çizgi dönüştürülmedi|
 |17903 | Çalışma Sayfası2Görüntü| worksheet2image performansı|
@@ -73,9 +73,9 @@ Gizli hücreleri dışlamak için SumSelectedRanges yöntemi için aşırı yük
 |17656 | xls| Gruplandırılmış satırlar ve sütunlar nasıl bulunur?|
 |17761 | Xl'ler| Harici formülleri hesapla|
 |17789 | Xl'ler| koşullu biçimlendirme formülü|
-|17810 | Xl'ler| Hareket aralığı yanlış davranıyor|
+|17810 | Xl'ler|Hareket aralığı yanlış davranıyor|
 |17820 | Xl'ler| Bu dosya daha sonraki bir sürüm kullanılarak oluşturuldu|
-|17907 | Xl'ler|Gruplar içinde sıralama çalışmıyor|
+|17907 | Xl'ler| Gruplar içinde sıralama çalışmıyor|
 |17954 | Xl'ler| Şekil.AlternatifMetin|
 |17999 | Xl'ler| Pictures.Add() yöntemiyle Tif Resmi eklemeyi destekler|
 |18054 | Xl'ler| Worsheet.Copy CPU'yu %100'e sabitliyor|
@@ -83,7 +83,7 @@ Gizli hücreleri dışlamak için SumSelectedRanges yöntemi için aşırı yük
 |18160 | Xl'ler| MS Excel ile Uyumluluk Sorunu|
 |18297 | Xl'ler| Yanlış Formül(Cell.formula ve ExternalLink)|
 |18366 | Xl'ler| Kopyalama aralığında köprü kopyalamayı destekler.|
-|16656 | Xlsx| XLSM biçiminde kaydederken kaybolan makrolar|
+|16656 | Xlsx| XLSM biçiminde kaydederken makrolar kayboldu|
 |17041 | Xlsx| Bir resme şeffaf renk nasıl ayarlanır|
 |17652 | Xlsx| Komut Düğmesi nasıl hareket ettirilir|
 |17664 | Xlsx| Mevcut Koşullu Biçimlendirme Değişiklikleri|

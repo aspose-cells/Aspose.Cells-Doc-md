@@ -22,27 +22,27 @@ url: /ja/java/aspose-cells-for-java-8-6-1-release-notes/
 ## **バグ**
 
 
-(CELLSJAVA-41528) - Aspose.Cells で再保存すると XLSB が破損する
+(CELLSJAVA-41528) - Aspose.Cells で再保存すると、XLSB が破損する
 
 (CELLSJAVA-41499) - Cell 参照ハイパーリンクが結果の HTML で機能しない
 
 (CELLSJAVA-41487) - 名前付き範囲式を計算すると #NAME?
 
-(CELLSJAVA-41518) - Acrobat Reader は、ページの処理中にエラーが発生したことを示しています。 Aspose.Cells 生成された PDF の読み込み中に、このドキュメント (135) エラーの読み取り中に問題が発生しました
+ (CELLSJAVA-41518) - Acrobat Reader は、ページの処理中にエラーが発生したことを示しています。このドキュメントの読み取り中に問題が発生しました (135) エラー、Aspose.Cells の読み込み中に PDF が生成されました
 
-(CELLSJAVA-41515) - グラフを PDF にレンダリングする際に、データ ラベルがデータ ポイントと重なっています。
+(CELLSJAVA-41515) - グラフを PDF にレンダリングしているときに、データ ラベルがデータ ポイントと重なっています。
 
  (CELLSJAVA-41513) - Aspose.Cells は、グラフを含む Excel ファイルを PDF に変換できません
 
-(CELLSJAVA-41504) - PDFファイル形式に変換すると、レンダリングされたチャート画像にY軸の値がありません
+(CELLSJAVA-41504) - PDF ファイル形式に変換すると、レンダリングされたグラフ イメージに Y 軸の値が表示されない
 
-(CELLSJAVA-41501) - グラフの X 軸の値が、出力 PDF/ 画像で不適切です
+(CELLSJAVA-41501) - グラフの X 軸の値が出力 PDF/ 画像で不適切である
 
 (CELLSJAVA-41500) - 出力 PDF/画像ファイルのいくつかの場所でチャートの境界線が壊れる
 
-(CELLSJAVA-41494) - Excel チャートの PDF/画像出力で単語が連結されているように見える
+(CELLSJAVA-41494) - PDF/Excel チャートの画像出力で単語が連結されているように見える
 
-(CELLSJAVA-41493) - Excel チャートの PDF/画像出力で長いハイフンが適切に表示されない
+(CELLSJAVA-41493) - PDF/Excel チャートの画像出力で長いハイフンが適切に表示されない
 
 (CELLSJAVA-41484) - ポイントより少ないチャートポイントが返されます
 
@@ -66,7 +66,7 @@ url: /ja/java/aspose-cells-for-java-8-6-1-release-notes/
 
 (CELLSJAVA-41488) - スプレッドシートを XLS として保存すると、ドロップダウン検証が複数の地域に適用されない
 
-(CELLSJAVA-41483) - キリル文字の名前が含まれている場合、マクロ コード置換により XLS ファイルがクラッシュする
+(CELLSJAVA-41483) - XLS ファイルにキリル文字の名前が含まれていると、マクロ コード置換によってファイルがクラッシュする
 
 (CELLSJAVA-41461) - ディスプレイを 125% に設定して再保存すると列幅が変わる
 
@@ -74,11 +74,11 @@ url: /ja/java/aspose-cells-for-java-8-6-1-release-notes/
 
 (CELLSJAVA-41440) - ファイルをロードするときの水平方向の配置の問題
 
-(CELLSJAVA-41436) - PDF ファイルの列 W に余分な書式設定されたセルがいくつかある
+(CELLSJAVA-41436) - PDF ファイルの W 列に余分にフォーマットされたセルがある
 
-(CELLSJAVA-41435) - PDF の列 P および Q の下部にある余分な書式設定されたセルの一部
+(CELLSJAVA-41435) - PDF の列 P および Q の下部に余分にフォーマットされたセルがいくつかあります。
 
-(CELLSJAVA-41434) - 出力 PDF に Excel にはない書式が適用されている
+ (CELLSJAVA-41434) - 出力 PDF には、Excel にはない書式が適用されています
 
 (CELLSJAVA-41350) - セルのフォントまたはセル内のテキストの一部を変更しても反映されない
 
@@ -94,7 +94,7 @@ url: /ja/java/aspose-cells-for-java-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -116,6 +116,6 @@ url: /ja/java/aspose-cells-for-java-8-6-1-release-notes/
 
 列挙型 HtmlLinkTargetType と HtmlSaveOptions.LinkTargetType を追加します。
 
- HTMLでターゲット属性のタイプを設定するために使用されます
+ HTML でターゲット属性のタイプを設定するために使用されます
 
 この Aspose.Cells for Java v8.6.1 にも含まれています。

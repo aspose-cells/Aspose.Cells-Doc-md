@@ -10,15 +10,15 @@ Cet article explique comment appliquer le sous-total aux données et changer la 
 
  Vous pouvez appliquer le sous-total aux données à l'aide de[**Feuille de calcul.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) méthode. Il prend les paramètres suivants.
 
-- **ZoneCellule** - La plage sur laquelle appliquer le sous-total
+- **ZoneCellule** La plage sur laquelle appliquer le sous-total
 - **Par groupe** - Le champ à regrouper, sous la forme d'un décalage d'entier de base zéro
-- **Fonction** - La fonction de sous-total.
+- **Une fonction** - La fonction de sous-total.
 - **TotalListe** - Un tableau de décalages de champ de base zéro, indiquant les champs auxquels les sous-totaux sont ajoutés.
 - **Remplacer** - Indique si remplacer les sous-totaux actuels
 - **Sauts de page** - Indique si ajouter un saut de page entre les groupes
 - **SummaryBelowData** - Indique si ajouter un résumé sous les données.
 
- En outre, vous pouvez contrôler la direction du contour**Lignes récapitulatives sous les détails** comme indiqué dans la capture d'écran suivante en utilisant[**Feuille de calcul.getOutline().SummaryRowBelow**](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) propriété. Vous pouvez ouvrir ce paramètre dans Microsoft Excel en utilisant**Données > Plan > Paramètres**
+ En outre, vous pouvez contrôler la direction du contour**Lignes récapitulatives sous les détails** comme indiqué dans la capture d'écran suivante en utilisant[**Feuille de calcul.getOutline().SummaryRowBelow**](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) la propriété. Vous pouvez ouvrir ce paramètre dans Microsoft Excel en utilisant**Données > Plan > Paramètres**
 
 ![tâche : image_autre_texte](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 

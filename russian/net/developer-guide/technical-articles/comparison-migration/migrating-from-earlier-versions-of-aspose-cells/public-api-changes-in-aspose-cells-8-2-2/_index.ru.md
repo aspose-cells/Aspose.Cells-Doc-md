@@ -15,7 +15,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-2-2/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить версию приложения, создавшего электронную таблицу](/cells/ru/net/get-the-version-number-of-the-application-that-created-the-excel-document/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей[Получить версию приложения, создавшего электронную таблицу](/cells/ru/net/get-the-version-number-of-the-application-that-created-the-excel-document/) для дополнительной информации.
 
 {{% /alert %}} 
 
@@ -37,7 +37,7 @@ Console.WriteLine(properties.Version);
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/net/get-worksheet-of-the-chart/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/net/get-worksheet-of-the-chart/) для дополнительной информации.
 
 {{% /alert %}} 
 

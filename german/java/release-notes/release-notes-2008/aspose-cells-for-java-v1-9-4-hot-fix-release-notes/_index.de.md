@@ -31,6 +31,6 @@ url: /de/java/aspose-cells-for-java-v1-9-4-hot-fix-release-notes/
  Fehler beim Kopieren von Formeln behoben
  Fehler beim Speichern der Bildgröße behoben
 
- Kommentare
+ Bemerkungen
 
 - Bei aus Vorlagendateien importierten Diagrammen wird die Bearbeitung ihrer Daten nicht unterstützt, derzeit wird nur die Bearbeitung von Formeigenschaften wie Position, Platzierung und Größe unterstützt

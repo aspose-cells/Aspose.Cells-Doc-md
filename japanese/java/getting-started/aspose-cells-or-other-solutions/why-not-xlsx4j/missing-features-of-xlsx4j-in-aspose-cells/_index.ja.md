@@ -19,7 +19,7 @@ xlsx4j から Aspose.Cells に移行したい開発者にとって非常に役�
   - [xlsx4j でデータを並べ替える](/cells/ja/java/sort-data-in-xlsx4j/)
   - [xlsx4j での前例と依存関係のトレース](/cells/ja/java/tracing-precedents-and-dependents-in-xlsx4j/)
 - [xlsx4j のその他の例](/cells/ja/java/miscellaneous-examples-for-xlsx4j/)
-  - [スプレッドシートをxlsx4jでPDFに変換](/cells/ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
+  - [xlsx4j でスプレッドシートを PDF に変換する](/cells/ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
   - [xlsx4jでピボットテーブルを作成する](/cells/ja/java/create-pivot-table-in-xlsx4j/)
   - [xlsx4j でワークブックを印刷する](/cells/ja/java/printing-workbooks-in-xlsx4j/)
   - [xlsx4j で印刷タイトルを設定する](/cells/ja/java/set-print-titles-in-xlsx4j/)
@@ -32,7 +32,7 @@ xlsx4j から Aspose.Cells に移行したい開発者にとって非常に役�
   - [xlsx4jでマージされたCellsを検出](/cells/ja/java/detect-merged-cells-in-xlsx4j/)
   - [xlsx4j でのワークブックのスクロールバーの表示と非表示](/cells/ja/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
   - [xlsx4j でワークブックのタブを表示および非表示にする](/cells/ja/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-  - [各ワークシートをxlsx4jの異なるPDFに保存](/cells/ja/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+  - [各ワークシートを xlsx4j の異なる PDF に保存します](/cells/ja/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
   - [xlsx4j でワークシートのタブの色を設定する](/cells/ja/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **ノート：**さらに多くの例がすぐに利用可能になります。

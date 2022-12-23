@@ -10,7 +10,7 @@ url: /de/net/aspose-cells-gridjs/basics/
 
 Aspose.Cells.GridJs unterstützt den Import der gängigen Tabellenformate (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS).
 
-Es ermöglicht auch den Export von Excel-Dateien in PDF, HTML usw. Nachfolgend finden Sie die grundlegenden Prozessschritte zum Entwickeln einer Webanwendung von GridJs.
+Es ermöglicht auch den Export von Excel-Dateien nach PDF, HTML usw. Nachfolgend finden Sie die grundlegenden Prozessschritte zum Entwickeln einer Webanwendung von GridJs.
 
 - Implementieren Sie GridCacheForStream, um Ihre eigene Geschäftslogik für die Cache-Speicherung zu schreiben.
 - Richten Sie eine Controller-Aktion ein, um JSON aus der Tabellenkalkulationsdatei abzurufen. Sie können die GridJsWorkbook.ImportExcelFile- und GridJsWorkbook.ExportToJson-APIs verwenden, GridJs speichert die Spread-Datei automatisch im Cache.

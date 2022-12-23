@@ -15,7 +15,7 @@ Aspose.Cells fornisce la stessa funzionalità di Microsoft Excel per l'aggiunta 
 
 {{% /alert %}}
 
- Gli esempi di codice seguenti mostrano come creare intervalli di nomi con ambito di cartella di lavoro e foglio di lavoro usando il[**Gamma**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) classe.
+ Gli esempi di codice seguenti mostrano come creare intervalli di nomi con ambito di cartella di lavoro e foglio di lavoro usando il[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) classe.
 
 ## **Aggiunta di un intervallo denominato con ambito della cartella di lavoro**
 

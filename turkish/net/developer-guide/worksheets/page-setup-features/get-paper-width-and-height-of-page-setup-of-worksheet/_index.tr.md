@@ -10,7 +10,7 @@ Bazen, çalışma sayfasının sayfa düzeninde ayarlandığı için kağıt boy
 
 ## **Çalışma Sayfasının Sayfa Yapısının Kağıt Genişliğini ve Yüksekliğini Alın**
 
- Aşağıdaki örnek kod, kullanımını açıklar[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) özellikleri. Önce kağıt boyutunu şu şekilde değiştirir:*A2*ve sonra kağıdın enini ve yüksekliğini bulur, sonra onu şu şekilde değiştirir:*A3*, *A4*, *Mektup*sırasıyla kağıdın enini ve yüksekliğini bulur.
+ Aşağıdaki örnek kod, kullanımını açıklar[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) özellikler. Önce kağıt boyutunu şu şekilde değiştirir:*A2*ve sonra kağıdın enini ve yüksekliğini bulur, sonra onu şu şekilde değiştirir:*A3*, *A4*, *Mektup*sırasıyla kağıdın enini ve yüksekliğini bulur.
 
 ### **Basit kod**
 

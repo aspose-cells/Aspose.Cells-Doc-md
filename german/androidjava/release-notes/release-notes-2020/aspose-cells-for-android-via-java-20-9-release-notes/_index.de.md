@@ -12,25 +12,25 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 20.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-40792|Für die ODS-Datei wird keine Pivot-Tabelle erstellt|Neue Funktion|
-|CELLSJAVA-43221|Ausnahme „java.lang.NullPointerException“ beim Laden der XLT-Datei|Erweiterung|
-|CELLSJAVA-43222|Ausnahme „com.aspose.cells.CellsException: Formeldaten sollten beschädigt worden sein….“ beim Laden einer XLS-Datei|Erweiterung|
+|CELLSJAVA-40792|Für die Datei ODS wird keine Pivot-Tabelle erstellt|Neue Funktion|
+|CELLSJAVA-43221|Ausnahme "java.lang.NullPointerException" beim Laden der Datei XLT|Erweiterung|
+|CELLSJAVA-43222|Ausnahme "com.aspose.cells.CellsException: Formeldaten sollten beschädigt worden sein ...." beim Laden einer XLS-Datei|Erweiterung|
 |CELLSJAVA-43223|Ausnahme „java.lang.IllegalStateException: Invalid encoding: null“ beim Laden einer XLS-Datei|Erweiterung|
 |CELLSJAVA-43226|Ausnahme "java.lang.ArrayIndexOutOfBoundsException" beim Abrufen der Bilddaten|Erweiterung|
 |CELLSJAVA-43234|Daten vor 2014 wurden nicht aus der Pivot-Tabelle gelesen|Insekt|
 |CELLSJAVA-43210|Falscher Wert #Wert gelesen von Aspose.Cells|Insekt|
-|CELLSJAVA-43215|XLSM-Datei kann nicht in PDF umgewandelt werden|Insekt|
+|CELLSJAVA-43215|Datei XLSM kann nicht in PDF umgewandelt werden|Insekt|
 |CELLSJAVA-43219|Das Hinzufügen von Formelreferenzen zu verschiedenen Arbeitsblättern führt zu einer beschädigten Excel-Arbeitsmappe|Insekt|
 |CELLSJAVA-43232|Problem mit der ROUNDUP-Funktion|Insekt|
 |CELLSJAVA-43243|Die Formel konnte nicht abgerufen werden, während die Formel der benachbarten Zelle geändert wurde|Insekt|
-|CELLSJAVA-43217|Beim Drucken von XLSX in XPS geht die Hintergrundformatierung verloren|Insekt|
+|CELLSJAVA-43217|Beim Drucken von XLSX bis XPS geht die Hintergrundformatierung verloren|Insekt|
 |CELLSJAVA-43224|Problem beim Drucken auf einem physischen Drucker|Insekt|
 |CELLSJAVA-43241|Problem mit Zeilenhöhe und Rand beim Erstellen eines Bildes aus dem Excel-Bereich|Insekt|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) generiert nicht die erwarteten Ergebnisse bei der Verwendung von SmartMarkers|Insekt|
 |CELLSJAVA-43213|Aspose.Cells 20.6 funktioniert nicht einwandfrei mit Formularsteuerelementen in Office 365 (Version 2005 Build 12827.20268)|Insekt|
 |CELLSJAVA-43214|Beim Übersetzen von XLS in XLSX wird eine beschädigte XLSX-Datei erstellt|Insekt|
-|CELLSJAVA-43216|XLS-zu-XLSX-Konvertierung - Fettschrift und Positionierung der Schriftart werden für die Form geändert|Insekt|
-|CELLSJAVA-43228|Generiertes XLS befindet sich in der geschützten Ansicht|Insekt|
+|CELLSJAVA-43216|Konvertierung von XLS in XLSX - Fettschrift und Positionierung der Schriftart werden für die Form geändert|Insekt|
+|CELLSJAVA-43228|Generiert XLS ist in der geschützten Ansicht|Insekt|
 |CELLSJAVA-43231|Fehler in Ausgabedatei nach Ersetzungen|Insekt|
 |CELLSJAVA-43242|Eines der Style-Tags außerhalb des Head-Tags|Insekt|
 |CELLSJAVA-43157|Die Farbe der benutzerdefinierten Datenreihe wird beim Erstellen eines Wasserfalldiagramms nicht beibehalten|Insekt|
@@ -44,30 +44,30 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 20.
 |CELLSJAVA-43280|Filterproblem nach Aktualisierung der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43281|Problem beim Aktualisieren der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43285|Statische Filter gehen nach dem Aktualisieren der Pivot-Tabelle verloren|Insekt|
-|CELLSJAVA-43288|Die resultierende XLSB-Datei ist beim Speichern der Datei in XLSB beschädigt|Insekt|
+|CELLSJAVA-43288|Die resultierende XLSB-Datei ist beim Speichern der Datei unter XLSB beschädigt|Insekt|
 |CELLSJAVA-43289|Filterproblem nach Aktualisierung der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43293|Problem mit Filteroptionen nach PivotTable.refreshData()|Insekt|
 |CELLSJAVA-43279|Werte werden mit getStringValue() nicht richtig abgerufen|Insekt|
 |CELLSJAVA-43291|Gitterinhalt wird nicht angezeigt|Insekt|
-|CELLSJAVA-43037|Schriftproblem bei der PDF-Konvertierung|Insekt|
-|CELLSJAVA-43249|Druckprobleme bei der Verwendung von physischen Druckern, XPS- und PDF-Druckern|Insekt|
+|CELLSJAVA-43037|Schriftartproblem bei der Konvertierung von PDF|Insekt|
+|CELLSJAVA-43249|Druckprobleme bei Verwendung physischer Drucker, XPS- und PDF-Drucker|Insekt|
 |CELLSJAVA-43254|Schriftunterschied beim Konvertieren einer Tabelle in ein Bild|Insekt|
 |CELLSJAVA-43266|Java-Version unterstützt standardmäßig nicht das Laden von Schriftarten aus dem aktuellen Benutzerschriftartenordner|Insekt|
-|CELLSJAVA-43268|Excel-zu-TIFF-Rendering - einige der Werte werden durch " #"-Zeichen ersetzt|Insekt|
+|CELLSJAVA-43268|Excel bis TIFF Rendering - einige der Werte werden durch "#"-Zeichen ersetzt|Insekt|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fehler für ZipFile|Insekt|
 |CELLSJAVA-43277|Problem mit dem Höhen-Breiten-Verhältnis|Insekt|
-|CELLSJAVA-43245|Kombinationsdiagramm wird nach dem Konvertieren einer Excel-Datei in eine PDF-Datei nicht korrekt angezeigt|Insekt|
+|CELLSJAVA-43245|Das Kombinationsdiagramm wird nach dem Konvertieren der Excel-Datei in PDF nicht korrekt angezeigt|Insekt|
 |CELLSJAVA-43276|Zeilenumbruchprobleme beim Konvertieren von XLSX in PDF|Insekt|
 |CELLSJAVA-43261|SmartMarker: Bei Verwendung von group:merge mit Number Format Percentage ist das Expanding-Ergebnis falsch|Insekt|
-|CELLSJAVA-43265|XLSX-Datei kann nicht geladen werden|Insekt|
+|CELLSJAVA-43265|Datei XLSX kann nicht geladen werden|Insekt|
 |CELLSJAVA-43270|Duplizieren von Inhalten (eingebettetes Word) beim Kopieren von Arbeitsblättern|Insekt|
 |CELLSJAVA-43271|Wasserfall-Diagramm SetAsTotal-Eigenschaft wird nicht beibehalten|Insekt|
 |CELLSJAVA-43287|Durch das Hinzufügen von Autofiltern wird die Arbeitsmappe beschädigt|Insekt|
 |CELLSJAVA-43290|Die Verarbeitung kehrt nicht zurück, wenn eine XML Spreadsheet 2003-Datei im MS Excel-Arbeitsmappenformat gespeichert wird|Insekt|
 |CELLSJAVA-43225|Ausnahme "java.lang.NullPointerException" beim Abrufen des Zeichenfolgenwerts aus der Zelle|Ausnahme|
-|CELLSJAVA-43229|Ausnahme beim Laden der XLSM-Datei mit der Option setKeepUnparsedData(false)|Ausnahme|
+|CELLSJAVA-43229|Ausnahme beim Laden der Datei XLSM mit der Option setKeepUnparsedData(false)|Ausnahme|
 |CELLSJAVA-43238|Berechnung schlägt mit NPE fehl (java.lang.NullPointerException)|Ausnahme|
-|CELLSJAVA-43199|Ausnahme „java.lang.NegativeArraySizeException“ beim Speichern in HTML|Ausnahme|
+|CELLSJAVA-43199|Ausnahme "java.lang.NegativeArraySizeException" beim Speichern auf HTML|Ausnahme|
 |CELLSJAVA-43170|CellsException bei der computeFormula-Methode|Ausnahme|
 |CELLSJAVA-43267|Ausnahme "java.lang.NullPointerException" beim Berechnen der Pivot-Tabelle im Blatt|Ausnahme|
 
@@ -81,7 +81,7 @@ Diese Schnittstelle führt manchmal zu Unklarheiten und Missverständnissen bei 
 
 ### **Markiert die Eigenschaft CalculationOptions.CustomFunction als veraltet.**
 
- Bitte verwende**AbstractCalculationEngine** Anstatt von**ICustomFunction** durch**Berechnungsoptionen.CustomEngine** Eigentum.
+ Bitte verwende**AbstractCalculationEngine** Anstatt von**ICustomFunction** von**Berechnungsoptionen.CustomEngine** Eigentum.
 
 ### **Markiert die Workbook.CalculateFormula(bool, ICustomFunction)-Methode als veraltet.**
 
@@ -157,7 +157,7 @@ Stellt die Formelparameter der Leistungsabfrage dar.
 
 ### **Fügt die AbstractCalculationEngine.ProcessBuiltInFunctions-Eigenschaft hinzu**
 
-Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung des Benutzers von**AbstractCalculationEngine** die Berechnung einiger eingebauter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**Stimmt** aus**20.9**.
+Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung des Benutzers von**AbstractCalculationEngine** die Berechnung einiger eingebauter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**wahr** von**20.9**.
 
 ### **Fügt die TxtLoadOptions.HasTextQualifier-Eigenschaft hinzu**
 
@@ -169,7 +169,7 @@ Gibt den Textqualifizierer für Zellenwerte in der Vorlagendatei an.
 
 ### **Fügt die HtmlSaveOptions.ImageScalable-Eigenschaft hinzu**
 
- Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**Stimmt**.
+ Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**wahr**.
 
 ### **Fügt die Slicer.AlternativeText-Eigenschaft hinzu**
 

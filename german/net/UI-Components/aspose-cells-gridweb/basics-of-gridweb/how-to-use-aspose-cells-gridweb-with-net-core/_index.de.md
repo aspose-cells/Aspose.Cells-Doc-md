@@ -15,7 +15,7 @@ In diesem Thema wird gezeigt, wie Sie Aspose.Cells.GridWeb verwenden, indem Sie 
 1. Öffnen Sie Visual Studio 2019.
 1.  Von dem**Datei** Menü, auswählen**Neu** , dann**Projekt**.
  Der Dialog Neues Projekt erstellen wird geöffnet.
-1.  Auswählen**ASP.NET Core-Webanwendung** aus Visual Studio installierten Projektvorlagen und klicken Sie auf**Nächste**.
+1.  Wählen**ASP.NET Core-Webanwendung** aus Visual Studio installierten Projektvorlagen und klicken Sie auf**Nächste**.
 
 ![todo: Bild_alt_Text](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 
@@ -88,7 +88,7 @@ Die Datei sieht nach der Änderung so aus.
 ![todo: Bild_alt_Text](how-to-use-aspose-cells-gridweb-with-net-core_10.jpg)
 
 1. Legen Sie den neuesten acw_client im Verzeichnis ab: **wwwroot/js** {{% alert color="primary" %}} {{% /alert %}}
-1.  Hinzufügen**AcwController**in Controllern, um mit der acw-Routenkarte umzugehen, die alle Standardoperationen für allgemeine Bearbeitungsaktionen bereitstellen kann.
+1.  Addieren**AcwController**in Controllern, um mit der acw-Routenkarte umzugehen, die alle Standardoperationen für allgemeine Bearbeitungsaktionen bereitstellen kann.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "GridWebCore-AcwController.cs" >}}
 

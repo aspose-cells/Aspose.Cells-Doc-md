@@ -22,7 +22,7 @@ Das[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells
 - **Höhe** – die Höhe des Etiketts in Einheiten von 1/4000 des Diagrammbereichs.
 - **Breite** – die Breite des Etiketts in Einheiten von 1/4000 des Diagrammbereichs.
 
- Die Methode kehrt zurück[**Aspose.Cells.Drawing.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)Objekt. Das[**Etikett**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) Klasse stellt eine Bezeichnung im Diagramm dar. Es hat einige wichtige Mitglieder:
+ Die Methode kehrt zurück[**Aspose.Cells.Drawing.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)Objekt. Das[**Etikette**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) Klasse stellt eine Bezeichnung im Diagramm dar. Es hat einige wichtige Mitglieder:
 
 - [**Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text)(Eigenschaft) – gibt die Beschriftungszeichenfolge eines Etiketts an.
 - [**Füllen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/fill) (Eigenschaft) – gibt die Füllfarbenattribute an.

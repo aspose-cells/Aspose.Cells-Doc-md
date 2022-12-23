@@ -7,7 +7,7 @@ url: /it/java/add-images-in-worksheet/
 ## **Aspose.Cells - Aggiungi immagini nel foglio di lavoro**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -44,7 +44,7 @@ pic.setPlacement(PlacementType.FREE_FLOATING);
 ## **Apache POI SS - HSSF XSSF - Aggiungi immagini nel foglio di lavoro**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

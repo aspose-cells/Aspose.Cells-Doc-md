@@ -6,13 +6,13 @@ url: /it/net/autofit-rows-and-columns/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel consente agli utenti di ridimensionare automaticamente la larghezza e l'altezza delle celle in base al suo contenuto. Questa funzione è disponibile anche tramite Aspose.Cells in modo che gli sviluppatori possano ridimensionare automaticamente le dimensioni di una cella in fase di esecuzione.
+Microsoft Excel consente agli utenti di ridimensionare automaticamente la larghezza e l'altezza delle celle in base al contenuto. Questa funzione è disponibile anche tramite Aspose.Cells in modo che gli sviluppatori possano ridimensionare automaticamente le dimensioni di una cella in fase di esecuzione.
 
 {{% /alert %}}
 
 ## **Montaggio automatico**
 
-Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe che rappresenta un file di Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro. Questo articolo esamina l'utilizzo di[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class per adattare automaticamente righe o colonne.
+Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)raccolta che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro. Questo articolo esamina l'utilizzo di[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class per adattare automaticamente righe o colonne.
 
 ### **Riga AutoFit - Semplice**
 
@@ -46,7 +46,7 @@ Aspose.Cells fornisce a[**Cartella di lavoro**](https://reference.aspose.com/cel
 
 ### **Adatta righe per unione Cells**
 
- Con Aspose.Cells è possibile adattare automaticamente le righe anche per le celle che sono state unite utilizzando il[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)API.[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)la classe fornisce[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) proprietà che può essere utilizzata per adattare automaticamente le righe per le celle unite.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)accetta[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerabile che ha i seguenti membri.
+ Con Aspose.Cells è possibile adattare automaticamente le righe anche per le celle che sono state unite utilizzando il[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions) API. [**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)la classe fornisce[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype) proprietà che può essere utilizzata per adattare automaticamente le righe per le celle unite.[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions/properties/autofitmergedcellstype)accetta[**AutoFitMergedCellsType**](https://reference.aspose.com/cells/net/aspose.cells/autofitmergedcellstype) enumerabile che ha i seguenti membri.
 
 - Nessuno: ignora le celle unite.
 - FirstLine: espande solo l'altezza della prima riga.
@@ -70,7 +70,7 @@ Le firme dei suddetti metodi sono le seguenti:
 
 {{% alert color="primary" %}}
 
- Se una cella viene unita, i metodi AutoFit non verranno applicati, che è lo stesso comportamento di Microsoft Excel. Puoi aggirare questo problema utilizzando l'API del filtro automatico. Inoltre, se il testo in una cella è avvolto, il file[**Adatta colonna**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metodo non sarà applicato neanche. Un'altra cosa che devi sapere è che il*Adatta automaticamente*metodi richiedono tempo. Quindi, dovresti chiamare questi metodi il meno possibile per garantire l'efficienza della tua applicazione.
+ Se una cella viene unita, i metodi AutoFit non verranno applicati, che è lo stesso comportamento di Microsoft Excel. Puoi aggirare questo problema utilizzando il filtro automatico API. Inoltre, se il testo in una cella è a capo, il[**Adatta colonna**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1) metodo non sarà applicato neanche. Un'altra cosa che devi sapere è che il*Adatta automaticamente*metodi richiedono tempo. Quindi, dovresti chiamare questi metodi il meno possibile per garantire l'efficienza della tua applicazione.
 
 {{% /alert %}}
 

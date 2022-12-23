@@ -6,7 +6,7 @@ url: /zh/java/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **可能的使用场景**
 
-Aspose.Cells API 提供了以图像格式呈现电子表格以及将其转换为 PDF 和 XPS 格式的工具。为了最大限度地提高转换保真度，电子表格中使用的字体必须在操作系统的默认字体目录中可用。如果所需字体不存在，则 Aspose.Cells API 将尝试用可用字体替换所需字体。
+Aspose.Cells API 提供了以图像格式呈现电子表格并将其转换为 PDF 和 XPS 格式的工具。为了最大限度地提高转换保真度，电子表格中使用的字体必须在操作系统的默认字体目录中可用。如果所需字体不存在，则 Aspose.Cells API 将尝试用可用字体替换所需字体。
 
 ## **字体选择**
 
@@ -14,14 +14,14 @@ Aspose.Cells API 提供了以图像格式呈现电子表格以及将其转换为
 
 1. API 尝试在文件系统中查找与电子表格中使用的确切字体名称匹配的字体。
 1. 如果 API 找不到名称完全相同的字体，它会尝试使用工作簿下指定的默认字体[**默认样式.字体**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)财产。
-1. 如果API找不到工作簿下定义的字体[**默认样式.字体**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)属性，它会尝试使用下面指定的字体[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont)或者[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont)财产。
-1. 如果API找不到下定义的字体[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont)或者[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont)属性，它会尝试使用下面指定的字体[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName)财产。
+1. 如果API找不到工作簿下定义的字体[**默认样式.字体**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font)属性，它会尝试使用下面指定的字体[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont)要么[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont)财产。
+1. 如果API找不到下定义的字体[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont)要么[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont)属性，它会尝试使用下面指定的字体[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName)财产。
 1. 如果API找不到下定义的字体[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName)属性，它会尝试从所有可用字体中选择最合适的字体。
 1. 最后，如果 API 在文件系统上找不到任何字体，它会使用 Arial 呈现电子表格。
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API 始终扫描操作系统的默认字体目录，但有一个例外，即：当 JVM 参数**-DAspose.Cells.FontDirExc="你的字体目录"**被设置。在这种情况下，Aspose.Cells API 将跳过扫描操作系统的默认字体目录，只搜索上述 JVM 参数中指定的路径。
+ Aspose.Cells API 始终扫描操作系统的默认字体目录，但有一个例外，即；当 JVM 参数**-DAspose.Cells.FontDirExc="你的字体目录"**被设置。在这种情况下，Aspose.Cells API 将跳过扫描操作系统的默认字体目录，只搜索上述 JVM 参数中指定的路径。
 
 {{% /alert %}}
 

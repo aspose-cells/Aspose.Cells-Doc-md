@@ -15,12 +15,12 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 19.2.
 |CELLSJAVA-42827|Zeile mit InsertOptions ähnlich wie bei MS Excel einfügen|Neue Funktion|
 |CELLSJAVA-42712|Erweitern Sie JavaDocs für Aspose.Cells for Java|Erweiterung|
 |CELLSJAVA-42823|Die Verwendung von FontUnderlineType.WORDS löst eine Ausnahme aus|Erweiterung|
-|CELLSJAVA-42826|Daten mit bedingter Formatierung werden bei der XLSX-zu-HTML-Konvertierung weggelassen|Insekt|
+|CELLSJAVA-42826|Daten mit bedingter Formatierung werden bei der Konvertierung von XLSX in HTML weggelassen|Insekt|
 |CELLSJAVA-42815|Das Hinzufügen eines komplexen Verweises auf einen definierten Namen führt zu einer beschädigten MS Excel-Arbeitsmappe|Insekt|
 |CELLSJAVA-42822|Cell.getValidationValue gibt einen falschen Wert für den angegebenen Wert zurück|Insekt|
 |CELLSJAVA-42829|Benutzerdefinierter Funktionsname in den freigegebenen Formeln durch einen anderen Namen ersetzt|Insekt|
-|CELLSJAVA-42824|Fehlende Achsentitel und andere Formatierungen von Diagrammen bei der Konvertierung von Excel in PDF/A sind falsch|Insekt|
-|CELLSJAVA-42814|Pfeile in der PNG-Ausgabe stimmen nicht mit den Pfeilen im Excel-Diagramm überein|Insekt|
+|CELLSJAVA-42824|Achsentitel fehlen und andere Formatierungen sind falsch von Diagrammen in Excel zu PDF/A Konvertierung|Insekt|
+|CELLSJAVA-42814|Pfeile in der Ausgabe von PNG stimmen nicht mit den Pfeilen im Excel-Diagramm überein|Insekt|
 |CELLSJAVA-42777|Die falsche Zeilenhöhe wurde geändert, während der Vorgang zum automatischen Anpassen von Zeilen verwendet wurde|Insekt|
 |CELLSJAVA-42813|Arbeitsmappeneinstellung „ReCalculateOnOpen“ nicht beibehalten|Insekt|
 |CELLSJAVA-42816|Unvollständige Anzeige für AutoFitterOptions.setAutoFitMergedCells(true)|Insekt|

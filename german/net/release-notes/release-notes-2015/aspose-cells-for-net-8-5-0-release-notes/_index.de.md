@@ -26,7 +26,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43682) – Die ExportDataTableAsString-Funktion sollte Zellwerte als StringValueWithoutFormat exportieren
 
- (CELLSNET-41619) – Revision von XLSB in XLSM konvertieren
+ (CELLSNET-41619) - Revision von XLSB in XLSM konvertieren
 
  (CELLSNET-40366) – So erfahren Sie, ob die Lizenz registriert ist
 
@@ -40,7 +40,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **Fehler**
 
 
- (CELLSNET-43702) – Tabelle nach dem Öffnen und Speichern der XLSX-Vorlagendatei beschädigt
+ (CELLSNET-43702) – Tabelle nach dem Öffnen und Speichern der Vorlagendatei XLSX beschädigt
 
  (CELLSNET-43669) – Das Hinzufügen von mehr als 14 Feldern zum Berichtsfilter der Pivot-Tabelle verursacht einen Fehler
 
@@ -50,13 +50,13 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43705) – Das Datumsformat ist in der PDF-Ausgabe unterschiedlich
 
- (CELLSNET-43658) – Fehler beim Berechnen der Zellenausnahme tritt beim Berechnen der Formel auf
+(CELLSNET-43658) – Fehler beim Berechnen der Zellenausnahme tritt beim Berechnen der Formel auf
 
-(CELLSNET-43329) - Die Berechnung der Formel mit SUMMEWENN ergibt ein anderes Ergebnis als Excel
+ (CELLSNET-43329) - Die Berechnung der Formel mit SUMMEWENN ergibt ein anderes Ergebnis als Excel
 
  (CELLSNET-42598) - Problem bei der Formelberechnung
 
- (CELLSNET-43715) - Cell Musterfüllung - Die PDF-Konvertierung erzeugt große Dateien
+ (CELLSNET-43715) - Cell Musterfüllung - PDF Konvertierung erzeugt große Dateien
 
  (CELLSNET-43694) – Die Textausrichtung geht verloren, wenn die Tabelle als Bild gerendert wird
 
@@ -66,19 +66,19 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43690) – Text wird unten abgeschnitten, während das Arbeitsblatt in ein Bild gerendert wird
 
- (CELLSNET-43676) – Ausgabe-PDF hat nicht die richtige Seitenzahl
+ (CELLSNET-43676) – Ausgabe PDF hat nicht die richtige Seitenzahl
 
- (CELLSNET-43672) – Schlechte Bildqualität beim Rendern des Arbeitsblatts in PNG
+ (CELLSNET-43672) – Schlechte Bildqualität beim Rendern des Arbeitsblatts auf PNG
 
- (CELLSNET-43661) – Text wird beim Rendern der Tabelle in PDF abgeschnitten
+ (CELLSNET-43661) – Text wird beim Rendern der Tabelle auf PDF abgeschnitten
 
  (CELLSNET-43644) – Text wird nicht korrekt gerendert
 
- (CELLSNET-43600) – Excel-Datei wird nicht richtig gerendert
+(CELLSNET-43600) – Excel-Datei wird nicht richtig gerendert
 
- (CELLSNET-43593) – Text steht über der Linie und andere Formatierungsprobleme in Excel zu PDF
+ (CELLSNET-43593) – Text steht über der Linie und andere Formatierungsprobleme in Excel bis PDF
 
-(CELLSNET-43481) - Cells mit hebräischen Wörtern hatte die RTL-Konsistenz verloren
+ (CELLSNET-43481) - Cells mit hebräischen Wörtern hatte die RTL-Konsistenz verloren
 
  (CELLSNET-43457) – Das arabische Währungssymbol befindet sich auf der falschen Seite
 
@@ -102,39 +102,39 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-42537) - Unterstreichen Sie Überlappungen mit einem doppelten unteren Rand
 
- (CELLSNET-42474) – Die Schriftgröße wurde nach der Konvertierung in PDF geändert
+(CELLSNET-42474) - Die Schriftgröße wurde nach der Konvertierung auf PDF geändert
 
  (CELLSNET-42260) - Vergleich von PDF generiert mit Aspose.Cells mit MS Excel
 
-(CELLSNET-41519) – Seiten werden beim Konvertieren von XLSX-Dateien in PDF nicht ausgerichtet
+ (CELLSNET-41519) – Seiten werden beim Konvertieren von XLSX-Datei in PDF nicht ausgerichtet
 
  (CELLSNET-43683) - Aspose 8.4.2 liest Diagrammeigenschaften falsch und wird vertauscht
 
- (CELLSNET-43680) – Legendenfarbe fehlt in der PDF-Ausgabedatei bei der Konvertierung von Excel in PDF
+ (CELLSNET-43680) – Legendenfarbe fehlt in der Ausgabedatei PDF in Excel in Konvertierung PDF
 
  (CELLSNET-43679) – Die horizontale X-Achsen-Skalierung des Diagramms fehlt im gerenderten PDF-Dateiformat
 
  (CELLSNET-43677) – Kategorieachse kann nicht auf eine Textachse gesetzt werden
 
- (CELLSNET-43668) – 3D-Kreisdiagramm wird bei der Excel-in-PDF-Konvertierung nicht korrekt gerendert
+ (CELLSNET-43668) – 3D-Kreisdiagramm wird in Excel nicht korrekt in PDF-Konvertierung gerendert
 
  (CELLSNET-43657) – Das Diagramm wird nach dem Speichern mit OoxmlSaveOptions.RefreshChartCache = true nicht korrekt generiert
 
  (CELLSNET-43648) – Bild vom Zellbezug wird abgeschnitten, wenn SheetRender.ToImage verwendet wird
 
- (CELLSNET-42922) – Führungslinien werden beim Rendern in das PDF-Dateiformat ausgeblendet
+(CELLSNET-42922) – Führungslinien werden beim Rendern in das Dateiformat PDF ausgeblendet
 
- (CELLSNET-42376) – Text wird von TextBox abgeschnitten, während XLSX in PDF gerendert wird
+ (CELLSNET-42376) – Text wird von TextBox abgeschnitten, während XLSX zu PDF gerendert wird
 
- (CELLSNET-42369) – PDF wird nicht richtig gerendert
+ (CELLSNET-42369) - PDF wird nicht richtig gerendert
 
-(CELLSNET-43714) – Das benutzerdefinierte Menüband wird entfernt, wenn die XLSM-Datei verarbeitet wird
+ (CELLSNET-43714) – Das benutzerdefinierte Menüband wird entfernt, wenn die Datei XLSM verarbeitet wird
 
  (CELLSNET-43711) – Neu eingefügtes Bild im Arbeitsblatt wird vertikal gestreckt
 
  (CELLSNET-43665) – Beim Speichern von XLS in XLSX wurden die TextBoxen aus dem Arbeitsblatt entfernt
 
- (CELLSNET-43664) – Das Euro-Symbol wird beim Speichern als ODS in ein Dollarzeichen geändert
+ (CELLSNET-43664) – Das Euro-Symbol wird in ein Dollarzeichen geändert, wenn es als ODS gespeichert wird
 
  (CELLSNET-43659) - Einige Linienstile sind unterschiedlich
 
@@ -142,13 +142,13 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43649) – IsEncrypted ist „false“ für .xlsx, aber „true“ für .xls
 
-(CELLSNET-43641) – Problem mit der Berechnung von Formeln, wenn die iterative Berechnung aktiviert ist
+ (CELLSNET-43641) – Problem mit der Berechnung von Formeln, wenn die iterative Berechnung aktiviert ist
 
  (CELLSNET-43618) – Der Wert wird von Aspose.Cells-APIs nicht korrekt abgerufen
 
  (CELLSNET-42995) – Workbook.HasRevisions ist wahr, hat aber keine Revisionen
 
- (CELLSNET-41753) – Excel hat unlesbaren Inhalt in ToolExample_Revised.xlsm gefunden
+(CELLSNET-41753) – Excel hat unlesbaren Inhalt in ToolExample_Revised.xlsm gefunden
 
 
 ## **Ausnahmen**
@@ -158,7 +158,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -172,7 +172,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **Fehler**
 
 
-(CELLSNET-43688) – Die Zeilenhöhe für einige verbundene Zellen ist nicht korrekt, wenn die Datei in das GridDesktop-Steuerelement geladen wird
+ (CELLSNET-43688) – Die Zeilenhöhe für einige verbundene Zellen ist nicht korrekt, wenn die Datei in das GridDesktop-Steuerelement geladen wird
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -188,7 +188,7 @@ url: /de/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-Fügt die Eigenschaft SheetRender.PageScale hinzu.
+ Fügt die Eigenschaft SheetRender.PageScale hinzu.
 
  Es wird verwendet, um den berechneten Seitenmaßstab des Blatts zu erhalten.
 
@@ -219,13 +219,13 @@ Fügt Methoden zum Berechnen von Formeln mit CalculationOptions hinzu: Cell.Calc
 
 
 
- Fügt Methoden hinzu: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Fügt Methoden hinzu: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Erlauben Sie dem Benutzer, Daten von einer Referenz abzurufen.
 
 
 
-Änderungen für Parameter von ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
+ Änderungen für Parameter von ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
  Jetzt fügen wir das ReferredArea-Objekt in "paramsList" ein, anstatt den Wert oder das Werte-Array des referenzierten Bereichs, wenn der entsprechende Parameter eine Referenz ist oder sein berechnetes Ergebnis eine Referenz ist. Und wir entfernen ReferredAreaCollection aus contextObjects.
 

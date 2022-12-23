@@ -20,9 +20,9 @@ När du läser mallfiler analyserar komponenten varje cell och ger deras värde 
 
 I båda procedurerna bearbetas ett Cell-objekt och kasseras sedan, Workbook-objektet innehåller inte samlingen. I detta läge sparas därför minne vid import och export av Microsoft Excel-fil som har en stor datamängd som annars skulle använda mycket minne.
 
-Även om LightCells API bearbetar cellerna på samma sätt för XLSX- och XLS-filer (den laddar faktiskt inte alla celler i minnet utan bearbetar en cell och kasserar den), sparar den minne mer effektivt för XLSX-filer än XLS-filer på grund av de olika datamodellerna och strukturerna för de två formaten.
+Även om LightCells API bearbetar cellerna på samma sätt för XLSX- och XLS-filer (den laddar faktiskt inte alla celler i minnet utan bearbetar en cell och kasserar den), sparar den minnet mer effektivt för XLSX filer på grund av 4 än 4811 filer de olika datamodellerna och strukturerna för de två formaten.
 
- I alla fall,**för XLS-filer** , för att spara mer minne kan utvecklare ange en tillfällig plats för att spara temporär data som genereras under Spara-processen. Vanligen,**att använda LightCells API för att spara XLSX-fil kan spara 50 % eller mer minne** än att använda det vanliga sättet,**Att spara XLS kan spara cirka 20-40 % minne**.
+ I alla fall,**för XLS filer** , för att spara mer minne kan utvecklare ange en tillfällig plats för att spara temporär data som genereras under Spara-processen. Vanligen,**att använda LightCells API för att spara XLSX fil kan spara 50 % eller mer minne** än att använda det vanliga sättet,**Att spara XLS kan spara cirka 20-40 % minne**.
 
 ### **Skriva stora Excel-filer**
 

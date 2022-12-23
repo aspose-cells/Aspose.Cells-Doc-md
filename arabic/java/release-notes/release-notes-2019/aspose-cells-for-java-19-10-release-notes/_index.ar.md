@@ -14,9 +14,9 @@ url: /ar/java/aspose-cells-for-java-19-10-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41814|دعم فرز البيانات المخصصة لمنطقة معينة في تقرير PivotTable|ميزة جديدة|
 |CELLSJAVA-42988|مشكلة في الأداء مع calculateFormula ()|التعزيز|
-|CELLSJAVA-41103|لا يتم عرض تلوين وتنسيق بيانات الجدول المحوري بشكل صحيح|حشرة|
-|CELLSJAVA-43007|لم يتم إنشاء PDF كما هو متوقع|حشرة|
-|CELLSJAVA-43025|Cell.getStyle.getCustom تقوم بإرجاع تنسيق خاطئ للغة الألمانية|حشرة|
+|CELLSJAVA-41103|لا يتم عرض تلوين وتنسيق بيانات الجدول المحوري بشكل صحيح|خلل برمجي|
+|CELLSJAVA-43007|لم يتم تكوين PDF كما هو متوقع|خلل برمجي|
+|CELLSJAVA-43025|Cell.getStyle.getCustom تقوم بإرجاع تنسيق خاطئ للغة الألمانية|خلل برمجي|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException أثناء تحميل ملف Excel|استثناء|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

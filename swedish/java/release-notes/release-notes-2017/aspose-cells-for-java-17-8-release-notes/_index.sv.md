@@ -15,7 +15,7 @@ url: /sv/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42356|Lägg till en egenskap för att indikera om en tom sida ska matas ut eller inte när det inte finns något att skriva ut|Ny funktion|
 |CELLSJAVA-42322|Stöd för avancerad filterfunktion (MS Excel) för att visa poster som uppfyller komplexa kriterier|Ny funktion|
 |CELLSJAVA-42341|InterruptMonitor tar längre tid att avbryta arbetsboksparandet för en stor fil med pivottabell|Förbättring|
-|CELLSJAVA-42358|Formel visas inte i den resulterande PDF-filen|Förbättring|
+|CELLSJAVA-42358|Formel visas inte i den resulterande PDF|Förbättring|
 |CELLSJAVA-42351|WEEKDAY-formeln returnerar fel värde vid beräkning av arbetsboksformel|Förbättring|
 |CELLSJAVA-42332|Aspose.Cells kan inte konvertera HTML-filen korrekt medan MS-Excel kan konvertera den korrekt|Insekt|
 |CELLSJAVA-42355|För nummer 39 formaterar MS Excel negativt värde med '-' istället för '()' för Italien|Insekt|
@@ -25,13 +25,13 @@ url: /sv/java/aspose-cells-for-java-17-8-release-notes/
 |CELLSJAVA-42352|Shape uppdateras inte med korrekt värde|Insekt|
 |CELLSJAVA-42349|Excel till PDF-konvertering hängde för en XLSX-fil|Insekt|
 |CELLSJAVA-42348|Det går inte att importera XLSB-fil (med Aspose.Cells API:er) till MS-Access-databasen|Insekt|
-|CELLSJAVA-42357|Undantag uppstår när en Excel-fil sparas i HTML-format|Undantag|
+|CELLSJAVA-42357|Undantag uppstår när en Excel-fil sparas i formatet HTML|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen HtmlSaveOptions.IsExportComments**
-Anger om du exporterar kommentarer när filen sparas till HTML, standardvärdet är falskt.
+Indikerar om kommentarer exporteras när filen sparas till HTML, standardvärdet är falskt.
 ### **Lägger till egenskapen HtmlSaveOptions.DisableDownlevelRevealedComments**
-Indikerar om inaktivera Downlevel-avslöjade villkorliga kommentarer vid export av fil till HTML, standardvärdet är false.
+Indikerar om inaktivera Downlevel-avslöjade villkorliga kommentarer vid export av fil till HTML, standardvärdet är falskt.
 ### **Lägger till klassen CustomImplementationFactory**
 Ger API för användaren att utöka/förbättra komponentens förmåga med några speciella implementeringar för vissa speciella situationer. För närvarande finns det ingen anpassad implementering som stöds for Java version.
 ### **Lägger till egenskapen CellsHelper.CustomImplementationFactory**
@@ -44,7 +44,7 @@ Indikerar om en tom sida ska matas ut när det inte finns något att skriva ut.
 Skapar ett kommentarsobjekt för en cell.
 ### **Lägger till metoden GridCell.RemoveComment**
 Tar bort kommentarobjektet från cellen.
-### **Lägger till GridCell.GetComment-metoden**
+### **Lägger till metoden GridCell.GetComment**
 Hämtar kommentarobjekt på den här cellen.
 
 

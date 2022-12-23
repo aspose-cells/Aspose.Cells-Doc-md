@@ -37,23 +37,23 @@ Führen Sie nach dem Herunterladen die folgenden Schritte aus, um das Modul auf 
 1.  Navigieren Sie zu**Gastgeber** Menü und auswählen**Erweiterungen**.
 1.  Klicken**Erweiterungsassistent installieren**.
 1. Navigieren Sie wie angegeben zum Speicherort der heruntergeladenen ZIP-Datei, wählen Sie sie aus und klicken Sie darauf**Offen**.
-1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Taste.
+1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Knopf.
 
- Bitte prüfen[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
+ Bitte prüfe[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
 ## **Verwenden**
 Nachdem Sie das Aspose .NET Cells Import Users from Excel for DNN-Modul installiert haben, ist es wirklich einfach, es auf Ihrer Website zu verwenden. Bitte befolgen Sie diese einfachen Schritte, um loszulegen:
 
 1. Stellen Sie sicher, dass Sie mit einem Konto auf Host- oder Admin-Ebene bei DNN angemeldet sind.
 1. Navigieren Sie zu der Seite, auf der Sie das Exportmodul hinzufügen möchten.
-1.  Auswählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
+1.  Wählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
 
 1. Wählen Sie aus der Liste „Aspose Import Users from Excel module for DNN“ und ziehen Sie es an die gewünschte Position.
 
 Sie haben erfolgreich Aspose .NET Cells Import Users from Excel module for DNN module zu Ihrer Seite hinzugefügt. Die Steuerelemente zum Hochladen von Dateien werden zusammen mit dem Link „Vorlagendatei“ angezeigt. Sie können eine Vorlagendatei herunterladen und Ihre Inhalte gemäß der Vorlagendatei formatieren. Sobald Sie Ihre Excel-Datei hochgeladen haben, verarbeitet sie automatisch alle Benutzer und filtert vorhandene Benutzer heraus. Sie können die Benutzer auswählen, die Sie importieren möchten, und auf die Schaltfläche „Benutzer importieren“ klicken.
 ## **Video-Demo**
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=7CN-tz1nYvo) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=7CN-tz1nYvo) unten, um das Modul in Aktion zu sehen.
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.

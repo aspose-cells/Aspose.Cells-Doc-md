@@ -15,11 +15,11 @@ Auf dieser Seite erfahren Sie, wie Sie Aspose Cells for C++ installieren und ein
 
 ### **Installieren Sie Aspose Cells bis NuGet**
 
-NuGet ist der einfachste Weg, Aspose.Cells for C++ herunterzuladen und zu installieren.
+ NuGet ist der einfachste Weg, Aspose.Cells for C++ herunterzuladen und zu installieren.
 1. Erstellen Sie ein Microsoft Visual Studio-Projekt for C++.
 2. Header-Datei "Aspose.Cells.h" einbinden.
 3. Öffnen Sie Microsoft Visual Studio und NuGet Paket-Manager.
- 4. Suchen Sie „aspose.cells.cpp“, um die gewünschte Aspose.Cells for C++ zu finden.
+4. Suchen Sie „aspose.cells.cpp“, um die gewünschte Aspose.Cells for C++ zu finden.
 5. Klicken Sie auf „Installieren“, Aspose.Cells for C++ wird heruntergeladen und in Ihrem Projekt referenziert.
 
 **![Installieren Sie Aspose Cells bis NuGet](InstallThroughNuget.png)**

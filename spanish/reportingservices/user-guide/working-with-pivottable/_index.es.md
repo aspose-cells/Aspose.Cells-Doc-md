@@ -64,7 +64,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  En Microsoft Excel, de la**Insertar** menú, seleccione**Nombre** y entonces**Definir**.
+1.  En Microsoft Excel, de la**Insertar** menú, seleccione**Nombre** y luego**Definir**.
 1. Defina un nombre como "ventas".
  El rango del nombre comienza con la primera celda del título del encabezado y termina en la última celda de la fila de datos de la tabla, como se muestra a continuación.
 
@@ -73,12 +73,12 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  Hacer clic**OK** para terminar.
+1.  Hacer clic**DE ACUERDO** para terminar.
 1. Cree una nueva hoja para la tabla dinámica.
 1.  Desde el**Datos** menú, seleccione**Informe de tabla dinámica y gráfico dinámico** para agregar una tabla dinámica.
  Se muestra un cuadro de diálogo.
 1.  Seleccione**Microsoft Lista o base de datos de Office Excel** como fuente de datos y**tabla dinámica** como tipo de informe.
-1.  Hacer clic**próximo** continuar.
+1.  Hacer clic**Próximo** continuar.
 
 ![todo:imagen_alternativa_texto](working-with-pivottable_3.png)
 
@@ -86,7 +86,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 1. En el cuadro de diálogo, ingrese "ventas", el nombre que definió anteriormente.
-1.  Hacer clic**próximo** continuar.
+1.  Hacer clic**Próximo** continuar.
 
 ![todo:imagen_alternativa_texto](working-with-pivottable_4.png)
 

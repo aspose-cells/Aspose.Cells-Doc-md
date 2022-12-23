@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-5-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47964| Prise en charge de la liaison Slicer Report avec tableau croisé dynamique et tableau croisé dynamique|Nouvelle fonctionnalité|
 |CELLSNET-48003|Prise en charge de l'importation de code HTML gratuit avec image svg|Nouvelle fonctionnalité|
@@ -25,7 +25,7 @@ url: /fr/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|Nouveau classeur bloqué sur un fichier non valide|Performance|
 |CELLSNET-48012|Améliorez les performances de lecture du fichier .ods avec une large gamme de validations.|Performance|
 |CELLSNET-48039|Boucle infinie lors de l'enregistrement du classeur copié|Performance|
-|CELLSNET-44224|Le filigrane WordArt n'est pas rendu dans le format de fichier PDF de sortie|Punaise|
+|CELLSNET-44224|Le filigrane WordArt n'est pas rendu dans le format de fichier de sortie PDF|Punaise|
 |CELLSNET-47887|Le texte à l'intérieur de la forme est mal placé|Punaise|
 |CELLSNET-47920|Certains contenus sont manquants dans la conversion HTML vers Excel|Punaise|
 |CELLSNET-47981|Le résultat de l'exportation de la plage avec des cellules fusionnées vers html est incorrect|Punaise|
@@ -38,10 +38,10 @@ url: /fr/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|Valeur incorrecte 'TRUE' extraite de Cell au lieu de la valeur 'FALSE'|Punaise|
 |CELLSNET-48042|Les valeurs de cellule formatées récupérées sont incorrectes dans la feuille de calcul Excel|Punaise|
 |CELLSNET-48031|"Erreur de forme à l'image" se déclenche lors de la conversion du fichier xlsx en html|Punaise|
-|CELLSNET-48037|L'image est déformée lors de l'enregistrement au format PDF|Punaise|
+|CELLSNET-48037|L'image est déformée lors de l'enregistrement au PDF|Punaise|
 |CELLSNET-47714|Le texte dans l'axe vertical chevauche l'axe horizontal sur le graphique lors de la conversion en EMF|Punaise|
-|CELLSNET-47856|Problème de conversion XLSX en PDF avec des tableaux croisés dynamiques|Punaise|
-|CELLSNET-47986|Graphique vers image/PDF - mauvaise sortie avec le type de graphique en cascade|Punaise|
+|CELLSNET-47856|Problème de conversion XLSX à PDF avec les tableaux croisés dynamiques|Punaise|
+|CELLSNET-47986|Graphique vers Image/PDF - mauvaise sortie avec le type de graphique en cascade|Punaise|
 |CELLSNET-48010|Exception lors du chargement d'un fichier Excel 2010 XLSX|Punaise|
 |CELLSNET-48020|Les contrôles de formulaire sont supprimés après Load & Save Excel 95 via Aspose.Cells|Punaise|
 |CELLSNET-48033|Fichier Excel corrompu après chargement et enregistrement|Punaise|
@@ -52,11 +52,11 @@ url: /fr/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-48034|Taille de police non valide dans le fichier Mht.|Exception|
 |CELLSNET-47977|Exception lors de l'analyse de la formule '[96]Cost Sheet' !$D$6|Exception|
 |CELLSNET-47979|Exception de référence d'objet sur la méthode Save|Exception|
-|CELLSNET-48040|Exception levée lors de la conversion de XLSB en XLSX|Exception|
+|CELLSNET-48040|L'exception se déclenche lors de la conversion de XLSB en XLSX|Exception|
 |CELLSNET-47980|Une erreur s'est produite lors de l'enregistrement d'un fichier Excel par Aspose.Cells|Exception|
 |CELLSNET-48001|Exception d'index de ligne non valide lors de l'appel de GetPrintingPageBreaks()|Exception|
 |CELLSNET-48022|Border.LineType inattendu d'une cellule|Exception|
-|CELLSNET-48032|Exception lors de l'ouverture du fichier ODS du document|Exception|
+|CELLSNET-48032|Exception lors de l'ouverture du fichier document ODS|Exception|
 |
 
 
@@ -295,7 +295,7 @@ Utilisez plutôt l'énumération SaveFormat.Svg.
 ### **Obsolète l'énumération LoadFormat.TSV et ajoute l'énumération LoadFormat.Tsv.**
 
  
-Utilisez plutôt l'énumération LoadFormat.Tsv.
+ Utilisez plutôt l'énumération LoadFormat.Tsv.
 
 ### **Obsolète l'énumération LoadFormat.ODS et ajoute l'énumération LoadFormat.Ods.**
 

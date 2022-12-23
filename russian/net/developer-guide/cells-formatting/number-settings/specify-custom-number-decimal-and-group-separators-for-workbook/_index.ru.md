@@ -10,7 +10,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
  В Microsoft Excel вы можете указать пользовательские десятичные разделители и разделители тысяч вместо использования системных разделителей из**Расширенные параметры Excel** как показано на скриншоте ниже.
 
- Aspose.Cells обеспечивает[**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator) а также[**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator) свойства, чтобы установить пользовательские разделители для форматирования/анализа чисел.
+ Aspose.Cells обеспечивает[**WorkbookSettings.NumberDecimalSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numberdecimalseparator) и[**WorkbookSettings.NumberGroupSeparator**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/numbergroupseparator) свойства, чтобы установить пользовательские разделители для форматирования/анализа чисел.
 
 {{% /alert %}}
 

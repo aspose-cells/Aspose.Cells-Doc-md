@@ -10,7 +10,7 @@ Parfois, vous souhaitez connaître le type de valeurs X et Y des points du graph
 
 ## **Trouver le type de valeurs X et Y des points dans la série de graphiques**
 
-L'exemple de code suivant charge le[exemple de fichier Excel](64716920.xlsx)et accède au premier graphique à l'intérieur de la première feuille de calcul. Il appelle ensuite le[**Graphique.calculer()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()et trouve le type des valeurs X et Y du premier point du graphique et les imprime sur la console. Veuillez consulter la sortie de la console ci-dessous pour référence.
+L'exemple de code suivant charge le[exemple de fichier Excel](64716920.xlsx)et accède au premier graphique à l'intérieur de la première feuille de calcul. Il appelle alors le[**Graphique.calculer()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()et trouve le type des valeurs X et Y du premier point du graphique et les imprime sur la console. Veuillez consulter la sortie de la console ci-dessous pour référence.
 
 ## **Exemple de code**
 

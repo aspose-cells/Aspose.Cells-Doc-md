@@ -13,7 +13,7 @@ url: /ja/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44482 |保護されたビューでスプレッドシートを保存するオプションを提供する|新機能|
 |CELLSNET-44385 |Excel テキスト ボックスの文字間隔を変更する|新機能|
 |CELLSNET-41013 |「WithoutChart」読み込みオプションのサポート|新機能|
-|CELLSNET-44502 |Excel から HTML への変換でグリッドラインをサポート|強化|
+|CELLSNET-44502 |Excel から HTML への変換の枠線をサポート|強化|
 |CELLSNET-44525 |ICustomFunction および CalculationData.CalculatedValue の実装によって返される 10 進数値をサポートします。|強化|
 |CELLSNET-44492 |シミュレートされた太字フォントの印刷品質が良くない|強化|
 |CELLSNET-44530 |Comment プロパティを ListObject/Table に追加|強化|
@@ -24,20 +24,20 @@ url: /ja/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44514 |データを更新するときの PivotItem.IsHidden の問題|バグ|
 |CELLSNET-44513 |Html を Excel にエクスポート - テキスト「!A1」がリンクの末尾に追加されました|バグ|
 |CELLSNET-44500 |ピボット テーブルを更新してワークブックをコピーすると、ファイルが破損する|バグ|
-|CELLSNET-44470 |Cell スプレッドシートを HTML に変換するときにシェーディングが均一に適用されない|バグ|
+|CELLSNET-44470 |Cell スプレッドシートを HTML に変換する際に、シェーディングが均一に適用されない|バグ|
 |CELLSNET-44467 |HTML に 'div' 要素がネストされている場合、すべての HTML コンテンツを Excel にエクスポートできない|バグ|
 |CELLSNET-44490 |カスタム時間形式の問題|バグ|
 |CELLSNET-44201 | CHAR 式でサポートされていない chars インデックスに関する問題|バグ|
-|CELLSNET-44521 |Excel の印刷プレビューとは対照的に、PDF への変換は 2 つの PDF ページになります。|バグ|
-|CELLSNET-44489 | Excel から PDF への変換 - 書式設定で両端揃えの文字が失われる|バグ|
+|CELLSNET-44521 |PDF に変換すると、Excel の印刷プレビューとは対照的に 2 PDF ページになります|バグ|
+|CELLSNET-44489 |Excel から PDF への変換 - 書式設定で両端揃えの文字が失われる|バグ|
 |CELLSNET-44481 |Excel から PDF へのレンダリング - 改ページ位置が変更されました|バグ|
 |CELLSNET-44531 |Aspose.Cells は、同じワークシートをセッション 1 とセッション 0 で異なるサイズの画像にレンダリングします|バグ|
 |CELLSNET-44491 |システムにインストールされていないフォントが TextBox で機能しない|バグ|
 |CELLSNET-44433 |元のグラフとは異なる方法でレンダリングされた画像|バグ|
 |CELLSNET-44074 |チャートを画像にエクスポートする際にチャートに不要な線が表示される|バグ|
 |CELLSNET-44012 |グラフの画像はソースとは異なります|バグ|
-|CELLSNET-40572 |PDF に変換するとグラフ領域が意味不明になる .NET|バグ|
-|CELLSNET-44536 | Aspose.Cells がグラフ タイトルのフォント サイズを正しく認識しない|バグ|
+|CELLSNET-40572 |PDF .NET に変換するとグラフ領域が意味不明になる|バグ|
+|CELLSNET-44536 |Aspose.Cells がグラフ タイトルのフォント サイズを正しく認識しない|バグ|
 |CELLSNET-44522 |テンプレート ファイルからテキストをシェイプに設定します。|バグ|
 |CELLSNET-44519 | 2 次元配列をテーブルにインポートした後、テーブル内の参照が壊れる|バグ|
 |CELLSNET-44511 |ファイルを操作した後、テーブル内の参照が壊れる|バグ|
@@ -46,14 +46,14 @@ url: /ja/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44505 |Cell INDIRECT 関数では検証が正しく機能しません|バグ|
 |CELLSNET-44498 |トルコ語ロケールでスプレッドシートを PDF に変換すると、ヘッダー行が繰り返されない|バグ|
 |CELLSNET-44496 |OTT は ODS として検出されます|バグ|
-|CELLSNET-44494 |TextBox.IsFilled は false に設定されていますが、OpenOffice で ODS を表示すると塗りつぶしが水色で表示されます|バグ|
+|CELLSNET-44494 |TextBox.IsFilled が false に設定されているが、OpenOffice で ODS を表示すると塗りつぶしが水色で表示される|バグ|
 |CELLSNET-44488 |shape.UpdateSelectedValue の後でファイルが破損する|バグ|
 |CELLSNET-44329 |Excel ファイル内の選択されたセルまたは選択されていないセルの保存された Pdf ファイルのページ サイズが異なる|バグ|
 |CELLSNET-44271 |ODS から PDF: 最初の 2 ページに青い影が含まれています|バグ|
 |CELLSNET-44172 |8.6.1 および 8.6.3 でピボット テーブルを使用した場合のスマート マーカー処理の動作の変更|バグ|
 |CELLSNET-44493 |ArgumentException: フォーム コントロールのサイズ変更中にパラメータが無効です|バグ|
 |CELLSNET-44528 |PivotTable.CalculateData の ArgumentOutOfRangeException|例外|
-|CELLSNET-44526 |例外: 「入力文字列の形式が正しくありませんでした。」 HTML ファイル形式の読み込み時|例外|
+|CELLSNET-44526 |例外: 「入力文字列の形式が正しくありませんでした。」 HTML ファイル形式をロードするとき|例外|
 |CELLSNET-44534 |Workbook.Save メソッドの例外。|例外|
 |CELLSNET-41993 | WorkbookDesigner.Process() の呼び出し時の例外|例外|
 ### **2) Aspose.Cells グリッドスイート**

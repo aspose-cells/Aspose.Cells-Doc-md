@@ -1,5 +1,5 @@
 ﻿---
-title: Renderizza i caratteri supplementari Unicode nel PDF di output di Aspose.Cells
+title: Renderizza i caratteri supplementari Unicode nell'output PDF per Aspose.Cells
 type: docs
 weight: 690
 url: /it/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -14,8 +14,8 @@ Nello standard dei caratteri Unicode, i caratteri supplementari sono i caratteri
 - In UTF-16 questi caratteri richiedono 2 surrogati (unità a 16 bit).
 
 {{% /alert %}} 
-## **Renderizza i caratteri supplementari Unicode nel PDF di output di Aspose.Cells**
- Lo screenshot seguente mostra come Aspose.Cells ha reso il file[file excel di origine](5473390.xlsx) dentro[uscita PDF](5473391.pdf)Come puoi vedere, tutti e tre i caratteri supplementari Unicode sono stati resi esattamente come quelli di Microsoft Excel.
+## **Renderizza i caratteri supplementari Unicode nell'output PDF per Aspose.Cells**
+ Lo screenshot seguente mostra come Aspose.Cells ha reso il file[file excel di origine](5473390.xlsx) dentro[uscita PDF](5473391.pdf). Come puoi vedere, tutti e tre i caratteri supplementari Unicode sono stati resi esattamente come da Microsoft Excel.
 
 ![cose da fare:immagine_alt_testo](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 

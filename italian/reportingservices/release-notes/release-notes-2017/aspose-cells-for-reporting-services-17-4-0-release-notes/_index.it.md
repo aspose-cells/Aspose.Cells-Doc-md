@@ -10,7 +10,7 @@ url: /it/reportingservices/aspose-cells-for-reporting-services-17-4-0-release-no
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-497|Supporta i grafici MS Excel 2016 per lavorare con Aspose.Cells for Reporting Services Report Designer|Nuova caratteristica|
 |CELLSRS-498|Supporto per l'integrazione nei servizi di reportistica di business intelligence in Visual Studio 2013|Nuova caratteristica|

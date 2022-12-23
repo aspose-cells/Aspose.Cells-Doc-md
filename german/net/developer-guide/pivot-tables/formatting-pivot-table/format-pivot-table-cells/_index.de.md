@@ -16,7 +16,7 @@ Der folgende Beispielcode formatiert die gesamte Pivot-Tabelle hellblau und form
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FormatPivotTableCells-1.cs" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Pivot-Tabelle formatieren](/cells/de/net/formatting-pivot-table/)
 - [Arbeiten mit Datenanzeigeformaten von DataField in Pivot-Tabellen](/cells/de/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

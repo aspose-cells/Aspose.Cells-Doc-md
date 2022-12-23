@@ -6,7 +6,7 @@ url: /zh/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 ---
 ## **可能的使用场景**
  Aspose.Cells API暴露了[全球化设置](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)类以处理用户希望在电子表格中为小计使用自定义标签的场景。此外，[全球化设置](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)类也可以用来修改**其他**呈现工作表或图表时饼图的标签。
-## **GlobalizationSettings 类介绍**
+## **GlobalizationSettings 类简介**
 这[全球化设置](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)类目前提供以下 3 种方法，可以在自定义类中重写这些方法以获得小计所需的标签或呈现自定义文本**其他**饼图的标签。
 
 1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): 获取函数的总名称。
@@ -48,4 +48,4 @@ url: /zh/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 
 以下是机器的区域设置为法国时的结果图像。如您所见，标签“Other”已被翻译为“Autre”，如中所定义*自定义设置*班级。
 
-![待办事项：图像_替代_文本](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+![待办事项：图片_替代_文本](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

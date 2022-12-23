@@ -3,18 +3,18 @@ title: Unisci più fogli di lavoro in un unico foglio di lavoro
 type: docs
 weight: 70
 url: /it/java/combine-multiple-worksheets-into-a-single-worksheet/
-description: Combina più fogli di lavoro in un singolo foglio di lavoro utilizzando il codice Java e l'API Aspose.Cells for Java.
+description: Combina più fogli di lavoro in un singolo foglio di lavoro utilizzando il codice Java e Aspose.Cells for Java API.
 keywords: combine multiple worksheets into one, combine multiple worksheets into one java, combine multiple worksheets into one with java, combine multiple worksheets into single worksheet with java, combine multiple worksheets into single worksheet java, java code to combine multiple worksheets into single worksheet, how to combine multiple worksheets into single worksheet with java, how to combine multiple worksheets into one with java, merge multiple worksheets into one with java, how to merge multiple worksheets into one java, how to merge multiple worksheets into one with java
 ---
 {{% alert color="primary" %}}
 
-A volte, è necessario combinare più fogli di lavoro in un unico foglio di lavoro. Ciò può essere facilmente ottenuto utilizzando l'API Aspose.Cells. Questo articolo ti mostrerà un esempio di codice che legge una cartella di lavoro di origine e combina i dati di tutti i fogli di lavoro di origine in un singolo foglio di lavoro all'interno di una cartella di lavoro di destinazione.
+A volte, è necessario combinare più fogli di lavoro in un unico foglio di lavoro. Ciò può essere facilmente ottenuto utilizzando Aspose.Cells API. Questo articolo ti mostrerà un esempio di codice che legge una cartella di lavoro di origine e combina i dati di tutti i fogli di lavoro di origine in un singolo foglio di lavoro all'interno di una cartella di lavoro di destinazione.
 
 {{% /alert %}}
 
 ## **Combinazione di fogli di lavoro**
 
- L'esempio seguente utilizza il[**Intervallo.copia()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) per copiare tutti i fogli di lavoro di origine in un singolo foglio all'interno di una cartella di lavoro di destinazione.
+ L'esempio seguente utilizza il[**Intervallo.copia()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)per copiare tutti i fogli di lavoro di origine in un singolo foglio all'interno di una cartella di lavoro di destinazione.
 
 ### **Cartella di lavoro di origine**
 

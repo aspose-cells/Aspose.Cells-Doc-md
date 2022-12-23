@@ -6,11 +6,11 @@ url: /it/net/export-excel-to-html-with-gridlines/
 ---
 {{% alert color="primary" %}} 
 
- Se desideri esportare il tuo file Excel in HTML con GridLines, utilizza il file[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) proprietà e impostarla**VERO**.
+ Se desideri esportare il tuo file Excel in HTML con GridLines, utilizza il[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) proprietà e impostarla**VERO**.
 
 {{% /alert %}} 
 ## **Esporta Excel in HTML con GridLines**
- Il seguente codice di esempio crea una cartella di lavoro e riempie il suo foglio di lavoro con alcuni valori e quindi lo salva in formato HTML dopo aver impostato il[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) a**VERO**.
+Il seguente codice di esempio crea una cartella di lavoro e riempie il suo foglio di lavoro con alcuni valori e quindi lo salva nel formato HTML dopo aver impostato il[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) a**VERO**.
 
 
 

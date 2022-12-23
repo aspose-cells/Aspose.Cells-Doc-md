@@ -12,7 +12,7 @@ url: /ru/python-java/creating-a-list-object/
 
 - Новые строки и столбцы включаются автоматически.
 - Итоговую строку в нижней части списка можно легко добавить для отображения СУММЫ, СРЕДНЕГО, СЧЕТА и т. д.
-- Столбцы, добавленные справа, автоматически включаются в объект List.
+- Столбцы, добавленные справа, автоматически включаются в объект списка.
 - Диаграммы на основе строк и столбцов будут расширены автоматически.
 - Именованные диапазоны, назначенные строкам и столбцам, будут расширены автоматически.
 - Список защищен от случайного удаления строк и столбцов.
@@ -29,7 +29,7 @@ url: /ru/python-java/creating-a-list-object/
 
 ![дело:изображение_альтернативный_текст](picture2.png)
 
-Реализация объекта List и указание строки итогов (Select**Данные**, тогда**Список**, с последующим**Итоговая строка**).
+Реализация объекта List и указание строки итогов (Select**Данные**, тогда**Список**с последующим**Итоговая строка**).
 
 **Создание объекта списка** 
 
@@ -39,7 +39,7 @@ url: /ru/python-java/creating-a-list-object/
 
 Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
 
-Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы создать[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)на листе используйте[**СписокОбъектов**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)коллекционное имущество г.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс. Каждый[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)фактически является объектом[**КоллекцияОбъектовСписка**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)класс, который дополнительно обеспечивает[**добавлять**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) для добавления объекта List и указания диапазона ячеек для списка.
+Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Класс предоставляет широкий спектр свойств и методов для управления рабочим листом. Чтобы создать[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)на листе используйте[**СписокОбъектов**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)коллекционное имущество г.[**Рабочий лист**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)учебный класс. Каждый[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)фактически является объектом[**КоллекцияОбъектовСписка**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)класс, который дополнительно обеспечивает[**Добавлять**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean)) для добавления объекта List и указания диапазона ячеек для списка.
 
 В соответствии с указанным диапазоном ячеек объект List создается на листе по номеру Aspose.Cells. Используйте атрибуты (например, ShowTotals, ListColumns и т. д.)[**СписокОбъект**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)класс для управления списком.
 

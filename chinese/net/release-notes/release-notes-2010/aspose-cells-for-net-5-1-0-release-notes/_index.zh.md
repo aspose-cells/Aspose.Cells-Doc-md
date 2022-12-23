@@ -20,7 +20,7 @@ url: /zh/net/aspose-cells-for-net-5-1-0-release-notes/
 支持Cell的渐变填充和XLS文件的主题。
 渲染 Cell 的图案填充生成的 PDF 文件。
 添加对 Pdf/A-1b 合规性的支持。
-提高生成的 PDF 文件的性能和质量。
+提高了生成的 PDF 文件的性能和质量。
  46 项改进和修复。
 
  Aspose.Cells.GridWeb 发生了什么变化：
@@ -50,22 +50,22 @@ url: /zh/net/aspose-cells-for-net-5-1-0-release-notes/
 |17900 |图表2图像|Excel 图表转图像问题|
 |18023 |图表2图像|气泡图|
 |18190 |图表2图像|Aspose.Cells 在 Azure 中抛出内存异常|
-|18012 |CSV文件|导出不同于 Excel 的|
-|16207 | PDF格式|查找保存 PDF 文件时的错误|
+|18012 |CSV |导出不同于 Excel 的|
+|16207 | PDF格式|查找错误保存PDF文件|
 |17535 | PDF格式|XLSX 中的一种字体导致 PDF 中的两种字体|
 |17537 | PDF格式|货币格式的空白单元格|
-|17776 | PDF格式|将 Excel 转换为 PDF 的问题|
+|17776 | PDF格式|将Excel转换为PDF的问题|
 |17804 | PDF格式|如果只有零，则不显示小数值|
 |17821 | PDF格式|内置属性|
 |17981 | PDF格式|Excel 到 PDF 的转换问题|
-|18021 | PDF格式|保存为 PDF - 字体问题|
+|18021 | PDF格式|保存到 PDF - 字体问题|
 |18038 | PDF格式|PDF 文档似乎已损坏|
-|18136 | PDF格式|保存PDF的问题|
-|18258 | PDF格式|从 Cells 转换为 PDF 时计算公式未更新|
+|18136 | PDF格式|储蓄问题 PDF|
+|18258 | PDF格式|从 Cells 到 PDF 的转换不更新计算公式|
 |18316 | PDF格式|数据显示为数字符号的转换问题|
-|18258 | PDF格式|从 Cells 转换为 PDF 时计算公式未更新|
+|18258 | PDF格式|从 Cells 到 PDF 的转换不更新计算公式|
 |18316 | PDF格式|数据显示为数字符号的转换问题|
-|18239 |电子表格ML|无效结束列索引异常|
+|18239 |SpreadsheetML |无效结束列索引异常|
 |17111 |工作表2图像|数字数据格式不正确|
 |17633 |工作表2图像|图形中的线条未转换|
 |17903 |工作表2图像|worksheet2image的表现|
@@ -90,8 +90,8 @@ url: /zh/net/aspose-cells-for-net-5-1-0-release-notes/
 |17719 | Xlsx|对于 Int16 值太大或太小|
 |17982 | Xlsx|数据透视表页面字段在 Excel 2007 中不起作用|
 |18004 | Xlsx|小计问题|
-|18036 | Xlsx|打开 XLSM 文件的问题。|
-|18161 | Xlsx| XLSX 文件的结束列索引异常无效|
+|18036 | Xlsx|打开XLSM文件的问题。|
+|18161 | Xlsx| XLSX 文件的无效结束列索引异常|
 |18356 | Xlsx|公式问题的图表标题|
 现有用户的显着变化
 

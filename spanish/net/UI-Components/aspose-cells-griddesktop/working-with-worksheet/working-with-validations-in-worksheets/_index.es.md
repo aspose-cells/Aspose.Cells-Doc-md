@@ -25,7 +25,7 @@ Hay tres modos de validación admitidos por Aspose.Cells.GridDesktop de la sigui
 ### **Agregar validación**
 Para agregar cualquier tipo de validación a una celda de la hoja de trabajo, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Agregue una validación deseada a la**Validaciones** colección de la**Hoja de cálculo** para especificar qué validación se aplicaría en qué celda.
 
@@ -35,7 +35,7 @@ Para agregar cualquier tipo de validación a una celda de la hoja de trabajo, si
 
 {{% alert color="primary" %}} 
 
- En la figura anterior, también mencionamos las reglas de validación delante de las celdas donde se aplican estas reglas de validación. Si se ingresa algún valor no válido (que no es válido de acuerdo con la regla de validación definida para esa celda), se**Caja de mensaje** aparecería para notificar al usuario sobre la entrada no válida.
+ En la figura anterior, también mencionamos las reglas de validación delante de las celdas donde se aplican estas reglas de validación. Si se ingresa algún valor no válido (que no es válido de acuerdo con la regla de validación definida para esa celda), se**Buzon de mensaje** aparecería para notificar al usuario sobre la entrada no válida.
 
 {{% /alert %}} 
 ### **Implementando ICustomValidation**

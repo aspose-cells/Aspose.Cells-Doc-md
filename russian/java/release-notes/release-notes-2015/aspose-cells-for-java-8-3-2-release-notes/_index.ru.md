@@ -23,39 +23,39 @@ url: /ru/java/aspose-cells-for-java-8-3-2-release-notes/
 
 Новые особенности
 
-(CELLSJAVA-41144) — Возможность удаления стиля из коллекции стилей при сохранении HTML.
+(CELLSJAVA-41144) — Возможность удаления стиля из коллекции стилей при сохранении HTML
 (CELLSJAVA-41127) - Указание пользовательских разделителей для полной рабочей книги
 (CELLSJAVA-41143) - Укажите имя задания/документа при печати с помощью Aspose.Cells.
 
 Улучшения
 
-(CELLSJAVA-41145) — Интеллектуальное создание CSS при экспорте электронных таблиц в HTML
+(CELLSJAVA-41145) - Интеллектуальное создание CSS при экспорте электронных таблиц на номер HTML.
 (CELLSJAVA-41177) - Cell.setHtmlString не работает при использовании "<s><span style="color:#ff00ff;">S2</span></s>"
 (CELLSJAVA-41162) — Добавление каталогов шрифтов по умолчанию для Mac и Linux в список поиска шрифтов.
 
-Производительность
+Спектакль
 
 (CELLSJAVA-41119) - Chart.toImage зависает на неопределенное время
 
 Ошибки
 
-(CELLSJAVA-41165) — сводная диаграмма не обновляется после обновления исходных данных и преобразования электронной таблицы в формат PDF.
+(CELLSJAVA-41165) — сводная диаграмма не обновляется после обновления исходных данных и преобразования электронной таблицы в PDF.
 (CELLSJAVA-41156) — Chart.refreshPivotData заставляет даты на оси диаграммы преобразовываться в числа при преобразовании электронной таблицы в PDF.
-(CELLSJAVA-41154) — При вставке диапазона с помощью PasteType.ALL в выводе HTML появляется дополнительная строка.
+(CELLSJAVA-41154) — в выводе HTML появляется дополнительная строка при вставке диапазона с помощью PasteType.ALL.
 (CELLSJAVA-41151) — Странное поведение в отношении форматирования в выходном отчете сводной таблицы при использовании и без использования строки кода, соответствующей извлечению диапазона строк.
-(CELLSJAVA-41150) — FormatCondition не поддерживается в отношении формата чисел при рендеринге в формат файла HTML.
-(CELLSJAVA-41146) — Неверное отображение границы при преобразовании электронной таблицы в формат HTML.
+(CELLSJAVA-41150) — FormatCondition не поддерживается в отношении формата Numbers при рендеринге в формат файла HTML.
+(CELLSJAVA-41146) - Неверное отображение границы при преобразовании электронной таблицы в HTML.
 (CELLSJAVA-41134) — XLSB2007TestNewS.xlsb не загружается и постоянно увеличивает потребление памяти
-(CELLSJAVA-41129) — при отображении выходного HTML-кода в Chrome отображаются дополнительные строки.
+(CELLSJAVA-41129) — Дополнительные строки отображаются, когда вывод HTML отображается в Chrome.
 (CELLSJAVA-41122) - Открытие и сохранение финансовых_Заявление_Вход_Отчет_Withdata.xlsb делает его поврежденным
 (CELLSJAVA-41098) — при обновлении сводной таблицы удаляется форматирование сводной таблицы при преобразовании в PDF.
-(CELLSJAVA-41157) — MemorySetting.MEMORY_PREFERENCE вызывает повреждение XLS
+(CELLSJAVA-41157) — MemorySetting.MEMORY_PREFERENCE приводит к повреждению XLS.
 (CELLSJAVA-41149) — неправильное отображение времени при преобразовании электронной таблицы в PDF.
 (CELLSJAVA-41148) - Excel обнаружил нечитаемое содержимое... ошибка при открытии и сохранении книги
 (CELLSJAVA-41141) - Cell не устанавливается с помощью метода ListObject.putCellValue().
 (CELLSJAVA-41140) - При расширении таблицы формула не копируется в новые строки.
-(CELLSJAVA-41166) - Средство просмотра XPS не может открыть Aspose.Cells сгенерированный XPS
-(CELLSJAVA-41163) — экспорт SVG создает недопустимый файл
+(CELLSJAVA-41166) - XPS Средство просмотра не может открыть Aspose.Cells сгенерировано XPS
+(CELLSJAVA-41163) - SVG экспорт создает недопустимый файл
 (CELLSJAVA-41153) — Shape.toImage сохраняет изображение в формате BMP, а не SVG для фигур, отличных от диаграммы.
 (CELLSJAVA-41137) - Проблема с установкой значений диапазона ячеек для меток данных.
 (CELLSJAVA-41128) — Диаграммы отображаются некорректно при повторном сохранении файла XLSX.
@@ -68,7 +68,7 @@ url: /ru/java/aspose-cells-for-java-8-3-2-release-notes/
 Исключения
 
 (CELLSJAVA-41164) — java.lang.NullPointerException по адресу Cells.find
-(CELLSJAVA-41131) - Сохранение в PDF зависает и возникает проблема с памятью исходного файла XLSB.
+(CELLSJAVA-41131) - Сохранение в PDF зависает и возникает проблема с памятью в исходном файле XLSB
 
 Public API и обратно несовместимые изменения
 
@@ -77,7 +77,7 @@ Public API и обратно несовместимые изменения
  Добавляет свойства WorkbookSettings.NumberDecimalSeparator, NumberGroupSeparator.
  Получает/задает разделители, используемые для форматирования/анализа числовых значений.
 
- Добавляет метод WorkbookSettings.CheckWriteProtectedPassword().
+Добавляет метод WorkbookSettings.CheckWriteProtectedPassword().
  Проверяет правильность пароля, защищенного от записи.
 
  Добавляет свойство Picture.SignatureLine и класс SignatureLine.
@@ -116,7 +116,7 @@ Public API и обратно несовместимые изменения
  Добавляет метод SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 Отображает рабочий лист на принтер.
 
-Добавляет метод WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Добавляет метод WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 Выводит книгу на принтер.
 
  Добавляет свойства PdfSaveOptions.IsFontSubstitutionCharGranularity.
@@ -137,7 +137,7 @@ Public API и обратно несовместимые изменения
  Устарел метод PivotItem.Move(int count).
 Вместо этого используйте метод PivotItem.Move(int count, bool isSameParent).
 
-Удаляет все устаревшие методы Open() и Save() Workbook.
+ Удаляет все устаревшие методы Open() и Save() Workbook.
 
  Удаляет устаревший метод Workbook.SetOleSize().
 
@@ -147,7 +147,7 @@ Public API и обратно несовместимые изменения
 
  Удаляет устаревшие методы Open() и Save() WorkbookDesigner.
 
- Удаляет устаревшие свойства ReCalcOnOpen, Language, Encoding и ConvertNumericData WorkbookSettings.
+Удаляет устаревшие свойства ReCalcOnOpen, Language, Encoding и ConvertNumericData WorkbookSettings.
 
  Удаляет устаревшие свойства HidePivotFieldList,EnableHTTPCompression,IsMinimized,IsHidden,SheetTabBarWidth коллекции WorksheetCollection.
 
@@ -157,7 +157,7 @@ Public API и обратно несовместимые изменения
 
  Удаляет устаревшие HPageBreaks и VPageBreaks рабочего листа.
 
-Удаляет устаревшие DisplayHTMLCrossString и ExportChartImageFormat из HtmlSaveOptions.
+ Удаляет устаревшие DisplayHTMLCrossString и ExportChartImageFormat из HtmlSaveOptions.
 
  Удаляет устаревшее свойство ExpCellNameToXLSX SaveOptions.
 
@@ -166,5 +166,5 @@ Public API и обратно несовместимые изменения
  Удаляет устаревшее свойство TxtSaveOptions.AlwaysQuoted.
 
 
-Примечание
+Запись
 Поскольку кодовая база Aspose.Cells for Java соответствует коду соответствующей версии .NET, большинство изменений, улучшений и исправлений, включенных в Aspose.Cells for .NET v8.3.2, также включены в этот Aspose.Cells for Java v8.3.2.

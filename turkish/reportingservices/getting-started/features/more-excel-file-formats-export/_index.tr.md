@@ -6,7 +6,7 @@ url: /tr/reportingservices/more-excel-file-formats-export/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services, yerel Microsoft Excel raporlarını Microsoft SQL Server 2005 ve 2008 Raporlama Hizmetleri aracılığıyla göndermenize olanak tanır. Microsoft Excel tabanlı raporlar için yerleşik oluşturucunun aksine, Aspose.Cells for Reporting Services, RDL raporlarını şu biçimlere dönüştüren genişletilmiş bir özellik seti sağlar: Excel 97-2003 ikili XLS formatı, CSV, SpreadsheetML, Excel 2007 XLSX , Excel 2007 XLSM, Excel 2007 XLSB, HTML ve ODS biçimi.
+Aspose.Cells for Reporting Services, yerel Microsoft Excel raporlarını Microsoft SQL Server 2005 ve 2008 Raporlama Hizmetleri aracılığıyla göndermenize olanak tanır. Microsoft Excel tabanlı raporlar için yerleşik oluşturucunun aksine, Aspose.Cells for Reporting Services, RDL raporlarını şu şekilde dönüştüren genişletilmiş bir özellik kümesi sunar: Excel 97-2003 ikili XLS Biçim, CSV, 07619341, excel 2007 071, 07619341, excel 2007 071, 07619341, exccel31, 07619341, excel 2001, HTML ve ODS biçimi.
 
 {{% /alert %}} 
 
@@ -14,8 +14,8 @@ Aspose.Cells for Reporting Services, yerel dışa aktarıcılardan daha fazla do
 
 **Aspose.Cells for Reporting Services kullanılarak bir Örnek XLS raporu dışa aktarılır** 
 
-![yapılacaklar:resim_alternatif_Metin](more-excel-file-formats-export_1.png)
+![yapılacaklar:resim_alternatif_metin](more-excel-file-formats-export_1.png)
 
 **Aspose.Cells for Reporting Services kullanılarak bir Örnek Özet Tablo XLS raporu oluşturulur** 
 
-![yapılacaklar:resim_alternatif_Metin](more-excel-file-formats-export_2.png)
+![yapılacaklar:resim_alternatif_metin](more-excel-file-formats-export_2.png)

@@ -35,6 +35,6 @@ Sehr geehrte Kunden, wir haben Aspose.Cells for Java V1.9.3 veröffentlicht!
  Fehler beim Kopieren des Zellbereichs behoben
  Fehler beim Formatieren von Zahlen mit E-Exponenten behoben
 
- Kommentare
+ Bemerkungen
 
 - Zum Hinzufügen von TextBox ist in der neuen Version die Methode add(...) nur im Arbeitsblatt gültig. Die Methode addInChart() ist nur im Diagrammblatt gültig.

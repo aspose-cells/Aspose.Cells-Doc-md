@@ -12,7 +12,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.7 per Lin
 
 Siamo lieti di annunciare il rilascio di Aspose.Cells for C++ 21.7 per Linux.
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-288| Risolto il problema del conteggio dei riferimenti|Insetto|
 |CELLSCPP-301| Correggi la perdita di memoria|Insetto|

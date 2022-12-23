@@ -9,9 +9,9 @@ url: /zh/net/change-the-decimal-separator-from-numeric-keypad/
 ## **从数字键盘更改小数点分隔符**
 使用**GridWorksheetCollection.NumberDecimalSeparator**属性，您可以通过编程方式从数字键盘更改小数点分隔符。请查看显示其工作原理的屏幕截图
 
-![待办事项：图像_替代_文本](change-the-decimal-separator-from-numeric-keypad_1.png)
+![待办事项：图片_替代_文本](change-the-decimal-separator-from-numeric-keypad_1.png)
 
-![待办事项：图像_替代_文本](change-the-decimal-separator-from-numeric-keypad_2.png)
+![待办事项：图片_替代_文本](change-the-decimal-separator-from-numeric-keypad_2.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Worksheets-ChangeDecimalSeparatorFromNumericKeypad.aspx.cs" >}}
 

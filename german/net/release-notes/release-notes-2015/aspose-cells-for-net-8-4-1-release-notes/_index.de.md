@@ -34,39 +34,39 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43475) – Die Datenansicht der Pivot-Tabelle in HTML korreliert nicht
 
- (CELLSNET-43474) – Die Pivot-Tabelle wird beim Rendern in HTML nicht aktualisiert
+ (CELLSNET-43474) – Die Pivot-Tabelle wird beim Rendern auf HTML nicht aktualisiert
 
  (CELLSNET-43473) – Berichtsfilterauswahl geändert
 
- (CELLSNET-43450) – Fehlerhafte Darstellung von HTML beim Konvertieren von Tabellenkalkulationen in HTML
+ (CELLSNET-43450) – Fehlerhafte Darstellung von HTML beim Konvertieren der Tabelle in HTML
 
- (CELLSNET-43428) – Pivot-Tabellenzellen in Gruppenkopfzeilen haben falsche Stile
+(CELLSNET-43428) – Pivot-Tabellenzellen in Gruppenkopfzeilen haben falsche Stile
 
-(CELLSNET-43422) – Das Entfernen des Quellblatts verursacht eine Ausnahme beim Speichern
+ (CELLSNET-43422) – Das Entfernen des Quellblatts verursacht eine Ausnahme beim Speichern
 
  (CELLSNET-43417) – Die Sortierreihenfolge der PivotChart-Seriendatenpunkte ist falsch
 
  (CELLSNET-43413) – Falsche Konvertierung von HTML-Datei in PDF
 
- (CELLSNET-43340) – Durch das erneute Speichern der XLS-Tabelle wird das Ergebnis beschädigt
+ (CELLSNET-43340) – Durch erneutes Speichern der Tabelle XLS wird das Ergebnis beschädigt
 
- (CELLSNET-43545) – Das Datum überschneidet sich mit dem Text in der linken Fußzeile im gerenderten PDF-Dateiformat
+ (CELLSNET-43545) – Das Datum überschneidet sich mit dem Text in der linken Fußzeile im gerenderten Dateiformat PDF
 
  (CELLSNET-43543) – Der doppelte Zellenrand wird für die letzte Zelle nicht richtig gedruckt
 
- (CELLSNET-43541) – Fehlender Rand der Tabellenkopfzeile beim Konvertieren in PDF
+ (CELLSNET-43541) – Fehlender Rahmen der Tabellenkopfzeile beim Konvertieren in PDF
 
  (CELLSNET-43516) - Aspose druckt keine leere Seite
 
- (CELLSNET-43508) – Spreadsheet to PDF generiert ein leeres PDF
+ (CELLSNET-43508) – Spreadsheet an PDF generiert eine leere PDF
 
- (CELLSNET-43507) – Pixel haben sich für das Bild in der PDF-Ausgabedatei etwas verschlechtert
+ (CELLSNET-43507) – Pixel haben sich für das Bild in der Ausgabedatei PDF etwas verschlechtert
 
  (CELLSNET-43481) - Cells mit Datumsangaben und/oder Zahlen mit hebräischen Wörtern
 
- (CELLSNET-43479) - Das Logo mit falscher Einrückung
+(CELLSNET-43479) - Das Logo mit falscher Einrückung
 
-(CELLSNET-43478) - Doppelpunkt am Ende des letzten Wortes in der ersten Zeile abgebrochen
+ (CELLSNET-43478) - Doppelpunkt am Ende des letzten Wortes in der ersten Zeile abgebrochen
 
  (CELLSNET-43477) – Die Leerzeichen zwischen den hebräischen Wörtern verschwanden und der Satz wurde zu einem Wort
 
@@ -96,7 +96,7 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-42854) – Halbe Zahlenzeilen und Text werden nicht für die x-Achse angezeigt
 
- (CELLSNET-42614) – In PDF exportierte Diagramme haben zusätzliche Zeilen
+ (CELLSNET-42614) – Nach PDF exportierte Diagramme haben zusätzliche Zeilen
 
  (CELLSNET-40984) – Ich habe ein 0-Byte-Bild – Shape2Image-Fehler
 
@@ -110,7 +110,7 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - Dropdown-Filter kann nach dem Laden und Speichern nicht ausgewählt werden
 
- (CELLSNET-43518) – Durch das Laden und Speichern des XLSM wird das Ergebnis beschädigt
+ (CELLSNET-43518) – Durch das Laden und Speichern von XLSM wird das Ergebnis beschädigt
 
  (CELLSNET-43515) – Formel mit benannter Bereichszelle wird nicht korrekt gelesen
 
@@ -136,7 +136,7 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -150,7 +150,7 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) – GridDesktop kann keine eingebettete Ressourcenlizenz finden
 
-(CELLSNET-42509) – Formen werden in Gridweb nicht richtig gerendert
+ (CELLSNET-42509) – Formen werden in Gridweb nicht richtig gerendert
 
  (CELLSNET-42559) – Verschieben von Arbeitsblättern in GridDesktop
 
@@ -178,7 +178,7 @@ url: /de/net/aspose-cells-for-net-8-4-1-release-notes/
 
  Fügt die ImageOrPrintOptions.SVGFitToViewPort-Eigenschaft hinzu.
 
- Gibt an, ob das generierte SVG-Bild für den Anzeigeport geeignet ist.
+ Gibt an, ob das generierte SVG-Bild für den Betrachtungsport geeignet ist.
 
 
 

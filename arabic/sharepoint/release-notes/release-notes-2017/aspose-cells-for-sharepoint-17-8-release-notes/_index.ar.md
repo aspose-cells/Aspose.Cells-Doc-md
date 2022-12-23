@@ -13,6 +13,6 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-17-8-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSSP-61|إضافة تذييل إلى ملفات متعددة|ميزة جديدة|
-|CELLSSP-60|Aspose.Cells for SharePoint 2016 تم تعطيل قائمة الشريط|حشرة|
-|CELLSSP-62|مشكلة مع Aspose.Cells for SharePoint 2016 معاينة متعددة الملفات|حشرة|
+|CELLSSP-60|Aspose.Cells for SharePoint 2016 تم تعطيل قائمة الشريط|خلل برمجي|
+|CELLSSP-62|مشكلة مع Aspose.Cells for SharePoint 2016 معاينة متعددة الملفات|خلل برمجي|
 

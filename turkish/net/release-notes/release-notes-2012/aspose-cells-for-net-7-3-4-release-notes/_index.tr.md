@@ -46,7 +46,7 @@ url: /tr/net/aspose-cells-for-net-7-3-4-release-notes/
 
  İstisnalar
 
-- Bir XLSX dosyasını açarken "geçersiz formül" istisnası
+- XLSX dosyasını açarken "geçersiz formül" istisnası
 - Aspose.Cells, bir şablon dosyasını açarken "ArgumentNullException" istisnasını atar
 - Bir MHTml dosyasını kaydetmek, Aspose.Cells'de okumak sorun
 
@@ -70,9 +70,9 @@ url: /tr/net/aspose-cells-for-net-7-3-4-release-notes/
 - Özel XML Parçaları sorunu
 - Bu dosya kaydedildikten sonra bozuldu
 
- -XLS'yi XLSX'e dönüştürmek ve geri dönüştürmek kötü bir XLS dosyası oluşturur
+ -XLS'i XLSX'e ve geri dönüştürmek, hatalı bir XLS dosyası oluşturur
 
- -XLS'yi XLSX'e dönüştürmek kötü bir belge oluşturur
+ -XLS'in XLSX'e dönüştürülmesi kötü bir belge oluşturuyor
 
 - Bir MS Excel dosyasını PDF belgesine dönüştürmenin içerikle ilgili bir sorunu var
 
@@ -84,7 +84,7 @@ url: /tr/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Hatalar
 
-40838 - GridWeb -Biçimlendirme doğru kaydedilmedi
+ 40838 - GridWeb -Biçimlendirme doğru kaydedilmedi
 
  41140 - "Satır Ekle" seçeneğini kullanırken sorun
 

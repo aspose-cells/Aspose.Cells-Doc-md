@@ -15,13 +15,13 @@ url: /sv/java/aspose-cells-for-java-21-4-release-notes/
 |CELLSJAVA-43396|Konvertering av Excel-ark till textfil tar bort enstaka citat från början|
 |CELLSJAVA-43386|Sortering fungerar inte när data innehåller icke-alfanumeriska tecken|
 |CELLSJAVA-43403|Textplacering flyttades till vänster när du sparade som HTML|
-|CELLSJAVA-43421|Escape- och radbrytningstecken renderade inte korrekt vid konvertering av HTML till Excel|
-|CELLSJAVA-43427|Villkorsformat med datafält Visa värden i HTML-export|
-|CELLSJAVA-43428| Bokföringsformat kombinerat med 6-punktsfont förvränger siffror i HTML|
-|CELLSJAVA-43429|Text med vertikal textjustering försvinner i HTML|
+|CELLSJAVA-43421|Escape och radbrytningstecken inte korrekt renderade vid konvertering av HTML till Excel|
+|CELLSJAVA-43427|Villkorsformat med datafält Visa värden i HTML Export|
+|CELLSJAVA-43428| Bokföringsformat kombinerat med 6-punkts teckensnitt förvränger siffror i HTML|
+|CELLSJAVA-43429|Text med vertikal textjustering försvinner på HTML|
 |CELLSJAVA-43407|Excel-formler hoppas över/ändras efter att filen har sparats|
 |CELLSJAVA-43419| Anpassat nummerformat visas inte korrekt i PDF|
-|CELLSJAVA-43374|Diagrametiketter upprepas när de bifogade Excel-filerna konverterades till PDF|
+|CELLSJAVA-43374|Diagrametiketter upprepas medan de bifogade Excel-filerna konverterades till PDF|
 |CELLSJAVA-43409| Oväntade dataetiketter dök upp i utdatabilden för diagram|
 |CELLSJAVA-43411|Teckensnittsersättningsvarningar fungerar inte i diagram till bildkonvertering|
 |CELLSJAVA-43414|Xls till pdf-konverteringsproblem|
@@ -30,7 +30,7 @@ url: /sv/java/aspose-cells-for-java-21-4-release-notes/
 |CELLSJAVA-43433|Den refererade bilden renderas inte i PDF|
 |CELLSJAVA-43434|SmartMarkers dynamiska formel har fel expanderande cellstil|
 |CELLSJAVA-43435| Smart Markers dynamisk formel infogar celler enligt vänster expanderad kolumn men inte enligt kolumnerna i formeln|
-|CELLSJAVA-43417|Undantag höjdes när XLSX öppnades från stor fil|
+|CELLSJAVA-43417|Undantag höjdes när man öppnade XLSX från stor fil|
 |CELLSJAVA-43431|java.lang.NullPointerException höjdes när Cells.deleteColumn() anropades med den senaste versionen 21.3 medan den fungerar med 21.2|
 |CELLSJAVA-43437|IndexOutOfBoundsUndantag för att klicka på andra arksidor i utvärderingsläge|
 
@@ -44,7 +44,7 @@ Ge användarna möjlighet att komma åt data i batch-läge med bättre prestanda
 
 ### **Lägger till egenskaperna TxtSaveOptions.ExportQuotePrefix och TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Ge användarna möjligheten att bestämma hur de ska göra med det ledande citatet av cellens värde vid export/import av CSV/TSV-filer.
+Ge användarna möjlighet att bestämma hur de ska göra med det ledande citatet av cellens värde vid export/import av CSV/TSV-filer.
 
 ### **Lägger till metoderna GlobalizationSettings.GetCollationKey(string,bool) och Compare(string,string,bool).**
 

@@ -12,7 +12,7 @@ keywords: c# create waterfall chart in excel, c# creating waterfall chart in exc
 
 {{% /alert %}} 
 
- Aspose.Cells API'ler, çizgi grafiğin yardımıyla bir şelale grafiği oluşturmaya olanak tanır. API ayrıca, tablo görünümünü ayarlayarak ona şelalenin şeklini verecek şekilde özelleştirmeye izin verir.[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Seri.Aşağı Çubuklar**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)özellikleri.
+ Aspose.Cells API'ler, çizgi grafiğin yardımıyla bir şelale grafiği oluşturmaya olanak tanır. API ayrıca, tablo görünümünü ayarlayarak ona şelalenin şeklini verecek şekilde özelleştirmeye izin verir.[**Series.UpBars**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/upbars) & [**Seri.Aşağı Çubuklar**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/downbars)özellikler.
 
 Aşağıda sağlanan kod parçacığı, sıfırdan bir şelale grafiği oluşturmak için Aspose.Cells for .NET API kullanımını göstermektedir.
 

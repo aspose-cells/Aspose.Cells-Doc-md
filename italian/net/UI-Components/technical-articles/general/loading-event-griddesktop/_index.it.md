@@ -11,6 +11,6 @@ description: Questo articolo descrive come utilizzare l'evento di caricamento pe
 Il file è protetto da password, prima proviamo ad aprirlo con una password errata, poi finalmente nell'evento FailLoadFile, usiamo una password corretta per aprirlo.
 
 ![visualizzazione dei risultati dell'evento di caricamento](loadingevent.png)
-### **Codice di esempio**
+### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "LoadingEvent.cs" >}}
  

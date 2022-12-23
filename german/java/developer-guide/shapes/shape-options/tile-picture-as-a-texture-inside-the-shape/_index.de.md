@@ -10,7 +10,7 @@ Wenn das Bild klein ist und nicht die gesamte Oberfläche der Form abdeckt, ohne
 
 ## **Kachelbild als Textur innerhalb der Form**
 
-Sie können die Formoberfläche mit einem Bild füllen und sie mit kacheln[**Shape.Fill.TextureFill.IstTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) Eigenschaft und Einstellung**Stimmt** . Bitte sehen Sie sich den folgenden Beispielcode an, its[Beispiel-Excel-Datei](46465055.xlsx) , es ist[Excel-Datei ausgeben](46465056.xlsx) sowie den Screenshot als Referenz.
+Sie können die Formoberfläche mit einem Bild füllen und sie mit kacheln[**Shape.Fill.TextureFill.IstTiling**](https://reference.aspose.com/cells/java/com.aspose.cells/texturefill#IsTiling) Eigenschaft und Einstellung**wahr** . Bitte sehen Sie sich den folgenden Beispielcode an, its[Beispiel-Excel-Datei](46465055.xlsx) , es ist[Excel-Datei ausgeben](46465056.xlsx) sowie den Screenshot als Referenz.
 
 ## **Bildschirmfoto**
 

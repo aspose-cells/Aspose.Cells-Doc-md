@@ -12,9 +12,9 @@ description: Aspose.Cells ile Excel dosyalarının dilimleyicilerini yönetin.
 
 ## **Pivot Tablo için Dilimleyici Oluşturma**
 
- Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](67338470.xlsx) pivot tabloyu içerir. Ardından, ilk temel pivot alanını temel alarak dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıktı XLSX](67338471.xlsx) ve[çıkış XLSB](67338472.xlsb) biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan dilimleyiciyi göstermektedir.
+ Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](67338470.xlsx) pivot tabloyu içerir. Ardından, ilk temel pivot alanını temel alarak dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](67338471.xlsx) ve[çıkış XLSB](67338472.xlsb) biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan dilimleyiciyi göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](create-slicer-to-a-pivot-table_1.png)
+![yapılacaklar:resim_alternatif_metin](create-slicer-to-a-pivot-table_1.png)
 
 ### **Basit kod**
 
@@ -22,7 +22,7 @@ description: Aspose.Cells ile Excel dosyalarının dilimleyicilerini yönetin.
 
 ## **Excel Tablosuna Dilimleyici Oluşturma**
 
- Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](sampleCreateSlicerToExcelTable.xlsx) içeren bir tablodur. Ardından, ilk sütuna göre dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıktı XLSX](outputCreateSlicerToExcelTable.xlsx) biçim.
+ Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](sampleCreateSlicerToExcelTable.xlsx) içeren bir tablodur. Ardından, ilk sütuna göre dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](outputCreateSlicerToExcelTable.xlsx) biçim.
 
 ### **Basit kod**
 
@@ -30,7 +30,7 @@ description: Aspose.Cells ile Excel dosyalarının dilimleyicilerini yönetin.
 
 ## **ileri konular**
 - [Dilimleyici Özelliklerini Değiştir](/cells/tr/net/change-slicer-properties/)
-- [Excel'i PDF'ye dönüştürürken Dilimleyici çizin](/cells/tr/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Excel'i PDF'e dönüştürürken Dilimleyici çizin](/cells/tr/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [Biçimlendirme Dilimleyici](/cells/tr/net/formatting-slicer/)
 - [Dilimleyiciyi Çıkarma](/cells/tr/net/removing-slicer/)
 - [İşleme Dilimleyici](/cells/tr/net/rendering-slicer/)

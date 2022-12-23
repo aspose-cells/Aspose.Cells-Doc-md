@@ -1,12 +1,12 @@
 ﻿---
-title: 各ワークシートを異なる PDF ファイルに保存する
+title: 各ワークシートを別の PDF ファイルに保存する
 type: docs
 weight: 50
 url: /ja/java/save-each-worksheet-to-a-different-pdf-file/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells は、スプレッドシート ファイル (画像、グラフなどを含む) の PDF ドキュメントへの変換をサポートしています。 Aspose.Cells for Java は、スプレッドシートを PDF ドキュメントに変換するために独立して動作することができ、変換に Aspose.PDF for Java を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
+Aspose.Cells は、スプレッドシート ファイル (画像、チャートなどを含む) を PDF ドキュメントに変換することをサポートします。 Aspose.Cells for Java は、スプレッドシートを PDF ドキュメントに変換するために独立して動作することができ、変換に Aspose.PDF for Java を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
 
 {{% /alert %}}
 
@@ -16,6 +16,6 @@ Aspose.Cells は、スプレッドシート ファイル (画像、グラフな�
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()）スプレッドシートを PDF にレンダリングする直前のメソッド。これにより、式に依存する値が再計算され、正しい値が PDF に表示されます。
+スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()メソッドをスプレッドシートを PDF にレンダリングする直前に実行します。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
 
 {{% /alert %}}

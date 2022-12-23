@@ -6,7 +6,7 @@ url: /ja/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel ファイルを PDF にレンダリングすると、Aspose.Cells がフォントに置き換わる場合があります。 Aspose.Cells は、開発者に特定のフォントが置き換えられたことを警告を発することで知らせる機能を提供します。これは、Aspose.Cells でレンダリングされた PDF が実際の Excel ファイルと異なる理由を特定し、適切なアクションを取るのに役立つ便利な機能です。たとえば、不足しているフォントをインストールして、レンダリング結果が同じに見えるようにすることができます。
+Microsoft Excel ファイルを PDF にレンダリングすると、Aspose.Cells がフォントに置き換わる場合があります。 Aspose.Cells は、開発者に特定のフォントが置き換えられたことを警告を発することで知らせる機能を提供します。これは、レンダリングされた Aspose.Cells が PDF と実際の Excel ファイルと異なる理由を特定し、適切なアクションを実行できる便利な機能です。たとえば、不足しているフォントをインストールして、レンダリング結果が同じに見えるようにすることができます。
 
 Excel ファイルを PDF にレンダリングする際にフォントの置換に関する警告を表示するには、IWarningCallback インターフェイスを実装し、実装したインターフェイスで PdfSaveOptions.setWarningCallback() メソッドを設定します。
 
@@ -20,9 +20,9 @@ Aspose.Cells は、以下に示すように、セル A6 および A7 のフォ�
 
 ![todo:画像_代替_文章](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **ソースファイルをダウンロードして PDF を出力**
+## **ソースファイルのダウンロードと出力 PDF**
 
-ソースの Excel ファイルと出力の PDF は、次のリンクからダウンロードできます。
+ソース Excel ファイルと出力 PDF は、次のリンクからダウンロードできます。
 
 - [ソース.xlsx](5472700.xlsx)
 - [output.pdf](5472699.pdf)
@@ -83,6 +83,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、スプレッドシートを PDF 形式にレンダリングする直前に Workbook.calculateFormula メソッドを呼び出すことをお勧めします。そうすることで、数式に依存する値が再計算され、正しい値が PDF に表示されます。
+スプレッドシートに数式が含まれている場合は、スプレッドシートを PDF 形式にレンダリングする直前に Workbook.calculateFormula メソッドを呼び出すことをお勧めします。そうすることで、式に依存する値が再計算され、正しい値が PDF に表示されるようになります。
 
 {{% /alert %}}

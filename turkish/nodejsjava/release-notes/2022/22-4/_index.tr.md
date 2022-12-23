@@ -14,7 +14,7 @@ url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-22-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44415|Binlerce getResourceAsAStream çağrısı, rapor oluşturma sırasında yüksek CPU yüküne ve bellek tüketimine neden oluyor|
 |CELLSJAVA-44490|GridWeb için GridWorkbookSetting'i ekleyin|
-|CELLSJAVA-44455|XLSX dosyasını PDF'ye dönüştürürken, pivot tablodaki tarih bir seri numarasına dönüşür|
+|CELLSJAVA-44455|XLSX dosyasını PDF'e dönüştürürken, pivot tablodaki tarih bir seri numarası olur|
 |CELLSJAVA-44370|Excel dosyası açılıp Aspose.Cells ile kaydedildiğinde bozuluyor|
 |CELLSJAVA-44381|Satır veya sütunu silerken koşul biçimlendirme sorunu|
 |CELLSJAVA-44442|Aspose.Cells ile açıp kaydetmek çalışma kitabını bozuyor|
@@ -24,8 +24,8 @@ url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-22-4-release-notes/
 |CELLSJAVA-44464|ek sorun 1, sütun A arka plan rengi, sayfa4'teki yscl.xls için Excel'deki ile aynı değil|
 |CELLSJAVA-44466| ek sorun 3,setCalculateFormula false olarak çalışmıyor|
 |CELLSJAVA-44496|Html yüklenirken tablo için başlık etiketini/öğesini ekleyin|
-|CELLSJAVA-44429|Excel grafiğinin Excel'deki etkisi HTML'dekinden farklıdır|
-|CELLSJAVA-44414| JSON'daki Unicode, oluşturulan XLSX ve CSV'yi bozacak|
+|CELLSJAVA-44429|Excel grafiğinin excel'deki etkisi, HTML'dekinden farklıdır.|
+|CELLSJAVA-44414| JSON'deki Unicode, oluşturulan XLSX ve CSV'i kıracak|
 |CELLSJAVA-44404|Bir XLSX dosyasını GridWeb'e yüklerken "java.lang.IllegalArgumentException: Geçersiz sütun dizini" istisnası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

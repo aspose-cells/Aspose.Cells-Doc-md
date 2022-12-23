@@ -6,7 +6,7 @@ url: /ru/net/remove-unused-styles-inside-the-workbook/
 ---
 {{% alert color="primary" %}}
 
-Неиспользуемые стили в файле Excel не только занимают место, но и вызывают проблемы с производительностью при преобразовании в различные форматы, такие как PDF, HTML и т. д. Aspose.Cells предоставляет[**Рабочая книга. Удалить неиспользуемые стили ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) чтобы удалить все неиспользуемые стили внутри книги.
+Неиспользуемые стили в файле Excel не только занимают место, но и вызывают проблемы с производительностью при преобразовании в различные форматы, такие как PDF, HTML и т. д. Aspose.Cells обеспечивает[**Рабочая книга. Удалить неиспользуемые стили ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) чтобы удалить все неиспользуемые стили внутри книги.
 
 {{% /alert %}}
 

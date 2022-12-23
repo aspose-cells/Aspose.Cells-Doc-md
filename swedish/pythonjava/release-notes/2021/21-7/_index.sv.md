@@ -16,25 +16,25 @@ url: /sv/python-java/aspose-cells-for-python-via-java-21-7-release-notes/
 |CELLSJAVA-40452|Få externa dataintervall och detaljer|
 |CELLSJAVA-42494|En stor mängd oanvända stilar genereras i CSS-sektionen|
 |CELLSJAVA-41121|SheetRender återger inte flödesschemat korrekt|
-|CELLSJAVA-43331|Saknas text i cirkel under XLS till HTML-konvertering|
+|CELLSJAVA-43331|Saknade text i cirkeln under konverteringen XLS till HTML|
 |CELLSJAVA-43507|När du kör svg för att infoga excel under java avslutas det onormalt.|
 |CELLSJAVA-41887|Procentuell data från en pivottabell visas inte korrekt i HTML|
-|CELLSJAVA-43482|Upphöjda och nedsänkta skrifter är inte korrekt formaterade när ett HTML-dokument konverteras till en arbetsbok|
+|CELLSJAVA-43482|Upphöjda och nedsänkta skrifter är inte korrekt formaterade vid konvertering av ett HTML-dokument till en arbetsbok|
 |CELLSJAVA-43501|Felaktigt värde läst med getStringValue()-funktionen|
 |CELLSJAVA-43515|MDURATION formel fråga|
 |CELLSJAVA-43528|Skapandedatum och tid och uppdateringsdatum kan inte extraheras|
 |CELLSJAVA-43529|Det gick inte att extrahera BuiltInDocumentProperties|
-|CELLSJAVA-43530|Egenskapsresultaten för datum och tid är olika|
-|CELLSJAVA-41693|Ekvation i en textruta renderas inte till PDF|
-|CELLSJAVA-43487|Text inte centrerad i den utgående PDF-filen i Excel till PDF-konvertering|
-|CELLSJAVA-42867|Former hämtas inte i ODS-filformatet|
-|CELLSJAVA-42895|PNG-utdata från MS Excel-diagrammet har avvikelser|
+|CELLSJAVA-43530|Resultaten för datum och tid i egenskapen är olika|
+|CELLSJAVA-41693|Ekvation i en TextBox återges inte till PDF|
+|CELLSJAVA-43487|Text inte centrerad i utdata PDF i Excel till PDF konvertering|
+|CELLSJAVA-42867|Former hämtas inte i filformatet ODS|
+|CELLSJAVA-42895|PNG utdata från MS Excel-diagram har avvikelser|
 |CELLSJAVA-43015|Problem med SheetRender.toImage() när du använder metoden setPrintArea().|
 |CELLSJAVA-43258|Diagram visar teckensnittets fethet ändras efter arbetsbokkopiering|
 |CELLSJAVA-43436|Aspose Cells ignorerar inverterad y-axel i diagram|
 |CELLSJAVA-43510|Diagrammet är trassligt när du sparar Excel-filen igen med Aspose.Cells for Java|
-|CELLSJAVA-43532|Problem med att extrahera diagramserienamn|
-|CELLSJAVA-43474|Formobjekt ändrades när XLS-fil laddades och sparades|
+|CELLSJAVA-43532|Problem med att extrahera namn på diagramserier|
+|CELLSJAVA-43474|Formobjekt ändrades när XLS-filen laddades och sparades|
 |CELLSJAVA-43493|Felaktig kommentars författare har hämtats|
 |CELLSJAVA-43527|Aspose.Cells for Java NullPointerException|
 |CELLSJAVA-43506|Undantag för ogiltigt lösenord|
@@ -49,11 +49,11 @@ Följande är en lista över alla ändringar som gjorts för allmänheten API, s
 
 ### **Lägger till metoden PivotFormatCondition.AddColumnAreaCondition(PivotField columnField).**
 
-Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.
+ Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.
 
 ### **Lägger till metoden PivotFormatCondition.AddColumnAreaCondition(String fieldName) .**
 
-Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.
+ Lägger till PivotTable-villkorlig formatgräns i kolumnfälten.
 
 ### **Lägger till metoden PivotFormatCondition.AddRowAreaCondition(PivotField rowField).**
 

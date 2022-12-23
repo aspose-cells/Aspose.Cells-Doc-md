@@ -1,5 +1,5 @@
 ﻿---
-title: Actuación
+title: Rendimiento
 type: docs
 weight: 20
 url: /es/nodejs-java/performance/

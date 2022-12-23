@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-571|Met à niveau la version Aspose.Cells vers 20.10.|Amélioration|

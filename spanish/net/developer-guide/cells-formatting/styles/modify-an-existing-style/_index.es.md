@@ -24,9 +24,9 @@ Para actualizar un estilo en Microsoft Excel 97-2003:
 1.  Seleccione el estilo que desea modificar de la**Nombre de estilo** lista.
 1.  Hacer clic**Modificar**.
 1. Seleccione las opciones de estilo que desee utilizando las pestañas del cuadro de diálogo Formato Cells.
-1.  Hacer clic**OK**.
-1.  Por debajo**El estilo incluye**, especifique las características de estilo que desee.
-1.  Hacer clic**OK** para guardar el estilo y aplicarlo al rango seleccionado.
+1.  Hacer clic**DE ACUERDO**.
+1.  Bajo**El estilo incluye**, especifique las características de estilo que desee.
+1.  Hacer clic**DE ACUERDO** para guardar el estilo y aplicarlo al rango seleccionado.
 
 ## **Usando Aspose.Cells**
 

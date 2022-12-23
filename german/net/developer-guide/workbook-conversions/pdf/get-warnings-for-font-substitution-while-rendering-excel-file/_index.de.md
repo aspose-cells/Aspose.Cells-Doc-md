@@ -6,7 +6,7 @@ url: /de/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-Beim Rendern einer Microsoft-Excel-Datei in eine PDF-Datei ersetzt Aspose.Cells manchmal Schriftarten. Aspose.Cells bietet eine Funktion, die Entwickler durch das Auslösen einer Warnung darüber informiert, welche bestimmte Schriftart ersetzt wurde. Dies ist eine nützliche Funktion, mit der Sie feststellen können, warum eine gerenderte Aspose.Cells-PDF-Datei anders aussieht als die ursprüngliche Microsoft-Excel-Datei, damit Sie entsprechende Maßnahmen ergreifen können. Installieren Sie beispielsweise die fehlenden Schriftarten, damit die Rendering-Ergebnisse gleich aussehen.
+Beim Rendern einer Microsoft-Excel-Datei in PDF ersetzt Aspose.Cells manchmal Schriftarten. Aspose.Cells bietet eine Funktion, die Entwickler durch das Auslösen einer Warnung darüber informiert, welche bestimmte Schriftart ersetzt wurde. Dies ist eine nützliche Funktion, mit der Sie feststellen können, warum eine Aspose.Cells gerenderte PDF anders aussieht als die ursprüngliche Microsoft-Excel-Datei, damit Sie entsprechende Maßnahmen ergreifen können. Installieren Sie beispielsweise die fehlenden Schriftarten, damit die Rendering-Ergebnisse gleich aussehen.
 
 {{% /alert %}} 
 
@@ -23,7 +23,7 @@ Aspose.Cells ersetzt die Schriftarten in den Zellen A6 und A7 durch geeignete Sc
 |:- |
 |![todo: Bild_alt_Text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
 ## **Quelldatei herunterladen und PDF ausgeben**
-Sie können die Excel-Quelldatei und die PDF-Ausgabe über die folgenden Links herunterladen
+Sie können die Excel-Quelldatei und die Ausgabe PDF über die folgenden Links herunterladen
 
 - [source.xlsx](5112611.xlsx)
 - [Ausgabe.pdf](5112616.pdf)
@@ -46,6 +46,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}} 
 
-Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.CalculateFormula direkt vor dem Rendern der Tabelle im PDF-Format aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte im PDF wiedergegeben werden.
+Wenn Ihre Tabelle Formeln enthält, ist es am besten, die Methode Workbook.CalculateFormula direkt vor dem Rendern der Tabelle im Format PDF aufzurufen. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte in PDF wiedergegeben werden.
 
 {{% /alert %}}

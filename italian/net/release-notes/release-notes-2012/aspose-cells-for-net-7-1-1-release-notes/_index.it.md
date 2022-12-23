@@ -42,12 +42,12 @@ url: /it/net/aspose-cells-for-net-7-1-1-release-notes/
 
  -Proprietà del pulsante
 
-- Cells con Piedi e Pollici non sono corretti quando vengono convertiti in PDF
-- Problema nel rendering dei trattini em nell'output PDF
+- Cells con piedi e pollici non sono corretti se convertiti in PDF
+- Problema durante il rendering dei trattini em nell'output PDF
 - Layout di pagina modificato nella cartella di lavoro unita
 - Salva come XLSX a volte produce un file non valido
 
- -Il file XLS si apre in modalità protetta dopo aver utilizzato Aspose.Cells
+ -XLS il file si apre in modalità protetta dopo aver utilizzato Aspose.Cells
 
 - Cell.GetDependents() non funziona con NamedRange
 - Problema con AutoFitRow e IndentLevel
@@ -59,20 +59,20 @@ url: /it/net/aspose-cells-for-net-7-1-1-release-notes/
 - FUNZIONI CERCA.VERT E OFFSET Problemi
 - Nessuna convalida della formula MS Excel
 - Problemi con la funzione NETWORKDAYS nell'output XLS
-- Problemi di conversione da HTML a Excel
+- HTML Problemi di conversione da Excel a Excel
 
- ` `- Problemi con l'estensione di riga e gli attributi di classe dell'HTML
+ ` `- HTML'srowspan e problemi relativi agli attributi di classe
 
- -Cells supporta datauri
+-Cells supporta datauri
 
 - Bordi formattati personalizzati persi durante la conversione in PDF
-- Linee griglia nell'esportazione PDF
+- Griglia nell'esportazione PDF
 
  -Excel ha trovato un errore di contenuto illeggibile
 
 - Estrai lo stile pivot personalizzato dal file modello
 - Problema riscontrato in MS Excel: "Excel trovato contenuto illeggibile..."
-- Allineamento delle colonne nell'immagine quando si utilizza l'API SheetRender
+- Allineamento delle colonne nell'immagine quando si utilizza SheetRender API
 - Problema di rendering di Excel
 
 \2)

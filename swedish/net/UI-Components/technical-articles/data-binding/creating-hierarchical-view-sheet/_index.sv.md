@@ -24,7 +24,7 @@ url: /sv/net/creating-hierarchical-view-sheet/
 ## **Skapa relationer för datatabeller**
 Till exempel använder du ADO.Net API och extraherar data från databastabellerna. För att skapa hierarkiskt vyblad måste du designa en datauppsättning
 
- objekt baserat på vissa tabeller och skapa en relation mellan dem först. Använd VS.NET**Dataset designer** att skapa relationen. I
+ objekt baserat på vissa tabeller och skapa en relation mellan dem först. Använd VS.NET**Dataset Designer** att skapa relationen. I
 
  I det här exemplet finns det tre datatabeller: kunder, beställningar, beställningsdetaljer. Arket visar all kundinformation som standard. När
 

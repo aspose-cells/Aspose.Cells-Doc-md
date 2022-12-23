@@ -17,11 +17,11 @@ url: /ja/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|データ フィルターとページング機能に必要な機能強化 - Aspose.Cells.GridWeb (Java)|強化|
 |CELLSJAVA-41616|SaveCustomStyleFile が GridWeb に存在しない (Java)|強化|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() は (グローバル) 静的関数であってはなりません|強化|
-|CELLSJAVA-42327|Excel から PDF へのレンダリングで一部の図形が歪んで変更される|バグ|
+|CELLSJAVA-42327|一部の形状が歪んでおり、Excel で PDF レンダリングに変更されています|バグ|
 |CELLSJAVA-42290|グラフの TextBoxes に挿入された mdashes と ndashes が、グラフの PDF で正しくレンダリングされない|バグ|
 |CELLSJAVA-42338|SUMIFS 式を使用したときの間違った結果|バグ|
 |CELLSJAVA-42337|Aspose.Cells は計算ワークシートのセル B4 の値を計算できません|バグ|
-|CELLSJAVA-42330|スレッドを使用して Excel から PDF または PDF/A に変換すると、奇妙な結果が生じる|バグ|
+|CELLSJAVA-42330|スレッドを使用して Excel から PDF または PDF/A に変換すると奇妙な結果になる|バグ|
 |CELLSJAVA-42331|コメント作成者フィールドへの変更は保持されません|バグ|
 |CELLSJAVA-42328|間違った IconSet が返されました|バグ|
 |CELLSJAVA-42324|画像のデータを設定した後、グラフの背景が表示されない|バグ|
@@ -38,7 +38,7 @@ url: /ja/java/aspose-cells-for-java-17-7-release-notes/
 最初にワークブックの既定のフォントを使用して、フォントが正しく設定されていない文字を表示するかどうかを示します。
 ### **ImageOrPrintOptions.CheckWorkbookDefaultFont プロパティを追加します**
 最初にワークブックの既定のフォントを使用して、フォントが正しく設定されていない文字を表示するかどうかを示します。
-### **FileFormatType.Numbers、LoadFormat.Numbers、SaveFormat.Numbers 列挙型を追加**
+### **FileFormatType.Numbers、LoadFormat.Numbers、SaveFormat.Numbers列挙型を追加**
 Apple Inc/ による Numbers スプレッドシート ファイル形式を表します。
 ### **Worksheet.AdvancedFilter() メソッドを追加**
 複雑な基準を使用してデータをフィルタリングします。
@@ -65,7 +65,7 @@ GridWeb コントロールを現在のブラウザー ウィンドウ サイズ�
 ### **使用例**
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
-- [Aspose.Cells を使用して Apple Inc. が開発した数値スプレッドシートを読む](/cells/ja/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発](/cells/ja/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [PdfSaveOptions と ImageOrPrintOptions の DefaultFont プロパティを優先するように設定する](/cells/ja/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Microsoft Access データベース ResultSet オブジェクトからワークシートへのデータのインポート](/cells/ja/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Microsoft Excel の高度なフィルターを適用して、複雑な基準を満たすレコードを表示する](/cells/ja/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

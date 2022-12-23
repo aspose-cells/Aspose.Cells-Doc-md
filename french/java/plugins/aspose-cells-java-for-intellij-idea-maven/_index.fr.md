@@ -88,7 +88,7 @@ Pour télécharger IntelliJ IDEA
 
 [Installation de Aspose.Cells pour IntelliJ IDEA - Maven](/cells/fr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Installing)
 
-## **Utilisant**
+## **En utilisant**
 
 [Utilisation de Aspose.Cells pour IntelliJ IDEA - Maven](/cells/fr/java/installing-and-using-aspose-cells-for-intellij-idea-maven/#InstallingandUsingAspose.CellsforIntelliJIDEA-Maven-Using)
 

@@ -10,8 +10,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.6 per Win
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-292| Ottimizza i risultati della ricerca in nuget|Miglioramento|
-|CELLSCPP-283| Risolto bug del costruttore ArrayList|Insetto|
+|CELLSCPP-283|Risolto bug del costruttore ArrayList|Insetto|
 |CELLSCPP-284| Problema di inizializzazione di PathHelper|Insetto|

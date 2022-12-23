@@ -6,7 +6,7 @@ url: /es/java/managing-page-breaks/
 ---
 {{% alert color="primary" %}}
 
-Un salto de página es un lugar en el texto donde termina una página y comienza la siguiente. Microsoft Excel puede agregar saltos de página en cualquier celda seleccionada en una hoja de cálculo.
+Un salto de página es un lugar en el texto donde termina una página y comienza la siguiente. Microsoft Excel puede agregar saltos de página en cualquier celda seleccionada en una hoja de trabajo.
 La página termina en la celda donde se agrega el salto de página y todos los datos después del salto de página se imprimen en la página siguiente. En palabras simples, los saltos de página dividen las hojas de trabajo en varias páginas. También es posible agregar saltos de página a las hojas de trabajo en tiempo de ejecución usando Aspose.Cells. Aspose.Cells admite dos tipos de saltos de página:
 
 - horizontal
@@ -18,11 +18,11 @@ Este artículo describe cómo agregar saltos de página horizontales o verticale
 
 ## **Aspose.Cells y saltos de página**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase que proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para agregar los saltos de página, utilice el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**Saltos de página horizontales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)propiedades.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)clase que proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para agregar los saltos de página, utilice el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**Saltos de página horizontales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)propiedades.
 
- los[**Saltos de página horizontales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)Las propiedades son, de hecho, colecciones que pueden contener varios saltos de página. Cada colección contiene varios métodos para administrar los saltos de página horizontales y verticales. A continuación se explica cómo se utilizan estos métodos.
+ Él[**Saltos de página horizontales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#HorizontalPageBreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#VerticalPageBreaks)Las propiedades son, de hecho, colecciones que pueden contener varios saltos de página. Cada colección contiene varios métodos para administrar los saltos de página horizontales y verticales. A continuación se explica cómo se utilizan estos métodos.
 
 ## **Adición de saltos de página**
 

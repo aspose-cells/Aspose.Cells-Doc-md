@@ -24,15 +24,15 @@ Cuando se copia una fila (o columna), también se copian los datos contenidos en
 
  Aspose.Cells proporciona el[copia fila](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\) ) método de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)clase. Este método copia todos los tipos de datos, incluidas fórmulas, valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la fila de origen a la fila de destino.
 
- los[copia fila](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) método toma los siguientes parámetros:
+ Él[copia fila](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) método toma los siguientes parámetros:
 
 -  la fuente[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)objeto,
 - el índice de la fila de origen, y
 - el índice de la fila de destino.
 
- Utilice este método para copiar una fila dentro de una hoja o en otra hoja. los[copia fila](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) funciona de manera similar a Microsoft Excel. Entonces, por ejemplo, no necesita establecer la altura de la fila de destino explícitamente, ese valor también se copia.
+ Utilice este método para copiar una fila dentro de una hoja o en otra hoja. Él[copia fila](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) funciona de manera similar a Microsoft Excel. Entonces, por ejemplo, no necesita establecer la altura de la fila de destino explícitamente, ese valor también se copia.
 
-El siguiente ejemplo muestra cómo copiar una fila en una hoja de trabajo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
+El siguiente ejemplo muestra cómo copiar una fila en una hoja de cálculo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingRows-CopyingRows.java" >}}
 
@@ -71,7 +71,7 @@ Aquí está la vista de hoja de cálculo resultante después de ejecutar el frag
 
  Aspose.Cells proporciona el[copiarColumna](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\) ) método de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)clase, este método copia todo tipo de datos, incluidas fórmulas, con referencias actualizadas, y valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la columna de origen a la columna de destino.
 
- los[copiarColumna](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) método toma los siguientes parámetros:
+ Él[copiarColumna](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) método toma los siguientes parámetros:
 
 -  la fuente[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)objeto,
 - índice de la columna fuente, y

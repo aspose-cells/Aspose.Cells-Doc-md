@@ -10,7 +10,7 @@ Vous pouvez convertir la forme Smart Art en forme de groupe à l'aide de la[**Fo
 
 ## **Convertir l'art intelligent en forme de groupe**
 
-L'exemple de code suivant charge le[exemple de fichier Excel](55541806.xlsx)contenant une forme d'art intelligente, comme illustré dans cette capture d'écran. Il convertit ensuite la forme d'art intelligent en forme de groupe et imprime le[Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)propriété. Veuillez consulter la sortie de la console de l'exemple de code ci-dessous.
+L'exemple de code suivant charge le[exemple de fichier Excel](55541806.xlsx)contenant une forme d'art intelligente, comme illustré dans cette capture d'écran. Il convertit ensuite la forme d'art intelligent en forme de groupe et imprime le[Shape.IsGroup](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsGroup)la propriété. Veuillez consulter la sortie de la console de l'exemple de code ci-dessous.
 
 ![tâche : image_autre_texte](convert-the-smart-art-to-group-shape_1.png)
 

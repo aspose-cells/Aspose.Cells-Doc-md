@@ -32,7 +32,7 @@ Per creare una nuova query utilizzando un'origine dati esistente:
 
 
 
- Aspose.Cells.Report.Designer avvia Microsoft Query e si connette all'origine dati selezionata. Ora è possibile creare una nuova query con Microsoft Query.
+ Aspose.Cells.Report.Designer avvia Microsoft Query e si connette all'origine dati selezionata. È ora possibile creare una nuova query con Microsoft Query.
 
 **Creazione di una nuova query** 
 

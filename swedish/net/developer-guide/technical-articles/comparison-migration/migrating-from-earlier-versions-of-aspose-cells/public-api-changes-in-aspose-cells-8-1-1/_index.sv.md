@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.0
 
 {{% /alert %}} 
 ## **HtmlSaveOptions.PresentationPreference Property har lagts till**
-Klassen HtmlSaveOptions har exponerat egenskapen PresentationPreference som kan användas för att rendera resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är falskt. medan om satt till sant, kommer Aspose.Cells API att exportera kalkylbladets innehåll med bättre presentation.
+Klassen HtmlSaveOptions har exponerat egenskapen PresentationPreference som kan användas för att återge resultaten med bättre layout vid export av kalkylblad till HTML eller MHTML. Standardvärdet är falskt. medan om satt till sant, kommer Aspose.Cells API att exportera kalkylbladets innehåll med bättre presentation.
 
 {{% alert color="primary" %}} 
 

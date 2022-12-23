@@ -26,7 +26,7 @@ url: /zh/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50781|公式不像在 MS Excel 中那样计算|
 |CELLSNET-50861|包含 Cells.Find() 不适用于波浪字符|
 |CELLSNET-50879|Cell 的计算值在使用“计算”参数的真值刷新动态数组公式时未更新|
-|CELLSNET-50992|保存到 ODS 后自定义文档属性的日期时间值已更改|
+|CELLSNET-50992|保存到 ODS 后，自定义文档属性的日期时间值已更改|
 |CELLSNET-50953|在 GridDesktop 中禁用键盘复制/粘贴|
 |CELLSNET-50771|在 Excel 到 PDF 转换期间字体变为粗体|
 |CELLSNET-50924|Cell 转换为 html 后背景丢失|
@@ -34,7 +34,7 @@ url: /zh/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50962|使用 PdfSaveOptions.OnePagePerSheet 选项为大型工作簿中断保存过程的问题|
 |CELLSNET-50997|虚线单元格框轮廓在框高度的右侧断开|
 |CELLSNET-50865|图表到图像 - 未正确呈现|
-|CELLSNET-50952|XLS到XLSX转换改变了条件格式的双色渐变|
+|CELLSNET-50952|XLS to XLSX转换改变条件格式的双色渐变|
 |CELLSNET-50989|如果合并单元格，自动调整列的宽度不正确。|
 |CELLSNET-50987|调整梯形形状会导致“System.ArgumentOutOfRangeException”|
 |CELLSNET-50930| Aspose.Cells 22.1 进程无法访问文件异常|

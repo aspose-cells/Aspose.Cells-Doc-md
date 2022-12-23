@@ -17,7 +17,7 @@ Aspose.Cells for Python admite la protección y desprotección de la estructura 
 
 1.  Hacer clic**Revisar > Proteger libro**.
 1.  Introduzca una contraseña en**el cuadro de contraseña**.
-1.  Seleccione**OK** , vuelva a ingresar la contraseña para confirmarla y luego seleccione**OK** otra vez.
+1.  Seleccione**DE ACUERDO** , vuelva a ingresar la contraseña para confirmarla y luego seleccione**DE ACUERDO** de nuevo.
 
 
 ## **Proteger la estructura del libro de trabajo con Aspose.Cell for Python**

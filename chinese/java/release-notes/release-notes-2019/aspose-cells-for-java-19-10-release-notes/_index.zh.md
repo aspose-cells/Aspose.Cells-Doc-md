@@ -15,7 +15,7 @@ url: /zh/java/aspose-cells-for-java-19-10-release-notes/
 |CELLSJAVA-41814|支持数据透视表中特定区域的自定义数据排序|新功能|
 |CELLSJAVA-42988|calculateFormula() 的性能问题|强化|
 |CELLSJAVA-41103|数据透视表数据着色和格式未正确呈现|漏洞|
-|CELLSJAVA-43007|未按预期生成 PDF|漏洞|
+|CELLSJAVA-43007|PDF 没有按预期生成|漏洞|
 |CELLSJAVA-43025|Cell.getStyle.getCustom 返回德语语言环境的错误格式|漏洞|
 |CELLSJAVA-43013|加载 Excel 文件时出现 ArrayIndexOutOfBoundsException|例外|
 

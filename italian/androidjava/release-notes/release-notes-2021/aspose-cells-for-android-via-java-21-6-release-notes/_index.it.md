@@ -10,25 +10,25 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43396|La conversione di un foglio Excel in un file di testo rimuove le virgolette dall'inizio|
 |CELLSJAVA-43386|L'ordinamento non funziona quando i dati contengono caratteri non alfanumerici|
 |CELLSJAVA-43452|Il calendario giapponese che utilizza una funzione di Excel non viene letto correttamente|
 |CELLSJAVA-43466|CellsException: errore per ZipFile durante l'importazione di ods|
 |CELLSJAVA-43403|Posizionamento del testo spostato a sinistra durante il salvataggio come HTML|
-|CELLSJAVA-43421|caratteri di escape e di interruzione di riga non vengono visualizzati correttamente durante la conversione da HTML a Excel|
-|CELLSJAVA-43427|Formato condizionale con barre dei dati Mostra i valori nell'esportazione HTML|
+|CELLSJAVA-43421|caratteri di escape e di interruzione di riga non vengono visualizzati correttamente durante la conversione di HTML in Excel|
+|CELLSJAVA-43427|Il formato condizionale con le barre dei dati mostra i valori nell'esportazione HTML|
 |CELLSJAVA-43428| Il formato contabile combinato con il carattere a 6 punti distorce i numeri in HTML|
 |CELLSJAVA-43429|Il testo con allineamento verticale del testo scompare in HTML|
 |CELLSJAVA-43407|Le formule di Excel vengono saltate/modificate dopo il salvataggio del file|
-|CELLSJAVA-43419| Formato numerico personalizzato non visualizzato correttamente nel PDF|
+|CELLSJAVA-43419| Formato numerico personalizzato non visualizzato correttamente in PDF|
 |CELLSJAVA-43374|Etichette del grafico ripetute durante la conversione dei file Excel allegati in PDF|
 |CELLSJAVA-43409| Le etichette dei dati imprevisti sono apparse nell'immagine di output del grafico|
 |CELLSJAVA-43411|Gli avvisi di sostituzione dei caratteri non funzionano nella conversione da grafico a immagine|
 |CELLSJAVA-43414|Problema di conversione da Xls a Pdf|
 |CELLSJAVA-43425|Intestazione-Piè di pagina non disponibile nella prima pagina se esportato in Excel|
-|CELLSJAVA-43433|L'immagine di riferimento non viene visualizzata in PDF|
+|CELLSJAVA-43433|L'immagine di riferimento non è renderizzata in PDF|
 |CELLSJAVA-43434|La formula dinamica SmartMarker ha uno stile di cella in espansione errato|
 |CELLSJAVA-43435| La formula dinamica degli indicatori intelligenti inserisce le celle in base alla colonna espansa a sinistra ma non in base alle colonne nella formula|
 |CELLSJAVA-43450|Problema di aggiornamento della tabella pivot|
@@ -38,7 +38,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43457|Ciclo infinito durante il salvataggio della cartella di lavoro copiata|
 |CELLSJAVA-43442|Problema con l'ordinamento dei dati quando si fa clic sui collegamenti di intestazione nella demo primaverile di GridWeb|
 |CELLSJAVA-43443|Problema con la modalità di modifica in GridWeb Java|
-|CELLSJAVA-43455|I caratteri non vengono incorporati nel PDF per i caratteri non ASCII durante l'impostazione di EmbedStandardWindowsFonts su false|
+|CELLSJAVA-43455|I caratteri non sono incorporati in PDF per i caratteri non ASCII durante l'impostazione di EmbedStandardWindowsFonts su false|
 |CELLSJAVA-43449|Impossibile cambiare la famiglia di caratteri degli elementi del grafico da "Calibri" ad "Aktiv Grotesk"|
 |CELLSJAVA-43454|Le etichette dell'asse X sono tagliate|
 |CELLSJAVA-43445|Regressione: dati di riga mancanti per i file .numbers|
@@ -51,13 +51,13 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43498|Il risultato formattato del valore numerico non è corretto per la locale zh_CN|
 |CELLSJAVA-43451|Il contenuto del file Excel viene visualizzato in modo errato e la demo di ChangeStyle (primavera) non funziona correttamente|
 |CELLSJAVA-43484|Il layout del contenuto non è coerente nel rendering da Excel a PDF|
-|CELLSJAVA-43465|Mancano alcune serie di grafici durante la conversione di Excel in PDF|
-|CELLSJAVA-43468|Problema con l'equazione della linea retta nel rendering da Excel a PDF|
+|CELLSJAVA-43465|Mancano poche serie di grafici durante la conversione di Excel in PDF|
+|CELLSJAVA-43468|Problema con l'equazione della linea retta in Excel per il rendering PDF|
 |CELLSJAVA-43432|Il contenuto del grafico non corrispondeva durante il nuovo salvataggio di un formato di file XLS|
 |CELLSJAVA-43475|Regressione: le celle a capo rigato vengono tagliate|
-|CELLSJAVA-43478|Regressione: NUMERI in PDF, molti dati mancanti|
-|CELLSJAVA-43485|Regressione: contenuto extra durante il rendering di PDF da ODS|
-|CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione del nome" nell'output XLS e XLSX|
+|CELLSJAVA-43478|Regressione: NUMERI a PDF, molti dati mancanti|
+|CELLSJAVA-43485|Regressione: contenuto extra durante il rendering PDF da ODS|
+|CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione nome" nell'output XLS e XLSX|
 |CELLSJAVA-43417|Eccezione sollevata durante l'apertura di XLSX da file di grandi dimensioni|
 |CELLSJAVA-43431|java.lang.NullPointerException sollevata durante la chiamata a Cells.deleteColumn() con l'ultima versione 21.3 mentre funziona con 21.2|
 |CELLSJAVA-43437|IndexOutOfBoundsException quando si fa clic su altre pagine del foglio in modalità di valutazione|
@@ -67,9 +67,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43453|NullPointerException sul metodo Workbook.save|
 |CELLSJAVA-43486|NullPointerException durante la conversione di un documento HTML in una cartella di lavoro|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge i metodi StartAccessCache()/CloseAccessCache() per la cartella di lavoro e il foglio di lavoro.**
 
@@ -77,7 +77,7 @@ Fornire agli utenti la possibilità di accedere ai dati in modalità batch con p
 
 ### **Aggiunge le proprietà TxtSaveOptions.ExportQuotePrefix e TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Fornisci agli utenti la possibilità di decidere come fare con le virgolette singole iniziali del valore della cella durante l'esportazione/importazione di file CSV/TSV.
+Fornire agli utenti la possibilità di decidere come fare con le virgolette singole iniziali del valore della cella durante l'esportazione/importazione di file CSV/TSV.
 
 ### **Aggiunge i metodi GlobalizationSettings.GetCollationKey(string,bool) e Compare(string,string,bool).**
 

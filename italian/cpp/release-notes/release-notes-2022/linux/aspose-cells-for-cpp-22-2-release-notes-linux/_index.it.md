@@ -12,6 +12,6 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.2 per Lin
 
 Siamo lieti di annunciare il rilascio di Aspose.Cells for C++ 22.2 per Linux.
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-676| Ottimizza le prestazioni|Miglioramento|

@@ -21,7 +21,7 @@ url: /sv/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-46412|Licensen fungerar inte i releaseversionen av MVC-applikationen när den distribueras på IIS-servern|Förbättring|
 |CELLSNET-47888|Lämpliga SmartMarkers krävs för att uppnå önskad effekt|Förbättring|
 |CELLSNET-48452|Stöd läsning av bildformulär nummer 09-filer.|Förbättring|
-|CELLSNET-48372|Vänta spara till html för XLSB-filen|Prestanda|
+|CELLSNET-48372|Vänta på spara till html för XLSB-filen|Prestanda|
 |CELLSNET-48091|Objekt med rotation är förvrängt.|Insekt|
 |CELLSNET-48173|Flytta in texterna i diagramformerna|Insekt|
 |CELLSNET-48241|Textpositionen i pentagonformen är fel|Insekt|
@@ -30,11 +30,11 @@ url: /sv/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-47839|Forma till bild Fel när XLSX sparades till PDF|Insekt|
 |CELLSNET-48312|Problem med zoomnivån i output html.|Insekt|
 |CELLSNET-48329|Bildjusteringsproblem vid export av intervall till HTML|Insekt|
-|CELLSNET-48333| Tabellkolumner i intervall med bottenjustering kombineras i konverterad HTML|Insekt|
+|CELLSNET-48333| Tabellkolumner i intervallet med bottenjustering kombineras i konverterade HTML|Insekt|
 |CELLSNET-48365| Slicers skapade från pivottabellens basfält fungerar inte|Insekt|
 |CELLSNET-48359|Makron tas bort efter migrering från XLS till XLSM|Insekt|
 |CELLSNET-48448|Diagramdatakällan med namngivet intervall har inte analyserats korrekt|Insekt|
-|CELLSNET-47369|Kartpunkten saknas och formen kläms in i genererad EMF-bild|Insekt|
+|CELLSNET-47369|Kartpunkt saknas och formen kläms in genererad EMF-bild|Insekt|
 |CELLSNET-48497|Den genererade xlsx-filen är trasig efter att cellen har länkats till XmlMap|Insekt|
 |CELLSNET-48132| Problem när du ändrar dataetikettposition för Donut Chart|Insekt|
 |CELLSNET-48385|XLSX till TIFF: Grafstaplar återges inte i utdata|Insekt|
@@ -52,8 +52,8 @@ url: /sv/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48477|PivotTable.CalculateData-metoden ger undantag|Undantag|
 |CELLSNET-48395|Shape to image raise undantag i docker-miljö för filen Display.xlsx|Undantag|
 |CELLSNET-48367|Undantag görs när PlotArea-bredden är 0|Undantag|
-|CELLSNET-48172|"Shape to image error" vid konvertering av Excel-fil till PDF|Undantag|
-|CELLSNET-48490|"Aritmetisk operation resulterade i ett spill." undantag när XLS-filen öppnas|Undantag|
+|CELLSNET-48172|"Shape to image-fel" vid konvertering av Excel-fil till PDF|Undantag|
+|CELLSNET-48490|"Aritmetisk operation resulterade i ett spill." undantag när filen XLS är öppen|Undantag|
 |CELLSNET-48545|Undantag uppstod när Shape.UpdateSelectedValue() anropades|Undantag|
 |
 

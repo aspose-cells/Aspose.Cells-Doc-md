@@ -7,13 +7,13 @@ url: /ru/java/comments-and-notes/
 description: Вставляйте и управляйте комментариями или примечаниями с помощью Aspose.Cells для java.
 keywords: insert comments, insert notes
 ---
-## **Введение**
+## **Вступление**
 
 Комментарии используются для добавления дополнительной информации к ячейкам. Aspose.Cells предоставляет два метода добавления комментариев к ячейкам. Первый заключается в создании комментариев в файле конструктора вручную. Затем эти комментарии импортируются с использованием Aspose.Cells. Второй способ — добавить комментарии с использованием Aspose.Cells API во время выполнения. В этом разделе обсуждается добавление комментариев к ячейкам с помощью Aspose.Cells API. Также будет объяснено форматирование комментариев.
 
 ## **Добавление комментария**
 
- Добавьте комментарий к ячейке, вызвав метод[**Комментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) коллекция**Добавлять** метод (инкапсулированный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) объект). Новый[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) доступ к объекту возможен из[**Комментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) коллекции, передав индекс комментария. После доступа к[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) объект, настройте примечание комментария с помощью[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) объекты[**Примечание**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)имущество.
+ Добавьте комментарий к ячейке, вызвав метод[**Комментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) коллекция**Добавлять** метод (инкапсулированный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) объект). Новый[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) доступ к объекту возможен из[**Комментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) коллекции, передав индекс комментария. После доступа к[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) объект, настройте примечание комментария с помощью[**Комментарий**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) объекты[**Запись**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)имущество.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
@@ -33,11 +33,11 @@ keywords: insert comments, insert notes
 1.  Выбирать**Формат** , тогда**Комментарий**.
 1.  На**Цвета и линии** вкладку, разверните**Цвет** список.
 1.  Нажмите**Эффекты заливки**.
-1.  На**Картина** вкладка, нажмите**Выберите изображение**.
+1.  На**Рисунок** вкладка, нажмите**Выберите изображение**.
 1. Найдите и выберите изображение.
 1.  Нажмите**ХОРОШО** пока не закроются все диалоги.
 
-Aspose.Cells также предоставляет эту функцию. Ниже приведен пример кода, который создает файл XLSX с нуля, добавляя комментарий к ячейке «A1» с изображением, установленным в качестве фона.
+Aspose.Cells также предоставляет эту функцию. Ниже приведен пример кода, который создает файл XLSX с нуля, добавляя комментарий к ячейке «A1» с изображением в качестве фона.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 

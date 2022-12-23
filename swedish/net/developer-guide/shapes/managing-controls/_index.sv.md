@@ -10,7 +10,7 @@ Utvecklare kan lägga till olika ritobjekt såsom textrutor, kryssrutor, radiokn
 
 ## **Lägga till textrutekontroll till ett kalkylblad**
 
- Ett sätt att betona viktig information i en rapport är att använda en textruta. Till exempel, lägg till text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning etc. Aspose.Cells ger[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) klass, används för att lägga till en ny textruta i samlingen. Det finns en annan klass,[**Textruta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox), som representerar en textruta som används för att definiera alla typer av inställningar. Den har några viktiga medlemmar:
+ Ett sätt att betona viktig information i en rapport är att använda en textruta. Till exempel, lägg till text för att markera företagsnamnet eller för att ange den geografiska region med högst försäljning etc. Aspose.Cells ger[**TextBoxCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) klass, används för att lägga till en ny textruta i samlingen. Det finns en annan klass,[**Textruta**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)som representerar en textruta som används för att definiera alla typer av inställningar. Den har några viktiga medlemmar:
 
 -  De[**TextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) egendom returnerar a[**MsoTextFrame**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) objekt som används för att justera innehållet i textrutan.
 -  De[**Placering**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) egenskapen anger placeringstypen.
@@ -155,7 +155,7 @@ Följande exempel visar hur man lägger till en listruta i kalkylbladet.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingListBoxControl-1.cs" >}}
 
-## **Lägga till knappkontroll till ett kalkylblad**
+## **Lägga till knappkontroll till ett arbetsblad**
 
 Knappar är användbara för att utföra vissa åtgärder. Ibland är det användbart att tilldela ett VBA-makro till knappen eller tilldela en hyperlänk för att öppna en webbsida.
 
@@ -186,7 +186,7 @@ Följande exempel visar hur man lägger till en knapp i kalkylbladet.
 
 ### **Använder Microsoft Excel**
 
-1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**och välj den linjestil du vill ha.
+1.  På**Teckning** verktygsfältet, klicka**AutoShapes** , peka mot**Rader**, och välj den linjestil du vill ha.
 1. Dra för att rita linjen.
 1. Gör ett eller båda av följande:
  1. För att begränsa linjen att rita i 15 graders vinkel från dess startpunkt, håll ned SKIFT medan du drar.
@@ -203,7 +203,7 @@ Följande exempel visar hur man lägger till rader i kalkylbladet. Det skapar tr
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Controls-AddingLineControl-1.cs" >}}
 
-### **Lägga till ett pilhuvud till en linje**
+### **Lägga till ett pilhuvud på en linje**
 
 Aspose.Cells låter dig också rita pillinjer. Det är möjligt att lägga till en pilspets på en linje och att formatera linjen. Du kan till exempel ändra färgen på linjen eller ange linjens vikt och stil.
 
@@ -321,7 +321,7 @@ En rullningslistskontroll används för att hjälpa till att välja data på ett
 ### **Använder Microsoft Excel**
 
 - För att lägga till en rullningslist i Excel 2003 och i tidigare versioner, klicka på*Rullningslist* knappen på*Blanketter* verktygsfältet och skapa sedan en rullningslist som täcker cellerna B2:B6 på höjden och är ungefär en fjärdedel av spaltens bredd.
--  För att lägga till en rullningslist i Excel 2007, klicka på*Utvecklaren* fliken, klicka*Föra in* , och klicka sedan*Rullningslist* i avsnittet Formulärkontroller.
+-  För att lägga till en rullningslist i Excel 2007, klicka på*Utvecklare* fliken, klicka*Föra in* , och klicka sedan*Rullningslist* i avsnittet Formulärkontroller.
 -  Högerklicka på rullningslisten och klicka sedan*Formatkontroll*.
 -  Skriv in följande information och klicka*OK*:
  - I*Nuvarande värde* box, typ 1.
@@ -356,7 +356,7 @@ Ibland behöver du implementera radioknappar eller andra kontroller som tillhör
 
 ### **Använder Microsoft Excel**
 
-Så här placerar du en grupprutakontroll i ditt kalkylblad och placerar kontroller i den:
+Så här placerar du en grupprutakontroll i ditt kalkylblad och placerar kontroller i det:
 
 -  För att starta ett formulär, klicka på huvudmenyn*Se* , följd av*Verktygsfält* och*Blanketter*.
 -  På*Blanketter* verktygsfältet, klicka på*Grupplåda* och rita en rektangel på arbetsbladet.

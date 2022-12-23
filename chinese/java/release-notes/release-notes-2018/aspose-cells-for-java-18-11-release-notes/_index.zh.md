@@ -12,7 +12,7 @@ url: /zh/java/aspose-cells-for-java-18-11-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-42738|从 XLSX 中读取的验证值计数错误|强化|
+|CELLSJAVA-42738|从 XLSX 读取错误计数的验证值|强化|
 |CELLSJAVA-42734|将连续的定界符视为不同时发出问题|强化|
 |CELLSJAVA-42739|Aspose.Cells.GridWeb(Java)在多用户环境下并发使用时崩溃|漏洞|
 |CELLSJAVA-42737|XLSX->PNG 转换中缺少图表线|漏洞|

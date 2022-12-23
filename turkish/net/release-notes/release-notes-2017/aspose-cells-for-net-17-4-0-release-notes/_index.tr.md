@@ -18,46 +18,46 @@ url: /tr/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45278|SetColumnHeaderToolTip(int colIndex, string toolTip) işlevi daha yeni API'lerde eksik - Aspose.Cells.GridWeb|Yeni özellik|
 |CELLSNET-45201|GridWeb için filtre listesini çoklu onay kutusu seçim listesine değiştirin|Yeni özellik|
 |CELLSNET-42557|GridWeb'e yüklenirken PivotTable Gruplaması ve Pivot Rapor Filtresi seçimi kayboluyor|Yeni özellik|
-|CELLSNET-45281|Mini grafikler, PDF'ye dönüştürüldükten sonra kayboluyor|Artırma|
+|CELLSNET-45281|Mini grafikler, PDF'e dönüştürüldükten sonra kayboluyor|Artırma|
 |CELLSNET-45280|Mini grafikler, dosyayı yeniden kaydettikten sonra kayboluyor|Artırma|
-|CELLSNET-44438|CSV'yi PDF'ye kaydederken OutOfMemoryException|Verim|
-|CELLSNET-45231|SpreadsheetML içeriğindeki biçim etiketi yükleme sırasında askıda kalıyor|Verim|
+|CELLSNET-44438|CSV'i PDF'e kaydederken OutOfMemoryException|Verim|
+|CELLSNET-45231|SpreadsheetML içeriğindeki format etiketi yükleme sırasında takılıyor|Verim|
 |CELLSNET-45219|Kaynak kodunda string.ToUpper() yöntemine (mümkünse) yapılan bazı çağrıları kaldırın|Verim|
-|CELLSNET-45242|İşlenen PDF dosyasında bazı şekiller ayrılmış/bozuk ve soluk görünüyor|Böcek|
-|CELLSNET-45275|Çalışma sayfasının kaldırılması, bozuk bir XLSM'nin kaydedilmesine neden olur|Böcek|
-|CELLSNET-45262|Çalışma sayfasını hücrelerde taşan metinle HTML olarak kaydetme|Böcek|
-|CELLSNET-45248|Excel'den HTML'ye dönüştürmede bazı metinler örtüşüyor veya görünmüyor ve dikey hizalama doğru değil|Böcek|
-|CELLSNET-45229|HTML, XLSX olarak kaydedildiğinde, metin düzeni farklıdır|Böcek|
-|CELLSNET-45228|HTML, XLSX olarak kaydedildiğinde, metin biçimi değiştirilir|Böcek|
+|CELLSNET-45242|İşlenen PDF dosyasında bazı şekiller ayrılmış/bozuk ve soluk|Böcek|
+|CELLSNET-45275|Çalışma sayfasının kaldırılması, bozuk bir XLSM dosyasının kaydedilmesine neden oluyor|Böcek|
+|CELLSNET-45262|Çalışma sayfası, hücrelerde taşan metinle HTML olarak kaydediliyor|Böcek|
+|CELLSNET-45248|Excel'de bazı metinler üst üste biniyor veya görünmüyor ve dikey hizalama, HTML oluşturmaya uygun değil|Böcek|
+|CELLSNET-45229|HTML, XLSX olarak kaydedildiğinde, metin düzeni farklı|Böcek|
+|CELLSNET-45228|HTML, XLSX olarak kaydedildiğinde, metin formatı değiştirilir|Böcek|
 |CELLSNET-45227|HTML, XLSX olarak kaydedildiğinde içeriğin bir kısmı eksik|Böcek|
-|CELLSNET-45195|HTML'yi yüklerken ve XLSX olarak kaydederken, paragraflar eksik ve değiştirilmiş|Böcek|
+|CELLSNET-45195|HTML yükleyip XLSX olarak kaydedince paragraflar eksik ve değişti|Böcek|
 |CELLSNET-45254|Pivot Filtre Metni ile ilgili sorun|Böcek|
 |CELLSNET-45267|Pivot Tabloda sayı biçimi düzgün çalışmıyor|Böcek|
 |CELLSNET-45170|Bazı metinler diğer hücrelerle örtüşüyor ve dikey hizalama doğru değil|Böcek|
 |CELLSNET-45263|CSV dosyasından 1900 civarındaki tarihleri içe aktarırken sorun oluştu|Böcek|
-|CELLSNET-45283|PDF optimizasyon türünü "Minimum Boyut" olarak ayarlarken çıktı PDF dosyasında yazı tipi daha kalın|Böcek|
-|CELLSNET-45265|Çıktı görüntüsünde/PDF'de yazı tipi değişti|Böcek|
+|CELLSNET-45283|PDF optimizasyon türünü "MinimumBoyut" olarak ayarlarken, PDF çıktı dosyasında yazı tipi daha kalın|Böcek|
+|CELLSNET-45265|Çıktı görüntüsünde yazı tipi değiştirildi/PDF|Böcek|
 |CELLSNET-45235|Excel ve Aspose.Cells Pdf'leri Arasında Hafif Dikey Hizalama Farkı|Böcek|
 |CELLSNET-45272|Yazı tipi farklı ve çıktı PDF dosyasında yüzde işareti eksik|Böcek|
 |CELLSNET-45233|Grafiklerde "Eksen Başlığı" bulunur|Böcek|
-|CELLSNET-45232|3B Sütun grafikleri, çıktı PDF dosyasında iyi işlenmez|Böcek|
-|CELLSNET-45188|Kategori ekseni etiketleri, çıktı PDF'sinde grafiği göstermiyor|Böcek|
-|CELLSNET-45292|Çalışma sayfasının XLSM'de silinmesi, vba projesinde kalan bir sayfanın arkasında kalıyor|Böcek|
+|CELLSNET-45232|3B Sütun grafikleri, PDF çıktı dosyasında iyi işlenmez|Böcek|
+|CELLSNET-45188|PDF çıktısında kategori eksen etiketleri grafiğin gösterilmiyor|Böcek|
+|CELLSNET-45292|XLSM'deki çalışma sayfasının silinmesi, vba projesinde kalan bir sayfanın arkasında kalıyor|Böcek|
 |CELLSNET-45286|Belirli bir dosya kaydedildiğinde, çıktı bozuk|Böcek|
 |CELLSNET-45285|Kaydettikten sonra Excel belgeleri bozuluyor|Böcek|
 |CELLSNET-45261|Excel tablolarındaki 'DAYS' formülü, bir NamedRange ile değiştiriliyor|Böcek|
 |CELLSNET-45260|LightAngle değerinin ayarlanması Excel dosyasını bozar|Böcek|
 |CELLSNET-45253|Harici çalışma kitabına bağlanan formülleri bozan satırlar ekleme|Böcek|
-|CELLSNET-45252|Belirli bir XLS'de yeniden kaydedildikten sonra tablo stili değiştirildi (Tablo satırları eksik)|Böcek|
+|CELLSNET-45252|Belirli bir XLS'de yeniden kaydedildikten sonra tablo stili değiştirildi (Tablo satırları eksik).|Böcek|
 |CELLSNET-45249|Aspose.Cells sıralaması iyi ancak formüller değerlere dönüştürülüyor|Böcek|
 |CELLSNET-45244|Cells yukarı kaydırma seçeneğiyle aralık silme, hücrelerde stil oluşturmuyor|Böcek|
 |CELLSNET-45241|Çalışma kitabı açıldıktan ve kaydedildikten sonra bozuluyor|Böcek|
-|CELLSNET-45237|Datatable, bir XLSX'te düzgün bir şekilde aşağı kaydırılmıyor|Böcek|
-|CELLSNET-45236|Parola korumalı bir XLSX dosyasının çalışma sayfaları okunamıyor|Böcek|
+|CELLSNET-45237|Datatable, bir XLSX'de düzgün şekilde aşağı kaydırılmıyor|Böcek|
+|CELLSNET-45236|Parola korumalı XLSX dosyasının çalışma sayfaları okunamıyor|Böcek|
 |CELLSNET-45234|Cells.DeleteRange() düzgün çalışmıyor|Böcek|
 |CELLSNET-45226|OleObject.ObjectSourceFullName özelliği güncellenemiyor|Böcek|
 |CELLSNET-45225|Cells yukarı kaydırma seçeneğiyle aralık silme, köprü sayısını azaltmaz|Böcek|
-|CELLSNET-45220|Bir XLS'de tek satır verileri çoğaltılırken yanlış köprüler sayılır|Böcek|
+|CELLSNET-45220|Bir XLS'deki tek satırlı verileri çoğaltırken yanlış köprü sayısı|Böcek|
 |CELLSNET-45215|Dizinin Input2.xlsx'te taşınması, başlangıçta Excel'in çökmesine neden olan açılamaz bir dosyayla sonuçlanır|Böcek|
 |CELLSNET-45214|Dizideki başvuru, başvurulan hücreler Input.xlsx'te taşındığında güncellenmiyor|Böcek|
 |CELLSNET-45191|Şekil için arka planı değiştir çalışmıyor|Böcek|
@@ -67,9 +67,9 @@ url: /tr/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45257|Hücrelere değer eklerken/yapıştırırken kaybolan hücrelerin hizalaması|Böcek|
 |CELLSNET-45251|Yüzde değeri NaN olarak değişir|Böcek|
 |CELLSNET-44555|Yüzde biçiminde bir hücrenin değerini ayarlama sorunu|Böcek|
-|CELLSNET-44975|Excel PDF'ye dönüştürüldüğünde şekil metinlerinin içindeki biçimlendirme hatası|İstisna|
+|CELLSNET-44975|Excel PDF'e dönüştürüldüğünde şekil metinlerinin içindeki biçimlendirme hatası|İstisna|
 |CELLSNET-45266|VbaProject.Sign bir istisnaya neden oluyor|İstisna|
-|CELLSNET-45239|Bir resmi aynı XLS'ye yeniden eklemek, Null Reference hatası veriyor|İstisna|
+|CELLSNET-45239|Aynı XLS'e bir resmin yeniden eklenmesi Null Reference hatası veriyor|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **VbaProject.Protect(bool islockedForViewing,string password) yöntemini ekler**

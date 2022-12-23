@@ -27,17 +27,17 @@ url: /ja/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop が大きなサイズのファイルをロードするのに時間がかかる|バグ|
 |CELLSNET-47043|保護されたシートのセルを GridDesktop に選択できません|バグ|
 |CELLSNET-47117|Aspose.Cells 20.1 XAdES 署名を使用して以前に署名されたファイルを読み取るときに、XAdES タイプが定義されていません|バグ|
-|CELLSNET-47081|グラフを PDF にレンダリング|バグ|
+|CELLSNET-47081|PDF へのレンダリング チャート|バグ|
 |CELLSNET-47085|軸ラベルのテキスト方向が「積み上げ」の場合、グラフが正しく表示されない|バグ|
 |CELLSNET-47112|グラフから画像への変換が失敗する|バグ|
-|CELLSNET-47133|PDF へのエクスポート時の矛盾|バグ|
+|CELLSNET-47133|PDF へのエクスポート時の不一致|バグ|
 |CELLSNET-47107|条件付き書式オブジェクトが IsAboveAverage 属性に対して誤った結果を返す|バグ|
 |CELLSNET-47114|Workbook RemoveExternalLinks でドキュメントが破損する|バグ|
 |CELLSNET-47139|外部リンク式を含む ODS ファイルに余分なワークシートが表示される|バグ|
 |CELLSNET-47145|ODS ファイルを開いて保存すると、名前付き範囲が消える|バグ|
 |CELLSNET-47146|ファイルが開かない|バグ|
 |CELLSNET-47147|シート コード名の問題|バグ|
-|CELLSNET-47153|保存後に ODS グラフが変化する|バグ|
+|CELLSNET-47153|ODS 保存後にグラフが変化しています|バグ|
 |CELLSNET-47157|外部リンクの数が間違っています|バグ|
 |CELLSNET-47164|MS Excel とは異なる IsItalic プロパティの検出|バグ|
 |CELLSNET-47169|ParetoLine チャートで CategoryType.CategoryScale が設定されていません|バグ|

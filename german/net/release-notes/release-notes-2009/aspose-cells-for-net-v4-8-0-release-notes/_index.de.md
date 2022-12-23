@@ -22,7 +22,7 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Verbessern Sie die Leistung der Funktion zum automatischen Anpassen von Zeilen/Spalten
 
- l Hinzufügen von WordArt-Formen zur XLS-Datei
+ l WordArt-Formen zur Datei XLS hinzufügen
 
  Lesen Sie Verlaufsfülleffekte für das Diagramm
 
@@ -45,20 +45,20 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
 |8741 | Diagramm2Bild| Chart2Image-Probleme|
-|8749 | Diagramm2Bild| Diagramme werden nicht in Excel PDF angezeigt|
+|8749 | Diagramm2Bild| Diagramme werden in Excel PDF nicht angezeigt|
 |9712 | Diagramm2Bild| Unterstützt gruppierte Form zum Bild|
 |9766 | Diagramm2Bild| Nullwerte erhalten|
-|8738 | CSV| Das Laden einer CSV-Datei ist fehlgeschlagen|
-|8737 | CSV| Das Öffnen der CSV-Datei scheint in die Konsole zu schreiben|
-|8984 | HTML| Langsame Leistung beim Speichern der Arbeitsmappe als HTML|
+|8738 |CSV | Das Laden einer CSV-Datei ist fehlgeschlagen|
+|8737 |CSV | Das Öffnen der CSV-Datei scheint in die Konsole zu schreiben|
+|8984 |HTML | Langsame Leistung beim Speichern der Arbeitsmappe als HTML|
 |7915 | Pdf| Das Problem der Konvertierung von Zellen in pdf|
-|8669 | Pdf| Problem bei der Konvertierung von Excel in PDF|
+|8669 | Pdf| Excel zu PDF Konvertierungsproblem|
 |8672 | Pdf| Unterschied in der Ausgabe beim Generieren einer Excel-Datei in eine PDF-Datei|
-|8678 | Pdf| Cells In PDF, Fußzeilenbild ist verschwommen|
-|8749 | Pdf| Diagramme werden nicht in Excel PDF angezeigt|
-|8986 | Pdf| Konvertieren von Excel in PDF|
-|8988 | Pdf|Speichern der Arbeitsmappe als PDF defekt|
-|9608 | Pdf| XLS-Konvertierungsproblem (negative Länge?)|
+|8678 | Pdf| Cells bis PDF, Fußzeilenbild ist verschwommen|
+|8749 | Pdf| Diagramme werden in Excel PDF nicht angezeigt|
+|8986 | Pdf|Konvertieren von Excel in PDF|
+|8988 | Pdf| Speichern der Arbeitsmappe als PDF defekt|
+|9608 | Pdf| XLS Konvertierungsproblem (negative Länge?)|
 |9609 | Pdf| Speichern in FileFormatType.Pdf mit Multithread-Implementierung|
 |9670 | Pdf| Excel2PDF mit gruppierter Formausgabe|
 |9761 | Pdf| Fehler beim Speichern als Aspose.Pdf.xml|
@@ -77,9 +77,9 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | SpreadML| Fehler beim Öffnen und Speichern der Datei|
 |9610 | SpreadML| Ausgeblendete Spalten verlieren ihre Breiteninformationen|
 |7916 | XLs| Aktualisieren Sie die Fixierungsfenster beim Einfügen/Löschen von Zeilen/Spalten|
-|8588 | XLs| Problem beim Berechnen von Array-Formeln|
+|8588 | XLs|Problem beim Berechnen von Array-Formeln|
 |8590 | XLs| Blätter kopieren|
-|8604 | XLs|Problem beim Kopieren von Zeilen.|
+|8604 | XLs| Problem beim Kopieren von Zeilen.|
 |8668 | XLs| Problem mit der Smart-Marker-Gruppe beim Zusammenführen|
 |8673 | XLs| Fehler bei SUMMEWENN und Rechenformel|
 |8676 | XLs| Datenbeschriftungen des Kreisdiagramms|
@@ -100,9 +100,9 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | XLs| Extrem langsame Leistung von AutoFitColumns|
 |9266 | XLs| Formel wird nicht berechnet|
 |9267 | XLs| Dropdown-Liste für bedingte Validierung|
-|9293 | XLs| CalculateFormula wird nicht berechnet|
+|9293 | XLs|CalculateFormula wird nicht berechnet|
 |9488 | XLs| Das Problem beim Öffnen der XLS-Datei.|
-|9501 | XLs|DeleteRows löscht keine eingebetteten Bilder|
+|9501 | XLs| DeleteRows löscht keine eingebetteten Bilder|
 |9545 | XLs| SetDataSource() löst einen Fehler aus|
 |9546 | XLs| Falsche Farbe der Zahlen|
 |9672 | XLs| Fehler bei der Suchfunktion berechnen|
@@ -122,9 +122,9 @@ url: /de/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | XLs| Smart Marker-Zwischensummenzeilen - Dynamische Formel für statischen Text|
 |10153 | XLs| AutoFitRows(), wenn die Spalte ausgeblendet ist|
 |10158 | XLs| Diagramm nach Namen abrufen|
-|8587 | XLs| Bilder / Formen bestellen|
+|8587 | XLs|Bilder / Formen bestellen|
 |9062 | XLs| Überlauf-/Unterlaufprobleme bei ExportDataTable|
-|9707 | XLs|Druckbereich wird beim Löschen von Spalten/Zeilen nicht aktualisiert|
+|9707 | XLs| Druckbereich wird beim Löschen von Spalten/Zeilen nicht aktualisiert|
 |10038 | XLs| Zwischensumme - SummaryBelowData|
 |10041 | XLs| Groß-/Kleinschreibung beachten.|
 |8419 | XLSX| XLSX-Datei kann nicht gelesen werden|

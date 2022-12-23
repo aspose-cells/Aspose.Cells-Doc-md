@@ -8,7 +8,7 @@ url: /fr/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 Parfois, vous devez insérer certaines formes nécessaires dans la feuille de calcul. Vous devrez peut-être insérer la même forme dans différentes positions de la feuille de calcul. Ou vous devez insérer des formes par lots dans la feuille de calcul.
 
- Ne t'en fais pas![Aspose.Cells](https://products.aspose.com/cells/) prend en charge toutes ces opérations.
+ Ne t'en fais pas![Aspose.Cells](https://products.aspose.com/cells/)prend en charge toutes ces opérations.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Les formes dans Excel sont principalement divisées en types suivants :
 - **Étoiles et bannières**
 - **Légendes**
 
-Ce document guide sélectionnera une ou deux formes de chaque type pour créer des échantillons. Grâce à ces exemples, vous apprendrez à utiliser[Aspose.Cells](https://products.aspose.com/cells/) pour insérer la forme spécifiée dans la feuille de calcul.
+ Ce document guide sélectionnera une ou deux formes de chaque type pour créer des échantillons. Grâce à ces exemples, vous apprendrez à utiliser[Aspose.Cells](https://products.aspose.com/cells/) pour insérer la forme spécifiée dans la feuille de calcul.
 
 
 
@@ -46,7 +46,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une ligne dans la feuill
 
 [public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -62,7 +62,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'une flèche de ligne dans la feuille de calcul**
 
- La forme de la flèche de ligne appartient à la**Lignes**catégorie. C'est un cas particulier de ligne.
+ La forme de la flèche de ligne appartient à la**Lignes** catégorie. C'est un cas particulier de ligne.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -80,7 +80,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une flèche de ligne dan
 
 [public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -114,7 +114,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un rectangle dans la feu
 
 [public Shape addShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -130,7 +130,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'un cube dans une feuille de calcul**
 
- La forme du cube appartient à la**Formes de base** Catégorie.
+La forme du cube appartient à la**Formes de base** Catégorie.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -148,7 +148,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un cube dans la feuille 
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -182,7 +182,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une flèche quadruple de
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -216,7 +216,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un signe de multiplicati
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -232,7 +232,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'un multidocument dans Worksheet**
 
-La forme de multidocument appartient à la**Organigrammes** Catégorie.
+ La forme de multidocument appartient à la**Organigrammes** Catégorie.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -250,7 +250,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un multidocument dans la
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -284,7 +284,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une étoile à cinq bran
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 
@@ -318,7 +318,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un nuage de bulles de pe
 
 [public Shape addAutoShape(int type, int upperLeftRow, int top, int upperLeftColumn, int left, int height, int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) objet.
 
 {{% /alert %}}
 

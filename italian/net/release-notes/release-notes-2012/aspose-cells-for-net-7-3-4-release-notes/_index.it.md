@@ -46,7 +46,7 @@ url: /it/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Eccezioni
 
-- Eccezione "formula non valida" all'apertura di un file XLSX
+- Eccezione "Formula non valida" all'apertura di un file XLSX
 - Aspose.Cells genera l'eccezione "ArgumentNullException" all'apertura di un file modello
 - Salvare un file MHtml, leggere in Aspose.Cells è un problema
 
@@ -70,11 +70,11 @@ url: /it/net/aspose-cells-for-net-7-3-4-release-notes/
 - Problema con le parti XML personalizzate
 - Questo file è danneggiato dopo essere stato salvato
 
- -La conversione di XLS in XLSX e viceversa crea un file XLS non valido
+ -La conversione di XLS in XLSX e viceversa crea un file XLS errato
 
- -La conversione di XLS in XLSX crea un documento non valido
+ -La conversione da XLS a XLSX crea un documento errato
 
-- Il rendering di un file MS Excel in un documento PDF presenta un problema relativo ai contenuti
+- Il rendering di un file MS Excel nel documento PDF presenta un problema relativo ai contenuti
 
 
 
@@ -84,7 +84,7 @@ url: /it/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Insetti
 
-40838 - GridWeb - Formattazione non salvata correttamente
+ 40838 - GridWeb - Formattazione non salvata correttamente
 
  41140 - Problema durante l'utilizzo dell'opzione "Aggiungi riga".
 

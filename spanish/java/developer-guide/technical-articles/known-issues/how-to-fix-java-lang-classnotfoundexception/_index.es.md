@@ -17,7 +17,7 @@ La solución es realmente muy simple como se detalla a continuación.
 
 1. Descargue cualquier versión importante de[Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
 1. Extraiga el archivo descargado y busque el directorio \JDK 1.6\aspose-cells-xx0-java\lib.
-1. Haga referencia a bcprov-jdk16-146.jar en la ruta de clase del proyecto.
+1. Haga referencia a bcprov-jdk16-146.jar en la ruta de clases del proyecto.
 
 Alternativamente, puede agregar la dependencia en pom.xml y dejar que el proyecto resuelva la dependencia a través de maven.
 

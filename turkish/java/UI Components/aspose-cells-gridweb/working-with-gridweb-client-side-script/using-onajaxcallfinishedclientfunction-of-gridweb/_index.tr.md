@@ -9,9 +9,9 @@ OnAjaxCallFinishedClientFunction, kullanıcı bazı verileri GridWeb çalışma 
 ## **GridWeb'in OnAjaxCallFinishedClientFunction'ını Kullanma**
 Aşağıdaki örnek kod, OnAjaxCallFinishedClientFunction istemci işlevinin nasıl kullanılacağını açıklar. Ekran görüntüleri, kod yürütüldüğünde Google Chrome ve FireFox'ta konsol çıktısını gösterir. Kodu çalıştırdıktan sonra, lütfen birden çok hücreye yayılan bazı verileri GridWeb çalışma sayfasına kopyalayın/yapıştırın ve ardından ekran görüntülerinde gösterildiği gibi Web Tarayıcı Konsolunu kontrol edin.
 ## **Google Chrome Konsol Çıkışı**
-![yapılacaklar:resim_alternatif_Metin](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](using-onajaxcallfinishedclientfunction-of-gridweb_1.png)
 ## **FireFox Konsol Çıkışı**
-![yapılacaklar:resim_alternatif_Metin](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](using-onajaxcallfinishedclientfunction-of-gridweb_2.png)
 ## **Basit kod**
 {{< highlight "java" >}}
 

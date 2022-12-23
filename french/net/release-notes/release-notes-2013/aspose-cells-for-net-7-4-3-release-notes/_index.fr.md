@@ -20,7 +20,7 @@ url: /fr/net/aspose-cells-for-net-7-4-3-release-notes/
 
  Performance
 
- Exceptions
+ Des exceptions
 
 
 

@@ -21,14 +21,14 @@ url: /de/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 |CELLSJAVA-43491|Der Wert der Formel mit der Datentabelle kann nicht korrekt extrahiert werden|
 |CELLSJAVA-43498|Das formatierte Ergebnis des numerischen Werts ist für das Gebietsschema zh_CN falsch|
 |CELLSJAVA-43451|Der Inhalt der Excel-Datei wird falsch angezeigt und die Demo von ChangeStyle (Frühling) funktioniert nicht richtig|
-|CELLSJAVA-43484|Das Inhaltslayout ist in Excel für die PDF-Wiedergabe inkonsistent|
-|CELLSJAVA-43465|Beim Konvertieren von Excel in PDF fehlen einige Diagrammserien|
-|CELLSJAVA-43468|Problem mit Gleichung der geraden Linie in Excel zum PDF-Rendering|
+|CELLSJAVA-43484|Das Inhaltslayout ist in Excel inkonsistent zum PDF-Rendering|
+|CELLSJAVA-43465|Beim Konvertieren von Excel in PDF fehlen einige Diagrammreihen|
+|CELLSJAVA-43468|Problem mit der Gleichung der geraden Linie in Excel zum Rendern von PDF|
 |CELLSJAVA-43432|Beim erneuten Speichern eines XLS-Dateiformats stimmte der Diagramminhalt nicht überein|
 |CELLSJAVA-43475|Regression: Umbrochene Zellen werden abgeschnitten|
-|CELLSJAVA-43478|Regression: NUMBERS zu PDF, viele Daten fehlen|
+|CELLSJAVA-43478|Regression: ZAHLEN bis PDF, viele Daten fehlen|
 |CELLSJAVA-43485|Regression: Zusätzliche Inhalte beim Rendern von PDF aus ODS|
-|CELLSJAVA-43492| Beim Konvertieren einer XML-Datei (SpreadsheetML) wird die Einstellung „Ausgeblendet“ in „Namensdefinition“ in der XLS- und XLSX-Ausgabe entfernt|
+|CELLSJAVA-43492| Beim Konvertieren einer XML-Datei (SpreadsheetML) wird die Einstellung „Versteckt“ in „Namensdefinition“ in der Ausgabe XLS und XLSX entfernt|
 |CELLSJAVA-43486|NullPointerException beim Konvertieren eines HTML-Dokuments in eine Arbeitsmappe|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

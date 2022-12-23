@@ -164,11 +164,11 @@ oleObject.AutoLoad = true;
 
 
 ### **Se agregó la propiedad HTMLLoadOptions.SupportDivTag**
-Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD al cargar archivos/fragmentos HTML en el modelo de objetos Aspose.Cells. La propiedad de tipo booleano tiene el valor predeterminado falso.
+Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HTMLLoadOptions.SupportDivTag que permite analizar las etiquetas DIV incrustadas en las etiquetas TD al cargar HTML archivos/fragmentos en el modelo de objetos Aspose.Cells. La propiedad de tipo booleano tiene el valor predeterminado falso.
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Admite etiquetas DIV internas al cargar HTML](/cells/es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+ Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Admite etiquetas DIV internas durante la carga HTML](/cells/es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -276,7 +276,7 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **Se agregó la propiedad HtmlSaveOptions.ExportGridLines**
-Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite representar las líneas de la cuadrícula mientras se exporta la hoja de cálculo a formato HTML. La propiedad de tipo booleano tiene el valor predeterminado falso; sin embargo, cuando se establece en verdadero, API representa las líneas de cuadrícula para el rango de datos disponible en formato HTML.
+Aspose.Cells for .NET 8.8.3 ha expuesto la propiedad HtmlSaveOptions.ExportGridLines que permite representar las líneas de cuadrícula mientras se exporta la hoja de cálculo al formato HTML. La propiedad de tipo booleano tiene el valor predeterminado falso; sin embargo, cuando se establece en verdadero, API representa las líneas de cuadrícula para el rango de datos disponible en formato HTML.
 
 {{% alert color="primary" %}} 
 

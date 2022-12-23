@@ -29,11 +29,11 @@ Bu sayfa, CPP 18.4 için Aspose.Cells sürüm notlarını içerir.
 |CELLSCPP-89|Charts/EnumTypes dizinindeki test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
 |CELLSCPP-91|Finds'ta test senaryosunu çevir|Yeni özellik|
 |CELLSCPP-96|Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts dizinindeki test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
-|CELLSCPP-97|XLSX/XLS'den PDF'e dönüştürmeyle ilgili sorunları ayıklayın ve düzeltin|Yeni özellik|
+|CELLSCPP-97|XLSX/XLS - PDF oluşturma ile ilgili sorunları ayıklayın ve düzeltin|Yeni özellik|
 |CELLSCPP-98|LightCells dizinindeki test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
-|CELLSCPP-100|Merges/OpenSaves/PageSetups/PDF dizininde test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
+|CELLSCPP-100|Merges/OpenSaves/PageSetups/PDF dizinindeki test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
 |CELLSCPP-101|PivotTables dizininde test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
-|CELLSCPP-102|Bir XLSX dosya formatı açıldığında/kaydedildiğinde grafikler ayrıştırılmaz (korunmaz)|Yeni özellik|
+|CELLSCPP-102|XLSX dosya biçimi açıldığında/kaydedildiğinde grafikler ayrıştırılmaz (korunmaz)|Yeni özellik|
 |CELLSCPP-103|Shapes dizininde test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
 |CELLSCPP-105|XlsxTest dizinindeki test senaryosunu çevirin ve hata ayıklayın|Yeni özellik|
 |CELLSCPP-108|Dosyaları açın ve grafiklerle ilgili sorunları kontrol edin|Yeni özellik|

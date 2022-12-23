@@ -38,13 +38,13 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **Fehler**
 
 
- (CELLSJAVA-41366) – Tabelle nach dem Öffnen und Speichern der XLSX-Vorlagendatei beschädigt
+ (CELLSJAVA-41366) – Tabelle nach dem Öffnen und Speichern der Vorlagendatei XLSX beschädigt
 
-(CELLSJAVA-41355) – Bei der Konvertierung in HTML wird eine #-Zeichenfolge an das Ende der Werte für eine Spalte angehängt
+ (CELLSJAVA-41355) – Die Konvertierung in HTML fügt eine #-Zeichenfolge am Ende der Werte für eine Spalte an
 
- (CELLSJAVA-41354) – Zahlen in den Textfeldern werden nicht im Inneren angezeigt
+(CELLSJAVA-41354) - Numbers in den Textfeldern werden nicht angezeigt
 
- (CELLSJAVA-41353) – Die Platzierung/Ausrichtung der Smart Arts in der PDF stimmt nicht mit der Excel-Quelldatei überein
+ (CELLSJAVA-41353) – Die Platzierung/Ausrichtung der Smart Arts in PDF stimmt nicht mit der Excel-Quelldatei überein
 
  (CELLSJAVA-41343) – Unterm Strich ist es viel länger als das Original in der Vorlagendatei
 
@@ -56,19 +56,19 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41339) – Text und Textausrichtung sind in der Vorlagendatei durcheinander geraten
 
- (CELLSJAVA-41336) – JavaScript-Fehler beim Export in HTML
+ (CELLSJAVA-41336) – JavaScript-Fehler beim Export nach HTML
 
  (CELLSJAVA-41327) – Textverlust in Vorlagendatei
 
  (CELLSJAVA-41326) – Textverlust in Vorlagendatei
 
- (CELLSJAVA-41304) – Fehler bei der Konvertierung von XLS in PDF mit Aspose.Cells-APIs
+ (CELLSJAVA-41304) – Fehlgeschlagene Konvertierungen von XLS zu PDF mit Aspose.Cells-APIs
 
-(CELLSJAVA-41206) – Konvertieren einer Excel-Datei mit Hyperlinks in HTML – Cell referenzierte Hyperlinks funktionieren nicht
+(CELLSJAVA-41206) – Das Konvertieren einer Excel-Datei mit Hyperlinks in HTML – Cell referenzierte Hyperlinks funktioniert nicht
 
- (CELLSJAVA-40483) – Problem mit der Formatierung einer Pfeilform/eines Pfeilobjekts – Excel-zu-PDF-Rendering
+ (CELLSJAVA-40483) – Problem mit der Formatierung einer Pfeilform/eines Pfeilobjekts – Darstellung von Excel auf PDF
 
- (CELLSJAVA-41372) – Gantt-Diagramm wird nicht im Ausgabe-PDF-Dateiformat gerendert
+ (CELLSJAVA-41372) – Gantt-Diagramm wird nicht im Ausgabedateiformat PDF gerendert
 
  (CELLSJAVA-41363) – Problem mit den zurückgegebenen Werten von Parametern bei der Berechnung benutzerdefinierter Funktionen
 
@@ -84,17 +84,17 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41348) – Bedingtes Format mit Zahlenformat funktioniert nicht für XLS
 
- (CELLSJAVA-41347) – Style.isDateTime gibt „false“ für eine als Datum formatierte Zelle zurück
+(CELLSJAVA-41347) – Style.isDateTime gibt „false“ für eine als Datum formatierte Zelle zurück
 
-(CELLSJAVA-41338) – Der linke Rand erscheint, wenn dies nicht der Fall sein sollte, für eine Zelle mit einer angrenzenden verborgenen Spalte
+ (CELLSJAVA-41338) – Der linke Rand erscheint, wenn dies nicht der Fall sein sollte, für eine Zelle mit einer angrenzenden verborgenen Spalte
 
  (CELLSJAVA-41331) – Formeln werden nach dem Einfügen von Zeilen nicht korrekt aktualisiert
 
- (CELLSJAVA-41330) – Dynamischer Druckbereich beim Speichern als/Drucken von PDF unterbrochen
+ (CELLSJAVA-41330) – Dynamischer Druckbereich beim Speichern unter/Drucken von PDF unterbrochen
 
- (CELLSJAVA-41365) – Einige hebräische Zeichen im Textfeld fehlen in der PDF-Ausgabedatei
+ (CELLSJAVA-41365) – Einige hebräische Zeichen im Textfeld fehlen in der Ausgabedatei PDF
 
- (CELLSJAVA-41346) – Die Wertachsen- und Kategorieachsenbeschriftungen im Diagramm sind geschwärzt (Excel-zu-PDF-Konvertierung)
+ (CELLSJAVA-41346) – Die Wertachsen- und Kategorieachsenbeschriftungen im Diagramm sind geschwärzt (Konvertierung von Excel in PDF)
 
  (CELLSJAVA-41312) – Text ist zu groß und geht über den Rand hinaus
 
@@ -102,11 +102,11 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-40916) – Der Text außerhalb des Seitenumbruchs wird in PDF als umbrochener Text gerendert
 
- (CELLSJAVA-40791) – Problem mit Seitenumbruch, Wiedergabe von Schriftarten und Rändern in Excel zu PDF-Wiedergabe
+ (CELLSJAVA-40791) – Problem mit Seitenumbruch, Wiedergabe von Schriftarten und Rändern in Excel bis PDF
 
- (CELLSJAVA-40605) - Aspose.Cells: Abgeschnittener Text in Originalzelle wird vollständig angezeigt, wenn er in PDF konvertiert wird
+(CELLSJAVA-40605) - Aspose.Cells: Abgeschnittener Text in der ursprünglichen Zelle wird vollständig angezeigt, wenn er in PDF konvertiert wird
 
-(CELLSJAVA-40479) – Seitenlayoutproblem (RTL) beim Rendern
+ (CELLSJAVA-40479) – Seitenlayoutproblem (RTL) beim Rendern
 
  (CELLSJAVA-40448) – Die Fußzeile ist in der generierten PDF-Datei durcheinander
 
@@ -130,7 +130,7 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: Für Eingabestring: "0,00" bei Workbook ctor
 
- (CELLSJAVA-41344) - java.lang.NullPointerException bei Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException bei Cells.find
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -146,7 +146,7 @@ url: /de/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-Fügt die Eigenschaft SheetRender.PageScale hinzu.
+ Fügt die Eigenschaft SheetRender.PageScale hinzu.
 
  Es wird verwendet, um den berechneten Seitenmaßstab des Blatts zu erhalten.
 
@@ -177,13 +177,13 @@ Fügt Methoden zum Berechnen von Formeln mit CalculationOptions hinzu: Cell.Calc
 
 
 
- Fügt Methoden hinzu: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Fügt Methoden hinzu: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Erlauben Sie dem Benutzer, Daten von einer Referenz abzurufen.
 
 
 
-Änderungen für Parameter von ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
+ Änderungen für Parameter von ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
  Jetzt fügen wir das ReferredArea-Objekt in "paramsList" ein, anstatt den Wert oder das Werte-Array des referenzierten Bereichs, wenn der entsprechende Parameter eine Referenz ist oder sein berechnetes Ergebnis eine Referenz ist. Und wir entfernen ReferredAreaCollection aus contextObjects.
 

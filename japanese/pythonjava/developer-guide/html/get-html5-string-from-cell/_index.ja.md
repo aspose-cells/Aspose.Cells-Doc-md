@@ -5,9 +5,9 @@ weight: 40
 url: /ja/python-java/get-html5-string-from-cell/
 ---
 ## **Cell から HTML5 文字列を取得**
-Aspose.Cells for Python via Java を使用すると、セルから HTML 文字列を取得できます。これは、[getHtmlString(ブール値 html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)）APIが提供する方法。**間違い**パラメータとして、通常のHTMLを返しますが、渡すと**真実**パラメータとして、HTML5 文字列を返します。
+Aspose.Cells for Python via Java を使用すると、セルから HTML 文字列を取得できます。これは、[getHtmlString(ブール値 html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)）APIが提供する方法。**間違い**パラメータとして、Normal HTML を返しますが、渡すと**真実**パラメータとして、HTML5 文字列を返します。
 
-次のサンプル コードは、ブック オブジェクトを作成し、最初のワークシートのセル A1 にテキストを追加します。次に、セル A1 から通常の HTML および HTML5 文字列を取得します。[getHtmlString(ブール値 html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) メソッドを実行し、それらを出力します。
+次のサンプル コードは、ブック オブジェクトを作成し、最初のワークシートのセル A1 にテキストを追加します。次に、セル A1 から通常の HTML と HTML5 文字列を取得します。[getHtmlString(ブール値 html5)](https://reference.aspose.com/cells/python/asposecells.api/cell#getHtmlString\(boolean\)) メソッドを実行し、それらを出力します。
 ## **サンプルコード**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "HTML-GetHTML5StringFromCell.py" >}}
 

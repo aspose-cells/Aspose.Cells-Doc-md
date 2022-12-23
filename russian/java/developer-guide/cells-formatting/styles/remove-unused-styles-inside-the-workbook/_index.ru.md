@@ -6,7 +6,7 @@ url: /ru/java/remove-unused-styles-inside-the-workbook/
 ---
 {{% alert color="primary" %}} 
 
- Неиспользуемые стили в файле Excel не только занимают место, но и вызывают проблемы с производительностью при преобразовании в различные форматы, такие как PDF, HTML и т. д. Aspose.Cells предоставляет[Рабочая книга.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)), чтобы удалить все неиспользуемые стили внутри книги.
+ Неиспользуемые стили в файле Excel не только занимают место, но и вызывают проблемы с производительностью при преобразовании в различные форматы, такие как PDF, HTML и т. д. Aspose.Cells обеспечивает[Рабочая книга.removeUnusedStyles()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)), чтобы удалить все неиспользуемые стили внутри книги.
 
 {{% /alert %}} 
 ## **Удалить неиспользуемые стили внутри рабочей книги**

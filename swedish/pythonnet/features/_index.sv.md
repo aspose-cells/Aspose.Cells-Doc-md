@@ -12,12 +12,12 @@ Den här sidan sammanfattar Aspose.Cells for Python via .NET funktioner.
 
 {{% /alert %}} 
 ## **Filformat och konverteringar**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) och populära bildformat inklusive TIFF , JPG, PNG, BMP och SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP och SVG.
 ## **Rendering och tryckning**
-- Rendera kalkylblad till vektorbilder (EMF)
-- Rendera kalkylblad till rasterbilder (Flersidig TIFF, GIF)
+- Återge kalkylblad till vektorbilder (EMF)
+- Rendera kalkylblad till rasterbilder (flersidiga TIFF, GIF)
 - Rendera kalkylblad till rasterbilder (PNG, JPEG, etc.)
-- Rendera kalkylblad till PDF med hög kvalitet
+- Återge kalkylark till PDF med hög kvalitet
 ## **Kalkylbladsinnehållsfunktioner**
 - Kopiera eller flytta kalkylblad inom eller mellan arbetsböcker
 - Infoga bilder, skapa konventionella och anpassade diagram och ställ in gradientbakgrund för diagram med API

@@ -5,7 +5,7 @@ weight: 50
 url: /sv/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
 ## **Möjliga användningsscenarier**
- Aspose.Cells API:er har avslöjat[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) klass för att hantera de scenarier där användaren vill använda anpassade etiketter för delsummor i ett kalkylblad. Dessutom[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)klass kan också användas för att ändra**Övrig** etikett för cirkeldiagrammet medan du renderar kalkylblad eller diagram.
+ Aspose.Cells API:er har avslöjat[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) klass för att hantera de scenarier där användaren vill använda anpassade etiketter för delsummor i ett kalkylblad. Dessutom[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) klass kan också användas för att ändra**Övrig** etikett för cirkeldiagrammet medan du renderar kalkylblad eller diagram.
 ## **Introduktion till GlobalizationSettings Class**
  De[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class erbjuder för närvarande följande 3 metoder som kan åsidosättas i en anpassad klass för att få önskade etiketter för delsummorna eller för att återge anpassad text för**Övrig** etikett för ett cirkeldiagram.
 
@@ -13,7 +13,7 @@ url: /sv/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Får det totala namnet på funktionen.
 1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Hämtar namnet på "Andra"-etiketter för cirkeldiagram.
 ### **Anpassade etiketter för delsummor**
- De[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) klass kan användas för att anpassa etiketterna Delsumma genom att åsidosätta[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) metoder som visats framöver.
+ De[Globaliseringsinställningar](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)klass kan användas för att anpassa etiketterna Delsumma genom att åsidosätta[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) metoder som visats framöver.
 
 
 
@@ -46,6 +46,6 @@ url: /sv/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
 
 
- Följande är den resulterande bilden när maskinens språk är inställt på Frankrike. Som du kan se att etiketten "Övrigt" har översatts till "Autre" enligt definitionen i*Anpassade inställningar*klass.
+Följande är den resulterande bilden när maskinens språk är inställt på Frankrike. Som du kan se att etiketten "Övrigt" har översatts till "Autre" enligt definitionen i*Anpassade inställningar*klass.
 
 ![todo:image_alt_text](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

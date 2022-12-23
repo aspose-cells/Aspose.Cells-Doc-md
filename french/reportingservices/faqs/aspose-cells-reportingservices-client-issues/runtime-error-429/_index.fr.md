@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /fr/reportingservices/runtime-error-429/
 ---
-##### **La description**
+##### **Description**
  Erreur d'exécution : '429'
  Le composant ActiveX ne peut pas créer d'objet
  La ligne provoquant l'erreur est :

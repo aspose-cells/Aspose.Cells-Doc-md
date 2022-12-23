@@ -58,7 +58,7 @@ url: /ru/java/dealing-with-font-settings/
 |[БРОСАТЬСЯ_ТОЧКА_ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_DOT_HEAVY)|Подчеркивание толстой штрихпунктирной линией|
 |[DASHED_HEAVY](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASHED_HEAVY)|Подчеркивание жирным пунктиром|
 |[DASH_LONG](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG)|Подчеркивание длинной пунктирной линией|
-|[БРОСАТЬСЯ_ДЛИННАЯ_ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Подчеркивание толстой длинной пунктирной линией|
+|[БРОСАТЬСЯ_ДЛИННЫЙ_ТЯЖЕЛЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DASH_LONG_HEAVY)|Подчеркивание толстой длинной пунктирной линией|
 |[DOT_DASH](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DASH)|Подчеркивание тире-точкой|
 |[ТОЧКА_ТОЧКА_БРОСАТЬСЯ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOT_DOT_DASH)|Штрих-точка-точка подчеркивание|
 |[ПУНКТИРНЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Пунктирное подчеркивание|

@@ -12,7 +12,7 @@ url: /zh/sharepoint/aspose-cells-for-sharepoint-3-0-1-release-notes/
 
 我们很高兴地宣布 Aspose.Cells for SharePoint v3.0.1！
 
-新的功能
+新功能
 
  SHAREPOINT-40018- 在 SharePoint 的文档中搜索
 

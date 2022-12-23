@@ -8,7 +8,7 @@ description: Apprenez à créer une chronologie avec Aspose.Cells.
 ---
 ## **Scénarios d'utilisation possibles**
 
- Au lieu d'ajuster les filtres pour afficher les dates, vous pouvez utiliser une chronologie de tableau croisé dynamique —— une option de filtre dynamique qui vous permet de filtrer facilement par date/heure et de zoomer sur la période souhaitée avec un curseur. Microsoft Excel vous permet de créer une chronologie en sélectionnant un tableau croisé dynamique, puis en cliquant sur le*Insertion > Chronologie*. Aspose.Cells vous permet également de créer une chronologie à l'aide du[**Feuille de calcul.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)méthode.
+ Au lieu d'ajuster les filtres pour afficher les dates, vous pouvez utiliser une chronologie de tableau croisé dynamique——une option de filtre dynamique qui vous permet de filtrer facilement par date/heure et de zoomer sur la période souhaitée avec un curseur. Microsoft Excel vous permet de créer une chronologie en sélectionnant un tableau croisé dynamique, puis en cliquant sur le*Insertion > Chronologie*. Aspose.Cells vous permet également de créer une chronologie à l'aide du[**Feuille de calcul.Timelines.Add()**](https://reference.aspose.com/cells/net/aspose.cells.timelines/timelinecollection/methods/index)méthode.
 
 ## **Créer une chronologie dans un tableau croisé dynamique**
 

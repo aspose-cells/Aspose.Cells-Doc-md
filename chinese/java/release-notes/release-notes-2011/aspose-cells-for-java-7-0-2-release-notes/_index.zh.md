@@ -20,7 +20,7 @@ url: /zh/java/aspose-cells-for-java-7-0-2-release-notes/
 
 Sheet-to-Image 功能得到增强
 
-增强了 Excel 到 PDF 的功能
+对 Excel-to-PDF 功能进行了增强
 
 
 
@@ -40,7 +40,7 @@ Sheet-to-Image 功能得到增强
 
 30809 - 在保存 XLS 文件时包括更多格式条件类型（用于条件格式功能）
 
- 31192 - 支持加密类型：RC4，Microsoft Enhanced Cryptographic Provider 1.0 128 位
+31192 - 支持加密类型：RC4，Microsoft Enhanced Cryptographic Provider 1.0 128 位
 
 例外情况
 
@@ -54,7 +54,7 @@ Sheet-to-Image 功能得到增强
 
 虫子
 
-30616 - 图片在 XLS 到 PDF 功能中丢失
+30616 - 图片在 XLS-to-PDF 功能中丢失
 
 30695 - X/Y 轴在图表到图像功能中丢失
 
@@ -62,11 +62,11 @@ Sheet-to-Image 功能得到增强
 
 30697 - 为金字塔图创建的图像不正确
 
-30776 - XLS 到 PDF 功能生成了无效的 PDF 文件
+30776 - XLS-to-PDF 功能生成了无效的 PDF 文件
 
 28545 - Cell 的值未使用“收缩以适合”属性正确呈现
 
-30777 - 文本在生成的 PDF 文件中居中而不是左对齐
+30777 - 文本在生成的 PDF 文件中对齐到中心而不是左对齐
 
 30911 - TextBox.setHtmlText() 没有正确解析富文本
 
@@ -74,7 +74,7 @@ Sheet-to-Image 功能得到增强
 
 30899 - 在保存的 XLS 文件中更改了新添加图片的缩放值
 
-30972 - PDF 文件中文本框的内容未正确呈现
+30972 - 文本框的内容在 PDF 文件中没有正确呈现
 
 31050 - Cell.getStringValue() 没有给出正确的双精度值
 

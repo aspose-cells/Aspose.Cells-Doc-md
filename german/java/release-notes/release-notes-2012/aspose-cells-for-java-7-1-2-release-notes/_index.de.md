@@ -29,5 +29,5 @@ Wir sind
  Fehler
 
 - Der Maximalwert für das Streudiagramm kann nicht richtig eingestellt werden
-- Text in Formen ging verloren oder wurde in der generierten PDF-Datei außerhalb des Formenbereichs verschoben
+- Text in Formen ging in der generierten PDF-Datei verloren oder wurde außerhalb des Formenbereichs verschoben
 - Der Serienname wurde nicht für Datumsbeschriftungen im Diagramm angezeigt

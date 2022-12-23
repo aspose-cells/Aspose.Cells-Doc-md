@@ -16,9 +16,9 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Nouvelles fonctionnalités**
 
 
-(CELLSNET-43362) - Prise en charge de la suppression d'un tableau croisé dynamique de la feuille de calcul
+ (CELLSNET-43362) - Prise en charge de la suppression d'un tableau croisé dynamique de la feuille de calcul
 
- (CELLSNET-43279) - Les propriétés du type de contenu ne s'affichent pas au format XLS
+ (CELLSNET-43279) - Les propriétés du type de contenu ne sont pas affichées au format XLS
 
  (CELLSNET-43276) - Workbook.ContentTypeProperties.Add (nom, valeur, type) est nécessaire
 
@@ -32,7 +32,7 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43454) - Aspose.Pdf ne valide pas la sortie PDF/A-1B
 
- (CELLSNET-43452) - La conformité PDFA1B du PDF de sortie n'a pas été validée
+ (CELLSNET-43452) - La conformité PDFA1B de la sortie PDF n'a pas été validée
 
  (CELLSNET-42646) - Le classeur RefreshChartCache fonctionne avec les paramètres régionaux et linguistiques
 
@@ -44,15 +44,15 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Performance**
 
 
- (CELLSNET-43438) - La feuille de calcul en HTML génère un fichier HTML de 1 Go
+ (CELLSNET-43438) - La feuille de calcul vers HTML génère un fichier HTML de 1 Go
 
- (CELLSNET-43399) - Problème de performances avec la méthode CalculateFormula()
+(CELLSNET-43399) - Problème de performances avec la méthode CalculateFormula()
 
 
 ## **Insectes**
 
 
-(CELLSNET-43460) - Couleur d'arrière-plan : rgba(0, 0, 0, 0) ; rend la couleur de fond noire
+ (CELLSNET-43460) - Couleur d'arrière-plan : rgba(0, 0, 0, 0) ; rend la couleur de fond noire
 
  (CELLSNET-43403) - La première colonne disparaît lorsque le deuxième Pivot
 
@@ -68,19 +68,19 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43331) - Le fichier Excel est corrompu après la création d'un tableau croisé dynamique
 
- (CELLSNET-43328) - La position des images est incorrecte dans le PDF de sortie
+ (CELLSNET-43328) - La position des images est incorrecte dans la sortie PDF
 
  (CELLSNET-43322) - Des boutons apparaissaient dans le graphique croisé dynamique lorsque le fichier était réenregistré
 
  (CELLSNET-42919) - Erreur « Excel trouvé illisible... » après l'actualisation des données pivot
 
- (CELLSNET-43451) - Problème d'alignement lors du rendu de la feuille de calcul en image
+(CELLSNET-43451) - Problème d'alignement lors du rendu de la feuille de calcul en image
 
-(CELLSNET-43414) - L'écart entre l'en-tête et le corps est différent
+ (CELLSNET-43414) - L'écart entre l'en-tête et le corps est différent
 
  (CELLSNET-43411) - La version plus récente ne pouvait pas accepter moins de 96 dpi
 
- (CELLSNET-43410) - Espacement incorrect avec chaque Environment.NewLine dans le PDF de sortie
+ (CELLSNET-43410) - Espacement incorrect avec chaque Environment.NewLine dans la sortie PDF
 
  (CELLSNET-43348) - Les attributs FitToPagesTall et FitToPagesWide ne fonctionnent pas comme prévu
 
@@ -90,17 +90,17 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43375) - Le titre du graphique est rendu de manière incorrecte lors de la conversion du graphique en image
 
- (CELLSNET-43352) - La taille du PDF double lorsqu'il est converti à partir de XLSX
+ (CELLSNET-43352) - La taille PDF double lorsqu'elle est convertie à partir de XLSX
 
  (CELLSNET-43351) - Problème de légende de graphique lors de la conversion de XLSX en PDF
 
  (CELLSNET-43350) - Problème d'axe de graphique lors de la conversion de XLSX en PDF
 
- (CELLSNET-43349) - Problème graphique lors de la conversion de XLSX en PDF
+(CELLSNET-43349) - Problème graphique lors de la conversion de XLSX en PDF
 
  (CELLSNET-43347) - L'ombre de la série du graphique ne se copie pas lors de la copie du classeur
 
-(CELLSNET-43339) - Les graphiques ne sont pas rendus correctement dans le PDF de sortie
+ (CELLSNET-43339) - Les graphiques ne sont pas rendus correctement dans la sortie PDF
 
  (CELLSNET-42573) - Les étiquettes de graphique à secteurs se chevauchent
 
@@ -116,17 +116,17 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43456) - La couleur de la police de WordArt change après le chargement et l'enregistrement de xls
 
- (CELLSNET-43441) - La conversion de XLSX en XLSB produit une feuille de calcul corrompue
+ (CELLSNET-43441) - La conversion de XLSX à XLSB produit une feuille de calcul corrompue
 
  (CELLSNET-43434) - Docm ou Dotx intégré dans xls ne peut pas être ouvert
 
  (CELLSNET-43432) - Les marqueurs intelligents arrêtent de fusionner les données après X nombre de lignes
 
- (CELLSNET-43426) - La combinaison de feuilles de calcul rompt l'apostrophe
+(CELLSNET-43426) - La combinaison de feuilles de calcul rompt l'apostrophe
 
  (CELLSNET-43424) - La formule de recherche n'est pas calculée correctement
 
-(CELLSNET-43423) - PageSetup.IsHFAlignMargins devient automatiquement vrai dans le fichier Excel de sortie
+ (CELLSNET-43423) - PageSetup.IsHFAlignMargins devient automatiquement vrai dans le fichier Excel de sortie
 
  (CELLSNET-43419) - Les hyperliens sans sous-adresses sont perdus
 
@@ -146,16 +146,16 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43338) - L'insertion de colonnes dans un tableau provoque l'avertissement illisible
 
- (CELLSNET-43336) - Problème de rendu de la mise en forme conditionnelle - Excel vers HTML
+(CELLSNET-43336) - Problème de rendu de la mise en forme conditionnelle - Excel vers HTML
 
-(CELLSNET-43335) - Problème de rendu de la mise en forme conditionnelle - Excel vers PDF
+ (CELLSNET-43335) - Problème de rendu de la mise en forme conditionnelle - Excel vers PDF
 
  (CELLSNET-43333) - Le paramètre Insérer des lignes ne fonctionne pas correctement dans la méthode Cells.ImportDataReader()
 
  (CELLSNET-43293) - La suppression de la bordure ne fonctionne pas dans le fichier Excel de sortie
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-43459) - Couleur d'arrière-plan : rgba (255, 255, 255, 0,1) ; lève une exception.
@@ -174,15 +174,15 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43393) - Exception d'index hors limite sur Cell.PutValue
 
- (CELLSNET-43427) - System.OverflowException à l'ouverture du fichier Excel
+(CELLSNET-43427) - System.OverflowException à l'ouverture du fichier Excel
 
-(CELLSNET-43356) - Une erreur de format se produit lorsque le paramètre régional est défini sur Français
+ (CELLSNET-43356) - Une erreur de format se produit lorsque le paramètre régional est défini sur Français
 
  (CELLSNET-43353) - System.NullReferenceException à Workbook.Combine
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -230,7 +230,7 @@ url: /fr/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-Ajoute la méthode PivotTable.ShowInTabularForm()
+ Ajoute la méthode PivotTable.ShowInTabularForm()
 
  Présente le tableau croisé dynamique sous forme de tableau.
 
@@ -248,7 +248,7 @@ Ajoute la méthode PivotTable.ShowInTabularForm()
 
 
 
- Ajoute l'espace de noms Aspose.Cells.Vba, les classes VbaPorject, VbaModuleCollection et VbaModule.
+Ajoute l'espace de noms Aspose.Cells.Vba, les classes VbaPorject, VbaModuleCollection et VbaModule.
 
  Ils sont utilisés pour lire et modifier le projet VBA dans le fichier.
 
@@ -256,13 +256,13 @@ Ajoute la méthode PivotTable.ShowInTabularForm()
 
  Ajoute la propriété Border.ThemeColor.
 
- Obtient et définit la couleur de thème de la bordure.
+Obtient et définit la couleur de thème de la bordure.
 
 
 
  Ajoute la classe TxtLoadStyleStrategy et la propriété TxtLoadOptions.LoadStyleStrategy.
 
-Indique la stratégie pour appliquer le style aux valeurs analysées lors de la conversion d'une valeur de chaîne en nombre ou en date/heure.
+ Indique la stratégie pour appliquer le style aux valeurs analysées lors de la conversion d'une valeur de chaîne en nombre ou en date/heure.
 
 
 

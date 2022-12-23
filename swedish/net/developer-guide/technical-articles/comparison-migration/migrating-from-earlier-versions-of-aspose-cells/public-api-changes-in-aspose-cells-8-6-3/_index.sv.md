@@ -10,8 +10,8 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 
 {{% /alert %}} 
 ## **Lade till API:er**
-### **Stöd för HTML-tolkning vid import av data**
-Den här versionen av Aspose.Cells for .NET API har exponerat egenskapen ImportTableOptions.IsHtmlString som styr API att tolka HTML-taggarna medan data importeras till kalkylbladet och ställer in det analyserade resultatet som cellvärde. Observera att Aspose.Cells API:er redan tillhandahåller Cell.HtmlString för att utföra denna uppgift för en enskild cell, men samtidigt som man importerar data i bulk, t.ex. från en DataTable, försöker egenskapen ImportTableOptions.IsHtmlString (när den är inställd på true) att analysera alla de stödda HTML taggar och ställer in de analyserade resultaten till motsvarande celler.
+### **Stöd för HTML Parsing vid import av data**
+Den här utgåvan av Aspose.Cells for .NET API har exponerat egenskapen ImportTableOptions.IsHtmlString som styr API att analysera HTML-taggarna samtidigt som data importeras till kalkylbladet och ställer in cellvärdet pars. Observera att Aspose.Cells API:er redan tillhandahåller Cell.HtmlString för att utföra denna uppgift för en enskild cell, men samtidigt som man importerar data i bulk, t.ex. från en DataTable, försöker egenskapen ImportTableOptions.IsHtmlString (när den är satt till true) att analysera alla de stödda HTML taggar och ställer in de analyserade resultaten till motsvarande celler.
 
 Här är det enklaste användningsscenariot.
 

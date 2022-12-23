@@ -1,5 +1,5 @@
 ﻿---
-title: Özellikler
+title: Özellikleri
 type: docs
 weight: 5
 url: /tr/python-net/features/
@@ -12,12 +12,12 @@ Bu sayfada Aspose.Cells for Python via .NET özellikleri özetlenmektedir.
 
 {{% /alert %}} 
 ## **Dosya Biçimleri ve Dönüşümler**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Virgülle Ayrılmış Değer (CSV), HTML, OpenDocument Elektronik Tablo (ODS), PDF, Sekmeyle Ayrılmış, Düz Metin (TXT) ve TIFF dahil popüler görüntü formatları , JPG, PNG, BMP ve SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP ve SVG.
 ## **Oluşturma ve Yazdırma**
 - Elektronik tabloyu vektör görüntülere dönüştürme (EMF)
-- Çalışma sayfalarını raster görüntülere dönüştürün (Çok Sayfalı TIFF, GIF)
+- Çalışma sayfalarını raster görüntülere dönüştür (Multipage TIFF, GIF)
 - Çalışma sayfalarını raster görüntülere dönüştürün (PNG, JPEG, vb.)
-- Elektronik Tabloyu yüksek doğrulukla PDF'ye dönüştürün
+- Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün
 ## **Elektronik Tablo İçeriği Özellikleri**
 - Çalışma sayfalarını çalışma kitaplarının içinde veya arasında kopyalama veya taşıma
 - API'i kullanarak resimler ekleyin, geleneksel ve özel grafikler oluşturun ve grafikler için degrade arka planı ayarlayın

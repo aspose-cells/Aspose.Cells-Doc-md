@@ -5,7 +5,7 @@ weight: 10
 url: /es/python-java/convert-an-excel-table-to-a-range-of-data/
 ---
 ## **Convertir una tabla de Excel en un rango de datos**
- Aspose.Cells for Python via Java ofrece la opción de convertir la tabla de Excel en un rango de datos. Para esto, el API proporciona el[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ) método. El siguiente fragmento de código demuestra el uso de[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)para convertir una tabla de Excel en un rango de datos.
+Aspose.Cells for Python via Java ofrece la opción de convertir la tabla de Excel en un rango de datos. Para esto, el API proporciona el[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ) método. El siguiente fragmento de código demuestra el uso de[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)) para convertir una tabla de Excel en un rango de datos.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-ConvertTableToRange.py" >}}
 ## **Convertir una tabla de Excel en un rango con opciones**

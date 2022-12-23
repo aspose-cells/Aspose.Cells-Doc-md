@@ -24,6 +24,6 @@ url: /de/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40610 – Das Löschen des Diagramms führt zu einer nicht lesbaren Tabelle
 
-40467 – Größe des Textfelds in XLSX kann nicht geändert werden40623 – „#WERT!“ Fehler nach Berechnung
+ 40467 – Größe des Textfelds in XLSX kann nicht geändert werden40623 – „#WERT!“ Fehler nach Berechnung
 
  40620 – Fehler beim Ausführen des Ersetzens im Textfeld

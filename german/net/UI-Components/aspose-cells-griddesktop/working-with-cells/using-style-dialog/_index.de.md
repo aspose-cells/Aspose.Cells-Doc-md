@@ -13,9 +13,9 @@ Aspose.Cells.GridDesktop ist ein GUI-basiertes Steuerelement, mit dem Benutzer i
  Benutzen**Stildialog** in Aspose.Cells.GridDesktop, führen Sie bitte die folgenden Schritte aus:
 
 - **Rechtsklick** auf dem Gitter. Ein Kontextmenü wird eingeblendet, bevor Sie einige Optionen anbieten
--  Auswählen**Format Cells...** Option aus dem Kontextmenü.
+-  Wählen**Format Cells...** Option aus dem Kontextmenü.
 
- Nachdem Sie ausgewählt haben**Format Cells...** Möglichkeit,**Stildialog** würde vor dir erscheinen.**Stildialog** besteht aus mehreren Registerkarten, darunter:* **Nummer**
+ Nachdem Sie ausgewählt haben**Format Cells...** Möglichkeit,**Stildialog** würde vor dir erscheinen.**Stildialog** besteht aus mehreren Registerkarten, darunter:* **Anzahl**
 
 - **Ausrichtung**
 - **Grenze**
@@ -24,7 +24,7 @@ Aspose.Cells.GridDesktop ist ein GUI-basiertes Steuerelement, mit dem Benutzer i
 
  Lassen Sie uns die einzelnen Registerkarten der besprechen und anzeigen**Stildialog** Einer nach dem anderen.
 ### **Registerkarte „Nummer“.**
-**Nummer** Registerkarte wird verwendet, um die einzustellen**Zahlenformat** Einstellungen einer Zelle. Sie können eine Zahlenformatkategorie auswählen, Dezimalstellen für den Wert festlegen, einen Symbolsatz auswählen und auch auswählen, wie negative Werte in der Zelle angezeigt werden sollen.
+**Anzahl** Registerkarte wird verwendet, um die einzustellen**Zahlenformat** Einstellungen einer Zelle. Sie können eine Zahlenformatkategorie auswählen, Dezimalstellen für den Wert festlegen, einen Symbolsatz auswählen und auch auswählen, wie negative Werte in der Zelle angezeigt werden sollen.
 ### **Registerkarte „Ausrichtung“.**
  Verwenden**Ausrichtung** Registerkarte können Benutzer die horizontale und vertikale Ausrichtung des Textes festlegen. Sie können sogar andere Optionen zur Textsteuerung verwenden, z. B. Text umbrechen, Zellen verkleinern, um sie an Text anzupassen, und Zellen verbinden.
 ### **Rand-Tab**

@@ -10,7 +10,7 @@ Aspose.Cells 支持将 XLS 文件（包含图像、图表等）转换为 PDF 文
 
 {{% /alert %}} 
 ## **将每个工作表保存到不同的 PDF 文件**
-如果您需要将每个工作表保存在模板 Excel 文件中以生成不同的 PDF 文件，您可以轻松实现。您可以尝试隐藏文件中的工作表并一次显示一张工作表以呈现为 PDF。
+如果您需要将每个工作表保存在模板 Excel 文件中以生成不同的 PDF 文件，您可以轻松实现。您可以尝试隐藏文件中的工作表并一次显示一张工作表以渲染到 PDF。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 

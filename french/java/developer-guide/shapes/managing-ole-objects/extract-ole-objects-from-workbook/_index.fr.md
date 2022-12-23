@@ -19,7 +19,7 @@ Parfois, vous devez extraire des objets OLE d'un classeur. Aspose.Cells prend en
 
 ### **Extraire des objets OLE**
 
-Le code ci-dessous effectue le travail réel de recherche et d'extraction d'objets OLE sous forme de fichiers DOCX, XLSX, PPTX et PDF.
+Le code ci-dessous effectue le travail réel de recherche et d'extraction des objets OLE en tant que fichiers DOCX, XLSX, PPTX et PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 

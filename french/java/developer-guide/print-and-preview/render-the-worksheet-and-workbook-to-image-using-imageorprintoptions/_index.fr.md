@@ -16,7 +16,7 @@ Parfois, vous devrez peut-être présenter vos feuilles de calcul sous forme de 
 
 Le API fournit plusieurs classes précieuses, par exemple,[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**Options d'image ou d'impression**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**ClasseurRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), etc.
 
- La[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) classe gère la tâche de rendu des images pour la feuille de calcul alors que la[**ClasseurRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)fait de même pour un classeur. Les deux classes susmentionnées ont plusieurs versions surchargées de la*àImage*méthode qui peut convertir directement une feuille de calcul ou un classeur en fichier(s) image spécifié(s) avec les attributs ou options souhaités. Vous pouvez enregistrer le fichier image sur le disque/flux. Plusieurs formats d'image sont pris en charge, par exemple BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
+ Le[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) classe gère la tâche de rendu des images pour la feuille de calcul alors que la[**ClasseurRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)fait de même pour un classeur. Les deux classes susmentionnées ont plusieurs versions surchargées de la*àImage*méthode qui peut convertir directement une feuille de calcul ou un classeur en fichier(s) image spécifié(s) avec les attributs ou options souhaités. Vous pouvez enregistrer le fichier image sur le disque/flux. Plusieurs formats d'image sont pris en charge, par exemple BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
 
 ### **Convertir une feuille de calcul en image**
 
@@ -38,7 +38,7 @@ Ou vous pouvez parcourir le classeur et afficher chaque feuille de calcul dans u
 
 {{% alert color="primary" %}}
 
- La[**ClasseurRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) peut uniquement enregistrer le classeur au format TIFF.
+ Le[**ClasseurRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) classe ne peut enregistrer le classeur qu'au format TIFF.
 
 {{% /alert %}}
 

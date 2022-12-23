@@ -11,6 +11,6 @@ Följande skärmdump visar Microsoft Excel-gränssnitt för att ställa in 3D-fo
 
 ![todo:image_alt_text](working-with-the-threedformat-of-shape-or-chart_1.png)
 ## **Arbeta med ThreeDFormat av form eller diagram**
- Följande exempelkod laddar[källkod excel-fil](5472522.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472521.xlsx).
+ Följande exempelkod laddar[source excel-fil](5472522.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat)egenskapen och sparar sedan arbetsboken i[output excel-fil](5472521.xlsx).
 ## **Exempelkod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithThreeDFormat-WorkingWithThreeDFormat.java" >}}

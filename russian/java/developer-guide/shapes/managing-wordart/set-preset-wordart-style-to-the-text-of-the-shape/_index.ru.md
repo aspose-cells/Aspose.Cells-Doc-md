@@ -7,7 +7,7 @@ url: /ru/java/set-preset-wordart-style-to-the-text-of-the-shape/
 ## **Возможные сценарии использования**
  Вы можете установить предустановленный стиль WordArt для текста фигуры, используя Aspose.Cells. Пожалуйста, используйте[Настройка Шрифта.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\) ) или же[FontSettingCollection.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#setWordArtStyle\(int\)методы для этой цели.
 ## **Установите предустановленный стиль WordArt для текста фигуры**
- В следующем примере кода создается текстовое поле с некоторым текстом, а затем задается предустановленный стиль WordArt для его текста с помощью[Настройка Шрифта.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\) ) метод. Вот как[выходной файл excel](5472538.xlsx) смотрит в Microsoft Excel.
+ В следующем примере кода создается текстовое поле с некоторым текстом, а затем задается предустановленный стиль WordArt для его текста с помощью[Настройка Шрифта.SetWordArtStyle()](https://reference.aspose.com/cells/java/com.aspose.cells/fontsetting#setWordArtStyle\(int\) ) метод. Вот как[выходной файл excel](5472538.xlsx)смотрит в Microsoft Excel.
 
 ![дело:изображение_альтернативный_текст](set-preset-wordart-style-to-the-text-of-the-shape_1.png)
 ## **Образец кода**

@@ -20,7 +20,7 @@ url: /ar/net/smart-markers-feature/
 - & = $ VariableArray
 - & == الصيغة الديناميكية
 - & = & = RepeatDynamicFormula
-### **المعلمات**
+### **حدود**
 يُسمح بالمعلمات التالية:
 
 - noadd - لا تقم بإضافة صفوف إضافية لملاءمة البيانات.

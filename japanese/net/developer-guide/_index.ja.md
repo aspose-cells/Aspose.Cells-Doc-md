@@ -24,7 +24,7 @@ url: /ja/net/developer-guide/
             <li><a href="/cells/ja/net/opening-different-microsoft-excel-versions-files/">異なる Microsoft Excel バージョンのファイルを開く</a></li>
             <li><a href="/cells/ja/net/opening-files-with-different-formats/">異なる形式のファイルを開く</a></li>
             <li><a href="/cells/ja/net/get-warnings-while-loading-excel-file/">Excel ファイルの読み込み中に警告を受け取る</a></li>
-            <li><a href="/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Aspose.Cells を使用して Apple Inc. が開発した数値スプレッドシートを読む</a></li>
+            <li><a href="/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発</a></li>
         </ul>
         <p>セーブ</p>
         <ul>
@@ -41,13 +41,13 @@ url: /ja/net/developer-guide/
         <p>レンダリングと変換</p>
         <ul>
             <li><a href="/cells/ja/net/convert-workbook-to-different-formats/">ワークブックを別の形式に変換する</a></li>
-            <li><a href="/cells/ja/net/convert-excel-workbook-to-pdf/">ExcelワークブックをPDFに変換</a></li>
-            <li><a href="/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換する</a></li>
+            <li><a href="/cells/ja/net/convert-excel-workbook-to-pdf/">Excel ワークブックを PDF に変換</a></li>
+            <li><a href="/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します</a></li>
             <li><a href="/cells/ja/net/convert-excel-to-image/">ワークブックを別の画像形式に変換する</a></li>
             <li><a href="/cells/ja/net/track-document-conversion-progress/">ドキュメント変換の進行状況を追跡する</a></li>
-            <li><a href="/cells/ja/net/convert-excel-to-html/">Excel を HTML に変換する</a></li>
-            <li><a href="/cells/ja/net/convert-json-to-csv/">JSON を CSV に変換する</a></li>
-            <li><a href="/cells/ja/net/convert-csv-to-json/">CSV を JSON に変換する</a></li>
+            <li><a href="/cells/ja/net/convert-excel-to-html/">Excel を HTML に変換</a></li>
+            <li><a href="/cells/ja/net/convert-json-to-csv/">JSON を CSV に変換</a></li>
+            <li><a href="/cells/ja/net/convert-csv-to-json/">CSV を JSON に変換</a></li>
         </ul>
         <p>オプション</p>
         <ul>
@@ -286,7 +286,7 @@ url: /ja/net/developer-guide/
          <li><a href="/cells/ja/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">オートフィルターを更新した後にすべての非表示の行インデックスを取得する</a></li>
          <li><a href="/cells/ja/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">高度なフィルター</a></li>
         </ul>
-        <p>データツール</p>
+        <p>データ ツール</p>
         <ul>
          <li><a href="/cells/ja/net/convert-text-to-columns-using-aspose-cells/">テキストから列へ</a></li>
          <li><a href="/cells/ja/net/data-validation/">データ検証</a></li>
@@ -314,7 +314,7 @@ url: /ja/net/developer-guide/
             <li><a href="/cells/ja/net/change-text-direction-of-the-comment/">コメントのテキスト方向を変更する</a></li>
             <li><a href="/cells/ja/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">ワークシート内のテーブルまたはリスト オブジェクトのコメントを設定する</a></li>
             <li><a href="/cells/ja/net/set-margins-of-comment-or-shape-inside-the-worksheet/">ワークシート内のコメントまたはシェイプの余白を設定する</a></li>
-            <li><a href="/cells/ja/net/disable-downlevel-revealed-comments-while-saving-to/">HTML への保存中にダウンレベルの公開されたコメントを無効にする</a></li>
+            <li><a href="/cells/ja/net/disable-downlevel-revealed-comments-while-saving-to/">HTML に保存する際にダウンレベルの公開コメントを無効にする</a></li>
             <li><a href="/cells/ja/net/threaded-comments/">スレッド化されたコメント</a></li>
         </ul>
     </div>
@@ -333,7 +333,7 @@ url: /ja/net/developer-guide/
     <div class="col-md-6">
         <p>変更点</p>
         <ul>
-         <li><a href="/cells/ja/net/convert-revision-of-xlsb-to-xlsm/">XLSB のリビジョンを XLSM に変換</a></li>
+         <li><a href="/cells/ja/net/convert-revision-of-xlsb-to-xlsm/">リビジョン XLSB を XLSM に変換</a></li>
         </ul>
     </div>
 </div>

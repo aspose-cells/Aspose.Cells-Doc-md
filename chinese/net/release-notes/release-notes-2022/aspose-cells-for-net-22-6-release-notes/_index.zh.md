@@ -34,7 +34,7 @@ url: /zh/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51041|加载html时汉字损坏|
 |CELLSNET-51072|日期字段的 ImportXml 问题|
 |CELLSNET-51081|将保存的 html 重新加载到工作簿后，自定义格式发生更改|
-|CELLSNET-51092|删除线字体在 Linux 上渲染的 SVG/图像中不起作用|
+|CELLSNET-51092|删除线字体在 linux 上渲染的 SVG/image 中不起作用|
 |CELLSNET-51120|导出链接到 Xml Map 的 xml 数据时抛出异常|
 |CELLSNET-51197|布尔字段的 ImportXml 问题|
 |CELLSNET-50854|XLSX 到 PDF：条形图未正确呈现|
@@ -42,7 +42,7 @@ url: /zh/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50998|最后一个 x 轴参数不显示|
 |CELLSNET-50999|图表标签不适合盒子 - 盒子过大|
 |CELLSNET-51000|图表标签垂直对齐而不是水平对齐|
-|CELLSNET-51043|将工作簿保存为 PDF 时系列名称输出不正确|
+|CELLSNET-51043|将工作簿保存到 PDF 时系列名称输出不正确|
 |CELLSNET-51159|保存 pdf 时 Chart.Title.IsVisible=false 的错误|
 |CELLSNET-51211|从 Excel 图表创建图像时缺少数字|
 |CELLSNET-49105|当文件包含列表验证时，已保存的 .ods 文件已损坏|

@@ -8,7 +8,7 @@ url: /ja/java/what-s-new-in-aspose-cells-for-java/
 このページでは、最近のリリースで導入された最も興味深い Aspose.Cells の新機能について説明します。
 
 ## Aspose.Cells for Java 22.12
-* 多層階層構造で Excel を JSON にエクスポートするサポート
+* 多層階層構造の JSON への Excel エクスポートのサポート
 
 ## Aspose.Cells for Java 22.11
 
@@ -80,6 +80,6 @@ SmartMarker のプロセスを中断するサポート
 
 XLookup 式/関数の計算をサポートします。
 *保存するjsonと画像を保存するワークブックに統合します。
-* Excel を HTML に変換する際のパフォーマンスを向上させます。
+* Excel を HTML に変換する際のパフォーマンスが向上しました。
 
 

@@ -24,7 +24,7 @@ url: /zh/sharepoint/known-issue-permissions-to-personal-site-collections/
 
    **添加用户和设置控制级别** 
 
-![待办事项：图像_替代_文本](known-issue-permissions-to-personal-site-collections_1.png)
+![待办事项：图片_替代_文本](known-issue-permissions-to-personal-site-collections_1.png)
 
 
 

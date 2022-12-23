@@ -10,7 +10,7 @@ url: /zh/java/conditional-formatting/
 
 **Microsoft Excel 中的条件格式** 
 
-![待办事项：图像_替代_文本](conditional-formatting_1.png)
+![待办事项：图片_替代_文本](conditional-formatting_1.png)
 
 Aspose.Cells 支持在运行时对单元格应用条件格式。这篇文章解释了如何。
 
@@ -29,7 +29,7 @@ Aspose.Cells 支持在运行时应用条件格式。
 ### **设置字体**
 **在 Microsoft Excel 中设置字体** 
 
-![待办事项：图像_替代_文本](conditional-formatting_2.png)
+![待办事项：图片_替代_文本](conditional-formatting_2.png)
 
 
 
@@ -37,7 +37,7 @@ Aspose.Cells 支持在运行时应用条件格式。
 ### **设置边框**
 **在 Microsoft Excel 中设置边框** 
 
-![待办事项：图像_替代_文本](conditional-formatting_3.png)
+![待办事项：图片_替代_文本](conditional-formatting_3.png)
 
 
 
@@ -45,7 +45,7 @@ Aspose.Cells 支持在运行时应用条件格式。
 ### **设置模式**
 **在 Microsoft Excel 中设置单元格模式** 
 
-![待办事项：图像_替代_文本](conditional-formatting_4.png)
+![待办事项：图片_替代_文本](conditional-formatting_4.png)
 
 
 

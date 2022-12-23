@@ -19,7 +19,7 @@ Reporting Service v1.0.1 的 Aspose.Cells 包括功能增强和错误修复，�
 什么是新的？
 
 - 支持导出矩阵
-- 支持导出 CSV 和 TabDelimited 文件
+- 支持导出CSV和TabDelimited文件
 - 支持背景图片。
 
 什么是固定的？

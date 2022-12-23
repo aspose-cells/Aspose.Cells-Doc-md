@@ -46,13 +46,13 @@ Para realizar una operación específica cuando se desencadena un evento especí
 
 **Paso 1: seleccionar un evento de Aspose.Cells. GridDesktop Control**
 
-1. En Visual Studio, seleccione el control Aspose.Cells.GridDesktop y abra su**Propiedades**diálogo.
+1. En Visual Studio, seleccione el control Aspose.Cells.GridDesktop y abra su**Propiedades** diálogo.
 1.  Haga clic en el**Eventos** pestaña.
 1.  Seleccione un evento. (para este ejemplo, el**CellClick** se selecciona el evento).
 
 **Paso 2: crear un controlador de eventos**
 
-1.  Haga doble clic en un evento seleccionado en el**Propiedades**diálogo.
+1.  Haga doble clic en un evento seleccionado en el**Propiedades** diálogo.
 1. Cuando se hace doble clic en el evento, Visual Studio.NET crea un controlador de eventos. A continuación se muestra el código generado por el diseñador que muestra que se crea un evento para el control GridControl.
 
 

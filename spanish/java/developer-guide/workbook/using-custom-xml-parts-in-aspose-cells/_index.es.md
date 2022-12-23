@@ -6,7 +6,7 @@ url: /es/java/using-custom-xml-parts-in-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
- Las partes XML personalizadas son los datos XML almacenados por diferentes aplicaciones como SharePoint, etc. dentro del archivo de Excel. Estos datos son consumidos por diferentes aplicaciones que los necesitan. Microsoft Excel no utiliza estos datos, por lo que no hay GUI para agregarlos. Puede ver estos datos cambiando la extensión de**.xlsx** dentro**.Código Postal** y luego abriéndolo usando**WinRAR** . Los datos están presentes dentro del**customXml** carpeta como se muestra en esta imagen.
+ Las partes XML personalizadas son los datos XML almacenados por diferentes aplicaciones como SharePoint, etc. dentro del archivo de Excel. Estos datos son consumidos por diferentes aplicaciones que los necesitan. Microsoft Excel no utiliza estos datos, por lo que no hay GUI para agregarlos. Puede ver estos datos cambiando la extensión de**.xlsx** en**.Código Postal** y luego abriéndolo usando**WinRAR** . Los datos están presentes dentro del**customXml** carpeta como se muestra en esta imagen.
 
 ![todo:imagen_alternativa_texto](using-custom-xml-parts-in-aspose-cells_1.png)
 

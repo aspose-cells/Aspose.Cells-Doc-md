@@ -17,7 +17,7 @@ url: /ru/java/aspose-cells-for-java-19-6-release-notes/
 |CELLSJAVA-42930|Ошибка загрузки Excel95|Улучшение|
 |CELLSJAVA-42927|Сохраненный файл медленно открывается в Excel после удаления столбцов|Улучшение|
 |CELLSJAVA-42932|Ошибка условного форматирования с методом Style.getDisplayStyle|Ошибка|
-|CELLSJAVA-42928|Некоторые строки не отображаются при преобразовании XLSX в PDF.|Ошибка|
+|CELLSJAVA-42928|Некоторые строки не отражаются при преобразовании XLSX в PDF.|Ошибка|
 |CELLSJAVA-42904|Изображение заголовка, по-видимому, портит файл|Ошибка|
 |CELLSJAVA-42907|Фильтр потерян после сохранения книги|Ошибка|
 |CELLSJAVA-42915|Фильтры меняются после добавления листа в книгу|Ошибка|
@@ -29,7 +29,7 @@ url: /ru/java/aspose-cells-for-java-19-6-release-notes/
 
 ## **Public API и обратно несовместимые изменения**
 Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форум поддержки Aspose.Cells.
-### **Добавляет enum FileFormatType.FODS, FileFormatType.SXC, LoadFormat.FODS, LoadFormat.SXC, SaveFormat.FODS и SaveFormat.SXC.**
+### **Добавляет enum FileFormatType.FODS, FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS и SaveFormat.SXC.**
 Представляет типы форматов файлов .FODS и .SXC.
 ### **Добавляет перечисление WarningType.UnsupportedFileFormat**
 Представляет неподдерживаемый формат файла для типов предупреждений.

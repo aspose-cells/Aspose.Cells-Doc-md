@@ -18,6 +18,6 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-3-0-2-release-notes/
 
 - يعمل على إصلاح مشكلة تتعلق بالإعداد
  Aspose.Total.SharePoint.License.wsp
-- المكان المقصود
+- وجهة
  لا يتغير امتداد الملف عند تحديد نوع ملف جديد من ملف
  القائمة المنسدلة "التحويل إلى:")

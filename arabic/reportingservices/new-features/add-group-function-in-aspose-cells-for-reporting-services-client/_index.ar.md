@@ -17,11 +17,11 @@ url: /ar/reportingservices/add-group-function-in-aspose-cells-for-reporting-serv
 ![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
- انقر**تعديل** زر وتحديث إخفاء التكوين.
+ انقر**يُعدِّل** زر وتحديث إخفاء التكوين.
 
 ![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
 
- انقر**ارتكب** زر وحفظ إخفاء التكوينات.
+ انقر**يقترف** زر وحفظ إخفاء التكوينات.
 
 ![ما يجب القيام به: image_بديل_نص](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

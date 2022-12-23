@@ -5,7 +5,7 @@ weight: 30
 url: /tr/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells - Satırları ve Sütunları Gizle ve Göster**
-Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)sınıf. Worksheet sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir Cells koleksiyonu sağlar. Cells koleksiyonu, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar.
+Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, Excel dosyasındaki her çalışma sayfasına erişim sağlayan bir WorksheetCollection içerir. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)sınıf. Worksheet sınıfı, çalışma sayfasındaki tüm hücreleri temsil eden bir Cells koleksiyonu sağlar. Cells koleksiyonu, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar.
 
 **Java**
 

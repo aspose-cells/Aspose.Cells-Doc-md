@@ -14,13 +14,13 @@ A volte, è necessario configurare le impostazioni di impostazione della pagina 
 
 Le opzioni di impostazione della pagina sono completamente supportate in Aspose.Cells. Questo articolo spiega come impostare le opzioni della pagina con Aspose.Cells e mostra esempi di codice per l'impostazione:
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
  Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) proprietà utilizzata per impostare le opzioni di impostazione della pagina del foglio di lavoro. In effetti, questo[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la proprietà è un oggetto di[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe utilizzata per impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. Il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class fornisce varie proprietà utilizzate per impostare le opzioni di impostazione della pagina. Alcune di queste proprietà sono discusse di seguito.
 
 ### **Orientamento della pagina**
 
- L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) proprietà. Il[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) La proprietà accetta uno dei valori predefiniti in[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)enumerazione, di seguito elencati.
+L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) proprietà. Il[**Orientamento**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) La proprietà accetta uno dei valori predefiniti in[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)enumerazione, di seguito elencati.
 
 |**Tipi di orientamento della pagina**|**Descrizione**|
 |:- |:- |
@@ -134,7 +134,7 @@ Le opzioni di impostazione della pagina sono completamente supportate in Aspose.
 |CartaGiapponeseCartolinaRuotata|Cartolina giapponese ruotata 148 x 100 mm|
 |CartaGiapponeseDoppiaCartolinaRuotata|Cartolina giapponese doppia ruotata 148 x 200 mm|
 |Carta A6Ruotata|A6 ruotato 148 x 105 mm|
-|CartaGiapponeseBustaKaku2Ruotato|Busta giapponese Kaku n. 2 ruotata|
+|CartaGiapponeseBustaKaku2Ruotata|Busta giapponese Kaku n. 2 ruotata|
 |CartaGiapponeseBustaKaku3Ruotato|Busta giapponese Kaku n. 3 ruotata|
 |CartaGiapponeseBustaChou3Ruotato|Busta giapponese Chou #3 ruotata|
 |CartaGiapponeseBustaChou4Ruotato|Busta giapponese Chou #4 ruotata|
@@ -142,7 +142,7 @@ Le opzioni di impostazione della pagina sono completamente supportate in Aspose.
 |CartaJISB6Ruotata|B6 (JIS) Ruotato 182 x 128 mm|
 |Carta 12x11|12 x 11 pollici|
 |CartaGiapponeseBustaYou4|Busta giapponese You #4|
-|CartaGiapponeseBustaYou4Ruotata|Busta giapponese You #4 ruotata|
+|CartaGiapponeseBustaYou4Ruotato|Busta giapponese You #4 ruotata|
 |CartaPRC16K|PRC 16K 146 x 215 mm|
 |CartaPRC32K|PRC 32K 97 x 151 mm|
 |PaperPRCBig32K|PRC 32K(Grande) 97 x 151 mm|
@@ -156,7 +156,7 @@ Le opzioni di impostazione della pagina sono completamente supportate in Aspose.
 |CartaPRCEbusta8|PRC Busta n. 8 120 x 309 mm|
 |CartaPRCEbusta9|PRC Busta n. 9 229 x 324 mm|
 |CartaPRCEbusta10|PRC Busta n. 10 324 x 458 mm|
-|CartaPRC16KRuotato|RPC 16K ruotato|
+|CartaPRC16KRuotato|PRC 16K ruotato|
 |CartaPRC32KRuotato|PRC 32K ruotato|
 |PaperPRCBig32KRuotato|PRC 32K (grande) ruotato|
 |CartaPRCEbusta1Ruotata|Busta PRC n. 1 ruotata 165 x 102 mm|

@@ -11,7 +11,7 @@ url: /sv/java/aspose-cells-for-java-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for Java har uppdaterats till version 8.0.0 och vi är glada att kunna meddela att denna utgåva kommer med över 30 nya användbara förbättringar.
-Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
@@ -28,7 +28,7 @@ Nya egenskaper
 (CELLSJAVA-40749) - Få startrad/kolumn och slutrad/kolumnindex för en sida med kalkylblad
 (CELLSJAVA-40744) - Stöd för Visa Formler MS Excel-funktionen
 (CELLSJAVA-40423) - Aspose.Cells och Maven beroenden
-(CELLSJAVA-40770) - Ställ in skapelsetiden i den genererade PDF-filen
+(CELLSJAVA-40770) - Ställ in skapelsetiden i den genererade PDF
 
 Förbättringar
 
@@ -38,7 +38,7 @@ Förbättringar
 
 Buggar
 
-(CELLSJAVA-40738) - setExportActiveWorksheetByt ändra justering av tabell i HTML
+(CELLSJAVA-40738) - setExportActiveWorksheet Ändra bara justering av tabellen i HTML
 (CELLSJAVA-40747) - Bakgrundsbilden kopieras inte till målarbetsboken när Workbook.copy anropas
 (CELLSJAVA-40276) - Text inuti en bild verkar vara spegelvänd när du sparar en excel-arbetsbok som PDF
 (CELLSJAVA-40573) - Vissa ord separeras när du sparar till PDF
@@ -46,11 +46,11 @@ Buggar
 (CELLSJAVA-40750) - Vid export till HTML förlorar celler som täcks av bilden bakgrundsfärgen
 (CELLSJAVA-40748) - Bakgrundsbildens sökväg är inte korrekt
 (CELLSJAVA-40731) - Vertikal textfråga
-(CELLSJAVA-40737) - Formateringsproblem av former/kontroller i Excel till PDF-konvertering
+(CELLSJAVA-40737) - Formateringsproblem av former/kontroller i Excel till PDF konvertering
 (CELLSJAVA-40742) - Felaktig lindning av axeletiketter vid konvertering av XLSX till PDF
 (CELLSJAVA-40757) - DateTime-kolumner felaktigt lästa från CSV med europeisk språkkod
 (CELLSJAVA-40282) - Bildutdata speglas samtidigt som ett excel-kalkylblad omvandlas till PDF
-(CELLSJAVA-40585) - Aspose.Cells: inbäddat sigma-diagram renderas inte korrekt till PDF/bilder
+(CELLSJAVA-40585) - Aspose.Cells: inbäddat sigma-diagram inte renderat korrekt till PDF/images
 (CELLSJAVA-40742) - Felaktig lindning av axeletiketter vid konvertering av XLSX till PDF
 (CELLSJAVA-40758) - Data är inte korrekta i utdata-pdf
 (CELLSJAVA-40762) - Cell.getDependents(true) issue - Cells från andra ark som inte borde finnas i listan

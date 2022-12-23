@@ -60,7 +60,7 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 
 
-- Composant serveur - Les champs sont fusionnés lorsqu'ils sont rendus au format XLSX
+- Composant serveur - Les champs sont fusionnés lorsqu'ils sont rendus sous la forme XLSX
 - Composant serveur - Problèmes d'exportation par Aspose.Cells for Reporting Services
 - Composant serveur - La colonne masquée est visible après le rendu
 - Composant serveur - Les en-têtes de groupe de colonnes sont manquants
@@ -71,8 +71,8 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 - Composant serveur - Problème de couleur d'arrière-plan de Cell (XL#CCS) dans les ReportingServices
 - Composant serveur - Problème de formules dynamiques et de pieds de tableau
-- ServerComponent - Génère un fichier XLSX au lieu de CSV si un utilisateur sélectionne le type d'exportation CSV
+- ServerComponent - Génère un fichier XLSX au lieu de CSV si un utilisateur sélectionne CSV exporttype
 - ServerComponent - Impossible d'exporter un rapport Cross Tab dans MS Excel 2007
-- Composant serveur - Problème d'encodage d'exportation CSV
+- Composant serveur - CSV Problème d'encodage d'exportation
 
 

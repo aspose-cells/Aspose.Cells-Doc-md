@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-scroll-bars-in-ruby/
 ---
 ## **Aspose.Cells - Mostrar u ocultar barras de desplazamiento**
 ### **Ocultar barras de desplazamiento**
- Para ocultar las barras de desplazamiento usando**Aspose.Cells Java para rubí** , llamar**mostrar ocultar barras de desplazamiento** módulo.
+ Para ocultar las barras de desplazamiento usando**Aspose.Cells Java para rubí** , llamada**mostrar ocultar barras de desplazamiento** módulo.
 
 **código rubí**
 

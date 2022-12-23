@@ -16,14 +16,14 @@ Aspose.Cells' 报表模板支持将 Reporting Services 报表参数作为包含 
 
    **选择一个单元格** 
 
-![待办事项：图像_替代_文本](adding-report-parameters-to-report_1.png)
+![待办事项：图片_替代_文本](adding-report-parameters-to-report_1.png)
 
 
 
 
 1. 单击 Aspose.Cells.Report.Designer 工具栏上的插入公式 (
 
-![待办事项：图像_替代_文本](adding-report-parameters-to-report_2.png)
+![待办事项：图片_替代_文本](adding-report-parameters-to-report_2.png)
 
 ).
 
@@ -35,7 +35,7 @@ Aspose.Cells' 报表模板支持将 Reporting Services 报表参数作为包含 
 
    **选择参数** 
 
-![待办事项：图像_替代_文本](adding-report-parameters-to-report_3.png)
+![待办事项：图片_替代_文本](adding-report-parameters-to-report_3.png)
 
 
 
@@ -44,7 +44,7 @@ Aspose.Cells' 报表模板支持将 Reporting Services 报表参数作为包含 
 
    **修改参数** 
 
-![待办事项：图像_替代_文本](adding-report-parameters-to-report_4.png)
+![待办事项：图片_替代_文本](adding-report-parameters-to-report_4.png)
 
 
 
@@ -54,4 +54,4 @@ Aspose.Cells' 报表模板支持将 Reporting Services 报表参数作为包含 
 
    **插入到单元格中的报告参数** 
 
-![待办事项：图像_替代_文本](adding-report-parameters-to-report_5.png)
+![待办事项：图片_替代_文本](adding-report-parameters-to-report_5.png)

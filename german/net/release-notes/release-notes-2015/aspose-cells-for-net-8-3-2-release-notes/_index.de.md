@@ -66,7 +66,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 (CELLSNET-43271) – Durch das Öffnen und Speichern der Tabelle wird diese beschädigt
 
- (CELLSNET-43266) – Das zweite Arbeitsblatt wird in der Ausgabe-PDF nicht korrekt wiedergegeben
+ (CELLSNET-43266) – Das zweite Arbeitsblatt wird in der Ausgabe PDF nicht korrekt wiedergegeben
 
  (CELLSNET-43262) - Methoden von IStreamProvider werden nicht aufgerufen
 
@@ -74,11 +74,11 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-43215) – PivotItem wird nicht an die angegebene Position verschoben, während PivotItem.Move verwendet wird
 
- (CELLSNET-43205) – Einige Grafikelemente sind im Ausgabe-HTML falsch platziert
+ (CELLSNET-43205) – Einige Grafikelemente sind in der Ausgabe HTML falsch platziert
 
- (CELLSNET-43204) – Einige Grafikelemente sind in der Ausgabe-PDF falsch platziert
+ (CELLSNET-43204) – Einige Grafikelemente sind in der Ausgabe PDF falsch platziert
 
- (CELLSNET-43051) – Diagrammdatenpunkte erscheinen unter dem Bild im gerenderten HTML-Dateiformat
+ (CELLSNET-43051) – Diagrammdatenpunkte werden unter dem Bild im gerenderten Dateiformat HTML angezeigt
 
  (CELLSNET-42878) – Die Hintergrundfarbe der Pivot-Tabelle ist auf Schwarz gesetzt
 
@@ -86,11 +86,11 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-43306) - Aspose.Cells wandelt die gepunktete Linie nicht in eine gerade Linie um
 
- (CELLSNET-43288) – Bilder werden beim Konvertieren von Tabellenkalkulationen in PDF nicht gerendert
+(CELLSNET-43288) – Bilder werden beim Konvertieren der Tabelle in PDF nicht gerendert
 
-(CELLSNET-43263) – Problem beim Rendern von Bildern
+ (CELLSNET-43263) – Problem beim Rendern von Bildern
 
- (CELLSNET-43245) – Das Layout wird verkleinert und die Ränder werden im Ausgabe-PDF dicker
+ (CELLSNET-43245) - Das Layout wird verkleinert und die Ränder werden in der Ausgabe PDF dicker
 
  (CELLSNET-42973) – Problem mit der Fußzeilenausrichtung
 
@@ -112,9 +112,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-43210) – Fehlende Feldschaltflächen im Pivot-Diagramm
 
- (CELLSNET-43046) – Chart.ToImage gibt das Datumsformat nicht wieder, das der CultureInfo entspricht
+(CELLSNET-43046) – Chart.ToImage gibt das Datumsformat nicht wieder, das der CultureInfo entspricht
 
-(CELLSNET-42993) – Diagrammdatenbeschriftungen werden beim Rendern in PDF nicht angezeigt
+ (CELLSNET-42993) – Diagrammdatenbeschriftungen werden beim Rendern auf PDF nicht angezeigt
 
  (CELLSNET-42893) – SheetRender.ToImage gibt das Diagramm nicht korrekt wieder
 
@@ -136,13 +136,13 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-43280) – Setzen des Platzierungstyps von CommentShape auf „Verschieben“
 
- (CELLSNET-43275) – Excel-Dokument in blockierender geschützter Ansicht geöffnet
+(CELLSNET-43275) – Excel-Dokument in blockierender geschützter Ansicht geöffnet
 
-(CELLSNET-43270) – Das Festlegen des Zooms für das Arbeitsblatt des Diagrammtyps wird nicht wirksam
+ (CELLSNET-43270) – Das Festlegen des Zooms für das Arbeitsblatt des Diagrammtyps wird nicht wirksam
 
  (CELLSNET-43269) – UpdateLinkedDataSource ruft keine neuen Daten aus einer externen Arbeitsmappe ab
 
- (CELLSNET-43265) – Ansi-Pfundzeichen SpreadsheetML-Konvertierungsproblem
+ (CELLSNET-43265) – Ansi-Pfundzeichen SpreadsheetML Konvertierungsproblem
 
  (CELLSNET-43264) – Anwenden von Rändern auf Zellen
 
@@ -166,9 +166,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-43323) – Ausnahme bei der Workbook.CalculateFormula()-Methode
 
- (CELLSNET-43319) – System.ArgumentOutOfRangeException beim Öffnen der XLA-Datei
+(CELLSNET-43319) – System.ArgumentOutOfRangeException beim Öffnen der XLA-Datei
 
-(CELLSNET-43292) – Ausnahme beim Speichern einer Arbeitsmappe mit leerem Diagrammblatt
+ (CELLSNET-43292) – Ausnahme beim Speichern einer Arbeitsmappe mit leerem Diagrammblatt
 
  (CELLSNET-43278) – Fehler beim Laden des Excel-Dokuments mit Sparklines
 
@@ -178,7 +178,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -218,7 +218,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 
 
- Fügt die Methode WorkbookSettings.CheckWriteProtectedPassword() hinzu
+Fügt die Methode WorkbookSettings.CheckWriteProtectedPassword() hinzu
 
  Überprüft, ob das Passwort das richtige schreibgeschützte Passwort ist.
 
@@ -244,7 +244,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  Fügt die Methode PivotItem.Move(int count, bool isSameParent) hinzu.
 
- Verschiebt das Element nach oben oder unten.
+Verschiebt das Element nach oben oder unten.
 
 
 
@@ -256,7 +256,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  Fügt die Workbook.GetNamedStyle(string name)-Methode hinzu.
 
-Ruft den benannten Stil im Stilpool der Arbeitsmappe nach Namen ab.
+ Ruft den benannten Stil im Stilpool der Arbeitsmappe nach Namen ab.
 
 
 
@@ -296,7 +296,7 @@ Ruft den benannten Stil im Stilpool der Arbeitsmappe nach Namen ab.
 
 
 
-Fügt die Methode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) hinzu
+ Fügt die Methode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) hinzu
 
  Rendert die Arbeitsmappe auf dem Drucker.
 
@@ -322,11 +322,11 @@ Fügt die Methode WorkbookRender.ToPrinter(string PrinterName, int PrintPageInde
 
  Veraltet PivotItem.Move(int count)-Methode.
 
- Verwenden Sie stattdessen die Methode PivotItem.Move(int count, bool isSameParent).
+Verwenden Sie stattdessen die Methode PivotItem.Move(int count, bool isSameParent).
 
 
 
-Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
+ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
 
 
@@ -346,7 +346,7 @@ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
 
 
- Löscht veraltete ReCalcOnOpen-, Language-, Encoding- und ConvertNumericData-Eigenschaften von WorkbookSettings.
+Löscht veraltete ReCalcOnOpen-, Language-, Encoding- und ConvertNumericData-Eigenschaften von WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
 
 
-Löscht veraltete DisplayHTMLCrossString und ExportChartImageFormat von HtmlSaveOptions.
+ Löscht veraltete DisplayHTMLCrossString und ExportChartImageFormat von HtmlSaveOptions.
 
 
 

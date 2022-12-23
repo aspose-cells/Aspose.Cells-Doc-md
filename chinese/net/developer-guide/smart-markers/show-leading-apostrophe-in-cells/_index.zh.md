@@ -8,7 +8,7 @@ url: /zh/net/show-leading-apostrophe-in-cells/
 
 以下屏幕截图显示了带有可见撇号的输出 excel 文件。
 
-![待办事项：图像_替代_文本](show-leading-apostrophe-in-cells_1.jpg)
+![待办事项：图片_替代_文本](show-leading-apostrophe-in-cells_1.jpg)
 
 以下代码片段通过在源 excel 文件中添加带有智能标记的数据来演示这一点。附上源文件和输出 excel 文件以供参考。
 

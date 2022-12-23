@@ -8,69 +8,69 @@ url: /tr/net/aspose-cells-for-net-8-9-2-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44274 |Elektronik tabloları PDF'ye dönüştürürken TTE yazı tipini destekleyin| Yeni özellik|
+|CELLSNET-44274 | Elektronik tabloları PDF'e dönüştürürken TTE yazı tipini destekleyin| Yeni özellik|
 |CELLSNET-42277 | PDF oluşturmada özel karakterler kullanın| Artırma|
-|CELLSNET-44630 | DataGrid'den (.NET) veri içe aktarılırken sayı biçimlendirmesi (DateTime) kayboldu| Artırma|
+|CELLSNET-44630 | DataGrid'den (.NET) veri alırken Numbers biçimlendirmesi (DateTime) kayboldu| Artırma|
 |CELLSNET-44626 | CopyRows ile kopyalanan grafik, Grafik Veri Aralığı'ndaki kaynak çalışma sayfasına hala başvuruyor| Artırma|
 |CELLSNET-44619 | Tarih Dizisini Tarih Biçimine Dönüştür| Artırma|
 |CELLSNET-44625 | Colspan as 2, HTML yükleme ve dönüştürme süresini önemli ölçüde artırır| Verim|
-|CELLSNET-44338 | Elektronik tabloları PDF'ye dönüştürürken performans düşüşü| Verim|
-|CELLSNET-44610 | HTML'yi XLSX'e dönüştürürken kalın özellik kayboluyor| Böcek|
-|CELLSNET-44609 | HTML'yi XLSX'e dönüştürürken içeriğin yönü değiştirildi| Böcek|
-|CELLSNET-44608 | HTML'yi XLSX'e dönüştürürken kenarlıklar eksik| Böcek|
-|CELLSNET-44607 | Cell HTML'yi XLSX'e dönüştürürken gölgelendirme eksik| Böcek|
-|CELLSNET-44606 | HTML'yi XLSX'e dönüştürürken içerikler eksik| Böcek|
-|CELLSNET-44605 | HTML'nin XLSX'e yanlış dönüştürülmesi| Böcek|
-|CELLSNET-44579 | MHTML'den XLS/XLSX'e boş belge olarak geri geliyor| Böcek|
+|CELLSNET-44338 | Elektronik tabloları PDF'e dönüştürürken performans düşüşü| Verim|
+|CELLSNET-44610 | HTML, XLSX'e dönüştürülürken kalın özellik kayboldu| Böcek|
+|CELLSNET-44609 | HTML'den XLSX'e dönüştürülürken içeriğin yönü değiştirildi| Böcek|
+|CELLSNET-44608 | HTML, XLSX'e dönüştürülürken kenarlıklar eksik| Böcek|
+|CELLSNET-44607 | HTML, XLSX'e dönüştürülürken Cell gölgelendirme eksik| Böcek|
+|CELLSNET-44606 | HTML, XLSX'e dönüştürülürken içerik eksik| Böcek|
+|CELLSNET-44605 |HTML'in XLSX'e yanlış dönüştürülmesi| Böcek|
+|CELLSNET-44579 | MHTML - XLS/XLSX boş belge olarak geri geliyor| Böcek|
 |CELLSNET-44572 | Aynı belgede bir çalışma sayfasına başvuran köprülerle ilgili sorun| Böcek|
 |CELLSNET-44617 | SumProduct formülü doğru hesaplanmamış| Böcek|
-|CELLSNET-44604 |XLS'den Pdf/A'ya dönüştürme işleminden sonra eksik metin| Böcek|
-|CELLSNET-44603 | Elektronik tabloları PDF'ye dönüştürürken hücre içeriğinin üst kenarlığa dokunmasıyla ilgili dikey hizalama sorunu| Böcek|
-|CELLSNET-44602 | E-tabloları PDF'ye dönüştürürken önünde $ işareti olan değerlerle yatay hizalama sorunu| Böcek|
+|CELLSNET-44604 | XLS'den Pdf/A'ya dönüştürme işleminden sonra eksik metin| Böcek|
+|CELLSNET-44603 | Elektronik tabloları PDF'e dönüştürürken hücre içeriğinin üst kenarlığa dokunmasıyla dikey hizalama sorunu| Böcek|
+|CELLSNET-44602 | E-tablolar PDF'e dönüştürülürken önünde $ işareti bulunan değerlerle yatay hizalama sorunu| Böcek|
 |CELLSNET-42715 | PDF'de kayıp yazı tipleri| Böcek|
 |CELLSNET-44637 | CalculateTextSize'ın sonucu, bir TextBox'taki metin yeni satırlar içeriyorsa her zaman varsayılan yüksekliktir.| Böcek|
-|CELLSNET-44635 | Sample2.xlsx'te grafik doğru değil (Excel'den PDF'e dönüştürme)| Böcek|
+|CELLSNET-44635 | Sample2.xlsx dosyasında grafik doğru değil (Excel'den PDF'e dönüştürme)| Böcek|
 |CELLSNET-44634 | Sample2.xlsx dosyasındaki Veri Tabloları doğru değil (Excel'den PDF'e dönüştürme)| Böcek|
 |CELLSNET-44633 | Sample1.xlsx dosyasındaki Veri Tabloları doğru değil (Excel'den PDF'e dönüştürme)| Böcek|
-|CELLSNET-44623 | Değiştirilmiş radar grafiği işaretçisi, PDF'ye düzgün bir şekilde dönüştürülmüyor| Böcek|
-|CELLSNET-44601 | Grafikten görüntüye oluşturmada yatay eksen etiketleri eksik| Böcek|
-|CELLSNET-44570 | İşlenmiş PDF dosyasında WordArt şeklinin biçimlendirmesiyle ilgili sorun| Böcek|
+|CELLSNET-44623 | Değiştirilmiş radar grafik işaretçisi PDF'e düzgün şekilde dönüşmüyor| Böcek|
+|CELLSNET-44601 |Grafikten görüntüye oluşturmada yatay eksen etiketleri eksik| Böcek|
+|CELLSNET-44570 | İşlenen PDF dosyasında WordArt şeklinin biçimlendirmesiyle ilgili sorun| Böcek|
 |CELLSNET-44655 | Hizalama bir TextBox içinde çalışmıyor| Böcek|
 |CELLSNET-44646 | Aspose.Cells API'leri tarafından işlendikten sonra dosya bozuk (köprü ile normal metin olur)| Böcek|
-|CELLSNET-44639 |Sunum slaydının XLS'ye yeniden gömülmesi, çift tıklandığında sunum görünümüyle sonuçlanır| Böcek|
+|CELLSNET-44639 | Sunum slaydının XLS'e yeniden gömülmesi, çift tıklandığında sunum görünümüyle sonuçlanır| Böcek|
 |CELLSNET-44631 | OleObject of Bitmap türünü yeniden taktıktan sonra "Bu nesne için kaynak uygulama başlatılamıyor" Excel hatası| Böcek|
 |CELLSNET-44629 | Formül, satırları kopyaladıktan ve formülleri hesapladıktan sonra #REF hatası veriyor| Böcek|
 |CELLSNET-44624 | SpeadsheetML dosyası olarak kaydedilirken tarih biçimi korunmaz| Böcek|
 |CELLSNET-44618 | Hücre aralığı eklemek, bazı hücreler için arka planın kaybolmasına neden olur| Böcek|
-|CELLSNET-44614 | XLS e-tabloları için harici veri bağlantılarıyla ilgili yol sorunu| Böcek|
+|CELLSNET-44614 | XLS e-tabloları için harici veri bağlantılarında yol sorunu| Böcek|
 |CELLSNET-44611 | E-tabloyu özel temayla yeniden kaydetmek, Açık XML SDK'sında hataya neden oluyor| Böcek|
 |CELLSNET-44649 | Özel Hesaplama Motoru, hesaplamanın yalnızca bir kez gerçekleşmesine neden olur| Böcek|
-|CELLSNET-44663 | Bir XLSB dosyası açılırken hata oluştu| Böcek|
+|CELLSNET-44663 | XLSB dosyası açılırken hata oluştu| Böcek|
 |CELLSNET-44657 | Ortaya çıkan e-tabloda HTML'den XLSX'e dönüştürme| Böcek|
-|CELLSNET-44648 | HTML'yi XLSX'e dönüştürürken içerikler eksik| Böcek|
-|CELLSNET-44647 | HTML'yi XLSX'e dönüştürürken stil eksik| Böcek|
+|CELLSNET-44648 | HTML, XLSX'e dönüştürülürken içerik eksik| Böcek|
+|CELLSNET-44647 | HTML, XLSX'e dönüştürülürken stil eksik| Böcek|
 |CELLSNET-44671 | Bir TextBox'u tamamen şeffaf yapmak imkansız| Böcek|
 |CELLSNET-44662 | Chart.Calculate() yöntemi grafiği karıştırıyor| Böcek|
-|CELLSNET-44665 | Grafikten resme dönüştürülürken seri eksik| Böcek|
+|CELLSNET-44665 |Grafikten resme dönüştürülürken seri eksik| Böcek|
 |CELLSNET-44674 | Eskimiş Shape.LineFormat & FillFormat özellikleri için belirsiz yorumlar| Böcek|
 |CELLSNET-44670 | Çalışma Sayfasına Metin Kutusu eklemenin varsayılan davranışı değişti| Böcek|
 |CELLSNET-44661 | OLELink değiştirildi (Excel'de içe aktarılan Word tablosu) belgesi, Bağlantıları Güncelleştirdikten sonra hala eski değerleri gösteriyor| Böcek|
-|CELLSNET-44659 | Bir XLS dosyası yüklenip kaydedildikten sonra renkler değişiyor| Böcek|
-|CELLSNET-44584 | Bir HTML dosyası içe aktarılırken System.FormatException oluştu| İstisna|
+|CELLSNET-44659 | XLS dosyasını yükleyip kaydettikten sonra renkler değişiyor| Böcek|
+|CELLSNET-44584 |Bir HTML dosyası içe aktarılırken System.FormatException oluştu| İstisna|
 |CELLSNET-44643 | Dosyayı açarken atılan istisna| İstisna|
-|CELLSNET-44612 | CellsException: Cell'de hata: O93-Aspose.Cells ile kaydedilen XLSM yüklenirken geçersiz formül| İstisna|
+|CELLSNET-44612 | CellsException: Cell'de hata: Aspose.Cells ile kaydedilen XLSM yüklenirken O93-Geçersiz formül| İstisna|
 |CELLSNET-44600 | Workbook.Save'de System.ArgumentException| İstisna|
 ### **2) Aspose.Cells Izgara Süit**
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 |CELLSNET-41833 | Yüzde2 Sayı Formatını kullanırken sorun| Yeni özellik|
-|CELLSNET-44592 |GridWeb'in yüksekliği %100 olarak ayarlandığında kapsayıcı için dikey kaydırma çubuğu görünür| Böcek|
+|CELLSNET-44592 | GridWeb'in yüksekliği %100 olarak ayarlandığında kapsayıcı için dikey kaydırma çubuğu görünür| Böcek|
 |CELLSNET-44576 | ShowCellEditBox true olarak ayarlandığında imleç hareket etmiyor| Böcek|
 |CELLSNET-44575 | Hücreleri ikinci kez birleştirmek çalışmıyor| Böcek|
 |CELLSNET-44555 | Yüzde biçiminde bir hücrenin değerini ayarlama sorunu| Böcek|
 |CELLSNET-44652 | GridDesktop, WPF uygulamasında kullanıldığında değerlendirme sınırlamalarına sahip değildir| Böcek|
-|CELLSNET-44676 |Sürüm numarasını öğrenmek için acwmain.js dosyasının içine yorum ekleyin veya uygulayın| Böcek|
+|CELLSNET-44676 | Sürüm numarasını öğrenmek için acwmain.js dosyasının içine yorum ekleyin veya uygulayın| Böcek|
 |CELLSNET-44656 | Ek boş hücre, yapıştırma satırındaki ilk boş hücrenin sağına eklenir| Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

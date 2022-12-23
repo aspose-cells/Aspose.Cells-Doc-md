@@ -22,5 +22,5 @@ Si consiglia di installare Service Pack 2 o successivo per questi prodotti.
 
 - Microsoft Internet Explorer
 - Mozilla Firefox
-- Google Chrome
+- Google Cromo
 - Safari

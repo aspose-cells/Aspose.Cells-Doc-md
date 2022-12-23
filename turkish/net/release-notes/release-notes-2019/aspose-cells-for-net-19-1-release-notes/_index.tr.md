@@ -13,29 +13,29 @@ url: /tr/net/aspose-cells-for-net-19-1-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-46429|Rapor Filtre Sayfalarını Göster seçeneğiyle PivotTable ekleyin|Yeni özellik|
-|CELLSNET-46014|PDF ve görüntü olarak kaydederken taşan hücre içeriğinin işlenmesini destekler|Yeni özellik|
+|CELLSNET-46014|PDF ve resim olarak kaydederken taşan hücre içeriğinin işlenmesini destekler|Yeni özellik|
 |CELLSNET-46490|Excel95/5.0 XLS dosyalarını destekler|Yeni özellik|
 |CELLSNET-46500|Hücre arka plan rengine göre sırala|Yeni özellik|
 |CELLSNET-46544|Oluşturulan MHT dosyasının bir çalışma sayfası olup olmadığını tespit edin|Yeni özellik|
-|CELLSNET-46538|XLSX, PDF veya TIFF olarak kaydedildiğinde metnin alt kısmı eksik|Böcek|
+|CELLSNET-46538|XLSX, PDF veya TIFF olarak kaydedildiğinde, metnin alt kısmı eksik|Böcek|
 |CELLSNET-46509|Bazı hücreler için R1C1 formülleri yanlış okunuyor|Böcek|
 |CELLSNET-46513|Aspose.Cells formül hesaplama motoru, hücre için bir formülü "#REF!" yerine "0" olarak hesaplar. hata|Böcek|
-|CELLSNET-46535|"#İSİM?" XLSB formatında kaydedilen formüller için|Böcek|
+|CELLSNET-46535|"#İSİM?" XLSB biçiminde kaydedilen formüller için|Böcek|
 |CELLSNET-46539|Formül büyük/küçük harfe duyarlı sorun|Böcek|
 |CELLSNET-46531|ListColumns'u yeniden adlandırmak çalışma kitabını bozar (PivotTable olduğunda)|Böcek|
-|CELLSNET-46511|Ekstra boş sayfalarla oluşturulan TIFF|Böcek|
+|CELLSNET-46511|TIFF ekstra boş sayfalarla oluşturuldu|Böcek|
 |CELLSNET-46522|Kurulum başlıklarını yazdırmak için bölgesel ayarları uygulama|Böcek|
-|CELLSNET-46529|XLSX'ten PDF'e dönüştürme işleminden sonra görüntü eksik|Böcek|
+|CELLSNET-46529|XLSX'den PDF'e dönüşümden sonra resim eksik|Böcek|
 |CELLSNET-46451|Şablon dosyasını PDF dosya biçimine dönüştürürken sorun|Böcek|
-|CELLSNET-46518|Şablon dosyasını PDF dosya biçimine dönüştürürken düzen sorunu (bazı eksen etiketleri iki satırdadır)|Böcek|
+|CELLSNET-46518|Şablon dosyası PDF dosya biçimine dönüştürülürken düzen sorunu (bazı eksen etiketleri iki satırdadır)|Böcek|
 |CELLSNET-46113|XLS belgesi için dosya biçimi desteklenmiyor istisnası|Böcek|
 |CELLSNET-46504|Bağlantı Yolu sorunu|Böcek|
 |CELLSNET-46506|ImportObjectArray yöntemiyle fark|Böcek|
 |CELLSNET-46541|Birleşik grafik v18.12.x ile çalışmıyor ancak v18.4 ve önceki sürümlerle çalışıyor|Böcek|
 |CELLSNET-46543|Cells.DeleteBlankRows çağrılırken istisna|İstisna|
 |CELLSNET-46459|Open Strict XML biçimine dönüştürülürken bir istisna ortaya çıkıyor|İstisna|
-|CELLSNET-46485|XLSB dosya formatı yüklenirken istisna|İstisna|
-|CELLSNET-46508|XLSM dosya formatı yüklenirken istisna|İstisna|
+|CELLSNET-46485|XLSB dosya biçimi yüklenirken istisna|İstisna|
+|CELLSNET-46508|XLSM dosya biçimi yüklenirken istisna|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **PivotTable.ShowReportFilterPageByName(string fieldName) yöntemini ekler**

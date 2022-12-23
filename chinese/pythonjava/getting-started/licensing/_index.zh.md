@@ -14,7 +14,7 @@ url: /zh/python-java/licensing/
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-如果你想测试**Aspose.Cells**没有评估版本限制，请求 30 天的临时许可证。请参阅[如何获得临时许可证？](https://purchase.aspose.com/temporary-license)了解更多信息。
+如果你想测试**Aspose.Cells**没有评估版本限制，请求 30 天的临时许可证。请参阅[如何获得临时许可证？](https://purchase.aspose.com/temporary-license)想要查询更多的信息。
 
 {{% /alert %}}
 
@@ -30,7 +30,7 @@ url: /zh/python-java/licensing/
 
 ### **第二个限制：带有评估水印的工作表**
 
-![待办事项：图像_替代_文本](licensing_1.png)
+![待办事项：图片_替代_文本](licensing_1.png)
 
 此工作表将始终显示为活动工作表。只有在授权版本中，您可以将活动工作表设置为其他工作表。
 

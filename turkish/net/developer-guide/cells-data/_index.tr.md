@@ -41,7 +41,7 @@ Aspose.Cells, geliştiricilerin çalışma sayfalarındaki hücrelere şunu ça�
 
  Bir hücrede bulunan veri türü kullanılarak da kontrol edilebilir.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) Emlak. Aslında,[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**Tip**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) mülkiyet esas alınır[**Hücre Değeri Türü**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)önceden tanımlanmış değerleri aşağıda listelenen numaralandırma:
 
-|**Cell Değer Türleri**|**Tanım**|
+|**Cell Değer Türleri**|**Açıklama**|
 |:- |:- |
 |Bool|Hücre değerinin Boolean olduğunu belirtir.|
 |TarihSaat|Hücre değerinin tarih/saat olduğunu belirtir.|

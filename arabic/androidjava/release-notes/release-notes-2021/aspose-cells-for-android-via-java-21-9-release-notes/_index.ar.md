@@ -17,19 +17,19 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 |CELLSJAVA-42494|يتم إنشاء كمية كبيرة من الأنماط غير المستخدمة في قسم CSS|
 |CELLSJAVA-43639|لا يمكن استخراج تاريخ ووقت الإنشاء وتاريخ التعديل|
 |CELLSJAVA-41121|لا يعرض SheetRender المخطط الانسيابي بشكل صحيح|
-|CELLSJAVA-43331|نص مفقود في الدائرة أثناء تحويل XLS إلى HTML|
+|CELLSJAVA-43331|نص مفقود في الدائرة أثناء التحويل XLS إلى HTML|
 |CELLSJAVA-43507|عند تنفيذ svg لإدراج ملف Excel تحت جافا ، فإنه يخرج بشكل غير طبيعي.|
 |CELLSJAVA-41887|لا تظهر بيانات النسبة المئوية من Pivot Table بشكل صحيح في HTML|
 |CELLSJAVA-43482|لم يتم تنسيق النصوص المرتفعة والمنخفضة بشكل صحيح عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43501|تمت قراءة قيمة غير صحيحة باستخدام دالة getStringValue ()|
-|CELLSJAVA-43515|قضية صيغة MDURATION|
+|CELLSJAVA-43515|مشكلة صيغة MDURATION|
 |CELLSJAVA-43528|لا يمكن استخراج تاريخ ووقت الإنشاء وتاريخ التحديث|
 |CELLSJAVA-43529|تعذر استخراج خصائص BuiltInDocumentProperties|
 |CELLSJAVA-43530|نتائج خصائص التاريخ والوقت مختلفة|
-|CELLSJAVA-41693|لا يتم تحويل المعادلة في TextBox إلى PDF|
-|CELLSJAVA-43487|لم يتم توسيط النص في ملف PDF الناتج في تحويل Excel إلى PDF|
-|CELLSJAVA-42867|لا يتم استرجاع الأشكال في تنسيق ملف ODS|
-|CELLSJAVA-42895|يحتوي إخراج PNG من مخطط MS Excel على تناقضات|
+|CELLSJAVA-41693|لا يتم عرض المعادلة في TextBox على PDF|
+|CELLSJAVA-43487|لم يتم توسيط النص في الإخراج PDF في Excel لتحويل PDF|
+|CELLSJAVA-42867|لا يتم استرداد الأشكال بتنسيق ملف ODS|
+|CELLSJAVA-42895|PNG إخراج مخطط MS Excel به اختلافات|
 |CELLSJAVA-43015|مشكلة في SheetRender.toImage () أثناء استخدام طريقة setPrintArea ()|
 |CELLSJAVA-43258|مخطط نقاط الخط الغامق يتغير بعد نسخ المصنف|
 |CELLSJAVA-43436|Aspose Cells يتجاهل المحور y المقلوب في الرسم التخطيطي|
@@ -37,44 +37,44 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 |CELLSJAVA-43532|مشكلة في استخراج أسماء سلاسل المخططات|
 |CELLSJAVA-43474|تم تغيير كائنات الشكل أثناء تحميل وحفظ ملف XLS|
 |CELLSJAVA-43493|تم استرداد مؤلف التعليق غير الصحيح|
-|CELLSJAVA-43576|لا يتم عرض قيم النص الرسومي عند تحويل XLSX إلى PDF|
+|CELLSJAVA-43576|لا يتم عرض قيم النص البياني عند تحويل XLSX إلى PDF|
 |CELLSJAVA-43483|لا يتم التأكيد على النص الموجود بعد علامة "br" داخل علامة "em" عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43526|IllegalArgumentException: فهرس العمود غير صالح|
 |CELLSJAVA-43557|لون غير صحيح عند الحفظ بتنسيق html|
 |CELLSJAVA-43567|الانحدار: لم يتم حساب صيغة MDURATION بشكل صحيح|
 |CELLSJAVA-43583|عامل الطاقة "^" لا يعمل لحسابات الصيغ|
-|CELLSJAVA-43549|الصورة مفقودة في Output PDF|
+|CELLSJAVA-43549|الصورة مفقودة في الإخراج PDF|
 |CELLSJAVA-43566|الخطوط الافتراضية على MacOS Big Sur|
 |CELLSJAVA-42579|لا يتم عرض عناوين المحور بشكل صحيح - المحاذاة اليمنى مفقودة عند حفظ Excel في Pdf|
 |CELLSJAVA-43554|لا يظهر نص جدول بيانات المخطط في صورة الإخراج|
 |CELLSJAVA-43556|XLSX إلى PDF: عنوان مخطط غير كامل|
 |CELLSJAVA-40051|دعم Apple iWork|
 |CELLSJAVA-43119|التحويل إلى PDF - رقم تنسيق الملف غير المدعوم 3.5 منذ 2014|
-|CELLSJAVA-43538|يتسبب التخطيط بدون بيانات في تلف XLSX بعد الحفظ باستخدام Aspose Cells|
+|CELLSJAVA-43538|الرسم البياني الذي لا يحتوي على بيانات يتسبب في تلف XLSX بعد الحفظ باستخدام Aspose Cells|
 |CELLSJAVA-43547|يقوم AutoFitRow بتغيير الارتفاع القياسي لورقة العمل|
 |CELLSJAVA-43591|خطأ عند فتح ملف في MS Excel تم حفظه بواسطة Aspose.Cells|
-|CELLSJAVA-43622|XLSX إلى PDF: خطأ من شكل إلى صورة|
+|CELLSJAVA-43622|XLSX إلى PDF: خطأ في الشكل على الصورة|
 |CELLSJAVA-43756| تشويه الصورة أثناء Excel إلى HTML|
-|CELLSJAVA-43309|تم تغيير التفاصيل في تحويل Excel إلى HTML|
+|CELLSJAVA-43309|تم تغيير التفاصيل في Excel لتحويل HTML|
 |CELLSJAVA-43578|مشاكل التنسيق أثناء تحويل Excel إلى HTML|
 |CELLSJAVA-43579|مشكلة محاذاة النص أثناء تحويل Excel إلى HTML|
 |CELLSJAVA-43630|الارتباط التشعبي لوظيفة الارتباط التشعبي غير صالح عند تحويل Excel إلى HTML|
 |CELLSJAVA-43635|عند تصدير html ، يكون طول شريط البيانات أقصر من ذلك في Excel|
-|CELLSJAVA-43709|يتسبب ملف XLSM المعاد حفظه في ظهور نافذة منبثقة لتلف الملف عند الفتح بواسطة ms excel|
+|CELLSJAVA-43709|إعادة حفظ الملف XLSM يتسبب في ظهور نافذة منبثقة لفساد الملف عند الفتح بواسطة ms excel|
 |CELLSJAVA-43758|مشكلة تقييم صيغة الصفيف|
 |CELLSJAVA-43680|مشكلة Databar للتنسيق الشرطي في ملف pdf الذي تم إنشاؤه|
 |CELLSJAVA-43689|يؤدي تعيين التنسيق الشرطي للخلية واستخدام DataBar.toImage إلى ظهور صورة فارغة|
 |CELLSJAVA-43723|لا يتم عرض الخط الموجود في الخلية بشكل كامل عند تحويل ملف Excel إلى PDF|
-|CELLSJAVA-43724|غير قادر على تحويل HTML المعقد إلى CSV|
+|CELLSJAVA-43724|غير قادر على تحويل المجمع HTML إلى CSV|
 |CELLSJAVA-43728| تم تغيير اتجاه النص أثناء تحويل Excel إلى PDF|
-|CELLSJAVA-43752|عرض Excel إلى HTML - مشكلة في التنسيق الشرطي لإخفاء الحدود|
-|CELLSJAVA-43792|الخط غير صحيح عند تعيين HtmlLoadOptions لتحويل HTML إلى Excel|
+|CELLSJAVA-43752|من Excel إلى تقديم HTML - إصدار التنسيق الشرطي لإخفاء الحدود|
+|CELLSJAVA-43792|الخط غير صحيح عند تعيين HtmlLoadOptions للتحويل HTML إلى Excel|
 |CELLSJAVA-43571| مشكلة اقتطاع DataLabels عند تحويل XLSX إلى PDF|
 |CELLSJAVA-43587|وضع تسميات المخطط الدائري المجوف في غير محلها|
 |CELLSJAVA-43620|لا يتم عرض قيم المحور الرأسي وتسميات النقاط بشكل صحيح عند عرض ملف Excel (الذي يحتوي على مخطط انحداري) إلى HTML|
 |CELLSJAVA-43621|وظيفة RANDBETWEEN (أسفل ، أعلى) نتائج القيمة تختلف عن نتائج Excel|
 |CELLSJAVA-41710|عرض خاطئ لـ HTML بعد التحويل من XLSX|
-|CELLSJAVA-43422|تحويل HTML إلى Excel - لا يكون لـ "mso-ignore: padding" في CSS أي تأثير|
+|CELLSJAVA-43422|HTML لتحويل Excel - "تجاهل mso: الحشو" في CSS ليس لها أي تأثير|
 |CELLSJAVA-43606|تم تغيير تنسيق نص الخلفية أثناء دمج الملفات|
 |CELLSJAVA-43769|لا يمكن تحميل مستند MSO Excel (XLS)|
 |CELLSJAVA-43527|Aspose.Cells for Java NullPointerException|
@@ -98,11 +98,11 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 
 ### **يضيف طريقة PivotFormatCondition.AddColumnAreaCondition (حقل عمود PivotField).**
 
-يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
+ يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
 
 ### **يضيف طريقة PivotFormatCondition.AddColumnAreaCondition (String fieldName).**
 
-يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
+ يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
 
 ### **يضيف طريقة PivotFormatCondition.AddRowAreaCondition (PivotField rowField).**
 
@@ -158,7 +158,7 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 
 ### **إضافة خاصية MsoFormatPicture.Transparency.**
 
-إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).
+ إرجاع أو تعيين درجة شفافية المنطقة كقيمة من 0.0 (معتم) إلى 1.0 (واضح).
 
 ### **يضيف طرق PivotTableCollection.Remove () المحملة بشكل زائد.**
 
@@ -166,5 +166,5 @@ url: /ar/java/aspose-cells-for-android-via-java-21-9-release-notes/
 
 ### **يضيف خاصية ImageOrPrintOptions.IsOptimized.**
 
- يشير إلى ما إذا كان سيتم تحسين عناصر الإخراج. القيمة الافتراضية هي كاذبة. حاليًا ، يتم تحسين خطوط الحدود فقط عند تعيين هذه الخاصية على "صواب".
+يشير إلى ما إذا كان سيتم تحسين عناصر الإخراج. القيمة الافتراضية هي كاذبة. حاليًا ، يتم تحسين خطوط الحدود فقط عند تعيين هذه الخاصية على "صواب".
 

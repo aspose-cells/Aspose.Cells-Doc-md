@@ -18,7 +18,7 @@ Puede usar Office Automation para lograr esto, pero la automatización de Office
 
 Este artículo muestra cómo crear una aplicación de consola en Visual Studio, convertir una hoja de trabajo en una imagen y convertir una hoja de trabajo en una imagen para cada hoja de trabajo con unas pocas y más simples líneas de código usando Aspose.Cells API.
 
- Tienes que importar el[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) espacio de nombres a su programa/proyecto. Tiene varias clases valiosas, como[**HojaRenderizar**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender), y así. los[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class representa una hoja de trabajo para representar imágenes para la hoja de trabajo y tiene una sobrecarga[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)método que puede convertir una hoja de trabajo en archivos de imagen directamente con cualquier atributo u opción establecida. Puede devolver un objeto System.Drawing.Bitmap y puede guardar un archivo de imagen en el disco/flujo. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF y otros.
+ Tienes que importar el[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering) espacio de nombres a su programa/proyecto. Tiene varias clases valiosas, como[**HojaRenderizar**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**WorkbookRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender), etcétera. Él[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class representa una hoja de trabajo para representar imágenes para la hoja de trabajo y tiene una sobrecarga[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)método que puede convertir una hoja de trabajo en archivos de imagen directamente con cualquier atributo u opción establecida. Puede devolver un objeto System.Drawing.Bitmap y puede guardar un archivo de imagen en el disco/flujo. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF y otros.
 
 Este artículo explica cómo:
 
@@ -27,7 +27,7 @@ Este artículo explica cómo:
 
 Esta tarea muestra cómo usar Aspose.Cells para convertir una hoja de trabajo de un libro de plantilla a un archivo de imagen.
 
-### **Proyecto de instalación**
+### **Proyecto de configuración**
 
 1.  Primero,[descargar Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
 1.  Instálalo en tu computadora de desarrollo. Todos[Aspose](http://www.aspose.com/)Los componentes, cuando están instalados, funcionan en modo de evaluación. El modo de evaluación no tiene límite de tiempo y solo inyecta marcas de agua en los documentos producidos. Ahora inicie Visual Studio.Net y cree una nueva aplicación de consola. Este ejemplo usa una aplicación de consola C#, pero también puede usar VB.NET. Agregue la referencia a Aspose.Cells en el proyecto creado.

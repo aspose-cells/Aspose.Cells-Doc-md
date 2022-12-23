@@ -15,13 +15,13 @@ url: /ja/java/aspose-cells-for-java-18-10-release-notes/
 |CELLSJAVA-42634|左右のリボンの形を画像に変換|強化|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - package-list ファイルがありません|強化|
 |CELLSJAVA-42528|フォントが有効な HTML5 ではなく、自己終了タグであり、Web ブラウザーがそのコンテンツを誤って表示している|強化|
-|CELLSJAVA-42728|PDF 出力への保存時に例外 (StackOverFlow) が発生する|バグ|
+|CELLSJAVA-42728|PDF 出力に保存すると例外 (StackOverFlow) が発生する|バグ|
 |CELLSJAVA-42729|ROUNDUP() によって計算された間違った値|バグ|
 |CELLSJAVA-42724|PasteType.ALL (貼り付けオプション) で範囲をコピーすると、行の高さが正しくコピーされない|バグ|
 |CELLSJAVA-42722|新しいテキストを設定すると、ハイパーリンク テキストの書式設定が失われる|バグ|
 |CELLSJAVA-42688|無効なロシアの日付形式の出力|バグ|
 |CELLSJAVA-42721|SheetRender フォントの問題|バグ|
-|CELLSJAVA-42723|MS Excel ファイルを PDF にレンダリングする際の例外「java.lang.OutOfMemoryError: Java ヒープ領域」|バグ|
+|CELLSJAVA-42723|MS Excel ファイルを PDF にレンダリングする際の例外「java.lang.OutOfMemoryError: Java heap space」|バグ|
 |CELLSJAVA-42725|Aspose.Cells 経由でセルの数式を取得すると、数式に引用符が表示される|バグ|
 |CELLSJAVA-42720|条件付き書式を使用した場合のパフォーマンスの低下|バグ|
 ## **Public API および下位互換性のない変更**

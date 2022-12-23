@@ -1,5 +1,5 @@
 ﻿---
-title: Excel から HTML - より良いレイアウトのために PresentationPreference オプションを使用する
+title: Excel から HTML - レイアウトを改善するには、PresentationPreference オプションを使用してください
 type: docs
 weight: 220
 url: /ja/net/excel-to-html-use-presentationpreference-option-for-better-layout/

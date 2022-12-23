@@ -20,7 +20,7 @@ Aspose.Cells'i kullanarak grafikler üzerinde çalışırken ele alınması gere
 
 ### **Grafik Verileri**
 
- Grafik verileri, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız verilerdir. Çağırarak bir hücre aralığı (grafik verileri içeren) ekleyebiliriz.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesnenin[**Ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) yöntem.
+ Grafik verileri, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız verilerdir. Çağırarak bir hücre aralığı (grafik verileri içeren) ekleyebiliriz.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) nesnenin[**Eklemek**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) yöntem.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 
@@ -32,7 +32,7 @@ Aspose.Cells'i kullanarak grafikler üzerinde çalışırken ele alınması gere
 
 **Grafik ve kategori verileri içeren sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting-in-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting-in-charts_1.png)
 
 ## **ileri konular**
 - [Dinamik Grafikler Oluşturun](/cells/tr/java/create-dynamic-charts/)

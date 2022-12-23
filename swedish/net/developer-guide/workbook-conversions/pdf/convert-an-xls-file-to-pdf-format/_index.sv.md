@@ -6,11 +6,11 @@ url: /sv/net/convert-an-xls-file-to-pdf-format/
 ---
 {{% alert color="primary" %}}
 
-PDF (Portable Document Format) representerar dokument oberoende av programvara, hårdvara och operativsystem som används för att skapa dessa dokument. En PDF-fil kan vara dokument med valfri kombination av text, grafik och bilder på ett enhetsoberoende och upplösningsoberoende sätt. PDF-filer är ofta komprimerade, så de tar mindre plats än originalfilen.
+PDF (Portable Document Format) representerar dokument oberoende av programvaran, hårdvaran och operativsystemet som används för att skapa dessa dokument. En PDF-fil kan vara dokument med valfri kombination av text, grafik och bilder på ett enhetsoberoende och upplösningsoberoende sätt. PDF-filer är ofta komprimerade, så de tar mindre plats än originalfilen.
 
-Ibland måste du konvertera en Microsoft Excel-fil till PDF. För detta behöver du en snabb, säker, korrekt och pålitlig lösning som låter dig distribuera PDF-dokument över hela världen. Det finns många konverteringsverktyg som kan utföra denna uppgift. Men du måste se till att layouten för det ursprungliga Excel-dokumentet behålls i utdata-PDF-filen. Bilder, dataformatering, typsnitt, attribut, färger, sidinställningar, textorientering, ramar, diagram etc. ska återges exakt och exakt.[Aspose.Cells](https://products.aspose.com/cells/net/) säkerställer högfientlig konvertering.
+ Ibland behöver du konvertera en Microsoft Excel-fil till PDF. För detta behöver du en snabb, säker, korrekt och pålitlig lösning som låter dig distribuera PDF-dokument över hela världen. Det finns många konverteringsverktyg som kan utföra denna uppgift. Men du måste se till att layouten för det ursprungliga Excel-dokumentet behålls i utdatafilen PDF. Bilder, dataformatering, typsnitt, attribut, färger, sidinställningar, textorientering, ramar, diagram etc. ska återges exakt och exakt.[Aspose.Cells](https://products.aspose.com/cells/net/) säkerställer högfientlig konvertering.
 
-Detta dokument är utformat för att ge en omfattande förståelse för hur ett Microsoft Excel-dokument (som innehåller bilder, diagram, formatering etc.) kan konverteras till PDF. För detta ändamål visar den hur man skapar en enkel konsolapplikation i Visual Studio.Net som konverterar en Excel-fil till PDF med Aspose.Cells API. Konverteringen utförs med hög grad av precision och noggrannhet.
+Detta dokument är utformat för att ge en övergripande förståelse för hur ett Microsoft Excel-dokument (som innehåller bilder, diagram, formatering etc.) kan konverteras till PDF. För detta ändamål visar den hur man skapar en enkel konsolapplikation i Visual Studio.Net som konverterar en Excel-fil till PDF med Aspose.Cells API. Konverteringen utförs med hög grad av precision och noggrannhet.
 
 {{% /alert %}}
 
@@ -43,14 +43,14 @@ Mallfilen har tre kalkylblad, inklusive diagram och bild som media. Det första 
 
 {{% alert color="primary" %}}
 
-Om kalkylarket innehåller formler är det bäst att anropa Workbook.CalculateFormula() precis innan du renderar kalkylarket till PDF. Genom att göra det säkerställs att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+Om kalkylarket innehåller formler är det bäst att anropa Workbook.CalculateFormula() precis innan du renderar kalkylarket till PDF. Om du gör det säkerställer du att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}
 
 ### **Resultat**
 
 när ovanstående kod har körts skapas en PDF-fil i mappen Filer i din programkatalog.
-Följande skärmdumpar visar PDF-sidorna. Observera att sidhuvuden och sidfötter också finns kvar i PDF-filen.
+Följande skärmdumpar visar PDF-sidorna. Observera att sidhuvuden och sidfötter också finns kvar i utdatafilen PDF.
 
 |![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted1.png)|![todo:image_alt_text](Convert_an_XLS_File_to_PDF_Converted2.png)|
 |:- |:- |

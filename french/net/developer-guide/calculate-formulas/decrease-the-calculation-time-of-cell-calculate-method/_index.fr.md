@@ -10,7 +10,7 @@ Normalement, nous recommandons aux utilisateurs d'appeler[**Workbook.CalculateFo
 
 ## **Diminuer le temps de calcul de la méthode Cell.Calculate()**
 
- L'exemple de code suivant illustre l'utilisation de[**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) propriété. Veuillez exécuter ce code avec le[exemple de fichier excel](5113710.xlsx) et vérifiez sa sortie console. Vous constaterez que définir la propriété récursive sur**faux**a considérablement réduit le temps de calcul. Veuillez également lire les commentaires pour une meilleure compréhension de cette propriété.
+ L'exemple de code suivant illustre l'utilisation de[**CalculationOptions.Recursive**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) la propriété. Veuillez exécuter ce code avec le[exemple de fichier excel](5113710.xlsx) et vérifiez sa sortie console. Vous constaterez que définir la propriété récursive sur**faux**a considérablement réduit le temps de calcul. Veuillez également lire les commentaires pour une meilleure compréhension de cette propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-1.cs" >}}
 

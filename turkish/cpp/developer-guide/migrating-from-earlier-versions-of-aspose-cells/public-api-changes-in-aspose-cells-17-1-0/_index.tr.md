@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **ICells::LinkToXmlMap Yöntemi Eklendi**
 ICells sınıfına, bir XML eşlemesini bağlamada yararlı olan LinkToXmlMap yöntemi eklendi.
 ### **ICells::ImportCSV Yöntemi Eklendi**
-Bir çalışma sayfasının hücrelerine bir CSV dosyasını içe aktarmak için yararlı olan ImportCSV yöntemi ICells sınıfına eklenmiştir.
+Bir CSV dosyasını bir çalışma sayfasının hücrelerine içe aktarmak için kullanışlı olan ICells sınıfına ImportCSV yöntemi eklendi.
 ### **ICells::ImportTwoDimensionArray Yöntemi Eklendi**
 GetIProtectedRangeCollection yöntemi, iki boyutlu bir veri dizisini bir çalışma sayfasına aktarmak için yararlı olan ICells sınıfına eklenmiştir.
 ### **IWorksheet::GetIProtectedRangeCollection Yöntemi Eklendi**

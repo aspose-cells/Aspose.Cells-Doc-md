@@ -10,10 +10,10 @@ url: /tr/jasperreports/high-fidelity-to-the-report-design/
 
 **Aspose.Cells for JasperReports kullanılarak dışa aktarılan örnek bir XLS raporu** 
 
-![yapılacaklar:resim_alternatif_Metin](high-fidelity-to-the-report-design_1.png)
+![yapılacaklar:resim_alternatif_metin](high-fidelity-to-the-report-design_1.png)
 
 **Yerleşik [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) dışa aktarıcılar kullanılarak dışa aktarılan örnek bir XLS raporu**
 
-![yapılacaklar:resim_alternatif_Metin](high-fidelity-to-the-report-design_2.png)
+![yapılacaklar:resim_alternatif_metin](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

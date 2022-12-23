@@ -9,7 +9,7 @@ Bazen, GridWeb sayfası değiştiğinde müşteri tarafı işlevinizi yürütmen
 ## **GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün**
 Aşağıdaki aspx biçimlendirmesi, OnPageChangeClientFunction özelliğinin nasıl kullanılacağını açıklar. Özelliği, MyOnPageChange adlı istemci tarafı işleviyle ayarlar. Lütfen unutmayın, bu özellik yalnızca sayfalamayı etkinleştirdiyseniz geçerlidir, yani EnablePaging="true". Şimdi, GridWeb sayfasını ne zaman değiştirirseniz, istemci tarafı işlevi MyOnPageChange'i çağıracaktır.**geçerli sayfa dizini** üzerinde**konsol** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](execute-client-side-function-on-gridweb-page-change_1.png)
+![yapılacaklar:resim_alternatif_metin](execute-client-side-function-on-gridweb-page-change_1.png)
 ## **Basit kod**
 Bu, GridWeb'de OnPageChangeClientFunction="MyOnPageChange" özelliğinin ayarlanması nedeniyle yürütülecek istemci tarafı işlevi MyOnPageChange'in kodudur. Bu, tam aspx sayfa işaretlemesidir.
 

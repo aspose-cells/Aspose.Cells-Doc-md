@@ -5,7 +5,7 @@ weight: 30
 url: /de/net/list-of-supported-number-formats/
 ---
 ## **Aspose.Cells**
- Aspose.Cells-Komponente bietet einige integrierte Zahlenformate, um die Anzeigeformate der Zahlen und Daten zu konfigurieren. Diese integrierten Zahlenformate können mithilfe von angewendet werden**Nummer** Eigentum der**Stil** Objekt. Allen integrierten Zahlenformaten werden eindeutige numerische Werte zugewiesen. Entwickler können dem einen beliebigen numerischen Wert zuweisen*Nummer* Eigentum von**Stil** Objekt und damit das Anzeigeformat übernommen. Dieser Ansatz ist schneller. Die integrierten Zahlenformate, die von der Komponente Aspose.Cells unterstützt werden, sind unten aufgeführt:
+ Aspose.Cells-Komponente bietet einige integrierte Zahlenformate, um die Anzeigeformate der Zahlen und Daten zu konfigurieren. Diese integrierten Zahlenformate können mithilfe von angewendet werden**Anzahl** Eigentum der**Stil** Objekt. Allen integrierten Zahlenformaten werden eindeutige numerische Werte zugewiesen. Entwickler können dem einen beliebigen numerischen Wert zuweisen*Anzahl* Eigentum von**Stil** Objekt und damit das Anzeigeformat übernommen. Dieser Ansatz ist schneller. Die integrierten Zahlenformate, die von der Komponente Aspose.Cells unterstützt werden, sind unten aufgeführt:
 
 |**Wert**|**Typ**|**Zeichenkette formatieren**|
 |:- |:- |:- |

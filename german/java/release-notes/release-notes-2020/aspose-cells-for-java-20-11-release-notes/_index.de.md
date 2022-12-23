@@ -15,16 +15,16 @@ url: /de/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43322|Shape.getWorksheet()-Eigenschaft erforderlich|Neue Funktion|
 |CELLSJAVA-43191| Bereitstellen von Mitteln zum Umgang mit Szenarien bei der Angabe falscher Schriftarten?|Erweiterung|
 |CELLSJAVA-43319|Problem beim Abrufen des Zellenwerts mit der Formel|Insekt|
-|CELLSJAVA-43330|Problem nach dem erneuten Speichern der XLSB-Datei – beschädigte Datei|Insekt|
+|CELLSJAVA-43330|Problem nach dem erneuten Speichern der Datei XLSB – beschädigte Datei|Insekt|
 |CELLSJAVA-43333|Falsche Positionierung von Bildern und Text beim Rendern von Excel als HTML|Insekt|
 |CELLSJAVA-43321|AutoFilter-Problem – es werden leere Zeilen angezeigt|Insekt|
 |CELLSJAVA-43335|Beim Berechnen von Formeln in der Arbeitsmappe ist ein Deadlock aufgetreten|Insekt|
 |CELLSJAVA-43313|Das Diagrammetikett ändert seine Position, wenn es gedruckt wird|Insekt|
 |CELLSJAVA-43314|0/100 %-Linie wird bei 100 %-Kreisdiagrammen nicht gedruckt|Insekt|
 |CELLSJAVA-43316| Verschiedene Probleme beim Drucken von Diagrammen|Insekt|
-|CELLSJAVA-40582|SmartArt-Text wird nicht korrekt in PDF/Bild gerendert|Insekt|
-|CELLSJAVA-41639|Spaltenbreiten werden beim Konvertieren vom Format "XML Spreadsheet 2003" in das XLSX-Format nicht beibehalten|Insekt|
-|CELLSJAVA-43315|Beim Konvertieren von XLS in XLSX wird die Datei beschädigt und beim Konvertieren der XLSX-Ausgabe in PDF wird der Fehler „Shape to Image“ ausgegeben|Insekt|
+|CELLSJAVA-40582|Smart Art-Text wird nicht korrekt auf PDF/image gerendert|Insekt|
+|CELLSJAVA-41639|Spaltenbreiten werden beim Konvertieren vom Format "XML Spreadsheet 2003" in das Format XLSX nicht beibehalten|Insekt|
+|CELLSJAVA-43315|Durch das Konvertieren von XLS in XLSX wird die Datei beschädigt und es wird der Fehler "Shape to Image" beim Konvertieren der Ausgabe XLSX in PDF ausgegeben|Insekt|
 |CELLSJAVA-43334|AutoFilter auf Tabellenproblem|Insekt|
 |
 

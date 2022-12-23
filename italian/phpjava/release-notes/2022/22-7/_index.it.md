@@ -10,11 +10,11 @@ url: /it/php-java/aspose-cells-for-php-via-java-22-7-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44721|Supporta l'ordinamento di PivotField tramite campo calcolato|
 |CELLSJAVA-44733|Esamina le regole di ms excel per visualizzare il bordo della cella quando la colonna adiacente è nascosta: il bordo della cella non è stato sincronizzato|
-|CELLSJAVA-44695| Conversione errata in PDF da XLS con Line Callout a sinistra del foglio|
+|CELLSJAVA-44695| Conversione errata a PDF da XLS con Line Callout a sinistra del foglio|
 |CELLSJAVA-44700|campi calcolati della tabella pivot non vengono aggiornati durante l'aggiornamento dell'origine dati|
 |CELLSJAVA-44705|Cell.getDependents() genera un'eccezione o non può fornire tutti i dipendenti|
 |CELLSJAVA-44717|Problema con lo stile del bordo (linea).|
@@ -27,11 +27,11 @@ url: /it/php-java/aspose-cells-for-php-via-java-22-7-release-notes/
 |CELLSJAVA-44689|Regressione: problema relativo alla lingua della legenda del grafico a cascata|
 |CELLSJAVA-44687|Problema grafico durante la combinazione dei file|
 |CELLSJAVA-44736|Stile della tabella perso durante la copia del foglio|
-|CELLSJAVA-44725| Eccezione "java.util.zip.ZipException: dimensione voce non valida (previsto 0 ma ottenuto 1053 byte)" durante la conversione di XLSX in PDF|
+|CELLSJAVA-44725| Eccezione "java.util.zip.ZipException: dimensione voce non valida (previsto 0 ma ottenuto 1053 byte)" durante la conversione da XLSX a PDF|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.GetDependentsInCalculation(int,int,bool)**
 

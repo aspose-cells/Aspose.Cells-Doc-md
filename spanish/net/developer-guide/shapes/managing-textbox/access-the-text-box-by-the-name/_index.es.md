@@ -6,7 +6,7 @@ url: /es/net/access-the-text-box-by-the-name/
 ---
 ## Acceda al cuadro de texto por el nombre
 
-Anteriormente, se accede a los cuadros de texto por índice desde el[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)colección pero ahora también puede acceder al cuadro de texto por nombre de esta colección. Esta es una forma conveniente y rápida de acceder a su cuadro de texto si ya conoce su nombre.
+ Anteriormente, se accede a los cuadros de texto por índice desde el[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)colección pero ahora también puede acceder al cuadro de texto por nombre de esta colección. Esta es una forma conveniente y rápida de acceder a su cuadro de texto si ya conoce su nombre.
 
 El siguiente código de ejemplo primero crea un cuadro de texto y le asigna un texto y un nombre. Luego, en las siguientes líneas, accedemos al mismo cuadro de texto por su nombre e imprimimos su texto.
 

@@ -6,7 +6,7 @@ url: /ar/java/set-the-shape-type-of-data-labels-of-chart/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك تغيير نوع شكل تسميات البيانات للمخطط باستخدام[**تصنيفات البيانات**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)منشأه. يأخذ قيمة[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)تعداد وتغيير نوع شكل تسميات البيانات وفقًا لذلك. بعض قيمها
+يمكنك تغيير نوع شكل تسميات البيانات للمخطط باستخدام[**تصنيفات البيانات**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#ShapeType)خاصية. يأخذ قيمة[**DataLabelShapeType**](https://reference.aspose.com/cells/java/com.aspose.cells/DataLabelShapeType)تعداد وتغيير نوع شكل تسميات البيانات وفقًا لذلك. بعض قيمها
 
 {{< highlight "java" >}}
 

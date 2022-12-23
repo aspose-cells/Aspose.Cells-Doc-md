@@ -10,7 +10,7 @@ Aspose.Cells también ofrece la posibilidad de trabajar con Web Extensions.
 
 ## **Agregar extensión web**
 
- Puede agregar extensiones web (complementos de Office) en Excel haciendo clic en el**Insertar** pestaña y luego haciendo clic en el**Tienda**/**Obtener complementos** Enlace. En el cuadro Complementos, busque el complemento que desee y agréguelo.
+ Puede agregar extensiones web (complementos de Office) en Excel haciendo clic en el**Insertar** pestaña y luego haciendo clic en el**Almacenar**/**Obtener complementos** Enlace. En el cuadro Complementos, busque el complemento que desee y agréguelo.
 
 Aspose.Cells también proporciona la función para agregar Web Extensions usando el[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) clases El siguiente ejemplo de código demuestra el uso de[**WebExtension**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) y[**WebExtensionTaskPane**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)clases para agregar una extensión web al archivo de Excel. Por favor vea el[archivo de salida de Excel](89849869.xlsx)generado por el código como referencia.
 

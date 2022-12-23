@@ -8,7 +8,7 @@ url: /it/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 A volte è necessario inserire alcune forme necessarie nel foglio di lavoro. Potrebbe essere necessario inserire la stessa forma in diverse posizioni del foglio di lavoro. Oppure è necessario inserire in batch le forme nel foglio di lavoro.
 
- Non preoccuparti![Aspose.Cells](https://products.aspose.com/cells/) supporta tutte queste operazioni.
+ Non preoccuparti![Aspose.Cells](https://products.aspose.com/cells/)supporta tutte queste operazioni.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Le forme in excel si suddividono principalmente nelle seguenti tipologie:
 - **Stelle e striscioni**
 - **Didascalie**
 
-Questo documento guida selezionerà una o due forme da ogni tipo per creare campioni. Attraverso questi esempi imparerai come usare[Aspose.Cells](https://products.aspose.com/cells/) per inserire la forma specificata nel foglio di lavoro.
+ Questo documento guida selezionerà una o due forme da ogni tipo per creare campioni. Attraverso questi esempi imparerai come usare[Aspose.Cells](https://products.aspose.com/cells/) per inserire la forma specificata nel foglio di lavoro.
 
 
 
@@ -62,7 +62,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 ## **Inserimento di una freccia di linea nel foglio di lavoro**
 
- La forma della freccia della linea appartiene al**Linee**categoria. È un caso speciale di linea.
+ La forma della freccia della linea appartiene al**Linee** categoria. È un caso speciale di linea.
 
 ***In Microsoft Excel (ad esempio 2007):***
 
@@ -130,7 +130,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 ## **Inserimento di un cubo nel foglio di lavoro**
 
- La forma del cubo appartiene al**Forme di base** categoria.
+La forma del cubo appartiene al**Forme di base** categoria.
 
 ***In Microsoft Excel (ad esempio 2007):***
 
@@ -232,7 +232,7 @@ Esegui il codice sopra, otterrai i seguenti risultati:
 
 ## **Inserimento di un documento multiplo nel foglio di lavoro**
 
-La forma del multidocumento appartiene al**Diagrammi di flusso** categoria.
+ La forma del multidocumento appartiene al**Diagrammi di flusso** categoria.
 
 ***In Microsoft Excel (ad esempio 2007):***
 

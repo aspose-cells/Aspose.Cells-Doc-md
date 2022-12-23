@@ -18,10 +18,10 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.9.
 |CELLSJAVA-42967|Infoga SVG-filen i kalkylbladet|Ny funktion|
 |CELLSJAVA-42969|Support Java 12 i Aspose.Cells for Java|Förbättring|
 |CELLSJAVA-42977|Hög CPU- och minnesförbrukning under konvertering av Excel till PDF|Förbättring|
-|CELLSJAVA-42861|Det gick inte att hämta formens alternativa text i ODS-filformat|Insekt|
-|CELLSJAVA-42929|Graftiteländringar vid konvertering av XLSX till PDF|Insekt|
-|CELLSJAVA-42933|Grafikens färg ändras när Excel-filen konverteras till PDF|Insekt|
-|CELLSJAVA-42946|Fel rendering av staplade stapeldiagram med serier till PDF|Insekt|
+|CELLSJAVA-42861|Det gick inte att hämta formens alternativa text i filformatet ODS|Insekt|
+|CELLSJAVA-42929|Graftiteländringar vid konvertering från XLSX till PDF|Insekt|
+|CELLSJAVA-42933|Grafikens färg ändras vid konvertering av Excel-fil till PDF|Insekt|
+|CELLSJAVA-42946|Fel rendering av staplat stapeldiagram med serier till PDF|Insekt|
 |CELLSJAVA-42942|Sidor som skrivs ut på kalkylbladsnivå och inte på arbetsboksnivå|Insekt|
 |CELLSJAVA-42952|Fel indrag från toppen av cellen i vissa ord|Insekt|
 |CELLSJAVA-42902|Vattenfallsdiagramsstil kopieras inte korrekt när arbetsboken kopieras|Insekt|
@@ -31,25 +31,25 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 19.9.
 |CELLSJAVA-42902|Vattenfallsdiagramsstil kopieras inte korrekt när arbetsboken kopieras|Insekt|
 |CELLSJAVA-42944|Fel vid konvertering av XLSX till HTML|Insekt|
 |CELLSJAVA-42966|Uppdatering av pivottabell och pivotdiagram skadar Excel-filen|Insekt|
-|CELLSJAVA-42975|Skillnader i HTML-konvertering|Insekt|
-|CELLSJAVA-42971|# N/A visas i den renderade PDF-filen
+|CELLSJAVA-42975|Skillnader i HTML konvertering|Insekt|
+|CELLSJAVA-42971|# N/A visas i den återgivna PDF
 |Insekt|
-|CELLSJAVA-42970|Oönskad utökad gränslinje i Excel till PDF-rendering|Insekt|
-|CELLSJAVA-42976|Bildpositionen matchar inte när Excel-fil renderas till PDF|Insekt|
+|CELLSJAVA-42970|Oönskad utökad kantlinje i Excel till PDF-rendering|Insekt|
+|CELLSJAVA-42976|Bildpositionen stämmer inte överens vid rendering av Excel-fil till PDF|Insekt|
 |CELLSJAVA-42961|Tabellegenskaper kopierades inte korrekt när data kopierades med copyColumns|Insekt|
 |CELLSJAVA-42980|Transparent bild ändras till ogenomskinlig under bildkopiering|Insekt|
 |CELLSJAVA-42990|Dolda rader visas när Excel-fil konverteras till HTML när AutoFilter finns|Insekt|
 |CELLSJAVA-42997|CalculateFormula() misslyckas med stora formelsträngar|Insekt|
 |CELLSJAVA-43000|CalculateFormula() korrumperar Excel-filen|Insekt|
 |CELLSJAVA-42987|Formateringsproblem vid konvertering av Excel-fil till PDF|Insekt|
-|CELLSJAVA-42986|Text som överlappar efter konvertering av kinesisk XLSX-fil till PDF|Insekt|
+|CELLSJAVA-42986|Text som överlappar efter konvertering av kinesiska XLSX-fil till PDF|Insekt|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) fungerar inte för nyare Excel-versioner|Insekt|
 |CELLSJAVA-42996|Dataetiketter baserade på formler återges inte korrekt i PDF|Insekt|
-|CELLSJAVA-42945|Spara som HTML kastar undantag om ExportImagesAsBase64 är inställt|Undantag|
+|CELLSJAVA-42945|Spara som HTML ger undantag om ExportImagesAsBase64 är inställd|Undantag|
 |CELLSJAVA-42953|NullPointerException vid konvertering av XLS-filer till HTML|Undantag|
 |CELLSJAVA-42951|java.lang.NullPointerException slängt av comment.setHtmlNote()|Undantag|
 |CELLSJAVA-42954|Undantag höjdes när du laddade och sparade XLSX|Undantag|
-|CELLSJAVA-42957|Ogiltigt FontUnderlineType-värde visas när XLSX sparas|Undantag|
+|CELLSJAVA-42957|Ogiltigt FontUnderlineType-värde kastas när XLSX sparas|Undantag|
 |CELLSJAVA-42992|Undantag höjdes vid konvertering av XLSM till bild|Undantag|
 |CELLSJAVA-42991|Undantaget "Kolumnbredd måste vara mellan 0 och 255" vid konvertering av Excel till PDF i macOS|Undantag|
 |CELLSJAVA-43004|Undantag java.lang.NumberFormatException: För inmatningssträng: "0.0" vid konvertering av Excel till HTML|Undantag|
@@ -69,9 +69,9 @@ Kontrollera/indikera framsteg för sidsparprocessen.
 ### **Lägger till klass PageSavingArgs**
 Info för en process för att spara sidan.
 ### **Lägger till klass PageStartSavingArgs**
-Info för en sida startar sparningsprocessen.
+Information för en sida startar sparningsprocessen.
 ### **Lägger till klass PageEndSavingArgs**
-Info för en sida avslutar sparprocessen.
+Information för en sida avslutar sparprocessen.
 ### **Lägger till klass SheetPrintingPreview**
 Representerar förhandsvisningen av kalkylbladsutskrift.
 ### **Lägger till klass WorkbookPrintingPreview**

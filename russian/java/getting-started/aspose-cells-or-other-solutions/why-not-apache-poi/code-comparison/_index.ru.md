@@ -8,7 +8,7 @@ url: /ru/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi
 
 - Функции
 - Усилия, необходимые для использования библиотеки
-- Производительность
+- Спектакль
 
 Если вы являетесь разработчиком Java и хотите выбрать библиотеку обработки электронных таблиц для обработки электронных таблиц, вы можете сравнить Apache POI HSSF и XSSF SDK с Aspose.Cells. В этом случае этот проект поможет вам сравнить функции и код с использованием обеих библиотек. .
 
@@ -17,7 +17,7 @@ url: /ru/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi
 - [Работа с рабочими листами в Apache POI и Aspose.Cells](/cells/ru/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
   - [Создать новый рабочий лист](/cells/ru/java/create-new-worksheet/)
   - [Добавить изображения в рабочий лист](/cells/ru/java/add-images-in-worksheet/)
-  - [Преобразование рабочего листа в CSV](/cells/ru/java/convert-worksheet-to-csv/)
+  - [Преобразовать рабочий лист в CSV](/cells/ru/java/convert-worksheet-to-csv/)
   - [Копировать лист в рабочей книге](/cells/ru/java/copy-sheet-within-workbook/)
   - [Изменить порядок листов в книге](/cells/ru/java/re-order-sheets-within-workbook/)
   - [Верхний и нижний колонтитулы](/cells/ru/java/header-and-footers/)

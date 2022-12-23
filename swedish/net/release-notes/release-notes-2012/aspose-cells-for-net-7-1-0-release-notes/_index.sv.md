@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Ny
-Funktioner
+ Funktioner
 
 - Stöd för att tillämpa villkorlig formatering på pivottabeller
 - Läs konfigurationen av gruppfält i pivottabeller
@@ -32,9 +32,9 @@ Funktioner
 
  - Saknade egenskaper (pivotfält)
 
- -PivotField.ShowCompact - Felaktigt egenskapsvärde i XLS-format
+ -PivotField.ShowCompact - Felaktigt egenskapsvärde i formatet XLS
 
- - Pivotfältets felaktiga objektvärde i de grupperade fälten
+ Pivotfältets felaktiga objektvärde i de grupperade fälten
 
  - Läsa objekt från cachen (pivotfält)
 
@@ -55,36 +55,36 @@ Funktioner
 
  Buggar
 
- Det gick inte att uppdatera pivottabellen i en Excel-arbetsbok
+ - Det gick inte att uppdatera pivottabellen i en Excel-arbetsbok
 
 - Problem med standardpappersstorleken
 - Smutsig höger kant på bilden vid konvertering av XLS till PDF
 - Workbook.CalculateFormula() metod bugg
 - Flera problem hittades vid uppgradering från v5.2.1.0 till v7.0.3.0
-- Det går inte att inkludera rad-/kolumnrubriker och kommentarer i TIFF-filen
+- Det går inte att inkludera rad-/kolumnrubriker och kommentarer i filen TIFF
 - Excel-till-Html - ord-wrap problem
 - Knappens teckensnittsattribut ändras efter Spara
 - Diagrammets förklaring krymps med metoden Shape.UpperLeftRow().
-- Fel i det utgående PDF-dokumentet
+- Fel i utdatadokumentet PDF
 - Flerradiga rubriker stöds inte vid rendering till PDF-fil
 - Läser all data från basfälten i pivottabellen
 - Att exportera Excel-ark till DataTable ger fel
-- Problem med att öppna ODS-filer
+- Problem med att öppna ODS filer
 - Cell-kanten återges inte korrekt med Aspose.Cells v7.0.4.x
 
  -Formel resulterar i #Ref
 
-- XLS-fil kraschar MS Excel 2007
+- XLS fil kraschar MS Excel 2007
 - Det gick inte att öppna filen med MS Excel
-- Problem med HTML-utdata i den nya Aspose.Cells DLL (version)
+- Problem med HTML utdata i den nya Aspose.Cells DLL (version)
 
--Uppdatering av XLSX-fil med pivottabell gör att Excel visar fel
+ -Uppdatering av XLSX-filen med pivottabell gör att Excel visar fel
 
  -ToImage-funktion som genererar extra kolumn i den genererade bilden (Sheet-to-Imageissue)
 
-- Excel 2007-arbetsbok med tabeller med flera färger återges inte i den konverterade PDF-filen
+- Excel 2007-arbetsbok med flera färgade tabeller återges inte i den konverterade PDF-filen
 
- -Att använda alternativet Fitting Sheet on One Page i Excel för att konvertera till PDF verkar inte fungera
+ - Att använda alternativet Fitting Sheet on One Page i Excel för att konvertera till PDF verkar inte fungera
 
 - Flera problem vid uppgradering från v5.2.1.0 till v7.0.3.0
 

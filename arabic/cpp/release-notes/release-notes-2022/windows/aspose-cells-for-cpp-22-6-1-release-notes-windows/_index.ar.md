@@ -12,4 +12,4 @@ url: /ar/cpp/aspose-cells-for-cpp-22-6-1-release-notes-windows/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSCPP-817| إصلاح مشكلة ترميز utf8|حشرة|
+|CELLSCPP-817| إصلاح مشكلة ترميز utf8|خلل برمجي|

@@ -8,7 +8,7 @@ url: /zh/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
  Aspose.Cells API暴露了[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类以处理用户希望在电子表格中为小计使用自定义标签的场景。此外，[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类也可以用来修改**其他**呈现工作表或图表时饼图的标签。
 
-## **GlobalizationSettings 类介绍**
+## **GlobalizationSettings 类简介**
 
 这[**全球化设置**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)类目前提供以下 3 种方法，可以在自定义类中重写这些方法以获得小计所需的标签或呈现自定义文本**其他**饼图的标签。
 

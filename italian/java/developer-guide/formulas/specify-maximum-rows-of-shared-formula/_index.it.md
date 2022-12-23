@@ -14,6 +14,6 @@ Le righe massime predefinite della formula condivisa sono 64. Potrebbe essere qu
 
 Il codice di esempio seguente illustra l'utilizzo di[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRowsOfSharedFormula)proprietà. Imposta il numero massimo di righe della formula condivisa su 5 e aggiunge la formula condivisa nella cella D1 per 100 righe e salva in[file Excel di output](61767869.xlsx). Se estrai il contenuto del file Excel di output e controlli il file*foglio1.xml*, vedrai la formula condivisa divisa dopo ogni 5 righe come evidenziato nello screenshot qui sopra.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Formulas-SpecifyMaximumRowsOfSharedFormula.java" >}}

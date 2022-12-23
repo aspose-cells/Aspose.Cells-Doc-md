@@ -1,5 +1,5 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.0.0
+title: Pubblico API Modifiche Aspose.Cells 8.0.0
 type: docs
 weight: 20
 url: /it/java/public-api-changes-in-aspose-cells-8-0-0/
@@ -14,7 +14,7 @@ A partire dalla v8.0.0 di Aspose.Cells for Java abbiamo fornito le opzioni di ut
 ### **Esempio**
 Dimostra come leggere un file Excel (di grandi dimensioni) in modalità ottimizzata.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -34,7 +34,7 @@ Workbook book = new Workbook(myDir + "large.xlsx", options);
 
 Illustra come scrivere un set di dati di grandi dimensioni in un foglio di lavoro in modalità ottimizzata.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -62,7 +62,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 ### **Esempio**
 Dimostra come confrontare gli oggetti Cell e Row da ora in poi.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -81,7 +81,7 @@ Poiché gli oggetti Row e Cell vengono istanziati in base all'invocazione, non v
 ### **Esempio**
 Ad esempio, il seguente frammento di codice restituirà risultati non validi utilizzando 8.0.0 e versioni successive,
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -97,7 +97,7 @@ System.out.println(cell.getName() + ":" + cell.getValue());
 
 Con la nuova versione l'oggetto Cell non sarà più valido o farà riferimento ad A2 con un valore indesiderato. Per evitare tale situazione, ottenere nuovamente gli oggetti Row o Cell dalla raccolta di celle per recuperare il risultato corretto.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -121,9 +121,9 @@ RowCollection non eredita più CollectionBase perché non è presente alcun ogge
 
 {{% /alert %}}
 ## **Cell.StringValue Comportamento modificato**
- Nelle versioni precedenti, modello speciale_è stato ignorato durante la formattazione dei valori delle celle, dove il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali_ e* per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato di cella personalizzato "_(\$* #,##0.00_)" utilizzato per rappresentare il valore 123 ha prodotto il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento dell'applicazione Excel durante la copia della cella in testo o esportare in CSV.
+ Nelle versioni precedenti, modello speciale_è stato ignorato durante la formattazione dei valori delle celle, dove il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali_ e* per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato di cella personalizzato "_(\$* #,##0.00_)" utilizzato per rappresentare il valore 123 ha prodotto il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento dell'applicazione Excel durante la copia della cella al testo o esportare a CSV.
 ## **Aggiunto CreatedTime a PdfSaveOptions**
-Ora gli utenti possono ottenere o impostare l'ora di creazione del PDF durante il salvataggio del foglio di calcolo in PDF durante l'utilizzo della classe PdfSaveOptions.
+Ora gli utenti possono ottenere o impostare l'ora di creazione PDF durante il salvataggio del foglio di calcolo su PDF durante l'utilizzo della classe PdfSaveOptions.
 ## **Aggiunto ShowFormulas al foglio di lavoro**
 D'ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas offerta da Worksheet per cambiare la visualizzazione tra formula e valore di un determinato foglio di lavoro.
 ## **Aggiunto Ooxml a FileFormatType**

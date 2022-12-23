@@ -6,7 +6,7 @@ url: /it/net/accessing-and-modifying-the-value-of-a-cell/
 ---
 {{% alert color="primary" %}} 
 
-Nel nostro argomento precedente, abbiamo discusso dell'accesso alle celle di un foglio di lavoro. In questo argomento, estenderemo semplicemente tale argomento per mostrare agli sviluppatori come possono accedere e modificare i valori delle celle utilizzando l'API di Aspose.Cells.GridDesktop.
+Nel nostro argomento precedente, abbiamo discusso dell'accesso alle celle di un foglio di lavoro. In questo argomento, estenderemo semplicemente tale argomento per mostrare agli sviluppatori come possono accedere e modificare i valori delle celle utilizzando API di Aspose.Cells.GridDesktop.
 
 {{% /alert %}} 
 ## **Accedi e modifica il valore Cell utilizzando Aspose.Cells.GridDesktop**

@@ -18,6 +18,6 @@ Aşağıdaki örnek kod, bir çalışma sayfasına görüntü köprüsünün nas
 
 **çıktı dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](add-image-hyperlinks_1.png)
+![yapılacaklar:resim_alternatif_metin](add-image-hyperlinks_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddImageHyperlinks-AddImageHyperlinks.java" >}}

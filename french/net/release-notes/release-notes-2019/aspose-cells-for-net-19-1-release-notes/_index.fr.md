@@ -10,14 +10,14 @@ url: /fr/net/aspose-cells-for-net-19-1-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46429|Ajouter un tableau croisé dynamique avec l'option Afficher les pages de filtre de rapport|Nouvelle fonctionnalité|
-|CELLSNET-46014|Prise en charge de la gestion du contenu de cellule débordant lors de l'enregistrement au format PDF et image|Nouvelle fonctionnalité|
+|CELLSNET-46014|Prise en charge de la gestion du contenu de cellule débordant tout en enregistrant sous PDF et image|Nouvelle fonctionnalité|
 |CELLSNET-46490|Prise en charge des fichiers Excel95/5.0 XLS|Nouvelle fonctionnalité|
 |CELLSNET-46500|Trier par couleur de fond de cellule|Nouvelle fonctionnalité|
 |CELLSNET-46544|Détecter si le fichier MHT généré est une feuille de calcul ou non|Nouvelle fonctionnalité|
-|CELLSNET-46538|Lorsque XLSX est enregistré au format PDF ou TIFF, le bas du texte est manquant|Punaise|
+|CELLSNET-46538|Lorsque XLSX est enregistré sous PDF ou TIFF, le bas du texte est manquant|Punaise|
 |CELLSNET-46509|Les formules R1C1 ne sont pas lues correctement pour certaines cellules|Punaise|
 |CELLSNET-46513|Aspose.Cells moteur de calcul de formule calcule une formule pour la cellule comme "0" au lieu de "#REF!" Erreur|Punaise|
 |CELLSNET-46535|"#NOM?" pour les formules enregistrées au format XLSB|Punaise|
@@ -25,9 +25,9 @@ url: /fr/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46531|Renommer ListColumns corrompt le classeur (lorsqu'il y a un tableau croisé dynamique)|Punaise|
 |CELLSNET-46511|TIFF créé avec des pages vierges supplémentaires|Punaise|
 |CELLSNET-46522|Application des paramètres régionaux aux en-têtes de configuration d'impression|Punaise|
-|CELLSNET-46529|Image manquante après la conversion de XLSX en PDF|Punaise|
-|CELLSNET-46451|Problème lors du rendu du fichier modèle au format de fichier PDF|Punaise|
-|CELLSNET-46518|Problème de mise en page (certaines étiquettes d'axe sont sur deux lignes) lors du rendu du fichier modèle au format de fichier PDF|Punaise|
+|CELLSNET-46529|Image manquante après la conversion de XLSX à PDF|Punaise|
+|CELLSNET-46451|Problème lors du rendu du fichier de modèle au format de fichier PDF|Punaise|
+|CELLSNET-46518|Problème de mise en page (certaines étiquettes d'axe sont sur deux lignes) lors du rendu du fichier de modèle au format de fichier PDF|Punaise|
 |CELLSNET-46113|Le format de fichier n'est pas pris en charge, exception pour le document XLS|Punaise|
 |CELLSNET-46504|Problème de chemin des liens|Punaise|
 |CELLSNET-46506|Différence avec la méthode ImportObjectArray|Punaise|

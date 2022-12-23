@@ -27,19 +27,19 @@ url: /sv/net/aspose-cells-for-net-18-5-release-notes/
 |CELLSNET-46088|Zoomfaktor för sidinställningar skapar felaktigt antal sidor i PDF|Insekt|
 |CELLSNET-46076|Undantag när du sparar en arbetsbok i MemoryStream|Insekt|
 |CELLSNET-46052|Vissa av rutnätslinjerna runt vissa celler är inte ritade korrekt|Insekt|
-|CELLSNET-46036|Diagramtiteln är squished där alla tecken körs tillsammans i Excel till PDF-rendering|Insekt|
-|CELLSNET-46082|Färgerna på cirkeldiagramförklaringar ändras efter att de har sparats till PDF och stämmer inte överens med cirkeldiagramsegment|Insekt|
-|CELLSNET-46104|Att spara XLSB till XLSM skapar en korrupt MS Excel-fil|Insekt|
+|CELLSNET-46036|Diagramtiteln är klämd där alla tecken körs tillsammans i Excel till PDF-rendering|Insekt|
+|CELLSNET-46082|Cirkeldiagramsförklaringsfärgerna ändras efter att ha sparats till PDF och stämmer inte överens med cirkeldiagramsegment|Insekt|
+|CELLSNET-46104|Om du sparar XLSB till XLSM skapas en korrupt MS Excel-fil|Insekt|
 |CELLSNET-46098|Namngivna intervall förlorade vid kopiering till befintlig arbetsbok|Insekt|
-|CELLSNET-46077|Inbäddade ritobjekt är för smala i utdatafilen när du sparar om en XLSX-fil|Insekt|
+|CELLSNET-46077|Inbäddade ritobjekt är för smala i utdatafilen när en XLSX-fil sparas på nytt|Insekt|
 |CELLSNET-46068|Aspose.Cells returnerar tom PDF när en SpreadsheetML-fil sparas som PDF|Insekt|
-|CELLSNET-46060|Dataförlust uppstår när ODS-filformatet konverteras till XLSX|Insekt|
+|CELLSNET-46060|Dataförlust inträffar vid konvertering av ODS till XLSX filformat|Insekt|
 |CELLSNET-46057|Namngivna intervall utökas inte med Smart Markers "shift"-parameter|Insekt|
 |CELLSNET-46055|Genom att använda parametern "shift" i Smart Markers, renderas de genererade raderna inte med samma stil/formatering|Insekt|
 |CELLSNET-46048|Villkorlig formatering fungerar inte i Smart Markers med shift-parameter|Insekt|
 |CELLSNET-42764|Text beskuren i MS Excel-celler om dokumentraderna har automatisk storlek|Insekt|
 |CELLSNET-41678|Ändra storlek på ett ListObject/Table uppdaterar inte dess villkorliga formatering|Insekt|
-|CELLSNET-46059|Det går inte att öppna XLS-filen eftersom den ger undantag under laddning|Undantag|
+|CELLSNET-46059|Det går inte att öppna XLS-filen eftersom den skapar undantag under laddning|Undantag|
 |CELLSNET-46097|Undantag "Ogiltig formel:"'Nytt' namn'!G11:G15"." när du uppdaterar pivotdiagramdata|Undantag|
 |CELLSNET-46075|Undantag vid rendering av en Excel-fil till PDF|Undantag|
 |CELLSNET-46101|NullReferenceExceptions för att öppna MS Excel-filer på Mono Ubuntu Linux|Undantag|

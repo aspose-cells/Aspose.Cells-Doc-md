@@ -17,13 +17,13 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.6.
 |CELLSJAVA-43452|Japansk kalender som använder en Excel-funktion läses inte korrekt|
 |CELLSJAVA-43466|CellsException: Fel för ZipFile vid import av ods|
 |CELLSJAVA-43403|Textplacering flyttades till vänster när du sparade som HTML|
-|CELLSJAVA-43421|Escape- och radbrytningstecken renderade inte korrekt vid konvertering av HTML till Excel|
-|CELLSJAVA-43427|Villkorsformat med datafält Visa värden i HTML-export|
-|CELLSJAVA-43428| Bokföringsformat kombinerat med 6-punktsfont förvränger siffror i HTML|
-|CELLSJAVA-43429|Text med vertikal textjustering försvinner i HTML|
+|CELLSJAVA-43421|Escape och radbrytningstecken inte korrekt renderade vid konvertering av HTML till Excel|
+|CELLSJAVA-43427|Villkorsformat med datafält Visa värden i HTML Export|
+|CELLSJAVA-43428| Bokföringsformat kombinerat med 6-punkts teckensnitt förvränger siffror i HTML|
+|CELLSJAVA-43429|Text med vertikal textjustering försvinner på HTML|
 |CELLSJAVA-43407|Excel-formler hoppas över/ändras efter att filen har sparats|
 |CELLSJAVA-43419| Anpassat nummerformat visas inte korrekt i PDF|
-|CELLSJAVA-43374|Diagrametiketter upprepas när de bifogade Excel-filerna konverterades till PDF|
+|CELLSJAVA-43374|Diagrametiketter upprepas medan de bifogade Excel-filerna konverterades till PDF|
 |CELLSJAVA-43409| Oväntade dataetiketter dök upp i utdatabilden för diagram|
 |CELLSJAVA-43411|Teckensnittsersättningsvarningar fungerar inte i diagram till bildkonvertering|
 |CELLSJAVA-43414|Xls till pdf-konverteringsproblem|
@@ -38,7 +38,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.6.
 |CELLSJAVA-43457|Oändlig slinga när kopierad arbetsbok sparas|
 |CELLSJAVA-43442|Problem med datasortering när du klickar på rubriklänkar i GridWebs vårdemon|
 |CELLSJAVA-43443|Problem med redigeringsläge i GridWeb Java|
-|CELLSJAVA-43455|Teckensnitt är inte inbäddade i PDF för icke ASCII-tecken när EmbedStandardWindowsFonts ställs in på false|
+|CELLSJAVA-43455|Teckensnitt är inte inbäddade i PDF för icke-ASCII-tecken när EmbedStandardWindowsFonts ställs in på false|
 |CELLSJAVA-43449|Det går inte att ändra teckensnittsfamiljen av diagramelement från "Calibri" till "Aktiv Grotesk"|
 |CELLSJAVA-43454|X-axeletiketter är avskurna|
 |CELLSJAVA-43445|Regression: saknade raddata för .numbers-filer|
@@ -50,15 +50,15 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.6.
 |CELLSJAVA-43491|Värdet på formeln som använder datatabellen kan inte extraheras korrekt|
 |CELLSJAVA-43498|Formaterat resultat av numeriskt värde är felaktigt för zh_CN-språk|
 |CELLSJAVA-43451|Innehållet i Excel-filen visas felaktigt och ChangeStyle (vår) demo fungerar inte korrekt|
-|CELLSJAVA-43484|Innehållslayouten är inkonsekvent i Excel till PDF-rendering|
+|CELLSJAVA-43484|Innehållslayouten är inkonsekvent i Excel med PDF-rendering|
 |CELLSJAVA-43465|Saknar några serier av grafer vid konvertering av Excel till PDF|
-|CELLSJAVA-43468|Problem med ekvationen av rak linje i Excel till PDF-rendering|
+|CELLSJAVA-43468|Problem med ekvationen av rät linje i Excel till PDF-rendering|
 |CELLSJAVA-43432|Diagraminnehåll matchade inte när ett XLS-filformat sparades på nytt|
 |CELLSJAVA-43475|Regression: Linjelindade celler skärs av|
 |CELLSJAVA-43478|Regression: NUMBERS till PDF, mycket data saknas|
-|CELLSJAVA-43485|Regression: Extra innehåll vid rendering av PDF från ODS|
-|CELLSJAVA-43492| Konvertering av en XML-fil (SpreadsheetML) tar bort Hidden-inställningen i "Namndefinition" i utdata XLS och XLSX|
-|CELLSJAVA-43417|Undantag höjdes när XLSX öppnades från stor fil|
+|CELLSJAVA-43485|Regression: Extra innehåll vid rendering PDF från ODS|
+|CELLSJAVA-43492| Konvertering av en XML-fil (SpreadsheetML) tar bort den dolda inställningen i "Namndefinition" i utdata XLS och XLSX|
+|CELLSJAVA-43417|Undantag höjdes när man öppnade XLSX från stor fil|
 |CELLSJAVA-43431|java.lang.NullPointerException höjdes när Cells.deleteColumn() anropades med den senaste versionen 21.3 medan den fungerar med 21.2|
 |CELLSJAVA-43437|IndexOutOfBoundsUndantag för att klicka på andra arksidor i utvärderingsläge|
 |CELLSJAVA-43459|NullPointerException i getFormulaLocal() med anpassade GlobalizationSettings|
@@ -77,7 +77,7 @@ Ge användarna möjlighet att komma åt data i batch-läge med bättre prestanda
 
 ### **Lägger till egenskaperna TxtSaveOptions.ExportQuotePrefix och TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Ge användarna möjligheten att bestämma hur de ska göra med det ledande citatet av cellens värde vid export/import av CSV/TSV-filer.
+Ge användarna möjlighet att bestämma hur de ska göra med det ledande citatet av cellens värde vid export/import av CSV/TSV-filer.
 
 ### **Lägger till metoderna GlobalizationSettings.GetCollationKey(string,bool) och Compare(string,string,bool).**
 
@@ -185,7 +185,7 @@ I gamla versioner gäller den här egenskapen endast formelceller. För att det 
 
 ### **Ändrar beteendet för Cell.Value-egenskapen.**
 
-I gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
+gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
 
 ### **Lägger till egenskapen Cell.IsNumericValue.**
 

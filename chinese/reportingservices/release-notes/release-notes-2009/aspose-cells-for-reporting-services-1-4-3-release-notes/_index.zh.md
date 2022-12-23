@@ -33,7 +33,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 |**问题编号** |**零件** |**概括** |
 |:- |:- |:- |
 |11837 |使成为|Aspose.Cells.ReportingServices 支持的功能|
-|11563 |使成为|SSRS 订阅作为 XLS 问题保存到文件系统|
+|11563 |使成为|SSRS 订阅保存到文件系统时出现 XLS 问题|
 |11085 |使成为|Aspose.Cells 64 位问题|
 |11090 |使成为|程序化行|
 |10710 |使成为|报表导出为 .xls|

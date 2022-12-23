@@ -40,7 +40,7 @@ Vi är
 - Viss villkorlig formatering återges inte korrekt
 - Dålig textpositionering i PDF med blandade teckensnitt
 - Att exportera till PDF från Excel-fil ändrar formlerna
-- Kalkylblad och PDF-renderingsproblem
+- Kalkylblad och PDF renderingsproblem
 - Problem med automatisk anpassning av kolumner
 - Problem med pivottabeller
 - Pivottabellens uppdatering misslyckas
@@ -67,7 +67,7 @@ Vi är
 
 
 Ny
-Funktioner
+ Funktioner
 
 - GridDesktop Scrollbars - Hur man visar/döljer vertikala och horisontella rullningslister
 - Infoga rad-/kolumnhändelser

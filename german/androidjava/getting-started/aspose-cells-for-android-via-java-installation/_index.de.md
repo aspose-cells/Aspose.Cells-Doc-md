@@ -42,11 +42,11 @@ Dieses Thema führt Sie durch die erforderlichen Schritte zum Einrichten von Asp
 
 {{% alert color="primary" %}} 
 
-Wenn Sie Android Studio noch nicht installiert haben, müssen Sie zuerst das Setup von Android Studio erwerben und auf Ihrem Computer installieren. Sie können die neueste Version von Android Studio von herunterladen[hier](https://developer.android.com/studio/index.html#win-bundle) während die Details zur Installation der IDE verfügbar sind[hier](https://developer.android.com/studio/install.html).
+Wenn Sie Android Studio noch nicht installiert haben, müssen Sie zuerst das Setup von Android Studio erwerben und auf Ihrem Computer installieren. Sie können die neueste Version von Android Studio von herunterladen[Hier](https://developer.android.com/studio/index.html#win-bundle) während die Details zur Installation der IDE verfügbar sind[Hier](https://developer.android.com/studio/install.html).
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Android via Java Paket kann heruntergeladen werden[hier](https://downloads.aspose.com/cells/androidjava). Bitte beachten Sie, dass jedes Release-Paket von Aspose.Cells for Android via Java hauptsächlich aus 2 Dateien besteht, wie unten beschrieben.
+ Aspose.Cells for Android via Java Paket kann heruntergeladen werden[Hier](https://downloads.aspose.com/cells/androidjava). Bitte beachten Sie, dass jedes Release-Paket von Aspose.Cells for Android via Java hauptsächlich aus 2 Dateien besteht, wie unten beschrieben.
 
 - **aspose-cells-xxxjar** ist die Hauptbibliotheksdatei, die alle Namespaces von Aspose.Cells for Android via Java API enthält.
 - **aspose-cells-xxx-libs.apk** ist das APK, das die Drittanbieterdatei bcprov-jdk15-146.jar enthält, die für Verschlüsselungs- und Entschlüsselungsfunktionen verwendet wird, die von Aspose.Cells for Android via Java API angeboten werden.

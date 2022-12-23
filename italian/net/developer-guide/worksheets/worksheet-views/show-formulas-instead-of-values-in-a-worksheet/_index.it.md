@@ -3,6 +3,7 @@ title: Mostra formule invece di valori in un foglio di lavoro
 type: docs
 weight: 20
 url: /it/net/show-formulas-instead-of-values-in-a-worksheet/
+description: In questo articolo viene fornito il codice di esempio per l'utilizzo della libreria C# API o .NET per visualizzare a livello di codice le formule anziché i valori in un foglio di lavoro o di calcolo di Excel.
 ---
 {{% alert color="primary" %}}
 

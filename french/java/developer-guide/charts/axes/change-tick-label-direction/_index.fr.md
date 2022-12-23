@@ -6,7 +6,7 @@ url: /fr/java/change-tick-label-direction/
 ---
 ## **Changer la direction de l'étiquette de la coche**
 
-Aspose.Cells vous offre la possibilité de changer la direction de l'étiquette du graphique en utilisant le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) propriété. La[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)la propriété accepte le[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) valeur d'énumération. La[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)l'énumération fournit les membres suivants
+Aspose.Cells vous offre la possibilité de changer la direction de l'étiquette du graphique en utilisant le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) la propriété. Le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)la propriété accepte le[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) valeur d'énumération. Le[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)l'énumération fournit les membres suivants
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)

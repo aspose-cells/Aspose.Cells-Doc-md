@@ -11,7 +11,7 @@ url: /tr/java/aspose-cells-for-java-8-1-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java, 8.1.1 sürümüne güncellendi ve bu sürümün 8 yeni faydalı iyileştirme getirdiğini duyurmaktan memnuniyet duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
  Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -28,8 +28,8 @@ Geliştirmeler
 Hatalar
 
 (CELLSJAVA-40848) - Koşullu biçimlendirme arka plan renkleri pdf'de işlenmez
-(CELLSJAVA-40852) - ImageOrPrintOptions'ın Saydamlığını ayarlamak, PNG'yi Siyah Arka Plan ile işler
-(CELLSJAVA-40855) - XLSX'ten PDF'e: CellsHelper.setFontDir yazı tiplerini seçmiyor gibi görünüyor
+(CELLSJAVA-40852) - ImageOrPrintOptions'ın Saydamlığını ayarlamak, PNG'i Siyah Arka Plan ile işler
+(CELLSJAVA-40855) - XLSX - PDF: CellsHelper.setFontDir yazı tiplerini seçmiyor gibi görünüyor
 (CELLSJAVA-40862) - Cell.getType(), sayıyı tarih/saat olarak algılıyor
 (CELLSJAVA-40863) - Formüllerde yerelleştirilmiş biçimler için destek
 

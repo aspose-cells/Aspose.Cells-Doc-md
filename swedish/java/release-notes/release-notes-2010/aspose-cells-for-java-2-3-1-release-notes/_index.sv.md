@@ -21,10 +21,10 @@ url: /sv/java/aspose-cells-for-java-2-3-1-release-notes/
 - Ställer in anpassade talformat för PivotField.
 - Inkluderar nya inbyggda dokumentegenskaper för Excel 2007-fil.
 - Kombinerar flera arbetsböcker.
-- Stöder för att spara PDF till Stream för direkt Excel till PDF-funktionen.
+- Stöder för att spara PDF till Stream för den direkta Excel till PDF-funktionen.
 - En förbättring har gjorts för att läsa/skriva Excel 2007-filer.
 - En förbättring har gjorts för att läsa/skriva Excel 2003-filer.
-- En förbättring har gjorts för att läsa XLS-mallfiler.
+- En förbättring har gjorts för att läsa XLS mallfiler.
 - 25 korrigeringar och andra förbättringar.
 
  Problem lösta i Aspose.Cells for Java 2.3.1
@@ -47,9 +47,9 @@ url: /sv/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | Xlsx| Sparar pivottabell för Excel 2007-fil|
 |18188 | Xlsx| Inställning av teckensnittsnamn för Excel 2007-fil|
 |18201 | Xls| Cell.getDependents() kastar undantag|
-|18257 | Pdf| Skriv ut områden i exporterad PDF|
-|18274 | Xls| Ta bort kalkylblad med bilder|
-|18288 | Pdf|Förbättra prestanda för att spara pdf|
+|18257 | Pdf| Utskriftsområden i exporterade PDF|
+|18274 | Xls|Ta bort kalkylblad med bilder|
+|18288 | Pdf| Förbättra prestanda för att spara pdf|
 |18307 | Xlsx| Excel 2007-dokumentegenskaper|
 |18328 | Xls| Ställer in anpassat format till pivotField dataField|
 |18345 | Xlsx| Spara diagram för Excel 2007-filer|

@@ -24,7 +24,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 
  تم حل المشكلات في Aspose.Cells for Reporting Services 1.5.2.
 
-|**معرف الإصدار** |**مكون** |**ملخص** |
+|**معرف الإصدار** |**عنصر** |**ملخص** |
 |:- |:- |:- |
 |16478 | مكون الخادم| مشكلة في صف رأس تقرير المصفوفة بعد التصدير في ملف XLSX|
 |16170 | مكون الخادم| Aspose.Cells for Reporting Services - قضايا مختلفة|

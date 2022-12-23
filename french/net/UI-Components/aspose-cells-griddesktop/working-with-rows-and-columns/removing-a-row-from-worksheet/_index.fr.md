@@ -13,7 +13,7 @@ Il s'agit d'un autre sujet de base pour les développeurs pour expliquer une app
 Pour supprimer une ligne de la feuille de calcul, veuillez suivre les étapes ci-dessous :
 
 -  Accédez à tout**Feuille de travail**
--  Retirer**Ligne** du**Feuille de travail** en précisant l'index de la ligne à supprimer
+-  Supprimer**Ligne** du**Feuille de travail** en précisant l'index de la ligne à supprimer
 
 L'exemple de code ci-dessous vous montre comment supprimer une ligne d'une feuille de calcul.
 

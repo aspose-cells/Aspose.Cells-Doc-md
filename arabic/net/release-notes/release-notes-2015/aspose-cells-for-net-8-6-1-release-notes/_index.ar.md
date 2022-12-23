@@ -22,7 +22,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **ميزات جديدة**
 
 
- (CELLSNET-43905) - دعم لتغيير السمة الهدف للارتباط التشعبي HTML إلى "_blank"
+ (CELLSNET-43905) - دعم لتغيير السمة المستهدفة للارتباط التشعبي HTML إلى "_blank"
 
  (CELLSNET-43885) - القدرة على استرداد سلسلة الاتصال الخاصة بالاتصال الخارجي من نوع WebQuery
 
@@ -36,7 +36,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43933) - Cell يمكن أن تقبل الصيغة صيغة غير صالحة ويحاول API تصحيحها
 
- (CELLSNET-43476) - مطلوب API للتحقق مما إذا تم تحميل الترخيص أم لا
+(CELLSNET-43476) - مطلوب API للتحقق مما إذا تم تحميل الترخيص أم لا
 
  (CELLSNET-43310) - إعادة تسمية أسماء أوراق العمل المكررة عند دمج المصنفات
 
@@ -48,33 +48,33 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43946) - Cell.HtmlString تُرجع سلسلة تعرض السلسلة العادية على أنها منخفضة
 
-(CELLSNET-43941) - لم يتم إنشاء المخطط بشكل صحيح
+ (CELLSNET-43941) - لم يتم إنشاء المخطط بشكل صحيح
 
  (CELLSNET-43936) - إظهار مفاتيح وسيلة الإيضاح حتى إذا تم تعيين Chart.ChartDataTable.ShowLegendKey على false
 
- (CELLSNET-43991) - إزالة أوراق العمل يفسد XLSX الناتج
+ (CELLSNET-43991) - إزالة أوراق العمل يفسد الناتج XLSX
 
  (CELLSNET-43988) - تُفقد كلمة مرور التعديل عند إعادة حفظ XLSX مع Aspose.Cells
 
- (CELLSNET-43984) - كلمة المرور المراد تعديلها تتحول إلى كلمة مرور للفتح عند إعادة حفظ XLSM
+ (CELLSNET-43984) - تحويل كلمة المرور للتعديل إلى كلمة مرور لفتح عند إعادة حفظ XLSM
 
- (CELLSNET-43983) - كلمة المرور المراد تعديلها تتحول إلى كلمة مرور للفتح عند إعادة حفظ XLSX
+ (CELLSNET-43983) - تحويل كلمة المرور للتعديل إلى كلمة مرور لفتح عند إعادة حفظ XLSX
 
- (CELLSNET-43982) - كلمة المرور المراد تعديلها تتحول إلى كلمة مرور لفتح عند إعادة حفظ XLTM
+ (CELLSNET-43982) - تحويل كلمة المرور للتعديل إلى كلمة مرور لفتح عند إعادة حفظ XLTM
 
- (CELLSNET-43981) - تُفقد كلمة مرور التعديل عند إعادة حفظ XLTM
+(CELLSNET-43981) - تُفقد كلمة مرور التعديل عند إعادة حفظ XLTM
 
- (CELLSNET-43980) - كلمة المرور المراد تعديلها تتحول إلى كلمة مرور للفتح عند إعادة حفظ XLTX
+ (CELLSNET-43980) - تحويل كلمة المرور للتعديل إلى كلمة مرور لفتح عند إعادة حفظ XLTX
 
  (CELLSNET-43979) - لم يتم تطبيق خط SetStyle على خطوط معينة
 
  (CELLSNET-43977) - تُفقد كلمة مرور التعديل عند إعادة حفظ XLTX مع Aspose.Cells
 
- (CELLSNET-43976) - عدة محاولات لفتح XLSX المحمي بكلمة مرور
+ (CELLSNET-43976) - عدة محاولات لفتح المحمية بكلمة مرور XLSX
 
-(CELLSNET-43973) - فقدت كلمة المرور للتعديل بعد إعادة حفظ XLSM
+ (CELLSNET-43973) - فقدت كلمة المرور للتعديل بعد إعادة حفظ XLSM
 
- (CELLSNET-43968) - يوصي تطبيق Excel بفتح XLSB الناتج للقراءة فقط
+ (CELLSNET-43968) - يوصي تطبيق Excel بفتح الناتج XLSB للقراءة فقط
 
  (CELLSNET-43967) - تلف XLT المحمي بكلمة مرور بعد إعادة الحفظ
 
@@ -86,17 +86,17 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43950) - مشكلات تعريف الحماية في Aspose.Cells
 
- (CELLSNET-43944) - حجم الصورة غير صحيح ويتغير بعد إعادة الضبط
+(CELLSNET-43944) - حجم الصورة غير صحيح ويتغير بعد إعادة الضبط
 
  (CELLSNET-43943) - لا يمكن قراءة الأحرف المرتفعة من الخلية
 
  (CELLSNET-43940) - تم تحديد خلية غير صحيحة عند فتح التقرير
 
- (CELLSNET-43931) - يؤدي حذف الصفوف من النطاق المسمى إلى إتلاف XLSX الناتج
+ (CELLSNET-43931) - حذف الصفوف من النطاق المسمى يفسد الناتج XLSX
 
  (CELLSNET-43928) - تمت قراءة قيمة مؤلف DocumentProperty غير كاملة
 
-(CELLSNET-43927) - #REF في صيغة قائمة مرجعية للكائن في ورقة عمل أخرى
+ (CELLSNET-43927) - #REF في صيغة قائمة مرجعية للكائن في ورقة عمل أخرى
 
  (CELLSNET-43891) - مشكلة المصنف. عمليات VBAProject.Modules
 
@@ -104,7 +104,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-42120) - قيمة DisplayStringValue غير صحيحة في سيناريوهات معينة
 
- (CELLSNET-42110) - لا تظهر حدود مجموعة النطاقات في XLSX في PDF
+ (CELLSNET-42110) - لا تظهر حدود النطاقات المحددة في XLSX في PDF
 
 
 ## **استثناءات**
@@ -114,17 +114,17 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43964) - يؤدي الحصول على نمط عرض جميع الخلايا إلى ظهور IndexOutOfRangeException
 
- (CELLSNET-43926) - CellsException في Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException في Workbook.CalculateFormula
 
  (CELLSNET-43911) - CellsException في Workbook.Save
 
  (CELLSNET-43930) - أسلوب GetNamedRanges () يطرح استثناء الفرصة الأولى للمجال
 
- (CELLSNET-43918) - استثناء عند فتح ملف نموذج XLSX
+ (CELLSNET-43918) - استثناء عند فتح ملف النموذج XLSX
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -138,7 +138,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **التحسينات**
 
 
-(CELLSNET-43873) - الكود القديم في - تنسيق نطاق Cells - المقالة لا تعمل
+ (CELLSNET-43873) - الكود القديم في - تنسيق نطاق Cells - المقالة لا تعمل
 
 
 ## **البق**
@@ -154,7 +154,7 @@ url: /ar/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43952) - LoadValueList API مفقود في Aspose.Cells.GridWeb.Validation class
 
- (CELLSNET-43859) - لا يتم تصدير Cell مليء باللون الأصفر إلى ملف XLSX
+(CELLSNET-43859) - لا يتم تصدير Cell مليء باللون الأصفر إلى ملف XLSX
 
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

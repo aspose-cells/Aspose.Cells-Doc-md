@@ -43,7 +43,7 @@ column.SetFont(font);
 column.SetFontColor(Color.Blue);
 
 {{< /highlight >}}
-## **更改行的字体和颜色**
+## **更改一行的字体和颜色**
 - 访问任何想要的**工作表**
 - 访问一个**排**要更改其字体和颜色
 - 创建自定义**字体**

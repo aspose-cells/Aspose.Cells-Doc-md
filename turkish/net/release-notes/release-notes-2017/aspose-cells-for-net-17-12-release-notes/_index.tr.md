@@ -12,9 +12,9 @@ Bu sayfa Aspose.Cells for .NET 17.12 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-45358|Akışları kullanarak HTML'ye dışa aktarırken CSS'yi HTML işaretlemesinden ayrı olarak edinin|Yeni özellik|
+|CELLSNET-45358|Akışları kullanarak HTML'e dışa aktarırken CSS'yi HTML işaretlemesinden ayrı olarak edinin|Yeni özellik|
 |CELLSNET-45697|Cell.FormulaLocal'ı Microsoft Interop FormulaLocal'a benzer şekilde uygulayın|Yeni özellik|
-|CELLSNET-45801|Excel'den PDF'e dönüştürmede Office Eklentileri desteği|Yeni özellik|
+|CELLSNET-45801|Excel'de PDF oluşturmaya yönelik Office Eklentileri desteği|Yeni özellik|
 |CELLSNET-45796|Akıllı İşaretleyiciler - Veriler çok büyükse ve tek bir sayfaya eklenemiyorsa, verileri ikinci çalışma sayfasına otomatik olarak doldurma|Yeni özellik|
 |CELLSNET-45791|Çalışma Kitabını Paylaşırken "Değişiklik geçmişini koru"yu güncelleyin|Yeni özellik|
 |CELLSNET-45746|Aspose.Cells.GridDesktop'ta hücrelerdeki metin diğer hücrelerle çakışıyor|Yeni özellik|
@@ -23,11 +23,11 @@ Bu sayfa Aspose.Cells for .NET 17.12 için sürüm notları içerir.
 |CELLSNET-45794|"MEDYAN" içeren dizi formülü boş olarak hesaplanır|Böcek|
 |CELLSNET-45779|Cell dönüştürülen görüntüde metin hizalaması değişti|Böcek|
 |CELLSNET-45772|Çalışma sayfasını resme dönüştürürken bir sayfa kayboldu|Böcek|
-|CELLSNET-45764|Çıktı PDF'sinde DataBar'ların durumu yanlış|Böcek|
+|CELLSNET-45764|PDF çıkışındaki DataBar'ların durumu yanlış|Böcek|
 |CELLSNET-45785|"Essere Nominal (milyon)" Serisi Veri Etiketleri konumlandırması yanlış|Böcek|
 |CELLSNET-45775|Grafiği resme dönüştürürken ikinci dikey eksen etiketi eksik|Böcek|
 |CELLSNET-45762|Chart.Calculate daha fazla zaman alıyor ve çalışmıyor|Böcek|
-|CELLSNET-45799|Mutlak yol, bir XLSX dosyasını yeniden kaydederken göreli yol olarak değişir|Böcek|
+|CELLSNET-45799|Bir XLSX dosyasını yeniden kaydederken mutlak yol göreli yol olarak değişir|Böcek|
 |CELLSNET-45797|SetArrayFormula - Dizi formülü olarak ele alınmıyor|Böcek|
 |CELLSNET-45792|Kopyalama sırasında kaybolan birleştirilmiş hücreler sütunu sonraki sütunlara yapıştırır|Böcek|
 |CELLSNET-45784|Sütun eklemek, MS Excel'in bir hata mesajı istemesine neden olur|Böcek|
@@ -38,7 +38,7 @@ Bu sayfa Aspose.Cells for .NET 17.12 için sürüm notları içerir.
 |CELLSNET-45768|Akış Aramayı desteklemiyorsa Workbook.Save(Stream akışı, SaveFormat saveFormat) başarısız olur|Böcek|
 |CELLSNET-45780|Çalışma sayfası verilerinin sağdan sola görüntülenmesiyle ilgili sorun|Böcek|
 |CELLSNET-45745|Aspose.Cells.GridDesktop'ta kaydırma çubuğuna tıklandığında hata oluştu|Böcek|
-|CELLSNET-45777|Excel dosyası PDF'ye dönüştürülürken Şekilden Görüntüye hatası oluşuyor|İstisna|
+|CELLSNET-45777|Excel dosyası PDF'e dönüştürülürken Şekilden Görüntüye hatası oluşuyor|İstisna|
 |CELLSNET-45804|Bir Excel (Strict Open XML Elektronik Tablosu) dosyasını açarken istisna|İstisna|
 |CELLSNET-45798|Dizin, dizinin sınırlarının dışındaydı - Excel dosyası oluşturulurken istisna|İstisna|
 |CELLSNET-45795|Doğrulama ölçütleri için veri girmelisiniz - çalışma kitabı kaydedilirken istisna oluşur|İstisna|
@@ -79,7 +79,7 @@ Web uzantısı şeklini temsil eder.
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
 - [Veriler Çok Büyükse Akıllı İşaretleyici Verilerini Diğer Çalışma Sayfalarına Otomatik Olarak Doldur](/cells/tr/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Çalışma Sayfası CSS'sini Çıktı HTML'sinde Ayrı Olarak Dışa Aktarın](/cells/tr/net/export-worksheet-css-separately-in-output/)
+- [Çalışma Sayfası CSS'sini Çıktı HTML'de Ayrı Olarak Dışa Aktar](/cells/tr/net/export-worksheet-css-separately-in-output/)
 - [Cell.FormulaLocal'ı Excel VBA Range.FormulaLocal'a benzer şekilde uygulayın](/cells/tr/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Tablo Elemanları Stillerini HtmlSaveOptions.TableCssId özelliğine sahip Önek](/cells/tr/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Excel'i PDF'ye dönüştürürken Office Eklentilerini İşleyin](/cells/tr/net/render-office-add-ins-while-converting-excel-to-pdf/)

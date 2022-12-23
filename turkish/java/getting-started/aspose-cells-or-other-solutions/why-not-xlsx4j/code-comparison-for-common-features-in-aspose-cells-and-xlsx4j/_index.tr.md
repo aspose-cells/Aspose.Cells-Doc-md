@@ -6,7 +6,7 @@ url: /tr/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
 ---
 Elektronik tablo işleme kitaplıkları arayan geliştiricilerin, piyasada bulunan kitaplıklar tarafından sağlanan özellikleri gözden geçirmesi gerekebilir. Temel olarak, bir seçenek belirlenirken birkaç faktör dikkate alınır:
 
-- Özellikler
+- Özellikleri
 - Kütüphaneyi kullanmak için gereken çabalar
 - Verim
 

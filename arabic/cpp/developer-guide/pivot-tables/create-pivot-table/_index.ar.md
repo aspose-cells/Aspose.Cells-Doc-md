@@ -5,7 +5,7 @@ weight: 10
 url: /ar/cpp/create-pivot-table/
 ---
 ## **مقدمة**
- يرجى استخدام[IPivotTableCollection.Add ()](https://reference.aspose.com/cells/cpp/class/aspose.cells.pivot.i_pivot_table_collection#a903a0eb3d7ef995c370f4a4385b25111) طريقة لإنشاء جدول محوري داخل ورقة العمل. بمجرد إنشاء الجدول المحوري ، يمكنك العمل معه باستخدام ملف[IPivotTable](https://reference.aspose.com/cells/cpp/class/aspose.cells.pivot.i_pivot_table)صف دراسي.
+ الرجاء استخدام[IPivotTableCollection.Add ()](https://reference.aspose.com/cells/cpp/class/aspose.cells.pivot.i_pivot_table_collection#a903a0eb3d7ef995c370f4a4385b25111) طريقة لإنشاء جدول محوري داخل ورقة العمل. بمجرد إنشاء الجدول المحوري ، يمكنك العمل معه باستخدام ملف[IPivotTable](https://reference.aspose.com/cells/cpp/class/aspose.cells.pivot.i_pivot_table)صف دراسي.
 ## **إنشاء جدول محوري**
  يوضح نموذج التعليمات البرمجية التالي كيفية إنشاء جدول محوري والعمل معه. رجاء تاكد من[ملف اكسل الناتج](23167010.xlsx) تم إنشاؤه باستخدام هذا الرمز ولقطة الشاشة التالية التي تعرض ملف[ملف اكسل الناتج](23167010.xlsx) في Microsoft Excel.
 

@@ -6,7 +6,7 @@ url: /ru/net/update-import-tool-for-dynamics-crm/
 ---
 **Краткое содержание**
 
-- [Введение](#UpdateImportToolforDynamicsCRM-Introduction)
+- [Вступление](#UpdateImportToolforDynamicsCRM-Introduction)
 - [Системные требования и поддерживаемые платформы](#UpdateImportToolforDynamicsCRM-SystemRequirementsandSupportedPlatforms) 
   - [Системные Требования](#UpdateImportToolforDynamicsCRM-SystemRequirements)
   - [Поддерживаемые платформы](#UpdateImportToolforDynamicsCRM-SupportedPlatforms)
@@ -16,7 +16,7 @@ url: /ru/net/update-import-tool-for-dynamics-crm/
 - [С использованием](#UpdateImportToolforDynamicsCRM-Using)
 - [Поддерживать](#UpdateImportToolforDynamicsCRM-Support)
 - [Расширяйте и вносите свой вклад](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
-## **Введение**
+## **Вступление**
 Средство импорта обновлений Aspose — это надстройка с открытым исходным кодом для использования в Microsoft Dynamic CRM. Это дополнение может автоматически обновлять и/или экспортировать данные из CRM в электронные таблицы Aspose.Cells. Нам не нужно ничего делать вручную, установить это дополнение и сделать нашу работу проще и быстрее.
 
 Это дополнение обеспечивает функциональность для автоматического обновления и/или экспорта из CRM. Один клик импортирует/экспортирует запись в/из CRM.

@@ -13,16 +13,16 @@ url: /ja/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43994|SmarkMarker で WorkbookDesigner.process の実行を中断するサポート|
-|CELLSJAVA-44039|生成された PDF から PDF Producer 属性を変更します|
-|CELLSJAVA-43768|Java XLSX ファイルから PDF への変換中にヒープ領域の問題が発生する|
+|CELLSJAVA-44039|生成された PDF から PDF Producer 属性を変更します。|
+|CELLSJAVA-43768|Java XLSX ファイルを PDF に変換中にヒープ領域の問題が発生する|
 |CELLSJAVA-43875|XLSX ファイルのロード時の例外「無効な FontUnderlineType 文字列 val」|
 |CELLSJAVA-43876|XLSX ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException」|
 |CELLSJAVA-43844|会計番号のフォーマットに必要な拡張|
-|CELLSJAVA-43953|ExcelからPDFへの変換で特定のテキスト/部分「Cell」と「コメント」を日本語に翻訳する|
+|CELLSJAVA-43953|特定のテキスト/部分「Cell」とExcelで日本語に翻訳する「コメント」をPDF変換にレンダリング|
 |CELLSJAVA-43469|リグレッションの可能性: FormatConditionCollection.addArea() のパフォーマンス低下|
 |CELLSJAVA-43646|テキストの影の効果が正しくレンダリングされない|
 |CELLSJAVA-43760|二等辺三角形の向きが正しくありません|
-|CELLSJAVA-43786|XLS ファイルを XLSX に変換すると、形状に関する一部の部分が正しくレンダリングされません|
+|CELLSJAVA-43786|XLS ファイルを XLSX に変換すると、形状に関する一部の部分が正しくレンダリングされない|
 |CELLSJAVA-43838|XlsToXlsx を実行すると、オートシェイプが失われます|
 |CELLSJAVA-43839|XlsToXlsx を実行すると、LeftBracket が失われます|
 |CELLSJAVA-43842|XlsToXlsx実行後、LeftBracketの形が元と違う|
@@ -30,31 +30,31 @@ url: /ja/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |CELLSJAVA-43880|xls を xlsx に変換した後、テキスト ボックスの角が正しく丸まらない|
 |CELLSJAVA-43867|html にエクスポートすると、条件付き書式のアイコンが異なります|
 |CELLSJAVA-43812|excelToHtml: 形状の位置オフセットが正しくありません|
-|CELLSJAVA-43871|Prism 9 OLE オブジェクトが出力 PDF に表示されない|
+|CELLSJAVA-43871|Prism 9 OLE オブジェクトが出力に表示されない PDF|
 |CELLSJAVA-43883|レンダリングされたページのサイズが正しくない|
 |CELLSJAVA-43881|ファイルをマージすると、シートの背景色の設定が失われる|
-|CELLSJAVA-43892|HTML に変換された Excel の枠線が欠落している|
+|CELLSJAVA-43892|HTML に変換された Excel の枠線がありません|
 |CELLSJAVA-43935|XLS ファイルの保存および読み込み中のシェイプ テキストのフォント サイズの問題|
 |CELLSJAVA-43952|仮免許の期限切れ問題|
-|CELLSJAVA-43954|XLSX から PDF: 画像で例外「java.lang.OutOfMemoryError: Java heap space」が発生する|
+|CELLSJAVA-43954|XLSX から PDF: イメージにより例外 "java.lang.OutOfMemoryError: Java heap space" が発生する|
 |CELLSJAVA-43902|HTML に変換された Excel の一部の境界線が冗長です|
-|CELLSJAVA-43933|1つのデータのみでHTMLにエクスポートする場合、Excelとは条件付き書式が異なります|
+|CELLSJAVA-43933|1データのみでHTMLにエクスポートすると条件付き書式がExcelと異なる|
 |CELLSJAVA-43878|Excel クラスター棒グラフのデータ ラベルの位置が正しくない|
 |CELLSJAVA-43895|XLS を XLSX に変換すると、線の形やその他のグラフの形が正しくレンダリングされない|
 |CELLSJAVA-43934|グラフを操作または更新した後、円グラフのラベルが Excel と一致しない|
 |CELLSJAVA-43519|非表示の行または列に含まれるセルを結合すると、不均一な HTML テーブルが生成される|
 |CELLSJAVA-43962|Excel の条件付き書式を HTML に変換した後、効果に一貫性がない|
 |CELLSJAVA-43983|リグレッション: XLSX を PDF に変換する際の無限ループ|
-|CELLSJAVA-44029|XLSX から PDF: 画像は変換されません|
+|CELLSJAVA-44029|XLSX ～ PDF: 画像が変換されません|
 |CELLSJAVA-44093|新しい Aspose.Cells for Java バージョンで画像をレンダリングするときの長方形のテキストの切り捨ての問題|
 |CELLSJAVA-44089|DataLabels.setShadow() は利用できず、Series.setShadow() メソッドと等しくありません|
 |CELLSJAVA-44000|Cells アイコン セットとその他の条件付き書式を同時に使用すると、HTML のスタイルが正しくない|
 |CELLSJAVA-43932|出力イメージで展開されたドーナツ グラフのデータ ラベルの位置を設定する際の問題|
 |CELLSJAVA-44094|PDF へのエクスポート時にチャート タイトルが切り捨てられる|
-|CELLSJAVA-43533|Ubuntu での XLSX から Html への作成の問題|
+|CELLSJAVA-43533|XLSX から Ubuntu での HTML 作成の問題|
 |CELLSJAVA-43987|マージされたセルの右枠が html で失われる|
-|CELLSJAVA-44016|画像の URL を含む Excel ファイルを HTML に変換する際の問題|
-|CELLSJAVA-43787|Excel から HTML へのレンダリングでの例外 "IllegalArgumentException: ダッシュの長さがすべてゼロです ..."|
+|CELLSJAVA-44016|写真の URL を含む Excel ファイルを HTML に変換する際の問題|
+|CELLSJAVA-43787|例外 "IllegalArgumentException: ダッシュの長さがすべてゼロです ..." が Excel で HTML にレンダリングされる|
 |CELLSJAVA-43885|Excel の変換中に IllegalArgumentException が発生する|
 |CELLSJAVA-43874|Workbook.save は、Aspose ライセンスが適用されている場合にのみ、Aspose.Cells によって特定のファイルで例外をスローします|
 |CELLSJAVA-43969|COUNTIF 関数と外部参照を含む Name が NullPointerException を生成する|

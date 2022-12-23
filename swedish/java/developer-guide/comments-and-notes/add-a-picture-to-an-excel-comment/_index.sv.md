@@ -20,7 +20,7 @@ Med Microsoft Excel 2007 är det möjligt att ha en bild som bakgrund till en ce
 1.  Välja**Visa/dölj kommentarer** och ta bort all text från kommentaren.
 1. Klicka på kommentarens kant för att välja den.
 1.  Välja**Formatera** , då**Kommentar**.
-1. På fliken Färger och linjer klickar du på pilen för**Färg**.
+1.  På fliken Färger och linjer klickar du på pilen för**Färg**.
 1.  Klick**Fyllningseffekter**.
 1.  Klicka på fliken Bild**Välj Bild**.
 1. Leta upp och välj bilden

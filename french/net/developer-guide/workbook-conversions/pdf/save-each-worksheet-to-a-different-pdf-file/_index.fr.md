@@ -10,12 +10,12 @@ Aspose.Cells prend en charge la conversion de fichiers XLS (contenant des images
 
 {{% /alert %}} 
 ## **Enregistrer chaque feuille de calcul dans un fichier PDF différent**
-Si vous devez enregistrer chaque feuille de calcul dans votre modèle de fichier Excel pour générer différents fichiers PDF, vous pouvez y parvenir facilement. Vous pouvez essayer de masquer les feuilles dans le fichier et de rendre une feuille visible à la fois pour le rendre au format PDF.
+Si vous devez enregistrer chaque feuille de calcul dans votre modèle de fichier Excel pour générer différents fichiers PDF, vous pouvez y parvenir facilement. Vous pouvez essayer de masquer les feuilles dans le fichier et de rendre une feuille visible à la fois pour le rendre au PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
- Si votre feuille de calcul contient des formules, il est préférable d'appeler[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+Si votre feuille de calcul contient des formules, il est préférable d'appeler[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le fichier PDF.
 
 {{% /alert %}}

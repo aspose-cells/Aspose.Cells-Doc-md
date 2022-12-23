@@ -20,4 +20,4 @@ url: /ru/java/aspose-cells-for-java-7-5-2-release-notes/
 
  Ошибки
 
- 40553 — рендеринг Excel в PDF не отображает диаграммы с помощью JDK1.7.0_21
+ 40553 — рендеринг Excel в PDF не отображает диаграммы с JDK1.7.0_21

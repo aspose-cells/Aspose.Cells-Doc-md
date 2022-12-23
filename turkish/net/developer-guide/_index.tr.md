@@ -24,9 +24,9 @@ Bu Geliştirici Kılavuzu, Aspose.Cells'in çeşitli pratik senaryolarda MS Exce
             <li><a href="/cells/tr/net/opening-different-microsoft-excel-versions-files/">Farklı Microsoft Excel Sürüm Dosyalarını Açma</a></li>
             <li><a href="/cells/tr/net/opening-files-with-different-formats/">Farklı Biçimlerdeki Dosyaları Açma</a></li>
             <li><a href="/cells/tr/net/get-warnings-while-loading-excel-file/">Excel Dosyasını Yüklerken Uyarılar Alın</a></li>
-            <li><a href="/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun</a></li>
+            <li><a href="/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun</a></li>
         </ul>
-        <p>Kaydetmek</p>
+        <p>Kayıt etmek</p>
         <ul>
             <li><a href="/cells/tr/net/different-ways-to-save-files/">Dosyaları Kaydetmenin Farklı Yolları</a></li>
             <li><a href="/cells/tr/net/encrypting-excel-files/">Excel Dosyalarını Şifreleme</a></li>
@@ -41,13 +41,13 @@ Bu Geliştirici Kılavuzu, Aspose.Cells'in çeşitli pratik senaryolarda MS Exce
         <p>Oluşturma ve Dönüştürme</p>
         <ul>
             <li><a href="/cells/tr/net/convert-workbook-to-different-formats/">Çalışma Kitabını Farklı Biçimlere Dönüştür</a></li>
-            <li><a href="/cells/tr/net/convert-excel-workbook-to-pdf/">Excel Çalışma Kitabını PDF'ye Dönüştür</a></li>
-            <li><a href="/cells/tr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel dosyasını PDFA-1a ile uyumlu PDF formatına dönüştürün</a></li>
+            <li><a href="/cells/tr/net/convert-excel-workbook-to-pdf/">Excel Çalışma Kitabını PDF'e Dönüştür</a></li>
+            <li><a href="/cells/tr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel dosyasını PDFA-1a ile uyumlu PDF biçimine dönüştürün</a></li>
             <li><a href="/cells/tr/net/convert-excel-to-image/">Çalışma Kitabını Farklı Görüntü Formatlarına Dönüştür</a></li>
             <li><a href="/cells/tr/net/track-document-conversion-progress/">Belge Dönüştürme İlerlemesini İzleme</a></li>
-            <li><a href="/cells/tr/net/convert-excel-to-html/">Excel'i HTML'ye Dönüştür</a></li>
-            <li><a href="/cells/tr/net/convert-json-to-csv/">JSON'u CSV'ye dönüştür</a></li>
-            <li><a href="/cells/tr/net/convert-csv-to-json/">CSV'yi JSON'a dönüştür</a></li>
+            <li><a href="/cells/tr/net/convert-excel-to-html/">Excel'i HTML'e dönüştür</a></li>
+            <li><a href="/cells/tr/net/convert-json-to-csv/">JSON'i CSV'e dönüştür</a></li>
+            <li><a href="/cells/tr/net/convert-csv-to-json/">CSV'i JSON'e dönüştür</a></li>
         </ul>
         <p>Seçenekler</p>
         <ul>
@@ -314,7 +314,7 @@ Bu Geliştirici Kılavuzu, Aspose.Cells'in çeşitli pratik senaryolarda MS Exce
             <li><a href="/cells/tr/net/change-text-direction-of-the-comment/">Yorumun Metin Yönünü Değiştirme</a></li>
             <li><a href="/cells/tr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Çalışma Sayfasında Tablo veya Liste Nesnesinin Yorumunu Ayarlama</a></li>
             <li><a href="/cells/tr/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Çalışma Sayfasında Yorum veya Şeklin Kenar Boşluklarını Ayarlama</a></li>
-            <li><a href="/cells/tr/net/disable-downlevel-revealed-comments-while-saving-to/">HTML'ye kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın</a></li>
+            <li><a href="/cells/tr/net/disable-downlevel-revealed-comments-while-saving-to/">HTML'e kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın</a></li>
             <li><a href="/cells/tr/net/threaded-comments/">Zincirleme Yorumlar</a></li>
         </ul>
     </div>
@@ -333,7 +333,7 @@ Bu Geliştirici Kılavuzu, Aspose.Cells'in çeşitli pratik senaryolarda MS Exce
     <div class="col-md-6">
         <p>Değişiklikler</p>
         <ul>
-         <li><a href="/cells/tr/net/convert-revision-of-xlsb-to-xlsm/">XLSB'nin Revizyonunu XLSM'ye Dönüştür</a></li>
+         <li><a href="/cells/tr/net/convert-revision-of-xlsb-to-xlsm/">XLSB Revizyonunu XLSM olarak dönüştür</a></li>
         </ul>
     </div>
 </div>

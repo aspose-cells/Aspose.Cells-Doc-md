@@ -10,7 +10,7 @@ url: /es/net/aspose-cells-for-net-8-2-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET se actualizó a la versión 8.2.2 y nos complace anunciar que esta versión trae la adición de más de 60 nuevas mejoras útiles.
+ Aspose.Cells for .NET se actualizó a la versión 8.2.2 y nos complace anunciar que esta versión trae la adición de más de 60 nuevas mejoras útiles.
 Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
@@ -19,10 +19,10 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 \1) Aspose.Cells 
 ## **Otras mejoras y cambios**
 
-## **Actuación**
+## **Rendimiento**
 
 
- (CELLSNET-43015): el proceso de conversión a PDF parece bloquearse en una hoja de cálculo que tiene 115996 filas
+ (CELLSNET-43015): la conversión al proceso PDF parece bloquearse en una hoja de cálculo que tiene 115996 filas
 
 
 ## **Insectos**
@@ -30,7 +30,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-43070) - Error "No se puede editar una tabla dinámica en el modo de edición de grupo"
 
- (CELLSNET-43061) - Valor incorrecto calculado en comparación con MS Excel
+(CELLSNET-43061) - Valor incorrecto calculado en comparación con MS Excel
 
  (CELLSNET-43064): genera el mensaje "Contenido ilegible" en MS Excel
 
@@ -46,15 +46,15 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-41656): aparece un error sobre contenido ilegible.
 
-(CELLSNET-40921): la orientación de la forma es incorrecta al renderizar la imagen
+ (CELLSNET-40921): la orientación de la forma es incorrecta al renderizar la imagen
 
- (CELLSNET-43056) - La gradación y la textura no se muestran en el formato de archivo PDF renderizado
+ (CELLSNET-43056) - La gradación y la textura no se muestran en el formato de archivo renderd PDF
 
  (CELLSNET-43035) - Exportación de PDF incorrecta: texto recortado y espacio adicional agregado
 
- (CELLSNET-43012) - El carácter 'P' está recortado en el PDF de salida
+ (CELLSNET-43012) - El carácter 'P' está recortado en la salida PDF
 
- (CELLSNET-42999) - Las flechas de formato condicional son más pequeñas
+(CELLSNET-42999) - Las flechas de formato condicional son más pequeñas
 
  (CELLSNET-42996) - Las líneas de cuadrícula blancas se representan en negro
 
@@ -72,13 +72,13 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42855): el número superior en el eje Y del gráfico superior
 
-(CELLSNET-42819): problema de alineación de la etiqueta del eje de categorías de varios niveles del gráfico de barras apiladas
+ (CELLSNET-42819): problema de alineación de la etiqueta del eje de categorías de varios niveles del gráfico de barras apiladas
 
  (CELLSNET-42794): el color de relleno del eje del gráfico no se aplica cuando se convierte en imagen
 
  (CELLSNET-42737) - El gráfico de dispersión agrega incorrectamente un marcador de eje X principal adicional
 
- (CELLSNET-42646): la opción RefreshChartCache del libro de trabajo no tiene en cuenta la configuración regional y de idioma.
+(CELLSNET-42646): la opción RefreshChartCache del libro de trabajo no tiene en cuenta la configuración regional y de idioma.
 
  (CELLSNET-42641): valores de eje incorrectos cuando el gráfico se guarda como EMF mediante ToImage
 
@@ -96,19 +96,19 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-43065): Workbook.CalculateFormula se completa con valores incorrectos
 
-(CELLSNET-43062): error al usar el archivo Xls creado con Excel 2013
+ (CELLSNET-43062): error al usar el archivo Xls creado con Excel 2013
 
  (CELLSNET-43054) - ListObject Resize agrega filtros dentro de la tabla
 
  (CELLSNET-43049): la tabla 3 cambia de tamaño, pero la fórmula y el formato no se copian
 
- (CELLSNET-43048) - ListObject Resize elimina CalculatedColumnFormula
+(CELLSNET-43048) - ListObject Resize elimina CalculatedColumnFormula
 
  (CELLSNET-43041) - Cells. Find no funciona con Regex
 
  (CELLSNET-43038) - Contenido dañado después de copiar el rango usando Range.CopyData
 
- (CELLSNET-43037) - System.NullReferenceException al cargar un archivo XLSX
+ (CELLSNET-43037): System.NullReferenceException al cargar un archivo XLSX
 
  (CELLSNET-43032) - ListObject.Resize() no copia la validación de datos
 
@@ -120,13 +120,13 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-43020) - BuiltinStyleType.Good se intercambia con BuiltinStyleType.Neutral
 
-(CELLSNET-43014) - Cell Los bordes se pierden en el archivo de salida de Excel
+ (CELLSNET-43014) - Cell Los bordes se pierden en el archivo de salida de Excel
 
  (CELLSNET-43004) - Los indicadores de luz de freno se muestran como #N/A
 
  (CELLSNET-43001): los valores basados en fórmulas no se representan
 
- (CELLSNET-42981): valor incorrecto de una función de valor después de CalculateFormula
+(CELLSNET-42981): valor incorrecto de una función de valor después de CalculateFormula
 
  (CELLSNET-42963): la fórmula personalizada se elimina después de llamar al libro de trabajo. RemoveExternalLinks()
 
@@ -140,7 +140,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42947) - "¡Error de forma a imagen!" excepción al convertir a un PDF
 
- (CELLSNET-43076) - La matriz de destino no es una excepción lo suficientemente larga al abrir un archivo XLSB
+ (CELLSNET-43076) - La matriz de destino no es una excepción lo suficientemente larga al abrir el archivo XLSB
 
  (CELLSNET-43063) - "Formato de imagen desconocido" en Shapes.UpdateSelectedValue
 
@@ -150,7 +150,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -160,7 +160,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-43060) - WebWorksheet.SetEditableRange no funciona en GridWeb
 
-(CELLSNET-43057): no se pueden cambiar las pestañas y la paginación tampoco funciona
+ (CELLSNET-43057): no se pueden cambiar las pestañas y la paginación tampoco funciona
 
  (CELLSNET-43007) - El nivel de sangría no funciona con ninguna otra cultura que no sea EE. UU.
 
@@ -174,7 +174,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  Agrega la propiedad Chart.Worksheet
 
- Obtiene la hoja de cálculo que contiene este gráfico.
+Obtiene la hoja de cálculo que contiene este gráfico.
 
 
 

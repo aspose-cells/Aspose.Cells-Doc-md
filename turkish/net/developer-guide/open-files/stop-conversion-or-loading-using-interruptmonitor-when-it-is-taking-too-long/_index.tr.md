@@ -6,11 +6,11 @@ url: /tr/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, Çalışma Kitabının PDF, HTML vb.[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) çok uzun sürdüğünde itiraz edin. Dönüştürme işlemi genellikle hem CPU hem de Bellek açısından yoğundur ve kaynaklar sınırlı olduğunda genellikle işlemi durdurmak yararlıdır. Kullanabilirsiniz[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) hem dönüştürmeyi durdurmak hem de büyük çalışma kitabının yüklenmesini durdurmak için. Lütfen kullan[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) dönüştürmeyi durdurma özelliği ve[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) büyük çalışma kitabı yükleme özelliği.
+Aspose.Cells, Çalışma Kitabının PDF, HTML gibi çeşitli biçimlere dönüştürülmesini durdurmanıza olanak tanır.[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) çok uzun sürdüğünde itiraz edin. Dönüştürme işlemi genellikle hem CPU hem de Bellek açısından yoğundur ve kaynaklar sınırlı olduğunda genellikle işlemi durdurmak yararlıdır. Kullanabilirsiniz[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)hem dönüştürmeyi durdurmak hem de büyük çalışma kitabının yüklenmesini durdurmak için. Lütfen kullan[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) dönüştürmeyi durdurma özelliği ve[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) büyük çalışma kitabı yükleme özelliği.
 
 ## **Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun**
 
-Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) nesne. Kod, oldukça büyük bir Excel dosyasını PDF'ye dönüştürür. Birkaç saniye sürecektir (örn.*30 saniyeden fazla*) bu kod satırları nedeniyle dönüştürülmesini sağlamak için.
+Aşağıdaki örnek kod, kullanımını açıklar[**Kesinti İzleme**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) nesne. Kod, oldukça büyük bir Excel dosyasını PDF'e dönüştürür. Birkaç saniye sürer (örn.*30 saniyeden fazla*) bu kod satırları nedeniyle dönüştürülmesini sağlamak için.
 
 {{< highlight "csharp" >}}
 

@@ -14,7 +14,7 @@ url: /tr/php-java/aspose-cells-for-php-via-java-21-10-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43768|Java XLSX dosyası PDF'e dönüştürülürken Yığın Alanı Sorunu gözlemlendi|
 |CELLSJAVA-43875|XLSX dosyası yüklenirken "Geçersiz FontUnderlineType dize değeri" istisnası|
-|CELLSJAVA-43876|Bir XLSX dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException" istisnası|
+|CELLSJAVA-43876|XLSX dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException" istisnası|
 |CELLSJAVA-43646|Metnin gölge efekti doğru şekilde oluşturulmamış|
 |CELLSJAVA-43760|İkizkenar üçgen yönü yanlış|
 |CELLSJAVA-43786|XLS dosyasını XLSX'e dönüştürürken, şekillerle ilgili bazı kısımlar doğru şekilde oluşturulmuyor|
@@ -25,11 +25,11 @@ url: /tr/php-java/aspose-cells-for-php-via-java-21-10-release-notes/
 |CELLSJAVA-43880|xls'yi xlsx'e dönüştürdükten sonra metin kutusunun yanlış yuvarlatılmış köşeleri|
 |CELLSJAVA-43867|Html'ye dışa aktarıldığında koşullu biçim simgesi farklıdır|
 |CELLSJAVA-43812|excelToHtml: Şekil konumu ofseti yanlış|
-|CELLSJAVA-43871|Prism 9 OLE nesneleri çıktı PDF'sinde görüntülenmiyor|
+|CELLSJAVA-43871|Prism 9 OLE nesneleri PDF çıkışında görüntülenmiyor|
 |CELLSJAVA-43883|Yanlış işlenmiş sayfanın boyutları|
 |CELLSJAVA-43881|Dosyaları birleştirmek, sayfaların arka plan rengi ayarının eksik olmasına neden olur|
-|CELLSJAVA-43892|HTML'ye dönüştürülen Excel'in sınırları eksik|
-|CELLSJAVA-43787|Excel'de HTML oluşturmaya yönelik "IllegalArgumentException: tire uzunluklarının tümü sıfır ..." istisnası|
+|CELLSJAVA-43892|HTML'e dönüştürülen Excel'in sınırları eksik|
+|CELLSJAVA-43787|Excel'de HTML oluşturmaya yönelik "IllegalArgumentException: çizgi uzunluklarının tümü sıfır ..." istisnası|
 |CELLSJAVA-43885|excel dönüştürülürken IllegalArgumentException|
 |CELLSJAVA-43874|Workbook.save, yalnızca Aspose lisansı uygulandığında belirli bir dosyaya Aspose.Cells tarafından bir istisna atar|
 

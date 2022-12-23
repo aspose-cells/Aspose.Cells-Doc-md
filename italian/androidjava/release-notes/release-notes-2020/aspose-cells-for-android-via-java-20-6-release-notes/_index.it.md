@@ -10,23 +10,23 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43153|Visualizza la legenda del grafico a cascata in turco simile a MS Excel|Aumento|
 |CELLSJAVA-43173|Quando il campo gruppo ha un valore nullo, il risultato di subtotalN perde il subtotale per il gruppo nullo|Aumento|
 |CELLSJAVA-43186|Calcola il totale complessivo per ogni riga con colonna espansa|Aumento|
 |CELLSJAVA-43191|Fornire un mezzo per gestire gli scenari quando si specificano tipi di carattere errati|Aumento|
-|CELLSJAVA-43187|Eccezione durante il caricamento di file XLS "Microsoft Excel 5.0/95 Workbook".|Aumento|
+|CELLSJAVA-43187|Eccezione durante il caricamento di un file XLS "Microsoft Excel 5.0/95 Workbook"|Aumento|
 |CELLSJAVA-43142|Rendering da Excel a HTML: alcune celle non sono allineate dopo la conversione|Insetto|
 |CELLSJAVA-43155|Il testo ruotato viene impostato fuori dalla cella quando viene visualizzato come HTML|Insetto|
 |CELLSJAVA-43161|Rappresentazione errata dell'equazione|Insetto|
 |CELLSJAVA-43130|Problema di trasparenza del grafico a cascata|Insetto|
-|CELLSJAVA-43131|Da Excel a PDF: forme con testo non convertito correttamente|Insetto|
+|CELLSJAVA-43131|Excel a PDF - Forme con testo non convertito correttamente|Insetto|
 |CELLSJAVA-43133|Chart.toImage non include etichette di dati nell'immagine di output|Insetto|
 |CELLSJAVA-43138|Immagine generata con problemi di rendering.|Insetto|
-|CELLSJAVA-43151|Modifica dello stile dopo la conversione del file XLS|Insetto|
+|CELLSJAVA-43151|Modifiche di stile dopo la conversione del file XLS|Insetto|
 |CELLSJAVA-43162|Rendering da Excel a HTML: il processo di conversione richiede molto tempo|Insetto|
-|CELLSJAVA-43164|Conversione da HTML a Excel che non conserva i formati RTF nell'output|Insetto|
+|CELLSJAVA-43164|HTML alla conversione di Excel che non mantiene i formati rich text nell'output|Insetto|
 |CELLSJAVA-43166|Il testo ruotato non viene visualizzato correttamente nella conversione da XLSX a HTML|Insetto|
 |CELLSJAVA-43178|Le formattazioni RichText vengono perse durante l'esportazione del file in HTML|Insetto|
 |CELLSJAVA-43165|Stringa "20TT1" sostituita con il numero 43850 durante la conversione da CSV a XLSB|Insetto|
@@ -35,7 +35,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43089|Il grafico radar è capovolto e i valori degli assi non sono identici al grafico originale nella conversione da XLS a PDF|Insetto|
 |CELLSJAVA-43171|Il documento è rotto dopo aver copiato i fogli|Insetto|
 |CELLSJAVA-43172|Un problema con i marcatori intelligenti nelle celle unite|Insetto|
-|CELLSJAVA-43180|Conversione da HTML a Excel creando un foglio di lavoro nero|Insetto|
+|CELLSJAVA-43180|Conversione da HTML a Excel per la creazione di un foglio di lavoro nero|Insetto|
 |CELLSJAVA-43181|C'è una differenza nell'altezza della riga nella conversione di Excel in HTML|Insetto|
 |CELLSJAVA-43188|Lo stile del colore di sfondo non viene mantenuto durante la conversione da HTML a Excel|Insetto|
 |CELLSJAVA-43196|Esiste un numero diverso di moduli VBA rilevati utilizzando Aspose.Cells for Java 20.4 e 20.5|Insetto|
@@ -49,17 +49,17 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43149|Eccezione sollevata durante il salvataggio di XLSM dopo la rimozione del foglio di lavoro|Eccezione|
 |CELLSJAVA-43150|Eccezione "java.lang.NumberFormatException" al caricamento del file|Eccezione|
 |CELLSJAVA-43183|Eccezione "ClassCastException: ...." durante il calcolo della tabella pivot|Eccezione|
-|CELLSJAVA-43177|La nuova cartella di lavoro con file CSV restituisce "java.lang.IndexOutOfBoundsException: millisecond"|Eccezione|
+|CELLSJAVA-43177|La nuova cartella di lavoro con il file CSV restituisce "java.lang.IndexOutOfBoundsException: millisecond"|Eccezione|
 |CELLSJAVA-43168|Eccezione "IllegalStateException: questo non è un file di archiviazione strutturato" durante l'unione di file Excel|Eccezione|
 |CELLSJAVA-43179|Eccezione NumberFormatException: per la stringa di input: "preserve"|Eccezione|
-|CELLSJAVA-43182|Eccezione "lang.IllegalStateException: codifica non valida: null" durante il caricamento del file XLS|Eccezione|
+|CELLSJAVA-43182|Eccezione 'lang.IllegalStateException: codifica non valida: null' durante il caricamento del file XLS|Eccezione|
 |CELLSJAVA-43201|Eccezione "java.util.EmptyStackException" al salvataggio in HTML|Eccezione|
 |CELLSJAVA-43204|NegativeArraySizeException si verifica quando si utilizza Cell.getDisplayStringValue()|Eccezione|
 |CELLSJAVA-43189|Eccezione sollevata durante il caricamento del file XLS|Eccezione|
 |CELLSJAVA-43193|NullPointerException si è verificata durante il caricamento di alcuni file XLSX|Eccezione|
 |CELLSJAVA-43200|Eccezione "java.lang.ArrayIndexOutOfBoundsException" al caricamento del file|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 ### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

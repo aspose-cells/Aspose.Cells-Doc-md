@@ -14,7 +14,7 @@ url: /fr/java/aspose-cells-for-java-7-4-2-release-notes/
 
  40464 - Copier des macros lors de la copie de classeurs
 
- Exceptions
+ Des exceptions
 
  Insectes
 

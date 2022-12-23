@@ -22,18 +22,18 @@ url: /ja/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|別のブックにコピーするときに条件付き書式の 3D 参照を無視する|強化|
 |CELLSNET-49984|破損した xls ファイルからデータを読み取ります。|強化|
 |CELLSNET-49990|テーブルのカスタム合計行式の設定をサポートします。|強化|
-|CELLSNET-49825|Excel から HTML への変換における ExportImagesAsBase64 属性のパフォーマンスの問題|パフォーマンス|
+|CELLSNET-49825|Excel の ExportImagesAsBase64 属性を HTML に変換する際のパフォーマンスの問題|パフォーマンス|
 |CELLSNET-49827|定義された範囲の RefersTo が誤ってエスケープされる|バグ|
 |CELLSNET-49759|空のセルは引き続き空の XML 要素としてエクスポートされます|バグ|
 |CELLSNET-49817|Emf へのレンダリング中に、テキストが 'Credit Suisse Type Light' フォントの中央に配置されない|バグ|
-|CELLSNET-49864|XLSX から PDF へのレンダリングで、右から左へのテキストの単語が逆の順序で表示される|バグ|
+|CELLSNET-49864|XLSX から PDF のレンダリングで、右から左へのテキストの単語が逆の順序で表示される|バグ|
 |CELLSNET-49873|xlsx から pdf: Excel で生成された pdf と比較して改ページが異なります|バグ|
-|CELLSNET-49922|文字が 1 ページに収まらず、Excel から PDF へのレンダリングで印刷位置が変更される|バグ|
+|CELLSNET-49922|文字が 1 ページに収まらず、印刷位置が Excel で PDF レンダリングに変更される|バグ|
 |CELLSNET-49998|HTML マークアップを含む特定の XLS ファイルを表示できない|バグ|
 |CELLSNET-49742|保存後の chart1.xml の違い|バグ|
-|CELLSNET-49875|XLSX から EMF への目盛りの重なり|バグ|
-|CELLSNET-49904|ChartからPNGへの日付が正しく変換されない|バグ|
-|CELLSNET-49905|リグレッション: グラフを PNG に変換する際の問題|バグ|
+|CELLSNET-49875|XLSX から EMF 重複する目盛り|バグ|
+|CELLSNET-49904|PNG の日付へのグラフが正しく変換されない|バグ|
+|CELLSNET-49905|リグレッション: チャートを PNG に変換する際の問題|バグ|
 |CELLSNET-49969|XLS ドキュメントを XLSX/XSLM に保存する際のオーバーフロー エラー|バグ|
 |CELLSNET-49760|html に変換すると、マージされた領域が正しく表示されません。|バグ|
 |CELLSNET-49789|HTML ファイルを保存するときに、Excel の元のグリッドを変更しないでください。|バグ|

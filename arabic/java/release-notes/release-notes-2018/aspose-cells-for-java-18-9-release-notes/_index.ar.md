@@ -12,18 +12,18 @@ url: /ar/java/aspose-cells-for-java-18-9-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-42715|لا يتم استرداد الصيغ كما هو الحال في ملف MS Excel|حشرة|
-|CELLSJAVA-42711|لا يتم إنشاء المخطط في PDF من قالب Excel|حشرة|
-|CELLSJAVA-42710|نص عنصر وسيلة الإيضاح مكرر في المخطط في تحويل Excel إلى PDF|حشرة|
-|CELLSJAVA-42706|لا يُظهر إخراج PDF تسمية المخطط|حشرة|
-|CELLSJAVA-42700|لم يتم عرض المخطط الانحداري بشكل صحيح بعد تغيير بيانات المخطط|حشرة|
-|CELLSJAVA-42717|Cells.deleteRow يعمل بشكل غير صحيح|حشرة|
-|CELLSJAVA-42716|تم استرداد قيمة خاطئة لنمط الحد|حشرة|
-|CELLSJAVA-42709|تم إرجاع نمط حد سفلي خاطئ للخلية المدمجة|حشرة|
-|CELLSJAVA-42705|يثير MS Excel خطأ أثناء تحميل الملف بعد ضبط التصفية التلقائية|حشرة|
-|CELLSJAVA-42703|لم يتم عرض المخطط أثناء تحويل ODS إلى PDF|حشرة|
-|CELLSJAVA-42702|تظهر الحدود الرمادية بعد قراءة نمط الخلية في ورقة العمل|حشرة|
-|CELLSJAVA-42699|PasteType. القيم_و_NUMBER_FORMATS لا تعمل بشكل جيد|حشرة|
+|CELLSJAVA-42715|لا يتم استرداد الصيغ كما هو الحال في ملف MS Excel|خلل برمجي|
+|CELLSJAVA-42711|لا يتم إنشاء المخطط في PDF من قالب Excel|خلل برمجي|
+|CELLSJAVA-42710|نص عنصر وسيلة الإيضاح مكرر في المخطط في Excel لتحويل PDF|خلل برمجي|
+|CELLSJAVA-42706|PDF الإخراج لا يعرض تسمية المخطط|خلل برمجي|
+|CELLSJAVA-42700|لم يتم عرض المخطط الانحداري بشكل صحيح بعد تغيير بيانات المخطط|خلل برمجي|
+|CELLSJAVA-42717|Cells.deleteRow يعمل بشكل غير صحيح|خلل برمجي|
+|CELLSJAVA-42716|تم استرداد قيمة خاطئة لنمط الحد|خلل برمجي|
+|CELLSJAVA-42709|تم إرجاع نمط حد سفلي خاطئ للخلية المدمجة|خلل برمجي|
+|CELLSJAVA-42705|يثير MS Excel خطأ أثناء تحميل الملف بعد ضبط التصفية التلقائية|خلل برمجي|
+|CELLSJAVA-42703|لم يتم تقديم المخطط أثناء التحويل ODS إلى PDF|خلل برمجي|
+|CELLSJAVA-42702|تظهر الحدود الرمادية بعد قراءة نمط الخلية في ورقة العمل|خلل برمجي|
+|CELLSJAVA-42699|PasteType. القيم_و_NUMBER_FORMATS لا تعمل بشكل جيد|خلل برمجي|
 |CELLSJAVA-42646|استثناء: "FormulaBuild Unknown الصيغة token0" في Name.getRefersTo ()|استثناء|
 |CELLSJAVA-42707|يتسبب أسلوب Chart.calculate في حدوث OutOfMemoryError|استثناء|
 
@@ -81,7 +81,7 @@ url: /ar/java/aspose-cells-for-java-18-9-release-notes/
 
 ### **يضيف خاصية PdfSaveOptions.CustomPropertiesExport**
 
-الحصول على أو تعيين قيمة تحدد طريقة تصدير CustomDocumentPropertyCollection إلى ملف PDF. القيمة الافتراضية هي بلا.
+الحصول على أو تحديد قيمة تحدد طريقة تصدير CustomDocumentPropertyCollection إلى ملف PDF. القيمة الافتراضية هي بلا.
 
 ### **يضيف فئة XmlDataBinding**
 

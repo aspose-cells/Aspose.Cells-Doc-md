@@ -5,7 +5,7 @@ weight: 10
 url: /es/reportingservices/automation-error/
 ---
 ##### **Descripción**
- Cuando Microsoft Excel 2003 carga complementos Aspose.Cells.ReportingServices.Client, Microsoft Excel produce un error de automatización:
+Cuando Microsoft Excel 2003 carga complementos Aspose.Cells.ReportingServices.Client, Microsoft Excel produce un error de automatización:
 
 ![todo:imagen_alternativa_texto](automation-error_1.png)
 ##### **Solución**

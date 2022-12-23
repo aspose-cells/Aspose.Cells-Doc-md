@@ -21,7 +21,7 @@ url: /ru/java/developer-guide/
         <ul>
             <li><a href="/cells/ru/java/opening-files-with-different-formats/">Открытие файлов разных форматов</a></li>
             <li><a href="/cells/ru/java/get-warnings-while-loading-excel-file/">Получать предупреждения при загрузке файла Excel</a></li>
-            <li><a href="/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Читать электронную таблицу чисел, разработанную Apple Inc. с использованием Aspose.Cells</a></li>
+            <li><a href="/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells</a></li>
         </ul>
         <p>Сохранять</p>
         <ul>
@@ -39,15 +39,15 @@ url: /ru/java/developer-guide/
         <p>Экспорт</p>
         <ul>
             <li><a href="/cells/ru/java/converting-workbook-to-different-formats/">Преобразование рабочей книги в разные форматы</a></li>
-            <li><a href="/cells/ru/java/convert-excel-workbook-to-pdf/">Конвертировать книгу Excel в PDF</a></li>
-            <li><a href="/cells/ru/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Преобразование файла Excel в формат PDF, совместимый с PDFA-1a</a></li>
+            <li><a href="/cells/ru/java/convert-excel-workbook-to-pdf/">Преобразование книги Excel в PDF</a></li>
+            <li><a href="/cells/ru/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Преобразование файла Excel в формат PDF, совместимый с PDFA-1a.</a></li>
             <li><a href="/cells/ru/java/converting-worksheet-to-different-image-formats/">Преобразование рабочего листа в различные форматы изображений</a></li>
             <li><a href="/cells/ru/java/track-document-conversion-progress/">Отслеживание процесса преобразования документа</a></li>
             <li><a href="/cells/ru/java/convert-excel-to-html-with-tooltip/">Преобразование Excel в HTML с помощью всплывающей подсказки</a></li>
-            <li><a href="/cells/ru/java/convert-json-to-csv/">Конвертировать JSON в CSV</a></li>
-            <li><a href="/cells/ru/java/convert-csv-to-json/">Конвертировать CSV в JSON</a></li>
+            <li><a href="/cells/ru/java/convert-json-to-csv/">Преобразование JSON в CSV</a></li>
+            <li><a href="/cells/ru/java/convert-csv-to-json/">Преобразование CSV в JSON</a></li>
         </ul>
-        <p>Опции</p>
+        <p>Параметры</p>
         <ul>
             <li><a href="/cells/ru/java/workbook-settings/">Параметры книги</a></li>
         </ul>
@@ -114,14 +114,14 @@ url: /ru/java/developer-guide/
             <li><a href="/cells/ru/java/create-pivot-table/">Создать сводную таблицу</a></li>
             <li><a href="/cells/ru/java/formatting-pivot-table/">Форматирование сводной таблицы</a></li>
         </ul>
-        <p><a href="/cells/ru/java/tables/">Стол</a></p>
+        <p><a href="/cells/ru/java/tables/">Таблица</a></p>
          <ul>
             <li><a href="/cells/ru/java/creating-a-list-object/">Создание объекта списка</a></li>
             <li><a href="/cells/ru/java/format-a-list-object-table/">Форматирование объекта списка — таблица</a></li>
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/ru/java/managing-pictures">Картина</a></p>
+        <p><a href="/cells/ru/java/managing-pictures">Рисунок</a></p>
         <ul>
             <li><a href="/cells/ru/java/insert-a-linked-picture-from-web-address/">Вставить связанное изображение с веб-адреса</a></li>
             <li><a href="/cells/ru/java/insert-a-picture-based-on-cell-reference/">Вставьте изображение на основе ссылки Cell</a></li>
@@ -290,7 +290,7 @@ url: /ru/java/developer-guide/
         <p>Инструменты данных</p>
         <ul>
          <li><a href="/cells/ru/java/convert-text-to-columns-using-aspose-cells/">Текст в столбцы</a></li>
-        <li><a href="/cells/ru/java/data-validation/">Проверка данных</a></li>
+        <li><a href="/cells/ru/java/data-validation/">Валидация данных</a></li>
         <li><a href="/cells/ru/java/get-validation-applied-on-a-cell/">Применить проверку к номеру Cell</a></li>
         </ul>
     </div>
@@ -325,7 +325,7 @@ url: /ru/java/developer-guide/
     <div class="col-md-6">
         <p>Изменения</p>
         <ul>
-         <li><a href="/cells/ru/java/convert-revision-of-xlsb-to-xlsm/">Преобразование версии XLSB в XLSM</a></li>
+         <li><a href="/cells/ru/java/convert-revision-of-xlsb-to-xlsm/">Преобразовать редакцию XLSB в XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -337,7 +337,7 @@ url: /ru/java/developer-guide/
         <ul>
          <li><a href="/cells/ru/java/worksheet-views/#page-break-preview">Предварительный просмотр разрыва страницы</a></li>
         </ul>
-        <p>Показывать</p>
+        <p>Показать</p>
          <ul>
 		<li><a href="/cells/ru/java/show-and-hide-elements/">Показать и скрыть элементы</a></li>
         </ul>

@@ -23,7 +23,7 @@ Diese erste Version des Moduls ist mit den folgenden coolen Funktionen angereich
 - Verwendung als Datenquelle zulassen (Tabelle, Ansichten, benutzerdefinierte Abfrage)
 - Exportieren Sie Daten in Microsoft Excel-Dokumente (.xls, .xlsx und .xlsb)
 - Exportieren von Daten in ein tabulatorgetrenntes Textdokument (*.txt)
-- Daten nach CSV exportieren (kommagetrennt) (*.csv)
+- Daten exportieren nach CSV (kommagetrennt) (*.csv)
 - Exportieren von Daten in eine OpenDocument-Tabelle (*.ods)
 - Option zur Auswahl des gewünschten Ausgabeformats vor dem Export.
 - Das exportierte Dokument wird automatisch zum Herunterladen an den Browser gesendet.
@@ -62,9 +62,9 @@ Führen Sie nach dem Herunterladen die folgenden Schritte aus, um das Modul auf 
 1.  Navigieren Sie zu**Gastgeber** Menü und auswählen**Erweiterungen**.
 1.  Klicken**Erweiterungsassistent installieren**.
 1. Navigieren Sie wie angegeben zum Speicherort der heruntergeladenen ZIP-Datei, wählen Sie sie aus und klicken Sie darauf**Offen**.
-1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Taste.
+1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Knopf.
 
- Bitte prüfen[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
+ Bitte prüfe[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
 
 ## **Verwenden**
 
@@ -72,7 +72,7 @@ Nachdem Sie das Modul Aspose .NET Database Data Expoeter für DNN installiert ha
 
 1. Stellen Sie sicher, dass Sie mit einem Konto auf Host- oder Admin-Ebene bei DNN angemeldet sind.
 1. Navigieren Sie zu der Seite, auf der Sie das Exportmodul hinzufügen möchten.
-1.  Auswählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
+1.  Wählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
 1. Wählen Sie aus der Liste „Aspose.NET DNN Data Exporter to Excel Using Aspose.Cells“ aus und ziehen Sie es an die gewünschte Position.
 
 ![todo: Bild_alt_Text](picture2.png)
@@ -90,11 +90,11 @@ Sie haben Aspose .NET Database Data Exporter to Excel for DNN module erfolgreich
 
 ## **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=weqS_sq4FjI) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=weqS_sq4FjI) unten, um das Modul in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 

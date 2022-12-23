@@ -6,7 +6,7 @@ url: /ar/net/determine-if-shape-is-smart-art-shape/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- الأشكال الفنية الذكية هي أشكال خاصة في Microsoft Excel تتيح لك إنشاء مخططات معقدة تلقائيًا. يمكنك معرفة ما إذا كان الشكل عبارة عن شكل فني ذكي أو شكل عادي باستخدام[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)منشأه.
+ الأشكال الفنية الذكية هي أشكال خاصة في Microsoft Excel تتيح لك إنشاء مخططات معقدة تلقائيًا. يمكنك معرفة ما إذا كان الشكل عبارة عن شكل فني ذكي أو شكل عادي باستخدام[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)خاصية.
 
 ## **حدد ما إذا كان الشكل هو شكل فني ذكي**
 

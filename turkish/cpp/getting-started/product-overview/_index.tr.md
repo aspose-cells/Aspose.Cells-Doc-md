@@ -74,7 +74,7 @@ Aspose telefonla teknik destek vermemektedir. Telefon desteği yalnızca satış
 
 Bu tablo, önemli Aspose.Cells for C++ teknik kaynakları listeler.
 
-|**Kaynak**|**Tanım**|
+|**Kaynak**|**Açıklama**|
 |:- |:- |
 |[Aspose.Cells ana sayfa](https://products.aspose.com/cells/cpp/)|Ürün ana sayfası.|
 |[Aspose.Cells blog](https://blog.aspose.com/category/cells/)|Aspose.Cells ile ilgili yeni sürümler ve faydalı ipuçları hakkında bilgi için bunu sık sık kontrol edin.|

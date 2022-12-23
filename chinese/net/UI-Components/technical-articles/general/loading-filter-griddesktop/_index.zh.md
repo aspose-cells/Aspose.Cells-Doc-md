@@ -1,5 +1,5 @@
 ﻿---
-title: 在 GridDesktop 中加载工作簿时筛选对象
+title: 在 GridDesktop 中加载工作簿时过滤对象
 type: docs
 weight: 1060
 url: /zh/net/aspose-cells-griddesktop/loading-filter

@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44632|Supporta la formattazione dell'intera riga di dati nella tabella pivot|
 |CELLSJAVA-44415|Migliaia di chiamate getResourceAsAStream causano un carico elevato della CPU e un consumo di memoria elevato durante la generazione del report|
@@ -32,14 +32,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44466| problema aggiuntivo 3, setCalculateFormula su false non funziona|
 |CELLSJAVA-44496|Includi il tag/elemento didascalia per la tabella durante il caricamento dell'html|
 |CELLSJAVA-44429|L'effetto del grafico Excel in Excel è diverso da quello in HTML|
-|CELLSJAVA-44414| Unicode in JSON interromperà XLSX e CSV generati|
+|CELLSJAVA-44414| Unicode in JSON interromperà i generati XLSX e CSV|
 |CELLSJAVA-44481|Problema con il metodo ThreadedComment.setCreatedTime()|
 |CELLSJAVA-44483|L'ordinamento non funziona dopo aver raggruppato le righe|
 |CELLSJAVA-44522|Il doppio valore della stringa dà tailing zero che non è corretto se confrontato con il risultato di ms excel|
 |CELLSJAVA-44501| cerca nel prossimo numero il file duohangduolie.zip|
 |CELLSJAVA-44529|implementare la ricerca di freezepane|
 |CELLSJAVA-44530|indagare sul problema di setactivecell a volte non funziona|
-|CELLSJAVA-44534|Grafica nell'area di stampa non esportata nella conversione da Excel a HTML|
+|CELLSJAVA-44534|Grafica nell'area di stampa non esportata in Excel alla conversione HTML|
 |CELLSJAVA-44539|Il grafico viene spostato a destra durante la conversione in html con area di stampa|
 |CELLSJAVA-44568|I sottotitoli su più righe vengono persi tranne la prima riga nella conversione da HTML a XLS|
 |CELLSJAVA-44512|Il grafico non è presente durante l'esportazione del grafico in formato svg in html|
@@ -58,12 +58,12 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44615|Linea grigia tracciata nell'immagine di output dal file XLS|
 |CELLSJAVA-44665|Il caricamento del file ODS si blocca|
 |CELLSJAVA-44404|Eccezione "java.lang.IllegalArgumentException: indice di colonna non valido" durante il caricamento di un file XLSX in GridWeb|
-|CELLSJAVA-44651|Errore "Non è un valore numerico" durante la conversione del foglio Excel in HTML/PDF|
+|CELLSJAVA-44651|Errore "Non un valore numerico" durante la conversione del foglio Excel in HTML/PDF|
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe DefaultStyleSettings.**
 

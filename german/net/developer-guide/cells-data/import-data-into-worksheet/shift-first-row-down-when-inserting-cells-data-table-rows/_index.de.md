@@ -10,7 +10,7 @@ Aspose.Cells ermöglicht es Ihnen, die erste Zeile nach unten zu verschieben, we
 
 ## **Verschieben Sie die erste Zeile nach unten, wenn Sie Cells Datentabellenzeilen einfügen**
 
-Der folgende Beispielcode veranschaulicht, wie die erste Zeile nach unten verschoben wird, wenn eine Tabelle in das Arbeitsblatt eingefügt wird. Wir verwenden eine einfache Excel-Vorlagendatei im Code, um die Funktion zu demonstrieren. Sie können die Funktion ausführen, indem Sie den booleschen Wert setzen[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/shiftfirstrowdown) zuschreiben**WAHR**/**FALSCH** um es besser zu verstehen. Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](45056031.xlsx), [Excel-False-Datei ausgeben](45056032.xlsx) , und[Excel True-Datei ausgeben](45056033.xlsx)für ihre referenz.
+Der folgende Beispielcode veranschaulicht, wie die erste Zeile nach unten verschoben wird, wenn eine Tabelle in das Arbeitsblatt eingefügt wird. Wir verwenden eine einfache Excel-Vorlagendatei im Code, um die Funktion zu demonstrieren. Sie können die Funktion ausführen, indem Sie den booleschen Wert setzen[**ImportTableOptions.ShiftFirstRowDown**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/shiftfirstrowdown) zuschreiben**Wahr**/**FALSCH** um es besser zu verstehen. Bitte sehen Sie sich ... an[Beispiel-Excel-Datei](45056031.xlsx), [Excel-False-Datei ausgeben](45056032.xlsx) , und[Excel True-Datei ausgeben](45056033.xlsx)für ihre referenz.
 
 ## **Bildschirmfoto**
 

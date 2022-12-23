@@ -9,7 +9,7 @@ Aspose.Cells.Report.Designer'da bir sorguyu düzenlemek için:
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Veri Kümesi Oluştur**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](editing-query_1.png)
+![yapılacaklar:resim_alternatif_metin](editing-query_1.png)
 
 ).
 
@@ -18,7 +18,7 @@ Aspose.Cells.Report.Designer'da bir sorguyu düzenlemek için:
 
    **Bir veri seti seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](editing-query_2.png)
+![yapılacaklar:resim_alternatif_metin](editing-query_2.png)
 
 
 
@@ -27,7 +27,7 @@ Aspose.Cells.Report.Designer'da bir sorguyu düzenlemek için:
 
    **Microsoft Sorguda bir sorguyu düzenleme** 
 
-![yapılacaklar:resim_alternatif_Metin](editing-query_3.png)
+![yapılacaklar:resim_alternatif_metin](editing-query_3.png)
 
 
 
@@ -36,4 +36,4 @@ Aspose.Cells.Report.Designer'da bir sorguyu düzenlemek için:
 
    **Rapor Tasarımcısına Dön** 
 
-![yapılacaklar:resim_alternatif_Metin](editing-query_4.png)
+![yapılacaklar:resim_alternatif_metin](editing-query_4.png)

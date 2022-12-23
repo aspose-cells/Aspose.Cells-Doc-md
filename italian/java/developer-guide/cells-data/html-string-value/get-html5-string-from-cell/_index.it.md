@@ -6,13 +6,13 @@ url: /it/java/get-html5-string-from-cell/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo. Se passi**falso**come parametro, ti restituirà HTML normale ma se lo passi**VERO**come parametro, restituirà la stringa HTML5.
+Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo. Se passi**falso**come parametro, ti restituirà Normal HTML ma se passi**VERO**come parametro, restituirà la stringa HTML5.
 
 ## **Ottieni la stringa HTML5 da Cell**
 
-Il seguente codice di esempio crea un oggetto cartella di lavoro e aggiunge del testo nella cella A1 del primo foglio di lavoro. Quindi ottiene la stringa HTML normale e HTML5 dalla cella A1 utilizzando il file[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo e li stampa sulla console.
+Il seguente codice di esempio crea un oggetto cartella di lavoro e aggiunge del testo nella cella A1 del primo foglio di lavoro. Quindi ottiene la stringa Normal HTML e HTML5 dalla cella A1 utilizzando il file[**getHtmlString(booleano html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)metodo e li stampa sulla console.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HTML-GetHTML5StringFromCell.java" >}}
 

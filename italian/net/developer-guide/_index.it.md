@@ -21,10 +21,10 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
         <p>Aprire</p>
         <ul>
             <li><a href="/cells/it/net/different-ways-to-open-files/">Diversi modi per aprire i file</a></li>
-            <li><a href="/cells/it/net/opening-different-microsoft-excel-versions-files/">Apertura di diversi file di versioni di Microsoft Excel</a></li>
+            <li><a href="/cells/it/net/opening-different-microsoft-excel-versions-files/">Apertura di diversi file di versioni di Excel Microsoft</a></li>
             <li><a href="/cells/it/net/opening-files-with-different-formats/">Apertura di file con formati diversi</a></li>
             <li><a href="/cells/it/net/get-warnings-while-loading-excel-file/">Ricevi avvisi durante il caricamento del file Excel</a></li>
-            <li><a href="/cells/it/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells</a></li>
+            <li><a href="/cells/it/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Leggi Numbers Foglio di calcolo Sviluppato da Apple Inc. utilizzando Aspose.Cells</a></li>
         </ul>
         <p>Salva</p>
         <ul>
@@ -42,7 +42,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
         <ul>
             <li><a href="/cells/it/net/convert-workbook-to-different-formats/">Converti la cartella di lavoro in diversi formati</a></li>
             <li><a href="/cells/it/net/convert-excel-workbook-to-pdf/">Converti la cartella di lavoro di Excel in PDF</a></li>
-            <li><a href="/cells/it/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Converti file Excel in formato PDF compatibile con PDFA-1a</a></li>
+            <li><a href="/cells/it/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Converti il file Excel nel formato PDF compatibile con PDFA-1a</a></li>
             <li><a href="/cells/it/net/convert-excel-to-image/">Converti la cartella di lavoro in diversi formati di immagine</a></li>
             <li><a href="/cells/it/net/track-document-conversion-progress/">Tieni traccia dell'avanzamento della conversione del documento</a></li>
             <li><a href="/cells/it/net/convert-excel-to-html/">Converti Excel in HTML</a></li>
@@ -71,7 +71,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
 		 <li><a href="/cells/it/net/cells-number-settings/">Numero</a></li>
 		 <li><a href="/cells/it/net/cells-alignment-settings/">Allineamento</a></li>
 		 <li><a href="/cells/it/net/cells-font-settings/">Font</a></li>
-		 <li><a href="/cells/it/net/cells-border-settings/">Confine</a></li>
+		 <li><a href="/cells/it/net/cells-border-settings/">Frontiera</a></li>
 		 <li><a href="/cells/it/net/cells-fill-settings/">Riempire</a></li>
         </ul>
         <p>Formattazione condizionale</p>
@@ -90,7 +90,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
 		 <p>Filtro</p>
         <ul>
 		 <li><a href="/cells/it/net/data-filtering/">Filtraggio dei dati</a></li>
-         <li><a href="/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi</a></li>
+         <li><a href="/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi</a></li>
 		 <li><a href="/cells/it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/">Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico</a></li>
         </ul>
         <p>Trova e seleziona</p>
@@ -345,7 +345,7 @@ Questa Guida per gli sviluppatori fornisce informazioni sull'utilizzo di Aspose.
         <ul>
          <li><a href="/cells/it/net/worksheet-views/#page-break-preview">Anteprima interruzione di pagina</a></li>
         </ul>
-        <p>Mostrare</p>
+        <p>Spettacolo</p>
          <ul>
 		<li><a href="/cells/it/net/show-and-hide-gridlines-and-row-column-headers/">Visualizza griglia e intestazione</a></li>
         </ul>

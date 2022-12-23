@@ -22,7 +22,7 @@ A continuación se muestran algunos métodos y propiedades que implementan los c
 
 El siguiente ejemplo muestra cómo obtener y establecer los colores del tema.
 
-El siguiente ejemplo utiliza un archivo XLSX de plantilla, obtiene los colores para diferentes tipos de colores de tema, cambia los colores y guarda el archivo de Excel Microsoft.
+El siguiente ejemplo utiliza un archivo de plantilla XLSX, obtiene los colores para diferentes tipos de colores de tema, cambia los colores y guarda el archivo de Excel Microsoft.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
@@ -30,7 +30,7 @@ El siguiente ejemplo utiliza un archivo XLSX de plantilla, obtiene los colores p
 
 El siguiente ejemplo muestra cómo aplicar temas personalizados con los colores deseados. Usamos un archivo de plantilla de muestra creado manualmente en Microsoft Excel 2007.
 
-El siguiente ejemplo carga un archivo XLSX de plantilla, define colores para diferentes tipos de colores de tema, aplica los colores personalizados y guarda el archivo de Excel.
+El siguiente ejemplo carga un archivo de plantilla XLSX, define colores para diferentes tipos de colores de tema, aplica los colores personalizados y guarda el archivo de Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 

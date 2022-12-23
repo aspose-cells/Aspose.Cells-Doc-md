@@ -25,14 +25,14 @@ L'installation de ce plugin introduira un nouveau type de projet -
 
 ![tâche : image_autre_texte](m1du9a1.jpg)
 ### **Aspose.Cells Assistant Exemples**
- Une option pour créer[Code source Exemples d'utilisation de Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) à l'intérieur du projet, apparaîtra également après l'installation sous le menu "Nouveau" (en utilisant le clic droit -> Nouveau**OU** Menu Fichier->Nouveau) –
+ Une option pour créer[Code source Exemples d'utilisation de Aspose.Cells for Java API](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) à l'intérieur du projet, apparaîtra également après l'installation sous le menu "Nouveau" (en utilisant le clic droit -> Nouveau**OU ALORS** Menu Fichier->Nouveau) –
 
 ![tâche : image_autre_texte](aspose_small.png)
 
 **Aspose.Cells Exemples**
 
 ![tâche : image_autre_texte](bc05c5v.jpg)
-## **Utilisant**
+## **En utilisant**
 ### **Aspose.Cells Maven Assistant de projet**
  Pour créer un projet Aspose.Cells Maven à utiliser[Aspose.Cells for Java API](http://goo.gl/c1eSD2) dans IntelliJ IDEA, vous devez disposer d'une connexion Internet.
 
@@ -40,24 +40,24 @@ Suivez ensuite les étapes ci-dessous :
 
  \1. Sélectionner**Nouveau projet**.
  \2. Sélectionner**Aspose.Cells Maven Projet** 
- \3. Cliquez sur**Prochain**. 
+ \3. Cliquez sur**Suivant**. 
 
 ![tâche : image_autre_texte](m1du9a1.jpg)
 
 
- \4. Fournir un**ID de groupe, ID d'artefact** et**Version** pour votre projet maven et cliquez sur**Prochain.**
+ \4. Fournir un**ID de groupe, ID d'artefact** et**Version** pour votre projet maven et cliquez sur**Suivant.**
 
 ![tâche : image_autre_texte](khijrce.jpg)
 
 
 `    `Vous pouvez cocher la case "Télécharger également le code source des exemples" pour télécharger les exemples d'utilisation du API (comme indiqué dans l'instantané ci-dessus)
 
- \6. Fournir un**nom du projet** et**Emplacement**comme lors de la création de n'importe quelle application Java
+ \6. Fournir un**nom du projet** et**Lieu**comme lors de la création de n'importe quelle application Java
 
 ![tâche : image_autre_texte](0gszuiu.jpg)
 
 
- \sept. Cliquez sur**Finir**.
+ \7. Cliquez sur**Finir**.
  `    ` Cela récupérera le[Aspose.Cells for Java API](http://goo.gl/c1eSD2) dernière référence de dépendance maven du référentiel Aspose Cloud Maven et configurez-la dans pom.xml
  `     `Si vous avez coché la case "Télécharger également des exemples de code source". Le téléchargement des exemples commencera également à partir du[Aspose.Cells for Java API Référentiel GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 

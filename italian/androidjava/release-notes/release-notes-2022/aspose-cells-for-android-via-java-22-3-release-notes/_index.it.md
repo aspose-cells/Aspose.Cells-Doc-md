@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44162|Supporto per rimuovere il collegamento esterno senza rimuovere le formule|
 |CELLSJAVA-44214|Supporto per l'adattamento automatico delle righe per GridWeb|
@@ -23,13 +23,13 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44204|problema di impaginazione per csv|
 |CELLSJAVA-43934|Le etichette del grafico a torta non vengono abbinate a Excel dopo aver manipolato o aggiornato il grafico|
 |CELLSJAVA-44122|Quando si esporta HTML, le etichette dei dati sono diverse da quelle di Excel|
-|CELLSJAVA-41949| Il rendering del contenuto è diverso quando si salva la cartella di lavoro nei formati XLSX e HTML|
-|CELLSJAVA-44207|Quando esporti in HTML, l'altezza della riga aumenta|
-|CELLSJAVA-44233|Ciclo infinito durante la conversione di file XLSX|
+|CELLSJAVA-41949| Il contenuto viene visualizzato in modo diverso quando si salva la cartella di lavoro nei formati XLSX e HTML|
+|CELLSJAVA-44207|Quando si esporta in HTML, l'altezza della riga aumenta|
+|CELLSJAVA-44233|Ciclo infinito durante la conversione del file XLSX|
 |CELLSJAVA-44271|Quando si converte Excel in PDF, la posizione di output si sposta rispetto al caso della conversione manuale|
-|CELLSJAVA-44197|Quando si converte XLSX in PDF, la forma della timeline della tabella pivot (finestra) non viene visualizzata|
+|CELLSJAVA-44197|Durante la conversione da XLSX a PDF, la forma della sequenza temporale della tabella pivot (finestra) non viene visualizzata|
 |CELLSJAVA-44267|La cartella di lavoro contenente una tabella pivot viene danneggiata|
-|CELLSJAVA-44114|Da XLSX a PDF: i dati in formato numerico Scientific dal file XLSX non corrispondono ai dati nel file PDF di output|
+|CELLSJAVA-44114|Da XLSX a PDF: i dati nel formato numero scientifico del file XLSX non corrispondono ai dati nel file di output PDF|
 |CELLSJAVA-44293|Il file Excel salvato di nuovo deve essere recuperato quando lo si apre in MS Excel|
 |CELLSJAVA-43194|Immagini visualizzate in modo errato|
 |CELLSJAVA-44243|Il file di salvataggio della demo primaverile di GridWeb non è riuscito in jdk1.8|
@@ -38,8 +38,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44229|La formula viene persa quando il contenuto td viene avvolto dal tag div|
 |CELLSJAVA-44247|Il testo a riga singola viene avvolto durante la conversione in pdf|
 |CELLSJAVA-44175| problema con le etichette del grafico a ciambella sovrapposte|
-|CELLSJAVA-44192| Il nome dell'elemento dell'asse delle categorie nel grafico viene tagliato nella conversione da Excel a PDF|
-|CELLSJAVA-44233|Ciclo infinito durante la conversione di file XLSX|
+|CELLSJAVA-44192|Il nome dell'elemento dell'asse delle categorie nel grafico è tagliato in Excel alla conversione PDF|
+|CELLSJAVA-44233|Ciclo infinito durante la conversione del file XLSX|
 |CELLSJAVA-44263|L'impostazione della direzione del testo dell'etichetta del grafico su verticale non ha effetto|
 |CELLSJAVA-44268| Eccezione "java.lang.NullPointerException" sul metodo Chart.toPdf|
 |CELLSJAVA-44302|La direzione del testo dell'asse delle coordinate è errata dopo che il file Excel è stato convertito in HTML|
@@ -48,28 +48,28 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44369| l'altezza della forma non è corretta|
 |CELLSJAVA-44366|Copiare il contenuto del foglio in una nuova pagina del foglio e salvarlo come html causa uno stile anomalo della formula matematica di Excel|
 |CELLSJAVA-44408|Il formato percentuale di Cell viene perso quando espandiamo quelle 2 righe che abbiamo modificato|
-|CELLSJAVA-44341|La larghezza Cell non è corretta nell'output DOCX nella conversione da Excel a DOCX|
+|CELLSJAVA-44341|La larghezza Cell non è corretta nell'output DOCX in Excel alla conversione DOCX|
 |CELLSJAVA-44383|La formattazione condizionale ha smesso di funzionare dopo l'aggiunta di proprietà personalizzate|
 |CELLSJAVA-44370|Il file Excel viene danneggiato quando viene aperto e salvato con Aspose.Cells|
-|CELLSJAVA-44344| Problema con la copia orizzontale degli intervalli nell'output XLSX|
+|CELLSJAVA-44344|Problema con la copia orizzontale degli intervalli nell'output XLSX|
 |CELLSJAVA-44363| l'altezza dell'intestazione della riga non corrisponde al contenuto della riga nel file con freezepane|
 |CELLSJAVA-44349|l'immagine/forma deve essere conservata dopo il riavvio del server per GridWeb|
 |CELLSJAVA-44367|Il colore dell'istogramma diventa bianco durante la conversione in html|
 |CELLSJAVA-44328| Alcune etichette dati dei grafici Excel vengono perse durante il salvataggio del file Excel come HTML|
-|CELLSJAVA-44193|L'angolo degli elementi dell'asse delle categorie nel grafico è diverso nella conversione da Excel a PDF|
+|CELLSJAVA-44193|L'angolo degli elementi dell'asse delle categorie nel grafico è diverso in Excel rispetto alla conversione PDF|
 |CELLSJAVA-44314|Etichette dell'asse delle categorie del grafico errate nel rendering dal grafico all'immagine|
 |CELLSJAVA-44332|Cell la sottolineatura del collegamento non può essere rimossa quando si converte xlsx in html|
 |CELLSJAVA-44234|Problema di memoria insufficiente per il file data.xls|
 |CELLSJAVA-44246|Eccezione "Indice endrow non valido" per file vuoto|
 |CELLSJAVA-44258| Eccezione puntatore nullo per file|
-|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il rendering nel formato di file HTML|
+|CELLSJAVA-44311|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il rendering nel formato file HTML|
 |CELLSJAVA-44285|Eccezione "java.lang.ClassCastException: impossibile eseguire il cast di com.aspose.cells.n2f su com.aspose.cells.o90" quando si chiama Workbook.calculateFormula()|
 |CELLSJAVA-44323|Eccezione durante l'aggiunta della riga della firma|
 |CELLSJAVA-44361|CellsException sollevata durante la conversione di xlsx in html|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della rimozione dei collegamenti esterni dalla cartella di lavoro.**
 
@@ -77,7 +77,7 @@ Nelle vecchie versioni, non rimuoviamo il collegamento esterno il cui URL contie
 
 ### **Modifica il comportamento di Cell. Digitare per un valore data/ora non valido.**
 
-Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato per ottenere il valore della cella dall'API appropriata.
+Nelle versioni precedenti, se una cella deve essere formattata come data/ora, Cell.Type restituisce CellValueType.IsDateTime indipendentemente dal fatto che il valore numerico di questa cella sia valido o meno per la data/ora. Ciò può causare un'eccezione se gli utenti dipendono solo da Cell.Type e provano a chiamare Cell.DateTimeValue. Da questa versione, restituiamo CellValueType.IsNumeric per questo tipo di celle in modo che l'utente possa essere guidato a ottenere il valore della cella tramite API corretto.
 
 ### **Modifica il comportamento di Cells.MaxDisplayRange.**
 
@@ -89,7 +89,7 @@ Nelle vecchie versioni? I metodi DataSorter.Sort() non restituiscono nulla. Da q
 
 ### **Aggiunge la proprietà TxtLoadOptions.ExtendToNextSheet.**
 
-Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o delle colonne dei dati supera il limite di ms excel.
+Supporta l'importazione di dati CSV/TSV in più fogli di lavoro se il conteggio delle righe o il conteggio delle colonne dei dati supera il limite di ms excel.
 
 ### **Aggiunge il metodo ExternalLinkCollection.Clear().**
 

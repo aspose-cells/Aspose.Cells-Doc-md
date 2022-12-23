@@ -21,13 +21,13 @@ Aspose.Cells for .NET v5.1.1 を発表できることをうれしく思います
 
 |**問題ID** |**成分** |**概要** |
 |:- |:- |:- |
-|18024 |Chart2Image|PDF に変換するときのチャートの目盛りラベル形式の問題|
+|18024 |Chart2Image|PDF に変換するときのチャート ティック ラベル形式の問題|
 |18028 |Chart2Image|Chart_Overlapping の問題|
 |18458 |Chart2Image|切り捨てられたデータ ラベルの問題|
 |18652 | PDF|PDF 形式で保存中に無効な Cell 名|
 |18034 |Shape2Image|最初のシートのレイアウトとデザインが失われ、テキストが重なる|
 |18687 |Worksheet2Image|ToImage が例外をスローする|
-|18473 |xls|Office 2010 は、XLS ファイルに問題を検出しました|
+|18473 |xls|Office 2010 は XLS ファイルに問題を検出しました|
 |18489 |xls|XLS として保存する際の問題|
 |18534 |xls|オフセットの組み合わせの問題|
 |18755 |xls|ファイルの CalculateFormula でエラーが発生する|

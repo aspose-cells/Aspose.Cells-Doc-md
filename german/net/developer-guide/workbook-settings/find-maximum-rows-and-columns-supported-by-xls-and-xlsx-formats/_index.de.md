@@ -1,5 +1,5 @@
 ﻿---
-title: Finden Sie maximale Zeilen und Spalten, die von XLS- und XLSX-Formaten unterstützt werden
+title: Finden Sie maximale Zeilen und Spalten, die von den Formaten XLS und XLSX unterstützt werden
 type: docs
 weight: 20
 url: /de/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
@@ -8,9 +8,9 @@ url: /de/net/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 
 Es gibt eine unterschiedliche Anzahl von Zeilen und Spalten, die von Excel-Formaten unterstützt werden. Beispielsweise unterstützt XLS 65536 Zeilen und 256 Spalten, während XLSX 1048576 Zeilen und 16384 Spalten unterstützt. Wenn Sie wissen möchten, wie viele Zeilen und Spalten von einem bestimmten Format unterstützt werden, können Sie verwenden[**Arbeitsmappe.Einstellungen.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und[**Arbeitsmappe.Einstellungen.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)Eigenschaften.
 
-## **Finden Sie maximale Zeilen und Spalten, die von XLS- und XLSX-Formaten unterstützt werden**
+## **Finden Sie maximale Zeilen und Spalten, die von den Formaten XLS und XLSX unterstützt werden**
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe zuerst im XLS- und dann im XLSX-Format. Nach der Erstellung werden die Werte von gedruckt[**Arbeitsmappe.Einstellungen.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und[**Arbeitsmappe.Einstellungen.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)Eigenschaften. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
+Der folgende Beispielcode erstellt eine Arbeitsmappe zuerst im Format XLS und dann im Format XLSX. Nach der Erstellung werden die Werte von gedruckt[**Arbeitsmappe.Einstellungen.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) und[**Arbeitsmappe.Einstellungen.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)Eigenschaften. Bitte sehen Sie sich die Konsolenausgabe des unten angegebenen Codes als Referenz an.
 
 ## **Beispielcode**
 

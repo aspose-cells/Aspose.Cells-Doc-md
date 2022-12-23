@@ -36,19 +36,19 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41315) - Il rendering delle forme nella pagina 5 non è corretto
 
- (CELLSJAVA-41308) - La posizione della forma è errata durante il rendering del foglio di calcolo in formato PDF
+ (CELLSJAVA-41308) - La posizione della forma è errata durante il rendering del foglio di calcolo nel formato PDF
 
- (CELLSJAVA-41282) - Le punte delle frecce vengono ingrandite durante la conversione del foglio di calcolo con disegni in PDF
+ (CELLSJAVA-41282) - Le punte delle frecce vengono ingrandite durante la conversione del foglio di calcolo con i disegni in PDF
 
-(CELLSJAVA-41249) - WordArt non viene visualizzato correttamente nel file PDF di output
+ (CELLSJAVA-41249) - WordArt non viene visualizzato correttamente nel file di output PDF
 
  (CELLSJAVA-41243) - Il testo orizzontale nelle forme viene reso verticale durante la conversione del foglio di calcolo in PDF
 
- (CELLSJAVA-41242) - Il disegno è incasinato durante il rendering del foglio di calcolo in PDF
+(CELLSJAVA-41242) - Il disegno è incasinato durante il rendering del foglio di calcolo su PDF
 
  (CELLSJAVA-41241) - Le forme circolari vengono convertite in ovali durante il rendering del foglio di calcolo in PDF
 
- (CELLSJAVA-41233) - Gli oggetti e le forme del disegno nel modello Excel non vengono visualizzati correttamente nel PDF di output utilizzando Aspose.Cells
+ (CELLSJAVA-41233) - Gli oggetti e le forme del disegno nel modello Excel non vengono visualizzati correttamente nell'output PDF utilizzando Aspose.Cells
 
  (CELLSJAVA-41302) - L'ultima versione Aspose non riesce a salvare il file salvato tramite la versione precedente
 
@@ -62,35 +62,35 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41313) - Le linee continue vengono visualizzate come linee tratteggiate
 
-(CELLSJAVA-41306) - Problema di conversione da Excel a PDF - parte destra tagliata
+ (CELLSJAVA-41306) - Problema di conversione da Excel a PDF - lato destro tagliato
 
  (CELLSJAVA-41316) - Mancano alcune etichette dati nel file HTML sottoposto a rendering durante la copia della cartella di lavoro
 
- (CELLSJAVA-41314) - I DataLabel nel grafico non sono mostrati nell'immagine EMF renderizzata
+(CELLSJAVA-41314) - I DataLabel nel grafico non sono mostrati nell'immagine EMF renderizzata
 
  (CELLSJAVA-41311) - Etichette dell'asse del grafico mancanti durante la conversione in EMF
 
- (CELLSJAVA-41301) - I caratteri ebraici in "smart art" presenti in Excel sono rispecchiati nella versione PDF
+ (CELLSJAVA-41301) - I caratteri ebraici in "smart art" presenti in Excel sono rispecchiati nella resa PDF
 
  (CELLSJAVA-41300) - Dati del grafico a torta errati durante il rendering tramite Aspose
 
  (CELLSJAVA-41285) - L'altezza dell'area del tracciato del grafico aumenta dopo aver combinato le cartelle di lavoro
 
- (CELLSJAVA-41277) - Solo il rendering del grafico a torta genera un PDF vuoto
+ (CELLSJAVA-41277) - Solo il rendering del grafico a torta genera uno spazio vuoto PDF
 
  (CELLSJAVA-41276) - Chart.toImage genera un'immagine vuota per il grafico a torta
 
- (CELLSJAVA-41275) - Mancano due delle etichette Axis nell'EMF risultante durante la conversione del grafico in immagine
+ (CELLSJAVA-41275) - Mancano due delle etichette Axis nel risultante EMF durante la conversione del grafico in immagine
 
  (CELLSJAVA-40606) - L'immagine di rendering del grafico non è corretta (da grafico a immagine)
 
-(CELLSJAVA-40368) - Chart.calculate() posiziona in modo errato le etichette degli assi X e Y
+ (CELLSJAVA-40368) - Chart.calculate() posiziona in modo errato le etichette degli assi X e Y
 
 
 ## **Eccezioni**
 
 
- (CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Indice: 2, Dimensione: 2, nella cartella di lavoro ctro
+(CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Indice: 2, Dimensione: 2, nella cartella di lavoro ctro
 
  (CELLSJAVA-41307) - java.lang.ArrayIndexOutOfBoundsException: -1 nella cartella di lavoro ctor durante il caricamento del file salvato con Aspose.Cells
 
@@ -99,10 +99,10 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
  (CELLSJAVA-41274) - java.lang.NullPointerException in Workbook.save dopo ripetute operazioni di caricamento e salvataggio
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -118,9 +118,9 @@ url: /it/java/aspose-cells-for-java-8-4-2-release-notes/
 
 
 
-Aggiunge le enumerazioni PasteType.Default e PasteType.DefaultExceptBorders.
+ Aggiunge le enumerazioni PasteType.Default e PasteType.DefaultExceptBorders.
 
- Viene utilizzato per copiare l'intervallo come "Tutto" e "Tutto tranne i bordi" in MS Excel.
+Viene utilizzato per copiare l'intervallo come "Tutto" e "Tutto tranne i bordi" in MS Excel.
 
 
 

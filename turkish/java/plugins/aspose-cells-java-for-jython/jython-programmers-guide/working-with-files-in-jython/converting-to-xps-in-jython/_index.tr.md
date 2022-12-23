@@ -1,10 +1,10 @@
 ﻿---
-title: Jython'da XPS'ye Dönüştürme
+title: Jython'da XPS'e Dönüştürme
 type: docs
 weight: 30
 url: /tr/java/converting-to-xps-in-jython/
 ---
-## **Aspose.Cells - XPS'ye Dönüştürme**
+## **Aspose.Cells - XPS'e Dönüştürme**
  Belgeleri kullanarak eklemek için**Jython için Aspose.Cells Java**. Burada örnek kodu görebilirsiniz.
 
 **Jython Kodu**

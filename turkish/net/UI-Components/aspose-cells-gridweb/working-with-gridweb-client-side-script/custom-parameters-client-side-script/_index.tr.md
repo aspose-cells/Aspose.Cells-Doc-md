@@ -13,7 +13,7 @@ description: Aspose.Cells.GridWeb istemci tarafı komut dosyasında başlatma pa
  
 ### **parametreler**
  
-|**Parametre**|**Tanım**|
+|**Parametre**|**Açıklama**|
 |:- |:- |
 |needInitAlignmentAdjust|Başlatma sırasında hücre içeriği için dikey hizalama yapılıp yapılmaması, hizalama işini yapmak için biraz zamana neden olur, çalışma sayfasında büyük hücreler varsa, performans zayıf olur, eğer kullanıcı dikey hizalamayı önemsemezse, o zaman ayarlayabilir. yanlış olun, varsayılan değer doğrudur|
 |Odaklanma| hücre aralığı içinde odaklanıp odaklanmayacağınız, varsayılan değer doğrudur|
@@ -27,21 +27,21 @@ description: Aspose.Cells.GridWeb istemci tarafı komut dosyasında başlatma pa
 
 **needInitAlignmentAdjust=true** 
 
-![yapılacaklar:resim_alternatif_Metin](align_true.png)
+![yapılacaklar:resim_alternatif_metin](align_true.png)
 
 **needInitAlignmentAdjust=yanlış** 
 
-![yapılacaklar:resim_alternatif_Metin](align_false.png)
+![yapılacaklar:resim_alternatif_metin](align_false.png)
 
 **odak içi = doğru** 
  düzenleme yolu içinde - metin girildiğinde, eski hücre değeri yine de korunur
 
-![yapılacaklar:resim_alternatif_Metin](focus_inside_true.png)
+![yapılacaklar:resim_alternatif_metin](focus_inside_true.png)
 
 **odak içi=yanlış** 
 hızlı düzenleme yolu -- metin girildiğinde eski hücre değerinin üzerine yazılacaktır, eski hücre değerine göre düzenlemek isterseniz hücreye tıklayabilirsiniz
 
-![yapılacaklar:resim_alternatif_Metin](focus_inside_false.png)
+![yapılacaklar:resim_alternatif_metin](focus_inside_false.png)
 
  
  

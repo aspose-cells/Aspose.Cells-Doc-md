@@ -37,6 +37,6 @@ Aspose.Cells.GridDesktop を使用してワークシートを挿入するには�
 
 {{% alert color="primary" %}} 
 
-重要: Microsoft Excel (97-2003 XLS) は、最大 65,536 行および 256 列の Excel シートをサポートします。 Aspose.Cells.GridDesktop も同じ基準に従います。 Aspose.Cells.GridDesktop コントロールでは、開発者は標準の制限よりも多くの行と列を持つワークシートを追加または挿入できますが、グリッド データを Excel ファイルに保存しようとすると、例外がスローされます。 Aspose.Cells.GridDesktop を使用して 65,536 行 256 列に含まれるデータのみが Excel XLS ファイルに保存できることを意味しますが、XLSX (MS Excel 2007/2010) ファイル形式を使用する場合、そのような制限はありません。
+重要: Microsoft Excel (97-2003 XLS) は、最大 65,536 行および 256 列の Excel シートをサポートします。 Aspose.Cells.GridDesktop も同じ基準に従います。 Aspose.Cells.GridDesktop コントロールでは、開発者は標準の制限よりも多くの行と列を持つワークシートを追加または挿入できますが、グリッド データを Excel ファイルに保存しようとすると、例外がスローされます。これは、Aspose.Cells.GridDesktop を使用して 65,536 行 256 列に含まれるデータのみが Excel XLS ファイルに保存できることを意味します。ただし、XLSX (MS Excel 2007/2010) ファイル形式を使用する場合、そのような制限はありません。
 
 {{% /alert %}}

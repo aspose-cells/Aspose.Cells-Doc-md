@@ -9,7 +9,7 @@ Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cell
 
  Il[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)enumerazione ha i seguenti possibili valori.
 
-- Tutto
+- Tutti
 - Impostazioni libro
 - CellBlank
 - CellBool
@@ -37,7 +37,7 @@ Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cell
 - VBA
 - XmlMap
 ## **Filtra gli oggetti durante il caricamento della cartella di lavoro**
- Il codice di esempio seguente illustra come filtrare i grafici dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5115258.xlsx) utilizzato in questo codice e il[uscita PDF](5115257.pdf)generato da esso. Come puoi vedere nel PDF di output, tutti i grafici sono stati filtrati dalla cartella di lavoro.
+ Il codice di esempio seguente illustra come filtrare i grafici dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5115258.xlsx) utilizzato in questo codice e il[uscita PDF](5115257.pdf)generato da esso. Come puoi vedere nell'output PDF, tutti i grafici sono stati filtrati dalla cartella di lavoro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **Filtra gli oggetti durante il caricamento del foglio di lavoro**

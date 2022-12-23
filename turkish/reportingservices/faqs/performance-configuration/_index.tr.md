@@ -6,7 +6,7 @@ url: /tr/reportingservices/performance-configuration/
 ---
 {{% alert color="primary" %}} 
 
-Kullanıcılar performansı bir dereceye kadar optimize edebilir. Bazı nitelikleri ve parametreleri yapılandırabilirsiniz.**Aspose.Cells.ReportingServices.xml** aşağıda açıklandığı gibi dosya.
+ Kullanıcılar performansı bir dereceye kadar optimize edebilir. Bazı nitelikleri ve parametreleri yapılandırabilirsiniz.**Aspose.Cells.ReportingServices.xml** aşağıda açıklandığı gibi dosya.
 
 {{% /alert %}} 
 ### **Performans Bölümü**
@@ -52,7 +52,7 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
  - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
- Lütfen aşağıdaki yapılandırmaya bakın.
+Lütfen aşağıdaki yapılandırmaya bakın.
 
 **xml**
 
@@ -82,7 +82,7 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
  - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
- Lütfen aşağıdaki yapılandırmaya bakın.
+Lütfen aşağıdaki yapılandırmaya bakın.
 
 **xml**
 
@@ -112,7 +112,7 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
  - Performans parametresi "açık" olarak ayarlandığında, bir alt öğe raporu, raporun AutoRowFile parametresini sıfırlayabilir.
- Lütfen aşağıdaki yapılandırmaya bakın.
+Lütfen aşağıdaki yapılandırmaya bakın.
 
 **xml**
 
@@ -138,12 +138,12 @@ Bu, Performans bölümünü varsayılan olarak olduğu gibi gösterir.
 
 {{< /highlight >}}
 
-- IsConditionalFormatting – Doğru veya yanlış olabilir:
+-  IsConditionalFormatting – Doğru veya yanlış olabilir:
  - Performans parametresi 'kapalı' olarak ayarlandığında, varsayılan değer yanlıştır.
  - Performans parametresi 'açık' olarak ayarlandığında, varsayılan değer doğrudur.
  - Performans parametresi 'on' olarak ayarlandığında, alt öğe raporu, nokta raporunun AutoRowFile parametresini sıfırlayabilir.
  - IsSetStyle parametresi false olarak ayarlandığında, Performans parametresinin değeri geçersizdir.
- Lütfen aşağıdaki yapılandırmaya bakın.
+Lütfen aşağıdaki yapılandırmaya bakın.
 
 **xml**
 

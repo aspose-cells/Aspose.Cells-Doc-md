@@ -18,23 +18,23 @@ url: /tr/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43226|Resmin verileri alınırken "java.lang.ArrayIndexOutOfBoundsException" istisnası|Artırma|
 |CELLSJAVA-43234|2014 öncesi veriler Pivot Tablodan okunmuyor|Böcek|
 |CELLSJAVA-43210|Yanlış değer #Aspose.Cells tarafından okunan değer|Böcek|
-|CELLSJAVA-43215|XLSM dosyası PDF'ye dönüştürülemiyor|Böcek|
+|CELLSJAVA-43215|XLSM dosyası PDF'e dönüştürülemiyor|Böcek|
 |CELLSJAVA-43219|Farklı sayfalara formül referansı eklemek bozuk Excel çalışma kitabıyla sonuçlanır|Böcek|
 |CELLSJAVA-43232|YUVARLAK işlev sorunu|Böcek|
 |CELLSJAVA-43243|Komşu hücrenin formülü değiştirilirken formül alınamadı|Böcek|
-|CELLSJAVA-43217|XLSX'i XPS'e yazdırmak arka plan biçimlendirmesini kaybediyor|Böcek|
+|CELLSJAVA-43217|XLSX'den XPS'e yazdırma arka plan biçimlendirmesini kaybediyor|Böcek|
 |CELLSJAVA-43224|Fiziksel bir yazıcıya yazdırırken sorun|Böcek|
 |CELLSJAVA-43241|Excel alanından görüntü oluştururken Çizgi Yüksekliği ve Kenarlık sorunu|Böcek|
 |CELLSJAVA-43209|SmartMarkers kullanılırken setRepeatFormulaWithSubtotal(true) beklenen sonuçları vermiyor|Böcek|
 |CELLSJAVA-43213|Aspose.Cells 20.6, Office 365'te (sürüm 2005 Derleme 12827.20268) form denetimleriyle iyi çalışmıyor|Böcek|
-|CELLSJAVA-43214|XLS'yi XLSX'e çevirirken bozuk bir XLSX dosyası oluşturuyor|Böcek|
+|CELLSJAVA-43214|XLS'i XLSX'e çevirirken bozuk bir XLSX dosyası üretiyor|Böcek|
 |CELLSJAVA-43216|XLS'den XLSX'e dönüştürme - şekil için yazı tipi kalınlığı ve konumu değiştirildi|Böcek|
 |CELLSJAVA-43228|Oluşturulan XLS korumalı görünümde|Böcek|
 |CELLSJAVA-43231|Değiştirmelerden sonra çıktı dosyasında hata|Böcek|
 |CELLSJAVA-43225|Hücreden dize değeri alınırken "java.lang.NullPointerException" istisnası|İstisna|
 |CELLSJAVA-43229|setKeepUnparsedData(false) seçeneğiyle XLSM dosyası yüklenirken istisna|İstisna|
 |CELLSJAVA-43238|NPE (java.lang.NullPointerException) ile hesaplama başarısız oluyor|İstisna|
-|CELLSJAVA-43199|HTML'ye kaydetme sırasında "java.lang.NegativeArraySizeException" istisnası|İstisna|
+|CELLSJAVA-43199|HTML'e kaydetme sırasında "java.lang.NegativeArraySizeException" istisnası|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

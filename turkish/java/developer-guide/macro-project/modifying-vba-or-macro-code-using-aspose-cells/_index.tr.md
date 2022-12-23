@@ -15,7 +15,7 @@ Aspose.Cells'i kullanarak VBA veya Makro Kodunu değiştirebilirsiniz. Aspose.Ce
 Bu makale, Aspose.Cells kullanarak kaynak Excel dosyası içindeki VBA veya Makro Kodunu nasıl değiştireceğinizi gösterecektir.
 
 {{% /alert %}} 
-## **Örnek**
+## **Örnek vermek**
 Aşağıdaki örnek kod, içinde aşağıdaki VBA veya Makro kodu bulunan kaynak Excel dosyasını yükler.
 
 {{< highlight "java" >}}

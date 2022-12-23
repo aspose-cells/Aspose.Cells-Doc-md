@@ -15,6 +15,6 @@ url: /tr/cpp/apply-conditional-formatting-in-worksheet/
 ## **Çalışma Sayfasına Koşullu Biçimlendirme Uygula**
  Aşağıdaki örnek kod, A1 ve B2 hücrelerinde Cell Değer koşullu biçimlendirmesinin nasıl ekleneceğini gösterir. Lütfen bkz[çıktı excel dosyası](23167004.xlsx) kod tarafından oluşturulan ve kodun üzerindeki etkisini açıklayan aşağıdaki ekran görüntüsü[çıktı excel dosyası](23167004.xlsx). A2 ve B2 hücresine 100'den büyük bir değer koyarsanız, A1 ve B2 hücresindeki Kırmızı dolgu rengi kaybolacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](apply-conditional-formatting-in-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheet_1.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet.cpp" >}}

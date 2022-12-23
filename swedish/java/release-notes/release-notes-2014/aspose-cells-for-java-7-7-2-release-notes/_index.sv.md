@@ -10,8 +10,8 @@ url: /sv/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java har uppdaterats till version 7.7.2 och vi är glada att kunna meddela att denna utgåva kommer med cirka 20 nya användbara förbättringar.
-Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+ Aspose.Cells for Java har uppdaterats till version 7.7.2 och vi är glada att kunna meddela att denna utgåva kommer med cirka 20 nya användbara förbättringar.
+Genom att använda Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
@@ -33,7 +33,7 @@ Förbättringar
 
 Buggar
 
-(CELLSJAVA-40711) - Axis.setTickLabelSpacing() fungerar inte för XLS-versionen
+(CELLSJAVA-40711) - Axis.setTickLabelSpacing() fungerar inte för version XLS
 (CELLSJAVA-40714) - Cell gränser återgavs på ogenomskinliga celler
 (CELLSJAVA-40710) - Mindre än lika med beräkningsfel
 (CELLSJAVA-40715) - Problem med parsning av jokertecken i formelberäkning
@@ -42,7 +42,7 @@ Buggar
 (CELLSJAVA-40729) - Utdrag av formaterat kinesiskt datum
 (CELLSJAVA-40728) - getStringValue() returnerar #VALUE!
 (CELLSJAVA-40722) - Validering fungerar inte efter konvertering till XLS-format
-(CELLSJAVA-40690) - XLSX till PDF: Understrykning nedanför hyperlänken sprids ut till intilliggande teckenpositioner
+(CELLSJAVA-40690) - XLSX till PDF: Understrykning nedan sprids hyperlänken till intilliggande teckenpositioner
 
 Undantag
 

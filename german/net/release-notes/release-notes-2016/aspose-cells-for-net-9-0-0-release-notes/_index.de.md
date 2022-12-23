@@ -10,41 +10,41 @@ url: /de/net/aspose-cells-for-net-9-0-0-release-notes/
 |:- |:- |:- |
 |CELLSNET-40617 | Lesen/Schreiben von Werten vom/zum ActiveX ComboBox-Steuerelement| Neue Funktion|
 |CELLSNET-41264 | Verwenden von Aspose.Cells.GridDesktop in der WPF-Anwendung| Neue Funktion|
-|CELLSNET-44681 | Der HTML-Import schlägt fehl, wenn das Skript-Tag CDATA verwendet| Erweiterung|
-|CELLSNET-44693 | Beim Konvertieren von HTML in XLSX fehlen Inhalte| Insekt|
-|CELLSNET-44650 | Hintergrund- oder Vordergrundfarben können nicht aus HTML konvertiert werden| Insekt|
+|CELLSNET-44681 | Der Import von HTML schlägt fehl, wenn das Skript-Tag CDATA verwendet| Erweiterung|
+|CELLSNET-44693 | Beim Umwandeln von HTML in XLSX fehlen Inhalte| Insekt|
+|CELLSNET-44650 | Hintergrund- oder Vordergrundfarben von HTML können nicht konvertiert werden| Insekt|
 |CELLSNET-44645 | Beim Doppelklicken auf einen beliebigen Wert der PivotTable in der Ausgabedatei wird eine Fehlermeldung angezeigt| Insekt|
-|CELLSNET-44644 | Die resultierende Datei wird beschädigt, wenn Sie die XLS-Datei öffnen und speichern| Insekt|
-|CELLSNET-44622 | In der endgültigen XLSX-Datei fehlen die Beschriftungsstile, während diese in der XLSX-Eingabe und dem Zwischen-HTML vorhanden sind| Insekt|
-|CELLSNET-44581 | Problem bei der Konvertierung von Spreadsheet in HTML: STYLE-Tag zwischen BODY- und HTML-Tags| Insekt|
+|CELLSNET-44644 |Die resultierende Datei wird beschädigt, wenn sie geöffnet wird, und speichern Sie die Datei XLS| Insekt|
+|CELLSNET-44622 | In der endgültigen XLSX-Datei fehlen die Beschriftungsstile, während diese in der Eingabe XLSX und der Zwischendatei HTML vorhanden sind| Insekt|
+|CELLSNET-44581 | Problem mit der Konvertierung von Spreadsheet in HTML: STYLE-Tag zwischen BODY- und HTML-Tags| Insekt|
 |CELLSNET-44718 |ICustomFunction funktioniert nicht mit [@columnName]| Insekt|
 |CELLSNET-44705 | Beim Berechnen von Formeln wird die falsche SUMME angezeigt| Insekt|
-|CELLSNET-44692 |API berechnet den Formelwert im Vergleich zu MS Excel falsch| Insekt|
+|CELLSNET-44692 | API berechnet den Formelwert im Vergleich zu MS Excel falsch| Insekt|
 |CELLSNET-44688 | Falsche Berechnung des Zellenwerts| Insekt|
 |CELLSNET-44684 | Falscher Wert aus Zelle beim Berechnen von Formeln| Insekt|
-|CELLSNET-44716 | Das PDF-Ergebnis stimmt nicht mit Excel zum Drucken von Titelzeilen überein| Insekt|
-|CELLSNET-44713 | Die Daten werden im Konvertierungsergebnis von PDF ausgeblendet| Insekt|
+|CELLSNET-44716 | PDF Ergebnis stimmt nicht mit Excel zum Drucken von Titelzeilen überein| Insekt|
+|CELLSNET-44713 | Die Daten sind im Konvertierungsergebnis von PDF versteckt| Insekt|
 |CELLSNET-44675 | Das Rendern in eine Bilddatei schlägt für ein Arbeitsblatt fehl| Insekt|
-|CELLSNET-44717 | Tabellenkalkulation zu XPS: Der Prozess wird nie abgeschlossen und nimmt zu viel Speicher in Anspruch| Insekt|
-|CELLSNET-44678 | Sparklines werden beim Rendern der Tabelle in PDF/Bild nicht richtig gerendert| Insekt|
+|CELLSNET-44717 | Tabellenkalkulation an XPS: Der Prozess wird nie abgeschlossen und nimmt zu viel Speicher in Anspruch| Insekt|
+|CELLSNET-44678 | Sparklines werden beim Rendern der Tabelle in PDF/image nicht richtig gerendert| Insekt|
 |CELLSNET-44654 | Die Methode Chart.Calculate() verdirbt das Diagrammbild| Insekt|
-|CELLSNET-44714 | Beim Speichern in Memorystream (SpreadsheetML) hängt sich der Prozess auf und nimmt viel Zeit in Anspruch| Insekt|
+|CELLSNET-44714 |Beim Speichern in Memorystream (SpreadsheetML) hängt sich der Prozess auf und nimmt viel Zeit in Anspruch| Insekt|
 |CELLSNET-44711 | Das Einblenden der durch Aspose.Cells ausgeblendeten Zeile funktioniert in Microsoft Excel nicht richtig| Insekt|
 |CELLSNET-44709 | Die Bildformel ist nach dem Entfernen und erneuten Einfügen des Bildes verschwunden| Insekt|
-|CELLSNET-44708 |Das erneute Einbetten der Präsentationsfolie in XLS führt bei einem Doppelklick zur Präsentationsansicht| Insekt|
-|CELLSNET-44696 | Linie mit Pfeilspitze wird in XLSX- und PDF-Formaten nicht vollständig gerendert| Insekt|
-|CELLSNET-44689 | Die Druckereinstellungen werden beim Öffnen und erneuten Speichern der XLS-Quelldatei geändert| Insekt|
-|CELLSNET-44683 |„pane“-XML in „customSheetView“-XML wird nicht aus Designer-Tabelle repliziert| Insekt|
+|CELLSNET-44708 | Das erneute Einbetten der Präsentationsfolie in XLS führt beim Doppelklick zur Präsentationsansicht| Insekt|
+|CELLSNET-44696 | Linie mit Pfeilspitze wird in den Formaten XLSX und PDF nicht vollständig gerendert| Insekt|
+|CELLSNET-44689 | Die Druckereinstellungen werden beim Öffnen und erneuten Speichern der Quelldatei XLS geändert| Insekt|
+|CELLSNET-44683 | „pane“-XML in „customSheetView“-XML wird nicht aus Designer-Tabelle repliziert| Insekt|
 |CELLSNET-44660 | Die Y- und X-Achse des Diagramms werden nach dem Laden und Speichern einer XLS-Datei fett angezeigt| Insekt|
-|CELLSNET-44658 | Die Textgröße der vertikalen Achsenbeschriftungen des Diagramms wird nach dem Laden und Speichern der XLS-Datei geändert| Insekt|
-|CELLSNET-44691 | NullReferenceException bei Workbook ctor aufgrund von display:none im Quell-HTML| Ausnahme|
+|CELLSNET-44658 | Die Textgröße der vertikalen Achsenbeschriftungen des Diagramms wird nach dem Laden und Speichern der Datei XLS geändert| Insekt|
+|CELLSNET-44691 | NullReferenceException bei Workbook ctor aufgrund von display:none in Quelle HTML| Ausnahme|
 |CELLSNET-44685 | Die Methode Workbook.CalculateFormula() löst eine Ausnahme für die Excel-Quelldatei aus| Ausnahme|
 |CELLSNET-44712 | Ausnahme: "Ungültiger Text des definierten Namens." beim Öffnen einer Excel-Datei| Ausnahme|
 ### **2) Aspose.Cells Grid-Suite**
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44667 | Cell Schattierung aufgrund bedingter Formatierung wird auf der GridWeb-Oberfläche nicht angezeigt| Insekt|
+|CELLSNET-44667 |Cell Schattierung aufgrund bedingter Formatierung wird auf der GridWeb-Oberfläche nicht angezeigt| Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.
 #### **Fügt die Shape.TextOptions-Eigenschaft hinzu**

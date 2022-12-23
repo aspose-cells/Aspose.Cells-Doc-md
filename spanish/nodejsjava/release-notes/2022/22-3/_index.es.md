@@ -15,15 +15,15 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-22-3-release-notes/
 |CELLSJAVA-44369| la altura de la forma no es correcta|
 |CELLSJAVA-44366|Copiar el contenido de la hoja en una nueva página de hoja y guardarlo como html hace que el estilo de la fórmula matemática de Excel sea anormal|
 |CELLSJAVA-44408|El formato de porcentaje de Cell se pierde cuando estamos expandiendo esas 2 filas que hemos cambiado|
-|CELLSJAVA-44341|Cell el ancho no es correcto en el DOCX de salida en la conversión de Excel a DOCX|
+|CELLSJAVA-44341|Cell el ancho no es correcto en la conversión de salida DOCX en Excel a DOCX|
 |CELLSJAVA-44383|El formato condicional dejó de funcionar después de agregar propiedades personalizadas|
 |CELLSJAVA-44370|El archivo de Excel se corrompe cuando se abre y se guarda con Aspose.Cells|
-|CELLSJAVA-44344| Problema con la copia horizontal de rangos en la salida XLSX|
+|CELLSJAVA-44344|Problema con la copia horizontal de rangos en la salida XLSX|
 |CELLSJAVA-44363| la altura del encabezado de la fila no coincide con el contenido de la fila en el archivo con panel congelado|
 |CELLSJAVA-44349|la imagen/forma se mantendrá después de reiniciar el servidor para GridWeb|
 |CELLSJAVA-44367|El color del gráfico de columnas se vuelve blanco cuando se convierte a html|
 |CELLSJAVA-44328| Algunas etiquetas de datos de los gráficos de Excel se pierden al guardar el archivo de Excel como HTML|
-|CELLSJAVA-44193|El ángulo de los elementos del eje de categoría en el gráfico es diferente en la conversión de Excel a PDF|
+|CELLSJAVA-44193|El ángulo de los elementos del eje de categoría en el gráfico es diferente en Excel a la conversión PDF|
 |CELLSJAVA-44314|Etiquetas de eje de categoría de gráfico incorrectas en la representación de gráfico a imagen|
 |CELLSJAVA-44332|Cell enlace subrayado no se puede eliminar al convertir xlsx a html|
 |CELLSJAVA-44323|Excepción al agregar una línea de firma|

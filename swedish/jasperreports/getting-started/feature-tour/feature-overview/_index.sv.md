@@ -12,7 +12,7 @@ Aspose.Cells for JasperReports är en produkt för export av rapporter från Jas
 
 |**Funktion** |**Beskrivning** |
 |:- |:- |
-|[XLS eller XLSX Export](/cells/sv/jasperreports/xls-or-xlsx-export/)| Exportera rapporter som Microsoft Excel XLS-format från din applikation utan att använda Microsoft Excel.|
+|[XLS eller XLSX Export](/cells/sv/jasperreports/xls-or-xlsx-export/)|Exportera rapporter som Microsoft Excel XLS-format från din applikation utan att använda Microsoft Excel.|
 |[Hög trohet mot rapportdesignen](/cells/sv/jasperreports/high-fidelity-to-the-report-design/)| Layouten och utseendet på en XLS/XLSX-rapport matchar originalet, liknande PDF eller andra format.|
 |[Enkel och lätt implementering](/cells/sv/jasperreports/easy-and-lightweight-deployment/)| Aspose.Cells för[Jasper rapporterar](https://community.jaspersoft.com/project/jasperreports-library) är en[Jasper rapporterar](https://community.jaspersoft.com/project/jasperreports-library) och JasperServer exporter till Microsoft Excel-format.|
 |[Enkel och prisvärd licensiering](/cells/sv/jasperreports/simple-and-affordable-licensing/)| Vi tillhandahåller prisvärda licenser som lätt kan användas i källkoden|

@@ -14,13 +14,13 @@ Le opzioni di impostazione della pagina sono completamente supportate in Aspose.
 
 ## **Impostazione delle opzioni della pagina**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 La classe Worksheet fornisce la proprietà PageSetup, utilizzata per impostare le opzioni di impostazione della pagina. Infatti, la proprietà PageSetup è un oggetto della classe PageSetup che rende possibile impostare le opzioni di layout di pagina per un foglio di lavoro stampato. La classe PageSetup fornisce varie proprietà utilizzate per impostare le opzioni di impostazione della pagina. Alcune di queste proprietà sono discusse di seguito.
 
 ### **Orientamento della pagina**
 
- L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metodo. Il[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metodo prende il[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumerazione come parametro. I membri del[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)enumerazione sono elencati di seguito.
+L'orientamento della pagina può essere impostato su verticale o orizzontale utilizzando il[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metodo. Il[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metodo prende il[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumerazione come parametro. I membri del[**TipoOrientamentoPagina**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumerazione sono elencati di seguito.
 
 |**Tipi di orientamento della pagina**|**Descrizione**|
 |:- |:- |
@@ -113,7 +113,7 @@ Aspose.Cells supporta completamente le opzioni di impostazione della pagina di M
 
 ![cose da fare:immagine_alt_testo](page-setup-features_2.png)
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)che rappresenta un file Microsoft Excel. La classe Workbook contiene la raccolta Worksheets che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. La classe Workbook contiene la raccolta Worksheets che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
  La classe Worksheet fornisce la proprietà PageSetup, utilizzata per impostare le opzioni di impostazione della pagina. L'attributo PageSetup è un oggetto di[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class che rende possibile impostare diverse opzioni di layout di pagina per un foglio di lavoro stampato. La classe PageSetup fornisce varie proprietà e metodi utilizzati per impostare le opzioni di impostazione della pagina.
 
@@ -136,7 +136,7 @@ Aspose.Cells supporta completamente le opzioni di impostazione della pagina di M
 
 ### **Margini di intestazione e piè di pagina**
 
-Imposta i margini di intestazione e piè di pagina con[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) membri come[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) e[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Imposta i margini di intestazione e piè di pagina con[**Impostazione della pagina**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) membri come[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) e[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -201,7 +201,7 @@ Dopo aver eseguito il codice e aperto il file, controlla l'intestazione del fogl
 
 ## **Impostazione delle opzioni di stampa**
 
-Le impostazioni di impostazione della pagina di Microsoft Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro. Queste opzioni di stampa consentono agli utenti di:
+Microsoft Le impostazioni di impostazione della pagina di Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro. Queste opzioni di stampa consentono agli utenti di:
 
 - Selezionare un'area di stampa specifica su un foglio di lavoro.
 - Stampa titoli.

@@ -39,7 +39,7 @@ La edición Professional ahora incluye todas las funciones que estaban disponibl
 
 - El método AutoFitColumn puede causar StackOverflowException cuando se llama muchas veces.
  Error al guardar un archivo con muchas fórmulas
- Rango con nombre y otros problemas en la conversión de un archivo de Excel a un archivo de hoja de cálculo ML
+ Rango con nombre y otros problemas en la conversión de un archivo de Excel a un archivo SpreadsheetML
  Configuración de estilo de fila y columna
  Configuración del formato del número del eje del valor del gráfico
  Leer caracteres escandinavos en los comentarios.

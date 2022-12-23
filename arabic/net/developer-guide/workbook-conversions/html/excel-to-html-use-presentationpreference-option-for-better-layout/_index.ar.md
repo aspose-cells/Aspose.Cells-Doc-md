@@ -1,5 +1,5 @@
 ﻿---
-title: من Excel إلى HTML - استخدم خيار العرض التقديمي المفضل لتخطيط أفضل
+title: Excel إلى HTML - استخدم خيار العرض التقديمي المفضل لتخطيط أفضل
 type: docs
 weight: 220
 url: /ar/net/excel-to-html-use-presentationpreference-option-for-better-layout/
@@ -10,7 +10,7 @@ url: /ar/net/excel-to-html-use-presentationpreference-option-for-better-layout/
 
 {{% /alert %}} 
 
-يرجى الاطلاع على نموذج التعليمات البرمجية أدناه الذي يوضح كيفية عرض ملف HTML من تقرير Excel مع تشغيل تفضيل العرض التقديمي.
+الرجاء الاطلاع على نموذج التعليمات البرمجية أدناه الذي يوضح كيفية عرض ملف HTML من تقرير Excel مع تشغيل تفضيل العرض التقديمي.
 
 
 

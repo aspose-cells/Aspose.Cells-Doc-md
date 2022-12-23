@@ -11,7 +11,7 @@ Bu makale, resimlerin nasıl ekleneceğini ve belirli hücrelerin içeriğini g�
 ## **Resim Ekleme**
 
 Bir e-tabloya resim eklemek çok kolaydır. Yalnızca birkaç satır kod alır:
- basitçe[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) yöntemi[**resimler**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesne). bu[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+ basitçe[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) yöntemi[**resimler**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) nesne). bu[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
 
 - **Sol üst sıra dizini**, sol üst satırın dizini.
 - **Sol üst sütun dizini**, sol üst sütunun dizini.
@@ -34,7 +34,7 @@ Aspose.Cells'i kullanarak resimlerin konumunu kontrol etmenin iki olası yolu va
 
 ### **Mutlak Konumlandırma**
 
- Geliştiriciler ayrıca resimleri kesinlikle kullanarak konumlandırabilir.[**Ayrıldı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) ve[**Tepe**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) özellikleri[**Resim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)nesne. Bu örnek, F6 hücresine soldan 60 piksel ve hücrenin üstünden 10 piksel uzaklıkta bir resim yerleştirir.
+ Geliştiriciler ayrıca resimleri kesinlikle kullanarak konumlandırabilir.[**Sol**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) ve[**Tepe**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) özellikleri[**Resim**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)nesne. Bu örnek, F6 hücresine soldan 60 piksel ve hücrenin üstünden 10 piksel uzaklıkta bir resim yerleştirir.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-AbsolutePositioning-1.cs" >}}
 

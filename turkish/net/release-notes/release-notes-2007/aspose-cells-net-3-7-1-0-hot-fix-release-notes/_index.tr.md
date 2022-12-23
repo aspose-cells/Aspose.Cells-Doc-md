@@ -19,7 +19,7 @@ url: /tr/net/aspose-cells-net-3-7-1-0-hot-fix-release-notes/
 - Destek grafiği GapWidth ayarı
 - SpreadsheetML'de köprü yükleme desteği
 - Azaltılmış çıktı dosyası boyutu
-- Optimize edilmiş CSV dosyası işleme
+- Optimize edilmiş CSV dosya işleme
 - Grafik düz çizgisini ayarlamadaki bir hata düzeltildi
 
 

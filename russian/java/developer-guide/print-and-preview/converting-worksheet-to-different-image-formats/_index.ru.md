@@ -32,15 +32,15 @@ Aspose.Cells for Java также поддерживает преобразова
 
 ## **Преобразование рабочего листа в SVG**
 
- SVG означает**Масштабируемая векторная графика**. SVG — это спецификация, основанная на стандартах XML для двумерной векторной графики. Это открытый стандарт, который разрабатывается Консорциумом World Wide Web (W3C) с 1999 года.
+ SVG означает**Масштабируемая векторная графика**SVG — это спецификация, основанная на стандартах XML для двумерной векторной графики. Это открытый стандарт, который разрабатывается Консорциумом World Wide Web (W3C) с 1999 года.
 
-С момента выпуска v7.1.0,**Aspose.Cells for Java** может конвертировать рабочие листы в изображения SVG.
+ С момента выпуска v7.1.0,**Aspose.Cells for Java** может конвертировать рабочие листы в изображения SVG.
 
 Чтобы использовать эту функцию, вам необходимо импортировать пространство имен com.aspose.cells в вашу программу или проект. Он имеет несколько полезных классов для рендеринга и печати, например,**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**, **[ImageOrPrintOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)**, **[WorkbookRender] (https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender)**, и другие.
 
 **[com.aspose.cells.ImageOrPrintOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** class указывает, что рабочий лист будет сохранен в формате SVG.
 
-**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**класс принимает объект**[ImageOrPrintOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** в качестве параметра, который задает формат сохранения в формате SVG.
+**[SheetRender] (https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender)**класс принимает объект**[ImageOrPrintOptions] (https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)** в качестве параметра, который устанавливает формат сохранения в формат SVG.
 
 В следующем фрагменте кода показано, как преобразовать рабочий лист в файле Excel в файл изображения SVG.
 
@@ -48,7 +48,7 @@ Aspose.Cells for Java также поддерживает преобразова
 
 ### **Отобразить активный рабочий лист в рабочей книге**
 
-Простой способ преобразовать активный рабочий лист в рабочую книгу — установить индекс активного листа, а затем сохранить рабочую книгу как SVG. Он отобразит активный лист в SVG. Следующий пример кода демонстрирует эту функцию:
+Простой способ преобразовать активный лист в книгу — установить индекс активного листа, а затем сохранить книгу как SVG. При этом активный лист будет отображаться как SVG. Следующий пример кода демонстрирует эту функцию:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-ConvertActiveWorksheetToSVG-1.java" >}}
 

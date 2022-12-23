@@ -6,11 +6,11 @@ url: /tr/java/show-leading-apostrophe-in-cells/
 ---
 ## **Hücrelerde baştaki kesme işaretini göster**
 
-Microsoft Excel'de, hücrenin değerindeki baştaki kesme işareti gizlenmiştir. Aspose.Cells kesme işaretini varsayılan olarak görüntüleme özelliği sağlar. Bunun için API şunları sağlar:[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)Emlak. Bu özellik, ayarlanıp ayarlanmadığını gösterir.[**AlıntıÖnek**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)hücreye tek bir alıntı ile başlayan dize değeri girerken özelliği. ayarlamak[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)mülkiyet**yanlış**çıktı excel dosyasında önde gelen kesme işaretini görüntüler.
+Microsoft Excel'de, hücrenin değerindeki baştaki kesme işareti gizlenmiştir. Aspose.Cells kesme işaretini varsayılan olarak görüntüleme özelliği sağlar. Bunun için API şunları sağlar:[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)Emlak. Bu özellik, ayarlanıp ayarlanmadığını gösterir.[**AlıntıÖnek**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)hücreye tek bir alıntı ile başlayan dize değeri girerken özelliği. ayarlamak[**Workbook.Settings.QuotePrefixToStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)mülkiyet**YANLIŞ**çıktı excel dosyasında önde gelen kesme işaretini görüntüler.
 
 Aşağıdaki ekran görüntüsü, görünür kesme işaretiyle çıktı excel dosyasını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](show-leading-apostrophe-in-cells_1.jpg)
+![yapılacaklar:resim_alternatif_metin](show-leading-apostrophe-in-cells_1.jpg)
 
 Aşağıdaki kod parçacığı, kaynak excel dosyasına Akıllı İşaretleyiciler ile veri ekleyerek bunu gösterir. Kaynak ve çıktı excel dosyaları referans için eklenmiştir.
 

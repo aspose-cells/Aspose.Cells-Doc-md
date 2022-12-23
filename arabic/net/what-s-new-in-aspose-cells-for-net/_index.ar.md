@@ -9,7 +9,7 @@ url: /ar/net/what-s-new-in-aspose-cells-for-net/
 
 ## Aspose.Cells for .NET 22.12
 
-* دعم تصدير ملفات Excel إلى JSON بهيكل هرمي متعدد الطبقات
+* دعم تصدير ملف Excel إلى JSON بهيكل هرمي متعدد الطبقات
 
 ## Aspose.Cells for .NET 22.11
 

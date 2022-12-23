@@ -28,7 +28,7 @@ Cuando se copia una fila (o columna), también se copian los datos contenidos en
 1.  En la pestaña Inicio, haga clic en**Copiar**.
 1.  Haga clic en la primera celda en el área donde desea**pegar** lo que copiaste.
 1.  En la pestaña Inicio, haga clic en la flecha junto a**Pegar** y luego seleccione**Pegar** Especial.
-1.  Selecciona el**opciones** usted quiere.
+1.  Selecciona el**opciones** quieres.
 
 ## **Usando Aspose.Cells**
 
@@ -36,15 +36,15 @@ Cuando se copia una fila (o columna), también se copian los datos contenidos en
 
  Aspose.Cells proporciona el[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)clase. Este método copia todos los tipos de datos, incluidas fórmulas, valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la fila de origen a la fila de destino.
 
- los[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)método toma los siguientes parámetros:
+ Él[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)método toma los siguientes parámetros:
 
 -  la fuente[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objeto,
 - el índice de la fila de origen, y
 - el índice de la fila de destino.
 
- Utilice este método para copiar una fila dentro de una hoja o en otra hoja. los[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)El método funciona de manera similar a Microsoft Excel. Entonces, por ejemplo, no necesita establecer la altura de la fila de destino explícitamente, ese valor también se copia.
+ Utilice este método para copiar una fila dentro de una hoja o en otra hoja. Él[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)El método funciona de manera similar a Microsoft Excel. Entonces, por ejemplo, no necesita establecer la altura de la fila de destino explícitamente, ese valor también se copia.
 
-El siguiente ejemplo muestra cómo copiar una fila en una hoja de trabajo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
+El siguiente ejemplo muestra cómo copiar una fila en una hoja de cálculo. Utiliza un archivo de Excel de plantilla Microsoft y copia la segunda fila (completa con datos, formato, comentarios, imágenes, etc.) y la pega en la fila 12 en la misma hoja de trabajo.
 
  Puede omitir el paso que obtiene la altura de la fila de origen utilizando el[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) y luego establece la altura de la fila de destino usando el[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) método como el[**Copiar fila**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)El método se ocupa automáticamente de la altura de la fila.
 
@@ -70,7 +70,7 @@ También puede copiar varias filas en un nuevo destino mientras usa el[**Cells.C
 
  Aspose.Cells proporciona el[**Copiar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) metodo de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)clase, este método copia todo tipo de datos, incluidas fórmulas, con referencias actualizadas, y valores, comentarios, formatos de celda, celdas ocultas, imágenes y otros objetos de dibujo de la columna de origen a la columna de destino.
 
- los[**Copiar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)método toma los siguientes parámetros:
+ Él[**Copiar columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)método toma los siguientes parámetros:
 
 -  la fuente[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objeto,
 - índice de la columna fuente, y

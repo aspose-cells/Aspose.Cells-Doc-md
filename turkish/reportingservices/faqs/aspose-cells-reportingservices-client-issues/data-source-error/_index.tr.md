@@ -4,10 +4,10 @@ type: docs
 weight: 20
 url: /tr/reportingservices/data-source-error/
 ---
-##### **Tanım**
+##### **Açıklama**
  Bir rapor yayınlarken, Aspose.Cells.ReportingServices İstemcisi bir hata üretir:
 
-![yapılacaklar:resim_alternatif_Metin](data-source-error_1.png)
+![yapılacaklar:resim_alternatif_metin](data-source-error_1.png)
 ##### **Çözüm**
 {{% alert color="primary" %}} 
 
@@ -15,6 +15,6 @@ url: /tr/reportingservices/data-source-error/
 1.  Seçme**Veri kaynağını paylaşın**.
 1.  Raporu yeniden yayınlayın.
 
-![yapılacaklar:resim_alternatif_Metin](data-source-error_2.png)
+![yapılacaklar:resim_alternatif_metin](data-source-error_2.png)
 
 {{% /alert %}}

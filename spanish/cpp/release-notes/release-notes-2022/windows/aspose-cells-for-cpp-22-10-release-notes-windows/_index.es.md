@@ -12,4 +12,4 @@ Esta página contiene notas de la versión para Aspose.Cells for C++ 22.10 para 
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSCPP-943| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-943| Funciones de sincronización con la versión .Net|Soporte|

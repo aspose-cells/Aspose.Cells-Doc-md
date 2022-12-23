@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-532 | La valeur des délimiteurs dans Aspose.Cells.ReportingServices.xml semble être incorrecte.| Punaise|
 |CELLSRS-579 | Prise en charge de l'exportation du rapport au format EMF.|Nouvelle fonctionnalité|

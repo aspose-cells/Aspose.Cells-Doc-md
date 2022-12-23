@@ -15,9 +15,9 @@ Geliştiricilerin çabalarından tasarruf etmek için Aspose.Cells.GridWeb bazı
 
 |**stiller**|**Renk uyumu**|
 |:- |:- |
-|Standart|Gümüş|
+|Standart|Gümüş rengi|
 |Renkli1|Gül|
-|renkli2|Mavi|
+|Renkli2|Mavi|
 |Profesyonel1|camgöbeği|
 |Profesyonel2|tekrar camgöbeği|
 |Geleneksel1|Karanlık|
@@ -42,7 +42,7 @@ GridWeb denetimi, geliştiricilerin istenen herhangi bir hazır ayar stilini ata
 
 **Üzerine Colorful1 stili uygulanmış GridWeb denetimi** 
 
-![yapılacaklar:resim_alternatif_Metin](apply-styles-to-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](apply-styles-to-gridweb_1.png)
 
 
 
@@ -60,7 +60,7 @@ GridWeb denetimi, denetimin her iki başlık çubuğuna da bir stil uygulayan He
 
 **Başlık Çubuğunun değiştirilmiş stili** 
 
-![yapılacaklar:resim_alternatif_Metin](apply-styles-to-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](apply-styles-to-gridweb_2.png)
 
 
 
@@ -70,7 +70,7 @@ GridWeb denetimi, denetimin her iki başlık çubuğuna da bir stil uygulayan He
 
 **Etkin ve etkin olmayan sekme çubuklarının değiştirilmiş stilleri** 
 
-![yapılacaklar:resim_alternatif_Metin](apply-styles-to-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](apply-styles-to-gridweb_3.png)
 
 Yukarıdaki şekilde, Sayfa4 etkin sekmedir, bu nedenle aşağıdaki örnek kodda tanımlandığı gibi görünümü diğer sekmelerden farklıdır.
 
@@ -109,7 +109,7 @@ Aspose.Cells.GridWeb Designer kullanarak stil dosyası yüklemek veya kaydetmek 
 ÖNEMLİ: Stil dosyasının GridWeb kontrolüne yüklenmesi, kontrol hücrelerinin biçimlendirme ayarlarını etkilemez.
 
 {{% /alert %}} 
-### **XML Stil Şablonunun Standart Formatı**
+### **XML Stil Şablonunun Standart Biçimi**
 {{< highlight "java" >}}
 
  <ViewerStyleTemplate SelectCellColor="Black" FrameTableStyle-BorderStyle="Solid" FrameTableStyle-LayoutFixed="Fixed" FrameTableStyle-BorderWidth="1px" FrameTableStyle-BorderColor="Gray" FrameTableStyle-BorderCollapse="Collapse" FrameTableStyle-BackColor="White" SelectCellBgColor="#EEEEFF" HeaderBarWidth="30pt" ScrollBarBaseColor="" HeaderBarStyle-LeftBorderStyle-BorderStyle="Solid" HeaderBarStyle-LeftBorderStyle-BorderWidth="1px" HeaderBarStyle-LeftBorderStyle-BorderColor="White" HeaderBarStyle-VerticalAlign="Middle" HeaderBarStyle-RightBorderStyle-BorderStyle="Solid" HeaderBarStyle-RightBorderStyle-BorderWidth="1px" HeaderBarStyle-RightBorderStyle-BorderColor="Gray" HeaderBarStyle-BorderWidth="1px" HeaderBarStyle-Font-Size="10pt" HeaderBarStyle-Font-Names="Arial" HeaderBarStyle-BorderColor="Gray" HeaderBarStyle-BorderStyle="Solid" HeaderBarStyle-HorizontalAlign="Center" HeaderBarStyle-ForeColor="Black" HeaderBarStyle-TopBorderStyle-BorderStyle="Solid" HeaderBarStyle-TopBorderStyle-BorderWidth="1px" HeaderBarStyle-TopBorderStyle-BorderColor="White" HeaderBarStyle-BackColor="#E0E0E0" HeaderBarStyle-BottomBorderStyle-BorderStyle="Solid" HeaderBarStyle-BottomBorderStyle-BorderWidth="1px" HeaderBarStyle-BottomBorderStyle-BorderColor="Gray" HeaderBarStyle-Wrap="False" ActiveHeaderColor="Black" HeaderBarTableStyle-LayoutFixed="Fixed" HeaderBarTableStyle-BorderWidth="0px" HeaderBarTableStyle-BorderCollapse="Separate" HeaderBarHeight="15pt" ActiveTabStyle-Height="15pt" ActiveTabStyle-BorderWidth="1px" ActiveTabStyle-Font-Size="10pt" ActiveTabStyle-Font-Names="Arial" ActiveTabStyle-BorderColor="Gray" ActiveTabStyle-BorderStyle="Solid" ActiveTabStyle-ForeColor="Black" ActiveTabStyle-BackColor="White" ActiveTabStyle-Wrap="False" ActiveCellColor="Black" DefaultGridLineColor="Silver" ViewTableStyle-LayoutFixed="Fixed" ViewTableStyle-BorderWidth="0px" ViewTableStyle-BorderCollapse="Collapse" ActiveCellBgColor="#DDDDFF" TabStyle-Height="15pt" TabStyle-BorderWidth="1px" TabStyle-Font-Size="10pt" TabStyle-Font-Names="Arial" TabStyle-BorderColor="Gray" TabStyle-BorderStyle="Solid" TabStyle-ForeColor="Black" TabStyle-BackColor="#E0E0E0" TabStyle-Wrap="False" ActiveHeaderBgColor="#F2F2F2" ScrollBarArrowColor="" BottomTableStyle-LayoutFixed="Fixed" BottomTableStyle-Height="20pt" BottomTableStyle-BorderWidth="0px" BottomTableStyle-BorderCollapse="Collapse" BottomTableStyle-TopBorderStyle-BorderStyle="Solid" BottomTableStyle-TopBorderStyle-BorderWidth="1px" BottomTableStyle-TopBorderStyle-BorderColor="Gray" BottomTableStyle-BackColor="#F0F0F0" />

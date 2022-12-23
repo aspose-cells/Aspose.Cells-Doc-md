@@ -1,16 +1,16 @@
 ﻿---
-title: Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'sinde Boş Sayfadan Kaçının
+title: Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'de Boş Sayfadan Kaçının
 type: docs
 weight: 30
 url: /tr/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Excel dosyası boş olduğunda ve kullanıcı bunu Aspose.Cells kullanarak PDF'ye kaydettiğinde, çıktı PDF'sinde boş bir sayfa oluşturur. Bazen, bu varsayılan davranış istenmeyen bir durumdur. Aspose.Cells sağlar[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) Bu sorunla başa çıkmak için mülk. olarak ayarlarsanız**yanlış**, sonra[**Hücre İstisnası**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)Çıktı PDF'sinde yazdırılacak hiçbir şey olmadığında ortaya çıkar.
+Excel dosyası boş olduğunda ve kullanıcı Aspose.Cells'i kullanarak PDF'e kaydettiğinde, PDF çıktısında boş bir sayfa oluşturur. Bazen, bu varsayılan davranış istenmeyen bir durumdur. Aspose.Cells sağlar[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) Bu sorunla başa çıkmak için mülk. olarak ayarlarsanız**YANLIŞ**, o zamanlar[**Hücre İstisnası**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)PDF çıktısında yazdırılacak hiçbir şey olmadığında gerçekleşir.
 
-## **Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'sinde Boş Sayfadan Kaçının**
+## **Yazdırılacak Hiçbir Şey Olmadığında Çıktı PDF'de Boş Sayfadan Kaçının**
 
-Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından bunu ayarladıktan sonra çıktı PDF'si olarak kaydeder.[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) olarak mülkiyet**yanlış**. Çıktı PDF'sinde yazdırılacak bir şey olmadığından,[**Hücre İstisnası**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)aşağıda gösterildiği gibi gerçekleşir.
+Aşağıdaki örnek kod, boş bir çalışma kitabı oluşturur ve ardından bunu ayarladıktan sonra PDF çıktısı olarak kaydeder.[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) olarak mülkiyet**YANLIŞ**. PDF çıktısında yazdırılacak bir şey olmadığından,[**Hücre İstisnası**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)aşağıda gösterildiği gibi gerçekleşir.
 
 ## **Basit kod**
 

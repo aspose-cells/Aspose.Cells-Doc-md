@@ -14,11 +14,11 @@ url: /sv/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Nya egenskaper
 
- 41522 - Analysera scenarier i XLS till XLSM-konvertering
+ 41522 - Analysera scenarier i XLS till XLSM konvertering
 
  Prestanda
 
- 41526 - XLSX till PDF-konvertering hänger sig
+ 41526 - XLSX till PDF konvertering hänger sig
 
  Undantag
 
@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 - Problem med automatisk storlek på textrutan
 
- 41751 - Matrisformel(er) förlorade vid Spara
+41751 - Matrisformel(er) förlorade vid Spara
 
  41787 - Filen är skadad vid Spara
 

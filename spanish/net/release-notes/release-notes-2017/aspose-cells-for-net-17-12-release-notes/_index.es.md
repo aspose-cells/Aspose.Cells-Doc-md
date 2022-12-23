@@ -12,9 +12,9 @@ Esta página contiene notas de la versión para Aspose.Cells for .NET 17.12.
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-45358|Obtenga CSS por separado del marcado HTML al exportar a HTML usando flujos|Nueva caracteristica|
+|CELLSNET-45358|Obtenga CSS por separado del marcado HTML cuando exporte a HTML usando secuencias|Nueva caracteristica|
 |CELLSNET-45697|Implementar Cell.FormulaLocal similar a Microsoft Interop FormulaLocal|Nueva caracteristica|
-|CELLSNET-45801|Compatibilidad con complementos de Office en la representación de Excel a PDF|Nueva caracteristica|
+|CELLSNET-45801|Compatibilidad con complementos de Office en Excel hasta la representación PDF|Nueva caracteristica|
 |CELLSNET-45796|Marcadores inteligentes: cómo completar automáticamente los datos en la segunda hoja de trabajo si los datos son demasiado grandes y no se pueden insertar en una sola hoja|Nueva caracteristica|
 |CELLSNET-45791|Actualice "Mantener el historial de cambios" al compartir el libro de trabajo|Nueva caracteristica|
 |CELLSNET-45746|El texto de las celdas se superpone con otras celdas en Aspose.Cells. GridDesktop|Nueva caracteristica|
@@ -23,11 +23,11 @@ Esta página contiene notas de la versión para Aspose.Cells for .NET 17.12.
 |CELLSNET-45794|La fórmula de matriz que involucra "MEDIANA" se calcula como un espacio en blanco|Insecto|
 |CELLSNET-45779|Cell se cambia la alineación del texto en la imagen convertida|Insecto|
 |CELLSNET-45772|Una página perdida al convertir la hoja de trabajo a la imagen|Insecto|
-|CELLSNET-45764|El estado de DataBars es incorrecto en el PDF de salida|Insecto|
+|CELLSNET-45764|El estado de DataBars es incorrecto en la salida PDF|Insecto|
 |CELLSNET-45785|La posición de las etiquetas de datos de la serie "Nominale in Essere (mln)" es incorrecta|Insecto|
 |CELLSNET-45775|Falta la etiqueta del segundo eje vertical al convertir el gráfico en imagen|Insecto|
 |CELLSNET-45762|Chart.Calculate está tardando más y no funciona|Insecto|
-|CELLSNET-45799|La ruta absoluta cambia a la ruta relativa al volver a guardar un archivo XLSX|Insecto|
+|CELLSNET-45799|La ruta absoluta cambia a ruta relativa al volver a guardar un archivo XLSX|Insecto|
 |CELLSNET-45797|SetArrayFormula: no se trata como una fórmula de matriz|Insecto|
 |CELLSNET-45792|Las celdas combinadas se pierden al copiar y pegar la columna en las siguientes columnas|Insecto|
 |CELLSNET-45784|Insertar una columna hace que MS Excel muestre un mensaje de error|Insecto|
@@ -50,9 +50,9 @@ Obtiene y establece el prefijo del nombre del tipo css, como tr, col, td, etc. E
 #### **Agrega la propiedad Cell.FormulaLocal**
 Obtiene la fórmula formateada local que puede variar de acuerdo con las diferentes configuraciones regionales para separadores, nombres integrados, nombres de funciones, etc. Esas configuraciones regionales son dependientes.
 #### **Agrega el método GlobalizationSettings.GetLocalFunctionName(string standardName)**
-Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dada.
+Obtiene el nombre de la función dependiente de la configuración regional de acuerdo con el nombre de la función estándar dado.
 #### **Agrega el método GlobalizationSettings.GetLocalBuiltInName(string standardName)**
-Obtiene el texto dependiente de la configuración regional para el nombre integrado de acuerdo con el texto estándar proporcionado.
+Obtiene el texto dependiente de la configuración regional para el nombre integrado de acuerdo con el texto estándar dado.
 #### **Agrega la propiedad GlobalizationSettings.ListSeparator**
 Obtiene el separador de lista, parámetros de función, etc.
 #### **Agrega la propiedad GlobalizationSettings.RowSeparatorOfFormulaArray**
@@ -79,7 +79,7 @@ Representa la forma de la extensión web.
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
 - [Autocompletar datos de marcador inteligente en otras hojas de trabajo si los datos son demasiado grandes](/cells/es/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Exportar hoja de trabajo CSS por separado en HTML de salida](/cells/es/net/export-worksheet-css-separately-in-output/)
+- [Exportar hoja de trabajo CSS por separado en la salida HTML](/cells/es/net/export-worksheet-css-separately-in-output/)
 - [Implementar Cell.FormulaLocal similar a Excel VBA Range.FormulaLocal](/cells/es/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Estilos de elementos de tabla de prefijo con la propiedad HtmlSaveOptions.TableCssId](/cells/es/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Procesar complementos de Office al convertir Excel a Pdf](/cells/es/net/render-office-add-ins-while-converting-excel-to-pdf/)

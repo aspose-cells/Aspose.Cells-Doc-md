@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /fr/reportingservices/data-source-error/
 ---
-##### **La description**
+##### **Description**
  Lors de la publication d'un rapport, Aspose.Cells.ReportingServices Client génère une erreur :
 
 ![tâche : image_autre_texte](data-source-error_1.png)

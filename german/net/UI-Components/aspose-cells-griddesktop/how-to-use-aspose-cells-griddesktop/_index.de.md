@@ -27,7 +27,7 @@ Nachdem Sie die obigen Schritte ausgeführt haben, wird eine Fensteranwendung mi
 ### **Hinzufügen des GridDesktop-Steuerelements zum Formular**
  Ziehen Sie das Steuerelement Aspose.Cells.GridDesktop per Drag & Drop aus der Toolbox in das Formular. Danach erscheint auf dem Formular ein Steuerelement, mit dem Sie verschiedene Aktionen ausführen können, z**Größe ändern**, **seine Eigenschaften ändern**, **etc**.
 ### **Führen Sie die Anwendung aus**
- Führen Sie schließlich die Anwendung aus, indem Sie auf drücken**Strg+F5** oder klicken Sie auf die**Anfang** Taste. Wenn die Anwendung ausgeführt wird, sehen wir ein Formular, das ein leeres Aspose.Cells.GridDesktop-Steuerelement enthält. Jetzt können Sie Zellen Werte hinzufügen, indem Sie darauf klicken. Der folgende Screenshot zeigt, wie Ihre Anwendung letztendlich aussehen wird.
+ Führen Sie schließlich die Anwendung aus, indem Sie auf drücken**Strg+F5** oder klicken Sie auf die**Start** Knopf. Wenn die Anwendung ausgeführt wird, sehen wir ein Formular, das ein leeres Aspose.Cells.GridDesktop-Steuerelement enthält. Jetzt können Sie Zellen Werte hinzufügen, indem Sie darauf klicken. Der folgende Screenshot zeigt, wie Ihre Anwendung letztendlich aussehen wird.
 
 ![todo: Bild_alt_Text](how-to-use-aspose-cells-griddesktop_1.png)
 

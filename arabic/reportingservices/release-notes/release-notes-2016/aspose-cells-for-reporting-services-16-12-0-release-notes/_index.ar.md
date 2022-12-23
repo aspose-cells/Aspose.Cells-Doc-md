@@ -8,5 +8,5 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-16-12-0-release-n
 |:- |:- |:- |
 |SSRS-40237 | استثناء: "تعريف هذا التقرير غير صالح أو مدعوم بواسطة هذا الإصدار من Reporting Services" أثناء نشر التقرير|ميزة جديدة|
 |SSRS-40240 |تفقد جميع عناصر التصميم في RDL وتبدو فارغة|ميزة جديدة|
-|SSRS-40238 | لا يعمل ارتفاع Auto-Fit Row في ملف Excel المعروض| حشرة|
+|SSRS-40238 | لا يعمل ارتفاع Auto-Fit Row في ملف Excel المعروض| خلل برمجي|
 

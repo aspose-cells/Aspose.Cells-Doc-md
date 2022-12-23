@@ -26,7 +26,7 @@ L'utilisation de Aspose.Cells for C++ dans vos applications vous offre les avant
 
 ### **Fonctionnalités riches**
 
-Aspose.Cells for C++ offre un large éventail de fonctionnalités pour créer, convertir et manipuler des feuilles de calcul :
+Aspose.Cells for C++ offre un large éventail de fonctionnalités pour créer, convertir et manipuler des feuilles de calcul :
 
 - Propriétés intégrées
 - Propriétés personnalisées
@@ -74,7 +74,7 @@ Aspose ne fournit pas de support technique par téléphone. L'assistance télép
 
 Ce tableau répertorie les ressources techniques importantes Aspose.Cells for C++.
 
-|**Ressource**|**La description**|
+|**Ressource**|**Description**|
 |:- |:- |
 |[Aspose.Cells page d'accueil](https://products.aspose.com/cells/cpp/)|Page d'accueil du produit.|
 |[Aspose.Cellsblog](https://blog.aspose.com/category/cells/)|Consultez-le souvent pour obtenir des informations sur les nouvelles versions et des conseils utiles sur le Aspose.Cells.|

@@ -4,7 +4,7 @@ linktitle: 打开文件
 type: docs
 weight: 20
 url: /zh/net/loading-saving-and-managing/
-description: 使用 Aspose.Cells，可以轻松创建、打开和管理 Excel、CSV、TSV、ODS、HTML、Numbers、Json、XML、Pdf、Jpg、Tiff、Image、Mht 和 XPS 文件。
+description: 使用Aspose.Cells，可以轻松创建、打开和管理Excel、CSV、TSV、ODS、HTML、Numbers、Json、XML、Pdf、Jpg、Tiff、Image、Mht和XPS文件。
 ---
 {{% alert color="primary" %}}
 
@@ -34,6 +34,6 @@ description: 使用 Aspose.Cells，可以轻松创建、打开和管理 Excel、
 - [打开不同的 Microsoft Excel 版本文件](/cells/zh/net/opening-different-microsoft-excel-versions-files/)
 - [打开不同格式的文件](/cells/zh/net/opening-files-with-different-formats/)
 - [在处理具有大型数据集的大文件时优化内存使用](/cells/zh/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [阅读 Apple Inc. 使用 Aspose.Cells 开发的数字电子表格](/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格](/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [当时间过长时使用 InterruptMonitor 停止转换或加载](/cells/zh/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [使用 LightCells API](/cells/zh/net/using-lightcells-api/)

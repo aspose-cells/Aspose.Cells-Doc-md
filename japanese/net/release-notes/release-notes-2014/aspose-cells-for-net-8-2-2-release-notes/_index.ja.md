@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-2-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET がバージョン 8.2.2 に更新されました。このリリースでは、60 を超える新しい便利な改善が追加されたことをお知らせします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -22,7 +22,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **パフォーマンス**
 
 
- (CELLSNET-43015) - 115996 行のスプレッドシートで PDF への変換プロセスがハングするように見える
+ (CELLSNET-43015) - 115996 行のスプレッドシートで PDF プロセスへの変換がハングしているように見える
 
 
 ## **バグ**
@@ -30,7 +30,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-43070) - エラー「グループ編集モードではピボットテーブルを編集できません」
 
- (CELLSNET-43061) - MS Excel と比較して誤った値が計算されました
+(CELLSNET-43061) - MS Excel と比較して誤った値が計算されました
 
 (CELLSNET-43064) - MS Excel で「読み取れないコンテンツ」メッセージが表示される
 
@@ -40,19 +40,19 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42903) - テキスト インデントの問題
 
-(CELLSNET-42838) - テキスト ボックス内のテキストが結果の PDF にレンダリングされない
+(CELLSNET-42838) - テキスト ボックス内のテキストが結果としてレンダリングされない PDF
 
-(CELLSNET-41658) - ピボット テーブルが条件付き書式を保持しない
+ (CELLSNET-41658) - ピボット テーブルが条件付き書式を保持しない
 
 (CELLSNET-41656) - 読み取れないコンテンツに関するエラーが表示されます。
 
-(CELLSNET-40921) - 画像へのレンダリング時に形状の向きが間違っている
+ (CELLSNET-40921) - 画像へのレンダリング時に形状の向きが間違っている
 
-(CELLSNET-43056) - レンダリングされた PDF ファイル形式でグラデーションとテクスチャが表示されない
+(CELLSNET-43056) - renderd PDF ファイル形式でグラデーションとテクスチャが表示されない
 
 (CELLSNET-43035) - 不適切な pdf エクスポート - テキストがトリミングされ、余分なスペースが追加される
 
-(CELLSNET-43012) - 文字「P」が出力 PDF で切り取られる
+(CELLSNET-43012) - 出力 PDF で文字「P」が切り取られる
 
 (CELLSNET-42999) - 条件付き書式の矢印のサイズが小さい
 
@@ -140,7 +140,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42947) - 「形状から画像へのエラー!」 PDF への変換時の例外
 
-(CELLSNET-43076) - 宛先配列の長さが不十分で、XLSB ファイルを開く際の例外
+(CELLSNET-43076) - XLSB ファイルを開く際の例外で、宛先配列の長さが不十分です
 
 (CELLSNET-43063) - Shapes.UpdateSelectedValue の「不明な画像形式」
 
@@ -150,7 +150,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

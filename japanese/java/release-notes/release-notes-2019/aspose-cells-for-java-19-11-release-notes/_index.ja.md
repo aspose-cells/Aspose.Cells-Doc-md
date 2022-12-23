@@ -18,9 +18,9 @@ url: /ja/java/aspose-cells-for-java-19-11-release-notes/
 |CELLSJAVA-43041|Cells.importCSV が例外「文字列値は 255 文字を超えることはできません」をスローします|強化|
 |CELLSJAVA-43043|Cells.removeDuplicates は、大規模なデータセットの場合により多くの時間がかかります|強化|
 |CELLSJAVA-43019|放射状グラフが HTML に正しくレンダリングされない|バグ|
-|CELLSJAVA-43027|PNG へのレンディション後、軸のスケーリングが異なります。|バグ|
+|CELLSJAVA-43027|PNG にレンダリングした後、軸のスケーリングが異なります。|バグ|
 |CELLSJAVA-42474|ソース データを更新した後、ピボットテーブルが更新されず、破損する|バグ|
-|CELLSJAVA-43033|PDFへの変換は終わりません。|バグ|
+|CELLSJAVA-43033|PDF への変換が終了しません。|バグ|
 |CELLSJAVA-43034|無効なロシア語 (カスタム) 日付形式の出力が取得される|バグ|
 |CELLSJAVA-43040|LoadFilter は必要なシートを考慮しません|バグ|
 |CELLSJAVA-43035|Excel ファイルを EMF に変換中に境界線が失われる|バグ|

@@ -28,7 +28,7 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 |:- |:- |:- |
 |16478 | Sunucu Bileşeni| XLSX dosyasında dışa aktarıldıktan sonra matris raporunun başlık satırında sorun|
 |16170 | Sunucu Bileşeni| Aspose.Cells for Reporting Services - Çeşitli Sorunlar|
-|16248 | Sunucu Bileşeni| XLSX dışa aktarımı düzgün çalışmıyor|
+|16248 | Sunucu Bileşeni| XLSX dışa aktarma düzgün çalışmıyor|
 |16239 | Sunucu Bileşeni| Rapor Görüntüleyici'de açılan seçenekleri yeniden adlandırma|
 |16202 | Sunucu Bileşeni| Excel 2007'ye dışa aktarırken düzgün çalışmıyor|
 |16169 | Sunucu Bileşeni| SharePoint Tümleşik Modunda SSRS Oluşturma uzantıları için destek?|

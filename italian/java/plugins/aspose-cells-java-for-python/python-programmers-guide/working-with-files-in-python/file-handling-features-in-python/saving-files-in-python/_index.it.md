@@ -1,14 +1,14 @@
 ﻿---
-title: Salvataggio di file in Python
+title: Salvataggio file in Python
 type: docs
 weight: 20
 url: /it/java/saving-files-in-python/
 ---
 ## **Aspose.Cells - Salvataggio File**
 ### **Salvataggio del file in una posizione**
- Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Giava for Python** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
+ Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Java for Python** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -43,6 +43,6 @@ print("Worksheets are saved successfully.")
 
 {{< /highlight >}}
 
- Scarica**Salvataggio file (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Salvataggio file (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /tr/net/find-and-replace-in-spreadsheet/
 ---
-![yapılacaklar:resim_alternatif_Metin](Find_and_Replace.png)
+![yapılacaklar:resim_alternatif_metin](Find_and_Replace.png)
 
 Bul butonuna tıkladığımızda aşağıdaki kod:
 

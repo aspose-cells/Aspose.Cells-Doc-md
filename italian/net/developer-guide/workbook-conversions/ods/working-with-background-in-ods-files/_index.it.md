@@ -12,9 +12,9 @@ Aspose.Cells offre la possibilità di leggere le informazioni di background e ag
 
 ## **Leggi le informazioni di base dal file ODS**
 
-Aspose.Cells fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground)classe per gestire lo sfondo nei file ODS. L'esempio di codice seguente illustra l'utilizzo di[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground) classe caricando il file[fonte ODS](90112030.ods) file e leggendo le informazioni di base. Si prega di consultare l'output della console generato dal codice per riferimento.
+Aspose.Cells fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground) classe per gestire lo sfondo nei file ODS. L'esempio di codice seguente illustra l'utilizzo di[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground) classe caricando il file[fonte ODS](90112030.ods) file e leggendo le informazioni di base. Si prega di consultare l'output della console generato dal codice per riferimento.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-ReadODSBackground-1.cs" >}}
 
@@ -28,7 +28,7 @@ Posizione di sfondo: CenterCenter
 
 Aspose.Cells fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground)classe per gestire lo sfondo nei file ODS. L'esempio di codice seguente illustra l'utilizzo di[**OdsPageBackground.Color**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground/properties/color) proprietà per aggiungere uno sfondo colorato al file ODS. Si prega di consultare il[uscita ODS](90112031.ods) file generato dal codice per riferimento.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-SetODSColoredBackground-1.cs" >}}
 
@@ -36,6 +36,6 @@ Aspose.Cells fornisce il[**OdsPageBackground**](https://reference.aspose.com/cel
 
 Aspose.Cells fornisce il[**OdsPageBackground**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground)classe per gestire lo sfondo nei file ODS. L'esempio di codice seguente illustra l'utilizzo di[**OdsPageBackground.GraphicData**](https://reference.aspose.com/cells/net/aspose.cells.ods/odspagebackground/properties/graphicdata)proprietà per aggiungere uno sfondo grafico al file ODS. Si prega di consultare il[uscita ODS](90112030.ods)file generato dal codice per riferimento.
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-SetODSGraphicBackground-1.cs" >}}

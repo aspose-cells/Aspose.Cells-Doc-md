@@ -8,7 +8,7 @@ url: /ja/net/opening-files-in-php/
 ### **パスを介して開く**
 ファイルのパスを参照して、Microsoft Excel ファイルを開くだけです。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

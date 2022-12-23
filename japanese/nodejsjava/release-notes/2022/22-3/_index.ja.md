@@ -15,10 +15,10 @@ url: /ja/nodejs-java/aspose-cells-for-node-js-via-java-22-3-release-notes/
 |CELLSJAVA-44369|形状の高さが正しくありません|
 |CELLSJAVA-44366|シートの内容を新しいシート ページにコピーして html として保存すると、Excel の数式のスタイルが異常になる|
 |CELLSJAVA-44408|変更した 2 つの行を展開すると、Cell のパーセンテージ形式が失われます|
-|CELLSJAVA-44341|Cell Excel から DOCX への変換で、出力 DOCX の幅が正しくありません|
+|CELLSJAVA-44341|Cell 出力の幅が正しくありません Excel の DOCX から DOCX への変換|
 |CELLSJAVA-44383|カスタム プロパティを追加した後、条件付き書式が機能しなくなった|
 |CELLSJAVA-44370|Excel ファイルを Aspose.Cells で開いて保存すると破損する|
-|CELLSJAVA-44344|出力 XLSX の範囲の水平コピーに関する問題|
+|CELLSJAVA-44344|出力の範囲の水平コピーに関する問題 XLSX|
 |CELLSJAVA-44363|行ヘッダーの高さが、freezepane を使用したファイルの行の内容と一致しない|
 |CELLSJAVA-44349|GridWeb のサーバー再起動後も画像/形状を保持する必要があります|
 |CELLSJAVA-44367|htmlに変換すると縦棒グラフの色が白くなる|

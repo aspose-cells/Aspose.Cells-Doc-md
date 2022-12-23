@@ -6,13 +6,13 @@ url: /ja/net/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells は、Microsoft Excel 95/97 - 2003、SpreadsheetML、Opening Microsoft Excel 2007/2010/2013/2016/2019、Office 365 XLSX または暗号化された Excel ファイルなど、さまざまな Microsoft Excel バージョン ファイルを開くことができます。
+Aspose.Cells は、Microsoft Excel 95/97 - 2003、SpreadsheetML、Opening Microsoft Excel 2007/2010/2013/2016/2019 および Office 365 XLSX または暗号化された Excel ファイルなど、さまざまな Microsoft Excel バージョン ファイルを開くことができます。
 
 {{% /alert %}}
 
 ## **異なる Microsoft Excel バージョンのファイルを開く**
 
-多くの場合、アプリケーションは、異なるバージョンで作成された Microsoft Excel ファイルを開くことができる必要があります。たとえば、 Microsoft Excel 95,97、または Microsoft Excel 2007/2010/2013/2016/2019 と Office 365 です。 XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited または TSV、CSV、ODS など、いくつかの形式のいずれかでファイルをロードする必要がある場合があります。コンストラクターを使用するか、**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[ファイル形式](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)**を使用してフォーマットを指定する type 属性**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**列挙。
+多くの場合、アプリケーションは、異なるバージョンで作成された Microsoft Excel ファイルを開くことができる必要があります。たとえば、 Microsoft Excel 95,97、または Microsoft Excel 2007/2010/2013/2016/2019 と Office 365 です。 XLS、XLSX、XLSM、XLSB、SpreadsheetML、TabDelimited、TSV、CSV、ODS など、いくつかの形式のいずれかでファイルをロードする必要がある場合があります。コンストラクターを使用するか、**[ワークブック](https://reference.aspose.com/cells/net/aspose.cells/workbook)**クラス'**[ファイル形式](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)**を使用してフォーマットを指定する type 属性**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**列挙。
 
 の**[FileFormatType](https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**列挙には、事前に定義された多くのファイル形式が含まれており、その一部を以下に示します。
 
@@ -25,9 +25,9 @@ Aspose.Cells は、Microsoft Excel 95/97 - 2003、SpreadsheetML、Opening Micros
 |Xltx|Excel 2007/2010/2013/2016/2019 および Office 365 テンプレート XLTX ファイルを表します|
 |Xltm|Excel 2007/2010/2013/2016/2019 および Office 365 マクロ有効 XLTM ファイルを表します|
 |Xlsb|Excel 2007/2010/2013/2016/2019 および Office 365 バイナリ XLSB ファイルを表します|
-|スプレッドシートML|SpreadsheetML ファイルを表します|
+|SpreadsheetML|SpreadsheetML ファイルを表します|
 |Tsv|タブ区切り値ファイルを表します|
-|タブ区切り|タブ区切りのテキスト ファイルを表します|
+|TabDelimited|タブ区切りのテキスト ファイルを表します|
 |オッズ|ODS ファイルを表します|
 |HTML|HTML ファイルを表します|
 |Mhtml|MHTML ファイルを表します|

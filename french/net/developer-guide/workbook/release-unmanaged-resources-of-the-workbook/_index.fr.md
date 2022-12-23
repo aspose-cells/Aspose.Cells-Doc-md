@@ -10,6 +10,6 @@ url: /fr/net/release-unmanaged-resources-of-the-workbook/
 
 {{% /alert %}}
 
-[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) objet implémente maintenant le*System.IDisposable* interface qui a une seule méthode[**Disposer()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) . Vous pouvez soit appeler directement le[**Classeur.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) méthode ou vous pouvez utiliser la*Utilisant*instruction pour appeler cette méthode automatiquement.
+[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) objet implémente maintenant le*System.IDisposable* interface qui a une seule méthode[**Disposer()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) . Vous pouvez soit appeler directement le[**Classeur.Dispose()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/dispose) méthode ou vous pouvez utiliser la*En utilisant*instruction pour appeler cette méthode automatiquement.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ReleaseUnmanagedResources-ReleaseUnmanagedResourcesForWorkbooks.cs" >}}

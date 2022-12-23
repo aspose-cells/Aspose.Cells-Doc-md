@@ -3,6 +3,7 @@ title: Visa och dölj rader Kolumner och rullningslister
 type: docs
 weight: 20
 url: /sv/net/show-and-hide-rows-columns-and-scroll-bars/
+description: Den här artikeln visar hur du programmatiskt visar och döljer rader och kolumner i Excel-kalkylblad med språket C# och .NET API eller bibliotek. Synligheten för rullningslister kan justeras och flera rader och kolumner kan döljas.
 ---
 {{% alert color="primary" %}}
 
@@ -58,7 +59,7 @@ Microsoft Excel tillhandahåller även horisontella och vertikala rullningsliste
 
 ### **Kontrollera synligheten för rullningslister**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslister använder du[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)egenskaper.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper endast kan lagras**Sann** eller**falsk** värden.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslister använder du[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egenskaper.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper endast kan lagras**Sann** eller**falsk** värden.
 
 #### **Göra rullningslister synliga**
 

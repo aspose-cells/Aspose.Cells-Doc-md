@@ -7,7 +7,7 @@ url: /fr/java/auto-fit-row-and-column/
 ## **Aspose.Cells - Ligne et colonne d'ajustement automatique**
 L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler la méthode Worksheet.autoFitRow. La méthode autoFitRow prend un index de ligne (de la ligne à redimensionner) comme paramètre.
 
-**Veuillez noter:** Si vous souhaitez ajuster automatiquement les lignes et les colonnes dans les feuilles de calcul Excel à l'aide de Java, veuillez visiter[Ajustement automatique des lignes et des colonnes](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Veuillez noter:**Si vous souhaitez ajuster automatiquement les lignes et les colonnes dans les feuilles de calcul Excel à l'aide de Java, veuillez visiter[Ajustement automatique des lignes et des colonnes](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 

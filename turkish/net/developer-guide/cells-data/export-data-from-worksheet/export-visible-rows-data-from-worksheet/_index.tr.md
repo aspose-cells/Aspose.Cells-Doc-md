@@ -14,12 +14,12 @@ Bu örnek, aşağıdaki çalışma sayfasından verilerin nasıl dışa aktarıl
 
 |**Çalışma sayfasındaki örnek veriler, 5, 6 ve 7. satırlar gizlenir**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](export-visible-rows-data-from-worksheet_1.png)|
+|![yapılacaklar:resim_alternatif_metin](export-visible-rows-data-from-worksheet_1.png)|
 
 Veriler kullanılarak bir veri tablosuna aktarıldıktan sonra[**Worksheet.Cells.ExportDataTable()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/exportdatatable/index) ile yöntem[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows)seçeneği, bu gibi görünecektir. Gizli satırlar boş satırlar olarak çizilir
 
 |**Gizli satırlar veri tablosuna boş satırlar olarak aktarılır**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](export-visible-rows-data-from-worksheet_2.png)|
+|![yapılacaklar:resim_alternatif_metin](export-visible-rows-data-from-worksheet_2.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExportVisibleRowsData-1.cs" >}}

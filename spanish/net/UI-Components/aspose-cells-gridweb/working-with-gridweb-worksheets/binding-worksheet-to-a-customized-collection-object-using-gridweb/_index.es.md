@@ -16,8 +16,8 @@ Antes de crear una colección personalizada, cree una clase para contener los re
 
 El siguiente ejemplo usa la clase MyCustomRecord que contiene cinco campos privados y cinco propiedades públicas que controlan el acceso a los campos privados. Aquí está la estructura de las propiedades:
 
--  La propiedad StringField1 para leer y escribir**campo de cadena1** (cuerda).
--  La propiedad ReadonlyField2 para solo leer**campo de cuerdas2** (cuerda).
+-  La propiedad StringField1 para leer y escribir**campo de cadena1** (cadena).
+-  La propiedad ReadonlyField2 para solo leer**campo de cuerdas2** (cadena).
 -  La propiedad DateField1 para leer y escribir**campo de fecha1** (Fecha y hora).
 -  La propiedad IntField1 para leer y escribir**intfield1** (entero).
 -  La propiedad DoubleField1 para leer y escribir**campo doble1** (doble).
@@ -261,7 +261,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Paso 5: ejecutar la aplicación**
- Ejecute la aplicación presionando**Ctrl+F5** o haciendo clic en el**comienzo** botón en VS.NET. El formulario web se abre en una nueva ventana del navegador.
+ Ejecute la aplicación presionando**Ctrl+F5** o haciendo clic en el**Comenzar** botón en VS.NET. El formulario web se abre en una nueva ventana del navegador.
 
 **Hoja de trabajo encuadernada con una colección personalizada** 
 
@@ -277,7 +277,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 
 
- Cuando se agrega una nueva fila a la hoja de trabajo, las celdas contienen datos predeterminados, incluida la fecha actual del sistema.
+ Cuando se agrega una nueva fila a la hoja de cálculo, las celdas contienen datos predeterminados, incluida la fecha actual del sistema.
 
 **Nueva fila agregada a la hoja de trabajo con datos predeterminados** 
 

@@ -19,7 +19,7 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSJAVA-41335) - 增强 PasteOptions/PasteType 机制以允许在复制范围时复制行高
@@ -42,9 +42,9 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41355) - 转换为 HTML 在列值的末尾附加 # 字符串
 
-(CELLSJAVA-41354) - 文本框中的数字不显示在里面
+(CELLSJAVA-41354) - Numbers 在文本框里面没有显示
 
-(CELLSJAVA-41353) - PDF 中智能艺术的放置/对齐与源 Excel 文件不匹配
+(CELLSJAVA-41353) - PDF 中 smart arts 的放置/对齐与源 Excel 文件不匹配
 
 (CELLSJAVA-41343) - 底线比模板文件中的原始线长得多
 
@@ -56,7 +56,7 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41339) - 模板文件中的文本和文本对齐混乱
 
-(CELLSJAVA-41336) - 导出为 HTML 时出现 JavaScript 错误
+(CELLSJAVA-41336) - 导出到 HTML 时出现 JavaScript 错误
 
 (CELLSJAVA-41327) - 模板文件中的文本丢失
 
@@ -66,7 +66,7 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41206) - 将包含超链接的 Excel 文件转换为 HTML - Cell 引用的超链接不起作用
 
-(CELLSJAVA-40483) - 箭头形状/对象的格式问题 - Excel 到 PDF 渲染
+(CELLSJAVA-40483) - 箭头形状/对象的格式问题 - Excel 到 PDF 呈现
 
 (CELLSJAVA-41372) - 甘特图未以输出 PDF 文件格式呈现
 
@@ -84,17 +84,17 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41348) - 数字格式的条件格式不适用于 XLS
 
- (CELLSJAVA-41347) - Style.isDateTime 对于格式化为日期的单元格返回 false
+(CELLSJAVA-41347) - Style.isDateTime 对于格式化为日期的单元格返回 false
 
-(CELLSJAVA-41338) - 对于具有相邻隐藏列的单元格，左边框不应该出现
+ (CELLSJAVA-41338) - 对于具有相邻隐藏列的单元格，左边框不应该出现
 
 (CELLSJAVA-41331) - 插入行后公式未正确更新
 
-(CELLSJAVA-41330) - 另存为/打印 PDF 时动态打印区域损坏
+(CELLSJAVA-41330) - 另存为/打印时动态打印区域损坏 PDF
 
-(CELLSJAVA-41365) - 输出 PDF 文件中缺少文本框中的一些希伯来字符
+ (CELLSJAVA-41365) - 输出 PDF 文件中缺少文本框中的一些希伯来字符
 
-(CELLSJAVA-41346) - 图表中的值轴和类别轴标签被涂黑（Excel 到 PDF 的转换）
+(CELLSJAVA-41346) - 图表中的值轴和类别轴标签被涂黑（Excel 到 PDF 转换）
 
  (CELLSJAVA-41312) - 文本太大并且超出了边距
 
@@ -102,9 +102,9 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-40916) - 分页符外的文本在 PDF 中呈现为换行文本
 
-(CELLSJAVA-40791) - Excel 到 PDF 渲染中的分页符、字体渲染和边距问题
+(CELLSJAVA-40791) - Excel 中的分页符、字体渲染和页边距问题到 PDF 渲染
 
-(CELLSJAVA-40605) - Aspose.Cells：转换为 PDF 时，原始单元格中的截断文本会完全显示
+(CELLSJAVA-40605) - Aspose.Cells：当转换为 PDF 时，原始单元格中的截断文本会完全显示
 
 (CELLSJAVA-40479) - 页面布局问题 (RTL) 呈现
 
@@ -130,7 +130,7 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41361) - java.lang.NumberFormatException：对于输入字符串：Workbook ctor 中的“0,00”
 
- (CELLSJAVA-41344) - java.lang.NullPointerException 在 Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException 在 Cells.find
 
 
 ## **公共 API 和向后不兼容的更改**
@@ -183,7 +183,7 @@ url: /zh/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) 参数的更改
+ ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) 参数的更改
 
 现在我们将ReferredArea对象添加到“paramsList”中，而不是当相应的参数是一个引用或者它的计算结果是一个引用时引用区域的值或值数组。我们从 contextObjexts 中删除了 ReferredAreaCollection。
 

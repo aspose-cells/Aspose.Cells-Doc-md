@@ -88,7 +88,7 @@ workbook.Save("Hyperlink_test.xls");
 
 {{< /highlight >}}
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Add.Hyperlinks.to.Cells.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Add%20Hyperlinks%20to%20Cells%20\(Aspose.Cells\).zip/download)

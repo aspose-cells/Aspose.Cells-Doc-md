@@ -16,15 +16,15 @@ Bir sayıyı sıfıra bölmek gibi formülün bir sonuç döndüremeyeceği anla
 
 Hata, seçenekler kullanılarak çözülebilir veya göz ardı edilebilir. Bir hatayı yok saymak, o hatanın sonraki hata kontrollerinde görünmeyeceği anlamına gelir.
 
-Aspose.Cells, hata kontrol seçeneği özellikleri sağlar. bu[**Hata Kontrolü Seçeneği**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class, örneğin metin olarak depolanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı türde hata denetimlerini yönetir. Kullan[**Hata KontrolTürü**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)İstenen hata denetimini ayarlamak için numaralandırma.
+ Aspose.Cells, hata kontrol seçeneği özellikleri sağlar. bu[**Hata Kontrolü Seçeneği**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class, örneğin metin olarak depolanan sayılar, formül hesaplama hataları ve doğrulama hataları gibi farklı türde hata denetimlerini yönetir. Kullan[**Hata KontrolTürü**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)İstenen hata denetimini ayarlamak için numaralandırma.
 
-## **Metin Olarak Saklanan Sayılar**
+## **Numbers Metin Olarak Saklandı**
 
-Bazen sayılar biçimlendirilebilir ve hücrelerde metin olarak saklanabilir. Bu, hesaplamalarda sorunlara neden olabilir veya kafa karıştırıcı sıralama düzenleri oluşturabilir. Metin olarak biçimlendirilen sayılar, hücrede sağa hizalanmak yerine sola hizalanır. Hücreler üzerinde matematiksel işlem gerçekleştirmesi gereken bir formül bir değer döndürmezse, formülün başvurduğu hücrelerdeki hizalamayı kontrol edin; bu hücrelerin bazıları veya tümü metin olarak biçimlendirilmiş sayılar olabilir.
+Bazen sayılar biçimlendirilebilir ve hücrelerde metin olarak saklanabilir. Bu, hesaplamalarda sorunlara neden olabilir veya kafa karıştırıcı sıralama düzenleri oluşturabilir. Metin olarak biçimlendirilen Numbers, hücrede sağa hizalanmak yerine sola hizalanır. Hücreler üzerinde matematiksel işlem gerçekleştirmesi gereken bir formül bir değer döndürmezse, formülün başvurduğu hücrelerdeki hizalamayı kontrol edin; bu hücrelerin bazıları veya tümü metin olarak biçimlendirilmiş sayılar olabilir.
 
 Metin olarak saklanan sayıları hızla gerçek sayılara dönüştürmek için hata denetimi seçeneklerini kullanabilirsiniz. Microsoft Excel 2003'te:
 
-1.  Üzerinde**Aletler** menü, tıklayın**Seçenekler**.
+1.  Üzerinde**Araçlar** menü, tıklayın**Seçenekler**.
 1. Hata Denetimi sekmesini seçin.
    **Metin olarak saklanan sayı** seçeneği varsayılan olarak işaretlidir.
 1. Devre dışı bırakın.

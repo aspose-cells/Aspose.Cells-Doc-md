@@ -12,13 +12,13 @@ url: /ar/java/aspose-cells-for-java-19-9-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-42990|يتم عرض الصفوف المخفية أثناء تحويل ملف Excel إلى HTML عند وجود التصفية التلقائية|حشرة|
-|CELLSJAVA-42997|فشل CalculateFormula () مع سلاسل صيغة كبيرة|حشرة|
-|CELLSJAVA-43000|CalculateFormula () يفسد ملف Excel|حشرة|
-|CELLSJAVA-42987|مشاكل التنسيق أثناء تحويل ملف Excel إلى PDF|حشرة|
-|CELLSJAVA-42986|تداخل النص بعد تحويل ملف XLSX الصيني إلى PDF|حشرة|
-|CELLSJAVA-43012|Workbook.setRecalculateOnOpen (false) لا يعمل مع إصدارات Excel الأحدث|حشرة|
-|CELLSJAVA-42996|لا يتم تقديم ملصقات البيانات القائمة على الصيغ بشكل صحيح في PDF|حشرة|
+|CELLSJAVA-42990|يتم عرض الصفوف المخفية أثناء تحويل ملف Excel إلى HTML عند وجود التصفية التلقائية|خلل برمجي|
+|CELLSJAVA-42997|فشل CalculateFormula () مع سلاسل صيغة كبيرة|خلل برمجي|
+|CELLSJAVA-43000|CalculateFormula () يفسد ملف Excel|خلل برمجي|
+|CELLSJAVA-42987|مشاكل التنسيق أثناء تحويل ملف Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-42986|تداخل النص بعد تحويل ملف XLSX صيني إلى PDF|خلل برمجي|
+|CELLSJAVA-43012|Workbook.setRecalculateOnOpen (false) لا يعمل مع إصدارات Excel الأحدث|خلل برمجي|
+|CELLSJAVA-42996|لم يتم تقديم ملصقات البيانات المستندة إلى الصيغ بشكل صحيح في PDF|خلل برمجي|
 |CELLSJAVA-42992|تم رفع الاستثناء أثناء تحويل XLSM إلى صورة|استثناء|
 |CELLSJAVA-42991|استثناء "يجب أن يكون عرض العمود بين 0 و 255" أثناء تحويل Excel إلى PDF في macOS|استثناء|
 |CELLSJAVA-43004|استثناء java.lang.NumberFormatException: لسلسلة الإدخال: "0.0" أثناء تحويل Excel إلى HTML|استثناء|

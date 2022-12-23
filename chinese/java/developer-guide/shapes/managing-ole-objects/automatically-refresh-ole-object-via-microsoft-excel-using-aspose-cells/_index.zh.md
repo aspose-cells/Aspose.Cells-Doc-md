@@ -14,10 +14,10 @@ Aspose.Cells 提供了[OleObject.自动加载](https://reference.aspose.com/cell
 
 以下屏幕截图显示了如何[示例 excel 文件](5473423.xlsx)在 Microsoft Excel 中打开时的外观。
 
-![待办事项：图像_替代_文本](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_1.png)
 
 以下屏幕截图显示了如何[输出excel文件](5473429.xlsx)在 Microsoft Excel 中打开时的外观。
 
-![待办事项：图像_替代_文本](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
+![待办事项：图片_替代_文本](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutomaticallyrefreshOLEobject-AutomaticallyrefreshOLEobject.java" >}}

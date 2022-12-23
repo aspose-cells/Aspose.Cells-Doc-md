@@ -12,7 +12,7 @@ url: /tr/net/read-color-of-shape-s-glow-effect/
 
  Lütfen aşağıdaki örnek koda ve onun[kaynak excel dosyası](22774108.xlsx)ve referansınız için konsol çıktısı. Aşağıdaki ekran görüntüsü, Microsoft Excel'de görüntülendiğinde şeklin kaynak excel dosyası içindeki parlama efektini göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](read-color-of-shape-s-glow-effect_1.png)
+![yapılacaklar:resim_alternatif_metin](read-color-of-shape-s-glow-effect_1.png)
 
 ## C# kodu, şekillerin renginin parlama efektini okumak için
 

@@ -12,4 +12,4 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.11 für Windo
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-958| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-958| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|

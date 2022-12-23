@@ -6,7 +6,7 @@ url: /tr/net/create-custom-command-buttons/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb gibi özel düğmeler içerir**Göndermek**, **Kaydetmek** ve**Geri alma**. Tüm bu düğmeler, Aspose.Cells.GridWeb için belirli görevleri yerine getirir.
+ Aspose.Cells.GridWeb gibi özel düğmeler içerir**Göndermek**, **Kayıt etmek** ve**Geri alma**. Tüm bu düğmeler, Aspose.Cells.GridWeb için belirli görevleri yerine getirir.
 Özel görevleri gerçekleştiren özel düğmeler eklemek de mümkündür. Bu konuda, bu özelliğin nasıl kullanılacağı açıklanmaktadır.
 
 {{% /alert %}} 
@@ -31,7 +31,7 @@ Kod parçacığının çıktısı aşağıda gösterilmiştir:
 
 **GridWeb kontrolüne eklenen özel bir komut düğmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](create-custom-command-buttons_1.png)
+![yapılacaklar:resim_alternatif_metin](create-custom-command-buttons_1.png)
 
 
 
@@ -45,7 +45,7 @@ Aşağıdaki kod örneğinde butona tıklandığında A1 hücresine bir metin me
 
 **Özel komut düğmesi tıklandığında A1 hücresine eklenen metin** 
 
-![yapılacaklar:resim_alternatif_Metin](create-custom-command-buttons_2.png)
+![yapılacaklar:resim_alternatif_metin](create-custom-command-buttons_2.png)
 
 
 

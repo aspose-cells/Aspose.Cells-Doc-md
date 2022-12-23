@@ -13,7 +13,7 @@ url: /es/java/creating-pie-chart-with-leader-lines/
 
 ## **Creación de un gráfico circular con líneas guía**
 
- Para demostrar el uso de Aspose.Cells for Java API para crear un gráfico circular con líneas guía, primero crearemos un nuevo[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) e ingrese algunos datos que servirán como fuente de datos de la serie. Una vez que los datos estén en su lugar, agregaremos un[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) de tipo[**Tarta**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PIE)a la colección de gráficos y configure sus diferentes aspectos para obtener la vista de gráfico deseada.
+ Para demostrar el uso de Aspose.Cells for Java API para crear un gráfico circular con líneas guía, primero crearemos un nuevo[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) e ingrese algunos datos que servirán como fuente de datos de la serie. Una vez que los datos estén en su lugar, agregaremos un[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) de tipo[**Tarta**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PIE)a la colección de gráficos y configure sus diferentes aspectos para obtener la vista de gráfico deseada.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePieChartWithLeaderLines-CreatePieChartWithLeaderLines.java" >}}
 

@@ -17,7 +17,7 @@ Aspose.Cells, Microsoft Excel dosyalarını istediğiniz şifreleme türüyle ş
 
 Microsoft Excel'de (burada Microsoft Excel 2003) dosya şifreleme ayarlarını yapmak için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler**Bir iletişim kutusu görünecektir.
+1.  itibaren**Araçlar** menü, seç**Seçenekler**Bir iletişim kutusu görünecektir.
 1.  seçin**Güvenlik** sekme.
 1.  Bir şifre girin ve tıklayın**Gelişmiş**
 1. Şifreleme türünü seçin ve parolayı onaylayın.
@@ -42,7 +42,7 @@ Parola korumalı excel dosyasını açmak ve aşağıdaki kodlar gibi Aspose.Cel
 
 
 ## **ileri konular**
-- [ODS dosyalarını şifreleyin ve şifresini çözün](/cells/tr/net/encrypt-and-decrypt-ods-files/)
+- [ODS dosyalarını şifrele ve şifresini çöz](/cells/tr/net/encrypt-and-decrypt-ods-files/)
 - [Güçlü Şifreleme Türü Ayarlama](/cells/tr/net/setting-strong-encryption-type/)
 - [Çalışma Kitabını Yazma Koruması Yaparken Yazarı Belirtin](/cells/tr/net/specify-author-while-write-protecting-workbook/)
 - [Şifrelenmiş Dosyaların Parolasını Doğrulayın](/cells/tr/net/verify-password-of-encrypted-excel-and-ods-files/)

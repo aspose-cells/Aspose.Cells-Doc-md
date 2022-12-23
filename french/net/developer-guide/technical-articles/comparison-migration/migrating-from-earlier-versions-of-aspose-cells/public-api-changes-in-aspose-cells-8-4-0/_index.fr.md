@@ -271,5 +271,5 @@ La valeur par défaut est "" (chaîne vide).
 ## **API obsolètes**
 ### **Méthodes Cells.GetCellByIndex & Row.GetCellByIndex Obsolète**
 Utilisez la méthode GetEnumerator pour itérer toutes les cellules à la place.
-### **Propriété DrawObject.Image obsolète**
+### **Propriété DrawObject.Image Obsolète**
 Utilisez plutôt la propriété DrawObject.ImageBytes pour obtenir des données d'image.

@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Özellik TxtLoadOptions.HasFormula Eklendi**
- Aspose.Cells for .NET 8.7.0 desteği sağladı[Sınırlandırılmış düz verilere sahip CSV/TXT dosyalarını yüklerken formülleri tanımlayın ve ayrıştırın](/cells/tr/net/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
+ Aspose.Cells for .NET 8.7.0 desteği sağladı[sınırlandırılmış düz verilere sahip CSV/TXT dosyaları yüklenirken formülleri tanımlayın ve ayrıştırın](/cells/tr/net/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Özellik DataLabels.IsResizeShapeToFitText Eklendi**
- Aspose.Cells for .NET 8.7.0'ın kullanıma sunduğu bir başka kullanışlı özellik de şu özelliği etkinleştirebilen DataLabels.IsResizeShapeToFitText özelliğidir.[Metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/) grafiğin veri etiketleri için Excel uygulamasının özelliği.
+ Aspose.Cells for .NET 8.7.0'ın kullanıma sunduğu bir başka kullanışlı özellik de şu özelliği etkinleştirebilen DataLabels.IsResizeShapeToFitText özelliğidir.[Metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/net/resize-chart-s-data-label-shape-to-fit-text/)grafiğin veri etiketleri için Excel uygulamasının özelliği.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Özellik PdfSaveOptions.OptimizationType Eklendi**
-Aspose.Cells for .NET 8.7.0, kullanıcıların şunları yapmasını kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğini ve PdfOptimizationType numaralandırmasını kullanıma sundu.[elektronik tabloları PDF formatına dışa aktarırken istenen optimizasyon algoritmasını seçin](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/). PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
+Aspose.Cells for .NET 8.7.0, kullanıcıların şunları yapmasını kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğini ve PdfOptimizationType numaralandırmasını kullanıma sundu.[e-tabloları PDF formatına dışa aktarırken istenen optimizasyon algoritmasını seçin](/cells/tr/net/save-excel-into-pdf-with-standard-or-minimum-size/). PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
 
 1. PdfOptimizationType.MinimumSize: Ortaya çıkan dosya boyutu için kaliteden ödün verilir.
 1. PdfOptimizationType.Standard: Kaliteden ödün verilmez, bu nedenle ortaya çıkan dosya boyutu büyük olur.

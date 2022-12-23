@@ -12,11 +12,11 @@ Se uno sviluppatore deve rimuovere la protezione da un foglio di lavoro protetto
 
 ## **Rimuovere la protezione di un foglio di lavoro**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 Per rimuovere la protezione da un foglio di lavoro:
 
- Dal**Strumenti** menù, selezionare**Protezione** seguito da**Foglio non protetto**. La protezione verrà rimossa a meno che il foglio di lavoro non sia protetto da password. In questo caso, una finestra di dialogo richiede la password. Immettere la password e il foglio di lavoro non sarà protetto.
+ Dal**Utensili** menù, selezionare**Protezione** seguito da**Foglio non protetto**. La protezione verrà rimossa a meno che il foglio di lavoro non sia protetto da password. In questo caso, una finestra di dialogo richiede la password. Immettere la password e il foglio di lavoro non sarà protetto.
 
 ### **Rimozione della protezione di un foglio di lavoro semplicemente protetto utilizzando Aspose.Cells**
 

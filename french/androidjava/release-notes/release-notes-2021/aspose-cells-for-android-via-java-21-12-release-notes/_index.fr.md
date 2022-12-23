@@ -10,15 +10,15 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Prise en charge de l'interruption de l'exécution de WorkbookDesigner.process dans SmarkMarker|
-|CELLSJAVA-44039|Modifier l'attribut PDF Producer à partir du PDF généré|
+|CELLSJAVA-44039|Modifier l'attribut Producteur PDF à partir du PDF généré|
 |CELLSJAVA-43768|Java Un problème d'espace de tas est observé lors de la conversion du fichier XLSX en PDF|
-|CELLSJAVA-43875|Exception "valeur de chaîne FontUnderlineType non valide" lors du chargement du fichier XLSX|
+|CELLSJAVA-43875|Exception "Valeur de chaîne FontUnderlineType non valide" lors du chargement du fichier XLSX|
 |CELLSJAVA-43876|Exception "java.lang.ArrayIndexOutOfBoundsException" lors du chargement d'un fichier XLSX|
-|CELLSJAVA-43844|Une amélioration nécessaire pour le format des numéros comptables|
-|CELLSJAVA-43953|Rendre le texte/partie spécifique "Cell" et "Commentaire" à traduire en japonais lors de la conversion Excel en PDF|
+|CELLSJAVA-43844| Une amélioration nécessaire pour le format des numéros comptables|
+|CELLSJAVA-43953|Rendre le texte / partie spécifique "Cell" et "Commentaire" à traduire en japonais dans Excel en conversion PDF|
 |CELLSJAVA-43469|Régression possible : dégradation des performances de FormatConditionCollection.addArea()|
 |CELLSJAVA-43646|L'effet d'ombre du texte n'est pas rendu correctement|
 |CELLSJAVA-43760|L'orientation du triangle isocèle est incorrecte|
@@ -26,35 +26,35 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43838|Après l'exécution de XlsToXlsx, la forme automatique est perdue|
 |CELLSJAVA-43839|Après avoir exécuté XlsToXlsx, le LeftBracket est perdu|
 |CELLSJAVA-43842|Après avoir exécuté XlsToXlsx, la forme de LeftBracket est différente de l'original|
-|CELLSJAVA-43848|Conversion Excel en PDF - certains caractères WordArt ne sont pas enveloppés de la même manière que dans le fichier Excel|
+|CELLSJAVA-43848|Conversion d'Excel en PDF - certains caractères WordArt ne sont pas enveloppés de la même manière que dans le fichier Excel|
 |CELLSJAVA-43880|Coins arrondis incorrects de la zone de texte après la conversion de xls en xlsx|
 |CELLSJAVA-43867|L'icône de format conditionnel est différente lors de l'exportation au format HTML|
 |CELLSJAVA-43812|excelToHtml : le décalage de la position de la forme est incorrect|
-|CELLSJAVA-43871|Objets Prism 9 OLE non affichés sur le PDF de sortie|
+|CELLSJAVA-43871|Objets Prism 9 OLE non affichés en sortie PDF|
 |CELLSJAVA-43883|Tailles de page renderred incorrectes|
 |CELLSJAVA-43881|La fusion de fichiers entraîne l'absence du paramètre de couleur d'arrière-plan des feuilles|
 |CELLSJAVA-43892|Les bordures d'Excel converties en HTML sont manquantes|
 |CELLSJAVA-43935|Problème de taille de police du texte de forme lors de l'enregistrement et du chargement du fichier XLS|
 |CELLSJAVA-43952|Problème d'expiration de la licence temporaire|
-|CELLSJAVA-43954|XLSX en PDF : l'image provoque une exception "java.lang.OutOfMemoryError : Java heap space"|
+|CELLSJAVA-43954|XLSX à PDF : l'image provoque une exception "java.lang.OutOfMemoryError : Java heap space"|
 |CELLSJAVA-43902|Certaines bordures d'Excel converties en HTML sont redondantes|
 |CELLSJAVA-43933|Lors de l'exportation vers HTML avec une seule donnée, le format conditionnel est différent d'Excel|
 |CELLSJAVA-43878| Position incorrecte des étiquettes de données du graphique à barres de cluster Excel|
 |CELLSJAVA-43895|La forme de ligne et les autres formes de graphique ne sont pas rendues correctement lors de la conversion de XLS en XLSX|
 |CELLSJAVA-43934|Les étiquettes du graphique à secteurs ne correspondent pas à Excel après la manipulation ou la mise à jour du graphique|
-|CELLSJAVA-43519|Les cellules fusionnées incluses dans des lignes ou des colonnes masquées produisent un tableau HTML irrégulier|
+|CELLSJAVA-43519|Les cellules fusionnées incluses dans des lignes ou des colonnes masquées produisent un tableau HTML inégal|
 |CELLSJAVA-43962|L'effet est incohérent après la conversion du format conditionnel dans Excel en HTML|
-|CELLSJAVA-43983|Régression : boucle infinie lors de la conversion de XLSX en PDF|
-|CELLSJAVA-44029|XLSX en PDF : l'image n'est pas convertie|
+|CELLSJAVA-43983|Régression : Boucle infinie lors de la conversion de XLSX en PDF|
+|CELLSJAVA-44029|XLSX à PDF : l'image n'est pas convertie|
 |CELLSJAVA-44093| Problème de troncature de texte avec les formes Rectangle lors du rendu en image dans les nouvelles versions Aspose.Cells for Java|
 |CELLSJAVA-44089|DataLabels.setShadow() n'est pas disponible et n'est pas égal à la méthode Series.setShadow()|
-|CELLSJAVA-44000|Le style Cells est incorrect en HTML lors de l'utilisation simultanée d'un jeu d'icônes et d'une autre mise en forme conditionnelle|
+|CELLSJAVA-44000|Le style Cells est incorrect dans HTML lors de l'utilisation simultanée d'un jeu d'icônes et d'une autre mise en forme conditionnelle|
 |CELLSJAVA-43932|Problème avec la définition de la position des étiquettes de données pour les graphiques en anneau éclatés dans l'image de sortie|
-|CELLSJAVA-44094|Titre du graphique tronqué lors de l'exportation au format PDF|
-|CELLSJAVA-43533|Problème de création de XLSX vers Html dans Ubuntu|
+|CELLSJAVA-44094|Titre du graphique tronqué lors de l'exportation vers PDF|
+|CELLSJAVA-43533|XLSX au problème de création HTML dans Ubuntu|
 |CELLSJAVA-43987|La bordure droite des cellules fusionnées est perdue en html|
 |CELLSJAVA-44016|Problème lors de la conversion du fichier Excel contenant l'URL de l'image en HTML|
-|CELLSJAVA-43787|Exception "IllegalArgumentException : les longueurs de tiret sont toutes nulles ..." dans le rendu Excel vers HTML|
+|CELLSJAVA-43787|Exception "IllegalArgumentException : les longueurs de tiret sont toutes nulles ..." dans Excel pour le rendu HTML|
 |CELLSJAVA-43885|IllegalArgumentException lors de la conversion d'Excel|
 |CELLSJAVA-43874|Workbook.save lève une exception sur un fichier spécifique par Aspose.Cells uniquement lorsque la licence Aspose est appliquée|
 |CELLSJAVA-43969|Un nom avec la fonction COUNTIF et une référence externe produit une NullPointerException|

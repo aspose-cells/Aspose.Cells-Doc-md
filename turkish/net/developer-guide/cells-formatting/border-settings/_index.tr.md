@@ -22,11 +22,11 @@ Geliştiriciler, kullanarak bir hücreye kenarlıklar ekleyebilir[**stil**](http
 
 **Sınır numaralandırma**
 
-|**Kenarlık Türleri**|**Tanım**|
+|**Kenarlık Türleri**|**Açıklama**|
 |:- |:- |
 |Alt sınır|Bir alt sınır çizgisi|
 |Çapraz Aşağı|Sol üstten sağ alta çapraz bir çizgi|
-|çapraz yukarı|Sol alttan sağ üste çapraz bir çizgi|
+|çapraz Yukarı|Sol alttan sağ üste çapraz bir çizgi|
 |Sol Sınır|Bir sol sınır çizgisi|
 |Sağ Sınır|Sağ sınır çizgisi|
 |Üst Sınır|Bir üst sınır çizgisi|
@@ -39,7 +39,7 @@ Kenarlığın çizgi rengini ayarlamak için, Renk numaralandırmasını (.NET �
 
 **CellBorderType numaralandırma**
 
-|**Çizgi Stilleri**|**Tanım**|
+|**Çizgi Stilleri**|**Açıklama**|
 |:- |:- |
 |Çizgi nokta|İnce çizgi noktalı çizgi|
 |DashDotDot|İnce çizgi noktalı çizgi|
@@ -105,7 +105,7 @@ Aşağıdaki örnek, bir yazı tipine uygulamadan önce palete özel bir renk (O
 
 {{% alert color="primary" %}}
 
-Palet sadece 56 renk içerir. Palete özel bir renk eklediğinizde, palet değiştirilir ve önceki renkle biçimlendirilmiş dosyadaki herhangi bir öğe değiştirilir. Bu yüzden paleti değiştirirken lütfen çok dikkatli olun. Ayrıca, XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir sınırlama olmadığından, bu yalnızca XLS (Excel 97 - 2003) dosya biçimindeki sınırlamadır.
+Palet sadece 56 renk içerir. Palete özel bir renk eklediğinizde, palet değiştirilir ve önceki renkle biçimlendirilmiş dosyadaki herhangi bir öğe değiştirilir. Bu yüzden paleti değiştirirken lütfen çok dikkatli olun. Ayrıca, bu yalnızca XLS (Excel 97 - 2003) dosya biçimindeki sınırlamadır, çünkü XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir sınırlama yoktur.
 
 {{% /alert %}}
 

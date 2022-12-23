@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Skalningsfaktor**
- För att tillämpa skalning med**Aspose.Cells Java for Python** , ringa upp**skalning** metod av**utskriftsformat** modul.
+ För att tillämpa skalning med hjälp av**Aspose.Cells Java for Python** , ringa upp**skalning** metod av**utskriftsformat** modul.
 
 **Python Kod**
 

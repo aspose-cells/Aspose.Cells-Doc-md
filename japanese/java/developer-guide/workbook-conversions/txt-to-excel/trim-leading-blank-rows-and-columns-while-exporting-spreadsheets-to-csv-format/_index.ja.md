@@ -26,7 +26,7 @@ Excel または CSV ファイルの先頭に空白の列または行がある場
 
 ## **スプレッドシートを CSV 形式にエクスポートする際に、先頭の空白の行と列をトリミングする**
 
-次のサンプル コードは、先頭に 2 つの空白列があるソース Excel ファイルを読み込みます。最初にExcelファイルを変更せずにCSV形式で保存してから設定します**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**プロパティへ**真実**再度保存します。スクリーンショットは、[ソースエクセルファイル](sampleTrimBlankColumns.xlsx), [トリミングせずにCSVファイルを出力](outputWithoutTrimBlankColumns.csv)、 そしてその[トリミングしてCSVファイルを出力](outputTrimBlankColumns.csv).
+次のサンプル コードは、先頭に 2 つの空白列があるソース Excel ファイルを読み込みます。最初にExcelファイルを変更せずにCSV形式で保存してから設定します**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**プロパティへ**真実**再度保存します。スクリーンショットは、[ソースエクセルファイル](sampleTrimBlankColumns.xlsx), [トリミングなしで CSV ファイルを出力](outputWithoutTrimBlankColumns.csv)、 そしてその[CSV ファイルをトリミングして出力](outputTrimBlankColumns.csv).
 
 ![todo:画像_代替_文章](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 

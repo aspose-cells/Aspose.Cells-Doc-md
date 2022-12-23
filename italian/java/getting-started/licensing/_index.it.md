@@ -6,7 +6,7 @@ url: /it/java/licensing/
 ---
 {{% alert color="primary" %}} 
 
- È possibile scaricare una versione di valutazione di**Aspose.Cells** for Java da[la sua pagina di download](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Repository Maven. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del prodotto. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
+ È possibile scaricare una versione di valutazione di**Aspose.Cells** for Java da[la sua pagina di download](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven repos. La versione di valutazione offre assolutamente le stesse funzionalità della versione con licenza del prodotto. Inoltre, la versione di valutazione diventa semplicemente concessa in licenza quando acquisti una licenza e aggiungi un paio di righe di codice per applicare la licenza.
 
  Una volta che sei soddisfatto della tua valutazione di**Aspose.Cells** , puoi[acquistare una licenza](https://purchase.aspose.com)sul sito Aspose. Acquisisci familiarità con i diversi tipi di abbonamento offerti. In caso di domande, non esitare a contattare il team di vendita Aspose.
 
@@ -45,7 +45,7 @@ La licenza può essere caricata da un flusso o da un file nelle seguenti posizio
 1. Percorso esplicito.
 1. La cartella che contiene Aspose.Cells.jar.
 
- Utilizzare il[Licenza.setLicenza](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
+ Usa il[Licenza.setLicenza](https://reference.aspose.com/cells/java/com.aspose.cells/license#setLicense(java.io.InputStream)) metodo per concedere in licenza il componente. Spesso il modo più semplice per impostare una licenza consiste nell'inserire il file di licenza nella stessa cartella di Aspose.Cells.jar e specificare solo il nome del file senza percorso, come mostrato nell'esempio seguente:
 
 ### **Esempio 1**
 
@@ -87,7 +87,7 @@ lic.setLicense("Aspose.Cells.lic");
 
 ## **Applicazione della licenza misurata**
 
-Aspose.Cells consente agli sviluppatori di applicare la chiave misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare la licenza misurata. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
+Aspose.Cells consente agli sviluppatori di applicare la chiave misurata. È un nuovo meccanismo di licenza. Il nuovo meccanismo di licenza verrà utilizzato insieme al metodo di licenza esistente. I clienti che desiderano essere fatturati in base all'utilizzo delle funzionalità API possono utilizzare le licenze a consumo. Per maggiori dettagli, fare riferimento a[Domande frequenti sulle licenze misurate](https://purchase.aspose.com/faqs/licensing/metered)sezione.
 
 Una nuova classe[Misurato](https://reference.aspose.com/cells/java/com.aspose.cells/Metered)è stato introdotto per applicare la chiave misurata. Di seguito è riportato il codice di esempio che illustra come impostare la chiave pubblica e privata misurata.
 

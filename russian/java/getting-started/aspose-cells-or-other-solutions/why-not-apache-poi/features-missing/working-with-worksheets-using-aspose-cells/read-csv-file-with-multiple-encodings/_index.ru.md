@@ -4,8 +4,8 @@ type: docs
 weight: 70
 url: /ru/java/read-csv-file-with-multiple-encodings/
 ---
-## **Aspose.Cells — чтение CSV-файла с несколькими кодировками**
-Иногда ваш файл CSV содержит несколько кодировок (Unicode, ANSI, UTF8, UTF7 и т. д.). Aspose.Cells позволяет загружать такие файлы CSV и преобразовывать их в другие форматы, например PDF или XLSX.
+## **Aspose.Cells - Чтение файла CSV с несколькими кодировками**
+Иногда ваш файл CSV содержит несколько кодировок (Unicode, ANSI, UTF8, UTF7 и т. д.). Aspose.Cells позволяет загружать такие файлы CSV и преобразовывать их в другие форматы, например PDF или XLSX.
 
 **Java**
 

@@ -7,7 +7,7 @@ url: /ja/java/page-break-preview-in-php/
 ## **Aspose.Cells - 改ページのプレビュー**
 を使用してワークシートを改ページプレビューに設定するには**Aspose.Cells Java for PHP**、単に呼び出す**改ページプレビュー**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

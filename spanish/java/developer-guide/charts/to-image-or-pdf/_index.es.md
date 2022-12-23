@@ -7,17 +7,17 @@ url: /es/java/chart-rendering/
 ---
 ## **Creación de gráficos**
 
- Aspose.Cells Compatibilidad con API para crear gráficos de Excel como se detalla en el tema[Creación y personalización de gráficos de Excel](/cells/es/java/creating-and-customizing-charts/)Para demostrar el uso de las API Aspose.Cells para representar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento.
+ Aspose.Cells Compatibilidad con API para crear gráficos de Excel como se detalla en el tema[Creación y personalización de gráficos de Excel](/cells/es/java/creating-and-customizing-charts/). Para demostrar el uso de las API Aspose.Cells para representar los gráficos en formato de imagen y PDF, crearemos un gráfico de tipo Columna según el siguiente fragmento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **Representación de gráficos**
 
- Aspose.Cells Soporte de API para convertir los gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, el[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)la clase ha expuesto[**a la imagen**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**aPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) métodos con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+ Aspose.Cells Compatibilidad con API para convertir los gráficos de Excel en imágenes y PDF formatos sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, el[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)la clase ha expuesto[**a la imagen**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**aPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) métodos con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
 ### **Representación de gráficos en imágenes**
 
- los[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) método de la siguiente manera.
+ Él[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Chart.toImage**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) método de la siguiente manera.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-RenderChartsToImages-RenderChartsToImages.java" >}}
 
@@ -25,9 +25,9 @@ También es posible representar los gráficos en imágenes con configuraciones a
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Gráfico de renderizado a PDF**
+### **Tabla de renderizado al PDF**
 
- Para representar el gráfico en formato PDF, las API Aspose.Cells han expuesto el[**Gráfico.aPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) con la capacidad de almacenar el PDF resultante en la ruta del disco o en una instancia de OutputStream.
+ Para representar el gráfico en el formato PDF, las API Aspose.Cells han expuesto el[**Gráfico.aPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) con la capacidad de almacenar el PDF resultante en la ruta del disco o una instancia de OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -68,7 +68,7 @@ También es posible representar los gráficos en imágenes con configuraciones a
 ||DispersiónConectadoPorCurvasSinMarcador de datos|**Y**|
 ||ScatterConnectedByLinesWithDataMarker|**Y**|
 ||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**Área**|Área|**Y**|
+|**Zona**|Zona|**Y**|
 ||Área apilada|**Y**|
 ||Área100PorcentajeApilado|**Y**|
 ||Área3D|**Y**|
@@ -85,7 +85,7 @@ También es posible representar los gráficos en imágenes con configuraciones a
 ||SuperficieContornoEstructura metálica|norte|
 |**Burbuja**|Burbuja|**Y**|
 ||Burbuja3D|norte|
-|**Valores**|InventarioAltoBajoCerrar|**Y**|
+|**Existencias**|InventarioAltoBajoCerrar|**Y**|
 ||InventarioAbiertoAltoBajoCerrar|**Y**|
 ||InventarioVolumenAltoBajoCerrar|**Y**|
 ||StockVolumenAbiertoAltoBajoCerrar|**Y**|
@@ -121,7 +121,7 @@ También es posible representar los gráficos en imágenes con configuraciones a
 
 {{% alert color="primary" %}}
 
-En caso de que intente representar los tipos de gráficos no admitidos en imágenes o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
+En caso de que intente representar los tipos de gráficos no admitidos en una imagen o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}
 

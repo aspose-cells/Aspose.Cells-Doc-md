@@ -10,9 +10,9 @@ url: /fr/net/aspose-cells-for-net-20-2-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSNET-47113|Conversion délimitée par des tubes / CSV vers JSON|Nouvelle fonctionnalité|
+|CELLSNET-47113|Conversion délimitée par des tuyaux / CSV à JSON|Nouvelle fonctionnalité|
 |CELLSNET-47141|Le lien entre le tableau croisé dynamique et la connexion externe|Nouvelle fonctionnalité|
 |CELLSNET-47135|Aspose.Cells ne considère pas la formule/fonction avancée TEXTJOIN() comme formule|Renforcement|
 |CELLSNET-47126|Aspose.Cells supprime "volatileDependencies.xml" du fichier avec les formules RTD lors de la mise à jour du fichier XLSX|Renforcement|
@@ -27,25 +27,25 @@ url: /fr/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop prend beaucoup de temps pour charger des fichiers de grande taille|Punaise|
 |CELLSNET-47043|Impossible de sélectionner une cellule pour la feuille protégée dans GridDesktop|Punaise|
 |CELLSNET-47117|Aspose.Cells 20.1 Le type XAdES n'est pas défini lors de la lecture de fichiers précédemment signés avec des signatures XAdES|Punaise|
-|CELLSNET-47081|Graphique de rendu au format PDF|Punaise|
+|CELLSNET-47081|Tableau de rendu au PDF|Punaise|
 |CELLSNET-47085|Le graphique n'est pas rendu correctement lorsque la direction du texte des étiquettes d'axe est "Empiler"|Punaise|
 |CELLSNET-47112|La conversion du graphique en image échoue|Punaise|
-|CELLSNET-47133|Incohérence lors de l'exportation au format PDF|Punaise|
+|CELLSNET-47133|Incohérence lors de l'exportation vers PDF|Punaise|
 |CELLSNET-47107|L'objet de mise en forme conditionnelle donne des résultats erronés pour l'attribut IsAboveAverage|Punaise|
 |CELLSNET-47114|Workbook RemoveExternalLinks entraîne un document endommagé|Punaise|
 |CELLSNET-47139|Le fichier ODS avec la formule de lien externe affiche des feuilles de calcul supplémentaires|Punaise|
 |CELLSNET-47145|La plage nommée disparaît après l'ouverture et l'enregistrement du fichier ODS|Punaise|
 |CELLSNET-47146|Le fichier ne s'ouvre pas|Punaise|
 |CELLSNET-47147|Problème de nom de code de feuille|Punaise|
-|CELLSNET-47153|Les graphiques ODS changent après l'enregistrement|Punaise|
+|CELLSNET-47153|ODS les graphiques changent après l'enregistrement|Punaise|
 |CELLSNET-47157|Mauvais nombre de liens externes|Punaise|
 |CELLSNET-47164|La propriété IsItalic est détectée différemment de MS Excel|Punaise|
 |CELLSNET-47169|CategoryType.CategoryScale non défini dans le graphique ParetoLine|Punaise|
 |CELLSNET-47122|Exception "Index hors plage" lors de l'actualisation des tableaux croisés dynamiques|Exception|
 |CELLSNET-47156|IndexOutOfRangeException lors de l'accès à ExternalLink.IsReferred ou IsVisible|Exception|
-|CELLSNET-47140|Exception lors du chargement d'ODS dans GridDesktop|Exception|
+|CELLSNET-47140|Exception lors du chargement de ODS dans GridDesktop|Exception|
 |CELLSNET-47105|Exception lors de l'importation de données XML lorsqu'une colonne de la table n'est pas mappée|Exception|
-|CELLSNET-47170|Exception "Transposition non valide de 'DateTime' à 'Double'" lors de l'enregistrement d'un fichier Excel au format PDF|Exception|
+|CELLSNET-47170|Exception "Invalid cast from 'DateTime' to 'Double'" lors de l'enregistrement d'un fichier Excel au PDF|Exception|
 |CELLSNET-47152|Worksheet.Cells.EndCellInRow donnant une erreur pour le fichier|Exception|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.

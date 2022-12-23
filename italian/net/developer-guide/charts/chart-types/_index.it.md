@@ -37,7 +37,7 @@ I grafici standard sono quelli normalmente utilizzati con la formattazione stand
 |:- |:- |
 Ciascuno dei tipi di grafici standard è descritto più dettagliatamente di seguito.
 #### **Grafici a colonne**
-grafici a colonne utilizzano barre verticali (chiamate colonne) per visualizzare valori diversi di uno o più elementi di dati. I grafici a colonne vengono utilizzati principalmente per confrontare i valori tra diverse categorie. Sono ideali per mostrare le variazioni del valore di un articolo nel tempo, ad esempio quando si esegue un'analisi del budget.
+I grafici a colonne utilizzano barre verticali (chiamate colonne) per visualizzare valori diversi di uno o più elementi di dati. I grafici a colonne vengono utilizzati principalmente per confrontare i valori tra diverse categorie. Sono ideali per mostrare le variazioni del valore di un articolo nel tempo, ad esempio quando si esegue un'analisi del budget.
 
 I seguenti istogrammi sono supportati in Aspose.Cells:
 
@@ -78,7 +78,7 @@ I marcatori di dati vengono utilizzati per rappresentare i punti dati, i singoli
 
 {{% /alert %}} 
 #### **Grafici a torta**
-I grafici a torta vengono utilizzati principalmente per visualizzare informazioni quando si desidera rappresentare le diverse parti di un intero o le percentuali di un totale.
+grafici a torta vengono utilizzati principalmente per visualizzare informazioni quando si desidera rappresentare le diverse parti di un intero o le percentuali di un totale.
 
 I seguenti grafici a torta sono supportati in Aspose.Cells:
 
@@ -119,7 +119,7 @@ I seguenti grafici ad anello sono supportati in Aspose.Cells:
 
 #### **Grafici radar**
 
-I grafici a radar sono particolarmente utili quando si desidera esaminare diversi fattori correlati a un elemento. Questi grafici hanno più assi lungo i quali è possibile tracciare i dati.
+grafici a radar sono particolarmente utili quando si desidera esaminare diversi fattori correlati a un elemento. Questi grafici hanno più assi lungo i quali è possibile tracciare i dati.
 
 I seguenti grafici radar sono supportati in Aspose.Cells:
 
@@ -149,7 +149,7 @@ I seguenti grafici a bolle sono supportati in Aspose.Cells:
 - Grafico a bolle semplice
 - Grafico a bolle 3D
 #### **Grafici azionari**
-grafici azionari sono utilizzati principalmente per i dati sui prezzi delle azioni, ma possono essere utilizzati anche per i dati scientifici.
+I grafici azionari sono utilizzati principalmente per i dati sui prezzi delle azioni, ma possono essere utilizzati anche per i dati scientifici.
 
 I seguenti grafici azionari sono supportati in Aspose.Cells:
 
@@ -160,7 +160,7 @@ I seguenti grafici azionari sono supportati in Aspose.Cells:
 #### **Grafici cilindrici**
 Questi tipi di grafici utilizzano marcatori di dati cilindrici per conferire un effetto straordinario a istogrammi, istogrammi e istogrammi 3D.
 
-I seguenti grafici dei cilindri sono supportati in Aspose.Cells:
+seguenti grafici dei cilindri sono supportati in Aspose.Cells:
 
 - Schema cilindro semplice
 - Grafico a cilindri impilati
@@ -172,7 +172,7 @@ I seguenti grafici dei cilindri sono supportati in Aspose.Cells:
 #### **Grafici a cono**
 Questi tipi di grafici utilizzano indicatori di dati a cono per conferire un effetto drammatico a istogrammi, barre e istogrammi 3D.
 
-seguenti grafici a cono sono supportati in Aspose.Cells:
+I seguenti grafici a cono sono supportati in Aspose.Cells:
 
 - Grafico a cono semplice
 - Grafico a cono impilato

@@ -37,13 +37,13 @@ Dans la capture d'écran ci-dessus, vous pouvez voir qu'une formule a été ajou
 
 {{% alert color="primary" %}} 
 
- Les utilisateurs peuvent également calculer des formules en cliquant sur**Soumettre**.
+ Les utilisateurs peuvent également calculer des formules en cliquant sur**Nous faire parvenir**.
 
 **En cliquant sur le bouton Soumettre de GridWeb** 
 
 ![tâche : image_autre_texte](add-cell-formulas_2.png)
 
-**IMPORTANT** : Si un utilisateur clique sur le**sauvegarder** ou**annuler** ou les onglets de la feuille, toutes les formules sont calculées automatiquement par GridWeb.
+**IMPORTANT** : Si un utilisateur clique sur le**Sauver** ou alors**annuler** ou les onglets de la feuille, toutes les formules sont calculées automatiquement par GridWeb.
 
 **Résultat de la formule après calcul** 
 

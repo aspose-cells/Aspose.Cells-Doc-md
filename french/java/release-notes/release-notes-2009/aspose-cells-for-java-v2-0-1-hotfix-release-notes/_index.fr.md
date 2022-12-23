@@ -40,17 +40,17 @@ url: /fr/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  Problèmes résolus dans Aspose.Cells for Java 2.0.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
-|6722 | SAO| Fichier R/W ODS|
+|6722 |ODS | Fichier R/W ODS|
 |7834 | Xls| Cell.getPrecedents|
-|6516 | HTML| Enregistre la feuille de calcul à diffuser au format html.|
+|6516 |HTML | Enregistre la feuille de calcul à diffuser au format html.|
 |7744 | Xls| Fichier crypté R/W : Microsoft Strong Cryptographic Provider.|
 |7745 | Xls| Supprime ASeries de la collection NSeries.|
 |7571 | Xlsx| Hyperliens.|
 |7572 | Xls| Formule : SUMIF.|
-|7575 | Xls|Formule : ROND.|
-|7649 | Xls| DataLabels de PivotChart.|
+|7575 | Xls| Formule : ROND.|
+|7649 | Xls|DataLabels de PivotChart.|
 |7343 | Xls| Définit la propriété d'OleObject : OleSize.|
 |7408 | Xls| Crée un filtre automatique.|
 |7500 | Xls| Enregistre FillFormat de la zone dans le graphique.|

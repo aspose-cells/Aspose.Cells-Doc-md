@@ -17,12 +17,12 @@ Unicode Character Standard では、補助文字は、U+10000 から U+10FFFF �
 
 ## Aspose.Cells による出力 PDF の Unicode 補助文字のレンダリング
 
-次のスクリーンショットは、Aspose.Cells がどのようにレンダリングされたかを示しています。[ソースエクセルファイル](5115563.xlsx)に[PDF出力](5115564.pdf).ご覧のとおり、3 つの Unicode 補助文字はすべて、Microsoft Excel とまったく同じようにレンダリングされています。
+次のスクリーンショットは、Aspose.Cells がどのようにレンダリングされたかを示しています。[ソースエクセルファイル](5115563.xlsx)に[出力 PDF](5115564.pdf).ご覧のとおり、3 つの Unicode 補助文字はすべて、Microsoft Excel とまったく同じようにレンダリングされています。
 
 ![todo:画像_代替_文章](output.png)
 
 ## サンプルコード
 
-このサンプルコードを使用して変換できます[ソースエクセルファイル](5115563.xlsx)の中へ[PDF出力](5115564.pdf).
+このサンプルコードを使用して変換できます[ソースエクセルファイル](5115563.xlsx)の中へ[出力 PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

@@ -10,7 +10,7 @@ url: /tr/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, Form Düğmesine Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Bir kez, çıktı XLSM dosyasını Microsoft Excel'de açacaksınız, aşağıdaki makro kodunu göreceksiniz.
+Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, bir Form Düğmesine Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Bir kez, XLSM çıktı dosyasını Microsoft Excel'de açacaksınız, aşağıdaki makro kodunu göreceksiniz.
 
 {{< highlight "java" >}}
 
@@ -24,6 +24,6 @@ End Sub
 
 ## **C#'de Form Kontrolüne Makro Ata**
 
-İşte Makro Kodu ile çıktı XLSM dosyasını oluşturmak için örnek kod.
+İşte Makro Kodu ile XLSM çıktı dosyasını oluşturmak için örnek kod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

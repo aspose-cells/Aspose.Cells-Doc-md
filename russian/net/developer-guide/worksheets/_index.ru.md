@@ -66,7 +66,7 @@ Aspose.Cells способен выполнять все эти задачи.
 Aspose.Cells предоставляет специальные вызовы API для активации листа и ячейки. Например,[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)Свойство полезно для установки активного листа в книге.
 Сходным образом,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)Свойство используется для установки и получения активной ячейки на листе.
 
-Чтобы убедиться, что горизонтальные или вертикальные полосы прокрутки находятся в позиции индекса строки и столбца, в которой вы хотите отобразить определенные данные, используйте[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) а также[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)характеристики.
+Чтобы убедиться, что горизонтальные или вертикальные полосы прокрутки находятся в позиции индекса строки и столбца, в которой вы хотите отобразить определенные данные, используйте[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) и[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)характеристики.
 
 В следующем примере показано, как активировать рабочий лист и сделать в нем активную ячейку. В сгенерированном выводе полосы прокрутки будут прокручиваться, чтобы сделать 2-ю строку и 2-й столбец их первой видимой строкой и столбцом.
 

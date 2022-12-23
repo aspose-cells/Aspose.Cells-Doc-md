@@ -12,12 +12,12 @@ Microsoft Visual Studio هو بيئة تطوير متكاملة (IDE) من Micro
 
 يوفر Aspose.Cells for .NET مجموعة المكونات الأكثر مرونة التي تمكن تطبيقات .NET من إنشاء جداول بيانات Excel® وتعديلها وتحويلها وتقديمها وطباعتها دون الحاجة إلى تثبيت Microsoft Excel® على الخادم.
 
-Aspose.Cells for .NET يدعم جميع Microsoft Excel وتنسيقات الملفات الأخرى بما في ذلك XLS و XLSX و XLSM و XLTX / XLTM و HTML و CSV و ODS و Tab Delimited و SpreadsheetML و PDF ، إلخ.
+Aspose.Cells for .NET يدعم جميع تنسيقات Excel Microsoft الرئيسية وتنسيقات الملفات الأخرى بما في ذلك XLS و XLSX و XLSM و XLTX/XLTM و HTML و CSV و ODS و Tab Delimited و SpreadsheetML و PDF
  لمزيد من التفاصيل حول[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **استكشف Aspose.Cells for .NET أمثلة باستخدام Visual Studio**
 
- Aspose Visual Studio Plugin -**استكشف Aspose.Cells for .NET أمثلة** هي أداة رائعة لتنزيل أمثلة Aspose.Cells for .NET API واستكشافها بسرعة. إنه يوفر الكثير من الوقت والجهود من خلال توفير خيار بسيط للغاية لتحديد وتنزيل وفتح أحدث مشاريع الأمثلة بسلاسة دون الحاجة إلى مغادرة Visual Studio الخاص بك.
+Aspose Visual Studio Plugin -**استكشف Aspose.Cells for .NET أمثلة** هي أداة رائعة لتنزيل أمثلة Aspose.Cells for .NET API واستكشافها بسرعة. إنه يوفر الكثير من الوقت والجهود من خلال توفير خيار بسيط للغاية لتحديد وتنزيل وفتح أحدث مشاريع الأمثلة بسلاسة دون الحاجة إلى مغادرة Visual Studio الخاص بك.
 
 يوفر هذا الإصدار الميزات التالية:
 

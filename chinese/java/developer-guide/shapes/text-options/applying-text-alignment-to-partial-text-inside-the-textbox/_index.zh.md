@@ -13,7 +13,7 @@ TextBoxes 可以提高我们的文档和图表的表现力，对 TextBox 的不�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-您还可以使用适当的 HTML 文本更改 TextBox 形状内某些文本的文本对齐方式。以下示例代码将文本对齐方式应用于 TextBox 内的部分文本。
+您还可以使用适当的 HTML 文本更改文本框形状内某些文本的文本对齐方式。以下示例代码将文本对齐方式应用于文本框内的部分文本。
 
 [源文件](SampleTextboxExcel2016.xlsx)
 

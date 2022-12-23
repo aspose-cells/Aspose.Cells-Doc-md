@@ -28,7 +28,7 @@ url: /ja/java/aspose-cells-for-java-8-5-2-release-notes/
 ## **機能強化**
 
 
-(CELLSJAVA-41373) - Excel ファイルを HTML ファイル形式に保存した後の配置設定の不一致
+(CELLSJAVA-41373) - Excel ファイルを HTML ファイル形式で保存した後の配置設定の不一致
 
 
 ## **バグ**
@@ -42,7 +42,7 @@ url: /ja/java/aspose-cells-for-java-8-5-2-release-notes/
 
 (CELLSJAVA-41429) - スプレッドシートを再保存すると、トランジション数式エントリの Lotus 互換性設定が変更される
 
-(CELLSJAVA-41427) - 検証が多すぎると Cells が XLS ファイルを破損する
+(CELLSJAVA-41427) - 検証 Cells が多すぎると XLS ファイルが破損する
 
 (CELLSJAVA-41424) - ICustomFunction インターフェイスを介してカスタム関数を使用すると、正しい値が計算されない
 
@@ -52,7 +52,7 @@ url: /ja/java/aspose-cells-for-java-8-5-2-release-notes/
 
 (CELLSJAVA-41419) - OutOfMemoryError、Aspose.Cells は数百万のセルを永久に保持します
 
-(CELLSJAVA-41395) - ODS から HTML への変換 - テキストスタイルの問題
+(CELLSJAVA-41395) - ODS から HTML への変換 - テキスト スタイルの問題
 
 (CELLSJAVA-41426) - Cell pdf に変換すると、x 軸のグラフが正しくスケーリングされない
 
@@ -84,7 +84,7 @@ PivotField の DisplayName で Cell オブジェクトを取得します。
 
 
 
-SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) メソッドを追加
+ SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) メソッドを追加
 
 SheetRender の特定のページを Graphics にレンダリングします。
 

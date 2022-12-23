@@ -8,15 +8,15 @@ keywords: Convert, Convert CVS to JSON, CSV to JSON, CSV, JSON, Convert CSV to J
 ---
 ## **将 CSV 转换为 JSON**
 
-Aspose.Cells 支持将 CSV 转换为 JSON。为此，API 提供**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**类。这**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类提供将范围导出到 JSON 的选项。这**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类具有以下属性。
+Aspose.Cells 支持将 CSV 转换为 JSON。为此，API 提供**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**类。这**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类提供了将范围导出到 JSON 的选项。**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**类具有以下属性。
 
-- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**：这会将单元格的字符串值导出到 JSON。
+- **[ExportAsString](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/exportasstring)**：这会将单元格的字符串值导出为 JSON。
 - **[HasHeaderRow](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/hasheaderrow)**：这表示范围是否包含标题行。
 - **[缩进](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions/properties/indent)**表示缩进。
 
 这**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**类使用设置的导出选项导出 JSON**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**班级。
 
-下面的代码示例演示了使用**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**加载的类[源 CSV 文件](104398879.csv)并在控制台中打印 JSON 输出。
+下面的代码示例演示了使用**[ExportRangeToJsonOptions](https://reference.aspose.com/cells/net/aspose.cells.utility/exportrangetojsonoptions)**和**[JsonUtility](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)**加载的类[源文件 CSV](104398879.csv)并在控制台中打印 JSON 输出。
 
 ### **示例代码**
 

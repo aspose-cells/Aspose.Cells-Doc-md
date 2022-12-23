@@ -10,7 +10,7 @@ Bu makale, Aspose.Cells API'leri ile özel işlevleri uygulamak için ICustomFun
 
 ICustomFunction arabirimi, belirli gereksinimleri karşılamak amacıyla Aspose.Cells' çekirdek hesaplama motorunu genişletmek için özel formül hesaplama işlevleri eklemeye izin verir. Bu özellik, bir şablon dosyasında veya kodda özel (kullanıcı tanımlı) işlevleri tanımlamak için kullanışlıdır; burada özel işlev, diğer herhangi bir varsayılan Microsoft Excel işlevi gibi Aspose.Cells API'leri kullanılarak uygulanıp değerlendirilebilir.
 
- Lütfen dikkat, bu arayüz şu şekilde değiştirildi:[SoyutHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ve gelecekte kaldırılacaktır. Yeni API ile ilgili bazı teknik makaleler/örnekler:[burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) ve[burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Lütfen dikkat, bu arayüz şu şekilde değiştirildi:[SoyutHesaplamaMotoru](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) ve gelecekte kaldırılacaktır. Yeni API ile ilgili bazı teknik makaleler/örnekler:[Burada](/cells/tr/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) ve[Burada](/cells/tr/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

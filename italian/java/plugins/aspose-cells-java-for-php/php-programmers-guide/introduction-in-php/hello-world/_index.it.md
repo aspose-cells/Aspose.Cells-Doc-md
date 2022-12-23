@@ -41,6 +41,6 @@ print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Hello World (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Hello World (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/quickstart/HelloWorld.php)

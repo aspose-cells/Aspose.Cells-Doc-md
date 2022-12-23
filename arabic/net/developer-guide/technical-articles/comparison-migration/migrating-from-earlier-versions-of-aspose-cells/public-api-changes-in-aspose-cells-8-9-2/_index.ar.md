@@ -89,7 +89,7 @@ textOptions.Outline.SetOneColorGradient(Color.Blue, 0.3, GradientStyleType.Horiz
 
 
 ### **تمت إضافة خاصية Shape.Line**
-كشف Aspose.Cells for .NET خاصية Shape.Line التي ترجع مثيل LineFormat للتحكم في مظهر الخطوط الخارجية للشكل.
+كشف Aspose.Cells for .NET خاصية Shape.Line التي تُرجع مثيل LineFormat للتحكم في مظهر الخطوط الخارجية للشكل.
 
 فيما يلي سيناريو استخدام بسيط لخاصية Shape.Line.
 

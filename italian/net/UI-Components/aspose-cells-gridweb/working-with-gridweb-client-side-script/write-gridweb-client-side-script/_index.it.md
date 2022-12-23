@@ -65,7 +65,7 @@ Aspose.Cells.GridWeb espone anche funzioni specialmente per lo scripting lato cl
 Per creare un'applicazione di test contenente script lato client che funzionano con Aspose.Cells.GridWeb, attenersi alla seguente procedura:
 
 1. Crea funzioni JavaScript che devono essere richiamate da GridWeb.
- Queste funzioni verranno aggiunte alle pagine ASP.NET<script></script>etichetta.
+ Queste funzioni verranno aggiunte alle pagine ASP.NET<script></script> etichetta.
 1. Assegnare i nomi delle funzioni alle proprietà OnSubmitClientFunction e OnValidationErrorClientFunction.
 
 L'output dell'esempio di codice è mostrato di seguito:

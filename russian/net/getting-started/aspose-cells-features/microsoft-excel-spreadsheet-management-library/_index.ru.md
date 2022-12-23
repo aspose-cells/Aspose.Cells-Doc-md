@@ -7,11 +7,11 @@ url: /ru/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Библиотека управления электронными таблицами Excel**
 ### **Особенности документа**
 - Открывайте обычные или зашифрованные файлы Microsoft Excel (Excel97 - Excel2007/2010/2013) из разных источников.
-- Сохраняйте файлы Excel (Excel 97 - Excel2007/2010/2013) в разных форматах (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML и т. д.)
+- Сохранение файлов Excel (Excel 97 - Excel2007/2010/2013) в разных форматах (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, 483 0761 и т. д.)
 - Преобразование файла Excel в документ PDF.
 - Преобразование электронной таблицы Excel в документ XPS.
 - Преобразование в формат файла изображения с тегами (TIFF).
-- Чтение и запись в формате OpenDocument Spreadsheet (ODS).
+- Формат чтения и записи электронной таблицы OpenDocument (ODS).
 - Измените свойства документа файлов Excel.
 ### **Особенности рабочего листа**
 #### **Показать варианты**

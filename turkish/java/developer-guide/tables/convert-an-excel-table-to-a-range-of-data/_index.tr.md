@@ -18,11 +18,11 @@ Aspose.Cells, tablolar ve liste nesneleri için Microsoft Excel'in bu özelliği
 
 1. Aktif hücrenin bir tablo sütununda olduğundan emin olmak için tabloda herhangi bir yeri tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](convert-an-excel-table-to-a-range-of-data_1.gif)
+![yapılacaklar:resim_alternatif_metin](convert-an-excel-table-to-a-range-of-data_1.gif)
 
-1.  Üzerinde**Tasarım** sekmesinde, içinde**Aletler** grup, tıklayın**Aralığa Dönüştür**.
+1.  Üzerinde**Tasarım** sekmesinde, içinde**Araçlar** grup, tıklayın**Aralığa Dönüştür**.
 
-![yapılacaklar:resim_alternatif_Metin](convert-an-excel-table-to-a-range-of-data_2.gif)
+![yapılacaklar:resim_alternatif_metin](convert-an-excel-table-to-a-range-of-data_2.gif)
 
 {{% alert color="primary" %}}
 

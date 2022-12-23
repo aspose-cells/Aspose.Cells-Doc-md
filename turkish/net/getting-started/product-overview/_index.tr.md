@@ -6,7 +6,7 @@ url: /tr/net/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_1.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
 
 **Aspose.Cells for .NET belgelerine hoş geldiniz**
 
@@ -27,7 +27,7 @@ Aspose.Cells for .NET (yönetilen C#'de yazılmıştır), C#, VB.NET ve J# vb. g
 
 Aspose.Cells API'ler, Excel dosyalarını akışlara kaydetme ve akışlardan açma, çıktıyı bir istemci tarayıcısına gönderme, DataTable, DataView veya Array'den veri içe ve dışa aktarma, grafikler ve Pivot Tablolar oluşturma, görüntüleri ve çizelgeleri içe aktarma, içe aktarma gibi birçok gelişmiş özellik sunar. bir tasarımcı elektronik tablosundan formül oluşturma, tasarımcı çizelgelerini resimlere dönüştürme ve sayfa kurulumunu yapılandırmanın yanı sıra yerel Microsoft Excel dosyaları oluşturma veya okuma gibi ortak özellikler.
 
-Aspose.Cells API'ler, CSV ve SpreadsheetML biçimleri için destek, mevcut bir çalışma sayfasının bir kopyasını (tüm içeriği, resimleri ve çizelgeleri olan) bir dosyaya ekleme, grafikler için gradyan arka planı ayarlama, yorumlar oluşturma, otomatik filtreler gibi bir dizi benzersiz özelliğe sahiptir. ve sayfa sonları, karmaşık formüller ayarlama, koşullu biçimlendirmeyi destekleme, Microsoft Excel XP veya üzeri sürümlerde sunulan koruma seçeneklerini destekleme, adlandırılmış aralıkları değiştirme, özel grafik API'i destekleme ve güçlü bir formül hesaplama motoru.
+Aspose.Cells API'leri, CSV ve SpreadsheetML biçimleri için destek, mevcut bir çalışma sayfasının bir kopyasını (tüm içeriği, resimleri ve çizelgeleri olan) bir dosyaya ekleme, grafikler için gradyan arka planı ayarlama, yorumlar oluşturma, otomatik filtreler gibi bir dizi benzersiz özelliğe sahiptir. ve sayfa sonları, karmaşık formüller ayarlama, koşullu biçimlendirmeyi destekleme, Microsoft Excel XP veya üzeri sürümlerde sunulan koruma seçeneklerini destekleme, adlandırılmış aralıkları değiştirme, özel grafik API'i destekleme ve güçlü bir formül hesaplama motoru.
 
 Aspose.Cells Grid Suite, ister Windows ister Web uygulaması olsun, her türlü uygulama ile kullanılabilir. Geliştiriciler, ızgara denetimlerini Visual Studio'nun araç kutusundan Windows veya Web Formlarına kolayca sürükleyip bırakabilir. Aspose.Cells Grid Suite yalnızca elektronik tablo dosyalarının ve diğer veri kaynaklarının içe aktarılmasını desteklemekle kalmaz, aynı zamanda sıfırdan elektronik tablo içerikleri ve stilleri oluşturmak için bir dizi API sağlar. Bu özellikler, Aspose.Cells Grid Suite'i, geliştiricilerin elektronik tablo verilerini görüntülemek ve yönetmek için güçlü ve profesyonel uygulamalar oluşturması için son derece uygun hale getirir. Aspose.Cells Grid Suite ayrıca geliştiricilerin fazla çaba harcamadan ızgaraların görünümü ve davranışı üzerinde tam kontrol sahibi olmalarını sağlar ve en önemlisi, Aspose.Cells Grid Suite uygun maliyetlidir.
 ## **Teknik Destek**

@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.4.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-53|Prend en charge les fonctions/modules de dessin|Nouvelle fonctionnalité|
 |CELLSCPP-57|Implémenter la bibliothèque System.Drawing|Nouvelle fonctionnalité|
@@ -29,7 +29,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.4.
 |CELLSCPP-89|Traduire et déboguer le cas de test dans le répertoire Charts/EnumTypes|Nouvelle fonctionnalité|
 |CELLSCPP-91|Traduire le cas de test dans Finds|Nouvelle fonctionnalité|
 |CELLSCPP-96|Traduire et déboguer le cas de test dans le répertoire Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts|Nouvelle fonctionnalité|
-|CELLSCPP-97|Déboguer et résoudre les problèmes concernant le rendu XLSX/XLS en PDF|Nouvelle fonctionnalité|
+|CELLSCPP-97|Déboguer et résoudre les problèmes concernant le rendu XLSX/XLS à PDF|Nouvelle fonctionnalité|
 |CELLSCPP-98|Traduire et déboguer le cas de test dans le répertoire LightCells|Nouvelle fonctionnalité|
 |CELLSCPP-100|Traduire et déboguer le cas de test dans le répertoire Merges/OpenSaves/PageSetups/PDF|Nouvelle fonctionnalité|
 |CELLSCPP-101|Traduire et déboguer le cas de test dans le répertoire PivotTables|Nouvelle fonctionnalité|

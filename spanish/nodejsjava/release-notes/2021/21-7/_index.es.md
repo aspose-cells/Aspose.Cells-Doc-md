@@ -25,10 +25,10 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-21-7-release-notes/
 |CELLSJAVA-43528|La fecha y hora de creación y la fecha de actualización no se pueden extraer|
 |CELLSJAVA-43529|No se puede extraer BuiltInDocumentProperties|
 |CELLSJAVA-43530|Los resultados de las propiedades de fecha y hora son diferentes|
-|CELLSJAVA-41693|La ecuación en un cuadro de texto no se procesa en PDF|
-|CELLSJAVA-43487|Texto no centrado en el PDF de salida en la conversión de Excel a PDF|
+|CELLSJAVA-41693|La ecuación en un cuadro de texto no se representa en PDF|
+|CELLSJAVA-43487|Texto no centrado en la salida PDF en conversión de Excel a PDF|
 |CELLSJAVA-42867|Las formas no se recuperan en el formato de archivo ODS|
-|CELLSJAVA-42895|La salida PNG del gráfico de MS Excel tiene discrepancias|
+|CELLSJAVA-42895|PNG la salida del gráfico de MS Excel tiene discrepancias|
 |CELLSJAVA-43015|Problema con SheetRender.toImage() al usar el método setPrintArea()|
 |CELLSJAVA-43258|Cambios en la negrita de la fuente de los puntos del gráfico después de la copia del libro|
 |CELLSJAVA-43436|Aspose Cells ignora el eje y invertido en el diagrama|
@@ -49,11 +49,11 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 
 ### **Agrega el método PivotFormatCondition.AddColumnAreaCondition(PivotField columnField) .**
 
-Agrega límite de formato condicional de tabla dinámica en los campos de columna.
+ Agrega límite de formato condicional de tabla dinámica en los campos de columna.
 
 ### **Agrega el método PivotFormatCondition.AddColumnAreaCondition(String fieldName).**
 
-Agrega límite de formato condicional de tabla dinámica en los campos de columna.
+ Agrega límite de formato condicional de tabla dinámica en los campos de columna.
 
 ### **Agrega el método PivotFormatCondition.AddRowAreaCondition(PivotField rowField) .**
 

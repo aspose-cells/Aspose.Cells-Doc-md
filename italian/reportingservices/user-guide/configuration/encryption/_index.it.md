@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /it/reportingservices/encryption/
 ---
- Aspose.Cells for Reporting Services supporta tre tipi di crittografia: XOR, WEAK ENCRYPTION e Microsoft Strong Cryptographic Provider. Vedere le informazioni sulla configurazione della crittografia nel file**Aspose.Cells.ReportingServices.xml** file.
+Aspose.Cells for Reporting Services supporta tre tipi di crittografia: XOR, WEAK ENCRYPTION e Microsoft Strong Cryptographic Provider. Vedere le informazioni sulla configurazione della crittografia nel file**Aspose.Cells.ReportingServices.xml** file.
 
  Quando il valore di Encryption è**spento**, Aspose.Cells for Reporting Services disattiva le funzionalità di crittografia.
 
@@ -37,7 +37,7 @@ url: /it/reportingservices/encryption/
 Ci sono quattro parametri nella sezione di crittografia:
 
 - **ReportName**: punta a un report che necessita di crittografia. Se il parametro viene lasciato vuoto, tutti i report utilizzano lo stesso metodo di crittografia.
-- **Parola d'ordine**imposta la password. Non può essere vuoto.
+- **Parola d'ordine**: imposta la password. Non può essere vuoto.
 - **Tipo di crittografia**: imposta un tipo di crittografia. Non può essere vuoto.
 - **Lunghezza chiave**: imposta la lunghezza della chiave. Non può essere vuoto.
 

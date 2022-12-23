@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43934) - 支持智能标记以接受通用列表作为嵌套对象
@@ -32,9 +32,9 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44043) - 打开并重新保存大型 Excel 文件会损坏文档
 
-(CELLSNET-44031) - 在 v8.6.1 中保存后，XLSB 在 Excel 2010 中损坏
+(CELLSNET-44031) - XLSB 在 v8.6.1 中保存后在 Excel 2010 中损坏
 
-(CELLSNET-43990) - 将电子表格渲染为 PDF 时错位的自选图形
+(CELLSNET-43990) - 将电子表格渲染到 PDF 时错放自选图形
 
 (CELLSNET-43989) - 文本框中行与行之间的间距减少
 
@@ -46,7 +46,7 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-43421) - 将电子表格转换为 PDF 时箭头未正确呈现
 
-(CELLSNET-43391) - 带有隐藏列的表格的 HTML 呈现问题
+(CELLSNET-43391) - 带有隐藏列的表的 HTML 呈现问题
 
 (CELLSNET-44045) - Workbook.CalculateFormula 方法无限期卡住
 
@@ -80,7 +80,7 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44060) - 复制表格后形状字体颜色错误
 
-(CELLSNET-44056) - 保存为 PDF 丢失垂直边框
+(CELLSNET-44056) - 保存到 PDF 丢失垂直边框
 
 (CELLSNET-44049) - 隐藏的列失去了宽度
 
@@ -88,15 +88,15 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44037) - 聚合函数导致#NAME 错误，直到用户输入公式栏
 
-(CELLSNET-44034) - 验证不适用于 XLSB 格式
+(CELLSNET-44034) - 验证在 XLSB 格式中不起作用
 
 (CELLSNET-44030) - SUMIFS Excel 函数在 XLSB 格式下不起作用
 
-(CELLSNET-44007) - 在重新保存 XLSB 时在生成的电子表格中复制相机对象
+(CELLSNET-44007) - 重新保存时在生成的电子表格中复制相机对象 XLSB
 
-(CELLSNET-44006) - 打开重新保存的 XLS 时受保护的视图错误
+ (CELLSNET-44006) - 打开重新保存时受保护的视图错误 XLS
 
-(CELLSNET-44001) - NOW() 公式无法在 SpreadsheetML(XML) 到 PDF 的转换中正确显示
+(CELLSNET-44001) - NOW() 公式在 SpreadsheetML(XML) 到 PDF 的转换中未正确显示
 
 (CELLSNET-43894) - 无法更新 OLE 链接 ObjectSourceFullName
 
@@ -108,9 +108,9 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 (CELLSNET-44008) - SheetRender.ToImage 中的 CellsException
 
- (CELLSNET-43926) - Workbook.CalculateFormula 中的 CellsException
+(CELLSNET-43926) - Workbook.CalculateFormula 中的 CellsException
 
- (CELLSNET-44052) - Excel 到 PDF 转换中的 Workbook.Save() 发生异常
+ (CELLSNET-44052) - Excel 中的 Workbook.Save() 到 PDF 转换时发生异常
 
 (CELLSNET-44050) - Workbook ctor 的 System.FormatException
 
@@ -121,10 +121,10 @@ url: /zh/net/aspose-cells-for-net-8-6-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
-(CELLSNET-44036) - 整个文本的字体颜色相同，即使单元格中的文本颜色不同
+ (CELLSNET-44036) - 整个文本的字体颜色相同，即使单元格中的文本颜色不同
 
 (CELLSNET-44033) - 在服务器端以 Ajax 模式获取修改后的单元格
 

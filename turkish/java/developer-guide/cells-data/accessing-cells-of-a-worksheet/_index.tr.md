@@ -48,7 +48,7 @@ Aşağıdaki şekilde, seçilen çalışma sayfasının maksimum görüntüleme 
 
 **Bu çalışma sayfasının maksimum görüntüleme aralığı gösteriliyor** 
 
-![yapılacaklar:resim_alternatif_Metin](accessing-cells-of-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](accessing-cells-of-a-worksheet_1.png)
 
  Aşağıdaki örnek kod, nasıl erişileceğini gösterir.[Maksimum Görüntü Aralığı](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)Emlak. Kod aşağıdaki çıktıyı üretir.
 

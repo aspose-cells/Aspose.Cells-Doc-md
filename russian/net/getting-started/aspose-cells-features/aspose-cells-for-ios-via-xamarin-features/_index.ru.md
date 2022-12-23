@@ -13,11 +13,11 @@ url: /ru/net/aspose-cells-for-ios-via-xamarin-features/
 |:- |:- |:- |:- |
 |Качественные конверсии|Быстро и надежно конвертируйте между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Книга Excel (XLS)|Самая быстрая и наиболее полная реализация формата XLS, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Электронная таблицаML (XLSX, XML)| Aspose.Cells поддерживает OOXML, Flat OPC, а также Excel 2003 XML. Более того,<br>компонент поддерживает все основные форматы файлов Excel 2007, 2010 и 2013, например XLSX, XLTX, XLSM, XLTM и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells поддерживает OOXML, Flat OPC, а также Excel 2003 XML. Более того,<br>компонент поддерживает все основные форматы файлов Excel 2007, 2010 и 2013, например XLSX, XLTX, XLSM, XLTM и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Значение, разделенное запятыми (CSV)|Всесторонняя поддержка формата CSV для взаимодействия с различными приложениями.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Сохранить как HTML доступно.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Открытый документ (ODS)|Aspose.Cells может загружать и сохранять документы в формате электронной таблицы OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|Конвертируйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Сохранить как HTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODS)|Aspose.Cells может загружать и сохранять документы в формате электронной таблицы OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|Преобразуйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Табуляция с разделителями|Загружайте и сохраняйте документы в формате файлов с разделителями табуляции.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Обычный текст (TXT)|Легко извлекайте текст, сохраняя его в текстовом формате.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Особенности содержимого электронной таблицы**

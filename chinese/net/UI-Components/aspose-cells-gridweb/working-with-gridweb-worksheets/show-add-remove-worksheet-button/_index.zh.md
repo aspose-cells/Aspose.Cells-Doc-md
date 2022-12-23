@@ -10,7 +10,7 @@ url: /zh/net/show-add-remove-worksheet-button/
 
 {{% /alert %}}
 
-Aspose.Cells GridWeb 现在支持使用工具栏中的按钮添加和删除工作表。为了使按钮在前端可见，您需要设置**GridWeb1.ShowAddButton**至**真的**.以下代码片段演示了向 GridWeb 工具栏添加添加/删除按钮。
+Aspose.Cells GridWeb 现在支持使用工具栏中的按钮添加和删除工作表。为了使按钮在前端可见，您需要设置**GridWeb1.ShowAddButton**到**真的**.以下代码片段演示了向 GridWeb 工具栏添加添加/删除按钮。
 
 ## 示例代码
 

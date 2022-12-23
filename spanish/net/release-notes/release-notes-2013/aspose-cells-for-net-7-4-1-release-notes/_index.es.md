@@ -36,7 +36,7 @@ url: /es/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 - Problema al actualizar la tabla dinámica
 
- 41411 - Guardar XLSX en HTML - error de formato
+41411 - Guardar XLSX a HTML - error de formato
 
  41406 - Problema de función/fórmula DATEDIF
 
@@ -44,11 +44,11 @@ url: /es/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41309 - Imagen creada de manera diferente de PC a PC
 
- 41415 - Problema al abrir un archivo XLSX
+ 41415 - Problemas al abrir un archivo XLSX
 
  41427 - Excel no termina de cargarse - archivo de Excel 2013
 
-41400 - Valor de la hoja de cálculo/cambios de entrada al guardar
+ 41400 - Valor de la hoja de cálculo/cambios de entrada al guardar
 
 2 
 

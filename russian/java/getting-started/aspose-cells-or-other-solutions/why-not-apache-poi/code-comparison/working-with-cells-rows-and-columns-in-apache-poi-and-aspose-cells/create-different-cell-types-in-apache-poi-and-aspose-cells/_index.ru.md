@@ -93,6 +93,6 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{% alert color="primary" %}} 
 
- Для получения более подробной информации посетите[Настройка форматов отображения чисел и дат](/cells/ru/java/data-formatting/).
+ Для получения более подробной информации посетите[Настройка форматов отображения Numbers и дат](/cells/ru/java/data-formatting/).
 
 {{% /alert %}}

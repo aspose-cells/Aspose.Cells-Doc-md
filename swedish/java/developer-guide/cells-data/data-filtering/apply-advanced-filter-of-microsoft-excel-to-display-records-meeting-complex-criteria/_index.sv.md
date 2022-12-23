@@ -23,9 +23,9 @@ Listomfånget.
 
 Kriterierna varierar.
 
-**kopia till**
+**kopiera till**
 
-Området dit data kopieras till.
+Området dit kopiering av data till.
 
 **Endast unikaRecord**
 

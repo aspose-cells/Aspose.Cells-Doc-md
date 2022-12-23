@@ -32,7 +32,7 @@ url: /ar/java/data-filtering/
 |الجميع|إظهار كافة العناصر في القائمة مرة واحدة.|
 |العادة|تخصيص معايير التصفية مثل يحتوي على / لا يحتوي|
 |تصفية حسب اللون|المرشحات على أساس اللون المعبأ|
-|مرشحات التاريخ|ترشيح الصفوف بناءً على معايير مختلفة في التاريخ|
+|مرشحات التاريخ|يتم ترشيح الصفوف بناءً على معايير مختلفة في التاريخ|
 |مرشحات الرقم|نوع مختلف من التصفية على الأرقام مثل المقارنة والمتوسطات وأعلى 10 إلخ.|
 |مرشحات النص|مرشحات مختلفة مثل يبدأ بـ ، وينتهي بـ ، يحتوي على إلخ ،|
 |الفراغات / غير الفراغات|يمكن تنفيذ هذه المرشحات من خلال Text Filter Blank|
@@ -44,7 +44,7 @@ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://refe
 
 يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لإنشاء مرشح تلقائي ، استخدم ملف[**فلتر السيارات**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)ممتلكات[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)صف دراسي. ال[**فلتر السيارات**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)الخاصية هي كائن من[**فلتر السيارات**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)فئة ، والتي توفر[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)خاصية لتحديد نطاق الخلايا التي يتكون منها صف العنوان. يتم تطبيق عامل التصفية التلقائي على نطاق الخلايا الذي يمثل صف العنوان.
 
-في كل ورقة عمل ، يمكنك تحديد نطاق تصفية واحد فقط. هذا مقيد بـ Microsoft Excel. لتصفية البيانات المخصصة ، استخدم ملف[**تصفية تلقائية**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) طريقة.
+في كل ورقة عمل ، يمكنك تحديد نطاق تصفية واحد فقط. هذا مقيد بـ Microsoft Excel. لتصفية البيانات المخصصة ، استخدم[**تصفية تلقائية**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) طريقة.
 
 في المثال الموضح أدناه ، قمنا بإنشاء نفس التصفية التلقائية باستخدام Aspose.Cells كما أنشأنا باستخدام Microsoft Excel في القسم أعلاه.
 
@@ -56,7 +56,7 @@ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://refe
 
 ##### **لون التعبئة**
 
-Aspose.Cells يوفر وظيفة[**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)لتصفية البيانات بناءً على خاصية لون التعبئة للخلايا. في المثال الموضح أدناه ، يتم استخدام ملف قالب به ألوان تعبئة مختلفة في العمود الأول من الورقة لاختبار وظيفة تصفية الألوان. يمكن تنزيل الملفات التالية للتحقق من الوظيفة.
+Aspose.Cells يوفر دالة[**addFillColorFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addFillColorFilter(int,%20int,%20com.aspose.cells.CellsColor,%20com.aspose.cells.CellsColor)لتصفية البيانات بناءً على خاصية لون التعبئة للخلايا. في المثال الموضح أدناه ، يتم استخدام ملف قالب به ألوان تعبئة مختلفة في العمود الأول من الورقة لاختبار وظيفة تصفية الألوان. يمكن تنزيل الملفات التالية للتحقق من الوظيفة.
 
 1. [ColouredCells.xlsx](72417315.xlsx)
 1. [تم تصفيته ColouredCells.xlsx](72417316.xlsx)
@@ -81,7 +81,7 @@ Aspose.Cells يوفر وظيفة[**addFillColorFilter**](https://reference.aspos
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 
-##### **رقم**
+##### **عدد**
 
 يمكن تطبيق المرشحات المخصصة باستخدام Aspose.Cells مثل اختيار الخلايا التي تحتوي على رقم بين نطاق معين. المثال التالي يوضح استخدام[**العادة()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) وظيفة لتصفية الأرقام. يمكن تنزيل ملفات نموذجية من الروابط التالية.
 

@@ -6,7 +6,7 @@ url: /zh/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
-如果您想将图表图例条目的文本填充设置为无，这样它就不会显示在图表图例中，那么请设置[**图例条目.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill)至**真的**.
+如果您想将图表图例条目的文本填充设置为无，这样它就不会显示在图表图例中，那么请设置[**图例条目.IsTextNoFill**](https://reference.aspose.com/cells/net/aspose.cells.charts/legendentry/properties/istextnofill)到**真的**.
 
 {{% /alert %}}
 
@@ -14,6 +14,6 @@ url: /zh/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 下面的截图突出显示了这段代码对[示例 excel 文件](5115219.xlsx).
 
-![待办事项：图像_替代_文本](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChartLegendEntry-1.cs" >}}

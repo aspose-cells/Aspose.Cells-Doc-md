@@ -32,7 +32,7 @@ GridWeb 控件中包含的所有工作表都存储在 GridWeb 控件的 GridWork
 
 **输出：具有默认名称的工作表已添加到 GridWeb** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_1.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
 
@@ -42,7 +42,7 @@ GridWeb 控件中包含的所有工作表都存储在 GridWeb 控件的 GridWork
 
 **输出：具有指定名称的工作表已添加到 GridWeb** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_2.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithSpecificName-AddingWorksheetWithSpecificName.jsp" >}}
 
@@ -73,13 +73,13 @@ GridWeb 控件中包含的所有工作表都存储在 GridWeb 控件的 GridWork
 
 **输入文件：默认名称为 Sheet1 的工作表** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_3.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_3.png)
 
 运行代码后，工作表被重命名为 Invoice。
 
 **输出：工作表重命名为 Invoice** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_4.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
 
@@ -125,7 +125,7 @@ GridWeb 控件提供了两个类（GridName 和 GridNameCollection）用于处�
 
 本主题讨论在工作表中添加、访问和删除注释。注释对于为将使用工作表的用户添加注释或有用信息很有用。开发人员可以灵活地向工作表的任何单元格添加注释。
 
-### **使用评论**
+### **使用注释**
 
 #### **添加评论**
 
@@ -138,7 +138,7 @@ GridWeb 控件提供了两个类（GridName 和 GridNameCollection）用于处�
 
 **评论已添加到工作表** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_5.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
 
@@ -177,7 +177,7 @@ Aspose.Cells.GridWeb 支持以下超链接：
 
 下面的示例将两个超链接添加到工作表。一个有一个_空白目标，而另一个设置为_父母。
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_6.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_6.png)
 
 **输出：添加到工作表的文本超链接**
 
@@ -187,7 +187,7 @@ Aspose.Cells.GridWeb 支持以下超链接：
 
 下面的示例将图像 URL 超链接添加到工作表。
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_7.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_7.png)
 
 **输出：添加到工作表的图像超链接**
 
@@ -213,13 +213,13 @@ Aspose.Cells.GridWeb 允许开发者对数据进行水平和垂直排序，以�
 
 **输入：未排序的数据** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_8.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_8.png)
 
 执行代码后，数据按升序排序。
 
 **输出：数据从上到下按升序排列** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_9.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
 
@@ -237,13 +237,13 @@ Aspose.Cells.GridWeb 允许开发者对数据进行水平和垂直排序，以�
 
 **输入：执行代码片段前未排序的数据** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_10.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_10.png)
 
 执行代码后，数据按升序排序。
 
 **输出：数据从左到右按升序排列** 
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_11.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
 
@@ -256,21 +256,21 @@ Aspose.Cells.GridWeb 允许开发者对数据进行水平和垂直排序，以�
 有两种方法可以打开“查找/替换”对话框：
 
 1. 当控件处于活动状态时，按**CTRL+F**打开对话框，或按**CTRL+R**键打开对话框**代替**按钮启用。
-1. 将光标移动到工作表中的单元格区域，然后单击鼠标右键。选择**寻找**或者**代替**从菜单中。
+1. 将光标移动到工作表中的单元格区域，然后单击鼠标右键。选择**寻找**要么**代替**从菜单中。
 
 **选择查找**
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_12.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_12.png)
 
 将显示一个查找和替换对话框。
 
 **查找/替换对话框**
 
-![待办事项：图像_替代_文本](working-with-worksheets-gridweb_13.png)
+![待办事项：图片_替代_文本](working-with-worksheets-gridweb_13.png)
 
 **使用查找**
 
-寻找：
+搜索：
 
 1. 打开“查找/替换”对话框。
 1. 在“查找内容”字段中键入要搜索的字符串。
@@ -348,7 +348,7 @@ Aspose.Cells GridWeb 现在支持从客户端更改字体设置。为此，API �
 
 ## 从客户端添加/删除评论
 
-Aspose.Cells GridWeb 现在支持从客户端添加和删除评论。为此，API 提供了“addcomments”和“delcomments”功能。以下代码片段演示了在 GridWeb 中从客户端添加和删除评论。
+Aspose.Cells GridWeb 现在支持从客户端添加和删除评论。为此，API 提供了“addcomments”和“delcomments”功能。以下代码片段演示了在 GridWeb 中从客户端添加和删除注释。
 
 ### 示例代码
 
@@ -356,7 +356,7 @@ Aspose.Cells GridWeb 现在支持从客户端添加和删除评论。为此，AP
 
 ## 显示添加/删除工作表的按钮
 
-Aspose.Cells GridWeb 现在支持使用工具栏中的按钮添加和删除工作表。为了使按钮在前端可见，您需要设置**GridWeb1.ShowAddButton**至**真的**.以下代码片段演示了向 GridWeb 工具栏添加添加/删除按钮。
+Aspose.Cells GridWeb 现在支持使用工具栏中的按钮添加和删除工作表。为了使按钮在前端可见，您需要设置**GridWeb1.ShowAddButton**到**真的**.以下代码片段演示了向 GridWeb 工具栏添加添加/删除按钮。
 
 ### 示例代码
 

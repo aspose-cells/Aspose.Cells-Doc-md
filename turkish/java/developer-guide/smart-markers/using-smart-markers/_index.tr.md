@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /tr/java/using-smart-markers/
 ---
-## **giriiş**
+## **Giriş**
 
 {{% alert color="primary" %}}
 
@@ -48,11 +48,11 @@ Birden fazla parametreniz varsa, bunları virgülle ayırın ancak boşluk bıra
 
 Aşağıdaki ekran görüntüleri, her bir satıra nasıl veri ekleneceğini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_1.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_1.png)
 
 **olur...**
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_2.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_2.png)
 
 ### **Dinamik Formüller**
 
@@ -65,11 +65,11 @@ Dinamik formüller aşağıdaki ek seçeneklere izin verir:
 
 Aşağıda yinelenen bir dinamik formül ve sonuçta ortaya çıkan Excel çalışma sayfası gösterilmektedir.
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_3.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_3.png)
 
 **olur…**
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_4.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_4.png)
 
 Cell C1, =A1 formülünü içerir*B1, C2 içerir = A2*B2 ve C3 = A3*B3.
 
@@ -98,7 +98,7 @@ Aşağıda, verileri gruplandırmak için kullanılan bazı akıllı işaretleyi
 Aralarından seçim yapabileceğiniz üç tür grubu destekliyoruz.
 
 - **normal** - Alan(lar)a göre grup değeri, sütundaki karşılık gelen kayıtlar için tekrarlanmaz; bunun yerine veri grubu başına bir kez yazdırılırlar.
-- **birleştirmek** - Her grup kümesi için alan(lar)a göre gruptaki hücreleri birleştirme dışında normal parametre ile aynı davranış.
+- **birleştirmek** - Her grup kümesi için alan(lar)a göre gruptaki hücreleri birleştirme dışında normal parametreyle aynı davranış.
 - **tekrar et** - Alan(lar)a göre grup değeri ilgili kayıtlar için tekrarlanır.
 
 Örneğin: &=Customers.CustomerID(group:merge)
@@ -130,13 +130,13 @@ Basit bir şablon dosyası kullanıyoruz. Bazı iç içe akıllı işaretçileri
 
 **İç içe akıllı işaretçileri gösteren tasarımcı dosyasının ilk çalışma sayfası.**
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_5.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_5.png)
 
 Aşağıdaki örnek bunun nasıl çalıştığını göstermektedir. Aşağıdaki kodu çalıştırmak, aşağıdaki çıktıyı verir.
 
 **Elde edilen verileri gösteren çıktı dosyasının ilk çalışma sayfası.**
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_6.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingNestedObjects-UsingNestedObjects.java" >}}
 
@@ -146,7 +146,7 @@ Aşağıdaki örnek bunun nasıl çalıştığını göstermektedir. Aşağıdak
 
 Aspose.Cells artık genel bir listenin iç içe geçmiş bir nesne olarak kullanılmasını da destekliyor. Lütfen aşağıdaki kodla oluşturulan çıktı excel dosyasının ekran görüntüsünü kontrol edin. Ekran görüntüsünde görebileceğiniz gibi, bir Öğretmen nesnesi iç içe geçmiş birden çok öğrenci nesnesi içerir.
 
-![yapılacaklar:resim_alternatif_Metin](using-smart-markers_7.png)
+![yapılacaklar:resim_alternatif_metin](using-smart-markers_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingGenericList-UsingGenericList.java" >}}
 
@@ -156,7 +156,7 @@ Aspose.Cells artık genel bir listenin iç içe geçmiş bir nesne olarak kullan
 
 ## **Akıllı İşaretleyicilerin HTML özelliğini kullanma**
 
-Aşağıdaki örnek kod, Akıllı İşaretleyicilerin HTML özelliğinin kullanımını açıklamaktadır. İşleme gireceği zaman HTML'den dolayı "Hello World" içinde "World" yazısını kalın olarak gösterecektir.<b>etiket.
+Aşağıdaki örnek kod, Akıllı İşaretleyicilerin HTML özelliğinin kullanımını açıklar. İşleme gireceği zaman HTML'den dolayı "Hello World" içinde "World" yazısını kalın olarak gösterecektir.<b> etiket.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 

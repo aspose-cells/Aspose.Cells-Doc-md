@@ -1,5 +1,5 @@
 ﻿---
-title: JSON から Excel への変換
+title: Convert-JSON-to-Excel
 type: docs
 weight: 20
 url: /ja/java/convert-json-to-excel/
@@ -12,9 +12,9 @@ Aspose.Cells は、Json(JavaScript Object Notation) ファイルの Excel ワー
 
 {{% /alert %}}
 
-## **JSON を Excel ブックに変換する**
+## **JSON を Excel ブックに変換**
 
-JSON を Excel ファイルに変換する方法を考える必要はありません。 Aspose.Cells Java API は、JSON 形式をスプレッドシートに変換するためのサポートを提供します。使用できます[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions)クラスを使用して、JSON を Workbook にインポートするための追加設定を指定します。
+Aspose.Cells Java ライブラリが最適な決定を行うため、JSON を Excel ファイルに変換する方法を考える必要はありません。 Aspose.Cells Java API は、JSON 形式をスプレッドシートに変換するためのサポートを提供します。使用できます[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions)クラスを使用して、JSON を Workbook にインポートするための追加設定を指定します。
 
 次のコード例は、JSON を Excel ブックにインポートする方法を示しています。変換するコードを参照してください[ソースファイル](sample.json)参照用のコードによって生成された xlsx ファイルに。
 
@@ -24,6 +24,6 @@ JSON を Excel ファイルに変換する方法を考える必要はありま�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-to-Excel2.java" >}}
 
-次のコード例は、JSON 文字列を Excel ブックにインポートする方法を示しています。 JSON をインポートするときに、レイアウトの場所を指定することもできます。 JSON文字列をコードで生成されたxlsxファイルに変換するコードを参考にしてください。
+次のコード例は、JSON 文字列を Excel ブックにインポートする方法を示しています。 JSON をインポートするときに、レイアウトの場所を指定することもできます。参照用に、コードによって生成された xlsx ファイルに JSON 文字列を変換するコードを参照してください。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}

@@ -247,7 +247,7 @@ Så här ändrar du bredden på en kolumn:
 
 1. Klicka på valfri cell i kolumnen.
 1.  Byta till**Fliken Format**.
-1.  Klick**Kolumnbredd** knappen för att öppna**Kolumnbredd**dialog.
+1.  Klick**Kolumnbredd** knappen för att öppna**Kolumnbredd** dialog.
 1. Ange ett nytt värde i dialogrutan.
 1.  Klick**Stänga**.
 
@@ -259,7 +259,7 @@ Så här ändrar du höjden på en rad:
 
 1. Klicka på valfri cell inuti raden.
 1.  Byta till**Fliken Format**.
-1.  Klick**Radhöjd** knappen för att öppna**Radhöjd**dialog.
+1.  Klick**Radhöjd** knappen för att öppna**Radhöjd** dialog.
 1. Ange ett nytt värde i dialogrutan.
 1.  Klick**Stänga**.
 

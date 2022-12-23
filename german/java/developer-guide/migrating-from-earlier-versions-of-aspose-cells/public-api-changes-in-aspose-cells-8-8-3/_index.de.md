@@ -156,7 +156,7 @@ oleObject.setAutoLoad(true);
 
 {{< /highlight >}}
 ### **HTMLLoadOptions.SupportDivTag-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.8.3 hat die HTMLLoadOptions.SupportDivTag-Eigenschaft verfügbar gemacht, die es ermöglicht, die in TD-Tags eingebetteten DIV-Tags zu analysieren, während HTML-Dateien/Snippets im Aspose.Cells-Objektmodell geladen werden. Die Eigenschaft vom Typ Boolean hat den Standardwert false.
+Aspose.Cells for Java 8.8.3 hat die HTMLLoadOptions.SupportDivTag-Eigenschaft verfügbar gemacht, die es ermöglicht, die in TD-Tags eingebetteten DIV-Tags zu analysieren, während HTML-Dateien/Schnipsel in das Aspose.Cells-Objektmodell geladen werden. Die Eigenschaft vom Typ Boolean hat den Standardwert false.
 
 {{% alert color="primary" %}} 
 
@@ -252,11 +252,11 @@ book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **HtmlSaveOptions.ExportGridLines-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.8.3 hat die HtmlSaveOptions.ExportGridLines-Eigenschaft verfügbar gemacht, die es ermöglicht, die Rasterlinien zu rendern, während die Tabelle in das HTML-Format exportiert wird. Die Eigenschaft vom Typ Boolean hat den Standardwert „false“. Wenn sie jedoch auf „true“ gesetzt ist, rendert API die Rasterlinien für den verfügbaren Datenbereich im HTML-Format.
+Aspose.Cells for Java 8.8.3 hat die HtmlSaveOptions.ExportGridLines-Eigenschaft verfügbar gemacht, die es ermöglicht, die Rasterlinien beim Exportieren der Tabelle in das HTML-Format zu rendern. Die Eigenschaft vom Typ Boolean hat den Standardwert „false“. Wenn sie jedoch auf „true“ gesetzt ist, rendert API die Rasterlinien für den verfügbaren Datenbereich im Format HTML.
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Rasterlinien in HTML rendern](/cells/de/java/export-excel-to-html-with-gridlines/).
+ Weitere Einzelheiten zu dieser Funktion finden Sie im ausführlichen Artikel unter[Gitterlinien auf HTML rendern](/cells/de/java/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 

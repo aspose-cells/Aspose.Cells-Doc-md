@@ -16,7 +16,7 @@ Microsoft Excel vous permet de définir le mode de calcul de la formule, c'est-�
 
 Pour définir le mode de calcul de la formule dans Microsoft Excel :
 
-1.  Sélectionner**Formules** et alors**Options de calcul**.
+1.  Sélectionner**Formules** et puis**Options de calcul**.
 1. Sélectionnez l'une des options.
 
  Aspose.Cells vous permet également de régler le**Mode de calcul de formule** en utilisant la propriété de mode FormulaSettings.CalculationMode. Vous pouvez lui affecter l'énumération CalcModeType qui a l'une des valeurs suivantes :
@@ -25,7 +25,7 @@ Pour définir le mode de calcul de la formule dans Microsoft Excel :
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
- L'exemple de code suivant crée d'abord un classeur, puis définit le mode de calcul de la formule sur**Manuel** et enregistre le classeur en tant que fichier Excel de sortie sur le disque.
+L'exemple de code suivant crée d'abord un classeur, puis définit le mode de calcul de la formule sur**Manuel** et enregistre le classeur en tant que fichier Excel de sortie sur le disque.
 
 **C#**
 

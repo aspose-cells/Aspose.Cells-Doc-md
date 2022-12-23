@@ -11,7 +11,7 @@ Aspose.Cells for Reporting Services'i Microsoft Visual Studio Report Designer i�
 
 {{% /alert %}} 
 - **Entegrasyon Süreci**
-1.  kopyala**Aspose.Cells.ReportingServices.dll** Visual Studio dizinine.
+1.  Kopyala**Aspose.Cells.ReportingServices.dll** Visual Studio dizinine.
  1. Visual Studio 2005 Rapor Tasarımcısı ile entegre etmek için: kopyala**Aspose.Cells.ReportingServices.dll** C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies dizinine.
  1. Visual Studio 2008 Rapor Tasarımcısı ile entegre etmek için: kopyala**Aspose.Cells.ReportingServices.dll**C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies dizinine.
 1.  Aspose.Cells for Reporting Services'i işleme uzantısı olarak kaydedin:
@@ -84,4 +84,4 @@ Aspose.Cells for Reporting Services'i Microsoft Visual Studio Report Designer i�
 
 **Bileşen kaydedildiğinde, Rapor Tasarımcısı'nda yeni dışa aktarma biçimleri görünür** 
 
-![yapılacaklar:resim_alternatif_Metin](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)
+![yapılacaklar:resim_alternatif_metin](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)

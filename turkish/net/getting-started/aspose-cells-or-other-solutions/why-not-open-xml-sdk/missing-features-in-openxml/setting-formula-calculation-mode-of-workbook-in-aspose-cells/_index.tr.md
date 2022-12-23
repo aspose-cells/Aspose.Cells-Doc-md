@@ -16,7 +16,7 @@ Microsoft Excel, formül hesaplama modunu, yani formüllerin hesaplanma şeklini
 
 Microsoft Excel'de formül hesaplama modunu ayarlamak için:
 
-1.  Seçme**formüller** ve daha sonra**Hesaplama Seçenekleri**.
+1.  Seçme**formüller** ve sonra**Hesaplama Seçenekleri**.
 1. Seçeneklerden birini seçin.
 
  Aspose.Cells ayrıca**Formül Hesaplama Modu** FormulaSettings.CalculationMode modu özelliğini kullanarak. Ona, aşağıdaki değerlerden birine sahip olan CalcModeType numaralandırmasını atayabilirsiniz:
@@ -25,7 +25,7 @@ Microsoft Excel'de formül hesaplama modunu ayarlamak için:
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
- Aşağıdaki örnek kod önce bir çalışma kitabı oluşturur, ardından formül hesaplama modunu şu şekilde ayarlar:**Manuel** ve çalışma kitabını çıktı Excel dosyası olarak diske kaydeder.
+Aşağıdaki örnek kod önce bir çalışma kitabı oluşturur, ardından formül hesaplama modunu şu şekilde ayarlar:**Manuel** ve çalışma kitabını çıktı Excel dosyası olarak diske kaydeder.
 
 **C#**
 

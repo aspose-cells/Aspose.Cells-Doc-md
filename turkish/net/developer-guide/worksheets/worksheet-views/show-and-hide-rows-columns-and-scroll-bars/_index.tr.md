@@ -3,6 +3,7 @@ title: Satırları, Sütunları ve Kaydırma Çubuklarını Gösterme ve Gizleme
 type: docs
 weight: 20
 url: /tr/net/show-and-hide-rows-columns-and-scroll-bars/
+description: Bu makale, C# dilini ve .NET API veya Kitaplığı kullanarak Excel çalışma sayfası satırlarını ve sütunlarını programlı olarak nasıl görüntüleyeceğinizi ve gizleyeceğinizi gösterir. Kaydırma çubuklarının görünürlüğü ayarlanabilir ve birkaç satır ve sütun gizlenebilir.
 ---
 {{% alert color="primary" %}}
 
@@ -58,7 +59,7 @@ Microsoft Excel, kullanıcıların çalışma sayfası içeriklerinde gezinebilm
 
 ### **Kaydırma Çubuklarının Görünürlüğünü Kontrol Etme**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kaydırma çubuklarının görünürlüğünü kontrol etmek için,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)özellikleri.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Boole özellikleridir; bu, bu özelliklerin yalnızca depolayabileceği anlamına gelir.**doğru** veya**yanlış** değerler.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kaydırma çubuklarının görünürlüğünü kontrol etmek için,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) özellikler.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Boole özellikleridir; bu, bu özelliklerin yalnızca depolayabileceği anlamına gelir.**doğru** veya**YANLIŞ** değerler.
 
 #### **Kaydırma Çubuklarını Görünür Hale Getirmek**
 
@@ -66,7 +67,7 @@ Microsoft Excel, kullanıcıların çalışma sayfası içeriklerinde gezinebilm
 
 #### **Kaydırma Çubuklarını Gizleme**
 
- ayarlayarak kaydırma çubuklarını gizleyin.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) veya[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) mülkiyet**yanlış**.
+ ayarlayarak kaydırma çubuklarını gizleyin.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) veya[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) mülkiyet**YANLIŞ**.
 
 **Basit kod**
 

@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-20-8-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43242|Une des balises de style trouvées en dehors de la balise Head|Punaise|
 |CELLSJAVA-43157|La couleur des séries de données personnalisées n'est pas conservée lors de la création d'un graphique en cascade|Punaise|
@@ -34,7 +34,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Marque la méthode Workbook.CalculateFormula(bool, ICustomFunction) comme obsolète.**
 
- Veuillez utiliser**Méthode Workbook.CalculateFormula(CalculationOptions)** Au lieu.
+ Veuillez utiliser**Méthode Workbook.CalculateFormula(CalculationOptions)** au lieu.
 
 ### **Marque la méthode Worksheet.CalculateFormula(bool, bool, ICustomFunction) comme obsolète.**
 

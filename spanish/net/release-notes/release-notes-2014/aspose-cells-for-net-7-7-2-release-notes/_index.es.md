@@ -11,7 +11,7 @@ url: /es/net/aspose-cells-for-net-7-7-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET se ha actualizado a la versión 7.7.2 y nos complace anunciar que esta versión trae la adición de más de 50 nuevas mejoras útiles.
-Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
+Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
 La siguiente es una lista de cambios en esta versión de Aspose.Cells.
@@ -32,7 +32,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42299) - Admite B3 (13,9 x 19,7 pulgadas) PaperSizeType
 
-(CELLSNET-42370) - Aplicar la configuración Justificar alineación de texto distribuido
+ (CELLSNET-42370) - Aplicar la configuración Justificar alineación de texto distribuido
 
  (CELLSNET-42312) - Recuperar la configuración RemovePersonalInformation
 
@@ -40,59 +40,59 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 ## **Insectos**
 
 
- (CELLSNET-42349): conversión incorrecta de HTML a XLSX
+ (CELLSNET-42349) - Conversión incorrecta de HTML a XLSX
 
  (CELLSNET-42346) - Guardar como HTML crea demasiadas etiquetas br
 
- (CELLSNET-42323): el PDF de salida no refleja el gráfico en el archivo de Excel
+ (CELLSNET-42323): la salida PDF no refleja el gráfico en el archivo de Excel
 
- (CELLSNET-42301): el PDF de salida no puede calcular los valores de los campos calculados en la tabla dinámica
+(CELLSNET-42301): la salida PDF no calcula los valores de los campos calculados en la tabla dinámica
 
- (CELLSNET-42300) - Problema de visualización de la tabla dinámica al convertir de XLS a XLSM
+ (CELLSNET-42300) - Problema de visualización de tabla dinámica durante la conversión de XLS a XLSM
 
- (CELLSNET-42285) - Los números con General como formato de número aparecen con fracciones
+ (CELLSNET-42285) - Numbers con General como su formato de número aparece con fracciones
 
  (CELLSNET-42272): el archivo Xlsx con conjuntos de iconos de formato condicional se corrompe después de abrirlo y volver a guardarlo.
 
- (CELLSNET-42271) - Las funciones de formato condicional como iconos, segmentaciones y degradado de color se pierden en el archivo XLSB de salida.
+ (CELLSNET-42271) - Las funciones de formato condicional como iconos, segmentaciones y degradado de color se pierden en el archivo de salida XLSB
 
- (CELLSNET-42261): problema al guardar como HTML y columnas ocultas cuando tienen celdas combinadas como encabezados
+ (CELLSNET-42261): problema con guardar como HTML y columnas ocultas cuando tienen celdas combinadas como encabezados
 
-(CELLSNET-42163) - El formato condicional se pierde cuando el archivo se abre y se vuelve a guardar
+ (CELLSNET-42163) - El formato condicional se pierde cuando el archivo se abre y se vuelve a guardar
 
  (CELLSNET-42147) - Aspose Cells 7.6.0 - Problema al cargar y guardar archivos XLSB con Pivot dentro
 
  (CELLSNET-42008) - La propiedad de la columna de inicio de PivotTable.DataBodyRange es incorrecta
 
- (CELLSNET-40847): problema al guardar la hoja de MS Excel como HTML
+(CELLSNET-40847) - Problema al guardar la hoja de MS Excel como HTML
 
  (CELLSNET-40161) - Excel a HTML - sin saltos de línea
 
- (CELLSNET-42336): el formato de mes en la tabla dinámica es incorrecto en el PDF de salida
+ (CELLSNET-42336): el formato de mes en la tabla dinámica es incorrecto en la salida PDF
 
- (CELLSNET-42335) - La tabla dinámica se trunca cuando XLSX se convierte a PDF
+ (CELLSNET-42335): la tabla dinámica se trunca cuando XLSX se convierte en PDF
 
  (CELLSNET-42347) - Problema de formato de texto - La letra y en la palabra ciudad está cortada
 
  (CELLSNET-42344): el borde del encabezado varía en grosor en diferentes páginas al convertir XLSX a PDF
 
- (CELLSNET-42342) - Saltos de subrayado al convertir XLSX a PDF
+ (CELLSNET-42342) - El subrayado se rompe al convertir XLSX a PDF
 
- (CELLSNET-42304): alineación del conjunto de iconos en la exportación de PDF
+ (CELLSNET-42304): alineación del conjunto de iconos en la exportación PDF
 
  (CELLSNET-42298): la configuración de PaperSizeType en PaperA6 representa el PDF en tamaño PaperA4
 
-(CELLSNET-42289) - CHAR(151) no funciona correctamente en PDF
+ (CELLSNET-42289) - CHAR(151) no funciona correctamente en PDF
 
  (CELLSNET-41950) - Aspose.Cells comportamiento muy extraño en IIS 7.5 con operación AutoFit
 
  (CELLSNET-41937) - La impresión de comentarios en archivos de Excel no funciona
 
- (CELLSNET-42297) - Falta el gráfico en el HTML
+(CELLSNET-42297) - Falta el gráfico en el HTML
 
  (CELLSNET-42296) - Falta el gráfico en el PDF
 
- (CELLSNET-41743): problema con la conversión de forma en XLSX a imagen
+ (CELLSNET-41743): problema con la forma en XLSX para la conversión de imágenes
 
  (CELLSNET-40467): al guardar un archivo XLS como XLSM y luego volver a XLS, se modifica el gráfico en el archivo.
 
@@ -108,11 +108,11 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42284) - La fórmula BUSCARV no se resuelve con Aspose.Cells
 
-(CELLSNET-42283): compatibilidad con el formato MS Excel XLT
+ (CELLSNET-42283): compatibilidad con el formato MS Excel XLT
 
  (CELLSNET-42282) - Carga de un archivo de Excel - Restablecimiento de las opciones de vista del navegador
 
- (CELLSNET-42276): los estilos (estilos principales) no se copian cuando se usa el método Workbook.Copy()
+(CELLSNET-42276): los estilos (estilos principales) no se copian cuando se usa el método Workbook.Copy()
 
 
 ## **Excepciones**
@@ -146,13 +146,13 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
-Agrega la propiedad WorkbookSettings.RemovePersonalInformation
+ Agrega la propiedad WorkbookSettings.RemovePersonalInformation
 
  Indica si la información personal se puede eliminar del libro de trabajo especificado.
 
 
 
- Obsoleta la propiedad WorksheetCollection.HidePivotFieldList.
+Obsoleta la propiedad WorksheetCollection.HidePivotFieldList.
 
  Utilice la propiedad WorkbookSettings.HidePivotFieldList.
 

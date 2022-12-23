@@ -5,7 +5,7 @@ weight: 10
 url: /it/net/calculate-sub-totals/
 ---
 ## **Aspose.Cells - Calcola sub totali**
-Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce funzionalità API che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
+Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce API funzionalità che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
 
 **C#**
 
@@ -43,7 +43,7 @@ workbook.Save("AsposeTotal.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Calcola sub totali** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Calcola sub totali** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Calculate.Sub.Totals.Aspose.Cells.zip)
 

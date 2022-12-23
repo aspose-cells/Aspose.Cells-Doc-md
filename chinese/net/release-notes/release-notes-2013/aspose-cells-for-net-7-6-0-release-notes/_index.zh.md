@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-6-0-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 增强功能
 

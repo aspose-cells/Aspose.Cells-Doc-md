@@ -6,7 +6,7 @@ url: /fr/java/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of
 ---
 ## **Scénarios d'utilisation possibles**
 
-Parfois, vous souhaitez afficher du texte dans une police de langue d'Extrême-Orient, par exemple le japonais, le chinois, le thaï, etc. Aspose.Cells fournit[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)propriété qui peut être utilisée pour spécifier le nom de la police de la langue d'Extrême-Orient. En outre, vous pouvez également spécifier le nom de la police latine en utilisant[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)propriété.
+Parfois, vous souhaitez afficher du texte dans une police de langue d'Extrême-Orient, par exemple le japonais, le chinois, le thaï, etc. Aspose.Cells fournit[**TextOptions.FarEastName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#FarEastName)propriété qui peut être utilisée pour spécifier le nom de la police de la langue d'Extrême-Orient. En outre, vous pouvez également spécifier le nom de la police latine en utilisant[**TextOptions.LatinName**](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#LatinName)la propriété.
 
 ## **Spécifiez l'Extrême-Orient et le nom latin de la police dans les options de texte de la forme**
 

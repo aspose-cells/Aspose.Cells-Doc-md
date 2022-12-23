@@ -6,7 +6,7 @@ url: /sv/net/setting-shadow-of-text-effects-of-shape-or-textbox/
 ---
 {{% alert color="primary" %}}
 
- Du kan ställa in**Skugga** av**Texteffekter** av valfri form eller textruta. Vänligen använd[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) fast egendom. Den presenterar inställningen av formens text och returnerar[**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) objekt. När du har kommit åt det, ställ in**Skugga** via[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) fast egendom. Denna egenskap är av typen[**PresetShadowType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)som har flera värden. Några av dessa är
+ Du kan ställa in**Skugga** av**Texteffekter** av valfri form eller textruta. Vänligen använd[**Shape.TextBody**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textbody) fast egendom. Den presenterar inställningen av formens text och returnerar[**FontSetting**](https://reference.aspose.com/cells/net/aspose.cells/fontsetting) föremål. När du har kommit åt det, ställ in**Skugga** via[**FontSetting.TextOptions.Shadow.PresetType.PresetType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype) fast egendom. Denna egenskap är av typen[**PresetShadowType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/presetshadowtype)som har flera värden. Några av dessa är
 
 - OffsetDiagonal BottomHöger
 - OffsetBottom

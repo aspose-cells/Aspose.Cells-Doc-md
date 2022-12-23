@@ -10,19 +10,19 @@ Cette page contient les notes de version pour Aspose.Cells for Java 17.11.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42433|Propriétés ImageOrPrintOptions.PageIndex et ImageOrPrintOptions.Count nécessaires pour obtenir l'image des pages souhaitées|Nouvelle fonctionnalité|
-|CELLSJAVA-42427|L'exportation de quadrillages avec des bordures n'affiche pas les quadrillages à l'intérieur de la bordure dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42427|L'exportation de quadrillages avec des bordures n'affiche pas les quadrillages à l'intérieur de la bordure dans Excel vers le rendu HTML|Punaise|
 |CELLSJAVA-42438|LightCellsDataProvider supprime les espaces de début et de fin|Punaise|
 |CELLSJAVA-42422|Une police incorrecte est utilisée dans la sortie PDF du graphique MS Excel|Punaise|
-|CELLSJAVA-42353|Certaines flèches ou légendes manquent dans le HTML de sortie|Punaise|
+|CELLSJAVA-42353|Certaines flèches ou légendes manquent dans la sortie HTML|Punaise|
 |CELLSJAVA-42455|Le 2e commentaire est manquant dans la collection de commentaires de la feuille de calcul|Punaise|
-|CELLSJAVA-42454|La création de classeur semble se bloquer lors de la lecture à partir d'un fichier XLSM|Punaise|
+|CELLSJAVA-42454|La création du classeur semble se bloquer lors de la lecture d'un fichier XLSM|Punaise|
 |CELLSJAVA-42450|La propriété Style.QuotePrefix ne fonctionne pas pour le fichier XLSB|Punaise|
 |CELLSJAVA-42445|Le réglage des données d'image affecte l'autre graphique et il s'affiche mal|Punaise|
 |CELLSJAVA-42444|La méthode CheckBox.setName() fonctionne dans MS Excel 2016 mais ne fonctionne pas dans MS Excel 2007|Punaise|
-|CELLSJAVA-42443|Les filtres MS Excel ne sont pas convertis correctement - Conversion XLSB en XLSM|Punaise|
+|CELLSJAVA-42443|Les filtres MS Excel ne sont pas convertis correctement - conversion XLSB à XLSM|Punaise|
 |CELLSJAVA-42442|La modification de la valeur de ComboBoxActiveXControl ne modifie pas la valeur de la cellule liée|Punaise|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel et Cells.setRowHeightPixel ont des comportements différents|Punaise|
 |CELLSJAVA-42431|L'extension de la plage de la table modifie de manière inattendue le contenu des cellules|Punaise|
@@ -32,7 +32,7 @@ Cette page contient les notes de version pour Aspose.Cells for Java 17.11.
 |CELLSJAVA-42425|Exception dans le thread "main" java.lang.OutOfMemoryError : Limite de temps système GC dépassée - Fichier II|Exception|
 |CELLSJAVA-42424|Exception dans le thread "main" java.lang.OutOfMemoryError : Limite de temps système GC dépassée - Fichier I|Exception|
 |CELLSJAVA-42428|Chart.toImage donne java.lang.ArrayIndexOutOfBoundsException|Exception|
-|CELLSJAVA-42452|L'enregistrement d'un classeur au format PDF après que RemoveUnusedStyles API produit une CellsException|Exception|
+|CELLSJAVA-42452|L'enregistrement d'un classeur sous PDF après que RemoveUnusedStyles API produit une CellsException|Exception|
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException : index de ligne non valide" s'est produit|Exception|
 |CELLSJAVA-42439|Exception : "java.lang.IllegalArgumentException : index de ligne non valide" lors de l'enregistrement d'un format de fichier XLSX|Exception|
 |CELLSJAVA-42437|Exception : java.lang.NumberFormatException lors de la ré-enregistrement d'un format de fichier XLSB|Exception|

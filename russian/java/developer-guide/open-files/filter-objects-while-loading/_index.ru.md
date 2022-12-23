@@ -23,9 +23,9 @@ url: /ru/java/filter-objects-while-loading-workbook-or-worksheet/
 - [ФОРМА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
 - [MERGED_AREA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
 - [УСЛОВНО_ФОРМАТИРОВАНИЕ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
-- [ПРОВЕРКА ДАННЫХ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
+- [ВАЛИДАЦИЯ ДАННЫХ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
 - [PIVOT_TABLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#PIVOT_TABLE)
-- [СТОЛ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
+- [ТАБЛИЦА](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#TABLE)
 - [ГИПЕРССЫЛКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#HYPERLINKS)
 - [ЛИСТ_НАСТРОЙКИ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
 - [SHEET_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
@@ -38,7 +38,7 @@ url: /ru/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [СТИЛЬ](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Фильтровать объекты при загрузке книги**
- В следующем примере кода показано, как фильтровать диаграммы из книги. Пожалуйста, проверьте[образец эксель файла](5472489.xlsx) используется в этом коде и[вывод PDF](5472488.pdf)порожденный им. Как вы можете видеть в выходном PDF-файле, все диаграммы были отфильтрованы из рабочей книги.
+ В следующем примере кода показано, как фильтровать диаграммы из книги. Пожалуйста, проверьте[образец эксель файла](5472489.xlsx) используется в этом коде и[вывод PDF](5472488.pdf)порожденный им. Как вы можете видеть в выводе PDF, все диаграммы были отфильтрованы из рабочей книги.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **Фильтровать объекты при загрузке листа**

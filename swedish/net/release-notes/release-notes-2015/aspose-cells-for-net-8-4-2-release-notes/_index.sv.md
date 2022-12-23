@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Buggar**
 
 
- (CELLSNET-43581) - Text flyttas ut från bannern när Excel-fil konverteras till PDF
+ (CELLSNET-43581) - Text flyttas ut från bannern när Excel-filen konverteras till PDF
 
  (CELLSNET-43639) - Vattenstämplar visas inte korrekt
 
@@ -40,21 +40,21 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43573) - Kolumner flyttade till nästa sida vid konvertering till PDF
 
- (CELLSNET-43571) - Fel sidbrytning i den genererade PDF-filen via Aspose.Cells
+ (CELLSNET-43571) - Fel sidbrytning i den genererade PDF via Aspose.Cells
 
  (CELLSNET-43525) - SheetRender.ToImage-genererad bild har text som klipps av
 
  (CELLSNET-43591) - Felaktigt cirkeldiagrams dataetikettvärde
 
- (CELLSNET-43574) - Dataetiketternas text överskrider diagramområdet när de konverteras till PDF
+ (CELLSNET-43574) - Dataetiketternas text överskrider diagramområdet när den konverteras till PDF
 
  (CELLSNET-43568) - Konvertera diagram till bild och infoga bilden
 
  (CELLSNET-43502) - Major Grid-linjer försvinner och serielegenden kommer i mitten
 
- (CELLSNET-41716) - X-axeletiketter visas inte korrekt
+(CELLSNET-41716) - X-axeletiketter visas inte korrekt
 
-(CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
+ (CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
 
  (CELLSNET-43637) - Felaktiga formelresultat för PERCENTRANK-funktionen
 
@@ -78,11 +78,11 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Undantag**
 
 
- (CELLSNET-43585) - Aspose.Cells.CellsException vid konvertering av kalkylblad till PDF
+ (CELLSNET-43585) - Aspose.Cells.CellsException vid konvertering av kalkylark till PDF
 
- (CELLSNET-43609) - Undantag vid rendering av en Excel-fil till PDF-filformat
+(CELLSNET-43609) - Undantag för att rendera en Excel-fil till filformatet PDF
 
-(CELLSNET-43583) - GDI-fel på SheetRender.ToImage-metoden
+ (CELLSNET-43583) - GDI-fel på SheetRender.ToImage-metoden
 
  (CELLSNET-43565) - CellsException för att spara xlsx till pdf
 
@@ -108,7 +108,7 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -116,9 +116,9 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Buggar**
 
 
- (CELLSNET-43610) - SaveCommand-händelsen aktiveras inte
+(CELLSNET-43610) - SaveCommand-händelsen aktiveras inte
 
-(CELLSNET-43551) - IE8 fungerar inte bra med det anpassade nederländska-belgiska formatet
+ (CELLSNET-43551) - IE8 fungerar inte bra med det anpassade nederländska-belgiska formatet
 
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -140,8 +140,8 @@ url: /sv/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-Lägger till PasteType.Default och PasteType.DefaultExceptBorders uppräkningar.
+ Lägger till PasteType.Default och PasteType.DefaultExceptBorders uppräkningar.
 
- Den används för att kopiera intervall som "Alla" och "Alla utom gränser" i MS Excel.
+Den används för att kopiera intervall som "Alla" och "Alla utom gränser" i MS Excel.
 
 

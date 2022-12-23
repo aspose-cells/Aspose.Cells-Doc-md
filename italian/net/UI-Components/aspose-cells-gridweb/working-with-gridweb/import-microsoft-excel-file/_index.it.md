@@ -1,12 +1,12 @@
 ﻿---
-title: Importa file Microsoft Excel
+title: Importa file Excel Microsoft
 type: docs
 weight: 40
 url: /it/net/import-microsoft-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-Come Aspose.Cells.GridDesktop, il controllo Aspose.Cells.GridWeb può aprire e caricare file Microsoft Excel - completi di dati, formattazione, grafici, immagini ecc. - ma in applicazioni web. Questo argomento spiega come.
+Come Aspose.Cells.GridDesktop, il controllo Aspose.Cells.GridWeb può aprire e caricare file Excel Microsoft - completi di dati, formattazione, grafici, immagini ecc. - ma nelle applicazioni web. Questo argomento spiega come.
 
 {{% /alert %}} 
 ## **Importa file Excel**

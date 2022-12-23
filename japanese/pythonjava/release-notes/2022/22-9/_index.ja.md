@@ -12,7 +12,7 @@ url: /ja/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-44194|Excel から PDF へのレンダリングで描画形状がレンダリングされない|
+|CELLSJAVA-44194|描画形状が Excel で PDF レンダリングにレンダリングされない|
 |CELLSJAVA-44864|ワークブックを同時に読み込むと、偽の「ファイルが破損しています」というエラーがスローされる|
 |CELLSJAVA-44327|グラフから画像へのレンダリングで、白黒のパイ スライスに表示される境界線と少ない線|
 |CELLSJAVA-44591|ラベルのテキストの回転が、グラフの出力イメージで Excel と一致しない|
@@ -20,7 +20,7 @@ url: /ja/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 |CELLSJAVA-44860|一部の結合領域で、セル テキストの表示が Excel と同じではありません|
 |CELLSJAVA-44832|PDFへの変換時にExcelのように1ページではなく複数ページが出力される|
 |CELLSJAVA-44812|グラフのプロット エリアを縮小できません|
-|CELLSJAVA-44831|Aspose.Cells for Java によって XLSX ファイルから変換された DOCX を開くと、MS Word で「Word で読み取り不能なコンテンツが見つかりました...」というエラーが表示される|
+|CELLSJAVA-44831|Aspose.Cells for Java によって XLSX ファイルから変換された DOCX ファイルを開くと、MS Word で「Word で読み取り不能なコンテンツが見つかりました...」というエラーが表示される|
 |CELLSJAVA-44833|Cell.setHtmlString() メソッドを使用すると、出力 Excel ファイル内の異なる単語またはコンテンツの一部にテキストの色が適用されない|
 |CELLSJAVA-44852|静的な Excel ファイルを HTML に変換すると境界線が正しくない|
 |CELLSJAVA-44856|Excel から HTML への変換 - スパークライン (ミニ チャート) が表示/レンダリングされない|

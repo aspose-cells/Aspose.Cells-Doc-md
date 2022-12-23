@@ -12,14 +12,14 @@ url: /es/net/aspose-cells-for-net-19-9-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-46864|Soporte de lectura y renderizado Control de archivos ODS|Nueva caracteristica|
+|CELLSNET-46864|Soporte de lectura y control de renderizado de archivos ODS|Nueva caracteristica|
 |CELLSNET-46877|Agregue la sobrecarga de SheetRender.ToPrinter(PrinterSettings PrinterSettings) a las API|Nueva caracteristica|
-|CELLSNET-46907|Configurar el nivel de compresión ZIP para XLSX/XLSB|Nueva caracteristica|
+|CELLSNET-46907|Configure el nivel de compresión ZIP para XLSX/XLSB|Nueva caracteristica|
 |CELLSNET-46890|Los resultados de la división de enteros no deben asignarse a variables de punto flotante|Insecto|
 |CELLSNET-46883|Las tablas dinámicas no conservan múltiples opciones de selección después de procesar marcadores inteligentes|Insecto|
 |CELLSNET-46874|Valores no derivados de la fórmula y requieren presionar F2 para obtener valores en las celdas|Insecto|
 |CELLSNET-46904|Los hipervínculos se pierden al importar datos de DataTable|Insecto|
-|CELLSNET-46875|El contenido se desborda de la página durante la conversión de PDF|Insecto|
+|CELLSNET-46875|El contenido se desborda de la página durante la conversión PDF|Insecto|
 |CELLSNET-46865|Un objeto se cambia después de abrir y guardar|Insecto|
 |CELLSNET-46866|La configuración de la fuente y el tamaño de fuente de Drawing.TextBox no funciona en ODS|Insecto|
 |CELLSNET-46867|Casillas de verificación perdidas al volver a guardar XLSX|Insecto|
@@ -31,7 +31,7 @@ url: /es/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46887|El formato condicional no se conserva después de abrir el archivo en MS Excel y guardarlo.|Insecto|
 |CELLSNET-46891|El relleno de degradado de OleObject se lee como FillType.Solid|Insecto|
 |CELLSNET-46894|Mostrar la configuración de la pestaña de la hoja sin marcar al guardar el archivo de Excel|Insecto|
-|CELLSNET-46906|Aspose.Cells colgado al abrir un archivo XLSX|Insecto|
+|CELLSNET-46906|Aspose.Cells ahorcado al abrir un archivo XLSX|Insecto|
 |CELLSNET-46909|El formato del objeto OLE cambió después de abrir y guardar el archivo de Excel|Insecto|
 |CELLSNET-46857|Las conexiones de filtro en el gráfico dinámico pierden la configuración al guardar después de actualizar las tablas dinámicas|Insecto|
 |CELLSNET-46862|La configuración "Ocultar elementos sin datos" en la segmentación se pierde después de actualizar las tablas dinámicas|Insecto|

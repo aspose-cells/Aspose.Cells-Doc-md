@@ -14,7 +14,7 @@ Den här sidan visar hur du installerar Aspose Cells och skapar en Hello World-a
 
 ### **Installera Aspose.Cells till NuGet**
 
-NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells for .NET.
+ NuGet är det enklaste sättet att ladda ner och installera Aspose.Cells for .NET.
 
 1.  Öppna Microsoft Visual Studio och NuGet pakethanterare.
 1.  Sök "aspose.cells" för att hitta önskad Aspose.Cells for .NET.

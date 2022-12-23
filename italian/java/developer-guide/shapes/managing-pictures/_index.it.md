@@ -8,7 +8,7 @@ url: /it/java/managing-pictures/
 
 Aspose.Cells consente agli sviluppatori di aggiungere immagini ai fogli di calcolo in fase di esecuzione. Inoltre, il posizionamento di queste immagini può essere controllato in fase di esecuzione, come discusso più dettagliatamente nelle prossime sezioni.
 
-Aspose.Cells for Java supporta solo formati immagine: BMP, JPEG, PNG, GIF.
+Aspose.Cells for Java supporta solo i formati immagine: BMP, JPEG, PNG, GIF.
 
 Gli indici utilizzati negli esempi iniziano da 0.
 

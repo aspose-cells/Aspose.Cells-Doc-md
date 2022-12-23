@@ -10,7 +10,7 @@ url: /fr/java/find-if-the-cell-value-starts-with-single-quote-mark/
 
 {{% /alert %}} 
 ## **Rechercher si la valeur de la cellule commence par un guillemet simple**
-L'exemple de code suivant explique que les chaînes telles que sample et 'sample ne peuvent pas être différenciées avec[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) propriété. Nous devons donc utiliser[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)propriété de les distinguer.
+L'exemple de code suivant explique que les chaînes telles que sample et 'sample ne peuvent pas être différenciées avec[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) la propriété. Nous devons donc utiliser[Style.QuotePrefix](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)propriété de les distinguer.
 
 
 

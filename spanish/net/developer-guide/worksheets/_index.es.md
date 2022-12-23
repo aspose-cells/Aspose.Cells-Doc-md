@@ -12,9 +12,9 @@ Los desarrolladores pueden crear y administrar fácilmente hojas de trabajo en a
 
 {{% /alert %}}
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo.
 
 ## **Agregar hojas de trabajo a un nuevo archivo de Excel**
 
@@ -64,7 +64,7 @@ Aspose.Cells es capaz de hacer todas estas tareas.
 ### **Activando Hojas y Haciendo un Cell Activo**
 
 Aspose.Cells proporciona llamadas API específicas para activar una hoja y una celda. Por ejemplo, el[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)La propiedad es útil para configurar la hoja activa en un libro de trabajo.
-Similarmente,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)La propiedad se utiliza para establecer y obtener una celda activa en la hoja de trabajo.
+Similarmente,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)La propiedad se utiliza para establecer y obtener una celda activa en la hoja de cálculo.
 
 Para asegurarse de que las barras de desplazamiento horizontal o vertical estén en la posición del índice de fila y columna en la que desea mostrar datos específicos, use el[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) y[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)propiedades.
 

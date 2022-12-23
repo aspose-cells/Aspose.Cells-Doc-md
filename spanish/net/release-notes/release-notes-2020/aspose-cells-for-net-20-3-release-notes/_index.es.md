@@ -20,7 +20,7 @@ url: /es/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47094|Reduzca el parpadeo en GridDesktop para cambiar el tamaño sin problemas|Mejora|
 |CELLSNET-47173|Distinguir hojas ocultas/muy ocultas en Aspose.Cells.GridDesktop|Mejora|
 |CELLSNET-47101|Mejore el rendimiento de guardar formato condicional y validación con filas enteras.|Mejora|
-|CELLSNET-47178|Pérdida de sangría al crear una tabla y convertirla a HTML|Insecto|
+|CELLSNET-47178|Se perdió la sangría al crear una tabla y convertirla a HTML|Insecto|
 |CELLSNET-47199|La diferencia en el cálculo del rango con nombre al establecer CreateCalcChain en verdadero y falso|Insecto|
 |CELLSNET-47077|No se pudieron aplicar bordes a las celdas (que tenían datos) al importar un archivo de Excel a GridDesktop|Insecto|
 |CELLSNET-47172|Problema al aplicar formato condicional|Insecto|
@@ -33,13 +33,13 @@ url: /es/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47210|El valor de cadena con formato enriquecido de una celda está vacío en Apple Numbers'09|Insecto|
 |CELLSNET-47213|Copiar hoja a otro libro de trabajo: las celdas ocultas (filas) desaparecen|Insecto|
 |CELLSNETCORE-53|El punto de datos en la línea del gráfico de Excel se elimina después de convertir a PDF|Insecto|
-|CELLSNET-47212|NullReferenceException al guardar un XLSM particular en XLS|Excepción|
-|CELLSNET-47222|Aspose.Cells 20.2: Excepción al convertir un archivo XLSB particular a Excel97To2003|Excepción|
+|CELLSNET-47212|NullReferenceException al guardar particular XLSM a XLS|Excepción|
+|CELLSNET-47222|Aspose.Cells 20.2: excepción al convertir un archivo particular XLSB a Excel97To2003|Excepción|
 |CELLSNET-47226|Aspose.Cells 20.2: excepción al intentar eliminar columnas en blanco|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Cambie el comportamiento de las funciones de formato para algunos CultureInfos especificados por el usuario (SOLO .NET)**
- En versiones anteriores, nuestro motor de formateo puede modificar algunas propiedades de algunas culturas especiales para obtener el resultado formateado general. Por ejemplo, para la mayoría de las situaciones, debe usarse JapaneseCalendar para dar formato a los valores de fecha y hora, por lo que en las versiones anteriores siempre hacemos que CultureInfo de "ja-JP" use JapaneseCalendar para dar formato. Sin embargo, no siempre está destinado a los usuarios cuando especifican su CultureInfo personalizado mediante API, como WorkbookSettings.CultureInfo o CustomImplementationFactory.CreateCultureInfo(). Entonces, desde 20.3, usamos la propiedad CultureInfo.UseUserOverride para decidir si cambiamos las propiedades automáticamente para formatear. Para el CultureInfo especificado, si esta propiedad es**verdadero** , luego lo tomamos como que el usuario ha anulado todas las propiedades necesarias, por lo que ya no lo cambiaremos para formatear. Si esta propiedad es**falso**, entonces podemos modificar otras propiedades automáticamente si es necesario.
+En versiones anteriores, nuestro motor de formateo puede modificar algunas propiedades de algunas culturas especiales para obtener el resultado formateado general. Por ejemplo, para la mayoría de las situaciones, debe usarse JapaneseCalendar para dar formato a los valores de fecha y hora, por lo que en las versiones anteriores siempre hacemos que CultureInfo de "ja-JP" use JapaneseCalendar para dar formato. Sin embargo, no siempre está destinado a los usuarios cuando especifican su CultureInfo personalizado mediante API, como WorkbookSettings.CultureInfo o CustomImplementationFactory.CreateCultureInfo(). Entonces, desde 20.3, usamos la propiedad CultureInfo.UseUserOverride para decidir si cambiamos las propiedades automáticamente para formatear. Para el CultureInfo especificado, si esta propiedad es**verdadero** , luego lo tomamos como que el usuario ha anulado todas las propiedades necesarias, por lo que ya no lo cambiaremos para formatear. Si esta propiedad es**falso**, entonces podemos modificar otras propiedades automáticamente si es necesario.
 #### **Agregue la propiedad LoadFilter.SheetsInLoadingOrder.**
 Los usuarios pueden anular esta propiedad para especificar las hojas y el orden en que se cargarán al importar libros de trabajo desde el archivo de plantilla.
 #### **Elimina la propiedad TickLabels.Background obsoleta**
@@ -53,7 +53,7 @@ Elimina datos ActiveX de la forma.
 #### **Agrega la propiedad ThreadedComment.CreatedTime.**
 Obtiene y establece la hora de creación de los comentarios encadenados.
 #### **Agrega la propiedad Worksheet.UniqueId.**
-Obtiene y establece la identificación única de la hoja de trabajo.
+Obtiene y establece la identificación única de la hoja de cálculo.
 #### **Agrega la enumeración IconSetType.ColorSmilies3 e IconSetType.Smilies3.**
 Representa los formatos condicionales del conjunto de iconos de 3smiles. Solo para archivos .ods.s
 #### **Agrega la enumeración TimePeriodType.LastYear,TimePeriodType.NextYear y ThisYear.**

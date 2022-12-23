@@ -1,5 +1,5 @@
 ﻿---
-title: Преобразование версии XLSB в XLSM
+title: Преобразовать редакцию XLSB в XLSM
 type: docs
 weight: 290
 url: /ru/net/convert-revision-of-xlsb-to-xlsm/

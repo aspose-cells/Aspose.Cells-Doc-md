@@ -8,7 +8,7 @@ url: /ja/net/saving-files-in-php/
 ### **パスを介して開く**
 ファイルのパスを参照して Microsoft Excel ファイルを保存する
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

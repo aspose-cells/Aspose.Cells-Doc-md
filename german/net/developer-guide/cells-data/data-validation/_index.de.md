@@ -16,7 +16,7 @@ Die Datenvalidierung ist die Fähigkeit, Regeln bezüglich der in ein Arbeitsbla
 
 Microsoft Excel unterstützt eine Reihe verschiedener Arten der Datenvalidierung. Jeder Typ wird verwendet, um zu steuern, welcher Datentyp in eine Zelle oder einen Zellbereich eingegeben wird. Unten veranschaulichen Code-Snippets, wie dies validiert werden kann:
 
-- Zahlen sind ganz, das heißt, sie haben keinen Dezimalteil.
+- Numbers ganz sind, das heißt, dass sie keinen Dezimalteil haben.
 - Dezimalzahlen folgen der richtigen Struktur. Das Codebeispiel definiert, dass ein Zellbereich zwei Dezimalstellen haben sollte.
 - Werte sind auf eine Werteliste beschränkt. Die Listenvalidierung definiert eine separate Liste von Werten, die auf eine Zelle oder einen Zellbereich angewendet werden können.
 - Daten fallen in einen bestimmten Bereich.
@@ -41,7 +41,7 @@ Die Datenvalidierung ist eine leistungsstarke Funktion zur Validierung der in Ar
 - Formel1 – stellt den Wert oder Ausdruck dar, der dem ersten Teil der Datenvalidierung zugeordnet ist.
 - Formel2 – stellt den Wert oder Ausdruck dar, der dem zweiten Teil der Datenvalidierung zugeordnet ist.
 
- Wenn der[**Validierung**](https://reference.aspose.com/cells/net/aspose.cells/validation) Objekteigenschaften konfiguriert wurden, können Entwickler die verwenden[**Zellbereich**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)-Struktur zum Speichern von Informationen über den Zellbereich, der mithilfe der erstellten Validierung validiert wird.
+ Wenn die[**Validierung**](https://reference.aspose.com/cells/net/aspose.cells/validation) Objekteigenschaften konfiguriert wurden, können Entwickler die verwenden[**Zellbereich**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)-Struktur zum Speichern von Informationen über den Zellbereich, der mithilfe der erstellten Validierung validiert wird.
 
 #### **Arten der Datenvalidierung**
 
@@ -68,7 +68,7 @@ Bei dieser Art der Validierung können Benutzer nur ganze Zahlen innerhalb eines
 
 Diese Art der Validierung ermöglicht es dem Benutzer, Werte aus einer Dropdown-Liste einzugeben. Es stellt eine Liste bereit: eine Reihe von Zeilen, die Daten enthalten. Im Beispiel wird ein zweites Arbeitsblatt hinzugefügt, um die Listenquelle aufzunehmen. Benutzer können nur Werte aus der Liste auswählen. Der Validierungsbereich ist der Zellbereich A1:A5 im ersten Arbeitsblatt.
 
- Wichtig ist hier, dass Sie die einstellen[**Validierung.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) Eigentum zu**Stimmt**.
+ Wichtig ist hier, dass Sie die einstellen[**Validierung.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-ListDataValidation-1.cs" >}}
 

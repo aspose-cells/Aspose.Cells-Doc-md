@@ -16,7 +16,7 @@ El siguiente ejemplo muestra cómo establecer el color de relleno sólido (color
 
 ### **Adición de bordes a un rango con nombre**
 
- Es posible agregar bordes a un rango de celdas en lugar de a una sola celda. los[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto proporciona un[**EstablecerEsquemaBorde**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)método que toma los siguientes parámetros para agregar un borde al rango de celdas:
+ Es posible agregar bordes a un rango de celdas en lugar de a una sola celda. Él[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto proporciona un[**EstablecerEsquemaBorde**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)método que toma los siguientes parámetros para agregar un borde al rango de celdas:
 
 -  Tipo de borde, el tipo de borde, seleccionado de la[**Tipo de borde**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)enumeración.
 -  Estilo de línea, el estilo de línea, seleccionado de la[**Tipo de borde de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)enumeración.
@@ -56,6 +56,6 @@ El siguiente ejemplo muestra cómo establecer bordes alrededor de cada celda en 
 
 ## **Eliminar un rango con nombre**
 
- Aspose.Cells proporciona el[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) método para borrar el nombre del rango. Para borrar el contenido del rango, use[**Cells.ClearRango()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)método. El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
+ Aspose.Cells proporciona el[**NameCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/namecollection/methods/removeat) método para borrar el nombre del rango. Para borrar el contenido del rango, utilice[**Cells.ClearRango()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/clearrange/index)método. El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-RemoveANamedRange-1.cs" >}}

@@ -34,13 +34,13 @@ url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
-|20247 | ODS| Fel i Formula när jag sparar som ODS|
+|20247 |ODS | Fel i formeln när jag sparar som ODS|
 |18357 | Pdf| Konverteringsproblem på PIE-grafer|
 |18925 | Pdf| Problem Konvertera Excel till PDF|
 |19883 | Pdf| Det gick inte att hitta objektreferens fel|
 |20011 | Pdf| Sidbrytningar med tom sida fungerar inte|
-|20057 | Pdf| Excel till PDF-konverteringsproblem|
-|20070 | Pdf| Multibyte teckensnitt|
+|20057 | Pdf| Excel till PDF konverteringsproblem|
+|20070 | Pdf| Multibyte-teckensnitt|
 |20071 | Pdf| Multibyte teckensnittsfärg|
 |20450 | Pdf| Ogiltigt radindex|
 |20590 | Pdf| Trunkerad text i vissa celler efter konvertering till PDF|
@@ -50,8 +50,8 @@ url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 |20721 | Pivottabell| Inmatningssträngen var inte i korrekt format|
 |20228 | Sheet2Image| RLE-komprimering som resulterar i bitonala TIFF|
 |20574 | Sheet2Image| Funktionen Spara till bild formateras inte korrekt|
-|20181 | SpreadsheetML| En cell som använder hyperlänkfunktionen ger undantag|
-|20519 | SpreadsheetML| Det gick inte att hämta Excel 2007-innehåll som XML|
+|20181 |SpreadsheetML | En cell som använder hyperlänkfunktionen ger undantag|
+|20519 |SpreadsheetML | Det gick inte att hämta Excel 2007-innehåll som XML|
 |20055 | Xls| Formel innehåller '\r'|
 |20152 | Xls| Välj Funktionen utvärderas inte korrekt efter infogning av rader|
 |20168 | Xls| Omräkning av anpassade VBA-funktioner|
@@ -78,7 +78,7 @@ url: /sv/net/aspose-cells-for-net-5-1-4-release-notes/
 |20553 | Xlsx| Globalt namngivet intervall som datakälla för ett diagram|
 |20591 | Xlsx| Diagram från mallfilen punktdataetiketter teckensnittsproblem|
 |20654 | Xlsx| Det gick inte att läsa in excel2007-filen|
-|20706 | Xlsx| Karta 3D-format|
+|20706 | Xlsx| Diagram 3D-format|
 |20103 | GridWeb| Fixade buggen med att exportera cellkommando som hyperlänk till excel-fil.|
 |20602 | GridWeb| Förbättrade storleksändringsbeteendet hos klienten.|
 |20633 | GridDesktop| Förbättrade laddningstiden för metoden ImportExcelFile().|

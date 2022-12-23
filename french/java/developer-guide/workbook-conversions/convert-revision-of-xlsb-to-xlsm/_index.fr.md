@@ -12,7 +12,7 @@ Lorsque vous convertissez votre fichier XLSB en fichier XLSM à l'aide de Aspose
 
 {{% /alert %}} 
 ## **Convertir la révision de XLSB en XLSM**
-La capture d'écran suivante montre les fichiers .bin à l'intérieur du chemin \xl\revisions du fichier XLSB.
+La capture d'écran suivante montre les fichiers .bin dans le chemin \xl\revisions du fichier XLSB.
 
 ![tâche : image_autre_texte](convert-revision-of-xlsb-to-xlsm_1.png)
 

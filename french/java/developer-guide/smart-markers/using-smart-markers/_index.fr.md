@@ -39,7 +39,7 @@ Les paramètres suivants sont autorisés :
 - *croissant : n ou décroissant : n - Trier les données dans des marqueurs intelligents. Si n vaut 1, alors la colonne est la première clé du trieur. Les données sont triées après le traitement de la source de données. Par exemple : &=Table1.Field3(croissant : 1).
 - **horizontal** - Écrivez les données de gauche à droite, au lieu de haut en bas.
 - **numérique** - Convertissez le texte en nombre si possible.
-- **décalage** - Maj vers le bas ou vers la droite, créant des lignes ou des colonnes supplémentaires pour s'adapter aux données. Le paramètre de décalage fonctionne de la même manière que dans Microsoft Excel. Par exemple, dans Microsoft Excel, lorsque vous sélectionnez une plage de cellules, cliquez avec le bouton droit et sélectionnez**Insérer** et précisez**décaler les cellules vers le bas**, **décaler les cellules vers la droite** et d'autres options. En bref, le paramètre de décalage remplit la même fonction pour les marqueurs intelligents verticaux/normaux (de haut en bas) ou horizontaux (de gauche à droite).
+- **changement** - Maj vers le bas ou vers la droite, créant des lignes ou des colonnes supplémentaires pour s'adapter aux données. Le paramètre de décalage fonctionne de la même manière que dans Microsoft Excel. Par exemple, dans Microsoft Excel, lorsque vous sélectionnez une plage de cellules, cliquez avec le bouton droit et sélectionnez**Insérer** et précisez**décaler les cellules vers le bas**, **décaler les cellules vers la droite** et d'autres options. En bref, le paramètre de décalage remplit la même fonction pour les marqueurs intelligents verticaux/normaux (de haut en bas) ou horizontaux (de gauche à droite).
 - **haricot** - Indique que la source de données est un simple POJO. Uniquement pris en charge dans le Java API.
 
 Les paramètres noadd et skip peuvent être combinés pour insérer des données sur des lignes alternées. Étant donné que le modèle est traité de bas en haut, vous devez ajouter noadd sur la première ligne pour éviter que des lignes supplémentaires ne soient insérées avant l'autre ligne.
@@ -156,7 +156,7 @@ Aspose.Cells prend désormais également en charge l'utilisation d'une liste gé
 
 ## **Utilisation de la propriété HTML des marqueurs intelligents**
 
-L'exemple de code suivant explique l'utilisation de la propriété HTML des marqueurs intelligents. Lorsqu'il sera traité, il affichera "Monde" dans "Hello World" en gras à cause de HTML \<b>étiquette.
+L'exemple de code suivant explique l'utilisation de la propriété HTML des marqueurs intelligents. Lorsqu'il sera traité, il affichera "Monde" dans "Hello World" en gras à cause de HTML \<b> étiquette.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 

@@ -32,31 +32,31 @@ url: /tr/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41680) - API, acceptFormula yöntemini çağırmadan önce ve sonra Rus ay adını farklı şekilde işler
 
- (CELLSJAVA-41673) - Aspose.Cells, şablon dosyasındaki Excel sayfasından hiçbir şey okumuyor
+(CELLSJAVA-41673) - Aspose.Cells, şablon dosyasındaki Excel sayfasından hiçbir şey okumuyor
 
 
 ## **Hatalar**
 
 
- (CELLSJAVA-41685) - Elektronik tabloyu HTML'ye dönüştürürken grafik resimlerinin boyutu 0 KB'dir
+ (CELLSJAVA-41685) - Elektronik tablo HTML'e dönüştürülürken grafik resimlerinin boyutu 0 KB'dir
 
- (CELLSJAVA-41684) - HTML'de grafik resmi eksik
+ (CELLSJAVA-41684) - HTML'de grafik görüntüsü eksik
 
- (CELLSJAVA-41676) - HTML Çıktısı Öngörülemeyen Sonuçlar Üretiyor
+ (CELLSJAVA-41676) - HTML Çıktı Öngörülemeyen Sonuçlar Üretiyor
 
- (CELLSJAVA-41665) - Elektronik tablodaki resim HTML'ye aktarılmıyor
+ (CELLSJAVA-41665) - Elektronik tablodaki resim HTML'e aktarılmıyor
 
- (CELLSJAVA-41632) - EXCEL'den HTML'ye ve tekrar EXCEL'e dönüştürürken tarih hizalama sorunu
+ (CELLSJAVA-41632) - EXCEL'den HTML'e ve tekrar EXCEL'e dönüştürürken tarih hizalama sorunu
 
-(CELLSJAVA-41603) - Bir hücre aralığını html'ye dışa aktarırken hücreler için yanlış arka plan rengi görünüyor
+ (CELLSJAVA-41603) - Bir hücre aralığını html'ye dışa aktarırken hücreler için yanlış arka plan rengi görünüyor
 
- (CELLSJAVA-41337) - HTML'ye dönüştürme çok büyük bir HTML dosyası oluşturuyor
+ (CELLSJAVA-41337) - HTML'e dönüştürme çok büyük bir HTML dosyası oluşturuyor
 
- (CELLSJAVA-41705) - Excel Tablolarının HTML'sinde Metin Rengi Düzgün Oluşturulmuyor
+ (CELLSJAVA-41705) - Excel Tablolarının HTML'inde Metin Rengi Düzgün Oluşturulmuyor
 
- (CELLSJAVA-41647) - Elektronik tablo HTML'ye dönüştürüldüğünde, bir ListObject içindeki bir aralığa işaret eden köprü bozuluyor
+ (CELLSJAVA-41647) - Elektronik tablo HTML'e dönüştürüldüğünde, bir aralığa işaret eden bir ListObject içindeki köprü bozuluyor
 
- (CELLSJAVA-41659) - Bir hücreye adlandırılmış stil uygulanması, Excel arayüzünün Stiller bölümünde yansıtılmıyor
+(CELLSJAVA-41659) - Bir hücreye adlandırılmış stil uygulanması, Excel arayüzünün Stiller bölümünde yansıtılmıyor
 
  (CELLSJAVA-41602) - Cell.calculate() yöntemi belirli bir hücre için düzgün çalışmıyor
 
@@ -70,57 +70,57 @@ url: /tr/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41662) - DataBar'ı görüntüye dönüştürürken kenarlık eksik
 
-(CELLSJAVA-41548) - DataBar'dan Resme: Resimdeki DataBar boyutu Excel'e karşılık gelmiyor
+ (CELLSJAVA-41548) - DataBar'dan Resme: Resimdeki DataBar boyutu Excel'e karşılık gelmiyor
 
  (CELLSJAVA-41250) - Sayfa, SheetRender.toImage() kullanılarak doğru şekilde oluşturulmuyor
 
  (CELLSJAVA-41701) - Çizim Alanı yüksekliği ve Çizim Alanı Y değerleri, elektronik tablodan tablo yeniden yüklendikten sonra farklı
 
- (CELLSJAVA-41699) - Grafikten Görüntüye Dönüştürme - Çubuk boyutları farklı gösterildiğinden grafik görüntüsü doğru şekilde işlenmedi
+(CELLSJAVA-41699) - Grafikten Görüntüye Dönüştürme - Çubuk boyutları farklı gösterildiğinden grafik görüntüsü doğru şekilde işlenmedi
 
- (CELLSJAVA-41689) - Kenar Yumuşatma, HTML'ye dışa aktarılırken grafiğin seri dolgusu için etkili görünmüyor
+ (CELLSJAVA-41689) - Kenar Yumuşatma, HTML'e dışa aktarılırken grafiğin seri dolgusu için etkili görünmüyor
 
-(CELLSJAVA-41686) - İşlemeHints.VALUE_METİN_ ANTIALIAS_GASP, e-tabloyu HTML'ye dönüştürürken etkili olmuyor
+(CELLSJAVA-41686) - İşlemeHints.VALUE_METİN_ Elektronik tablo HTML'e dönüştürülürken ANTIALIAS_GASP etkili olmuyor
 
- (CELLSJAVA-41678) - Grafiğin PDF'sinde Yanlış Renkler Görüntüleniyor
+ (CELLSJAVA-41678) - Grafiğin PDF'inde yanlış renkler gösteriliyor
 
- (CELLSJAVA-41669) - Grafiğin PDF'sinde tüm çubuklar 0 değer kuralının altında görünüyor
+ (CELLSJAVA-41669) - Grafiğin PDF'inde tüm çubuklar 0 değer kuralının altında görünüyor
 
- (CELLSJAVA-41667) - Kümelenmiş Çubuk grafikler çıktı PDF dosyası biçiminde görüntülenmiyor
+ (CELLSJAVA-41667) - PDF dosya biçimindeki çıktıda Kümelenmiş Çubuk grafikler görüntülenmiyor
 
-(CELLSJAVA-41660) - Grafiğin PDF'sinde X ekseni ve Y ekseninin kalınlığı artırıldı
+ (CELLSJAVA-41660) - Grafiğin PDF'inde X ekseni ve Y ekseninin kalınlığı artırıldı
 
  (CELLSJAVA-41657) - Balon grafiği resme dönüştürülürken düzgün görüntülenmiyor
 
  (CELLSJAVA-41656) - Grafik Serisi Değeri Belirli Bir Açıda Görüntüleniyor
 
- (CELLSJAVA-41646) - Grafiğin PDF'sindeki X ekseninin alt bölümü kırpılıyor
+(CELLSJAVA-41646) - Grafiğin PDF'deki X ekseninin alt bölümü kırpılıyor
 
- (CELLSJAVA-41644) - Tabloyu PDF'ye dönüştürürken eksen etiketleri eğik gösteriliyor
+ (CELLSJAVA-41644) - Tablo PDF'e dönüştürülürken eksen etiketleri eğik olarak gösteriliyor
 
- (CELLSJAVA-41628) - Chart to PDF'de başlığın hizalanması doğru değil
+ (CELLSJAVA-41628) - Grafikte PDF'e doğru olmayan başlığın hizalanması
 
- (CELLSJAVA-41623) - Chart.toPdf kullanılarak Chart'ın PDF'sinde birkaç veri serisi çubuğu eksik
+ (CELLSJAVA-41623) - Chart.toPdf kullanılarak Chart'ın PDF'inde birkaç veri serisi çubuğu eksik
 
  (CELLSJAVA-41468) - Grafiğin kalite sorunu - Kenar yumuşatma, gölge olmadan etkinleşmez
 
- (CELLSJAVA-41445) - Kabarcık grafiğinin, işlenmiş HTML dosyası biçiminde kenar yumuşatma etkisi yoktur
+ (CELLSJAVA-41445) - Kabarcık grafiğin işlenmiş HTML dosya biçiminde kenar yumuşatma etkisi yok
 
-(CELLSJAVA-41306) - Excel'den PDF'e dönüştürme sorunu - sağ taraf kesik
+ (CELLSJAVA-41306) - Excel'den PDF'e dönüştürme sorunu - sağ taraf kesik
 
- (CELLSJAVA-41697) - Oluşturulan HTML/Resim/PDF formatında tablolar ve aralıklar için yanlış yazı tipi rengi görünüyor
+ (CELLSJAVA-41697) - Oluşturulan HTML/Image/PDF biçiminde tablolar ve aralıklar için yanlış yazı tipi rengi görünüyor
 
-(CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash(), makro koduyla yeniden korumanın ardından 0 döndürür
+ (CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash(), makro koduyla yeniden korumanın ardından 0 döndürür
 
  (CELLSJAVA-41675) - PDF çıktısında görüntü şeffaf değil
 
- (CELLSJAVA-41671) - Ortaya Çıkan PDF'de Koşullu Olarak Biçimlendirilmiş Cell Renklerinin Yanlış Oluşturulması
+ (CELLSJAVA-41671) - Koşullu Olarak Biçimlendirilmiş Cell Renklerinin Sonuç PDF'de Yanlış Oluşturulması
 
- (CELLSJAVA-41663) - Koşullu Biçimlendirmenin Simge Görüntü Verilerini Boş Görüntüdeki Sonuçları Dosyaya Kaydetme
+(CELLSJAVA-41663) - Koşullu Biçimlendirmenin Simge Görüntü Verilerini Boş Görüntüdeki Sonuçları Dosyaya Kaydetme
 
  (CELLSJAVA-41661) - Yükleme ve xml'den xlsx dosyasına dönüştürme sırasında işlem takılıyor
 
- (CELLSJAVA-41597) - XLSB'yi yeniden kaydettikten sonra Excel 2007'de okunamayan içerik
+ (CELLSJAVA-41597) - XLSB yeniden kaydedildikten sonra Excel 2007'de okunamayan içerik
 
 
 ## **İstisnalar**
@@ -130,7 +130,7 @@ url: /tr/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -160,7 +160,7 @@ url: /tr/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-Eski Workbook.SaveOptions özelliğini siler.
+ Eski Workbook.SaveOptions özelliğini siler.
 
  Bunun yerine Workbook.Save(Stream,SaveOptions) veya Workbook.Save(string,SaveOptions) yöntemini kullanın.
 
@@ -172,7 +172,7 @@ Eski Workbook.SaveOptions özelliğini siler.
 
 
 
- Proptection.IsProtectedWithPassword özelliğini ekler.
+Proptection.IsProtectedWithPassword özelliğini ekler.
 
  Çalışma sayfasının parola ile korunup korunmadığını gösterir.
 

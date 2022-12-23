@@ -14,7 +14,7 @@ Microsoft Excel, kullanıcıların bir çalışma sayfasında belirtilen veriler
 
 ### **Microsoft Excel'i kullanma**
 
-Microsoft Excel, kullanıcıların bir çalışma sayfasında belirtilen verileri içeren hücreleri bulmasına olanak tanır. eğer seçersen**Düzenlemek** dan**Bulmak** Microsoft Excel'deki menü, arama değerini belirtebileceğiniz bir iletişim kutusu göreceksiniz.
+ Microsoft Excel, kullanıcıların bir çalışma sayfasında belirtilen verileri içeren hücreleri bulmasına olanak tanır. eğer seçersen**Düzenlemek** dan**Bulmak** Microsoft Excel'deki menü, arama değerini belirtebileceğiniz bir iletişim kutusu göreceksiniz.
 
 Burada "Portakal" değerini arıyoruz. Aspose.Cells, geliştiricilerin çalışma sayfasında belirtilen değerleri içeren hücreleri bulmasına da olanak tanır.
 
@@ -54,7 +54,7 @@ Aşağıdaki örnekler, bulma yöntemlerini uygulamak için çalışma sayfası 
 
  Aynı dizeyi çağırarak belirtilen dize değerlerini bulmak mümkündür.[**Bulmak**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) bulunan yöntem[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) koleksiyonu ile çeşitli[**Seçenekleri Bul**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- belirtin[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) ve[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)özellikleri. Aşağıdaki örnek kod, bu özelliklerin, belirli sayıda dizeye sahip hücreleri bulmak için nasıl kullanılacağını göstermektedir.**başlangıç** ya da**merkez** ya da**son** hücre dizisinin.
+ belirtin[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) ve[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) özellikler. Aşağıdaki örnek kod, bu özelliklerin, belirli sayıda dizeye sahip hücreleri bulmak için nasıl kullanılacağını göstermektedir.**başlangıç** ya da**merkez** ya da**son** hücre dizisinin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

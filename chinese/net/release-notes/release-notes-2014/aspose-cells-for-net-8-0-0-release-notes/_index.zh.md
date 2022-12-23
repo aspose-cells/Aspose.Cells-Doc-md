@@ -11,7 +11,7 @@ url: /zh/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本新增了 50 多项有用的改进。
-使用 Aspose.Cells for .NET，您可以在应用程序中处理 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
+使用 Aspose.Cells for .NET，您可以在应用程序中使用 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
 访问文档以了解如何开始使用 Aspose.Cells for .NET。
 请注意，此下载包含该产品的完整工作版本，但如果没有许可证集，它将在评估模式下运行，但有一些限制。要在没有这些评估限制的情况下测试 Aspose.Cells，您可以申请免费的 30 天临时许可证。
 以下是此版本 Aspose.Cells 的更改列表。
@@ -26,7 +26,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 其他改进和变化
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-42399) - 导出没有隐藏行和列的数据
 
@@ -38,7 +38,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 (CELLSNET-42417) - 方法名称中的拼写错误 - SeriesCollection.SecondCatergoryData
 
-(CELLSNET-42413) - 在将 XLSB 转换为 XLSM 期间丢失的场景
+(CELLSNET-42413) - 场景从 XLSB 转换为 XLSM 时丢失
 
 ### **表现**
 
@@ -48,7 +48,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 ## **虫子**
 
-(CELLSNET-42367) - 输出 PDF 中的垂直文本问题
+(CELLSNET-42367) - 输出中的垂直文本问题 PDF
 
 (CELLSNET-42409) - 未计算/打印计算字段
 
@@ -60,7 +60,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 (CELLSNET-42358) - 复选框的文本对齐问题
 
-(CELLSNET-42357) - 输出 HTML 中缺少一些复选框
+(CELLSNET-42357) - 输出中缺少一些复选框 HTML
 
 (CELLSNET-42352) - 将 XLSX 转换为 HTML 时缺少边框
 
@@ -72,7 +72,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 (CELLSNET-42491) - 下划线和双底单元格边框打印不正确
 
-(CELLSNET-42474) - 转换为 PDF 后字体大小发生变化
+(CELLSNET-42474) - 字体大小在转换为 PDF 后更改
 
 (CELLSNET-42463) - 不同页脚图片的 SheetRender 问题
 
@@ -88,15 +88,15 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 (CELLSNET-42428) - Excel 到 PDF 的转换 - 行不可见
 
-(CELLSNET-42421) - 某些查看器在 PDF 文件中缺少数字 8
+(CELLSNET-42421) - 一些观众在 PDF 文件中缺少第 8 号
 
-(CELLSNET-42410) - Excel 到 PDF 转换中的额外分页符
+(CELLSNET-42410) - Excel 中的额外分页符转换为 PDF
 
 (CELLSNET-42338) - 输出 XPS 中值和图表的差异和问题
 
-(CELLSNET-41853) - XLS 页面的设计完全丢失
+(CELLSNET-41853) - 来自 XLS 页面的设计完全丢失
 
-(CELLSNET-41803) - 负数据栏未出现在输出 PDF 中
+(CELLSNET-41803) - 负数据栏未出现在输出中 PDF
 
 (CELLSNET-42473) - 图表在输出 PDF 中不包含标记
 
@@ -173,7 +173,7 @@ Aspose.Cells for .NET 已更新至 8.0.0 版，我们很高兴地宣布此版本
 
 添加 FileFormatType.Ooxml 枚举
 
-表示加密的office open xml文件（如XLSX、DOCX、PPTX等）。
+表示加密后的office open xml文件（如XLSX、DOCX、PPTX等）。
 
 添加 LoadOptions.MemorySetting 属性和 WorkbookSettings.MemorySetting 属性
 

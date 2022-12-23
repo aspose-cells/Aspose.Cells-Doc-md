@@ -22,31 +22,31 @@ url: /de/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46441|Cell.GetDisplayStyle() hängt für eine Zelle|Leistung|
 |CELLSNET-46423|Formatierungsprobleme beim Konvertieren von XLSX in PDF|Insekt|
 |CELLSNET-46410|Das Pivot-Tabellenformat wird nach der Aktualisierung durcheinander gebracht|Insekt|
-|CELLSNET-46404|Verarbeiten von Diagrammen auf die gleiche Weise wie Bilder beim Speichern von HTML|Insekt|
+|CELLSNET-46404|Beim Speichern von HTML werden Diagramme wie Bilder verarbeitet|Insekt|
 |CELLSNET-46388|Die Datei ist nach dem Laden und erneuten Speichern eines XLSX-Dateiformats beschädigt|Insekt|
 |CELLSNET-46387|Problem beim Sortieren der Pivot-Tabelle|Insekt|
-|CELLSNET-46366|Beim Konvertieren von HTML in XLSX fehlen Rahmen und Hintergrundfarben|Insekt|
+|CELLSNET-46366|Beim Konvertieren von HTML in XLSX fehlen Ränder und Hintergrundfarben|Insekt|
 |CELLSNET-46365|Referenzierte CSS-Stylesheets werden beim Öffnen von HTML ignoriert|Insekt|
 |CELLSNET-46431|Das Ergebnis der VLookup-Formel unterscheidet sich vom MS Excel-Ergebnis|Insekt|
-|CELLSNET-46430|Array-Formel funktioniert nicht nach Workbook.Combine in XLSX zu XLSB-Konvertierung|Insekt|
+|CELLSNET-46430|Die Array-Formel funktioniert nach der Konvertierung von Workbook.Combine in XLSX in XLSB nicht|Insekt|
 |CELLSNET-46428|Name.RefersTo ruft nicht den richtigen Wert ab|Insekt|
-|CELLSNET-46413|Das Erstellen von XLSX mit bedingter Formatierung erzeugt eine beschädigte Datei|Insekt|
-|CELLSNET-46403|Array-Formel funktioniert nicht nach Workbook.Combine zum Speichern im XLSB-Dateiformat|Insekt|
-|CELLSNET-46396|Als SVG gespeicherte Arbeitsmappe ist beschädigt, da es sich tatsächlich um eine TIFF-Datei handelt|Insekt|
+|CELLSNET-46413|Das Erstellen von XLSX mit bedingter Formatierung führt zu einer beschädigten Datei|Insekt|
+|CELLSNET-46403|Array-Formel funktioniert nicht, nachdem Workbook.Combine zum Speichern im Dateiformat XLSB gespeichert wurde|Insekt|
+|CELLSNET-46396|Die als SVG gespeicherte Arbeitsmappe ist beschädigt, da es sich tatsächlich um eine TIFF-Datei handelt|Insekt|
 |CELLSNET-46420|Diagramm in PDF mit Spitzenproblem|Insekt|
 |CELLSNET-46411|Es hängt beim Konvertieren von XLSX in PDF|Insekt|
 |CELLSNET-46408|Datenmarkierungen fehlen im Ausgabediagrammbild der MS Excel-Datei|Insekt|
-|CELLSNET-46393|Achsenbeschriftungen sind nach der Konvertierung des MS Excel-Diagramms in das PNG-Bildformat falsch ausgerichtet|Insekt|
-|CELLSNET-46359|Variation der Schriftgröße für Beschriftungen im Diagramm in der ausgegebenen SVG-Datei|Insekt|
+|CELLSNET-46393|Achsenbeschriftungen nach der Konvertierung des MS Excel-Diagramms in das Bildformat PNG falsch ausgerichtet|Insekt|
+|CELLSNET-46359|Variation der Schriftgröße für Beschriftungen im Diagramm in der Ausgabedatei SVG|Insekt|
 |CELLSNET-46433|Bedingte Formatierungen werden beim Löschen des benannten Bereichs gelöscht|Insekt|
 |CELLSNET-46427|MS Excel meldet ein Problem nach dem Öffnen/Speichern mit Aspose.Cells|Insekt|
 |CELLSNET-46421|Die Eigenschaft "CreatedTime" des Dokuments ändert sich nach dem Speichern im Stream|Insekt|
 |CELLSNET-46417|Umbrechen Sie Text, der nicht funktioniert, zusammen mit einer leeren Zeile über dem Text|Insekt|
-|CELLSNET-46416|Diagrammdaten gehen beim Laden und Speichern der XLSX-Datei verloren|Insekt|
+|CELLSNET-46416|Diagrammdaten gehen beim Laden und Speichern der Datei XLSX verloren|Insekt|
 |CELLSNET-46409|Problem mit Dropdown-Liste nach der Konvertierung von XML|Insekt|
 |CELLSNET-46407|Die Initialisierung der Arbeitsmappe dauert beim Laden eines XLSM-Dateiformats zu lange|Insekt|
 |CELLSNET-46397|Der Grafiktitel geht beim Konvertieren von XLS in XLSM verloren|Insekt|
-|CELLSNET-46401|ArgumentException beim Arbeiten mit generierter HTML-Datei|Ausnahme|
+|CELLSNET-46401|ArgumentException beim Arbeiten mit der generierten HTML-Datei|Ausnahme|
 |CELLSNET-46426|Ausnahme beim Aufrufen von AutoFitColumns()|Ausnahme|
 |CELLSNET-46415|CellsException-Ausnahme beim Speichern, wenn ParsingFormulaOnOpen falsch ist|Ausnahme|
 |CELLSNET-46422|Ausnahme beim Verarbeiten von Smarttags|Ausnahme|
@@ -63,7 +63,7 @@ Stellt die Berechnungsdaten zu einer Zelle dar, die berechnet wird.
 #### **Fügt die AbstractCalculationMonitor.OnCircular(IEnumerator kreisförmigeCellsData)-Methode hinzu**
 Bietet dem Benutzer eine Methode zum Sammeln und Verarbeiten von Zirkelverweisen.
 #### **Fügt die Eigenschaft TxtLoadOptions.TreatConsecutiveDelimitersAsOne hinzu**
-Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren einer CSV-Datei als eines verwendet werden sollen.
+Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren der CSV-Datei als eines verwendet werden sollen.
 #### **Fügt die Methode FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) hinzu**
 Bietet dem Benutzer eine effiziente und bequeme Möglichkeit, Formeln für FormatCondition festzulegen.
 #### **Fügt die Methode Validation.GetListValue(int row, int column) hinzu**

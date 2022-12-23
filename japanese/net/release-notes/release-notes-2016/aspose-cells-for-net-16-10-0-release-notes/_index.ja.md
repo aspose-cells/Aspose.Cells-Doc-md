@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44374 | xml マップに関連する一部の列のみの配列を定義して、xml マップをインポートします。|新機能|
 |CELLSNET-44701 | API は、スタイル display:none の DIV タグを含む行を非表示にします|強化|
 |CELLSNET-44700 |API はスタイル display:block を持つ DIV タグ間のコンテンツをインポートしません|強化|
-|CELLSNET-44699 |API は HTML の DIV タグ間のコンテンツをインポートしません|強化|
+|CELLSNET-44699 |API は、HTML の DIV タグ間のコンテンツをインポートしません|強化|
 |CELLSNET-44304 |PivotTable.GetCellByDisplayName は、256 番目のフィールドを超えるものに対して null を返します|強化|
 |CELLSNET-44808 |Table または ListObject の数式が新しい行に反映されない|強化|
 |CELLSNET-44719 |Workbook.Worksheets.ExternalLinks が同じリストを返さない|強化|
@@ -23,8 +23,8 @@ url: /ja/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44733 |列幅が狭いため非表示のテキストが画像に表示されました|バグ|
 |CELLSNET-44768 |グラフのタイトルが動的に変更されない|バグ|
 |CELLSNET-44763 |MS Office でヘブライ語言語パックを使用して定義されたチャートが画像に正しくエクスポートされない|バグ|
-|CELLSNET-44730 |出力 PDF で両端揃えリストが正しく表示されない|バグ|
-|CELLSNET-44729 |PDF にエクスポートすると、Excel の番号付きリストが正しく表示されない|バグ|
+|CELLSNET-44730 |正当化されたリストが出力で正しく表示されない PDF|バグ|
+|CELLSNET-44729 | PDF にエクスポートすると、Excel の番号付きリストが正しく表示されない|バグ|
 |CELLSNET-44720 |出力 PDF で円弧の端が丸ではなく四角になっている|バグ|
 |CELLSNET-44715 |API は、円グラフのスライスの色をなしとして返します|バグ|
 |CELLSNET-44804 |「#」文字を含む名前の別のワークシートへのハイパーリンクを持つワークブックが破損する|バグ|
@@ -44,7 +44,7 @@ url: /ja/net/aspose-cells-for-net-16-10-0-release-notes/
 |バグ|
 |CELLSNET-44726 |行をコピー/挿入すると、出力 Excel ファイルに予期しない境界線が表示される|バグ|
 |CELLSNET-44642 |Excel ファイルを再保存すると、既定のフォントが変更されます|バグ|
-|CELLSNET-44785 |特定のファイルを開く際の NullReferenceException (XLSB)|例外|
+|CELLSNET-44785 |特定のファイルを開くと NullReferenceException が発生する (XLSB)|例外|
 |CELLSNET-44760 | SheetRender の初期化中の IndexOutOfRangeException|例外|
 |CELLSNET-44765 | Workbook ctor での System.ArgumentOutOfRangeException|例外|
 |CELLSNET-44757 |ソース XLSB ファイルを開く際の System.NullReferenceException|例外|

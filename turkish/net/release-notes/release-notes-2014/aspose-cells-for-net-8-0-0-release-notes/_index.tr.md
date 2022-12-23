@@ -11,7 +11,7 @@ url: /tr/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET, 8.0.0 sürümüne güncellendi ve bu sürümün 50'den fazla yeni faydalı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -38,7 +38,7 @@ Diğer İyileştirmeler ve Değişiklikler
 
 (CELLSNET-42417) - Yöntem adında yazım hatası - SeriesCollection.SecondCatergoryData
 
-(CELLSNET-42413) - XLSB'yi XLSM'ye dönüştürme sırasında kaybolan senaryolar
+(CELLSNET-42413) - XLSB'in XLSM'e dönüştürülmesi sırasında kaybolan senaryolar
 
 ### **Verim**
 
@@ -60,9 +60,9 @@ Diğer İyileştirmeler ve Değişiklikler
 
 (CELLSNET-42358) - Onay kutularıyla birlikte metin hizalama sorunu
 
-(CELLSNET-42357) - Çıktı HTML'sinde bazı onay kutuları eksik
+(CELLSNET-42357) - HTML çıktısında bazı onay kutuları eksik
 
-(CELLSNET-42352) - XLSX'i HTML'ye dönüştürürken kenarlıklar eksik
+(CELLSNET-42352) - XLSX'i HTML'e dönüştürürken kenarlıklar eksik
 
 (CELLSNET-42476) - Aspose.Cells v7.7.2.5'te silme testi başarısız oluyor
 
@@ -72,13 +72,13 @@ Diğer İyileştirmeler ve Değişiklikler
 
 (CELLSNET-42491) - Altı çizili ve çift dipli hücre kenarlığı düzgün yazdırılmıyor
 
-(CELLSNET-42474) - PDF'ye dönüştürüldükten sonra Yazı Tipi Boyutu değişti
+(CELLSNET-42474) - Yazı Tipi Boyutu, PDF'e dönüştürüldükten sonra değiştirildi
 
 (CELLSNET-42463) - Farklı Altbilgi Resimlerinde SheetRender sorunu
 
 (CELLSNET-42456) - SheetRender görüntülerin çıktısını doğru şekilde alamıyor
 
-(CELLSNET-42452) - Köprü, PDF'ye dönüştürüldüğünde çalışmıyor
+(CELLSNET-42452) - Köprü, PDF'e dönüştürüldüğünde çalışmıyor
 
 (CELLSNET-42448) - Databar koşullu biçimlendirmesi doğru şekilde oluşturulmuyor
 
@@ -90,19 +90,19 @@ Diğer İyileştirmeler ve Değişiklikler
 
 (CELLSNET-42421) - Bazı izleyicilerle birlikte PDF dosyasında 8 Numara Eksik
 
-(CELLSNET-42410) - Excel'den PDF'e dönüştürmede fazladan sayfa sonu
+(CELLSNET-42410) - Excel'de fazladan sayfa sonu PDF'e dönüştürme
 
 (CELLSNET-42338) - XPS çıktısındaki değerler ve grafikler için tutarsızlıklar ve sorunlar
 
 (CELLSNET-41853) - XLS sayfasındaki tasarımlar tamamen kayboldu
 
-(CELLSNET-41803) - Çıktı PDF'sinde negatif veri çubuğu görünmüyor
+(CELLSNET-41803) - PDF çıkışında negatif veri çubuğu görünmüyor
 
-(CELLSNET-42473) - Grafik çıktı PDF'sinde işaretler içermiyor
+(CELLSNET-42473) - Grafik, PDF çıktısında işaretçi içermiyor
 
-(CELLSNET-42403) - XLSX'i PDF'ye dönüştürürken Grafik Boyutu ve Yerleştirme sorunu
+(CELLSNET-42403) - XLSX'i PDF'e dönüştürürken Grafik Boyutu ve Yerleştirme sorunu
 
-(CELLSNET-42372) - Çizelgenin veri serisi, çıktı XLSX dosyalarında kaldırıldı
+(CELLSNET-42372) - Grafiğin veri serisi, XLSX çıktı dosyalarında kaldırıldı
 
 (CELLSNET-42055) - MS Excel'in (2013) en son sürümüyle bozuk dosya
 
@@ -116,7 +116,7 @@ Diğer İyileştirmeler ve Değişiklikler
 
 (CELLSNET-42424) - Yanlış WEEKNUM() çıktısı
 
-(CELLSNET-42412) - CalculateFormula() çağrıldıktan sonra çıktı PDF'sinde bazı formüller çalışmıyor
+(CELLSNET-42412) - CalculateFormula() çağrıldıktan sonra PDF çıktısında bazı formüller çalışmıyor
 
 (CELLSNET-42397) - Formül özelliği hücre nesnesinde çalışmıyor
 
@@ -133,7 +133,7 @@ Diğer İyileştirmeler ve Değişiklikler
 ### **İstisnalar**
 
 
-(CELLSNET-42441) - GetNamedRanges çağrılırken XLSX hatası
+(CELLSNET-42441) - XLSX'de GetNamedRanges çağrılırken hata oluştu
 
 ## 2) Aspose.Cells Izgara Süit
 
@@ -173,7 +173,7 @@ Pdf belgesi oluşturma zamanını alır ve ayarlar.
 
 FileFormatType.Ooxml sıralamasını ekler
 
-Şifrelenmiş ofis açık xml dosyasını (XLSX, DOCX, PPTX, vb.) temsil eder.
+Şifreli ofis açık xml dosyasını temsil eder (XLSX, DOCX, PPTX, vb. gibi).
 
 LoadOptions.MemorySetting özelliği ve WorkbookSettings.MemorySetting özelliği ekler
 

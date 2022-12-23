@@ -26,7 +26,7 @@ chart.toImage(new FileOutputStream(dataDir + "AsposeChartImage.png"), imgOpts);
 ## **Ladda ner Running Code**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/asposefeatures/charts/AsposeChartToImage.java)
 
 {{% alert color="primary" %}} 

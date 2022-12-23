@@ -15,26 +15,26 @@ url: /tr/java/aspose-cells-for-java-17-4-0-release-notes/
 |CELLSJAVA-41975|DBNum (özel kalıp) biçimlendirmesini destekler|Yeni özellik|
 |CELLSJAVA-42237|Hücreye erişim, boş satırlarla HTML oluşturur|Artırma|
 |CELLSJAVA-42236|Çoklu iş parçacığı ortamında performans sorunu|Artırma|
-|CELLSJAVA-42226|Görüntüleri/PDF'yi oluştururken yazı tiplerini kullanmak için bir klasör ve alt klasörleriyle sınırlandırın|Artırma|
+|CELLSJAVA-42226|Görüntüleri işlerken yazı tiplerini kullanmak için bir klasör ve alt klasörleriyle sınırlandırın/PDF|Artırma|
 |CELLSJAVA-42239|Bir HTML yüklenirken giriş dizesi biçim hatası|Böcek|
-|CELLSJAVA-42230|XLSX'i HTML'ye dönüştürürken ek bir hizalama özelliği oluşturulur|Böcek|
-|CELLSJAVA-42229|XLSX'i HTML'ye aktar - Gerçek Cell değerlerinin yerine karma semboller oluşturulur|Böcek|
+|CELLSJAVA-42230|XLSX'in HTML'e dönüştürülmesinde ek bir hizalama özelliği oluşturulur|Böcek|
+|CELLSJAVA-42229|XLSX'i HTML'e aktar - Gerçek Cell değerlerinin yerine karma semboller oluşturulur|Böcek|
 |CELLSJAVA-42218|HTML doğru bir şekilde Excel dosyasına dönüştürülmemiş|Böcek|
-|CELLSJAVA-42210|Çıktı HTML'sinde DataBar koşullu biçimlendirmelerinden bazıları eksik|Böcek|
+|CELLSJAVA-42210|HTML çıktısında DataBar koşullu biçimlendirmelerinden bazıları eksik|Böcek|
 |CELLSJAVA-41783|Arka plan resmi SVG formatında olmalıdır ancak PNG formatındadır.|Böcek|
-|CELLSJAVA-42253|Bağımlı hücre değeri, XLS'de hataya neden olur|Böcek|
+|CELLSJAVA-42253|Bağımlı hücre değeri XLS'de hataya neden olur|Böcek|
 |CELLSJAVA-42222|Çalışma kitabı hesaplamasından sonra toplam doğru değil|Böcek|
 |CELLSJAVA-42254|GridWebServlet?acw_ajax_GridWeb yüklenirken çağrı hatası oluşuyor|Böcek|
-|CELLSJAVA-42243|Excel'den PDF'e - Kare, Dikdörtgene benziyor|Böcek|
-|CELLSJAVA-42242|Excel'den PDF'e - Çember Oval Şekle benziyor|Böcek|
+|CELLSJAVA-42243|Excel'den PDF'e - Kare Dikdörtgene benziyor|Böcek|
+|CELLSJAVA-42242|Excel'den PDF'e - Daire, Oval Şekil gibi görünüyor|Böcek|
 |CELLSJAVA-42227|"x1.png" resim dosyasında fazladan bir üst kenarlık var ve alt kenarlık eksik|Böcek|
-|CELLSJAVA-42212|Bir XLS'yi PDF'ye dışa aktarmayla ilgili performans sorunu|Böcek|
-|CELLSJAVA-42246|Excel'den HTML'ye - Grafik Y ekseni etiketindeki metin hizalaması yanlış|Böcek|
+|CELLSJAVA-42212|XLS'i PDF'e dışa aktarmada performans sorunu|Böcek|
+|CELLSJAVA-42246|Excel'den HTML'e - Grafik Y ekseni etiketindeki metin hizalaması yanlış|Böcek|
 |CELLSJAVA-42223|Radar grafiğinin noktaları xy px dönüş 0|Böcek|
-|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx PDF'ye dönüştürüldüğünde Kabarcık Grafiğinin Y Ekseninin Sınır Değerleri değişir|Böcek|
+|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx PDF'e dönüştürüldüğünde Kabarcık Grafiğinin Y Ekseninin Sınır Değerleri değişir|Böcek|
 |CELLSJAVA-42250|Kod, CommandBar türünde değişken tanımını içeriyorsa derleme hatası|Böcek|
-|CELLSJAVA-42241|Excel'den PDF'e - Köşeli parantezler bir sonraki satıra geliyor|Böcek|
-|CELLSJAVA-42234|XLSM dosyasını XLS olarak kaydetmek, makro eylemini düğmeden kaldırır|Böcek|
+|CELLSJAVA-42241|Excel'den PDF'e - Parantezler bir sonraki satıra geliyor|Böcek|
+|CELLSJAVA-42234|XLSM dosyasının XLS olarak kaydedilmesi, makro eylemini düğmeden kaldırır|Böcek|
 |CELLSJAVA-42233|Kodu yükseltin - Grafiğe 3B Format Uygulama|Böcek|
 |CELLSJAVA-42225|Şekil Giriş Aralığı ayarlanamıyor|Böcek|
 |CELLSJAVA-42224|Yorumları sıralamayla ilgili sorun|Böcek|

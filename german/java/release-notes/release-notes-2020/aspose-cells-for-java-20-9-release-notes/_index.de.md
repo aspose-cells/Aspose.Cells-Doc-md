@@ -12,29 +12,29 @@ url: /de/java/aspose-cells-for-java-20-9-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-40792|Für die ODS-Datei wird keine Pivot-Tabelle erstellt|Neue Funktion|
+|CELLSJAVA-40792|Für die Datei ODS wird keine Pivot-Tabelle erstellt|Neue Funktion|
 |CELLSJAVA-43263|SmartMarker-Problem, wenn eine Zelle auf Füllfarbe und bedingte Formatierung eingestellt ist|Insekt|
 |CELLSJAVA-43269|Wert aus Pivot-Blatt kann nicht abgerufen werden|Insekt|
 |CELLSJAVA-43272|Bild schrumpft nach Einstellung Breite skalierbar|Insekt|
 |CELLSJAVA-43280|Filterproblem nach Aktualisierung der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43281|Problem beim Aktualisieren der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43285|Statische Filter gehen nach dem Aktualisieren der Pivot-Tabelle verloren|Insekt|
-|CELLSJAVA-43288|Die resultierende XLSB-Datei ist beim Speichern der Datei in XLSB beschädigt|Insekt|
+|CELLSJAVA-43288|Die Ergebnisdatei XLSB ist beim Speichern der Datei unter XLSB beschädigt|Insekt|
 |CELLSJAVA-43289|Filterproblem nach Aktualisierung der Pivot-Tabelle|Insekt|
 |CELLSJAVA-43293|Problem mit Filteroptionen nach PivotTable.refreshData()|Insekt|
 |CELLSJAVA-43279|Werte werden mit getStringValue() nicht richtig abgerufen|Insekt|
 |CELLSJAVA-43291|Rasterinhalt nicht sichtbar|Insekt|
-|CELLSJAVA-43037|Schriftproblem bei der PDF-Konvertierung|Insekt|
-|CELLSJAVA-43249|Druckprobleme bei der Verwendung von physischen Druckern, XPS- und PDF-Druckern|Insekt|
+|CELLSJAVA-43037|Schriftartproblem bei der Konvertierung von PDF|Insekt|
+|CELLSJAVA-43249|Druckprobleme bei Verwendung physischer Drucker, XPS- und PDF-Drucker|Insekt|
 |CELLSJAVA-43254|Schriftunterschied beim Konvertieren einer Tabelle in ein Bild|Insekt|
 |CELLSJAVA-43266|Java-Version unterstützt standardmäßig nicht das Laden von Schriftarten aus dem aktuellen Benutzerschriftartenordner|Insekt|
-|CELLSJAVA-43268|Excel-zu-TIFF-Rendering - einige der Werte werden durch " #"-Zeichen ersetzt|Insekt|
+|CELLSJAVA-43268|Excel bis TIFF Rendering - einige der Werte werden durch "#"-Zeichen ersetzt|Insekt|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fehler für ZipFile|Insekt|
 |CELLSJAVA-43277|Problem mit dem Höhen-Breiten-Verhältnis|Insekt|
-|CELLSJAVA-43245|Kombinationsdiagramm wird nach dem Konvertieren einer Excel-Datei in eine PDF-Datei nicht korrekt angezeigt|Insekt|
+|CELLSJAVA-43245|Das Kombinationsdiagramm wird nach dem Konvertieren der Excel-Datei in PDF nicht korrekt angezeigt|Insekt|
 |CELLSJAVA-43276|Zeilenumbruchprobleme beim Konvertieren von XLSX in PDF|Insekt|
 |CELLSJAVA-43261|SmartMarker: Bei Verwendung von group:merge mit Number Format Percentage ist das Expanding-Ergebnis falsch|Insekt|
-|CELLSJAVA-43265|XLSX-Datei kann nicht geladen werden|Insekt|
+|CELLSJAVA-43265|Datei XLSX kann nicht geladen werden|Insekt|
 |CELLSJAVA-43270|Duplizieren von Inhalten (eingebettetes Word) beim Kopieren von Arbeitsblättern|Insekt|
 |CELLSJAVA-43271|Wasserfall-Diagramm SetAsTotal-Eigenschaft wird nicht beibehalten|Insekt|
 |CELLSJAVA-43287|Durch das Hinzufügen von Autofiltern wird die Arbeitsmappe beschädigt|Insekt|
@@ -47,7 +47,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 
 ### **Fügt die AbstractCalculationEngine.ProcessBuiltInFunctions-Eigenschaft hinzu**
 
-Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung von AbstractCalculationEngine durch den Benutzer die Berechnung einiger integrierter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**Stimmt** aus**20.9**.
+ Aus Gründen der Leistung und des Benutzerkomforts fügen wir diese Eigenschaft hinzu und machen ihren Standardwert zu „false“, damit sich der Benutzer auf die Funktionen konzentrieren kann, die nicht von der integrierten Engine unterstützt werden. Wenn die vorhandene Implementierung von AbstractCalculationEngine durch den Benutzer die Berechnung einiger integrierter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**wahr** von**20.9**.
 
 ### **Fügt die TxtLoadOptions.HasTextQualifier-Eigenschaft hinzu**
 
@@ -59,7 +59,7 @@ Gibt den Textqualifizierer für Zellenwerte in der Vorlagendatei an.
 
 ### **Fügt die HtmlSaveOptions.ImageScalable-Eigenschaft hinzu**
 
- Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**Stimmt**.
+ Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**wahr**.
 
 ### **Fügt die Slicer.AlternativeText-Eigenschaft hinzu**
 

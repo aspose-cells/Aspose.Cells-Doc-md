@@ -16,7 +16,7 @@ Microsoft Excel wird häufig von Unternehmen und Einzelpersonen in allen Branche
 
 VSTO ermöglicht Microsoft Office-Dokumenten das Ausführen von Code, der in eine .NET-Assembly eingeschlossen ist. Es wird verwendet, um Anwendungen zu entwickeln, die mit Microsoft Office-Dateien und -Features arbeiten. Entwickler verwenden seit Jahren ASP, Office-Webkomponenten und COM-Interop in Anwendungen. Microsoft hat VSTO erweitert, um die Entwicklung und Bereitstellung von Anwendungen zu vereinfachen und die Speicherverwaltung zu verbessern. Die Frage bleibt jedoch: Ist VSTO so konzipiert, dass es einfacher zu verwenden und zuverlässiger ist als andere heute verfügbare Ansätze? Entwickler möchten mit Lösungen arbeiten, die sie in Bezug auf verbesserte Leistung, Sicherheit, Skalierbarkeit, Stabilität, Zuverlässigkeit oder Funktionen nicht im Stich lassen.
 
-[Aspose](http://www.aspose.com/)bietet eine große Auswahl an .NET-, Java-, Cloud- und Android-APIs. Aspose-APIs umfassen Produkte wie Aspose.Cells, Aspose.Words, Aspose.Pdf und Aspose.Slides, APIs, die helfen[Entwickler öffnen, modifizieren, generieren, speichern, führen zusammen und konvertieren Dokumente in verschiedenen Formaten, darunter XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
+[Aspose](http://www.aspose.com/)bietet eine große Auswahl an .NET-, Java-, Cloud- und Android-APIs. Aspose-APIs umfassen Produkte wie Aspose.Cells, Aspose.Words, Aspose.Pdf und Aspose.Slides, APIs, die helfen[Entwickler öffnen, modifizieren, generieren, speichern, führen zusammen und konvertieren Dokumente in verschiedenen Formaten, einschließlich XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
 
 In diesem Artikel vergleichen wir VSTO mit Aspose.Cells for .NET.
 
@@ -24,7 +24,7 @@ In diesem Artikel vergleichen wir VSTO mit Aspose.Cells for .NET.
 
 -  Probier das aus[Aspose.Cells Dokumentation](https://docs.aspose.com/cells/net/).
 -  Sehen Sie, wie es in der funktioniert[Online-Demos](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  Versuch es:[Download](https://downloads.aspose.com/cells/net) eine Testversion kostenlos.
+-  Versuch es:[Download](https://downloads.aspose.com/cells/net)eine Testversion kostenlos.
 
 In diesem Artikel werden VSTO und Aspose.Cells in Bezug auf verschiedene Aspekte im Zusammenhang mit Microsoft Excel verglichen. Die Liste ist nicht vollständig, stellt jedoch einige Aspekte dar, die Entscheidungsträger verstehen müssen, bevor sie eine endgültige Entscheidung treffen, bevor sie einen Ansatz verfolgen.
 
@@ -77,7 +77,7 @@ VSTO hat eine lange Liste von Voraussetzungen:
 - Mindestens eine der folgenden Editionen von Visual Studio-Tools für Office:
  - Microsoft Visual Studio 2005-Tools für das Microsoft Office-System
  - Microsoft Visual Studio 2005-Tools für 2007 Microsoft Office System
- Visual Studio 2008 Professional Edition
+ - Visual Studio 2008 Professional Edition
  - Visual Studio 2008 Team Suite-Edition
  - Eine Version von Microsoft Office:
  - Microsoft Office Professional 2003 SP1

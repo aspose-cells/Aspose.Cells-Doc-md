@@ -1,5 +1,5 @@
 ﻿---
-title: تجميع الصفوف والأعمدة وإلغاء تجميعها
+title: تجميع وإلغاء تجميع الصفوف والأعمدة
 type: docs
 weight: 50
 url: /ar/net/grouping-and-ungrouping-rows-and-columns/
@@ -41,7 +41,7 @@ Microsoft يسمح لك Excel بتكوين إعدادات المجموعة لع�
 
 ### **صفوف الملخص إلى أسفل التفاصيل**
 
- من الممكن التحكم في عرض صفوف التلخيص أدناه بالتفصيل عن طريق تعيين[**الخطوط العريضة**](https://reference.aspose.com/cells/net/aspose.cells/outline) صف دراسي'[**ملخص**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) الملكية ل**حقيقي** أو**خاطئة**.
+ من الممكن التحكم في عرض صفوف التلخيص أدناه بالتفصيل عن طريق تعيين[**الخطوط العريضة**](https://reference.aspose.com/cells/net/aspose.cells/outline) صف دراسي'[**ملخص**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) ملكية ل**حقيقي** أو**خاطئة**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
@@ -53,7 +53,7 @@ Microsoft يسمح لك Excel بتكوين إعدادات المجموعة لع�
 
 ## **فك تجميع الصفوف والأعمدة**
 
- لفك تجميع أي صفوف أو أعمدة مجمعة ، قم باستدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) المجموعة[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) و[**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)طُرق. تأخذ كلتا الطريقتين معلمتين:
+ لفك تجميع أي صفوف أو أعمدة مجمعة ، قم باستدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) المجموعة[**UngroupRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungrouprows/index) و[**UngroupColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/ungroupcolumns)أساليب. تأخذ كلتا الطريقتين معلمتين:
 
 - الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
 - فهرس الصف أو العمود الأخير ، الصف / العمود الأخير المراد فك تجميعه.

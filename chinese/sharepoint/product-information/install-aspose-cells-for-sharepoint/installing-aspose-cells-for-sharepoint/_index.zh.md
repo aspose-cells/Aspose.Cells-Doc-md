@@ -38,7 +38,7 @@ Aspose.Cells.SharePoint.zip 存档包含：
 
    **系统检查** 
 
-![待办事项：图像_替代_文本](installing-aspose-cells-for-sharepoint_1.png)
+![待办事项：图片_替代_文本](installing-aspose-cells-for-sharepoint_1.png)
 
 
 
@@ -47,7 +47,7 @@ Aspose.Cells.SharePoint.zip 存档包含：
 
    **最终用户许可协议** 
 
-![待办事项：图像_替代_文本](installing-aspose-cells-for-sharepoint_2.png)
+![待办事项：图片_替代_文本](installing-aspose-cells-for-sharepoint_2.png)
 
 
 
@@ -56,7 +56,7 @@ Aspose.Cells.SharePoint.zip 存档包含：
 
    **部署目标** 
 
-![待办事项：图像_替代_文本](installing-aspose-cells-for-sharepoint_3.png)
+![待办事项：图片_替代_文本](installing-aspose-cells-for-sharepoint_3.png)
 
 
 
@@ -65,7 +65,7 @@ Aspose.Cells.SharePoint.zip 存档包含：
 
    **运行安装** 
 
-![待办事项：图像_替代_文本](installing-aspose-cells-for-sharepoint_4.png)
+![待办事项：图片_替代_文本](installing-aspose-cells-for-sharepoint_4.png)
 
 
 
@@ -75,4 +75,4 @@ Aspose.Cells.SharePoint.zip 存档包含：
 
    **安装完成** 
 
-![待办事项：图像_替代_文本](installing-aspose-cells-for-sharepoint_5.png)
+![待办事项：图片_替代_文本](installing-aspose-cells-for-sharepoint_5.png)

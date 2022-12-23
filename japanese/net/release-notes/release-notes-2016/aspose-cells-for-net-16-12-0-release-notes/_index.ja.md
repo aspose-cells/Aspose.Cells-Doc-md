@@ -17,10 +17,10 @@ url: /ja/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44967|NameCollection.Remove メソッドのパフォーマンスに関する考慮事項|パフォーマンス|
 |CELLSNET-44964|ワークブックで CalculateFormula() を使用すると、Aspose.Cells がハングします。|パフォーマンス|
 |CELLSNET-44819|ソース Excel ファイルを HTML に保存できず、タイムアウトになる|パフォーマンス|
-|CELLSNET-44960|スプレッドシートを PDF ファイル形式に変換する際に、ピボット テーブルの書式設定が失われる|バグ|
-|CELLSNET-44951|ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングすると、行データが正しく配置されない|バグ|
-|CELLSNET-44950|Cell ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングする際に陰影が表示されない|バグ|
-|CELLSNET-44949|ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングするときに空白の列が表示されない|バグ|
+|CELLSNET-44960|スプレッドシートを PDF ファイル形式に変換すると、ピボット テーブルの書式設定が失われる|バグ|
+|CELLSNET-44951|ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングすると、行データが誤って配置される|バグ|
+|CELLSNET-44950|ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングすると、Cell シェーディングが失われる|バグ|
+|CELLSNET-44949|ピボット テーブルを更新した後、スプレッドシートを PDF にレンダリングすると、空白の列が表示されない|バグ|
 |CELLSNET-44930|更新して PDF に変換した後、ピボット テーブルに列が表示されない|バグ|
 |CELLSNET-44929|更新して PDF に変換した後、ピボット テーブルにデータが表示されない|バグ|
 |CELLSNET-44908|単純な再保存操作の後、スライサーを含むスプレッドシートが破損する|バグ|
@@ -34,23 +34,23 @@ url: /ja/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44916|Workbook.CalculateFormula() メソッドがセル B8 の値を間違って計算する|バグ|
 |CELLSNET-44910|ODS を PDF ファイル形式に変換すると、追加の文字 4 が表示される|バグ|
 |CELLSNET-44958|FontConfigs.PreferSystemFontSubstitutes が true に設定されている場合、フォントの置換は行われません。|バグ|
-|CELLSNET-44937|Excel から PDF へのレンダリング - マージされた領域で一部の単語が 2 つに分割されます|バグ|
+|CELLSNET-44937|Excel から PDF へのレンダリング - マージされた領域で一部の単語が 2 つに分割される|バグ|
 |CELLSNET-44933|Excel チャートを SVG にエクスポートする|バグ|
 |CELLSNET-44914|PDF として印刷または保存すると、右側の余白が MS Excel よりも大きくなります。|バグ|
 |CELLSNET-44931|PDF に保存すると、余分な空白ページが作成されます。|バグ|
-|CELLSNET-44926|チャートの PNG 画像が MS-Excel チャートと一致しない|バグ|
-|CELLSNET-44912|XLS から XLSX への変換にかかる時間が長い|バグ|
+|CELLSNET-44926|PNG グラフの画像が MS-Excel グラフと一致しません|バグ|
+|CELLSNET-44912|XLS を XLSX に変換するのに時間がかかる|バグ|
 |CELLSNET-44905|PDF エクスポートで積み上げグラフに 0 が表示される|バグ|
-|CELLSNET-44902|Excel から PDF へのレンダリングでのグラフのデータ系列に関する問題|バグ|
+|CELLSNET-44902|PDF レンダリングへの Excel でのグラフのデータ系列に関する問題|バグ|
 |CELLSNET-44897|Life is not correctというタイトルのチャートの画像|バグ|
 |CELLSNET-44890|単純な再保存後の VALUE と PERCENTAGE を示す Series DataLabel 値とパーセンテージ|バグ|
 |CELLSNET-44883|軸 (データ テーブル) は、レンダリングされた PDF ファイルで同じではありません|バグ|
-|CELLSNET-44833|スプレッドシートを PDF に変換する際の線のレンダリングが正しくない|バグ|
+|CELLSNET-44833|スプレッドシートを PDF に変換する際の行のレンダリングが正しくない|バグ|
 |CELLSNET-44831|API ImageOrPrintOptions.OnlyArea が false に設定されている場合、SheetRender で余分な凡例をレンダリングします|バグ|
 |CELLSNET-44803|Chart.Calculate() メソッドを使用した後、出力 Chart に表示されない Chart のデータ積み上げ部分|バグ|
-|CELLSNET-44979|Aspose は、フリーズ ペインの分割オプションを有効にして、XLSB 形式で保存しています|バグ|
+|CELLSNET-44979|Aspose は、XLSB 形式で保存する際にフリーズ ペインで分割オプションを有効にしています|バグ|
 |CELLSNET-44953|Cell.コピーは、あるワークブックから別のワークブックにフォーマットをコピーしません|バグ|
-|CELLSNET-44945|RTL シートは XLSX を ODS に変換する際に LTR に変換されます|バグ|
+|CELLSNET-44945|RTL シートは、XLSX を ODS に変換する際に LTR に変換されます。|バグ|
 |CELLSNET-44922|定義名 Print_Area は、再保存操作後に変更されます|バグ|
 |CELLSNET-44920|単純な再保存操作後に条件付き書式ルールが変更されました|バグ|
 |CELLSNET-44918|x86 OS でシェイプ イメージの置換機能が正しく動作しない|バグ|

@@ -20,7 +20,7 @@ url: /ja/nodejs-java/aspose-cells-for-node-js-via-java-22-10-release-notes/
 |CELLSJAVA-44853|軸角度のデータは、グラフから画像へのレンダリングで Excel と同じではありません|
 |CELLSJAVA-44854|軸ステップのデータは、グラフから画像へのレンダリングで Excel と同じではありません|
 |CELLSJAVA-44904|Excel チャートをレンダリングして JPG に変換する際の問題|
-|CELLSJAVA-44850|XLT ファイルをインポートすると、最新のリソース ファイルを含む最新の Aspose.Cells.GridWeb バージョンの最新のデモを使用して、テキストが完全に表示されない|
+|CELLSJAVA-44850|XLT ファイルをインポートすると、最新の Aspose.Cells.GridWeb バージョンと最新のリソース ファイルを使用した最新のデモを使用して、テキストが完全に表示されない|
 |CELLSJAVA-44857|Aspose.Cells.GridWeb for Java v22.8 バージョンで最新のリソース ファイルを使用して Excel ドキュメントを開くと、セルの効果が元のドキュメントとは異なる|
 |CELLSJAVA-44903|SVG レンディションが期待どおりに機能しない|
 |CELLSJAVA-44909|複数の行を太字にすると、無駄に他の行に溢れて見える|

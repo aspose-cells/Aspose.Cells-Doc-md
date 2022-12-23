@@ -19,7 +19,7 @@ Es ist sehr hilfreich für Entwickler, die Aspose.Cells Java Apis in Python verw
     - [Konvertieren von Excel in PDF-Dateien in Python](/cells/de/java/converting-excel-to-pdf-files-in-python/)
     - [Konvertieren in MHTML-Dateien in Python](/cells/de/java/converting-to-mhtml-files-in-python/)
     - [Arbeitsblatt in Bild umwandeln in Python](/cells/de/java/converting-worksheet-to-image-in-python/)
-    - [Arbeitsblatt in SVG konvertieren in Python](/cells/de/java/converting-worksheet-to-svg-in-python/)
+    - [Konvertieren des Arbeitsblatts in SVG in Python](/cells/de/java/converting-worksheet-to-svg-in-python/)
     - [Dokumenteigenschaften verwalten in Python](/cells/de/java/managing-document-properties-in-python/)
 - [Arbeiten mit Zeilen und Spalten in Python](/cells/de/java/working-with-rows-and-columns-in-python/)
   - [Anpassen der Zeilenhöhe und Spaltenbreite in Python](/cells/de/java/adjusting-row-height-and-column-width-in-python/)

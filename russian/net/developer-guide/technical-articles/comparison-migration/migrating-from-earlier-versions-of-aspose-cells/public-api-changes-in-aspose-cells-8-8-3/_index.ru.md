@@ -164,7 +164,7 @@ oleObject.AutoLoad = true;
 
 
 ### **Добавлено свойство HTMLLoadOptions.SupportDivTag.**
-Aspose.Cells for .NET 8.8.3 предоставляет свойство HTMLLoadOptions.SupportDivTag, которое позволяет анализировать теги DIV, встроенные в теги TD, при загрузке файлов/фрагментов HTML в объектной модели Aspose.Cells. Свойство логического типа имеет значение по умолчанию false.
+Aspose.Cells for .NET 8.8.3 предоставило свойство HTMLLoadOptions.SupportDivTag, которое позволяет анализировать теги DIV, встроенные в теги TD, при загрузке HTML файлов/фрагментов в Aspose.Cells объектной модели. Свойство логического типа имеет значение по умолчанию false.
 
 {{% alert color="primary" %}} 
 

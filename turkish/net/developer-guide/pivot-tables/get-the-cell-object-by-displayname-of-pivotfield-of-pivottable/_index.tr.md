@@ -16,10 +16,10 @@ Aşağıdaki kod, çalışma sayfasının ilk pivot tablosuna erişir ve ardınd
 
 |**Pivot Tablo - Önce**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
+|![yapılacaklar:resim_alternatif_metin](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetCellByDisplayName-GetCellObjectByDisplayName.cs" >}}
 
 |**Pivot Tablo - Sonra**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+|![yapılacaklar:resim_alternatif_metin](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

@@ -28,7 +28,7 @@ Die ProtectionType-Enumeration enthält die folgenden vordefinierten Schutztypen
 
 |**Schutztypen**|**Beschreibung**|
 |:- |:- |
-|[**ALLE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Der Benutzer kann nichts auf diesem Arbeitsblatt ändern|
+|[**ALLES**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Der Benutzer kann nichts auf diesem Arbeitsblatt ändern|
 |[**INHALT**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|Der Benutzer kann keine Daten in dieses Arbeitsblatt eingeben|
 |[**OBJEKTE**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Der Benutzer kann Zeichnungsobjekte nicht ändern|
 |[**SZENARIEN**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|Der Benutzer kann gespeicherte Szenarien nicht ändern|
@@ -98,7 +98,7 @@ Das folgende Beispiel zeigt, wie einige Zellen im Arbeitsblatt geschützt werden
 
 ### **Schützen Sie eine Zeile im Arbeitsblatt**
 
- Aspose.Cells ermöglicht es Ihnen, jede Zeile im Arbeitsblatt einfach zu sperren. Hier können wir Gebrauch machen[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) Methode von[**Die Zeile**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) Klasse, um Style auf eine bestimmte Zeile im Arbeitsblatt anzuwenden. Diese Methode akzeptiert zwei Argumente: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) Objekt und[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, die alle Member enthält, die sich auf die angewendete Formatierung beziehen.
+ Aspose.Cells ermöglicht es Ihnen, jede Zeile im Arbeitsblatt einfach zu sperren. Hier können wir Gebrauch machen[**applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) Methode von[**Reihe**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) Klasse, um Style auf eine bestimmte Zeile im Arbeitsblatt anzuwenden. Diese Methode akzeptiert zwei Argumente: a[**Stil**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) Objekt und[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, die alle Member enthält, die sich auf die angewendete Formatierung beziehen.
 
 Das folgende Beispiel zeigt, wie eine Zeile im Arbeitsblatt geschützt wird. Es entsperrt zuerst alle Zellen im Arbeitsblatt und sperrt dann die erste Zeile darin. Schließlich schützt es das Arbeitsblatt. Eine Zeile/Spalte hat einen Stil API, der außerdem eine setCellLocked-Methode enthält. Sie können die Zeile / Spalte mit der StyleFlag-Struktur sperren oder entsperren.
 
@@ -176,7 +176,7 @@ So zeigen Sie die in Excel XP verfügbaren Schutzeinstellungen an:
 
 ### **Erweiterte Schutzeinstellungen mit Aspose.Cells**
 
-Aspose.Cells unterstützen alle erweiterten Schutzeinstellungen.
+Aspose.Cells unterstützt alle erweiterten Schutzeinstellungen.
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection-Auflistung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 
@@ -190,7 +190,7 @@ Unten ist eine kleine Beispielanwendung. Es öffnet eine Excel-Datei und verwend
 
 {{% alert color="primary" %}}
 
-Speichern Sie die Datei im EXCEL97TO2003- oder XLSX-Format, da diese erweiterten Schutzeinstellungen nur von MS Excel XP und späteren Versionen unterstützt werden.
+Speichern Sie die Datei im Format EXCEL97TO2003 oder XLSX, da diese erweiterten Schutzeinstellungen nur von MS Excel XP und späteren Versionen unterstützt werden.
 
 {{% /alert %}}
 

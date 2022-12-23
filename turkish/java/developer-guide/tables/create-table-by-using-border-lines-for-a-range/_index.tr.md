@@ -18,4 +18,4 @@ keywords: create table, range to table, range to table excel, excel range to tab
 
 Yukarıdaki kodu çalıştırdıktan sonra, biçimlendirilmiş tabloyu içeren oluşturulan excel dosyasına sahip olabiliriz; işte dosyanın ekran görüntüsü.
 
-![yapılacaklar:resim_alternatif_Metin](create-table-by-using-border-lines-for-a-range_1.png)
+![yapılacaklar:resim_alternatif_metin](create-table-by-using-border-lines-for-a-range_1.png)

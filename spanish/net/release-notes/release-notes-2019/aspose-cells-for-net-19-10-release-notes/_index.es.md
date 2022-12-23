@@ -15,10 +15,10 @@ url: /es/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46926|PageSavingCallback al guardar en TIFF|Nueva caracteristica|
 |CELLSNET-46927|Equivalente de IMailMergeDataSource para Cells|Nueva caracteristica|
 |CELLSNET-46903|Cambio de estilo en ContentTypeProperties|Mejora|
-|CELLSNET-46954|Generar excepción similar a Excel en lugar de colgar el programa|Actuación|
+|CELLSNET-46954|Generar excepción similar a Excel en lugar de colgar el programa|Rendimiento|
 |CELLSNET-46896|Desaparece el gráfico de embudo|Insecto|
-|CELLSNET-46934|Retraso y uso de memoria al convertir a formato de archivo PDF|Insecto|
-|CELLSNET-43416|La clasificación del campo pivote se cambia después de convertir la hoja de cálculo en PDF|Insecto|
+|CELLSNET-46934|Retraso y uso de memoria al convertir al formato de archivo PDF|Insecto|
+|CELLSNET-43416|La clasificación del campo pivote se cambia después de representar la hoja de cálculo en PDF|Insecto|
 |CELLSNET-44686|La clasificación dinámica no se aplica al extraer el gráfico|Insecto|
 |CELLSNET-46793|Un problema con las tablas dinámicas|Insecto|
 |CELLSNET-46882|Problema al agrupar la tabla dinámica por fecha y guardarla como PDF|Insecto|
@@ -33,11 +33,11 @@ url: /es/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46900|El esquema de color del gráfico del mapa cambia|Insecto|
 |CELLSNET-46902|La opción de eliminar manualmente la fila está deshabilitada en la tabla después de completar el archivo de Excel usando ImportData|Insecto|
 |CELLSNET-46916|Insertar rango está causando daños en el archivo|Insecto|
-|CELLSNET-46919|Archivo dañado al cambiar al formato de archivo XLSB desde XLSX|Insecto|
+|CELLSNET-46919|Archivo dañado al cambiar al formato de archivo XLSB de XLSX|Insecto|
 |CELLSNET-46925|Problema al extraer el objeto OLE de XLSX|Insecto|
 |CELLSNET-46928|Problema de licencia total de Conholdate|Insecto|
 |CELLSNET-46929|La orientación de la etiqueta del eje del gráfico (título) cambió al copiar hojas de trabajo|Insecto|
-|CELLSNET-46933|Al abrir y guardar un archivo XLS, se eliminan todas las propiedades personalizadas y del documento.|Insecto|
+|CELLSNET-46933|Al abrir y guardar un archivo XLS se eliminan todas las propiedades personalizadas y del documento|Insecto|
 |CELLSNET-46945|Ampliar rango. Eliminar duplicados|Insecto|
 |CELLSNET-46948|Range.Rendimiento de copia para grandes volúmenes|Insecto|
 |CELLSNET-46949|Los objetos OLE se convierten en imágenes al copiar hojas de trabajo|Insecto|

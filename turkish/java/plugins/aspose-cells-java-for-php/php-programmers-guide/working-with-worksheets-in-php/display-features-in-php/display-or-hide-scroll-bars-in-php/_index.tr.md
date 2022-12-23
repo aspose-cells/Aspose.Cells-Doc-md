@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-scroll-bars-in-php/
 ---
 ## **Aspose.Cells - Kaydırma Çubuklarını Görüntüle veya Gizle**
 ### **Kaydırma Çubuklarını Gizleme**
- kullanarak Kaydırma Çubuklarını gizlemek için**Aspose.Cells Java for PHP** , aramak**kaydırma çubuklarını görüntüle** modül.
+ kullanarak Kaydırma Çubuklarını gizlemek için**Aspose.Cells Java for PHP** , Arama**kaydırma çubuklarını görüntüle** modül.
 
 **PHP Kodu**
 

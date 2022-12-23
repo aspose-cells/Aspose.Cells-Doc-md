@@ -36,7 +36,7 @@ WorkbookService, görünüm kapsamlı bir JSF arka uç çekirdeğidir. Bir hizme
 
 **içinde**
 
- bu**içinde** dır-dir**Yapı Sonrası** Java Uygulama Sunucusu tarafından nesne oluşturma tamamlandıktan hemen sonra yürütülen yöntem. Bu kontrol**url**istek parametrelerindeki parametre eşlenir ve mümkünse ilgili elektronik tabloyu verilen konumdan yükler.
+ bu**içinde** dır-dir**Yapı Sonrası** Java Uygulama Sunucusu tarafından nesne oluşturma tamamlandıktan hemen sonra yürütülen yöntem. Bu kontrol**url** istek parametrelerindeki parametre eşlenir ve mümkünse ilgili elektronik tabloyu verilen konumdan yükler.
 
 **tahrip etmek**
 

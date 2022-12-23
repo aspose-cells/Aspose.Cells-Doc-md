@@ -16,9 +16,9 @@ url: /zh/java/aspose-cells-for-java-19-9-release-notes/
 |CELLSJAVA-42997|CalculateFormula() 因公式字符串过大而失败|漏洞|
 |CELLSJAVA-43000|CalculateFormula() 破坏了 Excel 文件|漏洞|
 |CELLSJAVA-42987|将 Excel 文件转换为 PDF 时出现格式问题|漏洞|
-|CELLSJAVA-42986|将中文 XLSX 文件转换为 PDF 后文本重叠|漏洞|
+|CELLSJAVA-42986|中文XLSX文件转PDF后文字重叠|漏洞|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) 不适用于较新的 Excel 版本|漏洞|
-|CELLSJAVA-42996|基于公式的数据标签未在 PDF 中正确呈现|漏洞|
+|CELLSJAVA-42996|基于公式的数据标签在 PDF 中未正确呈现|漏洞|
 |CELLSJAVA-42992|将 XLSM 转换为图像时出现异常|例外|
 |CELLSJAVA-42991|在 macOS 中将 Excel 转换为 PDF 时出现“列宽必须介于 0 到 255 之间”异常|例外|
 |CELLSJAVA-43004|异常 java.lang.NumberFormatException：对于输入字符串：“0.0”，同时将 Excel 转换为 HTML|例外|

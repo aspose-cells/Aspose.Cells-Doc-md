@@ -15,12 +15,12 @@ url: /sv/java/aspose-cells-for-java-21-3-release-notes/
 |CELLSJAVA-43400|Stöd UNIQUE() funktion|
 |CELLSJAVA-42863|Hämta diagrams undertitel|
 |CELLSJAVA-43401|Stöd för enhetligt formateringsresultat för japanska eran för alla JDK:er|
-|CELLSJAVA-43398|Villkorlig formatering återges inte korrekt i ODS till HTML-konvertering|
+|CELLSJAVA-43398|Villkorlig formatering återges inte korrekt i konverteringen ODS till HTML|
 |CELLSJAVA-43388|Utdatafilen är korrupt efter kopiering av arbetsbok|
 |CELLSJAVA-43406|Problem vid konvertering av HTML till Excel|
 |CELLSJAVA-43399|CalculateFormula() skapar många feltypvärden #VALUE|
 |CELLSJAVA-43362|Procentuellt problem för etiketter vid utskrift av diagram|
-|CELLSJAVA-43384|Procentuella problem för vissa etiketter vid rendering till PDF och utskrift av diagram|
+|CELLSJAVA-43384|Procentproblem för vissa etiketter vid rendering till PDF och utskrift av diagram|
 |CELLSJAVA-43402|Generera exakt diagrambild från Excel-fil|
 |CELLSJAVA-43408|Toppen av diagrammet skärs av och den lutande linjen går upp|
 |CELLSJAVA-43412|CellsException i xlsx till html-konvertering|

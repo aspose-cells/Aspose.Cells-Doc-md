@@ -9,7 +9,7 @@ url: /ja/net/what-s-new-in-aspose-cells-for-net/
 
 ## Aspose.Cells for .NET 22.12
 
-* 多層階層構造で Excel を JSON にエクスポートするサポート
+* 多層階層構造の JSON への Excel エクスポートのサポート
 
 ## Aspose.Cells for .NET 22.11
 
@@ -81,5 +81,5 @@ SmartMarker のプロセスを中断するサポート
 
 XLookup 式/関数の計算をサポートします。
 *保存するjsonと画像を保存するワークブックに統合します。
-* Excel を HTML に変換する際のパフォーマンスを向上させます。
+* Excel を HTML に変換する際のパフォーマンスが向上しました。
 

@@ -10,10 +10,10 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42745|Modifier la valeur renvoyée pour obtenir des points de connexion|Nouvelle fonctionnalité|
-|CELLSJAVA-42662|Fournir la possibilité d'exporter la plage au format HTML|Nouvelle fonctionnalité|
+|CELLSJAVA-42662|Fournir la possibilité d'exporter la gamme en tant que HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42746|Les barres de données sont manquantes lorsque XLSX est converti en HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42747|La valeur existe toujours lorsque XLSX est converti en HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42634|Convertir la forme du ruban gauche droite en image|Renforcement|
@@ -23,13 +23,13 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42734|Problème lors du traitement des délimiteurs consécutifs comme distincts|Renforcement|
 |CELLSJAVA-42731|Le format de date est incorrect pour les paramètres régionaux japonais|Renforcement|
 |CELLSJAVA-42748|LightCells API ne parvient pas à charger un fichier volumineux|Renforcement|
-|CELLSJAVA-42728|Une exception (StackOverFlow) se déclenche lors de l'enregistrement en sortie PDF|Punaise|
+|CELLSJAVA-42728|Une exception (StackOverFlow) se déclenche lors de l'enregistrement dans la sortie PDF|Punaise|
 |CELLSJAVA-42729|Valeur erronée calculée par ROUNDUP()|Punaise|
 |CELLSJAVA-42724|Copier une plage avec PasteType.ALL (options de collage) ne copie pas correctement les hauteurs de ligne|Punaise|
 |CELLSJAVA-42722|La mise en forme du texte du lien hypertexte est perdue lorsqu'un nouveau texte est défini|Punaise|
 |CELLSJAVA-42688|Sortie de format de date russe non valide|Punaise|
 |CELLSJAVA-42721|Problème avec les polices SheetRender|Punaise|
-|CELLSJAVA-42723|Exception "java.lang.OutOfMemoryError : Java heap space" lors du rendu du fichier MS Excel au format PDF|Punaise|
+|CELLSJAVA-42723|Exception "java.lang.OutOfMemoryError : Java heap space" lors du rendu du fichier MS Excel en PDF|Punaise|
 |CELLSJAVA-42725|Les guillemets apparaissent dans la formule lors de la récupération de la formule de cellule via Aspose.Cells|Punaise|
 |CELLSJAVA-42720|Dégradation des performances lors de l'utilisation de la mise en forme conditionnelle|Punaise|
 |CELLSJAVA-42737|La ligne de graphique est manquante dans la conversion XLSX->PNG|Punaise|
@@ -37,12 +37,12 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-40861|SmartArt ne copie pas lorsque le classeur est copié|Punaise|
 |CELLSJAVA-42727|La mise en forme du texte est manquante dans la sortie HTML de la plage Excel|Punaise|
 |CELLSJAVA-42744|Les jeux d'icônes deviennent désalignés lorsque XLSX est converti en HTML|Punaise|
-|CELLSJAVA-42772|L'exportation des données de la plage nommée n'est pas correctement rendue au format HTML (Java)|Punaise|
+|CELLSJAVA-42772|L'exportation des données de la plage nommée n'est pas correctement rendue à HTML (Java)|Punaise|
 |CELLSJAVA-42753|Problème de plage nommée|Punaise|
 |CELLSJAVA-42764|La validation renvoie toujours true pour la méthode 'getInCellDropDown()'|Punaise|
 |CELLSJAVA-42768|Un format personnalisé de culture incorrect est renvoyé pour différents paramètres régionaux (Allemagne, France, Italie et Espagne)|Punaise|
 |CELLSJAVA-42758|Conversion Excel en PDF - Problème de rendu du graphique de jauge|Punaise|
-|CELLSJAVA-42761|Le rendu PDF lève l'exception OutOfMemoryError|Punaise|
+|CELLSJAVA-42761|PDF le rendu lève l'exception OutOfMemoryError|Punaise|
 |CELLSJAVA-42759|CellsException lors de la conversion de fichiers|Exception|
 |CELLSJAVA-42755|Exception "NullPointerException" lors de l'instanciation du ou des fichiers XLSX|Exception|
 |CELLSJAVA-42762|NumberFormatException lors du traitement des fichiers|Exception|
@@ -56,7 +56,7 @@ Vous trouverez ci-dessous une liste de toutes les modifications apportées au pu
 
 **Ajoute la propriété HtmlSaveOptions.WidthScalable**
 
-Indique si l'unité évolutive est utilisée pour décrire la largeur de la colonne lors de l'exportation du fichier au format HTML. La valeur par défaut est faux.
+Indique si l'unité évolutive est utilisée pour décrire la largeur de colonne lors de l'exportation du fichier vers HTML. La valeur par défaut est false.
 
 **Ajoute la propriété WorkbookDesigner.UpdateEmptyStringAsNull**
 
@@ -175,7 +175,7 @@ Utilisez plutôt la propriété Cells.LastCell.
 
 Utilisez la méthode Cells.GetEnumerator() pour itérer toutes les cellules de cette feuille de calcul à la place.
 
-**Supprime la propriété Shape.Rotation obsolète**
+**Supprime la propriété obsolète Shape.Rotation**
 
 Utilisez plutôt la propriété Shape.RotationAngle.
 

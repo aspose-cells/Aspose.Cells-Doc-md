@@ -14,7 +14,7 @@ Aspose.Cells nesne modelinin üst düzey yapısı aşağıda hiyerarşik olarak 
 
 |**Aspose.Cells Nesne Modeli'nin üst düzey yapısı**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_1.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_1.png)|
 Yukarıdaki şekilden de görebileceğiniz gibi, nesne modelinin kökü Workbook nesnesidir. Giriş amacıyla aşağıda nesnelerin birkaçının kısa bir açıklaması verilmiştir.
 
 ## **Çalışma SayfasıToplama/Çalışma Sayfası**
@@ -23,7 +23,7 @@ Workbook nesnesi, aşağıda gösterildiği gibi bir elektronik tablodaki tüm W
 
 |**Çalışma Sayfaları ve Çalışma Sayfası nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_2.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_2.png)|
 
 ## **Cells/Cell**
 
@@ -31,7 +31,7 @@ Her Çalışma Sayfası nesnesi, aşağıda gösterildiği gibi bir çalışma s
 
 |**Cells & Cell nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_3.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_3.png)|
 Tek bir hücrenin değerini, stilini, formülünü ve diğer özelliklerini almak ve ayarlamak için Cell nesnesini kullanabilirsiniz.
 
 ## **GrafikKoleksiyon/Grafik**
@@ -40,7 +40,7 @@ Charts nesnesi, bir Çalışma Sayfasındaki tüm Chart nesnelerinin bir koleksi
 
 |**Grafiğin nesne modeli**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_4.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_4.png)|
 
 ## **YorumToplama/Yorum**
 
@@ -48,7 +48,7 @@ Her Çalışma Sayfası nesnesi, aşağıda gösterildiği gibi bir çalışma s
 
 |**Yorumlar ve Yorum nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_5.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_5.png)|
 Açıklama nesnesi, çalışma sayfasında belirtilen herhangi bir hücreye yorum eklemek için kullanılır.
 
 ## **HorizontalPageBreakCollection/HorizontalPageBreak**
@@ -57,7 +57,7 @@ Her Worksheet nesnesi, aşağıda gösterildiği gibi bir çalışma sayfasında
 
 |**HPageBreaks ve HPageBreak nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_6.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_6.png)|
 Çalışma sayfasında yatay bir sayfa sonu oluşturmak için bir HorizontalPageBreak nesnesi kullanılır.
 
 ## **Köprü Koleksiyonu/Köprü**
@@ -66,7 +66,7 @@ Bir Worksheet nesnesi ayrıca, aşağıda gösterildiği gibi çalışma sayfas�
 
 |**Köprüler ve Köprü nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_7.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_7.png)|
 Bir Köprü nesnesi, çalışma sayfasındaki bir köprüyü temsil eder. Geliştiriciler, Köprü nesnesini kullanarak köprü adresini ve diğer ilgili özellikleri ayarlayabilir.
 
 ## **ResimKoleksiyon/Resim**
@@ -75,7 +75,7 @@ Her Worksheet nesnesi, aşağıda gösterildiği gibi bir çalışma sayfasında
 
 |**Resimler ve Resim nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_8.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_8.png)|
 Resim nesnesi, çalışma sayfasındaki bir resmi temsil eder. Geliştiriciler, Resim nesnesini kullanarak çalışma sayfalarına sadece resim eklemekle kalmaz, aynı zamanda bu resimleri herhangi bir yere konumlandırırlar. Resimlerin kenarlıklarını veya diğer özelliklerini ayarlamak da mümkündür.
 
 ## **VerticalPageBreakCollection/DikeyPageBreak**
@@ -84,5 +84,5 @@ Her Worksheet nesnesi, aşağıda gösterildiği gibi bir çalışma sayfasında
 
 |**VPageBreaks & VPageBreak nesneleri**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-object-model_9.png)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-object-model_9.png)|
 Çalışma sayfasında dikey bir sayfa sonu oluşturmak için VerticalPageBreak nesnesi kullanılır.

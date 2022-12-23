@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-21-1-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43375|Controlla la password VBA di Excel|
 |CELLSJAVA-43371|La conversione da XLSX a PDF si blocca|
@@ -20,14 +20,14 @@ url: /it/java/aspose-cells-for-java-21-1-release-notes/
 |CELLSJAVA-43342|Il grafico combinato non può essere visualizzato correttamente in Excel in PDF|
 |CELLSJAVA-43354|Le percentuali non sono state mostrate negli istogrammi piccoli|
 |CELLSJAVA-40264|Errore con controlli modulo o controlli ActiveX durante il salvataggio come EXCEL_97_TO_2003|
-|CELLSJAVA-43372|File danneggiato creato durante la conversione di ODS in XLSX|
+|CELLSJAVA-43372|File danneggiato creato durante la conversione da ODS a XLSX|
 |CELLSJAVA-43378|Visualizza come modifiche vuote da true a false dopo la clonazione della cartella di lavoro|
 |CELLSJAVA-43379|Eccezione sollevata durante il salvataggio della cartella di lavoro come HTML|
-|CELLSJAVA-43376|Eccezione "java.lang.ClassCastException: Overflow nella conversione da int a byte. Valore int: 144" durante il caricamento di un file XLSX|
+|CELLSJAVA-43376|Eccezione "java.lang.ClassCastException: Overflow in int to byte conversion. int value: 144" al caricamento di un file XLSX|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Costruttore PdfSaveOptions(SaveFormat) obsoleto.**
 

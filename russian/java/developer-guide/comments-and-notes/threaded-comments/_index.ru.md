@@ -25,7 +25,7 @@ Aspose.Cells также предоставляет возможность упр
 Чтобы добавить цепочку комментариев в Excel 365, выполните следующие действия.
 
 - Способ 1
- - Нажмите на**Обзор**Вкладка
+ - Нажмите на**Рассмотрение**Вкладка
  - Нажмите на**Новый комментарий**кнопка
  - Откроется диалоговое окно для ввода комментариев в активную ячейку.
   - ![дело:изображение_альтернативный_текст](threaded-comments_4.jpg)
@@ -50,7 +50,7 @@ Aspose.Cells предоставляет[Комментарии.AddThreadedCommen
 
 ![дело:изображение_альтернативный_текст](threaded-comments_1.jpg)
 ### **Читать ветки комментариев, используя Aspose.Cells**
-Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете перебирать[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)для просмотра комментариев.
+Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете перебирать[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)для просмотра комментариев.
 
 В следующем примере показано чтение комментариев из столбца A1 путем загрузки[образец файла Excel](ThreadedCommentsSample.xlsx). Для справки см. вывод консоли, сгенерированный кодом.
 #### **Образец кода**
@@ -60,7 +60,7 @@ Aspose.Cells предоставляет[Комментарии.GetThreadedCommen
 
 Автор: Aspose Тест
 ### **Чтение времени создания цепочек комментариев**
-Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете перебирать[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)и использовать[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)имущество.
+Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете перебирать[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)и использовать[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)имущество.
 
 В следующем примере показано чтение времени создания цепочек комментариев путем загрузки[образец файла Excel](ThreadedCommentsSample.xlsx). Для справки см. вывод консоли, сгенерированный кодом.
 #### **Образец кода**
@@ -77,7 +77,7 @@ Aspose.Cells предоставляет[Комментарии.GetThreadedCommen
 
 ![дело:изображение_альтернативный_текст](threaded-comments_7.jpg)
 ### **Отредактируйте цепочку комментариев, используя Aspose.Cells.**
-Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете обновить нужный комментарий в[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)и сохраните книгу.
+Aspose.Cells предоставляет[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) для получения связанных комментариев для указанного столбца.[Комментарии.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)принимает имя столбца в качестве параметра и возвращает[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Вы можете обновить нужный комментарий в[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)и сохраните книгу.
 
 В следующем примере показано редактирование первого связанного комментария в столбце A1 путем загрузки[образец файла Excel](ThreadedCommentsSample.xlsx). Пожалуйста, смотрите[выходной файл Excel](EditThreadedComments.xlsx)сгенерированный кодом, показывающим обновленный комментарий для справки.
 #### **Образец кода**

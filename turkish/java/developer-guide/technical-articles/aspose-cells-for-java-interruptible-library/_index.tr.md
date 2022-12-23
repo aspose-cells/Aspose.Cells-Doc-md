@@ -9,7 +9,7 @@ url: /tr/java/aspose-cells-for-java-interruptible-library/
  Aspose.Cells for Java, büyük Excel dosyalarıyla çalışırken yükleme/kaydetme işleminin kesilmesini destekler. Bazen kitaplıkları/bileşenleri kesintiye uğratılabilir yapmak istersiniz. Bu kesinlikle hizmetlerinizin/süreçlerinizin verimliliğini ve güvenilirliğini artıracaktır. Çok uzun sürdüğünü fark ettiğinizde, bir dönüşümden kısmen vazgeçebilirsiniz. Bu, CPU kullanımından, RAM'den vs.
 {{% /alert %}}
 
-## **Örnek:**
+## **Örnek vermek:**
 
  Aşağıdaki program, kullanarak kaydetme işleminin nasıl kesileceğini gösterir.**InterruptMonitor.interrupt()** yöntem.
 

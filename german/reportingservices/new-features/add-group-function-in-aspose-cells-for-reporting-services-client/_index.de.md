@@ -22,6 +22,6 @@ Das Ändern des Berichts umfasst die folgenden Schritte:
 ![todo: Bild_alt_Text](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
 
- Klicken**Verpflichten** Schaltfläche und speichern Sie die Hide-Konfigurationen.
+ Klicken**Begehen** Schaltfläche und speichern Sie die Hide-Konfigurationen.
 
 ![todo: Bild_alt_Text](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

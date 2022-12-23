@@ -24,7 +24,7 @@ Vi är
 
 
 
-Andra anmärkningsvärda funktioner, förbättringar och fixar ges nedan.
+ Andra anmärkningsvärda funktioner, förbättringar och fixar ges nedan.
 
  Nya egenskaper
 
@@ -45,7 +45,7 @@ Andra anmärkningsvärda funktioner, förbättringar och fixar ges nedan.
 - sortNames()-metoden orsakade undantag när en XLSM-fil sparas
 - Talet formaterades inte korrekt för fraktion
 - Tom PDF genererad för PrintOrderType.OVER_SEDAN_NER
-- Bakgrundsfärg och rutnät är felaktiga i den genererade PDF-filen
+- Bakgrundsfärg och rutnät är felaktiga i den genererade PDF
 - Intercept- och Slope-funktioner beräknades inte korrekt
 - Ta bort 33 000 gräns för pivotfältobjekt för Excel 2007-filformat
 - Notation 1:1 stöds inte i IFfunction

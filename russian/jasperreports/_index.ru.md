@@ -20,7 +20,7 @@ is_root: true
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут вам понадобиться для выполнения ваших задач.
 
 - [Aspose.Cells for JasperReports Онлайн-документация](/cells/ru/jasperreports/)
-- [Aspose.Cells for JasperReports Характеристики](/cells/ru/jasperreports/feature-overview/)
+- [Aspose.Cells for JasperReports Особенности](/cells/ru/jasperreports/feature-overview/)
 - [Aspose.Cells for JasperReports Примечания к выпуску](/cells/ru/jasperreports/release-notes/)
 - [Aspose.Cells for JasperReports Страница продукта](https://products.aspose.com/cells/jasperreports/)
 - [Скачать Aspose.Cells for JasperReports](https://downloads.aspose.com/cells/jasperreports)

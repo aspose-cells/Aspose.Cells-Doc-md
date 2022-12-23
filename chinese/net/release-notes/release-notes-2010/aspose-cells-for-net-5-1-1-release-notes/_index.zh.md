@@ -24,11 +24,11 @@ url: /zh/net/aspose-cells-for-net-5-1-1-release-notes/
 |18024 |图表2图像|转换为 PDF 时图表刻度标签格式问题|
 |18028 |图表2图像|Chart_Overlapping 问题|
 |18458 |图表2图像|截断数据标签问题|
-|18652 | PDF格式|以 PDF 格式保存时名称无效 Cell|
+|18652 | PDF格式|以 PDF 格式保存时 Cell 名称无效|
 |18034 |形状2图像|第一张纸的布局和设计丢失，文本重叠|
 |18687 |工作表2图像|ToImage 抛出异常|
 |18473 |Xls|Office 2010 检测到 XLS 文件有问题|
-|18489 |Xls|另存为 XLS 时出现问题|
+|18489 |Xls|保存为 XLS 时出现问题|
 |18534 |Xls|偏移组合问题|
 |18755 |Xls|我的文件上的 CalculateFormula 给出错误|
 |18673 |Xls|结合图表导致绘图区域不匹配|

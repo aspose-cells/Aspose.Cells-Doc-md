@@ -10,6 +10,6 @@ Aspose.Cells for Reporting Services Designer 支持 Microsoft Excel 2007 和 201
 
 **Aspose.Cells 支持最新版Microsoft Excel** 
 
-![待办事项：图像_替代_文本](support-for-microsoft-excel-2007-or-2010-custom-ui_1.png)
+![待办事项：图片_替代_文本](support-for-microsoft-excel-2007-or-2010-custom-ui_1.png)
 
 {{% /alert %}}

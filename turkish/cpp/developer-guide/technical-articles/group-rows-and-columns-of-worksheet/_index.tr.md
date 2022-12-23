@@ -9,6 +9,6 @@ url: /tr/cpp/group-rows-and-columns-of-worksheet/
 ## **Çalışma Sayfasının Satır ve Sütunlarını Gruplandırma**
 Aşağıdaki örnek kod, satırların ve sütunların nasıl gruplanacağını gösterir. Satırları ve sütunları 3. seviyeye kadar gruplandırır. lütfen kontrol ediniz[çıktı excel dosyası](23166998.xlsx) bu kod ile oluşturulmuştur. İki çalışma sayfası vardır, birincisi satırların gruplandırılmasını, ikincisi ise sütunların gruplandırılmasını içerir. Lütfen ilk çalışma sayfasındaki satırların gruplandırılmasını gösteren ekran görüntüsüne de bakın.
 
-![yapılacaklar:resim_alternatif_Metin](group-rows-and-columns-of-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](group-rows-and-columns-of-worksheet_1.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-TechnicalArticles-GroupRowsAndColumnsOfWorksheet.cpp" >}}

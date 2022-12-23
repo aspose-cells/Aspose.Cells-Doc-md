@@ -20,14 +20,14 @@ url: /ja/php-java/aspose-cells-for-php-via-java-22-7-release-notes/
 |CELLSJAVA-44717|ボーダー (ライン) スタイルの問題|
 |CELLSJAVA-44707|境界線が表示されない|
 |CELLSJAVA-44670|出力 HTML の数式に関する問題 - Excel から HTML への変換|
-|CELLSJAVA-44202|HTML にエクスポートする場合、チャートの凡例が MS Excel と同じではありません|
+|CELLSJAVA-44202|HTML にエクスポートすると、グラフの凡例が MS Excel とは異なる|
 |CELLSJAVA-44591|ラベルのテキストの回転が、グラフの出力イメージで Excel と一致しない|
 |CELLSJAVA-44655|負の値を含むツリーマップ チャートを表示できず、実行が継続する|
 |CELLSJAVA-44686|Title.IsAutoText が true の場合、チャート (2016) のタイトル テキストが正しくありません|
 |CELLSJAVA-44689|リグレッション: ウォーターフォール チャートの凡例の言語の問題|
 |CELLSJAVA-44687|ファイル結合時のグラフの問題|
 |CELLSJAVA-44736|シートのコピー時に表のスタイルが失われる|
-|CELLSJAVA-44725|XLSX から PDF への変換中の例外「java.util.zip.ZipException: 無効なエントリ サイズ (予期される 0 が 1053 バイト)」|
+|CELLSJAVA-44725|XLSX を PDF に変換する際の例外「java.util.zip.ZipException: 無効なエントリ サイズ (予期される 0 ですが、1053 バイトを取得しました)」|
 
 ## **Public API および下位互換性のない変更**
 

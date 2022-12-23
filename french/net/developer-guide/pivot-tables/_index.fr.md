@@ -8,7 +8,7 @@ description: Créer et mettre en forme des tableaux croisés dynamiques de fichi
 ---
 ## **Créer un tableau croisé dynamique**
 
-Il est possible d'utiliser Aspose.Cells pour ajouter des tableaux croisés dynamiques aux feuilles de calcul par programmation.
+Il est possible d'utiliser Aspose.Cells pour ajouter des tableaux croisés dynamiques aux feuilles de calcul par programme.
 
 ### **Modèle d'objet de tableau croisé dynamique**
 

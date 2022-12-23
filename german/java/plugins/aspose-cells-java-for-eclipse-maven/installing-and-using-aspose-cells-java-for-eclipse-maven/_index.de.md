@@ -22,13 +22,13 @@ url: /de/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
  Erschaffen**Maven Projekt** durch Assistenten für die Verwendung[Aspose.Cells for Java API](https://products.aspose.com/cells/java/):
 
-1. Auswählen**Neu -> Projekt**.
-1. Auswählen**Aspose.Cells Maven Projekt**in dem**Maven**Kategorie.
+1. Wählen**Neu -> Projekt**.
+1. Wählen**Aspose.Cells Maven Projekt**in dem**Maven**Kategorie.
 1. Klicken**Nächste**.
 
 ![todo: Bild_alt_Text](project_2.png)
 
-1. Zur Verfügung stellen**Projektname, Ort, GroupId, ArtifactId**und**Ausführung**für Ihr Maven-Projekt und klicken Sie**Fertig.**
+1. Bieten**Projektname, Ort, GroupId, ArtifactId**und**Ausführung**für Ihr Maven-Projekt und klicken Sie**Fertig.**
 
 ![todo: Bild_alt_Text](project_3.png)
 
@@ -53,7 +53,7 @@ url: /de/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 Um Beispiele zu verwenden, einfach:
 
 1. Klicken**Neu -> Andere** in**Finsternis**.
-1. Auswählen**Aspose.Cells Codebeispiel**in dem**Java**Kategorie.
+1. Wählen**Aspose.Cells Codebeispiel**in dem**Java**Kategorie.
 1. Klicken**Nächste**.  
 
 ![todo: Bild_alt_Text](example_1.png)

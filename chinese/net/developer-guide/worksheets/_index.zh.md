@@ -24,7 +24,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 1. 打电话给[**添加**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add)的方法[**工作表集合**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)班级。一个空工作表会自动添加到 Excel 文件中。可以通过将新工作表的工作表索引传递给[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)收藏。
 1. 获取工作表参考。
 1. 在工作表上执行工作。
-1. 通过调用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**节省**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法。
+1. 通过调用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**救球**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)方法。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 

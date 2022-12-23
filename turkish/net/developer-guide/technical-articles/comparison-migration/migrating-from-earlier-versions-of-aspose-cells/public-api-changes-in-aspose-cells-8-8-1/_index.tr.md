@@ -63,8 +63,8 @@ var book = new Workbook(filePath, options);
 {{< /highlight >}}
 
 
-### **Grafiği Doğrudan PDF'ye Dönüştürün**
-Aspose.Cells API'ler, Chart.ToPdf yöntemini kullanırken çizelgeleri PDF'ye dönüştürme olanağını zaten sağlamıştır. Bu sürümle birlikte API, söz konusu yöntemin bir Stream örneğini kabul edebilen başka bir aşırı yüklenmiş sürümünü ortaya çıkardı ve kullanıcıların grafiğin PDF'sini bir MemoryStream örneğine kaydetmesine izin verdi.
+### **Grafiği Doğrudan PDF'e Dönüştür**
+Aspose.Cells API'leri, Chart.ToPdf yöntemini kullanırken grafikleri PDF'e işleme olanağı sağladı. Bu sürümle birlikte API, söz konusu yöntemin bir Stream örneğini kabul edebilen başka bir aşırı yüklenmiş sürümünü ortaya çıkardı ve kullanıcıların grafiğin PDF'ini bir MemoryStream örneğine kaydetmesine izin verdi.
 
 Basit kullanım senaryosu aşağıdadır.
 

@@ -71,8 +71,8 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 - Serverkomponente – Problem mit der Hintergrundfarbe von Cell (XL#CCS) in den ReportingServices
 - Serverkomponente – Problem mit dynamischer Formel und Tabellenfußzeilen
-- ServerComponent – Generieren Sie eine XLSX-Datei anstelle von CSV, wenn ein Benutzer den CSV-Exporttyp auswählt
+- ServerComponent – Generieren Sie eine XLSX-Datei anstelle von CSV, wenn ein Benutzer den Exporttyp CSV auswählt
 - ServerComponent - Kreuztabellenbericht kann nicht in MS Excel 2007 exportiert werden
-- Serverkomponente – Problem mit der CSV-Exportcodierung
+- Serverkomponente - CSV Problem mit der Exportcodierung
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Imposta i formati condizionali dei file Excel e ODS.
+title: Impostare i formati condizionali dei file Excel e ODS.
 linktitle: Formati condizionali
 type: docs
 weight: 60
@@ -9,7 +9,7 @@ keywords: apply conditional formats
 ---
 ## **introduzione**
 
- La formattazione condizionale è una funzionalità avanzata di Microsoft Excel che consente di applicare formati a una cella o a un intervallo di celle e modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, è possibile visualizzare una cella in grassetto solo quando il valore della cella è maggiore di 500. Quando il valore della cella soddisfa la condizione, alla cella viene applicato il formato specificato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella. In Microsoft Excel selezionare**Formato** , poi**Formattazione condizionale** per aprire la finestra di dialogo Formattazione condizionale.
+ La formattazione condizionale è una funzionalità avanzata di Excel Microsoft che consente di applicare formati a una cella o a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, è possibile visualizzare una cella in grassetto solo quando il valore della cella è maggiore di 500. Quando il valore della cella soddisfa la condizione, alla cella viene applicato il formato specificato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella. In Microsoft Excel, selezionare**Formato** , poi**Formattazione condizionale** per aprire la finestra di dialogo Formattazione condizionale.
 
 Aspose.Cells supporta l'applicazione della formattazione condizionale alle celle in fase di esecuzione. Questo articolo spiega come. Spiega inoltre come calcolare il colore utilizzato da Excel per la formattazione condizionale della scala di colori.
 
@@ -23,7 +23,7 @@ Aspose.Cells supporta la formattazione condizionale in diversi modi:
 
 ### **Utilizzo del foglio di calcolo del progettista**
 
-Gli sviluppatori possono creare un foglio di calcolo del designer che contiene la formattazione condizionale in Microsoft Excel e quindi aprire il foglio di calcolo con Aspose.Cells. Aspose.Cells carica e salva il foglio di calcolo del designer, mantenendo qualsiasi impostazione di formattazione condizionale.
+Gli sviluppatori possono creare un foglio di lavoro di progettazione che contiene la formattazione condizionale in Microsoft Excel e quindi aprire tale foglio di lavoro con Aspose.Cells. Aspose.Cells carica e salva il foglio di lavoro di progettazione, mantenendo qualsiasi impostazione di formattazione condizionale.
 
 ### **Utilizzando il metodo della copia**
 
@@ -43,7 +43,7 @@ Aspose.Cells consente sia di aggiungere che di rimuovere la formattazione condiz
 
 Dopo questo esempio arriva una serie di altri esempi più piccoli che mostrano come applicare le impostazioni dei caratteri, le impostazioni dei bordi e i motivi.
 
-Microsoft Excel 2007 ha aggiunto una formattazione condizionale più avanzata supportata anche da Aspose.Cells. Gli esempi qui illustrano come utilizzare una formattazione semplice, gli esempi di Microsoft Excel 2007 mostrano come applicare una formattazione condizionale più avanzata.
+Microsoft Excel 2007 ha aggiunto una formattazione condizionale più avanzata supportata anche da Aspose.Cells. Gli esempi qui illustrano come utilizzare una formattazione semplice, gli esempi Microsoft Excel 2007 mostrano come applicare una formattazione condizionale più avanzata.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConditionalFormattingatRuntime-1.cs" >}}
 

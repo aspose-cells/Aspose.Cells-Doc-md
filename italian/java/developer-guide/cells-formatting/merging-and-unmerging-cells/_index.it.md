@@ -8,7 +8,7 @@ url: /it/java/merging-and-unmerging-cells/
 
 Non vuoi sempre lo stesso numero di celle in ogni riga o colonna. Ad esempio, potresti voler inserire un titolo in una cella che si estende su più colonne. Oppure, se crei una fattura, potresti volere meno colonne per il totale. Per creare una cella da due o più celle, uniscile. Microsoft Excel consente agli utenti di selezionare le celle e unirle per strutturare il foglio di calcolo nel modo desiderato.
 
-**Il risultato dell'unione e quindi della divisione di un intervallo di celle formattate come celle a sinistra in Microsoft Excel** 
+**Il risultato dell'unione e quindi della divisione di un intervallo di celle formattato come le celle a sinistra in Microsoft Excel** 
 
 ![cose da fare:immagine_alt_testo](merging-and-unmerging-cells_1.png)
 
@@ -22,7 +22,7 @@ La formattazione, allo stesso modo, si basa sulla cella di riferimento in modo c
 
 ## **Unire Cells in un foglio di lavoro.**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 I seguenti passaggi descrivono come unire le celle nel foglio di lavoro utilizzando Microsoft Excel.
 
@@ -48,7 +48,7 @@ L'esempio seguente mostra come unire le celle (C6:E7) in un foglio di lavoro.
 
 ## **Unmerging (Splitting) Unificato Cells**
 
-### **Utilizzo di Microsoft Excel**
+### **Utilizzando Microsoft Excel**
 
 I seguenti passaggi descrivono come dividere le celle unite utilizzando Microsoft Excel.
 

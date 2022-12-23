@@ -12,24 +12,24 @@ url: /tr/net/aspose-cells-for-net-17-6-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-45356|Tüm özellik değerlerini HTML olarak kodlayın|Yeni özellik|
+|CELLSNET-45356|Tüm öznitelik değerlerini HTML'de alıntılayın|Yeni özellik|
 |CELLSNET-45394|Office 365'in yeni işlevlerini destekleyin|Yeni özellik|
 |CELLSNET-45348|Grafiğin veri kaynağı olarak Destek Tablosu|Yeni özellik|
 |CELLSNET-45317|Aspose.Cells.GridWeb'in force script_path ve forcepath gibi eski Web.config ayarlarını kaldırın|Yeni özellik|
 |CELLSNET-45370|İstisna mesajı yanlış - Köprü sayısı 66530'dan fazla olamaz|Artırma|
-|CELLSNET-45391|Çıktı PDF'sindeki Excel altbilgisi italik değil - Arial 9 ve italik olmalıdır|Artırma|
+|CELLSNET-45391|PDF çıktısındaki Excel altbilgisi italik değil - Arial 9 ve italik olmalıdır|Artırma|
 |CELLSNET-45328|PageSetup ayarlarını mevcut çalışma sayfasından kopyalayın|Artırma|
 |CELLSNET-45345|Alt simge etiketlerinin bir kısmı kesilerek bir alt satıra kaydırılmıştır.|Böcek|
-|CELLSNET-45344|Alt simge metni biraz sağa kaydırılır - Excel'den PDF'e Oluşturma|Böcek|
-|CELLSNET-44595|Çıktı Excel dosyası, bir HTML dosyasını Excel dosya biçimine dönüştürürken iyi değil|Böcek|
-|CELLSNET-44596|Çıktı Excel dosyası, bir HTML dosyasını Excel dosya biçimine dönüştürürken iyi değil - I|Böcek|
-|CELLSNET-45409|Birden çok yükleme ve bir XLS dosyasını kaydetme sonrasında atılan istisna|Böcek|
+|CELLSNET-45344|Alt simge metni biraz sağa kaydırılır - Excel'den PDF'e|Böcek|
+|CELLSNET-44595|Bir HTML dosyasını Excel dosya biçimine dönüştürürken çıktı Excel dosyası iyi değil|Böcek|
+|CELLSNET-44596|Bir HTML dosyasını Excel dosya formatına dönüştürürken çıktı Excel dosyası iyi değil - I|Böcek|
+|CELLSNET-45409|Bir XLS dosyasını birden çok kez yükleyip kaydettikten sonra istisna atıldı|Böcek|
 |CELLSNET-45411|Yük Filtresi, bir Excel dosyası yüklenirken çökmeye neden oluyor|Böcek|
 |CELLSNET-45405|IFERROR'u NPER ile kullanmak doğru şekilde işlenemiyor|Böcek|
-|CELLSNET-45414|Çıktı PDF'sinin iki sayfa yerine bir sayfası olmalıdır|Böcek|
+|CELLSNET-45414|PDF çıktısı, iki sayfa yerine bir sayfaya sahip olmalıdır|Böcek|
 |CELLSNET-45399|Bir hücrede Arapça para birimi adı olduğunda görüntü yanlış işleniyor|Böcek|
-|CELLSNET-45389|Çıktı PDF/görüntüsünde parantezlerin şekli yanlış işleniyor|Böcek|
-|CELLSNET-45376|Aspose.Cells kaydedilen PDF, MS Excel kaydedilen PDF'e benzemiyor|Böcek|
+|CELLSNET-45389|PDF/resim çıktısında parantezlerin şekli yanlış işleniyor|Böcek|
+|CELLSNET-45376|Aspose.Cells kaydedildi PDF, kaydedilen MS Excel gibi değil PDF|Böcek|
 |CELLSNET-45400|Görüntü olarak işlendiğinde mini grafikler düzgün görüntülenmiyor|Böcek|
 |CELLSNET-45372|BankActionRatPie grafiği resme dönüştürüldüğünde yanlış gösterge öğesi renkleri|Böcek|
 |CELLSNET-45371|TotalActionRatPie grafiği resme dönüştürüldüğünde yanlış gösterge öğesi renkleri|Böcek|
@@ -37,7 +37,7 @@ url: /tr/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45351|Aspose.Cells, 0 değerlerini gösterir|Böcek|
 |CELLSNET-45342|Grafikteki Veri Etiketleri çıktı dosyasında gösterilmez veya kaldırılmaz|Böcek|
 |CELLSNET-45335|Oluşturulan grafiğin görüntüsü yanlış|Böcek|
-|CELLSNET-45424|Aspose.Cells API'leri tarafından XLS'ye kaydedildiğinde özel sıralama kayboluyor|Böcek|
+|CELLSNET-45424|Aspose.Cells API'leri tarafından XLS'e kaydedildiğinde özel sıralama kayboluyor|Böcek|
 |CELLSNET-45421|Veri sıralama, çalışma sayfasındaki DataSet'te (formüllere sahip) çalışmıyor|Böcek|
 |CELLSNET-45416|Cell Range.ApplyStyle() yönteminde sınır sorunu|Böcek|
 |CELLSNET-45413|Sayfa2'de katıştırılmış bir nesne eksik ve ölçeklendirme yanlış|Böcek|
@@ -51,11 +51,11 @@ url: /tr/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45382|Tablo üstbilgilerinin sonundaki boşluk ve diğer hücrede buna gönderme|Böcek|
 |CELLSNET-45381|Cell.GetValidationValue, özel veri doğrulama formülü kullanılırken yanlış değer veriyor|Böcek|
 |CELLSNET-45378|3. çalışma sayfasındaki köprü tanımlanmadı|Böcek|
-|CELLSNET-45375|Aspose.Cells API'leri aracılığıyla şablon XLS dosyasının açılmasıyla ilgili istisna|Böcek|
+|CELLSNET-45375|XLS şablon dosyasının Aspose.Cells API'leri aracılığıyla açılmasıyla ilgili istisna|Böcek|
 |CELLSNET-45373|Formüller içeren bir ListObject'in yanına satır eklerken, bu formüller yanlışlıkla yukarı doğru çoğaltılıyor|Böcek|
-|CELLSNET-45369|XLS'yi yükleyip kaydettikten sonra metin biçimi değişti (boşluk arttı)|Böcek|
+|CELLSNET-45369|XLS yüklenip kaydedildikten sonra metin biçimi değişti (boşluk arttı)|Böcek|
 |CELLSNET-45368|Bir XLSM dosyasını yükleyip kaydettikten sonra komut düğmelerinin PrintObject özelliği true olarak ayarlandı|Böcek|
-|CELLSNET-45365|PDF formatına dönüştürüldükten sonra hücre formatlaması kayboldu|Böcek|
+|CELLSNET-45365|PDF biçimine dönüştürüldükten sonra hücre biçimlendirmesi kayboldu|Böcek|
 |CELLSNET-45361|Bir grafiğin arka plan resmini değiştirdikten sonra XLSX dosyası bozuldu|Böcek|
 |CELLSNET-45360|Aralık eklemek, yukarıdaki grafiğin boyutunu da genişletir|Böcek|
 |CELLSNET-45343|ListObject.ConvertToRange, toplamlar satırındaki formülleri keser|Böcek|
@@ -64,7 +64,7 @@ url: /tr/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45222|I.100 çalışma sayfasının tüm gruplarını daralt 64. satırın altında boş bir alan oluşturacak|Böcek|
 |CELLSNET-45221|Kontrol çalışma sayfasını aşağı kaydırmak, GridWeb'in boş olmasını sağlar|Böcek|
 |CELLSNET-45181|Satırları genişlettikten sonra dikey kaydırma çubuğu kayboluyor|Böcek|
-|CELLSNET-45407|İstisna: Bir XLSX dosya biçimi yüklenirken "Giriş dizesi doğru biçimde değildi"|İstisna|
+|CELLSNET-45407|İstisna: XLSX dosya biçimi yüklenirken "Giriş dizesi doğru biçimde değildi"|İstisna|
 |CELLSNET-45386|Metin kutusu içeren bir sayfayı kopyalarken istisna|İstisna|
 |CELLSNET-45379|Excel dosyası açılırken istisna oluştu|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

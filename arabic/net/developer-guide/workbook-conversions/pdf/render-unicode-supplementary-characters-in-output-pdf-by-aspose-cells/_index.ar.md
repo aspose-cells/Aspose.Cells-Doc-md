@@ -1,5 +1,5 @@
 ﻿---
-title: تقديم أحرف تكميلية Unicode في إخراج PDF بواسطة Aspose.Cells
+title: تقديم أحرف تكميلية Unicode في الإخراج PDF بواسطة Aspose.Cells
 type: docs
 weight: 350
 url: /ar/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -15,14 +15,14 @@ url: /ar/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cel
 
 {{% /alert %}}
 
-## تقديم أحرف تكميلية Unicode في إخراج PDF بواسطة Aspose.Cells
+## تقديم أحرف تكميلية Unicode في الإخراج PDF بواسطة Aspose.Cells
 
- توضح لقطة الشاشة التالية كيف قدم Aspose.Cells ملف[ملف اكسل المصدر](5115563.xlsx) داخل ال[إخراج PDF](5115564.pdf). كما ترى ، تم تقديم جميع أحرف Unicode التكميلية الثلاثة تمامًا كما فعلت بواسطة Microsoft Excel.
+ توضح لقطة الشاشة التالية كيف قدم Aspose.Cells ملف[ملف اكسل المصدر](5115563.xlsx) داخل ال[الإخراج PDF](5115564.pdf). كما ترى ، تم تقديم جميع أحرف Unicode التكميلية الثلاثة تمامًا كما فعلت بواسطة Microsoft Excel.
 
 ![ما يجب القيام به: image_بديل_نص](output.png)
 
 ## عينة من الرموز
 
- يمكنك استخدام نموذج التعليمات البرمجية هذا للتحويل[ملف اكسل المصدر](5115563.xlsx) داخل[إخراج PDF](5115564.pdf).
+ يمكنك استخدام نموذج التعليمات البرمجية هذا للتحويل[ملف اكسل المصدر](5115563.xlsx) داخل[الإخراج PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

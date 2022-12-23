@@ -4,7 +4,7 @@ type: docs
 weight: 120
 url: /sv/net/recognise-self-closing-tags/
 ---
-HTML kan ha olika taggformatering för tomma taggar som \<td>\</td> eller \<td/>. Aspose.Cells stöder båda dessa format nu medan det tidigare bara stödde \<td>\</td> gillar taggar. Denna funktion kan testas genom att konvertera den bifogade HTML-exempelfilen till Excel-fil. HTML-exemplet och Excel-utdatafilen kan laddas ner från följande länkar för testning.
+HTML kan ha olika taggformatering för tomma taggar som \<td>\</td> eller \<td/>. Aspose.Cells stöder båda dessa format nu medan det tidigare bara stödde \<td>\</td> gillar taggar. Denna funktion kan testas genom att konvertera den bifogade exempelfilen HTML till Excel-fil. Exempelfilen HTML och Excel-utdatafilen kan laddas ner från följande länkar för testning.
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 

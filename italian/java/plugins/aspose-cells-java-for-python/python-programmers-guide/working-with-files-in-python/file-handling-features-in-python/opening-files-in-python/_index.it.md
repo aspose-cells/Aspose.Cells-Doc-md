@@ -1,13 +1,13 @@
 ﻿---
-title: Apertura di file in Python
+title: Apertura file in Python
 type: docs
 weight: 10
 url: /it/java/opening-files-in-python/
 ---
-## **Aspose.Cells - Apertura di file in Python**
+## **Aspose.Cells - Apertura Fascicoli in Python**
 Per aprire un file utilizzando Aspose.Cells Java in Python, è sufficiente richiamare il metodo openfile() della classe Document e specificare il secondo documento da aggiungere alla fine.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -145,6 +145,6 @@ print ("Encrypted workbook has been opened successfully.");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Apertura File (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Apertura File (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

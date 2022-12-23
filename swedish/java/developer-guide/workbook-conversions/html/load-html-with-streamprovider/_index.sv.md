@@ -14,7 +14,7 @@ När vi laddar html som innehåller externa resurser möter vi följande två pr
 
 {{% /alert %}} 
 
- Detta är huvudkoden som visar användningen av[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Detta är huvudkoden som visar användningen av[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

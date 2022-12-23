@@ -36,4 +36,4 @@ Per inserire una funzione o una formula:
 
 1. Fare clic su una cella per selezionarla.
 1.  Clic**Inserisci funzione** pulsante in alto.
-1.  Seguire le istruzioni sul**Inserisci funzione**dialogo.
+1.  Seguire le istruzioni sul**Inserisci funzione** dialogo.

@@ -19,8 +19,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Python via .NET 22.10.
 |CELLSNET-51952|MAXIFS-formler tar lång tid att beräkna|
 |CELLSNET-52064|Det är inte tillåtet att trycka bort icke-tomma celler från slutet av kalkylbladsfelet när du använder metoden Cells.InsertRows|
 |CELLSNET-52029|Översätt etiketter för förklaringsposter i enlighet med lokala/regionala inställningar|
-|CELLSNET-51419|External Link of Pivot-tabell togs bort när XLS-filen konverterades till XLSM|
-|CELLSNET-51984|XLSX-fil med PivotTable-fil är skadad efter att ha sparats på nytt|
+|CELLSNET-51419|Extern länk till pivottabellen togs bort när XLS-filen konverterades till XLSM|
+|CELLSNET-51984|XLSX-filen med pivottabellsfilen är skadad efter att ha sparats på nytt|
 |CELLSNET-51987|Problem med några smarta markörer (insatta) i pivottabellen och pivotdiagrammet|
 |CELLSNET-52065|Fel externa dataanslutningar vid konvertering av externa anslutningar|
 |CELLSNET-52088| Extra rad läggs till när du skapar klassisk pivottabell|
@@ -44,6 +44,6 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Python via .NET 22.10.
 |CELLSNET-52084|Positionen för texten "Northwind Traders" är felaktig (det vänstra indragsvärdet tolkas inte korrekt).|
 |CELLSNET-52063|PivotTable.CalculateData orsakade NullReferenceException|
 |CELLSNET-51986|Att beräkna arbetsbok två gånger med aktiverad beräkningskedja orsakade undantag|
-|CELLSNET-52081|Att öppna XLSX-fil vars stilar har tagits bort ger undantag|
+|CELLSNET-52081|Att öppna XLSX-filen vars stilar har tagits bort ger undantag|
 |CELLSNET-52044|Undantag togs upp vid import av kundens fil i GridWeb|
 |CELLSNET-52002|Undantag görs när man försöker öppna ett oskyddat dokument med ett lösenord|

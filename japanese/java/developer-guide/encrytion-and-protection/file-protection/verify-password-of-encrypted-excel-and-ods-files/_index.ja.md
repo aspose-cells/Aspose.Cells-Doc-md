@@ -6,7 +6,7 @@ url: /ja/java/verify-password-of-encrypted-excel-and-ods-files/
 description: Java コードを使用して、暗号化された Excel (xlsx、xlsb、xls、xlsm) および Open Office (ODS) ファイルのパスワードを確認します。
 ---
 {{% alert color="primary" %}}
-Excel (xlsx、xlsb、xls、xlsm) および Open office (ODS) ファイルがパスワードでロックされている場合、Aspose.Cells for Java は、ファイルの特定のデータを解析することなく、単純なパスワード検証をサポートします。
+Excel (xlsx、xlsb、xls、xlsm) および Open Office (ODS) ファイルがパスワードでロックされている場合、Aspose.Cells for Java は、ファイルの特定のデータを解析することなく、単純なパスワード検証をサポートします。
 {{% /alert %}}
 
 ## **暗号化されたファイルのパスワードを確認する**

@@ -18,7 +18,7 @@ Den här sidan beskriver de mest intressanta nya funktionerna Aspose.Cells for R
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* Stöd för att återge XLTX-format.
+* Stöd för att rendera XLTX-format.
 
 ## Aspose.Cells for Reporting Services  22.7
 

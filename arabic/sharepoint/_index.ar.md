@@ -7,7 +7,7 @@ is_root: true
 ---
 {{% alert color="primary" %}}
 
-**! [todo: image_alt_text] (logo.png)**
+**![todo:image_alt_text](logo.png)**
 
 **مرحبا بكم في Aspose.Cells for SharePoint**
 

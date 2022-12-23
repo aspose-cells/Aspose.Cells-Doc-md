@@ -6,7 +6,7 @@ url: /ar/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، تحتاج إلى نسخ البيانات من نطاق من الخلايا إلى نطاق آخر ، ونسخ البيانات فقط ، وليس التنسيق. يقدم Aspose.Cells هذه الميزة من خلال توفير[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) طريقة.
+ في بعض الأحيان ، تحتاج إلى نسخ البيانات من نطاق من الخلايا إلى نطاق آخر ، ونسخ البيانات فقط ، وليس التنسيق. يقدم Aspose.Cells هذه الميزة من خلال توفير[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) طريقة.
 
 {{% /alert %}} 
 ## **نسخ بيانات النطاق فقط**

@@ -12,34 +12,34 @@ url: /tr/net/aspose-cells-for-net-17-8-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-45357 |HTML'ye dışa aktarma sırasında alt düzeyde ortaya çıkan koşullu yorum türünü devre dışı bırakma seçeneği|Yeni özellik|
-|CELLSNET-45330 |Görüntü, HTML veya PDF olarak kaydederken yorumları işleyin|Yeni özellik|
+|CELLSNET-45357 |HTML'e dışa aktarma sırasında alt düzeyde ortaya çıkan koşullu yorum türünü devre dışı bırakma seçeneği|Yeni özellik|
+|CELLSNET-45330 |Resim olarak kaydederken yorumları işle, HTML veya PDF|Yeni özellik|
 |CELLSNET-45014 |Office 2013'ten beri grafiğin style.xml desteği|Yeni özellik|
 |CELLSNET-45501 |Hem Tasarım Zamanında hem de Çalışma Zamanında GridDesktop'un Varsayılan Stilini Aspose.Cells.Workbook.DefaultStyle'a benzer şekilde ayarlayın|Yeni özellik|
 |CELLSNET-44243 |GridDesktop bileşeninde Tab ile gezinirken kilitli hücreleri atla|Yeni özellik|
 |CELLSNET-45517 |Paylaşım xlsx dosyası için destek ekleyin|Artırma|
 |CELLSNET-45554 |Cell Yorum Sunucu tarafında güncellendikten sonra Yorumu İstemci tarafında senkronize edin veya güncelleyin|Artırma|
 |CELLSNET-45530 |MS Excel çıktı dosyasını açmak için daha fazla bellek (yaklaşık 2 GB) kullanır|Verim|
-|CELLSNET-45531 |Çıktı PDF'sinde şekil metninin konumu yanlış - Excel'den PDF'e dönüştürme|Böcek|
+|CELLSNET-45531 |PDF çıktısında şekil metninin konumu yanlış - Excel'den PDF'e dönüştürme|Böcek|
 |CELLSNET-45507 |Çıktı Pdf'sinde diyagramlar doğru şekilde oluşturulmadı|Böcek|
 |CELLSNET-45477 |Sayfadan resme dönüştürmede şekillerin işlenmesiyle ilgili sorunlar|Böcek|
 |CELLSNET-45473 |Bir XLS dosyasını Aspose.Cells API'leri tarafından HTML olarak kaydederken Metin Hizalama sorunları|Böcek|
 |CELLSNET-45536 |Excel sayfasını Görüntüye dönüştürürken metin kesiliyor|Böcek|
 |CELLSNET-45524 |Sayfadan görüntüye dönüştürmede şekiller işlenirken fazladan çizgi belirdi|Böcek|
-|CELLSNET-45522 |Cells'den PDF'ye - altbilgi metni aşağıdakileri içerdiğinde altbilgi kaydırılmıyor|Böcek|
+|CELLSNET-45522 |Cells ila PDF - altbilgi metni aşağıdakileri içerdiğinde altbilgi kaydırılmıyor|Böcek|
 |CELLSNET-45512 |Aspose.Cells, Sayfadan görüntü dosyasına işlenirken büyük EMF dosyası oluşturur|Böcek|
 |CELLSNET-45508 |Otomatik sığdırma satırlarından sonra bile veriler kesiliyor|Böcek|
 |CELLSNET-45495 |Halihazırda imzalanmış belgeye dijital imzalar ekleyin|Böcek|
 |CELLSNET-45553 |Sonuçlanan PDF'deki grafikte beklenmeyen değerler var|Böcek|
 |CELLSNET-45551 |PDF dosya biçimine dönüştürülürken görüntü siyah oluyor|Böcek|
-|CELLSNET-45547 |Mini grafikler, çıktı EMF görüntüsünde daha düzgün değil|Böcek|
+|CELLSNET-45547 |Mini grafikler çıktı EMF görüntüsünde daha düzgün değil|Böcek|
 |CELLSNET-45514 |ErrorBar büyük harfleri doğru şekilde oluşturulmaz|Böcek|
 |CELLSNET-45398 |Grafiklerdeki ikincil eksen başlığı yanlış oluşturuldu|Böcek|
 |CELLSNET-45570 |Excel dosyası, Aspose.Cells API'leri aracılığıyla açıp yeniden kaydettikten sonra veri doğrulama aralığı nedeniyle bozuk|Böcek|
 |CELLSNET-45560 |RemoveMacro() yöntemi çağrıldıktan sonra Microsoft Excel'de hata mesajı gösteriliyor|Böcek|
 |CELLSNET-45555 |Cells.GroupRows isHidden özniteliği iç içe geçmiş gruplarla yanlış görüntüleniyor|Böcek|
-|CELLSNET-45552 |Bağlantılı resimler, bir XLSX dosyasını açarken ve yeniden kaydederken grafiğin içinde çoğaltılır|Böcek|
-|CELLSNET-45549 |Source Xls dosyasını açarken ve kaydederken çıktı XLS dosyası bozuk|Böcek|
+|CELLSNET-45552 |Bir XLSX dosyasını açarken ve yeniden kaydederken bağlantılı resimler grafiğin içinde çoğaltılıyor|Böcek|
+|CELLSNET-45549 |Source Xls dosyasını açarken ve kaydederken XLS çıktı dosyası bozuk|Böcek|
 |CELLSNET-45548 |SpreadsheetML AllowFilter öğesi XLSX çıktısında çalışmıyor|Böcek|
 |CELLSNET-45546 |ODS dosyasını açarken ve kaydederken hücre verileri eksik|Böcek|
 |CELLSNET-45544 |Aralığı taşırken, formül yalnızca aralığın ilk hücresine başvuruyor|Böcek|
@@ -49,9 +49,9 @@ url: /tr/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45534 |Workbook.Unprotect yöntemi yanlış şifre ile bile çalışıyor|Böcek|
 |CELLSNET-45532 |Formül çalışmıyorken tam sayı veri doğrulamasına izin ver|Böcek|
 |CELLSNET-45529 |ListObject.Resize biçimi değiştirir ve filtreyi ayarlar|Böcek|
-|CELLSNET-45520 |Yorum alanları SpreadsheetML'den doğru şekilde açılmıyor|Böcek|
+|CELLSNET-45520 |SpreadsheetML den yorum alanları doğru açılmıyor|Böcek|
 |CELLSNET-45518 |Çıktı Excel dosyasındaki Veri Doğrulama çalışmıyor|Böcek|
-|CELLSNET-45509 |Gömülü nesneler/resimler Excel'de PDF'e dönüştürmede işlenmez|Böcek|
+|CELLSNET-45509 |Gömülü nesneler/resimler Excel'de PDF dönüştürmesine işlenmez|Böcek|
 |CELLSNET-45505 |Görüntüler ayıklanırken ve yeniden eklenirken bazı şekiller XLS dosyasında yer değiştiriyor|Böcek|
 |CELLSNET-45504 |Çıktı xlsx dosyasında önde gelen alıntı karakterleri eksik|Böcek|
 |CELLSNET-45502 |Çalışma kitabı çoğaltma, Excel 2016/2007 için bozuk dosya oluşturur|Böcek|
@@ -59,8 +59,8 @@ url: /tr/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45523 |GridDesktop'ta bazı gizli satırlar yanlış görüntüleniyor|Böcek|
 |CELLSNET-45472 |İstisna: Bir XLSX dosyasını PDF dosya biçimine dönüştürürken "Şekilden görüntüye Hata"|İstisna|
 |CELLSNET-45550 |Kaynak Excel dosyasını açarken System.NullReferenceException|İstisna|
-|CELLSNET-45526 |XLSX dosyalarını XLSB dosya biçimine kaydederken istisna|İstisna|
-|CELLSNET-45519 |Şablon XLSB dosyasını açarken istisna (Office 365 (1707 güncellemesi))|İstisna|
+|CELLSNET-45526 |XLSX dosyasını XLSB dosya biçimine kaydederken istisna|İstisna|
+|CELLSNET-45519 |Şablon XLSB dosyasının açılmasıyla ilgili istisna (Office 365 (1707 güncellemesi))|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ## **HtmlSaveOptions.IsExportComments özelliğini ekler**
@@ -89,7 +89,7 @@ Hücrenin varsayılan yazı tipi rengini alır veya ayarlar.
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
 - [Halihazırda imzalanmış bir Excel dosyasına Dijital İmza ekleme](/cells/tr/net/add-digital-signature-to-an-already-signed-excel-file/)
-- [HTML'ye kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın](/cells/tr/net/disable-downlevel-revealed-comments-while-saving-to/)
+- [HTML'e kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın](/cells/tr/net/disable-downlevel-revealed-comments-while-saving-to/)
 - [Excel dosyasını Html'ye kaydederken Yorumları Dışa Aktar](/cells/tr/net/export-comments-while-saving-excel-file-to/)
 - [Yazdırılacak Hiçbir Şey Olmadığında Boş Sayfa Çıktısı](/cells/tr/net/output-blank-page-when-there-is-nothing-to-print/)
 - [Özel Bellek Akışı uygulaması oluşturmak için CustomImplementationFactory'yi kullanma](/cells/tr/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/)

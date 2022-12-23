@@ -75,12 +75,12 @@ Bu yöntem, JasperServer ile kullanım için geçerlidir.
 
 ## **Lisans Çalışmalarını Doğrulayın**
 
-Herhangi bir raporu XLS formatına aktarın ve raporun bir değerlendirme mesajı içerip içermediğini kontrol edin. Değerlendirme mesajı yoksa, lisans düzgün çalışıyor demektir.
+Herhangi bir raporu XLS biçiminde dışa aktarın ve raporun bir değerlendirme mesajı içerip içermediğini kontrol edin. Değerlendirme mesajı yoksa, lisans düzgün çalışıyor demektir.
 
 **Aspose.Cells for JasperReports, değerlendirme modunda bir değerlendirme çalışma sayfası enjekte eder** 
 
-![yapılacaklar:resim_alternatif_Metin](licensing_1.png)
+![yapılacaklar:resim_alternatif_metin](licensing_1.png)
 
 **Geçerli bir lisans olduğunda değerlendirme çalışma sayfası yoktur** 
 
-![yapılacaklar:resim_alternatif_Metin](licensing_2.png)
+![yapılacaklar:resim_alternatif_metin](licensing_2.png)

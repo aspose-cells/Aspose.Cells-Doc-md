@@ -20,7 +20,7 @@ Aspose.Cells for Android via Java — это гибкий компонент, к
 Ниже приведены ссылки на некоторые полезные ресурсы, которые могут вам понадобиться для выполнения ваших задач.
 
 - [Aspose.Cells for Java Онлайн-документация](/cells/ru/java/)(Aspose.Cells for Android via Java очень похож на Aspose.Cells for Java. Таким образом, вы можете использовать ту же документацию)
-- [Aspose.Cells for Android via Java Характеристики](/cells/ru/java/aspose-cells-for-android-via-java-features/)
+- [Aspose.Cells for Android via Java Особенности](/cells/ru/java/aspose-cells-for-android-via-java-features/)
 - [Aspose.Cells for Android via Java Ограничения и API Различия](/cells/ru/java/aspose-cells-for-android-via-java-limitations-and-api-differences/)
 - [Aspose.Cells for Android via Java Примечания к выпуску](/cells/ru/java/aspose-cells-for-android-via-java/)
 - [Aspose.Cells for Android via Java Страница продукта](https://products.aspose.com/cells/android-java/)

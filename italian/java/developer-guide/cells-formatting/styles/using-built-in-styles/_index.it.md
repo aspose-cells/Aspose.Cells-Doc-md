@@ -44,7 +44,7 @@ Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare 
 - [MONETA](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#CURRENCY)
 - [VALUTA_1](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#CURRENCY_1)
 - [TESTO_ESPLICATIVO](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#EXPLANATORY_TEXT)
-- [BUONA](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#GOOD)
+- [BUONO](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#GOOD)
 - [INTESTAZIONE_1](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#HEADER_1)
 - [INTESTAZIONE_2](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#HEADER_2)
 - [INTESTAZIONE_3](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#HEADER_3)

@@ -9,6 +9,6 @@ url: /zh/java/add-word-art-text-with-built-in-styles/
 ## **添加具有内置样式的艺术字文本**
 以下示例代码添加了具有不同内置样式的艺术字文本。请检查[输出excel文件](5472536.xlsx)使用此代码生成。这就是[输出excel文件](5472536.xlsx)在 Microsoft Excel 中查找。
 
-![待办事项：图像_替代_文本](add-word-art-text-with-built-in-styles_1.png)
+![待办事项：图片_替代_文本](add-word-art-text-with-built-in-styles_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtText-AddWordArtText.java" >}}

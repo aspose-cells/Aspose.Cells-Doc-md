@@ -20,7 +20,7 @@ So implementieren Sie die Dateiverschlüsselung in Microsoft Excel (z. B. 2007):
 
 1.  Von dem**Werkzeug** Menü, auswählen**Optionen**.
 1.  Wähle aus**Sicherheit** Tab.
-1.  Geben Sie einen Wert für die ein**Passwort zum Öffnen** aufstellen.
+1.  Geben Sie einen Wert für die ein**Passwort zum öffnen** Gebiet.
 1.  Klicken**Fortschrittlich**.
 1. Wählen Sie den Verschlüsselungstyp und bestätigen Sie das Passwort.
 

@@ -63,7 +63,7 @@ La hoja de trabajo enlazada ahora carga los datos correctamente, pero los encabe
 Para establecer los encabezados de columna de la hoja de trabajo:
 
 1. Obtenga los títulos para cada columna de DataTable (Productos) en el DataSet.
-1. Asigne los títulos a los encabezados de las columnas de la hoja de cálculo.
+1. Asigne los títulos a los encabezados de las columnas de la hoja de trabajo.
 
  Añada el código escrito en el**Encuadernar hoja de trabajo** evento de clic del botón con el siguiente fragmento de código. Al hacer esto, los encabezados de columna antiguos (A, B y C) se reemplazarán con ProductID, ProductName y ProductPrice.
 

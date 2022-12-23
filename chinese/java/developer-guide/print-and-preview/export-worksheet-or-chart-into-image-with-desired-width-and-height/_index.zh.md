@@ -20,4 +20,4 @@ url: /zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height
 
 - [图表渲染](/cells/zh/java/chart-rendering/)
 - [将工作表转换为不同的图像格式](/cells/zh/java/converting-worksheet-to-different-image-formats/)
-- [使用 viewBox 属性将图表导出为 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
+- [使用 viewBox 属性将图表导出到 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)

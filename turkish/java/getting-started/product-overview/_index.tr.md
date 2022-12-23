@@ -6,7 +6,7 @@ url: /tr/java/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_1.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
 ## **Aspose.Cells belgelerine hoş geldiniz**
 **Aspose.Cells** Java Uygulamalarının Excel tabloları oluşturmasına ve yönetmesine olanak tanıyan en esnek bileşendir.**Microsoft excel**sisteme kurulacaktır. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells yalnızca elektronik tablo oluşturmayı ve diğer temel dosya biçimlendirme özelliklerini desteklemekle kalmaz, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini ve dosya korumasını değiştirmesini çok daha kolay hale getirir. Aspose.Cells ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarmaya, ortak ve karmaşık Matematik, Tarih, Zaman, Mali, Metin Formülleri / İşlevleri eklemeye izin verir, çizelgelerin, resimlerin, yorumların, çizim nesnelerinin ve kontrollerin vb. değiştirilmesini destekler.
 
@@ -22,15 +22,15 @@ Aspose.Cells, Java Web Uygulaması veya Java Masaüstü Uygulaması olsun, her t
 
 Aspose.Cells, yerel Excel dosyaları oluşturma veya okuma gibi ortak özellikleri desteklemenin yanı sıra, Excel dosyalarını akışlara kaydetme ve akışlardan açma, çıktıyı bir istemci tarayıcısına gönderme, verileri içe ve dışa aktarma gibi birçok gelişmiş özellik sunar.**Sonuç kümesi** veya bir**Dizi**, API aracılığıyla görüntüleri ve çizelgeleri içe aktarma, görüntüleri ve çizelgeleri oluşturma, bir tasarımcı elektronik tablosundan formülleri içe aktarma ve API aracılığıyla sayfa düzenini yapılandırma.
 
-Ayrıca, geliştiricilerin yalnızca Aspose.Cells'de bulabilecekleri, CSV ve SpreadsheetML formatlarını desteklemek, mevcut bir çalışma sayfasının kopyasını (tüm içeriği, resimleri ve çizelgeleri vb. ile birlikte) bir dosyaya eklemek gibi bir dizi benzersiz özellik de vardır. API'e kadar grafikler için gradyan arka planı ayarlama, API'e kadar yorumlar, otomatik filtreler ve sayfa sonları oluşturma, karmaşık formüller ayarlama, koşullu biçimlendirmeyi destekleme, Microsoft Excel XP veya sonraki sürümlerde sunulan koruma seçeneklerini destekleme, adlandırılmış aralıkları değiştirme, API'leri bulma, özel grafiği destekleme API ve formül hesaplama motoru vb.
+Ayrıca, geliştiricilerin yalnızca Aspose.Cells'de bulabilecekleri, örneğin CSV ve SpreadsheetML biçimlerinin desteği, mevcut bir çalışma sayfasının kopyasını (tüm içeriği, resimleri ve çizelgeleri vb. ile birlikte) bir dosyaya ekleme gibi bir dizi benzersiz özellik de vardır. API'e kadar grafikler için gradyan arka planı ayarlama, API'e kadar yorumlar, otomatik filtreler ve sayfa sonları oluşturma, karmaşık formüller ayarlama, koşullu biçimlendirmeyi destekleme, Microsoft Excel XP veya sonraki sürümlerde sunulan koruma seçeneklerini destekleme, adlandırılmış aralıkları değiştirme, API'leri bulma, özel grafiği destekleme API ve formül hesaplama motoru vb.
 ## **Belge Özellikleri**
 - Farklı kaynaklardan Düz veya Şifreli Excel dosyalarını (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) açın
-- Farklı kaynaklardan (Apple'ın "Numbers" uygulaması tarafından oluşturulan) Düz Sayılar dosyalarını açın
-- Excel dosyalarını (Excel97- Excel2007/2010/2013/2016/2019) farklı formatlarda (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Sekmeyle Ayrılmış/TSV, HTML vb.) kaydedin.
+- Farklı kaynaklardan Açık Düz Numbers dosyaları (Apple'ın "Numbers" uygulaması tarafından oluşturulmuştur)
+- Save Excel files (Excel97- Excel2007/2010/2013/2016/2019) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
 - Excel dosyasını PDF belgesine dönüştürün
 - Excel elektronik tablosunu XPS belgesine dönüştürün
 -  Etiketli Görüntü Dosyası Biçimine Dönüştür**(TIFF)**
--  Oku ve yaz**OpenDocument Elektronik Tablosu (ODS)** biçim
+-  Oku ve yaz**OpenDocument Elektronik Tablosu (ODS )** biçim
 - Excel dosyalarının belge özelliklerini değiştirme
 ## **Çalışma Sayfası Özellikleri**
 ### **Görüntüleme seçenekleri**
@@ -82,8 +82,8 @@ Ayrıca, geliştiricilerin yalnızca Aspose.Cells'de bulabilecekleri, CSV ve Spr
 - Kolayca farklı türde grafikler oluşturun
 -  Özelleştirme**grafikler** özellikleri ayarlayarak
 -  Ayarlamak**çizelgeler için veri** dinamik olarak
--  Ekle**özel çizelgeler** çalışma sayfalarına
--  Ekle**resimler** çalışma zamanında çalışma sayfalarına
+-  Eklemek**özel çizelgeler** çalışma sayfalarına
+-  Eklemek**resimler** çalışma zamanında çalışma sayfalarına
 - Hücrelere yorum oluşturma ve ekleme
 - Grafiği resim dosyasına dönüştür
 - Çalışma sayfasını görüntü dosyasına dönüştürün

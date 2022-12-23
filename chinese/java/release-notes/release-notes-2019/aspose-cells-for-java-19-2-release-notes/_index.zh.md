@@ -19,7 +19,7 @@ url: /zh/java/aspose-cells-for-java-19-2-release-notes/
 |CELLSJAVA-42815|添加对已定义名称的复杂引用会导致 MS Excel 工作簿损坏|漏洞|
 |CELLSJAVA-42822|Cell.getValidationValue 返回指定值的错误值|漏洞|
 |CELLSJAVA-42829|共享公式中的自定义函数名称替换为另一个名称|漏洞|
-|CELLSJAVA-42824|Excel 到 PDF/A 转换中的图表缺少轴标题和其他格式错误|漏洞|
+|CELLSJAVA-42824|Excel 中的图表缺少轴标题和其他格式错误到 PDF/A 转换|漏洞|
 |CELLSJAVA-42814|PNG 输出中的箭头与 Excel 图表中的箭头不匹配|漏洞|
 |CELLSJAVA-42777|使用自动调整行操作时更改了错误的行高|漏洞|
 |CELLSJAVA-42813|工作簿设置“ReCalculateOnOpen”未保留|漏洞|

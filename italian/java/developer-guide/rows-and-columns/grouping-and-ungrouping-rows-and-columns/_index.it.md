@@ -5,7 +5,7 @@ weight: 40
 url: /it/java/grouping-and-ungrouping-rows-and-columns/
 ---
 ## **introduzione**
-In un file Microsoft Excel, puoi creare una struttura per i dati per mostrare e nascondere i livelli di dettaglio con un solo clic del mouse.
+In un file Excel Microsoft, puoi creare una struttura per i dati per mostrare e nascondere i livelli di dettaglio con un solo clic del mouse.
 
  Clicca il**Simboli di contorno**, 1,2,3, + e - per visualizzare rapidamente solo le righe o le colonne che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro, oppure è possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o intestazione come mostrato di seguito nella figura :
 
@@ -13,7 +13,7 @@ In un file Microsoft Excel, puoi creare una struttura per i dati per mostrare e 
 
 ![cose da fare:immagine_alt_testo](grouping-and-ungrouping-rows-and-columns_1.png)
 ## **Gestione di gruppo di righe e colonne**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)raccolta che rappresenta tutte le celle del foglio di lavoro.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)raccolta che rappresenta tutte le celle del foglio di lavoro.
 
  Il[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro, alcuni di questi sono discussi di seguito in modo più dettagliato.
 ### **Raggruppamento di righe e colonne**

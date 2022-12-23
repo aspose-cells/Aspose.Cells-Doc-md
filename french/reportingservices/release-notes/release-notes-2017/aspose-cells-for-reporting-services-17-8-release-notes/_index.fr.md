@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-503|Numéro de ligne perdu lors de l'enregistrement du fichier de définition de rapport avec le client Aspose.Cells for Reporting Services|Punaise|
 |CELLSRS-504|Options de format d'exportation manquantes dans Aspose.Cells pour le complément RS Excel|Punaise|

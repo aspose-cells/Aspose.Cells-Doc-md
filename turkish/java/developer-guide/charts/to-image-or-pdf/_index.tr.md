@@ -7,13 +7,13 @@ url: /tr/java/chart-rendering/
 ---
 ## **Grafik Oluşturma**
 
- Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/java/creating-and-customizing-charts/)Grafikleri resim ve PDF formatında işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
+ Aspose.Cells API'ler, konu altında ayrıntılı olarak açıklandığı gibi çeşitli Excel grafikleri oluşturmayı destekler[Excel Grafikleri Oluşturma ve Özelleştirme](/cells/tr/java/creating-and-customizing-charts/). Grafikleri görüntü & PDF biçiminde işlemek için Aspose.Cells API'lerinin kullanımını göstermek için, aşağıdaki parçacığa göre Sütun türünde bir grafik oluşturacağız.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **Oluşturma Grafikleri**
 
- Aspose.Cells API'ler, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Render desteği sağlamak için,[**Çizelge**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**topdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) uygulama gereksinimlerine en iyi şekilde uyacak aşırı yükleme verisine sahip yöntemler.
+ Aspose.Cells API'leri, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Render desteği sağlamak için,[**Çizelge**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**topdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) uygulama gereksinimlerine en iyi şekilde uyacak aşırı yükleme verisine sahip yöntemler.
 
 ### **Grafikleri Görüntülere Dönüştürme**
 
@@ -25,9 +25,9 @@ Grafikleri gelişmiş ayarlarla görüntülere dönüştürmek de mümkündür. 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Grafiği PDF'e Dönüştürme**
+### **Tabloyu PDF'e Oluşturma**
 
- Grafiği PDF formatına dönüştürmek için Aspose.Cells API'leri[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) elde edilen PDF'yi disk yolunda veya bir OutputStream örneğinde saklama yeteneğine sahip yöntem.
+ Grafiği PDF biçimine dönüştürmek için Aspose.Cells API'leri[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) elde edilen PDF'i disk yolunda veya bir OutputStream örneğinde saklama yeteneğine sahip yöntem.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -35,7 +35,7 @@ Grafikleri gelişmiş ayarlarla görüntülere dönüştürmek de mümkündür. 
 
  Şu anda işleme için desteklenmeyen birkaç grafik türü vardır. Bu tür grafik türleri şunları içerir:** içinde N****Aşağıdaki tablonun desteklenen** sütunu.
 
-|**Grafik türü**|**Grafik alt türü**|**desteklenen**|
+|**Grafik tipi**|**Grafik alt türü**|**desteklenen**|
 |:- |:- |:- |
 |**Kolon**|Kolon|**e**|
 ||SütunYığılmış|**e**|
@@ -44,7 +44,7 @@ Grafikleri gelişmiş ayarlarla görüntülere dönüştürmek de mümkündür. 
 ||Sütun3DSığılmış|**e**|
 ||Sütun3D100YığılmışYüzde|**e**|
 ||Sütun3D|**e**|
-|**Çubuk**|Çubuk|**e**|
+|**Bar**|Bar|**e**|
 ||Çubuk Yığılmış|**e**|
 ||Bar100YığılmışYüzde|**e**|
 ||Bar3Dkümelenmiş|**e**|
@@ -121,12 +121,12 @@ Grafikleri gelişmiş ayarlarla görüntülere dönüştürmek de mümkündür. 
 
 {{% alert color="primary" %}}
 
-Desteklenmeyen grafik türlerini görüntüye veya PDF'ye dönüştürmeye çalışırsanız, 0 boyutlu görüntüler veya boş PDF ile karşılaşabilirsiniz.
+Desteklenmeyen grafik türlerini resim veya PDF'e dönüştürmeye çalışırsanız, 0 boyutlu resimler veya boş PDF ile sonuçlanabilirsiniz.
 
 {{% /alert %}}
 
 
 ## **ileri konular**
-- [Grafiği SVG Formatında Görüntüye Dönüştürme](/cells/tr/java/converting-chart-to-image-in-svg-format/)
-- [İstenen Sayfa Boyutuyla Grafik PDF Oluşturun](/cells/tr/java/create-chart-pdf-with-desired-page-size/)
-- [Grafiği viewBox özniteliğiyle SVG'ye aktar](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Grafiği SVG Formatında Resme Dönüştürme](/cells/tr/java/converting-chart-to-image-in-svg-format/)
+- [İstenilen Sayfa Boyutuyla Grafik PDF Oluşturun](/cells/tr/java/create-chart-pdf-with-desired-page-size/)
+- [Grafiği viewBox özniteliğiyle SVG'e aktarın](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)

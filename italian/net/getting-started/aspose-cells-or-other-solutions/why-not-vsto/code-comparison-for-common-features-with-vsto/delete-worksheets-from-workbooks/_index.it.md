@@ -23,5 +23,5 @@ Puoi eliminare qualsiasi foglio di lavoro in una cartella di lavoro. Per elimina
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scarica**
+## **Scaricamento**
 - [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/DeleteWorksheetsFromWorkbooks.zip)

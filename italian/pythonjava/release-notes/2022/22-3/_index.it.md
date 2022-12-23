@@ -10,28 +10,28 @@ url: /it/python-java/aspose-cells-for-python-via-java-22-3-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44369| l'altezza della forma non è corretta|
 |CELLSJAVA-44366|Copiare il contenuto del foglio in una nuova pagina del foglio e salvarlo come html causa uno stile anomalo della formula matematica di Excel|
 |CELLSJAVA-44408|Il formato percentuale di Cell viene perso quando espandiamo quelle 2 righe che abbiamo modificato|
-|CELLSJAVA-44341|La larghezza Cell non è corretta nell'output DOCX nella conversione da Excel a DOCX|
+|CELLSJAVA-44341|La larghezza Cell non è corretta nell'output DOCX in Excel alla conversione DOCX|
 |CELLSJAVA-44383|La formattazione condizionale ha smesso di funzionare dopo l'aggiunta di proprietà personalizzate|
 |CELLSJAVA-44370|Il file Excel viene danneggiato quando viene aperto e salvato con Aspose.Cells|
-|CELLSJAVA-44344| Problema con la copia orizzontale degli intervalli nell'output XLSX|
+|CELLSJAVA-44344|Problema con la copia orizzontale degli intervalli nell'output XLSX|
 |CELLSJAVA-44363| l'altezza dell'intestazione della riga non corrisponde al contenuto della riga nel file con freezepane|
 |CELLSJAVA-44349|l'immagine/forma deve essere conservata dopo il riavvio del server per GridWeb|
 |CELLSJAVA-44367|Il colore dell'istogramma diventa bianco durante la conversione in html|
 |CELLSJAVA-44328| Alcune etichette dati dei grafici Excel vengono perse durante il salvataggio del file Excel come HTML|
-|CELLSJAVA-44193|L'angolo degli elementi dell'asse delle categorie nel grafico è diverso nella conversione da Excel a PDF|
+|CELLSJAVA-44193|L'angolo degli elementi dell'asse delle categorie nel grafico è diverso in Excel rispetto alla conversione PDF|
 |CELLSJAVA-44314|Etichette dell'asse delle categorie del grafico errate nel rendering dal grafico all'immagine|
 |CELLSJAVA-44332|Cell la sottolineatura del collegamento non può essere rimossa quando si converte xlsx in html|
 |CELLSJAVA-44323|Eccezione durante l'aggiunta della riga della firma|
 |CELLSJAVA-44361|CellsException sollevata durante la conversione di xlsx in html|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il valore predefinito di HtmlSaveOptions.ExcludeUnusedStyles.**
 

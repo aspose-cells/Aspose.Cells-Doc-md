@@ -21,7 +21,7 @@ url: /es/java/developer-guide/
         <ul>
             <li><a href="/cells/es/java/opening-files-with-different-formats/">Apertura de archivos con diferentes formatos</a></li>
             <li><a href="/cells/es/java/get-warnings-while-loading-excel-file/">Recibe advertencias al cargar un archivo de Excel</a></li>
-            <li><a href="/cells/es/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lea la hoja de cálculo de números desarrollada por Apple Inc. usando Aspose.Cells</a></li>
+            <li><a href="/cells/es/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells</a></li>
         </ul>
         <p>Ahorrar</p>
         <ul>
@@ -31,16 +31,16 @@ url: /es/java/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">
-	   <p>Impresión</p>
+	   <p>Imprimir</p>
         <ul>
-            <li><a href="/cells/es/java/specify-job-or-document-name-while-printing-with-aspose-cells/">Impresión</a></li>
+            <li><a href="/cells/es/java/specify-job-or-document-name-while-printing-with-aspose-cells/">Imprimir</a></li>
             <li><a href="/cells/es/java/rendering-and-printing/">Renderizado e Impresión</a></li>
         </ul>
         <p>Exportar</p>
         <ul>
             <li><a href="/cells/es/java/converting-workbook-to-different-formats/">Convertir libro de trabajo a diferentes formatos</a></li>
-            <li><a href="/cells/es/java/convert-excel-workbook-to-pdf/">Convertir libro de trabajo de Excel a PDF</a></li>
-            <li><a href="/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convierta un archivo de Excel a formato PDF compatible con PDFA-1a</a></li>
+            <li><a href="/cells/es/java/convert-excel-workbook-to-pdf/">Convertir libro de Excel a PDF</a></li>
+            <li><a href="/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convierta el archivo de Excel al formato PDF compatible con PDFA-1a</a></li>
             <li><a href="/cells/es/java/converting-worksheet-to-different-image-formats/">Conversión de hoja de trabajo a diferentes formatos de imagen</a></li>
             <li><a href="/cells/es/java/track-document-conversion-progress/">Seguimiento del progreso de la conversión de documentos</a></li>
             <li><a href="/cells/es/java/convert-excel-to-html-with-tooltip/">Convierta Excel a HTML con información sobre herramientas</a></li>
@@ -69,7 +69,7 @@ url: /es/java/developer-guide/
 		 <li><a href="/cells/es/java/data-formatting/">Número</a></li>
 		 <li><a href="/cells/es/java/dealing-with-font-settings/">Alineación</a></li>
 		 <li><a href="/cells/es/java/fonts/">Fuente</a></li>
-		 <li><a href="/cells/es/java/cells-formatting/#adding-borders-to-cells">Borde</a></li>
+		 <li><a href="/cells/es/java/cells-formatting/#adding-borders-to-cells">Frontera</a></li>
 		 <li><a href="/cells/es/java/cells-formatting/#colors-and-background-patterns">Llenar</a></li>
 		 <li><a href="/cells/es/java/dealing-with-font-settings/">Tratar con la configuración de fuentes</a></li>
 		 <li><a href="/cells/es/java/change-cells-alignment-and-keep-existing-formatting/">Cambiar la alineación Cells y mantener el formato existente</a></li>
@@ -82,7 +82,7 @@ url: /es/java/developer-guide/
         </ul>       
     </div>
     <div class="col-md-6">        
-        <p>Clasificar</p>
+        <p>Tipo</p>
         <ul>
 		 <li><a href="/cells/es/java/data-sorting/">Clasificación de datos</a></li>
          <li><a href="/cells/es/java/sort-data-in-column-with-custom-sort-list/">Ordenar datos en columna con lista de ordenación personalizada</a></li>
@@ -121,7 +121,7 @@ url: /es/java/developer-guide/
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/es/java/managing-pictures">Imagen</a></p>
+        <p><a href="/cells/es/java/managing-pictures">Fotografía</a></p>
         <ul>
             <li><a href="/cells/es/java/insert-a-linked-picture-from-web-address/">Insertar una imagen vinculada desde una dirección web</a></li>
             <li><a href="/cells/es/java/insert-a-picture-based-on-cell-reference/">Insertar una imagen basada en la referencia Cell</a></li>
@@ -142,7 +142,7 @@ url: /es/java/developer-guide/
 		    <p>Enlaces</p>
         <ul>
             <li><a href="/cells/es/java/working-with-hyperlinks-to-link-data/">Trabajar con hipervínculos para vincular datos</a></li>
-            <li><a href="/cells/es/java/add-image-hyperlinks/">Agregar hipervínculos de imágenes</a></li>
+            <li><a href="/cells/es/java/add-image-hyperlinks/">Agregar hipervínculos de imagen</a></li>
             <li><a href="/cells/es/java/editing-hyperlinks-of-worksheet/">Edición de hipervínculos de la hoja de trabajo</a></li>
         </ul>
         <p>Comentarios</p>
@@ -157,7 +157,7 @@ url: /es/java/developer-guide/
             <li><a href="/cells/es/java/extract-text-from-the-gear-type-smartart-shape/">Extraiga texto de la forma SmartArt de tipo de engranaje</a></li>
             <li><a href="/cells/es/java/convert-the-smart-art-to-group-shape/">Convierta el arte inteligente en forma de grupo</a></li>
         </ul>
-         <p><a href="/cells/es/java/charts/">Cuadro</a></p>
+         <p><a href="/cells/es/java/charts/">Gráfico</a></p>
 		  <ul>
             <li><a href="/cells/es/java/creating-and-customizing-charts/">Creación y personalización de gráficos</a></li>
 			<li><a href="/cells/es/java/create-pivot-tables-and-pivot-charts/">Crear tablas dinámicas y gráficos dinámicos</a></li>
@@ -276,9 +276,9 @@ url: /es/java/developer-guide/
         <ul>
 		 <li><a href="/cells/es/java/reading-and-writing-query-table-of-worksheet/">Tabla de consulta de lectura y escritura de la hoja de trabajo</a></li>
         </ul>
-        <p>Clasificar</p>
+        <p>Tipo</p>
         <ul>
-         <li><a href="/cells/es/java/data-sorting/">Clasificar</a></li>
+         <li><a href="/cells/es/java/data-sorting/">Tipo</a></li>
           <li><a href="/cells/es/java/specifying-sort-warning-while-sorting-data/">Especificación de advertencia de ordenación al ordenar datos</a></li>
         </ul>
          <p>Filtrar</p>
@@ -295,7 +295,7 @@ url: /es/java/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Esquema</p>
+        <p>Describir</p>
         <ul>
 		<li><a href="/cells/es/java/creating-subtotals/">Creación de subtotales</a></li>
         </ul>
@@ -337,7 +337,7 @@ url: /es/java/developer-guide/
         <ul>
          <li><a href="/cells/es/java/worksheet-views/#page-break-preview">La previsualización del salto de página</a></li>
         </ul>
-        <p>Espectáculo</p>
+        <p>Show</p>
          <ul>
 		<li><a href="/cells/es/java/show-and-hide-elements/">Mostrar y ocultar elementos</a></li>
         </ul>

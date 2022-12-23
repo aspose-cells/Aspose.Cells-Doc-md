@@ -41,7 +41,7 @@ chart.setPivotSource("PivotTable!PivotTable1");
 chart.setHidePivotFieldButtons(false);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
@@ -49,6 +49,6 @@ chart.setHidePivotFieldButtons(false);
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء الجداول المحورية والمخططات المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
+ لمزيد من التفاصيل ، قم بزيارة[إنشاء جداول محورية ومخططات محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

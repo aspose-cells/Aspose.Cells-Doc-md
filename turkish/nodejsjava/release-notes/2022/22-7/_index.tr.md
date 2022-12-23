@@ -14,20 +14,20 @@ url: /tr/nodejs-java/aspose-cells-for-node-js-via-java-22-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|PivotField'i hesaplanan alan aracılığıyla sıralamayı destekler|
 |CELLSJAVA-44733|Bitişik sütun gizlendiğinde hücrenin kenarlığını görüntülemek için ms excel kurallarını araştırın: hücrenin sınırı senkronize edilmedi|
-|CELLSJAVA-44695| Sayfanın solunda Satır Bilgisi bulunan XLS'den PDF'ye hatalı dönüştürme|
+|CELLSJAVA-44695| Sayfanın solunda Satır Bilgisi ile XLS'den PDF'e hatalı dönüştürme|
 |CELLSJAVA-44700|Pivot tablo hesaplanan alanları, veri kaynağı güncellenirken yenilenmiyor|
 |CELLSJAVA-44705|Cell.getDependents() İstisna atar veya tüm bağımlıları sağlayamaz|
 |CELLSJAVA-44717|Kenarlık (çizgi) stiliyle ilgili sorun|
 |CELLSJAVA-44707| sınır çizgisi görüntülenmiyor|
-|CELLSJAVA-44670| Çıktı HTML'sindeki Formüllerle ilgili sorun - Excel'den HTML'ye dönüştürme|
-|CELLSJAVA-44202|HTML'ye dışa aktarırken, grafikteki açıklama MS Excel ile aynı değil|
+|CELLSJAVA-44670| HTML çıktısındaki Formüllerle ilgili sorun - Excel'den HTML'e dönüştürme|
+|CELLSJAVA-44202|HTML'e dışa aktarırken tablodaki açıklama MS Excel ile aynı değil|
 |CELLSJAVA-44591|Etiketlerin metin döndürmesi, grafiğin çıktı görüntüsündeki Excel ile eşleşmiyor|
 |CELLSJAVA-44655|Negatif değere sahip Ağaç Haritası grafiği görüntülenemiyor, yürütmenin çalışmaya devam etmesine neden oluyor|
 |CELLSJAVA-44686|Chart(2016) başlık metni, Title.IsAutoText doğru olduğunda yanlıştır|
 |CELLSJAVA-44689|Regresyon: Şelale grafiği açıklama dili sorunu|
 |CELLSJAVA-44687|Dosyaları birleştirme sırasında grafik sorunu|
 |CELLSJAVA-44736|Sayfa kopyalanırken tablo stili kayboldu|
-|CELLSJAVA-44725| XLSX'i PDF'ye dönüştürürken "java.util.zip.ZipException: geçersiz giriş boyutu (0 bekleniyor ancak 1053 bayt var)" istisnası|
+|CELLSJAVA-44725| XLSX'i PDF'e dönüştürürken "java.util.zip.ZipException: geçersiz giriş boyutu (0 bekleniyor ancak 1053 bayt var)" istisnası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

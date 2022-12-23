@@ -5,7 +5,7 @@ weight: 240
 url: /ja/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
 ## **考えられる使用シナリオ**
-Aspose.Cells は[シェイプ.グロー](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow)プロパティと一緒に[グローエフェクト](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)シェイプまたはチャートのグロー効果を操作するクラス。の[グローエフェクト](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)クラスには、アプリケーションの要件ごとに異なる結果を達成するために設定できる次のプロパティが含まれています。
+Aspose.Cells は[シェイプ.グロー](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow)プロパティと一緒に[グロー効果](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)シェイプまたはチャートのグロー効果を操作するクラス。の[グロー効果](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)クラスには、アプリケーションの要件ごとに異なる結果を達成するために設定できる次のプロパティが含まれています。
 
 - [GlowEffect.Size](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
 - [GlowEffect.透明度](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)

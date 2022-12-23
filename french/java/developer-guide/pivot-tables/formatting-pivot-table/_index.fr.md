@@ -10,7 +10,7 @@ url: /fr/java/formatting-pivot-table/
 
 ### **Définition des options de format de tableau croisé dynamique**
 
- La[**Tableau croisé dynamique**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) La classe vous permet de définir diverses options de formatage pour un tableau croisé dynamique.
+ Le[**Tableau croisé dynamique**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) La classe vous permet de définir diverses options de formatage pour un tableau croisé dynamique.
 
 #### **Définition des types AutoFormat et PivotTableStyle**
 
@@ -74,7 +74,7 @@ L'exemple de code ci-dessous montre comment effacer tous les champs de pivot dan
 - [**ConsolidationFunction.VARConsolidationFunction.VAR**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VAR)
 - [**ConsolidationFunction.VARP**](https://reference.aspose.com/cells/java/com.aspose.cells/consolidationfunction#VARP)
 
- Le code suivant s'applique**Moyen** fonction de consolidation au premier champ de données (ou champ de valeur) et**DistinctCount** fonction de consolidation au deuxième champ de données (ou champ de valeur).
+ Le code suivant s'applique**Moyenne** fonction de consolidation au premier champ de données (ou champ de valeur) et**DistinctCount** fonction de consolidation au deuxième champ de données (ou champ de valeur).
 
 {{% alert color="primary" %}}
 

@@ -30,7 +30,7 @@ url: /fr/java/aspose-cells-for-java-2-4-0-release-notes/
 
  Problèmes résolus dans Aspose.Cells for Java v2.4.0
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |15192 | PDF| Utilisez direct xls2pdf au lieu de xsl2pdf avec Aspose.Pdf|
 |18628 | Xls| Copier des cellules|

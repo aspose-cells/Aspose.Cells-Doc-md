@@ -14,6 +14,6 @@ A volte si desidera visualizzare il testo nel carattere della lingua dell'Estrem
 
 ![cose da fare:immagine_alt_testo](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "DrawingObjects-SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.cs" >}}

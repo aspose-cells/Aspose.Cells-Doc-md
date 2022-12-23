@@ -22,7 +22,7 @@ url: /zh/net/what-is-a-designer-spreadsheet/
 
 |**设计师电子表格**|
 |:- |
-|![待办事项：图像_替代_文本](what-is-a-designer-spreadsheet_1.png)|
+|![待办事项：图片_替代_文本](what-is-a-designer-spreadsheet_1.png)|
 例如，您可以从下载示例项目[这里](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
 
 ### **如何使用它？**

@@ -14,7 +14,7 @@ url: /zh/java/aspose-cells-for-java-8-4-0-release-notes/
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-41198) - 从 Excel 文件中提取主题数据
 (CELLSJAVA-41185) - 生成数据栏图像
@@ -47,8 +47,8 @@ url: /zh/java/aspose-cells-for-java-8-4-0-release-notes/
 例外情况
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException：未知区域，位于 PivotTable.refreshData
-(CELLSJAVA-41192) - 打开 XLS 文件时出现异常：“java.lang.Exception：到达流结束”
-(CELLSJAVA-41228) - 加载 XLS 时 Workbook ctor 出现 java.lang.ArrayIndexOutOfBoundsException
+(CELLSJAVA-41192) - 打开 XLS 文件时出现异常：“java.lang.Exception：到达流的结尾”
+(CELLSJAVA-41228) - 加载 XLS 时工作簿 ctor 出现 java.lang.ArrayIndexOutOfBoundsException
 (CELLSJAVA-41211) - 使用 Workbook.setFileName() 设置文件名时解析公式引用时发生异常
 
 \2) Aspose.Cells 网格套件

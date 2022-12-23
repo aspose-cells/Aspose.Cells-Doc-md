@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells'i kullanarak Çalışma Kitabını Metin veya CSV Biçiminde Kaydetme
+title: Aspose.Cells'i kullanarak Çalışma Kitabını Metne veya CSV Formatına Kaydet
 type: docs
 weight: 80
 url: /tr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), varsayılan olarak hem Microsoft Excel hem de Aspose.Cells yalnızca etkin çalışma sayfasının içeriğini kaydeder.
+Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), hem Microsoft Excel hem de Aspose.Cells varsayılan olarak yalnızca etkin çalışma sayfasının içeriğini kaydeder.
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ Aşağıdaki kod örneği, tüm çalışma kitabının metin biçiminde nasıl k
 
 Kod yürütüldüğünde, çalışma kitabındaki tüm sayfaların verilerini TXT biçimine dönüştürür.
 
-Dosyanızı CSV'ye kaydetmek için aynı örneği değiştirebilirsiniz. Varsayılan olarak, TxtSaveOptions.Separator virgüldür, bu nedenle CSV biçiminde kaydediyorsanız ayırıcı belirtmeyin.
+Dosyanızı CSV'e kaydetmek için aynı örneği değiştirebilirsiniz. Varsayılan olarak, TxtSaveOptions.Separator virgüldür, bu nedenle CSV biçiminde kaydediyorsanız ayırıcı belirtmeyin.
 
 **C#**
 
@@ -22,9 +22,9 @@ Dosyanızı CSV'ye kaydetmek için aynı örneği değiştirebilirsiniz. Varsay�
 
 string FilePath = @"..\..\..\Örnek Dosyalar\";
 
-string FileName = FilePath + "Çalışma Kitabını Metne veya CSV Formatına Kaydet.xlsx";
+string FileName = FilePath + "Çalışma Kitabını Metne veya CSV Format.xlsx'e Kaydet";
 
-string destFileName = FilePath + "Çalışma Kitabını Metne veya CSV Formatına.txt Olarak Kaydet";
+string destFileName = FilePath + "Çalışma Kitabını Metne veya CSV Format.txt'ye Kaydet";
 
 //Kaynak çalışma kitabınızı yükleyin
 

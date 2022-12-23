@@ -102,7 +102,7 @@ För att ta bort cellen/cellerna använder du följande kodrader för VSTO (C#) 
   rng.UnMerge(0, 0, 1, 3);
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/Merge.or.UnMerge.Cells.in.a.Worksheet.Aspose.Cells.zip)
 - [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Cells%20Vs%20VSTO%20Excel/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).zip/download)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Merge%20or%20UnMerge%20Cells%20in%20a%20Worksheet%20\(Aspose.Cells\).blixtlås)

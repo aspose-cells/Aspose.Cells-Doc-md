@@ -10,7 +10,7 @@ url: /ar/java/managing-controls/
 
 ## **إضافة عنصر تحكم مربع نص إلى ورقة العمل**
 
-تتمثل إحدى طرق التأكيد على المعلومات المهمة في التقرير في استخدام مربع نص. على سبيل المثال ، أضف نصًا لتمييز اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات وما إلى ذلك. يوفر Aspose.Cells فئة TextBoxes ، المستخدمة لإضافة مربع نص جديد إلى المجموعة. هناك فئة أخرى ،[**مربع الكتابة**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)، والذي يمثل مربع نص يستخدم لتحديد جميع أنواع الإعدادات. لها بعض الأعضاء المهمين:
+ تتمثل إحدى طرق التأكيد على المعلومات المهمة في التقرير في استخدام مربع نص. على سبيل المثال ، أضف نصًا لتمييز اسم الشركة أو للإشارة إلى المنطقة الجغرافية ذات أعلى مبيعات وما إلى ذلك. يوفر Aspose.Cells فئة TextBoxes ، المستخدمة لإضافة مربع نص جديد إلى المجموعة. هناك فئة أخرى ،[**مربع الكتابة**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)، والذي يمثل مربع نص يستخدم لتحديد جميع أنواع الإعدادات. لها بعض الأعضاء المهمين:
 
 -  ال[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) طريقة إرجاع أ[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) كائن يستخدم لضبط محتويات مربع النص.
 -  ال[**وضع**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) طريقة تحديد نوع الموضع.
@@ -18,7 +18,7 @@ url: /ar/java/managing-controls/
 -  ال[**add ارتباط تشعبي**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) يضيف أسلوب ارتباط تشعبي لمربع النص.
 -  ال[**ملء**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) إرجاع الممتلكات[**تنسيق MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) المستخدم لتعيين تنسيق التعبئة لمربع النص.
 -  ال[**تنسيق الخط**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) خاصية إرجاع ال[**تنسيق MsoLine**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) عادةً ما يتم استخدام الكائن في نمط سطر مربع النص ووزنه.
--  ال[**نص مجموعة**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)الأسلوب يحدد نص الإدخال لمربع النص.
+-  ال[**نص مجموعة**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) الأسلوب يحدد نص الإدخال لمربع النص.
 
 يقوم المثال التالي بإنشاء مربعين نصيين في ورقة العمل الأولى من المصنف. تم تجهيز مربع النص الأول جيدًا بإعدادات تنسيق مختلفة. والثاني بسيط.
 
@@ -40,7 +40,7 @@ url: /ar/java/managing-controls/
 
 ## **إضافة عنصر تحكم CheckBox إلى ورقة العمل**
 
-تكون خانات الاختيار سهلة الاستخدام إذا كنت تريد توفير طريقة للمستخدم للاختيار بين خيارين ، مثل صواب أو خطأ ؛ نعم ام لا. Aspose.Cells يسمح لك باستخدام مربعات الاختيار في أوراق العمل. على سبيل المثال ، ربما تكون قد طورت ورقة عمل الإسقاط المالي حيث يمكنك إما حساب عملية استحواذ معينة أم لا. في هذه الحالة ، قد ترغب في وضع خانة اختيار أعلى ورقة العمل. يمكنك بعد ذلك ربط حالة خانة الاختيار هذه بخلية أخرى ، بحيث إذا تم تحديد خانة الاختيار ، فإن قيمة الخلية هي True ؛ إذا لم يتم تحديدها ، فإن قيمة الخلية هي False.
+تكون خانات الاختيار سهلة الاستخدام إذا كنت تريد توفير طريقة للمستخدم للاختيار بين خيارين ، مثل صواب أو خطأ ؛ نعم أو لا. Aspose.Cells يسمح لك باستخدام مربعات الاختيار في أوراق العمل. على سبيل المثال ، ربما تكون قد طورت ورقة عمل الإسقاط المالي حيث يمكنك إما حساب عملية استحواذ معينة أم لا. في هذه الحالة ، قد ترغب في وضع خانة اختيار أعلى ورقة العمل. يمكنك بعد ذلك ربط حالة خانة الاختيار هذه بخلية أخرى ، بحيث إذا تم تحديد خانة الاختيار ، فإن قيمة الخلية هي True ؛ إذا لم يتم تحديدها ، فإن قيمة الخلية هي False.
 
 ### **باستخدام Microsoft إكسل**
 

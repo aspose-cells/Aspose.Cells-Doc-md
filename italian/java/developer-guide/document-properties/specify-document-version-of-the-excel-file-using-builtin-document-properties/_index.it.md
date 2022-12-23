@@ -14,6 +14,6 @@ Il codice di esempio seguente crea una cartella di lavoro e ne modifica le propr
 
 ![cose da fare:immagine_alt_testo](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.java" >}}

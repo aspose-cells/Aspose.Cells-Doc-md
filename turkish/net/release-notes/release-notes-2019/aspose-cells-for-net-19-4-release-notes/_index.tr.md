@@ -19,9 +19,9 @@ url: /tr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46656|Zincirleme yorumları destekleyin|Yeni özellik|
 |CELLSNET-46657|Hücreleri kesme ve yapıştırma desteği|Yeni özellik|
 |CELLSNET-46686|Fransızca dili için sayı grubu ayırıcısı olarak beyaz boşluğun (karakter kodu 20) alınmasını destekler|Artırma|
-|CELLSNET-46649|Çevrimiçi araç iLovePDF ile karşılaştırıldığında oluşturulan büyük PDF|Artırma|
+|CELLSNET-46649|Büyük PDF, çevrimiçi araç iLovePDF ile karşılaştırıldığında oluşturuldu|Artırma|
 |CELLSNET-46093|Grafikler, Siyah Beyaz Sayfa Düzenini dikkate almaz|Artırma|
-|CELLSNET-46677|Excel'i PDF'ye dışa aktarmak, Arapça metinleri grafiklerde tam olarak göstermiyor|Artırma|
+|CELLSNET-46677|Excel'i PDF'e dışa aktarmak, Arapça metinleri grafiklerde tam olarak göstermiyor|Artırma|
 |CELLSNET-46639|ODS dosyası için dikey sayfa sonu desteği.|Artırma|
 |CELLSNET-46631|İşleme sırasında OutOfMemoryException istisnası|Verim|
 |CELLSNET-46596|Şekillerde eksik etiketler|Böcek|
@@ -29,12 +29,12 @@ url: /tr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46637|Oluşturulan HTML'deki biçimlendirme hataları|Böcek|
 |CELLSNET-46650|PivotTable.ShowValuesRow programlı olarak yanlış olarak ayarlanmadı|Böcek|
 |CELLSNET-46652|Pivot tablo dilimleyicileri yüklendikten ve kaydedildikten sonra kaldırılır|Böcek|
-|CELLSNET-46678|PivotField.IsRepeatItemLabels, XLSB çıktısında korunmaz|Böcek|
+|CELLSNET-46678|PivotField.IsRepeatItemLabels, XLSB çıkışında korunmuyor|Böcek|
 |CELLSNET-46671|Range.CopyData çalışma kitabını bozduktan sonra Range.Copy|Böcek|
-|CELLSNET-42423|PDF'ye kaydetme, satır verilerini kırpar|Böcek|
-|CELLSNET-45698|Worksheet.AutoFitColumns yöntemi, PDF'ye dönüştürülürken uzun metni keser|Böcek|
-|CELLSNET-46661|Excel 365 ile karşılaştırıldığında PDF'de işlenen daha az sayıda sayfa|Böcek|
-|CELLSNET-46673|Excel'i PDF'ye dönüştürürken Dosya Boyutu sorunu|Böcek|
+|CELLSNET-42423|PDF'e kaydetmek, satır verilerini keser|Böcek|
+|CELLSNET-45698|Worksheet.AutoFitColumns yöntemi, PDF'e işlenirken uzun metni keser|Böcek|
+|CELLSNET-46661|Excel 365 ile karşılaştırıldığında PDF'de işlenen sayfa sayısı daha az|Böcek|
+|CELLSNET-46673|Excel'i PDF'e dönüştürürken Dosya Boyutu sorunu|Böcek|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue beklendiği gibi çalışmıyor|Böcek|
 |CELLSNET-46655|RefreshChartCache = true ile kaydederken kaybolan Çok Düzeyli Kategori Eksen Etiketleri|Böcek|
 |CELLSNET-46665|Yüzey grafiklerinde NSeries.Clear() çağrıldıktan sonra Excel dosyası bozuk|Böcek|
@@ -46,12 +46,12 @@ url: /tr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46651|Excel dosyası açılırken ve kaydedilirken bozuk|Böcek|
 |CELLSNET-46654|WebExtension ekleme desteği|Böcek|
 |CELLSNET-46662|BuiltInDocumentProperties'i alma sorunu|Böcek|
-|CELLSNET-46663|XLS'yi PDF'ye dönüştürürken görüntü boyutu değişti|Böcek|
+|CELLSNET-46663|XLS, PDF'e dönüştürülürken resim boyutu değişti|Böcek|
 |CELLSNET-46667|Gizli satırlar alınırken PlotVisibleRows = true|Böcek|
 |CELLSNET-46668|XLSX, ODS olarak kaydedildiğinde noktalı çizgi düz hale gelir|Böcek|
-|CELLSNET-46669|Şekilden görüntüye Excel dosyası PDF'ye dönüştürülürken hata oluştu|İstisna|
+|CELLSNET-46669|Bir Excel dosyasını PDF olarak işlerken şekil hatası|İstisna|
 |CELLSNET-46645|PivotTable.GetChildrens() çağrılırken özel durum oluştu|İstisna|
-|CELLSNET-46675|Bir XLSX dosyasını açarken istisna|İstisna|
+|CELLSNET-46675|XLSX dosyasını açarken istisna|İstisna|
 |CELLSNET-46646|Grafiği güncelledikten sonra Excel dosyasını açarak ortaya çıkan istisna|İstisna|
 |CELLSNET-46660|Style.ForegroundColor özelliği, belirli senaryolar için bir istisna atar|İstisna|
 |CELLSNET-46688|Stilleri dinamik olarak uygularken ortaya çıkan istisnalar|İstisna|
@@ -90,4 +90,4 @@ Yorumdaki zincirleme açıklamaları temsil eder.
 #### **CommentCollection.AddThreadedComment() ve CommentCollection.GetThreadedComments() yöntemlerini ekleyin.**
 Zincirleme yorumları ekler ve alır.
 #### **Chart.SubTitle özelliğini ekleyin.**
-Grafiğin alt başlığını alır. Yalnızca ODS biçimli dosya için.
+Grafiğin alt başlığını alır. Yalnızca ODS biçim dosyası için.

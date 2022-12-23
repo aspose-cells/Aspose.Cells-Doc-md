@@ -10,8 +10,8 @@ Ibland möter användare System.StackOverFlowException på Workbook.CalculateFor
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Linjers tjocklek problem när Excel renderas till PDF**
-Ibland, när Excel-filen konverteras till PDF, är tjockleken på linjerna annorlunda i den utgående PDF-filen. Det här problemet orsakas inte av Aspose.Cells. Det orsakas av**Adobe läsare** när dess inställningar**"Slät linjekonst"** och**"Förbättra tunna linjer"** är kontrollerade. Om du avmarkerar dessa alternativ visas PDF fint.
+## **Problem med linjernas tjocklek när Excel renderas till PDF**
+Ibland, när Excel-filen konverteras till PDF, är tjockleken på linjerna annorlunda i utdata PDF. Det här problemet orsakas inte av Aspose.Cells. Det orsakas av**Adobe läsare** när dess inställningar**"Slät linjekonst"** och**"Förbättra tunna linjer"** är kontrollerade. Om du avmarkerar dessa alternativ visas PDF fint.
 
  Om kontrollera**"Slät linjekonst"** och**"Förbättra tunna linjer"**, tjockleken på linjer är annorlunda. Se följande steg hur det görs:
 

@@ -6,7 +6,7 @@ url: /ar/java/remove-unused-styles-inside-the-workbook/
 ---
 {{% alert color="primary" %}} 
 
- لا تشغل الأنماط غير المستخدمة في ملف Excel مساحة فحسب ، بل تتسبب أيضًا في حدوث مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF و HTML وما إلى ذلك.[Workbook.removeUnusedStyles ()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)) لإزالة كافة الأنماط غير المستخدمة داخل المصنف.
+ لا تشغل الأنماط غير المستخدمة في ملف Excel مساحة فحسب ، بل تتسبب أيضًا في حدوث مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF ، HTML ، إلخ.[Workbook.removeUnusedStyles ()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#removeUnusedStyles\(\)) لإزالة كافة الأنماط غير المستخدمة داخل المصنف.
 
 {{% /alert %}} 
 ## **إزالة الأنماط غير المستخدمة داخل المصنف**

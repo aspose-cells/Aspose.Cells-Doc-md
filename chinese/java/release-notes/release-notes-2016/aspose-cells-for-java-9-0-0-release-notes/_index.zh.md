@@ -10,13 +10,13 @@ url: /zh/java/aspose-cells-for-java-9-0-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41947 |能够检测 DataPoint 是在 Pie 还是 Bar 中|新功能|
 |CELLSJAVA-41827 |使用 Workbook.calculateFormula() 方法时，电子表格需要超过 3 分钟来计算公式|强化|
-|CELLSJAVA-41969 |Cell 将 HTML 转换为 XLSX 文件格式时缺少底纹|漏洞|
-|CELLSJAVA-41955 |HTML 工作簿在单元格中显示“#”|漏洞|
-|CELLSJAVA-41942 |缺少边框、单元格阴影和图像 - HTML 到 Excel 呈现|漏洞|
-|CELLSJAVA-41967 |Cells 在一张纸中定义多个打印区域时在 PDF 中丢失|漏洞|
+|CELLSJAVA-41969 |将 HTML 转换为 XLSX 文件格式时缺少 Cell 阴影|漏洞|
+|CELLSJAVA-41955 |HTML 的工作簿在单元格中显示“#”|漏洞|
+|CELLSJAVA-41942 |缺少边框、单元格阴影和图像 - HTML 到 Excel 渲染|漏洞|
+|CELLSJAVA-41967 |Cells 在 PDF 中丢失，当多个打印区域在一张表中定义时|漏洞|
 |CELLSJAVA-41958 |右侧图例在图表图像中被截断|漏洞|
 |CELLSJAVA-41953 |转换为 HTML 格式后图表中的文本错位|漏洞|
-|CELLSJAVA-41948 |将电子表格转换为 HTML 时图表发生变化|漏洞|
+|CELLSJAVA-41948 |将电子表格转换为 HTML 时更改图表|漏洞|
 |CELLSJAVA-41981 |图表 PDF 中垂直线的位置不正确|漏洞|
 |CELLSJAVA-41964 |Autofit 不考虑缩进级别|漏洞|
 |CELLSJAVA-40260 |更改 Excel 文件中现有艺术字的文本|漏洞|

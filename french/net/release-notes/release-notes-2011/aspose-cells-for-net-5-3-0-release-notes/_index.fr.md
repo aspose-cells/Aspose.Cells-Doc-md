@@ -23,8 +23,8 @@ url: /fr/net/aspose-cells-for-net-5-3-0-release-notes/
  Ce qui a changé dans Aspose.Cells.GridWeb :
 
 - Prend en charge toutes les fonctionnalités du contrôle dans FireFox.
- Fournit la prise en charge de la conversion d'une collection de liste en objet DataTable.
-Prend en charge la petite fonction/formule.
+Fournit la prise en charge de la conversion d'une collection de liste en objet DataTable.
+ Prend en charge la petite fonction/formule.
  Importe des filtres automatiques dans les fichiers Excel.
  Les performances des scripts clients pour IE sont améliorées.
  Prend en charge l'extension automatique de la ligne/colonne maximale lors du calcul des formules.

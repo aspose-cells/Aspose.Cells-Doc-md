@@ -21,6 +21,6 @@ Aspose.Cells proporciona la misma funcionalidad que Microsoft Excel para agregar
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorkbookScope-AddNamedRangeWithWorkbookScope.java" >}}
 
-## **Adición de un rango con nombre con ámbito de hoja de trabajo**
+## **Adición de un rango con nombre con ámbito de hoja de cálculo**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddNamedRangeWithWorksheetScope-AddNamedRangeWithWorkbookScope.java" >}}

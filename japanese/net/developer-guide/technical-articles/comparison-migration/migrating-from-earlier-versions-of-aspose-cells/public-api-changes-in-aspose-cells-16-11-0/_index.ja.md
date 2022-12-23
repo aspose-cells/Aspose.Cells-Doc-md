@@ -198,7 +198,7 @@ chart.ToImage(dir + "output.png", new ImageOrPrintOptions());
 
 
 ### **CellsFactory クラスを追加**
-Aspose.Cells 16.11.0 は、現在 1 つのメソッドを持つ CellsFactory クラスを公開しました。スタイルを作成します。 CellsFactory.CreateStyle メソッドを使用すると、ブック スタイルのプールに追加せずに Style クラスのインスタンスを作成できます。
+Aspose.Cells 16.11.0 は、現在 1 つのメソッドを持つ CellsFactory クラスを公開しました。スタイルを作成します。 CellsFactory.CreateStyle メソッドを使用して、ブック スタイルのプールに追加せずに Style クラスのインスタンスを作成できます。
 
 CellsFactory.CreateStyle メソッドの簡単な使用シナリオを次に示します。
 

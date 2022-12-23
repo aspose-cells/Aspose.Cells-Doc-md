@@ -10,16 +10,16 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.8.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Disabilita la barra multifunzione della tabella pivot|Nuova caratteristica|
 |CELLSJAVA-42568|Proteggi la cartella di lavoro e il foglio di lavoro nel file ODS|Nuova caratteristica|
 |CELLSJAVA-42677|Problema di interruzione durante il salvataggio del processo di file XLSX|Aumento|
 |CELLSJAVA-42687|Il collegamento ipertestuale non funziona quando viene fatto riferimento da un altro foglio|Aumento|
-|CELLSJAVA-41176|Allineamento errato durante il rendering del foglio di calcolo in formato PDF|Insetto|
-|CELLSJAVA-42676|I dati della tabella sono stati spostati nella riga e nella colonna sbagliate durante la conversione dal formato di file HTML a MS Excel|Insetto|
+|CELLSJAVA-41176|Allineamento errato durante il rendering del foglio di calcolo nel formato PDF|Insetto|
+|CELLSJAVA-42676|Dati della tabella spostati nella riga e nella colonna sbagliate durante la conversione da HTML al formato di file MS Excel|Insetto|
 |CELLSJAVA-41670|La posizione dell'immagine del grafico è errata in Chrome e FireFox durante la conversione in HTML|Insetto|
-|CELLSJAVA-41245|Il controllo Slicer non viene visualizzato durante la conversione di file Excel in formato file HTML|Insetto|
+|CELLSJAVA-41245|Il controllo Slicer non viene visualizzato durante la conversione del file Excel nel formato file HTML|Insetto|
 |CELLSJAVA-42684|La linea verticale al centro del grafico non è disegnata correttamente nell'immagine renderizzata|Insetto|
 |CELLSJAVA-42682|Il colore sfumato per le bolle negative non viene applicato nell'output PDF|Insetto|
 |CELLSJAVA-42681|Titolo della categoria del grafico non mostrato correttamente nell'immagine|Insetto|
@@ -27,14 +27,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.8.
 |CELLSJAVA-42694|Leggi la filigrana dal file Excel|Insetto|
 |CELLSJAVA-42686|Il commento della proprietà contiene testo non necessario|Insetto|
 |CELLSJAVA-42685|Proprietà "numero di revisione" non verificata correttamente|Insetto|
-|CELLSJAVA-41485|Le macro nel file ODS non vengono mantenute nel formato del file ODS generato|Insetto|
-|CELLSJAVA-42691|NegativeArraySizeException durante la conversione di XLSX in HTML|Eccezione|
+|CELLSJAVA-41485|Le macro nel file ODS non vengono mantenute nel formato file ODS generato|Insetto|
+|CELLSJAVA-42691|NegativeArraySizeException durante la conversione da XLSX a HTML|Eccezione|
 |CELLSJAVA-42675|NumberFormatException sollevata durante il caricamento del file HTML nella cartella di lavoro|Eccezione|
 |CELLSJAVA-42689|Eccezione NullPointerException sollevata durante la chiamata a CalculateFormula|Eccezione|
-|CELLSJAVA-42678|Eccezione durante il rendering del foglio di lavoro nel formato di file PNG|Eccezione|
+|CELLSJAVA-42678|Eccezione durante il rendering del foglio di lavoro nel formato file PNG|Eccezione|
 |CELLSJAVA-42411|Errore in Cell: E22-Formula non valida - eccezione all'apertura del file MS Excel|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà PdfSecurityOptions.AccessibilityExtractContent**
 Autorizzazione a copiare o estrarre contenuti (a supporto dell'accessibilità agli utenti disabili o per altri scopi).
 ### **Aggiunge la classe SubtotalSetting**

@@ -12,11 +12,11 @@ url: /es/net/aspose-cells-for-net-20-2-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-47113|Conversión delimitada por tubería/CSV a JSON|Nueva caracteristica|
+|CELLSNET-47113|Conversión delimitada por tubería / CSV a JSON|Nueva caracteristica|
 |CELLSNET-47141|El vínculo entre la tabla dinámica y la conexión externa|Nueva caracteristica|
 |CELLSNET-47135|Aspose.Cells no considera la fórmula/función avanzada TEXTJOIN() como Fórmula|Mejora|
 |CELLSNET-47126|Aspose.Cells elimina "volatileDependencies.xml" del archivo con fórmulas RTD al actualizar el archivo XLSX|Mejora|
-|CELLSNET-47159|Demasiado costo de tiempo para PivotTable.CalculateStyle|Actuación|
+|CELLSNET-47159|Demasiado costo de tiempo para PivotTable.CalculateStyle|Rendimiento|
 |CELLSNET-42065|El porcentaje de pivote calculado previamente se rompe después del pivote.CalculateData()|Insecto|
 |CELLSNET-47102|Se muestra "#" después de convertir Excel a PDF en formato personalizado de tiempo negativo (h: mm)|Insecto|
 |CELLSNET-47118|Valor incorrecto 'VERDADERO' recuperado de Cell en lugar del valor 'FALSO'|Insecto|
@@ -27,17 +27,17 @@ url: /es/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop tarda mucho en cargar archivos de gran tamaño|Insecto|
 |CELLSNET-47043|No se puede seleccionar una celda para la hoja protegida en GridDesktop|Insecto|
 |CELLSNET-47117|Aspose.Cells 20.1 El tipo XAdES no está definido al leer archivos firmados previamente con firmas XAdES|Insecto|
-|CELLSNET-47081|Gráfico de renderizado a PDF|Insecto|
+|CELLSNET-47081|Tabla de renderizado al PDF|Insecto|
 |CELLSNET-47085|El gráfico no se representa correctamente cuando la dirección del texto de las etiquetas de los ejes es 'Apilar'|Insecto|
 |CELLSNET-47112|La conversión de gráfico a imagen falla|Insecto|
-|CELLSNET-47133|Inconsistencia al exportar a PDF|Insecto|
+|CELLSNET-47133|Inconsistencia al exportar al PDF|Insecto|
 |CELLSNET-47107|El objeto de formato condicional da resultados incorrectos para el atributo IsAboveAverage|Insecto|
 |CELLSNET-47114|Workbook RemoveExternalLinks da como resultado un documento roto|Insecto|
 |CELLSNET-47139|El archivo ODS con fórmula de enlace externo muestra hojas de trabajo adicionales|Insecto|
 |CELLSNET-47145|El rango con nombre desaparece después de abrir y guardar el archivo ODS|Insecto|
 |CELLSNET-47146|El archivo no se abre|Insecto|
 |CELLSNET-47147|Problema de nombre de código de hoja|Insecto|
-|CELLSNET-47153|Los gráficos ODS están cambiando después de guardar|Insecto|
+|CELLSNET-47153|ODS los gráficos cambian después de guardar|Insecto|
 |CELLSNET-47157|Número incorrecto de enlaces externos|Insecto|
 |CELLSNET-47164|Propiedad IsItalic detectada de manera diferente a MS Excel|Insecto|
 |CELLSNET-47169|CategoryType.CategoryScale no establecido en el gráfico de ParetoLine|Insecto|

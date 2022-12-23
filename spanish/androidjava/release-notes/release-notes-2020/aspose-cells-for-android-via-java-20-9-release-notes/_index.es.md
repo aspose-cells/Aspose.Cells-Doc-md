@@ -23,12 +23,12 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43219|Agregar una referencia de fórmula a diferentes resultados de hoja en un libro de Excel dañado|Insecto|
 |CELLSJAVA-43232|Problema de la función REDONDEAR|Insecto|
 |CELLSJAVA-43243|No se pudo recuperar la fórmula al cambiar la fórmula de la celda vecina|Insecto|
-|CELLSJAVA-43217|La impresión de XLSX a XPS pierde el formato de fondo|Insecto|
+|CELLSJAVA-43217|Al imprimir XLSX a XPS se pierde el formato de fondo|Insecto|
 |CELLSJAVA-43224|Problema al imprimir en una impresora física|Insecto|
 |CELLSJAVA-43241|Problema con la altura de la línea y el borde al crear una imagen desde el área de Excel|Insecto|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal (true) no genera los resultados esperados al usar SmartMarkers|Insecto|
 |CELLSJAVA-43213|Aspose.Cells 20.6 no funciona bien con los controles de formulario en Office 365 (versión 2005 Build 12827.20268)|Insecto|
-|CELLSJAVA-43214|Al traducir XLS a XLSX, se produce un archivo XLSX roto.|Insecto|
+|CELLSJAVA-43214|Al traducir XLS a XLSX produce un archivo XLSX roto|Insecto|
 |CELLSJAVA-43216|Conversión de XLS a XLSX: se cambia la negrita y el posicionamiento de la fuente para la forma|Insecto|
 |CELLSJAVA-43228|XLS generado está en vista protegida|Insecto|
 |CELLSJAVA-43231|Error en el archivo de salida después de los reemplazos|Insecto|
@@ -37,7 +37,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43240|Saltos de línea no deseados en formas/objetos al convertir Excel a PDF|Insecto|
 |CELLSJAVA-43255|Problema de rendimiento en la conversión de Excel a PDF|Insecto|
 |CELLSJAVA-43250|Las celdas de etiquetas expandidas no se fusionan en SmartMarker|Insecto|
-|CELLSJAVA-43253|Guardar el archivo usando OoxmlSaveOptions después de reemplazar el texto en SmartArt convierte XLS a XLSX|Insecto|
+|CELLSJAVA-43253|Guardar el archivo usando OoxmlSaveOptions después de reemplazar texto en SmartArt convierte XLS a XLSX|Insecto|
 |CELLSJAVA-43263|Problema de SmartMarker cuando una celda se establece en color de relleno y formato condicional|Insecto|
 |CELLSJAVA-43269|No se puede obtener valor de la hoja dinámica|Insecto|
 |CELLSJAVA-43272|La imagen se encoge después de configurar el ancho escalable|Insecto|
@@ -49,14 +49,14 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43293|Problema con las opciones de filtro después de PivotTable.refreshData()|Insecto|
 |CELLSJAVA-43279|Los valores no se obtienen correctamente usando getStringValue()|Insecto|
 |CELLSJAVA-43291|el contenido de la cuadrícula no se muestra|Insecto|
-|CELLSJAVA-43037|Problema de fuente en la conversión de PDF|Insecto|
-|CELLSJAVA-43249|Problemas de impresión al usar impresoras físicas, impresoras XPS y PDF|Insecto|
+|CELLSJAVA-43037|Problema de fuente en la conversión PDF|Insecto|
+|CELLSJAVA-43249|Problemas de impresión al usar impresoras físicas, impresora XPS y PDF|Insecto|
 |CELLSJAVA-43254|Diferencia de fuente al convertir una hoja de cálculo a una imagen|Insecto|
 |CELLSJAVA-43266|La versión Java no admite la carga de fuentes desde la carpeta de fuentes del usuario actual de forma predeterminada|Insecto|
 |CELLSJAVA-43268|Representación de Excel a TIFF: algunos de los valores se reemplazan con caracteres "#"|Insecto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Error para ZipFile|Insecto|
 |CELLSJAVA-43277|problema con la relacion alto ancho|Insecto|
-|CELLSJAVA-43245|El gráfico combinado no se muestra correctamente después de convertir un archivo de Excel a PDF|Insecto|
+|CELLSJAVA-43245|El gráfico combinado no se muestra correctamente después de convertir el archivo de Excel a PDF|Insecto|
 |CELLSJAVA-43276|Problemas de salto de línea al convertir XLSX a PDF|Insecto|
 |CELLSJAVA-43261|SmartMarker: al usar group:merge con Number Format Porcentaje, el resultado de expansión es incorrecto|Insecto|
 |CELLSJAVA-43265|No se puede cargar el archivo XLSX|Insecto|
@@ -153,11 +153,11 @@ Indica si la estructura y la ventana están protegidas con contraseña.
 
 ### **Agregue las clases PowerQueryFormulaParameters y PowerQueryFormulaParameter**
 
-Representa los parámetros de la fórmula de consulta de potencia.
+Representa los parámetros de la fórmula de consulta de energía.
 
 ### **Agrega la propiedad AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** de**20.9**.
+Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** desde**20.9**.
 
 ### **Agrega la propiedad TxtLoadOptions.HasTextQualifier**
 
@@ -221,7 +221,7 @@ Obtiene o establece el ancho de la segmentación especificada, en píxeles.
 
 ### **Agrega la propiedad Worksheet.PaneState y la enumeración PaneStateType.**
 
-Representa el estado del panel en la hoja de trabajo.
+Representa el estado del panel en la hoja de cálculo.
 
 ### **Agrega la propiedad OdsLoadOptions.RefreshPivotTables.**
 

@@ -15,9 +15,9 @@ In Microsoft Excel 2013 können Sie einen Zellbereich für Datenbeschriftungen a
 So zeigen Sie den Zellbereich als Datenbeschriftungen in Microsoft Excel an:
 
 1. Wählen Sie die Seriendatenbeschriftungen aus und klicken Sie mit der rechten Maustaste, um das Kontextmenü zu öffnen.
-1.  Auswählen**Datenetiketten formatieren**. Beschriftungsoptionen werden angezeigt.
+1.  Wählen**Datenetiketten formatieren**. Beschriftungsoptionen werden angezeigt.
 1.  Aktivieren oder deaktivieren Sie die Option**Etikett enthält - Wert von Cells**.
 
- Der folgende Beispielcode greift auf Datenbeschriftungen einer Diagrammreihe zu und legt die fest[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) Eigentum zu**Stimmt** die auszuwählen**Etikett enthält - Wert von Cells** Möglichkeit.
+ Der folgende Beispielcode greift auf Datenbeschriftungen einer Diagrammreihe zu und legt die fest[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) Eigentum zu**wahr** die auszuwählen**Etikett enthält - Wert von Cells** Möglichkeit.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}

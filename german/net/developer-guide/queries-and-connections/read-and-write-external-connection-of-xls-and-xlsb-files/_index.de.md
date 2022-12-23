@@ -6,11 +6,11 @@ url: /de/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells unterstützt bereits das Lesen und Schreiben externer Verbindungen von XLSX-Dateien, aber jetzt unterstützt es diese Funktion auch für XLSB- und XLS-Dateien. Der Code ist jedoch für alle Formattypen gleich.
+Aspose.Cells unterstützt bereits das Lesen und Schreiben einer externen Verbindung der Datei XLSX, aber jetzt unterstützt es diese Funktion auch für die Dateien XLSB und XLS. Der Code ist jedoch für alle Formattypen gleich.
 
-## **Externe Verbindung der XLS/XLSB-Datei lesen und schreiben**
+## **Externe Verbindung der Datei XLS/XLSB lesen und schreiben**
 
- Der folgende Beispielcode lädt die Beispiel-XLSB-Datei (XLS kann auch geladen werden) und liest seine erste externe Verbindung, bei der es sich tatsächlich um eine Microsoft Access DB-Verbindung handelt. Es ändert dann die[**DBVerbindung.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) -Eigenschaft und speichert sie als Ausgabe-XLS/XLSB-Datei. Der Screenshot zeigt die Auswirkung von Code auf[Beispiel-XLSB-Datei](51740722.xlsb) und[XLSB-Datei ausgeben](51740723.xlsb) nach seiner Hinrichtung. Siehe auch die Konsolenausgabe des unten angegebenen Beispielcodes als Referenz.
+ Der folgende Beispielcode lädt die Beispieldatei XLSB (XLS kann auch geladen werden) und liest ihre erste externe Verbindung, die eigentlich eine Microsoft Access DB Connection ist. Es ändert dann die[**DBVerbindung.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) -Eigenschaft und speichert sie als Ausgabedatei XLS/XLSB. Der Screenshot zeigt die Auswirkung von Code auf[Beispieldatei XLSB](51740722.xlsb) und[Ausgabedatei XLSB](51740723.xlsb) nach seiner Hinrichtung. Siehe auch die Konsolenausgabe des unten angegebenen Beispielcodes als Referenz.
 
 ![todo: Bild_alt_Text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 

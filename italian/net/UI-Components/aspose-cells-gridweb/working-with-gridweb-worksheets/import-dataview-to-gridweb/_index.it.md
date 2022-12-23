@@ -6,7 +6,7 @@ url: /it/net/import-dataview-to-gridweb/
 ---
 {{% alert color="primary" %}} 
 
-Con il rilascio di Microsoft .NET Framework, è stato introdotto un nuovo modo di archiviare i dati. Ora oggetti DataSet, DataTable e DataView che memorizzano i dati in modalità offline. Questi oggetti sono molto utili come repository di dati. Usando Aspose.Cells.GridWeb, è possibile importare dati da oggetti DataTable o DataView in fogli di lavoro. Aspose.Cells.GridWeb supporta solo l'importazione di dati da un DataView. oggetto ma un oggetto DataTable può essere utilizzato anche indirettamente. Discutiamo questa caratteristica in dettaglio.
+Con il rilascio del Framework Microsoft .NET è stata introdotta una nuova modalità di memorizzazione dei dati. Ora oggetti DataSet, DataTable e DataView che memorizzano i dati in modalità offline. Questi oggetti sono molto utili come repository di dati. Usando Aspose.Cells.GridWeb, è possibile importare dati da oggetti DataTable o DataView in fogli di lavoro. Aspose.Cells.GridWeb supporta solo l'importazione di dati da un DataView. oggetto ma un oggetto DataTable può essere utilizzato anche indirettamente. Discutiamo questa caratteristica in dettaglio.
 
 {{% /alert %}} 
 ## **Importazione di dati da DataView**

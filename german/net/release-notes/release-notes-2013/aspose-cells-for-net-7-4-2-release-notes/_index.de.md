@@ -28,7 +28,7 @@ url: /de/net/aspose-cells-for-net-7-4-2-release-notes/
 
  41440 - Problem mit gepunkteter Linie - Blatt-zu-Bild
 
- 41470 – In Bezug auf das Konvertieren einer Arbeitsmappe in eine PDF-Datei
+ 41470 – In Bezug auf die Konvertierung der Arbeitsmappe in die Datei PDF
 
  41442 – ToTiff-Funktion: Probleme bei der Nummernausrichtung
 
@@ -44,7 +44,7 @@ url: /de/net/aspose-cells-for-net-7-4-2-release-notes/
 
  Neue Eigenschaften
 
- 41459 – Verwenden von GridWeb in JavaScript
+41459 – Verwenden von GridWeb in JavaScript
 
  Fehler
 

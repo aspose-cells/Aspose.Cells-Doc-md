@@ -6,7 +6,7 @@ url: /de/java/working-with-background-in-ods-files/
 ---
 ## **Hintergrund in ODS-Dateien**
 
-Hintergrund kann Blättern in ODS-Dateien hinzugefügt werden. Der Hintergrund kann entweder ein Farbhintergrund oder ein grafischer Hintergrund sein. Der Hintergrund ist nicht sichtbar, wenn die Datei geöffnet ist, aber wenn die Datei als PDF gedruckt wird, ist der Hintergrund im generierten PDF sichtbar. Der Hintergrund ist auch im Druckvorschau-Dialog sichtbar.
+Hintergrund kann zu Blättern in ODS-Dateien hinzugefügt werden. Der Hintergrund kann entweder ein Farbhintergrund oder ein grafischer Hintergrund sein. Der Hintergrund ist nicht sichtbar, wenn die Datei geöffnet ist, aber wenn die Datei als PDF gedruckt wird, ist der Hintergrund in der generierten PDF sichtbar. Der Hintergrund ist auch im Druckvorschau-Dialog sichtbar.
 
 Aspose.Cells bietet die Möglichkeit, Hintergrundinformationen zu lesen und Hintergrundinformationen in ODS-Dateien hinzuzufügen.
 
@@ -24,17 +24,17 @@ Hintergrundtyp: GRAFIK
 
 Hintergrundposition: CENTER_CENTER
 
-## **Farbigen Hintergrund zur ODS-Datei hinzufügen**
+## **Farbigen Hintergrund zur Datei ODS hinzufügen**
 
-Aspose.Cells bietet die[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)Klasse zum Verwalten des Hintergrunds in ODS-Dateien. Das folgende Codebeispiel veranschaulicht die Verwendung von[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)-Eigenschaft, um der ODS-Datei einen farbigen Hintergrund hinzuzufügen. Bitte sehen Sie sich ... an[ODS ausgeben](ColoredBackground.ods)Datei, die vom Referenzcode generiert wurde.
+Aspose.Cells bietet die[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)Klasse zum Verwalten des Hintergrunds in ODS-Dateien. Das folgende Codebeispiel veranschaulicht die Verwendung von[**ODSPageBackground.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#Color)-Eigenschaft, um der Datei ODS einen farbigen Hintergrund hinzuzufügen. Bitte sehen Sie sich ... an[Ausgang ODS](ColoredBackground.ods)Datei, die vom Referenzcode generiert wurde.
 
 ### **Beispielcode**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-SetODSColoredBackground-1.java" >}}
 
-## **Grafischen Hintergrund zur ODS-Datei hinzufügen**
+## **Grafikhintergrund zur Datei ODS hinzufügen**
 
-Aspose.Cells bietet die[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)Klasse zum Verwalten des Hintergrunds in ODS-Dateien. Das folgende Codebeispiel veranschaulicht die Verwendung von[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)-Eigenschaft, um der ODS-Datei einen grafischen Hintergrund hinzuzufügen. Bitte sehen Sie sich ... an[ODS ausgeben](GraphicBackground.ods)Datei, die vom Referenzcode generiert wurde.
+Aspose.Cells bietet die[**ODSPageBackground**](https://reference.aspose.com/cells/java/com.aspose.cells/ODSPageBackground)Klasse zum Verwalten des Hintergrunds in ODS-Dateien. Das folgende Codebeispiel veranschaulicht die Verwendung von[**ODSPageBackground.GraphicData**](https://reference.aspose.com/cells/java/com.aspose.cells/odspagebackground#GraphicData)-Eigenschaft, um der Datei ODS einen grafischen Hintergrund hinzuzufügen. Bitte sehen Sie sich ... an[Ausgang ODS](GraphicBackground.ods)Datei, die vom Referenzcode generiert wurde.
 
 ### **Beispielcode**
 

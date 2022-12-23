@@ -1,18 +1,18 @@
 ﻿---
-title: XLSB 或 XLS 文件的读写外部连接
+title: 读写XLSB或XLS文件的外部连接
 type: docs
 weight: 80
 url: /zh/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
 ## **可能的使用场景**
 
-Aspose.Cells已经支持XLSX文件的读写外部连接，现在，它也支持XLSB和XLS文件的这个功能。但是，两种格式的代码相同。
+Aspose.Cells已经支持XLSX文件的读写外部连接，现在XLSB和XLS文件也支持此功能。但是，两种格式的代码相同。
 
-## **XLSB/XLS文件的读写外部连接**
+## **读写XLSB/XLS文件的外部连接**
 
-下面的示例代码加载示例XLSB（也可以加载XLS）文件并读取它的第一个External Connection，它实际上是一个Microsoft Access DB Connection。然后它修改了[**数据库连接名称**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)属性并将其保存为输出 XLSB 文件。截图展示了代码的效果[示例 XLSB 文件](51740743.xlsb)和[输出 XLSB 文件](51740742.xlsb)执行后。另请参阅下面给出的示例代码的控制台输出以供参考。
+下面的示例代码加载示例XLSB（也可以加载XLS）文件并读取它的第一个External Connection，实际上是一个Microsoft Access DB Connection。然后它修改了[**数据库连接名称**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)属性并将其保存为输出 XLSB 文件。截图展示了代码的效果[样本 XLSB 文件](51740743.xlsb)和[输出 XLSB 文件](51740742.xlsb)执行后。另请参阅下面给出的示例代码的控制台输出以供参考。
 
-![待办事项：图像_替代_文本](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+![待办事项：图片_替代_文本](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **示例代码**
 

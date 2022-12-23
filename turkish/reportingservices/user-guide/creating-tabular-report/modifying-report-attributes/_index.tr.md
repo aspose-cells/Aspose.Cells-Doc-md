@@ -8,7 +8,7 @@ Bir raporun niteliklerini değiştirmek için:
 
 1.  Tıklamak**Niteliği Değiştir**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-attributes_1.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_1.png)
 
 ).
 Mevcut raporlar sol panelde listelenir.
@@ -17,7 +17,7 @@ Mevcut raporlar sol panelde listelenir.
 
    **Bir rapor seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-attributes_2.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_2.png)
 
 
 
@@ -26,7 +26,7 @@ Mevcut raporlar sol panelde listelenir.
 
    **Nitelikleri değiştirme** 
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-attributes_3.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-attributes_3.png)
 
 
 

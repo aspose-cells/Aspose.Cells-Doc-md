@@ -22,7 +22,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.2，我们很高兴地宣布此版�
 ## **表现**
 
 
- (CELLSNET-43015) - 转换为 PDF 的过程似乎挂在具有 115996 行的电子表格上
+ (CELLSNET-43015) - 转换为 PDF 过程似乎挂在具有 115996 行的电子表格上
 
 
 ## **虫子**
@@ -30,7 +30,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.2，我们很高兴地宣布此版�
 
 (CELLSNET-43070) - 错误“无法在组编辑模式下编辑数据透视表”
 
- (CELLSNET-43061) - 与 MS Excel 相比计算出的值不正确
+(CELLSNET-43061) - 与 MS Excel 相比计算出的值不正确
 
 (CELLSNET-43064) - 导致 MS Excel 中出现“不可读内容”消息
 
@@ -40,19 +40,19 @@ Aspose.Cells for .NET 已更新到版本 8.2.2，我们很高兴地宣布此版�
 
 (CELLSNET-42903) - 文本缩进问题
 
-(CELLSNET-42838) - 文本框中的文本未在生成的 PDF 中呈现
+(CELLSNET-42838) - 文本框中的文本未在结果中呈现 PDF
 
-(CELLSNET-41658) - 数据透视表不保留条件格式
+ (CELLSNET-41658) - 数据透视表不保留条件格式
 
 (CELLSNET-41656) - 出现关于不可读内容的错误。
 
-(CELLSNET-40921) - 渲染图像时形状方向错误
+ (CELLSNET-40921) - 渲染图像时形状方向错误
 
-(CELLSNET-43056) - 渐变和纹理不显示在渲染的 PDF 文件格式中
+(CELLSNET-43056) - 渲染的 PDF 文件格式中不显示渐变和纹理
 
 (CELLSNET-43035) - 错误的 pdf 导出 - 文本被修剪并添加了额外的空间
 
-(CELLSNET-43012) - 字符“P”在输出 PDF 中被剪裁
+(CELLSNET-43012) - 字符“P”在输出 PDF 中被截断
 
 (CELLSNET-42999) - 条件格式箭头较小
 
@@ -86,7 +86,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.2，我们很高兴地宣布此版�
 
 (CELLSNET-42638) - 图例标记有不同的厚度
 
-(CELLSNET-42637) - 使用 ToImage 将图表保存为 EMF 时缺少轴标题
+(CELLSNET-42637) - 使用 ToImage 将图表另存为 EMF 时缺少轴标题
 
 (CELLSNET-42636) - 使用 ToImage 将图表保存为 EMF 时缺少轴值
 
@@ -140,7 +140,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.2，我们很高兴地宣布此版�
 
 (CELLSNET-42947) - “形状到图像错误！”转换为 PDF 时出现异常
 
-(CELLSNET-43076) - 打开 XLSB 文件时目标数组不够长异常
+(CELLSNET-43076) - 目标数组不够长，打开 XLSB 文件时出现异常
 
 (CELLSNET-43063) - Shapes.UpdateSelectedValue 中的“未知图像格式”
 

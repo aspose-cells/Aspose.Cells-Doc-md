@@ -24,7 +24,7 @@ Cette version initiale du module est enrichie des fonctionnalités suivantes pou
 - Ajuster automatiquement les colonnes à la longueur du contenu et appliquer le formatage de la colonne d'en-tête en texte gras
 - Exporter des données vers des documents Excel Microsoft (.xls, .xlsx et .xlsb)
 - Exporter les données vers un document texte délimité par des tabulations (*.txt)
-- Exporter des données vers CSV (délimité par des virgules) (*.csv)
+- Exporter les données vers CSV (délimité par des virgules) (*.csv)
 - Exporter des données vers une feuille de calcul OpenDocument (*.ods)
 - Option pour sélectionner le format de sortie souhaité avant l'exportation.
 - Le document exporté est automatiquement envoyé au navigateur pour téléchargement.
@@ -63,18 +63,18 @@ Veuillez extraire le fichier ZIP téléchargé. Vous aurez besoin d'un FTP ou d'
 **Étape 2: Enregistrez le module complémentaire d'exportation de contenu Sitefinity Aspose dans Sitefinity**
 
 1. Connectez-vous à votre CMS Sitefinity avec un '**Administrateur** ' Compte. La page de connexion est accessible par<http://www.mywebsite.com/sitefinity>
-1.  Cliquez sur**Administration** et alors**Réglages**.
+1.  Cliquez sur**Administration** et puis**Réglages**.
 La page Paramètres de base s'affiche.
 1.  Clique le**Avancé** lien.
  La page Paramètres s'affiche.
-1.  Dans le volet de gauche, cliquez sur**Boîtes à outils** suivie par**Boîtes à outils** , alors**PageControls**, **Sections** et**ContentToolboxSection** , alors**Outils.**
+1.  Dans le volet de gauche, cliquez sur**Boîtes à outils** suivie par**Boîtes à outils** , ensuite**PageControls**, **Sections** et**ContentToolboxSection** , ensuite**Outils.**
 1.  Cliquez sur**Créer un nouveau**.
  Le formulaire d'enregistrement du widget s'affiche.
 1.  Remplissez les champs du formulaire comme suit :
- 1. Assurez-vous**Activé** est sélectionné.
- 1. Dans le**Contrôler le type CLR ou le chemin virtuel** champ.
+ 1. Assurez-vous**Autorisé** est sélectionné.
+ 1. Dans le**Contrôler le type CLR ou le chemin virtuel** domaine.
  1. Ajouter**~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx**
- 1. Ajouter**Nom**, **Titre** et**La description** comme suit:
+ 1. Ajouter**Nom**, **Titre** et**Description** comme suit:
          1. Aspose  **Nom de la page**(comme Modifier, Afficher, Exporter) pour les utilisateurs de SiteFinity
          1. Aspose **Nom de la page** Formulaire (comme Aspose Modifier le formulaire, Aspose Afficher le formulaire, Aspose Exporter le formulaire)
          1. **Nom de la page** Générateur de formulaires et exportateur pour Sitefinity.
@@ -87,7 +87,7 @@ La page Paramètres de base s'affiche.
 
 ## **Utilisation et démo vidéo**
 
-### **Utilisant**
+### **En utilisant**
 
 Après avoir installé et configuré le module complémentaire Aspose.Cells Dynamic Forms Builder pour les utilisateurs de Sitefinity, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer :
 
@@ -110,7 +110,7 @@ Pour supprimer le message d'évaluation et les limitations des fonctionnalités,
 
 #### **Paramètres des formulaires dynamiques**
 
-1.  Assurez-vous d'être connecté cliquez sur le menu de la page cliquez sur la première ligne**Voir** bouton d'option à proximité**Colonne Actions.**  
+1.  Assurez-vous d'être connecté cliquez sur le menu de la page cliquez sur la première ligne**Vue** bouton d'option à proximité**Colonne Actions.**  
 1.  Cliquez sur**Éditer** bouton disponible près de l'étiquette d'option.
 1.  Il y a peu de champs prédéfinis, vous pouvez modifier/masquer simplement en cliquant**Éditer** en grille.
 1. Vous pouvez créer/supprimer/mettre à jour de nouveaux champs de tout type**(TextBox, MultiLineTextBox, RadioButton, Cases à cocher, Liste déroulante, Titre, Message de réussite)**
@@ -118,8 +118,8 @@ Pour supprimer le message d'évaluation et les limitations des fonctionnalités,
 #### **Soumission de formulaire dynamique**
 
 1. Remplissez les champs.
-1.  Cliquez sur**Soumettre** bouton pour enregistrer les données.
-1.  Chaque**Soumettre** Cliquez sur le bouton pour enregistrer le nouvel enregistrement dans Excel.
+1.  Cliquez sur**Nous faire parvenir** bouton pour enregistrer les données.
+1.  Chaque**Nous faire parvenir** Cliquez sur le bouton pour enregistrer le nouvel enregistrement dans Excel.
 
 #### **Exporter les données enregistrées**
 

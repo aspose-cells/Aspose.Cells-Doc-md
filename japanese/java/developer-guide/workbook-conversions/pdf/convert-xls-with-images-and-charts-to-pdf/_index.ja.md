@@ -1,5 +1,5 @@
 ﻿---
-title: 画像とチャートを含む XLS を PDF に変換
+title: 画像とチャートを含む XLS を PDF に変換します
 type: docs
 weight: 230
 url: /ja/java/convert-xls-with-images-and-charts-to-pdf/
@@ -8,7 +8,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells は、画像やグラフを含む XLS ファイルの PDF ドキュメントへの変換をサポートしています。 Aspose.Cells for Java は独立してスプレッドシートを PDF に変換できます: Aspose.PDF API は変換に必要ありません。
+Aspose.Cells は、画像とチャートを含む XLS ファイルの PDF ドキュメントへの変換をサポートします。 Aspose.Cells for Java は独立してスプレッドシートを PDF に変換できます: Aspose.PDF API は変換に必要ありません。
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Aspose.Cells は、画像やグラフを含む XLS ファイルの PDF ドキュ
 
 {{% alert color="primary" %}}
 
-スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) PDF にレンダリングする直前のメソッド。これにより、式に依存する値が再計算され、正しい値が PDF に表示されます。
+スプレッドシートに数式が含まれている場合は、[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()メソッドを PDF にレンダリングする直前に実行します。これにより、式に依存する値が再計算され、正しい値が PDF にレンダリングされます。
 
 {{% /alert %}}
 
@@ -24,5 +24,5 @@ Aspose.Cells は、画像やグラフを含む XLS ファイルの PDF ドキュ
 
 ## 関連記事
 
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換する](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [チャートのレンダリング](/cells/ja/java/chart-rendering/)

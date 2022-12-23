@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/cells-number-settings/
 ---
-## **Sayıların ve Tarihlerin Görüntüleme Biçimlerini Ayarlama**
+## **Numbers ve Tarihlerin Görüntüleme Biçimlerini Ayarlama**
 
 Microsoft Excel'in çok güçlü bir özelliği, kullanıcıların sayısal değerlerin ve tarihlerin görüntülenme biçimlerini ayarlamasına izin vermesidir. Sayısal verilerin ondalık, para birimi, yüzde, kesir veya muhasebe değerleri gibi farklı değerleri temsil etmek için kullanılabileceğini biliyoruz. Tüm bu sayısal değerler, temsil ettikleri bilgi türüne bağlı olarak farklı biçimlerde görüntülenir. Benzer şekilde, tarih veya saatin görüntülenebileceği birçok biçim vardır.
 Aspose.Cells, bu işlevi destekler ve geliştiricilerin bir sayı veya tarih için herhangi bir görüntüleme formatı ayarlamasına izin verir.

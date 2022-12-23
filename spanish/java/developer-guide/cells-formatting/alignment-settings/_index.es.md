@@ -22,7 +22,7 @@ Todas estas configuraciones de alineación son totalmente compatibles con Aspose
 
 ## **Ajustes de alineación en Aspose.Cells**
 
- Aspose.Cells proporciona[**ObtenerEstilo**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) y[**EstablecerEstilo**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) métodos para el[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase que se utilizan para obtener y establecer el formato de una celda. los[**Estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style)La clase proporciona propiedades útiles para configurar los ajustes de alineación.
+ Aspose.Cells proporciona[**ObtenerEstilo**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) y[**EstablecerEstilo**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) métodos para el[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase que se utilizan para obtener y establecer el formato de una celda. Él[**Estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style)La clase proporciona propiedades útiles para configurar los ajustes de alineación.
 
  Seleccione cualquier tipo de alineación de texto usando el[**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) enumeración. Los tipos de alineación de texto predefinidos en el[**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype)enumeración son:
 

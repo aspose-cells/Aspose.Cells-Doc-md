@@ -20,11 +20,11 @@ url: /it/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29580 Ripetizione di parti del foglio di lavoro in base ai dati di input
 
- 29377 Esporta problema GroupShape in formato XLS
+ 29377 Esporta problema GroupShape nel formato XLS
 
  29632 Genera un'eccezione quando il nome del foglio contiene caratteri speciali
 
- 29153 Supporto della formattazione condizionale sull'output HTML
+ 29153 Supporta la formattazione condizionale sull'output HTML
 
  Prestazione
 
@@ -50,7 +50,7 @@ url: /it/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Insetti
 
- 29413 I valori DataRow vengono modificati
+29413 I valori DataRow vengono modificati
 
  29599 Problema grafico con barre 3D per immagine
 
@@ -58,11 +58,11 @@ url: /it/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Problema tra grafico radar e immagine
 
-29777 VLookup non funziona
+ 29777 VLookup non funziona
 
  29408 Aggiunta dell'elemento calcolato nella tabella pivot
 
- 29582 Il file è danneggiato e non può essere aperto (XLS)
+ 29582 Il file è corrotto e non può essere aperto (XLS)
 
  29293 Aspose.Cells Funzionalità AutoFitColumns con spazi finali
 
@@ -94,7 +94,7 @@ url: /it/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Importa formule con valori da file Excel
 
- 29381 Importa il file Excel dallo stream senza calcolare tutte le formule
+29381 Importa il file Excel dallo stream senza calcolare tutte le formule
 
  Insetti
 

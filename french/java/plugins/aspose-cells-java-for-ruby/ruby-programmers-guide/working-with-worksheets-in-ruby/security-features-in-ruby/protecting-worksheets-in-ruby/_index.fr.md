@@ -5,7 +5,7 @@ weight: 10
 url: /fr/java/protecting-worksheets-in-ruby/
 ---
 ## **Aspose.Cells - Protection des feuilles de travail**
- Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , appel**protect_worksheet** méthode de**protection** module.
+ Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**protect_worksheet** méthode de**protection** module.
 
 **Code rubis**
 
@@ -55,6 +55,6 @@ end   
 
 {{< /highlight >}}
 ## **Télécharger le code d'exécution**
-Télécharger**Protection des feuilles de travail (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
+Télécharger**Protection des feuilles de calcul (Aspose.Cells)**à partir de l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/protection.rb)

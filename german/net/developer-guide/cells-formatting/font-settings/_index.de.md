@@ -24,7 +24,7 @@ Das Erscheinungsbild eines Textes kann durch Ändern der Schriftarteinstellungen
 
 ### **Schriftstil auf Fett setzen**
 
- Entwickler können Text fett darstellen, indem sie das festlegen[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IstBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) Eigentum zu**Stimmt**.
+ Entwickler können Text fett darstellen, indem sie das festlegen[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IstBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
@@ -56,19 +56,19 @@ Verwenden Sie die[**Style.Font**](https://reference.aspose.com/cells/net/aspose.
 
 ### **Einstellung des Strikeout-Effekts**
 
-Wenden Sie das Durchstreichen an, indem Sie das festlegen[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)Eigentum zu**Stimmt**.
+Wenden Sie das Durchstreichen an, indem Sie das festlegen[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) Objekt[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
 ### **Subscript-Effekt einstellen**
 
-Wenden Sie den Index an, indem Sie die[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) Eigentum zu**Stimmt**.
+Wenden Sie den Index an, indem Sie die[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)Objekt[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 
 ### **Einstellen des hochgestellten Effekts auf die Schriftart**
 
- Entwickler können den hochgestellten Effekt auf die Schriftart anwenden, indem sie die[**IstHochgestellt**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) Eigentum der[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) widersprechen**Stimmt**.
+ Entwickler können den hochgestellten Effekt auf die Schriftart anwenden, indem sie die[**IstHochgestellt**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) Eigentum der[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) widersprechen**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSuperScriptEffect-SetSuperscript.cs" >}}
 

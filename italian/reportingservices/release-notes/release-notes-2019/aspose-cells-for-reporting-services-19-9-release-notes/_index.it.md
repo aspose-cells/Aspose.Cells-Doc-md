@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-563|Definisci password diverse su report diversi e formati di esportazione diversi.|Nuova caratteristica|
 |CELLSRS-562|Lo stile del bordo è impostato da una formula nei report esportati.|Insetto|

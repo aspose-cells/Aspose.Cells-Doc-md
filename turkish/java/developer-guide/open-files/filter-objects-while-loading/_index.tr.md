@@ -10,7 +10,7 @@ url: /tr/java/filter-objects-while-loading-workbook-or-worksheet/
  bu[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)numaralandırma aşağıdaki değerlere sahiptir.
 
 - [YOK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
-- [TÜM](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
+- [HERŞEY](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
 - [HÜCRE_BLANK](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
 - [CELL_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
 - [CELL_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
@@ -38,7 +38,7 @@ url: /tr/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STİL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Çalışma Kitabını Yüklerken Nesneleri Filtrele**
- Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5472489.xlsx) Bu kodda kullanılan ve[çıktı PDF](5472488.pdf)onun tarafından oluşturulur. Çıktı PDF'sinde görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
+ Aşağıdaki örnek kod, çalışma kitabından grafiklerin nasıl filtreleneceğini gösterir. lütfen kontrol ediniz[örnek excel dosyası](5472489.xlsx) Bu kodda kullanılan ve[çıkış PDF](5472488.pdf)onun tarafından oluşturulur. PDF çıktısında görebileceğiniz gibi, tüm grafikler çalışma kitabından filtrelendi.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **Çalışma Sayfasını Yüklerken Nesneleri Filtrele**

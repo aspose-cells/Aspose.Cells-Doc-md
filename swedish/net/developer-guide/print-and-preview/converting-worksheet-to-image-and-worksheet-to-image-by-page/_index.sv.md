@@ -36,7 +36,7 @@ Den här uppgiften visar hur du använder Aspose.Cells för att konvertera ett k
 
  Jag skapade en ny arbetsbok i Microsoft Excel och la till några data i det första kalkylbladet:**Testbook.xlsx** (1 arbetsblad). Konvertera sedan mallfilens kalkylblad Sheet1 till en bildfil som heter SheetImage.jpg.
 
- Följande är koden som används av komponenten för att utföra uppgiften. Det konverterar Sheet1 in**Testbook.xlsx** till en bildfil för att förklara hur lätt denna konvertering är.
+ Följande är koden som används av komponenten för att utföra uppgiften. Den konverterar Sheet1 in**Testbook.xlsx** till en bildfil för att förklara hur lätt denna konvertering är.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ConvertingWorksheetToImage-ConvertWorksheettoImageFile-1.cs" >}}
 

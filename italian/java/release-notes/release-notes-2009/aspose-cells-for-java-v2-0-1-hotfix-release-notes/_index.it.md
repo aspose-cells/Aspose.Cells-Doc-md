@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells for Java V2.0.1 Note sulla versione dell'hotfix
+title: Aspose.Cells for Java V2.0.1 Note sulla versione dell'aggiornamento rapido
 type: docs
 weight: 20
 url: /it/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
@@ -34,23 +34,23 @@ url: /it/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  l Supporta il tema colore R/W per il formato file 2007
 
- l Supporta il tipo di crittografia: Microsoft Strong Cryptographic Provider
+ l Supporta il tipo di crittografia: Microsoft Forte provider di crittografia
 
  l 27 correzioni e miglioramenti.
 
  Problemi risolti in Aspose.Cells for Java 2.0.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
-|6722 | ODS| R/W File ODS|
+|6722 |ODS | R/W ODS file|
 |7834 | XL| Cell. getPrecedents|
-|6516 | HTML| Salva il foglio di lavoro in streaming in formato html.|
+|6516 |HTML | Salva il foglio di lavoro in streaming in formato html.|
 |7744 | XL| File crittografato R/W: Microsoft Strong Cryptographic Provider.|
 |7745 | XL| Rimuove ASeries dalla raccolta NSeries.|
 |7571 | Xlsx| Collegamenti ipertestuali.|
 |7572 | XL| Formula: SOMMA.SE.|
-|7575 | XL|Formula: ROTONDO.|
-|7649 | XL| DataLabels del grafico pivot.|
+|7575 | XL| Formula: ROTONDO.|
+|7649 | XL|DataLabels del grafico pivot.|
 |7343 | XL| Imposta la proprietà di OleObject: OleSize.|
 |7408 | XL| Crea filtro automatico.|
 |7500 | XL| Salva FillFormat dell'area nel grafico.|

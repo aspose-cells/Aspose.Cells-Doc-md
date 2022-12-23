@@ -14,7 +14,7 @@ Microsoft Excel fournit de bonnes fonctionnalités pour filtrer automatiquement 
 ## **Types de validation des données et exécution**
 Microsoft Excel prend en charge un certain nombre de différents types de validation de données. Chaque type est utilisé pour contrôler le type de données saisies dans une cellule ou une plage de cellules. Ci-dessous, des extraits de code illustrent comment valider cela :
 
-- [Les nombres sont entiers](/cells/fr/java/data-validation/)c'est-à-dire qu'ils n'ont pas de partie décimale.
+- [Numbers sont entiers](/cells/fr/java/data-validation/)c'est-à-dire qu'ils n'ont pas de partie décimale.
 - [Les nombres décimaux suivent la bonne structure](/cells/fr/java/data-validation/). L'exemple de code définit qu'une plage de cellules doit avoir deux espaces décimaux.
 - [Les valeurs sont limitées à une liste de valeurs](/cells/fr/java/data-validation/). La validation de liste définit une liste distincte de valeurs qui peuvent être appliquées à une cellule ou à une plage de cellules.
 - [Les dates se situent dans une plage spécifique](/cells/fr/java/data-validation/).
@@ -44,9 +44,9 @@ Quand le[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Va
 #### **Types de validation des données**
 La validation des données vous permet de créer des règles métier dans chaque cellule afin que des entrées incorrectes entraînent des messages d'erreur. Les règles métier sont les politiques et procédures qui régissent le fonctionnement d'une entreprise. Aspose.Cells prend en charge tous les types importants de validation de données.
 
-La[ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)énumération a les membres suivants :
+Le[ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)énumération a les membres suivants :
 
-|**Nom de membre**|**La description**|
+|**Nom de membre**|**Description**|
 |:- |:- |
 |[DE N'IMPORTE QUELLE VALEUR](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Indique une valeur de n'importe quel type.|
 |[NOMBRE ENTIER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Indique le type de validation pour les nombres entiers.|
@@ -112,7 +112,7 @@ Lorsque les validations de données sont mises en œuvre, la validation peut êt
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Ajouter CellArea à la validation existante**
-Il peut y avoir des cas où vous voudrez peut-être ajouter[ZoneCellule](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)à l'existant[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). Lorsque vous ajoutez[ZoneCellule](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)utilisant[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells vérifie toutes les zones existantes pour voir si la nouvelle zone existe déjà. Si le fichier a un grand nombre de validations, cela affecte les performances. Pour surmonter cela, le API fournit le[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) méthode. La*checkIntersection*Le paramètre indique s'il faut vérifier l'intersection d'une zone donnée avec des zones de validation existantes. Le mettre à**faux**désactivera la vérification des autres zones. La*checkEdge*Le paramètre indique s'il faut vérifier les zones appliquées. Si la nouvelle zone devient la zone supérieure gauche, les paramètres internes sont reconstruits. Si vous êtes sûr que la nouvelle zone n'est pas la zone en haut à gauche, vous pouvez définir ce paramètre comme**faux**.
+Il peut y avoir des cas où vous voudrez peut-être ajouter[ZoneCellule](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)à l'existant[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). Lorsque vous ajoutez[ZoneCellule](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)en utilisant[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells vérifie toutes les zones existantes pour voir si la nouvelle zone existe déjà. Si le fichier a un grand nombre de validations, cela affecte les performances. Pour surmonter cela, le API fournit le[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) méthode. Le*checkIntersection*Le paramètre indique s'il faut vérifier l'intersection d'une zone donnée avec des zones de validation existantes. Le mettre à**faux**désactivera la vérification des autres zones. Le*checkEdge*Le paramètre indique s'il faut vérifier les zones appliquées. Si la nouvelle zone devient la zone supérieure gauche, les paramètres internes sont reconstruits. Si vous êtes sûr que la nouvelle zone n'est pas la zone en haut à gauche, vous pouvez définir ce paramètre comme**faux**.
 
 L'extrait de code suivant illustre l'utilisation de[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) méthode pour ajouter de nouveaux[ZoneCellule](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)à l'existant[Validation](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 

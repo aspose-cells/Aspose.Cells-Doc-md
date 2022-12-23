@@ -16,5 +16,5 @@ url: /it/cpp/apply-conditional-formatting-in-worksheet/
  Il codice di esempio seguente mostra come aggiungere una formattazione condizionale Valore Cell nelle celle A1 e B2. Si prega di consultare il[file excel di output](23167004.xlsx) generato dal codice e la seguente schermata che spiega l'effetto del codice sul[file excel di output](23167004.xlsx). Se inserirai un valore maggiore di 100 nelle celle A2 e B2, il colore di riempimento rosso dalle celle A1 e B2 scomparirà.
 
 ![cose da fare:immagine_alt_testo](apply-conditional-formatting-in-worksheet_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-ApplyConditionalFormattingInWorksheet.cpp" >}}

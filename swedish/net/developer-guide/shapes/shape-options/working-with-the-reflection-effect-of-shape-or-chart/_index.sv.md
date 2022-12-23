@@ -16,7 +16,7 @@ url: /sv/net/working-with-the-reflection-effect-of-shape-or-chart/
 - [Genomskinlighet](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
 - [Typ](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
 ## **Arbeta med reflektionseffekten av form eller diagram**
- Följande exempelkod laddar[källkod excel-fil](5115424.xlsx) och kommer åt den första formen i standardkalkylbladet och ställer in olika egenskaper för[Form.Reflektion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)klass och sparar sedan arbetsboken i[output excel-fil](5115423.xlsx).
+ Följande exempelkod laddar[source excel-fil](5115424.xlsx) och kommer åt den första formen i standardkalkylbladet och ställer in olika egenskaper för[Form.Reflektion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection)klass och sparar sedan arbetsboken i[output excel-fil](5115423.xlsx).
 
 
 

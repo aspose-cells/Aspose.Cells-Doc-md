@@ -19,7 +19,7 @@ Tutte queste modalità hanno le loro caratteristiche. Gli sviluppatori possono l
 ## **Modalità Modifica**
 Per impostazione predefinita, il controllo Aspose.Cells.GridWeb è in modalità di modifica. In modalità Modifica è possibile modificare completamente o modificare il contenuto della griglia utilizzando tutte le funzionalità offerte dal controllo Aspose.Cells.GridWeb. Queste funzionalità includono:
 
-- Salvataggio del contenuto della griglia in file di Microsoft Excel.
+- Salvataggio del contenuto della griglia nei file Excel Microsoft.
 - Invio di dati a un server.
 - Formule di calcolo.
 - Annullamento o eliminazione di azioni precedenti.
@@ -93,6 +93,6 @@ Se desideri utilizzare SQL Server o StateServer per tenere le sessioni, utilizza
 
 Si prega di controllare il seguente articolo per ulteriore assistenza.
 
-- [Funzionamento di GridWeb quando la modalità dello stato della sessione ASP.NET è SQL Server](/cells/it/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
+- [Funzionamento di GridWeb quando la modalità stato sessione ASP.NET è SQL Server](/cells/it/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 
 {{% /alert %}}

@@ -16,7 +16,7 @@ Aspose.Cells 支持将包含图像和图表的 XLS 文件转换为 PDF 文档。
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法就在呈现为 PDF 之前。这样做可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
+如果电子表格包含公式，最好调用[**工作簿.计算公式**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()方法就在渲染到 PDF 之前。这样做可以确保重新计算公式相关值，并在 PDF 中渲染正确的值。
 
 {{% /alert %}}
 

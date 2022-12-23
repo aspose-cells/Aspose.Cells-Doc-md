@@ -39,7 +39,7 @@ Professional エディションには、Enterprise エディションで利用�
 
 - AutoFitColumn メソッドを何度も呼び出すと、StackOverflowException が発生する場合があります。
 多くの数式を含むファイルを保存する際のバグ
-Excel ファイルから SpreadsheetML ファイルへの変換における名前付き範囲およびその他の問題
+名前付き範囲および Excel ファイルから SpreadsheetML ファイルへの変換におけるその他の問題
 行と列のスタイル設定
 チャート数値軸数値フォーマット設定
 コメントでスカンジナビア文字を読む

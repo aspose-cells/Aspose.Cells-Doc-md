@@ -7,20 +7,20 @@ url: /de/sharepoint/supported-file-formats/
 |**Format**|**Beschreibung**|**Belastung**|**Speichern**|
 |:- |:- |:- |:- |
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003-Arbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML-Arbeitsmappe oder Vorlagendatei mit oder ohne Makros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML Arbeitsmappe oder Vorlagendatei, mit oder ohne Makros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Excel-Binärarbeitsmappe.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel-Arbeitsmappe mit Makros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTX](https://docs.fileformat.com/spreadsheet/xltx/)|Excel-Vorlage.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel-Vorlage mit Makros.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XML](https://docs.fileformat.com/web/xml/)|Erweiterbare Auszeichnungssprache|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV-Datei (Comma Separated Value).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV-Datei (durch Tabulatoren getrennte Werte).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Tabulatorgetrennt|Tabulatorgetrennte Textdatei, dasselbe wie bei der TSV-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV (Comma Separated Value) Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV (Tabulatorgetrennte Werte) Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TabDelimited|Tabulatorgetrennte Textdatei, genauso wie die Datei TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[TXT](https://docs.fileformat.com/word-processing/txt/)|Durch Trennzeichen getrennte Nur-Text-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[HTML](https://docs.fileformat.com/web/html/)|HTML-Format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML-Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML Datei.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument-Tabelle).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Pdf](https://docs.fileformat.com/pdf/)|Adobe Portable Document-Format.||{{< emoticons/tick >}}|
+|[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document-Format.||{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML-Papierspezifikationsformat.||{{< emoticons/tick >}}|
 |[SVG](https://docs.fileformat.com/page-description-language/svg/)|Skalierbares Vektorgrafikformat.||{{< emoticons/tick >}}|
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Markiertes Bilddateiformat||{{< emoticons/tick >}}|

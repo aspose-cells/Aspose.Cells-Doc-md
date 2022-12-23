@@ -36,7 +36,7 @@ puts "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
 ### **Anzeigen eines Arbeitsblatts**
-Entwickler können ein Arbeitsblatt sichtbar machen, indem sie das festlegen*setVisible(* *Stimmt* *)*Methode der**Arbeitsblatt**Klasse.
+Entwickler können ein Arbeitsblatt sichtbar machen, indem sie das festlegen*setVisible(* *wahr* *)*Methode der**Arbeitsblatt**Klasse.
 
 **Ruby-Code**
 

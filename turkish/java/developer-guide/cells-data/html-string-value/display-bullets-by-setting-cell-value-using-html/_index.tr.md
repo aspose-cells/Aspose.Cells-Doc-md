@@ -1,18 +1,18 @@
 ﻿---
-title: HTML kullanarak Cell Değerini ayarlayarak Madde İşaretlerini Görüntüle
+title: Cell Değerini HTML kullanarak ayarlayarak Madde İşaretlerini Görüntüle
 type: docs
 weight: 120
 url: /tr/java/display-bullets-by-setting-cell-value-using/
-description: HTML ve Aspose.Cells for Java API kullanarak Excel Cells'e madde işaretleri eklemeyi öğrenin.
+description: HTML ve Aspose.Cells for Java API'i kullanarak Excel Cells'e nasıl madde işareti ekleyeceğinizi öğrenin.
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells artık madde işaretlerini HTML koduyla göstermeyi destekliyor. Bu makale, HTML kullanarak hücre değerini ayarlayarak madde işaretlerinin nasıl görüntüleneceğini açıklayacaktır. Kullanacağız[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) hücre değerini HTML'mizle ayarlamak için özellik.
+ Aspose.Cells artık HTML koduyla madde işaretlerini göstermeyi destekliyor. Bu makale, HTML kullanarak hücre değerini ayarlayarak madde işaretlerinin nasıl görüntüleneceğini açıklayacaktır.[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) HTML ile hücre değerini ayarlama özelliği.
 
 {{% /alert %}}
 
-## **HTML kullanarak Cell Değerini ayarlayarak Madde İşaretlerini Görüntüle**
+## **Cell Değerini HTML kullanarak ayarlayarak Madde İşaretlerini Görüntüle**
 
 Aşağıdaki kod, hücre değerini ayarlamak için HTML kodunu kullanır. Bir kez, bu kodu çalıştıracaksınız, çıktıyı aşağıdaki resimde gösterildiği gibi alacaksınız.
 
@@ -22,7 +22,7 @@ Aşağıdaki kod, hücre değerini ayarlamak için HTML kodunu kullanır. Bir ke
 
 Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun çıktısını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](display-bullets-by-setting-cell-value-using-html_1.png)
+![yapılacaklar:resim_alternatif_metin](display-bullets-by-setting-cell-value-using-html_1.png)
 
 ## İlgili Makaleler
 

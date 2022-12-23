@@ -9,7 +9,7 @@ Aspose.Cells for SharePoint, SharePoint sitelerinde depolanan belgelerde arama y
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Açık XML
 - XLSM, XLTX, XLTM – Office Açık XML
-- XML - Microsoft Excel Hesap TablosuML
+- XML - Microsoft Excel SpreadsheetML
 
 Bir belgede arama yapmak için:
 
@@ -20,12 +20,12 @@ Bir belgede arama yapmak için:
 
 **Belgede Ara seçeneği** 
 
-![yapılacaklar:resim_alternatif_Metin](search-in-a-document_1.png)
+![yapılacaklar:resim_alternatif_metin](search-in-a-document_1.png)
 
 **Arama kriterlerini belirleyin** 
 
-![yapılacaklar:resim_alternatif_Metin](search-in-a-document_2.png)
+![yapılacaklar:resim_alternatif_metin](search-in-a-document_2.png)
 
 **Arama Sonuçları** 
 
-![yapılacaklar:resim_alternatif_Metin](search-in-a-document_3.png)
+![yapılacaklar:resim_alternatif_metin](search-in-a-document_3.png)

@@ -17,29 +17,29 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 
 ## **打开不同格式的文件**
 
-Aspose.Cells 允许开发人员打开不同格式的电子表格文件，例如 SpreadsheetML、逗号分隔值 (CSV)、制表符分隔值或制表符分隔值 (TSV)、ODS 文件。要打开此类文件，开发人员可以使用与打开不同 Microsoft Excel 版本的文件相同的方法。
+Aspose.Cells 允许开发人员打开不同格式的电子表格文件，例如 SpreadsheetML、逗号分隔值 (CSV)、制表符分隔或制表符分隔值 (TSV)、ODS 文件。要打开此类文件，开发人员可以使用与打开不同 Microsoft Excel 版本的文件相同的方法。
 
 ### **打开 SpreadsheetML 文件**
 
-SpreadsheetML 文件是电子表格的 XML 表示，包括有关它的所有信息，例如格式、公式等。自 Microsoft Excel XP 起，一个 XML 导出选项被添加到 Microsoft Excel，可将电子表格导出到 SpreadsheetML 文件。
+SpreadsheetML 文件是电子表格的 XML 表示，包括有关它的所有信息，例如格式、公式等。自 Microsoft Excel XP 起，XML 导出选项添加到 Microsoft Excel，可将电子表格导出到 SpreadsheetML 文件。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenSpreadsheetMLFile.cpp" >}}
 
 ### **打开 HTML 文件**
 
-Aspose.Cells 允许您将 HTML 文件打开到 Workbook 对象中。 HTML 文件应该是 Microsoft 面向 Excel 的，即 MS-Excel 应该能够打开它。
+Aspose.Cells 允许您将 HTML 文件打开到工作簿对象中。 HTML 文件应该是面向 Microsoft Excel 的，即 MS-Excel 应该能够打开它。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenHTMLFile.cpp" >}}
 
 ### **打开 CSV 文件**
 
-逗号分隔值 (CSV) 文件包含值以逗号分隔的记录。数据存储为表格，其中每列由逗号分隔并由双引号引起来。如果字段值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出为 CSV。
+逗号分隔值 (CSV) 文件包含值以逗号分隔的记录。数据存储为表格，其中每列由逗号分隔并由双引号引起来。如果字段值包含双引号字符，则使用一对双引号字符进行转义。也可以用Microsoft Excel导出电子表格数据到CSV。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFile.cpp" >}}
 
 #### **打开 CSV 文件并替换无效字符**
 
-在 Excel 中，当打开带有特殊字符的 CSV 文件时，字符会被自动替换。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
+在 Excel 中，打开带有特殊字符的 CSV 文件时，会自动替换这些字符。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFileAndReplaceInvalidCharacters.cpp" >}}
 
@@ -77,6 +77,6 @@ StarSuite Calc 类似于 Microsoft Excel，支持公式、图表、函数和宏�
 
 ### **打开 FODS 文件**
 
-FODS 文件是保存在 OpenDocument XML 中的电子表格，没有任何压缩。 Aspose.Cells 可以读取 FODS 文件，如以下代码示例所示。
+FODS 文件是以 OpenDocument XML 格式保存的电子表格，没有任何压缩。 Aspose.Cells 可以读取 FODS 文件，如以下代码示例所示。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenFODSFile.cpp" >}}

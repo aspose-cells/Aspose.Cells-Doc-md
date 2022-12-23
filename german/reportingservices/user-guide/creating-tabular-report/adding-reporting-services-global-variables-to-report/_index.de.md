@@ -29,9 +29,9 @@ So fügen Sie Berichten globale Variablen hinzu:
 
 ).
 
-1.  Auswählen**Global** im linken Panel.
+1.  Wählen**Global** im linken Panel.
  Alle globalen Variablen sind rechts aufgelistet.
-1.  Auswählen**Berichtsname** und doppelklicken.
+1.  Wählen**Berichtsname** und doppelklicken.
  Der Ausdruck erscheint in der**Bearbeiten** Kasten oben.
 
    **Auswahl einer globalen Variablen** 

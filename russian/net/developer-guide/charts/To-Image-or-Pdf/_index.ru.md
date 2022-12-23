@@ -7,7 +7,7 @@ url: /ru/net/chart-rendering/
 ---
 ## **Отображение диаграмм**
 
- Aspose.Cells API-интерфейсы поддерживают преобразование диаграмм Excel в изображения и форматы PDF без каких-либо дополнительных инструментов или приложений. Чтобы обеспечить поддержку рендеринга,[**Диаграмма**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) класс выставил[**Изображать**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**Топдф**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)методы с множеством перегрузок для наилучшего соответствия требованиям приложения.
+ API-интерфейсы Aspose.Cells поддерживают преобразование диаграмм Excel в изображения и форматы PDF без каких-либо дополнительных инструментов или приложений. Чтобы обеспечить поддержку рендеринга,[**Диаграмма**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) класс выставил[**Изображать**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**Топдф**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)методы с множеством перегрузок для наилучшего соответствия требованиям приложения.
 
 ### **Преобразование диаграмм в изображения**
 
@@ -19,9 +19,9 @@ url: /ru/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Преобразование диаграммы в PDF**
+### **График рендеринга на PDF**
 
- Чтобы преобразовать диаграмму в формат PDF, API-интерфейсы Aspose.Cells предоставили[**Диаграмма.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)метод с возможностью сохранения результирующего PDF-файла на пути к диску или в потоке.
+ Чтобы отобразить диаграмму в формате PDF, API-интерфейсы Aspose.Cells предоставили[**Диаграмма.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)метод с возможностью сохранения результирующего PDF на пути к диску или в потоке.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -62,7 +62,7 @@ url: /ru/net/chart-rendering/
 ||ScatterConnectedByCurvesWithoutDataMarker|**Д**|
 ||ScatterConnectedByLinesWithDataMarker|**Д**|
 ||ScatterConnectedByLinesWithoutDataMarker|**Д**|
-|**Область**|Область|**Д**|
+|**Площадь**|Площадь|**Д**|
 ||ПлощадьСложенный|**Д**|
 ||Area100PercentStacked|**Д**|
 ||Площадь3D|**Д**|
@@ -79,7 +79,7 @@ url: /ru/net/chart-rendering/
 ||ПоверхностьКонтурКаркас|Н|
 |**Пузырь**|Пузырь|**Д**|
 ||Пузырь3D|Н|
-|**Запас**|ЗапасВысокийНизкийЗакрыть|**Д**|
+|**Акции**|ЗапасВысокийНизкийЗакрыть|**Д**|
 ||ЗапасОткрытыйВысокийНизкийЗакрыть|**Д**|
 ||StockVolumeHighLowClose|**Д**|
 ||StockVolumeOpenHighLowClose|**Д**|
@@ -115,7 +115,7 @@ url: /ru/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения нулевого размера или пустой PDF.
+Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения нулевого размера или пустое PDF.
 
 {{% /alert %}}
 

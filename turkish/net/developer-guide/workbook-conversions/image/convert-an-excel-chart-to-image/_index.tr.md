@@ -8,7 +8,7 @@ url: /tr/net/convert-an-excel-chart-to-image/
 
 Grafikler görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, kalıpları ve eğilimleri görmesini kolaylaştırır. Örneğin, çalışma sayfası numaralarının sütunlarını analiz etmek yerine, bir grafik bir bakışta satışların düşüp yükselmediğini veya gerçek satışların öngörülen satışlarla karşılaştırmasını gösterir. İnsanlardan sık sık istatistiksel ve grafik bilgileri anlaşılması kolay ve bakımı kolay bir şekilde sunmaları istenir. Bir resim yardımcı olur.
 
-Bazen bir uygulamada veya web sayfalarında grafiklere ihtiyaç duyulur. Veya bir Word belgesi, bir PDF dosyası, bir PowerPoint sunumu veya başka bir uygulama için gerekli olabilir. Her durumda, grafiği başka bir yerde kullanabilmek için bir görüntü olarak işlemek istersiniz.
+Bazen bir uygulamada veya web sayfalarında grafiklere ihtiyaç duyulur. Veya bir Word belgesi, PDF dosyası, PowerPoint sunumu veya başka bir uygulama için gerekli olabilir. Her durumda, grafiği başka bir yerde kullanabilmek için bir görüntü olarak işlemek istersiniz.
 
 {{% /alert %}}
 
@@ -18,11 +18,11 @@ Buradaki örneklerde, bir pasta grafiği ve bir sütun karakteri görüntülere 
 
 ### **Pasta Grafiği Görüntü Dosyasına Dönüştürme**
 
-Önce Microsoft Excel'de bir pasta grafik oluşturun ve ardından bunu Aspose.Cells ile bir görüntü dosyasına dönüştürün. Bu örnekteki kod, Microsoft Excel dosyası şablonundaki pasta grafiği temel alan bir EMF görüntüsü oluşturur.
+Önce Microsoft Excel'de bir pasta grafik oluşturun ve ardından bunu Aspose.Cells ile bir görüntü dosyasına dönüştürün. Bu örnekteki kod, şablon Microsoft Excel dosyasındaki pasta grafiği temel alarak bir EMF görüntüsü oluşturur.
 
 |**Çıktı: pasta grafiği resmi**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-an-excel-chart-to-image_1.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-an-excel-chart-to-image_1.png)|
 
 1. Microsoft Excel'de bir pasta grafiği oluşturun:
  1. Microsoft Excel'de yeni bir çalışma kitabı açtı.
@@ -32,7 +32,7 @@ Buradaki örneklerde, bir pasta grafiği ve bir sütun karakteri görüntülere 
 
 |**Giriş dosyası.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-an-excel-chart-to-image_2.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-an-excel-chart-to-image_2.png)|
 
 1. Aspose.Cells'i indirin ve yükleyin:
    1. [İndir Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
@@ -50,11 +50,11 @@ Buradaki örneklerde, bir pasta grafiği ve bir sütun karakteri görüntülere 
 
 ### **Sütun Grafiğini Görüntü Dosyasına Dönüştürme**
 
-Önce Microsoft Excel'de bir sütun grafiği oluşturun ve yukarıdaki gibi bir görüntü dosyasına dönüştürün. Örnek kodu çalıştırdıktan sonra, şablon Excel dosyasındaki sütun grafiğine dayalı olarak bir JPEG dosyası oluşturulur.
+Önce Microsoft Excel'de bir sütun grafiği oluşturun ve yukarıdaki gibi bir görüntü dosyasına dönüştürün. Örnek kodu çalıştırdıktan sonra, şablon Excel dosyasındaki sütun grafiğine göre bir JPEG dosyası oluşturulur.
 
 |**Çıktı dosyası: bir sütun grafiği görüntüsü.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-an-excel-chart-to-image_3.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-an-excel-chart-to-image_3.png)|
 
 1. Microsoft Excel'de bir sütun grafiği oluşturun:
  1. Microsoft Excel'de yeni bir çalışma kitabı açın.
@@ -64,7 +64,7 @@ Buradaki örneklerde, bir pasta grafiği ve bir sütun karakteri görüntülere 
 
 |**Giriş dosyası.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](convert-an-excel-chart-to-image_4.png)|
+|![yapılacaklar:resim_alternatif_metin](convert-an-excel-chart-to-image_4.png)|
 
 1. Yukarıda açıklandığı gibi referanslarla bir proje oluşturun.
 1. Grafiği dinamik olarak bir görüntüye dönüştürün. Görevi gerçekleştirmek için bileşen tarafından kullanılan kod aşağıdadır. Kod bir öncekine benzer:

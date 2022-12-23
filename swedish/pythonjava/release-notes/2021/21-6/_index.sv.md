@@ -21,14 +21,14 @@ url: /sv/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 |CELLSJAVA-43491|Värdet på formeln som använder datatabellen kan inte extraheras korrekt|
 |CELLSJAVA-43498|Formaterat resultat av numeriskt värde är felaktigt för zh_CN-språk|
 |CELLSJAVA-43451|Innehållet i Excel-filen visas felaktigt och ChangeStyle (vår) demo fungerar inte korrekt|
-|CELLSJAVA-43484|Innehållslayouten är inkonsekvent i Excel till PDF-rendering|
+|CELLSJAVA-43484|Innehållslayouten är inkonsekvent i Excel med PDF-rendering|
 |CELLSJAVA-43465|Saknar några serier av grafer vid konvertering av Excel till PDF|
-|CELLSJAVA-43468|Problem med ekvationen av rak linje i Excel till PDF-rendering|
+|CELLSJAVA-43468|Problem med ekvationen av rät linje i Excel till PDF-rendering|
 |CELLSJAVA-43432|Diagraminnehåll matchade inte när ett XLS-filformat sparades på nytt|
 |CELLSJAVA-43475|Regression: Linjelindade celler skärs av|
 |CELLSJAVA-43478|Regression: NUMBERS till PDF, mycket data saknas|
-|CELLSJAVA-43485|Regression: Extra innehåll vid rendering av PDF från ODS|
-|CELLSJAVA-43492| Konvertering av en XML-fil (SpreadsheetML) tar bort Hidden-inställningen i "Namndefinition" i utdata XLS och XLSX|
+|CELLSJAVA-43485|Regression: Extra innehåll vid rendering PDF från ODS|
+|CELLSJAVA-43492| Konvertering av en XML-fil (SpreadsheetML) tar bort den dolda inställningen i "Namndefinition" i utdata XLS och XLSX|
 |CELLSJAVA-43486|NullPointerException vid konvertering av ett HTML-dokument till en arbetsbok|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -41,7 +41,7 @@ I gamla versioner gäller den här egenskapen endast formelceller. För att det 
 
 ### **Ändrar beteendet för Cell.Value-egenskapen.**
 
-I gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
+gamla versioner returnerar den här egenskapen alltid DateTime-objekt om cellen är formaterad som datumtid och dess värde är numeriskt. Från 21.6 returnerar den här egenskapen själva det numeriska värdet om det överskrider det maximala giltiga DateTime-värdet. Med denna ändring överensstämmer det returnerade objektet med det som visas i formelfältet i ms excel.
 
 ### **Lägger till egenskapen Cell.IsNumericValue.**
 

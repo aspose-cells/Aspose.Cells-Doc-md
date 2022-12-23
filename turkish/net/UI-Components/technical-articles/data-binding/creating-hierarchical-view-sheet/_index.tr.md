@@ -14,11 +14,11 @@ url: /tr/net/creating-hierarchical-view-sheet/
 
  Bu konu, hiyerarşik bir görünüm sayfası oluşturmayı tartışır. Sayfadaki bazı satırlar alt görünümlere sahiptir. Kullanıcı satırı tıkladığında**Genişletmek**
 
- buton{{< emoticons/cross >}} , o satırın alt görünüm tablosu aşağı doğru genişletilir. Bu özellik, hiyerarşik bir görünüm raporu oluşturmak için çok yararlıdır.
+ buton{{< emoticons/cross >}} , o satırın alt görünüm tablosu aşağı doğru genişletilir. Bu özellik, hiyerarşik bir görünüm raporu oluşturmak için çok faydalıdır.
 
 **Hiyerarşik görünüme sahip bir tablo** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-hierarchical-view-sheet_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
 ## **DataTable'lar için İlişkiler Oluşturma**
@@ -36,20 +36,20 @@ Bunun çalışması için, veri tabloları arasında aşağıdaki ilişkilerin k
 
 1.  DataTable Siparişlerinde bir yabancı anahtar oluşturun, anahtar alanı CustomerID'dir.
 
-![yapılacaklar:resim_alternatif_Metin](creating-hierarchical-view-sheet_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_2.png)
 
 
 
 
 1. DataTable Sipariş Ayrıntılarında bir yabancı anahtar oluşturun, anahtar alanı OrderID'dir.
 
-![yapılacaklar:resim_alternatif_Metin](creating-hierarchical-view-sheet_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_3.png)
 
 
 
  DataSet Tasarımcısı artık şöyle görünür:
 
-![yapılacaklar:resim_alternatif_Metin](creating-hierarchical-view-sheet_4.png)
+![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_4.png)
 ### **Bağlama Çalışma Sayfası**
  şimdi kullan**Çalışma Sayfaları Tasarımcısı** çalışma sayfası için DataSource ve DataMember'ı ayarlamak ve veri alanı bağlama sütunlarını yapılandırmak için.
 
@@ -59,7 +59,7 @@ Bunun çalışması için, veri tabloları arasında aşağıdaki ilişkilerin k
 
  çalışma sayfasını kök üst DataTable Müşterilerine.
 
-![yapılacaklar:resim_alternatif_Metin](creating-hierarchical-view-sheet_5.png)
+![yapılacaklar:resim_alternatif_metin](creating-hierarchical-view-sheet_5.png)
 ### **Alt Tabloları Bağlama Sütunlarını Özelleştirme**
  Denetim, geliştiricilerin alt tabloların bağlama sütunlarını özelleştirmek için kullandıkları GridWeb.BindingChildView adlı bir olay sağlar. Bu örnek
 
@@ -124,7 +124,7 @@ Asppose.Grid.Web.Data.WebWorksheet Sınıfı bazı faydalı özelliklere sahipti
 
 - Örneğin, EnableCreateBindColumnHeader özelliği, sayfadaki ilişkili sütunun başlıklarını veya sayfadaki sütunu oluşturmak için kullanılır.
 
- headers, ilişkili sütun adlarını görüntüler. Değerleri alır**doğru** veya**yanlış**. 
+ headers, ilişkili sütun adlarını görüntüler. Değerleri alır**doğru** veya**YANLIŞ**. 
 
 - BindStartRow ve BindStartColumn özellikleri, kaynağın bağlı olması gereken GridWeb denetimi sayfasındaki konumu belirtir.
 - EnableExpandChildView özelliği, çalışma sayfası için genişletilmiş alt görünümü devre dışı bırakmak için kullanılır. Varsayılan olarak true olarak ayarlanmıştır.
@@ -261,7 +261,7 @@ Yolu karart As String = MapPath(".")
 
  db.OleDbConnection1.ConnectionString = "Sağlayıcı=Microsoft.Jet.OLEDB.4.0;Veri Kaynağı=" + yol + "\Database\Northwind.mdb"
 
- Denemek
+ Deneyin
 
  Veritabanına bağlanır ve verileri getirir.
 

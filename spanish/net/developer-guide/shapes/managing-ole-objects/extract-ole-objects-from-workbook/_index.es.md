@@ -34,7 +34,7 @@ Todos los componentes Aspose, cuando están instalados, funcionan en modo de eva
 
 ### **Crear un proyecto**
 
-comienzo**Visual Studio.Net** y cree una nueva aplicación de consola. Este ejemplo mostrará una aplicación de consola C#, pero también puede usar VB.NET.
+Comenzar**Visual Studio.Net** y cree una nueva aplicación de consola. Este ejemplo mostrará una aplicación de consola C#, pero también puede usar VB.NET.
 
 1. Añadir referencias
  1. Agregue una referencia al componente Aspose.Cells a su proyecto, por ejemplo, agregue una referencia a ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll

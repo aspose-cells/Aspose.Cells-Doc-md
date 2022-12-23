@@ -21,10 +21,10 @@ Geliştiriciler, Microsoft Excel dosyalarındaki çalışma sayfalarını progra
 Programlı olarak yeni bir Excel dosyası oluşturmak için:
 
 1.  Şunun bir nesnesini oluşturun:[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf.
-1.  Ara[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıf. Excel dosyasına otomatik olarak boş bir çalışma sayfası eklenir. Yeni çalışma sayfasının sayfa dizini şuraya geçirilerek başvurulabilir:[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Toplamak.
+1.  Ara[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) yöntemi[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) sınıf. Excel dosyasına otomatik olarak boş bir çalışma sayfası eklenir. Yeni çalışma sayfasının sayfa dizini şuraya geçirilerek başvurulabilir:[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Toplamak.
 1. Bir çalışma sayfası referansı edinin.
 1. Çalışma sayfaları üzerinde çalışma gerçekleştirin.
-1.  Çağırarak yeni Excel dosyasını yeni çalışma sayfalarıyla kaydedin.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**Kaydetmek**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)yöntem.
+1.  Çağırarak yeni Excel dosyasını yeni çalışma sayfalarıyla kaydedin.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**Kayıt etmek**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)yöntem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
@@ -57,7 +57,7 @@ Adını veya dizinini belirterek herhangi bir çalışma sayfasına erişin.
 Bazen, bir kullanıcı bir Microsoft Excel dosyasını Excel'de açtığında belirli bir çalışma sayfasının etkin olması ve görüntülenmesi gerekir. Benzer şekilde, belirli bir hücreyi etkinleştirmek ve kaydırma çubuklarını etkin hücreyi gösterecek şekilde ayarlamak isteyebilirsiniz.
 Aspose.Cells tüm bu görevleri yapabilecek kapasitededir.
 
- Bir**aktif sayfa** üzerinde çalıştığınız bir sayfadır: sekmedeki etkin sayfanın adı varsayılan olarak kalındır.
+ Bir**etkin sayfa** üzerinde çalıştığınız bir sayfadır: sekmedeki etkin sayfanın adı varsayılan olarak kalındır.
 
  Bir**aktif hücre** seçili bir hücredir, yazmaya başladığınızda verilerin girildiği hücredir. Aynı anda yalnızca bir hücre etkindir. Etkin hücre kalın bir kenarlıkla vurgulanır.
 
@@ -66,7 +66,7 @@ Aspose.Cells tüm bu görevleri yapabilecek kapasitededir.
 Aspose.Cells, bir sayfa ve hücreyi etkinleştirmek için özel API çağrıları sağlar. Örneğin,[**Aspose.Cells.WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/activesheetindex)özelliği, bir çalışma kitabındaki etkin sayfayı ayarlamak için kullanışlıdır.
 Benzer şekilde,[**Aspose.Cells.Worksheet.ActiveCell**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/activecell)özelliği, çalışma sayfasında etkin bir hücre ayarlamak ve almak için kullanılır.
 
-Yatay veya dikey kaydırma çubuklarının, belirli verileri göstermek istediğiniz satır ve sütun dizini konumunda olduğundan emin olmak için,[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) ve[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)özellikleri.
+Yatay veya dikey kaydırma çubuklarının, belirli verileri göstermek istediğiniz satır ve sütun dizini konumunda olduğundan emin olmak için,[**Aspose.Cells.Worksheet.FirstVisibleRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblerow) ve[**Aspose.Cells.Worksheet.FirstVisibleColumn**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/firstvisiblecolumn)özellikler.
 
 Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini ve içinde etkin bir hücrenin nasıl oluşturulacağını gösterir. Oluşturulan çıktıda, kaydırma çubukları kaydırılarak 2. sıra ve 2. sütun ilk görünür satır ve sütunları olur.
 

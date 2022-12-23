@@ -17,7 +17,7 @@ keywords: java merge and unmerge cells in a range, java merge and unmerge cells 
 
 Aşağıdaki görüntü, örnek kodla oluşturulan çıktı Excel dosyasını gösterir. Gördüğünüz gibi, A1:D4 aralığı tek bir hücrede birleştirildi.
 
-![yapılacaklar:resim_alternatif_Metin](merge-or-unmerge-range-of-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](merge-or-unmerge-range-of-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-MergeUnmergeRangeofCells-MergeUnmergeRangeofCells.java" >}}
 

@@ -24,7 +24,7 @@ Dans cet article, nous comparons VSTO avec Aspose.Cells for .NET.
 
 -  Vérifiez[documentation Aspose.Cells](https://docs.aspose.com/cells/net/).
 -  Voyez comment cela fonctionne dans le[démos en ligne](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  Essaye le:[Télécharger](https://downloads.aspose.com/cells/net) une version d'évaluation gratuite.
+-  Essaye le:[Télécharger](https://downloads.aspose.com/cells/net)une version d'évaluation gratuite.
 
 Cet article compare VSTO et Aspose.Cells sur différents aspects liés à Microsoft Excel. La liste n'est pas complète mais elle représente quelques enjeux que les décideurs doivent comprendre avant de prendre une décision finale avant d'adopter une approche.
 
@@ -34,13 +34,13 @@ VSTO nécessite le framework .NET (y compris Visual Studio Tools pour Office SE 
 
 Au contraire, Aspose.Cells for .NET n'exige pas nécessairement le Framework .NET côté client pour le scénario sous-jacent. Les applications Office construites avec le composant sont légères et garanties de fonctionner sur les systèmes Microsoft Windows sous une charge importante.
 
-### **Fonctionnalités**
+### **Caractéristiques**
 
 Les fonctionnalités fournies par VSTO dépendent de la combinaison de produits VSTO et Visual Studio que vous avez installée. Les tâches courantes effectuées par VSTO pour Microsoft Office Excel 2003 incluent l'ajout de données à Cells, la création, l'ouverture et l'enregistrement de classeurs, l'ajout, le déplacement et le masquage de feuilles de calcul, la protection de feuilles de calcul, les plages nommées, l'objet de liste, la mise en forme des styles, la recherche de texte dans les cellules, le tri des données, impression et calculs de formules Excel.
 
 Aspose.Cells fournit tout le nécessaire pour gérer les fichiers Office Excel Microsoft et bien plus encore. Le API donne aux développeurs d'excellents résultats avec un minimum d'effort. Aspose.Cells fournit de nombreuses fonctions puissantes et rapides. le API fournit des API faciles à utiliser pour tous les types d'activités de gestion de feuille de calcul, couvrant presque toutes les fonctionnalités fournies par Microsoft Excel. Toutes les tâches répertoriées pour VSTO peuvent facilement être effectuées par Aspose.Cells.
 
-Aspose.Cells prend également en charge plusieurs fonctionnalités avancées, notamment la prise en charge des marqueurs intelligents, l'importation et l'exportation de données vers et depuis un certain nombre de sources de données, d'objets et de fichiers Excel, la prise en charge des clients COM (client ASP) l'interopérabilité avec le composant, la conversion des fichiers Excel au format PDF , en enregistrant des graphiques et des feuilles de calcul Excel sous forme de fichiers image.
+Aspose.Cells prend également en charge plusieurs fonctionnalités avancées, notamment la prise en charge des marqueurs intelligents, l'importation et l'exportation de données vers et depuis un certain nombre de sources de données, d'objets et de fichiers Excel, la prise en charge des clients COM (client ASP) L'interopérabilité avec le composant, la conversion des fichiers Excel au format PDF , en enregistrant des graphiques et des feuilles de calcul Excel sous forme de fichiers image.
 
 ### **Sécurité**
 
@@ -77,7 +77,7 @@ VSTO a une longue liste de pré-requis :
 - Une ou plusieurs des éditions suivantes de Visual Studio Tools pour Office :
  - Microsoft Outils Visual Studio 2005 pour le système Office Microsoft
  - Microsoft Outils Visual Studio 2005 pour Office System Microsoft 2007
- Visual Studio 2008 Édition Professionnelle
+ - Visual Studio 2008 Édition Professionnelle
  - Visual Studio 2008 Team Suite Édition
  - Une version de Microsoft Office :
  - Microsoft Office Professionnel 2003 SP1

@@ -15,10 +15,10 @@ url: /es/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41801|Las etiquetas de texto se superponen en la imagen EMF|Insecto|
 |CELLSJAVA-41834|Se lanza una excepción al copiar el libro de trabajo|Insecto|
 |CELLSJAVA-41819|Hoja de cálculo a HTML: la alineación del texto en una forma es incorrecta después de copiar el tema de la hoja de cálculo de origen|Insecto|
-|CELLSJAVA-41824|El gráfico no se representa en el PDF de salida|Insecto|
-|CELLSJAVA-41805|Faltan las etiquetas del eje X en el PDF del gráfico|Insecto|
-|CELLSJAVA-41767|Formato de número incorrecto de las etiquetas del eje X en el PDF del gráfico|Insecto|
-|CELLSJAVA-41640|Los guiones largos no se muestran correctamente en el PDF o la imagen de salida del gráfico|Insecto|
+|CELLSJAVA-41824|El gráfico no se representa en la salida PDF|Insecto|
+|CELLSJAVA-41805|Faltan etiquetas del eje X en el gráfico PDF|Insecto|
+|CELLSJAVA-41767|Formato de número incorrecto de las etiquetas del eje X en el gráfico PDF|Insecto|
+|CELLSJAVA-41640|Los guiones largos no se muestran correctamente en la salida PDF/Imagen del gráfico|Insecto|
 |CELLSJAVA-41604|Las líneas de cuadrícula horizontales del gráfico no aparecen correctamente en PDF|Insecto|
 |CELLSJAVA-41832|Faltan algunas barras de gráfico al representar la hoja de trabajo en la imagen|Insecto|
 |CELLSJAVA-41837|Agregue Chart.toPDF (java.io.OutputStream, com.aspose.cells.PdfSaveOptions)|Insecto|
@@ -32,42 +32,42 @@ url: /es/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-41866|Cómo configurar las propiedades de entrada de leyenda para las opciones de texto|Nueva caracteristica|
 |CELLSJAVA-41865|Cree un cuadro de texto en el que cada línea tenga una alineación horizontal diferente|Nueva caracteristica|
 |CELLSJAVA-41873|La conversión a HTML genera filas vacías redundantes|Insecto|
-|CELLSJAVA-41869|La alineación del texto se cambia después de volver a guardar un archivo XLS de plantilla|Insecto|
+|CELLSJAVA-41869|La alineación del texto se cambia después de volver a guardar un archivo de plantilla XLS|Insecto|
 |CELLSJAVA-41854|Archivo de Excel con DataBars no convertido a HTML correctamente|Insecto|
 |CELLSJAVA-41851|El gráfico dinámico creado con Aspose.Cells no se muestra en Excel 2016 para MAC|Insecto|
-|CELLSJAVA-41840|Aspose.Cells agrega nulo al final de la ruta para recursos HTML|Insecto|
+|CELLSJAVA-41840|Aspose.Cells agrega nulo al final de la ruta de recursos HTML|Insecto|
 |CELLSJAVA-41878|Las API de LightCells solo generan eventos para la primera columna de la fila|Insecto|
 |CELLSJAVA-41859|Cell aparecen bordes después de volver a guardar XLS|Insecto|
 |CELLSJAVA-41888|La imagen del logotipo se pierde al convertir XLS a PDF|Insecto|
 |CELLSJAVA-41874|La posición del carácter es diferente en el PDF renderizado de un archivo XLS|Insecto|
-|CELLSJAVA-41852|Superposición de texto cuando la hoja de trabajo se convierte a EMF en Linux|Insecto|
-|CELLSJAVA-41823|La densidad del texto y los saltos de línea son diferentes en comparación con el PDF generado por Excel|Insecto|
+|CELLSJAVA-41852|El texto se superpone cuando la hoja de trabajo se convierte a EMF en Linux|Insecto|
+|CELLSJAVA-41823|La densidad del texto y los saltos de línea son diferentes en comparación con los generados por Excel PDF|Insecto|
 |CELLSJAVA-41822|El texto se recorta y se superpone al representar la hoja de cálculo en PDF|Insecto|
-|CELLSJAVA-41856|Problemas al renderizar el gráfico a PDF|Insecto|
+|CELLSJAVA-41856|Problemas al renderizar gráfico al PDF|Insecto|
 |CELLSJAVA-41855|Abrir y guardar el archivo de Excel cambia las líneas de tendencia|Insecto|
 |CELLSJAVA-41890|Libro de trabajo guardado dos veces, el contenido guardado la segunda vez será diferente de la primera vez|Insecto|
 |CELLSJAVA-41884|Problema con PageBreaks que no se ordenan antes de guardar en un archivo de Excel|Insecto|
 |CELLSJAVA-41876|Archivo corrupto si se abre, se guarda, se vuelve a abrir y se guarda con las API Aspose.Cells|Insecto|
 |CELLSJAVA-41867|Los valores del eje del gráfico cambiaron después de volver a guardar un archivo XLS|Insecto|
-|CELLSJAVA-41861|NullReferenceException al cargar un archivo Excel XLS|Insecto|
+|CELLSJAVA-41861|NullReferenceException al cargar un archivo de Excel XLS|Insecto|
 |CELLSJAVA-41298|No obtener información precisa sobre el formato de forma de WordArt de las API Aspose.Cells|Insecto|
 |CELLSJAVA-40366|Problema con el ícono incrustado: no se imprime|Insecto|
 |CELLSJAVA-41883|CellsException: tipo de función de complemento desconocido: 9, en Workbook.calculateFormula|Excepción|
 |CELLSJAVA-41858|CellsException: Error al calcular Cell[0BMW CAN Bus Codes V0.4!R4], en Workbook.calculateFormula|Excepción|
 |CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 4 en Workbook.save al volver a guardar XLS|Excepción|
 |CELLSJAVA-41864|Excepción: java.lang.IllegalStateException: codificación no válida: nulo al volver a guardar un archivo XLS|Excepción|
-|CELLSJAVA-41901|Las barras se mueven hacia arriba en el PDF de salida|Mejora|
+|CELLSJAVA-41901|Las barras se mueven hacia arriba en la salida PDF|Mejora|
 |CELLSJAVA-41909|La especificación de decimales numéricos personalizados y separadores de grupos para el libro de trabajo no funciona|Insecto|
 |CELLSJAVA-41895|El resultado del cálculo de la fórmula difiere del cálculo nativo de Excel|Insecto|
 |CELLSJAVA-41917|Las casillas de verificación no se representan correctamente cuando se usa el método SheetRender.toImage()|Insecto|
-|CELLSJAVA-41903|La orientación de los caracteres es diferente al renderizar a PDF|Insecto|
-|CELLSJAVA-41896|Faltan algunos caracteres o no se pegaron correctamente en la conversión de Excel a PDF|Insecto|
+|CELLSJAVA-41903|La orientación del carácter es diferente al renderizar a PDF|Insecto|
+|CELLSJAVA-41896|Faltan algunos caracteres o no se pegaron correctamente en Excel para la conversión PDF|Insecto|
 |CELLSJAVA-41740|Algunas de las imágenes de DataBar están en blanco|Insecto|
 |CELLSJAVA-41769|Las barras del gráfico no están alineadas correctamente con las celdas en PDF|Insecto|
-|CELLSJAVA-41905|Barras desalineadas después de renderizar la hoja de cálculo a EMF|Insecto|
-|CELLSJAVA-41894|Problema de espacios de caracteres al representar la hoja de cálculo en PDF|Insectos|
-|CELLSJAVA-41893|La imagen de fondo está distorsionada o borrosa en el PDF de salida|Insecto|
-|CELLSJAVA-41892|La imagen de fondo se estira en el PDF de salida|Insecto|
+|CELLSJAVA-41905|Barras desalineadas después de renderizar la hoja de cálculo al EMF|Insecto|
+|CELLSJAVA-41894|Problema de espacios de caracteres al renderizar la hoja de cálculo al PDF|Insectos|
+|CELLSJAVA-41893|La imagen de fondo está distorsionada o borrosa en la salida PDF|Insecto|
+|CELLSJAVA-41892|La imagen de fondo se estira en la salida PDF|Insecto|
 |CELLSJAVA-41916|Referencias de fórmulas externas rotas al usar Cells.copyColumns|Insecto|
 |CELLSJAVA-41915|Archivo XLSX dañado después de reemplazar el texto|Insecto|
 |CELLSJAVA-41912|Problema con removeFormula en una hoja de cálculo que hace referencia a rangos con nombre|Insecto|

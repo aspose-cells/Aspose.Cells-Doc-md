@@ -16,37 +16,37 @@ url: /de/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47549|Client-API zum Hinzufügen/Entfernen von Kommentaren für GridWeb|Neue Funktion|
 |CELLSNET-47555|Das Diagramm erlaubt es nicht, #NV als leere Zellen zu behandeln, wenn es als PDF gespeichert wird|Erweiterung|
 |CELLSNET-47579|Kaiti-Schriftart wird nicht richtig gerendert|Erweiterung|
-|CELLSNET-47154|Abfragetabellen werden nicht aus der ODS-Datei geladen|Erweiterung|
+|CELLSNET-47154|Abfragetabellen werden nicht aus der Datei ODS geladen|Erweiterung|
 |CELLSNET-47556|Erweiterung zum Einfrieren und Aufteilen von Arbeitsblättern|Erweiterung|
 |CELLSNET-47570|Makros sollten beim Kombinieren/Kopieren von Arbeitsmappen entfernt werden|Erweiterung|
 |CELLSNET-47543|Problem mit intelligenten Markierungen mit angewendeter bedingter Formatierung|Insekt|
-|CELLSNET-47561|Währungen mit benutzerdefiniertem Format werden in HTML außerhalb der Zelle angezeigt|Insekt|
-|CELLSNET-47562|Leeres Blatt mit exportierten Rasterlinieneinstellungen in HTML speichern|Insekt|
+|CELLSNET-47561|Währung mit benutzerdefiniertem Format wird außerhalb der Zelle in HTML angezeigt|Insekt|
+|CELLSNET-47562|Leeres Blatt mit exportierten Rasterlinieneinstellungen auf HTML speichern|Insekt|
 |CELLSNET-47569|Die Pivot-Tabelle wird nach der Konvertierung von XLSX in PDF nicht richtig angezeigt|Insekt|
 |CELLSNET-47475|CalculateFormula() rechnet anders als MS Excel|Insekt|
 |CELLSNET-47531|Formeln mit nicht existierenden Namen werden als `WorkbookName`!Name angezeigt|Insekt|
-|CELLSNET-47545|Benutzerdefinierte negative Zahl wird falsch in PDF gerendert|Insekt|
+|CELLSNET-47545|Benutzerdefinierte negative Nummer wurde falsch auf PDF übertragen|Insekt|
 |CELLSNET-47548|Problem beim Importieren von Textdateien mit doppelten Anführungszeichen|Insekt|
-|CELLSNET-47558|Benutzerdefinierte negative Zahlen (unter Verwendung der Region Schweiz) werden falsch in PDF gerendert|Insekt|
+|CELLSNET-47558|Benutzerdefinierte negative Nummern (unter Verwendung der Region Schweiz) werden falsch an PDF ausgegeben|Insekt|
 |CELLSNET-47075|Sie müssen das Scrollen von zwei Rastern synchronisieren, genau wie Excels SyncScrollingSideBySide.|Insekt|
 |CELLSNET-47559|Zellen können nicht mit den Pfeiltasten der Tastatur ausgewählt werden, wenn das Arbeitsblatt als schreibgeschützt festgelegt ist|Insekt|
-|CELLSNET-47360|Transparente Markierungspunkte im Diagramm in der Excel-Datei werden in der Ausgabe-PDF verzerrt|Insekt|
+|CELLSNET-47360|Transparente Markierungspunkte im Diagramm in der Excel-Datei werden in der Ausgabe PDF verzerrt|Insekt|
 |CELLSNET-47565|Das Fußzeilenbild im Vordergrund wird zum Hintergrund|Insekt|
-|CELLSNET-46502|Die XLSX-zu-TIFF-Konvertierung führt zu einer Blackbox|Insekt|
+|CELLSNET-46502|Die Konvertierung von XLSX in TIFF führt zu einer Blackbox|Insekt|
 |CELLSNET-46821|Konvertieren des Arbeitsblatts in TIFF - Bild ist geschwärzt|Insekt|
-|CELLSNET-47458|Formverzerrung nach der Konvertierung in eine PDF-Datei|Insekt|
-|CELLSNET-47551|X-Achse beim Konvertieren von Excel-Diagramm in PDF nicht korrekt|Insekt|
+|CELLSNET-47458|Formverzerrung nach Konvertierung in PDF-Datei|Insekt|
+|CELLSNET-47551|X-Achse beim Konvertieren des Excel-Diagramms in PDF nicht korrekt|Insekt|
 |CELLSNET-47546| Das Löschen leerer Zeilen/Spalten beschädigt das Excel-Dokument|Insekt|
 |CELLSNET-47552|Falsche PowerQueryFormula.FormulaDefinition|Insekt|
 |CELLSNET-47573|Die gewünschte Formatierung kann mit der Umschalttaste nicht erstellt werden|Insekt|
-|CELLSNET-47574|XLS to HTML erzeugt eine leere Datei|Insekt|
+|CELLSNET-47574|XLS bis HTML erzeugt eine leere Datei|Insekt|
 |CELLSNET-47581|MaxColumn wird nach dem Aufruf von InsertCutCells() auf Column XFD gesetzt|Insekt|
 |CELLSNET-47586|Arbeitsmappe mit Wasserfalldiagramm kann nach dem Kopieren nicht mit Excel 2016 geöffnet werden|Insekt|
 |CELLSNET-47547|Ausnahme beim Hinzufügen von Slicer für die Tabelle ausgelöst|Ausnahme|
 |CELLSNET-47553|Ausnahme beim Speichern einer XLS-Datei in XLSX|Ausnahme|
 |CELLSNET-47563|Ausnahme "Datei ist beschädigt" beim Laden eines XLS-Dateiformats|Ausnahme|
 |CELLSNET-47580|ArgumentOutOfRangeException beim Konvertieren von Excel|Ausnahme|
-|CELLSNET-47592|Ausnahme beim Konvertieren bestimmter XLSX in XLS|Ausnahme|
+|CELLSNET-47592|Ausnahme bei der Umwandlung bestimmter XLSX in XLS|Ausnahme|
 |CELLSNET-47557|Beim Kombinieren von Arbeitsmappen fehlen einige Eigenschaften|Rückfall|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -55,7 +55,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 
 ### **Fügt die AbstractCalculationEngine.ProcessBuiltInFunctions-Eigenschaft hinzu**
 
-Aus Gründen der Leistung und Benutzerfreundlichkeit haben wir diese Eigenschaft hinzugefügt und als Standardwert festgelegt**FALSCH** So kann sich der Benutzer auf die Funktionen konzentrieren, die von der integrierten Engine nicht unterstützt werden. Wenn die vorhandene Implementierung des Benutzers von**AbstractCalculationEngine** die Berechnung einiger eingebauter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**Stimmt** aus**20.9**.
+ Aus Gründen der Leistung und Benutzerfreundlichkeit haben wir diese Eigenschaft hinzugefügt und als Standardwert festgelegt**FALSCH** So kann sich der Benutzer auf die Funktionen konzentrieren, die von der integrierten Engine nicht unterstützt werden. Wenn die vorhandene Implementierung des Benutzers von**AbstractCalculationEngine** die Berechnung einiger eingebauter Funktionen geändert hat, sollte der Benutzer diese Eigenschaft überschreiben, um sie so zu machen**wahr** von**20.9**.
 
 ### **Fügt die TxtLoadOptions.HasTextQualifier-Eigenschaft hinzu**
 
@@ -67,7 +67,7 @@ Gibt den Textqualifizierer für Zellenwerte in der Vorlagendatei an.
 
 ### **Fügt die HtmlSaveOptions.ImageScalable-Eigenschaft hinzu**
 
- Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**Stimmt**.
+ Gibt an, ob eine skalierbare Einheit zur Beschreibung der Bildbreite verwendet werden soll. Der Standardwert der Eigenschaft ist**wahr**.
 
 ### **Fügt die Slicer.AlternativeText-Eigenschaft hinzu**
 

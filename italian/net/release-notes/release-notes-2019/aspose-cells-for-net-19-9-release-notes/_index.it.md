@@ -10,12 +10,12 @@ url: /it/net/aspose-cells-for-net-19-9-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-46864|Supporta la lettura e il rendering Controllo dei file ODS|Nuova caratteristica|
 |CELLSNET-46877|Aggiungere l'overload SheetRender.ToPrinter(PrinterSettings PrinterSettings) alle API|Nuova caratteristica|
 |CELLSNET-46907|Configura il livello di compressione ZIP per XLSX/XLSB|Nuova caratteristica|
-|CELLSNET-46890|I risultati della divisione di numeri interi non devono essere assegnati a variabili in virgola mobile|Insetto|
+|CELLSNET-46890|risultati della divisione di numeri interi non devono essere assegnati a variabili in virgola mobile|Insetto|
 |CELLSNET-46883|Le tabelle pivot non conservano più opzioni di selezione dopo l'elaborazione degli indicatori intelligenti|Insetto|
 |CELLSNET-46874|Valori non derivati dalla formula e richiedono la pressione di F2 per ottenere i valori nelle celle|Insetto|
 |CELLSNET-46904|I collegamenti ipertestuali vengono persi durante l'importazione di dati da DataTable|Insetto|
@@ -31,12 +31,12 @@ url: /it/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46887|La formattazione condizionale non viene mantenuta dopo aver aperto il file in MS Excel e averlo salvato.|Insetto|
 |CELLSNET-46891|Il riempimento sfumato di OleObject viene letto come FillType.Solid|Insetto|
 |CELLSNET-46894|Mostra l'impostazione della scheda del foglio deselezionata durante il salvataggio del file Excel|Insetto|
-|CELLSNET-46906|Aspose.Cells impiccato all'apertura di un file XLSX|Insetto|
+|CELLSNET-46906|Aspose.Cells impiccato all'apertura di un fascicolo XLSX|Insetto|
 |CELLSNET-46909|La formattazione dell'oggetto OLE è cambiata dopo l'apertura e il salvataggio del file Excel|Insetto|
 |CELLSNET-46857|Le connessioni del filtro sul grafico pivot perdono le impostazioni al salvataggio dopo l'aggiornamento delle tabelle pivot|Insetto|
 |CELLSNET-46862|L'impostazione "Nascondi elementi senza dati" nell'affettatrice viene persa dopo l'aggiornamento delle tabelle pivot|Insetto|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Rimuove la proprietà Chart.Rotation obsoleta**
 Usare invece la proprietà Chart.RotationAngle.
 #### **Rimuove la proprietà Chart.IsDataTableShown obsoleta**

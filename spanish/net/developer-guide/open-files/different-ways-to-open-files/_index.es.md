@@ -12,13 +12,13 @@ Con Aspose.Cells es sencillo abrir archivos, por ejemplo, para recuperar datos o
 
 ## **Abrir un archivo a través de una ruta**
 
- Los desarrolladores pueden abrir un archivo de Excel Microsoft usando su ruta de archivo en la computadora local especificándolo en el**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)**constructor de clases. Simplemente pase la ruta en el constructor como un*cuerda*. Aspose.Cells detectará automáticamente el tipo de formato de archivo.
+ Los desarrolladores pueden abrir un archivo de Excel Microsoft usando su ruta de archivo en la computadora local especificándolo en el**[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook)**constructor de clases. Simplemente pase la ruta en el constructor como un*cadena*. Aspose.Cells detectará automáticamente el tipo de formato de archivo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughPath-1.cs" >}}
 
 ## **Abrir un archivo a través de una secuencia**
 
-También es sencillo abrir un archivo de Excel como una secuencia. Para hacerlo, use una versión sobrecargada del constructor que toma el*Corriente*objeto que contiene el archivo.
+También es sencillo abrir un archivo de Excel como una secuencia. Para hacerlo, use una versión sobrecargada del constructor que toma el*Arroyo*objeto que contiene el archivo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningFilesThroughStream-1.cs" >}}
 
@@ -40,7 +40,7 @@ Aquí está la implementación de la*Carga personalizada*clase a la que se hace 
 
 {{% alert color="primary" %}}
 
-Se generará una excepción si intenta abrir archivos de Excel no nativos u otros formatos de archivo (por ejemplo, PPT/PPTX, DOC/DOCX, etc.) antes del Aspose.Cells.
+Se lanzará una excepción si intenta abrir archivos de Excel no nativos u otros formatos de archivo (por ejemplo, PPT/PPTX, DOC/DOCX, etc.) antes del Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

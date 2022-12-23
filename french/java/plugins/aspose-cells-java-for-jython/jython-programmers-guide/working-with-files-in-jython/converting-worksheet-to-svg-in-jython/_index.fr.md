@@ -1,5 +1,5 @@
 ﻿---
-title: Conversion d'une feuille de calcul en SVG dans Jython
+title: Conversion de la feuille de calcul en SVG dans Jython
 type: docs
 weight: 40
 url: /fr/java/converting-worksheet-to-svg-in-jython/

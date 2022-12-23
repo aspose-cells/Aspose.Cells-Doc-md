@@ -16,7 +16,7 @@ url: /ja/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51355|Range.Top、Left、Width、Height 単位はポイント|
 |CELLSNET-51367|html として保存するときに、すべてのシートを 1 ページに変換します。|
 |CELLSNET-51486|小さな正方形としてレンダリングされたテキスト|
-|CELLSNET-51492|XLSX を HTML に変換するときにデフォルトのフォントが適用されない|
+|CELLSNET-51492|XLSX を HTML に変換すると、デフォルトのフォントが適用されない|
 |CELLSNET-51306|最新バージョンの Aspose.Cells for .NET を使用すると、ピボット テーブル スタイルが正しくコピーされない|
 |CELLSNET-51268|を誤って扱う COUNTIFS 式の問題|
 |CELLSNET-51297|Cell.GetPrecedents() は、式が定義された名前を参照する場合、すべての参照元を提供しません。|
@@ -29,12 +29,12 @@ url: /ja/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51001|チャート上の形状オブジェクトが適切に配置されていません|
 |CELLSNET-51156|チャートから画像への変換 - 出力画像でのチャートの表示の違い|
 |CELLSNET-51213|3-D 円グラフが正しく表示されない - グラフから画像への変換|
-|CELLSNET-51472|外側の端に設定すると、グラフ ラベルが SVG に表示されない|
-|CELLSNET-51491|画像または HTML へのレンダリング時にチャート シリーズで使用される誤った値|
+|CELLSNET-51472|外側の端に設定すると、SVG からチャート ラベルが失われる|
+|CELLSNET-51491|画像または HTML にレンダリングするときにチャート シリーズで使用される間違った値|
 |CELLSNET-51525|HTML/PNG または PDF にエクスポートするとウォーターフォール チャートが異なる|
 |CELLSNET-51353|DDE リンクを含む XLSB ファイルを XLSM ファイルに変換すると、リンク内の DDE アプリケーションの位置が変更される|
 |CELLSNET-51376|ページサイズはA4から自動変更？シートの手紙|
-|CELLSNET-51379|XLS ファイル内のタイプ OLE の外部リンクがタイプ DDE として読み取られています|
+|CELLSNET-51379|XLS ファイルのタイプ OLE の外部リンクは、タイプ DDE として読み取られています|
 |CELLSNET-51402|htmlファイルを保存するときに、コンテンツがセルの外にシフトされます|
 |CELLSNET-51417|22.5 から 22.6.1 へのアップグレード後、ファイル内の形状からシートへのリンクが削除される|
 |CELLSNET-51418|タイプ xlPathMissing の外部リンクは、XLSB から XLSM への変換で通常の externalLinkPath タイプに変更されます|

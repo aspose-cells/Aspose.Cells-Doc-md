@@ -402,7 +402,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |BYTA UT|
 |ERSÄTT|
 |REPT|
-|HÖGER|
+|RÄTT|
 |HÖGERB|
 |ROMAN|
 |RUNDA|
@@ -422,7 +422,7 @@ Aspose.Cells' Formelberäkningsmotorn låter dig ställa in, läsa och beräkna 
 |SERIESSUM|
 |ARK|
 |LAKEN|
-|TECKEN|
+|SKYLT|
 |SYND|
 |SINH|
 |SKEV|

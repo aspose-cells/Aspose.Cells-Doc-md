@@ -7,7 +7,7 @@ url: /ja/net/removing-worksheets-using-sheet-name-in-php/
 ## **シート名を使用してワークシートを削除する**
 シート名を使用してワークシートを削除する
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

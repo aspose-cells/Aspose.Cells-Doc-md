@@ -6,11 +6,11 @@ url: /ar/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، عند تحويل ملف Excel Microsoft إلى PDF ، يقوم Aspose.Cells باستبدال الخطوط. يوفر Aspose.Cells ميزة تتيح للمطورين معرفة الخط المعين الذي تم استبداله بإطلاق تحذير. هذه ميزة مفيدة يمكن أن تساعدك في تحديد سبب اختلاف مظهر ملف PDF المعروض Aspose.Cells عن ملف Excel Microsoft الأصلي حتى تتمكن من اتخاذ الإجراءات المناسبة. على سبيل المثال ، تثبيت الخطوط المفقودة بحيث تبدو نتائج العرض كما هي.
+في بعض الأحيان ، عند تحويل ملف Excel Microsoft إلى PDF ، يقوم Aspose.Cells باستبدال الخطوط. يوفر Aspose.Cells ميزة تتيح للمطورين معرفة الخط المعين الذي تم استبداله من خلال إطلاق تحذير. هذه ميزة مفيدة يمكن أن تساعدك في تحديد سبب اختلاف مظهر Aspose.Cells المعروض PDF عن ملف Excel Microsoft الأصلي حتى تتمكن من اتخاذ الإجراءات المناسبة. على سبيل المثال ، تثبيت الخطوط المفقودة بحيث تبدو نتائج العرض كما هي.
 
 {{% /alert %}} 
 
-للحصول على تحذيرات لاستبدال الخط عند تحويل ملفات Excel إلى PDF ، قم بتنفيذ واجهة IWarningCallback وقم بتعيين خاصية PdfSaveOptions.WarningCallback مع الواجهة التي تم تنفيذها.
+للحصول على تحذيرات لاستبدال الخط عند تقديم ملفات Excel إلى PDF ، قم بتنفيذ واجهة IWarningCallback وقم بتعيين خاصية PdfSaveOptions.WarningCallback مع الواجهة التي تم تنفيذها.
 
 تُظهر لقطة الشاشة أدناه ملف Excel المصدر الذي سنستخدمه في الكود التالي. يحتوي على بعض النصوص في الخلايا A6 و A7 في الخطوط التي لم يتم تقديمها بشكل جيد بواسطة Microsoft Excel.
 
@@ -22,12 +22,12 @@ url: /ar/net/get-warnings-for-font-substitution-while-rendering-excel-file/
 |**الخطوط المستبدلة**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)|
-## **تنزيل ملف المصدر وإخراج PDF**
-يمكنك تنزيل ملف Excel المصدر و PDF الناتج من الروابط التالية
+## **تنزيل الملف المصدر والإخراج PDF**
+يمكنك تنزيل ملف Excel المصدر والمخرج PDF من الروابط التالية
 
 - [المصدر. xlsx](5112611.xlsx)
 - [الإخراج. pdf](5112616.pdf)
-## **شفرة**
+## **الشفرة**
 تقوم التعليمات البرمجية التالية بتنفيذ IWarningCallback وتعيين خاصية PdfSaveOptions.WarningCallback مع الواجهة التي تم تنفيذها. الآن ، عندما يتم استبدال أي خط في أي خلية ، سيقوم Aspose.Cells بإطلاق تحذير داخل طريقة WarningCallback.Warning ().
 
 
@@ -46,6 +46,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}} 
 
-إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء طريقة Workbook.CalculateFormula قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في ملف PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء طريقة Workbook.CalculateFormula قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

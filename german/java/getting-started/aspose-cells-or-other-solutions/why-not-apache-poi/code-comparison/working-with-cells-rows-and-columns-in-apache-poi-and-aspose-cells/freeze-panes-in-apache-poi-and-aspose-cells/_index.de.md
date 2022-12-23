@@ -9,7 +9,7 @@ Aspose.Cells bietet eine Klasse,[Arbeitsmappe](http://docs.aspose.com:8082/docs/
 
 Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)Klasse. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Rufen Sie zum Konfigurieren von Einfrierfenstern die freezePanes-Methode der Worksheet-Klasse auf. Die FreezePanes-Methode übernimmt die folgenden Parameter:
 
-- **Die Zeile**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
+- **Reihe**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
 - **Spalte**, der Spaltenindex der Zelle, ab der das Einfrieren beginnt.
 - **Gefrorene Reihen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
 - **Gefrorene Säulen**, die Anzahl der sichtbaren Spalten im linken Bereich

@@ -10,7 +10,7 @@ url: /tr/java/aspose-cells-for-java-7-0-0-release-notes/
 
 {{% /alert %}} 
 
- giriiş
+ Giriş
 
 Aspose.Cells for Java v7.0.0 sürümünü kullanıcılara duyurmaktan mutluluk duyuyoruz. Bu, .NET kodumuzdan otomatik olarak taşıma yaptığımız ilk sürümdür ve bu nedenle önceki Aspose.Cells for Java sürümlerinde eksik olan birçok özelliği içerebilir. Bu sürüm önemli bir dönüm noktasıdır çünkü bundan sonra daha verimli çalışabiliriz ve bu sizin için çok daha iyi bir Aspose.Cells for Java anlamına gelir. Bunun sebebi ise artık Aspose.Cells for Java ve Aspose.Cells for .NET adlı iki ürünü tek kaynak kod tabanından sürdürebiliyor olmamız. Artık iki ürün de hemen hemen aynı özellik setini, düzeltmeleri içeriyor ve aynı gün piyasaya sürülüyor.
 
@@ -32,9 +32,9 @@ Aspose.Cells for Java v7.0.0 sürümünü kullanıcılara duyurmaktan mutluluk d
  Destek ListesiNesneler / Tablolar
  Otomatik Şekil Nesnelerini Destekleyin
  Şekilden Görüntüye özelliği için iyileştirmeler yapıldı
- Grafikten Görüntüye özelliği için geliştirmeler yapıldı
+ Grafikten Görüntüye özelliği için iyileştirmeler yapıldı
  Sayfadan Görüntüye özelliği için geliştirmeler yapıldı
- Excel'den PDF'e özelliği için iyileştirmeler yapıldı
+ Excel-to-PDF özelliği için iyileştirmeler yapıldı
  Satırları/Sütunları Otomatik Sığdır özelliği için iyileştirmeler yapıldı
 
 Bilinen Sorunlar/Sınırlamalar
@@ -44,9 +44,9 @@ Bilinen Sorunlar/Sınırlamalar
  Bu sürümde bilinen bazı sınırlamalar vardır. Eski sürümlerde desteklenen ve v7.0.0'da desteklenmeyen birkaç özellik vardır:
 
 - LightCells API'lerini Kullanma
- HTML dosyalarını okuma
+ HTML dosyası okunuyor
  ODS dosyaları için Grafikleri/Şekilleri Okuma/Kaydetme
- ODS dosyasını okurken Makroları koruma ve Makroları tekrar ODS dosyasına kaydetme
+ ODS dosyasını okurken Makroları koruma ve Makroları ODS dosyasına geri kaydetme
 
 
 

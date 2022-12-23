@@ -14,14 +14,14 @@ Nitelikleri Değiştir aracılığıyla tablo raporu öğesinin Grup öznitelikl
 Raporun Değiştirilmesi aşağıdaki adımları içerir:
 "Raporu Değiştir" iletişim kutusunu açın ve Anahat sekmesini seçin.
 
-![yapılacaklar:resim_alternatif_Metin](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
+![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_1.jpg)
 
 
  Tıklamak**Değiştir** düğmesine basın ve Yapılandırmayı gizle'yi güncelleyin.
 
-![yapılacaklar:resim_alternatif_Metin](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
+![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
 
  Tıklamak**İşlemek** düğmesine basın ve yapılandırmaları gizleyin.
 
-![yapılacaklar:resim_alternatif_Metin](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)
+![yapılacaklar:resim_alternatif_metin](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

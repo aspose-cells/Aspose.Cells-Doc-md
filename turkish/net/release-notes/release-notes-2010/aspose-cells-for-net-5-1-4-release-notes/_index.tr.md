@@ -14,7 +14,7 @@ url: /tr/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Aspose.Cells'de neler değişti:
 
-- Şifreli PDF dosyalarını dışa aktarmayı destekler.
+- Şifrelenmiş PDF dosyalarının dışa aktarılmasını destekler.
 - 45 geliştirme ve düzeltme.
 
  Aspose.Cells.GridWeb'de neler değişti:
@@ -34,24 +34,24 @@ url: /tr/net/aspose-cells-for-net-5-1-4-release-notes/
 
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |
-|20247 | ODS| ODS olarak kaydettiğimde Formülde hata|
+|20247 |ODS | ODS olarak kaydettiğimde Formülde hata|
 |18357 | Pdf| PIE Grafiklerinde dönüştürme sorunu|
-|18925 | Pdf| Sorun Excel'i PDF'ye Dönüştür|
+|18925 | Pdf| Sorun Excel'i PDF'e Dönüştür|
 |19883 | Pdf| Fırlatma Nesnesi referansı bulunamadı hatası|
 |20011 | Pdf| Boş sayfalı Sayfa Sonları çalışmıyor|
 |20057 | Pdf| Excel'den PDF'e dönüştürme sorunu|
 |20070 | Pdf| çok baytlı yazı tipi|
 |20071 | Pdf| Çok baytlı yazı tipi rengi|
 |20450 | Pdf| Geçersiz satır dizini|
-|20590 | Pdf| PDF'ye dönüştürüldükten sonra bazı hücrelerde metin kesildi|
+|20590 | Pdf| PDF'e dönüştürüldükten sonra bazı hücrelerde metin kesildi|
 |18934 | Pivot tablo| Pivot tablolar Aspose.Cells aracılığıyla bozuldu|
 |20391 | Pivot tablo|Pivot Tablo 'SystemNullReference İstisna' veriyor|
 |20672 | Pivot tablo| Excel okunamayan içerik buldu|
 |20721 | Pivot tablo| Girilen metin doğru formatta değil|
 |20228 | Sheet2Image| Bitonal TIFF'lerle sonuçlanan RLE sıkıştırması|
 |20574 | Sheet2Image| Resme kaydetme işlevi doğru şekilde biçimlendirilmiyor|
-|20181 | E-tabloML| Köprü işlevini kullanan bir hücre özel durum oluşturur|
-|20519 | E-tabloML| Excel 2007 içeriği XML olarak alınamadı|
+|20181 |SpreadsheetML | Köprü işlevini kullanan bir hücre özel durum oluşturur|
+|20519 |SpreadsheetML | Excel 2007 içeriği XML olarak alınamadı|
 |20055 | Xl'ler| Formül '\r' içeriyor|
 |20152 | Xl'ler| Satırları ekledikten sonra doğru şekilde değerlendirilmeyen İşlev'i seçin|
 |20168 | Xl'ler| Özel VBA işlevlerinin yeniden hesaplanması|

@@ -37,7 +37,7 @@ Aspose.Cells for Reporting Services Optimización del Diseñador de informes.
 - ` `(SSRS-40131) El ancho de las columnas no se ajusta en los casos para el representador de solo datos Aspose
 - ` `(SSRS-40130) Problemas de formato de moneda
 - ` `(SSRS-40129) El salto de página condicional no funciona en los renderizadores Aspose
-- ` `(SSRS-40128) Exportación de SSRS a encabezados de columna de reducción XLSX
+- ` `(SSRS-40128) Exportación de SSRS a XLSX encabezados de columna reducidos
 - ` `(SSRS-40127) Aspose Salida de informe de solo datos: la página 2 no se controla a través de la configuración del encabezado de informe
 - ` `(SSRS-40126) La salida de la primera columna del informe se fusiona en dos columnas de Excel
 - ` `(SSRS-40125) Problemas de formato de moneda con Excel y solo datos Excel
@@ -53,7 +53,7 @@ Aspose.Cells for Reporting Services Optimización del Diseñador de informes.
 - ` `(SSRS-40114) Formato de informe horizontal
 - ` `(SSRS-40112) Inserción de hojas adicionales en el libro de trabajo exportado
 - ` ` (SSRS-40111) Error al exportar informe
-- ` `(SSRS-40109) Problemas de representación de Excel 2007 XLSX
+- ` `(SSRS-40109) Excel 2007 XLSX problemas de representación
 - ` `(SSRS-40108) Excel encontró contenido ilegible
 - ` ` (SSRS-40107) La tabla no se genera como Tablix en RDL
 - ` ` (SSRS-40106) Error: la referencia de objeto no se estableció en una instancia de un objeto

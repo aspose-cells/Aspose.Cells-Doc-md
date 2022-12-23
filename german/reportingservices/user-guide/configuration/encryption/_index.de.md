@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /de/reportingservices/encryption/
 ---
- Aspose.Cells for Reporting Services unterstützt drei Arten der Verschlüsselung: XOR, WEAK ENCRYPTION und Microsoft Strong Cryptographic Provider. Siehe die Informationen zur Verschlüsselungskonfiguration in der**Aspose.Cells.ReportingServices.xml** Datei.
+Aspose.Cells for Reporting Services unterstützt drei Arten der Verschlüsselung: XOR, WEAK ENCRYPTION und Microsoft Strong Cryptographic Provider. Siehe die Informationen zur Verschlüsselungskonfiguration in der**Aspose.Cells.ReportingServices.xml** Datei.
 
  Wenn der Wert von Encryption ist**aus**, Aspose.Cells for Reporting Services schaltet die Verschlüsselungsfunktionen aus.
 
@@ -37,7 +37,7 @@ url: /de/reportingservices/encryption/
 Es gibt vier Parameter im Verschlüsselungsabschnitt:
 
 - **Berichtsname**: verweist auf einen Bericht, der verschlüsselt werden muss. Wenn der Parameter leer gelassen wird, verwenden alle Berichte dieselbe Verschlüsselungsmethode.
-- **Passwort**Legt das Passwort fest. Darf nicht leer sein.
+- **Passwort**: Legt das Passwort fest. Darf nicht leer sein.
 - **Verschlüsselungstyp**: legt einen Verschlüsselungstyp fest. Darf nicht leer sein.
 - **Schlüssellänge**: Legt die Schlüssellänge fest. Darf nicht leer sein.
 

@@ -18,17 +18,17 @@ Aspose.Cells.GridWeb 提供自动过滤和自定义数据过滤功能。这些�
 
 **输入：第一个工作表中的数据列表** 
 
-![待办事项：图像_替代_文本](filter-data_1.jpg)
+![待办事项：图片_替代_文本](filter-data_1.jpg)
 
 **输出：启用自动过滤功能** 
 
-![待办事项：图像_替代_文本](filter-data_2.jpg)
+![待办事项：图片_替代_文本](filter-data_2.jpg)
 ### **自动过滤**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-SetAutoFilter.aspx-SetAutoFilter.cs" >}}
 ### **自定义数据过滤器**
 **根据条件自定义过滤数据** 
 
-![待办事项：图像_替代_文本](filter-data_3.jpg)
+![待办事项：图片_替代_文本](filter-data_3.jpg)
 
 
 

@@ -10,8 +10,8 @@ url: /tr/net/aspose-cells-for-net-8-2-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET, 8.2.2 sürümüne güncellendi ve bu sürümün 60'tan fazla yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+ Aspose.Cells for .NET, 8.2.2 sürümüne güncellendi ve bu sürümün 60'tan fazla yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
  Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -22,7 +22,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 ## **Verim**
 
 
- (CELLSNET-43015) - PDF'ye dönüştürme işlemi, 115996 satırı olan bir elektronik tabloda takılıyor gibi görünüyor
+ (CELLSNET-43015) - PDF işlemine dönüştürme işlemi, 115996 satırı olan bir elektronik tabloda takılıyor gibi görünüyor
 
 
 ## **Hatalar**
@@ -30,7 +30,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-43070) - "Grup düzenleme modunda PivotTable düzenlenemez" hatası
 
- (CELLSNET-43061) - MS Excel'e göre hesaplanan yanlış değer
+(CELLSNET-43061) - MS Excel'e göre hesaplanan yanlış değer
 
  (CELLSNET-43064) - MS Excel'de "Okunamayan İçerik" mesajına neden oluyor
 
@@ -40,21 +40,21 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42903) - Metin Girintisi sorunu
 
- (CELLSNET-42838) - Metin Kutusundaki metin, elde edilen PDF'de görüntülenmiyor
+ (CELLSNET-42838) - Metin Kutusundaki metin sonuçta ortaya çıkan PDF'de işlenmez
 
  (CELLSNET-41658) - Pivot tablo koşullu biçimlendirmeyi korumuyor
 
  (CELLSNET-41656) - Okunamayan içerikle ilgili bir hata görünüyor.
 
-(CELLSNET-40921) - Görüntüye dönüştürülürken şekil yönü yanlış
+ (CELLSNET-40921) - Görüntüye dönüştürülürken şekil yönü yanlış
 
- (CELLSNET-43056) - Derecelendirme ve doku, işlenen PDF dosyası biçiminde görüntülenmiyor
+ (CELLSNET-43056) - Derecelendirme ve doku, işlenmiş PDF dosya biçiminde görüntülenmiyor
 
  (CELLSNET-43035) - Yanlış pdf dışa aktarma - metin kırpıldı ve fazladan boşluk eklendi
 
- (CELLSNET-43012) - Çıktı PDF'sinde 'P' karakteri kırpılmış
+ (CELLSNET-43012) - 'P' karakteri PDF çıkışında kırpılmış
 
- (CELLSNET-42999) - Koşullu Biçimlendirme oklarının boyutu daha küçük
+(CELLSNET-42999) - Koşullu Biçimlendirme oklarının boyutu daha küçük
 
  (CELLSNET-42996) - Beyaz Izgara Çizgileri Siyah olarak gösteriliyor
 
@@ -72,23 +72,23 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42855) - En üstteki grafik için y eksenindeki en üstteki sayı
 
-(CELLSNET-42819) - Yığılmış çubuk grafik çok düzeyli kategori ekseni etiketi hizalama sorunu
+ (CELLSNET-42819) - Yığılmış çubuk grafik çok düzeyli kategori ekseni etiketi hizalama sorunu
 
  (CELLSNET-42794) - Görüntüye dönüştürüldüğünde grafik ekseni dolgu rengi uygulanmıyor
 
  (CELLSNET-42737) - Dağılım Grafiği yanlış bir şekilde fazladan büyük X ekseni işaretçisi ekliyor
 
- (CELLSNET-42646) - Çalışma Kitabı RefreshChartCache seçeneği bölge ve dil ayarlarını dikkate almıyor
+(CELLSNET-42646) - Çalışma Kitabı RefreshChartCache seçeneği bölge ve dil ayarlarını dikkate almıyor
 
- (CELLSNET-42641) - Grafik, ToImage kullanılarak EMF olarak kaydedildiğinde yanlış Eksen Değerleri
+ (CELLSNET-42641) - ToImage kullanılarak Grafik EMF olarak kaydedildiğinde Yanlış Eksen Değerleri
 
  (CELLSNET-42639) - Metin Kutuları yanlış yerleştirilmiş
 
  (CELLSNET-42638) - Açıklama İşaretlerinin farklı kalınlıkları vardır
 
- (CELLSNET-42637) - Grafik, ToImage kullanılarak EMF olarak kaydedildiğinde Eksik Eksen Başlığı
+ (CELLSNET-42637) - ToImage kullanılarak Grafik EMF olarak kaydedildiğinde Eksen Başlığı Eksik
 
- (CELLSNET-42636) - Grafik, ToImage kullanılarak EMF olarak kaydedildiğinde Eksik Eksen Değerleri
+ (CELLSNET-42636) - ToImage kullanılarak Grafik EMF olarak kaydedildiğinde Eksik Eksen Değerleri
 
  (CELLSNET-42613) - Karmaşık grafikler çıkarılırken eksik öğeler
 
@@ -96,19 +96,19 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-43065) - Workbook.CalculateFormula yanlış değerlerle dolduruluyor
 
-(CELLSNET-43062) - Excel 2013 ile oluşturulan Xls dosyası kullanılırken hata oluştu
+ (CELLSNET-43062) - Excel 2013 ile oluşturulan Xls dosyası kullanılırken hata oluştu
 
  (CELLSNET-43054) - ListObject Yeniden Boyutlandırma, Tablonun içine Filtreler ekler
 
  (CELLSNET-43049) - Tablo 3 yeniden boyutlandırıldı ancak formül ve biçimlendirme kopyalanmadı
 
- (CELLSNET-43048) - ListObject Resize CalculatedColumnFormula'yı siler
+(CELLSNET-43048) - ListObject Resize CalculatedColumnFormula'yı siler
 
  (CELLSNET-43041) - Cells.Bul, Regex ile çalışmıyor
 
  (CELLSNET-43038) - Range.CopyData kullanılarak aralığı kopyaladıktan sonra bozuk içerik
 
- (CELLSNET-43037) - Bir XLSX dosyası yüklenirken System.NullReferenceException
+ (CELLSNET-43037) - XLSX dosyası yüklenirken System.NullReferenceException
 
  (CELLSNET-43032) - ListObject.Resize(), Veri Doğrulamayı kopyalamaz
 
@@ -120,13 +120,13 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-43020) - BuiltinStyleType.Good, BuiltinStyleType.Neutral ile değiştirilir
 
-(CELLSNET-43014) - Cell çıktı Excel dosyasında kenarlıklar kayboluyor
+ (CELLSNET-43014) - Cell çıktı Excel dosyasında kenarlıklar kayboluyor
 
  (CELLSNET-43004) - Stop Lambası Göstergeleri #YOK olarak işleniyor
 
  (CELLSNET-43001) - Formüle dayalı değerler işlenmez
 
- (CELLSNET-42981) - CalculateFormula'dan sonraki Value işlevinden yanlış değer
+(CELLSNET-42981) - CalculateFormula'dan sonraki Value işlevinden yanlış değer
 
  (CELLSNET-42963) - Çalışma kitabı çağrıldıktan sonra özel formül kaldırılıyor.RemoveExternalLinks()
 
@@ -138,9 +138,9 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 ## **İstisnalar**
 
 
- (CELLSNET-42947) - "Görüntüye Şekil Verme Hatası!" PDF'ye dönüştürürken istisna
+ (CELLSNET-42947) - "Görüntüye Şekil Verme Hatası!" PDF'e dönüştürülürken istisna
 
- (CELLSNET-43076) - XLSB dosyası açılırken hedef dizi yeterince uzun istisna değil
+ (CELLSNET-43076) - Hedef dizi, XLSB dosyasını açarken yeterince uzun istisna değil
 
  (CELLSNET-43063) - Shapes.UpdateSelectedValue'da "Bilinmeyen resim formatı"
 
@@ -150,7 +150,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -160,7 +160,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-43060) - WebWorksheet.SetEditableRange, GridWeb'de çalışmıyor
 
-(CELLSNET-43057) - Sekmeler değiştirilemiyor ve sayfalama da çalışmıyor
+ (CELLSNET-43057) - Sekmeler değiştirilemiyor ve sayfalama da çalışmıyor
 
  (CELLSNET-43007) - Girinti Düzeyi ABD dışında başka bir kültürle çalışmaz
 
@@ -174,7 +174,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  Chart.Worksheet özelliği ekler
 
- Bu grafiği içeren çalışma sayfasını alır..
+Bu grafiği içeren çalışma sayfasını alır..
 
 
 

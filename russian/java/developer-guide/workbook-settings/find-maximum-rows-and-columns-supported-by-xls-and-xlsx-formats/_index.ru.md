@@ -5,9 +5,9 @@ weight: 60
 url: /ru/java/find-maximum-rows-and-columns-supported-by-xls-and-xlsx-formats/
 ---
 ## **Возможные сценарии использования**
-Форматы Excel поддерживают разное количество строк и столбцов. Например, XLS поддерживает 65 536 строк и 256 столбцов, а XLSX — 1048 576 строк и 16 384 столбца. Если вы хотите узнать, сколько строк и столбцов поддерживается данным форматом, вы можете использовать[Рабочая книга.Настройки.MaxRow](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRow)а также[Workbook.Settings.MaxColumn](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxColumn)характеристики.
+Форматы Excel поддерживают разное количество строк и столбцов. Например, XLS поддерживает 65536 строк и 256 столбцов, а XLSX поддерживает 1048576 строк и 16384 столбца. Если вы хотите узнать, сколько строк и столбцов поддерживается данным форматом, вы можете использовать[Рабочая книга.Настройки.MaxRow](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRow)и[Workbook.Settings.MaxColumn](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxColumn)характеристики.
 ## **Найти максимальное количество строк и столбцов, поддерживаемых форматами XLS и XLSX**
-Следующий пример кода создает книгу сначала в формате XLS, а затем в формате XLSX. После создания он печатает значения[Рабочая книга.Настройки.MaxRow](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRow)а также[Workbook.Settings.MaxColumn](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxColumn)характеристики. Для справки см. консольный вывод кода, приведенного ниже.
+Следующий пример кода создает книгу сначала в формате XLS, а затем в формате XLSX. После создания он печатает значения[Рабочая книга.Настройки.MaxRow](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxRow)и[Workbook.Settings.MaxColumn](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#MaxColumn)характеристики. Для справки см. консольный вывод кода, приведенного ниже.
 ## **Образец кода**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "WorkbookSettings-FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.java" >}}
 

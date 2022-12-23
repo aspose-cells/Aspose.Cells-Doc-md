@@ -28,6 +28,6 @@ Grafik öğelerini Microsoft Excel grafiklerine dönüştürmek için:
 
 **Excel grafikleri Microsoft Excel'de düzenlenebilir** 
 
-![yapılacaklar:resim_alternatif_Metin](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

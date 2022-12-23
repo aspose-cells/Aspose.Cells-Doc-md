@@ -17,24 +17,24 @@ url: /es/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47018|El cálculo de algunos gráficos combinados puede generar una excepción|Mejora|
 |CELLSNET-47016|El ajuste de texto es diferente en la última versión de Aspose.Cells|Mejora|
 |CELLSNET-47023|Gráfico perdido al cargar y guardar el archivo ODS|Mejora|
-|CELLSNET-47056|Los gráficos no se representan al cargar y guardar el archivo ODS|Mejora|
+|CELLSNET-47056|Gráficos no representados al cargar y guardar el archivo ODS|Mejora|
 |CELLSNET-46679|Representación incorrecta al exportar XLSX a PDF|Insecto|
 |CELLSNET-46680|Falta el símbolo Wingding al convertir XLSX a PDF|Insecto|
-|CELLSNET-46740|Error en las imágenes al convertir un archivo de Excel a PDF|Insecto|
+|CELLSNET-46740|Error en las imágenes al convertir el archivo de Excel a PDF|Insecto|
 |CELLSNET-46901|La posición del modelo 3D cambia|Insecto|
 |CELLSNET-46936|Fuente no renderizada bien en HTML|Insecto|
-|CELLSNET-47013|Los números en el gráfico de embudo desaparecen al convertir un archivo de Excel a PDF|Insecto|
+|CELLSNET-47013|Numbers en el gráfico de embudo desaparece al convertir el archivo de Excel a PDF|Insecto|
 |CELLSNET-43846|La tabla dinámica pierde los nombres de los campos personalizados y la configuración "Mostrar valor como..."|Insecto|
 |CELLSNET-46444|El valor de la tabla dinámica cambió después de llamar a PivotTable.CalculateData|Insecto|
 |CELLSNET-46484|RefreshData no ordena los datos antes de abrir el archivo en Excel|Insecto|
 |CELLSNET-47010|Un problema con el formato de los encabezados de grupos de tablas dinámicas|Insecto|
 |CELLSNET-47024|Orden de clasificación de filas incorrecto en tablas dinámicas con fila de valores|Insecto|
-|CELLSNET-47034|Anchos de columna y altura de fila reducidos durante la conversión de HTML a Excel|Insecto|
+|CELLSNET-47034|Los anchos de columna y la altura de las filas se redujeron durante la conversión de HTML a Excel|Insecto|
 |CELLSNET-47007|Se muestra un error de valor al evaluar la fórmula|Insecto|
 |CELLSNET-47029|Valor incorrecto VERDADERO recuperado de Cell en lugar del valor FALSO|Insecto|
 |CELLSNET-47052|DateTimeFormat dañado al convertir Excel a PDF|Insecto|
 |CELLSNET-46757|Problemas al convertir XLSX a PDF|Insecto|
-|CELLSNET-46976|Algunas líneas de borde desaparecen en la representación de Excel a PDF|Insecto|
+|CELLSNET-46976|Algunas líneas de borde desaparecen en Excel a la representación PDF|Insecto|
 |CELLSNET-47000|Imagen de resultado inapropiada de SheetRender del archivo .ods protegido con contraseña|Insecto|
 |CELLSNET-47025|Macros para XLSM no detectadas|Insecto|
 |CELLSNET-47038|Los gráficos de líneas en el archivo ODS no se representan bien cuando se abren o se guardan a través de Aspose.Cells|Insecto|
@@ -86,9 +86,9 @@ Obtiene y establece el tipo de texto ajustado automáticamente.
 #### **Agrega la clase EmfRenderSetting**
 Conjuntos para renderizar el metarchivo Emf.
 #### **Agrega la propiedad PdfSaveOptions.EmfRenderSetting**
-Conjuntos para renderizar el metarchivo EMF mientras se renderiza en un archivo PDF.
+Conjuntos para renderizar el metarchivo EMF mientras se renderiza en el archivo PDF.
 #### **Agrega el método ShapeCollection.AddSvg()**
-Agrega imagen SVG.
+Agrega SVG imagen.
 #### **Agrega la propiedad WorkbookSettings.QuotePrefixToStyle**
 Indica si se establece la propiedad Style.QuotePrefix al ingresar el valor de la cadena (que comienza con una comilla simple) en la celda
 #### **Agrega la propiedad HtmlSaveOptions.AddTooltipText**

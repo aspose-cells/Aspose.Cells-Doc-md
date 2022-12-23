@@ -10,21 +10,21 @@ url: /fr/java/aspose-cells-for-java-20-11-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43322|Propriété Shape.getWorksheet() requise|Nouvelle fonctionnalité|
 |CELLSJAVA-43191| Fournir des moyens de gérer les scénarios lors de la spécification de types de police incorrects ?|Renforcement|
 |CELLSJAVA-43319|Problème d'obtention de la valeur de la cellule avec la formule|Punaise|
-|CELLSJAVA-43330|Problème après réenregistrement du fichier XLSB - fichier corrompu|Punaise|
-|CELLSJAVA-43333|Mauvais positionnement des images et du texte lors du rendu d'Excel au format HTML|Punaise|
+|CELLSJAVA-43330|Problème après la réenregistrement du fichier XLSB - fichier corrompu|Punaise|
+|CELLSJAVA-43333|Mauvais positionnement des images et du texte lors du rendu d'Excel sous la forme HTML|Punaise|
 |CELLSJAVA-43321|Problème de filtre automatique - des lignes vides sont affichées|Punaise|
 |CELLSJAVA-43335|Un blocage s'est produit lors du calcul des formules sur le classeur|Punaise|
 |CELLSJAVA-43313|L'étiquette du graphique change de position lors de l'impression|Punaise|
 |CELLSJAVA-43314|Ligne 0/100 % non imprimée pour les graphiques à secteurs 100 %|Punaise|
 |CELLSJAVA-43316| Divers problèmes lors de l'impression de graphiques|Punaise|
-|CELLSJAVA-40582|Le texte Smart Art n'est pas rendu correctement au format PDF/image|Punaise|
+|CELLSJAVA-40582|Le texte d'art intelligent n'est pas rendu correctement à PDF/image|Punaise|
 |CELLSJAVA-41639|Les largeurs de colonne ne sont pas conservées lors de la conversion du format "XML Spreadsheet 2003" au format XLSX|Punaise|
-|CELLSJAVA-43315|La conversion de XLS en XLSX corrompt le fichier et donne l'erreur "Forme en image" lors de la conversion de la sortie XLSX en PDF|Punaise|
+|CELLSJAVA-43315|La conversion de XLS en XLSX rend le fichier corrompu et donne l'erreur "Forme en image" lors de la conversion de la sortie XLSX en PDF|Punaise|
 |CELLSJAVA-43334|Filtre automatique sur le problème de table|Punaise|
 |
 

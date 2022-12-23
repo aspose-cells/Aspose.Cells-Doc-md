@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ru/java/converting-to-mhtml-files-in-python/
 ---
-## **Aspose.Cells — Преобразование в MHTML**
+## **Aspose.Cells - преобразование в MHTML**
 Чтобы преобразовать рабочий лист в файл MHTML, используя Aspose.Cells for Java в Python, просто вызовите рабочий лист_к_Метод mhtml() модуля Converter.
 
 **Python Код**

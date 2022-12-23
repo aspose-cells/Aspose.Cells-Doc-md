@@ -12,7 +12,7 @@ url: /es/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 
 **Aspose.Cells Java para IntelliJ IDEA (Maven)** El complemento se puede instalar fácilmente (sin descarga manual) desde IntelliJ IDEA. Para hacerlo:
 
-1.  Seleccione**Ajustes** desde el**Expediente** menú.
+1.  Seleccione**Ajustes** desde el**Archivo** menú.
 1.  Hacer clic**Complementos** , luego explore los repositorios en IntelliJ IDEA.
 
 ![todo:imagen_alternativa_texto](lbtci11.jpg)
@@ -40,7 +40,7 @@ Luego siga los pasos a continuación:
 
  \1. Seleccione**Nuevo proyecto**.
  \2. Seleccione**Aspose.Cells Maven Proyecto** 
- \3. Hacer clic**próximo**. 
+ \3. Hacer clic**Próximo**. 
 
 ![todo:imagen_alternativa_texto](m1du9a1.jpg)
 
@@ -52,7 +52,7 @@ Luego siga los pasos a continuación:
 
 `    ` Puede seleccionar la casilla de verificación "También descargar código fuente de ejemplos" para descargar los ejemplos de uso de muestra del API (como se muestra en la instantánea anterior)
 
- \6. Proporcionar una**Nombre del proyecto** y**Ubicación**al igual que al crear cualquier aplicación Java
+ \6. Proporcionar una**Nombre del proyecto** y**Localización**al igual que al crear cualquier aplicación Java
 
 ![todo:imagen_alternativa_texto](0gszuiu.jpg)
 
@@ -77,7 +77,7 @@ Luego siga los pasos a continuación:
 
 Luego siga los pasos a continuación en IntelliJ IDEA:
 
- \1. Seleccione**Expediente** => **Nuevo -** Como se muestra abajo:
+ \1. Seleccione**Archivo** => **Nuevo -** Como se muestra abajo:
 
 ![todo:imagen_alternativa_texto](n8tt9q0.jpg)
 

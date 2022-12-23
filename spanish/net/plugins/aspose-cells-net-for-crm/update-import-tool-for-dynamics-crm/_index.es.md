@@ -14,7 +14,7 @@ url: /es/net/update-import-tool-for-dynamics-crm/
 - [Instalación o desinstalación](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
   - [Solicitud de licencia](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
 - [Usando](#UpdateImportToolforDynamicsCRM-Using)
-- [Apoyo](#UpdateImportToolforDynamicsCRM-Support)
+- [Soporte](#UpdateImportToolforDynamicsCRM-Support)
 - [Extender y contribuir](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Introducción**
 La herramienta de importación de actualizaciones Aspose es un complemento de código abierto que se utiliza en Microsoft Dynamic CRM. Este complemento es capaz de actualizar y/o exportar automáticamente datos de CRM a hojas de cálculo Aspose.Cells. No necesitamos hacer nada manualmente e instalar este complemento y hacer que nuestro trabajo sea más fácil y rápido.
@@ -69,7 +69,7 @@ Agregue el siguiente código en el formulario proporcionando la ruta al archivo 
 {{< /highlight >}}
 ## **Usando**
  Configure y use fácilmente Aspose .NET Update Import Tool para Dynamics CRM siguiendo las instrucciones[aquí](/cells/es/net/using-and-configuring-crm-update-import-tool/).
-## **Apoyo**
+## **Soporte**
 Ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
 
 Puede registrar cualquier problema o sugerencia relacionada con Aspose .Net Update Import Tool utilizando cualquiera de las siguientes plataformas:

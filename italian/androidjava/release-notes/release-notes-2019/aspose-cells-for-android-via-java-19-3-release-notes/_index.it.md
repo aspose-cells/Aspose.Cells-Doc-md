@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41026|Supporta Excel 95/5.0 (file XLS)|Nuova caratteristica|
 |CELLSJAVA-42827|Inserisci riga con InsertOptions simile a MS Excel|Nuova caratteristica|
@@ -20,18 +20,18 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-42823|L'utilizzo di FontUnderlineType.WORDS genera un'eccezione|Aumento|
 |CELLSJAVA-42846|I risultati dell'estrazione del testo sono diversi|Aumento|
 |CELLSANDROID-85|Problemi nella conversione da foglio a immagine con immagini trasparenti sopra altre immagini|Insetto|
-|CELLSJAVA-42290|I trattini e gli ndash inseriti nelle caselle di testo nei grafici non vengono visualizzati correttamente nel PDF del grafico|Insetto|
+|CELLSJAVA-42290|Mdashes e ndash inseriti in TextBox nei grafici non vengono visualizzati correttamente nel grafico PDF|Insetto|
 |CELLSJAVA-42750|Impossibile recuperare gli elementi dei campi della pagina nel rapporto di tabella pivot|Insetto|
-|CELLSJAVA-42783|Problema con il testo barrato nel formato di file HTML generato|Insetto|
-|CELLSJAVA-42784|I dati in alcune celle (ad es. G7, H7, ecc.) non vengono visualizzati allo stesso modo del file originale nella conversione da Excel a HTML/immagine|Insetto|
+|CELLSJAVA-42783|Problema con il testo barrato nel formato file HTML generato|Insetto|
+|CELLSJAVA-42784|I dati in alcune celle (ad es. G7, H7, ecc.) non vengono visualizzati allo stesso modo del file originale in Excel in HTML/conversione immagine|Insetto|
 |CELLSJAVA-42797|Alcuni stili non vengono visualizzati nell'input HTML|Insetto|
 |CELLSJAVA-42807|Il calcolo della formula/funzione "ISOWEEKNUM" non è lo stesso di MS Excel|Insetto|
-|CELLSJAVA-42794|Da ODS a XLSX - Colore del testo modificato|Insetto|
+|CELLSJAVA-42794|Da ODS a XLSX - Il colore del testo è cambiato|Insetto|
 |CELLSJAVA-42795|Da ODS a XLSX - Carattere barrato non conservato correttamente|Insetto|
 |CELLSJAVA-42796|Da ODS a XLSX - Le dimensioni della casella di testo sono state modificate|Insetto|
 |CELLSJAVA-42798|ODS -> XLSX - Il collegamento ipertestuale è funzionale ma mostrato come testo normale|Insetto|
 |CELLSJAVA-42802|Da ODS a XLSX, le percentuali vengono perse nel grafico a barre|Insetto|
-|CELLSJAVA-42803|Contorno "SummaryRowBelow" non influenzato durante il salvataggio come formato di file XLSB|Insetto|
+|CELLSJAVA-42803|Contorno "SummaryRowBelow" non influenzato durante il salvataggio nel formato file XLSB|Insetto|
 |CELLSJAVA-42826|Dati con formattazione condizionale omessi durante la conversione da XLSX a HTML|Insetto|
 |CELLSJAVA-42815|L'aggiunta di un riferimento complesso a un nome definito risulta in una cartella di lavoro MS Excel corrotta|Insetto|
 |CELLSJAVA-42822|Cell.getValidationValue restituisce un valore errato per il valore specificato|Insetto|
@@ -47,7 +47,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-42844|Il testo non è correttamente allineato nell'output PDF|Insetto|
 |CELLSJAVA-42834|Cambia il colore del testo nero in rosso|Insetto|
 |CELLSJAVA-42839|Il grafico a dispersione non viene visualizzato nella conversione da Excel a PDF|Insetto|
-|CELLSJAVA-42840|Le etichette dell'asse orizzontale non vengono visualizzate correttamente per i grafici nel rendering da Excel a PDF|Insetto|
+|CELLSJAVA-42840|Le etichette dell'asse orizzontale non vengono visualizzate correttamente per i grafici in Excel fino al rendering PDF|Insetto|
 |CELLSJAVA-42842|Il grafico a bolle 2D non viene visualizzato nella conversione da Excel a PDF|Insetto|
 |CELLSJAVA-42833|Problema durante l'incorporamento dello stesso file PDF in più fogli in una cartella di lavoro|Insetto|
 |CELLSJAVA-42836|Workbook.hasExernalLinks() non restituisce true per i collegamenti DDE|Insetto|
@@ -56,10 +56,10 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-42799|Eccezione "java.lang.ArrayIndexOutOfBoundsException: -32768" durante il caricamento di un formato di file XLSX|Eccezione|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException durante il caricamento di una cartella di lavoro|Eccezione|
 |CELLSJAVA-42820|Eccezione "Valore stringa IMEModeType non valido" durante il caricamento di un formato di file XLSX|Eccezione|
-|CELLSJAVA-42849|Eccezione IndexOutOfBoundsException durante la conversione di XLSX in HTML|Eccezione|
+|CELLSJAVA-42849|Eccezione IndexOutOfBoundsException durante la conversione da XLSX a HTML|Eccezione|
 |CELLSJAVA-42831|Eccezione sollevata da Excel dopo l'applicazione dello stile all'intervallo di celle di intestazione|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 **Aggiunge il metodo PivotTable.ShowReportFilterPageByName(string fieldName).**
 
@@ -125,6 +125,6 @@ Converte la tabella in un intervallo con opzioni.
 
 {{% alert color="primary" %}} 
 
-Poiché la base di codice di Aspose.Cells for Android via Java corrisponde al codice delle versioni .NET e Java pertinenti, la maggior parte delle modifiche, dei miglioramenti e delle correzioni incluse in Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v19.2, 07617634181 v19.1, Aspose.Cells for .NET v19.2, 07617634181 v19. , Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 e Aspose.Cells for Java v19.3 sono inclusi anche in questo Aspose.Cells for Android via Java v19.3.
+Since the code base of Aspose.Cells for Android via Java matches the code of relevant .NET and Java version(s), most of the changes, enhancements and fixes included in the Aspose.Cells for .NET v19.1, Aspose.Cells for .NET v19.2, Aspose.Cells for .NET v19.3, Aspose.Cells for Java v19.1, Aspose.Cells for Java v19.2 e Aspose.Cells for Java v19.3 sono inclusi anche in questo Aspose.Cells for Android via Java v19.3.
 
 {{% /alert %}}

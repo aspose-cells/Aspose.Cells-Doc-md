@@ -15,7 +15,7 @@ url: /tr/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `Çalışma Sayfasını resme dönüştür.
-- ` `Excel dosyasını HTML dosya biçimine dönüştürme desteği.
+- ` `Excel dosyasını HTML dosya formatına dönüştürme desteği.
 - ` `Verileri soldan sağa sıralama desteği.
 
 
@@ -27,7 +27,7 @@ url: /tr/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` `Formül hesaplama motorunda desteklenen daha fazla işlev
 - ` `Otomatik filtrede desteklenen daha fazla özel filtre.
 - ` `Gelişmiş Excel2007 Xlsx desteği
-- ` `Gelişmiş SpreadsheetML desteği
+- ` `Geliştirilmiş SpreadsheetML desteği
 - ` `Geliştirilmiş xls2Pdf dönüştürme
 - ` `Gelişmiş Grafikler2Görüntü dönüştürme.
 - ` `Gelişmiş akıllı işaretleyici

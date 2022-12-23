@@ -10,7 +10,7 @@ url: /tr/java/get-paper-width-and-height-from-pagesetup-of-worksheet/
 
 ## **Çalışma Sayfasının Sayfa Yapısından Kağıt Genişliğini ve Yüksekliğini Alın**
 
- Aşağıdaki örnek kod, kullanımını açıklar[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)özellikleri. Kağıt boyutunu önce A2 olarak değiştirir sonra kağıdın enini ve yüksekliğini bulur, sonra A3, A4, Letter olarak değiştirir ve sırasıyla kağıdın enini ve yüksekliğini bulur.
+ Aşağıdaki örnek kod, kullanımını açıklar[**Sayfa Kurulumu.Kağıt Genişliği**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperWidth) ve[**Sayfa Kurulumu.Kağıt Yüksekliği**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperHeight)özellikler. Kağıt boyutunu önce A2 olarak değiştirir sonra kağıdın enini ve yüksekliğini bulur, sonra A3, A4, Letter olarak değiştirir ve sırasıyla kağıdın enini ve yüksekliğini bulur.
 
 ## **Basit kod**
 

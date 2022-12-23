@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /de/net/
 is_root: true
-description: Eine leistungsstarke und schnelle Programmierbibliothek für Tabellenkalkulationen, geschrieben in C#. Sie unterstützt die gängigen Dateiformate Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML und JSON und ermöglicht den Export von Excel-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text und gängige Bildformate wie TIFF, JPG, PNG, BMP und SVG.
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Nur-Text und gängige Bildformate einschließlich TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Eine leistungsstarke und schnelle Programmierbibliothek für Tabell
 
 In Kombination mit APIs und GUI-Steuerelementen beschleunigt Aspose.Cells for .NET die Microsoft Excel®-Programmierung und -Konvertierung.
 
-Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Ihr Unternehmen täglich verwendet. Es ermöglicht auch den Export von Excel-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON，Plain Text und gängige Bildformate wie TIFF, JPG, PNG, BMP und SVG.
+Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Sie täglich im Unternehmen verwenden. Es ermöglicht auch den Export von Excel-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON，Plain Text und gängige Bildformate einschließlich TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -58,7 +58,7 @@ Aspose.Cells for .NET unterstützt die gängigen Dateiformate für Tabellenkalku
 	</div>
 	<div class="col-md-4">
 		<p><b>Funktionen entwickeln</b></p>
-			<hr><p><a href="/cells/de/net/developer-guide/">Führen</a></p></hr>
+			<hr><p><a href="/cells/de/net/developer-guide/">Handbuch</a></p></hr>
 			<ul>
 				<li><a href="/cells/de/net/introduction-of-aspose-cells-for-net/">Einführung von Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/de/net/loading-saving-and-managing/">Laden und speichern</a></li>

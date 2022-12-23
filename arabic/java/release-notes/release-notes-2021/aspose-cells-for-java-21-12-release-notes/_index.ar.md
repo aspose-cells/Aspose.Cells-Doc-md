@@ -13,9 +13,9 @@ url: /ar/java/aspose-cells-for-java-21-12-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-43994|دعم لمقاطعة تنفيذ WorkbookDesigner.process في SmarkMarker|
-|CELLSJAVA-44039|قم بتعديل سمة PDF Producer من ملف PDF الذي تم إنشاؤه|
+|CELLSJAVA-44039|قم بتعديل PDF سمة المُنتِج من PDF المُنشأ|
 |CELLSJAVA-43469|الانحدار المحتمل: تدهور أداء FormatConditionCollection.addArea ()|
-|CELLSJAVA-43983|الانحدار: حلقة لا نهائية عند تحويل XLSX إلى PDF|
+|CELLSJAVA-43983|الانحدار: الحلقة اللانهائية عند تحويل XLSX إلى PDF|
 |CELLSJAVA-44029|XLSX إلى PDF: لم يتم تحويل الصورة|
 |CELLSJAVA-44093| مشكلة اقتطاع النص مع أشكال المستطيل عند التقديم للصورة في الإصدارات الأحدث Aspose.Cells for Java|
 |CELLSJAVA-44089|DataLabels.setShadow () غير متوفر ولا يساوي طريقة Series.setShadow ()|
@@ -23,7 +23,7 @@ url: /ar/java/aspose-cells-for-java-21-12-release-notes/
 |CELLSJAVA-43932|مشكلة تتعلق بتعيين موضع تسميات البيانات للمخططات الدائرية المجوفة المنفصلة في صورة الإخراج|
 |CELLSJAVA-43934|تسميات المخطط الدائري غير متطابقة مع Excel بعد معالجة المخطط أو تحديثه|
 |CELLSJAVA-44094|تم قطع عنوان المخطط عند التصدير إلى PDF|
-|CELLSJAVA-43533|XLSX إلى مشكلة إنشاء Html في أوبونتو|
+|CELLSJAVA-43533|XLSX لمشكلة إنشاء Html في أوبونتو|
 |CELLSJAVA-43987|يتم فقدان الحد الأيمن للخلايا المدمجة في لغة تأشير النص الفائق|
 |CELLSJAVA-44016|مشكلة عند تحويل ملف Excel الذي يحتوي على عنوان URL للصورة إلى HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: لقد أدخلت عددًا قليلاً جدًا من المعلمات للوظيفة IF عند استدعاء Workbook.calculateFormula ()|

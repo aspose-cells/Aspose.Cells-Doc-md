@@ -6,7 +6,7 @@ url: /it/java/custom-slice-or-sector-colors-in-pie-chart/
 ---
 {{% alert color="primary" %}}
 
-Questo articolo spiega come aggiungere colori personalizzati alle fette/settori del grafico a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Microsoft Excel. Per utilizzare altri colori, è possibile ridefinire i colori nella tabella.
+Questo articolo spiega come aggiungere colori personalizzati alle fette/settori del grafico a torta. Per impostazione predefinita, i grafici a torta utilizzano il modello predefinito di Excel Microsoft. Per utilizzare altri colori, è possibile ridefinire i colori nella tabella.
 
 {{% /alert %}}
 
@@ -24,7 +24,7 @@ Questo articolo spiega anche come impostare:
 
 {{% alert color="primary" %}}
 
-[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)non è specifico per i grafici a torta ma può essere utilizzato per tutti i tipi di grafici.
+[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor) non è specifico per i grafici a torta ma può essere utilizzato per tutti i tipi di grafici.
 
 {{% /alert %}}
 

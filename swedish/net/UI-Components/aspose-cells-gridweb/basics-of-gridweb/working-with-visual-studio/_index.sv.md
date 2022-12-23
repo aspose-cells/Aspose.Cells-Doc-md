@@ -55,7 +55,7 @@ Alla mappar och webbapplikationer som är lagrade i din IIS-rotmapp visas (till 
  En ny webbapplikation med standardnamnet WebSite skapas.
 
 1. Byt namn på webbapplikationen. Vi döpte om det till GridWebOn2013.
-1.  Klick**Öppna**. 
+1.  Klick**Öppen**. 
 
 ![todo:image_alt_text](working-with-visual-studio_6.png)
 
@@ -129,7 +129,7 @@ Ta bort sidan Default.aspx som lagts till av Visual Studio och lägg till en ny 
 
 
 
-1.  Behåll, ändra eller ta bort<!DOCTYPE>märka.
+1.  Behåll, ändra eller ta bort<!DOCTYPE> märka.
 1.  Eller ändra<!DOCTYPE> tagga med följande:
 
 {{< highlight "csharp" >}}

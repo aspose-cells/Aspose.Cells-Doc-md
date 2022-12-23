@@ -13,7 +13,7 @@ Aspose.Cells for Reporting Services (Aspose.Cells.ReportingServices istemcisi, M
 Aşağıdaki Microsoft Excel sürümleri desteklenmektedir. Ayrıca, Microsoft Office 2000, 2002, XP veya 2003'teki bazı olası sorunların üstesinden gelmek için ek yamalar yüklemeniz gerekir.
 
 - Microsoft excel 2000
- Yükle**LockbackRegKey.msi** Office 2003'ten daha eski Microsoft Office makinelerinde bir CLR sorununu düzeltmek için.
+Yükle**LockbackRegKey.msi** Office 2003'ten daha eski Microsoft Office makinelerinde bir CLR sorununu düzeltmek için.
 - Microsoft excel 2002
  Düzenlemek**LockbackRegKey.msi** Office 2003'ten daha eski Microsoft Office makinelerinde bir CLR sorununu düzeltmek için.
 - Microsoft excel 2003

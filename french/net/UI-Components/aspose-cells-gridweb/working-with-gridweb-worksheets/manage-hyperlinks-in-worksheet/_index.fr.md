@@ -77,7 +77,7 @@ Pour ajouter un lien hypertexte vers une image :
 
 {{% alert color="primary" %}} 
 
- La définition de l'AltText du lien hypertexte de l'image remplit une fonction similaire à la définition d'un<ALT> balise en HTML. Le texte s'affiche uniquement si l'image hyperliée n'est pas affichée. (Par exemple, si l'image ne se trouve pas à l'emplacement spécifié.) Si l'image du deuxième lien hypertexte est introuvable, la sortie de l'extrait de code ci-dessous se présentera comme suit.
+ La définition de l'AltText du lien hypertexte de l'image remplit une fonction similaire à la définition d'un<ALT> balise dans HTML. Le texte s'affiche uniquement si l'image hyperliée n'est pas affichée. (Par exemple, si l'image ne se trouve pas à l'emplacement spécifié.) Si l'image du deuxième lien hypertexte est introuvable, la sortie de l'extrait de code ci-dessous se présentera comme suit.
 
 **L'image pour l'URL de l'image est introuvable** 
 

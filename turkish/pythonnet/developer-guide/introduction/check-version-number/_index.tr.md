@@ -20,7 +20,7 @@ Bu makalede, Aspose.Cells'in hangi sürümünün sistemde yüklü olduğunun man
 
 Aspose.Cells'in hangi sürümünü manuel olarak kullandığınızı öğrenmek için:
 
-1.  Aspose.Cells.dll dosyasına sağ tıklayın ve seçin**Özellikleri**.
+1.  Aspose.Cells.dll dosyasına sağ tıklayın ve seçin**Özellikler**.
 1. Sürüm numarasını kontrol etmek için Sürüm (veya Ayrıntılar) sekmesine tıklayın.
 
 ## **Aspose.Cells API'i Kullanarak Versiyon Numarasını Kontrol Edin**

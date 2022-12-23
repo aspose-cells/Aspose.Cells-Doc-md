@@ -24,7 +24,7 @@ Aspose.Cells
 
 
 - Cells.ImportDataView importiert nur 65535 Zeilen
-- ComboBox in XLSM-Datei konnte nicht aktualisiert werden
+- ComboBox in Datei XLSM konnte nicht aktualisiert werden
 
 
 
@@ -44,7 +44,7 @@ Aspose.Cells
 
 
 - .NET C++-Buildfehler C2686
-- Beim Konvertieren einer XLS-Datei in XLSX wird die Textformatierung verworfen
+- Beim Konvertieren der Datei XLS in XLSX wird die Textformatierung verworfen
 - Kopieren Sie Diagramme von einer Arbeitsmappe in eine andere
 - Beschädigte Zellfärbung nach dem Kopieren des Arbeitsblatts
 - Hyperlinks bewegen sich nicht mit sortierten Zellen
@@ -52,7 +52,7 @@ Aspose.Cells
 - Worksheet.Copy() kopiert keine Werte für ungültige Formeln
 - Problem beim Anwenden eines benutzerdefinierten Stils auf Zellen
 - ListBox erkennt keine Auswahländerungen
-- Der Diagrammtitel geht beim Öffnen der XLSM-Datei mit Office 2010 verloren
+- Der Diagrammtitel geht verloren, wenn die Datei XLSM mit Office 2010 geöffnet wird
 
  -Bugs beim Konvertieren einer Excel-Datei in ein Bild.
 
@@ -60,12 +60,12 @@ Aspose.Cells
 - Charts.ToImage() Qualitätsproblem
 - Diagramme Problem mit Verlaufseffekten
 - Problem mit der Formelberechnungs-Engine
-- Problem mit berechneten Zellen beim Speichern im PDF-Format
+- Problem mit berechneten Zellen beim Speichern im Format PDF
 - Cells Berechnung ist falsch
 
- -Benutzerdefinierte Formatierung von Textwerten beim Exportieren in PDF
+ -Benutzerdefinierte Formatierung von Textwerten beim Export nach PDF
 
-- Problem mit der Konvertierung von Excel in PDF
+- Problem mit Konvertierung von Excel in PDF
 - Die Arbeitsmappe wird beschädigt, indem ein Blatt mit einer Pivot-Tabelle entfernt wird
 - Tabellen als Datenquelle für PivotTable mit Designer beschädigt
 - Beschädigung beim Hinzufügen von Feldern zur Pivot-Tabelle
@@ -81,10 +81,10 @@ Aspose.Cells
 - Bilder können in Aspose.Cells nicht genau gedruckt werden
 - Fehler bei der Verwendung der Methode WorkBook.Copy()
 - Microsoft Office-Dateivalidierungs-Add-In-Warnung
-- Probleme beim Speichern im XLS-Format mit der ClearData-Option
+- Probleme beim Speichern im Format XLS mit der Option ClearData
 - Bedingte Formatierung - Kompatibilitätsprobleme mit *.XLSB
 - Beschädigte Arbeitsmappe nach einem einfachen Öffnen/Speichern
-- Excel erzeugt eine ungültige XLS-Datei beim Konvertieren einer XLSX-Datei, die von Aspose.Cells erstellt wurde
+- Excel erzeugt beim Konvertieren der von Aspose.Cells erstellten XLSX-Datei eine ungültige XLS-Datei
 
  -Speichern kann die Arbeitsmappe beschädigen, wenn CurrentCulture nicht Englisch ist
 

@@ -67,7 +67,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - CHISQ.TEST
 - CHITEST
 - WÄHLEN
-- SAUBER
+- REINIGEN
 - CODE
 - SÄULE
 - SÄULEN
@@ -81,7 +81,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - KORREL
 - KOS
 - COSCH
-- ZÄHLEN
+- ANZAHL
 - GRAF
 - ZÄHLLEER
 - ZÄHLENWENN
@@ -137,7 +137,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - ERF
 - ERFC
 - FEHLERTYP
-- EBEN
+- AUCH
 - GENAU
 - EXP
 - EXPONDIST
@@ -155,7 +155,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - FISCHER
 - FISHERINV
 - FEST
-- BODEN
+- UMHAUEN
 - BODEN.MATHE
 - VORHERSAGE
 - PROGNOSE.LINEAR
@@ -243,7 +243,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - LOGINV
 - LOGNORM.ABST
 - LOGNORMVERT
-- SIEH NACH OBEN
+- NACHSCHLAGEN
 - NIEDRIGER
 #### **M**
 - PASSEN
@@ -337,7 +337,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - RANG.AVG
 - RANG.EQ
 - BEWERTUNG
-- ERHALTEN
+- EMPFANGEN
 - ERSETZEN
 - ERSATZB
 - REP
@@ -347,16 +347,16 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - RUNDEN
 - ABRUNDEN
 - ZUSAMMENFASSEN
-- DIE ZEILE
+- REIHE
 - REIHEN
 - RSQ
 #### **S**
 - SUCHE
 - SUCHEB
-- ZWEITE
+- SEKUNDE
 - REIHENFOLGE
 - SERIESUM
-- SCHILD
+- UNTERZEICHNEN
 - SÜNDE
 - SINH
 - SCHRÄG
@@ -364,7 +364,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - NEIGUNG
 - KLEIN
 - Quadrat
-- SORTIEREN NACH
+- SORTIERE NACH
 - SQRTPI
 - STANDARDISIEREN
 - STABW
@@ -411,7 +411,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 - KURZ
 - TTEST
 - TYP
-- STIMMT
+- WAHR
 #### **U**
 - UNICHAR
 - UNICODE

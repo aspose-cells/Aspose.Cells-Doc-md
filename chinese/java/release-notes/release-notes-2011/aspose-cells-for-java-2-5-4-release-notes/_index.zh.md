@@ -10,7 +10,7 @@ url: /zh/java/aspose-cells-for-java-2-5-4-release-notes/
 
 {{% /alert %}} 
 ## **我们很高兴地宣布 Aspose.Cells for Java v2.5.4！**
-### **新的功能**
+### **新功能**
 25051 - 支持高级自动过滤器类型：MultipleFilter、DynamicFilter、IconFilter
 
  25742 - 格式化整个数据透视表或数据透视表报告中的单元格
@@ -33,7 +33,7 @@ url: /zh/java/aspose-cells-for-java-2-5-4-release-notes/
 ### **例外情况**
 26710 - 从 XLSX 文件读取表单控件时出现异常
 
-27128 - 读取拆分窗格的行索引超过 Short 限制的 ODS 文件时处理“NumberFormatException”
+27128 - 在读取 ODS 文件时处理“NumberFormatException”，其拆分窗格的行索引超过 Short 的限制
 
 27578 - 读取列宽定义超过 Excel 文件限制的 ODS 文件时发生异常“IllegalArgumentException”
 

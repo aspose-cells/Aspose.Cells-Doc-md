@@ -14,34 +14,34 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43639|无法提取创建日期和时间以及修改日期|
 |CELLSJAVA-43622|XLSX 到 PDF：形状到图像错误|
-|CELLSJAVA-43756|Excel 到 HTML 期间的图像失真|
-|CELLSJAVA-43309|Excel 到 HTML 转换的详细信息已更改|
+|CELLSJAVA-43756|Excel 期间的图像失真为 HTML|
+|CELLSJAVA-43309|Excel 上的详细信息更改为 HTML 转换|
 |CELLSJAVA-43578|将 Excel 转换为 HTML 时出现格式问题|
 |CELLSJAVA-43579|Excel 到 HTML 转换期间的文本对齐问题|
-|CELLSJAVA-43630|Excel转HTML时超链接功能超链接无效|
+|CELLSJAVA-43630|HTML Excel转换时超链接功能超链接无效|
 |CELLSJAVA-43635|导出html时数据栏长度比excel短|
-|CELLSJAVA-43709|重新保存的 XLSM 文件导致在用 ms excel 打开时文件损坏弹出窗口|
+|CELLSJAVA-43709|重新保存 XLSM 文件导致在用 ms excel 打开时文件损坏弹出窗口|
 |CELLSJAVA-43758|数组公式求值问题|
 |CELLSJAVA-43680|生成的 pdf 中条件格式的数据栏问题|
 |CELLSJAVA-43689|将条件格式设置为单元格并使用 DataBar.toImage 导致空白图片|
-|CELLSJAVA-43723|Excel文件转PDF时单元格字体显示不全|
+|CELLSJAVA-43723|Excel文件转换为PDF时单元格字体显示不全|
 |CELLSJAVA-43724|无法将复杂的 HTML 转换为 CSV|
 |CELLSJAVA-43728| Excel 到 PDF 转换时文本方向发生变化|
 |CELLSJAVA-43752|Excel 到 HTML 呈现 - 隐藏边框的条件格式问题|
-|CELLSJAVA-43792|为 HTML 到 Excel 转换设置 HtmlLoadOptions 时字体不正确|
-|CELLSJAVA-43571|将 XLSX 转换为 PDF 时的 DataLabels 截断问题|
+|CELLSJAVA-43792|HTML 设置HtmlLoadOptions到Excel转换时字体不正确|
+|CELLSJAVA-43571|将 XLSX 转换为 PDF 时出现 DataLabels 截断问题|
 |CELLSJAVA-43587|圆环图标签错位|
-|CELLSJAVA-43620|将 Excel 文件（包含瀑布图）呈现为 HTML 时，垂直轴值和点标签未正确呈现|
+|CELLSJAVA-43620|将 Excel 文件（包含瀑布图）渲染到 HTML 时，垂直轴值和点标签未正确渲染|
 |CELLSJAVA-43621|函数 RANDBETWEEN(bottom, top) 值结果与 Excel 结果不同|
-|CELLSJAVA-41710|从 XLSX 转换后 HTML 呈现错误|
+|CELLSJAVA-41710|从 XLSX 转换后错误呈现 HTML|
 |CELLSJAVA-43422|HTML 到 Excel 的转换 - CSS 中的“mso-ignore: padding”无效|
 |CELLSJAVA-43606|合并文件时更改了背景文本格式|
 |CELLSJAVA-43769|无法加载 MSO Excel (XLS) 文档|
 |CELLSJAVA-43631|加载 XLSM 文件时出现异常“java.lang.NullPointerException”|
 |CELLSJAVA-43655|ArrayIndexOutOfBoundsException 与 getStringValue|
 |CELLSJAVA-43788|为图表系列设置值时引发异常|
-|CELLSJAVA-43632|加载 XLSX 文件时出现“无效的 FontUnderlineType 字符串 val”异常|
-|CELLSJAVA-43633|加载 XLSX 文件时出现异常“无效的 MsoLineDashStyle 字符串值”|
+|CELLSJAVA-43632|加载 XLSX 文件时出现异常“无效的 FontUnderlineType 字符串 val”|
+|CELLSJAVA-43633|加载 XLSX 文件时出现异常“无效的 MsoLineDashStyle 字符串 val”|
 
 ## **公共 API 和向后不兼容的更改**
 

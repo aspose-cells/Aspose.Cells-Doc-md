@@ -12,16 +12,16 @@ Esta página contiene notas de la versión para Aspose.Cells for Node.js via Jav
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-43076|Establezca el tipo de imagen EMF en el archivo HTML renderizado|Mejora|
-|CELLSJAVA-43113|Conversión a PDF: java.lang.NumberFormatException: para cadena de entrada|Mejora|
-|CELLSJAVA-43114|Conversión a PDF - Fórmula no válida:"'ABRIL''12'.A1:'ABRIL''12'.I23"|Mejora|
+|CELLSJAVA-43076|Establezca el tipo de imagen EMF en el archivo renderizado HTML|Mejora|
+|CELLSJAVA-43113|Conversión a PDF - java.lang.NumberFormatException: para cadena de entrada|Mejora|
+|CELLSJAVA-43114|Conversión a PDF - Fórmula no válida:"'APRIL''12'.A1:'APRIL''12'.I23"|Mejora|
 |CELLSJAVA-43117|Conversión a PDF: el hexadecimal no es un número hexadecimal válido|Mejora|
-|CELLSJAVA-43118|Conversión a PDF: java.lang.NumberFormatException: para la cadena de entrada: "341.403.811,74"|Mejora|
+|CELLSJAVA-43118|Conversión a PDF - java.lang.NumberFormatException: Para cadena de entrada: "341,403,811.74"|Mejora|
 |CELLSJAVA-43077|Se generó la excepción "Tipo de imagen inesperado" al representar la hoja de trabajo en HTML|Insecto|
-|CELLSJAVA-43096|El programa se cuelga al convertir un archivo de Excel a HTML|Insecto|
+|CELLSJAVA-43096|El programa se cuelga al convertir el archivo de Excel a HTML|Insecto|
 |CELLSJAVA-43107|Conversión a PDF - com.aspose.cells.CellsException: ¡Error de forma a imagen!|Insecto|
-|CELLSJAVA-43108|Conversión a PDF: com.aspose.cells.CellsException|Insecto|
-|CELLSJAVA-43088|El gráfico de radar no se representa en el archivo de salida en la conversión de XLSX a PDF|Insecto|
+|CELLSJAVA-43108|Conversión a PDF - com.aspose.cells.CellsException|Insecto|
+|CELLSJAVA-43088|El gráfico de radar no se representa en el archivo de salida en la conversión XLSX a PDF|Insecto|
 |CELLSJAVA-43091|Las etiquetas de datos en el gráfico de anillos se superponen en el archivo PDF|Insecto|
 |CELLSJAVA-43099|La imagen de la hoja de trabajo no se representa correctamente|Insecto|
 |CELLSJAVA-43093|El control ActiveX no se detecta en el formato de archivo XLS|Insecto|
@@ -34,10 +34,10 @@ Esta página contiene notas de la versión para Aspose.Cells for Node.js via Jav
 |CELLSJAVA-43105|Conversión a PDF - java.lang.ArrayIndexOutOfBoundsException: 60|Excepción|
 |CELLSJAVA-43106|Conversión a PDF - java.lang.IllegalArgumentException|Excepción|
 |CELLSJAVA-43109|Conversión a PDF - java.lang.NullPointerException|Excepción|
-|CELLSJAVA-43111|Conversión a PDF: com.aspose.cells.CellsException: ¡datos no válidos!|Excepción|
+|CELLSJAVA-43111|Conversión a PDF - com.aspose.cells.CellsException: ¡datos no válidos!|Excepción|
 |CELLSJAVA-43112|Conversión a PDF - java.lang.NullPointerException|Excepción|
 |CELLSJAVA-43115|Conversión a PDF - java.lang.NegativeArraySizeException|Excepción|
-|CELLSJAVA-43116|Conversión a PDF: java.lang.IllegalStateException: el almacenamiento estructurado parece estar corrupto.|Excepción|
+|CELLSJAVA-43116|Conversión a PDF - java.lang.IllegalStateException: el almacenamiento estructurado parece estar corrupto.|Excepción|
 |CELLSJAVA-43120|java.lang.NumberFormatException al convertir el libro de trabajo a PDF|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Node.js via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.

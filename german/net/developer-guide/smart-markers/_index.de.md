@@ -30,7 +30,7 @@ Folgende Parameter sind erlaubt:
 - **aufsteigend: n** oder**absteigend: n** - Daten in Smartmarkern sortieren. Wenn n 1 ist, dann ist die Spalte der erste Schlüssel des Sortierers. Die Daten werden nach Verarbeitung der Datenquelle sortiert. Beispiel: &=Tabelle1.Feld3(aufsteigend:1).
 - **horizontal** - Schreiben Sie Daten von links nach rechts, anstatt von oben nach unten.
 - **numerisch** - Text wenn möglich in Zahlen umwandeln.
-- **Wechsel** - Verschieben Sie nach unten oder rechts und erstellen Sie zusätzliche Zeilen oder Spalten, um die Daten anzupassen. Der Shift-Parameter funktioniert genauso wie in Microsoft Excel. Wenn Sie beispielsweise in Microsoft Excel einen Zellbereich auswählen, klicken Sie mit der rechten Maustaste und wählen Sie aus**Einfügung** und spezifizieren**Zellen nach unten verschieben**, **Zellen nach rechts verschieben** und andere Optionen. Kurz gesagt, die**Wechsel** Der Parameter erfüllt die gleiche Funktion für vertikale/normale (von oben nach unten) oder horizontale (von links nach rechts) Smartmarker.
+- **Schicht** - Verschieben Sie nach unten oder rechts und erstellen Sie zusätzliche Zeilen oder Spalten, um die Daten anzupassen. Der Shift-Parameter funktioniert genauso wie in Microsoft Excel. Wenn Sie beispielsweise in Microsoft Excel einen Zellbereich auswählen, klicken Sie mit der rechten Maustaste und wählen Sie aus**Einfügung** und spezifizieren**Zellen nach unten verschieben**, **Zellen nach rechts verschieben** und andere Optionen. Kurz gesagt, die**Schicht** Der Parameter erfüllt die gleiche Funktion für vertikale/normale (von oben nach unten) oder horizontale (von links nach rechts) Smartmarker.
 - **Kopierstil** - Kopieren Sie den Stil der Basiszelle in alle Zellen in dieser Spalte.
 
 Die Parameter noadd und skip können kombiniert werden, um Daten abwechselnd in Zeilen einzufügen. Da die Vorlage von unten nach oben verarbeitet wird, sollten Sie in der ersten Zeile noadd hinzufügen, um zu vermeiden, dass zusätzliche Zeilen vor der alternativen Zeile eingefügt werden.
@@ -190,8 +190,8 @@ Aspose.Cells unterstützt jetzt auch die Verwendung einer generischen Liste als 
 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
-## **Verwenden der HTML-Eigenschaft von Smart Markers**
- Der folgende Beispielcode erläutert die Verwendung der HTML-Eigenschaft der Smart Marker. Wenn es verarbeitet wird, wird "World" in "Hello World" aufgrund von HTML fett angezeigt<b>Schild.
+## **Verwendung der Eigenschaft HTML von Smart Markers**
+ Der folgende Beispielcode erläutert die Verwendung der Eigenschaft HTML der Smart Marker. Wenn es verarbeitet wird, wird "World" in "Hello World" wegen HTML fett angezeigt<b> Schild.
 
 
 

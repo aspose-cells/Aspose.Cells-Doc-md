@@ -12,7 +12,7 @@ Aspose.Cells 提供了 Shape.Glow 属性来处理形状或图表的发光效果�
 
 以下截图为Microsoft Excel界面设置形状发光效果。
 
-![待办事项：图像_替代_文本](working-with-the-glow-effect-of-shape-or-chart_1.png)
+![待办事项：图片_替代_文本](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **使用形状或图表的发光效果**
 下面的示例代码加载[源文件](5472520.xlsx)并访问第一个工作表中的第一个形状并设置 Shape.Glow 属性的子属性，然后将工作簿保存在[输出excel文件](5472527.xlsx).
 ## **示例代码**

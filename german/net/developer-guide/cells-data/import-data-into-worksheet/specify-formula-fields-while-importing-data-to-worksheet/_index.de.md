@@ -6,7 +6,7 @@ url: /de/net/specify-formula-fields-while-importing-data-to-worksheet/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Sie können Formelfelder angeben, wenn Sie Daten mithilfe von in Ihr Arbeitsblatt importieren[**ImportTableOptions.IsFormulas**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/isformulas) . Diese Eigenschaft übernimmt das boolesche Array mit dem Wert**Stimmt**bedeutet, dass das Feld ein Formelfeld ist. Wenn das dritte Feld beispielsweise ein Formelfeld ist, dann ist der dritte Wert im Array**Stimmt**.
+Sie können Formelfelder angeben, wenn Sie Daten mithilfe von in Ihr Arbeitsblatt importieren[**ImportTableOptions.IsFormulas**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/isformulas) . Diese Eigenschaft übernimmt das boolesche Array mit dem Wert**wahr**bedeutet, dass das Feld ein Formelfeld ist. Wenn das dritte Feld beispielsweise ein Formelfeld ist, dann ist der dritte Wert im Array**wahr**.
 
 ## **Geben Sie beim Importieren von Daten in ein Arbeitsblatt Formelfelder an**
 

@@ -21,7 +21,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44611|从 xlsx 文件读取空白单元格的改进|
 |CELLSJAVA-44616|复制范围时应删除目标范围内条件格式的原始设置|
 |CELLSJAVA-44658|支持BouncyCastle v1.71|
-|CELLSJAVA-44455|将 XLSX 文件转换为 PDF 时，数据透视表中的日期变为序列号|
+|CELLSJAVA-44455|将XLSX文件转换为PDF时，数据透视表中的日期变成了序号|
 |CELLSJAVA-44370|使用 Aspose.Cells 打开和保存时 Excel 文件损坏|
 |CELLSJAVA-44381|删除行或列时条件格式问题|
 |CELLSJAVA-44442|使用 Aspose.Cells 打开和保存会损坏工作簿|
@@ -31,8 +31,8 @@ url: /zh/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44464|附加问题 1，列 A 背景颜色与 yscl.xls 在 sheet4 的 excel 中不同|
 |CELLSJAVA-44466|附加问题 3，将 CalculateFormula 设置为 false 不起作用|
 |CELLSJAVA-44496|加载 html 时包含表格的标题标签/元素|
-|CELLSJAVA-44429|Excel图表在excel中的效果与HTML中的不一样|
-|CELLSJAVA-44414|JSON 中的 Unicode 会破坏生成的 XLSX 和 CSV|
+|CELLSJAVA-44429|HTML excel中的Excel图表效果不一样|
+|CELLSJAVA-44414|JSON 中的 Unicode 将中断生成 XLSX 和 CSV|
 |CELLSJAVA-44481|ThreadedComment.setCreatedTime() 方法的问题|
 |CELLSJAVA-44483|对行分组后排序不起作用|
 |CELLSJAVA-44522|字符串的双精度值给出尾零，这在与 ms excel 的结果进行比较时是不正确的|
@@ -41,7 +41,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44530|调查setactivecell有时不起作用的问题|
 |CELLSJAVA-44534|打印区域中的图形未在 Excel 中导出为 HTML 转换|
 |CELLSJAVA-44539|在使用打印区域转换为 html 时图表向右移动|
-|CELLSJAVA-44568|除 HTML 到 XLS 转换中的第一行外，多行字幕丢失|
+|CELLSJAVA-44568|HTML 到 XLS 转换中除第一行外多行字幕丢失|
 |CELLSJAVA-44512|将图表导出到 html 中的 svg 时图表丢失|
 |CELLSJAVA-44556|坐标轴设置为对数刻度后数据表中数据显示的问题-Excel转HTML/PDF|
 |CELLSJAVA-44628|如何在扩展数据透视列/字段的节点数据时保留某些数据透视行的百分比格式|
@@ -55,7 +55,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-6-release-notes/
 |CELLSJAVA-44660|将 XLS 加载到 Aspose.Cells.GridWeb 时出现数据对齐问题 (Java)|
 |CELLSJAVA-44661|将 et 文件加载到 Aspose.Cells.GridWeb 时出现问题 (Java)|
 |CELLSJAVA-44584|图表中轴的标题在输出图像中旋转 - 图表到图像的转换|
-|CELLSJAVA-44615|XLS 文件的输出图像中绘制的灰线|
+|CELLSJAVA-44615|在 XLS 文件的输出图像中绘制的灰线|
 |CELLSJAVA-44665|加载 ODS 文件挂起|
 |CELLSJAVA-44404|将 XLSX 文件加载到 GridWeb 时出现异常“java.lang.IllegalArgumentException：无效的列索引”|
 |CELLSJAVA-44651|将 Excel 工作表转换为 HTML/PDF 时出现“不是数值”错误|
@@ -119,23 +119,23 @@ url: /zh/java/aspose-cells-for-android-via-java-22-6-release-notes/
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, string baseFieldName) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 DataLabelShapeType.Line 枚举。**
 

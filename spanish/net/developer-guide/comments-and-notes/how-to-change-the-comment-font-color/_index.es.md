@@ -14,4 +14,4 @@ Microsoft Excel permite a los usuarios agregar comentarios a las celdas para agr
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChangeCommentFontColor-1.cs" >}}
 
- los[archivo de salida](102662195.xlsx) generado por el código anterior se adjunta para su referencia.
+ Él[archivo de salida](102662195.xlsx) generado por el código anterior se adjunta para su referencia.

@@ -25,7 +25,7 @@ url: /ar/sharepoint/convert-multiple-files/
 
 ![ما يجب القيام به: image_بديل_نص](convert-multiple-files_2.png)
 ### **استخدام زر شريط الخادم ضمن SharePoint 2010**
- ضمن SharePoint 2010 ، يتوفر زر شريط الخادم بدلاً من قائمة الإجراءات المخصصة المستخدمة مع SharePoint 2007 / WSS 3.
+ضمن SharePoint 2010 ، يتوفر زر شريط الخادم بدلاً من قائمة الإجراءات المخصصة المستخدمة مع SharePoint 2007 / WSS 3.
 
 **تحويل المستندات باستخدام Aspose.Cells for SharePoint على SharePoint 2010** 
 

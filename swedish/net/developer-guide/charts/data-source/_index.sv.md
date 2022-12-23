@@ -16,7 +16,7 @@ Det finns två typer av data att hantera när du arbetar med diagram med Aspose.
 
 ### **Diagramdata**
 
-Diagramdata är den data som vi använder som datakälla för att bygga våra diagram. Vi kan lägga till ett intervall av cellerna (som innehåller diagramdata) genom att anropa[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) objekt[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)metod.
+Diagramdata är den data som vi använder som datakälla för att bygga våra diagram. Vi kan lägga till ett intervall av cellerna (som innehåller diagramdata) genom att anropa[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) föremål[**Lägg till**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)metod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 

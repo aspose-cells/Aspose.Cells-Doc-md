@@ -1,12 +1,12 @@
 ﻿---
-title: Drucken Sie Kommentare beim Speichern als PDF
+title: Kommentare beim Speichern unter PDF drucken
 type: docs
 weight: 10
 url: /de/net/print-comments-while-saving-to-pdf/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Mit den folgenden Optionen können Sie in Excel Kommentare beim Drucken oder Speichern im PDF-Format drucken
+Microsoft Excel ermöglicht es Ihnen, Kommentare beim Drucken oder Speichern im PDF-Format mit den folgenden Optionen zu drucken
 
 - Keiner
 - Am Ende des Blattes
@@ -20,8 +20,8 @@ Microsoft Mit den folgenden Optionen können Sie in Excel Kommentare beim Drucke
 
 {{% /alert %}}
 
-## **Drucken Sie Kommentare beim Speichern als PDF**
+## **Kommentare beim Speichern unter PDF drucken**
 
- Der folgende Beispielcode veranschaulicht die Verwendung[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)um Kommentare beim Speichern als PDF zu drucken.
+ Der folgende Beispielcode veranschaulicht die Verwendung[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)um Kommentare beim Speichern unter PDF zu drucken.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-PrintCommentWhileSavingToPdf-PrintCommentWhileSavingToPdf.cs" >}}

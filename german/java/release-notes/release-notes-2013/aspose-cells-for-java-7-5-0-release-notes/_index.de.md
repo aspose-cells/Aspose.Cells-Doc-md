@@ -22,6 +22,6 @@ url: /de/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40490 – Problem mit der Perspektive der 3D-Karte
 
- 40481 – XLS zu PDF – Problem mit der Tabellenzellenbreite
+ 40481 - XLS bis PDF - Problem mit der Tabellenzellenbreite
 
-40519 – Ausnahme beim Speichern eines XLSX-Dokuments
+ 40519 – Ausnahme beim Speichern eines XLSX-Dokuments

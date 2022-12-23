@@ -38,4 +38,4 @@ url: /de/reportingservices/mapping-query-parameters-to-report-parameters/
 
 ![todo: Bild_alt_Text](mapping-query-parameters-to-report-parameters_4.png)
 
-1.  Klicken**Nah dran**.
+1.  Klicken**Nahe**.

@@ -1,5 +1,5 @@
 ﻿---
-title: Konvertera till XPS i Jython
+title: Konverterar till XPS i Jython
 type: docs
 weight: 30
 url: /sv/java/converting-to-xps-in-jython/

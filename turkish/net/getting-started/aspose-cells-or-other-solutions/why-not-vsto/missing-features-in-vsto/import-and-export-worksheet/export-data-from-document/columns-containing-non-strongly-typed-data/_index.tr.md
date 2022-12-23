@@ -38,9 +38,9 @@ fstream.Close();
 
 Ekran görüntüleri aşağıdadır:
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
-![yapılacaklar:resim_alternatif_Metin](picture2.png)
+![yapılacaklar:resim_alternatif_metin](picture2.png)
 
 ## **Örnek Kodu İndir**
 

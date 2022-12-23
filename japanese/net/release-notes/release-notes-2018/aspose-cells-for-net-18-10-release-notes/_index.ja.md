@@ -14,18 +14,18 @@ url: /ja/net/aspose-cells-for-net-18-10-release-notes/
 |:- |:- |:- |
 |CELLSNET-46311|図形から接続ポイントを取得する|新機能|
 |CELLSNET-46194|列の固定サイズ幅 (つまり、pt/px) を「em」や「percent」などのスケーラブルな単位に変更します|強化|
-|CELLSNET-46383|Excel を HTML ファイル形式にレンダリングするときの画像ソースの問題|バグ|
-|CELLSNET-46367|XLSX から HTML への変換中にフォント サイズが 6.5 から 6 に変更されました|バグ|
+|CELLSNET-46383|Excel を HTML ファイル形式にレンダリングする際の画像ソースの問題|バグ|
+|CELLSNET-46367|XLSX を HTML に変換する際に、フォント サイズが 6.5 から 6 に変更されました|バグ|
 |CELLSNET-46353|のような空のタグを認識します<td />HTML を MS Excel ファイル形式に変換中|バグ|
 |CELLSNET-46341|更新後に行が折りたたまれたときに小計が表示されない|バグ|
 |CELLSNET-46330|Worksheet.AutoFitColumns() の呼び出し中の数値フィールドの問題|バグ|
 |CELLSNET-42681|XLSB ファイルを開いて保存すると破損する|バグ|
-|CELLSNET-46382|CSV インポートは、PreferredParsers を使用して不適切なフォーマットを作成します|バグ|
+|CELLSNET-46382|CSV インポートは、PreferredParsers を使用して不正なフォーマットを作成します|バグ|
 |CELLSNET-46338|式名の前に「_xll」を付ける|バグ|
 |CELLSNET-46334|名前付き範囲式 ("=GET.CELL") がドイツ語ロケールで正しく作成されない|バグ|
-|CELLSNET-46321|PDFではエスケープ文字がそのまま表示される|バグ|
-|CELLSNET-46376|PDF 出力ページ サイズ (および余白) が MS Excel 出力と一致しない|バグ|
-|CELLSNET-46373|XLSM から PDF への変換中に、ヘッダーの画像の高さが切り捨てられ、レイアウトが壊れる|バグ|
+|CELLSNET-46321|エスケープ文字はPDFのまま表示|バグ|
+|CELLSNET-46376|PDF 出力ページ サイズ (および余白) が MS Excel 出力と一致しません|バグ|
+|CELLSNET-46373|XLSM->PDF の変換中に、ヘッダーの画像の高さが切り捨てられ、レイアウトが壊れる|バグ|
 |CELLSNET-46349|行と列に印刷タイトルが設定されている場合、画像が正しく繰り返されない|バグ|
 |CELLSNET-46358|単純なチャートからイメージをレンダリングすると、すべてのリソースが使用され、例外が発生します|バグ|
 |CELLSNET-46343|可視性プロパティにアクセスすると、再保存された出力のグラフの可視性が変更されました|バグ|
@@ -37,11 +37,11 @@ url: /ja/net/aspose-cells-for-net-18-10-release-notes/
 |CELLSNET-46374|セルの前景色と背景色の誤検出|バグ|
 |CELLSNET-46369|行が自動フィルタリングされると、非表示の行に自動調整が自動的に行われます|バグ|
 |CELLSNET-46368|カスタム スキーム 'm-files://...' はドキュメントの保存操作で変換されます|バグ|
-|CELLSNET-46357|LoadDataFilterOption.All 以外の LoadDataFilterOption を使用して XLSB ファイルを開くことはできません。|バグ|
+|CELLSNET-46357|XLSB LoadDataFilterOption.All 以外の LoadDataFilterOption を使用してファイルを開くことができない|バグ|
 |CELLSNET-46356|数式に一重引用符がありません|バグ|
 |CELLSNET-46351|LoadDataFilterOptions.SheetSettings が XLSB ファイルで機能しない|バグ|
-|CELLSNET-46350|XLS -> XLSM -> XLS の変換中にビューがプロテクトに変更される|バグ|
-|CELLSNET-46347|XML (SpreadsheetML) ファイルからの変換後に XLSX ファイルが破損する|バグ|
+|CELLSNET-46350|XLS -> XLSM -> XLS の変換中にビューが保護された状態に変更される|バグ|
+|CELLSNET-46347|XML (SpreadsheetML) ファイルから変換した後、XLSX ファイルが破損しています|バグ|
 |CELLSNET-46344|Smart Marker が ISBLANK を正しく評価しない|バグ|
 |CELLSNET-46319|FilterOperatorType.Contains が API から欠落しています|バグ|
 |CELLSNET-46354|Excel ファイルの読み込み中に例外が発生しました|例外|

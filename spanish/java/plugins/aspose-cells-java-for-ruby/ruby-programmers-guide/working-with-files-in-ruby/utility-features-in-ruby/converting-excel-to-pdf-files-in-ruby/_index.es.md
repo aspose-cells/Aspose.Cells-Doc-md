@@ -1,5 +1,5 @@
 ﻿---
-title: Convertir archivos de Excel a PDF en Ruby
+title: Conversión de archivos de Excel a PDF en Ruby
 type: docs
 weight: 30
 url: /es/java/converting-excel-to-pdf-files-in-ruby/

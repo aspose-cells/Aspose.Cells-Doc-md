@@ -3,6 +3,7 @@ title: Mostra e nascondi fogli di lavoro e schede
 type: docs
 weight: 10
 url: /it/net/show-and-hide-worksheets-and-tabs/
+description: In questo articolo viene fornito codice di esempio per l'utilizzo della libreria C# API o .NET per visualizzare e nascondere a livello di codice un foglio di lavoro di Excel. Inoltre, come mostrare e nascondere le schede della cartella di lavoro di Excel.
 ---
 {{% alert color="primary" %}}
 
@@ -24,18 +25,18 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 ### **Nascondere un foglio di lavoro**
 
- Nascondere un foglio di lavoro impostando il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**È visibile**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) proprietà a**falso**.
+Nascondere un foglio di lavoro impostando il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**È visibile**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) proprietà a**falso**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
 
 ## **Mostra e nascondi le schede**
 
-Se osservi attentamente la parte inferiore di un file Microsoft Excel, vedrai una serie di controlli. Questi includono:
+Se osservi attentamente la parte inferiore di un file Excel Microsoft, vedrai una serie di controlli. Questi includono:
 
 - Schede dei fogli.
 - Pulsanti di scorrimento delle schede.
 
-Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Pertanto, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
+Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Quindi, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
 
 Utilizzando Aspose.Cells, gli sviluppatori possono controllare la visibilità delle schede dei fogli e dei pulsanti di scorrimento delle schede nei file Excel.
 

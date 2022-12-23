@@ -12,7 +12,7 @@ url: /it/net/working-with-the-reflection-effect-of-shape-or-chart/
 - [Distanza](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
 - [DissolvenzaDirezione](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
 - [RotWithShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
-- [Dimensione](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
+- [Misurare](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
 - [Trasparenza](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
 - [Tipo](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
 ## **Utilizzo dell'effetto riflesso di forma o grafico**

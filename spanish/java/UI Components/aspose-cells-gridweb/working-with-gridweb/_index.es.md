@@ -140,7 +140,7 @@ Todos los tipos de eventos de doble clic se pueden habilitar en el lado del clie
 
 {{% alert color="primary" %}}
 
-De forma predeterminada, la propiedad EnableDoubleClickEvent se establece en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar dichos eventos, primero habilite la característica.
+De forma predeterminada, la propiedad EnableDoubleClickEvent se establece en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar dichos eventos, primero habilite la función.
 
 {{% /alert %}}
 
@@ -456,7 +456,7 @@ Verá algo como la siguiente captura de pantalla. Felicidades, ha utilizado con 
 
 ## **Cuadrícula De ImpresiónWeb**
 
-Hay momentos en que los desarrolladores necesitan imprimir el contenido de GridWeb incluido desde una página web sin guardar un archivo de Excel Microsoft. El control Aspose.Cells.GridWeb admite esta característica.
+Hay momentos en que los desarrolladores necesitan imprimir el contenido de GridWeb incluido desde una página web sin guardar un archivo de Excel Microsoft. El control Aspose.Cells.GridWeb admite esta función.
 
 ### **Cuadrícula De ImpresiónWeb**
 

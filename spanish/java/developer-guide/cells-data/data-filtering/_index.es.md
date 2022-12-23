@@ -19,7 +19,7 @@ El filtrado automático es la forma más rápida de seleccionar solo los element
 Para activar la función de autofiltro en Microsoft Excel:
 
 1. Haga clic en la fila de encabezado en una hoja de cálculo.
-1. Desde el**Datos**menú, seleccione**Filtrar**y entonces**Autofiltro**.
+1. Desde el**Datos**menú, seleccione**Filtrar**y luego**Autofiltro**.
 
 Cuando aplica un filtro automático a una hoja de trabajo, los interruptores de filtro (flechas negras) aparecen a la derecha de los encabezados de las columnas.
 
@@ -40,9 +40,9 @@ Los usuarios filtran manualmente los datos de su hoja de trabajo en Microsoft Ex
 
 ### **Autofiltro con Aspose.Cells**
 
-Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)que representa un archivo de Excel. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
-Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para crear un autofiltro, utilice el[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)clase. los[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)La propiedad es un objeto de la[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)clase, que proporciona la[**Rango**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)propiedad para especificar el rango de celdas que componen una fila de encabezado. Se aplica un filtro automático al rango de celdas que es la fila de encabezado.
+Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para crear un autofiltro, utilice el[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)propiedad de la[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)clase. Él[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)La propiedad es un objeto de la[**Autofiltro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)clase, que proporciona la[**Rango**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)propiedad para especificar el rango de celdas que componen una fila de encabezado. Se aplica un filtro automático al rango de celdas que es la fila de encabezado.
 
 En cada hoja de trabajo, solo puede especificar un rango de filtro. Esto está limitado por Microsoft Excel. Para el filtrado de datos personalizado, utilice el[**Autofiltro.Personalizado**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) método.
 

@@ -6,13 +6,13 @@ url: /tr/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Çalışma kitabının Otomatik Kurtarma özelliğini ayarlamak için Aspose.Cells'i kullanabilirsiniz. Bu özelliğin varsayılan değeri**doğru** . Ayarladığınızda**yanlış** bir çalışma kitabında, Microsoft Excel, o Excel dosyasında Otomatik Kurtarma'yı (Otomatik kaydetme) devre dışı bırakır.
+Çalışma kitabının Otomatik Kurtarma özelliğini ayarlamak için Aspose.Cells'i kullanabilirsiniz. Bu özelliğin varsayılan değeri**doğru** . Ayarladığınızda**YANLIŞ** bir çalışma kitabında, Microsoft Excel, o Excel dosyasında Otomatik Kurtarma'yı (Otomatik kaydetme) devre dışı bırakır.
 
  Aspose.Cells sağlar[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) özelliği, bu seçeneği etkinleştirmek veya devre dışı bırakmak için.
 
 {{% /alert %}}
 
- Aşağıdaki kod nasıl kullanılacağını açıklar[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) çalışma kitabının özelliği. Kod, önce bu özelliğin varsayılan değerini okur.**doğru** , ardından şu şekilde ayarlar:**yanlış** ve çalışma kitabını kaydeder. Daha sonra çalışma kitabını tekrar okur ve bu özelliğin değerini okur.**yanlış** Şu anda.
+ Aşağıdaki kod nasıl kullanılacağını açıklar[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) çalışma kitabının özelliği. Kod, önce bu özelliğin varsayılan değerini okur.**doğru** , ardından şu şekilde ayarlar:**YANLIŞ** ve çalışma kitabını kaydeder. Daha sonra çalışma kitabını tekrar okur ve bu özelliğin değerini okur.**YANLIŞ** şu anda.
 
 ## Çalışma Kitabının Otomatik Kurtarma özelliğini ayarlamak için C# kodu
 

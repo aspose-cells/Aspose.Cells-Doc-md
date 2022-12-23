@@ -22,7 +22,7 @@ url: /sv/python-java/aspose-cells-for-python-via-java-22-1-release-notes/
 |CELLSJAVA-44204|pagineringsproblem för csv|
 |CELLSJAVA-43934|Cirkeldiagrametiketterna matchas inte med Excel efter manipulering eller uppdatering av diagram|
 |CELLSJAVA-44122|Vid export av HTML skiljer sig dataetiketterna från Excel|
-|CELLSJAVA-41949| Innehållet återges annorlunda när du sparar arbetsbok i XLSX- och HTML-format|
+|CELLSJAVA-41949| Innehållet renderas annorlunda när du sparar arbetsbok i formaten XLSX och HTML|
 |CELLSJAVA-44207|Vid export till HTML blir radhöjden högre|
 |CELLSJAVA-44233|Oändlig loop vid konvertering av XLSX-fil|
 |CELLSJAVA-44234|Fel på minnet för filen data.xls|
@@ -39,7 +39,7 @@ I gamla versioner tar vi inte bort den externa länken vars url innehåller "Add
 
 ### **Ändrar beteende för Cell. Typ för ogiltigt datum och tid.**
 
-I gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
+gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
 
 ### **Ändrar beteende för Cells.MaxDisplayRange.**
 
@@ -51,7 +51,7 @@ gamla versioner? DataSorter.Sort() metoder returnerar ingenting. Från denna ver
 
 ### **Lägger till egenskapen TxtLoadOptions.ExtendToNextSheet.**
 
-Stöder import av CSV/TSV-data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
+Stöder import av CSV/TSV data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
 
 ### **Lägger till metoden ExternalLinkCollection.Clear().**
 

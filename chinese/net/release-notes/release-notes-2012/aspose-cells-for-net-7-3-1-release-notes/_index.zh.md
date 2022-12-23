@@ -18,7 +18,7 @@ url: /zh/net/aspose-cells-for-net-7-3-1-release-notes/
 
 
 
-新的功能
+新功能
 
 - 条件格式 - 包括 DataBar 类型的缺失字段
 - 条件格式 - 包括 IconSet 类型的缺失值
@@ -54,7 +54,7 @@ url: /zh/net/aspose-cells-for-net-7-3-1-release-notes/
 - 在Aspose.Cells中寻找解决方案
 - 异常：“索引超出范围”
 - Loadingworkbook 抛出：“输入字符串的格式不正确”
-- 形状到图像 Excel 到 PDF 功能中的错误
+- 形状到图像 Excel 中的错误到 PDF 功能
 
 
 
@@ -69,7 +69,7 @@ url: /zh/net/aspose-cells-for-net-7-3-1-release-notes/
 
 -保存的制表符分隔文件中的引号
 
-- 对于某些输入，CSV 读/写不会“往返”
+- CSV 读/写对某些输入不“往返”
 
  -StringValue 返回错误值
 
@@ -96,7 +96,7 @@ url: /zh/net/aspose-cells-for-net-7-3-1-release-notes/
 
 -另存为PDF不保留格式
 
-- Excel 和 PDF 输出中的 XLSX 格式问题
+- Excel 中的 XLSX 格式问题和 PDF 输出
 - 呈现为 PDF 的 Excel 数据透视表不正确
 - PDF 中的自定义字体
 - Cell 的垂直对齐渲染问题

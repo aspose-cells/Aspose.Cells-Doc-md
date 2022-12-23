@@ -20,40 +20,40 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |CELLSJAVA-42543|Bezeichnungsnamen extrahieren, der für in Excel-Dateien eingebettete Paketobjekte festgelegt werden kann|Neue Funktion|
 |CELLSJAVA-42510|Beobachten Sie eine sehr langsame Filterung in Microsoft Excel 2013 und 2016, wenn der Filter angewendet wird|Erweiterung|
 |CELLSJAVA-42464|Fix für alle ActiveX-Steuerelemente erforderlich|Erweiterung|
-|CELLSJAVA-42490|Nicht verwendete Stile beim Exportieren von Excel-Dateien in HTML ausschließen (übergeordnete Problem-ID: CELLSJAVA-42471)|Erweiterung|
+|CELLSJAVA-42490|Nicht verwendete Stile ausschließen, wenn Excel-Datei nach HTML exportiert wird (übergeordnete Problem-ID: CELLSJAVA-42471)|Erweiterung|
 |CELLSJAVA-42529|So identifizieren Sie Arbeitsblattformen über DrawObjectEventHandler|Erweiterung|
 |CELLSJAVA-42558|Kein Zugriff auf Beschriftungselemente für horizontale Kategorieachsen|Erweiterung|
 |CELLSJAVA-42473|Teile von Bildern sind abgeschnitten oder fehlen und sie stimmen nicht mit den ursprünglichen Quellbildern überein|Insekt|
-|CELLSJAVA-42469|Das Bild ragt aus der Form in der Ausgabe-PDF heraus|Insekt|
-|CELLSJAVA-42461|Die Elementform ist im Ausgabe-HTML falsch|Insekt|
+|CELLSJAVA-42469|Das Bild ragt aus der Form in der Ausgabe PDF heraus|Insekt|
+|CELLSJAVA-42461|Die Elementform ist in der Ausgabe HTML falsch|Insekt|
 |CELLSJAVA-42495|Excel zu HTML – Umbruchtext wird ignoriert|Insekt|
-|CELLSJAVA-42489|Die XLSB-Datei wird nach dem Öffnen und Speichern beschädigt|Insekt|
-|CELLSJAVA-42487|Diskrepanz bei der HTML-Ausgabe – Problem mit Leerzeichen|Insekt|
-|CELLSJAVA-42471|Irrelevante Daten werden beim Speichern in HTML eingeschlossen|Insekt|
+|CELLSJAVA-42489|XLSB Datei wird nach dem Öffnen und Speichern beschädigt|Insekt|
+|CELLSJAVA-42487|HTML Ausgabediskrepanz – Problem mit Leerzeichen|Insekt|
+|CELLSJAVA-42471|Irrelevante Daten beim Speichern auf HTML enthalten|Insekt|
 |CELLSJAVA-42467|XLSB nach erneutem Speichern beschädigt|Insekt|
 |CELLSJAVA-42488|15-stellige Zahlen stimmen nicht mit denen in MS Excel überein|Insekt|
-|CELLSJAVA-42499|Ränder und Layoutunterschiede beim Vergleich des Ausgabe-PDF (von Aspose.Cells) mit dem mit MS Excel generierten PDF|Insekt|
+|CELLSJAVA-42499|Ränder und Layoutunterschiede beim Vergleich der Ausgabe PDF (von Aspose.Cells) mit der von MS Excel generierten PDF|Insekt|
 |CELLSJAVA-42486|Funktion funktioniert nicht in Java - ResultSet|Insekt|
 |CELLSJAVA-42497|Blatt1-Formen gehen verloren und Sterne in Blatt2 werden abgerundet|Insekt|
 |CELLSJAVA-42512|Ungültige Codierung – Beim Laden der Excel-Datei tritt eine Ausnahme auf|Insekt|
 |CELLSJAVA-42507|Makro- und Dialogblätter werden als normale Arbeitsblätter erkannt|Insekt|
-|CELLSJAVA-42503|MS Excel erlaubt kein erneutes Speichern der XLS-Datei|Insekt|
+|CELLSJAVA-42503|MS Excel lässt das erneute Speichern der Datei XLS nicht zu|Insekt|
 |CELLSJAVA-42502|Aspose.Cells filtert Daten nicht richtig, stattdessen werden alle Zeilen ausgeblendet|Insekt|
-|CELLSJAVA-42552|Ausgabe-HTML stimmt nicht mit Excel überein|Insekt|
+|CELLSJAVA-42552|Ausgabe HTML stimmt nicht mit Excel überein|Insekt|
 |CELLSJAVA-42536|Excel-Dateien nach dem Öffnen/Speichern durch Aspose.Cells-APIs beschädigt|Insekt|
-|CELLSJAVA-42513|Zusätzliche Spalten kommen am Ende jeder Zeile im Ausgabe-HTML für einen Bereich|Insekt|
+|CELLSJAVA-42513|Zusätzliche Spalten kommen am Ende jeder Zeile in der Ausgabe HTML für einen Bereich|Insekt|
 |CELLSJAVA-42542|Die Excel-Datei ist beschädigt und einige Zellen wurden nach dem Speichern geändert|Insekt|
 |CELLSJAVA-42524|Rechenfehler sind im versteckten Blatt nämlich KD020 vorhanden|Insekt|
 |CELLSJAVA-42514|ImportTableOptions.setInsertRows() funktioniert nicht, während das ResultSet in das Arbeitsblatt importiert wird|Insekt|
 |CELLSJAVA-42505|An die Zellen angehängte Kommentare (in der Vorlagendatei) werden beim Importieren der Excel-Datei in GridWeb nicht angezeigt|Insekt|
 |CELLSJAVA-42520|Inkonsistente Zellkoordinaten, die von ImageOrPrintOptions.DrawObjectEventHandler gemeldet werden|Insekt|
-|CELLSJAVA-42518|Zeilenränder sind in der Ausgabe-PDF falsch ausgerichtet|Insekt|
-|CELLSJAVA-42561|Die Skalierung der X-Achse ist in der PNG-Ausgabe des Excel-Diagramms falsch|Insekt|
-|CELLSJAVA-42556|Das Rendern des Diagramms ist in der Ausgabe-PDF nicht korrekt|Insekt|
-|CELLSJAVA-42547|Das Diagramm wird bei der Konvertierung von XLSX in ODS durch ein rotes X ersetzt|Insekt|
+|CELLSJAVA-42518|Zeilenränder sind in der Ausgabe PDF falsch ausgerichtet|Insekt|
+|CELLSJAVA-42561|Die X-Achsenskalierung ist in der PNG-Ausgabe des Excel-Diagramms falsch|Insekt|
+|CELLSJAVA-42556|Die Darstellung des Diagramms in der Ausgabe PDF ist nicht korrekt|Insekt|
+|CELLSJAVA-42547|Das Diagramm wird beim Konvertieren von XLSX in ODS durch ein rotes X ersetzt|Insekt|
 |CELLSJAVA-42546|Bilder gehen beim Konvertieren von ODS in XLSX verloren|Insekt|
-|CELLSJAVA-42538|Eigenschaften werden nicht aus XLS- und XLSX-Dateien extrahiert|Insekt|
-|CELLSJAVA-42534|Beim Speichern von XLS in XLSB wird allowEditRanges entfernt|Insekt|
+|CELLSJAVA-42538|Eigenschaften werden nicht aus den Dateien XLS und XLSX extrahiert|Insekt|
+|CELLSJAVA-42534|Das Speichern von XLS in XLSB entfernt allowEditRanges|Insekt|
 |CELLSJAVA-42533|Beim Extrahieren von SmartArt-Formtext ist die Ausnahme „NullPointerException“ aufgetreten|Insekt|
 |CELLSJAVA-42532|Artikelcode – Steuern externer Ressourcen mithilfe von WorkbookSetting.StreamProvider – funktioniert nicht for Java|Insekt|
 |CELLSJAVA-42525|Artikelcode - Formelfelder beim Importieren von Daten in Arbeitsblatt angeben - funktioniert nicht for Java|Insekt|

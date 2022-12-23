@@ -12,14 +12,14 @@ Aspose.Cells prend en charge presque tous les types de graphiques pris en charge
 - Modèles standards
 - Types personnalisés
 ### **Types standards**
-Les graphiques standard sont ceux normalement utilisés avec un formatage standard :
+Les graphiques standard sont ceux normalement utilisés avec le formatage standard :
 
 - Colonne
 - Bar
-- Ligne
+- La ligne
 - Tarte
 - Dispersion
-- Zone
+- Surface
 - Donut
 - Radar
 - Entonnoir
@@ -128,7 +128,7 @@ Les cartes radar suivantes sont prises en charge dans Aspose.Cells :
 - Carte radar remplie
 
 #### **Graphique en entonnoir**
-Un graphique en entonnoir affiche des valeurs à travers plusieurs étapes d'un processus. Par exemple, vous pouvez utiliser un graphique en entonnoir pour afficher le nombre de prospects à chaque étape d'un pipeline de vente. En règle générale, les valeurs diminuent progressivement, permettant aux barres de ressembler à un entonnoir.
+Un graphique en entonnoir affiche des valeurs à travers plusieurs étapes d'un processus. Par exemple, vous pouvez utiliser un graphique en entonnoir pour afficher le nombre de prospects à chaque étape d'un pipeline de ventes. En règle générale, les valeurs diminuent progressivement, permettant aux barres de ressembler à un entonnoir.
 
 Le graphique en entonnoir est pris en charge dans Aspose.Cells.
 

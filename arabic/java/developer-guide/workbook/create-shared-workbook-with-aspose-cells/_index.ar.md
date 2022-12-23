@@ -6,7 +6,7 @@ url: /ar/java/create-shared-workbook-with-aspose-cells/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-Microsoft يسمح لك Excel بمشاركة المصنف كما هو موضح في لقطة الشاشة التالية. عند مشاركة المصنف ، يمكن لأكثر من مستخدم تحرير المصنف على الشبكة. يتيح لك Aspose.Cells تكوين مصنف مشترك باستخدام[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)منشأه.
+Microsoft يسمح لك Excel بمشاركة المصنف كما هو موضح في لقطة الشاشة التالية. عند مشاركة المصنف ، يمكن لأكثر من مستخدم تحرير المصنف على الشبكة. يتيح لك Aspose.Cells تكوين مصنف مشترك باستخدام[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Shared)خاصية.
 
 ![ما يجب القيام به: image_بديل_نص](create-shared-workbook-with-aspose-cells_1.png)
 

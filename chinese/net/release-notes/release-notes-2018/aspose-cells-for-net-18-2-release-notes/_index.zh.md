@@ -24,7 +24,7 @@ url: /zh/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-44829|输出 HTML 与 Microsoft Excel 不匹配|漏洞|
 |CELLSNET-44319|刷新时不保留数据透视表过滤器值|漏洞|
 |CELLSNET-45887|＃价值！' ArrayFormula 的计算错误|漏洞|
-|CELLSNET-45883|3D 饼图 - 在输出 PDF 中呈现不佳|漏洞|
+|CELLSNET-45883|3D 饼图 - 在输出中呈现不佳 PDF|漏洞|
 |CELLSNET-45881|打开和保存输入的 Excel 文件会导致 MS Excel 出现红色受保护视图警告|漏洞|
 |CELLSNET-45880|部分 x 轴标签呈现在图表的第二行|漏洞|
 |CELLSNET-45864|从 Aspose.Cells 转换而来的 EMF 并不完全准确|漏洞|

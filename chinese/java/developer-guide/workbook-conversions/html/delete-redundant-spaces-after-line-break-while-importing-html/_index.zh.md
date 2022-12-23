@@ -1,5 +1,5 @@
 ﻿---
-title: 导入 HTML 时删除换行后的多余空格
+title: 导入时删除换行后的多余空格 HTML
 type: docs
 weight: 620
 url: /zh/java/delete-redundant-spaces-after-line-break-while-importing/
@@ -12,9 +12,9 @@ url: /zh/java/delete-redundant-spaces-after-line-break-while-importing/
 ## **将 HtmlLoadOptions.DeleteRedundantSpaces 属性设置为 false 和 true 的效果**
 下面的截图展示了将这个属性设置为的效果**错误的**和**真的**.
 
-![待办事项：图像_替代_文本](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **导入 HTML 时删除换行后的多余空格**
-下面的示例代码显示了[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)财产。请设定**真的**或者**错误的**获得如上图所示的输出。
+![待办事项：图片_替代_文本](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
+## **导入时删除换行后的多余空格 HTML**
+下面的示例代码显示了[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)财产。请设定**真的**要么**错误的**获得如上图所示的输出。
 
 
 

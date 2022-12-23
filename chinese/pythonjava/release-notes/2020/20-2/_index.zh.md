@@ -12,19 +12,19 @@ url: /zh/python-java/aspose-cells-for-python-via-java-20-2-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-43076|在呈现的 HTML 文件中设置图像类型 EMF|强化|
-|CELLSJAVA-43113|转换为 PDF - java.lang.NumberFormatException: 对于输入字符串|强化|
+|CELLSJAVA-43076|在渲染的 HTML 文件中设置图像类型 EMF|强化|
+|CELLSJAVA-43113|转换为 PDF - java.lang.NumberFormatException：对于输入字符串|强化|
 |CELLSJAVA-43114|转换为 PDF - 无效公式：“'APRIL''12'.A1:'APRIL''12'.I23”|强化|
 |CELLSJAVA-43117|转换为 PDF - 十六进制不是有效的十六进制数！|强化|
 |CELLSJAVA-43118|转换为 PDF - java.lang.NumberFormatException：对于输入字符串：“341,403,811.74”|强化|
-|CELLSJAVA-43077|将工作表呈现为 HTML 时出现异常“意外的图像类型”|漏洞|
+|CELLSJAVA-43077|将工作表渲染到 HTML 时引发异常“意外图像类型”|漏洞|
 |CELLSJAVA-43096|将 Excel 文件转换为 HTML 时程序挂起|漏洞|
 |CELLSJAVA-43107|转换为 PDF - com.aspose.cells.CellsException：形状到图像错误|漏洞|
 |CELLSJAVA-43108|转换为 PDF - com.aspose.cells.CellsException|漏洞|
-|CELLSJAVA-43088|雷达图未在 XLSX 到 PDF 转换的输出文件中呈现|漏洞|
+|CELLSJAVA-43088|XLSX 到 PDF 转换的输出文件中未呈现雷达图|漏洞|
 |CELLSJAVA-43091|甜甜圈图上的数据标签在 PDF 文件中重叠|漏洞|
 |CELLSJAVA-43099|工作表图像未正确呈现|漏洞|
-|CELLSJAVA-43093|在 XLS 文件格式中未检测到 ActiveX 控件|漏洞|
+|CELLSJAVA-43093|XLS 文件格式中未检测到 ActiveX 控件|漏洞|
 |CELLSJAVA-43104|getShowTabs 和 setShowTabs 的问题|漏洞|
 |CELLSJAVA-43121|OOM 试图获取 XLS 中的页数|漏洞|
 |CELLSJAVA-43125|窗体和 ActiveX 对象重复|漏洞|

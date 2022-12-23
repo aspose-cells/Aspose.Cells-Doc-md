@@ -14,9 +14,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Python via Java 21.2.
 |:- |:- |:- |
 |CELLSJAVA-43382|Kopiera producerar skadad arbetsbok|
 |CELLSJAVA-43364|Problem när du sparar diagram med bild i markören till bild|
-|CELLSJAVA-43389|Arbetsbok/arbetsblad Lösenordsskyddsinställningar förlorade när du sparade som XLSB-filformat|
-|CELLSJAVA-43392|Kopiering av ark ger en korrupt arbetsbok|
-|CELLSJAVA-43387|Export av ett ark till HTML ger undantag|
+|CELLSJAVA-43389|Arbetsbok/arbetsblad Lösenordsskyddsinställningar förlorade när du sparade som XLSB filformat|
+|CELLSJAVA-43392| Kopiering av ark ger en korrupt arbetsbok|
+|CELLSJAVA-43387|Export av enstaka ark till HTML höjer undantag|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

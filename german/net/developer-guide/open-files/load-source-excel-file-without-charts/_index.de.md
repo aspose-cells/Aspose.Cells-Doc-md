@@ -12,6 +12,6 @@ url: /de/net/load-source-excel-file-without-charts/
 
 ## **Tabelle ohne Diagramme laden**
 
-Der folgende Beispielcode lädt die Beispiel-Excel-Datei ohne Diagramme und speichert sie im PDF-Ausgabeformat.
+Der folgende Beispielcode lädt die Excel-Beispieldatei ohne Diagramme und speichert sie im Ausgabeformat PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

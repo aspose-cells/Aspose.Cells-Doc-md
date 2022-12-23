@@ -11,7 +11,7 @@ url: /zh/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本新增了 30 多项有用的改进。
-使用 Aspose.Cells for .NET，您可以在应用程序中处理 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
+使用 Aspose.Cells for .NET，您可以在应用程序中使用 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
 访问文档以了解如何开始使用 Aspose.Cells for .NET。
 请注意，此下载包含该产品的完整工作版本，但如果没有许可证集，它将在评估模式下运行，但有一些限制。要在没有这些评估限制的情况下测试 Aspose.Cells，您可以申请免费的 30 天临时许可证。
 以下是此版本 Aspose.Cells 的更改列表。
@@ -21,7 +21,7 @@ Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-42511) - 设置渲染图像的像素格式（Excel 到图像 (TIF) 渲染）
@@ -44,15 +44,15 @@ Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本
 
 (CELLSNET-42533) - 添加数据透视过滤后输出文件在 MS Excel 中崩溃
 
-(CELLSNET-42516) - 导出为 HTML 时显示隐藏的评论
+(CELLSNET-42516) - 导出到 HTML 时显示隐藏评论
 
-(CELLSNET-42470) - Excel 在 Aspose.Cells 生成的 XLSX 上发现不可读的内容消息
+(CELLSNET-42470) - Excel 在 Aspose.Cells 上发现不可读的内容消息生成 XLSX
 
-(CELLSNET-42468) - Excel 在添加数据透视表后发现电子表格中的内容不可读
+ (CELLSNET-42468) - Excel 在添加数据透视表后发现电子表格中的内容不可读
 
-(CELLSNET-42314) - 许多 VML 元素（控件）无法正确呈现（Excel 到 HTML 的转换）
+(CELLSNET-42314) - 许多 VML 元素（控件）未正确呈现（Excel 到 HTML 的转换）
 
-(CELLSNET-42259) - 不呈现 HTML 转换中的 VML 表单元素
+(CELLSNET-42259) - HTML 转换中的 VML 表单元素未呈现
 
 (CELLSNET-42180) - 未维护富文本格式。
 
@@ -60,7 +60,7 @@ Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本
 
 (CELLSNET-42551) - 单词之间的空格在输出 pdf 中丢失
 
-(CELLSNET-42543) - 保存为 PDF 时图像变得模糊
+(CELLSNET-42543) - 保存到 PDF 时图像变得模糊
 
 (CELLSNET-42502) - 当 XLSX 转换为 PDF 时，换行的文本对齐问题
 
@@ -110,7 +110,7 @@ Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本
 
 (CELLSNET-42534) - 打开文件时出现 System.ArgumentOutOfRangeException
 
- (CELLSNET-42520) - 加载 XLS 时出现 System.ArgumentOutOfRangeException
+ (CELLSNET-42520) - 加载时出现 System.ArgumentOutOfRangeException XLS
 
 
 
@@ -122,7 +122,7 @@ Aspose.Cells for .NET 已更新至 8.0.1 版，我们很高兴地宣布此版本
 ## **虫子**
 
 
- (CELLSNET-42522) - GridWeb 问题：调整列宽在 chrome 中不起作用
+(CELLSNET-42522) - GridWeb 问题：调整列宽在 chrome 中不起作用
 
 (CELLSNET-42509) - 形状在 gridweb 中未正确呈现
 

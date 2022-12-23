@@ -19,7 +19,7 @@ url: /zh/java/aspose-cells-for-java-8-7-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSJAVA-41672) - 为图表的数据标签的“调整形状大小以适合文本”属性公开 API
@@ -44,9 +44,9 @@ url: /zh/java/aspose-cells-for-java-8-7-0-release-notes/
 
 (CELLSJAVA-41676) - HTML 输出产生不可预测的结果
 
-(CELLSJAVA-41665) - 电子表格中的图像未导出为 HTML
+(CELLSJAVA-41665) - 电子表格中的图像未导出到 HTML
 
- (CELLSJAVA-41632) - 从 EXCEL 转换为 HTML 再转换回 EXCEL 时出现日期对齐问题
+ (CELLSJAVA-41632) - 从 EXCEL 转换为 HTML 并返回 EXCEL 时出现日期对齐问题
 
 (CELLSJAVA-41603) - 将一系列单元格导出到 html 时出现错误的单元格背景颜色
 
@@ -78,55 +78,55 @@ url: /zh/java/aspose-cells-for-java-8-7-0-release-notes/
 
 (CELLSJAVA-41699) - 图表到图像的转换 - 图表图像未正确呈现，因为条形尺寸显示不同
 
-(CELLSJAVA-41689) - 导出为 HTML 时，抗锯齿功能似乎对图表的系列填充不起作用
+(CELLSJAVA-41689) - 导出到 HTML 时，抗锯齿似乎不会对图表的系列填充生效
 
 (CELLSJAVA-41686) - RenderingHints.VALUE_文本_将电子表格转换为 HTML 时 ANTIALIAS_GASP 未生效
 
-(CELLSJAVA-41678) - 在图表的 PDF 中呈现不正确的颜色
+(CELLSJAVA-41678) - 在 Chart 的 PDF 中呈现不正确的颜色
 
-(CELLSJAVA-41669) - 在图表的 PDF 中，所有条都显示在 0 值规则之下
+(CELLSJAVA-41669) - 在 Chart 的 PDF 中，所有条都显示在 0 值规则之下
 
 (CELLSJAVA-41667) - 簇状条形图未以输出 PDF 文件格式显示
 
-(CELLSJAVA-41660) - 在图表的 PDF 中增加了 X 轴和 Y 轴的厚度
+(CELLSJAVA-41660) - X 轴和 Y 轴的厚度在图表的 PDF 中增加
 
 (CELLSJAVA-41657) - 将气泡图转换为图像时无法正确显示
 
 (CELLSJAVA-41656) - 图表系列值以一定角度显示
 
-(CELLSJAVA-41646) - 图表 PDF 中 X 轴的下半部分正在被修剪
+(CELLSJAVA-41646) - Chart 的 PDF 中 X 轴的下半部分正在被修剪
 
-(CELLSJAVA-41644) - 轴标签在将图表呈现为 PDF 时倾斜显示
+(CELLSJAVA-41644) - 在将图表呈现为 PDF 时轴标签显示为倾斜
 
-(CELLSJAVA-41628) - 标题在图表到 PDF 中的对齐不准确
+(CELLSJAVA-41628) - 图表中标题的对齐不准确到 PDF
 
-(CELLSJAVA-41623) - 使用 Chart.toPdf 的 Chart 的 PDF 中缺少一些数据系列条
+ (CELLSJAVA-41623) - 使用 Chart.toPdf 的 Chart 的 PDF 中缺少一些数据系列条
 
 (CELLSJAVA-41468) - 图表的质量问题 - 没有阴影时抗锯齿不会生效
 
 (CELLSJAVA-41445) - 气泡图在呈现的 HTML 文件格式中没有抗锯齿效果
 
-(CELLSJAVA-41306) - Excel 到 PDF 的转换问题 - 右侧被截断
+(CELLSJAVA-41306) - Excel 到 PDF 的转换问题 - 右侧截断
 
-(CELLSJAVA-41697) - 生成的 HTML/图像/PDF 格式的表格和范围显示错误的字体颜色
+(CELLSJAVA-41697) - 生成的 HTML/Image/PDF 格式的表格和范围显示错误的字体颜色
 
 (CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash() 在被宏代码重新保护后返回 0
 
  (CELLSJAVA-41675) - 图像在输出 pdf 中不透明
 
-(CELLSJAVA-41671) - 结果 PDF 中条件格式 Cell 颜色的错误呈现
+(CELLSJAVA-41671) - 条件格式 Cell 颜色在结果 PDF 中的渲染不正确
 
 (CELLSJAVA-41663) - 将条件格式的图标图像数据保存到文件导致空白图像
 
 (CELLSJAVA-41661) - 从 xml 加载和转换为 xlsx 文件时进程卡住
 
-(CELLSJAVA-41597) - 重新保存 XLSB 后 Excel 2007 中的内容不可读
+(CELLSJAVA-41597) - 重新保存后 Excel 2007 中的内容不可读 XLSB
 
 
 ## **例外情况**
 
 
-(CELLSJAVA-41592) - 尝试将 excel 工作表另存为 html 时出现空指针
+ (CELLSJAVA-41592) - 尝试将 excel 工作表另存为 html 时出现空指针
 
 
 

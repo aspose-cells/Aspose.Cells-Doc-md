@@ -20,12 +20,12 @@ url: /zh/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47315|保存为 zip64 时无法打开文件|强化|
 |CELLSNET-47384|改进加载图片/形状性能|表现|
 |CELLSNET-47382|HTML 到 Excel 的转换会丢失格式|漏洞|
-|CELLSNET-47390|HTML转ODS渲染部分文字颜色错误|漏洞|
+|CELLSNET-47390|HTML 到 ODS 渲染有些字的颜色不对|漏洞|
 |CELLSNET-47385|Cells.InsertCutCells 在具有范围交集的工作簿上中断|漏洞|
 |CELLSNET-47389|HLOOKUP 计算不正确|漏洞|
 |CELLSNET-47352|点击文字后文字消失|漏洞|
 |CELLSNET-47380|列不对齐|漏洞|
-|CELLSNET-47366|未呈现为 PDF 文件的点|漏洞|
+|CELLSNET-47366|点未渲染到 PDF 文件|漏洞|
 |CELLSNET-47364|如果工作表呈现为图像，则轴标签呈现不正确|漏洞|
 |CELLSNET-47370|加载和保存 Excel 文件时图表点丢失和形状被挤压|漏洞|
 |CELLSNET-47367|将图表转换为图像时轴箭头方向错误|漏洞|

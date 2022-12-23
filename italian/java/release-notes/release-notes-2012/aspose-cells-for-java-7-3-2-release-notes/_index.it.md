@@ -20,13 +20,13 @@ Noi siamo
 
  Miglioramenti
 
-- Chiudi flussi interni per il rilascio di risorse di memoria nella conversione PDF
+- Chiudi i flussi interni per il rilascio di risorse di memoria nella conversione PDF
 - Copia sparkline durante la copia del foglio di lavoro
 
  Eccezioni
 
-- L'apertura di un file XLS ha causatoStackOverflowError
-- Il salvataggio del PDF ha causato un'eccezione
+- L'apertura di un file XLS ha causato StackOverflowError
+- Il salvataggio di PDF ha causato un'eccezione
 - Worksheet.getFreezedPanes() ha causatoNullPointerException
 - L'apertura di un file XML vuoto ha causato un'eccezione
 - Il salvataggio in PDF ha causato un'eccezione -I
@@ -38,12 +38,12 @@ Noi siamo
 - NullPointerException all'apertura di un file XLS
 - Eccezione ArrayIndexOutOfBounds all'apertura di un file XLS
 - Il salvataggio della tabella pivot ha causatoClassCastException dopo l'impostazione dell'ordinamento automatico
-- Errore da forma a immagine durante il salvataggio del PDF utilizzando Aspose Cells
+- Errore da forma a immagine durante il salvataggio PDF usingAspose Cells
 - CellsException durante la stampa della griglia in PDF
 
  Insetti
 
-- Alcune regioni salvate nei modelli XLS potrebbero non essere riconosciute durante la lettura
+- Alcune regioni salvate nei modelli XLS non potevano essere riconosciute durante la lettura
 - Chart-to-Image non riesce a eseguire il rendering della scala per i grafici a barre
 - Perdita di dati dopo la conversione da XLSX a PDF
 - I grafici a torta ea dispersione non funzionano se Raccolta celle è deselezionata

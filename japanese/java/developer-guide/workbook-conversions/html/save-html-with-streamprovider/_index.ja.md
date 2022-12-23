@@ -10,7 +10,7 @@ url: /ja/java/convert-excel-to-html-with-streamprovider/
 1. Excelファイルをhtmlストリームに保存するときに、画像と形状をどこに保存する必要がありますか。
 1. デフォルト パスを例外パスに置き換えます。
 
-この記事では、実装方法について説明します[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)を設定するためのインターフェース[**HtmlSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#StreamProvider)財産。このインターフェイスを実装することにより、HTML 生成中に作成されたリソースを特定の場所またはメモリ ストリームに保存できるようになります。
+この記事では、実装方法について説明します[**IStreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider)を設定するためのインターフェース[**HtmlSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#StreamProvider)財産。このインターフェイスを実装することにより、HTML の生成中に作成されたリソースを特定の場所またはメモリ ストリームに保存できるようになります。
 
 {{% /alert %}}
 

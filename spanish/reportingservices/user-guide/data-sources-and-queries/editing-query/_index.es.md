@@ -32,7 +32,7 @@ Para editar una consulta en Aspose.Cells.Report.Designer:
 
 
 
-1.  Desde Microsoft Consultas**Expediente** menú, seleccione**Volver a Aspose.Cells.Report.Designer** 
+1.  Desde Microsoft Consultas**Archivo** menú, seleccione**Volver a Aspose.Cells.Report.Designer** 
 
    **Volver al Diseñador de informes** 
 

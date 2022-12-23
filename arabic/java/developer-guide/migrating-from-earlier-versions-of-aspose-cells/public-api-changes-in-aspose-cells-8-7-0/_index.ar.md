@@ -10,8 +10,8 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-7-0/
 
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم لتحسين PDF**
- توفر واجهات برمجة التطبيقات Aspose.Cells بالفعل ميزة تحويل جداول البيانات إلى PDF. مع هذا الإصدار من API ، يمكن للمستخدمين الآن[تحسين حجم PDF الناتج](/cells/ar/java/save-excel-into-pdf-with-standard-or-minimum-size/)كذلك. كشف Aspose.Cells for Java 8.7.0 خاصية PdfSaveOptions.OptimizationType جنبًا إلى جنب مع تعداد PdfOptimizationType من أجل تسهيل اختيار خوارزمية التحسين المطلوبة للمستخدمين أثناء تصدير جداول البيانات إلى تنسيق PDF. هناك قيمتان محتملتان لخاصية PdfSaveOptions.OptimizationType كما هو مفصل أدناه.
+### **دعم تحسين PDF**
+ توفر واجهات برمجة التطبيقات Aspose.Cells بالفعل ميزة تحويل جداول البيانات إلى PDF. مع هذا الإصدار من API ، يمكن للمستخدمين الآن[تحسين الحجم الناتج PDF](/cells/ar/java/save-excel-into-pdf-with-standard-or-minimum-size/)أيضًا. كشف Aspose.Cells for Java 8.7.0 عن خاصية PdfSaveOptions.OptimizationType جنبًا إلى جنب مع تعداد PdfOptimizationType من أجل تسهيل اختيار خوارزمية التحسين المطلوبة للمستخدمين أثناء تصدير جداول البيانات إلى تنسيق PDF. هناك قيمتان محتملتان لخاصية PdfSaveOptions.OptimizationType كما هو مفصل أدناه.
 
 1. PdfOptimizationType.MINIMUM_SIZE: يتم اختراق الجودة لحجم الملف الناتج.
 1. PdfOptimizationType.STANDARD: لا يتم المساس بالجودة لذا سيكون حجم الملف الناتج كبيرًا.
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **تمت إضافة الخاصية TxtLoadOptions.HasFormula**
- Aspose.Cells for Java 8.7.0 قدم دعمًا لـ[تحديد الصيغ وتحليلها أثناء تحميل ملفات CSV / TXT التي تحتوي على بيانات عادية محددة](/cells/ar/java/load-or-import-csv-file-with-formulas/). تعرض خاصية TxtLoadOptions.HasFormula المكشوفة حديثًا عند ضبطها على true توجه API لتحليل الصيغ من ملف الإدخال المحدد وتعيينها على الخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
+ Aspose.Cells for Java 8.7.0 قدم دعمًا لـ[تحديد الصيغ وتحليلها أثناء تحميل CSV/TXT الملفات ذات البيانات العادية المحددة](/cells/ar/java/load-or-import-csv-file-with-formulas/). تعرض خاصية TxtLoadOptions.HasFormula المكشوفة حديثًا عند ضبطها على true توجه API لتحليل الصيغ من ملف الإدخال المحدد وتعيينها على الخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية DataLabels.ResizeShapeToFitText**
- ميزة أخرى مفيدة كشفها Aspose.Cells for Java 8.7.0 هي خاصية DataLabels.ResizeShapeToFitText التي يمكنها تمكين[تغيير حجم الشكل لاحتواء النص](/cells/ar/java/resize-chart-s-data-label-shape-to-fit-text/) ميزة تطبيق Excel لتسميات بيانات الرسم البياني.
+ ميزة أخرى مفيدة كشفها Aspose.Cells for Java 8.7.0 هي خاصية DataLabels.ResizeShapeToFitText التي يمكنها تمكين[تغيير حجم الشكل لاحتواء النص](/cells/ar/java/resize-chart-s-data-label-shape-to-fit-text/)ميزة تطبيق Excel لتسميات بيانات الرسم البياني.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

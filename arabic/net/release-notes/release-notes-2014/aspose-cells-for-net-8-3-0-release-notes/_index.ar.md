@@ -26,11 +26,11 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 ### **البق**
 
-(CELLSNET-41756) - مشكلة مع الصور في تحويل XLS إلى HTML
+(CELLSNET-41756) - مشكلة مع الصور في التحويل XLS إلى HTML
 
 (CELLSNET-41755) - مشكلة مع الصور في تحويل XLS إلى PDF
 
-(CELLSNET-43111) - تؤدي إضافة قيم الخلايا إلى XLSB إلى إزالة الإعدادات المسبقة
+(CELLSNET-43111) - إضافة قيم الخلايا إلى XLSB إزالة الإعدادات المسبقة
 
 (CELLSNET-43110) - خطأ "عثر Excel على محتوى غير قابل للقراءة" بسبب الحقل المحوري (مزدوج) في إخراج XLSB
 
@@ -52,7 +52,7 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-40902) - تم تغيير حجم مربع نص Excel بشكل غير صحيح عند التقديم إلى الصورة
 
-(CELLSNET-43138) - يتم عرض النص الأحمر باللون الأسود أثناء تحويل SpreadsheetML إلى تنسيق PDF
+(CELLSNET-43138) - يتم عرض النص الأحمر باللون الأسود أثناء تحويل تنسيق SpreadsheetML إلى PDF
 
 (CELLSNET-43133) - إصدار نسخ متعددة للطباعة
 
@@ -62,11 +62,11 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43101) - الطباعة لا تحترم تخطيط الصفحة
 
-(CELLSNET-42402) - فشل التوافق مع PDF / A-1b مع Adobe X Pro Preflight
+(CELLSNET-42402) - فشل الامتثال PDF / A-1b مع Adobe X Pro Preflight
 
-(CELLSNET-41906) - فشل التحقق من صحة PDF / A والمشكلات الأخرى المتعلقة بالخطوط
+(CELLSNET-41906) - PDF / A فشل التحقق من الصحة والمشكلات الأخرى المتعلقة بالخطوط
 
-(CELLSNET-41832) - تم إنشاء ملف PDF / A باستخدام Aspose Cells فشل عمليات التحقق
+(CELLSNET-41832) - PDF / A تم إنشاؤه باستخدام Aspose Cells فشل عمليات التحقق
 
 (CELLSNET-43103) - يخرج خط الاتجاه من منطقة الرسم
 
@@ -74,23 +74,23 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43052) - Chart.Calculate لا يعمل بشكل صحيح
 
-(CELLSNET-43040) - يظهر المخطط الخطي فارغًا عند حفظه في PNG باستخدام Chart.ToImage
+(CELLSNET-43040) - يظهر المخطط الخطي فارغًا عند حفظه في PNG باستخدام Chart.
 
 (CELLSNET-43039) - تم وضع تسميات بيانات المخطط بشكل غير صحيح.
 
 (CELLSNET-42988) - تتغير تسميات محور المخطط عند فتح الملف المصدر وإعادة حفظه
 
-(CELLSNET-42945) - لم يتم تحديد موضع وسيلة إيضاح الرسم البياني لتنسيق XLS
+(CELLSNET-42945) - لم يتم تحديد موضع وسيلة إيضاح المخطط للتنسيق XLS
 
 (CELLSNET-41690) - يفقد التوقيع الرقمي شفافيته
 
-(CELLSNET-43152) - يؤدي فتح ملف XLSB وحفظه إلى تلفه
+(CELLSNET-43152) - يؤدي فتح الملف XLSB وحفظه إلى تلفه
 
 (CELLSNET-43143) - ينتج عن الجمع بين المصنفات وأوراق العمل المسماة مثل R # مصنفات تالفة
 
 (CELLSNET-43139) - Aspose.Cells يحسب دالة TEXT بشكل غير صحيح
 
-(CELLSNET-43131) - إعداد لون شفاف للصورة يعمل مع تنسيق XLSX
+(CELLSNET-43131) - إعداد لون شفاف للصورة يعمل لتنسيق XLSX
 
 (CELLSNET-43128) - مشكلة مجموعة الأحرف مع الخطوط العبرية
 
@@ -108,9 +108,9 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43094) - لم يتم حساب صيغة الأرضية بشكل صحيح
 
-(CELLSNET-43091) - تم تغيير تخطيط الرسم البياني أثناء تحويل ODS إلى تنسيق XLSX
+(CELLSNET-43091) - تم تغيير تخطيط الرسم البياني أثناء تحويل تنسيق ODS إلى تنسيق XLSX
 
-(CELLSNET-43087) - ينتج عن تحويل ODS إلى XLSX جدول بيانات تالف
+(CELLSNET-43087) - ODS إلى XLSX ينتج عن التحويل جدول بيانات تالف
 
 (CELLSNET-43080) - حفظ Excel بصيغة Html: التنسيق الشرطي لا يعمل
 
@@ -124,7 +124,7 @@ url: /ar/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43119) - خطأ من شكل إلى صورة عند تحويل ملف Excel إلى PDF
 
-(CELLSNET-43078) - حدث خطأ أثناء تحميل ملف CSV
+(CELLSNET-43078) - حدث خطأ أثناء تحميل الملف CSV
 
 (CELLSNET-43155) - CellsException: "فهرس نمط الصف غير صالح ، فهرس الصف: 32" في Workbook ctor
 

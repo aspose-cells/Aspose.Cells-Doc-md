@@ -15,7 +15,7 @@ url: /es/java/aspose-cells-for-java-2-2-1-release-notes/
  Qué ha cambiado:
 
 -  Incluye soporte para formato condicional avanzado proporcionado por MS Excel 2007
--  Admite registros extendidos de formato condicional guardados por MS Excel 2007 para archivos XLS
+-  Admite registros extendidos de formato condicional guardados por MS Excel 2007 para el archivo XLS
 - Mantiene las fórmulas no admitidas en la lectura de archivos de MS Excel 2007
 -  Lee imágenes del encabezado/pie de página en el archivo de plantilla de MS Excel 2007
 -  Se realizan mejoras para leer archivos de plantilla.
@@ -32,7 +32,7 @@ url: /es/java/aspose-cells-for-java-2-2-1-release-notes/
 |16246 | fórmula| Guardar fórmulas|
 |16240 | xls| Cambiar filas|
 |16221 | xls| Leer archivos de plantilla con registros no estándar|
-|16180 | Cuadro| Crear gráfico con NamedRange como fuente de datos|
+|16180 | Gráfico| Crear gráfico con NamedRange como fuente de datos|
 |16003 | Gráfico2Imagen| Falta la entrada de leyenda en la imagen del gráfico|
 |16659 | Gráfico2Imagen| Problemas con las etiquetas de porcentaje|
 |16150 | Gráfico2Imagen| Patrón de color incorrecto en la imagen.|
@@ -41,5 +41,5 @@ url: /es/java/aspose-cells-for-java-2-2-1-release-notes/
 |15585 | xls| Volver a guardar archivos de plantilla|
 |16732 | xls| Eliminar hoja de trabajo|
 |16206 | xls| Formatos condicionales extendidos de Excel2007|
-|16150 | Cuadro| Color de relleno degradado|
+|16150 | Gráfico| Color de relleno degradado|
 

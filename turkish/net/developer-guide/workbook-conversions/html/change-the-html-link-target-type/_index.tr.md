@@ -1,12 +1,12 @@
 ﻿---
-title: HTML Bağlantısı Hedef Türünü Değiştirin
+title: HTML Bağlantı Hedefi Türünü değiştirin
 type: docs
 weight: 320
 url: /tr/net/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells, HTML bağlantı hedefi türünü değiştirmenize olanak tanır. HTML bağlantısı şuna benzer
+Aspose.Cells, HTML bağlantı hedefi türünü değiştirmenizi sağlar. HTML bağlantısı şuna benziyor
 
 {{< highlight "java" >}}
 
@@ -14,7 +14,7 @@ Aspose.Cells, HTML bağlantı hedefi türünü değiştirmenize olanak tanır. H
 
 {{< /highlight >}}
 
-Gördüğünüz gibi, yukarıdaki HTML bağlantısındaki hedef özniteliği **_self** şeklindedir. [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğini kullanarak bu hedef niteliğini kontrol edebilirsiniz. Bu özellik, aşağıdaki değerlere sahip [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) sıralamasını alır.
+Yukarıdaki HTML bağlantısındaki hedef özniteliği görebileceğiniz gibi **_self** şeklindedir. [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype) özelliğini kullanarak bu hedef niteliğini kontrol edebilirsiniz. Bu özellik, aşağıdaki değerlere sahip [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype) sıralamasını alır.
 
 - HtmlLinkTargetType.Blank
 - HtmlLinkTargetType.Parent

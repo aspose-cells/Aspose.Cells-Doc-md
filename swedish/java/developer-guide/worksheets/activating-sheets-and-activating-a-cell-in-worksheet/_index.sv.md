@@ -31,6 +31,6 @@ Följande exempel visar hur man aktiverar ett kalkylblad och gör en aktiv cell 
 
 {{% alert color="primary" %}}
 
- I**utvärdering** läge, det vill säga; utan att ställa in en giltig licens kommer det aktiva arbetsbladet alltid att vara det som innehåller utvärderingsvattenstämpeln. Detta beteende kan endast åsidosättas genom att ställa in licensen i början av programmet.
+ I**utvärdering**läge, det vill säga; utan att ställa in en giltig licens kommer det aktiva arbetsbladet alltid att vara det som innehåller utvärderingsvattenstämpeln. Detta beteende kan endast åsidosättas genom att ställa in licensen i början av programmet.
 
 {{% /alert %}}

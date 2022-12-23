@@ -21,14 +21,14 @@ url: /zh/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNETCORE-98|加载 xlsb 结果并出现 OOM 异常|表现|
 |CELLSNET-47805|保存 .html 文件时某些折线的位置错误。|漏洞|
 |CELLSNET-47810|箭头位置错误|漏洞|
-|CELLSNET-43717|数据透视字段排序不会呈现为 PDF|漏洞|
+|CELLSNET-43717|数据透视字段排序不呈现为 PDF|漏洞|
 |CELLSNET-43751|引用数据透视表后行标签排序丢失|漏洞|
-|CELLSNET-47777|转换后的 HTML 中的格式错误|漏洞|
+|CELLSNET-47777|转换后的格式错误 HTML|漏洞|
 |CELLSNET-47824|给出错误结果的 PPMT 公式问题|漏洞|
 |CELLSNET-47847|删除行后公式引用错误|漏洞|
 |CELLSNET-47818|Shape.ToImage 不在 docker 环境中呈现文本|漏洞|
-|CELLSNET-47820|从 XLSX 转换而来的 Aspose EMF/OfficeCompatibleEMF 中缺少边框|漏洞|
-|CELLSNET-47844|保存为 PDF 时双下划线会计格式单元格的错误转换|漏洞|
+|CELLSNET-47820|Aspose EMF/从 XLSX 转换而来的 OfficeCompatibleEMF 缺少边框|漏洞|
+|CELLSNET-47844|保存到 PDF 时双下划线会计格式单元格转换错误|漏洞|
 |CELLSNET-47819|保存时数据标签显示不正确|漏洞|
 |CELLSNET-47821|数据标签不正确|漏洞|
 |CELLSNET-47813|Treemap 图表（和其他高级图表）的奇怪行为（和差异）|漏洞|

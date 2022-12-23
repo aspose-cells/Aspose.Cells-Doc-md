@@ -26,7 +26,7 @@ url: /ar/java/excel-2007-themes-and-colors/
 
 يوضح المثال التالي كيفية الحصول على ألوان النسق وتعيينها.
 
-يستخدم المثال التالي ملف XLSX للقالب ، ويحصل على ألوان لأنواع مختلفة من ألوان النسق ، ويغير الألوان ويحفظ ملف Excel Microsoft.
+يستخدم المثال التالي ملف قالب XLSX ، ويحصل على ألوان لأنواع مختلفة من ألوان النسق ، ويغير الألوان ويحفظ ملف Excel Microsoft.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetSetThemeColors-GetSetThemeColors.java" >}}
 
@@ -38,7 +38,7 @@ url: /ar/java/excel-2007-themes-and-colors/
 
 ![ما يجب القيام به: image_بديل_نص](excel-2007-themes-and-colors_2.png)
 
-يقوم المثال التالي بتحميل قالب XLSX ، ويحدد الألوان لأنواع مختلفة من ألوان السمات ، ويطبق الألوان المخصصة ويحفظ ملف Excel.
+يقوم المثال التالي بتحميل ملف قالب XLSX ، وتحديد الألوان لأنواع ألوان السمة المختلفة ، وتطبيق الألوان المخصصة وحفظ ملف Excel.
 
 **الملف الذي تم إنشاؤه بألوان النسق المخصصة**
 

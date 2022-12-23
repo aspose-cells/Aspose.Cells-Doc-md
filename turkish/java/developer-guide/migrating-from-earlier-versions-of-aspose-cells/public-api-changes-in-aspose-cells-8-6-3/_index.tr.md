@@ -33,7 +33,7 @@ cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
 ### **Yöntem Workbook.createBuiltinStyle Eklendi**
-Aspose.Cells for Java 8.6.3, Workbook.createBuiltinStyle öğelerinden birine karşılık gelen Style sınıfından bir nesne oluşturmak için kullanılabilecek yöntemi ortaya çıkardı.[Excel uygulaması tarafından sunulan yerleşik stiller](/cells/tr/java/using-built-in-styles/). Workbook.createBuiltinStyle yöntemi, DahiliStyleType numaralandırmasından bir sabit kabul eder. Lütfen unutmayın, Aspose.Cells API'lerinin önceki sürümleriyle aynı görev StyleCollection.createBuiltinStyle yöntemiyle gerçekleştirilebilirdi ancak Aspose.Cells API'lerinin son sürümleri StyleCollection sınıfını kaldırdığından, yeni kullanıma sunulan Workbook.createBuiltinStyle yöntemi alternatif bir yaklaşım olarak kabul edilebilir. aynısını elde etmek.
+ Aspose.Cells for Java 8.6.3, Workbook.createBuiltinStyle öğelerinden birine karşılık gelen Style sınıfından bir nesne oluşturmak için kullanılabilecek yöntemi ortaya çıkardı.[Excel uygulaması tarafından sunulan yerleşik stiller](/cells/tr/java/using-built-in-styles/)Workbook.createBuiltinStyle yöntemi, DahiliStyleType numaralandırmasından bir sabit kabul eder. Lütfen unutmayın, Aspose.Cells API'lerinin önceki sürümleriyle aynı görev StyleCollection.createBuiltinStyle yöntemiyle gerçekleştirilebilirdi ancak Aspose.Cells API'lerinin son sürümleri StyleCollection sınıfını kaldırdığından, yeni kullanıma sunulan Workbook.createBuiltinStyle yöntemi alternatif bir yaklaşım olarak kabul edilebilir. aynısını elde etmek.
 
 Basit kullanım senaryosu aşağıdadır.
 

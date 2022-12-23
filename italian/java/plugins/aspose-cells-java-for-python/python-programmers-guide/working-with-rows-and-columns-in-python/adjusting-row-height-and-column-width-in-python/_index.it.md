@@ -4,16 +4,16 @@ type: docs
 weight: 10
 url: /it/java/adjusting-row-height-and-column-width-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: Usa l'API Python Excel per creare file Excel in Python. Regola l'altezza della riga e la larghezza della colonna in XLSX o XLS nelle tue applicazioni Python senza MS Office.
+description: Usa Python Excel API per creare file Excel in Python. Regola l'altezza della riga e la larghezza della colonna in XLSX o XLS nelle tue applicazioni Python senza MS Office.
 ---
-## **Fogli di calcolo Excel in Python: regolazione dell'altezza della riga e della larghezza della colonna**
+## **Fogli di calcolo Excel in Python - Regolazione dell'altezza della riga e della larghezza della colonna**
 ### **Impostazione dell'altezza della riga**
 Con Aspose.Cells, è possibile impostare l'altezza di una singola riga in Python chiamando il metodo setRowHeight della raccolta Cells. Il metodo setRowHeight accetta i seguenti parametri:
 
 - **Indice di riga**, l'indice della riga di cui stai modificando l'altezza.
 - **Altezza della riga**, l'altezza della riga da applicare alla riga.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -46,7 +46,7 @@ Impostare la larghezza di una colonna chiamando il metodo setColumnWidth della r
 - **Indice di colonna**, l'indice della colonna di cui stai modificando la larghezza.
 - **Larghezza della colonna**, la larghezza della colonna desiderata.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -74,6 +74,6 @@ print "Set Column Width Successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Regolazione dell'altezza della riga e della larghezza della colonna (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

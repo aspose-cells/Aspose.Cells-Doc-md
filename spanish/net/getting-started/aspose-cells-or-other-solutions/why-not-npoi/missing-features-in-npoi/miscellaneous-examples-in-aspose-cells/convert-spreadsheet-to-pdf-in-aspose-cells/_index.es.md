@@ -5,7 +5,7 @@ weight: 10
 url: /es/net/convert-spreadsheet-to-pdf-in-aspose-cells/
 ---
 ## **Aspose.Cells - Convertir hoja de cálculo a PDF**
-Los documentos PDF se utilizan ampliamente como formato estándar para el intercambio de documentos entre organizaciones, sectores gubernamentales e individuos. A los desarrolladores de software a menudo se les pide que busquen una forma de convertir fácilmente Microsoft archivos de Excel en documentos PDF. Aspose.Cells admite estas funciones.
+Los documentos PDF se utilizan ampliamente como formato estándar para el intercambio de documentos entre organizaciones, sectores gubernamentales e individuos. A los desarrolladores de software a menudo se les pide que inventen una forma de convertir fácilmente archivos de Excel Microsoft en documentos PDF. Aspose.Cells admite estas funciones.
 
 **C#**
 

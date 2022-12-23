@@ -12,22 +12,22 @@ url: /es/net/aspose-cells-for-net-8-8-2-release-notes/
 |CELLSNET-41817 | Configuración del efecto de texto en Desplazamiento en forma de rectángulo| Mejora|
 |CELLSNET-41454 | Aspose.Cells determina incorrectamente algunos formatos de archivo| Mejora|
 |CELLSNET-44476 | La dirección del texto se ignora al guardar como formato de archivo HTML| Insecto|
-|CELLSNET-44457 | Los bordes inferiores de la tabla se pierden al convertir a un archivo HTML| Insecto|
+|CELLSNET-44457 | Los bordes inferiores de la tabla se pierden al convertir al archivo HTML| Insecto|
 |CELLSNET-44446 | Todos los estilos CSS no tienen prefijo al guardar como HTML| Insecto|
 |CELLSNET-44444 | Abrir y guardar el archivo que contiene la tabla dinámica da como resultado una hoja de cálculo corrupta| Insecto|
-|CELLSNET-44443 | Gráfico dinámico a PDF - Eje y secundario desordenado| Insecto|
-|CELLSNET-44450 | La rotación de imágenes no es correcta en el PDF resultante| Insecto|
+|CELLSNET-44443 | Gráfico dinámico a PDF - Eje y secundario en mal estado| Insecto|
+|CELLSNET-44450 | La rotación de la imagen no es correcta en la resultante PDF| Insecto|
 |CELLSNET-44303 | SheetRender.ToImage no representa correctamente las etiquetas de datos del gráfico| Insecto|
-|CELLSNET-44478 |El nivel de zoom cambia después de abrir y volver a escribir el archivo de Excel| Insecto|
+|CELLSNET-44478 | El nivel de zoom cambia después de abrir y volver a escribir el archivo de Excel| Insecto|
 |CELLSNET-44477 | Conflicto de nombres de objeto de lista en la copia de la hoja de trabajo| Insecto|
 |CELLSNET-44472 | CustomXmlParts no funciona correctamente para el archivo XLS| Insecto|
-|CELLSNET-44466 | No se pueden mostrar las imágenes correctamente después de exportar HTML a Excel| Insecto|
+|CELLSNET-44466 |No puedo mostrar las imágenes correctamente después de exportar HTML a Excel| Insecto|
 |CELLSNET-44465 | Los gráficos se eliminan al eliminar filas/columnas en blanco| Insecto|
 |CELLSNET-44463 | El texto negro en TextBox se vuelve blanco en el PDF| Insecto|
 |CELLSNET-44456 | El estilo en negrita en el archivo de destino se perdió después de la llamada a Range.CopyData()| Insecto|
 |CELLSNET-44453 | La propiedad ExternalLink.IsReferred no funciona como se esperaba| Insecto|
 |CELLSNET-44445 | CopyStyle (marcadores inteligentes) no funciona en todas las celdas combinadas| Insecto|
-|CELLSNET-44263 | El formato se pierde al importar HTML como XLSX| Insecto|
+|CELLSNET-44263 | Se pierde el formato al importar HTML como XLSX| Insecto|
 |CELLSNET-44439 | NullReferenceException en PivotField.IsAscendSort| Excepción|
 |CELLSNET-44430 | Se produce un error al realizar cálculos complejos| Excepción|
 ### **2) Aspose.Cells Suite de cuadrícula**

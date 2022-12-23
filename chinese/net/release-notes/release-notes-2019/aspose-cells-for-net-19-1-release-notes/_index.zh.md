@@ -13,20 +13,20 @@ url: /zh/net/aspose-cells-for-net-19-1-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSNET-46429|添加带有显示报表筛选页面选项的数据透视表|新功能|
-|CELLSNET-46014|支持在保存为 PDF 和图像时处理溢出的单元格内容|新功能|
+|CELLSNET-46014|支持处理溢出的单元格内容，同时保存为 PDF 和图像|新功能|
 |CELLSNET-46490|支持Excel95/5.0 XLS文件|新功能|
 |CELLSNET-46500|按单元格背景颜色排序|新功能|
 |CELLSNET-46544|检测生成的 MHT 文件是否为工作表|新功能|
-|CELLSNET-46538|XLSX 另存为 PDF 或 TIFF 时，文本底部丢失|漏洞|
+|CELLSNET-46538|XLSX另存为PDF或TIFF时，底部文字缺失|漏洞|
 |CELLSNET-46509|某些单元格的 R1C1 公式读取不正确|漏洞|
 |CELLSNET-46513|Aspose.Cells 公式计算引擎将单元格的公式计算为“0”而不是“#REF！”错误|漏洞|
 |CELLSNET-46535|“＃姓名？”对于以 XLSB 格式保存的公式|漏洞|
 |CELLSNET-46539|公式大小写敏感问题|漏洞|
 |CELLSNET-46531|重命名 ListColumns 会损坏工作簿（当有数据透视表时）|漏洞|
-|CELLSNET-46511|使用额外空白页创建的 TIFF|漏洞|
+|CELLSNET-46511|TIFF 创建了额外的空白页|漏洞|
 |CELLSNET-46522|应用区域设置来打印设置标题|漏洞|
 |CELLSNET-46529|XLSX 到 PDF 转换后图像丢失|漏洞|
-|CELLSNET-46451|将模板文件渲染为 PDF 文件格式时出现问题|漏洞|
+|CELLSNET-46451|将模板文件呈现为 PDF 文件格式时出现问题|漏洞|
 |CELLSNET-46518|将模板文件渲染为 PDF 文件格式时的布局问题（一些轴标签在两行中）|漏洞|
 |CELLSNET-46113|XLS 文档不支持文件格式异常|漏洞|
 |CELLSNET-46504|链接路径问题|漏洞|

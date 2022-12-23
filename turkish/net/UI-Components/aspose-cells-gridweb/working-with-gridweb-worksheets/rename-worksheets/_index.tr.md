@@ -27,13 +27,13 @@ Kodu çalıştırmadan önce, çalışma sayfasının Sayfa1 gibi varsayılan bi
 
 **Giriş dosyası: varsayılan adı Sheet1 olan bir çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](rename-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](rename-worksheets_1.png)
 
 Kodu çalıştırdıktan sonra çalışma sayfası, Öğrenciler olarak yeniden adlandırılır.
 
 **Çıktı: çalışma sayfası, Öğrenciler olarak yeniden adlandırılır** 
 
-![yapılacaklar:resim_alternatif_Metin](rename-worksheets_2.png)
+![yapılacaklar:resim_alternatif_metin](rename-worksheets_2.png)
 
 
 

@@ -11,7 +11,7 @@ is_root: true
 
 **Benvenuti a Aspose.Cells for SharePoint**
 
-Aspose.Cells for SharePoint è una soluzione flessibile che supporta la conversione di fogli di calcolo che consente di convertire documenti MS Excel all'interno delle applicazioni Microsoft SharePoint.
+Aspose.Cells for SharePoint è una soluzione flessibile che supporta la conversione di fogli di calcolo che consente di convertire documenti MS Excel all'interno delle Microsoft applicazioni SharePoint.
 
 {{% /alert %}}
 

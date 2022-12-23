@@ -13,31 +13,31 @@ url: /sv/net/aspose-cells-for-net-20-11-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47706|Stöd för språkberoende formateringsmönster "aaaa" för år i regionen Spanien|Förbättringar|
-|CELLSNET-47641|Varning höjdes när 29 ark lades till och XLS-filen öppnades i MS Excel|Prestanda|
-|CELLSNET-46716|Text klipptes ut vid rendering av PDF|Buggar|
+|CELLSNET-47641|Varning höjdes när 29 ark lades till och utdatafilen XLS öppnades i MS Excel|Prestanda|
+|CELLSNET-46716|Text klipptes vid rendering PDF|Buggar|
 |CELLSNET-47618|En bild blir helvit och en del textkorruption i andra bilder/former|Buggar|
 |CELLSNET-47635| Slicer på olika bord genererar skadad fil|Buggar|
 |CELLSNET-47642|XLSB-filen är skadad efter att ha laddats och sparats|Buggar|
-|CELLSNET-47660|Diagramfält som innehåller datum har olika format i PDF-format|Buggar|
-|CELLSNET-47661|Aspose.Cells genererar ogiltig HTML-uppmärkning för ett visst kalkylblad för ett särskilt Cells-dokument|Buggar|
+|CELLSNET-47660|Diagramfält som innehåller datum har ett annat format i formatet PDF|Buggar|
+|CELLSNET-47661|Aspose.Cells genererar ogiltigt HTML-uppmärkning för ett visst kalkylblad för ett särskilt Cells-dokument|Buggar|
 |CELLSNET-47680|Pivottabeller uppdaterades inte|Buggar|
 |CELLSNET-47659|Problem med att hitta celler med specifika stilar|Buggar|
 |CELLSNET-47679|Skillnad i beräkning av Aspose.Cells och Excel|Buggar|
 |CELLSNET-47666|Arbetsbok kan inte visas i SharePoint|Buggar|
-|CELLSNET-47698|Skift i logotypposition medan du konverterar XLS-fil till PDF|Buggar|
+|CELLSNET-47698|Skift i logotypposition medan du konverterar XLS-filen till PDF|Buggar|
 |CELLSNET-47651|Export av polardiagram till pdf är skev|Buggar|
 |CELLSNET-47662|Fel data Etiketter visas vid konvertering av Excel-diagram till bild|Buggar|
 |CELLSNET-47667|Staplar saknas i stapeldiagram i utdatabilden|Buggar|
-|CELLSNET-47697|Vissa Y-axelvärden går utanför diagrammet i den utgående PDF-filen|Buggar|
+|CELLSNET-47697|Vissa Y-axelvärden går utanför diagrammet i utgången PDF|Buggar|
 |CELLSNET-43579|WortArt-textens krökning ändras vid konvertering från Excel till PDF|Buggar|
-|CELLSNET-47675|Innehållet i XLS-filen ändras efter att ha laddats och sparats|Buggar|
+|CELLSNET-47675|Innehållet i filen XLS ändras efter att ha laddats och sparats|Buggar|
 |CELLSNET-47704|Anpassade egenskaper försvann efter att ha redigerat/sparat en lösenordsskyddad (krypterad) XLS-fil|Buggar|
 |CELLSNET-47708|Sorteringsordningen fungerade inte korrekt med dynamiska formler (smarta markörer)|Buggar|
 |CELLSNET-47682|Undantag vid laddning av viss Htm|Undantag|
 |CELLSNET-47683|Undantag vid laddning av viss Htm|Undantag|
 |CELLSNET-47684|Undantag vid laddning av viss Htm|Undantag|
 |CELLSNET-47689|Undantag vid konvertering av XLSB till PNG och HTML|Undantag|
-|CELLSNET-47701|Det gick inte att skapa en kopia av XLTX-arbetsboken|Undantag|
+|CELLSNET-47701|Det gick inte att skapa en kopia av arbetsboken XLTX|Undantag|
 |CELLSNET-47628|Att radera tomma rader från celler orsakar ArgumentOutOfRangeException|Undantag|
 |CELLSNET-47629|Att anropa cellvärden efter att ha tagit bort tomma rader och kolumner orsakar ArgumentException|Undantag|
 |CELLSNET-47700|CalculateFormula kastar InvalidCastException|Undantag|
@@ -46,9 +46,9 @@ url: /sv/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47677|DataBar.ToImage höjning undantag om raden är dold.|Undantag|
 |CELLSNET-47686|Kan inte konvertera XLSB till XLSX|Undantag|
 |CELLSNET-47687|Kan inte ladda Ods|Undantag|
-|CELLSNET-47694|Undantag när dokument XLSX-fil öppnas|Undantag|
+|CELLSNET-47694|Undantag när dokument XLSX är öppet|Undantag|
 |CELLSNET-47695|Ogiltigt cellnamn efter DeleteRange|Undantag|
-|CELLSNET-47699|Undantag när ODS-filen är öppen|Undantag|
+|CELLSNET-47699|Undantag när filen ODS är öppen|Undantag|
 |CELLSNET-47702| Undantag inträffade när de krypterade "Microsoft Excel 5.0/95 Workbook"-filerna laddades|Undantag|
 
 

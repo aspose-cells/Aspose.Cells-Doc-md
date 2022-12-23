@@ -5,7 +5,7 @@ weight: 20
 url: /tr/java/unprotect-a-worksheet-in-php/
 ---
 ## **Aspose.Cells - Bir Çalışma Sayfasının korumasını kaldırın**
- Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , aramak**unprotect_worksheet** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Aspose.Cells Java for PHP** , Arama**unprotect_worksheet** yöntemi**koruma** modül.
 
 **PHP Kodu**
 

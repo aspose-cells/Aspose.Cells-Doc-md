@@ -100,5 +100,5 @@ public static void OpenAndAddToSpreadsheetStream(Stream stream)
 {{< /highlight >}}
 ## **Scarica l'esempio di codice in esecuzione**
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
-## **Codice di esempio**
+## **Codice d'esempio**
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/Aspose.Cells%20VS%20OpenXML/Open%20from%20a%20stream/OpenXML%20Spreadshhets)

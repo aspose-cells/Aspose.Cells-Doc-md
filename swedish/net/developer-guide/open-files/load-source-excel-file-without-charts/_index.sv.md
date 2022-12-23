@@ -12,6 +12,6 @@ url: /sv/net/load-source-excel-file-without-charts/
 
 ## **Ladda kalkylblad utan diagram**
 
-Följande exempelkod laddar excel-exempelfilen utan diagram och sparar den i utdata-PDF-format.
+Följande exempelkod laddar excel-exempelfilen utan diagram och sparar den i utdataformatet PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

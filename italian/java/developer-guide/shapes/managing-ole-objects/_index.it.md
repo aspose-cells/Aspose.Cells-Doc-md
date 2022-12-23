@@ -8,7 +8,7 @@ url: /it/java/managing-ole-objects/
 
 OLE (Object Linking and Embedding) è il framework di Microsoft per una tecnologia di documenti composti. In breve, un documento composto è qualcosa di simile a un display desktop che può contenere oggetti visivi e informativi di ogni tipo: testo, calendari, animazioni, suoni, video in movimento, 3D, notizie continuamente aggiornate, controlli e così via. Ogni oggetto desktop è un'entità programma indipendente che può interagire con un utente e comunicare anche con altri oggetti sul desktop.
 
- OLE (Object Linking and Embedding) è supportato da molti programmi diversi e viene utilizzato per rendere il contenuto creato in un programma disponibile in un altro. Ad esempio, puoi inserire un documento Microsoft Word in Microsoft Excel. Per vedere quali tipi di contenuto è possibile inserire, fare clic su**Oggetto** sul**Inserire** menù. Nel file vengono visualizzati solo i programmi installati sul computer e che supportano gli oggetti OLE**Tipo di oggetto** scatola.
+ OLE (Object Linking and Embedding) è supportato da molti programmi diversi e viene utilizzato per rendere il contenuto creato in un programma disponibile in un altro. Ad esempio, è possibile inserire un documento Word Microsoft in Excel Microsoft. Per vedere quali tipi di contenuto è possibile inserire, fare clic su**Oggetto** sul**Inserire** menù. Nel file vengono visualizzati solo i programmi installati sul computer e che supportano gli oggetti OLE**Tipo di oggetto** scatola.
 
 ## **Inserimento di oggetti OLE in un foglio di lavoro**
 
@@ -25,7 +25,7 @@ Nell'esempio seguente viene illustrato come aggiungere un oggetto OLE in un fogl
 
 L'esempio seguente mostra come estrarre oggetti OLE in una cartella di lavoro. L'esempio ottiene oggetti OLE diversi da un file XLS esistente e salva file diversi (DOC, XLS, PPT, PDF e così via) in base al tipo di formato file dell'oggetto OLE.
 
-Ecco lo screenshot del file XLS modello, ha diversi oggetti OLE incorporati nel primo foglio di lavoro.
+Ecco lo screenshot del file modello XLS, ha diversi oggetti OLE incorporati nel primo foglio di lavoro.
 
 **Il file modello contiene quattro oggetti OLE** 
 

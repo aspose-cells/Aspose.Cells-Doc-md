@@ -47,7 +47,7 @@ Verbesserung der Speicherleistung beim Festlegen der Zellenformel beim Speichern
 
 ## Aspose.Cells for Java 22.4
 
-* Verbesserte Optionen zum Steuern leerer Zellen für den CSV-Export.
+* Verbesserte Optionen zum Steuern leerer Zellen für den Export von CSV.
 * Unterstützung komplizierter Aufteilung und Aktualisierung der bedingten Formatierung für Einfüge-/Löschvorgänge
 
 ## Aspose.Cells for Java 22.3

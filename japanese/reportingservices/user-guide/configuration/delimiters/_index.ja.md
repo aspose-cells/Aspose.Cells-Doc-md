@@ -64,7 +64,7 @@ Specified field delimiters configuration reference:
 
 
 
-1. のフィールド区切り文字パラメーター**Aspose.Cells.ReportingServices.xml**すべての TXT タイプのレンダリング拡張機能を制御できます。
+1. のフィールド区切り文字パラメーター**Aspose.Cells.ReportingServices.xml** TXT タイプのレンダリング拡張機能をすべて制御できます。
 
 {{< highlight "java" >}}
 
@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
-のフィールド区切り文字パラメーター**rsreportserver.config**のフィールド区切り文字パラメーターよりも優先されます。**Aspose.Cells.ReportingServices.xml**.フィールド区切りパラメータが**rsreportserver.config**null またはデフォルト値、フィールド区切り文字パラメータ**Aspose.Cells.ReportingServices.xml**使用されている。
+のフィールド区切り文字パラメーター**rsreportserver.config**のフィールド区切り文字パラメーターよりも優先されます。**Aspose.Cells.ReportingServices.xml** .フィールド区切りパラメータが**rsreportserver.config**null またはデフォルト値、フィールド区切り文字パラメータ**Aspose.Cells.ReportingServices.xml**使用されている。

@@ -17,18 +17,18 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-42851|Rufen Sie ODATA-Verbindungsdetails ab|Neue Funktion|
 |CELLSJAVA-43047|Hinzufügen von Tooltip-Text zur Zelle für den Export in HTML|Neue Funktion|
 |CELLSJAVA-42988|Leistungsproblem mit computeFormula()|Erweiterung|
-|CELLSJAVA-43018|Exportieren Sie den Druckbereichsbereich in HTML, ohne implizit einen Zustand derselben Arbeitsmappe zu ändern|Erweiterung|
+|CELLSJAVA-43018|Exportieren Sie den Druckbereichsbereich nach HTML, ohne implizit einen Zustand derselben Arbeitsmappe zu ändern|Erweiterung|
 |CELLSJAVA-43041|Cells.importCSV löst Ausnahme „String-Wert darf 255 Zeichen nicht überschreiten“ aus|Erweiterung|
 |CELLSJAVA-43043|Cells.removeDuplicates benötigt mehr Zeit für große Datensätze|Erweiterung|
 |CELLSJAVA-43002|Unerwarteter CPU-Hotspot in ZipOutputStream beim Öffnen von XSLB|Erweiterung|
 |CELLSJAVA-43008|Option zum Deaktivieren des Ladens von OLE-Objekten beim Öffnen einer Arbeitsmappe|Erweiterung|
-|CELLSJAVA-43019|Radialdiagramm wird nicht richtig in HTML gerendert|Insekt|
-|CELLSJAVA-43027|Nach der Wiedergabe in PNG ist die Skalierung der Achse anders.|Insekt|
+|CELLSJAVA-43019|Radialdiagramm wird nicht richtig auf HTML gerendert|Insekt|
+|CELLSJAVA-43027|Nach der Wiedergabe auf PNG ist die Skalierung der Achse anders.|Insekt|
 |CELLSJAVA-42474|PivotTable wird nach dem Aktualisieren der Quelldaten nicht aktualisiert und beschädigt|Insekt|
-|CELLSJAVA-43033|Die Konvertierung in PDF endet nicht.|Insekt|
+|CELLSJAVA-43033|Die Umstellung auf PDF endet nicht.|Insekt|
 |CELLSJAVA-43034|Ungültige Ausgabe im russischen (benutzerdefinierten) Datumsformat wird abgerufen|Insekt|
 |CELLSJAVA-43040|LoadFilter berücksichtigt das erforderliche Blatt nicht|Insekt|
-|CELLSJAVA-43035|Rahmen gehen beim Konvertieren einer Excel-Datei in EMF verloren|Insekt|
+|CELLSJAVA-43035|Beim Konvertieren der Excel-Datei in EMF gehen Rahmen verloren|Insekt|
 |CELLSJAVA-43016|Ungültige Seitenanzahl von SheetRender|Insekt|
 |CELLSJAVA-43026|Nach dem Rendern des Diagramms in ein Bild ändern sich die Datenbeschriftungen und die Werte sind nicht gleich|Insekt|
 |CELLSJAVA-43038|Hyperlinks werden nicht mit Cell.setHtmlString() exportiert|Insekt|
@@ -36,15 +36,15 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-41103|Die Farbgebung und Formatierung von Pivot-Tabellendaten wird nicht richtig gerendert|Insekt|
 |CELLSJAVA-43007|PDF wird nicht wie erwartet generiert|Insekt|
 |CELLSJAVA-43025|Cell.getStyle.getCustom gibt falsches Format für deutsches Gebietsschema zurück|Insekt|
-|CELLSJAVA-42793|Fontwork SmartArt-Objekt während der ODS-zu-XLSX-Konvertierung verloren gegangen|Insekt|
+|CELLSJAVA-42793|Fontwork SmartArt-Objekt ging während der Konvertierung von ODS zu XLSX verloren|Insekt|
 |CELLSJAVA-43020|Radialdiagramm nach Aufruf von Chart.Calcluate() verzerrt|Insekt|
 |CELLSJAVA-43022|Form-zu-Bild-Fehler für XLS-Dateien|Insekt|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) verursacht unerwünschte Ergebnisse beim Aufruf von getFormula()|Insekt|
 |CELLSJAVA-43052|Validierungsproblem für boolesche Werte|Insekt|
-|CELLSJAVA-43054|Problem mit der CSV-Zusammenführung in den portugiesischen Einstellungen|Insekt|
+|CELLSJAVA-43054|Problem mit CSV Zusammenführen in portugiesischen Einstellungen|Insekt|
 |CELLSJAVA-43056|Cell.setFormula() wird für externe Links nicht aktualisiert|Insekt|
 |CELLSJAVA-42767|Bild bei der Konvertierung von Excel in PDF übersehen|Insekt|
-|CELLSJAVA-42913|Eingebettete Visio-Objekte werden falsch in PDF gerendert|Insekt|
+|CELLSJAVA-42913|Eingebettete Visio-Objekte wurden falsch auf PDF gerendert|Insekt|
 |CELLSJAVA-42883|Problem beim Extrahieren von Diagrammtext aus der Datei im Format Aspose.Cells for Java 95|Insekt|
 |CELLSJAVA-42931|Anhänge/Objekte wurden nicht von Excel95 abgerufen|Insekt|
 |CELLSJAVA-43051|Seitenverhältnis für das Bild nicht eingehalten|Insekt|
@@ -52,7 +52,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-43069|MS Excel gibt beim Öffnen der neu gespeicherten Datei von Aspose.Cells eine Reparaturmeldung aus|Insekt|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException beim Laden der Excel-Datei|Ausnahme|
 |CELLSJAVA-43060|Ausnahme "java.lang.NullPointerException" auf Workbook.save nach dem Setzen der externen Datenquelle auf leer|Ausnahme|
-|CELLSJAVA-42923|Ausnahmen beim Laden des XLS-Dokuments|Ausnahme|
+|CELLSJAVA-42923|Ausnahmen beim Laden von XLS Dokument|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Android via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 ### **Fügt die Methode Cells.RemoveDuplicates() hinzu**
@@ -80,7 +80,7 @@ Importiert einen XML-Dateistream in die Arbeitsmappe.
 ### **Fügt die Methode Workbook.ExportXml(string mapName, Stream stream) hinzu.**
 XML-Daten in einen Stream exportieren.
 ### **Fügt die HtmlSaveOptions.ExportArea-Eigenschaft hinzu**
-Ruft die exportierende CellArea des aktuell aktiven Arbeitsblatts ab oder legt sie fest. Wenn Sie dieses Attribut setzen, wird der Druckbereich des aktuell aktiven Arbeitsblatts weggelassen. Beim Speichern der Datei im HTML-Format wird nur der angegebene Bereich exportiert.
+Ruft die exportierende CellArea des aktuell aktiven Arbeitsblatts ab oder legt sie fest. Wenn Sie dieses Attribut setzen, wird der Druckbereich des aktuell aktiven Arbeitsblatts weggelassen. Beim Speichern der Datei unter HTML wird nur der angegebene Bereich exportiert.
 ### **Fügt Klassen hinzu: DataMashup, PowerQueryFormula, PowerQueryFormulaCollection, PowerQueryFormulaItem und PowerQueryFormulaItemCollection**
 Ruft Informationen im DataMashup ab.
 ### **Fügt die DBConnection.SeverCommand-Eigenschaft hinzu.**
@@ -124,9 +124,9 @@ Unterstützt die Erkennung des .OTP-Dateiformats.
 ### **Fügt die AutoFitterOptions.AutoFitWrappedTextType-Eigenschaft und die AutoFitWrappedTextType-Aufzählung hinzu.**
 Ruft den Typ des automatisch angepassten umbrochenen Texts ab und legt ihn fest.
 ### **Fügt die EmfRenderSetting-Klasse hinzu**
-Setzt zum Rendern der EMF-Metadatei.
+Setzt zum Rendern von Metafile EMF.
 ### **Fügt die PdfSaveOptions.EmfRenderSetting-Eigenschaft hinzu**
-Legt fest, dass die EMF-Metadatei beim Rendern in eine PDF-Datei gerendert wird.
+Legt fest, dass EMF-Metadatei gerendert wird, während in PDF-Datei gerendert wird.
 ### **Fügt die Methode ShapeCollection.AddSvg() hinzu**
 Fügt ein SVG-Bild hinzu.
 ### **Fügt die WorkbookSettings.QuotePrefixToStyle-Eigenschaft hinzu**

@@ -22,7 +22,7 @@ Dans les deux procédures, un objet Cell est traité puis supprimé, l'objet Wor
 
 Même si le LightCells API traite les cellules de la même manière pour les fichiers XLSX et XLS (il ne charge pas réellement toutes les cellules en mémoire mais traite une cellule puis la supprime), il économise de la mémoire plus efficacement pour les fichiers XLSX que pour les fichiers XLS en raison de les différents modèles et structures de données des deux formats.
 
- Cependant,**pour les fichiers XLS** , pour économiser davantage de mémoire, les développeurs peuvent spécifier un emplacement temporaire pour enregistrer les données temporaires générées lors du processus d'enregistrement. Communément,**l'utilisation de LightCells API pour enregistrer le fichier XLSX peut économiser 50 % ou plus de mémoire** que d'utiliser la voie commune,**l'enregistrement de XLS peut économiser environ 20 à 40 % de mémoire**.
+ Cependant,**pour les fichiers XLS** , pour économiser davantage de mémoire, les développeurs peuvent spécifier un emplacement temporaire pour enregistrer les données temporaires générées lors du processus d'enregistrement. Communément,**l'utilisation de LightCells API pour enregistrer le fichier XLSX peut économiser 50 % ou plus de mémoire** que d'utiliser la voie commune,**enregistrer XLS peut économiser environ 20 à 40% de mémoire**.
 
 ### **Écrire de gros fichiers Excel**
 
@@ -46,7 +46,7 @@ Aspose.Cells fournissent une interface, LightCellsDataHandler, qui doit être im
 
 Lors de la lecture d'un classeur dans ce mode, startSheet() est vérifié lors de la lecture de chaque feuille de calcul dans le classeur. Pour une feuille, si startSheet() renvoie true, toutes les données et propriétés des cellules des lignes et des colonnes de la feuille sont vérifiées et traitées. Pour chaque ligne, startRow() est appelée pour vérifier si elle doit être traitée. Si une ligne doit être traitée, les propriétés de la ligne sont lues en premier et les développeurs peuvent accéder à ses propriétés avec processRow().
 
-Si les cellules de la ligne doivent également être traitées, alors processRow() renvoie true et startCell() est appelée pour chaque cellule existante de la ligne pour vérifier si elle doit être traitée. Si c'est le cas, processCell() est appelée.
+Si les cellules de la ligne doivent également être traitées, alors processRow() renvoie true et startCell() est appelée pour chaque cellule existante de la ligne pour vérifier si elle doit être traitée. Si c'est le cas, processCell() est appelé.
 
 L'exemple de code suivant illustre ce processus. Le programme lit un gros fichier avec des millions d'enregistrements. Il faut un peu de temps pour lire chaque feuille du cahier. L'exemple de code lit le fichier et récupère le nombre total de cellules, le nombre de chaînes et le nombre de formules pour chaque feuille de calcul.
 

@@ -8,7 +8,7 @@ keywords: apply cell validation in excel with c#, apply validation on a cell in 
 ---
 {{% alert color="primary" %}}
 
- Вы можете использовать Aspose.Cells, чтобы применить проверку к ячейке. Aspose.Cells обеспечивает[**Cell.Получить валидацию()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) метод для этой цели. Если к ячейке не применяется проверка, она возвращает значение null.
+Вы можете использовать Aspose.Cells, чтобы применить проверку к ячейке. Aspose.Cells обеспечивает[**Cell.Получить валидацию()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) метод для этой цели. Если к ячейке не применяется проверка, она возвращает значение null.
 
  Точно так же вы можете использовать[**Рабочий лист.Проверки.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) метод для получения проверки, примененной к ячейке, путем предоставления ее индексов строки и столбца.
 
@@ -22,4 +22,4 @@ keywords: apply cell validation in excel with c#, apply validation on a cell in 
 
 ## Статьи по Теме
 
-- [Проверка данных](/cells/ru/net/data-validation/)
+- [Валидация данных](/cells/ru/net/data-validation/)

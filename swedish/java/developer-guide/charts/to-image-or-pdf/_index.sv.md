@@ -7,7 +7,7 @@ url: /sv/java/chart-rendering/
 ---
 ## **Skapa diagram**
 
- Aspose.Cells API:er stöder för att skapa en mängd Excel-diagram som beskrivs under ämnet[Skapa och anpassa Excel-diagram](/cells/sv/java/creating-and-customizing-charts/)För att demonstrera användningen av Aspose.Cells API:er för att rendera diagrammen i bild- och PDF-format, kommer vi att skapa ett diagram av typen Kolumn enligt följande utdrag.
+ Aspose.Cells API:er stöder för att skapa en mängd Excel-diagram som beskrivs under ämnet[Skapa och anpassa Excel-diagram](/cells/sv/java/creating-and-customizing-charts/). För att demonstrera användningen av Aspose.Cells API:er för att rendera diagrammen i bild- och PDF-format, kommer vi att skapa ett diagram av typen Kolumn enligt följande utdrag.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
@@ -25,9 +25,9 @@ Det är också möjligt att rendera diagrammen till bilder med avancerade instä
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Återge diagram till PDF**
+### **Återgivningsdiagram till PDF**
 
- För att rendera diagrammet till PDF-format har API:erna Aspose.Cells avslöjat[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) metod med möjlighet att lagra den resulterande PDF-filen på skivväg eller en instans av OutputStream.
+ För att återge diagrammet till PDF-formatet har API:erna Aspose.Cells exponerat[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) metod med möjligheten att lagra den resulterande PDF på skivvägen eller en instans av OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -121,7 +121,7 @@ Det är också möjligt att rendera diagrammen till bilder med avancerade instä
 
 {{% alert color="primary" %}}
 
-Om du försöker rendera diagramtyperna som inte stöds till bild eller PDF, kan du sluta med 0-stora bilder eller tom PDF.
+Om du försöker rendera diagramtyperna som inte stöds till bild eller PDF, kan du sluta med 0-stora bilder eller tomma PDF.
 
 {{% /alert %}}
 

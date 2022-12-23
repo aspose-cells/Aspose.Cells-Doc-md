@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-511|Supporto interruzione pagina gruppo Tablix (Aspose.Cells for Reporting Services report designer)|Nuova caratteristica|
 |CELLSRS-531|Crea più schede utilizzando Aspose.Cells for Reporting Services|Nuova caratteristica|

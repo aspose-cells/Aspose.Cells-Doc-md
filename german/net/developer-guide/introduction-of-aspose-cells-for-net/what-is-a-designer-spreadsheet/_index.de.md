@@ -23,7 +23,7 @@ Ein Designer-Arbeitsblatt ist eine Excel-Datei, die mit Microsoft Excel erstellt
 |**Designer-Tabelle**|
 |:- |
 |![todo: Bild_alt_Text](what-is-a-designer-spreadsheet_1.png)|
- Für Beispiele können Sie das Beispielprojekt von herunterladen[hier](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
+ Für Beispiele können Sie das Beispielprojekt von herunterladen[Hier](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
 
 ### **Wie benutzt man es?**
 

@@ -80,7 +80,7 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
-请检查文章[显示 Cell 范围作为数据标签](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels)了解更多信息。
+请检查文章[显示 Cell 范围作为数据标签](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -159,7 +159,7 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
-请检查文章[从 Cell 访问表并使用行和列偏移量在其中添加值](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets)了解更多信息。
+请检查文章[从 Cell 访问表并使用行和列偏移量在其中添加值](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -235,7 +235,7 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
-请检查文章[以 ODF 1.1 和 1.2 规范保存 ODS 文件](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications)了解更多信息。
+请检查文章[在 ODF 1.1 和 1.2 规范中保存 ODS 文件](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -317,6 +317,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
-请检查文章[通过指定迷你图组的数据范围和位置来复制迷你图](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group)了解更多信息。
+请检查文章[通过指定迷你图组的数据范围和位置来复制迷你图](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group)想要查询更多的信息。
 
 {{% /alert %}}

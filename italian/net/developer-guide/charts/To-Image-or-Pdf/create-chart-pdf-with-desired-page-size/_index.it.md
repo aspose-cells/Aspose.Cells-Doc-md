@@ -10,6 +10,6 @@ Puoi creare un grafico Pdf con la dimensione della pagina desiderata utilizzando
  Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716906.xlsx) , accede al primo grafico all'interno del foglio di lavoro e quindi lo converte in[uscita Pdf](64716907.pdf) con la dimensione della pagina desiderata. Lo screenshot seguente mostra che la dimensione della pagina nel Pdf di output è 7x7 come specificato all'interno del codice e il grafico è allineato al centro sia orizzontalmente che verticalmente.
 
 ![cose da fare:immagine_alt_testo](create-chart-pdf-with-desired-page-size_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Charts-CreateChartPDFWithDesiredPageSize.cs" >}}
 

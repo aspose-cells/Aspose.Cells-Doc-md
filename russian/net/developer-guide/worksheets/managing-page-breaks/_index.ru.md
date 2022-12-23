@@ -23,13 +23,13 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 
  Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Класс предоставляет широкий спектр свойств и методов, используемых для управления рабочим листом.
 
- Чтобы добавить разрывы страниц, используйте[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс'[**ГоризонтальныйPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) а также[**Вертикальные разрывы страниц**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)характеристики.
+ Чтобы добавить разрывы страниц, используйте[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс'[**ГоризонтальныйPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) и[**Вертикальные разрывы страниц**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)характеристики.
 
-[**ГоризонтальныйPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) а также[**Вертикальные разрывы страниц**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)свойства — это наборы, которые могут содержать несколько разрывов страниц. Каждая коллекция содержит несколько методов управления горизонтальными и вертикальными разрывами страниц.
+[**ГоризонтальныйPageBreaks**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) и[**Вертикальные разрывы страниц**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)свойства — это наборы, которые могут содержать несколько разрывов страниц. Каждая коллекция содержит несколько методов управления горизонтальными и вертикальными разрывами страниц.
 
 ### **Добавление разрывов страниц**
 
- Чтобы добавить разрыв страницы на листе, вставьте вертикальные и горизонтальные разрывы страниц в указанной ячейке, вызвав метод[**Коллекция HorizontalPageBreakCollection.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) а также[**Коллекция VerticalPageBreakCollection.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) методы. Каждый**Добавлять** Метод принимает имя ячейки, в которую следует добавить разрыв.
+ Чтобы добавить разрыв страницы на листе, вставьте вертикальные и горизонтальные разрывы страниц в указанной ячейке, вызвав метод[**Коллекция HorizontalPageBreakCollection.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/add/index) и[**Коллекция VerticalPageBreakCollection.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/add/index) методы. Каждый**Добавлять** Метод принимает имя ячейки, в которую следует добавить разрыв.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-AddingPageBreaks-1.cs" >}}
 
@@ -41,16 +41,16 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 
 ### **Удаление всех разрывов страниц**
 
- Чтобы удалить все разрывы страниц на листе, вызовите метод[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) а также[**ВертикальнаяPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) коллекции[**Чистый()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)методы.
+ Чтобы удалить все разрывы страниц на листе, вызовите метод[**HorizontalPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection) и[**ВертикальнаяPageBreakCollection**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection) коллекции[**Прозрачный()**](https://docs.microsoft.com/en-us/dotnet/api/system.collections.collectionbase.clear?redirectedfrom=MSDN&view=netframework-4.7.2#System_Collections_CollectionBase_Clear)методы.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-ClearAllPageBreaks-1.cs" >}}
 
 ### **Удаление определенного разрыва страницы**
 
- Чтобы удалить определенный разрыв страницы, вызовите[**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) а также[**Коллекция VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) методы. Каждый**RemoveAt**Метод принимает индекс разрыва страницы, который нужно удалить.
+ Чтобы удалить определенный разрыв страницы, вызовите[**HorizontalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/horizontalpagebreakcollection/methods/removeat) и[**Коллекция VerticalPageBreakCollection.RemoveAt()**](https://reference.aspose.com/cells/net/aspose.cells/verticalpagebreakcollection/methods/removeat) методы. Каждый**RemoveAt**Метод принимает индекс разрыва страницы, который нужно удалить.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Value-RemoveSpecificPageBreak-1.cs" >}}
 
 ## **Важно знать**
 
- Когда вы устанавливаете**Подгонка по страницам** свойства (т.[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) а также[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) в параметрах настройки страницы затрагиваются параметры разрыва страницы, поэтому при печати рабочего листа параметры разрыва страницы не учитываются, хотя они все еще установлены.
+ Когда вы устанавливаете**Подгонка по страницам** свойства (т.[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) и[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)) в параметрах настройки страницы затрагиваются параметры разрыва страницы, поэтому при печати рабочего листа параметры разрыва страницы не учитываются, хотя они все еще установлены.

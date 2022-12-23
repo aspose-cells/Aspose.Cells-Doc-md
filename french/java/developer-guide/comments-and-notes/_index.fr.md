@@ -13,7 +13,7 @@ Les commentaires sont utilisés pour ajouter des informations supplémentaires a
 
 ## **Ajout d'un commentaire**
 
- Ajouter un commentaire à une cellule en appelant le[**commentaires**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) de la collection**Ajouter** méthode (encapsulée dans la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objet). Le nouveau[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) l'objet est accessible depuis le[**commentaires**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) collection en passant l'index de commentaire. Après avoir accédé au[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) objet, personnalisez la note de commentaire à l'aide de[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) objets[**Noter**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)propriété.
+ Ajouter un commentaire à une cellule en appelant le[**commentaires**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) de la collection**Ajouter** méthode (encapsulée dans la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objet). Le nouveau[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) l'objet est accessible depuis le[**commentaires**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) collection en passant l'index de commentaire. Après avoir accédé au[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) objet, personnalisez la note de commentaire à l'aide de[**Commentaire**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) objets[**Noter**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 
@@ -30,10 +30,10 @@ Avec Microsoft Excel 2007, il est également possible d'avoir une image comme ar
 1. Cliquez avec le bouton droit sur la cellule qui contient le commentaire.
 1.  Sélectionner**Afficher/Masquer les commentaires**, et effacez tout texte du commentaire.
 1. Cliquez sur la bordure du commentaire pour le sélectionner.
-1.  Sélectionner**Format** , alors**Commentaire**.
+1.  Sélectionner**Format** , ensuite**Commentaire**.
 1.  Sur le**Couleurs et lignes** onglet, développez l'onglet**Couleur** liste.
 1.  Cliquez sur**Effets de remplissage**.
-1.  Sur le**Image** onglet, cliquez**Sélectionnez l'image**.
+1.  Sur le**Photo** onglet, cliquez**Sélectionnez l'image**.
 1. Localisez et sélectionnez l'image.
 1.  Cliquez sur**D'ACCORD** jusqu'à ce que toutes les boîtes de dialogue soient fermées.
 

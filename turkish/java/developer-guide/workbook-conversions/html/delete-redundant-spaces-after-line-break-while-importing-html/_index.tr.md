@@ -1,20 +1,20 @@
 ﻿---
-title: HTML'yi içe aktarırken satır sonundaki gereksiz boşlukları silin
+title: HTML'i içe aktarırken satır sonundaki gereksiz boşlukları silin
 type: docs
 weight: 620
 url: /tr/java/delete-redundant-spaces-after-line-break-while-importing/
 ---
 {{% alert color="primary" %}} 
 
- Lütfen kullan[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) özellik ve ayarlayın**doğru** satır sonu etiketinden sonra gelen tüm gereksiz boşlukları silmek için. Varsayılan olarak, bu özellik**yanlış** ve fazlalık boşluklar çıktı excel dosyalarında korunur.
+ Lütfen kullan[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) özellik ve ayarlayın**doğru** satır sonu etiketinden sonra gelen tüm gereksiz boşlukları silmek için. Varsayılan olarak, bu özellik**YANLIŞ**ve fazlalık boşluklar çıktı excel dosyalarında korunur.
 
 {{% /alert %}} 
 ## **HtmlLoadOptions.DeleteRedundantSpaces özelliğini false ve true olarak ayarlamanın etkisi**
- Aşağıdaki ekran görüntüsü, bu özelliği şu şekilde ayarlamanın etkisini gösterir:**yanlış** ve**doğru**.
+ Aşağıdaki ekran görüntüsü, bu özelliği şu şekilde ayarlamanın etkisini gösterir:**YANLIŞ** ve**doğru**.
 
-![yapılacaklar:resim_alternatif_Metin](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **HTML'yi içe aktarırken satır sonundaki gereksiz boşlukları silin**
- Aşağıdaki örnek kod,[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) Emlak. lütfen ayarla**doğru** veya**yanlış** çıktıyı yukarıdaki ekran görüntüsünde gösterildiği gibi almak için.
+![yapılacaklar:resim_alternatif_metin](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
+## **HTML'i içe aktarırken satır sonundaki gereksiz boşlukları silin**
+ Aşağıdaki örnek kod,[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces) Emlak. lütfen ayarla**doğru** veya**YANLIŞ** çıktıyı yukarıdaki ekran görüntüsünde gösterildiği gibi almak için.
 
 
 

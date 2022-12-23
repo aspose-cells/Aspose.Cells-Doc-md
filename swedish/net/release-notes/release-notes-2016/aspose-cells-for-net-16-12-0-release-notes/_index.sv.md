@@ -17,30 +17,30 @@ url: /sv/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44967|Prestandaöverväganden för NameCollection.Remove-metoden|Prestanda|
 |CELLSNET-44964|Aspose.Cells hänger när CalculateFormula() används i Workbook.|Prestanda|
 |CELLSNET-44819|Det går inte att spara Excel-källfilen i HTML och den får timeout|Prestanda|
-|CELLSNET-44960|Pivottabellformatering går förlorad när kalkylblad konverteras till PDF-filformat|Insekt|
-|CELLSNET-44951|Raddata är felplacerad när kalkylbladet renderas till PDF efter uppdatering av pivottabellen|Insekt|
+|CELLSNET-44960|Pivottabellformateringen går förlorad när kalkylbladet konverteras till filformatet PDF|Insekt|
+|CELLSNET-44951|Raddata är felplacerad vid rendering av kalkylark till PDF efter uppdatering av pivottabell|Insekt|
 |CELLSNET-44950|Cell skuggning saknas vid rendering av kalkylark till PDF efter uppdatering av pivottabell|Insekt|
 |CELLSNET-44949|Tomma kolumner saknas vid rendering av kalkylark till PDF efter uppdatering av pivottabell|Insekt|
 |CELLSNET-44930|Kolumn saknas i pivottabellen efter uppdatering och konvertering till PDF|Insekt|
 |CELLSNET-44929|Data saknas i pivottabellen efter uppdatering och konvertering till PDF|Insekt|
 |CELLSNET-44908|Kalkylark som innehåller slicers skadas efter enkel återlagring|Insekt|
 |CELLSNET-44206|Att anropa RefreshData på pivottabellen förstör det resulterande kalkylbladet|Insekt|
-|CELLSNET-44184|Uppdatering av pivottabeller och diagram genererar korrupta XLSX-filer|Insekt|
+|CELLSNET-44184|Uppdatering av pivottabeller och diagram genererar korrupt XLSX-fil|Insekt|
 |CELLSNET-44974|Cell skuggning är förstörd när pivottabellen uppdateras och renderas till PDF|Insekt|
 |CELLSNET-44972|Cell Skuggning tillämpas på fel cell under uppdatering av pivottabell och rendering till PDF|Insekt|
 |CELLSNET-44963|Spara till PDF skapar extra ramar för raderna|Insekt|
 |CELLSNET-44927|Datatyp anses vara DateTime om det anpassade formatet innehåller magenta|Insekt|
 |CELLSNET-44921|Radhöjden har ändrats efter enkel återsparaoperation|Insekt|
 |CELLSNET-44916|Metoden Workbook.CalculateFormula() beräknar värdet på cell B8 felaktigt|Insekt|
-|CELLSNET-44910|Ytterligare ett tecken 4 visas vid konvertering av en ODS till PDF-filformat|Insekt|
+|CELLSNET-44910|Ytterligare ett tecken 4 visas vid konvertering av filformatet ODS till PDF|Insekt|
 |CELLSNET-44958|Fontersättning sker inte med FontConfigs.PreferSystemFontSubstitutes satt till true|Insekt|
 |CELLSNET-44937|Excel till PDF-rendering - Vissa ord skärs i två i det sammanslagna området|Insekt|
 |CELLSNET-44933|Exportera Excel-diagram till SVG|Insekt|
 |CELLSNET-44914|Marginalen på höger sida är större än i MS Excel när den skrivs ut eller sparas som PDF|Insekt|
 |CELLSNET-44931|Spara till PDF skapar en extra tom sida.|Insekt|
-|CELLSNET-44926|PNG-bild av diagrammet stämmer inte överens med MS-Excel-diagrammet|Insekt|
-|CELLSNET-44912|Tiden som används för att konvertera XLS till XLSX är lång|Insekt|
-|CELLSNET-44905|PDF-export visar 0 på stackdiagram|Insekt|
+|CELLSNET-44926|PNG bilden av diagrammet stämmer inte överens med MS-Excel-diagrammet|Insekt|
+|CELLSNET-44912|Tiden som används för att konvertera XLS till XLSX är hög|Insekt|
+|CELLSNET-44905|PDF export visar 0 på stackdiagram|Insekt|
 |CELLSNET-44902|Problem med diagrammets dataserie i Excel till PDF-rendering|Insekt|
 |CELLSNET-44897|Bild på diagrammet med titeln Livet är inte korrekt|Insekt|
 |CELLSNET-44890|Serie DataLabel värde och procent som visar VALUE och PROCENT efter enkel återsparning|Insekt|

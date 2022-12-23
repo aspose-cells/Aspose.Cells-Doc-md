@@ -10,22 +10,22 @@ url: /it/java/aspose-cells-for-java-21-8-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42494|Grande quantità di stili inutilizzati generati nella sezione CSS|
-|CELLSJAVA-43576|I valori del testo grafico non vengono visualizzati durante la conversione di XLSX in PDF|
+|CELLSJAVA-43576|valori del testo grafico non vengono visualizzati durante la conversione da XLSX a PDF|
 |CELLSJAVA-43483|Il testo dopo un tag "br" all'interno di un tag "em" non viene enfatizzato durante la conversione di un documento HTML in una cartella di lavoro|
 |CELLSJAVA-43526|IllegalArgumentException: indice di colonna non valido|
 |CELLSJAVA-43557|Colore errato quando si salva come html|
 |CELLSJAVA-43567|Regressione: formula MDURATION non calcolata correttamente|
 |CELLSJAVA-43583|L'operatore di potenza "^" non funziona per i calcoli delle formule|
-|CELLSJAVA-43549|Immagine mancante nel PDF di output|
+|CELLSJAVA-43549|Immagine mancante nell'output PDF|
 |CELLSJAVA-43566|Caratteri predefiniti su MacOS Big Sur|
 |CELLSJAVA-42579|Le etichette degli assi non vengono visualizzate correttamente - Allineamento a destra mancante durante il salvataggio di Excel in Pdf|
 |CELLSJAVA-43554|Il testo del datatable del grafico non viene mostrato nell'immagine di output|
 |CELLSJAVA-43556|Da XLSX a PDF: titolo del diagramma incompleto|
 |CELLSJAVA-40051|Supporto Apple iWork|
-|CELLSJAVA-43119|Conversione in PDF - Formato file non supportato Numero 3.5 dal 2014|
+|CELLSJAVA-43119|Conversione in PDF - Formato file Number3.5 non supportato dal 2014|
 |CELLSJAVA-43538|Il grafico senza dati causa il danneggiamento di XLSX dopo il salvataggio con Aspose Cells|
 |CELLSJAVA-43547|AutoFitRow modifica l'altezza standard del foglio di lavoro|
 |CELLSJAVA-43591|Errore durante l'apertura del file in MS Excel salvato da Aspose.Cells|
@@ -33,9 +33,9 @@ url: /it/java/aspose-cells-for-java-21-8-release-notes/
 |CELLSJAVA-43565|"java.lang.ClassCastException" durante la lettura del file XLSB con LightCells|
 |CELLSJAVA-43546|NullPointerException durante l'estrazione del nome della serie del grafico|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe AbstractInterruptMonitor.**
 

@@ -15,7 +15,7 @@ url: /tr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45614|Belirli bir Çalışma Kitabı için hangi Yığın Boyutunun gerekli olduğunu belirleme|Yeni özellik|
 |CELLSNET-45649|Özel Etiketin yazı tipini ve hücresini Akıllı İşaretleyiciler ile biçimlendirin|Yeni özellik|
 |CELLSNET-44353|MS Excel çalışma kitabında harici kaynakların yüklenmesini kontrol edin|Yeni özellik|
-|CELLSNET-40787|Dönüştürmeden Sonra Değişiklikleri Kaybet (XLS --> XLSM)|Yeni özellik|
+|CELLSNET-40787|Dönüşümden sonra Değişiklikleri İzlemeyi Kaybet (XLS --> XLSM)|Yeni özellik|
 |CELLSNET-45607|Cell yorumunu Excel Araç İpucu olarak göster - Aspose.Cells.GridWeb|Yeni özellik|
 |CELLSNET-45559|Hisse Fiyat Serisi Etiketi düzgün konumlanmıyor|Artırma|
 |CELLSNET-45626|İstisna: "Çok fazla giriş var. Dosya(lar)ı birleştirirken ZipOutputStream.Enable Zip64'ü ayarlamayı düşünün"|Artırma|
@@ -24,32 +24,32 @@ url: /tr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop son sütunu kaydırmamalı|Artırma|
 |CELLSNET-45577|GridDesktop son satırı kaydırmamalı|Artırma|
 |CELLSNET-45633|Hesaplanacak birçok işlevle özel işlev kullanılırken GetRanges performans sorunu|Verim|
-|CELLSNET-45592|Excel'den PDF'e dönüştürmede bazı çizim öğelerinin konumu yanlış|Böcek|
-|CELLSNET-45575|Çıkış PDF'sinde kutudaki gri arka plan eksik|Böcek|
-|CELLSNET-45516|Excel'de dağıtılmış/dağınık metni PDF oluşturmaya dönüştürme|Böcek|
+|CELLSNET-45592|Bazı çizim öğelerinin konumu, Excel'de PDF oluşturmada yanlış|Böcek|
+|CELLSNET-45575|PDF çıktısında kutudaki gri arka plan eksik|Böcek|
+|CELLSNET-45516|Excel'de dağıtılmış/dağınık metni PDF işlemeye göre şekillendirin|Böcek|
 |CELLSNET-45415|Sayfadan Görüntüye oluşturma, hücre referansıyla TextBox'taki Asya yazı tiplerini yok sayar|Böcek|
 |CELLSNET-45315|Sayfadan Görüntüye oluşturmada şeklin bazı metinleri (etiketleri) eksik|Böcek|
 |CELLSNET-45655|Sayı kesinlik biçiminin tutulup tutulmayacağını kontrol etmek için tek bir seçenek sağlamak|Böcek|
-|CELLSNET-45630|"222.xlsx"in HTML çıktısı doğru değil|Böcek|
-|CELLSNET-45621|HTML dosya biçimi olarak kaydederken bir yerine iki görüntü kaynağı oluşturuldu|Böcek|
+|CELLSNET-45630|HTML "222.xlsx" çıktısı doğru değil|Böcek|
+|CELLSNET-45621|HTML dosya biçiminde kaydedilirken bir yerine iki görüntü kaynağı oluşturuldu|Böcek|
 |CELLSNET-45597|Sayısal sütunlar için "Metin olarak saklanan sayı"|Böcek|
-|CELLSNET-45558|MHTml dosyası XLS uzantılı olarak kaydedildiğinde, MS Excel XLS dosyasını açarken hatalar gösteriyor|Böcek|
+|CELLSNET-45558|MHTml dosyası XLS uzantısıyla kaydedildiğinde, MS Excel XLS dosyasını açarken hatalar gösteriyor|Böcek|
 |CELLSNET-45557|Dosyayı XLS olarak kaydettikten sonra biçimlendirme kayboldu|Böcek|
-|CELLSNET-45556|Dosyayı XLS olarak kaydettikten sonra kaybolan görüntüler|Böcek|
+|CELLSNET-45556|Dosyayı XLS olarak kaydettikten sonra görüntüler kayboldu|Böcek|
 |CELLSNET-45538|Bir MHTml dosyasını XLS veya MHT'ye kaydederken kaybolan görüntüler ve biçimlendirmeler kaldırılıyor|Böcek|
 |CELLSNET-45584|PageSetup.GetCommands() kullanıldığında sonsuz döngü|Böcek|
-|CELLSNET-45637|Çıktı PDF'sinde üç kısa çizgi "---" boş alan olarak işlenir|Böcek|
-|CELLSNET-45612|Excel'den PDF'e dönüştürmede kayan çizgilerle (tek, çift alt çizgi) ilgili sorun|Böcek|
+|CELLSNET-45637|Üç kısa çizgi "---", PDF çıktısında boş alan olarak işlenir|Böcek|
+|CELLSNET-45612|Excel'de PDF'e dönüştürmede kayan çizgilerle (tek, çift alt çizgi) ilgili sorun|Böcek|
 |CELLSNET-45608|ImageOrPrintOptions.OnlyArea = true olduğunda, veriler bozulur|Böcek|
 |CELLSNET-45605|Resme dönüştürülürken kısmen eksik karakterler|Böcek|
 |CELLSNET-45571|Noktalı çizgilere dönüştürülen varsayılan gri hücre sınırları|Böcek|
 |CELLSNET-45628|Görüntüye dönüştürülürken kelime yeniden adlandırılır|Böcek|
 |CELLSNET-45603|Chart.Calculate() yöntemiyle ilgili sorun|Böcek|
 |CELLSNET-45602|Grafikteki trend denklemleriyle ilgili sorun|Böcek|
-|CELLSNET-45587|Radar grafiği için çıktı PDF'sinde ölçek artırıldı|Böcek|
+|CELLSNET-45587|Radar tablosu için PDF çıktısında ölçek artırılır|Böcek|
 |CELLSNET-45573|Grafik görüntüsünde üç basamaklı sayılar yok|Böcek|
 |CELLSNET-45569|Aspose.Cells aracılığıyla grafikten resim işlenemiyor|Böcek|
-|CELLSNET-45563|Çizgi çizimi kaynak Excel ile karşılaştırıldığında yanlış Grafik PDF'si|Böcek|
+|CELLSNET-45563|Çizgi çizimi kaynak Excel ile karşılaştırıldığında yanlış Grafik PDF|Böcek|
 |CELLSNET-45561|Sample.xlsm çalışma sayfasından oluşturulan görüntü SampleCharts doğru değil|Böcek|
 |CELLSNET-45441|Resme dönüştürüldüğünde grafik açıklaması yanlış konumda işleniyor|Böcek|
 |CELLSNET-45643|OLE nesnesi, OLE nesne dosyasını açıp düzenledikten sonra boyut değiştiriyor|Böcek|
@@ -57,7 +57,7 @@ url: /tr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45638|Çalışma sayfasına sütun eklemek bozuk çıktı Excel dosyasına neden olur|Böcek|
 |CELLSNET-45636|SpreadsheetML - Satırdaki gizli özellik düzgün çalışmıyor|Böcek|
 |CELLSNET-45624|Özel bir tarih özelliğinin kaydedilmesi, yanlış zamanın yazılmasına neden olur|Böcek|
-|CELLSNET-45617|Bir XLS dosyası yüklenip kaydedildikten sonra sütun genişliği değişiyor|Böcek|
+|CELLSNET-45617|Bir XLS dosyasını yükleyip kaydettikten sonra sütun genişliği değişiyor|Böcek|
 |CELLSNET-45616|Daire grafiği ve Sütun grafiği, yeniden yüklendikten ve yeniden kaydedildikten sonra önemli ölçüde değişir|Böcek|
 |CELLSNET-45613|Workbook.RemoveUnusedStyles, Tablo stillerinde beklendiği gibi çalışmıyor|Böcek|
 |CELLSNET-45598|Akıllı İşaretleyiciler: Atlamalı birden çok grup, genel toplam satırla çakışır|Böcek|
@@ -110,8 +110,8 @@ VBA projesinin tasarımcı depolamasını alır ve ayarlar.
 #### **Kullanım Örnekleri**
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
-- [Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleyin](/cells/tr/net/add-pdf-bookmarks-with-named-destinations/)
-- [PDF'ye dönüştürürken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin](/cells/tr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Adlandırılmış Hedeflerle PDF Yer İmleri Ekle](/cells/tr/net/add-pdf-bookmarks-with-named-destinations/)
+- [PDF'e işlenirken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin](/cells/tr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [VBA Macro UserForm DesignerStorage'ı Şablondan Hedef Çalışma Kitabına Kopyalayın](/cells/tr/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Oluştur Kaldır ve GridCell Yorumları Al](/cells/tr/net/create-remove-and-get-gridcell-comments/)
 - [Şekli Çalışma Sayfasının Önüne veya Arkasına Gönder](/cells/tr/net/send-shape-front-or-back-inside-the-worksheet/)

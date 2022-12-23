@@ -30,7 +30,7 @@ HTML5 Spreadsheet Editor puede abrir archivos en los siguientes formatos:
 - XLSM
 - XLSB
 - XLTX
-- Hoja de cálculoML
+- SpreadsheetML
 - CVS
 - Abrir documento
 ### **Abrir archivos locales**
@@ -86,7 +86,7 @@ El archivo se abrirá en el editor.
 
 **Carga y descarga**
 
- El método***LoaderService.fromInputStream*** lee el***Flujo de entrada*** proporcionado por fileUpload***componente*** crear instancia de***com.aspose.cells.Workbook*** clase. Esta instancia se mantiene en la memoria siempre que el usuario siga viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario sale del editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener limpio el servidor.
+ El método***LoaderService.fromInputStream*** lee el***Flujo de entrada*** proporcionado por fileUpload***componente*** crear instancia de***com.aspose.cells.Workbook***clase. Esta instancia se mantiene en la memoria siempre que el usuario siga viendo o editando la hoja de cálculo en el navegador web. Cuando el usuario sale del editor o cierra el navegador, las instancias no utilizadas se descargan automáticamente de la memoria para mantener limpio el servidor.
 
 
 
@@ -270,7 +270,7 @@ Para abrir archivos desde Dropbox:
 1.  Hacer clic**Abrir desde Dropbox** para abrir el selector de archivos de Dropbox.
 1. Si aún no ha iniciado sesión, se le pedirá que inicie sesión en su cuenta de Dropbox.
 1. Navegue hasta el archivo deseado y haga clic para seleccionarlo.
-1.  Hacer clic**Elegir** en el fondo.
+1.  Hacer clic**Escoger** en el fondo.
 
 Su archivo seleccionado se abrirá desde Dropbox.
 
@@ -278,9 +278,9 @@ Su archivo seleccionado se abrirá desde Dropbox.
 
 **¿Cómo funciona?**
 
- los**Abrir desde Dropbox** usos del botón**Selector de JavaScript de Dropbox API**para abrir el cuadro de diálogo Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturado por la función de devolución de llamada y enviado de vuelta al servidor. El servidor crea una instancia de hoja de cálculo a partir de la URL, inicializa algunas cosas de limpieza y envía actualizaciones de DOM al navegador. El navegador procesa y actualiza el HTML y el usuario está listo para editar el documento cargado.
+ Él**Abrir desde Dropbox** usos del botón**Selector de JavaScript de Dropbox API** para abrir el cuadro de diálogo Selector de Dropbox. El Selector proporciona la URL del archivo seleccionado, que es capturado por la función de devolución de llamada y enviado de vuelta al servidor. El servidor crea una instancia de hoja de cálculo a partir de la URL, inicializa algunas cosas de limpieza y envía actualizaciones de DOM al navegador. El navegador procesa y actualiza el HTML y el usuario está listo para editar el documento cargado.
 ### **Abrir desde URL**
- Los archivos se pueden abrir directamente desde las URL. Esto permite al usuario editar cualquier archivo disponible públicamente en Internet. Para abrir el archivo anexar**?url=ubicación** parámetro con el valor de su deseado**ubicación** mientras se carga el editor. Por ejemplo:
+ Los archivos se pueden abrir directamente desde las URL. Esto permite al usuario editar cualquier archivo disponible públicamente en Internet. Para abrir el archivo anexar**?url=ubicación** parámetro con el valor de su deseado**localización** mientras se carga el editor. Por ejemplo:
 
 {{< highlight "java" >}}
 
@@ -294,15 +294,15 @@ Su archivo seleccionado se abrirá desde Dropbox.
 
 **Instanciar durante el inicio**
 
- Cuando**Vista de hoja de trabajo** El backend bean es instanciado por JSF el**PostConstrucción** método**en eso** se llama, que carga la hoja de cálculo mediante LoaderService.fromUrl.
+ Cuándo**Vista de hoja de trabajo** El backend bean es instanciado por JSF el**PostConstrucción** método**en eso** se llama, que carga la hoja de cálculo mediante LoaderService.fromUrl.
 
 **almacenamiento en caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache**uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+ El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. Él**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
 
 **actualizaciones de DOM**
 
-Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se utilizan para generar un nuevo HTML y enviar actualizaciones DOM al usuario que son procesadas por el navegador web.
+Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se usan para generar un nuevo HTML y enviar actualizaciones de DOM al usuario que son procesadas por el navegador web.
 
 
 
@@ -517,11 +517,11 @@ El editor cerrará la hoja de cálculo abierta, si la hay, y abrirá una nueva.
 
 **almacenamiento en caché**
 
- El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. los**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache**uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
+ El almacenamiento en caché se produce justo después de cargar la hoja de cálculo. Él**Servicio de cargador** llamadas**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** y**LoaderService.buildRowHeightCache** uno por uno para almacenar en caché el contenido de la hoja de cálculo y mantener todas las operaciones rápidas y fluidas.
 
 **actualizaciones de DOM**
 
-Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se utilizan para generar un nuevo HTML y enviar actualizaciones DOM al usuario que son procesadas por el navegador web.
+Cuando la hoja de cálculo está lista en el lado del servidor, los componentes JSF se usan para generar un nuevo HTML y enviar actualizaciones de DOM al usuario que son procesadas por el navegador web.
 
 
 
@@ -704,8 +704,8 @@ El archivo modificado se exportará para su descarga. Los siguientes formatos so
 - Excel XLSM
 - Excel XLSB
 - Excel XLTX
-- Excel XL™
-- Hoja de cálculoML
+- Excel XLTM
+- SpreadsheetML
 - Formato de documento portátil (PDF)
 - Hoja de cálculo OpenDocument (ODS)
 

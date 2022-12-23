@@ -34,12 +34,12 @@ url: /de/net/aspose-cells-for-net-5-1-4-release-notes/
 
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
-|20247 | ODS| Fehler in der Formel, wenn ich als ODS speichere|
+|20247 |ODS | Fehler in Formel beim Speichern als ODS|
 |18357 | Pdf| Konvertierungsproblem bei TORTEN-Diagrammen|
-|18925 | Pdf| Ausgabe Konvertieren Sie Excel in PDF|
+|18925 | Pdf| Geben Sie Convert Excel in PDF aus|
 |19883 | Pdf| Fehler beim Auslösen der Objektreferenz nicht gefunden|
 |20011 | Pdf| Seitenumbrüche mit leerer Seite funktionieren nicht|
-|20057 | Pdf| Problem bei der Konvertierung von Excel in PDF|
+|20057 | Pdf| Konvertierungsproblem von Excel zu PDF|
 |20070 | Pdf| Multibyte-Schriftart|
 |20071 | Pdf| Farbe der Multibyte-Schrift|
 |20450 | Pdf| Ungültiger Zeilenindex|
@@ -50,8 +50,8 @@ url: /de/net/aspose-cells-for-net-5-1-4-release-notes/
 |20721 | PivotTable| Die Eingabezeichenfolge hatte nicht das richtige Format|
 |20228 | Sheet2Image| RLE-Komprimierung, die zu bitonalen TIFFs führt|
 |20574 | Sheet2Image| Die Funktion „In Bild speichern“ ist nicht korrekt formatiert|
-|20181 | SpreadsheetML| Eine Zelle, die die Hyperlink-Funktion verwendet, löst eine Ausnahme aus|
-|20519 | SpreadsheetML| Excel 2007-Inhalt konnte nicht als XML abgerufen werden|
+|20181 |SpreadsheetML | Eine Zelle, die die Hyperlink-Funktion verwendet, löst eine Ausnahme aus|
+|20519 |SpreadsheetML | Excel 2007-Inhalt konnte nicht als XML abgerufen werden|
 |20055 | XLs| Formel enthält '\r'|
 |20152 | XLs| Wählen Sie Funktion wird nach dem Einfügen von Zeilen nicht korrekt ausgewertet|
 |20168 | XLs| Neuberechnung von benutzerdefinierten VBA-Funktionen|

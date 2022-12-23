@@ -6,13 +6,13 @@ url: /ar/java/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، تحتاج إلى معرفة الموضع المطلق للشكل في ورقة العمل. يوفر Aspose.Cells ملف[**Shape.getLeftToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) و[**Shape.getTopToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) خصائص لهذا الغرض. ترجع هذه الخصائص الموضع المطلق لشكل في ورقة عمل بالبكسل.
+ في بعض الأحيان ، تحتاج إلى معرفة الموضع المطلق للشكل في ورقة العمل. يوفر Aspose.Cells ملف[**Shape.getLeftToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) و[**Shape.getTopToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) خصائص لهذا الغرض. ترجع هذه الخصائص الموضع المطلق لشكل في ورقة عمل بالبكسل.
 
 {{% /alert %}}
 
 ## **شرح خصائص Shape.getLeftToCorner () و Shape.getTopToCorner ()**
 
- توضح لقطة الشاشة هذه المسافات[**Shape.getLeftToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) و[**Shape.getTopToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)قياس الخصائص.
+توضح لقطة الشاشة هذه المسافات[**Shape.getLeftToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) و[**Shape.getTopToCorner ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)قياس الخصائص.
 
 **قياس الموقف المطلق**
 

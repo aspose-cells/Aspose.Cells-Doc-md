@@ -33,8 +33,8 @@ Vi är
 
 - Cells.importCustomObjects() med specificerat DateTime-format fungerar inte
 - Fel diagramTyp av punktdiagram
-- Dubbelt värde förlorar precision vid läsning från CSV-mallfil
+- Dubbelt värde förlorar precision vid läsning från CSV mallfil
 - Diagramserien vänds upp och ner när den konverterades till en bild
-- Återsparad XLSX-fil orsakar felet "Excelfound oläsbart innehåll...".
+- Återsparad XLSX-fil orsakar felet "Excelfound oläsbart innehåll..."
 - Sparad pivottabell orsakade "ProtectionView" när den öppnades i MS Excel
-- Genom att använda listvalidering av Aspose.Cellscreates en XLS-fil som inte fungerar efter att ha ändrat systemets listseparator
+- Att använda listvalidering av Aspose.Cellscreates en XLS-fil som inte fungerar efter att ha ändrat systemets listseparator

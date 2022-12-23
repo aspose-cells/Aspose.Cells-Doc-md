@@ -4,15 +4,15 @@ type: docs
 weight: 40
 url: /it/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 ---
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSCPP-35|Lettura/scrittura formato file XLSM|Nuova caratteristica|
-|CELLSCPP-36|Lettura/scrittura formato file CSV|Nuova caratteristica|
-|CELLSCPP-37|Lettura/scrittura formato file XLSB|Nuova caratteristica|
+|CELLSCPP-35|Lettura/Scrittura formato file XLSM|Nuova caratteristica|
+|CELLSCPP-36|Lettura/Scrittura formato file CSV|Nuova caratteristica|
+|CELLSCPP-37|Lettura/Scrittura formato file XLSB|Nuova caratteristica|
 |CELLSCPP-38|Creare e manipolare intervalli denominati|Nuova caratteristica|
 |CELLSCPP-39|Lettura/scrittura Formato di file delimitato da tabulazioni|Nuova caratteristica|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Rimuove il metodo IPageSetup::GetDraft()/SetDraft()**
 Utilizzare invece il metodo IPageSetup::GetPrintDraft()/SetPrintDraft().
 #### **Rimuove il metodo ICell::GetConditionalIStyle()**

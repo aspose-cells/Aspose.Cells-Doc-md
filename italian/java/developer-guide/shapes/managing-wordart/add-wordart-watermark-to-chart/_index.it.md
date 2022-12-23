@@ -26,6 +26,6 @@ Nell'esempio seguente viene illustrato come aggiungere una forma WordArt come fi
 
 ![cose da fare:immagine_alt_testo](add-wordart-watermark-to-chart_2.png)
 
-### Codice Java per aggiungere WordArt Watermark ai grafici
+### Java codice per aggiungere WordArt Watermark ai grafici
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddWordArtWatermarkToChart-AddWordArtWatermarkToChart.java" >}}

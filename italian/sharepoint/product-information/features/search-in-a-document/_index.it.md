@@ -6,10 +6,10 @@ url: /it/sharepoint/search-in-a-document/
 ---
 Aspose.Cells for SharePoint supporta le ricerche nei documenti archiviati nei siti di SharePoint. Aspose.Cells per Share Point supporta i seguenti formati di input per l'anteprima dei documenti:
 
-- XLS-Microsoft Excel 97 - 2003
-- XLSX: Office Open XML
-- XLSM, XLTX, XLTM: Office Open XML
-- XML - Foglio di calcolo Microsoft ExcelML
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Ufficio OpenXML
+- XLSM, XLTX, XLTM – Office Open XML
+- XML - Microsoft Excel SpreadsheetML
 
 Per cercare in un documento:
 

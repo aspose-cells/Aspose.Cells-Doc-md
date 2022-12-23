@@ -18,6 +18,6 @@ url: /ar/net/showing-cell-range-as-the-data-labels/
 1.  يختار**تنسيق تسميات البيانات**. يتم عرض خيارات التسمية.
 1.  حدد أو امسح الخيار**يحتوي الملصق على - القيمة من Cells**.
 
- يصل نموذج التعليمة البرمجية أدناه إلى تسميات بيانات سلسلة التخطيط ويعين ملف[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) الملكية ل**حقيقي** لتحديد ال**يحتوي الملصق على - القيمة من Cells** اختيار.
+ يصل نموذج التعليمة البرمجية أدناه إلى تسميات بيانات سلسلة التخطيط ويعين ملف[**DataLabels.ShowCellRange**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/showcellrange) ملكية ل**حقيقي** لتحديد ال**يحتوي الملصق على - القيمة من Cells** اختيار.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ShowCellRangeAsDataLabels-ShowCellRangeAsDataLabels.cs" >}}

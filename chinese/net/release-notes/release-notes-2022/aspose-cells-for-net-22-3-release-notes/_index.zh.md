@@ -22,17 +22,17 @@ url: /zh/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50462|回归：复制单元格范围后公式丢失|
 |CELLSNET-50545|条件格式的字段未以正确的颜色着色|
 |CELLSNET-50565|公式计算不正确|
-|CELLSNET-50309|PNG 范围：输出不符合预期|
-|CELLSNET-50334|回归：XLS 到 PDF：标题未正确呈现|
-|CELLSNET-50367|将 .XLSX 转换为 PDF 需要很长时间并且会产生额外的页面|
+|CELLSNET-50309|范围到 PNG：输出不符合预期|
+|CELLSNET-50334|回归：XLS 到 PDF：标头未正确呈现|
+|CELLSNET-50367|将 .XLSX 转换为 PDF 需要很长时间并产生额外的页面|
 |CELLSNET-50401|结果 pdf 中看不到数字值或数字后跟行项目|
 |CELLSNET-50478|Workbook.ExportXml 仅返回表数据的第一行|
 |CELLSNET-50507|Xml 导入取消隐藏模板中以前隐藏的列|
-|CELLSNET-50554|在 Excel 到 PDF 的转换中，内容未正确呈现|
-|CELLSNET-50316|生成 PDF 时，环绕文本不适用于图表|
-|CELLSNET-50411|图表的水平轴标签在输出 PDF 中未正确呈现|
+|CELLSNET-50554|内容未在 Excel 中正确呈现为 PDF 转换|
+|CELLSNET-50316|生成 PDF 时，换行文本在图表上不起作用|
+|CELLSNET-50411|图表的水平轴标签在输出中未正确呈现 PDF|
 |CELLSNET-50341|折叠和展开多级组的问题|
-|CELLSNET-50368|ODS 到 PDF 的转换不正确|
+|CELLSNET-50368|ODS 到 PDF 转换不正确|
 |CELLSNET-50377|XLS 文件中未应用自定义“文本”格式|
 |CELLSNET-50380|ImportTableOptions.IsHtmlString 属性未正确输出链接|
 |CELLSNET-50418|在工作簿中加载 HTML 不起作用|

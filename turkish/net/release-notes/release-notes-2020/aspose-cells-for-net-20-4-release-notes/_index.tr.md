@@ -12,11 +12,11 @@ url: /tr/net/aspose-cells-for-net-20-4-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-47276|XLSX'ten CSV'ye, boş hücreler için gerekli virgüller MS Excel'e benzer|Yeni özellik|
+|CELLSNET-47276|XLSX - CSV, boş hücreler için gerekli virgüller MS Excel'e benzer|Yeni özellik|
 |CELLSNET-47054|Bir aralık olarak birden çok hücrenin birleştirilmesini destekleyin|Yeni özellik|
 |CELLSNET-47091|PowerQueryFormulaItems kaynak alanını güncelleme seçeneği|Yeni özellik|
 |CELLSNET-47273|Grafik kategorisi ekseni için Latin metin yazı tipini ve Asya metin yazı tipini ayarlayın|Artırma|
-|CELLSNET-47217|ODS'nin veri çubuğu, renk ölçeği ve simge seti koşullu biçimlendirmelerini destekleyin.|Artırma|
+|CELLSNET-47217|ODS veri çubuğu, renk ölçeği ve simge seti koşullu biçimlendirmelerini destekler.|Artırma|
 |CELLSNET-47201|Aspose.Cells.GridDesktop kullanarak parola korumalı dosyayı açın|Artırma|
 |CELLSNET-47254|Formül çubuğuna MS-EXCEL'deki gibi yeni satır girme desteği|Artırma|
 |CELLSNET-47224|Canlandırıcı pivotların performansını iyileştirin.|Verim|
@@ -24,32 +24,32 @@ url: /tr/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47289|CalculateFormula() asla geri dönmez|Verim|
 |CELLSNET-47263|Çalışma Kitabı oluşturucusunda ODP belgesini açmaya çalışırken asılı kalıyor|Verim|
 |CELLSNET-42556|PivotField sıralaması çalışmıyor gibi görünüyor|Böcek|
-|CELLSNET-47046|Oluşturulan HTML biçimlendirmesinde IMG HTML özniteliklerinde açılmamış alıntı sınırlayıcıları|Böcek|
+|CELLSNET-47046|Oluşturulan HTML işaretlemesinde IMG HTML özniteliklerinde açılmamış alıntı sınırlayıcıları|Böcek|
 |CELLSNET-47208|Pivot tablo, formatı en son sürümle tutmuyor|Böcek|
 |CELLSNET-47219|Bir satırın eklenmesi ve yenilenmesinden sonra tablo sütununda yanlış formül|Böcek|
-|CELLSNET-47261|Excel'den HTML'ye dönüştürme - dışa aktarılan bir tabloda yanlış yazı tipi boyutu|Böcek|
-|CELLSNET-47279|Dosya HTML'ye dışa aktarılırken tüm satırlardaki ilk sütun metni alt komut dosyası değildir|Böcek|
+|CELLSNET-47261|Excel'den HTML'e dönüştürme - dışa aktarılan bir tabloda yanlış yazı tipi boyutu|Böcek|
+|CELLSNET-47279|Dosya HTML'e aktarılırken tüm satırlardaki ilk sütun metni alt komut dosyası değildir|Böcek|
 |CELLSNET-47163|Sütun ekleme ve Güncelleme Referansı ile ilgili sorun|Böcek|
 |CELLSNET-47244|Formüller (MROUND, MIN) doğru hesaplanmamış|Böcek|
 |CELLSNET-47250|Yinelenenleri kaldır, yalnızca columnOffsets parametresi belirtilirken ilk sütun için çalışır|Böcek|
 |CELLSNET-47267|Şablon dosyasında formüller hesaplanmaz|Böcek|
 |CELLSNET-47268|TrimLeadingBlankRowAndColumn tutarsızlığı|Böcek|
-|CELLSNET-47269|XLSX'ten CSV'ye dönüştürme - çıktıda virgül eksik|Böcek|
+|CELLSNET-47269|XLSX - CSV dönüştürme - çıktıda virgül eksik|Böcek|
 |CELLSNET-47200|Gizli sayfayı etkin sayfa olarak ayarlarken gezinti düğmelerinde çakışma sorunu|Böcek|
 |CELLSNET-47274|Arka plan resmi GridWeb'de ayarlanmadı|Böcek|
 |CELLSNET-47179|Bouncy Castle lib ile VBA imzası|Böcek|
-|CELLSNET-47258|Sayfadan TIFF'e dönüştürmede barkod görüntüleriyle ilgili sorun|Böcek|
+|CELLSNET-47258|Sheet to TIFF rendering'de barkod resimleriyle ilgili sorun|Böcek|
 |CELLSNET-47216|PowerQueries, Kaynak değişiminden sonra gitti|Böcek|
-|CELLSNET-47241|Yazı tipi stilini ayarlarken ve kaydederken ODS dosyası bozuluyor|Böcek|
+|CELLSNET-47241|ODS yazı tipi stilini ayarlarken ve kaydederken dosya bozuluyor|Böcek|
 |CELLSNET-47252|Metin olarak hücre değeri ekleyen Sayısal Akıllı İşaretleyici|Böcek|
 |CELLSNET-47262|%100 Yığılmış Çubuk ve ana ünite ve küçük ünite ile ilgili sorun|Böcek|
-|CELLSNET-47271|Katıştırılmış visio ile XLSX'i kaydetmek dosyayı bozuyor|Böcek|
-|CELLSNET-47282|Aspose.Cells 20.3: XLSB'den XLS'ye Dönüştürme Sorunu|Böcek|
+|CELLSNET-47271|XLSX'i katıştırılmış visio ile kaydetmek dosyayı bozuyor|Böcek|
+|CELLSNET-47282|Aspose.Cells 20.3: XLSB - XLS Dönüştürme Sorunu|Böcek|
 |CELLSNET-47291|Excel dosyasından okunan yanlış madde işareti karakteri|Böcek|
 |CELLSNET-47096|SplitterPane ile GridDesktop formül çubuğuyla ilgili sorun|Böcek|
 |CELLSNET-47247|Cell.R1C1Formula çağrıldığında ortaya çıkan istisna|İstisna|
 |CELLSNET-47235|NullPointerException ne zaman yenilemePivotData|İstisna|
-|CELLSNET-47246|Bir Excel dosyasını PDF'ye kaydederken "Kapalı bir Akışa erişilemiyor" istisnası|İstisna|
+|CELLSNET-47246|Bir Excel dosyasını PDF'e kaydederken "Kapalı bir Akışa erişilemiyor" istisnası|İstisna|
 |CELLSNET-47086|Bir grafik oluşturulurken bir istisna atılır|İstisna|
 |CELLSNET-47242|Dosya yüklenirken FormatException|İstisna|
 |CELLSNET-47266|Tüm ekli dosyalar yüklenirken "Bağımsız değişken dizini dizi aralığının dışında" istisnası|İstisna|
@@ -62,8 +62,8 @@ Bunun yerine ChartTextFrame.ReadingOrder özelliğini kullanın.
 #### **Düzeltmelerin geliştirilmiş özelliği için sınıflar ekler.**
 Revizyon bilgilerini alır.
 #### **TxtSaveOptions.TrimLeadingBlankRowAndColumn özelliğinin varsayılan değerini değiştirir.**
-CSV'yi kaydetmenin varsayılan davranışını ms excel ile aynı yapmak için, bu özelliğin varsayılan değerini ve davranışını değiştirdik. Eski sürümler için varsayılan değeri " idi.**yanlış**". 20.4'ten itibaren, varsayılan değeri " olur**doğru**".
-#### **CSV'yi kaydetmek için boş satırları/sütunları algılama davranışını değiştirir.**
+CSV kaydetme varsayılan davranışını ms excel ile aynı yapmak için, bu özelliğin varsayılan değerini ve davranışını değiştirdik. Eski sürümler için varsayılan değeri " idi.**YANLIŞ**". 20.4'ten itibaren, varsayılan değeri " olur**doğru**".
+#### **CSV'i kaydetmek için boş satırları/sütunları algılama davranışını değiştirir.**
 Eski sürümler için, veri içermeyen ancak özel ayarları (görünürlük, biçimlendirme, ...vb.) olan satırları/sütunları boş olarak aldık. 20.4'ten itibaren artık onları boş kabul etmiyoruz, yeni davranış ms excel ile aynı.
 #### **TxtSaveOptions.ExportArea özelliğini ekler.**
 Dışa aktarılacak hücre verilerinin aralığını belirtir. Kullanıcılar, TxtSaveOptions.TrimLeadingBlankRowAndColumn ve boş satırların/sütunların değişen davranışı için eski sürümlerle aynı sonucu elde etmek için bu seçeneği kullanabilir.

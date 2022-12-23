@@ -26,7 +26,7 @@ Aspose.Cells for Java prend en charge tout système d'exploitation qui exécute 
 ### **Mac**
 - Mac OS X etc...
 ## **Versions Java prises en charge**
-Aspose.Cells for Java prend en charge les versions Java suivantes :
+Aspose.Cells for Java prend en charge les versions Java suivantes :
 
 - J2SE 6.0 (1.6)
 - J2SE 7.0 (1.7)

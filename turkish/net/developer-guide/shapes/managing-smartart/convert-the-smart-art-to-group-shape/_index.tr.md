@@ -12,7 +12,7 @@ Smart Art Shape'i kullanarak Grup Shape'e dönüştürebilirsiniz.[**Shape.GetRe
 
 Aşağıdaki örnek kod,[örnek excel dosyası](55541793.xlsx)bu ekran görüntüsünde gösterildiği gibi bir akıllı sanat şekli içeren. Daha sonra akıllı resim şeklini grup şekline dönüştürür ve Shape.IsGroup özelliğini yazdırır. Lütfen aşağıda verilen örnek kodun konsol çıktısına bakın.
 
-![yapılacaklar:resim_alternatif_Metin](convert-the-smart-art-to-group-shape_1.png)
+![yapılacaklar:resim_alternatif_metin](convert-the-smart-art-to-group-shape_1.png)
 
 ## **Basit kod**
 

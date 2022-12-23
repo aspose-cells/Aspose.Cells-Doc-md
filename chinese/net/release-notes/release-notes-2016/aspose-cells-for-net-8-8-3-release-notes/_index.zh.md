@@ -28,7 +28,7 @@ url: /zh/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44467 |当 HTML 具有嵌套的“div”元素时，无法将所有 HTML 内容导出到 Excel|漏洞|
 |CELLSNET-44490 |自定义时间格式问题|漏洞|
 |CELLSNET-44201 |关于 CHAR 公式中不支持的字符索引的问题|漏洞|
-|CELLSNET-44521 |转换为 PDF 会产生 2 个 PDF 页面，而不是 Excel 的打印预览|漏洞|
+|CELLSNET-44521 |转换为 PDF 导致 2 PDF 页，而不是 Excel 的打印预览|漏洞|
 |CELLSNET-44489 |Excel 到 PDF 的转换 - 对齐字符及其格式丢失|漏洞|
 |CELLSNET-44481 |Excel 到 PDF 呈现 - 分页位置已更改|漏洞|
 |CELLSNET-44531 |Aspose.Cells 在会话 1 和会话 0 中将相同的工作表呈现为不同大小的图像|漏洞|
@@ -36,20 +36,20 @@ url: /zh/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44433 |呈现的图像与原始图表不同|漏洞|
 |CELLSNET-44074 |将图表导出到图像时图表上出现不必要的线条|漏洞|
 |CELLSNET-44012 |图表图像与来源不同|漏洞|
-|CELLSNET-40572 |图表区域在转换为 PDF 时变得乱码 .NET|漏洞|
-|CELLSNET-44536 | Aspose.Cells 错误识别图表标题的字体大小|漏洞|
+|CELLSNET-40572 |转换为 PDF .NET 时图表区域变得乱码|漏洞|
+|CELLSNET-44536 |Aspose.Cells 错误识别图表标题的字体大小|漏洞|
 |CELLSNET-44522 |将文本设置为模板文件中的形状。|漏洞|
 |CELLSNET-44519 |将二维数组导入表中后，表中的引用被破坏|漏洞|
 |CELLSNET-44511 |在对文件进行一些操作后，表中的引用被破坏|漏洞|
 |CELLSNET-44508 |输出 PDF 中的页面大小与 Excel 不同|漏洞|
 |CELLSNET-44507 |Shape.GetCharacters() 方法的问题|漏洞|
 |CELLSNET-44505 |Cell 验证不能正确使用 INDIRECT 函数|漏洞|
-|CELLSNET-44498 |将电子表格转换为具有土耳其语区域设置的 PDF 时，标题行不会重复|漏洞|
-|CELLSNET-44496 |OTT 被检测为 ODS|漏洞|
+|CELLSNET-44498 |当电子表格转换为土耳其语区域设置的 PDF 时，标题行不会重复|漏洞|
+|CELLSNET-44496 |OTT被检测为ODS|漏洞|
 |CELLSNET-44494 | TextBox.IsFilled 设置为 false 但在 OpenOffice 中查看 ODS 时填充显示为浅蓝色|漏洞|
 |CELLSNET-44488 |shape.UpdateSelectedValue 后文件损坏|漏洞|
 |CELLSNET-44329 |Excel 文件中选定或未选定单元格的不同保存 Pdf 文件页面大小|漏洞|
-|CELLSNET-44271 |ODS 到 PDF：前 2 页包含蓝色阴影|漏洞|
+|CELLSNET-44271 |ODS 至 PDF：前 2 页包含蓝色阴影|漏洞|
 |CELLSNET-44172 |在跨 8.6.1 和 8.6.3 的数据透视表中使用时智能标记处理的行为发生变化|漏洞|
 |CELLSNET-44493 |ArgumentException：调整表单控件大小时参数无效|漏洞|
 |CELLSNET-44528 |PivotTable.CalculateData 上的 ArgumentOutOfRangeException|例外|

@@ -11,7 +11,7 @@ Diese erste Version des Moduls ist mit den folgenden coolen Funktionen angereich
 
 - Benutzer in Microsoft Excel-Dokumente exportieren (.xls, .xlsx und .xlsb)
 - Benutzer in ein tabulatorgetrenntes Textdokument (*.txt) exportieren
-- Exportieren von Benutzern in CSV (kommagetrennt) (*.csv)
+- Benutzer nach CSV exportieren (kommagetrennt) (*.csv)
 - Benutzer nach OpenDocument Spreadsheet (*.ods) exportieren
 - Option zur Auswahl des gewünschten Ausgabeformats vor dem Export.
 - Option zum Exportieren aller oder ausgewählter Benutzer in das ausgewählte Ausgabedokumentformat.
@@ -40,23 +40,23 @@ Führen Sie nach dem Herunterladen die folgenden Schritte aus, um das Modul auf 
 1.  Navigieren Sie zu**Gastgeber** Menü und auswählen**Erweiterungen**.
 1.  Klicken**Erweiterungsassistent installieren**.
 1. Navigieren Sie wie angegeben zum Speicherort der heruntergeladenen ZIP-Datei, wählen Sie sie aus und klicken Sie darauf**Offen**.
-1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Taste.
+1.  Klicken**Nächste** , akzeptieren Sie die Lizenz, fahren Sie mit der Installation fort. Wenn Sie fertig sind, klicken Sie auf**Zurückkehren** Knopf.
 
- Bitte prüfen[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
+ Bitte prüfe[dieses Modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) von DNN für weitere Einzelheiten.
 ## **Verwenden**
 Nachdem Sie das Modul Aspose .NET Cells Benutzer und Rollen exportieren für DNN installiert haben, ist es wirklich einfach, es auf Ihrer Website zu verwenden. Bitte befolgen Sie diese einfachen Schritte, um loszulegen:
 
 1. Stellen Sie sicher, dass Sie mit einem Konto auf Host- oder Admin-Ebene bei DNN angemeldet sind.
 1. Navigieren Sie zu der Seite, auf der Sie das Exportmodul hinzufügen möchten.
-1.  Auswählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
+1.  Wählen**Module** gefolgt von**Neues Modul hinzufügen** vom oberen Band.
 
 1. Wählen Sie aus der Liste „Aspose Benutzer und Rollen nach Excel exportieren“ und ziehen Sie es an die gewünschte Position.
 
 Sie haben das Modul Aspose .NET Benutzer und Rollen nach Excel für DNN exportieren erfolgreich zu Ihrer Seite hinzugefügt. Alle dnn-Benutzer werden im Raster sichtbar und Sie können Benutzer zum Exportieren auswählen und auf die Schaltfläche „Exportieren“ klicken, nachdem Sie das gewünschte Ausgabeformat aus der Dropdown-Liste ausgewählt haben. Die gewünschte Datei wird automatisch heruntergeladen.
 ## **Video-Demo**
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=fq8xh2uE2gc) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=fq8xh2uE2gc) unten, um das Modul in Aktion zu sehen.
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.

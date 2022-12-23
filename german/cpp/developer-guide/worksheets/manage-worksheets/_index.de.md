@@ -17,7 +17,7 @@ Entwickler können mit Aspose.Cells flexible API problemlos Arbeitsblätter in M
 So erstellen Sie programmgesteuert eine neue Excel-Datei:
 
 1.  Erstellen Sie ein Objekt der[IArbeitsblatt](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)Klasse.
-1.  Ruf den[Hinzufügen](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#aa2bb166f57a4d8eba8e25ce1f99d0c55) Methode der[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) Sammlung. Der Excel-Datei wird automatisch ein leeres Arbeitsblatt hinzugefügt. Es kann darauf verwiesen werden, indem der Blattindex des neuen Arbeitsblatts an die übergeben wird[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)Sammlung.
+1.  Ruf den ... an[Addieren](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#aa2bb166f57a4d8eba8e25ce1f99d0c55) Methode der[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) Sammlung. Der Excel-Datei wird automatisch ein leeres Arbeitsblatt hinzugefügt. Es kann darauf verwiesen werden, indem der Blattindex des neuen Arbeitsblatts an die übergeben wird[IWorksheetCollection](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)Sammlung.
 1. Besorgen Sie sich eine Arbeitsblattreferenz.
 1. Bearbeiten Sie die Arbeitsblätter.
 1.  Speichern Sie die neue Excel-Datei mit neuen Arbeitsblättern, indem Sie die aufrufen[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) Klasse[Speichern](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)Methode.

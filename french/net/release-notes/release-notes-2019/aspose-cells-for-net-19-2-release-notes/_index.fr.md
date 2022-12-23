@@ -10,22 +10,22 @@ url: /fr/net/aspose-cells-for-net-19-2-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46582|Prise en charge de la propriété Range.Hyperlinks|Nouvelle fonctionnalité|
 |CELLSNET-46534|Int32 peut être petit pour l'attribut Cells.count|Renforcement|
-|CELLSNET-46552|Différencier le XLSX chiffré du PPTX chiffré et du DOCX chiffré|Renforcement|
+|CELLSNET-46552|Différenciez le XLSX chiffré du PPTX chiffré et du DOCX chiffré|Renforcement|
 |CELLSNET-46568|Définition du style de graphique à moustaches|Renforcement|
 |CELLSNET-46573|Remplacez les caractères invalides par des symboles appropriés tels que des crochets|Renforcement|
 |CELLSNET-46581|Ouvrir/enregistrer supprime le texte alternatif du tableau|Renforcement|
 |CELLSNET-46584|Problème de performances avec les API Aspose.Cells|Performance|
 |CELLSNET-46556|Le texte de TextBox est coupé|Punaise|
-|CELLSNET-46565|Les pictogrammes ne sont pas visibles dans le PDF de sortie dans le rendu Excel vers PDF|Punaise|
+|CELLSNET-46565|Les pictogrammes ne sont pas visibles dans la sortie PDF dans Excel vers le rendu PDF|Punaise|
 |CELLSNET-46477|La mise en forme conditionnelle dans le tableau croisé dynamique ne fonctionne pas dans une feuille copiée|Punaise|
-|CELLSNET-46547|Contenu manquant dans la conversion HTML vers Excel|Punaise|
+|CELLSNET-46547|Contenu manquant de HTML à la conversion Excel|Punaise|
 |CELLSNET-46566|Fichier XLSX corrompu après l'enregistrement avec les API Aspose.Cells|Punaise|
 |CELLSNET-46572|XLSB est corrompu lors de l'ajout de plus d'un champ de données alors que XLSX fonctionne correctement|Punaise|
-|CELLSNET-46548|Problème NumberValue lors de la conversion de XLSX au format de fichier PDF|Punaise|
+|CELLSNET-46548|Problème NumberValue lors de la conversion du format de fichier XLSX au format PDF|Punaise|
 |CELLSNET-46557|Valeur de cellule erronée calculée par le moteur de calcul de formule Aspose.Cells|Punaise|
 |CELLSNET-46578|Worksheet.AutoFitColumns() ne correspond pas entièrement aux colonnes|Punaise|
 |CELLSNET-46550|Texte des étiquettes foiré lors de la conversion du graphique MS Excel en images|Punaise|

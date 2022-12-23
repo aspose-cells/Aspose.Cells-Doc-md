@@ -13,24 +13,24 @@ url: /tr/java/aspose-cells-for-java-21-8-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42494|CSS bölümünde büyük miktarda kullanılmayan stil oluşturuluyor|
-|CELLSJAVA-43576|XLSX'i PDF'ye dönüştürürken grafik metin değerleri görüntülenmiyor|
-|CELLSJAVA-43483|Bir HTML belgesini Çalışma Kitabına dönüştürürken "em" etiketi içindeki "br" etiketinden sonraki metin vurgulanmaz|
+|CELLSJAVA-43576|XLSX'i PDF'e dönüştürürken grafik metin değerleri görüntülenmiyor|
+|CELLSJAVA-43483|HTML belgesini Çalışma Kitabına dönüştürürken "em" etiketi içindeki "br" etiketinden sonraki metin vurgulanmaz|
 |CELLSJAVA-43526|IllegalArgumentException: Geçersiz sütun dizini|
 |CELLSJAVA-43557|Html olarak kaydederken yanlış renk|
 |CELLSJAVA-43567|Regresyon: MDURATION formülü düzgün hesaplanmamış|
 |CELLSJAVA-43583|Güç operatörü "^" formül hesaplamaları için çalışmıyor|
-|CELLSJAVA-43549|Çıktı PDF'sinde resim eksik|
+|CELLSJAVA-43549|Çıktı PDF'de resim eksik|
 |CELLSJAVA-43566|MacOS Big Sur'daki varsayılan yazı tipleri|
 |CELLSJAVA-42579|Eksen Etiketleri doğru görüntülenmiyor - Excel'i PDF'ye kaydederken Sağ Hizalama eksik|
 |CELLSJAVA-43554|Grafik veri tablosu metni çıktı görüntüsünde gösterilmiyor|
-|CELLSJAVA-43556|XLSX'ten PDF'e: Eksik diyagram başlığı|
+|CELLSJAVA-43556|XLSX - PDF: Eksik şema başlığı|
 |CELLSJAVA-40051|Apple iWork Desteği|
-|CELLSJAVA-43119|PDF'ye Dönüştürme - 2014'ten beri Number3.5 dosya biçimini desteklemez|
+|CELLSJAVA-43119|PDF'e dönüştürme - 2014'ten beri Number3.5 dosya biçimini desteklemez|
 |CELLSJAVA-43538|Verisiz Grafik, Aspose Cells ile kaydettikten sonra XLSX'in bozulmasına neden oluyor|
 |CELLSJAVA-43547|AutoFitRow, çalışma sayfası standart yüksekliğini değiştirir|
 |CELLSJAVA-43591|MS Excel'de açık dosya Aspose.Cells tarafından kaydedildiğinde hata oluştu|
 |CELLSJAVA-43523|Şeklin makro adını okumak için CellsException: Geçersiz formül|
-|CELLSJAVA-43565|LightCells ile XLSB dosyası okunurken "java.lang.ClassCastException"|
+|CELLSJAVA-43565|LightCells ile XLSB dosyasını okurken "java.lang.ClassCastException"|
 |CELLSJAVA-43546|Grafiğin seri adını çıkarırken NullPointerException|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

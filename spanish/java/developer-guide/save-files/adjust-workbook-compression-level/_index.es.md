@@ -6,7 +6,7 @@ url: /es/java/adjust-workbook-compression-level/
 ---
 ## **Ajustar el nivel de compresión del libro**
 
-Los desarrolladores pueden ajustar el nivel de compresión del libro de trabajo cuando trabajan con libros de trabajo más grandes. Los desarrolladores pueden priorizar tamaños de archivo más pequeños sobre el tiempo de procesamiento o viceversa. Aspose.Cells proporciona**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)**enumeración que puede usar para establecer el nivel de compresión del libro de trabajo. los**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** enumeración proporciona los siguientes miembros.
+Los desarrolladores pueden ajustar el nivel de compresión del libro de trabajo cuando trabajan con libros de trabajo más grandes. Los desarrolladores pueden priorizar tamaños de archivo más pequeños sobre el tiempo de procesamiento o viceversa. Aspose.Cells proporciona**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)**enumeración que puede usar para establecer el nivel de compresión del libro de trabajo. Él**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** enumeración proporciona los siguientes miembros.
 
 - **[LEVEL_1](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1)**: La compresión más rápida pero menos efectiva.
 - **[LEVEL_2](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_2)**: Un poco más lento, pero mejor que el nivel 1.

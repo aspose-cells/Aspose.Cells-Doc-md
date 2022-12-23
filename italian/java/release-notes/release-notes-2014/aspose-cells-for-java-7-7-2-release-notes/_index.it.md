@@ -10,8 +10,8 @@ url: /it/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java è stato aggiornato alla versione 7.7.2 e siamo lieti di annunciare che questa versione apporta l'aggiunta di circa 20 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+ Aspose.Cells for Java è stato aggiornato alla versione 7.7.2 e siamo lieti di annunciare che questa versione apporta l'aggiunta di circa 20 nuovi utili miglioramenti.
+Usando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, visualizzare e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for Java.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells for Java.
@@ -40,9 +40,9 @@ Insetti
 (CELLSJAVA-40707) - Alcune colonne sono strette per contenere correttamente il testo
 (CELLSJAVA-40720) - IStreamProvider.setCustomPath non ha effetto sul file tabstrip.htm
 (CELLSJAVA-40729) - Estrazione del problema con data cinese formattata
-(CELLSJAVA-40728) - getStringValue() restituisce #VALORE!
-(CELLSJAVA-40722) - La convalida non funziona dopo la conversione in formato XLS
-(CELLSJAVA-40690) - Da XLSX a PDF: la sottolineatura sotto il collegamento ipertestuale viene estesa alle posizioni dei caratteri adiacenti
+(CELLSJAVA-40728) - getStringValue() restituisce #VALUE!
+(CELLSJAVA-40722) - Convalida non funzionante dopo la conversione nel formato XLS
+(CELLSJAVA-40690) - da XLSX a PDF: la sottolineatura sotto il collegamento ipertestuale viene estesa alle posizioni dei caratteri adiacenti
 
 Eccezioni
 

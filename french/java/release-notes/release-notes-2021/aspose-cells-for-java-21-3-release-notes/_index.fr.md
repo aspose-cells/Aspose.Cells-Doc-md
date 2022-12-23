@@ -10,17 +10,17 @@ url: /fr/java/aspose-cells-for-java-21-3-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43400|Prise en charge de la fonction UNIQUE()|
 |CELLSJAVA-42863|Récupérer le sous-titre du graphique|
 |CELLSJAVA-43401|Prise en charge du résultat de formatage unifié pour l'ère japonaise pour tous les JDK|
-|CELLSJAVA-43398|La mise en forme conditionnelle n'est pas rendue correctement dans la conversion ODS en HTML|
+|CELLSJAVA-43398|La mise en forme conditionnelle n'est pas rendue correctement dans la conversion ODS à HTML|
 |CELLSJAVA-43388|Le fichier de sortie est corrompu après la copie du classeur|
 |CELLSJAVA-43406|Problèmes lors de la conversion de HTML en Excel|
 |CELLSJAVA-43399|CalculateFormula() crée beaucoup de valeurs de type d'erreur #VALUE|
 |CELLSJAVA-43362|Problème de pourcentage pour les étiquettes lors de l'impression des graphiques|
-|CELLSJAVA-43384|Problème de pourcentages pour certaines étiquettes lors du rendu au format PDF et de l'impression de graphiques|
+|CELLSJAVA-43384|Problème de pourcentages pour certaines étiquettes lors du rendu au PDF et de l'impression des graphiques|
 |CELLSJAVA-43402|Générer une image graphique exacte à partir d'un fichier Excel|
 |CELLSJAVA-43408|Le haut du graphique est coupé et la ligne inclinée monte|
 |CELLSJAVA-43412|CellsException dans la conversion xlsx en html|

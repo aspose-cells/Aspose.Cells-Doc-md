@@ -11,7 +11,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.12 per Li
 {{% /alert %}}
 
 Siamo lieti di annunciare il rilascio di Aspose.Cells for C++ 22.12 per Linux.
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-963| Sincronizza le funzionalità con la versione .Net|Supporto|
 

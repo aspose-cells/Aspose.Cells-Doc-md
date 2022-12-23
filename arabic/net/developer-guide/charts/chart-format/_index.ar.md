@@ -41,7 +41,7 @@ url: /ar/net/setting-chart-appearance/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-ApplyingThemes-1.cs" >}}
 ### **تحديد عناوين المخططات أو المحاور**
-يمكنك استخدام Microsoft Excel لتعيين عناوين المخطط ومحاوره في بيئة WYSIWYG. يسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين المخطط ومحاوره في وقت التشغيل. تحتوي جميع المخططات ومحاورها على ملف[عنوان](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)الخاصية التي يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال.
+يمكنك استخدام Microsoft Excel لتعيين عناوين المخطط ومحاوره في بيئة WYSIWYG. يسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين المخطط ومحاوره في وقت التشغيل. تحتوي جميع المخططات ومحاورها على ملف[لقب](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)الخاصية التي يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال.
 
 يوضح مقتطف التعليمات البرمجية التالي كيفية تعيين العناوين للمخططات والمحاور.
 

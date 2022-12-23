@@ -10,7 +10,7 @@ url: /zh/reportingservices/using-data-sources-and-queries-created-in-visual-stud
 
 **EmpSalesDetail RDL 文件** 
 
-![待办事项：图像_替代_文本](using-data-sources-and-queries-created-in-visual-studio_1.png)
+![待办事项：图片_替代_文本](using-data-sources-and-queries-created-in-visual-studio_1.png)
 
 本文介绍如何使用 Aspose.Cells.Report.Designer 中的 RDL 文件。
 
@@ -23,7 +23,7 @@ url: /zh/reportingservices/using-data-sources-and-queries-created-in-visual-stud
 
    **打开报告按钮** 
 
-![待办事项：图像_替代_文本](using-data-sources-and-queries-created-in-visual-studio_2.png)
+![待办事项：图片_替代_文本](using-data-sources-and-queries-created-in-visual-studio_2.png)
 
 
 
@@ -33,4 +33,4 @@ url: /zh/reportingservices/using-data-sources-and-queries-created-in-visual-stud
 
    **可用数据集** 
 
-![待办事项：图像_替代_文本](using-data-sources-and-queries-created-in-visual-studio_3.png)
+![待办事项：图片_替代_文本](using-data-sources-and-queries-created-in-visual-studio_3.png)

@@ -13,15 +13,15 @@ url: /ar/java/configuring-fonts-for-rendering-spreadsheets/
 فيما يلي العملية التي تتبعها واجهات برمجة التطبيقات Aspose.Cells خلف الكواليس.
 
 1. يحاول API العثور على الخطوط في نظام الملفات المطابقة لاسم الخط الدقيق المستخدم في جدول البيانات.
-1.  إذا لم يتمكن API من العثور على الخطوط التي لها نفس الاسم بالضبط ، فإنه يحاول استخدام الخط الافتراضي المحدد ضمن المصنف[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) منشأه.
-1.  إذا كان API لا يمكنه تحديد مكان الخط المعرف ضمن المصنف[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) الخاصية ، يحاول استخدام الخط المحدد ضمن[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) أو[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) منشأه.
-1.  إذا كان API لا يمكنه تحديد مكان الخط المعرف أسفل[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) أو[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) الخاصية ، يحاول استخدام الخط المحدد ضمن[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) منشأه.
+1.  إذا لم يتمكن API من العثور على الخطوط التي لها نفس الاسم بالضبط ، فإنه يحاول استخدام الخط الافتراضي المحدد ضمن المصنف[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) خاصية.
+1.  إذا كان API لا يمكنه تحديد مكان الخط المعرف ضمن المصنف[**DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) الخاصية ، يحاول استخدام الخط المحدد ضمن[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) أو[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) خاصية.
+1.  إذا كان API لا يمكنه تحديد مكان الخط المعرف أسفل[**PdfSaveOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveoptions#DefaultFont) أو[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions#DefaultFont) الخاصية ، يحاول استخدام الخط المحدد ضمن[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) خاصية.
 1.  إذا كان API لا يمكنه تحديد مكان الخط المعرف أسفل[**FontConfigs.DefaultFontName**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs#DefaultFontName) الخاصية ، فهو يحاول تحديد أنسب الخطوط من جميع الخطوط المتاحة.
 1. أخيرًا ، إذا لم يتمكن API من العثور على أي خطوط في نظام الملفات ، فسيتم عرض جدول البيانات باستخدام Arial.
 
 {{% alert color="primary" %}}
 
- تقوم واجهات برمجة التطبيقات Aspose.Cells دائمًا بمسح دليل الخطوط الافتراضي لنظام التشغيل مع استثناء واحد ، وهو ؛ عندما الحجج JVM**-DAspose.Cells.FontDirExc = "YourFontDir"** تم تعيينها. في هذه الحالة ، ستتخطى واجهات برمجة التطبيقات Aspose.Cells فحص دليل الخطوط الافتراضية لنظام التشغيل وستبحث فقط في المسار كما هو محدد في وسيطات JVM المذكورة أعلاه.
+ تقوم واجهات برمجة التطبيقات Aspose.Cells دائمًا بمسح دليل الخطوط الافتراضي لنظام التشغيل مع استثناء واحد ، وهو ؛ عندما الحجج JVM**-DAspose.Cells.FontDirExc = "YourFontDir"**تم تعيينها. في هذه الحالة ، ستتخطى واجهات برمجة التطبيقات Aspose.Cells فحص دليل الخطوط الافتراضية لنظام التشغيل وستبحث فقط في المسار كما هو محدد في وسيطات JVM المذكورة أعلاه.
 
 {{% /alert %}}
 

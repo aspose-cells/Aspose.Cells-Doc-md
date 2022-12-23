@@ -14,7 +14,7 @@ Microsoft Excel (97 - 365) le permite cifrar/proteger con contraseña sus hojas 
 
 En MS Excel (por ejemplo, MS Excel 2003), para implementar la configuración de cifrado de archivos, puede intentar:
 
--  Desde el**Instrumentos** menú, seleccione**Opciones** y, a continuación, seleccione el**Seguridad** pestaña.
+-  Desde el**Herramientas** menú, seleccione**Opciones** y, a continuación, seleccione el**Seguridad** pestaña.
 -  Aporte**Contraseña para abrir** y haga clic en el**Avanzado** botón.
 - Elija el tipo de encriptación y confirme la contraseña.
 

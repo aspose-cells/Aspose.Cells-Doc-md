@@ -10,7 +10,7 @@ Aspose.Cells le permite detener la conversión de Workbook a varios formatos com
 
 ## **Detenga la conversión o la carga con InterruptMonitor cuando tarde demasiado**
 
-El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objeto. El código convierte un archivo de Excel bastante grande a PDF. Tardará varios segundos (es decir,*más de 30 segundos*) para convertirlo debido a estas líneas de código.
+El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objeto. El código convierte un archivo de Excel bastante grande a PDF. Tomará varios segundos (es decir,*más de 30 segundos*) para convertirlo debido a estas líneas de código.
 
 {{< highlight "java" >}}
 

@@ -6,7 +6,7 @@ url: /it/net/data-filtering/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel offre alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+Microsoft Excel fornisce alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft di Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Il filtro automatico è il modo più rapido per selezionare dal foglio di lavoro
 Per attivare la funzione di filtro automatico in Microsoft Excel:
 
 1. Fare clic sulla riga dell'intestazione in un foglio di lavoro.
-1.  Dal**Dati** menù, selezionare**Filtro** poi**Filtro automatico**.
+1.  Dal**Dati** menù, selezionare**Filtro** e poi**Filtro automatico**.
 
 Quando applichi un filtro automatico a un foglio di lavoro, i parametri del filtro (frecce nere) vengono visualizzati a destra delle intestazioni di colonna.
 
@@ -29,7 +29,7 @@ Alcune delle opzioni di filtro automatico sono:
 
 |**Opzioni**|**Descrizione**|
 |:- |:- |
-|Tutto|Mostra tutti gli elementi nell'elenco una volta.|
+|Tutti|Mostra tutti gli elementi nell'elenco una volta.|
 |Costume|Personalizza i criteri di filtro come contiene/non contiene|
 |Filtra per colore|Filtri basati sul colore pieno|
 |Filtri data|Filtra le righe in base a diversi criteri in base alla data|
@@ -152,5 +152,5 @@ Excel fornisce filtri personalizzati come righe di filtro che terminano con una 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-FilteringAndValidation-AutofilterEndsWith-1.cs" >}}
 
 ## **Argomenti avanzati**
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico](/cells/it/net/get-all-hidden-rows-indices-after-refreshing-autofilter/)

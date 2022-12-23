@@ -20,14 +20,14 @@ url: /ja/net/aspose-cells-for-net-22-8-release-notes/
 |CELLSNET-51621|異なるファイル形式で共有数式が正しくコピーされなかった|
 |CELLSNET-51524|ピボット テーブルを含む Excel ファイルから PDF に変換する際の間違ったワード ラッピング|
 |CELLSNET-51675|PDF への変換中に形状が失われる|
-|CELLSNET-51435|XLSB ワークブックを XLSM に変換すると、新しいワークシートの関係が追加されます|
+|CELLSNET-51435|XLSB ワークブックを XLSM に変換すると、新しいワークシートの関係が追加されます。|
 |CELLSNET-51545|Aspose.Cells で、MS Excel 5.0 ダイアログ シートを含むワークブックの読み込みに失敗しました|
 |CELLSNET-51546|Aspose セルを開いて保存し、Excel で表示すると、グラフが複製される|
-|CELLSNET-51550|名前付き範囲内のリンクが、XLS から XLSM への変換で削除される|
-|CELLSNET-51551|XLS ファイルを XLSM に変換すると、ファイルが破損し、外部リンクが DDE リンクに変更されました|
-|CELLSNET-51558|xlAlternateStartup タイプのリンクを含む XLS ファイルを XLSM に変換すると、破損したファイルが出力される|
+|CELLSNET-51550|名前付き範囲内のリンクが XLS から XLSM への変換で削除される|
+|CELLSNET-51551|XLS ファイルを XLSM に変換すると、ファイルが破損し、外部リンクが DDE リンクに変更される|
+|CELLSNET-51558|xlAlternateStartup タイプのリンクを持つ XLS ファイルを XLSM に変換すると、破損したファイルが出力される|
 |CELLSNET-51564|スマートマーカーの重複データ|
-|CELLSNET-51574|XLSX ファイルを再保存する場合にのみ、2 つの列を持つテキスト ボックスが 1 つの列でレンダリングされます。|
+|CELLSNET-51574|XLSX ファイルを再保存する場合にのみ、2 列のテキスト ボックスが 1 列でレンダリングされる|
 |CELLSNET-51580|タイプ xlPathMissing の外部リンクは、XLS から XLSM への変換で通常の externalLinkPath タイプに変更されます|
 |CELLSNET-51599|Html として保存する際の画像タイプ リソースの非常に長い名前|
 |CELLSNET-51627|特定の XLSM ファイルを読み込めません|

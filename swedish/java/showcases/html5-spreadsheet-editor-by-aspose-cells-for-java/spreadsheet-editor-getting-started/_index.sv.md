@@ -17,11 +17,11 @@ Html5 Spreadsheet Editor är en webbapplikation som kan visa och redigera kalkyl
 
 ![todo:image_alt_text](aowcrc1.png)
 
- HTML5 Spreadsheet Editor använder många funktioner i[Aspose.Cells for Java](https://products.aspose.com/cells/java/)och visar hur du använder dem för att skapa, manipulera och rendera ett kalkylblad i din Java-applikation.
+ HTML5 Spreadsheet Editor använder många funktioner i[Aspose.Cells for Java](https://products.aspose.com/cells/java/) och visar hur du använder dem för att skapa, manipulera och rendera ett kalkylblad i din Java-applikation.
 
 **Funktioner**
 
--  Arbeta med filer
+- Arbeta med filer
  - Format som stöds
  - Öppna lokala filer
  - Öppna från Dropbox
@@ -127,7 +127,7 @@ Projektuppbyggnadsprocessen hanteras med Maven. Så du kan förbereda en WAR-fil
 - Ladda ner projektets källkod.
 - Öppna projektet i NetBeans IDE.
 -  Klick***Springa*** knappen i verktygsfältet.
--  Välj***Glasfisk*** server som Application Server.
+-  Välj***Glasfisk*** server som applikationsserver.
 
 **Använder Eclipse**
 
@@ -188,6 +188,6 @@ HTML5 Spreadsheet Editor är ett projekt med öppen källkod som ger maximala m�
 
 **Aspose Licens**
 
- Produkten fungerar utan Aspose licens,[med begränsningar](/cells/sv/java/licensing/) . För att ta bort begränsningar kan du skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license) eller[köp fullständig licens](https://purchase.aspose.com/buy).
+ Produkten fungerar utan Aspose licens,[med begränsningar](/cells/sv/java/licensing/) . För att ta bort begränsningar kan du skaffa en[gratis tillfällig licens](https://purchase.aspose.com/temporary-license) eller[köpa full licens](https://purchase.aspose.com/buy).
 
  Som standard kommer redigeraren att försöka ladda**Aspose.Total.Java.lic** fil från**src/main/resources/com/aspose/spreadsheeteditor** katalog. Kopiera bara licensfilen till den här katalogen. Standardbeteendet kan ändras genom att redigera**AsposeLicens** klass.

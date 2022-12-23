@@ -18,11 +18,11 @@ Certaines API (classes, struct, énumérations, etc.) sont ajoutées en fonction
 
 Voici la liste des classes qui sont renommées :
 
-1. **Exceller** la classe est remplacée par**Cahier** classer.
+1. **Exceller** la classe est remplacée par**Cahier** classe.
 
-2. **ExcelDesigner** la classe est remplacée par**WorkbookDesigner** classer.
+2. **ExcelDesigner** la classe est remplacée par**WorkbookDesigner** classe.
 
-3. **ExcelHelper** la classe est remplacée par**CellsHelper** classer.
+3. **ExcelHelper** la classe est remplacée par**CellsHelper** classe.
 
  Pour plus de référence, veuillez consulter nos démos en vedette :<https://github.com/aspose-cells/Aspose.Cells-for-.NET>
 

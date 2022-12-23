@@ -111,7 +111,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 **使用 VSTO 应用的自动筛选器** 
 
-![待办事项：图像_替代_文本](auto-filter-data_1.png)
+![待办事项：图片_替代_文本](auto-filter-data_1.png)
 
 ### **使用 Aspose.Cells for .NET 自动过滤数据**
 
@@ -171,4 +171,4 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 **自动过滤器应用 Aspose.Cells for .NET** 
 
-![待办事项：图像_替代_文本](auto-filter-data_2.png)
+![待办事项：图片_替代_文本](auto-filter-data_2.png)

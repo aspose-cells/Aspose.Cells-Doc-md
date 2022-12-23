@@ -10,7 +10,7 @@ url: /zh/java/merging-and-unmerging-cells/
 
 **在 Microsoft Excel 中合并然后拆分格式化为左侧单元格的单元格范围的结果** 
 
-![待办事项：图像_替代_文本](merging-and-unmerging-cells_1.png)
+![待办事项：图片_替代_文本](merging-and-unmerging-cells_1.png)
 
 Aspose.Cells 支持这个功能，也可以合并工作表中的单元格。您也可以取消合并或拆分合并的单元格。合并单元格的单元格引用是对最初选定区域中左上角单元格的引用。
 
@@ -38,7 +38,7 @@ Aspose.Cells 支持这个功能，也可以合并工作表中的单元格。您�
 
 **单元格 (C6:E7) 已合并** 
 
-![待办事项：图像_替代_文本](merging-and-unmerging-cells_2.png)
+![待办事项：图片_替代_文本](merging-and-unmerging-cells_2.png)
 
 #### **代码示例**
 

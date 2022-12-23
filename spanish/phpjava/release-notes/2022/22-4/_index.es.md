@@ -14,7 +14,7 @@ url: /es/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44415|Miles de llamadas getResourceAsAStream provocan una alta carga de CPU y consumo de memoria durante la generación de informes|
 |CELLSJAVA-44490|agregue GridWorkbookSetting para GridWeb|
-|CELLSJAVA-44455|Al convertir un archivo XLSX a PDF, la fecha en la tabla dinámica se convierte en un número de serie|
+|CELLSJAVA-44455|Al convertir el archivo XLSX a PDF, la fecha en la tabla dinámica se convierte en un número de serie|
 |CELLSJAVA-44370|El archivo de Excel se corrompe cuando se abre y se guarda con Aspose.Cells|
 |CELLSJAVA-44381|Problema de formato de condición al eliminar la fila o columna|
 |CELLSJAVA-44442|Abrir y guardar con Aspose.Cells corrompe el libro de trabajo|
@@ -25,7 +25,7 @@ url: /es/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |CELLSJAVA-44466| problema adicional 3, setCalculateFormula a falso no funciona|
 |CELLSJAVA-44496|Incluya la etiqueta/elemento de título para la tabla al cargar html|
 |CELLSJAVA-44429|El efecto del gráfico de Excel en Excel es diferente al de HTML|
-|CELLSJAVA-44414| Unicode en JSON romperá XLSX y CSV generados|
+|CELLSJAVA-44414| Unicode en JSON romperá generado XLSX y CSV|
 |CELLSJAVA-44404|Excepción "java.lang.IllegalArgumentException: índice de columna no válido" al cargar un archivo XLSX en GridWeb|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

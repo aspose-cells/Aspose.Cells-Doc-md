@@ -13,8 +13,8 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-22-10-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-44890|admitir archivo de importación con contraseña abierta para GridWeb|
-|CELLSJAVA-44884| Los números de lista son incorrectos después de la conversión de XLSX a HTML o PDF|
-|CELLSJAVA-44883|El libro de trabajo que contiene la tabla dinámica se corrompe después de procesar la tabla dinámica en él|
+|CELLSJAVA-44884| Los números de lista son incorrectos después de la conversión XLSX a HTML o PDF|
+|CELLSJAVA-44883| El libro de trabajo que contiene la tabla dinámica se corrompe después de procesar la tabla dinámica en él|
 |CELLSJAVA-44879|El resultado formateado para GridWeb fue diferente de Cell.DisplayStringValue|
 |CELLSJAVA-44327|Se muestran bordes y menos líneas en sectores circulares en blanco y negro en el gráfico para la representación de imágenes|
 |CELLSJAVA-44853|Los datos en el ángulo del eje x no son los mismos que los de Excel en la representación de gráfico a imagen|
@@ -22,7 +22,7 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-22-10-release-notes/
 |CELLSJAVA-44904|Problemas al renderizar gráficos de Excel a la conversión de JPG|
 |CELLSJAVA-44850|Al importar un archivo XLT, el texto no se muestra completamente usando las últimas demostraciones con la última versión Aspose.Cells. GridWeb con los archivos de recursos más recientes|
 |CELLSJAVA-44857|Cuando se usa la versión Aspose.Cells.GridWeb for Java v22.8 con los archivos de recursos más recientes para abrir un documento de Excel, el efecto de las celdas es diferente del documento original|
-|CELLSJAVA-44903|La representación de SVG no funciona como se esperaba|
+|CELLSJAVA-44903|SVG la interpretación no funciona como se esperaba|
 |CELLSJAVA-44909| Cuando varias líneas están en negrita, parece que se está desbordando a las otras líneas innecesariamente.|
 |CELLSJAVA-44898|La lectura de GZIPInputStream a veces arroja un error falso "El archivo está dañado" en 22.7 y versiones más nuevas|
 |CELLSJAVA-44881|Excepción "java.lang.ArrayIndexOutOfBoundsException: 15070" al cargar un archivo XLS|

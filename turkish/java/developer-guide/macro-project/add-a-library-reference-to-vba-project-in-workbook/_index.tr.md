@@ -8,7 +8,7 @@ url: /tr/java/add-a-library-reference-to-vba-project-in-workbook/
 
  Microsoft Excel'de, VBA projesine bir kitaplık başvurusu ekleyebilirsiniz.**Araçlar > Referanslar...** manuel olarak. Mevcut referanslar arasından seçim yapmanıza veya kitaplığınıza kendiniz göz atmanıza yardımcı olacak aşağıdaki iletişim kutusunu açacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](add-a-library-reference-to-vba-project-in-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](add-a-library-reference-to-vba-project-in-workbook_1.png)
 
  Ancak bazen, kod aracılığıyla VBA projesine kitaplık referansı eklemeniz veya kaydetmeniz gerekir. Aspose.Cells ile yapabilirsiniz.[**VbaProject.getReferences().addRegisteredReference()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaprojectreferencecollection#addRegisteredReference(java.lang.String,%20java.lang.String)) yöntem.
 

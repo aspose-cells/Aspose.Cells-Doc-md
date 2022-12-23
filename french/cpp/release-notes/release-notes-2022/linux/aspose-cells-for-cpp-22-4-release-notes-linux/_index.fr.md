@@ -12,7 +12,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.4 pour Lin
 
 Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 22.4 pour Linux.
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-755| Fonctionnalités de synchronisation avec la version .Net|Nouvelles fonctionnalités|
 |CELLSCPP-733| Résoudre les fuites de mémoire|Insectes|

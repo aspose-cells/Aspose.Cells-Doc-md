@@ -15,7 +15,7 @@ url: /ru/java/reading-and-writing-query-table-of-worksheet/
 
 {{% /alert %}} 
 ## **Чтение и запись таблицы запросов рабочего листа**
- Следующий пример кода считывает первый[таблица запросов](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)первого рабочего листа, а затем печатает оба[таблица запросов](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) характеристики. Затем он устанавливает[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) к**истинный**.
+ Следующий пример кода считывает первый[таблица запросов](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) первого рабочего листа, а затем печатает оба[таблица запросов](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) характеристики. Затем он устанавливает[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) к**истинный**.
 
 На следующем снимке экрана показано[исходный файл excel](5472578.xlsx) используемый в коде, и его свойства, показывающие оба[таблица запросов](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)ценности.
 
@@ -37,6 +37,6 @@ Preserve Formatting: false
 
 {{< /highlight >}}
 ## **Получить диапазон результатов таблицы запроса**
-Aspose.Cells предоставляет возможность прочитать адрес, т.е. диапазон результатов ячеек для таблицы запросов. Следующий код демонстрирует эту функцию, читая адрес диапазона результатов для таблицы запросов. Образец файла можно скачать[здесь](QueryTXT.xlsx).
+Aspose.Cells предоставляет возможность прочитать адрес, т.е. диапазон результатов ячеек для таблицы запроса. Следующий код демонстрирует эту функцию, читая адрес диапазона результатов для таблицы запроса. Образец файла можно скачать[здесь](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

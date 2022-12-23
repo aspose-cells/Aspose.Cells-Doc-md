@@ -15,15 +15,15 @@ url: /sv/python-java/aspose-cells-for-python-via-java-22-3-release-notes/
 |CELLSJAVA-44369| formhöjden är inte korrekt|
 |CELLSJAVA-44366|Att kopiera arkinnehållet till en ny arksida och spara det som html orsakar att Excel-matteformelns stil är onormal|
 |CELLSJAVA-44408|Procentformatet Cell går förlorat när vi utökar de två raderna som vi har ändrat|
-|CELLSJAVA-44341|Cell bredd är inte korrekt i utdata DOCX i Excel till DOCX konvertering|
+|CELLSJAVA-44341|Cell bredd är inte korrekt i utgången DOCX i Excel till DOCX konvertering|
 |CELLSJAVA-44383|Villkorlig formatering slutade fungera efter att ha lagt till anpassade egenskaper|
 |CELLSJAVA-44370|Excel-filen blir korrupt när den öppnas och sparas med Aspose.Cells|
-|CELLSJAVA-44344| Problem med horisontell kopiering av intervall i utgången XLSX|
+|CELLSJAVA-44344|Problem med horisontell kopiering av intervall i utgången XLSX|
 |CELLSJAVA-44363| radhuvudets höjd matchar inte radinnehållet i filen med freezepan|
 |CELLSJAVA-44349|bild/form ska behållas efter omstart av servern för GridWeb|
 |CELLSJAVA-44367|Färgen på kolumndiagrammet blir vit vid konvertering till html|
-|CELLSJAVA-44328| Vissa dataetiketter för Excel-diagram går förlorade när Excel-fil sparas som HTML|
-|CELLSJAVA-44193|Vinkeln för kategoriaxelobjekt i grafen är annorlunda i Excel till PDF-konvertering|
+|CELLSJAVA-44328| Vissa dataetiketter för Excel-diagram går förlorade när du sparar Excel-fil som HTML|
+|CELLSJAVA-44193|Vinkeln för kategoriaxelobjekt i grafen skiljer sig i Excel till PDF-konvertering|
 |CELLSJAVA-44314|Fel axeletiketter för diagramkategori i diagram till bild-rendering|
 |CELLSJAVA-44332|Cell länk understrykning kan inte ta bort när du konverterar xlsx till html|
 |CELLSJAVA-44323|Undantag när signaturrad läggs till|

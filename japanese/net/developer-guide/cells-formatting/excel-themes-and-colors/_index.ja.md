@@ -22,7 +22,7 @@ Aspose.Cells は、テーマと色をカスタマイズするための機能を�
 
 次の例は、テーマの色を取得および設定する方法を示しています。
 
-次の例では、テンプレート XLSX ファイルを使用し、さまざまなテーマの色の種類の色を取得し、色を変更して、Microsoft Excel ファイルを保存します。
+次の例では、テンプレート XLSX ファイルを使用し、さまざまなテーマ カラー タイプの色を取得し、色を変更して、Microsoft Excel ファイルを保存します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 

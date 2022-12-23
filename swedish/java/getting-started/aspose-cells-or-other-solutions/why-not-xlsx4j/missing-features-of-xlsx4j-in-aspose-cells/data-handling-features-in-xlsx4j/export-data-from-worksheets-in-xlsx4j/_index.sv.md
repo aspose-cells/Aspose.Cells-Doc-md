@@ -38,7 +38,7 @@ Objektdatatabell [][]= kalkylblad.getCells().exportArray(4,0,7,8);
 {{< /highlight >}}
 ## **Ladda ner Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/datahandling/exportdatafromworksheets/AsposeExportDataFromWorksheets.java)
 
 {{% alert color="primary" %}} 

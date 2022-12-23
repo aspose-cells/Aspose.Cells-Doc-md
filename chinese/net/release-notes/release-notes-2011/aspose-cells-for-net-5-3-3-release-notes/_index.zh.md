@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-5-3-3-release-notes/
 
 25960 在 Html 文件中呈现复选框
 
-26082 支持渲染 PDF 格式对齐
+26082 在渲染 PDF 格式中支持对齐对齐
 
 26341 Mono 的 Excel 到 Pdf 增强功能
 
@@ -28,11 +28,11 @@ url: /zh/net/aspose-cells-for-net-5-3-3-release-notes/
 ### **表现**
 25774 Excel 到 PDF 的转换
 ### **例外情况**
-27076 打开 ODS 文件时处理 FormatException
+27076 在打开 ODS 文件时处理 FormatException
 
  27063 无效的列索引 - Aspose.Cells.SheetRender.ToImage() 方法的 CellsException
 
- 26571 Aspose.Cells 无法打开XLS文件
+26571 Aspose.Cells 无法打开XLS文件
 
 26309 源数组不够长——打开 Excel 文件时出现异常
 
@@ -74,7 +74,7 @@ url: /zh/net/aspose-cells-for-net-5-3-3-release-notes/
 
 26984 跨工作表的公式计算问题
 
-26308 XLSB 公式返回的值与 XLSX 公式不同
+26308 XLSB 公式返回的值不同于 XLSX 公式
 
 25783 Excel 文件在对表头使用 Range.CopyValue 后打开时出现警告
 
@@ -90,12 +90,12 @@ url: /zh/net/aspose-cells-for-net-5-3-3-release-notes/
 
 26313 使用 Aspose.Cells 处理后文档损坏
 ### **2) Aspose.Cells.网格网**
-### **新的功能**
+### **新功能**
 26410 展开/折叠服务器端和客户端的分组行
 ### **例外情况**
 26227 处理获取自定义格式数字颜色时引发的异常
 ### **3) Aspose.Cells.网格桌面**
-### **新的功能**
+### **新功能**
 26545 自定义用于显示工作表名称的字体
 
 21788 标记一些连续的撤消步骤并一次性执行撤消/重做

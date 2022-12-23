@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-gridlines-in-ruby/
 ---
 ## **Aspose.Cells - Mostrar u ocultar líneas de cuadrícula**
 ### **Ocultar líneas de cuadrícula**
- Para ocultar la hoja de trabajo usando**Aspose.Cells Java para rubí** , llamar**mostrar ocultar líneas de cuadrícula** módulo.
+ Para ocultar la hoja de trabajo usando**Aspose.Cells Java para rubí** , llamada**mostrar ocultar líneas de cuadrícula** módulo.
 
 **código rubí**
 

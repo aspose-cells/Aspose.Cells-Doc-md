@@ -21,7 +21,7 @@ url: /de/java/creating-pie-chart-with-leader-lines/
 
 ![todo: Bild_alt_Text](creating-pie-chart-with-leader-lines_1.png)
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Erstellen und Anpassen von Diagrammen](/cells/de/java/creating-and-customizing-charts/)
 - [Diagrammformatierung](/cells/de/java/chart-formatting/)

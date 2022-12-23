@@ -6,7 +6,7 @@ url: /ar/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-prope
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-Aspose.Cells يسمح لك ببدء أنماط عناصر الجدول بـ[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)منشأه. لنفترض أنك قمت بتعيين هذه الخاصية ببعض القيمة مثل*MyTest_TableCssId*، ثم ستجد أنماط عناصر الجدول كما هو موضح أدناه
+Aspose.Cells يسمح لك ببدء أنماط عناصر الجدول بـ[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)خاصية. لنفترض أنك قمت بتعيين هذه الخاصية ببعض القيمة مثل*MyTest_TableCssId*، ثم ستجد أنماط عناصر الجدول كما هو موضح أدناه
 
 {{< highlight "java" >}}
 
@@ -22,13 +22,13 @@ etc.
 
 {{< /highlight >}}
 
- تُظهر لقطة الشاشة التالية تأثير استخدام[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)الخاصية على الناتج HTML.
+ تُظهر لقطة الشاشة التالية تأثير استخدام[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)خاصية الإخراج HTML.
 
 ![ما يجب القيام به: image_بديل_نص](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **أنماط عناصر الجدول البادئة مع الخاصية HtmlSaveOptions.TableCssId**
 
-يشرح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)منشأه. رجاء تاكد من[إخراج HTML](60489791.zip)تم إنشاؤها بواسطة رمز كمرجع.
+يشرح نموذج التعليمات البرمجية التالي كيفية الاستفادة من[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)خاصية. رجاء تاكد من[الإخراج HTML](60489791.zip)تم إنشاؤها بواسطة رمز كمرجع.
 
 ## **عينة من الرموز**
 

@@ -10,7 +10,7 @@ A veces, necesita acceder a los datos desde una forma que no está integrada. La
 
 ## **Una forma no primitiva**
 
- En Aspose.Cells, a las formas no primitivas se les asigna el tipo[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Puede verificar su tipo usando el[**Forma.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)propiedad.
+En Aspose.Cells, a las formas no primitivas se les asigna el tipo[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Puede verificar su tipo usando el[**Forma.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)propiedad.
 
  Acceda a los datos de la forma usando el[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)propiedad. Devuelve todos los caminos conectados que comprenden la forma no primitiva. Estos caminos son del tipo[**ruta de forma**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)que contiene una lista de todos los segmentos que a su vez contienen los puntos en cada segmento.
 

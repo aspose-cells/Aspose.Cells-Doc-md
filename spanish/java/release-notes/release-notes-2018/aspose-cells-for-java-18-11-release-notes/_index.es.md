@@ -25,13 +25,13 @@ Obtiene el nombre del usuario que actualizó la tabla dinámica por última vez.
 ### **Agrega la propiedad PivotTable.RefreshDate**
 Obtiene la fecha en la que se actualizó la tabla dinámica por última vez.
 ### **Agrega propiedades CalculationData.CellRow/CellColumn**
-Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de buscar el objeto Cell.
+Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de obtener el objeto Cell.
 ### **Agrega la clase CalculationCell**
 Representa los datos de cálculo sobre una celda que se está calculando.
 ### **Agrega el método AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**
 Proporciona un método para que el usuario recopile y procese referencias circulares.
 ### **Agrega la propiedad TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
-Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar un archivo CSV.
+Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar el archivo CSV.
 ### **Agrega el método FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal)**
 Proporciona una manera eficiente y conveniente para que el usuario establezca fórmulas para FormatCondition.
 ### **Agrega el método Validation.GetListValue (fila int, columna int)**

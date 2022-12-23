@@ -6,7 +6,7 @@ url: /ar/java/insert-web-image-from-a-url-into-an-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- توضح هذه المقالة كيف يمكنك إدراج صورة ويب مباشرة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). يستخدم مقتطف الشفرة الوارد أدناه مساحات الأسماء java.net & java.io مع com.aspose.cells لتحقيق النتيجة المرجوة.
+ توضح هذه المقالة كيف يمكنك إدراج صورة ويب مباشرة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)يستخدم مقتطف الشفرة الوارد أدناه مساحات الأسماء java.net & java.io مع com.aspose.cells لتحقيق النتيجة المرجوة.
 
 {{% /alert %}}
 

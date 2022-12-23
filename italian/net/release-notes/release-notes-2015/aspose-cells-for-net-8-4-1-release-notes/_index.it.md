@@ -34,19 +34,19 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43475) - La visualizzazione dei dati della tabella pivot in HTML non è correlata
 
- (CELLSNET-43474) - La tabella pivot non si aggiorna durante il rendering in HTML
+ (CELLSNET-43474) - La tabella pivot non si aggiorna durante il rendering a HTML
 
  (CELLSNET-43473) - Modifica delle selezioni del filtro report
 
  (CELLSNET-43450) - Rendering errato di HTML durante la conversione del foglio di calcolo in HTML
 
- (CELLSNET-43428) - le celle della tabella pivot nelle intestazioni di gruppo hanno stili non corretti
+(CELLSNET-43428) - le celle della tabella pivot nelle intestazioni di gruppo hanno stili non corretti
 
-(CELLSNET-43422) - La rimozione del foglio di origine provoca un'eccezione al salvataggio
+ (CELLSNET-43422) - La rimozione del foglio di origine provoca un'eccezione al salvataggio
 
  (CELLSNET-43417) - L'ordinamento dei punti dati della serie del grafico pivot è errato
 
- (CELLSNET-43413) - Conversione errata da file HTML a PDF
+ (CELLSNET-43413) - Conversione errata dal file HTML al file PDF
 
  (CELLSNET-43340) - Il nuovo salvataggio del foglio di calcolo XLS danneggia il risultato
 
@@ -58,23 +58,23 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43516) - Aspose non stampa pagina vuota
 
- (CELLSNET-43508) - Da foglio di calcolo a PDF genera un PDF vuoto
+ (CELLSNET-43508) - Il foglio di calcolo per PDF genera uno spazio vuoto PDF
 
- (CELLSNET-43507) - I pixel si sono leggermente deteriorati per l'immagine nel file PDF di output
+ (CELLSNET-43507) - I pixel si sono leggermente deteriorati per l'immagine nel file di output PDF
 
  (CELLSNET-43481) - Cells che aveva date e/o numeri con parole ebraiche
 
- (CELLSNET-43479) - Il logo con rientro errato
+(CELLSNET-43479) - Il logo con rientro errato
 
-(CELLSNET-43478) - I due punti alla fine dell'ultima parola nella prima riga sono interrotti
+ (CELLSNET-43478) - I due punti alla fine dell'ultima parola nella prima riga sono interrotti
 
  (CELLSNET-43477) - Gli spazi tra le parole ebraiche sono scomparsi schiacciando la frase in una sola parola
 
- (CELLSNET-43469) - Supporta l'API RenderToSize per l'immagine del foglio di lavoro
+ (CELLSNET-43469) - Supporto RenderToSize API per l'immagine del foglio di lavoro
 
  (CELLSNET-43526) - FillFormat.GradientColorType restituisce PresetColors
 
- (CELLSNET-43521) - L'API restituisce null per DataLabel.NumberFormat
+ (CELLSNET-43521) - API restituisce null per DataLabel.NumberFormat
 
  (CELLSNET-43519) - L'asse x del grafico ha valori negativi ma solo il segno meno{{< emoticons/cross >}} è mostrato
 
@@ -110,7 +110,7 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - Il filtro a discesa non può essere selezionato dopo il caricamento e il salvataggio
 
- (CELLSNET-43518) - Il caricamento e il salvataggio di XLSM danneggiano il risultato
+ (CELLSNET-43518) - Il caricamento e il salvataggio di XLSM rende il risultato corrotto
 
  (CELLSNET-43515) - La formula che coinvolge la cella dell'intervallo denominato non viene letta correttamente
 
@@ -136,7 +136,7 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -150,17 +150,17 @@ url: /it/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) - GridDesktop non è in grado di trovare la licenza della risorsa incorporata
 
-(CELLSNET-42509) - Le forme non vengono visualizzate correttamente in gridweb
+ (CELLSNET-42509) - Le forme non vengono visualizzate correttamente in gridweb
 
  (CELLSNET-42559) - Spostamento di fogli di lavoro in GridDesktop
 
  (CELLSNET-43455) - Alcuni metodi mancano in GridWeb
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 

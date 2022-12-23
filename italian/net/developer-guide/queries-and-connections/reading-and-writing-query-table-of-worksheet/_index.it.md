@@ -11,7 +11,7 @@ Aspose.Cells fornisce la raccolta Worksheet.QueryTables che restituisce l'oggett
 - QueryTable.AdjustColumnWidth
 - QueryTable.PreserveFormatting
 
-Questi sono entrambi valori booleani. È possibile visualizzarli in Microsoft Excel tramite Dati > Connessioni > Proprietà.
+Questi sono entrambi valori booleani. Puoi visualizzarli in Microsoft Excel tramite Dati > Connessioni > Proprietà.
 
 {{% /alert %}}
 

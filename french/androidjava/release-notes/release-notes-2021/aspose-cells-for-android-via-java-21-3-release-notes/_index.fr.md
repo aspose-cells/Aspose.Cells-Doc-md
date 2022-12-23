@@ -10,36 +10,36 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43375|Vérifier le mot de passe Excel VBA|
 |CELLSJAVA-43400|Prise en charge de la fonction UNIQUE()|
 |CELLSJAVA-42863|Récupérer le sous-titre du graphique|
 |CELLSJAVA-43401|Prise en charge du résultat de formatage unifié pour l'ère japonaise pour tous les JDK|
-|CELLSJAVA-43398|La mise en forme conditionnelle n'est pas rendue correctement dans la conversion ODS en HTML|
-|CELLSJAVA-43371|La conversion XLSX en PDF se bloque|
+|CELLSJAVA-43398|La mise en forme conditionnelle n'est pas rendue correctement dans la conversion ODS à HTML|
+|CELLSJAVA-43371|La conversion XLSX à PDF se bloque|
 |CELLSJAVA-43353|Différents schémas sur excel en pdf|
 |CELLSJAVA-43377|Problèmes de placement des images lors de la conversion d'Excel en HTML|
 |CELLSJAVA-43381|Erreur de calcul de la fonction JOURS|
 |CELLSJAVA-43342|Le graphique combiné ne peut pas s'afficher correctement dans Excel en pdf|
 |CELLSJAVA-43354|Les pourcentages n'étaient pas affichés sur les petits histogrammes|
 |CELLSJAVA-40264|Erreur avec les contrôles de formulaire ou les contrôles ActiveX lors de l'enregistrement au format EXCEL_97_À_2003|
-|CELLSJAVA-43372|Fichier corrompu créé lors de la conversion d'ODS en XLSX|
+|CELLSJAVA-43372|Fichier corrompu créé lors de la conversion de ODS en XLSX|
 |CELLSJAVA-43378|Afficher sous forme de vide passe de vrai à faux après le clonage du classeur|
 |CELLSJAVA-43382|La copie produit un classeur corrompu|
 |CELLSJAVA-43364|Problème lors de l'enregistrement d'un graphique ayant une image dans le marqueur à l'image|
 |CELLSJAVA-43389|Paramètres de protection par mot de passe du classeur/feuille de calcul perdus lors de l'enregistrement au format de fichier XLSB|
-|CELLSJAVA-43392|La copie de la feuille produit un classeur corrompu|
+|CELLSJAVA-43392| La copie de la feuille produit un classeur corrompu|
 |CELLSJAVA-43388|Le fichier de sortie est corrompu après la copie du classeur|
 |CELLSJAVA-43406|Problèmes lors de la conversion de HTML en Excel|
 |CELLSJAVA-43399|CalculateFormula() crée beaucoup de valeurs de type d'erreur #VALUE|
 |CELLSJAVA-43362|Problème de pourcentage pour les étiquettes lors de l'impression des graphiques|
-|CELLSJAVA-43384|Problème de pourcentages pour certaines étiquettes lors du rendu au format PDF et de l'impression de graphiques|
+|CELLSJAVA-43384|Problème de pourcentages pour certaines étiquettes lors du rendu au PDF et de l'impression des graphiques|
 |CELLSJAVA-43402|Générer une image graphique exacte à partir d'un fichier Excel|
 |CELLSJAVA-43408|Le haut du graphique est coupé et la ligne inclinée monte|
-|CELLSJAVA-43379|Exception déclenchée lors de l'enregistrement du classeur au format HTML|
-|CELLSJAVA-43376|Exception "java.lang.ClassCastException : débordement dans la conversion int en octets. valeur int : 144" lors du chargement d'un fichier XLSX|
-|CELLSJAVA-43387|L'exportation d'une seule feuille au format HTML soulève une exception|
+|CELLSJAVA-43379|Exception déclenchée lors de l'enregistrement du classeur sous HTML|
+|CELLSJAVA-43376|Exception "java.lang.ClassCastException : débordement dans la conversion int en octet. valeur int : 144" lors du chargement d'un fichier XLSX|
+|CELLSJAVA-43387|L'exportation d'une seule feuille vers HTML soulève une exception|
 |CELLSJAVA-43412|CellsException dans la conversion xlsx en html|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

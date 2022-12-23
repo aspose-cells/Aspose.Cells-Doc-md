@@ -20,13 +20,13 @@ Aspose.Cells admite esta característica de Microsoft Excel para tablas y objeto
 
 ![todo:imagen_alternativa_texto](convert-an-excel-table-to-a-range-of-data_1.gif)
 
-1.  Sobre el**Diseño** pestaña, en la**Instrumentos** grupo, haga clic**Convertir a rango**.
+1.  Sobre el**Diseño** pestaña, en la**Herramientas** grupo, haga clic**Convertir a rango**.
 
 ![todo:imagen_alternativa_texto](convert-an-excel-table-to-a-range-of-data_2.gif)
 
 {{% alert color="primary" %}}
 
-Las características de la tabla ya no están disponibles después de que la tabla se haya convertido en un rango. Por ejemplo, los encabezados de fila ya no incluyen las flechas de clasificación y filtro, y las referencias estructuradas (referencias que usan nombres de tablas) que se usaban en fórmulas se convierten en referencias de celdas normales.
+Las características de la tabla ya no están disponibles después de que la tabla se haya convertido en un rango. Por ejemplo, los encabezados de fila ya no incluyen las flechas de clasificación y filtro, y las referencias estructuradas (referencias que usan nombres de tablas) que se usaban en fórmulas se convierten en referencias de celdas regulares.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ Las características de la tabla ya no están disponibles después de que la tab
 
 ## **Convertir tabla a rango con opciones**
 
-Aspose.Cells proporciona opciones adicionales al convertir Tabla a Rango a través del[**TableToRangeOptionsTableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)clase. los[**TableToRangeOptionsTableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)clase proporciona[**Última fila**](https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow)propiedad que le permite establecer el último índice de la fila de la tabla. El formato de la tabla se mantendrá hasta el índice de fila especificado y el resto del formato se eliminará.
+Aspose.Cells proporciona opciones adicionales al convertir Tabla a Rango a través del[**TableToRangeOptionsTableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)clase. Él[**TableToRangeOptionsTableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)clase proporciona[**Última fila**](https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow)propiedad que le permite establecer el último índice de la fila de la tabla. El formato de la tabla se mantendrá hasta el índice de fila especificado y el resto del formato se eliminará.
 
 El código de ejemplo que se proporciona a continuación demuestra el uso de[**TableToRangeOptionsTableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)clase.
 

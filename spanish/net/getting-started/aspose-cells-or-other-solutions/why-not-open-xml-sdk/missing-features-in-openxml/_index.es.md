@@ -33,7 +33,7 @@ Esta sección incluye los siguientes temas
   - [Convertir gráficos en imágenes](/cells/es/net/convert-charts-to-images/)
   - [Imprimir hojas de cálculo](/cells/es/net/print-spreadsheets/)
   - [Especifique la resolución de la imagen, la calidad, la compresión y otras opciones](/cells/es/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Guarde el libro de trabajo en formato de texto o CSV usando Aspose.Cells](/cells/es/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Guardar libro de trabajo en texto o formato CSV usando Aspose.Cells](/cells/es/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Establecer enlaces externos en fórmulas en Aspose.Cells](/cells/es/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Configuración del modo de cálculo de fórmula del libro de trabajo en Aspose.Cells](/cells/es/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Configuración de fórmula compartida en Aspose.Cells](/cells/es/net/setting-shared-formula-in-aspose-cells/)

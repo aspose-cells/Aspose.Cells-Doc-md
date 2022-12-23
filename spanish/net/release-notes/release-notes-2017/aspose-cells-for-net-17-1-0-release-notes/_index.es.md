@@ -6,14 +6,14 @@ url: /es/net/aspose-cells-for-net-17-1-0-release-notes/
 ---
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-44747|El archivo MS Excel 2016 XLSX que contiene el gráfico Waterfall no se puede abrir a través de las API Aspose.Cells|Nueva caracteristica|
+|CELLSNET-44747|El archivo MS Excel 2016 XLSX que contiene el gráfico de cascada no se puede abrir a través de las API Aspose.Cells|Nueva caracteristica|
 |CELLSNET-44940|Vincular hoja de trabajo a un objeto de colección personalizado (Aspose.Cells.GridWeb)|Nueva caracteristica|
 |CELLSNET-44939|Vincule la hoja de trabajo a un objeto DataSet en tiempo de ejecución (Aspose.Cells.GridWeb)|Nueva caracteristica|
-|CELLSNET-44597|El archivo de salida de Excel no es bueno al convertir un archivo HTML a formato de archivo de Excel|Mejora|
+|CELLSNET-44597|El archivo de salida de Excel no es bueno al convertir un archivo HTML al formato de archivo de Excel|Mejora|
 |CELLSNET-44994|Problema con el formato de fecha en la configuración regional alemana al representar un archivo de Excel en PDF|Mejora|
 |CELLSNET-44986|Representación de números dobles en Aspose.Cells|Mejora|
-|CELLSNET-45023|PivotTable.RefreshData toma mucho tiempo|Actuación|
-|CELLSNET-45012|Rendimiento de GETPIVOTDATA|Actuación|
+|CELLSNET-45023|PivotTable.RefreshData toma mucho tiempo|Rendimiento|
+|CELLSNET-45012|Rendimiento de GETPIVOTDATA|Rendimiento|
 |CELLSNET-45009|Las fórmulas con GETPIVOTDATA no se vuelven a calcular en el archivo de salida|Insecto|
 |CELLSNET-45000|Algunas reglas CSS ignoradas al importar HTML|Insecto|
 |CELLSNET-44993|Las imágenes en la tabla tienen una posición incorrecta|Insecto|
@@ -28,8 +28,8 @@ url: /es/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-44991|El resultado de la función YIELD es inexacto cuando se llama al método CalculateFormula()|Insecto|
 |CELLSNET-44978|La fórmula de cálculo arroja resultados diferentes a los de MS Excel|Insecto|
 |CELLSNET-45019|Imagen representada incorrectamente cuando una celda tiene el símbolo de libra egipcia|Insecto|
-|CELLSNET-43815|Los objetos de WordArt se convierten en meros puntos en el PDF de salida|Insecto|
-|CELLSNET-44976|El gráfico de área está inclinado al final en la salida de PDF a diferencia del archivo de MS Excel|Insecto|
+|CELLSNET-43815|Los objetos de WordArt se convierten en meros puntos en la salida PDF|Insecto|
+|CELLSNET-44976|El gráfico de área está inclinado al final en la salida PDF a diferencia del archivo MS Excel|Insecto|
 |CELLSNET-44969|Aparecen líneas innecesarias en la imagen del gráfico|Insecto|
 |CELLSNET-44941|La configuración cultural no se aplica en la imagen del gráfico de salida|Insecto|
 |CELLSNET-44938|El gráfico no se representa correctamente cuando la hoja de cálculo se convierte a PDF|Insecto|
@@ -46,10 +46,10 @@ url: /es/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-43770|El método Workbook.CalculateFormula() calcula incorrectamente la fórmula y el archivo de salida está dañado|Insecto|
 |CELLSNET-43733|El texto de WordArt en TextBox se representa solo como contorno en lugar de caracteres rellenos al convertir la hoja de cálculo a PDF|Insecto|
 |CELLSNET-43725|Cambiar el tamaño de ListObject en XLSM con un rango de datos externo corrompe el resultado|Insecto|
-|CELLSNET-43580|Esta marca de agua de WordArt no se imprime correctamente porque el color/estilo se cambia en el PDF de salida|Insecto|
-|CELLSNET-43562|El filtrado en columnas se pierde cuando XLSX se convierte a ODS|Insecto|
+|CELLSNET-43580|Esta marca de agua de WordArt no se imprime correctamente porque el color/estilo se cambia en la salida PDF|Insecto|
+|CELLSNET-43562|El filtrado en columnas se pierde cuando XLSX se convierte en ODS|Insecto|
 |CELLSNET-43405|El texto de la función se corrompe y el texto de WordArt se vuelve blanco después de convertir un formato de archivo XLS a XLSX|Insecto|
-|CELLSNET-43404|El formato del texto de WordArt en el archivo XLS cambia después de convertirlo al formato de archivo XLSX|Insecto|
+|CELLSNET-43404|El formato del texto de WordArt en el archivo XLS se cambia después de convertirlo al formato de archivo XLSX|Insecto|
 |CELLSNET-41938|Problemas de formato (con respecto a WordArt) con el archivo XLS|Insecto|
 |CELLSNET-41708|Problema al agregar efectos 3D a Formas (Cuadro de texto) creado con Aspose.Cells|Insecto|
 |CELLSNET-41164|Compatibilidad con SmartArt en la representación de Excel a PDF|Insecto|
@@ -60,7 +60,7 @@ url: /es/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-40897|Hoja de cálculo con controles de formulario|Insecto|
 |CELLSNET-45031|NullReferenceException en PivotTable.RefreshData con Slicer|Excepción|
 |CELLSNET-45041|Excepción al guardar un archivo de Excel|Excepción|
-|CELLSNET-45016|Excepción al abrir un archivo XLSX de plantilla|Excepción|
+|CELLSNET-45016|Excepción al abrir un archivo de plantilla XLSX|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega setter para la propiedad LoadFilter.LoadDataFilterOptions para reemplazar la variable m_LoadDataFilterOptions**
@@ -68,7 +68,7 @@ El usuario puede cambiar la propiedad LoadDataFilterOptions en su implementació
 #### **Agrega la propiedad CellsHelper.SignificantDigits**
 Obtiene y establece el número de dígitos significativos.
 #### **Agrega la propiedad GlowEffect.Color**
-Obtiene el color del efecto de resplandor.
+Obtiene el color del efecto de brillo.
 #### **Agrega la propiedad PageSetup.PaperWidth**
 Representa el ancho en pulgadas del papel, considerando la orientación de la página.
 #### **Agrega la propiedad PageSetup.PaperHeight**

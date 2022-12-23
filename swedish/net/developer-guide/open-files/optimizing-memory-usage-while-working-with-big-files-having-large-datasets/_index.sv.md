@@ -8,7 +8,7 @@ url: /sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 När du bygger en arbetsbok med stora datamängder, eller läser en stor Microsoft Excel-fil, är den totala mängden RAM som processen kommer att ta alltid ett problem. Det finns åtgärder som kan anpassas för att klara utmaningen. Aspose.Cells ger några relevanta alternativ och API-anrop för att minska, minska och optimera minnesanvändningen. Det kan också hjälpa processen att fungera mer effektivt och köras snabbare.
 
- Använd[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) alternativ för att optimera minnesanvändningen för celldata och minska den totala minneskostnaden. När du bygger en stor datamängd för celler kan den spara en viss mängd minne jämfört med att använda standardinställningen ([**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+ Använd[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)alternativ för att optimera minnesanvändningen för celldata och minska den totala minneskostnaden. När du bygger en stor datamängd för celler kan den spara en viss mängd minne jämfört med att använda standardinställningen ([**MemorySetting.Normal**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 

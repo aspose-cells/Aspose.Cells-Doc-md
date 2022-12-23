@@ -13,7 +13,7 @@ url: /ru/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Используйте версию Bouncy Castle, совместимую с FIPS, в API-интерфейсах Aspose.Cells.|Новая особенность|
-|CELLSJAVA-42550|Параллельное преобразование в PDF, при этом каждая книга имеет свой собственный (эксклюзивный) набор шрифтов.|Новая особенность|
+|CELLSJAVA-42550|Параллельное преобразование в PDF, в то время как каждая книга имеет свой собственный (эксклюзивный) набор шрифтов.|Новая особенность|
 |CELLSJAVA-42339|Реализовать пользовательскую сортировку данных в отчете сводной таблицы через API Aspose.Cells.|Новая особенность|
 |CELLSJAVA-42625|Реализация функции MS Excel «Окно просмотра»|Новая особенность|
 |CELLSJAVA-42612|Не удалось извлечь текст из SmartArt типа шестеренки|Новая особенность|
@@ -22,14 +22,14 @@ url: /ru/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42580|Получить/установить свойство языкового документа|Улучшение|
 |CELLSJAVA-42565|Цвет переднего плана, цвет фона и цвет заливки — используйте один метод, который принимает два аргумента.|Улучшение|
 |CELLSJAVA-42528|"\<Font>" не является допустимым тегом HTML5 и самозакрывающимся тегом, а веб-браузеры искажают его содержимое.|Улучшение|
-|CELLSJAVA-42413|Вставьте тип изображения SVG в ячейки листа по номеру Aspose.Cells.|Улучшение|
+|CELLSJAVA-42413|Вставьте тип изображения SVG в ячейки листа по Aspose.Cells|Улучшение|
 |CELLSJAVA-42594|Обнаружение LoadFormat и FileFormatType XLAM|Улучшение|
 |CELLSJAVA-42646|Исключение: «FormulaBuild Неизвестный токен формулы 0» в Name.getRefersTo()|Улучшение|
 |CELLSJAVA-42645|Исключение: «FormulaBuild более одного токена в стеке…» на Cell.getFormula()|Улучшение|
 |CELLSJAVA-42516|Aspose.Cells принимает и исправляет недопустимую формулу|Улучшение|
-|CELLSJAVA-42551|Некоторые фигуры в выходном PDF-файле неверны.|Ошибка|
+|CELLSJAVA-42551|Некоторые формы неверны в выводе PDF|Ошибка|
 |CELLSJAVA-42578|Условное форматирование теряется при сохранении Excel в HTML|Ошибка|
-|CELLSJAVA-42571|Выходной HTML не соответствует MS-Excel|Ошибка|
+|CELLSJAVA-42571|Вывод HTML не соответствует MS-Excel|Ошибка|
 |CELLSJAVA-42553|Ссылки на именованную область неверны после экспорта в HTML|Ошибка|
 |CELLSJAVA-42530|Сводные таблицы и соответствующие диаграммы имеют неправильный формат даты|Ошибка|
 |CELLSJAVA-42527|Диаграмма имеет много значений по оси X, и значения перекрываются друг с другом|Ошибка|
@@ -50,34 +50,34 @@ url: /ru/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42598|Свойства не извлекаются в файл шаблона|Ошибка|
 |CELLSJAVA-42589|NullPointerException при добавлении HTML в ячейку|Ошибка|
 |CELLSJAVA-41414|Линии исчезли с графика при повторном сохранении файла XLSX|Ошибка|
-|CELLSJAVA-42636|Некоторые фигуры рисунка смещаются или отображаются неправильно при преобразовании Excel в HTML.|Ошибка|
+|CELLSJAVA-42636|Некоторые фигуры рисунка смещаются или отображаются неправильно в Excel до рендеринга HTML.|Ошибка|
 |CELLSJAVA-42627|CELLSJAVA-42619 Невозможно правильно извлечь изображения Smart Art|Ошибка|
-|CELLSJAVA-42618|Форма смещается, чтобы покрыть данные в Excel для рендеринга HTML|Ошибка|
+|CELLSJAVA-42618|Форма смещена, чтобы покрыть данные в Excel до рендеринга HTML|Ошибка|
 |CELLSJAVA-42628|Расчет формул неправильный, например, он генерирует #DIV/0! ошибки|Ошибка|
-|CELLSJAVA-42615|Cell Неправильный формат A3 в выходном HTML|Ошибка|
+|CELLSJAVA-42615|Cell Неверный формат A3 на выходе HTML|Ошибка|
 |CELLSJAVA-42621|Низкая производительность при создании файла PDF из файла Excel.|Ошибка|
-|CELLSJAVA-42620|XLSX в TIFF — исключение NoClassDefFoundError|Ошибка|
+|CELLSJAVA-42620|XLSX — TIFF — исключение NoClassDefFoundError|Ошибка|
 |CELLSJAVA-42599|Изображения теряются при преобразовании файла Excel в Pdf|Ошибка|
 |CELLSJAVA-42630|Метод Chart.calculate вызывает OutOfMemoryError|Ошибка|
-|CELLSJAVA-42623|Увеличение объема памяти при преобразовании файла Excel в формат файла PDF|Ошибка|
+|CELLSJAVA-42623|Увеличение памяти при рендеринге файла Excel в формат файла PDF|Ошибка|
 |CELLSJAVA-42592|Размер шрифта изменен в заголовке диаграммы из-за метода символов ()|Ошибка|
-|CELLSJAVA-41860|Эффект тени изменен при повторном сохранении XLS|Ошибка|
+|CELLSJAVA-41860|Эффект тени изменен при пересохранении XLS|Ошибка|
 |CELLSJAVA-42654|Преобразование Excel в PDF - преобразование никогда не завершается|Ошибка|
 |CELLSJAVA-42647|Не удалось получить или задать альтернативный текст для фигуры комментария|Ошибка|
 |CELLSJAVA-42644|Aspose.Cells зависает при преобразовании файла Spreadsheet ML (xml) в PDF с самозакрывающимся тегом Styles|Ошибка|
 |CELLSJAVA-42632|Невозможно установить альтернативный текст для формы SmartArt|Ошибка|
 |CELLSJAVA-42631|getFirstVisibleRow() и getFirstVisibleColumn() возвращают недопустимые индексы|Ошибка|
 |CELLSJAVA-42624|Гиперссылки с закодированными символами (например, "%5c") декодируются после повторного сохранения.|Ошибка|
-|CELLSJAVA-42563|Исключение «java.lang.NullPointerException» при цифровой подписи файла XLSX|Исключение|
+|CELLSJAVA-42563|Исключение "java.lang.NullPointerException" при цифровой подписи файла XLSX|Исключение|
 |CELLSJAVA-42602|Исключение «IndexOutOfBoundsException» при объединении ячеек в облегченном режиме|Исключение|
-|CELLSJAVA-42610|Исключение «java.lang.IllegalStateException: неверная кодировка: null» при загрузке файла XLS|Исключение|
+|CELLSJAVA-42610|Исключение «java.lang.IllegalStateException: Invalid encoding: null» при загрузке файла XLS|Исключение|
 |CELLSJAVA-42608|ArrayIndexOutOfBoundsException возникает при открытии файла Excel|Исключение|
 |CELLSJAVA-42596|«java.lang.ArrayIndexOutOfBoundsException» возникает при открытии файла Excel|Исключение|
 |CELLSJAVA-42595|«java.io.IOException: файл поврежден» возникает при открытии файла Excel|Исключение|
 |CELLSJAVA-42591|«com.aspose.cells.CellsException: недопустимая формула» при загрузке файла Excel|Исключение|
 |CELLSJAVA-42638|Cell.getDisplayStringValue() выдает java.lang.NullPointerException|Исключение|
-|CELLSJAVA-42652|Исключение java.lang.ArrayIndexOutOfBoundsException при загрузке файла XLS|Исключение|
-|CELLSJAVA-42650|Исключение: «Недопустимая кодировка: null» при загрузке файла XLS.|Исключение|
+|CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException произошло при загрузке файла XLS|Исключение|
+|CELLSJAVA-42650|Исключение: «Недопустимая кодировка: ноль» при загрузке файла XLS.|Исключение|
 |CELLSJAVA-42649|Исключение: «Число HPageBreaks не может превышать 1024» при загрузке файла XLS.|Исключение|
 |CELLSJAVA-42648|Исключение: «Не удалось прочитать данные изображения» в Picture.getData()|Исключение|
 
@@ -91,7 +91,7 @@ url: /ru/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **Добавляет новый элемент «TSV» для перечислений LoadFormat, SaveFormat и FileFormatType.**
 
-Представляет файл TSV (значения, разделенные табуляцией), то же самое с «TabDelimited».
+Представляет файл TSV (значения, разделенные табуляцией), то же самое, что и "TabDelimited".
 
 ### **Добавляет enum ImageType**
 
@@ -139,11 +139,11 @@ url: /ru/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **Добавляет метод Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
 
-Создает PDF-файл диаграммы с желаемым размером страницы и сохраняет его в поток.
+Создает диаграмму PDF с желаемым размером страницы и сохраняет ее в поток.
 
 ### **Добавляет метод Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
 
-Создает PDF-файл диаграммы с желаемым размером страницы и сохраняет его в файл.
+Создает диаграмму PDF с желаемым размером страницы и сохраняет ее в файл.
 
 ### **Добавляет свойство PdfSaveOptions.OutputBlankPageWhenNothingToPrint.**
 

@@ -36,7 +36,7 @@ url: /fr/net/aspose-cells-for-net-7-3-0-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 - Le sous-total génère une erreur d'exécution
 - Une exception est levée lors de l'appel de la méthode Cell.GetPrecedents()
@@ -46,20 +46,20 @@ url: /fr/net/aspose-cells-for-net-7-3-0-release-notes/
 
  Insectes
 
-- XPS de SheetRender et problème de format de nombre personnalisé
+- SheetRender's XPS et le problème de format numérique personnalisé
 - Les éléments de légende du graphique s'enroulent lors de l'enregistrement en tant qu'image
 - Les graphiques de la feuille de bogue ne s'affichent pas
 - Un problème avec la méthode Cells.ExportDataTableAsString() et le formatage personnalisé
 - Un sérieux problème avec le tableau croisé dynamique
 - Utilisation de la méthode Workbook.CalculateFormula() sur plusieurs classeurs à la volée donne #VALUE
-- Le rendu PDF des formes commerciales (texte à l'intérieur) n'est pas agréable
+- PDF le rendu des formes commerciales (texte à l'intérieur) n'est pas agréable
 - Problème avec la table des matières XLS basée sur le nombre de pages imprimées
 
  -La conversion PDF manque les valeurs des zones nommées
 
 - Le référencement de cellules avec des valeurs de formules matricielles ne fonctionne pas
 
- -Cells Problème de formatage
+-Cells Problème de formatage
 
 - Problème avec la formule référençant une image
 - Les formules matricielles dans SpreadsheetML ne sont pas reportées lors de la conversion en XLSX

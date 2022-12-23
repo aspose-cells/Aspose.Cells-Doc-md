@@ -15,7 +15,7 @@ url: /fr/java/create-pivot-table/
 Les objets du tableau croisé dynamique sont :
 
 - [**Champ Pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): il représente un champ dans un tableau croisé dynamique.
-- [**PivotFieldCollectionPivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : il représente une collection de tous les[**Champ Pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objets dans le tableau croisé dynamique.
+- [**PivotFieldCollectionPivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) il représente une collection de tous les[**Champ Pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objets dans le tableau croisé dynamique.
 - [**Tableau croisé dynamique**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): il représente un tableau croisé dynamique.
 - [**Collection de tableaux croisés dynamiques**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): il représente la collection de tous les objets de tableau croisé dynamique de la feuille de calcul.
 

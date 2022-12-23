@@ -16,10 +16,10 @@ Aşağıdaki örnek kod, tüm pivot tabloyu açık mavi renkle biçimlendirir ve
 
 **Kodu çalıştırmadan önce giriş pivot tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](format-pivot-table-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_1.png)
 
 **Kodu çalıştırdıktan sonra çıkış pivot tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](format-pivot-table-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](format-pivot-table-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FormatPivotTableCells-FormatPivotTableCells.java" >}}

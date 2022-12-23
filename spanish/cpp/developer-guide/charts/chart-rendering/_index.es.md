@@ -48,7 +48,7 @@ Aspose.Cells Compatibilidad con API para crear gráficos de Excel como se detall
 
 ## **Representación de gráficos**
 
-Aspose.Cells Soporte de API para convertir los gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de representación, la clase Chart ha expuesto los métodos ToImage y ToPdf con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+Aspose.Cells Compatibilidad con API para convertir los gráficos de Excel en imágenes y PDF formatos sin necesidad de herramientas o aplicaciones adicionales. Para brindar soporte de representación, la clase Chart ha expuesto los métodos ToImage y ToPdf con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
 ### **Representación de gráficos en imágenes**
 
@@ -70,7 +70,7 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Gráfico de renderizado a PDF**
+### **Tabla de renderizado al PDF**
 
 Para representar el gráfico en formato PDF, las API Aspose.Cells han expuesto el método Chart.ToPdf con la capacidad de almacenar el PDF resultante en la ruta del disco o Stream.
 
@@ -123,7 +123,7 @@ Hay algunos tipos de gráficos que actualmente no son compatibles con la represe
 ||DispersiónConectadoPorCurvasSinMarcador de datos|**Y**|
 ||ScatterConnectedByLinesWithDataMarker|**Y**|
 ||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**Área**|Área|**Y**|
+|**Zona**|Zona|**Y**|
 ||Área apilada|**Y**|
 ||Área100PorcentajeApilado|**Y**|
 ||Área3D|**Y**|
@@ -140,7 +140,7 @@ Hay algunos tipos de gráficos que actualmente no son compatibles con la represe
 ||SuperficieContornoEstructura metálica|norte|
 |**Burbuja**|Burbuja|**Y**|
 ||Burbuja3D|norte|
-|Valores|InventarioAltoBajoCerrar|**Y**|
+|Existencias|InventarioAltoBajoCerrar|**Y**|
 ||InventarioAbiertoAltoBajoCerrar|**Y**|
 ||InventarioVolumenAltoBajoCerrar|**Y**|
 ||StockVolumenAbiertoAltoBajoCerrar|**Y**|
@@ -176,6 +176,6 @@ Hay algunos tipos de gráficos que actualmente no son compatibles con la represe
 
 {{% alert color="primary" %}}
 
-En caso de que intente representar los tipos de gráficos no admitidos en imágenes o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
+En caso de que intente representar los tipos de gráficos no admitidos en una imagen o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}

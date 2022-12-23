@@ -16,12 +16,12 @@ url: /es/java/aspose-cells-for-java-21-4-release-notes/
 |CELLSJAVA-43386|La clasificación no funciona cuando los datos contienen caracteres no alfanuméricos|
 |CELLSJAVA-43403|La ubicación del texto se desplazó hacia la izquierda al guardar como HTML|
 |CELLSJAVA-43421|Los caracteres de escape y salto de línea no se representan correctamente al convertir HTML a Excel|
-|CELLSJAVA-43427|Formato condicional con barras de datos Mostrar valores en exportación HTML|
-|CELLSJAVA-43428| El formato de contabilidad combinado con la fuente de 6 puntos distorsiona los números en HTML|
+|CELLSJAVA-43427|Formato condicional con barras de datos Mostrar valores en HTML Exportar|
+|CELLSJAVA-43428| Formato de contabilidad combinado con fuente de 6 puntos distorsiona números en HTML|
 |CELLSJAVA-43429|El texto con alineación de texto vertical desaparece en HTML|
 |CELLSJAVA-43407|Las fórmulas de Excel se omiten/cambian después de guardar el archivo|
 |CELLSJAVA-43419| El formato de número personalizado no se muestra correctamente en PDF|
-|CELLSJAVA-43374|Las etiquetas de los gráficos se repiten al convertir los archivos adjuntos de Excel a PDF|
+|CELLSJAVA-43374|Las etiquetas de los gráficos se repiten al convertir los archivos de Excel adjuntos a PDF|
 |CELLSJAVA-43409| Aparecieron etiquetas de datos inesperados en la imagen de salida del gráfico|
 |CELLSJAVA-43411|Las advertencias de sustitución de fuentes no funcionan en la conversión de gráfico a imagen|
 |CELLSJAVA-43414|Problema de conversión de Xls a PDF|
@@ -44,7 +44,7 @@ Proporcione a los usuarios la capacidad de acceder a los datos en modo por lotes
 
 ### **Agrega las propiedades TxtSaveOptions.ExportQuotePrefix y TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Proporcione a los usuarios la capacidad de decidir qué hacer con la comilla simple inicial del valor de la celda al exportar/importar archivos CSV/TSV.
+Proporcione a los usuarios la capacidad de decidir cómo hacerlo con la comilla simple principal del valor de la celda al exportar/importar archivos CSV/TSV.
 
 ### **Agrega los métodos GlobalizationSettings.GetCollationKey(string,bool) y Compare(string,string,bool).**
 

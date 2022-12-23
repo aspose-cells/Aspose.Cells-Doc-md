@@ -15,7 +15,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.10.
 |CELLSJAVA-42634|Konvertera vänster höger bandform till bild|Förbättring|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - paketlistfil saknas|Förbättring|
 |CELLSJAVA-42528|Teckensnitt är inte en giltig HTML5 och självstängande tagg och webbläsare ger en felaktig bild av dess innehåll|Förbättring|
-|CELLSJAVA-42728|Ett undantag (StackOverFlow) uppstår när du sparar till PDF-utdata|Insekt|
+|CELLSJAVA-42728|Ett undantag (StackOverFlow) höjs när du sparar till PDF-utgång|Insekt|
 |CELLSJAVA-42729|Fel värde beräknat av ROUNDUP()|Insekt|
 |CELLSJAVA-42724|Kopiera ett intervall med PasteType.ALL (Klistra in alternativ) som inte kopierar radhöjder korrekt|Insekt|
 |CELLSJAVA-42722|Hyperlänktextformatering förloras när ny text ställs in|Insekt|

@@ -10,8 +10,8 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-6-3/
 
 {{% /alert %}} 
 ## **添加的 API**
-### **导入数据时支持 HTML 解析**
-此版本 Aspose.Cells for Java API 公开了 ImportTableOptions.setHtmlString 属性，该属性指示 API 在将数据导入工作表时解析 HTML 标记，并将解析结果设置为单元格值。请注意，Aspose.Cells API 已经提供了 Cell.setHtmlString 属性来为单个单元格执行此任务，但是，在批量导入数据时，ImportTableOptions.setHtmlString 属性（设置为 true 时）会尝试解析所有支持的 HTML 标签和集解析结果到相应的单元格。
+### **支持HTML边导入数据边解析**
+此版本的 Aspose.Cells for Java API 公开了 ImportTableOptions.setHtmlString 属性，该属性指示 API 在将数据导入工作表时解析 HTML 标记并将解析结果设置为单元格值。请注意，Aspose.Cells API 已经提供了 Cell.setHtmlString 属性来为单个单元格执行此任务，但是，在批量导入数据时，ImportTableOptions.setHtmlString 属性（设置为 true 时）会尝试解析所有支持的 HTML 标签和集解析结果到相应的单元格。
 
 这里是最简单的使用场景。
 
@@ -33,7 +33,7 @@ cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
 ### **添加方法 Workbook.createBuiltinStyle**
-Aspose.Cells for Java 8.6.3 公开了 Workbook.createBuiltinStyle 方法，可用于创建对应于其中一个的 Style 类的对象[Excel 应用程序提供的内置样式](/cells/zh/java/using-built-in-styles/)Workbook.createBuiltinStyle 方法接受来自枚举 BuiltinStyleType 的常量。请注意，对于以前版本的 Aspose.Cells API，可以通过 StyleCollection.createBuiltinStyle 方法完成相同的任务，但由于最近版本的 Aspose.Cells API 已经删除了 StyleCollection 类，因此新公开的 Workbook.createBuiltinStyle 方法可以被视为替代方法达到同样的效果。
+ Aspose.Cells for Java 8.6.3 公开了 Workbook.createBuiltinStyle 方法，可用于创建对应于其中一个的 Style 类的对象[Excel 应用程序提供的内置样式](/cells/zh/java/using-built-in-styles/)Workbook.createBuiltinStyle 方法接受来自枚举 BuiltinStyleType 的常量。请注意，对于以前版本的 Aspose.Cells API，可以通过 StyleCollection.createBuiltinStyle 方法完成相同的任务，但由于最近版本的 Aspose.Cells API 已经删除了 StyleCollection 类，因此新公开的 Workbook.createBuiltinStyle 方法可以被视为替代方法达到同样的效果。
 
 以下是简单的使用场景。
 

@@ -24,29 +24,29 @@ url: /fr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41528) - XLSB est corrompu après avoir été réenregistré avec Aspose.Cells
 
- (CELLSJAVA-41499) - Les hyperliens de référence Cell ne fonctionnent pas dans le HTML résultant
+(CELLSJAVA-41499) - Les hyperliens de référence Cell ne fonctionnent pas dans le résultat HTML
 
  (CELLSJAVA-41487) - Le calcul de la formule de plage nommée donne #NAME ?
 
-(CELLSJAVA-41518) - Acrobat Reader indique qu'une erreur s'est produite lors du traitement d'une page. Un problème est survenu lors de la lecture de ce document (135) lors du chargement du PDF généré Aspose.Cells
+ (CELLSJAVA-41518) - Acrobat Reader indique qu'une erreur s'est produite lors du traitement d'une page. Il y a eu un problème lors de la lecture de ce document (135) erreur, lors du chargement Aspose.Cells a généré PDF
 
- (CELLSJAVA-41515) - L'étiquette de données chevauche le point de données lors du rendu du graphique au format PDF
+ (CELLSJAVA-41515) - L'étiquette de données chevauche le point de données lors du rendu du graphique en PDF
 
  (CELLSJAVA-41513) - Aspose.Cells est incapable de convertir le fichier Excel contenant un graphique en pdf
 
  (CELLSJAVA-41504) - La valeur de l'axe Y est manquante dans l'image du graphique rendu lors de la conversion au format de fichier PDF
 
- (CELLSJAVA-41501) - Les valeurs de l'axe X dans le graphique sont inappropriées dans le fichier PDF/image de sortie
+ (CELLSJAVA-41501) - Les valeurs de l'axe X dans le graphique sont inappropriées dans la sortie PDF/ image
 
- (CELLSJAVA-41500) - La bordure du graphique saute à quelques endroits dans le fichier PDF/image de sortie
+ (CELLSJAVA-41500) - La bordure du graphique saute à quelques endroits dans le fichier de sortie PDF/Image
 
- (CELLSJAVA-41494) - Les mots semblent être concaténés dans la sortie PDF/Image du graphique Excel
+ (CELLSJAVA-41494) - Les mots semblent être concaténés dans PDF/Sortie d'image du graphique Excel
 
- (CELLSJAVA-41493) - Les traits d'union longs ne s'affichent pas correctement dans la sortie PDF/Image du graphique Excel
+(CELLSJAVA-41493) - Les traits d'union longs ne s'affichent pas correctement dans la sortie PDF/Image du graphique Excel
 
  (CELLSJAVA-41484) - Moins de points de graphique renvoyés que de points
 
-(CELLSJAVA-41475) - La propriété Axis Linked Source du graphique est réinitialisée lors de la conversion de XLSX en XLS
+ (CELLSJAVA-41475) - La propriété Axis Linked Source du graphique est réinitialisée lors de la conversion de XLSX en XLS
 
  (CELLSJAVA-41541) - La taille de la police n'est pas conservée lors de la conversion de la feuille de calcul XML 2003 vers d'autres formats
 
@@ -64,11 +64,11 @@ url: /fr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41502) - Une hauteur de RadioButon incorrecte est renvoyée
 
- (CELLSJAVA-41488) - La validation déroulante n'est pas appliquée à plus d'une région lorsque la feuille de calcul est enregistrée au format XLS
+(CELLSJAVA-41488) - La validation déroulante ne s'applique pas à plus d'une région lorsque la feuille de calcul est enregistrée sous XLS
 
  (CELLSJAVA-41483) - Le remplacement du code de macro écrase un fichier XLS s'il contient des noms cyrilliques
 
-(CELLSJAVA-41461) - La largeur des colonnes change après un nouvel enregistrement avec l'affichage défini sur 125 %
+ (CELLSJAVA-41461) - La largeur des colonnes change après un nouvel enregistrement avec l'affichage défini sur 125 %
 
  (CELLSJAVA-41454) - Le contenu du fichier xl/drawings/vmlDrawing.vml a été modifié après avoir réenregistré la feuille de calcul
 
@@ -76,17 +76,17 @@ url: /fr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41436) - Certaines cellules formatées supplémentaires dans la colonne W du fichier PDF
 
- (CELLSJAVA-41435) - Certaines cellules formatées supplémentaires au bas des colonnes P et Q dans le PDF
+ (CELLSJAVA-41435) - Quelques cellules formatées supplémentaires au bas des colonnes P et Q dans le PDF
 
  (CELLSJAVA-41434) - La sortie PDF a un formatage appliqué qui n'est pas présent dans Excel
 
  (CELLSJAVA-41350) - La modification de la police de la cellule ou d'une partie du texte d'une cellule ne prend pas effet
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
- (CELLSJAVA-41529) - Exception : "java.lang.ArrayIndexOutOfBoundsException" s'est produite lors du chargement d'un fichier XLSB
+(CELLSJAVA-41529) - Exception : "java.lang.ArrayIndexOutOfBoundsException" s'est produite lors du chargement d'un fichier XLSB
 
  (CELLSJAVA-41511) - Exception : java.lang.NumberFormatException : pour la chaîne d'entrée : "Infinity" lors de la fusion de documents Excel
 
@@ -94,7 +94,7 @@ url: /fr/java/aspose-cells-for-java-8-6-1-release-notes/
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -116,6 +116,6 @@ url: /fr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  Ajoute enum HtmlLinkTargetType et HtmlSaveOptions.LinkTargetType.
 
- Il est utilisé pour définir le type d'attribut cible en HTML
+ Il est utilisé pour définir le type d'attribut cible dans HTML
 
  sont également inclus dans ce Aspose.Cells for Java v8.6.1.

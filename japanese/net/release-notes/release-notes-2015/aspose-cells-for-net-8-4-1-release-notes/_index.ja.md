@@ -38,7 +38,7 @@ url: /ja/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43473) - レポート フィルターの選択の変更
 
-(CELLSNET-43450) - スプレッドシートを HTML に変換する際の HTML のレンダリングが正しくない
+(CELLSNET-43450) - スプレッドシートを HTML に変換する際に HTML が正しくレンダリングされない
 
 (CELLSNET-43428) - グループ ヘッダーのピボット テーブル セルのスタイルが正しくない
 
@@ -54,11 +54,11 @@ url: /ja/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43543) - 最後のセルの二重セル枠が正しく印刷されない
 
-(CELLSNET-43541) - PDF への変換時に表ヘッダーの境界線が欠落している
+(CELLSNET-43541) - PDF に変換すると、テーブル ヘッダーの境界線が欠落する
 
 (CELLSNET-43516) - Aspose が空のページを印刷しない
 
-(CELLSNET-43508) - スプレッドシートから PDF を作成すると空白の PDF が生成される
+(CELLSNET-43508) - スプレッドシートを PDF にすると空白の PDF が生成される
 
 (CELLSNET-43507) - 出力 PDF ファイルの画像のピクセルが少し劣化する
 
@@ -96,7 +96,7 @@ url: /ja/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-42854) - x 軸に半分の数の行とテキストが表示されない
 
-(CELLSNET-42614) - PDF にエクスポートされたチャートに余分な線がある
+(CELLSNET-42614) - PDF にエクスポートされたチャートに余分な線が含まれる
 
 (CELLSNET-40984) - 0 バイトの画像があります - Shape2Image エラー
 
@@ -136,7 +136,7 @@ url: /ja/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -178,7 +178,7 @@ Workbook.IsLicensed プロパティを追加します。
 
  ImageOrPrintOptions.SVGFitToViewPort プロパティを追加します。
 
-生成された SVG 画像がビューポートに適合するかどうかを示します。
+生成された SVG 画像がビュー ポートに収まるかどうかを示します。
 
 
 

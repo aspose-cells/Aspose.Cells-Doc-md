@@ -6,7 +6,7 @@ url: /tr/reportingservices/support-for-digital-signatures/
 ---
 {{% alert color="primary" %}} 
 
- Dijital imza, çalışma kitabının geçerli olduğunu ve kimsenin değiştirmediğini garanti eder. Dijital imza eklemek, bir zarfı mühürlemeye benzer. Bir zarf mühürlü olarak gelirse, içeriğinin kimsenin kurcalanmadığına dair bir dereceye kadar güvenceye sahip olursunuz.
+Dijital imza, çalışma kitabının geçerli olduğunu ve kimsenin değiştirmediğini garanti eder. Dijital imza eklemek, bir zarfı mühürlemeye benzer. Bir zarf mühürlü olarak gelirse, içeriğinin kimsenin kurcalanmadığına dair bir dereceye kadar güvenceye sahip olursunuz.
 
  Microsoft Selfcert.exe veya başka bir aracı kullanarak kişisel bir dijital imza oluşturabilir veya bir dijital imza satın alabilirsiniz. Bir elektronik tabloyu imzalamak için, dijital bir imza oluşturduktan sonra çalışma kitaplarınıza bir imza ekleyin.
 
@@ -20,7 +20,7 @@ Aspose.Cells for Reporting Services, Excel 2007 ve ODS dosya biçimlerine dışa
  bu**Aspose.Cells.ReportingServices.xml** dosyası, bir dijital imzanın yapılandırma bilgilerini ve metnini tutar.<DigitalSignature> etiket:
 
 - DigitalSignature kapalı olarak ayarlandığında, Aspose.Cells for Reporting Services, dijital imza işlevini kapatır.
- Örneğin:
+Örneğin:
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ Aspose.Cells for Reporting Services, Excel 2007 ve ODS dosya biçimlerine dışa
 {{< /highlight >}}
 
 - DigitalSignature değeri açık olduğunda, Aspose.Cells.ReportingServices, dijital imza işlevselliğini açar.
- Örneğin:
+Örneğin:
 
 {{< highlight "java" >}}
 
@@ -47,7 +47,7 @@ Aspose.Cells for Reporting Services, Excel 2007 ve ODS dosya biçimlerine dışa
 - pfxFilename – PFX dosyasını işaret eder. Dosya adı tam bir dosya adı olmalıdır. Boş bir değere ayarlanamaz.
 - pfxPwd – Parolayı ayarlar. Boş bırakılamaz.
 - amaç – İmzanın amacını açıklar. Boş olabilir.
- Örneğin:
+Örneğin:
 
 {{< highlight "java" >}}
 

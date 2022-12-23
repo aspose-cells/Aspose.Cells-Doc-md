@@ -10,6 +10,6 @@ Aspose.Cells st√∂der konvertering av en Excel-fil med tabell till ODS-fil. Du m√
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToOds-1.java" >}}
 
-ODS-utdatafilen som genereras av exempelkoden bifogas som referens.
+Utdatafilen ODS som genereras av exempelkoden bifogas som referens.
 
-[**Utdata ODS-fil**](ConvertTableToOds_out.ods)
+[**Utdata ODS Fil**](ConvertTableToOds_out.ods)

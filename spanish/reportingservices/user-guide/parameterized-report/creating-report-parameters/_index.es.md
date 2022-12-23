@@ -34,7 +34,7 @@ Para crear un parámetro de informe en Aspose.Cells.Report.Designer:
 Los valores válidos para un parámetro de informe pueden provenir de un conjunto de datos o un grupo de valores definidos por el usuario. Un parámetro de informe tiene dos campos de datos: etiqueta y valor. El valor de la etiqueta puede ser nulo.
 
 1.  Hacer clic**Configuración** para configurar un grupo de valores para el parámetro de informe.
-1.  Agregar valores para el**Etiqueta** y**Valor** campos.
+1.  Agregar valores para el**Etiqueta** y**Valor** los campos.
 
    **Agregando etiqueta y valor** 
 
@@ -45,7 +45,7 @@ Los valores válidos para un parámetro de informe pueden provenir de un conjunt
 
 1.  Hacer clic**Agregar**.
  Repita para agregar otros valores para el parámetro.
-1.  Hacer clic**Cerca**.
+1.  Hacer clic**Cerrar**.
 1.  Hacer clic**Ahorrar** para guardar el parámetro.
 1.  El nuevo parámetro de informe aparece en el panel izquierdo.
 

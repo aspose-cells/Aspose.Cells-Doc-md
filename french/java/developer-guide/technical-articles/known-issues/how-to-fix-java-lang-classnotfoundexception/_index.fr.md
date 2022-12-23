@@ -8,9 +8,9 @@ Aspose.Cells for Java API dépend de certaines bibliothèques supplémentaires, 
 Cet article répertorie ce type d'exceptions et explique quelles bibliothèques sont installées pour les résoudre.
 
 ## Comment réparer ClassNotFoundException : org.bouncycastle.jce.provider.BouncyCastleProvider
-### **Sommaire**
+### **Résumé**
 Aspose.Cells for Java API dépend de Bouncy Castle pour les fonctionnalités de chiffrement et de déchiffrement, c'est-à-dire que si le programme doit charger ou enregistrer des feuilles de calcul chiffrées, il est nécessaire d'ajouter la référence de bcprov-jdk16-146.jar dans le chemin de classe du projet.
-### **Les symptômes**
+### **Symptômes**
  Vous pouvez obtenir l'exception java.lang.ClassNotFoundException : org.bouncycastle.jce.provider.BouncyCastleProvider.
 ### **La solution**
 La solution est en fait très simple comme détaillé ci-dessous.

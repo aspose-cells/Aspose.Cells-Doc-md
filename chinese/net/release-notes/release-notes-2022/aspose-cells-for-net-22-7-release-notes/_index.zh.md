@@ -30,8 +30,8 @@ url: /zh/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51156|图表到图像的转换 - 输出图像中图表的不同显示|
 |CELLSNET-51213|3-D 饼图未正确呈现 - 图表到图像的转换|
 |CELLSNET-51472|设置为外端时，SVG 中缺少图表标签|
-|CELLSNET-51491|呈现为图像或 HTML 时图表系列中使用了错误的值|
-|CELLSNET-51525|导出为 HTML/PNG 或 PDF 时瀑布图不同|
+|CELLSNET-51491|渲染到图像或 HTML 时图表系列中使用了错误的值|
+|CELLSNET-51525|导出到HTML/PNG或PDF时瀑布图不同|
 |CELLSNET-51353|将带有 DDE 链接的 XLSB 文件转换为 XLSM 文件会更改链接中的 DDE 应用程序位置|
 |CELLSNET-51376|页面大小自动从 A4 更改？一张纸的信|
 |CELLSNET-51379|XLS 文件中 OLE 类型的外部链接被读取为 DDE 类型|

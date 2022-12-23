@@ -1,5 +1,5 @@
 ﻿---
-title: PDF への保存中に特定の Unicode 文字だけのフォントを変更する
+title: PDF に保存するときに、特定の Unicode 文字だけのフォントを変更します
 type: docs
 weight: 260
 url: /ja/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
@@ -18,7 +18,7 @@ url: /ja/net/change-the-font-on-just-the-specific-unicode-characters-while-savin
 ## **例**
 次のスクリーンショットは、以下のサンプル コードによって生成された 2 つの出力 PDF を比較しています。
 
-つは PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを設定せずに生成され、もう 1 つは PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを true に設定した後に生成されました。
+1 つは PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを設定せずに生成され、もう 1 つは PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを true に設定した後に生成されました。
 
 最初の Pdf でわかるように、Non-Breaking Hyphen のために、文全体のフォントが Times New Roman から Arial Unicode MS に変更されています。 2 番目の Pdf では、Non-Breaking Hyphen のフォントのみが変更されています。
 

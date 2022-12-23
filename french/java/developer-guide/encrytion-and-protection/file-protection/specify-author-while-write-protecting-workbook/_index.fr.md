@@ -10,7 +10,7 @@ Vous pouvez spécifier le nom de l'auteur tout en protégeant votre classeur en 
 
 ## **Spécifier l'auteur lors de la protection en écriture du classeur**
 
-L'exemple de code suivant explique l'utilisation de[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)propriété. Le code crée un classeur vide, le protège en écriture avec un mot de passe, spécifie le nom de l'auteur et l'enregistre en tant que[fichier Excel de sortie](67338593.xlsx). La capture d'écran suivante illustre l'effet de l'exemple de code sur le fichier Excel de sortie pour votre référence.
+L'exemple de code suivant explique l'utilisation du[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#Author)la propriété. Le code crée un classeur vide, le protège en écriture avec un mot de passe, spécifie le nom de l'auteur et l'enregistre en tant que[fichier Excel de sortie](67338593.xlsx). La capture d'écran suivante illustre l'effet de l'exemple de code sur le fichier Excel de sortie pour votre référence.
 
 ![tâche : image_autre_texte](specify-author-while-write-protecting-workbook_1.png)
 

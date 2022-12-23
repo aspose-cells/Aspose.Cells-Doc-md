@@ -16,6 +16,6 @@ Aspose.Cells consente di implementare il formato carta desiderato del foglio di 
 
 ![cose da fare:immagine_alt_testo](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.java" >}}

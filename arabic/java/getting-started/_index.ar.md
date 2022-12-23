@@ -21,11 +21,11 @@ Aspose.Cells for Java يدعم إصدارات Java التالية:
 
 [المزيد من التفاصيل](/cells/ar/java/system-requirements/)
 
-## **تثبيت**
+## **التركيب**
 
 ### **قم بتثبيت Aspose Cells for Java من مستودع Maven**
 
-Maven هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for Java.
+ Maven هو أسهل طريقة لتنزيل وتثبيت Aspose.Cells for Java.
 
 1.  حدد Aspose Maven تكوين / موقع المستودع في Maven pom.xml.
  2. حدد تبعية Aspose.Cells for Java API في ملفك pom.xml.

@@ -256,7 +256,7 @@ Eine der schnellsten Möglichkeiten, sich wiederholende Änderungen in einer gro
 Es gibt zwei Möglichkeiten, das Dialogfeld „Suchen/Ersetzen“ zu öffnen:
 
 1.  Wenn die Steuerung aktiv ist, drücken Sie**STRG+F** um das Dialogfeld zu öffnen, oder drücken Sie**STRG+R** Taste, um den Dialog mit der zu öffnen**Ersetzen** Schaltfläche aktiviert.
-1.  Bewegen Sie den Cursor auf den Zellenbereich im Arbeitsblatt und klicken Sie dann mit der rechten Maustaste. Auswählen**Finden** oder**Ersetzen** aus dem Menü.
+1.  Bewegen Sie den Cursor auf den Zellenbereich im Arbeitsblatt und klicken Sie dann mit der rechten Maustaste. Wählen**Finden** oder**Ersetzen** aus dem Menü.
 
 **Auswählen von Suchen**
 
@@ -301,13 +301,13 @@ Es gibt einige Suchoptionen, die Sie im Dialogfeld anpassen können. Die folgend
 So ersetzen Sie Text oder Werte:
 
 1.  Öffnen Sie das Dialogfeld „Suchen/Ersetzen“, indem Sie auf drücken**STRG+F** , oder wählen Sie aus, klicken Sie mit der rechten Maustaste auf eine Zelle, und wählen Sie sie aus**Finden** vor dem Klicken**Ersetzen**.
-1.  Geben Sie die Ersetzungszeichenfolge in die ein**Ersetzen mit**aufstellen.
+1.  Geben Sie die Ersetzungszeichenfolge in die ein**Ersetzen mit**Gebiet.
 1.  Klicken**Ersetzen**.
 
 So ersetzen Sie Text:
 
 1. Öffnen Sie das Dialogfeld.
-1.  Geben Sie den gesuchten Text ein**Finde was** Feld und den Text, den Sie darin ersetzen möchten**Ersetzen mit** aufstellen.
+1.  Geben Sie den gesuchten Text ein**Finde was** Feld und den Text, den Sie darin ersetzen möchten**Ersetzen mit** Gebiet.
 1.  Ersetzen Sie jeweils ein Vorkommen, indem Sie auf klicken**Nächstes finden** gefolgt von**Ersetzen**.
 1.  Wenn Sie sich sehr sicher sind, was das Arbeitsblatt enthält, klicken Sie auf**Alles ersetzen**.
 
@@ -356,7 +356,7 @@ Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Kommen
 
 ## Schaltflächen zum Hinzufügen/Entfernen von Arbeitsblättern anzeigen
 
- Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern mithilfe von Schaltflächen in der Symbolleiste. Damit die Schaltflächen im Frontend sichtbar sind, müssen Sie festlegen**GridWeb1.ShowAddButton** zu**Stimmt**. Der folgende Codeausschnitt veranschaulicht das Hinzufügen von Schaltflächen zum Hinzufügen/Entfernen zur GridWeb-Symbolleiste.
+ Aspose.Cells GridWeb unterstützt jetzt das Hinzufügen und Entfernen von Blättern mithilfe von Schaltflächen in der Symbolleiste. Damit die Schaltflächen im Frontend sichtbar sind, müssen Sie festlegen**GridWeb1.ShowAddButton** zu**wahr**. Der folgende Codeausschnitt veranschaulicht das Hinzufügen von Schaltflächen zum Hinzufügen/Entfernen zur GridWeb-Symbolleiste.
 
 ### Beispielcode
 

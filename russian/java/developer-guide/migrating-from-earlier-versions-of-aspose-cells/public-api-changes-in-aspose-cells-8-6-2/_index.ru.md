@@ -11,7 +11,7 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-6-2/
 {{% /alert %}} 
 ## **Добавлены API**
 ### **Поддержка обратного вызова с помощью интеллектуальных маркеров**
-В этом выпуске Aspose.Cells for Java API представлено поле WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют[получать уведомления об обработке ссылки на ячейку и/или смарт-маркера](/cells/ru/java/getting-notifications-while-merging-data-with-smart-markers/) . Следующий фрагмент кода демонстрирует использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.process.
+ В этом выпуске Aspose.Cells for Java API представлено поле WorkbookDesigner.CallBack и интерфейс ISmartMarkerCallBack, которые вместе позволяют[получать уведомления об обработке ссылки на ячейку и/или смарт-маркера](/cells/ru/java/getting-notifications-while-merging-data-with-smart-markers/) . Следующий фрагмент кода демонстрирует использование интерфейса ISmartMarkerCallBack для определения нового класса, который обрабатывает обратный вызов для метода WorkbookDesigner.process.
 
 **Java**
 

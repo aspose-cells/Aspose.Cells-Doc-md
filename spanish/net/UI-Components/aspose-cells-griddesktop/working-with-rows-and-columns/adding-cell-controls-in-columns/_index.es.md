@@ -22,7 +22,7 @@ Actualmente, Aspose.Cells.GridDesktop admite la adición de tres tipos de contro
 ### **Añadir botón**
 Para agregar botones en una columna usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Agregar**Botón** a cualquier especificado**Columna** del**Hoja de cálculo**
 
@@ -37,7 +37,7 @@ Para agregar botones en una columna usando Aspose.Cells.GridDesktop, siga los pa
 ### **Agregar casilla de verificación**
 Para agregar casillas de verificación en una columna usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Agregar**Caja** a cualquier especificado**Columna** del**Hoja de cálculo**
 
@@ -52,7 +52,7 @@ Para agregar casillas de verificación en una columna usando Aspose.Cells.GridDe
 ### **Agregar cuadro combinado**
 Para agregar cuadros combinados en una columna usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Cree una matriz de elementos (o valores) que se agregarán a**Caja combo**
 -  Agregar**Caja combo** (que contiene elementos o valores) a cualquier especificado**Columna** del**Hoja de cálculo**

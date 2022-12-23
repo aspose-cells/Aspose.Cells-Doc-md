@@ -20,7 +20,7 @@ url: /ja/java/aspose-cells-for-java-7-5-1-release-notes/
 
 40545 - Excel ファイルを開くことができない
 
-40549 - PDF 出力にチャートがありません
+40549 - PDF 出力にグラフがありません
 
 バグ
 

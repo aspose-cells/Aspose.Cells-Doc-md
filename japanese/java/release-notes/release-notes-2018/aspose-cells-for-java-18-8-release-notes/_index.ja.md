@@ -13,13 +13,13 @@ url: /ja/java/aspose-cells-for-java-18-8-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42680|ピボット テーブル リボンを無効にする|新機能|
-|CELLSJAVA-42568|ODS ファイルでワークブックとワークシートを保護する|新機能|
+|CELLSJAVA-42568|ODS ファイルのワークブックとワークシートを保護する|新機能|
 |CELLSJAVA-42677|XLSX ファイル プロセスの保存に関する中断の問題|強化|
 |CELLSJAVA-42687|他のシートから参照するとハイパーリンクが機能しない|強化|
-|CELLSJAVA-41176|スプレッドシートを PDF 形式にレンダリングする際の位置合わせの誤り|バグ|
-|CELLSJAVA-42676|HTML から MS Excel ファイル形式への変換中に、テーブル データが間違った行と列に移動しました|バグ|
-|CELLSJAVA-41670|HTML への変換中に Chrome と FireFox でチャートの画像の位置が正しくない|バグ|
-|CELLSJAVA-41245|Excel ファイルを HTML ファイル形式に変換するときにスライサー コントロールがレンダリングされない|バグ|
+|CELLSJAVA-41176|スプレッドシートを PDF 形式にレンダリングする際の位置合わせが正しくない|バグ|
+|CELLSJAVA-42676|HTML から MS Excel ファイル形式への変換中にテーブル データが間違った行と列に移動する|バグ|
+|CELLSJAVA-41670|Chrome と FireFox で HTML への変換中にチャートの画像位置が正しくない|バグ|
+|CELLSJAVA-41245|Excel ファイルを HTML ファイル形式に変換すると、スライサー コントロールがレンダリングされない|バグ|
 |CELLSJAVA-42684|グラフの中央にある垂直線が、レンダリングされたイメージで正しく描画されない|バグ|
 |CELLSJAVA-42682|負のバブルのグラデーション カラーが PDF 出力に適用されない|バグ|
 |CELLSJAVA-42681|グラフ カテゴリのタイトルが画像に正しく表示されない|バグ|
@@ -27,9 +27,9 @@ url: /ja/java/aspose-cells-for-java-18-8-release-notes/
 |CELLSJAVA-42694|Excel ファイルから透かしを読み取る|バグ|
 |CELLSJAVA-42686|プロパティ コメントに不要なテキストが含まれています|バグ|
 |CELLSJAVA-42685|プロパティ「リビジョン番号」が正しくチェックされていません|バグ|
-|CELLSJAVA-41485|ODS ファイル内のマクロは、生成された ODS ファイル形式では保持されません|バグ|
-|CELLSJAVA-42691|XLSX から HTML への変換中に NegativeArraySizeException が発生する|例外|
-|CELLSJAVA-42675|HTML ファイルをワークブックにロード中に発生した NumberFormatException|例外|
+|CELLSJAVA-41485|ODS ファイルのマクロは、生成された ODS ファイル形式では保持されません。|バグ|
+|CELLSJAVA-42691|XLSX を HTML に変換中に NegativeArraySizeException が発生する|例外|
+|CELLSJAVA-42675|HTML ファイルをワークブックにロード中に NumberFormatException が発生する|例外|
 |CELLSJAVA-42689|CalculateFormula の呼び出し中に発生する NullPointerException 例外|例外|
 |CELLSJAVA-42678|ワークシートを PNG ファイル形式にレンダリングするときの例外|例外|
 |CELLSJAVA-42411|Cell のエラー: E22-無効な数式 - MS Excel ファイルを開く際の例外|例外|

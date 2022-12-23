@@ -15,7 +15,7 @@ url: /tr/java/aspose-cells-java-1-7-2-0-hot-fix-release-notes/
  Aspose.Cells for Java V1.7.2 sürümünü yayınladık! Aşağıdaki geliştirmeler ve düzeltmeler dahildir:
 
 - Sayfa düzeninin üstbilgisine/altbilgisine resim eklemeyi destekler
- SpreadsheetML dosyasından Sayfa kurulumu, Ad, Koruma, Veri Doğrulama ve DocumentProperties'i içe aktarmayı destekler
- Sayfa kurulumu, Ad, Koruma, Veri Doğrulama ve DocumentProperties'in SpreadsheetML dosyasına aktarılmasını destekler
+ SpreadsheetML dosyasından Sayfa yapısı, Ad, Koruma, Veri Doğrulama ve Belge Özelliklerini içe aktarmayı destekler
+ Sayfa yapısı, Ad, Koruma, Veri Doğrulama ve Belge Özelliklerini SpreadsheetML dosyasına aktarmayı destekler
  Daha yerleşik işlevleri hesaplamayı destekler
  Grafikteki yazı tipinin otomatik rengini ayarlama hatasını düzeltir.

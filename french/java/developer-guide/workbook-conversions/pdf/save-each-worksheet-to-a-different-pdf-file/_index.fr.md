@@ -16,6 +16,6 @@ Si vous devez enregistrer chaque feuille de calcul dans votre modèle de fichier
 
 {{% alert color="primary" %}}
 
- Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}

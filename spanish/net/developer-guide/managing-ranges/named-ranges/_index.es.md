@@ -19,7 +19,7 @@ Aspose.Cells proporciona la misma funcionalidad que Microsoft Excel para agregar
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-AddWorkbookScopedNamedRange-1.cs" >}}
-## **Adición de un rango con nombre con ámbito de hoja de trabajo**
+## **Adición de un rango con nombre con ámbito de hoja de cálculo**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkbookScopedNamedRanges-WorksheetNamedRange-1.cs" >}}

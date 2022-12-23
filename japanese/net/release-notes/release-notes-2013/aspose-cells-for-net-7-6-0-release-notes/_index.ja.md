@@ -30,7 +30,7 @@ url: /ja/net/aspose-cells-for-net-7-6-0-release-notes/
 
 バグ
 
-41570 - Excel から PDF アラビア語への変換の問題
+41570 - Excel から PDF へのアラビア語変換の問題
 
 41983 - XLS ファイルのピボットテーブルが破損する
 

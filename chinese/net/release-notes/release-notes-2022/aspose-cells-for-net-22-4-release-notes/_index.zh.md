@@ -19,8 +19,8 @@ url: /zh/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50816|在 Aspose.Cells.GridDesktop 中支持高对比度主题|
 |CELLSNET-50751|复制范围时支持 PasteType.ValuesAndFormats。|
 |CELLSNET-50620|将 xls 转换为 pdf 时，文本框中的文本空白行大小未正确呈现|
-|CELLSNET-50684|从 ODS 文件中提取 OLE 附件的问题|
-|CELLSNET-50712|在 Excel 到 PDF 的转换中，艺术字效果和形状未正确呈现|
+|CELLSNET-50684|从 ODS 文件中提取 OLE 附件时出现问题|
+|CELLSNET-50712|艺术字效果和形状在 Excel 中未正确呈现到 PDF 转换|
 |CELLSNET-50714|通过 Aspose.Cells API 打开和保存时 XLSB 文件已损坏|
 |CELLSNET-50778|输出 PDF 中的数据透视表缺少垂直线|
 |CELLSNET-50517|插入/删除行后条件格式公式中的错误引用|
@@ -33,22 +33,22 @@ url: /zh/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50815|双击编辑单元格值行为不正确|
 |CELLSNET-50594|将 XLSX 转换为 HTML 时，文本隐藏在输入字段后面|
 |CELLSNET-50665|转换为 pdf 时设置 CreatedTime 后，Pdf/A-1b 验证失败|
-|CELLSNET-50701|插入图像的亮度和对比度在 Excel 到 PDF 转换中被重置|
-|CELLSNET-50834|Excel 到 HTML 转换中表格合并单元格的问题|
-|CELLSNET-50595|XLSX 到 SVG：图表的差异|
+|CELLSNET-50701|插入图像的亮度和对比度在 Excel 中重置为 PDF 转换|
+|CELLSNET-50834|Excel 中表的合并单元格问题到 HTML 转换|
+|CELLSNET-50595|XLSX 至 SVG：图表差异|
 |CELLSNET-50596|输出 XLSX 文件中的轴单位未更改|
 |CELLSNET-50740|XLSX 到 JPG：文本移到图表的右侧|
-|CELLSNET-50309|PNG 范围：输出不符合预期|
+|CELLSNET-50309|范围到 PNG：输出不符合预期|
 |CELLSNET-50610|RecalculateBeforeSave 在较新版本中始终为 false|
 |CELLSNET-50611|Excel 中的布尔值问题到 PDF 渲染|
 |CELLSNET-50706|第二次使用 SaveToStream() 保存时，文件大小减小了很多倍|
 |CELLSNET-50749|DeleteBlankColumns(options) 方法删除只有评论的列|
 |CELLSNET-50759|当工作簿具有指向尚未保存的工作簿的外部链接时，无法正确保存公式|
 |CELLSNET-50776|使用 System.Dynamic.ExpandoObject 类型的通用列表作为嵌套对象的数据源时，不处理智能标记|
-|CELLSNET-50779|转换 XLS -> XLSX -> XLS 时有关嵌入对象的潜在数据丢失|
+|CELLSNET-50779|转换 XLS -> XLSX -> XLS 时有关嵌入式对象的潜在数据丢失|
 |CELLSNET-50821|Range.AutoFill 问题 - 如果范围区域相交，则数据不会正确自动填充|
 |CELLSNET-50777|PutValue 方法在澳大利亚区域格式上抛出 System.StackOverflowException|
-|CELLSNET-50275|将 ODS 呈现为 HTML 时出现“对象引用未设置到对象的实例”异常|
+|CELLSNET-50275|渲染 ODS 到 HTML 时出现“对象引用未设置到对象的实例”异常|
 |CELLSNET-50713|加载 XLSB 文件时出现 System.NullReferenceException|
 
 ## **公共 API 和向后不兼容的更改**
@@ -109,23 +109,23 @@ url: /zh/net/aspose-cells-for-net-22-4-release-notes/
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, PivotField baseField) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, int row, int column, int baseFieldIndex) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 TimelineCollection.Add(PivotTable pivot, string destCellName, string baseFieldName) 方法。**
 
-使用数据透视表作为数据源添加新的时间线。
+使用数据透视表作为数据源添加新的时间轴。
 
 ### **添加 DataLabelShapeType.Line 枚举。**
 

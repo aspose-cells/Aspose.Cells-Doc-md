@@ -13,7 +13,7 @@ url: /zh/java/chart-rendering/
 
 ## **渲染图**
 
- Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，而无需任何其他工具或应用程序。为了提供渲染支持，[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)班级暴露了[**印象**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**转PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 具有重载真实性的方法，以最好地满足应用程序的要求。
+ Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，无需任何其他工具或应用程序。为了提供渲染支持，[**图表**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)班级暴露了[**印象**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**转PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 具有重载真实性的方法，以最好地满足应用程序的要求。
 
 ### **将图表渲染为图像**
 
@@ -25,9 +25,9 @@ url: /zh/java/chart-rendering/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **将图表渲染为 PDF**
+### **渲染图到 PDF**
 
-为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了[**图表.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，能够将生成的 PDF 存储在光盘路径或 OutputStream 的实例上。
+为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了[**图表.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) 方法，能够将结果 PDF 存储在光盘路径或 OutputStream 的实例上。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -74,7 +74,7 @@ url: /zh/java/chart-rendering/
 ||三维区域|**Y**|
 ||Area3D堆叠|**Y**|
 ||Area3D100PercentStacked|**Y**|
-|**甜甜圈**|甜甜圈|**Y**|
+|**油炸圈饼**|油炸圈饼|**Y**|
 ||甜甜圈爆炸|**Y**|
 |**雷达**|雷达|**Y**|
 ||带数据标记的雷达|**Y**|
@@ -121,7 +121,7 @@ url: /zh/java/chart-rendering/
 
 {{% alert color="primary" %}}
 
-如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到大小为 0 的图像或空白 PDF。
+如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到 0 大小的图像或空白 PDF。
 
 {{% /alert %}}
 
@@ -129,4 +129,4 @@ url: /zh/java/chart-rendering/
 ## **推进主题**
 - [将图表转换为 SVG 格式的图像](/cells/zh/java/converting-chart-to-image-in-svg-format/)
 - [创建具有所需页面大小的图表 PDF](/cells/zh/java/create-chart-pdf-with-desired-page-size/)
-- [使用 viewBox 属性将图表导出为 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
+- [使用 viewBox 属性将图表导出到 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)

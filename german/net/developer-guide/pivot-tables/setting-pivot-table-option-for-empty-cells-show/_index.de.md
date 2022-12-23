@@ -15,7 +15,7 @@ Mit Aspose.Cells können Sie verschiedene Optionen für Pivot-Tabellen festlegen
 So finden und setzen Sie diese Option in Microsoft Excel:
 
 1. Wählen Sie eine Pivot-Tabelle aus und klicken Sie mit der rechten Maustaste.
-1.  Auswählen**PivotTable-Optionen**.
+1.  Wählen**PivotTable-Optionen**.
 1.  Wähle aus**Layout & Format** Tab.
 1.  Wähle aus**Für leere Zellen anzeigen** Option und geben Sie eine Zeichenfolge an.
 
@@ -25,6 +25,6 @@ So finden und setzen Sie diese Option in Microsoft Excel:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-SettingPivotTableOption-SettingPivotTableOption.cs" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Pivot-Tabelle formatieren](/cells/de/net/formatting-pivot-table/)

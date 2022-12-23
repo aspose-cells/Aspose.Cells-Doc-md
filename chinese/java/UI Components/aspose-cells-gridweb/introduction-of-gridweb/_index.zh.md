@@ -15,23 +15,23 @@ url: /zh/java/introduction-of-gridweb/
 ### **运行 GridWeb 的分步指南 Java 演示**
 1. 提炼**apache-tomcat-7.0.52.zip**在任何目录中，例如 C:\Tomcat
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_1.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_1.png)
 
 
 
 以下快照显示了 Apache Tomcat 服务器的提取目录和文件
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_2.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_2.png)
 
 
 
 您可能还需要设置环境变量**卡塔利娜之家** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_3.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_3.png)
 
 1. 打开**tomcat-users.xml**文件。
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_4.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_4.png)
 
 1. 添加此用户：
 
@@ -47,71 +47,71 @@ url: /zh/java/introduction-of-gridweb/
 
 **这里的用户名是tomcat，密码是secret** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_5.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_5.png)
 
 1. 跑过**启动.bat**文件。
 它将运行 Apache Tomcat 服务器。
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_6.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_6.png)
 
 
 
 **在命令窗口中运行的 Tomcat 服务器** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_7.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_7.png)
 
 1. 现在打开浏览器并输入**本地主机：8080**.
 显示 Apache Tomcat 网页。
 
    **Apache Tomcat 网页** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_8.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_8.png)
 
 1. 点击**经理应用程序**并键入用户名和密码。 （如上：tomcat，secret）
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_9.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_9.png)
 
 1. 向下滚动到该部分**要部署的 WAR 文件**并浏览**gridwebdemo.war**文件。
 1. 点击**部署**. 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_10.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_10.png)
 
 1. 浏览**gridwebdemo.war**文件。
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_11.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_11.png)
 
 1. 点击**部署**. 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_12.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_12.png)
 
 1. 部署好后，点击**/网格网络演示**并开始运行演示。
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_13.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_13.png)
 
 
 显示 GridWeb 演示页面。
 
 **GridWeb 演示页面** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_14.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_14.png)
 
 1. 单击任何演示并运行它。
 
    **创建内容演示运行** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_15.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_15.png)
 
 
 
 **工作表演示运行** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_16.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_16.png)
 
 
 
 **HeaderBar 和 CommandButton 演示运行** 
 
-![待办事项：图像_替代_文本](introduction-of-gridweb_17.png)
+![待办事项：图片_替代_文本](introduction-of-gridweb_17.png)
 ## **Aspose.Cells.GridWeb - 演示**
 {{% alert color="primary" %}} 
 

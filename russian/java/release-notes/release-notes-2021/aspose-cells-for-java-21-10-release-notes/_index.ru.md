@@ -21,15 +21,15 @@ url: /ru/java/aspose-cells-for-java-21-10-release-notes/
 |CELLSJAVA-43838|После выполнения XlsToXlsx AutoShape теряется|
 |CELLSJAVA-43839|После выполнения XlsToXlsx LeftBracket теряется|
 |CELLSJAVA-43842|После выполнения XlsToXlsx форма LeftBracket отличается от исходной.|
-|CELLSJAVA-43848|Преобразование Excel в PDF: некоторые символы WordArt переносятся не так, как в файле Excel.|
+|CELLSJAVA-43848|Преобразование Excel в PDF — некоторые символы WordArt переносятся не так, как в файле Excel|
 |CELLSJAVA-43880|Неправильные закругленные углы текстового поля после преобразования xls в xlsx|
 |CELLSJAVA-43867|Значок условного формата отличается при экспорте в html|
 |CELLSJAVA-43812|excelToHtml: неправильное смещение позиции фигуры|
-|CELLSJAVA-43871|OLE-объекты Prism 9 не отображаются в выходном PDF-файле|
+|CELLSJAVA-43871|OLE-объекты Prism 9 не отображаются на выходе PDF|
 |CELLSJAVA-43883|Неверные размеры визуализированных страниц|
 |CELLSJAVA-43881|Объединение файлов приводит к отсутствию настройки цвета фона листов|
 |CELLSJAVA-43892|Границы Excel, преобразованные в HTML, отсутствуют|
-|CELLSJAVA-43787|Исключение «IllegalArgumentException: длина тире равна нулю…» в рендеринге Excel в HTML|
+|CELLSJAVA-43787|Исключение «IllegalArgumentException: длина тире равна нулю…» в Excel до рендеринга HTML|
 |CELLSJAVA-43885|IllegalArgumentException при преобразовании excel|
 |CELLSJAVA-43874|Workbook.save создает исключение для определенного файла по Aspose.Cells, только когда применяется лицензия Aspose|
 

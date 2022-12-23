@@ -12,7 +12,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-21-6-release-note
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSRS-532 | يبدو أن قيمة المحددات في Aspose.Cells.ReportingServices.xml غير صحيحة.| حشرة|
+|CELLSRS-532 | يبدو أن قيمة المحددات في Aspose.Cells.ReportingServices.xml غير صحيحة.| خلل برمجي|
 |CELLSRS-579 | دعم لتصدير تقرير تنسيق EMF.|ميزة جديدة|
 
 

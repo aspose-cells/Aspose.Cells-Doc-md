@@ -12,7 +12,7 @@ url: /ja/jasperreports/high-fidelity-to-the-report-design/
 
 ![todo:画像_代替_文章](high-fidelity-to-the-report-design_1.png)
 
-**組み込みの [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) エクスポーターを使用してエクスポートされた XLS レポートのサンプル**
+**組み込みの [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) エクスポーターを使用してエクスポートされたサンプル XLS レポート**
 
 ![todo:画像_代替_文章](high-fidelity-to-the-report-design_2.png)
 

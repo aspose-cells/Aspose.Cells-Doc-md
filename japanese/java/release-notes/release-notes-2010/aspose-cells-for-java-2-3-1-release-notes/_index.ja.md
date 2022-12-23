@@ -37,7 +37,7 @@ Aspose.Cells for Java 2.3.1 を発表させていただきます。
 |17818 | xlsx|テンプレートファイルの読み込み|
 |17835 |HTML|線の色、RichText 形式|
 |17837 |xls|列幅の問題|
-|17960 | PDF|生成された PDF は空のまま|
+|17960 | PDF|生成された PDF は空のままです|
 |17963 |xls|getStringValue()|
 |17968 |Chart2Image|Chart2Image|
 |17989 |スマートマーカー|動的数式|
@@ -47,7 +47,7 @@ Aspose.Cells for Java 2.3.1 を発表させていただきます。
 |18181 | xlsx|Excel 2007 ファイルのピボット テーブルの保存|
 |18188 | xlsx|Excel 2007 ファイルのフォント名の設定|
 |18201 |xls|Cell.getDependents() が例外をスローする|
-|18257 | PDF|エクスポートされた PDF の印刷領域|
+|18257 | PDF|エクスポートされた印刷領域 PDF|
 |18274 |xls|画像付きのワークシートを削除する|
 |18288 | PDF|Pdf 保存のパフォーマンスの向上|
 |18307 | xlsx|Excel 2007 ドキュメントのプロパティ|

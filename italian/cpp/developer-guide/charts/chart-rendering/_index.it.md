@@ -48,7 +48,7 @@ Aspose.Cells Le API supportano la creazione di una verità di grafici Excel come
 
 ## **Grafici di rendering**
 
-Aspose.Cells Le API supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Per fornire il supporto per il rendering, la classe Chart ha esposto i metodi ToImage e ToPdf con una varietà di overload per soddisfare al meglio i requisiti dell'applicazione.
+Le API Aspose.Cells supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Per fornire il supporto per il rendering, la classe Chart ha esposto i metodi ToImage e ToPdf con una varietà di overload per soddisfare al meglio i requisiti dell'applicazione.
 
 ### **Rendering di grafici in immagini**
 
@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Rendering del grafico in PDF**
+### **Grafico di rendering a PDF**
 
-Per eseguire il rendering del grafico in formato PDF, le API Aspose.Cells hanno esposto il metodo Chart.ToPdf con la possibilità di archiviare il PDF risultante nel percorso del disco o nello Stream.
+Per eseguire il rendering del grafico nel formato PDF, le API Aspose.Cells hanno esposto il metodo Chart.ToPdf con la possibilità di memorizzare il risultante PDF nel percorso del disco o nello Stream.
 
 {{< highlight "cpp" >}}
 
@@ -176,6 +176,6 @@ Esistono alcuni tipi di grafici che attualmente non sono supportati per il rende
 
 {{% alert color="primary" %}}
 
-Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati in immagine o PDF, potresti ritrovarti con immagini di dimensioni 0 o PDF vuoto.
+Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati su image o PDF, potresti ritrovarti con immagini di dimensione 0 o PDF vuoto.
 
 {{% /alert %}}

@@ -12,7 +12,7 @@ Varsayılan olarak, Aspose.Cells, yalnızca 15 anlamlı basamak depolayan MS-Exc
 
  Aşağıdaki örnek kod, Aspose.Cells'i excel dosyasında çift değerleri depolarken 15 anlamlı basamak kullanmaya zorlar. lütfen kontrol ediniz[çıktı excel dosyası](22774105.xlsx) . Uzantısını .zip olarak değiştirin ve açın ve göreceksiniz, excel dosyasının içinde yalnızca 15 önemli basamak saklanıyor. Aşağıdaki ekran görüntüsü,[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)çıktı excel dosyasındaki özellik.
 
-![yapılacaklar:resim_alternatif_Metin](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
+![yapılacaklar:resim_alternatif_metin](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
 ## **Basit kod**
 

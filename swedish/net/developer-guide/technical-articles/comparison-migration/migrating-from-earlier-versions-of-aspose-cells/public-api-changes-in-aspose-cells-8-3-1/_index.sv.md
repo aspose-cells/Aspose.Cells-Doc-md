@@ -235,7 +235,7 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera artikeln[Spara ODS-fil i ODF 1.1 och 1.2 Specifikationer](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) för mer information.
+ Vänligen kontrollera artikeln[Spara ODS-filen i ODF 1.1 och 1.2 Specifikationer](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) för mer information.
 
 {{% /alert %}} 
 
@@ -245,7 +245,7 @@ m_workbook.Save("ODF1.1.ods", options)
 1. Välj cellen som innehåller din Sparkline.
 1.  Välj**Redigera data från Sparkline** avsnitt inuti**Design** flik
 1.  Välja**Redigera gruppplats och data**.
-1. Specificera**Dataområde** & **Plats**.
+1.  Specificera**Dataområde** & **Plats**.
 
  Följande exempelkod läser in källkalkylarket, kommer åt den första sparklinegruppen och lägger till nya dataintervall och platser för sparklinegruppen.
 

@@ -6,7 +6,7 @@ url: /ja/net/ohal-report-canvas-component/
 ---
 {{% alert color="primary" %}}
 
-[レポートPDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
+[報告 PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
 **レポート キャンバス コンポーネントでの Aspose.Cells の使用**
 

@@ -17,38 +17,38 @@ url: /de/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44967|Leistungsüberlegungen für die NameCollection.Remove-Methode|Leistung|
 |CELLSNET-44964|Aspose.Cells hängt, wenn CalculateFormula() für Workbook verwendet wird.|Leistung|
 |CELLSNET-44819|Die Excel-Quelldatei kann nicht in HTML gespeichert werden und es kommt zu einer Zeitüberschreitung|Leistung|
-|CELLSNET-44960|Die Formatierung der Pivot-Tabelle geht beim Konvertieren der Tabelle in das PDF-Dateiformat verloren|Insekt|
-|CELLSNET-44951|Zeilendaten werden beim Rendern der Tabelle in PDF nach dem Aktualisieren der Pivot-Tabelle falsch platziert|Insekt|
-|CELLSNET-44950|Cell Schattierung fehlt beim Rendern der Tabelle in PDF nach dem Aktualisieren der Pivot-Tabelle|Insekt|
-|CELLSNET-44949|Beim Rendern der Tabelle in PDF nach dem Aktualisieren der Pivot-Tabelle fehlen leere Spalten|Insekt|
-|CELLSNET-44930|Spalte fehlt in Pivot-Tabelle nach Aktualisierung und Konvertierung in PDF|Insekt|
+|CELLSNET-44960|Die Formatierung der Pivot-Tabelle geht beim Konvertieren der Tabelle in das Dateiformat PDF verloren|Insekt|
+|CELLSNET-44951|Zeilendaten sind beim Rendern der Tabelle auf PDF nach dem Aktualisieren der Pivot-Tabelle falsch platziert|Insekt|
+|CELLSNET-44950|Cell Schattierung fehlt beim Rendern der Tabelle auf PDF nach dem Aktualisieren der Pivot-Tabelle|Insekt|
+|CELLSNET-44949|Beim Rendern der Tabelle auf PDF nach dem Aktualisieren der Pivot-Tabelle fehlen leere Spalten|Insekt|
+|CELLSNET-44930|Spalte fehlt in der Pivot-Tabelle nach Aktualisierung und Konvertierung in PDF|Insekt|
 |CELLSNET-44929|Nach dem Aktualisieren und Konvertieren in PDF fehlen Daten in der Pivot-Tabelle|Insekt|
 |CELLSNET-44908|Eine Tabelle mit Slicern wird nach einem einfachen erneuten Speichervorgang beschädigt|Insekt|
 |CELLSNET-44206|Das Aufrufen von RefreshData für die Pivot-Tabelle beschädigt die resultierende Tabelle|Insekt|
-|CELLSNET-44184|Das Aktualisieren von Pivot-Tabellen und Diagrammen generiert eine beschädigte XLSX-Datei|Insekt|
-|CELLSNET-44974|Cell Die Schattierung ist beim Aktualisieren der Pivot-Tabelle und beim Rendern in PDF durcheinander geraten|Insekt|
-|CELLSNET-44972|Cell Schattierung auf falsche Zelle angewendet, während Pivot-Tabelle aktualisiert und in PDF gerendert wird|Insekt|
-|CELLSNET-44963|Als PDF speichern erstellt zusätzliche Rahmen für die Zeilen|Insekt|
+|CELLSNET-44184|Beim Aktualisieren von Pivot-Tabellen und Diagrammen wird eine beschädigte XLSX-Datei generiert|Insekt|
+|CELLSNET-44974|Die Schattierung von Cell wird beim Aktualisieren der Pivot-Tabelle und beim Rendern auf PDF durcheinander gebracht|Insekt|
+|CELLSNET-44972|Cell Schattierung auf falsche Zelle angewendet, während Pivot-Tabelle aktualisiert und auf PDF gerendert wird|Insekt|
+|CELLSNET-44963|Speichern unter PDF erstellt zusätzliche Rahmen für die Zeilen|Insekt|
 |CELLSNET-44927|Der Datentyp wird als DateTime betrachtet, wenn das benutzerdefinierte Format Magenta enthält|Insekt|
 |CELLSNET-44921|Die Zeilenhöhe wurde nach einem einfachen erneuten Speichervorgang geändert|Insekt|
 |CELLSNET-44916|Die Methode Workbook.CalculateFormula() berechnet den Wert der Zelle B8 falsch|Insekt|
-|CELLSNET-44910|Beim Konvertieren eines ODS in das PDF-Dateiformat erscheint ein zusätzliches Zeichen 4|Insekt|
+|CELLSNET-44910|Beim Konvertieren eines ODS-Dateiformats in ein PDF-Dateiformat erscheint ein zusätzliches Zeichen 4|Insekt|
 |CELLSNET-44958|Die Schriftartersetzung findet nicht statt, wenn FontConfigs.PreferSystemFontSubstitutes auf „true“ gesetzt ist|Insekt|
-|CELLSNET-44937|Excel-zu-PDF-Rendering – Einige Wörter werden im zusammengeführten Bereich in zwei Teile geschnitten|Insekt|
-|CELLSNET-44933|Exportieren von Excel-Diagrammen in SVG|Insekt|
-|CELLSNET-44914|Beim Drucken oder Speichern als PDF ist der Rand auf der rechten Seite größer als in MS Excel|Insekt|
-|CELLSNET-44931|Als PDF speichern erstellt eine zusätzliche leere Seite.|Insekt|
-|CELLSNET-44926|Das PNG-Bild des Diagramms stimmt nicht mit dem MS-Excel-Diagramm überein|Insekt|
-|CELLSNET-44912|Der Zeitaufwand für die Konvertierung von XLS in XLSX ist hoch|Insekt|
-|CELLSNET-44905|Der PDF-Export zeigt 0 in Stapeldiagrammen an|Insekt|
-|CELLSNET-44902|Problem mit der Datenreihe des Diagramms in Excel zum PDF-Rendering|Insekt|
+|CELLSNET-44937|Excel-zu-PDF-Rendering - Einige Wörter werden im zusammengeführten Bereich in zwei Teile geteilt|Insekt|
+|CELLSNET-44933|Exportieren von Excel-Diagrammen nach SVG|Insekt|
+|CELLSNET-44914|Der Rand auf der rechten Seite ist beim Drucken oder Speichern als PDF größer als in MS Excel|Insekt|
+|CELLSNET-44931|Speichern unter PDF erstellt eine zusätzliche leere Seite.|Insekt|
+|CELLSNET-44926|PNG Diagrammbild stimmt nicht mit MS-Excel-Diagramm überein|Insekt|
+|CELLSNET-44912|Die zum Konvertieren von XLS in XLSX benötigte Zeit ist hoch|Insekt|
+|CELLSNET-44905|PDF Export zeigt 0 in Stapeldiagrammen an|Insekt|
+|CELLSNET-44902|Problem mit der Datenreihe des Diagramms in Excel bis zum Rendern von PDF|Insekt|
 |CELLSNET-44897|Bild des Diagramms mit dem Titel Life is not correct|Insekt|
 |CELLSNET-44890|Series DataLabel-Wert und -Prozentsatz, der nach dem einfachen erneuten Speichern VALUE und PERCENTAGE anzeigt|Insekt|
 |CELLSNET-44883|Die X-Achse (Datentabelle) ist in der gerenderten PDF-Datei nicht identisch|Insekt|
-|CELLSNET-44833|Falsche Darstellung von Zeilen beim Konvertieren von Tabellenkalkulationen in PDF|Insekt|
+|CELLSNET-44833|Falsche Darstellung von Zeilen beim Konvertieren der Tabelle in PDF|Insekt|
 |CELLSNET-44831|API rendert eine zusätzliche Legende mit SheetRender, wenn ImageOrPrintOptions.OnlyArea auf „false“ gesetzt ist|Insekt|
 |CELLSNET-44803|Der gestapelte Datenteil des Diagramms fehlt im Ausgabediagramm, nachdem die Methode Chart.Calculate() verwendet wurde|Insekt|
-|CELLSNET-44979|Aspose aktiviert die Split-Option für Freeze-Fenster, während sie im XLSB-Format gespeichert werden|Insekt|
+|CELLSNET-44979|Aspose aktiviert die Teilungsoption für eingefrorene Fenster, während sie im XLSB-Format gespeichert wird|Insekt|
 |CELLSNET-44953|Cell.Kopieren kopiert das Format nicht von einer Arbeitsmappe in eine andere|Insekt|
 |CELLSNET-44945|RTL-Blätter werden in LTR konvertiert, während XLSX in ODS konvertiert wird|Insekt|
 |CELLSNET-44922|Der definierte Name Print_Area wird nach dem erneuten Speichern geändert|Insekt|

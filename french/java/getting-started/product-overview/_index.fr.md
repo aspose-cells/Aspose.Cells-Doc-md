@@ -26,8 +26,8 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 ## **Caractéristiques des documents**
 - Ouvrez des fichiers Excel bruts ou cryptés (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) à partir de différentes sources
 - Ouvrez les fichiers Plain Numbers (créés par l'application "Numbers" d'Apple) à partir de différentes sources
-- Enregistrez des fichiers Excel (Excel97- Excel2007/2010/2013/2016/2019) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
-- Convertir un fichier Excel en document PDF
+- Enregistrer les fichiers Excel (Excel97- Excel2007 / 2010 / 2013/2016/2019) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, CSV, SpreadsheetML, CSV, SpreadsheetML, CSV, SpreadsheetML, CSV
+- Convertir le fichier Excel en document PDF
 - Convertir une feuille de calcul Excel en document XPS
 -  Convertir au format de fichier d'image balisé**(TIFF)**
 -  Lire et écrire**Feuille de calcul OpenDocument (ODS)** format
@@ -37,15 +37,15 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 - **Cacher ou montrer** une feuille de travail
 -  Afficher ou masquer**onglets, barres de défilement, quadrillage et en-têtes de ligne et de colonne**
 - **Aperçu des sauts de page**
--  Régler**le niveau de zoom** pour la feuille de travail
+-  Ensemble**le niveau de zoom** pour la feuille de travail
 -  Faire en sorte que les données sélectionnées restent visibles pendant le défilement à l'aide de**figer les volets**
 ### **Protection des feuilles de calcul**
 - **Protégez les contenus, les objets et les scénarios** d'une feuille de travail
 ### **Options de mise en page**
--  Régler**orientation de la page, mise à l'échelle, format de papier, qualité d'impression** etc.
--  Régler**marges de page** comme en haut, à gauche, à droite, en bas, etc.
--  Régler**en-têtes et pieds de page**
--  Régler**zone d'impression**, **titre imprimé** etc.
+-  Ensemble**orientation de la page, mise à l'échelle, format de papier, qualité d'impression** etc.
+-  Ensemble**marges de page** comme en haut, à gauche, à droite, en bas, etc.
+-  Ensemble**en-têtes et pieds de page**
+-  Ensemble**zone d'impression**, **titre imprimé** etc.
 ### **Sauts de page**
 -  Insérer**horizontal** et**sauts de page verticaux** dans une cellule spécifiée
 ### **Fonctionnalités des lignes et des colonnes**
@@ -60,8 +60,8 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 - Récupérer les données des cellules en fonction de leurs types de données
 - **Exporter les données des cellules vers le tableau**
 - Rechercher ou rechercher des données spécifiques dans des cellules
--  Régler**formules avec fonctions intégrées ou complémentaires**
--  Régler**déployer** et**R1C1** formule de style de référence
+-  Ensemble**formules avec fonctions intégrées ou complémentaires**
+-  Ensemble**déployer** et**R1C1** formule de style de référence
 - Ajouter différents types d'hyperliens
 - Créer ou accéder à des plages nommées
 -  Appliquer**la validation des données** et**filtrage automatique**
@@ -69,11 +69,11 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 ### **Fonctionnalités de formatage**
 -  Appliquer**paramètres de format numérique** pour les cellules
 - Formater la cellule comme une date
--  Régler**Alignement du texte**
+-  Ensemble**Alignement du texte**
 - Fusionner plusieurs cellules
 - Appliquer différents types de**paramètres de police** pour les cellules
 - Appliquez différentes couleurs aux cellules, polices, quadrillages, objets graphiques, etc.
--  Régler**texte riche** dans une seule cellule
+-  Ensemble**texte riche** dans une seule cellule
 -  Appliquer différent**paramètres de bordure** sur les cellules
 -  Appliquer différent**motifs de fond** sur les cellules
 -  Appliquer**paramètres de mise en forme** sur une feuille de calcul, une ligne ou une colonne, etc.
@@ -81,7 +81,7 @@ De plus, il existe également un certain nombre de fonctionnalités uniques que 
 ## **Fonctionnalités graphiques et graphiques**
 - Créez facilement différents types de graphiques
 -  Personnaliser**graphiques** en définissant des propriétés
--  Régler**données pour les graphiques** dynamiquement
+-  Ensemble**données pour les graphiques** dynamiquement
 -  Ajouter**graphiques personnalisés** aux feuilles de travail
 -  Ajouter**des photos** aux feuilles de calcul au moment de l'exécution
 - Créer et ajouter des commentaires aux cellules

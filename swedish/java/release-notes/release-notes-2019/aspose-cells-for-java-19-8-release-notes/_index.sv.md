@@ -20,11 +20,11 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.8.
 |CELLSJAVA-42902|Vattenfallsdiagramsstil kopieras inte korrekt när arbetsboken kopieras|Insekt|
 |CELLSJAVA-42944|Fel vid konvertering av XLSX till HTML|Insekt|
 |CELLSJAVA-42966|Uppdatering av pivottabell och pivotdiagram skadar Excel-filen|Insekt|
-|CELLSJAVA-42975|Skillnader i HTML-konvertering|Insekt|
-|CELLSJAVA-42971|# N/A visas i den renderade PDF-filen
+|CELLSJAVA-42975|Skillnader i HTML konvertering|Insekt|
+|CELLSJAVA-42971|# N/A visas i den återgivna PDF
 |Insekt|
 |CELLSJAVA-42970|Oönskad utökad gränslinje i Excel till PDF-rendering|Insekt|
-|CELLSJAVA-42976|Bildpositionen matchar inte när Excel-fil renderas till PDF|Insekt|
+|CELLSJAVA-42976|Bildpositionen stämmer inte överens vid rendering av Excel-fil till PDF|Insekt|
 |CELLSJAVA-42961|Tabellegenskaper kopierades inte korrekt när data kopierades med copyColumns|Insekt|
 |CELLSJAVA-42980|Transparent bild ändras till ogenomskinlig under bildkopiering|Insekt|
 |CELLSJAVA-42959|Undantag "Shape to image Error" när en XLSX-fil renderas till PDF|Undantag|

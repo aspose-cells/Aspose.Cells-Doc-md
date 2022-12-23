@@ -1,6 +1,6 @@
 ﻿---
 title: Gérer les feuilles de calcul des fichiers Excel Microsoft.
-linktitle: Des feuilles de calcul
+linktitle: Feuilles de travail
 type: docs
 weight: 90
 url: /fr/net/manage-worksheets/
@@ -12,25 +12,25 @@ Les développeurs peuvent facilement créer et gérer des feuilles de calcul dan
 
 {{% /alert %}}
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul.
 
 ## **Ajout de feuilles de calcul à un nouveau fichier Excel**
 
 Pour créer un nouveau fichier Excel par programmation :
 
-1.  Créer un objet du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classer.
-1.  Appeler le[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) méthode de la[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) classer. Une feuille de calcul vide est automatiquement ajoutée au fichier Excel. Il peut être référencé en passant l'index de feuille de la nouvelle feuille de calcul au[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) le recueil.
+1.  Créer un objet du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe.
+1.  Appeler le[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/add) méthode de la[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) classe. Une feuille de calcul vide est automatiquement ajoutée au fichier Excel. Il peut être référencé en passant l'index de feuille de la nouvelle feuille de calcul au[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) le recueil.
 1. Obtenir une référence de feuille de travail.
 1. Effectuer des travaux sur les feuilles de travail.
-1.  Enregistrez le nouveau fichier Excel avec de nouvelles feuilles de calcul en appelant le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classer'[**sauvegarder**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)méthode.
+1.  Enregistrez le nouveau fichier Excel avec de nouvelles feuilles de calcul en appelant le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe'[**Sauver**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)méthode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToNewExcelFile-1.cs" >}}
 
 ## **Ajout de feuilles de calcul à une feuille de calcul Designer**
 
- Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est le même que celui d'ajout d'une nouvelle feuille de calcul, sauf que le fichier Excel existe déjà et doit donc être ouvert avant l'ajout des feuilles de calcul. Une feuille de calcul de concepteur peut être ouverte par le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classer.
+ Le processus d'ajout de feuilles de calcul à une feuille de calcul de concepteur est le même que celui d'ajout d'une nouvelle feuille de calcul, sauf que le fichier Excel existe déjà et doit donc être ouvert avant l'ajout des feuilles de calcul. Une feuille de calcul de concepteur peut être ouverte par le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-AddingWorksheetsToDesignerSpreadSheet-1.cs" >}}
 
@@ -42,7 +42,7 @@ Accédez à n'importe quelle feuille de calcul en spécifiant son nom ou son ind
 
 ## **Suppression de feuilles de calcul à l'aide du nom de la feuille**
 
-Pour supprimer des feuilles de calcul d'un fichier, appelez le[**Supprimer à**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) méthode de[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) classer. Transmettez le nom de la feuille au[**Supprimer à**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1)méthode pour supprimer une feuille de calcul spécifique.
+Pour supprimer des feuilles de calcul d'un fichier, appelez le[**Supprimer à**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/removeat/index) méthode de[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) classe. Transmettez le nom de la feuille au[**Supprimer à**](https://reference.aspose.com/cells/net/aspose.cells.worksheetcollection/removeat/methods/1)méthode pour supprimer une feuille de calcul spécifique.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Management-RemovingWorksheetsUsingSheetName-1.cs" >}}
 

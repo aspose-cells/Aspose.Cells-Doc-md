@@ -12,33 +12,33 @@ url: /tr/net/aspose-cells-for-net-18-12-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-46479|Tek sayfalık çalışma kitabı HTML'ye dönüştürüldüğünde sekme adı kullanılamaz|Yeni özellik|
+|CELLSNET-46479|Tek sayfalık çalışma kitabı HTML'e dönüştürüldüğünde sekme adı kullanılamaz|Yeni özellik|
 |CELLSNET-46503|LoadDataFilterOptions kullanarak VBA verilerinin yüklenmesini kontrol edin|Yeni özellik|
-|CELLSNET-42414|İzlenen Değişiklikler, XLSB'den XLSM'ye ve XLS'den XLSM'ye dönüştürme sırasında kaybedildi|Artırma|
-|CELLSNET-46090|Bir XLS'yi XLSX'e kaydederken şeklin grubu çözüldükten sonra metin biraz hareket etti|Artırma|
+|CELLSNET-42414|XLSB'den XLSM'e ve XLS'den XLSM'e dönüştürme sırasında kaybedilen İzlenen Değişiklikler|Artırma|
+|CELLSNET-46090|Bir XLS'i XLSX'e kaydederken şeklin grubu çözüldükten sonra metin biraz hareket etti|Artırma|
 |CELLSNET-46439|Bellek performansı için optimizasyon: Çalışma Kitabını yükledikten sonra orijinal akışı serbest bırakın|Verim|
 |CELLSNET-46371|XLSX->HTML->XLSX dönüştürülürken bazı sayfalarda kılavuz çizgileri görüntülenmiyor|Böcek|
-|CELLSNET-46447|HTML'den XLS'ye dönüştürmede kaybolan biçimlendirmeler|Böcek|
+|CELLSNET-46447|HTML - XLS oluşturmada biçimlendirmeler kayboldu|Böcek|
 |CELLSNET-46494|MHT'den XLSX'e dönüştürme - hücre içeriği sorunu|Böcek|
 |CELLSNET-46468|Çıkış dosyasını açarken MS Excel bir hata ister|Böcek|
 |CELLSNET-46487|İngilizce olmayan yerel ayar formülü çalışmıyor|Böcek|
 |CELLSNET-46489|Dizin içeren bir satırı silmek ve aynı dizine sahip satırı okumak Cell değerini döndürür.ValuType: IsNull|Böcek|
 |CELLSNET-46406|Parola korumalı ODS belgesi açılamıyor|Böcek|
-|CELLSNET-46466|MS Excel'den PDF'e dönüştürmede barkodun altındaki alt metin eksik|Böcek|
+|CELLSNET-46466|Barkodun altındaki alt metin, MS Excel'de PDF oluşturmada eksik|Böcek|
 |CELLSNET-46470|TIFF çıktısına dönüştürüldükten sonra görüntü eksik|Böcek|
-|CELLSNET-46499|Resimler, Excel'den PDF'ye dönüştürüldüğünde düzgün şekilde oluşturulmuyor|Böcek|
+|CELLSNET-46499|Excel'den PDF'e dönüştürüldüğünde resimler düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSNET-46443|MS Excel grafiğinden işlenen görüntüde fazladan metin belirdi|Böcek|
 |CELLSNET-46450|MS Excel grafiğinden işlenen görüntü, orijinal tablodan daha fazla eksen birimine sahiptir|Böcek|
 |CELLSNET-46451|Şablon dosyasını (grafiği içeren) PDF dosya biçimine dönüştürürken sorun|Böcek|
 |CELLSNET-46454|Açıklama sırası, oturum 0 ve oturum 1'de Excel grafiğinden farklı şekilde işlendi|Böcek|
 |CELLSNET-46471|LineWithDataMarkers renk işaretçisi XLS dosya biçiminde ayarlanamıyor|Böcek|
-|CELLSNET-42729|SmartArt grafikleri HTML dosya formatı olarak işlendiğinde metin yer değiştiriyor|Böcek|
+|CELLSNET-42729|SmartArt grafikleri HTML dosya biçimi olarak oluşturulduğunda metin kaydırılıyor|Böcek|
 |CELLSNET-46462|Etiketi metinle değiştirirken yinelenen metin|Böcek|
-|CELLSNET-46483|Belgeyi Özel Kullanıcı Arabirimi xml ile XLSB'den XLSM'ye dönüştürürken hata oluştu|Böcek|
+|CELLSNET-46483|Belgeyi Özel Kullanıcı Arabirimi xml ile XLSB'den XLSM'e dönüştürürken hata oluştu|Böcek|
 |CELLSNET-46495|Grafiği resme dönüştürürken bulunan sorunlar|Böcek|
-|CELLSNET-46486|XLS'yi PDF'ye dönüştürürken ortaya çıkan istisna|İstisna|
+|CELLSNET-46486|XLS, PDF'e dönüştürülürken istisna oluştu|İstisna|
 |CELLSNET-46472|PivotTable.GetChildren() "Geçersiz Cell Ad" istisnasını yükseltir|İstisna|
-|CELLSNET-46452|Bir XLSB dosya formatı yüklenirken "NullReferenceException" istisnası|İstisna|
+|CELLSNET-46452|XLSB dosya biçimi yüklenirken "NullReferenceException" istisnası|İstisna|
 |CELLSNET-46456|Çalışma kitabı yüklenirken ArgumentException|İstisna|
 |CELLSNET-46460|XLS'den TextBox.HtmlText'e erişirken istisna|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

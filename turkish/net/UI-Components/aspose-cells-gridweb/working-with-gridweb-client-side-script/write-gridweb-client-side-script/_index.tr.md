@@ -48,11 +48,11 @@ OnSubmitClientFunction özelliğine atanan herhangi bir JavaScript işlevi, Grid
 ### **İstemci Tarafında Komut Dosyası Oluşturma İşlevleri**
 Aspose.Cells.GridWeb ayrıca özellikle istemci tarafı komut dosyası çalıştırma için işlevler sunar. Bu işlevler, Aspose.Cells.GridWeb üzerinde daha fazla denetim elde etmek için JavaScript işlevleri içinde kullanılabilir. Bu istemci tarafı işlevleri şunları içerir:
 
-|**Fonksiyonlar**|**Tanım**|
+|**Fonksiyonlar**|**Açıklama**|
 |:- |:- |
 |updateData(bool cancelDüzenle)|Aspose.Cells.GridWeb'in tüm istemci verilerini sunucuya göndermeden önce günceller. cancelEdit parametresi doğruysa, GridWeb tüm kullanıcı girdilerini atar.|
 |validall()|Kullanıcı girişinde herhangi bir doğrulama hatası olup olmadığını kontrol etmek için kullanılır. Bir hata varsa, işlev false döndürür, aksi takdirde true .|
-|gönder(string arg, bool cancelDüzenle)|Verileri geri göndermek veya sunucuya göndermek için bu işlevi çağırın. Bu işlev, hem verileri güncelleyen hem de kullanıcı girişini onaylayan görevleri gerçekleştirir. Bu işlev aynı zamanda sunucu tarafında bir komut olayını tetikleyebilir. Komutunuzu iletmek için arg parametresini kullanın. Örneğin: KAYDET komutu, düğmeyi tıklatmak için kullanılır.**Kaydetmek** GridWeb denetiminin komut çubuğundaki düğmesine basın ve CCMD:MYCOMMAND komutu bir CustomCommand olayı başlatır.|
+|gönder(string arg, bool cancelDüzenle)|Verileri geri göndermek veya sunucuya göndermek için bu işlevi çağırın. Bu işlev, hem verileri güncelleyen hem de kullanıcı girişini onaylayan görevleri gerçekleştirir. Bu işlev aynı zamanda sunucu tarafında bir komut olayını tetikleyebilir. Komutunuzu iletmek için arg parametresini kullanın. Örneğin: KAYDET komutu, düğmeyi tıklatmak için kullanılır.**Kayıt etmek** GridWeb denetiminin komut çubuğundaki düğmesine basın ve CCMD:MYCOMMAND komutu bir CustomCommand olayı başlatır.|
 |setActiveCell(int satır, int sütun)|Belirli bir hücreyi etkinleştirmek için kullanılır.|
 |setCellValue(int satır, int sütun, dize değeri)|Satır ve sütun numaraları kullanılarak belirtilen herhangi bir hücreye değer koymak için kullanılır.|
 |getCellValue(int satır, int sütun)|Belirtilen herhangi bir hücrenin değerini döndürür.|
@@ -65,26 +65,26 @@ Aspose.Cells.GridWeb ayrıca özellikle istemci tarafı komut dosyası çalışt
 Aspose.Cells.GridWeb ile çalışan istemci tarafı komut dosyaları içeren bir test uygulaması oluşturmak için aşağıdaki adımları izleyin:
 
 1. GridWeb tarafından çağrılacak JavaScript işlevleri oluşturun.
- Bu işlevler ASP.NET sayfasına eklenecektir.<script></script>etiket.
+ Bu işlevler ASP.NET sayfasına eklenecektir.<script></script> etiket.
 1. İşlevlerin adlarını OnSubmitClientFunction ve OnValidationErrorClientFunction özelliklerine atayın.
 
 Kod örneğinin çıktısı aşağıda gösterilmiştir:
 
 **C1 hücresine bir doğrulama eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](write-gridweb-client-side-script_1.png)
+![yapılacaklar:resim_alternatif_metin](write-gridweb-client-side-script_1.png)
 
- Geçersiz bir değer ekleyin ve tıklayın**Kaydetmek**. Bir doğrulama hatası oluşur ve ValidationErrorFunction yürütülür.
+ Geçersiz bir değer ekleyin ve tıklayın**Kayıt etmek**. Bir doğrulama hatası oluşur ve ValidationErrorFunction yürütülür.
 
 **ValidationErrorFunction, doğrulama hatasında çağrıldı** 
 
-![yapılacaklar:resim_alternatif_Metin](write-gridweb-client-side-script_2.png)
+![yapılacaklar:resim_alternatif_metin](write-gridweb-client-side-script_2.png)
 
- Siz geçerli bir değer girene kadar sunucuya hiçbir veri gönderilmez. Geçerli bir değer girin ve tıklayın**Kaydetmek**. Onay İşlevi yürütülür.
+ Siz geçerli bir değer girene kadar sunucuya hiçbir veri gönderilmez. Geçerli bir değer girin ve tıklayın**Kayıt etmek**. Onay İşlevi yürütülür.
 
 **GridWeb verilerini sunucuya göndermeden önce Onay İşlevi çağrıldı** 
 
-![yapılacaklar:resim_alternatif_Metin](write-gridweb-client-side-script_3.png)
+![yapılacaklar:resim_alternatif_metin](write-gridweb-client-side-script_3.png)
 
 
 

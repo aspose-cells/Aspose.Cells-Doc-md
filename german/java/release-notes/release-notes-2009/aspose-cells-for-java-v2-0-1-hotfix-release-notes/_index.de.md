@@ -14,7 +14,7 @@ url: /de/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
  Was hat sich geändert:
 
- l Unterstützt R/W Open Document Spreadsheet-Datei (ODS): Cell-Daten und -Stil, Zeilen-/Spaltenstil, zusammengeführt Cells, Arbeitsblatt-/Arbeitsmappeneigenschaften, Dokumenteigenschaften, Formel/Name.
+ l Unterstützt R/W Open Document Spreadsheet-Datei (ODS): Cell Daten und Stil, Zeilen-/Spaltenstil, Zusammengeführt Cells, Arbeitsblatt-/Arbeitsmappeneigenschaften, Dokumenteigenschaften, Formel/Name.
 
  l Unterstützt das Festlegen gemeinsamer Formeln.
 
@@ -42,15 +42,15 @@ url: /de/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
-|6722 | ODS| R/W ODS-Datei|
+|6722 |ODS | R/W ODS Datei|
 |7834 | XLs| Cell.getPrecedents|
-|6516 | HTML| Speichert das Arbeitsblatt zum Streamen im HTML-Format.|
+|6516 |HTML | Speichert das Arbeitsblatt zum Streamen im HTML-Format.|
 |7744 | XLs| R/W verschlüsselte Datei: Microsoft Strong Cryptographic Provider.|
 |7745 | XLs| Entfernt ASeries aus der NSeries-Sammlung.|
 |7571 | XLSX| Hyperlinks.|
 |7572 | XLs| Formel: SUMMEWENN.|
-|7575 | XLs|Formel: RUND.|
-|7649 | XLs| DataLabels von PivotChart.|
+|7575 | XLs| Formel: RUND.|
+|7649 | XLs|DataLabels von PivotChart.|
 |7343 | XLs| Legt die Eigenschaft von OleObject fest: OleSize.|
 |7408 | XLs| Erstellt AutoFilter.|
 |7500 | XLs| Speichert das Füllformat des Bereichs im Diagramm.|

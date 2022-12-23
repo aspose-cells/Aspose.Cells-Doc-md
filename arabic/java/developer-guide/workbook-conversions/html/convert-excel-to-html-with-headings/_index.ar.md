@@ -6,7 +6,7 @@ url: /ar/java/convert-excel-to-html-with-headings/
 ---
 ## **تحويل Excel إلى HTML بالعناوين**
 
-يوفر Aspose.Cells خيار تصدير العناوين أثناء تحويل Excel إلى HTML. لهذا ، يمكنك تعيين[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)الملكية ل**حقيقي**. القيمة الافتراضية لـ[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)الملكية**خاطئة**. توضح الصورة التالية ملف الإخراج الذي تم إنشاؤه بواسطة الكود التالي.
+يوفر Aspose.Cells خيار تصدير العناوين أثناء تحويل Excel إلى HTML. لهذا ، يمكنك تعيين[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings) ملكية ل**حقيقي**. القيمة الافتراضية لـ[**HtmlSaveOptions.ExportHeadings**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportHeadings)الملكية**خاطئة**. توضح الصورة التالية ملف الإخراج الذي تم إنشاؤه بواسطة الكود التالي.
 
 ![ما يجب القيام به: image_بديل_نص](convert-excel-to-html-with-headings_1.jpg)
 

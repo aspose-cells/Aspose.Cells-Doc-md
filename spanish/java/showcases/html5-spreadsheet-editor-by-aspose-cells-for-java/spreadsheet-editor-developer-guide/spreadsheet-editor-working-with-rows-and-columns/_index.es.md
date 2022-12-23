@@ -36,7 +36,7 @@ El editor agregará una nueva fila en la ubicación seleccionada.
 
 **¿Cómo funciona?**
 
- los**Agregar fila arriba** y**Agregar fila a continuación** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+ Él**Agregar fila arriba** y**Agregar fila a continuación** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
 #### **WorksheetView.addRowAbove**
 {{< highlight "java" >}}
 
@@ -110,7 +110,7 @@ El editor agregará una nueva columna en la ubicación seleccionada.
 
 **¿Cómo funciona?**
 
- los**Agregar columna antes** y**Añadir columna después** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+ Él**Agregar columna antes** y**Añadir columna después** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
 #### **WorksheetView.addColumnBefore**
 {{< highlight "java" >}}
 
@@ -175,7 +175,7 @@ El editor eliminará la fila que incluye la celda seleccionada.
 
 **¿Cómo funciona?**
 
- los**Borrar fila** el botón es manejado por JSF backend bean**Vista de hoja de trabajo** utilizando el método**WorksheetView.deleteRow**:
+ Él**Borrar fila** el botón es manejado por JSF backend bean**Vista de hoja de trabajo** utilizando el método**WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
 {{< highlight "java" >}}
 
@@ -215,7 +215,7 @@ El editor eliminará la columna que incluye la celda seleccionada.
 
 **¿Cómo funciona?**
 
- los**Eliminar columna** el botón es manejado por JSF backend bean**Vista de hoja de trabajo** utilizando el método**WorksheetView.deleteColumn**:
+ Él**Eliminar columna** el botón es manejado por JSF backend bean**Vista de hoja de trabajo** utilizando el método**WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
 {{< highlight "java" >}}
 
@@ -247,9 +247,9 @@ Para cambiar el ancho de una columna:
 
 1. Haga clic en cualquier celda dentro de la columna.
 1.  Cambiar a**Pestaña Formato**.
-1.  Hacer clic**Ancho de columna** botón para abrir**Ancho de columna**diálogo.
+1.  Hacer clic**Ancho de columna** botón para abrir**Ancho de columna** diálogo.
 1. Introduzca un nuevo valor en el cuadro de diálogo.
-1.  Hacer clic**Cerca**.
+1.  Hacer clic**Cerrar**.
 
 El editor cambiará el ancho de la columna.
 
@@ -259,9 +259,9 @@ Para cambiar la altura de una fila:
 
 1. Haga clic en cualquier celda dentro de la fila.
 1.  Cambiar a**Pestaña Formato**.
-1.  Hacer clic**Altura de la fila** botón para abrir**Altura de la fila**diálogo.
+1.  Hacer clic**Altura de la fila** botón para abrir**Altura de la fila** diálogo.
 1. Introduzca un nuevo valor en el cuadro de diálogo.
-1.  Hacer clic**Cerca**.
+1.  Hacer clic**Cerrar**.
 
 El editor cambiará la altura de la fila.
 
@@ -315,13 +315,13 @@ Para agregar una nueva celda:
 1. Haga clic en una celda en la que desee crear una nueva.
 1.  Cambiar a**Insertar pestaña**.
 1.  Hacer clic**Cell** botón.
-1.  Elegir**Cambio Cells Derecha** o**Cambio Cells Abajo** botón.
+1.  Escoger**Cambio Cells Derecha** o**Cambio Cells Abajo** botón.
 
 El editor agregará una nueva celda en la ubicación seleccionada. Las celdas adyacentes se desplazarán automáticamente ya sea horizontal o verticalmente para crear espacio para la nueva.
 
 **¿Cómo funciona?**
 
- los**Cambio Cells Derecha** y**Cambio Cells Abajo** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+ Él**Cambio Cells Derecha** y**Cambio Cells Abajo** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
 #### **WorksheetView.addCellShiftRight**
 {{< highlight "java" >}}
 

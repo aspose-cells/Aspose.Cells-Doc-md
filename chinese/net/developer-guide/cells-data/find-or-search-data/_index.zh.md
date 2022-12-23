@@ -14,7 +14,7 @@ Microsoft Excel 允许用户在包含指定数据的工作表中查找单元格�
 
 ### **使用 Microsoft Excel**
 
-Microsoft Excel 允许用户在包含指定数据的工作表中查找单元格。如果你选择**编辑**来自**寻找**Microsoft Excel 中的菜单，您将看到一个对话框，您可以在其中指定搜索值。
+ Microsoft Excel 允许用户在包含指定数据的工作表中查找单元格。如果你选择**编辑**来自**寻找**Microsoft Excel 中的菜单，您将看到一个对话框，您可以在其中指定搜索值。
 
 在这里，我们正在寻找值“Oranges”。 Aspose.Cells 还允许开发人员在工作表中查找包含指定值的单元格。
 

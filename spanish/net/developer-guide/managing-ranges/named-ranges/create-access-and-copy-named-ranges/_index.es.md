@@ -28,7 +28,7 @@ No puede nombrar una celda mientras está cambiando el contenido de la celda.
 ## **Trabajar con rango con nombre usando Aspose.Cells**
 
 Aquí, usamos el Aspose.Cells API para hacer la tarea.
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación.
 
 ### **Crear rango con nombre**
 
@@ -37,7 +37,7 @@ Aquí, usamos el Aspose.Cells API para hacer la tarea.
 - Nombre de la celda superior izquierda, el nombre de la celda superior izquierda en el rango.
 - Nombre de la celda inferior derecha, el nombre de la celda inferior derecha en el rango.
 
- Cuando el[**CrearRango**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) se llama al método, devuelve el rango recién creado como una instancia del[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) clase. Utilizar este[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto para configurar el rango con nombre. Por ejemplo, establezca el nombre del rango usando el[**Nombre**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) propiedad. El siguiente ejemplo muestra cómo crear un rango de celdas con nombre que se extiende sobre B4:G14.
+ Cuando el[**CrearRango**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) se llama al método, devuelve el rango recién creado como una instancia del[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) clase. Utilizar esta[**Rango**](https://reference.aspose.com/cells/net/aspose.cells/range) objeto para configurar el rango con nombre. Por ejemplo, establezca el nombre del rango usando el[**Nombre**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) propiedad. El siguiente ejemplo muestra cómo crear un rango de celdas con nombre que se extiende sobre B4:G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
@@ -91,7 +91,7 @@ El siguiente ejemplo muestra cómo ingresar algunos valores en las celdas de un 
 
 #### **Acceda a todos los rangos con nombre en una hoja de cálculo**
 
- Llama a[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) colección[**ObtenerRangosNombrados**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) método para obtener todos los rangos con nombre en una hoja de cálculo. los[**ObtenerRangosNombrados**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) método devuelve una matriz de todos los rangos de nombres en el[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) recopilación.
+ Llama a[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) colección[**ObtenerRangosNombrados**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) método para obtener todos los rangos con nombre en una hoja de cálculo. Él[**ObtenerRangosNombrados**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) método devuelve una matriz de todos los rangos de nombres en el[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) recopilación.
 
 El siguiente ejemplo muestra cómo acceder a todos los rangos con nombre en un libro de trabajo.
 

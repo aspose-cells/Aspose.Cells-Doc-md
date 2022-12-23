@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /es/net/insert-or-delete-rows-or-columns/
 ---
-Ya sea que estemos creando una nueva hoja de trabajo desde cero o estemos trabajando en una hoja de trabajo existente, es posible que necesitemos agregar filas o columnas adicionales en la hoja de trabajo para acomodar más datos o por alguna otra razón. A la inversa, también puede ser necesario eliminar filas o columnas de posiciones específicas de la hoja de cálculo.
+Ya sea que estemos creando una nueva hoja de trabajo desde cero o estemos trabajando en una hoja de trabajo existente, es posible que necesitemos agregar filas o columnas adicionales en la hoja de trabajo para acomodar más datos o por alguna otra razón. A la inversa, también puede ser necesario eliminar filas o columnas de posiciones específicas de la hoja de trabajo.
 ## **Gestión de filas/columnas**
 **Aspose.Cells** proporciona una clase, Libro de trabajo que representa un archivo de Excel. La clase de libro de trabajo contiene una colección de hojas de trabajo que permite acceder a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por la clase Worksheet. La clase Worksheet proporciona una colección Cells que representa todas las celdas de la hoja de trabajo.
 

@@ -21,7 +21,7 @@ Bu sayfa Aspose.Cells for Android via Java 22.6 için sürüm notları içerir.
 |CELLSJAVA-44611|xlsx dosyasından boş hücreleri okumak için iyileştirme|
 |CELLSJAVA-44616|Hedef aralığındaki koşullu biçimlendirmenin orijinal ayarları, aralığı kopyalarken kaldırılmalıdır.|
 |CELLSJAVA-44658|BouncyCastle v1.71'i destekleyin|
-|CELLSJAVA-44455|XLSX dosyasını PDF'ye dönüştürürken, pivot tablodaki tarih bir seri numarasına dönüşür|
+|CELLSJAVA-44455|XLSX dosyasını PDF'e dönüştürürken, pivot tablodaki tarih bir seri numarası olur|
 |CELLSJAVA-44370|Excel dosyası açılıp Aspose.Cells ile kaydedildiğinde bozuluyor|
 |CELLSJAVA-44381|Satır veya sütunu silerken koşul biçimlendirme sorunu|
 |CELLSJAVA-44442|Aspose.Cells ile açıp kaydetmek çalışma kitabını bozuyor|
@@ -31,19 +31,19 @@ Bu sayfa Aspose.Cells for Android via Java 22.6 için sürüm notları içerir.
 |CELLSJAVA-44464|ek sorun 1, sütun A arka plan rengi, sayfa4'teki yscl.xls için Excel'deki ile aynı değil|
 |CELLSJAVA-44466| ek sorun 3,setCalculateFormula false olarak çalışmıyor|
 |CELLSJAVA-44496|Html yüklenirken tablo için başlık etiketini/öğesini ekleyin|
-|CELLSJAVA-44429|Excel grafiğinin Excel'deki etkisi HTML'dekinden farklıdır|
-|CELLSJAVA-44414| JSON'daki Unicode, oluşturulan XLSX ve CSV'yi bozacak|
+|CELLSJAVA-44429|Excel grafiğinin excel'deki etkisi, HTML'dekinden farklıdır.|
+|CELLSJAVA-44414| JSON'deki Unicode, oluşturulan XLSX ve CSV'i kıracak|
 |CELLSJAVA-44481|ThreadedComment.setCreatedTime() yöntemiyle ilgili sorun|
 |CELLSJAVA-44483|Satırları grupladıktan sonra sıralama çalışmıyor|
 |CELLSJAVA-44522|Dize için çift değer, ms excel'in sonucuyla karşılaştırıldığında yanlış olan kuyruk sıfırı verir|
 |CELLSJAVA-44501| duohangduolie.zip dosyası için bir sonraki sayıyı arayın|
 |CELLSJAVA-44529|frozenpane için aramayı uygula|
 |CELLSJAVA-44530|setactivecell sorununu araştırmak bazen çalışmıyor|
-|CELLSJAVA-44534|Yazdırma alanındaki grafik, Excel'de HTML'ye dönüştürülmeye aktarılmaz|
+|CELLSJAVA-44534|Yazdırma alanındaki grafik Excel'de HTML'e dönüştürülmedi|
 |CELLSJAVA-44539|Grafik, yazdırma alanıyla html'ye dönüştürülürken sağa kaydırılır|
-|CELLSJAVA-44568|HTML'den XLS'ye dönüştürmedeki ilk satır dışında çok satırlı altyazılar kayboluyor|
+|CELLSJAVA-44568|HTML'den XLS'e dönüştürmedeki ilk satır dışında çok satırlı başlıklar kayboluyor|
 |CELLSJAVA-44512|Grafiği html'de svg'ye dışa aktarırken grafik eksik|
-|CELLSJAVA-44556|Koordinat ekseni logaritmik ölçeğe ayarlandıktan sonra veri tablosunda veri görüntüleme sorunu - Excel'den HTML/PDF'ye dönüştürme|
+|CELLSJAVA-44556|Koordinat ekseni logaritmik ölçeğe ayarlandıktan sonra veri tablosunda veri görüntüleme sorunu - Excel'den HTML/PDF'e dönüştürme|
 |CELLSJAVA-44628|Bir pivot sütununun/alanının düğüm verilerini genişletirken belirli pivot satırlarının yüzde biçimi nasıl korunur?|
 |CELLSJAVA-44483|Satırları grupladıktan sonra sıralama çalışmıyor|
 |CELLSJAVA-44609|Daha yeni bir sürüm kullanarak koşullu biçimlendirme ile yavaş kopyalama|
@@ -52,13 +52,13 @@ Bu sayfa Aspose.Cells for Android via Java 22.6 için sürüm notları içerir.
 |CELLSJAVA-44646|Kopyalanan sayfadaki içeriği temizle, NullPointerException'ı atar|
 |CELLSJAVA-44656|Cells.getMaxDataColumn, 22.5'te farklı (yanlış) değer döndürüyor|
 |CELLSJAVA-44650|Aspose.Cells.GridWeb(Java) içine yüklenirken Excel belge sayfası dağınık|
-|CELLSJAVA-44660|XLS'yi Aspose.Cells.GridWeb'e (Java) yüklerken veri hizalama sorunu|
+|CELLSJAVA-44660|XLS'i Aspose.Cells.GridWeb'e (Java) yüklerken veri hizalama sorunu|
 |CELLSJAVA-44661|Et dosyasını Aspose.Cells.GridWeb'e (Java) yüklerken sorun|
 |CELLSJAVA-44584|Grafikteki eksenin başlığı çıktı görüntüsünde döndürülür - Grafikten görüntüye dönüştürme|
 |CELLSJAVA-44615|XLS dosyasından çıktı görüntüsünde çizilen gri çizgi|
-|CELLSJAVA-44665|ODS dosyası yükleniyor askıda kalıyor|
+|CELLSJAVA-44665|ODS dosyası yükleniyor kilitleniyor|
 |CELLSJAVA-44404|Bir XLSX dosyasını GridWeb'e yüklerken "java.lang.IllegalArgumentException: Geçersiz sütun dizini" istisnası|
-|CELLSJAVA-44651|Excel sayfasını HTML/PDF'ye dönüştürürken "sayısal bir değer değil" hatası|
+|CELLSJAVA-44651|Excel sayfasını HTML/PDF'e dönüştürürken "sayısal bir değer değil" hatası|
 
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

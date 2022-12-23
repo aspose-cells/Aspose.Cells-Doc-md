@@ -6,7 +6,7 @@ url: /ru/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 ---
 {{% alert color="primary" %}}
 
-Вы можете использовать Aspose.Cells, чтобы экспортировать свой рабочий лист или диаграмму в изображение с желаемой шириной и высотой. Это обеспечивает[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize)метод для установки желаемой ширины и высоты экспортируемого изображения. Ширина и высота задаются в пикселях.
+ Вы можете использовать Aspose.Cells, чтобы экспортировать свой рабочий лист или диаграмму в изображение с желаемой шириной и высотой. Это обеспечивает[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) метод для установки желаемой ширины и высоты экспортируемого изображения. Ширина и высота задаются в пикселях.
 
 {{% /alert %}}
 

@@ -22,14 +22,14 @@ url: /ja/java/aspose-cells-for-android-via-java-22-3-release-notes/
 |CELLSJAVA-44130|データ ラベルのテキストは、出力グラフ イメージで折り返されます。|
 |CELLSJAVA-44204|csv のページネーションの問題|
 |CELLSJAVA-43934|グラフを操作または更新した後、円グラフのラベルが Excel と一致しない|
-|CELLSJAVA-44122|HTML をエクスポートすると、データ ラベルが Excel のデータ ラベルとは異なります|
+|CELLSJAVA-44122|HTML をエクスポートすると、データ ラベルが Excel のものとは異なります|
 |CELLSJAVA-41949|ワークブックを XLSX および HTML 形式で保存すると、コンテンツのレンダリングが異なる|
-|CELLSJAVA-44207|HTMLに書き出すと行の高さが高くなる|
-|CELLSJAVA-44233|XLSXファイル変換時の無限ループ|
-|CELLSJAVA-44271|Excel を PDF に変換すると、手動で変換した場合と比べて出力位置がずれます|
+|CELLSJAVA-44207|HTMLにエクスポートすると行の高さが高くなる|
+|CELLSJAVA-44233|XLSX ファイル変換時の無限ループ|
+|CELLSJAVA-44271|ExcelをPDFに変換すると、手動変換の場合と比べて出力位置がずれてしまう|
 |CELLSJAVA-44197|XLSX を PDF に変換すると、ピボット テーブルのタイムラインの形状 (ウィンドウ) が表示されない|
 |CELLSJAVA-44267|ピボット テーブルを含むブックが破損する|
-|CELLSJAVA-44114|XLSX to PDF: XLSX ファイルの科学的数値形式のデータが、出力 PDF ファイルのデータと一致しません。|
+|CELLSJAVA-44114|XLSX から PDF: XLSX ファイルの科学的数値形式のデータが、出力 PDF ファイルのデータと一致しません|
 |CELLSJAVA-44293|再保存された Excel ファイルは、MS Excel で開くときに復元する必要があります|
 |CELLSJAVA-43194|画像が正しく表示されない|
 |CELLSJAVA-44243|jdk1.8でGridWebのSpringデモ保存ファイルが失敗する|
@@ -38,20 +38,20 @@ url: /ja/java/aspose-cells-for-android-via-java-22-3-release-notes/
 |CELLSJAVA-44229|td コンテンツが div タグでラップされると数式が失われる|
 |CELLSJAVA-44247|PDF への変換中に 1 行のテキストが折り返される|
 |CELLSJAVA-44175|ドーナツ チャート ラベルが重なっている問題|
-|CELLSJAVA-44192|Excel から PDF への変換で、グラフ内の項目軸の項目名が途切れる|
-|CELLSJAVA-44233|XLSXファイル変換時の無限ループ|
+|CELLSJAVA-44192|PDF変換でエクセルでグラフの項目軸項目名が切れる|
+|CELLSJAVA-44233|XLSX ファイル変換時の無限ループ|
 |CELLSJAVA-44263|グラフ ラベル テキストの方向を垂直に設定しても効果がない|
 |CELLSJAVA-44268|Chart.toPdf メソッドでの例外「java.lang.NullPointerException」|
-|CELLSJAVA-44302|Excel ファイルを HTML に変換した後、座標軸のテキストの方向が間違っている|
+|CELLSJAVA-44302|Excel ファイルを HTML に変換した後、座標軸のテキスト方向が間違っている|
 |CELLSJAVA-44314|グラフから画像へのレンダリングで、グラフ カテゴリの軸ラベルが正しくない|
 |CELLSJAVA-44274|SVG 形式は、PDF への読み取りまたはレンダリングでサポートされていますか|
 |CELLSJAVA-44369|形状の高さが正しくありません|
 |CELLSJAVA-44366|シートの内容を新しいシート ページにコピーして html として保存すると、Excel の数式のスタイルが異常になる|
 |CELLSJAVA-44408|変更した 2 つの行を展開すると、Cell のパーセンテージ形式が失われます|
-|CELLSJAVA-44341|Cell Excel から DOCX への変換で、出力 DOCX の幅が正しくありません|
+|CELLSJAVA-44341|Cell 出力の幅が正しくありません Excel の DOCX から DOCX への変換|
 |CELLSJAVA-44383|カスタム プロパティを追加した後、条件付き書式が機能しなくなった|
 |CELLSJAVA-44370|Excel ファイルを Aspose.Cells で開いて保存すると破損する|
-|CELLSJAVA-44344|出力 XLSX の範囲の水平コピーに関する問題|
+|CELLSJAVA-44344|出力の範囲の水平コピーに関する問題 XLSX|
 |CELLSJAVA-44363|行ヘッダーの高さが、freezepane を使用したファイルの行の内容と一致しない|
 |CELLSJAVA-44349|GridWeb のサーバー再起動後も画像/形状を保持する必要があります|
 |CELLSJAVA-44367|htmlに変換すると縦棒グラフの色が白くなる|
@@ -89,7 +89,7 @@ url: /ja/java/aspose-cells-for-android-via-java-22-3-release-notes/
 
 ### **TxtLoadOptions.ExtendToNextSheet プロパティを追加します。**
 
-データの行数または列数が ms Excel の制限を超えた場合に、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
+データの行数または列数が ms Excel の制限を超える場合、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
 
 ### **ExternalLinkCollection.Clear() メソッドを追加します。**
 

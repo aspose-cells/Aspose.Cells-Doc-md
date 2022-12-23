@@ -11,7 +11,7 @@ is_root: true
 
 **Aspose.Cells for Android via Java へようこそ**
 
-Aspose.Cells for Android via Java は、Android アプリケーションが Microsoft Excel を必要とせずに Excel スプレッドシートを作成および管理できるようにする柔軟なコンポーネントです。 Aspose.Cells for Android via Java の究極の目標は、Aspose.Cells for Java のすべての素晴らしい機能を Android プラットフォームにもたらし、Android Studio または Android 開発をサポートする任意の IDE を使用して、Java でネイティブ Android 開発を行うことを可能にすることです。 Aspose.Cells for Android via Java は、ネイティブの Android アプリケーションがさまざまなドキュメント処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Android via Java は、XLS、XLSX、CSV、SpreadsheetML、ODS、タブ区切り、HTML、PDF、XPS およびその他の形式をサポートしています。 Aspose.Cells for Android via Java を使用すると、スプレッドシートを生成、変更、変換、およびレンダリングできます。
+Aspose.Cells for Android via Java は、Android アプリケーションが Microsoft Excel を必要とせずに Excel スプレッドシートを作成および管理できるようにする柔軟なコンポーネントです。 Aspose.Cells for Android via Java の究極の目標は、Aspose.Cells for Java のすべての素晴らしい機能を Android プラットフォームにもたらし、Android Studio または Android 開発をサポートする任意の IDE を使用して、Java でネイティブ Android 開発を行うことを可能にすることです。 Aspose.Cells for Android via Java は、ネイティブの Android アプリケーションがさまざまなドキュメント処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Android via Java は、XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS およびその他の形式をサポートします。 Aspose.Cells for Android via Java を使用すると、スプレッドシートを生成、変更、変換、およびレンダリングできます。
 
 {{% /alert %}}
 

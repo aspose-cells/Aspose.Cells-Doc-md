@@ -25,10 +25,10 @@ Aspose.Cells 可以将数据从可以从任何数据库创建的 ResultSet 对�
 
 以下屏幕截图显示了在 Microsoft Access 2016 中打开时的数据库文件。
 
-![待办事项：图像_替代_文本](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
+![待办事项：图片_替代_文本](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **将数据从 Microsoft Access 数据库结果集对象导入工作表。**
 以下示例代码从 Microsoft Access 数据库执行 SQL 查询并创建一个 ResultSet 对象。然后它使用 ResultSet 对象将数据导入工作表[工作表.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)） 方法。第一次，它使用行和列索引，然后使用单元格名称将数据导入工作表。最后，它将工作簿另存为[输出 Excel 文件](48496713.xlsx).截图展示了示例代码对输出Excel文件的效果，供参考。
 
-![待办事项：图像_替代_文本](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
+![待办事项：图片_替代_文本](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}

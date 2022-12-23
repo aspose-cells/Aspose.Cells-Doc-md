@@ -57,7 +57,7 @@ Aspose.Cells for Reporting Services 报表设计器优化。
 - ` `(SSRS-40108) Excel 发现不可读内容
 - ` `(SSRS-40107) 表未生成为 RDL 中的 Tablix
 - ` `(SSRS-40106) 错误：未将对象引用设置为对象的实例
-- ` `(SSRS-40105) 在 XLSX Reporting Services 中导出报告时出错
+- ` `(SSRS-40105) 在 XLSX Reporting Services 中导出报表时出错
 - ` `(SSRS-40102) 导出到 xlsx 时出现 SSRS 分组问题
 - ` `(SSRS-40101) Aspose Excel 2007 工作簿导出错误
 - ` `(SSRS-40100) 运行时错误

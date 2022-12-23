@@ -16,7 +16,7 @@ url: /de/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Neu
-Merkmale
+ Merkmale
 
 - Unterstützung für die Anwendung von bedingter Formatierung auf Pivot-Tabellen
 - Lesen Sie die Konfiguration von Gruppenfeldern in Pivot-Tabellen
@@ -32,9 +32,9 @@ Merkmale
 
  -Fehlende Eigenschaften (Pivot-Feld)
 
- -PivotField.ShowCompact – Falscher Eigenschaftswert im XLS-Format
+ -PivotField.ShowCompact – Falscher Eigenschaftswert im Format XLS
 
- - Falscher Elementwert des Pivot-Felds in den gruppierten Feldern
+ Falscher Elementwert des Pivot-Felds in den gruppierten Feldern
 
  -Lesen von Elementen aus dem Cache (Pivot-Feld)
 
@@ -55,18 +55,18 @@ Merkmale
 
  Fehler
 
--Fehler beim Aktualisieren der Pivot-Tabelle in einer Excel-Arbeitsmappe
+ -Fehler beim Aktualisieren der Pivot-Tabelle in einer Excel-Arbeitsmappe
 
 - Problem mit Standardpapierformat
-- Verschmutzter rechter Bildrand beim Konvertieren von XLS in PDF
+- Schmutziger rechter Bildrand beim Konvertieren von XLS in PDF
 - Workbook.CalculateFormula()-Methodenfehler
 - Beim Upgrade von v5.2.1.0 auf v7.0.3.0 wurden mehrere Probleme gefunden
-- Zeilen-/Spaltenüberschriften und Kommentare können nicht in die TIFF-Datei aufgenommen werden
+- Zeilen-/Spaltenüberschriften und Kommentare können nicht in die Datei TIFF aufgenommen werden
 - Excel-zu-HTML - Problem mit Zeilenumbruch
 - Die Schriftattribute der Schaltfläche werden nach dem Speichern geändert
 - Die Legende des Diagramms wird mit der Methode Shape.UpperLeftRow() verkleinert
-- Fehler im ausgegebenen PDF-Dokument
-- Mehrzeilige Kopfzeilen werden beim Rendern in eine PDF-Datei nicht unterstützt
+- Fehler im Ausgabedokument PDF
+- Mehrzeilige Kopfzeilen werden beim Rendern in die Datei PDF nicht unterstützt
 - Lesen aller Daten aus den Basisfeldern der Pivot-Tabelle
 - Beim Exportieren einer Excel-Tabelle nach DataTable wird ein Fehler ausgegeben
 - Problem beim Öffnen von ODS-Dateien
@@ -74,17 +74,17 @@ Merkmale
 
  -Formel ergibt #Ref
 
-- XLS-Datei stürzt MS Excel 2007 ab
+- XLS Datei stürzt MS Excel 2007 ab
 - Fehler beim Öffnen der Datei mit MS Excel
-- Problem mit HTML-Ausgabe in der neuen Aspose.Cells DLL (Version)
+- Problem mit HTML-Ausgabe in der neuen Aspose.Cells-DLL (Version)
 
--Das Aktualisieren der XLSX-Datei mit der Pivot-Tabelle führt dazu, dass Excel einen Fehler anzeigt
+ -Das Aktualisieren der Datei XLSX mit der Pivot-Tabelle führt dazu, dass Excel einen Fehler anzeigt
 
  -ToImage-Funktion, die eine zusätzliche Spalte im generierten Bild generiert (Sheet-to-Imageissue)
 
 - Excel 2007-Arbeitsmappe mit mehreren farbigen Tabellen wird in der konvertierten PDF-Datei nicht gerendert
 
- -Die Verwendung der Option Montageblatt auf einer Seite in Excel zum Konvertieren in PDF scheint nicht zu funktionieren
+ -Die Verwendung der Option „Anpassungsbogen auf einer Seite“ in Excel zum Konvertieren in PDF scheint nicht zu funktionieren
 
 - Mehrere Probleme beim Upgrade von v5.2.1.0 auf v7.0.3.0
 

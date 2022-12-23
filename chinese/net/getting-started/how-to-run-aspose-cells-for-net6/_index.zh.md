@@ -61,7 +61,7 @@ url: /zh/net/how-to-run-aspose-cells-for-net6/
 ```
 apt-get update && apt-get install -y libfontconfig1
 ```
-或者
+要么
 ```
 apk update && apk add fontconfig 
 ```

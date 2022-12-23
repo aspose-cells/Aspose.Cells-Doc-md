@@ -12,25 +12,25 @@ url: /tr/java/aspose-cells-for-java-17-9-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42391|Cell Sonuçlanan PDF'de gösterilen genişlik, "Formülü göster" özelliği kullanılırken Excel dosyasındakiyle aynı değil|Yeni özellik|
+|CELLSJAVA-42391|Sonuç PDF'de gösterilen Cell genişliği, "Formülü göster" özelliğini kullanırken Excel dosyasındakiyle aynı değil|Yeni özellik|
 |CELLSJAVA-42379|PDF çıktısına işlerken Adlandırılmış hedefi uygula (Yer imi sorgusu)|Yeni özellik|
 |CELLSJAVA-42401|Şeklin Z-Sırasını düzgün bir şekilde ayarlamak için tüm şekilleri numaralandırmanız gerekir|Artırma|
 |CELLSJAVA-42368|ActiveX Denetimi'nin (ListBox) adını ayarlayın|Artırma|
-|CELLSJAVA-42369|Excel belgesinin HTML çıktısı, gerçek değerler yerine karma değerler içeriyor|Böcek|
+|CELLSJAVA-42369|HTML Excel belgesinin çıktısı, gerçek değerler yerine karma değerler içeriyor|Böcek|
 |CELLSJAVA-42366|"2.2 CompleteEmail.html" dosyasının XLSX biçimine kaydedilmesi bozuk dosya oluşturuyor|Böcek|
 |CELLSJAVA-42365|Workbook nesnesine "2.1 CompleteEmail.html" yüklenmesi NullPointerException hatası veriyor|Böcek|
 |CELLSJAVA-42381|Excel Arama formülü için Çalışma Kitabı Hesaplaması yanlış|Böcek|
 |CELLSJAVA-42380|Sayfadaki dizi formülü Aspose.Cells üzerinden farklı hesaplanır.|Böcek|
 |CELLSJAVA-42370|Yanlış Köprüler ve PDF içeriği|Böcek|
 |CELLSJAVA-42395|İşleme - Grafik görüntüsü doğru değil|Böcek|
-|CELLSJAVA-42393|Excel'i PDF'ye dönüştürürken kategori ekseni etiketleri eksik|Böcek|
-|CELLSJAVA-42384|Excel PDF'ye dönüştürüldüğünde Negatif Çubukların Rengi doğru değil|Böcek|
-|CELLSJAVA-42378|setCrossAt() kullanılırken Excel'i PDF'ye dönüştürürken çubuk rengi değişti|Böcek|
+|CELLSJAVA-42393|Excel'i PDF'e dönüştürürken kategori ekseni etiketleri eksik|Böcek|
+|CELLSJAVA-42384|Excel PDF'e dönüştürüldüğünde Negatif Çubukların Rengi doğru değil|Böcek|
+|CELLSJAVA-42378|setCrossAt() kullanılırken Excel PDF'e dönüştürülürken çubuk rengi değişti|Böcek|
 |CELLSJAVA-42377|Grafikteki ana eksen birimlerinin değeri yanlış döndürülüyor|Böcek|
-|CELLSJAVA-42364|PDF'ye dışa aktarıldığında hücre aralığındaki veri etiketleri gelmiyor|Böcek|
+|CELLSJAVA-42364|PDF'e dışa aktarıldığında hücre aralığındaki veri etiketleri gelmiyor|Böcek|
 |CELLSJAVA-42359|Çubuk Değerleri 100 olan bir Seri için Eksik Veri Etiketleri|Böcek|
-|CELLSJAVA-42314|Çıktı PNG'sinde grafik boş|Böcek|
-|CELLSJAVA-42313|Çıktı PDF'sinde grafik boş|Böcek|
+|CELLSJAVA-42314|PNG çıktısında grafik boş|Böcek|
+|CELLSJAVA-42313|PDF çıktısında grafik boş|Böcek|
 |CELLSJAVA-42374|Aspose Cells tarafından yanlış ayrıştırılan karakter referansları|Böcek|
 |CELLSJAVA-42373|Çalışma kitabının kopyalanması ve ardından kaydedilmesi, çıktı Excel dosyasını bozar|Böcek|
 |CELLSJAVA-42392|İstisna "com.aspose.cells.CellsException: bilinmeyen excel içeriği!" şifrelenmiş bir Excel dosyasının başlatılması hakkında|İstisna|
@@ -71,8 +71,8 @@ VBA projesinin tasarımcı depolamasını alır ve ayarlar.
 ### **Kullanım Örnekleri**
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
-- [Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleyin](/cells/tr/java/add-pdf-bookmarks-with-named-destinations/)
-- [PDF'ye dönüştürürken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin](/cells/tr/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Adlandırılmış Hedeflerle PDF Yer İmleri Ekle](/cells/tr/java/add-pdf-bookmarks-with-named-destinations/)
+- [PDF'e işlenirken MS Excel Çalışma Kitabında Dış Kaynakların yüklenmesini kontrol edin](/cells/tr/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [VBA Macro UserForm DesignerStorage'ı Şablondan Hedef Çalışma Kitabına Kopyalayın](/cells/tr/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Oluştur Kaldır ve GridCell Yorumları Al](/cells/tr/java/create-remove-and-get-gridcell-comments/)
 - [Şekli Çalışma Sayfasının Önüne veya Arkasına Gönder](/cells/tr/java/send-shape-front-or-back-inside-the-worksheet/)

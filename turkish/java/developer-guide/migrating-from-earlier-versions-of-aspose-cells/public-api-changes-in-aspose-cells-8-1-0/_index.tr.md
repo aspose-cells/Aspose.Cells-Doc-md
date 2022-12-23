@@ -10,7 +10,7 @@ Bu belge, Aspose.Cells API sürüm 8.0.2'den 8.1.0'a modül/uygulama geliştiric
 
 {{% /alert %}} 
 ## **HtmlSaveOptions.ExportHiddenWorksheet Özelliği Eklendi**
-HtmlSaveOptions sınıfı, gizli çalışma sayfalarının HTML biçimine dışa aktarılıp aktarılmadığını belirtmek için kullanılabilen ExportHiddenWorksheet özelliğine sahiptir. Varsayılan değer doğrudur. yanlış olarak ayarlanırsa Aspose.Cells, gizli çalışma sayfası içeriğini dışa aktarmaz.
+HtmlSaveOptions sınıfı, gizli çalışma sayfalarının HTML biçiminde dışa aktarılıp aktarılmadığını belirtmek için kullanılabilecek ExportHiddenWorksheet özelliğine sahiptir. Varsayılan değer doğrudur. yanlış olarak ayarlanırsa Aspose.Cells, gizli çalışma sayfası içeriğini dışa aktarmaz.
 
 {{% alert color="primary" %}} 
 

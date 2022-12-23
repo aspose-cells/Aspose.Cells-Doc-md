@@ -15,16 +15,16 @@ url: /ja/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43322|Shape.getWorksheet() プロパティが必要です|新機能|
 |CELLSJAVA-43191|不適切なフォント タイプを指定した場合のシナリオを処理する手段を提供しますか?|強化|
 |CELLSJAVA-43319|数式でセル値を取得する問題|バグ|
-|CELLSJAVA-43330|XLSB ファイルを再保存した後の問題 - ファイルの破損|バグ|
-|CELLSJAVA-43333|Excel を HTML としてレンダリングするときの画像とテキストの配置が正しくない|バグ|
+|CELLSJAVA-43330|XLSB ファイルを再保存した後の問題 - 破損したファイル|バグ|
+|CELLSJAVA-43333|Excel を HTML としてレンダリングすると、画像とテキストの位置が正しくない|バグ|
 |CELLSJAVA-43321|AutoFilter の問題 - 空白行が表示される|バグ|
 |CELLSJAVA-43335|ワークブックで数式を計算中にデッドロックが発生しました|バグ|
 |CELLSJAVA-43313|印刷時にチャートラベルの位置が変わる|バグ|
 |CELLSJAVA-43314|100% 円グラフで 0/100% 線が印刷されない|バグ|
 |CELLSJAVA-43316|チャート印刷時のさまざまな問題|バグ|
-|CELLSJAVA-40582|スマート アート テキストが PDF/画像に正しくレンダリングされない|バグ|
+|CELLSJAVA-40582|スマート アート テキストが PDF/image に正しくレンダリングされない|バグ|
 |CELLSJAVA-41639|「XML スプレッドシート 2003」形式から XLSX 形式に変換すると、列幅が保持されない|バグ|
-|CELLSJAVA-43315|XLS を XLSX に変換するとファイルが破損し、出力 XLSX を PDF に変換すると「Shape to Image」エラーが発生する|バグ|
+|CELLSJAVA-43315|XLS を XLSX に変換すると、ファイルが破損し、出力 XLSX を PDF に変換する際に「Shape to Image」エラーが発生する|バグ|
 |CELLSJAVA-43334|テーブルの問題のオートフィルター|バグ|
 |
 

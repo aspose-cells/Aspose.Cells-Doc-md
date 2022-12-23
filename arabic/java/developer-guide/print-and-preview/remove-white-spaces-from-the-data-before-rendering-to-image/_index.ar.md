@@ -10,7 +10,7 @@ url: /ar/java/remove-white-spaces-from-the-data-before-rendering-to-image/
 
 {{% /alert %}}
 
- ال[**عرض الورقة**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)فئة قادرة على تحويل ورقة عمل إلى ملف صورة بأي سمات محددة ، على سبيل المثال ، تنسيق الصورة ، والأوراق المرقمة ، وما إلى ذلك. يتم دعم العديد من تنسيقات الصور ، بما في ذلك BMP و GIF و JPG و TIFF و EMF.
+ ال[**عرض الورقة**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)فئة قادرة على تحويل ورقة عمل إلى ملف صورة بأي سمات محددة ، على سبيل المثال ، تنسيق الصورة ، والأوراق المرقمة ، وما إلى ذلك ، يتم دعم العديد من تنسيقات الصور ، بما في ذلك BMP ، GIF ، JPG ، TIFF ، و EMF.
 
  عند استخدام ميزة من ورقة إلى صورة ، فإن صورة الإخراج بها مساحة بيضاء / فارغة ، أي حد ، حولها بشكل افتراضي. يمكنك إزالة هذا. عيّن هوامش إعداد الصفحة العلوية واليسرى والسفلية واليمنى لورقة العمل المصدر على 0 وحدد[**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)السمات وفقًا لذلك.
 

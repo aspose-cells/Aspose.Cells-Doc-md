@@ -21,7 +21,7 @@ url: /ar/java/developer-guide/
         <ul>
             <li><a href="/cells/ar/java/opening-files-with-different-formats/">فتح ملفات بتنسيقات مختلفة</a></li>
             <li><a href="/cells/ar/java/get-warnings-while-loading-excel-file/">احصل على تحذيرات أثناء تحميل ملف Excel</a></li>
-            <li><a href="/cells/ar/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">اقرأ جدول بيانات الأرقام الذي طورته شركة Apple Inc. باستخدام Aspose.Cells</a></li>
+            <li><a href="/cells/ar/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">اقرأ جدول البيانات Numbers الذي طورته شركة Apple Inc. باستخدام Aspose.Cells</a></li>
         </ul>
         <p>يحفظ</p>
         <ul>
@@ -39,13 +39,13 @@ url: /ar/java/developer-guide/
         <p>يصدّر</p>
         <ul>
             <li><a href="/cells/ar/java/converting-workbook-to-different-formats/">تحويل المصنف إلى تنسيقات مختلفة</a></li>
-            <li><a href="/cells/ar/java/convert-excel-workbook-to-pdf/">تحويل Excel Workbook إلى PDF</a></li>
+            <li><a href="/cells/ar/java/convert-excel-workbook-to-pdf/">تحويل مصنف Excel إلى PDF</a></li>
             <li><a href="/cells/ar/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">قم بتحويل ملف Excel إلى تنسيق PDF متوافق مع PDFA-1a</a></li>
             <li><a href="/cells/ar/java/converting-worksheet-to-different-image-formats/">تحويل ورقة العمل إلى تنسيقات صور مختلفة</a></li>
             <li><a href="/cells/ar/java/track-document-conversion-progress/">تتبع تقدم تحويل المستند</a></li>
-            <li><a href="/cells/ar/java/convert-excel-to-html-with-tooltip/">تحويل Excel إلى HTML مع تلميح الأدوات</a></li>
-            <li><a href="/cells/ar/java/convert-json-to-csv/">تحويل JSON إلى CSV</a></li>
-            <li><a href="/cells/ar/java/convert-csv-to-json/">تحويل CSV إلى JSON</a></li>
+            <li><a href="/cells/ar/java/convert-excel-to-html-with-tooltip/">قم بتحويل Excel إلى HTML باستخدام تلميح الأداة</a></li>
+            <li><a href="/cells/ar/java/convert-json-to-csv/">حوّل JSON إلى CSV</a></li>
+            <li><a href="/cells/ar/java/convert-csv-to-json/">حوّل CSV إلى JSON</a></li>
         </ul>
         <p>خيارات</p>
         <ul>
@@ -62,15 +62,15 @@ url: /ar/java/developer-guide/
 		 <li><a href="/cells/ar/java/accessing-cells-of-a-worksheet/">الوصول إلى Cells من ورقة العمل</a></li>
 		 <li><a href="/cells/ar/java/add-and-retrieve-data/">إضافة واسترداد البيانات</a></li>
 		 <li><a href="/cells/ar/java/worksheets/">أوراق عمل</a></li>
-		 <li><a href="/cells/ar/java/rows-and-columns/">الصفوف والأعمدة</a></li>
+		 <li><a href="/cells/ar/java/rows-and-columns/">الصفوف و الأعمة</a></li>
         </ul>
         <p>أسلوب</p>
         <ul>
-		 <li><a href="/cells/ar/java/data-formatting/">رقم</a></li>
-		 <li><a href="/cells/ar/java/dealing-with-font-settings/">محاذاة</a></li>
+		 <li><a href="/cells/ar/java/data-formatting/">عدد</a></li>
+		 <li><a href="/cells/ar/java/dealing-with-font-settings/">التوافق</a></li>
 		 <li><a href="/cells/ar/java/fonts/">الخط</a></li>
 		 <li><a href="/cells/ar/java/cells-formatting/#adding-borders-to-cells">الحدود</a></li>
-		 <li><a href="/cells/ar/java/cells-formatting/#colors-and-background-patterns">يملأ</a></li>
+		 <li><a href="/cells/ar/java/cells-formatting/#colors-and-background-patterns">ملء</a></li>
 		 <li><a href="/cells/ar/java/dealing-with-font-settings/">التعامل مع إعدادات الخط</a></li>
 		 <li><a href="/cells/ar/java/change-cells-alignment-and-keep-existing-formatting/">قم بتغيير Cells المحاذاة والاحتفاظ بالتنسيق الموجود</a></li>
         </ul>
@@ -160,7 +160,7 @@ url: /ar/java/developer-guide/
          <p><a href="/cells/ar/java/charts/">جدول</a></p>
 		  <ul>
             <li><a href="/cells/ar/java/creating-and-customizing-charts/">إنشاء الرسوم البيانية وتخصيصها</a></li>
-			<li><a href="/cells/ar/java/create-pivot-tables-and-pivot-charts/">إنشاء الجداول المحورية والمخططات المحورية</a></li>
+			<li><a href="/cells/ar/java/create-pivot-tables-and-pivot-charts/">إنشاء جداول محورية ومخططات محورية</a></li>
             <li><a href="/cells/ar/java/chart-formatting/">تنسيق المخطط</a></li>
 	   </ul>
     </div>
@@ -337,7 +337,7 @@ url: /ar/java/developer-guide/
         <ul>
          <li><a href="/cells/ar/java/worksheet-views/#page-break-preview">معاينة فاصل الصفحة</a></li>
         </ul>
-        <p>يعرض</p>
+        <p>تبين</p>
          <ul>
 		<li><a href="/cells/ar/java/show-and-hide-elements/">إظهار وإخفاء العناصر</a></li>
         </ul>

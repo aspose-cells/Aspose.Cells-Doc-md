@@ -14,7 +14,7 @@ Bir sütuna herhangi bir doğrulama türü eklemek için lütfen aşağıdaki ad
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- **Ekle** istenilen**Doğrulama** herhangi bir sütuna
+- **Eklemek** istenilen**Doğrulama** herhangi bir sütuna
 
 **ÖNEMLİ:**Doğrulama türleri (veya doğrulama modları gibi) hakkında daha fazla bilgi için**Doğrulama Gerekli mi**, **Normal İfadeler Doğrulaması** ve**Özel Doğrulama** ) ve uygulanması**Özel Doğrulama** , bakınız[Çalışma Sayfalarında Doğrulamalarla Çalışma.](/cells/tr/net/working-with-validations-in-worksheets/)
 

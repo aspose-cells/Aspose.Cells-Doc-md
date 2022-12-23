@@ -10,12 +10,12 @@ url: /it/net/aspose-cells-for-net-22-6-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-50880|Nuove API per convertire i dati in ICellsDataTable per comodità dell'utente|
 |CELLSNET-51140|Supporta l'archiviazione dei dati 5.0 di .numbers|
 |CELLSNET-51144|Supporta la lettura di immagini di Numbers13|
-|CELLSNET-51230|Supporto per impostare lo stile per CellRange|
+|CELLSNET-51230| Supporto per impostare lo stile per CellRange|
 |CELLSNET-50996|Aggiunta del metodo di overload ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32)|
 |CELLSNET-51184| Supporta l'importazione del valore dell'array se l'intervallo è una cella semplice|
 |CELLSNET-51215|Supporta il salvataggio dei formati di tabella in xlsb|
@@ -23,7 +23,7 @@ url: /it/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50954|UpperLeftRow errato di CheckBox dopo il caricamento della cartella di lavoro|
 |CELLSNET-51153| Caselle di controllo duplicate|
 |CELLSNET-51158|I caratteri scritti su oggetti come forme e caselle di testo sono confusi in Linux|
-|CELLSNET-51180|Il file XLS con la tabella pivot convertita in XLSM è danneggiato e i dettagli delle connessioni dati sono stati eliminati|
+|CELLSNET-51180|Il file XLS con la tabella pivot convertito in XLSM è danneggiato e i dettagli delle connessioni dati sono stati eliminati|
 |CELLSNET-50598|La formula dinamica con la funzione FILTRO non può essere aggiornata e calcolata correttamente|
 |CELLSNET-51069|Cell.Calculate() non aggiorna le dipendenze delle formule quando la catena di calcolo è abilitata per la cartella di lavoro|
 |CELLSNET-51186| Problema con la funzione CEILING nel motore di calcolo della formula Aspose.Cells'|
@@ -34,7 +34,7 @@ url: /it/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51041|I caratteri cinesi sono corrotti durante il caricamento di html|
 |CELLSNET-51072|Problema di ImportXml con il campo Data|
 |CELLSNET-51081|Il formato personalizzato viene modificato dopo aver ricaricato l'html salvato nella cartella di lavoro|
-|CELLSNET-51092|Il carattere barrato non funziona nell'SVG/immagine renderizzata su Linux|
+|CELLSNET-51092|Il carattere barrato non funziona nel rendering SVG/image su Linux|
 |CELLSNET-51120|Eccezione generata durante l'esportazione di dati xml collegati a Xml Map|
 |CELLSNET-51197|Problema di ImportXml con il campo booleano|
 |CELLSNET-50854|Da XLSX a PDF: grafici a barre non visualizzati correttamente|
@@ -54,13 +54,13 @@ url: /it/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51199| workbook.save(filePath) Annulla il blocco dei riquadri|
 |CELLSNET-51228|Workbook.CalculateFormula causa l'eccezione "Riferimento oggetto non impostato su un'istanza di un oggetto".|
 |CELLSNET-51045|Eccezione "Cell è stata rimossa: D7" quando si imposta lo stile su un intervallo in Aspose.Cells.GridDesktop|
-|CELLSNET-47707|Eccezione "Questo file Excel contiene record (formato di file Excel2.1 o precedente)" durante il caricamento di un file XLS|
+|CELLSNET-47707|Eccezione "Questo file Excel contiene record (formato file Excel2.1 o precedente)" durante il caricamento di un file XLS|
 |CELLSNET-47960|la nuova cartella di lavoro non riesce a generare un'eccezione: questo file Excel contiene record (Excel4.0 o formato di file precedente).|
 |CELLSNET-51227| System.FormatException. La stringa non è stata riconosciuta come DateTime valido durante il caricamento del file Excel di Suomi|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe CellsDataTableFactory**
 

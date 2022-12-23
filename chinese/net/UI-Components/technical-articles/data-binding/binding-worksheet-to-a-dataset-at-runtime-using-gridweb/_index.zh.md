@@ -83,4 +83,4 @@ public partial class GridBind : System.Web.UI.Page
 ## **输出截图**
 下面的屏幕截图显示了执行上述示例代码后的 GridWeb。
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-at-runtime-using-gridweb_1.png)

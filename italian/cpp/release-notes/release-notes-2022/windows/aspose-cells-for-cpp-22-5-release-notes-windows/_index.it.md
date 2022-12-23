@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.5.0 per W
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-778| Ottimizza il modulo xml|Ottimizzare|
 |CELLSCPP-784| Risolto il problema relativo a DateTime::parseUTC|Insetti|

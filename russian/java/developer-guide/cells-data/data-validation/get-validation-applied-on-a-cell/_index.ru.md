@@ -44,4 +44,4 @@ Ignore blank: true
 
 ## Статьи по Теме
 
-- [Проверка данных](/cells/ru/java/data-validation/)
+- [Валидация данных](/cells/ru/java/data-validation/)

@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for .NET إلى الإصدار 8.0.2 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 30 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -30,17 +30,17 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 ## **أداء**
 
 
- (CELLSNET-42278) - System.OutOfMemoryException أثناء حفظ XLSX في PDF حيث يحتوي XLSX على الكثير من الخلايا الفارغة مع التنسيق
+ (CELLSNET-42278) - System.OutOfMemoryException أثناء حفظ XLSX إلى PDF حيث يحتوي XLSX على الكثير من الخلايا الفارغة بالتنسيق
 
 
 ## **البق**
 
 
- (CELLSNET-42524) - دالة CalculateTextSize لمشاكل كائن الشكل
+(CELLSNET-42524) - دالة CalculateTextSize لمشاكل كائن الشكل
 
  (CELLSNET-42401) - لا يقوم CalculateTextSize () بإرجاع الارتفاع الصحيح
 
-(CELLSNET-42235) - مشكلة في تحجيم مربع النص التلقائي
+ (CELLSNET-42235) - مشكلة في تحجيم مربع النص التلقائي
 
  (CELLSNET-42104) - لا يقوم CalculateTextSize بإرجاع الارتفاع الصحيح
 
@@ -48,23 +48,23 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 
  (CELLSNET-42562) - لا تعمل الصيغ مع العملات الأجنبية
 
- (CELLSNET-42269) - تنسيق PivotTable في إخراج XPS غير صحيح
+ (CELLSNET-42269) - تنسيق PivotTable في الإخراج XPS غير صحيح
 
- (CELLSNET-42597) - تتسبب AutoFitRows في إخفاء النص الملتف في ملف PDF الناتج
+ (CELLSNET-42597) - تتسبب AutoFitRows في إخفاء النص الملتف في الناتج PDF
 
  (CELLSNET-42615) - لا يعرض SheetRender الأحرف المرتفعة بشكل صحيح
 
  (CELLSNET-42594) - لا يعمل ضبط النص العمودي بشكل صحيح في SheetRender
 
- (CELLSNET-42580) - حفظ ملف Excel في PDF يتجاهل إعدادات اللون في الرأس
+ (CELLSNET-42580) - حفظ ملف Excel في PDF يتجاهل إعدادات الألوان في الرأس
 
  (CELLSNET-42579) - مشكلة فاصل الصفحة عند التقديم إلى PDF
 
- (CELLSNET-42498) - يتم نسخ الحدود إلى الصفحة التالية أثناء تحويل XLSX إلى PDF
+(CELLSNET-42498) - يتم نسخ الحدود إلى الصفحة التالية أثناء التحويل XLSX إلى PDF
 
  (CELLSNET-42495) - يحتوي عرض ملف PDF على سطور غير مرغوب فيها في الصفحتين 2 و 3
 
-(CELLSNET-42567) - يختفي الرسم البياني عند تحويله إلى PDF
+ (CELLSNET-42567) - يختفي الرسم البياني عند التحويل إلى PDF
 
  (CELLSNET-42527) - المخطط الخطي والمخطط الشريطي في نفس الرسم البياني ليسا في الموضع الصحيح
 
@@ -78,9 +78,9 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 
  (CELLSNET-42586) - لا تعمل محاذاة نص التعليق عند التعيين إلى اليمين
 
- (CELLSNET-42582) - وجد Excel خطأ في المحتويات غير القابلة للقراءة عند فتح Aspose.Cells XLSM المحول من XLSB
+ (CELLSNET-42582) - وجد Excel خطأ في المحتويات غير القابلة للقراءة عند الفتح Aspose.Cells المحول XLSM من XLSB
 
- (CELLSNET-42581) - ArgumentOutOfRangeException - عند فتح ملف Excel XLSX
+(CELLSNET-42581) - ArgumentOutOfRangeException - عند فتح ملف Excel XLSX
 
  (CELLSNET-42570) - Cell الصيغ في العلامات الذكية لا تتوسع
 
@@ -90,7 +90,7 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 ## **استثناءات**
 
 
-(CELLSNET-42576) - استثناء مرجعي فارغ عند حفظ xls بصيغة pdf
+ (CELLSNET-42576) - استثناء مرجعي فارغ عند حفظ xls بصيغة pdf
 
  (CELLSNET-42628) - System.NullReferenceException أثناء تحميل جدول بيانات MHTML
 
@@ -104,7 +104,7 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -118,7 +118,7 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 
  (CELLSNET-40531) - مشكلة في الصيغة عند تحميل ملف القالب إلى GridWeb
 
- (CELLSNET-42571) - تنسيق الأرقام في العمود H داخل GridWeb غير محفوظ
+(CELLSNET-42571) - تنسيق الأرقام في العمود H داخل GridWeb غير محفوظ
 
  (CELLSNET-42553) - قائمة الكائنات / تنسيق الجداول / النمط المفقود عند استيراد ملف Excel إلى GridWeb
 
@@ -134,7 +134,7 @@ url: /ar/net/aspose-cells-for-net-8-0-2-release-notes/
 
 
 
-يضيف خاصية Shape.TextDirection
+ يضيف خاصية Shape.TextDirection
 
  الحصول على / تعيين اتجاه انسياب النص للشكل.
 

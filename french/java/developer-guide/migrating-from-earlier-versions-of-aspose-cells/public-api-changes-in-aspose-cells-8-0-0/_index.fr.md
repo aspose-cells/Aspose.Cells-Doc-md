@@ -58,7 +58,7 @@ book.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 
 {{% /alert %}}
 ## **Les implémentations de Row & Cell ont changé**
- Dans les versions précédentes, les objets Row et Cell étaient conservés en mémoire pour représenter la ligne et la cellule correspondantes dans une feuille de calcul. La même instance était renvoyée à chaque fois**RowCollection[int index]** ou**Cells[int ligne, int colonne]** ont été récupérés. Pour des raisons de performances de la mémoire, seules les propriétés et les données de Row et Cell seront conservées dans la mémoire à partir de maintenant. Par conséquent, l'objet Row & Cell est devenu l'enveloppe des propriétés susmentionnées.
+ Dans les versions précédentes, les objets Row et Cell étaient conservés en mémoire pour représenter la ligne et la cellule correspondantes dans une feuille de calcul. La même instance était renvoyée à chaque fois**RowCollection[int index]** ou alors**Cells[int ligne, int colonne]** ont été récupérés. Pour des raisons de performances de la mémoire, seules les propriétés et les données de Row et Cell seront conservées dans la mémoire à partir de maintenant. Par conséquent, l'objet Row & Cell est devenu l'enveloppe des propriétés susmentionnées.
 ### **Exemple**
 Montre comment comparer les objets Cell et Row à partir de maintenant.
 
@@ -121,13 +121,13 @@ RowCollection n'hérite plus de CollectionBase car il n'y a pas d'objet Row dans
 
 {{% /alert %}}
 ## **Cell. Comportement de StringValue modifié**
- Dans les versions précédentes, motif spécial_ été ignoré lors du formatage des valeurs de cellule, où le caractère spécial * produisait toujours un caractère dans le résultat formaté. A partir de cette version, nous avons changé la logique pour gérer les caractères spéciaux_ et* afin de rendre le résultat formaté identique à celui de l'application Excel. Par exemple, le format de cellule personnalisé "_(\$* #,##0.00_)" utilisé pour représenter la valeur 123 produit le résultat sous la forme "123,00 $". Avec les nouvelles versions, Cell.StringValue contiendra le résultat sous la forme "123,00 $", ce qui correspond au même comportement que l'application Excel lors de la copie de la cellule pour envoyer du texte ou exporter au format CSV.
+ Dans les versions précédentes, motif spécial_ été ignoré lors du formatage des valeurs de cellule, où le caractère spécial * produisait toujours un caractère dans le résultat formaté. A partir de cette version, nous avons changé la logique pour gérer les caractères spéciaux_ et* afin de rendre le résultat formaté identique à celui de l'application Excel. Par exemple, le format de cellule personnalisé "_(\$* #,##0.00_)" utilisé pour représenter la valeur 123 produit le résultat sous la forme "123,00 $". Avec les nouvelles versions, Cell.StringValue contiendra le résultat sous la forme "123,00 $", ce qui correspond au même comportement que l'application Excel lors de la copie de la cellule pour envoyer un SMS ou exporter vers CSV.
 ## **Ajout de CreatedTime à PdfSaveOptions**
-Désormais, les utilisateurs peuvent obtenir ou définir l'heure de création du PDF tout en enregistrant la feuille de calcul au format PDF tout en utilisant la classe PdfSaveOptions.
+Désormais, les utilisateurs peuvent obtenir ou définir l'heure de création PDF tout en enregistrant la feuille de calcul sur PDF tout en utilisant la classe PdfSaveOptions.
 ## **Ajout de ShowFormulas à la feuille de calcul**
 À partir de maintenant, les utilisateurs peuvent utiliser la propriété booléenne ShowFormulas offerte par Worksheet pour basculer la vue entre la formule et la valeur d'une feuille de calcul donnée.
 ## **Ooxml ajouté à FileFormatType**
-Une nouvelle constante Ooxml a été ajoutée à la classe FileFormatType pour représenter le fichier XML ouvert Office chiffré tel que XLSX, DOCX, PPTX et plus encore.
+Une nouvelle constante Ooxml a été ajoutée à la classe FileFormatType pour représenter le fichier XML ouvert Office chiffré tel que XLSX, DOCX, PPTX et plus.
 ## **Obsolète FilterColumnCollection of AutoFilter**
 Avec Aspose.Cells for Java, la méthode getFilterColumnCollection a été marquée comme obsolète. Il est suggéré d'utiliser la méthode AuotFilter.getFilterColumns à la place.
 ## **Remplacement de SeriesCollection.SecondCatergoryData par SeriesCollection.SecondCategoryData**

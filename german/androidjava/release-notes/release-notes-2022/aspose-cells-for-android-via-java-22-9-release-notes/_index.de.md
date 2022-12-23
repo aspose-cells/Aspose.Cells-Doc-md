@@ -14,17 +14,17 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |:- |:- |:- |
 |CELLSJAVA-44721|Unterstützt das Sortieren von PivotField über ein berechnetes Feld|
 |CELLSJAVA-44811|Unterstützung zum Angeben von auszugebenden Blättern beim Exportieren in PDF/XPS|
-|CELLSJAVA-44194|Zeichnungsform wird in Excel nicht in PDF-Rendering gerendert|
+|CELLSJAVA-44194|Zeichnungsform wird in Excel nicht auf PDF gerendert|
 |CELLSJAVA-44733|Untersuchen Sie die Regeln von MS Excel, um den Rand einer Zelle anzuzeigen, wenn die benachbarte Spalte ausgeblendet ist: Der Rand der Zelle wurde nicht synchronisiert|
 |CELLSJAVA-44777|Formeln nur in HTML exportieren, abhängig von der Option HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|Verbessern Sie das Parsen von HTML-Strings in Zellen|
-|CELLSJAVA-44695| Schlechte Konvertierung in PDF von XLS mit Zeilenbeschriftung auf der linken Seite des Blatts|
+|CELLSJAVA-44695| Schlechte Umwandlung in PDF von XLS mit Line Callout links auf dem Blatt|
 |CELLSJAVA-44700|Berechnete Pivot-Tabellenfelder werden beim Aktualisieren der Datenquelle nicht aktualisiert|
 |CELLSJAVA-44705|Cell.getDependents() löst eine Ausnahme aus oder kann nicht alle abhängigen Elemente bereitstellen|
 |CELLSJAVA-44717|Problem mit Rahmenstil (Linie).|
 |CELLSJAVA-44707| Grenzlinie wird nicht angezeigt|
-|CELLSJAVA-44670| Problem mit Formeln in der HTML-Ausgabe – Umwandlung von Excel in HTML|
-|CELLSJAVA-44202|Beim Export nach HTML ist die Legende im Diagramm nicht die gleiche wie in MS Excel|
+|CELLSJAVA-44670| Problem mit Formeln in der Ausgabe HTML – Umwandlung von Excel in HTML|
+|CELLSJAVA-44202|Beim Export nach HTML entspricht die Legende im Diagramm nicht der von MS Excel|
 |CELLSJAVA-44591|Die Textdrehung von Beschriftungen stimmt nicht mit Excel im Ausgabebild des Diagramms überein|
 |CELLSJAVA-44655|Treemap-Diagramm mit negativem Wert kann nicht angezeigt werden, was dazu führt, dass die Ausführung weiter ausgeführt wird|
 |CELLSJAVA-44686|Der Titeltext des Diagramms (2016) ist falsch, wenn Title.IsAutoText wahr ist|
@@ -38,7 +38,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44773|Daten werden durcheinander gebracht, wenn ein Excel-Dokument mit ausgeblendeten Spalten in GridWeb geöffnet wird (Java)|
 |CELLSJAVA-44781|Untersuchen Sie das Problem der Zeilengrößenänderung, wenn die Größe auf eine sehr geringe Höhe geändert wird|
 |CELLSJAVA-44787|Unterer Rand in der letzten Zeile in der Arbeitsmappe verloren|
-|CELLSJAVA-44761|Übermäßige Speichernutzung bei der Konvertierung einer Excel-Datei in HTML|
+|CELLSJAVA-44761|Übermäßige Speichernutzung bei der Konvertierung der Excel-Datei in HTML|
 |CELLSJAVA-44801|Die Konvertierung von Excel in PDF mit Aspose.Cells for Java v22.7 verursacht verstümmelte Zeichen|
 |CELLSJAVA-44741|Der Zeilenumbruch ist in der xlsx-Ausgabe nicht richtig, nachdem der HTML-String in die Zelle gesetzt wurde|
 |CELLSJAVA-44776|Das Styling der Tabellenkopfzeile geht beim Kopieren des Blattes verloren|
@@ -51,14 +51,14 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44860|Die Anzeige von Zellentext ist in einigen zusammengeführten Bereichen nicht dieselbe wie in Excel|
 |CELLSJAVA-44832|Beim Konvertieren in PDF werden mehrere Seiten statt einer Seite wie in Excel ausgegeben|
 |CELLSJAVA-44812|Der Plotbereich für das Diagramm kann nicht verkleinert werden|
-|CELLSJAVA-44831|MS Word zeigt beim Öffnen der konvertierten DOCX-Datei aus der XLSX-Datei mit Aspose.Cells for Java einen Fehler „Word hat unlesbaren Inhalt gefunden in …“ an|
+|CELLSJAVA-44831|MS Word zeigt beim Öffnen der konvertierten DOCX aus XLSX-Datei von Aspose.Cells for Java einen Fehler „Word hat unlesbaren Inhalt gefunden in …“ an|
 |CELLSJAVA-44833|Die Textfarbe wird nicht auf verschiedene Wörter oder Teile des Inhalts in der Excel-Ausgabedatei angewendet, wenn die Methode Cell.setHtmlString() verwendet wird|
 |CELLSJAVA-44852| Der Rahmen ist falsch, wenn die statische Excel-Datei in HTML konvertiert wird|
 |CELLSJAVA-44856| Konvertierung von Excel in HTML – Sparkline (Minidiagramm) wird nicht angezeigt/gerendert|
 |CELLSJAVA-44859|Einige HTML-Formatierungen funktionieren nicht für Arbeitsblattzellen in einer vorhandenen Excel-Datei|
-|CELLSJAVA-44725| Ausnahme „java.util.zip.ZipException: ungültige Eintragsgröße (erwartet 0, aber 1053 Bytes)“ beim Konvertieren von XLSX in PDF|
+|CELLSJAVA-44725| Ausnahme "java.util.zip.ZipException: invalid entry size (expected 0 but got 1053 bytes)" beim Konvertieren von XLSX in PDF|
 |CELLSJAVA-44763|Ausnahme "java.lang.IllegalArgumentException: can't parse argument number: 1:X8" beim Laden der Excel-Datei mit "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Fehler beim Speichern als PDF - Untersuchung erforderlich|
+|CELLSJAVA-44774|Fehler beim Speichern als PDF – Untersuchung erforderlich|
 |CELLSJAVA-44842|Ausnahme "java.lang.OutOfMemoryError: Java heap space" beim Konvertieren einer XLSX-Datei in PDF|
 
 

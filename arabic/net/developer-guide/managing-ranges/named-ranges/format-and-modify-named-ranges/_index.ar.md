@@ -8,7 +8,7 @@ url: /ar/net/format-and-modify-named-ranges/
 
 ### **تعيين لون الخلفية وخصائص الخط إلى نطاق مسمى**
 
- لتطبيق التنسيق ، حدد ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) لتحديد إعدادات النمط وتطبيقها على ملف[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range)هدف.
+ لتطبيق التنسيق ، حدد ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) لتحديد إعدادات النمط وتطبيقها على ملف[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range)موضوع.
 
 يوضح المثال التالي كيفية تعيين لون تعبئة خالص (لون التظليل) باستخدام إعدادات الخط إلى نطاق.
 
@@ -38,17 +38,17 @@ url: /ar/net/format-and-modify-named-ranges/
 
 ## **اتحاد النطاقات**
 
- يوفر Aspose.Cells[**النطاق. الاتحاد**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union)طريقة لأخذ الاتحاد للنطاقات ، تقوم الطريقة بإرجاع[*ArrayList*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)هدف. يوضح المثال التالي كيفية أخذ الاتحاد للنطاقات.
+ يوفر Aspose.Cells[**النطاق. الاتحاد**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/union)طريقة لأخذ الاتحاد للنطاقات ، تقوم الطريقة بإرجاع[*ArrayList*](https://docs.microsoft.com/en-gb/dotnet/api/system.collections.arraylist?view=netframework-4.8)موضوع. يوضح المثال التالي كيفية أخذ الاتحاد للنطاقات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-UnionOfRanges-1.cs" >}}
 
 ## **تقاطع النطاقات**
 
- يوفر Aspose.Cells ملف[**المدى**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) طريقة لتقاطع نطاقين. تقوم الطريقة بإرجاع ملف[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) هدف. للتحقق مما إذا كان النطاق يتقاطع مع نطاق آخر ، استخدم[**المدى**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect)الطريقة التي تُرجع قيمة منطقية. يوضح المثال التالي كيفية تقاطع النطاقات.
+ يوفر Aspose.Cells ملف[**المدى**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect) طريقة لتقاطع نطاقين. تقوم الطريقة بإرجاع ملف[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) موضوع. للتحقق مما إذا كان النطاق يتقاطع مع نطاق آخر ، استخدم[**المدى**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/intersect)الطريقة التي تُرجع قيمة منطقية. يوضح المثال التالي كيفية تقاطع النطاقات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-IntersectionofRanges-1.cs" >}}
 
-## **ادمج Cells في النطاق المحدد**
+## **قم بدمج Cells في النطاق المحدد**
 
  يوفر Aspose.Cells[**Range.Merge ()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge)طريقة لدمج الخلايا في النطاق. يوضح المثال التالي كيفية دمج الخلايا الفردية لنطاق مسمى.
 

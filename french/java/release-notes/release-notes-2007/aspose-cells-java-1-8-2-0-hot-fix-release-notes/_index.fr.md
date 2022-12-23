@@ -16,6 +16,6 @@ url: /fr/java/aspose-cells-java-1-8-2-0-hot-fix-release-notes/
 
  Les améliorations et correctifs suivants sont inclus :
 
- Prend en charge la zone de texte dans le graphique pour créer un lien vers la cellule. Prend en charge la définition de l'axe de valeur X de dispersion du graphique. .Correction d'un bug de calcul de formule.Correction d'un bug de sauvegarde du fichier CSV.Correction d'un bug de validation des paramètres.Correction d'un bug de suppression d'une feuille.Correction d'un bug de copie d'une feuille.
+ Prend en charge la zone de texte dans le graphique pour créer un lien vers la cellule. Prend en charge la définition de l'axe de valeur X de dispersion du graphique. .Correction d'un bug de calcul de formule.Correction d'un bug d'enregistrement du fichier CSV.Correction d'un bug de validation des paramètres.Correction d'un bug de suppression d'une feuille.Correction d'un bug de copie d'une feuille.
 
 La liste suivante contient des détails relatifs sur les requêtes et les bogues :

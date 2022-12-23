@@ -10,9 +10,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.5 per Win
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-274| Risolto problema di conversione in pdf|Insetto|
 |CELLSCPP-276| Supporta la verifica SHA256 per la firma della licenza|Nuova caratteristica|
 |CELLSCPP-277| Supporta la conformità PDF/A-1a - IPdfSaveOptions|Nuova caratteristica|
-|CELLSCPP-279| Il PDF convertito non è ben formattato|Insetto|
+|CELLSCPP-279| Convertito PDF non è ben formattato|Insetto|

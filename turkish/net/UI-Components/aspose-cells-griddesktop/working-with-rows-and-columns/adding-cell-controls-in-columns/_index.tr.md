@@ -9,7 +9,7 @@ url: /tr/net/adding-cell-controls-in-columns/
 Daha sonraki tartışmalarımızda, çalışma sayfasına hücre kontrolleri ekleme ve yönetme hakkında tartıştık. Ancak, bu yaklaşımları kullanarak, tek tek hücrelere hücre kontrolleri ekleyebiliriz. Birisi bir veya daha fazla sütunun tüm hücrelerine hücre kontrolleri eklemek isterse ne olur? Bu gibi durumlarda, geliştiricilerin çabalarını azaltmak için Aspose.Cells.GridDesktop, sütun bazında hücre kontrolleri ekleme özelliği sağlar. Bu, geliştiricilerin yalnızca istenen bir sütunu seçebileceği ve herhangi bir hücre kontrolünü belirtebileceği anlamına gelir. Belirtilen hücre denetimi, belirtilen sütunun tüm hücrelerine eklenecektir. Bu özelliği nasıl kullanabileceğimize bakalım.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 Şu anda Aspose.Cells.GridDesktop, aşağıdakileri içeren üç tür hücre denetimi eklemeyi destekler:
 
 - **Buton**
@@ -24,7 +24,7 @@ Aspose.Cells.GridDesktop kullanarak bir sütuna düğme eklemek için lütfen a�
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Buton** belirtilen herhangi birine**Kolon** arasında**Çalışma kağıdı**
+-  Eklemek**Buton** belirtilen herhangi birine**Kolon** arasında**Çalışma kağıdı**
 
 **NOT:** eklerken**Buton**, butonun genişliğini, yüksekliğini ve başlığını belirtebiliriz.
 
@@ -39,7 +39,7 @@ Aspose.Cells.GridDesktop kullanarak bir sütuna onay kutuları eklemek için lü
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Onay Kutusu** belirtilen herhangi birine**Kolon** arasında**Çalışma kağıdı**
+-  Eklemek**Onay Kutusu** belirtilen herhangi birine**Kolon** arasında**Çalışma kağıdı**
 
 **NOT:** eklerken**Onay Kutusu**, onay kutusunun durumunu da belirtebiliriz.
 
@@ -55,7 +55,7 @@ Aspose.Cells.GridDesktop kullanarak bir sütuna açılan kutu eklemek için lüt
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 -  Eklenecek bir dizi öğe (veya değer) oluşturun**Açılan kutu**
--  Ekle**Açılan kutu** (öğeleri veya değerleri içeren) belirtilen herhangi bir**Kolon** arasında**Çalışma kağıdı**
+-  Eklemek**Açılan kutu** (öğeleri veya değerleri içeren) belirtilen herhangi bir**Kolon** arasında**Çalışma kağıdı**
 
 
 

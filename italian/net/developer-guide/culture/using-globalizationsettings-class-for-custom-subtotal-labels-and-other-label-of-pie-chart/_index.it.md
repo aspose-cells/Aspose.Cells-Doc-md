@@ -6,7 +6,7 @@ url: /it/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Possibili scenari di utilizzo**
 
- Aspose.Cells API hanno esposto il file[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class per gestire gli scenari in cui l'utente desidera utilizzare etichette personalizzate per i subtotali in un foglio di calcolo. Inoltre, il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class può essere utilizzata anche per modificare il file**Altro** etichetta per il grafico a torta durante il rendering del foglio di lavoro o del grafico.
+ Aspose.Cells API hanno esposto il file[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)class per gestire gli scenari in cui l'utente desidera utilizzare etichette personalizzate per i subtotali in un foglio di calcolo. Inoltre, il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) class può essere utilizzata anche per modificare il file**Altro** etichetta per il grafico a torta durante il rendering del foglio di lavoro o del grafico.
 
 ## **Introduzione alla classe GlobalizationSettings**
 
@@ -18,7 +18,7 @@ url: /it/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Etichette personalizzate per subtotali**
 
- Il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) può essere utilizzata per personalizzare le etichette Subtotale sovrascrivendo il[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)metodi come dimostrato in precedenza.
+ Il[**Impostazioni di globalizzazione**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)può essere utilizzata per personalizzare le etichette Subtotale sovrascrivendo il[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)metodi come dimostrato in precedenza.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 

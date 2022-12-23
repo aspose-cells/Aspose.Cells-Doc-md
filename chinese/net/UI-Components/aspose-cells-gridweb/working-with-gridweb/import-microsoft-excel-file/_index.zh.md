@@ -36,7 +36,7 @@ url: /zh/net/import-microsoft-excel-file/
 
 **单击按钮时加载 Excel 文件** 
 
-![待办事项：图像_替代_文本](import-microsoft-excel-file_1.png)
+![待办事项：图片_替代_文本](import-microsoft-excel-file_1.png)
 
 {{% alert color="primary" %}} 
 

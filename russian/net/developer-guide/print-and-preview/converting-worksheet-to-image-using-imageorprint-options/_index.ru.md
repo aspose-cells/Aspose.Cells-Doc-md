@@ -6,7 +6,7 @@ url: /ru/net/converting-worksheet-to-image-using-imageorprint-options/
 ---
 {{% alert color="primary" %}}
 
-Этот документ предназначен для предоставления подробного понимания того, как преобразовать рабочий лист в файл изображения и применить различные параметры изображения и печати для изображения, такие параметры, как разрешение, сжатие TIFF, формат изображения и качество страницы.
+Этот документ предназначен для подробного понимания того, как преобразовать рабочий лист в файл изображения и применить различные параметры изображения и печати для изображения, такие параметры, как разрешение, сжатие TIFF, формат изображения и качество страницы.
 
 {{% /alert %}}
 
@@ -18,9 +18,9 @@ url: /ru/net/converting-worksheet-to-image-using-imageorprint-options/
 
 В этой статье показано, как создать консольное приложение в Visual Studio .NET, выполнить преобразование рабочего листа в изображение, используя различные параметры изображения и печати, с помощью нескольких простейших строк кода, используя Aspose.Cells API.
 
- Вам нужно импортировать[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)пространство имен для вашей программы/проекта. Он имеет несколько ценных классов, например,[**Листрендеринг**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**Имажеорпринтоптионс**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**Рабочая книгаВизуализация**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)и т.п.
+ Вам нужно импортировать[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)пространство имен для вашей программы/проекта. Он имеет несколько ценных классов, например,[**Листрендеринг**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**Имажеорпринтоптионс**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**Рабочая книгаВизуализация**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)и т.д.
 
-[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) класс представляет рабочий лист для рендеринга изображений для рабочего листа, он имеет перегруженный[**Изображать**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)метод, который может напрямую преобразовать рабочий лист в файл(ы) изображения, указанный с нужными атрибутами или параметрами. Он может возвращать объект System.Drawing.Bitmap, и вы можете сохранить файл изображения на диск/поток. Поддерживается несколько форматов изображений, например, BMP, PNG, GIFF, JPEG, TIFF, EMF и так далее.
+[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) класс представляет рабочий лист для рендеринга изображений для рабочего листа, он имеет перегруженный[**Изображать**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)метод, который может напрямую преобразовать рабочий лист в файл(ы) изображения, указанный с нужными атрибутами или параметрами. Он может возвращать объект System.Drawing.Bitmap, и вы можете сохранить файл изображения на диск/поток. Поддерживается несколько форматов изображений, например BMP, PNG, GIFF, JPEG, TIFF, EMF и так далее.
 
 ## **Использование Aspose.Cells для преобразования рабочего листа в изображение с использованием параметров ImageOrPrint.**
 

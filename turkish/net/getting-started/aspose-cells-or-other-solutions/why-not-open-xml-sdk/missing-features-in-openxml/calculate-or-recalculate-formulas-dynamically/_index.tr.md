@@ -61,7 +61,7 @@ Bununla birlikte, kullanıcı şablonu çok sayıda farklı formül içeriyorsa,
 
 Aspose.Cells, dosyanızın formüllerini yalnızca bir kez hesaplamak istediğiniz senaryolarda yararlı olan hesaplama zinciri oluşturmayı kapatmanıza olanak tanır.
 
- Aspose.Cells ile formül hesaplamalarının performansını artırmak istiyor ve formül hesaplama zinciri oluşturmak istemiyorsanız, lütfen**FormulaSettings.EnableCalculationChain** olarak**yanlış** . Varsayılan olarak, şu şekilde ayarlanmıştır:**doğru**.
+ Aspose.Cells ile formül hesaplamalarının performansını artırmak istiyor ve formül hesaplama zinciri oluşturmak istemiyorsanız, lütfen**FormulaSettings.EnableCalculationChain** olarak**YANLIŞ** . Varsayılan olarak, şu şekilde ayarlanmıştır:**doğru**.
 
 {{< highlight "csharp" >}}
 

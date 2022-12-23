@@ -6,11 +6,11 @@ url: /es/java/aspose-cells-java-for-php/
 ---
 ## **Introducción a Aspose.Cells Java for PHP**
 ### **PHP / Java Puente**
-El puente PHP/Java es una implementación de una transmisión, basada en XML[protocolo de red](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)que se puede usar para conectar un motor de script nativo, por ejemplo, PHP, Scheme o Python, con una máquina virtual Java. Es hasta 50 veces más rápido que el RPC local a través de SOAP, requiere menos recursos en el lado del servidor web. Está[más rápido](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)y más confiable que la comunicación directa a través de la interfaz nativa Java, y no requiere componentes adicionales para invocar procedimientos Java desde PHP o procedimientos PHP desde Java.
+El puente PHP/Java es una implementación de una transmisión, basada en XML[protocolo de red](http://php-java-bridge.sourceforge.net/pjb/PROTOCOL.TXT)que se puede usar para conectar un motor de script nativo, por ejemplo, PHP, Scheme o Python, con una máquina virtual Java. Es hasta 50 veces más rápido que el RPC local a través de SOAP, requiere menos recursos en el lado del servidor web. Es[más rápido](http://php-java-bridge.sourceforge.net/pjb/FAQ.html#performance)y más confiable que la comunicación directa a través de la interfaz nativa Java, y no requiere componentes adicionales para invocar procedimientos Java desde PHP o procedimientos PHP desde Java.
 
- Lee mas en[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
+ Lea mas en[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java es un componente de hoja de cálculo de Excel galardonado que permite a los desarrolladores de Java integrar la capacidad de leer, escribir y manipular hojas de cálculo de Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
 
 Aspose.Cells for Java es un componente maduro, escalable y rico en características que ofrece muchas funciones que van mucho más allá de las capacidades simples de exportación de datos de otros proveedores. Con Aspose.Cells for Java, los desarrolladores pueden exportar datos, formatear hojas de cálculo al nivel más granular, importar imágenes, crear gráficos, aplicar y calcular fórmulas complejas, transmitir datos de Excel®, guardar en varios formatos y mucho más, todo esto sin necesidad de Microsoft Excel® o Microsoft Ofimática.
 ### **Aspose.Cells Java for PHP**
@@ -32,7 +32,7 @@ Aspose.Cells for Java es un componente maduro, escalable y rico en característi
       - [Convertir archivos de Excel a PDF en PHP](/cells/es/java/converting-excel-to-pdf-files-in-php/)
       - [Convertir a archivos MHTML en PHP](/cells/es/java/converting-to-mhtml-files-in-php/)
       - [Convertir hoja de trabajo a imagen en PHP](/cells/es/java/converting-worksheet-to-image-in-php/)
-      - [Convertir hoja de trabajo a SVG en PHP](/cells/es/java/converting-worksheet-to-svg-in-php/)
+      - [Conversión de hoja de trabajo a SVG en PHP](/cells/es/java/converting-worksheet-to-svg-in-php/)
       - [Gestión de propiedades de documentos en PHP](/cells/es/java/managing-document-properties-in-php/)
   - [Trabajar con filas y columnas en PHP](/cells/es/java/working-with-rows-and-columns-in-php/)
     - [Ajuste de altura de fila y ancho de columna en PHP](/cells/es/java/adjusting-row-height-and-column-width-in-php/)
@@ -170,7 +170,7 @@ Siga los sencillos pasos a continuación para configurar el puente PHP/Java en l
 
  \10. Reinicie el servicio apache tomcat y comience a usar ejemplos.
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.

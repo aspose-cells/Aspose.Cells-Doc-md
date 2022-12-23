@@ -13,8 +13,8 @@ url: /ja/java/aspose-cells-for-java-21-8-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42494|CSS セクションに大量の未使用のスタイルが生成されている|
-|CELLSJAVA-43576|XLSX から PDF への変換時にグラフィック テキストの値が表示されない|
-|CELLSJAVA-43483|HTML ドキュメントをワークブックに変換するときに、「em」タグ内の「br」タグの後のテキストが強調されない|
+|CELLSJAVA-43576|XLSX を PDF に変換すると、グラフィック テキストの値が表示されない|
+|CELLSJAVA-43483|HTML ドキュメントをワークブックに変換すると、「em」タグ内の「br」タグの後のテキストが強調されない|
 |CELLSJAVA-43526|IllegalArgumentException: 列インデックスが無効です|
 |CELLSJAVA-43557|html として保存すると色が正しくない|
 |CELLSJAVA-43567|回帰: MDURATION 式が正しく計算されない|
@@ -23,10 +23,10 @@ url: /ja/java/aspose-cells-for-java-21-8-release-notes/
 |CELLSJAVA-43566|MacOS Big Sur のデフォルト フォント|
 |CELLSJAVA-42579|軸ラベルが正しく表示されない - Excel を Pdf に保存するときに右揃えが表示されない|
 |CELLSJAVA-43554|チャートのデータテーブルのテキストが出力画像に表示されない|
-|CELLSJAVA-43556|XLSX から PDF: 不完全な図のタイトル|
+|CELLSJAVA-43556|XLSX ～ PDF: 図のタイトルが不完全です|
 |CELLSJAVA-40051|Apple iWork のサポート|
 |CELLSJAVA-43119|PDF への変換 - 2014 年以降、サポートされていないファイル形式 Number3.5|
-|CELLSJAVA-43538|Aspose Cells で保存した後、データのないチャートにより XLSX が破損する|
+|CELLSJAVA-43538|Aspose Cells で保存した後、データのないグラフにより XLSX が破損する|
 |CELLSJAVA-43547|AutoFitRow はワークシートの標準の高さを変更します|
 |CELLSJAVA-43591|Aspose.Cells によって保存された MS Excel でファイルを開くとエラーが発生する|
 |CELLSJAVA-43523|形状のマクロ名を読み取るための CellsException: 無効な式|

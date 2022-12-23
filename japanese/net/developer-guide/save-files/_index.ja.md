@@ -26,13 +26,13 @@ Aspose.Cells は**[ワークブック](https://reference.aspose.com/cells/net/as
 |Xltx|Excel 2007 テンプレート XLTX ファイルを表します|
 |Xltm|Excel 2007 マクロ有効 XLTM ファイルを表します|
 |Xlsb|Excel 2007 バイナリ XLSB ファイルを表します|
-|スプレッドシートML|スプレッドシート XML ファイルを表します|
+|SpreadsheetML|スプレッドシート XML ファイルを表します|
 |TSV|タブ区切り値ファイルを表します|
-|タブ区切り|タブ区切りのテキスト ファイルを表します|
+|TabDelimited|タブ区切りのテキスト ファイルを表します|
 |ODS|ODS ファイルを表します|
 |HTML|HTML ファイルを表します|
 |MHtml|MHTML ファイルを表します|
-|PDF|PDFファイルを表します|
+|PDF|PDF ファイルを表します|
 |XPS|XPS ドキュメントを表します|
 |TIFF|タグ付き画像ファイル形式 (TIFF) を表します|
 
@@ -43,16 +43,16 @@ Aspose.Cells は**[ワークブック](https://reference.aspose.com/cells/net/as
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
 ## **ワークブックを Pdf として保存**
-Portable Document Format (PDF) は、1990 年代に Adobe によって作成されたドキュメントの一種です。このファイル形式の目的は、ドキュメントやその他の参考資料を、アプリケーション ソフトウェア、ハードウェア、およびオペレーティング システムに依存しない形式で表現するための標準を導入することでした。 PDF ファイル形式には、テキスト、画像、ハイパーリンク、フォーム フィールド、リッチ メディア、デジタル署名、添付ファイル、メタデータ、地理空間機能、3D オブジェクトなどの情報をソース ドキュメントの一部として含めることができる完全な機能があります。
+Portable Document Format (PDF) は、1990 年代に Adobe によって作成されたドキュメントの一種です。このファイル形式の目的は、ドキュメントやその他の参考資料を、アプリケーション ソフトウェア、ハードウェア、およびオペレーティング システムに依存しない形式で表現するための標準を導入することでした。 PDF ファイル形式には、テキスト、画像、ハイパーリンク、フォーム フィールド、リッチ メディア、デジタル署名、添付ファイル、メタデータ、地理空間機能、および 3D オブジェクトなど、ソース ドキュメントの一部として含めることができる完全な機能があります。
 
 次のコードは、workbook を Aspose.Cells の pdf ファイルとして保存する方法を示しています。
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
 
-## **ワークブックをテキストまたは CSV 形式に保存する**
+## **ワークブックをテキストまたは CSV 形式で保存する**
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
+場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (例: TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
 
-次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。任意の Microsoft Excel または OpenOffice スプレッドシート ファイル (つまり、XLS、XLSX、XLSM、XLSB、ODS など) であるソース ワークブックを任意の数のワークシートと共に読み込みます。
+次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。 Microsoft Excel または OpenOffice スプレッドシート ファイル (XLS、XLSX、XLSM、XLSB、ODS など) のソース ワークブックを任意の数のワークシートと共に読み込みます。
 
 コードが実行されると、ブック内のすべてのシートのデータが TXT 形式に変換されます。
 
@@ -77,16 +77,16 @@ Aspose.Cells は、Excel ファイル、JSON、CSV、または Aspose.Cells が 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
  
 
-## **OpenOffice (ODS、SXC、FODS、OTS) として保存**
-ODS、SXC、FODS、OTSなどのオープンオフィス形式でファイルを保存できます。
+## **OpenOffice として保存 (ODS、SXC、FODS、OTS)**
+ファイルをオープンオフィス形式として保存できます：ODS、SXC、FODS、OTSなど。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 ## **Excel ファイルを JSON または XML として保存する**
 
-JSON (JavaScript Object Notation) は、人間が判読できるテキストを使用してデータを保存および送信するデータ共有用のオープン スタンダード ファイル形式です。 JSON ファイルは .json 拡張子で保存されます。 JSON は必要なフォーマットが少なく、XML の優れた代替手段です。 JSON は JavaScript から派生したものですが、言語に依存しないデータ形式です。 JSON の生成と解析は、多くの最新のプログラミング言語でサポートされています。 application/json は、JSON に使用されるメディア タイプです。
+JSON (JavaScript Object Notation) は、人間が判読できるテキストを使用してデータを保存および送信するデータ共有用のオープン スタンダード ファイル形式です。 JSON ファイルは .json 拡張子で保存されます。 JSON は書式設定が少なくて済み、XML の優れた代替手段です。 JSON は JavaScript から派生したものですが、言語に依存しないデータ形式です。 JSON の生成と解析は、多くの最新のプログラミング言語でサポートされています。 application/json は、JSON に使用されるメディア タイプです。
 
-Aspose.Cells は、JSON または XML へのファイルの保存をサポートしています。
+Aspose.Cells は、JSON または XML へのファイルの保存をサポートします。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 

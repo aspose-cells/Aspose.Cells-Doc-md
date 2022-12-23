@@ -11,4 +11,4 @@ Den här sidan innehåller utgåvor för Aspose.Cells Reporting Services 21.11
 ## **Komplett lista över problem och förbättringar som tas upp i denna version**
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|24992 |Stöd export PDF-format.|Ny funktion|
+|24992 |Stöd export PDF format.|Ny funktion|

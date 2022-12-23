@@ -25,7 +25,7 @@ Aspose.Cells fournit également la fonctionnalité de gestion des commentaires f
 Pour ajouter des commentaires filetés dans Excel 365, procédez comme suit.
 
 - Méthode 1
- - Clique le**Examen**Languette
+ - Clique le**Passer en revue**Languette
  - Clique le**Nouveau commentaire**bouton
  - Cela ouvrira une boîte de dialogue pour entrer des commentaires dans la cellule active.
   - ![tâche : image_autre_texte](threaded-comments_4.jpg)
@@ -50,7 +50,7 @@ Pour lire les commentaires filetés dans Excel, passez simplement votre souris s
 
 ![tâche : image_autre_texte](threaded-comments_1.jpg)
 ### **Lire les commentaires filetés en utilisant Aspose.Cells**
-Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)pour voir les commentaires.
+Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)pour voir les commentaires.
 
 L'exemple suivant illustre la lecture des commentaires de la colonne A1 en chargeant le[exemple de fichier Excel](ThreadedCommentsSample.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
 #### **Exemple de code**
@@ -60,7 +60,7 @@ Commentaire : testez le commentaire fileté
 
 Auteur : Aspose
 ### **Lire l'heure de création des commentaires filetés**
-Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)et utiliser le[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)propriété.
+Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez itérer sur le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)et utiliser le[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)la propriété.
 
 L'exemple suivant illustre la lecture de l'heure de création des commentaires thématiques en chargeant le[exemple de fichier Excel](ThreadedCommentsSample.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
 #### **Exemple de code**
@@ -77,7 +77,7 @@ Pour modifier un commentaire fileté dans Excel, cliquez sur le**Éditer**lien s
 
 ![tâche : image_autre_texte](threaded-comments_7.jpg)
 ### **Modifier le commentaire fileté en utilisant Aspose.Cells**
-Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez mettre à jour le commentaire requis dans le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)et enregistrez le classeur.
+Aspose.Cells fournit[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) pour récupérer les commentaires thématiques pour la colonne spécifiée.[Commentaires.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accepte le nom de la colonne comme paramètre et renvoie le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Vous pouvez mettre à jour le commentaire requis dans le[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)et enregistrez le classeur.
 
 L'exemple suivant illustre la modification du premier commentaire fileté dans la colonne A1 en chargeant le[exemple de fichier Excel](ThreadedCommentsSample.xlsx). Veuillez consulter le[fichier Excel de sortie](EditThreadedComments.xlsx)généré par le code affichant le commentaire mis à jour pour référence.
 #### **Exemple de code**
@@ -96,6 +96,6 @@ L'exemple suivant illustre la suppression de commentaires dans la colonne A1 en 
 
 {{% alert color="primary" %}} 
 
- Veuillez noter qu'en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas supprimé automatiquement. Si vous devez également supprimer l'auteur, veuillez utiliser le[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) méthode comme indiqué dans l'exemple ci-dessus.
+ Veuillez noter qu'en supprimant le commentaire avec Aspose.Cells, l'auteur n'est pas supprimé automatiquement. Si vous devez également supprimer l'auteur, veuillez utiliser le[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)méthode comme indiqué dans l'exemple ci-dessus.
 
 {{% /alert %}}

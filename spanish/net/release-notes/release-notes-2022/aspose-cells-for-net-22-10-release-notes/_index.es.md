@@ -27,8 +27,8 @@ url: /es/net/aspose-cells-for-net-22-10-release-notes/
 |CELLSNET-52078|Style.SetPatternColor(BackgroundType,Color,Color) no tiene efecto|
 |CELLSNET-52105|LightCellsDataHandler.StartSheet(Worksheet) no puede omitir la hoja cuando devuelve falso para el archivo de plantilla xlsb|
 |CELLSNET-46764|Falta el título del gráfico al convertir a pdf|
-|CELLSNET-52049|XLSX a PDF: el texto no tiene el formato correcto|
-|CELLSNET-52073|Problema relacionado con la fuente Arial Tur en la representación de Excel a PDF|
+|CELLSNET-52049|XLSX a PDF: Texto no formateado correctamente|
+|CELLSNET-52073|Problema relacionado con la fuente Arial Tur en Excel para la representación PDF|
 |CELLSNET-52083|Algunas celdas con el formato de número de Contabilidad se representan como #####.|
 |CELLSNET-52091|Al configurar el contenido de la hoja de trabajo en blanco y negro, todavía se imprime en color y los bordes se muestran innecesariamente|
 |CELLSNET-51972|La hoja de trabajo que contiene objetos de botón no se reconoce correctamente al copiar la hoja|
@@ -42,7 +42,7 @@ url: /es/net/aspose-cells-for-net-22-10-release-notes/
 |CELLSNET-52084|La posición del texto "Northwind Traders" es incorrecta (el valor de la sangría izquierda no se interpreta correctamente).|
 |CELLSNET-52063|PivotTable.CalculateData causó NullReferenceException|
 |CELLSNET-51986|Calcular el libro de trabajo dos veces con la cadena de cálculo habilitada provocó una excepción|
-|CELLSNET-52081|Al abrir un archivo XLSX cuyos estilos se han eliminado, se genera una excepción|
+|CELLSNET-52081|Al abrir el archivo XLSX cuyos estilos se han eliminado, se genera una excepción|
 |CELLSNET-52044|Excepción generada al importar el archivo del cliente en GridWeb|
 |CELLSNET-52002|Se lanza una excepción al intentar abrir un documento desprotegido con una contraseña|
 

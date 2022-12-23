@@ -27,7 +27,7 @@ url: /de/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Leistung
 
-- Beim Speichern im PDF-Format aufgehängt
+- Beim Speichern im Format PDF aufgehängt
 
 
 
@@ -43,7 +43,7 @@ url: /de/net/aspose-cells-for-net-7-4-0-release-notes/
 - Aktualisierungs- und Berechnungsdatenproblem der Pivot-Tabelle
 - HVERWEIS mit INDIREKT-Formelfehler
 - Schutz des Arbeitsblatts aufheben schlägt für die mit Excel 2013 gespeicherten Dateien fehl
-- Problem mit der Seitenzahl der Fußzeile beim Export in PDF
+- Problem mit der Seitenzahl der Fußzeile beim Export an PDF
 - AcceptAllRevisions wird beim Speichern von Arbeitsmappen in Streams nicht richtig angewendet
 
  - Beschädigte Kontrollkästchen werden beim Speichern gerendert
@@ -78,19 +78,19 @@ url: /de/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Fehler
 
- 41279 – GridWebs Validierungsmenüliste schlägt bei Menüpunkten fehl, die das Dollarzeichen „$“ enthalten
+41279 – GridWebs Validierungsmenüliste schlägt bei Menüpunkten fehl, die das Dollarzeichen „$“ enthalten
 
  41280 – Die Validierungsmenüliste von GridWeb wird nach dem Aktualisieren des referenzierten Zellenwerts aktualisiert
 
  41294 - GridWeb funktioniert nicht auf FireFox für die Dateien, die Zellen mit Validierungsliste enthalten
 
-41308 – Beim Bearbeiten eines Zellenwerts geht beim Drücken der Eingabetaste der ursprüngliche Zeilenumbruch im IE verloren
+ 41308 – Beim Bearbeiten eines Zellenwerts geht beim Drücken der Eingabetaste der ursprüngliche Zeilenumbruch im IE verloren
 
 - Copy-Paste-Problem im Webgrid, das für Chrome, FireFox usw. nicht funktioniert.
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

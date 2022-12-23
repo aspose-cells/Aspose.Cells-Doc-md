@@ -12,13 +12,13 @@ Con Aspose.Cells è semplice aprire file, ad esempio, per recuperare dati o util
 
 ## **Apertura di un file tramite un percorso**
 
- Gli sviluppatori possono aprire un file Microsoft Excel utilizzando il percorso del file sul computer locale specificandolo nel file**[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**costruttore di classe. Basta passare il percorso nel costruttore come a*corda*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
+ Gli sviluppatori possono aprire un file Excel Microsoft utilizzando il percorso del file sul computer locale specificandolo nel**[Workbook](https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)**costruttore di classe. Basta passare il percorso nel costruttore come a*corda*. Aspose.Cells rileverà automaticamente il tipo di formato del file.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaPath.py" >}}
 
 ## **Apertura di un file tramite un flusso**
 
- È anche semplice aprire un file Excel come flusso. Per fare ciò, usa una versione sovraccaricata del costruttore che accetta il*BufferStream*oggetto che contiene il file.
+È anche semplice aprire un file Excel come flusso. Per fare ciò, usa una versione sovraccaricata del costruttore che accetta il*BufferStream*oggetto che contiene il file.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFileViaStream.py" >}}
 
@@ -30,7 +30,7 @@ Con Aspose.Cells è semplice aprire file, ad esempio, per recuperare dati o util
 
 {{% alert color="primary" %}}
 
-Verrà generata un'eccezione se si tenta di aprire file Excel non nativi o altri formati di file (ad esempio PPT/PPTX, DOC/DOCX, ecc.) entro il numero Aspose.Cells.
+Verrà generata un'eccezione se si tenta di aprire file Excel non nativi o altri formati di file (ad esempio PPT/PPTX, DOC/DOCX, ecc.) entro Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

@@ -38,19 +38,19 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43473) - Val av rapportfilter ändras
 
- (CELLSNET-43450) - Felaktig rendering av HTML vid konvertering av kalkylblad till HTML
+ (CELLSNET-43450) - Felaktig rendering av HTML vid konvertering av kalkylark till HTML
 
- (CELLSNET-43428) - pivottabellceller i grupprubriker har felaktiga stilar
+(CELLSNET-43428) - pivottabellceller i grupprubriker har felaktiga stilar
 
-(CELLSNET-43422) - Att ta bort källarket orsakar undantag vid spara
+ (CELLSNET-43422) - Att ta bort källarket orsakar undantag vid spara
 
  (CELLSNET-43417) - Sorteringsordningen för PivotCharts seriedatapunkter är felaktig
 
- (CELLSNET-43413) - Fel konvertering från HTML-fil till PDF
+ (CELLSNET-43413) - Fel konvertering från HTML fil till PDF
 
- (CELLSNET-43340) - Om du sparar om XLS-kalkylarket blir resultatet korrupt
+ (CELLSNET-43340) - Om du sparar om kalkylarket XLS blir resultatet korrupt
 
- (CELLSNET-43545) - Datum överlappar texten i den vänstra sidfoten i det renderade PDF-filformatet
+ (CELLSNET-43545) - Datum överlappar texten i den vänstra sidfoten i det renderade filformatet PDF
 
  (CELLSNET-43543) - Dubbelcellskanten skrivs inte ut korrekt för den sista cellen
 
@@ -58,15 +58,15 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43516) - Aspose skriver inte ut tom sida
 
- (CELLSNET-43508) - Kalkylblad till PDF genererar en tom PDF
+ (CELLSNET-43508) - Kalkylblad till PDF genererar ett tomt PDF
 
- (CELLSNET-43507) - Pixlarna försämrades lite för bilden i den utgående PDF-filen
+ (CELLSNET-43507) - Pixlarna försämrades lite för bilden i utdatafilen PDF
 
  (CELLSNET-43481) - Cells som hade datum och/eller siffror med hebreiska ord
 
- (CELLSNET-43479) - Logotypen med indrag fel
+(CELLSNET-43479) - Logotypen med indrag fel
 
-(CELLSNET-43478) - Kolon i slutet av det sista ordet i första raden bröts av
+ (CELLSNET-43478) - Kolon i slutet av det sista ordet i första raden bröts av
 
  (CELLSNET-43477) - Mellanrummen mellan de hebreiska orden försvann och mosade meningen till ett ord
 
@@ -110,7 +110,7 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - Dropdown-filter kan inte väljas efter att ha laddats och sparats
 
- (CELLSNET-43518) - Att ladda och spara XLSM gör resultatet skadat
+ (CELLSNET-43518) - När du laddar och sparar XLSM blir resultatet skadat
 
  (CELLSNET-43515) - Formel som involverar namngiven intervallcell läses inte bra
 
@@ -126,7 +126,7 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **Undantag**
 
 
- (CELLSNET-43304) - System.ArgumentException när en MHTML-fil läses in i en instans av Workbook
+ (CELLSNET-43304) - System.ArgumentException när en MHTML-fil laddas in i en instans av Workbook
 
  (CELLSNET-43503) - System.NullReferenceException observerad vid Workbook.Save
 
@@ -136,7 +136,7 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -150,7 +150,7 @@ url: /sv/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) - GridDesktop kan inte hitta inbäddad resurslicens
 
-(CELLSNET-42509) - Former återges inte korrekt i gridweb
+ (CELLSNET-42509) - Former återges inte korrekt i gridweb
 
  (CELLSNET-42559) - Flytta kalkylblad i GridDesktop
 

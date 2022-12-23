@@ -6,7 +6,7 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-4-0/
 ---
 {{% alert color="primary" %}} 
 
-В этом документе описаны изменения в Aspose.Cells API с версии 8.3.2 до 8.4.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/) а также[удалены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
+В этом документе описаны изменения в Aspose.Cells API с версии 8.3.2 до 8.4.0, которые могут представлять интерес для разработчиков модулей/приложений. Он включает в себя не только новые и обновленные публичные методы,[добавлены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/) и[удалены классы и т.д.](/cells/ru/java/public-api-changes-in-aspose-cells-8-4-0/), но и описание любых изменений в поведении за кулисами в Aspose.Cells.
 
 {{% /alert %}} 
 ## **Добавлены API**
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Добавлено свойство HtmlSaveOptions.CellCssPrefix.**
-Недавно добавленное свойство HtmlSaveOptions.CellCssPrefix позволяет устанавливать префикс для файлов CSS при экспорте электронных таблиц в формат HTML.
+Недавно добавленное свойство HtmlSaveOptions.CellCssPrefix позволяет установить префикс для файлов CSS при экспорте электронных таблиц в формат HTML.
 
 {{% alert color="primary" %}} 
 

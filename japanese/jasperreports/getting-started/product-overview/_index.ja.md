@@ -18,7 +18,7 @@ url: /ja/jasperreports/product-overview/
 
 Aspose.Cells for JasperReports は、JasperReports および JasperServer から Microsoft Excel ファイル形式にレポートを簡単にエクスポートできる柔軟なソリューションです。すべてのレポート機能は、最高の精度で Microsoft Excel スプレッドシートに変換されます。
 
-元の POI ベースの Micrsofot Excel エクスポーターが提供する機能に加えて、このコンポーネントはいくつかの価値ある機能を提供します。 XLS へのエクスポートに関連する主な革新には、次のようなものがあります。
+元の POI ベースの Micrsofot Excel エクスポーターが提供する機能に加えて、このコンポーネントはいくつかの価値ある機能を提供します。 XLS へのエクスポートに関連する主な革新は次のとおりです。
 
 - Microsoft 静止画像ではなく、編集可能なグラフを Excel 形式で提供します。
 

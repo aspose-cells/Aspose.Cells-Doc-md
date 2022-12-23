@@ -8,7 +8,7 @@ url: /ru/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 Чтобы отобразить все элементы диаграммы в отчете в виде редактируемых диаграмм Excel:
 
-1. Открой**Aspose.Cells.ReportingServices.xml** файл.
+1. Открыть**Aspose.Cells.ReportingServices.xml** файл.
 1.  Измените параметры конфигурации следующим образом:
 
 {{< highlight "java" >}}

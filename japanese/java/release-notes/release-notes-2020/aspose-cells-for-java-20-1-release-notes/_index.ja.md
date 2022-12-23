@@ -13,17 +13,17 @@ url: /ja/java/aspose-cells-for-java-20-1-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-41325|Cell.getValidation メソッドが ODS に対して null を返す|新機能|
-|CELLSJAVA-43074|XLSX から PDF、Oracle JDK と Open JDK を使用した場合の PDF 出力の違い|強化|
+|CELLSJAVA-43074|XLSX ～ PDF、Oracle JDK と Open JDK を使用した場合の PDF 出力の違い|強化|
 |CELLSJAVA-43083|縦棒グラフに不透明度が適用されていない|バグ|
 |CELLSJAVA-41879|%of、%of Row、%of ParentRowTotal、%ParentTotal などがピボット Excel 出力で機能しない|バグ|
-|CELLSJAVA-43062|Cell のデフォルトの背景色が出力 HTML で間違っている|バグ|
+|CELLSJAVA-43062|Cell のデフォルトの背景色が出力で間違っている HTML|バグ|
 |CELLSJAVA-43063|SheetRender.toImage() の出力が正しくない|バグ|
 |CELLSJAVA-43070|calculateFormula() は値を計算しません|バグ|
 |CELLSJAVA-43086|ノルウェー語ロケールでパーセント書式スタイルが正しく適用されない|バグ|
 |CELLSJAVA-43082|テーブルの各最初の行に表示される小さいフォント|バグ|
-|CELLSJAVA-41360|Cells 数式が PDF 内に表示されますが、ODS 内には表示されません。|バグ|
-|CELLSJAVA-42786|ODS から XLSX - 折れ線グラフで線と凡例のエントリが失われる|バグ|
-|CELLSJAVA-42788|ODS から XLSX - 円が正方形になる|バグ|
+|CELLSJAVA-41360|数式を含む Cells は PDF 内に表示されますが、ODS 内には表示されません。|バグ|
+|CELLSJAVA-42786|ODS から XLSX - 折れ線グラフの線と凡例のエントリが失われる|バグ|
+|CELLSJAVA-42788|ODS から XLSX - 丸が四角になる|バグ|
 |CELLSJAVA-43073|ワークブックでアクセスできない DataMashup 情報|バグ|
 |CELLSJAVA-43092|Excelファイルを処理できません|バグ|
 

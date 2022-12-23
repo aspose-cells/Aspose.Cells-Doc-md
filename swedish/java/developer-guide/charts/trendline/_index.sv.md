@@ -13,7 +13,7 @@ url: /sv/java/get-equation-text-of-chart-trendline/
 
 ## **Exempel**
 
- Följande skärmbild visar diagrammet med en trendlinje och dess ekvationstext visas i röd färg. Vi kommer att hämta denna text med hjälp av[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)egenskap i följande exempelkod.
+Följande skärmbild visar diagrammet med en trendlinje och dess ekvationstext visas i röd färg. Vi kommer att hämta denna text med hjälp av[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)egenskap i följande exempelkod.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 

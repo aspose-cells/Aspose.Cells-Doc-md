@@ -34,6 +34,6 @@ description: С Aspose.Cells легко создавать, открывать �
 - [Открытие файлов различных версий Excel Microsoft](/cells/ru/net/opening-different-microsoft-excel-versions-files/)
 - [Открытие файлов разных форматов](/cells/ru/net/opening-files-with-different-formats/)
 - [Оптимизация использования памяти при работе с большими файлами с большими наборами данных](/cells/ru/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Читать электронную таблицу чисел, разработанную Apple Inc. с использованием Aspose.Cells](/cells/ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells](/cells/ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Остановите преобразование или загрузку с помощью InterruptMonitor, если это занимает слишком много времени](/cells/ru/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Использование LightCells API](/cells/ru/net/using-lightcells-api/)

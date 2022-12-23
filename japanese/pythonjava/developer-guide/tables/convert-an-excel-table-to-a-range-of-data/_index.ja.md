@@ -5,7 +5,7 @@ weight: 10
 url: /ja/python-java/convert-an-excel-table-to-a-range-of-data/
 ---
 ## **Excel テーブルをデータ範囲に変換する**
- Aspose.Cells for Python via Java は、Excel テーブルをデータの範囲に変換するオプションを提供します。このために、API は[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ） 方法。次のコード スニペットは、[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)メソッドを使用して、Excel テーブルをデータ範囲に変換します。
+Aspose.Cells for Python via Java は、Excel テーブルをデータの範囲に変換するオプションを提供します。このために、API は[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\) ） 方法。次のコード スニペットは、[ListObject.convertToRange](https://reference.aspose.com/cells/python/asposecells.api/listobject#convertToRange\(\)) メソッドを使用して、Excel テーブルをデータ範囲に変換します。
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Tables-ConvertTableToRange.py" >}}
 ## **オプションを使用して Excel テーブルを範囲に変換する**

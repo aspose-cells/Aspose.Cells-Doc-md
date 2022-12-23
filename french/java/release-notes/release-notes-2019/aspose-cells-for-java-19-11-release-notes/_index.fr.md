@@ -10,15 +10,15 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.11.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43032|Ajoutez la méthode/les surcharges Validation.addArea (CellArea cellArea, boolean skipArea) ou Validation.setAreas() aux API|Nouvelle fonctionnalité|
 |CELLSJAVA-42851|Obtenir les détails de la connexion ODATA|Nouvelle fonctionnalité|
-|CELLSJAVA-43018|Exporter la plage de la zone d'impression au format HTML sans modifier implicitement un état du même classeur|Renforcement|
+|CELLSJAVA-43018|Exporter la plage de la zone d'impression vers HTML sans modifier implicitement un état du même classeur|Renforcement|
 |CELLSJAVA-43041|Cells.importCSV génère une exception "la valeur de la chaîne ne peut pas dépasser 255 caractères"|Renforcement|
 |CELLSJAVA-43043|Cells.removeDuplicates prend plus de temps pour un grand ensemble de données|Renforcement|
-|CELLSJAVA-43019|Le graphique radial n'est pas rendu correctement en HTML|Punaise|
-|CELLSJAVA-43027|Après le rendu en PNG, la mise à l'échelle de l'axe est différente.|Punaise|
+|CELLSJAVA-43019|Le graphique radial n'est pas rendu correctement à HTML|Punaise|
+|CELLSJAVA-43027|Après rendu à PNG, la mise à l'échelle de l'axe est différente.|Punaise|
 |CELLSJAVA-42474|Le tableau croisé dynamique n'est pas actualisé et corrompu après la mise à jour des données source|Punaise|
 |CELLSJAVA-43033|La conversion en PDF ne s'arrête pas.|Punaise|
 |CELLSJAVA-43034|La sortie du format de date russe (personnalisé) non valide est récupérée|Punaise|
@@ -38,7 +38,7 @@ Importe un flux de fichiers XML dans le classeur.
 ### **Ajoute la méthode Workbook.ExportXml(string mapName, Stream stream).**
 Exportez des données XML vers un flux.
 ### **Ajoute la propriété HtmlSaveOptions.ExportArea**
-Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au format HTML.
+Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au HTML.
 ### **Ajoute les classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem et PowerQueryFormulaItemCollection**
 Obtient des informations dans le DataMashup.
 ### **Ajoute la propriété DBConnection.SeverCommand.**

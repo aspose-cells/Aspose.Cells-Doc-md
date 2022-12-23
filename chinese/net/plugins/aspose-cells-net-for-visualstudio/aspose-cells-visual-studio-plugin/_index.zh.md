@@ -12,7 +12,7 @@ Microsoft Visual Studio 是来自 Microsoft 的集成开发环境 (IDE)。它用
 
 Aspose.Cells for .NET 提供最灵活的组件组，使 .NET 应用程序能够创建、修改、转换、呈现和打印 Excel® 电子表格，而无需在服务器上安装 Microsoft Excel®。
 
-Aspose.Cells for .NET 支持所有主要的 Microsoft Excel 和其他文件格式，包括 XLS、XLSX、XLSM、XLTX/XLTM、HTML、CSV、ODS、Tab Delimited、SpreadsheetML 和 PDF 等。
+Aspose.Cells for .NET supports all the major Microsoft Excel and other file formats including XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML and PDF, etc.
 有关更多详细信息[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **探索 Aspose.Cells for .NET 使用 Visual Studio 的示例**
@@ -25,11 +25,11 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 - 易于启动**文件 > Aspose** Visual Studio 中的菜单
 - 节省时间并减少学习曲线。
 - 使您能够选择并打开 Github.com 上托管的最新 Aspose.Cells for .NET API 示例。
-- 允许你打开**C#**或者**VB.NET**示例项目
+- 允许你打开**C#**要么**VB.NET**示例项目
 - 选定的项目会在 Visual Studio 中自动打开，并设置所有必需的引用，为您提供一个随时可以运行和探索的环境。
 - 自动下载最新的 API 库**NuGet**和例子来自**GitHub**.
 
-![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_1)
+![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_1)
 
 ## **系统要求和支持的平台**
 
@@ -54,7 +54,7 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 
 安装完成后，您将看到一个成功对话框。
 
-![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_2)
+![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_2)
 
 **笔记：**请确保重新启动 Visual Studio 以使更改生效。
 
@@ -63,21 +63,21 @@ Aspose Visual Studio 插件 -**探索 Aspose.Cells for .NET 例子**是快速下
 安装后，您可以轻松启动和使用交互式插件，如下所述：
 **1.**通过选择打开插件**文件 > Aspose**其次是**新的 Aspose.Cells 示例项目**在 Visual Studio 中。
 
-![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_3)
+![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_3)
 
 **2.**第一次打开插件时，您会看到 API 选择对话框，如下所示。下载最新的 API 及其库需要几分钟时间**NuGet**和最新的示例源代码来自**GitHub**.
 
-![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_4)
+![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_4)
 
-**3.**在 Select an API to View Examples 对话框中，选择或更改将创建示例项目的位置，同时选择或更改示例项目类型为**C#**或者**VB.NET**然后点击**继续**在 Visual Studio 中打开示例项目。
+**3.**在 Select an API to View Examples 对话框中，选择或更改将创建示例项目的位置，同时选择或更改示例项目类型为**C#**要么**VB.NET**然后点击**继续**在 Visual Studio 中打开示例项目。
 
-![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_1)
+![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_1)
 
-**4.**根据项目类型选择的新示例项目**C#**或者**VB.NET**在 Visual Studio 中。
+**4.**根据项目类型选择的新示例项目**C#**要么**VB.NET**在 Visual Studio 中。
 
 |**C# 例子** |**VB.NET实例** |
 |:- |:- |
-|![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_6)|![待办事项：图像_替代_文本](aspose-cells-visual-studio-plugin_7)|
+|![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_6)|![待办事项：图片_替代_文本](aspose-cells-visual-studio-plugin_7)|
 
 ## **视频演示**
 

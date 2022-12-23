@@ -11,7 +11,7 @@ Una hoja de trabajo está representada por el[Hoja de cálculo](http://docs.aspo
 
 - **Fila**, el índice de fila de la celda desde la que comenzará la congelación.
 - **Columna**, el índice de columna de la celda desde la que comenzará la congelación.
-- **filas congeladas**, el número de filas visibles en el panel superior.
+- **Filas congeladas**, el número de filas visibles en el panel superior.
 - **Columnas congeladas**, el número de columnas visibles en el panel izquierdo
 
 **Java**

@@ -20,7 +20,7 @@ url: /es/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Se realizan mejoras para la función Hoja a imagen
 
- Se realizan mejoras para la función de Excel a PDF
+ Se realizan mejoras para la función Excel-to-PDF
 
 
 
@@ -38,13 +38,13 @@ url: /es/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30673 - Compatibilidad con la función de clasificación de datos en marcadores inteligentes
 
- 30809 - Incluir más tipos de condiciones de formato (para la función de formato condicional) al guardar el archivo XLS
+ 30809: incluye más tipos de condiciones de formato (para la función de formato condicional) al guardar el archivo XLS
 
- 31192 - Tipo de cifrado compatible: RC4, Microsoft Proveedor criptográfico mejorado 1.0 de 128 bits
+31192 - Tipo de cifrado compatible: RC4, Microsoft Proveedor criptográfico mejorado 1.0 de 128 bits
 
  Excepciones
 
-30733 - Obtener una excepción al usar valores científicos para la fórmula de Validación
+ 30733 - Obtener una excepción al usar valores científicos para la fórmula de Validación
 
  30748 - La lectura del archivo de plantilla de Excel2007 cifrado provoca una excepción
 
@@ -54,7 +54,7 @@ url: /es/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Insectos
 
- 30616 - Imagen perdida en función de XLS a PDF
+ 30616 - Imagen perdida en la función XLS a PDF
 
  30695 - Se perdió el eje X/YA en la función Gráfico a imagen
 
@@ -62,7 +62,7 @@ url: /es/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30697 - La imagen se creó incorrectamente para Pyramid Chart
 
- 30776 - La función XLS a PDF generó un archivo PDF no válido
+ 30776: la función XLS a PDF generó un archivo PDF no válido
 
  28545 - El valor de Cell no se representó correctamente con la propiedad "reducir para ajustar"
 
@@ -70,11 +70,11 @@ url: /es/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 - TextBox.setHtmlText() no analizó correctamente el texto enriquecido
 
- 30479 - Se agregó corchete adicional para el valor de celda en el archivo PDF generado
+30479 - Se agregó corchete adicional para el valor de celda en el archivo PDF generado
 
- 30899 - El valor escalado de la imagen recién agregada se cambió en el archivo XLS guardado
+ 30899: el valor escalado de la imagen recién agregada se cambió en el archivo guardado XLS
 
-30972 - El contenido del cuadro de texto no se representó correctamente en el archivo PDF
+ 30972 - El contenido del cuadro de texto no se representó correctamente en el archivo PDF
 
  31050 - Cell.getStringValue() no proporcionó el valor doble correcto
 

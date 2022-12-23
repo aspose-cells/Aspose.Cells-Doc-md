@@ -12,7 +12,7 @@ Im japanischen** **Kalender beginnt mit der Herrschaft eines neuen Kaisers eine 
 
 
 
- Aspose.Cells bietet eine Möglichkeit, gregorianische Daten in japanische Daten umzuwandeln. Bei dieser Umstellung werden auch die Veränderungen der Epoche berücksichtigt. Das folgende Code-Snippet konvertiert die[Quelle Excel](90112015.xlsx) Datei mit gregorianischen Daten zum[PDF ausgeben](90112016.pdf) mit japanischen Daten, wie im Bild unten gezeigt.
+ Aspose.Cells bietet eine Möglichkeit, gregorianische Daten in japanische Daten umzuwandeln. Bei dieser Umstellung werden auch die Veränderungen der Epoche berücksichtigt. Das folgende Code-Snippet konvertiert die[Quelle Excel](90112015.xlsx) Datei mit gregorianischen Daten zum[Ausgang PDF](90112016.pdf) mit japanischen Daten, wie im Bild unten gezeigt.
 
 ![todo: Bild_alt_Text](convert-dates-to-japanese-dates_1.jpg)
 

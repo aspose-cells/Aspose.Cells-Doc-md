@@ -14,17 +14,17 @@ url: /zh/java/aspose-cells-for-java-17-10-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42423|取消 Workbook.calculateFormula 方法的长时间运行计算|新功能|
 |CELLSJAVA-42414|获取 MS Excel 工作表的 SheetId 字段|新功能|
-|CELLSJAVA-42402|附加的 HTML 需要良好的 HTML|强化|
+|CELLSJAVA-42402|好的 HTML 需要附件 HTML|强化|
 |CELLSJAVA-42372|长连字符的位置与 Microsoft Excel 不同|强化|
 |CELLSJAVA-42399|输出 Pdf 中的箭头点不明确|漏洞|
-|CELLSJAVA-42419|文本在输出 HTML 中被截断|漏洞|
-|CELLSJAVA-42418|边框颜色与输出 HTML 中的 MS Excel 不匹配|漏洞|
-|CELLSJAVA-42417|背景颜色与输出 HTML 中的 Ms Excel 不匹配|漏洞|
+|CELLSJAVA-42419|文本在输出中被截断 HTML|漏洞|
+|CELLSJAVA-42418|边框颜色与输出中的 MS Excel 不匹配 HTML|漏洞|
+|CELLSJAVA-42417|背景颜色与输出中的 Ms Excel 不匹配 HTML|漏洞|
 |CELLSJAVA-42385|永远不会调用回调 IFilePathProvider，然后 HTML 文件在路径中有“null”|漏洞|
 |CELLSJAVA-42412|将 Excel 转换为 PDF 时缺少数值轴标签|漏洞|
 |CELLSJAVA-42408|将工作表渲染为图像后出现文本重叠问题|漏洞|
 |CELLSJAVA-42420|由于图表数据范围大而导致取消和内存不足的问题|漏洞|
-|CELLSJAVA-42415|输出图表与输出 HTML 中的原始图表不同|漏洞|
+|CELLSJAVA-42415|输出图表与输出中的原始图表不同 HTML|漏洞|
 |CELLSJAVA-42410|图表区域、标签、图例等在输出 PDF 和 PNG 中呈现不正确|漏洞|
 |CELLSJAVA-42409|图表区域在 MS Excel 图表的 PDF 和 PNG 输出中未正确呈现|漏洞|
 |CELLSJAVA-41046|将电子表格呈现为 PDF 格式时，图表的图例顺序已更改|漏洞|

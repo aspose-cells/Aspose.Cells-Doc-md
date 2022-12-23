@@ -17,14 +17,14 @@ url: /fr/java/aspose-cells-for-java-2-5-2-release-notes/
 - Prend en charge la lecture des tableaux croisés dynamiques à partir des fichiers de modèle.
  Ajoute LineShape aux fichiers Excel 2007 XLSX.
  Fournit un support pour définir le nom de la série lors de la définition de la source de données du graphique.
- Prend en charge l'obtention/la définition de la visibilité de Gridlines sur différentes feuilles de travail dans les fichiers ODS.
- Une amélioration est apportée pour la lecture des formes à partir de fichiers XLSX.
+ Prend en charge l'obtention/la définition de la visibilité de Gridlines sur différentes feuilles de calcul dans les fichiers ODS.
+ L'amélioration est faite pour la lecture des formes à partir des fichiers XLSX.
  Une amélioration est apportée aux fonctionnalités Graphique vers Image, Feuille vers Image et Excel vers PDF.
  L'amélioration est faite pour l'analyse des formules.
  L'amélioration est faite pour copier Cells.
- 31 correctifs et améliorations.
+31 correctifs et améliorations.
 
-Problèmes résolus au Aspose.Cells for Java 2.5.2.
+ Problèmes résolus au Aspose.Cells for Java 2.5.2.
 
 
 

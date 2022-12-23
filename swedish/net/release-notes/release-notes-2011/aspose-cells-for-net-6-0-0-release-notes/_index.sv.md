@@ -16,7 +16,7 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Nya egenskaper
 
- 13872 Exportera till XPS-fil
+ 13872 Exportera till XPS fil
 
  28363 Skapa skrivskyddade XLSX-filer
 
@@ -38,7 +38,7 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Prestanda
 
- 28139 Excel till PDF-prestandaproblem
+ 28139 Excel till PDF prestandaproblem
 
  27095 Problem med Workbook.CalculateFormula()-metoden
 
@@ -76,9 +76,9 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  18503 Diagonala linjer visas inte korrekt i PDF
 
- 27168 Grupperade former förvrängs när de sparas till PDF
+ 27168 Grupperade former förvrängs när du sparar till PDF
 
- 27240 Excel till PDF-konvertering - Diagramintervallsproblem
+ 27240 Excel till PDF Konvertering - Diagramintervallsproblem
 
  28112 Att spara Excel-fil (XLS) som PDF resulterar i ett problem
 
@@ -92,15 +92,15 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Punkter saknas i den exporterade bilden i funktionen Ark till bild
 
- 28413 Kolumnens format i TIFF-konvertering är inte korrekt
+ 28413 Kolumns format i TIFF Konverteringen är inte korrekt
 
  27906 Escape-karaktär i Smart Markers
 
- 27342 Ett problem med att öppna SpreadsheetML-fil
+ 27342 Ett problem med att öppna filen SpreadsheetML
 
  28269 Problem med AutoRow-höjd när du skapar rader som överskrider maximal höjd
 
- 26941 Problem med AutoFilter mellan XLS- och XLSX-filer
+ 26941 AutoFilter problem mellan XLS och XLSX filer
 
  28036 Problem med cellformatering i genererad fil
 
@@ -120,7 +120,7 @@ url: /sv/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 Inställning ShowDefaultGridLine = false är inte tillgänglig när GridWebs XhtmlMode är satt till "true"
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Nya egenskaper
 

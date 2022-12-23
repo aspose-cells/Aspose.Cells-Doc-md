@@ -6,7 +6,7 @@ url: /zh/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-有时，您想要将一系列页面打印到输出 PDF 文件。 Aspose.Cells 可以设置将 Excel 电子表格转换为 PDF 文件格式时生成多少页的限制。
+有时，您希望将一系列页面打印到输出 PDF 文件中。 Aspose.Cells 能够设置将 Excel 电子表格转换为 PDF 文件格式时生成多少页的限制。
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ url: /zh/net/limit-the-number-of-pages-generated-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)就在将其呈现为 PDF 之前。这样做可确保重新计算公式相关值，并在输出文件中呈现正确的值。
+如果电子表格包含公式，最好调用[**工作簿.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)就在将其呈现为 PDF 之前。这样做可确保重新计算与公式相关的值，并在输出文件中呈现正确的值。
 
 {{% /alert %}}

@@ -10,11 +10,11 @@ url: /ru/net/getting-started/
 
 {{% /alert %}}
 
-## **Монтаж**
+## **Установка**
 
 ### **Установите с Aspose.Cells по NuGet**
 
-NuGet — это самый простой способ загрузить и установить Aspose.Cells for .NET.
+ NuGet — это самый простой способ загрузить и установить Aspose.Cells for .NET.
 
 1.  Откройте Microsoft Visual Studio и диспетчер пакетов NuGet.
 1.  Введите в поиске «aspose.cells» нужный номер Aspose.Cells for .NET.

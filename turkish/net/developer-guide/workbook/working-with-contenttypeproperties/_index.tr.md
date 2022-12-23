@@ -6,7 +6,7 @@ url: /tr/net/working-with-contenttypeproperties/
 ---
  Aspose.Cells sağlar[**Workbook.ContentTypeProperties.Add**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index) bir excel dosyasına özel ContentTypeProperties ekleme yöntemi. ayarlayarak özelliği isteğe bağlı hale de getirebilirsiniz.[**ContentTypeProperty.IsNillaable**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypeproperty/properties/isnillable) mülkiyet**doğru**. Aşağıdaki kod parçacığı, bir excel dosyasına isteğe bağlı özel ContentTypeProperties eklemeyi gösterir. Aşağıdaki görüntü, örnek kod tarafından eklenen her iki özelliği de göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-contenttypeproperties_1.jpg)
+![yapılacaklar:resim_alternatif_metin](working-with-contenttypeproperties_1.jpg)
 
 Örnek kod tarafından oluşturulan çıktı dosyası başvuru için eklenmiştir.
 

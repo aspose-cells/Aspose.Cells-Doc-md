@@ -19,11 +19,11 @@ Kodun çalıştırılması, biri sarmalanmamış metin ve diğeri aşağıdakile
 
 ## **VSTO Excel kullanarak çıktı alın**
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 ## **Aspose.Cells for .NET kullanılarak çıktı**
 
-![yapılacaklar:resim_alternatif_Metin](picture2.png)
+![yapılacaklar:resim_alternatif_metin](picture2.png)
 
 ## **VSTO**
 

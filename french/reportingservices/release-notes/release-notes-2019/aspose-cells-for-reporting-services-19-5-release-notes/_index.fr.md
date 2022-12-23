@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-552|Prise en charge de l'exportation de fichiers au format MarkDown.|Nouvelle fonctionnalité|
 |CELLSRS-557|Les macros sont perdues lors de la publication du rapport.|Punaise|

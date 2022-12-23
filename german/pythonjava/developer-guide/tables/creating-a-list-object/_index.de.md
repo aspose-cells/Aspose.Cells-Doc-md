@@ -29,7 +29,7 @@ Dadurch wird das Dialogfeld „Liste erstellen“ angezeigt.
 
 ![todo: Bild_alt_Text](picture2.png)
 
-Implementieren des Listenobjekts und Festlegen der Gesamtzeile (Select**Daten**, dann**Aufführen**, gefolgt von**Gesamtreihe**).
+Implementieren des Listenobjekts und Festlegen der Gesamtzeile (Select**Daten**, dann**Aufführen**gefolgt von**Gesamtreihe**).
 
 **Erstellen eines List-Objekts** 
 
@@ -39,7 +39,7 @@ Implementieren des Listenobjekts und Festlegen der Gesamtzeile (Select**Daten**,
 
 Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/python/asposecells.api/Workbook), die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/python/asposecells.api/Workbook)Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten eines Arbeitsblatts. Um eine zu erstellen[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)in einem Arbeitsblatt verwenden[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)Sammlungseigentum der[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Klasse. Jeder[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)ist in der Tat ein Objekt der[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)Klasse, die außerdem die[**hinzufügen**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean))-Methode zum Hinzufügen eines List-Objekts und zum Angeben eines Zellbereichs für die Liste.
+Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten eines Arbeitsblatts. Um eine zu erstellen[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)in einem Arbeitsblatt verwenden[**ListObjects**](https://reference.aspose.com/cells/python/asposecells.api/worksheet#ListObjects)Sammlungseigentum der[**Arbeitsblatt**](https://reference.aspose.com/cells/python/asposecells.api/Worksheet)Klasse. Jeder[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)ist in der Tat ein Objekt der[**ListObjectCollection**](https://reference.aspose.com/cells/python/asposecells.api/ListObjectCollection)Klasse, die außerdem die[**addieren**](https://reference.aspose.com/cells/python/asposecells.api/listobjectcollection#add(int,%20int,%20int,%20int,%20boolean))-Methode zum Hinzufügen eines List-Objekts und zum Angeben eines Zellbereichs für die Liste.
 
 Gemäß dem angegebenen Zellbereich wird das Listenobjekt im Arbeitsblatt von Aspose.Cells erstellt. Verwenden Sie Attribute (z. B. ShowTotals, ListColumns usw.) der[**Listenobjekt**](https://reference.aspose.com/cells/python/asposecells.api/ListObject)Klasse, um die Liste zu steuern.
 

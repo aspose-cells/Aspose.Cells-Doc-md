@@ -17,7 +17,7 @@ url: /tr/cpp/cells-formatting/
 ## **Basit kod**
  Aşağıdaki örnek kod, çalışma sayfasının C4 hücresini çeşitli şekillerde biçimlendirir ve ekran görüntüsü,[çıktı excel dosyası](21266438.xlsx) referansınız için onun tarafından oluşturulmuştur.
 
-![yapılacaklar:resim_alternatif_Metin](cells-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](cells-formatting_1.png)
 
 
 

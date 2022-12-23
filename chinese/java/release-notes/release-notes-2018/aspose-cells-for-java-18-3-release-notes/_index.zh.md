@@ -25,18 +25,18 @@ url: /zh/java/aspose-cells-for-java-18-3-release-notes/
 |CELLSJAVA-42514|将 ResultSet 导入工作表时，ImportTableOptions.setInsertRows() 不起作用|漏洞|
 |CELLSJAVA-42505|将 Excel 文件导入 GridWeb 时，不显示附加到单元格（在模板文件中）的注释|漏洞|
 |CELLSJAVA-42520|ImageOrPrintOptions.DrawObjectEventHandler 报告的单元格坐标不一致|漏洞|
-|CELLSJAVA-42518|输出 PDF 中的行边框未对齐|漏洞|
-|CELLSJAVA-42561|Excel 图表的 PNG 输出中的 X 轴刻度不正确|漏洞|
-|CELLSJAVA-42556|输出 PDF 中图表的呈现不正确|漏洞|
-|CELLSJAVA-42547|将 XLSX 转换为 ODS 时图表被替换为红色 X|漏洞|
+|CELLSJAVA-42518|输出中行的边框未对齐 PDF|漏洞|
+|CELLSJAVA-42561|PNG Excel 图表输出中的 X 轴刻度不正确|漏洞|
+|CELLSJAVA-42556|输出中图表的呈现不正确 PDF|漏洞|
+|CELLSJAVA-42547|将 XLSX 转换为 ODS 时，图表被替换为红色 X|漏洞|
 |CELLSJAVA-42546|将 ODS 转换为 XLSX 时图像丢失|漏洞|
-|CELLSJAVA-42538|不从 XLS 和 XLSX 文件中提取属性|漏洞|
-|CELLSJAVA-42534|将 XLS 保存为 XLSB 会删除 allowEditRanges|漏洞|
+|CELLSJAVA-42538|未从 XLS 和 XLSX 文件中提取属性|漏洞|
+|CELLSJAVA-42534|将 XLS 保存到 XLSB 会删除 allowEditRanges|漏洞|
 |CELLSJAVA-42532|使用 WorkbookSetting.StreamProvider 控制外部资源 - 它有效 for .NET 但无效 for Java|漏洞|
 |CELLSJAVA-42525|将数据导入工作表时指定公式字段 - 它有效 for .NET 但无效 for Java|漏洞|
 |CELLSJAVA-42521|嵌入文件名（标题）中的汉字在记事本中显示不佳|漏洞|
 |CELLSJAVA-42533|提取 SmartArt 形状文本时出现异常“NullPointerException”|例外|
-|CELLSJAVA-42545|加载ODS文件时出现异常“ReadElementString only called when the content is simple or empty”|例外|
+|CELLSJAVA-42545|加载 ODS 文件时出现异常“ReadElementString only called when the content is simple or empty”|例外|
 |CELLSJAVA-42526|B4 单元格错误 - 无效公式 - 设置公式时出现异常|例外|
 |CELLSJAVA-42522|通过 Aspose.Cells 打开文件时出现 ArrayIndexOutOfBoundsException|例外|
 |CELLSJAVA-42517|加载 ODS 文件时出现异常“com.aspose.cells.CellsException：无效公式：”|例外|

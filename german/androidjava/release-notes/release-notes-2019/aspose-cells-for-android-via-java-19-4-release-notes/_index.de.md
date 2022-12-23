@@ -16,18 +16,18 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-42853|Leistungsproblem beim Konvertieren von XLSX in HTML|Erweiterung|
 |CELLSANDROID-88|Bildverlust während der Konvertierung der Arbeitsmappe in PDF|Insekt|
 |CELLSJAVA-42852|Die Beschriftung auf beiden Achsen wird nicht angezeigt|Insekt|
-|CELLSJAVA-42856|Excel-zu-HTML-Problem|Insekt|
+|CELLSJAVA-42856|Problem mit Excel an HTML|Insekt|
 |CELLSJAVA-42872|Bild des Blattes, die rechte und untere Zeile fehlen|Insekt|
 |CELLSJAVA-42873|Das vorkonditionierte Blatt weist mehrere Zellhintergründe und fehlenden Text auf und ist ausgeblendet.|Insekt|
-|CELLSJAVA-42874|Spaltenverlust beim Exportieren einer Datei in HTML|Insekt|
+|CELLSJAVA-42874|Spaltenverlust beim Exportieren einer Datei nach HTML|Insekt|
 |CELLSJAVA-42875|Die Breite ist falsch und das Display ist nicht in Form|Insekt|
 |CELLSJAVA-42878|Das Ergebnis der Berechnung von Formeln ist nicht korrekt|Insekt|
-|CELLSJAVA-40419|PDF mit Tags kann beim Exportieren von Excel nach PDF nicht erstellt werden|Insekt|
+|CELLSJAVA-40419|Tag PDF kann nicht erstellt werden, während aus Excel nach PDF exportiert wird|Insekt|
 |CELLSJAVA-40570|Falsche Konvertierung in PDF und JPG für Seiten unterschiedlicher Größe|Insekt|
 |CELLSJAVA-42833|Problem beim Einbetten derselben PDF-Datei in mehrere Blätter einer Arbeitsmappe|Insekt|
 |CELLSJAVA-42858|Problem beim Hinzufügen eines Bildes zu verbundenen Zellen mithilfe von intelligenten Markierungen mit der Option Picture:FitToCell|Insekt|
-|CELLSJAVA-42862|Der Blattname wird nach dem CSV-Import in Formeln umbenannt|Insekt|
-|CELLSJAVA-42865|Falsche Uhrzeit aus einer Zelle in der ODS-Datei gelesen|Insekt|
+|CELLSJAVA-42862|Der Blattname wird nach dem Import von CSV in Formeln umbenannt|Insekt|
+|CELLSJAVA-42865|Falsche Uhrzeit aus einer Zelle in der Datei ODS gelesen|Insekt|
 |CELLSJAVA-42879|Excel-Datei wird nach dem Speichern von Aspose.Cells beschädigt|Insekt|
 |CELLSJAVA-42860|java.lang.NullPointerException beim Laden eines ODS-Dateiformats|Ausnahme|
 |CELLSJAVA-42871|java.lang.Exception: Nicht unterstützter Klon für gesicherten Stream beim Konvertieren von XLSX in PDF|Ausnahme|
@@ -66,4 +66,4 @@ Stellt die Thread-Kommentare zum Kommentar dar.
 ### **Fügen Sie die Methoden CommentCollection.AddThreadedComment() und CommentCollection.GetThreadedComments() hinzu.**
 Fügt die Thread-Kommentare hinzu und ruft sie ab.
 ### **Chart.SubTitle-Eigenschaft hinzufügen.**
-Ruft den Untertitel des Diagramms ab. Nur für Dateien im ODS-Format.
+Ruft den Untertitel des Diagramms ab. Nur für Datei im Format ODS.

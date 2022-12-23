@@ -1,6 +1,6 @@
 ﻿---
 title: تعيين والتحقق من صحة التوقيعات الرقمية
-linktitle: التوقيع
+linktitle: إمضاء
 type: docs
 weight: 100
 url: /ar/java/assign-and-validate-digital-signatures/

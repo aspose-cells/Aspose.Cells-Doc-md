@@ -19,9 +19,9 @@ url: /zh/java/aspose-cells-for-java-2-3-0-release-notes/
 - 从 MS Excel 2007 模板文件导入 CalculationMode 属性。
 - 增强了工作表的复制操作。
 - 增强复制公式。
-- 使用 ODF 1.2 改进了对 ODS 文件的读取。
+- 使用 ODF 1.2 改进读取 ODS 文件。
 - 使用渐变填充效果改进阅读图表。
-- 读取 XLS 模板文件已优化。
+- 优化读取 XLS 模板文件。
 - 31 个修复和改进。
 
  Aspose.Cells for Java 2.3.0 中已解决的问题。
@@ -43,7 +43,7 @@ url: /zh/java/aspose-cells-for-java-2-3-0-release-notes/
 |17174 |公式|获取公式字符串|
 |17001 |公式|设定公式|
 |16997 |xls|删除形状|
-|17107 |消耗臭氧层物质|在 ODS 文件中保存图表|
+|17107 |ODS |将图表保存在 ODS 文件中|
 |17016 |xls|复制单元格，读取模板文件|
 |17140 |xls|读取模板文件|
 |17019 |xlsx|读取 CalculationMode 属性|

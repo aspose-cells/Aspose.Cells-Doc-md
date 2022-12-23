@@ -1,5 +1,5 @@
 ﻿---
-title: Excel ファイルを CSV、PDF、その他の形式で保存する
+title: Excel ファイルを CSV、PDF およびその他の形式で保存する
 linktitle: ファイルを保存
 type: docs
 weight: 20
@@ -39,11 +39,11 @@ Aspose.Cells API という名前のクラスを提供します[**ワークブッ
 |[**わからない**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|認識できない形式を表しており、保存できません。|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|PDF ドキュメントを表します|
 |[**XPS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XPS)|XML Paper Specification (XPS) ファイルを表します|
-|[**TIFF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|Tagged Image File Format (TIFF) ファイルを表します|
-|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|XML ベースの Scalable Vector Graphics (SVG) ファイルを表します|
+|[**TIFF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|タグ付き画像ファイル形式 (TIFF) ファイルを表します|
+|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|XML ベースのスケーラブル ベクター グラフィックス (SVG) ファイルを表します|
 |[**DIF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#DIF)|データ交換フォーマットを表します。|
 |[**数字**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#NUMBERS)|数値ファイルを表します。|
-|[**マークダウン**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|マークダウン ドキュメントを表します。|
+|[**MARKDOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|マークダウン ドキュメントを表します。|
 **通常、Excel ファイルを保存するには、次の 2 つの方法があります。**
 
 1. **ファイルを特定の場所に保存する**
@@ -57,11 +57,11 @@ Aspose.Cells API という名前のクラスを提供します[**ワークブッ
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SavingFiletoSomeLocation-SavingFiletoSomeLocation.java" >}}
 
-## **ワークブックをテキストまたは CSV 形式に保存する**
+## **ワークブックをテキストまたは CSV 形式で保存する**
 
-場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (たとえば、TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方がアクティブなワークシートの内容のみを保存します。
+場合によっては、複数のワークシートを含むワークブックをテキスト形式に変換または保存する必要があります。テキスト形式 (例: TXT、TabDelim、CSV など) の場合、既定では、Microsoft Excel と Aspose.Cells の両方で、アクティブなワークシートの内容のみが保存されます。
 
-次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。任意の Microsoft Excel または OpenOffice スプレッドシート ファイル (つまり、XLS、XLSX、XLSM、XLSB、ODS など) であるソース ワークブックを任意の数のワークシートと共に読み込みます。
+次のコード例は、ブック全体をテキスト形式で保存する方法を示しています。 Microsoft Excel または OpenOffice スプレッドシート ファイル (XLS、XLSX、XLSM、XLSB、ODS など) のソース ワークブックを任意の数のワークシートと共に読み込みます。
 
 コードが実行されると、ブック内のすべてのシートのデータが TXT 形式に変換されます。
 
@@ -87,7 +87,7 @@ Aspose.Cells API という名前のクラスを提供します[**ワークブッ
 
 ## **ファイルを他の形式に保存する**
 
-### **XLSファイル**
+### **XLS ファイル**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSFile-SaveXLSFile.java" >}}
 
@@ -95,19 +95,19 @@ Aspose.Cells API という名前のクラスを提供します[**ワークブッ
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSXFile-SaveXLSXFile.java" >}}
 
-### **PDFファイル**
+### **PDF ファイル**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveInPdfFormat-SaveInPdfFormat.java" >}}
 
 #### **ContentCopyForAccessibility オプションを設定する**
 
-とともに[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)クラス、PDFを取得または設定できます[**アクセシビリティExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent)変換された PDF のコンテンツ アクセスを制御するオプション。これは、スクリーン リーダー ソフトウェアが PDF ファイルを読み取るために PDF ファイル内のテキストを利用できるようにすることを意味します。アクセス許可の変更パスワードを適用し、スクリーンショットの 2 つの項目の選択を解除することで、無効にすることができます。[ここ](71630877.png).
+とともに[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)クラスでは、PDF を取得または設定できます[**アクセシビリティExtractContent**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent)変換された PDF のコンテンツ アクセスを制御するオプション。これは、スクリーン リーダー ソフトウェアが PDF ファイル内のテキストを使用して PDF ファイルを読み取ることを許可することを意味します。アクセス許可の変更パスワードを適用し、スクリーンショットの 2 つの項目の選択を解除することで、無効にすることができます。[ここ](71630877.png).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ContentCopyForAccessibilityOption.java" >}}
 
 #### **カスタム プロパティを PDF にエクスポート**
 
-とともに[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)クラスを使用すると、ソース ワークブックのカスタム プロパティを PDF にエクスポートできます。[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport)列挙子は、プロパティをエクスポートする方法を指定するために提供されています。これらのプロパティは、次の図に示すように、[ファイル] をクリックしてから [プロパティ] オプションをクリックすると、Adobe Acrobat Reader で確認できます。テンプレートファイル「sourceWithCustProps.xlsx」がダウンロード可能[ここ](sourceWithCustProps.xlsx)テストおよび出力用の PDF ファイル「outSourceWithCustProps」が利用可能[ここ](outSourceWithCustProps.pdf)分析のために。
+とともに[**PDF保存オプション**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions)クラスでは、ソース ワークブックのカスタム プロパティを PDF にエクスポートできます。[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport)列挙子は、プロパティをエクスポートする方法を指定するために提供されています。これらのプロパティは、次の図に示すように、[ファイル] をクリックしてから [プロパティ] オプションをクリックすると、Adobe Acrobat Reader で確認できます。テンプレートファイル「sourceWithCustProps.xlsx」がダウンロード可能[ここ](sourceWithCustProps.xlsx)テストおよび出力用 PDF ファイル「outSourceWithCustProps」が利用可能[ここ](outSourceWithCustProps.pdf)分析のために。
 
 ![todo:画像_代替_文章](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
 
@@ -125,5 +125,5 @@ Aspose.Cells API は、スプレッドシートを Markdown 形式にエクス�
 - [ワークブックの圧縮レベルを調整する](/cells/ja/java/adjust-workbook-compression-level/)
 - [ワークブックを別の形式に変換する](/cells/ja/java/converting-workbook-to-different-formats/)
 - [ワークブックを厳密な Open XML スプレッドシート形式で保存する](/cells/ja/java/save-workbook-to-strict-open-xml-spreadsheet-format/)
-- [Excel から TIFF への変換の進行状況を追跡する](/cells/ja/java/track-conversion-progress-of-excel-to-tiff/)
+- [Excel の変換の進行状況を TIFF に追跡する](/cells/ja/java/track-conversion-progress-of-excel-to-tiff/)
 - [ドキュメント変換の進行状況を追跡する](/cells/ja/java/track-document-conversion-progress/)

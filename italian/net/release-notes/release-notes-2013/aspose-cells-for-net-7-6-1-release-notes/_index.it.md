@@ -22,7 +22,7 @@ url: /it/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 - Problema relativo alla tabella pivot con marcatori intelligenti
 
- 41528 - Problemi di formattazione nel PDF di output
+ 41528 - Problemi di formattazione nell'output PDF
 
  \2) Aspose.Cells.GridWeb
 

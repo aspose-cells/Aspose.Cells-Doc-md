@@ -12,12 +12,12 @@ url: /de/java/aspose-cells-for-java-17-9-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-42391|Cell Die im resultierenden PDF angezeigte Breite ist nicht dieselbe wie in der Excel-Datei, wenn die Funktion "Formel anzeigen" verwendet wird|Neue Funktion|
-|CELLSJAVA-42379|Implementieren des benannten Ziels beim Rendern in die PDF-Ausgabe (Lesezeichenabfrage)|Neue Funktion|
+|CELLSJAVA-42391|Die im Ergebnis PDF angezeigte Breite von Cell ist nicht dieselbe wie in der Excel-Datei, wenn die Funktion "Formel anzeigen" verwendet wird|Neue Funktion|
+|CELLSJAVA-42379|Benanntes Ziel beim Rendern in die Ausgabe PDF implementieren (Lesezeichenabfrage)|Neue Funktion|
 |CELLSJAVA-42401|Sie müssen alle Formen aufzählen, um die Z-Reihenfolge der Form richtig festzulegen|Erweiterung|
 |CELLSJAVA-42368|Name des ActiveX-Steuerelements (ListBox) festlegen|Erweiterung|
-|CELLSJAVA-42369|Die HTML-Ausgabe des Excel-Dokuments enthält Hash-Werte anstelle von tatsächlichen Werten|Insekt|
-|CELLSJAVA-42366|Das Speichern von "2.2 CompleteEmail.html" im XLSX-Format erzeugt eine beschädigte Datei|Insekt|
+|CELLSJAVA-42369|HTML Ausgabe des Excel-Dokuments enthält Hash-Werte anstelle von tatsächlichen Werten|Insekt|
+|CELLSJAVA-42366|Das Speichern von "2.2 CompleteEmail.html" im Format XLSX erzeugt eine beschädigte Datei|Insekt|
 |CELLSJAVA-42365|Das Laden von „2.1 CompleteEmail.html“ in das Workbook-Objekt löst NullPointerException aus|Insekt|
 |CELLSJAVA-42381|Die Arbeitsmappenberechnung ist für die Lookup-Excel-Formel falsch|Insekt|
 |CELLSJAVA-42380|Array-Formel im Blatt wird über Aspose.Cells anders berechnet|Insekt|
@@ -27,10 +27,10 @@ url: /de/java/aspose-cells-for-java-17-9-release-notes/
 |CELLSJAVA-42384|Die Farbe der negativen Balken ist nicht korrekt, wenn Excel in PDF konvertiert wird|Insekt|
 |CELLSJAVA-42378|Die Balkenfarbe hat sich beim Konvertieren von Excel in PDF geändert, wenn setCrossAt() verwendet wurde|Insekt|
 |CELLSJAVA-42377|Der Wert der Haupteinheiten der Achse im Diagramm wird falsch zurückgegeben|Insekt|
-|CELLSJAVA-42364|Datalabels aus dem Zellbereich kommen nicht, wenn sie in PDF exportiert werden|Insekt|
+|CELLSJAVA-42364|Datalabels aus dem Zellbereich kommen nicht, wenn sie nach PDF exportiert werden|Insekt|
 |CELLSJAVA-42359|Fehlende Datalabels für eine Reihe mit Balkenwerten von 100|Insekt|
-|CELLSJAVA-42314|Das Diagramm ist im Ausgabe-PNG leer|Insekt|
-|CELLSJAVA-42313|Das Diagramm ist in der Ausgabe-PDF leer|Insekt|
+|CELLSJAVA-42314|Das Diagramm ist in der Ausgabe PNG leer|Insekt|
+|CELLSJAVA-42313|Das Diagramm ist in der Ausgabe PDF leer|Insekt|
 |CELLSJAVA-42374|Zeichenreferenzen wurden von Aspose Cells falsch geparst|Insekt|
 |CELLSJAVA-42373|Das Kopieren der Arbeitsmappe und das anschließende Speichern beschädigt die Excel-Ausgabedatei|Insekt|
 |CELLSJAVA-42392|Ausnahme "com.aspose.cells.CellsException: unbekannter Excel-Inhalt!" beim Instanziieren einer verschlüsselten Excel-Datei|Ausnahme|
@@ -71,8 +71,8 @@ Ruft den Designerspeicher des VBA-Projekts ab und legt ihn fest.
 ### **Anwendungsbeispiele**
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Cells-Wiki-Dokumenten hinzugefügt wurden:
 
-- [Fügen Sie PDF-Lesezeichen mit benannten Zielen hinzu](/cells/de/java/add-pdf-bookmarks-with-named-destinations/)
-- [Steuern Sie das Laden externer Ressourcen in MS Excel-Arbeitsmappen beim Rendern in PDF](/cells/de/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Fügen Sie PDF Lesezeichen mit benannten Zielen hinzu](/cells/de/java/add-pdf-bookmarks-with-named-destinations/)
+- [Steuern Sie das Laden externer Ressourcen in der MS Excel-Arbeitsmappe, während Sie auf PDF rendern](/cells/de/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Kopieren Sie VBA Macro UserForm DesignerStorage aus der Vorlage in die Zielarbeitsmappe](/cells/de/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [GridCell-Kommentare erstellen und abrufen](/cells/de/java/create-remove-and-get-gridcell-comments/)
 - [Senden Sie die Form nach vorne oder hinten in das Arbeitsblatt](/cells/de/java/send-shape-front-or-back-inside-the-worksheet/)

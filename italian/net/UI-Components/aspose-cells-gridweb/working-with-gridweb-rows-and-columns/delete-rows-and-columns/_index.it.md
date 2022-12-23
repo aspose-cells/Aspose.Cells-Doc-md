@@ -6,7 +6,7 @@ url: /it/net/delete-rows-and-columns/
 ---
 {{% alert color="primary" %}} 
 
-Questo argomento illustra come eliminare righe e colonne da un foglio di lavoro usando l'API Aspose.Cells.GridWeb. Con l'aiuto di questa funzione, gli sviluppatori possono eliminare righe o colonne in fase di esecuzione.
+Questo argomento illustra come eliminare righe e colonne da un foglio di lavoro utilizzando Aspose.Cells.GridWeb API. Con l'aiuto di questa funzionalità, gli sviluppatori possono eliminare righe o colonne in fase di esecuzione.
 
 {{% /alert %}} 
 ## **Eliminazione di righe**

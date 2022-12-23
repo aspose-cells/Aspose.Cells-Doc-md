@@ -11,9 +11,9 @@ url: /sv/net/detect-hyperlink-type/
 - Extern: Extern länk
 - FilePath: Lokal och fullständig sökväg till filer\mappar.
 - E-post: E-post
-- CellReference: Länk till cell eller namngett område.
+- CellReference: Länk till cell eller namngivet område.
 
- För att kontrollera typen av hyperlänk,[**Hyperlänk**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) klass ger en[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) fastighet med en returtyp av[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Följande kodavsnitt visar användningen av[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)egendom genom att använda denna[källkod excel-fil](94896195.xlsx).
+För att kontrollera typen av hyperlänk,[**Hyperlänk**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) klass ger en[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) fastighet med en returtyp av[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Följande kodavsnitt visar användningen av[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)egendom genom att använda denna[source excel-fil](94896195.xlsx).
 
 ### Källkod
 

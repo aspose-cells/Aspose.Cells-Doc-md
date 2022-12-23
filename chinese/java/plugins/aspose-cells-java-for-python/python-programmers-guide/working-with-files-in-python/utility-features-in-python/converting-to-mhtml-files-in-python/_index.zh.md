@@ -1,11 +1,11 @@
 ﻿---
-title: 在 Python 中转换为 MHTML 文件
+title: 转换为 Python 中的 MHTML 文件
 type: docs
 weight: 30
 url: /zh/java/converting-to-mhtml-files-in-python/
 ---
 ## **Aspose.Cells - 转换为 MHTML**
-要使用 Python 中的 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_至_Converter 模块的 mhtml() 方法。
+要使用 Python 中的 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_到_Converter 模块的 mhtml() 方法。
 
 **Python 代码**
 

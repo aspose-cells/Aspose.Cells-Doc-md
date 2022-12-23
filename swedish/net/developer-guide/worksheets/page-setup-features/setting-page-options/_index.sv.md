@@ -20,7 +20,7 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artik
 
 ### **Sidorientering**
 
- Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) fast egendom. De[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) egenskapen accepterar ett av de fördefinierade värdena i[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)uppräkning, listad nedan.
+Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) klass'[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) fast egendom. De[**Orientering**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) egenskapen accepterar ett av de fördefinierade värdena i[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)uppräkning, listad nedan.
 
 |**Sidorienteringstyper**|**Beskrivning**|
 |:- |:- |
@@ -104,7 +104,7 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artik
 |PaperLegalExtra|US Legal Extra 9 \275 x 15 tum|
 |PaperTabloidExtra|US Tabloid Extra 11,69 x 18 tum|
 |PaperA4Extra|A4 Extra 9,27 x 12,69 tum|
-|PaperLetterTransversal|Bokstav tvärgående 8 \275 x 11 tum|
+|PaperLetterTransverse|Bokstav tvärgående 8 \275 x 11 tum|
 |PapperA4Tvärgående|A4 Tvärgående 210 x 297 mm|
 |PaperLetterExtraTransverse|Bokstav extra tvärgående 9\275 x 12 tum|
 |PaperSuperA|SuperA/SuperA/A4 227 x 356 mm|
@@ -127,7 +127,7 @@ Alternativ för sidinställningar stöds fullt ut i Aspose.Cells. Den här artik
 |PaperJapaneseEnvelopeChou4|Japanskt kuvert Chou #4|
 |PaperLetterRotated|11 tum x 8,5 tum|
 |PaperA3Roterat|420 mm x 297 mm|
-|PaperA4Roterad|297 mm x 210 mm|
+|PaperA4Roterad|297mm x 210mm|
 |PaperA5 Roterat|210 mm x 148 mm|
 |PaperJISB4Roterad|B4 (JIS) Roterad 364 x 257 mm|
 |PaperJISB5Roterad|B5 (JIS) Roterad 257 x 182 mm|

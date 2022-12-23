@@ -13,58 +13,58 @@ url: /ja/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Aspose.Cells API で FIPS 準拠バージョンの Bouncy Castle を使用する|新機能|
-|CELLSJAVA-42550|各ワークブックに独自のプライベート (専用) フォント セットがある場合の PDF への同時変換|新機能|
+|CELLSJAVA-42550|PDF への同時変換。各ワークブックには独自のプライベート (排他的) フォント セットがあります。|新機能|
 |CELLSJAVA-42339|Aspose.Cells API を使用してピボット テーブル レポートにカスタム データの並べ替えを実装する|新機能|
 |CELLSJAVA-42625|MS Excel 機能「ウォッチ ウィンドウ」の実装|新機能|
 |CELLSJAVA-42612|歯車の種類 SmartArt からテキストを抽出できません|新機能|
 |CELLSJAVA-42572|数式は 8192 文字を超えてはいけません|強化|
-|CELLSJAVA-42569|XLS のグラフの水平カテゴリ軸ラベル項目にアクセスできません|強化|
+|CELLSJAVA-42569|XLS の Chart の水平カテゴリ軸ラベル項目にアクセスできません|強化|
 |CELLSJAVA-42580|言語ドキュメント プロパティの取得/設定|強化|
 |CELLSJAVA-42565|前景色 vs 背景色 vs 塗りつぶし色 - 2 つの引数を取る単一のメソッドを使用する|強化|
 |CELLSJAVA-42528|"\<Font>" は有効な HTML5 および自己終了タグではなく、Web ブラウザーはそのコンテンツを誤って表示します|強化|
-|CELLSJAVA-42413|Aspose.Cells によるワークシートのセルへの SVG 画像タイプの挿入|強化|
+|CELLSJAVA-42413|Aspose.Cells でワークシートのセルに SVG 画像タイプを挿入|強化|
 |CELLSJAVA-42594|XLAM の LoadFormat と FileFormatType を検出する|強化|
 |CELLSJAVA-42646|例外: Name.getRefersTo() での「FormulaBuild Unknown formula token 0」|強化|
 |CELLSJAVA-42645|例外: Cell.getFormula() の「FormulaBuild 複数のトークンがスタック内にあります....」|強化|
 |CELLSJAVA-42516|Aspose.Cells は無効な数式を受け入れて修正します|強化|
-|CELLSJAVA-42551|出力 PDF で一部の形状が正しくない|バグ|
-|CELLSJAVA-42578|Excel を HTML に保存するときに条件付き書式が失われる|バグ|
+|CELLSJAVA-42551|出力で一部の形状が正しくない PDF|バグ|
+|CELLSJAVA-42578|Excel を HTML に保存しているときに条件付き書式が失われる|バグ|
 |CELLSJAVA-42571|出力 HTML が MS-Excel と一致しない|バグ|
-|CELLSJAVA-42553|HTML へのエクスポート後に名前付き領域へのリンクが正しくない|バグ|
+|CELLSJAVA-42553|HTML にエクスポートした後、名前付き領域へのリンクが正しくない|バグ|
 |CELLSJAVA-42530|ピボット テーブルと対応するグラフの日付形式が正しくありません|バグ|
 |CELLSJAVA-42527|グラフの x 軸に多くの値があり、値が互いに重なっています|バグ|
 |CELLSJAVA-42581|Aspose.Cells はセル A2 の間違った値を返します|バグ|
 |CELLSJAVA-42583|XML マップでテーブルが正しく作成されない|バグ|
 |CELLSJAVA-42577|特定のチャートの DataPoint.getYValue() メソッドを使用して、値 (0 の場合は 0、空白の場合は空白) を取得/抽出します。|バグ|
 |CELLSJAVA-42566|MS Excel チャートのサブタイトル (凡例エントリ) の反転|バグ|
-|CELLSJAVA-42560|Excel Chart の PNG 出力に矢印が表示されない|バグ|
+|CELLSJAVA-42560|Excel グラフの PNG 出力に矢印がありません|バグ|
 |CELLSJAVA-42508|Java メソッド 'Shape.toImage' は、.NET の同じメソッドとは異なる動作をします|バグ|
 |CELLSJAVA-42573|Aspose.Cells TextBox の 18.3 回転が EXCEL で機能しない_97_TO_2003 保存形式|バグ|
 |CELLSJAVA-42570|Excel ファイルを処理して保存した後、TextBox 内に空白の改行が表示される|バグ|
 |CELLSJAVA-42604|テンプレート ファイルを開いて保存すると、ピボット テーブルの書式設定と動作が変更される|バグ|
-|CELLSJAVA-41918|スプレッドシート (XLS) が単純な読み込みと保存後に破損する|バグ|
+|CELLSJAVA-41918|単純な読み込みと保存の後、スプレッドシート (XLS) が破損する|バグ|
 |CELLSJAVA-42616|Aspose.Cells Iterator.hasnext() を 2 回呼び出すと iterator インターフェイスが壊れる|バグ|
 |CELLSJAVA-42607|ドキュメント プロパティの抽出時にプロパティ値が文字化けする|バグ|
 |CELLSJAVA-42601|透かしを追加した後、ブックが壊れている|バグ|
 |CELLSJAVA-42600|新しいリリースでは同じコードの実行が遅くなる|バグ|
 |CELLSJAVA-42598|テンプレート ファイルにプロパティが抽出されない|バグ|
-|CELLSJAVA-42589|HTML をセルに追加するときの NullPointerException|バグ|
-|CELLSJAVA-41414|XLSX ファイルを再保存すると、グラフから線が消える|バグ|
-|CELLSJAVA-42636|Excel から HTML へのレンダリングで、一部の描画図形がずれたり、正しくレンダリングされない|バグ|
+|CELLSJAVA-42589|HTML をセルに追加すると NullPointerException が発生する|バグ|
+|CELLSJAVA-41414|XLSX ファイルを再保存するとチャートから線が消える|バグ|
+|CELLSJAVA-42636|一部の描画図形が、Excel で HTML レンダリングに移動するか、正しくレンダリングされない|バグ|
 |CELLSJAVA-42627|CELLSJAVA-42619 Smart Art 画像を正しく抽出できません|バグ|
-|CELLSJAVA-42618|Excel から HTML へのレンダリングでデータをカバーするために形状が移動する|バグ|
+|CELLSJAVA-42618|Excel のデータを HTML レンダリングにカバーするために、形状が置き換えられます。|バグ|
 |CELLSJAVA-42628|数式の計算が間違っています。たとえば、#DIV/0 が生成されます。エラー|バグ|
-|CELLSJAVA-42615|Cell 出力 HTML で A3 形式が正しくありません|バグ|
-|CELLSJAVA-42621|Excel ファイルから PDF ファイルを生成する際のパフォーマンスの低下|バグ|
+|CELLSJAVA-42615|Cell 出力で A3 形式が正しくありません HTML|バグ|
+|CELLSJAVA-42621|Excel ファイルから PDF ファイルを生成するときのパフォーマンスの低下|バグ|
 |CELLSJAVA-42620|XLSX から TIFF - 例外 NoClassDefFoundError|バグ|
 |CELLSJAVA-42599|Excel ファイルを Pdf に変換すると画像が失われる|バグ|
 |CELLSJAVA-42630|Chart.calculate メソッドが OutOfMemoryError を引き起こす|バグ|
-|CELLSJAVA-42623|Excel ファイルを PDF ファイル形式にレンダリングする際のメモリの増加|バグ|
+|CELLSJAVA-42623|Excel ファイルを PDF ファイル形式にレンダリングするとメモリが増加する|バグ|
 |CELLSJAVA-42592|characters() メソッドにより、チャート タイトルのフォント サイズが変更されました|バグ|
-|CELLSJAVA-41860|XLS の再保存中に影の効果が変更される|バグ|
+|CELLSJAVA-41860|再保存時に影の効果が変わる XLS|バグ|
 |CELLSJAVA-42654|Excel から PDF への変換 - 変換が完了しない|バグ|
 |CELLSJAVA-42647|コメント図形の代替テキストを取得または設定できません|バグ|
-|CELLSJAVA-42644|Aspose.Cells 自己終了スタイル タグを使用してスプレッドシート ML ファイル (xml) を PDF に変換するとハングする|バグ|
+|CELLSJAVA-42644|Aspose.Cells は、Spreadsheet ML ファイル (xml) を自己終了スタイル タグを含む PDF に変換するとハングします。|バグ|
 |CELLSJAVA-42632|SmartArt 図形の代替テキストを設定できません|バグ|
 |CELLSJAVA-42631|getFirstVisibleRow() および getFirstVisibleColumn() が無効なインデックスを返す|バグ|
 |CELLSJAVA-42624|エンコードされたシンボル (「%5c」など) を含むハイパーリンクは、再保存後にデコードされます|バグ|
@@ -77,7 +77,7 @@ url: /ja/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42591|Excel ファイルの読み込み時に「com.aspose.cells.CellsException: Invalid formula」というメッセージが表示される|例外|
 |CELLSJAVA-42638|Cell.getDisplayStringValue() が java.lang.NullPointerException をスローする|例外|
 |CELLSJAVA-42652|XLS ファイルのロード時に java.lang.ArrayIndexOutOfBoundsException が発生しました|例外|
-|CELLSJAVA-42650|例外: XLS ファイルの読み込み時の「無効なエンコード: null」|例外|
+|CELLSJAVA-42650|例外: XLS ファイルのロード時の「無効なエンコード: null」|例外|
 |CELLSJAVA-42649|例外: XLS ファイルをロードするときの「HPageBreaks の数は 1024 より大きくすることはできません」|例外|
 |CELLSJAVA-42648|例外: Picture.getData() での「画像データの読み取りに失敗しました」|例外|
 
@@ -87,11 +87,11 @@ url: /ja/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **HtmlCrossType 列挙型に新しい項目「CrossHideRight」を追加**
 
-HTML クロス文字列を表示し、テキストが重なっている場合は右文字列を非表示にします。
+HTML クロス文字列を表示し、テキストが重なると右文字列を非表示にします。
 
-### **LoadFormat、SaveFormat、および FileFormatType 列挙型の新しい項目「TSV」を追加**
+### **LoadFormat、SaveFormat、FileFormatType 列挙型に新しい項目「TSV」を追加**
 
-「TabDelimited」と同じTSV(Tab-separated values)ファイルを表します。
+「TabDelimited」と同じ、TSV(タブ区切り値)ファイルを表します。
 
 ### **列挙型 ImageType を追加します**
 
@@ -143,7 +143,7 @@ HTML クロス文字列を表示し、テキストが重なっている場合は
 
 ### **Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) メソッドを追加**
 
-目的のページ サイズでグラフの PDF を作成し、ファイルに保存します。
+グラフの PDF を目的のページ サイズで作成し、ファイルに保存します。
 
 ### **PdfSaveOptions.OutputBlankPageWhenNothingToPrint プロパティを追加**
 

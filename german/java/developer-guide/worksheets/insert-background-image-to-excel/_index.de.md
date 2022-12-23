@@ -28,7 +28,7 @@ Der folgende Code legt ein Hintergrundbild mit einem Bild aus einem Stream fest.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SetBackgroundPictureforWorksheet-1.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Arbeiten mit dem Hintergrund in ODS-Dateien](/cells/de/java/working-with-background-in-ods-files/)
 

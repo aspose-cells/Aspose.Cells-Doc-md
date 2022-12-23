@@ -6,11 +6,11 @@ url: /fr/net/adobe-portable-document-format-pdf/
 ---
 {{% alert color="primary" %}} 
 
- Tout document chargé dans Aspose.Cells peut être converti en PDF conforme à la[PDF 1.5](https://docs.fileformat.com/pdf/) ou[PDF/A-1b](https://docs.fileformat.com/pdf/a/) spécification. Aspose.Cells se donne beaucoup de mal pour convertir fidèlement les documents Excel Microsoft en PDF. La plupart du temps, l'apparence du document PDF final sera indiscernable du document Excel Microsoft original.
+ Tout document chargé dans Aspose.Cells peut être converti en PDF conforme à la[PDF 1.5](https://docs.fileformat.com/pdf/) ou alors[PDF/A-1b](https://docs.fileformat.com/pdf/a/)spécification. Aspose.Cells se donne beaucoup de mal pour convertir fidèlement les documents Excel Microsoft en PDF. La plupart du temps, l'apparence du document PDF final sera indiscernable du document Excel Microsoft original.
 
 {{% /alert %}} 
-## **PDF au Aspose.Cells**
-La solution Aspose prend entièrement en charge les fonctionnalités de document suivantes lors de la conversion au format PDF :
+## **PDF à Aspose.Cells**
+La solution Aspose prend entièrement en charge les fonctionnalités de document suivantes lors de la conversion vers PDF :
 
 - Cell Formatage des données et du texte
 - Graphiques et tableaux croisés dynamiques

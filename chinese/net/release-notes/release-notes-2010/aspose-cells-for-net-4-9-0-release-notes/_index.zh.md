@@ -25,7 +25,7 @@ url: /zh/net/aspose-cells-for-net-4-9-0-release-notes/
 - 包括 ICustomTypeDesciptor 作为智能标记的数据源
 - 支持图表到图像功能中的外部链接源数据
 - 支持 xls 文件中的 MS Excel 2007 外部页面设置选项
-- 将 HTML 内容指定为单元格的值或注释的注释
+- 指定 HTML 内容为单元格的值或注释的注释
 - 112 个修复和其他增强功能。
 
  （注意：Aspose.Cells.Charts 类重命名为 Aspose.Cells.ChartCollection 类。）

@@ -1,12 +1,12 @@
 ﻿---
-title: HTML リンクのターゲット タイプを変更する
+title: HTML リンク ターゲット タイプの変更
 type: docs
 weight: 320
 url: /ja/net/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells では、HTML リンクのターゲット タイプを変更できます。 HTMLリンクはこんな感じ
+Aspose.Cells では、HTML リンク ターゲット タイプを変更できます。 HTML リンクはこんな感じ
 
 {{< highlight "java" >}}
 

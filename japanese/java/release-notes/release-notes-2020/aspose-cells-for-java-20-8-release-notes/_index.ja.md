@@ -14,10 +14,10 @@ url: /ja/java/aspose-cells-for-java-20-8-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43242|Head タグの外側にある style タグの 1 つ|バグ|
 |CELLSJAVA-43157|ウォーターフォール グラフの作成時に、カスタマイズされたデータ系列の色が保持されない|バグ|
-|CELLSJAVA-43240|Excel を PDF に変換するときに、図形/オブジェクトで意図しない改行が発生する|バグ|
+|CELLSJAVA-43240|Excel を PDF に変換すると、図形/オブジェクトで意図しない改行が発生する|バグ|
 |CELLSJAVA-43255|Excel から PDF への変換のパフォーマンスの問題|バグ|
 |CELLSJAVA-43250|展開されたラベル セルが SmartMarker で結合されない|バグ|
-|CELLSJAVA-43253|SmartArt でテキストを置き換えた後、OoxmlSaveOptions を使用してファイルを保存すると、XLS が XLSX に変換されます|バグ|
+|CELLSJAVA-43253|SmartArt でテキストを置き換えた後に OoxmlSaveOptions を使用してファイルを保存すると、XLS が XLSX に変換されます|バグ|
 CELLSJAVA-43170|calculateFormula メソッドの CellsException|Exception|
 
 ## **Public API および下位互換性のない変更**

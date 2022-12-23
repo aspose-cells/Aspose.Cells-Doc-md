@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-19-12-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-44451|Appliquer le tri des données pour le champ de données par rapport au champ Ligne dans le tableau croisé dynamique - Imitez les résultats selon le fichier attendu de l'utilisateur|Nouvelle fonctionnalité|
 |CELLSNETCORE-45|Charger les données de la source de données avec la possibilité d'ignorer certains caractères comme l'apostrophe|Nouvelle fonctionnalité|
@@ -18,23 +18,23 @@ url: /fr/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47016|Le texte d'habillage est différent dans la dernière version de Aspose.Cells|Renforcement|
 |CELLSNET-47023|Graphique perdu lors du chargement et de l'enregistrement du fichier ODS|Renforcement|
 |CELLSNET-47056|Graphiques non rendus lors du chargement et de l'enregistrement du fichier ODS|Renforcement|
-|CELLSNET-46679|Rendu incorrect lors de l'exportation XLSX vers PDF|Punaise|
+|CELLSNET-46679|Rendu incorrect lors de l'export XLSX vers PDF|Punaise|
 |CELLSNET-46680|Le symbole Wingding est manquant lors de la conversion de XLSX en PDF|Punaise|
 |CELLSNET-46740|Erreur dans les images lors de la conversion du fichier Excel en PDF|Punaise|
 |CELLSNET-46901|La position du modèle 3D se déplace|Punaise|
-|CELLSNET-46936|La police n'est pas rendue correctement en HTML|Punaise|
-|CELLSNET-47013|Les chiffres sur le graphique en entonnoir disparaissent lors de la conversion du fichier Excel en PDF|Punaise|
+|CELLSNET-46936|La police n'est pas bien rendue dans HTML|Punaise|
+|CELLSNET-47013|Numbers sur le graphique en entonnoir disparaît lors de la conversion du fichier Excel en PDF|Punaise|
 |CELLSNET-43846|Le tableau croisé dynamique perd les noms de champs personnalisés et le paramètre "Afficher la valeur sous..."|Punaise|
 |CELLSNET-46444|La valeur du tableau croisé dynamique a été modifiée après l'appel de PivotTable.CalculateData|Punaise|
 |CELLSNET-46484|RefreshData ne trie pas les données avant d'ouvrir le fichier dans Excel|Punaise|
 |CELLSNET-47010|Un problème avec le formatage des en-têtes de groupe de tableau croisé dynamique|Punaise|
 |CELLSNET-47024|Ordre de tri des lignes incorrect dans les tableaux croisés dynamiques avec la ligne Valeurs|Punaise|
-|CELLSNET-47034|Largeurs de colonne et hauteur de ligne réduites lors de la conversion HTML vers Excel|Punaise|
+|CELLSNET-47034|La largeur des colonnes et la hauteur des lignes ont été réduites lors de la conversion de HTML en Excel|Punaise|
 |CELLSNET-47007|Une erreur de valeur s'affiche lors de l'évaluation de la formule|Punaise|
 |CELLSNET-47029|Valeur incorrecte TRUE extraite de Cell au lieu de la valeur FALSE|Punaise|
 |CELLSNET-47052|DateTimeFormat corrompu lors de la conversion d'Excel en PDF|Punaise|
 |CELLSNET-46757|Problèmes lors de la conversion de XLSX en PDF|Punaise|
-|CELLSNET-46976|Certaines lignes de bordure disparaissent dans le rendu Excel vers PDF|Punaise|
+|CELLSNET-46976|Certaines lignes de bordure disparaissent dans Excel au rendu PDF|Punaise|
 |CELLSNET-47000|Image de résultat inappropriée par SheetRender à partir d'un fichier .ods protégé par mot de passe|Punaise|
 |CELLSNET-47025|Macros pour XLSM non détectées|Punaise|
 |CELLSNET-47038|Les graphiques linéaires dans le fichier ODS ne sont pas rendus correctement lorsqu'ils sont ouverts ou enregistrés via Aspose.Cells|Punaise|
@@ -86,9 +86,9 @@ Obtient et définit le type de texte enveloppé d'ajustement automatique.
 #### **Ajoute la classe EmfRenderSetting**
 Ensembles pour le rendu du métafichier Emf.
 #### **Ajoute la propriété PdfSaveOptions.EmfRenderSetting**
-Définit le rendu du métafichier EMF lors du rendu en fichier PDF.
+Définit le rendu du métafichier EMF lors du rendu dans le fichier PDF.
 #### **Ajoute la méthode ShapeCollection.AddSvg()**
-Ajoute une image SVG.
+Ajoute l'image SVG.
 #### **Ajoute la propriété WorkbookSettings.QuotePrefixToStyle**
 Indique si la définition de la propriété Style.QuotePrefix lors de la saisie de la valeur de chaîne (qui commence par un guillemet simple) dans la cellule
 #### **Ajoute la propriété HtmlSaveOptions.AddTooltipText**

@@ -18,30 +18,30 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43191|Proporcionar un medio para manejar escenarios al especificar tipos de fuente incorrectos|Mejora|
 |CELLSJAVA-43187|Excepción al cargar archivos XLS "Microsoft Excel 5.0/95 Workbook"|Mejora|
 |CELLSJAVA-43142|Representación de Excel a HTML: algunas celdas no están alineadas después de la conversión|Insecto|
-|CELLSJAVA-43155|El texto rotado se establece fuera de la celda cuando se representa como HTML|Insecto|
+|CELLSJAVA-43155|El texto girado se establece fuera de la celda cuando se representa como HTML|Insecto|
 |CELLSJAVA-43161|Representación incorrecta de la ecuación.|Insecto|
 |CELLSJAVA-43130|Problema de transparencia del gráfico de cascada|Insecto|
-|CELLSJAVA-43131|Excel a PDF - Formas con texto no convertido correctamente|Insecto|
+|CELLSJAVA-43131|Excel to PDF - Formas con texto no convertido correctamente|Insecto|
 |CELLSJAVA-43133|Chart.toImage no incluye etiquetas de datos en la imagen de salida|Insecto|
 |CELLSJAVA-43138|Imagen generada con problema de renderizado.|Insecto|
 |CELLSJAVA-43151|Cambios de estilo después de la conversión del archivo XLS|Insecto|
 |CELLSJAVA-43162|Representación de Excel a HTML: el proceso de conversión lleva mucho tiempo|Insecto|
-|CELLSJAVA-43164|La conversión de HTML a Excel no conserva los formatos de texto enriquecido en la salida|Insecto|
-|CELLSJAVA-43166|El texto girado no se representa correctamente en la conversión de XLSX a HTML|Insecto|
-|CELLSJAVA-43178|Los formatos RichText se pierden al exportar el archivo a HTML|Insecto|
-|CELLSJAVA-43165|Cadena "20TT1" reemplazada con el número 43850 durante la conversión de CSV a XLSB|Insecto|
+|CELLSJAVA-43164|HTML a la conversión de Excel que no conserva los formatos de texto enriquecido en la salida|Insecto|
+|CELLSJAVA-43166|El texto girado no se representa correctamente en la conversión XLSX a HTML|Insecto|
+|CELLSJAVA-43178|Los formatos de RichText se pierden al exportar el archivo a HTML|Insecto|
+|CELLSJAVA-43165|Cadena "20TT1" reemplazada con el número 43850 durante la conversión CSV a XLSB|Insecto|
 |CELLSJAVA-43026|Después de representar el gráfico en una imagen, las etiquetas de datos cambian el estilo y los valores no son los mismos|Insecto|
 |CELLSJAVA-43154|Algunos puntos del gráfico se superponen por etiqueta|Insecto|
 |CELLSJAVA-43089|El gráfico de radar está invertido y los valores de los ejes no son idénticos al gráfico original en la conversión de XLS a PDF|Insecto|
 |CELLSJAVA-43171|El documento se rompe después de copiar las hojas.|Insecto|
 |CELLSJAVA-43172|Un problema con los marcadores inteligentes en las celdas combinadas|Insecto|
-|CELLSJAVA-43180|Conversión de HTML a Excel creando salida de hoja de cálculo negra|Insecto|
+|CELLSJAVA-43180|HTML a conversión de Excel creando salida de hoja de cálculo negra|Insecto|
 |CELLSJAVA-43181|Hay una diferencia en la altura de la fila al convertir Excel a HTML|Insecto|
 |CELLSJAVA-43188|El estilo de color de fondo no se conserva durante la conversión de HTML a Excel|Insecto|
 |CELLSJAVA-43196|Hay una cantidad diferente de módulos VBA detectados usando Aspose.Cells for Java 20.4 y 20.5|Insecto|
 |CELLSJAVA-43202|Los recursos no se liberan al finalizar la creación del libro de trabajo|Insecto|
 |CELLSJAVA-43203|No se pueden procesar algunas listas de validación de Excel basadas en rangos con nombre con nombres Unicode|Insecto|
-|CELLSJAVA-43185|La calidad JPEG siempre es 75 en setImageResample en Linux|Insecto|
+|CELLSJAVA-43185|JPEG la calidad siempre es 75 en setImageResample en Linux|Insecto|
 |CELLSJAVA-43192|Cargue la carpeta de fuentes /Sistema/Biblioteca/Fuentes en macOS de forma predeterminada|Insecto|
 |CELLSJAVA-43157|El color de la serie de datos personalizados no se conserva al crear un gráfico de cascada|Insecto|
 |CELLSJAVA-43175|Un problema con el nombre de la serie de gráficos al hacer referencia a un libro de trabajo a otros libros de trabajo|Insecto|
@@ -49,7 +49,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43149|Se generó una excepción al guardar XLSM después de eliminar la hoja de trabajo|Excepción|
 |CELLSJAVA-43150|Excepción "java.lang.NumberFormatException" en la carga de archivos|Excepción|
 |CELLSJAVA-43183|Excepción "ClassCastException: ...." al calcular la tabla dinámica|Excepción|
-|CELLSJAVA-43177|El nuevo libro de trabajo con archivo CSV da como resultado "java.lang.IndexOutOfBoundsException: milisegundo"|Excepción|
+|CELLSJAVA-43177|El nuevo libro de trabajo con el archivo CSV da como resultado "java.lang.IndexOutOfBoundsException: milisegundo"|Excepción|
 |CELLSJAVA-43168|Excepción "IllegalStateException: este no es un archivo de almacenamiento estructurado" al fusionar archivos de Excel|Excepción|
 |CELLSJAVA-43179|Excepción NumberFormatException: Para la cadena de entrada: "preservar"|Excepción|
 |CELLSJAVA-43182|Excepción 'lang.IllegalStateException: codificación no válida: nulo' al cargar el archivo XLS|Excepción|

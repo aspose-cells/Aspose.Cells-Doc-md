@@ -14,7 +14,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-2-0/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Одновременное чтение значений Cells в многопоточной среде](http://aspose.com/docs/display/cellsnet/Reading+Cells+Values+in+Multiple+Threads+Simultaneously) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей о[Одновременное чтение значений Cells в многопоточной среде](http://aspose.com/docs/display/cellsnet/Reading+Cells+Values+in+Multiple+Threads+Simultaneously) для дополнительной информации.
 
 {{% /alert %}}
 ## **Добавлены перегрузки для методов AutoFitRows и AutoFitColumns.**

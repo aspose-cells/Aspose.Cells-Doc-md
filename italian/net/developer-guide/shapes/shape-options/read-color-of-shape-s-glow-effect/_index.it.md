@@ -10,11 +10,11 @@ url: /it/net/read-color-of-shape-s-glow-effect/
 
 ## Leggi il colore dell'effetto bagliore della forma
 
- Si prega di vedere il seguente codice di esempio e il suo[file excel di origine](22774108.xlsx) l'output della console come riferimento. Lo screenshot seguente mostra l'effetto bagliore della forma all'interno del file Excel di origine quando viene visualizzato in Microsoft Excel.
+ Si prega di vedere il seguente codice di esempio e il suo[file excel di origine](22774108.xlsx) l'output della console come riferimento. Lo screenshot seguente mostra l'effetto bagliore della forma all'interno del file excel di origine quando viene visualizzato in Microsoft Excel.
 
 ![cose da fare:immagine_alt_testo](read-color-of-shape-s-glow-effect_1.png)
 
-## Codice C# per leggere il colore dell'effetto bagliore delle forme
+## C# codice per leggere il colore delle forme effetto bagliore
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadColorOfShapesGlowEffect.cs" >}}
 

@@ -10,24 +10,24 @@ url: /fr/java/aspose-cells-for-java-21-4-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43396|La conversion d'une feuille Excel en fichier texte supprime le guillemet simple du début|
 |CELLSJAVA-43386|Le tri ne fonctionne pas lorsque les données contiennent des caractères non alphanumériques|
-|CELLSJAVA-43403|Placement du texte décalé vers la gauche lors de l'enregistrement au format HTML|
+|CELLSJAVA-43403|Placement du texte décalé vers la gauche lors de l'enregistrement sous HTML|
 |CELLSJAVA-43421|Les caractères d'échappement et de saut de ligne ne sont pas correctement rendus lors de la conversion de HTML en Excel|
 |CELLSJAVA-43427|Format conditionnel avec barres de données Afficher les valeurs dans l'exportation HTML|
-|CELLSJAVA-43428| Le format comptable combiné à une police de 6 points déforme les nombres en HTML|
-|CELLSJAVA-43429|Le texte avec alignement vertical du texte disparaît en HTML|
+|CELLSJAVA-43428| Le format comptable combiné à la police 6 points déforme les chiffres en HTML|
+|CELLSJAVA-43429|Le texte avec alignement vertical du texte disparaît dans HTML|
 |CELLSJAVA-43407|Les formules Excel sont ignorées/modifiées après l'enregistrement du fichier|
-|CELLSJAVA-43419| Le format numérique personnalisé ne s'affiche pas correctement dans le PDF|
+|CELLSJAVA-43419| Le format de nombre personnalisé ne s'affiche pas correctement dans PDF|
 |CELLSJAVA-43374|Les étiquettes de graphique se répètent lors de la conversion des fichiers Excel joints en PDF|
 |CELLSJAVA-43409| Des étiquettes de données inattendues sont apparues dans l'image de sortie du graphique|
 |CELLSJAVA-43411|Les avertissements de substitution de police ne fonctionnent pas dans la conversion de graphique en image|
 |CELLSJAVA-43414|Problème de conversion xls vers pdf|
 |CELLSJAVA-43425|En-tête-pied de page non disponible sur la première page lors de l'exportation vers Excel|
 |CELLSJAVA-43432|Le contenu du graphique ne correspond pas lors de la ré-enregistrement d'un format de fichier XLS|
-|CELLSJAVA-43433|L'image référencée n'est pas rendue au format PDF|
+|CELLSJAVA-43433|L'image référencée n'est pas rendue dans PDF|
 |CELLSJAVA-43434|La formule dynamique SmartMarker a un mauvais style de cellule en expansion|
 |CELLSJAVA-43435| La formule dynamique des marqueurs intelligents insère des cellules en fonction de la colonne développée à gauche, mais pas en fonction des colonnes de la formule|
 |CELLSJAVA-43417|Exception déclenchée lors de l'ouverture de XLSX à partir d'un fichier volumineux|

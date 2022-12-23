@@ -286,7 +286,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **ListObjects için destek**
- Bir Excel tablosu, herhangi bir sayıda satır ve sütun içeren bir hücre matrisidir, oysa aynı tablo, Aspose.Cells for C++ API'lerinde Liste Nesnesi olarak anılır. Aspose::Cells::Tables ad alanı, Liste Nesneleriyle ilgili işlemlerle ilgilenen tüm gerekli sınıfları içerir. En çok bahsetmeye değer sınıflar, izin veren IListObject ve IListObjectCollection'dır.[Liste Nesneleri oluşturma ve biçimlendirme](/cells/tr/cpp/create-and-format-table/) ve benzeri.
+ Bir Excel tablosu, herhangi bir sayıda satır ve sütun içeren bir hücre matrisidir, oysa aynı tablo, Aspose.Cells for C++ API'lerinde Liste Nesnesi olarak anılır. Aspose::Cells::Tables ad alanı, Liste Nesneleriyle ilgili işlemlerle ilgilenen tüm gerekli sınıfları içerir. En çok bahsetmeye değer sınıflar, izin veren IListObject ve IListObjectCollection'dır.[Liste Nesneleri oluşturma ve biçimlendirme](/cells/tr/cpp/create-and-format-table/) ve bunun gibi.
 
 Aşağıdaki örnek kod, örnek elektronik tablo dosyasını yükler ve ardından A1:H10 aralığında bir Liste Nesnesi (tablo) oluşturur, ardından alt toplamı göstermek için bunun çeşitli yöntemlerinden yararlanır.
 

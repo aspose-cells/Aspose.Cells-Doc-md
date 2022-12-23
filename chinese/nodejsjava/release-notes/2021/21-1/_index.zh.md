@@ -13,17 +13,17 @@ url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-21-1-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-43375|检查 Excel VBA 密码|
-|CELLSJAVA-43371|XLSX 到 PDF 的转换挂起|
+|CELLSJAVA-43371|XLSX 到 PDF 转换挂起|
 |CELLSJAVA-43353|excel 上的不同图表到 pdf|
 |CELLSJAVA-43377|将 Excel 转换为 Html 时出现图像放置问题|
 |CELLSJAVA-43381|DAYS函数计算错误|
 |CELLSJAVA-43342|组合图表无法在 excel 到 pdf 中正确显示|
 |CELLSJAVA-43354|百分比未显示在小直方图中|
 |CELLSJAVA-40264|保存为 EXCEL 时表单控件或 ActiveX 控件出错_97_TO_2003|
-|CELLSJAVA-43372|将 ODS 转换为 XLSX 时创建损坏的文件|
+|CELLSJAVA-43372|将 ODS 转换为 XLSX 时创建了损坏的文件|
 |CELLSJAVA-43378|克隆工作簿后显示为空白从 true 变为 false|
-|CELLSJAVA-43379|将工作簿另存为 HTML 时出现异常|
-|CELLSJAVA-43376|加载 XLSX 文件时出现异常“java.lang.ClassCastException：int 到字节转换溢出。int 值：144”|
+|CELLSJAVA-43379|将工作簿保存为 HTML 时引发异常|
+|CELLSJAVA-43376|加载 XLSX 文件时出现异常“java.lang.ClassCastException：溢出到字节转换。int 值：144”|
 
 ## **公共 API 和向后不兼容的更改**
 

@@ -1,12 +1,12 @@
 ﻿---
-title: تقديم صفحة PDF واحدة لكل ورقة عمل Excel - تحويل Excel إلى PDF
+title: تقديم واحد PDF صفحة لكل ورقة عمل Excel - تحويل Excel إلى PDF
 type: docs
 weight: 40
 url: /ar/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-عند العمل باستخدام ملفات Excel كبيرة Microsoft (على سبيل المثال ، مصنف يحتوي على العديد من الأوراق ، كل منها يحتوي على 50 عمودًا و 300 صف أو أكثر من البيانات) ، قد ترغب في أن يُظهر إخراج PDF صفحة واحدة لكل ورقة عمل ، بغض النظر عن حجم ورقة العمل . قد يعني هذا أنه من المحتمل أن يكون لكل صفحة حجم صفحة مختلف تمامًا. يمكن تحقيق ذلك باستخدام Aspose.Cells for Java.
+عند العمل باستخدام ملفات Excel كبيرة Microsoft (على سبيل المثال ، مصنف يحتوي على العديد من الأوراق ، كل منها يحتوي على 50 عمودًا و 300 صف أو أكثر من البيانات) ، قد ترغب في أن يعرض إخراج PDF صفحة واحدة لكل ورقة عمل ، بغض النظر عن حجم ورقة العمل . قد يعني هذا أنه من المحتمل أن يكون لكل صفحة حجم صفحة مختلف تمامًا. يمكن تحقيق ذلك باستخدام Aspose.Cells for Java.
 
 {{% /alert %}}
 
@@ -16,10 +16,10 @@ url: /ar/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}}
 
- إذا كان[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) تم تعيين الخيار إلى**حقيقي** ، يتم تقديم كل محتويات الورقة إلى صفحة PDF واحدة. تم تحديد حجم الورق بواسطة[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) غير صالح ، لكن الإعدادات الأخرى التي تم ضبطها باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)لا يزال ساري المفعول.
+ إذا كان[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) تم تعيين الخيار إلى**حقيقي** ، يتم تحويل كافة محتويات الورقة إلى صفحة PDF واحدة. تم تحديد حجم الورق بواسطة[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) غير صالح ، لكن الإعدادات الأخرى التي تم ضبطها باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)لا يزال ساري المفعول.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) فقط قبل تحويل جدول البيانات إلى PDF. يضمن ذلك إعادة حساب القيم التابعة للصيغة ، وتجسيد القيم الصحيحة في ملف PDF.
+ إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء[**مصنف .calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل تحويل جدول البيانات إلى PDF. هذا يضمن إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

@@ -30,7 +30,7 @@ Seçili olan sayfayı kaldırmak için:
 
 Halihazırda seçili olan sayfa kaldırılacak ve düzenleyici son seçilen sayfaya geçecektir.
 
-![yapılacaklar:resim_alternatif_Metin](4wgvmu8.png)
+![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
 
 **Nasıl çalışır?**
 
@@ -106,7 +106,7 @@ Bir sayfayı yeniden adlandırmak için:
 
 Sayfa yeniden adlandırılacak.
 
-![yapılacaklar:resim_alternatif_Metin](4wgvmu8.png)
+![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
 
 **Nasıl çalışır?**
 
@@ -143,7 +143,7 @@ Başka bir sayfaya geçmek için:
 
 Düzenleyici seçilen sayfaya geçiş yapacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](4wgvmu8.png)
+![yapılacaklar:resim_alternatif_metin](4wgvmu8.png)
 
 **Nasıl çalışır?**
 

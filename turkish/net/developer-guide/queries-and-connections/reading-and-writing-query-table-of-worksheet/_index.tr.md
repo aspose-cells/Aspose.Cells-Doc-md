@@ -40,6 +40,6 @@ Preserve Formatting: False
 
 ## Sorgu tablosu sonuç aralığını al
 
- Aspose.Cells, bir sorgu tablosu için adresi, yani sonuç hücre aralığını okuma seçeneği sunar. Aşağıdaki kod, bir sorgu tablosu için sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosya indirilebilir[burada](72417290.xlsx).
+ Aspose.Cells, bir sorgu tablosu için adresi, yani sonuç hücre aralığını okuma seçeneği sunar. Aşağıdaki kod, bir sorgu tablosu için sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosya indirilebilir[Burada](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

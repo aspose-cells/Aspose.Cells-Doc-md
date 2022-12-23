@@ -1,5 +1,5 @@
 ﻿---
-title: المرجعي
+title: مرجع
 type: docs
 weight: 60
 url: /ar/reportingservices/reference/

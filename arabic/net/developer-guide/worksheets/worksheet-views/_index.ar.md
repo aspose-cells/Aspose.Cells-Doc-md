@@ -3,6 +3,7 @@ title: طرق عرض ورقة العمل
 type: docs
 weight: 40
 url: /ar/net/worksheet-views/
+description:  ستصف هذه المقالة كيفية استخدام C# و .NET API للتفاعل مع معاينة فاصل الصفحات لمصنف وأوراق عمل Excel. اعمل مع الأجزاء المنقسمة والأجزاء المجمدة وعامل التكبير أيضًا.
 ---
 ## **معاينة فاصل الصفحة**
 
@@ -17,19 +18,19 @@ url: /ar/net/worksheet-views/
 
 يوفر Aspose.Cells أ[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتمكين أوضاع المعاينة العادية أو أوضاع معاينة فاصل الصفحة ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) منشأه.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) هي خاصية منطقية ، مما يعني أنه يمكنها فقط تخزين ملف**حقيقي** أو أ**خاطئة** القيمة.
+ يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتمكين أوضاع المعاينة العادية أو أوضاع معاينة فاصل الصفحة ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) خاصية.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) هي خاصية منطقية ، مما يعني أنه يمكنها فقط تخزين ملف**حقيقي** أو أ**خاطئة** القيمة.
 
 #### **تمكين العرض العادي**
 
- قم بتعيين ورقة عمل إلى العرض العادي عن طريق تعيين ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) الملكية ل**خاطئة**.
+ قم بتعيين ورقة عمل إلى العرض العادي عن طريق تعيين ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ملكية ل**خاطئة**.
 
 #### **تمكين معاينة فاصل الصفحة**
 
- قم بتعيين أي ورقة عمل لمعاينة فاصل الصفحة عن طريق تعيين ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) الملكية ل**حقيقي**يؤدي القيام بذلك إلى تبديل ورقة العمل من العرض العادي إلى معاينة فاصل الصفحة.
+ قم بتعيين أي ورقة عمل لمعاينة فاصل الصفحة عن طريق تعيين ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ملكية ل**حقيقي**يؤدي القيام بذلك إلى تبديل ورقة العمل من العرض العادي إلى معاينة فاصل الصفحة.
 
  ويرد أدناه مثال كامل يوضح كيفية استخدام[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)الخاصية لتمكين وضع معاينة فاصل الصفحة لورقة العمل الأولى لملف Excel.
 
-يتم فتح ملف book1.xls عن طريق إنشاء مثيل لملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي. يتم تبديل طريقة العرض إلى معاينة فاصل الصفحة لورقة العمل الأولى عن طريق تعيين ملف[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)الملكية ل**حقيقي**. يتم حفظ الملف المعدل كملف output.xls.
+يتم فتح ملف book1.xls عن طريق إنشاء مثيل لملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي. يتم تبديل طريقة العرض إلى معاينة فاصل الصفحة لورقة العمل الأولى عن طريق تعيين ملف[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)ملكية ل**حقيقي**. يتم حفظ الملف المعدل كملف output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
@@ -44,7 +45,7 @@ url: /ar/net/worksheet-views/
 Aspose.Cells يسمح للمطورين بتعيين عامل تكبير ورقة العمل.
 يوفر Aspose.Cells أ[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)مجموعة تسمح بالوصول إلى كل ورقة عمل في ملف Excel.
 
- يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتعيين عامل التكبير / التصغير الخاص بورقة العمل ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)منشأه. يتم تعيين عامل التكبير / التصغير عن طريق تعيين قيمة رقمية (عدد صحيح) لملف[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) منشأه.
+ يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتعيين عامل التكبير / التصغير الخاص بورقة العمل ، استخدم ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)خاصية. يتم تعيين عامل التكبير / التصغير عن طريق تعيين قيمة رقمية (عدد صحيح) لملف[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) خاصية.
 
 ويرد أدناه مثال كامل يوضح كيفية استخدام[**تكبير**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) لتعيين عامل التكبير / التصغير الخاص بورقة العمل الأولى لملف Excel.
 
@@ -67,11 +68,11 @@ Aspose.Cells يسمح للمطورين بتطبيق ألواح التجميد ع
 يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتكوين أجزاء التجميد ، اتصل بفئة ورقة العمل '[**أجزاء التجميد**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)طريقة. ال[**أجزاء التجميد**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)تأخذ الطريقة المعلمات التالية:
 
 - **صف**، فهرس صف الخلية الذي سيبدأ التجميد منه.
-- **عمودي**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
+- **عمود**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
 - **صفوف مجمدة**، عدد الصفوف المرئية في الجزء العلوي.
 - **أعمدة مجمدة**، عدد الأعمدة المرئية في الجزء الأيمن
 
-يتم فتح ملف book1.xls عن طريق استدعاء ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)منشئ class أثناء إنشائه وتم تجميد عدد قليل من الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
+ يتم فتح ملف book1.xls عن طريق استدعاء ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)منشئ class أثناء إنشائه وتم تجميد عدد قليل من الصفوف والأعمدة في ورقة العمل الأولى. يتم حفظ الملف المعدل كملف output.xls.
 
  ويرد أدناه مثال كامل يوضح كيفية استخدام ملف[**أجزاء التجميد**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)طريقة لتجميد الصفوف والأعمدة (بدءًا من C4 ، ممثلة بالصف الرابع والعمود الثالث ، حيث تبدأ الصفوف والأعمدة من فهرس 0) من ورقة العمل الأولى من ملف Excel.
 

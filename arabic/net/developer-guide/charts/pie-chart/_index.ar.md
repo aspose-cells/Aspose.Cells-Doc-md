@@ -7,7 +7,7 @@ url: /ar/net/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
- تشرح هذه المقالة كيفية إنشاء مخطط دائري بخطوط سابقة من البداية أثناء استخدام Aspose.Cells for .NET API. في Excel ، يتم تعيين الخيار "إظهار الخطوط البادئة" افتراضيًا ، لذلك عند إنشاء مخطط دائري في Excel ، تظهر الخطوط البادئة. ومع ذلك ، أثناء إنشاء مخطط مشابه باستخدام واجهات برمجة تطبيقات Aspose.Cells ، يجب عليك تعيين ملف[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) منشأه.
+ تشرح هذه المقالة كيفية إنشاء مخطط دائري بخطوط سابقة من البداية أثناء استخدام Aspose.Cells for .NET API. في Excel ، يتم تعيين الخيار "إظهار الخطوط البادئة" افتراضيًا ، لذلك عند إنشاء مخطط دائري في Excel ، تظهر الخطوط البادئة. ومع ذلك ، أثناء إنشاء مخطط مشابه باستخدام واجهات برمجة تطبيقات Aspose.Cells ، يجب عليك تعيين ملف[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) خاصية.
 
 {{% /alert %}}
 
@@ -21,7 +21,7 @@ url: /ar/net/creating-pie-chart-with-leader-lines/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-TurnOnLeaderLines.cs" >}}
 
-أخيرًا ، يحفظ الكود التالي الرسم البياني بتنسيق الصورة والمصنف بتنسيق XLSX.
+أخيرًا ، يحفظ الكود التالي المخطط بتنسيق صورة والمصنف بتنسيق XLSX.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-SaveChartInImageAndWorkbookInXLSX.cs" >}}
 

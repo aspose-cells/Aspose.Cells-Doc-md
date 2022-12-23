@@ -14,7 +14,7 @@ Aşağıdaki kod örnekleri, bunun önce C# veya Visual Basic kullanılarak VSTO
 
 Bu makaledeki kod örnekleri, aşağıdaki ekran görüntüsündeki gibi yinelenen bir arka plan görüntüsüne sahip bir çalışma sayfası oluşturur.
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 Çalışma sayfası için bir arka plan ayarlandı.
 

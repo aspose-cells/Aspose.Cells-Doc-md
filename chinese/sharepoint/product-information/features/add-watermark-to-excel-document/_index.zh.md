@@ -6,4 +6,4 @@ url: /zh/sharepoint/add-watermark-to-excel-document/
 ---
 Aspose.Cells for SharePoint 支持Excel表格添加水印。
 
-![待办事项：图像_替代_文本](add-watermark-to-excel-document_1.png)
+![待办事项：图片_替代_文本](add-watermark-to-excel-document_1.png)

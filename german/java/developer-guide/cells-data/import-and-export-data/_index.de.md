@@ -24,7 +24,7 @@ Wenn Sie eine Excel-Datei mit Aspose.Cells öffnen, werden alle Daten in der Dat
 
 - [Array](/cells/de/java/import-and-export-data/).
 - [Anordnungsliste](/cells/de/java/import-and-export-data/).
-- [Ergebnissatz](/cells/de/java/import-and-export-data/).
+- [Ergebnismenge](/cells/de/java/import-and-export-data/).
 - [JSON](/cells/de/java/import-and-export-data/)
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält die Sammlung[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse bietet a[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) Sammlung.[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells)Collection bietet sehr nützliche Methoden zum Importieren von Daten aus anderen Datenquellen. In diesem Artikel wird erläutert, wie diese Methoden verwendet werden können.
@@ -50,7 +50,7 @@ Wenn Sie eine Excel-Datei mit Aspose.Cells öffnen, werden alle Daten in der Dat
 
  Zum Importieren von Daten aus einer*Anordnungsliste* zu Arbeitsblättern rufen Sie die auf[**ArrayListe importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean) ) Methode der[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) Sammlung. Das[**ArrayListe importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importArrayList(java.util.ArrayList,%20int,%20int,%20boolean))-Methode nimmt die folgenden Parameter an:
 
-- **Anordnungsliste** , das*Anordnungsliste*Objekt, dessen Inhalt importiert wird.
+- **Anordnungsliste** , Die*Anordnungsliste*Objekt, dessen Inhalt importiert wird.
 - **Zeilennummer**, die Zeilennummer der ersten Zelle des Zellbereichs, aus dem Inhalte importiert werden.
 - **Spaltennummer**, die Spaltennummer der ersten Zelle, aus der Daten importiert werden.
 - **ist vertikal**ist ein boolescher Wert, der angibt, ob Daten vertikal oder horizontal importiert werden.
@@ -63,9 +63,9 @@ Verwenden Sie zum Importieren von Daten aus einer Sammlung von Objekten in ein A
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ImportingFromArrayList-ImportingFromArrayList.java" >}}
 
-#### Importieren von Daten aus JSON
+#### Importieren von Daten von JSON
 
- Aspose.Cells bietet eine[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) Klasse zur Verarbeitung von JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) Klasse hat eine[**Daten importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) )-Methode zum Importieren von JSON-Daten. Aspose.Cells bietet auch eine[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Klasse, die die Optionen des JSON-Layouts darstellt. Das[**Daten importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) Methode akzeptiert[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) als Parameter. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) Klasse bietet die folgenden Eigenschaften.
+ Aspose.Cells bietet eine[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) Klasse für die Verarbeitung JSON.[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility) Klasse hat eine[**Daten importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) )-Methode zum Importieren von JSON-Daten. Aspose.Cells bietet auch eine[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Klasse, die die Optionen des JSON-Layouts darstellt. Das[**Daten importieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) ) Methode akzeptiert[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) als Parameter. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions) Klasse bietet die folgenden Eigenschaften.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable): Gibt an, ob das Array als Tabelle verarbeitet werden soll oder nicht.
 - [**ConvertNumericOderDate**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate): Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob die Zeichenfolge in JSON in eine Zahl oder ein Datum konvertiert werden soll.

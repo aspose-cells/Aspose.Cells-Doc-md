@@ -69,7 +69,7 @@ url: /ar/java/named-ranges/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-InputDataInCellsInRange-InputDataInCellsInRange.java" >}}
 #### **نطاقات التنسيق ... تعيين لون الخلفية وخصائص الخط إلى نطاق مسمى**
- لتطبيق التنسيق ، حدد ملف[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/style) لتحديد إعدادات النمط وتطبيقه على ملف[نطاق](https://reference.aspose.com/cells/java/com.aspose.cells/range)هدف.
+ لتطبيق التنسيق ، حدد ملف[أسلوب](https://reference.aspose.com/cells/java/com.aspose.cells/style) لتحديد إعدادات النمط وتطبيقه على ملف[نطاق](https://reference.aspose.com/cells/java/com.aspose.cells/range)موضوع.
 
 يوضح المثال التالي كيفية تعيين لون تعبئة خالص (لون التظليل) باستخدام إعدادات الخط إلى نطاق.
 

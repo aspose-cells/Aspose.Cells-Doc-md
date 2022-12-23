@@ -36,7 +36,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43933) - Cell. La fórmula puede aceptar una fórmula no válida y API intenta corregirla
 
- (CELLSNET-43476) - API necesario para verificar si la licencia está cargada o no
+(CELLSNET-43476) - API necesario para verificar si la licencia está cargada o no
 
  (CELLSNET-43310) - Cambio de nombre de hojas de trabajo duplicadas al combinar libros de trabajo
 
@@ -48,31 +48,31 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43946) - Cell.HtmlString devuelve una cadena que representa la cadena normal como subíndice
 
-(CELLSNET-43941) - El gráfico no se genera correctamente
+ (CELLSNET-43941) - El gráfico no se genera correctamente
 
  (CELLSNET-43936): muestra las claves de la leyenda incluso si Chart.ChartDataTable.ShowLegendKey está establecido en false
 
- (CELLSNET-43991): la eliminación de las hojas de trabajo daña el XLSX resultante.
+ (CELLSNET-43991): la eliminación de las hojas de trabajo daña el XLSX resultante
 
- (CELLSNET-43988) - La contraseña para modificar se pierde cuando XLSX se vuelve a guardar con Aspose.Cells
+ (CELLSNET-43988) - La contraseña para modificar se pierde cuando se vuelve a guardar XLSX con Aspose.Cells
 
- (CELLSNET-43984): la contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLSM
+ (CELLSNET-43984) - La contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLSM
 
  (CELLSNET-43983): la contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLSX
 
- (CELLSNET-43982) - La contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLTM
+ (CELLSNET-43982): la contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLTM
 
- (CELLSNET-43981) - La contraseña para modificar se pierde cuando se vuelve a guardar XLTM
+(CELLSNET-43981) - La contraseña para modificar se pierde cuando se vuelve a guardar XLTM
 
  (CELLSNET-43980) - La contraseña para modificar se convierte en contraseña para abrir cuando se vuelve a guardar XLTX
 
  (CELLSNET-43979): la fuente SetStyle no se aplica a ciertas fuentes
 
- (CELLSNET-43977) - La contraseña para modificar se pierde cuando XLTX se vuelve a guardar con Aspose.Cells
+ (CELLSNET-43977) - La contraseña para modificar se pierde cuando se vuelve a guardar XLTX con Aspose.Cells
 
- (CELLSNET-43976) - Múltiples intentos de abrir XLSX protegido con contraseña
+ (CELLSNET-43976) - Múltiples intentos para abrir protegido por contraseña XLSX
 
-(CELLSNET-43973) - La contraseña para modificar se pierde después de volver a guardar XLSM
+ (CELLSNET-43973) - La contraseña para modificar se pierde después de volver a guardar XLSM
 
  (CELLSNET-43968): la aplicación de Excel recomienda abrir el XLSB resultante en modo de solo lectura
 
@@ -86,7 +86,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43950): problemas de identificación de protección en Aspose.Cells
 
- (CELLSNET-43944) - El tamaño de la imagen no es correcto y cambia después del reinicio
+(CELLSNET-43944) - El tamaño de la imagen no es correcto y cambia después del reinicio
 
  (CELLSNET-43943): no se puede leer el superíndice del carácter de la celda.
 
@@ -96,7 +96,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43928): el valor del autor de la propiedad del documento se lee incompleto
 
-(CELLSNET-43927) - #REF en la fórmula que hace referencia al objeto de lista en otra hoja de trabajo
+ (CELLSNET-43927) - #REF en la fórmula que hace referencia al objeto de lista en otra hoja de trabajo
 
  (CELLSNET-43891): problema de las operaciones Workbook.VBAProject.Modules
 
@@ -110,11 +110,11 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Excepciones**
 
 
- (CELLSNET-43932) - ¡Error de forma a imagen! al renderizar una hoja de cálculo a PDF
+ (CELLSNET-43932) - ¡Error de forma a imagen! mientras renderiza una hoja de cálculo al PDF
 
  (CELLSNET-43964): obtener el estilo de visualización de todas las celdas arroja una excepción IndexOutOfRangeException
 
- (CELLSNET-43926) - CellsException en Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException en Workbook.CalculateFormula
 
  (CELLSNET-43911) - CellsException en Workbook. Guardar
 
@@ -124,7 +124,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -138,7 +138,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Mejoras**
 
 
-(CELLSNET-43873) - Código antiguo en - Formateo de un rango de Cells - El artículo no funciona
+ (CELLSNET-43873) - Código antiguo en - Formateo de un rango de Cells - El artículo no funciona
 
 
 ## **Insectos**
@@ -154,7 +154,7 @@ url: /es/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43952) - Falta LoadValueList API en la clase Aspose.Cells.GridWeb.Validation
 
- (CELLSNET-43859) - Cell lleno de color amarillo no se exporta al archivo XLSX
+(CELLSNET-43859) - Cell lleno de color amarillo no se exporta al archivo XLSX
 
 
 ## **Public API y cambios incompatibles con versiones anteriores**

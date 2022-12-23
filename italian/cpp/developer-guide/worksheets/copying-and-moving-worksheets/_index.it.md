@@ -12,7 +12,7 @@ Aspose.Cells supporta la copia e lo spostamento di fogli di lavoro all'interno o
 
 {{% /alert %}} 
 ## **Spostare o copiare fogli utilizzando Microsoft Excel**
-Di seguito sono riportati i passaggi necessari per copiare e spostare fogli di lavoro all'interno o tra cartelle di lavoro in Microsoft Excel.
+Di seguito sono riportati i passaggi necessari per copiare e spostare i fogli di lavoro all'interno o tra le cartelle di lavoro in Microsoft Excel.
 
 1. Per spostare o copiare fogli in un'altra cartella di lavoro, apri la cartella di lavoro che riceverà i fogli.
 1. Passare alla cartella di lavoro che contiene i fogli che si desidera spostare o copiare e quindi selezionare i fogli.

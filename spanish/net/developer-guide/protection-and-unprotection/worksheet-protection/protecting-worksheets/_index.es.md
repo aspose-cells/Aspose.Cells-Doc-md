@@ -24,15 +24,15 @@ Las hojas de trabajo protegidas no ocultan ni protegen datos confidenciales, por
 
 ### **Proteger una hoja de trabajo**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
 
- los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Proteger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) método que se utiliza para aplicar protección en la hoja de trabajo.[**Proteger**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) método acepta los siguientes parámetros:
+ Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Proteger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) método que se utiliza para aplicar protección en la hoja de trabajo.[**Proteger**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) método acepta los siguientes parámetros:
 
 -  Tipo de protección, el tipo de protección que se aplicará en la hoja de trabajo. El tipo de protección se aplica con la ayuda del[**Tipo de protección**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)enumeración.
 - Nueva contraseña, la nueva contraseña utilizada para proteger la hoja de trabajo.
 - Old Password, la contraseña anterior, si la hoja de trabajo ya está protegida con contraseña. Si la hoja de trabajo aún no está protegida, simplemente pase nulo.
 
- los[**Tipo de protección**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)La enumeración contiene los siguientes tipos de protección predefinidos:
+ Él[**Tipo de protección**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)La enumeración contiene los siguientes tipos de protección predefinidos:
 
 |**Tipos de protección**|**Descripción**|
 |:- |:- |
@@ -42,7 +42,7 @@ Las hojas de trabajo protegidas no ocultan ni protegen datos confidenciales, por
 |Escenarios|El usuario no puede modificar los escenarios guardados|
 |Estructura|El usuario no puede modificar la estructura.|
 |Windows|La protección se aplica a las ventanas.|
-|Ninguna|No se aplica protección|
+|Ninguno|No se aplica protección|
 
 El siguiente ejemplo muestra cómo proteger una hoja de trabajo con una contraseña.
 
@@ -54,7 +54,7 @@ Después de usar el código anterior para proteger la hoja de trabajo, puede ver
 |:- |
 |![todo:imagen_alternativa_texto](protecting-worksheets_1.png)|
 
-Para trabajar en la hoja de trabajo, desproteja la hoja de trabajo seleccionando el**Proteccion** , después**Desproteger hoja** desde el**Instrumentos** opción del menú.
+Para trabajar en la hoja de trabajo, desproteja la hoja de trabajo seleccionando el**Proteccion** , después**Desproteger hoja** desde el**Herramientas** opción del menú.
 
 Después de seleccionar el elemento de menú Desproteger hoja, se abrirá un cuadro de diálogo que le pedirá que ingrese la contraseña para que pueda trabajar en la hoja de trabajo como se muestra a continuación:
 
@@ -69,24 +69,24 @@ Los siguientes puntos describen cómo bloquear algunas celdas usando MS Excel. E
 1.  Seleccione toda la hoja de trabajo haciendo clic en el**Seleccionar todo** (el rectángulo gris directamente encima del número de fila para la fila 1 y a la izquierda de la letra A de la columna).
 1.  Hacer clic**Cells** sobre el**Formato** menú, haga clic en el**Proteccion** ficha y, a continuación, borre la**bloqueado** caja.
  Esto desbloquea todas las celdas en la hoja de cálculo.
- Si el**Cells** El comando no está disponible, es posible que partes de la hoja de trabajo ya estén bloqueadas. Sobre el**Instrumentos** menú, señale**Proteccion** y luego haga clic en**Desproteger hoja**.
+ Si el**Cells** El comando no está disponible, es posible que partes de la hoja de trabajo ya estén bloqueadas. Sobre el**Herramientas** menú, señale**Proteccion** y luego haga clic en**Desproteger hoja**.
 1.  Seleccione solo las celdas que desea bloquear y repita el paso 2, pero esta vez seleccione la**bloqueado** caja.
-1.  Sobre el**Instrumentos** menú, señale**Proteccion** , haga clic**hoja de protección** y luego haga clic**OK**.
+1.  Sobre el**Herramientas** menú, señale**Proteccion** , haga clic**hoja de protección** y luego haga clic**DE ACUERDO**.
 1.  En el**hoja de protección** cuadro de diálogo, tiene la opción de especificar una contraseña y seleccionar los elementos que desea que los usuarios puedan cambiar.
 
 ### **Proteja algunos Cells en la hoja de trabajo usando Aspose Cells**
 
 En este método, usamos Aspose.Cells API solo para realizar la tarea.
 
- Ejemplo: El siguiente ejemplo muestra cómo proteger algunas celdas en la hoja de cálculo. Primero desbloquea todas las celdas en la hoja de trabajo y luego bloquea 3 celdas (A1, B1, C1) en ella. Finalmente, protege la hoja de trabajo. los[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso y aplicar*Columna/Fila.ApplyStyle()* para bloquear o desbloquear la fila/columna con los atributos deseados.
+ Ejemplo: El siguiente ejemplo muestra cómo proteger algunas celdas en la hoja de cálculo. Primero desbloquea todas las celdas en la hoja de trabajo y luego bloquea 3 celdas (A1, B1, C1) en ella. Finalmente, protege la hoja de trabajo. Él[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style)objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso y aplicar*Columna/Fila.ApplyStyle()* para bloquear o desbloquear la fila/columna con los atributos deseados.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
 
 ### **Proteger una fila en la hoja de trabajo**
 
- Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de trabajo. Aquí, podemos hacer uso de[**AplicarEstilo()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) método de[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row) clase para aplicar[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) a una fila en particular en la hoja de trabajo. Este método toma dos argumentos: un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto y[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objeto que tiene todos los miembros relacionados con el formato aplicado.
+ Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de trabajo. Aquí, podemos hacer uso de[**AplicarEstilo()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) método de[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row) clase para aplicar[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) a una fila en particular en la hoja de cálculo. Este método toma dos argumentos: un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto y[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objeto que tiene todos los miembros relacionados con el formato aplicado.
 
- El siguiente ejemplo muestra cómo proteger una fila en la hoja de cálculo. Primero desbloquea todas las celdas de la hoja de trabajo y luego bloquea la primera fila. Finalmente, protege la hoja de trabajo. los[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso para bloquear o desbloquear la fila/columna usando el[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objeto.
+ El siguiente ejemplo muestra cómo proteger una fila en la hoja de cálculo. Primero desbloquea todas las celdas de la hoja de trabajo y luego bloquea la primera fila. Finalmente, protege la hoja de trabajo. Él[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso para bloquear o desbloquear la fila/columna usando el[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objeto.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
 
@@ -94,7 +94,7 @@ En este método, usamos Aspose.Cells API solo para realizar la tarea.
 
  Aspose.Cells le permite bloquear fácilmente cualquier columna en la hoja de trabajo. Aquí, podemos hacer uso de[**AplicarEstilo()**](https://reference.aspose.com/cells/net/aspose.cells/column/methods/applystyle) método de[**Aspose.Cells.Column**](https://reference.aspose.com/cells/net/aspose.cells/column) clase para aplicar[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) a una columna en particular en la hoja de trabajo. Este método toma dos argumentos: un[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto y[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objeto que tiene todos los miembros relacionados con el formato aplicado.
 
-El siguiente ejemplo muestra cómo proteger una columna en la hoja de cálculo. Primero desbloquea todas las celdas en la hoja de trabajo y luego bloquea la primera columna en ella. Finalmente, protege la hoja de trabajo. los[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso para bloquear o desbloquear la fila/columna usando el[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objeto.
+El siguiente ejemplo muestra cómo proteger una columna en la hoja de cálculo. Primero desbloquea todas las celdas en la hoja de trabajo y luego bloquea la primera columna en ella. Finalmente, protege la hoja de trabajo. Él[**Estilo**](https://reference.aspose.com/cells/net/aspose.cells/style) objeto contiene una propiedad booleana,[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Puedes configurar[**Está bloqueado**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propiedad a verdadero o falso para bloquear o desbloquear la fila/columna usando el[**Bandera de estilo**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objeto.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
 

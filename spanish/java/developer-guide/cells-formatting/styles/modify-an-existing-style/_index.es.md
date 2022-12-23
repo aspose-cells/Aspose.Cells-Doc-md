@@ -26,9 +26,9 @@ Para actualizar un estilo en Microsoft Excel 97-2003:
 1.  Seleccione el estilo que desea modificar de la**Nombre de estilo** lista.
 1.  Hacer clic**Modificar**.
 1. Seleccione las opciones de estilo que desee utilizando las pestañas del cuadro de diálogo Formato Cells.
-1.  Hacer clic**OK**.
-1.  Por debajo**El estilo incluye**, especifique las características de estilo que desee.
-1.  Hacer clic**OK** para guardar el estilo y aplicarlo al rango seleccionado.
+1.  Hacer clic**DE ACUERDO**.
+1.  Bajo**El estilo incluye**, especifique las características de estilo que desee.
+1.  Hacer clic**DE ACUERDO** para guardar el estilo y aplicarlo al rango seleccionado.
 
 ## **Usando Aspose.Cells**
 
@@ -36,7 +36,7 @@ Para actualizar un estilo en Microsoft Excel 97-2003:
 
  Para cambiar un estilo con nombre, ya sea creado dinámicamente usando Aspose.Cells o predefinido, llame al[**Actualización de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update()) para reflejar cualquier cambio en el estilo aplicado a una celda o rango.
 
- los[**Actualización de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) se comporta como el método**OK** botón en el cuadro de diálogo Estilo: después de realizar cambios en un estilo existente, llame para implementar el cambio. Si ya ha aplicado un estilo a un rango de celdas, modifique los atributos de estilo y llame al método, el formato de esas celdas se actualiza automáticamente
+ Él[**Actualización de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/style#update() ) se comporta como el método**DE ACUERDO** botón en el cuadro de diálogo Estilo: después de realizar cambios en un estilo existente, llame para implementar el cambio. Si ya ha aplicado un estilo a un rango de celdas, modifique los atributos de estilo y llame al método, el formato de esas celdas se actualiza automáticamente
 
 ### **Crear y modificar un estilo**
 

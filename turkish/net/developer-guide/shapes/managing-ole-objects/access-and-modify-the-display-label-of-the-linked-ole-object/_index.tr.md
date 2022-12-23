@@ -8,7 +8,7 @@ url: /tr/net/access-and-modify-the-display-label-of-the-linked-ole-object/
 
  Microsoft Excel, aşağıdaki ekran görüntüsünde gösterildiği gibi Ole Nesnesinin görüntü etiketini değiştirmenize olanak tanır. Ayrıca, Aspose.Cells API'lerini kullanarak Ole nesnesinin görüntü etiketine erişebilir veya bu etiketi değiştirebilirsiniz.[**OleObject.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/label)Emlak.
 
-![yapılacaklar:resim_alternatif_Metin](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
+![yapılacaklar:resim_alternatif_metin](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 
 ## **Bağlantılı Ole Nesnesinin Görüntü Etiketine Erişin ve Değiştirin**
 

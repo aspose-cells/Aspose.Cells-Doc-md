@@ -6,7 +6,7 @@ url: /it/net/setting-print-options/
 ---
 {{% alert color="primary" %}}
 
-Le impostazioni di impostazione della pagina di Microsoft Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
+Microsoft Le impostazioni di impostazione della pagina di Excel forniscono diverse opzioni di stampa (dette anche opzioni del foglio) che consentono agli utenti di controllare come vengono stampate le pagine del foglio di lavoro.
 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ Le righe o le colonne che verranno ripetute vengono definite passando i loro num
 - [**Bianco e nero**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/blackandwhite): una proprietà booleana che definisce se stampare o meno il foglio di lavoro in modalità bianco e nero.
 - [**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments): definisce se visualizzare i commenti di stampa sul foglio di lavoro o alla fine del foglio di lavoro.
 - [**Stampabozza**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printdraft): una proprietà booleana che definisce se stampare il foglio senza grafica..
-- [**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definisce se stampare gli errori della cella come visualizzato, vuoto, trattino o N/D.
+- [**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors): definisce se stampare gli errori della cella come visualizzato, vuoto, trattino o N/A.
 
  Per impostare il[**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) e[**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors) properties, Aspose.Cells fornisce anche due enumerazioni,[**PrintCommentsType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype) , e[**PrintErrorsType**](https://reference.aspose.com/cells/net/aspose.cells/printerrorstype) che contengono valori predefiniti da assegnare al file[**StampaCommenti**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printcomments) e[**Errori di stampa**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printerrors)proprietà rispettivamente.
 

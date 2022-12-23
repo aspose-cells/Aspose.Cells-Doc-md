@@ -6,7 +6,7 @@ url: /fr/java/conditional-formatting/
 ---
 {{% alert color="primary" %}} 
 
- La mise en forme conditionnelle est une fonctionnalité Excel avancée Microsoft qui vous permet d'appliquer des formats à une cellule ou à une plage de cellules et de modifier cette mise en forme en fonction de la valeur de la cellule ou de la valeur d'une formule. Par exemple, vous pouvez faire apparaître une cellule en gras uniquement lorsque la valeur de la cellule est supérieure à 500. Lorsque la valeur de la cellule répond à la condition, le format spécifié est appliqué à la cellule. Si la valeur de la cellule ne remplit pas la condition, la mise en forme par défaut est utilisée. Dans Microsoft Excel, sélectionnez**Format** , alors**Mise en forme conditionnelle** pour ouvrir la boîte de dialogue Formatage conditionnel.
+ La mise en forme conditionnelle est une fonctionnalité Excel avancée Microsoft qui vous permet d'appliquer des formats à une cellule ou à une plage de cellules et de modifier cette mise en forme en fonction de la valeur de la cellule ou de la valeur d'une formule. Par exemple, vous pouvez faire apparaître une cellule en gras uniquement lorsque la valeur de la cellule est supérieure à 500. Lorsque la valeur de la cellule répond à la condition, le format spécifié est appliqué à la cellule. Si la valeur de la cellule ne remplit pas la condition, la mise en forme par défaut est utilisée. Dans Microsoft Excel, sélectionnez**Format** , ensuite**Mise en forme conditionnelle** pour ouvrir la boîte de dialogue Formatage conditionnel.
 
 **Mise en forme conditionnelle dans Microsoft Excel** 
 

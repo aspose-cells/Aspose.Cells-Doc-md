@@ -6,13 +6,13 @@ url: /sv/net/convert-excel-to-html-with-tooltip/
 ---
 ## **Konvertera Excel till HTML med verktygstips**
 
-Det kan finnas fall där texten är avskuren i den genererade HTML-koden och du vill visa hela texten som ett verktygstips för hovringshändelsen. Aspose.Cells stöder detta genom att tillhandahålla**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** fast egendom. Ställa in**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** egendom till**Sann** kommer att lägga till hela texten som ett verktygstips i den genererade HTML-koden.
+Det kan finnas fall där texten klipps av i den genererade HTML och du vill visa hela texten som ett verktygstips på hovringshändelsen. Aspose.Cells stöder detta genom att tillhandahålla**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** fast egendom. Ställa in**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)** egendom till**Sann** kommer att lägga till hela texten som ett verktygstips i den genererade HTML.
 
 Följande bild visar verktygstipset i den genererade HTML-filen.
 
 ![todo:image_alt_text](convert-excel-to-html-with-tooltip_1.jpg)
 
- Följande kodexempel laddar[källkod excel-fil](98107416.xlsx) och genererar[utdata HTML-fil](98107417.zip) med verktygstipset.
+ Följande kodexempel laddar[source excel-fil](98107416.xlsx) och genererar[utgång HTML fil](98107417.zip) med verktygstipset.
 
 Exempelkod
 

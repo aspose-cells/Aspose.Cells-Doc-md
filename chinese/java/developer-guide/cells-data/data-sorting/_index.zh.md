@@ -24,7 +24,7 @@ Aspose.Cells 允许您按字母顺序或数字顺序对工作表数据进行排�
 
 **Microsoft Excel 中的排序对话框**
 
-![待办事项：图像_替代_文本](data-sorting_1.png)
+![待办事项：图片_替代_文本](data-sorting_1.png)
 
 ## **使用 Aspose.Cells 对数据进行排序**
 
@@ -43,13 +43,13 @@ Aspose.Cells 提供了[**数据分类器**](https://reference.aspose.com/cells/j
 
 **包含数据的模板 Excel 文件**
 
-![待办事项：图像_替代_文本](data-sorting_2.png)
+![待办事项：图片_替代_文本](data-sorting_2.png)
 
 执行下面的代码后，数据被适当地排序，正如您从输出的 Excel 文件中看到的那样。
 
 **数据排序后输出Excel文件**
 
-![待办事项：图像_替代_文本](data-sorting_3.png)
+![待办事项：图片_替代_文本](data-sorting_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DataSorting-DataSorting.java" >}}
 

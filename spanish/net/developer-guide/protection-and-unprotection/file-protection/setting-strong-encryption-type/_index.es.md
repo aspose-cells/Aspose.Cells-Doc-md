@@ -16,7 +16,7 @@ También puede cifrar y proteger con contraseña los archivos de Excel con un ti
 ## **Aplicación de cifrado con Microsoft Excel**
 Para implementar el cifrado de archivos en Microsoft Excel (por ejemplo, 2007):
 
-1.  Desde el**Instrumentos** menú, seleccione**Opciones**.
+1.  Desde el**Herramientas** menú, seleccione**Opciones**.
 1.  Selecciona el**Seguridad** pestaña.
 1.  Introduzca un valor para el**Contraseña para abrir** campo.
 1.  Hacer clic**Avanzado**.

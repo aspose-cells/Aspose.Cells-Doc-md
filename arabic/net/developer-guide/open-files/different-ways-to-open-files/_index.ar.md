@@ -30,7 +30,7 @@ url: /ar/net/different-ways-to-open-files/
 
 ## **تحميل الأوراق المرئية فقط**
 
- أثناء تحميل ملف**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)**في بعض الأحيان قد تحتاج فقط إلى بيانات في أوراق عمل مرئية في مصنف. يسمح لك Aspose.Cells بتخطي البيانات في أوراق العمل غير المرئية أثناء تحميل مصنف. للقيام بذلك ، قم بإنشاء دالة مخصصة ترث ملف**[LoadFilter] (https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**فئة وتمرير مثيلها إلى**[LoadOptions.LoadFilter] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**منشأه.
+ أثناء تحميل ملف**[مصنف] (https://reference.aspose.com/cells/net/aspose.cells/workbook)**في بعض الأحيان قد تحتاج فقط إلى بيانات في أوراق عمل مرئية في مصنف. يسمح لك Aspose.Cells بتخطي البيانات في أوراق العمل غير المرئية أثناء تحميل مصنف. للقيام بذلك ، قم بإنشاء دالة مخصصة ترث ملف**[LoadFilter] (https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**فئة وتمرير مثيلها إلى**[LoadOptions.LoadFilter] (https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
@@ -40,7 +40,7 @@ url: /ar/net/different-ways-to-open-files/
 
 {{% alert color="primary" %}}
 
-سيتم طرح استثناء إذا حاولت فتح ملفات Excel غير أصلية أو تنسيقات ملفات أخرى (على سبيل المثال PPT / PPTX و DOC / DOCX وما إلى ذلك) بحلول Aspose.Cells.
+سيتم طرح استثناء إذا حاولت فتح ملفات Excel غير أصلية أو تنسيقات ملفات أخرى (على سبيل المثال PPT / PPTX ، DOC / DOCX ، إلخ) بحلول Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

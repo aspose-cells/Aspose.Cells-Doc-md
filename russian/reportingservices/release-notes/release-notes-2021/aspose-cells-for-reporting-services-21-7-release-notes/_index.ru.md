@@ -12,7 +12,7 @@ url: /ru/reportingservices/aspose-cells-for-reporting-services-21-7-release-note
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|CELLSRS-584 | Улучшение рендера Png/Emf.| Улучшение|
-|CELLSRS-588 |Улучшение рендеринга Tiff.| Улучшение|
+|CELLSRS-584 |Улучшение рендера Png/Emf.| Улучшение|
+|CELLSRS-588 | Улучшение рендеринга Tiff.| Улучшение|
 
 

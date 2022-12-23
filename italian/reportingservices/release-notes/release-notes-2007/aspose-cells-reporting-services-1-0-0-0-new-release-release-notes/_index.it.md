@@ -12,7 +12,7 @@ url: /it/reportingservices/aspose-cells-reporting-services-1-0-0-0-new-release-r
 
  introduzione
 
-Aspose.Cells for Reporting Services consente di fornire report Excel nativi in Microsoft SQL Server 2005 Reporting Services. A differenza del renderer integrato per i report basati su Excel, Aspose.Cells for Reporting Services fornisce un set di funzionalità esteso e consente di convertire i report RDL in: formato XLS binario di Excel 97-2003, SpreadsheetML o formato XLSX di Excel2007.
+Aspose.Cells for Reporting Services consente di fornire report Excel nativi in Microsoft SQL Server 2005 Reporting Services. A differenza del renderer integrato per i report basati su Excel, Aspose.Cells for Reporting Services fornisce un set di funzionalità esteso e consente di convertire i report RDL in: formato Excel 97-2003 binario XLS, SpreadsheetML o formato Excel2007 XLSX.
 
  Scarica URL:
 <https://downloads.aspose.com/cells/reportingservices>

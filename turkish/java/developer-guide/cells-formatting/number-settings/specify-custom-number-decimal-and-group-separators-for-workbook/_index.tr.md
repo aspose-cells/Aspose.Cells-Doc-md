@@ -22,12 +22,12 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 Aşağıdaki ekran görüntüsü**Gelişmiş Excel Seçenekleri** ve belirtmek için bölümü vurgular**Özel Ayırıcılar**.
 
-![yapılacaklar:resim_alternatif_Metin](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
 ## **Aspose.Cells kullanarak Özel Ayırıcıları Belirtme**
 
- Aşağıdaki örnek kod, Aspose.Cells API kullanılarak Özel Ayırıcıların nasıl belirtileceğini gösterir. Sırasıyla Özel Ondalık Sayı ve Grup Ayırıcılarını nokta ve boşluk olarak belirtir. Yani sayı**123,456.789** olarak görüntülenecek**123 456.789** kod tarafından oluşturulan çıktı PDF'sini gösteren ekran görüntüsünde gösterildiği gibi.
+ Aşağıdaki örnek kod, Aspose.Cells API kullanılarak Özel Ayırıcıların nasıl belirtileceğini gösterir. Sırasıyla Özel Ondalık Sayı ve Grup Ayırıcılarını nokta ve boşluk olarak belirtir. Yani sayı**123,456.789** olarak görüntülenecek**123 456.789** kod tarafından oluşturulan PDF çıktısını gösteren ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
+![yapılacaklar:resim_alternatif_metin](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SpecifyingCustomSeparators-SpecifyingCustomSeparators.java" >}}

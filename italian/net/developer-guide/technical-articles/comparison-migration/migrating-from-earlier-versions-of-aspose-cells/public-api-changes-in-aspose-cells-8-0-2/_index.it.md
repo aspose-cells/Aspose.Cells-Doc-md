@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.0.2
+title: Pubblico API Modifiche Aspose.Cells 8.0.2
 type: docs
 weight: 30
 url: /it/net/public-api-changes-in-aspose-cells-8-0-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.0.1 alla 8.0.2, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche al Aspose.Cells API dalla versione 8.0.1 alla 8.0.2, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Aggiunta proprietà TextDirection alla classe Shape**
@@ -56,7 +56,7 @@ book.Save(myDir + "output.xlsx");
 
 {{% /alert %}}
 ## **Aggiunta la proprietà ConvertFormulasData alla classe HTMLLoadOptions**
-La proprietà ConvertFormulasData è stata aggiunta alla classe HTMLLoadOptions, per facilitare agli sviluppatori il caricamento di formule Excel da file HTML. La proprietà booleana ConvertFormulasData indica se convertire o meno la stringa in una formula quando il valore della stringa inizia con il carattere '='.
+La proprietà ConvertFormulasData è stata aggiunta alla classe HTMLLoadOptions, per facilitare agli sviluppatori il caricamento delle formule Excel dai file HTML. La proprietà booleana ConvertFormulasData indica se convertire o meno la stringa in una formula quando il valore della stringa inizia con il carattere '='.
 
 **C#**
 
@@ -84,6 +84,6 @@ Il valore predefinito della proprietà ConvertFormulasData è false.
 
 {{% /alert %}}
 ## **Proprietà ImageOptions aggiunta alla classe HtmlSaveOptions**
-La proprietà ImageOptions è stata aggiunta alla classe HtmlSaveOptions. L'esposizione della proprietà ImageOptions ha consentito agli sviluppatori di impostare le preferenze per le immagini incorporate nell'HTML durante l'esportazione dei fogli di calcolo.
+La proprietà ImageOptions è stata aggiunta alla classe HtmlSaveOptions. L'esposizione della proprietà ImageOptions ha consentito agli sviluppatori di impostare le preferenze per le immagini incorporate nel HTML durante l'esportazione dei fogli di calcolo.
 ## **Proprietà HtmlSaveOptions.ExportChartImageFormat obsoleta**
-HtmlSaveOptions.ExportChartImageFormat è stato contrassegnato come obsoleto a partire da Aspose.Cells for .NET 8.0.2. Si consiglia invece di utilizzare HtmlSaveOptions.ImageOptions per le impostazioni del formato immagine durante l'esportazione di fogli di calcolo in formato HTML.
+HtmlSaveOptions.ExportChartImageFormat è stato contrassegnato come obsoleto a partire da Aspose.Cells for .NET 8.0.2. Si consiglia invece di utilizzare HtmlSaveOptions.ImageOptions per le impostazioni del formato immagine durante l'esportazione di fogli di calcolo nel formato HTML.

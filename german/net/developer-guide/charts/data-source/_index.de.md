@@ -16,13 +16,13 @@ Bei der Arbeit an Diagrammen mit Aspose.Cells müssen zwei Arten von Daten wie f
 
 ### **Diagrammdaten**
 
-Diagrammdaten sind die Daten, die wir als Datenquelle zum Erstellen unserer Diagramme verwenden. Wir können einen Bereich der Zellen (mit Diagrammdaten) hinzufügen, indem wir die aufrufen[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) Objekt[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)Methode.
+Diagrammdaten sind die Daten, die wir als Datenquelle zum Erstellen unserer Diagramme verwenden. Wir können einen Bereich der Zellen (mit Diagrammdaten) hinzufügen, indem wir die aufrufen[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) Objekt[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)Methode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 
 ### **Kategoriedaten**
 
- Kategoriedaten dienen der Beschriftung von Diagrammdaten und können ergänzt werden[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) durch die Verwendung seiner[**KategorieDaten**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)Eigentum. Ein vollständiges Beispiel ist unten angegeben, um die Verwendung von Diagramm- und Kategoriedaten zu demonstrieren. Nach dem Ausführen des obigen Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt.
+ Kategoriedaten dienen der Beschriftung von Diagrammdaten und können ergänzt werden[**SerieSammlung**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) durch die Verwendung seiner[**Kategoriedaten**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)Eigentum. Ein vollständiges Beispiel ist unten angegeben, um die Verwendung von Diagramm- und Kategoriedaten zu demonstrieren. Nach dem Ausführen des obigen Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 

@@ -14,30 +14,30 @@ url: /es/net/aspose-cells-for-net-20-9-release-notes/
 |:- |:- |:- |
 |CELLSNET-47567|Soporte Obtener/Establecer las propiedades de la forma de la cortadora|Nueva caracteristica|
 |CELLSNET-47549|API de cliente para agregar/eliminar comentarios para GridWeb|Nueva caracteristica|
-|CELLSNET-47555|El gráfico no permite tratar #N/A como celdas vacías al guardar como PDF|Mejora|
+|CELLSNET-47555|El gráfico no permite tratar #N/A como celdas vacías cuando se guarda como PDF|Mejora|
 |CELLSNET-47579|La fuente Kaiti no se representa correctamente|Mejora|
 |CELLSNET-47154|Las tablas de consulta no se cargan desde el archivo ODS|Mejora|
 |CELLSNET-47556|Mejora para congelar y dividir la hoja de trabajo|Mejora|
 |CELLSNET-47570|Las macros deben eliminarse al combinar/copiar libros de trabajo|Mejora|
 |CELLSNET-47543|Problema con los marcadores inteligentes que tienen aplicado el formato condicional|Insecto|
 |CELLSNET-47561|La moneda con formato personalizado se muestra fuera de la celda en HTML|Insecto|
-|CELLSNET-47562|Guardar hoja vacía con configuración de líneas de cuadrícula exportadas a HTML|Insecto|
+|CELLSNET-47562|Guardando la hoja vacía con la configuración de líneas de cuadrícula exportadas a HTML|Insecto|
 |CELLSNET-47569|La tabla dinámica no se muestra correctamente después de la conversión de XLSX a PDF|Insecto|
 |CELLSNET-47475|CalculateFormula () calcula de manera diferente a MS Excel|Insecto|
 |CELLSNET-47531|Las fórmulas que contienen nombres que no existen se muestran como `WorkbookName`! Nombre|Insecto|
 |CELLSNET-47545|Número negativo personalizado representado incorrectamente en PDF|Insecto|
 |CELLSNET-47548|Problema con la importación de un archivo de texto con comillas dobles|Insecto|
-|CELLSNET-47558|Números negativos personalizados (usando la región de Suiza) representados incorrectamente en PDF|Insecto|
+|CELLSNET-47558|Números negativos personalizados (usando la región de Suiza) presentados incorrectamente a PDF|Insecto|
 |CELLSNET-47075|Necesita sincronizar el desplazamiento de dos cuadrículas al igual que SyncScrollingScrollingSideBySide de Excel.|Insecto|
 |CELLSNET-47559|No se pueden seleccionar celdas con las teclas de flecha del teclado cuando la hoja está configurada como de solo lectura|Insecto|
-|CELLSNET-47360|Los puntos de marcador transparentes en el gráfico del archivo de Excel se distorsionan en el PDF de salida|Insecto|
+|CELLSNET-47360|Los puntos de marcador transparentes en el gráfico del archivo de Excel se distorsionan en la salida PDF|Insecto|
 |CELLSNET-47565|La imagen de pie de página en primer plano se convierte en fondo|Insecto|
 |CELLSNET-46502|La conversión de XLSX a TIFF da como resultado una caja negra|Insecto|
-|CELLSNET-46821|Convirtiendo la hoja de trabajo a TIFF: la imagen está oculta|Insecto|
-|CELLSNET-47458|Distorsión de forma después de la conversión a archivo PDF|Insecto|
+|CELLSNET-46821|Conversión de la hoja de cálculo a TIFF: la imagen está oculta|Insecto|
+|CELLSNET-47458|Distorsión de forma después de la conversión al archivo PDF|Insecto|
 |CELLSNET-47551|El eje X no es correcto al convertir el gráfico de Excel a PDF|Insecto|
 |CELLSNET-47546| Eliminar filas/columnas en blanco corrompe el documento de Excel|Insecto|
-|CELLSNET-47552|PowerQueryFormula.FormulaDefinition incorrecta|Insecto|
+|CELLSNET-47552|PowerQueryFormula.FormulaDefinition incorrecto|Insecto|
 |CELLSNET-47573|No se puede producir el formato deseado usando shift|Insecto|
 |CELLSNET-47574|XLS a HTML produce un archivo vacío|Insecto|
 |CELLSNET-47581|MaxColumn se establece en Column XFD después de llamar a InsertCutCells()|Insecto|
@@ -46,7 +46,7 @@ url: /es/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47553|Excepción al guardar un archivo XLS en XLSX|Excepción|
 |CELLSNET-47563|Excepción "El archivo está dañado" al cargar un formato de archivo XLS|Excepción|
 |CELLSNET-47580|ArgumentOutOfRangeException al convertir excel|Excepción|
-|CELLSNET-47592|Excepción al convertir XLSX particular a XLS|Excepción|
+|CELLSNET-47592|Excepción al convertir particular XLSX a XLS|Excepción|
 |CELLSNET-47557|Faltan algunas propiedades al combinar libros de trabajo|Regresión|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
@@ -55,7 +55,7 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 
 ### **Agrega la propiedad AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Para considerar el rendimiento y la comodidad del usuario, agregamos esta propiedad y convertimos su valor predeterminado en**falso** para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** de**20.9**.
+ Para considerar el rendimiento y la comodidad del usuario, agregamos esta propiedad y convertimos su valor predeterminado en**falso** para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de**ResumenCálculoMotor** cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** desde**20.9**.
 
 ### **Agrega la propiedad TxtLoadOptions.HasTextQualifier**
 
@@ -119,7 +119,7 @@ Obtiene o establece el ancho de la segmentación especificada, en píxeles.
 
 ### **Agrega la propiedad Worksheet.PaneState y la enumeración PaneStateType.**
 
-Representa el estado del panel en la hoja de trabajo.
+Representa el estado del panel en la hoja de cálculo.
 
 ### **Agrega la propiedad OdsLoadOptions.RefreshPivotTables.**
 

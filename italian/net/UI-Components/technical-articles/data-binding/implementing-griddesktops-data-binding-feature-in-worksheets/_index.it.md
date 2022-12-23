@@ -6,11 +6,11 @@ url: /it/net/implementing-griddesktops-data-binding-feature-in-worksheets/
 ---
 {{% alert color="primary" %}} 
 
-Il Data Binding è un'entusiasmante funzionalità offerta da Microsoft .NET Framework. Sappiamo che il controllo DataGrid offerto da Microsoft supporta il data binding, il che significa che un DataGrid può essere associato a qualsiasi origine dati (utilizzando oggetti DataSet, DataTable e DataView). Questa funzione ha reso la vita degli sviluppatori molto più semplice. Sulla base dello stesso concetto, Aspose.Cells.GridDesktop supporta anche l'associazione dati, che consente agli sviluppatori di associare fogli di lavoro a qualsiasi origine dati. Questo articolo esplora la funzionalità.
+Il Data Binding è un'entusiasmante funzionalità offerta dal Framework Microsoft .NET. Sappiamo che il controllo DataGrid offerto da Microsoft supporta il data binding, il che significa che un DataGrid può essere associato a qualsiasi origine dati (utilizzando oggetti DataSet, DataTable e DataView). Questa funzione ha reso la vita degli sviluppatori molto più semplice. Sulla base dello stesso concetto, Aspose.Cells.GridDesktop supporta anche l'associazione dati, che consente agli sviluppatori di associare fogli di lavoro a qualsiasi origine dati. Questo articolo esplora la funzionalità.
 
 {{% /alert %}} 
 ## **Creazione di un database di esempio**
-1.  Creare un database di esempio da utilizzare con l'esempio. Abbiamo utilizzato Microsoft Access per creare un database di esempio con una tabella Prodotti (schema sotto).
+1.  Creare un database di esempio da utilizzare con l'esempio. Abbiamo usato Microsoft Access per creare un database di esempio con una tabella Prodotti (schema sotto).
 
 ![cose da fare:immagine_alt_testo](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
 
@@ -24,7 +24,7 @@ Ora crea una semplice applicazione desktop in Visual Studio e procedi come segue
 1. Trascina il controllo "GridControl" dalla casella degli strumenti e rilascialo sul modulo.
 1. Rilascia quattro pulsanti dalla casella degli strumenti nella parte inferiore del modulo e imposta la loro proprietà di testo come**Rilega foglio di lavoro**, **Aggiungi riga**, **Elimina riga** e**Aggiorna al database** rispettivamente.
 ## **Aggiunta di namespace e dichiarazione di variabili globali**
-Poiché questo esempio usa un database di Microsoft Access, aggiungi lo spazio dei nomi System.Data.OleDb all'inizio del codice.
+Poiché questo esempio usa un database Access Microsoft, aggiungi lo spazio dei nomi System.Data.OleDb all'inizio del codice.
 
 
 

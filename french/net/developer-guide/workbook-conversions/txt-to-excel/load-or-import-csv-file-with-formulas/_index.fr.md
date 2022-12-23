@@ -1,5 +1,5 @@
 ﻿---
-title: Charger ou importer un fichier CSV avec des formules
+title: Charger ou importer le fichier CSV avec des formules
 type: docs
 weight: 350
 url: /fr/net/load-or-import-csv-file-with-formulas/
@@ -22,7 +22,7 @@ url: /fr/net/load-or-import-csv-file-with-formulas/
 
 
 
- Le code charge d'abord le fichier CSV, puis l'importe à nouveau dans la cellule D4. Enfin, il enregistre l'objet classeur au format XSLX. La[fichier de sortie XLSX](5115052.xlsx) ressemble à ça. Comme vous le voyez, les cellules C3 et F4 contiennent la formule et son résultat 800.
+Le code charge d'abord le fichier CSV, puis l'importe à nouveau dans la cellule D4. Enfin, il enregistre l'objet classeur au format XSLX. Le[fichier de sortie XLSX](5115052.xlsx) ressemble à ça. Comme vous le voyez, les cellules C3 et F4 contiennent la formule et son résultat 800.
 
 |![tâche : image_autre_texte](load-or-import-csv-file-with-formulas_1.png)|
 |:- |

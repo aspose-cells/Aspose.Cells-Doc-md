@@ -1,5 +1,5 @@
 ﻿---
-title: Convertir une feuille de calcul en PDF en xlsx4j
+title: Convertir la feuille de calcul en PDF en xlsx4j
 type: docs
 weight: 10
 url: /fr/java/convert-spreadsheet-to-pdf-in-xlsx4j/

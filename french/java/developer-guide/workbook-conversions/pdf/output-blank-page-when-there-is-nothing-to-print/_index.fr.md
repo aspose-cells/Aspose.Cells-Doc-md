@@ -6,7 +6,7 @@ url: /fr/java/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Si la feuille est vide, Aspose.Cells n'imprimera rien lorsque vous exporterez la feuille de calcul vers l'image. Vous pouvez modifier ce comportement en utilisant[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) propriété. Quand vous le réglerez sur**vrai**, il imprimera la page vierge.
+ Si la feuille est vide, Aspose.Cells n'imprimera rien lorsque vous exporterez la feuille de calcul vers l'image. Vous pouvez modifier ce comportement en utilisant[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) la propriété. Quand vous le réglerez sur**vrai**, il imprimera la page vierge.
 
 ## **Sortir une page vierge lorsqu'il n'y a rien à imprimer**
 

@@ -6,11 +6,11 @@ url: /it/java/creating-subtotals/
 ---
 {{% alert color="primary" %}}
 
-Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce funzionalità API che ti aiutano ad aggiungere subtotali ai fogli di calcolo in modo programmatico.
+Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce le funzionalità API che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
 
 {{% /alert %}}
 
-## **Utilizzo di Microsoft Excel**
+## **Utilizzando Microsoft Excel**
 
 Per creare subtotali in Microsoft Excel:
 
@@ -27,13 +27,13 @@ Per creare subtotali in Microsoft Excel:
 
 ![cose da fare:immagine_alt_testo](creating-subtotals_2.png)
 
-## **Utilizzo dell'API Aspose.Cells**
+## **Utilizzando Aspose.Cells API**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. La classe fornisce un'ampia gamma di proprietà e metodi per la gestione di un foglio di lavoro e altri oggetti. Ogni foglio di lavoro è composto da un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Per creare subtotali in un foglio di lavoro, utilizzare il[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)metodo del totale parziale della classe. Fornire valori appropriati per i parametri del metodo per ottenere il risultato desiderato.
 
-L'esempio seguente mostra come creare subtotali nel primo foglio di lavoro del file modello (Book1.xls) utilizzando l'API Aspose.Cells.
+L'esempio seguente mostra come creare subtotali nel primo foglio di lavoro del file modello (Book1.xls) utilizzando Aspose.Cells API.
 
 Quando il codice viene eseguito, viene creato un foglio di lavoro con i subtotali.
 

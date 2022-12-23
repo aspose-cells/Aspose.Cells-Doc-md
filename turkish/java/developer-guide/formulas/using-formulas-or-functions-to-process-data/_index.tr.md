@@ -23,7 +23,7 @@ Microsoft Excel'in ilgi çekici özelliklerinden biri, verileri formüller ve i�
 
 ## **Yerleşik İşlevleri Kullanma**
 
- Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sunulur. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/java/supported-formula-functions/). Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
+ Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sağlanır. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/java/supported-formula-functions/). Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
 
  Aspose.Cells, Microsoft Excel tarafından sunulan formüllerin veya işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tablosu](/cells/tr/java/what-is-a-designer-spreadsheet/). Aspose.Cells, çok sayıda matematiksel, dizi, Boole, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler.
 
@@ -47,7 +47,7 @@ Microsoft Excel'in ilgi çekici özelliklerinden biri, verileri formüller ve i�
 
  Aspose.Cells, kullanarak eklenti işlevlerini kaydetmek için özellikler sağlar[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Daha sonra ayarladığımızda[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, çıktı Excel dosyası AddIn işlevinden hesaplanan değeri içerir.
 
-Aşağıdaki örnek kodda eklenti işlevinin kaydedilmesi için XLAM dosyası indirilmelidir. Benzer şekilde, çıktıyı kontrol etmek için "test_udf.xlsx" çıktı dosyası indirilebilir.
+Aşağıdaki örnek kodda eklenti fonksiyonunun kaydedilmesi için XLAM dosyası indirilmelidir. Benzer şekilde, çıktıyı kontrol etmek için "test_udf.xlsx" çıktı dosyası indirilebilir.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -61,14 +61,14 @@ Dizi formülleri, formülü oluşturan işlevlerin bağımsız değişkenleri ol
 
 **G2 hücresinde bir dizi formülü ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](using-formulas-or-functions-to-process-data_1.png)
+![yapılacaklar:resim_alternatif_metin](using-formulas-or-functions-to-process-data_1.png)
 
 Bazı Microsoft Excel işlevleri, değer dizileri döndürür. Bir dizi formülüyle birden çok sonucu hesaplamak için diziyi, dizi bağımsız değişkenleriyle aynı sayıda satır ve sütuna sahip bir hücre aralığına girin.
 
  çağırarak bir hücreye dizi formülü uygulamak mümkündür.[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) yöntem. bu[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) yöntemi aşağıdaki parametreleri alır:
 
-- **Dizi Formülü**, dizi formülü.
-- **Satır sayısı**dizi formülünün sonucu doldurulacak satır sayısı.
+- **Dizi Formülü**dizi formülü.
+- **Satır sayısı**, dizi formülünün sonucu doldurulacak satır sayısı.
 - **Sütun sayısı**, dizi formülünün sonucunu dolduracak sütun sayısı.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

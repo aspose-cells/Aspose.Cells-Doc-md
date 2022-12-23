@@ -6,7 +6,7 @@ url: /ru/java/aspose-cells-for-android-via-java-8-7-0-release-notes/
 ---
 Aspose.Cells for Android обновлен до версии 8.7.0.
 
-Примечание
+Запись
 Поскольку кодовая база Aspose.Cells for Android совпадает с кодом соответствующих версий .NET и Java, большинство изменений, улучшений и исправлений, включенных в
 Aspose.Cells for .NET v8.6.1
 , 
@@ -21,6 +21,6 @@ Aspose.Cells for Java v8.6.1
 Aspose.Cells for Java v8.6.2
 , 
 Aspose.Cells for Java v8.6.3
-а также
+и
 Aspose.Cells for Java v8.7.0
 также включены в этот Aspose.Cells for Android v8.7.0.

@@ -10,21 +10,21 @@ url: /fr/java/aspose-cells-for-java-20-5-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43173|Lorsque le champ de groupe a une valeur nulle, le résultat de subtotalN perd le sous-total pour le groupe nul|Renforcement|
-|CELLSJAVA-43162|Rendu Excel vers HTML - le processus de conversion prend beaucoup de temps|Punaise|
-|CELLSJAVA-43164|La conversion HTML vers Excel ne conserve pas les formats de texte enrichi dans la sortie|Punaise|
-|CELLSJAVA-43166|Le texte pivoté n'est pas rendu correctement dans la conversion XLSX en HTML|Punaise|
-|CELLSJAVA-43178|Les mises en forme RichText sont perdues lors de l'exportation du fichier au format HTML|Punaise|
-|CELLSJAVA-43165|Chaîne "20TT1" remplacée par le numéro 43850 lors de la conversion CSV vers XLSB|Punaise|
+|CELLSJAVA-43162|Excel vers le rendu HTML - le processus de conversion prend beaucoup de temps|Punaise|
+|CELLSJAVA-43164|Conversion HTML vers Excel ne conservant pas les formats de texte enrichi dans la sortie|Punaise|
+|CELLSJAVA-43166|Le texte pivoté n'est pas rendu correctement dans la conversion XLSX à HTML|Punaise|
+|CELLSJAVA-43178|Les mises en forme RichText sont perdues lors de l'exportation du fichier vers HTML|Punaise|
+|CELLSJAVA-43165|Chaîne "20TT1" remplacée par le numéro 43850 lors de la conversion CSV en XLSB|Punaise|
 |CELLSJAVA-43026|Après le rendu du graphique en image, les étiquettes de données changent de style et les valeurs ne sont pas les mêmes|Punaise|
 |CELLSJAVA-43154|Certains points du graphique se chevauchent par étiquette|Punaise|
-|CELLSJAVA-43089|Le graphique radar est inversé et les valeurs des axes ne sont pas identiques au graphique d'origine dans la conversion XLS en PDF|Punaise|
+|CELLSJAVA-43089|Le graphique en radar est inversé et les valeurs des axes ne sont pas identiques au graphique d'origine dans la conversion XLS à PDF|Punaise|
 |CELLSJAVA-43171|Le document est cassé après la copie des feuilles|Punaise|
 |CELLSJAVA-43172|Un problème avec les marqueurs intelligents dans les cellules fusionnées|Punaise|
 |CELLSJAVA-43183|Exception "ClassCastException : ...." lors du calcul du tableau croisé dynamique|Exception|
-|CELLSJAVA-43177|Un nouveau classeur avec un fichier CSV donne "java.lang.IndexOutOfBoundsException : millisecond"|Exception|
+|CELLSJAVA-43177|Le nouveau classeur avec le fichier CSV donne "java.lang.IndexOutOfBoundsException: millisecond"|Exception|
 |CELLSJAVA-43168|Exception "IllegalStateException : Ceci n'est pas un fichier de stockage structuré" lors de la fusion de fichiers Excel|Exception|
 |CELLSJAVA-43179|Exception NumberFormatException : pour la chaîne d'entrée : "preserve"|Exception|
 |CELLSJAVA-43182|Exception 'lang.IllegalStateException : Encodage non valide : null' lors du chargement du fichier XLS|Exception|

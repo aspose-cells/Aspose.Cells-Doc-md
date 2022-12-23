@@ -16,11 +16,11 @@ url: /zh/java/aspose-cells-for-java-7-0-3-release-notes/
 
 支持 LightCellsDataProvider 保存 XLS 文件
 
-增强了 Excel 到 PDF 的功能
+对 Excel-to-PDF 功能进行了增强
 
 31329 - 包括一个有用的方法：PivotField.getBaseIndex()
 
- 40015 - 使库与 webservices-rt.jar 兼容
+40015 - 使库与 webservices-rt.jar 兼容
 
 40011 - 支持获取工作簿中不同对象使用的所有颜色
 
@@ -34,7 +34,7 @@ url: /zh/java/aspose-cells-for-java-7-0-3-release-notes/
 
 虫子
 
- 31303 - Cell 带有字符 '"' 和 ',' 的值未正确保存为 CSV 文件
+ 31303 - Cell 带有字符 '"' 和 ',' 的值在 CSV 文件中保存不正确
 
 31376 - 保存 PDF 花费的时间太长并生成了非常大的 PDF 文件
 
@@ -52,9 +52,9 @@ url: /zh/java/aspose-cells-for-java-7-0-3-release-notes/
 
 40016 - 保存的 XLS 文件导致 MS Excel 给出警告消息 -1
 
- 40020 - 保存的 XLS 文件导致 MS Excel 给出警告消息 -2
+ 40020 - 保存 XLS 文件导致 MS Excel 给出警告消息 -2
 
-40021 - 保存的 XLS 文件导致 MS Excel 给出警告消息 -3
+ 40021 - 保存 XLS 文件导致 MS Excel 给出警告消息 -3
 
  40023 - Cell 删除行后丢失格式
 
@@ -68,4 +68,4 @@ url: /zh/java/aspose-cells-for-java-7-0-3-release-notes/
 
 40084 - 日期时间值以双精度格式读取
 
-40085 - 当行/列超过 XLS 文件的限制时，保存的 XLS 导致：在 MS Excel 中打开时出现“Excel 发现不可读的内容”错误
+40085 - 当行/列超过 XLS 文件的限制时，保存的 XLS 导致：在 MS Excel 中打开时出现“Excel 发现无法读取的内容”错误

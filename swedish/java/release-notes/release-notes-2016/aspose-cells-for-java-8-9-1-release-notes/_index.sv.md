@@ -12,17 +12,17 @@ url: /sv/java/aspose-cells-for-java-8-9-1-release-notes/
 |CELLSJAVA-40958|Användarkonfigurerbar teckensnittsersättningsmekanism krävs|Ny funktion|
 |CELLSJAVA-41936|Workbook.calculateFormula()-metoden avslutas aldrig för Excel-källfilen|Förbättring|
 |CELLSJAVA-41928|Det gick inte att fånga bildresursen när kalkylbladet renderades till HTML med IStreamProvider|Insekt|
-|CELLSJAVA-41841|Problem med att rendera kryssrutor till HTML|Insekt|
+|CELLSJAVA-41841|Problem med att rendera checkboxar till HTML|Insekt|
 |CELLSJAVA-41932|Problem med getDisplayStringValue() för datumformaterade värden|Insekt|
 |CELLSJAVA-41930|Genom att använda Light Cells API:er för att bearbeta en XLS-fil, bearbetas alltid den första cellen i det första arket|Insekt|
 |CELLSJAVA-41931|Teckenavstånd och brytning är inte korrekta för vertikal text vid rendering av kalkylark till PDF|Insekt|
 |CELLSJAVA-41709|Kolumnbredderna är annorlunda på CentOS än på Windows|Insekt|
-|CELLSJAVA-41933|Diagramskalan har ändrats vid rendering av kalkylark till PDF|Insekt|
+|CELLSJAVA-41933|Diagramskalan har ändrats under renderingen av kalkylarket till PDF|Insekt|
 |CELLSJAVA-41934|Justeringsproblem vid rendering av en Excel-fil till PDF|Insekt|
 |CELLSJAVA-41935|Formatering av förklaringsposter störs när kalkylbladet renderas till PDF|Insekt|
 |CELLSJAVA-41943|Horisontella axeletiketter har inte renderats helt, det vill säga; alla etiketter saknar visst innehåll i den renderade bilden.|Insekt|
 |CELLSJAVA-41940|Filen är skadad efter formelberäkning och spara|Insekt|
-|CELLSJAVA-41927|Undantag: "java.lang.OutOfMemoryError" när du sparar i HTML-filformat|Undantag|
+|CELLSJAVA-41927|Undantag: "java.lang.OutOfMemoryError" när du sparar i filformatet HTML|Undantag|
 |CELLSJAVA-41945|CellsException: Fel vid beräkning av Cell[0Sheet1!E5]at Workbook.CalculateFormula vid beräkning av TREND-funktionen|Undantag|
 |CELLSJAVA-41946|Att öppna Excel-fil orsakar java.lang.NumberFormatException: För inmatningssträng: "80000020"|Undantag|
 |CELLSJAVA-41922|IndexOutOfBoundsException vid kopiering av celler|Undantag|

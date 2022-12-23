@@ -6,7 +6,7 @@ url: /sv/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Du kan ange jobb- eller dokumentnamn när du skriver ut din arbetsbok eller arbetsblad med hjälp av[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) eller[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) objekt. Aspose.Cells tillhandahåller[**WorkbookRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) och[**SheetRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) metoder som du kan använda för att ange jobbnamn när du skriver ut din arbetsbok eller arbetsblad
+ Du kan ange jobb- eller dokumentnamn när du skriver ut din arbetsbok eller arbetsblad med hjälp av[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) eller[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) föremål. Aspose.Cells tillhandahåller[**WorkbookRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) och[**SheetRender.toPrinter(skrivarnamn, jobbnamn)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) metoder som du kan använda för att ange jobbnamn när du skriver ut din arbetsbok eller arbetsblad
 
 {{% /alert %}}
 

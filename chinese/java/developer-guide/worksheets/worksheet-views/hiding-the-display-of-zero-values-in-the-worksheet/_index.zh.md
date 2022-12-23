@@ -18,7 +18,7 @@ url: /zh/java/hiding-the-display-of-zero-values-in-the-worksheet/
 
    **在 Microsoft Excel 中隐藏零值** 
 
-![待办事项：图像_替代_文本](hiding-the-display-of-zero-values-in-the-worksheet_1.png)
+![待办事项：图片_替代_文本](hiding-the-display-of-zero-values-in-the-worksheet_1.png)
 
 请参阅以下示例代码，演示如何使用 Aspose.Cells 隐藏零。
 

@@ -10,9 +10,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.5.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-42550|La conversione simultanea in PDF mentre ogni cartella di lavoro ha il proprio set privato (esclusivo) di caratteri|Nuova caratteristica|
+|CELLSJAVA-42550|La conversione simultanea a PDF mentre ogni cartella di lavoro ha il proprio set di caratteri privato (esclusivo)|Nuova caratteristica|
 |CELLSJAVA-42594|Rileva LoadFormat e FileFormatType di XLAM|Aumento|
 |CELLSJAVA-42604|La formattazione e il comportamento della tabella pivot sono cambiati dopo l'apertura/salvataggio del file modello|Insetto|
 |CELLSJAVA-41918|Il foglio di calcolo (XLS) viene danneggiato dopo un semplice caricamento e salvataggio|Insetto|
@@ -29,8 +29,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.5.
 |CELLSJAVA-42596|"java.lang.ArrayIndexOutOfBoundsException" si verifica all'apertura di un file Excel|Eccezione|
 |CELLSJAVA-42595|"java.io.IOException: il file è danneggiato" si verifica all'apertura di un file Excel|Eccezione|
 |CELLSJAVA-42591|"com.aspose.cells.CellsException: formula non valida" al caricamento di un file Excel|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge nuove proprietà Cell.IsTableFormula/IsArrayFormula per sostituire Cell.IsInTable/IsInArray**
 Indica se una cella fa parte della formula della tabella o della formula di matrice. I vecchi nomi creano ambiguità, quindi li abbiamo resi obsoleti e ne abbiamo forniti di nuovi.
 ### **Aggiunge la classe IndividualFontConfigs**

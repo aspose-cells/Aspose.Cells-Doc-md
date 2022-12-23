@@ -5,7 +5,7 @@ weight: 45
 url: /tr/net/manipulate-position-size-and-designer-chart/
 ---
 ## **Grafik Konumu ve Boyutu**
- Bazen, çalışma sayfasındaki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek istersiniz. Aspose.Cells şunları sağlar:[Chart.ChartObject](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/chartobject) Bunu başarmak için mülkiyet. Grafiği yenisiyle yeniden boyutlandırmak için alt özelliklerini kullanabilirsiniz.**yükseklik** ve**Genişlik** veya yenisiyle yeniden konumlandırın** X** ve**Y** koordinatları.
+ Bazen, çalışma sayfasındaki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek istersiniz. Aspose.Cells şunları sağlar:[Chart.ChartObject](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/chartobject) Bunu başarmak için mülkiyet. Grafiği yenisiyle yeniden boyutlandırmak için alt özelliklerini kullanabilirsiniz.**boy uzunluğu** ve**Genişlik** veya yenisiyle yeniden konumlandırın** X** ve**Y** koordinatları.
 ### **Grafik Konumunu ve Boyutunu Kontrol Etme**
 Grafiğin konumunu (X, Y koordinatları) veya boyutunu (yükseklik, genişlik) değiştirmek için şu özellikleri kullanın:
 

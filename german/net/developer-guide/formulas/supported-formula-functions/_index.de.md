@@ -84,7 +84,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |CHIQ.INV.RT|
 |CHISQ.TEST|
 |WÄHLEN|
-|SAUBER|
+|REINIGEN|
 |CODE|
 |SÄULE|
 |SÄULEN|
@@ -98,7 +98,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |KORREL|
 |KOS|
 |COSCH|
-|ZÄHLEN|
+|ANZAHL|
 |GRAF|
 |ZÄHLLEER|
 |ZÄHLENWENN|
@@ -160,7 +160,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |ERF|
 |ERFC|
 |FEHLERTYP|
-|EBEN|
+|AUCH|
 |GENAU|
 |EXP|
 |EXPONDIST|
@@ -182,7 +182,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |FISCHER|
 |FISHERINV|
 |FEST|
-|BODEN|
+|UMHAUEN|
 |BODEN.MATHE|
 |VORHERSAGE|
 |PROGNOSE.LINEAR|
@@ -286,7 +286,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |LOGNORM.ABST|
 |LOGNORM.INV|
 |LOGNORMVERT|
-|SIEH NACH OBEN|
+|NACHSCHLAGEN|
 |NIEDRIGER|
 
 ###### **M**
@@ -398,7 +398,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |RANG.EQ|
 |RANG|
 |BEWERTUNG|
-|ERHALTEN|
+|EMPFANGEN|
 |ERSETZEN|
 |ERSATZB|
 |REP|
@@ -408,7 +408,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |RUNDEN|
 |ABRUNDEN|
 |ZUSAMMENFASSEN|
-|DIE ZEILE|
+|REIHE|
 |REIHEN|
 |RSQ|
 
@@ -417,12 +417,12 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |:- |:- |
 |SUCHE|
 |SUCHEB|
-|ZWEITE|
+|SEKUNDE|
 |REIHENFOLGE|
 |SERIESUM|
-|BLECH|
+|BLATT|
 |BLÄTTER|
-|SCHILD|
+|UNTERZEICHNEN|
 |SÜNDE|
 |SINH|
 |SCHRÄG|
@@ -430,7 +430,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |NEIGUNG|
 |KLEIN|
 |SORTIEREN|
-|SORTIEREN NACH|
+|SORTIERE NACH|
 |Quadrat|
 |SQRTPI|
 |STANDARDISIEREN|
@@ -477,7 +477,7 @@ Aspose.Cells' Formula Calculation Engine ermöglicht es Ihnen, die Ergebnisse de
 |TREND|
 |TRIMMEN|
 |TRIMMEAN|
-|STIMMT|
+|WAHR|
 |KURZ|
 |T.TEST|
 |TTEST|

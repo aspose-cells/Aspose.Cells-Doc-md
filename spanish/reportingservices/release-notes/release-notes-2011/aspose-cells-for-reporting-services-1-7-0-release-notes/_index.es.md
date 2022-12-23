@@ -16,7 +16,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - El diseñador Aspose.Cells for Reporting Services admite la creación de una plantilla de matriz en Excel.
 - Admite formato condicional para elementos de informes de tablas y matrices.
-- Agrega el elemento de informe Tablix de representación solo para los formatos CSV y TXT en SQL Server 2008 Reporting Services.
+- Agrega el elemento de informe tablix de representación solo para los formatos CSV y TXT en SQL Server 2008 Reporting Services.
 
  ¿Qué ha cambiado?
 
@@ -36,7 +36,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |
-|22987 | Componente de servidor| Problema de codificación de exportación SSRS CSV|
+|22987 | Componente de servidor| SSRS CSV Problema de codificación de exportación|
 |17208 | Componente de servidor| Exportar informe de servicio de informes a MS Excel 2007 Error|
 |18133 | Cliente y Servidor| Grupos de columnas en Aspose.Cells.ReportingServices|
 |20251 | Componente de servidor| Extensión de servicios de informes|

@@ -32,7 +32,7 @@ url: /es/net/aspose-cells-for-net-7-3-4-release-notes/
 
 
 
- Actuación
+ Rendimiento
 
 - El método CalculateFormula de Workbook tarda más de 30 segundos
 - Degradación del rendimiento de Office 2007 en comparación con 2003
@@ -74,7 +74,7 @@ url: /es/net/aspose-cells-for-net-7-3-4-release-notes/
 
  -Convertir XLS a XLSX crea un documento incorrecto
 
-- La representación de un archivo de MS Excel en un documento PDF tiene un problema con respecto al contenido
+- La representación de un archivo de MS Excel en el documento PDF tiene un problema con respecto al contenido
 
 
 
@@ -84,7 +84,7 @@ url: /es/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Insectos
 
-40838 - GridWeb: el formato no se guardó correctamente
+ 40838 - GridWeb: el formato no se guardó correctamente
 
  41140 - Problema al usar la opción "Agregar fila"
 

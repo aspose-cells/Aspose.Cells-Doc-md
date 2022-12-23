@@ -29,7 +29,7 @@ För att ändra teckensnitt och färg på en cell med Aspose.Cells.GridDesktop, 
 Det finns sex typer av gränser som stöds av Aspose.Cells.GridDesktop enligt följande:
 
 - **Vänster** , representerar vänster kant
-- **Höger** , representerar höger kant
+- **Rätt** , representerar höger kant
 - **Topp** , representerar övre kant
 - **Botten** , representerar den nedre kanten
 - **DiagonalDown** , representerar diagonal nedåtkant

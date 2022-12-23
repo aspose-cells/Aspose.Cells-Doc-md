@@ -13,7 +13,7 @@ Aspose.Cells le permite cambiar el color de las pestañas individuales de la hoj
 1. Haga clic con el botón derecho en una pestaña en la hoja de pestañas en la parte inferior de la hoja de trabajo actual.
 1.  Seleccione**color de pestaña**.
 1. Seleccione un color de la paleta.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
 ## **Configuración del color de la pestaña de la hoja de trabajo con Aspose.Cells**
 El código de muestra a continuación muestra cómo configurar el color de la pestaña con Aspose.Cells.
 

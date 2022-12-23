@@ -31,24 +31,24 @@ Fehler
 (CELLSJAVA-41168) – Änderungen beim zellübergreifenden Zuschneiden von Text seit 8.3.1 bis 8.3.1.5
 (CELLSJAVA-41167) – Beim Aktualisieren von Pivot-Tabellen wird eine beschädigte Arbeitsmappe generiert
 (CELLSJAVA-41232) – Fehler – Formel enthält einen definierten Namen, der mit Ziffer+e endet
-(CELLSJAVA-41215) – Mit Aspose.Cells generiertes EMF wird in verschiedenen Viewern unterschiedlich gerendert
-(CELLSJAVA-41196) – XLSB wird beschädigt, nachdem ein Arbeitsblatt und ein Zellenwert hinzugefügt wurden
+(CELLSJAVA-41215) - EMF, generiert mit Aspose.Cells, wird in verschiedenen Viewern unterschiedlich gerendert
+(CELLSJAVA-41196) – XLSB wird nach dem Hinzufügen eines Arbeitsblatts und eines Zellenwerts beschädigt
 (CELLSJAVA-41227) - API kann die Schriftart Arial nicht durch Liberation Fonts ersetzen
-(CELLSJAVA-41224) – Fehler bei der Bildkonvertierung beim Rendern von Excel in PDF
+(CELLSJAVA-41224) – Fehler bei der Bildkonvertierung beim Rendern von Excel auf PDF
 (CELLSJAVA-41223) – Das Signieren von exportierten PDF-Dateien schlägt fehl
 (CELLSJAVA-41208) – Rendering-Hinweise (Anti-Aliasing) funktionieren nicht mit SheetRender
 (CELLSJAVA-41193) – Wingdings-Symbole werden nicht richtig gerendert, wenn das Arbeitsblatt als Bild gerendert wird
 (CELLSJAVA-41184) – Probleme mit der Wiedergabe von Ausgabebildern aus dem Diagramm
 (CELLSJAVA-41106) – Datenbeschriftungen des Kreisdiagramms überlappen sich im Diagrammbild
 (CELLSJAVA-40941) – Überlappung von DataLabels des Kreisdiagramms, wenn das Diagramm als Bild gerendert wird
-(CELLSJAVA-40813) – Die Datenbeschriftung des Kreisdiagramms überlappt sich im gerenderten HTML
+(CELLSJAVA-40813) – Die Datenbeschriftung des Kreisdiagramms überschneidet sich im gerenderten HTML
 (CELLSJAVA-41182) – Glatte Linie ist nicht richtig, wenn die Punktfarbe unterschiedlich ist
 
 Ausnahmen
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException: Unbekannter Bereich, bei PivotTable.refreshData
 (CELLSJAVA-41192) – Ausnahme: „java.lang.Exception: Ende des Streams erreicht“ beim Öffnen einer XLS-Datei
-(CELLSJAVA-41228) – java.lang.ArrayIndexOutOfBoundsException beim Workbook-Ctor beim Laden eines XLS
+(CELLSJAVA-41228) – java.lang.ArrayIndexOutOfBoundsException bei Workbook ctor beim Laden von XLS
 (CELLSJAVA-41211) – Beim Auflösen der Formelreferenz tritt eine Ausnahme auf, wenn der Dateiname mit Workbook.setFileName() festgelegt wird
 
 \2) Aspose.Cells Grid-Suite
@@ -82,7 +82,7 @@ Layoutt die PivotTable in kompakter Form.
  Fügt die Methode PivotTable.ShowInOutlineForm() hinzu
 Layouts der PivotTable in Gliederungsform.
 
-Fügt die Methode PivotTable.ShowInTabularForm() hinzu
+ Fügt die Methode PivotTable.ShowInTabularForm() hinzu
 Layouts der PivotTable in tabellarischer Form.
 
  Fügt die Methode PivotTableCollection.Remove(PivotTable pivotTable) hinzu
@@ -91,7 +91,7 @@ Löscht die angegebene PivotTable
  Fügt die Methode PivotTableCollection.RemoveAt(int index) hinzu.
 Löscht die PivotTable am angegebenen Index
 
- Fügt Aspose.Cells.Vba-Namespace, VbaPorject-, VbaModuleCollection- und VbaModule-Klassen hinzu.
+Fügt Aspose.Cells.Vba-Namespace, VbaPorject-, VbaModuleCollection- und VbaModule-Klassen hinzu.
 Sie werden verwendet, um das VBA-Projekt in der Datei zu lesen und zu ändern.
 
  Fügt Border.ThemeColor-Eigenschaft hinzu.

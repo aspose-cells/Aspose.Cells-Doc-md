@@ -12,7 +12,7 @@ url: /tr/net/working-with-the-shadow-effect-of-shape-or-chart/
 - [Renk](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/color)
 - [Mesafe](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
 - [Ön Ayar Türü](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)
-- [Boyut](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
+- [Boy](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
 - [şeffaflık](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/transparency)
 ## **Şeklin veya Grafiğin Gölge Efektiyle Çalışma**
  Aşağıdaki örnek kod,[kaynak excel dosyası](5115425.xlsx) ve ilk çalışma sayfasındaki ilk şekle erişir ve alt özelliklerini ayarlar.[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)özelliğine ve ardından çalışma kitabını şuraya kaydeder:[çıktı excel dosyası](5115411.xlsx).

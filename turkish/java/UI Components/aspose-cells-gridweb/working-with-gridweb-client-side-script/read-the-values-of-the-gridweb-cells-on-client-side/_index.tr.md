@@ -14,7 +14,7 @@ GridWeb hücrelerinin değerlerini, gridwebinstance.getCellsArray() yöntemini k
 ## **İstemci Tarafındaki GridWeb hücrelerinin değerlerini okuyun**
 Aşağıdaki örnek kod, tüm hücreleri alır ve adlarını, değerlerini, satırlarını ve sütunlarını yazdırır. Konsol çıktısını bu makalenin altında görebilirsiniz. Aşağıdaki ekran görüntüsü, Google Chrome'daki örnek kodun konsol çıktısını göstermektedir.
 ## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_Metin](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
+![yapılacaklar:resim_alternatif_metin](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
 ## **Basit kod**

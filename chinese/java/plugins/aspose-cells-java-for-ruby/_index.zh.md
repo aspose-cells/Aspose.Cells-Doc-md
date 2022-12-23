@@ -10,7 +10,7 @@ url: /zh/java/aspose-cells-java-for-ruby/
 RJB 是一个桥接程序，它使用 Java Native Interface 连接 Ruby 和 Java。 Rake + Rjb 是比 Maven 和 Ant 都更强大和有用的构建工具。您可以使用 Rjb 的模拟测试您的 Java 业务逻辑类本身。它有助于将 Struts 的模型对象迁移到您的 RoR 应用程序中。但要注意构建 Swing 应用程序，Ruby（和 Rjb）不考虑 JVM 的本机线程处理......
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java 是屡获殊荣的 Excel 电子表格组件，允许 Java 开发人员嵌入读取、编写和操作 Excel® 电子表格（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）、HTML、MHTML、PDF 的功能和图像文件格式导入到自己的 Java 应用程序中，而无需依赖 Microsoft Excel®。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF和图像文件格式导入自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
 
 Aspose.Cells for Java 是一个成熟、可扩展且功能丰富的组件，它提供的许多功能远远超出其他供应商的简单数据导出功能。使用 Aspose.Cells for Java 开发人员可以导出数据、将电子表格格式化为最精细的级别、导入图像、创建图表、应用和计算复杂公式、流式传输 Excel® 数据、以各种格式保存等等 - 所有这些都不需要 Microsoft Excel®或 Microsoft 办公自动化。
 ### **Aspose.Cells Java 红宝石**
@@ -57,7 +57,7 @@ Ruby 项目 Aspose.Cells Java 展示了如何在 Ruby 中使用 Aspose.Cells Jav
 
 {{< /highlight >}}
 
-**或者**
+**要么**
 
 1. 运行以下命令。
 
@@ -115,7 +115,7 @@ Aspose.Cells Java for Ruby 是开源的，其源代码可在下面列出的主�
     - [Ruby 中的实用功能](/cells/zh/java/utility-features-in-ruby/)
       - [在 Ruby 中将图表转换为图像](/cells/zh/java/converting-chart-to-image-in-ruby/)
       - [在 Ruby 中将 Excel 文件转换为 HTML](/cells/zh/java/converting-excel-files-to-html-in-ruby/)
-      - [在 Ruby 中将 Excel 文件转换为 PDF 文件](/cells/zh/java/converting-excel-to-pdf-files-in-ruby/)
+      - [在 Ruby 中将 Excel 转换为 PDF 文件](/cells/zh/java/converting-excel-to-pdf-files-in-ruby/)
       - [在 Ruby 中将 HTML 文件转换为 Excel 电子表格](/cells/zh/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
       - [在 Ruby 中转换为 MHTML 文件](/cells/zh/java/converting-to-mhtml-files-in-ruby/)
       - [在 Ruby 中将工作表转换为图像](/cells/zh/java/converting-worksheet-to-image-in-ruby/)

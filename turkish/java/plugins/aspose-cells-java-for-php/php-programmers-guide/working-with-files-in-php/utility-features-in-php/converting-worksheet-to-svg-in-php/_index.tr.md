@@ -1,11 +1,11 @@
 ﻿---
-title: Çalışma Sayfasını PHP'de SVG'ye Dönüştürme
+title: Çalışma Sayfasını PHP'de SVG'e Dönüştürme
 type: docs
 weight: 60
 url: /tr/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
-PHP'de Aspose.Cells for Java kullanarak Çalışma Sayfasını SVG'ye dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
+## **Aspose.Cells - Çalışma Sayfası SVG'e dönüştürülüyor**
+PHP'de Aspose.Cells for Java kullanarak Çalışma Sayfasını SVG'e dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
 
 **PHP Kodu**
 
@@ -55,6 +55,6 @@ for($i=0; $i < $sheetCount; $i++)
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
-İndirmek**Çalışma Sayfasını SVG'ye Dönüştürme (Aspose.Cells)**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+İndirmek**Çalışma Sayfasını SVG'e (Aspose.Cells) Dönüştürme**aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

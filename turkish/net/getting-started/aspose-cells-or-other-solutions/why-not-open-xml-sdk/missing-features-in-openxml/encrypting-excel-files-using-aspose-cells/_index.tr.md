@@ -14,13 +14,13 @@ Aspose.Cells, Microsoft Excel dosyalarını istediğiniz şifreleme türüyle ş
 ## **Microsoft Excel'i kullanma**
 Microsoft Excel'de (burada Microsoft Excel 2003) dosya şifreleme ayarlarını yapmak için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler**.
+1.  itibaren**Araçlar** menü, seç**Seçenekler**.
  Bir iletişim kutusu görünür.
 1.  seçin**Güvenlik** sekme.
 1.  Bir şifre girin ve tıklayın**Gelişmiş** 
    **Seçenekler iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](encrypting-excel-files-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](encrypting-excel-files-using-aspose-cells_1.png)
 
 
 
@@ -29,7 +29,7 @@ Microsoft Excel'de (burada Microsoft Excel 2003) dosya şifreleme ayarlarını y
 
    **Şifreleme Türü iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](encrypting-excel-files-using-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](encrypting-excel-files-using-aspose-cells_2.png)
 
 
 

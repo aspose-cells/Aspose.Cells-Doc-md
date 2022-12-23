@@ -10,10 +10,10 @@ url: /zh/jasperreports/high-fidelity-to-the-report-design/
 
 **使用 Aspose.Cells for JasperReports 导出的示例 XLS 报告** 
 
-![待办事项：图像_替代_文本](high-fidelity-to-the-report-design_1.png)
+![待办事项：图片_替代_文本](high-fidelity-to-the-report-design_1.png)
 
-**使用内置 [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) 导出器导出的示例 XLS 报告**
+**使用内置 [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) 导出器导出的样本 XLS 报告**
 
-![待办事项：图像_替代_文本](high-fidelity-to-the-report-design_2.png)
+![待办事项：图片_替代_文本](high-fidelity-to-the-report-design_2.png)
 
 {{% /alert %}}

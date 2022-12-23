@@ -14,7 +14,7 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 首先，我们创建将在本文中使用的示例数据库。我们正在使用 Microsoft Access 创建一个数据库，其中包含一个名为 Products 的表。它的架构如下所示。
    **Products表的设计信息** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_1.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_1.png)
 
 
 
@@ -22,12 +22,12 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. Products 表中添加了一些虚拟记录。
    **产品表中的记录** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_2.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_2.png)
 ### **第 2 步：设计示例应用程序**
 在 Visual Studio.NET 中创建和设计了一个 ASP.NET Web 应用程序，如下所示。
 **设计的示例应用程序** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_3.png)
 ### **第 3 步：使用服务器资源管理器连接数据库**
 是时候连接到数据库了。我们可以使用 Visual Studio.NET 中的服务器资源管理器轻松完成。
 
@@ -35,14 +35,14 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 选择**添加连接**从菜单中。
    **选择添加连接选项** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_4.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_4.png)
 
 
 
 显示数据链接属性对话框。
 **数据链接属性对话框** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_5.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_5.png)
 
 
 
@@ -53,7 +53,7 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 点击**下一个**.
    **选择 OLE DB 提供程序后单击下一步** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
 
 
 这**联系**标签页打开。
@@ -61,7 +61,7 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 选择 Microsoft Access 数据库文件（在我们的示例中为 db.mdb）并单击**好的**.
    **选择数据库文件后单击确定按钮** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
 
 {{% alert color="primary" %}} 
 
@@ -74,14 +74,14 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 将 Products 表从**服务器资源管理器**到**网页表格**.
    **将 Products 表从 Server Explorer 拖放到 Web 表单** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_8.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_8.png)
 
 
 
 可能会出现一个对话框。
 **确认在连接字符串中包含数据库密码的对话框** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_9.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_9.png)
 
 
 
@@ -89,7 +89,7 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 已创建并添加了两个数据库连接对象（oleDbConnection1 和 oleDbDataAdapter1）。
 **创建并显示数据库连接对象 (oleDbConnection1 & oleDbDataAdapter1)** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_10.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_10.png)
 
 
 
@@ -100,7 +100,7 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 选择**生成数据集**菜单中的选项。
    **选择生成数据集选项** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_11.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_11.png)
 
 
 
@@ -111,14 +111,14 @@ url: /zh/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 1. 点击**好的**.
    **单击确定按钮生成数据集** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_12.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_12.png)
 
 
 
 dataSet11 对象被添加到设计器中。
 **生成数据集并添加到设计器** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_13.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_13.png)
 ### **第 6 步：使用工作表设计器**
 现在，是时候揭开秘密了。
 
@@ -127,14 +127,14 @@ dataSet11 对象被添加到设计器中。
 
    **选择工作表设计器选项** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_14.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_14.png)
 
 
 
 显示工作表集合编辑器（也称为工作表设计器）。
 **工作表集合编辑器对话框** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_15.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_15.png)
 
 
 
@@ -148,7 +148,7 @@ dataSet11 对象被添加到设计器中。
 1. 选择产品表。
    **设置数据源和数据成员属性** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_16.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_16.png)
 
 
 
@@ -156,14 +156,14 @@ dataSet11 对象被添加到设计器中。
 1. 检查**绑定列**财产。
    **单击 BindColumns 属性** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
 
 
 
 点击**绑定列**属性打开 BindColumn 集合编辑器。
 **BindColumn 集合编辑器** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_18.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_18.png)
 
 
 
@@ -173,7 +173,7 @@ dataSet11 对象被添加到设计器中。
 例如，您可以修改每个列的标题。
    **修改 ProductID 列的 Caption** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_19.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_19.png)
 
 
 
@@ -183,7 +183,7 @@ dataSet11 对象被添加到设计器中。
 最后，您将返回到 WebForm1.aspx 页面。
    **使用工作表设计器后返回 WebForm1.aspx 页面** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_20.png)
 
 
 上面显示了 Products 表的列名称。列的宽度很小，因此某些列的完整名称不完全可见。
@@ -281,63 +281,63 @@ End Sub
 1. 检查添加到 Page_Load 事件处理程序的代码。
    **添加到 Page_Load 事件处理程序的代码** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 ### **第 8 步：运行应用程序**
 编译并运行应用程序：或者按**Ctrl+F5**或点击**开始**. 
 **运行应用程序** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
 
 
 
 编译后，WebForm1.aspx 页面在浏览器窗口中打开，其中包含从数据库加载的所有数据。
 **从数据库加载到 GridWeb 控件的数据** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_23.png)
 ## **使用 GridWeb 控件**
 当数据加载到 GridWeb 控件时，它为用户提供了对数据的控制。 GridWeb 提供了许多不同类型的数据操作功能。
 ### **数据验证**
 Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑定列创建适当的验证规则。通过将光标悬停在单元格上来查看单元格的验证类型。
 **检查单元格的验证类型** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_24.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_24.png)
 
 此处，所选单元格包含**<内部>**验证，这意味着用户只能向其中输入整数值。如果他们输入另一个值，则会发生验证错误。而且，**<必填>**显示必须提交值 Product ID。
 ### **删除行**
 要删除一行，请选择一行（或行中的任何单元格），右键单击并选择**删除行**.
 **从菜单中选择删除行选项** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_25.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_25.png)
 
 
 该行将立即被删除。
 **网格数据（删除一行后）** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
 ### **编辑行**
-编辑单元格或行中的数据，然后单击**节省**或者**提交**保存更改。
+编辑单元格或行中的数据，然后单击**救球**要么**提交**保存更改。
 ### **添加行**
 1. 要添加一行，请右键单击一个单元格并选择**添加行**.
    **从菜单中选择添加行选项** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_27.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_27.png)
 
 
 
 新行将添加到工作表中其他行的末尾。
 **新行添加到网格** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_28.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_28.png)
 
 
 
 新行的左边是一个星号{{< emoticons/cross >}} 表明该行是新的。
 
 1. 将值添加到新行。
-1. 点击**节省**或者**提交**确认更改。
+1. 点击**救球**要么**提交**确认更改。
    **单击 *Save 保存对数据的更改**按钮*
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
 ### **设置数字格式**
 目前，价格在**产品价格**列显示为数值。可以使它们看起来像货币。
 
@@ -346,7 +346,7 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 这**数字类型**的财产**产品价格**列设置为**一般的**.
    **NumberType 属性设置为常规** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
 
 
 
@@ -354,7 +354,7 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 1. 点击**下拉列表**并选择**货币4**从列表中。
    **NumberType 属性更改为 Currency4** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_31.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_31.png)
 
 
 
@@ -363,16 +363,16 @@ Aspose.Cells.GridWeb 根据数据库中定义的数据类型自动为所有绑�
 中的值**产品价格**列现在是货币。
    **产品价格货币数字格式** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
 ### **编辑数据**
-到目前为止，该应用程序仅允许其用户查看表数据。用户可以在 GridWeb 控件中编辑数据，但是当关闭浏览器并打开数据库时，没有任何变化。所做的更改不会保存到数据库中。
+到目前为止，该应用程序仅允许其用户查看表数据。用户可以在 GridWeb 控件中编辑数据，但是当关闭浏览器并打开数据库时，没有任何改变。所做的更改不会保存到数据库中。
 
 以下示例将代码添加到应用程序，以便 GridWeb 可以保存对数据库的更改。
 
 1. 打开**特性**窗格并从列表中选择 GridWeb 控件的 SaveCommand 事件。
    **选择 GridWeb 的 SaveCommand 事件** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
 
 
 
@@ -455,9 +455,9 @@ End Sub
 您还可以检查添加到 GridWeb1_SaveCommand 事件处理程序的代码
 **添加到 GridWeb1_SaveCommand 事件处理程序的代码** 
 
-![待办事项：图像_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_34.png)
+![待办事项：图片_替代_文本](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_34.png)
 
-使用将更改保存到数据库**节省**按钮现在肯定会保存它们。
+使用将更改保存到数据库**救球**按钮现在肯定会保存它们。
 ## **结论**
 {{% alert color="primary" %}} 
 

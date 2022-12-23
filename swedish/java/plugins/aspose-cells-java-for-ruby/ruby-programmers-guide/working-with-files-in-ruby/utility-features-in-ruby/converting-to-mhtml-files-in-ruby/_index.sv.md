@@ -1,10 +1,10 @@
 ﻿---
-title: Konvertera till MHTML-filer i Ruby
+title: Konvertera till MHTML filer i Ruby
 type: docs
 weight: 50
 url: /sv/java/converting-to-mhtml-files-in-ruby/
 ---
-## **Aspose.Cells - Konvertering till MHTML-filer**
+## **Aspose.Cells - Konvertering till MHTML filer**
 För att konvertera kalkylblad till MHTML-fil med Aspose.Cells for Java i Ruby, anropa kalkylblad_till_mhtml()-metoden för konverteringsmodulen.
 
 **Ruby kod**

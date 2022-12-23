@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-521|Utilisez la fonction SSRS LookUp avec Aspose.Cells for Reporting Services|Nouvelle fonctionnalité|
 |CELLSRS-528|Réduire ou développer les champs du tableau croisé dynamique dans Aspose.Cells for Reporting Services|Nouvelle fonctionnalité|

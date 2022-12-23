@@ -30,5 +30,5 @@ Följande kodavsnitt visar hur man hanterar DataLabels:
 - [Inaktivera textbrytning för dataetiketter i diagrammet](/cells/sv/net/disable-text-wrapping-for-data-labels-of-the-chart/)
 - [Ändra storlek på diagrammets dataetikettsform för att passa text](/cells/sv/net/resize-chart-s-data-label-shape-to-fit-text/)
 - [Rich Text anpassad dataetikett för diagrampunkt](/cells/sv/net/rich-text-custom-data-label-of-chart-point/)
-- [Ställ in formtyp för dataetiketter för diagram](/cells/sv/net/set-the-shape-type-of-data-labels-of-chart/)
+- [Ställ in formtypen för dataetiketter för diagram](/cells/sv/net/set-the-shape-type-of-data-labels-of-chart/)
 - [Visar Cell intervall som dataetiketter](/cells/sv/net/showing-cell-range-as-the-data-labels/)

@@ -9,7 +9,7 @@ In questa pagina vengono descritte le novità più interessanti di Aspose.Cells 
 
 ## Aspose.Cells for .NET 22.12
 
-* Supporto per esportare Excel in JSON con struttura gerarchica a più livelli
+* Supporto per esportare Excel a JSON con struttura gerarchica a più livelli
 
 ## Aspose.Cells for .NET 22.11
 
@@ -48,7 +48,7 @@ Miglioramento delle prestazioni della memoria nell'impostazione della formula de
 
 ## Aspose.Cells for .NET 22.4
 
-* Opzioni avanzate per controllare le celle vuote per l'esportazione di CSV.
+* Opzioni avanzate per controllare le celle vuote per l'esportazione CSV.
 * Supporta la divisione complicata e l'aggiornamento della formattazione condizionale per le operazioni di inserimento/cancellazione
 
 ## Aspose.Cells for .NET 22.3

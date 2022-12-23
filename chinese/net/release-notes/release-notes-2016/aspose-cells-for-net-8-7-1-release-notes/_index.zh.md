@@ -13,11 +13,11 @@ url: /zh/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44195 |转换为 XLS 文件格式后，文件在受保护的视图中打开|强化|
 |CELLSNET-44182 |Cells 使用自定义格式查找在旧版本中有效但在新版本中无效|强化|
 |CELLSNET-44187 |Cell 值在转换为 HTML 时被错误地替换为#|漏洞|
-|CELLSNET-44161 | Aspose.Cells 生成的XLSX导致Excel 2007修复电子表格|漏洞|
+|CELLSNET-44161 | Aspose.Cells生成XLSX导致Excel 2007修复电子表格|漏洞|
 |CELLSNET-44063 |使用输入文件后数据透视表丢失标题的顺序|漏洞|
 |CELLSNET-44215 |保存为 pdf，在表格右侧显示无关数据|漏洞|
 |CELLSNET-44201 |关于 CHAR 公式中不支持的字符索引的问题|漏洞|
-|CELLSNET-44193 |倾斜的单元格阴影未正确呈现为 PDF|漏洞|
+|CELLSNET-44193 |倾斜的单元格阴影未正确渲染到 PDF|漏洞|
 |CELLSNET-44213 |从工作表中保存图片会导致图像略有不同|漏洞|
 |CELLSNET-44192 |图表顶部的类别标签右对齐而不是左对齐|漏洞|
 |CELLSNET-44240 |重命名命名范围的问题|漏洞|
@@ -29,7 +29,7 @@ url: /zh/net/aspose-cells-for-net-8-7-1-release-notes/
 |CELLSNET-44214 |复制范围不保留 ListObject 设置|漏洞|
 |CELLSNET-44203 |对于 Worksheet.Copy 操作，8.6.2 和 8.7.0 中的公式引用是不同的|漏洞|
 |CELLSNET-44241 |System.IndexOutOfRangeException 在 Cells.ImportData|例外|
-|CELLSNET-44226 |以 ODS 格式保存时 Workbook.Save 出现 System.ArgumentException|例外|
+|CELLSNET-44226 | System.ArgumentException at Workbook.Save 以 ODS 格式保存|例外|
 |CELLSNET-44225 |异常：“定义名称的无效文本。”复制工作表时发生|例外|
 |CELLSNET-44223 |加载特定 XLSX 文件时出现 NullReferenceException|例外|
 |CELLSNET-44212 |打开源 excel 文件时出现 NullReference 异常|例外|

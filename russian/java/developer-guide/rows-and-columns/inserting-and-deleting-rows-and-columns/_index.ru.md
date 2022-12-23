@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /ru/java/inserting-and-deleting-rows-and-columns/
 ---
-## **Введение**
+## **Вступление**
 Независимо от того, создаете ли вы новый рабочий лист с нуля или работаете с существующим рабочим листом, нам может потребоваться добавить дополнительные строки или столбцы для размещения большего количества данных. И наоборот, нам также может понадобиться удалить строки или столбцы из указанных позиций на листе.
 
 Чтобы выполнить эти требования, Aspose.Cells предоставляет очень простой набор классов и методов, обсуждаемых ниже.
@@ -30,11 +30,11 @@ url: /ru/java/inserting-and-deleting-rows-and-columns/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-InsertingMultipleRows-InsertingMultipleRows.java" >}}
 ## **Вставить строку с форматированием**
-Чтобы вставить строку с параметрами форматирования, используйте кнопку[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) перегрузка, которая занимает[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)как параметр. Установить[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)свойство[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)класс с[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Перечисление.[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Перечисление состоит из трех членов, перечисленных ниже.
+Чтобы вставить строку с параметрами форматирования, используйте кнопку[вставить ряды](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) перегрузка, которая занимает[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)как параметр. Установить[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)собственностью[InsertOptions](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)класс с[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Перечисление.[КопироватьФорматТип](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Перечисление состоит из трех членов, перечисленных ниже.
 
-- [ТАКОЙ ЖЕ_В КАЧЕСТВЕ_ВЫШЕ](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)форматирует строку так же, как указанную выше строку.
-- [ТАКОЙ ЖЕ_В КАЧЕСТВЕ_НИЖЕ](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): форматирует строку так же, как строку ниже.
-- [ЧИСТО](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): очищает форматирование.
+- [ТЕМ ЖЕ_КАК_ВЫШЕ](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)форматирует строку так же, как указанную выше строку.
+- [ТЕМ ЖЕ_КАК_НИЖЕ](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): форматирует строку так же, как строку ниже.
+- [ЧИСТЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): очищает форматирование.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}
 ## **Удаление строки**

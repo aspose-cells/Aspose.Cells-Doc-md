@@ -14,7 +14,7 @@ url: /ja/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 ![todo:画像_代替_文章](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-次のスクリーンショットは、[PDF出力](5115555.pdf)指定されたリンクからダウンロードできます。ここでわかるように、赤色と黄色の背景のデータは存在しませんが、すべての形状が存在します。
+次のスクリーンショットは、[出力 PDF](5115555.pdf)指定されたリンクからダウンロードできます。ここでわかるように、赤色と黄色の背景のデータは存在しませんが、すべての形状が存在します。
 
 ![todo:画像_代替_文章](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

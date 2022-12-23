@@ -11,7 +11,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.6.1 a l
 {{% /alert %}} 
 ## **API añadidas**
 ### **Soporte para devolución de llamada con marcadores inteligentes**
-Esta versión de Aspose.Cells for Java API ha expuesto el campo WorkbookDesigner.CallBack y la interfaz ISmartMarkerCallBack que juntos permiten[obtener las notificaciones sobre la referencia de celda y/o el marcador inteligente que se está procesando](/cells/es/java/getting-notifications-while-merging-data-with-smart-markers/) . El siguiente fragmento de código demuestra el uso de la interfaz ISmartMarkerCallBack para definir una nueva clase que maneja la devolución de llamada para el método WorkbookDesigner.process.
+ Esta versión de Aspose.Cells for Java API ha expuesto el campo WorkbookDesigner.CallBack y la interfaz ISmartMarkerCallBack que juntos permiten[obtener las notificaciones sobre la referencia de celda y/o el marcador inteligente que se está procesando](/cells/es/java/getting-notifications-while-merging-data-with-smart-markers/) . El siguiente fragmento de código demuestra el uso de la interfaz ISmartMarkerCallBack para definir una nueva clase que maneja la devolución de llamada para el método WorkbookDesigner.process.
 
 **Java**
 
@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **Método Chart.toPdf agregado**
-Aspose.Cells for Java 8.6.2 ha expuesto el método Chart.toPdf que se puede usar para representar directamente la forma del gráfico en formato PDF. Dicho método actualmente acepta un parámetro de tipo Cadena como ubicación de la ruta del archivo para almacenar el archivo resultante en el disco.
+Aspose.Cells for Java 8.6.2 ha expuesto el método Chart.toPdf que se puede usar para representar directamente la forma del gráfico en el formato PDF. Dicho método actualmente acepta un parámetro de tipo Cadena como ubicación de la ruta del archivo para almacenar el archivo resultante en el disco.
 
 El siguiente es el escenario de uso simple.
 
@@ -108,7 +108,7 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **Método Workbook.removeUnusedStyles añadido**
+### **Método Workbook.removeUnusedStyles agregado**
  Aspose.Cells for Java 8.6.2 ha expuesto el método Workbook.removeUnusedStyles que se puede usar para[elimine todos los objetos de estilo no utilizados del grupo de estilos](/cells/es/java/remove-unused-styles-inside-the-workbook/). 
 
 El siguiente es el escenario de uso simple.

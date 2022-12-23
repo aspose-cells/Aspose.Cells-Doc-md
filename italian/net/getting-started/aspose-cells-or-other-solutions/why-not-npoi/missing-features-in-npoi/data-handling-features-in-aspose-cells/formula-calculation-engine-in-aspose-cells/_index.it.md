@@ -59,7 +59,7 @@ book.Save("AsposeFormulaEngine.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Motore di calcolo delle formule** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Motore di calcolo delle formule** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Formula.Calculation.Engine.Aspose.Cells.zip)
 

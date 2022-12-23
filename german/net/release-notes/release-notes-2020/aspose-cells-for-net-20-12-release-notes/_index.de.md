@@ -19,11 +19,11 @@ url: /de/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47749|Entfernen Sie das Ods-Makro in Workbook.RemoveMacro|Erweiterung|
 |CELLSNET-47759|Unterstützung des h1-Tags beim Festlegen von Cell.HtmlString|Erweiterung|
 |CELLSNET-47771|Neues Arbeitsblatt fehlt mc:Ignorable="x14ac xr xr2 xr3"|Erweiterung|
-|CELLSNET-47758| Die komplexe Konvertierung von XLSM in HTML nimmt viel Zeit in Anspruch|Leistung|
+|CELLSNET-47758| Der Konvertierungskomplex XLSM in HTML nimmt viel Zeit in Anspruch|Leistung|
 |CELLSNET-47578|Beim Konvertieren des Dokuments Cells in HTML wird ein ungültiges Markup mit einem ungeöffneten schließenden SPAN-Tag erzeugt|Insekt|
 |CELLSNET-47776|DirectoryNotFoundException beim Versuch, HTML zu öffnen|Insekt|
-|CELLSNET-47643|Einige zusätzliche Spalten in der neuen Ausgabe in Excel zum HTML-Rendering|Insekt|
-|CELLSNET-47688|Einige TDs verursachen einen Schriftartfehler für die Wingdings-Schriftart bei der HTML-zu-PDF-Wiedergabe|Insekt|
+|CELLSNET-47643|Einige zusätzliche Spalten in der neuen Ausgabe in Excel zum Rendern von HTML|Insekt|
+|CELLSNET-47688|Einige TDs verursachen einen Schriftartfehler für die Wingdings-Schriftart bei der Wiedergabe von HTML bis PDF|Insekt|
 |CELLSNET-47690|Die Konvertierung von HTML in Xlsx berücksichtigt nicht das Styling der HTML-Tabelle|Insekt|
 |CELLSNET-47718|Bilder werden beim Importieren von Dateien in HTML falsch ausgerichtet|Insekt|
 |CELLSNET-47729|Beim Importieren von HTML in Excel überlappen Bilder den Text|Insekt|
@@ -33,7 +33,7 @@ url: /de/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47731|Falsches Ergebnis der PPMT-Formelausführung|Insekt|
 |CELLSNET-47734|Spalte einfügen und Formel ändern löscht andere Formeln|Insekt|
 |CELLSNET-47738|Autofilter funktioniert nicht wie Excel|Insekt|
-|CELLSNET-47764|Zahl, die während der Konvertierung von XLSX in CSV in wissenschaftlich umgewandelt wurde|Insekt|
+|CELLSNET-47764|Die Nummer wurde während der Konvertierung von XLSX in CSV in eine wissenschaftliche Nummer umgewandelt|Insekt|
 |CELLSNET-47740| Text wird beim automatischen Anpassen von Zeilen mit benutzerdefinierter Schriftart abgeschnitten (erste Zeile wird nicht angezeigt).|Insekt|
 |CELLSNET-47753|Rahmen um das Symbol beim Konvertieren von Excel in PDF|Insekt|
 |CELLSNETCORE-88|SetFontFolders funktioniert nicht richtig mit Datenreihenbeschriftungen|Insekt|
@@ -45,10 +45,10 @@ url: /de/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNETCORE-89|Durch das Löschen leerer Spalten werden die Kommentare in den Spalten nach der gelöschten Spalte entfernt|Insekt|
 |CELLSNET-47732|RefreshPivotData löst eine Ausnahme aus|Ausnahme|
 |CELLSNET-47745|Ausnahme beim Importieren von Beispieldateien ausgelöst|Ausnahme|
-|CELLSNET-47711|Ausnahme beim Öffnen der ODS-Datei|Ausnahme|
+|CELLSNET-47711|Ausnahme beim Öffnen der Datei ODS|Ausnahme|
 |CELLSNET-47712|Beim Versuch, das angehängte Dokument zu laden, wird eine Ausnahme ausgelöst|Ausnahme|
 |CELLSNET-47715|Xltx-Datei kann nicht geladen werden|Ausnahme|
-|CELLSNET-47735|Ausnahme beim Öffnen von XLSB|Ausnahme|
+|CELLSNET-47735|Ausnahme beim Öffnen XLSB|Ausnahme|
 |CELLSNET-47741|Der Spaltenindex sollte sich beim Aufrufen von DeleteBlankColumns nicht innerhalb der Pivottable-Berichtsausnahme befinden|Ausnahme|
 |CELLSNET-47750|XLSX kann nicht geöffnet werden|Ausnahme|
 |CELLSNET-47751|XLSX kann nicht in XLSM konvertiert werden|Ausnahme|

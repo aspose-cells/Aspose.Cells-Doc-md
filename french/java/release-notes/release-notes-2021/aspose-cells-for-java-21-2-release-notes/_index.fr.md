@@ -10,13 +10,13 @@ url: /fr/java/aspose-cells-for-java-21-2-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43382|La copie produit un classeur corrompu|
 |CELLSJAVA-43364|Problème lors de l'enregistrement d'un graphique ayant une image dans le marqueur à l'image|
 |CELLSJAVA-43389|Paramètres de protection par mot de passe du classeur/feuille de calcul perdus lors de l'enregistrement au format de fichier XLSB|
-|CELLSJAVA-43392|La copie de la feuille produit un classeur corrompu|
-|CELLSJAVA-43387|L'exportation d'une seule feuille au format HTML soulève une exception|
+|CELLSJAVA-43392| La copie de la feuille produit un classeur corrompu|
+|CELLSJAVA-43387|L'exportation d'une seule feuille vers HTML soulève une exception|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

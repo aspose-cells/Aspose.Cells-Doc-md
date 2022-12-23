@@ -10,7 +10,7 @@ Si prega di considerare questi dati testuali, ad esempio {11, 111, 22}. Questi d
 
 ![cose da fare:immagine_alt_testo](specifying-sort-warning-while-sorting-data_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
  Il codice di esempio seguente illustra l'utilizzo di[**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)proprietà come spiegato in precedenza. Si prega di controllare il suo[esempio di file Excel](43352075.xlsx) e[file Excel di output](43352076.xlsx) per ulteriore aiuto.
 

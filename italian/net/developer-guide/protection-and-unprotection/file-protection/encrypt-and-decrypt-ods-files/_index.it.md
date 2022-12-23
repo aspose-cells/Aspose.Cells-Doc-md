@@ -6,8 +6,8 @@ url: /it/net/encrypt-and-decrypt-ods-files/
 description: proteggere con password e crittografare i file ODS utilizzando Aspose.Cells per .Net che è una libreria di rete pura.
 ---
 {{% alert color="primary" %}}
- OpenOffice.org è una suite per ufficio completa che supporta la protezione tramite password e la crittografia dei file. Tuttavia, il file ODS crittografato può essere aperto solo da OpenOffice dopo aver fornito la password. Excel non è in grado di aprire il file ODS crittografato e potrebbe generare un messaggio di avviso. Le opzioni di crittografia non sono applicabili per il file ODS a differenza di altri tipi di file.
- Aspose.Cells consente di crittografare e decrittografare il file ODS. Il file ODS decrittografato può essere aperto sia in Excel che in OpenOffice,
+OpenOffice.org è una suite per ufficio completa che supporta la protezione tramite password e la crittografia dei file. Tuttavia, il file ODS crittografato può essere aperto solo da OpenOffice dopo aver fornito la password. Excel non è in grado di aprire il file crittografato ODS e potrebbe generare un messaggio di avviso. Le opzioni di crittografia non sono applicabili per il file ODS a differenza di altri tipi di file.
+ Aspose.Cells consente di crittografare e decrittografare il file ODS. Il file ODS decifrato può essere aperto sia in Excel che in OpenOffice,
 {{% /alert %}}
 
 ## **Crittografare con OpenOffice Calc**
@@ -17,7 +17,7 @@ description: proteggere con password e crittografare i file ODS utilizzando Aspo
 1.  Clicca il**OK** pulsante per salvare il file.
 
 ## **Crittografare il file ODS con Aspose.Cells per .Net**
- Per crittografare un file ODS, caricare il file e impostare l'estensione[**Impostazioni cartella di lavoro.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valore alla password effettiva prima di salvarla. Il file ODS crittografato di output può essere aperto solo in OpenOffice.
+ Per crittografare un file ODS, caricare il file e impostare l'estensione[**Impostazioni cartella di lavoro.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valore alla password effettiva prima di salvarla. Il file crittografato di output ODS può essere aperto solo in OpenOffice.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

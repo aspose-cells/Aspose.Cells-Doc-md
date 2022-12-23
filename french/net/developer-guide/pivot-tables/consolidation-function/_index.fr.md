@@ -25,7 +25,7 @@ url: /fr/net/consolidation-function/
 
 ### **Application de ConsolidationFunction aux champs de données du tableau croisé dynamique**
 
- Le code suivant s'applique**Moyen** fonction de consolidation au premier champ de données (ou champ de valeur) et**DistinctCount** fonction de consolidation au deuxième champ de données (ou champ de valeur).
+ Le code suivant s'applique**Moyenne** fonction de consolidation au premier champ de données (ou champ de valeur) et**DistinctCount** fonction de consolidation au deuxième champ de données (ou champ de valeur).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
 

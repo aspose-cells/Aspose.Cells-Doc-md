@@ -9,7 +9,7 @@ url: /zh/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ## **删除 Excel 文件中工作表的现有打印机设置**
 Aspose.Cells 允许您删除为 Excel 文件中的不同工作表指定的现有打印机设置。以下示例代码说明了如何删除工作簿中所有工作表的现有打印机设置。请看其[示例 Excel 文件](45056023.xlsx), [输出Excel文件](45056024.xlsx)，控制台输出以及屏幕截图以供参考。
 ## **截屏**
-![待办事项：图像_替代_文本](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
+![待办事项：图片_替代_文本](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Worksheets-PageSetupFeatures-RemoveExistingPrinterSettingsOfWorksheets.java" >}}
 ## **控制台输出**

@@ -14,39 +14,39 @@ url: /sv/net/aspose-cells-for-net-20-9-release-notes/
 |:- |:- |:- |
 |CELLSNET-47567|Stöd Hämta/ställ in egenskaperna för skivformen|Ny funktion|
 |CELLSNET-47549|Klient-api för att lägga till/ta bort kommentarer för GridWeb|Ny funktion|
-|CELLSNET-47555|Diagram tillåter inte att #N/A behandlas som tomma celler när du sparar som PDF|Förbättring|
+|CELLSNET-47555|Diagrammet tillåter inte att #N/A behandlas som tomma celler när du sparar som PDF|Förbättring|
 |CELLSNET-47579|Kaiti-teckensnittet är inte korrekt renderat|Förbättring|
-|CELLSNET-47154|Frågetabeller laddas inte från ODS-fil|Förbättring|
+|CELLSNET-47154|Frågetabeller laddas inte från filen ODS|Förbättring|
 |CELLSNET-47556|Förbättring för frysning och delning av arbetsblad|Förbättring|
 |CELLSNET-47570|Makron bör tas bort när du kombinerar/kopierar arbetsböcker|Förbättring|
 |CELLSNET-47543|Problem med smarta markörer med villkorlig formatering|Insekt|
 |CELLSNET-47561|Valuta med anpassat format visas utanför cellen i HTML|Insekt|
 |CELLSNET-47562|Sparar tomt ark med exporterade rutnätsinställningar till HTML|Insekt|
-|CELLSNET-47569|Pivottabellen visas inte korrekt efter konvertering av XLSX till PDF|Insekt|
+|CELLSNET-47569|Pivottabellen visas inte korrekt efter XLSX till PDF konvertering|Insekt|
 |CELLSNET-47475|CalculateFormula() beräknar annorlunda än MS Excel|Insekt|
 |CELLSNET-47531|Formler som innehåller namn som inte finns visas som `WorkbookName`!Namn|Insekt|
-|CELLSNET-47545|Anpassat negativt nummer renderas felaktigt till PDF|Insekt|
+|CELLSNET-47545|Anpassat negativt nummer återgivet felaktigt till PDF|Insekt|
 |CELLSNET-47548|Problem med att importera textfil med dubbla citattecken|Insekt|
 |CELLSNET-47558|Anpassade negativa tal (med användning av regionen Schweiz) renderade felaktigt till PDF|Insekt|
 |CELLSNET-47075|Behöver synkronisera rullning av två rutnät precis som excels SyncScrollingSideBySide.|Insekt|
 |CELLSNET-47559|Det går inte att markera celler med piltangenterna på tangentbordet när arket är skrivskyddat|Insekt|
-|CELLSNET-47360|Transparenta markörpunkter i diagrammet i Excel-filen blir förvrängda i den utgående PDF-filen|Insekt|
+|CELLSNET-47360|Transparenta markörpunkter i diagrammet i Excel-filen blir förvrängda i utdata PDF|Insekt|
 |CELLSNET-47565|Förgrundssidfotsbild blir bakgrund|Insekt|
-|CELLSNET-46502|XLSX till TIFF-konvertering resulterar i en svart låda|Insekt|
-|CELLSNET-46821|Konverterar kalkylblad till TIFF - Bilden är mörk|Insekt|
+|CELLSNET-46502|XLSX till TIFF omvandling resulterar i en svart låda|Insekt|
+|CELLSNET-46821|Konverterar kalkylblad till TIFF - Bilden är mörklagd|Insekt|
 |CELLSNET-47458|Formförvrängning efter konvertering till PDF-fil|Insekt|
 |CELLSNET-47551|X-axeln är inte korrekt vid konvertering av Excel-diagram till PDF|Insekt|
 |CELLSNET-47546| Ta bort tomma rader/kolumner skadar Excel-dokument|Insekt|
 |CELLSNET-47552|Fel PowerQueryFormula.FormulaDefinition|Insekt|
 |CELLSNET-47573|Det går inte att skapa önskad formatering med shift|Insekt|
-|CELLSNET-47574|XLS till HTML producerar tom fil|Insekt|
+|CELLSNET-47574|XLS till HTML skapar tom fil|Insekt|
 |CELLSNET-47581|MaxColumn är inställd på kolumn XFD efter anrop av InsertCutCells()|Insekt|
 |CELLSNET-47586|Arbetsbok med vattenfallsdiagram kan inte öppnas med Excel 2016 efter kopiering|Insekt|
 |CELLSNET-47547|Undantaget höjs när man lägger till skivare för bordet|Undantag|
-|CELLSNET-47553|Undantag när en XLS-fil sparas till XLSX|Undantag|
-|CELLSNET-47563|Undantag "Filen är skadad" när ett XLS-filformat laddas|Undantag|
+|CELLSNET-47553|Undantag när du sparar en XLS-fil till XLSX|Undantag|
+|CELLSNET-47563|Undantag "Filen är skadad" när du laddar ett XLS filformat|Undantag|
 |CELLSNET-47580|ArgumentOutOfRangeException vid konvertering av excel|Undantag|
-|CELLSNET-47592|Undantag vid konvertering av viss XLSX till XLS|Undantag|
+|CELLSNET-47592|Undantag vid konvertering av särskilt XLSX till XLS|Undantag|
 |CELLSNET-47557|Vissa egenskaper saknas vid kombination av arbetsböcker|Regression|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -55,7 +55,7 @@ Följande är en lista över alla ändringar som gjorts för allmänheten API, s
 
 ### **Lägger till egenskapen AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-För prestanda och användarens bekvämlighetsskäl lade vi till den här egenskapen och gjorde dess standardvärde som**falsk** så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av**AbstractCalculation Engine** ändrat vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den som**Sann** från**20.9**.
+ För prestanda och användarens bekvämlighetsskäl lade vi till den här egenskapen och gjorde dess standardvärde som**falsk** så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av**AbstractCalculation Engine** ändrat vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den som**Sann** från**20.9**.
 
 ### **Lägger till egenskapen TxtLoadOptions.HasTextQualifier**
 

@@ -33,7 +33,7 @@ Den här sidan innehåller releasenotes för [ Aspose.Cells for Reporting Servic
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
 |11837 | Framställa| Funktioner som stöds av Aspose.Cells.ReportingServices|
-|11563 | Framställa| SSRS-prenumeration sparas till filsystemet som XLS-problem|
+|11563 | Framställa| SSRS-prenumeration sparas till filsystemet som XLS problem|
 |11085 | Framställa| Aspose.Cells 64-bitars problem|
 |11090 | Framställa| Programmatiska rader|
 |10710 | Framställa| Rapportera export till .xls|

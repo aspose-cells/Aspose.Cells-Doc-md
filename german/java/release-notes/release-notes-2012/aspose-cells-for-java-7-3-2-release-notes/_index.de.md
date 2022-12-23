@@ -20,7 +20,7 @@ Wir sind
 
  Verbesserungen
 
-- Schließen Sie interne Streams zum Freigeben von Speicherressourcen bei der PDF-Konvertierung
+- Schließen Sie interne Streams zum Freigeben von Speicherressourcen in der PDF-Konvertierung
 - Kopieren Sie Sparklines beim Kopieren des Arbeitsblatts
 
  Ausnahmen
@@ -29,10 +29,10 @@ Wir sind
 - Das Speichern von PDF verursachte eine Ausnahme
 - Worksheet.getFreezedPanes() verursachtNullPointerException
 - Das Öffnen einer leeren XML-Datei hat eine Ausnahme verursacht
-- Das Speichern in PDF verursachte eine Ausnahme -I
-- Das Speichern in PDF verursachte eine Ausnahme -II
-- Beim Speichern im PDF-Format kam es zu einer Ausnahme -III
-- Beim Speichern im PDF-Format kam es zu einer Ausnahme -IV
+- Beim Speichern auf PDF kam es zu einer Ausnahme -I
+- Beim Speichern auf PDF kam es zu einer Ausnahme -II
+- Beim Speichern auf PDF kam es zu einer Ausnahme -III
+- Beim Speichern auf PDF kam es zu einer Ausnahme -IV
 - Ausnahme beim Öffnen der HTM-Vorlagendatei
 - IllegalArgumentException beim Öffnen einer XLS-Datei
 - NullPointerException beim Öffnen einer XLS-Datei
@@ -45,5 +45,5 @@ Wir sind
 
 - Einige in den XLS-Vorlagen gespeicherte Regionen konnten beim Lesen nicht erkannt werden
 - Diagramm-zu-Bild kann die Skala für Balkendiagramme nicht rendern
-- Datenverlust nach Konvertierung von XLSX in PDF
+- Datenverlust nach Umstellung von XLSX auf PDF
 - Torten- und Streudiagramme funktionieren nicht, wenn Cellcollection gelöscht ist

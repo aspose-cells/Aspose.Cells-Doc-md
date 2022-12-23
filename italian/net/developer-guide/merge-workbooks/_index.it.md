@@ -7,7 +7,7 @@ url: /it/net/combine-multiple-workbooks-into-a-single-workbook/
 ---
 {{% alert color="primary" %}}
 
-A volte, è necessario combinare cartelle di lavoro con vari contenuti come immagini, grafici e dati in un'unica cartella di lavoro. Aspose.Cells supporta questa funzione. Questo articolo illustra come creare un'applicazione console in Visual Studio e combinare le cartelle di lavoro con poche e semplici righe di codice usando Aspose.Cells.
+volte, è necessario combinare cartelle di lavoro con vari contenuti come immagini, grafici e dati in un'unica cartella di lavoro. Aspose.Cells supporta questa funzione. Questo articolo illustra come creare un'applicazione console in Visual Studio e combinare le cartelle di lavoro con poche e semplici righe di codice usando Aspose.Cells.
 
 {{% /alert %}}
 

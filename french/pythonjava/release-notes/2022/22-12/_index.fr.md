@@ -10,24 +10,24 @@ url: /fr/python-java/aspose-cells-for-python-via-java-22-12-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43645|L'attribut "3-D-format" du rectangle n'est pas rendu correctement|
-|CELLSJAVA-44936|Définir les paramètres PPP de l'image graphique (PNG)|
+|CELLSJAVA-44936|Définir l'image du graphique (PNG) Paramètres DPI|
 |CELLSJAVA-44937|Définir les paramètres PPP de l'image graphique (JPG)|
-|CELLSJAVA-44998|Les guillemets doubles provoquant l'échec du style en ligne en HTML|
+|CELLSJAVA-44998|Le guillemet double provoquant l'échec du style en ligne dans HTML|
 |CELLSJAVA-44970|Optimiser l'effet d'ombre|
 |CELLSJAVA-44967|Graphique getDataLabels().getText() renvoyant une valeur différente dans la v22.6.0 et les versions ultérieures|
 |CELLSJAVA-44969|Convertissez Excel en HTML, les étiquettes de données affichent des erreurs|
 |CELLSJAVA-44949|La transparence a changé lors de l'insertion d'une plage Excel en tant qu'image avec un format différent dans la diapositive PowerPoint|
 |CELLSJAVA-44985|Conversion d'Excel en HTML - la légende du graphique n'apparaît pas et la zone de tracé est tronquée|
 |CELLSJAVA-44952|Problème avec la méthode DataBar.toImage concernant la largeur|
-|CELLSJAVA-44986|Les images importées ne sont pas alignées sur une ligne lorsque les images sont en Div|
+|CELLSJAVA-44986| Les images importées ne sont pas alignées sur une ligne lorsque les images sont en Div|
 |CELLSJAVA-44987|Certaines images sont couvertes par d'autres lors du chargement de html|
 |CELLSJAVA-44988|Le texte n'est pas pivoté lors du chargement du code HTML|
 |CELLSJAVA-44989|Les paramètres de police dans div sont perdus lors du chargement de html|
 |CELLSJAVA-44997|Données et mises en forme perdues lors de la conversion HTML vers Excel|
-|CELLSJAVA-44999| Aspose.Cells Les paramètres de globalisation personnalisés ne fonctionnent pas pour la plupart des tableaux croisés dynamiques|
+|CELLSJAVA-44999|Aspose.Cells Les paramètres de globalisation personnalisés ne fonctionnent pas pour la plupart des tableaux croisés dynamiques|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

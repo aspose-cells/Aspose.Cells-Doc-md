@@ -6,7 +6,7 @@ url: /zh/net/showing-cell-range-as-the-data-labels/
 ---
 {{% alert color="primary" %}}
 
-在 Microsoft Excel 2013 中，您可以显示数据标签的单元格范围。 Aspose.Cells 支持此功能。
+在 Microsoft Excel 2013 中，您可以显示数据标签的单元格区域。 Aspose.Cells 支持此功能。
 
 {{% /alert %}}
 

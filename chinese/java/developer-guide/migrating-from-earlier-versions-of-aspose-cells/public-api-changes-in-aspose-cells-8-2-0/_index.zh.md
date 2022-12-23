@@ -14,7 +14,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-2-0/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[多线程环境下同时读取Cells个值](/cells/zh/java/reading-cell-values-in-multiple-threads-simultaneously/)了解更多信息。
+请查看详细文章[多线程环境下同时读取Cells个值](/cells/zh/java/reading-cell-values-in-multiple-threads-simultaneously/)想要查询更多的信息。
 
 {{% /alert %}}
 ## **添加了 autoFitRows 和 autoFitColumns 方法的重载**

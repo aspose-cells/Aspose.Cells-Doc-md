@@ -70,5 +70,5 @@ designer.Process();
 designer.Workbook.Save("out_ImageSmartBook.xls");
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Image%20Markers%20%28Aspose.Cells%29.zip)

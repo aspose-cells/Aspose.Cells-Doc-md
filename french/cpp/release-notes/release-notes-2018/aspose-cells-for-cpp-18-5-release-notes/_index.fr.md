@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.5.
 
 {{% /alert %}} 
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSCPP-117 |Problème d'enregistrement au format EMF (format)|Punaise|
 |CELLSCPP-123 |Problème de table de hachage de glyphe|Punaise|

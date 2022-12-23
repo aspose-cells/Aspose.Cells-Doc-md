@@ -18,7 +18,7 @@ url: /es/net/aspose-cells-for-net-5-1-0-release-notes/
  Convierte minigráficos en imágenes.
  Brinda soporte para marcadores inteligentes de imagen.
  Admite los rellenos degradados de Cell y el tema del archivo XLS.
- Representa el patrón de Cell como relleno del archivo PDF generado.
+ Renderiza que el patrón de Cell rellena el archivo PDF generado.
  Agrega compatibilidad con el cumplimiento de Pdf/A-1b.
  Mejora el rendimiento y la calidad de los archivos PDF generados.
  46 mejoras y correcciones.
@@ -47,10 +47,10 @@ Proporciona una versión sobrecargada del método SumSelectedRanges para excluir
 |15467 | GridEscritorio| Cambia el nombre de la hoja de trabajo duplicada en el método ImportExcelFile|
 |17581 | Gráfico2Imagen| Convierte el gráfico en imagen|
 |17762 | Gráfico2Imagen| Las tablas de datos, los valores y la categoría se pierden para los gráficos de dispersión XY|
-|17900 | Gráfico2Imagen| Gráfico de Excel para problema de imagen|
-|18023 | Gráfico2Imagen|Gráficos de burbujas|
+|17900 | Gráfico2Imagen|Gráfico de Excel para problema de imagen|
+|18023 | Gráfico2Imagen| Gráficos de burbujas|
 |18190 | Gráfico2Imagen| Aspose.Cells descartando excepciones de memoria en Azure|
-|18012 | CSV| Exportar diferente a Excel|
+|18012 |CSV | Exportar diferente a Excel|
 |16207 | pdf| Encuentra el error al guardar el archivo PDF|
 |17535 | pdf| Una fuente en XLSX da como resultado dos fuentes en PDF|
 |17537 | pdf| Celdas en blanco con formato de moneda|
@@ -58,14 +58,14 @@ Proporciona una versión sobrecargada del método SumSelectedRanges para excluir
 |17804 | pdf| Los valores decimales no se muestran si solo hay ceros|
 |17821 | pdf| Propiedades incorporadas|
 |17981 | pdf| Problema de conversión de Excel a PDF|
-|18021 | pdf| Guardar en PDF - Problemas con la fuente|
-|18038 | pdf| El documento PDF parece estar dañado|
-|18136 | pdf| Problema de guardar PDF|
-|18258 | pdf| Fórmulas calculadas que no se actualizan en la conversión de Cells a PDF|
+|18021 | pdf| Guardando en PDF - Problemas con la fuente|
+|18038 | pdf| PDF el documento parece estar dañado|
+|18136 | pdf| Emisión de ahorro PDF|
+|18258 | pdf| Las fórmulas calculadas no se actualizan en la conversión de Cells a PDF|
 |18316 | pdf| Problema de conversión con datos que aparecen como signos numéricos|
-|18258 | pdf| Fórmulas calculadas que no se actualizan en la conversión de Cells a PDF|
+|18258 | pdf| Las fórmulas calculadas no se actualizan en la conversión de Cells a PDF|
 |18316 | pdf| Problema de conversión con datos que aparecen como signos numéricos|
-|18239 | Hoja de cálculoML| Excepción de índice de columna final no válida|
+|18239 |SpreadsheetML | Excepción de índice de columna final no válida|
 |17111 | Hoja de trabajo2Imagen| Datos numéricos con formato incorrecto|
 |17633 | Hoja de trabajo2Imagen| Línea en gráficos no convertida|
 |17903 | Hoja de trabajo2Imagen| El rendimiento de worksheet2image|
@@ -73,9 +73,9 @@ Proporciona una versión sobrecargada del método SumSelectedRanges para excluir
 |17656 | xls| Cómo encontrar filas y columnas agrupadas|
 |17761 | xls| Calcular fórmulas externas|
 |17789 | xls| Fórmula de formato condicional|
-|17810 | xls| El rango móvil se comporta incorrectamente|
+|17810 | xls|El rango móvil se comporta incorrectamente|
 |17820 | xls| Este archivo fue creado usando una versión posterior|
-|17907 | xls|Ordenar dentro de grupos no funciona|
+|17907 | xls| Ordenar dentro de grupos no funciona|
 |17954 | xls| Forma.TextoAlternativo|
 |17999 | xls| Admite agregar imagen Tif con el método Pictures.Add ()|
 |18054 | xls| Worsheet.Copy vincula la CPU al 100 %|

@@ -4,7 +4,7 @@ type: docs
 weight: 5
 url: /tr/net/chart-types/
 ---
-## **giriiş**
+## **Giriş**
 Grafik, bilgilerin görsel bir gösterimidir. Aspose.Cells, geliştiricilerin tıpkı Microsoft Excel'in yaptığı gibi grafiklerdeki bilgileri görselleştirmesine olanak tanır. Bilgileri grafikler halinde sunmak, karar vericilerin hızlı ve zamanında kararlar almaları için her zaman yardımcı olur. Verilerdeki karşılaştırmaları, kalıpları ve eğilimleri grafiklerle hızlı bir şekilde görmek, ham sayılara göre daha kolaydır. Bir elektronik tablodaki verilere dayalı olarak çalışma zamanında grafikler oluşturmak, Aspose.Cells'in en güçlü özelliklerinden biridir.
 ## **Grafik Türleri**
 Aspose.Cells, Microsoft Excel'de desteklenen hemen hemen tüm grafik türlerini destekler. Grafikler iki ana kategoriye ayrılır:
@@ -15,7 +15,7 @@ Aspose.Cells, Microsoft Excel'de desteklenen hemen hemen tüm grafik türlerini 
 Standart grafikler, normalde standart biçimlendirmeyle kullanılanlardır:
 
 - Kolon
-- Çubuk
+- Bar
 - Astar
 - Turta
 - Dağılım
@@ -82,11 +82,11 @@ Pasta grafikler çoğunlukla, bir bütünün farklı kısımlarını veya bir to
 
 Aşağıdaki pasta grafikler Aspose.Cells'de desteklenir:
 
-- basit pasta grafiği
-- 3B pasta grafiği
+- basit pasta grafik
+- 3B pasta grafik
 - Pasta grafiği pastası
 - Patlatılmış pasta grafik
-- 3B patlatılmış pasta grafiği
+- 3B patlatılmış pasta grafik
 - Pasta grafiği çubuğu
 #### **Dağılım Grafikleri**
 Dağılım çizelgeleri çoğunlukla istatistiklerde, her biri yatay ("X") ve dikey ("Y") eksende bir koordinata sahip olan yalnızca sonlu sayıda noktayı görüntüleyerek ilgili iki niceliksel veya sayısal veri kümesini görsel olarak görüntülemek ve karşılaştırmak için kullanılır.

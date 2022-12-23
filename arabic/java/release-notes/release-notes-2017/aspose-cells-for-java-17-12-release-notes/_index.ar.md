@@ -14,19 +14,19 @@ url: /ar/java/aspose-cells-for-java-17-12-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42479|تمت إزالة الغموض والتعداد LoadDataFilterOptions المحسن|التعزيز|
 |CELLSJAVA-42460|تنسيق CSV - D2 و D6 هما IsString ولكن Aspose.Cells يعاملانهما على أنهما IsNumeric|التعزيز|
-|CELLSJAVA-42457|عند تحويل XLSX إلى PDF ، تختلف بعض الخطوط في الرسوم البيانية|حشرة|
-|CELLSJAVA-42465|بعض تعريفات فئة CSS غير مسبوقة في HTML الناتج|حشرة|
-|CELLSJAVA-42456|إخراج HTML غير متوافق مع المصدر - تحويل Excel إلى HTML|حشرة|
-|CELLSJAVA-42478|يؤدي استيراد قيمة طويلة من HSQL DB إلى استثناء|حشرة|
-|CELLSJAVA-42466|لا يتم تقديم المعادلة بشكل جيد في ملف PDF الناتج|حشرة|
-|CELLSJAVA-42475|الرسم البياني مفقود في ملف PDF الناتج|حشرة|
-|CELLSJAVA-42459|عناوين البيانات الخاصة بالرسم البياني مفقودة في ملف PDF / الصورة الناتج|حشرة|
-|CELLSJAVA-42453|صورة المخطط ليست متشابهة Microsoft Excel|حشرة|
-|CELLSJAVA-42447|تعرض Datalabels بشكل خاطئ في تنسيق ملف HTML الناتج|حشرة|
-|CELLSJAVA-42481|تعيين اسم مربع التحرير والسرد لا يعمل لملف Excel المصدر ولكن إذا تم إعادة حفظه بواسطة Microsoft Excel ، فإنه يعمل بشكل جيد|حشرة|
-|CELLSJAVA-42476|Microsoft تلف ورقة عمل Excel ذات التمكين الكلي (.xlsm) بعد فتحها وحفظها عبر واجهات برمجة تطبيقات Aspose.Cells|حشرة|
-|CELLSJAVA-42470|يؤدي تعيين خلية مرتبطة بـ Checkbox إلى مطالبة MS Excel برسالة خطأ عند فتح ملف الإخراج فيه|حشرة|
-|CELLSJAVA-42462|قراءة ملف XLSB يلقي NullPointerException|استثناء|
+|CELLSJAVA-42457|عندما يتم تحويل XLSX إلى PDF ، فإن بعض الخطوط في المخططات تكون مختلفة|خلل برمجي|
+|CELLSJAVA-42465|بعض إعلانات فئة CSS غير مسبوقة في الإخراج HTML|خلل برمجي|
+|CELLSJAVA-42456|إخراج HTML غير متوافق مع المصدر - تحويل Excel إلى HTML|خلل برمجي|
+|CELLSJAVA-42478|يؤدي استيراد قيمة طويلة من HSQL DB إلى استثناء|خلل برمجي|
+|CELLSJAVA-42466|لا يتم تقديم المعادلة بشكل جيد في الإخراج PDF|خلل برمجي|
+|CELLSJAVA-42475|المخطط مفقود في الإخراج PDF|خلل برمجي|
+|CELLSJAVA-42459|عناوين البيانات للرسم البياني مفقودة في الإخراج PDF / صورة|خلل برمجي|
+|CELLSJAVA-42453|صورة المخطط ليست متشابهة Microsoft Excel|خلل برمجي|
+|CELLSJAVA-42447|يتم عرض علامات البيانات بشكل خاطئ في تنسيق ملف الإخراج HTML|خلل برمجي|
+|CELLSJAVA-42481|تعيين اسم مربع التحرير والسرد لا يعمل لملف Excel المصدر ولكن إذا تم إعادة حفظه بواسطة Microsoft Excel ، فإنه يعمل بشكل جيد|خلل برمجي|
+|CELLSJAVA-42476|Microsoft تلف ورقة عمل Excel ذات التمكين الكلي (.xlsm) بعد فتحها وحفظها عبر واجهات برمجة تطبيقات Aspose.Cells|خلل برمجي|
+|CELLSJAVA-42470|يؤدي تعيين خلية مرتبطة بـ Checkbox إلى مطالبة MS Excel برسالة خطأ عند فتح ملف الإخراج فيه|خلل برمجي|
+|CELLSJAVA-42462|تؤدي قراءة الملف XLSB إلى ظهور NullPointerException|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 ### **يضيف خاصية HtmlSaveOptions.TableCssId**
@@ -63,7 +63,7 @@ LoadDataFilterOptions.None أعطى اتجاهات غامضة وتسبب في ح
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Cells مستندات Wiki:
 
 - [الملء التلقائي لبيانات العلامات الذكية في أوراق عمل أخرى إذا كانت البيانات كبيرة جدًا](/cells/ar/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [تصدير ورقة العمل CSS بشكل منفصل في إخراج HTML](/cells/ar/java/export-worksheet-css-separately-in-output-html/)
+- [تصدير ورقة العمل CSS بشكل منفصل في الإخراج HTML](/cells/ar/java/export-worksheet-css-separately-in-output-html/)
 - [نفذ Cell.FormulaLocal مماثل لنطاق Excel VBA](/cells/ar/java/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [أنماط عناصر الجدول البادئة مع الخاصية HtmlSaveOptions.TableCssId](/cells/ar/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [عرض وظائف Office الإضافية أثناء تحويل Excel إلى Pdf](/cells/ar/java/render-office-add-ins-while-converting-excel-to-pdf/)

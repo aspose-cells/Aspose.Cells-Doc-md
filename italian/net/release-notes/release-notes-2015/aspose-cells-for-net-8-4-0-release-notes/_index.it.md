@@ -16,9 +16,9 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Nuove caratteristiche**
 
 
-(CELLSNET-43362) - Supporto per eliminare una tabella pivot dal foglio di lavoro
+ (CELLSNET-43362) - Supporto per eliminare una tabella pivot dal foglio di lavoro
 
- (CELLSNET-43279) - Le proprietà del tipo di contenuto non vengono visualizzate in formato XLS
+ (CELLSNET-43279) - Le proprietà del tipo di contenuto non vengono visualizzate nel formato XLS
 
  (CELLSNET-43276) - Workbook.ContentTypeProperties.Add(nome, valore, tipo) è necessario
 
@@ -30,9 +30,9 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43361) - Impossibile mantenere il formato numerico di Cell dopo ImportTwoDimensionArray
 
- (CELLSNET-43454) - Aspose.Pdf non convalida l'output PDF/A-1B
+ (CELLSNET-43454) - Aspose.Pdf non convalida l'uscita PDF/A-1B
 
- (CELLSNET-43452) - La conformità PDFA1B del PDF di output non è stata convalidata
+ (CELLSNET-43452) - La conformità PDFA1B dell'output PDF non è stata convalidata
 
  (CELLSNET-42646) - Cartella di lavoro RefreshChartCache funziona con le impostazioni internazionali e della lingua
 
@@ -44,15 +44,15 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Prestazione**
 
 
- (CELLSNET-43438) - Il foglio di calcolo in HTML genera un file HTML da 1 GB
+ (CELLSNET-43438) - Il foglio di calcolo per HTML genera un file HTML da 1 GB
 
- (CELLSNET-43399) - Problema di prestazioni con il metodo CalculateFormula()
+(CELLSNET-43399) - Problema di prestazioni con il metodo CalculateFormula()
 
 
 ## **Insetti**
 
 
-(CELLSNET-43460) - Colore di sfondo: rgba(0, 0, 0, 0); rende il colore di sfondo nero
+ (CELLSNET-43460) - Colore di sfondo: rgba(0, 0, 0, 0); rende il colore di sfondo nero
 
  (CELLSNET-43403) - La prima colonna scompare quando il secondo Pivot
 
@@ -68,19 +68,19 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43331) - Il file Excel viene danneggiato dopo la creazione della tabella pivot
 
- (CELLSNET-43328) - La posizione delle immagini è errata nel PDF di output
+ (CELLSNET-43328) - La posizione delle immagini è errata nell'output PDF
 
  (CELLSNET-43322) - I pulsanti apparivano nel grafico pivot quando il file veniva nuovamente salvato
 
  (CELLSNET-42919) - Errore "Excel trovato illeggibile..." dopo l'aggiornamento dei dati pivot
 
- (CELLSNET-43451) - Problema di allineamento durante il rendering del foglio di lavoro nell'immagine
+(CELLSNET-43451) - Problema di allineamento durante il rendering del foglio di lavoro nell'immagine
 
-(CELLSNET-43414) - Lo spazio tra l'intestazione e il corpo è diverso
+ (CELLSNET-43414) - Lo spazio tra l'intestazione e il corpo è diverso
 
  (CELLSNET-43411) - La versione più recente non può accettare meno di 96 dpi
 
- (CELLSNET-43410) - Spaziatura errata con ogni Environment.NewLine nel PDF di output
+ (CELLSNET-43410) - Spaziatura errata con ogni Environment.NewLine nell'output PDF
 
  (CELLSNET-43348) - Gli attributi FitToPagesTall e FitToPagesWide non funzionano come previsto
 
@@ -90,17 +90,17 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43375) - Il titolo del grafico viene visualizzato in modo errato durante la conversione del grafico in immagine
 
- (CELLSNET-43352) - La dimensione del PDF raddoppia quando viene convertito da XLSX
+ (CELLSNET-43352) - La dimensione PDF raddoppia quando viene convertita da XLSX
 
- (CELLSNET-43351) - Problema relativo alla legenda del grafico durante la conversione di XLSX in PDF
+ (CELLSNET-43351) - Problema relativo alla legenda del grafico durante la conversione da XLSX a PDF
 
- (CELLSNET-43350) - Problema relativo all'asse del grafico durante la conversione di XLSX in PDF
+ (CELLSNET-43350) - Problema relativo all'asse del grafico durante la conversione da XLSX a PDF
 
- (CELLSNET-43349) - Problema grafico durante la conversione di XLSX in PDF
+(CELLSNET-43349) - Problema grafico durante la conversione da XLSX a PDF
 
  (CELLSNET-43347) - L'ombreggiatura della serie del grafico non viene copiata durante la copia della cartella di lavoro
 
-(CELLSNET-43339) - I grafici non vengono visualizzati correttamente nel PDF di output
+ (CELLSNET-43339) - I grafici non vengono visualizzati correttamente nell'output PDF
 
  (CELLSNET-42573) - Le etichette del grafico a torta si sovrappongono
 
@@ -116,17 +116,17 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43456) - Il colore del carattere di WordArt cambia dopo il caricamento e il salvataggio di xls
 
- (CELLSNET-43441) - La conversione da XLSX a XLSB produce un foglio di calcolo danneggiato
+ (CELLSNET-43441) - La conversione da XLSX a XLSB genera un foglio di calcolo danneggiato
 
  (CELLSNET-43434) - Impossibile aprire Docm o Dotx incorporati in xls
 
  (CELLSNET-43432) - Gli indicatori intelligenti interrompono l'unione dei dati dopo un numero X di righe
 
- (CELLSNET-43426) - La combinazione di fogli di lavoro interrompe l'apostrofo
+(CELLSNET-43426) - La combinazione di fogli di lavoro interrompe l'apostrofo
 
  (CELLSNET-43424) - La formula di ricerca non viene calcolata correttamente
 
-(CELLSNET-43423) - PageSetup.IsHFAlignMargins diventa automaticamente true nel file Excel di output
+ (CELLSNET-43423) - PageSetup.IsHFAlignMargins diventa automaticamente true nel file Excel di output
 
  (CELLSNET-43419) - I collegamenti ipertestuali senza sottoindirizzi vengono persi
 
@@ -146,9 +146,9 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43338) - L'inserimento di colonne in una tabella causa l'avviso illeggibile
 
- (CELLSNET-43336) - Problema con il rendering della formattazione condizionale - Da Excel a HTML
+(CELLSNET-43336) - Problema con il rendering della formattazione condizionale - Excel a HTML
 
-(CELLSNET-43335) - Problema con il rendering della formattazione condizionale - Da Excel a PDF
+ (CELLSNET-43335) - Problema con il rendering della formattazione condizionale - Excel a PDF
 
  (CELLSNET-43333) - Il parametro Inserisci righe non funziona correttamente nel metodo Cells.ImportDataReader()
 
@@ -174,15 +174,15 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43393) - Eccezione indice fuori limite su Cell.PutValue
 
- (CELLSNET-43427) - System.OverflowException all'apertura del file Excel
+(CELLSNET-43427) - System.OverflowException all'apertura del file Excel
 
-(CELLSNET-43356) - Si verifica un errore di formato quando l'impostazione internazionale è impostata su francese
+ (CELLSNET-43356) - Si verifica un errore di formato quando l'impostazione internazionale è impostata su francese
 
  (CELLSNET-43353) - System.NullReferenceException in Workbook.Combine
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -199,16 +199,16 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
  (CELLSNET-43429) - Il grafico non viene aggiornato quando viene caricato un nuovo file Excel
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
  Aggiunge l'attributo HtmlSaveOptions.ExportBogusRowData
 
- Indica se esportare i dati della riga inferiore fasulli. il valore predefinito è vero.
+ Indica se esportare i dati della riga inferiore fasulli. il valore predefinito è true.
 
 
 
@@ -236,7 +236,7 @@ url: /it/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
+ Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
 
  Elimina la tabella pivot specificata
 
@@ -248,7 +248,7 @@ Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
 
 
 
- Aggiunge lo spazio dei nomi Aspose.Cells.Vba, le classi VbaPorject, VbaModuleCollection e VbaModule.
+Aggiunge lo spazio dei nomi Aspose.Cells.Vba, le classi VbaPorject, VbaModuleCollection e VbaModule.
 
  Sono utilizzati per leggere e modificare il progetto VBA nel file.
 
@@ -256,13 +256,13 @@ Aggiunge il metodo PivotTableCollection.Remove(PivotTable pivotTable).
 
  Aggiunge la proprietà Border.ThemeColor.
 
- Ottiene e imposta il colore del tema del bordo.
+Ottiene e imposta il colore del tema del bordo.
 
 
 
  Aggiunge la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy.
 
-Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o data/ora.
+ Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o data/ora.
 
 
 

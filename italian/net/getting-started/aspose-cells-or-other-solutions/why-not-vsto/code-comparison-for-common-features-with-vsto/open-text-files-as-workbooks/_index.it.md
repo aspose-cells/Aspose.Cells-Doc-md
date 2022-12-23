@@ -37,5 +37,5 @@ Di seguito sono riportati esempi di codici di confronto per l'apertura di file d
    newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scarica**
+## **Scaricamento**
 - [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/OpenTextFilesAsWorkbooks.Aspose.Cells.zip)

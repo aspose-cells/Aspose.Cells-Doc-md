@@ -10,11 +10,11 @@ Eclipse IDE ist eine berühmte Java integrierte Entwicklungsumgebung (IDE). Die 
 
 Die Eclipse IDE kann mit zusätzlichen Softwarekomponenten erweitert werden. Eclipse nennt diese Softwarekomponenten Plug-ins. Mehrere Open-Source-Projekte und -Unternehmen haben die Eclipse-IDE erweitert oder eigenständige Anwendungen (Eclipse RCP) auf der Grundlage des Eclipse-Frameworks erstellt.
 ### **Aspose.Cells for Java**
-[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)ist eine preisgekrönte Komponente für Excel-Tabellenkalkulationen, mit der Java-Entwickler die Möglichkeit zum Lesen, Schreiben und Bearbeiten von Excel®-Tabellen (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF und Bild einbetten können Dateiformate in eigene Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
+[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image Dateiformate in eigene Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)ist eine ausgereifte, skalierbare und funktionsreiche Komponente, die viele Funktionen bietet, die weit über die einfachen Datenexportmöglichkeiten anderer Anbieter hinausgehen. Mit Aspose.Cells for Java können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail formatieren, Bilder importieren, Diagramme erstellen, komplexe Formeln anwenden und berechnen, Excel®-Daten streamen, in verschiedenen Formaten speichern und vieles mehr – all dies ohne Microsoft Excel® oder Microsoft Büroautomation.
 ### **Aspose.Cells Java für Sonnenfinsternis (Maven)**
--  Aspose.Cells Java für Eclipse (Maven) ist ein Plugin für**Eclipse-IDE** durch**Aspose.** Dieses Plugin ist für Entwickler gedacht, die Maven-Plattform for Java-Entwicklungen verwenden und verwenden möchten[Aspose.Cells for Java](http://goo.gl/gtvhlQ) in ihren Projekten. Mit dem Plugin können Sie maven-Projekte zur Verwendung erstellen[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) und auch herunterladen[Codebeispiele](https://goo.gl/uxznrb)der API.
+-  Aspose.Cells Java für Eclipse (Maven) ist ein Plugin für**Eclipse-IDE** von**Aspose.** Dieses Plugin ist für Entwickler gedacht, die Maven-Plattform for Java-Entwicklungen verwenden und verwenden möchten[Aspose.Cells for Java](http://goo.gl/gtvhlQ) in ihren Projekten. Mit dem Plugin können Sie maven-Projekte zur Verwendung erstellen[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) und auch herunterladen[Codebeispiele](https://goo.gl/uxznrb)der API.
 -  Das Plugin bietet die folgenden Funktionen, mit denen Sie arbeiten können[Aspose.Cells for Java API](http://goo.gl/gtvhlQ) innerhalb**Eclipse-IDE** bequem:
 
 ![todo: Bild_alt_Text](kwkgljg.png)
@@ -25,18 +25,18 @@ Das Plugin enthält zwei Assistenten -----
 
 **       ****Aspose.Cells Maven Projekt (Assistent)**
 
-- Mit diesem Assistenten für neue Projekte können Entwickler erstellen**Maven** Projekt zum Einsatz[Aspose.Cells for Java](http://goo.gl/gtvhlQ) aus**Neu -> Projekt -> Maven -> Aspose.Cells Maven Projekt.**
+- Mit diesem Assistenten für neue Projekte können Entwickler erstellen**Maven** Projekt zum Einsatz[Aspose.Cells for Java](http://goo.gl/gtvhlQ) von**Neu -> Projekt -> Maven -> Aspose.Cells Maven Projekt.**
 - Die Referenz von[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)maven Abhängigkeit wird automatisch abgerufen[Aspose Wolke Maven Repository](https://repository.aspose.com/webapp/)und wird in der pom.xml hinzugefügt.
 -  Das erstellte Projekt enthält immer die aktuellste verfügbare Version**Maven** Abhängigkeit für[Aspose.Cells for Java API](http://goo.gl/gtvhlQ).
 -  Die Schritte des Assistenten bieten auch die Option zum Herunterladen[Codebeispiele](https://goo.gl/uxznrb)zum Benutzen[Aspose.Cells for Java API](http://goo.gl/gtvhlQ).
 
 **       ****Aspose.Cells Codebeispiel (Assistent)**
 
--  Mit diesem Assistenten für neue Dateien können Sie die heruntergeladene Datei kopieren[Codebeispiele](https://goo.gl/uxznrb) in Ihr Projekt zur Verwendung[Aspose.Cells for Java](http://goo.gl/gtvhlQ) aus**Neu -> Andere -> Java -> Aspose.Cells Codebeispiel.** 
+-  Mit diesem Assistenten für neue Dateien können Sie die heruntergeladene Datei kopieren[Codebeispiele](https://goo.gl/uxznrb) in Ihr Projekt zur Verwendung[Aspose.Cells for Java](http://goo.gl/gtvhlQ) von**Neu -> Andere -> Java -> Aspose.Cells Codebeispiel.** 
 - Verfügbare Muster werden im Baumformat angezeigt, aus dem der Benutzer sie kategorisch auswählen kann.
 - Alle Beispiele innerhalb der ausgewählten Kategorie werden in das Projektverzeichnis „**com.aspose.cells.examples**"Paketordner zusammen mit den erforderlichen Ressourcen darin"**src/main/resources**" Ordner, der zum Ausführen der Beispiele benötigt wird.
 - [Codebeispiele](https://goo.gl/uxznrb) von[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)sind dazu gedacht, die Vielfalt der API zu demonstrieren.
-- Der Assistent sucht und aktualisiert auch nach neu verfügbaren[Codebeispiele](https://goo.gl/uxznrb)aus[Aspose.Cells for Java Beispiele Repository.](https://goo.gl/uxznrb)
+- Der Assistent sucht und aktualisiert auch nach neu verfügbaren[Codebeispiele](https://goo.gl/uxznrb)von[Aspose.Cells for Java Beispiele Repository.](https://goo.gl/uxznrb)
 ## **Systemanforderungen und unterstützte Plattformen**
 ### **System Anforderungen**
 - **Systemspeicher:**2 GB oder mehr (empfohlen)
@@ -80,7 +80,7 @@ license.setLicense("Aspose.Cells.Java.lic");
 
 {{< /highlight >}}
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 - Wenn Sie bekannte / gemeldete Probleme (von den Benutzern oder dem QA-Team) im Plugin sehen möchten.
 - Oder Sie möchten ein Problem melden, das Sie im Plugin gefunden haben
 - Haben Sie Verbesserungsvorschläge oder möchten Sie eine Funktionsanfrage stellen

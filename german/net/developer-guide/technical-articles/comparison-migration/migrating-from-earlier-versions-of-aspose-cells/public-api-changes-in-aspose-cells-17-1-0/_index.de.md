@@ -29,7 +29,7 @@ Aspose.Cells APIs haben die Unterstützung für einige Excel 2016-Diagramme hinz
 ### **Setter für LoadFilter.LoadDataFilterOptions-Eigenschaft hinzugefügt**
 Aspose.Cells 17.1.0 hat Setter für die Eigenschaft LoadFilter.LoadDataFilterOptions hinzugefügt, um die Instanzvariable m_LoadDataFilterOptions zu ersetzen. Benutzer können die LoadDataFilterOptions-Eigenschaft in ihrer eigenen Implementierung der LoadFilter-Klasse ändern, um das Verhalten beim Laden von Vorlagendateien zu ändern.
 
-Hier ist ein einfaches Anwendungsszenario.
+Hier ist ein einfaches Nutzungsszenario.
 
 {{% alert color="primary" %}} 
 
@@ -77,7 +77,7 @@ Hier ist ein einfaches Anwendungsszenario.
 
 
 ### **CellsHelper.SignificantDigits-Eigenschaft hinzugefügt**
-Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft der CellsHelper-Klasse verfügbar gemacht, die es ermöglicht, die Anzahl signifikanter Stellen für numerische Werte in einer Tabelle abzurufen oder festzulegen. Der Standardwert der Eigenschaft CellsHelper.SignificantDigits ist 17, wobei er nur anwendbar ist, wenn das Ergebnis im XLSX-Dateiformat gespeichert werden muss.
+Aspose.Cells 17.1.0 hat die SignificantDigits-Eigenschaft der CellsHelper-Klasse verfügbar gemacht, die es ermöglicht, die Anzahl signifikanter Stellen für numerische Werte in einer Tabelle abzurufen oder festzulegen. Der Standardwert der Eigenschaft CellsHelper.SignificantDigits ist 17, wobei er nur anwendbar ist, wenn das Ergebnis im Dateiformat XLSX gespeichert werden muss.
 
 Hier ist ein einfaches Szenario, um die Verwendung der Eigenschaft CellsHelper.SignificantDigits zu demonstrieren.
 

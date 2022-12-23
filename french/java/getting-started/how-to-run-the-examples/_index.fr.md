@@ -9,7 +9,7 @@ url: /fr/java/how-to-run-the-examples/
 
  Extrayez le contenu du fichier ZIP dans n'importe quel dossier de votre ordinateur. Tous les exemples se trouvent dans le**Exemples** dossier.
 
- La**Ressources** dossier contient les documents d'entrée ou les fichiers utilisés dans les exemples.
+ Le**Ressources** dossier contient les documents d'entrée ou les fichiers utilisés dans les exemples.
 
 Vous pouvez exécuter/exécuter ces exemples avec n'importe quel IDE de votre choix, cependant, à des fins de démonstration, nous utilisons**Éclipse** . Utilisez le**Fichier -> Importer** option pour importer l'exemple de votre choix et spécifier le chemin.
 

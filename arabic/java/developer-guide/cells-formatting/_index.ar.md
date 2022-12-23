@@ -73,7 +73,7 @@ Microsoft يسمح Excel للمستخدمين بتنسيق الخلايا عن �
 
 يتم إنشاء الإخراج التالي عند تنفيذ الكود أدناه.
 
-**تم تطبيق الحدود على نطاق من الخلايا** 
+**حدود مطبقة على نطاق من الخلايا** 
 
 ![ما يجب القيام به: image_بديل_نص](cells-formatting_3.png)
 
@@ -91,7 +91,7 @@ Microsoft يسمح Excel للمستخدمين بتنسيق الخلايا عن �
 
 {{% alert color="primary" %}} 
 
-تحتوي اللوحة على 56 لونًا فقط. عندما تضيف لونًا مخصصًا إلى اللوحة ، تتغير اللوحة ويتغير أي عنصر في الملف منسق باللون السابق. لذا ، عند تغيير لوحة الألوان ، يرجى توخي الحذر الشديد. علاوة على ذلك ، هذا هو القيد في تنسيق ملف XLS (Excel 97-2003) فقط حيث لا يوجد مثل هذا التقييد لتنسيقات ملفات XLSX أو غيرها من تنسيقات ملفات MS Excel (2007/2010) المتقدمة.
+تحتوي اللوحة على 56 لونًا فقط. عندما تضيف لونًا مخصصًا إلى اللوحة ، تتغير اللوحة ويتغير أي عنصر في الملف منسق باللون السابق. لذا ، عند تغيير لوحة الألوان ، يرجى توخي الحذر الشديد. علاوة على ذلك ، هذا هو القيد في تنسيق ملف XLS (Excel 97-2003) فقط حيث لا يوجد مثل هذا القيد على XLSX أو تنسيقات ملفات MS Excel (2007/2010) المتقدمة الأخرى.
 
 {{% /alert %}} 
 
@@ -145,7 +145,7 @@ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://referenc
 |[نحيف_قطري_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|يمثل نمط التظليل المتقاطع القطري الرقيق|
 |[نحيف_قطري_شريط](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|يمثل نمط شريطي رقيق قطري|
 |[نحيف_عرضي_CROSSHATCH](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|يمثل نمط التظليل الأفقي الرفيع|
-|[نحيف_عرضي_شريط](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|يمثل نمط شريطي أفقي رقيق|
+|[نحيف_عرضي_شريط](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|يمثل نمط شريط أفقي رقيق|
 |[نحيف_يعكس_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|يمثل نمط شريطي قطري عكسي رقيق|
 |[نحيف_عمودي_شريط](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|يمثل نمط شريط عمودي رقيق|
 |[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL_STRIPE)|يمثل نمط شريط عمودي|
@@ -166,7 +166,7 @@ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://referenc
  ال[نمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) تحدد الخاصية نوع نمط الخلفية المستخدم للون المقدمة أو الخلفية. يوفر Aspose.Cells تعداد ،[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType)الذي يحتوي على مجموعة من أنواع محددة مسبقًا من أنماط الخلفية.
 -  إذا اخترت[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE) قيمة من[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/BackgroundType) التعداد ، لا يتم تطبيق اللون الأمامي.
  وبالمثل ، لا يتم تطبيق لون الخلفية إذا قمت بتحديد ملف[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE) أو[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID) القيم.
--  عند استرداد لون التظليل / التعبئة للخلية ، إذا كان[أسلوب. نمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) هو[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE), [Style.ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) سيعود*اللون فارغ*.
+-  عند استرداد لون التظليل / التعبئة للخلية ، إذا كان[أسلوب. نمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#Pattern) يكون[نوع الخلفية](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE), [Style.ForegroundColor](https://reference.aspose.com/cells/java/com.aspose.cells/style#ForegroundColor) سيعود*اللون فارغ*.
 
 {{% /alert %}} 
 ## **تنسيق الأحرف المحددة في Cell**

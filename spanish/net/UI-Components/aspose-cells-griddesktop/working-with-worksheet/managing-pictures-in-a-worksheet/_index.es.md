@@ -1,5 +1,5 @@
 ﻿---
-title: Administrar imágenes en una hoja de trabajo
+title: Administrar imágenes en una hoja de cálculo
 type: docs
 weight: 100
 url: /es/net/managing-pictures-in-a-worksheet/
@@ -12,9 +12,9 @@ La mayoría de la gente cree que una imagen puede explicar las cosas mejor que l
 ## **Adición de imágenes**
 Para agregar un hipervínculo a una celda usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Agregar**Imagen** a la hoja de trabajo especificando la ruta del archivo de la imagen y el nombre de la celda donde se insertará la imagen
+-  Agregar**Fotografía** a la hoja de trabajo especificando la ruta del archivo de la imagen y el nombre de la celda donde se insertará la imagen
 
 **Fotos** colección en el**Hoja de cálculo** objeto proporciona una sobrecarga**Agregar** método. Los desarrolladores pueden usar cualquier versión sobrecargada de**Agregar** método de acuerdo a sus necesidades específicas. Usando estas versiones sobrecargadas de**Agregar** método, es posible agregar una imagen desde un archivo, transmisión o**Imagen** objeto.
 
@@ -32,7 +32,7 @@ continuación se muestra el código de muestra para acceder y modificar las imá
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AccessAndModifyPicture.cs" >}}
 ## **Eliminación de imágenes**
- Para eliminar una imagen existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Remover** imagen de la**Fotos** colección de la**Hoja de cálculo** especificando la celda (usando su nombre o número de fila y columna) que contiene la imagen.
+ Para eliminar una imagen existente, los desarrolladores simplemente pueden acceder a la hoja de trabajo deseada y luego**Eliminar** imagen de la**Fotos** colección de la**Hoja de cálculo** especificando la celda (usando su nombre o número de fila y columna) que contiene la imagen.
 
 En el código a continuación, se muestra cómo eliminar imágenes de la hoja de trabajo.
 

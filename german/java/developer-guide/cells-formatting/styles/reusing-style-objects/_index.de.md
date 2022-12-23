@@ -24,6 +24,6 @@ Derselbe Prozess wie oben diskutiert könnte auch wie folgt durchgeführt werden
 
 {{% alert color="primary" %}}
 
- Weil die[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle() ) und[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style) )-Methoden verwenden viel weniger Speicher und sind effizienter, je älter*Cell.getStyle()* -Eigenschaft, die viel unnötigen Speicher verbrauchte, wurde mit der Veröffentlichung von entfernt*Aspose.Cells 7.1.0*.
+ Weil der[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle() ) und[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style) )-Methoden verwenden viel weniger Speicher und sind effizienter, je älter*Cell.getStyle()* -Eigenschaft, die viel unnötigen Speicher verbrauchte, wurde mit der Veröffentlichung von entfernt*Aspose.Cells 7.1.0*.
 
 {{% /alert %}}

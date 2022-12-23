@@ -15,7 +15,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-9-0/
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تعيين الخط الافتراضي لعرض جداول البيانات على تنسيق HTML](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to/).
+ لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تحديد الخط الافتراضي لتحويل جداول البيانات إلى نسق HTML](/cells/ar/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية ImageOrPrintOptions.DefaultFont**
-Aspose.Cells for Java 8.9.0 يسمح بتعيين اسم طاقم الطباعة الافتراضي لفئة ImageOrPrintOptions عن طريق كشف خاصية الخط الافتراضي. يمكن استخدام الخاصية المذكورة عندما لا يتم تعيين أحرف Unicode في جدول البيانات بالخط الصحيح في نمط الخلية ، وبالتالي قد تظهر هذه الأحرف ككتل في الصور الناتجة.
+ Aspose.Cells for Java 8.9.0 يسمح بتعيين اسم طاقم الطباعة الافتراضي لفئة ImageOrPrintOptions عن طريق كشف خاصية الخط الافتراضي. يمكن استخدام الخاصية المذكورة عندما لا يتم تعيين أحرف Unicode في جدول البيانات بالخط الصحيح في نمط الخلية ، وبالتالي قد تظهر هذه الأحرف ككتل في الصور الناتجة.
 
 {{% alert color="primary" %}} 
 

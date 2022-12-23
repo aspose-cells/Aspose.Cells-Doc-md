@@ -19,24 +19,24 @@ Aspose.Cells permet de manipuler des fichiers. Cet article explique les différe
 - **[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, le type de disposition de contenu du fichier de sortie.
 - **[Options de sauvegarde] (https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, le type de format de fichier
 
- La**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**L'énumération détermine si le fichier envoyé au navigateur offre la possibilité de s'ouvrir seul directement dans le navigateur ou dans une application associée à .xls/.xlsx ou à une autre extension.
+ Le**[ContentDisposition](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**L'énumération détermine si le fichier envoyé au navigateur offre la possibilité de s'ouvrir seul directement dans le navigateur ou dans une application associée à .xls/.xlsx ou à une autre extension.
 
 L'énumération contient les types de sauvegarde prédéfinis suivants :
 
-|**Taper**|**La description**|
+|**Taper**|**Description**|
 |:- |:- |
 |Attachement|Envoie la feuille de calcul au navigateur et s'ouvre dans une application en tant que pièce jointe associée à .xls/.xlsx ou à d'autres extensions|
 |En ligne|Envoie le document au navigateur et présente une option pour enregistrer la feuille de calcul sur le disque ou l'ouvrir dans le navigateur|
 
-### **Fichiers XLS**
+### **XLS Fichiers**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **Fichiers XLSX**
+### **XLSX Fichiers**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **Fichiers PDF**
+### **PDF Fichiers**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

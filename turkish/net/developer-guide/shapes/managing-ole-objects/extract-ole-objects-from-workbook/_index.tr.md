@@ -21,7 +21,7 @@ Bu makale, Visual Studio.Net'te bir konsol uygulamasının nasıl oluşturulaca�
 
 |**OLE nesneleri (OleFile.xls) içeren şablon belgesi**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](extract-ole-objects-from-workbook_1.png)|
+|![yapılacaklar:resim_alternatif_metin](extract-ole-objects-from-workbook_1.png)|
 
 Daha sonra OLE nesnelerini ayıklayın ve ilgili dosya türleriyle sabit diske kaydedin.
 

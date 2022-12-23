@@ -21,6 +21,6 @@ Lo screenshot seguente mostra il file Excel di output e il suo contenuto che son
 
 ![cose da fare:immagine_alt_testo](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-WorkbookVBAProject-CopyVBAMacroUserFormDesignerStorageToWorkbook.java" >}}

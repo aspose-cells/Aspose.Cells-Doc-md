@@ -39,7 +39,7 @@ url: /fr/net/aspose-cells-for-net-7-3-2-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 - Erreur : « Excel a trouvé du contenu illisible… »
 - NullReferenceException dans Aspose.Cells.Workbook..ctor
@@ -63,7 +63,7 @@ url: /fr/net/aspose-cells-for-net-7-3-2-release-notes/
 
  -L'enregistrement du fichier XLSX avec le nuage de points permet des options supplémentaires
 
- Problème DataLabels.ShowBubbleSize avec le format de fichier XLSX
+ - Problème DataLabels.ShowBubbleSize avec le format de fichier XLSX
 
  -Le titre d'Excel Pie Chart n'est pas rendu correctement dans le fichier image
 
@@ -77,17 +77,17 @@ url: /fr/net/aspose-cells-for-net-7-3-2-release-notes/
 - Problème de formatage de nombre personnalisé avec un nombre négatif
 - Définir la couleur du sous-total dans le tableau croisé dynamique
 - Problème lors de l'enregistrement d'un classeur avec des membres calculés dans un tableau croisé dynamique
-- Problèmes de formule et de langage liés à SheetRender (XPS)
+- Problèmes de formule et de langue liés à SheetRender (XPS)
 - Les sous-totaux sont calculés dans un ordre incorrect (marqueurs intelligents)
-- Problème de taille de fichier XLSB d'Excel - La liste de sélection disparaît
+- Problème de taille de fichier Excel XLSB - La liste de sélection disparaît
 
- -Erreur de forme à l'image lors de l'enregistrement du PDF en utilisant Aspose Cells
+-Forme à l'erreur d'image lors de l'enregistrement PDF en utilisant Aspose Cells
 
-- Après la conversion en PDF, le fichier est corrompu
+- Après conversion en PDF, le fichier est corrompu
 
 
 
- \2) GrilleWeb
+ \2) Grille Web
 
 
 

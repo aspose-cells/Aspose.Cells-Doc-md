@@ -19,7 +19,7 @@ url: /ja/java/extract-ole-objects-from-workbook/
 
 ### **OLE オブジェクトを抽出する**
 
-以下のコードは、OLE オブジェクトを検索して DOCX、XLSX、PPTX、および PDF ファイルとして抽出する実際の作業を行います。
+以下のコードは、OLE オブジェクトを DOCX、XLSX、PPTX、および PDF ファイルとして見つけて抽出する実際の作業を行います。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ExtractOLEObjects-ExtractOLEObjects.java" >}}
 

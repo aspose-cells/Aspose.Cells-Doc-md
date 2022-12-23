@@ -24,9 +24,9 @@ url: /zh/net/developer-guide/
             <li><a href="/cells/zh/net/opening-different-microsoft-excel-versions-files/">打开不同的 Microsoft Excel 版本文件</a></li>
             <li><a href="/cells/zh/net/opening-files-with-different-formats/">打开不同格式的文件</a></li>
             <li><a href="/cells/zh/net/get-warnings-while-loading-excel-file/">加载 Excel 文件时收到警告</a></li>
-            <li><a href="/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Apple Inc. 使用 Aspose.Cells 开发的数字电子表格</a></li>
+            <li><a href="/cells/zh/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格</a></li>
         </ul>
-        <p>节省</p>
+        <p>救球</p>
         <ul>
             <li><a href="/cells/zh/net/different-ways-to-save-files/">保存文件的不同方法</a></li>
             <li><a href="/cells/zh/net/encrypting-excel-files/">加密 Excel 文件</a></li>
@@ -174,7 +174,7 @@ url: /zh/net/developer-guide/
         <ul>
             <li><a href="/cells/zh/net/managing-ole-objects/#inserting-ole-objects-into-the-worksheet">管理 OLE 对象</a></li>
         </ul>
-        <p><a href="/cells/zh/net/create-slicer/">切片机</a></p>
+        <p><a href="/cells/zh/net/create-slicer/">切片器</a></p>
         <ul>
             <li><a href="/cells/zh/net/create-slicer/">创建切片器</a></li>
             <li><a href="/cells/zh/net/formatting-slicer/">格式化切片器</a></li>
@@ -314,7 +314,7 @@ url: /zh/net/developer-guide/
             <li><a href="/cells/zh/net/change-text-direction-of-the-comment/">更改评论的文本方向</a></li>
             <li><a href="/cells/zh/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">在工作表中设置表格或列表对象的注释</a></li>
             <li><a href="/cells/zh/net/set-margins-of-comment-or-shape-inside-the-worksheet/">在工作表中设置注释或形状的边距</a></li>
-            <li><a href="/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/">保存为 HTML 时禁用下层显示评论</a></li>
+            <li><a href="/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/">保存到 HTML 时禁用下层显示评论</a></li>
             <li><a href="/cells/zh/net/threaded-comments/">线程评论</a></li>
         </ul>
     </div>
@@ -345,7 +345,7 @@ url: /zh/net/developer-guide/
         <ul>
          <li><a href="/cells/zh/net/worksheet-views/#page-break-preview">分页预览</a></li>
         </ul>
-        <p>节目</p>
+        <p>展示</p>
          <ul>
 		<li><a href="/cells/zh/net/show-and-hide-gridlines-and-row-column-headers/">查看网格线和标题</a></li>
         </ul>

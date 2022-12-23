@@ -14,7 +14,7 @@ Microsoft Excel には、ワークシート データを自動フィルター処
 ## **データ検証の種類と実行**
 Microsoft Excel は、さまざまな種類のデータ検証をサポートしています。各タイプは、セルまたはセル範囲に入力されるデータのタイプを制御するために使用されます。以下のコード スニペットは、それを検証する方法を示しています。
 
-- [数字は整数です](/cells/ja/java/data-validation/)、つまり、小数部分がありません。
+- [Numbers はまるごと](/cells/ja/java/data-validation/)、つまり、小数部分がありません。
 - [10 進数は正しい構造に従います](/cells/ja/java/data-validation/).コード例では、セルの範囲に 2 つの小数点以下のスペースが必要であることを定義しています。
 - [値は値のリストに制限されています](/cells/ja/java/data-validation/).リストの検証では、セルまたはセル範囲に適用できる個別の値のリストを定義します。
 - [日付が特定の範囲内にある](/cells/ja/java/data-validation/).
@@ -128,6 +128,6 @@ Microsoft Excel を使用して検証を作成するには:
 
 
 ## **先行トピック**
-- [ODS ファイルで Cell 検証を取得](/cells/ja/java/get-cell-validation-in-ods-files/)
+- [ODS ファイルで Cell 検証を取得する](/cells/ja/java/get-cell-validation-in-ods-files/)
 - [Cell に検証を適用する](/cells/ja/java/get-validation-applied-on-a-cell/)
 - [Cell 値がデータ検証ルールを満たしていることを確認する](/cells/ja/java/verify-that-cell-value-satisfies-data-validation-rules/)

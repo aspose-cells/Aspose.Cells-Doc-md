@@ -35,7 +35,7 @@ Para publicar un informe en Report Server, siga los pasos a continuación:
 
 Se muestra el cuadro de diálogo Configuración de fuente de datos.
 
-1.  En el cuadro de diálogo, ingrese la información de la fuente de datos. Hacer clic**Seleccione** para seleccionar las fuentes de datos compartidas. (Si los necesita, las fuentes de datos compartidas deben ser la principal fuente de datos del informe). Haga clic en el**OK** botón para completar el trabajo.
+1.  En el cuadro de diálogo, ingrese la información de la fuente de datos. Hacer clic**Seleccione** para seleccionar las fuentes de datos compartidas. (Si los necesita, las fuentes de datos compartidas deben ser la principal fuente de datos del informe). Haga clic en el**DE ACUERDO** botón para completar el trabajo.
 
 ![todo:imagen_alternativa_texto](publishing-report_5.png)
 

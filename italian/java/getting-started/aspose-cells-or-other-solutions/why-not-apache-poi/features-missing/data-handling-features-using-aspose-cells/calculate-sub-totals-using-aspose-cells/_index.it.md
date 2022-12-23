@@ -5,9 +5,9 @@ weight: 20
 url: /it/java/calculate-sub-totals-using-aspose-cells/
 ---
 ## **Aspose.Cells - Calcola sub totali**
-Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce funzionalità API che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
+Puoi creare automaticamente subtotali per qualsiasi valore ripetuto in un foglio di calcolo. Aspose.Cells fornisce API funzionalità che consentono di aggiungere subtotali ai fogli di calcolo in modo programmatico.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

@@ -16,7 +16,7 @@ Microsoft Excel le permite configurar el modo de cálculo de fórmulas, es decir
 
 Para configurar el modo de cálculo de fórmula en Microsoft Excel:
 
-1.  Seleccione**Fórmulas** y entonces**Opciones de cálculo**.
+1.  Seleccione**Fórmulas** y luego**Opciones de cálculo**.
 1. Seleccione una de las opciones.
 
  Aspose.Cells también le permite configurar el**Modo de cálculo de fórmula** usando[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/net/aspose.cells/formulasettings/properties/calculationmode) propiedad de modo. Puedes asignarle el[**CalcModeType**](https://reference.aspose.com/cells/net/aspose.cells/calcmodetype)enumeración que tiene uno de los siguientes valores:

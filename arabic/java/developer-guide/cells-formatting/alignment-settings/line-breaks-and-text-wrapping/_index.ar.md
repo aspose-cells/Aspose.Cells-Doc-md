@@ -12,7 +12,7 @@ url: /ar/java/line-breaks-and-text-wrapping/
 
 ## **التفاف النص في Cell**
 
- لالتفاف نص في خلية ، استخدم ملف[**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)منشأه.
+ لالتفاف نص في خلية ، استخدم ملف[**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)خاصية.
 
 يُظهر نموذج التعليمات البرمجية التالي كيفية استخدام التفاف النص وفواصل الأسطر الواضحة في خلية.
 

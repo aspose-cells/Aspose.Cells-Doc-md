@@ -8,7 +8,7 @@ description: Importa i dati da un file di dati XML in Microsoft Excel.
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells consente di importare la mappa XML all'interno della cartella di lavoro utilizzando il file[**Cartella di lavoro.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) metodo. È possibile importare XML Map utilizzando Microsoft Excel con i seguenti passaggi
+ Aspose.Cells consente di importare la mappa XML all'interno della cartella di lavoro utilizzando il file[**Cartella di lavoro.ImportXml()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/importxml/index) metodo. È possibile importare la mappa XML utilizzando Excel Microsoft con i seguenti passaggi
 
 -  Selezionare**Sviluppatore** scheda
 -  Clic**Importare** nella sezione XML e seguire i passaggi richiesti.

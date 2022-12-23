@@ -15,8 +15,8 @@ Bu sayfa Aspose.Cells for Python via Java 21.2 için sürüm notları içerir.
 |CELLSJAVA-43382|Kopya bozuk çalışma kitabı üretir|
 |CELLSJAVA-43364|İşaretçide resim bulunan grafiği resme kaydederken sorun|
 |CELLSJAVA-43389|XLSB dosya biçimi olarak kaydederken Çalışma Kitabı/Çalışma Sayfası Parola Koruması ayarları kayboldu|
-|CELLSJAVA-43392|Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
-|CELLSJAVA-43387|Tek sayfayı HTML'ye dışa aktarmak İstisna'yı yükseltir|
+|CELLSJAVA-43392| Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
+|CELLSJAVA-43387|Tek sayfanın HTML'e dışa aktarılması İstisna'yı yükseltir|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

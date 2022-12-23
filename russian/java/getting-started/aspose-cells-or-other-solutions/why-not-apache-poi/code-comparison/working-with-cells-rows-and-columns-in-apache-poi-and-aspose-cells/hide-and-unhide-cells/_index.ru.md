@@ -5,7 +5,7 @@ weight: 30
 url: /ru/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells - Скрыть и показать строки и столбцы**
-Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , представляющий файл Excel Microsoft. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)учебный класс. Класс Worksheet предоставляет коллекцию Cells, которая представляет все ячейки рабочего листа. Коллекция Cells предоставляет несколько методов управления строками и столбцами на листе.
+Aspose.Cells предоставляет класс,[Рабочая тетрадь](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) представляющий файл Excel Microsoft. Класс Workbook содержит коллекцию WorksheetCollection, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[Рабочий лист](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)учебный класс. Класс Worksheet предоставляет коллекцию Cells, которая представляет все ячейки рабочего листа. Коллекция Cells предоставляет несколько методов управления строками и столбцами на листе.
 
 **Java**
 

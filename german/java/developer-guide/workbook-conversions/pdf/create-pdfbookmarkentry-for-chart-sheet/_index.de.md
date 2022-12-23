@@ -17,7 +17,7 @@ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](61767772.xlsx)die vier
 - Lesezeichen-III
 - Lesezeichen-IV-Chart2
 
-Der folgende Screenshot zeigt die[PDF ausgeben](61767771.pdf)generiert durch den Beispielcode für eine Referenz.
+Der folgende Screenshot zeigt die[Ausgang PDF](61767771.pdf)generiert durch den Beispielcode für eine Referenz.
 
 ![todo: Bild_alt_Text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

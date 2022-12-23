@@ -9,6 +9,6 @@ weight: 13
 Cette page contient les notes de version pour Aspose.Cells for Reporting Services 22.9
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |34691 |Prise en charge du format de rendu sxc.|Nouvelle fonctionnalité|

@@ -10,20 +10,20 @@ url: /fr/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Prise en charge de l'interruption de l'exécution de WorkbookDesigner.process dans SmarkMarker|
-|CELLSJAVA-44039|Modifier l'attribut PDF Producer à partir du PDF généré|
+|CELLSJAVA-44039|Modifier l'attribut Producteur PDF à partir du PDF généré|
 |CELLSJAVA-43469|Régression possible : dégradation des performances de FormatConditionCollection.addArea()|
-|CELLSJAVA-43983|Régression : boucle infinie lors de la conversion de XLSX en PDF|
-|CELLSJAVA-44029|XLSX en PDF : l'image n'est pas convertie|
+|CELLSJAVA-43983|Régression : Boucle infinie lors de la conversion de XLSX en PDF|
+|CELLSJAVA-44029|XLSX à PDF : l'image n'est pas convertie|
 |CELLSJAVA-44093| Problème de troncature de texte avec les formes Rectangle lors du rendu en image dans les nouvelles versions Aspose.Cells for Java|
 |CELLSJAVA-44089|DataLabels.setShadow() n'est pas disponible et n'est pas égal à la méthode Series.setShadow()|
-|CELLSJAVA-44000|Le style Cells est incorrect en HTML lors de l'utilisation simultanée d'un jeu d'icônes et d'une autre mise en forme conditionnelle|
+|CELLSJAVA-44000|Le style Cells est incorrect dans HTML lors de l'utilisation simultanée d'un jeu d'icônes et d'une autre mise en forme conditionnelle|
 |CELLSJAVA-43932|Problème avec la définition de la position des étiquettes de données pour les graphiques en anneau éclatés dans l'image de sortie|
 |CELLSJAVA-43934|Les étiquettes du graphique à secteurs ne correspondent pas à Excel après la manipulation ou la mise à jour du graphique|
-|CELLSJAVA-44094|Titre du graphique tronqué lors de l'exportation au format PDF|
-|CELLSJAVA-43533|Problème de création de XLSX vers Html dans Ubuntu|
+|CELLSJAVA-44094|Titre du graphique tronqué lors de l'exportation vers PDF|
+|CELLSJAVA-43533|XLSX au problème de création HTML dans Ubuntu|
 |CELLSJAVA-43987|La bordure droite des cellules fusionnées est perdue en html|
 |CELLSJAVA-44016|Problème lors de la conversion du fichier Excel contenant l'URL de l'image en HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException : vous avez entré trop peu de paramètres pour la fonction IF lors de l'appel de Workbook.calculateFormula()|

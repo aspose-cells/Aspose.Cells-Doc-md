@@ -13,10 +13,10 @@ Dans cette rubrique, nous discuterons de la modification de la police et de la c
 Pour appliquer un style personnalisé sur une colonne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
 -  Accédez à tout**Feuille de travail**
--  Accéder à un**Colonne** sur lequel on veut appliquer un**Style**
--  Obtenir**Style** de la**Colonne**
--  Régler**Style** propriétés selon vos besoins personnalisés
--  Enfin, réglez**Style** de la**Colonne** avec la mise à jour
+-  Accéder à un**Colonne** sur lequel on veut appliquer une**Style**
+-  Obtenir**Style** du**Colonne**
+-  Ensemble**Style** propriétés selon vos besoins personnalisés
+-  Enfin, réglez**Style** du**Colonne** avec la mise à jour
 
  Il existe de nombreuses propriétés et méthodes utiles offertes par**Style** objet qui peut être utilisé par les développeurs pour personnaliser le style en fonction de leurs besoins.
 
@@ -27,10 +27,10 @@ Pour appliquer un style personnalisé sur une colonne à l'aide de Aspose.Cells.
 Pour appliquer un style personnalisé sur une ligne à l'aide de Aspose.Cells.GridDesktop, veuillez suivre les étapes ci-dessous :
 
 -  Accédez à tout**Feuille de travail**
--  Accéder à un**Ligne** sur lequel on veut appliquer un**Style**
--  Obtenir**Style** de la**Ligne**
--  Régler**Style** propriétés selon vos besoins personnalisés
--  Enfin, réglez**Style** de la**Ligne** avec la mise à jour
+-  Accéder à un**Ligne** sur lequel on veut appliquer une**Style**
+-  Obtenir**Style** du**Ligne**
+-  Ensemble**Style** propriétés selon vos besoins personnalisés
+-  Enfin, réglez**Style** du**Ligne** avec la mise à jour
 
  Il existe de nombreuses propriétés et méthodes utiles offertes par**Style** objet qui peut être utilisé par les développeurs pour personnaliser le style en fonction de leurs besoins.
 

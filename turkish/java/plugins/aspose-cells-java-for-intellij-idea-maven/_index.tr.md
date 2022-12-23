@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /tr/java/aspose-cells-java-for-intellij-idea-maven/
 ---
-## **giriiş**
+## **Giriş**
 
 ### **IntelliJ FİKİR**
 
@@ -22,7 +22,7 @@ url: /tr/java/aspose-cells-java-for-intellij-idea-maven/
 
 -  Bu eklenti ile çalışmanıza yardımcı olur**Aspose.Cells for Java API** favori IntelliJ IDEA'nızın içinde.
 
-![yapılacaklar:resim_alternatif_Metin](kwkgljg.png)
+![yapılacaklar:resim_alternatif_metin](kwkgljg.png)
 
 **SİHİRBAZLAR**:
 Eklenti iki sihirbaz içerir -----
@@ -98,7 +98,7 @@ IntellliJ IDEA'yı indirmek için
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 
-### **Destek**
+### **Destek olmak**
 
 - Eklentide bilinen/bildirilen sorunları (kullanıcılar veya QA ekibi tarafından) görmek isterseniz.
 - Veya eklentide bulduğunuz herhangi bir sorunu bildirmek istiyorsunuz

@@ -20,7 +20,7 @@ Klassen Worksheet tillhandahåller egenskapen PageSetup, som används för att s
 
 ### **Sidorientering**
 
- Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) klass'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metod. De[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metoden tar[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) uppräkning som en parameter. Medlemmarna i[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)uppräkningar listas nedan.
+Sidorienteringen kan ställas in på stående eller liggande med hjälp av[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) klass'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metod. De[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) metoden tar[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) uppräkning som en parameter. Medlemmarna i[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) uppräkningar listas nedan.
 
 |**Sidorienteringstyper**|**Beskrivning**|
 |:- |:- |
@@ -113,7 +113,7 @@ Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan
 
 ![todo:image_alt_text](page-setup-features_2.png)
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)som representerar en Microsoft Excel-fil. Klassen Workbook innehåller Worksheets-samlingen som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Microsoft Excel-fil. Klassen Workbook innehåller Worksheets-samlingen som ger åtkomst till varje kalkylblad i en Excel-fil. Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
 
  Klassen Worksheet tillhandahåller egenskapen PageSetup, som används för att ställa in sidinställningar. Attributet PageSetup är ett objekt för[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) klass som gör det möjligt att ställa in olika sidlayoutalternativ för ett utskrivet kalkylblad. Klassen PageSetup tillhandahåller olika egenskaper och metoder som används för att ställa in sidinställningar.
 
@@ -136,7 +136,7 @@ Aspose.Cells stöder fullt ut Microsoft Excels sidinställningar. Utvecklare kan
 
 ### **Marginaler för sidhuvud och sidfot**
 
-Ställ in sidhuvud och sidfotsmarginaler med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) medlemmar som t.ex[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) och[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Ställ in sidhuvuds- och sidfotsmarginaler med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) medlemmar som t.ex[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) och[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 

@@ -12,7 +12,7 @@ Akıllı Sanat Şekilleri, Microsoft Excel'de karmaşık diyagramları otomatik 
 
 Aşağıdaki örnek kod,[örnek excel dosyası](55541805.xlsx)bu ekran görüntüsünde gösterildiği gibi bir akıllı sanat şekli içeren. Daha sonra değerini yazdırır[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)ilk şeklin özelliği. Lütfen aşağıda verilen örnek kodun konsol çıktısına bakın.
 
-![yapılacaklar:resim_alternatif_Metin](determine-if-shape-is-smart-art-shape_1.png)
+![yapılacaklar:resim_alternatif_metin](determine-if-shape-is-smart-art-shape_1.png)
 
 ## **Basit kod**
 

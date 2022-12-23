@@ -15,7 +15,7 @@ url: /de/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50880|Neue APIs zum Konvertieren von Daten in ICellsDataTable für Benutzerfreundlichkeit|
 |CELLSNET-51140|Unterstützt die Datenspeicherung 5.0 von .numbers|
 |CELLSNET-51144|Unterstützung beim Lesen von Bildern von Numbers13|
-|CELLSNET-51230|Unterstützung zum Festlegen des Stils für CellRange|
+|CELLSNET-51230| Unterstützung zum Festlegen des Stils für CellRange|
 |CELLSNET-50996|ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32) überladene Methode hinzufügen|
 |CELLSNET-51184| Unterstützt das Importieren von Array-Werten, wenn der Bereich eine einfache Zelle ist|
 |CELLSNET-51215|Unterstützt das Speichern von Tabellenformeln in xlsb|
@@ -34,15 +34,15 @@ url: /de/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51041|Chinesische Zeichen werden beim Laden von HTML beschädigt|
 |CELLSNET-51072|ImportXml-Problem mit Datumsfeld|
 |CELLSNET-51081|Das benutzerdefinierte Format wird nach dem erneuten Laden des gespeicherten HTML-Codes in die Arbeitsmappe geändert|
-|CELLSNET-51092|Die durchgestrichene Schriftart funktioniert im gerenderten SVG/Bild unter Linux nicht|
+|CELLSNET-51092|Die durchgestrichene Schriftart funktioniert im gerenderten SVG/image unter Linux nicht|
 |CELLSNET-51120|Ausnahmen beim Exportieren von XML-Daten, die mit der XML-Karte verknüpft sind|
 |CELLSNET-51197|ImportXml-Problem mit booleschen Feldern|
-|CELLSNET-50854|XLSX zu PDF: Balkendiagramme werden nicht korrekt gerendert|
+|CELLSNET-50854|XLSX bis PDF: Balkendiagramme werden nicht korrekt gerendert|
 |CELLSNET-50983|Beschriftungen der X-Achse sind falsch|
 |CELLSNET-50998| Letzter X-Achsen-Parameter wird nicht angezeigt|
 |CELLSNET-50999|Diagrammetiketten passen nicht in die Schachtel - Schachtel ist zu groß|
 |CELLSNET-51000|Diagrammbeschriftung vertikal statt horizontal ausgerichtet|
-|CELLSNET-51043| Falsche Ausgabe von Seriennamen beim Speichern der Arbeitsmappe als PDF|
+|CELLSNET-51043| Falsche Ausgabe von Seriennamen beim Speichern der Arbeitsmappe auf PDF|
 |CELLSNET-51159| Fehler mit Chart.Title.IsVisible=false beim Speichern von PDF|
 |CELLSNET-51211| Fehlende Zahlen beim Erstellen eines Bildes aus einem Excel-Diagramm|
 |CELLSNET-49105|Die gespeicherte .ods-Datei ist beschädigt, wenn die Datei eine Listenvalidierung enthält|

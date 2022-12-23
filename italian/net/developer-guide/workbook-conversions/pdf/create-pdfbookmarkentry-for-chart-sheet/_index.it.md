@@ -17,10 +17,10 @@ In precedenza, Aspose.Cells avrebbe creato[**PdfSegnalibroVoce**](https://refere
 - Segnalibro-III
 - Segnalibro-IV-Grafico2
 
-Lo screenshot seguente mostra il[uscita PDF](61767757.pdf) generato dal codice di esempio per riferimento.
+Lo screenshot seguente mostra il[uscita PDF](61767757.pdf)generato dal codice di esempio per riferimento.
 
 ![cose da fare:immagine_alt_testo](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Rendering-CreatePdfBookmarkEntryForChartSheet.cs" >}}

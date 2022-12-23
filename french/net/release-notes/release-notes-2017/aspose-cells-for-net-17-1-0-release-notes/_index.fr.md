@@ -4,31 +4,31 @@ type: docs
 weight: 120
 url: /fr/net/aspose-cells-for-net-17-1-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-44747|Le fichier MS Excel 2016 XLSX contenant le graphique en cascade ne peut pas être ouvert via les API Aspose.Cells|Nouvelle fonctionnalité|
 |CELLSNET-44940|Lier une feuille de calcul à un objet de collection personnalisé (Aspose.Cells.GridWeb)|Nouvelle fonctionnalité|
 |CELLSNET-44939|Lier la feuille de calcul à un objet DataSet au moment de l'exécution (Aspose.Cells.GridWeb)|Nouvelle fonctionnalité|
 |CELLSNET-44597|Le fichier Excel de sortie n'est pas bon lors de la conversion d'un fichier HTML au format de fichier Excel|Renforcement|
-|CELLSNET-44994|Problème avec le format de date dans les paramètres régionaux allemands lors du rendu d'un fichier Excel au format PDF|Renforcement|
+|CELLSNET-44994|Problème avec le format de date dans les paramètres régionaux allemands lors du rendu d'un fichier Excel en PDF|Renforcement|
 |CELLSNET-44986|Représentation des nombres doubles en Aspose.Cells|Renforcement|
 |CELLSNET-45023|PivotTable.RefreshData prend beaucoup de temps|Performance|
 |CELLSNET-45012|Performances de GETPIVOTDATA|Performance|
 |CELLSNET-45009|Les formules avec GETPIVOTDATA ne sont pas recalculées dans le fichier de sortie|Punaise|
-|CELLSNET-45000|Certaines règles CSS ignorées lors de l'importation de HTML|Punaise|
+|CELLSNET-45000|Certaines règles CSS ignorées lors de l'importation HTML|Punaise|
 |CELLSNET-44993|Les images dans le tableau ont une position incorrecte|Punaise|
 |CELLSNET-44990|La couleur du contenu a été modifiée|Punaise|
 |CELLSNET-44989|Le style du contenu a été modifié|Punaise|
 |CELLSNET-44987|Le contenu a été déplacé|Punaise|
 |CELLSNET-44982|Problème de remplacement du style par défaut des éléments TH|Punaise|
 |CELLSNET-44980|La position de la colonne a été modifiée lors de l'actualisation du tableau croisé dynamique|Punaise|
-|CELLSNET-44968|Les cellules fusionnées dans XLSX ne sont pas affichées comme fusionnées en HTML|Punaise|
+|CELLSNET-44968|Les cellules fusionnées dans XLSX ne sont pas affichées comme fusionnées dans HTML|Punaise|
 |CELLSNET-44962|Les lignes horizontales et verticales manquent dans le tableau croisé dynamique après la conversion de la feuille de calcul en PDF|Punaise|
 |CELLSNET-44997|LoadOptions.LoadFilter ne fonctionne pas comme prévu|Punaise|
 |CELLSNET-44991|Le résultat de la fonction YIELD est inexact lorsque la méthode CalculateFormula() est appelée|Punaise|
 |CELLSNET-44978|La formule de calcul renvoie des résultats différents de MS Excel|Punaise|
 |CELLSNET-45019|Image rendue incorrectement lorsqu'une cellule a le symbole de la livre égyptienne|Punaise|
-|CELLSNET-43815|Les objets WordArt deviennent de simples points dans le PDF de sortie|Punaise|
+|CELLSNET-43815|Les objets WordArt deviennent de simples points dans la sortie PDF|Punaise|
 |CELLSNET-44976|Le graphique en aires est incliné à la fin dans la sortie PDF contrairement au fichier MS Excel|Punaise|
 |CELLSNET-44969|Des lignes inutiles apparaissent dans l'image du graphique|Punaise|
 |CELLSNET-44941|Les paramètres de culture ne s'appliquent pas à l'image du graphique de sortie|Punaise|
@@ -36,7 +36,7 @@ url: /fr/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-44919|L'image générée par Aspose.Cells est déformée lorsqu'elle est insérée dans Docx|Punaise|
 |CELLSNET-45047|Le contenu de la feuille de calcul change après l'ouverture et la réenregistrement, comme illustré dans la deuxième capture d'écran|Punaise|
 |CELLSNET-45046|Le contenu de la feuille de calcul change après l'ouverture et la réenregistrement, comme illustré dans la première capture d'écran|Punaise|
-|CELLSNET-45027|Les bordures de cellules en pointillés ne sont pas conservées lors de la conversion de XLSX en ODS|Punaise|
+|CELLSNET-45027|Les bordures de cellule en pointillés ne sont pas conservées lors de la conversion de XLSX en ODS|Punaise|
 |CELLSNET-45021|Les fichiers Excel sont corrompus après le chargement et l'enregistrement via les API Aspose.Cells|Punaise|
 |CELLSNET-45008|La couleur du lien hypertexte ne change pas lorsqu'on clique dessus dans MS Excel|Punaise|
 |CELLSNET-45007|La feuille de calcul est corrompue après un simple chargement et une nouvelle sauvegarde|Punaise|
@@ -44,9 +44,9 @@ url: /fr/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-44996|Les liens fléchés sont rompus entre les objets dans le flux de processus lors de l'utilisation des API Aspose.Cells|Punaise|
 |CELLSNET-44992|Excel affiche le message "Le nom ne peut pas être identique à un nom intégré" après avoir été enregistré avec Aspose.Cells|Punaise|
 |CELLSNET-43770|La formule est mal calculée par la méthode Workbook.CalculateFormula() et le fichier de sortie est corrompu|Punaise|
-|CELLSNET-43733|Le texte WordArt dans TextBox s'affiche uniquement sous forme de contour plutôt que de caractères remplis lors de la conversion d'une feuille de calcul en PDF|Punaise|
-|CELLSNET-43725|Le redimensionnement de ListObject dans XLSM avec une plage de données externes rend le résultat corrompu|Punaise|
-|CELLSNET-43580|Ce filigrane WordArt n'est pas imprimé correctement car la couleur/le style est modifié dans le PDF de sortie|Punaise|
+|CELLSNET-43733|Le texte WordArt dans TextBox s'affiche uniquement sous forme de contour plutôt que de caractères remplis lors de la conversion de la feuille de calcul en PDF|Punaise|
+|CELLSNET-43725|Le redimensionnement de ListObject en XLSM avec une plage de données externes rend le résultat corrompu|Punaise|
+|CELLSNET-43580|Ce filigrane WordArt n'est pas imprimé correctement car la couleur/le style est modifié dans la sortie PDF|Punaise|
 |CELLSNET-43562|Le filtrage sur les colonnes est perdu lorsque XLSX est converti en ODS|Punaise|
 |CELLSNET-43405|Le texte de la fonction est corrompu et le texte WordArt devient blanc après la conversion d'un format de fichier XLS en XLSX|Punaise|
 |CELLSNET-43404|Le formatage du texte WordArt dans le fichier XLS est modifié après la conversion au format de fichier XLSX|Punaise|

@@ -18,23 +18,23 @@ url: /zh/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47016|Aspose.Cells最新版本换行文字不同|强化|
 |CELLSNET-47023|加载和保存 ODS 文件时图表丢失|强化|
 |CELLSNET-47056|加载和保存 ODS 文件时未呈现图表|强化|
-|CELLSNET-46679|将 XLSX 导出为 PDF 时渲染不正确|漏洞|
+|CELLSNET-46679|将 XLSX 导出到 PDF 时呈现不正确|漏洞|
 |CELLSNET-46680|将 XLSX 转换为 PDF 时缺少 Wingding 符号|漏洞|
-|CELLSNET-46740|将 Excel 文件转换为 PDF 时出现图片错误|漏洞|
+|CELLSNET-46740|将 Excel 文件转换为 PDF 时图片出错|漏洞|
 |CELLSNET-46901|3D模型位置偏移|漏洞|
 |CELLSNET-46936|字体在 HTML 中无法正常呈现|漏洞|
-|CELLSNET-47013|将 Excel 文件转换为 PDF 时漏斗图上的数字消失|漏洞|
+|CELLSNET-47013|将 Excel 文件转换为 PDF 时漏斗图上的 Numbers 消失|漏洞|
 |CELLSNET-43846|数据透视表丢失自定义字段名称和“将值显示为...”设置|漏洞|
 |CELLSNET-46444|调用 PivotTable.CalculateData 后数据透视表值发生变化|漏洞|
 |CELLSNET-46484|在 Excel 中打开文件之前，RefreshData 不会对数据进行排序|漏洞|
 |CELLSNET-47010|数据透视表组标题格式的问题|漏洞|
 |CELLSNET-47024|具有值行的数据透视表中的行排序顺序不正确|漏洞|
-|CELLSNET-47034|在 HTML 到 Excel 的转换过程中列宽和行高被压缩|漏洞|
+|CELLSNET-47034|HTML 到 Excel 转换期间列宽和行高被压缩|漏洞|
 |CELLSNET-47007|计算公式时显示值错误|漏洞|
 |CELLSNET-47029|从 Cell 中检索到的值不正确，而不是值 FALSE|漏洞|
 |CELLSNET-47052|将 Excel 转换为 PDF 时 DateTimeFormat 损坏|漏洞|
 |CELLSNET-46757|将 XLSX 转换为 PDF 时出现问题|漏洞|
-|CELLSNET-46976|某些边框线在 Excel 到 PDF 渲染中消失|漏洞|
+|CELLSNET-46976|Excel中一些边框线消失PDF渲染|漏洞|
 |CELLSNET-47000|SheetRender 从受密码保护的 .ods 文件生成的不当结果图像|漏洞|
 |CELLSNET-47025|未检测到 XLSM 的宏|漏洞|
 |CELLSNET-47038|ODS 文件中的折线图在通过 Aspose.Cells 打开或保存时无法正常呈现|漏洞|
@@ -86,9 +86,9 @@ url: /zh/net/aspose-cells-for-net-19-12-release-notes/
 #### **添加 EmfRenderSetting 类**
 用于呈现 Emf 图元文件的设置。
 #### **添加 PdfSaveOptions.EmfRenderSetting 属性**
-设置用于在呈现为 PDF 文件时呈现 EMF 图元文件。
+在渲染到 PDF 文件时设置渲染 EMF 图元文件。
 #### **添加 ShapeCollection.AddSvg() 方法**
-添加 SVG 图像。
+添加 SVG 图片。
 #### **添加 WorkbookSettings.QuotePrefixToStyle 属性**
 表示在单元格中输入字符串值（以单引号开头）时是否设置 Style.QuotePrefix 属性
 #### **添加 HtmlSaveOptions.AddTooltipText 属性**

@@ -13,7 +13,7 @@ url: /ar/net/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels/
 
 {{% /alert %}}
 
- يشرح الكود التالي استخدام[**Cell. GetWidthOfValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) و[**Cell. GetHeightOfValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue)طُرق.
+ يشرح الكود التالي استخدام[**Cell. GetWidthOfValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getwidthofvalue) و[**Cell. GetHeightOfValue ()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getheightofvalue)أساليب.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-CalculateWidthAndHeight-CalculateWidthAndHeightOfCellValueInUnitOfPixel.cs" >}}
 

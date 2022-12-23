@@ -11,7 +11,7 @@ Bu belge, Aspose.Cells API sürüm 8.1.0'dan 8.1.1'e modül ve uygulama gelişti
 {{% /alert %}} 
 ## **Eklenen Özellikler ve Özellikler**
 ### **HtmlSaveOptions.PresentationPreference Özelliği eklendi**
-HtmlSaveOptions sınıfı, elektronik tabloları HTML veya MHTML'ye dışa aktarırken sonuçları daha iyi bir düzende işlemek için kullanılabilen PresentationPreference özelliği için alıcı/ayarlayıcıyı kullanıma sundu. Varsayılan değer yanlıştır. true olarak ayarlanırsa Aspose.Cells API, çalışma sayfası içeriğini daha iyi sunumla dışa aktarır.
+HtmlSaveOptions sınıfı, e-tabloları HTML veya MHTML'e dışa aktarırken sonuçları daha iyi düzende işlemek için kullanılabilen PresentationPreference özelliği için getter/setter özelliğini kullanıma sundu. Varsayılan değer false'tur. true olarak ayarlanırsa, Aspose.Cells API, çalışma sayfası içeriğini daha iyi sunumla dışa aktarır.
 
 {{% alert color="primary" %}} 
 

@@ -6,7 +6,7 @@ url: /de/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 ---
 {{% alert color="primary" %}}
 
-Sie können Aspose.Cells verwenden, um Ihr Arbeitsblatt oder Diagramm in ein Bild mit der gewünschten Breite und Höhe zu exportieren. Es bietet[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize)-Methode, um die gewünschte Breite und Höhe des exportierten Bildes festzulegen. Breite und Höhe werden in der Einheit Pixel angegeben.
+ Sie können Aspose.Cells verwenden, um Ihr Arbeitsblatt oder Diagramm in ein Bild mit der gewünschten Breite und Höhe zu exportieren. Es bietet[**ImageOrPrintOptions.SetDesiredSize()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) -Methode, um die gewünschte Breite und Höhe des exportierten Bildes festzulegen. Breite und Höhe werden in der Einheit Pixel angegeben.
 
 {{% /alert %}}
 

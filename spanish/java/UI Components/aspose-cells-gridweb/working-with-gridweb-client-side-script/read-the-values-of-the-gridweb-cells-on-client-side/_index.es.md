@@ -126,7 +126,7 @@ out.print(gridweb.getHTMLBody());
 
 {{< /highlight >}}
 ## **Salida de consola**
-Esta es la salida de la consola del código de ejemplo anterior.
+Esta es la salida de la consola del código de muestra anterior.
 
 {{< highlight "java" >}}
 

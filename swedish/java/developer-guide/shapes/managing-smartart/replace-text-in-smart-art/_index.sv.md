@@ -6,7 +6,7 @@ url: /sv/java/replace-text-in-smart-art/
 ---
 ## **Möjliga användningsscenarier**
 
- Smart konst är ett av huvudobjekten i en arbetsbok. Många gånger finns det ett behov av att uppdatera texten i smart konst. Aspose.Cells tillhandahåller denna funktion genom att ställa in[**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) fast egendom.
+Smart konst är ett av huvudobjekten i en arbetsbok. Många gånger finns det ett behov av att uppdatera texten i smart konst. Aspose.Cells tillhandahåller denna funktion genom att ställa in[**Shape.Text**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Text) fast egendom.
 
 Exempelkällfilen kan laddas ner från följande länk:
 

@@ -16,13 +16,13 @@ url: /de/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Kontrollkästchen in HTML-Datei rendern
 
- 26082 Unterstützung der ausgerichteten Ausrichtung beim Rendern des PDF-Formats
+ 26082 Unterstützung der ausgerichteten Ausrichtung beim Rendern des Formats PDF
 
  26341 Excel-zu-Pdf-Verbesserung für Mono
 
  26342 An externe Weblinks sind einige seltsame Zeichen angehängt
 
- 25332 Erweitern Sie verschiedene benutzerdefinierte Eigenschaften in XLS-, XLSX/XLSM-Dokumenten
+ 25332 Erweitern verschiedener benutzerdefinierter Eigenschaften in XLS-, XLSX-/XLSM-Dokumenten
 
  26472 STDEV.S Funktion/Formel unterstützen
 ### **Leistung**
@@ -32,11 +32,11 @@ url: /de/net/aspose-cells-for-net-5-3-3-release-notes/
 
  27063 Ungültiger Spaltenindex – Aspose.Cells.CellsException von SheetRender.ToImage()-Methode
 
- 26571 Aspose.Cells kann die XLS-Datei nicht öffnen
+26571 Aspose.Cells kann die Datei XLS nicht öffnen
 
  26309 Quell-Array war nicht lang genug – Ausnahme beim Öffnen einer Excel-Datei
 
-25972 SheetRender.ToImage()-Methode kann einige Arbeitsblätter nicht rendern
+ 25972 SheetRender.ToImage()-Methode kann einige Arbeitsblätter nicht rendern
 ### **Fehler**
  26141 Rendern Sie ein fast leeres Bild (von der Methode Chart.ToImage()), die gestrichelten Linien werden nicht korrekt gerendert
 
@@ -48,7 +48,7 @@ url: /de/net/aspose-cells-for-net-5-3-3-release-notes/
 
  18878 Reduzieren Sie die Schriftgröße beim Speichern in eine PDF-Datei
 
- 19318 Falscher Text im PDF-Export
+ 19318 Falscher Text in PDF Export
 
  24011 Als PDF speichern (Fehler)
 
@@ -62,19 +62,19 @@ url: /de/net/aspose-cells-for-net-5-3-3-release-notes/
 
  24961 Dateibeschädigungsproblem
 
- 26198 Holen Sie sich den Maximalwert von ValueAxis in einem Excel-Diagramm
+26198 Holen Sie sich den Maximalwert von ValueAxis in einem Excel-Diagramm
 
  26198 Ein Problem mit den Methoden PutValue und ClearContents
 
  26544 Problem beim Kopieren von Zeilen und bedingter Formatierung
 
-26711 Berechnete Zelle hat „#WERT!“ nach der Verwendung der Methode Workbook.CalculateFormula()
+ 26711 Berechnete Zelle hat „#WERT!“ nach der Verwendung der Methode Workbook.CalculateFormula()
 
  26728 Holen Sie sich „#Wert!“ in den berechneten Zellen
 
  26984 Problem mit der Berechnung von Formeln über Arbeitsblätter hinweg
 
- 26308 Die XLSB-Formel gibt einen anderen Wert zurück als die XLSX-Formel
+ 26308 XLSB Die Formel gibt einen anderen Wert zurück als die Formel XLSX
 
  25783 Excel-Datei wird mit Warnung geöffnet, nachdem Range.CopyValue für die Kopfzeile der Tabelle verwendet wurde
 

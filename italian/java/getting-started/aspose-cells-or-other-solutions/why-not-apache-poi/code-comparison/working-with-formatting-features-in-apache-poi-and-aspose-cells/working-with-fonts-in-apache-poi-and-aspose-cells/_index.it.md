@@ -5,9 +5,9 @@ weight: 30
 url: /it/java/working-with-fonts-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Lavorare con i caratteri**
-Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe del foglio di lavoro fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
+Aspose.Cells offre un corso,[Cartella di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe del foglio di lavoro fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](http://docs.aspose.com:8082/docs/display/cellsjava/Cell)classe.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -43,7 +43,7 @@ cell.setStyle(style);
 ## **Apache POI SS - HSSF XSSF - Lavorare con i caratteri**
 Apache POI SS fornisce la classe Font per configurare varie impostazioni dei caratteri.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

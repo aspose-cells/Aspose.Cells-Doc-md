@@ -6,7 +6,7 @@ url: /ar/net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-Microsoft Excel Watch Window هي أداة مفيدة لمشاهدة قيم الخلية وصيغها بسهولة في النافذة. يمكنك فتح ملف*مشاهدة النافذة* باستخدام Microsoft Excel بالضغط على*الصيغ> مشاهدة* *نافذة او شباك*. لديها*أضف مشاهدة*زر يمكن استخدامه لإضافة الخلايا للفحص. وبالمثل ، يمكنك استخدام ملفات[**Worksheet.CellWatches.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) طريقة لإضافة الخلايا إليها*مشاهدة النافذة*باستخدام Aspose.Cells API.
+Microsoft Excel Watch Window هي أداة مفيدة لمشاهدة قيم الخلية وصيغها بسهولة في النافذة. يمكنك فتح ملف*مشاهدة النافذة* باستخدام Microsoft Excel بالضغط على*الصيغ> مشاهدة* *نافذة او شباك*. لديها*أضف مشاهدة*زر يمكن استخدامه لإضافة الخلايا للفحص. وبالمثل ، يمكنك استخدام ملفات[**Worksheet.CellWatches.Add ()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index)طريقة لإضافة الخلايا إليها*مشاهدة النافذة*باستخدام Aspose.Cells API.
 
 ## **أضف Cells إلى Microsoft نافذة مشاهدة Excel Formula**
 

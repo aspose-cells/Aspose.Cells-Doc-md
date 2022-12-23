@@ -20,13 +20,13 @@ url: /es/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-42557|La selección de Agrupación de tabla dinámica y Filtro de informe dinámico desaparece cuando se carga en GridWeb|Nueva caracteristica|
 |CELLSNET-45281|Los minigráficos desaparecen después de renderizar a PDF|Mejora|
 |CELLSNET-45280|Los minigráficos desaparecen después de volver a guardar el archivo|Mejora|
-|CELLSNET-44438|OutOfMemoryException al guardar CSV en PDF|Actuación|
-|CELLSNET-45231|La etiqueta de formato en el contenido de SpreadsheetML sigue colgando al cargar|Actuación|
-|CELLSNET-45219|Eliminar algunas llamadas al método string.ToUpper() (si es posible) en el código fuente|Actuación|
-|CELLSNET-45242|Algunas formas están separadas/distorsionadas y atenuadas en el archivo PDF renderizado|Insecto|
+|CELLSNET-44438|OutOfMemoryException al guardar CSV a PDF|Rendimiento|
+|CELLSNET-45231|La etiqueta de formato en el contenido SpreadsheetML sigue pendiente al cargar|Rendimiento|
+|CELLSNET-45219|Eliminar algunas llamadas al método string.ToUpper() (si es posible) en el código fuente|Rendimiento|
+|CELLSNET-45242|Algunas formas están separadas/distorsionadas y atenuadas en el archivo renderizado PDF|Insecto|
 |CELLSNET-45275|Eliminar la hoja de trabajo hace que se guarde un XLSM corrupto|Insecto|
-|CELLSNET-45262|Guardar la hoja de trabajo como HTML con texto desbordado en las celdas|Insecto|
-|CELLSNET-45248|Parte del texto se superpone o es invisible y la alineación vertical no es correcta en la representación de Excel a HTML|Insecto|
+|CELLSNET-45262|Guardando la hoja de trabajo como HTML con texto desbordado en las celdas|Insecto|
+|CELLSNET-45248|Parte del texto se superpone o es invisible y la alineación vertical no es correcta en Excel para la representación HTML|Insecto|
 |CELLSNET-45229|Cuando HTML se guarda como XLSX, el diseño del texto es diferente|Insecto|
 |CELLSNET-45228|Cuando HTML se guarda como XLSX, el formato de texto cambia|Insecto|
 |CELLSNET-45227|Cuando HTML se guarda como XLSX, falta parte del contenido|Insecto|
@@ -34,14 +34,14 @@ url: /es/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45254|Problema con el texto de los filtros de pivote|Insecto|
 |CELLSNET-45267|El formato de número no funciona correctamente en la tabla dinámica|Insecto|
 |CELLSNET-45170|Parte del texto se superpone con otras celdas y la alineación vertical no es correcta|Insecto|
-|CELLSNET-45263|Problema al importar fechas alrededor de 1900 desde un archivo CSV|Insecto|
-|CELLSNET-45283|La fuente es más negrita en el archivo PDF de salida cuando se establece el tipo de optimización de PDF en "Tamaño mínimo"|Insecto|
+|CELLSNET-45263|Problema al importar fechas alrededor de 1900 del archivo CSV|Insecto|
+|CELLSNET-45283|La fuente es más negrita en el archivo de salida PDF cuando se establece el tipo de optimización PDF en "MinimumSize"|Insecto|
 |CELLSNET-45265|Fuente cambiada en la imagen de salida/PDF|Insecto|
 |CELLSNET-45235|Ligera diferencia de alineación vertical entre Excel y Aspose.Cells Pdfs|Insecto|
-|CELLSNET-45272|La fuente es diferente y falta el signo de porcentaje en el archivo PDF de salida|Insecto|
+|CELLSNET-45272|La fuente es diferente y falta el signo de porcentaje en el archivo de salida PDF|Insecto|
 |CELLSNET-45233|Los gráficos tienen "Título del eje"|Insecto|
-|CELLSNET-45232|Los gráficos de columnas 3D no se representan correctamente en el archivo PDF de salida|Insecto|
-|CELLSNET-45188|Las etiquetas del eje de categorías no se muestran en el gráfico en el PDF de salida|Insecto|
+|CELLSNET-45232|Los gráficos de columnas 3D no se representan correctamente en el archivo de salida PDF|Insecto|
+|CELLSNET-45188|Las etiquetas del eje de categoría no se muestran en el gráfico en la salida PDF|Insecto|
 |CELLSNET-45292|Eliminar la hoja de trabajo en XLSM deja una hoja remanente en el proyecto vba|Insecto|
 |CELLSNET-45286|Cuando se guarda un archivo específico, la salida está dañada|Insecto|
 |CELLSNET-45285|Los documentos de Excel se corrompen después de Guardar|Insecto|
@@ -53,7 +53,7 @@ url: /es/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45244|Cells eliminación de rango con opción de desplazamiento hacia arriba no se aplica estilo en las celdas|Insecto|
 |CELLSNET-45241|El libro de trabajo se corrompe después de abrirlo y guardarlo|Insecto|
 |CELLSNET-45237|La tabla de datos no se desplaza hacia abajo correctamente en un XLSX|Insecto|
-|CELLSNET-45236|No se pueden leer las hojas de trabajo de un archivo XLSX protegido con contraseña|Insecto|
+|CELLSNET-45236|No se pueden leer las hojas de trabajo de un archivo protegido con contraseña XLSX|Insecto|
 |CELLSNET-45234|Cells.DeleteRange() no funciona correctamente|Insecto|
 |CELLSNET-45226|No se puede actualizar la propiedad OleObject.ObjectSourceFullName|Insecto|
 |CELLSNET-45225|Cells la eliminación de rango con la opción de cambio hacia arriba no disminuye el recuento de hipervínculos|Insecto|
@@ -69,7 +69,7 @@ url: /es/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-44555|Problema al establecer el valor de una celda con formato de porcentaje|Insecto|
 |CELLSNET-44975|Error de formato dentro de los textos de formas cuando Excel se convierte a PDF|Excepción|
 |CELLSNET-45266|VbaProject.Sign provoca una excepción|Excepción|
-|CELLSNET-45239|Volver a agregar una imagen al mismo XLS genera un error de referencia nula|Excepción|
+|CELLSNET-45239|Volver a agregar una imagen al mismo XLS arroja un error de referencia nula|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega el método VbaProject.Protect(bool islockedForViewing,string password)**

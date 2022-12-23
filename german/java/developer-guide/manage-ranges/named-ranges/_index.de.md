@@ -33,19 +33,19 @@ Hier verwenden wir die Aspose.Cells API, um die Aufgabe zu erledigen.
 - Name der Zelle oben links, der Name der Zelle oben links im Bereich.
 - Name der unteren rechten Zelle, der Name der unteren rechten Zelle im Bereich.
 
- Wenn der[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) )-Methode aufgerufen wird, gibt sie den neu erstellten benannten Bereich als Instanz von zurück[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/range) Klasse.
+ Wenn die[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) )-Methode aufgerufen wird, gibt sie den neu erstellten benannten Bereich als Instanz von zurück[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/range) Klasse.
 
 Das folgende Beispiel zeigt, wie Sie einen benannten Zellbereich erstellen, der sich über B4:G14 erstreckt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Zugriff auf alle benannten Bereiche in einer Tabelle**
- Ruf den[getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) Methode der[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) um alle benannten Bereiche in einer Tabelle zu erhalten. Das[getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) )-Methode gibt ein Array aller benannten Bereiche in der zurück[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
+ Ruf den ... an[getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) Methode der[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) um alle benannten Bereiche in einer Tabelle zu erhalten. Das[getNamedRanges](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) )-Methode gibt ein Array aller benannten Bereiche in der zurück[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
 
 Das folgende Beispiel zeigt, wie auf alle benannten Bereiche in einer Arbeitsmappe zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AccessAllNamedRanges-AccessAllNamedRanges.java" >}}
 #### **Greifen Sie auf einen bestimmten benannten Bereich zu**
- Ruf den[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) Sammlung[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) )-Methode, um einen bestimmten Bereich nach Namen abzurufen. Ein typisches[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) )-Methode nimmt den Namen des benannten Bereichs und gibt den angegebenen benannten Bereich als Instanz von zurück[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/range)Klasse.
+ Ruf den ... an[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) Sammlung[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) )-Methode, um einen bestimmten Bereich nach Namen abzurufen. Ein typisches[getRangeByName](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getRangeByName\(java.lang.String\) )-Methode nimmt den Namen des benannten Bereichs und gibt den angegebenen benannten Bereich als Instanz von zurück[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/range)Klasse.
 
 Das folgende Beispiel zeigt, wie auf einen angegebenen Bereich über seinen Namen zugegriffen wird.
 

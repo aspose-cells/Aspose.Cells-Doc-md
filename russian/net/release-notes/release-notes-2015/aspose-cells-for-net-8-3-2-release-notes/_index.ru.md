@@ -40,7 +40,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 ## **Улучшения**
 
 
- (CELLSNET-43144) — визуализация HTML для каждого листа только с содержимым элемента
+ (CELLSNET-43144) — Рендеринг HTML для каждого листа только с содержимым элемента
 
  (CELLSNET-43282) — Импорт файла CSV в файл Excel XLSX
 
@@ -55,7 +55,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
  (CELLSNET-43260) — Возможность получения информации о строке подписи из электронной таблицы.
 
 
-## **Производительность**
+## **Спектакль**
 
 
  (CELLSNET-43236) — при загрузке электронной таблицы используется большая часть системной памяти.
@@ -66,7 +66,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43271) — Открытие и сохранение электронной таблицы приводит к ее повреждению.
 
- (CELLSNET-43266) — Второй рабочий лист не отображается нормально в выходном PDF-файле.
+ (CELLSNET-43266) — Второй рабочий лист не отображается нормально в выходных данных PDF.
 
  (CELLSNET-43262) - Методы IStreamProvider не вызываются
 
@@ -74,11 +74,11 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43215) — PivotItem не перемещается в указанное место при использовании PivotItem.Move.
 
- (CELLSNET-43205) — Некоторые графические элементы неуместны в выходном HTML-коде.
+ (CELLSNET-43205) - Некоторые графические элементы неуместны в выводе HTML.
 
- (CELLSNET-43204) - Некоторые графические элементы неуместны в выходном PDF-файле.
+ (CELLSNET-43204) - Некоторые графические элементы неуместны в выводе PDF.
 
- (CELLSNET-43051) — точки данных диаграммы отображаются под изображением в формате визуализированного HTML-файла.
+ (CELLSNET-43051) — точки данных диаграммы отображаются под изображением в формате файла HTML.
 
  (CELLSNET-42878) — Цвет фона сводной таблицы установлен на черный.
 
@@ -86,11 +86,11 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43306) - Aspose.Cells не преобразует пунктирную линию в прямую.
 
- (CELLSNET-43288) — изображения не отображаются при преобразовании электронной таблицы в PDF.
+(CELLSNET-43288) — изображения не отображаются при преобразовании электронной таблицы в PDF.
 
-(CELLSNET-43263) - Проблема с визуализацией изображения
+ (CELLSNET-43263) - Проблема с визуализацией изображения
 
- (CELLSNET-43245) — Макет уменьшен, а границы в выходном PDF-файле стали толще.
+ (CELLSNET-43245) — макет уменьшен, а границы на выходе PDF стали толще.
 
  (CELLSNET-42973) - Проблема выравнивания нижнего колонтитула
 
@@ -102,19 +102,19 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43273) — основные линии сетки вертикальной (значения) оси больше не выбираются.
 
- (CELLSNET-43272) - В преобразованном формате файла PDF не используется поворот изображения.
+ (CELLSNET-43272) — поворот изображения не используется в формате файла PDF.
 
  (CELLSNET-43267) — текст на иврите на диаграмме перевернут.
 
  (CELLSNET-43255) — изображение диаграммы отображается неправильно.
 
- (CELLSNET-43212) — Различия в отображении меток данных форматированного текста в Excel и PDF
+ (CELLSNET-43212) — Различия в отображении меток данных форматированного текста в Excel и PDF.
 
  (CELLSNET-43210) - Отсутствуют кнопки поля в сводной диаграмме
 
- (CELLSNET-43046) — Chart.ToImage не отображает формат даты, соответствующий CultureInfo.
+(CELLSNET-43046) — Chart.ToImage не отображает формат даты, соответствующий CultureInfo.
 
-(CELLSNET-42993) — метки данных графика не отображаются при рендеринге в PDF.
+ (CELLSNET-42993) — Метки данных графика не отображаются при рендеринге на PDF.
 
  (CELLSNET-42893) — SheetRender.ToImage неправильно отображает диаграмму.
 
@@ -136,13 +136,13 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43280) — Установка типа размещения CommentShape на «Переместить»
 
- (CELLSNET-43275) — документ Excel открыт при блокировке защищенного просмотра.
+(CELLSNET-43275) — документ Excel открыт при блокировке защищенного просмотра.
 
-(CELLSNET-43270) - Настройка масштаба для рабочего листа типа диаграммы не действует.
+ (CELLSNET-43270) - Настройка масштаба для рабочего листа типа диаграммы не действует.
 
  (CELLSNET-43269) — UpdateLinkedDataSource не извлекает новые данные из внешней книги.
 
- (CELLSNET-43265) — проблема преобразования SpreadsheetML со знаком Ansi Pound
+ (CELLSNET-43265) — проблема преобразования знака Ansi Pound SpreadsheetML
 
  (CELLSNET-43264) - Применение границ к ячейкам
 
@@ -166,9 +166,9 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43323) — Исключение в методе Workbook.CalculateFormula()
 
- (CELLSNET-43319) — System.ArgumentOutOfRangeException при открытии файла XLA.
+(CELLSNET-43319) — System.ArgumentOutOfRangeException при открытии файла XLA.
 
-(CELLSNET-43292) — Исключение при сохранении рабочей книги с пустым листом диаграммы
+ (CELLSNET-43292) — Исключение при сохранении рабочей книги с пустым листом диаграммы
 
  (CELLSNET-43278) — Ошибка при загрузке документа Excel со спарклайнами.
 
@@ -178,7 +178,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-\2) Aspose.Cells Сетка Люкс
+ \2) Aspose.Cells Сетка Люкс
 
 
 ## **Другие улучшения и изменения**
@@ -218,7 +218,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
- Добавляет метод WorkbookSettings.CheckWriteProtectedPassword().
+Добавляет метод WorkbookSettings.CheckWriteProtectedPassword().
 
  Проверяет правильность пароля, защищенного от записи.
 
@@ -244,7 +244,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  Добавляет метод PivotItem.Move(int count, bool isSameParent).
 
- Перемещает элемент вверх или вниз.
+Перемещает элемент вверх или вниз.
 
 
 
@@ -256,7 +256,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  Добавляет метод Workbook.GetNamedStyle(имя строки).
 
-Получает именованный стиль из пула стилей книги по имени.
+ Получает именованный стиль из пула стилей книги по имени.
 
 
 
@@ -296,7 +296,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-Добавляет метод WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Добавляет метод WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 
  Выводит книгу на принтер.
 
@@ -322,11 +322,11 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
  Устарел метод PivotItem.Move(int count).
 
- Вместо этого используйте метод PivotItem.Move(int count, bool isSameParent).
+Вместо этого используйте метод PivotItem.Move(int count, bool isSameParent).
 
 
 
-Удаляет все устаревшие методы Open() и Save() Workbook.
+ Удаляет все устаревшие методы Open() и Save() Workbook.
 
 
 
@@ -346,7 +346,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
- Удаляет устаревшие свойства ReCalcOnOpen, Language, Encoding и ConvertNumericData WorkbookSettings.
+Удаляет устаревшие свойства ReCalcOnOpen, Language, Encoding и ConvertNumericData WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ url: /ru/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-Удаляет устаревшие DisplayHTMLCrossString и ExportChartImageFormat из HtmlSaveOptions.
+ Удаляет устаревшие DisplayHTMLCrossString и ExportChartImageFormat из HtmlSaveOptions.
 
 
 

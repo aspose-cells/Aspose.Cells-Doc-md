@@ -12,7 +12,7 @@ url: /es/net/working-with-validations-in-columns/
 ## **Agregar validación de columna**
 Para agregar cualquier tipo de validación a una columna, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
 - **Agregar** un deseado**Validación** a cualquier columna
 

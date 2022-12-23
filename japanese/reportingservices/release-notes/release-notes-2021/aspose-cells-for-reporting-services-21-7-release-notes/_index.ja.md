@@ -12,7 +12,7 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-21-7-release-note
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSRS-584 | Png/Emf レンダリングの改善。|改善|
-|CELLSRS-588 |Tiff レンダリングの改善。|改善|
+|CELLSRS-584 |Png/Emf レンダリングの改善。|改善|
+|CELLSRS-588 | Tiff レンダリングの改善。|改善|
 
 

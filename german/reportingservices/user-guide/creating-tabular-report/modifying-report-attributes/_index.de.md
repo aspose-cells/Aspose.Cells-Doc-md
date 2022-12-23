@@ -31,4 +31,4 @@ Verfügbare Berichte sind im linken Bereich aufgelistet.
 
 
 
-1.  Klicken**Verpflichten** beenden.
+1.  Klicken**Begehen** beenden.

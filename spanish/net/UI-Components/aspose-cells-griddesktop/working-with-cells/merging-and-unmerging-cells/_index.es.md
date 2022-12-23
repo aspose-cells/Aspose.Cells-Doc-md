@@ -7,7 +7,7 @@ url: /es/net/merging-and-unmerging-cells-griddesktop/
 ---
 {{% alert color="primary" %}} 
 
-En este tema, discutiremos una función de utilidad de fusionar y desfusionar celdas de una hoja de cálculo. Esta función es útil en aquellos casos en los que necesitamos expandir algunas filas o columnas para mejorar la legibilidad de los datos.
+En este tema, discutiremos una función de utilidad de fusionar y desfusionar celdas de una hoja de trabajo. Esta función es útil en aquellos casos en los que necesitamos expandir algunas filas o columnas para mejorar la legibilidad de los datos.
 
 {{% /alert %}} 
 ## **Fusionando Cells**

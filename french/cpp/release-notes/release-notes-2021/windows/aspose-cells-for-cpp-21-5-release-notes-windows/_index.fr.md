@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.5 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-274| Correction du problème de conversion en pdf|Punaise|
 |CELLSCPP-276| Prise en charge de la vérification SHA256 pour la signature de licence|Nouvelle fonctionnalité|

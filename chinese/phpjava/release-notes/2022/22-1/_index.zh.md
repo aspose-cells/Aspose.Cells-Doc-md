@@ -21,10 +21,10 @@ url: /zh/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 |CELLSJAVA-44130|数据标签的文本包裹在输出图表图像中|
 |CELLSJAVA-44204|csv 的分页问题|
 |CELLSJAVA-43934|饼图标签在操作或更新图表后与 Excel 不匹配|
-|CELLSJAVA-44122|导出HTML时，数据标签与Excel不同|
+|CELLSJAVA-44122|HTML导出时，数据标签与Excel不一样|
 |CELLSJAVA-41949|将工作簿保存为 XLSX 和 HTML 格式时内容呈现不同|
-|CELLSJAVA-44207|导出为 HTML 时，行高变高|
-|CELLSJAVA-44233|转换 XLSX 文件时无限循环|
+|CELLSJAVA-44207|导出到HTML时，行高变高|
+|CELLSJAVA-44233|XLSX 文件转换时死循环|
 |CELLSJAVA-44234|文件 data.xls 内存不足问题|
 |CELLSJAVA-44246|空文件的“无效 endrow 索引”异常|
 |CELLSJAVA-44258|文件的空指针异常|
@@ -51,7 +51,7 @@ url: /zh/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 
 ### **添加 TxtLoadOptions.ExtendToNextSheet 属性。**
 
-如果数据的行数或列数超过 ms excel 的限制，支持将 CSV/TSV 数据导入多个工作表。
+支持将CSV/TSV数据导入多个工作表，如果数据的行数或列数超过ms excel的限制。
 
 ### **添加 ExternalLinkCollection.Clear() 方法。**
 

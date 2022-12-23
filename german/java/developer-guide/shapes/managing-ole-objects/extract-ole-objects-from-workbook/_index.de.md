@@ -15,7 +15,7 @@ Manchmal müssen Sie OLE-Objekte aus einer Arbeitsmappe extrahieren. Aspose.Cell
 ### **Erstellen einer Vorlagenarbeitsmappe**
 
 1. Erstellte eine Tabelle in Microsoft Excel.
-1. Fügen Sie dem ersten Arbeitsblatt ein Microsoft Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte hinzu.
+1. Fügen Sie dem ersten Arbeitsblatt ein Microsoft-Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte hinzu.
 
 ### **Extrahieren Sie OLE-Objekte**
 

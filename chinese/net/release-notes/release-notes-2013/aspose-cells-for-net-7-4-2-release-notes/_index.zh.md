@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-4-2-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 41494 - 在 XSLM 文件中复制宏
 
@@ -42,9 +42,9 @@ url: /zh/net/aspose-cells-for-net-7-4-2-release-notes/
 
 \2) Aspose.Cells.GridWeb
 
-新的功能
+新功能
 
- 41459 - 在 JavaScript 中使用 GridWeb
+41459 - 在 JavaScript 中使用 GridWeb
 
 虫子
 

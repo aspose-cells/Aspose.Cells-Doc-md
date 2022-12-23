@@ -6,7 +6,7 @@ url: /es/reportingservices/using-dll-only/
 ---
 ## Cómo instalar Aspose.Cells for Reporting Services usando solo la DLL:
 
-- Visita el Aspose.Cells for Reporting Services[página de descarga](https://downloads.aspose.com/cells/reportingservices) y descargar el**Aspose.Cells for Reporting Services (código postal)** archivo que contiene la última versión del componente y la documentación instalada.
+-  Visita el Aspose.Cells for Reporting Services[página de descarga](https://downloads.aspose.com/cells/reportingservices) y descargar el**Aspose.Cells for Reporting Services (código postal)** archivo que contiene la última versión del componente y la documentación instalada.
  - Hay 7 tipos de versiones Aspose.Cells.ReprotingServivces.dll en Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Admiten diferentes productos de servidor de informes Microsoft.
  - Aspose.Cells.ReportingServices.dll en la carpeta SSRS2005 compatible con Microsoft SQL Server 2005 Reporting Services.
  - Aspose.Cells.ReportingServices.dll en la carpeta SSRS2008 compatible con Microsoft SQL Server 2008 Reporting Services.
@@ -16,7 +16,7 @@ url: /es/reportingservices/using-dll-only/
 - Descomprima el archivo en un directorio de su disco duro.
 
 - Instalar Aspose.Cells for Reporting Services Diseñador de informes:
- - Registro**Aspose.Cells.ReportingServices.Client.dll**utilizando la utilidad Regasm.exe.
+ - Registro**Aspose.Cells.ReportingServices.Client.dll** utilizando la utilidad Regasm.exe.
  - Agregue el complemento Aspose.Cells for Reporting Services en Excel.
    
 - Instale Aspose.Cells for Reporting Services para Microsoft SQL Server Reporting Services el componente de servicios:
@@ -110,10 +110,10 @@ url: /es/reportingservices/using-dll-only/
 1. Abra el Administrador de informes y consulte la lista de tipos de exportación disponibles para un informe. (Inicie el Administrador de informes abriendo un navegador y escriba la URL del Administrador de informes en la barra de direcciones. (De forma predeterminada, la URL es http://<ComputerName>/Informes).
  1. Seleccione uno de los informes en el servidor y abra el**Seleccionar formato** lista.
  Debería ver la lista de formatos de exportación proporcionada por Aspose.Cells for Reporting Services.
- 1. Seleccione**XLS - Libro de trabajo de Excel a través de Aspose.Cells**.
+ 1. Seleccione**XLS – Libro de trabajo de Excel a través de Aspose.Cells**.
  1. Haga clic en**Exportar**.
  El informe se genera en el formato seleccionado.
- 1. Envíelo al cliente y ábralo en una aplicación apropiada. En este caso, el informe se abre en Microsoft Excel.
+ 1. Envíelo al cliente y ábralo en una aplicación adecuada. En este caso, el informe se abre en Microsoft Excel.
 
 Felicitaciones, instaló correctamente Aspose.Cells for Reporting Services y generó un informe como un archivo de Excel Microsoft.
 

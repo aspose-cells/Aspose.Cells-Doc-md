@@ -46,7 +46,7 @@ Les valeurs valides pour un paramètre de rapport peuvent provenir d'un jeu de d
 1.  Cliquez sur**Ajouter**.
  Répétez l'opération pour ajouter d'autres valeurs pour le paramètre.
 1.  Cliquez sur**proche**.
-1.  Cliquez sur**sauvegarder** pour enregistrer le paramètre.
+1.  Cliquez sur**Sauver** pour enregistrer le paramètre.
 1.  Le nouveau paramètre de rapport est répertorié dans le panneau de gauche.
 
    **Le nouveau paramètre** 

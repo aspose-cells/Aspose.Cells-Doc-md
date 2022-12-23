@@ -28,7 +28,7 @@ url: /ja/java/aspose-cells-for-java-8-4-1-release-notes/
 
 ### **バグ**
 
-(CELLSJAVA-41229) - Aspose.Cells は、Excel から HTML への変換で、シートの個々の HTM および CSS ファイルを生成しません。
+(CELLSJAVA-41229) - Aspose.Cells は、Excel のシートの個々の HTM および CSS ファイルを HTML に変換しない
 
 (CELLSJAVA-41170) - SheetRender.toImage は、グラフの x 軸に「(空白)」ラベルが付いた画像をレンダリングします
 
@@ -36,7 +36,7 @@ url: /ja/java/aspose-cells-for-java-8-4-1-release-notes/
 
 (CELLSJAVA-41240) - スプレッドシートを PDF にレンダリングする際に、Arial フォントのテキストが上からトリミングされる
 
-(CELLSJAVA-41238) - 紙_あ_PDF として保存すると期待どおりに動作しない
+(CELLSJAVA-41238) - 紙_あ_PDF として保存すると、期待どおりに動作しません
 
 (CELLSJAVA-41217) - シリーズ カテゴリ データにコンマがある場合、円グラフの凡例が正しく表示されない
 
@@ -46,15 +46,15 @@ url: /ja/java/aspose-cells-for-java-8-4-1-release-notes/
 
 (CELLSJAVA-40993) - 成長グラフに水平グリッド線が表示されない
 
-(CELLSJAVA-41259) - Name.setRefersTo を設定して式を再計算すると、スプレッドシートを HTML に変換する際に誤った値になる
+(CELLSJAVA-41259) - Name.setRefersTo を設定して数式を再計算すると、スプレッドシートを HTML に変換する際に誤った値が返される
 
-(CELLSJAVA-41258) - Aspose.Cells で XLSX を読み込んで保存すると、結果のスプレッドシートが破損する
+(CELLSJAVA-41258) - XLSX を Aspose.Cells で読み込んで保存すると、結果のスプレッドシートが破損する
 
-(CELLSJAVA-41255) - カスタム ボタンが画像になり、キャプションが出力 XLSX で消える
+(CELLSJAVA-41255) - カスタム ボタンが画像になり、出力でキャプションが消える XLSX
 
 (CELLSJAVA-41254) - Microsoft 出力 XLSX ファイルを開くと Excel がクラッシュする
 
-(CELLSJAVA-41253) - 出力XLSXファイルでドロップダウンが消える
+(CELLSJAVA-41253) - 出力 XLSX ファイルでドロップダウンが消える
 
 ### **例外**
 
@@ -100,7 +100,7 @@ Workbook.ValidateFormula メソッドは廃止されました。
 
 ImageOrPrintOptions.SVGFitToViewPort プロパティを追加します。
 
-生成された SVG 画像がビューポートに適合するかどうかを示します。
+生成された SVG 画像がビュー ポートに収まるかどうかを示します。
 
 ImageOrPrintOptions.SetDesiredSize メソッドを追加します。
 

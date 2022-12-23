@@ -9,7 +9,7 @@ Aspose.Cells 提供了[OleObject.ClassIdentifier](https://reference.aspose.com/c
 ## **获取或设置嵌入式 OLE 对象的类标识符**
 以下屏幕截图显示了 Ole 对象类标识符，即从中读取的 GUID[示例 excel 文件](5115190.xls)包含嵌入的 PowerPoint ole 对象。
 
-![待办事项：图像_替代_文本](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
+![待办事项：图片_替代_文本](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
 ### **示例代码**
 请参阅以下示例代码执行[示例 excel 文件](5115190.xls)及其控制台输出打印 Ole 对象的类标识符，即 GUID。打印的 GUID 与屏幕截图中显示的完全相同。
 

@@ -30,6 +30,6 @@ url: /zh/java/custom-slice-or-sector-colors-in-pie-chart/
 
 **饼图中的自定义切片颜色**
 
-![待办事项：图像_替代_文本](custom-slice-or-sector-colors-in-pie-chart_1.png)
+![待办事项：图片_替代_文本](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}

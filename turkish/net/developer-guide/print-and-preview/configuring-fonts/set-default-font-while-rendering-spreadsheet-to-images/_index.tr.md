@@ -16,11 +16,11 @@ Aşağıdaki örnek kod bir çalışma kitabı oluşturur, ilk çalışma sayfas
 
  Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) mülkiyet*Kurye Yeni*.
 
-![yapılacaklar:resim_alternatif_Metin](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
  Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) mülkiyet*Times New Roman*.
 
-![yapılacaklar:resim_alternatif_Metin](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 ## Basit kod
 

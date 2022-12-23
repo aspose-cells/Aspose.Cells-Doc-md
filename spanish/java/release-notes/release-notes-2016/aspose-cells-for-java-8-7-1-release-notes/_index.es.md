@@ -9,27 +9,27 @@ url: /es/java/aspose-cells-for-java-8-7-1-release-notes/
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 |CELLSJAVA-41747 | Soporte para calcular la función FORMULATEXTO|Nueva caracteristica|
-|CELLSJAVA-41702 | Se agregan columnas adicionales en el archivo HTML de salida| Insecto|
+|CELLSJAVA-41702 | Se agregan columnas adicionales en el archivo de salida HTML| Insecto|
 |CELLSJAVA-41708 | Faltan columnas en la salida HTML| Insecto|
 |CELLSJAVA-41720 | Guardar la imagen en SVG al convertir la hoja de cálculo a HTML da como resultado una extensión de archivo de imagen incorrecta| Insecto|
-|CELLSJAVA-41721 |Representación incorrecta del texto en una forma al convertir la hoja de cálculo a HTML| Insecto|
+|CELLSJAVA-41721 | Representación incorrecta del texto en una forma al convertir la hoja de cálculo a HTML| Insecto|
 |CELLSJAVA-41711 | Problema de bucle infinito al guardar en HTML| Insecto|
 |CELLSJAVA-41737 | Cell.getStringValue para el tipo DateTime está dando un valor no deseado| Insecto|
-|CELLSJAVA-41681 | El encabezado del gráfico se extiende más allá del borde del gráfico al usar Chart.toImage| Insecto|
+|CELLSJAVA-41681 |El encabezado del gráfico se extiende más allá del borde del gráfico al usar Chart.toImage| Insecto|
 |CELLSJAVA-41691 | Las etiquetas de datos se superponen con el área del gráfico en el formato de imagen del gráfico| Insecto|
 |CELLSJAVA-41692 | Las etiquetas de datos se superponen con el área del gráfico en el formato de archivo PDF del gráfico| Insecto|
 |CELLSJAVA-41696 | Faltan los bordes inferior y derecho en el formato de archivo PDF de Chart| Insecto|
-|CELLSJAVA-41712 | Los colores incorrectos se representan en el PDF del gráfico de barras| Insecto|
-|CELLSJAVA-41722 | Acrobat Reader muestra un error al cargar el PDF generado por Aspose.Cells| Insecto|
-|CELLSJAVA-41724 | La serie es totalmente opaca en SVG, a diferencia del gráfico original en la hoja de cálculo| Insecto|
-|CELLSJAVA-41725 | La imagen SVG es diferente al gráfico original en la hoja de cálculo| Insecto|
+|CELLSJAVA-41712 | Los colores incorrectos se representan en el gráfico de barras PDF| Insecto|
+|CELLSJAVA-41722 | Acrobat Reader muestra un error al cargar Aspose.Cells' generado PDF| Insecto|
+|CELLSJAVA-41724 | La serie es completamente opaca en SVG a diferencia del gráfico original en la hoja de cálculo| Insecto|
+|CELLSJAVA-41725 | SVG la imagen es diferente al gráfico original en la hoja de cálculo| Insecto|
 |CELLSJAVA-41727 | El efecto de relleno de imagen o textura de DataLabel no se ha representado en SVG| Insecto|
-|CELLSJAVA-41728 | El archivo SVG resultante tiene un tamaño de 0 KB| Insecto|
+|CELLSJAVA-41728 | El archivo resultante SVG tiene un tamaño de 0 KB| Insecto|
 |CELLSJAVA-41741 | La imagen a SVG muestra una imagen en blanco/incorrecta| Insecto|
 |CELLSJAVA-41743 | Falta el título gráfico en el pdf de salida| Insecto|
-|CELLSJAVA-41714 |FileFormatUtil.loadFormatToExtension devuelve .ODS para el archivo .ODP| Insecto|
-|CELLSJAVA-41715 | Contenido ilegible en Excel 2007 después de volver a guardar PerformanceReport.xlsb| Insecto|
-|CELLSJAVA-41731 | La fórmula de forma no se actualiza al guardar XLS en XLSB| Insecto|
+|CELLSJAVA-41714 | FileFormatUtil.loadFormatToExtension devuelve .ODS para el archivo .ODP| Insecto|
+|CELLSJAVA-41715 |Contenido ilegible en Excel 2007 después de volver a guardar PerformanceReport.xlsb| Insecto|
+|CELLSJAVA-41731 | La fórmula de forma no se actualiza al guardar XLS a XLSB| Insecto|
 |CELLSJAVA-41733 | Cell.getFormula devuelve la fórmula con el nombre de la hoja entre corchetes y la ruta al archivo de la hoja de cálculo| Insecto|
 |CELLSJAVA-41732 | Excepción: "[0]Sheet1!B2-Fórmula no válida: más de un token en la pila" en el método Workbook.calculateFormula()| Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**

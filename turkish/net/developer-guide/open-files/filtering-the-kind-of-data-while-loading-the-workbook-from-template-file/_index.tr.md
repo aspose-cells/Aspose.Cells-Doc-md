@@ -10,12 +10,12 @@ url: /tr/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, çalışma kitabını bilgisayardan yüklerken yalnızca şekil nesnelerini yükler.[şablon dosyası](5115552.xlsx) verilen linkten indirebilirsiniz. Aşağıdaki ekran görüntüsü[şablon dosyası](5115552.xlsx) içeriği ve ayrıca Kırmızı renkli ve Sarı arka plandaki verilerin yüklenmeyeceğini açıklar çünkü[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)özellik ayarlandı[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
+Aşağıdaki örnek kod, çalışma kitabını bilgisayardan yüklerken yalnızca şekil nesnelerini yükler.[şablon dosyası](5115552.xlsx) verilen linkten indirebilirsiniz. Aşağıdaki ekran görüntüsü[şablon dosyası](5115552.xlsx)içeriği ve ayrıca Kırmızı renkli ve Sarı arka plandaki verilerin yüklenmeyeceğini açıklar çünkü[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)özellik ayarlandı[**LoadDataFilterOptions.Shape**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
 
-![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
+![yapılacaklar:resim_alternatif_metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-Aşağıdaki ekran görüntüsü[çıktı PDF](5115555.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
+Aşağıdaki ekran görüntüsü[çıkış PDF](5115555.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
+![yapılacaklar:resim_alternatif_metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilterDataWhileLoadingWorkbook-1.cs" >}}

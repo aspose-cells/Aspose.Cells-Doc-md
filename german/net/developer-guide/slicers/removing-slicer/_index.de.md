@@ -6,7 +6,7 @@ url: /de/net/removing-slicer/
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Wenn Sie den Slicer in Microsoft Excel entfernen möchten, wählen Sie ihn einfach aus und drücken Sie die*Löschen* Taste. Wenn Sie es mit Aspose.Cells API programmgesteuert entfernen möchten, verwenden Sie bitte die[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)Methode. Der Slicer wird aus dem Arbeitsblatt entfernt.
+ Wenn Sie den Slicer in Microsoft Excel entfernen möchten, wählen Sie ihn einfach aus und drücken Sie die*Löschen* Knopf. Wenn Sie es mit Aspose.Cells API programmgesteuert entfernen möchten, verwenden Sie bitte die[**Worksheet.Slicers.Remove()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/remove)Methode. Der Slicer wird aus dem Arbeitsblatt entfernt.
 
 ## **Slicer entfernen**
 

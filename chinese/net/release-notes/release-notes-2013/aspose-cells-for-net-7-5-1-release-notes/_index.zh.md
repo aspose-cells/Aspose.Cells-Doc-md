@@ -12,13 +12,13 @@ url: /zh/net/aspose-cells-for-net-7-5-1-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 41522 - XLS 到 XLSM 转换中的解析场景
 
 表现
 
-41526 - XLSX 到 PDF 的转换挂起
+41526 - XLSX 到 PDF 转换挂起
 
 例外情况
 

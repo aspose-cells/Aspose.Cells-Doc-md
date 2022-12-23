@@ -14,12 +14,12 @@ url: /es/python-java/aspose-cells-for-python-via-java-22-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|Admite la clasificación de PivotField a través del campo calculado|
 |CELLSJAVA-44733|Investigue las reglas de MS Excel para mostrar el borde de la celda cuando la columna adyacente está oculta: el borde de la celda no se ha sincronizado|
-|CELLSJAVA-44695| Mala conversión a PDF desde XLS con Line Callout a la izquierda de la hoja|
+|CELLSJAVA-44695| Mala conversión a PDF desde XLS con llamada de línea a la izquierda de la hoja|
 |CELLSJAVA-44700|Los campos calculados de la tabla dinámica no se actualizan al actualizar la fuente de datos|
 |CELLSJAVA-44705|Cell.getDependents() arroja una excepción o no puede proporcionar todos los dependientes|
 |CELLSJAVA-44717|Problema con el estilo de borde (línea)|
 |CELLSJAVA-44707| la línea del borde no se muestra|
-|CELLSJAVA-44670| Problema con fórmulas en el HTML de salida: conversión de Excel a HTML|
+|CELLSJAVA-44670| Problema con fórmulas en la salida HTML: conversión de Excel a HTML|
 |CELLSJAVA-44202|Al exportar a HTML, la leyenda en el gráfico no es la misma que en MS Excel|
 |CELLSJAVA-44591|La rotación de texto de las etiquetas no coincide con Excel en la imagen de salida del gráfico|
 |CELLSJAVA-44655|No se puede mostrar el gráfico de diagrama de árbol con un valor negativo, lo que hace que la ejecución siga ejecutándose|

@@ -14,7 +14,7 @@ Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول ال
 
 يمكنك تحويل تنسيقات مستندات متعددة ، مثل:
 
-- PDF - مستند Adobe Portable
+- PDF - مستند Adobe المحمول
 - XLS - MS Excel 97 ~ 2003
 - XLSX - Office Open XML
 - XLSM - تم تمكين Office Open XML لوحدات الماكرو
@@ -23,9 +23,9 @@ Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول ال
 - ODS - جدول بيانات OpenDocument
 - CSV - قيم مفصولة بفواصل
 - XLSB - Excel Binary 2007
-- MHtml - ملحق بريد إنترنت متعدد الأغراض HTML
+- MHtml - ملحق بريد الإنترنت متعدد الأغراض HTML
 - XPS - مواصفات ورق XML
-- TIFF - تنسيق ملف صورة ذي علامات
+- TIFF - تنسيق ملف الصورة الموسوم
 - SVG - رسومات موجهة قابلة للتحجيم
 - DIF - تنسيق تبادل الرسم
 
@@ -43,7 +43,7 @@ Aspose.Cells for SharePoint هو حل مرن يدعم تحويل جداول ال
 
 لا توجد متطلبات نظام إضافية بخلاف المنتجات المذكورة أعلاه.
 
- تصف هذه الوثائق[الميزات](/cells/ar/sharepoint/features/), [تثبيت](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [تقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/)وحالات الاستخدام الشائعة وإعدادات Aspose.Cells for SharePoint.
+ تصف هذه الوثائق[الميزات](/cells/ar/sharepoint/features/), [التركيب](/cells/ar/sharepoint/install-aspose-cells-for-sharepoint/), [تقييم](/cells/ar/sharepoint/evaluate-aspose-cells/), [الترخيص](/cells/ar/sharepoint/license-aspose-cells-for-sharepoint/)وحالات الاستخدام الشائعة وإعدادات Aspose.Cells for SharePoint.
 
 **استخدم Aspose.Cells for SharePoint من مكتبة مستندات SharePoint لتحويل المستندات**
 

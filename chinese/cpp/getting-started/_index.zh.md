@@ -15,11 +15,11 @@ description: 如何安装 Aspose Cells for C++ 并创建 Hello World 应用程�
 
 ### **安装 Aspose Cells 到 NuGet**
 
-NuGet 是下载和安装 Aspose.Cells for C++ 最简单的方法。
+ NuGet 是下载和安装 Aspose.Cells for C++ 最简单的方法。
 1. 创建一个 Microsoft Visual Studio 项目 for C++。
 2. 包含头文件“Aspose.Cells.h”。
 3. 打开 Microsoft Visual Studio 和 NuGet 包管理器。
- 4.搜索“aspose.cells.cpp”找到需要的Aspose.Cells for C++。
+4.搜索“aspose.cells.cpp”找到需要的Aspose.Cells for C++。
 5.点击“安装”，Aspose.Cells for C++会被下载并引用到你的项目中。
 
 **![通过 NuGet 安装 Aspose Cells](InstallThroughNuget.png)**

@@ -29,7 +29,7 @@ Aspose.Cells.GridWeb 还允许您根据任何数据字段创建小计。小计�
 
 **分组行** 
 
-![待办事项：图像_替代_文本](group-rows-and-create-subtotal_1.png)
+![待办事项：图片_替代_文本](group-rows-and-create-subtotal_1.png)
 
 
 
@@ -49,7 +49,7 @@ sheet.Cells.GroupRows(1, 9);
 
 **分组行** 
 
-![待办事项：图像_替代_文本](group-rows-and-create-subtotal_2.png)
+![待办事项：图片_替代_文本](group-rows-and-create-subtotal_2.png)
 
 
 
@@ -137,7 +137,7 @@ sheet.Cells.UngroupRows(1, 9); 
 
 |**不。**|**函数名称**|**描述**|
 |:- |:- |:- |
-|1|平均|计算值的平均值。|
+|1|平均的|计算值的平均值。|
 |2|数数|计算单元格中的数值。|
 |3|伯爵|计算单元格中的非数字数据。|
 |4|最大限度|计算最大值。|
@@ -148,7 +148,7 @@ sheet.Cells.UngroupRows(1, 9); 
 
 **小计** 
 
-![待办事项：图像_替代_文本](group-rows-and-create-subtotal_3.png)
+![待办事项：图片_替代_文本](group-rows-and-create-subtotal_3.png)
 
 
 
@@ -180,7 +180,7 @@ GridWeb 控件使用公式函数 SUBTOTAL 来计算小计值。
 
 function_num 是一个数字，指定小计计算中使用的函数类型。
 
-|**1**|**平均**|
+|**1**|**平均的**|
 |:- |:- |
 |2|数数|
 |3|伯爵|

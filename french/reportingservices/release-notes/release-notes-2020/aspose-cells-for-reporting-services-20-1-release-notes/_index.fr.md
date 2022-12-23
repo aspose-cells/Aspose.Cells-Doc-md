@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-565|Un problème avec la langue hébraïque au Aspose.Cells for Reporting Services.|Nouvelle fonctionnalité|
 |CELLSRS-567|Mettre à jour Aspose.Cells.DLL.|Tâche|

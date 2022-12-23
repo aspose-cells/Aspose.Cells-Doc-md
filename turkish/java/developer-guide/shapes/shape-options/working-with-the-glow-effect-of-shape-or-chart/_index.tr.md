@@ -12,7 +12,7 @@ Aspose.Cells, şeklin veya grafiğin ışıma efektiyle çalışması için Shap
 
 Aşağıdaki ekran görüntüsü, Şeklin Parlama Efektini ayarlamak için Microsoft Excel arayüzünü göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-the-glow-effect-of-shape-or-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **Şeklin veya Grafiğin Işıma Efekti ile Çalışma**
  Aşağıdaki örnek kod,[kaynak excel dosyası](5472520.xlsx)ve ilk çalışma sayfasındaki ilk şekle erişir ve Shape.Glow özelliğinin alt özelliklerini ayarlar ve ardından çalışma kitabını içine kaydeder.[çıktı excel dosyası](5472527.xlsx).
 ## **Basit kod**

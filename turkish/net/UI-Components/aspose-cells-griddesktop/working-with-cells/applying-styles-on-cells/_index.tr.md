@@ -14,7 +14,7 @@ Aspose.Cells.GridDesktop kullanarak bir hücrenin yazı tipini ve rengini deği�
 
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 -  Erişim**Cell** uygulamak istediğimiz**stil**
--  Almak**stil** arasında**Cell**
+-  Elde etmek**stil** arasında**Cell**
 -  Ayarlamak**stil** özel ihtiyaçlarınıza göre özellikler
 -  Son olarak ayarla**stil** arasında**Cell** güncellenen ile
 
@@ -28,12 +28,12 @@ Aspose.Cells.GridDesktop kullanarak bir hücrenin yazı tipini ve rengini deği�
 ### **Kenarlık Türleri**
 Aspose.Cells.GridDesktop tarafından aşağıdaki gibi desteklenen altı tür kenarlık vardır:
 
-- **Ayrıldı** , sol kenarlığı temsil eder
+- **Sol** , sol kenarlığı temsil eder
 - **Doğru** , sağ kenarlığı temsil eder
 - **Tepe** , Üst sınırı temsil eder
-- **Alt** , alt sınırı temsil eder
+- **Alt kısım** , alt sınırı temsil eder
 - **Çapraz Aşağı** , diyagonal aşağı sınırı temsil eder
-- **çapraz yukarı** , çapraz yukarı sınırı temsil eder
+- **çapraz Yukarı** , çapraz yukarı sınırı temsil eder
 ### **Sınır Çizgisi Türleri**
 Kenarlık bir çizgiden oluşur. Çizgi türünün değiştirilmesi, kenarlığın görünümünü değiştirir. Aspose.Cells.GridDesktop tarafından desteklenen ve aşağıda listelenen birçok sınır çizgisi türü vardır:
 

@@ -247,7 +247,7 @@ Per modificare la larghezza di una colonna:
 
 1. Fare clic su qualsiasi cella all'interno della colonna.
 1.  Passa a**Scheda Formato**.
-1.  Clic**Larghezza della colonna** pulsante per aprire**Larghezza della colonna**dialogo.
+1.  Clic**Larghezza della colonna** pulsante per aprire**Larghezza della colonna** dialogo.
 1. Immettere un nuovo valore nella finestra di dialogo.
 1.  Clic**Chiudere**.
 
@@ -259,7 +259,7 @@ Per modificare l'altezza di una riga:
 
 1. Fare clic su qualsiasi cella all'interno della riga.
 1.  Passa a**Scheda Formato**.
-1.  Clic**Altezza della riga** pulsante per aprire**Altezza della riga**dialogo.
+1.  Clic**Altezza della riga** pulsante per aprire**Altezza della riga** dialogo.
 1. Immettere un nuovo valore nella finestra di dialogo.
 1.  Clic**Chiudere**.
 

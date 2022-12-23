@@ -16,7 +16,7 @@ Les feuilles de calcul protégées ne cachent ni ne protègent les données sens
 
 ### **Ajouter ou supprimer une protection**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
  La classe Worksheet fournit les[**Protéger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#protect(int)) méthode utilisée pour appliquer la protection à une feuille de calcul. La méthode Protect accepte les paramètres suivants :
 
@@ -26,7 +26,7 @@ Les feuilles de calcul protégées ne cachent ni ne protègent les données sens
 
 L'énumération ProtectionType contient les types de protection prédéfinis suivants :
 
-|**Types de protection**|**La description**|
+|**Types de protection**|**Description**|
 |:- |:- |
 |[**TOUT**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|L'utilisateur ne peut rien modifier sur cette feuille de calcul|
 |[**CONTENU**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|L'utilisateur ne peut pas entrer de données dans cette feuille de calcul|
@@ -46,7 +46,7 @@ Une fois le code ci-dessus utilisé pour protéger la feuille de calcul, vérifi
 
 ![tâche : image_autre_texte](protect-and-unprotect-worksheet_1.png)
 
-Pour travailler sur la feuille de calcul, déprotégez la feuille de calcul en sélectionnant le**protection** , alors**Déprotéger la feuille** du**Outils** élément de menu comme indiqué ci-dessous.
+Pour travailler sur la feuille de calcul, déprotégez la feuille de calcul en sélectionnant le**protection** , ensuite**Déprotéger la feuille** du**Outils** élément de menu comme indiqué ci-dessous.
 
 **Sélection de l'élément de menu Déprotéger la feuille** 
 
@@ -134,7 +134,7 @@ La protection est supprimée, sauf si la feuille de calcul est protégée par un
 
 ### **En utilisant Aspose.Cells**
 
- Une feuille de calcul peut être déprotégée en appelant le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**Déprotéger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) méthode. La[**Déprotéger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) peut être utilisée de deux manières, décrites ci-dessous.
+ Une feuille de calcul peut être déprotégée en appelant le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**Déprotéger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) méthode. Le[**Déprotéger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) peut être utilisée de deux manières, décrites ci-dessous.
 
 ### **Déprotéger une feuille de calcul simplement protégée**
 
@@ -178,7 +178,7 @@ Pour afficher les paramètres de protection disponibles dans Excel XP :
 
 Aspose.Cells prend en charge tous les paramètres de protection avancés.
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
  La classe Worksheet fournit la propriété Protection qui est utilisée pour appliquer ces paramètres de protection avancés. La propriété Protection est en fait un objet de la[**protection**](https://reference.aspose.com/cells/java/com.aspose.cells/protection) classe qui encapsule plusieurs propriétés booléennes pour désactiver ou activer des restrictions.
 

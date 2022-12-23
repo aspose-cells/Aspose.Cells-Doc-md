@@ -21,7 +21,7 @@ I grafici standard sono quelli normalmente utilizzati con la formattazione stand
 |:- |:- |
 Ciascuno dei tipi di grafici standard è descritto più dettagliatamente di seguito.
 #### **Grafici a colonne**
-grafici a colonne utilizzano barre verticali (chiamate colonne) per visualizzare valori diversi di uno o più elementi di dati. I grafici a colonne vengono utilizzati principalmente per confrontare i valori tra diverse categorie. Sono ideali per mostrare le variazioni del valore di un articolo nel tempo, ad esempio quando si esegue un'analisi del budget.
+I grafici a colonne utilizzano barre verticali (chiamate colonne) per visualizzare valori diversi di uno o più elementi di dati. I grafici a colonne vengono utilizzati principalmente per confrontare i valori tra diverse categorie. Sono ideali per mostrare le variazioni del valore di un articolo nel tempo, ad esempio quando si esegue un'analisi del budget.
 
 **Istogrammi supportati in Microsoft Excel** 
 
@@ -74,7 +74,7 @@ I marcatori di dati vengono utilizzati per rappresentare i punti dati, i singoli
 
 {{% /alert %}} 
 #### **Grafici a torta**
-I grafici a torta vengono utilizzati principalmente per visualizzare informazioni quando si desidera rappresentare le diverse parti di un intero o le percentuali di un totale.
+grafici a torta vengono utilizzati principalmente per visualizzare informazioni quando si desidera rappresentare le diverse parti di un intero o le percentuali di un totale.
 
 **Grafici a torta supportati in Microsoft Excel** 
 
@@ -129,7 +129,7 @@ I seguenti grafici ad anello sono supportati in Aspose.Cells:
 - Semplice grafico a ciambella
 - Grafico ad anello esploso
 #### **Grafici radar**
-I grafici a radar sono particolarmente utili quando si desidera esaminare diversi fattori correlati a un elemento. Questi grafici hanno più assi lungo i quali è possibile tracciare i dati.
+grafici a radar sono particolarmente utili quando si desidera esaminare diversi fattori correlati a un elemento. Questi grafici hanno più assi lungo i quali è possibile tracciare i dati.
 
 **Grafici radar supportati in Microsoft Excel** 
 
@@ -143,7 +143,7 @@ I seguenti grafici radar sono supportati in Aspose.Cells:
 #### **Grafici di superficie 3D**
 Come altri grafici 3D, i grafici 3D di superficie si basano sugli assi X, Y e Z. Questi grafici sono utili per mostrare una variazione della variabile "Z" in funzione delle altre due variabili, "X" e "Y".
 
-**Grafici Surface 3D supportati in Microsoft Excel** 
+**Grafici 3D di superficie supportati in Microsoft Excel** 
 
 ![cose da fare:immagine_alt_testo](chart-types_9.png)
 
@@ -165,7 +165,7 @@ I seguenti grafici a bolle sono supportati in Aspose.Cells:
 - Grafico a bolle semplice
 - Grafico a bolle 3D
 #### **Grafici azionari**
-grafici azionari sono utilizzati principalmente per i dati sui prezzi delle azioni, ma possono essere utilizzati anche per i dati scientifici.
+I grafici azionari sono utilizzati principalmente per i dati sui prezzi delle azioni, ma possono essere utilizzati anche per i dati scientifici.
 
 **Grafici azionari supportati in Microsoft Excel** 
 
@@ -184,7 +184,7 @@ Questi tipi di grafici utilizzano marcatori di dati cilindrici per conferire un 
 
 ![cose da fare:immagine_alt_testo](chart-types_12.png)
 
-I seguenti grafici dei cilindri sono supportati in Aspose.Cells:
+seguenti grafici dei cilindri sono supportati in Aspose.Cells:
 
 - Schema cilindro semplice
 - Grafico a cilindri impilati
@@ -201,7 +201,7 @@ I seguenti grafici dei cilindri sono supportati in Aspose.Cells:
 
 **Grafici a cono supportati in Microsoft Excel**
 
-seguenti grafici a cono sono supportati in Aspose.Cells:
+I seguenti grafici a cono sono supportati in Aspose.Cells:
 
 - Grafico a cono semplice
 - Grafico a cono impilato

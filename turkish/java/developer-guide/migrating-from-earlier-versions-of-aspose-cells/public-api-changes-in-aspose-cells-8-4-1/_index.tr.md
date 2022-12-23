@@ -45,7 +45,7 @@ workbook.save(output);
 
 İşte {ExternalConnection}} sınıfı tarafından sunulan en önemli birkaç özellik.
 
-|**Mülkiyet adı** |**Tanım** |
+|**Mülkiyet adı** |**Açıklama** |
 |:- |:- |
 | ArkaplanYenile|Bağlantının arka planda (eşzamansız olarak) yenilenip yenilenemeyeceğini belirtir.<br> true bağlantının tercih edilen kullanımı arka planda eşzamansız olarak yenilemekse;<br> false bağlantının tercih edilen kullanımı ön planda eşzamanlı olarak yenilemekse.|
 | BağlantıAçıklaması| Bu bağlantı için kullanıcı açıklamasını belirtir|
@@ -113,7 +113,7 @@ workbook.save(output);
 ### **Elektronik Tablo ve Grafik Dışa Aktarma için İstenilen Görüntü Boyutlarını Ayarlayabilme**
 Aspose.Cells for Java 8.4.1, elektronik tabloları ve çizelgeleri görüntülere dışa aktarırken ortaya çıkan görüntünün boyutlarını ayarlamak için ImageOrPrintOptions.setDesiredSize yöntemini kullanıma sundu. ImageOrPrintOptions.setDesiredSize yöntemi, birincisi istenen genişlik ve ikincisi istenen yükseklik olmak üzere iki tamsayı tipi parametreyi kabul eder.
 
-Aşağıdaki kod parçacığı, çalışma sayfasını PNG'ye dışa aktarırken istenen boyutların nasıl ayarlanacağını gösterir.
+Aşağıdaki kod parçacığı, çalışma sayfasını PNG'e dışa aktarırken istenen boyutların nasıl ayarlanacağını gösterir.
 
 **Java**
 
@@ -151,10 +151,10 @@ renderer.toImage(0, "output.png");
 
 {{% /alert %}} 
 
-### **Yorumları PDF'e Dönüştürme**
- v8.4.1'in piyasaya sürülmesiyle, Aspose.Cells API, elektronik tabloları PDF formatına dönüştürürken yorumların işlenmesini kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağladı. PrintCommentsType numaralandırması aşağıdaki sabitlere sahiptir.
+### **Yorumlar PDF'e işleniyor**
+ v8.4.1'in piyasaya sürülmesiyle, Aspose.Cells API, elektronik tabloları PDF biçimine dönüştürürken yorumların işlenmesini kolaylaştırmak için PageSetup.PrintComments özelliğini ve PrintCommentsType numaralandırmasını sağladı. PrintCommentsType numaralandırması aşağıdaki sabitlere sahiptir.
 
-- PrintCommentsType.PRINT_NUMARA_YORUMLAR: Yorumlar yapılmamalıdır.
+- PrintCommentsType.PRINT_HAYIR_YORUMLAR: Yorumlar yapılmamalıdır.
 - PrintCommentsType.PRINT_İÇİNDE_YER: Yorumlar yerleştirildikleri yerde işlenecektir.
 - PrintCommentsType.PRINT_ÇARŞAF_END: Yorumlar çalışma sayfasının sonunda işlenecektir.
 
@@ -236,7 +236,7 @@ else
 {{< /highlight >}}
 
 ### **ImageOrPrintOptions.SVGFitToViewPort Özelliği Eklendi**
-Aspose.Cells for Java 8.4.1, elektronik tabloları veya grafikleri SVG formatına dışa aktarırken SVG dosya formatı için viewBox özniteliğini açmak için kullanılabilen ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini kullanıma sundu. Bu özelliğin varsayılan değeri yanlıştır, bu nedenle yukarıda belirtilen özellik ayarlanmadan oluşturulan SVG dosyası için temel XML, viewBox özniteliğini içermez.
+Aspose.Cells for Java 8.4.1, elektronik tabloları veya grafikleri SVG formatına dışa aktarırken SVG dosya formatı için viewBox özniteliğini açmak için kullanılabilen ImageOrPrintOptions sınıfı için SVGFitToViewPort özelliğini kullanıma sundu. Bu özelliğin varsayılan değeri yanlıştır, bu nedenle yukarıda belirtilen özellik ayarlanmadan oluşturulan SVG dosyası için temel XML, viewBox özniteliğini içermeyecektir.
 
 Aşağıdaki örnek kod, ImageOrPrintOptions.SVGFitToViewPort özelliğinin kullanımını gösterir.
 

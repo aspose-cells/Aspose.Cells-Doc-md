@@ -4,7 +4,7 @@ type: docs
 weight: 140
 url: /it/net/hide-and-unhide-worksheets-in-a-workbook-in-vsto-and-aspose-cells/
 ---
-Questo articolo confronta l'occultamento e la visualizzazione dei fogli di lavoro con VSTO, usando C# o Visual Basic, con l'esecuzione della stessa attività con Aspose.Cells, sempre usando C# o Visual Basic. Aspose.Cells consente di lavorare senza Microsoft Excel installato.
+Questo articolo confronta i fogli di lavoro nascosti e scoperti con VSTO, usando C# o Visual Basic, con l'esecuzione della stessa attività con Aspose.Cells, sempre usando C# o Visual Basic. Aspose.Cells ti consente di lavorare senza Microsoft Excel installato.
 
 I passaggi per nascondere un foglio di lavoro sono:
 
@@ -14,7 +14,7 @@ I passaggi per nascondere un foglio di lavoro sono:
 1. Salva il file.
  Per scoprire di nuovo un foglio di lavoro, attiva semplicemente la visibilità per il foglio nascosto.
 
-Gli esempi di codice riportati di seguito mostrano innanzitutto come nascondere un foglio di lavoro. I primi esempi mostrano il processo con VSTO, usando C#, rispetto all'uso di Aspose.Cells, sempre usando C#.
+Gli esempi di codice riportati di seguito mostrano innanzitutto come nascondere un foglio di lavoro. I primi campioni mostrano il processo con VSTO, utilizzando C#, rispetto all'utilizzo di Aspose.Cells, sempre utilizzando C#.
 
 La seconda serie di esempi di codice mostra la riga utilizzata per scoprire il foglio di lavoro in VSTO o Aspose.Cells.
 ## **Nascondere i fogli di lavoro**

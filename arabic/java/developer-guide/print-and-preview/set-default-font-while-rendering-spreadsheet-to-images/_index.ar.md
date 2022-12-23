@@ -10,13 +10,13 @@ url: /ar/java/set-default-font-while-rendering-spreadsheet-to-images/
 
 {{% /alert %}} 
 ## **قم بتعيين الخط الافتراضي أثناء عرض جدول البيانات على الصور**
-يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الملكية ل*تايمز نيو رومان*.
+يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف ، ويضيف بعض النص في الخلية A4 من ورقة العمل الأولى ويعين الخط الخاص به على خط غير صالح أو غير موجود. ثم يأخذ صورتين من ورقة العمل. يتم التقاط الصورة الأولى عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*ساعي جديد* ويتم التقاط الصورة الثانية عن طريق ضبط[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*تايمز نيو رومان*.
 
- هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الملكية ل*ساعي جديد*.
+ هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*ساعي جديد*.
 
 ![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
- هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) الملكية ل*تايمز نيو رومان*.
+ هذه هي صورة الإخراج بعد ضبط ملف[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) ملكية ل*تايمز نيو رومان*.
 
 ![ما يجب القيام به: image_بديل_نص](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 

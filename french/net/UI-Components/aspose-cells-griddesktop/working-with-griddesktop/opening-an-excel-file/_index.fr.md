@@ -15,7 +15,7 @@ Une caractéristique unique de Aspose.Cells Grid Suite est sa compatibilité ave
 Aspose.Cells.GridDesktop propose trois méthodes différentes pour ouvrir un fichier Excel.
 
 1. **Ouverture à partir d'un fichier**
-1. **Ouvrir un fichier CSV**
+1. **Ouverture d'un dossier CSV**
 1. **Ouverture à partir d'un flux**
 ## **Ouverture du fichier Excel**
 Dans cet exemple, créez une application de bureau et procédez comme suit.
@@ -34,8 +34,8 @@ Dans cet exemple, créez une application de bureau et procédez comme suit.
 
 
 L'extrait de code ci-dessus peut être utilisé par les développeurs comme ils le souhaitent. Par exemple, si vous souhaitez charger automatiquement un fichier Excel lors du chargement d'un formulaire Windows, vous pouvez ajouter ce code sous l'événement Load de votre formulaire.
-### **Ouvrir un fichier CSV**
-Aspose.Cells.Le contrôle GridDesktop prend également en charge le chargement du fichier CSV. Créez l'événement Click du**Ouvrir le fichier CSV** bouton et collez le code suivant à l'intérieur.
+### **Ouverture d'un dossier CSV**
+Le contrôle Aspose.Cells.GridDesktop prend également en charge le chargement du fichier CSV. Créez l'événement Click du**Ouvrir le fichier CSV** bouton et collez le code suivant à l'intérieur.
 
 
 

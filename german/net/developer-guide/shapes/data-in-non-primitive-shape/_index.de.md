@@ -10,7 +10,7 @@ Manchmal müssen Sie auf Daten aus einem Shape zugreifen, das nicht integriert i
 
 ## **Eine nicht primitive Form**
 
- In Aspose.Cells wird nicht primitiven Formen der Typ zugewiesen[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Sie können ihren Typ mit überprüfen[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)Eigentum.
+In Aspose.Cells wird nicht primitiven Formen der Typ zugewiesen[**AutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Sie können ihren Typ mit überprüfen[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)Eigentum.
 
  Greifen Sie mit dem auf die Formdaten zu[**Form.Pfade**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)Eigentum. Es gibt alle verbundenen Pfade zurück, die die nicht primitive Form umfassen. Diese Pfade sind vom Typ[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)die eine Liste aller Segmente enthält, die wiederum die Punkte in jedem Segment enthalten.
 

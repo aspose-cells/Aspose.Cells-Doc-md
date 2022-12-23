@@ -16,17 +16,17 @@ Aspose.Cells permet à l'utilisateur d'afficher et de masquer les éléments d'u
 
 **Contrôle de la visibilité des feuilles de travail :**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel.[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel.[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Mais, pour contrôler la visibilité d'une feuille de calcul, les développeurs peuvent utiliser[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Mais, pour contrôler la visibilité d'une feuille de calcul, les développeurs peuvent utiliser[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 ### **Rendre une feuille de calcul visible**
 
- Les développeurs peuvent rendre une feuille de calcul visible en passant**vrai** comme paramètre de la[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Les développeurs peuvent rendre une feuille de calcul visible en passant**vrai** comme paramètre de la[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 ### **Masquer une feuille de calcul**
 
- Les développeurs peuvent masquer une feuille de calcul en passant**faux** comme paramètre de la[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Les développeurs peuvent masquer une feuille de calcul en passant**faux** comme paramètre de la[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) méthode de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 **Exemple:**
 
@@ -44,7 +44,7 @@ Aspose.Cells permet à l'utilisateur d'afficher et de masquer les éléments d'u
 
 **Feuille de travail - Après l'exécution de l'exemple de code :**
 
-**Livre1.xls** le fichier est ouvert à l'aide de[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe, puis la première feuille de travail de la**Livre1.xls** le fichier est masqué. Le fichier modifié est enregistré sous**sortie.xls**fichier dont la vue picturale est présentée ci-dessous :
+**Livre1.xls** le fichier est ouvert à l'aide de[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe, puis la première feuille de travail de la**Livre1.xls** le fichier est masqué. Le fichier modifié est enregistré sous**sortie.xls** fichier dont la vue picturale est présentée ci-dessous :
 
 ![tâche : image_autre_texte](show-and-hide-elements_2.png)
 
@@ -70,17 +70,17 @@ Les onglets de feuille représentent les feuilles de calcul dans le fichier Exce
 À l'aide de Aspose.Cells, les développeurs peuvent contrôler la visibilité des onglets de feuille et des boutons de défilement des onglets dans les fichiers Excel.
 
 **Contrôle de la visibilité des onglets :**
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel.
 
 ### **Masquer les onglets**
 
- Masquer les onglets dans un fichier Excel en définissant le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classer'[**getSettings().setShowTabs(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) méthode.
+ Masquer les onglets dans un fichier Excel en définissant le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe'[**getSettings().setShowTabs(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) méthode.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
 ### **Rendre les onglets visibles**
 
- Rendre les onglets visibles avec le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classer'[**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) méthode.
+ Rendre les onglets visibles avec le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe'[**getSettings().setShowTabs(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) méthode.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayTab-1.java" >}}
 
@@ -108,17 +108,17 @@ Toutes les feuilles de calcul d'un fichier Excel sont composées de cellules dis
 
  Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classer. La classe Worksheet fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour contrôler la visibilité des en-têtes de ligne et de colonne, utilisez la classe Worksheet'[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. La classe Worksheet fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour contrôler la visibilité des en-têtes de ligne et de colonne, utilisez la classe Worksheet'[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
 
 ### **Masquer les en-têtes de ligne/colonne**
 
- Masquez les en-têtes de ligne et de colonne à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setRowColumnHeadersVisible(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
+ Masquez les en-têtes de ligne et de colonne à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
 
 ### **Rendre les en-têtes de ligne/colonne visibles**
 
- Rendre visibles les en-têtes de ligne et de colonne à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
+ Rendre visibles les en-têtes de ligne et de colonne à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode.
 
- Un exemple complet est donné ci-dessous qui montre comment utiliser le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setRowColumnHeadersVisible(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode pour masquer les en-têtes de ligne et de colonne de la première feuille de calcul d'un fichier Excel.
+ Un exemple complet est donné ci-dessous qui montre comment utiliser le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(faux)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) méthode pour masquer les en-têtes de ligne et de colonne de la première feuille de calcul d'un fichier Excel.
 
 La capture d'écran ci-dessous montre que Book1.xls contient trois feuilles de calcul : Sheet1, Sheet2 et Sheet3. Chaque feuille de calcul affiche des en-têtes de ligne et de colonne.
 
@@ -145,15 +145,15 @@ Microsoft Excel fournit également des barres de défilement horizontales et ver
 
 **Contrôle de la visibilité des barres de défilement :**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel.[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes de la[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel.[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Mais, pour contrôler la visibilité des barres de défilement dans le fichier Excel, les développeurs peuvent utiliser[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) & [**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes de la[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe.
 
 ### **Masquer les barres de défilement**
 
- Masquez les barres de défilement en définissant le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classer'[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) ou[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes pour**faux**.
+ Masquez les barres de défilement en définissant le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe'[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) ou alors[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes pour**faux**.
 
 ### **Rendre les barres de défilement visibles**
 
- Rendre les barres de défilement visibles en définissant la classe Workbook'[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) ou[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes pour**vrai**.
+ Rendre les barres de défilement visibles en définissant la classe Workbook'[**setVScrollBarVisiblesetVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) ou alors[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) méthodes pour**vrai**.
 
 **Exemple de code complet :**
 
@@ -179,17 +179,17 @@ Aspose.Cells vous permet également de contrôler la visibilité du quadrillage.
 
 ### **Contrôle de la visibilité des quadrillages**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) qui permet d'accéder à chaque feuille de calcul du fichier.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) qui permet d'accéder à chaque feuille de calcul du fichier.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour contrôler la visibilité des lignes de grille, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour contrôler la visibilité des lignes de grille, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
 
 #### **Rendre le quadrillage visible**
 
- Pour rendre le quadrillage visible, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
+ Pour rendre le quadrillage visible, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
 
 #### **Masquer le quadrillage**
 
- Masquer le quadrillage à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
+ Masquer le quadrillage à l'aide de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode.
 
 {{% alert color="primary" %}}
 
@@ -199,7 +199,7 @@ Le quadrillage s'applique à l'ensemble de la feuille. Pour "masquer" le quadril
 
 **Exemple : Masquer le quadrillage d'une feuille de calcul particulière**
 
- L'exemple ci-dessous illustre l'utilisation de[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode pour masquer le quadrillage de la première feuille de calcul d'un fichier Excel.
+ L'exemple ci-dessous illustre l'utilisation de[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) méthode pour masquer le quadrillage de la première feuille de calcul d'un fichier Excel.
 
 La capture d'écran ci-dessous montre que le fichier Book1.xls contient trois feuilles de calcul : Sheet1, Sheet2 et Sheet3. Toutes ces feuilles de travail ont un quadrillage.
 

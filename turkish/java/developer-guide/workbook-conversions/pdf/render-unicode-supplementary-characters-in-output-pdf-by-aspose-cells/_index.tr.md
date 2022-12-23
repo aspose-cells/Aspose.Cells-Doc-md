@@ -1,5 +1,5 @@
 ﻿---
-title: Çıkış PDF'sinde Aspose.Cells ile Unicode Tamamlayıcı karakterleri işleyin
+title: Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin
 type: docs
 weight: 690
 url: /tr/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -14,11 +14,11 @@ Unicode Karakter Standardında, Tamamlayıcı Karakterler, U+10000'den U+10FFFF'
 - UTF-16'da bu karakterler 2 vekil (16 bitlik birimler) gerektirir.
 
 {{% /alert %}} 
-## **Çıkış PDF'sinde Aspose.Cells ile Unicode Tamamlayıcı karakterleri işleyin**
- Aşağıdaki ekran görüntüsü, Aspose.Cells'in[kaynak excel dosyası](5473390.xlsx) içine[çıktı PDF](5473391.pdf)Gördüğünüz gibi, üç Unicode Ek karakteri de Microsoft Excel tarafından yapılanla tamamen aynı şekilde oluşturulmuştur.
+## **Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin**
+ Aşağıdaki ekran görüntüsü, Aspose.Cells'in[kaynak excel dosyası](5473390.xlsx) içine[çıkış PDF](5473391.pdf). Gördüğünüz gibi, üç Unicode Ek karakteri de Microsoft Excel tarafından yapılanla tamamen aynı şekilde oluşturulmuştur.
 
-![yapılacaklar:resim_alternatif_Metin](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-dönüştürmek için bu örnek kodu kullanabilirsiniz.[kaynak excel dosyası](5473390.xlsx) içine[çıktı PDF](5473391.pdf).
+dönüştürmek için bu örnek kodu kullanabilirsiniz.[kaynak excel dosyası](5473390.xlsx) içine[çıkış PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

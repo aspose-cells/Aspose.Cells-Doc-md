@@ -35,7 +35,7 @@ metaWorkbook.save(filePath);
 
 {{< /highlight >}}
 ### **Propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties agregada**
-Aspose.Cells for Java 8.6.0 ha expuesto la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties que se puede usar para influir en la creación de secuencias de comandos adicionales al convertir las hojas de cálculo a formato HTML. Con la configuración predeterminada, las API Aspose.Cells exportan la hoja de cálculo en formato HTML como la aplicación Excel hace la exportación, es decir; el HTML resultante contiene los marcos y los comentarios condicionales, que detectan el tipo de navegador y ajustan el diseño en consecuencia. El valor predeterminado de la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties es verdadero, eso significa; la exportación se realiza según los estándares de Excel. Si la propiedad se establece en falso, el API no[generar los scripts relacionados con los marcos y comentarios condicionales](/cells/es/java/disable-exporting-frame-scripts-and-document-properties/). En este caso, el HTML resultante se puede ver correctamente en cualquier navegador, sin embargo, no se puede volver a importar utilizando las API Aspose.Cells.
+Aspose.Cells for Java 8.6.0 ha expuesto la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties que se puede usar para influir en la creación de scripts adicionales al convertir las hojas de cálculo al formato HTML. Con la configuración predeterminada, las API Aspose.Cells exportan la hoja de cálculo en formato HTML como la aplicación Excel hace la exportación, es decir; el HTML resultante contiene los marcos y los comentarios condicionales, que detecta el tipo de navegador y ajusta el diseño en consecuencia. El valor predeterminado de la propiedad HtmlSaveOptions.ExportFrameScriptsAndProperties es verdadero, eso significa; la exportación se realiza según los estándares de Excel. Si la propiedad se establece en falso, el API no[generar los scripts relacionados con los marcos y comentarios condicionales](/cells/es/java/disable-exporting-frame-scripts-and-document-properties/). En este caso, el HTML resultante se puede ver correctamente en cualquier navegador, sin embargo, no se puede volver a importar utilizando las API Aspose.Cells.
 
 El siguiente es el escenario de uso simple.
 
@@ -59,7 +59,7 @@ book.save("output.html", options)
 
 {{< /highlight >}}
 ### **Propiedad Shape.MarcoName agregado**
- Aspose.Cells for Java 8.6.0 ha expuesto la propiedad Shape.MarcoName que se puede usar para[asignar un módulo VBA a un control de formulario](/cells/es/java/assign-macro-code-to-form-control/) tal Botón para proporcionar la interacción. La propiedad es de tipo cadena por lo que puede aceptar el nombre del módulo y asignarlo al control.
+Aspose.Cells for Java 8.6.0 ha expuesto la propiedad Shape.MarcoName que se puede usar para[asignar un módulo VBA a un control de formulario](/cells/es/java/assign-macro-code-to-form-control/) tal Botón para proporcionar la interacción. La propiedad es de tipo cadena por lo que puede aceptar el nombre del módulo y asignarlo al control.
 
 El siguiente es el escenario de uso simple.
 

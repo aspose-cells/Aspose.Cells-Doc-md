@@ -16,6 +16,6 @@ url: /tr/net/aspose-cells-net-4-0-1-0-hot-fix-release-notes/
 
 - Yeni grafik demoları eklendi
 - InsertRows/DeleteRows yöntemindeki hatalar düzeltildi
-- SpreadsheetML dosyasını yükleme/kaydetmeyle ilgili hata düzeltildi
+- SpreadsheetML dosyasının yüklenmesi/kaydedilmesindeki hata düzeltildi
 - Bir hücrede tek nokta(.) içeren CSV dosyasının yüklenmesindeki hata düzeltildi
 - xls2pdf özelliğindeki bir hata düzeltildi

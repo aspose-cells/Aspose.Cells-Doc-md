@@ -27,8 +27,8 @@ Bu makale, yukarıda belirtilen yaklaşımların her ikisini de kullanarak dinam
 1.  boş oluştur[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1.  Erişmek[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) ilkinden[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) içinde[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Hücrelere bazı veriler ekleyin.
-1.  Oluşturmak[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Girilen verilere göre.
-1.  Oluşturmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) veri aralığına göre[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
+1.  Yaratmak[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject)Girilen verilere göre.
+1.  Yaratmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) veri aralığına göre[**Nesne Listesi**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject).
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreateDynamicCharts-CreateDynamicCharts.cs" >}}
@@ -42,10 +42,10 @@ Gösterimin anlaşılmasını kolaylaştırmak için, Çalışma Kitabını sıf
 1.  boş oluştur[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1.  Erişmek[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) ilkinden[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) içinde[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook).
 1. Bir Adlandırılmış Aralık oluşturarak hücrelere bazı veriler ekleyin. Bu veriler, dinamik tabloya bir dizi olarak hizmet edecektir.
-1.  Oluşturmak[**Açılan kutu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)önceki adımda oluşturulan Adlandırılmış Aralığa göre.
+1.  Yaratmak[**Açılan kutu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/combobox)önceki adımda oluşturulan Adlandırılmış Aralığa göre.
 1. DÜŞEYARA işlevine kaynak görevi görecek hücrelere biraz daha veri ekleyin.
 1. DÜŞEYARA işlevini (uygun parametrelerle) bir hücre aralığına ekleyin. Bu aralık, dinamik tablo için bir kaynak görevi görecektir.
-1.  Oluşturmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)önceki adımda oluşturulan aralığa göre.
+1.  Yaratmak[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)önceki adımda oluşturulan aralığa göre.
 1. Sonucu diske kaydedin.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-UsingDynamicFormula-CreateDynamicChartsUsingDynamicFormula.cs" >}}

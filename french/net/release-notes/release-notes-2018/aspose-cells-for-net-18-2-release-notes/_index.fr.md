@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-18-2-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45889|Convertir le contenu de la cellule en lien hypertexte - option ImportTableOptions.IsFormulas|Nouvelle fonctionnalité|
 |CELLSNET-45886|Définir les marges du commentaire|Nouvelle fonctionnalité|
@@ -21,20 +21,20 @@ url: /fr/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45833|Les propriétés de l'image (titre et sujet) sont perdues lors de la conversion de la forme en image|Punaise|
 |CELLSNET-45822|Caractères inversés dans les étiquettes lors de la conversion d'Excel en PDF|Punaise|
 |CELLSNET-45776|Certaines données de colonnes ne sont pas entièrement développées/affichées lors de l'enregistrement d'un fichier MHtml au format de fichier Excel|Punaise|
-|CELLSNET-44829|Le HTML de sortie ne correspond pas à Microsoft Excel|Punaise|
+|CELLSNET-44829|La sortie HTML ne correspond pas à Microsoft Excel|Punaise|
 |CELLSNET-44319|La valeur du filtre de tableau croisé dynamique n'est pas conservée lors de l'actualisation|Punaise|
 |CELLSNET-45887|#ÉVALUER!' erreur pour le calcul de ArrayFormula|Punaise|
-|CELLSNET-45883|Diagramme à secteurs 3D - n'est pas bien rendu dans le PDF de sortie|Punaise|
+|CELLSNET-45883|Graphique à secteurs 3D - n'est pas bien rendu dans la sortie PDF|Punaise|
 |CELLSNET-45881|L'ouverture et l'enregistrement du fichier Excel d'entrée provoquent un avertissement de vue protégée rouge dans MS Excel|Punaise|
 |CELLSNET-45880|Une partie des étiquettes de l'axe des x est affichée sur la deuxième ligne du graphique|Punaise|
-|CELLSNET-45864|EMF converti à partir de Aspose.Cells n'est pas exactement exact|Punaise|
+|CELLSNET-45864|EMF converti à partir de Aspose.Cells n'est pas tout à fait exact|Punaise|
 |CELLSNET-45885|Le type (attribut) du lien externe est modifié après l'ouverture/l'enregistrement|Punaise|
 |CELLSNET-45872|Impossible de lire la connexion de données Excel lorsque son type est CSV|Punaise|
 |CELLSNET-45868|La valeur de la propriété PrintTitleRows disparaît après l'ouverture et l'enregistrement par Aspose.Cells|Punaise|
 |CELLSNET-45865|Les caractères spéciaux utilisés dans un nom de colonne ne fonctionnent pas - problème de marqueurs intelligents|Punaise|
 |CELLSNET-45858|Le changement de source du lien a un impact sur le contenu des listes déroulantes|Punaise|
 |CELLSNET-45857|Fichier corrompu lors de la copie d'une feuille d'un classeur à un autre|Punaise|
-|CELLSNET-45901|Alignement de la zone de texte perdu lors du rendu au format PDF|Punaise|
+|CELLSNET-45901|Alignement de la zone de texte perdu lors du rendu à PDF|Punaise|
 |CELLSNET-45875|La valeur Cell est perdue et une partie des étiquettes de l'axe des x est rendue sur la deuxième ligne|Punaise|
 |CELLSNET-45873|Implémentation d'un contrôle interactif pour les groupes de boutons radio dans GridWeb|Punaise|
 |CELLSNET-45902|La feuille de calcul devient surdimensionnée et ne répond plus lorsque vous naviguez ou cliquez dessus dans Aspose.Cells.GridWeb|Punaise|

@@ -10,12 +10,12 @@ Aspose.Cells supporta la conversione di file XLS (che contengono immagini, grafi
 
 {{% /alert %}} 
 ## **Salva ogni foglio di lavoro in un file PDF diverso**
-Se è necessario salvare ogni foglio di lavoro nel file Excel del modello per generare diversi file PDF, è possibile farlo facilmente. Puoi provare a nascondere i fogli nel file e rendere visibile un foglio alla volta per il rendering in PDF.
+Se è necessario salvare ogni foglio di lavoro nel file Excel del modello per generare diversi file PDF, è possibile farlo facilmente. Puoi provare a nascondere i fogli nel file e rendere visibile un foglio alla volta per eseguire il rendering su PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SaveEachWorksheetToDifferentPDF-1.cs" >}}
 
 {{% alert color="primary" %}} 
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) appena prima di eseguire il rendering del foglio di calcolo in formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati nel PDF.
+Se il tuo foglio di calcolo contiene formule, è meglio chiamare[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
 
 {{% /alert %}}

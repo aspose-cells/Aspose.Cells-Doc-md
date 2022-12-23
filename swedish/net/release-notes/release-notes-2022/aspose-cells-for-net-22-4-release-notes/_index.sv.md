@@ -19,36 +19,36 @@ url: /sv/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50816|Stöd High Contrast Theming i Aspose.Cells.GridDesktop|
 |CELLSNET-50751|Stöd PasteType.ValuesAndFormats vid kopiering av intervall.|
 |CELLSNET-50620|När du konverterar xls till pdf renderas inte textens tom radstorlek i textrutan korrekt|
-|CELLSNET-50684|Problem med att extrahera OLE-bilagor från ODS-fil|
+|CELLSNET-50684|Problem med att extrahera OLE-bilagor från filen ODS|
 |CELLSNET-50712|WordArt-effekter och -former renderas inte korrekt i Excel till PDF-konvertering|
 |CELLSNET-50714|XLSB-filen är korrupt när den öppnas och sparas av Aspose.Cells API:er|
-|CELLSNET-50778|Vertikala linjer saknas för pivottabellen i utdata-PDF-filen|
+|CELLSNET-50778|Vertikala linjer saknas för pivottabellen i utgången PDF|
 |CELLSNET-50517|Fel referens i formeln för villkorlig formatering efter infogning/borttagning av rader|
 |CELLSNET-50622|Rubrik tom rad/kolumn med anpassad stil exporteras inte till csv|
 |CELLSNET-50645|Felaktiga resultat med Workbook.CalculateFormula-metoden|
 |CELLSNET-50695|Name.RefersTo/R1C1RefersTo ändras när man refererar till en celladress|
 |CELLSNET-50553| Kolumnstil tillämpas inte på hela kolumnen i GridDesktop|
 |CELLSNET-50641|Problem med att öppna en lösenordsskyddad fil med tomt lösenord ("") till Aspose.Cells.GridDesktop|
-|CELLSNET-50672| lägg till händelsen FailLoadFile|
+|CELLSNET-50672|lägg till händelsen FailLoadFile|
 |CELLSNET-50815| dubbelklicka på redigera cellvärde beteende är inte korrekt|
 |CELLSNET-50594|Text döljs bakom inmatningsfält vid konvertering av XLSX till HTML|
 |CELLSNET-50665|Pdf/A-1b-validering misslyckades efter inställning av CreatedTime vid konvertering till pdf|
-|CELLSNET-50701|Ljusstyrkan och kontrasten för den infogade bilden återställs i Excel till PDF-konvertering|
-|CELLSNET-50834|Problem med tabellens sammanslagna celler i Excel till HTML-konvertering|
+|CELLSNET-50701|Ljusstyrkan och kontrasten för den infogade bilden återställs i Excel till PDF konvertering|
+|CELLSNET-50834|Problem med tabellens sammanslagna celler i Excel till HTML konvertering|
 |CELLSNET-50595|XLSX till SVG: Skillnader i diagram|
-|CELLSNET-50596|Axelenheter ändras inte i XLSX-utdatafilen|
+|CELLSNET-50596|Axelenheter ändras inte i utdatafilen XLSX|
 |CELLSNET-50740|XLSX till JPG: text flyttad till höger sida på sjökort|
-|CELLSNET-50309|Område till PNG: utdata inte som förväntat|
+|CELLSNET-50309|Intervall till PNG: utgången inte som förväntat|
 |CELLSNET-50610|RecalculateBeforeSave alltid falskt i nyare version|
 |CELLSNET-50611|Problem med booleskt värde i Excel till PDF-rendering|
 |CELLSNET-50706| Filstorleken minskas många gånger när du sparar med SaveToStream() vid andra gången|
-|CELLSNET-50749|DeleteBlankColumns(options)-metoden tar bort kolumner som bara har kommentarer|
+|CELLSNET-50749| DeleteBlankColumns(options)-metoden tar bort kolumner som bara har kommentarer|
 |CELLSNET-50759|Formler sparas inte korrekt när en arbetsbok har externa länkar till en arbetsbok som inte har sparats|
 |CELLSNET-50776|Smarta markörer bearbetas inte när en generisk lista av typen System.Dynamic.ExpandoObject används som datakälla för ett kapslat objekt|
-|CELLSNET-50779| Potentiell dataförlust angående inbäddade objekt vid konvertering av XLS -> XLSX -> XLS|
+|CELLSNET-50779| Potentiell dataförlust angående inbäddade objekt vid konvertering XLS -> XLSX -> XLS|
 |CELLSNET-50821|Problem med Range.AutoFill - data fylls inte i automatiskt korrekt om intervallområdet skärs|
 |CELLSNET-50777|PutValue-metoden kastar System.StackOverflowException i australiskt regionalt format|
-|CELLSNET-50275|Undantaget "Objektreferens inte satt till en instans av ett objekt" när ODS renderas till HTML|
+|CELLSNET-50275|Undantaget "Objektreferens inte inställt på en instans av ett objekt" vid rendering av ODS till HTML|
 |CELLSNET-50713|System.NullReferenceException när en XLSB-fil laddas|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

@@ -21,7 +21,7 @@ Nuevas características
 
 Mejoras
 
-(CELLSJAVA-41169): eliminar atributos nulos falsos en el archivo HTML generado
+(CELLSJAVA-41169): Eliminación de atributos nulos falsos en el archivo HTML generado.
 (CELLSJAVA-41179) - Soporte de calendario japonés
 
 Insectos
@@ -34,8 +34,8 @@ Insectos
 (CELLSJAVA-41215) - EMF generado con Aspose.Cells se representa de manera diferente en diferentes visores
 (CELLSJAVA-41196) - XLSB se corrompe después de agregar una hoja de trabajo y un valor de celda
 (CELLSJAVA-41227) - API no puede sustituir la fuente Arial con Liberation Fonts
-(CELLSJAVA-41224): error en la conversión de imágenes al procesar Excel a PDF
-(CELLSJAVA-41223): falla la firma de archivos PDF exportados
+(CELLSJAVA-41224): error en la conversión de imágenes al renderizar Excel a PDF
+(CELLSJAVA-41223): falla la firma de los archivos PDF exportados
 (CELLSJAVA-41208): las sugerencias de representación (Anti Aliasing) no funcionan con SheetRender
 (CELLSJAVA-41193): los símbolos Wingdings no se representan correctamente cuando la hoja de trabajo se representa en una imagen
 (CELLSJAVA-41184): problemas con la representación de la imagen de salida del gráfico
@@ -48,7 +48,7 @@ Excepciones
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException: Área desconocida, en PivotTable.refreshData
 (CELLSJAVA-41192) - Excepción: "java.lang.Exception: se alcanzó el final de la transmisión" al abrir un archivo XLS
-(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException en Workbook ctor al cargar un XLS
+(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException en Workbook ctor mientras se carga un XLS
 (CELLSJAVA-41211): se produce una excepción al resolver la referencia de fórmula cuando el nombre del archivo se establece mediante Workbook.setFileName()
 
 \2) Aspose.Cells Suite de cuadrícula
@@ -80,9 +80,9 @@ Obtiene y establece el prefijo del nombre css, el valor predeterminado es "".
 Presenta la tabla dinámica en formato compacto.
 
  Agrega el método PivotTable.ShowInOutlineForm()
-Diseña la tabla dinámica en forma de esquema.
+Presenta la tabla dinámica en forma de esquema.
 
-Agrega el método PivotTable.ShowInTabularForm()
+ Agrega el método PivotTable.ShowInTabularForm()
 Presenta la tabla dinámica en formato tabular.
 
  Añade el método PivotTableCollection.Remove(PivotTable pivotTable)
@@ -91,7 +91,7 @@ Elimina la tabla dinámica especificada
  Agrega el método PivotTableCollection.RemoveAt(int index).
 Elimina la tabla dinámica en el índice especificado
 
- Agrega el espacio de nombres Aspose.Cells.Vba, las clases VbaPorject, VbaModuleCollection y VbaModule.
+Agrega el espacio de nombres Aspose.Cells.Vba, las clases VbaPorject, VbaModuleCollection y VbaModule.
 Se utilizan para leer y modificar el proyecto VBA en el archivo.
 
  Agrega la propiedad Border.ThemeColor.

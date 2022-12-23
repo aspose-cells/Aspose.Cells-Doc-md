@@ -1,5 +1,5 @@
 ﻿---
-title: 使用 DrawObjectEventHandler 类在呈现为 PDF 时获取 DrawObject 和 Bound
+title: 使用 DrawObjectEventHandler 类渲染到 PDF 时获取 DrawObject 和 Bound
 type: docs
 weight: 60
 url: /zh/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
@@ -18,11 +18,11 @@ Aspose.Cells 提供抽象类[**绘图对象事件处理器**](https://reference.
 
 - 高度：高度[**绘图对象**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)
 
-如果您将 Excel 文件渲染为 PDF，那么您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
+如果您将 Excel 文件渲染到 PDF，那么您可以利用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler).同样，如果您将 Excel 文件渲染为图像，您可以使用[**绘图对象事件处理器**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)类[**ImageOrPrintOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DrawObjectEventHandler).
 
 ## **使用 DrawObjectEventHandler 类在渲染到 Pdf 时获取 DrawObject 和 Bound**
 
-请参阅以下示例代码。它加载了[示例 Excel 文件](64716843.xlsx)并将其另存为[输出PDF](64716842.pdf).在呈现为 PDF 时，它利用[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)财产和捕获[**绘图对象**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)和**边界**现有的单元格和对象，例如图像等。如果 drawObject 类型是 Cell，它会打印其 Bound 和 StringValue。如果 drawObject 类型是 Image，它会打印它的 Bound 和 Shape Name。请查看下面给出的示例代码的控制台输出以获得更多帮助。
+请参阅以下示例代码。它加载了[示例 Excel 文件](64716843.xlsx)并将其另存为[输出 PDF](64716842.pdf).在渲染到 PDF 时，它利用[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)财产和捕获[**绘图对象**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)和**边界**现有的单元格和对象，例如图像等。如果 drawObject 类型是 Cell，它会打印其 Bound 和 StringValue。如果 drawObject 类型是 Image，它会打印它的 Bound 和 Shape Name。请查看下面给出的示例代码的控制台输出以获得更多帮助。
 
 ## **示例代码**
 

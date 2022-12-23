@@ -6,7 +6,7 @@ url: /ar/net/ohal-report-canvas-component/
 ---
 {{% alert color="primary" %}}
 
-[الإبلاغ عن ملف PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
+[تقرير PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
 **استخدام Aspose.Cells في Report Canvas Component**
 

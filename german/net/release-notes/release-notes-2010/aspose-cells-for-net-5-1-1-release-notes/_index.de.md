@@ -21,13 +21,13 @@ url: /de/net/aspose-cells-for-net-5-1-1-release-notes/
 
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
-|18024 | Diagramm2Bild| Problem mit dem Format der Diagrammstrichbeschriftung beim Konvertieren in PDF|
+|18024 | Diagramm2Bild| Problem mit dem Format der Chart-Tick-Beschriftung beim Konvertieren in PDF|
 |18028 | Diagramm2Bild| Chart_Overlapping-Problem|
 |18458 | Diagramm2Bild| Problem mit abgeschnittenen Datenetiketten|
-|18652 | Pdf| Ungültiger Cell Name beim Speichern im PDF-Format|
+|18652 | Pdf| Ungültiger Cell-Name beim Speichern im PDF-Format|
 |18034 | Form2Bild| Layout und Design des ersten Blattes gehen verloren und Text überschneidet sich|
 |18687 | Arbeitsblatt2Bild| ToImage löst eine Ausnahme aus|
-|18473 | XLs|Office 2010 hat ein Problem mit der XLS-Datei festgestellt|
+|18473 | XLs|Office 2010 hat ein Problem mit der Datei XLS festgestellt|
 |18489 | XLs| Problem beim Speichern als XLS|
 |18534 | XLs| Problem mit Offset-Kombinationen|
 |18755 | XLs| CalculateFormula in meiner Datei gibt einen Fehler aus|

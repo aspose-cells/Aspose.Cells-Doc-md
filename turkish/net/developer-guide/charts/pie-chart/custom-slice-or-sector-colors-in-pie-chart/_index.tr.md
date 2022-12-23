@@ -12,7 +12,7 @@ Bu makalede, pasta grafik dilimlerine/sektörlerine özel renklerin nasıl eklen
 
 Bir pasta grafiğin ayrı dilimleri veya sektörleri için özel bir renk ayarlamak üzere:
 
-1.  Erişmek[**Diziler**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) nesnenin[**Harita Noktası**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1.  Erişmek[**Dizi**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) nesnenin[**Harita Noktası**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
 1.  kullanarak istediğiniz rengi atayın.[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)Emlak.
 
 Bu makale ayrıca şunların nasıl yapılacağını açıklar:

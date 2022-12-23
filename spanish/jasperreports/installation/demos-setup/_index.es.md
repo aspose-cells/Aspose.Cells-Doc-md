@@ -19,10 +19,10 @@ Para ejecutar demostraciones Aspose.Cells for JasperReports, realice los siguien
 1.  Copie todas las carpetas de demostración de la carpeta \demo de**Aspose.Cells.JasperReports.zip** a**\<dirección de instalación>\demo\samples**, dónde "\<InstallDir>" es la ubicación en la que ha desempaquetado JasperReports. Este paso es obligatorio porque los scripts de compilación de demostración se basan en la estructura de carpetas de JasperReports; de lo contrario, deberá modificar los scripts de compilación.
 1.  Copiar**aspose.cells.jasperreports.jar** de la carpeta \lib de Aspose.Cells.JasperReports.zip a**\<dirección de instalación>\lib**.
 1.  Prepare Ant Build Tool y Ivy Dependency Manager, consulte**\<dirección de instalación>\readme.txt**.
-1.  Modificar el**construir.xml** a**\<dirección de instalación>\demo\samples**, agregue aspose.cells.jasperreports.jar en el classpath:
+1.  Modificar el**construir.xml** en**\<dirección de instalación>\demo\samples**, agregue aspose.cells.jasperreports.jar en el classpath:
    **\<path id="project-classpath"> ... \<pathelement location="../../lib/aspose.cells.jasperreports.jar"/> </path>**.
 1.  Cambiar el directorio actual a**\<dirección de instalación>\demo\hsqldb** y ejecute la siguiente línea de comando:
    **servidor de ejecución de hormigas**
-1.  Cambie el directorio actual a una de las demostraciones Aspose.Cells for JasperReports, por ejemplo**\<dirección de instalación>\demo\samples\ac.charts** y ejecute los siguientes comandos en la línea de comandos:
+1.  Cambie el directorio actual a una de las demostraciones Aspose.Cells for JasperReports, por ejemplo**\<dirección de instalación>\demo\samples\ac.charts** y ejecute los siguientes comandos en la línea de comando:
    **prueba de hormigas** - para producir archivos de informe usando el exportador Aspose XLS.
 1.  Abra uno de los documentos resultantes para verlo, por ejemplo**\<dirección de instalación>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** en Microsoft Excel u otra aplicación.

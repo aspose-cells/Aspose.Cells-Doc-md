@@ -1,12 +1,12 @@
 ﻿---
-title: Masquer le contenu superposé avec CrossHideRight lors de l'enregistrement au format HTML
+title: Masquer le contenu superposé avec CrossHideRight lors de l'enregistrement au HTML
 type: docs
 weight: 100
 url: /fr/net/hiding-overlaid-content-with-crosshideright-while-saving-to/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Lorsque vous enregistrez votre fichier Excel au format HTML, vous pouvez spécifier différents types croisés pour les chaînes de cellules. Par défaut, Aspose.Cells génère du HTML selon Microsoft Excel mais lorsque vous changez le type croisé en[**CroixMasquerDroite**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), puis il masque toutes les chaînes du côté droit de la cellule qui sont superposées ou qui se chevauchent avec la chaîne de cellule.
+Lorsque vous enregistrez votre fichier Excel au HTML, vous pouvez spécifier différents types croisés pour les chaînes de cellules. Par défaut, Aspose.Cells génère HTML selon Microsoft Excel mais lorsque vous changez le type croisé en[**CroixMasquerDroite**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype), puis il masque toutes les chaînes du côté droit de la cellule qui sont superposées ou qui se chevauchent avec la chaîne de cellule.
 
 ## **Masquer le contenu superposé avec CrossHideRight lors de l'enregistrement au format Html**
 

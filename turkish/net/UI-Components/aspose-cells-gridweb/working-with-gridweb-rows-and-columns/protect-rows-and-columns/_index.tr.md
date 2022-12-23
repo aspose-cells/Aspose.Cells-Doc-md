@@ -27,13 +27,13 @@ Aspose.Cells.GridWeb, son kullanıcıların kontrol üzerinde işlem yapmak içi
 
 **Eksiksiz bağlamsal seçenekler** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-rows-and-columns_1.png)
+![yapılacaklar:resim_alternatif_metin](protect-rows-and-columns_1.png)
 
 Bağlam menüsünde bulunan seçenekleri kısıtlayarak, satırlar ve sütunlar üzerinde her türlü istemci tarafı işlemini kısıtlamak mümkündür. GridWeb denetiminin EnableClientColumnOperations ve EnableClientRowOperations özelliklerini false olarak ayarlayarak yapılabilir. GridWeb denetiminin EnableClientFreeze özelliğini false olarak ayarlayarak kullanıcıların satırları ve sütunları dondurmasını kısıtlamak da mümkündür.
 
 **Satır ve sütun seçeneklerini kısıtladıktan sonra içerik menüsü** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-rows-and-columns_2.png)
+![yapılacaklar:resim_alternatif_metin](protect-rows-and-columns_2.png)
 
 
 

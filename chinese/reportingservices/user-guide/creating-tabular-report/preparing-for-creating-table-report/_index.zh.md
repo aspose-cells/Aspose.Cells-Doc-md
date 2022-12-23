@@ -105,25 +105,25 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 1. 创建三个报表参数：ReportYear、ReportMonth 和 EmpID。
  1. ReportYear 参数的有效值为：
 
-![待办事项：图像_替代_文本](preparing-for-creating-table-report_1.png)
+![待办事项：图片_替代_文本](preparing-for-creating-table-report_1.png)
 
 
 
 
 1. ReportMonth 参数的有效值为：
 
-![待办事项：图像_替代_文本](preparing-for-creating-table-report_2.png)
+![待办事项：图片_替代_文本](preparing-for-creating-table-report_2.png)
 
 
 
 
 1. 参数 EmpID 的有效值为：
 
-![待办事项：图像_替代_文本](preparing-for-creating-table-report_3.png)
+![待办事项：图片_替代_文本](preparing-for-creating-table-report_3.png)
 
 
 
 
 1. 将数据集参数映射到报表参数，如下：
 
-![待办事项：图像_替代_文本](preparing-for-creating-table-report_4.png)
+![待办事项：图片_替代_文本](preparing-for-creating-table-report_4.png)

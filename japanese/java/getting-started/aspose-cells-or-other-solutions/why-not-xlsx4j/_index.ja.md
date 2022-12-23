@@ -18,14 +18,14 @@ JAXB と Open XML ファイル構造を理解するためには、時間を割�
 
 でもっと読む[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java は受賞歴のある Excel スプレッドシート コンポーネントで、Java 開発者は Excel® スプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF の読み取り、書き込み、および操作機能を組み込むことができます。 Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
 
 Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコンポーネントであり、他のベンダーの単純なデータ エクスポート機能をはるかに超える多くの機能を提供します。 Aspose.Cells for Java を使用すると、開発者は、データのエクスポート、スプレッドシートの最も細かいレベルへの書式設定、画像のインポート、グラフの作成、複雑な数式の適用と計算、Excel® データのストリーミング、さまざまな形式での保存など、すべて Microsoft Excel® を必要とせずに実行できます。または Microsoft オフィス オートメーション。
 
 でもっと読む[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **xlsx4jではない理由**
-xlsx4j は、Microsoft Open XML Excel xlsx ファイルの解析と保存のみ可能です。
+xlsx4j only can parsing and saving Microsoft Open XML Excel xlsx files,Aspose.Cells for Java can process all Excel file formats(XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) and supports various file format conversions.
 
 ## **Aspose.Cells xlsx4j の場合は Java**
 xlsx4j のプロジェクト Aspose.Cells は、xlsx4j と比較して、Aspose.Cells Java API を使用してさまざまなタスクを実行する方法を示しています。このプロジェクトは、Aspose.Cells API でのみ利用可能で、スプレッドシートを処理するための xlsx4j では利用できない機能もカバーしています。
@@ -124,7 +124,7 @@ Aspose.Cells Java for xlsx4j はオープン ソースであり、そのソー�
     - [xlsx4j でデータを並べ替える](/cells/ja/java/sort-data-in-xlsx4j/)
     - [xlsx4j での前例と依存関係のトレース](/cells/ja/java/tracing-precedents-and-dependents-in-xlsx4j/)
   - [xlsx4j のその他の例](/cells/ja/java/miscellaneous-examples-for-xlsx4j/)
-    - [スプレッドシートをxlsx4jでPDFに変換](/cells/ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
+    - [xlsx4j でスプレッドシートを PDF に変換する](/cells/ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
     - [xlsx4jでピボットテーブルを作成する](/cells/ja/java/create-pivot-table-in-xlsx4j/)
     - [xlsx4j でワークブックを印刷する](/cells/ja/java/printing-workbooks-in-xlsx4j/)
     - [xlsx4j で印刷タイトルを設定する](/cells/ja/java/set-print-titles-in-xlsx4j/)
@@ -137,5 +137,5 @@ Aspose.Cells Java for xlsx4j はオープン ソースであり、そのソー�
     - [xlsx4jでマージされたCellsを検出](/cells/ja/java/detect-merged-cells-in-xlsx4j/)
     - [xlsx4j でのワークブックのスクロールバーの表示と非表示](/cells/ja/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
     - [xlsx4j でワークブックのタブを表示および非表示にする](/cells/ja/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-    - [各ワークシートをxlsx4jの異なるPDFに保存](/cells/ja/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+    - [各ワークシートを xlsx4j の異なる PDF に保存します](/cells/ja/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [xlsx4j でワークシートのタブの色を設定する](/cells/ja/java/set-worksheet-tab-color-in-xlsx4j/)

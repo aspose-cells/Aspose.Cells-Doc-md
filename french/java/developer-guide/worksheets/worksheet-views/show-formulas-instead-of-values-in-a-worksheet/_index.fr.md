@@ -10,7 +10,7 @@ Il est possible d'afficher des formules au lieu de valeurs calculées dans Micro
 
 {{% /alert %}} 
 
-Aspose.Cells fournit un[**Feuille de calcul.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) propriété. Réglez ceci sur**vrai**pour définir Microsoft Excel pour afficher les formules.
+Aspose.Cells fournit un[**Feuille de calcul.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) la propriété. Réglez ceci sur**vrai**pour définir Microsoft Excel pour afficher les formules.
 
 L'image suivante montre la feuille de calcul qui contient une formule dans la cellule A3 : =Sum(A1:A2).
 

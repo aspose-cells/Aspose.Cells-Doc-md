@@ -13,7 +13,7 @@ Un exemple de fichier source et de fichiers de sortie peut être téléchargé i
 
 [Fichier Excel de sortie](98107429.xlsx)
 
-[Fichier PDF de sortie](98107430.pdf)
+[Fichier de sortie PDF](98107430.pdf)
 
 
 

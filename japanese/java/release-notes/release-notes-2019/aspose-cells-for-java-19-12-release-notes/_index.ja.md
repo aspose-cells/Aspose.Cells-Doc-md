@@ -12,17 +12,17 @@ url: /ja/java/aspose-cells-for-java-19-12-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-43047|HTML でエクスポートするためのセルへのツールチップ テキストの追加|新機能|
+|CELLSJAVA-43047|HTML でのエクスポート用のセルへのツールチップ テキストの追加|新機能|
 |CELLSJAVA-43002|XSLB を開くと、ZipOutputStream で予期しない CPU ホット スポットが発生する|強化|
 |CELLSJAVA-43008|ワークブックを開くときに OLE オブジェクトの読み込みを無効にするオプション|強化|
 |CELLSJAVA-42793|ODS から XLSX への変換中に Fontwork SmartArt オブジェクトが失われる|バグ|
 |CELLSJAVA-43020|Chart.Calcluate() の呼び出し後に放射状グラフが歪む|バグ|
-|CELLSJAVA-43022|XLS ファイルの形状から画像へのエラー|バグ|
+|CELLSJAVA-43022|XLS ファイルのシェイプからイメージへのエラー|バグ|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) は、getFormula() の呼び出し中に望ましくない結果を引き起こします|バグ|
 |CELLSJAVA-43052|ブール値の検証の問題|バグ|
-|CELLSJAVA-43054|ポルトガル語の設定での CSV マージに関する問題|バグ|
+|CELLSJAVA-43054|ポルトガル語設定での CSV Merge の問題|バグ|
 |CELLSJAVA-43056|Cell.setFormula() が外部リンクを更新しない|バグ|
-|CELLSJAVA-42767|Excel から PDF への変換中に欠落した画像|バグ|
+|CELLSJAVA-42767|Excel から PDF への変換中に画像が失われた|バグ|
 |CELLSJAVA-42913|埋め込まれた Visio オブジェクトが PDF に正しくレンダリングされない|バグ|
 |CELLSJAVA-42883|Aspose.Cells for Java 95 形式のファイルからグラフ テキストを抽出する際の問題|バグ|
 |CELLSJAVA-42931|Excel95 から取得されない添付ファイル/オブジェクト|バグ|
@@ -71,9 +71,9 @@ LoadDataFilterOptions.Shape の代わりに (LoadDataFilterOptions.Drawing & ~Lo
 ### **AutoFitterOptions.AutoFitWrappedTextType プロパティと AutoFitWrappedTextType 列挙型を追加します。**
 自動調整のラップされたテキストのタイプを取得および設定します。
 ### **EmfRenderSetting クラスを追加します**
-EMF メタファイルをレンダリングするためのセット。
+EMF メタファイルのレンダリングを設定します。
 ### **PdfSaveOptions.EmfRenderSetting プロパティを追加します**
-PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするための設定。
+PDF ファイルへのレンダリング中に EMF メタファイルをレンダリングするように設定します。
 ### **ShapeCollection.AddSvg() メソッドを追加します**
 svg 画像を追加します。
 ### **WorkbookSettings.QuotePrefixToStyle プロパティを追加します**

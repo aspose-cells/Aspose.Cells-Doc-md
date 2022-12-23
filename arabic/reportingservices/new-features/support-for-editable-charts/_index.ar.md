@@ -1,5 +1,5 @@
 ﻿---
-title: دعم المخططات القابلة للتحرير
+title: دعم المخططات القابلة للتعديل
 type: docs
 weight: 60
 url: /ar/reportingservices/support-for-editable-charts/

@@ -19,7 +19,7 @@ url: /ar/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
  ما هو الجديد؟
 
 - دعم تصدير المصفوفة
-- دعم لتصدير ملف CSV و TabDelimited
+- دعم تصدير ملف CSV و TabDelimited
 - أيد صورة الخلفية.
 
  ما الذي تم إصلاحه؟

@@ -29,7 +29,7 @@ url: /it/java/aspose-cells-for-java-2-3-1-release-notes/
 
  Problemi risolti in Aspose.Cells for Java 2.3.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |9189 | Xlsx| Tipo di crittografia AES per i file Excel 2007|
 |10798 | XL| Combina le cartelle di lavoro|
@@ -37,7 +37,7 @@ url: /it/java/aspose-cells-for-java-2-3-1-release-notes/
 |17818 | Xlsx| Lettura del file modello|
 |17835 | HTML| Colorazione linea, formato RichText|
 |17837 | XL| Problema di larghezza della colonna|
-|17960 | PDF| Il PDF generato rimane vuoto|
+|17960 | PDF| Generato PDF rimane vuoto|
 |17963 | XL| getStringValue()|
 |17968 | Grafico2Immagine| Grafico2Immagine|
 |17989 | Smartmarker| Formule dinamiche|
@@ -47,9 +47,9 @@ url: /it/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | Xlsx| Salvataggio della tabella pivot per il file Excel 2007|
 |18188 | Xlsx| Impostazione del nome del carattere per il file Excel 2007|
 |18201 | XL| Cell.getDependents() genera un'eccezione|
-|18257 | PDF| Aree di stampa nel PDF esportato|
-|18274 | XL| Rimozione di un foglio di lavoro con immagini|
-|18288 | PDF|Miglioramento delle prestazioni di salvataggio Pdf|
+|18257 | PDF| Aree di stampa in PDF esportate|
+|18274 | XL|Rimozione di un foglio di lavoro con immagini|
+|18288 | PDF| Miglioramento delle prestazioni di salvataggio Pdf|
 |18307 | Xlsx| Proprietà del documento di Excel 2007|
 |18328 | XL| Impostazione del formato personalizzato su pivotField dataField|
 |18345 | Xlsx| Grafico di salvataggio per file Excel 2007|

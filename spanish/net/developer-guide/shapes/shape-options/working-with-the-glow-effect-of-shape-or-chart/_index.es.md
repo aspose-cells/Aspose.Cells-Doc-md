@@ -5,7 +5,7 @@ weight: 240
 url: /es/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
 ## **Posibles escenarios de uso**
- Aspose.Cells proporciona el[Forma.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propiedad junto con[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) clase para trabajar con el efecto de brillo de forma o gráfico. los[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La clase contiene las siguientes propiedades que se pueden configurar para lograr diferentes resultados según los requisitos de la aplicación.
+ Aspose.Cells proporciona el[Forma.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propiedad junto con[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) clase para trabajar con el efecto de brillo de forma o gráfico. Él[Efecto de brillo](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La clase contiene las siguientes propiedades que se pueden configurar para lograr diferentes resultados según los requisitos de la aplicación.
 
 - [GlowEffect.Tamaño](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
 - [GlowEffect.Transparencia](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)

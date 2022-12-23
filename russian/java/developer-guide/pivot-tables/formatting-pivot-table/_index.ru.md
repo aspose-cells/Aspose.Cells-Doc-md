@@ -14,7 +14,7 @@ url: /ru/java/formatting-pivot-table/
 
 #### **Установка типов AutoFormat и PivotTableStyle**
 
- В следующем примере кода показано, как задать тип автоматического формата и тип стиля сводной таблицы с помощью[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) а также[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) характеристики.
+ В следующем примере кода показано, как задать тип автоматического формата и тип стиля сводной таблицы с помощью[**AutoFormatType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) и[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) характеристики.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 
@@ -48,7 +48,7 @@ url: /ru/java/formatting-pivot-table/
 
 ### **Очистка сводных полей**
 
-[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) имеет метод с именем[**Чисто()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()), который очищает сводные поля. Используйте его для очистки сводных полей во всех областях, например, на странице, в столбце, в строке или в данных.
+[**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) имеет метод с именем[**чистый()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotfieldcollection#clear()), который очищает сводные поля. Используйте его для очистки сводных полей во всех областях, например, на странице, в столбце, в строке или в данных.
 В приведенном ниже примере кода показано, как очистить все сводные поля в области данных.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-ClearPivotFields-ClearPivotFields.java" >}}

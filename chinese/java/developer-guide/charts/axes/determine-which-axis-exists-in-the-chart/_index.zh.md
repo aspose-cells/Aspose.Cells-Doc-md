@@ -16,7 +16,7 @@ Aspose.Cells提供[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://r
 
 以下屏幕截图显示了一个只有主类别和值轴的图表。它没有任何次要类别和价值轴。
 
-![待办事项：图像_替代_文本](determine-which-axis-exists-in-the-chart_1.png)
+![待办事项：图片_替代_文本](determine-which-axis-exists-in-the-chart_1.png)
 
 下面的示例代码演示了使用[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)以确定示例图表是否具有主要和次要类别以及值轴。代码的控制台输出如下所示，其中对主要类别和价值轴显示 true，对次要类别和价值轴显示 false。
 

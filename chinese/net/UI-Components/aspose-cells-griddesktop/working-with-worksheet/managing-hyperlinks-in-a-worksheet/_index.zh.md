@@ -32,7 +32,7 @@ url: /zh/net/managing-hyperlinks-in-a-worksheet/
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingHyperlinks-AccessHyperlink.cs" >}}
 ## **删除超链接**
-要删除现有的超链接，开发人员只需访问所需的工作表，然后**消除**超链接来自**超级链接**的集合**工作表**通过指定超链接单元格（使用其名称或行和列号）。
+要删除现有的超链接，开发人员只需访问所需的工作表，然后**去掉**超链接来自**超级链接**的集合**工作表**通过指定超链接单元格（使用其名称或行和列号）。
 
 
 

@@ -42,7 +42,7 @@ L'exemple suivant montre comment chiffrer et protéger par mot de passe un fichi
 
 ## **Cryptage/Décryptage du fichier ODS avec Aspose.Cells**
 
-Aspose.Cells permet de chiffrer et de déchiffrer le fichier ODS. Le fichier ODS décrypté peut être ouvert à la fois dans Excel et OpenOffice, mais le fichier ODS crypté ne peut être ouvert par OpenOffice qu'après avoir fourni le mot de passe. Excel ne peut pas ouvrir le fichier ODS crypté et peut générer un message d'avertissement. Les options de cryptage ne s'appliquent pas au fichier ODS contrairement aux autres types de fichiers. Pour chiffrer un fichier ODS, chargez le fichier et définissez le[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valeur au mot de passe réel avant de l'enregistrer. Le fichier ODS crypté de sortie ne peut être ouvert que dans OpenOffice.
+Aspose.Cells permet de chiffrer et de déchiffrer le fichier ODS. Le fichier ODS décrypté peut être ouvert à la fois dans Excel et OpenOffice, mais le fichier ODS crypté ne peut être ouvert par OpenOffice qu'après avoir fourni le mot de passe. Excel ne peut pas ouvrir le fichier crypté ODS et peut générer un message d'avertissement. Les options de cryptage ne s'appliquent pas au fichier ODS contrairement aux autres types de fichiers. Pour chiffrer un fichier ODS, chargez le fichier et définissez le[**WorkbookSettings.Password**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) valeur au mot de passe réel avant de l'enregistrer. Le fichier de sortie crypté ODS ne peut être ouvert que dans OpenOffice.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

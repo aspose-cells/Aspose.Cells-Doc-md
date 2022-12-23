@@ -14,8 +14,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.9.
 |:- |:- |:- |
 |CELLSJAVA-42715|Las fórmulas no se recuperan igual que en el archivo de MS Excel|Insecto|
 |CELLSJAVA-42711|El gráfico en PDF no se genera a partir de la plantilla de Excel|Insecto|
-|CELLSJAVA-42710|Duplicar el texto del elemento de la leyenda en el gráfico en la conversión de Excel a PDF|Insecto|
-|CELLSJAVA-42706|La salida en PDF no muestra la etiqueta del gráfico|Insecto|
+|CELLSJAVA-42710|Duplicar el texto del elemento de la leyenda en el gráfico en Excel a la conversión PDF|Insecto|
+|CELLSJAVA-42706|PDF la salida no muestra la etiqueta del gráfico|Insecto|
 |CELLSJAVA-42700|El gráfico de cascada no se representa correctamente después de cambiar los datos del gráfico|Insecto|
 |CELLSJAVA-42717|Cells.deleteRow funciona incorrectamente|Insecto|
 |CELLSJAVA-42716|Valor incorrecto recuperado para el estilo de borde|Insecto|
@@ -77,11 +77,11 @@ Obtiene el nombre de estilo de fuente estándar en inglés (regular, negrita, cu
 
 ### **Agrega la enumeración PdfCustomPropertiesExport**
 
-Especifica la forma en que CustomDocumentPropertyCollection se exporta a un archivo PDF.
+Especifica la forma en que CustomDocumentPropertyCollection se exporta al archivo PDF.
 
 ### **Agrega la propiedad PdfSaveOptions.CustomPropertiesExport**
 
-Obtiene o establece un valor que determina la forma en que CustomDocumentPropertyCollection se exporta a un archivo PDF. El valor predeterminado es Ninguno.
+Obtiene o establece un valor que determina la forma en que CustomDocumentPropertyCollection se exporta al archivo PDF. El valor predeterminado es Ninguno.
 
 ### **Agrega la clase XmlDataBinding**
 

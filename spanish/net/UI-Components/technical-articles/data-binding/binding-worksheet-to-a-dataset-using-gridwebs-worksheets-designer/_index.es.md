@@ -39,7 +39,7 @@ url: /es/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 
 
- Se muestra el cuadro de diálogo Propiedades de enlace de datos.
+ Se muestra el cuadro de diálogo Propiedades de vínculo de datos.
 **El cuadro de diálogo Propiedades de enlace de datos** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_5.png)
@@ -50,28 +50,28 @@ url: /es/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 1.  Haga clic en el**Proveedor** pestaña.
 1.  Seleccione**Microsoft Jet 4.0 Proveedor OLE DB** desde el**Proveedores OLE DB** lista.
-1.  Hacer clic**próximo**.
+1.  Hacer clic**Próximo**.
    **Hacer clic en Siguiente después de seleccionar un proveedor OLE DB** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
 
 
- los**Conexión** se abre la página de pestañas.
+ Él**Conexión** se abre la página de pestañas.
 
-1.  Seleccione el archivo de base de datos de Access Microsoft (en nuestro caso, db.mdb) y haga clic en**OK**.
+1.  Seleccione el archivo de base de datos de Access Microsoft (en nuestro caso, db.mdb) y haga clic en**DE ACUERDO**.
    **Hacer clic en el botón Aceptar después de seleccionar el archivo de la base de datos** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_7.png)
 
 {{% alert color="primary" %}} 
 
- Después de hacer clic**OK** , se creará una conexión de base de datos a la base de datos de Access Microsoft en el**Explorador de servidores**Haga doble clic en la conexión para ver todas las tablas, vistas y procedimientos almacenados en la base de datos.
+ Después de hacer clic**DE ACUERDO** , se creará una conexión de base de datos a la base de datos de Access Microsoft en el**Explorador de servidores**Haga doble clic en la conexión para ver todas las tablas, vistas y procedimientos almacenados en la base de datos.
 
 {{% /alert %}} 
 ### **Paso 4: crear objetos de conexión de base de datos gráficamente**
 1.  Explore las tablas en la base de datos usando el**Explorador de servidores**.
  Solo hay una tabla, Productos.
-1.  Arrastre y suelte la tabla Productos desde la**Explorador de servidores** hacia**Formulario web**.
+1.  Arrastre y suelte la tabla Productos desde la**Explorador de servidores** al**Formulario web**.
    **Arrastrar la tabla Productos desde Server Explorer y colocarla en el formulario web** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_8.png)
@@ -108,7 +108,7 @@ Hasta ahora, hemos creado objetos de conexión a la base de datos, pero aún nec
  Aquí, es posible seleccionar un nombre para el nuevo objeto DataSet que se creará y qué tablas se le deben agregar.
 
 1.  Selecciona el**Agregar este conjunto de datos al diseñador** opción.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
    **Al hacer clic en el botón Aceptar para generar DataSet** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_12.png)
@@ -132,7 +132,7 @@ Se agrega un objeto dataSet11 al diseñador.
 
 
  Se muestra el Editor de colección de hojas de trabajo (también llamado Diseñador de hojas de trabajo).
-**Cuadro de diálogo Editor de colección de hojas de trabajo** 
+**Cuadro de diálogo Editor de colección de hojas de cálculo** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_15.png)
 
@@ -153,7 +153,7 @@ El cuadro de diálogo contiene varias propiedades que se pueden configurar para 
 
 
 
-1.  Comprobar el**BindColumns** propiedad.
+1.  Compruebe el**BindColumns** propiedad.
    **Hacer clic en la propiedad BindColumns** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
@@ -167,7 +167,7 @@ El cuadro de diálogo contiene varias propiedades que se pueden configurar para 
 
 
 
- En BindColumn Collection Editor, todas las columnas del**Productos** se agregan automáticamente a la colección BindColumns.
+ En BindColumn Collection Editor, todas las columnas del**productos** se agregan automáticamente a la colección BindColumns.
 
 1. Seleccione cualquier columna y personalice sus propiedades.
  Por ejemplo, puede modificar el título de cada columna.
@@ -178,8 +178,8 @@ El cuadro de diálogo contiene varias propiedades que se pueden configurar para 
 
 
 
-1.  Después de hacer los cambios, haga clic en**OK**.
-1.  Cierre todos los cuadros de diálogo haciendo clic en**OK**.
+1.  Después de hacer los cambios, haga clic en**DE ACUERDO**.
+1.  Cierre todos los cuadros de diálogo haciendo clic en**DE ACUERDO**.
  Finalmente, regresa a la página WebForm1.aspx.
    **Volver a la página WebForm1.aspx después de usar el Diseñador de hojas de trabajo** 
 
@@ -283,7 +283,7 @@ End Sub
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 ### **Paso 8: Ejecución de la aplicación**
- Compile y ejecute la aplicación: presione**Ctrl+F5** o haga clic**comienzo**. 
+ Compile y ejecute la aplicación: presione**Ctrl+F5** o haga clic**Comenzar**. 
 **Ejecutando la aplicación** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
@@ -343,7 +343,7 @@ Se agrega una nueva fila a la hoja al final de otras filas.
 
 1. Vuelva a Visual Studio.NET.
 1. Abra el editor de la colección BindColumn.
- los**NúmeroTipo** propiedad de la**Precio del producto** la columna se establece en**General**.
+ Él**NúmeroTipo** propiedad de la**Precio del producto** la columna se establece en**General**.
    **La propiedad NumberType establecida en General** 
 
 ![todo:imagen_alternativa_texto](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)

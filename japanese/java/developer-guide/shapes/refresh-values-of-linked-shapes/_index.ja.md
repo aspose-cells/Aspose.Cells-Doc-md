@@ -12,11 +12,11 @@ url: /ja/java/refresh-values-of-linked-shapes/
 
 ## 例
 
-次のスクリーンショットは、以下のサンプル コードで使用されるソース Excel ファイルを示しています。リンクがあります**写真1**セル A1 にリンクされています。セル A1 の値を Aspose.Cells に変更して呼び出します[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() の値を更新するメソッド**写真1**PDF形式で保存します。
+次のスクリーンショットは、以下のサンプル コードで使用されるソース Excel ファイルを示しています。リンクがあります**写真1**セル A1 にリンクされています。セル A1 の値を Aspose.Cells に変更して呼び出します[**Worksheet.getShapes().updateSelectedValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#updateSelectedValue() の値を更新するメソッド**写真1**PDF 形式で保存します。
 
 ![todo:画像_代替_文章](refresh-values-of-linked-shapes_1.png)
 
-ダウンロードできます[ソースの Excel ファイル](5472956.xlsx)そしてその[PDF出力](5472955.pdf)指定されたリンクから。
+ダウンロードできます[ソースの Excel ファイル](5472956.xlsx)そしてその[出力 PDF](5472955.pdf)指定されたリンクから。
 
 ### Java リンクされた図形の値を更新するコード
 

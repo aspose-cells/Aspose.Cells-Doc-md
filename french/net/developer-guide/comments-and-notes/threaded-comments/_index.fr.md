@@ -25,7 +25,7 @@ Aspose.Cells fournit également la fonctionnalité de gestion des commentaires f
 Pour ajouter des commentaires filetés dans Excel 365, procédez comme suit.
 
 - Méthode 1
- - Clique le**Examen** Languette
+ - Clique le**Passer en revue** Languette
  - Clique le**Nouveau commentaire** bouton
  - Cela ouvrira une boîte de dialogue pour entrer des commentaires dans la cellule active.
   - ![tâche : image_autre_texte](threaded-comments_4.jpg)
@@ -75,7 +75,7 @@ Auteur : Aspose
 
 ### **Lire l'heure de création des commentaires filetés**
 
-Aspose.Cells fournit[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)méthode pour récupérer les commentaires filetés pour la colonne spécifiée.[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)La méthode accepte le nom de la colonne comme paramètre et renvoie le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) et utiliser le[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) propriété.
+Aspose.Cells fournit[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)méthode pour récupérer les commentaires filetés pour la colonne spécifiée.[**Commentaires.GetThreadedComments**](https://reference.aspose.com/cells/net/aspose.cells.commentcollection/getthreadedcomments/methods/1)La méthode accepte le nom de la colonne comme paramètre et renvoie le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection). Vous pouvez itérer sur le[**ThreadedCommentCollection**](https://reference.aspose.com/cells/net/aspose.cells/threadedcommentcollection) et utiliser le[**ThreadedComment.CreatedTime**](https://reference.aspose.com/cells/net/aspose.cells/threadedcomment/properties/createdtime) la propriété.
 
 L'exemple suivant illustre la lecture de l'heure de création des commentaires thématiques en chargeant le[exemple de fichier Excel](89849861.xlsx). Veuillez consulter la sortie de la console générée par le code pour référence.
 

@@ -12,25 +12,25 @@ url: /ja/java/aspose-cells-for-java-20-10-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-40913|結果の PDF で矢印の方向が変更されました|バグ|
+|CELLSJAVA-40913|結果PDFで矢印の向きが変わりました|バグ|
 |CELLSJAVA-43282|リフレッシュ ピボットが機能せず、出力ファイルが破損する|バグ|
 |CELLSJAVA-43286|Aspose.Cells は HtmlHiddenRowDisplayType.REMOVE 設定と競合します|バグ|
 |CELLSJAVA-43302|Cells 値の取得に関する問題|バグ|
-|CELLSJAVA-43308|wrapText プロパティを使用した HTML から Excel への変換|バグ|
+|CELLSJAVA-43308|HTML を wrapText プロパティで Excel に変換|バグ|
 |CELLSJAVA-43318|Cell ピボット テーブルの更新後の値の問題|バグ|
 |CELLSJAVA-43299|Cell 値の取得に関する問題|バグ|
 |CELLSJAVA-43284|特定の物理プリンターで Aspose.Cells を使用するとチャートが印刷されない|バグ|
 |CELLSJAVA-43273|凡例項目のテキストが出力画像で切り取られる|バグ|
 |CELLSJAVA-43274|チャートバーのアウトライン色の違い|バグ|
-|CELLSJAVA-43276|XLSX から PDF への変換中の改行の問題|バグ|
+|CELLSJAVA-43276|XLSX を PDF に変換する際の改行の問題|バグ|
 |CELLSJAVA-43278|Excel の取り消し線が PDF ファイルに表示されない|バグ|
-|CELLSJAVA-43304|グラフの一部のデータラベルが出力 PDF にありません|バグ|
+|CELLSJAVA-43304|グラフの一部のデータラベルが出力にありません PDF|バグ|
 |CELLSJAVA-43311|画像に変換すると、グラフの X 軸のラベルが対角線ではなく垂直になる|バグ|
 |CELLSJAVA-40992|Excel ファイルを再保存するときのチャート テキストの位置に関する問題|バグ|
 |CELLSJAVA-43294|条件付き書式のカラー テーマが正しく機能しない|バグ|
 |CELLSJAVA-43307|ワークシートをコピーするときの埋め込み OLE オブジェクトのサイズ変更の問題|バグ|
 |CELLSJAVA-43296|ピボット テーブルの更新中に ArrayIndexOutOfBoundsException が発生する|例外|
-|CELLSJAVA-43298|Aspose.Cells 20.8: PDF に保存すると例外が発生します。|例外|
+|CELLSJAVA-43298|Aspose.Cells 20.8: PDF に保存すると例外が発生する。|例外|
 
 ## **Public API および下位互換性のない変更**
 

@@ -14,20 +14,20 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-22-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|Unterstützt das Sortieren von PivotField über ein berechnetes Feld|
 |CELLSJAVA-44733|Untersuchen Sie die Regeln von MS Excel, um den Rand einer Zelle anzuzeigen, wenn die benachbarte Spalte ausgeblendet ist: Der Rand der Zelle wurde nicht synchronisiert|
-|CELLSJAVA-44695| Schlechte Konvertierung in PDF von XLS mit Zeilenbeschriftung auf der linken Seite des Blatts|
+|CELLSJAVA-44695| Schlechte Umwandlung in PDF von XLS mit Line Callout links auf dem Blatt|
 |CELLSJAVA-44700|Berechnete Pivot-Tabellenfelder werden beim Aktualisieren der Datenquelle nicht aktualisiert|
 |CELLSJAVA-44705|Cell.getDependents() löst eine Ausnahme aus oder kann nicht alle abhängigen Elemente bereitstellen|
 |CELLSJAVA-44717|Problem mit Rahmenstil (Linie).|
 |CELLSJAVA-44707| Grenzlinie wird nicht angezeigt|
-|CELLSJAVA-44670| Problem mit Formeln in der HTML-Ausgabe – Umwandlung von Excel in HTML|
-|CELLSJAVA-44202|Beim Export nach HTML ist die Legende im Diagramm nicht die gleiche wie in MS Excel|
+|CELLSJAVA-44670| Problem mit Formeln in der Ausgabe HTML – Umwandlung von Excel in HTML|
+|CELLSJAVA-44202|Beim Export nach HTML entspricht die Legende im Diagramm nicht der von MS Excel|
 |CELLSJAVA-44591|Die Textdrehung von Beschriftungen stimmt nicht mit Excel im Ausgabebild des Diagramms überein|
 |CELLSJAVA-44655|Treemap-Diagramm mit negativem Wert kann nicht angezeigt werden, was dazu führt, dass die Ausführung weiter ausgeführt wird|
 |CELLSJAVA-44686|Der Titeltext des Diagramms (2016) ist falsch, wenn Title.IsAutoText wahr ist|
 |CELLSJAVA-44689|Regression: Sprachproblem bei der Legende des Wasserfalldiagramms|
 |CELLSJAVA-44687|Diagrammproblem beim Kombinieren von Dateien|
 |CELLSJAVA-44736|Tabellenstil geht beim Kopieren des Blattes verloren|
-|CELLSJAVA-44725| Ausnahme „java.util.zip.ZipException: ungültige Eintragsgröße (erwartet 0, aber 1053 Bytes)“ beim Konvertieren von XLSX in PDF|
+|CELLSJAVA-44725| Ausnahme "java.util.zip.ZipException: invalid entry size (expected 0 but got 1053 bytes)" beim Konvertieren von XLSX in PDF|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Lettura di file CSV con codifiche multiple
+title: Lettura del file CSV con codifiche multiple
 type: docs
 weight: 140
 url: /it/java/reading-csv-file-with-multiple-encodings/
@@ -10,7 +10,7 @@ volte, il tuo file CSV contiene più codifiche (Unicode, ANSI, UTF8, UTF7 ecc.).
 
 {{% /alert %}} 
 
- Aspose.Cells fornisce il metodo TxtLoadOptions.setMultiEncoded(), che è necessario impostare su**VERO** per caricare correttamente il tuo file CSV con più codifiche.
+ Aspose.Cells fornisce il metodo TxtLoadOptions.setMultiEncoded(), che è necessario impostare su**VERO** per caricare correttamente il file CSV con più codifiche.
 
  Lo screenshot seguente mostra un file CSV di esempio che contiene due righe. La prima riga è dentro**ANSI** encoding e la seconda riga è in**Unicode** codifica
 
@@ -18,7 +18,7 @@ volte, il tuo file CSV contiene più codifiche (Unicode, ANSI, UTF8, UTF7 ecc.).
 
 ![cose da fare:immagine_alt_testo](reading-csv-file-with-multiple-encodings_1.png)
 
-Lo screenshot seguente mostra il file XLSX convertito dal precedente file CSV senza impostare il metodo TxtLoadOptions.setMultiEncoded() su true. Come puoi vedere, il testo Unicode non è stato convertito correttamente.
+Lo screenshot seguente mostra il file XLSX convertito dal file CSV precedente senza impostare il metodo TxtLoadOptions.setMultiEncoded() su true. Come puoi vedere, il testo Unicode non è stato convertito correttamente.
 
 **File di output 1: nessuna sistemazione fatta per codifiche multiple** 
 
@@ -30,9 +30,9 @@ Lo screenshot seguente mostra il file XSLX convertito dal precedente file CSV do
 
 ![cose da fare:immagine_alt_testo](reading-csv-file-with-multiple-encodings_3.png)
 
-Di seguito è riportato il codice di esempio che converte correttamente il file CSV sopra nel formato XLSX.
+Di seguito è riportato il codice di esempio che converte correttamente il file CSV precedente nel formato XLSX.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

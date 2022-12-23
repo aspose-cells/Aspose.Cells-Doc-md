@@ -6,7 +6,7 @@ url: /de/net/insert-or-delete-rows-or-columns/
 ---
 Unabhängig davon, ob wir ein neues Arbeitsblatt von Grund auf neu erstellen oder an einem vorhandenen Arbeitsblatt arbeiten, müssen wir möglicherweise zusätzliche Zeilen oder Spalten in das Arbeitsblatt einfügen, um mehr Daten aufzunehmen oder aus anderen Gründen. Umgekehrt kann es auch erforderlich sein, Zeilen oder Spalten von bestimmten Positionen des Arbeitsblatts zu löschen.
 ## **Zeilen/Spalten verwalten**
-**Aspose.Cells** stellt eine Klasse Workbook bereit, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit, die alle Zellen im Arbeitsblatt darstellt.
+**Aspose.Cells** stellt eine Klasse Workbook bereit, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit, die alle Zellen im Arbeitsblatt darstellt.
 
 **Cells**collection bietet mehrere Methoden zum Verwalten von Zeilen oder Spalten in einem Arbeitsblatt, einige davon werden im Folgenden ausführlicher besprochen.
 ## **Einfügen einer Zeile**
@@ -45,7 +45,7 @@ fstream.Close();
 Manchmal müssen Entwickler möglicherweise mehrere Zeilen in das Arbeitsblatt einfügen. Dies kann durch Aufrufen der InsertRows-Methode der Cells-Sammlung erfolgen. Die InsertRows-Methode benötigt zwei Parameter:
 
 - **Zeilenindex**, der Index der Zeile, ab der die neuen Zeilen eingefügt werden
-- **Reihenanzahl**, Gesamtzahl der Zeilen, die eingefügt werden müssen
+- **Anzahl der Reihen**, Gesamtzahl der Zeilen, die eingefügt werden müssen
 
 {{< highlight "csharp" >}}
 
@@ -112,7 +112,7 @@ fstream.Close();
 Wenn Entwickler mehrere Zeilen aus dem Arbeitsblatt löschen müssen, kann dies auch durch Aufrufen der DeleteRows-Methode der Cells-Sammlung erfolgen. Die DeleteRows-Methode benötigt zwei Parameter:
 
 - **Zeilenindex**, der Index der Zeile, aus der die Zeilen gelöscht werden.
-- **Reihenanzahl**, Gesamtzahl der Zeilen, die gelöscht werden müssen.
+- **Anzahl der Reihen**, Gesamtzahl der Zeilen, die gelöscht werden müssen.
 
 {{< highlight "csharp" >}}
 

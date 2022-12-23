@@ -6,7 +6,7 @@ url: /zh/net/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![待办事项：图像_替代_文本](product-overview_1.png)
+![待办事项：图片_替代_文本](product-overview_1.png)
 
 **欢迎使用 Aspose.Cells for .NET 文档**
 
@@ -27,7 +27,7 @@ Aspose.Cells for .NET（在托管 C# 中编写）设计用于任何 .NET 支持�
 
 Aspose.Cells API 提供许多高级功能，例如在流中保存和打开 Excel 文件、将输出发送到客户端浏览器、从 DataTable、DataView 或数组导入和导出数据、创建图表和数据透视表、导入图像和图表、导入来自设计器电子表格的公式，将设计器图表转换为图像并配置页面设置以及创建或读取本机 Microsoft Excel 文件等常用功能。
 
-Aspose.Cells API 具有许多独特的功能，例如支持 CSV 和 SpreadsheetML 格式、将现有工作表（包含完整内容、图像和图表）的副本添加到文件、为图表设置渐变背景、创建注释、自动过滤器和分页符，设置复杂公式，支持条件格式，支持Microsoft Excel XP或更高版本中引入的保护选项，操作命名范围，支持自定义图表API和强大的公式计算引擎。
+Aspose.Cells APIs 有许多独特的功能，例如支持 CSV 和 SpreadsheetML 格式，将现有工作表（包含完整内容、图像和图表）的副本添加到文件、为图表设置渐变背景、创建注释、自动筛选和分页符，设置复杂公式，支持条件格式，支持Microsoft Excel XP或更高版本中引入的保护选项，操作命名范围，支持自定义图表API和强大的公式计算引擎。
 
 Aspose.Cells 网格套件可用于任何类型的应用程序，无论是 Windows 还是 Web 应用程序。开发人员可以轻松地将网格控件从 Visual Studio 的工具箱拖放到他们的 Windows 或 Web 窗体中。 Aspose.Cells Grid Suite 不仅支持导入电子表格文件和其他数据源，还提供了一组API，用于从头开始创建电子表格内容和样式。这些功能使 Aspose.Cells Grid Suite 非常方便开发人员创建功能强大且专业的应用程序来显示和管理电子表格数据。 Aspose.Cells Grid Suite 还允许开发人员在不付出太多努力的情况下完全控制网格的外观和行为，最重要的是，Aspose.Cells Grid Suite 具有成本效益。
 ## **技术支援**

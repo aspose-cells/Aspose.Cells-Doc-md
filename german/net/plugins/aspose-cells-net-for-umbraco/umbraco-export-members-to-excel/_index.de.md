@@ -14,7 +14,7 @@ Diese erste Version des Add-ons hat die folgenden Funktionen:
 
 - Mitglieder in Microsoft Excel-Dokumente exportieren (.xls, .xlsx und .xlsb)
 - Mitglieder in ein tabulatorgetrenntes Textdokument (.txt) exportieren
-- Mitglieder nach CSV exportieren (kommagetrennt) (*.csv)
+- Mitglieder exportieren nach CSV (kommagetrennt) (*.csv)
 - Mitglieder in OpenDocument Spreadsheet (*.ods) exportieren
 - Option zur Auswahl des gewünschten Ausgabeformats vor dem Export
 - Option zum Exportieren aller oder ausgewählter Elemente in das ausgewählte Ausgabedokumentformat.
@@ -75,11 +75,11 @@ Nachdem Sie das Makro installiert haben, ist es wirklich einfach, es auf Ihrer W
 
 ## **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=6PxZFvjWr2Y) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=6PxZFvjWr2Y) unten, um das Modul in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 

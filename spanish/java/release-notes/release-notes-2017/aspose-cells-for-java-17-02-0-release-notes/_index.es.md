@@ -30,16 +30,16 @@ url: /es/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSNET-45106|Error al intentar capturar y volver a lanzar la excepción donde se cambia ExceptionType|Insecto|
 |CELLSJAVA-42189|Gráfico de cascada, cuando se llama al cálculo (), los colores de la serie del gráfico se revierten.|Insecto|
 |CELLSJAVA-42160|El error de escala logarítmica en Excel hace que Aspose Cells se cuelgue|Insecto|
-|CELLSJAVA-42158|Los valores de límite del eje vertical cambiaron al representar la hoja de cálculo en PDF|Insecto|
-|CELLSJAVA-42157|Los valores límite de los ejes horizontal y vertical cambiaron al representar el gráfico en EMF|Insecto|
+|CELLSJAVA-42158|Los valores límite del eje vertical cambiaron al renderizar la hoja de cálculo a PDF|Insecto|
+|CELLSJAVA-42157|Los valores límite de los ejes horizontal y vertical cambiaron al renderizar el gráfico a EMF|Insecto|
 |CELLSJAVA-42133|Hebreo: falta el carácter de espacio en PDF|Insecto|
 |CELLSJAVA-42107|El gráfico se suprime verticalmente mientras se representa en la imagen|Insecto|
 |CELLSJAVA-42105|Faltan series de DataTable al exportar el gráfico a la imagen|Insecto|
 |CELLSJAVA-42090|Falta el subrayado en el título cuando el gráfico se convierte en imagen|Insecto|
 |CELLSJAVA-42086|La imagen de fondo en el gráfico es incorrecta|Insecto|
-|CELLSJAVA-42084|Faltan las etiquetas/leyenda del eje del gráfico en blanco y negro del espacio (hebreo) en el archivo PDF de salida|Insecto|
+|CELLSJAVA-42084|Faltan las etiquetas/leyenda del eje del gráfico en blanco y negro del espacio (hebreo) en el archivo de salida PDF|Insecto|
 |CELLSJAVA-41831|El contenido de la forma del rectángulo no se procesa al convertir la hoja de cálculo a HTML|Insecto|
-|CELLSJAVA-42095|El gráfico se ha cambiado al convertir la hoja de cálculo a HTML|Insecto|
+|CELLSJAVA-42095|El gráfico se modificó al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-42096|La fórmula en el gráfico ha cambiado de posición al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-42169|Conversión de Excel a PDF: el texto árabe está invertido|Insecto|
 |CELLSJAVA-42193|El nombre de la hoja se pone en mayúsculas al insertar la fórmula|Insecto|
@@ -55,7 +55,7 @@ url: /es/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|Copiar hojas entre libros de trabajo cambia la fórmula|Insecto|
 |CELLSJAVA-42154|No se puede leer el valor de texto del CheckBox|Insecto|
 |CELLSJAVA-42150|El método GetNames() no devuelve todos los nombres|Insecto|
-|CELLSJAVA-40511|Las páginas del PDF generado por Aspose.Cells son todas negras|Insecto|
+|CELLSJAVA-40511|Las páginas del PDF generadas por Aspose.Cells son todas negras|Insecto|
 |CELLSJAVA-42179|NullPointerException en Workbook ctor al cargar un HTML|Excepción|
 |CELLSJAVA-42174|NullPointerException en Workbook ctor al cargar un HTML - II|Excepción|
 |CELLSJAVA-42192|CellsException: tamaño de agujero no válido: debe estar entre 10 y 90|Excepción|
@@ -190,7 +190,7 @@ Fuente[]fuentes = libro.getFonts();
 
 {{< /highlight >}}
 ### **Se agregó la propiedad TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Esta revisión de Aspose.Cells for Java ha expuesto la propiedad de tipo booleano TrimLeadingBlankRowAndColumn para la clase TxtSaveOptions que indica si las filas y columnas en blanco iniciales deben recortarse como lo hace Excel al exportar datos a CSV o formatos delimitados por tabulaciones. El valor predeterminado de la propiedad mencionada anteriormente es false. En caso de que los datos de la hoja de trabajo no comiencen desde la primera celda, es decir: A1, la aplicación de Excel elimina las filas y columnas en blanco iniciales mientras exporta los datos a CSV o formatos delimitados por tabulaciones; sin embargo, las API Aspose.Cells de forma predeterminada conservan las filas y columnas en blanco para la misma muestra a fin de mantener la ubicación de los datos conservada si los archivos CSV o delimitados por tabulaciones exportados tienen que volver a importarse mediante las API Aspose.Cells.
+Esta revisión de Aspose.Cells for Java ha expuesto la propiedad de tipo booleano TrimLeadingBlankRowAndColumn para la clase TxtSaveOptions que indica si las filas y columnas en blanco iniciales deben recortarse como lo hace Excel al exportar datos a CSV o formatos delimitados por tabulaciones. El valor predeterminado de la propiedad mencionada anteriormente es falso. En caso de que los datos en la hoja de trabajo no comiencen desde la primera celda, es decir: A1, la aplicación de Excel elimina las filas y columnas en blanco iniciales mientras exporta los datos a CSV o formatos delimitados por tabuladores; sin embargo, las API Aspose.Cells de manera predeterminada, retienen las filas y columnas en blanco para la misma muestra para mantener la ubicación de los datos si los archivos CSV o delimitados por tabulaciones exportados tienen que volver a importarse utilizando las API Aspose.Cells.
 
 Aquí hay un escenario de uso simple de la propiedad TrimLeadingBlankRowAndColumn.
 
@@ -220,9 +220,9 @@ La propiedad Shape.TextShapeType obtiene o establece el tipo de forma de texto p
 ### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-1. [Autoajustar columnas y filas al cargar HTML en Workbook](/cells/es/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
+1. [Autoajustar columnas y filas al cargar HTML en el libro de trabajo](/cells/es/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
 1. [Convertir Texto a Columnas usando Aspose.Cells](/cells/es/java/convert-text-to-columns-using-aspose-cells/)
 1. [Obtenga una lista de fuentes utilizadas en una hoja de cálculo o libro de trabajo](/cells/es/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Recibe advertencias al cargar un archivo de Excel](/cells/es/java/get-warnings-while-loading-excel-file/)
 1. [Leer y manipular gráficos de Excel 2016](/cells/es/java/read-and-manipulate-excel-2016-charts/)
-1. [Recorte las filas y columnas en blanco iniciales mientras exporta hojas de cálculo a formato CSV](/cells/es/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Recorte las filas y columnas en blanco iniciales al exportar hojas de cálculo al formato CSV](/cells/es/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

@@ -12,21 +12,21 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Node.js via Java 19.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-42861|Alternativtext der Form im ODS-Dateiformat konnte nicht abgerufen werden|Insekt|
-|CELLSJAVA-42929|Der Diagrammtitel ändert sich bei der XLSX-zu-PDF-Konvertierung|Insekt|
-|CELLSJAVA-42933|Die Grafikfarbe ändert sich beim Konvertieren von Excel-Dateien in PDF|Insekt|
-|CELLSJAVA-42946|Falsche Wiedergabe von gestapelten Balkendiagrammen mit Reihen in PDF|Insekt|
+|CELLSJAVA-42861|Alternativtext der Form im Dateiformat ODS konnte nicht abgerufen werden|Insekt|
+|CELLSJAVA-42929|Der Diagrammtitel ändert sich bei der Umwandlung von XLSX in PDF|Insekt|
+|CELLSJAVA-42933|Die Grafikfarbe ändert sich beim Konvertieren einer Excel-Datei in PDF|Insekt|
+|CELLSJAVA-42946|Falsche Darstellung des gestapelten Balkendiagramms mit Serien bis PDF|Insekt|
 |CELLSJAVA-42942|Seiten werden auf Arbeitsblattebene und nicht auf Arbeitsmappenebene gedruckt|Insekt|
 |CELLSJAVA-42952|Falsche Einrückung vom oberen Rand der Zelle in einigen Wörtern|Insekt|
 |CELLSJAVA-42902|Der Wasserfalldiagrammstil wird beim Kopieren der Arbeitsmappe nicht richtig kopiert|Insekt|
 |CELLSJAVA-42939|Von Excel ausgelöste Warnung, wenn Workbook.getVbaProject() nur für eine Arbeitsmappe aufgerufen wird|Insekt|
 |CELLSJAVA-42940|Sicherheitswarnung nach dem Entfernen aller VBA-Modulskripte|Insekt|
 |CELLSJAVA-42955|Das Öffnen von VBAProject beschädigt die Arbeitsmappe|Insekt|
-|CELLSJAVA-42945|Beim Speichern als HTML wird eine Ausnahme ausgelöst, wenn ExportImagesAsBase64 festgelegt ist|Ausnahme|
+|CELLSJAVA-42945|Speichern unter HTML löst eine Ausnahme aus, wenn ExportImagesAsBase64 festgelegt ist|Ausnahme|
 |CELLSJAVA-42953|NullPointerException beim Konvertieren von XLS-Dateien in HTML|Ausnahme|
 |CELLSJAVA-42951|java.lang.NullPointerException ausgelöst durch comment.setHtmlNote()|Ausnahme|
-|CELLSJAVA-42954|Ausnahme beim Laden und Speichern der XLSX-Datei ausgelöst|Ausnahme|
-|CELLSJAVA-42957|Beim Speichern der XLSX-Datei wird ein ungültiger FontUnderlineType-Wert ausgegeben|Ausnahme|
+|CELLSJAVA-42954|Ausnahme beim Laden und Speichern der Datei XLSX ausgelöst|Ausnahme|
+|CELLSJAVA-42957|Beim Speichern der Datei XLSX wird ein ungültiger FontUnderlineType-Wert ausgegeben|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Node.js via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.
 #### **Aktualisiert die referenzierte BouncyCastle-Bibliothek auf 1.60**

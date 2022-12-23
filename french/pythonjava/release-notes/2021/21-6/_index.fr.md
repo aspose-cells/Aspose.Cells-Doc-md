@@ -10,7 +10,7 @@ url: /fr/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43466|CellsException : erreur pour ZipFile lors de l'importation de ods|
 |CELLSJAVA-43463|La chronologie est interrompue après l'enregistrement du fichier|
@@ -21,15 +21,15 @@ url: /fr/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 |CELLSJAVA-43491|La valeur de la formule utilisant la table de données ne peut pas être extraite correctement|
 |CELLSJAVA-43498|Le résultat formaté de la valeur numérique est incorrect pour les paramètres régionaux zh_CN|
 |CELLSJAVA-43451|Le contenu du fichier Excel ne s'affiche pas correctement et la démo ChangeStyle (printemps) ne fonctionne pas correctement|
-|CELLSJAVA-43484|La mise en page du contenu est incohérente dans le rendu Excel vers PDF|
+|CELLSJAVA-43484|La mise en page du contenu est incohérente dans Excel avec le rendu PDF|
 |CELLSJAVA-43465|Manque quelques séries de graphiques lors de la conversion d'Excel en PDF|
-|CELLSJAVA-43468|Problème avec l'équation de la ligne droite dans le rendu Excel vers PDF|
+|CELLSJAVA-43468|Problème avec l'équation de la ligne droite dans Excel au rendu PDF|
 |CELLSJAVA-43432|Le contenu du graphique ne correspond pas lors de la ré-enregistrement d'un format de fichier XLS|
 |CELLSJAVA-43475|Régression : les cellules entourées de lignes sont coupées|
-|CELLSJAVA-43478|Régression : NUMBERS en PDF, beaucoup de données manquantes|
-|CELLSJAVA-43485|Régression : contenu supplémentaire lors du rendu d'un PDF à partir d'ODS|
+|CELLSJAVA-43478|Régression : NUMBERS jusqu'à PDF, beaucoup de données manquantes|
+|CELLSJAVA-43485|Régression : contenu supplémentaire lors du rendu PDF à partir de ODS|
 |CELLSJAVA-43492| La conversion d'un fichier XML (SpreadsheetML) supprime le paramètre Masqué dans "Définition du nom" dans la sortie XLS et XLSX|
-|CELLSJAVA-43486|NullPointerException lors de la conversion d'un document HTML en un classeur|
+|CELLSJAVA-43486|NullPointerException lors de la conversion d'un document HTML en classeur|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

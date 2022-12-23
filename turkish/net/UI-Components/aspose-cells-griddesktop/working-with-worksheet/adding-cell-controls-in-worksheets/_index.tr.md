@@ -9,14 +9,14 @@ url: /tr/net/adding-cell-controls-in-worksheets/
  Cell kontrolleri aslında çalışma sayfalarına eklenebilen kontrollerdir. biz onlara diyoruz**Cell Kontroller** çünkü bu kontroller hücrelerde görüntülenir. Bu konuda, bu hücre kontrollerinin olaylarını ekleme ve işleme hakkında tartışacağız.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 Şu anda Aspose.Cells.GridDesktop, aşağıdakileri içeren üç tür hücre denetimi eklemeyi destekler:
 
 - **Buton**
 - **Onay Kutusu**
 - **Açılan kutu**
 
-Bu kontrollerin tümü soyut bir sınıftan türetilmiştir,**Hücre Kontrolü**. Her çalışma sayfası bir koleksiyon içerir**Kontroller**Bu kullanılarak yeni hücre kontrolleri eklenebilir ve mevcut olanlara erişilebilir.**Kontroller**kolayca toplayın.
+Bu kontrollerin tümü soyut bir sınıftan türetilmiştir,**Hücre Kontrolü**Her çalışma sayfası bir koleksiyon içerir**Kontroller**. Bu kullanılarak yeni hücre kontrolleri eklenebilir ve mevcut olanlara erişilebilir.**Kontroller**kolayca toplayın.
 
 **ÖNEMLİ:**Tek tek eklemek yerine bir sütunun tüm hücrelerine hücre kontrolleri eklemek istiyorsanız, o zaman başvurabilirsiniz.[Cell Kontrollerini Sütunlarda Yönetme.](/cells/tr/net/adding-cell-controls-in-worksheets/)
 ### **Ekleme Düğmesi**
@@ -24,7 +24,7 @@ Aspose.Cells.GridDesktop kullanarak çalışma sayfasına düğme eklemek için 
 
 - Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 - İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- Ekle**Buton**için**Kontroller**koleksiyonu**Çalışma kağıdı**
+- Eklemek**Buton**için**Kontroller**koleksiyonu**Çalışma kağıdı**
 
 
 
@@ -54,7 +54,7 @@ Aspose.Cells.GridDesktop kullanarak çalışma sayfasına bir onay kutusu ekleme
 
 - Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 - İstediğiniz herhangi birine erişin**Çalışma kağıdı**
-- Ekle**Onay Kutusu**için**Kontroller**koleksiyonu**Çalışma kağıdı**
+- Eklemek**Onay Kutusu**için**Kontroller**koleksiyonu**Çalışma kağıdı**
 
 
 
@@ -74,7 +74,7 @@ Aspose.Cells.GridDesktop kullanarak çalışma sayfasına açılan kutu eklemek 
 - Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 - İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 - Eklenecek bir dizi öğe (veya değer) oluşturun**Açılan kutu**
-- Ekle**Açılan kutu**için**Kontroller**koleksiyonu**Çalışma kağıdı**hücrenin konumunu (birleşik kutunun görüntüleneceği yer) ve açılan kutu tıklandığında görüntülenecek öğeleri/değerleri belirterek
+- Eklemek**Açılan kutu**için**Kontroller**koleksiyonu**Çalışma kağıdı**hücrenin konumunu (birleşik kutunun görüntüleneceği yer) ve açılan kutu tıklandığında görüntülenecek öğeleri/değerleri belirterek
 
 
 

@@ -18,7 +18,7 @@ Aspose.Cells.GridDesktop es un control basado en GUI que permite a sus usuarios 
  Después de seleccionar**Formato Cells...** opción,**Diálogo de estilo** aparecería ante ti.**Diálogo de estilo** consta de varias pestañas que incluyen:* **Número**
 
 - **Alineación**
-- **Borde**
+- **Frontera**
 - **Fuente**
 - **Proteccion**
 
@@ -28,7 +28,7 @@ Aspose.Cells.GridDesktop es un control basado en GUI que permite a sus usuarios 
 ### **Pestaña de alineación**
  Usando**Alineación** pestaña, los usuarios pueden establecer la alineación horizontal y vertical del texto. Incluso pueden usar otras opciones de control de texto, como ajustar texto, reducir celdas para que se ajusten al texto y fusionar celdas.
 ### **Pestaña de borde**
-**Borde** La pestaña facilita a los usuarios dibujar bordes de cualquier tipo y color con solo unos pocos clics. Todo lo que tienen que hacer es seleccionar algunas opciones para dibujar un borde de acuerdo con sus deseos.
+**Frontera** La pestaña facilita a los usuarios dibujar bordes de cualquier tipo y color con solo unos pocos clics. Todo lo que tienen que hacer es seleccionar algunas opciones para dibujar un borde de acuerdo con sus deseos.
 ### **Pestaña Fuente**
  Usando**Fuente** pestaña, los usuarios pueden cambiar el nombre de la fuente, el tamaño, el color y los estilos, etc. Los usuarios también pueden obtener una vista previa de la configuración de la fuente antes de aplicarla en las celdas. Por lo tanto, facilita el trabajo de los usuarios para formatear celdas.**Justo a tiempo**.
 ### **Ficha Protección**

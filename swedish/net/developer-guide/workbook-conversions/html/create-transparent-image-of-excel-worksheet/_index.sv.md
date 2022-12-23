@@ -1,5 +1,5 @@
 ﻿---
-title: Skapa en transparent bild av Excel-kalkylblad
+title: Skapa transparent bild av Excel-kalkylblad
 type: docs
 weight: 170
 url: /sv/net/create-transparent-image-of-excel-worksheet/

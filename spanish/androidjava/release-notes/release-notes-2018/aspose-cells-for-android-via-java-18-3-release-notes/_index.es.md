@@ -20,36 +20,36 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42543|Extraiga el nombre de la etiqueta que se puede configurar para los objetos del paquete incrustados en el archivo de Excel|Nueva caracteristica|
 |CELLSJAVA-42510|Observe un filtrado muy lento en Microsoft Excel 2013 y 2016 cuando se aplica el filtro|Mejora|
 |CELLSJAVA-42464|Corrección necesaria para todos los controles ActiveX|Mejora|
-|CELLSJAVA-42490|Excluya los estilos no utilizados al exportar un archivo de Excel a HTML (Id. de problema principal: CELLSJAVA-42471)|Mejora|
+|CELLSJAVA-42490|Excluya los estilos no utilizados al exportar un archivo de Excel a HTML (ID de problema principal: CELLSJAVA-42471)|Mejora|
 |CELLSJAVA-42529|Cómo identificar formas de hojas de trabajo a través de DrawObjectEventHandler|Mejora|
 |CELLSJAVA-42558|No se puede acceder a los elementos de las etiquetas del eje de categoría horizontal|Mejora|
 |CELLSJAVA-42473|Partes de las imágenes están truncadas o faltan y no coinciden con las imágenes originales|Insecto|
-|CELLSJAVA-42469|La imagen sobresale de la forma en el PDF de salida|Insecto|
-|CELLSJAVA-42461|La forma del elemento es incorrecta en el HTML de salida|Insecto|
+|CELLSJAVA-42469|La imagen sobresale de la forma en la salida PDF|Insecto|
+|CELLSJAVA-42461|La forma del elemento es incorrecta en la salida HTML|Insecto|
 |CELLSJAVA-42495|Excel a Html: se ignora el ajuste de texto|Insecto|
 |CELLSJAVA-42489|El archivo XLSB se corrompe después de abrirlo y guardarlo|Insecto|
-|CELLSJAVA-42487|Discrepancia de salida HTML - Problema con espacios|Insecto|
+|CELLSJAVA-42487|HTML discrepancia de salida - Problema con espacios|Insecto|
 |CELLSJAVA-42471|Datos irrelevantes incluidos al guardar en HTML|Insecto|
 |CELLSJAVA-42467|XLSB dañado después de volver a guardar|Insecto|
 |CELLSJAVA-42488|Los números de 15 dígitos no coinciden con lo que está en MS Excel|Insecto|
-|CELLSJAVA-42499|Márgenes y diferencias de diseño al comparar el PDF de salida (por Aspose.Cells) con el PDF generado por MS Excel|Insecto|
+|CELLSJAVA-42499|Márgenes y diferencias de diseño al comparar la salida PDF (por Aspose.Cells) con el MS Excel generado PDF|Insecto|
 |CELLSJAVA-42486|La característica no funciona en Java - ResultSet|Insecto|
 |CELLSJAVA-42497|Las formas de la Hoja 1 se pierden y las estrellas de la Hoja 2 se redondean|Insecto|
 |CELLSJAVA-42512|Codificación no válida: se produce una excepción al cargar el archivo de Excel|Insecto|
 |CELLSJAVA-42507|Las hojas de macros y diálogos se detectan como hojas de trabajo regulares|Insecto|
 |CELLSJAVA-42503|MS Excel no permite volver a guardar el archivo XLS|Insecto|
 |CELLSJAVA-42502|Aspose.Cells no está filtrando los datos correctamente, sino que oculta todas las filas|Insecto|
-|CELLSJAVA-42552|El HTML de salida no coincide con Excel|Insecto|
+|CELLSJAVA-42552|La salida HTML no coincide con Excel|Insecto|
 |CELLSJAVA-42536|Archivos de Excel dañados después de abrir/guardar por Aspose.Cells API|Insecto|
-|CELLSJAVA-42513|Aparecen columnas adicionales al final de cada fila en el HTML de salida para un rango|Insecto|
+|CELLSJAVA-42513|Aparecen columnas adicionales al final de cada fila en la salida HTML para un rango|Insecto|
 |CELLSJAVA-42542|El archivo de Excel está dañado y algunas celdas cambiaron después de guardar|Insecto|
 |CELLSJAVA-42524|Los errores de cálculo están presentes en la hoja oculta, a saber, KD020|Insecto|
 |CELLSJAVA-42514|ImportTableOptions.setInsertRows() no funciona al importar ResultSet a la hoja de trabajo|Insecto|
 |CELLSJAVA-42505|Los comentarios adjuntos a las celdas (en el archivo de plantilla) no se muestran al importar el archivo de Excel a GridWeb|Insecto|
 |CELLSJAVA-42520|Coordenadas de celda inconsistentes informadas por ImageOrPrintOptions.DrawObjectEventHandler|Insecto|
-|CELLSJAVA-42518|Los bordes de las filas están desalineados en el PDF de salida|Insecto|
+|CELLSJAVA-42518|Los bordes de las filas están desalineados en la salida PDF|Insecto|
 |CELLSJAVA-42561|La escala del eje X es incorrecta en la salida PNG del gráfico de Excel|Insecto|
-|CELLSJAVA-42556|La representación del gráfico no es correcta en el PDF de salida|Insecto|
+|CELLSJAVA-42556|La representación del gráfico no es correcta en la salida PDF|Insecto|
 |CELLSJAVA-42547|El gráfico se reemplaza con Red X al convertir XLSX a ODS|Insecto|
 |CELLSJAVA-42546|Imágenes perdidas al convertir ODS a XLSX|Insecto|
 |CELLSJAVA-42538|Las propiedades no se extraen de los archivos XLS y XLSX|Insecto|

@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 17.1.0
+title: Pubblico API Modifiche Aspose.Cells 17.1.0
 type: docs
 weight: 370
 url: /it/net/public-api-changes-in-aspose-cells-17-1-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.12.0 alla 17.1.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -77,7 +77,7 @@ Ecco un semplice scenario di utilizzo.
 
 
 ### **Aggiunta proprietà CellsHelper.SignificantDigits**
-Aspose.Cells 17.1.0 ha esposto la proprietà SignificantDigits della classe CellsHelper che consente di ottenere o impostare il numero di cifre significative per i valori numerici in un foglio di calcolo. Il valore predefinito della proprietà CellsHelper.SignificantDigits è 17 mentre è applicabile solo se il risultato deve essere memorizzato nel formato di file XLSX.
+Aspose.Cells 17.1.0 ha esposto la proprietà SignificantDigits della classe CellsHelper che consente di ottenere o impostare il numero di cifre significative per i valori numerici in un foglio di calcolo. Il valore predefinito della proprietà CellsHelper.SignificantDigits è 17 mentre è applicabile solo se il risultato deve essere memorizzato nel formato file XLSX.
 
 Ecco un semplice scenario per dimostrare l'utilizzo della proprietà CellsHelper.SignificantDigits.
 

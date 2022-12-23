@@ -15,7 +15,7 @@ url: /ru/java/create-pivot-table/
 Объекты сводной таблицы:
 
 - [**сводное поле**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): представляет поле в сводной таблице.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : он представляет собой набор всех[**сводное поле**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)объектов в сводной таблице.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) он представляет собой набор всех[**сводное поле**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)объектов в сводной таблице.
 - [**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): представляет собой сводную таблицу.
 - [**сводная таблицаколлекция**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): он представляет собой набор всех объектов сводной таблицы на рабочем листе.
 
@@ -26,8 +26,8 @@ url: /ru/java/create-pivot-table/
 Чтобы создать сводную таблицу с использованием Aspose.Cells, выполните следующие действия:
 
 1.  Добавьте некоторые данные в ячейки рабочего листа с помощью[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) объекты[**установить значение**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)метод. Эти данные будут использоваться в качестве источника данных для сводной таблицы.
-1. Добавьте сводную таблицу на рабочий лист, вызвав метод[**добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) метод[**сводная таблицаколлекция**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) класс, заключенный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)объект.
-1.  Доступ к[**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) объект из[**сводная таблицаколлекция**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) пройдя[**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)индекс.
+1. Добавьте сводную таблицу на рабочий лист, вызвав метод[**Добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) метод[**сводная таблицаколлекция**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) класс, заключенный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)объект.
+1.  Доступ к[**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) объект из[**сводная таблицаколлекция**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) пройдя[**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)показатель.
 1.  Используйте любой из объектов сводной таблицы (описанных выше), инкапсулированных в[**сводная таблица**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)объект для управления сводной таблицей.
 
 {{% alert color="primary" %}}

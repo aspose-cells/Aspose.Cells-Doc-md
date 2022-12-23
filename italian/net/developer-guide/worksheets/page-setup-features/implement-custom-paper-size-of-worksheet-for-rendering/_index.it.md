@@ -6,7 +6,7 @@ url: /it/net/implement-custom-paper-size-of-worksheet-for-rendering/
 ---
 ## **Possibili scenari di utilizzo**
 
-Non è disponibile alcuna opzione diretta per creare formati carta personalizzati in MS Excel, tuttavia è possibile impostare il formato carta personalizzato dei fogli di lavoro desiderati durante il rendering del file Excel in formato file PDF. Questo documento spiega come impostare un formato carta personalizzato di un foglio di lavoro utilizzando le API Aspose.Cells.
+Non è disponibile alcuna opzione diretta per creare formati carta personalizzati in MS Excel, tuttavia, è possibile impostare il formato carta personalizzato dei fogli di lavoro desiderati durante il rendering del file Excel nel formato file PDF. Questo documento spiega come impostare un formato carta personalizzato di un foglio di lavoro utilizzando le API Aspose.Cells.
 
 ## **Implementa il formato carta personalizzato del foglio di lavoro per il rendering**
 
@@ -16,6 +16,6 @@ Non è disponibile alcuna opzione diretta per creare formati carta personalizzat
 
 ![cose da fare:immagine_alt_testo](implement-custom-paper-size-of-worksheet-for-rendering_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ImplementCustomPaperSizeOfWorksheetForRendering.cs" >}}

@@ -16,7 +16,7 @@ Aspose.Cells'i kullanarak grafikler üzerinde çalışırken ele alınması gere
 
 ### **Grafik Verileri**
 
-Grafik verileri, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız verilerdir. Çağırarak bir hücre aralığı (grafik verileri içeren) ekleyebiliriz.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesnenin[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)yöntem.
+Grafik verileri, grafiklerimizi oluşturmak için veri kaynağı olarak kullandığımız verilerdir. Çağırarak bir hücre aralığı (grafik verileri içeren) ekleyebiliriz.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesnenin[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/methods/add)yöntem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsData-1.cs" >}}
 

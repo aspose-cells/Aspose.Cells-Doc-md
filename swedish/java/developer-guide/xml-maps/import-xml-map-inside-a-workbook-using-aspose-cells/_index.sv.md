@@ -8,7 +8,7 @@ url: /sv/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
  Aspose.Cells låter dig importera XML-karta inuti arbetsboken med hjälp av[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) metod. Du kan importera XML-karta med hjälp av Microsoft Excel med följande steg
 
--  Välj**Utvecklaren** flik
+-  Välj**Utvecklare** flik
 -  Klick**Importera** i XML-sektionen och följ de nödvändiga stegen.
 
  Du måste ange dina XML-data för att slutföra importen. Här är en[exempel på XML-data](5472501.txt) som du kan använda för att testa.

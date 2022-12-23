@@ -10,12 +10,12 @@ url: /it/java/aspose-cells-for-java-20-6-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43186|Calcola il totale complessivo per ogni riga con colonna espansa|Aumento|
 |CELLSJAVA-43191|Fornire mezzi per gestire gli scenari quando si specificano tipi di carattere errati|Aumento|
-|CELLSJAVA-43187|Eccezione durante il caricamento di file XLS "Microsoft Excel 5.0/95 Workbook".|Aumento|
-|CELLSJAVA-43180|Conversione da HTML a Excel creando un foglio di lavoro nero|Insetto|
+|CELLSJAVA-43187|Eccezione durante il caricamento di un file XLS "Microsoft Excel 5.0/95 Workbook"|Aumento|
+|CELLSJAVA-43180|Conversione da HTML a Excel per la creazione di un foglio di lavoro nero|Insetto|
 |CELLSJAVA-43181|La differenza nell'altezza della riga nella conversione di Excel in HTML|Insetto|
 |CELLSJAVA-43188|Lo stile del colore di sfondo non viene mantenuto durante la conversione da HTML a Excel|Insetto|
 |CELLSJAVA-43196|Rilevato un numero diverso di moduli VBA utilizzando Aspose.Cells for Java 20.4 e 20.5|Insetto|
@@ -30,8 +30,8 @@ url: /it/java/aspose-cells-for-java-20-6-release-notes/
 |CELLSJAVA-43189|Eccezione sollevata durante il caricamento del file XLS|Eccezione|
 |CELLSJAVA-43193|NullPointerException si è verificata durante il caricamento di alcuni file XLSX|Eccezione|
 |CELLSJAVA-43200|Eccezione "java.lang.ArrayIndexOutOfBoundsException" al caricamento del file|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo ReferredArea.GetValues(boolcalculateFormulas)/GetValue(introwOffset, int colOffset, boolcalculateFormulas).**
 Offre all'utente la possibilità di controllare se le formule devono essere calcolate in modo ricorsivo nell'implementazione di AbstractCalculationEngine.
 ### **Aggiunge l'enumerazione WarningType.InvalidFontName e WarningType.InvalidTextOfDefinedName.**

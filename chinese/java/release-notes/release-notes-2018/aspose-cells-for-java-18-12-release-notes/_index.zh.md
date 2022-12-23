@@ -14,12 +14,12 @@ url: /zh/java/aspose-cells-for-java-18-12-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42745|不获取连接点，因为其返回类型为“zo[]”|新功能|
 |CELLSJAVA-42662|提供将范围导出为 HTML 的能力|新功能|
-|CELLSJAVA-42746|XLSX 转换为 HTML 时数据栏丢失|新功能|
-|CELLSJAVA-42747|当 XLSX 转换为 HTML 文件格式时值仍然存在|新功能|
+|CELLSJAVA-42746|XLSX 转换为 HTML 时数据条丢失|新功能|
+|CELLSJAVA-42747|XLSX 转换为 HTML 文件格式时值仍然存在|新功能|
 |CELLSJAVA-42748|LightCells API 加载大文件失败|强化|
 |CELLSJAVA-42727|MS Excel 范围的 HTML 输出中缺少文本格式|漏洞|
 |CELLSJAVA-42744|当 XLSX 转换为 HTML 时，图标集变得错位|漏洞|
-|CELLSJAVA-42772|导出命名范围数据未正确呈现为 HTML (Java)|漏洞|
+|CELLSJAVA-42772|导出命名范围数据未正确呈现到 HTML (Java)|漏洞|
 |CELLSJAVA-42753|在命名范围中发现的问题|漏洞|
 |CELLSJAVA-42764|对于“getInCellDropDown()”方法，验证始终返回 true|漏洞|
 |CELLSJAVA-42768|为不同的语言环境（德国、法国、意大利和西班牙）返回错误的文化自定义格式|漏洞|

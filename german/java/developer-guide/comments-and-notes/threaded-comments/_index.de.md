@@ -25,8 +25,8 @@ Aspose.Cells bietet auch die Funktion zum Verwalten von Thread-Kommentaren.
 Führen Sie die folgenden Schritte aus, um Thread-Kommentare in Excel 365 hinzuzufügen.
 
 - Methode 1
- - Drücke den**Rezension**Tab
- - Drücke den**Neuer Kommentar**Taste
+ - Drücke den**Überprüfung**Tab
+ - Drücke den**Neuer Kommentar**Knopf
  - Dies öffnet einen Dialog zur Eingabe von Kommentaren in die aktive Zelle.
   - ![todo: Bild_alt_Text](threaded-comments_4.jpg)
 - Methode 2
@@ -96,6 +96,6 @@ Das folgende Beispiel zeigt das Entfernen von Kommentaren in Spalte A1 durch Lad
 
 {{% alert color="primary" %}} 
 
- Bitte beachten Sie, dass durch das Entfernen eines Kommentars mit Aspose.Cells der Autor nicht automatisch entfernt wird. Wenn Sie auch den Autor entfernen müssen, verwenden Sie bitte die[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) Methode wie im obigen Beispiel gezeigt.
+ Bitte beachten Sie, dass durch das Entfernen eines Kommentars mit Aspose.Cells der Autor nicht automatisch entfernt wird. Wenn Sie auch den Autor entfernen müssen, verwenden Sie bitte die[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)Methode wie im obigen Beispiel gezeigt.
 
 {{% /alert %}}

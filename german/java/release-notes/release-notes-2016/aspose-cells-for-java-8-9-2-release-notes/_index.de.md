@@ -11,21 +11,21 @@ url: /de/java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-41925|Die Berechnungszeit hat sich mit den letzten API-Revisionen erhöht|Neue Funktion|
 |CELLSJAVA-40958|Ein vom Benutzer konfigurierbarer Ersatzmechanismus für Schriftarten ist erforderlich|Neue Funktion|
 |CELLSJAVA-41936|Die Workbook.calculateFormula()-Methode wird für die Excel-Quelldatei nie beendet|Erweiterung|
-|CELLSJAVA-41928|Bildressource kann beim Rendern der Tabelle in HTML mit IStreamProvider nicht erfasst werden|Insekt|
-|CELLSJAVA-41841|Problem beim Rendern von Kontrollkästchen in HTML|Insekt|
+|CELLSJAVA-41928|Bildressource kann nicht erfasst werden, während die Tabelle mit IStreamProvider auf HTML gerendert wird|Insekt|
+|CELLSJAVA-41841|Problem beim Rendern von Kontrollkästchen auf HTML|Insekt|
 |CELLSJAVA-41932|Problem mit getDisplayStringValue() für Werte im Datumsformat|Insekt|
 |CELLSJAVA-41930|Bei Verwendung von Light Cells-APIs zum Verarbeiten einer XLS-Datei wird immer die erste Zelle des ersten Blatts verarbeitet|Insekt|
-|CELLSJAVA-41931|Zeichenabstand und -umbruch für vertikalen Text beim Rendern der Tabelle in PDF nicht korrekt|Insekt|
+|CELLSJAVA-41931|Zeichenabstand und -umbruch für vertikalen Text beim Rendern der Tabelle auf PDF nicht korrekt|Insekt|
 |CELLSJAVA-41709|Spaltenbreiten sind auf CentOS anders als auf Windows|Insekt|
-|CELLSJAVA-41933|Der Diagrammmaßstab hat sich beim Rendern der Tabelle in PDF verschoben|Insekt|
-|CELLSJAVA-41934|Ausrichtungsproblem beim Rendern einer Excel-Datei in PDF|Insekt|
-|CELLSJAVA-41935|Die Formatierung von Legendeneinträgen wird beim Rendern der Tabelle in PDF gestört|Insekt|
+|CELLSJAVA-41933|Der Diagrammmaßstab hat sich beim Rendern der Tabelle auf PDF verschoben|Insekt|
+|CELLSJAVA-41934|Ausrichtungsproblem beim Rendern einer Excel-Datei auf PDF|Insekt|
+|CELLSJAVA-41935|Die Formatierung von Legendeneinträgen wird beim Rendern der Tabelle auf PDF gestört|Insekt|
 |CELLSJAVA-41943|Die horizontalen Achsenbeschriftungen wurden nicht vollständig gerendert, das heißt; Bei allen Beschriftungen fehlen einige Inhalte im gerenderten Bild.|Insekt|
 |CELLSJAVA-41940|Datei ist nach Formelberechnung und Speichern beschädigt|Insekt|
 |CELLSJAVA-41952|Berechnungsergebnis ist nicht korrekt|Insekt|
 |CELLSJAVA-41941|Array-Formel wird nicht richtig berechnet|Insekt|
-|CELLSJAVA-41937|Einige Werte aus der Excel-Datei fehlen in der HTML-Ausgabe – XLS-zu-HTML-Konvertierung|Insekt|
-|CELLSJAVA-41927|Ausnahme: „java.lang.OutOfMemoryError“ beim Speichern im HTML-Dateiformat|Ausnahme|
+|CELLSJAVA-41937|Einige Werte aus der Excel-Datei fehlen in der Ausgabe HTML - XLS zu HTML Konvertierung|Insekt|
+|CELLSJAVA-41927|Ausnahme: "java.lang.OutOfMemoryError" beim Speichern im Dateiformat HTML|Ausnahme|
 |CELLSJAVA-41945|CellsException: Fehler beim Berechnen von Cell[0Sheet1!E5]in Workbook.CalculateFormula beim Berechnen der TREND-Funktion|Ausnahme|
 |CELLSJAVA-41946|Das Öffnen einer Excel-Datei verursacht eine java.lang.NumberFormatException: Für die Eingabezeichenfolge: „80000020“|Ausnahme|
 |CELLSJAVA-41922|IndexOutOfBoundsException beim Kopieren von Zellen|Ausnahme|

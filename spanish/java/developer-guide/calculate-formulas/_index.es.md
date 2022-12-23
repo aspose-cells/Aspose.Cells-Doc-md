@@ -20,7 +20,7 @@ Aspose.Cells tiene un motor de cálculo de fórmula integrado. No solo puede vol
 
 {{% alert color="primary" %}}
 
- los**Fórmula** propiedad y**EstablecerFórmula(...)** métodos de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)trabajo en clase de manera diferente a la**Calcular** métodos de la[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) y[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) clases los**Fórmula** propiedad y**EstablecerFórmula(...)** los métodos simplemente agregan la fórmula a una celda pero no calculan el resultado en tiempo de ejecución. Para obtener el resultado de las fórmulas, llame al**Calcular** métodos.
+ Él**Fórmula** propiedad y**EstablecerFórmula(...)** métodos de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)trabajo en clase de manera diferente a la**Calcular** métodos de la[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) y[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) clases Él**Fórmula** propiedad y**EstablecerFórmula(...)** los métodos simplemente agregan la fórmula a una celda pero no calculan el resultado en tiempo de ejecución. Para obtener el resultado de las fórmulas, llame al**Calcular** métodos.
 
 {{% /alert %}}
 

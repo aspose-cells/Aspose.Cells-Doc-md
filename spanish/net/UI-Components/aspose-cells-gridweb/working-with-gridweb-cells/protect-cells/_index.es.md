@@ -18,7 +18,7 @@ Para configurar todas las celdas de una hoja de cálculo para que sean de solo l
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-ProtectCells.aspx-MakeAllCellsReadOnly.cs" >}}
 ### **Haciendo todo Cells Editable**
-Para eliminar la protección de todas las celdas, llame al método SetAllCellsEditable de la hoja de cálculo. Este método tiene el efecto opuesto al método SetAllCellsReadonly.
+Para eliminar la protección de todas las celdas, llame al método SetAllCellsEditable de la hoja de trabajo. Este método tiene el efecto opuesto al método SetAllCellsReadonly.
 
 
 
@@ -36,7 +36,7 @@ Para proteger solo un rango de celdas:
 Para desproteger un rango de celdas:
 
 1. Haga que todas las celdas sean de solo lectura llamando al método SetAllCellsReadonly.
-1. Especifique el rango de celdas que se pueden editar llamando al método SetEditableRange de la hoja de trabajo. Este método toma el número de filas y columnas para especificar el rango de celdas.
+1. Especifique el rango de celdas que se pueden editar llamando al método SetEditableRange de la hoja de cálculo. Este método toma el número de filas y columnas para especificar el rango de celdas.
 
 
 

@@ -13,7 +13,7 @@ url: /de/java/get-equation-text-of-chart-trendline/
 
 ## **Beispiel**
 
- Der folgende Screenshot zeigt das Diagramm mit einer Trendlinie und sein Gleichungstext wird in roter Farbe angezeigt. Wir werden diesen Text mit dem abrufen[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)-Eigenschaft im folgenden Beispielcode.
+Der folgende Screenshot zeigt das Diagramm mit einer Trendlinie und sein Gleichungstext wird in roter Farbe angezeigt. Wir werden diesen Text mit dem abrufen[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)-Eigenschaft im folgenden Beispielcode.
 
 ![todo: Bild_alt_Text](get-equation-text-of-chart-trendline_1.png)
 

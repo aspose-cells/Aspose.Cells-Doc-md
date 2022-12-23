@@ -20,4 +20,4 @@ url: /ar/java/aspose-cells-for-java-7-5-2-release-notes/
 
  البق
 
- 40553 - لا يؤدي تحويل Excel إلى PDF إلى عرض المخططات ذات JDK1.7.0_21
+ 40553 - لا يؤدي عرض Excel إلى PDF إلى عرض المخططات ذات JDK1.7.0_21

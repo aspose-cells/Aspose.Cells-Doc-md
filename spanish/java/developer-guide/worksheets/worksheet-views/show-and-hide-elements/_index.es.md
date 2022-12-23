@@ -16,7 +16,7 @@ Aspose.Cells permite al usuario mostrar y ocultar elementos de un libro de traba
 
 **Controlando la Visibilidad de las Hojas de Trabajo:**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel.[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)que permite acceder a cada hoja de trabajo en el archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel.[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite acceder a cada hoja de trabajo en el archivo de Excel.
 
  Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase.[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de cálculo. Pero, para controlar la visibilidad de una hoja de trabajo, los desarrolladores pueden usar[**conjuntoVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) metodo de la[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase.
 
@@ -44,7 +44,7 @@ Aspose.Cells permite al usuario mostrar y ocultar elementos de un libro de traba
 
 **Hoja de trabajo: después de ejecutar el código de ejemplo:**
 
-**Libro1.xls** El archivo se abre con el[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) clase y luego la primera hoja de trabajo del**Libro1.xls** el archivo se hace oculto. El archivo modificado se guarda como**salida.xls**archivo cuya vista pictórica se muestra a continuación:
+**Libro1.xls** El archivo se abre con el[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)clase y luego la primera hoja de trabajo del**Libro1.xls** el archivo se hace oculto. El archivo modificado se guarda como**salida.xls** archivo cuya vista pictórica se muestra a continuación:
 
 ![todo:imagen_alternativa_texto](show-and-hide-elements_2.png)
 
@@ -56,7 +56,7 @@ Aspose.Cells permite al usuario mostrar y ocultar elementos de un libro de traba
 
 ## **Mostrar u ocultar pestañas**
 
-Si observa detenidamente la parte inferior de un archivo de Excel Microsoft, verá una serie de controles. Éstos incluyen:
+Si observa detenidamente la parte inferior de un archivo de Excel Microsoft, verá una serie de controles. Éstas incluyen:
 
 - Pestañas de hoja.
 - Botones de desplazamiento de pestañas.
@@ -70,7 +70,7 @@ Las pestañas de hoja representan las hojas de trabajo en el archivo de Excel. H
 Con Aspose.Cells, los desarrolladores pueden controlar la visibilidad de las pestañas de las hojas y los botones de desplazamiento de las pestañas en los archivos de Excel.
 
 **Controlando la visibilidad de las pestañas:**
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel.
 
 ### **Ocultar pestañas**
 
@@ -179,9 +179,9 @@ Aspose.Cells también le permite controlar la visibilidad de las líneas de cuad
 
 ### **Control de la visibilidad de las líneas de cuadrícula**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite el acceso a cada hoja de trabajo en el archivo.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite el acceso a cada hoja de trabajo en el archivo.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para controlar la visibilidad de las líneas de cuadrícula, utilice el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para controlar la visibilidad de las líneas de cuadrícula, utilice el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método.
 
 #### **Hacer visibles las líneas de cuadrícula**
 
@@ -189,7 +189,7 @@ Aspose.Cells también le permite controlar la visibilidad de las líneas de cuad
 
 #### **Ocultar líneas de cuadrícula**
 
- Oculte las líneas de cuadrícula con el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método.
+ Oculte las líneas de cuadrícula con el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible(falso)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método.
 
 {{% alert color="primary" %}}
 
@@ -199,7 +199,7 @@ Las líneas de cuadrícula se aplican a toda la hoja. Para 'ocultar' líneas de 
 
 **Ejemplo: Ocultar líneas de cuadrícula en una hoja de trabajo en particular**
 
- El siguiente ejemplo demuestra el uso de la[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método para ocultar las líneas de cuadrícula de la primera hoja de cálculo de un archivo de Excel.
+ El siguiente ejemplo demuestra el uso de la[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**setGridlinesVisible(falso)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) método para ocultar las líneas de cuadrícula de la primera hoja de cálculo de un archivo de Excel.
 
 La siguiente captura de pantalla muestra que el archivo Book1.xls contiene tres hojas de trabajo: Sheet1, Sheet2 y Sheet3. Todas estas hojas de trabajo tienen líneas de cuadrícula.
 

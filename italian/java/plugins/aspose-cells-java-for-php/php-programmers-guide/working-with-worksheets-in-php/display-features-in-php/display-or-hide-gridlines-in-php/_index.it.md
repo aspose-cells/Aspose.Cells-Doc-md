@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells - Visualizza o nascondi griglia**
 ### **Nascondere le linee della griglia**
- Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Giava for PHP** , chiamata**displayhidegridlines** modulo.
+ Per nascondere il foglio di lavoro utilizzando**Aspose.Cells Java for PHP** , chiamata**displayhidegridlines** modulo.
 
 **Codice PHP**
 
@@ -35,6 +35,6 @@ $workbook->save($dataDir . "output.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Mostra o nascondi griglia (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Mostra o nascondi griglia (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/DisplayFeatures/DisplayHideGridlines.php)

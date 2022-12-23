@@ -6,7 +6,7 @@ url: /ja/java/merge-files/
 ---
 ## **序章**
 
-Aspose.Cells は、ファイルをマージするためのさまざまな方法を提供します。データ、フォーマット、数式を含む単純なファイルの場合、[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) ) メソッドを使用して、複数のワークブックを結合できます。[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)メソッドを使用して、ワークシートを新しいワークブックにコピーできます。これらの方法は使いやすく効果的ですが、マージするファイルが多数ある場合は、多くのシステム リソースが必要になることがあります。これを回避するには、複数のファイルをマージするより効率的な方法である CellsHelper.mergeFiles 静的メソッドを使用します。
+Aspose.Cells は、ファイルをマージするためのさまざまな方法を提供します。データ、フォーマット、数式を含む単純なファイルの場合、[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) メソッドを使用して、複数のワークブックを結合できます。[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) メソッドを使用して、ワークシートを新しいワークブックにコピーできます。これらの方法は使いやすく効果的ですが、マージするファイルが多数ある場合は、多くのシステム リソースが必要になることがあります。これを回避するには、複数のファイルをマージするより効率的な方法である CellsHelper.mergeFiles 静的メソッドを使用します。
 
 ## **Aspose.Cells を使用してファイルをマージする**
 

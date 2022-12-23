@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-3-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47857|Efface toutes les zones de fusion sur la feuille|Nouvelle fonctionnalité|
 |CELLSNET-47892| Signer numériquement la ligne de signature Microsoft dans une feuille de calcul Excel|Renforcement|
@@ -30,11 +30,11 @@ url: /fr/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47865|Aspose.Cells présente incorrectement la date au format japonais|Punaise|
 |CELLSNET-47872|MS Excel affiche un message d'erreur lors de l'ouverture d'un fichier XLTM réenregistré par Aspose.Cells|Punaise|
 |CELLSNET-47897|La sélection d'éléments de liste ne fonctionne pas lorsqu'elle est chargée dans l'application ASP.NET|Punaise|
-|CELLSNET-47862|Excel Accounting Underline est coupé lors de l'exportation au format PDF|Punaise|
+|CELLSNET-47862|Excel Accounting Underline est coupé lors de l'exportation vers PDF|Punaise|
 |CELLSNET-47881|La largeur de la colonne est plus petite que prévu lors de l'importation/mappage du fichier XML dans le classeur|Punaise|
 |CELLSNET-47804|Le texte de la légende du graphique ne s'affiche pas correctement|Punaise|
 |CELLSNET-47834|Chart.Calculate() dans les graphiques modifie la mise en forme du graphique|Punaise|
-|CELLSNET-47856|Problème de conversion XLSX en PDF avec des tableaux croisés dynamiques|Punaise|
+|CELLSNET-47856|Problème de conversion XLSX à PDF avec les tableaux croisés dynamiques|Punaise|
 |CELLSNET-41275|Les graphiques faisant référence à d'autres feuilles ne sont pas affichés|Punaise|
 |CELLSNET-42847|Le graphique est perdu lors de la réenregistrement du fichier ODS|Punaise|
 |CELLSNET-47861|Différence dans le calcul de la hauteur de ligne|Punaise|

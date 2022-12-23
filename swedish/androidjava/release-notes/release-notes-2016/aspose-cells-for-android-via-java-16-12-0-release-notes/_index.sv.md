@@ -11,22 +11,22 @@ url: /sv/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41974|Uppdatering av pivottabell fungerar inte i den renderade PDF-filen|Insekt|
 |CELLSJAVA-41900|XLSM blir skadad av enkel laddning och lagring|Insekt|
 |CELLSJAVA-41790|Hyperlänkar fungerar inte som förväntat efter konvertering av kalkylblad till HTML|Insekt|
-|CELLSJAVA-42010|Vissa tecken återges inte i utdata-PDF-filen|Insekt|
-|CELLSJAVA-41977|Ordningen på sjökortsförklaringen har ändrats i diagrammets PDF|Insekt|
-|CELLSJAVA-41972|Z-ordningen av hög-låg rader är inte korrekt i PDF|Insekt|
+|CELLSJAVA-42010|Vissa tecken återges inte i utdata PDF|Insekt|
+|CELLSJAVA-41977|Ordningsföljden för sjökortsförklaringen har ändrats i diagrammets PDF|Insekt|
+|CELLSJAVA-41972|Z-ordningen av hög-låg linjer är inte korrekt i PDF|Insekt|
 |CELLSJAVA-42015|Kalkylarket blir skadat efter att ha sparats på nytt med Aspose.Cells|Insekt|
 |CELLSJAVA-42005|Formeln ändras efter infogning i en cell|Insekt|
 |CELLSJAVA-41997|Konstigt beteende med enkla bönor med Smart Markers|Insekt|
 |CELLSJAVA-41994|Cell:s text svämmar över till nästa cell|Insekt|
 |CELLSJAVA-42039|CalculateFormula har problem att räkna om celler med hänvisning till celler med formler|Insekt|
 |CELLSJAVA-42050|Hebreiska kontrolltecken återges inte korrekt i PDF|Insekt|
-|CELLSJAVA-42020|XLS till PDF-konvertering tar för mycket tid|Insekt|
-|CELLSJAVA-42017|Layoutproblem vid konvertering av kalkylblad till PDF|Insekt|
+|CELLSJAVA-42020|XLS till PDF omvandlingen tar för lång tid|Insekt|
+|CELLSJAVA-42017|Layoutproblem vid konvertering av kalkylark till PDF|Insekt|
 |CELLSJAVA-42023|X-axeletiketter överlappar med Legend när de renderas till PDF|Insekt|
 |CELLSJAVA-42022|Bilden skalas inte bra och dess SVG-fil är inte korrekt|Insekt|
-|CELLSJAVA-42003|Felaktig rendering av diagram vid konvertering av kalkylblad till HTML|Insekt|
-|CELLSJAVA-41986|Mellanslag utelämnas från text i PNG-utdata i diagram|Insekt|
-|CELLSJAVA-41438|Val eller kontrollstatus sparas inte när du sparar till PDF|Insekt|
+|CELLSJAVA-42003|Felaktig rendering av diagram vid konvertering av kalkylark till HTML|Insekt|
+|CELLSJAVA-41986|Mellanslag utelämnas från text i PNG-utdata från diagram|Insekt|
+|CELLSJAVA-41438|Val eller kontrollstatus sparades inte när du sparade till PDF|Insekt|
 |CELLSJAVA-41339|Text- och textjustering är förstörd i filen|Insekt|
 |CELLSJAVA-42056|Om du utökar MS Excel-tabellen/listobjektet ändras cellformateringen|Insekt|
 |CELLSJAVA-42055|Att lägga till Arc i en ny arbetsbok genererar ett potentiellt osäkert kalkylblad|Insekt|
@@ -36,33 +36,33 @@ url: /sv/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-42073|XLSM blir skadad efter att ha sparat på nytt|Insekt|
 |CELLSJAVA-42060|DataBar-bredden är inte korrekt vid konvertering av kalkylblad till HTML|Insekt|
 |CELLSJAVA-42016|Orange Row ingår inte i Sum of Pivot-tabellen|Insekt|
-|CELLSJAVA-42006|Bilden är avskuren i utdata-HTML|Insekt|
+|CELLSJAVA-42006|Bilden är avskuren i utgången HTML|Insekt|
 |CELLSJAVA-42067|Diagram saknas vid konvertering av kalkylark till HTML|Insekt|
 |CELLSJAVA-41983|Radhöjden är inte korrekt vid konvertering av XLSX till HTML|Insekt|
 |CELLSJAVA-42089|DCOUNTA Excel-formel utvärderas inte bra av Aspose.Cells formelberäkningsmotor|Insekt|
 |CELLSJAVA-42081|Problem med DataBar villkorlig formatering när du sparar en XLSM-fil som PDF|Insekt|
-|CELLSJAVA-42100|Mellanrummet mellan vissa tecken tas bort på några ställen i utdata-PDF-filen|Insekt|
-|CELLSJAVA-42078|Diagrametiketter visas/renderas inte på samma sätt (som i den ursprungliga Excel-filen) i den utgående PDF-filen|Insekt|
-|CELLSJAVA-42077|Problem med teckensnittsattribut för TextBox i utdata-PDF|Insekt|
+|CELLSJAVA-42100|Mellanrummet mellan vissa tecken tas bort på några ställen i utdatafilen PDF|Insekt|
+|CELLSJAVA-42078|Diagrametiketter visas/renderas inte på samma sätt (enligt den ursprungliga Excel-filen) i utdatafilen PDF|Insekt|
+|CELLSJAVA-42077|Problem med teckensnittsattribut för TextBox i utgången PDF|Insekt|
 |CELLSJAVA-42064|TextBox innehållsfärg och storlek ändras när kalkylbladet konverteras till EMF|Insekt|
-|CELLSJAVA-42063|TextBox innehålls färg och storlek ändras när kalkylblad konverteras till PDF|Insekt|
-|CELLSJAVA-42059|Hebreiska ord återges inte korrekt när en Excel-fil konverteras till PDF-filformat|Insekt|
-|CELLSJAVA-42053|Innehåll i TextBox klipps bort medan kalkylblad renderas till PDF|Insekt|
-|CELLSJAVA-42052|Pillinjer är felplacerade när kalkylblad renderas till PDF|Insekt|
+|CELLSJAVA-42063|TextBox innehålls färg och storlek ändras när kalkylbladet konverteras till PDF|Insekt|
+|CELLSJAVA-42059|Hebreiska ord återges inte korrekt när en Excel-fil konverteras till filformatet PDF|Insekt|
+|CELLSJAVA-42053|Innehållet i TextBox klipps när kalkylbladet renderas till PDF|Insekt|
+|CELLSJAVA-42052|Pillinjer är felplacerade när kalkylbladet renderas till PDF|Insekt|
 |CELLSJAVA-42049|Problem med SVG-bilden av diagrammet i den renderade HTML-filen|Insekt|
 |CELLSJAVA-42036|Teckensnittsersättning verkar inte träda i kraft för diagramförklaring när du använder Chart.toPdf|Insekt|
 |CELLSJAVA-42024|Förklaring som överlappar med text i diagrammets PDF|Insekt|
 |CELLSJAVA-42070|Felaktiga ChartPoints ShapeXPx- och ShapeYPx-värden|Insekt|
-|CELLSJAVA-42083|Ofullständig rendering av rektangelformen vid konvertering av XLS till HTML|Insekt|
-|CELLSJAVA-42104|Texten trunkeras när kalkylark konverteras till PDF-filformat|Insekt|
-|CELLSJAVA-42098|Extra sidor läggs till på grund av att vissa sidor inte renderas helt på en PDF-sida|Insekt|
+|CELLSJAVA-42083|Ofullständig återgivning av rektangelformen vid konvertering av XLS till HTML|Insekt|
+|CELLSJAVA-42104|Texten trunkeras när kalkylbladet konverteras till filformatet PDF|Insekt|
+|CELLSJAVA-42098|Extra sidor läggs till på grund av att vissa sidor inte renderas helt på en PDF sida|Insekt|
 |CELLSJAVA-42097|SheetRender - Ogiltigt kolumnindex|Insekt|
 |CELLSJAVA-42093|Om du utökar Excel-tabellen ändras data|Insekt|
 |CELLSJAVA-42092|Om du öppnar och sparar filen medan du använder SheetRender förstörs den utgående Excel-filen|Insekt|
 |CELLSJAVA-42085|Om du ställer in formtexten ändras textstilen|Insekt|
 |CELLSJAVA-42074|Texten i vissa celler som C2 och C3 får inte fetstil|Insekt|
 |CELLSJAVA-42058|Metoden Worksheet.autoFitColumns verkar inte träda i kraft när det önskade teckensnittet inte finns i Linux|Insekt|
-|CELLSJAVA-42054|Oväntad bakgrundsfärg applicerades på TextBoxes när kalkylblad renderades till PDF|Insekt|
+|CELLSJAVA-42054|Oväntad bakgrundsfärg användes på TextBoxes när kalkylbladet renderades till PDF|Insekt|
 |CELLSJAVA-42072|java.lang.ArrayIndexOutOfBoundsUndantag från Workbook.calculateFormula(false)|Undantag|
 |CELLSJAVA-42066|CellsException på Workbook.save när du konverterar en XLS till PDF|Undantag|
 |CELLSJAVA-42101|Ogiltigt formelundantag när excelfilen öppnades|Undantag|
@@ -75,8 +75,8 @@ url: /sv/java/aspose-cells-for-android-via-java-16-12-0-release-notes/
 |CELLSJAVA-41988|NullPointerException när du öppnar filen a2.xlsm|Undantag|
 |CELLSJAVA-41987|NullPointerException när du öppnar filen a1.xlsm|Undantag|
 |CELLSJAVA-41968|IndexOutOfBoundsException: Index: 23, Storlek: 14 medan pivotdiagram uppdateras|Undantag|
-|CELLSJAVA-42014|ClassCastException samtidigt som du sparar XLSX igen|Undantag|
-|CELLSJAVA-42004|java.lang.NullPointerException, i Workbook ctor när du laddar XLSX-filen|Undantag|
+|CELLSJAVA-42014|ClassCastException medan du sparar XLSX igen|Undantag|
+|CELLSJAVA-42004|java.lang.NullPointerException, på Workbook ctor när filen XLSX laddas|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Android. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen Shape.Reflection och klassen ReflectionEffect.**

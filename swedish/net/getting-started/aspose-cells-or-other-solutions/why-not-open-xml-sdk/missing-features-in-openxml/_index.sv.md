@@ -33,7 +33,7 @@ Det här avsnittet innehåller följande ämnen
   - [Konvertera diagram till bilder](/cells/sv/net/convert-charts-to-images/)
   - [Skriv ut kalkylblad](/cells/sv/net/print-spreadsheets/)
   - [Ange bildupplösning, kvalitet, komprimering och andra alternativ](/cells/sv/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Spara arbetsbok i text- eller CSV-format med Aspose.Cells](/cells/sv/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Spara arbetsbok till text eller CSV Formatera med Aspose.Cells](/cells/sv/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Ställ in externa länkar i formler i Aspose.Cells](/cells/sv/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Ställa in formelberäkningsläge för arbetsbok i Aspose.Cells](/cells/sv/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Ställ in Shared Formula i Aspose.Cells](/cells/sv/net/setting-shared-formula-in-aspose-cells/)

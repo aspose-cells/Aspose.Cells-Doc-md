@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-20-9-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-40792|La tabella pivot non viene creata per il file ODS|Nuova caratteristica|
 |CELLSJAVA-43263|Problema SmartMarker quando una cella è impostata sul colore di riempimento e sulla formattazione condizionale|Insetto|
@@ -19,20 +19,20 @@ url: /it/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43280|Problema di filtro dopo l'aggiornamento della tabella pivot|Insetto|
 |CELLSJAVA-43281|Aggiorna il problema della tabella pivot|Insetto|
 |CELLSJAVA-43285|I filtri statici vengono persi dopo l'aggiornamento della tabella pivot|Insetto|
-|CELLSJAVA-43288|Il file XLSB risultante è corrotto durante il salvataggio del file in XLSB|Insetto|
+|CELLSJAVA-43288|Il file risultato XLSB è corrotto durante il salvataggio del file in XLSB|Insetto|
 |CELLSJAVA-43289|Problema di filtro dopo l'aggiornamento della tabella pivot|Insetto|
 |CELLSJAVA-43293|Problema con le opzioni di filtro dopo PivotTable.refreshData()|Insetto|
 |CELLSJAVA-43279|I valori non vengono recuperati correttamente utilizzando getStringValue()|Insetto|
 |CELLSJAVA-43291|Contenuto della griglia non visibile|Insetto|
-|CELLSJAVA-43037|Problema di carattere nella conversione PDF|Insetto|
-|CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, XPS e stampante PDF|Insetto|
+|CELLSJAVA-43037|Problema di carattere sulla conversione PDF|Insetto|
+|CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, stampante XPS e PDF|Insetto|
 |CELLSJAVA-43254|Differenza di carattere durante la conversione del foglio di calcolo in immagine|Insetto|
-|CELLSJAVA-43266|Per impostazione predefinita, la versione Java non supporta il caricamento dei caratteri dalla cartella dei caratteri dell'utente corrente|Insetto|
+|CELLSJAVA-43266|La versione Java non supporta il caricamento del carattere dalla cartella dei caratteri dell'utente corrente per impostazione predefinita|Insetto|
 |CELLSJAVA-43268|Rendering da Excel a TIFF: alcuni valori vengono sostituiti con caratteri "#".|Insetto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: errore per ZipFile|Insetto|
 |CELLSJAVA-43277|Problema con il rapporto tra altezza e larghezza|Insetto|
 |CELLSJAVA-43245|Il grafico combinato non viene visualizzato correttamente dopo la conversione del file Excel in PDF|Insetto|
-|CELLSJAVA-43276|Problemi di interruzione di riga durante la conversione di XLSX in PDF|Insetto|
+|CELLSJAVA-43276|Problemi di interruzione di riga durante la conversione da XLSX a PDF|Insetto|
 |CELLSJAVA-43261|SmartMarker: quando si utilizza group:merge con Number Format Percentage, il risultato dell'espansione è errato|Insetto|
 |CELLSJAVA-43265|Impossibile caricare il file XLSX|Insetto|
 |CELLSJAVA-43270|Duplicazione del contenuto (Word incorporato) durante la copia del foglio di lavoro|Insetto|
@@ -41,13 +41,13 @@ url: /it/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43290|L'elaborazione non viene ripristinata durante il salvataggio del file XML Spreadsheet 2003 in formato cartella di lavoro MS Excel|Insetto|
 |CELLSJAVA-43267|Eccezione "java.lang.NullPointerException" durante il calcolo della tabella pivot nel foglio|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di AbstractCalculationEngine ha modificato il calcolo di alcune funzioni integrate, l'utente deve eseguire l'override di questa proprietà per renderla come**VERO** da**20.9**.
+ Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di AbstractCalculationEngine ha modificato il calcolo di alcune funzioni integrate, l'utente deve eseguire l'override di questa proprietà per renderla come**VERO** a partire dal**20.9**.
 
 ### **Aggiunge la proprietà TxtLoadOptions.HasTextQualifier**
 
@@ -127,7 +127,7 @@ Usare invece FilterColumn.IsDropdownVisible.
 
 ### **Aggiunge la proprietà CopyOptions.KeepMacros.**
 
-Indica se conservare le macro nella cartella di lavoro di destinazione. Ha effetto solo quando la cartella di lavoro originale non contiene macro.
+Indica se mantenere le macro nella cartella di lavoro di destinazione. Ha effetto solo quando la cartella di lavoro originale non contiene macro.
 
 ### **Aggiunge il metodo Workbook.Copy(Workbook,CopyOptions) di overload.**
 

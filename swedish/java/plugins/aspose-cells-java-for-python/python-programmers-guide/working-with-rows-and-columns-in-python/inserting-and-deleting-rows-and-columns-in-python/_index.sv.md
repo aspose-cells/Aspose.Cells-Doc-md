@@ -13,7 +13,7 @@ Infoga en rad på valfri plats genom att anropa metoden insertRows i samlingen C
 - Ladda XLS eller XLSX arbetsbok
 - Gå till arbetsbladet
 - Sätt in raden
-- Spara som XLS- eller XLSX-arbetsbok
+- Spara som XLS eller XLSX arbetsbok
 
 **Python Kod**
 

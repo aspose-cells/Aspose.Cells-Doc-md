@@ -17,14 +17,14 @@ Los comentarios se agregan a las celdas para registrar comentarios, desde los de
 Con Microsoft Excel 2007, es posible tener una imagen como fondo de un comentario de celda. En Excel 2007, esto se logra (suponiendo que ya se haya agregado el comentario) de esta manera:
 
 1. Haga clic derecho en la celda que contiene el comentario.
-1.  Elegir**Mostrar/Ocultar comentarios** y borre cualquier texto del comentario.
+1.  Escoger**Mostrar/Ocultar comentarios** y borre cualquier texto del comentario.
 1. Haga clic en el borde del comentario para seleccionarlo.
-1.  Elegir**Formato** , después**Comentario**.
-1. En la pestaña Colores y líneas, haga clic en la flecha para**Color**.
+1.  Escoger**Formato** , después**Comentario**.
+1.  En la pestaña Colores y líneas, haga clic en la flecha para**Color**.
 1.  Hacer clic**Efectos de relleno**.
 1.  En la pestaña Imagen, haga clic en**Seleccionar imagen**.
 1. Localiza y selecciona la imagen.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
 
 ## Agregar imagen a Excel Comentar con Aspose.Cells
 

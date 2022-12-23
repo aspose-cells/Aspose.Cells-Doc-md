@@ -28,7 +28,7 @@ url: /it/net/aspose-cells-for-net-7-4-2-release-notes/
 
  41440 - Problema linea tratteggiata - Da foglio a immagine
 
- 41470 - Per quanto riguarda la conversione del file da cartella di lavoro a PDF
+ 41470 - Relativo alla conversione del file Workbook-to-PDF
 
  41442 - Funzione ToTiff: problemi di allineamento dei numeri
 
@@ -44,7 +44,7 @@ url: /it/net/aspose-cells-for-net-7-4-2-release-notes/
 
  Nuove caratteristiche
 
- 41459 - Utilizzo di GridWeb in JavaScript
+41459 - Utilizzo di GridWeb in JavaScript
 
  Insetti
 

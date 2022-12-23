@@ -9,7 +9,7 @@ MS Excel 365 offre una funzionalità per aggiungere commenti in thread. Questi c
 
 ![cose da fare:immagine_alt_testo](threaded-comments_1.jpg)
 
-commenti in thread vengono visualizzati in questo modo nelle versioni precedenti di Excel. Le seguenti immagini sono state scattate aprendo il file di esempio in Excel 2016.
+I commenti in thread vengono visualizzati in questo modo nelle versioni precedenti di Excel. Le seguenti immagini sono state scattate aprendo il file di esempio in Excel 2016.
 
 ![cose da fare:immagine_alt_testo](threaded-comments_2.jpg)
 
@@ -42,7 +42,7 @@ Aspose.Cells fornisce[Commenti.AddThreadedComment](https://reference.aspose.com/
 - [ThreadedCommentAutore](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentAuthor): L'autore del commento
 
 L'esempio di codice seguente illustra l'utilizzo di[Commenti.AddThreadedComment](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#addThreadedComment\(java.lang.String,%20java.lang.String,%20com.aspose.cells.ThreadedCommentAuthor\)) metodo per aggiungere un commento in thread alla cella A1. Si prega di consultare il[file Excel di output](AddThreadedComments_out.xlsx)generato dal codice per riferimento.
-#### **Codice di esempio**
+#### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddThreadedComments-1.java" >}}
 ## **Leggi i commenti in thread**
 ### **Leggi i commenti in thread con Excel**
@@ -50,20 +50,20 @@ Per leggere i commenti in thread in Excel, passa semplicemente il mouse sopra la
 
 ![cose da fare:immagine_alt_testo](threaded-comments_1.jpg)
 ### **Leggi i commenti in discussione usando Aspose.Cells**
-Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puoi iterare sul[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)per visualizzare i commenti.
+Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puoi iterare sul[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)per visualizzare i commenti.
 
 L'esempio seguente illustra la lettura dei commenti dalla colonna A1 caricando il file[file Excel di esempio](ThreadedCommentsSample.xlsx). Si prega di consultare l'output della console generato dal codice per riferimento.
-#### **Codice di esempio**
+#### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedComments-1.java" >}}
 #### **Uscita console**
 Commento: prova il commento in thread
 
 Autore: Aspose Prova
 ### **Leggi l'ora di creazione dei commenti in thread**
-Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puoi iterare sul[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)e usa il[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)proprietà.
+Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). Puoi iterare sul[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)e usa il[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)proprietà.
 
 L'esempio seguente mostra la lettura dell'ora di creazione dei commenti in thread caricando il file[file Excel di esempio](ThreadedCommentsSample.xlsx). Si prega di consultare l'output della console generato dal codice per riferimento.
-#### **Codice di esempio**
+#### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ReadThreadedCommentCreatedTime-1.java" >}}
 #### **Uscita console**
 Commento: prova il commento in thread
@@ -77,10 +77,10 @@ Per modificare un commento con thread in Excel, fare clic su**Modificare**link s
 
 ![cose da fare:immagine_alt_testo](threaded-comments_7.jpg)
 ### **Modifica il commento in discussione utilizzando Aspose.Cells**
-Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). È possibile aggiornare il commento richiesto nel file[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)e salva la cartella di lavoro.
+Aspose.Cells fornisce[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) per recuperare i commenti in thread per la colonna specificata.[Comments.GetThreadedComments](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)accetta il nome della colonna come parametro e restituisce il[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). È possibile aggiornare il commento richiesto nel file[ThreadedCommentCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)e salva la cartella di lavoro.
 
 L'esempio seguente mostra la modifica del primo commento con thread nella colonna A1 caricando il file[file Excel di esempio](ThreadedCommentsSample.xlsx). Si prega di consultare il[file Excel di output](EditThreadedComments.xlsx)generato dal codice che mostra il commento aggiornato per riferimento.
-#### **Codice di esempio**
+#### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "EditThreadedComments-1.java" >}}
 ## **Rimuovi commenti in thread**
 ### **Rimuovi i commenti in thread con Excel**
@@ -91,11 +91,11 @@ Per rimuovere i commenti in thread in Excel, fare clic con il pulsante destro de
 Aspose.Cells fornisce[Commenti.RimuoviAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) per rimuovere i commenti per la colonna specificata.[Commenti.RimuoviAt](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) accetta il nome della colonna come parametro rimuove i commenti in quella colonna.
 
 L'esempio seguente mostra la rimozione dei commenti nella colonna A1 caricando il file[file Excel di esempio](ThreadedCommentsSample.xlsx). Si prega di consultare il[file Excel di output](ThreadedCommentsSample_Out.xlsx)generato dal codice per riferimento.
-#### **Codice di esempio**
+#### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "RemoveThreadedComments-1.java" >}}
 
 {{% alert color="primary" %}} 
 
- Si prega di notare che rimuovendo il commento con Aspose.Cells, l'autore non viene rimosso automaticamente. Se è necessario rimuovere anche l'autore, utilizzare il file[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) come mostrato nell'esempio precedente.
+ Si prega di notare che rimuovendo il commento con Aspose.Cells, l'autore non viene rimosso automaticamente. Se è necessario rimuovere anche l'autore, utilizzare il file[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)come mostrato nell'esempio precedente.
 
 {{% /alert %}}

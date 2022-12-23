@@ -14,7 +14,7 @@ Wir freuen uns, Aspose.Cells for Java v2.1.0 ankündigen zu können!
 
 Was hat sich geändert:
 
-l Neue Funktionen für Open Document Spreadsheet-Datei (ODS) hinzugefügt: Hyperlink, Seiteneinrichtungsoptionen, Gruppengliederung, Bedingte Formatierung, Datenvalidierung, AutoFilter, Seitenumbruch, Titelzeilen/Spalten drucken, Formenbezogene Objekte (Kommentar, Bogen, Schaltfläche, Kontrollkästchen, Kombinationsfeld , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
+l Neue Funktionen für Open Document Spreadsheet-Datei hinzugefügt (ODS): Hyperlink, Seiteneinrichtungsoptionen, Gruppengliederung, Bedingte Formatierung, Datenvalidierung, AutoFilter, Seitenumbruch, PrintTitleRows/Columns, Formenbezogene Objekte (Kommentar, Bogen, Schaltfläche, Kontrollkästchen, Kombinationsfeld , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
 
 l Bereitstellung neuer Funktionen für das Dateiformat MS Excel 2007: Einfügen von Bildern, Hinzufügen von Diagrammen.
 
@@ -28,9 +28,9 @@ l Hyperlink-Funktion berechnen.
 
 l Benutzerdefinierte Namen löschen.
 
-Schließen Sie beim Kopieren von Arbeitsmappen/Arbeitsblättern AutoFilter-Attribute ein.
+l Schließen Sie beim Kopieren von Arbeitsmappen/Arbeitsblättern AutoFilter-Attribute ein.
 
-l Unterstützung für Hyperlinks bei der xls2pdf-Konvertierung.
+Unterstützung für Hyperlinks bei der xls2pdf-Konvertierung.
 
 l Ole-Objekte in der Vorlagendatei extrahieren.
 
@@ -61,7 +61,7 @@ In Aspose.Cells for Java v2.1.0 behobene Probleme
 |9363|XLS|SmartMarker mit horizontaler Fahne:|
 |9364|XLSX|schließt den Ausgabestrom des Benutzers|
 |9404|XLS|Lesevorlagendatei, die von Microsoft Jet Engine erstellt wurde|
-|9264|CSV|Importieren/Exportieren des CSV-Dateiformats|
+|9264|CSV|Importieren/Exportieren des Dateiformats CSV|
 |9265|Xls2Pdf|verbundene Zellen in xls2pdf|
 |9173|XLSX|Style.isCellLocked()-Eigenschaft für das Excel2007-Dateiformat|
 |9174|XLS|Stellen Sie die Bildgröße in Kopfzeile/Fußzeile von PageSetup ein|

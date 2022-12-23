@@ -10,7 +10,7 @@ url: /sv/java/utility-features-in-ruby/
 - [Konvertera Excel-filer till HTML i Ruby](/cells/sv/java/converting-excel-files-to-html-in-ruby/)
 - [Konvertera Excel till PDF-filer i Ruby](/cells/sv/java/converting-excel-to-pdf-files-in-ruby/)
 - [Konvertera HTML-filer till Excel-kalkylblad i Ruby](/cells/sv/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
-- [Konvertera till MHTML-filer i Ruby](/cells/sv/java/converting-to-mhtml-files-in-ruby/)
+- [Konvertera till MHTML filer i Ruby](/cells/sv/java/converting-to-mhtml-files-in-ruby/)
 - [Konvertera arbetsblad till bild i Ruby](/cells/sv/java/converting-worksheet-to-image-in-ruby/)
 - [Konvertera arbetsblad till SVG i Ruby](/cells/sv/java/converting-worksheet-to-svg-in-ruby/)
 - [Kryptera Excel-filer i Ruby](/cells/sv/java/encrypting-excel-files-in-ruby/)

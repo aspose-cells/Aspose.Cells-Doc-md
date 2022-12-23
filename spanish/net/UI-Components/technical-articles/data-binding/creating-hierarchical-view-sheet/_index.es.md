@@ -26,7 +26,7 @@ Por ejemplo, usa ADO.Net API y extrae datos de las tablas de la base de datos. P
 
  objeto basado en algunas tablas y cree una relación entre ellos primero. Utilice los VS.NET**Diseñador de conjuntos de datos** para crear la relación. En
 
- En este ejemplo, hay tres DataTables: Clientes, Pedidos, Detalles del pedido. La hoja muestra toda la información del cliente por defecto. Cuando
+ En este ejemplo, hay tres DataTables: Clientes, Pedidos, Detalles del pedido. La hoja muestra toda la información del cliente por defecto. Cuándo
 
  el usuario expande un cliente, la cuadrícula muestra todos los pedidos que ha realizado el cliente. Cuando el usuario expande un pedido, la grilla muestra los detalles
 
@@ -127,7 +127,7 @@ La clase Asppose.Grid.Web.Data.WebWorksheet tiene algunas propiedades útiles.
  headers muestra los nombres de las columnas enlazadas. toma los valores**verdadero** o**falso**. 
 
 - Las propiedades BindStartRow y BindStartColumn especifican la posición en la hoja del control GridWeb a la que debe vincularse el origen.
-- La propiedad EnableExpandChildView se usa para deshabilitar la vista secundaria expandida para la hoja de cálculo. De forma predeterminada, se establece en verdadero.
+- La propiedad EnableExpandChildView se usa para deshabilitar la vista secundaria expandida para la hoja de trabajo. De forma predeterminada, se establece en verdadero.
 
  La clase también tiene algunos métodos útiles.
 
@@ -261,7 +261,7 @@ Dim ruta como cadena = MapPath(".")
 
  db.OleDbConnection1.ConnectionString = "Proveedor=Microsoft.Jet.OLEDB.4.0;Fuente de datos=" + ruta + "\Base de datos\Northwind.mdb"
 
- Probar
+ Tratar
 
  ' Se conecta a la base de datos y obtiene datos.
 

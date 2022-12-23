@@ -19,15 +19,15 @@ url: /es/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47749|Eliminar macro ods en Workbook.RemoveMacro|Mejora|
 |CELLSNET-47759|Admite la etiqueta h1 al configurar Cell.HtmlString|Mejora|
 |CELLSNET-47771|Falta la hoja de trabajo nueva mc:Ignorable="x14ac xr xr2 xr3"|Mejora|
-|CELLSNET-47758| La conversión del complejo XLSM a HTML lleva mucho tiempo|Actuación|
-|CELLSNET-47578|Se produce un marcado no válido con la etiqueta SPAN de cierre sin abrir al convertir el documento Cells a HTML|Insecto|
+|CELLSNET-47758| El complejo de conversión XLSM a HTML lleva mucho tiempo|Rendimiento|
+|CELLSNET-47578|Se produce un marcado no válido con la etiqueta SPAN de cierre sin abrir al convertir el documento Cells en HTML|Insecto|
 |CELLSNET-47776|DirectoryNotFoundException al intentar abrir HTML|Insecto|
-|CELLSNET-47643|Algunas columnas adicionales en la nueva salida en la representación de Excel a HTML|Insecto|
-|CELLSNET-47688|Algunos TD causarán un error de fuente para la fuente Wingdings en la representación de HTML a PDF|Insecto|
+|CELLSNET-47643|Algunas columnas adicionales en la nueva salida en Excel para la representación HTML|Insecto|
+|CELLSNET-47688|Algunos TD causarán un error de fuente para la fuente Wingdings en la representación HTML a PDF|Insecto|
 |CELLSNET-47690|La conversión de Html a Xlsx no respeta el estilo de la tabla html|Insecto|
 |CELLSNET-47718|Las imágenes están alineadas incorrectamente al importar un archivo a html|Insecto|
 |CELLSNET-47729|Las imágenes superponen el texto al importar html a Excel|Insecto|
-|CELLSNET-47746|Comillas no codificadas en valores de atributos HTML|Insecto|
+|CELLSNET-47746|Comillas no codificadas en valores de HTML atributos|Insecto|
 |CELLSNET-47747|Diferencias al convertir Excel a HTML|Insecto|
 |CELLSNET-47763|El valor de la serie no es correcto después de actualizar los datos dinámicos.|Insecto|
 |CELLSNET-47731|Resultado de ejecución de fórmula PPMT incorrecto|Insecto|
@@ -93,7 +93,7 @@ por favor, mantenga el valor predeterminado.
 ### **Agrega la propiedad LoadOptions.AutoFilter**
 
 Indica si se filtran automáticamente los datos al cargar los archivos.
-A veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
+veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
 
 ### **Agrega la propiedad WorkbookSettings.Author**
 

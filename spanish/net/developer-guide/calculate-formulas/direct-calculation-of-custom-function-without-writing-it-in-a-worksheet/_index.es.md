@@ -16,7 +16,7 @@ Consulte el siguiente código de ejemplo que ilustra el uso de este método. Hem
 
 ### **Salida de consola**
 
-A continuación se muestra la salida de la consola del código de muestra anterior.
+A continuación se muestra la salida de la consola del código de ejemplo anterior.
 
 {{< highlight "java" >}}
 

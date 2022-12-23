@@ -35,16 +35,16 @@ url: /zh/net/aspose-cells-for-net-5-1-2-release-notes/
 |**问题编号** |**零件** |**概括** |
 |:- |:- |:- |
 |18841 |图表2图像|打印区域/图表|
-|19065 | PDF格式|通过 Aspose.Cells 转换为 PDF 收缩文本|
+|19065 | PDF格式|转换为 PDF 到 Aspose.Cells 收缩文本|
 |19024 | PDF格式|生成的 PDF 的外观与 Excel 不同|
-|19170 | PDF格式|SaveAs PDF 问题 - 损坏的 PDF|
+|19170 | PDF格式|SaveAs PDF 问题 - 损坏 PDF|
 |19048 | SpreadML|将 Excel2003XML 转换为 XLSX 时出错|
 |18848 |Xls|结合图表导致绘图区域不匹配|
 |18791 |Xls|4.8.1 版的条件格式问题|
 |19052 |Xls|复制具有命令按钮事件处理程序的 Excel|
 |16800 |Xls|文档变得不可读|
 |19160 |Xls|打开大文件时出错 Aspose.Cells v4.7.1.0|
-|18473 |Xls| Office 2010 检测到此 XLS 文件有问题|
+|18473 |Xls| Office 2010 检测到此 XLS 文件存在问题|
 |19035 |Xls|数据透视表无法查看|
 |19033 |Xls|关于属性 IsStrikeout 的问题|
 |18949 |Xls|Worksheet.Move 方法的不良行为|

@@ -6,7 +6,7 @@ url: /de/net/create-custom-command-buttons/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb enthält spezielle Schaltflächen wie**Einreichen**, **Speichern** und**Rückgängig machen**. Alle diese Schaltflächen führen bestimmte Aufgaben für Aspose.Cells.GridWeb aus.
+ Aspose.Cells.GridWeb enthält spezielle Schaltflächen wie**einreichen**, **Speichern** und**Rückgängig machen**. Alle diese Schaltflächen führen bestimmte Aufgaben für Aspose.Cells.GridWeb aus.
 Es ist auch möglich, benutzerdefinierte Schaltflächen hinzuzufügen, die benutzerdefinierte Aufgaben ausführen. In diesem Thema wird die Verwendung dieser Funktion erläutert.
 
 {{% /alert %}} 

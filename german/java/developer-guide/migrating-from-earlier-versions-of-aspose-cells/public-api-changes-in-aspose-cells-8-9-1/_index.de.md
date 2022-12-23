@@ -103,7 +103,7 @@ Die Aspose.Cells for Java hat auch Mittel bereitgestellt, um Informationen darü
 
 {{% /alert %}} 
 ### **IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider-Eigenschaft hinzugefügt**
-Aspose.Cells for Java 8.9.1 ermöglicht das Abrufen/Setzen des IFilePathProvider zum Exportieren von Arbeitsblättern in separate HTML-Dateien. Diese neuen APIs sind in Szenarien hilfreich, in denen Hyperlinks in einem Arbeitsblatt auf eine Position in einem anderen Arbeitsblatt verweisen, in denen die Anwendungsanforderung darin besteht, jedes Arbeitsblatt in eine separate HTML-Datei zu rendern. Das Implementieren des IFilePathProvider ermöglicht es, die oben erwähnten Hyperlinks intakt zu halten, ungeachtet der Tatsache, dass sie auf einen Ort in einer separaten resultierenden HTML-Datei zeigen.
+Aspose.Cells for Java 8.9.1 ermöglicht das Abrufen/Setzen des IFilePathProvider zum Exportieren von Arbeitsblättern in separate HTML-Dateien. Diese neuen APIs sind in Szenarien hilfreich, in denen Hyperlinks in einem Arbeitsblatt auf eine Position in einem anderen Arbeitsblatt verweisen, in denen die Anwendungsanforderung darin besteht, jedes Arbeitsblatt in eine separate HTML-Datei zu rendern. Die Implementierung des IFilePathProvider ermöglicht es, die oben genannten Hyperlinks intakt zu halten, unabhängig davon, ob sie auf einen Ort in einer separaten resultierenden HTML-Datei verweisen.
 
 Im Folgenden ist das einfache Verwendungsszenario der HtmlSaveOptions.FilePathProvider-Eigenschaft dargestellt.
 
@@ -115,7 +115,7 @@ Im Folgenden ist das einfache Verwendungsszenario der HtmlSaveOptions.FilePathPr
 
 Arbeitsmappenbuch = neue Arbeitsmappe (dir + "sample.xlsx");
 
-//Speichern Sie jedes Arbeitsblatt in einer separaten HTML-Datei
+// Speichern Sie jedes Arbeitsblatt in einer separaten HTML-Datei
 
  für (int i = 0; i< book.getWorksheets().getCount(); i++)
 

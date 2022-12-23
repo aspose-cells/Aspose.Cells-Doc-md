@@ -23,13 +23,13 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.3.
 |CELLSJAVA-44204|pagineringsproblem för csv|
 |CELLSJAVA-43934|Cirkeldiagrametiketterna matchas inte med Excel efter manipulering eller uppdatering av diagram|
 |CELLSJAVA-44122|Vid export av HTML skiljer sig dataetiketterna från Excel|
-|CELLSJAVA-41949| Innehållet återges annorlunda när du sparar arbetsbok i XLSX- och HTML-format|
+|CELLSJAVA-41949| Innehållet renderas annorlunda när du sparar arbetsbok i formaten XLSX och HTML|
 |CELLSJAVA-44207|Vid export till HTML blir radhöjden högre|
 |CELLSJAVA-44233|Oändlig loop vid konvertering av XLSX-fil|
-|CELLSJAVA-44271|När du konverterar Excel till PDF skiftar utdatapositionen jämfört med fallet med manuell konvertering|
-|CELLSJAVA-44197|När du konverterar XLSX till PDF visas inte pivottabellens tidslinjeform (fönster).|
+|CELLSJAVA-44271|Vid konvertering av Excel till PDF skiftar utdatapositionen jämfört med fallet med manuell konvertering|
+|CELLSJAVA-44197|Vid konvertering av XLSX till PDF visas inte pivottabellens tidslinjeform (fönster)|
 |CELLSJAVA-44267|Arbetsbok som innehåller en pivottabell blir skadad|
-|CELLSJAVA-44114|XLSX till PDF: Data i vetenskapligt nummerformat från XLSX-filen matchar inte data i utdata-PDF-filen|
+|CELLSJAVA-44114|XLSX till PDF: Data i vetenskapligt nummerformat från XLSX-filen matchar inte data i utdatafilen PDF|
 |CELLSJAVA-44293|Återsparad Excel-fil måste återställas när den öppnas i MS Excel|
 |CELLSJAVA-43194|Bilderna visas felaktigt|
 |CELLSJAVA-44243|GridWeb spring demo spara fil misslyckades i jdk1.8|
@@ -38,31 +38,31 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.3.
 |CELLSJAVA-44229|Formel går förlorad när td-innehåll lindas med div-tagg|
 |CELLSJAVA-44247|En rad text lindas under konvertering till pdf|
 |CELLSJAVA-44175| problem med överlappande Donut Chart-etiketter|
-|CELLSJAVA-44192| Kategoriaxelns objektnamn i grafen är avskuret i Excel till PDF-konvertering|
+|CELLSJAVA-44192|Kategoriaxelns objektnamn i grafen är avskuret i Excel till PDF konvertering|
 |CELLSJAVA-44233|Oändlig loop vid konvertering av XLSX-fil|
 |CELLSJAVA-44263|Att ställa in riktningen för kartetiketttexten till vertikalt träder inte i kraft|
 |CELLSJAVA-44268| Undantag "java.lang.NullPointerException" på Chart.toPdf-metoden|
 |CELLSJAVA-44302|Textriktningen för koordinataxeln är fel efter att Excel-filen konverterats till HTML|
 |CELLSJAVA-44314|Fel axeletiketter för diagramkategori i diagram till bild-rendering|
-|CELLSJAVA-44274|Stöds SVG-format för läsning eller rendering till PDF|
+|CELLSJAVA-44274|Stöds formatet SVG för läsning eller rendering till PDF|
 |CELLSJAVA-44369| formhöjden är inte korrekt|
 |CELLSJAVA-44366|Att kopiera arkinnehållet till en ny arksida och spara det som html orsakar att Excel-matteformelns stil är onormal|
 |CELLSJAVA-44408|Procentformatet Cell går förlorat när vi utökar de två raderna som vi har ändrat|
-|CELLSJAVA-44341|Cell bredd är inte korrekt i utdata DOCX i Excel till DOCX konvertering|
+|CELLSJAVA-44341|Cell bredd är inte korrekt i utgången DOCX i Excel till DOCX konvertering|
 |CELLSJAVA-44383|Villkorlig formatering slutade fungera efter att ha lagt till anpassade egenskaper|
 |CELLSJAVA-44370|Excel-filen blir korrupt när den öppnas och sparas med Aspose.Cells|
-|CELLSJAVA-44344| Problem med horisontell kopiering av intervall i utgången XLSX|
+|CELLSJAVA-44344|Problem med horisontell kopiering av intervall i utgången XLSX|
 |CELLSJAVA-44363| radhuvudets höjd matchar inte radinnehållet i filen med freezepan|
 |CELLSJAVA-44349|bild/form ska behållas efter omstart av servern för GridWeb|
 |CELLSJAVA-44367|Färgen på kolumndiagrammet blir vit vid konvertering till html|
-|CELLSJAVA-44328| Vissa dataetiketter för Excel-diagram går förlorade när Excel-fil sparas som HTML|
-|CELLSJAVA-44193|Vinkeln för kategoriaxelobjekt i grafen är annorlunda i Excel till PDF-konvertering|
+|CELLSJAVA-44328| Vissa dataetiketter för Excel-diagram går förlorade när du sparar Excel-fil som HTML|
+|CELLSJAVA-44193|Vinkeln för kategoriaxelobjekt i grafen skiljer sig i Excel till PDF-konvertering|
 |CELLSJAVA-44314|Fel axeletiketter för diagramkategori i diagram till bild-rendering|
 |CELLSJAVA-44332|Cell länk understrykning kan inte ta bort när du konverterar xlsx till html|
 |CELLSJAVA-44234|Fel på minnet för filen data.xls|
 |CELLSJAVA-44246|Undantag "Invalid endrow index" för tom fil|
 |CELLSJAVA-44258| Null pekare undantag för fil|
-|CELLSJAVA-44311|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering till HTML-filformat|
+|CELLSJAVA-44311|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering till HTML filformat|
 |CELLSJAVA-44285|Undantag "java.lang.ClassCastException: com.aspose.cells.n2f kan inte castas till com.aspose.cells.o90" när Workbook.calculateFormula() anropas|
 |CELLSJAVA-44323|Undantag när signaturrad läggs till|
 |CELLSJAVA-44361|CellsException höjdes när xlsx konverterades till html|
@@ -77,7 +77,7 @@ I gamla versioner tar vi inte bort den externa länken vars url innehåller "Add
 
 ### **Ändrar beteende för Cell. Typ för ogiltigt datum och tid.**
 
-I gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
+gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
 
 ### **Ändrar beteende för Cells.MaxDisplayRange.**
 
@@ -89,7 +89,7 @@ gamla versioner? DataSorter.Sort() metoder returnerar ingenting. Från denna ver
 
 ### **Lägger till egenskapen TxtLoadOptions.ExtendToNextSheet.**
 
-Stöder import av CSV/TSV-data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
+Stöder import av CSV/TSV data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
 
 ### **Lägger till metoden ExternalLinkCollection.Clear().**
 

@@ -6,7 +6,7 @@ url: /it/net/set-default-font-while-rendering-spreadsheet-to-images/
 ---
 {{% alert color="primary" %}}
 
- Si prega di utilizzare il[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) proprietà per impostare il carattere predefinito durante il rendering dei fogli di calcolo nelle immagini. Questa proprietà sarà efficace solo quando il carattere predefinito della cartella di lavoro non è in grado di eseguire il rendering dei caratteri. Il carattere predefinito specificato con[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)property viene utilizzata per tutte quelle celle che hanno font non validi o inesistenti.
+ Si prega di utilizzare il[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) proprietà per impostare il carattere predefinito durante il rendering dei fogli di calcolo nelle immagini. Questa proprietà sarà efficace solo quando il carattere predefinito della cartella di lavoro non è in grado di eseguire il rendering dei caratteri. Il carattere predefinito specificato con[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont) property viene utilizzata per tutte quelle celle che hanno font non validi o inesistenti.
 
 {{% /alert %}}
 
@@ -22,6 +22,6 @@ Il seguente codice di esempio crea una cartella di lavoro, aggiunge del testo ne
 
 ![cose da fare:immagine_alt_testo](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
-## Codice di esempio
+## Codice d'esempio
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-SetDefaultFontWhileRenderingSpreadsheet-1.cs" >}}

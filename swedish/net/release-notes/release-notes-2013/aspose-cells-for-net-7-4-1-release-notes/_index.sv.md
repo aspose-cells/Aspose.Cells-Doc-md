@@ -36,7 +36,7 @@ url: /sv/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 - Problem med att uppdatera pivottabellen
 
- 41411 - Spara XLSX till HTML - formateringsfel
+41411 - Spara XLSX till HTML - formateringsfel
 
  41406 - DATEDIF formel/funktionsproblem
 
@@ -48,7 +48,7 @@ url: /sv/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41427 - Excel laddar inte färdigt - Excel 2013-fil
 
-41400 - Ändringar av arbetsbladsvärde/inmatning vid Spara
+ 41400 - Ändringar av arbetsbladsvärde/inmatning vid Spara
 
 2 
 

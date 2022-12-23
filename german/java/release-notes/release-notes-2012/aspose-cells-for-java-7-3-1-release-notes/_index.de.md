@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Wir sind
-freut sich, Aspose.Cells for Java v7.3.1 für die Benutzer anzukündigen!
+ freut sich, Aspose.Cells for Java v7.3.1 für die Benutzer anzukündigen!
 
  Neue Eigenschaften
 
@@ -37,40 +37,40 @@ Jetzt haben wir diese neuen Funktionen/Verbesserungen in die Version Java integr
 
  Verbesserungen
 
--Temporäre Schriftdateien werden beim Speichern als PDF mehr als einmal erstellt
+ - Temporäre Schriftartdateien werden beim Speichern unter PDF mehr als einmal erstellt
 
  -Datum in Kopf-/Fußzeile wurde nicht entsprechend den Gebietsschemaeinstellungen der Arbeitsmappe formatiert
 
 - Neue Option unterstützen: Aspose.Cells.Disable=SunFontManager statt java.awt.headless für JVM-Absturz von Open JDK
 
- -Auto-Formen für HTML-Datei exportieren
+ - Exportieren Sie automatische Formen für die Datei HTML
 
  Ausnahmen
 
-- Ausnahme: „Shape to Image Error“ beim Speichern als PDF
+- Ausnahme: „Shape to Image Error“ beim Speichern unter PDF
 
- - Form zu Bild Problem beim Speichern als PDF
+ -Shape-to-Image-Problem beim Speichern unter PDF
 
 - „NullPointerException“ für die Methode Chart.calculate()
 
- -Das Speichern von XLS als PDF verursachte eine Ausnahme
+ - Das Speichern von XLS als PDF verursachte eine Ausnahme
 
- -Das Speichern von XLS als PDF verursachte eine Exception II
+ - Das Speichern von XLS als PDF verursachte eine Ausnahme II
 
  Fehler
 
  -Überlappender Text und fehlende Gitterlinien zum Speichern von PDF
 
- - Beim erneuten Speichern wurden zusätzliche Ränder angezeigt
+ Beim erneuten Speichern wurden zusätzliche Ränder angezeigt
 
  Vorlagendatei als XLS-Datei
 
  -Lesen von Namen mit Referenz "!$A$1" verursachte eine Ausnahme
 
- -PDF-Generierung ist bei bestimmten Diagrammdaten fehlgeschlagen
+ -PDF Generierung mit bestimmten Diagrammdaten fehlgeschlagen
 
  -Formeln sind nach dem Einfügen des Bereichs falsch
 
- -Das generierte PDF aus der Excel-Arbeitsmappe hatte mehr Seiten
+ -Die generierte PDF aus der Excel-Arbeitsmappe hatte mehr Seiten
 
--Diagrammbeschriftungen wurden falsch ausgerichtet und überlappten sich beim Bewältigen des Arbeitsblatts
+ -Diagrammbeschriftungen wurden falsch ausgerichtet und überlappten sich beim Bewältigen des Arbeitsblatts

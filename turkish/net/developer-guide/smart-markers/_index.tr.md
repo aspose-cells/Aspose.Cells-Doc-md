@@ -6,7 +6,7 @@ weight: 190
 url: /tr/net/using-smart-markers/
 description: Aspose.Cells kitaplığı ile şablon Excel dosyalarına göre verileri akıllıca içe aktarın ve yerleştirin.
 ---
-## **giriiş**
+## **Giriş**
 **akıllı işaretçiler**Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.
 ## **Tasarımcı Elektronik Tablosu ve Akıllı İşaretleyiciler**
 Tasarımcı elektronik tabloları, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bir projeden gelen bilgiler ve ilgili ilgili kişiler için bilgiler gibi bir veya daha fazla veri kaynağına başvuran akıllı işaretçiler içerebilirler. Akıllı işaretçiler, bilgiyi istediğiniz hücrelere yazılır.
@@ -41,7 +41,7 @@ Aşağıdaki ekran görüntüleri, her bir satıra nasıl veri ekleneceğini gö
 
 |**Şablon Dosyası**|**Çıktı dosyası**|
 |:- |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_1.jpg)|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_2.jpg)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_1.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_2.jpg)|
 ### **Dinamik Formüller**
 Dinamik formüller, formül dışa aktarma işlemi sırasında eklenecek satırlara başvursa bile Excel formüllerini hücrelere eklemenize olanak tanır. Dinamik formüller, eklenen her satır için yinelenebilir veya yalnızca veri işaretçisinin yerleştirildiği hücreyi kullanabilir.
 
@@ -72,7 +72,7 @@ Aşağıdaki ekran görüntüleri, yinelenen bir dinamik formülü ve sonuçta o
 
 |**Şablon Dosyası**|**Çıktı dosyası**|
 |:- |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_4.jpg)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_4.jpg)|
  Cell "C1" formülü içerir**= A1*B1** , "C2" hücresi şunları içerir:**= A2*B2** ve "C3" hücresi şunları içerir:**= A3*B3**.
 
 Akıllı işaretleyicileri işlemek çok kolaydır. Aşağıda, nasıl yapıldığını gösteren, biri C#'de ve diğeri VB'de olmak üzere iki kod parçacığı bulunmaktadır.
@@ -96,7 +96,7 @@ Aşağıda, verileri gruplandırmak için kullanılan akıllı işaretçi parame
 Aralarından seçim yapabileceğiniz üç tür grubu destekliyoruz.
 
 - **normal** - Alan(lar)a göre grup değeri, sütundaki karşılık gelen kayıtlar için tekrarlanmaz; bunun yerine veri grubu başına bir kez yazdırılırlar.
-- **birleştirmek** - Her grup kümesi için alan(lar)a göre gruptaki hücreleri birleştirme dışında normal parametre ile aynı davranış.
+- **birleştirmek** - Her grup kümesi için alan(lar)a göre gruptaki hücreleri birleştirme dışında normal parametreyle aynı davranış.
 - **tekrar et** - Alan(lar)a göre grup değeri ilgili kayıtlar için tekrarlanır.
 
 Örneğin: &=Customers.CustomerID(group:merge)
@@ -125,7 +125,7 @@ Tasarımcı dosyasında iki çalışma sayfası vardır. İlkinde, aşağıdaki 
 
 |**SmartMarker_Designer.xls dosyasındaki akıllı işaretleyicilerle tamamlanmış ilk çalışma sayfası**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_5.png)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_5.png)|
 Tasarımcı dosyasının ikinci çalışma sayfasında, aşağıdaki şekilde gösterildiği gibi bazı daha akıllı işaretçiler koyduk. Aşağıdaki akıllı işaretleri yerleştiriyoruz:
 &=[Sipariş Ayrıntıları].SiparişKimliği(grup:normal),
 &=[Sipariş Ayrıntıları].Miktar,
@@ -135,7 +135,7 @@ Tasarımcı dosyasının ikinci çalışma sayfasında, aşağıdaki şekilde g�
 
 |**SmartMarker_Designer.xls dosyasının, karışık akıllı işaretçileri gösteren ikinci çalışma sayfası.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_6.png)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_6.png)|
 İşte örnekte kullanılan kaynak kodu.
 
 
@@ -174,7 +174,7 @@ Aspose.Cells, akıllı işaretleyicilerdeki iç içe nesneleri destekler, iç i�
 
 |**İç içe akıllı işaretçileri gösteren SM_NestedObjects.xlsx dosyasının ilk çalışma sayfası.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_7.png)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_7.png)|
 Aşağıdaki örnek bunun nasıl çalıştığını göstermektedir.
 
 
@@ -183,7 +183,7 @@ Aşağıdaki örnek bunun nasıl çalıştığını göstermektedir.
 ## **Genel Listeyi İç İçe Nesne Olarak Kullanma**
 Aspose.Cells artık genel listenin iç içe geçmiş bir nesne olarak kullanılmasını da destekliyor. Lütfen aşağıdaki kodla oluşturulan çıktı excel dosyasının ekran görüntüsünü kontrol edin. Ekran görüntüsünde görebileceğiniz gibi, bir Öğretmen nesnesi birden çok iç içe Öğrenci nesnesi içerir.
 
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_8.png)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_8.png)|
 |:- |
 
 
@@ -191,7 +191,7 @@ Aspose.Cells artık genel listenin iç içe geçmiş bir nesne olarak kullanılm
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **Akıllı İşaretleyicilerin HTML özelliğini kullanma**
- Aşağıdaki örnek kod, Akıllı İşaretleyicilerin HTML özelliğinin kullanımını açıklamaktadır. İşleme gireceği zaman HTML nedeniyle "Hello World" içinde "World" yazısını kalın olarak gösterecektir.<b>etiket.
+ Aşağıdaki örnek kod, Akıllı İşaretleyicilerin HTML özelliğinin kullanımını açıklar. İşleme gireceği zaman HTML nedeniyle "Hello World" de "World" yazacaktır.<b> etiket.
 
 
 
@@ -201,7 +201,7 @@ Aspose.Cells artık genel listenin iç içe geçmiş bir nesne olarak kullanılm
  Mevcut varsayılan işleme yöntemi, smartmaker'ı satır satır işlemektir. Ancak bazen aynı veri tablosunun akıllı işaretleyicilerinin birlikte işlenmesi gerekir.
 aynı satırda olsalar da olmasalar da, "_CellsSmartMarkers" adlı bir aralık belirtmeniz ve işlemeyi çağırmadan önce WorkbookDesigner.LineByLine'ı false olarak belirtmeniz gerekir.
 
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_11.png)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_11.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
 

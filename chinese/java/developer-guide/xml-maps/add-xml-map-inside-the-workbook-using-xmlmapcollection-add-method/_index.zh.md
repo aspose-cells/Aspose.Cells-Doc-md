@@ -12,7 +12,7 @@ Aspose.Cells提供[**XmlMapCollection.Add()**](https://reference.aspose.com/cell
 
 以下示例代码使用[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) 方法并将其另存为[输出excel文件](5472533.xlsx).屏幕截图显示了从[示例.xml](5472532.xml)在输出 excel 文件中。
 
-![待办事项：图像_替代_文本](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+![待办事项：图片_替代_文本](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **示例代码**
 

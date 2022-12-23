@@ -13,9 +13,9 @@ Dans un fichier Excel Microsoft, vous pouvez créer un plan pour les données af
 
 ![tâche : image_autre_texte](grouping-and-ungrouping-rows-and-columns_1.png)
 ## **Gestion de groupe de lignes et de colonnes**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[Des feuilles de calcul](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection qui représente toutes les cellules de la feuille de calcul.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[Feuilles de travail](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection qui représente toutes les cellules de la feuille de calcul.
 
- La[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul, quelques-unes d'entre elles sont décrites ci-dessous plus en détail.
+ Le[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul, quelques-unes d'entre elles sont décrites ci-dessous plus en détail.
 ### **Regroupement de lignes et de colonnes**
  Il est possible de grouper des lignes ou des colonnes en appelant le[groupeRows](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupRows\(int,%20int,%20boolean\) ) et[groupeColonnes](https://reference.aspose.com/cells/java/com.aspose.cells/cells#groupColumns\(int,%20int,%20boolean\) ) les méthodes de[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)le recueil. Les deux méthodes prennent les paramètres suivants :
 
@@ -38,13 +38,13 @@ Microsoft Excel permet également de configurer les paramètres de groupe pour a
 
 Il est possible de configurer ces paramètres de groupe à l'aide de la propriété Outline de la classe Worksheet.
 ### **Lignes récapitulatives sous les détails**
- Les développeurs peuvent contrôler l'affichage des lignes récapitulatives sous les détails à l'aide de l'outil[Présenter](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) classer'[SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) méthode.
+ Les développeurs peuvent contrôler l'affichage des lignes récapitulatives sous les détails à l'aide de l'outil[Contour](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) classe'[SummaryRowBelow](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) méthode.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-SummaryRowBelow-1.java" >}}
 ### **Colonnes récapitulatives à droite du détail**
-Il est possible de contrôler si les colonnes récapitulatives sont affichées à droite des détails avec la[Présenter](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) classer'[RésuméColonneDroite](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight)méthode.
+Il est possible de contrôler si les colonnes récapitulatives sont affichées à droite des détails avec la[Contour](https://reference.aspose.com/cells/java/com.aspose.cells/Outline) classe'[RésuméColonneDroite](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryColumnRight)méthode.
 
 
 

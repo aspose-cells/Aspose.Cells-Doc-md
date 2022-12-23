@@ -6,7 +6,7 @@ url: /it/java/conditional-formatting/
 ---
 {{% alert color="primary" %}} 
 
- La formattazione condizionale è una funzionalità avanzata di Microsoft Excel che consente di applicare formati a una cella o a un intervallo di celle e modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, è possibile visualizzare una cella in grassetto solo quando il valore della cella è maggiore di 500. Quando il valore della cella soddisfa la condizione, alla cella viene applicato il formato specificato. Se il valore della cella non soddisfa la condizione, viene utilizzata la formattazione predefinita. In Microsoft Excel selezionare**Formato** , poi**Formattazione condizionale** per aprire la finestra di dialogo Formattazione condizionale.
+ La formattazione condizionale è una funzionalità avanzata di Excel Microsoft che consente di applicare formati a una cella o a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, è possibile visualizzare una cella in grassetto solo quando il valore della cella è maggiore di 500. Quando il valore della cella soddisfa la condizione, alla cella viene applicato il formato specificato. Se il valore della cella non soddisfa la condizione, viene utilizzata la formattazione predefinita. In Microsoft Excel, selezionare**Formato** , poi**Formattazione condizionale** per aprire la finestra di dialogo Formattazione condizionale.
 
 **Formattazione condizionale in Microsoft Excel** 
 
@@ -21,7 +21,7 @@ Aspose.Cells supporta la formattazione condizionale in due modi:
 - [Utilizzando un foglio di calcolo per designer](/cells/it/java/conditional-formatting/).
 - [Creazione di formattazione condizionale in fase di esecuzione](/cells/it/java/conditional-formatting/).
 ### **Utilizzo del foglio di calcolo del progettista**
-Gli sviluppatori possono creare un foglio di calcolo del designer che contiene la formattazione condizionale in Microsoft Excel e quindi aprire il foglio di calcolo con Aspose.Cells. Aspose.Cells carica e salva il foglio di calcolo del designer, mantenendo qualsiasi impostazione di formattazione condizionale. Per saperne di più sui fogli di lavoro per designer, leggi[Che cos'è un foglio di calcolo per designer](/cells/it/java/what-is-a-designer-spreadsheet/).
+Gli sviluppatori possono creare un foglio di lavoro di progettazione che contiene la formattazione condizionale in Microsoft Excel e quindi aprire tale foglio di lavoro con Aspose.Cells. Aspose.Cells carica e salva il foglio di lavoro di progettazione, mantenendo qualsiasi impostazione di formattazione condizionale. Per saperne di più sui fogli di lavoro per designer, leggi[Che cos'è un foglio di calcolo per designer](/cells/it/java/what-is-a-designer-spreadsheet/).
 ## **Applicazione della formattazione condizionale in fase di esecuzione**
 Aspose.Cells supporta l'applicazione della formattazione condizionale in fase di esecuzione.
 

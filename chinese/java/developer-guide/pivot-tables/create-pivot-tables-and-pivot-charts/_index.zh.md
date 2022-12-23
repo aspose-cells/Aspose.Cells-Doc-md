@@ -12,7 +12,7 @@ keywords: excel create pivot table java, excel create pivot chart java, excel cr
 
 数据透视图是数据透视表中数据的交互式图形表示。数据透视图是在 Excel 2000 中引入的。使用数据透视图可以更轻松地理解数据，因为数据透视表会自动创建小计和总计。
 
- Aspose.Cells 支持[数据透视表](/cells/zh/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table)和[数据透视表](/cells/zh/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
+ Aspose.Cells 支持[数据透视表](/cells/zh/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table)和[数据透视图](/cells/zh/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
 
 {{% /alert %}}
 
@@ -61,11 +61,11 @@ Aspose.Cells 提供了一组用于创建数据透视表的特殊类。这些类�
 
 **输入数据** 
 
-![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_1.png)
+![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_1.png)
 
 **输出数据透视表**
 
-![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_2.png)
+![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotTable-CreatePivotTable.java" >}}
 
@@ -81,7 +81,7 @@ Aspose.Cells 提供了一组用于创建数据透视表的特殊类。这些类�
 
 **枢轴图表表**
 
-![待办事项：图像_替代_文本](create-pivot-tables-and-pivot-charts_3.png)
+![待办事项：图片_替代_文本](create-pivot-tables-and-pivot-charts_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreatePivotChartbasedonPivotTable-CreatePivotChartbasedonPivotTable.java" >}}
 

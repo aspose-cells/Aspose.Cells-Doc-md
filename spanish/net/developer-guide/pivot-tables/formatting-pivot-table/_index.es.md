@@ -14,13 +14,13 @@ Cómo crear una tabla dinámica explica cómo crear una tabla dinámica simple. 
 
 ### **Configuración de opciones de formato de tabla dinámica**
 
- los[**Tabla dinámica**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)La clase controla la tabla dinámica general y se puede formatear de varias maneras.
+ Él[**Tabla dinámica**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)La clase controla la tabla dinámica general y se puede formatear de varias maneras.
 
 #### **Configuración del tipo de formato automático**
 
 Microsoft Excel ofrece varios formatos de informe preestablecidos diferentes. Aspose.Cells también admite estas opciones de formato. Para acceder a ellos:
 
-1.  Establecer[**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) a**verdadero**.
+1.  Colocar[**PivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) a**verdadero**.
 1.  Asigne una opción de formato de la[**Tipo de formato automático de tabla dinámica**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)enumeración.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}
@@ -39,7 +39,7 @@ El ejemplo de código a continuación muestra cómo formatear la tabla dinámica
 
 ### **Configuración de opciones de formato de campo pivote**
 
- los[**campo pivote**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)class representa un campo en una tabla dinámica y se puede formatear de varias maneras. El ejemplo de código a continuación muestra cómo:
+ Él[**campo pivote**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)class representa un campo en una tabla dinámica y se puede formatear de varias maneras. El ejemplo de código a continuación muestra cómo:
 
 - Acceder a campos de fila.
 - Configuración de subtotales.
@@ -58,7 +58,7 @@ El ejemplo de código a continuación muestra cómo configurar los formatos de v
 
 ### **Borrado de campos pivote**
 
- los[**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) tiene un método llamado[**Claro()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)que le permite borrar campos pivote. Úselo cuando desee borrar todos los campos dinámicos en las áreas, por ejemplo, página, columna, fila o datos.
+ Él[**PivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) tiene un método llamado[**Claro()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)que le permite borrar campos pivote. Úselo cuando desee borrar todos los campos dinámicos en las áreas, por ejemplo, página, columna, fila o datos.
 El ejemplo de código a continuación muestra cómo borrar todos los campos dinámicos en un área de datos.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}

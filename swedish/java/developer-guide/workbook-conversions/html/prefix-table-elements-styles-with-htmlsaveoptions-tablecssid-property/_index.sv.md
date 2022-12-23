@@ -22,13 +22,13 @@ etc.
 
 {{< /highlight >}}
 
- Följande skärmdump visar effekten av att använda[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)egenskap på utdata HTML.
+ Följande skärmdump visar effekten av att använda[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)fastighet på utgång HTML.
 
 ![todo:image_alt_text](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **Prefix tabellelementstilar med egenskapen HtmlSaveOptions.TableCssId**
 
-Följande exempelkod förklarar hur du använder[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)fast egendom. Vänligen kontrollera[mata ut HTML](60489791.zip)genereras av koden för en referens.
+Följande exempelkod förklarar hur du använder[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#TableCssId)fast egendom. Vänligen kontrollera[utgång HTML](60489791.zip)genereras av koden för en referens.
 
 ## **Exempelkod**
 

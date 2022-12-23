@@ -22,7 +22,7 @@ Bugün piyasada elektronik tablo yönetimi için gerçekten zengin özelliklere 
 
 Aspose.Cells for Java, Java uygulamalarının sistemde (istemci veya sunucu) Microsoft Excel yüklü olmadan Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Diğer satıcıların benzer ürünlerinin aksine, Aspose.Cells for Java yalnızca elektronik tablo oluşturma ve temel dosya biçimlendirme özelliklerini değil, aynı zamanda bir dizi gelişmiş özelliği de destekler. Bu gelişmiş özellikler, geliştiricilerin elektronik tablo içeriklerini, hücre biçimlendirmesini ve dosya koruma seçeneklerini değiştirmesini kolaylaştırır.
 
-Aspose.Cells for Java ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarabilir, ortak ve karmaşık matematik, tarih/saat, finans, metin formülleri ve işlevleri ekleyebilir, resimleri içe aktarabilir (BMP, GIF, JPG, PNG, WMF, EMF dahil tüm ana biçimler desteklenir) ve daha fazlası), yorumlar oluşturun, çizim nesneleri ve kontrolleri oluşturun ve bir dizi başka görevi gerçekleştirin.
+Aspose.Cells for Java ayrıca farklı veri kaynaklarından elektronik tablolara veri aktarabilir, ortak ve karmaşık matematik, tarih/saat, finans, metin formülleri ve işlevleri ekleyebilir, resimleri içe aktarabilir (BMP, GIF, JPG, PNG, WMF, EMF dahil olmak üzere tüm ana biçimler desteklenir) ve daha fazlası), yorumlar oluşturun, çizim nesneleri ve kontrolleri oluşturun ve bir dizi başka görevi gerçekleştirin.
 
 Aspose.Cells for Java ayrıca eklentileri, VBA'yı ve makroları destekler.
 
@@ -66,7 +66,7 @@ Yazma sırasında, sınırlı bir dizi özelliğe sahiptir. Şunları destekler:
 
 #### **Sınırlı Grafik Desteği**
 
-JExcelApi grafikler için sınırlı desteğe sahiptir: Grafikler oluşturmayı ve değiştirmeyi desteklemez. Grafik içeren bir elektronik tabloyu kopyalarken, grafik oluşturulan elektronik tabloya yazılır (grafiği içeren sayfa grafiğin yanı sıra başka veriler de içerdiği sürece). Excel dosyaları kopyalanırken tüm görüntü bilgileri korunur, ancak bir elektronik tabloya görüntü eklerken yalnızca PNG formatındaki görüntüler desteklenir.
+JExcelApi grafikler için sınırlı desteğe sahiptir: Grafikler oluşturmayı ve değiştirmeyi desteklemez. Grafik içeren bir elektronik tabloyu kopyalarken, grafik oluşturulan elektronik tabloya yazılır (grafiği içeren sayfa grafiğin yanı sıra başka veriler de içerdiği sürece). Excel dosyaları kopyalanırken tüm görüntü bilgileri korunur, ancak bir elektronik tabloya görüntü eklerken yalnızca PNG biçimindeki görüntüler desteklenir.
 
 #### **Çalışma Sayfaları Kopyalanamıyor**
 
@@ -84,7 +84,7 @@ Ayrıca birkaç engel daha vardır: API, pivot tabloları ve açılır listeleri
 
 ### **POI-HSSF**
 
-HSSF, Excel elektronik tablolarını okuyan ve yazan POI bileşenidir. Yerel Microsoft Excel dosyasını okuma ve yazma (Excel97-2003 - XLSX OOXML dosya formatı henüz desteklenmiyor), hücreleri formatlama (sayı formatları, yazı tipleri, renkler, kenarlıklar, hizalamalar vb.) , hücreleri birleştirme, sayfa kurulum seçenekleri, görüntüleri, şekilleri, adlandırılmış aralıkları içe aktarma, yorumlar, üst bilgiler ve alt bilgiler, köprüler, satırları ve sütunları otomatik sığdırma vb.
+HSSF, Excel elektronik tablolarını okuyan ve yazan POI bileşenidir. Yerel Microsoft Excel dosyasını okuma ve yazma (Excel97-2003 - XLSX OOXML dosya biçimi henüz desteklenmiyor), hücreleri biçimlendirme (sayı biçimleri, yazı tipleri, renkler, kenarlıklar, hizalamalar vb.) dahil olmak üzere JExcelAPI'ye kıyasla genişletilmiş bir dizi özelliğe sahiptir. , hücreleri birleştirme, sayfa kurulum seçenekleri, görüntüleri, şekilleri, adlandırılmış aralıkları içe aktarma, yorumlar, üst bilgiler ve alt bilgiler, köprüler, satırları ve sütunları otomatik sığdırma vb.
 
 #### **Sınırlı Grafik Desteği**
 
@@ -105,7 +105,7 @@ Aşağıdaki tablo, Aspose.Cells for Java'in açık kaynak bileşenleriyle (yuka
 |**Özellik** |**JExcel API'si** |**POI'ler HSSF** |**Aspose.Cells for Java** |
 |:- |:- |:- |:- |
 |**Dosya formatları**||||
-| Dosya biçimlerini okuyun ve yazın (XLS, XLT, XLSX, CSV, SpreadsheetML, Sekmeyle Ayrılmış, TXT, XML ve HTML)| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
+| Dosya biçimlerini okuma ve yazma (XLS, XLT, XLSX, CSV, SpreadsheetML, Sekmeyle Ayrılmış, TXT, XML ve HTML)| Kısmen Desteklenir| Kısmen Desteklenir| desteklenen|
 | Dosyayı açın ve bir akışa kaydedin||| desteklenen|
 | Excel dosyasını PDF belgesine dönüştürün||| desteklenen|
 | Parola korumalı dosyalar|| desteklenen| desteklenen|

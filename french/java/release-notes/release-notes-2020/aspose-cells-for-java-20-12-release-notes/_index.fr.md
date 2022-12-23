@@ -10,25 +10,25 @@ url: /fr/java/aspose-cells-for-java-20-12-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43367|Prend en charge le calcul de la fonction ISFORMULA|
-|CELLSJAVA-43338|Différence de sortie lors de la conversion d'un fichier Excel en PDF|
+|CELLSJAVA-43338|Différence de sortie lors de la conversion du fichier Excel en PDF|
 |CELLSJAVA-43346|Le fichier de sortie est corrompu lors de l'ajout de plus de 12 champs dans les filtres de page du tableau croisé dynamique|
 |CELLSJAVA-43351|La couleur d'arrière-plan du tableau d'en-tête n'est pas correcte lors de la conversion en pdf|
-|CELLSJAVA-43358|Le texte est manquant lors de la conversion HTML vers Excel|
+|CELLSJAVA-43358|Le texte est manquant lors de la conversion de HTML en Excel|
 |CELLSJAVA-43341|Colonnes vides supplémentaires lors de l'exportation de CSV avec LightCellsDataProvider|
 |CELLSJAVA-43352|Le fichier Excel converti en PDF produit un problème de grands nombres|
 |CELLSJAVA-43339|L'image est mal placée lors de la conversion du fichier source en pdf|
-|CELLSJAVA-43340|Contenu manquant dans la conversion XLS en PDF|
+|CELLSJAVA-43340|Contenu manquant dans la conversion XLS à PDF|
 |CELLSJAVA-43336| Les entrées de la légende du graphique sont rendues trop à gauche|
 |CELLSJAVA-43356|Les valeurs vides/écarts sur un graphique ne sont pas respectés lorsqu'ils sont entre 2 valeurs|
 |CELLSJAVA-43344|Le nom d'utilisateur actuel est affiché en tant qu'auteur du dernier commentaire|
-|CELLSJAVA-43349|Les lignes masquées ne sont pas conservées à partir de la conversion XML vers XLS/XLSX|
+|CELLSJAVA-43349|Les lignes masquées ne sont pas conservées de la conversion XML à XLS/XLSX|
 |CELLSJAVA-43361|Couleur de cellule incorrecte lors de la conversion de xls en xlsx|
 |CELLSJAVA-43366|La propriété SetAsTotal ne se met pas à jour|
-|CELLSJAVA-43348|Conversion XLSB en PDF : CellsException : -2147483648|
-|CELLSJAVA-43343|Exception lors de l'exportation d'un fichier au format PDF qui n'a pas d'élément sélectionné pour une forme|
+|CELLSJAVA-43348|Conversion de XLSB à PDF : CellsException : -2147483648|
+|CELLSJAVA-43343| Exception lors de l'exportation d'un fichier vers PDF qui n'a pas d'élément sélectionné pour une forme|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

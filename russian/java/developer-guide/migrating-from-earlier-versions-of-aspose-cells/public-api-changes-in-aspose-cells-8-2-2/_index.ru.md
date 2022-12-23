@@ -36,7 +36,7 @@ System.out.println(properties.getVersion());
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/java/get-worksheet-of-the-chart/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей[Получить рабочий лист диаграммы](/cells/ru/java/get-worksheet-of-the-chart/) для дополнительной информации.
 
 {{% /alert %}} 
 

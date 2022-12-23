@@ -12,12 +12,12 @@ Diese Seite fasst die Funktionen von Aspose.Cells for Python via Java zusammen.
 
 {{% /alert %}} 
 ## **Dateiformate und Konvertierungen**
-- XLS, SpreadsheetML (XLSX, XML), Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tabulatorgetrennt, Plain Text (TXT)
+- XLS, SpreadsheetML (XLSX, XML), Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tabulatorgetrennt, Nur-Text (TXT)
 ## **Rendern und Drucken**
 - Tabellenkalkulation in Vektorgrafiken rendern (EMF)
-- Rendern Sie Arbeitsblätter in Rasterbilder (Multipage TIFF, GIF)
-- Rendern Sie Arbeitsblätter in Rasterbilder (PNG, JPEG usw.)
-- Rendern Sie Tabellenkalkulationen mit hoher Wiedergabetreue in PDF
+- Arbeitsblätter in Rasterbilder rendern (Multipage TIFF, GIF)
+- Arbeitsblätter in Rasterbilder rendern (PNG, JPEG usw.)
+- Rendern Sie die Tabelle mit hoher Wiedergabetreue auf PDF
 ## **Inhaltsfunktionen für Tabellenkalkulationen**
 - Kopieren oder verschieben Sie Arbeitsblätter innerhalb oder zwischen Arbeitsmappen
 - Fügen Sie Bilder ein, erstellen Sie herkömmliche und benutzerdefinierte Diagramme und legen Sie mit API einen Verlaufshintergrund für Diagramme fest

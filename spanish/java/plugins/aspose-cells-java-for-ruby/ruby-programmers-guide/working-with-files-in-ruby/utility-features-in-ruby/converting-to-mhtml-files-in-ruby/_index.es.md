@@ -1,11 +1,11 @@
 ﻿---
-title: Convertir a archivos MHTML en Ruby
+title: Conversión a archivos MHTML en Ruby
 type: docs
 weight: 50
 url: /es/java/converting-to-mhtml-files-in-ruby/
 ---
 ## **Aspose.Cells - Conversión a archivos MHTML**
-Para convertir la hoja de trabajo a un archivo MHTML usando Aspose.Cells for Java en Ruby, simplemente invoque la hoja de trabajo_a_Método mhtml() del módulo Converter.
+Para convertir la hoja de trabajo al archivo MHTML usando Aspose.Cells for Java en Ruby, simplemente invoque la hoja de trabajo_a_Método mhtml() del módulo Converter.
 
 **código rubí**
 

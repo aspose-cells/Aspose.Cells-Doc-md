@@ -17,8 +17,8 @@ url: /zh/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|数据过滤器和分页功能所需的增强功能 - Aspose.Cells.GridWeb (Java)|强化|
 |CELLSJAVA-41616|GridWeb 中不存在 SaveCustomStyleFile (Java)|强化|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() 不应是（全局）静态函数|强化|
-|CELLSJAVA-42327|某些形状在 Excel 中被扭曲并更改为 PDF 渲染|漏洞|
-|CELLSJAVA-42290|插入到图表中文本框的中破折号在图表的 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42327|某些形状在 Excel 中被扭曲和更改为 PDF 渲染|漏洞|
+|CELLSJAVA-42290|插入图表中文本框的中破折号在图表的 PDF 中未正确呈现|漏洞|
 |CELLSJAVA-42338|使用 SUMIFS 公式时的错误结果|漏洞|
 |CELLSJAVA-42337|Aspose.Cells 无法计算计算工作表的单元格 B4 的值|漏洞|
 |CELLSJAVA-42330|使用线程从 Excel 转换为 PDF 或 PDF/A 时出现奇怪的结果|漏洞|
@@ -39,7 +39,7 @@ url: /zh/java/aspose-cells-for-java-17-7-release-notes/
 ### **添加 ImageOrPrintOptions.CheckWorkbookDefaultFont 属性**
 指示是否首先尝试使用工作簿的默认字体来显示字体设置不正确的字符。
 ### **添加 FileFormatType.Numbers、LoadFormat.Numbers 和 SaveFormat.Numbers 枚举**
-表示 Apple Inc/ 的 Numbers 电子表格文件格式。
+代表 Apple Inc/ 的 Numbers 电子表格文件格式。
 ### **添加 Worksheet.AdvancedFilter() 方法**
 使用复杂的标准过滤数据。
 ### **添加 WorkbookSettings.SignificantDigits 属性**
@@ -65,7 +65,7 @@ url: /zh/java/aspose-cells-for-java-17-7-release-notes/
 ### **使用示例**
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
-- [阅读 Apple Inc. 使用 Aspose.Cells 开发的数字电子表格](/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格](/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [将 PdfSaveOptions 和 ImageOrPrintOptions 的 DefaultFont 属性设置为优先](/cells/zh/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [将数据从 Microsoft Access 数据库结果集对象导入到工作表](/cells/zh/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [应用 Microsoft Excel 的高级筛选器显示满足复杂条件的记录](/cells/zh/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

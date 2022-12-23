@@ -5,7 +5,7 @@ weight: 50
 url: /sv/cpp/cells-formatting/
 ---
 ## **Format Cell eller intervall på Cells**
- Om du vill formatera cell eller cellområde, tillhandahåller Aspose.Cells[ISstil](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_style)klass. Du kan utföra all formatering av cellen eller cellintervallet med den här klassen. Några av de saker som rör formatering som kan åstadkommas med IStyle-klassen följer
+ Om du vill formatera cell eller cellområde, tillhandahåller Aspose.Cells[IS-stil](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_style)klass. Du kan utföra all formatering av cellen eller cellintervallet med den här klassen. Några av de saker som rör formatering som kan åstadkommas med IStyle-klassen följer
 
 - Ställ in fyllningsfärg för cellen
 - Ställ in cellens textomslutning

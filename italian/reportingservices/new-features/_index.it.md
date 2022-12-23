@@ -9,7 +9,7 @@ url: /it/reportingservices/new-features/
 - [Sotto-report](/cells/it/reportingservices/sub-reports/)
 - [Integrazione con Microsoft Report Viewer in modalità locale](/cells/it/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/)
 - [Supporto esteso per le estensioni di rendering](/cells/it/reportingservices/extended-rendering-extensions-support/)
-- [Supporto per l'interfaccia utente personalizzata di Microsoft Excel 2007 o 2010](/cells/it/reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/)
+- [Supporto per l'interfaccia utente personalizzata di Excel 2007 o 2010 Microsoft](/cells/it/reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/)
 - [Supporto per grafici modificabili](/cells/it/reportingservices/support-for-editable-charts/)
 - [Supporto per le firme digitali](/cells/it/reportingservices/support-for-digital-signatures/)
 - [Aggiungi Matrix nel cliente Aspose.Cells for Reporting Services](/cells/it/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/)

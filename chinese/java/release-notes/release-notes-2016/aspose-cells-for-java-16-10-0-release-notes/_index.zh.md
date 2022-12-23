@@ -9,10 +9,10 @@ url: /zh/java/aspose-cells-for-java-16-10-0-release-notes/
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
 |CELLSJAVA-41974 |刷新数据透视表在呈现的 PDF 文件中不起作用|漏洞|
-|CELLSJAVA-41900 |XLSM 因简单的加载和保存操作而损坏|漏洞|
-|CELLSJAVA-41790 |将电子表格转换为 HTML 后超链接无法正常工作|漏洞|
-|CELLSJAVA-42010 |某些字符不会在输出 PDF 中呈现|漏洞|
-|CELLSJAVA-41977 |图表 PDF 中图表图例的顺序已更改|漏洞|
+|CELLSJAVA-41900 |XLSM 被简单的加载和保存操作损坏|漏洞|
+|CELLSJAVA-41790 |将电子表格转换为 HTML 后超链接未按预期工作|漏洞|
+|CELLSJAVA-42010 |某些字符未在输出中呈现 PDF|漏洞|
+|CELLSJAVA-41977 |图表 PDF 中图表图例的顺序发生了变化|漏洞|
 |CELLSJAVA-41972 |PDF 中高低线的 Z 顺序不正确|漏洞|
 |CELLSJAVA-42015 |使用 Aspose.Cells 重新保存后电子表格损坏|漏洞|
 |CELLSJAVA-42005 |插入单元格后更改公式|漏洞|
@@ -25,7 +25,7 @@ url: /zh/java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41988 |打开 a2.xlsm 文件时出现 NullPointerException|例外|
 |CELLSJAVA-41987 |打开 a1.xlsm 文件时出现 NullPointerException|例外|
 |CELLSJAVA-41968 | IndexOutOfBoundsException：索引：23，大小：刷新数据透视图时为 14|例外|
-|CELLSJAVA-42014 | ClassCastException: com.aspose.cells.zadp 在重新保存 XLSX 时无法转换为 com.aspose.cells.zadq|例外|
+|CELLSJAVA-42014 | ClassCastException: com.aspose.cells.zadp 在重新保存时无法转换为 com.aspose.cells.zadq XLSX|例外|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 ### **添加 Shape.Reflection 属性和 ReflectionEffect 类**

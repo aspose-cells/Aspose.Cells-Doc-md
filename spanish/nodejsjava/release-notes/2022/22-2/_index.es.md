@@ -13,10 +13,10 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-44317|El texto en este xlsx está distorsionado|
-|CELLSJAVA-44271|Al convertir Excel a PDF, la posición de salida cambia en comparación con el caso de la conversión manual|
+|CELLSJAVA-44271|Al convertir Excel a PDF, la posición de salida cambia en comparación con el caso de conversión manual|
 |CELLSJAVA-44197|Al convertir XLSX a PDF, la forma de la línea de tiempo de la tabla dinámica (ventana) no se muestra|
 |CELLSJAVA-44267|El libro de trabajo que contiene una tabla dinámica se corrompe|
-|CELLSJAVA-44114|XLSX a PDF: los datos en formato de número científico del archivo XLSX no coinciden con los datos del archivo PDF de salida|
+|CELLSJAVA-44114|XLSX a PDF: los datos en formato de número científico del archivo XLSX no coinciden con los datos del archivo de salida PDF|
 |CELLSJAVA-44293|El archivo de Excel que se ha vuelto a guardar debe recuperarse al abrirlo en MS Excel|
 |CELLSJAVA-43194|Imágenes mostradas incorrectamente|
 |CELLSJAVA-44243|El archivo guardado de la demostración de primavera de GridWeb falló en jdk1.8|
@@ -25,14 +25,14 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |CELLSJAVA-44229|La fórmula se pierde cuando el contenido de td está envuelto por una etiqueta div|
 |CELLSJAVA-44247|El texto de una sola línea se ajusta al convertir a pdf|
 |CELLSJAVA-44175| problema con la superposición de etiquetas de gráficos de anillos|
-|CELLSJAVA-44192| El nombre del elemento del eje de categoría en el gráfico se corta en la conversión de Excel a PDF|
-|CELLSJAVA-44233|Bucle infinito al convertir un archivo XLSX|
+|CELLSJAVA-44192|El nombre del elemento del eje de categoría en el gráfico se corta en Excel a la conversión PDF|
+|CELLSJAVA-44233|Bucle infinito al convertir el archivo XLSX|
 |CELLSJAVA-44263|Establecer la dirección del texto de la etiqueta del gráfico en vertical no tiene efecto|
 |CELLSJAVA-44268| Excepción "java.lang.NullPointerException" en el método Chart.toPdf|
 |CELLSJAVA-44302|La dirección del texto del eje de coordenadas es incorrecta después de convertir el archivo de Excel a HTML|
 |CELLSJAVA-44314|Etiquetas de eje de categoría de gráfico incorrectas en la representación de gráfico a imagen|
-|CELLSJAVA-44274|¿Es compatible el formato SVG para leer o renderizar a PDF?|
-|CELLSJAVA-44311|Excepción "java.lang.OutOfMemoryError: Java espacio de almacenamiento dinámico" al renderizar en formato de archivo HTML|
+|CELLSJAVA-44274|¿Se admite el formato SVG para leer o renderizar a PDF?|
+|CELLSJAVA-44311|Excepción "java.lang.OutOfMemoryError: Java espacio de almacenamiento dinámico" al renderizar al formato de archivo HTML|
 |CELLSJAVA-44285|Excepción "java.lang.ClassCastException: com.aspose.cells.n2f no se puede convertir a com.aspose.cells.o90" al llamar a Workbook.calculateFormula()|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

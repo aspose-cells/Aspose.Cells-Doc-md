@@ -13,28 +13,28 @@ url: /tr/net/aspose-cells-for-net-21-1-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47376|Sürüm Aspose.Cells for .NET 5.0|Yeni özellik|
-|CELLSNET-40624| Aspose kullanarak satır/sütun veri serileri arasında geçiş yapma|Yeni özellik|
+|CELLSNET-40624|Aspose kullanarak satır/sütun veri serileri arasında geçiş yapma|Yeni özellik|
 |CELLSNET-42195|Kontrolü xlsm'den xls'ye dönüştürme|Yeni özellik|
 |CELLSNET-47806|Grafiğin veri kaynağı aralığını alır.|Yeni özellik|
-|CELLSNET-47756|SmartArt şekilleri, Excel'den PDF'e dönüştürmede iyi işlenmez|Böcek|
+|CELLSNET-47756|SmartArt şekilleri, Excel'de PDF dönüşümüne uygun şekilde işlenmez|Böcek|
 |CELLSNET-47391|Excel'den pdf'ye dönüştürmelerde şekiller doğru konumlandırılmıyor|Böcek|
 |CELLSNET-47766|Ok grafiği eksik|Böcek|
-|CELLSNET-47653|Diagram blokları HTML'ye dönüştürülürken kaydırılır|Böcek|
-|CELLSNET-47720|XLSX'i HTML'ye dönüştürürken geçersiz CSS ve HTML işaretlemesi|Böcek|
-|CELLSNET-47746|HTML niteliklerinin değerlerinde kodlanmamış alıntılar|Böcek|
+|CELLSNET-47653|Diagram blokları, HTML'e dönüştürülürken kaydırılır|Böcek|
+|CELLSNET-47720|XLSX'i HTML'e dönüştürürken geçersiz CSS ve HTML işaretlemesi|Böcek|
+|CELLSNET-47746|HTML öznitelik değerlerinde kodlanmamış alıntılar|Böcek|
 |CELLSNET-47792|Html'yi excel'e aktarırken resimler metni fazla kaplıyor|Böcek|
-|CELLSNET-47797|XLSM dosyası HTML'de oluşturulduğunda hatalı bağlantı|Böcek|
-|CELLSNET-47807|Yuvalanmış A öğeleriyle geçersiz HTML işaretlemesi|Böcek|
+|CELLSNET-47797|XLSM dosyası HTML'de işlendiğinde hatalı bağlantı|Böcek|
+|CELLSNET-47807|İç içe geçmiş A öğeleriyle geçersiz HTML işaretlemesi|Böcek|
 |CELLSNET-47778|IRR Hesaplaması #SAYI olarak değerlendirilir|Böcek|
 |CELLSNET-47814|GridDesktop kaydırma çubukları gizli değil|Böcek|
 |CELLSNET-47744|Radyal grafikler pdf olarak dışa aktarıldığında eziliyor|Böcek|
 |CELLSNET-47786|XErrorBar grafikte görüntülenmiyor|Böcek|
 |CELLSNET-47787|Grafiği bir çalışma kitabından diğerine kopyalarken XErrorBars kayboluyor|Böcek|
-|CELLSNET-43907|XLS'yi PDF'ye dönüştürürken WordArt işlenmiyor|Böcek|
+|CELLSNET-43907|XLS'den PDF'e dönüştürülürken WordArt işlenmiyor|Böcek|
 |CELLSNET-47780|Grafiğin veri kaynağı olarak iki aralığı ayarlama sorunu|Böcek|
-|CELLSNET-47781|Metni Kaydır, ODS dosyaları için çalışmıyor|Böcek|
+|CELLSNET-47781|Metni Kaydır ODS dosyaları için çalışmıyor|Böcek|
 |CELLSNETCORE-94| Pivot Tablo Grubu Güne göre yenilendiğinde artıyor|Böcek|
-|CELLSNETCORE-77|Azure'da XLSX'i PDF'ye dönüştürürken hata oluştu|Böcek|
+|CELLSNETCORE-77|Azure'da XLSX'i PDF'e dönüştürürken hata oluştu|Böcek|
 |CELLSNETCORE-90|Excel çalışma sayfasına ekler eklerken sorunlar|Böcek|
 |CELLSNETCORE-93|Altı çizili, italik veya kalın gibi ek etiketler olmadan H1 etiketi oluşturulmaz|Böcek|
 |CELLSNETCORE-97|RemoveExternalLinks() çağrılması istisnayı yükseltir|Böcek|

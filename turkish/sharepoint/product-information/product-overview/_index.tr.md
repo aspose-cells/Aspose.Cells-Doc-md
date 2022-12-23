@@ -6,7 +6,7 @@ url: /tr/sharepoint/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_1)
+![yapılacaklar:resim_alternatif_metin](product-overview_1)
 ### **Aspose.Cells for SharePoint Dokümantasyona hoş geldiniz!**
 Aspose.Cells for SharePoint, MS Excel belgelerini Microsoft SharePoint uygulamalarında dönüştürmeyi mümkün kılan elektronik tablo dönüştürmeyi destekleyen esnek bir çözümdür.
 
@@ -16,18 +16,18 @@ Aşağıdakiler gibi birden çok belge biçimini dönüştürebilirsiniz:
 
 - PDF - Adobe Taşınabilir Belgesi
 - XLS - MS Excel 97~2003
-- XLSX - Office Açık XML'i
-- XLSM - Makrolar için Office Açık XML etkin
+- XLSX - Office Açık XML
+- XLSM - Makrolar için Office Açık XML etkinleştirildi
 - TXT - Düz Metin
-- XML - Microsoft Excel Hesap TablosuML
+- XML - Microsoft Excel SpreadsheetML
 - ODS - OpenDocument Elektronik Tablosu
 - CSV - Virgülle Ayrılmış Değerler
 - XLSB - Excel İkili 2007
 - MHTml - Çok Amaçlı İnternet Posta Uzantısı HTML
-- XPS - XML Kağıt Özelliği
-- TIFF - Etiketli Görüntü Dosyası Biçimi
+- XPS - XML Kağıt Spesifikasyonu
+- TIFF - Etiketli Resim Dosyası Biçimi
 - SVG - Ölçeklenebilir Vektör Grafikleri
-- DIF - Çizim Değişim Biçimi
+- DIF - Çizim Değişim Formatı
 
 Aspose.Cells for SharePoint aşağıdaki ürünlerle kullanılmak üzere tasarlanmıştır:
 

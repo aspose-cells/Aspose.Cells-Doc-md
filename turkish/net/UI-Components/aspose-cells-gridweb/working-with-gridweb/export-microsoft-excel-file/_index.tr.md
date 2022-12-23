@@ -37,19 +37,19 @@ Dosya sisteminiz NTFS ise, ASPNET veya Herkes kullanıcı hesaplarına okuma/yaz
 
 {{% /alert %}} 
 
-Yukarıdaki kod parçacığı birkaç şekilde kullanılabilir. Yaygın bir yol, tıklandığında ızgara içeriğini bir Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'de SaveCommand adında bir olay var. Yukarıdaki kod parçacığı, SaveCommand olayının olay işleyicisine eklenebilir ve bu, kullanıcıların Aspose.Cells.GridWeb'in dahili**Kaydetmek** buton.
+Yukarıdaki kod parçacığı birkaç şekilde kullanılabilir. Yaygın bir yol, tıklandığında ızgara içeriğini bir Excel dosyasına kaydeden bir düğme eklemektir. Aspose.Cells.GridWeb görev için daha kolay bir yaklaşım sunar. Aspose.Cells.GridWeb'de SaveCommand adında bir olay var. Yukarıdaki kod parçacığı, SaveCommand olayının olay işleyicisine eklenebilir ve bu, kullanıcıların Aspose.Cells.GridWeb'in dahili**Kayıt etmek** buton.
 
 **GridWeb'in SaveCommand olayı** 
 
-![yapılacaklar:resim_alternatif_Metin](export-microsoft-excel-file_1.jpg)
+![yapılacaklar:resim_alternatif_metin](export-microsoft-excel-file_1.jpg)
 
 **GridWeb'in yerleşik Kaydet düğmesini tıklatarak kılavuz içeriğini Excel'e kaydetme** 
 
-![yapılacaklar:resim_alternatif_Metin](export-microsoft-excel-file_2.png)
+![yapılacaklar:resim_alternatif_metin](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 
- Visual Studio'da çalışıyorsanız, SaveCommand olayının olay işleyicisini, olaya çift tıklayarak kolayca oluşturabilirsiniz.**Özellikleri** bölmesi. Bu konuda daha fazla bilgi edinmek için lütfen bkz.[GridWeb Events ile Çalışma](/cells/tr/net/working-with-gridweb-events/)
+ Visual Studio'da çalışıyorsanız, SaveCommand olayının olay işleyicisini, olaya çift tıklayarak kolayca oluşturabilirsiniz.**Özellikler** bölmesi. Bu konuda daha fazla bilgi edinmek için lütfen bkz.[GridWeb Events ile Çalışma](/cells/tr/net/working-with-gridweb-events/)
 
 {{% /alert %}} 
 ### **Akış Olarak Dışa Aktar**

@@ -12,6 +12,6 @@ Aspose.Cells 允许您在运行时添加书签。 PDF 书签可以大大提高�
 
 {{% /alert %}} 
 ## **添加 PDF 书签**
-请查看以下示例代码以了解如何添加 PDF 书签。该代码生成一个简单的工作簿，指定带有目标位置的 PDF 书签并生成 PDF 文件。
+请参阅以下示例代码以了解如何添加 PDF 书签。该代码生成一个简单的工作簿，指定带有目标位置的 PDF 书签并生成 PDF 文件。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddPDFBookmarks-AddPDFBookmarks.java" >}}

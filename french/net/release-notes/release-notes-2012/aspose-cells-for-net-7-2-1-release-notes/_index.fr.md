@@ -21,9 +21,9 @@ url: /fr/net/aspose-cells-for-net-7-2-1-release-notes/
  Améliorations
 
 - Les lignes des formes sont mal classées après la conversion en PDF
-- La macro a disparu après l'enregistrement d'un fichier XLSM au format XLS
+- La macro a disparu après avoir enregistré un fichier XLSM au format XLS
 - Les options de la zone de liste se chevauchent
-- Aspose.Cells corruption du fichier XLSM après l'appel de la méthode Workbook.Save()
+- Aspose.Cells corrompant le fichier XLSM après avoir appelé la méthode Workbook.Save()
 - Le composant détruit les propriétés du nœud CalcPr du classeur XML
 - Vous voulez mettre une chaîne de plus de 32K
 - Syntaxe des marqueurs intelligents pour l'index de colonne
@@ -31,7 +31,7 @@ url: /fr/net/aspose-cells-for-net-7-2-1-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 - Méthode GetNamedRanges () lançant une fonction non prise en charge
 - Exception : valeur de chaîne IMEModeType non valide
@@ -54,10 +54,10 @@ url: /fr/net/aspose-cells-for-net-7-2-1-release-notes/
  -Problèmes avec DataTable dans les graphiques lors de la conversion en image
 
 - Problème avec DataTable dans les graphiques MS Excel
-- Différences d'apparence du graphique entre MS Excel et PDF
+- Différences dans l'apparence du graphique entre MS Excel et PDF
 - Conversion d'Excel 97-2003 en PDF
 
- -Aspose.Cells corruption du fichier XLSM après avoir appelé Save deux fois
+ -Aspose.Cells corrompre le fichier XLSM après avoir appelé Save deux fois
 
 - Signets sur un problème de niveau
 
@@ -76,7 +76,7 @@ url: /fr/net/aspose-cells-for-net-7-2-1-release-notes/
  -Problème de plages nommées
 
 - Aspose.Cells corrompre les fichiers Excel contenant des tableaux croisés dynamiques
-- Problèmes de conversion XLSX en PDF
+- XLSX à PDF problèmes de conversion
 
  -Aspose.Cells gère la valeur de date de manière incorrecte
 
@@ -91,7 +91,7 @@ url: /fr/net/aspose-cells-for-net-7-2-1-release-notes/
 
 
 
- \2) GrilleWeb
+ \2) Grille Web
 
 
 

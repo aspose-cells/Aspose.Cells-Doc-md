@@ -11,7 +11,7 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-6-3/
 {{% /alert %}} 
 ## **追加された API**
 ### **データのインポート中の HTML 解析のサポート**
-Aspose.Cells for Java API のこのリリースでは、ImportTableOptions.setHtmlString 属性が公開されています。この属性は、API がワークシートにデータをインポートする際に HTML タグを解析し、解析結果をセル値として設定するように指示します。 Aspose.Cells API は、1 つのセルに対してこのタスクを実行するために Cell.setHtmlString 属性を既に提供していますが、データを一括でインポートしている間、ImportTableOptions.setHtmlString 属性 (true に設定されている場合) は、サポートされているすべての HTML タグとセットを解析しようとします。解析された結果を対応するセルに。
+Aspose.Cells for Java API のこのリリースでは、ImportTableOptions.setHtmlString 属性が公開されています。この属性は、API がワークシートにデータをインポートする際に HTML タグを解析し、解析結果をセル値として設定するように指示します。 Aspose.Cells API は、単一のセルに対してこのタスクを実行するために、Cell.setHtmlString 属性を既に提供していますが、データを一括でインポートしている間、ImportTableOptions.setHtmlString 属性 (true に設定されている場合) は、サポートされているすべての HTML タグとセットを解析しようとします。解析された結果を対応するセルに。
 
 これが最も単純な使用シナリオです。
 

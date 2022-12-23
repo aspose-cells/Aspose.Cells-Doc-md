@@ -18,25 +18,25 @@ url: /es/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47514|Agregue la propiedad ShowAddButton para admitir agregar/eliminar hojas de trabajo para GridWeb|Nueva caracteristica|
 |CELLSNET-43975|Compatibilidad con tipos de fuentes OTF con API Aspose.Cells para fines de representación|Nueva caracteristica|
 |CELLSNET-47445|La tabla dinámica no se muestra cuando se guarda como archivo ODS|Nueva caracteristica|
-|CELLSNET-47495|Admite la conversión de libros de trabajo a PPTX cuyas diapositivas son imágenes.|Nueva caracteristica|
-|CELLSNET-47499|Admite convertir el libro de trabajo a DOCX cuyas páginas son imágenes.|Nueva caracteristica|
+|CELLSNET-47495|Admite la conversión del libro de trabajo a PPTX cuyas diapositivas son imágenes.|Nueva caracteristica|
+|CELLSNET-47499|Admite la conversión del libro de trabajo a DOCX cuyas páginas son imágenes.|Nueva caracteristica|
 |CELLSNET-47538|Tabla de soporte para archivo .ods.|Nueva caracteristica|
 |CELLSNET-47515|La conversión de XLSX a HTML toma varios minutos mientras se usa Aspose.Cells|Mejora|
 |CELLSNET-47483|Excepción "La longitud máxima del nombre de la fuente es 31" al cargar un XLS|Mejora|
 |CELLSNET-47489|Provisión para editar PowerQueryFormulaParameters|Mejora|
-|CELLSNET-47387|Calcule la fórmula en grandes datos de Excel de más de 140K filas que no funcionan|Actuación|
+|CELLSNET-47387|Calcule la fórmula en grandes datos de Excel de más de 140K filas que no funcionan|Rendimiento|
 |CELLSNET-47474|La página no es la misma que el navegador.|Insecto|
 |CELLSNET-47480|Faltan estilos y contenido al convertir la hoja de trabajo a HTML/imágenes|Insecto|
 |CELLSNET-47493|Problema al convertir XLSX a HTML|Insecto|
 |CELLSNET-47501|Falta un espacio de formato de números positivos a la derecha en la salida|Insecto|
 |CELLSNET-47503|Faltan campos al convertir XLSX a HTML|Insecto|
-|CELLSNET-47516|Admite fondo de degradado lineal al exportar archivos a HTML o MHT|Insecto|
+|CELLSNET-47516|Admite fondo de degradado lineal al exportar un archivo a HTML o MHT|Insecto|
 |CELLSNET-47521|Mensaje de error al abrir el archivo de salida después de volver a guardar un XLSX|Insecto|
 |CELLSNET-47475|CalculateFormula () calcula de manera diferente a MS Excel|Insecto|
-|CELLSNET-47504|Conversión de formato incorrecto en la representación de Excel a HTML|Insecto|
-|CELLSNET-47464|Se forma una línea en la parte superior del documento en la conversión de Excel a PDF|Insecto|
+|CELLSNET-47504|Conversión de formato incorrecto en Excel a representación HTML|Insecto|
+|CELLSNET-47464|Se forma una línea en la parte superior del documento en Excel a PDF conversión|Insecto|
 |CELLSNET-47481|Falta la etiqueta al convertir la hoja de trabajo en imágenes|Insecto|
-|CELLSNET-47497|La alineación de texto de Excel a EMF no es consistente|Insecto|
+|CELLSNET-47497|La alineación del texto de Excel a EMF no es consistente|Insecto|
 |CELLSNET-47522|Aspose las imágenes renderizadas tienen espacios más grandes entre las columnas en comparación con copiar y pegar manualmente|Insecto|
 |CELLSNET-47533|Las imágenes en el archivo de Excel no se procesan en PDF|Insecto|
 |CELLSNET-47484|Problemas de conversión de XLSX a HTML con gráficos y caracteres Unicode de ancho cero|Insecto|
@@ -51,17 +51,17 @@ url: /es/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47487|Error de forma a imagen al convertir XLSB a PDF|Excepción|
 |CELLSNET-47490|La conversión de archivos XLSX con elementos ocultos a HTML arroja excepciones|Excepción|
 |CELLSNET-47526|Se lanza una excepción si el campo dinámico es un campo de datos.|Excepción|
-|CELLSNET-47529|Excepción durante la conversión completa de HTML de ida y vuelta con un archivo específico|Excepción|
+|CELLSNET-47529|Excepción durante la conversión completa de ida y vuelta HTML con un archivo específico|Excepción|
 |CELLSNET-47496|Excepción al convertir gráfico a imagen|Excepción|
-|CELLSNET-47488|Excepción "El valor de zoom debe estar entre 10 y 400" al abrir un archivo ODS|Excepción|
-|CELLSNET-47491|FormatException lanzada al convertir ciertos archivos XLSX estrictos a HTML|Excepción|
+|CELLSNET-47488|Excepción "El valor de zoom debe estar entre 10 y 400" al abrir el archivo ODS|Excepción|
+|CELLSNET-47491|FormatException lanzada al convertir ciertos archivos estrictos XLSX a HTML|Excepción|
 |CELLSNET-47494|Excepción "Definición de fórmula de consulta de pPower no válida" al recuperar datos de mashup del libro de trabajo|Excepción|
 |CELLSNET-47500|StackOverflowException durante la conversión de Excel a Html|Excepción|
 |CELLSNET-47506|Error ArgumentException al usar SaveFormat.Xlsx|Excepción|
 |CELLSNET-47510|Se lanzó una excepción en el método Guardar después de RemoveExternalLinks|Excepción|
 |CELLSNET-47525|Guardar un libro de trabajo genera una excepción después de borrar los comentarios|Excepción|
 |CELLSNET-47528|FormatException al cargar un archivo XLSX|Excepción|
-|CELLSNET-47530|Excepción "El nivel de sangría debe estar entre 0 y 250" al procesar un archivo de Excel a PDF|Excepción|
+|CELLSNET-47530|Excepción "El nivel de sangría debe estar entre 0 y 250" al representar un archivo de Excel en PDF|Excepción|
 |CELLSNET-47541|Excepción "Nombre de celda no válido" al cargar un archivo XLSX|Excepción|
 
 ### **Public API y cambios incompatibles con versiones anteriores**

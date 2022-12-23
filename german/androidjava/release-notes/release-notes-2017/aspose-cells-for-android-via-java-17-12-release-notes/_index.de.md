@@ -15,49 +15,49 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 17.
 |CELLSJAVA-42423|Brechen Sie die lang andauernde Berechnung der Workbook.calculateFormula-Methode ab|Neue Funktion|
 |CELLSJAVA-42414|Holen Sie sich das SheetId-Feld des MS Excel-Arbeitsblatts|Neue Funktion|
 |CELLSJAVA-42433|ImageOrPrintOptions.PageIndex- und ImageOrPrintOptions.Count-Eigenschaften, die zum Abrufen des Bilds der gewünschten Seiten erforderlich sind|Neue Funktion|
-|CELLSJAVA-42402|Guter HTML-Code für den beigefügten HTML-Code erforderlich|Erweiterung|
+|CELLSJAVA-42402|Gute HTML benötigt für die beigefügte HTML|Erweiterung|
 |CELLSJAVA-42372|Die Position der langen Bindestriche ist nicht dieselbe wie bei Microsoft Excel|Erweiterung|
 |CELLSJAVA-42479|Verbesserte LoadDataFilterOptions-Enumeration und Mehrdeutigkeit entfernt|Erweiterung|
-|CELLSJAVA-42460|CSV-Format – D2 und D6 sind IsString, aber Aspose.Cells behandelt sie als IsNumeric|Erweiterung|
+|CELLSJAVA-42460|CSV Format - D2 und D6 sind IsString, aber Aspose.Cells behandelt sie als IsNumeric|Erweiterung|
 |CELLSJAVA-42399|Pfeile sind in der PDF-Ausgabe nicht klar|Insekt|
-|CELLSJAVA-42419|Text wird im Ausgabe-HTML abgeschnitten|Insekt|
-|CELLSJAVA-42418|Die Rahmenfarbe stimmt nicht mit MS Excel im Ausgabe-HTML überein|Insekt|
-|CELLSJAVA-42417|Die Hintergrundfarbe stimmt nicht mit MS Excel im Ausgabe-HTML überein|Insekt|
+|CELLSJAVA-42419|Text wird in der Ausgabe HTML abgeschnitten|Insekt|
+|CELLSJAVA-42418|Rahmenfarbe stimmt nicht mit MS Excel in Ausgabe HTML überein|Insekt|
+|CELLSJAVA-42417|Hintergrundfarbe stimmt nicht mit Ms Excel in Ausgabe HTML überein|Insekt|
 |CELLSJAVA-42385|callback IFilePathProvider wird nie aufgerufen und dann hat die HTML-Datei 'null' im Pfad|Insekt|
 |CELLSJAVA-42412|Wertachsenbeschriftungen fehlen beim Konvertieren von Excel in PDF|Insekt|
 |CELLSJAVA-42408|Textüberlappung Problem nach dem Rendern des Arbeitsblatts in ein Bild|Insekt|
 |CELLSJAVA-42420|Abbruch und Speichermangel aufgrund des großen Datenbereichs des Diagramms|Insekt|
-|CELLSJAVA-42415|Das Ausgabediagramm ist nicht wie das ursprüngliche Diagramm im Ausgabe-HTML|Insekt|
-|CELLSJAVA-42410|Der Diagrammbereich, Beschriftungen, Legenden usw. werden im Ausgabe-PDF und -PNG falsch gerendert|Insekt|
-|CELLSJAVA-42409|Der Diagrammbereich wird in den PDF- und PNG-Ausgaben des MS-Excel-Diagramms nicht korrekt gerendert|Insekt|
-|CELLSJAVA-41046|Die Legendensequenz des Diagramms hat sich beim Rendern der Tabelle in das PDF-Format geändert|Insekt|
+|CELLSJAVA-42415|Das Ausgabediagramm entspricht nicht dem Originaldiagramm in der Ausgabe HTML|Insekt|
+|CELLSJAVA-42410|Der Diagrammbereich, Beschriftungen, Legenden usw. werden in den Ausgaben PDF und PNG falsch gerendert|Insekt|
+|CELLSJAVA-42409|Der Diagrammbereich wird in den Ausgaben PDF und PNG des MS Excel-Diagramms nicht korrekt gerendert|Insekt|
+|CELLSJAVA-41046|Die Legendensequenz des Diagramms hat sich beim Rendern der Tabelle in das Format PDF geändert|Insekt|
 |CELLSJAVA-40416|Farben und Stil des Diagramms gehen verloren|Insekt|
-|CELLSJAVA-42427|Beim Exportieren von Gitternetzlinien mit Rahmen werden beim Rendern von Excel in HTML keine Gitternetzlinien innerhalb des Rahmens angezeigt|Insekt|
+|CELLSJAVA-42427|Beim Exportieren von Gitternetzlinien mit Rahmen werden in Excel keine Gitternetzlinien innerhalb des Rahmens für HTML-Rendering angezeigt|Insekt|
 |CELLSJAVA-42438|LightCellsDataProvider entfernt führende und nachgestellte Leerzeichen|Insekt|
-|CELLSJAVA-42422|In der PDF-Ausgabe des MS-Excel-Diagramms wird eine falsche Schriftart verwendet|Insekt|
-|CELLSJAVA-42353|Einige Pfeile oder Legenden fehlen im Ausgabe-HTML|Insekt|
+|CELLSJAVA-42422|In der Ausgabe PDF des MS Excel-Diagramms wird eine falsche Schriftart verwendet|Insekt|
+|CELLSJAVA-42353|In der Ausgabe HTML fehlen einige Pfeile oder Beschriftungen|Insekt|
 |CELLSJAVA-42455|Der zweite Kommentar fehlt in der Sammlung der Arbeitsblattkommentare|Insekt|
 |CELLSJAVA-42454|Die Arbeitsmappenerstellung scheint beim Lesen aus einer XLSM-Datei zu hängen|Insekt|
-|CELLSJAVA-42450|Die Eigenschaft Style.QuotePrefix funktioniert nicht für XLSB-Dateien|Insekt|
+|CELLSJAVA-42450|Die Eigenschaft Style.QuotePrefix funktioniert nicht für die Datei XLSB|Insekt|
 |CELLSJAVA-42445|Das Einstellen der Bilddaten wirkt sich auf das andere Diagramm aus und wird falsch angezeigt|Insekt|
 |CELLSJAVA-42444|Die Methode CheckBox.setName() funktioniert in MS Excel 2016, aber nicht in MS Excel 2007|Insekt|
-|CELLSJAVA-42443|MS Excel-Filter werden nicht korrekt konvertiert - XLSB-zu-XLSM-Konvertierung|Insekt|
+|CELLSJAVA-42443|MS Excel-Filter werden nicht korrekt konvertiert - Konvertierung von XLSB in XLSM|Insekt|
 |CELLSJAVA-42442|Das Ändern des Werts von ComboBoxActiveXControl ändert nicht den Wert der verknüpften Zelle|Insekt|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel und Cells.setRowHeightPixel verhalten sich unterschiedlich|Insekt|
 |CELLSJAVA-42431|Beim Erweitern des Tabellenbereichs werden Zellinhalte unerwartet verändert|Insekt|
 |CELLSJAVA-42457|Wenn XLSX in PDF konvertiert wird, sind einige Linien in Diagrammen anders|Insekt|
-|CELLSJAVA-42465|Einige CSS-Klassendeklarationen werden im Ausgabe-HTML nicht vorangestellt|Insekt|
-|CELLSJAVA-42456|HTML-Ausgabe stimmt nicht mit der Quelle überein – Umwandlung von Excel in HTML|Insekt|
+|CELLSJAVA-42465|Einigen CSS-Klassendeklarationen wird in der Ausgabe HTML nicht vorangestellt|Insekt|
+|CELLSJAVA-42456|HTML-Ausgabe stimmt nicht mit der Quelle überein - Konvertierung von Excel in HTML|Insekt|
 |CELLSJAVA-42478|Das Importieren eines langen Werts aus der HSQL-Datenbank löst eine Ausnahme aus|Insekt|
-|CELLSJAVA-42466|Die Gleichung wird im Ausgabe-PDF nicht korrekt wiedergegeben|Insekt|
-|CELLSJAVA-42475|Diagramm fehlt in der Ausgabe-PDF|Insekt|
-|CELLSJAVA-42459|Datenbeschriftungen für das Diagramm fehlen im Ausgabe-PDF/Bild|Insekt|
+|CELLSJAVA-42466|Die Gleichung wird in der Ausgabe PDF nicht korrekt wiedergegeben|Insekt|
+|CELLSJAVA-42475|Diagramm fehlt in der Ausgabe PDF|Insekt|
+|CELLSJAVA-42459|Datalabels für das Diagramm fehlen in der Ausgabe PDF/image|Insekt|
 |CELLSJAVA-42453|Diagrammbild ist nicht gleich Microsoft Excel|Insekt|
-|CELLSJAVA-42447|Datalabels werden im Ausgabe-HTML-Dateiformat falsch angezeigt|Insekt|
+|CELLSJAVA-42447|Datalabels werden im Ausgabedateiformat HTML falsch angezeigt|Insekt|
 |CELLSJAVA-42481|Set Combo Box Name funktioniert nicht für die Excel-Quelldatei, aber wenn es von Microsoft Excel erneut gespeichert wird, funktioniert es ok|Insekt|
 |CELLSJAVA-42476|Microsoft Excel-Arbeitsblatt mit Makros (.xlsm) wird nach dem Öffnen und Speichern über Aspose.Cells-APIs beschädigt|Insekt|
 |CELLSJAVA-42470|Das Setzen einer mit einem Kontrollkästchen verknüpften Zelle führt dazu, dass MS Excel eine Fehlermeldung ausgibt, wenn die Ausgabedatei darin geöffnet wird|Insekt|
-|CELLSJAVA-42462|Das Lesen der XLSB-Datei löst die NullPointerException aus|Ausnahme|
+|CELLSJAVA-42462|Das Lesen der Datei XLSB löst die NullPointerException aus|Ausnahme|
 |CELLSJAVA-42434|Ausnahme: „java.lang.NumberFormatException“ beim Laden eines HTML-Dateiformats|Ausnahme|
 |CELLSJAVA-42448|Cells.deleteBlankRows verursacht die Ausnahme „java.lang.ArrayIndexOutOfBoundsException: 1937“.|Ausnahme|
 |CELLSJAVA-42426|Ausnahme in Thread "main" java.lang.OutOfMemoryError: GC-Overhead-Limit überschritten - Datei III|Ausnahme|
@@ -73,7 +73,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 ### **Fügt die AbstractCalculationMonitor.Interrupt(string)-Methode hinzu**
 Ermöglicht Benutzern, den Fortschritt von Formelberechnungen zu unterbrechen.
 ### **Fügt HtmlCrossType.MSExport-Aufzählung hinzu**
-Zeigt die Zeichenfolge wie MS Excel beim HTML-Export an.
+Zeigt die Zeichenfolge wie MS Excel beim Exportieren von HTML an.
 ### **Fügt die Worksheet.TabId-Eigenschaft hinzu**
 Ruft den internen Bezeichner für das Blatt ab.
 ### **Fügt Aufzählung OLEDBCommandType.None hinzu**

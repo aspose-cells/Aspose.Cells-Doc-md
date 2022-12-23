@@ -20,11 +20,11 @@ url: /de/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29580 Wiederholte Teile des Arbeitsblatts basierend auf Eingabedaten
 
- 29377 Problem beim Exportieren von GroupShape in das XLS-Format
+ 29377 Problem beim Exportieren von GroupShape in das Format XLS
 
  29632 Ausnahme auslösen, wenn Blattname Sonderzeichen enthält
 
- 29153 Unterstützung für bedingte Formatierung bei der HTML-Ausgabe
+ 29153 Unterstützung für bedingte Formatierung bei HTML-Ausgabe
 
  Leistung
 
@@ -32,7 +32,7 @@ url: /de/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29461 Die Leistung der Methode CalculateFormula()
 
- 30041 ODS-Datei kann nicht geöffnet werden
+ 30041 Datei ODS kann nicht geöffnet werden
 
  29983 AutoFitColumns() ist extrem langsam, wenn Spalten das Zahlenformat haben
 
@@ -50,7 +50,7 @@ url: /de/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Fehler
 
- 29413 DataRow-Werte wurden geändert
+29413 DataRow-Werte wurden geändert
 
  29599 Diagramm mit 3D-Balken-zu-Bild-Problem
 
@@ -58,7 +58,7 @@ url: /de/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Radardiagramm-zu-Bild-Problem
 
-29777 VLookup funktioniert nicht
+ 29777 VLookup funktioniert nicht
 
  29408 Berechnetes Element in der Pivot-Tabelle hinzugefügt
 
@@ -94,7 +94,7 @@ url: /de/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Formeln mit Werten aus Excel-Datei importieren
 
- 29381 Excel-Datei aus Stream importieren, ohne alle Formeln zu berechnen
+29381 Excel-Datei aus Stream importieren, ohne alle Formeln zu berechnen
 
  Fehler
 

@@ -10,7 +10,7 @@ url: /tr/net/no-overload-for-method-save-takes-4-arguments/
 
 ### **Hatanın Ekran Görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](no-overload-for-method-save-takes-4-arguments_1.png)
+![yapılacaklar:resim_alternatif_metin](no-overload-for-method-save-takes-4-arguments_1.png)
 
 ### **Çözüm**
 

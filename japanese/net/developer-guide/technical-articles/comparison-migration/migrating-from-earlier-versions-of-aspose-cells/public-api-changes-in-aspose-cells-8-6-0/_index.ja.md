@@ -37,7 +37,7 @@ metadata.Save(filePath);
 
 
 ### **プロパティ HtmlSaveOptions.ExportFrameScriptsAndProperties が追加されました**
-Aspose.Cells for .NET 8.6.0 では、スプレッドシートを HTML 形式に変換する際に追加のスクリプトの作成に影響を与えるために使用できる HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティが公開されています。デフォルト設定では、Aspose.Cells API は、Excel アプリケーションがエクスポートするようにスプレッドシートを HTML 形式でエクスポートします。結果の HTML にはフレームと条件付きコメントが含まれており、ブラウザーの種類を検出し、それに応じてレイアウトを調整します。 HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティのデフォルト値は true です。エクスポートは Excel 標準に従って行われます。ただし、プロパティが false に設定されている場合、API は[フレームと条件付きコメントに関連するスクリプトを生成します](/cells/ja/net/disable-exporting-frame-scripts-and-document-properties/).この場合、結果の HTML はどのブラウザーでも正しく表示できますが、Aspose.Cells API を使用してインポートして戻すことはできません。
+Aspose.Cells for .NET 8.6.0 は、スプレッドシートを HTML 形式に変換する際に追加のスクリプトの作成に影響を与えるために使用できる HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティを公開しました。デフォルト設定では、Aspose.Cells API は、Excel アプリケーションがエクスポートを行うように、スプレッドシートを HTML 形式でエクスポートします。結果の HTML には、フレームと条件付きコメントが含まれており、ブラウザーの種類を検出し、それに応じてレイアウトを調整します。 HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティのデフォルト値は true です。エクスポートは Excel 標準に従って行われます。ただし、プロパティが false に設定されている場合、API は[フレームと条件付きコメントに関連するスクリプトを生成します](/cells/ja/net/disable-exporting-frame-scripts-and-document-properties/).この場合、結果の HTML はどのブラウザでも正しく表示できますが、Aspose.Cells API を使用してインポートすることはできません。
 
 以下は、簡単な使用シナリオです。
 

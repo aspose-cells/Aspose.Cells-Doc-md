@@ -31,15 +31,15 @@ url: /ar/java/creating-and-customizing-charts/
 - [**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint)، نقطة واحدة في سلسلة في مخطط.
 - [**مجموعة ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection)، مجموعة تحتوي على جميع النقاط في سلسلة واحدة.
 - [**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) ، مجموعة من[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)أشياء.
--  DataLabels ، DataLabels لملف[**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**خط الاتجاه**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، إلخ.
+-  DataLabels ، DataLabels لملف[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**خط الاتجاه**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، إلخ.
 - [**ملء**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat)، تعبئة الشكل لشكل.
-- [**أرضية**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor)، أرضية مخطط ثلاثي الأبعاد.
+- [**الأرض**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor)، أرضية مخطط ثلاثي الأبعاد.
 - [**عنوان تفسيري**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)، وسيلة إيضاح الرسم البياني.
 - [**خط**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)، خط الرسم البياني.
-- [**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) ، مجموعة من[**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء.
-- [**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)، يمثل سلسلة بيانات مفردة في مخطط.
+- [**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) ، مجموعة من[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء.
+- [**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)، يمثل سلسلة بيانات مفردة في مخطط.
 - [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels)، تسميات علامات التجزئة المرتبطة بعلامات التجزئة علي محور المخطط.
-- [**عنوان**](https://reference.aspose.com/cells/java/com.aspose.cells/Title)، عنوان مخطط أو محور.
+- [**لقب**](https://reference.aspose.com/cells/java/com.aspose.cells/Title)، عنوان مخطط أو محور.
 - [**خط الاتجاه**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline)، خط اتجاه في الرسم البياني.
 - [**مجموعة TrendlineCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/TrendlineCollection)، مجموعة من كافة كائنات خط الاتجاه لسلسلة البيانات المحددة.
 - [**الجدران**](https://reference.aspose.com/cells/java/com.aspose.cells/Walls)، جدران مخطط ثلاثي الأبعاد.
@@ -48,7 +48,7 @@ url: /ar/java/creating-and-customizing-charts/
 
 كما هو مذكور أعلاه ، فإن جميع كائنات الرسوم البيانية هي أمثلة لفئاتها وتوفر خصائص وطرق محددة لأداء مهام محددة. استخدم كائنات المخططات لإنشاء المخططات.
 
-أضف أي نوع من المخططات إلى ورقة عمل باستخدام امتداد[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) مجموعة. كل عنصر في[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) تمثل المجموعة أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) هدف. أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)يقوم الكائن بتغليف جميع كائنات الرسوم البيانية المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
+أضف أي نوع من المخططات إلى ورقة عمل باستخدام امتداد[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) مجموعة. كل عنصر في[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) تمثل المجموعة أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) موضوع. أ[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)يقوم الكائن بتغليف جميع كائنات الرسوم البيانية المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
 
 ### **إنشاء مخطط بسيط**
 
@@ -56,17 +56,17 @@ url: /ar/java/creating-and-customizing-charts/
 
 |**أنواع المخططات**|**وصف**|
 |:- |:- |
-|عمودي|يمثل المخطط العمودي متفاوت المسافات|
+|عمود|يمثل المخطط العمودي متفاوت المسافات|
 |العمود مكدسة|يمثل مخطط عمودي مكدس|
 |عمود 100 نسبة مكدسة|يمثل مخطط عمودي مكدس بنسبة 100٪|
 |Column3D العنقودية|يمثل مخطط عمودي مجمع ثلاثي الأبعاد|
 |العمود 3D مكدسة|يمثل مخطط عمودي مكدس ثلاثي الأبعاد|
-|عمود 3 D100Percent مكدسة|يمثل مخططًا عموديًا مكدسًا بنسبة 100٪ ثلاثي الأبعاد|
-|العمود 3 د|يمثل التخطيط العمودي ثلاثي الأبعاد|
+|عمود 3 D100Percent مكدسة|يمثل مخطط عمودي مكدس بنسبة 100٪ ثلاثي الأبعاد|
+|العمود 3 د|يمثل مخطط عمودي ثلاثي الأبعاد|
 |شريط|يمثل مخطط شريطي متفاوت المسافات|
 |بار مكدسة|يمثل مخطط شريطي مكدس|
 |شريط 100٪ مكدسة|يمثل مخطط شريطي مكدس بنسبة 100٪|
-|شريط ثلاثي الأبعاد متفاوت|يمثل مخطط شريطي ثلاثي الأبعاد مجمع|
+|شريط ثلاثي الأبعاد متفاوت|يمثل مخطط شريطي ثلاثي الأبعاد متفاوت المسافات|
 |Bar3D مكدسة|يمثل مخطط شريطي مكدس ثلاثي الأبعاد|
 |شريط ثلاثي الأبعاد 100٪ مكدس|يمثل مخطط شريطي مكدس بنسبة 100٪ ثلاثي الأبعاد|
 |خط|يمثل الخط البياني|
@@ -116,7 +116,7 @@ url: /ar/java/creating-and-customizing-charts/
 |مخروط 100٪ مكدسة|يمثل 100٪ مخطط مخروطي مكدس|
 |مخروطي الشكل|يمثل مخطط شريطي مخروطي الشكل|
 |مخروطي الشكل مكدس|يمثل مخطط شريطي مخروطي مكدس|
-|ConicalBar 100Percent مكدسة|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
+|مخروطي الشكل 100٪ مكدس|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
 |عمود مخروطي ثلاثي الأبعاد|يمثل مخطط عمودي مخروطي ثلاثي الأبعاد|
 |هرم|يمثل مخطط هرم|
 |الهرم مكدسة|يمثل مخطط هرم مكدس|
@@ -129,7 +129,7 @@ url: /ar/java/creating-and-customizing-charts/
 
 1.  أضف بعض البيانات إلى خلايا ورقة العمل بامتداد[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) أشياء[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)طريقة.
  سيتم استخدام هذا كمصدر بيانات للمخطط.
-1.  أضف مخططًا إلى ورقة العمل عن طريق استدعاء[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) المجموعة[*يضيف*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) ، مغلف في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)هدف.
+1.  أضف مخططًا إلى ورقة العمل عن طريق استدعاء[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) المجموعة[*يضيف*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) ، مغلف في ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)موضوع.
 1.  حدد نوع الرسم البياني بامتداد[**نوع التخطيط**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)تعداد.
  على سبيل المثال ، يستخدم المثال الامتداد[**نوع المخطط**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)القيمة كنوع المخطط.
 1.  الوصول إلى ملف[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) كائن من[**جمع الرسم البياني**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)جمع عن طريق تمرير الفهرس الخاص به.
@@ -176,7 +176,7 @@ url: /ar/java/creating-and-customizing-charts/
 
 يمكن للمطورين إنشاء مخططات مخصصة في وقت التشغيل باستخدام Aspose.Cells بسيط API.
 
- يتكون المخطط من سلسلة بيانات. يتم تمثيل كل سلسلة بيانات في Aspose.Cells بواسطة أ[**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) كائن في حين أن[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) الكائن بمثابة مجموعة من[**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء. عند إنشاء مخطط مخصص ، يتمتع المطورون بحرية استخدام أنواع مختلفة من المخططات لسلسلة بيانات مختلفة (مجمعة في ملف[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)هدف).
+ يتكون المخطط من سلسلة بيانات. يتم تمثيل كل سلسلة بيانات في Aspose.Cells بواسطة أ[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) كائن في حين أن[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) الكائن بمثابة مجموعة من[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)أشياء. عند إنشاء مخطط مخصص ، يتمتع المطورون بحرية استخدام أنواع مختلفة من المخططات لسلسلة بيانات مختلفة (مجمعة في ملف[**السلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)موضوع).
 
 {{% alert color="primary" %}}
 

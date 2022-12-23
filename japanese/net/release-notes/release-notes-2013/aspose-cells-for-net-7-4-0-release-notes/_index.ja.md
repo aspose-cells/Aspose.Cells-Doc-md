@@ -54,7 +54,7 @@ url: /ja/net/aspose-cells-for-net-7-4-0-release-notes/
 
 - DataTime 形式のセルでロケール設定が機能しない
 - [ヘッダー] タブの列に単純な引用符があるドキュメントの書式設定エラー
-- 文字列内の特定の文字の書式設定が XLSX ファイルで機能しない
+- 文字列内の特定の文字のフォーマットが XLSX ファイルで機能しない
 
 
 
@@ -78,19 +78,19 @@ url: /ja/net/aspose-cells-for-net-7-4-0-release-notes/
 
 バグ
 
- 41279 - ドル記号「$」を含むメニュー項目で GridWeb の検証メニュー リストが失敗する
+41279 - ドル記号「$」を含むメニュー項目で GridWeb の検証メニュー リストが失敗する
 
 41280- GridWeb の検証メニュー リストが、参照されたセル値を更新した後に更新される
 
 41294 - GridWeb は、検証リストを含むセルを含むファイルの FireFox では機能しません。
 
-41308 - セル値の編集中に Enter キーを押すと、IE で元の改行が失われる
+ 41308 - セル値の編集中に Enter キーを押すと、IE で元の改行が失われる
 
 - Chrome、FireFox などで機能しない Web グリッドでのコピー アンド ペーストの問題。
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

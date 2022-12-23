@@ -6,9 +6,9 @@ url: /ar/sharepoint/search-in-a-document/
 ---
 Aspose.Cells for SharePoint يدعم البحث في الوثائق المخزنة في مواقع SharePoint. يدعم Aspose.Cells لـ Share Point تنسيقات الإدخال التالية لمعاينة المستندات:
 
-- XLS - Microsoft إكسل 97 - 2003
+- XLS-Microsoft إكسل 97-2003
 - XLSX - Office Open XML
-- XLSM و XLTX و XLTM - Office Open XML
+- XLSM، XLTX، XLTM - Office Open XML
 - XML - Microsoft Excel SpreadsheetML
 
 للبحث في مستند:

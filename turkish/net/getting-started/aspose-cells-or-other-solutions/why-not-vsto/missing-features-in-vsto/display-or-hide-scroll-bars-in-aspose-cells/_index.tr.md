@@ -15,7 +15,7 @@ Microsoft Excel, kullanıcıların çalışma sayfası içeriklerinde gezinebilm
 
 {{% /alert %}}
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kaydırma çubuklarının görünürlüğünü kontrol etmek için,[**Çalışma Kitabı Ayarları**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) sınıf'[**IsVScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**IsHScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) özellikleri.[**IsVScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**IsHScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Boole özellikleridir; bu, bu özelliklerin yalnızca depolayabileceği anlamına gelir.**doğru** veya**yanlış** değerler.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kaydırma çubuklarının görünürlüğünü kontrol etmek için,[**Çalışma Kitabı Ayarları**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) sınıf'[**IsVScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**IsHScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) özellikler.[**IsVScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) ve[**IsHScrollBarGörünür**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) Boole özellikleridir; bu, bu özelliklerin yalnızca depolayabileceği anlamına gelir.**doğru** veya**YANLIŞ** değerler.
 
 Aşağıda, book1.xls adlı bir Excel dosyasını açan, her iki kaydırma çubuğunu da gizleyen ve ardından değiştirilen dosyayı output.xls olarak kaydeden eksiksiz bir kod bulunmaktadır.
 
@@ -23,11 +23,11 @@ Aşağıdaki ekran görüntüsü, her iki kaydırma çubuğunu da içeren Book1.
 
 **Book1.xls: Herhangi bir değişiklik yapılmadan önceki Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls: Değişiklikten sonra Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 

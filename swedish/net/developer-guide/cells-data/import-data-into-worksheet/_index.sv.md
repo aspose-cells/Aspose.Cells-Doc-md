@@ -66,7 +66,7 @@ För att importera data från en samling objekt till ett kalkylblad som innehål
 
 - **Datatabell** , den*Datatabell* objekt som du importerar innehållet från.
 - **Visas fältnamnet** , anger om namnen på*Datatabell*kolumner ska importeras till kalkylbladet som en första rad eller inte.
-- **Starta cell** representerar namnet på startcellen (till exempel "A1") varifrån du ska importera innehållet i*Datatabell*.
+- **Starta cell** , representerar namnet på startcellen (till exempel "A1") varifrån du ska importera innehållet i*Datatabell*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -74,7 +74,7 @@ För att importera data från en samling objekt till ett kalkylblad som innehål
 
 Aspose.Cells tillhandahåller funktioner för att arbeta med dynamiska objekt som datakälla. Det hjälper till att använda datakälla där egenskaper läggs dynamiskt till objekten. När egenskaperna har lagts till i objektet, betraktar Aspose.Cells den första posten som mallen och hanterar resten därefter. Det betyder att om någon dynamisk egenskap endast läggs till ett första objekt och inte till andra objekt, anser Aspose.Cells att alla objekt i samlingen bör vara desamma.
 
-det här exemplet används en mallmodell som initialt endast innehåller två variabler. Denna lista konverteras till Lista över dynamiska objekt. Sedan läggs ytterligare ett fält till i den och läses slutligen in i arbetsboken. Arbetsboken väljer endast de värden som finns i mallen XLSX-fil. Den här mallarbetsboken använder smarta markörer som också innehåller parametrar. Parametrar låter dig ändra hur informationen är upplagd. Detaljer om Smart Markers kan erhållas från följande artikel:
+det här exemplet används en mallmodell som initialt endast innehåller två variabler. Denna lista konverteras till Lista över dynamiska objekt. Sedan läggs ytterligare ett fält till i den och läses slutligen in i arbetsboken. Arbetsboken väljer endast de värden som finns i mallen XLSX-filen. Den här mallarbetsboken använder smarta markörer som också innehåller parametrar. Parametrar låter dig ändra hur informationen är upplagd. Detaljer om Smart Markers kan erhållas från följande artikel:
 
 [Använda smarta markörer](/cells/sv/net/using-smart-markers/)
 
@@ -114,9 +114,9 @@ Exempelkoden nedan visar användningen av[**ImportTableOptions.ColumnIndex**](ht
 
  För att importera data från en*GridView* kontroll, ring till[**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) metod för[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)samling.
 
-Aspose.Cells tillåter oss att respektera HTML-formaterade värden när vi importerar data till kalkylarket. När HTML-tolkning är aktiverat när data importeras, konverterar Aspose.Cells HTML-koden till motsvarande cellformatering.
+Aspose.Cells tillåter oss att respektera HTML formaterade värden när vi importerar data till kalkylarket. När HTML-tolkning är aktiverad när data importeras, konverterar Aspose.Cells HTML till motsvarande cellformatering.
 
-## **Importera HTML-formaterad data**
+## **Importerar HTML formaterad data**
 
  Aspose.Cells tillhandahåller en[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)klass som ger mycket användbara metoder för att importera data från externa datakällor. Den här artikeln visar hur du tolkar HTML-formaterad text medan du importerar data och konverterar HTML till formaterade cellvärden.
 
@@ -124,10 +124,10 @@ Aspose.Cells tillåter oss att respektera HTML-formaterade värden när vi impor
 
 ## **Importera data från JSON**
 
-Aspose.Cells tillhandahåller en[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) klass för bearbetning av JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) klass har en[**Importera data**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) metod för att importera JSON-data. Aspose.Cells tillhandahåller också en[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) klass som representerar alternativen för JSON-layout. De[**Importera data**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)metoden accepterar[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)som en parameter. De[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)klass ger följande egenskaper.
+Aspose.Cells tillhandahåller en[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) klass för bearbetning JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) klass har en[**Importera data**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) metod för att importera JSON data. Aspose.Cells tillhandahåller också en[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) klass som representerar alternativen för JSON layout. De[**Importera data**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)metoden accepterar[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)som en parameter. De[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)klass ger följande egenskaper.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): Indikerar i arrayen bör bearbetas som en tabell eller inte.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Hämtar eller ställer in ett värde som indikerar om strängen i JSON ska konverteras till numerisk eller datum.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): Hämtar eller ställer in ett värde som anger om strängen i JSON ska konverteras till numerisk eller datum.
 - [**Datumformat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): Hämtar och ställer in formatet för datumvärdet.
 - [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): Indikerar om titeln ska ignoreras om objektets egenskap är en array
 - [**IgnoreraNull**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): Indikerar om nollvärdet ska ignoreras eller inte.
@@ -135,7 +135,7 @@ Aspose.Cells tillhandahåller en[**JsonUtility**](https://reference.aspose.com/c
 - [**NumberFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): Hämtar och ställer in formatet för numeriskt värde.
 - [**Titelstil**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): Hämtar och ställer in stilen för titeln.
 
-Exempelkoden nedan visar användningen av[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) och[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) klasser för att importera JSON-data.
+Exempelkoden nedan visar användningen av[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) och[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) klasser för att importera JSON data.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

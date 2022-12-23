@@ -6,11 +6,11 @@ url: /de/java/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Wenn das Blatt leer ist, druckt Aspose.Cells nichts, wenn Sie das Arbeitsblatt in ein Bild exportieren. Sie können dieses Verhalten ändern, indem Sie verwenden[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) Eigentum. Wann werden Sie es einstellen**Stimmt**, wird die leere Seite gedruckt.
+ Wenn das Blatt leer ist, druckt Aspose.Cells nichts, wenn Sie das Arbeitsblatt in ein Bild exportieren. Sie können dieses Verhalten ändern, indem Sie verwenden[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) Eigentum. Wann werden Sie es einstellen**wahr**, wird die leere Seite gedruckt.
 
 ## **Leere Seite ausgeben, wenn nichts zu drucken ist**
 
-Der folgende Beispielcode erstellt die leere Arbeitsmappe, die ein leeres Arbeitsblatt enthält, und rendert das leere Arbeitsblatt nach dem Festlegen von in ein Bild[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint)Eigentum als**Stimmt**. Folglich wird die leere Seite generiert, da nichts zu drucken ist, was Sie unten sehen können.
+Der folgende Beispielcode erstellt die leere Arbeitsmappe, die ein leeres Arbeitsblatt enthält, und rendert das leere Arbeitsblatt nach dem Festlegen von in ein Bild[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint)Eigentum als**wahr**. Folglich wird die leere Seite generiert, da nichts zu drucken ist, was Sie unten sehen können.
 
 ![todo: Bild_alt_Text](output-blank-page-when-there-is-nothing-to-print_1.png)
 

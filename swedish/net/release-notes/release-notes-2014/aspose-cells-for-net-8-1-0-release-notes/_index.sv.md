@@ -11,7 +11,7 @@ url: /sv/net/aspose-cells-for-net-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET har uppdaterats till version 8.1.1 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -22,7 +22,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Nya egenskaper**
 
 
-(CELLSNET-42761) - Ta bort scenarier från kalkylbladen
+ (CELLSNET-42761) - Ta bort scenarier från kalkylbladen
 
 
 ## **Buggar**
@@ -32,7 +32,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42387) - Text har flyttats från bannern.
 
- (CELLSNET-42385) - Krökt anslutningsform visas inte när XLSX renderas till PDF
+ (CELLSNET-42385) - Krökt anslutningsform visas inte vid rendering av XLSX till PDF
 
  (CELLSNET-42379) - Text i matrisen visas annorlunda
 
@@ -42,9 +42,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42386) - GetPivotData-funktionen beräknar felaktigt värde
 
- (CELLSNET-42742) - Aspose.Cells Bäddar in felaktiga teckensnitt i PDF-filen
+ (CELLSNET-42742) - Aspose.Cells Bäddar in felaktiga teckensnitt i PDF
 
- (CELLSNET-42697) - Header dupliceras i utdata-pdf
+(CELLSNET-42697) - Header dupliceras i utdata-pdf
 
  (CELLSNET-42759) - X-axeletiketter på sjökortet är avskurna
 
@@ -52,7 +52,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42750) - Pilar visar spegelvända på en vertikal axel
 
-(CELLSNET-42748) - Förklaringslinjer är tunnare än i Excel
+ (CELLSNET-42748) - Förklaringslinjer är tunnare än i Excel
 
  (CELLSNET-42730) - XLSM till PDF tenderar att hänga sig när ändringar görs i Cell Value & Format
 
@@ -66,9 +66,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42725) - Infogad bild förlorar originalstorlek
 
- (CELLSNET-42716) - XLSM-band förlorade efter att ha sparat XLSM-filen igen
+ (CELLSNET-42716) - XLSM Band förlorade efter att ha sparat XLSM-filen på nytt
 
- (CELLSNET-42711) - Row.ApplyStyle fungerar inte korrekt
+(CELLSNET-42711) - Row.ApplyStyle fungerar inte korrekt
 
  (CELLSNET-42708) - Grön bakgrundsfärg för celler försvinner i HTML
 
@@ -80,7 +80,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42782) - System.FormatException vid läsning av xlsx-fil
 
-(CELLSNET-42758) - Angiven cast är inte ett giltigt undantag på Cell.GetDisplayStyle()
+ (CELLSNET-42758) - Angiven cast är inte ett giltigt undantag på Cell.GetDisplayStyle()
 
  (CELLSNET-42724) - StackOverflowException inträffade när metoden Worksheet/Workbook.CalculateFormula() anropades
 

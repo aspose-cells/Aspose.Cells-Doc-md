@@ -1,5 +1,5 @@
 ﻿---
-title: PDFブックマークを追加
+title: PDF ブックマークを追加
 type: docs
 weight: 10
 url: /ja/net/add-pdf-bookmarks/
@@ -12,7 +12,7 @@ Aspose.Cells を使用すると、その場でブックマークを追加でき�
 
 {{% /alert %}}
 
-PDF ブックマークを追加する方法については、次のサンプル コードを参照してください。このコードは単純なワークブックを生成し、PDF ブックマークと宛先の場所を指定して、PDF ファイルを生成します。
+PDF ブックマークを追加する方法については、次のサンプル コードを参照してください。このコードは、単純なワークブックを生成し、PDF ブックマークと宛先の場所を指定して、PDF ファイルを生成します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AddPDFBookmarks-1.cs" >}}
 

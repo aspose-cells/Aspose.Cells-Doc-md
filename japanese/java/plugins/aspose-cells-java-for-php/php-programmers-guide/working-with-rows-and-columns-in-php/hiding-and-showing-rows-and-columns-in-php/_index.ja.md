@@ -8,7 +8,7 @@ url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
 ### **行と列を非表示にする**
 開発者は、Cells コレクションの HideRow メソッドと HideColumn メソッドをそれぞれ呼び出すことで、行または列を非表示にできます。どちらのメソッドも、特定の行または列を非表示にするために、行/列のインデックスをパラメーターとして受け取ります。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -49,7 +49,7 @@ url: /ja/java/hiding-and-showing-rows-and-columns-in-php/
 - **行または列のインデックス**特定の行または列を表示するために使用される行または列のインデックス。
 - **行の高さまたは列の幅**- 行または列が表示された後に割り当てられる行の高さまたは列の幅。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

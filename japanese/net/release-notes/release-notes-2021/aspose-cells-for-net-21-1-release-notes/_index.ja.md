@@ -13,18 +13,18 @@ url: /ja/net/aspose-cells-for-net-21-1-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSNET-47376|リリース Aspose.Cells for .NET 5.0|新機能|
-|CELLSNET-40624| aspose を使用して行/列のデータ系列を切り替える方法|新機能|
+|CELLSNET-40624|aspose を使用して行/列のデータ系列を切り替える方法|新機能|
 |CELLSNET-42195|コントロールを xlsm から xls に変換する|新機能|
 |CELLSNET-47806|グラフのデータ ソース範囲を取得します。|新機能|
-|CELLSNET-47756|Excel から PDF への変換で SmartArt 図形が正しくレンダリングされない|バグ|
+|CELLSNET-47756|SmartArt 図形が Excel から PDF への変換で正しくレンダリングされない|バグ|
 |CELLSNET-47391|Excel から PDF への変換で図形が正しく配置されない|バグ|
 |CELLSNET-47766|矢印グラフは不完全です|バグ|
-|CELLSNET-47653|Diagram HTML 変換時にブロックがずれる|バグ|
-|CELLSNET-47720|XLSX を HTML に変換するときの無効な CSS および HTML マークアップ|バグ|
+|CELLSNET-47653|HTML に変換すると、Diagram ブロックがシフトされます。|バグ|
+|CELLSNET-47720|XLSX を HTML に変換するときの無効な CSS と HTML マークアップ|バグ|
 |CELLSNET-47746|HTML 属性の値のエンコードされていない引用符|バグ|
 |CELLSNET-47792|HTMLをExcelにインポートすると、画像がテキストに重なる|バグ|
 |CELLSNET-47797|XLSM ファイルが HTML でレンダリングされるとリンクが正しくない|バグ|
-|CELLSNET-47807|ネストされた A 要素を含む無効な HTML マークアップ|バグ|
+|CELLSNET-47807|ネストされた A 要素を持つ無効な HTML マークアップ|バグ|
 |CELLSNET-47778|IRR 計算は #NUM に評価されます|バグ|
 |CELLSNET-47814|GridDesktop のスクロールバーが非表示にならない|バグ|
 |CELLSNET-47744|PDF にエクスポートすると放射状プロットがつぶれる|バグ|
@@ -39,10 +39,10 @@ url: /ja/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNETCORE-93|H1 タグは、下線、斜体、太字などの追加タグなしではレンダリングされません|バグ|
 |CELLSNETCORE-97|RemoveExternalLinks() を呼び出すと例外が発生する|バグ|
 |CELLSNET-47719|xlsb を xlsx に保存できませんでした|例外|
-|CELLSNET-47784|IStreamProvider を使用して HTML ドキュメントをインポートする際の例外|例外|
+|CELLSNET-47784|IStreamProvider で HTML ドキュメントをインポート中に例外が発生しました|例外|
 |CELLSNET-47801|ピボット テーブルの CalculateData で例外がスローされる|例外|
 |CELLSNET-47809|Cell.ContainsExternalLink が「キャストできません」をスローします|例外|
-|CELLSNET-47791|Workbook.Save が失敗する原因となるグラフ|例外|
+|CELLSNET-47791|Workbook.Save が失敗する原因となるチャート|例外|
 |CELLSNET-47808|空のチャートの計算中に例外が発生しました|例外|
 |
 

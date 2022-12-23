@@ -10,10 +10,10 @@ url: /it/net/aspose-cells-for-net-19-11-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-44956|Supporto per nascondere gli intervalli selezionati e ordinare i risultati visualizzati della tabella pivot|Nuova caratteristica|
-|CELLSNET-46852|Supporta la lettura e la scrittura di tabelle la cui origine dati è una tabella di query nel file XLS.|Nuova caratteristica|
+|CELLSNET-46852|Supporta la lettura e la scrittura della tabella la cui origine dati è una tabella di query nel file XLS.|Nuova caratteristica|
 |CELLSNET-46967|Supporto per ottenere la dimensione del rientro in unità di pixel|Nuova caratteristica|
 |CELLSNET-46973|La formula di Excel non funziona nel file XLS generato|Aumento|
 |CELLSNET-46981|Supporto per lettura/scrittura con flusso di memoria per Workbook.ImportXml e Workbook.ExportXml|Aumento|
@@ -21,7 +21,7 @@ url: /it/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46898|Lo sfondo del modello 3D diventa blu|Insetto|
 |CELLSNET-46314|Problemi durante l'aggiornamento della tabella pivot con "Mostra valore come % del totale complessivo"|Insetto|
 |CELLSNET-46789|Il metodo CalculateData non funziona correttamente con il formato PDF|Insetto|
-|CELLSNET-46955|Il file da HTML a Excel solleva l'eccezione "L'elemento è già stato aggiunto"|Insetto|
+|CELLSNET-46955|HTML al file Excel solleva l'eccezione "L'elemento è già stato aggiunto"|Insetto|
 |CELLSNET-46987|Impossibile calcolare la formula quando si fa riferimento alle celle|Insetto|
 |CELLSNET-46968|La formula indiretta non funziona correttamente in MS Excel|Insetto|
 |CELLSNET-46991|Il file XLSX è danneggiato.|Insetto|
@@ -36,9 +36,9 @@ url: /it/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46965|La chiamata a Chart.Calculate() su un grafico vuoto con un titolo di testo automatico vuoto genera un errore|Insetto|
 |CELLSNET-46971|Il foglio appena copiato nasconde tutte le colonne nascoste e reimposta anche la larghezza delle colonne|Insetto|
 |CELLSNET-46972|Virgola rimossa dai titoli dei grafici una volta decifrato il file Excel|Insetto|
-|CELLSNET-46912|StackOverflowException generata durante la conversione di XLSX in HTML|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+|CELLSNET-46912|StackOverflowException generata durante la conversione da XLSX a HTML|Eccezione|
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge metodi: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
 Aggiunge/rimuove le impostazioni di convalida da determinate aree tenendo conto delle prestazioni.
 #### **Aggiunge il metodo Workbook.ImportXml(Stream stream, string sheetName, int row, int col).**

@@ -15,22 +15,22 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 19.12.
 |CELLSJAVA-43047|Hinzufügen von Tooltip-Text zur Zelle für den Export in HTML|Neue Funktion|
 |CELLSJAVA-43002|Unerwarteter CPU-Hotspot in ZipOutputStream beim Öffnen von XSLB|Erweiterung|
 |CELLSJAVA-43008|Option zum Deaktivieren des Ladens von OLE-Objekten beim Öffnen einer Arbeitsmappe|Erweiterung|
-|CELLSJAVA-42793|Fontwork SmartArt-Objekt während der ODS-zu-XLSX-Konvertierung verloren gegangen|Insekt|
+|CELLSJAVA-42793|Fontwork SmartArt-Objekt ging während der Konvertierung von ODS zu XLSX verloren|Insekt|
 |CELLSJAVA-43020|Radialdiagramm nach Aufruf von Chart.Calcluate() verzerrt|Insekt|
 |CELLSJAVA-43022|Form-zu-Bild-Fehler für XLS-Dateien|Insekt|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) verursacht unerwünschte Ergebnisse beim Aufruf von getFormula()|Insekt|
 |CELLSJAVA-43052|Validierungsproblem für boolesche Werte|Insekt|
-|CELLSJAVA-43054|Problem mit der CSV-Zusammenführung in den portugiesischen Einstellungen|Insekt|
+|CELLSJAVA-43054|Problem mit CSV Zusammenführen in portugiesischen Einstellungen|Insekt|
 |CELLSJAVA-43056|Cell.setFormula() wird für externe Links nicht aktualisiert|Insekt|
 |CELLSJAVA-42767|Bild bei der Konvertierung von Excel in PDF übersehen|Insekt|
-|CELLSJAVA-42913|Eingebettete Visio-Objekte werden falsch in PDF gerendert|Insekt|
+|CELLSJAVA-42913|Eingebettete Visio-Objekte wurden falsch auf PDF gerendert|Insekt|
 |CELLSJAVA-42883|Problem beim Extrahieren von Diagrammtext aus der Datei im Format Aspose.Cells for Java 95|Insekt|
 |CELLSJAVA-42931|Anhänge/Objekte wurden nicht von Excel95 abgerufen|Insekt|
 |CELLSJAVA-43051|Seitenverhältnis für das Bild nicht eingehalten|Insekt|
 |CELLSJAVA-43057|Problem beim Hinzufügen eines Kopfbilds zur ersten Seite in der Excel-Ausgabe|Insekt|
 |CELLSJAVA-43069|MS Excel gibt beim Öffnen der neu gespeicherten Datei von Aspose.Cells eine Reparaturmeldung aus|Insekt|
 |CELLSJAVA-43060|Ausnahme "java.lang.NullPointerException" auf Workbook.save nach dem Setzen der externen Datenquelle auf leer|Ausnahme|
-|CELLSJAVA-42923|Ausnahmen beim Laden des XLS-Dokuments|Ausnahme|
+|CELLSJAVA-42923|Ausnahmen beim Laden von XLS Dokument|Ausnahme|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
@@ -71,9 +71,9 @@ Unterstützt die Erkennung des .OTP-Dateiformats.
 ### **Fügt die AutoFitterOptions.AutoFitWrappedTextType-Eigenschaft und die AutoFitWrappedTextType-Aufzählung hinzu.**
 Ruft den Typ des automatisch angepassten umbrochenen Texts ab und legt ihn fest.
 ### **Fügt die EmfRenderSetting-Klasse hinzu**
-Setzt zum Rendern der EMF-Metadatei.
+Setzt zum Rendern von Metafile EMF.
 ### **Fügt die PdfSaveOptions.EmfRenderSetting-Eigenschaft hinzu**
-Legt fest, dass die EMF-Metadatei beim Rendern in eine PDF-Datei gerendert wird.
+Legt fest, dass EMF-Metadatei gerendert wird, während in PDF-Datei gerendert wird.
 ### **Fügt die Methode ShapeCollection.AddSvg() hinzu**
 Fügt ein SVG-Bild hinzu.
 ### **Fügt die WorkbookSettings.QuotePrefixToStyle-Eigenschaft hinzu**

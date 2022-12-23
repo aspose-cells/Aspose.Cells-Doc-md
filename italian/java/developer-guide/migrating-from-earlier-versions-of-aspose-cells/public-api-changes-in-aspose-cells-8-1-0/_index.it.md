@@ -1,16 +1,16 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.1.0
+title: Pubblico API Modifiche Aspose.Cells 8.1.0
 type: docs
 weight: 50
 url: /it/java/public-api-changes-in-aspose-cells-8-1-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.0.2 alla 8.1.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche al Aspose.Cells API dalla versione 8.0.2 alla 8.1.0, che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **Aggiunta proprietà HtmlSaveOptions.ExportHiddenWorksheet**
-La classe HtmlSaveOptions ha esposto la proprietà ExportHiddenWorksheet che può essere utilizzata per specificare se i fogli di lavoro nascosti vengono esportati in formato HTML. Il valore predefinito è vero. mentre se impostato su false, Aspose.Cells non esporterà i contenuti nascosti del foglio di lavoro.
+La classe HtmlSaveOptions ha esposto la proprietà ExportHiddenWorksheet che può essere utilizzata per specificare se i fogli di lavoro nascosti vengono esportati nel formato HTML. Il valore predefinito è vero. mentre se impostato su false, Aspose.Cells non esporterà i contenuti nascosti del foglio di lavoro.
 
 {{% alert color="primary" %}} 
 
@@ -22,7 +22,7 @@ La classe HtmlSaveOptions ha esposto la proprietà ExportHiddenWorksheet che pu�
 
 Il frammento di codice fornito di seguito dimostra l'utilizzo del metodo Cell.getStringValueWithoutFormat rispetto a cell.getDisplayStringValue creando un foglio di calcolo da zero e applicando il formato numerico a una delle celle.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

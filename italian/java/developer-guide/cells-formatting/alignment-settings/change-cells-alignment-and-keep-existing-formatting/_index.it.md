@@ -14,6 +14,6 @@ Il codice di esempio seguente carica il file[esempio di file Excel](67338592.xls
 
 ![cose da fare:immagine_alt_testo](change-cells-alignment-and-keep-existing-formatting_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-ChangeCellsAlignmentAndKeepExistingFormatting.java" >}}

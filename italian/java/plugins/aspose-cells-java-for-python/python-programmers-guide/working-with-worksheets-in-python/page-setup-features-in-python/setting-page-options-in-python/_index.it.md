@@ -1,14 +1,14 @@
 ﻿---
-title: Impostazione delle opzioni di pagina in Python
+title: Impostazione delle opzioni della pagina in Python
 type: docs
 weight: 10
 url: /it/java/setting-page-options-in-python/
 ---
 ## **Aspose.Cells - Impostazione Opzioni Pagina**
 ### **Orientamento della pagina**
- Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java per Ruby** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
+ Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java per Rubino** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -43,9 +43,9 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Fattore di scala**
- Per applicare il ridimensionamento utilizzando**Aspose.Cells Giava for Python** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
+ Per applicare il ridimensionamento utilizzando**Aspose.Cells Java for Python** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -77,6 +77,6 @@ print "Set scaling, please check the output file."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Impostazione opzioni pagina (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Impostazione opzioni pagina (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -32,7 +32,7 @@ Si vous souhaitez migrer vers le nouveau API, vous devrez peut-être effectuer l
 par exemple, Formes (Ancien) -> ShapeCollection (Nouveau), Worksheets (Ancien) -> WorksheetCollection (Nouveau), ..., etc.
 
 2) L'obtention d'un élément de la collection est modifiée. Par exemple, dans la version 2.5.4 ou antérieure, nous avions l'habitude de le faire sous la forme getXXX(int), dans la version 7.0.0 ou supérieure, nous le faisons maintenant sous la forme get(int) :
-par exemple, Worksheets.getSheet(int) (Ancien) -> WorksheetCollection.get(int) (Nouveau), ... etc.
+par exemple, Worksheets.getSheet(int) (Ancien) -> WorksheetCollection.get(int) (Nouveau), ...etc.
 
 3) L'obtention de la taille (nombre d'éléments) d'une collection est modifiée. Dans la v2.5.4 ou antérieure, nous avions l'habitude de le faire avec size(), dans la v7.0.0 ou supérieure, maintenant nous le faisons avec getCount() :
 Worksheets.size() (Ancien) -> WorksheetCollection.getCount() (Nouveau), ..., etc.

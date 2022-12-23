@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.5.0 pour W
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-778| Optimiser le module xml|Optimiser|
 |CELLSCPP-784| Correction du problème DateTime :: parseUTC|Insectes|

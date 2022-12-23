@@ -10,8 +10,8 @@ url: /tr/net/aspose-cells-for-net-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET, 8.1.2 sürümüne güncellendi ve bu sürümün 20'den fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+ Aspose.Cells for .NET, 8.1.2 sürümüne güncellendi ve bu sürümün 20'den fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
  Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -22,31 +22,31 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 ## **Verim**
 
 
- (CELLSNET-42820) - FileFormatUtil.DetectFileFormat, bozuk bir elektronik tablo algılarken sistemin tüm kullanılabilir belleğini kullanır
+(CELLSNET-42820) - FileFormatUtil.DetectFileFormat, bozuk bir elektronik tablo algılarken sistemin tüm kullanılabilir belleğini kullanır
 
 
 ## **Hatalar**
 
 
- (CELLSNET-42801) - PivotTable PDF'ye dönüştürüldüğünde veriler eksik
+ (CELLSNET-42801) - PivotTable PDF'e dönüştürüldüğünde veriler eksik
 
- (CELLSNET-42800) - PivotTable PDF'ye dönüştürüldüğünde Toplam Başlık eksik
+ (CELLSNET-42800) - PivotTable PDF'e dönüştürüldüğünde Toplam Başlık eksik
 
-(CELLSNET-42799) - Cell PivotTable PDF'ye dönüştürüldüğünde Birleştirme Sorunu
+ (CELLSNET-42799) - Cell PivotTable PDF'e dönüştürüldüğünde Birleştirme Sorunu
 
  (CELLSNET-42775) - Alt toplamlarla ilgili PivotTable hatası
 
  (CELLSNET-42749) - Ok çizgileri Excel'dekinden çok kalın
 
- (CELLSNET-42438) - Birleştirilmiş hücre içeriği, satırlar filtrelendiğinde ve e-tablo HTML'ye dönüştürüldüğünde kayboluyor
+ (CELLSNET-42438) - Satırlar filtrelendiğinde ve elektronik tablo HTML'e dönüştürüldüğünde birleştirilmiş hücre içeriği kayboluyor
 
- (CELLSNET-42353) - Aspose.Cells, XLS'yi PDF'ye dönüştürürken iki kat kalınlıkta ok üretir
+ (CELLSNET-42353) - Aspose.Cells, XLS'i PDF'e dönüştürürken iki kat kalınlıkta ok üretir
 
  (CELLSNET-42747) - Yazdırılan sonuç doğru şekilde ortalanmamış ve son satır kayboluyor
 
- (CELLSNET-42744) - Birleştirilmiş hücrelerdeki metin, PDF'ye dönüştürüldüğünde gösterilmiyor
+ (CELLSNET-42744) - Birleştirilmiş hücrelerdeki metin, PDF'e dönüştürüldüğünde gösterilmiyor
 
- (CELLSNET-42781) - ExcelShapeToImageRedactedEx.xls'i Tiff'e dönüştürürken şekil hatası
+(CELLSNET-42781) - ExcelShapeToImageRedactedEx.xls'i Tiff'e dönüştürürken şekil hatası
 
  (CELLSNET-42780) - ExcelShapeToImageError.xls dosyasını Tiff'e dönüştürürken Şekilden görüntüye geçiş hatası
 
@@ -54,7 +54,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42622) - xlsm dosyasını açıp kaydettikten sonra Excel grafik etiketleri çakışıyor
 
-(CELLSNET-42836) - Workbook.CalculateFormula ile eşleştirme formülü doğru hesaplanmıyor
+ (CELLSNET-42836) - Workbook.CalculateFormula ile eşleştirme formülü doğru hesaplanmıyor
 
  (CELLSNET-42818) - #SAYI! belirli hücreleri okurken hata
 
@@ -66,7 +66,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42635) - MonoDevelop, SIGSEGV hatasına neden oluyor
 
- (CELLSNET-42812) - Elektronik tabloyu PDF'ye dönüştürürken CellsException
+ (CELLSNET-42812) - Elektronik tabloyu PDF'e dönüştürürken CellsException
 
  (CELLSNET-42788) - ods dosyasını kaydederken System.NullReferenceException
 

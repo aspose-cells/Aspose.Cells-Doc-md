@@ -9,7 +9,7 @@ keywords: combine multiple workbooks into one, combine multiple workbooks into o
 ---
 {{% alert color="primary" %}}
 
-veces, necesita combinar libros de trabajo con varios contenidos como imágenes, gráficos y datos en un solo libro de trabajo. Aspose.Cells admite esta función. Este artículo muestra cómo crear una aplicación simple para combinar libros de trabajo con unas pocas líneas de código simples usando Aspose.Cells.
+A veces, necesita combinar libros de trabajo con varios contenidos como imágenes, gráficos y datos en un solo libro de trabajo. Aspose.Cells admite esta función. Este artículo muestra cómo crear una aplicación simple para combinar libros de trabajo con unas pocas líneas de código simples usando Aspose.Cells.
 
 {{% /alert %}}
 

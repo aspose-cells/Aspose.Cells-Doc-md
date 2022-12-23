@@ -1,5 +1,5 @@
 ﻿---
-title: Ta bort oanvända stilar i arbetsboken
+title: Ta bort oanvända formatmallar inuti arbetsboken
 type: docs
 weight: 340
 url: /sv/net/remove-unused-styles-inside-the-workbook/

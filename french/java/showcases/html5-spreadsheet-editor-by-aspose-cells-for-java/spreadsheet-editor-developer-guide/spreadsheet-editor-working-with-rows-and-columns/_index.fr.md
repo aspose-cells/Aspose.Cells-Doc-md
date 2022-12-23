@@ -36,7 +36,7 @@ L'éditeur ajoutera une nouvelle ligne à l'emplacement sélectionné.
 
 **Comment ça fonctionne?**
 
- La**Ajouter une ligne au-dessus** et**Ajouter une ligne ci-dessous** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+ Le**Ajouter une ligne au-dessus** et**Ajouter une ligne ci-dessous** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.addRowAbove**
 {{< highlight "java" >}}
 
@@ -110,7 +110,7 @@ L'éditeur ajoutera une nouvelle colonne à l'emplacement sélectionné.
 
 **Comment ça fonctionne?**
 
- La**Ajouter une colonne avant** et**Ajouter une colonne après** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+ Le**Ajouter une colonne avant** et**Ajouter une colonne après** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.addColumnBeforeWorksheetView.addColumnBefore**
 {{< highlight "java" >}}
 
@@ -175,7 +175,7 @@ L'éditeur supprimera la ligne qui comprend la cellule sélectionnée.
 
 **Comment ça fonctionne?**
 
- La**Supprimer la ligne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteRowWorksheetView.deleteRow**:
+ Le**Supprimer la ligne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteRowWorksheetView.deleteRow**:
 #### **WorksheetView.deleteRowWorksheetView.deleteRow**
 {{< highlight "java" >}}
 
@@ -215,7 +215,7 @@ L'éditeur supprimera la colonne qui contient la cellule sélectionnée.
 
 **Comment ça fonctionne?**
 
- La**Supprimer la colonne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteColumn**:
+ Le**Supprimer la colonne** le bouton est géré par le bean backend JSF**Feuille de calcul** en utilisant la méthode**WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
 {{< highlight "java" >}}
 
@@ -247,8 +247,8 @@ Pour modifier la largeur d'une colonne :
 
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la colonne.
 1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Largeur de colonne** bouton pour ouvrir**Largeur de colonne**dialogue.
-1. Saisissez une nouvelle valeur dans la boîte de dialogue.
+1.  Cliquez sur**Largeur de colonne** bouton pour ouvrir**Largeur de colonne** dialogue.
+1. Entrez une nouvelle valeur dans la boîte de dialogue.
 1.  Cliquez sur**proche**.
 
 L'éditeur modifiera la largeur de la colonne.
@@ -259,8 +259,8 @@ Pour modifier la hauteur d'une ligne :
 
 1. Cliquez sur n'importe quelle cellule à l'intérieur de la ligne.
 1.  Basculer vers**Onglet Format**.
-1.  Cliquez sur**Hauteur de ligne** bouton pour ouvrir**Hauteur de ligne**dialogue.
-1. Saisissez une nouvelle valeur dans la boîte de dialogue.
+1.  Cliquez sur**Hauteur de ligne** bouton pour ouvrir**Hauteur de ligne** dialogue.
+1. Entrez une nouvelle valeur dans la boîte de dialogue.
 1.  Cliquez sur**proche**.
 
 L'éditeur modifiera la hauteur de la ligne.
@@ -315,13 +315,13 @@ Pour ajouter une nouvelle cellule :
 1. Cliquez sur une cellule où vous voulez créer un nouveau.
 1.  Basculer vers**Insérer un onglet**.
 1.  Cliquez sur**Cell** bouton.
-1.  Choisir**Maj Cells Droite** ou**Maj Cells vers le bas** bouton.
+1.  Choisir**Maj Cells Droite** ou alors**Maj Cells vers le bas** bouton.
 
 L'éditeur ajoutera une nouvelle cellule à l'emplacement sélectionné. Les cellules adjacentes seront automatiquement décalées horizontalement ou verticalement pour créer de l'espace pour la nouvelle.
 
 **Comment ça fonctionne?**
 
- La**Maj Cells Droite** et**Maj Cells vers le bas** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+ Le**Maj Cells Droite** et**Maj Cells vers le bas** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.addCellShiftRight**
 {{< highlight "java" >}}
 

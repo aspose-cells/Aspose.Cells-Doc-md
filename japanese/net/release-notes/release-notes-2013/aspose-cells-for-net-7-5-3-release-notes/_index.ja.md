@@ -31,7 +31,7 @@ url: /ja/net/aspose-cells-for-net-7-5-3-release-notes/
 
 41884 - 出力 TIF イメージが正しくない
 
-41865 - Excel から MHTML への変換の問題
+41865 - Excel を MHTML に変換する問題
 
 41914 - ワークブックを結合するとファイルが破損する
 
@@ -50,7 +50,7 @@ IE10 (グリッドウェブ)
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

@@ -13,14 +13,14 @@ url: /sv/net/aspose-cells-for-net-19-11-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-44956|Stöd för att dölja valda intervall och sortera de visade resultaten av pivottabellen|Ny funktion|
-|CELLSNET-46852|Stöd läs- och skrivtabell vars datakälla är en frågetabell i XLS-filen.|Ny funktion|
+|CELLSNET-46852|Stöd läs- och skrivtabell vars datakälla är en frågetabell i filen XLS.|Ny funktion|
 |CELLSNET-46967|Stöd för att få indragsstorlek i pixelenhet|Ny funktion|
-|CELLSNET-46973|Excel-formel fungerar inte i genererad XLS-fil|Förbättring|
+|CELLSNET-46973|Excel-formeln fungerar inte i den genererade XLS-filen|Förbättring|
 |CELLSNET-46981|Stöd för att läsa/skriva med minnesström för Workbook.ImportXml och Workbook.ExportXml|Förbättring|
-|CELLSNET-46905|Inga ändringar för länkkälla sparad i XLS-fil|Förbättring|
+|CELLSNET-46905|Inga ändringar för länkkälla sparade i filen XLS|Förbättring|
 |CELLSNET-46898|Bakgrunden för 3D-modellen blir blå|Insekt|
 |CELLSNET-46314|Problem vid uppdatering av pivottabell med "Visa värde som % av totalsumman"|Insekt|
-|CELLSNET-46789|CalculateData-metoden fungerar inte korrekt med PDF-format|Insekt|
+|CELLSNET-46789|CalculateData-metoden fungerar inte korrekt med formatet PDF|Insekt|
 |CELLSNET-46955|HTML till Excel-fil väcker undantag "Artikel har redan lagts till"|Insekt|
 |CELLSNET-46987|Det går inte att beräkna formeln när man refererar till celler|Insekt|
 |CELLSNET-46968|Den indirekta formeln fungerar inte korrekt i MS Excel|Insekt|
@@ -36,7 +36,7 @@ url: /sv/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46965|Att anropa Chart.Calculate() på ett tomt diagram som har en tom autotexttitel ger ett fel|Insekt|
 |CELLSNET-46971|Det nyligen kopierade arket döljer alla dolda kolumner och återställer även kolumnbredden|Insekt|
 |CELLSNET-46972|Komma tas bort från diagramtitlar när Excel-filen är dekrypterad|Insekt|
-|CELLSNET-46912|StackOverflowException kastades när XLSX konverterades till HTML|Undantag|
+|CELLSNET-46912|StackOverflowException kastades vid konvertering av XLSX till HTML|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till metoder: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**

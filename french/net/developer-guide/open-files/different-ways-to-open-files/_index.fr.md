@@ -30,7 +30,7 @@ Il est également simple d'ouvrir un fichier Excel en tant que flux. Pour ce fai
 
 ## **Chargement des feuilles visibles uniquement**
 
- Lors du chargement d'un**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)**parfois, vous n'avez besoin que de données dans des feuilles de calcul visibles dans un classeur. Aspose.Cells vous permet d'ignorer des données dans des feuilles de calcul invisibles lors du chargement d'un classeur. Pour ce faire, créez une fonction personnalisée qui hérite de la**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**classe et passer son instance à**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**propriété.
+ Lors du chargement d'un**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)**parfois, vous n'avez besoin que de données dans des feuilles de calcul visibles dans un classeur. Aspose.Cells vous permet d'ignorer des données dans des feuilles de calcul invisibles lors du chargement d'un classeur. Pour ce faire, créez une fonction personnalisée qui hérite de la**[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter)**classe et passer son instance à**[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)**la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 

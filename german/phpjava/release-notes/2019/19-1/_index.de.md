@@ -13,19 +13,19 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for PHP via Java 19.1.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-41026|Unterstützung von Excel 95/5.0 (XLS-Dateien)|Neue Funktion|
-|CELLSJAVA-42778|Ausnahme „Stil textRotation muss zwischen 0 und 180 liegen“ beim Laden des XLSM|Erweiterung|
-|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Gedankenstriche werden in der PDF-Datei des Diagramms nicht richtig gerendert|Insekt|
+|CELLSJAVA-42778|Ausnahme "style textRotation must be between 0 and 180" beim Laden von XLSM|Erweiterung|
+|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Striche werden in Diagramm PDF nicht richtig gerendert|Insekt|
 |CELLSJAVA-42750|Die Elemente der Seitenfelder im PivotTable-Bericht können nicht abgerufen werden|Insekt|
 |CELLSJAVA-42783|Problem mit durchgestrichenem Text im generierten HTML-Dateiformat|Insekt|
-|CELLSJAVA-42784|Daten in einigen Zellen (z. B. G7, H7 usw.) werden nicht auf die gleiche Weise wie in der Originaldatei in der Excel-zu-HTML/Bild-Konvertierung gerendert|Insekt|
+|CELLSJAVA-42784|Daten in einigen Zellen (z. B. G7, H7 usw.) werden nicht wie in der Originaldatei in Excel nach HTML/Bildkonvertierung gerendert|Insekt|
 |CELLSJAVA-42797|Einige Stile werden in der HTML-Eingabe nicht gerendert|Insekt|
 |CELLSJAVA-42807|Formel/Funktion "ISOWEEKNUM"-Berechnung ist nicht dasselbe wie MS Excel|Insekt|
-|CELLSJAVA-42794|ODS zu XLSX - Textfarbe geändert|Insekt|
-|CELLSJAVA-42795|ODS zu XLSX - Durchgestrichene Schriftart wird nicht richtig beibehalten|Insekt|
-|CELLSJAVA-42796|ODS zu XLSX - Textfeldabmessungen geändert|Insekt|
-|CELLSJAVA-42798|ODS -> XLSX - Hyperlink ist funktionsfähig, wird aber als Klartext angezeigt|Insekt|
-|CELLSJAVA-42802|ODS zu XLSX, Prozentsätze gehen im Balkendiagramm verloren|Insekt|
-|CELLSJAVA-42803|Gliederung „SummaryRowBelow“ ist beim Speichern im XLSB-Dateiformat nicht betroffen|Insekt|
+|CELLSJAVA-42794|ODS bis XLSX - Textfarbe geändert|Insekt|
+|CELLSJAVA-42795|ODS bis XLSX – Durchgestrichene Schriftart wird nicht ordnungsgemäß beibehalten|Insekt|
+|CELLSJAVA-42796|ODS bis XLSX - Textfeldabmessungen geändert|Insekt|
+|CELLSJAVA-42798|ODS -> XLSX - Hyperlink funktioniert, wird aber als Klartext angezeigt|Insekt|
+|CELLSJAVA-42802|ODS bis XLSX, Prozentwerte gehen im Balkendiagramm verloren|Insekt|
+|CELLSJAVA-42803|Gliederung „SummaryRowBelow“ ist beim Speichern im Dateiformat XLSB nicht betroffen|Insekt|
 |CELLSJAVA-42757|CellsException beim Konvertieren von Dateien|Ausnahme|
 |CELLSJAVA-42799|Ausnahme "java.lang.ArrayIndexOutOfBoundsException: -32768" beim Laden eines XLSX-Dateiformats|Ausnahme|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException beim Laden einer Arbeitsmappe|Ausnahme|
@@ -46,7 +46,7 @@ Ruft alle Schlüssel des Datensortierers ab.
 #### **Fügt SortOnType-Aufzählung hinzu**
 Repräsentiert den Typ der sortierten Daten.
 #### **Fügt die ODSLoadOptions-Klasse hinzu**
-Stellt die Optionen zum Laden der ODS-Datei dar.
+Repräsentiert die Optionen zum Laden der Datei ODS.
 #### **Fügt die HTMLLoadOptions.ProgId-Eigenschaft hinzu**
 Ruft die Programm-ID zum Erstellen der Datei ab. Wird nur für MHT-Dateien verwendet.
 #### **Fügt die PdfSaveOptions.TextCrossType-Eigenschaft hinzu**

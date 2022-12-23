@@ -29,7 +29,7 @@ url: /ru/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 |CELLSJAVA-44789|Проблема с заменой символьной строки текстового поля, размещенного в электронной таблице Excel|
 |CELLSJAVA-44792| Бесконечное сохранение книги в формате HTML (2892)|
 |CELLSJAVA-44763|Исключение «java.lang.IllegalArgumentException: невозможно проанализировать номер аргумента: 1: X8» при загрузке файла Excel с использованием «org.apache.commons.io.input.AutoCloseInputStream»|
-|CELLSJAVA-44774|Ошибка при сохранении в формате PDF. Требуется проверка|
+|CELLSJAVA-44774|Ошибка при сохранении как PDF - Требуется расследование|
 
 ## **Public API и обратно несовместимые изменения**
 

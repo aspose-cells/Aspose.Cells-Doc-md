@@ -19,7 +19,7 @@ url: /sv/net/aspose-cells-net-3-7-1-0-hot-fix-release-notes/
 - Stöddiagram GapWidth-inställning
 - Stöd för att ladda hyperlänkar i kalkylarkML
 - Minskad utdatafilstorlek
-- Optimerad CSV-filbehandling
+- Optimerad CSV filbehandling
 - Fixade en bugg i inställningsdiagrammets jämna linje
 
 

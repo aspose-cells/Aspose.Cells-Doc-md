@@ -6,7 +6,7 @@ url: /ar/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[نسخ بيانات النطاق فقط](/cells/ar/java/copy-range-data-only/) و[نسخ بيانات النطاق بالنمط](/cells/ar/java/copy-range-data-with-style/) شرح كيفية نسخ البيانات من نطاق إلى آخر بتنسيق أو بدون تنسيق. من الممكن أيضًا نسخ تنسيق النطاق فقط. يوضح هذا المقال كيف.
+[نسخ بيانات النطاق فقط](/cells/ar/java/copy-range-data-only/) و[نسخ بيانات النطاق بالنمط](/cells/ar/java/copy-range-data-with-style/)شرح كيفية نسخ البيانات من نطاق إلى آخر بتنسيق أو بدون تنسيق. من الممكن أيضًا نسخ تنسيق النطاق فقط. يوضح هذا المقال كيف.
 
 {{% /alert %}} 
 ## **نسخ نمط النطاق فقط**

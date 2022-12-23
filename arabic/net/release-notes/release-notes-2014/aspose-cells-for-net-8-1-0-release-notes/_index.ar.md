@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for .NET إلى الإصدار 8.1.1 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 20 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -22,7 +22,7 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 ## **ميزات جديدة**
 
 
-(CELLSNET-42761) - إزالة السيناريوهات من أوراق العمل
+ (CELLSNET-42761) - إزالة السيناريوهات من أوراق العمل
 
 
 ## **البق**
@@ -32,7 +32,7 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 
  (CELLSNET-42387) - تم نقل النص خارج الشعار.
 
- (CELLSNET-42385) - لا يظهر شكل الموصل المنحني عند تحويل XLSX إلى PDF
+ (CELLSNET-42385) - لا يظهر شكل الموصل المنحني عند التقديم XLSX إلى PDF
 
  (CELLSNET-42379) - يتم عرض النص في المصفوفة بشكل مختلف
 
@@ -42,9 +42,9 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 
  (CELLSNET-42386) - دالة GetPivotData تحسب القيمة الخاطئة
 
- (CELLSNET-42742) - Aspose.Cells يدمج الخطوط غير الصحيحة في PDF
+ (CELLSNET-42742) - Aspose.Cells يقوم بتضمين خطوط غير صحيحة في PDF
 
- (CELLSNET-42697) - يتم تكرار الرأس في ملف pdf الناتج
+(CELLSNET-42697) - يتم تكرار الرأس في ملف pdf الناتج
 
  (CELLSNET-42759) - تم قطع تسميات المحور X للمخطط
 
@@ -52,9 +52,9 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 
  (CELLSNET-42750) - تظهر الأسهم معكوسة على محور عمودي
 
-(CELLSNET-42748) - خطوط الأسطورة أرق مما في Excel
+ (CELLSNET-42748) - خطوط الأسطورة أرق مما في Excel
 
- (CELLSNET-42730) - يميل XLSM إلى PDF إلى التعطل عند إجراء تغييرات على القيمة والتنسيق Cell
+ (CELLSNET-42730) - تميل XLSM إلى PDF إلى التعطل عند إجراء تغييرات على القيمة والتنسيق Cell
 
  (CELLSNET-42381) - لم تتم طباعة قائمة التعداد النقطي بشكل صحيح تحت عنوان القائمة
 
@@ -66,9 +66,9 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 
  (CELLSNET-42725) - تفقد الصورة المدرجة حجمها الأصلي
 
- (CELLSNET-42716) - فقدت شرائط XLSM بعد إعادة حفظ ملف XLSM
+ (CELLSNET-42716) - فقدت XLSM شرائط بعد إعادة حفظ ملف XLSM
 
- (CELLSNET-42711) - لا يعمل Row.ApplyStyle بشكل صحيح
+(CELLSNET-42711) - لا يعمل Row.ApplyStyle بشكل صحيح
 
  (CELLSNET-42708) - يختفي لون الخلفية الأخضر للخلايا في HTML
 
@@ -80,7 +80,7 @@ url: /ar/net/aspose-cells-for-net-8-1-0-release-notes/
 
  (CELLSNET-42782) - System.FormatException عند قراءة ملف xlsx
 
-(CELLSNET-42758) - التمثيل المحدد ليس استثناءً صالحًا على Cell. GetDisplayStyle ()
+ (CELLSNET-42758) - التمثيل المحدد ليس استثناءً صالحًا على Cell. GetDisplayStyle ()
 
  (CELLSNET-42724) - حدث StackOverflowException عند استدعاء طريقة Worksheet / Workbook.CalculateFormula ()
 

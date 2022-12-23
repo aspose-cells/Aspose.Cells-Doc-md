@@ -24,17 +24,17 @@ Les feuilles de calcul protégées ne cachent ni ne protègent les données sens
 
 ### **Protéger une feuille de calcul**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
- La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Protéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) méthode utilisée pour appliquer la protection sur la feuille de calcul.[**Protéger**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) La méthode accepte les paramètres suivants :
+ Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fournit la[**Protéger**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) méthode utilisée pour appliquer la protection sur la feuille de calcul.[**Protéger**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/protect/methods/1) La méthode accepte les paramètres suivants :
 
 -  Type de protection, le type de protection à appliquer sur la feuille de calcul. Le type de protection est appliqué à l'aide du[**Type de protection**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)énumération.
 - Nouveau mot de passe, le nouveau mot de passe utilisé pour protéger la feuille de calcul.
 - Ancien mot de passe, l'ancien mot de passe, si la feuille de calcul est déjà protégée par un mot de passe. Si la feuille de calcul n'est pas déjà protégée, passez simplement null.
 
- La[**Type de protection**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)L'énumération contient les types de protections prédéfinis suivants :
+ Le[**Type de protection**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)L'énumération contient les types de protections prédéfinis suivants :
 
-|**Types de protection**|**La description**|
+|**Types de protection**|**Description**|
 |:- |:- |
 |Tout|L'utilisateur ne peut rien modifier sur cette feuille de calcul|
 |Contenu|L'utilisateur ne peut pas entrer de données dans cette feuille de calcul|
@@ -54,7 +54,7 @@ Une fois le code ci-dessus utilisé pour protéger la feuille de calcul, vous po
 |:- |
 |![tâche : image_autre_texte](protecting-worksheets_1.png)|
 
-Pour travailler sur la feuille de calcul, déprotégez la feuille de calcul en sélectionnant le**protection** , alors**Déprotéger la feuille** du**Outils** élément du menu.
+Pour travailler sur la feuille de calcul, déprotégez la feuille de calcul en sélectionnant le**protection** , ensuite**Déprotéger la feuille** du**Outils** élément du menu.
 
 Après avoir sélectionné l'élément de menu Déprotéger la feuille, une boîte de dialogue s'ouvrira qui vous invitera à entrer le mot de passe afin que vous puissiez travailler sur la feuille de calcul comme indiqué ci-dessous :
 
@@ -78,7 +78,7 @@ Les points suivants décrivent comment verrouiller quelques cellules à l'aide d
 
 Dans cette méthode, nous utilisons Aspose.Cells API uniquement pour effectuer la tâche.
 
- Exemple : L'exemple suivant montre comment protéger quelques cellules dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille 3 cellules (A1, B1, C1). Enfin, il protège la feuille de calcul. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété à vrai ou faux et appliquez*Colonne/Ligne.ApplyStyle()* méthode pour verrouiller ou déverrouiller la ligne/colonne avec les attributs souhaités.
+ Exemple : L'exemple suivant montre comment protéger quelques cellules dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille 3 cellules (A1, B1, C1). Enfin, il protège la feuille de calcul. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété à vrai ou faux et appliquez*Colonne/Ligne.ApplyStyle()* méthode pour verrouiller ou déverrouiller la ligne/colonne avec les attributs souhaités.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificCellsinaWorksheet-1.cs" >}}
 
@@ -86,7 +86,7 @@ Dans cette méthode, nous utilisons Aspose.Cells API uniquement pour effectuer l
 
  Aspose.Cells vous permet de verrouiller facilement n'importe quelle ligne de la feuille de calcul. Ici, nous pouvons utiliser[**AppliquerStyle()**](https://reference.aspose.com/cells/net/aspose.cells/row/methods/applystyle) méthode de[**Aspose.Cells.Row**](https://reference.aspose.com/cells/net/aspose.cells/row) classe à appliquer[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) à une ligne particulière de la feuille de calcul. Cette méthode prend deux arguments : a[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet et[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objet qui a tous les membres liés à la mise en forme appliquée.
 
- L'exemple suivant montre comment protéger une ligne dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première ligne de celle-ci. Enfin, il protège la feuille de calcul. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété sur true ou false pour verrouiller ou déverrouiller la ligne/colonne à l'aide de la[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objet.
+ L'exemple suivant montre comment protéger une ligne dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première ligne de celle-ci. Enfin, il protège la feuille de calcul. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété sur true ou false pour verrouiller ou déverrouiller la ligne/colonne à l'aide de la[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objet.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectingSpecificRowInWorksheet-1.cs" >}}
 
@@ -94,7 +94,7 @@ Dans cette méthode, nous utilisons Aspose.Cells API uniquement pour effectuer l
 
  Aspose.Cells vous permet de verrouiller facilement n'importe quelle colonne de la feuille de calcul. Ici, nous pouvons utiliser[**AppliquerStyle()**](https://reference.aspose.com/cells/net/aspose.cells/column/methods/applystyle) méthode de[**Aspose.Cells.Column**](https://reference.aspose.com/cells/net/aspose.cells/column) classe à appliquer[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) à une colonne particulière de la feuille de calcul. Cette méthode prend deux arguments : a[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet et[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objet qui a tous les membres liés à la mise en forme appliquée.
 
-L'exemple suivant montre comment protéger une colonne dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première colonne de celle-ci. Enfin, il protège la feuille de calcul. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété sur true ou false pour verrouiller ou déverrouiller la ligne/colonne à l'aide de la[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objet.
+L'exemple suivant montre comment protéger une colonne dans la feuille de calcul. Il déverrouille d'abord toutes les cellules de la feuille de calcul, puis verrouille la première colonne de celle-ci. Enfin, il protège la feuille de calcul. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet contient une propriété booléenne,[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Vous pouvez définir[**Est verrouillé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) propriété sur true ou false pour verrouiller ou déverrouiller la ligne/colonne à l'aide de la[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag)objet.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-Protecting-ProtectColumnWorksheet-1.cs" >}}
 

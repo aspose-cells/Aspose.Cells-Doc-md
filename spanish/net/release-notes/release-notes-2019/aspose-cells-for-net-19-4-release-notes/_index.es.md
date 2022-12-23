@@ -21,9 +21,9 @@ url: /es/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46686|Admite la toma de espacios en blanco (código de caracteres 20) como separador de grupos de números para el idioma francés|Mejora|
 |CELLSNET-46649|Gran PDF generado en comparación con la herramienta en línea iLovePDF|Mejora|
 |CELLSNET-46093|Los gráficos no respetan la configuración de página en blanco y negro|Mejora|
-|CELLSNET-46677|La exportación de Excel a PDF no representa los textos árabes con precisión en los gráficos|Mejora|
-|CELLSNET-46639|Admite salto de página vertical para archivos ODS.|Mejora|
-|CELLSNET-46631|Excepción OutOfMemoryException al renderizar|Actuación|
+|CELLSNET-46677|Exportar Excel a PDF no representa los textos en árabe con precisión en los gráficos|Mejora|
+|CELLSNET-46639|Admite salto de página vertical para el archivo ODS.|Mejora|
+|CELLSNET-46631|Excepción OutOfMemoryException al renderizar|Rendimiento|
 |CELLSNET-46596|Faltan etiquetas en las formas|Insecto|
 |CELLSNET-46615|Shape.ToImage() exporta imágenes de diferentes tamaños|Insecto|
 |CELLSNET-46637|Errores de formato en HTML generado|Insecto|
@@ -33,7 +33,7 @@ url: /es/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46671|Range.Copy después de Range.CopyData corrompe el libro de trabajo|Insecto|
 |CELLSNET-42423|Guardar en PDF recorta los datos de la fila|Insecto|
 |CELLSNET-45698|El método Worksheet.AutoFitColumns corta el texto largo mientras se procesa en PDF|Insecto|
-|CELLSNET-46661|Menos número de páginas renderizadas en PDF en comparación con Excel 365|Insecto|
+|CELLSNET-46661|Menos número de páginas procesadas en PDF en comparación con Excel 365|Insecto|
 |CELLSNET-46673|Problema de tamaño de archivo al convertir Excel a PDF|Insecto|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue no funciona como se esperaba|Insecto|
 |CELLSNET-46655|Las etiquetas del eje de categoría de varios niveles se pierden al guardar con RefreshChartCache = true|Insecto|
@@ -48,7 +48,7 @@ url: /es/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46662|Problema al obtener BuiltInDocumentProperties|Insecto|
 |CELLSNET-46663|El tamaño de la imagen cambió al convertir XLS a PDF|Insecto|
 |CELLSNET-46667|Las filas ocultas se recuperan mientras PlotVisibleRows = true|Insecto|
-|CELLSNET-46668|La línea de puntos se vuelve continua cuando XLSX se guarda como ODS|Insecto|
+|CELLSNET-46668|La línea de puntos se vuelve sólida cuando XLSX se guarda como ODS|Insecto|
 |CELLSNET-46669|Error de forma a imagen al renderizar un archivo de Excel a PDF|Excepción|
 |CELLSNET-46645|Excepción generada al llamar a PivotTable.GetChildrens()|Excepción|
 |CELLSNET-46675|Excepción al abrir un archivo XLSX|Excepción|

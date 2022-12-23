@@ -17,9 +17,9 @@ Im Folgenden sind die Schritte zum Kopieren und Verschieben von Arbeitsblättern
 1. Um Blätter in eine andere Arbeitsmappe zu verschieben oder zu kopieren, öffnen Sie die Arbeitsmappe, die die Blätter erhalten soll.
 1. Wechseln Sie zu der Arbeitsmappe, die die Blätter enthält, die Sie verschieben oder kopieren möchten, und wählen Sie dann die Blätter aus.
 1.  Auf der**Bearbeiten** Menü, klicken**Blatt verschieben oder kopieren**.
-1.  In dem**Buchen** Klicken Sie im Dialogfeld auf die Arbeitsmappe, um die Blätter zu erhalten.
+1.  Im**Buchen** Klicken Sie im Dialogfeld auf die Arbeitsmappe, um die Blätter zu erhalten.
 1.  Um die ausgewählten Blätter in eine neue Arbeitsmappe zu verschieben oder zu kopieren, klicken Sie auf**Neues Buch**.
-1.  In dem**Vor Blatt** klicken Sie auf das Blatt, vor dem Sie die verschobenen oder kopierten Blätter einfügen möchten.
+1.  Im**Vor Blatt** klicken Sie auf das Blatt, vor dem Sie die verschobenen oder kopierten Blätter einfügen möchten.
 1.  Um die Blätter zu kopieren, anstatt sie zu verschieben, wählen Sie aus**Erstellen Sie eine Kopie** Kontrollkästchen.
 ### **Kopieren Sie Arbeitsblätter innerhalb einer Arbeitsmappe mit Aspose.Cells**
  Aspose.Cells bietet eine überladene Methode[HinzufügenKopie()](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#aa1e73c54ea19bb7aa0f9f197c2baa5ba)die verwendet wird, um der Sammlung ein Arbeitsblatt hinzuzufügen und Daten aus einem vorhandenen Arbeitsblatt zu kopieren. Eine Version der Methode nimmt den Index des Quellarbeitsblatts als Parameter. Die andere Version übernimmt den Namen des Quellarbeitsblatts. Das folgende Beispiel zeigt, wie Sie ein vorhandenes Arbeitsblatt innerhalb einer Arbeitsmappe kopieren.

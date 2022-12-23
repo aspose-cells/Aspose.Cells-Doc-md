@@ -6,7 +6,7 @@ url: /it/java/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}} 
 
- È possibile creare una tabella dati in Microsoft Excel utilizzando Dati > Analisi what-if > Tabella dati.... Aspose.Cells ora consente di calcolare la formula di matrice della tabella dati. Si prega di utilizzare[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) come normale per il calcolo di qualsiasi tipo di formule.
+È possibile creare la tabella dati in Microsoft Excel utilizzando Dati > Analisi what-if > Tabella dati.... Aspose.Cells consente ora di calcolare la formula di matrice della tabella dati. Si prega di utilizzare[Workbook.calculateFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula\(\)) come normale per il calcolo di qualsiasi tipo di formule.
 
 {{% /alert %}} 
 ## **Calcolo della formula di matrice delle tabelle di dati**

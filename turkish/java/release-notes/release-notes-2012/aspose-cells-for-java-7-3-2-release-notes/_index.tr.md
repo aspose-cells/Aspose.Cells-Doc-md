@@ -20,30 +20,30 @@ Biz
 
  Geliştirmeler
 
-- PDF dönüştürmede bellek kaynaklarını serbest bırakmak için dahili akışları kapatın
+- PDF dönüştürmesinde bellek kaynaklarını serbest bırakmak için dahili akışları kapatın
 - Çalışma sayfasını kopyalarken Mini Grafikleri Kopyala
 
  İstisnalar
 
-- Bir XLS dosyasının açılması StackOverflowError'a neden oldu
-- PDF'nin kaydedilmesi İstisnaya neden oldu
+- XLS dosyasının açılması StackOverflowError'a neden oldu
+- PDF'in kaydedilmesi İstisnaya neden oldu
 - Worksheet.getFreezedPanes(), NullPointerException'a neden oldu
 - Boş bir XML dosyasının açılması bir istisnaya neden oldu
-- PDF'ye kaydetme bir istisnaya neden oldu -I
-- PDF'ye kaydetme bir istisnaya neden oldu -II
-- PDF'ye kaydetme bir istisnaya neden oldu -III
-- PDF'ye kaydetme bir istisnaya neden oldu -IV
+- PDF'e kaydetmek bir istisnaya neden oldu -I
+- PDF'e kaydetmek bir istisnaya neden oldu -II
+- PDF'e kaydetmek bir istisnaya neden oldu -III
+- PDF'e kaydetmek bir istisnaya neden oldu -IV
 - HTM şablon dosyasını açarken istisna
 - anXLS dosyasını açarken IllegalArgumentException
 - Bir XLS dosyası açılırken NullPointerException
-- Bir XLS dosyasını açarken ArrayIndexOutOfBounds istisnası
+- XLS dosyasını açarken ArrayIndexOutOfBounds istisnası
 - Otomatik sıralamayı ayarladıktan sonra PivotTable'ı kaydetme, ClassCastException'a neden oldu
-- PDF'yi Aspose Cells kullanarak kaydederken görüntüden şekle hatası
+- PDF'i Aspose Cells kullanarak kaydederken şekil hatası
 - Kılavuz çizgilerini PDF'ye yazdırırken CellsException
 
  Hatalar
 
-- XLS şablonuna kaydedilen bazı bölgeler okuma sırasında tanınamadı
+- XLS şablonunda kaydedilen bazı bölgeler okuma sırasında tanınamadı
 - Grafikten Görüntüye, Çubuk grafikler için ölçeği oluşturmada başarısız oluyor
-- XLSX'ten PDF'ye dönüştürmeden sonra veri kaybı
+- XLSX'den PDF'e dönüştürmeden sonra veri kaybı
 - Hücre koleksiyonu temizlenirse Pasta ve Dağılım grafikleri çalışmaz

@@ -10,7 +10,7 @@ url: /ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook
 
 {{% /alert %}} 
 
-次のサンプル コードは、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)財産。をダウンロードしてください[Aspose ロゴ](5115218.png)入力 HTML 内で使用され、[出力エクセルファイル](5115220.xlsx)コードによって生成されます。
+次のサンプル コードは、[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)財産。をダウンロードしてください[Aspose ロゴ](5115218.png)入力 HTML と[出力エクセルファイル](5115220.xlsx)コードによって生成されます。
 
 
 

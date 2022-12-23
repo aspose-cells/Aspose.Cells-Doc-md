@@ -12,18 +12,18 @@ url: /tr/java/aspose-cells-for-java-20-1-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41325|Cell.getValidation yöntemi, ODS için null değerini döndürür|Yeni özellik|
-|CELLSJAVA-43074|XLSX'ten PDF'e, Oracle JDK ile Open JDK'yı karşılaştırırken PDF çıktısındaki fark|Artırma|
+|CELLSJAVA-41325|Cell.getValidation yöntemi, ODS için boş değer döndürür|Yeni özellik|
+|CELLSJAVA-43074|XLSX - PDF, Open JDK'ye karşı Oracle JDK kullanırken PDF çıkışındaki fark|Artırma|
 |CELLSJAVA-43083|Opaklık sütun grafiklere uygulanmıyor|Böcek|
 |CELLSJAVA-41879|%of, %of Row, %of ParentRowTotal, %ParentTotal vb. pivot excel çıktısında çalışmıyor|Böcek|
-|CELLSJAVA-43062|Cell'in varsayılan arka plan rengi, çıktı HTML'sinde yanlış|Böcek|
+|CELLSJAVA-43062|Cell'in varsayılan arka plan rengi, HTML çıktısında yanlış|Böcek|
 |CELLSJAVA-43063|SheetRender.toImage() çıktısı yanlış|Böcek|
 |CELLSJAVA-43070|hesaplaFormula() değeri hesaplamaz|Böcek|
 |CELLSJAVA-43086|Yüzde Biçim Stili, Norveç Yerel Ayarı altında yanlış uygulanmış|Böcek|
 |CELLSJAVA-43082|Tablonun her bir ilk satırında işlenen daha küçük yazı tipi|Böcek|
-|CELLSJAVA-41360|Formüller içeren Cells, ODS içinde görüntülenmezken PDF içinde görüntülenir|Böcek|
-|CELLSJAVA-42786|ODS'den XLSX'e - çizgi grafiği, satırları ve gösterge girişlerini kaybeder|Böcek|
-|CELLSJAVA-42788|ODS'den XLSX'e - daire kare olur|Böcek|
+|CELLSJAVA-41360|Cells ve formüller PDF içinde görüntülenirken ODS içinde görüntülenmez|Böcek|
+|CELLSJAVA-42786|ODS - XLSX - çizgi grafik satırları ve gösterge girişlerini kaybediyor|Böcek|
+|CELLSJAVA-42788|ODS ila XLSX - daire kare olur|Böcek|
 |CELLSJAVA-43073|Çalışma kitabında DataMashup bilgilerine erişilemiyor|Böcek|
 |CELLSJAVA-43092|Excel dosyası işlenemiyor|Böcek|
 
@@ -38,7 +38,7 @@ Güçlü sorgu formülünün tanımını alır.
 ### **DBConnection.PowerQueryFormula özelliğini ekler.**
 Güçlü sorgu formülünün tanımını alır.
 ### **HtmlSaveOptions.ExportHeadings özelliğini ekler.**
-Dosyayı HTML'ye kaydederken başlıkların dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer yanlıştır. HTML dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
+Dosya HTML'e kaydedilirken başlıkların dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer false'tur. HTML dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 ### **XAdESType sınıfı ekler**
 XML Gelişmiş Elektronik İmza (XAdES) türü.
 ### **DigitalSignature.XAdESType özelliğini ekler**

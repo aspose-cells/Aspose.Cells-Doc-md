@@ -6,7 +6,7 @@ url: /ru/net/sitefinity-export-users-to-excel/
 ---
 **Краткое содержание**
 
-- [Введение](#SitefinityExportUserstoExcel-Introduction)
+- [Вступление](#SitefinityExportUserstoExcel-Introduction)
 - [Системные требования и поддерживаемые платформы](#SitefinityExportUserstoExcel-SystemRequirementsandSupportedPlatforms) 
   - [Системные Требования](#SitefinityExportUserstoExcel-SystemRequirements)
   - [Поддерживаемые платформы](#SitefinityExportUserstoExcel-SupportedPlatforms)
@@ -20,7 +20,7 @@ url: /ru/net/sitefinity-export-users-to-excel/
   - [Демонстрационное видео](#SitefinityExportUserstoExcel-VideoDemo)
 - [Поддерживать](#SitefinityExportUserstoExcel-Support)
 - [Расширяйте и вносите свой вклад](#SitefinityExportUserstoExcel-ExtendandContribute)
-## **Введение**
+## **Вступление**
 Aspose .NET Экспорт пользователей в Excel для модуля SiteFinity позволяет разработчикам экспортировать пользователей SiteFinity в Microsoft Excel или электронную таблицу OpenOffice. Этот модуль демонстрирует мощную функцию построения электронных таблиц, предоставляемую Aspose.Cells.
 
 ## **Системные требования и поддерживаемые платформы**
@@ -68,17 +68,17 @@ Aspose .NET Экспорт пользователей в Excel для модул
 1. Войдите в свою CMS Sitefinity с помощью '**Администратор** ' учетная запись. На страницу входа можно попасть<http://www.mywebsite.com/sitefinity>
 1.  Нажмите**Администрация** а потом**Настройки**.
 Появится страница основных настроек.
-1.  Нажмите на**Передовой** ссылка на сайт.
+1.  Нажмите на**Передовой** соединять.
  Появится страница настроек.
-1.  На левой панели щелкните**Ящики для инструментов** с последующим**Ящики для инструментов** , тогда**PageControls**, **Разделы** а также**СодержаниеToolboxSection** , тогда**Инструменты.**
-1.  Нажмите**Создать новый**.
+1.  На левой панели щелкните**Ящики для инструментов** с последующим**Ящики для инструментов** , тогда**PageControls**, **Разделы** и**СодержаниеToolboxSection** , тогда**Инструменты.**
+1.  Нажмите**Создать новое**.
  Появится форма регистрации виджета.
 1.  Заполните поля формы следующим образом:
  1. Убедитесь, что**Включено** выбран.
  1. Добавьте ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx
 
  1. ` ` в г.**Управление типом CLR или виртуальным путем** поле.
- 1. Добавить**Имя**, **Заголовок** а также**Описание** следующим образом:
+ 1. Добавить**Имя**, **Заголовок** и**Описание** следующее:
  Aspose.SiteFinity.ExportUsersToExcel
  Aspose Экспорт пользователей SiteFinity в Excel
  Экспорт пользователей SiteFinity в Excel

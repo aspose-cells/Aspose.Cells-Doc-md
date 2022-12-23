@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET がバージョン 8.1.1 に更新されました。このリリースで 20 以上の新しい便利な改善が追加されたことをお知らせできることをうれしく思います。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -22,7 +22,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **新機能**
 
 
-(CELLSNET-42761) - ワークシートからシナリオを削除
+ (CELLSNET-42761) - ワークシートからシナリオを削除
 
 
 ## **バグ**
@@ -32,7 +32,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42387) - テキストがバナーから移動します。
 
- (CELLSNET-42385) - XLSX を PDF にレンダリングするときに、曲がったコネクタ形状が表示されない
+ (CELLSNET-42385) - XLSX から PDF へのレンダリング時に、曲がったコネクタ形状が表示されない
 
 (CELLSNET-42379) - マトリックス内のテキストが異なって表示される
 
@@ -42,7 +42,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42386) - GetPivotData 関数が誤った値を計算する
 
-(CELLSNET-42742) - Aspose.Cells PDF に不正なフォントが埋め込まれます
+(CELLSNET-42742) - Aspose.Cells が PDF に不正なフォントを埋め込む
 
 (CELLSNET-42697) - 出力 PDF でヘッダーが重複する
 
@@ -54,9 +54,9 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42748) - 凡例の線が Excel よりも細い
 
-(CELLSNET-42730) - Cell 値とフォーマットが変更されると、XLSM to PDF がハングする傾向があります。
+(CELLSNET-42730) - Cell の値と形式を変更すると、XLSM から PDF がハングする傾向がある
 
- (CELLSNET-42381) - 箇条書きリストがリストの見出しの下に正しく印刷されない
+(CELLSNET-42381) - 箇条書きリストがリストの見出しの下に正しく印刷されない
 
 (CELLSNET-42375) - サイクルの見出しの下にある箇条書きリストが PDF に正しく変換されない
 
@@ -80,11 +80,11 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42782) - xlsx ファイルの読み取り時の System.FormatException
 
-(CELLSNET-42758) - 指定されたキャストは、Cell.GetDisplayStyle() で有効な例外ではありません
+ (CELLSNET-42758) - 指定されたキャストは、Cell.GetDisplayStyle() で有効な例外ではありません
 
 (CELLSNET-42724) - Worksheet/Workbook.CalculateFormula() メソッドの呼び出し時に StackOverflowException が発生する
 
-(CELLSNET-42710) - 破損している可能性のあるスプレッドシートをロードする際の無効な式
+(CELLSNET-42710) - 破損している可能性のあるスプレッドシートをロードする際の無効な数式
 
 (CELLSNET-42706) - DetectFileFormat での System.OutOfMemoryException
 

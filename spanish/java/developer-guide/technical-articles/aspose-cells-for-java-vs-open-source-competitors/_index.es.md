@@ -10,7 +10,7 @@ url: /es/java/aspose-cells-for-java-vs-open-source-competitors/
 
 {{% /alert %}}
 
-## **Visión general**
+## **Descripción general**
 
 La mayoría de los escenarios comerciales exigen informes sofisticados que sean ricos en contenido y se centren en las necesidades de las decisiones o tareas específicas para las que la gerencia general los usará. También requieren algún medio de recopilación de datos, análisis e interfaz con sistemas de bases de datos.
 
@@ -22,7 +22,7 @@ Nos encontramos con diferentes componentes de hojas de cálculo en el mercado ac
 
 Aspose.Cells for Java es un componente flexible que permite que las aplicaciones Java creen y administren hojas de cálculo de Excel sin Microsoft Excel instalado en el sistema (cliente o servidor). A diferencia de productos similares de otros proveedores, Aspose.Cells for Java no solo admite la generación de hojas de cálculo y funciones básicas de formateo de archivos, sino también una serie de funciones avanzadas. Estas funciones avanzadas facilitan a los desarrolladores la manipulación del contenido de las hojas de cálculo, el formato de celdas y las opciones de protección de archivos.
 
-Aspose.Cells for Java también puede importar datos en hojas de cálculo desde diferentes fuentes de datos, agregar fórmulas y funciones matemáticas, de fecha/hora, financieras, de texto comunes y complejas, importar imágenes (se admiten todos los formatos principales, incluidos BMP, GIF, JPG, PNG, WMF, EMF y más), crear comentarios, crear objetos de dibujo y controles, y realizar una variedad de otras tareas.
+Aspose.Cells for Java también puede importar datos a hojas de cálculo desde diferentes fuentes de datos, agregar fórmulas y funciones matemáticas, de fecha/hora, financieras, de texto comunes y complejas, importar imágenes (se admiten todos los formatos principales, incluidos BMP, GIF, JPG, PNG, WMF, EMF y más), crear comentarios, crear objetos de dibujo y controles, y realizar una variedad de otras tareas.
 
 Aspose.Cells for Java también admite complementos, VBA y macros.
 
@@ -44,7 +44,7 @@ Aspose.Cells permite a los desarrolladores ajustar automáticamente filas y colu
 
 ### **Características unicas**
 
-También hay una serie de características únicas que los desarrolladores solo encontrarán en Aspose.Cells for Java, por ejemplo, soporte para una amplia gama de formatos, incluidos XLS, XLT, XLSX, CSV, SpreadsheetML, delimitado por tabuladores, TXT, XML y HTML.
+También hay una serie de características únicas que los desarrolladores solo encontrarán en Aspose.Cells for Java, por ejemplo, soporte para una amplia gama de formatos que incluyen XLS, XLT, XLSX, CSV, SpreadsheetML, delimitado por tabuladores, TXT, XML y 0761834
 
 El API también permite a los desarrolladores agregar una copia de una hoja de trabajo existente (con contenido completo, imágenes y gráficos) a un archivo, establecer un fondo degradado para los gráficos a través del API, crear comentarios, establecer la configuración regional y regional, filtros automáticos y saltos de página. , establezca fórmulas complejas, formato condicional, todo tipo de opciones de protección introducidas en Microsoft Excel XP o superior, y manipule rangos con nombre.
 
@@ -62,7 +62,7 @@ Además, Aspose.Cells agrega un gráfico personalizado API y un motor de cálcul
 
 JExcelAPI es un Java API que se utiliza para leer, escribir y modificar hojas de cálculo de Excel. Es un código abierto Java API que permite a los desarrolladores Java leer hojas de cálculo de Excel y generar hojas de cálculo de Excel dinámicamente. Además, contiene un mecanismo que permite a las aplicaciones Java leer una hoja de cálculo, modificar celdas y escribir la nueva hoja de cálculo.
 
-Al momento de escribir, tiene un conjunto limitado de características. Admite: lectura y escritura de archivos de Excel Microsoft nativos (Excel97-2003) solo en formato de archivo XLS. Tiene cierto soporte de cálculo de fórmula limitado. Puede manipular fuentes, admitir formato de números y fechas, modificar hojas de trabajo existentes, configuraciones locales, conservar gráficos (pero no permite a los desarrolladores crear o manipular gráficos), insertar imágenes, etc.
+Al momento de escribir, tiene un conjunto limitado de características. Admite: lectura y escritura de archivos de Excel nativos Microsoft (Excel97-2003) en formato de archivo XLS solamente. Tiene cierto soporte de cálculo de fórmula limitado. Puede manipular fuentes, admitir formato de números y fechas, modificar hojas de trabajo existentes, configuraciones locales, conservar gráficos (pero no permite a los desarrolladores crear o manipular gráficos), insertar imágenes, etc.
 
 #### **Soporte gráfico limitado**
 
@@ -84,7 +84,7 @@ También hay algunos obstáculos más: el API no admite tablas dinámicas ni lis
 
 ### **POI-HSSF**
 
-HSSF es el componente de POI que lee y escribe hojas de cálculo de Excel. Tiene un conjunto ampliado de funciones en comparación con JExcelAPI, incluida la lectura y escritura de archivos de Excel Microsoft nativos (Excel97-2003: el formato de archivo XLSX OOXML aún no es compatible), formato de celdas (formatos de números, fuentes, colores, bordes, alineaciones, etc.) , combinar celdas, opciones de configuración de página, importar imágenes, formas, rangos con nombre, crear comentarios, encabezados y pies de página, hipervínculos, filas y columnas de ajuste automático, etc.
+HSSF es el componente de POI que lee y escribe hojas de cálculo de Excel. Tiene un conjunto ampliado de funciones en comparación con JExcelAPI, incluida la lectura y escritura de archivos de Excel nativos Microsoft (el formato de archivo Excel97-2003 - XLSX OOXML aún no es compatible), formato de celdas (formatos de números, fuentes, colores, bordes, alineaciones, etc.) , combinar celdas, opciones de configuración de página, importar imágenes, formas, rangos con nombre, crear comentarios, encabezados y pies de página, hipervínculos, filas y columnas de ajuste automático, etc.
 
 #### **Soporte gráfico limitado**
 
@@ -105,7 +105,7 @@ La siguiente tabla intenta proporcionar una descripción general de las funcione
 |**Rasgo** |**JExcelAPI** |**HSSF de puntos de interés** |**Aspose.Cells for Java** |
 |:- |:- |:- |:- |
 |**Formatos de archivo**||||
-| Lea y escriba formatos de archivo (XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML y HTML)| parcialmente compatible| parcialmente compatible| Soportado|
+| Leer y escribir formatos de archivo (XLS, XLT, XLSX, CSV, SpreadsheetML, delimitado por tabulaciones, TXT, XML y HTML)| parcialmente compatible| parcialmente compatible| Soportado|
 | Abra el archivo y guárdelo en una secuencia||| Soportado|
 | Convertir archivo de Excel a documento PDF||| Soportado|
 | Archivos protegidos con contraseña|| Soportado| Soportado|

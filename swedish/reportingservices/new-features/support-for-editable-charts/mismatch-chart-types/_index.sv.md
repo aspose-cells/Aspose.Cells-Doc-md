@@ -17,6 +17,6 @@ Vissa diagramtyper i SQL Server Reporting Services 2008-rapportdefinitionsfilen 
 - Range-BoxPlot
 - Form-tratt
 
- När du renderar diagramobjekt som inte har motsvarande alternativ i Microsoft Excel, matar Aspose.Cells ut dem till bilder.
+När du renderar diagramobjekt som inte har motsvarande alternativ i Microsoft Excel, matar Aspose.Cells ut dem till bilder.
 
 {{% /alert %}}

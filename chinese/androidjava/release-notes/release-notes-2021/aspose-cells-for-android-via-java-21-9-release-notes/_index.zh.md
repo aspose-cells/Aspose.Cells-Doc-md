@@ -26,54 +26,54 @@ url: /zh/java/aspose-cells-for-android-via-java-21-9-release-notes/
 |CELLSJAVA-43528|无法提取创建日期和时间以及更新日期|
 |CELLSJAVA-43529|无法提取 BuiltInDocumentProperties|
 |CELLSJAVA-43530|日期和时间属性结果不同|
-|CELLSJAVA-41693|TextBox 中的公式不会呈现为 PDF|
-|CELLSJAVA-43487|在 Excel 到 PDF 转换中，文本不在输出 PDF 的中心|
-|CELLSJAVA-42867|不以 ODS 文件格式检索形状|
-|CELLSJAVA-42895|MS Excel 图表的 PNG 输出有差异|
+|CELLSJAVA-41693|TextBox 中的方程不呈现为 PDF|
+|CELLSJAVA-43487|Excel 中的输出 PDF 到 PDF 转换中的文本未居中|
+|CELLSJAVA-42867|形状未以 ODS 文件格式检索|
+|CELLSJAVA-42895|PNG MS Excel图表输出有出入|
 |CELLSJAVA-43015|使用 setPrintArea() 方法时 SheetRender.toImage() 出现问题|
 |CELLSJAVA-43258|图表点字体粗体在工作簿复制后发生变化|
 |CELLSJAVA-43436|Aspose Cells 忽略图表中的倒置 y 轴|
 |CELLSJAVA-43510|使用 Aspose.Cells for Java 重新保存 Excel 文件后图表被弄乱|
 |CELLSJAVA-43532|提取图表系列名称时出现问题|
-|CELLSJAVA-43474|加载和保存 XLS 文件时更改了形状对象|
+|CELLSJAVA-43474|加载和保存 XLS 文件时更改形状对象|
 |CELLSJAVA-43493|检索到错误评论的作者|
 |CELLSJAVA-43576|将 XLSX 转换为 PDF 时不显示图形文本值|
-|CELLSJAVA-43483|将 HTML 文档转换为工作簿时，不会强调“em”标记中“br”标记后的文本|
+|CELLSJAVA-43483|将 HTML 文档转换为工作簿时，不会强调“em”标签中“br”标签后的文本|
 |CELLSJAVA-43526|IllegalArgumentException：无效的列索引|
 |CELLSJAVA-43557|另存为 html 时颜色不正确|
 |CELLSJAVA-43567|回归：MDURATION 公式计算不正确|
 |CELLSJAVA-43583|幂运算符“^”不适用于公式计算|
-|CELLSJAVA-43549|输出 PDF 中缺少图像|
+|CELLSJAVA-43549|输出中缺少图像 PDF|
 |CELLSJAVA-43566|MacOS Big Sur 上的默认字体|
 |CELLSJAVA-42579|轴标签显示不正确 - 将 Excel 保存为 Pdf 时缺少右对齐|
 |CELLSJAVA-43554|图表数据表文本未显示在输出图像中|
-|CELLSJAVA-43556|XLSX 到 PDF：不完整的图表标题|
+|CELLSJAVA-43556|XLSX 至 PDF：图表标题不完整|
 |CELLSJAVA-40051|Apple iWork 支持|
-|CELLSJAVA-43119|转换为 PDF - 自 2014 年起不支持文件格式 Number3.5|
-|CELLSJAVA-43538|没有数据的图表导致 XLSX 在使用 Aspose Cells 保存后损坏|
+|CELLSJAVA-43119|转换为 PDF - 自 2014 年以来不支持文件格式 Number3.5|
+|CELLSJAVA-43538|没有数据的图表导致 XLSX 在用 Aspose 保存后损坏 Cells|
 |CELLSJAVA-43547|AutoFitRow 更改工作表标准高度|
 |CELLSJAVA-43591|在 Aspose.Cells 保存的 MS Excel 中打开文件时出错|
 |CELLSJAVA-43622|XLSX 到 PDF：形状到图像错误|
-|CELLSJAVA-43756|Excel 到 HTML 期间的图像失真|
-|CELLSJAVA-43309|Excel 到 HTML 转换的详细信息已更改|
+|CELLSJAVA-43756|Excel 期间的图像失真为 HTML|
+|CELLSJAVA-43309|Excel 上的详细信息更改为 HTML 转换|
 |CELLSJAVA-43578|将 Excel 转换为 HTML 时出现格式问题|
 |CELLSJAVA-43579|Excel 到 HTML 转换期间的文本对齐问题|
-|CELLSJAVA-43630|Excel转HTML时超链接功能超链接无效|
+|CELLSJAVA-43630|HTML Excel转换时超链接功能超链接无效|
 |CELLSJAVA-43635|导出html时数据栏长度比excel短|
-|CELLSJAVA-43709|重新保存的 XLSM 文件导致在用 ms excel 打开时文件损坏弹出窗口|
+|CELLSJAVA-43709|重新保存 XLSM 文件导致在用 ms excel 打开时文件损坏弹出窗口|
 |CELLSJAVA-43758|数组公式求值问题|
 |CELLSJAVA-43680|生成的 pdf 中条件格式的数据栏问题|
 |CELLSJAVA-43689|将条件格式设置为单元格并使用 DataBar.toImage 导致空白图片|
-|CELLSJAVA-43723|Excel文件转PDF时单元格字体显示不全|
+|CELLSJAVA-43723|Excel文件转换为PDF时单元格字体显示不全|
 |CELLSJAVA-43724|无法将复杂的 HTML 转换为 CSV|
 |CELLSJAVA-43728| Excel 到 PDF 转换时文本方向发生变化|
 |CELLSJAVA-43752|Excel 到 HTML 呈现 - 隐藏边框的条件格式问题|
-|CELLSJAVA-43792|为 HTML 到 Excel 转换设置 HtmlLoadOptions 时字体不正确|
-|CELLSJAVA-43571|将 XLSX 转换为 PDF 时的 DataLabels 截断问题|
+|CELLSJAVA-43792|HTML 设置HtmlLoadOptions到Excel转换时字体不正确|
+|CELLSJAVA-43571|将 XLSX 转换为 PDF 时出现 DataLabels 截断问题|
 |CELLSJAVA-43587|圆环图标签错位|
-|CELLSJAVA-43620|将 Excel 文件（包含瀑布图）呈现为 HTML 时，垂直轴值和点标签未正确呈现|
+|CELLSJAVA-43620|将 Excel 文件（包含瀑布图）渲染到 HTML 时，垂直轴值和点标签未正确渲染|
 |CELLSJAVA-43621|函数 RANDBETWEEN(bottom, top) 值结果与 Excel 结果不同|
-|CELLSJAVA-41710|从 XLSX 转换后 HTML 呈现错误|
+|CELLSJAVA-41710|从 XLSX 转换后错误呈现 HTML|
 |CELLSJAVA-43422|HTML 到 Excel 的转换 - CSS 中的“mso-ignore: padding”无效|
 |CELLSJAVA-43606|合并文件时更改了背景文本格式|
 |CELLSJAVA-43769|无法加载 MSO Excel (XLS) 文档|
@@ -85,8 +85,8 @@ url: /zh/java/aspose-cells-for-android-via-java-21-9-release-notes/
 |CELLSJAVA-43631|加载 XLSM 文件时出现异常“java.lang.NullPointerException”|
 |CELLSJAVA-43655|ArrayIndexOutOfBoundsException 与 getStringValue|
 |CELLSJAVA-43788|为图表系列设置值时引发异常|
-|CELLSJAVA-43632|加载 XLSX 文件时出现“无效的 FontUnderlineType 字符串 val”异常|
-|CELLSJAVA-43633|加载 XLSX 文件时出现异常“无效的 MsoLineDashStyle 字符串值”|
+|CELLSJAVA-43632|加载 XLSX 文件时出现异常“无效的 FontUnderlineType 字符串 val”|
+|CELLSJAVA-43633|加载 XLSX 文件时出现异常“无效的 MsoLineDashStyle 字符串 val”|
 
 ## **公共 API 和向后不兼容的更改**
 

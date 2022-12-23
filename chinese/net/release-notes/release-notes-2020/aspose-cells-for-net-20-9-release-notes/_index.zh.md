@@ -16,21 +16,21 @@ url: /zh/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47549|用于为 GridWeb 添加/删除评论的客户端 api|新功能|
 |CELLSNET-47555|保存为 PDF 时，图表不允许将 #N/A 视为空单元格|强化|
 |CELLSNET-47579|Kaiti 字体未正确呈现|强化|
-|CELLSNET-47154|查询表不是从 ODS 文件加载的|强化|
+|CELLSNET-47154|查询表未从 ODS 文件加载|强化|
 |CELLSNET-47556|冻结和拆分工作表的增强功能|强化|
 |CELLSNET-47570|合并/复制工作簿时应删除宏|强化|
 |CELLSNET-47543|应用了条件格式的智能标记的问题|漏洞|
 |CELLSNET-47561|具有自定义格式的货币显示在 HTML 中的单元格外部|漏洞|
-|CELLSNET-47562|将带有导出的网格线设置的空白工作表保存到 HTML|漏洞|
+|CELLSNET-47562|将带有导出的网格线设置的空表保存到 HTML|漏洞|
 |CELLSNET-47569|XLSX 到 PDF 转换后数据透视表未正确显示|漏洞|
 |CELLSNET-47475|CalculateFormula() 的计算方式与 MS Excel 不同|漏洞|
 |CELLSNET-47531|包含不存在名称的公式显示为 `WorkbookName`!Name|漏洞|
-|CELLSNET-47545|自定义负数错误地呈现为 PDF|漏洞|
+|CELLSNET-47545|自定义负数错误呈现为 PDF|漏洞|
 |CELLSNET-47548|导入带有双引号的文本文件时出现问题|漏洞|
 |CELLSNET-47558|自定义负数（使用瑞士地区）错误地呈现为 PDF|漏洞|
 |CELLSNET-47075|需要像excel的SyncScrollingSideBySide一样同步两个网格的滚动。|漏洞|
 |CELLSNET-47559|工作表设置为只读时无法使用键盘箭头键选择单元格|漏洞|
-|CELLSNET-47360|Excel 文件图表中的透明标记点在输出 PDF 中失真|漏洞|
+|CELLSNET-47360|Excel 文件图表中的透明标记点在输出中失真 PDF|漏洞|
 |CELLSNET-47565|前景页脚图像变为背景|漏洞|
 |CELLSNET-46502|XLSX 到 TIFF 的转换结果在黑框中|漏洞|
 |CELLSNET-46821|将工作表转换为 TIFF - 图像被涂黑|漏洞|
@@ -39,12 +39,12 @@ url: /zh/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47546|删除空白行/列会损坏 Excel 文档|漏洞|
 |CELLSNET-47552|错误的 PowerQueryFormula.FormulaDefinition|漏洞|
 |CELLSNET-47573|无法使用 shift 生成所需的格式|漏洞|
-|CELLSNET-47574|XLS 到 HTML 生成空文件|漏洞|
+|CELLSNET-47574|XLS 到 HTML 产生空文件|漏洞|
 |CELLSNET-47581|MaxColumn 在调用 InsertCutCells() 后设置为 Column XFD|漏洞|
 |CELLSNET-47586|复制后无法使用 Excel 2016 打开带有瀑布图的工作簿|漏洞|
 |CELLSNET-47547|为表添加切片器时引发异常|例外|
 |CELLSNET-47553|将 XLS 文件保存到 XLSX 时出现异常|例外|
-|CELLSNET-47563|加载 XLS 文件格式时出现“文件已损坏”异常|例外|
+|CELLSNET-47563|加载 XLS 文件格式时出现异常“文件已损坏”|例外|
 |CELLSNET-47580|转换 excel 时出现 ArgumentOutOfRangeException|例外|
 |CELLSNET-47592|将特定 XLSX 转换为 XLS 时出现异常|例外|
 |CELLSNET-47557|合并工作簿时缺少某些属性|回归|

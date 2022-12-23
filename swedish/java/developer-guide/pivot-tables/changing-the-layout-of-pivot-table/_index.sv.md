@@ -18,6 +18,6 @@ url: /sv/java/changing-the-layout-of-pivot-table/
 
 ## **Exempel**
 
- Följande exempelkod visar först pivottabellen in**Kompakt form** , så visar den pivottabellen in**Översiktsformulär**och slutligen visar den pivottabellen in**Tabellform**.
+ Följande exempelkod visar först pivottabellen in**Kompakt form** , så visar den pivottabellen in**Översiktsformulär** och slutligen visar den pivottabellen in**Tabellform**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}

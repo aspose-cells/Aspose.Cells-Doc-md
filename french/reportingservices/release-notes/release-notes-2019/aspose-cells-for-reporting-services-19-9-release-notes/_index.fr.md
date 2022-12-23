@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-563|Définissez différents mots de passe sur différents rapports et différents formats d'exportation.|Nouvelle fonctionnalité|
 |CELLSRS-562|Le style de bordure est défini à partir d'une formule dans les rapports exportés.|Punaise|

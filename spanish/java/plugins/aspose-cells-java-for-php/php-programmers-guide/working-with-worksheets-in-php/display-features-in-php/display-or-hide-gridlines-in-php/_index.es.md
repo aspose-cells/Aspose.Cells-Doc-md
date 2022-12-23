@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells - Mostrar u ocultar líneas de cuadrícula**
 ### **Ocultar líneas de cuadrícula**
- Para ocultar la hoja de trabajo usando**Aspose.Cells Java for PHP** , llamar**mostrar ocultar líneas de cuadrícula** módulo.
+ Para ocultar la hoja de trabajo usando**Aspose.Cells Java for PHP** , llamada**mostrar ocultar líneas de cuadrícula** módulo.
 
 **Código PHP**
 

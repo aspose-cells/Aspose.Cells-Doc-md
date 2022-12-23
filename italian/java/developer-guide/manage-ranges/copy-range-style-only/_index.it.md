@@ -6,7 +6,7 @@ url: /it/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[Copia solo i dati dell'intervallo](/cells/it/java/copy-range-data-only/) e[Copia i dati dell'intervallo con lo stile](/cells/it/java/copy-range-data-with-style/) spiegato come copiare i dati da un intervallo all'altro con o senza formattazione. È anche possibile copiare solo la formattazione dell'intervallo. Questo articolo mostra come.
+[Copia solo i dati dell'intervallo](/cells/it/java/copy-range-data-only/) e[Copia i dati dell'intervallo con lo stile](/cells/it/java/copy-range-data-with-style/)spiegato come copiare i dati da un intervallo all'altro con o senza formattazione. È anche possibile copiare solo la formattazione dell'intervallo. Questo articolo mostra come.
 
 {{% /alert %}} 
 ## **Copia solo stile intervallo**

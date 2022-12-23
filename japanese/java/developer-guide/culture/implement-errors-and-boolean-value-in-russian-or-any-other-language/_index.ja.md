@@ -10,7 +10,7 @@ url: /ja/java/implement-errors-and-boolean-value-in-russian-or-any-other-languag
 - [GlobalizationSettings.getErrorValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getErrorValueString\(java.lang.String\))
 - [GlobalizationSettings.getBooleanValueString()](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getBooleanValueString\(boolean\))
 ## **ロシア語またはその他の言語でエラーとブール値を実装する**
-次のサンプル コードは、ロシア語またはその他の言語でエラーとブール値を実装する方法を示しています。このコードで使用されているサンプル Excel ファイルとその出力 PDF を確認してください。スクリーンショットは、[サンプル Excel ファイル](48496697.xlsx)そしてその[PDF出力](48496696.pdf)参考までに。
+次のサンプル コードは、ロシア語またはその他の言語でエラーとブール値を実装する方法を示しています。このコードで使用されているサンプル Excel ファイルとその出力 PDF を確認してください。スクリーンショットは、[サンプル Excel ファイル](48496697.xlsx)そしてその[出力 PDF](48496696.pdf)参考までに。
 
 ![todo:画像_代替_文章](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 ## **サンプルコード**

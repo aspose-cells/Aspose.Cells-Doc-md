@@ -14,6 +14,6 @@ Aspose.Cells ora supporta il recupero della data di aggiornamento e l'aggiorname
 
 [SourcePivotTable.xlsx](77496335.xlsx)
 
-**Codice di esempio**
+**Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetPivotTableRefreshDate-1.cs" >}}

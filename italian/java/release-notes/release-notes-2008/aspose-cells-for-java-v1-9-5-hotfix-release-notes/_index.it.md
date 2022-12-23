@@ -16,7 +16,7 @@ url: /it/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  *Cosa c'è di nuovo?
 
-- Supporta il riconoscimento automatico del formato di file Excel per Workbook.open(String) e Workbook.open(InputStream)* Supporta l'elaborazione delle celle nel file del foglio di calcolo in modalità Event-Driven introducendo nuove API (LightCells)* Supporta la rimozione di oggetti correlati alla forma, inclusi commenti, immagini e così via* Supporta la copia di forme quando si copia cartella di lavoro o foglio di lavoro* Supporta il controllo se una cella o uno stile è Percentuale o Data
+- Supporta il riconoscimento automatico del formato di file Excel per Workbook.open(String) e Workbook.open(InputStream)* Supporta l'elaborazione delle celle nel file del foglio di calcolo in modalità Event-Driven introducendo il nuovo API (LightCells)* Supporta la rimozione di oggetti correlati alla forma, inclusi commenti, immagini e così via* Supporta la copia di forme quando si copia cartella di lavoro o foglio di lavoro* Supporta il controllo se una cella o uno stile è Percentuale o Data
 
  *Cosa è migliorato?
 
@@ -24,4 +24,4 @@ url: /it/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  * Cosa è stato risolto?
 
-- Risolti alcuni bug di calcolo della formula* Risolti alcuni bug di lettura del file modello*Risolto un bug per ottenere la scala dell'immagine* Risolto un bug nel salvataggio di NamedStyle* Risolto un bug nell'impostazione della linea di confine del commento visibile* Risolto un bug nell'impostazione del bordo della cella* Risolto un bug della formula HYPERLINK* Risolto un bug nel salvataggio dei nomi* Risolto un bug di salvataggio della cartella di lavoro con struttura protetta* Risolto un bug del testo dell'oggetto set Name* Risolto un bug nell'ottenere il valore della stringa delle celle unite* Risolto un bug nell'elaborazione di SmartMarker per WorkbookDesigner
+- Risolti alcuni bug di calcolo della formula*Risolti alcuni bug di lettura del file modello* Risolto un bug per ottenere la scala dell'immagine* Risolto un bug nel salvataggio di NamedStyle* Risolto un bug nell'impostazione della linea di confine del commento visibile* Risolto un bug nell'impostazione del bordo della cella* Risolto un bug della formula HYPERLINK* Risolto un bug nel salvataggio dei nomi* Risolto un bug di salvataggio della cartella di lavoro con struttura protetta* Risolto un bug del testo dell'oggetto set Name* Risolto un bug nell'ottenere il valore della stringa delle celle unite* Risolto un bug nell'elaborazione di SmartMarker per WorkbookDesigner

@@ -14,7 +14,7 @@ ICustomFunction 接口允许添加自定义公式计算函数以扩展 Aspose.Ce
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-如果您是 Aspose.Cells for Java API 的新手，请查看[这个](https://docs.aspose.com/cells/java/installation/)文章了解如何在项目中获取和引用 Aspose.Cells for Java。
+如果您是 Aspose.Cells for Java API 的新手，请检查[这个](https://docs.aspose.com/cells/java/installation/)文章了解如何在项目中获取和引用 Aspose.Cells for Java。
 
 {{% /alert %}} 
 ## **创建和评估用户定义的函数**

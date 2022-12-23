@@ -4,7 +4,7 @@ linktitle: Dateien öffnen
 type: docs
 weight: 20
 url: /de/net/loading-saving-and-managing/
-description: Mit Aspose.Cells ist es einfach, Excel-, CSV-, TSV-, ODS-, HTML-, Zahlen-, Json-, XML-, Pdf-, Jpg-, Tiff-, Bild-, Mht- und XPS-Dateien zu erstellen, zu öffnen und zu verwalten.
+description: Mit Aspose.Cells ist es einfach, Excel-, CSV-, TSV-, ODS-, HTML-, Numbers-, Json-, XML-, PDF-, Jpg-, Tiff-, Bild-, Mht- und XPS-Dateien zu erstellen, zu öffnen und zu verwalten.
 ---
 {{% alert color="primary" %}}
 
@@ -34,6 +34,6 @@ Mit Aspose.Cells ist es einfach, Excel-Dateien zu öffnen, zu speichern und zu v
 - [Öffnen verschiedener Microsoft Excel-Versionsdateien](/cells/de/net/opening-different-microsoft-excel-versions-files/)
 - [Öffnen von Dateien mit unterschiedlichen Formaten](/cells/de/net/opening-files-with-different-formats/)
 - [Optimieren der Speichernutzung beim Arbeiten mit großen Dateien mit großen Datensätzen](/cells/de/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Read Numbers Spreadsheet Entwickelt von Apple Inc. mit Aspose.Cells](/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells](/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Stoppen Sie die Konvertierung oder das Laden mit InterruptMonitor, wenn es zu lange dauert](/cells/de/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Verwendung von LightCells API](/cells/de/net/using-lightcells-api/)

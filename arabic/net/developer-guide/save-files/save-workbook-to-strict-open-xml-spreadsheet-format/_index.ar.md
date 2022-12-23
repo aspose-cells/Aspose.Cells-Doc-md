@@ -6,7 +6,7 @@ url: /ar/net/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-Aspose.Cells يسمح لك بحفظ المصنف بتنسيق*جدول بيانات XML مفتوح صارم*صيغة. لهذا الغرض ، فإنه يوفر**[Workbook.Settings.Compliance] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**منشأه. إذا قمت بتعيين قيمته كـ**[OoxmlCompliance.Iso29500_2008_Strict] (https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**، ثم سيتم حفظ ملف Excel الناتج بتنسيق Strict Open XML Spreadsheet.
+Aspose.Cells يسمح لك بحفظ المصنف بتنسيق*جدول بيانات XML مفتوح صارم*صيغة. لهذا الغرض ، فإنه يوفر**[Workbook.Settings.Compliance] (https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/compliance)**خاصية. إذا قمت بتعيين قيمته كـ**[OoxmlCompliance.Iso29500_2008_Strict] (https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompliance)**، ثم سيتم حفظ ملف Excel الناتج بتنسيق Strict Open XML Spreadsheet.
 
 ## **حفظ المصنف لتقييد تنسيق جدول بيانات XML المفتوح**
 

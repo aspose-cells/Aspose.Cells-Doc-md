@@ -41,12 +41,12 @@ Detta tillvägagångssätt kan avsevärt förbättra effektiviteten för dina ap
 
 
 
-#### **Använda Gradient Fill Effects**
+#### **Tillämpa övertoningsfyllningseffekter**
 För att tillämpa önskade gradientfyllningseffekter på cellen, använd Style-objektets setTwoColorGradient-metod i enlighet med detta.
 #### **Kodexempel**
  Följande utdata uppnås genom att exekvera koden nedan.
 
-**Använda Gradient Fill Effects** 
+**Tillämpa övertoningsfyllningseffekter** 
 
 ![todo:image_alt_text](data-formatting_1.png)
 
@@ -94,7 +94,7 @@ Välj valfri textjusteringstyp med hjälp av uppräkningen TextAlignmentType. De
 |Allmän|Representerar allmän textjustering|
 |Rättfärdiga|Representerar justera textjustering|
 |Vänster|Representerar vänster textjustering|
-|Höger|Representerar höger textjustering|
+|Rätt|Representerar höger textjustering|
 |Topp|Representerar topptextjustering|
 {{% alert color="primary" %}} 
 
@@ -382,7 +382,7 @@ Cells-samlingen tillhandahåller en kolumnsamling. Varje objekt i kolumnsamlinge
 
 
 
-#### **Ställa in visningsformat för siffror och datum för rader och kolumner**
+#### **Ställa in visningsformat för Numbers & datum för rader och kolumner**
 Om kravet är att ställa in visningsformatet för siffror och datum för en hel rad eller kolumn så är processen mer eller mindre densamma som diskuterats ovan, men istället för att ställa in parametrar för textinnehållet kommer du att ställa in formateringen för siffror och datum med Style.Number eller Style.Custom. Observera att Style.Number-egenskapen är av typen heltal och hänvisar till de inbyggda tal- och datumformaten, medan Style.Custom-egenskapen är av typen string och accepterar de giltiga mönstren.
 
 
@@ -399,6 +399,6 @@ Om kravet är att ställa in visningsformatet för siffror och datum för en hel
 
 {{% alert color="primary" %}} 
 
- Vänligen kontrollera den detaljerade artikeln om[Ställa in visningsformat för siffror och [datum]](/cells/sv/java/data-formatting/).
+ Vänligen kontrollera den detaljerade artikeln om[Ställa in visningsformat för Numbers och [Datum]](/cells/sv/java/data-formatting/).
 
 {{% /alert %}}

@@ -6,7 +6,7 @@ url: /ja/net/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells は、ワークブックを HTML に変換する際に、フレーム スクリプトとドキュメント プロパティをエクスポートします。 Aspose.Cells for .NET の 8.6.0 バージョンでは、オプションでフレーム スクリプトとドキュメント プロパティのエクスポートを無効にできるオプションが導入されています。エクスポートを無効にするには、HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティを使用してください。
+Aspose.Cells は、ワークブックを HTML に変換する際に、フレーム スクリプトとドキュメント プロパティをエクスポートします。エクスポートを無効にするには、HtmlSaveOptions.ExportFrameScriptsAndProperties プロパティを使用してください。
 
 {{% /alert %}}
 

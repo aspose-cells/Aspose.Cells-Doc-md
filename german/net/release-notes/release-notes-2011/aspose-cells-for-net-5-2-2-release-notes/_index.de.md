@@ -14,8 +14,8 @@ url: /de/net/aspose-cells-for-net-5-2-2-release-notes/
 
  Was hat sich in Aspose.Cells geändert:
 
-- Unterstützt den Export des Tabellenstils in das PDF-Dateiformat.
- Verbessert R/W-ODS-Dateien.
+- Unterstützt den Export des Tabellenstils in das Dateiformat PDF.
+ Verbessert R/W ODS-Dateien.
  27 Verbesserungen und Korrekturen.
 
  Was hat sich in Aspose.Cells.GridWeb geändert:

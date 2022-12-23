@@ -36,7 +36,7 @@ Dieser Artikel zeigt, wie Sie:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
 ### **Schriftstil auf Fett setzen**
- Setzen Sie den Text fett, indem Sie das einstellen[Schriftart](https://reference.aspose.com/cells/java/com.aspose.cells/Font) Objekt[setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) Eigentum zu**Stimmt**.
+ Setzen Sie den Text fett, indem Sie das einstellen[Schriftart](https://reference.aspose.com/cells/java/com.aspose.cells/Font) Objekt[setBold](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsBold) Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
 ### **Schriftgröße einstellen**

@@ -14,7 +14,7 @@ url: /es/net/aspose-cells-for-net-5-2-2-release-notes/
 
  Qué ha cambiado en Aspose.Cells:
 
-- Admite exportar el estilo de tablas a formato de archivo PDF.
+- Admite exportar el estilo de tablas al formato de archivo PDF.
  Mejora los archivos R/W ODS.
  27 mejoras y correcciones.
 

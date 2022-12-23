@@ -85,4 +85,4 @@ Cada objeto Worksheet contiene un objeto VerticalPageBreakCollection que represe
 |**Objetos VPageBreaks y VPageBreak**|
 |:- |
 |![todo:imagen_alternativa_texto](aspose-cells-object-model_9.png)|
-Un objeto VerticalPageBreak se usa para crear un salto de página vertical en la hoja de trabajo.
+Un objeto VerticalPageBreak se usa para crear un salto de página vertical en la hoja de cálculo.

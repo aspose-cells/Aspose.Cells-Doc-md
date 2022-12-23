@@ -22,7 +22,7 @@ url: /ar/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 - إصدار PivotTable مع العلامات الذكية
 
- 41528 - مشكلات التنسيق في ملف PDF الناتج
+ 41528 - مشكلات التنسيق في الإخراج PDF
 
  \ 2) Aspose.Cells.GridWeb
 

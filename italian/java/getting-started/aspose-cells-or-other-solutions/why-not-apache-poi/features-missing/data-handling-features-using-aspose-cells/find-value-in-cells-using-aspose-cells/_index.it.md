@@ -5,9 +5,9 @@ weight: 10
 url: /it/java/find-value-in-cells-using-aspose-cells/
 ---
 ## **Aspose.Cells - Trova valore in Cells**
-In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare**poi**Trova**apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK**per cercarlo. Excel evidenzia i campi corrispondenti.
+In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare**e poi**Trova**apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK**per cercarlo. Excel evidenzia i campi corrispondenti.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

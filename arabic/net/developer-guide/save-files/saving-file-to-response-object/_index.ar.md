@@ -14,7 +14,7 @@ Aspose.Cells يجعل من الممكن معالجة الملفات. تشرح ه
 
  من الممكن أيضًا إنشاء ملف ديناميكيًا وإرساله مباشرة إلى متصفح العميل. للقيام بذلك ، استخدم إصدارًا خاصًا محملاً فوق طاقته من**[حفظ] (https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/5)**الطريقة التي تقبل المعلمات التالية:
 
--  ASP.NET**[HttpResponse] (https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse؟view=netframework-4.8)**هدف.
+-  ASP.NET**[HttpResponse] (https://docs.microsoft.com/en-gb/dotnet/api/system.web.httpresponse؟view=netframework-4.8)**موضوع.
 - اسم الملف.
 - **[ContentDisposition] (https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**، نوع المحتوى - الترتيب لملف الإخراج.
 - **[SaveOptions] (https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**، نوع تنسيق الملف
@@ -25,18 +25,18 @@ Aspose.Cells يجعل من الممكن معالجة الملفات. تشرح ه
 
 |**يكتب**|**وصف**|
 |:- |:- |
-|المرفق|يرسل جدول البيانات إلى المتصفح ويفتح في تطبيق ما كمرفق مرتبط بـ .xls / .xlsx أو ملحقات أخرى|
+|مرفق|يرسل جدول البيانات إلى المتصفح ويفتح في تطبيق ما كمرفق مرتبط بـ .xls / .xlsx أو ملحقات أخرى|
 |في النسق|يرسل المستند إلى المتصفح ويقدم خيارًا لحفظ جدول البيانات على القرص أو فتحه داخل المتصفح|
 
-### **ملفات XLS**
+### **XLS ملفات**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **ملفات XLSX**
+### **XLSX ملفات**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **ملفات PDF**
+### **PDF ملفات**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

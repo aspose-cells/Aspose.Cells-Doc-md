@@ -6,7 +6,7 @@ url: /it/net/insert-rows-and-columns/
 ---
 {{% alert color="primary" %}} 
 
-Questo argomento spiega come inserire nuove righe e colonne in un foglio di lavoro usando l'API Aspose.Cells.GridWeb. Righe o colonne possono essere inserite in qualsiasi posizione nel foglio di lavoro.
+Questo argomento spiega come inserire nuove righe e colonne in un foglio di lavoro usando Aspose.Cells.GridWeb API. Righe o colonne possono essere inserite in qualsiasi posizione nel foglio di lavoro.
 
 {{% /alert %}} 
 ## **Inserimento di righe**

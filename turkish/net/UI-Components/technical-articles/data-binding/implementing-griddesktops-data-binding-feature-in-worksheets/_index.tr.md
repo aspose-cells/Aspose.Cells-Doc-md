@@ -12,12 +12,12 @@ Veri Bağlama, Microsoft .NET Çerçevesi tarafından sunulan heyecan verici bir
 ## **Örnek Veritabanı Oluşturma**
 1.  Örnekle birlikte kullanmak için örnek bir veritabanı oluşturun. Ürünler tablosu (aşağıdaki şema) ile örnek bir veritabanı oluşturmak için Microsoft Access'i kullandık.
 
-![yapılacaklar:resim_alternatif_Metin](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](implementing-griddesktops-data-binding-feature-in-worksheets_1.png)
 
 1. Ürünler tablosuna üç sahte kayıt eklenir.
    **Ürünler tablosundaki kayıtlar** 
 
-![yapılacaklar:resim_alternatif_Metin](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
+![yapılacaklar:resim_alternatif_metin](implementing-griddesktops-data-binding-feature-in-worksheets_2.png)
 ## **Örnek Uygulama Oluşturun**
 Şimdi Visual Studio'da basit bir masaüstü uygulaması oluşturun ve aşağıdakileri yapın.
 

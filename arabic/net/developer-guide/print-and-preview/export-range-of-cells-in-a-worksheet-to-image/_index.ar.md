@@ -18,7 +18,7 @@ url: /ar/net/export-range-of-cells-in-a-worksheet-to-image/
 
 يؤدي تنفيذ الكود إلى إنشاء صورة للنطاق D8: G16 فقط.
 
-**! [todo: image_alt_text] (Output-Image.png)**
+**[todo: image_alt_text] (Output-Image.png)**
 
 ## **عينة من الرموز**
 

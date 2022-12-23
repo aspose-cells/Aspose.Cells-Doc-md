@@ -14,27 +14,27 @@ url: /de/net/aspose-cells-for-net-18-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-46479|Registerkartenname nicht verfügbar, wenn Einzelblatt-Arbeitsmappe in HTML konvertiert wird|Neue Funktion|
 |CELLSNET-46503|Steuern Sie das Laden von VBA-Daten mit LoadDataFilterOptions|Neue Funktion|
-|CELLSNET-42414|Nachverfolgte Änderungen, die während der Konvertierung von XLSB zu XLSM und XLS zu XLSM verloren gegangen sind|Erweiterung|
+|CELLSNET-42414|Nachverfolgte Änderungen gingen während der Konvertierung von XLSB in XLSM und XLS in XLSM verloren|Erweiterung|
 |CELLSNET-46090|Der Text wurde nach dem Aufheben der Gruppierung beim Speichern von XLS in XLSX ein wenig verschoben|Erweiterung|
 |CELLSNET-46439|Optimierung für die Speicherleistung: Geben Sie den ursprünglichen Stream nach dem Laden der Arbeitsmappe frei|Leistung|
 |CELLSNET-46371|Beim Konvertieren von XLSX->HTML->XLSX werden in einigen Blättern keine Gitternetzlinien angezeigt|Insekt|
-|CELLSNET-46447|Formatierungen gehen in HTML beim XLS-Rendering verloren|Insekt|
-|CELLSNET-46494|MHT-zu-XLSX-Konvertierung - Problem mit Zelleninhalt|Insekt|
+|CELLSNET-46447|Formatierungen gingen beim Rendern von HTML bis XLS verloren|Insekt|
+|CELLSNET-46494|Konvertierung von MHT in XLSX - Problem mit Zelleninhalt|Insekt|
 |CELLSNET-46468|MS Excel gibt beim Öffnen der Ausgabedatei einen Fehler aus|Insekt|
 |CELLSNET-46487|Nicht-englische Gebietsschemaformel funktioniert nicht|Insekt|
 |CELLSNET-46489|Das Löschen einer Zeile mit einem Index und das Lesen der Zeile mit demselben Index gibt Cell zurück. ValuType: IsNull|Insekt|
-|CELLSNET-46406|Kennwortgeschütztes ODS-Dokument kann nicht geöffnet werden|Insekt|
-|CELLSNET-46466|Der untere Text unter dem Strichcode fehlt beim Rendern von MS Excel in PDF|Insekt|
-|CELLSNET-46470|Das Bild fehlt nach der Wiedergabe in die TIFF-Ausgabe|Insekt|
-|CELLSNET-46499|Bilder werden beim Konvertieren von Excel in PDF nicht richtig gerendert|Insekt|
+|CELLSNET-46406|Das passwortgeschützte ODS-Dokument kann nicht geöffnet werden|Insekt|
+|CELLSNET-46466|Der untere Text unter dem Strichcode fehlt in MS Excel bei der Wiedergabe von PDF|Insekt|
+|CELLSNET-46470|Das Bild fehlt nach Wiedergabe auf TIFF ausgegeben|Insekt|
+|CELLSNET-46499|Bilder werden nicht richtig gerendert, wenn sie von Excel in PDF konvertiert werden|Insekt|
 |CELLSNET-46443|In dem aus MS Excel-Diagramm gerenderten Bild wurde zusätzlicher Text angezeigt|Insekt|
 |CELLSNET-46450|Das gerenderte Bild aus einem MS Excel-Diagramm hat mehr Achseneinheiten als das ursprüngliche Diagramm|Insekt|
-|CELLSNET-46451|Problem beim Rendern der Vorlagendatei (die das Diagramm enthält) in das PDF-Dateiformat|Insekt|
+|CELLSNET-46451|Problem beim Rendern der Vorlagendatei (die das Diagramm enthält) in das Dateiformat PDF|Insekt|
 |CELLSNET-46454|Die Reihenfolge der Legende wurde in Sitzung 0 im Vergleich zu Sitzung 1 vom Excel-Diagramm abweichend dargestellt|Insekt|
-|CELLSNET-46471|Die Farbmarkierung LineWithDataMarkers kann im XLS-Dateiformat nicht gesetzt werden|Insekt|
-|CELLSNET-42729|Text wird verschoben, wenn SmartArt-Diagramme im HTML-Dateiformat gerendert werden|Insekt|
+|CELLSNET-46471|Die Farbmarkierung LineWithDataMarkers kann im Dateiformat XLS nicht festgelegt werden|Insekt|
+|CELLSNET-42729|Text wird verschoben, wenn SmartArt-Diagramme im Dateiformat HTML gerendert werden|Insekt|
 |CELLSNET-46462|Text wird wiederholt, während Tag durch Text ersetzt wird|Insekt|
-|CELLSNET-46483|Fehler nach dem Konvertieren des Dokuments mit benutzerdefiniertem UI-XML von XLSB in XLSM|Insekt|
+|CELLSNET-46483|Fehler nach dem Konvertieren des Dokuments mit XML der benutzerdefinierten Benutzeroberfläche von XLSB in XLSM|Insekt|
 |CELLSNET-46495|Beim Konvertieren des Diagramms in ein Bild wurden Probleme gefunden|Insekt|
 |CELLSNET-46486|Ausnahme beim Konvertieren von XLS in PDF ausgelöst|Ausnahme|
 |CELLSNET-46472|PivotTable.GetChildren() löst Ausnahme "Ungültiger Cell-Name" aus|Ausnahme|

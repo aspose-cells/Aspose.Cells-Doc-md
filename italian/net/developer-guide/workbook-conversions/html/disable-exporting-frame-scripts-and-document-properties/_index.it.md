@@ -6,7 +6,7 @@ url: /it/net/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells esporta gli script dei frame e le proprietà dei documenti durante la conversione di una cartella di lavoro in HTML. La versione 8.6.0 di Aspose.Cells for .NET introduce un'opzione che consente facoltativamente di disabilitare l'esportazione degli script dei frame e delle proprietà dei documenti. Utilizzare la proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties per disabilitare l'esportazione.
+Aspose.Cells esporta gli script dei frame e le proprietà del documento durante la conversione di una cartella di lavoro in HTML. La versione 8.6.0 di Aspose.Cells for .NET introduce un'opzione che consente facoltativamente di disabilitare l'esportazione degli script dei frame e delle proprietà del documento. Utilizzare la proprietà HtmlSaveOptions.ExportFrameScriptsAndProperties per disabilitare l'esportazione.
 
 {{% /alert %}}
 

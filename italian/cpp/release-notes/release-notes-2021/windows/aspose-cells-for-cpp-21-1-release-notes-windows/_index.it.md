@@ -10,8 +10,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.1 per Win
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-269| Risolto il problema di caricamento della licenza|Insetto|
-|CELLSCPP-270| Risolve il problema di conversione in PDF|Insetto|
+|CELLSCPP-270|Risolto il problema di conversione in PDF|Insetto|
 |CELLSCPP-271|Supporta la funzione SetDPI|Nuova caratteristica|

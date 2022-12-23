@@ -42,7 +42,7 @@ Nedan är skärmdumparna:
 
 ![todo:image_alt_text](picture2.png)
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Cells1.0/Export.from.Worksheet.Aspose.Cells.zip)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Export%20from%20Worksheet%20%28Aspose.Cells%29.zip)

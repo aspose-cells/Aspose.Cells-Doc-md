@@ -7,7 +7,7 @@ url: /ar/java/password-protect-or-unprotect-the-shared-workbook/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-يمكنك حماية المصنف المشترك أو إلغاء حمايته باستخدام Microsoft Excel كما هو موضح في لقطة الشاشة التالية. يدعم Aspose.Cells أيضًا هذه الميزة مع[**Workbook.protectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) و[**Workbook.unprotectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) طُرق.
+يمكنك حماية المصنف المشترك أو إلغاء حمايته باستخدام Microsoft Excel كما هو موضح في لقطة الشاشة التالية. يدعم Aspose.Cells أيضًا هذه الميزة مع[**Workbook.protectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#protectSharedWorkbook(java.lang.String)) و[**Workbook.unprotectSharedWorkbook ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#unprotectSharedWorkbook(java.lang.String)) أساليب.
 
 ![ما يجب القيام به: image_بديل_نص](password-protect-or-unprotect-the-shared-workbook_1.png)
 

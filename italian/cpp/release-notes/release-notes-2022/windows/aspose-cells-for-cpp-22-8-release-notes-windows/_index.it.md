@@ -10,8 +10,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.8 per Win
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSCPP-859|Risolto il problema di riferimento dell'API|Insetto|
+|CELLSCPP-859| Risolto il problema di riferimento API|Insetto|
 |CELLSCPP-880| Correggi l'errore di formato del file fods aperto|Insetto|
 |CELLSCPP-881| Sincronizza le funzionalità con la versione .Net|Supporto|

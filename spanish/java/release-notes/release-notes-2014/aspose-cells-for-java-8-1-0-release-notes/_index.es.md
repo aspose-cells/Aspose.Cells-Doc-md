@@ -28,9 +28,9 @@ Insectos
 
 (CELLSJAVA-40809): algunos colores se muestran justo antes de la columna en una tabla
 (CELLSJAVA-40814): faltan imágenes en el PDF resultante cuando la hoja de cálculo se convierte en Ubuntu
-(CELLSJAVA-40826): faltan las configuraciones de cuadrícula y fuente en el HTML de salida
+(CELLSJAVA-40826): faltan las configuraciones de cuadrícula y fuente en la salida HTML
 (CELLSJAVA-40829): no se puede establecer la calidad de impresión de las hojas de trabajo.
-(CELLSJAVA-40838): las copias impresas se conservan para el formato XLS, pero no para el formato XLSX.
+(CELLSJAVA-40838): las copias impresas se conservan para el formato XLS pero no para el formato XLSX
 
 Excepciones
 

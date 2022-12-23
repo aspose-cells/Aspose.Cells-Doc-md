@@ -10,10 +10,10 @@ url: /fr/net/aspose-cells-for-net-21-4-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47891|Prise en charge pour obtenir un style d'affichage avec l'activation du cache|Nouvelle fonctionnalité|
-|CELLSNET-47922|Rendre les données avec les coordonnées de cellule dans la conversion Excel en HTML|Renforcement|
+|CELLSNET-47922|Rendre les données avec les coordonnées de cellule dans Excel en conversion HTML|Renforcement|
 |CELLSNET-47924|Implémenter la cryptographie avec le API de BouncyCastle|Renforcement|
 |CELLSNET-47951|Prise en charge des cartes XML par XSD|Renforcement|
 |CELLSNET-47206|Regroupement de données avec des marqueurs intelligents horizontaux et une source de données imbriquée|Renforcement|
@@ -21,16 +21,16 @@ url: /fr/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47918|Lignes pliables avec marqueurs intelligents|Renforcement|
 |CELLSNET-47953|Prend en charge l'ajout d'une image .webp aux fichiers .xlsx.|Renforcement|
 |CELLSNET-47916|La balise de style HTML consomme 4 Go de mémoire et se bloque lors du chargement dans le classeur|Performance|
-|CELLSNET-46869|Les WordArts et les formes ne sont pas rendus correctement en PDF|Punaise|
+|CELLSNET-46869|Les WordArts et les formes ne sont pas rendus correctement dans PDF|Punaise|
 |CELLSNET-47890|Les lignes dériveront lors de la conversion PDF|Punaise|
-|CELLSNET-47858|Les formes ne sont pas rendues correctement en HTML et PDF|Punaise|
+|CELLSNET-47858|Les formes ne sont pas rendues correctement dans HTML et PDF|Punaise|
 |CELLSNET-47907|Le placement du graphique est modifié lors de la conversion d'Excel en HTML|Punaise|
-|CELLSNET-47856|Problème de conversion XLSX en PDF avec des tableaux croisés dynamiques|Punaise|
+|CELLSNET-47856|Problème de conversion XLSX à PDF avec les tableaux croisés dynamiques|Punaise|
 |CELLSNET-47846|Implémentation GridWeb incompatible avec les composants DevExpress récents|Punaise|
 |CELLSNET-47923|Vue de mise en page incorrecte pour le classeur ayant une police par défaut autre que Calibri|Punaise|
-|CELLSNET-47965| Conversion Excel en PDF - Pages de document mélangées|Punaise|
-|CELLSNET-46161|Le texte oblique ne s'affiche pas correctement dans le PDF de sortie|Punaise|
-|CELLSNET-47917|Étiquettes de graphique à secteurs foirées dans un PDF généré à partir d'une feuille de calcul Excel|Punaise|
+|CELLSNET-47965| Conversion d'Excel en PDF - Pages de document mélangées|Punaise|
+|CELLSNET-46161|Le texte oblique ne s'affiche pas correctement dans la sortie PDF|Punaise|
+|CELLSNET-47917|Étiquettes de graphique à secteurs foirées dans PDF générées à partir d'une feuille de calcul Excel|Punaise|
 |CELLSNET-47919|Mauvaise valeur maximale extraite des graphiques|Punaise|
 |CELLSNET-46363|La structure imbriquée n'est pas importée correctement dans XLSX|Punaise|
 |CELLSNET-47838|La palette de couleurs du graphique natif n'est pas conservée|Punaise|
@@ -43,7 +43,7 @@ url: /fr/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|Une exception est levée lors de l'ouverture d'un fichier mht spécial.|Exception|
 |CELLSNET-47944|Null Exception lors de la conversion de la forme du slicer en image|Exception|
 |CELLSNET-47932|Null Exception lors du chargement d'un fichier xlsx spécial avec une formule étrange.|Exception|
-|CELLSNET-47963|Le paramètre n'est pas une exception valide lors du rendu de la plage en PNG|Exception|
+|CELLSNET-47963|Le paramètre n'est pas une exception valide lors du rendu de la plage à PNG|Exception|
 |CELLSNET-47967|Erreur de débordement lors de l'enregistrement d'un fichier XLS|Exception|
 |CELLSNET-47921|Null Exception lors du chargement d'un fichier xlsx spécial|Exception|
 |CELLSNET-47945|Null Exception lors du chargement d'un fichier html spécial|Exception|

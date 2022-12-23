@@ -20,13 +20,13 @@ url: /tr/net/aspose-cells-for-net-7-1-1-release-notes/
 
  Geliştirmeler
 
-- Çalışma kitabını XLSX'te kaydetme hatası veriyor
+- Çalışma kitabını XLSX'de kaydetme hatası veriyor
 - Otomatik SığdırSütun seçenekleri
 - .NET sürümünde GetDependents() yöntemi var mı?
 
- -HTML Tablosunda TH öğelerini destekleyin
+ -HTML tablosundaki TH öğelerini destekleyin
 
-- Excel'den PDF'e (Arapça) - Dönüştürmede yanlış kelime/tarih biçimlendirmesi
+- Excel'den PDF'e (Arapça) - Dönüştürmede yanlış sözcük/tarih biçimlendirmesi
 - Antivirüs yazılımı Excel dosyalarını e-postalardan çıkarır
 
  İstisnalar
@@ -42,31 +42,31 @@ url: /tr/net/aspose-cells-for-net-7-1-1-release-notes/
 
  -Düğme özellikleri
 
-- Cells, Fit ve İnç ile PDF'ye dönüştürüldüğünde yanlış
-- PDF çıktısında em tire karakterlerini oluşturma sorunu
+- Cells, Fit ve İnç ile PDF'e dönüştürüldüğünde yanlış
+- PDF çıktısında uzun çizgi karakterleri oluşturma sorunu
 - Birleştirilmiş çalışma kitabında Sayfa Düzeni değişti
-- XLSX olarak kaydet bazen geçersiz bir dosya üretir
+- XLSX olarak kaydet bazen geçersiz bir dosya üretiyor
 
- -XLS dosyası, Aspose.Cells kullanıldıktan sonra Korumalı modda açılır
+ -XLS dosyası, Aspose.Cells kullanıldıktan sonra Korumalı modda açılıyor
 
 - Cell.GetDependents(), NamedRange ile çalışmıyor
 - AutoFitRow ve IndentLevel sorunu
 - Birleştirme işlemi kullanılırken adlandırılmış aralıkta sorun
 - Hayır olduğunda TickLabels görünmez. Ticklabels'ın sayısı daha büyük
-- MS Excel grafiklerini PDF'ye çevirme sorunları, Y Ekseni eksik
+- MS Excel grafiklerini PDF'e çevirme sorunları, Y Ekseni eksik
 - Grafiklerdeki Çizgi genişliği ve boş metin alanlarındaki sorunlar
 - ADDRESS, COUNTBLANK ve IF İşlevlerinde Sorun
 - DÜŞEYARA VE KAYDIRMA İŞLEVLERİ Sorunları
 - MS Excel Formül Doğrulaması Yok
 - XLS çıktısında TAMİŞGÜNÜ işleviyle ilgili sorunlar
-- HTML'den Excel'e Dönüştürme Sorunları
+- HTML-to-Excel Dönüşüm Sorunları
 
- ` `- HTML'nin satır aralığı ve sınıf özellikleri sorunları
+ ` `- HTML'srowspan ve class öznitelikleri sorunları
 
- -Cells datauri'yi destekliyor mu?
+-Cells datauri'yi destekliyor mu?
 
-- PDF'ye dönüştürülürken kaybolan özel biçimlendirilmiş kenarlıklar
-- PDF Dışa Aktarmada Kılavuz Çizgiler
+- PDF'e dönüştürülürken kaybolan özel biçimlendirilmiş kenarlıklar
+- PDF Dışa Aktarmadaki Kılavuz Çizgiler
 
  -Excel Okunamayan İçerik Bulundu hatası
 

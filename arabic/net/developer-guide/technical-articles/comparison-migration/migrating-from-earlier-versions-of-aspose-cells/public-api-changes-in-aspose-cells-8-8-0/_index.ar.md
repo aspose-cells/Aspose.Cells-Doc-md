@@ -23,7 +23,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-8-0/
 
 {{% /alert %}} 
 ### **تمت إضافة خاصية HTMLLoadOptions.KeepPrecision المضافة**
-أضاف Aspose.Cells for .NET 8.8.0 الخاصية HTMLLoadOptions.KeepPrecision للتحكم في تحويل القيم الرقمية الطويلة إلى تدوين أسي أثناء استيراد ملفات HTML. بشكل افتراضي ، يتم تحويل أي قيمة أطول من 15 رقمًا إلى تدوين أسي إذا كان يتم استيراد البيانات من سلسلة أو ملف HTML. ومع ذلك ، يمكن للمستخدمين الآن التحكم في هذا السلوك بمساعدة خاصية HTMLLoadOptions.KeepPrecision. إذا تم تعيين الخاصية المذكورة على true ، فسيتم استيراد القيم كما هي في المصدر.
+أضاف Aspose.Cells for .NET 8.8.0 الخاصية HTMLLoadOptions.KeepPrecision للتحكم في تحويل القيم الرقمية الطويلة إلى تدوين أسي أثناء استيراد ملفات HTML. بشكل افتراضي ، يتم تحويل أي قيمة أطول من 15 رقمًا إلى تدوين أسي إذا تم استيراد البيانات من HTML سلسلة أو ملف. ومع ذلك ، يمكن للمستخدمين الآن التحكم في هذا السلوك بمساعدة خاصية HTMLLoadOptions.KeepPrecision. إذا تم تعيين الخاصية المذكورة على true ، فسيتم استيراد القيم كما هي في المصدر.
 
 {{% alert color="primary" %}} 
 
@@ -77,11 +77,11 @@ workbook.Save(dir + "output.xlsx");
 
 
 ### **تمت إضافة خاصية HTMLLoadOptions.DeleteRedundantSpaces**
-كشف Aspose.Cells for .NET 8.8.0 الخاصية HTMLLoadOptions.DeleteRedundantSpaces من أجل الاحتفاظ بالمسافات الزائدة أو حذفها بعد علامة فاصل السطر (<br>علامة) أثناء استيراد البيانات من سلسلة أو ملف HTML. تحتوي الخاصية HTMLLoadOptions.DeleteRedundantSpaces على القيمة الافتراضية على أنها false مما يعني أنه سيتم الاحتفاظ بجميع المسافات الإضافية واستيرادها إلى كائن Workbook ، ومع ذلك ، عند التعيين على true ، فإن API سيحذف جميع المسافات الزائدة التي تأتي بعد علامة فاصل السطر.
+كشف Aspose.Cells for .NET 8.8.0 الخاصية HTMLLoadOptions.DeleteRedundantSpaces من أجل الاحتفاظ بالمسافات الزائدة أو حذفها بعد علامة فاصل السطر (<br>علامة) أثناء استيراد البيانات من HTML سلسلة أو ملف. تحتوي الخاصية HTMLLoadOptions.DeleteRedundantSpaces على القيمة الافتراضية على أنها false مما يعني أنه سيتم الاحتفاظ بجميع المسافات الإضافية واستيرادها إلى كائن Workbook ، ومع ذلك ، عند التعيين على true ، فإن API سيحذف جميع المسافات الزائدة التي تأتي بعد علامة فاصل السطر.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[احذف المسافات الزائدة من HTML](/cells/ar/net/delete-redundant-spaces-after-line-break-while-importing/)
+ لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[حذف المسافات الزائدة من HTML](/cells/ar/net/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 

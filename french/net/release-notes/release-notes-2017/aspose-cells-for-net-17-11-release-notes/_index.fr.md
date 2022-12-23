@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.11.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45748|XmlMapQuery comme fonctionnalité nécessaire car disponible dans MS Excel|Nouvelle fonctionnalité|
 |CELLSNET-45747|Propriété associée nécessaire pour que XMLMaps obtienne le RootElementName pour la carte|Nouvelle fonctionnalité|
@@ -20,25 +20,25 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.11.
 |CELLSNET-45755|Impossible d'obtenir le texte des formes Smart Art|Renforcement|
 |CELLSNET-45720|Le tableau croisé dynamique prend trop de temps pour actualiser les données|Performance|
 |CELLSNET-45680|La direction de la forme est incorrecte lors de la conversion au format d'image|Punaise|
-|CELLSNET-45679|Les formes d'étoiles ne s'affichent pas correctement dans le PDF de sortie|Punaise|
+|CELLSNET-45679|Les formes d'étoiles ne s'affichent pas correctement dans la sortie PDF|Punaise|
 |CELLSNET-45669|Les caractères se chevauchent lors de la conversion en image|Punaise|
 |CELLSNET-45665|Certains éléments de dessin sont inversés tandis que d'autres sont décalés vers la droite|Punaise|
-|CELLSNET-43912|La position des objets de ligne a changé lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSNET-43912|La position des objets de ligne a changé lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSNET-45715|Options de tableau croisé dynamique - Afficher la ligne de valeurs - est activé lors de la ré-enregistrement|Punaise|
 |CELLSNET-45671|Valeurs totales manquantes pour les champs calculés lors de l'actualisation/du calcul des données du tableau croisé dynamique|Punaise|
 |CELLSNET-45650|Erreur de développement des données dans les colonnes appropriées lors de l'enregistrement d'un format de fichier MHTML dans un fichier Excel|Punaise|
 |CELLSNET-45721|LightCellsDataProvider supprime les espaces de début et de fin|Punaise|
 |CELLSNET-45719|Le calcul de la formule résout la formule de manière inattendue en erreur|Punaise|
-|CELLSNET-45724|L'enregistrement d'Excel au format PDF réduit la largeur des colonnes|Punaise|
-|CELLSNET-45712|La légende du graphique est manquante dans le PDF de sortie|Punaise|
-|CELLSNET-45710|La mise en forme des nombres dans le graphique est perdue après l'enregistrement d'un fichier Excel au format PDF|Punaise|
+|CELLSNET-45724|L'enregistrement d'Excel sous PDF diminue la largeur de la colonne|Punaise|
+|CELLSNET-45712|La légende du graphique manque dans la sortie PDF|Punaise|
+|CELLSNET-45710|La mise en forme des nombres dans le graphique est perdue après l'enregistrement d'un fichier Excel sous le nom PDF|Punaise|
 |CELLSNET-45708|Le fichier PDF créé par Aspose.Cells provoque une erreur dans Adobe Acrobat Reader|Punaise|
-|CELLSNET-45684|Graphique vers image ou PDF - Le graphique linéaire 3D n'est pas correct ou a pivoté|Punaise|
+|CELLSNET-45684|Graphique à image ou PDF - Le graphique en courbes 3D n'est pas correct ou a pivoté|Punaise|
 |CELLSNET-45760|La validation n'est pas correctement copiée d'une feuille de calcul à une autre|Punaise|
 |CELLSNET-45758|La propriété Style.QuotePrefix ne fonctionne pas pour le format de fichier XLSB|Punaise|
 |CELLSNET-45757|Un classeur Excel spécifique devient masqué après l'ouverture et l'enregistrement|Punaise|
 |CELLSNET-45754|Les colonnes ont été développées de manière inattendue dans le classeur fusionné|Punaise|
-|CELLSNET-45749|Une chaîne HTML ayant plusieurs polices corrompt le fichier Excel de sortie|Punaise|
+|CELLSNET-45749|HTML chaîne ayant plusieurs polices corrompt le fichier Excel de sortie|Punaise|
 |CELLSNET-45739|Le fichier SpreadsheetML lorsqu'il est réenregistré via Aspose.Cells contient des paramètres de protection supplémentaires appliqués|Punaise|
 |CELLSNET-45738|AutoFitColumns rompt le formatage HTML dans le fichier Excel de sortie|Punaise|
 |CELLSNET-45734|MS Excel affiche un message d'erreur lors de l'ouverture du fichier de sortie|Punaise|
@@ -50,7 +50,7 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.11.
 |CELLSNET-45704|Workbook.Save() échoue avec une exception lors de l'utilisation de Aspose.Cells en tant que travail Web Azure|Exception|
 |CELLSNET-45753|Lorsque XLSB est converti en PDF, System.ArgumentOutOfRangeException se produit|Exception|
 |CELLSNET-45751|La propriété ExportTableOptions.Indexes utilisée dans la méthode ExportDataTable() provoque une exception|Exception|
-|CELLSNET-45726|Exception lors du chargement du fichier XLS de sortie (avec les objets OLE, les images, etc. exclus)|Exception|
+|CELLSNET-45726|Exception lors du chargement du fichier de sortie XLS (avec objets OLE, images, etc. exclus)|Exception|
 |CELLSNET-45723|R1C1Formula lève une exception si la formule contient le caractère "[" ]|Exception|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.

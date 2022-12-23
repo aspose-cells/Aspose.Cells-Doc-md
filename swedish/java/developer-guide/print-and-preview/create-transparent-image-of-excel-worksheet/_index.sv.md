@@ -1,5 +1,5 @@
 ﻿---
-title: Skapa en transparent bild av Excel-kalkylblad
+title: Skapa transparent bild av Excel-kalkylblad
 type: docs
 weight: 80
 url: /sv/java/create-transparent-image-of-excel-worksheet/
@@ -12,7 +12,7 @@ url: /sv/java/create-transparent-image-of-excel-worksheet/
 
 I följande kalkylbladsbild har inte genomskinlighet tillämpats. Cellerna utan fyllningsfärger ritas vita.
 
-**Kalkylbladsbild utan att tillämpa genomskinlighet**
+**Kalkylbladsbild utan att tillämpa transparens**
 
 ![todo:image_alt_text](create-transparent-image-of-excel-worksheet_1.png)
 

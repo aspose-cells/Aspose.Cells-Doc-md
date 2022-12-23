@@ -22,8 +22,8 @@ Pour ajouter des bordures aux cellules d'une feuille de calcul, procédez comme 
  1. Ajoutez du texte aux cellules auxquelles vous ajouterez des bordures.
 1. Ajouter des bordures :
  1. Définissez une plage.
- 1. Appliquez un style de bordure à la plage.
-Répétez l'opération pour chaque plage et chaque style de bordure que vous souhaitez définir. Cet exemple applique des lignes fines, fines, moyennes et épaisses.
+1. Appliquez un style de bordure à la plage.
+ Répétez l'opération pour chaque plage et chaque style de bordure que vous souhaitez définir. Cet exemple applique des lignes fines, fines, moyennes et épaisses.
 1. Finir:
  1. Ajustez automatiquement la colonne dans laquelle se trouvent les cellules pour ajuster parfaitement le texte.
  1. Enregistrez le document.

@@ -44,13 +44,13 @@ url: /zh/net/aspose-cells-for-net-5-3-2-release-notes/
 |25683 |公式|计算公式 - StackOverflowException|
 |25699 |公式| CELL() 函数不起作用|
 |25147 |HTML|HTML 保存和图表 css 布局问题|
-|24514 | PDF格式|Excel转PDF问题|
-|25149 | PDF格式|PDF 导出 - 垃圾收集性能问题|
-|25260 | PDF格式|XLS 到 PDF 问题|
+|24514 | PDF格式|Excel到PDF的转换问题|
+|25149 | PDF格式|PDF export - 垃圾收集性能问题|
+|25260 | PDF格式|XLS 至 PDF 问题|
 |25289 | PDF格式|数字作为大指数问题|
 |25365 | PDF格式|将单个字符格式化为粗体|
 |25490 | PDF格式|合并空 Excel 文档时出错|
-|25615 | PDF格式|PDF转换问题|
+|25615 | PDF格式|PDF 转换问题|
 |24199 |数据透视表|数据透视表刷新数据抛出异常|
 |25267 |数据透视表|数据透视表问题|
 |24577 |Xls|AutoFitColumn 未正确设置宽度|

@@ -6,7 +6,7 @@ url: /de/java/specify-formula-fields-while-importing-data-to-worksheet/
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Sie können Formelfelder angeben, wenn Sie Daten mithilfe von in Ihr Arbeitsblatt importieren[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) Methode. Diese Methode nimmt das boolesche Array, wo der Wert ist**Stimmt**bedeutet, dass das Feld ein Formelfeld ist. Wenn das dritte Feld beispielsweise ein Formelfeld ist, dann ist der dritte Wert im Array**Stimmt**.
+ Sie können Formelfelder angeben, wenn Sie Daten mithilfe von in Ihr Arbeitsblatt importieren[**ImportTableOptions.setFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/importtableoptions#IsFormulas) Methode. Diese Methode nimmt das boolesche Array, wo der Wert ist**wahr**bedeutet, dass das Feld ein Formelfeld ist. Wenn das dritte Feld beispielsweise ein Formelfeld ist, dann ist der dritte Wert im Array**wahr**.
 
 ## **Geben Sie beim Importieren von Daten in ein Arbeitsblatt Formelfelder an**
 

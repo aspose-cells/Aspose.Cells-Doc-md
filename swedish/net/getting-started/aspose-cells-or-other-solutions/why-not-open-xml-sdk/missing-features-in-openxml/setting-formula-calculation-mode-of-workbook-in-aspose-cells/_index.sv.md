@@ -25,7 +25,7 @@ Så här ställer du in formelberäkningsläget i Microsoft Excel:
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
- Följande exempelkod skapar först en arbetsbok och ställer sedan in formelberäkningsläget till**Manuell** och sparar arbetsboken som utdata Excel-fil på disk.
+Följande exempelkod skapar först en arbetsbok och ställer sedan in formelberäkningsläget till**Manuell** och sparar arbetsboken som utdata Excel-fil på disk.
 
 **C#**
 
@@ -48,7 +48,7 @@ workbook.Settings.FormulaSettings.CalculationMode = CalcModeType.Manual;
 workbook.Save(FileName, SaveFormat.Xlsx);
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Setting%20Formula%20Calculation%20Mode)
 ## **Ladda ner körningsexempel**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

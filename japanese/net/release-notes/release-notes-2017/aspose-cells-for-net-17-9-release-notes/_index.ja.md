@@ -24,32 +24,32 @@ url: /ja/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop は最後の列を超えてスクロールすべきではありません|強化|
 |CELLSNET-45577|GridDesktop は最後の行を超えてスクロールすべきではありません|強化|
 |CELLSNET-45633|計算する関数が多数ある customfunction を使用する場合の GetRanges のパフォーマンスの問題|パフォーマンス|
-|CELLSNET-45592|Excel から PDF へのレンダリングで一部の描画要素の位置が正しくない|バグ|
-|CELLSNET-45575|ボックスの灰色の背景が出力 PDF に表示されない|バグ|
-|CELLSNET-45516|Excel から PDF へのレンダリングで分散/分散したシェイプ テキスト|バグ|
+|CELLSNET-45592|Excel で一部の描画要素の位置が正しくない PDF レンダリング|バグ|
+|CELLSNET-45575|ボックスの灰色の背景が出力に表示されない PDF|バグ|
+|CELLSNET-45516|Excel で PDF レンダリングに分散/分散されたシェイプ テキスト|バグ|
 |CELLSNET-45415|シートから画像へのレンダリングで、セル参照のある TextBox のアジア フォントが無視される|バグ|
 |CELLSNET-45315|シートから画像へのレンダリングで一部のテキスト (ラベル) が欠落している形状|バグ|
 |CELLSNET-45655|数値の精度形式を維持するかどうかを制御するオプションを 1 つ提供する|バグ|
-|CELLSNET-45630|「222.xlsx」のHTML出力が正しくない|バグ|
-|CELLSNET-45621|HTML ファイル形式で保存すると、1 つではなく 2 つの画像リソースが作成されます|バグ|
+|CELLSNET-45630|HTML 「222.xlsx」の出力が正しくありません|バグ|
+|CELLSNET-45621|HTML ファイル形式で保存すると、1 つではなく 2 つの画像リソースが作成される|バグ|
 |CELLSNET-45597|数値列の「テキストとして格納される数値」|バグ|
 |CELLSNET-45558|MHtml ファイルを XLS 拡張子で保存すると、MS Excel で XLS ファイルを開くときにエラーが表示される|バグ|
 |CELLSNET-45557|ファイルを XLS として保存した後にフォーマットが失われる|バグ|
 |CELLSNET-45556|ファイルを XLS として保存した後に失われた画像|バグ|
 |CELLSNET-45538|MHtml ファイルを XLS または MHT に保存すると、画像が失われ、フォーマットが削除される|バグ|
 |CELLSNET-45584|PageSetup.GetCommands() 使用時の無限ループ|バグ|
-|CELLSNET-45637|出力 PDF で 3 つのハイフン「---」が空白としてレンダリングされる|バグ|
-|CELLSNET-45612|Excel から PDF への変換での浮動行 (一重、二重下線) の問題|バグ|
+|CELLSNET-45637|つのハイフン「---」は、出力で空のスペースとしてレンダリングされます PDF|バグ|
+|CELLSNET-45612|PDF への Excel の浮動行 (一重、二重下線) の問題|バグ|
 |CELLSNET-45608|ImageOrPrintOptions.OnlyArea = true の場合、データが破損する|バグ|
 |CELLSNET-45605|画像に変換すると一部文字が欠ける|バグ|
 |CELLSNET-45571|点線に変換されたデフォルトのグレーのセル枠|バグ|
 |CELLSNET-45628|画像に変換するときに単語の名前が変更されます|バグ|
 |CELLSNET-45603|Chart.Calculate() メソッドの問題|バグ|
 |CELLSNET-45602|チャートの傾向方程式の問題|バグ|
-|CELLSNET-45587|レーダー チャートの出力 PDF でスケールが大きくなります|バグ|
+|CELLSNET-45587|レーダー チャートの出力 PDF でスケールが増加します。|バグ|
 |CELLSNET-45573|チャート画像に 3 桁の数字がありません|バグ|
 |CELLSNET-45569|Aspose.Cells 経由でチャートから画像をレンダリングできません|バグ|
-|CELLSNET-45563|ライン プロットをソース Excel と比較すると、Chart PDF が正しくない|バグ|
+|CELLSNET-45563|ライン プロットをソース Excel と比較すると、正しくないチャート PDF が表示される|バグ|
 |CELLSNET-45561|Sample.xlsm ワークシート SampleCharts から生成された画像が正しくない|バグ|
 |CELLSNET-45441|画像に変換すると、グラフの凡例が間違った位置にレンダリングされる|バグ|
 |CELLSNET-45643|OLE オブジェクト ファイルを開いて編集すると、OLE オブジェクトのサイズが変わる|バグ|
@@ -57,7 +57,7 @@ url: /ja/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45638|ワークシートに列を挿入すると、出力 Excel ファイルが破損する|バグ|
 |CELLSNET-45636|SpreadsheetML - 行の隠し属性が正しく機能しない|バグ|
 |CELLSNET-45624|カスタムの日付プロパティを保存すると、間違った時刻が書き込まれる|バグ|
-|CELLSNET-45617|XLS ファイルの読み込みと保存後に列幅が変更される|バグ|
+|CELLSNET-45617|XLS ファイルを読み込んで保存すると、列幅が変更される|バグ|
 |CELLSNET-45616|円グラフと縦棒グラフは、再読み込みと再保存後に劇的に変化します|バグ|
 |CELLSNET-45613|テーブル スタイルで Workbook.RemoveUnusedStyles が期待どおりに機能しない|バグ|
 |CELLSNET-45598|スマート マーカー: スキップ オーバーラップを持つ複数のグループの総計行|バグ|
@@ -110,8 +110,8 @@ VBA プロジェクトのデザイナー ストレージを取得および設定
 #### **使用例**
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
-- [名前付き宛先を含む PDF ブックマークを追加する](/cells/ja/net/add-pdf-bookmarks-with-named-destinations/)
-- [PDF へのレンダリング中に、MS Excel ワークブックの外部リソースの読み込みを制御する](/cells/ja/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [PDF ブックマークに名前付きの宛先を追加](/cells/ja/net/add-pdf-bookmarks-with-named-destinations/)
+- [PDF へのレンダリング中に、MS Excel ワークブックの外部リソースの読み込みを制御します](/cells/ja/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [VBA マクロ UserForm DesignerStorage をテンプレートからターゲット ワークブックにコピーする](/cells/ja/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [GridCell コメントの削除と取得の作成](/cells/ja/net/create-remove-and-get-gridcell-comments/)
 - [ワークシート内の形状を前面または背面に送信](/cells/ja/net/send-shape-front-or-back-inside-the-worksheet/)

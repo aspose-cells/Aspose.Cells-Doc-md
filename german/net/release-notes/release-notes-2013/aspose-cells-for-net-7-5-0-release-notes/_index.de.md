@@ -26,9 +26,9 @@ url: /de/net/aspose-cells-for-net-7-5-0-release-notes/
 
  41710 - Ein Zeichen wird zu einem Fragezeichen
 
- 41614 – PDF zeigt die gefilterten Elemente nicht an
+ 41614 - PDF zeigt die gefilterten Elemente nicht an
 
-41695 – Die Diagrammlegende befindet sich an der falschen Position
+ 41695 – Die Diagrammlegende befindet sich an der falschen Position
 
 41632 – Diagrammlegende kann nicht zentriert ausgerichtet werden. 41745 – Bestimmte Funktionen zum Kopieren/Einfügen sind fehlerhaft
 
@@ -44,6 +44,6 @@ url: /de/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Fehler
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Fehler

@@ -18,7 +18,7 @@ url: /tr/net/exporting-data-from-grid/
 
 Aşağıda verilen örnekte, içinde dört sütun bulunan belirli bir DataTable nesnesi oluşturduk. Son olarak, çalışma sayfası verilerini (69 satır ve 4 sütunlu ilk hücreden başlayarak) zaten bizim tarafımızdan oluşturulmuş bir DataTable nesnesine aktardık.
 
-**Örnek:**
+**Örnek vermek:**
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToSpecificDataTable.cs" >}}
 ### **Yeni bir DataTable'a Aktarma**
@@ -26,7 +26,7 @@ Bazen, geliştiriciler kendi DataTable nesnelerini oluşturmakla ilgilenmeyebili
 
 Aşağıda verilen örnekte, ExportDataTable yönteminin kullanımını farklı bir şekilde açıklamaya çalıştık. Halihazırda aktif olan çalışma sayfasının referansını aldık ve ardından bu aktif çalışma sayfasının tüm verilerini yeni bir DataTable nesnesine aktardık. Artık bu DataTable nesnesi, bir geliştiricinin istediği herhangi bir şekilde kullanılabilir. Bir örnek için, bir geliştirici verileri görüntülemek için bu DataTable nesnesini bir DataGrid'e bağlayabilir.
 
-**Örnek:**
+**Örnek vermek:**
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ExportDataToDataTable-ExportToNewDataTable.cs" >}}
 

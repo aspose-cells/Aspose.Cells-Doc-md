@@ -11,7 +11,7 @@ url: /ru/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- На следующем снимке экрана показана диаграмма с линией тренда, а текст уравнения выделен красным цветом. Мы получим этот текст с помощью[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)свойство в следующем примере кода.
+На следующем снимке экрана показана диаграмма с линией тренда, а текст уравнения выделен красным цветом. Мы получим этот текст с помощью[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)свойство в следующем примере кода.
 
 ![дело:изображение_альтернативный_текст](get-equation-text-of-chart-trendline_1.png)
 

@@ -9,4 +9,4 @@ Microsoft Sonraki bitişik hücreler boş olduğunda ve metin hücrenin içine s
 ## **Metin çok uzunsa GridDesktop hücresinden taşar**
 Aşağıdaki ekran görüntüsü, metnin hücre genişliğine sığamayacak kadar uzun olduğunda GridDesktop hücresinden taştığını göstermektedir. Ekran görüntüsü, metin taşmasıyla ilgili olarak GridDesktop'ın daha yeni ve daha eski sürümünün davranışını gösterir. Ekran görüntüsünde görebileceğiniz gibi, özellik 17.12'den itibaren desteklenmektedir.
 ## **Ekran görüntüsü**
-![yapılacaklar:resim_alternatif_Metin](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)
+![yapılacaklar:resim_alternatif_metin](text-overflows-from-griddesktop-cell-if-it-is-too-long_1.png)

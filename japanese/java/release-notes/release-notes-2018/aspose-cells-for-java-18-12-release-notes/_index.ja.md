@@ -13,12 +13,12 @@ url: /ja/java/aspose-cells-for-java-18-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42745|返されるタイプが 'zo[]' であるため、接続ポイントを取得しません|新機能|
-|CELLSJAVA-42662|範囲を HTML としてエクスポートする機能を提供する|新機能|
+|CELLSJAVA-42662|範囲を HTML としてエクスポートする機能を提供します|新機能|
 |CELLSJAVA-42746|XLSX を HTML に変換するとデータ バーが表示されない|新機能|
-|CELLSJAVA-42747|XLSX が HTML ファイル形式に変換された場合でも値が存在する|新機能|
+|CELLSJAVA-42747|XLSX が HTML ファイル形式に変換された場合、値はまだ存在します|新機能|
 |CELLSJAVA-42748|LightCells API が巨大なファイルの読み込みに失敗する|強化|
 |CELLSJAVA-42727|MS Excel 範囲の HTML 出力にテキストの書式設定がありません|バグ|
-|CELLSJAVA-42744|XLSX を HTML に変換すると、アイコン セットの位置がずれる|バグ|
+|CELLSJAVA-42744|XLSX を HTML に変換すると、アイコン セットがずれる|バグ|
 |CELLSJAVA-42772|名前付き範囲データのエクスポートが HTML に正しくレンダリングされない (Java)|バグ|
 |CELLSJAVA-42753|名前付き範囲で見つかった問題|バグ|
 |CELLSJAVA-42764|「getInCellDropDown()」メソッドの場合、検証は常に true を返します|バグ|
@@ -29,7 +29,7 @@ url: /ja/java/aspose-cells-for-java-18-12-release-notes/
 |CELLSJAVA-42755|XLSX ファイルのインスタンス化時の例外「NullPointerException」|例外|
 |CELLSJAVA-42762|ファイル処理中の NumberFormatException|例外|
 |CELLSJAVA-42774|CSV をロードするときの NullPointerException|例外|
-|CELLSJAVA-42765|Excel ファイルを PDF ファイル形式にレンダリングするときの例外「com.aspose.cells.CellsException」|例外|
+|CELLSJAVA-42765|Excel ファイルを PDF ファイル形式にレンダリングする際の例外「com.aspose.cells.CellsException」|例外|
 |CELLSJAVA-42754|XLS ファイル形式をインスタンス化するときの「IllegalStateException: Invalid encoding: null」|例外|
 ## **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for Java に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。

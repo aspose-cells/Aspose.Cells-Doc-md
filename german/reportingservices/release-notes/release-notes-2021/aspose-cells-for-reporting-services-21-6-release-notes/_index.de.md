@@ -13,6 +13,6 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSRS-532 | Der Trennzeichenwert in Aspose.Cells.ReportingServices.xml scheint falsch zu sein.| Insekt|
-|CELLSRS-579 | Unterstützung für den Export von Berichten im EMF-Format.|Neue Funktion|
+|CELLSRS-579 | Unterstützung für den Export von Berichten im Format EMF.|Neue Funktion|
 
 

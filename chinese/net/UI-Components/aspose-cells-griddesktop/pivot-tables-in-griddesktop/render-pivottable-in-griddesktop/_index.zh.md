@@ -9,7 +9,7 @@ url: /zh/net/render-pivottable-in-griddesktop/
 ## **在 GridDesktop 中呈现数据透视表**
 以下示例代码导入[包含数据透视表的示例 Excel 文件](48496686.xlsx).截图展示了该示例代码的执行结果，供参考。
 
-![待办事项：图像_替代_文本](render-pivottable-in-griddesktop_1.png)
+![待办事项：图片_替代_文本](render-pivottable-in-griddesktop_1.png)
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-PivotTablesInGridDesktop-Form_RenderPivotTableInGridDesktop.cs" >}}

@@ -24,8 +24,8 @@ url: /ja/java/aspose-cells-for-java-22-4-release-notes/
 |CELLSJAVA-44464|追加問題1、列シート4のyscl.xlsの背景色がExcelと同じではありません|
 |CELLSJAVA-44466|追加の問題 3、setCalculateFormula を false に設定しても機能しない|
 |CELLSJAVA-44496|HTML をロードするときにテーブルのキャプション タグ/要素を含める|
-|CELLSJAVA-44429|Excel での Excel グラフの効果は、HTML での効果とは異なります|
-|CELLSJAVA-44414|JSON の Unicode は、生成された XLSX および CSV を壊します|
+|CELLSJAVA-44429|Excel での Excel グラフの効果は、HTML のものとは異なります|
+|CELLSJAVA-44414|JSON の Unicode は、生成された XLSX と CSV を壊します|
 |CELLSJAVA-44404|XLSX ファイルを GridWeb にロードするときの例外「java.lang.IllegalArgumentException: Invalid column index」|
 
 ## **Public API および下位互換性のない変更**

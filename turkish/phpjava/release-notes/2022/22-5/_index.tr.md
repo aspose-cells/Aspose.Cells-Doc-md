@@ -21,11 +21,11 @@ url: /tr/php-java/aspose-cells-for-php-via-java-22-5-release-notes/
 |CELLSJAVA-44501| duohangduolie.zip dosyası için bir sonraki sayıyı arayın|
 |CELLSJAVA-44529|frozenpane için aramayı uygula|
 |CELLSJAVA-44530|setactivecell sorununu araştırmak bazen çalışmıyor|
-|CELLSJAVA-44534|Yazdırma alanındaki grafik, Excel'de HTML'ye dönüştürülmeye aktarılmaz|
+|CELLSJAVA-44534|Yazdırma alanındaki grafik Excel'de HTML'e dönüştürülmedi|
 |CELLSJAVA-44539|Grafik, yazdırma alanıyla html'ye dönüştürülürken sağa kaydırılır|
-|CELLSJAVA-44568|HTML'den XLS'ye dönüştürmedeki ilk satır dışında çok satırlı altyazılar kayboluyor|
+|CELLSJAVA-44568|HTML'den XLS'e dönüştürmedeki ilk satır dışında çok satırlı başlıklar kayboluyor|
 |CELLSJAVA-44512|Grafiği html'de svg'ye dışa aktarırken grafik eksik|
-|CELLSJAVA-44556|Koordinat ekseni logaritmik ölçeğe ayarlandıktan sonra veri tablosunda veri görüntüleme sorunu - Excel'den HTML/PDF'ye dönüştürme|
+|CELLSJAVA-44556|Koordinat ekseni logaritmik ölçeğe ayarlandıktan sonra veri tablosunda veri görüntüleme sorunu - Excel'den HTML/PDF'e dönüştürme|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

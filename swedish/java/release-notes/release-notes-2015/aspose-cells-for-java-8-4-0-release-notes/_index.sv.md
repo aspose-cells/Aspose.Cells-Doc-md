@@ -21,12 +21,12 @@ Nya egenskaper
 
 Förbättringar
 
-(CELLSJAVA-41169) - Ta bort falska nullattribut i den genererade HTML-filen
+(CELLSJAVA-41169) - Ta bort falska null-attribut i den genererade HTML-filen
 (CELLSJAVA-41179) - Japansk kalenderstöd
 
 Buggar
 
-(CELLSJAVA-41222) - Pivottabellens sorteringsfält är fel i XLSX-utdata
+(CELLSJAVA-41222) - Pivottabellens sorteringsfält är fel i XLSX-utgången
 (CELLSJAVA-41173) - HtmlSaveOptions.setExportHiddenWorksheet(true) fungerar inte korrekt
 (CELLSJAVA-41168) - Ändringar i beskärning av korscellstext sedan 8.3.1 till 8.3.1.5
 (CELLSJAVA-41167) - Uppdatering av pivottabeller genererar korrupt arbetsbok
@@ -34,21 +34,21 @@ Buggar
 (CELLSJAVA-41215) - EMF genererad med Aspose.Cells återges olika i olika tittare
 (CELLSJAVA-41196) - XLSB blir skadad efter att ha lagt till ett kalkylblad och ett cellvärde
 (CELLSJAVA-41227) - API kan inte ersätta Arial-teckensnittet med Liberation Fonts
-(CELLSJAVA-41224) - Fel vid bildkonvertering vid rendering av Excel till PDF
+(CELLSJAVA-41224) - Fel i bildkonvertering vid rendering av Excel till PDF
 (CELLSJAVA-41223) - Signering av exporterade PDF-filer misslyckas
 (CELLSJAVA-41208) - Rendering Hints (Anti Aliasing) fungerar inte med SheetRender
 (CELLSJAVA-41193) - Wingdings-symboler återges inte korrekt när kalkylbladet renderas till bild
 (CELLSJAVA-41184) - Problem med utdatabildåtergivning från diagrammet
 (CELLSJAVA-41106) - Dataetiketter för cirkeldiagram överlappar varandra i diagrambilden
 (CELLSJAVA-40941) - Överlappning av dataetiketter i cirkeldiagram när diagram renderas som bild
-(CELLSJAVA-40813) - Cirkeldiagrammets dataetikett överlappar i den återgivna HTML-koden
+(CELLSJAVA-40813) - Cirkeldiagrammets dataetikett överlappar i den renderade HTML
 (CELLSJAVA-41182) - Slät linje är inte korrekt när punktfärgen är annorlunda
 
 Undantag
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException: Okänt område, vid PivotTable.refreshData
-(CELLSJAVA-41192) - Undantag: "java.lang.Exception: End of stream nådd" vid öppning av en XLS-fil
-(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException på Workbook ctor när en XLS laddas
+(CELLSJAVA-41192) - Undantag: "java.lang.Exception: End of stream nådd" vid öppning av en XLS fil
+(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException på Workbook ctor medan du laddar en XLS
 (CELLSJAVA-41211) - Undantag uppstår vid lösning av formelreferens när filnamnet ställs in med Workbook.setFileName()
 
 \2) Aspose.Cells Grid Suite
@@ -82,7 +82,7 @@ Layouter pivottabellen i kompakt form.
  Lägger till metoden PivotTable.ShowInOutlineForm().
 Layouter pivottabellen i konturform.
 
-Lägger till metoden PivotTable.ShowInTabularForm().
+ Lägger till metoden PivotTable.ShowInTabularForm().
 Layouter pivottabellen i tabellform.
 
  Lägger till metoden PivotTableCollection.Remove(PivotTable PivotTable).
@@ -91,7 +91,7 @@ Tar bort den angivna pivottabellen
  Lägger till metoden PivotTableCollection.RemoveAt(int index).
 Tar bort pivottabellen vid det angivna indexet
 
- Lägger till klasserna Aspose.Cells.Vba namespace, VbaPorject, VbaModuleCollection och VbaModule.
+Lägger till klasserna Aspose.Cells.Vba namespace, VbaPorject, VbaModuleCollection och VbaModule.
 De används för att läsa och ändra VBA-projektet i filen.
 
  Lägger till egenskapen Border.ThemeColor.

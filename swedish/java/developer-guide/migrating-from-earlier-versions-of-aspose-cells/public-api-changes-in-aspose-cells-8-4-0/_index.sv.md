@@ -225,7 +225,7 @@ Aspose.Cells API:er gör det möjligt att extrahera temarelaterade data från ka
 ### **Egenskapen DrawObject.ImageBytes tillagd**
 Aspose.Cells for Java 8.4.0 har exponerat egenskapen DrawObject.ImageBytes för att hämta bilddata från Chart eller Shape.
 ### **Egenskapen HtmlSaveOptions.ExportBogusRowData tillagd**
- Aspose.Cells for Java 8.4.0 har tillhandahållit egenskapen {HtmlSaveOptions.ExportBogusRowData}}. Egenskapen boolesk typ avgör om API kommer att injicera falska nedre raddata när kalkylark exporteras till HTML-format.
+ Aspose.Cells for Java 8.4.0 har tillhandahållit egenskapen {HtmlSaveOptions.ExportBogusRowData}}. Egenskapen boolesk typ avgör om API kommer att injicera falska nedre raddata när kalkylark exporteras till formatet HTML.
 
 {{% alert color="primary" %}} 
 
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Egenskapen HtmlSaveOptions.CellCssPrefix har lagts till**
-Den nyligen tillagda egenskapen HtmlSaveOptions.CellCssPrefix gör det möjligt att ställa in prefixet för CSS-filerna samtidigt som kalkylblad exporteras till HTML-format.
+Nyligen tillagd egenskap HtmlSaveOptions.CellCssPrefix gör det möjligt att ställa in prefixet för CSS-filerna samtidigt som kalkylblad exporteras till formatet HTML.
 
 {{% alert color="primary" %}} 
 

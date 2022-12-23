@@ -30,7 +30,7 @@ Liste doğrulama, kullanıcıların yazarak veya bir menüden bir değer seçere
 
 **Çıktı: listeden bir değer seçmek** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-validations_1.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-validations_1.png)
 
 
 
@@ -48,7 +48,7 @@ Açılır liste doğrulama, kullanıcıların önceden tanımlanmış bir listed
 
 **Açılır listeden bir değer seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-validations_2.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-validations_2.png)
 
 
 
@@ -66,7 +66,7 @@ Açılır liste doğrulama, kullanıcıların önceden tanımlanmış bir listed
 
 **Düzenli bir ifadeye göre C1'e tarih değeri ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-validations_3.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-validations_3.png)
 
 
 
@@ -78,4 +78,4 @@ Aspose.Cells.GridWeb'i kullanarak, kullanıcılar giriş verilerini bir sunucuya
 
 **GridWeb tarafından vurgulanan yanlış giriş değeri** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-validations_4.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-validations_4.png)

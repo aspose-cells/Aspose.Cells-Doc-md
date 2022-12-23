@@ -10,20 +10,20 @@ url: /it/net/aspose-cells-for-net-19-10-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSNET-46926|PageSavingCallback durante il salvataggio in TIFF|Nuova caratteristica|
+|CELLSNET-46926|PageSavingCallback durante il salvataggio su TIFF|Nuova caratteristica|
 |CELLSNET-46927|IMailMergeDataSource equivalente per Cells|Nuova caratteristica|
 |CELLSNET-46903|Modifica dello stile su ContentTypeProperties|Aumento|
 |CELLSNET-46954|Aumenta l'eccezione simile a Excel invece di sospendere il programma|Prestazione|
 |CELLSNET-46896|Il grafico a imbuto scompare|Insetto|
-|CELLSNET-46934|Ritardo e utilizzo della memoria durante la conversione in formato file PDF|Insetto|
+|CELLSNET-46934|Ritardo e utilizzo della memoria durante la conversione nel formato file PDF|Insetto|
 |CELLSNET-43416|L'ordinamento del campo pivot viene modificato dopo il rendering del foglio di calcolo in PDF|Insetto|
 |CELLSNET-44686|Ordinamento pivot non applicato durante l'estrazione del grafico|Insetto|
 |CELLSNET-46793|Un problema con le tabelle pivot|Insetto|
 |CELLSNET-46882|Problema durante il raggruppamento della tabella pivot per data e il salvataggio come PDF|Insetto|
 |CELLSNET-46935|Testo a capo non visualizzato in HTML|Insetto|
-|CELLSNET-46940|bordi delle tabelle non vengono visualizzati correttamente in HTML|Insetto|
+|CELLSNET-46940|I bordi della tabella non vengono visualizzati correttamente in HTML|Insetto|
 |CELLSNET-46939|Supporto per la funzione TEXTJOIN()|Insetto|
 |CELLSNET-46237|Cell Il formato non si attacca|Insetto|
 |CELLSNET-46245|Taglia/Incolla non copia il nome di Cell nella nuova posizione in GridDesktop|Insetto|
@@ -41,10 +41,10 @@ url: /it/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46945|Estendi intervallo. Rimuovi duplicati|Insetto|
 |CELLSNET-46948|Prestazioni Range.Copy per grandi volumi|Insetto|
 |CELLSNET-46949|Gli oggetti OLE diventano immagini durante la copia dei fogli di lavoro|Insetto|
-|CELLSNET-46941|Salva come HTML genera un'eccezione quando la cella contiene un riferimento a un file|Eccezione|
+|CELLSNET-46941|Salva con nome HTML genera un'eccezione quando la cella contiene un riferimento a un file|Eccezione|
 |CELLSNET-46952|Eccezione durante la chiamata a Workbook.RemoveUnusedStyles()|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo Cells.RemoveDuplicates()**
 Rimuove i dati duplicati dell'intervallo.
 #### **Aggiunge la proprietà OleObject.FullObjectBin**

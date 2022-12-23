@@ -15,22 +15,22 @@ url: /de/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47353|Unterstützung für das Speichern von temporären Dateien für Sitzungsinformationen in GridWeb|Erweiterung|
 |CELLSNET-47388|GridWeb SessionMode.File speichert die Cache-Datei für verschiedene Seiten/Tabs|Erweiterung|
 |CELLSNET-46062|Die Legende der Karte wird wegen asiatischer und lateinischer Zeichen nicht richtig gerendert|Erweiterung|
-|CELLSNET-47373|Das Speichern der Arbeitsmappe in PDF MemoryStream dauert länger als 2 Minuten|Erweiterung|
+|CELLSNET-47373|Das Speichern der Arbeitsmappe in PDF MemoryStream dauert mehr als 2 Minuten|Erweiterung|
 |CELLSNET-43418|Kopieren und Einfügen (nur Daten) eines nicht zusammenhängenden Bereichs|Erweiterung|
 |CELLSNET-47315|Die Datei konnte beim Speichern in zip64 nicht geöffnet werden|Erweiterung|
 |CELLSNET-47384|Verbessern Sie die Leistung beim Laden von Bildern/Formen|Leistung|
-|CELLSNET-47382|Bei der Konvertierung von HTML in Excel geht die Formatierung verloren|Insekt|
-|CELLSNET-47390|Die Farbe einiger Wörter ist beim HTML-to-ODS-Rendering falsch|Insekt|
+|CELLSNET-47382|HTML zu Excel-Konvertierung verliert Formatierung|Insekt|
+|CELLSNET-47390|Die Farbe einiger Wörter ist bei der Wiedergabe von HTML bis ODS falsch|Insekt|
 |CELLSNET-47385|Cells.InsertCutCells bricht in Arbeitsmappen mit einer Bereichsüberschneidung um|Insekt|
 |CELLSNET-47389|HLOOKUP-Berechnung nicht korrekt|Insekt|
 |CELLSNET-47352|Nach einem Klick auf den Text verschwindet der Text|Insekt|
 |CELLSNET-47380|Die Spalte wird nicht ausgerichtet|Insekt|
-|CELLSNET-47366|Punkte werden nicht in PDF-Datei gerendert|Insekt|
+|CELLSNET-47366|Punkte werden nicht in die Datei PDF gerendert|Insekt|
 |CELLSNET-47364|Achsenbeschriftungen werden falsch gerendert, wenn das Arbeitsblatt als Bild gerendert wird|Insekt|
 |CELLSNET-47370|Beim Laden und Speichern der Excel-Datei fehlt der Diagrammpunkt und die Form wird gestaucht|Insekt|
 |CELLSNET-47367|Falsche Richtung des Achsenpfeils beim Konvertieren des Diagramms in ein Bild|Insekt|
 |CELLSNET-47362|SourceFullName und ImageType sind falsch|Insekt|
-|CELLSNET-47375|XLSX wurde in eine beschädigte XLS-Datei konvertiert.|Insekt|
+|CELLSNET-47375|XLSX in beschädigte XLS-Datei konvertiert.|Insekt|
 |CELLSNET-47398|Worksheet.Cells.ImportData überspringt Zeilen, wenn Daten in mehrere Blätter aufgeteilt werden|Insekt|
 |CELLSNET-47371|Ausnahme beim Aktualisieren von Pivot-Tabelle(n) im Blatt|Ausnahme|
 |CELLSNET-47377|Worksheet.RefreshPivotTables() löst eine Ausnahme aus|Ausnahme|

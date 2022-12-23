@@ -10,7 +10,7 @@ url: /fr/java/check-custom-number-format-when-setting-style-custom-property/
 
 ## **Vérifiez le format de nombre personnalisé lors de la définition de la propriété Style.Custom**
 
- L'exemple de code suivant attribue un format de nombre personnalisé non valide à[**Style.Personnalisé**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) propriété. Puisque nous avons déjà défini[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) propriété à**vrai** , donc le API lancera CellsException par exemple*Format de nombre invalide*.
+ L'exemple de code suivant attribue un format de nombre personnalisé non valide à[**Style.Personnalisé**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) la propriété. Puisque nous avons déjà défini[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckCustomNumberFormat) propriété à**vrai** , donc le API lancera CellsException par exemple*Format de nombre invalide*.
 
 ## **Exemple de code**
 

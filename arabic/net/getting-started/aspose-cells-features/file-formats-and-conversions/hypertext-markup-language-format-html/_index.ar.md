@@ -6,7 +6,7 @@ url: /ar/net/hypertext-markup-language-format/
 ---
 {{% alert color="primary" %}} 
 
-يمكن استخدام Aspose.Cells لحفظ مصنفات Excel بتنسيق HTML. مصنفات HTML التي تم تصديرها هي Microsoft موجهة نحو Excel ، أي أنها مماثلة للتصدير بواسطة Microsoft Excel. يمكنك أيضًا إنشاء مصنفات من HTML ولكن يجب أن يكون HTML موجهًا إلى Excel.
+يمكن استخدام Aspose.Cells لحفظ مصنفات Excel بتنسيق HTML. إن مصنفات HTML التي تم تصديرها هي Microsoft موجهة نحو Excel ، أي أنها متشابهة مع تصديرها بواسطة Microsoft Excel. يمكنك أيضًا إنشاء مصنفات من HTML ولكن يجب أن يكون HTML موجهًا لبرنامج Excel.
 
 {{% /alert %}} 
 ## **HTML في Aspose.Cells**
@@ -18,8 +18,8 @@ url: /ar/net/hypertext-markup-language-format/
 - الحدود ، ألوان الحدود
 - الصور ومربعات النصوص وأشكال الرسم
 - الارتباطات التشعبية
-### **تحميل HTML داخل كائن المصنف**
- يرجى الاطلاع على القسم الفرعي**فتح ملفات HTML**في هذه المقالة التي تشرح كيفية تحميل HTML داخل كائن المصنف.
+### **تحميل HTML داخل عنصر المصنف**
+ يرجى الاطلاع على القسم الفرعي**فتح HTML الملفات** في هذه المقالة التي تشرح كيفية تحميل HTML داخل كائن المصنف.
 
 - [فتح الملفات](/cells/ar/net/opening-files-with-different-formats/#openingfileswithdifferentformats-openinghtmlfiles)
 ### **حفظ ملف Excel في HTML**

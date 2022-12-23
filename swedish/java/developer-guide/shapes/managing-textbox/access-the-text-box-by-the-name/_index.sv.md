@@ -6,7 +6,7 @@ url: /sv/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-Tidigare nås textrutor via index från[Workheet.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) samling men nu kan du också komma åt textrutan med namn från denna samling. Detta är ett bekvämt och snabbt sätt att komma åt din textruta om du redan känner till dess namn.
+ Tidigare nås textrutor via index från[Workheet.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) samling men nu kan du också komma åt textrutan med namn från denna samling. Detta är ett bekvämt och snabbt sätt att komma åt din textruta om du redan känner till dess namn.
 
 {{% /alert %}} 
 ## **Gå till textrutan efter namnet**

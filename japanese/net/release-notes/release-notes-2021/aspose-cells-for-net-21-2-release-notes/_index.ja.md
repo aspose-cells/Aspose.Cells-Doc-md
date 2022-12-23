@@ -27,14 +27,14 @@ url: /ja/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47824|間違った結果を与える PPMT 式の問題|バグ|
 |CELLSNET-47847|行を削除した後の間違った数式参照|バグ|
 |CELLSNET-47818|Shape.ToImage が docker 環境でテキストをレンダリングしない|バグ|
-|CELLSNET-47820|XLSX から変換された Aspose EMF/OfficeCompatibleEMF に境界線がありません|バグ|
-|CELLSNET-47844|PDF への保存時に、二重下線の会計書式設定されたセルが正しく変換されない|バグ|
+|CELLSNET-47820|Aspose EMF/XLSX から変換された OfficeCompatibleEMF の枠線がありません|バグ|
+|CELLSNET-47844|PDF に保存するときに、二重下線の会計フォーマットのセルが正しく変換されない|バグ|
 |CELLSNET-47819|保存時にデータ ラベルが正しく表示されない|バグ|
 |CELLSNET-47821|データ ラベルが正しくない|バグ|
 |CELLSNET-47813|ツリーマップ チャート (およびその他の高度なチャート) での奇妙な動作 (および相違点)|バグ|
 |CELLSNET-47815|スレッド化されたコメントは、エンクロージング シェイプと一緒に転送されません|バグ|
 |CELLSNET-47816|アウトライン境界を設定した後、ブックのファイル サイズと MaxColumn が増加する|バグ|
-|CELLSNET-47828|Aspose.Cells for .NET 21.1 へのアップグレード後の XLS ファイルの追加の Ctls ストリーム|バグ|
+|CELLSNET-47828|Aspose.Cells for .NET 21.1 にアップグレードした後、XLS ファイルに Ctls ストリームが追加される|バグ|
 |CELLSNET-47838|ネイティブ チャートのカラー パレットは保持されません|バグ|
 |CELLSNET-47845|DefaultExceptBorders 貼り付けタイプで貼り付けた後、境界線が予期せず削除される|バグ|
 |CELLSNET-47848|ListObject または Add Filter Button フラグの AutoFilter の削除に関する問題|バグ|

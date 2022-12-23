@@ -14,7 +14,7 @@ Aspose.Cells, çalışma sayfasına tablo eklerken ilk satırı aşağı kaydır
 
 ## **Ekran görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+![yapılacaklar:resim_alternatif_metin](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **Basit kod**
 

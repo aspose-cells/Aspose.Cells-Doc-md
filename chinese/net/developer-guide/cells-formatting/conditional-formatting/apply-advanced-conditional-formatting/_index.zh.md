@@ -16,7 +16,7 @@ Microsoft Excel 2007 及更高版本 (2010/2013/2016) 为条件格式提供了�
 - 根据单元格与范围内其他单元格中的值的关系，使用色标自动为单元格着色。默认设置将红色的最低值向上移动到绿色的最高值。
 - 以与色阶类似的方式使用图标集，但它不是为单元格添加阴影，而是向单元格添加小图标，例如箭头和交通灯。
 
-Aspose.Cells 完全支持 Microsoft Excel 2007 及更高版本在运行时在单元格上以 XLSX 格式提供的条件格式。此示例演示高级条件格式类型的练习，包括 IconSet、DataBar、色标、TimePeriods、Top/Bottom 和其他具有不同属性集的规则。
+Aspose.Cells 完全支持 Microsoft Excel 2007 及更高版本在运行时单元格上的 XLSX 格式提供的条件格式。此示例演示高级条件格式类型的练习，包括 IconSet、DataBar、色标、TimePeriods、Top/Bottom 和其他具有不同属性集的规则。
 
 
 

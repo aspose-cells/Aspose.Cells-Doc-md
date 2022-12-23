@@ -6,7 +6,7 @@ url: /tr/java/setting-page-options-in-python/
 ---
 ## **Aspose.Cells - Ayar Sayfası Seçenekleri**
 ### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , aramak**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
+ kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
 **Python Kod**
 
@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Aspose.Cells Java for Python** , aramak**ölçekleme** yöntemi**sayfa ayarı** modül.
+ kullanarak ölçekleme uygulamak için**Aspose.Cells Java for Python** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
 
 **Python Kod**
 

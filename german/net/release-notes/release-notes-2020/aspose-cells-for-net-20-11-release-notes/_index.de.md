@@ -13,31 +13,31 @@ url: /de/net/aspose-cells-for-net-20-11-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-47706|Unterstützung des vom Gebietsschema abhängigen Formatierungsmusters „aaaa“ für das Jahr in der Region Spanien|Verbesserungen|
-|CELLSNET-47641|Warnung beim Hinzufügen von 29 Blättern und Öffnen der XLS-Ausgabedatei in MS Excel|Leistung|
+|CELLSNET-47641|Warnung beim Hinzufügen von 29 Blättern und Öffnen der Ausgabedatei XLS in MS Excel|Leistung|
 |CELLSNET-46716|Beim Rendern von PDF wurde Text abgeschnitten|Fehler|
 |CELLSNET-47618|Ein Bild wird ganz weiß und einige Textkorruptionen in anderen Bildern/Formen|Fehler|
 |CELLSNET-47635| Slicer auf einer anderen Tabelle generiert eine beschädigte Datei|Fehler|
-|CELLSNET-47642|Die XLSB-Datei ist nach dem Laden und Speichern beschädigt|Fehler|
-|CELLSNET-47660|Diagrammfelder mit Datumsangaben haben im PDF-Format ein anderes Format|Fehler|
+|CELLSNET-47642|XLSB Datei ist nach dem Laden und Speichern beschädigt|Fehler|
+|CELLSNET-47660|Das Diagrammfeld mit Datumsangaben hat ein anderes Format im Format PDF|Fehler|
 |CELLSNET-47661|Aspose.Cells generiert ungültiges HTML-Markup für ein bestimmtes Arbeitsblatt eines bestimmten Cells-Dokuments|Fehler|
 |CELLSNET-47680|Pivot-Tabellen wurden nicht aktualisiert|Fehler|
 |CELLSNET-47659|Problem beim Suchen von Zellen mit bestimmten Stilen|Fehler|
 |CELLSNET-47679|Unterschied in der Berechnung von Aspose.Cells und Excel|Fehler|
 |CELLSNET-47666|Arbeitsmappe kann nicht in SharePoint angezeigt werden|Fehler|
-|CELLSNET-47698|Verschiebung der Logoposition beim Konvertieren einer XLS-Datei in PDF|Fehler|
+|CELLSNET-47698|Verschiebung der Logoposition beim Konvertieren der Datei XLS in PDF|Fehler|
 |CELLSNET-47651|Der Export des Polardiagramms in das PDF-Format ist verzerrt|Fehler|
 |CELLSNET-47662|Beim Konvertieren eines Excel-Diagramms in ein Bild werden falsche Datenetiketten angezeigt|Fehler|
 |CELLSNET-47667|Fehlende Balken im Balkendiagramm im Ausgabebild|Fehler|
-|CELLSNET-47697|Einige Werte der Y-Achse gehen in der Ausgabe-PDF über das Diagramm hinaus|Fehler|
+|CELLSNET-47697|Einige Werte der Y-Achse gehen in der Ausgabe PDF über das Diagramm hinaus|Fehler|
 |CELLSNET-43579|Die Krümmung von WortArt-Text wird beim Konvertieren von Excel in PDF geändert|Fehler|
-|CELLSNET-47675|Der Inhalt der XLS-Datei wird nach dem Laden und Speichern geändert|Fehler|
+|CELLSNET-47675|Der Inhalt der Datei XLS wird nach dem Laden und Speichern geändert|Fehler|
 |CELLSNET-47704|Benutzerdefinierte Eigenschaften verschwanden nach dem Bearbeiten/Speichern einer passwortgeschützten (verschlüsselten) XLS-Datei|Fehler|
 |CELLSNET-47708|Sortierreihenfolge funktionierte nicht richtig mit dynamischen Formeln (Smart Markers)|Fehler|
 |CELLSNET-47682|Ausnahme beim Laden bestimmter Htm|Ausnahmen|
 |CELLSNET-47683|Ausnahme beim Laden bestimmter Htm|Ausnahmen|
 |CELLSNET-47684|Ausnahme beim Laden bestimmter Htm|Ausnahmen|
-|CELLSNET-47689|Ausnahme beim Konvertieren von XLSB in PNG und HTML|Ausnahmen|
-|CELLSNET-47701|Kopie der XLTX-Arbeitsmappe konnte nicht erstellt werden|Ausnahmen|
+|CELLSNET-47689|Ausnahme bei der Umwandlung von XLSB in PNG und HTML|Ausnahmen|
+|CELLSNET-47701|Kopie der Arbeitsmappe XLTX konnte nicht erstellt werden|Ausnahmen|
 |CELLSNET-47628|Das Löschen leerer Zeilen aus Zellen verursacht ArgumentOutOfRangeException|Ausnahmen|
 |CELLSNET-47629|Das Aufrufen von Zellenwerten nach dem Löschen leerer Zeilen und Spalten verursacht ArgumentException|Ausnahmen|
 |CELLSNET-47700|CalculateFormula löst InvalidCastException aus|Ausnahmen|
@@ -46,9 +46,9 @@ url: /de/net/aspose-cells-for-net-20-11-release-notes/
 |CELLSNET-47677|DataBar.ToImage löst eine Ausnahme aus, wenn die Zeile ausgeblendet ist.|Ausnahmen|
 |CELLSNET-47686|XLSB kann nicht in XLSX konvertiert werden|Ausnahmen|
 |CELLSNET-47687|Ods kann nicht geladen werden|Ausnahmen|
-|CELLSNET-47694|Ausnahme beim Öffnen der XLSX-Dokumentdatei|Ausnahmen|
+|CELLSNET-47694|Ausnahme beim Öffnen der Dokumentdatei XLSX|Ausnahmen|
 |CELLSNET-47695|Ungültiger Zellenname nach DeleteRange|Ausnahmen|
-|CELLSNET-47699|Ausnahme beim Öffnen einer ODS-Datei|Ausnahmen|
+|CELLSNET-47699|Ausnahme beim Öffnen der Datei ODS|Ausnahmen|
 |CELLSNET-47702| Beim Laden der verschlüsselten „Microsoft Excel 5.0/95 Workbook“-Dateien trat eine Ausnahme auf|Ausnahmen|
 
 

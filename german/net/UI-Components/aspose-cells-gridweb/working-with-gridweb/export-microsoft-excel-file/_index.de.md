@@ -37,7 +37,7 @@ Wenn Ihr Dateisystem NTFS ist, gewähren Sie Lese-/Schreibzugriff auf die Benutz
 
 {{% /alert %}} 
 
-Das obige Code-Snippet kann auf verschiedene Weise verwendet werden. Eine gängige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt in einer Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für Aufgaben. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, wodurch Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Taste.
+Das obige Code-Snippet kann auf verschiedene Weise verwendet werden. Eine gängige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt in einer Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells.GridWeb bietet einen einfacheren Ansatz für Aufgaben. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, wodurch Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Knopf.
 
 **Das SaveCommand-Ereignis von GridWeb** 
 

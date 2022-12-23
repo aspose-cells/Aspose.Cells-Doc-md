@@ -1,5 +1,5 @@
 ﻿---
-title: Ссылка
+title: Справка
 type: docs
 weight: 60
 url: /ru/reportingservices/reference/

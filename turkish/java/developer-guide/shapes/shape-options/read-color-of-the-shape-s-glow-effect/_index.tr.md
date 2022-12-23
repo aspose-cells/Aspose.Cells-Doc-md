@@ -12,7 +12,7 @@ url: /tr/java/read-color-of-the-shape-s-glow-effect/
 
  Lütfen aşağıdaki örnek koda ve onun[kaynak excel dosyası](23166984.xlsx)ve referansınız için konsol çıktısı. Aşağıdaki ekran görüntüsü, Microsoft Excel'de görüntülendiğinde şeklin kaynak excel dosyası içindeki parlama efektini göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](read-color-of-the-shape-s-glow-effect_1.png)
+![yapılacaklar:resim_alternatif_metin](read-color-of-the-shape-s-glow-effect_1.png)
 
 ## Java şeklin parlama efektinin rengini okumak için kod
 

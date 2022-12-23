@@ -10,7 +10,7 @@ url: /ru/java/specify-document-version-of-the-excel-file-using-builtin-document-
 
 ## **Укажите версию документа файла Excel с помощью встроенных свойств документа**
 
-Следующий пример кода создает книгу и изменяет ее встроенные свойства документа, в том числе*Заголовок*, *Авторы* а также*Номер версии*. Пожалуйста, смотрите[выходной файл Excel](64716836.xlsx)сгенерированный код и скриншот, который показывает измененный*Номер версии*по[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)имущество.
+Следующий пример кода создает книгу и изменяет ее встроенные свойства документа, в том числе*Заголовок*, *Авторы* и*Номер версии*. Пожалуйста, смотрите[выходной файл Excel](64716836.xlsx)сгенерированный код и скриншот, который показывает измененный*Номер версии*к[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)имущество.
 
 ![дело:изображение_альтернативный_текст](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 

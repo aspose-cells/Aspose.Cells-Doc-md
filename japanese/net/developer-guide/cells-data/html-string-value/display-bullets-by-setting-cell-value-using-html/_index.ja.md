@@ -1,5 +1,5 @@
 ﻿---
-title: HTMLでCell値を設定して箇条書き表示
+title: Cell を設定して箇条書きを表示する HTML を使用する値
 type: docs
 weight: 130
 url: /ja/net/display-bullets-by-setting-cell-value-using/
@@ -8,11 +8,11 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells は、HTML コードによる箇条書きの表示をサポートします。この記事では、HTML を使用してセルの値を設定して箇条書きを表示する方法について説明します。我々は使用するだろう[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) HTML でセル値を設定するプロパティ。
+Aspose.Cells は、HTML コードの箇条書きの表示をサポートします。この記事では、HTML を使用してセル値を設定して箇条書きを表示する方法を説明します。[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) HTML でセル値を設定するプロパティ。
 
 {{% /alert %}}
 
-## C# HTML を使用して Cell 値を設定して箇条書きを表示するコード
+## HTML を使用して Cell の値を設定することにより、箇条書きを表示する C# コード
 
 次のコードは、HTML コードを使用してセル値を設定します。このコードを実行すると、下の画像に示すような出力が得られます。
 

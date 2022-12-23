@@ -13,9 +13,9 @@ Aspose.Cells for Reporting Services (بما في ذلك Aspose.Cells.ReportingSe
 إصدارات Excel Microsoft التالية مدعومة. علاوة على ذلك ، تحتاج إلى تثبيت تصحيحات إضافية للتغلب على بعض المشكلات المحتملة لـ Microsoft Office 2000 أو 2002 أو XP أو 2003.
 
 - Microsoft Excel 2000
- تحميل هذا**lockbackRegKey.msi** لإصلاح مشكلة CLR على أجهزة Office Microsoft الأقدم من Office 2003.
+تحميل هذا**lockbackRegKey.msi** لإصلاح مشكلة CLR على أجهزة Office Microsoft الأقدم من Office 2003.
 - Microsoft Excel 2002
- تثبيت**lockbackRegKey.msi** لإصلاح مشكلة CLR على أجهزة Office Microsoft الأقدم من Office 2003.
+ ثَبَّتَ**lockbackRegKey.msi** لإصلاح مشكلة CLR على أجهزة Office Microsoft الأقدم من Office 2003.
 - Microsoft Excel 2003
  قم دائمًا بالتحديث إلى Office 2003 (KB907417). يعمل هذا التحديث على تصحيح مشكلة محتملة حيث قد لا يتم تحميل وظيفة إضافية أو علامة ذكية أو مستند ذكي إذا كانت تستخدم Microsoft .NET Framework 2.0.
 - Microsoft Excel 2007

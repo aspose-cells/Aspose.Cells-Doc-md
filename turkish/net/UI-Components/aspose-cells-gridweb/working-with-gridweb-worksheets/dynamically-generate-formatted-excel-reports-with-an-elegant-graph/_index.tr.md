@@ -16,7 +16,7 @@ Bu makale, bu tür işlevsellik için kaynak kodunu ve tam özellikli demo proje
 
 Kullanıcıların, bir iş raporunun nasıl oluşturulacağına ilişkin ayrıntılı bir kavrayışa sahip olarak, tablonun bir çalışma sayfasına veri girmesine ve satır ve sütunlardaki hücrelere biraz biçimlendirme uygulamasına, verileri kaydetmeden önce verilerin kaynak aralığına dayalı bir grafiği gömmesine olanak tanır. diske excel raporu.
 ## **Aspose Bileşenleri**
- üç tane kullanıyorum[Aspose](http://www.aspose.com/) Görevi kolaylıkla gerçekleştirmek için bileşenleri.[Aspose](http://www.aspose.com/) , .NET ve Java Component Publisher, zengin özelliklere sahip çeşitli bileşenler sağlar.[Aspose](http://www.aspose.com/) .NET ve Java bileşenlerinden oluşan harika bir seri sunar. Dünya çapında binlerce müşterinin güvendiği ürünler, DOC, RTF, WordML dahil olmak üzere çeşitli biçimlerdeki belgeleri programlı olarak açmaya, değiştirmeye, oluşturmaya, kaydetmeye, birleştirmeye, dönüştürmeye vb. izin veren Dosya Biçimi Bileşenleri, Raporlama Ürünleri, Görsel Bileşenler ve Yardımcı Program Bileşenlerini içerir. HTML, PDF, XLS, SpreadsheetML, Sekmeyle Ayrılmış, CSV, PPT, SWF, EMF,WMF, MPX, MPD ve diğer biçimler.
+ üç tane kullanıyorum[Aspose](http://www.aspose.com/) Görevi kolaylıkla gerçekleştirmek için bileşenleri.[Aspose](http://www.aspose.com/) , .NET ve Java Component Publisher, zengin özelliklere sahip çeşitli bileşenler sağlar.[Aspose](http://www.aspose.com/) .NET ve Java bileşenlerinden oluşan harika bir seri sunar. Dünya çapında binlerce müşterinin güvendiği ürünler, DOC, RTF, WordML dahil olmak üzere çeşitli biçimlerdeki belgeleri programlı olarak açmaya, değiştirmeye, oluşturmaya, kaydetmeye, birleştirmeye, dönüştürmeye vb. izin veren Dosya Biçimi Bileşenleri, Raporlama Ürünleri, Görsel Bileşenler ve Yardımcı Program Bileşenlerini içerir. HTML, PDF, XLS, SpreadsheetML, Sekmeyle Ayrılmış, CSV, PPT, SWF, EMF,WMF, MPX, MPD ve diğer formatlar.
 
 Bu macerada kullanılmış olan bu bileşenlerden üçünü size tanıtmak için bu fırsatı değerlendireceğim.
 ## **Aspose.Cells Izgara Kontrolleri**
@@ -36,13 +36,13 @@ Ayrıca "file" ve "images" olmak üzere iki klasör oluşturuyorum, bu klasörle
 
 Böylece, aşağıdaki ekran görüntüsünde görebileceğiniz gibi (kırmızı renkle çevrelenmiş) özel komut düğmesi eklenir.
 
-|![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+|![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
 |:- |
 
 
 Son olarak, etiket ve komut düğmesi için bazı Font nitelikleri (kalın) ayarladım. Son görünümü elde etmek için kontrollerin boyutunu da ayarlıyorum.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **Bir XML Dosyasından Veri Alma**
 Projede kullanılan XML dosya yapısı aşağıdadır.
 ### **XML Dosya Yapısı**
@@ -363,8 +363,8 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Aspose.Cells bileşeni kullanılarak Formatlı Raporun (.XLS Dosyası) Grafik ile Üretilmesi**
-Şimdi, biçimlendirilmiş raporu grafikle diske kaydetmek için bazı kodlar yazacağım. kullanıyorum**GridWeb** 's**Kaydetmek**düğme,**GridWeb** 's**Komutu Kaydet**Kaydet düğmesine tıkladığınızda olay tetiklenir, bu yüzden ben hallederim. Burada, kullanıyorum**Aspose.Cells**biçimlendirilmiş raporu MS Excel'e dışa aktarmak, grafik oluşturmak ve bunu çıktı excel dosyasına gömmek için bileşen. Grafik görüntüsünü eklemedim (tarafından oluşturulan**Aspose.Chart**bileşeni) bunun yerine API'i kullanarak benzer grafiği oluşturun.**Aspose.Cells**böylece ihtiyacınıza göre grafiği MS Excel'de düzenleyebilirsiniz.
+## **Formatlanmış Raporun (.XLS Dosyası) Grafik ile Aspose.Cells bileşeni kullanılarak üretilmesi**
+Şimdi, biçimlendirilmiş raporu grafikle diske kaydetmek için bazı kodlar yazacağım. kullanıyorum**GridWeb** 's**Kayıt etmek**düğme,**GridWeb** 's**Komutu Kaydet**Kaydet düğmesine tıkladığınızda olay tetiklenir, bu yüzden ben hallederim. Burada, kullanıyorum**Aspose.Cells**biçimlendirilmiş raporu MS Excel'e dışa aktarmak, grafik oluşturmak ve bunu çıktı excel dosyasına gömmek için bileşen. Grafik görüntüsünü eklemedim (tarafından oluşturulan**Aspose.Chart**bileşeni) bunun yerine API'i kullanarak benzer grafiği oluşturun.**Aspose.Cells**böylece ihtiyacınıza göre grafiği MS Excel'de düzenleyebilirsiniz.
 
 
 
@@ -534,52 +534,52 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 ## **Uygulamayı Çalıştırma**
 Şimdi uygulamayı çalıştırıyorum. Açılır liste, farklı kategorilerle doldurulur.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
 Satış raporunu göstermek istediğim kategoriyi seçip "Raporu Göster" butonuna tıklıyorum.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
 Böylece, rapor**GridWeb**Seçilen kategoriye göre. Rapor, koda (daha önce yazılmış) göre varsayılan olarak biçimlendirilir.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
 Verileri bazı hücrelere WYSIWYG biçiminde biçimlendirmek istiyorsanız, bunu oldukça kolay bir şekilde yapabilirsiniz.**Aspose.Cells.GridWeb**sağlar**Biçim Cells**editör, istediğiniz hücreleri seçin ve sağ tıklayın, "Biçim Cell..." seçeneğini tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
 Biçim Cell iletişim kutusu gösterilir.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
 Bazı Font niteliklerini belirtiyorum ve Tamam'ı tıklıyorum.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
 Ve sonucu alın.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
 Hücre biçimlendirmesinin yanı sıra hücre değerlerinizi de düzenleyebilirsiniz. İstediğiniz hücreye/hücrelere çift tıklayın ve değeri düzenleyin.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
 Düzenleme sonucunu göndermek ve tüm formülü yeniden hesaplamak için, raporu güncellemek için ilgili düğmeyi (kırmızı renkle çevrili) tıklıyorum.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
 Şimdi grafiği oluşturup kontrole yapıştıracağım. Veri aralığına dayalı pasta grafiği oluşturmak için özel komut düğmesini (kırmızı renkle çevrelenmiş) tıklıyorum.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-Son olarak, bu veri raporunu grafikle birlikte MS Excel'e aktaracağım. tıklıyorum**Kaydetmek**düğmesi (kırmızı renkle çevrelenmiş). tıklayarak**Kaydetmek**düğme görüntülenecek**Dosya indirme**iletişim kutusu**Açık**ortaya çıkan raporu (grafikli excel dosyası çıktısı) MS Excel'e veya diske kaydedin.
+Son olarak, bu veri raporunu grafikle birlikte MS Excel'e aktaracağım. tıklıyorum**Kayıt etmek**düğmesi (kırmızı renkle çevrelenmiş). tıklayarak**Kayıt etmek**düğme görüntülenecek**Dosya indirme**iletişim kutusu**Açık**ortaya çıkan raporu (grafikli excel dosyası çıktısı) MS Excel'e veya diske kaydedin.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
 Aç düğmesine tıkladığımda (Dosya İndirme iletişim kutusu), grafikli excel raporu MS Excel'e aktarılıyor. Raporun üst kısmı gösterilir.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
 Excel raporunun alt kısmı gösterilir.
 
-![yapılacaklar:resim_alternatif_Metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![yapılacaklar:resim_alternatif_metin](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

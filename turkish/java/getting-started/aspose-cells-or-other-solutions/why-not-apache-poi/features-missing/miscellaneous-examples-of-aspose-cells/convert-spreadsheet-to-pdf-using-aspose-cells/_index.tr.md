@@ -1,10 +1,10 @@
 ﻿---
-title: Aspose.Cells'i kullanarak Elektronik Tabloyu PDF'ye dönüştürün
+title: Aspose.Cells'i kullanarak Elektronik Tabloyu PDF'e dönüştürün
 type: docs
 weight: 30
 url: /tr/java/convert-spreadsheet-to-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells - Elektronik Tabloyu PDF'ye Dönüştür**
+## **Aspose.Cells - Elektronik Tabloyu PDF'e Dönüştür**
 PDF belgeleri, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişinde standart bir format olarak yaygın şekilde kullanılmaktadır. Yazılım geliştiricilerinden genellikle Microsoft Excel dosyalarını kolayca PDF belgelerine dönüştürmenin bir yolunu bulmaları istenir. Aspose.Cells bu özelliği destekler.
 
 **Java**

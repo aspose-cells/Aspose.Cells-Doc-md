@@ -12,9 +12,9 @@ Nous sommes heureux de lancer notre tout nouveau produit, Aspose.Cells for C++ !
 
 **Principales caractéristiques**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
-|CELLSPORTINGC-417|Ouvrir/Enregistrer les formats de fichiers XLS, OOXML|Nouvelle fonctionnalité|
+|CELLSPORTINGC-417|Ouvrir/Enregistrer XLS, formats de fichiers OOXML|Nouvelle fonctionnalité|
 |CELLSPORTINGC-418|Définir les styles et le formatage des cellules de la feuille de calcul|Nouvelle fonctionnalité|
 |CELLSPORTINGC-419|Appliquer la validation des données aux cellules|Nouvelle fonctionnalité|
 |CELLSPORTINGC-420|Filtrer les données à l'aide d'un filtre automatique|Nouvelle fonctionnalité|

@@ -14,9 +14,9 @@ Um mit Aspose.Cells.GridDesktop einen Hyperlink zu einer Zelle hinzuzufügen, f�
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Bild** in das Arbeitsblatt, indem Sie den Dateipfad des Bildes und den Zellennamen angeben, wo das Bild eingefügt wird
+-  Addieren**Bild** in das Arbeitsblatt, indem Sie den Dateipfad des Bildes und den Zellennamen angeben, wo das Bild eingefügt wird
 
-**Bilder** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Hinzufügen** Methode. Entwickler können jede überladene Version von verwenden**Hinzufügen** Methode nach ihren spezifischen Bedürfnissen. Mit diesen überladenen Versionen von**Hinzufügen** Methode ist es möglich, ein Bild aus Datei, Stream oder hinzuzufügen**Bild** Objekt.
+**Bilder** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Addieren** Methode. Entwickler können jede überladene Version von verwenden**Addieren** Methode nach ihren spezifischen Bedürfnissen. Mit diesen überladenen Versionen von**Addieren** Methode ist es möglich, ein Bild aus Datei, Stream oder hinzuzufügen**Bild** Objekt.
 
 Nachfolgend finden Sie den Beispielcode zum Hinzufügen von Bildern zu Arbeitsblättern.
 

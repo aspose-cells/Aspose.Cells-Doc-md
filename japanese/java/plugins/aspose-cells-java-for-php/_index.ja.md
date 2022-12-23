@@ -10,7 +10,7 @@ PHP/Java ブリッジは、XML ベースのストリーミングの実装です�
 
 でもっと読む[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java は受賞歴のある Excel スプレッドシート コンポーネントで、Java 開発者は Excel® スプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF の読み取り、書き込み、および操作機能を組み込むことができます。 Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
 
 Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコンポーネントであり、他のベンダーの単純なデータ エクスポート機能をはるかに超える多くの機能を提供します。 Aspose.Cells for Java を使用すると、開発者は、データのエクスポート、スプレッドシートの最も細かいレベルへの書式設定、画像のインポート、グラフの作成、複雑な数式の適用と計算、Excel® データのストリーミング、さまざまな形式での保存など、すべて Microsoft Excel® を必要とせずに実行できます。または Microsoft オフィス オートメーション。
 ### **Aspose.Cells Java for PHP**
@@ -32,7 +32,7 @@ Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコ�
       - [PHP で Excel を PDF ファイルに変換する](/cells/ja/java/converting-excel-to-pdf-files-in-php/)
       - [PHP での MHTML ファイルへの変換](/cells/ja/java/converting-to-mhtml-files-in-php/)
       - [PHP でワークシートを画像に変換する](/cells/ja/java/converting-worksheet-to-image-in-php/)
-      - [PHP でワークシートを SVG に変換する](/cells/ja/java/converting-worksheet-to-svg-in-php/)
+      - [PHPでワークシートをSVGに変換する](/cells/ja/java/converting-worksheet-to-svg-in-php/)
       - [PHP でのドキュメント プロパティの管理](/cells/ja/java/managing-document-properties-in-php/)
   - [PHP での行と列の操作](/cells/ja/java/working-with-rows-and-columns-in-php/)
     - [PHP で行の高さと列の幅を調整する](/cells/ja/java/adjusting-row-height-and-column-width-in-php/)
@@ -74,7 +74,7 @@ Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコ�
 
 - PHP 5.3 以上
 - Java 1.8以上
-## **ダウンロードと設定**
+## **ダウンロードと構成**
 ### **必要なライブラリをダウンロード**
 下記の必要なライブラリをダウンロードします。これらは、Aspose.Cells Java for PHP の例を実行するために必要です。
 

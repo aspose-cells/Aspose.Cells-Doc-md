@@ -14,19 +14,19 @@ url: /it/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Caratteristiche generali / Miglioramenti
 
- Supporta LightCellsDataProvider per il salvataggio di file XLS
+ Supporta LightCellsDataProvider per il salvataggio del file XLS
 
- Sono stati apportati miglioramenti per la funzionalità da Excel a PDF
+ Sono stati apportati miglioramenti per la funzionalità Excel-to-PDF
 
  31329 - Includere un metodo utile: PivotField.getBaseIndex()
 
- 40015 - Rendi la libreria compatibile con webservices-rt.jar
+40015 - Rendi la libreria compatibile con webservices-rt.jar
 
  40011 - Supporto per ottenere tutti i colori utilizzati da diversi oggetti nella cartella di lavoro
 
  Eccezioni
 
-40022 - La lettura del file modello XLS con l'opzione impostata: LoadDataOnly=true genera un'eccezione
+ 40022 - La lettura del file modello XLS con set di opzioni: LoadDataOnly=true genera un'eccezione
 
  40017 - Il metodo WorksheetCollection.getNamedRanges() genera un'eccezione
 
@@ -34,9 +34,9 @@ url: /it/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Insetti
 
- 31303 - Cell il valore con il carattere '"' e ',' è stato salvato in modo errato per il file CSV
+ 31303 - Cell valore con carattere '"' e ',' è stato salvato in modo errato per il file CSV
 
- 31376 - Il salvataggio del PDF ha richiesto troppo tempo e ha generato un file PDF molto grande
+ 31376 - Il salvataggio di PDF ha richiesto troppo tempo e ha generato un file PDF molto grande
 
  40001 - Il simbolo della valuta è stato perso durante la formattazione dei valori delle celle
 
@@ -48,13 +48,13 @@ url: /it/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40013 - I simboli del filtro automatico sono stati duplicati e sono diventati più grandi durante il nuovo salvataggio del file XLS
 
- 40014 - Le linee della griglia non venivano visualizzate nell'immagine generata per un foglio
+40014 - Le linee della griglia non venivano visualizzate nell'immagine generata per un foglio
 
  40016 - Il file XLS salvato fa sì che MS Excel fornisca messaggi di avviso -1
 
  40020 - Il file XLS salvato fa sì che MS Excel fornisca messaggi di avviso -2
 
-40021 - Il file XLS salvato fa sì che MS Excel fornisca messaggi di avviso -3
+ 40021 - Il file XLS salvato fa sì che MS Excel fornisca messaggi di avviso -3
 
  40023 - Cell perdono il formato dopo aver eliminato le righe
 
@@ -68,4 +68,4 @@ url: /it/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40084 - I valori DateTime vengono letti come formato doppio
 
- 40085 - Quando la riga/colonna supera il limite del file XLS, l'XLS salvato causa: errore "Excel ha trovato contenuto illeggibile" quando viene aperto in MS Excel
+ 40085 - Quando la riga/colonna supera il limite del file XLS, il file XLS salvato provoca l'errore "Excel ha trovato contenuto illeggibile" quando viene aperto in MS Excel

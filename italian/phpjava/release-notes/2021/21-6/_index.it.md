@@ -10,7 +10,7 @@ url: /it/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43466|CellsException: errore per ZipFile durante l'importazione di ods|
 |CELLSJAVA-43463|La sequenza temporale è interrotta dopo il salvataggio del file|
@@ -22,18 +22,18 @@ url: /it/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 |CELLSJAVA-43498|Il risultato formattato del valore numerico non è corretto per la locale zh_CN|
 |CELLSJAVA-43451|Il contenuto del file Excel viene visualizzato in modo errato e la demo di ChangeStyle (primavera) non funziona correttamente|
 |CELLSJAVA-43484|Il layout del contenuto non è coerente nel rendering da Excel a PDF|
-|CELLSJAVA-43465|Mancano alcune serie di grafici durante la conversione di Excel in PDF|
-|CELLSJAVA-43468|Problema con l'equazione della linea retta nel rendering da Excel a PDF|
+|CELLSJAVA-43465|Mancano poche serie di grafici durante la conversione di Excel in PDF|
+|CELLSJAVA-43468|Problema con l'equazione della linea retta in Excel per il rendering PDF|
 |CELLSJAVA-43432|Il contenuto del grafico non corrispondeva durante il nuovo salvataggio di un formato di file XLS|
 |CELLSJAVA-43475|Regressione: le celle a capo rigato vengono tagliate|
-|CELLSJAVA-43478|Regressione: NUMERI in PDF, molti dati mancanti|
-|CELLSJAVA-43485|Regressione: contenuto extra durante il rendering di PDF da ODS|
-|CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione del nome" nell'output XLS e XLSX|
+|CELLSJAVA-43478|Regressione: NUMERI a PDF, molti dati mancanti|
+|CELLSJAVA-43485|Regressione: contenuto extra durante il rendering PDF da ODS|
+|CELLSJAVA-43492| La conversione di un file XML (SpreadsheetML) rimuove l'impostazione nascosta in "Definizione nome" nell'output XLS e XLSX|
 |CELLSJAVA-43486|NullPointerException durante la conversione di un documento HTML in una cartella di lavoro|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della proprietà Cell.IsErrorValue.**
 

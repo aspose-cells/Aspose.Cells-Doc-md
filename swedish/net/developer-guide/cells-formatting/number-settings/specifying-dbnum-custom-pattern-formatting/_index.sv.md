@@ -10,6 +10,6 @@ Aspose.Cells stöder*DBNum*anpassad mönsterformatering. Till exempel, om ditt c
 
 ## **Exempelkod**
 
- Följande exempelkod illustrerar hur du anger*DBNum*anpassad mönsterformatering. Vänligen kontrollera den[mata ut PDF](43352081.pdf) för mer hjälp.
+ Följande exempelkod illustrerar hur du anger*DBNum*anpassad mönsterformatering. Vänligen kontrollera den[utgång PDF](43352081.pdf) för mer hjälp.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

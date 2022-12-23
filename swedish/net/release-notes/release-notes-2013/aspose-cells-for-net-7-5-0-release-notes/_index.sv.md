@@ -26,9 +26,9 @@ url: /sv/net/aspose-cells-for-net-7-5-0-release-notes/
 
  41710 - Ett tecken blir ett frågetecken
 
- 41614 - PDF som inte visar de filtrerade objekten
+ 41614 - PDF visar inte de filtrerade objekten
 
-41695 - Chart Legend är i fel position
+ 41695 - Chart Legend är i fel position
 
 41632 - Sjökortsförklaring kan inte justeras i mitten 41745 - Vissa kopiera/klistra in funktioner är trasiga
 
@@ -44,6 +44,6 @@ url: /sv/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Buggar
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Buggar

@@ -9,7 +9,7 @@ url: /ar/python-java/find-if-the-worksheet-is-dialog-sheet/
 
 ![ما يجب القيام به: image_بديل_نص](DialogSheet.png)
 ## **اكتشف ما إذا كانت ورقة العمل هي ورقة حوار**
-يوفر لك Aspose.Cells for Python via Java إمكانية التحقق مما إذا كانت ورقة العمل عبارة عن صفحة حوار. لهذا ، فإنه يوفر[نوع ورقة العمل](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)منشأه. إذا[نوع ورقة العمل](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)إرجاع قيمة التعداد[نوع الورقة](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)، فهذا يعني أنك تتعامل مع ورقة حوار.
+يوفر لك Aspose.Cells for Python via Java إمكانية التحقق مما إذا كانت ورقة العمل عبارة عن صفحة حوار. لهذا ، فإنه يوفر[نوع ورقة العمل](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)خاصية. إذا[نوع ورقة العمل](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)إرجاع قيمة التعداد[نوع الورقة](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)، فهذا يعني أنك تتعامل مع ورقة حوار.
 
 يوضح مقتطف الشفرة التالي كيفية التحقق من وجود ورقة حوار. يتم توفير مخرجات وحدة التحكم التي تم إنشاؤها بواسطة الكود أدناه كمرجع.
 

@@ -12,7 +12,7 @@ Excel dosyasının dilini, dosyayı sağ tıklatıp Özellikler > Ayrıntılar'�
 
  Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve Dil adlı yerleşik belge özelliğini değiştirir. Lütfen bkz[çıktı excel dosyası](64716891.xlsx) değiştirilen Dil alanını gösteren kod ve ekran görüntüsü tarafından oluşturulur.[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/language)Emlak.
 
-![yapılacaklar:resim_alternatif_Metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-the-language-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **Basit kod**
 

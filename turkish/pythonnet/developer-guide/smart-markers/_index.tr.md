@@ -6,7 +6,7 @@ weight: 190
 url: /tr/python-net/using-smart-markers/
 description: .Net kütüphanesi üzerinden Aspose.Cells for Python ile şablon Excel dosyalarına göre verileri akıllı bir şekilde içe aktarın ve yerleştirin.
 ---
-## **giriiş**
+## **Giriş**
 **akıllı işaretçiler**Aspose.Cells'in bir Microsoft Excel tasarımcı elektronik tablosuna hangi bilgilerin yerleştirileceğini bilmesini sağlamak için kullanılır. Akıllı işaretçiler, yalnızca belirli bilgileri ve biçimlendirmeyi içeren şablonlar oluşturmanıza olanak tanır.
 ## **Tasarımcı Elektronik Tablosu ve Akıllı İşaretleyiciler**
 Tasarımcı elektronik tabloları, görsel biçimlendirme, formüller ve akıllı işaretçiler içeren standart Excel dosyalarıdır. Bir projeden gelen bilgiler ve ilgili ilgili kişiler için bilgiler gibi bir veya daha fazla veri kaynağına başvuran akıllı işaretçiler içerebilirler. Akıllı işaretçiler, bilgiyi istediğiniz hücrelere yazılır.
@@ -41,7 +41,7 @@ Aşağıdaki ekran görüntüleri, her bir satıra nasıl veri ekleneceğini gö
 
 |**Şablon Dosyası**|**Çıktı dosyası**|
 |:- |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_1.jpg)|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_2.jpg)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_1.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_2.jpg)|
 ### **Dinamik Formüller**
 Dinamik formüller, formül dışa aktarma işlemi sırasında eklenecek satırlara başvursa bile Excel formüllerini hücrelere eklemenize olanak tanır. Dinamik formüller, eklenen her satır için yinelenebilir veya yalnızca veri işaretçisinin yerleştirildiği hücreyi kullanabilir.
 
@@ -72,7 +72,7 @@ Aşağıdaki ekran görüntüleri, yinelenen bir dinamik formülü ve sonuçta o
 
 |**Şablon Dosyası**|**Çıktı dosyası**|
 |:- |:- |
-|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_Metin](using-smart-markers_4.jpg)|
+|![yapılacaklar:resim_alternatif_metin](using-smart-markers_3.jpg)|![yapılacaklar:resim_alternatif_metin](using-smart-markers_4.jpg)|
  Cell "C1" formülü içerir**= A1*B1** , "C2" hücresi şunları içerir:**= A2*B2** ve "C3" hücresi şunları içerir:**= A3*B3**.
 
 Akıllı işaretleyicileri işlemek çok kolaydır. Aşağıda, .Net aracılığıyla Python'de bunun nasıl yapıldığını gösteren bir kod parçacığı bulunmaktadır.

@@ -15,53 +15,53 @@ Bu sayfa Aspose.Cells for Android via Java 20.12 için sürüm notları içerir.
 |CELLSJAVA-43322|Shape.getWorksheet() özelliği gerekli|Yeni özellik|
 |CELLSJAVA-43367|ISFORMULA işlevinin hesaplanmasını destekler|
 |CELLSJAVA-43191|Yanlış yazı tipi türlerini belirtirken senaryoları işlemek için araçlar sağlayın|Artırma|
-|CELLSJAVA-40913|Ortaya çıkan PDF'de ok yönü değişti|Böcek|
+|CELLSJAVA-40913|Sonuç olarak ok yönü değişti PDF|Böcek|
 |CELLSJAVA-43282|Yenileme pivotu çalışmıyor ve çıktı dosyasını bozuyor|Böcek|
 |CELLSJAVA-43286|Aspose.Cells, HtmlHiddenRowDisplayType.REMOVE ayarlarıyla çakışıyor|Böcek|
 |CELLSJAVA-43302|Cells değerini almayla ilgili sorun|Böcek|
-|CELLSJAVA-43308|wrapText özelliği ile HTML'den Excel'e dönüştürme|Böcek|
+|CELLSJAVA-43308|HTML, wrapText özelliğiyle excel dönüştürmeye|Böcek|
 |CELLSJAVA-43318|Cell pivot tablo yenilemesinden sonra değer sorunu|Böcek|
 |CELLSJAVA-43299|Cell değerini almayla ilgili sorun|Böcek|
 |CELLSJAVA-43284|Belirli bir fiziksel yazıcı için Aspose.Cells kullanılırken grafik yazdırılmıyor|Böcek|
 |CELLSJAVA-43273|Açıklama öğelerindeki metin çıktı görüntüsünde kesiliyor|Böcek|
 |CELLSJAVA-43274|Grafik çubuğu dış hat rengindeki fark|Böcek|
-|CELLSJAVA-43276|XLSX'i PDF'ye dönüştürürken satır sonu sorunları|Böcek|
+|CELLSJAVA-43276|XLSX'i PDF'e dönüştürürken satır sonu sorunları|Böcek|
 |CELLSJAVA-43278|Excel'de üstü çizili PDF dosyasında görüntülenmiyor|Böcek|
-|CELLSJAVA-43304|Çıktı PDF'sinde grafiğin bazı Veri Etiketleri eksik|Böcek|
+|CELLSJAVA-43304|PDF çıktısında grafiğin bazı Veri etiketleri eksik|Böcek|
 |CELLSJAVA-43311|Grafik X Ekseni Etiketleri, Görüntüye Dönüştürüldüklerinde Çapraz Yerine Dikeydir|Böcek|
 |CELLSJAVA-40992|Bir Excel dosyasını yeniden kaydederken grafik metni konumuyla ilgili sorun|Böcek|
 |CELLSJAVA-43294|Koşullu biçimlendirme renk teması düzgün çalışmıyor|Böcek|
 |CELLSJAVA-43307|Çalışma sayfası kopyalanırken Gömülü OLE Nesnesiyle Yeniden Boyutlandırma Sorunu|Böcek|
 |CELLSJAVA-43319|Formül ile hücre değeri alma sorunu|Böcek|
 |CELLSJAVA-43330|XLSB dosyasını yeniden kaydettikten sonra sorun - bozuk dosya|Böcek|
-|CELLSJAVA-43333|Excel'i HTML olarak işlerken resimler ve metin konumlandırması yanlış|Böcek|
+|CELLSJAVA-43333|Excel HTML olarak işlenirken resimler ve metin konumlandırması yanlış|Böcek|
 |CELLSJAVA-43321|Otomatik Filtre sorunu - boş satırlar görüntüleniyor|Böcek|
 |CELLSJAVA-43335|Çalışma kitabında formüller hesaplanırken kilitlenme oluştu|Böcek|
 |CELLSJAVA-43313|Grafik etiketi yazdırıldığında konumunu değiştirir|Böcek|
 |CELLSJAVA-43314|%100 Pasta grafikleri için %0/100 satırı yazdırılmıyor|Böcek|
 |CELLSJAVA-43316| Grafikleri yazdırırken çeşitli sorunlar|Böcek|
-|CELLSJAVA-40582|Akıllı sanat metni, PDF/görüntüye doğru şekilde işlenmiyor|Böcek|
+|CELLSJAVA-40582|Akıllı sanat metni, PDF/image'e doğru şekilde işlenmedi|Böcek|
 |CELLSJAVA-41639|"XML Elektronik Tablo 2003" biçiminden XLSX biçimine dönüştürülürken sütun genişlikleri korunmaz|Böcek|
-|CELLSJAVA-43315|XLS'yi XLSX'e dönüştürmek dosyayı bozar ve XLSX çıktısını PDF'ye dönüştürürken "Şekilden Görüntüye" hatası verir|Böcek|
+|CELLSJAVA-43315|XLS'in XLSX'e dönüştürülmesi dosyayı bozar ve XLSX çıktısı PDF'e dönüştürülürken "Şekilden Görüntüye" hatası verir|Böcek|
 |CELLSJAVA-43334|Tablo sorununda Otomatik Filtreleme|Böcek|
-|CELLSJAVA-43338|Excel dosyasını PDF'ye dönüştürürken çıktı farkı|
+|CELLSJAVA-43338|Excel dosyasını PDF'e dönüştürürken çıktı farkı|
 |CELLSJAVA-43346|Pivot tablo sayfa filtrelerine 12'den fazla alan eklenirken çıktı dosyası bozuk|
 |CELLSJAVA-43351|Başlık tablosunun arka plan rengi pdf'ye dönüştürülürken doğru değil|
-|CELLSJAVA-43358|HTML'den Excel'e dönüştürme sırasında metin eksik|
-|CELLSJAVA-43341|LightCellsDataProvider ile CSV'yi dışa aktarırken fazladan boş sütunlar|
-|CELLSJAVA-43352|PDF'ye dönüştürülen Excel dosyası çok sayıda sorun oluşturuyor|
+|CELLSJAVA-43358|HTML Excel'e dönüştürülürken metin eksik|
+|CELLSJAVA-43341|CSV'i LightCellsDataProvider ile dışa aktarırken fazladan boş sütunlar|
+|CELLSJAVA-43352|PDF'e dönüştürülen Excel dosyası çok sayıda sorun oluşturuyor|
 |CELLSJAVA-43339|Kaynak dosya pdf'ye dönüştürülürken görüntü yanlış yerleştirilmiş|
 |CELLSJAVA-43340|XLS'den PDF'e dönüştürmede eksik içerikler|
 |CELLSJAVA-43336| Grafik açıklama girişleri çok sola işleniyor|
 |CELLSJAVA-43356|Grafikteki boş değerler/boşluklar, 2 değer arasındayken dikkate alınmaz|
 |CELLSJAVA-43344|Geçerli Kullanıcı adı, son yorumun yazarı olarak gösterilir|
-|CELLSJAVA-43349|Gizli satırlar, XML'den XLS/XLSX'e dönüştürmede korunmaz|
+|CELLSJAVA-43349|Gizli satırlar, XML'den XLS/XLSX dönüşümüne kadar korunmaz|
 |CELLSJAVA-43361|xls'den xlsx'e dönüştürmede yanlış hücre rengi|
 |CELLSJAVA-43366|SetAsTotal özelliği güncellenmiyor|
 |CELLSJAVA-43296|Pivot tablo yenilenirken ArrayIndexOutOfBoundsException|İstisna|
-|CELLSJAVA-43298|Aspose.Cells 20.8: PDF'ye kaydederken istisna.|İstisna|
-|CELLSJAVA-43348|XLSB'den PDF'e dönüştürme: CellsException: -2147483648|
-|CELLSJAVA-43343|Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'ye dışa aktarırken istisna|
+|CELLSJAVA-43298|Aspose.Cells 20.8: PDF'e kaydedildiğinde istisna.|İstisna|
+|CELLSJAVA-43348|XLSB - PDF dönüştürme: CellsException: -2147483648|
+|CELLSJAVA-43343| Şekil için seçili bir öğeye sahip olmayan bir dosyayı PDF'e dışa aktarırken istisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

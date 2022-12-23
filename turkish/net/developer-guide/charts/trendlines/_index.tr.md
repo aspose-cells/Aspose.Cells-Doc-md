@@ -11,9 +11,9 @@ url: /tr/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği gösterir ve Denklem Metni Kırmızı renkte gösterilir. Bu metni kullanarak geri alacağız.[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)özelliği aşağıdaki örnek kodda.
+Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği gösterir ve Denklem Metni Kırmızı renkte gösterilir. Bu metni kullanarak geri alacağız.[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)özelliği aşağıdaki örnek kodda.
 
-![yapılacaklar:resim_alternatif_Metin](get-equation-text-of-chart-trendline_1.png)
+![yapılacaklar:resim_alternatif_metin](get-equation-text-of-chart-trendline_1.png)
 
 ## Grafik eğilim çizgisinin denklem metnini almak için C# kodu
 

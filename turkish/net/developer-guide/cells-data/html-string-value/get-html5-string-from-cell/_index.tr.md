@@ -6,7 +6,7 @@ url: /tr/net/get-html5-string-from-cell/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells, şunu kullanarak hücrenin HTML dizesini döndürür:[**HtmlString'i Getir**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) bir boole parametresini kabul eden yöntem. eğer geçersen**yanlış**parametre olarak Normal HTML döndürür, ancak geçerseniz**doğru** parametre olarak, HTML5 dizesini döndürür.
+Aspose.Cells, şunu kullanarak hücrenin HTML dizesini döndürür[**HtmlString'i Getir**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) bir boole parametresini kabul eden yöntem. eğer geçersen**YANLIŞ** parametre olarak Normal HTML döndürür, ancak geçerseniz**doğru** parametre olarak, HTML5 dizesini döndürür.
 
 ## **Cell'den HTML5 dizesini alın**
 

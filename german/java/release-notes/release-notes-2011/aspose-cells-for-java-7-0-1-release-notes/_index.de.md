@@ -36,18 +36,18 @@ url: /de/java/aspose-cells-for-java-7-0-1-release-notes/
 
  Ausnahmen
 
- 29285 Erhalten Sie eine Ausnahme beim Speichern von PDFs mit französischem Gebietsschema
+ 29285 Ausnahme beim Speichern von PDF mit französischem Gebietsschema
 
- 30459 Erhalten Sie eine Ausnahme beim Lesen einer XLS-Datei mit dem Standardgebietsschema, das keinen Ländercode hat
+ 30459 Erhalten Sie eine Ausnahme beim Lesen der Datei XLS mit dem Standardgebietsschema, das keinen Ländercode hat
 
  30489 Worksheet.autoFitColumn() und Chart.toImage() können „java.awt.HeadlessException“ verursachen
 
- 30587 Erhalten Sie eine Ausnahme beim Lesen der XLS-Vorlagendatei
+ 30587 Ausnahme beim Lesen der Vorlagendatei XLS
 
  Fehler
 
- 30103 Diagrammschriftarten nach erneutem Speichern der XLSX-Datei geändert
+30103 Diagrammschriftarten nach erneutem Speichern der Datei XLSX geändert
 
-28858 Das Sortieren von Namen führt dazu, dass sich die verknüpfte Zelle des Steuerelements ändert
+ 28858 Das Sortieren von Namen führt dazu, dass sich die verknüpfte Zelle des Steuerelements ändert
 
  30486 Die vertikale Ausrichtung wurde in der neu gespeicherten XLSX-Datei geändert

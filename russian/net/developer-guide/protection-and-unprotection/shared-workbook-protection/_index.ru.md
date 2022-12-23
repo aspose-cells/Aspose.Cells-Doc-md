@@ -6,7 +6,7 @@ url: /ru/net/password-protect-or-unprotect-the-shared-workbook/
 ---
 ## **Возможные сценарии использования**
 
- Вы можете защитить или снять защиту с общей книги с помощью Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с[**Рабочая книга.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) а также[**Рабочая книга. UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)методы.
+ Вы можете защитить или снять защиту с общей книги с помощью Microsoft Excel, как показано на следующем снимке экрана. Aspose.Cells также поддерживает эту функцию с[**Рабочая книга.ProtectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/protectsharedworkbook) и[**Рабочая книга. UnprotectSharedWorkbook()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/unprotectsharedworkbook)методы.
 
 ![дело:изображение_альтернативный_текст](password-protect-or-unprotect-the-shared-workbook_1.png)
 

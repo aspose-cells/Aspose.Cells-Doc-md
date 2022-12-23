@@ -13,13 +13,13 @@ url: /zh/net/convert-csv-tsv-and-txt-to-excel/
 
 ## **打开 CSV 文件**
 
-逗号分隔值 (CSV) 文件包含值以逗号分隔的记录。数据存储为表格，其中每列由逗号分隔并由双引号引起来。如果字段值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出为 CSV。
+逗号分隔值 (CSV) 文件包含值以逗号分隔的记录。数据存储为表格，其中每列由逗号分隔并由双引号引起来。如果字段值包含双引号字符，则使用一对双引号字符进行转义。也可以用Microsoft Excel导出电子表格数据到CSV。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
 ## **打开 CSV 文件并替换无效字符**
 
-在 Excel 中，当打开带有特殊字符的 CSV 文件时，字符会被自动替换。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
+在 Excel 中，打开带有特殊字符的 CSV 文件时，会自动替换这些字符。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
@@ -56,5 +56,5 @@ url: /zh/net/convert-csv-tsv-and-txt-to-excel/
 
 ## **推进主题**
 - [使用公式加载或导入 CSV 文件](/cells/zh/net/load-or-import-csv-file-with-formulas/)
-- [读取具有多种编码的 CSV 文件](/cells/zh/net/reading-csv-file-with-multiple-encodings/)
+- [读取具有多个编码的 CSV 文件](/cells/zh/net/reading-csv-file-with-multiple-encodings/)
 

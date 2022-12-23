@@ -15,7 +15,7 @@ Så här förhandsgranskar du flera filer från en mapp:
 1. Välj flera filer.
 1.  Med filerna fortfarande valda, välj**Förhandsgranska dokument med Aspose.Cells**.
 
-**Förhandsgranskning av dokument från SharePoint** 
+**Dokumentförhandsgranskning från SharePoint** 
 
 ![todo:image_alt_text](preview-multiple-documents_1.png)
 

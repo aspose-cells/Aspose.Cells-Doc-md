@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.1 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-269| Correction du problème de chargement de la licence|Punaise|
 |CELLSCPP-270|Correction du problème de conversion en PDF|Punaise|

@@ -12,7 +12,7 @@ Det här ämnet diskuterar några viktiga koncept för att hantera cellkontrolle
 ## **Åtkomst till Cell kontroller**
  För att komma åt och ändra en befintlig cellkontroll i kolumnen kan utvecklare använda egenskapen CellControl för a**Aspose.Cells.GridDesktop.Data.GridColumn** . När en cellkontroll väl har nåtts kan utvecklare ändra dess egenskaper under körning. Till exempel, i exemplet nedan, har vi kommit åt en befintlig**Kryssruta** cellkontroll från en specifik**Aspose.Cells.GridDesktop.Data.GridColumn** och ändrade dess kontrollerade egenskap.
 
-**VIKTIG:** CellControl-egenskapen tillhandahåller en cellkontroll i form av**CellControl**objekt. Så, om du behöver komma åt en specifik typ av cellkontroll, säg**Kryssruta** då måste du typcasta**CellControl** invända mot**Kryssruta** klass.
+**VIKTIG:** CellControl-egenskapen tillhandahåller en cellkontroll i form av**CellControl**objekt. Så, om du behöver komma åt en specifik typ av cellkontroll, säg**Kryssruta** då måste du typcasta**CellControl** protestera mot**Kryssruta** klass.
 
 
 

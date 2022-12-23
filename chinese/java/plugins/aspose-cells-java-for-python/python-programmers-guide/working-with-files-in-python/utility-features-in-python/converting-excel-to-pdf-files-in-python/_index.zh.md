@@ -1,11 +1,11 @@
 ﻿---
-title: 在 Python 中将 Excel 转换为 PDF 文件
+title: 将 Excel 转换为 Python 中的 PDF 文件
 type: docs
 weight: 20
 url: /zh/java/converting-excel-to-pdf-files-in-python/
 ---
 ## **Aspose.Cells - 将 Excel 转换为 Pdf**
-要使用 Python 中的 Aspose.Cells for Java 将 Excel 转换为 Pdf 文件，只需调用 excel_至_Converter 模块的 pdf() 方法。
+要使用 Python 中的 Aspose.Cells for Java 将 Excel 转换为 Pdf 文件，只需调用 excel_到_Converter 模块的 pdf() 方法。
 
 **Python 代码**
 

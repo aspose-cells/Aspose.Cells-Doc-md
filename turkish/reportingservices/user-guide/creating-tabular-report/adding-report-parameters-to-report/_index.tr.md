@@ -16,14 +16,14 @@ Raporlara rapor parametreleri eklemek için:
 
    **hücre seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-report-parameters-to-report_1.png)
+![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_1.png)
 
 
 
 
 1. Aspose.Cells.Report.Designer araç çubuğunda Formül ekle'ye tıklayın (
 
-![yapılacaklar:resim_alternatif_Metin](adding-report-parameters-to-report_2.png)
+![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_2.png)
 
 ).
 
@@ -35,7 +35,7 @@ Raporlara rapor parametreleri eklemek için:
 
    **parametre seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-report-parameters-to-report_3.png)
+![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_3.png)
 
 
 
@@ -44,14 +44,14 @@ Raporlara rapor parametreleri eklemek için:
 
    **parametrenin değiştirilmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-report-parameters-to-report_4.png)
+![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_4.png)
 
 
 
 
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
  Seçilen hücre bir rapor parametreleri işaretçisi içerir.
 
    **Hücreye eklenen bir rapor parametresi** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-report-parameters-to-report_5.png)
+![yapılacaklar:resim_alternatif_metin](adding-report-parameters-to-report_5.png)

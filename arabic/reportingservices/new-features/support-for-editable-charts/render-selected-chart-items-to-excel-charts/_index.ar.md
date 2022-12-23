@@ -13,7 +13,7 @@ url: /ar/reportingservices/render-selected-chart-items-to-excel-charts/
 1. أضف معلومات تكوين التقرير المطلوب.
 1. أضف المعلومات الخاصة بعناصر المخطط التي لا تريد تصديرها كمخططات قابلة للتحرير. يتم تصدير هذه العناصر كصور ثابتة.
 
-فمثلا:
+على سبيل المثال:
 
 {{< highlight "java" >}}
 
@@ -29,7 +29,7 @@ url: /ar/reportingservices/render-selected-chart-items-to-excel-charts/
 
 {{< /highlight >}}
 
-**تم تصدير مخطط كصورة** 
+**مخطط تم تصديره كصورة** 
 
 ![ما يجب القيام به: image_بديل_نص](render-selected-chart-items-to-excel-charts_1.png)
 

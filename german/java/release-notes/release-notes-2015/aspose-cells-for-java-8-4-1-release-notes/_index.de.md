@@ -28,13 +28,13 @@ Hauptcodebasis auf Java 6 verschoben (Java 7 und 8 werden ebenfalls unterstützt
 
 ### **Fehler**
 
-(CELLSJAVA-41229) – Aspose.Cells generiert keine individuellen HTMs und CSS-Dateien für die Blätter bei der Konvertierung von Excel in HTML
+(CELLSJAVA-41229) – Aspose.Cells generiert keine individuellen HTMs und CSS-Dateien für die Blätter in Excel in HTML-Konvertierung
 
 (CELLSJAVA-41170) – SheetRender.toImage rendert das Bild mit „(leer)“-Beschriftungen auf der x-Achse des Diagramms
 
 (CELLSJAVA-41270) – Problem mit Cells.insertRange(), da der zusammengeführte Bereich nicht korrekt verschoben wird
 
-(CELLSJAVA-41240) – Text in der Schriftart Arial wird beim Rendern der Tabelle in PDF von oben abgeschnitten
+(CELLSJAVA-41240) – Text in der Schriftart Arial wird von oben abgeschnitten, während die Tabelle auf PDF gerendert wird
 
 (CELLSJAVA-41238) - PAPIER_EIN_2 funktioniert beim Speichern als PDF nicht wie erwartet
 
@@ -48,19 +48,19 @@ Hauptcodebasis auf Java 6 verschoben (Java 7 und 8 werden ebenfalls unterstützt
 
 (CELLSJAVA-41259) – Das Festlegen von Name.setRefersTo und das Neuberechnen von Formeln führen zu einem falschen Wert beim Konvertieren der Tabelle in HTML
 
-(CELLSJAVA-41258) – Durch das Laden und Speichern des XLSX mit Aspose.Cells wird die resultierende Tabelle beschädigt
+(CELLSJAVA-41258) – Durch das Laden und Speichern von XLSX mit Aspose.Cells wird die resultierende Tabelle beschädigt
 
-(CELLSJAVA-41255) – Die benutzerdefinierte Schaltfläche wird zu einem Bild und die Beschriftung verschwindet in der XLSX-Ausgabe
+(CELLSJAVA-41255) – Die benutzerdefinierte Schaltfläche wird zu einem Bild und die Beschriftung verschwindet in der Ausgabe XLSX
 
-(CELLSJAVA-41254) – Microsoft Excel stürzt ab, wenn die XLSX-Ausgabedatei geöffnet wird
+(CELLSJAVA-41254) – Microsoft Excel stürzt ab, wenn die Ausgabedatei XLSX geöffnet wird
 
-(CELLSJAVA-41253) – Dropdown verschwindet in der ausgegebenen XLSX-Datei
+(CELLSJAVA-41253) – Dropdown verschwindet in der Ausgabedatei XLSX
 
 ### **Ausnahmen**
 
-(CELLSJAVA-41266) – java.lang.NumberFormatException ist beim Öffnen der XLSX-Vorlagendatei aufgetreten
+(CELLSJAVA-41266) – java.lang.NumberFormatException ist beim Öffnen der Vorlagendatei XLSX aufgetreten
 
-(CELLSJAVA-41248) – Nullzeiger-Ausnahme beim Öffnen der XLSX-Quelldatei
+(CELLSJAVA-41248) – Nullzeiger-Ausnahme beim Öffnen der Quelldatei XLSX
 
 (CELLSJAVA-41265) – Ausnahme: „java.lang.NullPointerException“ beim Öffnen einer SpreadsheetML-Datei
 
@@ -100,7 +100,7 @@ Bitte verwenden Sie stattdessen die Eigenschaft Cell.Formula.
 
 Fügt die ImageOrPrintOptions.SVGFitToViewPort-Eigenschaft hinzu.
 
-Gibt an, ob das generierte SVG-Bild für den Anzeigeport geeignet ist.
+Gibt an, ob das generierte SVG-Bild für den Betrachtungsport geeignet ist.
 
 Fügt die ImageOrPrintOptions.SetDesiredSize-Methode hinzu.
 

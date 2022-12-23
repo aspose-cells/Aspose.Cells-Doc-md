@@ -6,13 +6,13 @@ url: /it/net/get-html5-string-from-cell/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metodo che accetta un parametro booleano. Se passi**falso** come parametro, restituirà HTML normale ma se passi**VERO** come parametro, restituirà la stringa HTML5.
+Aspose.Cells restituisce la stringa HTML della cella utilizzando il[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) metodo che accetta un parametro booleano. Se passi**falso** come parametro, restituirà Normal HTML ma se passi**VERO** come parametro, restituirà la stringa HTML5.
 
 ## **Ottieni la stringa HTML5 da Cell**
 
-Il seguente codice di esempio crea un oggetto cartella di lavoro e aggiunge del testo nella cella A1 del primo foglio di lavoro. Quindi ottiene la stringa HTML normale e HTML5 dalla cella A1 utilizzando il file[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)metodo e li stampa sulla console.
+Il seguente codice di esempio crea un oggetto cartella di lavoro e aggiunge del testo nella cella A1 del primo foglio di lavoro. Quindi ottiene la stringa Normal HTML e HTML5 dalla cella A1 utilizzando il file[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)metodo e li stampa sulla console.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "HTML-GetHTML5StringFromCell.cs" >}}
 

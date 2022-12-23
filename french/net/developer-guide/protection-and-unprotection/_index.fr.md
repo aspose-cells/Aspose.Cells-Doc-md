@@ -8,7 +8,7 @@ alias: [/net/security-features/]
 description: Cet extrait présente comment crypter et décrypter des fichiers Excel, protéger et déprotéger les données dans des fichiers Excel à l'aide de codes CSharp.
 ---
 {{% alert color="primary" %}}
-Aspose.Cells pour .Net offre une large gamme de protection et de déprotection du fichier au niveau des données comme MS Excel :
+Aspose.Cells pour .Net offre une large gamme de protection et de déprotection du fichier au niveau des données comme MS Excel :
 {{% /alert %}}
 
 

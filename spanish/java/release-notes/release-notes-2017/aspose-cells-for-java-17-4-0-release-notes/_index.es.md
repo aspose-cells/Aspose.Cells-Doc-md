@@ -20,21 +20,21 @@ url: /es/java/aspose-cells-for-java-17-4-0-release-notes/
 |CELLSJAVA-42230|Se genera un atributo de alineación adicional al convertir XLSX a HTML|Insecto|
 |CELLSJAVA-42229|Exportar XLSX a HTML: se generan símbolos hash en lugar de los valores reales Cell|Insecto|
 |CELLSJAVA-42218|HTML no se convierte correctamente a un archivo de Excel|Insecto|
-|CELLSJAVA-42210|Falta parte del formato condicional de DataBar en el HTML de salida|Insecto|
+|CELLSJAVA-42210|Falta parte del formato condicional de DataBar en la salida HTML|Insecto|
 |CELLSJAVA-41783|La imagen de fondo debe estar en formato SVG pero está en formato PNG|Insecto|
 |CELLSJAVA-42253|El valor de celda dependiente provoca un error en XLS|Insecto|
 |CELLSJAVA-42222|La suma no es correcta después del cálculo del libro de trabajo|Insecto|
 |CELLSJAVA-42254|GridWebServlet?acw_ajax_se produce un error de llamada al cargar GridWeb|Insecto|
-|CELLSJAVA-42243|Excel a PDF: el cuadrado se ve como un rectángulo|Insecto|
-|CELLSJAVA-42242|Excel a PDF: el círculo parece una forma ovalada|Insecto|
+|CELLSJAVA-42243|Excel a PDF - Cuadrado parece Rectángulo|Insecto|
+|CELLSJAVA-42242|Excel a PDF - El círculo parece una forma ovalada|Insecto|
 |CELLSJAVA-42227|El archivo de imagen "x1.png" tiene un borde superior adicional y falta el borde inferior|Insecto|
 |CELLSJAVA-42212|Problema de rendimiento al exportar un XLS a PDF|Insecto|
 |CELLSJAVA-42246|Excel a HTML: la alineación del texto en la etiqueta del eje Y del gráfico es incorrecta|Insecto|
 |CELLSJAVA-42223|Los puntos del gráfico de radar xy px devuelven 0|Insecto|
-|CELLSJAVA-42216|Los valores enlazados del eje Y del gráfico de burbujas cambian cuando AxisScalingValuesIssue-2.xlsx se convierte a PDF|Insecto|
+|CELLSJAVA-42216|Los valores enlazados del eje Y del gráfico de burbujas cambian cuando AxisScalingValuesIssue-2.xlsx se convierte en PDF|Insecto|
 |CELLSJAVA-42250|Error de compilación si el código contiene definición de variable con tipo CommandBar|Insecto|
-|CELLSJAVA-42241|Excel a PDF: los corchetes vienen en la siguiente línea|Insecto|
-|CELLSJAVA-42234|Guardar el archivo XLSM como XLS elimina la acción macro del botón|Insecto|
+|CELLSJAVA-42241|Excel a PDF - Los corchetes vienen en la siguiente línea|Insecto|
+|CELLSJAVA-42234|Guardar el archivo XLSM como XLS elimina la acción de macro del botón|Insecto|
 |CELLSJAVA-42233|Actualizar el código - Aplicar formato 3D al gráfico|Insecto|
 |CELLSJAVA-42225|No se puede establecer el rango de entrada de forma|Insecto|
 |CELLSJAVA-42224|Problema con la clasificación de comentarios|Insecto|

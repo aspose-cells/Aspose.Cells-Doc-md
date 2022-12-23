@@ -14,25 +14,25 @@ url: /de/net/aspose-cells-for-net-19-2-release-notes/
 |:- |:- |:- |
 |CELLSNET-46582|Unterstützt Range.Hyperlinks-Eigenschaft|Neue Funktion|
 |CELLSNET-46534|Int32 kann für das Attribut Cells.count klein sein|Erweiterung|
-|CELLSNET-46552|Unterscheiden Sie verschlüsseltes XLSX von verschlüsseltem PPTX und verschlüsseltem DOCX|Erweiterung|
+|CELLSNET-46552|Unterscheiden Sie verschlüsselte XLSX von verschlüsselten PPTX und verschlüsselten DOCX|Erweiterung|
 |CELLSNET-46568|Einstellen des Box-Whisker-Diagrammstils|Erweiterung|
 |CELLSNET-46573|Ersetzen Sie ungültige Zeichen durch geeignete Symbole wie Klammern|Erweiterung|
 |CELLSNET-46581|Öffnen/Speichern entfernt den Alternativtext der Tabelle|Erweiterung|
 |CELLSNET-46584|Leistungsproblem mit Aspose.Cells-APIs|Leistung|
 |CELLSNET-46556|Text von TextBox wird ausgeschnitten|Insekt|
-|CELLSNET-46565|Piktogramme sind in der Ausgabe-PDF in Excel-zu-PDF-Rendering nicht sichtbar|Insekt|
+|CELLSNET-46565|Piktogramme sind nicht sichtbar in der Ausgabe PDF in Excel zu PDF Rendering|Insekt|
 |CELLSNET-46477|Die bedingte Formatierung in der Pivot-Tabelle funktioniert in einem kopierten Blatt nicht|Insekt|
-|CELLSNET-46547|Inhalt fehlt bei der HTML-zu-Excel-Konvertierung|Insekt|
+|CELLSNET-46547|Inhalt fehlt von HTML zu Excel-Konvertierung|Insekt|
 |CELLSNET-46566|XLSX-Datei nach dem Speichern mit Aspose.Cells-APIs beschädigt|Insekt|
 |CELLSNET-46572|XLSB ist beim Hinzufügen von mehr als 1 Datenfeld beschädigt, während XLSX einwandfrei funktioniert|Insekt|
-|CELLSNET-46548|NumberValue-Problem beim Konvertieren von XLSX in das PDF-Dateiformat|Insekt|
+|CELLSNET-46548|NumberValue-Problem beim Konvertieren von XLSX in das Dateiformat PDF|Insekt|
 |CELLSNET-46557|Falscher Zellenwert berechnet von Aspose.Cells-Formelberechnungsmodul|Insekt|
 |CELLSNET-46578|Worksheet.AutoFitColumns() passt Spalten nicht vollständig an|Insekt|
 |CELLSNET-46550|Beschriftungstext beim Konvertieren von MS Excel-Diagrammen in Bilder durcheinander geraten|Insekt|
-|CELLSNET-46558|Beim Lesen und Speichern einer ODS-Datei gehen Teilstriche des Diagramms verloren|Insekt|
-|CELLSNET-46560|Beim Speichern einer ODS-Datei geht der Serienname verloren|Insekt|
-|CELLSNET-46561|Die Standardgrenze des Plotbereichs im Diagramm sollte für die ODS-Datei nicht sichtbar sein|Insekt|
-|CELLSNET-46562|Die Gitterlinien der X-Achse werden beim Lesen und Speichern der XLSX-Datei entfernt|Insekt|
+|CELLSNET-46558|Teilstriche des Diagramms gehen beim Lesen und Speichern einer ODS-Datei verloren|Insekt|
+|CELLSNET-46560|Der Serienname geht beim Speichern einer ODS-Datei verloren|Insekt|
+|CELLSNET-46561|Die Standardgrenze des Plotbereichs im Diagramm sollte für die Datei ODS nicht sichtbar sein|Insekt|
+|CELLSNET-46562|Die Gitterlinien der X-Achse werden beim Lesen und Speichern der Datei XLSX entfernt|Insekt|
 |CELLSNET-46569|Die Seiteneinrichtungseinstellungen wurden nach dem Laden und Speichern der MS Excel-Datei geändert|Insekt|
 |CELLSNET-46574|Problem beim Speichern und Öffnen von XLSB-Dateien|Insekt|
 |CELLSNET-46555|Beim Bearbeiten einiger Eigenschaften tritt eine Ausnahme auf|Ausnahme|

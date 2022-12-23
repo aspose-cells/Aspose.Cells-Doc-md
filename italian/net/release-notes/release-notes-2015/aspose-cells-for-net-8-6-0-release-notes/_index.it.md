@@ -34,7 +34,7 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43900) - Hyperlink.TextToDisplay non viene aggiornato
 
- (CELLSNET-43892) - La dimensione del documento XLSX aumenta a ogni salvataggio
+ (CELLSNET-43892) - XLSX la dimensione del documento aumenta a ogni salvataggio
 
  (CELLSNET-43869) - Aspose.Cells non è in grado di funzionare nel Medium Trust
 
@@ -42,37 +42,37 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Insetti**
 
 
- (CELLSNET-43884) - I simboli Wingdings non vengono visualizzati correttamente durante la conversione di determinati fogli di calcolo in HTML
+(CELLSNET-43884) - I simboli Wingdings non vengono visualizzati correttamente durante la conversione di alcuni fogli di calcolo in HTML
 
  (CELLSNET-43877) - Excel ripara sempre il foglio di calcolo risultante dopo l'aggiunta della tabella pivot
 
- (CELLSNET-43831) - Da HTML a Excel - Stile CSS ignorato
+ (CELLSNET-43831) - HTML in Excel - Stile CSS ignorato
 
-(CELLSNET-43750) - Modifiche al grafico nel foglio di calcolo risultante dopo l'aggiornamento del grafico
+ (CELLSNET-43750) - Modifiche al grafico nel foglio di calcolo risultante dopo l'aggiornamento del grafico
 
  (CELLSNET-43843) - Workbook.CalculateFormula non viene mai restituito
 
  (CELLSNET-43842) - Aspose.Cells Errore di inserimento riga
 
- (CELLSNET-43879) - caratteri sovrapposti e convertiti in ######## nel rendering da Excel a PDF
+ (CELLSNET-43879) - caratteri sovrapposti e convertiti in ######## in Excel per il rendering PDF
 
  (CELLSNET-43854) - L'apice e il pedice sono stati spostati troppo durante la generazione dell'immagine
 
  (CELLSNET-42762) - Le etichette degli assi del grafico vengono visualizzate con testo frastagliato
 
- (CELLSNET-42384) - Le caselle di WordArt vengono disattivate quando XLSX viene convertito in PDF
+ (CELLSNET-42384) - Le caselle WordArt vengono disattivate quando XLSX viene convertito in PDF
 
  (CELLSNET-42380) - Le scatole SmartArt stanno diventando nere.
 
- (CELLSNET-42377) - L'intestazione del layout SmartArt si sovrappone alla sottolineatura sotto l'intestazione Immagine.
+(CELLSNET-42377) - L'intestazione del layout SmartArt si sovrappone alla sottolineatura sotto l'intestazione Immagine.
 
- (CELLSNET-41493) - Il testo viene troncato/accompagnato nel PDF generato
+ (CELLSNET-41493) - Il testo viene troncato/inserito nel codice PDF generato
 
  (CELLSNET-41398) - Il documento foglio di calcolo produce più documenti quando viene convertito
 
  (CELLSNET-43894) - Impossibile aggiornare ObjectSourceFullName del collegamento OLE
 
-(CELLSNET-43882) - PageSetup.Zoom è stato modificato dopo l'apertura e il salvataggio della cartella di lavoro
+ (CELLSNET-43882) - PageSetup.Zoom è stato modificato dopo l'apertura e il salvataggio della cartella di lavoro
 
  (CELLSNET-43881) - Alcune formule di cella vengono perse quando la riga viene copiata
 
@@ -86,7 +86,7 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43836) - Range.CopyData funziona ma Range.Copy non funziona
 
- (CELLSNET-43830) - L'aggiunta di più di 2084 caratteri nel collegamento ipertestuale danneggia il file xlsx di output
+(CELLSNET-43830) - L'aggiunta di più di 2084 caratteri nel collegamento ipertestuale danneggia il file xlsx di output
 
  (CELLSNET-43829) - La funzione Excel esegue il rendering con #NOME? errore sul Foglio 1
 
@@ -94,25 +94,25 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Eccezioni**
 
 
- (CELLSNET-43866) - CellsException durante il rendering di un foglio di calcolo in PDF
+ (CELLSNET-43866) - CellsException durante il rendering di un foglio di calcolo su PDF
 
  (CELLSNET-43847) - Si verifica un'eccezione quando si tenta di richiamare RefreshPivotTables
 
  (CELLSNET-43852) - CellsException in Workbook.CalculateFormula
 
-(CELLSNET-43893) - CellsException durante il rendering di un foglio di calcolo in formato PDF
+ (CELLSNET-43893) - CellsException durante il rendering di un foglio di calcolo nel formato PDF
 
- (CELLSNET-42108) - CellsException: parametro non valido: durante la conversione di XLS in PDF
+ (CELLSNET-42108) - CellsException: parametro non valido: durante la conversione da XLS a PDF
 
- (CELLSNET-43835) - System.OutOfMemoryException durante la conversione di un file XLS in formato file PDF
+ (CELLSNET-43835) - System.OutOfMemoryException durante la conversione di un file XLS nel formato file PDF
 
- (CELLSNET-43865) - ArgumentException durante il rendering del foglio di calcolo in PDF e HTML
+ (CELLSNET-43865) - ArgumentException durante il rendering del foglio di calcolo su PDF e HTML
 
  (CELLSNET-43862) - NullReferenceException in Workbook.Save
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -123,16 +123,16 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
  (CELLSNET-43875) - Gridweb Print su Chrome non funziona correttamente
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
  Aggiunge lo spazio dei nomi e le classi di WorkbookMetadata.
 
- È utilizzato per leggere e salvare i metadati del file.
+È utilizzato per leggere e salvare i metadati del file.
 
 
 
@@ -150,6 +150,6 @@ url: /it/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Aggiunge la proprietà OoxmlSaveOptions.UpdateZoom
 
-Viene utilizzato per aggiornare PageSetup.Zoom se le proprietà PageSetup.FitToPagesWide e PageSetup.FitToPagesTall controllano la modalità di ridimensionamento del foglio di lavoro.
+ Viene utilizzato per aggiornare PageSetup.Zoom se le proprietà PageSetup.FitToPagesWide e PageSetup.FitToPagesTall controllano la modalità di ridimensionamento del foglio di lavoro.
 
 

@@ -14,13 +14,13 @@ url: /fr/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Nouvelles fonctionnalités
 
- 41522 - Scénarios d'analyse dans la conversion XLS vers XLSM
+ 41522 - Scénarios d'analyse dans la conversion XLS à XLSM
 
  Performance
 
- 41526 - La conversion XLSX en PDF se bloque
+ 41526 - XLSX à PDF la conversion se bloque
 
- Exceptions
+ Des exceptions
 
  41773 - Une exception se produit à l'ouverture du fichier
 
@@ -30,7 +30,7 @@ url: /fr/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 - Problèmes avec la taille automatique de la zone de texte
 
- 41751 - Formule(s) matricielle(s) perdue(s) lors de l'enregistrement
+41751 - Formule(s) matricielle(s) perdue(s) lors de l'enregistrement
 
  41787 - Le fichier est corrompu lors de l'enregistrement
 

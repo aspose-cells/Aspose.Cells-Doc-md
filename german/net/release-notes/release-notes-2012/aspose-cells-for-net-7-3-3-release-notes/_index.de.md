@@ -34,13 +34,13 @@ Wir sind
 - Chart.CategoryAxis.TickLabels.RotationAngle funktioniert nicht nach dem Kopieren von Arbeitsblättern
 - Problem beim Entfernen des Diagramm-/Achsentitels
 - Die Formatierung der Diagrammlegende geht beim Speichern der Arbeitsmappe verloren
-- Problem mit gerenderten Diagrammen im PDF
+- Problem mit gerenderten Diagrammen in der PDF
 - Legen Sie Probleme mit Verlaufsfarben fest
 - Das Speichern der MHT-Datei, das Einlesen von Aspose.Cells ist ein Problem
 - Einige bedingte Formatierungen werden nicht korrekt wiedergegeben
 - Schlechte Textpositionierung in PDF mit Schriftarten unterschiedlicher Größe
-- Beim Exportieren in eine PDF-Datei aus einer Excel-Datei werden die Formeln geändert
-- Probleme beim Rendern von Arbeitsblättern und PDF-Dateien
+- Beim Exportieren nach PDF aus einer Excel-Datei werden die Formeln geändert
+- Arbeitsblatt- und PDF-Rendering-Probleme
 - Problem mit automatisch angepassten Spalten
 - Probleme mit dem PivotTables-Design
 - Die Aktualisierung von PivotTable schlägt fehl
@@ -67,7 +67,7 @@ Wir sind
 
 
 Neu
-Merkmale
+ Merkmale
 
 - GridDesktop Scrollbars - So zeigen/verbergen Sie vertikale und horizontale Bildlaufleisten
 - Zeilen-/Spaltenereignis(se) einfügen

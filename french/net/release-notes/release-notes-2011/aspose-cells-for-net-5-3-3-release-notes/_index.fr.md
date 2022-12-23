@@ -16,7 +16,7 @@ url: /fr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Afficher les cases à cocher dans le fichier HTML
 
- 26082 Prise en charge de l'alignement justifié dans le rendu au format PDF
+ 26082 Prise en charge de l'alignement justifié dans le format de rendu PDF
 
  26341 Amélioration Excel vers PDF pour Mono
 
@@ -27,16 +27,16 @@ url: /fr/net/aspose-cells-for-net-5-3-3-release-notes/
  26472 Prise en charge de la fonction/formule STDEV.S
 ### **Performance**
  25774 Conversion Excel en PDF
-### **Exceptions**
+### **Des exceptions**
  27076 Gérer FormatException lors de l'ouverture d'un fichier ODS
 
  27063 Index de colonne non valide - Aspose.Cells.CellsException de la méthode SheetRender.ToImage()
 
- 26571 Aspose.Cells impossible d'ouvrir le fichier XLS
+26571 Aspose.Cells ne peut pas ouvrir le fichier XLS
 
  26309 Le tableau source n'était pas assez long - exception lors de l'ouverture du fichier Excel
 
-25972 La méthode SheetRender.ToImage() n'arrive pas à rendre certaines feuilles de travail
+ 25972 La méthode SheetRender.ToImage() n'arrive pas à rendre certaines feuilles de travail
 ### **Insectes**
  26141 Rendre une image presque vide (de la méthode Chart.ToImage() ), les lignes en pointillés ne sont pas bien rendues
 
@@ -48,11 +48,11 @@ url: /fr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  18878 Réduire la taille de la police lors de l'enregistrement dans un fichier PDF
 
- 19318 Texte incorrect dans l'exportation PDF
+ 19318 Texte erroné dans PDF Export
 
  24011 Enregistrer au format PDF (bogues)
 
- 26727 Problèmes multiples lors de l'enregistrement du fichier Excel généré au format PDF
+ 26727 Problèmes multiples lors de l'enregistrement du fichier Excel généré sous le nom PDF
 
  25920 Les tableaux croisés dynamiques sont corrompus
 
@@ -62,19 +62,19 @@ url: /fr/net/aspose-cells-for-net-5-3-3-release-notes/
 
  24961 Problème de corruption de fichiers
 
- 26198 Obtenir la valeur maximale de ValueAxis dans un graphique Excel
+26198 Obtenir la valeur maximale de ValueAxis dans un graphique Excel
 
  26198 Un problème avec les méthodes PutValue et ClearContents
 
  26544 Problème de copie de lignes et de mise en forme conditionnelle
 
-26711 La cellule calculée a « #VALEUR ! » après avoir utilisé la méthode Workbook.CalculateFormula()
+ 26711 La cellule calculée a « #VALEUR ! » après avoir utilisé la méthode Workbook.CalculateFormula()
 
  26728 Obtenez « #Valeur ! » dans les cellules calculées
 
  26984 Problème avec le calcul des formules dans les feuilles de calcul
 
- 26308 La formule XLSB renvoie une valeur différente de la formule XLSX
+ 26308 XLSB La formule renvoie une valeur différente de la formule XLSX
 
  25783 Le fichier Excel s'ouvre avec un avertissement après avoir utilisé Range.CopyValue pour l'en-tête du tableau
 
@@ -92,7 +92,7 @@ url: /fr/net/aspose-cells-for-net-5-3-3-release-notes/
 ### **2) Aspose.Cells.GridWeb**
 ### **Nouvelles fonctionnalités**
 26410 Agrandir/Réduire les lignes groupées côté serveur et côté client
-### **Exceptions**
+### **Des exceptions**
  26227 Exception de gestion qui est déclenchée lors de l'obtention de la couleur du nombre formaté personnalisé
 ### **3) Aspose.Cells.GridDesktop**
 ### **Nouvelles fonctionnalités**

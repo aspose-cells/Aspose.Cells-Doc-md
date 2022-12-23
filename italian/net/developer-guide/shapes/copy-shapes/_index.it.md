@@ -7,7 +7,7 @@ url: /it/net/copy-shapes-between-worksheets/
 ---
 {{% alert color="primary" %}}
 
-A volte, è necessario copiare elementi su un foglio di lavoro, ad esempio immagini, grafici e altri oggetti di disegno, tra fogli di lavoro. Aspose.Cells supporta questa funzione. Grafici, immagini e altri oggetti possono essere copiati con il massimo grado di precisione.
+volte, è necessario copiare elementi su un foglio di lavoro, ad esempio immagini, grafici e altri oggetti di disegno, tra fogli di lavoro. Aspose.Cells supporta questa funzione. Grafici, immagini e altri oggetti possono essere copiati con il massimo grado di precisione.
 
 Questo articolo fornisce informazioni dettagliate su come copiare le forme tra i fogli di lavoro.
 

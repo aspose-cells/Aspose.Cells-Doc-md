@@ -11,7 +11,7 @@ url: /de/net/aspose-cells-for-net-7-7-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET wurde auf Version 7.7.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 80 neue nützliche Verbesserungen enthält.
-Mit Aspose.Cells for .NET können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for .NET können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for .NET beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells.
@@ -34,7 +34,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42116) – Berechnen Sie Min- und Max-Werte für die bedingte Formatierung von DataBars
 
-(CELLSNET-40910) - Große MS Excel-Dateien im Lichtzellenmodus lesen - (LightCells API)
+ (CELLSNET-40910) - Große MS Excel-Dateien im Lichtzellenmodus lesen - (LightCells API)
 
  (CELLSNET-42230) – Rendert bedingt formatierte Datenbalken mit negativen Werten in der Funktion „Blatt zu Bild“.
 
@@ -48,7 +48,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 ## **Verbesserungen**
 
 
- (CELLSNET-42247) – Bedingte Formatierung auf PivotTable geht verloren, wenn sie mit Aspose.Cells verarbeitet wird
+(CELLSNET-42247) – Bedingte Formatierung auf PivotTable geht verloren, wenn sie mit Aspose.Cells verarbeitet wird
 
  (CELLSNET-42228) – Beim Einbetten einer DOC-Datei in ein XSLX-Format wird MS Word nicht gestartet, um das eingebettete DOC zu laden
 
@@ -58,17 +58,17 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 ## **Fehler**
 
 
- (CELLSNET-42220) – Problem beim Rendern der Pfeilform in der PDF-Ausgabedatei
+ (CELLSNET-42220) – Problem beim Rendern der Pfeilform in der Ausgabedatei PDF
 
  (CELLSNET-42139) - Cell.GetDisplayStyle() funktioniert nicht für TOP 10 % und BOTTOM 10 % bedingte Formatierungen
 
  (CELLSNET-40904) – Beim Rendern aus einem Excel-Bild wurde im Bild eine falsche Farbe verwendet
 
- (CELLSNET-42249) - Aspose.Cells beschädigt die XLSB-Datei
+ (CELLSNET-42249) - Aspose.Cells beschädigt die Datei XLSB
 
-(CELLSNET-42217) – MS Excel zeigt die Meldung „Nicht lesbarer Inhalt“ an
+ (CELLSNET-42217) – MS Excel zeigt die Meldung „Nicht lesbarer Inhalt“ an
 
- (CELLSNET-42184) – Unicode/Double Byte/JPN – Probleme bei der HTML-Konvertierung
+ (CELLSNET-42184) - Unicode/Double Byte/JPN - HTML Konvertierungsprobleme
 
  (CELLSNET-42149) – Excel PivotTable RemoveField-Problem
 
@@ -76,7 +76,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-41363) – PivotField-Problem – Falscher Status „Artikelbezeichnungen wiederholen“ (*.xlsb)
 
- (CELLSNET-41362) – PivotField-Problem – Falscher „IsCalculatedField“-Status (*.xlsb)
+(CELLSNET-41362) – PivotField-Problem – Falscher „IsCalculatedField“-Status (*.xlsb)
 
  (CELLSNET-41361) – PivotField-Problem – Falscher Status der Sortierfelder (*.xlsb)
 
@@ -88,7 +88,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-41343) – PivotTable – Falscher Status „Anzahl der pro Feld aufzubewahrenden Elemente“ (*.xlsb)
 
-(CELLSNET-41342) – PivotTable – Fehlender Wert für das Feld „RowHeaderCaption“ (*.xlsb)
+ (CELLSNET-41342) – PivotTable – Fehlender Wert für das Feld „RowHeaderCaption“ (*.xlsb)
 
  (CELLSNET-41341) – PivotTable – Fehlender Wert der Datenquelle für Pivot-Tabellen mit mehreren Konsolidierungsbereichen (*.xlsb)
 
@@ -96,7 +96,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-41339) – Falscher Zustand „Zeilen-/Spaltenüberschriften“ (*.xlsb)
 
- (CELLSNET-41338) – PivotTable – Falscher Status „Benutzerdefinierte Listen beim Sortieren verwenden“ (*.xlsb)
+(CELLSNET-41338) – PivotTable – Falscher Status „Benutzerdefinierte Listen beim Sortieren verwenden“ (*.xlsb)
 
  (CELLSNET-41337) – PivotTable – Falscher „AutoFormat“-Wert (*.xlsb)
 
@@ -108,37 +108,37 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-41331) – PivotTable – Falscher Gesamtsummenstatus für Zeile/Spalte (*.xlsb)
 
-(CELLSNET-41330) – PivotTable – Falscher Status „Mehrere Filter pro Feld zulassen“ (*.xlsb)
+ (CELLSNET-41330) – PivotTable – Falscher Status „Mehrere Filter pro Feld zulassen“ (*.xlsb)
 
  (CELLSNET-41329) – PivotTable – Falscher Zustand „Wertezeile anzeigen“ (*.xlsb)
 
  (CELLSNET-42232) – Mehrzeilige Zellen werden abgeschnitten, wenn sie in Bilder umgewandelt werden (Blatt zu Bild)
 
- (CELLSNET-42231) – Als PDF exportieren – Mehrzeiliger Text wird abgeschnitten und in den Zellen überlappt
+ (CELLSNET-42231) – Export nach PDF – Mehrzeiliger Text wird abgeschnitten und in den Zellen überlappt
 
- (CELLSNET-42227) - XLSX zu PDF: Das Ergebnis hat keinen linken und rechten Rand
+(CELLSNET-42227) - XLSX bis PDF: Das Ergebnis hat keinen linken und rechten Rand
 
  (CELLSNET-42158) – Problem mit Databars mit negativem Wert in der bedingten Formatierung
 
  (CELLSNET-41964) – Das Rendern von nur der dritten Seite in TIFF ohne Einhaltung der Sequenz funktioniert nicht
 
- (CELLSNET-41847) – Problem mit Datenverlust und falscher Etikettenausrichtung, wenn eine Excel-Datei in das PDF-Format konvertiert wird
+ (CELLSNET-41847) – Problem mit Datenverlust und falscher Etikettenausrichtung, wenn eine Excel-Datei in das Format PDF konvertiert wird
 
- (CELLSNET-42112) – Formatierungsproblem bei der PDF-Generierung mit den Daten
+ (CELLSNET-42112) – PDF Generationsformatierungsproblem mit den Daten
 
  (CELLSNET-42266) – Titelzeilen erscheinen zweimal auf der ersten Seite im Ausgabe-PDF
 
- (CELLSNET-42097) – PDF-Generierung – Datenformatierungsproblem
+ (CELLSNET-42097) - PDF Generation - Datenformatierungsproblem
 
-(CELLSNET-41435) – Die vertikale Zellenausrichtung wird beim Rendern von Excel in ein PNG-Bild für bedingt formatierte Zellen nicht beibehalten
+ (CELLSNET-41435) – Die vertikale Zellenausrichtung wird nicht beibehalten, wenn Excel für bedingt formatierte Zellen in das PNG-Bild gerendert wird
 
  (CELLSNET-42267) – Das Bild eines Diagramms kann nicht abgerufen werden
 
- (CELLSNET-42221) – Problem beim Rendern von Pfeilen im Ausgabe-HTML-Dateiformat
+ (CELLSNET-42221) – Problem beim Rendern von Pfeilen im Ausgabedateiformat HTML
 
  (CELLSNET-41892) - Regression in der Qualität von SheetRender.ToImage mit Transparenzen
 
- (CELLSNET-41834) – Möglicher Fehler in der Transparenz eines Säulendiagramms
+(CELLSNET-41834) – Möglicher Fehler in der Transparenz eines Säulendiagramms
 
  (CELLSNET-41438) – Probleme mit der ToTiff-Funktion beim Rendern von Diagrammen (erweitert)
 
@@ -154,31 +154,31 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42239) – Problem mit sich überschneidenden Stilen
 
-(CELLSNET-42238) – Die verknüpfte Zelle wird nicht aus der Dropdown-Liste aktualisiert
+ (CELLSNET-42238) – Die verknüpfte Zelle wird nicht aus der Dropdown-Liste aktualisiert
 
  (CELLSNET-42236) – Die Bildhöhe ändert sich, obwohl ihre Höhe in SmartMarker-Tags festgelegt ist
 
- (CELLSNET-42225) – Bedingtes Formatierungsproblem im XPS-Dateiformat
+ (CELLSNET-42225) – Bedingtes Formatierungsproblem im Dateiformat XPS
 
  (CELLSNET-42135) – Die Auswertung der bedingten Formatierung ist falsch
 
- (CELLSNET-42119) – Die bedingte Formatierung von Iconset gibt nicht die richtigen Symbole zurück
+(CELLSNET-42119) – Die bedingte Formatierung von Iconset gibt nicht die richtigen Symbole zurück
 
  (CELLSNET-42113) – Das Bild wird kürzer, wenn die Worksheet.AutoFitRows()-Methode aufgerufen wird
 
- (CELLSNET-41918) - Aspose Cells beschädigt XLSB-Arbeitsmappen mit eingebetteten Objekten
+ (CELLSNET-41918) - Aspose Cells beschädigt XLSB Arbeitsmappen, die eingebettete Objekte enthalten
 
  (CELLSNET-41852) - Die vier Zellen A1-D1 unterscheiden sich in "0 VS blank"
 
  (CELLSNET-41824) – Die Größe der Pivot-Tabelle wird für einige Datumsspalten nicht ausreichend angepasst
 
- (CELLSNET-41789) – Problem „Speichern als XLSX durch Aspose.Cells“ und „Open Xml SDK“.
+ (CELLSNET-41789) – Speichern unter XLSX von Aspose.Cells und Problem mit Open Xml SDK
 
  (CELLSNET-41636) – Die bedingte Formatierung wird nach dem Speichern einer XLSX-Datei nicht beibehalten
 
-(CELLSNET-41595) – Signaturzeilenfunktion ging beim Speichern der Arbeitsmappe mit Aspose Cells verloren
+ (CELLSNET-41595) – Signaturzeilenfunktion ging beim Speichern der Arbeitsmappe mit Aspose Cells verloren
 
- (CELLSNET-41355) – XLSX-Zeichenformatierung funktioniert nicht
+ (CELLSNET-41355) – XLSX Zeichenformatierung funktioniert nicht
 
  (CELLSNET-41240) – Das Festlegen von Chart.Name und Title führt zu einer beschädigten Ausgabedatei
 
@@ -186,9 +186,9 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-40789) – Formatierung geht beim Speichern der Arbeitsmappe verloren
 
- (CELLSNET-40527) – Rahmenstil und Hintergrund ändern sich beim Konvertieren einer XML-Tabelle in das XLSX-Dateiformat
+(CELLSNET-40527) – Rahmenstil und Hintergrund ändern sich beim Konvertieren einer XML-Tabelle in das Dateiformat XLSX
 
- (CELLSNET-40321) – Die Eigenschaft „PageSetup.FirstPageNumber“ wird nicht zum Drucken oder Rendern im PDF-Format verwendet
+ (CELLSNET-40321) – Die Eigenschaft „PageSetup.FirstPageNumber“ wird nicht zum Drucken oder Rendern im Format PDF verwendet
 
  (CELLSNET-40216) – Excel-Datumsformatierung und Zeichenfolgenwert gehen verloren, wenn wir über die Komponente Aspose.Cells konvertieren
 
@@ -202,13 +202,13 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42234) – Problem beim Laden einer HTML-Datei
 
-(CELLSNET-42257) – Beim Konvertieren von XLSX in PDF ist in GDI+ ein allgemeiner Fehler aufgetreten
+ (CELLSNET-42257) – Beim Konvertieren von XLSX in PDF ist in GDI+ ein allgemeiner Fehler aufgetreten
 
  (CELLSNET-41299) – Benötigt Verbesserungen für Ausnahmen bei ungültigen Dateien
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -232,7 +232,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  Gefallene Unterstützung for .NET Framework 1.1
 
- Ab dieser Version wird Aspose.Cells nicht mehr mit einer DLL zur Verwendung im .NET Framework 1.1 verteilt. Die Unterstützung für diese Version des Frameworks wurde eingestellt, um Funktionen und Korrekturen besser zu erleichtern, da es schwierig ist, einige Funktionen zu dieser älteren Version des Frameworks hinzuzufügen.
+Ab dieser Version wird Aspose.Cells nicht mehr mit einer DLL zur Verwendung im .NET Framework 1.1 verteilt. Die Unterstützung für diese Version des Frameworks wurde eingestellt, um Funktionen und Korrekturen besser zu erleichtern, da es schwierig ist, einige Funktionen zu dieser älteren Version des Frameworks hinzuzufügen.
 
 
 
@@ -254,7 +254,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  Fügt die FindOptions.Style-Eigenschaft hinzu
 
-Unterstützt das Suchen von Zellen nach Formatierung.
+ Unterstützt das Suchen von Zellen nach Formatierung.
 
 
 
@@ -272,7 +272,7 @@ Unterstützt das Suchen von Zellen nach Formatierung.
 
  Fügt eine Methode Clear() zu PivotFieldCollection hinzu
 
- Es wird verwendet, um alle Pivot-Felder in der Liste zu entfernen.
+Es wird verwendet, um alle Pivot-Felder in der Liste zu entfernen.
 
 
 

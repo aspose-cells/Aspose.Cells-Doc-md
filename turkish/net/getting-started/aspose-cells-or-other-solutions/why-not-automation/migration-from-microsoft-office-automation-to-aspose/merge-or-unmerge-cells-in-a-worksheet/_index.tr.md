@@ -10,7 +10,7 @@ url: /tr/net/merge-or-unmerge-cells-in-a-worksheet/
 
 {{% /alert %}}
 
-## **Tanım**
+## **Açıklama**
 
 Mevcut bir excel dosyasını açın, çalışma kitabındaki ilk çalışma sayfasındaki bazı hücreleri birleştirin ve excel dosyasını kaydedin.
 

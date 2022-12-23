@@ -17,14 +17,14 @@ url: /ar/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|التحسينات المطلوبة لمرشحات البيانات وميزات الترحيل - Aspose.Cells.GridWeb (Java)|التعزيز|
 |CELLSJAVA-41616|SaveCustomStyleFile غير موجود في GridWeb (Java)|التعزيز|
 |CELLSJAVA-42321|يجب ألا تكون CellsHelper.setSignificantDigits () دالة ثابتة (عامة)|التعزيز|
-|CELLSJAVA-42327|يتم تشويه بعض الأشكال وتغييرها في عرض Excel إلى PDF|حشرة|
-|CELLSJAVA-42290|لا يتم عرض Mdash و ndash المدرجة في TextBoxes في المخططات بشكل صحيح في ملف PDF للمخطط|حشرة|
-|CELLSJAVA-42338|نتائج خاطئة عند استخدام صيغ SUMIFS|حشرة|
-|CELLSJAVA-42337|Aspose.Cells غير قادر على حساب قيمة الخلية B4 من ورقة عمل العمليات الحسابية|حشرة|
-|CELLSJAVA-42330|نتيجة غريبة عند التحويل من Excel إلى PDF أو PDF / A باستخدام المواضيع|حشرة|
-|CELLSJAVA-42331|لا يتم الاحتفاظ بالتغييرات في حقل مؤلف التعليق|حشرة|
-|CELLSJAVA-42328|تم إرجاع IconSet الخاطئة|حشرة|
-|CELLSJAVA-42324|خلفية الرسم البياني مفقودة بعد تعيين بيانات الصورة|حشرة|
+|CELLSJAVA-42327|تم تشويه بعض الأشكال وتغييرها في Excel إلى عرض PDF|خلل برمجي|
+|CELLSJAVA-42290|لا يتم عرض Mdash و ndash المدرجة في مربعات النص في المخططات بشكل صحيح في PDF الرسم البياني|خلل برمجي|
+|CELLSJAVA-42338|نتائج خاطئة عند استخدام صيغ SUMIFS|خلل برمجي|
+|CELLSJAVA-42337|Aspose.Cells غير قادر على حساب قيمة الخلية B4 من ورقة عمل العمليات الحسابية|خلل برمجي|
+|CELLSJAVA-42330|نتيجة غريبة عند التحويل من Excel إلى PDF أو PDF / A باستخدام الخيوط|خلل برمجي|
+|CELLSJAVA-42331|لا يتم الاحتفاظ بالتغييرات في حقل مؤلف التعليق|خلل برمجي|
+|CELLSJAVA-42328|تم إرجاع IconSet الخاطئة|خلل برمجي|
+|CELLSJAVA-42324|خلفية الرسم البياني مفقودة بعد تعيين بيانات الصورة|خلل برمجي|
 |CELLSJAVA-42340|استثناء في مؤشر الترابط "Thread-2" java.lang.OutOfMemoryError: تم تجاوز حد الحمل الزائد لـ GC|استثناء|
 |CELLSJAVA-42334|تم طرح استثناء "Error for ZipFile" عند استخدام OutputFileStream|استثناء|
 |CELLSJAVA-42326|com.aspose.cells.CellsException: كلمة مرور غير صالحة عند فتح ملف Excel|استثناء|
@@ -39,7 +39,7 @@ url: /ar/java/aspose-cells-for-java-17-7-release-notes/
 ### **إضافة خاصية ImageOrPrintOptions.CheckWorkbookDefaultFont**
 يشير إلى ما إذا كنت ستحاول استخدام الخط الافتراضي للمصنف أولاً لإظهار الأحرف التي لم يتم تعيين الخط بشكل صحيح.
 ### **إضافة FileFormatType.Numbers و LoadFormat.Numbers و SaveFormat.Numbers enum**
-يمثل تنسيق ملف جدول بيانات Numbers بواسطة Apple Inc /.
+يمثل تنسيق ملف جدول البيانات Numbers بواسطة Apple Inc /.
 ### **يضيف طريقة Worksheet.AdvancedFilter ()**
 يقوم بتصفية البيانات باستخدام معايير معقدة.
 ### **يضيف خاصية WorkbookSettings.SignificantDigits**
@@ -65,7 +65,7 @@ url: /ar/java/aspose-cells-for-java-17-7-release-notes/
 ### **أمثلة على الاستخدام**
 يرجى التحقق من قائمة مواضيع المساعدة المضافة في Aspose.Cells مستندات Wiki:
 
-- [اقرأ جدول بيانات الأرقام الذي طورته شركة Apple Inc. باستخدام Aspose.Cells](/cells/ar/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [اقرأ جدول البيانات Numbers الذي طورته شركة Apple Inc. باستخدام Aspose.Cells](/cells/ar/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [قم بتعيين خاصية DefaultFont لـ PdfSaveOptions و ImageOrPrintOptions ليكون لها الأولوية](/cells/ar/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [استيراد البيانات من Microsoft Access Database ResultSet Object إلى ورقة العمل](/cells/ar/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [تطبيق عامل التصفية المتقدم لـ Microsoft Excel لعرض السجلات التي تفي بالمعايير المعقدة](/cells/ar/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

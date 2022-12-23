@@ -61,17 +61,17 @@ url: /de/net/aspose-cells-for-net-7-3-2-release-notes/
 - Versteckte Bilder verschwanden nach dem Kopieren des Arbeitsblatts
 - Nach dem Speichern sind die Daten des Excel-Arbeitsblatts verschwunden
 
- -Das Speichern einer XLSX-Datei mit Streudiagramm aktiviert zusätzliche Optionen
+ -Das Speichern der XLSX-Datei mit Streudiagramm aktiviert zusätzliche Optionen
 
--DataLabels.ShowBubbleSize-Problem mit XLSX-Dateiformat
+ -DataLabels.ShowBubbleSize-Problem mit dem Dateiformat XLSX
 
  -Der Titel des Excel-Kreisdiagramms wird nicht korrekt in die Bilddatei gerendert
 
  -Falsches Problem mit der Formelberechnung
 
 - Deutschsprachiges Problem bezüglich bedingter Formatierung
-- Leere Seiten nach der Konvertierung in PDF
-- Kopf-/Fußzeilenprobleme in PDF-Datei
+- Leere Seiten nach Umwandlung in PDF
+- Kopf-/Fußzeilenprobleme in Datei PDF
 - Verlorene Leerzeichen beim Rendern des Excel-Bereichs zum Bild
 - Sprach-/regionales Problem – Bedingtes Formatierungsproblem mit SheetRender
 - Problem mit benutzerdefinierter Zahlenformatierung bei negativer Zahl
@@ -79,9 +79,9 @@ url: /de/net/aspose-cells-for-net-7-3-2-release-notes/
 - Problem beim Speichern einer Arbeitsmappe mit berechneten Elementen in einer PivotTable
 - Formel- und Sprachprobleme im Zusammenhang mit SheetRender (XPS)
 - Zwischensummen werden in falscher Reihenfolge berechnet (intelligente Markierungen)
-- Problem mit der XLSB-Dateigröße von Excel – Auswahlliste verschwindet
+- Problem mit der Dateigröße XLSB in Excel – Auswahlliste verschwindet
 
- -Form-zu-Bild-Fehler beim Speichern von PDF mit Aspose Cells
+-Form-zu-Bild-Fehler beim Speichern von PDF mit Aspose Cells
 
 - Nach der Konvertierung in PDF ist die Datei beschädigt
 

@@ -29,7 +29,7 @@ Aşağıdaki örnek, satırları 2. sıradan 10. sıraya kadar gruplandırır.
 
 **Satırları gruplama** 
 
-![yapılacaklar:resim_alternatif_Metin](group-rows-and-create-subtotal_1.png)
+![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_1.png)
 
 
 
@@ -49,7 +49,7 @@ Bir dizi satırı gruplandırırken organizasyon seviyeleri oluşturabilirsiniz.
 
 **Satırları gruplama** 
 
-![yapılacaklar:resim_alternatif_Metin](group-rows-and-create-subtotal_2.png)
+![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_2.png)
 
 
 
@@ -125,7 +125,7 @@ Kontrolün ara toplam özelliği, sayfadaki satırları belirli bir sütunla gru
 {{< /highlight >}}
 ### **Parametre Listesi**
 
-|**Numara.**|**Parametre adı**|**Tanım**|
+|**Numara.**|**Parametre adı**|**Açıklama**|
 |:- |:- |:- |
 |1|sütunAdıSatırIndex|Sütun adı satırının satır dizini.|
 |2|veriSatırları|Veri satırlarının sayısı.|
@@ -135,7 +135,7 @@ Kontrolün ara toplam özelliği, sayfadaki satırları belirli bir sütunla gru
 ### **Özet Fonksiyon Listesi**
 {[SubtotalFunction}} numaralandırması tarafından desteklenen birkaç tür özet işlevi vardır:
 
-|**Numara.**|**Fonksiyon adı**|**Tanım**|
+|**Numara.**|**Fonksiyon adı**|**Açıklama**|
 |:- |:- |:- |
 |1|ORTALAMA|Değerlerin ortalamasını hesaplar.|
 |2|SAYMAK|Hücrelerdeki sayısal değerleri sayar.|
@@ -148,7 +148,7 @@ Aşağıdaki örnek, çalışma sayfasındaki ikinci sütuna göre gruplandırı
 
 **ara toplamlar** 
 
-![yapılacaklar:resim_alternatif_Metin](group-rows-and-create-subtotal_3.png)
+![yapılacaklar:resim_alternatif_metin](group-rows-and-create-subtotal_3.png)
 
 
 

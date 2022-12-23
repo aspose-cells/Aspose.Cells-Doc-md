@@ -10,41 +10,41 @@ url: /it/java/aspose-cells-for-java-17-4-0-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41975|Supporta la formattazione DBNum (modello personalizzato).|Nuova caratteristica|
-|CELLSJAVA-42237|L'accesso alla cella crea codice HTML con righe vuote|Aumento|
+|CELLSJAVA-42237|L'accesso alla cella crea HTML con righe vuote|Aumento|
 |CELLSJAVA-42236|Problema di prestazioni con l'ambiente multi-threading|Aumento|
-|CELLSJAVA-42226|Limita a una cartella e alle sue sottocartelle per utilizzare i caratteri nel rendering di immagini/PDF|Aumento|
-|CELLSJAVA-42239|Errore nel formato della stringa di input durante il caricamento di un codice HTML|Insetto|
-|CELLSJAVA-42230|Un ulteriore attributo align viene generato durante la conversione di XLSX in HTML|Insetto|
-|CELLSJAVA-42229|Esporta XLSX in HTML: i simboli hash vengono generati al posto dei valori Cell effettivi|Insetto|
-|CELLSJAVA-42218|L'HTML non è correttamente convertito in file Excel|Insetto|
-|CELLSJAVA-42210|Parte della formattazione condizionale di DataBar è mancante nell'HTML di output|Insetto|
-|CELLSJAVA-41783|L'immagine di sfondo deve essere in formato SVG ma è in formato PNG|Insetto|
+|CELLSJAVA-42226|Limita a una cartella e alle sue sottocartelle per utilizzare i caratteri nel rendering images/PDF|Aumento|
+|CELLSJAVA-42239|Errore di formato della stringa di input durante il caricamento di un HTML|Insetto|
+|CELLSJAVA-42230|Un ulteriore attributo di allineamento viene generato durante la conversione da XLSX a HTML|Insetto|
+|CELLSJAVA-42229|Esporta da XLSX a HTML: i simboli hash vengono generati al posto dei valori effettivi Cell|Insetto|
+|CELLSJAVA-42218|HTML non è correttamente convertito in file Excel|Insetto|
+|CELLSJAVA-42210|Parte della formattazione condizionale di DataBar è mancante nell'output HTML|Insetto|
+|CELLSJAVA-41783|L'immagine di sfondo dovrebbe essere nel formato SVG ma è nel formato PNG|Insetto|
 |CELLSJAVA-42253|Il valore della cella dipendente causa un errore in XLS|Insetto|
 |CELLSJAVA-42222|La somma non è corretta dopo il calcolo della cartella di lavoro|Insetto|
 |CELLSJAVA-42254|GridWebServlet?acw_ajax_si verifica un errore di chiamata durante il caricamento di GridWeb|Insetto|
-|CELLSJAVA-42243|Da Excel a PDF: Quadrato assomiglia a Rettangolo|Insetto|
-|CELLSJAVA-42242|Da Excel a PDF: il cerchio ha l'aspetto di una forma ovale|Insetto|
+|CELLSJAVA-42243|Da Excel a PDF - Quadrato assomiglia a Rettangolo|Insetto|
+|CELLSJAVA-42242|Da Excel a PDF - Il cerchio ha l'aspetto di una forma ovale|Insetto|
 |CELLSJAVA-42227|Il file immagine "x1.png" ha un bordo superiore aggiuntivo e un bordo inferiore mancante|Insetto|
-|CELLSJAVA-42212|Problema di prestazioni durante l'esportazione di un file XLS in PDF|Insetto|
+|CELLSJAVA-42212|Problema di prestazioni durante l'esportazione da XLS a PDF|Insetto|
 |CELLSJAVA-42246|Da Excel a HTML: l'allineamento del testo nell'etichetta dell'asse Y del grafico è errato|Insetto|
 |CELLSJAVA-42223|I punti xy px del grafico radar restituiscono 0|Insetto|
 |CELLSJAVA-42216|I valori associati dell'asse Y del grafico a bolle cambiano quando AxisScalingValuesIssue-2.xlsx viene convertito in PDF|Insetto|
 |CELLSJAVA-42250|Errore di compilazione se il codice contiene la definizione di variabile con tipo CommandBar|Insetto|
-|CELLSJAVA-42241|Da Excel a PDF: le parentesi sono in arrivo nella riga successiva|Insetto|
-|CELLSJAVA-42234|Il salvataggio del file XLSM come XLS toglie l'azione macro dal pulsante|Insetto|
+|CELLSJAVA-42241|Excel a PDF - Le parentesi sono in arrivo nella riga successiva|Insetto|
+|CELLSJAVA-42234|Il salvataggio del file XLSM come XLS rimuove l'azione macro dal pulsante|Insetto|
 |CELLSJAVA-42233|Aggiorna il codice - Applicazione del formato 3D al grafico|Insetto|
 |CELLSJAVA-42225|Impossibile impostare l'intervallo di input della forma|Insetto|
 |CELLSJAVA-42224|Problema con l'ordinamento dei commenti|Insetto|
 |CELLSJAVA-42221|Regressione critica con controlli personalizzati|Insetto|
 |CELLSJAVA-42220|Problema con l'impostazione della visualizzazione layout di pagina per i file XLSB|Insetto|
-|CELLSJAVA-42217|Dopo aver effettuato l'accesso a VbaModule tramite l'API Aspose, il file Excel risultante ha un progetto vba interrotto|Insetto|
+|CELLSJAVA-42217|Dopo aver effettuato l'accesso a VbaModule tramite Aspose API, il file Excel risultante ha interrotto il progetto vba|Insetto|
 |CELLSJAVA-42213|Il carattere sta cambiando involontariamente le sue dimensioni nel commento con un CR incorporato in esso|Insetto|
 |CELLSJAVA-42231|L'eccezione si verifica durante l'inserimento di righe|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo VbaProject.Protect(bool islockedForViewing,string password).**
 Protegge o rimuove la protezione del progetto VBA.
 ### **Aggiunge la proprietà VbaProject.IsProtected**

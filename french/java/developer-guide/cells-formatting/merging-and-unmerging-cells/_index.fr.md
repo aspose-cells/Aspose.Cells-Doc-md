@@ -32,7 +32,7 @@ Les étapes suivantes décrivent comment fusionner des cellules dans la feuille 
 
 ### **En utilisant Aspose.Cells**
 
- La[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) classe a quelques méthodes utiles pour la tâche. Par exemple, la méthode[**fusionner()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) fusionne les cellules en une seule cellule dans une plage spécifiée de cellules.
+ Le[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) classe a quelques méthodes utiles pour la tâche. Par exemple, la méthode[**fusionner()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) fusionne les cellules en une seule cellule dans une plage spécifiée de cellules.
 
 La sortie suivante est générée après l'exécution du code ci-dessous.
 
@@ -58,7 +58,7 @@ Les étapes suivantes décrivent comment fractionner des cellules fusionnées à
 
 #### **En utilisant Aspose.Cells**
 
- La[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) classe a une méthode nommée[**défusionner()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) qui divise les cellules dans leur état d'origine. La méthode dissocie les cellules à l'aide de la référence de la cellule dans la plage de cellules fusionnées.
+ Le[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) classe a une méthode nommée[**défusionner()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) qui divise les cellules dans leur état d'origine. La méthode dissocie les cellules à l'aide de la référence de la cellule dans la plage de cellules fusionnées.
 
 #### **Exemple de code**
 

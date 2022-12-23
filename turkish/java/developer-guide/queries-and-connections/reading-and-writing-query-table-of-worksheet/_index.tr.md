@@ -15,15 +15,15 @@ Bunların her ikisi de boolean değerlerdir. Bunları Microsoft Excel'de Veri > 
 
 {{% /alert %}} 
 ## **Çalışma Sayfasının Sorgu Tablosunu Okuma ve Yazma**
- Aşağıdaki örnek kod ilkini okur[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)ilk çalışma sayfasının ve ardından her ikisini de yazdırır[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) özellikleri. Sonra ayarlar[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) ile**doğru**.
+ Aşağıdaki örnek kod ilkini okur[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) ilk çalışma sayfasının ve ardından her ikisini de yazdırır[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) özellikler. Sonra ayarlar[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) ile**doğru**.
 
 Aşağıdaki ekran görüntüsü[kaynak excel dosyası](5472578.xlsx) kodda kullanılan ve her ikisini de gösteren özellikleri[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)değerler.
 
-![yapılacaklar:resim_alternatif_Metin](reading-and-writing-query-table-of-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](reading-and-writing-query-table-of-worksheet_1.png)
 
 Aşağıdaki ekran görüntüsü[çıktı excel dosyası](5472574.xlsx) her ikisini de gösteren kod ve özellikleri tarafından oluşturulur.[Sorgu Tablosu](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)değerler. Gördüğünüz gibi Korunmuş Biçimlendirme onay kutusu şimdi işaretli.
 
-![yapılacaklar:resim_alternatif_Metin](reading-and-writing-query-table-of-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](reading-and-writing-query-table-of-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-ReadingAndWritingQueryTable.java" >}}
 ## **Konsol Çıkışı**
@@ -37,6 +37,6 @@ Preserve Formatting: false
 
 {{< /highlight >}}
 ## **Sorgu tablosu sonuç aralığını al**
-Aspose.Cells, bir sorgu tablosu için adresi, yani sonuç hücre aralığını okuma seçeneği sunar. Aşağıdaki kod, bir sorgu tablosu için sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosya indirilebilir[burada](QueryTXT.xlsx).
+Aspose.Cells, bir sorgu tablosu için adresi, yani sonuç hücre aralığını okuma seçeneği sunar. Aşağıdaki kod, bir sorgu tablosu için sonuç aralığının adresini okuyarak bu özelliği gösterir. Örnek dosya indirilebilir[Burada](QueryTXT.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ReadingAndWritingQueryTable-RetrieveQueryTableResultRange.java" >}}

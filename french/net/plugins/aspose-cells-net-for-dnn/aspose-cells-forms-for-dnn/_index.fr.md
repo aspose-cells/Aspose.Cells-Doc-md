@@ -18,7 +18,7 @@ Cette version initiale du module est enrichie des fonctionnalités suivantes pou
 - Ajuster automatiquement les colonnes à la longueur du contenu et appliquer le formatage de la colonne d'en-tête en texte gras
 - Exporter des données vers des documents Excel Microsoft (.xls, .xlsx et .xlsb)
 - Exporter les données vers un document texte délimité par des tabulations (*.txt)
-- Exporter des données vers CSV (délimité par des virgules) (*.csv)
+- Exporter les données vers CSV (délimité par des virgules) (*.csv)
 - Exporter des données vers une feuille de calcul OpenDocument (*.ods)
 - Option pour sélectionner le format de sortie souhaité avant l'exportation.
 - Le document exporté est automatiquement envoyé au navigateur pour téléchargement.
@@ -45,13 +45,13 @@ Vous pouvez télécharger Aspose .NET Dynamic Forms Builder pour le module DNN �
 Une fois téléchargé, veuillez suivre ces étapes pour installer le module sur votre site Web DNN :
 
 1. Connectez-vous à votre site en tant qu'hôte ou en tant que compte de niveau super-utilisateur.
-1.  Naviguez vers le**Héberger** menu et sélectionnez**Rallonges**.
+1.  Naviguez vers le**Hôte** menu et sélectionnez**Rallonges**.
 1.  Cliquez sur**Assistant d'installation d'extension**.
-1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvert**.
-1.  Cliquez sur**Prochain** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Revenir** bouton.
+1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvrir**.
+1.  Cliquez sur**Suivant** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Retour** bouton.
 
  Vérifiez s'il vous plaît[cette vidéo d'installation du module](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) de DNN pour plus de détails.
-## **Utilisant**
+## **En utilisant**
 Après avoir installé le module Aspose .NET Dynamic Forms Builder pour DNN, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer :
 
 1. Assurez-vous que vous êtes connecté à DNN avec un compte de niveau hôte ou administrateur.
@@ -75,8 +75,8 @@ Vous avez ajouté avec succès le module Aspose .NET Générateur de formulaires
 |:- |:- |:- |
 ### **Utilisation du formulaire dynamique (soumettre)**
 1. Remplissez les champs
-1.  Cliquez sur**Soumettre** bouton pour enregistrer les données
-1.  Chaque**Soumettre** un clic sur le bouton enregistrera le nouvel enregistrement dans Excel
+1.  Cliquez sur**Nous faire parvenir** bouton pour enregistrer les données
+1.  Chaque**Nous faire parvenir** un clic sur le bouton enregistrera le nouvel enregistrement dans Excel
 ### **Exporter les données enregistrées**
 1. Assurez-vous que vous êtes connecté et en mode d'édition de page
 1.  Passer la souris**Modifier l'icône** et Cliquez**Exporter en utilisant Aspose.Cells** option disponible dans le menu contextuel du module en haut à droite avec le titre du module

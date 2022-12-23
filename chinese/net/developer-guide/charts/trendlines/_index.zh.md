@@ -13,7 +13,7 @@ url: /zh/net/get-equation-text-of-chart-trendline/
 
 以下屏幕截图显示了带有趋势线的图表，其公式文本显示为红色。我们将使用[**趋势线.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)以下示例代码中的属性。
 
-![待办事项：图像_替代_文本](get-equation-text-of-chart-trendline_1.png)
+![待办事项：图片_替代_文本](get-equation-text-of-chart-trendline_1.png)
 
 ## C# 获取图表趋势线等式文本的代码
 

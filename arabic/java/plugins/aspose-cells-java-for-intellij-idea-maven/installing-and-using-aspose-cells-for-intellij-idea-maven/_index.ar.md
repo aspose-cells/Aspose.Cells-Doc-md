@@ -45,7 +45,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 ![ما يجب القيام به: image_بديل_نص](m1du9a1.jpg)
 
 
- \ 4. توفير**GroupId ، ArtifactId** و**إصدار** لمشروعك maven وانقر**التالي.**
+ \ 4. توفير**GroupId ، ArtifactId** و**الإصدار** لمشروعك maven وانقر**التالي.**
 
 ![ما يجب القيام به: image_بديل_نص](khijrce.jpg)
 
@@ -57,7 +57,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 ![ما يجب القيام به: image_بديل_نص](0gszuiu.jpg)
 
 
- \ 7. انقر**إنهاء**.
+ \ 7. انقر**ينهي**.
  `    ` سيؤدي هذا إلى استرداد ملف[Aspose.Cells for Java API](http://goo.gl/c1eSD2) أحدث مرجع تبعية maven من مستودع Aspose Cloud Maven وقم بتكوينه في pom.xml
  `     ` إذا قمت بتحديد خانة الاختيار "تنزيل رمز المصدر أمثلة أيضًا". سيبدأ تنزيل الأمثلة أيضًا من ملف[Aspose.Cells for Java API مستودع جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples)
 
@@ -103,7 +103,7 @@ url: /ar/java/installing-and-using-aspose-cells-for-intellij-idea-maven/
 ![ما يجب القيام به: image_بديل_نص](bc05c5v.jpg)
 
 
- \ 5. سيؤدي هذا إلى إنشاء / نسخ أمثلة الفئة المحددة في المشروع تحت**com.aspose.cells.examples** حزمة.
+ \ 5. سيؤدي هذا إلى إنشاء / نسخ أمثلة الفئة المحددة في المشروع تحت**com.aspose.cells.examples** صفقة.
  `    ` أيضًا سيتم نسخ أي موارد مطلوبة لتنفيذ الأمثلة إلى**src / main / resources** المجلد - كما هو موضح أدناه:
 
 ![ما يجب القيام به: image_بديل_نص](jyxdo4d.jpg)

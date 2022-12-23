@@ -14,7 +14,7 @@ Um einen Kommentar zu einer Zelle mit Aspose.Cells.GridDesktop hinzuzufügen, f�
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Kommentar** in das Arbeitsblatt, indem Sie die Zelle angeben (unter Verwendung ihres Namens oder ihrer Zeilen- und Spaltennummer), in der der Kommentar hinzugefügt werden soll.
+-  Addieren**Kommentar** in das Arbeitsblatt, indem Sie die Zelle angeben (unter Verwendung ihres Namens oder ihrer Zeilen- und Spaltennummer), in der der Kommentar hinzugefügt werden soll.
 
  Der folgende Code fügt Kommentare zu hinzu**b2** und**b4** Zellen des Arbeitsblatts.
 
@@ -23,15 +23,15 @@ Um einen Kommentar zu einer Zelle mit Aspose.Cells.GridDesktop hinzuzufügen, f�
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AddingComments.cs" >}}
 
 
-**Kommentare** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Hinzufügen** Methode. Entwickler können jede überladene Version von verwenden**Hinzufügen** Methode nach ihren spezifischen Bedürfnissen.
+**Bemerkungen** Sammlung im**Arbeitsblatt** Objekt stellt eine überladene bereit**Addieren** Methode. Entwickler können jede überladene Version von verwenden**Addieren** Methode nach ihren spezifischen Bedürfnissen.
 ## **Zugriff auf Kommentare**
-Um auf einen vorhandenen Kommentar im Arbeitsblatt zuzugreifen und ihn zu ändern, können Entwickler über den Kommentar auf den Kommentar zugreifen**Kommentare** Sammlung der**Arbeitsblatt** indem Sie die Zelle angeben (unter Verwendung des Zellennamens oder ihrer Position in Bezug auf Zeilen- und Spaltennummer), in die der Kommentar eingefügt wird. Sobald auf den Kommentar zugegriffen wird, können Entwickler seinen Text zur Laufzeit ändern.
+Um auf einen vorhandenen Kommentar im Arbeitsblatt zuzugreifen und ihn zu ändern, können Entwickler über den Kommentar auf den Kommentar zugreifen**Bemerkungen** Sammlung der**Arbeitsblatt** indem Sie die Zelle angeben (unter Verwendung des Zellennamens oder ihrer Position in Bezug auf Zeilen- und Spaltennummer), in die der Kommentar eingefügt wird. Sobald auf den Kommentar zugegriffen wird, können Entwickler seinen Text zur Laufzeit ändern.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AccessingComments.cs" >}}
 ## **Kommentare entfernen**
- Um einen vorhandenen Kommentar zu entfernen, können Entwickler einfach auf ein gewünschtes Arbeitsblatt zugreifen und dann**Entfernen** Kommentar von der**Kommentare** Sammlung der**Arbeitsblatt** durch Angabe der Zelle (unter Verwendung ihres Namens oder ihrer Zeilen- und Spaltennummer), die den Kommentar enthält.
+ Um einen vorhandenen Kommentar zu entfernen, können Entwickler einfach auf ein gewünschtes Arbeitsblatt zugreifen und dann**Entfernen** Kommentar von der**Bemerkungen** Sammlung der**Arbeitsblatt** durch Angabe der Zelle (unter Verwendung ihres Namens oder ihrer Zeilen- und Spaltennummer), die den Kommentar enthält.
 
 
 

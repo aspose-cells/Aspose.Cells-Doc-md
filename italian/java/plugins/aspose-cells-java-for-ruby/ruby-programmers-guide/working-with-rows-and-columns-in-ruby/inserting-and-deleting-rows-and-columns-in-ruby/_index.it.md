@@ -224,6 +224,6 @@ end   
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/rowsandcolumns.rb)

@@ -22,27 +22,27 @@ url: /es/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|Ignore las referencias 3D para el formato condicional al copiar a otro libro de trabajo|Mejora|
 |CELLSNET-49984|Lea algunos datos del archivo xls dañado.|Mejora|
 |CELLSNET-49990|Admite la configuración de la fórmula de fila de totales personalizados de la tabla.|Mejora|
-|CELLSNET-49825|Problema de rendimiento con el atributo ExportImagesAsBase64 en la conversión de Excel a HTML|Actuación|
+|CELLSNET-49825|Problema de rendimiento con el atributo ExportImagesAsBase64 en Excel para la conversión HTML|Rendimiento|
 |CELLSNET-49827|RefersTo del rango definido se escapó incorrectamente|Insecto|
 |CELLSNET-49759|Las celdas vacías todavía se exportan como elementos XML vacíos|Insecto|
 |CELLSNET-49817|El texto no está alineado en el centro con la fuente 'Credit Suisse Type Light' mientras se procesa en Emf|Insecto|
-|CELLSNET-49864|Palabras que aparecen en orden inverso para el texto de derecha a izquierda en la representación de XLSX a PDF|Insecto|
+|CELLSNET-49864|Palabras que aparecen en orden inverso para el texto de derecha a izquierda en la representación XLSX a PDF|Insecto|
 |CELLSNET-49873|Xlsx a pdf: el salto de página es diferente en comparación con el pdf generado por Excel|Insecto|
-|CELLSNET-49922|Los caracteres no caben en una página y la posición de impresión cambia en la representación de Excel a PDF|Insecto|
-|CELLSNET-49998|No se puede ver un archivo XLS específico con marcado HTML|Insecto|
+|CELLSNET-49922|Los caracteres no caben en una página y la posición de impresión se cambia en Excel a la representación PDF|Insecto|
+|CELLSNET-49998|No se puede ver el archivo XLS específico con marcado HTML|Insecto|
 |CELLSNET-49742|Diferencias en chart1.xml después de guardar|Insecto|
-|CELLSNET-49875|Marcas de verificación superpuestas de XLSX a EMF|Insecto|
-|CELLSNET-49904|Las fechas del gráfico a PNG no se convirtieron correctamente|Insecto|
+|CELLSNET-49875|XLSX a EMF Marcas de verificación superpuestas|Insecto|
+|CELLSNET-49904|Gráfico a PNG fechas no convertidas correctamente|Insecto|
 |CELLSNET-49905|Regresión: problema al convertir el gráfico a PNG|Insecto|
-|CELLSNET-49969|Error de desbordamiento al guardar un documento XLS en XLSX/XSLM|Insecto|
+|CELLSNET-49969|Error de desbordamiento al guardar el documento XLS en XLSX/XSLM|Insecto|
 |CELLSNET-49760|El área fusionada se muestra incorrectamente al convertir a html.|Insecto|
 |CELLSNET-49789|La cuadrícula original de Excel no debe cambiarse al guardar el archivo html|Insecto|
 |CELLSNET-49850|Imagen: el parámetro FitToCell no funciona en los marcadores inteligentes de imagen|Insecto|
 |CELLSNET-49870|El encabezado se ensancha cuando se combinan varias hojas en hojas de cálculo de Excel|Insecto|
 |CELLSNET-49898|Muestre el borde de las celdas mientras ajusta las imágenes a las celdas usando Marcadores inteligentes|Insecto|
-|CELLSNET-49924|Aspose archivos XLSX generados que se abren con error|Insecto|
+|CELLSNET-49924|Aspose-archivos XLSX generados abriéndose con error|Insecto|
 |CELLSNETCORE-301|Agregar hoja de trabajo falla cuando el hipervínculo tiene una dirección nula|Insecto|
-|CELLSNET-49812|Excepción al abrir un archivo ODS|Excepción|
+|CELLSNET-49812|Excepción al abrir el archivo ODS|Excepción|
 |CELLSNET-49876|Excepción al volver a guardar un archivo XLSX|Excepción|
 |CELLSNET-49943|System.NullReferenceException al copiar Workbook|Excepción|
 |

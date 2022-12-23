@@ -11,7 +11,7 @@ Ce document décrit les modifications apportées au Aspose.Cells API de la versi
 {{% /alert %}} 
 ## **API ajoutées**
 ### **Prise en charge de l'optimisation PDF**
- Les API Aspose.Cells offrent déjà la possibilité de convertir des feuilles de calcul en PDF. Avec cette version du API, les utilisateurs peuvent désormais[optimiser la taille du PDF résultant](/cells/fr/java/save-excel-into-pdf-with-standard-or-minimum-size/)aussi bien. Aspose.Cells for Java 8.7.0 a exposé la propriété PdfSaveOptions.OptimizationType avec l'énumération PdfOptimizationType afin de permettre aux utilisateurs de choisir l'algorithme d'optimisation souhaité lors de l'exportation de feuilles de calcul au format PDF. Il existe 2 valeurs possibles pour la propriété PdfSaveOptions.OptimizationType comme détaillé ci-dessous.
+ Les API Aspose.Cells offrent déjà la possibilité de convertir des feuilles de calcul en PDF. Avec cette version de API, les utilisateurs peuvent désormais[optimiser la taille PDF résultante](/cells/fr/java/save-excel-into-pdf-with-standard-or-minimum-size/)ainsi que. Aspose.Cells for Java 8.7.0 a exposé la propriété PdfSaveOptions.OptimizationType avec l'énumération PdfOptimizationType afin de permettre aux utilisateurs de choisir l'algorithme d'optimisation souhaité lors de l'exportation des feuilles de calcul au format PDF. Il existe 2 valeurs possibles pour la propriété PdfSaveOptions.OptimizationType comme détaillé ci-dessous.
 
 1. PdfOptimizationType.MINIMUM_SIZE : la qualité est compromise pour la taille du fichier résultant.
 1. PdfOptimizationType.STANDARD : la qualité n'est pas compromise, la taille du fichier résultant sera donc importante.
@@ -78,7 +78,7 @@ else
 
 {{< /highlight >}}
 ### **Méthode Protection.verifyPassword ajoutée**
-Aspose.Cells Les API ont amélioré la classe Protection en introduisant la méthode verifyPassword qui permet de spécifier un mot de passe en tant qu'instance de String et[vérifie si le même mot de passe a été utilisé pour protéger la feuille de travail](/cells/fr/java/verify-password-used-to-protect-the-worksheet/). La méthode Protection.verifyPassword renvoie true si le mot de passe spécifié correspond au mot de passe utilisé pour protéger la feuille de calcul donnée, et false si le mot de passe spécifié ne correspond pas. Le morceau de code suivant utilise la méthode Protection.verifyPassword conjointement avec le champ Protection.isProtectedWithPassword pour détecter la protection par mot de passe et vérifie le mot de passe.
+Aspose.Cells Les API ont amélioré la classe Protection en introduisant la méthode verifyPassword qui permet de spécifier un mot de passe en tant qu'instance de String et[vérifie si le même mot de passe a été utilisé pour protéger la feuille de calcul](/cells/fr/java/verify-password-used-to-protect-the-worksheet/). La méthode Protection.verifyPassword renvoie true si le mot de passe spécifié correspond au mot de passe utilisé pour protéger la feuille de calcul donnée, et false si le mot de passe spécifié ne correspond pas. Le morceau de code suivant utilise la méthode Protection.verifyPassword conjointement avec le champ Protection.isProtectedWithPassword pour détecter la protection par mot de passe et vérifie le mot de passe.
 
 Voici le scénario d'utilisation simple.
 
@@ -121,7 +121,7 @@ if (sheet.getProtection().isProtectedWithPassword())
 }
 
 {{< /highlight >}}
-### **Propriété Protection.isProtectedWithPassword ajouté**
+### **Propriété Protection.isProtectedWithPassword ajoutée**
  Cette version de Aspose.Cells for Java a également exposé le champ Protection.isProtectedWithPassword qui peut être utile dans[détecter si une feuille de travail est protégée par un mot de passe ou non](/cells/fr/java/detect-if-worksheet-is-password-protected/).
 
 Voici le scénario d'utilisation simple.
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Propriété TxtLoadOptions.HasFormula ajoutée**
- Aspose.Cells for Java 8.7.0 a fourni un support pour[identifier et analyser les formules lors du chargement de fichiers CSV/TXT ayant des données simples délimitées](/cells/fr/java/load-or-import-csv-file-with-formulas/). La propriété TxtLoadOptions.HasFormula nouvellement exposée, lorsqu'elle est définie sur true, ordonne au API d'analyser les formules du fichier délimité d'entrée et de les définir sur les cellules pertinentes sans nécessiter de traitement supplémentaire.
+ Aspose.Cells for Java 8.7.0 a fourni un support pour[identifier et analyser les formules lors du chargement des fichiers CSV/TXT ayant des données simples délimitées](/cells/fr/java/load-or-import-csv-file-with-formulas/). La propriété TxtLoadOptions.HasFormula nouvellement exposée, lorsqu'elle est définie sur true, ordonne au API d'analyser les formules du fichier délimité d'entrée et de les définir sur les cellules pertinentes sans nécessiter de traitement supplémentaire.
 
 Voici le scénario d'utilisation simple.
 
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Propriété DataLabels.ResizeShapeToFitText ajoutée**
- Une autre fonctionnalité utile que Aspose.Cells for Java 8.7.0 a exposée est la propriété DataLabels.ResizeShapeToFitText qui peut activer le[redimensionner la forme pour l'adapter au texte](/cells/fr/java/resize-chart-s-data-label-shape-to-fit-text/) fonctionnalité de l'application Excel pour les étiquettes de données du graphique.
+ Une autre fonctionnalité utile que Aspose.Cells for Java 8.7.0 a exposée est la propriété DataLabels.ResizeShapeToFitText qui peut activer le[redimensionner la forme pour l'adapter au texte](/cells/fr/java/resize-chart-s-data-label-shape-to-fit-text/)fonctionnalité de l'application Excel pour les étiquettes de données du graphique.
 
 Voici le scénario d'utilisation simple.
 

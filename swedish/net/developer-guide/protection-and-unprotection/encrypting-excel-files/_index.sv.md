@@ -42,7 +42,7 @@ Följande exempel visar hur man krypterar och lösenordsskyddar en excel-fil med
 
 ## **Kryptering/Dekryptering av ODS-fil med Aspose.Cells**
 
-Aspose.Cells gör det möjligt att kryptera och dekryptera ODS-fil. Dekrypterad ODS-fil kan öppnas både i Excel och OpenOffice, dock kan krypterad ODS-fil endast öppnas av OpenOffice efter att ha angett lösenordet. Excel kan inte öppna den krypterade ODS-filen och kan ge ett varningsmeddelande. Krypteringsalternativen är inte tillämpliga för ODS-filer till skillnad från andra filtyper. För att kryptera en ODS-fil, ladda filen och ställ in[**Arbetsbok Inställningar. Lösenord**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) värde till det faktiska lösenordet innan du sparar det. Den utdatakrypterade ODS-filen kan endast öppnas i OpenOffice.
+Aspose.Cells gör det möjligt att kryptera och dekryptera ODS-filen. Dekrypterad ODS-fil kan öppnas både i Excel och OpenOffice, men krypterad ODS-fil kan endast öppnas av OpenOffice efter att ha angett lösenordet. Excel kan inte öppna den krypterade ODS-filen och kan ge ett varningsmeddelande. Krypteringsalternativen är inte tillämpliga för ODS-fil till skillnad från andra filtyper. För att kryptera en ODS-fil, ladda filen och ställ in[**Arbetsbok Inställningar. Lösenord**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) värde till det faktiska lösenordet innan du sparar det. Den utdatakrypterade ODS-filen kan endast öppnas i OpenOffice.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

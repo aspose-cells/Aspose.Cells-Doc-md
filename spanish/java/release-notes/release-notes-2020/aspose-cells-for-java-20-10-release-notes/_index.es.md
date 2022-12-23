@@ -12,11 +12,11 @@ url: /es/java/aspose-cells-for-java-20-10-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-40913|La dirección de la flecha ha cambiado en el PDF resultante|Insecto|
+|CELLSJAVA-40913|La dirección de la flecha ha cambiado en la resultante PDF|Insecto|
 |CELLSJAVA-43282|Refresh pivot no funciona y corrompe el archivo de salida|Insecto|
 |CELLSJAVA-43286|Aspose.Cells entra en conflicto con la configuración de HtmlHiddenRowDisplayType.REMOVE|Insecto|
 |CELLSJAVA-43302|Problema al obtener el valor Cells|Insecto|
-|CELLSJAVA-43308|Conversión de HTML a excel con la propiedad wrapText|Insecto|
+|CELLSJAVA-43308|HTML para conversión de excel con propiedad wrapText|Insecto|
 |CELLSJAVA-43318|Cell problema de valor después de actualizar la tabla dinámica|Insecto|
 |CELLSJAVA-43299|Problema al obtener el valor Cell|Insecto|
 |CELLSJAVA-43284|Gráfico no impreso al usar Aspose.Cells para una impresora física en particular|Insecto|
@@ -24,7 +24,7 @@ url: /es/java/aspose-cells-for-java-20-10-release-notes/
 |CELLSJAVA-43274|Diferencia en el color del contorno de la barra del gráfico|Insecto|
 |CELLSJAVA-43276|Problemas de salto de línea al convertir XLSX a PDF|Insecto|
 |CELLSJAVA-43278|El tachado en Excel no se muestra en el archivo PDF|Insecto|
-|CELLSJAVA-43304|Faltan algunas etiquetas de datos del gráfico en el PDF de salida|Insecto|
+|CELLSJAVA-43304|Faltan algunas etiquetas de datos del gráfico en la salida PDF|Insecto|
 |CELLSJAVA-43311|Las etiquetas del eje X del gráfico son verticales en lugar de diagonales cuando se convierten en imagen|Insecto|
 |CELLSJAVA-40992|Problema con la posición del texto del gráfico al volver a guardar un archivo de Excel|Insecto|
 |CELLSJAVA-43294|El tema de color de formato condicional no funciona correctamente|Insecto|

@@ -10,6 +10,6 @@ Aspose.Cells は*DB番号*カスタム パターンの書式設定。たとえ�
 
 ## **サンプルコード**
 
-次のサンプル コードは、指定方法を示しています。*DB番号*カスタム パターンの書式設定。チェックしてください[PDF出力](43352081.pdf)さらにヘルプが必要です。
+次のサンプル コードは、指定方法を示しています。*DB番号*カスタム パターンの書式設定。チェックしてください[出力 PDF](43352081.pdf)さらにヘルプが必要です。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

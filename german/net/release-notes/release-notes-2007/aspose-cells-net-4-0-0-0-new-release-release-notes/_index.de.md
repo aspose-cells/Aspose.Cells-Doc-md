@@ -19,4 +19,4 @@ url: /de/net/aspose-cells-net-4-0-0-0-new-release-release-notes/
 - Worksheets.SortNames-Methode hinzugefügt, um ein Problem beim Hinzufügen einer großen Menge benannter Bereiche zu lösen.
 - Neue Chart-Demos hinzugefügt
 - Fehler in der Formeleinstellung behoben
-- Fehler beim Speichern von Dateien im CSV-Format im Stream behoben
+- Fehler beim Speichern von Dateien im Format CSV im Stream behoben

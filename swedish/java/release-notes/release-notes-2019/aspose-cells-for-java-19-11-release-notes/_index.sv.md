@@ -20,10 +20,10 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.11.
 |CELLSJAVA-43019|Radiellt diagram renderas inte korrekt till HTML|Insekt|
 |CELLSJAVA-43027|Efter återgivning till PNG är skalningen av axeln annorlunda.|Insekt|
 |CELLSJAVA-42474|Pivottabellen uppdateras inte och är skadad efter uppdatering av källdata|Insekt|
-|CELLSJAVA-43033|Konvertering till PDF tar inte slut.|Insekt|
+|CELLSJAVA-43033|Konverteringen till PDF slutar inte.|Insekt|
 |CELLSJAVA-43034|Ogiltigt ryskt (anpassat) datumformat har hämtats|Insekt|
 |CELLSJAVA-43040|LoadFilter tar inte hänsyn till det obligatoriska arket|Insekt|
-|CELLSJAVA-43035|Gränser går förlorade när Excel-fil konverteras till EMF|Insekt|
+|CELLSJAVA-43035|Gränser försvinner när Excel-fil konverteras till EMF|Insekt|
 |CELLSJAVA-43016|Ogiltigt sidantal från SheetRender|Insekt|
 |CELLSJAVA-43026|Efter att ha renderat diagram till en bild ändrar dataetiketter stil och värdena är inte desamma|Insekt|
 |CELLSJAVA-43038|Hyperlänkar exporteras inte med Cell.setHtmlString()|Insekt|

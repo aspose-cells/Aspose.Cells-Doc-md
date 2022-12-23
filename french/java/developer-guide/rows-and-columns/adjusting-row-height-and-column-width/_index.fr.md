@@ -11,11 +11,11 @@ Lorsque vous travaillez avec des feuilles de calcul et que vous ajoutez des donn
 {{% /alert %}} 
 ## **Travailler avec des lignes**
 ### **Réglage de la hauteur de rangée**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection qui représente toutes les cellules de la feuille de calcul.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection qui représente toutes les cellules de la feuille de calcul.
 
- La[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certains d'entre eux sont discutés ci-dessous plus en détail.
+ Le[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certains d'entre eux sont discutés ci-dessous plus en détail.
 ### **Définition de la hauteur de ligne**
- Il est possible de définir la hauteur d'une seule ligne en appelant le[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\) ) méthode. La[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) prend les paramètres suivants :
+ Il est possible de définir la hauteur d'une seule ligne en appelant le[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\) ) méthode. Le[setRowHeight](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setRowHeight\(int,%20double\)) prend les paramètres suivants :
 
 - **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
 - **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
@@ -29,7 +29,7 @@ Lorsque vous travaillez avec des feuilles de calcul et que vous ajoutez des donn
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-SettingHeightAllRows-SettingHeightAllRows.java" >}}
 ## **Travailler avec des colonnes**
 ### **Définition de la largeur d'une colonne**
- Définissez la largeur d'une colonne en appelant la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\) ) méthode. La[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) prend les paramètres suivants :
+ Définissez la largeur d'une colonne en appelant la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) de la collection[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\) ) méthode. Le[setColumnWidth](https://reference.aspose.com/cells/java/com.aspose.cells/cells#setColumnWidth\(int,%20double\)) prend les paramètres suivants :
 
 - **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
 - **Largeur de colonne**, la largeur de colonne souhaitée.

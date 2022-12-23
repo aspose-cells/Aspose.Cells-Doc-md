@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-17-12-release-notes/
 |:- |:- |:- |
 |CELLSNET-45358|使用流导出到 HTML 时，从 HTML 标记中单独获取 CSS|新功能|
 |CELLSNET-45697|实施 Cell.FormulaLocal 类似于 Microsoft Interop FormulaLocal|新功能|
-|CELLSNET-45801|支持 Excel 中的 Office 插件到 PDF 渲染|新功能|
+|CELLSNET-45801|支持 Excel 中的 Office-Add-Ins 到 PDF 渲染|新功能|
 |CELLSNET-45796|智能标记 - 如果数据太大且无法插入到单个工作表中，如何将数据自动填充到第二个工作表|新功能|
 |CELLSNET-45791|共享工作簿时更新“保留更改历史记录”|新功能|
 |CELLSNET-45746|单元格中的文本与 Aspose.Cells.GridDesktop 上的其他单元格重叠|新功能|
@@ -23,7 +23,7 @@ url: /zh/net/aspose-cells-for-net-17-12-release-notes/
 |CELLSNET-45794|涉及“MEDIAN”的数组公式计算为空白|漏洞|
 |CELLSNET-45779|Cell 转换后的图像中的文本对齐方式发生了变化|漏洞|
 |CELLSNET-45772|将工作表转换为图像时丢失一页|漏洞|
-|CELLSNET-45764|DataBars 的状态在输出 PDF 中不正确|漏洞|
+|CELLSNET-45764|DataBars 的状态在输出中不正确 PDF|漏洞|
 |CELLSNET-45785|系列“Nominale in Essere (mln)”数据标签定位错误|漏洞|
 |CELLSNET-45775|将图表转换为图像时缺少第二个垂直轴标签|漏洞|
 |CELLSNET-45762|Chart.Calculate 花费更多时间且无法正常工作|漏洞|
@@ -79,7 +79,7 @@ LoadDataFilterOptions.None 给出了模棱两可的指示并造成了混乱。�
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
 - [如果数据太大，自动将智能标记数据填充到其他工作表](/cells/zh/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [在输出 HTML 中单独导出工作表 CSS](/cells/zh/net/export-worksheet-css-separately-in-output/)
+- [在输出中单独导出工作表 CSS HTML](/cells/zh/net/export-worksheet-css-separately-in-output/)
 - [实施 Cell.FormulaLocal 类似于 Excel VBA Range.FormulaLocal](/cells/zh/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [使用 HtmlSaveOptions.TableCssId 属性为表元素样式添加前缀](/cells/zh/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [在将 Excel 转换为 Pdf 时呈现 Office 加载项](/cells/zh/net/render-office-add-ins-while-converting-excel-to-pdf/)

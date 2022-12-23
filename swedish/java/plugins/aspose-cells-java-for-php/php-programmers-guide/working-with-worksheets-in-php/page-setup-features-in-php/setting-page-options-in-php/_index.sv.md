@@ -46,7 +46,7 @@ url: /sv/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Skalningsfaktor**
- För att tillämpa skalning med**Aspose.Cells Java for PHP** , ringa upp**skalning** metod av**utskriftsformat** modul.
+ För att tillämpa skalning med hjälp av**Aspose.Cells Java for PHP** , ringa upp**skalning** metod av**utskriftsformat** modul.
 
 **PHP-kod**
 

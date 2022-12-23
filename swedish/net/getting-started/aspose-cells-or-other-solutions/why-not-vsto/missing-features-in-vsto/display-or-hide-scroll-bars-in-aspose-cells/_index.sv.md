@@ -15,13 +15,13 @@ Microsoft Excel tillhandahåller även horisontella och vertikala rullningsliste
 
 {{% /alert %}}
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslister använder du[**Arbetsbok Inställningar**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) klass'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egenskaper.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper endast kan lagras**Sann** eller**falsk** värden.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)som representerar en Excel-fil. De[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera en Excel-fil. För att kontrollera synligheten för rullningslister använder du[**Arbetsbok Inställningar**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) klass'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) egenskaper.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) och[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) är booleska egenskaper, vilket innebär att dessa egenskaper endast kan lagras**Sann** eller**falsk** värden.
 
 Nedan finns en komplett kod som öppnar en Excel-fil, book1.xls, döljer båda rullningslisterna och sedan sparar den ändrade filen som output.xls .
 
 Skärmdumpen nedan visar filen Book1.xls som innehåller båda rullningslisterna. Den modifierade filen sparas som output.xls-fil, även visad nedan.
 
-**Book1.xls: Excel-fil före eventuella ändringar**
+**Book1.xls: Excel-fil före eventuell ändring**
 
 ![todo:image_alt_text](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
@@ -65,6 +65,6 @@ fstream.Close();
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

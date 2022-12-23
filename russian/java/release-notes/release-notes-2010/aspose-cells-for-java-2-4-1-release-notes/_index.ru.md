@@ -10,7 +10,7 @@ url: /ru/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Мы рады сообщить Aspose.Cells for Java v2.4.1!
+Мы рады сообщить Aspose.Cells for Java v2.4.1!
 
  Что изменилось:
 
@@ -38,8 +38,8 @@ url: /ru/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | XLSX| Чтение файла Excel2007|
 |19596 | XL| Cells.getMaxDataColumn()|
 |19641 | XL| Варианты проверки ошибок|
-|19696 | Диаграмма| Сохранить диаграмму для файла excel2003|
-|19822 | Диаграмма|Связанные ячейки для ChartFrames, такие как Title/DataLabels|
+|19696 | Диаграмма|Сохранить диаграмму для файла excel2003|
+|19822 | Диаграмма| Связанные ячейки для ChartFrames, такие как Title/DataLabels|
 |19823 | HTML| Cell бордюры|
 |19832 | Диаграмма2Изображение| Диаграмма WaterFall с использованием диаграммы StackedBar|
 |19894 | XL| Получить размер формы, стиль чтения|

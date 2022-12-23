@@ -13,5 +13,5 @@ url: /ru/cpp/aspose-cells-for-cpp-21-6-release-notes-windows/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSCPP-292| Оптимизируйте результаты поиска в nuget|Улучшение|
-|CELLSCPP-283| Исправить ошибку конструктора ArrayList|Ошибка|
-|CELLSCPP-284|Проблема инициализации PathHelper|Ошибка|
+|CELLSCPP-283|Исправить ошибку конструктора ArrayList|Ошибка|
+|CELLSCPP-284| Проблема инициализации PathHelper|Ошибка|

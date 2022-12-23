@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.10.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42634|Converti la forma del nastro sinistra destra in immagine|Aumento|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - manca il file dell'elenco dei pacchetti|Aumento|
@@ -21,13 +21,13 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.10.
 |CELLSJAVA-42722|La formattazione del testo del collegamento ipertestuale viene persa quando viene impostato un nuovo testo|Insetto|
 |CELLSJAVA-42688|Output formato data russo non valido|Insetto|
 |CELLSJAVA-42721|Problema con i font SheetRender|Insetto|
-|CELLSJAVA-42723|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il rendering di file MS Excel in PDF|Insetto|
+|CELLSJAVA-42723|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il rendering del file MS Excel in PDF|Insetto|
 |CELLSJAVA-42725|Le virgolette appaiono nella formula quando si recupera la formula della cella tramite Aspose.Cells|Insetto|
 |CELLSJAVA-42720|Degrado delle prestazioni quando si utilizza la formattazione condizionale|Insetto|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.WidthScalable**
-Indica se si utilizza l'unità scalabile per descrivere la larghezza della colonna durante l'esportazione del file in HTML. Il valore predefinito è falso.
+Indica se si utilizza l'unità scalabile per descrivere la larghezza della colonna durante l'esportazione del file in HTML. Il valore predefinito è false.
 ### **Aggiunge la proprietà WorkbookDesigner.UpdateEmptyStringAsNull**
 Indica se elaborare il valore della stringa vuota come null.
 ### **Aggiorna il valore restituito del metodo DocumentProperty.ToDateTime(), le proprietà BuiltInDocumentPropertyCollection.CreatedTime, BuiltInDocumentPropertyCollection.LastPrinted e BuiltInDocumentPropertyCollection.LastSavedTime.**

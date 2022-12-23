@@ -12,7 +12,7 @@ url: /ru/java/aspose-cells-for-java-22-9-release-notes/
 
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
-|CELLSJAVA-44194|Форма чертежа не отображается при преобразовании Excel в PDF|
+|CELLSJAVA-44194|Форма чертежа не отображается в Excel для рендеринга PDF|
 |CELLSJAVA-44864|Параллельная загрузка книг вызывает ложные ошибки «Файл поврежден»|
 |CELLSJAVA-44327|Границы и меньшее количество линий, показанные в черно-белых сегментах круговой диаграммы на рендеринге изображения|
 |CELLSJAVA-44591|Поворот текста меток не соответствует Excel в выходном изображении диаграммы|
@@ -20,7 +20,7 @@ url: /ru/java/aspose-cells-for-java-22-9-release-notes/
 |CELLSJAVA-44860|отображение текста ячейки не такое, как в Excel в некоторых объединенных областях|
 |CELLSJAVA-44832|Выводятся несколько страниц вместо одной страницы, как в Excel при конвертации в pdf|
 |CELLSJAVA-44812|Невозможно уменьшить область графика для диаграммы|
-|CELLSJAVA-44831|MS Word выдает сообщение об ошибке «Word обнаружил нечитаемое содержимое в…» при открытии преобразованного файла DOCX из файла XLSX по номеру Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word выдает ошибку «Word обнаружил нечитаемое содержимое в…» при открытии конвертированного файла DOCX из XLSX автором Aspose.Cells for Java|
 |CELLSJAVA-44833|Цвет текста не применяется к разным словам или части содержимого в выходном файле Excel при использовании метода Cell.setHtmlString()|
 |CELLSJAVA-44852| Граница неверна, когда статический файл Excel преобразуется в HTML|
 |CELLSJAVA-44856| Преобразование Excel в HTML — спарклайн (мини-диаграмма) не отображается/не отображается|
@@ -35,7 +35,7 @@ url: /ru/java/aspose-cells-for-java-22-9-release-notes/
 
 Поддержка установки формул для диапазона ячеек для создания таблицы данных с двумя переменными и таблицы данных с одной переменной.
 
-### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, копты CalculationOptions)**
+### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, CalculationOptions copys)**
 
 Поддержка установки формулы динамического массива с настраиваемыми параметрами для расчета, особенно когда есть функции, которым требуется пользовательский движок для расчета в формуле.
 

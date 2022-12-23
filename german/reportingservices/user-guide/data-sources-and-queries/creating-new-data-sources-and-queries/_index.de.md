@@ -29,7 +29,7 @@ Alle Datenquellen und Abfragen werden im Dialogfeld aufgelistet.
 ![todo: Bild_alt_Text](creating-new-data-sources-and-queries_3.png)
 
 1. Wählen Sie den Wurzelknoten des Baums aus.
-1.  Klicken**Hinzufügen**. 
+1.  Klicken**Addieren**. 
 
    **Hinzufügen von Datenquellen und Datensätzen** 
 
@@ -61,7 +61,7 @@ Alle Datenquellen und Abfragen werden im Dialogfeld aufgelistet.
 
 
 1. Geben Sie einen Datenquellennamen ein und wählen Sie SQL Server aus der Dropdown-Liste der Datenbanktreiber aus.
-1.  Klicken**Verbinden**. 
+1.  Klicken**Anschließen**. 
 
    **Erstellen einer neuen Datenquelle** 
 

@@ -16,8 +16,8 @@ url: /tr/java/changing-the-layout-of-pivot-table/
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
- Aşağıdaki örnek kod ilk olarak Pivot Tabloyu gösterir.**Kompakt Form** , ardından içinde Pivot Tabloyu gösterir.**Anahat Formu**ve son olarak, içinde Pivot Tablo'yu gösterir.**Tablo Formu**.
+ Aşağıdaki örnek kod ilk olarak Pivot Tabloyu gösterir.**Kompakt Form** , ardından içinde Pivot Tabloyu gösterir.**Anahat Formu** ve son olarak, içinde Pivot Tablo'yu gösterir.**Tablo Formu**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}

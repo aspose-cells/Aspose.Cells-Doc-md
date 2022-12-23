@@ -17,11 +17,11 @@ Html5 Spreadsheet Editor est une application Web qui peut afficher et modifier d
 
 ![tâche : image_autre_texte](aowcrc1.png)
 
- HTML5 Spreadsheet Editor utilise de nombreuses fonctionnalités de[Aspose.Cells for Java](https://products.aspose.com/cells/java/)et montre comment les utiliser pour créer, manipuler et afficher une feuille de calcul dans votre application Java.
+ HTML5 Spreadsheet Editor utilise de nombreuses fonctionnalités de[Aspose.Cells for Java](https://products.aspose.com/cells/java/) et montre comment les utiliser pour créer, manipuler et afficher une feuille de calcul dans votre application Java.
 
-**Fonctionnalités**
+**Caractéristiques**
 
--  Travailler avec des fichiers
+- Travailler avec des fichiers
  - Formats pris en charge
  - Ouvrir les fichiers locaux
  - Ouvrir depuis Dropbox
@@ -126,7 +126,7 @@ Le processus de construction du projet est géré à l'aide de Maven. Vous pouve
 
 - Téléchargez le code source du projet.
 - Ouvrez le projet dans NetBeans IDE.
--  Cliquez sur***Courir*** bouton de la barre d'outils.
+-  Cliquez sur***Cours*** bouton de la barre d'outils.
 -  Sélectionner***Poisson de verre*** serveur en tant que serveur d'applications.
 
 **Utiliser Éclipse**
@@ -137,7 +137,7 @@ Le processus de construction du projet est géré à l'aide de Maven. Vous pouve
 1. Téléchargez le code source du projet.
 1. Ouvrez le***Importer*** boîte de dialogue du menu Fichier.
 1.  Sélectionner***Maven Projet*** depuis la boîte de dialogue d'importation.
-1.  Cliquez sur***Prochain***.
+1.  Cliquez sur***Suivant***.
 1.  Cliquez sur***Parcourir*** pour sélectionner l'emplacement du code source.
 1.  Sélectionner***pom.xml*** de la liste ci-dessous.
 1.  Cliquez sur***Finir***.
@@ -188,6 +188,6 @@ HTML5 Spreadsheet Editor est un projet open source qui offre un maximum d'option
 
 **Aspose Licence**
 
- Le produit fonctionne sans licence Aspose,[avec des restrictions](/cells/fr/java/licensing/) . Pour supprimer les limitations, vous pouvez acquérir un[licence temporaire gratuite](https://purchase.aspose.com/temporary-license) ou[acheter la licence complète](https://purchase.aspose.com/buy).
+ Le produit fonctionne sans licence Aspose,[avec des limites](/cells/fr/java/licensing/) . Pour supprimer les limitations, vous pouvez acquérir un[licence temporaire gratuite](https://purchase.aspose.com/temporary-license) ou alors[acheter la licence complète](https://purchase.aspose.com/buy).
 
- Par défaut, l'éditeur essaiera de charger**Aspose.Total.Java.lic** fichier de**src/main/resources/com/aspose/spreadsheeteditor** annuaire. Copiez simplement le fichier de licence dans ce répertoire. Le comportement par défaut peut être modifié en modifiant le**AsposeLicence** classer.
+ Par défaut, l'éditeur essaiera de charger**Aspose.Total.Java.lic** fichier de**src/main/resources/com/aspose/spreadsheeteditor** annuaire. Copiez simplement le fichier de licence dans ce répertoire. Le comportement par défaut peut être modifié en modifiant le**AsposeLicence** classe.

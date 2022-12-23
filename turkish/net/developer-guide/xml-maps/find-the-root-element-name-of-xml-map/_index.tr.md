@@ -8,7 +8,7 @@ url: /tr/net/find-the-root-element-name-of-xml-map/
 
  bulabilirsin*Xml Haritasının Kök Eleman Adı*Aspose.Cells'i kullanarak[**XmlMap.RootElementName**](https://reference.aspose.com/cells/net/aspose.cells/xmlmap/properties/rootelementname)Emlak. Aşağıdaki ekran görüntüsü, Microsoft Excel'deki XML Eşlemesinin kök öğe adını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](find-the-root-element-name-of-xml-map_1.png)
+![yapılacaklar:resim_alternatif_metin](find-the-root-element-name-of-xml-map_1.png)
 
 ## **Basit kod**
 

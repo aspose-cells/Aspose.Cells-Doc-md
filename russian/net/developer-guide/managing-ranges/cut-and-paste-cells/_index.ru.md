@@ -8,7 +8,7 @@ url: /ru/net/cut-and-paste-cells/
 
 Aspose.Cells предоставляет вам возможность вырезать и вставлять ячейки на листе с помощью[**ВставитьCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) метод[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) коллекция.[**ВставитьCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)принимает следующие параметры.
 
-- [**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range)Диапазон ячеек, которые нужно вырезать.
+- [**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range)Диапазон ячеек, которые нужно вырезать.
 - Индекс строки: индекс строки для вставки ячеек.
 - Индекс столбца: индекс столбца для вставки ячеек.
 - [**ShiftType**](https://reference.aspose.com/cells/net/aspose.cells/shifttype): Направление сдвига столбцов.

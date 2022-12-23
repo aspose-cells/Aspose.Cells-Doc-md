@@ -7,7 +7,7 @@ keywords: nodejs, excel, instal
 description: installation Aspose.Cells for Node.js via Java och installationsriktlinjer
 ---
 ## **Systemkrav**
- Aspose.Cells for Node.js via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java) bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
+ Aspose.Cells for Node.js via Java är plattformsoberoende API och kan användas på vilken plattform som helst (Windows, Linux och MacOS) där[Node.js](https://nodejs.org/en/download/) och[nod-java](https://github.com/joeferner/node-java)bro installeras. Maskinen måste ha Oracle JDK 7 eller senare versioner innan installationen ställs in.
 ## **Installera från NPM**
  Du kan enkelt använda Aspose.Cells for Node.js via Java från[NPM](https://www.npmjs.com/package/aspose.cells) med följande kommando.
 {{< highlight "java" >}}
@@ -84,7 +84,7 @@ console.log("hello world");
 {{< /highlight >}}
 
 - Ladda ner "Aspose.Cells for Node.js via Java" och extrahera det till "aspose.cells.js.java/node_modules".
--  Skapa en fil med namnet**hej.js**mappen "aspose.cells.js.java" med följande exempelkod:
+-  Skapa en fil med namnet**hej.js**i mappen "aspose.cells.js.java" med följande exempelkod:
 
 {{< highlight "java" >}}
 

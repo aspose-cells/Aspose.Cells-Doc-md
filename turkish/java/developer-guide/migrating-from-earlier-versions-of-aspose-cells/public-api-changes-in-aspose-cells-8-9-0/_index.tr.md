@@ -11,11 +11,11 @@ Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.8.3 sürü
 {{% /alert %}} 
 ## **Eklenen API'ler**
 ### **HtmlSaveOptions.DefaultFontName Özelliği eklendi**
-Aspose.Cells for Java 8.9.0, HtmlSaveOptions sınıfı için elektronik tabloları HTML biçiminde işlerken varsayılan yazı tipi adını belirtmeye izin veren DefaultFontName özelliğini kullanıma sundu. Varsayılan yazı tipi, yalnızca stil yazı tipi olmadığında kullanılacaktır. HtmlSaveOptions.DefaultFontName özelliğinin varsayılan değeri boştur, yani Aspose.Cells for Java API, orijinal yazı tipiyle aynı aileye sahip evrensel yazı tipini kullanır.
+Aspose.Cells for Java 8.9.0, elektronik tabloları HTML biçiminde işlerken varsayılan yazı tipi adını belirtmeye izin veren HtmlSaveOptions sınıfı için DefaultFontName özelliğini kullanıma sundu. Varsayılan yazı tipi, yalnızca stil yazı tipi olmadığında kullanılacaktır. HtmlSaveOptions.DefaultFontName özelliğinin varsayılan değeri boştur, yani Aspose.Cells for Java API orijinal yazı tipiyle aynı aileye sahip evrensel yazı tipini kullanır.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[E-tabloları HTML Biçiminde İşleme İçin Varsayılan Yazı Tipini Ayarlama](/cells/tr/java/set-default-font-while-rendering-spreadsheet-to/).
+ Bu özellikle ilgili daha fazla ayrıntı için lütfen şu makaleyi inceleyin:[Elektronik Tabloları Oluşturmak için Varsayılan Yazı Tipini HTML Biçimine Ayarlama](/cells/tr/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **ImageOrPrintOptions.DefaultFont Özelliği Eklendi**
-Aspose.Cells for Java 8.9.0, DefaultFont özelliğini göstererek ImageOrPrintOptions sınıfı için varsayılan yazı tipi adının ayarlanmasına izin verir. Söz konusu özellik, elektronik tablodaki Unicode karakterler hücre stilinde doğru yazı tipiyle ayarlanmadığında kullanılabilir, bu nedenle bu tür karakterler elde edilen görüntülerde bloklar olarak görünebilir.
+ Aspose.Cells for Java 8.9.0, DefaultFont özelliğini göstererek ImageOrPrintOptions sınıfı için varsayılan yazı tipi adının ayarlanmasına izin verir. Söz konusu özellik, elektronik tablodaki Unicode karakterler hücre stilinde doğru yazı tipiyle ayarlanmadığında kullanılabilir, bu nedenle bu tür karakterler elde edilen görüntülerde bloklar olarak görünebilir.
 
 {{% alert color="primary" %}} 
 

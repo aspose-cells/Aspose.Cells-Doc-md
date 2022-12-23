@@ -3,6 +3,7 @@ title: Çalışma Sayfalarını ve Sekmeleri Göster ve Gizle
 type: docs
 weight: 10
 url: /tr/net/show-and-hide-worksheets-and-tabs/
+description: Bu makale, bir Excel çalışma sayfasını programlı olarak görüntülemek ve gizlemek için C# API veya .NET Kitaplığı'nı kullanmaya yönelik örnek kod sağlar. Ek olarak, Excel çalışma kitabı sekmelerinin nasıl gösterileceği ve gizleneceği.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +17,7 @@ Aspose.Cells, kullanıcının çalışma sayfaları ve sekmeler dahil olmak üze
 
  Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bir çalışma sayfasının görünürlüğünü kontrol etmek için[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) mülkiyeti[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış** değer.
+ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Bir çalışma sayfasının görünürlüğünü kontrol etmek için[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) mülkiyeti[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf.[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ** değer.
 
 ### **Bir Çalışma Sayfasını Görünür Hale Getirme**
 
@@ -24,7 +25,7 @@ Aspose.Cells, kullanıcının çalışma sayfaları ve sekmeler dahil olmak üze
 
 ### **Bir Çalışma Sayfasını Gizleme**
 
- ayarlayarak bir çalışma sayfasını gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) mülkiyet**yanlış**.
+ayarlayarak bir çalışma sayfasını gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Görünür**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) mülkiyet**YANLIŞ**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
 
@@ -39,7 +40,7 @@ Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Söz 
 
 Geliştiriciler, Aspose.Cells'i kullanarak Excel dosyalarındaki sayfa sekmelerinin ve sekme kaydırma düğmelerinin görünürlüğünü kontrol edebilir.
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Geliştiriciler, bir Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) Emlak.[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış** değer.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, bir Excel dosyasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Geliştiriciler, bir Excel dosyasındaki sekmelerin görünürlüğünü kontrol etmek için[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf'[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) Emlak.[**WorkbookSettings.ShowTabs**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/showtabs) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ** değer.
 
 ### **Sekmeleri Görünür Hale Getirmek**
 

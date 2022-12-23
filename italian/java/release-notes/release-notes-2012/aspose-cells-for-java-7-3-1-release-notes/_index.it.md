@@ -11,7 +11,7 @@ url: /it/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Noi siamo
-felice di annunciare Aspose.Cells for Java v7.3.1 per gli utenti!
+ felice di annunciare Aspose.Cells for Java v7.3.1 per gli utenti!
 
  Nuove caratteristiche
 
@@ -29,21 +29,21 @@ felice di annunciare Aspose.Cells for Java v7.3.1 per gli utenti!
  (Nota:
 
 Tutti i biglietti di cui sopra
-sono originariamente aggiunti per conto degli utenti .NET. Poiché la nostra versione Java di
-il prodotto è ugualmente abbinato (per quanto riguarda funzionalità e miglioramenti) con .NET
+sono originariamente aggiunti per conto degli utenti .NET. Dalla nostra versione Java di
+il prodotto è ugualmente abbinato (per quanto riguarda caratteristiche e miglioramenti) con .NET
 ora, quindi abbiamo incorporato queste nuove funzionalità/miglioramenti nella versione Java
  anche del prodotto.
 ) 
 
  Miglioramenti
 
--I file di font temporanei vengono creati più di una volta durante il salvataggio in PDF
+ -I file di font temporanei vengono creati più di una volta durante il salvataggio in PDF
 
  -La data nell'intestazione/piè di pagina non è stata formattata in base alle impostazioni locali della cartella di lavoro
 
 - Supporto nuova opzione: Aspose.Cells.Disable=SunFontManager invece di java.awt.headless per il crash JVM di Open JDK
 
- -Esporta forme automatiche per file HTML
+ -Esporta forme automatiche per il file HTML
 
  Eccezioni
 
@@ -61,16 +61,16 @@ ora, quindi abbiamo incorporato queste nuove funzionalità/miglioramenti nella v
 
  -Testo sovrapposto e linee della griglia mancanti per il salvataggio di PDF
 
- -I bordi extra sono stati mostrati durante il nuovo salvataggio
+-I bordi extra sono stati mostrati durante il nuovo salvataggio
 
  file modello come file XLS
 
  -La lettura del nome con riferimento "!$A$1" ha causato un'eccezione
 
- -La generazione del PDF non è riuscita con i dati del grafico specifico
+ -PDF generazione non riuscita con i dati del grafico specifico
 
  -Le formule non sono corrette dopo aver inserito l'intervallo
 
  -Il PDF generato dalla cartella di lavoro di Excel aveva un numero maggiore di pagine
 
--Le etichette dei grafici sono diventate disallineate e sovrapposte durante la copia del foglio di lavoro
+ -Le etichette dei grafici sono diventate disallineate e sovrapposte durante la copia del foglio di lavoro

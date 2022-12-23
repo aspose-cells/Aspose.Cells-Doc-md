@@ -23,41 +23,41 @@ url: /sv/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45138|PrintArea lyckas inte omvandla bilder korrekt|Insekt|
 |CELLSNET-45136|Rutor roteras när Excel konverteras till PDF|Insekt|
 |CELLSNET-45182|Det resulterande kalkylbladet kan inte laddas i Excel utan reparation|Insekt|
-|CELLSNET-45143|Aspose.Cells producerar skadad pivottabell med rapportfilter när den sparas i XLSB|Insekt|
-|CELLSNET-45135|Bilder överlappar när HTML importeras som XLSX|Insekt|
-|CELLSNET-45134|Kolumnbredder går förlorade när HTML importeras som XLSX|Insekt|
-|CELLSNET-45133|Innehållsstil går förlorad när HTML importeras som XLSX|Insekt|
+|CELLSNET-45143|Aspose.Cells producerar skadad pivottabell med rapportfilter när den sparas till XLSB|Insekt|
+|CELLSNET-45135|Bilder överlappar vid import av HTML som XLSX|Insekt|
+|CELLSNET-45134|Kolumnbredder går förlorade vid import av HTML som XLSX|Insekt|
+|CELLSNET-45133|Innehållsstil försvinner vid import av HTML som XLSX|Insekt|
 |CELLSNET-45132|WrapText aktiverad i HTML går förlorad när den sparas i XLSX-format|Insekt|
 |CELLSNET-45127|Teckensnittsstil och storlek ändras efter import av HTML som XLSX|Insekt|
 |CELLSNET-45115|Uppdatering av pivottabellen efter att ha lagt till några data genererar en korrupt Excel-fil|Insekt|
 |CELLSNET-45109|Fel i uppdateringen av pivottabellen grupperad efter kolumnen Datum|Insekt|
 |CELLSNET-45081|Pivottabellens funktion för sammanfogning av etiketter fungerar inte|Insekt|
-|CELLSNET-45076|Justering fungerar inte och text går ut ur cellen i Excel till HTML-konvertering|Insekt|
-|CELLSNET-45057|Konvertering av HTML till XLSX är inte korrekt|Insekt|
-|CELLSNET-45040|Vissa pivotfältsobjekt renderas som datumvärden istället för siffror|Insekt|
+|CELLSNET-45076|Justering fungerar inte och text går ut ur cellen i Excel till HTML konvertering|Insekt|
+|CELLSNET-45057|Konverteringen av HTML till XLSX är inte korrekt|Insekt|
+|CELLSNET-45040|Vissa pivotfältsobjekt renderas som datumvärden istället för Numbers|Insekt|
 |CELLSNET-40265|Problem med kultur av indatafiler|Insekt|
 |CELLSNET-45142|Problem med VLOOKUP-funktionen när extern räckvidd används|Insekt|
 |CELLSNET-45150|Omöjligt att expandera eller komprimera de sista raderna i kalkylbladet|Insekt|
 |CELLSNET-45139|Personsökning fungerar inte med två GridWebs på en sida|Insekt|
 |CELLSNET-45137|Grupperade rader eller kolumner har problem i GridWeb när det körs på Internet Explorer 11|Insekt|
-|CELLSNET-45203|Tecken överlappar varandra när en Excel-fil renderas till PDF|Insekt|
-|CELLSNET-45196|Utskriften är förvanskad i exporterad XPS|Insekt|
+|CELLSNET-45203|Tecken överlappar när en Excel-fil renderas till PDF|Insekt|
+|CELLSNET-45196|Utskriften är förvanskad i exporterade XPS|Insekt|
 |CELLSNET-45187|Taggar bör vara i stigande ordning enligt TrueType-specifikationen|Insekt|
 |CELLSNET-45169|Varning: Maximal storlek för region är 262144 byte, på SheetRender.ToImage på Mono|Insekt|
 |CELLSNET-45167|SheetRender.ToImage gör innehållet förvrängt och ofullständigt på Mono|Insekt|
 |CELLSNET-45166|SheetRender.ToImage återger endast sidhuvudet och sidfoten på Mono|Insekt|
-|CELLSNET-43732|Återgivning till EMF och inklistring i Word orsakar att text överlappar i resulterande PDF|Insekt|
-|CELLSNET-45186|Ytdiagram visas inte vid PDF-export|Insekt|
+|CELLSNET-43732|Att rendera till EMF och klistra in i Word gör att text överlappar i resulterande PDF|Insekt|
+|CELLSNET-45186|Ytdiagram visas inte på PDF export|Insekt|
 |CELLSNET-45178|Axeletiketter beskärs medan diagram renderas till bild|Insekt|
 |CELLSNET-45177|Axeletiketter saknas vid rendering av diagram till bild - II|Insekt|
 |CELLSNET-45151|Diagram förlorar all formatering när kalkylbladet renderas till PDF|Insekt|
 |CELLSNET-45147|Diagram saknas vid rendering av kalkylark till PDF|Insekt|
 |CELLSNET-44998|Diagrammets dataetiketter ändras efter konvertering av kalkylblad till PDF|Insekt|
-|CELLSNET-44984|Trendlinjen i det andra diagrammet återges inte korrekt i utdata-PDF-filen|Insekt|
-|CELLSNET-41539|Grön ellips ordkonst/bild är felaktigt återgiven runt diagrammet i PDF:en|Insekt|
+|CELLSNET-44984|Trendlinjen i det andra diagrammet återges inte korrekt i utgången PDF|Insekt|
+|CELLSNET-41539|Grön ellips ordkonst/bild är felaktigt återgiven runt diagrammet i PDF|Insekt|
 |CELLSNET-45197|Range.MoveTo flyttar inte datavalidering och villkorlig formatering|Insekt|
 |CELLSNET-45183|Attributet "Locked" för ActiveX-kontrollen (ComboBox) ändras inte|Insekt|
-|CELLSNET-45179|Att ställa in CodeName på XLSX-filen fungerar inte bra|Buggar|
+|CELLSNET-45179|Att ställa in CodeName på filen XLSX fungerar inte bra|Buggar|
 |CELLSNET-45175|Bildformatering fungerar inte för XLSX-filer|Insekt|
 |CELLSNET-45174|Print_Area-intervallet bröts efter DeleteRange|Insekt|
 |CELLSNET-45173|XLSX-filen är skadad efter att ha sparats|Insekt|
@@ -67,7 +67,7 @@ url: /sv/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45154|Att flytta intervallet uppdaterar inte referenserna på ett annat blad|Insekt|
 |CELLSNET-45145|Kan inte ta bort CameraTool-objekt|Insekt|
 |CELLSNET-45060|Buttons teckensnittsinställningar ändrades efter enkel laddning och lagring|Insekt|
-|CELLSNET-43722|Filfel: data kan ha gått förlorade, kastade av Excel när du öppnade XLS|Insekt|
+|CELLSNET-43722|Filfel: data kan ha gått förlorade, kastade av Excel när XLS öppnades|Insekt|
 |CELLSNET-45190|Undantag inträffade vid beräkning av formeln WORKDAY|Undantag|
 |CELLSNET-45199|Excel till PDF - Undantag för index utanför array|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**
@@ -84,7 +84,7 @@ Med den senaste versionen 17.3.0 eller senare kan utvecklare anpassa globaliseri
 1. **Lägger till metoden GlobalizationSettings.GetEmptyDataName().** - Den får namnet "(tom)"-etikett i pivottabellen.
 1. **Lägger till metoden GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType)** - Den får namnet på typen "PivotFieldSubtotalType" i pivottabellen.
 
-Detta kodexempel utvecklar hur man anpassar globaliseringsinställningarna för en pivottabell. Den skapar en klass CustomPivotTableGlobalizationSettings härledd från en basklass GlobalizationSettings och åsidosätter alla nödvändiga metoder. Dessa metoder returnerar den anpassade texten för Pivot Summa, Sub Summa, Totalsumma, Alla artiklar, Flera artiklar, Kolumnetiketter, Radetiketter, Tomma värden. Sedan tilldelar den objektet för den här klassen till egenskapen Workbook.GlobalizationSettings. Koden laddar källexcel-filen som innehåller pivottabellen, uppdaterar och beräknar dess data och sparar den som en utdata-PDF-fil. Utvecklare kan också spara arbetsboken i valfritt format som stöds.
+Detta kodexempel utvecklar hur man anpassar globaliseringsinställningarna för en pivottabell. Den skapar en klass CustomPivotTableGlobalizationSettings härledd från en basklass GlobalizationSettings och åsidosätter alla nödvändiga metoder. Dessa metoder returnerar den anpassade texten för Pivot Summa, Sub Summa, Totalsumma, Alla artiklar, Flera artiklar, Kolumnetiketter, Radetiketter, Tomma värden. Sedan tilldelar den objektet för den här klassen till egenskapen Workbook.GlobalizationSettings. Koden laddar källexcelfilen som innehåller pivottabellen, uppdaterar och beräknar dess data och sparar den som en utdatafil PDF. Utvecklare kan också spara arbetsboken i valfritt format som stöds.
 
 **.NET, C#**
 

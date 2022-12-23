@@ -19,7 +19,7 @@ Aspose.Cells for SharePoint unterstützt die folgenden Eingabeformate:
 - XLSM, XLTX, XLTM – Office Open XML
 - CSV – Arbeitsblattdokument für kommagetrennte Werte
 - ODS – OpenDocument
-- XML – Microsoft Excel-TabellenkalkulationML
+- XML – Microsoft Excel SpreadsheetML
 
  Um Dokumente zu generieren, setzt Aspose.Cells for SharePoint auf eine eingebaute Version von[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)die marktführende Komponente zur Tabellenkalkulation von Aspose. Microsoft Excel wird nicht zum Generieren von Dokumenten verwendet.
 
@@ -27,12 +27,12 @@ Aspose.Cells for SharePoint unterstützt die folgenden Eingabeformate:
 
 Die vollständige Liste der von Aspose.Cells for SharePoint unterstützten Ausgabeformate lautet:
 
-- PDF – Portables Dokument von Adobe
+- PDF – Adobe Portable Document
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
 - XLSM – Office Open XML für Makros aktiviert
-- TXT – Einfacher Text
-- XML – Microsoft Excel-TabellenkalkulationML
+- TXT – Klartext
+- XML – Microsoft Excel SpreadsheetML
 - ODS – OpenDocument
 - CSV – Kommagetrennte Werte
 - XLSB – Microsoft Excel-Binärdatei 2007

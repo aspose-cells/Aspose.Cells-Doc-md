@@ -69,5 +69,5 @@ Aspose.Cells はクラスを提供し、[**ワークブック**](https://referen
 - [ページ設定機能](/cells/ja/java/page-setup-features/)
 - [ワークシートの空白の列と行を削除しながら、他のワークシートの参照を更新する](/cells/ja/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
 - [Aspose.Cells を使用して OpenXml の Sheet.SheetId プロパティを利用する](/cells/ja/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [ODS ファイルで背景を操作する](/cells/ja/java/working-with-background-in-ods-files/)
+- [ODS ファイルの背景の操作](/cells/ja/java/working-with-background-in-ods-files/)
 - [ワークシート ビュー](/cells/ja/java/worksheet-views/)

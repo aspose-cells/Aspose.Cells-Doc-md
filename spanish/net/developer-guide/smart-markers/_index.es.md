@@ -112,7 +112,7 @@ subtotalN:Ref donde Ref se refiere al grupo por columna.
 
 Por ejemplo,
 
--  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**Productos** mesa.
+-  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**productos** mesa.
 -  &=Tabx.Col3(subtotal9:Tabx.Col1) especifica la función de resumen en el**Col3** grupo de campo por**Col1** en la mesa**Tabx**.
 -  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) especifica la función de resumen en**columnaD** grupo de campo por**columnaA** y**columnaB** en la mesa**Tabla 1**.
 
@@ -190,8 +190,8 @@ Aspose.Cells ahora también admite el uso de una lista genérica como un objeto 
 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
-## **Uso de la propiedad HTML de marcadores inteligentes**
- El siguiente código de ejemplo explica el uso de la propiedad HTML de los marcadores inteligentes. Cuando se procese, mostrará "Mundo" en "Hello World" en negrita debido a HTML<b>etiqueta.
+## **Usando la propiedad HTML de Smart Markers**
+ El siguiente código de ejemplo explica el uso de la propiedad HTML de los marcadores inteligentes. Cuando se procese, mostrará "Mundo" en "Hello World" en negrita debido a HTML<b> etiqueta.
 
 
 

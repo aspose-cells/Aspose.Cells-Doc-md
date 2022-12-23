@@ -16,6 +16,6 @@ Den här sidan innehåller releasenotes för [ Aspose.Cells for Java 7.4.3|https
 
  40367 - Utskrift av Excel med bildproblem
 
- 40474 - Kan inte kopiera cellformatering
+40474 - Kan inte kopiera cellformatering
 
  40480 - Problem med COUNTA och INDIREKTA formler

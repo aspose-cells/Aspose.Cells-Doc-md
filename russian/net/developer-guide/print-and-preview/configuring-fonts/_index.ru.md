@@ -6,7 +6,7 @@ url: /ru/net/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Возможные сценарии использования**
 
-Aspose.Cells API-интерфейсы позволяют отображать электронные таблицы в форматах изображений, а также преобразовывать их в форматы PDF и XPS. Чтобы максимизировать точность преобразования, необходимо, чтобы шрифты, используемые в электронной таблице, были доступны в каталоге шрифтов операционной системы по умолчанию. Если необходимые шрифты отсутствуют, API-интерфейсы Aspose.Cells попытаются заменить требуемые шрифты доступными.
+API-интерфейсы Aspose.Cells позволяют отображать электронные таблицы в форматах изображений, а также преобразовывать их в форматы PDF и XPS. Чтобы максимизировать точность преобразования, необходимо, чтобы шрифты, используемые в электронной таблице, были доступны в каталоге шрифтов операционной системы по умолчанию. Если необходимые шрифты отсутствуют, API-интерфейсы Aspose.Cells попытаются заменить требуемые шрифты доступными.
 
 ## **Выбор шрифтов**
 
@@ -29,7 +29,7 @@ Aspose.Cells API-интерфейсы позволяют отображать э
 
 {{% alert color="primary" %}}
 
- Оба**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** методы принимают второй параметр логического типа. Прохождение**истинный** поскольку второй параметр будет указывать API Aspose.Cells для поиска файлов шрифтов во вложенных папках.
+ Обе**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** методы принимают второй параметр логического типа. Прохождение**истинный** поскольку второй параметр будет указывать API Aspose.Cells для поиска файлов шрифтов во вложенных папках.
 
 {{% /alert %}}
 

@@ -9,6 +9,6 @@ När Microsoft Excel 2002 eller Microsoft Excel 2000 laddar Aspose.Cells.Reporti
 ##### **Lösning**
 {{% alert color="primary" %}} 
 
- Installera**lockbackRegKey.msi**Detta åtgärdar CLR-problemet på Office-maskiner som är äldre än Office 2003.
+ Installera**lockbackRegKey.msi**. Detta åtgärdar CLR-problemet på Office-maskiner som är äldre än Office 2003.
 
 {{% /alert %}}

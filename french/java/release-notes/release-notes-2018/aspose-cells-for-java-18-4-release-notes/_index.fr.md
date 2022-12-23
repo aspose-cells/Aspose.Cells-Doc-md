@@ -10,19 +10,19 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.4.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Utiliser la version conforme FIPS de Bouncy Castle dans les API Aspose.Cells|Nouvelle fonctionnalité|
 |CELLSJAVA-42572|La formule ne doit pas contenir plus de 8192 caractères|Renforcement|
-|CELLSJAVA-42569|Impossible d'accéder aux éléments d'étiquettes de l'axe des catégories horizontales du graphique dans XLS|Renforcement|
+|CELLSJAVA-42569|Impossible d'accéder aux éléments des étiquettes de l'axe des catégories horizontales du graphique dans XLS|Renforcement|
 |CELLSJAVA-42580|Obtenir/définir la propriété du document Language|Renforcement|
 |CELLSJAVA-42565|Couleur de premier plan vs couleur d'arrière-plan vs couleur de remplissage - Utilisez une seule méthode qui prend deux arguments|Renforcement|
 |CELLSJAVA-42528|"<Font>" n'est pas une balise HTML5 valide et à fermeture automatique, et les navigateurs Web déforment son contenu|Renforcement|
 |CELLSJAVA-42413|Insérer le type d'image SVG dans les cellules de la feuille de calcul par Aspose.Cells|Renforcement|
-|CELLSJAVA-42551|Certaines formes ne sont pas correctes dans le PDF de sortie|Punaise|
-|CELLSJAVA-42578|La mise en forme conditionnelle est perdue lors de l'enregistrement d'Excel au format HTML|Punaise|
-|CELLSJAVA-42571|Le HTML de sortie ne correspond pas à MS-Excel|Punaise|
-|CELLSJAVA-42553|Les liens vers la zone nommée sont erronés après l'exportation au format HTML|Punaise|
+|CELLSJAVA-42551|Certaines formes ne sont pas correctes dans la sortie PDF|Punaise|
+|CELLSJAVA-42578|La mise en forme conditionnelle est perdue lors de l'enregistrement d'Excel sous HTML|Punaise|
+|CELLSJAVA-42571|La sortie HTML ne correspond pas à MS-Excel|Punaise|
+|CELLSJAVA-42553|Les liens vers la zone nommée sont erronés après l'exportation vers HTML|Punaise|
 |CELLSJAVA-42530|Les tableaux croisés dynamiques et les graphiques correspondants n'ont pas le format de date correct|Punaise|
 |CELLSJAVA-42527|Le graphique comporte de nombreuses valeurs sur l'axe des x et les valeurs se chevauchent|Punaise|
 |CELLSJAVA-42581|Aspose.Cells renvoie la mauvaise valeur de la cellule A2|Punaise|
@@ -39,7 +39,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 #### **Ajoute un nouvel élément "CrossHideRight" pour l'énumération HtmlCrossType**
 Affiche la chaîne croisée HTML et masque la chaîne de droite lorsque le texte se chevauche.
 #### **Ajoute un nouvel élément "TSV" pour les énumérations LoadFormat, SaveFormat et FileFormatType**
-Représente un fichier TSV (valeurs séparées par des tabulations), identique à "TabDelimited".
+Représente un fichier TSV (valeurs séparées par des tabulations), identique au fichier "TabDelimited".
 #### **Ajoute enum ImageType**
 Représente le type de l'image.
 #### **Ajoute les propriétés MsoTextFrame.RotateTextWithShape et ShapeTextAlignment.RotateTextWithShape**

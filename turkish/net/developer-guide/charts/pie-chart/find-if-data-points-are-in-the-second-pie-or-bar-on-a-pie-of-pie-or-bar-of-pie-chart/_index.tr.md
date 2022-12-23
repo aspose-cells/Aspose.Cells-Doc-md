@@ -15,7 +15,7 @@ url: /tr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
 ## **Konsol Çıkışı**
- Lütfen yukarıdaki örnek kodun aşağıdaki kodla yürütülmesinden sonra oluşturulan aşağıdaki konsol çıktısına bakın:[örnek excel dosyası](5115193.xlsx) . Eğer[İkincil Arsa İçinde](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) dır-dir**yanlış** , veri noktası Pastanın içindeyse veya**doğru**, ardından veri noktası Çubuğun içindedir.
+ Lütfen yukarıdaki örnek kodun aşağıdaki kodla yürütülmesinden sonra oluşturulan aşağıdaki konsol çıktısına bakın:[örnek excel dosyası](5115193.xlsx) . Eğer[İkincil Arsa İçinde](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) dır-dir**YANLIŞ** , veri noktası Pastanın içindeyse veya**doğru**, ardından veri noktası Çubuğun içindedir.
 
 
 

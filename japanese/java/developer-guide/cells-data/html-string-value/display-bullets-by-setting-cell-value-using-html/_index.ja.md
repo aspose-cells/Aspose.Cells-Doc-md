@@ -1,18 +1,18 @@
 ﻿---
-title: HTMLでCell値を設定して箇条書き表示
+title: Cell を設定して箇条書きを表示する HTML を使用する値
 type: docs
 weight: 120
 url: /ja/java/display-bullets-by-setting-cell-value-using/
-description: HTML および Aspose.Cells for Java API を使用して Excel Cells に箇条書きを追加する方法について説明します。
+description: HTML および Aspose.Cells for Java API を使用して、Excel Cells に箇条書きを追加する方法について説明します。
 keywords: add bullets in excel, add bullets in excel java, display bullets in excel, display bullets in excel java, add bullets in excel with html, add bullets in excel with html java, display bullets in excel with html, display bullets in excel with html java, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells は、HTML コードでの箇条書きの表示をサポートするようになりました。この記事では、HTML を使用してセルの値を設定して箇条書きを表示する方法について説明します。我々は使用するだろう[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) HTML でセル値を設定するプロパティ。
+ Aspose.Cells は、HTML コードの箇条書きの表示をサポートするようになりました。この記事では、HTML を使用してセル値を設定して箇条書きを表示する方法を説明します。[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) HTML でセル値を設定するプロパティ。
 
 {{% /alert %}}
 
-## **HTMLでCell値を設定して箇条書き表示**
+## **Cell を設定して箇条書きを表示する HTML を使用する値**
 
 次のコードは、HTML コードを使用してセル値を設定します。このコードを実行すると、下の画像に示すような出力が得られます。
 

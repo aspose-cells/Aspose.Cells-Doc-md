@@ -7,7 +7,7 @@ url: /fr/java/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
- Cet article explique comment créer un graphique à secteurs avec des lignes de repère à partir de zéro tout en utilisant Aspose.Cells for Java API. Dans Excel, l'option "Afficher les lignes de repère" est définie par défaut. Ainsi, lorsque vous créez un graphique à secteurs dans Excel, les lignes de repère sont affichées. Cependant, lors de la création d'un graphique similaire avec les API Aspose.Cells, vous devez définir explicitement le[**Series.HasLeaderLines**](https://reference.aspose.com/cells/java/com.aspose.cells/series#HasLeaderLines) propriété.
+ Cet article explique comment créer un graphique à secteurs avec des lignes de repère à partir de zéro tout en utilisant Aspose.Cells for Java API. Dans Excel, l'option "Afficher les lignes de repère" est définie par défaut. Ainsi, lorsque vous créez un graphique à secteurs dans Excel, les lignes de repère sont affichées. Cependant, lors de la création d'un graphique similaire avec les API Aspose.Cells, vous devez définir explicitement le[**Series.HasLeaderLines**](https://reference.aspose.com/cells/java/com.aspose.cells/series#HasLeaderLines) la propriété.
 
 {{% /alert %}}
 

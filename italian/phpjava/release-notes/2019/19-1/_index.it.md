@@ -10,27 +10,27 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for PHP via Java 19.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41026|Supporta Excel 95/5.0 (file XLS)|Nuova caratteristica|
 |CELLSJAVA-42778|Eccezione "style textRotation deve essere compreso tra 0 e 180" durante il caricamento di XLSM|Aumento|
-|CELLSJAVA-42290|I trattini e gli ndash inseriti nelle caselle di testo nei grafici non vengono visualizzati correttamente nel PDF del grafico|Insetto|
+|CELLSJAVA-42290|Mdashes e ndash inseriti in TextBox nei grafici non vengono visualizzati correttamente nel grafico PDF|Insetto|
 |CELLSJAVA-42750|Impossibile recuperare gli elementi dei campi della pagina nel rapporto di tabella pivot|Insetto|
-|CELLSJAVA-42783|Problema con il testo barrato nel formato di file HTML generato|Insetto|
-|CELLSJAVA-42784|I dati in alcune celle (ad es. G7, H7, ecc.) non vengono visualizzati allo stesso modo del file originale nella conversione da Excel a HTML/immagine|Insetto|
+|CELLSJAVA-42783|Problema con il testo barrato nel formato file HTML generato|Insetto|
+|CELLSJAVA-42784|I dati in alcune celle (ad es. G7, H7, ecc.) non vengono visualizzati allo stesso modo del file originale in Excel in HTML/conversione immagine|Insetto|
 |CELLSJAVA-42797|Alcuni stili non vengono visualizzati nell'input HTML|Insetto|
 |CELLSJAVA-42807|Il calcolo della formula/funzione "ISOWEEKNUM" non è lo stesso di MS Excel|Insetto|
-|CELLSJAVA-42794|Da ODS a XLSX - Colore del testo modificato|Insetto|
+|CELLSJAVA-42794|Da ODS a XLSX - Il colore del testo è cambiato|Insetto|
 |CELLSJAVA-42795|Da ODS a XLSX - Carattere barrato non conservato correttamente|Insetto|
 |CELLSJAVA-42796|Da ODS a XLSX - Le dimensioni della casella di testo sono state modificate|Insetto|
 |CELLSJAVA-42798|ODS -> XLSX - Il collegamento ipertestuale è funzionale ma mostrato come testo normale|Insetto|
 |CELLSJAVA-42802|Da ODS a XLSX, le percentuali vengono perse nel grafico a barre|Insetto|
-|CELLSJAVA-42803|Contorno "SummaryRowBelow" non influenzato durante il salvataggio come formato di file XLSB|Insetto|
+|CELLSJAVA-42803|Contorno "SummaryRowBelow" non influenzato durante il salvataggio nel formato file XLSB|Insetto|
 |CELLSJAVA-42757|CellsException durante la conversione dei file|Eccezione|
 |CELLSJAVA-42799|Eccezione "java.lang.ArrayIndexOutOfBoundsException: -32768" durante il caricamento di un formato di file XLSX|Eccezione|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException durante il caricamento di una cartella di lavoro|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. sul forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for PHP via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByName(string fieldName).**
 Mostra tutte le pagine del filtro del report in base al nome del PivotField, il PivotField deve trovarsi nei PageField.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByIndex(int posIndex).**

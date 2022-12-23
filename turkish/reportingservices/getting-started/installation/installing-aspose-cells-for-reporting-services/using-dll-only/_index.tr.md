@@ -6,7 +6,7 @@ url: /tr/reportingservices/using-dll-only/
 ---
 ## Yalnızca DLL kullanılarak Aspose.Cells for Reporting Services nasıl kurulur:
 
-- Aspose.Cells for Reporting Services'i ziyaret edin[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) ve indir**Aspose.Cells for Reporting Services (zip)** bileşenin en son sürümünü ve yüklü belgeleri içeren arşiv.
+-  Aspose.Cells for Reporting Services'i ziyaret edin[indirme sayfası](https://downloads.aspose.com/cells/reportingservices) ve indir**Aspose.Cells for Reporting Services (zip)** bileşenin en son sürümünü ve yüklü belgeleri içeren arşiv.
  - Aspose.Cells.ReportingServices.DLLs_xx.xx.zip içinde 7 çeşit Aspose.Cells.ReprotingSerivces.dll sürümü vardır. Farklı Microsoft rapor sunucusu ürünlerini desteklerler.
  - SSRS2005 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2005 Raporlama Hizmetlerini destekler.
  - SSRS2008 klasöründeki Aspose.Cells.ReportingServices.dll Microsoft SQL Server 2008 Raporlama Hizmetlerini destekler.
@@ -16,7 +16,7 @@ url: /tr/reportingservices/using-dll-only/
 - Arşivi, sabit sürücünüzdeki bir dizine paketinden çıkarın.
 
 - Aspose.Cells for Reporting Services Rapor Tasarımcısını yükleyin:
- - Kayıt ol**Aspose.Cells.ReportingServices.Client.dll**Regasm.exe yardımcı programını kullanarak.
+ - Kayıt ol**Aspose.Cells.ReportingServices.Client.dll** Regasm.exe yardımcı programını kullanarak.
  - Excel'de Aspose.Cells for Reporting Services eklentisini ekleyin.
    
 - Microsoft SQL Server Reporting Services için Aspose.Cells for Reporting Services'i yükleyin hizmetler bileşeni:

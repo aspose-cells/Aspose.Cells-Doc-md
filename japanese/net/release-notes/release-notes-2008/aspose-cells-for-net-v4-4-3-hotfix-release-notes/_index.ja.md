@@ -20,5 +20,5 @@ url: /ja/net/aspose-cells-for-net-v4-4-3-hotfix-release-notes/
 
 何が修正されましたか?
 
-- 印刷範囲設定のバグ
+- 印刷範囲設定の不具合
 ImportDataTable メソッドのバグ

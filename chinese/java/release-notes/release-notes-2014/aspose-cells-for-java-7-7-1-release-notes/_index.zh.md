@@ -24,7 +24,7 @@ Aspose.Cells for Java 已更新至 7.7.1 版，我们很高兴地宣布此版本
 
 次要特征
 
-新的功能
+新功能
 
 (CELLSJAVA-40409) - 使用 LightCells 读取大型模板文件
 (CELLSJAVA-40269) - 使用 LightCells 读取大型模板文件
@@ -43,13 +43,13 @@ Aspose.Cells for Java 已更新至 7.7.1 版，我们很高兴地宣布此版本
 虫子
 
 (CELLSJAVA-40700) - 计算后负值变为正值
-(CELLSJAVA-40668) - 标题内容在输出 PDF 文件中变得扭曲
+(CELLSJAVA-40668) - 标题内容在输出 PDF 文件中被扭曲
 (CELLSJAVA-40695) - XLSX 到 PDF：结果没有左右边距
 (CELLSJAVA-40698) - 数据透视表问题（将过滤器更改为其他值或标签）
 (CELLSJAVA-40671) - Cell.getDisplayStyle() 没有为 Top 10 条件格式返回正确的颜色
 (CELLSJAVA-40655) - 形状中文本的对齐方式从中心变为左侧
-(CELLSJAVA-40572) - 即使工作表本身不存在于输出 PDF 中，也为空白工作表创建了书签
-(CELLSJAVA-40548) - 在将 xlsx 保存到 PDF 文件后章程标题丢失
+(CELLSJAVA-40572) - 即使工作表本身不存在于输出中，也为空白工作表创建了书签 PDF
+(CELLSJAVA-40548) - 将 xlsx 保存到 PDF 文件后，章程标头丢失
 (CELLSJAVA-40564) - excel 文件转换为 pdf 时数据丢失
 (CELLSJAVA-40702) - 数据透视表未正确刷新
 (CELLSJAVA-40704) - xlsb 文件中计算后值发生变化

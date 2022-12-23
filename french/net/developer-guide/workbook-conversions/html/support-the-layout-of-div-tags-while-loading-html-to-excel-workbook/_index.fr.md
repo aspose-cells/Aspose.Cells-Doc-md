@@ -1,5 +1,5 @@
 ﻿---
-title: Prise en charge de la mise en page des balises DIV lors du chargement de HTML dans un classeur Excel
+title: Prise en charge de la disposition des balises DIV lors du chargement de HTML dans un classeur Excel
 type: docs
 weight: 50
 url: /fr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
@@ -10,7 +10,7 @@ Normalement, la disposition des balises div est ignorée lors du chargement de H
 
 {{% /alert %}} 
 
- L'exemple de code suivant illustre l'utilisation de[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) propriété. Veuillez télécharger le[Aspose Logo](5115218.png) utilisé dans le code HTML d'entrée et le[fichier excel de sortie](5115220.xlsx) généré par le code.
+ L'exemple de code suivant illustre l'utilisation de[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) la propriété. Veuillez télécharger le[Aspose Logo](5115218.png) utilisé à l'intérieur de l'entrée HTML et le[fichier excel de sortie](5115220.xlsx) généré par le code.
 
 
 

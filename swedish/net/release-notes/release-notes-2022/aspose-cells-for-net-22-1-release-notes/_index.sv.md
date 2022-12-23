@@ -20,18 +20,18 @@ url: /sv/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50072|Funktion som inte stöds: CUBESET|Förbättring|
 |CELLSNET-50017|Hur man lägger till en bubbla bredvid diagramtitel & diagramaxeltext|Förbättring|
 |CELLSNET-50038| Olika beteenden om att kollapsa och expandera grupper på flera nivåer|Förbättring|
-|CELLSNET-50041| BMP-bildfiler visas inte i sidhuvud/sidfot|Förbättring|
+|CELLSNET-50041| BMP bildfiler visas inte i sidhuvud/sidfot|Förbättring|
 |CELLSNET-50108|XLS till PDF: Konverteringen stannar med fullt minne|Prestanda|
-|CELLSNET-50128|Radavståndet blir smalare - Excel till PDF-konvertering|Insekt|
+|CELLSNET-50128|Radavståndet blir smalare - Excel till PDF konvertering|Insekt|
 |CELLSNET-50086|Cell färger försvinner efter konvertering till PDF|Insekt|
 |CELLSNET-49996|Rich text-värden för celler kan gå vilse med MemoryPreference-läget|Insekt|
 |CELLSNET-50042| Namnet på cellerna ändras under inspelning|Insekt|
 |CELLSNET-50055|Egenskapen för lokalt intervallnamn FullText är inte escaped om det överordnade kalkylbladet har en apostrof|Insekt|
 |CELLSNET-50154|GridWeb kan inte ladda /save från cache för .csv-fil|Insekt|
 |CELLSNET-50063|Utskrift av Excel-fil återger två sidor istället för en sida|Insekt|
-|CELLSNET-50094|Kalkylbladsinnehåll renderas inte korrekt i Excel till PDF-konvertering|Insekt|
-|CELLSNET-50129|Utskriftspositionen går upp i takt med att sidan följs - Excel till PDF-konvertering|Insekt|
-|CELLSNET-50131|Tecknen saknas - Excel till PDF-konvertering|Insekt|
+|CELLSNET-50094|Kalkylbladsinnehåll renderas inte korrekt i Excel till PDF konvertering|Insekt|
+|CELLSNET-50129|Utskriftspositionen går upp i takt med att sidan följs - Excel till PDF konvertering|Insekt|
+|CELLSNET-50131|Tecknen saknas - Excel till PDF konvertering|Insekt|
 |CELLSNET-49578| Fel max/min-värde beräknat från diagram av Aspose.Cells|Insekt|
 |CELLSNET-50087|Utdatadiagrammet visas inte korrekt efter att serietypen ändrats|Insekt|
 |CELLSNET-50197|Förklaringen i vattenfallsdiagrammet kan inte raderas eller döljas|Insekt|
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50208|En del text går förlorad när du sparar som HTML|Insekt|
 |CELLSNET-50095|Undantag för att öppna XSLB-filen|Undantag|
 |CELLSNET-50096| StackOverflowException när tomma kolumner tas bort|Undantag|
-|CELLSNET-50071|Konvertering till HTML-undantag "Unsupported function: CUBESET"|Undantag|
+|CELLSNET-50071|Konvertering till HTML undantag "Unsupported function: CUBESET"|Undantag|
 |CELLSNET-50097|Undantag för att öppna XSLX-filen via Aspose.Cells|Undantag|
 |CELLSNET-50133|NullReferenceException vid jämförelse av FillFormat|Undantag|
 |CELLSNET-50138|Undantag för att öppna en XLSB-fil|Undantag|
@@ -60,7 +60,7 @@ I gamla versioner tar vi inte bort den externa länken vars url innehåller "Add
 
 ### **Ändrar beteende för Cell. Typ för ogiltigt datum och tid.**
 
-I gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
+gamla versioner, om en cell begärs att formateras som datum och tid, returnerar Cell.Type CellValueType.IsDateTime oavsett om det numeriska värdet för denna cell är giltigt för datum och tid eller inte. Detta kan orsaka undantag om användare är beroende av Cell.Skriv endast och försöker ringa Cell.DateTimeValue. Från den här versionen returnerar vi CellValueType.IsNumeric för sådana typer av celler så att användaren kan vägledas att få cellvärdet med korrekt API.
 
 ### **Ändrar beteende för Cells.MaxDisplayRange.**
 
@@ -72,7 +72,7 @@ I gamla versioner returnerar DataSorter.Sort() metoder ingenting. Från denna ve
 
 ### **Lägger till egenskapen TxtLoadOptions.ExtendToNextSheet.**
 
-Stöder import av CSV/TSV-data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
+Stöder import av CSV/TSV data till flera kalkylblad om radantalet eller kolumnantal data överskrider ms excels gräns.
 
 ### **Lägger till metoden ExternalLinkCollection.Clear().**
 

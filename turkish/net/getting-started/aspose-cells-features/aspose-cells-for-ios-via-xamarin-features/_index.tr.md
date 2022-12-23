@@ -9,15 +9,15 @@ Bu bölüm, Xamarin aracılığıyla iOS için Aspose.Cells for .NET ve Aspose.C
 ### **Dosya Biçimleri ve Dönüşümler**
 Dünya çapında birçok müşteri, Aspose.Cells tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
 
-|**Özellik**|**Tanım**|**.NET**|**Xamarin.iOS**|
+|**Özellik**|**Açıklama**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |Yüksek Kaliteli Dönüşümler|Birkaç popüler belge formatı arasında hızlı ve güvenilir bir şekilde dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS biçimi uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Elektronik TabloML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen, XLSX, XLTX, XLSM, XLTM vb. gibi tüm önemli Excel 2007, 2010 ve 2013 dosya biçimlerini destekler.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşime geçmek için kapsamlı CSV biçimi desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel Çalışma Kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS format uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Dahası,<br>bileşen tüm önemli Excel 2007, 2010 ve 2013 dosya formatlarını destekler, örneğin XLSX, XLTX, XLSM, XLTM vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV biçiminin kapsamlı desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|HTML olarak kaydet kullanılabilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Açık Belge (ODS)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Taşınabilir Belge Formatı (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'ye dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Taşınabilir Belge Biçimi (PDF)|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Sekmeyle Ayrılmış|Belgeleri sekmeyle ayrılmış dosya biçiminde yükleyin ve kaydedin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Düz Metin (TXT)|Düz metin biçiminde kaydederek metni kolayca çıkarın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Elektronik Tablo İçeriği Özellikleri**

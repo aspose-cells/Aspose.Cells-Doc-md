@@ -194,7 +194,7 @@ Aspose.Cells 16.10.0 har exponerat egenskapen Shape.ThreeDFormat tillsammans med
 - ThreeDFormat.Material: Representerar det förinställda materialet som kombineras med ljusegenskaperna för att ge det slutliga utseendet och känslan av en form.
 - ThreeDFormat.Perspective: Hämtar/ställer in vinkeln vid vilken ett ThreeDFormat-objekt kan ses.
 - ThreeDFormat.PresetCameraType: Hämtar/ställer in den förinställda extruderingskameran.
-- ThreeDFormat.RotationX: Hämtar/ställer in rotationen av den extruderade formen runt X-axeln i grader.
+- ThreeDFormat.RotationX: Hämtar/ställer in rotationen av den extruderade formen runt X-axeln i graderenhet.
 - ThreeDFormat.RotationY: Hämtar/ställer in rotationen av den extruderade formen runt Y-axeln i graderenhet.
 - ThreeDFormat.RotationZ: Hämtar/ställer in rotationen av den extruderade formen runt Z-axeln i grader.
 - ThreeDFormat.TopBevelHeight: Får/ställer in höjden på den övre avfasningen eller hur långt in i formen den appliceras, i poängenhet.

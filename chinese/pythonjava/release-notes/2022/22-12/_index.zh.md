@@ -18,9 +18,9 @@ url: /zh/python-java/aspose-cells-for-python-via-java-22-12-release-notes/
 |CELLSJAVA-44998|双引号导致内联样式在 HTML 中失败|
 |CELLSJAVA-44970|优化阴影效果|
 |CELLSJAVA-44967|Chart getDataLabels().getText() 在 v22.6.0 及之后的版本中返回不同的值|
-|CELLSJAVA-44969|将 Excel 转换为 HTML，数据标签显示错误|
+|CELLSJAVA-44969|Excel转HTML，datalabels显示错误|
 |CELLSJAVA-44949|将 Excel 范围作为具有不同格式的图像插入 PowerPoint 幻灯片时透明度发生变化|
-|CELLSJAVA-44985|Excel 到 HTML 转换 - 图表图例不出现且绘图区域被截断|
+|CELLSJAVA-44985|Excel 到 HTML 的转换 - 图表图例不出现且绘图区域被截断|
 |CELLSJAVA-44952|DataBar.toImage 方法关于宽度的问题|
 |CELLSJAVA-44986|图片在div中时导入的图片没有对齐|
 |CELLSJAVA-44987|加载html的时候有些图片被别人覆盖了|

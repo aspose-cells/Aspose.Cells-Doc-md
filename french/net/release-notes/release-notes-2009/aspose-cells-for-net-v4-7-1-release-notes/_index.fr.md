@@ -28,22 +28,22 @@ url: /fr/net/aspose-cells-for-net-v4-7-1-release-notes/
 
 Problèmes résolus dans Aspose.Cells 4.7.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |7729 | Graphique2Image| L'image du graphique ne ressemble pas à l'objet graphique sous-jacent|
 |7938 | Graphiques2Image| Le signe de pourcentage ne s'affiche pas dans le graphique à secteurs|
 |7981 | Graphiques2Image| Graphique exporté foiré|
-|8114 | Graphiques2Image| Enregistrement du classeur avec graphique en HTML cassé|
+|8114 | Graphiques2Image| Enregistrement du classeur avec le graphique dans HTML cassé|
 |8119 | Graphiques2Image| Utilisation de FillFormat.Pattern|
 |8223 | Graphiques2Image| Le titre de l'axe X de la catégorie n'est pas affiché|
-|8113 | HTML| Html cassé sur le nom de la feuille de calcul contenant un espace|
-|8420 | HTML| Problème de format d'exportation HTML|
+|8113 |HTML | Html cassé sur le nom de la feuille de calcul contenant un espace|
+|8420 |HTML | HTML problème de format d'exportation|
 |7718 | PDF| Prend en charge le lien hypertexte dans la conversion directe des cellules en pdf|
-|7723 | PDF| Problèmes de police avec Aspose.Cells conversion en PDF|
+|7723 | PDF| Problèmes de police avec la conversion de Aspose.Cells en PDF|
 |7726 | PDF| Cells 4.7.0 l'enregistrement dans le flux PDF ne fonctionne pas|
 |7727 | PDF| Le fichier pdf est trop volumineux|
 |7730 | PDF| La clé a déjà été ajoutée à l'exception du dictionnaire|
-|7838 | PDF| Excel en PDF produit un fichier pdf corrompu|
+|7838 | PDF| Excel vers PDF produit un fichier pdf corrompu|
 |7978 | PDF| Certains problèmes de sauvegarde Aspose.Cells|
 |7980 | PDF| Différences de sortie|
 |7728 | SpreadML| Index hors plage|

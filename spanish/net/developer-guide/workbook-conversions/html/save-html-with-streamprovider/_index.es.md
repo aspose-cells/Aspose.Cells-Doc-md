@@ -10,7 +10,7 @@ Al convertir campos de Excel que contienen imágenes y formas en archivos html, 
 1. ¿Dónde debemos guardar las imágenes y las formas al guardar el archivo de Excel en la transmisión html?
 1. Reemplace la ruta predeterminada con la ruta exceptuada.
 
- Este artículo explica cómo implementar[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interfaz para configurar el[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) propiedad. Al implementar esta interfaz, podrá guardar los recursos creados durante la generación de HTML en sus ubicaciones o flujos de memoria específicos.
+ Este artículo explica cómo implementar[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interfaz para configurar el[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) propiedad. Al implementar esta interfaz, podrá guardar los recursos creados durante la generación HTML en sus ubicaciones o flujos de memoria específicos.
 
 {{% /alert %}} 
 

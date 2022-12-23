@@ -15,25 +15,25 @@ Aspose.Cells.Report.Designer'da yeni bir veri kaynağı ve sorgu oluşturmak iç
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Veri Kümesi Oluştur** Aspose.Cells.Report.Designer araç çubuğunda:
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_1.png)
 
 
 Tüm veri kaynakları ve sorgular iletişim kutusunda listelenir.
 
 1.  Bir veri kaynağı düğümü:
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_2.png)
 
 1.  Bir veri seti düğümü:
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_3.png)
 
 1. Ağacın kök düğümünü seçin.
-1.  Tıklamak**Ekle**. 
+1.  Tıklamak**Eklemek**. 
 
    **Veri kaynakları ve veri kümeleri ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_4.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_4.png)
 
 
 
@@ -43,19 +43,19 @@ Tüm veri kaynakları ve sorgular iletişim kutusunda listelenir.
 
    **Veri kümeleri ve veri kaynakları ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_5.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_5.png)
 
 
 
  Aspose.Cells.Report.Designer Microsoft Sorgusunu başlatır.
 
 1.  Veri Kaynağı Seç iletişim kutusunda,**Yeni Veri Kaynağı**.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
  Mevcut bir veri kaynağını da seçebilirsiniz.
 
    **Veri kaynağı seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_6.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_6.png)
 
 
 
@@ -65,27 +65,27 @@ Tüm veri kaynakları ve sorgular iletişim kutusunda listelenir.
 
    **Yeni bir veri kaynağı oluşturma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_7.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_7.png)
 
 
 
 
 1. SQL Server Oturum Açma iletişim kutusunda her öğe için uygun değeri seçin.
  Örneğin, sunucuyu yerel olarak ayarlayın, AdventureWorks veritabanını seçin ve**Güvenilir Bağlantı Kullan**.
-1.  Tıklamak**TAMAM**. 
+1.  Tıklamak**Tamam**. 
 
    **SQL sunucusunda oturum açma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_8.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_8.png)
 
 
 
 
-1.  Tıklamak**TAMAM**. 
+1.  Tıklamak**Tamam**. 
 
    **Artık SQL sunucusunda oturum açtığımızı unutmayın.** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_9.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_9.png)
 
 
 
@@ -95,17 +95,17 @@ Yeni veri kaynağı,**Veri Kaynağını Seçin** diyalog
 
    **yeni veri kaynağı** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_10.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_10.png)
 
 
 
 
-1.  Tıklamak**TAMAM** Microsoft Sorguyu açmak için.
+1.  Tıklamak**Tamam** Microsoft Sorguyu açmak için.
 1.  Microsoft Sorgusunda sorgu oluşturmak için Microsoft Sorgu Yardımcısına bakın. Aşağıdaki örnekte, parametrelerle bir sorgu oluşturuyoruz.
 
    **sorgu oluşturma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_11.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_11.png)
 
 
 
@@ -186,7 +186,7 @@ Sorgunun üç parametresi vardır: ReportYear, ReportMonth ve EmpID.
 
    **Rapor tasarımcısına dönüş** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_12.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_12.png)
 
 
 
@@ -196,7 +196,7 @@ Sorgunun üç parametresi vardır: ReportYear, ReportMonth ve EmpID.
 
    **yeni veri kaynağı** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_13.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_13.png)
 
 
 
@@ -205,19 +205,19 @@ Sorgunun üç parametresi vardır: ReportYear, ReportMonth ve EmpID.
 
    **Sorgunun sql'sini görüntülemek için SQL Sekmesine tıklayın** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_14.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_14.png)
 
 
 
 **Sorgunun sütunlarını görüntülemek için Sütunlar Sekmesine tıklayın** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_15.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_15.png)
 
 
 
 **Sorgunun parametrelerini görüntülemek için Parametreler Sekmesine tıklayın** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-data-sources-and-queries_16.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-data-sources-and-queries_16.png)
 
 
 

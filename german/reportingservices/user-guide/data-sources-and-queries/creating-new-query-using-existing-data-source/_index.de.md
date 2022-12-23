@@ -14,7 +14,7 @@ So erstellen Sie eine neue Abfrage mit einer vorhandenen Datenquelle:
 ).
 
 1.  Wählen Sie im Dialogfeld eine der im linken Bereich aufgeführten Datenquellen aus. Zum Beispiel,**SQL Server**.
-1.  Klicken**Hinzufügen**. 
+1.  Klicken**Addieren**. 
 
    **Auswählen einer Datenquelle** 
 

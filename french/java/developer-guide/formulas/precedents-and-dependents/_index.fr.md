@@ -38,7 +38,7 @@ Aspose.Cells facilite l'obtention de cellules précédentes. Non seulement il pe
 
 Dans l'exemple ci-dessous, un modèle de fichier Excel, Book1.xls, est utilisé. La feuille de calcul contient des données et des formules sur la première feuille de calcul.
 
- Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) classer'[Obtenir les précédents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedents() ) méthode utilisée pour retracer les antécédents d'une cellule. Il renvoie un[ReferredAreaCollectionReferredAreaCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredAreaCollection)Comme vous pouvez le voir ci-dessus, dans Book1.xls, la cellule B7 contient une formule "=SUM(A1:A3)". Ainsi, les cellules A1: A3 sont les cellules précédentes à la cellule B7. L'exemple suivant illustre la fonctionnalité de suivi des précédents à l'aide du fichier de modèle Book1.xls.
+ Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) classe'[Obtenir les précédents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedents() ) méthode utilisée pour retracer les antécédents d'une cellule. Il renvoie un[ReferredAreaCollectionReferredAreaCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredAreaCollection)Comme vous pouvez le voir ci-dessus, dans Book1.xls, la cellule B7 contient une formule "=SUM(A1:A3)". Ainsi, les cellules A1: A3 sont les cellules précédentes à la cellule B7. L'exemple suivant illustre la fonctionnalité de suivi des précédents à l'aide du fichier de modèle Book1.xls.
 
 
 
@@ -46,7 +46,7 @@ Dans l'exemple ci-dessous, un modèle de fichier Excel, Book1.xls, est utilisé.
 ### **Recherche des personnes à charge**
 Aspose.Cells vous permet d'obtenir des cellules dépendantes dans des feuilles de calcul. Aspose.Cells peut non seulement récupérer des cellules qui fournissent des données concernant une formule simple, mais également trouver des cellules qui fournissent des données à une formule complexe dépendante avec des plages nommées.
 
- Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) classer'[GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents(boolean)) méthode utilisée pour retracer les personnes à charge d'une cellule. Par exemple, dans Book1.xlsx, il existe des formules : "=A1+20" et "=A1+30" dans les cellules B2 et C2 respectivement. L'exemple suivant montre comment tracer les personnes à charge pour la cellule A1 à l'aide du fichier de modèle Book1.xlsx.
+ Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) classe'[GetDependents](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getDependents(boolean)) méthode utilisée pour retracer les personnes à charge d'une cellule. Par exemple, dans Book1.xlsx, il existe des formules : "=A1+20" et "=A1+30" dans les cellules B2 et C2 respectivement. L'exemple suivant montre comment tracer les personnes à charge pour la cellule A1 à l'aide du fichier de modèle Book1.xlsx.
 
 
 

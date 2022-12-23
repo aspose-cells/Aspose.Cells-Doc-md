@@ -10,7 +10,7 @@ url: /it/cpp/product-overview/
 
 **Benvenuti nella sezione documentazione Aspose.Cells for C++**
 
-Aspose.Cells for C++ è una libreria C++ nativa che consente agli sviluppatori C++ di creare, manipolare e convertire fogli di calcolo a livello di programmazione senza richiedere Office Automation o l'applicazione Microsoft Excel.
+Aspose.Cells for C++ è una libreria C++ nativa che consente agli sviluppatori C++ di creare, manipolare e convertire fogli di calcolo a livello di codice senza richiedere l'automazione di Office o l'applicazione Excel Microsoft.
 
 Il Aspose.Cells for C++ supporta formati di fogli di calcolo come il formato cartella di lavoro Excel 97-2003 e i formati Open Office XML.
 
@@ -52,7 +52,7 @@ Aspose.Cells for C++ è progettato per funzionare altrettanto bene lato server o
 
 ## **Supporto tecnico**
 
-Aspose fornisce supporto tecnico gratuito illimitato per tutti i suoi prodotti. Il supporto è disponibile per tutti gli utenti, compresa la valutazione.
+Aspose fornisce supporto tecnico gratuito illimitato per tutti i suoi prodotti. Il supporto è disponibile per tutti gli utenti, inclusa la valutazione.
 
  Se hai bisogno di aiuto con Aspose.Cells for C++[visita lo Aspose.Forums](https://forum.aspose.com/c/cells/9). Pubblica la tua domanda nel forum Aspose.Cells for C++ e riceverà risposta entro poche ore. Le domande ricevono risposta direttamente dal team di supporto Aspose.Cells for C++.
 
@@ -80,4 +80,4 @@ Questa tabella elenca importanti risorse tecniche Aspose.Cells for C++.
 |[blog Aspose.Cells](https://blog.aspose.com/category/cells/)|Controllalo spesso per informazioni sulle nuove versioni e suggerimenti utili su Aspose.Cells.|
 |[Aspose.Cells for C++ scarica](https://downloads.aspose.com/cells/cpp)|Scarica l'ultima versione di Aspose.Cells da qui. Rilasciamo spesso.|
 |[Aspose.Cells for C++ forum di supporto](https://forum.aspose.com/c/cells/9)|Pubblica qui le tue domande e problemi per una rapida risoluzione.|
-|[Aspose.Cells for C++ documentazione del prodotto](/cells/it/cpp/)|Documentazione online completa che include questa documentazione e il riferimento API Aspose.Cells.|
+|[Aspose.Cells for C++ documentazione del prodotto](/cells/it/cpp/)|Documentazione online completa che include questa documentazione e il riferimento Aspose.Cells API.|

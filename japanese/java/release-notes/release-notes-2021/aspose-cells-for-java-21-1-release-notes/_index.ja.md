@@ -22,8 +22,8 @@ url: /ja/java/aspose-cells-for-java-21-1-release-notes/
 |CELLSJAVA-40264|EXCEL として保存するときのフォーム コントロールまたは ActiveX コントロールのエラー_97_TO_2003|
 |CELLSJAVA-43372|ODS から XLSX への変換中に作成された破損したファイル|
 |CELLSJAVA-43378|ワークブックを複製した後、空白として表示が true から false に変わる|
-|CELLSJAVA-43379|ワークブックを HTML として保存中に発生した例外|
-|CELLSJAVA-43376|例外 "java.lang.ClassCastException: オーバーフロー in int からバイトへの変換。int 値: 144" XLSX ファイルのロード時の|
+|CELLSJAVA-43379|ワークブックを HTML として保存中に例外が発生しました|
+|CELLSJAVA-43376|XLSX ファイルのロード時の例外「java.lang.ClassCastException: オーバーフロー in int からバイトへの変換。int 値: 144」|
 
 ## **Public API および下位互換性のない変更**
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Rendre les caractères supplémentaires Unicode dans le PDF de sortie par Aspose.Cells
+title: Rendre les caractères supplémentaires Unicode dans la sortie PDF par Aspose.Cells
 type: docs
 weight: 690
 url: /fr/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -14,11 +14,11 @@ Dans la norme de caractères Unicode, les caractères supplémentaires sont les 
 - En UTF-16, ces caractères nécessitent 2 substituts (unités de 16 bits).
 
 {{% /alert %}} 
-## **Rendre les caractères supplémentaires Unicode dans le PDF de sortie par Aspose.Cells**
- La capture d'écran suivante montre comment Aspose.Cells a rendu le[fichier excel source](5473390.xlsx) dans le[PDF de sortie](5473391.pdf)Comme vous pouvez le voir, les trois caractères supplémentaires Unicode ont été rendus exactement de la même manière que par Microsoft Excel.
+## **Rendre les caractères supplémentaires Unicode dans la sortie PDF par Aspose.Cells**
+ La capture d'écran suivante montre comment Aspose.Cells a rendu le[fichier excel source](5473390.xlsx) dans le[sortie PDF](5473391.pdf). Comme vous pouvez le voir, les trois caractères supplémentaires Unicode ont été rendus exactement de la même manière que par Microsoft Excel.
 
 ![tâche : image_autre_texte](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 
-Vous pouvez utiliser cet exemple de code pour convertir le[fichier excel source](5473390.xlsx) dans[PDF de sortie](5473391.pdf).
+Vous pouvez utiliser cet exemple de code pour convertir le[fichier excel source](5473390.xlsx) dans[sortie PDF](5473391.pdf).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-RenderUnicodeSupplimentaryCharacterToPDF-1.java" >}}

@@ -26,23 +26,23 @@ url: /ar/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41376) - تنبثق رسالة الخطأ بعد حفظ المصنف
 
- (CELLSJAVA-41412) - تُرجع ListColumn.getRange قيمة خالية
+(CELLSJAVA-41412) - تُرجع ListColumn.getRange قيمة خالية
 
  (CELLSJAVA-41407) - فقد كود VBA بتنسيق xlsb. بعد الحفظ
 
-(CELLSJAVA-41396) - حساب الصيغ لا يعمل عندما يكون لدينا أكثر من 65536 خلية مسماة
+ (CELLSJAVA-41396) - حساب الصيغ لا يعمل عندما يكون لدينا أكثر من 65536 خلية مسماة
 
  (CELLSJAVA-41389) - يؤدي تمكين ShowTotal لـ ListObject إلى إدراج صف فارغ أعلى الإجمالي
 
  (CELLSJAVA-41388) - وظيفة Excel TREND غير قادرة على الحساب باستخدام CalculateFormula
 
- (CELLSJAVA-41379) - فقدت ألوان علامات التبويب بعد إعادة حفظ XLSB
+ (CELLSJAVA-41379) - فقدت ألوان علامة التبويب بعد إعادة حفظ XLSB
 
  (CELLSJAVA-41370) - عند إنشاء مثيل مصنف مع مستند Excel تالف و LoadOptions ، يحدث تعليق
 
  (CELLSJAVA-41411) - استبدال الخط الغريب عند الترقية إلى 8.5.0 من 8.4.x
 
- (CELLSJAVA-41410) - مشكلة لون الصورة في تحويل Excel إلى PDF
+ (CELLSJAVA-41410) - مشكلة لون الصورة في Excel لتحويل PDF
 
  (CELLSJAVA-41406) - يستبدل TextBox على الرسم البياني بعد تحويل جدول البيانات إلى PDF
 
@@ -52,9 +52,9 @@ url: /ar/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41387) - تم تجاوز تسميات البيانات بواسطة قسم الرأس
 
- (CELLSJAVA-41380) - لا يقوم تحويل الرسم البياني إلى صورة / PDF بتصدير مربع النص المضمن في وضع الترخيص
+(CELLSJAVA-41380) - الرسم البياني للصورة / التحويل PDF لا يصدر مربع النص المضمن في وضع الترخيص
 
-(CELLSJAVA-41244) - لا تظهر العلامات والأسهم بشكل جيد أو مشوهة
+ (CELLSJAVA-41244) - لا تظهر العلامات والأسهم بشكل جيد أو مشوهة
 
  (CELLSJAVA-40929) - الكلمات الموجودة في مربع النص لا تحتوي على مسافات بين بعضها البعض داخل ملف pdf الناتج
 
@@ -92,7 +92,7 @@ url: /ar/java/aspose-cells-for-java-8-5-1-release-notes/
 
 
 
- يضيف Cell.GetHeightOfValue () طريقة.
+يضيف Cell.GetHeightOfValue () طريقة.
 
  يتم استخدامه للحصول على ارتفاع القيمة بوحدة البكسل.
 
@@ -102,4 +102,4 @@ url: /ar/java/aspose-cells-for-java-8-5-1-release-notes/
 
  ملحوظة
 
-نظرًا لأن قاعدة الكود Aspose.Cells for Java تطابق رمز إصدار .NET ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.5.1 مدرجة أيضًا في Aspose.Cells for Java v8.5.1.
+ نظرًا لأن قاعدة الكود Aspose.Cells for Java تطابق رمز إصدار .NET ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.5.1 مدرجة أيضًا في Aspose.Cells for Java v8.5.1.

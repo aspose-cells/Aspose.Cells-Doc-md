@@ -12,7 +12,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-21-7-release-note
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSRS-584 | تحسين تقديم Png / Emf.| تحسين|
-|CELLSRS-588 |تحسين تقديم Tiff.| تحسين|
+|CELLSRS-584 |تحسين تقديم Png / Emf.| تحسين|
+|CELLSRS-588 | تحسين تقديم Tiff.| تحسين|
 
 

@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-22-10-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-42037|Il filtro della sequenza temporale della tabella pivot scompare dopo il caricamento del documento Excel e l'aggiornamento|
 |CELLSNET-51963|Supporto per file CRTX|
@@ -18,7 +18,7 @@ url: /it/net/aspose-cells-for-net-22-10-release-notes/
 |CELLSNET-52064|Non è consentito spingere le celle non vuote oltre la fine dell'errore del foglio di lavoro quando si utilizza il metodo Cells.InsertRows|
 |CELLSNET-52029|Traduci le etichette delle voci della legenda in base alle impostazioni locali/regionali|
 |CELLSNET-51419|Il collegamento esterno della tabella pivot è stato eliminato durante la conversione del file XLS in XLSM|
-|CELLSNET-51984|Il file XLSX con il file della tabella pivot è danneggiato dopo il nuovo salvataggio|
+|CELLSNET-51984|XLSX il file con il file di tabella pivot è danneggiato dopo il nuovo salvataggio|
 |CELLSNET-51987|Problema con alcuni indicatori intelligenti (inseriti) nella tabella pivot e nel grafico pivot|
 |CELLSNET-52065|Connessioni dati esterne errate durante la conversione di connessioni esterne|
 |CELLSNET-52088| Una riga aggiuntiva viene aggiunta durante la creazione di una tabella pivot classica|
@@ -28,7 +28,7 @@ url: /it/net/aspose-cells-for-net-22-10-release-notes/
 |CELLSNET-52105|LightCellsDataHandler.StartSheet(Worksheet) non può saltare il foglio quando restituisce false per il file modello xlsb|
 |CELLSNET-46764|Titolo del grafico mancante durante la conversione in pdf|
 |CELLSNET-52049|Da XLSX a PDF: testo non formattato correttamente|
-|CELLSNET-52073|Problema relativo al carattere Arial Tur nel rendering da Excel a PDF|
+|CELLSNET-52073|Problema relativo al carattere Arial Tur in Excel per il rendering PDF|
 |CELLSNET-52083|Alcune celle con il formato Numero contabile vengono visualizzate come #####.|
 |CELLSNET-52091|Quando si imposta il contenuto del foglio di lavoro in bianco e nero, viene comunque stampato a colori e i bordi vengono visualizzati inutilmente|
 |CELLSNET-51972|Il foglio di lavoro contenente oggetti pulsante non viene riconosciuto correttamente durante la copia del foglio|
@@ -42,13 +42,13 @@ url: /it/net/aspose-cells-for-net-22-10-release-notes/
 |CELLSNET-52084|La posizione del testo "Northwind Traders" non è corretta (il valore del rientro sinistro non è interpretato correttamente).|
 |CELLSNET-52063|PivotTable.CalculateData ha causato NullReferenceException|
 |CELLSNET-51986|Il calcolo della cartella di lavoro due volte con la catena di calcolo abilitata ha causato un'eccezione|
-|CELLSNET-52081|L'apertura di un file XLSX i cui stili sono stati rimossi genera un'eccezione|
+|CELLSNET-52081|L'apertura del file XLSX i cui stili sono stati rimossi genera un'eccezione|
 |CELLSNET-52044|Eccezione sollevata durante l'importazione del file del cliente in GridWeb|
 |CELLSNET-52002|Viene generata un'eccezione quando si tenta di aprire un documento non protetto con una password|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modificato il limite di spostamento delle celle fuori dal foglio per l'inserimento di righe**
 

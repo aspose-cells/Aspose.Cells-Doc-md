@@ -16,7 +16,7 @@ Bedingte Formatierung kann:
 - Schattieren Sie automatisch Zellen mit Farbskalen basierend auf ihrer Beziehung zu Werten in anderen Zellen im Bereich. Die Standardeinstellungen schattieren den niedrigsten Wert rot und bewegen sich bis zum höchsten Wert grün.
 - Verwenden Sie Symbolsätze auf ähnliche Weise wie Farbskalen, aber anstatt die Zellen zu schattieren, werden den Zellen kleine Symbole wie Pfeile und Ampeln hinzugefügt.
 
-Aspose.Cells unterstützt vollständig die bedingte Formatierung, die von Microsoft Excel 2007 und späteren Versionen im XLSX-Format für Zellen zur Laufzeit bereitgestellt wird. Dieses Beispiel demonstriert eine Übung für erweiterte bedingte Formatierungstypen, einschließlich IconSets, DataBars, Farbskalen, Zeitperioden, Top/Bottom und andere Regeln mit unterschiedlichen Sätzen von Attributen.
+Aspose.Cells unterstützt vollständig die bedingte Formatierung von Microsoft Excel 2007 und späteren Versionen im XLSX-Format für Zellen zur Laufzeit. Dieses Beispiel demonstriert eine Übung für erweiterte bedingte Formatierungstypen, einschließlich IconSets, DataBars, Farbskalen, Zeitperioden, Top/Bottom und andere Regeln mit unterschiedlichen Sätzen von Attributen.
 
 
 

@@ -14,10 +14,10 @@ url: /it/net/aspose-cells-for-net-5-0-0-release-notes/
 
  Cosa è cambiato in Aspose.Cells:
 
-- Include il supporto del formato di file XLSB di MS Excel 2007.
+- Include il supporto del formato file MS Excel 2007 XLSB.
  Fornisce la funzione Copia e incolla speciale.
- Supporta l'ordinamento dei marcatori intelligenti.
-37 miglioramenti e correzioni.
+Supporta l'ordinamento dei marcatori intelligenti.
+ 37 miglioramenti e correzioni.
 
  Cosa è cambiato in Aspose.Cells.GridWeb:
 
@@ -42,11 +42,11 @@ url: /it/net/aspose-cells-for-net-5-0-0-release-notes/
 
  Cambiamenti notevoli per gli utenti:
 
- Pur cercando di mantenere l'API il più semplice e chiara possibile, abbiamo deciso di riconoscere e onorare le pratiche di sviluppo comuni della piattaforma; abbiamo riorganizzato la struttura dell'API/spazi dei nomi.
+ Pur cercando di mantenere lo API il più semplice e chiaro possibile, abbiamo deciso di riconoscere e onorare le pratiche di sviluppo comuni della piattaforma; abbiamo riorganizzato API Structure/ Namespaces.
 
-Con questa versione, ad esempio Aspose.Cells for .NET v5.0.0, abbiamo riorganizzato le classi API per il componente Aspose.Cells. Questo cambiamento ha alcuni aspetti importanti che seguiamo. Abbiamo aggiunto nuovi spazi dei nomi. L'intera API (classi, interfacce, enumerazioni, strutture ecc.) si trovava precedentemente nello spazio dei nomi Aspose.Cells. Ora, alcuni insiemi di API sono stati spostati nei rispettivi spazi dei nomi, il che rende chiara e semplificata la relazione tra classi (con i loro membri) e spazi dei nomi.
+Con questa versione, ad esempio Aspose.Cells for .NET v5.0.0, abbiamo riorganizzato le classi API per il componente Aspose.Cells. Questo cambiamento ha alcuni aspetti importanti che seguiamo. Abbiamo aggiunto nuovi spazi dei nomi. L'intero API (classi, interfacce, enumerazioni, strutture ecc.) si trovava precedentemente nello spazio dei nomi Aspose.Cells. Ora, alcuni insiemi di API sono stati spostati nei relativi namespace, il che rende chiara e semplificata la relazione tra classi (con i loro membri) e namespace.
 
- Tutte le classi della libreria Aspose.Cells sono suddivise in spazi dei nomi appropriati per un facile accesso. Lo spazio dei nomi Aspose.Cells è ovviamente lo spazio dei nomi radice che fornisce classi per la generazione, la conversione, la modifica, il rendering e la stampa di documenti Microsoft Excel senza utilizzare Microsoft Excel. Il componente Aspose.Cells ha i seguenti spazi dei nomi:
+ Tutte le classi della libreria Aspose.Cells sono suddivise in spazi dei nomi appropriati per un facile accesso. Lo spazio dei nomi Aspose.Cells è ovviamente lo spazio dei nomi radice che fornisce classi per la generazione, la conversione, la modifica, il rendering e la stampa di documenti Excel Microsoft senza utilizzare Excel Microsoft. Il componente Aspose.Cells ha i seguenti spazi dei nomi:
 
 - Aspose.Cells
  Aspose.Cells.Grafici

@@ -1,12 +1,12 @@
 ﻿---
-title: Renderizar una página PDF por hoja de cálculo de Excel - Conversión de Excel a PDF
+title: Procesar una página PDF por hoja de cálculo de Excel - Conversión de Excel a PDF
 type: docs
 weight: 40
 url: /es/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-Cuando trabaje con archivos grandes de Excel Microsoft (por ejemplo, un libro de trabajo que tiene muchas hojas, cada una con 50 columnas y 300 o más filas de datos), es posible que desee que la salida PDF muestre una página por hoja de trabajo, independientemente del tamaño de la hoja de trabajo . Esto significaría que es probable que cada página tenga un tamaño de página radicalmente diferente. Esto se puede lograr usando Aspose.Cells for Java.
+Cuando trabaje con archivos de Excel grandes Microsoft (por ejemplo, un libro de trabajo que tiene muchas hojas, cada una con 50 columnas y 300 o más filas de datos), es posible que desee que la salida PDF muestre una página por hoja de trabajo, independientemente del tamaño de la hoja de trabajo . Esto significaría que es probable que cada página tenga un tamaño de página radicalmente diferente. Esto se puede lograr usando Aspose.Cells for Java.
 
 {{% /alert %}}
 
@@ -20,6 +20,6 @@ Consulte el siguiente código de muestra que convierte un archivo de Excel con v
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Si su hoja de cálculo contiene fórmulas, es mejor llamar al[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) justo antes de convertir la hoja de cálculo en PDF. Esto garantiza que los valores dependientes de la fórmula se vuelvan a calcular y que los valores correctos se representen en el PDF.
+ Si su hoja de cálculo contiene fórmulas, es mejor llamar al[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()justo antes de representar la hoja de cálculo en PDF. Esto garantiza que los valores dependientes de la fórmula se vuelvan a calcular y que los valores correctos se representen en el PDF.
 
 {{% /alert %}}

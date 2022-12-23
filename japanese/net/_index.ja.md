@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ja/net/
 is_root: true
-description: C# で書かれた強力で高速なスプレッドシート プログラミング ライブラリです。一般的な Excel (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、SpreadsheetML、CSV)、OpenOffice(ODS)、HTML、および JSON ファイル形式をサポートし、Excel ファイルをPDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式。
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to .
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: C# で書かれた強力で高速なスプレッドシート プロ
 
 Aspose.Cells for .NET を API および GUI コントロールと組み合わせると、Microsoft Excel® のプログラミングと変換が高速化されます。
 
-Aspose.Cells for .NET は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel ファイルを PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、JSON、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for .NET は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel ファイルを PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、JSON、プレーン テキスト、および TIFF, JPG, PNG, BMP and SVG を含む一般的な画像形式にエクスポートすることもできます。
 
 
 {{% /alert %}}

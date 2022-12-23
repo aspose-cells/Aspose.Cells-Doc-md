@@ -3,6 +3,7 @@ title: Представления рабочего листа
 type: docs
 weight: 40
 url: /ru/net/worksheet-views/
+description:  В этой статье описывается, как использовать C# и .NET API для взаимодействия с предварительным просмотром разрыва страницы книги и листов Excel. Работайте также с разделенными панелями, фиксированными панелями и коэффициентом масштабирования.
 ---
 ## **Предварительный просмотр разрыва страницы**
 
@@ -17,7 +18,7 @@ url: /ru/net/worksheet-views/
 
 Aspose.Cells предоставляет[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс, представляющий файл Excel Microsoft.[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook) класс содержит[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel.
 
- Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочими листами. Чтобы включить обычный режим или режим предварительного просмотра с разрывом страницы, используйте кнопку[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**Испажебреакпревью**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) имущество.[**Испажебреакпревью**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) является логическим свойством, что означает, что оно может хранить только**истинный** или**ЛОЖЬ** ценность.
+ Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс.[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Класс предоставляет широкий спектр свойств и методов для управления рабочими листами. Чтобы включить обычный режим или режим предварительного просмотра с разрывом страницы, используйте кнопку[**Рабочий лист**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) учебный класс[**Испажебреакпревью**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) имущество.[**Испажебреакпревью**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) является логическим свойством, что означает, что оно может хранить только**истинный** или**ЛОЖЬ** стоимость.
 
 #### **Включение обычного просмотра**
 
@@ -69,9 +70,9 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 - **Строка**, индекс строки ячейки, с которой начнется замораживание.
 - **Столбец**, индекс столбца ячейки, с которой начнется замораживание.
 - **Замороженные строки**, количество видимых строк в верхней панели.
-- **Замороженные столбцы**, количество видимых столбцов на левой панели
+- **Замороженные столбцы**, количество видимых столбцов в левой панели
 
-Файл book1.xls открывается вызовом[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' при создании его экземпляра, а несколько строк и столбцов заморожены на первом листе. Измененный файл сохраняется как output.xls.
+ Файл book1.xls открывается вызовом[**Рабочая тетрадь**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' при создании его экземпляра, а несколько строк и столбцов заморожены на первом листе. Измененный файл сохраняется как output.xls.
 
  Ниже приведен полный пример, который показывает, как использовать[**Замерзшие оконные стекла**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)метод для замораживания строк и столбцов (начиная с C4, представленного 4-й строкой и 3-м столбцом, где строки и столбцы начинаются с индекса 0) первого рабочего листа файла Excel.
 

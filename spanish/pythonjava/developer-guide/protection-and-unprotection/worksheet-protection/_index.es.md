@@ -17,7 +17,7 @@ Para evitar que otros usuarios cambien, muevan o eliminen datos en una hoja de c
 1.  Hacer clic**Revisar > Proteger hoja de trabajo**.
 1.  Introduzca una contraseña en**el cuadro de contraseña**.
 1.  Seleccione**permitir** opciones
-1.  Seleccione**OK** , vuelva a ingresar la contraseña para confirmarla y luego seleccione**OK** otra vez.
+1.  Seleccione**DE ACUERDO** , vuelva a ingresar la contraseña para confirmarla y luego seleccione**DE ACUERDO** de nuevo.
 
 
 ## **Proteger hoja de trabajo usando Aspose.Cell for Python**

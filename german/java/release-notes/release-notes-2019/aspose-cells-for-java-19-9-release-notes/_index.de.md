@@ -12,16 +12,16 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 19.9.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-42990|Ausgeblendete Zeilen werden beim Konvertieren einer Excel-Datei in HTML angezeigt, wenn AutoFilter vorhanden ist|Insekt|
+|CELLSJAVA-42990|Ausgeblendete Zeilen werden beim Konvertieren der Excel-Datei in HTML angezeigt, wenn AutoFilter vorhanden ist|Insekt|
 |CELLSJAVA-42997|CalculateFormula() schlägt bei großen Formelzeichenfolgen fehl|Insekt|
 |CELLSJAVA-43000|CalculateFormula() beschädigt die Excel-Datei|Insekt|
-|CELLSJAVA-42987|Formatierungsprobleme beim Konvertieren von Excel-Dateien in PDF|Insekt|
+|CELLSJAVA-42987|Formatierungsprobleme beim Konvertieren einer Excel-Datei in PDF|Insekt|
 |CELLSJAVA-42986|Überlappender Text nach Konvertierung der chinesischen XLSX-Datei in PDF|Insekt|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) funktioniert nicht für neuere Excel-Versionen|Insekt|
 |CELLSJAVA-42996|Auf Formeln basierende Datenbeschriftungen werden in PDF nicht korrekt wiedergegeben|Insekt|
 |CELLSJAVA-42992|Beim Konvertieren von XLSM in ein Bild wurde eine Ausnahme ausgelöst|Ausnahme|
 |CELLSJAVA-42991|Ausnahme „Spaltenbreite muss zwischen 0 und 255 liegen“ beim Konvertieren von Excel in PDF in macOS|Ausnahme|
-|CELLSJAVA-43004|Ausnahme java.lang.NumberFormatException: Für Eingabestring: "0.0" beim Konvertieren von Excel in HTML|Ausnahme|
+|CELLSJAVA-43004|Ausnahme java.lang.NumberFormatException: Für Eingabestring: „0.0“ beim Konvertieren von Excel in HTML|Ausnahme|
 |CELLSJAVA-43010|IllegalArgumentException beim Ausführen von deleteBlankColumns()|Ausnahme|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

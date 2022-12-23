@@ -18,7 +18,7 @@ url: /zh/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* 支持渲染 XLTX 格式。
+* 支持渲染XLTX格式。
 
 ## Aspose.Cells for Reporting Services  22.7
 
@@ -30,7 +30,7 @@ url: /zh/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * 改进了 XPS 和 Tiff 的渲染。
+ * 改进 XPS 和 Tiff 的渲染。
 
 ## Aspose.Cells for Reporting Services  22.4
 

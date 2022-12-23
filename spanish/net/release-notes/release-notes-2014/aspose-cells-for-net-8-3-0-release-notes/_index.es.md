@@ -20,19 +20,19 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43112): obtener texto de la ecuación de la línea de tendencia dentro del gráfico
 
-(CELLSNET-42303): conversión de gráfico a imagen en formato SVG
+(CELLSNET-42303) - Conversión de gráfico a imagen en formato SVG
 
 (CELLSNET-43158): compatibilidad para establecer la propiedad del libro de trabajo de Autorrecuperación
 
 ### **Insectos**
 
-(CELLSNET-41756) - Problema con las imágenes en la conversión de XLS a HTML
+(CELLSNET-41756) - Problema con las imágenes en la conversión XLS a HTML
 
-(CELLSNET-41755) - Problema con las imágenes en la conversión de XLS a PDF
+(CELLSNET-41755) - Problema con las imágenes en la conversión XLS a PDF
 
-(CELLSNET-43111): agregar valores de celda a los ajustes preestablecidos de eliminación de XLSB
+(CELLSNET-43111) - Adición de valores de celda a XLSB para eliminar ajustes preestablecidos
 
-(CELLSNET-43110) - Error "Excel encontró contenido ilegible" causado por un campo dinámico (doble) en la salida XLSB
+(CELLSNET-43110) - Error "Excel encontró contenido ilegible" causado por pivotfield (doble) en la salida XLSB
 
 (CELLSNET-43109) - Error "Excel encontró contenido ilegible" causado por pivotfield (doble) en la salida XLSX
 
@@ -46,13 +46,13 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-42797) - Los cuadros de texto pierden y justifican que la alineación se guarde en XPS
 
-(CELLSNET-42796) - Los cuadros de texto pierden la justificación de la alineación que se guarda en PDF
+(CELLSNET-42796) - Los cuadros de texto pierden y justifican que la alineación se guarde en PDF
 
 (CELLSNET-42199) - Excel Diagram no exporta correctamente
 
 (CELLSNET-40902): el cuadro de texto de Excel se redimensiona incorrectamente cuando se representa en la imagen
 
-(CELLSNET-43138): el texto rojo se representa en negro al convertir SpreadsheetML a formato PDF
+(CELLSNET-43138): el texto rojo se muestra en negro al convertir el formato SpreadsheetML al formato PDF
 
 (CELLSNET-43133): problema de impresión de copias múltiples
 
@@ -62,9 +62,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43101) - La impresión no respeta el diseño de la página
 
-(CELLSNET-42402) - El cumplimiento de PDF/A-1b falló con Adobe X Pro Preflight
+(CELLSNET-42402): el cumplimiento PDF/A-1b falló con Adobe X Pro Preflight
 
-(CELLSNET-41906) - La validación de PDF/A falla y otros problemas relacionados con las fuentes
+(CELLSNET-41906) - PDF/A La validación falla y otros problemas relacionados con las fuentes
 
 (CELLSNET-41832) - PDF/A creado con Aspose Cells verificaciones fallidas
 
@@ -80,7 +80,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-42988): las etiquetas de los ejes del gráfico cambian cuando el archivo de origen se abre y se vuelve a guardar.
 
-(CELLSNET-42945) - La posición de la leyenda del gráfico no está seleccionada para el formato XLS
+(CELLSNET-42945): la posición de la leyenda del gráfico no está seleccionada para el formato XLS
 
 (CELLSNET-41690) - La firma digital está perdiendo su transparencia
 
@@ -108,13 +108,13 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43094) - La fórmula del piso no se calcula correctamente
 
-(CELLSNET-43091) - El diseño del gráfico cambió al convertir ODS al formato XLSX
+(CELLSNET-43091): el diseño del gráfico cambió al convertir el formato ODS al formato XLSX
 
-(CELLSNET-43087) - La conversión de ODS a XLSX genera una hoja de cálculo dañada
+(CELLSNET-43087) - La conversión de ODS a XLSX produce una hoja de cálculo dañada
 
 (CELLSNET-43080) - Guardar Excel como Html: el formato condicional no funciona
 
-(CELLSNET-42969) - El formato condicional no se conserva al convertir una hoja de cálculo a PDF
+(CELLSNET-42969) - El formato condicional no se conserva al convertir la hoja de cálculo a PDF
 
 (CELLSNET-42356): la combinación de libros de trabajo no conserva las propiedades del objeto de dibujo en las hojas de trabajo.
 
@@ -124,7 +124,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43119) - Error de forma a imagen al convertir un archivo de Excel a PDF
 
-(CELLSNET-43078) - Ocurrió un error al cargar el archivo CSV
+(CELLSNET-43078) - Se produjo un error al cargar el archivo CSV
 
 (CELLSNET-43155) - CellsException: "Índice de estilo de fila no válido, índice de fila: 32" en Workbook ctor
 
@@ -132,7 +132,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43147) - CellsException: "Nombre de celda no válido" en el método WorksheetCollection.GetNamedRanges
 
-(CELLSNET-43113) - NullReferenceException al abrir el libro de trabajo XLSX
+(CELLSNET-43113): NullReferenceException al abrir el libro de trabajo XLSX
 
 (CELLSNET-43107) - System.OverflowException: el valor era demasiado grande o demasiado pequeño para un Int32, en Workbook ctor
 
@@ -146,7 +146,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43106): cambiar la posición de la barra de desplazamiento horizontal con respecto a la barra de pestañas a través del código
 
-### **Actuación**
+### **Rendimiento**
 
 (CELLSNET-43125): excepción System.OutOfMemory en GridWeb
 
@@ -154,7 +154,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43126) - TableItemStyle.Custom no funciona en GridWeb
 
-(CELLSNET-42745) - Problemas de alineación y formato de visualización al importar un archivo XLSX a GridWeb
+(CELLSNET-42745): problemas de formato de visualización y alineación al importar el archivo XLSX a GridWeb
 
 ### **Public API y cambios incompatibles con versiones anteriores**
 

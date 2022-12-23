@@ -6,7 +6,7 @@ url: /ar/java/get-cell-string-value-with-and-without-formatting/
 ---
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells طريقة[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) والتي يمكن استخدامها للحصول على قيمة سلسلة الخلية مع أو بدون أي تنسيق. افترض أن لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض منزلتين عشريتين فقط. سيتم عرضه بعد ذلك على أنه 0.01 في Excel. يمكنك استرداد قيم السلسلة مثل 0.01 و 0.012345 باستخدام امتداد[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) ) طريقة. تستغرق[CellValueFormatStrategy](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy)تعداد كمعامل يحتوي على القيم التالية
+ يوفر Aspose.Cells طريقة[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) والتي يمكن استخدامها للحصول على قيمة سلسلة الخلية مع أو بدون أي تنسيق. افترض أن لديك خلية بقيمة 0.012345 وقمت بتنسيقها لعرض منزلتين عشريتين فقط. سيتم عرضه بعد ذلك على أنه 0.01 في Excel. يمكنك استرداد قيم السلسلة مثل 0.01 و 0.012345 باستخدام امتداد[Cell.getStringValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStringValue\(int\) ) طريقة. فإنه يأخذ[CellValueFormatStrategy](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueFormatStrategy)تعداد كمعامل يحتوي على القيم التالية
 
 - [CellValueFormatStrategy.CELL_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#CELL_STYLE)
 - [CellValueFormatStrategy.DISPLAY_STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/cellvalueformatstrategy#DISPLAY_STYLE)

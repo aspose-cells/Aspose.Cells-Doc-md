@@ -14,7 +14,7 @@ url: /es/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Qué ha cambiado en Aspose.Cells:
 
-- Admite la exportación de archivos PDF encriptados.
+- Admite la exportación de archivos cifrados PDF.
 - 45 mejoras y correcciones.
 
  Qué ha cambiado en Aspose.Cells.GridWeb:
@@ -34,7 +34,7 @@ url: /es/net/aspose-cells-for-net-5-1-4-release-notes/
 
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |
-|20247 | SAO| Error en Formula cuando guardo como ODS|
+|20247 |ODS | Error en la fórmula cuando guardo como ODS|
 |18357 | pdf| Problema de conversión en gráficos PIE|
 |18925 | pdf| Problema Convertir Excel a PDF|
 |19883 | pdf| Lanzamiento de referencia de objeto no encontrado error|
@@ -50,8 +50,8 @@ url: /es/net/aspose-cells-for-net-5-1-4-release-notes/
 |20721 | Tabla dinámica| Cadena de entrada no tiene el formato correcto|
 |20228 | Hoja2Imagen| Compresión RLE que da como resultado TIFF bitonales|
 |20574 | Hoja2Imagen| La función Guardar en imagen no tiene el formato correcto|
-|20181 | Hoja de cálculoML| Una celda que usa la función Hipervínculo arroja una excepción|
-|20519 | Hoja de cálculoML| No se pudo obtener el contenido de Excel 2007 como XML|
+|20181 |SpreadsheetML | Una celda que usa la función Hipervínculo arroja una excepción|
+|20519 |SpreadsheetML | No se pudo obtener el contenido de Excel 2007 como XML|
 |20055 | xls| La fórmula contiene '\r'|
 |20152 | xls| Elija la función que no se evalúa correctamente después de insertar filas|
 |20168 | xls| Recálculo de funciones personalizadas de VBA|

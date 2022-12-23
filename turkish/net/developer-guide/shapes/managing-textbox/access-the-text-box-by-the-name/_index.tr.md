@@ -6,7 +6,7 @@ url: /tr/net/access-the-text-box-by-the-name/
 ---
 ## Metin Kutusuna Ada Göre Erişin
 
-Daha önce, metin kutularına dizinden erişilirdi.[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)koleksiyonu, ancak artık bu koleksiyondan metin kutusuna ada göre de erişebilirsiniz. Bu, adını zaten biliyorsanız, metin kutunuza erişmenin kolay ve hızlı bir yoludur.
+ Daha önce, metin kutularına dizinden erişilirdi.[**Worksheet.TextBoxes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)koleksiyonu, ancak artık bu koleksiyondan metin kutusuna ada göre de erişebilirsiniz. Bu, adını zaten biliyorsanız, metin kutunuza erişmenin kolay ve hızlı bir yoludur.
 
 Aşağıdaki örnek kod önce bir metin kutusu oluşturur ve ona biraz metin ve ad atar. Ardından sonraki satırlarda aynı text box'a ismi ile ulaşıp yazısını yazdırıyoruz.
 

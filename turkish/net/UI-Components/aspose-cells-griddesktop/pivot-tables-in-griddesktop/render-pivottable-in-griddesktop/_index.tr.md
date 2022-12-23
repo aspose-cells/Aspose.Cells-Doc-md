@@ -9,7 +9,7 @@ Excel dosyanızda bir Pivot Tablo varsa, GridDesktop Pivot Tabloyu yükleyebilir
 ## **PivotTable'ı GridDesktop'ta Oluştur**
  Aşağıdaki örnek kod,[Özet Tabloyu içeren Örnek Excel Dosyası](48496686.xlsx). Ekran görüntüsü, referans için bu örnek kodun yürütülmesinin sonucunu gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](render-pivottable-in-griddesktop_1.png)
+![yapılacaklar:resim_alternatif_metin](render-pivottable-in-griddesktop_1.png)
 
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-PivotTablesInGridDesktop-Form_RenderPivotTableInGridDesktop.cs" >}}

@@ -44,17 +44,17 @@ Wir sind
 - Das Kopieren von Dateien mit Aspose Cells erfordert Reparaturarbeiten
 - Stellen Sie sich eine Excel 97 XLS-Datei als Word-Dokument vor
 
- -Der Export in ein PDF-Diagramm unterscheidet sich von der Excel-Version
+ - Der Export in das Diagramm PDF unterscheidet sich von der Excel-Version
 
-- Der Export in ein PDF-Diagramm unterscheidet sich von Excel Version -2
+- Der Export in das Diagramm PDF unterscheidet sich von Excel Version -2
 
 -Zusätzliche Linien sind in die Diagramme eingebettet
 
-- Option Text umgeben von Anführungszeichen in CSV-Datei
+- Von Anführungszeichen umgebener Text in der Datei CSV
 - Benutzerdefinierte Eigenschaften durch Zeilenumbruch beschädigt
 - MS Excel-Berechnungen werden vor dem Speichern des Dokuments nicht abgeschlossen
 - Formel funktioniert nicht einwandfrei
-- WorkSheetCollection.AddCopy aktualisiert keine Referenzen
+- WorkSheetCollection.AddCopy aktualisiert keine Verweise
 - Problem beim Entfernen der Datenquelle in der Pivot-Tabelle
 - Problem beim Kopieren der Pivot-Tabelle (Formatierung)
 - Das Speichern im Excel97-2003-Format beschädigt die Datei

@@ -6,7 +6,7 @@ url: /fr/java/cut-and-paste-cells/
 ---
 ## **Couper et coller Cells**
 
-Aspose.Cells vous offre la possibilité de couper et coller des cellules dans une feuille de calcul en utilisant le[**insérerCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) méthode de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)le recueil. La[**insérerCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) accepte les paramètres suivants.
+Aspose.Cells vous offre la possibilité de couper et coller des cellules dans une feuille de calcul en utilisant le[**insérerCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) méthode de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)le recueil. Le[**insérerCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) accepte les paramètres suivants.
 
 - [**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)La plage de cellules à couper.
 - Index de ligne : l'index de la ligne dans laquelle insérer les cellules.

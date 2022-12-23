@@ -40,7 +40,7 @@ url: /ru/java/add-and-retrieve-data/
 |**Cell Типы значений**|**Описание**|
 |:- |:- |
 |[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|Указывает, что значение ячейки является логическим.|
-|[ЯВЛЯЕТСЯ_СВИДАНИЕ_ВРЕМЯ](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Указывает, что значением ячейки является дата/время.|
+|[ЯВЛЯЕТСЯ_ДАТИРОВАТЬ_ВРЕМЯ](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Указывает, что значением ячейки является дата/время.|
 |[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|Представляет, что ячейка содержит значение ошибки|
 |[НУЛЕВОЙ](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|Представляет собой пустую ячейку.|
 |[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|Указывает, что значение ячейки является числовым.|

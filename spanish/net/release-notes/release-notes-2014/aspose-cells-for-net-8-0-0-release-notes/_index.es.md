@@ -11,7 +11,7 @@ url: /es/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET se ha actualizado a la versión 8.0.0 y nos complace anunciar que esta versión trae la adición de más de 50 nuevas mejoras útiles.
-Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
+Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
 La siguiente es una lista de cambios en esta versión de Aspose.Cells.
@@ -38,9 +38,9 @@ Otras mejoras y cambios
 
 (CELLSNET-42417) - Error tipográfico en el nombre del método - SeriesCollection.SecondCatergoryData
 
-(CELLSNET-42413): escenarios perdidos durante la conversión de XLSB a XLSM
+(CELLSNET-42413) - Escenarios perdidos durante la conversión XLSB a XLSM
 
-### **Actuación**
+### **Rendimiento**
 
 (CELLSNET-42445): problema de rendimiento con el método AutoFitRow(int rowIndex)
 
@@ -48,7 +48,7 @@ Otras mejoras y cambios
 
 ## **Insectos**
 
-(CELLSNET-42367) - Problema de texto vertical en el PDF de salida
+(CELLSNET-42367): problema de texto vertical en la salida PDF
 
 (CELLSNET-42409) - El campo calculado no se calcula/imprime
 
@@ -60,7 +60,7 @@ Otras mejoras y cambios
 
 (CELLSNET-42358): problema de alineación de texto con casillas de verificación
 
-(CELLSNET-42357): faltan algunas casillas de verificación en el HTML de salida
+(CELLSNET-42357): faltan algunas casillas de verificación en el resultado HTML
 
 (CELLSNET-42352): faltan bordes al convertir XLSX a HTML
 
@@ -88,21 +88,21 @@ Otras mejoras y cambios
 
 (CELLSNET-42428) - Conversión de Excel a PDF - las filas no son visibles
 
-(CELLSNET-42421) - Falta el número 8 en el archivo PDF con algunos lectores
+(CELLSNET-42421) - Falta el número 8 en el archivo PDF con algunos espectadores
 
-(CELLSNET-42410): salto de página adicional en la conversión de Excel a PDF
+(CELLSNET-42410) - Conversión de salto de página adicional en Excel a PDF
 
-(CELLSNET-42338): discrepancias y problemas para valores y gráficos en el XPS de salida
+(CELLSNET-42338): discrepancias y problemas para valores y gráficos en la salida XPS
 
 (CELLSNET-41853) - Diseños de la página XLS completamente perdidos
 
-(CELLSNET-41803) - La barra de datos negativa no aparece en el PDF de salida
+(CELLSNET-41803): la barra de datos negativa no aparece en la salida PDF
 
-(CELLSNET-42473): el gráfico no contiene marcadores en el PDF de salida
+(CELLSNET-42473): el gráfico no contiene marcadores en la salida PDF
 
 (CELLSNET-42403): problema de ubicación y tamaño del gráfico al convertir XLSX a PDF
 
-(CELLSNET-42372): la serie de datos del gráfico se eliminó en los archivos XLSX de salida.
+(CELLSNET-42372): la serie de datos del gráfico se eliminó en los archivos de salida XLSX
 
 (CELLSNET-42055) - Archivo dañado con la última versión de MS Excel (2013)
 
@@ -116,7 +116,7 @@ Otras mejoras y cambios
 
 (CELLSNET-42424) - Salida WEEKNUM() incorrecta
 
-(CELLSNET-42412): algunas fórmulas no funcionan en el PDF de salida después de invocar CalculateFormula()
+(CELLSNET-42412): algunas fórmulas no funcionan en la salida PDF después de invocar CalculateFormula()
 
 (CELLSNET-42397): la propiedad de fórmula no funciona en el objeto de celda
 
@@ -173,7 +173,7 @@ Obtiene y establece la hora de generación del documento pdf.
 
 Agrega la enumeración FileFormatType.Ooxml
 
-Representa un archivo xml abierto de Office encriptado (como XLSX, DOCX, PPTX, etc.).
+Representa un archivo xml abierto de oficina encriptado (como XLSX, DOCX, PPTX, etc.).
 
 Agrega la propiedad LoadOptions.MemorySetting y la propiedad WorkbookSettings.MemorySetting
 

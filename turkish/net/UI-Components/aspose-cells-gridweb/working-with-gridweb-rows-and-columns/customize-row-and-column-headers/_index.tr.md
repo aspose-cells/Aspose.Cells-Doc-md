@@ -18,7 +18,7 @@ Bir satırın başlığını veya başlığını özelleştirmek için:
 
 **1. ve 2. satırın başlıkları özelleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](customize-row-and-column-headers_1.png)
+![yapılacaklar:resim_alternatif_metin](customize-row-and-column-headers_1.png)
 
 
 
@@ -32,7 +32,7 @@ Bir sütunun başlığını veya başlığını özelleştirmek için:
 
 **Sütun 1, 2 ve 3'ün başlıkları özelleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](customize-row-and-column-headers_2.png)
+![yapılacaklar:resim_alternatif_metin](customize-row-and-column-headers_2.png)
 
 
 

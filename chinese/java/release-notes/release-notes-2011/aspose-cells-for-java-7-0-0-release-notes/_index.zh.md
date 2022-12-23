@@ -34,7 +34,7 @@ url: /zh/java/aspose-cells-for-java-7-0-0-release-notes/
 对形状到图像功能进行了增强
 对图表到图像功能进行了增强
 Sheet-to-Image 功能得到增强
-增强了 Excel 到 PDF 的功能
+对 Excel-to-PDF 功能进行了增强
 增强了自动调整行/列功能
 
 已知问题/限制
@@ -44,8 +44,8 @@ Sheet-to-Image 功能得到增强
 此版本中有许多已知限制。 v7.0.0 中可能不支持的一些功能实际上在旧版本中受支持：
 
 - 使用 LightCells API
-读取 HTML 文件
-ODS 文件的读取/保存图表/形状
+读取 HTML 个文件
+读取/保存 ODS 文件的图表/形状
 读取 ODS 文件时保留宏并将宏保存回 ODS 文件
 
 

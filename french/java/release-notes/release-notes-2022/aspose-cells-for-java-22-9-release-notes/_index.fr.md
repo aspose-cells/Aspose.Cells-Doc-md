@@ -10,9 +10,9 @@ url: /fr/java/aspose-cells-for-java-22-9-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSJAVA-44194|La forme du dessin n'est pas rendue dans Excel au rendu PDF|
+|CELLSJAVA-44194|La forme de dessin n'est pas rendue dans Excel au rendu PDF|
 |CELLSJAVA-44864|Le chargement simultané de classeurs génère de fausses erreurs "Le fichier est corrompu"|
 |CELLSJAVA-44327|Bordures et moins de lignes affichées dans les tranches de tarte en noir et blanc dans le rendu du graphique au rendu d'image|
 |CELLSJAVA-44591|La rotation du texte des étiquettes ne correspond pas à Excel dans l'image de sortie du graphique|
@@ -20,10 +20,10 @@ url: /fr/java/aspose-cells-for-java-22-9-release-notes/
 |CELLSJAVA-44860|l'affichage du texte de la cellule n'est pas le même que dans excel dans certaines zones fusionnées|
 |CELLSJAVA-44832|Plusieurs pages sont sorties au lieu d'une page comme dans Excel lors de la conversion en pdf|
 |CELLSJAVA-44812|Impossible de réduire la zone de traçage du graphique|
-|CELLSJAVA-44831|MS Word affiche une erreur "Word a trouvé du contenu illisible dans..." lors de l'ouverture du fichier DOCX converti à partir de XLSX par Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word affiche une erreur "Word a trouvé du contenu illisible dans..." lors de l'ouverture du fichier converti DOCX à partir de XLSX par Aspose.Cells for Java|
 |CELLSJAVA-44833|La couleur du texte n'est pas appliquée à différents mots ou à une partie du contenu dans le fichier Excel de sortie lors de l'utilisation de la méthode Cell.setHtmlString()|
 |CELLSJAVA-44852| La bordure est incorrecte lorsque le fichier Excel statique est converti en HTML|
-|CELLSJAVA-44856| Conversion Excel en HTML - Sparkline (mini graphique) n'est pas affiché/rendu|
+|CELLSJAVA-44856| Conversion d'Excel en HTML - Sparkline (mini graphique) n'est pas affiché/rendu|
 |CELLSJAVA-44859|Certaines mises en forme Html ne fonctionnent pas pour les cellules de feuille de calcul dans un fichier Excel existant|
 |CELLSJAVA-44842|Exception "java.lang.OutOfMemoryError : Java heap space" lors de la conversion d'un fichier XLSX en PDF|
 

@@ -41,7 +41,7 @@ url: /fr/net/aspose-cells-for-net-5-1-3-release-notes/
 
  Problèmes résolus dans Aspose.Cells for .NET v5.1.3.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |19532 | GrilleWeb| Les valeurs de pourcentage saisies sont traitées comme des valeurs de chaîne.|
 |19584 | GrilleWeb| WebWorksheets.AddCopy() ne copie pas les formules.|
@@ -52,21 +52,21 @@ url: /fr/net/aspose-cells-for-net-5-1-3-release-notes/
 |19246 | GrilleDesktop| Cells problème de format de données - Les dates se transforment en nombres|
 |19336 | GrilleDesktop| Une exception est déclenchée lors de la fusion d'une plage de 0 lignes ou de 0 colonnes.|
 |19411 | GrilleDesktop| La fonction VLOOKUP ne prend pas en charge l'utilisation de la valeur double ou int|
-|19721 | HTML| L'enregistrement d'un document Excel au format HTML prend très longtemps|
+|19721 | HTML| L'enregistrement du document Excel sous HTML prend très longtemps|
 |17485 | PDF| Logo manquant et texte flou/léger|
-|18114 | PDF| Problème de conversion PDF|
-|19237 | PDF|Différence entre l'impression à partir d'Excel et la sortie au format PDF|
-|19392 | PDF| Largeur de l'image réduite lors de la conversion en PDF|
-|19409 | PDF| L'aspect et la convivialité du PDF diffèrent de XLSX|
+|18114 | PDF| PDF Problème de conversion|
+|19237 | PDF|Différence d'impression à partir d'Excel et de sortie vers PDF|
+|19392 | PDF| La largeur de l'image a été réduite lors de la conversion en PDF|
+|19409 | PDF| L'apparence et la sensation du PDF diffèrent de celles du XLSX|
 |19420 | PDF| Format de date|
 |19425 | PDF| Taille du fichier = 0 lors de la conversion en PDF|
 |19546 | PDF| Convertir ce fichier en PDF|
 |19651 | PDF| Le fichier Excel ne peut pas être converti en PDF en raison d'une erreur de format pdf non valide|
 |19873 | PDF| Le texte sort du tableau et ne s'imprime pas complètement|
-|19430 | Tableau croisé dynamique| 2003 XLS avec tableaux croisés dynamiques corrompus|
+|19430 | Tableau croisé dynamique| 2003 XLS avec des tableaux croisés dynamiques corrompus|
 |19542 | Tableau croisé dynamique| DataBordyRange ne renvoie pas la zone correcte|
 |19852 | Tableau croisé dynamique| Le tableau croisé dynamique provoque des erreurs dans les fichiers XLSX mais fonctionne correctement dans XLS|
-|19942 | SpreadML| Problème d'ouverture de document SpreadsheetML avec des attributs d'espace de noms|
+|19942 | SpreadML| SpreadsheetML problème d'ouverture de document avec des attributs d'espace de noms|
 |19052 | Xls| Copiez Excel avec le gestionnaire d'événements du bouton de commande|
 |19238 | Xls| getPrecedents renvoie une colonne 164|
 |19541 | Xls| Erreur sur la formule de tableau de plage nommée|
@@ -76,8 +76,8 @@ url: /fr/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | Xls| Problème avec les mots de passe et Excel 2003|
 |19901 | Xls| Problème INDEX ET FORMULES DE RECHERCHE dans GridWeb.|
 |19911 | Xls| Perte de formats d'étiquettes de points de données individuels|
-|19931 | Xls| Problème lors de l'ajout d'un lien hypertexte au Cell|
-|19934 | Xls|ImportTwoDimensionArray semble invalider certaines cellules|
+|19931 | Xls|Problème lors de l'ajout d'un lien hypertexte au Cell|
+|19934 | Xls| ImportTwoDimensionArray semble invalider certaines cellules|
 |19250 | Xlsx| Boîte de dialogue d'erreur de contenu illisible trouvé dans Excel|
 |19334 | Xlsx| Impossible d'ouvrir le classeur Excel contenant le graphique|
 |19341 | Xlsx| Problèmes avec les feuilles de calcul avec virgule|

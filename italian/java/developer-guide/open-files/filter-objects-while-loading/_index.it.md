@@ -5,7 +5,7 @@ weight: 1060
 url: /it/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 ## **Possibili scenari di utilizzo**
- Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter)property durante il filtraggio dei dati dalla cartella di lavoro. Ma se vuoi filtrare i dati da singoli fogli di lavoro, dovrai eseguire l'override[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) metodo. Si prega di fornire il valore appropriato da[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumerazione durante la creazione o l'utilizzo[Carica filtro](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+ Si prega di utilizzare[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) property durante il filtraggio dei dati dalla cartella di lavoro. Ma se vuoi filtrare i dati da singoli fogli di lavoro, dovrai eseguire l'override[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) metodo. Si prega di fornire il valore appropriato da[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) enumerazione durante la creazione o l'utilizzo[Carica filtro](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
  Il[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)enumerazione ha i seguenti valori.
 
@@ -38,7 +38,7 @@ url: /it/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STILE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Filtra oggetti durante il caricamento della cartella di lavoro**
- Il codice di esempio seguente illustra come filtrare i grafici dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5472489.xlsx) utilizzato in questo codice e il[uscita PDF](5472488.pdf)generato da esso. Come puoi vedere nel PDF di output, tutti i grafici sono stati filtrati dalla cartella di lavoro.
+ Il codice di esempio seguente illustra come filtrare i grafici dalla cartella di lavoro. Si prega di controllare[file excel di esempio](5472489.xlsx) utilizzato in questo codice e il[uscita PDF](5472488.pdf)generato da esso. Come puoi vedere nell'output PDF, tutti i grafici sono stati filtrati dalla cartella di lavoro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **Filtra oggetti durante il caricamento del foglio di lavoro**

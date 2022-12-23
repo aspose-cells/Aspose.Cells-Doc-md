@@ -34,7 +34,7 @@ GridWeb 控件提供了 ShowCellEditBox 属性，开发人员可以将其指定�
 
 **带有编辑框的 GridWeb 控件** 
 
-![待办事项：图像_替代_文本](enable-gridweb-editbox_1.png)
+![待办事项：图片_替代_文本](enable-gridweb-editbox_1.png)
 ### **例子**
 
 

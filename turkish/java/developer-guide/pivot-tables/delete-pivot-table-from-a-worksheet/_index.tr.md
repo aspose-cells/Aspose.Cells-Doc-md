@@ -10,7 +10,7 @@ url: /tr/java/delete-pivot-table-from-a-worksheet/
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
  Aşağıdaki örnek kod, çalışma sayfasından iki pivot tabloyu siler. İlk olarak, pivot tabloyu kullanarak kaldırır.[**Worksheet.getPivotTables().remove()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#remove(com.aspose.cells.PivotTable)) yöntemi ve ardından pivot tabloyu kullanarak kaldırır[**Worksheet.getPivotTables().removeAt()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#removeAt(int)) yöntem
 

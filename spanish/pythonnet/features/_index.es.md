@@ -12,12 +12,12 @@ Esta página resume las características de Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 ## **Formatos de archivo y conversiones**
-- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, valores separados por comas (CSV), HTML, hoja de cálculo OpenDocument (ODS), PDF, delimitado por tabuladores, texto sin formato (TXT) y formatos de imagen populares, incluido TIFF , JPG, PNG, BMP y SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP y SVG.
 ## **Renderizado e Impresión**
 - Renderizar hoja de cálculo a imágenes vectoriales (EMF)
-- Renderizar hojas de trabajo a imágenes rasterizadas (TIFF multipágina, GIF)
-- Renderice hojas de trabajo a imágenes rasterizadas (PNG, JPEG, etc.)
-- Renderizar hoja de cálculo a PDF con alta fidelidad
+- Renderizar hojas de trabajo a imágenes rasterizadas (Multipage TIFF, GIF)
+- Renderizar hojas de trabajo a imágenes rasterizadas (PNG, JPEG, etc.)
+- Renderizar hoja de cálculo al PDF con alta fidelidad
 ## **Características del contenido de la hoja de cálculo**
 - Copie o mueva hojas de trabajo dentro o entre libros de trabajo
 - Inserte imágenes, cree gráficos convencionales y personalizados y establezca un fondo degradado para gráficos usando API

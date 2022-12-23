@@ -5,7 +5,7 @@ weight: 30
 url: /ru/java/how-to-fix-java-lang-classnotfoundexception/ 
 ---
 Aspose.Cells for Java API зависит от некоторых дополнительных библиотек, если они отсутствуют, может быть выдано исключение в виде "java.lang.ClassNotFoundException".
-В этой статье перечислены такие исключения и объясняется, какие библиотеки установлены для их устранения.
+В этой статье перечислены такие исключения и объясняется, какие библиотеки установлены для их разрешения.
 
 ## Как исправить ClassNotFoundException: org.bouncycastle.jce.provider.BouncyCastleProvider
 ### **Резюме**

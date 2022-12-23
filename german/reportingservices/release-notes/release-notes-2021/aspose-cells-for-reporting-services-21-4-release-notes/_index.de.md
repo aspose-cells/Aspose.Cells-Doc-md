@@ -12,7 +12,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSRS-577|Unterstützung für den Export von TIFF.|Neue Funktion|
+|CELLSRS-577|Unterstützung für den Export TIFF.|Neue Funktion|
 |CELLSRS-578|Aktualisiert Version Aspose.Cells auf 21.4.2.| Verbesserung|
 
 

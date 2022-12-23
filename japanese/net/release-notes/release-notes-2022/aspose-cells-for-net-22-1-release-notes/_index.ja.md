@@ -21,22 +21,22 @@ url: /ja/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50017|チャート タイトルとチャート軸テキストの横にバブルを追加する方法|強化|
 |CELLSNET-50038|マルチレベル グループの折りたたみと展開に関する異なる動作|強化|
 |CELLSNET-50041|BMP 画像ファイルがヘッダー/フッターに表示されない|強化|
-|CELLSNET-50108|XLS から PDF: メモリ不足で変換が停止する|パフォーマンス|
-|CELLSNET-50128|行間が狭くなる - ExcelからPDFへの変換|バグ|
-|CELLSNET-50086|Cell PDF に変換すると色が消える|バグ|
+|CELLSNET-50108|XLS ～ PDF: メモリ不足で変換が停止する|パフォーマンス|
+|CELLSNET-50128|行間が狭くなる - Excel から PDF への変換|バグ|
+|CELLSNET-50086|PDF に変換すると Cell の色が消える|バグ|
 |CELLSNET-49996|MemoryPreference モードでセルのリッチ テキスト値が失われることがある|バグ|
 |CELLSNET-50042|セルの名前は、記録中に変更されます|バグ|
 |CELLSNET-50055|親ワークシートにアポストロフィがある場合、ローカル範囲名プロパティ FullText はエスケープされません|バグ|
 |CELLSNET-50154|GridWeb が .csv ファイルのキャッシュからの読み込み/保存に失敗する|バグ|
 |CELLSNET-50063|Excel ファイルを印刷すると、1 ページではなく 2 ページが表示される|バグ|
-|CELLSNET-50094|Excel から PDF への変換で、ワークシートの内容が正しく表示されない|バグ|
+|CELLSNET-50094|ワークシートの内容が Excel から PDF への変換で正しく表示されない|バグ|
 |CELLSNET-50129|ページを追うごとに印刷位置が上がっていく - ExcelからPDFへの変換|バグ|
 |CELLSNET-50131|文字がありません - Excel から PDF への変換|バグ|
 |CELLSNET-49578|Aspose.Cells によってグラフから計算された間違った最大/最小値|バグ|
 |CELLSNET-50087|シリーズ タイプを変更した後、出力チャートが正しく表示されない|バグ|
 |CELLSNET-50197|ウォーターフォール チャートの凡例を削除または非表示にすることはできません|バグ|
 |CELLSNET-50065|複数レベルの行グループの折りたたみと展開に関する異なる動作|バグ|
-|CELLSNET-50137|スクリプト内の XLSX から HTML への宣言されていない変数「ノード」|バグ|
+|CELLSNET-50137|XLSX ～ HTML スクリプト内で宣言されていない変数「ノード」|バグ|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine が列の自動調整で機能しない|バグ|
 |CELLSNET-50165|ファイルを保存すると、ふりがなのフォントが変更されます|バグ|
 |CELLSNET-50208|Html として保存すると一部のテキストが失われる|バグ|
@@ -46,7 +46,7 @@ url: /ja/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50097|Aspose.Cells 経由で XSLX ファイルを開く際の例外|例外|
 |CELLSNET-50133|FillFormat の比較時の NullReferenceException|例外|
 |CELLSNET-50138|XLSB ファイルを開く際の例外|例外|
-|CELLSNET-50016|グラフから EMF への不適切な軸の値|回帰|
+|CELLSNET-50016|グラフの EMF 軸の値が正しくない|回帰|
 |
 
 
@@ -72,7 +72,7 @@ url: /ja/net/aspose-cells-for-net-22-1-release-notes/
 
 ### **TxtLoadOptions.ExtendToNextSheet プロパティを追加します。**
 
-データの行数または列数が ms Excel の制限を超えた場合に、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
+データの行数または列数が ms Excel の制限を超える場合、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
 
 ### **ExternalLinkCollection.Clear() メソッドを追加します。**
 

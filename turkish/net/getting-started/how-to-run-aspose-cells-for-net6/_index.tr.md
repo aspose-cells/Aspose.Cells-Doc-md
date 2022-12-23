@@ -29,7 +29,7 @@ Aspose.Cells'i VS2022'deki Nuget paket yöneticisinden de kurabilirsiniz.
 2. "SkiaSharp" veya "System.Drawing.Common", projenizdeki "Hedef İşletim Sistemi" yapılandırmasına bağlı olan .Net6 platformları için Aspose.Cells 22.10.1 veya sonraki sürümlerin bir bağımlılığı olarak otomatik olarak kurulacaktır.
 - Projeniz için "Hedef İşletim Sistemi"ni "Windows" olarak ayarlayın, "System.Drawing.Common"u .Net6 projeniz için Windows sisteminize bağımlı olarak kullanacaksınız. Bu konfigürasyonda, çizimin sonucu .netcore31'e veya daha öncesine yakındır.
 **![Hedef işletim sistemini yapılandır](TargetOS.png)**
-- Projeniz için "Hedef İşletim Sistemi"ni "Yok" veya diğer seçenekler olarak ayarlayın, "SkiaSharp"ı .Net6 projesi için Windows sisteminize bir bağımlılık olarak kullanacaksınız. Lütfen SkiaSharp'ın şu anda pencerelerde EMF gibi formatları desteklemediğini unutmayın.
+- Projeniz için "Hedef İşletim Sistemi"ni "Yok" veya diğer seçenekler olarak ayarlayın, "SkiaSharp"ı .Net6 projesi için Windows sisteminize bir bağımlılık olarak kullanacaksınız. Lütfen SkiaSharp'ın şu anda pencerelerde EMF gibi biçimleri desteklemediğini unutmayın.
 
 ### msi veya DLL aracılığıyla yükleyin
 
@@ -49,7 +49,7 @@ Bu sayede .Net6 projeniz için windows sisteminize bağımlı olarak "System.Dra
 - System.Security.Cryptography.Pkcs, 6.0.1.
 - System.Text.Encoding.CodePages, 4.7.0.
 
-Bu sayede .Net6 projesi için Windows sisteminizde "SkiaSharp"ı bağımlılık olarak kullanmış olacaksınız. Lütfen SkiaSharp'ın şu anda pencerelerde EMF gibi formatları desteklemediğini unutmayın.
+Bu sayede .Net6 projesi için Windows sisteminizde "SkiaSharp"ı bağımlılık olarak kullanmış olacaksınız. Lütfen SkiaSharp'ın şu anda pencerelerde EMF gibi biçimleri desteklemediğini unutmayın.
 
 ## Linux'ta .Net6 için Aspose.Cells'i çalıştırın
 

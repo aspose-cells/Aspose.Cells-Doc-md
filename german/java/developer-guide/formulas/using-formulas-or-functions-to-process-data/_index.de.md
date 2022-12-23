@@ -47,7 +47,7 @@ Eines der überzeugenden Merkmale von Microsoft Excel ist die Fähigkeit, Daten 
 
  Aspose.Cells bietet Funktionen zum Registrieren von Zusatzfunktionen[**Arbeitsblätter.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Danach, wenn wir uns setzen[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn enthält die Excel-Ausgabedatei den berechneten Wert aus der AddIn-Funktion.
 
-Anschließend wird die XLAM-Datei zur Registrierung der Add-in-Funktion im unten stehenden Beispielcode heruntergeladen. Ebenso kann die Ausgabedatei „test_udf.xlsx“ heruntergeladen werden, um die Ausgabe zu überprüfen.
+Anschließend muss die Datei XLAM heruntergeladen werden, um die Add-In-Funktion im untenstehenden Beispielcode zu registrieren. Ebenso kann die Ausgabedatei „test_udf.xlsx“ heruntergeladen werden, um die Ausgabe zu überprüfen.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -67,8 +67,8 @@ Einige Microsoft Excel-Funktionen geben Arrays von Werten zurück. Um mehrere Er
 
  Es ist möglich, eine Matrixformel auf eine Zelle anzuwenden, indem Sie die aufrufen[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) Methode. Das[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int))-Methode nimmt die folgenden Parameter an:
 
-- **Array-Formel**, die Matrixformel.
-- **Reihenanzahl**die Anzahl der Zeilen, die das Ergebnis der Matrixformel füllen sollen.
+- **Array-Formel**die Matrixformel.
+- **Anzahl der Reihen**, die Anzahl der Zeilen, die das Ergebnis der Matrixformel füllen sollen.
 - **Anzahl der Spalten**, die Anzahl der Spalten, in die das Ergebnis der Matrixformel gefüllt werden soll.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

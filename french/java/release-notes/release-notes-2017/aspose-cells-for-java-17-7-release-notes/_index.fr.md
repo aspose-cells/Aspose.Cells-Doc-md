@@ -10,15 +10,15 @@ url: /fr/java/aspose-cells-for-java-17-7-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42322|Prise en charge de la fonction de filtre avancé (MS Excel) pour afficher les enregistrements répondant à des critères complexes|Nouvelle fonctionnalité|
 |CELLSJAVA-42336|ResultSet importe zéro au lieu d'une valeur nulle dans le fichier XLSX|Renforcement|
 |CELLSJAVA-42329|Améliorations nécessaires pour les filtres de données et les fonctionnalités de pagination - Aspose.Cells.GridWeb (Java)|Renforcement|
 |CELLSJAVA-41616|SaveCustomStyleFile n'est pas présent dans GridWeb (Java)|Renforcement|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() ne doit pas être une fonction statique (globale)|Renforcement|
-|CELLSJAVA-42327|Certaines formes sont déformées et modifiées dans le rendu Excel en PDF|Punaise|
-|CELLSJAVA-42290|Les mdashes et ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le PDF du graphique|Punaise|
+|CELLSJAVA-42327|Certaines formes sont déformées et modifiées dans Excel en rendu PDF|Punaise|
+|CELLSJAVA-42290|Les mdashes et les ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le graphique PDF|Punaise|
 |CELLSJAVA-42338|Mauvais résultats lors de l'utilisation des formules SUMIFS|Punaise|
 |CELLSJAVA-42337|Aspose.Cells est incapable de calculer la valeur de la cellule B4 de la feuille de calcul Calculs|Punaise|
 |CELLSJAVA-42330|Résultat étrange lors de la conversion d'Excel en PDF ou PDF/A à l'aide de threads|Punaise|
@@ -65,7 +65,7 @@ Rend le contrôle GridWeb compatible avec la taille actuelle de la fenêtre du n
 ### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
-- [Lire la feuille de calcul des nombres Développé par Apple Inc. en utilisant Aspose.Cells](/cells/fr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lire la feuille de calcul Numbers développée par Apple Inc. en utilisant Aspose.Cells](/cells/fr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Définir la propriété DefaultFont de PdfSaveOptions et ImageOrPrintOptions pour avoir la priorité](/cells/fr/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Importer des données de l'objet ResultSet de la base de données Access Microsoft dans la feuille de calcul](/cells/fr/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Appliquer le filtre avancé de Microsoft Excel pour afficher les enregistrements répondant à des critères complexes](/cells/fr/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

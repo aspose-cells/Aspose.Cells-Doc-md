@@ -7,13 +7,13 @@ url: /de/java/chart-rendering/
 ---
 ## **Erstellen von Diagrammen**
 
- Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagrammen, wie unter dem Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/java/creating-and-customizing-charts/)Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Spalte gemäß dem folgenden Ausschnitt.
+ Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagrammen, wie unter dem Thema beschrieben[Erstellen und Anpassen von Excel-Diagrammen](/cells/de/java/creating-and-customizing-charts/). Um die Verwendung von Aspose.Cells-APIs zum Rendern der Diagramme im Bild- und PDF-Format zu demonstrieren, erstellen wir ein Diagramm vom Typ Column gemäß dem folgenden Snippet.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **Diagramme rendern**
 
- Aspose.Cells APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um Rendering-Unterstützung bereitzustellen, wird die[**Diagramm**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)Klasse hat ausgesetzt[**vorstellen**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**zuPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) Methoden mit einer Vielzahl von Überladungen, um den Anwendungsanforderungen am besten zu entsprechen.
+ Aspose.Cells-APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um Rendering-Unterstützung bereitzustellen, wird die[**Diagramm**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)Klasse hat ausgesetzt[**vorstellen**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**zuPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) Methoden mit einer Vielzahl von Überladungen, um den Anwendungsanforderungen am besten zu entsprechen.
 
 ### **Rendern von Diagrammen in Bilder**
 
@@ -25,9 +25,9 @@ Es ist auch möglich, die Diagramme mit erweiterten Einstellungen in Bilder zu r
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Diagramm in PDF rendern**
+### **Rendering-Diagramm bis PDF**
 
- Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die bereitgestellt[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))-Methode mit der Möglichkeit, das resultierende PDF im Disc-Pfad oder einer Instanz von OutputStream zu speichern.
+ Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream))-Methode mit der Möglichkeit, das Ergebnis PDF auf dem Datenträgerpfad oder einer Instanz von OutputStream zu speichern.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -79,7 +79,7 @@ Es ist auch möglich, die Diagramme mit erweiterten Einstellungen in Bilder zu r
 |**Radar**|Radar|**Y**|
 ||RadarWithDataMarkers|**Y**|
 ||Radargefüllt|**Y**|
-|**Auftauchen**|Surface3D|N|
+|**Oberfläche**|Surface3D|N|
 ||SurfaceWireframe3D|N|
 ||Oberflächenkontur|N|
 ||SurfaceContourWireframe|N|
@@ -121,12 +121,12 @@ Es ist auch möglich, die Diagramme mit erweiterten Einstellungen in Bilder zu r
 
 {{% alert color="primary" %}}
 
-Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDFs.
+Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
 
 {{% /alert %}}
 
 
 ## **Themen vorantreiben**
-- [Konvertieren eines Diagramms in ein Bild im SVG-Format](/cells/de/java/converting-chart-to-image-in-svg-format/)
-- [Diagramm-PDF mit gewünschter Seitengröße erstellen](/cells/de/java/create-chart-pdf-with-desired-page-size/)
-- [Diagramm mit viewBox-Attribut nach SVG exportieren](/cells/de/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Konvertieren des Diagramms in ein Bild im Format SVG](/cells/de/java/converting-chart-to-image-in-svg-format/)
+- [Diagramm PDF mit gewünschter Seitengröße erstellen](/cells/de/java/create-chart-pdf-with-desired-page-size/)
+- [Diagramm nach SVG mit viewBox-Attribut exportieren](/cells/de/java/export-chart-to-svg-with-viewbox-attribute/)

@@ -24,12 +24,12 @@ url: /ar/java/aspose-cells-for-java-22-6-release-notes/
 |CELLSJAVA-44646|يؤدي مسح المحتوى على الورقة المنسوخة إلى ظهور NullPointerException|
 |CELLSJAVA-44656|يقوم Cells.getMaxDataColumn بإرجاع قيمة مختلفة (خاطئة) في 22.5|
 |CELLSJAVA-44650|صفحة مستند Excel غير مرتبة عند التحميل في Aspose.Cells.GridWeb (Java)|
-|CELLSJAVA-44660|مشكلة في محاذاة البيانات عند تحميل XLS في Aspose.Cells.GridWeb (Java)|
+|CELLSJAVA-44660|مشكلة تتعلق بمحاذاة البيانات عند تحميل XLS إلى Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|مشكلة عند تحميل ملف et في Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|يتم تدوير عنوان المحور في المخطط في صورة الإخراج - تحويل الرسم البياني إلى الصورة|
-|CELLSJAVA-44615|خط رمادي مرسوم في صورة الإخراج من ملف XLS|
-|CELLSJAVA-44665|توقف تحميل ملف ODS|
-|CELLSJAVA-44651|خطأ "ليست قيمة رقمية" عند تحويل ورقة Excel إلى HTML / PDF|
+|CELLSJAVA-44615|رسم خط رمادي في صورة الإخراج من ملف XLS|
+|CELLSJAVA-44665|توقف تحميل ODS الملف|
+|CELLSJAVA-44651|خطأ "ليست قيمة رقمية" عند تحويل ورقة Excel إلى HTML/PDF|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
@@ -49,7 +49,7 @@ url: /ar/java/aspose-cells-for-java-22-6-release-notes/
 
 ### **يضيف Cell.GetPrecedentsInCalculation () طريقة**
 
-وفقًا لسلسلة الحساب الحالية ، احصل على جميع السابقات (مرجع للخلايا في المصنف الحالي) المستخدمة بواسطة صيغة هذه الخلية أثناء حسابها.
+وفقًا لسلسلة الحساب الحالية ، احصل على جميع السابقات (الإشارة إلى الخلايا في المصنف الحالي) المستخدمة بواسطة صيغة هذه الخلية أثناء حسابها.
 
 ### **عفا عليها الزمن Cell. GetLeafs () و Cell.**
 

@@ -18,25 +18,25 @@ url: /ar/net/cells-font-settings/
 
 ### **تعيين اسم الخط**
 
- يمكن للمطورين تطبيق أي خط على نص داخل خلية باستخدام[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[اسم](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)منشأه.
+ يمكن للمطورين تطبيق أي خط على نص داخل خلية باستخدام[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[اسم](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
 ### **تعيين نمط الخط إلى غامق**
 
- يمكن للمطورين جعل النص غامقًا عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) الملكية ل**حقيقي**.
+ يمكن للمطورين جعل النص غامقًا عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**IsBold**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isbold) ملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontStyle-SetFontStyle.cs" >}}
 
 ### **ضبط حجم الخط**
 
-اضبط حجم الخط بامتداد[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)أشياء[**بحجم**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)منشأه.
+اضبط حجم الخط بامتداد[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)أشياء[**بحجم**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
 ### **ضبط لون الخط**
 
-استخدم ال[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**اللون**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)خاصية لتعيين لون الخط. حدد أي لون من تعداد اللون (جزء من إطار عمل .NET) وقم بتعيينه إلى[**اللون**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)منشأه.
+استخدم ال[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**اللون**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)خاصية لتعيين لون الخط. حدد أي لون من تعداد اللون (جزء من إطار عمل .NET) وقم بتعيينه إلى[**اللون**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
@@ -56,13 +56,13 @@ url: /ar/net/cells-font-settings/
 
 ### **إعداد تأثير الشطب**
 
-تطبيق الشطب عن طريق ضبط[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)الملكية ل**حقيقي**.
+تطبيق الشطب عن طريق ضبط[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) أشياء[**IsStrikeout**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/isstrikeout)ملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingStrikeOutEffect-SetStrikeout.cs" >}}
 
 ### **إعداد تأثير منخفض**
 
-تطبيق منخفض عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)أشياء[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) الملكية ل**حقيقي**.
+تطبيق منخفض عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)أشياء[**IsSubScript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) ملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingSubScriptEffect-SetSubscript.cs" >}}
 

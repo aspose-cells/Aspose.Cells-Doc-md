@@ -8,7 +8,7 @@ keywords: Exporting Workbook to word without office 2013, office 2016, office 20
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via Java は、Excel (.xls、xlsx、.xlsb、xlsm)、CSV、OpenOffice (.ods) ファイルから Word ファイルへの変換をサポートしています。
+Aspose.Cells for Python via Java は、Excel (.xls、xlsx、.xlsb、xlsm)、CSV、OpenOffice (.ods) ファイルの Word ファイルへの変換をサポートしています。
 
 {{% /alert %}}
 

@@ -5,7 +5,7 @@ weight: 20
 url: /zh/java/converting-excel-files-to-html-in-php/
 ---
 ## **Aspose.Cells - 将 Excel 文件转换为 HTML**
-要在 PHP 中使用 Aspose.Cells for Java 将 Excel 转换为 HTML，只需调用工作表_至_Converter 模块的 html() 方法。
+要在 PHP 中使用 Aspose.Cells for Java 将 Excel 转换为 HTML，只需调用工作表_到_Converter 模块的 html() 方法。
 
 **PHP代码**
 

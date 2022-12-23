@@ -6,17 +6,17 @@ url: /es/java/render-the-worksheet-and-workbook-to-image-using-imageorprintoptio
 ---
 {{% alert color="primary" %}}
 
-Este documento está diseñado para proporcionar una comprensión detallada de cómo convertir una hoja de trabajo o un libro de trabajo en un archivo de imagen y aplicar diferentes opciones de imagen e impresión para la imagen, opciones como resolución, compresión TIFF, formato de imagen y calidad de página.
+Este documento está diseñado para proporcionar una comprensión detallada de cómo convertir una hoja de trabajo o un libro de trabajo en un archivo de imagen y aplicar diferentes opciones de imagen e impresión para la imagen, opciones como resolución, TIFF compresión, formato de imagen y calidad de página.
 
 {{% /alert %}}
 
-## **Visión general**
+## **Descripción general**
 
 veces, es posible que necesite presentar sus hojas de trabajo como una representación pictórica. Debe presentar las imágenes de la hoja de trabajo en sus aplicaciones o páginas web. Es posible que deba insertar las imágenes en un documento de Word, un archivo PDF, una presentación PowerPoint o usarlas en algún otro escenario. Simplemente desea una hoja de trabajo representada como una imagen para poder usarla en otro lugar. Aspose.Cells admite la conversión de hojas de trabajo en archivos de Excel a imágenes. Además, Aspose.Cells admite la configuración de diferentes opciones como formato de imagen, resolución (tanto vertical como horizontal), calidad de imagen y otras opciones de imagen e impresión.
 
 El API proporciona varias clases valiosas, por ejemplo,[**HojaRenderizar**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), etc.
 
- los[**HojaRenderizar**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) La clase se encarga de la tarea de renderizar imágenes para la hoja de trabajo, mientras que la[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)hace lo mismo para un libro de trabajo. Ambas clases mencionadas tienen varias versiones sobrecargadas del*a la imagen*método que puede convertir directamente una hoja de trabajo o un libro de trabajo en archivos de imagen especificados con los atributos u opciones deseados. Puede guardar el archivo de imagen en el disco/secuencia. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
+ Él[**HojaRenderizar**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) La clase se encarga de la tarea de renderizar imágenes para la hoja de trabajo, mientras que la[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)hace lo mismo para un libro de trabajo. Ambas clases mencionadas tienen varias versiones sobrecargadas del*a la imagen*método que puede convertir directamente una hoja de trabajo o un libro de trabajo en archivos de imagen especificados con los atributos u opciones deseados. Puede guardar el archivo de imagen en el disco/secuencia. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIFF, JPEG, TIFF, EMF, etc.
 
 ### **Convertir hoja de trabajo en imagen**
 
@@ -38,7 +38,7 @@ O puede recorrer el libro de trabajo y representar cada hoja de trabajo en una i
 
 {{% alert color="primary" %}}
 
- los[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) La clase solo puede guardar el libro de trabajo en formato TIFF.
+ Él[**WorkbookRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender) La clase solo puede guardar el libro de trabajo en el formato TIFF.
 
 {{% /alert %}}
 

@@ -1,16 +1,16 @@
 ﻿---
-title: Alle Arbeitsblattspalten auf einer einzigen PDF-Seite einpassen
+title: Alle Arbeitsblattspalten auf einer Seite PDF einpassen
 type: docs
 weight: 70
 url: /de/java/fit-all-worksheet-columns-on-single-pdf-page/
 ---
 {{% alert color="primary" %}}
 
- Manchmal möchten Sie eine PDF-Datei generieren, die alle Spalten eines Arbeitsblatts auf eine einzelne Seite passt. Das[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet) property bietet diese Funktion auf sehr benutzerfreundliche Weise. Komplexe Berechnungen wie Höhe und Breite der ausgegebenen PDF-Seite werden intern gehandhabt und basieren auf den Daten im Arbeitsblatt.
+ Manchmal möchten Sie eine PDF-Datei generieren, die alle Spalten eines Arbeitsblatts auf eine einzelne Seite passt. Das[**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)property bietet diese Funktion auf sehr benutzerfreundliche Weise. Komplexe Berechnungen wie Höhe und Breite der Ausgabeseite PDF werden intern gehandhabt und basieren auf den Daten im Arbeitsblatt.
 
 {{% /alert %}}
 
-## **Arbeitsblattspalten auf einzelne PDF-Seite einpassen**
+## **Arbeitsblattspalten auf einzelne Seite PDF einpassen**
 
 [**PdfSaveOptions.setAllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#AllColumnsInOnePagePerSheet)stellt sicher, dass alle Spalten eines Arbeitsblatts auf einer einzigen PDF-Seite gerendert werden, obwohl Zeilen je nach den Daten im Arbeitsblatt auf mehrere Seiten erweitert werden können.
 
@@ -26,6 +26,6 @@ Wenn ein bestimmtes Arbeitsblatt viele Spalten hat, zeigt die gerenderte PDF-Dat
 
 {{% alert color="primary" %}}
 
- Wenn Ihre Tabellenkalkulation Formeln enthält, rufen Sie am besten an[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())-Methode direkt vor dem Rendern der Tabelle im PDF-Format. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte im PDF wiedergegeben werden.
+Wenn Ihre Tabellenkalkulation Formeln enthält, rufen Sie am besten an[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())-Methode kurz vor dem Rendern der Tabelle in das PDF-Format. Dadurch wird sichergestellt, dass die formelabhängigen Werte neu berechnet und die richtigen Werte in PDF wiedergegeben werden.
 
 {{% /alert %}}

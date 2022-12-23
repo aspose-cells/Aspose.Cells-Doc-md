@@ -10,10 +10,10 @@ url: /fr/net/aspose-cells-for-net-21-2-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-42427|Prise en charge du pourcentage de format d'affichage de colonne pour le tableau croisé dynamique|Nouvelle fonctionnalité|
-|CELLSNET-44288|Utilisation de LightCells API avec des fichiers XLSB|Nouvelle fonctionnalité|
+|CELLSNET-44288|Utilisation de LightCells API avec les fichiers XLSB|Nouvelle fonctionnalité|
 |CELLSNET-47817|Mettez à jour la source de données lorsque vous remplacez le graphique en cascade par un graphique à colonnes.|Renforcement|
 |CELLSNETCORE-99|Prise en charge de la mise à jour de l'icône d'affichage pour les objets jpg, zip et msg intégrés.|Renforcement|
 |CELLSNET-47827|Accrochez-vous à CalculateFormula|Performance|
@@ -21,14 +21,14 @@ url: /fr/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNETCORE-98|Chargement des résultats xlsb avec une exception OOM|Performance|
 |CELLSNET-47805|Mauvaise position de certaines polylignes lors de l'enregistrement de fichiers .html.|Punaise|
 |CELLSNET-47810|La position de la flèche est incorrecte|Punaise|
-|CELLSNET-43717|Le tri des champs croisés dynamiques ne se rend pas au format PDF|Punaise|
+|CELLSNET-43717|Le tri des champs croisés dynamiques ne s'affiche pas en PDF|Punaise|
 |CELLSNET-43751|Le tri des étiquettes de ligne est perdu après la référence du tableau croisé dynamique|Punaise|
-|CELLSNET-47777|Erreurs de formatage dans le HTML converti|Punaise|
+|CELLSNET-47777|Erreurs de formatage dans HTML converti|Punaise|
 |CELLSNET-47824|Problème avec la formule PPMT qui donne un mauvais résultat|Punaise|
 |CELLSNET-47847| Mauvaise référence de formule après la suppression de lignes|Punaise|
 |CELLSNET-47818|Shape.ToImage ne restitue pas le texte dans l'environnement docker|Punaise|
 |CELLSNET-47820|Les bordures sont manquantes dans Aspose EMF/OfficeCompatibleEMF converti à partir de XLSX|Punaise|
-|CELLSNET-47844| Conversion incorrecte de la cellule au format comptable à double soulignement lors de l'enregistrement au format PDF|Punaise|
+|CELLSNET-47844| Mauvaise conversion de la cellule au format comptable à double soulignement lors de l'enregistrement en PDF|Punaise|
 |CELLSNET-47819|Les étiquettes de données ne s'affichent pas correctement lors de l'enregistrement|Punaise|
 |CELLSNET-47821|Les étiquettes de données ne sont pas correctes|Punaise|
 |CELLSNET-47813| Comportement étrange (et différences) avec le graphique Treemap (et d'autres graphiques avancés)|Punaise|
@@ -38,7 +38,7 @@ url: /fr/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47838|La palette de couleurs du graphique natif n'est pas conservée|Punaise|
 |CELLSNET-47845| Bordures supprimées de manière inattendue après le collage avec le type de collage DefaultExceptBorders|Punaise|
 |CELLSNET-47848|Problème avec la suppression du filtre automatique de ListObject ou l'indicateur Ajouter un bouton de filtre pour celui-ci|Punaise|
-|CELLSNET-47840|Exception déclenchée lors de l'ouverture d'un fichier Excel généré à partir d'un code HTML|Exception|
+|CELLSNET-47840|Exception levée lors de l'ouverture du fichier Excel généré à partir d'un HTML|Exception|
 |CELLSNET-47841|StackOverflowException avec le fichier xlsx|Exception|
 |CELLSNET-47854|Cells.Find génère une exception lorsque le fichier est ouvert via le flux|Exception|
 |CELLSNET-47825| Aspose.Cells 21.01 Exception à l'ouverture du document|Exception|

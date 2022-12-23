@@ -16,15 +16,15 @@ url: /tr/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43191| Yanlış yazı tipi türleri belirtilirken senaryoları işlemek için araçlar sağlanıyor mu?|Artırma|
 |CELLSJAVA-43319|Formül ile hücre değeri alma sorunu|Böcek|
 |CELLSJAVA-43330|XLSB dosyasını yeniden kaydettikten sonra sorun - bozuk dosya|Böcek|
-|CELLSJAVA-43333|Excel'i HTML olarak işlerken resimler ve metin konumlandırması yanlış|Böcek|
+|CELLSJAVA-43333|Excel HTML olarak işlenirken resimler ve metin konumlandırması yanlış|Böcek|
 |CELLSJAVA-43321|Otomatik Filtre sorunu - boş satırlar görüntüleniyor|Böcek|
 |CELLSJAVA-43335|Çalışma kitabında formüller hesaplanırken kilitlenme oluştu|Böcek|
 |CELLSJAVA-43313|Grafik etiketi yazdırıldığında konumunu değiştirir|Böcek|
 |CELLSJAVA-43314|%100 Pasta grafikleri için %0/100 satırı yazdırılmıyor|Böcek|
 |CELLSJAVA-43316| Grafikleri yazdırırken çeşitli sorunlar|Böcek|
-|CELLSJAVA-40582|Akıllı sanat metni, PDF/görüntüye doğru şekilde işlenmiyor|Böcek|
+|CELLSJAVA-40582|Akıllı sanat metni, PDF/image'e doğru şekilde işlenmedi|Böcek|
 |CELLSJAVA-41639|"XML Elektronik Tablo 2003" biçiminden XLSX biçimine dönüştürülürken sütun genişlikleri korunmaz|Böcek|
-|CELLSJAVA-43315|XLS'yi XLSX'e dönüştürmek dosyayı bozar ve XLSX çıktısını PDF'ye dönüştürürken "Şekilden Görüntüye" hatası verir|Böcek|
+|CELLSJAVA-43315|XLS'in XLSX'e dönüştürülmesi dosyayı bozar ve XLSX çıktısı PDF'e dönüştürülürken "Şekilden Görüntüye" hatası verir|Böcek|
 |CELLSJAVA-43334|Tablo sorununda Otomatik Filtreleme|Böcek|
 |
 

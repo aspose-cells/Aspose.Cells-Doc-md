@@ -14,7 +14,7 @@ Um die Schriftart und Farbe einer Zelle mit Aspose.Cells.GridDesktop zu ändern,
 
 -  Greifen Sie beliebig zu**Arbeitsblatt**
 -  Zugriff a**Cell** auf die wir a anwenden wollen**Stil**
--  Erhalten**Stil** des**Cell**
+-  Bekommen**Stil** des**Cell**
 -  Satz**Stil** Eigenschaften nach Ihren individuellen Bedürfnissen
 -  Endlich einstellen**Stil** des**Cell** mit dem aktualisierten
 
@@ -55,7 +55,7 @@ Eine Grenze besteht aus einer Linie. Das Ändern des Linientyps ändert das Auss
 ## **Zahlenformate einstellen**
 Aspose.Cells.GridDesktop bietet auch eine starke Funktion zum Festlegen von Zahlenformaten für die in Zellen eingegebenen Werte. Es gibt 58 integrierte Zahlenformate, die von Aspose.Cells.GridDesktop angeboten werden. Eine vollständige Liste aller unterstützten Zahlenformate finden Sie unter[Unterstützte Zahlenformate.](/cells/de/net/list-of-supported-number-formats/)
 
- Allen eingebauten Zahlenformaten wird ein zugewiesen**Index** Nummer.**Zum Beispiel** das**Index** Anzahl von**0.00E+00** Zahlenformat ist**11** . Um ein integriertes Zahlenformat in einer beliebigen Zelle zu verwenden, können Entwickler die NumberFormat-Eigenschaft von festlegen**Stil** Widerspruch gegen die**Index** Nummer dieses bestimmten Zahlenformats. Wenn Entwickler jedoch ein eigenes benutzerdefiniertes Zahlenformat benötigen, können sie auch die benutzerdefinierte Eigenschaft von verwenden**Stil** Objekt.
+ Allen eingebauten Zahlenformaten wird ein zugewiesen**Index** Anzahl.**Zum Beispiel** Die**Index** Anzahl von**0.00E+00** Zahlenformat ist**11** . Um ein integriertes Zahlenformat in einer beliebigen Zelle zu verwenden, können Entwickler die NumberFormat-Eigenschaft von festlegen**Stil** Widerspruch gegen die**Index** Nummer dieses bestimmten Zahlenformats. Wenn Entwickler jedoch ein eigenes benutzerdefiniertes Zahlenformat benötigen, können sie auch die benutzerdefinierte Eigenschaft von verwenden**Stil** Objekt.
 
 
 

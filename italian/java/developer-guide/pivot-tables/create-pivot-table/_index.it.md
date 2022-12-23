@@ -15,7 +15,7 @@ url: /it/java/create-pivot-table/
 Gli oggetti della tabella pivot sono:
 
 - [**Campo pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): rappresenta un campo in una tabella pivot.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : rappresenta una raccolta di tutte le[**Campo pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)oggetti nella tabella pivot.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) rappresenta una raccolta di tutte le[**Campo pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)oggetti nella tabella pivot.
 - [**Tabella pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): rappresenta una tabella pivot.
 - [**Raccolta di tabelle pivot**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): rappresenta la raccolta di tutti gli oggetti tabella pivot sul foglio di lavoro.
 

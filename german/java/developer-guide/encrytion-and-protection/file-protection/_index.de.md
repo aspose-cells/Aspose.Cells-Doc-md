@@ -15,7 +15,7 @@ Microsoft Excel (97 - 365 ) ermöglicht es Ihnen, Ihre Tabellenkalkulationen zu 
 In MS Excel (z. B. MS Excel 2003) können Sie zum Implementieren von Dateiverschlüsselungseinstellungen Folgendes versuchen:
 
 -  Von dem**Werkzeug** Menü, auswählen**Optionen** , und wählen Sie dann die aus**Sicherheit** Tab.
--  Eingang**Passwort zum Öffnen** und klicken Sie auf die**Fortschrittlich** Taste.
+-  Eingang**Passwort zum öffnen** und klicken Sie auf die**Fortschrittlich** Knopf.
 - Wählen Sie den Verschlüsselungstyp und bestätigen Sie das Passwort.
 
 ![todo: Bild_alt_Text](encrypting-excel-files_1.png)

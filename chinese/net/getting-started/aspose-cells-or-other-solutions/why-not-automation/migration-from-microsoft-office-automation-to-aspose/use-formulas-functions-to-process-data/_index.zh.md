@@ -151,12 +151,12 @@ void AddingCellFormula()
 
 ### **1) VSTO**
 
-![待办事项：图像_替代_文本](use-formulas-functions-to-process-data_1.png)
+![待办事项：图片_替代_文本](use-formulas-functions-to-process-data_1.png)
 
 **图1：**使用 VSTO 的公式输出
 
 ### **2) Aspose.Cells for .NET**
 
-![待办事项：图像_替代_文本](use-formulas-functions-to-process-data_2.png)
+![待办事项：图片_替代_文本](use-formulas-functions-to-process-data_2.png)
 
 **图 2：**使用公式输出 Aspose.Cells for .NET

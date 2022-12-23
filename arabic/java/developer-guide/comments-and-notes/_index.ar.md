@@ -13,7 +13,7 @@ keywords: insert comments, insert notes
 
 ## **إضافة تعليق**
 
- أضف تعليقًا إلى خلية عن طريق استدعاء[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة**يضيف** طريقة (مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) هدف). الجديد[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) يمكن الوصول إلى الكائن من خلال[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة عن طريق تمرير فهرس التعليقات. بعد الوصول إلى ملف[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) ، قم بتخصيص ملاحظة التعليق باستخدام[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) أشياء[**ملحوظة**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)منشأه.
+ أضف تعليقًا إلى خلية عن طريق استدعاء[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة**يضيف** طريقة (مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) موضوع). الجديد[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) يمكن الوصول إلى الكائن من خلال[**تعليقات**](https://reference.aspose.com/cells/java/com.aspose.cells/CommentCollection) المجموعة عن طريق تمرير فهرس التعليقات. بعد الوصول إلى ملف[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) ، قم بتخصيص ملاحظة التعليق باستخدام[**تعليق**](https://reference.aspose.com/cells/java/com.aspose.cells/Comment) أشياء[**ملحوظة**](https://reference.aspose.com/cells/java/com.aspose.cells/comment#Note)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddingComment-1.java" >}}
 

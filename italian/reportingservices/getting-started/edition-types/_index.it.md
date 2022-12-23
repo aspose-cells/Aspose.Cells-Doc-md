@@ -15,10 +15,10 @@ Aspose.Cells for Reporting Services offre un solo tipo di edizione. Le caratteri
 | Creazione di sorgenti dati e query.| sì|
 | Parametri di Reporting Services come origine dati del report.| sì|
 | Variabili globali di Reporting Services come origine dati del report.| sì|
-| Formule di Reporting Services come origine dati del report.| sì|
-| Formula dinamica di Microsoft Excel.| sì|
+|Formule di Reporting Services come origine dati del report.| sì|
+| Microsoft Formula dinamica di Excel.| sì|
 | Specifica dell'origine dati condivisa come origine dati del report al momento della pubblicazione.| sì|
-| Tabelle pivot di Microsoft Excel.| sì|
+| Microsoft Tabelle pivot di Excel.| sì|
 | Grafici interattivi.| sì|
 | VBA e macro.| sì|
 | Pubblicazione report e anteprima.| sì|

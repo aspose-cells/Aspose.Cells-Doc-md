@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/java/insert-ranges-to-Excel/
 ---
-## **giriiş**
+## **Giriş**
 
 Excel'de bir aralık seçebilir, ardından bir aralık ekleyebilir ve diğer verileri sağa veya aşağı kaydırabilirsiniz.
 

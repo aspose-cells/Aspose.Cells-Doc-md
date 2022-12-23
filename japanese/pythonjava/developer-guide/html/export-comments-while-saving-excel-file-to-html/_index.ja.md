@@ -1,11 +1,11 @@
 ﻿---
-title: Excel ファイルを HTML に保存しながらコメントをエクスポートする
+title: ExcelファイルをHTMLに保存しながらコメントをエクスポートする
 type: docs
 weight: 60
 url: /ja/python-java/export-comments-while-saving-excel-file-to/
 ---
-## **Excel ファイルを HTML に保存しながらコメントをエクスポートする**
-Excel を HTML に変換すると、コメントはエクスポートされません。 Aspose.Cells for Python via Java は、Excel から HTML への変換中にコメントをエクスポートする機能を提供します。これを実現するために、API は[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)財産。値の設定[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)プロパティへ**真実**出力 HTML にコメントをエクスポートします。
+## **ExcelファイルをHTMLに保存しながらコメントをエクスポートする**
+Excel を HTML に変換すると、コメントがエクスポートされません。 Aspose.Cells for Python via Java は、Excel から HTML への変換中にコメントをエクスポートする機能を提供します。これを実現するために、API は[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)財産。値の設定[HtmlSaveOptions.IsExportComments](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#IsExportComments)プロパティへ**真実**出力 HTML にコメントをエクスポートします。
 
 次のスクリーンショットは、サンプル コード スニペットによって生成された出力 HTML ファイルを示しています。
 

@@ -12,7 +12,7 @@ url: /zh/java/determine-if-shape-is-smart-art-shape/
 
 下面的示例代码加载[示例 Excel 文件](55541805.xlsx)包含智能艺术形状，如此屏幕截图所示。然后它打印值[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)第一个形状的属性。请查看下面给出的示例代码的控制台输出。
 
-![待办事项：图像_替代_文本](determine-if-shape-is-smart-art-shape_1.png)
+![待办事项：图片_替代_文本](determine-if-shape-is-smart-art-shape_1.png)
 
 ## **示例代码**
 

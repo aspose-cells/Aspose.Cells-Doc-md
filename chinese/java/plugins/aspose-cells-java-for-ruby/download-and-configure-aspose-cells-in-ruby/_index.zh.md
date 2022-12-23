@@ -33,7 +33,7 @@ url: /zh/java/download-and-configure-aspose-cells-in-ruby/
 
 {{< /highlight >}}
 
-**或者**
+**要么**
 
 1. 运行以下命令。
 

@@ -16,8 +16,8 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 21.
 |CELLSJAVA-43400|Unterstützung der UNIQUE()-Funktion|
 |CELLSJAVA-42863|Diagrammuntertitel abrufen|
 |CELLSJAVA-43401|Unterstützung einheitlicher Formatierungsergebnisse für die japanische Ära für alle JDKs|
-|CELLSJAVA-43398|Die bedingte Formatierung wird bei der ODS-zu-HTML-Konvertierung nicht richtig wiedergegeben|
-|CELLSJAVA-43371|XLSX-zu-PDF-Konvertierung hängt|
+|CELLSJAVA-43398|Die bedingte Formatierung wird bei der Konvertierung von ODS in HTML nicht richtig gerendert|
+|CELLSJAVA-43371|XLSX bis PDF Konvertierung hängt|
 |CELLSJAVA-43353|Verschiedene Diagramme auf Excel zu pdf|
 |CELLSJAVA-43377|Probleme mit der Bildplatzierung beim Konvertieren von Excel in HTML|
 |CELLSJAVA-43381|Berechnungsfehler der DAYS-Funktion|
@@ -28,18 +28,18 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 21.
 |CELLSJAVA-43378|Als leer anzeigen ändert sich nach dem Klonen der Arbeitsmappe von true zu false|
 |CELLSJAVA-43382|Kopieren erzeugt beschädigte Arbeitsmappe|
 |CELLSJAVA-43364|Problem beim Speichern eines Diagramms mit Bild in der Markierung als Bild|
-|CELLSJAVA-43389|Arbeitsmappen-/Arbeitsblatt-Kennwortschutzeinstellungen gehen beim Speichern im XLSB-Dateiformat verloren|
-|CELLSJAVA-43392|Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
+|CELLSJAVA-43389|Arbeitsmappen-/Arbeitsblatt-Kennwortschutzeinstellungen gehen beim Speichern im Dateiformat XLSB verloren|
+|CELLSJAVA-43392| Das Kopieren des Blattes erzeugt eine beschädigte Arbeitsmappe|
 |CELLSJAVA-43388|Die Ausgabedatei ist nach dem Kopieren der Arbeitsmappe beschädigt|
 |CELLSJAVA-43406|Probleme beim Konvertieren von HTML in Excel|
 |CELLSJAVA-43399|CalculateFormula() erstellt viele Fehlertypwerte #VALUE|
 |CELLSJAVA-43362|Prozentausgabe für Etiketten beim Drucken von Diagrammen|
-|CELLSJAVA-43384|Bei einigen Etiketten treten beim Rendern in PDF und beim Drucken von Diagrammen Prozentprobleme auf|
+|CELLSJAVA-43384|Bei einigen Beschriftungen treten Prozentprobleme auf, wenn auf PDF gerendert und Diagramme gedruckt werden|
 |CELLSJAVA-43402|Generieren Sie ein genaues Diagrammbild aus einer Excel-Datei|
 |CELLSJAVA-43408|Die Oberseite des Diagramms wird abgeschnitten und die schräge Linie geht nach oben|
 |CELLSJAVA-43379|Ausnahme beim Speichern der Arbeitsmappe als HTML ausgelöst|
 |CELLSJAVA-43376|Ausnahme "java.lang.ClassCastException: Overflow in int to byte conversion. int value: 144" beim Laden einer XLSX-Datei|
-|CELLSJAVA-43387|Das Exportieren eines einzelnen Blatts in HTML löst eine Ausnahme aus|
+|CELLSJAVA-43387|Das Exportieren eines einzelnen Blatts nach HTML löst eine Ausnahme aus|
 |CELLSJAVA-43412|CellsException bei der Umwandlung von xlsx in html|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

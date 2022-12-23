@@ -33,7 +33,7 @@ Esta página contiene notas de la versión para [ Aspose.Cells for Reporting Ser
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |
 |11837 | Prestar| Funciones admitidas por Aspose.Cells.ReportingServices|
-|11563 | Prestar| Suscripción SSRS guardada en el sistema de archivos como problema XLS|
+|11563 | Prestar| Suscripción de SSRS guardada en el sistema de archivos como problema XLS|
 |11085 | Prestar| Aspose.Cells Problemas de 64 bits|
 |11090 | Prestar| Filas programáticas|
 |10710 | Prestar| Informe de exportación a .xls|

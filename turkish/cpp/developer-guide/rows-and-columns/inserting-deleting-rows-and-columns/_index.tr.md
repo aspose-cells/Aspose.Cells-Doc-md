@@ -4,10 +4,10 @@ type: docs
 weight: 40
 url: /tr/cpp/inserting-deleting-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Sıfırdan yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir. Bu gereklilikleri yerine getirmek için Aspose.Cells, aşağıda tartışılan çok basit bir sınıflar ve yöntemler seti sağlar.
 ### **Satırları ve Sütunları Yönetme**
- Aspose.Cells bir sınıf sağlar,[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) sınıf bir içerir[IÇalışma Sayfaları](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[IÇalışma sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. bu[IÇalışma sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf bir sağlar[ICell'ler](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
+ Aspose.Cells bir sınıf sağlar,[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[IÇalışma Kitabı](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) sınıf bir içerir[IÇalışma Sayfaları](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf. bu[IÇalışma Sayfası](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) sınıf bir sağlar[ICell'ler](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
 
  bu[ICell'ler](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)koleksiyon, bir çalışma sayfasındaki satırları ve sütunları yönetmek için çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.
 

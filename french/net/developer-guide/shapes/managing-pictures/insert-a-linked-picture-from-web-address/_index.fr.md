@@ -14,12 +14,12 @@ Parfois, vous devez insérer une image provenant du Web (http://) dans une feuil
 
 Dans Microsoft Excel (par exemple 2007) :
 
-1.  Clique le**Insérer** menu et sélectionnez**Image**.
+1.  Clique le**Insérer** menu et sélectionnez**Photo**.
 1. Spécifiez l'adresse Web de l'image dans la boîte de dialogue Insérer une image.
 
 ## **En utilisant Aspose.Cells for .NET**
 
- Aspose.Cells for .NET prend en charge l'ajout d'une image liée à l'aide de la[**ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) . La méthode retourne un[**Image**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)objet.
+ Aspose.Cells for .NET prend en charge l'ajout d'une image liée à l'aide de la[**ShapeCollection.AddLinkedPicture(int upperLeftRow, int upperLeftColumn, int heightPixels, int widthPixels, string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) . La méthode retourne un[**Photo**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)objet.
 
 L'exemple suivant montre comment ajouter une image liée à partir d'une adresse Web à une feuille de calcul.
 

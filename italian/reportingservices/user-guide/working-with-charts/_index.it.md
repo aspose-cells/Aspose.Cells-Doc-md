@@ -6,7 +6,7 @@ url: /it/reportingservices/working-with-charts/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells Il modello di rapporto supporta i grafici di Microsoft Excel. Ogni volta che si esegue un report, il grafico viene popolato con i dati più recenti.
+ Aspose.Cells Il modello di rapporto supporta i grafici Microsoft Excel. Ogni volta che si esegue un report, il grafico viene popolato con i dati più recenti.
 
 {{% /alert %}} 
 

@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44632|Prend en charge le formatage de la ligne entière de données dans le tableau croisé dynamique|
 |CELLSJAVA-44415|Des milliers d'appels getResourceAsAStream entraînent une charge élevée du processeur et une consommation de mémoire lors de la génération de rapports|
@@ -21,7 +21,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44611|Amélioration de la lecture des cellules vides du fichier xlsx|
 |CELLSJAVA-44616|Les paramètres d'origine du formatage conditionnel dans la plage de destination doivent être supprimés lors de la copie de la plage|
 |CELLSJAVA-44658|Prise en charge de BouncyCastle v1.71|
-|CELLSJAVA-44455|Lors de la conversion d'un fichier XLSX en PDF, la date dans le tableau croisé dynamique devient un numéro de série|
+|CELLSJAVA-44455|Lors de la conversion du fichier XLSX en PDF, la date dans le tableau croisé dynamique devient un numéro de série|
 |CELLSJAVA-44370|Le fichier Excel est corrompu lorsqu'il est ouvert et enregistré avec Aspose.Cells|
 |CELLSJAVA-44381|Problème de mise en forme des conditions lors de la suppression de la ligne ou de la colonne|
 |CELLSJAVA-44442|Ouvrir et enregistrer avec Aspose.Cells corrompt le classeur|
@@ -31,8 +31,8 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44464|problème supplémentaire 1, la couleur d'arrière-plan de la colonne A n'est pas la même que dans Excel pour yscl.xls à la feuille 4|
 |CELLSJAVA-44466| problème supplémentaire 3, setCalculateFormula sur false ne fonctionne pas|
 |CELLSJAVA-44496|Inclure la balise/l'élément de légende pour le tableau lors du chargement du code HTML|
-|CELLSJAVA-44429|L'effet du graphique Excel dans Excel est différent de celui en HTML|
-|CELLSJAVA-44414| Unicode dans JSON cassera les XLSX et CSV générés|
+|CELLSJAVA-44429|L'effet du graphique Excel dans Excel est différent de celui de HTML|
+|CELLSJAVA-44414| Unicode dans JSON cassera généré XLSX et CSV|
 |CELLSJAVA-44481|Problème avec la méthode ThreadedComment.setCreatedTime()|
 |CELLSJAVA-44483|Le tri ne fonctionne pas après le regroupement des lignes|
 |CELLSJAVA-44522|La double valeur de la chaîne donne un zéro de queue qui est incorrect lors de la comparaison avec le résultat de ms excel|
@@ -41,9 +41,9 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44530|enquêter sur le problème de setactivecell ne fonctionne pas parfois|
 |CELLSJAVA-44534|Graphique dans la zone d'impression non exporté dans Excel vers la conversion HTML|
 |CELLSJAVA-44539|Le graphique est décalé vers la droite lors de la conversion en HTML avec zone d'impression|
-|CELLSJAVA-44568|Les légendes multi-lignes sont perdues sauf la première ligne dans la conversion HTML vers XLS|
+|CELLSJAVA-44568|Les légendes multi-lignes sont perdues sauf la première ligne dans la conversion HTML à XLS|
 |CELLSJAVA-44512|Le graphique est manquant lors de l'exportation du graphique vers svg en html|
-|CELLSJAVA-44556|Problème d'affichage des données dans le tableau de données après que l'axe des coordonnées est défini sur l'échelle logarithmique - Conversion Excel vers HTML/PDF|
+|CELLSJAVA-44556|Problème avec l'affichage des données dans la table de données après que l'axe des coordonnées est défini sur l'échelle logarithmique - Conversion d'Excel en HTML/PDF|
 |CELLSJAVA-44628|Comment conserver le format de pourcentage de certaines lignes pivot lors de l'expansion des données de nœud d'une colonne/champ pivot|
 |CELLSJAVA-44483|Le tri ne fonctionne pas après le regroupement des lignes|
 |CELLSJAVA-44609|Copie lente avec mise en forme conditionnelle à l'aide d'une version plus récente|
@@ -55,10 +55,10 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-44660|Problème d'alignement des données lors du chargement du XLS dans Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problème lors du chargement du fichier et dans Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Le titre de l'axe dans le graphique est pivoté dans l'image de sortie - Conversion graphique en image|
-|CELLSJAVA-44615|Ligne grise dessinée dans l'image de sortie du fichier XLS|
+|CELLSJAVA-44615|Ligne grise tracée dans l'image de sortie du fichier XLS|
 |CELLSJAVA-44665|Le chargement du fichier ODS se bloque|
 |CELLSJAVA-44404|Exception "java.lang.IllegalArgumentException : index de colonne non valide" lors du chargement d'un fichier XLSX dans GridWeb|
-|CELLSJAVA-44651|Erreur "Pas une valeur numérique" lors de la conversion d'une feuille Excel en HTML/PDF|
+|CELLSJAVA-44651|Erreur "Pas une valeur numérique" lors de la conversion de la feuille Excel en HTML/PDF|
 
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

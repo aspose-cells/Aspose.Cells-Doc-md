@@ -21,7 +21,7 @@ url: /fr/java/aspose-cells-for-java-2-3-1-release-notes/
 - Définit des formats de nombre personnalisés pour PivotField.
 - Inclut de nouvelles propriétés de document intégrées pour le fichier Excel 2007.
 - Combine plusieurs classeurs.
-- Prend en charge l'enregistrement de PDF en flux pour la fonction directe Excel en PDF.
+- Prend en charge l'enregistrement de PDF dans Stream pour la fonction Excel directe vers PDF.
 - Une amélioration est apportée pour la lecture/écriture des fichiers Excel 2007.
 - Une amélioration est apportée pour la lecture/écriture des fichiers Excel 2003.
 - Une amélioration est apportée pour la lecture des fichiers modèles XLS.
@@ -29,7 +29,7 @@ url: /fr/java/aspose-cells-for-java-2-3-1-release-notes/
 
  Problèmes résolus au Aspose.Cells for Java 2.3.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |9189 | Xlsx| Type de cryptage AES pour les fichiers Excel 2007|
 |10798 | Xls| Combiner des classeurs|
@@ -47,9 +47,9 @@ url: /fr/java/aspose-cells-for-java-2-3-1-release-notes/
 |18181 | Xlsx| Enregistrement du tableau croisé dynamique pour le fichier Excel 2007|
 |18188 | Xlsx| Définition du nom de la police pour le fichier Excel 2007|
 |18201 | Xls| Cell.getDependents() lève une exception|
-|18257 | PDF| Zones d'impression dans le PDF exporté|
-|18274 | Xls| Suppression d'une feuille de calcul avec des images|
-|18288 | PDF|Amélioration des performances d'enregistrement de Pdf|
+|18257 | PDF| Zones d'impression exportées PDF|
+|18274 | Xls|Suppression d'une feuille de calcul avec des images|
+|18288 | PDF| Amélioration des performances d'enregistrement de Pdf|
 |18307 | Xlsx| Propriétés du document Excel 2007|
 |18328 | Xls| Définition d'un format personnalisé pour pivotField dataField|
 |18345 | Xlsx| Enregistrement du graphique pour les fichiers Excel 2007|

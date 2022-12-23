@@ -42,15 +42,15 @@ url: /sv/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
-|6722 | ODS| R/W ODS-fil|
+|6722 |ODS | R/W ODS fil|
 |7834 | Xls| Cell.getPrecedents|
-|6516 | HTML| Sparar kalkylblad för att streama i html-format.|
+|6516 |HTML | Sparar kalkylblad för att streama i html-format.|
 |7744 | Xls| R/W-krypterad fil: Microsoft Stark kryptografisk leverantör.|
 |7745 | Xls| Tar bort ASerier från NSeries-samlingen.|
 |7571 | Xlsx| Hyperlänkar.|
 |7572 | Xls| Formel: SUMIF.|
-|7575 | Xls|Formel: RUND.|
-|7649 | Xls| Dataetiketter för pivotdiagram.|
+|7575 | Xls| Formel: RUND.|
+|7649 | Xls|Dataetiketter för pivotdiagram.|
 |7343 | Xls| Ställer in egenskapen för OleObject: OleSize.|
 |7408 | Xls| Skapar AutoFilter.|
 |7500 | Xls| Sparar fyllningsformat för område i diagram.|

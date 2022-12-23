@@ -12,7 +12,7 @@ url: /es/java/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **Compruebe si el proyecto de VBA en un libro de trabajo está firmado**
 
- El siguiente código carga el libro de trabajo y verifica si su proyecto VBA está firmado usando[**Libro de trabajo.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)propiedad. La propiedad volverá**verdadero** si el proyecto está firmado de lo contrario se devolverá**falso**.
+ El siguiente código carga el libro de trabajo y verifica si su proyecto VBA está firmado usando[**Libro de trabajo.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) propiedad. La propiedad volverá**verdadero** si el proyecto está firmado de lo contrario se devolverá**falso**.
 
 ## Código de muestra
 

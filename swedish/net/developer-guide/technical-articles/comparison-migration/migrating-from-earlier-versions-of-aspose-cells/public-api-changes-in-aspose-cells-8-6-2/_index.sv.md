@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **Metoddiagram.ToPdf tillagd**
- Aspose.Cells for .NET 8.6.2 har exponerat metoden Chart.ToPdf som kan användas för att[rendera diagramformen direkt till PDF-format](/cells/sv/net/convert-an-excel-chart-to-image/). Nämnda metod accepterar för närvarande en parameter av typen sträng som filsökvägsplats för att lagra den resulterande filen på disken.
+ Aspose.Cells for .NET 8.6.2 har exponerat metoden Chart.ToPdf som kan användas för att[rendera diagramformen direkt till formatet PDF](/cells/sv/net/convert-an-excel-chart-to-image/). Nämnda metod accepterar för närvarande en parameter av typen sträng som filsökvägsplats för att lagra den resulterande filen på disken.
 
 Följande är det enkla användningsscenariot.
 

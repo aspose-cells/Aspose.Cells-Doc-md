@@ -30,7 +30,7 @@ Questa pagina contiene le note di rilascio per [Aspose.Cells for Reporting Servi
 
 \3. 
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |11837 | Rendering| Funzionalità supportate da Aspose.Cells.ReportingServices|
 |11563 | Rendering| Abbonamento SSRS che salva nel file system come problema XLS|

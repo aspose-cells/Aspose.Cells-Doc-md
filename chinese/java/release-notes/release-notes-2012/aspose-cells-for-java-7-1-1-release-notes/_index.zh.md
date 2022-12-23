@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-1-1-release-notes/
 我们是
 很高兴宣布 Aspose.Cells for Java v7.1.1！
 
-新的功能
+新功能
 
 - 检查一列是否为空
 

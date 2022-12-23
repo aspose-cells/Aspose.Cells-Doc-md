@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /es/java/working-with-worksheets-gridweb/
 ---
-## **Acceso a hojas de trabajo**
+## **Acceder a las hojas de trabajo**
 
 Este tema trata sobre el acceso a las hojas de trabajo del control GridWeb. También podemos llamar a estas hojas de trabajo hojas de trabajo web porque pertenecen a GridWeb y se utilizan en aplicaciones web.
 
@@ -48,7 +48,7 @@ Para agregar una hoja de trabajo con un nombre específico al control GridWeb en
 
 {{% alert color="primary" %}}
 
- El método add() devuelve el índice de la nueva hoja de trabajo que se puede usar para acceder a la instancia de esta hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceso a hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+ El método add() devuelve el índice de la nueva hoja de trabajo que se puede usar para acceder a la instancia de esta hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceder a las hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
 
 {{% /alert %}}
 
@@ -65,7 +65,7 @@ Todas las hojas de trabajo contienen una propiedad Nombre que permite a los desa
 
 {{% alert color="primary" %}}
 
- Para obtener más detalles sobre cómo acceder a las hojas de trabajo en Aspose.Cells.GridWeb, consulte[Acceso a hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+ Para obtener más detalles sobre cómo acceder a las hojas de trabajo en Aspose.Cells.GridWeb, consulte[Acceder a las hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
 
 {{% /alert %}}
 
@@ -99,7 +99,7 @@ El siguiente código de ejemplo muestra cómo agregar una copia de una hoja de c
 
 {{% alert color="primary" %}}
 
- El método addCopy devuelve el índice de la hoja de trabajo recién agregada que se puede usar para acceder a la instancia de la hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceso a hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
+ El método addCopy devuelve el índice de la hoja de trabajo recién agregada que se puede usar para acceder a la instancia de la hoja de trabajo. Para obtener más detalles sobre cómo acceder a las hojas de trabajo, lea[Acceder a las hojas de trabajo](/cells/es/java/working-with-worksheets-gridweb/#workingwithworksheetsgridweb-accessingworksheets).
 
 {{% /alert %}}
 
@@ -175,7 +175,7 @@ Los siguientes hipervínculos son compatibles con Aspose.Cells.GridWeb:
 
 #### **Hipervínculos de URL de texto**
 
- El siguiente ejemplo agrega dos hipervínculos a una hoja de cálculo. uno tiene un_ objetivo en blanco mientras que el otro está configurado para_padre.
+ El siguiente ejemplo agrega dos hipervínculos a una hoja de trabajo. uno tiene un_ objetivo en blanco mientras que el otro está configurado para_padre.
 
 ![todo:imagen_alternativa_texto](working-with-worksheets-gridweb_6.png)
 
@@ -185,7 +185,7 @@ Los siguientes hipervínculos son compatibles con Aspose.Cells.GridWeb:
 
 #### **Hipervínculos de URL de imagen**
 
-El siguiente ejemplo agrega un hipervínculo de URL de imagen a una hoja de cálculo.
+El siguiente ejemplo agrega un hipervínculo de URL de imagen a una hoja de trabajo.
 
 ![todo:imagen_alternativa_texto](working-with-worksheets-gridweb_7.png)
 
@@ -249,7 +249,7 @@ Después de ejecutar el código, los datos se ordenan en orden ascendente.
 
 ## **Buscando y Reemplazando**
 
-Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es usar la función de buscar y reemplazar. Find lo ayuda a ubicar una cadena de texto o datos y replace los sustituye con un nuevo valor. Aspose.Cells. GridWeb proporciona esta función. Le permite buscar y reemplazar con una cadena de texto o valor específico en el lado del cliente de la hoja de trabajo a través de un cuadro de diálogo simple. Incluso te permite buscar datos parciales.
+Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es usar la función de buscar y reemplazar. Find lo ayuda a ubicar una cadena de texto o datos y replace los sustituye con un nuevo valor. Aspose.Cells. GridWeb proporciona esta característica. Le permite buscar y reemplazar con una cadena de texto o valor específico en el lado del cliente de la hoja de trabajo a través de un cuadro de diálogo simple. Incluso te permite buscar datos parciales.
 
 ### **El cuadro de diálogo Buscar/Reemplazar**
 

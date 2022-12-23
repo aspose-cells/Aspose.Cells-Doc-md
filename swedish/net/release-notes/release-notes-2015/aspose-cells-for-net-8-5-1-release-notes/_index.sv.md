@@ -46,7 +46,7 @@ Följande är en lista över förbättringar och ändringar i denna version av A
 
 (CELLSNET-43753) - Aspose.Cells återger 2 sidor
 
-(CELLSNET-43731) - Text skärs av när kalkylbladet renderas till EMF-bild
+(CELLSNET-43731) - Texten klipps av när kalkylbladet renderas till EMF bild
 
 (CELLSNET-43756) - Diagrambilden innehåller inte samma värden som x-axeln från exceldiagrammet
 

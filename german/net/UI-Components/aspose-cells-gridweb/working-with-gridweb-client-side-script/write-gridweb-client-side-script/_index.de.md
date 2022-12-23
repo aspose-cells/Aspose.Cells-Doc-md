@@ -65,7 +65,7 @@ Aspose.Cells. GridWeb stellt auch Funktionen speziell für clientseitige Skripte
 Führen Sie die folgenden Schritte aus, um eine Testanwendung mit clientseitigen Skripts zu erstellen, die mit Aspose.Cells.GridWeb funktionieren:
 
 1. Erstellen Sie JavaScript-Funktionen, die von GridWeb aufgerufen werden sollen.
- Diese Funktionen werden der Seite ASP.NET hinzugefügt<script></script>Schild.
+ Diese Funktionen werden der Seite ASP.NET hinzugefügt<script></script> Schild.
 1. Weisen Sie den Eigenschaften OnSubmitClientFunction und OnValidationErrorClientFunction die Namen der Funktionen zu.
 
 Die Ausgabe des Codebeispiels ist unten dargestellt:

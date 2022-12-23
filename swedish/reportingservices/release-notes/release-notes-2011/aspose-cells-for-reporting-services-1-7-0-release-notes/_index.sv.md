@@ -16,7 +16,7 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services designer stöder för att skapa matrismall i Excel.
 - Stöder villkorlig formatering för tabell- och matrisrapportobjekt.
-- Lägger till renderingstablix-rapportobjekt endast för CSV- och TXT-format i SQL Server 2008 Reporting Services.
+- Lägger till renderingstablix-rapportobjekt endast för CSV- och TXT-formaten i SQL Server 2008 Reporting Services.
 
  Vad har förändrats?
 
@@ -36,7 +36,7 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
-|22987 | Serverkomponent| SSRS CSV Export Encoding problem|
+|22987 | Serverkomponent| SSRS CSV Exportkodningsproblem|
 |17208 | Serverkomponent| Exportera rapporttjänstrapport till MS Excel 2007-fel|
 |18133 | Klient och server| Kolumngrupper i Aspose.Cells.ReportingServices|
 |20251 | Serverkomponent| Tillägg till Reporting Services|

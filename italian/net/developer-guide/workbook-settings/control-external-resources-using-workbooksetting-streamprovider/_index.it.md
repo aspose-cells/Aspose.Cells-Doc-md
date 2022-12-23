@@ -14,6 +14,6 @@ Il codice di esempio seguente illustra l'utilizzo di[**Workbook.Settings.StreamP
 
 ![cose da fare:immagine_alt_testo](control-external-resources-using-workbooksetting-streamprovider_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookSettings-ControlExternalResourcesUsingWorkbookSetting_StreamProvider-1.cs" >}}

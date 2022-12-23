@@ -17,7 +17,7 @@ url: /zh/java/aspose-cells-for-java-20-8-release-notes/
 |CELLSJAVA-43240|将 Excel 转换为 PDF 时形状/对象中出现意外的换行符|漏洞|
 |CELLSJAVA-43255|Excel 到 PDF 转换的性能问题|漏洞|
 |CELLSJAVA-43250|展开的标签单元格不会合并到 SmartMarker 中|漏洞|
-|CELLSJAVA-43253|在 SmartArt 中替换文本后使用 OoxmlSaveOptions 保存文件将 XLS 转换为 XLSX|漏洞|
+|CELLSJAVA-43253|在 SmartArt 中替换文本后使用 OoxmlSaveOptions 保存文件会将 XLS 转换为 XLSX|漏洞|
 CELLSJAVA-43170|calculateFormula 方法上的 CellsException|Exception|
 
 ## **公共 API 和向后不兼容的更改**

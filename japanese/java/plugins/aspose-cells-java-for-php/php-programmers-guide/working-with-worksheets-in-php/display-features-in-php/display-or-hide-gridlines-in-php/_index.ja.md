@@ -8,7 +8,7 @@ url: /ja/java/display-or-hide-gridlines-in-php/
 ### **グリッド線を非表示にする**
 を使用してワークシートを非表示にするには**Aspose.Cells Java for PHP**、 電話**表示非表示グリッド線**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

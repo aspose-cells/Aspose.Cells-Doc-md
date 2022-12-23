@@ -29,7 +29,7 @@ url: /ar/net/setting-print-options/
 
 بشكل افتراضي ، تدمج منطقة الطباعة جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة معينة من ورقة العمل.
 
- لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**منطقة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)منشأه. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
+ لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**منطقة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)خاصية. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 

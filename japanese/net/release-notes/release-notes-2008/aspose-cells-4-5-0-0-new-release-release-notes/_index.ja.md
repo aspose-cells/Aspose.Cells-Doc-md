@@ -15,7 +15,7 @@ url: /ja/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `ワークシートを画像に変換します。
-- ` `ExcelファイルからHTMLファイル形式への変換をサポート。
+- ` `ExcelファイルをHTMLファイル形式に変換できるようになりました。
 - ` `左から右へのデータの並べ替えをサポートします。
 
 
@@ -27,7 +27,7 @@ url: /ja/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` `数式計算エンジンのサポート機能を追加
 - ` `オートフィルターでより多くのカスタム フィルターをサポートしました。
 - ` `Excel2007 Xlsx サポートの強化
-- ` `SpreadsheetML サポートの強化
+- ` `拡張 SpreadsheetML サポート
 - ` `拡張xls2Pdf変換
 - ` `Enhanced Charts2Image 変換。
 - ` `強化スマートマーカー

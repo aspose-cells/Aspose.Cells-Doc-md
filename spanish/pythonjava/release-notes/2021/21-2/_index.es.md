@@ -14,8 +14,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Python via Java
 |:- |:- |:- |
 |CELLSJAVA-43382|La copia produce un libro de trabajo dañado|
 |CELLSJAVA-43364|Problema al guardar el gráfico con una imagen en el marcador en la imagen|
-|CELLSJAVA-43389|Se pierde la configuración de protección con contraseña del libro de trabajo/hoja de trabajo al guardar como formato de archivo XLSB|
-|CELLSJAVA-43392|La hoja de copia produce un libro de trabajo corrupto|
+|CELLSJAVA-43389|La configuración de protección con contraseña del libro de trabajo/hoja de trabajo se pierde al guardar como formato de archivo XLSB|
+|CELLSJAVA-43392| La hoja de copia produce un libro de trabajo corrupto|
 |CELLSJAVA-43387|Exportar una sola hoja a HTML genera una excepción|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

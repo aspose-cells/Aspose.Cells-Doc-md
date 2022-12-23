@@ -17,7 +17,7 @@ Um dieses Problem zu vermeiden, erteilen Sie Portaladministratoren die Berechtig
 1.  Gehe zu**SharePoint-Zentraladministration**und wählen Sie die aus**Bewerbungsmanagement** Tab.
 1.  Wählen**Richtlinie für Webanwendung** unter dem**Anwendungssicherheit** Gruppe.
 1.  Stellen Sie sicher, dass Sie die richtige Webanwendung für Ihre „Meine Website“ im auswählen**Internetanwendung** Liste rechts.
-1.  Auswählen**Benutzer hinzufügen** oben links.
+1.  Wählen**Benutzer hinzufügen** oben links.
 1.  Wählen**Alle Zonen** standardmäßig auf der**Benutzer hinzufügen** Bildschirm und klicken Sie auf**Nächste**.
 1. Fügen Sie die entsprechenden Benutzer oder Active Directory-Gruppen hinzu, die Sie über Ihre Webanwendung „Meine Website“ steuern möchten.
 1.  Wählen Sie die Kontrollebene aus.

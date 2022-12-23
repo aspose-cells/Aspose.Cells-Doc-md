@@ -25,7 +25,7 @@ url: /zh/java/aspose-cells-features-missing-in-apache-poi-ss-hssf-and-xssf/
   - [显示和隐藏工作簿的滚动条](/cells/zh/java/display-and-hide-scrollbars-of-workbooks/)
   - [使用 Aspose.Cells 显示和隐藏工作簿的选项卡](/cells/zh/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
   - [使用 Aspose.Cells 加密工作簿](/cells/zh/java/encrypt-workbook-using-aspose-cells/)
-  - [读取具有多种编码的 CSV 文件](/cells/zh/java/read-csv-file-with-multiple-encodings/)
+  - [读取具有多个编码的 CSV 文件](/cells/zh/java/read-csv-file-with-multiple-encodings/)
   - [使用 Aspose.Cells 将每个工作表保存到不同的 PDF](/cells/zh/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
   - [在 Aspose.Cells 中设置工作表选项卡颜色](/cells/zh/java/set-worksheet-tab-color-in-aspose-cells/)
 - [在 Aspose.Cells 中使用图表](/cells/zh/java/working-with-charts-in-aspose-cells/)

@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-7-7-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET がバージョン 7.7.2 に更新されました。このリリースでは、50 を超える新しい便利な改善が追加されたことをお知らせします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -40,27 +40,27 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **バグ**
 
 
-(CELLSNET-42349) - HTML から XLSX への不適切な変換
+(CELLSNET-42349) - HTML から XLSX への誤った変換
 
-(CELLSNET-42346) - HTML として保存すると、多くの br タグが作成されます
+(CELLSNET-42346) - HTML として保存すると、作成される br タグが多すぎます
 
-(CELLSNET-42323) - 出力 PDF に Excel ファイルのグラフが反映されない
+(CELLSNET-42323) - 出力 PDF が Excel ファイルのチャートを反映していない
 
-(CELLSNET-42301) - 出力 PDF がピボット テーブルの計算フィールドの値の計算に失敗する
+(CELLSNET-42301) - 出力 PDF が、ピボット テーブルの計算フィールドの値の計算に失敗する
 
 (CELLSNET-42300) - XLS から XLSM への変換中のピボット テーブル表示の問題
 
-(CELLSNET-42285) - 数値形式として一般的な数値が分数で表示される
+(CELLSNET-42285) - Numbers の一般的な数値形式が分数で表示される
 
 (CELLSNET-42272) - 条件付き書式設定アイコン セットを含む xlsx ファイルを開いて再保存すると破損する
 
-(CELLSNET-42271) - アイコン、スライサー、カラー グラデーションなどの条件付き書式設定機能が出力 XLSB ファイルで失われる
+(CELLSNET-42271) - 出力 XLSB ファイルで、アイコン、スライサー、カラー グラデーションなどの条件付き書式設定機能が失われている
 
-(CELLSNET-42261) - HTML として保存し、セルをヘッダーとしてマージした場合の非表示の列の問題
+(CELLSNET-42261) - HTML として保存し、セルをヘッダーとしてマージした場合に列が非表示になる問題
 
 (CELLSNET-42163) - ファイルを開いて再保存すると条件付き書式が失われる
 
-(CELLSNET-42147) - Aspose Cells 7.6.0 - Pivot 内部での XLSB ファイルの読み込みと保存の問題
+(CELLSNET-42147) - Aspose Cells 7.6.0 - XLSB ファイルの読み込みと保存で Pivot が内部にある問題
 
 (CELLSNET-42008) - PivotTable.DataBodyRange 開始列プロパティが正しくありません
 
@@ -70,31 +70,31 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42336) - ピボット テーブルの月の形式が出力 PDF で間違っている
 
-(CELLSNET-42335) - XLSX を PDF に変換するとピボットテーブルが切り捨てられる
+(CELLSNET-42335) - XLSX が PDF に変換されると、ピボットテーブルが切り捨てられる
 
 (CELLSNET-42347) - テキスト形式の問題 - 都市という単語の文字 y が途切れる
 
-(CELLSNET-42344) - XLSX から PDF への変換中に、ヘッダーの境界線の太さがページごとに異なります
+(CELLSNET-42344) - XLSX を PDF に変換する際に、ページごとにヘッダーの境界線の太さが異なります
 
-(CELLSNET-42342) - XLSX から PDF への変換中に下線が切れる
+(CELLSNET-42342) - XLSX を PDF に変換中に下線が切れる
 
 (CELLSNET-42304) - PDF エクスポートでのアイコン セットの配置
 
-(CELLSNET-42298) - PaperSizeType を PaperA6 に設定すると、PDF が PaperA4 サイズでレンダリングされます
+(CELLSNET-42298) - PaperSizeType を PaperA6 に設定すると、PDF が PaperA4 サイズでレンダリングされる
 
-(CELLSNET-42289) - CHAR(151) が PDF で正しく機能しない
+(CELLSNET-42289) - PDF で CHAR(151) が正しく機能しない
 
 (CELLSNET-41950) - Aspose.Cells IIS 7.5 での AutoFit 操作の非常に奇妙な動作
 
 (CELLSNET-41937) - Excel ファイルのコメントを印刷できない
 
-(CELLSNET-42297) - HTML にチャートがありません
+(CELLSNET-42297) - HTML にチャートがない
 
-(CELLSNET-42296) - PDF にチャートがありません
+(CELLSNET-42296) - PDF にチャートがない
 
-(CELLSNET-41743) - XLSX から画像への変換における形状の問題
+(CELLSNET-41743) - XLSX の形状を画像に変換する際の問題
 
-(CELLSNET-40467) - XLS ファイルを XLSM として保存してから XLS に戻すと、ファイル内のチャートが変更される
+(CELLSNET-40467) - XLS ファイルを XLSM として保存してから XLS に戻すと、ファイル内のチャートが変更されます
 
 (CELLSNET-42332) - Workbook.CalculateFormula() の後で文字が大文字に変更されました
 
@@ -152,7 +152,7 @@ WorkbookSettings.RemovePersonalInformation プロパティを追加します
 
 
 
- WorksheetCollection.HidePivotFieldList プロパティは廃止されました。
+WorksheetCollection.HidePivotFieldList プロパティは廃止されました。
 
  WorkbookSettings.HidePivotFieldList プロパティを使用してください。
 

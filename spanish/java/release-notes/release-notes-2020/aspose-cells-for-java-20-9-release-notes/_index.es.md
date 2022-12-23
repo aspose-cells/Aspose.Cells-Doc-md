@@ -19,19 +19,19 @@ url: /es/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43280|Problema de filtro después de la actualización de la tabla dinámica|Insecto|
 |CELLSJAVA-43281|Actualizar problema de tabla dinámica|Insecto|
 |CELLSJAVA-43285|Los filtros estáticos se pierden después de actualizar la tabla dinámica|Insecto|
-|CELLSJAVA-43288|El resultado del archivo XLSB está dañado al guardar el archivo en XLSB|Insecto|
+|CELLSJAVA-43288|El archivo resultante XLSB está dañado al guardar el archivo en XLSB|Insecto|
 |CELLSJAVA-43289|Problema de filtro después de actualizar la tabla dinámica|Insecto|
 |CELLSJAVA-43293|Problema con las opciones de filtro después de PivotTable.refreshData()|Insecto|
 |CELLSJAVA-43279|Los valores no se obtienen correctamente usando getStringValue()|Insecto|
 |CELLSJAVA-43291|Contenido de la cuadrícula no visible|Insecto|
-|CELLSJAVA-43037|Problema de fuente en la conversión de PDF|Insecto|
-|CELLSJAVA-43249|Problemas de impresión al usar impresoras físicas, impresoras XPS y PDF|Insecto|
+|CELLSJAVA-43037|Problema de fuente en la conversión PDF|Insecto|
+|CELLSJAVA-43249|Problemas de impresión al usar impresoras físicas, impresora XPS y PDF|Insecto|
 |CELLSJAVA-43254|Diferencia de fuente al convertir una hoja de cálculo a una imagen|Insecto|
 |CELLSJAVA-43266|La versión Java no admite la carga de fuentes desde la carpeta de fuentes del usuario actual de forma predeterminada|Insecto|
 |CELLSJAVA-43268|Representación de Excel a TIFF: algunos de los valores se reemplazan con caracteres "#"|Insecto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Error para ZipFile|Insecto|
 |CELLSJAVA-43277|problema con la relacion alto ancho|Insecto|
-|CELLSJAVA-43245|El gráfico combinado no se muestra correctamente después de convertir un archivo de Excel a PDF|Insecto|
+|CELLSJAVA-43245|El gráfico combinado no se muestra correctamente después de convertir el archivo de Excel a PDF|Insecto|
 |CELLSJAVA-43276|Problemas de salto de línea al convertir XLSX a PDF|Insecto|
 |CELLSJAVA-43261|SmartMarker: al usar group:merge con Number Format Porcentaje, el resultado de expansión es incorrecto|Insecto|
 |CELLSJAVA-43265|No se puede cargar el archivo XLSX|Insecto|
@@ -47,7 +47,7 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 
 ### **Agrega la propiedad AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de AbstractCalculationEngine cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** de**20.9**.
+ Para tener en cuenta el rendimiento y la conveniencia del usuario, agregamos esta propiedad y hacemos que su valor predeterminado sea falso para que el usuario pueda concentrarse en aquellas funciones que no han sido compatibles con el motor integrado. Si la implementación existente del usuario de AbstractCalculationEngine cambió el cálculo de algunas funciones integradas, el usuario debe anular esta propiedad para que sea como**verdadero** desde**20.9**.
 
 ### **Agrega la propiedad TxtLoadOptions.HasTextQualifier**
 
@@ -111,7 +111,7 @@ Obtiene o establece el ancho de la segmentación especificada, en píxeles.
 
 ### **Agrega la propiedad Worksheet.PaneState y la enumeración PaneStateType.**
 
-Representa el estado del panel en la hoja de trabajo.
+Representa el estado del panel en la hoja de cálculo.
 
 ### **Agrega la propiedad OdsLoadOptions.RefreshPivotTables.**
 

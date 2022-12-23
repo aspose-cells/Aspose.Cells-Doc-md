@@ -46,7 +46,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 1. bölümündeki talimatlara göre bir tablo raporu oluşturun.[Tablolu Rapor Oluşturma](/cells/tr/reportingservices/creating-tabular-report/) . Bu örnek için oluşturduğumuz rapor aşağıdadır. Tablo, grafiğin veri kaynağıdır.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_1.png)
 
 
 
@@ -54,21 +54,21 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 1.  Microsoft Excel'de,**Sokmak** menü ve seçin**Çizelge**.
 1.  Tıklamak**Sonraki**. 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_2.png)
 
 
 
 
-1.  Tıkla**Diziler** sekme.
+1.  Tıkla**Dizi** sekme.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_3.png)
-
-
+![yapılacaklar:resim_alternatif_metin](working-with-charts_3.png)
 
 
-1.  Tıklamak**Ekle**. 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_4.png)
+
+1.  Tıklamak**Eklemek**. 
+
+![yapılacaklar:resim_alternatif_metin](working-with-charts_4.png)
 
 
 
@@ -76,18 +76,18 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 1. İletişim kutusunda, Seri1 (Çeyrek seri) değerini tablonun ilk veri alanına ayarlayın.
  Örnekte bu, "CompanySales!$C$3:$C$3" şeklindedir. İlk $C$3, "Çeyrek"in ilk satır dizini ve ikinci $C$3, "Çeyrek"in son satır dizini için bir yer tutucudur ve işleme zamanında tablo verilerinin gerçek satır dizini ile değiştirilecektir. Category(X) ekseni etiketlerini “=CompanySales!$C$3:$C$3” olarak ayarlayın.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_5.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_5.png)
 
 
 
 
-1.  Tıklamak**Ekle** başka bir dizi eklemek için.
+1.  Tıklamak**Eklemek** başka bir dizi eklemek için.
  Örnekte, satış serisini ekledik.
 1. Series2 (Satış serisi) değerini tablonun ikinci veri alanına ayarlayın.
 Örnekte "CompanySales!$D$3:$D$3" şeklindedir. İlk $D$3, "Sales"in ilk satır dizini ve ikinci $D$3, "Sales"in son satır dizini için bir yer tutucudur ve işleme zamanında tablo verilerinin gerçek satır dizini ile değiştirilecektir.
 1.  Tıklamak**Sonraki** devam etmek.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_6.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_6.png)
 
 
 
@@ -95,13 +95,13 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 1. İletişim kutusunda grafik başlığını ve kategori(X) eksenini ayarlayın.
 1.  Tıklamak**Bitiş** işi tamamlamak için.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_7.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_7.png)
 
 
 
  Şablon aşağıdaki gibi görünüyor.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_8.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_8.png)
 
 
 
@@ -110,4 +110,4 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 1. Raporu Rapor Sunucusundan dışa aktarın.
  Sonuç aşağıdaki gibidir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-charts_9.png)
+![yapılacaklar:resim_alternatif_metin](working-with-charts_9.png)

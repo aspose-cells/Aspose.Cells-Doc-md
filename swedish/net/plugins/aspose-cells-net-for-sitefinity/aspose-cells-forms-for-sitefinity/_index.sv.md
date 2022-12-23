@@ -6,7 +6,7 @@ url: /sv/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **Introduktion**
 
-Aspose.Cells Dynamic Forms for Sitefinity Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 076103473.
+Aspose.Cells Dynamic Forms for Sitefinity Module tillåter användare att skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen Aspose.Cells för att skapa kalkylblad 8461 8401 som tillhandahålls av 076103401.
 
 |<p>![todo:image_alt_text](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |
@@ -24,7 +24,7 @@ Denna initiala version av modulen är berikad med följande funktioner för att 
 - Anpassa kolumner automatiskt till innehållets längd och använd formatering av rubrikkolumner som fet text
 - Exportera data till Microsoft Excel-dokument (.xls, .xlsx och .xlsb)
 - Exportera data till tabbavgränsat textdokument (*.txt)
-- Exportera data till CSV (kommaseparerad) (*.csv)
+- Exportera data till CSV (kommaavgränsad) (*.csv)
 - Exportera data till OpenDocument-kalkylblad (*.ods)
 - Möjlighet att välja önskat utdataformat innan export.
 - Exporterat dokument skickas automatiskt till webbläsaren för nedladdning.
@@ -110,7 +110,7 @@ För att ta bort utvärderingsmeddelanden och funktionsbegränsningar bör produ
 
 #### **Dynamiska formulärinställningar**
 
-1.  Se till att du är inloggad klicka på Sidmenyn klicka på första raden**Se** alternativknapp nära**Åtgärdskolumn.**  
+1.  Se till att du är inloggad klicka på Sidmenyn klicka på första raden**Se** alternativknapp nära**Åtgärdskolumnen.**  
 1.  Klick**Redigera** knapp tillgänglig nära alternativetikett.
 1.  Det finns få fördefinierade fält, du kan redigera/dölja bara genom att klicka**Redigera** i rutnät.
 1. Du kan skapa/ta bort/uppdatera nya fält av vilken typ som helst**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Titel, Framgångsmeddelande)**

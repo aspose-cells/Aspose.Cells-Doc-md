@@ -12,25 +12,25 @@ url: /sv/java/aspose-cells-for-java-20-10-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-40913|Pilriktningen har ändrats i den resulterande PDF-filen|Insekt|
+|CELLSJAVA-40913|Pilriktningen har ändrats i den resulterande PDF|Insekt|
 |CELLSJAVA-43282|Uppdatera pivot fungerar inte och korrumperar utdatafilen|Insekt|
 |CELLSJAVA-43286|Aspose.Cells är i konflikt med HtmlHiddenRowDisplayType.REMOVE-inställningarna|Insekt|
 |CELLSJAVA-43302|Problem med att få Cells värde|Insekt|
-|CELLSJAVA-43308|HTML till Excel-konvertering med wrapText-egenskapen|Insekt|
+|CELLSJAVA-43308|HTML för att Excel-konvertering med wrapText-egenskapen|Insekt|
 |CELLSJAVA-43318|Cell värdeproblem efter uppdatering av pivottabellen|Insekt|
 |CELLSJAVA-43299|Problem med att få Cell-värdet|Insekt|
 |CELLSJAVA-43284|Tabellen skrivs inte ut när du använder Aspose.Cells för en viss fysisk skrivare|Insekt|
 |CELLSJAVA-43273|Text i förklaringsobjekt klipps ut i utdatabilden|Insekt|
 |CELLSJAVA-43274|Skillnad i diagramstapelns konturfärg|Insekt|
-|CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
-|CELLSJAVA-43278|Genomstruken i Excel visas inte i PDF-fil|Insekt|
-|CELLSJAVA-43304|Vissa dataetiketter i diagrammet saknas i utdata-PDF-filen|Insekt|
+|CELLSJAVA-43276|Problem med radbrytning vid konvertering av XLSX till PDF|Insekt|
+|CELLSJAVA-43278|Genomstruken i Excel visas inte i filen PDF|Insekt|
+|CELLSJAVA-43304|Vissa dataetiketter i diagrammet saknas i utgången PDF|Insekt|
 |CELLSJAVA-43311|Diagram X-axeletiketter är vertikala istället för diagonala när de konverteras till bild|Insekt|
 |CELLSJAVA-40992|Problem med diagramtextposition när du sparar en Excel-fil igen|Insekt|
 |CELLSJAVA-43294|Färgtema för villkorlig formatering fungerar inte korrekt|Insekt|
 |CELLSJAVA-43307|Ändra storlek Problem med inbäddat OLE-objekt vid kopiering av kalkylblad|Insekt|
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException medan pivottabellen uppdateras|Undantag|
-|CELLSJAVA-43298|Aspose.Cells 20.8: Undantag vid spara till PDF.|Undantag|
+|CELLSJAVA-43298|Aspose.Cells 20.8: Undantag när du sparar till PDF.|Undantag|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

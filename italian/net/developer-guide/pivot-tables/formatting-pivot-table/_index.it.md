@@ -14,7 +14,7 @@ Come creare una tabella pivot spiega come creare una semplice tabella pivot. Que
 
 ### **Impostazione delle opzioni di formato della tabella pivot**
 
- Il[**Tabella pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)class controlla la tabella pivot complessiva e può essere formattata in vari modi.
+ Il[**Tabella pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)class controlla la tabella pivot complessiva e può essere formattata in diversi modi.
 
 #### **Impostazione del tipo di formattazione automatica**
 
@@ -27,7 +27,7 @@ Microsoft Excel offre diversi formati di report preimpostati. Aspose.Cells suppo
 
 #### **Impostazione delle opzioni di formato**
 
-L'esempio di codice seguente mostra come formattare la tabella pivot per mostrare i totali complessivi per righe e colonne e come impostare l'ordine dei campi del report. Mostra anche come impostare una stringa cliente per valori nulli.
+L'esempio di codice seguente mostra come formattare la tabella pivot per mostrare i totali complessivi per righe e colonne e come impostare l'ordine dei campi del rapporto. Mostra anche come impostare una stringa cliente per valori nulli.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingFormatOptions-1.cs" >}}
 
@@ -39,7 +39,7 @@ L'esempio di codice seguente mostra come formattare la tabella pivot per mostrar
 
 ### **Impostazione delle opzioni di formato del campo pivot**
 
- Il[**Campo pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)class rappresenta un campo in una tabella pivot e può essere formattato in vari modi. L'esempio di codice seguente mostra come:
+ Il[**Campo pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)class rappresenta un campo in una tabella pivot e può essere formattato in diversi modi. L'esempio di codice seguente mostra come:
 
 - Accedere ai campi riga.
 - Impostazione subtotali.

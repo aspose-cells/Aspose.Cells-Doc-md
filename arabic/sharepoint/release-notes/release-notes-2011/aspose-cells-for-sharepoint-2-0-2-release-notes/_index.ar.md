@@ -18,4 +18,4 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-2-0-2-release-notes/
 
 
 
-`   ` يتم عمل التحسينات لتجسيد الأشكال في تحويل PDF
+`   ` يتم عمل التحسينات على الأشكال التي تظهر في التحويل PDF

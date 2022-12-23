@@ -10,7 +10,7 @@ Microsoft Excel 2013 ermöglicht es Benutzern, Text innerhalb der Datenbeschrift
 
 {{% /alert %}}
 
-Aspose.Cells bietet die[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) Methode. Einstellen**WAHR** oder**FALSCH** zum Aktivieren bzw. Deaktivieren des Textumbruchs auf Datenbeschriftungen.
+Aspose.Cells bietet die[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) Methode. Einstellen**Wahr** oder**FALSCH** zum Aktivieren bzw. Deaktivieren des Textumbruchs auf Datenbeschriftungen.
 
  Verwenden Sie in ähnlicher Weise die[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)Methode, um herauszufinden, ob eine Datenbeschriftung bereits umschlossen ist.
 

@@ -70,7 +70,7 @@ Las siguientes opciones de borde se pueden seleccionar desde el cuadro de diálo
 
 ![todo:imagen_alternativa_texto](format-cells_5.png)
 ### **Aplicar ajustes**
- Hacer clic**OK** en el cuadro de diálogo Estilo para aplicar los cambios.
+ Hacer clic**DE ACUERDO** en el cuadro de diálogo Estilo para aplicar los cambios.
 
 **Configuraciones de fuentes y bordes aplicadas** 
 

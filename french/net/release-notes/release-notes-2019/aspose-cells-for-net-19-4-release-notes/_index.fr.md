@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-19-4-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46619|Prise en charge de l'enregistrement du document au format Markdown|Nouvelle fonctionnalité|
 |CELLSNET-46124|Prise en charge de l'ajout de la forme WebExtension|Nouvelle fonctionnalité|
@@ -21,8 +21,8 @@ url: /fr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46686|Prise en charge de l'espace blanc (code de caractère 20) comme séparateur de groupe de nombres pour la langue française|Renforcement|
 |CELLSNET-46649|Grand PDF généré par rapport à l'outil en ligne iLovePDF|Renforcement|
 |CELLSNET-46093|Les graphiques ne respectent pas la mise en page en noir et blanc|Renforcement|
-|CELLSNET-46677|L'exportation d'Excel au format PDF ne restitue pas précisément les textes arabes dans les graphiques|Renforcement|
-|CELLSNET-46639|Prise en charge des sauts de page verticaux pour le fichier ODS.|Renforcement|
+|CELLSNET-46677|L'exportation d'Excel vers PDF ne restitue pas précisément les textes arabes dans les graphiques|Renforcement|
+|CELLSNET-46639|Prend en charge le saut de page vertical pour le fichier ODS.|Renforcement|
 |CELLSNET-46631|Exception OutOfMemoryException lors du rendu|Performance|
 |CELLSNET-46596|Libellés manquants dans les formes|Punaise|
 |CELLSNET-46615|Shape.ToImage() exporte des images de différentes tailles|Punaise|
@@ -31,8 +31,8 @@ url: /fr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46652|Les segments de tableau croisé dynamique sont supprimés après le chargement et l'enregistrement|Punaise|
 |CELLSNET-46678|PivotField.IsRepeatItemLabels n'est pas conservé dans la sortie XLSB|Punaise|
 |CELLSNET-46671|Range.Copy après Range.CopyData corrompt le classeur|Punaise|
-|CELLSNET-42423|L'enregistrement au format PDF coupe les données de ligne|Punaise|
-|CELLSNET-45698|La méthode Worksheet.AutoFitColumns coupe le texte long lors du rendu au format PDF|Punaise|
+|CELLSNET-42423|L'enregistrement dans PDF coupe les données de ligne|Punaise|
+|CELLSNET-45698|La méthode Worksheet.AutoFitColumns coupe le texte long lors du rendu en PDF|Punaise|
 |CELLSNET-46661|Moins de pages rendues en PDF par rapport à Excel 365|Punaise|
 |CELLSNET-46673|Problème de taille de fichier lors de la conversion d'Excel en PDF|Punaise|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue ne fonctionne pas comme prévu|Punaise|
@@ -48,8 +48,8 @@ url: /fr/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46662|Problème d'obtention de BuiltInDocumentProperties|Punaise|
 |CELLSNET-46663|La taille de l'image a changé lors de la conversion de XLS en PDF|Punaise|
 |CELLSNET-46667|Les lignes masquées sont récupérées tant que PlotVisibleRows = true|Punaise|
-|CELLSNET-46668|La ligne pointillée devient solide lorsque XLSX est enregistré en tant qu'ODS|Punaise|
-|CELLSNET-46669|Forme à l'image Erreur lors du rendu d'un fichier Excel au format PDF|Exception|
+|CELLSNET-46668|La ligne pointillée devient pleine lorsque XLSX est enregistré sous ODS|Punaise|
+|CELLSNET-46669|Shape to image Erreur lors du rendu d'un fichier Excel en PDF|Exception|
 |CELLSNET-46645|Exception déclenchée lors de l'appel de PivotTable.GetChildrens()|Exception|
 |CELLSNET-46675|Exception lors de l'ouverture d'un fichier XLSX|Exception|
 |CELLSNET-46646|Exception déclenchée par l'ouverture du fichier Excel après la mise à jour du graphique|Exception|
@@ -90,4 +90,4 @@ Représente les commentaires thématiques sur le commentaire.
 #### **Ajoutez les méthodes CommentCollection.AddThreadedComment() et CommentCollection.GetThreadedComments().**
 Ajoute et obtient les commentaires filetés.
 #### **Ajoutez la propriété Chart.SubTitle.**
-Obtient le sous-titre du graphique. Uniquement pour les fichiers au format ODS.
+Obtient le sous-titre du graphique. Uniquement pour le fichier au format ODS.

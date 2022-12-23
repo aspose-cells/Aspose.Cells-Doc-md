@@ -105,7 +105,7 @@ Im folgenden Beispiel wird der Palette eine benutzerdefinierte Farbe (Orchidee) 
 
 {{% alert color="primary" %}}
 
-Die Palette enthält nur 56 Farben. Wenn Sie der Palette eine benutzerdefinierte Farbe hinzufügen, wird die Palette geändert und alle Elemente in der Datei, die mit der vorherigen Farbe formatiert wurden, werden geändert. Seien Sie also bitte sehr vorsichtig, wenn Sie die Palette ändern. Darüber hinaus ist dies nur die Einschränkung im XLS-Dateiformat (Excel 97 - 2003), da es keine solche Einschränkung für XLSX- oder andere fortgeschrittene MS Excel-Dateiformate (2007/2010 oder 2013) gibt.
+Die Palette enthält nur 56 Farben. Wenn Sie der Palette eine benutzerdefinierte Farbe hinzufügen, wird die Palette geändert und alle Elemente in der Datei, die mit der vorherigen Farbe formatiert wurden, werden geändert. Seien Sie also bitte sehr vorsichtig, wenn Sie die Palette ändern. Darüber hinaus ist dies nur die Einschränkung im Dateiformat XLS (Excel 97 - 2003), da es keine solche Einschränkung für XLSX oder andere erweiterte MS Excel-Dateiformate (2007/2010 oder 2013) gibt.
 
 {{% /alert %}}
 

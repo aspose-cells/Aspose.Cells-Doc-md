@@ -42,7 +42,7 @@ url: /it/net/aspose-cells-for-net-4-9-0-release-notes/
  Cosa è cambiato in Aspose.Cells.GridDesktop:
 
 - Imposta i formati di data "MM/GG/AAAA" e "M/G/AAAA" con la finestra di dialogo Formato Cells
-- Importa il formato di file CSV
+- Importa il formato file CSV
 - Supporta formule: CERCA, MATCH
 - 3 correzioni e altri miglioramenti.
 

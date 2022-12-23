@@ -18,15 +18,15 @@ url: /de/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45278|Funktion SetColumnHeaderToolTip(int colIndex, string toolTip) fehlt im neueren API-Set – Aspose.Cells.GridWeb|Neue Funktion|
 |CELLSNET-45201|Ändern Sie die Filterliste in eine Auswahlliste mit mehreren Kontrollkästchen für GridWeb|Neue Funktion|
 |CELLSNET-42557|PivotTable-Gruppierung und Auswahl des Pivot-Berichtsfilters verschwinden beim Laden in GridWeb|Neue Funktion|
-|CELLSNET-45281|Sparklines verschwinden nach dem Rendern in PDF|Erweiterung|
+|CELLSNET-45281|Sparklines verschwinden nach dem Rendern auf PDF|Erweiterung|
 |CELLSNET-45280|Sparklines verschwinden nach dem erneuten Speichern der Datei|Erweiterung|
-|CELLSNET-44438|OutOfMemoryException beim Speichern von CSV in PDF|Leistung|
-|CELLSNET-45231|Format-Tag im SpreadsheetML-Inhalt bleibt beim Laden hängen|Leistung|
+|CELLSNET-44438|OutOfMemoryException beim Speichern von CSV bis PDF|Leistung|
+|CELLSNET-45231|Das Format-Tag im SpreadsheetML-Inhalt bleibt beim Laden hängen|Leistung|
 |CELLSNET-45219|Entfernen Sie einige Aufrufe der Methode string.ToUpper() (falls möglich) im Quellcode|Leistung|
 |CELLSNET-45242|Einige Formen sind in der gerenderten PDF-Datei getrennt/verzerrt und abgedunkelt|Insekt|
 |CELLSNET-45275|Das Entfernen des Arbeitsblatts führt dazu, dass ein beschädigtes XLSM gespeichert wird|Insekt|
-|CELLSNET-45262|Arbeitsblatt als HTML mit überlaufendem Text in Zellen speichern|Insekt|
-|CELLSNET-45248|Einige Texte überlappen oder sind unsichtbar, und die vertikale Ausrichtung stimmt beim Excel-zu-HTML-Rendering nicht|Insekt|
+|CELLSNET-45262|Speichern des Arbeitsblatts als HTML mit überlaufendem Text in Zellen|Insekt|
+|CELLSNET-45248|Einige Texte überlappen oder sind unsichtbar, und die vertikale Ausrichtung stimmt in Excel nicht mit dem Rendern von HTML|Insekt|
 |CELLSNET-45229|Wenn HTML als XLSX gespeichert wird, ist das Textlayout anders|Insekt|
 |CELLSNET-45228|Wenn HTML als XLSX gespeichert wird, wird das Textformat geändert|Insekt|
 |CELLSNET-45227|Wenn HTML als XLSX gespeichert wird, fehlt ein Teil des Inhalts|Insekt|
@@ -34,21 +34,21 @@ url: /de/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45254|Problem mit Pivot-Filtertext|Insekt|
 |CELLSNET-45267|Das Zahlenformat funktioniert in der Pivot-Tabelle nicht richtig|Insekt|
 |CELLSNET-45170|Einige Texte überlappen sich mit anderen Zellen und die vertikale Ausrichtung ist nicht richtig|Insekt|
-|CELLSNET-45263|Problem beim Importieren von Daten um 1900 aus der CSV-Datei|Insekt|
-|CELLSNET-45283|Die Schriftart ist in der PDF-Ausgabedatei fetter, wenn der PDF-Optimierungstyp auf "MinimumSize" eingestellt ist|Insekt|
-|CELLSNET-45265|Schriftart im Ausgabebild/PDF geändert|Insekt|
+|CELLSNET-45263|Problem beim Importieren von Daten um 1900 aus der Datei CSV|Insekt|
+|CELLSNET-45283|Die Schriftart ist in der Ausgabedatei PDF fetter, wenn der Optimierungstyp PDF auf „MinimumSize“ gesetzt wird.|Insekt|
+|CELLSNET-45265|Schriftart im Ausgabebild geändert/PDF|Insekt|
 |CELLSNET-45235|Leichter vertikaler Ausrichtungsunterschied zwischen Excel und Aspose.Cells Pdfs|Insekt|
-|CELLSNET-45272|Die Schriftart ist anders und das Prozentzeichen fehlt in der PDF-Ausgabedatei|Insekt|
+|CELLSNET-45272|Die Schriftart ist anders und das Prozentzeichen fehlt in der Ausgabedatei PDF|Insekt|
 |CELLSNET-45233|Diagramme haben "Achsentitel"|Insekt|
-|CELLSNET-45232|3D-Säulendiagramme werden in der PDF-Ausgabedatei nicht korrekt wiedergegeben|Insekt|
-|CELLSNET-45188|Kategorieachsenbeschriftungen werden im Diagramm in der Ausgabe-PDF nicht angezeigt|Insekt|
-|CELLSNET-45292|Das Löschen von Arbeitsblättern in XLSM hinterlässt ein Restblatt im VBA-Projekt|Insekt|
+|CELLSNET-45232|3D-Säulendiagramme werden in der Ausgabedatei PDF nicht korrekt gerendert|Insekt|
+|CELLSNET-45188|Kategorieachsenbeschriftungen werden in der Ausgabe PDF nicht im Diagramm angezeigt|Insekt|
+|CELLSNET-45292|Das Löschen des Arbeitsblatts in XLSM hinterlässt ein Restblatt im vba-Projekt|Insekt|
 |CELLSNET-45286|Wenn eine bestimmte Datei gespeichert wird, ist die Ausgabe beschädigt|Insekt|
 |CELLSNET-45285|Excel-Dokumente werden nach dem Speichern beschädigt|Insekt|
 |CELLSNET-45261|Die Formel 'DAYS' in Excel-Tabellen wird durch einen NamedRange ersetzt|Insekt|
 |CELLSNET-45260|Das Festlegen des LightAngle-Werts beschädigt die Excel-Datei|Insekt|
 |CELLSNET-45253|Einfügen von Zeilen, die Formeln aufbrechen, die mit einer externen Arbeitsmappe verknüpft sind|Insekt|
-|CELLSNET-45252|Der Tabellenstil wurde nach dem erneuten Speichern in einem bestimmten XLS geändert (die Tabellenzeilen fehlen).|Insekt|
+|CELLSNET-45252|Der Tabellenstil wurde geändert (die Tabellenzeilen fehlen) nach dem erneuten Speichern in einem bestimmten XLS|Insekt|
 |CELLSNET-45249|Aspose.Cells sortiert gut, aber Formeln werden in Werte umgewandelt|Insekt|
 |CELLSNET-45244|Cells Das Löschen von Bereichen mit der Option „Nach oben verschieben“ formatiert Zellen nicht|Insekt|
 |CELLSNET-45241|Die Arbeitsmappe wird nach dem Öffnen und Speichern beschädigt|Insekt|
@@ -57,7 +57,7 @@ url: /de/net/aspose-cells-for-net-17-4-0-release-notes/
 |CELLSNET-45234|Cells.DeleteRange() funktioniert nicht richtig|Insekt|
 |CELLSNET-45226|OleObject.ObjectSourceFullName-Eigenschaft kann nicht aktualisiert werden|Insekt|
 |CELLSNET-45225|Cells Das Löschen von Bereichen mit der Option zum Hochschieben verringert die Anzahl der Hyperlinks nicht|Insekt|
-|CELLSNET-45220|Beim Duplizieren der einzelnen Zeilendaten in einem XLS werden falsche Hyperlinks gezählt|Insekt|
+|CELLSNET-45220|Falsche Anzahl von Hyperlinks beim Duplizieren der einzelnen Zeilendaten in einem XLS|Insekt|
 |CELLSNET-45215|Das Verschieben des Arrays in Input2.xlsx führt zu einer nicht zu öffnenden Datei, die Excel beim Start zum Absturz bringt|Insekt|
 |CELLSNET-45214|Der Verweis im Array wird nicht aktualisiert, wenn die referenzierten Zellen in Input.xlsx verschoben werden|Insekt|
 |CELLSNET-45191|Hintergrund für Form ersetzen funktioniert nicht|Insekt|

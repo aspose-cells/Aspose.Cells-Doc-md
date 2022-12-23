@@ -4,7 +4,7 @@ linktitle: الرسوم البيانية
 type: docs
 weight: 130
 url: /ar/net/creating-charts/
-description: قم بإنشاء مخطط في CSharp لملفات Excel و ODS.
+description: قم بإنشاء مخطط في CSharp for Excel وملفات ODS.
 keywords: create a chart, make a graph 
 ---
 {{% alert color="primary" %}}
@@ -52,7 +52,7 @@ keywords: create a chart, make a graph
 
 كما هو مذكور أعلاه ، فإن جميع كائنات الرسوم البيانية هي أمثلة لفئاتها وتوفر خصائص وطرق محددة لأداء مهام محددة. استخدم كائنات المخططات لإنشاء المخططات.
 
-أضف أي نوع من المخططات إلى ورقة عمل باستخدام امتداد[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) مجموعة. كل عنصر في[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) تمثل المجموعة أ[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) هدف. أ[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)يقوم الكائن بتغليف جميع كائنات التخطيط الأخرى المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
+أضف أي نوع من المخططات إلى ورقة عمل باستخدام امتداد[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) مجموعة. كل عنصر في[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) تمثل المجموعة أ[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) موضوع. أ[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)يقوم الكائن بتغليف جميع كائنات التخطيط الأخرى المطلوبة لتخصيص مظهر المخطط. يوضح القسم التالي كيفية استخدام بعض كائنات التخطيط الأساسية لإنشاء مخطط بسيط.
 
 ### **إنشاء مخطط باستخدام Aspose.Cells**
 
@@ -60,7 +60,7 @@ keywords: create a chart, make a graph
 
 1.  أضف بعض البيانات إلى خلايا ورقة العمل بامتداد[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) أشياء[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)طريقة.
  سيتم استخدام هذا كمصدر بيانات للمخطط.
-1.  أضف مخططًا إلى ورقة العمل عن طريق استدعاء[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) المجموعة[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) طريقة مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)هدف.
+1.  أضف مخططًا إلى ورقة العمل عن طريق استدعاء[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) المجموعة[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) طريقة مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)موضوع.
 1.  حدد نوع الرسم البياني بامتداد[**نوع التخطيط**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)تعداد.
  على سبيل المثال ، يستخدم المثال أدناه الامتداد[**نوع المخطط. الهرم**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)القيمة كنوع المخطط.
 1.  الوصول إلى ملف[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) كائن من[**الرسوم البيانية**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)جمع عن طريق تمرير الفهرس الخاص به.
@@ -77,17 +77,17 @@ keywords: create a chart, make a graph
 
 |**أنواع المخططات**|**وصف**|
 |:- |:- |
-|عمودي|يمثل مخطط عمودي متفاوت المسافات|
+|عمود|يمثل مخطط عمودي متفاوت المسافات|
 |العمود مكدسة|يمثل مخطط عمودي مكدس|
 |عمود 100 نسبة مكدسة|يمثل مخطط عمودي مكدس بنسبة 100٪|
 |Column3D العنقودية|يمثل مخطط عمودي مجمع ثلاثي الأبعاد|
 |العمود 3D مكدسة|يمثل مخطط عمودي مكدس ثلاثي الأبعاد|
-|عمود 3 D100Percent مكدسة|يمثل مخططًا عموديًا مكدسًا بنسبة 100٪ ثلاثي الأبعاد|
-|العمود 3 د|يمثل التخطيط العمودي ثلاثي الأبعاد|
+|عمود 3 D100Percent مكدسة|يمثل مخطط عمودي مكدس بنسبة 100٪ ثلاثي الأبعاد|
+|العمود 3 د|يمثل مخطط عمودي ثلاثي الأبعاد|
 |شريط|يمثل مخطط شريطي متفاوت المسافات|
 |بار مكدسة|يمثل مخطط شريطي مكدس|
 |شريط 100٪ مكدسة|يمثل مخطط شريطي مكدس بنسبة 100٪|
-|شريط ثلاثي الأبعاد متفاوت|يمثل مخطط شريطي ثلاثي الأبعاد مجمع|
+|شريط ثلاثي الأبعاد متفاوت|يمثل مخطط شريطي ثلاثي الأبعاد متفاوت المسافات|
 |Bar3D مكدسة|يمثل مخطط شريطي مكدس ثلاثي الأبعاد|
 |شريط ثلاثي الأبعاد 100٪ مكدس|يمثل مخطط شريطي مكدس بنسبة 100٪ ثلاثي الأبعاد|
 |خط|يمثل الخط البياني|
@@ -137,7 +137,7 @@ keywords: create a chart, make a graph
 |مخروط 100٪ مكدسة|يمثل 100٪ مخطط مخروطي مكدس|
 |مخروطي الشكل|يمثل مخطط شريطي مخروطي الشكل|
 |مخروطي الشكل مكدس|يمثل مخطط شريطي مخروطي مكدس|
-|ConicalBar 100Percent مكدسة|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
+|مخروطي الشكل 100٪ مكدس|يمثل مخطط شريطي مخروطي مكدس بنسبة 100٪|
 |عمود مخروطي ثلاثي الأبعاد|يمثل مخطط عمودي مخروطي ثلاثي الأبعاد|
 |هرم|يمثل مخطط هرم|
 |الهرم مكدسة|يمثل مخطط هرم مكدس|

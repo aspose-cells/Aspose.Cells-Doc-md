@@ -10,7 +10,7 @@ url: /zh/java/aspose-cells-for-java-7-5-1-release-notes/
 
 {{% /alert %}} 
 
-新的功能
+新功能
 
 40566 - 根据单元格引用插入图片
 

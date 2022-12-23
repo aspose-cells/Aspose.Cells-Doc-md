@@ -41,7 +41,7 @@ Dosya Sistemi Web Sitelerinde veya MS Ajax uzantılarında vb. Aspose.Cells.Grid
 
 {{% /alert %}}
 
-Ayrıca, değerlendirme filigranı olan bir çalışma sayfası, Aspose.Cells kitaplığı kullanılarak oluşturulan excel dosyasında her zaman etkin çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. Aspose.Cells numaralı çıktı PDF veya görüntü dosyasında, belgenin/görüntünün üstüne bir değerlendirme filigranı yapıştırılır. Değerlendirme Telif Hakkı Uyarısını (ekstra çalışma sayfası) GridWeb kontrolünde de gizleyemezsiniz, her zaman eklenecektir. (çalışma sayfası sekmelerinin sonunda) denetimde.
+Ayrıca, değerlendirme filigranı olan bir çalışma sayfası, Aspose.Cells kitaplığı kullanılarak oluşturulan excel dosyasında her zaman etkin çalışma sayfası olarak görünecektir. Yalnızca lisanslı sürümde, aktif çalışma sayfasını diğer çalışma sayfalarına ayarlayabilirsiniz. PDF çıktısında veya Aspose.Cells tarafından görüntü dosyasında, belgenin/görüntünün üstüne bir değerlendirme filigranı yapıştırılır. Değerlendirme Telif Hakkı Uyarısını (ekstra çalışma sayfası) GridWeb kontrolünde de gizleyemezsiniz, her zaman eklenecektir. (çalışma sayfası sekmelerinin sonunda) denetimde.
 
 {{% alert color="primary" %}}
 

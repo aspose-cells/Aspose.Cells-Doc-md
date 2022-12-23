@@ -3,7 +3,7 @@ title: Applicare effetti di apice e pedice sui caratteri
 type: docs
 weight: 30
 url: /it/java/apply-superscript-and-subscript-effects-on-fonts/
-description: Come applicare l'effetto apice e pedice al testo in Excel con Java. Questo articolo fornisce il codice Java per ottenere proprio questo con l'uso dell'API Aspose.Cells for Java.
+description: Come applicare l'effetto apice e pedice al testo in Excel con Java. Questo articolo fornisce il codice Java per ottenere proprio questo con l'uso di Aspose.Cells for Java API.
 keywords: excel superscript java, excel subscript java, excel superscript and subscript java, insert subscript and superscript in excel java, add subscript and superscript in excel java, add superscript and subscript excel java, add superscript excel java, add subscript excel java
 ---
 {{% alert color="primary" %}}

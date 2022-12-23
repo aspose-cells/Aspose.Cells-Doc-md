@@ -14,11 +14,11 @@ url: /it/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Nuove caratteristiche
 
- 41522 - Analisi degli scenari nella conversione da XLS a XLSM
+ 41522 - Analizza scenari nella conversione da XLS a XLSM
 
  Prestazione
 
- 41526 - La conversione da XLSX a PDF si blocca
+ 41526 - XLSX a PDF la conversione si blocca
 
  Eccezioni
 
@@ -30,7 +30,7 @@ url: /it/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 - Problemi con il ridimensionamento automatico per la casella di testo
 
- 41751 - Formula/e di matrice persa durante il salvataggio
+41751 - Formula/e di matrice persa durante il salvataggio
 
  41787 - Il file è danneggiato durante il salvataggio
 

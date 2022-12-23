@@ -14,8 +14,8 @@ url: /zh/net/aspose-cells-for-net-18-3-release-notes/
 |:- |:- |:- |
 |CELLSNET-42655|数据透视表中的分组数据透视字段|新功能|
 |CELLSNET-45960|将点从 NumPad 更改为小数点分隔符 (',') - Aspose.Cells.GridWeb|新功能|
-|CELLSNET-45966|向后 HTML-to-Cells 转换期间异常的原因|强化|
-|CELLSNET-45976|由于可能不同的框架导致打开 ODS 文件时出错，因此浮点值的精度不同|强化|
+|CELLSNET-45966|向后HTML-to-Cells转换时异常原因|强化|
+|CELLSNET-45976|打开 ODS 文件时出错，原因可能是不同的框架对浮点值保持不同的精度|强化|
 |CELLSNET-45981|将属性添加到 StyleFlag 以设置为 false 以不覆盖 QuotePrefix 值|强化|
 |CELLSNET-45957|支持将地图图表保留在模板文件中|强化|
 |CELLSNET-45941|将工作表从一个工作簿复制到另一个工作簿时，ActiveX 控件变成图片|强化|
@@ -29,7 +29,7 @@ url: /zh/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45979|VLOOKUPS 公式计算无法正常工作|漏洞|
 |CELLSNET-45949|Cell 文本对齐方式（具有混合字体）在转换后的图像中发生变化|漏洞|
 |CELLSNET-45940|将 Excel 文件转换为 PDF 文件格式时未应用条件格式|漏洞|
-|CELLSNET-45896|将 Excel 文件保存为 PDF 时，图像周围出现不需要的边框|漏洞|
+|CELLSNET-45896|将 Excel 文件保存到 PDF 时，图像周围会出现不需要的边框|漏洞|
 |CELLSNET-45942|打开/保存后数据标签的单元格引用丢失|漏洞|
 |CELLSNET-45923|图表图像中缺少最后一个轴标签，即 Jun 17|漏洞|
 |CELLSNET-45911|市场风险图表呈现中的不良位置和线|漏洞|

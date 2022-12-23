@@ -13,31 +13,31 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Verwenden Sie die FIPS-kompatible Version von Bouncy Castle in Aspose.Cells-APIs|Neue Funktion|
-|CELLSJAVA-42550|Die gleichzeitige Konvertierung in PDF, während jede Arbeitsmappe ihren eigenen privaten (exklusiven) Satz von Schriftarten hat|Neue Funktion|
+|CELLSJAVA-42550|Die gleichzeitige Konvertierung in PDF, während jede Arbeitsmappe über ihren eigenen privaten (exklusiven) Satz von Schriftarten verfügt|Neue Funktion|
 |CELLSJAVA-42339|Implementieren Sie die benutzerdefinierte Datensortierung im Pivot-Tabellenbericht über Aspose.Cells-APIs|Neue Funktion|
 |CELLSJAVA-42625|Die Implementierung der MS Excel-Funktion „Watch Window“|Neue Funktion|
 |CELLSJAVA-42612|Der Text kann nicht aus dem Zahnradtyp SmartArt extrahiert werden|Neue Funktion|
 |CELLSJAVA-42572|Die Formel sollte nicht mehr als 8192 Zeichen enthalten|Erweiterung|
-|CELLSJAVA-42569|Auf horizontale Kategorieachsenbeschriftungselemente des Diagramms in XLS kann nicht zugegriffen werden|Erweiterung|
+|CELLSJAVA-42569|Zugriff auf horizontale Kategorieachsen-Beschriftungselemente von Diagramm in XLS nicht möglich|Erweiterung|
 |CELLSJAVA-42580|Dokumenteigenschaft Sprache abrufen/einstellen|Erweiterung|
 |CELLSJAVA-42565|Vordergrundfarbe vs. Hintergrundfarbe vs. Füllfarbe – Verwenden Sie eine einzelne Methode, die zwei Argumente akzeptiert|Erweiterung|
 |CELLSJAVA-42528|"\<Font>" ist kein gültiges HTML5- und selbstschließendes Tag, und Webbrowser stellen seinen Inhalt falsch dar|Erweiterung|
-|CELLSJAVA-42413|Fügen Sie den SVG-Bildtyp bis Aspose.Cells in Arbeitsblattzellen ein|Erweiterung|
+|CELLSJAVA-42413|Fügen Sie den Bildtyp SVG bis Aspose.Cells in Arbeitsblattzellen ein|Erweiterung|
 |CELLSJAVA-42594|LoadFormat und FileFormatType von XLAM erkennen|Erweiterung|
 |CELLSJAVA-42646|Ausnahme: „FormulaBuild Unknown formula token 0“ bei Name.getRefersTo()|Erweiterung|
 |CELLSJAVA-42645|Ausnahme: „FormulaBuild More than one token in stack….“ auf Cell.getFormula()|Erweiterung|
 |CELLSJAVA-42516|Aspose.Cells akzeptiert und korrigiert eine ungültige Formel|Erweiterung|
-|CELLSJAVA-42551|Einige Formen sind in der Ausgabe-PDF nicht korrekt|Insekt|
-|CELLSJAVA-42578|Die bedingte Formatierung geht beim Speichern von Excel in HTML verloren|Insekt|
-|CELLSJAVA-42571|Ausgabe-HTML stimmt nicht mit MS-Excel überein|Insekt|
-|CELLSJAVA-42553|Links zum benannten Bereich sind nach dem Export in HTML falsch|Insekt|
+|CELLSJAVA-42551|Einige Formen sind in der Ausgabe PDF nicht korrekt|Insekt|
+|CELLSJAVA-42578|Die bedingte Formatierung geht beim Speichern von Excel unter HTML verloren|Insekt|
+|CELLSJAVA-42571|Ausgabe HTML stimmt nicht mit MS-Excel überein|Insekt|
+|CELLSJAVA-42553|Links zum benannten Bereich sind nach dem Export nach HTML falsch|Insekt|
 |CELLSJAVA-42530|Pivot-Tabellen und entsprechende Diagramme haben nicht das richtige Datumsformat|Insekt|
 |CELLSJAVA-42527|Das Diagramm hat viele Werte auf der X-Achse und die Werte überlappen sich|Insekt|
 |CELLSJAVA-42581|Aspose.Cells gibt falschen Wert von Zelle A2 zurück|Insekt|
 |CELLSJAVA-42583|XML-Zuordnung erstellt Tabelle nicht richtig|Insekt|
 |CELLSJAVA-42577|Abrufen/Extrahieren von Werten (0 für 0 und leer für leer) mit der Methode DataPoint.getYValue() für ein bestimmtes Diagramm|Insekt|
 |CELLSJAVA-42566|Invertierung von Untertiteln (Legendeneinträgen) im MS Excel-Diagramm|Insekt|
-|CELLSJAVA-42560|In der PNG-Ausgabe des Excel-Diagramms fehlen Pfeile|Insekt|
+|CELLSJAVA-42560|Pfeile fehlen in der PNG-Ausgabe des Excel-Diagramms|Insekt|
 |CELLSJAVA-42508|Java Methode 'Shape.toImage' funktioniert anders mit der gleichen Methode in .NET|Insekt|
 |CELLSJAVA-42573|Aspose.Cells 18.3 Rotation für eine TextBox funktioniert nicht für EXCEL_97_TO_2003 Speicherformat|Insekt|
 |CELLSJAVA-42570|Nach dem Verarbeiten und Speichern der Excel-Datei wird in der TextBox eine leere neue Zeile angezeigt|Insekt|
@@ -49,20 +49,20 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |CELLSJAVA-42600|Derselbe Code wird in neuen Versionen langsamer ausgeführt|Insekt|
 |CELLSJAVA-42598|Eigenschaften werden nicht in die Vorlagendatei extrahiert|Insekt|
 |CELLSJAVA-42589|NullPointerException beim Hinzufügen von HTML zu einer Zelle|Insekt|
-|CELLSJAVA-41414|Linien sind aus dem Diagramm verschwunden, wenn die XLSX-Datei erneut gespeichert wird|Insekt|
-|CELLSJAVA-42636|Einige Zeichnungsformen werden beim Rendern von Excel in HTML verschoben oder falsch gerendert|Insekt|
+|CELLSJAVA-41414|Linien sind aus dem Diagramm verschwunden, wenn die Datei XLSX erneut gespeichert wird|Insekt|
+|CELLSJAVA-42636|Einige Zeichnungsformen werden in Excel verschoben oder falsch auf HTML gerendert|Insekt|
 |CELLSJAVA-42627|CELLSJAVA-42619 SmartArt-Bilder können nicht korrekt extrahiert werden|Insekt|
-|CELLSJAVA-42618|Die Form wird verschoben, um Daten in Excel für das HTML-Rendering abzudecken|Insekt|
+|CELLSJAVA-42618|Die Form wird verschoben, um Daten in Excel auf HTML-Rendering abzudecken|Insekt|
 |CELLSJAVA-42628|Berechnung von Formeln ist falsch zB generiert #DIV/0! Fehler|Insekt|
-|CELLSJAVA-42615|Cell Das A3-Format ist im Ausgabe-HTML nicht korrekt|Insekt|
-|CELLSJAVA-42621|Schlechte Leistung beim Generieren einer PDF-Datei aus einer Excel-Datei|Insekt|
-|CELLSJAVA-42620|XLSX zu TIFF - Ausnahme NoClassDefFoundError|Insekt|
+|CELLSJAVA-42615|Cell A3-Format ist in der Ausgabe HTML nicht korrekt|Insekt|
+|CELLSJAVA-42621|Schlechte Leistung beim Generieren der Datei PDF aus einer Excel-Datei|Insekt|
+|CELLSJAVA-42620|XLSX bis TIFF - Ausnahme NoClassDefFoundError|Insekt|
 |CELLSJAVA-42599|Bilder gehen verloren, wenn eine Excel-Datei in PDF konvertiert wird|Insekt|
 |CELLSJAVA-42630|Die Chart.calculate-Methode verursacht OutOfMemoryError|Insekt|
-|CELLSJAVA-42623|Der Speicher erhöht sich beim Rendern von Excel-Dateien in das PDF-Dateiformat|Insekt|
+|CELLSJAVA-42623|Der Speicher erhöht sich beim Rendern der Excel-Datei in das Dateiformat PDF|Insekt|
 |CELLSJAVA-42592|Die Schriftgröße des Diagrammtitels wurde aufgrund der Methode characters() geändert|Insekt|
 |CELLSJAVA-41860|Der Schatteneffekt wird beim erneuten Speichern von XLS geändert|Insekt|
-|CELLSJAVA-42654|Konvertierung von Excel in PDF – die Konvertierung wird nie abgeschlossen|Insekt|
+|CELLSJAVA-42654|Konvertierung von Excel in PDF - die Konvertierung wird nie abgeschlossen|Insekt|
 |CELLSJAVA-42647|Alternative Text für Kommentarform kann nicht abgerufen oder festgelegt werden|Insekt|
 |CELLSJAVA-42644|Aspose.Cells hängt beim Konvertieren einer Spreadsheet ML-Datei (xml) in PDF mit selbstschließendem Styles-Tag|Insekt|
 |CELLSJAVA-42632|Alternative Text für SmartArt-Form kann nicht festgelegt werden|Insekt|
@@ -87,11 +87,11 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 
 ### **Fügt das neue Element „CrossHideRight“ für die HtmlCrossType-Aufzählung hinzu**
 
-Zeigt HTML-Querzeichenfolge an und blendet die rechte Zeichenfolge aus, wenn der Text überlappt.
+Zeigt HTML Querzeichenfolge an und blendet die rechte Zeichenfolge aus, wenn der Text überlappt.
 
-### **Fügt das neue Element "TSV" für die Enumerationen LoadFormat, SaveFormat und FileFormatType hinzu**
+### **Fügt das neue Element „TSV“ für die Enumerationen LoadFormat, SaveFormat und FileFormatType hinzu**
 
-Stellt eine TSV-Datei (durch Tabulatoren getrennte Werte) dar, ebenso wie "TabDelimited".
+Stellt eine TSV-Datei (durch Tabulatoren getrennte Werte) dar, genauso wie "TabDelimited".
 
 ### **Fügt Aufzählung ImageType hinzu**
 
@@ -115,7 +115,7 @@ Ruft die Indizes aller ausgeblendeten Zeilen ab und aktualisiert den Autofilter.
 
 ### **Fügt die Überladungsmethode Cell.GetHtmlString(System.Boolean) hinzu**
 
-Ruft die HTML-Zeichenfolge ab, die Daten und einige Formate in dieser Zelle enthält.
+Ruft die Zeichenfolge HTML ab, die Daten und einige Formate in dieser Zelle enthält.
 
 ### **Fügt die BuiltInDocumentPropertyCollection.Language-Eigenschaft hinzu**
 
@@ -139,11 +139,11 @@ Stellt Seitenlayout-Ausrichtungstypen dar.
 
 ### **Fügt die Methode Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) hinzu**
 
-Erstellt das PDF des Diagramms mit der gewünschten Seitengröße und speichert es in einem Stream.
+Erstellt das Diagramm PDF mit der gewünschten Seitengröße und speichert es in einem Stream.
 
 ### **Fügt die Methode Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) hinzu**
 
-Erstellt das PDF des Diagramms mit der gewünschten Seitengröße und speichert es in einer Datei.
+Erstellt das Diagramm PDF mit der gewünschten Seitengröße und speichert es in einer Datei.
 
 ### **Fügt die PdfSaveOptions.OutputBlankPageWhenNothingToPrint-Eigenschaft hinzu**
 

@@ -6,7 +6,7 @@ url: /tr/net/retrieving-sql-connection-data/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuyla bağlantı kurmak için gereken tüm verileri içerir, örneğin,**sunucu URL'si**, **Kullanıcı adı**, **Tablo ismi**, **tam SQL sorgusu**, **Sorgu Türü**, **masanın konumu** , ve**adlandırılmış aralığın adı** ile ilişkili.
+ Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuyla bağlantı kurmak için gereken tüm verileri içerir, örneğin,**sunucu URL'si**, **Kullanıcı adı**, **Tablo ismi**, **tam SQL sorgusu**, **Sorgu Türü**, **masanın yeri** , ve**adlandırılmış aralığın adı** ile ilişkili.
 
 {{% /alert %}}
 

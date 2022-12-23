@@ -21,10 +21,10 @@ url: /es/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45833|Las propiedades de la imagen (título y asunto) se pierden en la conversión de forma a imagen|Insecto|
 |CELLSNET-45822|Caracteres invertidos en etiquetas al convertir Excel a PDF|Insecto|
 |CELLSNET-45776|Los datos de algunas columnas no se expanden/muestran por completo al guardar un archivo MHtml en formato de archivo de Excel|Insecto|
-|CELLSNET-44829|El HTML de salida no coincide con Microsoft Excel|Insecto|
+|CELLSNET-44829|La salida HTML no coincide con Microsoft Excel|Insecto|
 |CELLSNET-44319|El valor del filtro de la tabla dinámica no se conserva al actualizar|Insecto|
 |CELLSNET-45887|#¡VALOR!' error para el cálculo de ArrayFormula|Insecto|
-|CELLSNET-45883|Gráfico circular 3D: no se muestra bien en el PDF de salida|Insecto|
+|CELLSNET-45883|Gráfico circular 3D: no se muestra bien en la salida PDF|Insecto|
 |CELLSNET-45881|Abrir y guardar el archivo de entrada de Excel provoca una advertencia de Vista protegida roja en MS Excel|Insecto|
 |CELLSNET-45880|Parte de las etiquetas del eje x se representan en la segunda línea del gráfico|Insecto|
 |CELLSNET-45864|EMF convertido de Aspose.Cells no es exactamente exacto|Insecto|
@@ -34,7 +34,7 @@ url: /es/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45865|Los caracteres especiales utilizados en el nombre de una columna no funcionan: problema de marcadores inteligentes|Insecto|
 |CELLSNET-45858|El cambio de la fuente del enlace está afectando el contenido de los menús desplegables|Insecto|
 |CELLSNET-45857|Archivo dañado al copiar una hoja de un libro de trabajo a otro|Insecto|
-|CELLSNET-45901|La alineación del cuadro de texto se pierde cuando se procesa en PDF|Insecto|
+|CELLSNET-45901|La alineación del cuadro de texto se perdió cuando se representó a PDF|Insecto|
 |CELLSNET-45875|Se pierde el valor Cell y parte de las etiquetas del eje x se representan en la segunda línea|Insecto|
 |CELLSNET-45873|Implementación de control interactivo para grupos de botones de opción en GridWeb|Insecto|
 |CELLSNET-45902|La hoja de trabajo se sobredimensiona y no responde al navegar o hacer clic en ella en Aspose.Cells.GridWeb|Insecto|

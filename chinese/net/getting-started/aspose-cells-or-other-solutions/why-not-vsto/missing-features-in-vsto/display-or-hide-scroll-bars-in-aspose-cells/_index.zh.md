@@ -15,7 +15,7 @@ Microsoft Excel 还提供水平和垂直滚动条，以便用户可以滚动浏�
 
 {{% /alert %}}
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制滚动条的可见性，请使用[**工作簿设置**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)班级'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)特性。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**真的**或者**错误的**值。
+Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制滚动条的可见性，请使用[**工作簿设置**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings)班级'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)特性。[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**IsHScrollBar可见**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**真的**要么**错误的**值。
 
 下面是打开 Excel 文件 book1.xls 的完整代码，隐藏两个滚动条，然后将修改后的文件保存为 output.xls 。
 
@@ -23,11 +23,11 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的Excel文件**
 
-![待办事项：图像_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_1.png)
+![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_1.png)
 
 **output.xls：修改后的Excel文件**
 
-![待办事项：图像_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_2.png)
+![待办事项：图片_替代_文本](display-or-hide-scroll-bars-in-aspose-cells_2.png)
 
 **C#**
 

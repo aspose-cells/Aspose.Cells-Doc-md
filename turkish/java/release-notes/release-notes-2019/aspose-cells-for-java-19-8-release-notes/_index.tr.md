@@ -18,16 +18,16 @@ Bu sayfa Aspose.Cells for Java 19.8 için sürüm notları içerir.
 |CELLSJAVA-42969|Destek Java 12'de Aspose.Cells for Java|Artırma|
 |CELLSJAVA-42977|Excel'den PDF'e dönüştürme sırasında yüksek CPU ve bellek tüketimi|Artırma|
 |CELLSJAVA-42902|Çalışma kitabı kopyalanırken şelale grafik stili düzgün kopyalanmıyor|Böcek|
-|CELLSJAVA-42944|XLSX'i HTML'ye dönüştürürken hata oluştu|Böcek|
+|CELLSJAVA-42944|XLSX, HTML'e dönüştürülürken hata oluştu|Böcek|
 |CELLSJAVA-42966|PivotTable ve PivotChart'ları yenilemek Excel dosyasını bozar|Böcek|
 |CELLSJAVA-42975|HTML dönüşümündeki farklılıklar|Böcek|
 |CELLSJAVA-42971|# N/A, işlenen PDF'de gösterilir
 |Böcek|
-|CELLSJAVA-42970|Excel'de PDF oluşturmaya istenmeyen genişletilmiş sınır çizgisi|Böcek|
-|CELLSJAVA-42976|Excel dosyasını PDF'ye dönüştürürken görüntü konumu uyuşmazlığı|Böcek|
+|CELLSJAVA-42970|Excel'de istenmeyen genişletilmiş sınır çizgisi PDF oluşturmaya|Böcek|
+|CELLSJAVA-42976|Excel dosyasını PDF olarak işlerken görüntü konumu uyuşmazlığı|Böcek|
 |CELLSJAVA-42961|CopyColumns kullanılarak veriler kopyalanırken tablo özellikleri düzgün şekilde kopyalanmıyor|Böcek|
 |CELLSJAVA-42980|Resim kopyalama sırasında saydam görüntü opak olarak değişir|Böcek|
-|CELLSJAVA-42959|Bir XLSX dosyasını PDF'ye dönüştürürken "Şekilden görüntüye Hata" istisnası|İstisna|
+|CELLSJAVA-42959|Bir XLSX dosyasını PDF'e dönüştürürken "Şekilden görüntüye Hata" istisnası|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

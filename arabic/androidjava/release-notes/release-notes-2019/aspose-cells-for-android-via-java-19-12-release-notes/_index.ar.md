@@ -15,41 +15,41 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-41814|دعم فرز البيانات المخصصة لمنطقة معينة في تقرير PivotTable|ميزة جديدة|
 |CELLSJAVA-43032|إضافة طريقة Validation.addArea (CellArea cellArea ، boolean skipArea) أو طريقة Validation.setAreas () / التحميلات الزائدة إلى واجهات برمجة التطبيقات|ميزة جديدة|
 |CELLSJAVA-42851|احصل على تفاصيل اتصال ODATA|ميزة جديدة|
-|CELLSJAVA-43047|إضافة نص تلميح إلى الخلية للتصدير بتنسيق HTML|ميزة جديدة|
+|CELLSJAVA-43047|إضافة نص تلميح إلى الخلية للتصدير في HTML|ميزة جديدة|
 |CELLSJAVA-42988|مشكلة في الأداء مع calculateFormula ()|التعزيز|
 |CELLSJAVA-43018|تصدير نطاق منطقة الطباعة إلى HTML دون تغيير بعض حالات المصنف ضمنيًا|التعزيز|
 |CELLSJAVA-43041|Cells.importCSV يطرح استثناء "لا يمكن أن تتجاوز قيمة السلسلة 255 حرفًا"|التعزيز|
 |CELLSJAVA-43043|Cells.remove - تستغرق المضاعفات وقتًا أطول لمجموعة البيانات الكبيرة|التعزيز|
 |CELLSJAVA-43002|نقطة فعالة غير متوقعة لوحدة المعالجة المركزية في ZipOutputStream عند فتح XSLB|التعزيز|
 |CELLSJAVA-43008|خيار لتعطيل تحميل كائن OLE أثناء فتح مصنف|التعزيز|
-|CELLSJAVA-43019|لم يتم تقديم الرسم البياني الشعاعي بشكل صحيح إلى HTML|حشرة|
-|CELLSJAVA-43027|بعد التحويل إلى PNG ، يختلف مقياس المحور.|حشرة|
-|CELLSJAVA-42474|لا يتم تحديث PivotTable وتلف بعد تحديث البيانات المصدر|حشرة|
-|CELLSJAVA-43033|التحويل إلى PDF لا ينتهي.|حشرة|
-|CELLSJAVA-43034|تم استرداد إخراج تنسيق التاريخ الروسي (المخصص) غير صالح|حشرة|
-|CELLSJAVA-43040|لا يأخذ LoadFilter الورقة المطلوبة في الاعتبار|حشرة|
-|CELLSJAVA-43035|يتم فقد الحدود أثناء تحويل ملف Excel إلى EMF|حشرة|
-|CELLSJAVA-43016|عدد الصفحات غير صالح من SheetRender|حشرة|
-|CELLSJAVA-43026|بعد تقديم المخطط إلى صورة ، قم بتغيير نمط تسميات البيانات ، والقيم ليست هي نفسها|حشرة|
-|CELLSJAVA-43038|لم يتم تصدير الارتباطات التشعبية باستخدام Cell.setHtmlString ()|حشرة|
-|CELLSJAVA-43039|Cell.setHtmlString () لا يعرض علامات / نصوص HTML معينة لتصدير Excel|حشرة|
-|CELLSJAVA-41103|لا يتم عرض تلوين وتنسيق بيانات الجدول المحوري بشكل صحيح|حشرة|
-|CELLSJAVA-43007|لم يتم إنشاء PDF كما هو متوقع|حشرة|
-|CELLSJAVA-43025|Cell.getStyle.getCustom تقوم بإرجاع تنسيق خاطئ للغة الألمانية|حشرة|
-|CELLSJAVA-42793|تم فقد كائن Fontwork SmartArt أثناء تحويل ODS إلى XLSX|حشرة|
-|CELLSJAVA-43020|رسم بياني شعاعي مشوه بعد استدعاء Chart.Calcluate ()|حشرة|
-|CELLSJAVA-43022|خطأ من شكل إلى صورة لملفات XLS|حشرة|
-|CELLSJAVA-43046|يؤدي LoadOptions.setParsingFormulaOnOpen (false) إلى نتائج غير مرغوب فيها أثناء استدعاء getFormula ()|حشرة|
-|CELLSJAVA-43052|مشكلة التحقق من صحة القيم المنطقية|حشرة|
-|CELLSJAVA-43054|مشكلة تتعلق بدمج CSV في الإعدادات البرتغالية|حشرة|
-|CELLSJAVA-43056|Cell.setFormula () لا يتم تحديثه للروابط الخارجية|حشرة|
-|CELLSJAVA-42767|فقدت الصورة أثناء تحويل Excel إلى PDF|حشرة|
-|CELLSJAVA-42913|تم عرض كائنات Visio المضمنة بشكل غير صحيح إلى PDF|حشرة|
-|CELLSJAVA-42883|مشكلة في استخراج نص الرسم البياني من ملف التنسيق Aspose.Cells for Java 95|حشرة|
-|CELLSJAVA-42931|لم يتم جلب المرفقات / الكائنات من Excel95|حشرة|
-|CELLSJAVA-43051|لم يتم الحفاظ على نسبة العرض إلى الارتفاع للصورة|حشرة|
-|CELLSJAVA-43057|مشكلة تتعلق بإضافة صورة رأس إلى الصفحة الأولى في الإخراج Excel|حشرة|
-|CELLSJAVA-43069|يعطي MS Excel رسالة إصلاح عند فتح الملف المعاد حفظه بحلول Aspose.Cells|حشرة|
+|CELLSJAVA-43019|لم يتم تقديم الرسم البياني الشعاعي بشكل صحيح إلى HTML|خلل برمجي|
+|CELLSJAVA-43027|بعد التحويل إلى PNG ، يختلف مقياس المحور.|خلل برمجي|
+|CELLSJAVA-42474|لا يتم تحديث PivotTable وتلف بعد تحديث البيانات المصدر|خلل برمجي|
+|CELLSJAVA-43033|التحويل إلى PDF لا ينتهي.|خلل برمجي|
+|CELLSJAVA-43034|تم استرداد إخراج تنسيق التاريخ الروسي (المخصص) غير صالح|خلل برمجي|
+|CELLSJAVA-43040|لا يأخذ LoadFilter الورقة المطلوبة في الاعتبار|خلل برمجي|
+|CELLSJAVA-43035|يتم فقد الحدود أثناء تحويل ملف Excel إلى EMF|خلل برمجي|
+|CELLSJAVA-43016|عدد الصفحات غير صالح من SheetRender|خلل برمجي|
+|CELLSJAVA-43026|بعد تقديم المخطط إلى صورة ، قم بتغيير نمط تسميات البيانات ، والقيم ليست هي نفسها|خلل برمجي|
+|CELLSJAVA-43038|لم يتم تصدير الارتباطات التشعبية باستخدام Cell.setHtmlString ()|خلل برمجي|
+|CELLSJAVA-43039|Cell.setHtmlString () لا يعرض علامات / نصوص برمجية معينة HTML لتصدير Excel|خلل برمجي|
+|CELLSJAVA-41103|لا يتم عرض تلوين وتنسيق بيانات الجدول المحوري بشكل صحيح|خلل برمجي|
+|CELLSJAVA-43007|لم يتم تكوين PDF كما هو متوقع|خلل برمجي|
+|CELLSJAVA-43025|Cell.getStyle.getCustom تقوم بإرجاع تنسيق خاطئ للغة الألمانية|خلل برمجي|
+|CELLSJAVA-42793|تم فقد كائن Fontwork SmartArt أثناء تحويل ODS إلى XLSX|خلل برمجي|
+|CELLSJAVA-43020|رسم بياني شعاعي مشوه بعد استدعاء Chart.Calcluate ()|خلل برمجي|
+|CELLSJAVA-43022|خطأ في شكل صورة لملفات XLS|خلل برمجي|
+|CELLSJAVA-43046|يؤدي LoadOptions.setParsingFormulaOnOpen (false) إلى نتائج غير مرغوب فيها أثناء استدعاء getFormula ()|خلل برمجي|
+|CELLSJAVA-43052|مشكلة التحقق من صحة القيم المنطقية|خلل برمجي|
+|CELLSJAVA-43054|مشكلة مع CSV الدمج في الإعدادات البرتغالية|خلل برمجي|
+|CELLSJAVA-43056|Cell.setFormula () لا يتم تحديثه للروابط الخارجية|خلل برمجي|
+|CELLSJAVA-42767|فقدت الصورة أثناء تحويل Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-42913|تم عرض كائنات Visio المضمنة بشكل غير صحيح إلى PDF|خلل برمجي|
+|CELLSJAVA-42883|مشكلة في استخراج نص الرسم البياني من ملف التنسيق Aspose.Cells for Java 95|خلل برمجي|
+|CELLSJAVA-42931|لم يتم جلب المرفقات / الكائنات من Excel95|خلل برمجي|
+|CELLSJAVA-43051|لم يتم الحفاظ على نسبة العرض إلى الارتفاع للصورة|خلل برمجي|
+|CELLSJAVA-43057|مشكلة تتعلق بإضافة صورة رأس إلى الصفحة الأولى في الإخراج Excel|خلل برمجي|
+|CELLSJAVA-43069|يعطي MS Excel رسالة إصلاح عند فتح الملف المعاد حفظه بحلول Aspose.Cells|خلل برمجي|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException أثناء تحميل ملف Excel|استثناء|
 |CELLSJAVA-43060|استثناء "java.lang.NullPointerException" في Workbook.save بعد تعيين مصدر البيانات الخارجية على أنه فارغ|استثناء|
 |CELLSJAVA-42923|استثناءات أثناء تحميل مستند XLS|استثناء|
@@ -80,7 +80,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ### **يضيف طريقة Workbook.ExportXml (سلسلة mapName ، دفق تيار).**
 تصدير بيانات XML إلى دفق.
 ### **يضيف خاصية HtmlSaveOptions.ExportArea**
-الحصول على أو تعيين CellArea المصدرة لورقة العمل النشطة الحالية. إذا قمت بتعيين هذه السمة ، فسيتم حذف منطقة الطباعة الخاصة بورقة العمل النشطة الحالية. سيتم تصدير المنطقة المحددة فقط عند حفظ الملف بتنسيق HTML.
+الحصول على أو تعيين CellArea المصدرة لورقة العمل النشطة الحالية. إذا قمت بتعيين هذه السمة ، فسيتم حذف منطقة الطباعة الخاصة بورقة العمل النشطة الحالية. سيتم تصدير المساحة المحددة فقط عند حفظ الملف في HTML.
 ### **إضافة فئات: DataMashup و PowerQueryFormula و PowerQueryFormulaCollection و PowerQueryFormulaItem و PowerQueryFormulaItemCollection**
 يحصل على معلومات في DataMashup.
 ### **يضيف خاصية DBConnection.SeverCommand.**
@@ -115,7 +115,7 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 الرجاء استخدام (LoadDataFilterOptions.Drawing & ~ LoadDataFilterOptions.Chart) بدلاً من LoadDataFilterOptions.Shape.
 ### **يضيف فئة FormulaParseOptions**
 يوفر خيارات المستخدم لإعداد الصيغ.
-### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (string sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
+### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (سلسلة sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
 يضبط الصيغ مع الخيارات.
 ### **الطرق القديمة: Cell.SetFormula (صيغة سلسلة ، منطقي هو R1C1 ، منطقي isLocal ، قيمة الكائن) ، SetArrayFormula (string arrayFormula ، int rowNumber ، int columnNumber ، bool isR1C1 ، bool isLocal) ، SetSharedFormula (string sharedFormula، int rowNumber ، int row) isR1C1 ، منطقي isLocal)**
 الرجاء استخدام الطرق المقابلة مع FormulaParseOptions بدلاً من ذلك.
@@ -124,9 +124,9 @@ url: /ar/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ### **إضافة خاصية AutoFitterOptions.AutoFitWrappedTextType وتعداد AutoFitWrappedTextType.**
 الحصول على نوع النص المغلف المناسب تلقائيًا وتعيينه.
 ### **يضيف فئة EmfRenderSetting**
-مجموعات لعرض ملف تعريف EMF.
+مجموعات لتقديم ملف تعريف EMF.
 ### **يضيف خاصية PdfSaveOptions.EmfRenderSetting**
-مجموعات لعرض ملف تعريف EMF أثناء التقديم إلى ملف PDF.
+مجموعات لتقديم ملف تعريف EMF أثناء التقديم إلى ملف PDF.
 ### **يضيف طريقة ShapeCollection.AddSvg ()**
 يضيف صورة svg.
 ### **يضيف خاصية WorkbookSettings.QuotePrefixToStyle**

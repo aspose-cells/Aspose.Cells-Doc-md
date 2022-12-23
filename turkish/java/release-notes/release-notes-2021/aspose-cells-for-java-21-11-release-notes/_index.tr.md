@@ -12,21 +12,21 @@ url: /tr/java/aspose-cells-for-java-21-11-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-43844|Muhasebe numaraları formatı için gerekli bir geliştirme|
-|CELLSJAVA-43953|Excel'den PDF'e dönüştürmede "Cell" ve "Yorum"un Japoncaya çevrilmesi için belirli metni/bölümü işleyin|
+|CELLSJAVA-43844| Muhasebe numaraları formatı için gerekli bir geliştirme|
+|CELLSJAVA-43953|"Cell" ve "Yorum"un Excel'de Japoncaya çevrilerek PDF'e çevrilmesi için belirli metni/bölümü işleyin|
 |CELLSJAVA-43935|XLS dosyasını kaydederken ve yüklerken şekil metni yazı tipi boyutu sorunu|
 |CELLSJAVA-43952|Geçici lisans sona erme sorunu|
-|CELLSJAVA-43954|XLSX'ten PDF'e: Görüntü, "java.lang.OutOfMemoryError: Java yığın alanı" istisnasına neden oluyor|
-|CELLSJAVA-43902|HTML'ye dönüştürülen Excel'in bazı kenarlıkları gereksizdir|
-|CELLSJAVA-43933|Yalnızca bir veriyle HTML'ye dışa aktarırken, koşullu biçim Excel'den farklıdır|
+|CELLSJAVA-43954|XLSX - PDF: Görüntü, "java.lang.OutOfMemoryError: Java öbek alanı" istisnasına neden oluyor|
+|CELLSJAVA-43902|HTML'e dönüştürülen Excel'in bazı sınırları gereksiz|
+|CELLSJAVA-43933|Yalnızca bir veriyle HTML'e dışa aktarırken, koşullu biçim Excel'den farklıdır|
 |CELLSJAVA-43878| Excel küme çubuk grafiği veri etiketlerinin yanlış konumu|
-|CELLSJAVA-43895|XLS'yi XLSX'e dönüştürürken çizgi şekli ve diğer grafik şekilleri doğru şekilde oluşturulmuyor|
+|CELLSJAVA-43895|XLS'i XLSX'e dönüştürürken çizgi şekli ve diğer grafik şekilleri doğru şekilde oluşturulmuyor|
 |CELLSJAVA-43932|Çıktı görüntüsünde Patlatılmış Halka Grafikler için ayar veri etiketleri konumuyla ilgili sorun|
 |CELLSJAVA-43934|Grafiği değiştirdikten veya güncelledikten sonra Pasta grafik etiketleri Excel ile eşleşmedi|
-|CELLSJAVA-43519|Gizli satırlara veya sütunlara dahil edilen birleştirilmiş hücreler, düzensiz bir HTML tablosu oluşturuyor|
-|CELLSJAVA-43962|Excel'deki koşullu biçim HTML'ye dönüştürüldükten sonra etki tutarsız|
+|CELLSJAVA-43519|Gizli satırlara veya sütunlara dahil edilen birleştirilmiş hücreler, eşit olmayan bir HTML tablosu oluşturuyor|
+|CELLSJAVA-43962|Excel'deki koşullu biçim HTML'e dönüştürüldükten sonra etki tutarsız|
 |CELLSJAVA-43969|COUNTIF işlevli ve harici referanslı bir Ad, bir NullPointerException üretir|
-|CELLSJAVA-43903|java.lang.NumberFormatException: Excel dosyasını HTML'ye dönüştürürken giriş dizesi için|
+|CELLSJAVA-43903|java.lang.NumberFormatException: Excel dosyasını HTML olarak işlerken giriş dizesi için|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

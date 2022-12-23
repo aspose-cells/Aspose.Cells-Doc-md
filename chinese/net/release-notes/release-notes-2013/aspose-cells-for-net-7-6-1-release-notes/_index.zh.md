@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-6-1-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 增强功能
 
@@ -22,10 +22,10 @@ url: /zh/net/aspose-cells-for-net-7-6-1-release-notes/
 
 41354 - 带有智能标记问题的数据透视表
 
-41528 - 输出 PDF 中的格式问题
+41528 - 输出中的格式问题 PDF
 
 \2) Aspose.Cells.GridWeb
 
-新的功能
+新功能
 
 虫子

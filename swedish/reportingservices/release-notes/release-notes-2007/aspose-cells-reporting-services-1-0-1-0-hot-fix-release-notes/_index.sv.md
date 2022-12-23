@@ -19,7 +19,7 @@ url: /sv/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
  Vad är nytt?
 
 - Stöds för att exportera matris
-- Stöds för att exportera CSV och TabDelimited-fil
+- Stöds för att exportera CSV och TabDelimited fil
 - Stödde bakgrundsbilden.
 
  Vad är fixat?

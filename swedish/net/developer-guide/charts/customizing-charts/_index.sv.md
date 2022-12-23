@@ -12,7 +12,7 @@ Hittills, när vi har diskuterat diagram, har vi tittat på standarddiagram som 
 
 Utvecklare kan skapa anpassade diagram under körning med Aspose.Cells.
 
- Ett diagram är sammansatt av en dataserie. Varje dataserie i Aspose.Cells representeras av en[**Serier**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objekt medan[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) objekt fungerar som en samling av[**Serier**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)objekt. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier (samlade i[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)objekt).
+ Ett diagram är sammansatt av en dataserie. Varje dataserie i Aspose.Cells representeras av en[**Serier**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objekt medan[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) objekt fungerar som en samling av[**Serier**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)föremål. När du skapar ett anpassat diagram har utvecklare friheten att använda olika typer av diagram för olika dataserier (samlade i[**Seriekollektion**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)objekt).
 
 Exempelkoden nedan visar hur man skapar anpassade diagram. I det här exemplet kommer vi att använda ett kolumndiagram för den första dataserien och ett linjediagram för den andra serien. Resultatet är att vi lägger till ett kolumndiagram, kombinerat med ett linjediagram, till kalkylbladet.
 

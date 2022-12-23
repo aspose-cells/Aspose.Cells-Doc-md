@@ -12,13 +12,13 @@ url: /ar/reportingservices/previewing-report/
 
 لمعاينة تقرير:
 
-1.  انقر**رأي** 
+1.  انقر**منظر** 
 
 ![ما يجب القيام به: image_بديل_نص](previewing-report_1.png)
 
 على Aspose.Cells.Report.Designer شريط الأدوات.
 
-1.  أدخل عنوان URL لخادم التقرير وانقر فوق**ينعش** زر.
+1.  أدخل عنوان URL لخادم التقرير وانقر فوق**تحديث** زر.
 
 ![ما يجب القيام به: image_بديل_نص](previewing-report_2.png)
 

@@ -9,30 +9,30 @@ Questa sezione fornisce un confronto della disponibilità delle funzionalità tr
 ### **Formati di file e conversioni**
 Molti clienti in tutto il mondo si affidano alle complete funzionalità di importazione ed esportazione di documenti fornite da Aspose.Cells.
 
-|**Caratteristica**|**Descrizione**|**.RETE**|**Novell. iOS**|
+|**Caratteristica**|**Descrizione**|**.NET**|**Novell. iOS**|
 |:- |:- |:- |:- |
 |Conversioni di alta qualità|Converti in modo rapido e affidabile tra diversi formati di documenti popolari.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Cartella di lavoro Microsoft Excel (XLS)|L'implementazione del formato XLS più veloce e completa che puoi trovare.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Cartella di lavoro di Excel (XLS)|L'implementazione del formato XLS più veloce e completa che puoi trovare.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells supporta OOXML, Flat OPC e anche Excel 2003 XML. Inoltre,<br>il componente supporta tutti i principali formati di file Excel 2007, 2010 e 2013, ad esempio XLSX, XLTX, XLSM, XLTM ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Valore separato da virgola (CSV)|Supporto completo del formato CSV per interagire con una varietà di applicazioni.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Salva come HTML è disponibile.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Documento aperto (ODS)|Aspose.Cells può caricare e salvare documenti nel formato OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ApriDocumento (ODS)|Aspose.Cells può caricare e salvare documenti nel formato OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Formato documento portatile Adobe (PDF)|Converti qualsiasi foglio di calcolo in PDF con alta fedeltà.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Delimitato da tabulazioni|Carica e salva i documenti nel formato di file delimitato da tabulazioni.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Testo normale (TXT)|Estrai facilmente il testo salvandolo in formato testo normale.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Caratteristiche del contenuto del foglio di calcolo**
 Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi/interfacce pubbliche, che consentono di generare, combinare, modificare, analizzare o esaminare in altro modo i fogli di calcolo caricati in modo programmatico. Alcune caratteristiche chiave sono riportate nella tabella sottostante.
 
-|**Caratteristica**|**.RETE**|**Novell. iOS**|
+|**Caratteristica**|**.NET**|**Novell. iOS**|
 |:- |:- |:- |
 |Importa/esporta dati da Array, ArrayList, ResultSet ecc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Aggiungi una copia del foglio di lavoro esistente (tutti i contenuti incluse immagini, grafici, altri oggetti ecc.)|{{< emoticons/tick >}}|{{< emoticons/tick >}} (Immagini e grafici non sono supportati)|
 |Copia o sposta i fogli di lavoro all'interno o tra le cartelle di lavoro|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Inserisci immagini|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Crea grafici|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Imposta lo sfondo sfumato per i grafici utilizzando l'API|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Imposta lo sfondo sfumato per i grafici utilizzando API|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Aggiungi commenti alle celle|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Temi e colori di Microsoft Excel 2007|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Temi e colori di Excel 2007|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea filtri automatici|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Implementare le convalide dei dati|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Implementare l'ordinamento dei dati|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -49,7 +49,7 @@ Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi
 |Specificare le impostazioni delle proprietà del documento|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Proteggere/rimuovere la protezione dei fogli di lavoro|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Specificare le opzioni di protezione avanzate introdotte in Excel XP e versioni successive|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Crea oggetti elenco/tabelle di Microsoft Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Crea oggetto elenco/Microsoft Tabelle Excel|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea subtotali|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Inserisci i controlli del modulo e altre forme/oggetti di disegno|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Crea tabelle pivot e grafici pivot|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
@@ -57,12 +57,12 @@ Aspose.Cells fornisce un ricco modello di oggetti costituito da oltre 100 classi
 |Manipolare intervalli denominati|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Crea grafici personalizzati|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Aggiungi, conserva o estrai oggetti OLE dai fogli di calcolo.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Implementa gli sparkline di Microsoft Excel 2010|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Implementare gli sparkline di Excel 2010 Microsoft|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Crittografare i file|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 ### **Funzionalità di formattazione del foglio di calcolo**
 Aspose.Cells fornisce un accesso programmatico dettagliato alle proprietà di formattazione di tutti gli elementi del foglio di calcolo.
 
-|**Caratteristica**|**.RETE**|**Novell. iOS**|
+|**Caratteristica**|**.NET**|**Novell. iOS**|
 |:- |:- |:- |
 |Applica la formattazione di tutti i caratteri nelle celle inclusi caratteri, colori, effetti, bordi e ombreggiatura.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Applicare tutte le impostazioni del formato numerico (supportate in Microsoft Excel) per le celle.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -76,7 +76,7 @@ Aspose.Cells fornisce un accesso programmatico dettagliato alle proprietà di fo
 ### **Funzionalità di PageSetup**
 È possibile utilizzare Aspose.Cells per implementare le opzioni di impostazione della pagina per i fogli di lavoro.
 
-|**Caratteristica**|**.RETE**|**Novell. iOS**|
+|**Caratteristica**|**.NET**|**Novell. iOS**|
 |:- |:- |:- |
 |Regola l'orientamento della pagina, il ridimensionamento, il formato della carta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Specifica i margini e la centratura della pagina.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|

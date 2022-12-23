@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.9 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-414| Optimiser les performances|Amélioration|

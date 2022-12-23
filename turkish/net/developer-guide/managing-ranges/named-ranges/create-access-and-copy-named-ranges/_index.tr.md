@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /tr/net/create-access-and-copy-named-ranges/
 ---
-## **giriiş**
+## **Giriş**
 
 Normalde, sütun ve satır etiketleri, tek tek hücrelere atıfta bulunmak için kullanılır. Hücreleri, hücre aralıklarını, formülleri veya sabit değerleri temsil etmek için tanımlayıcı adlar oluşturmak mümkündür. Kelime**isim** bir hücreyi, hücre aralığını, formülü veya sabit değeri temsil eden bir karakter dizisine atıfta bulunabilir. Bir aralığa ad atamak, o hücre aralığına kendi adıyla atıfta bulunulabileceği anlamına gelir. Sales!C20:C30 gibi anlaşılması zor aralıklara atıfta bulunmak için Ürünler gibi anlaşılması kolay adlar kullanın. Etiketler, aynı çalışma sayfasındaki verilere atıfta bulunan formüllerde kullanılabilir; başka bir çalışma sayfasındaki bir aralığı temsil etmek istiyorsanız, bir ad kullanabilirsiniz. *Adlandırılmış aralıklar, özellikle liste kontrolleri, pivot tablolar, grafikler vb. için kaynak aralık olarak kullanıldığında Microsoft Excel'in en güçlü özelliklerinden biridir.
 

@@ -20,7 +20,7 @@ Pour économiser les efforts des développeurs, Aspose.Cells.GridWeb propose des
 |Coloré2|Bleu|
 |Professionnel1|cyan|
 |Professionnel2|Cyan à nouveau|
-|Traditionnel1|Sombre|
+|Traditionnel1|Foncé|
 |Traditionnel2|Gris|
 |Personnalisé|Personnalisé|
 Lorsqu'un style particulier est sélectionné, il modifie toute l'apparence du contrôle GridWeb. Les développeurs peuvent sélectionner un style prédéfini à appliquer sur la grille au moment de la conception, mais cette tâche peut également être accomplie lors de l'exécution à l'aide du flexible API de Aspose.Cells.GridWeb.

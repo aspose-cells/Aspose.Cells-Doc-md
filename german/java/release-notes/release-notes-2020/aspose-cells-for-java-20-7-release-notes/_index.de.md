@@ -12,29 +12,29 @@ url: /de/java/aspose-cells-for-java-20-7-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-43221|Ausnahme „java.lang.NullPointerException“ beim Laden der XLT-Datei|Erweiterung|
-|CELLSJAVA-43222|Ausnahme „com.aspose.cells.CellsException: Formeldaten sollten beschädigt worden sein….“ beim Laden einer XLS-Datei|Erweiterung|
+|CELLSJAVA-43221|Ausnahme "java.lang.NullPointerException" beim Laden der Datei XLT|Erweiterung|
+|CELLSJAVA-43222|Ausnahme "com.aspose.cells.CellsException: Formeldaten sollten beschädigt worden sein ...." beim Laden einer XLS-Datei|Erweiterung|
 |CELLSJAVA-43223|Ausnahme „java.lang.IllegalStateException: Invalid encoding: null“ beim Laden einer XLS-Datei|Erweiterung|
 |CELLSJAVA-43226|Ausnahme "java.lang.ArrayIndexOutOfBoundsException" beim Abrufen der Bilddaten|Erweiterung|
 |CELLSJAVA-43234|Daten vor 2014 werden nicht aus der Pivot-Tabelle gelesen|Insekt|
 |CELLSJAVA-43210|Falscher Wert #Wert gelesen von Aspose.Cells|Insekt|
-|CELLSJAVA-43215|XLSM-Datei kann nicht in PDF umgewandelt werden|Insekt|
+|CELLSJAVA-43215|Datei XLSM kann nicht in PDF umgewandelt werden|Insekt|
 |CELLSJAVA-43219|Das Hinzufügen von Formelreferenzen zu verschiedenen Arbeitsblättern führt zu einer beschädigten Excel-Arbeitsmappe|Insekt|
 |CELLSJAVA-43232|Problem mit der ROUNDUP-Funktion|Insekt|
 |CELLSJAVA-43243|Die Formel konnte nicht abgerufen werden, während die Formel der benachbarten Zelle geändert wurde|Insekt|
-|CELLSJAVA-43217|Beim Drucken von XLSX in XPS geht die Hintergrundformatierung verloren|Insekt|
+|CELLSJAVA-43217|Beim Drucken von XLSX bis XPS geht die Hintergrundformatierung verloren|Insekt|
 |CELLSJAVA-43224|Problem beim Drucken auf einem physischen Drucker|Insekt|
 |CELLSJAVA-43241|Problem mit Zeilenhöhe und Rahmen beim Erstellen eines Bildes aus dem Excel-Bereich|Insekt|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) generiert nicht die erwarteten Ergebnisse bei der Verwendung von SmartMarkers|Insekt|
 |CELLSJAVA-43213|Aspose.Cells 20.6 funktioniert nicht einwandfrei mit Formularsteuerelementen in Office 365 (Version 2005 Build 12827.20268)|Insekt|
 |CELLSJAVA-43214|Beim Übersetzen von XLS in XLSX wird eine beschädigte XLSX-Datei erstellt|Insekt|
-|CELLSJAVA-43216|XLS-zu-XLSX-Konvertierung - Fettschrift und Positionierung der Schriftart werden für die Form geändert|Insekt|
-|CELLSJAVA-43228|Generiertes XLS befindet sich in der geschützten Ansicht|Insekt|
+|CELLSJAVA-43216|Konvertierung von XLS in XLSX - Fettschrift und Positionierung der Schriftart werden für die Form geändert|Insekt|
+|CELLSJAVA-43228|Generiert XLS ist in der geschützten Ansicht|Insekt|
 |CELLSJAVA-43231|Fehler in der Ausgabedatei nach Ersetzungen|Insekt|
 |CELLSJAVA-43225|Ausnahme "java.lang.NullPointerException" beim Abrufen des Zeichenfolgenwerts aus der Zelle|Ausnahme|
-|CELLSJAVA-43229|Ausnahme beim Laden der XLSM-Datei mit der Option setKeepUnparsedData(false)|Ausnahme|
+|CELLSJAVA-43229|Ausnahme beim Laden der Datei XLSM mit der Option setKeepUnparsedData(false)|Ausnahme|
 |CELLSJAVA-43238|Berechnung schlägt mit NPE fehl (java.lang.NullPointerException)|Ausnahme|
-|CELLSJAVA-43199|Ausnahme „java.lang.NegativeArraySizeException“ beim Speichern in HTML|Ausnahme|
+|CELLSJAVA-43199|Ausnahme "java.lang.NegativeArraySizeException" beim Speichern auf HTML|Ausnahme|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

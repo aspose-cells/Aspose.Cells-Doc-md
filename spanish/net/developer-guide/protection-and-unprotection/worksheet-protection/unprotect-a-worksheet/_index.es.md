@@ -16,7 +16,7 @@ url: /es/net/unprotect-a-worksheet/
 
 Para eliminar la protección de una hoja de trabajo:
 
- Desde el**Instrumentos** menú, seleccione**Proteccion** seguido por**Desproteger hoja**. La protección se eliminará a menos que la hoja de trabajo esté protegida con contraseña. En este caso, un cuadro de diálogo solicita la contraseña. Ingrese la contraseña y la hoja de trabajo quedará desprotegida entonces.
+ Desde el**Herramientas** menú, seleccione**Proteccion** seguido por**Desproteger hoja**. La protección se eliminará a menos que la hoja de trabajo esté protegida con contraseña. En este caso, un cuadro de diálogo solicita la contraseña. Ingrese la contraseña y la hoja de trabajo quedará desprotegida entonces.
 
 ### **Desprotección de una hoja de trabajo simplemente protegida con Aspose.Cells**
 

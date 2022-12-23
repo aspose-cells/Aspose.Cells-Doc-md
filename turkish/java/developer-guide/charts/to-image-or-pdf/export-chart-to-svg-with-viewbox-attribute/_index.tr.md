@@ -1,12 +1,12 @@
 ﻿---
-title: Grafiği viewBox özniteliğiyle SVG'ye aktar
+title: Grafiği viewBox özniteliğiyle SVG'e aktarın
 type: docs
 weight: 190
 url: /tr/java/export-chart-to-svg-with-viewbox-attribute/
 ---
- Varsayılan olarak, grafik SVG formatına dışa aktarıldığında,**görünüm kutusu** öznitelik, XML'ine dahil değildir. Ancak, Aspose.Cells sağlar[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) ayarlandığında hangi özellik**doğru** grafiği, viewBox özniteliğiyle SVG'ye dışa aktarır.
+ Varsayılan olarak, grafik SVG biçiminde dışa aktarıldığında,**görünüm kutusu** öznitelik, XML'ine dahil değildir. Ancak, Aspose.Cells sağlar[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) ayarlandığında hangi özellik**doğru** grafiği, viewBox özniteliğiyle SVG'e aktarır.
 
- Grafiğin SVG'sini not defterinde açarsanız,**görünüm kutusu** buna benzer öznitelik.
+ Grafiğin SVG'ini not defterinde açarsanız,**görünüm kutusu**buna benzer öznitelik.
 
 {{< highlight "java" >}}
 

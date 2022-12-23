@@ -16,7 +16,7 @@ Questo articolo utilizza le funzioni integrate di Excel come RIGA, COLONNA e MOD
 - **COLONNA()** La funzione restituisce il numero di colonna di un riferimento di cella. Se il parametro di riferimento viene omesso, si presuppone che il riferimento sia l'indirizzo della cella in cui è stata inserita la funzione COLONNA.
 - **MOD()** La funzione restituisce il resto dopo che un numero è stato diviso per un divisore, dove il primo parametro della funzione è il valore numerico di cui si desidera trovare il resto e il secondo parametro è il numero utilizzato per dividere nel parametro numero. Se il divisore è 0, restituirà #DIV/0! errore.
 
-Iniziamo a scrivere del codice per raggiungere questo obiettivo con l'aiuto dell'API Aspose.Cells for .NET.
+Iniziamo a scrivere del codice per raggiungere questo obiettivo con l'aiuto di Aspose.Cells for .NET API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageConditionalFormatting-ApplyShadingToAlternateRowsColumns-1.cs" >}}
 

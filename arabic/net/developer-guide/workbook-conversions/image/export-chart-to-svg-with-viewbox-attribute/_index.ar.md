@@ -6,7 +6,7 @@ url: /ar/net/export-chart-to-svg-with-viewbox-attribute/
 ---
 {{% alert color="primary" %}}
 
- بشكل افتراضي ، عندما يتم تصدير المخطط إلى تنسيق SVG ، فإن ملف**viewBox** السمة غير مدرجة في XML الخاص بها. ومع ذلك ، يوفر Aspose.Cells[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport) الخاصية التي عند التعيين على**حقيقي** يصدر المخطط إلى SVG بسمة viewBox.
+ بشكل افتراضي ، عندما يتم تصدير المخطط إلى تنسيق SVG ، فإن ملف**viewBox** السمة غير مدرجة في XML الخاص بها. ومع ذلك ، يوفر Aspose.Cells[**ImageOrPrintOptions.SVGFitToViewPort**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/svgfittoviewport) الخاصية التي عند التعيين على**حقيقي** يقوم بتصدير المخطط إلى SVG بسمة viewBox.
 
 {{% /alert %}}
 
@@ -18,7 +18,7 @@ url: /ar/net/export-chart-to-svg-with-viewbox-attribute/
 
 {{% alert color="primary" %}}
 
- إذا فتحت SVG للرسم البياني في المفكرة ، فستجد ملف**viewBox** سمة مشابهة لهذا.
+ إذا قمت بفتح SVG الرسم البياني في المفكرة ، فستجد ملف**viewBox**سمة مشابهة لهذا.
 
 {{< highlight "java" >}}
 

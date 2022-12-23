@@ -1,5 +1,5 @@
 ﻿---
-title: Convertir JSON a Excel
+title: Convertir-JSON-a-Excel
 type: docs
 weight: 300
 url: /es/net/convert-json-to-excel/
@@ -13,7 +13,7 @@ Aspose.Cells admite la conversión de un archivo Json (notación de objetos de J
 {{% /alert %}}
 
 ## **Convertir JSON a libro de Excel**
-No hay necesidad de preguntarse cómo convertir archivos JSON a Excel, porque la biblioteca Apose.Cells for .NET tiene la mejor decisión. El Aspose.Cells API brinda soporte para convertir el formato JSON a hojas de cálculo. Puedes usar[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) class para especificar configuraciones adicionales para importar JSON a Workbook.
+ No es necesario preguntarse cómo convertir JSON a un archivo de Excel, porque la biblioteca Apose.Cells for .NET tiene la mejor decisión. El Aspose.Cells API brinda soporte para convertir el formato JSON a hojas de cálculo. Puedes usar[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) class para especificar configuraciones adicionales para importar JSON a Workbook.
 
  El siguiente ejemplo de código muestra la importación de JSON a Excel Workbook. Por favor vea el código para convertir[archivo fuente](sample.json) al archivo xlsx generado por el código como referencia.
 
@@ -23,6 +23,6 @@ No hay necesidad de preguntarse cómo convertir archivos JSON a Excel, porque la
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-JSON-to-Excel-New2.cs" >}}
 
-El siguiente ejemplo de código muestra la importación de una cadena JSON a un libro de Excel. También puede especificar la ubicación del diseño al importar JSON. Consulte el código para convertir la cadena JSON en el archivo xlsx generado por el código como referencia.
+El siguiente ejemplo de código muestra la importación de la cadena JSON a un libro de Excel. También puede especificar la ubicación del diseño al importar JSON. Consulte el código para convertir la cadena JSON en el archivo xlsx generado por el código como referencia.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}

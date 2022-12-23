@@ -7,7 +7,7 @@ url: /ar/net/chart-rendering/
 ---
 ## **تقديم المخططات**
 
- تدعم واجهات برمجة التطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل تقديم الدعم ، فإن[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) لقد كشفت الطبقة[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)طرق مع حقيقة من الأحمال الزائدة لتناسب متطلبات التطبيق على أفضل وجه.
+ تدعم واجهات برمجة تطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل تقديم الدعم ، فإن[**جدول**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) لقد كشفت الطبقة[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)طرق مع حقيقة من الأحمال الزائدة لتناسب متطلبات التطبيق على أفضل وجه.
 
 ### **تقديم المخططات للصور**
 
@@ -21,7 +21,7 @@ url: /ar/net/chart-rendering/
 
 ### **تقديم مخطط إلى PDF**
 
- من أجل تقديم المخطط إلى تنسيق PDF ، كشفت واجهات برمجة التطبيقات Aspose.Cells امتداد[**رسم بياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)طريقة مع القدرة على تخزين ملف PDF الناتج على مسار القرص أو التدفق.
+ من أجل تقديم المخطط إلى تنسيق PDF ، كشفت واجهات برمجة التطبيقات Aspose.Cells تنسيق[**رسم بياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)مع القدرة على تخزين الناتج PDF على مسار القرص أو الدفق.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -31,7 +31,7 @@ url: /ar/net/chart-rendering/
 
 |**نوع التخطيط**|**النوع الفرعي للمخطط**|**أيد**|
 |:- |:- |:- |
-|**عمودي**|عمودي|** نعم **|
+|**عمود**|عمود|** نعم **|
 ||العمود مكدسة|** نعم **|
 ||عمود 100 نسبة مكدسة|** نعم **|
 ||Column3D العنقودية|** نعم **|
@@ -73,7 +73,7 @@ url: /ar/net/chart-rendering/
 |**رادار**|رادار|** نعم **|
 ||RadarWithDataMarkers|** نعم **|
 ||الرادار|** نعم **|
-|**سطح**|Surface3D|ن|
+|**سطح - المظهر الخارجي**|Surface3D|ن|
 ||SurfaceWireframe3D|ن|
 ||SurfaceContour|ن|
 ||SurfaceContourWireframe|ن|
@@ -95,7 +95,7 @@ url: /ar/net/chart-rendering/
 ||مخروط 100٪ مكدسة|** نعم **|
 ||مخروطي الشكل|** نعم **|
 ||مخروطي الشكل مكدس|** نعم **|
-||ConicalBar 100Percent مكدسة|** نعم **|
+||مخروطي الشكل 100٪ مكدس|** نعم **|
 ||عمود مخروطي ثلاثي الأبعاد|** نعم **|
 |**هرم**|هرم|** نعم **|
 ||الهرم مكدسة|** نعم **|
@@ -115,9 +115,9 @@ url: /ar/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-في حالة محاولة عرض أنواع المخططات غير المدعومة على صورة أو ملف PDF ، فقد ينتهي بك الأمر مع 0 صور بحجم أو ملف PDF فارغ.
+في حالة محاولة تقديم أنواع المخططات غير المدعومة إلى صورة أو PDF ، فقد ينتهي بك الأمر بصور بحجم 0 أو PDF فارغًا.
 
 {{% /alert %}}
 
 ## **موضوعات مسبقة**
-- [تحويل الرسم البياني إلى PDF بحجم الصفحة المطلوب](/cells/ar/net/chart-to-pdf/)
+- [قم بتحويل الرسم البياني إلى PDF بحجم الصفحة المطلوب](/cells/ar/net/chart-to-pdf/)

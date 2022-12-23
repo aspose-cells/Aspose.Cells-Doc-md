@@ -24,7 +24,7 @@ url: /zh/java/what-is-a-designer-spreadsheet/
 
 **设计师电子表格**
 
-![待办事项：图像_替代_文本](what-is-a-designer-spreadsheet_1.png)
+![待办事项：图片_替代_文本](what-is-a-designer-spreadsheet_1.png)
 
 ### **如何使用它？**
 

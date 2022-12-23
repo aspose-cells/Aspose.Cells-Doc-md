@@ -14,13 +14,13 @@ url: /es/net/aspose-cells-for-net-22-11-release-notes/
 |:- |:- |:- |
 |CELLSNET-52026|Soporte para copiar la línea de tiempo|
 |CELLSNET-52022|Distinguir o diferenciar entre la fórmula de matriz heredada de CSE y la fórmula de matriz normal|
-|CELLSNET-52156|Deshabilite las celdas de tabla combinadas al guardar XLSX en HTML|
+|CELLSNET-52156|Deshabilite las celdas de tabla combinadas al guardar XLSX a HTML|
 |CELLSNET-52159|Soporte para analizar la propiedad colapsada al convertir html a excel|
-|CELLSNET-51939|XLSX a PDF: desalineación de contenido|
-|CELLSNET-51940|XLS a PDF: desalineación de contenido en celdas|
+|CELLSNET-51939|XLSX a PDF: Contenido desalineado|
+|CELLSNET-51940|XLS a PDF: Contenido desalineado en las celdas|
 |CELLSNET-52068|XLSX a PDF: faltan formas/colapso del diseño|
 |CELLSNET-52092|Se corta la impresión de caracteres y el espaciado en las figuras de Excel|
-|CELLSNET-52186|Las formas/cuadros están vacíos al convertir un documento XLSX a PDF|
+|CELLSNET-52186|Las formas/cuadros están vacíos al convertir el documento XLSX a PDF|
 |CELLSNET-52225|XLSX a PDF Caracteres en cuadros de texto invertidos|
 |CELLSNET-52086|Conexiones externas dañadas en el archivo generado|
 |CELLSNET-52133|Las fórmulas de Excel se envuelven con llaves en el archivo xlsb que se volvió a guardar|
@@ -34,15 +34,15 @@ url: /es/net/aspose-cells-for-net-22-11-release-notes/
 |CELLSNET-52157|El borde de la página se superpone al texto al convertir a pdf|
 |CELLSNET-52118|Resultado inconsistente en diferentes formatos cuando html se establece en celda en OpenOffice y LibreCalc|
 |CELLSNET-52125|El índice estaba fuera de rango para el rango. Copiar con imagen|
-|CELLSNET-52143| El tipo de relación del enlace se cambia al convertir un archivo XLS a XLSM|
-|CELLSNET-52144|Conversión de XLS a XLSM cambiando el tipo de relación de enlace|
+|CELLSNET-52143| El tipo de relación del enlace cambia al convertir un archivo XLS a XLSM|
+|CELLSNET-52144|XLS a XLSM cambio de tipo de relación de enlace de conversión|
 |CELLSNET-52151|Guardar xlsb reemplazó todos los comentarios con el último comentario|
 |CELLSNET-52152|El valor de la altura de la fila es incorrecto cuando se aplica la operación Autoajustar fila a través de Aspose.Cells|
 |CELLSNET-52155|Formato condicional perdido después de la copia de rango|
 |CELLSNET-52181|XLSX a HTML: el rango Cells no se exporta correctamente|
 |CELLSNET-52214|El contenido de la última fila se trunca en el archivo de salida de Excel|
 |CELLSNET-52236| El marcador inteligente (grupo: fusionar) no funciona para celdas fusionadas|
-|CELLSNET-52241|Los cuadros (formas) del documento no aparecen en el PDF de salida|
+|CELLSNET-52241|Los cuadros (formas) en el documento no aparecen en la salida PDF|
 |CELLSNET-52243|La modificación del proyecto de VBA generará un error cuando se guarde el libro de trabajo|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

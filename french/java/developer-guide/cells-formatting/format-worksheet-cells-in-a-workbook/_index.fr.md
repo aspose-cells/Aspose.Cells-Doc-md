@@ -45,7 +45,7 @@ Après avoir exécuté le code ci-dessus, un fichier Excel Microsoft est génér
 
 ![tâche : image_autre_texte](format-worksheet-cells-in-a-workbook_1.png)
 
-## **Sommaire**
+## **Résumé**
 
 {{% alert color="primary" %}}
 

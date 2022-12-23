@@ -16,7 +16,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.9.
 |CELLSJAVA-42997|CalculateFormula() misslyckas med stora formelsträngar|Insekt|
 |CELLSJAVA-43000|CalculateFormula() korrumperar Excel-filen|Insekt|
 |CELLSJAVA-42987|Formateringsproblem vid konvertering av Excel-fil till PDF|Insekt|
-|CELLSJAVA-42986|Text som överlappar efter konvertering av kinesisk XLSX-fil till PDF|Insekt|
+|CELLSJAVA-42986|Text som överlappar efter konvertering av kinesiska XLSX-fil till PDF|Insekt|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) fungerar inte för nyare Excel-versioner|Insekt|
 |CELLSJAVA-42996|Dataetiketter baserade på formler återges inte korrekt i PDF|Insekt|
 |CELLSJAVA-42992|Undantag höjdes vid konvertering av XLSM till bild|Undantag|

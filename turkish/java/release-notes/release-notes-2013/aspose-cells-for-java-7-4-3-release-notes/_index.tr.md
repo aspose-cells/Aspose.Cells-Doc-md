@@ -16,6 +16,6 @@ Bu sayfa [ Aspose.Cells for Java 7.4.3|https://downloads.aspose.com/cells/java/n
 
  40367 - Excel'i resimle yazdırma Sorunu
 
- 40474 - Hücre biçimlendirmesi kopyalanamıyor
+40474 - Hücre biçimlendirmesi kopyalanamıyor
 
  40480 - COUNTA ve DOLAYLI formüllerle ilgili sorun

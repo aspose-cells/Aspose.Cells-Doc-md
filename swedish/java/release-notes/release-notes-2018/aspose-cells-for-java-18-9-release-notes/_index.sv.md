@@ -14,8 +14,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.9.
 |:- |:- |:- |
 |CELLSJAVA-42715|Formler hämtas inte på samma sätt som i MS Excel-fil|Insekt|
 |CELLSJAVA-42711|Diagram i PDF genereras inte från Excel-mallen|Insekt|
-|CELLSJAVA-42710|Duplicera förklaringsobjekttext i diagrammet i Excel till PDF-konvertering|Insekt|
-|CELLSJAVA-42706|PDF-utdata visar inte diagrametikett|Insekt|
+|CELLSJAVA-42710|Duplicera förklaringsobjekttext i diagrammet i Excel till PDF konvertering|Insekt|
+|CELLSJAVA-42706|PDF utdata visar inte diagrametikett|Insekt|
 |CELLSJAVA-42700|Vattenfallsdiagrammet återges inte korrekt efter att ha ändrat sjökortsdata|Insekt|
 |CELLSJAVA-42717|Cells.deleteRow fungerar felaktigt|Insekt|
 |CELLSJAVA-42716|Fel värde hämtat för kantstil|Insekt|
@@ -77,11 +77,11 @@ Får standardnamn på engelska typsnittsstilen (vanlig, fet, kursiv) för sidhuv
 
 ### **Lägger till PdfCustomPropertiesExport enum**
 
-Anger hur CustomDocumentPropertyCollection exporteras till PDF-fil.
+Anger hur CustomDocumentPropertyCollection exporteras till filen PDF.
 
 ### **Lägger till egenskapen PdfSaveOptions.CustomPropertiesExport**
 
-Hämtar eller ställer in ett värde som bestämmer hur CustomDocumentPropertyCollection exporteras till PDF-fil. Standardvärdet är None.
+Hämtar eller ställer in ett värde som bestämmer hur CustomDocumentPropertyCollection exporteras till filen PDF. Standardvärdet är None.
 
 ### **Lägger till klass XmlDataBinding**
 

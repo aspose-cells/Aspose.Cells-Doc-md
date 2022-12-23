@@ -10,7 +10,7 @@ url: /fr/net/check-custom-number-format-when-setting-style-custom-property/
 
 ## **Vérifiez le format de nombre personnalisé lors de la définition de la propriété Style.Custom**
 
- L'exemple de code suivant attribue un format de nombre personnalisé non valide à[**Style.Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) propriété. Depuis, nous avons déjà fixé[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) propriété à**vrai**, par conséquent, il lève une exception, par exemple Format de nombre invalide. Veuillez lire les commentaires à l'intérieur du code pour plus d'aide.
+ L'exemple de code suivant attribue un format de nombre personnalisé non valide à[**Style.Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) la propriété. Depuis, nous avons déjà fixé[**Workbook.Settings.CheckCustomNumberFormat**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/checkcustomnumberformat) propriété à**vrai**, par conséquent, il lève une exception, par exemple Format de nombre invalide. Veuillez lire les commentaires à l'intérieur du code pour plus d'aide.
 
 ## **Exemple de code**
 

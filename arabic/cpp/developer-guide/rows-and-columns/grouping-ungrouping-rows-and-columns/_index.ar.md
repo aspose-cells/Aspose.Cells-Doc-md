@@ -28,7 +28,7 @@ Microsoft يسمح لك Excel بتكوين إعدادات المجموعة لع�
 - صفوف التلخيص أدناه التفاصيل.
 - أعمدة التلخيص على يمين التفاصيل.
 ## **فك تجميع الصفوف والأعمدة**
- لفك تجميع أي صفوف أو أعمدة مجمعة ، قم باستدعاء[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) المجموعة[UngroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#adc1f6418506854ab41707bfef453ddb1) و[UngroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aa3bf9a9510d4e85f68db9ebdcadc8406)طُرق. تأخذ كلتا الطريقتين معلمتين:
+ لفك تجميع أي صفوف أو أعمدة مجمعة ، قم باستدعاء[آيسيلس](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell) المجموعة[UngroupRows](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#adc1f6418506854ab41707bfef453ddb1) و[UngroupColumns](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aa3bf9a9510d4e85f68db9ebdcadc8406)أساليب. تأخذ كلتا الطريقتين معلمتين:
 
 - الصف الأول أو فهرس العمود ، الصف / العمود الأول المراد فك تجميعه.
 - آخر صف أو فهرس العمود ، آخر صف / عمود سيتم فك تجميعه.

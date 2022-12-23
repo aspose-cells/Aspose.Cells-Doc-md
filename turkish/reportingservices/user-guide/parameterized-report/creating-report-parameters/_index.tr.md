@@ -9,16 +9,16 @@ Aspose.Cells.Report.Designer'da bir rapor parametresi oluşturmak için:
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Rapor Parametresi** Aspose.Cells.Report.Designer araç çubuğunda. (
 
-![yapılacaklar:resim_alternatif_Metin](creating-report-parameters_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-report-parameters_1.png)
 
 )
  İletişim kutusunda, tüm rapor parametreleri sol panelde listelenir.
 
-1.  Tıklamak**Ekle**. 
+1.  Tıklamak**Eklemek**. 
 
    **Rapor Parametresi Yapılandırma formu** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-report-parameters_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-report-parameters_2.png)
 
 
 
@@ -27,7 +27,7 @@ Aspose.Cells.Report.Designer'da bir rapor parametresi oluşturmak için:
 
    **Parametre bilgisi ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-report-parameters_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-report-parameters_3.png)
 
 
 
@@ -38,17 +38,17 @@ Bir rapor parametresi için geçerli değerler, bir veri kümesinden veya bir gr
 
    **Etiket ve değer ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-report-parameters_4.png)
+![yapılacaklar:resim_alternatif_metin](creating-report-parameters_4.png)
 
 
 
 
-1.  Tıklamak**Ekle**.
+1.  Tıklamak**Eklemek**.
  Parametre için başka değerler eklemek için tekrarlayın.
-1.  Tıklamak**Kapat**.
-1.  Tıklamak**Kaydetmek** parametreyi kaydetmek için.
+1.  Tıklamak**Kapalı**.
+1.  Tıklamak**Kayıt etmek** parametreyi kaydetmek için.
 1.  Yeni rapor parametresi sol panelde listelenir.
 
    **yeni parametre** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-report-parameters_5.png)
+![yapılacaklar:resim_alternatif_metin](creating-report-parameters_5.png)

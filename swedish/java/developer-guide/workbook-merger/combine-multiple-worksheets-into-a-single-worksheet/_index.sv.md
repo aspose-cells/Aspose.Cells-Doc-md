@@ -14,7 +14,7 @@ Ibland måste du kombinera flera kalkylblad till ett enda kalkylblad. Detta kan 
 
 ## **Kombinera arbetsblad**
 
- Exemplet nedan använder[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) metod för att kopiera alla källarbetsblad till ett enda ark i en målarbetsbok.
+ Exemplet nedan använder[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)metod för att kopiera alla källarbetsblad till ett enda ark i en målarbetsbok.
 
 ### **Källarbetsbok**
 

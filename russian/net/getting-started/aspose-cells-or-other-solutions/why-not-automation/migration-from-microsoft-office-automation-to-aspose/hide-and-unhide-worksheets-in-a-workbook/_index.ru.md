@@ -14,7 +14,7 @@ url: /ru/net/hide-and-unhide-worksheets-in-a-workbook/
 
 ## **Скрытие и отображение рабочих листов**
 
- В этой статье сравнивается[прячется](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) а также[раскрытие](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) рабочие листы с[ВСТО](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) , используя C# или Visual Basic, для выполнения той же задачи с[Aspose.Cells](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/), снова используя либо C#, либо Visual Basic. Aspose.Cells позволяет работать без установленного Microsoft Excel.
+ В этой статье сравнивается[прячется](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) и[раскрытие](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) рабочие листы с[ВСТО](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/) , используя C# или Visual Basic, для выполнения той же задачи с[Aspose.Cells](/cells/ru/net/hide-and-unhide-worksheets-in-a-workbook/), снова используя либо C#, либо Visual Basic. Aspose.Cells позволяет работать без установленного Microsoft Excel.
 
 Шаги, чтобы скрыть рабочий лист:
 

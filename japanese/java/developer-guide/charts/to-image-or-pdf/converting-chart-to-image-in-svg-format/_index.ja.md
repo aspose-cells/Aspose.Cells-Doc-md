@@ -6,11 +6,11 @@ url: /ja/java/converting-chart-to-image-in-svg-format/
 ---
 {{% alert color="primary" %}} 
 
-Scalable Vector Graphics (SVG) は、双方向性とアニメーションもサポートする 2 次元グラフィックス用の XML ベースのベクター画像形式です。 SVG 仕様は、1999 年に World Wide Web Consortium (W3C) によって開発されたオープン標準です。
+Scalable Vector Graphics (SVG) は、対話機能とアニメーションもサポートする 2 次元グラフィックス用の XML ベースのベクター画像形式です。 SVG 仕様は、1999 年に World Wide Web Consortium (W3C) によって開発されたオープン スタンダードです。
 
-SVG 画像とその動作は、XML テキスト ファイルで定義されます。これは、それらを検索、索引付け、スクリプト化、および圧縮できることを意味します。 XML ファイルとして、SVG 画像は任意のテキスト エディタで作成および編集できますが、描画ソフトウェアで作成されることが多いです。
+SVG 画像とその動作は XML テキスト ファイルで定義されます。これは、それらを検索、索引付け、スクリプト化、および圧縮できることを意味します。 XML ファイルとして、SVG 画像は任意のテキスト エディターで作成および編集できますが、描画ソフトウェアで作成されることが多いです。
 
-Aspose.Cells では、チャートを BMP、JPEG、PNG、GIF、SVG などのさまざまな形式の画像として保存できます。この記事では、チャートを SVG 画像として保存する方法について説明します。
+Aspose.Cells は、チャートを BMP、JPEG、PNG、GIF、SVG などのさまざまな形式の画像として保存できます。この記事では、チャートを SVG 画像として保存する方法について説明します。
 
 {{% /alert %}} 
 

@@ -12,9 +12,9 @@ url: /tr/net/check-password-to-modify-using-aspose-cells/
 
 ## **Microsoft Excel'de değiştirmek için Parolayı kontrol edin**
 
-atayabilirsin**açmak için şifre** ve**Değiştirilecek şifre** Microsoft Excel'de çalışma kitaplarınızı oluştururken. Lütfen Microsoft Excel'in bu şifreleri belirtmek için sağladığı arayüzü gösteren bu ekran görüntüsüne bakın.
+ atayabilirsin**açmak için şifre** ve**Değiştirilecek şifre** Microsoft Excel'de çalışma kitaplarınızı oluştururken. Lütfen Microsoft Excel'in bu şifreleri belirtmek için sağladığı arayüzü gösteren bu ekran görüntüsüne bakın.
 
-|![yapılacaklar:resim_alternatif_Metin](check-password-to-modify-using-aspose-cells_1.png)|
+|![yapılacaklar:resim_alternatif_metin](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |
 
 ## **Aspose.Cells kullanarak değiştirmek için Parolayı kontrol edin**

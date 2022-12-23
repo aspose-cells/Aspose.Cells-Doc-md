@@ -12,7 +12,7 @@ url: /ru/net/customizing-charts/
 
 Разработчики могут создавать собственные диаграммы во время выполнения, используя Aspose.Cells.
 
- Диаграмма состоит из ряда данных. Каждый ряд данных в Aspose.Cells представлен[**Серии**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) объект тогда как[**СерияКоллекция**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) объект представляет собой совокупность[**Серии**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)объекты. При создании пользовательской диаграммы разработчики могут свободно использовать различные типы диаграмм для разных рядов данных (собранных в[**СерияКоллекция**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)объект).
+ Диаграмма состоит из ряда данных. Каждый ряд данных в Aspose.Cells представлен[**Ряд**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) объект тогда как[**СерияКоллекция**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) объект представляет собой совокупность[**Ряд**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)объекты. При создании пользовательской диаграммы разработчики могут свободно использовать различные типы диаграмм для разных рядов данных (собранных в[**СерияКоллекция**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)объект).
 
 В приведенном ниже примере кода показано, как создавать собственные диаграммы. В этом примере мы собираемся использовать столбчатую диаграмму для первого ряда данных и линейную диаграмму для второго ряда. В результате мы добавляем столбчатую диаграмму в сочетании с линейной диаграммой на рабочий лист.
 

@@ -13,18 +13,18 @@ url: /de/net/aspose-cells-for-net-19-11-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-44956|Unterstützung zum Ausblenden ausgewählter Bereiche und Sortieren der angezeigten Ergebnisse der Pivot-Tabelle|Neue Funktion|
-|CELLSNET-46852|Unterstützt das Lesen und Schreiben von Tabellen, deren Datenquelle eine Abfragetabelle in der XLS-Datei ist.|Neue Funktion|
+|CELLSNET-46852|Unterstützt das Lesen und Schreiben von Tabellen, deren Datenquelle eine Abfragetabelle in der Datei XLS ist.|Neue Funktion|
 |CELLSNET-46967|Unterstützung zum Abrufen der Einzugsgröße in Pixeleinheiten|Neue Funktion|
 |CELLSNET-46973|Excel-Formel funktioniert nicht in generierter XLS-Datei|Erweiterung|
 |CELLSNET-46981|Unterstützung zum Lesen/Schreiben mit Speicherstrom für Workbook.ImportXml und Workbook.ExportXml|Erweiterung|
-|CELLSNET-46905|Keine Änderungen für die in der XLS-Datei gespeicherte Linkquelle|Erweiterung|
+|CELLSNET-46905|Keine Änderungen für Linkquelle in Datei XLS gespeichert|Erweiterung|
 |CELLSNET-46898|Der Hintergrund des 3D-Modells wird blau|Insekt|
 |CELLSNET-46314|Probleme beim Aktualisieren der Pivot-Tabelle mit "Wert als % der Gesamtsumme anzeigen"|Insekt|
-|CELLSNET-46789|Die CalculateData-Methode funktioniert mit dem PDF-Format nicht richtig|Insekt|
-|CELLSNET-46955|HTML-zu-Excel-Datei löst Ausnahme „Element wurde bereits hinzugefügt“ aus|Insekt|
+|CELLSNET-46789|Die CalculateData-Methode funktioniert nicht richtig mit dem PDF-Format|Insekt|
+|CELLSNET-46955|HTML in Excel-Datei löst Ausnahme "Artikel wurde bereits hinzugefügt" aus|Insekt|
 |CELLSNET-46987|Formel kann beim Verweisen auf Zellen nicht berechnet werden|Insekt|
 |CELLSNET-46968|Die indirekte Formel funktioniert in MS Excel nicht richtig|Insekt|
-|CELLSNET-46991|XLSX-Datei ist beschädigt.|Insekt|
+|CELLSNET-46991|XLSX Datei ist beschädigt.|Insekt|
 |CELLSNET-46994|# Wert! in der ausgegebenen Excel-Datei (geöffnet in Excel 365) nach Aufruf der Berechnungsformel
 |Insekt|
 |CELLSNET-47001|CalculateFormula() verursacht eine NullReferenceException|Insekt|
@@ -46,7 +46,7 @@ Importiert einen XML-Dateistream in die Arbeitsmappe.
 #### **Fügt die Methode Workbook.ExportXml(string mapName, Stream stream) hinzu.**
 XML-Daten in einen Stream exportieren.
 #### **Fügt die HtmlSaveOptions.ExportArea-Eigenschaft hinzu**
-Ruft die exportierende CellArea des aktuell aktiven Arbeitsblatts ab oder legt sie fest. Wenn Sie dieses Attribut setzen, wird der Druckbereich des aktuell aktiven Arbeitsblatts weggelassen. Beim Speichern der Datei im HTML-Format wird nur der angegebene Bereich exportiert.
+Ruft die exportierende CellArea des aktuell aktiven Arbeitsblatts ab oder legt sie fest. Wenn Sie dieses Attribut setzen, wird der Druckbereich des aktuell aktiven Arbeitsblatts weggelassen. Beim Speichern der Datei unter HTML wird nur der angegebene Bereich exportiert.
 #### **Fügt Klassen hinzu: DataMashup, PowerQueryFormula, PowerQueryFormulaCollection, PowerQueryFormulaItem und PowerQueryFormulaItemCollection**
 Ruft Informationen im DataMashup ab.
 #### **Fügt die DBConnection.SeverCommand-Eigenschaft hinzu.**

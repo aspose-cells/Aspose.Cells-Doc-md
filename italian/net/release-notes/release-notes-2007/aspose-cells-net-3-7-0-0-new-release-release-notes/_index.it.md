@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-net-3-7-0-0-new-release-release-notes/
 
  Cambio di nome
 
-Si prega di notare che Aspose.Excel è stato rinominato in Aspose.Cells.
+ Si prega di notare che Aspose.Excel è stato rinominato in Aspose.Cells.
 
  Se si esegue l'aggiornamento da Aspose.Excel, è necessario rimuovere il riferimento a Aspose.Excel.dll e aggiungere un riferimento a Aspose.Cells.dll. Inoltre è necessario modificare tutti gli spazi dei nomi "using" o "imports" da Aspose.Excel a Aspose.Cells nel codice.
 
@@ -26,7 +26,7 @@ Si prega di notare che Aspose.Excel è stato rinominato in Aspose.Cells.
 
  C'erano due tipi di edizione: Professional ed Enterprise. Questo è stato cambiato in un tipo di edizione Professional.
 
- L'edizione Professional ora include tutte le funzionalità che erano disponibili nell'edizione Enterprise. I clienti che avevano l'edizione Professional ottengono l'accesso a tutte le funzionalità che erano disponibili nell'edizione Enterprise quando eseguono l'upgrade.
+L'edizione Professional ora include tutte le funzionalità che erano disponibili nell'edizione Enterprise. I clienti che avevano l'edizione Professional ottengono l'accesso a tutte le funzionalità che erano disponibili nell'edizione Enterprise quando eseguono l'upgrade.
 
 
 ## **Nuove caratteristiche**
@@ -39,7 +39,7 @@ Si prega di notare che Aspose.Excel è stato rinominato in Aspose.Cells.
 
 - Il metodo AutoFitColumn può causare StackOverflowException quando viene chiamato molte volte.
  Errore nel salvataggio di un file con molte formule
-Intervallo denominato e altri problemi nella conversione da file Excel a file SpreadsheetML
+ Intervallo denominato e altri problemi nella conversione dal file Excel al file SpreadsheetML
  Impostazioni dello stile di riga e colonna
  Impostazione del formato del numero dell'asse del valore del grafico
  Leggi i caratteri scandinavi nei commenti

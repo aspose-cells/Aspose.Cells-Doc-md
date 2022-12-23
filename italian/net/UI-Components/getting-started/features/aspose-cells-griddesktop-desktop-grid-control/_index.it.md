@@ -39,7 +39,7 @@ url: /it/net/aspose-cells-griddesktop-desktop-grid-control/
 ### **Funzionalità avanzate**
 - Supporta la creazione e il calcolo di formule.
 - Esegui le azioni desiderate in diversi eventi della griglia.
-### **Versioni di Microsoft Excel supportate**
+### **Versioni di Excel Microsoft supportate**
 - Microsoft Excel 97
 - Microsoft Excel 2000
 - Microsoft Excel XP
@@ -48,4 +48,4 @@ url: /it/net/aspose-cells-griddesktop-desktop-grid-control/
 - Microsoft Excel 2010
 - Microsoft Excel 2013
 ### **Piattaforme supportate**
-- Windows Form
+- Windows Modulistica

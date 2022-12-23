@@ -6,7 +6,7 @@ url: /ru/net/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **Возможные сценарии использования**
 
-Если лист пуст, то Aspose.Cells ничего не напечатает при экспорте рабочего листа в изображение. Вы можете изменить это поведение, используя[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) имущество. Когда вы установите его**истинный**, он напечатает пустую страницу.
+ Если лист пуст, то Aspose.Cells ничего не напечатает при экспорте рабочего листа в изображение. Вы можете изменить это поведение, используя[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) имущество. Когда вы установите его**истинный**, он напечатает пустую страницу.
 
 ## **Вывод пустой страницы, когда нечего печатать**
 

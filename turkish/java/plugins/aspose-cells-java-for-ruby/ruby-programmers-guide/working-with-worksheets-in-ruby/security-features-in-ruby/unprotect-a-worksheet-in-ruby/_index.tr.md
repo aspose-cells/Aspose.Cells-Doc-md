@@ -5,7 +5,7 @@ weight: 20
 url: /tr/java/unprotect-a-worksheet-in-ruby/
 ---
 ## **Aspose.Cells - Bir Çalışma Sayfasının korumasını kaldırın**
- Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , aramak**unprotect_worksheet** yöntemi**koruma** modül.
+ Çalışma sayfasını kullanarak korumak için**Yakut için Aspose.Cells Java** , Arama**unprotect_worksheet** yöntemi**koruma** modül.
 
 **Yakut Kodu**
 

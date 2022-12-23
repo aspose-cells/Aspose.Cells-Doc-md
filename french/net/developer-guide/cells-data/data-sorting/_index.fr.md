@@ -25,7 +25,7 @@ Généralement, le tri est effectué sur une liste - définie comme un groupe co
 
  Vous devez définir des clés et définir l'ordre de tri avant d'implémenter le tri des données. La classe fournit la[**Trier**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/methods/sort/index)méthode utilisée pour effectuer le tri des données en fonction des données de cellule dans une feuille de calcul.
 
- La[**Trier**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1)La méthode accepte les paramètres suivants :
+ Le[**Trier**](https://reference.aspose.com/cells/net/aspose.cells.datasorter/sort/methods/1)La méthode accepte les paramètres suivants :
 
 - [**Aspose.Cells.Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells), les cellules de la feuille de calcul sous-jacente.
 - [**Aspose.Cells.CellArea**](https://reference.aspose.com/cells/net/aspose.cells/cellarea), la plage de cellules. Définissez la zone de cellule avant d'appliquer le tri des données.

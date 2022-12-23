@@ -23,7 +23,7 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.7
 
 {{% /alert %}} 
 ### **Tillagd HTMLLoadOptions.KeepPrecision-egenskap**
-Aspose.Cells for Java 8.8.0 har lagt till egenskapen HTMLLoadOptions.KeepPrecision för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden som är längre än 15 siffror till exponentiell notation om data importeras från HTML-sträng eller -fil. Men nu kan användarna kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision-egenskapen. Om egenskapen är satt till true kommer värdena att importeras som de är i källan.
+Aspose.Cells for Java 8.8.0 har lagt till egenskapen HTMLLoadOptions.KeepPrecision för att kontrollera konverteringen av långa numeriska värden till exponentiell notation vid import av HTML-filer. Som standard konverteras alla värden som är längre än 15 siffror till exponentiell notation om data importeras från HTML sträng eller fil. Men nu kan användarna kontrollera detta beteende med hjälp av HTMLLoadOptions.KeepPrecision-egenskapen. Om egenskapen är satt till true kommer värdena att importeras som de är i källan.
 
 {{% alert color="primary" %}} 
 

@@ -1,16 +1,16 @@
 ﻿---
-title: Externe Verbindung von XLSB- oder XLS-Datei lesen und schreiben
+title: Externe Verbindung der Datei XLSB oder XLS lesen und schreiben
 type: docs
 weight: 80
 url: /de/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells unterstützt bereits das Lesen und Schreiben externer Verbindungen von XLSX-Dateien, aber jetzt unterstützt es diese Funktion auch für XLSB- und XLS-Dateien. Der Code ist jedoch für beide Formattypen gleich.
+Aspose.Cells unterstützt bereits das Lesen und Schreiben einer externen Verbindung der Datei XLSX, aber jetzt unterstützt es diese Funktion auch für die Dateien XLSB und XLS. Der Code ist jedoch für beide Formattypen gleich.
 
-## **Externe Verbindung der XLSB/XLS-Datei lesen und schreiben**
+## **Externe Verbindung der Datei XLSB/XLS lesen und schreiben**
 
-Der folgende Beispielcode lädt die XLSB-Beispieldatei (XLS kann auch geladen werden) und liest ihre erste externe Verbindung, bei der es sich tatsächlich um eine Microsoft Access DB-Verbindung handelt. Es ändert dann die[**DBVerbindung.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)-Eigenschaft und speichert sie als Ausgabe-XLSB-Datei. Der Screenshot zeigt die Auswirkung von Code auf[Beispiel-XLSB-Datei](51740743.xlsb)und[XLSB-Datei ausgeben](51740742.xlsb)nach seiner Hinrichtung. Siehe auch die Konsolenausgabe des unten angegebenen Beispielcodes als Referenz.
+Der folgende Beispielcode lädt die Beispieldatei XLSB (XLS kann auch geladen werden) und liest ihre erste externe Verbindung, bei der es sich tatsächlich um eine Microsoft Access DB-Verbindung handelt. Es ändert dann die[**DBVerbindung.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)-Eigenschaft und speichert sie als Ausgabedatei XLSB. Der Screenshot zeigt die Auswirkung von Code auf[Beispieldatei XLSB](51740743.xlsb)und[Ausgabedatei XLSB](51740742.xlsb)nach seiner Hinrichtung. Siehe auch die Konsolenausgabe des unten angegebenen Beispielcodes als Referenz.
 
 ![todo: Bild_alt_Text](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 

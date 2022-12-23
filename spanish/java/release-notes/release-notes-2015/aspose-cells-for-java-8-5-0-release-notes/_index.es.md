@@ -38,13 +38,13 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **Insectos**
 
 
- (CELLSJAVA-41366): hoja de cálculo dañada después de abrir y guardar el archivo XLSX de plantilla
+ (CELLSJAVA-41366): hoja de cálculo dañada después de abrir y guardar el archivo de plantilla XLSX
 
-(CELLSJAVA-41355): la conversión a HTML agrega # cadena al final de los valores de una columna
+ (CELLSJAVA-41355): la conversión a HTML agrega # cadena al final de los valores de una columna
 
- (CELLSJAVA-41354): los números en los cuadros de texto no se muestran en el interior
+(CELLSJAVA-41354) - Numbers en los cuadros de texto no se muestran en el interior
 
- (CELLSJAVA-41353): la ubicación/alineación de las artes inteligentes en el PDF no coincide con el archivo Excel de origen
+ (CELLSJAVA-41353): la ubicación/alineación de las artes inteligentes en PDF no coincide con el archivo de origen de Excel
 
  (CELLSJAVA-41343): el resultado final es mucho más largo que el original en el archivo de plantilla
 
@@ -62,13 +62,13 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41326): pérdida de texto en el archivo de plantilla
 
- (CELLSJAVA-41304) - Conversiones fallidas de XLS a PDF con Aspose.Cells API
+ (CELLSJAVA-41304): conversiones fallidas de XLS a PDF con Aspose.Cells API
 
-(CELLSJAVA-41206) - Conversión de un archivo de Excel que contiene hipervínculos a HTML - Cell los hipervínculos a los que se hace referencia no funcionan
+(CELLSJAVA-41206) - La conversión de un archivo de Excel que contiene hipervínculos a HTML - Cell hipervínculos a los que se hace referencia no funciona
 
  (CELLSJAVA-40483) - Problema con el formato de una forma/objeto de flecha - Representación de Excel a PDF
 
- (CELLSJAVA-41372): el diagrama de Gantt no se representa en el formato de archivo PDF de salida
+ (CELLSJAVA-41372): el diagrama de Gantt no se representa en el formato de archivo de salida PDF
 
  (CELLSJAVA-41363): problema con los valores devueltos de los parámetros al calcular la función personalizada
 
@@ -84,17 +84,17 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41348) - El formato condicional con formato numérico no funciona para XLS
 
- (CELLSJAVA-41347): Style.isDateTime devuelve falso para una celda con formato de fecha
+(CELLSJAVA-41347): Style.isDateTime devuelve falso para una celda con formato de fecha
 
-(CELLSJAVA-41338): el borde izquierdo aparece cuando no debería para una celda que tiene una columna oculta adyacente
+ (CELLSJAVA-41338): el borde izquierdo aparece cuando no debería para una celda que tiene una columna oculta adyacente
 
  (CELLSJAVA-41331): las fórmulas no se actualizan correctamente después de insertar filas
 
  (CELLSJAVA-41330): el área de impresión dinámica se interrumpe al guardar como/imprimir PDF
 
- (CELLSJAVA-41365): faltan algunos caracteres hebreos en el cuadro de texto en el archivo PDF de salida
+ (CELLSJAVA-41365): faltan algunos caracteres hebreos en el cuadro de texto en el archivo de salida PDF
 
- (CELLSJAVA-41346): las etiquetas del eje de valor y del eje de categoría en el gráfico están ocultas (conversión de Excel a PDF)
+ (CELLSJAVA-41346): las etiquetas del eje de valor y del eje de categoría en el gráfico están oscurecidas (conversión de Excel a PDF)
 
  (CELLSJAVA-41312) - El texto es demasiado grande y se expande más allá del margen
 
@@ -102,11 +102,11 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-40916): el texto fuera del salto de página se representa en PDF como texto ajustado.
 
- (CELLSJAVA-40791): problema con el salto de página, la representación de fuentes y los márgenes en la representación de Excel a PDF
+ (CELLSJAVA-40791): problema con el salto de página, la representación de fuentes y los márgenes en Excel para la representación PDF
 
- (CELLSJAVA-40605) - Aspose.Cells: el texto cortado en la celda original se muestra completamente cuando se convierte a PDF
+(CELLSJAVA-40605) - Aspose.Cells: el texto cortado en la celda original se muestra completamente cuando se convierte a PDF
 
-(CELLSJAVA-40479): representación del problema de diseño de página (RTL)
+ (CELLSJAVA-40479): representación del problema de diseño de página (RTL)
 
  (CELLSJAVA-40448) - El pie de página está desordenado en el archivo PDF generado
 
@@ -130,7 +130,7 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: para cadena de entrada: "0,00" en Workbook ctor
 
- (CELLSJAVA-41344) - java.lang.NullPointerException en Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException en Cells.find
 
 
 ## **Public API y cambios incompatibles con versiones anteriores**
@@ -146,7 +146,7 @@ url: /es/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-Agrega la propiedad SheetRender.PageScale.
+ Agrega la propiedad SheetRender.PageScale.
 
  Se utiliza para obtener la escala de página calculada de la hoja.
 
@@ -177,13 +177,13 @@ Agrega métodos para calcular fórmulas con CalculationOptions: Cell.Calculate(C
 
 
 
- Agrega métodos: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Agrega métodos: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Permitir al usuario obtener datos de una referencia.
 
 
 
-Cambios en los parámetros de ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
+ Cambios en los parámetros de ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
  Ahora agregamos el objeto ReferredArea a "paramsList" en lugar del valor o la matriz de valores del área referida cuando el parámetro correspondiente es una referencia o su resultado calculado es una referencia. Y eliminamos ReferredAreaCollection de contextObjexts.
 

@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /tr/reportingservices/runtime-error-429/
 ---
-##### **Tanım**
+##### **Açıklama**
  Çalışma zamanı hatası: '429'
  ActiveX bileşeni nesne oluşturamıyor
  Hataya neden olan satır:

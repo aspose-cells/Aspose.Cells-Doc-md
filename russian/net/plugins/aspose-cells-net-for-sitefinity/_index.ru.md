@@ -7,12 +7,12 @@ url: /ru/net/aspose-cells-net-for-sitefinity/
 **Краткое содержание**
 
 - [Начиная](#Aspose.Cells.NETforSitefinity-GettingStarted) 
-  - [Введение](#Aspose.Cells.NETforSitefinity-Introduction) 
+  - [Вступление](#Aspose.Cells.NETforSitefinity-Introduction) 
     - [Что такое Sitefinity?](#Aspose.Cells.NETforSitefinity-WhatisSitefinity?)
     - [Aspose.Cells for .NET](#Aspose.Cells.NETforSitefinity-Aspose.Cellsfor.NET)
     - [Aspose.Cells for .NET Плагины](#Aspose.Cells.NETforSitefinity-Aspose.Cellsfor.NETPlugins)
 ## **Начиная**
-### **Введение**
+### **Вступление**
 #### **Что такое Sitefinity?**
 Sitefinity — это современная система управления веб-контентом (CMS) на основе ASP.NET, обеспечивающая интуитивно понятное управление веб-контентом и надежную среду разработки для бизнес-профессионалов. Вот проекты, которые мы создали для этой популярной CMS.
 #### **Aspose.Cells for .NET**

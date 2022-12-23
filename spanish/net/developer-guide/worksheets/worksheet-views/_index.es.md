@@ -3,6 +3,7 @@ title: Vistas de la hoja de cálculo
 type: docs
 weight: 40
 url: /es/net/worksheet-views/
+description:  Este artículo describirá cómo usar C# y .NET API para interactuar con la vista previa de salto de página de un libro y hojas de cálculo de Excel. Trabaje con paneles divididos, paneles congelados y factor de zoom también.
 ---
 ## **La previsualización del salto de página**
 
@@ -15,9 +16,9 @@ La vista normal es la vista predeterminada de una hoja de trabajo. La vista prev
 
 ### **Modos de vista de control**
 
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para habilitar los modos de vista previa normal o de salto de página, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase[**IsPageBreakVista previa**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propiedad.[**IsPageBreakVista previa**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) es una propiedad booleana, lo que significa que solo puede almacenar una**verdadero** o un**falso** valor.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para habilitar los modos de vista previa normal o de salto de página, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase[**IsPageBreakVista previa**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propiedad.[**IsPageBreakVista previa**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) es una propiedad booleana, lo que significa que solo puede almacenar una**verdadero** o un**falso** valor.
 
 #### **Habilitación de la vista normal**
 
@@ -37,14 +38,14 @@ El archivo book1.xls se abre creando una instancia del[**Libro de trabajo**](htt
 
 ### **Usando Microsoft Excel**
 
-Microsoft Excel proporciona una función que permite a los usuarios establecer el zoom o el factor de escala de una hoja de cálculo. Esta característica ayuda a los usuarios a ver el contenido de la hoja de trabajo en vistas más pequeñas o más grandes. Los usuarios pueden establecer el factor de zoom en cualquier valor.
+Microsoft Excel proporciona una función que permite a los usuarios establecer el zoom o el factor de escala de una hoja de trabajo. Esta característica ayuda a los usuarios a ver el contenido de la hoja de trabajo en vistas más pequeñas o más grandes. Los usuarios pueden establecer el factor de zoom en cualquier valor.
 
 ### **Aspose.Cells y factor de zoom**
 
 Aspose.Cells permite a los desarrolladores establecer el factor de zoom de la hoja de trabajo.
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para establecer el factor de zoom de una hoja de trabajo, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)propiedad. El factor de zoom se establece asignando un valor numérico (entero) al[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) propiedad.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para establecer el factor de zoom de una hoja de trabajo, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)propiedad. El factor de zoom se establece asignando un valor numérico (entero) al[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) propiedad.
 
 A continuación se proporciona un ejemplo completo que demuestra cómo utilizar el[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) propiedad para establecer el factor de zoom de la primera hoja de cálculo del archivo de Excel.
 
@@ -56,22 +57,22 @@ El archivo book1.xls se abre creando una instancia del[**Libro de trabajo**](htt
 
 ### **Usando Microsoft Excel**
 
-Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de cálculo.
+Congelar paneles es una función proporcionada por Microsoft Excel. La congelación de paneles le permite seleccionar datos para que permanezcan visibles al desplazarse por una hoja de trabajo.
 
 ### **Aspose.Cells y congelar paneles**
 
 Aspose.Cells permite a los desarrolladores aplicar paneles congelados a hojas de trabajo en tiempo de ejecución.
 
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 
-Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para configurar paneles congelados, llame a la clase Worksheet'[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método. los[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método toma los siguientes parámetros:
+Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo. Para configurar paneles congelados, llame a la clase Worksheet'[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método. Él[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método toma los siguientes parámetros:
 
 - **Fila**, el índice de fila de la celda desde la que comenzará la congelación.
 - **Columna**, el índice de columna de la celda desde la que comenzará la congelación.
-- **filas congeladas**, el número de filas visibles en el panel superior.
+- **Filas congeladas**, el número de filas visibles en el panel superior.
 - **Columnas congeladas**, el número de columnas visibles en el panel izquierdo
 
-El archivo book1.xls se abre llamando al[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructor de clase mientras se crea una instancia y algunas filas y columnas se congelan en la primera hoja de cálculo. El archivo modificado se guarda como salida.xls.
+ El archivo book1.xls se abre llamando al[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructor de clase mientras se crea una instancia y algunas filas y columnas se congelan en la primera hoja de trabajo. El archivo modificado se guarda como salida.xls.
 
  A continuación se muestra un ejemplo completo que muestra cómo utilizar el[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)método para congelar filas y columnas (a partir de C4, representada por la cuarta fila y la tercera columna, donde las filas y columnas comienzan desde el índice 0) de la primera hoja de cálculo del archivo de Excel.
 
@@ -87,7 +88,7 @@ Los paneles funcionan simultáneamente. Si realiza un cambio en uno, el cambio a
 
 #### **División de paneles**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Para implementar vistas divididas, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Separar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Para quitar los paneles divididos, use el[**EliminarDividir**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)método.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) La clase proporciona una amplia gama de propiedades y métodos para administrar un archivo de Excel. Para implementar vistas divididas, use el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Separar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Para quitar los paneles divididos, use el[**EliminarDividir**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)método.
 
 En el ejemplo, usamos un archivo de plantilla simple que se carga, luego se aplica la función de conjuntos de paneles divididos en una celda de la primera hoja de cálculo. El archivo actualizado se guarda.
 

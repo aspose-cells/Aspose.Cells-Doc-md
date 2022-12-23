@@ -21,7 +21,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44611|Verbesserung beim Lesen leerer Zellen aus der xlsx-Datei|
 |CELLSJAVA-44616|Ursprüngliche Einstellungen der bedingten Formatierung im Zielbereich sollten beim Kopieren des Bereichs entfernt werden|
 |CELLSJAVA-44658|Unterstützt BouncyCastle v1.71|
-|CELLSJAVA-44455|Beim Konvertieren einer XLSX-Datei in eine PDF-Datei wird das Datum in der Pivot-Tabelle zu einer fortlaufenden Nummer|
+|CELLSJAVA-44455|Beim Konvertieren der Datei XLSX in PDF wird das Datum in der Pivot-Tabelle zu einer fortlaufenden Nummer|
 |CELLSJAVA-44370|Excel-Datei wird beschädigt, wenn sie geöffnet und mit Aspose.Cells gespeichert wird|
 |CELLSJAVA-44381|Bedingungsformatierungsproblem beim Löschen der Zeile oder Spalte|
 |CELLSJAVA-44442|Öffnen und Speichern mit Aspose.Cells beschädigt die Arbeitsmappe|
@@ -32,18 +32,18 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44466| zusätzliches Problem 3, setCalculateFormula auf false funktioniert nicht|
 |CELLSJAVA-44496|Schließen Sie beim Laden von HTML das Beschriftungs-Tag/-Element für die Tabelle ein|
 |CELLSJAVA-44429|Die Wirkung des Excel-Diagramms in Excel unterscheidet sich von der in HTML|
-|CELLSJAVA-44414| Unicode in JSON unterbricht generierte XLSX- und CSV-Dateien|
+|CELLSJAVA-44414| Unicode in JSON unterbricht die generierten XLSX und CSV|
 |CELLSJAVA-44481|Problem mit der Methode ThreadedComment.setCreatedTime()|
 |CELLSJAVA-44483|Das Sortieren funktioniert nicht, nachdem die Zeilen gruppiert wurden|
 |CELLSJAVA-44522|Der doppelte Wert für die Zeichenfolge ergibt eine nachlaufende Null, was beim Vergleich mit dem Ergebnis von MS Excel falsch ist|
 |CELLSJAVA-44501| Suchen Sie in der nächsten Ausgabe nach der Datei duohangduolie.zip|
 |CELLSJAVA-44529|Suche nach Freezepane implementieren|
 |CELLSJAVA-44530|Untersuchen Sie das Problem, dass setactivecell manchmal nicht funktioniert|
-|CELLSJAVA-44534|Grafik im Druckbereich nicht in Excel-zu-HTML-Konvertierung exportiert|
+|CELLSJAVA-44534|Grafik im Druckbereich nicht in Excel zu HTML Konvertierung exportiert|
 |CELLSJAVA-44539|Diagramm wird beim Konvertieren in HTML mit Druckbereich nach rechts verschoben|
-|CELLSJAVA-44568|Mehrzeilige Beschriftungen gehen mit Ausnahme der ersten Zeile bei der HTML-zu-XLS-Konvertierung verloren|
+|CELLSJAVA-44568|Mehrzeilige Beschriftungen gehen mit Ausnahme der ersten Zeile bei der Konvertierung von HTML in XLS verloren|
 |CELLSJAVA-44512|Das Diagramm fehlt beim Exportieren des Diagramms in SVG in HTML|
-|CELLSJAVA-44556|Problem mit der Datenanzeige in der Datentabelle, nachdem die Koordinatenachse auf logarithmische Skalierung eingestellt wurde – Konvertierung von Excel in HTML/PDF|
+|CELLSJAVA-44556|Problem mit der Datenanzeige in der Datentabelle, nachdem die Koordinatenachse auf die logarithmische Skala eingestellt wurde – Konvertierung von Excel in HTML/PDF|
 |CELLSJAVA-44628|So behalten Sie das Prozentformat bestimmter Pivot-Zeilen bei, wenn Sie Knotendaten einer Pivot-Spalte/eines Pivot-Felds erweitern|
 |CELLSJAVA-44483|Das Sortieren funktioniert nicht, nachdem die Zeilen gruppiert wurden|
 |CELLSJAVA-44609|Langsames Kopieren mit bedingter Formatierung mit neuerer Version|
@@ -52,13 +52,13 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 22.
 |CELLSJAVA-44646|Löschen von Inhalten auf kopiertem Blatt löst NullPointerException aus|
 |CELLSJAVA-44656|Cells.getMaxDataColumn gibt einen anderen (falschen) Wert in 22.5 zurück|
 |CELLSJAVA-44650|Die Excel-Dokumentseite ist beim Laden in Aspose.Cells.GridWeb (Java) unordentlich|
-|CELLSJAVA-44660|Problem mit der Datenausrichtung beim Laden des XLS in Aspose.Cells.GridWeb (Java)|
+|CELLSJAVA-44660|Problem mit der Datenausrichtung beim Laden von XLS in Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problem beim Laden der ET-Datei in Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Der Titel der Achse im Diagramm wird im Ausgabebild gedreht - Diagramm-zu-Bild-Konvertierung|
-|CELLSJAVA-44615|Graue Linie im Ausgabebild der XLS-Datei gezeichnet|
-|CELLSJAVA-44665|Das Laden der ODS-Datei hängt|
+|CELLSJAVA-44615|Graue Linie im Ausgabebild der Datei XLS gezeichnet|
+|CELLSJAVA-44665|Das Laden der Datei ODS hängt|
 |CELLSJAVA-44404|Ausnahme "java.lang.IllegalArgumentException: Ungültiger Spaltenindex" beim Laden einer XLSX-Datei in GridWeb|
-|CELLSJAVA-44651|Fehler „Kein numerischer Wert“ beim Konvertieren von Excel-Tabellen in HTML/PDF|
+|CELLSJAVA-44651|Fehler „Kein numerischer Wert“ beim Konvertieren einer Excel-Tabelle in HTML/PDF|
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

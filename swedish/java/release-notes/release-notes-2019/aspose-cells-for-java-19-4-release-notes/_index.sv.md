@@ -15,20 +15,20 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.4.
 |CELLSJAVA-42838|Inaktiverar egenskapen för automatisk visa aktivitetsfönstret.|Ny funktion|
 |CELLSJAVA-42853|Prestandaproblem vid konvertering av XLSX till HTML|Förbättring|
 |CELLSJAVA-42852|Etiketten på båda axlarna visas inte|Insekt|
-|CELLSJAVA-42856|Problem med konvertering av Excel till HTML|Insekt|
+|CELLSJAVA-42856|Excel till HTML konverteringsproblem|Insekt|
 |CELLSJAVA-42872|Bild på arket, den högra och nedersta raden saknas|Insekt|
 |CELLSJAVA-42873|Det förkonditionerade arket har flera cellbakgrunder och text saknas och är dold.|Insekt|
 |CELLSJAVA-42874|Kolumnförlust vid export av filen till HTML|Insekt|
 |CELLSJAVA-42875|Bredden är fel och displayen är ur form|Insekt|
 |CELLSJAVA-42878|Resultatet av att beräkna formler är inte korrekt|Insekt|
-|CELLSJAVA-40419|Det går inte att skapa taggade PDF-filer vid export från Excel till PDF|Insekt|
-|CELLSJAVA-40570|Fel konvertering till PDF och JPG för sidor av olika storlekar|Insekt|
+|CELLSJAVA-40419|Det går inte att skapa taggat PDF vid export från Excel till PDF|Insekt|
+|CELLSJAVA-40570|Fel konvertering till PDF och JPG för sidor i olika storlekar|Insekt|
 |CELLSJAVA-42833|Problem när du bäddar in samma PDF-fil i flera ark i en arbetsbok|Insekt|
 |CELLSJAVA-42858|Problem när du lägger till en bild i sammanslagna celler med smarta markörer med alternativet Picture:FitToCell|Insekt|
-|CELLSJAVA-42862|Arknamnet byts om i formler efter CSV-import|Insekt|
-|CELLSJAVA-42865|Fel tid läst från en cell i ODS-fil|Insekt|
+|CELLSJAVA-42862|Arknamnet byts om i formler efter importen CSV|Insekt|
+|CELLSJAVA-42865|Fel tid läst från en cell i ODS-filen|Insekt|
 |CELLSJAVA-42879|Excel-filen blir skadad efter att ha sparats med Aspose.Cells|Insekt|
-|CELLSJAVA-42860|java.lang.NullPointerException när ett ODS-filformat laddas|Undantag|
+|CELLSJAVA-42860|java.lang.NullPointerException när du laddar ett ODS filformat|Undantag|
 |CELLSJAVA-42871|java.lang.Undantag: Ostödd klon för säkerhetskopierad ström vid konvertering av XLSX till PDF|Undantag|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -66,4 +66,4 @@ Representerar de trådade kommentarerna till kommentaren.
 ### **Lägger till metoderna CommentCollection.AddThreadedComment() och CommentCollection.GetThreadedComments().**
 Lägger till och får de trådade kommentarerna.
 ### **Lägger till egenskapen Chart.SubTitle.**
-Hämtar diagrammets underrubrik. Endast för fil i ODS-format.
+Hämtar diagrammets underrubrik. Endast för ODS filformat.

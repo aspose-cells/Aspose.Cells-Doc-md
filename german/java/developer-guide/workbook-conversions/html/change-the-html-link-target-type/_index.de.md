@@ -1,12 +1,12 @@
 ﻿---
-title: Ändern Sie den Zieltyp des HTML-Links
+title: Ändern Sie den Linkzieltyp HTML
 type: docs
 weight: 450
 url: /de/java/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells ermöglicht es Ihnen, den Zieltyp des HTML-Links zu ändern. HTML-Link sieht so aus:
+Mit Aspose.Cells können Sie den Linkzieltyp HTML ändern. HTML Link sieht so aus:
 
 {{< highlight "java" >}}
 
@@ -22,7 +22,7 @@ Wie Sie sehen können, ist das Zielattribut im obigen HTML-Link **_self**. Sie k
 - [OBEN](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
 
 {{% /alert %}} 
-## **Ändern Sie den Zieltyp des HTML-Links**
+## **Ändern Sie den Linkzieltyp HTML**
  Der folgende Code veranschaulicht die Verwendung von[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) Eigentum. Es ändert den Zieltyp des Links in**leer**. Standardmäßig ist es die**Elternteil** . Sie können die bekommen[Excel-Quelldatei](5472932.xlsx) Von diesem Link aus können Sie jedoch jede Excel-Datei verwenden, die einen HTML-Hyperlink enthält, um diesen Code auszuführen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

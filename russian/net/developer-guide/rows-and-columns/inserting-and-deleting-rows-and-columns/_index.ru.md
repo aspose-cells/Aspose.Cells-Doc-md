@@ -5,7 +5,7 @@ type: docs
 weight: 70
 url: /ru/net/inserting-and-deleting-rows-and-columns/
 ---
-## **Введение**
+## **Вступление**
 
 Независимо от того, создаете ли вы новый рабочий лист с нуля или работаете с существующим рабочим листом, нам может потребоваться добавить дополнительные строки или столбцы для размещения большего количества данных. И наоборот, нам также может понадобиться удалить строки или столбцы из указанных позиций на листе.
 Чтобы выполнить эти требования, Aspose.Cells предоставляет очень простой набор классов и методов, обсуждаемых ниже.
@@ -42,7 +42,7 @@ Aspose.Cells предоставляет класс[**Рабочая тетрад
 
 ### **Вставить строку с форматированием**
 
-Чтобы вставить строку с параметрами форматирования, используйте кнопку[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)перегрузка, которая требует[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) как параметр. Установить[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) свойство[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) класс с[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Перечисление.[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)Перечисление состоит из трех членов, перечисленных ниже.
+Чтобы вставить строку с параметрами форматирования, используйте кнопку[**Инсерровс**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows)перегрузка, которая требует[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) как параметр. Установить[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) собственностью[**InsertOptions**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions) класс с[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype) Перечисление.[**КопироватьФорматТип**](https://reference.aspose.com/cells/net/aspose.cells/insertoptions/properties/copyformattype)Перечисление состоит из трех членов, перечисленных ниже.
 
 - SameAsAbove: форматирует строку так же, как строку выше.
 - SameAsBelow: форматирует строку так же, как строку ниже.

@@ -14,7 +14,7 @@ Sayın müşteriler,
 
 Aspose.Grid v1.9.2 sürümünü yayınladık!
 
-giriiş
+Giriş
 
 Bu yeni sürüm, v1.9.0'dan bu yana tüm yeni özellikleri ve düzeltmeleri içerir.
 

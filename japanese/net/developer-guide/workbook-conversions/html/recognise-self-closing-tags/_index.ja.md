@@ -4,7 +4,7 @@ type: docs
 weight: 120
 url: /ja/net/recognise-self-closing-tags/
 ---
-HTML には、\ のような空のタグのさまざまなタグ形式を含めることができます<td>\</td>また \<td/>. Aspose.Cells は、以前は \ のみをサポートしていましたが、現在は両方の形式をサポートしています。<td>\</td>タグのように。この機能は、添付のサンプル HTML ファイルを Excel ファイルに変換することでテストできます。サンプル HTML ファイルと出力 Excel ファイルは、テスト用に次のリンクからダウンロードできます。
+HTML は、\ のような空のタグに対してさまざまなタグ形式を設定できます<td>\</td>また \<td/>. Aspose.Cells は、以前は \ のみをサポートしていましたが、現在は両方の形式をサポートしています。<td>\</td>タグのように。この機能は、添付のサンプル HTML ファイルを Excel ファイルに変換することでテストできます。サンプルの HTML ファイルと出力された Excel ファイルは、テスト用に次のリンクからダウンロードできます。
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 

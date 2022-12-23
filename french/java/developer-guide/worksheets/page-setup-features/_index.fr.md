@@ -14,15 +14,15 @@ Les options de configuration de page sont entièrement prises en charge dans Asp
 
 ## **Définition des options de page**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
 La classe Worksheet fournit la propriété PageSetup, utilisée pour définir les options de mise en page. En fait, la propriété PageSetup est un objet de la classe PageSetup qui permet de définir les options de mise en page d'une feuille de calcul imprimée. La classe PageSetup fournit diverses propriétés utilisées pour définir les options de configuration de la page. Certaines de ces propriétés sont décrites ci-dessous.
 
 ### **Orientation des pages**
 
- L'orientation de la page peut être réglée sur portrait ou paysage à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) méthode. La[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) méthode prend la[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) énumération comme paramètre. Les membres de la[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)énumération sont énumérés ci-dessous.
+L'orientation de la page peut être réglée sur portrait ou paysage à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) méthode. Le[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) méthode prend la[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) énumération comme paramètre. Les membres de la[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) énumération sont énumérés ci-dessous.
 
-|**Types d'orientation de page**|**La description**|
+|**Types d'orientation de page**|**Description**|
 |:- |:- |
 |[**PAYSAGE**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|Orientation paysage|
 |[**PORTRAIT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Orientation portrait|
@@ -31,21 +31,21 @@ La classe Worksheet fournit la propriété PageSetup, utilisée pour définir le
 
 ### **Facteur d'échelle**
 
- Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la[**définirZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) méthode de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer.
+ Il est possible de réduire ou d'agrandir la taille d'une feuille de calcul en ajustant le facteur d'échelle avec la[**définirZoom**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Zoom) méthode de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-ScalingFactor-ScalingFactor.java" >}}
 
 ### **Options FitToPages**
 
- Pour adapter le contenu de la feuille de calcul à un nombre de pages spécifique, utilisez la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) et[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) méthodes. Ces méthodes sont également utilisées pour mettre à l'échelle les feuilles de calcul.
+ Pour adapter le contenu de la feuille de calcul à un nombre de pages spécifique, utilisez la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) et[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) méthodes. Ces méthodes sont également utilisées pour mettre à l'échelle les feuilles de calcul.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
 ### **Taille de papier**
 
- Définissez le format de papier sur lequel les feuilles de calcul seront imprimées à l'aide du[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**Taille de papier**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) propriété. La propriété PaperSize accepte l'une des valeurs prédéfinies dans le[**Type de format de papier**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) énumération ci-dessous.
+ Définissez le format de papier sur lequel les feuilles de calcul seront imprimées à l'aide du[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**Taille de papier**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) la propriété. La propriété PaperSize accepte l'une des valeurs prédéfinies dans le[**Type de format de papier**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) énumération ci-dessous.
 
-|**Types de format de papier**|**La description**|
+|**Types de format de papier**|**Description**|
 |:- |:- |
 |Papier10x14|10 po x 14 po|
 |Papier11x17|11 po x 17 po|
@@ -57,7 +57,7 @@ La classe Worksheet fournit la propriété PageSetup, utilisée pour définir le
 |PapierB4|B4 (250 mm x 354 mm)|
 |PapierB5|B5 (182 mm x 257 mm)|
 |PapierCarte D'Affaires|Carte de visite (90 mm x 55 mm)|
-|Feuille de papier|Feuille de taille C|
+|Feuille de papier|Feuille de format C|
 |PaperDSheet|Feuille de taille D|
 |PapierEnveloppe10|Enveloppe #10 (4-1/8 po x 9-1/2 po)|
 |PapierEnveloppe11|Enveloppe #11 (4-1/2 po x 10-3/8 po)|
@@ -95,13 +95,13 @@ La classe Worksheet fournit la propriété PageSetup, utilisée pour définir le
 
 ### **Qualité d'impression**
 
- Définissez la qualité d'impression des feuilles de calcul à imprimer avec le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) méthode. L'unité de mesure de la qualité d'impression est le point par pouce (DPI).
+ Définissez la qualité d'impression des feuilles de calcul à imprimer avec le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setPrintQuality**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintQuality) méthode. L'unité de mesure de la qualité d'impression est le point par pouce (DPI).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintQuality-SetPrintQuality.java" >}}
 
 ### **Numéro de la première page**
 
- Commencez la numérotation des pages de la feuille de travail à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) méthode. La méthode setFirstPageNumber définit le numéro de page de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
+ Commencez la numérotation des pages de la feuille de travail à l'aide de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setFirstPageNumber**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FirstPageNumber) méthode. La méthode setFirstPageNumber définit le numéro de page de la première page de la feuille de calcul et les pages suivantes sont numérotées dans l'ordre croissant.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetFirstPageNumber-SetFirstPageNumber.java" >}}
 
@@ -113,7 +113,7 @@ Aspose.Cells prend entièrement en charge les options de configuration de page d
 
 ![tâche : image_autre_texte](page-setup-features_2.png)
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)qui représente un fichier Excel Microsoft. La classe Workbook contient la collection Worksheets qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. La classe Workbook contient la collection Worksheets qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
  La classe Worksheet fournit la propriété PageSetup, utilisée pour définir les options de mise en page. L'attribut PageSetup est un objet de la[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe qui permet de définir différentes options de mise en page pour une feuille de calcul imprimée. La classe PageSetup fournit diverses propriétés et méthodes utilisées pour définir les options de mise en page.
 
@@ -130,13 +130,13 @@ Aspose.Cells prend entièrement en charge les options de configuration de page d
 
 ### **Centrer sur la page**
 
- Il est possible de centrer quelque chose sur une page horizontalement et verticalement. La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe a des membres à cet effet:[**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) et[**setCenterVertical**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+ Il est possible de centrer quelque chose sur une page horizontalement et verticalement. Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe a des membres à cet effet:[**setCenterHorizontally**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) et[**setCenterVertical**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
 ### **Marges d'en-tête et de pied de page**
 
-Définissez les marges d'en-tête et de pied de page avec[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) membres tels que[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) et[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Définissez les marges d'en-tête et de pied de page avec[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) membres tels que[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) et[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -156,14 +156,14 @@ Pour ajouter des en-têtes et des pieds de page lors de l'exécution, Aspose.Cel
 
 Les commandes de script sont des commandes spéciales fournies par Aspose.Cells qui permettent aux développeurs de formater les en-têtes et les pieds de page.
 
-|**Commandes de script**|**La description**|
+|**Commandes de script**|**Description**|
 |:- |:- |
 |&P|Le numéro de la page actuelle.|
 |&G|Une image.|
 |&N|Le nombre total de pages.|
 |&RÉ|La date actuelle.|
 |&T|L'heure actuelle.|
-|&UN|Nom de la feuille de calcul.|
+|&UNE|Nom de la feuille de calcul.|
 |&F|Le nom du fichier sans le chemin.|
 |&"\<FontName>"|Un nom de police. Par exemple : &"Arial"|
 |&"\<FontName>, \<FontStyle>"|Un nom de police avec un style. Par exemple : &"Arial,Gras"|
@@ -171,13 +171,13 @@ Les commandes de script sont des commandes spéciales fournies par Aspose.Cells 
 
 ### **Définir les en-têtes et pieds de page**
 
- La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe fournit la méthode[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) pour ajouter un en-tête et[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) pour ajouter un pied de page à une feuille de calcul. Le script est utilisé comme argument pour toutes les méthodes mentionnées ci-dessus. Il représente le script à utiliser pour l'en-tête ou le pied de page. Ce script contient des commandes de script pour formater les en-têtes ou les pieds de page.
+ Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe fournit la méthode[**setHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) pour ajouter un en-tête et[**setFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) pour ajouter un pied de page à une feuille de calcul. Le script est utilisé comme argument pour toutes les méthodes mentionnées ci-dessus. Il représente le script à utiliser pour l'en-tête ou le pied de page. Ce script contient des commandes de script pour formater les en-têtes ou les pieds de page.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Insérer un graphique dans un en-tête ou un pied de page**
 
- La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe a les méthodes[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) et[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) pour ajouter des images à l'en-tête et au pied de page d'une feuille de calcul. Ces méthodes prennent deux paramètres :
+ Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe a les méthodes[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) et[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) pour ajouter des images à l'en-tête et au pied de page d'une feuille de calcul. Ces méthodes prennent deux paramètres :
 
 - **Section**, la section de l'en-tête ou du pied de page où l'image sera placée. Il y a trois sections : gauche, centre et droite, représentées respectivement par les valeurs numériques 0, 1 et 2.
 - **File InputStream**, les données graphiques. Les données binaires doivent être écrites dans le tampon d'un tableau d'octets.
@@ -195,7 +195,7 @@ Après avoir exécuté le code et ouvert le fichier, vérifiez l'en-tête de la 
 
 ### **Insérer un graphique dans l'en-tête de la première page uniquement**
 
- La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe a également d'autres méthodes utiles, par exemple[**setImage**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), pour ajouter des images dans l'en-tête/le pied de page de la première page d'une feuille de calcul. La première page est une page spéciale : il est courant de vouloir qu'elle affiche des informations particulières, par exemple un logo d'entreprise.
+ Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe a également d'autres méthodes utiles, par exemple[**setImage**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**setFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), pour ajouter des images dans l'en-tête/le pied de page de la première page d'une feuille de calcul. La première page est une page spéciale : il est courant de vouloir qu'elle affiche des informations particulières, par exemple un logo d'entreprise.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
@@ -220,19 +220,19 @@ Toutes ces options d'impression sont présentées ci-dessous.
 
 ### **Définition des options d'impression et de feuille**
 
- spose.Cells prend en charge toutes les options d'impression offertes par Microsoft Excel et les développeurs peuvent facilement configurer ces options pour les feuilles de calcul en utilisant les propriétés offertes par le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)classer. La façon dont ces propriétés sont utilisées est décrite ci-dessous plus en détail.
+ spose.Cells prend en charge toutes les options d'impression offertes par Microsoft Excel et les développeurs peuvent facilement configurer ces options pour les feuilles de calcul en utilisant les propriétés offertes par le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)classe. La façon dont ces propriétés sont utilisées est décrite ci-dessous plus en détail.
 
 ### **Définir la zone d'impression**
 
 Par défaut, seule la zone d'impression intègre toutes les zones de la feuille de calcul qui contiennent des données. Les développeurs peuvent établir une zone d'impression spécifique de la feuille de calcul.
 
- Pour sélectionner une zone d'impression spécifique, utilisez les[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) propriété. Attribuez une plage de cellules qui définit la zone d'impression à cette propriété.
+ Pour sélectionner une zone d'impression spécifique, utilisez les[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) la propriété. Attribuez une plage de cellules qui définit la zone d'impression à cette propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 
 ### **Définir les titres d'impression**
 
- Aspose.Cells vous permet de désigner des en-têtes de ligne et de colonne à répéter sur toutes les pages d'une feuille de calcul imprimée. Pour ce faire, utilisez le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classer'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) et[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) Propriétés.
+ Aspose.Cells vous permet de désigner des en-têtes de ligne et de colonne à répéter sur toutes les pages d'une feuille de calcul imprimée. Pour ce faire, utilisez le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) classe'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) et[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) Propriétés.
 
 Les lignes ou les colonnes qui seront répétées sont définies en passant leurs numéros de ligne ou de colonne. Par exemple, les lignes sont définies comme $1:$2 et les colonnes sont définies comme $A:$B.
 
@@ -240,7 +240,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 ### **Définir d'autres options d'impression**
 
- La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) La classe fournit également plusieurs autres propriétés pour définir les options d'impression générales comme suit :
+ Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) La classe fournit également plusieurs autres propriétés pour définir les options d'impression générales comme suit :
 
 - [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines), une propriété booléenne qui définit s'il faut imprimer ou non le quadrillage.
 - [*setPrintHeadings*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings), une propriété booléenne qui définit s'il faut imprimer ou non les en-têtes de ligne et de colonne.
@@ -253,7 +253,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
  Les valeurs prédéfinies dans le[**ImprimerCommentairesType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) énumération sont décrites ci-dessous.
 
-|**Imprimer les types de commentaires**|**La description**|
+|**Imprimer les types de commentaires**|**Description**|
 |:- |:- |
 |[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Indique d'imprimer les commentaires tels qu'ils sont affichés sur la feuille de calcul.|
 |[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Spécifie de ne pas imprimer les commentaires.|
@@ -261,7 +261,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
  Les valeurs prédéfinies du[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) énumération sont décrites ci-dessous.
 
-|**Types d'erreurs d'impression**|**La description**|
+|**Types d'erreurs d'impression**|**Description**|
 |:- |:- |
 |[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Spécifie de ne pas imprimer les erreurs.|
 |[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Indique d'imprimer les erreurs sous la forme "--".|
@@ -272,7 +272,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 ### **Définir l'ordre des pages**
 
- La[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe fournit la[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit :
+ Le[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la classe fournit la[**setOrder**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit :
 
 - **En bas puis dessus** imprime toutes les pages vers le bas avant d'imprimer les pages vers la droite.
 - **Plus puis vers le bas** imprime les pages de gauche à droite avant d'imprimer les pages ci-dessous.
@@ -281,7 +281,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
  Les valeurs prédéfinies de[**PrintOrderType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) énumération sont décrites ci-dessous.
 
-|**Types de commande d'impression**|**La description**|
+|**Types de commande d'impression**|**Description**|
 |:- |:- |
 |[**DOWN_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Imprimez vers le bas, puis vers le haut.|
 |[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Imprimez dessus, puis vers le bas.|

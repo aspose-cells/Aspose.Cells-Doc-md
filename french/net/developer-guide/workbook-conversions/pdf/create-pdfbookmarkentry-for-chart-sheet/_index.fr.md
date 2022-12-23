@@ -17,7 +17,7 @@ Auparavant, Aspose.Cells créerait[**PdfSignetEntrée**](https://reference.aspos
 - Signet-III
 - Signet-IV-Graphique2
 
-La capture d'écran suivante montre le[PDF de sortie](61767757.pdf) généré par l'exemple de code pour une référence.
+La capture d'écran suivante montre le[sortie PDF](61767757.pdf)généré par l'exemple de code pour une référence.
 
 ![tâche : image_autre_texte](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

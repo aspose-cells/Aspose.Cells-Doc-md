@@ -12,7 +12,7 @@ url: /ja/java/aspose-cells-for-java-18-11-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-42738|XLSX から誤った数の検証値が読み取られる|強化|
+|CELLSJAVA-42738|XLSX から読み取られる検証値のカウントが正しくない|強化|
 |CELLSJAVA-42734|連続する区切り文字を別個のものとして扱う際の問題|強化|
 |CELLSJAVA-42739|Aspose.Cells.GridWeb (Java) をマルチユーザー環境で同時に使用するとクラッシュする|バグ|
 |CELLSJAVA-42737|XLSX->PNG 変換でグラフの線が表示されない|バグ|
@@ -31,7 +31,7 @@ Cell オブジェクトを取得する代わりに、ユーザーがセルの行
 ### **AbstractCalculationMonitor.OnCircular(IEnumerator circleCellsData) メソッドを追加**
 ユーザーが循環参照を収集して処理する方法を提供します。
 ### **TxtLoadOptions.TreatConsecutiveDelimitersAsOne プロパティを追加**
-CSV ファイルのインポート時に、連続する区切り文字を 1 つとして扱うかどうかを選択できます。
+CSV ファイルをインポートするときに、連続する区切り文字を 1 つとして扱うかどうかをユーザーが選択できるようにします。
 ### **FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) メソッドを追加**
 ユーザーが FormatCondition の数式を設定するための効率的で便利な方法を提供します。
 ### **Validation.GetListValue(int row, int column) メソッドを追加**

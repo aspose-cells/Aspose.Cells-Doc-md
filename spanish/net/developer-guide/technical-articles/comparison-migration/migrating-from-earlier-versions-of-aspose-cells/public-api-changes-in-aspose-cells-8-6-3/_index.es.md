@@ -10,8 +10,8 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.6.2 a l
 
 {{% /alert %}} 
 ## **API añadidas**
-### **Compatibilidad con el análisis de HTML durante la importación de datos**
-Esta versión de Aspose.Cells for .NET API ha expuesto la propiedad ImportTableOptions.IsHtmlString que indica a API que analice las etiquetas HTML al importar datos en la hoja de trabajo y establezca el resultado analizado como valor de celda. Tenga en cuenta que las API Aspose.Cells ya proporcionan Cell.HtmlString para realizar esta tarea para una sola celda; sin embargo, al importar datos de forma masiva, como desde un DataTable, la propiedad ImportTableOptions.IsHtmlString (cuando se establece en true) intenta analizar todos los datos admitidos. HTML etiqueta y establece los resultados analizados en las celdas correspondientes.
+### **Compatibilidad con el análisis HTML durante la importación de datos**
+Esta versión de Aspose.Cells for .NET API ha expuesto la propiedad ImportTableOptions.IsHtmlString que indica a API que analice las etiquetas HTML al importar datos en la hoja de trabajo y establezca el resultado analizado como valor de celda. Tenga en cuenta que las API Aspose.Cells ya proporcionan Cell.HtmlString para realizar esta tarea para una sola celda; sin embargo, al importar datos de forma masiva, como desde DataTable, la propiedad ImportTableOptions.IsHtmlString (cuando se establece en true) intenta analizar todos los datos compatibles. HTML etiqueta y establece los resultados analizados en las celdas correspondientes.
 
 Este es el escenario de uso más simple.
 

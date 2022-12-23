@@ -6,7 +6,7 @@ url: /fr/java/find-or-search-data/
 ---
 {{% alert color="primary" %}} 
 
- Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer** et alors**Trouver** ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD** pour le rechercher. Excel met en évidence les champs correspondants.
+ Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer** et puis**Trouver** ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD** pour le chercher. Excel met en évidence les champs correspondants.
 
 **Utilisation de la boîte de dialogue Rechercher pour rechercher des cellules contenant une valeur spécifique** 
 
@@ -18,9 +18,9 @@ Aspose.Cells permet aux développeurs de rechercher dans les cellules d'une feui
 
 {{% /alert %}} 
 ## **Recherche de Cells contenant des données spécifiques**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , qui représente un fichier Excel. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contient[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) , une collection qui permet d'accéder à chacune des feuilles de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classer.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , qui représente un fichier Excel. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contient[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) , une collection qui permet d'accéder à chacune des feuilles de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe.
 
- La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fournit[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) , une collection qui représente toutes les cellules de la feuille de calcul.[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour rechercher des cellules dans une feuille de calcul contenant des données spécifiées par l'utilisateur. Quelques-unes de ces méthodes sont décrites ci-dessous plus en détail.
+ Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fournit[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) , une collection qui représente toutes les cellules de la feuille de calcul.[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collection fournit plusieurs méthodes pour rechercher des cellules dans une feuille de calcul contenant des données spécifiées par l'utilisateur. Quelques-unes de ces méthodes sont décrites ci-dessous plus en détail.
 
 Toutes les méthodes de recherche renvoient les références de cellule pour toutes les cellules contenant la valeur de recherche spécifiée.
 ## **Recherche contenant une formule**

@@ -18,18 +18,18 @@ url: /ja/java/aspose-cells-for-java-18-6-release-notes/
 |CELLSJAVA-42646|例外: Name.getRefersTo() の「FormulaBuild](/p Unknown formula token0」|強化|
 |CELLSJAVA-42645|例外: Cell.getFormula() の「FormulaBuild 複数のトークンがスタック内にあります....」|強化|
 |CELLSJAVA-42516|Aspose.Cells は無効な数式を受け入れて修正します|強化|
-|CELLSJAVA-42636|Excel から HTML へのレンダリングで、一部の描画図形がずれたり、正しくレンダリングされない|バグ|
+|CELLSJAVA-42636|一部の描画図形が、Excel で HTML レンダリングに移動するか、正しくレンダリングされない|バグ|
 |CELLSJAVA-42627|CELLSJAVA-42619 - Smart Art 画像を正しく抽出できない|バグ|
-|CELLSJAVA-42618|Excel から HTML へのレンダリングでデータをカバーするために形状が移動する|バグ|
+|CELLSJAVA-42618|Excel のデータを HTML レンダリングにカバーするために、形状が置き換えられます。|バグ|
 |CELLSJAVA-42628|数式の計算が間違っています。たとえば、#DIV/0 が生成されます。エラー|バグ|
-|CELLSJAVA-42615|Cell 出力 HTML で A3 形式が正しくありません|バグ|
+|CELLSJAVA-42615|Cell 出力で A3 形式が正しくありません HTML|バグ|
 |CELLSJAVA-42621|MS Excel ファイルから PDF ファイルを生成する際のパフォーマンスの低下|バグ|
 |CELLSJAVA-42620|XLSX から TIFF - 例外 NoClassDefFoundError|バグ|
 |CELLSJAVA-42599|Excel ファイルを PDF に変換すると画像が失われる|バグ|
 |CELLSJAVA-42630|Chart.calculate メソッドが OutOfMemoryError を引き起こす|バグ|
-|CELLSJAVA-42623|Excel ファイルを PDF ファイル形式にレンダリングする際のメモリの増加|バグ|
+|CELLSJAVA-42623|Excel ファイルを PDF ファイル形式にレンダリングするとメモリが増加する|バグ|
 |CELLSJAVA-42592|characters() メソッドにより、チャート タイトルのフォント サイズが変更されました|バグ|
-|CELLSJAVA-41860|XLS の再保存中に影の効果が変更される|バグ|
+|CELLSJAVA-41860|再保存時に影の効果が変わる XLS|バグ|
 |CELLSJAVA-42654|Excel から PDF への変換 - 変換が完了しない|バグ|
 |CELLSJAVA-42647|コメント図形の代替テキストを取得または設定できません|バグ|
 |CELLSJAVA-42644|Aspose.Cells は、スプレッドシート ml ファイル (xml) を自己終了スタイル タグを含む PDF に変換するとハングします。|バグ|
@@ -38,7 +38,7 @@ url: /ja/java/aspose-cells-for-java-18-6-release-notes/
 |CELLSJAVA-42624|エンコードされたシンボル (「%5c」など) を含むハイパーリンクは、再保存後にデコードされます|バグ|
 |CELLSJAVA-42638|Cell.getDisplayStringValue() が java.lang.NullPointerException をスローする|例外|
 |CELLSJAVA-42652|XLS ファイルのロード時に java.lang.ArrayIndexOutOfBoundsException が発生しました|例外|
-|CELLSJAVA-42650|例外: XLS ファイルの読み込み時の「無効なエンコード: null」|例外|
+|CELLSJAVA-42650|例外: XLS ファイルのロード時の「無効なエンコード: null」|例外|
 |CELLSJAVA-42649|例外: XLS ファイルをロードするときの「HPageBreaks の数は 1024 より大きくすることはできません」|例外|
 |CELLSJAVA-42648|例外: Picture.getData() での「画像データの読み取りに失敗しました」|例外|
 

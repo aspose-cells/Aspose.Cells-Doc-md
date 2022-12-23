@@ -7,11 +7,11 @@ url: /es/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Biblioteca de gestión de hojas de cálculo de Excel**
 ### **Características del documento**
 - Abra archivos de Microsft Excel sin formato o encriptados (Excel97 - Excel2007/2010/2013) de diferentes fuentes.
-- Guarde archivos de Excel (Excel 97 - Excel2007/2010/2013) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML, etc.)
-- Convierta un archivo de Excel a un documento PDF.
-- Convierta una hoja de cálculo de Excel en un documento XPS.
+- Guarde archivos de Excel (Excel 97 - Excel2007/2010/2013) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, delimitado por tabuladores, 073, 08419, 48, 08419, 48, etc.)
+- Convierta el archivo de Excel al documento PDF.
+- Convierta la hoja de cálculo de Excel en el documento XPS.
 - Convertir a formato de archivo de imagen etiquetado (TIFF).
-- Lea y escriba en formato de hoja de cálculo OpenDocument (ODS).
+- Lea y escriba el formato de hoja de cálculo OpenDocument (ODS).
 - Modifique las propiedades del documento de los archivos de Excel.
 ### **Características de la hoja de trabajo**
 #### **Opciones de pantalla**
@@ -37,7 +37,7 @@ url: /es/net/microsoft-excel-spreadsheet-management-library/
 - Ocultar o mostrar filas y columnas.
 - Agrupar o desagrupar filas y columnas.
 ### **Funciones de gestión de datos**
-- Acceda a cualquier celda de la hoja de trabajo.
+- Acceda a cualquier celda de la hoja de cálculo.
 - Agregue datos a las celdas deseadas en tiempo de ejecución.
 - Importe datos en hojas de trabajo desde diferentes fuentes de datos.
 - Recupere datos de celdas según sus tipos de datos.

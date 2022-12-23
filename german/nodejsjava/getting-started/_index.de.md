@@ -7,7 +7,7 @@ keywords: nodejs, excel, instal
 description: Setup Aspose.Cells for Node.js via Java und Installationsrichtlinien
 ---
 ## **System Anforderungen**
- Aspose.Cells for Node.js via Java ist plattformunabhängig API und kann auf jeder Plattform (Windows, Linux und MacOS) eingesetzt werden[Node.js](https://nodejs.org/en/download/) und[Knoten-Java](https://github.com/joeferner/node-java) Brücke installiert sind. Der Computer muss über Oracle JDK 7 oder höher verfügen, bevor die Installation eingerichtet werden kann.
+ Aspose.Cells for Node.js via Java ist plattformunabhängig API und kann auf jeder Plattform (Windows, Linux und MacOS) eingesetzt werden[Node.js](https://nodejs.org/en/download/) und[Knoten-Java](https://github.com/joeferner/node-java)Brücke installiert sind. Der Computer muss über Oracle JDK 7 oder höher verfügen, bevor die Installation eingerichtet werden kann.
 ## **Von NPM installieren**
  Sie können ganz einfach unter Aspose.Cells for Node.js via Java aus[NPM](https://www.npmjs.com/package/aspose.cells) mit folgendem Befehl.
 {{< highlight "java" >}}

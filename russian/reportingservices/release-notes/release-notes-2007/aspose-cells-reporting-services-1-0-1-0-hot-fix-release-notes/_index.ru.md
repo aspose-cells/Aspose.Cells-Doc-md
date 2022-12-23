@@ -10,7 +10,7 @@ url: /ru/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
 
 {{% /alert %}} 
 
- Введение
+ Вступление
 
  Aspose.Cells для Reporting Service версии 1.0.1 включает в себя усовершенствование функций и исправления ошибок, начиная с
 

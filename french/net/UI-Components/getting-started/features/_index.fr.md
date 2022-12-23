@@ -1,12 +1,12 @@
 ﻿---
-title: Fonctionnalités
+title: Caractéristiques
 type: docs
 weight: 10
 url: /fr/net/grid-features/
 ---
  Le tableau suivant résume les fonctions disponibles dans**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** et**Aspose.Cells.GridJs** contrôles fournis par Aspose.Cells for .NET.
 
-|**Fonctionnalités**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
+|**Caractéristiques**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
 |:- |:- |:- |:- |
 |**Général**||||
 | Écrit complètement en C#|**X**|**X**|**X**|

@@ -10,7 +10,7 @@ url: /ru/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal
 
 ## **Реализовать Cell.FormulaLocal аналогично Excel VBA Range.FormulaLocal**
 
- В следующем примере кода объясняется, как реализовать[**GlobalizationSettings.GetLocalFunctionName (стандартное имя строки)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname) метод. Метод возвращает локальное имя стандартной функции. Если стандартное имя функции**СУММА** , он возвращается**UserFormulaLocal_SUM** Вы можете изменить код в соответствии с вашими потребностями и вернуть правильные имена локальных функций, например**СУММА** является**СУММА** на немецком и**ТЕКСТ** является**ТЕКСТ**на русском. См. также вывод на консоль примера кода, приведенного ниже, для справки.
+ В следующем примере кода объясняется, как реализовать[**GlobalizationSettings.GetLocalFunctionName (стандартное имя строки)**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getlocalfunctionname) метод. Метод возвращает локальное имя стандартной функции. Если стандартное имя функции**СУММА** , он возвращается**UserFormulaLocal_SUM** Вы можете изменить код в соответствии с вашими потребностями и вернуть правильные имена локальных функций, например**СУММА** является**СУММА** на немецком и**ТЕКСТ** является**ТЕКСТ**по-русски. См. также вывод на консоль примера кода, приведенного ниже, для справки.
 
 ## **Образец кода**
 

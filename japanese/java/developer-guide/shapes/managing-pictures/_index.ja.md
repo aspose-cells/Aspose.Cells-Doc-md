@@ -8,7 +8,7 @@ url: /ja/java/managing-pictures/
 
 Aspose.Cells を使用すると、開発者は実行時にスプレッドシートに画像を追加できます。さらに、これらの画像の配置は実行時に制御できます。これについては、以降のセクションで詳しく説明します。
 
-Aspose.Cells for Java は、BMP、JPEG、PNG、GIF の画像形式のみをサポートします。
+Aspose.Cells for Java は、画像フォーマット BMP、JPEG、PNG、GIF のみをサポートします。
 
 例で使用されるインデックスは 0 から始まります。
 

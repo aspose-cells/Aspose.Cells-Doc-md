@@ -24,6 +24,6 @@ url: /it/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40610 - L'eliminazione del grafico rende il foglio di calcolo illeggibile
 
-40467 - Impossibile ridimensionare la casella di testo in XLSX40623 - "#VALUE!" errore dopo il calcolo
+ 40467 - Impossibile ridimensionare la casella di testo in XLSX40623 - "#VALUE!" errore dopo il calcolo
 
  40620 - Errore durante l'esecuzione della sostituzione nella casella di testo

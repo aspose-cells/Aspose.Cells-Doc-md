@@ -34,6 +34,6 @@ Con Aspose.Cells, es sencillo abrir, guardar y administrar archivos de Excel.
 - [Apertura de diferentes archivos de versiones de Excel Microsoft](/cells/es/net/opening-different-microsoft-excel-versions-files/)
 - [Apertura de archivos con diferentes formatos](/cells/es/net/opening-files-with-different-formats/)
 - [Optimización del uso de la memoria mientras se trabaja con archivos grandes que tienen grandes conjuntos de datos](/cells/es/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Lea la hoja de cálculo de números desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Detenga la conversión o la carga con InterruptMonitor cuando tarde demasiado](/cells/es/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Usando LightCells API](/cells/es/net/using-lightcells-api/)

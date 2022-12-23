@@ -1,5 +1,5 @@
 ﻿---
-title: Proteggi i documenti PDF
+title: Sicuro PDF Documenti
 type: docs
 weight: 120
 url: /it/net/secure-pdf-documents/
@@ -8,7 +8,7 @@ url: /it/net/secure-pdf-documents/
 
 A volte, gli sviluppatori devono lavorare con file PDF crittografati. Ad esempio, devono proteggere i documenti con password dell'utente e del proprietario in modo che non tutti possano aprirli o vogliono limitare la stampa o l'estrazione del contenuto del documento.
 
-Questo articolo spiega come trasferire le opzioni di sicurezza PDF durante il salvataggio di fogli di calcolo in PDF.
+Questo articolo spiega come trasferire le opzioni di sicurezza PDF durante il salvataggio dei fogli di calcolo in PDF.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ Questo articolo spiega come trasferire le opzioni di sicurezza PDF durante il sa
 
 {{% alert color="primary" %}}
 
- Se il foglio di calcolo contiene formule, è meglio chiamare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)appena prima di renderla in PDF. Ciò garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati nel PDF.
+ Se il foglio di calcolo contiene formule, è meglio chiamare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)appena prima di eseguirne il rendering in PDF. Ciò garantisce che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
 
 {{% /alert %}}

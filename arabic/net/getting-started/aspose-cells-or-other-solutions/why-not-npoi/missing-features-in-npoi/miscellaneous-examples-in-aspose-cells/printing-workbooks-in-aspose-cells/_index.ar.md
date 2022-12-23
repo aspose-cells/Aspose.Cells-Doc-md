@@ -34,7 +34,7 @@ SheetRender sr = new SheetRender(sheet, imgOptions);
 sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**دفاتر الطباعة** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)

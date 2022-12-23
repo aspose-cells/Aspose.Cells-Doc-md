@@ -6,7 +6,7 @@ url: /ru/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Возможные сценарии использования**
 
-Aspose.Cells позволяет сохранить книгу в*Строгая электронная таблица Open XML*формат. С этой целью он обеспечивает**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**имущество. Если вы установите его значение как**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** , то выходной файл Excel будет сохранен в*Строгая электронная таблица Open XML* формат.
+Aspose.Cells позволяет сохранить книгу в*Строгая электронная таблица Open XML*формат. С этой целью он обеспечивает**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**имущество. Если вы установите его значение как**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** то выходной файл Excel будет сохранен в*Строгая электронная таблица Open XML* формат.
 
 ## **Сохранить книгу в строгом формате электронной таблицы Open XML**
 

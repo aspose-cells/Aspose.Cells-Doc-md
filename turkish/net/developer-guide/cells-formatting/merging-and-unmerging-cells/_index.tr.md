@@ -9,7 +9,7 @@ url: /tr/net/merging-and-unmerging-cells/
 Aspose.Cells bu özelliği destekler ve ayrıca bir çalışma sayfasındaki hücreleri birleştirebilir. Birleştirilmiş hücreleri de ayırabilir veya bölebilirsiniz. Birleştirilmiş bir hücrenin hücre referansı, orijinal seçili aralıktaki sol üst hücrenin referansıdır.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 Her satırda veya sütunda her zaman aynı sayıda hücre olmasını istemezsiniz. Örneğin, birkaç sütuna yayılan bir hücreye başlık koymak isteyebilirsiniz. Veya bir fatura oluşturuyorsanız, toplam için daha az sütun isteyebilirsiniz. İki veya daha fazla hücreden bir hücre yapmak için bunları birleştirin. Microsoft Excel, kullanıcıların elektronik tabloyu istedikleri gibi yapılandırmak için dosyaları seçip birleştirmesine olanak tanır.
 
 {{% alert color="primary" %}} 

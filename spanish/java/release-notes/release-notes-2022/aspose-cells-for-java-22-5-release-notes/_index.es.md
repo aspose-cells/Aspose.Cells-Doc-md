@@ -21,9 +21,9 @@ url: /es/java/aspose-cells-for-java-22-5-release-notes/
 |CELLSJAVA-44501| busque el siguiente número para el archivo duohangduolie.zip|
 |CELLSJAVA-44529|implementar la búsqueda de freezepane|
 |CELLSJAVA-44530|investigar el problema de setactivecell no funciona a veces|
-|CELLSJAVA-44534|Gráfico en el área de impresión no exportado en conversión de Excel a HTML|
+|CELLSJAVA-44534|Gráfico en área de impresión no exportado en Excel a conversión HTML|
 |CELLSJAVA-44539|El gráfico se desplaza a la derecha al convertir a html con área de impresión|
-|CELLSJAVA-44568|Los subtítulos de varias líneas se pierden excepto la primera línea en la conversión de HTML a XLS|
+|CELLSJAVA-44568|Los subtítulos de varias líneas se pierden excepto la primera línea en la conversión HTML a XLS|
 |CELLSJAVA-44512|Falta el gráfico al exportar el gráfico a svg en html|
 |CELLSJAVA-44556|Problema con la visualización de datos en la tabla de datos después de que el eje de coordenadas se establece en escala logarítmica: conversión de Excel a HTML/PDF|
 
@@ -49,5 +49,5 @@ Representa el tipo de advertencia es la limitación de Excel.
 
 ### **Añade el método ShapeGuideCollection.Add(string name, double val).**
 
-Añade una guía de forma.
+Añade una guía de formas.
 

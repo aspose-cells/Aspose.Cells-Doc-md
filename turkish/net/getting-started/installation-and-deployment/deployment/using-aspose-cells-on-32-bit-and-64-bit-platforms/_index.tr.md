@@ -12,7 +12,7 @@ Aspose.Cells, XCOPY dağıtımını kullanarak dağıtım sürecinizi basitleşt
 ## **dağıtım**
 Aspose.Cells, hem 32 bit hem de 64 bit ortamları destekler. Aspose.Cells for .NET bileşenini Aspose.Cells MSI yükleyicisini kullanarak yüklediğinizde, Aspose.Cells ${installation_Path} klasör(ler)indeki farklı klasörlere farklı DLL'ler eklenir. .NET Çerçevesinin belirli bir sürümüyle kullanmanız gereken derlemeleri hangi klasörün içerdiği tablodaki açıklamaya bakın.
 
-|**Dosya**|**Tanım**|
+|**Klasör**|**Açıklama**|
 |:- |:- |
 |net2.0|.NET Framework 2.0, 3.0, 3.5, 4.0 ve Mono ile kullanılacak derlemeleri içerir. Bunlar normalde hem 32 bit hem de 64 bit ortamlar için kullanmanız gereken derlemelerdir.|
 |net2.0_AuthenticodeSigned|Yukarıdakiyle aynı, ancak derlemeler Authenticode ile dijital olarak imzalanmıştır. İmzalı derlemeler, Authenticode olmadan olduğundan daha yavaş yüklenebilir|

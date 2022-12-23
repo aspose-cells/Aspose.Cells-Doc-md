@@ -12,11 +12,11 @@ url: /de/java/save-excel-into-pdf-with-standard-or-minimum-size/
 - [PdfOptimizationType.MINIMUM_SIZE](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#MINIMUM_SIZE)
 
 {{% /alert %}} 
-## **Speichern Sie Excel mit Microsoft Excel in PDF mit Standard- oder Mindestgröße**
-Der folgende Screenshot zeigt, wie Sie Excel mit Microsoft Excel in PDF mit Standard- oder Mindestgröße speichern.
+## **Speichern Sie Excel in PDF mit Standard- oder Mindestgröße mit Microsoft Excel**
+Der folgende Screenshot zeigt, wie Sie Excel in PDF mit Standard- oder Mindestgröße unter Verwendung von Microsoft Excel speichern.
 
 ![todo: Bild_alt_Text](save-excel-into-pdf-with-standard-or-minimum-size_1.png)
-## **Speichern Sie Excel in PDF mit Standard- oder Mindestgröße mit Aspose.Cells**
+## **Speichern Sie Excel in PDF mit Standard- oder Mindestgröße unter Verwendung von Aspose.Cells**
  Der folgende Beispielcode zeigt, wie Sie Excel in PDF mit Standard- oder Mindestgröße speichern können[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType)Eigentum.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SaveExcelToPDF-SaveExcelToPDF.java" >}}

@@ -27,7 +27,7 @@ So fügen Sie Berichtsparameter zu Berichten hinzu:
 
 ).
 
-1.  Auswählen**Parameter** aus dem Parameterbereich auf der linken Seite.
+1.  Wählen**Parameter** aus dem Parameterbereich auf der linken Seite.
  Alle Parameter sind im rechten Bereich aufgelistet.
 1. Wählen Sie einen Parameter aus, im Beispiel haben wir EmpID ausgewählt.
 1. Doppelklicken Sie auf den Parameter, damit der Ausdruck im Editor oben im Formular angezeigt wird.

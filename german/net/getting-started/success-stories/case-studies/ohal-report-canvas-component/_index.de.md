@@ -6,7 +6,7 @@ url: /de/net/ohal-report-canvas-component/
 ---
 {{% alert color="primary" %}}
 
-[PDF melden](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
+[Melden Sie sich unter PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
 **Verwendung von Aspose.Cells in der Report Canvas-Komponente**
 
@@ -26,7 +26,7 @@ Wir haben Aspose.Cells aufgrund seiner fast vollständigen Microsoft Excel-Expor
 
 Jedes Objekt im Berichtsbereich hat eine Funktion, der eine Instanz des Arbeitsblatts Aspose.Cells übergeben wird und die sich selbst dem Arbeitsblatt hinzufügt. Wenn der Benutzer einen Export anfordert, werden die Arbeitsmappe und die Arbeitsblätter initialisiert, und für jedes Objekt im Berichtsbereich wird diese Funktion aufgerufen.
 
-## **Vorteile**
+## **Leistungen**
 
 Aspose.Cells ermöglichte es uns, die Excel-Arbeitsmappe völlig unabhängig von Excel aufzubauen und die Arbeitsmappe dann in dem vom Benutzer gewählten Format zu speichern. Dies sparte Stunden beim Debuggen der Interaktion, wenn die Excel-Interop verwendet und verschiedene Routinen zum Speichern in verschiedenen Excel-Versionen implementiert wurden.
 

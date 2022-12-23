@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-22-8-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44811|Supporto per specificare i fogli da produrre durante l'esportazione in pdf/xps|
 |CELLSJAVA-44777|Esporta le formule in html solo in base all'opzione HtmlSaveOptions.Exportformula|
@@ -27,13 +27,13 @@ url: /it/java/aspose-cells-for-java-22-8-release-notes/
 |CELLSJAVA-44741|L'interruzione di riga non è corretta nell'output xlsx dopo aver impostato la stringa html nella cella|
 |CELLSJAVA-44776|Lo stile della riga dell'intestazione della tabella viene perso durante la copia del foglio|
 |CELLSJAVA-44789|Problema con la sostituzione della stringa di caratteri della casella di testo inserita nel foglio di calcolo di Excel|
-|CELLSJAVA-44792| Salvataggio infinito della cartella di lavoro in formato HTML (2892)|
+|CELLSJAVA-44792| Salvataggio infinito della cartella di lavoro nel formato HTML (2892)|
 |CELLSJAVA-44763|Eccezione "java.lang.IllegalArgumentException: impossibile analizzare il numero dell'argomento: 1:X8" durante il caricamento del file Excel utilizzando "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Errore durante il salvataggio in formato PDF: è richiesta un'indagine|
+|CELLSJAVA-44774|Errore durante il salvataggio come PDF - È richiesta un'indagine|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiungere il metodo FontSettingCollection.Replace().**
 

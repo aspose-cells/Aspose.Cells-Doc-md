@@ -18,13 +18,13 @@ Aspose.Cells for Java API sağlar[**Cells.convertStringToNumericValue()**](https
 
 **Giriş dosyası: metin dizeleri olarak girilen sayılar** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-text-numeric-data-to-number_1.png)
+![yapılacaklar:resim_alternatif_metin](convert-text-numeric-data-to-number_1.png)
 
 Bu dize numaraları, kullanılarak sayılara dönüştürüldü.[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()) aşağıdaki ekran görüntüsünde. Gördüğünüz gibi, artık sağa hizalanmış durumdalar.
 
 **Çıktı dosyası: dizeler sayılara dönüştürüldü** 
 
-![yapılacaklar:resim_alternatif_Metin](convert-text-numeric-data-to-number_2.png)
+![yapılacaklar:resim_alternatif_metin](convert-text-numeric-data-to-number_2.png)
 
 Aşağıdaki örnek kod, tüm dize sayısal verilerinin tüm çalışma sayfalarındaki gerçek sayılara nasıl dönüştürüleceğini gösterir.
 

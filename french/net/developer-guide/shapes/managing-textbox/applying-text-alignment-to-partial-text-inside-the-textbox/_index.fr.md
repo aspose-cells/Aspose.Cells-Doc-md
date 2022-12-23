@@ -13,7 +13,7 @@ L'exemple de code suivant applique l'alignement du texte à un TextBox.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.cs" >}}
 
-Vous pouvez également modifier l'alignement du texte d'une partie du texte à l'intérieur d'une forme TextBox avec le texte HTML approprié. L'exemple de code suivant applique l'alignement du texte au texte partiel à l'intérieur de la TextBox.
+Vous pouvez également modifier l'alignement de texte de certains textes à l'intérieur d'une forme TextBox avec le texte HTML approprié. L'exemple de code suivant applique l'alignement de texte à du texte partiel à l'intérieur de TextBox.
 
 [fichier source](SampleTextboxExcel2016.xlsx)
 

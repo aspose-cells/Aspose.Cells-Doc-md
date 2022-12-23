@@ -18,18 +18,18 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42627|No se pueden extraer imágenes Smart Art correctamente: conversión de forma a imagen (CELLSJAVA-42619)|Mejora|
 |CELLSJAVA-42677|Problema de interrupción al guardar el proceso del archivo XLSX|Mejora|
 |CELLSJAVA-42687|El hipervínculo no funciona cuando se hace referencia desde otra hoja|Mejora|
-|CELLSJAVA-42672|El documento PDF de salida es demasiado grande|Insecto|
+|CELLSJAVA-42672|El documento de salida PDF es demasiado grande|Insecto|
 |CELLSJAVA-42671|Problema de hipervínculos al ver el archivo de salida de Excel en la versión japonesa de MS Excel|Insecto|
 |CELLSJAVA-42667|Obteniendo '#NUM!' para una celda con función TIR|Insecto|
 |CELLSJAVA-42658|Los libros de trabajo con macros XL4 (XLSM) se dañan después de guardar|Insecto|
 |CELLSJAVA-42656|AlternativeText devuelve el valor del comentario Texto|Insecto|
-|CELLSJAVA-42635|HTML a XLS: estilo CSS ignorado|Insecto|
-|CELLSJAVA-41176|Alineación incorrecta al representar la hoja de cálculo en formato PDF|Insecto|
-|CELLSJAVA-42676|Los datos de la tabla se cambiaron a una fila y columna incorrectas al convertir de formato de archivo HTML a MS Excel|Insecto|
+|CELLSJAVA-42635|HTML a XLS - Estilo CSS ignorado|Insecto|
+|CELLSJAVA-41176|Alineación incorrecta al renderizar la hoja de cálculo al formato PDF|Insecto|
+|CELLSJAVA-42676|Los datos de la tabla se cambiaron a una fila y columna incorrectas al convertir de HTML al formato de archivo de MS Excel|Insecto|
 |CELLSJAVA-41670|La posición de la imagen del gráfico es incorrecta en Chrome y Firefox al convertir a HTML|Insecto|
-|CELLSJAVA-41245|El control de segmentación no se representa al convertir un archivo de Excel a un formato de archivo HTML|Insecto|
+|CELLSJAVA-41245|El control de segmentación no se representa al convertir un archivo de Excel al formato de archivo HTML|Insecto|
 |CELLSJAVA-42684|La línea vertical en el centro del gráfico no se dibuja correctamente en la imagen renderizada|Insecto|
-|CELLSJAVA-42682|El color degradado de las burbujas negativas no se aplica en la salida del PDF|Insecto|
+|CELLSJAVA-42682|El color degradado para burbujas negativas no se aplica en la salida PDF|Insecto|
 |CELLSJAVA-42681|El título de la categoría del gráfico no se muestra correctamente en la imagen|Insecto|
 |CELLSJAVA-42695|Se devolvió un estilo de borde incorrecto para la celda combinada|Insecto|
 |CELLSJAVA-42694|Leer marca de agua desde un archivo de Excel|Insecto|
@@ -38,8 +38,8 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-41485|Las macros del archivo ODS no se conservan en el formato de archivo ODS generado|Insecto|
 |CELLSJAVA-42715|Las fórmulas no se recuperan igual que en el archivo de Excel|Insecto|
 |CELLSJAVA-42711|El gráfico en PDF no se genera a partir de la plantilla de Excel|Insecto|
-|CELLSJAVA-42710|Duplicar el texto del elemento de la leyenda en el gráfico en la conversión de Excel a PDF|Insecto|
-|CELLSJAVA-42706|La salida en PDF no muestra la etiqueta del gráfico|Insecto|
+|CELLSJAVA-42710|Duplicar el texto del elemento de la leyenda en el gráfico en Excel a la conversión PDF|Insecto|
+|CELLSJAVA-42706|PDF la salida no muestra la etiqueta del gráfico|Insecto|
 |CELLSJAVA-42700|El gráfico de cascada no se representa correctamente después de cambiar los datos del gráfico|Insecto|
 |CELLSJAVA-42717|Cells.deleteRow funciona incorrectamente|Insecto|
 |CELLSJAVA-42716|Valor incorrecto recuperado para el estilo de borde|Insecto|
@@ -56,7 +56,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42655|Excepción: "Codificación no válida: nulo" al cargar un archivo XLS - II|Excepción|
 |CELLSJAVA-42675|NumberFormatException generado al cargar el archivo HTML en el libro de trabajo|Excepción|
 |CELLSJAVA-42689|Excepción NullPointerException generada al llamar a CalculateFormula|Excepción|
-|CELLSJAVA-42678|Excepción al representar la hoja de trabajo en formato de archivo PNG|Excepción|
+|CELLSJAVA-42678|Excepción al renderizar la hoja de trabajo al formato de archivo PNG|Excepción|
 |CELLSJAVA-42411|Error en Cell: E22-Fórmula no válida - excepción al abrir el archivo de MS Excel|Excepción|
 |CELLSJAVA-42691|NegativeArraySizeException al convertir XLSX a HTML|Excepción|
 
@@ -158,11 +158,11 @@ Obtiene el nombre de estilo de fuente estándar en inglés (regular, negrita, cu
 
 ### **Agrega la enumeración PdfCustomPropertiesExport**
 
-Especifica la forma en que CustomDocumentPropertyCollection se exporta a un archivo PDF.
+Especifica la forma en que CustomDocumentPropertyCollection se exporta al archivo PDF.
 
 ### **Agrega la propiedad PdfSaveOptions.CustomPropertiesExport**
 
-Obtiene o establece un valor que determina la forma en que CustomDocumentPropertyCollection se exporta a un archivo PDF. El valor predeterminado es Ninguno.
+Obtiene o establece un valor que determina la forma en que CustomDocumentPropertyCollection se exporta al archivo PDF. El valor predeterminado es Ninguno.
 
 ### **Agrega la clase XmlDataBinding**
 

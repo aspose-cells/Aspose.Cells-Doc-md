@@ -22,9 +22,9 @@ Se pueden agregar tres tipos de hipervínculo a una celda usando Aspose.Cells:
 
  Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de Excel ya sea usando el API o[hojas de calculo de diseñador](/cells/es/java/what-is-a-designer-spreadsheet/)(hojas de cálculo donde los hipervínculos se crean manualmente y se usa Aspose.Cells para importarlos a otras hojas de cálculo).
 
-Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La clase proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
+Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La clase proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
 ## **Agregar enlace a una URL**
- los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase contiene un[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) recopilación. Cada artículo en el[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección representa un[Hipervínculo](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) . Agregue hipervínculos a las URL llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. los[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))método toma los siguientes parámetros:
+ Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase contiene un[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) recopilación. Cada artículo en el[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección representa un[Hipervínculo](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) . Agregue hipervínculos a las URL llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Hyperlinks) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. Él[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))método toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -43,7 +43,7 @@ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.c
 
 
 ## **Agregar un enlace a un Cell en el mismo archivo**
- Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. los[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)El método ) funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
+ Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. Él[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\)El método ) funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -57,7 +57,7 @@ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.c
 
 
 ## **Agregar un enlace a un archivo externo**
- Es posible agregar hipervínculos a archivos de Excel externos llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. los[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))método toma los siguientes parámetros:
+ Es posible agregar hipervínculos a archivos de Excel externos llamando al[hipervínculos](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection) colección[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\) )método. Él[Agregar](https://reference.aspose.com/cells/java/com.aspose.cells/HyperlinkCollection#add\(int,%20int,%20int,%20int,%20java.lang.String\))método toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -69,7 +69,7 @@ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.c
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingLinkToExternalFile-AddingLinkToExternalFile.java" >}}
 
 ## **Temas avanzados**
-- [Agregar hipervínculos de imágenes](/cells/es/java/add-image-hyperlinks/)
+- [Agregar hipervínculos de imagen](/cells/es/java/add-image-hyperlinks/)
 - [Detectar tipo de hipervínculo](/cells/es/java/detect-hyperlink-type/)
 - [Edición de hipervínculos de la hoja de trabajo](/cells/es/java/editing-hyperlinks-of-worksheet/)
 - [Obtener hipervínculos en rango](/cells/es/java/get-hyperlinks-in-range/)

@@ -37,7 +37,7 @@ keywords: insert comments, insert notes
 1. 找到并选择图片。
 1. 点击**好的**直到所有对话框都关闭。
 
-Aspose.Cells也提供了这个功能。下面是一个代码示例，它从头开始创建一个 XLSX 文件，将注释添加到单元格“A1”，并将图片集作为其背景。
+Aspose.Cells也提供了这个功能。下面是一个代码示例，它从头开始创建一个 XLSX 文件，向单元格“A1”添加注释，并将图片集作为其背景。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "AddImageToComment-1.java" >}}
 

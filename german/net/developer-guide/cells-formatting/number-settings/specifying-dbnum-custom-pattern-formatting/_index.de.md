@@ -10,6 +10,6 @@ Aspose.Cells unterstützt die*DBNum*benutzerdefinierte Musterformatierung. Wenn 
 
 ## **Beispielcode**
 
- Der folgende Beispielcode veranschaulicht die Angabe*DBNum*benutzerdefinierte Musterformatierung. Bitte überprüfen Sie es[PDF ausgeben](43352081.pdf) für weitere Hilfe.
+ Der folgende Beispielcode veranschaulicht die Angabe*DBNum*benutzerdefinierte Musterformatierung. Bitte überprüfen Sie es[Ausgang PDF](43352081.pdf) für weitere Hilfe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

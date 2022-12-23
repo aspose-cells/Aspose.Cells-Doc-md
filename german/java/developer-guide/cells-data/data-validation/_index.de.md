@@ -14,7 +14,7 @@ Microsoft Excel bietet einige gute Funktionen zum automatischen Filtern oder Val
 ## **Datenvalidierungstypen und -ausführung**
 Microsoft Excel unterstützt eine Reihe verschiedener Arten der Datenvalidierung. Jeder Typ wird verwendet, um zu steuern, welcher Datentyp in eine Zelle oder einen Zellbereich eingegeben wird. Unten veranschaulichen Code-Snippets, wie dies validiert werden kann:
 
-- [Zahlen sind ganz](/cells/de/java/data-validation/)das heißt, dass sie keinen Dezimalteil haben.
+- [Numbers sind ganz](/cells/de/java/data-validation/)das heißt, dass sie keinen Dezimalteil haben.
 - [Dezimalzahlen folgen der richtigen Struktur](/cells/de/java/data-validation/). Das Codebeispiel definiert, dass ein Zellbereich zwei Dezimalstellen haben sollte.
 - [Werte sind auf eine Werteliste beschränkt](/cells/de/java/data-validation/). Die Listenvalidierung definiert eine separate Liste von Werten, die auf eine Zelle oder einen Zellbereich angewendet werden können.
 - [Daten fallen in einen bestimmten Bereich](/cells/de/java/data-validation/).
@@ -40,7 +40,7 @@ Die Datenvalidierung ist eine leistungsstarke Funktion zur Validierung der in Ar
 - [Formel 1](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Formula1): stellt den Wert oder Ausdruck dar, der dem ersten Teil der Datenvalidierung zugeordnet ist.
 - [Formel2](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Formula2): stellt den Wert oder Ausdruck dar, der dem zweiten Teil der Datenvalidierung zugeordnet ist.
 
-Wenn der[Validierung](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)Objekteigenschaften konfiguriert wurden, können Entwickler die verwenden[Zellbereich](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)-Struktur zum Speichern von Informationen über den Zellbereich, der mithilfe der erstellten Validierung validiert wird.
+Wenn die[Validierung](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)Objekteigenschaften konfiguriert wurden, können Entwickler die verwenden[Zellbereich](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)-Struktur zum Speichern von Informationen über den Zellbereich, der mithilfe der erstellten Validierung validiert wird.
 #### **Arten der Datenvalidierung**
 Die Datenvalidierung ermöglicht es Ihnen, Geschäftsregeln in jede Zelle einzubauen, sodass falsche Eingaben zu Fehlermeldungen führen. Geschäftsregeln sind die Richtlinien und Verfahren, die die Funktionsweise eines Unternehmens regeln. Aspose.Cells unterstützt alle wichtigen Arten der Datenvalidierung.
 
@@ -73,7 +73,7 @@ Bei dieser Art der Validierung kann der Benutzer Dezimalzahlen in die validierte
 #### **Programmierbeispiel: Validierung von Listendaten**
 Diese Art der Validierung ermöglicht es dem Benutzer, Werte aus einer Dropdown-Liste einzugeben. Es stellt eine Liste bereit: eine Reihe von Zeilen, die Daten enthalten. Benutzer können nur Werte aus der Liste auswählen. Der Validierungsbereich ist der Zellbereich A1:A5 im ersten Arbeitsblatt.
 
-Wichtig ist hier, dass Sie die einstellen[Validierung.setInCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) Eigentum zu**Stimmt**.
+Wichtig ist hier, dass Sie die einstellen[Validierung.setInCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) Eigentum zu**wahr**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ListDataValidation-ListDataValidation.java" >}}
 

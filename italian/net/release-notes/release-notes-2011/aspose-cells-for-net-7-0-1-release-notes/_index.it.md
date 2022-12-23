@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Nuove caratteristiche
 
-29512 Aggiungere un nuovo metodo in overload: Cell.SetStyle(Style style, bool explicitFlag)
+ 29512 Aggiungere un nuovo metodo in overload: Cell.SetStyle(Style style, bool explicitFlag)
 
  Miglioramenti
 
@@ -48,13 +48,13 @@ url: /it/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30303 Problema nella copia dei fogli di lavoro
 
- 30035 MS Excel (Formato->AutoFit Row Height) VS Aspose.Cells' Funzione AutoFitRow
+30035 MS Excel (Formato->AutoFit Row Height) VS Aspose.Cells' Funzione AutoFitRow
 
  29841 Problema con il grafico a torta
 
  30154 Problema con le etichette dei dati del grafico
 
-30153 Le macro sono disabilitate nel file XLSM di output
+ 30153 Le macro sono disabilitate nel file di output XLSM
 
  30332 Problema con la modifica della scala dell'asse del grafico
 

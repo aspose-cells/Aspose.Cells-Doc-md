@@ -101,9 +101,9 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **Se agregó el método ICells::LinkToXmlMap**
 El método LinkToXmlMap se ha agregado a la clase ICells, que es útil para vincular un mapa XML.
 ### **Agregado método ICells::ImportCSV**
-El método ImportCSV se ha agregado a la clase ICells, que es útil para importar un archivo CSV a las celdas de una hoja de cálculo.
+El método ImportCSV se ha agregado a la clase ICells, que es útil para importar un archivo CSV en las celdas de una hoja de trabajo.
 ### **Se agregó el método ICells::ImportTwoDimensionArray**
-El método GetIProtectedRangeCollection se ha agregado a la clase ICells, que es útil para importar una matriz bidimensional de datos en una hoja de trabajo.
+El método GetIProtectedRangeCollection se ha agregado a la clase ICells, que es útil para importar una matriz bidimensional de datos en una hoja de cálculo.
 ### **Se agregó el método IWorksheet::GetIProtectedRangeCollection**
 El método GetIProtectedRangeCollection se agregó a la clase IWorksheet, que es útil para recuperar la colección de objetos IProtectedRange.
 ### **Se agregó el método IWorksheet::GetIProtectedRangeCollection**

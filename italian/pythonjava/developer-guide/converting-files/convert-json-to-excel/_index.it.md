@@ -1,5 +1,5 @@
 ﻿---
-title: Converti JSON in Excel
+title: Converti-JSON-in-Excel
 type: docs
 weight: 300
 url: /it/python-java/convert-json-to-excel/
@@ -12,8 +12,8 @@ Aspose.Cells for Python via Java supporta la conversione di un file Json (JavaSc
 
 {{% /alert %}}
 
-## **Converti JSON in cartella di lavoro Excel**
- Non c'è bisogno di chiedersi come convertire JSON in file Excel, perché la libreria Aspose.Cells for Python via Java ha la decisione migliore. L'API Aspose.Cells for Python via Java fornisce supporto per la conversione del formato JSON in fogli di calcolo. Puoi usare[**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions) class per specificare impostazioni aggiuntive per l'importazione di JSON nella cartella di lavoro.
+## **Converti JSON in cartella di lavoro di Excel**
+ Non c'è bisogno di chiedersi come convertire JSON in file Excel, perché la libreria Aspose.Cells for Python via Java ha la decisione migliore. Il Aspose.Cells for Python via Java API fornisce supporto per la conversione del formato JSON in fogli di calcolo. Puoi usare[**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions) class per specificare impostazioni aggiuntive per l'importazione di JSON nella cartella di lavoro.
 
 L'esempio di codice seguente illustra l'importazione di JSON nella cartella di lavoro di Excel. Si prega di consultare il codice per convertire[file sorgente](sample.json) al file generato dal codice per riferimento.
 

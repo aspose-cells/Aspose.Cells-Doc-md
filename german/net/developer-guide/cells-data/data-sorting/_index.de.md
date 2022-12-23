@@ -14,7 +14,7 @@ Die Datensortierung ist eine der vielen nützlichen Funktionen von Microsoft Exc
 
 So sortieren Sie Daten in Microsoft Excel:
 
-1.  Auswählen**Daten** von dem**Sortieren** Speisekarte. Der Sortierdialog wird angezeigt.
+1.  Wählen**Daten** von dem**Sortieren** Speisekarte. Der Sortierdialog wird angezeigt.
 1. Wählen Sie eine Sortieroption aus.
 
 Im Allgemeinen wird die Sortierung in einer Liste durchgeführt, die als zusammenhängende Gruppe von Daten definiert ist, in der die Daten in Spalten angezeigt werden.

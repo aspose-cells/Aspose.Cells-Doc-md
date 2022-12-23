@@ -18,7 +18,7 @@ url: /it/cpp/find-or-search-data/
  Il codice di esempio seguente illustra l'utilizzo dei metodi precedenti utilizzando il[file excel di esempio](21266434.xlsx) come mostrato in questo screenshot.
 
 ![cose da fare:immagine_alt_testo](find-or-search-data_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData.cpp" >}}
 ## **Uscita console**
  Questo è l'output della console del codice di esempio precedente quando eseguito con il file given[file excel di esempio](21266434.xlsx).

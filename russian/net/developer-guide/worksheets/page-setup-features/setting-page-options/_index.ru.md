@@ -20,7 +20,7 @@ url: /ru/net/setting-page-options/
 
 ### **Ориентация страницы**
 
- Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) имущество.[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) свойство принимает одно из предопределенных значений в[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)перечисление, приведенное ниже.
+Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) имущество.[**Ориентация**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) свойство принимает одно из предопределенных значений в[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)перечисление, приведенное ниже.
 
 |**Типы ориентации страницы**|**Описание**|
 |:- |:- |
@@ -37,7 +37,7 @@ url: /ru/net/setting-page-options/
 
 ### **Параметры FitToPages**
 
- Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) а также[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)характеристики. Эти свойства также используются для масштабирования рабочих листов.
+ Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**FitToPagesTall**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) и[**FitToPagesWide**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)характеристики. Эти свойства также используются для масштабирования рабочих листов.
 
 {{% alert color="primary" %}}
 
@@ -76,7 +76,7 @@ url: /ru/net/setting-page-options/
 |БумагаКонверт11|Конверт №11 (4-1/2 дюйма x 10-3/8 дюйма)|
 |БумагаКонверт12|Конверт №12 (4-1/2 дюйма x 11 дюймов)|
 |БумагаКонверт14|Конверт №14 (5 дюймов x 11-1/2 дюйма)|
-|БумагаCЛист|Лист размера C|
+|БумагаCЛист|Лист размера С|
 |БумагаDЛист|Лист размера D|
 |БумагаEЛист|лист размера Е|
 |PaperEnvelopeDL|Конверт DL (110 мм x 220 мм)|
@@ -178,7 +178,7 @@ url: /ru/net/setting-page-options/
 
 ### **Качество печати**
 
- Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)имущество. Единицей измерения качества печати является число точек на дюйм (DPI).
+ Установите качество печати рабочих листов, которые будут напечатаны с помощью[**Настройка страницы**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) учебный класс'[**Качество печати**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)имущество. Единицей измерения качества печати является количество точек на дюйм (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 

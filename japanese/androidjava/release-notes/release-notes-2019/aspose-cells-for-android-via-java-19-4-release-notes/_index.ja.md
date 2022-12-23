@@ -16,21 +16,21 @@ url: /ja/java/aspose-cells-for-android-via-java-19-4-release-notes/
 |CELLSJAVA-42853|XLSX を HTML に変換する際のパフォーマンスの問題|強化|
 |CELLSANDROID-88|ワークブックから PDF への変換中に画像が失われる|バグ|
 |CELLSJAVA-42852|両方の軸のラベルは表示されません|バグ|
-|CELLSJAVA-42856|Excel から HTML への問題|バグ|
+|CELLSJAVA-42856|HTML問題へのエクセル|バグ|
 |CELLSJAVA-42872|シートの画像、右と下の行が欠落しています|バグ|
 |CELLSJAVA-42873|事前調整されたシートには、いくつかのセルの背景とテキストが欠落しており、非表示になっています。|バグ|
-|CELLSJAVA-42874|ファイルを HTML にエクスポートする際の列の損失|バグ|
+|CELLSJAVA-42874|ファイルを HTML にエクスポートすると列が失われる|バグ|
 |CELLSJAVA-42875|幅が間違っていて表示が崩れている|バグ|
 |CELLSJAVA-42878|計算式の結果が正しくない|バグ|
 |CELLSJAVA-40419|Excel から PDF へのエクスポート中にタグ付き PDF を作成できない|バグ|
-|CELLSJAVA-40570|異なるサイズのページの PDF および JPG への誤った変換|バグ|
+|CELLSJAVA-40570|異なるサイズのページの PDF および JPG への間違った変換|バグ|
 |CELLSJAVA-42833|ワークブックの複数のシートに同じ PDF ファイルを埋め込む際の問題|バグ|
 |CELLSJAVA-42858|Picture:FitToCell オプションでスマート マーカーを使用して結合セルに画像を追加する際の問題|バグ|
 |CELLSJAVA-42862|CSV インポート後に数式でシート名が変更される|バグ|
-|CELLSJAVA-42865|ODS ファイルのセルから読み取った時刻が正しくありません|バグ|
+|CELLSJAVA-42865|ODS ファイルのセルから読み取った時間が間違っています|バグ|
 |CELLSJAVA-42879|Aspose.Cells で保存すると Excel ファイルが破損する|バグ|
 |CELLSJAVA-42860|ODS ファイル形式のロード時の java.lang.NullPointerException|例外|
-|CELLSJAVA-42871|java.lang.Exception: XLSX から PDF への変換中にバッキング ストリームのクローンがサポートされていません|例外|
+|CELLSJAVA-42871|java.lang.Exception: XLSX から PDF への変換中に、バッキングされたストリームのクローンがサポートされていません|例外|
 ## **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for Android via Java に対して行われた後方互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、それを提起してください。 Aspose.Cells サポート フォーラムで。
 ### **Markdown ドキュメントを保存するための API を追加: SaveFormat.Markdown、FileFormatType.Markdown、MarkdownSaveOptions**
@@ -66,4 +66,4 @@ WebExtension の形状を表します。
 ### **CommentCollection.AddThreadedComment() および CommentCollection.GetThreadedComments() メソッドを追加します。**
 スレッド化されたコメントを追加および取得します。
 ### **Chart.SubTitle プロパティを追加します。**
-チャートのサブタイトルを取得します。 ODS 形式ファイルのみ。
+チャートのサブタイトルを取得します。 ODS形式のファイルのみ。

@@ -5,7 +5,7 @@ weight: 20
 url: /fr/java/unprotect-a-worksheet-in-ruby/
 ---
 ## **Aspose.Cells - Déprotéger une feuille de calcul**
- Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , appel**unprotect_worksheet** méthode de**protection** module.
+ Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**unprotect_worksheet** méthode de**protection** module.
 
 **Code rubis**
 

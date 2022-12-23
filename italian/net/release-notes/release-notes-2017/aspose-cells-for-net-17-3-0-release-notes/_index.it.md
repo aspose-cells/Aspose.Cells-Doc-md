@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-17-3-0-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45037|Supporta etichette di totale personalizzato e totale complessivo per le tabelle pivot|Nuova caratteristica|
 |CELLSNET-45156|Sincronizza il paging delle due griglie (Aspose.Cells.GridWeb)|Nuova caratteristica|
@@ -27,40 +27,40 @@ url: /it/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45135|Le immagini si sovrappongono durante l'importazione di HTML come XLSX|Insetto|
 |CELLSNET-45134|Le larghezze delle colonne vengono perse durante l'importazione di HTML come XLSX|Insetto|
 |CELLSNET-45133|Lo stile del contenuto viene perso durante l'importazione di HTML come XLSX|Insetto|
-|CELLSNET-45132|WrapText abilitato in HTML viene perso quando viene salvato in formato XLSX|Insetto|
+|CELLSNET-45132|WrapText abilitato in HTML viene perso se salvato nel formato XLSX|Insetto|
 |CELLSNET-45127|Lo stile e la dimensione del carattere vengono modificati dopo l'importazione di HTML come XLSX|Insetto|
 |CELLSNET-45115|L'aggiornamento della tabella pivot dopo l'aggiunta di alcuni dati genera un file Excel corrotto|Insetto|
 |CELLSNET-45109|Errore nell'aggiornamento della tabella pivot raggruppata per colonna Data|Insetto|
 |CELLSNET-45081|La funzione di unione delle etichette della tabella pivot non funziona|Insetto|
-|CELLSNET-45076|L'allineamento non funziona e il testo esce dalla cella nella conversione da Excel a HTML|Insetto|
-|CELLSNET-45057|La conversione di HTML in XLSX non è corretta|Insetto|
-|CELLSNET-45040|Alcuni elementi del campo pivot vengono visualizzati come valori di data anziché come numeri|Insetto|
+|CELLSNET-45076|L'allineamento non funziona e il testo esce dalla cella in Excel alla conversione HTML|Insetto|
+|CELLSNET-45057|La conversione da HTML a XLSX non è corretta|Insetto|
+|CELLSNET-45040|Alcuni elementi del campo pivot vengono visualizzati come valori di data invece di Numbers|Insetto|
 |CELLSNET-40265|Problema con la cultura dei file di input|Insetto|
 |CELLSNET-45142|Problema con la funzione CERCA.VERT quando si utilizza un intervallo esterno|Insetto|
 |CELLSNET-45150|Impossibile espandere o comprimere le ultime righe del foglio di lavoro|Insetto|
 |CELLSNET-45139|Il paging non funziona con due GridWeb su una pagina|Insetto|
 |CELLSNET-45137|Le righe o le colonne raggruppate presentano problemi in GridWeb quando viene eseguito su Internet Explorer 11|Insetto|
 |CELLSNET-45203|I caratteri si sovrappongono durante il rendering di un file Excel in PDF|Insetto|
-|CELLSNET-45196|La stampa è confusa nell'XPS esportato|Insetto|
+|CELLSNET-45196|La stampa è confusa nell'export XPS|Insetto|
 |CELLSNET-45187|I tag devono essere in ordine crescente secondo la specifica TrueType|Insetto|
 |CELLSNET-45169|Avviso: la dimensione massima per la regione è 262144 byte, in SheetRender.ToImage su Mono|Insetto|
 |CELLSNET-45167|SheetRender.ToImage esegue il rendering dei contenuti confusi e incompleti su Mono|Insetto|
-|CELLSNET-45166|SheetRender.ToImage esegue il rendering solo dell'intestazione e del piè di pagina su Mono|Insetto|
-|CELLSNET-43732|Il rendering in EMF e l'incollaggio in Word provoca la sovrapposizione del testo nel PDF risultante|Insetto|
+|CELLSNET-45166|SheetRender.ToImage esegue il rendering solo dell'intestazione e del piè di pagina della pagina in Mono|Insetto|
+|CELLSNET-43732|Il rendering in EMF e l'incollaggio in Word provoca la sovrapposizione del testo nel risultante PDF|Insetto|
 |CELLSNET-45186|Grafico ad area non visualizzato nell'esportazione PDF|Insetto|
 |CELLSNET-45178|Le etichette degli assi vengono ritagliate durante il rendering del grafico nell'immagine|Insetto|
 |CELLSNET-45177|Le etichette degli assi mancano durante il rendering del grafico nell'immagine - II|Insetto|
-|CELLSNET-45151|I grafici perdono tutta la formattazione durante il rendering del foglio di calcolo in PDF|Insetto|
-|CELLSNET-45147|Il grafico non è presente durante il rendering del foglio di calcolo in PDF|Insetto|
+|CELLSNET-45151|grafici perdono tutta la formattazione durante il rendering del foglio di calcolo su PDF|Insetto|
+|CELLSNET-45147|Il grafico non è presente durante il rendering del foglio di calcolo su PDF|Insetto|
 |CELLSNET-44998|Le etichette dei dati del grafico cambiano dopo la conversione del foglio di calcolo in PDF|Insetto|
-|CELLSNET-44984|La linea di tendenza nel secondo diagramma non viene visualizzata correttamente nel PDF di output|Insetto|
-|CELLSNET-41539|La grafica o l'immagine con un'ellisse verde viene riprodotta in modo errato attorno al grafico nel PDF|Insetto|
+|CELLSNET-44984|La linea di tendenza nel secondo diagramma non viene visualizzata correttamente nell'output PDF|Insetto|
+|CELLSNET-41539|La grafica o l'immagine di un'ellisse verde è resa erroneamente attorno al grafico in PDF|Insetto|
 |CELLSNET-45197|Range.MoveTo non sposta la convalida dei dati e la formattazione condizionale|Insetto|
 |CELLSNET-45183|L'attributo "Bloccato" del controllo ActiveX (ComboBox) non viene modificato|Insetto|
 |CELLSNET-45179|L'impostazione di CodeName sul file XLSX non funziona correttamente|Insetti|
 |CELLSNET-45175|La formattazione delle immagini non funziona per i file XLSX|Insetto|
 |CELLSNET-45174|L'intervallo Print_Area si è rotto dopo DeleteRange|Insetto|
-|CELLSNET-45173|Il file XLSX è danneggiato dopo il salvataggio|Insetto|
+|CELLSNET-45173|XLSX il file è danneggiato dopo il salvataggio|Insetto|
 |CELLSNET-45171|Lo spostamento dell'intervallo fa sì che gli intervalli interni si riducano essendo lunghi una cella|Insetto|
 |CELLSNET-45162|Il grafico non viene calcolato/aggiornato correttamente dopo l'eliminazione di un intervallo|Insetto|
 |CELLSNET-45155|Cells.InsertColumns/DeleteColumns causa "#REF" per ListObject/Table|Insetto|
@@ -69,11 +69,11 @@ url: /it/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45060|Le impostazioni dei caratteri del pulsante sono cambiate dopo una semplice operazione di caricamento e salvataggio|Insetto|
 |CELLSNET-43722|Errore file: i dati potrebbero essere stati persi, generati da Excel durante l'apertura di XLS|Insetto|
 |CELLSNET-45190|Si è verificata un'eccezione durante il calcolo della formula GIORNO LAVORATIVO|Eccezione|
-|CELLSNET-45199|Da Excel a PDF - Eccezione indice fuori dall'array|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+|CELLSNET-45199|Excel a PDF - Eccezione indice fuori matrice|Eccezione|
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Personalizza le impostazioni di globalizzazione di una tabella pivot**
-Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle proprie applicazioni .NET, indipendentemente dal linguaggio di testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
+Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono personalizzare le impostazioni di globalizzazione di una tabella pivot in un file Excel. Possono modificare il testo del totale pivot, del totale parziale, del totale complessivo, di tutti gli elementi, di più elementi, delle etichette di colonna, delle etichette di riga e dei valori vuoti secondo i requisiti. Gli sviluppatori possono incorporare questa funzionalità nelle loro applicazioni .NET, indipendentemente dalla lingua del testo di Excel. Può essere arabo, hindi, polacco, ecc. Tutti i nuovi metodi supportati sono elencati di seguito:
 
 1. **Aggiunge il metodo GlobalizationSettings.GetPivotTotalName()** - Ottiene il nome dell'etichetta "Totale" nella tabella pivot. Gli sviluppatori possono eseguire l'override di questo metodo quando la tabella pivot contiene due o più campi pivot nell'area dati.
 1. **Aggiunge il metodo GlobalizationSettings.GetPivotGrandTotalName()** - Ottiene il nome dell'etichetta "Totale complessivo" nella tabella pivot.
@@ -84,7 +84,7 @@ Utilizzando la recente versione 17.3.0 o successiva, gli sviluppatori possono pe
 1. **Aggiunge il metodo GlobalizationSettings.GetEmptyDataName()** - Ottiene il nome dell'etichetta "(vuoto)" nella tabella pivot.
 1. **Aggiunge il metodo GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType)** - Ottiene il nome del tipo "PivotFieldSubtotalType" nella tabella pivot.
 
-Questo esempio di codice illustra come personalizzare le impostazioni di globalizzazione di una tabella pivot. Crea una classe CustomPivotTableGlobalizationSettings derivata da una classe base GlobalizationSettings ed esegue l'override di tutti i relativi metodi necessari. Questi metodi restituiscono il testo personalizzato per Totale pivot, Totale parziale, Totale complessivo, Tutti gli elementi, Elementi multipli, Etichette colonna, Etichette riga, Valori vuoti. Quindi assegna l'oggetto di questa classe alla proprietà Workbook.GlobalizationSettings. Il codice carica il file excel di origine che contiene la tabella pivot, aggiorna e calcola i suoi dati e lo salva come file PDF di output. Gli sviluppatori possono anche salvare la cartella di lavoro in qualsiasi formato supportato.
+Questo esempio di codice illustra come personalizzare le impostazioni di globalizzazione di una tabella pivot. Crea una classe CustomPivotTableGlobalizationSettings derivata da una classe base GlobalizationSettings ed esegue l'override di tutti i relativi metodi necessari. Questi metodi restituiscono il testo personalizzato per Totale pivot, Totale parziale, Totale complessivo, Tutti gli elementi, Elementi multipli, Etichette colonna, Etichette riga, Valori vuoti. Quindi assegna l'oggetto di questa classe alla proprietà Workbook.GlobalizationSettings. Il codice carica il file excel di origine che contiene la tabella pivot, aggiorna e calcola i suoi dati e lo salva come file di output PDF. Gli sviluppatori possono anche salvare la cartella di lavoro in qualsiasi formato supportato.
 
 **.NET, C#**
 

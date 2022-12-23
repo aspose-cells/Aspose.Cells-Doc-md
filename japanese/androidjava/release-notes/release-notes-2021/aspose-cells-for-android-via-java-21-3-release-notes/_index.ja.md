@@ -37,9 +37,9 @@ url: /ja/java/aspose-cells-for-android-via-java-21-3-release-notes/
 |CELLSJAVA-43384|PDF にレンダリングしてグラフを印刷するときの一部のラベルのパーセンテージの問題|
 |CELLSJAVA-43402|Excel ファイルから正確なチャート画像を生成する|
 |CELLSJAVA-43408|グラフの上部が切れて斜線が上がる|
-|CELLSJAVA-43379|ワークブックを HTML として保存中に発生した例外|
-|CELLSJAVA-43376|例外 "java.lang.ClassCastException: オーバーフロー in int からバイトへの変換。int 値: 144" XLSX ファイルのロード時の|
-|CELLSJAVA-43387|単一シートを HTML にエクスポートすると例外が発生する|
+|CELLSJAVA-43379|ワークブックを HTML として保存中に例外が発生しました|
+|CELLSJAVA-43376|XLSX ファイルのロード時の例外「java.lang.ClassCastException: オーバーフロー in int からバイトへの変換。int 値: 144」|
+|CELLSJAVA-43387|1 つのシートを HTML にエクスポートすると例外が発生する|
 |CELLSJAVA-43412|xlsx から html への変換での CellsException|
 
 ## **Public API および下位互換性のない変更**

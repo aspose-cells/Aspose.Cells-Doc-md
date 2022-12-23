@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /tr/java/inserting-and-deleting-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Sıfırdan yeni bir çalışma sayfası oluştururken veya mevcut bir çalışma sayfası üzerinde çalışırken, daha fazla veriyi barındırmak için fazladan satır veya sütun eklememiz gerekebilir. Tersine, çalışma sayfasında belirtilen konumlardaki satırları veya sütunları da silmemiz gerekebilir.
 
 Bu gereklilikleri yerine getirmek için Aspose.Cells, aşağıda tartışılan çok basit bir sınıflar ve yöntemler seti sağlar.
@@ -33,7 +33,7 @@ Satır veya sütun eklendiğinde çalışma sayfasındaki içerik aşağı veya 
 Biçimlendirme seçenekleriyle bir satır eklemek için[EkleSatırlar](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) aşırı yükleme[Ekleme Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)parametre olarak. Yı kur[Kopya BiçimiTürü](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)mülkiyet[Ekleme Seçenekleri](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)ile sınıf[Kopya BiçimiTürü](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Numaralandırma. bu[Kopya BiçimiTürü](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Numaralandırmanın aşağıda listelendiği gibi üç üyesi vardır.
 
 - [AYNI_OLARAK_ÜSTÜNDE](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)Satırı yukarıdaki satırla aynı şekilde biçimlendirir.
-- [AYNI_OLARAK_AŞAĞIDA](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Satırı aşağıdaki satırla aynı şekilde biçimlendirir.
+- [AYNI_OLARAK_ALTINDA](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Satırı aşağıdaki satırla aynı şekilde biçimlendirir.
 - [AÇIK](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Biçimlendirmeyi temizler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}

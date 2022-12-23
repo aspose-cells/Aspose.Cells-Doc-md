@@ -15,13 +15,13 @@ Lorsque vous travaillez avec des feuilles de calcul et que vous ajoutez des donn
 
 ### **Réglage de la hauteur de rangée**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection qui représente toutes les cellules de la feuille de calcul.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection qui représente toutes les cellules de la feuille de calcul.
 
- La[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certains d'entre eux sont discutés ci-dessous plus en détail.
+ Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul. Certains d'entre eux sont discutés ci-dessous plus en détail.
 
 ### **Définition de la hauteur d'une ligne**
 
- Il est possible de définir la hauteur d'une seule ligne en appelant le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**Définir la hauteur de ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) méthode. La[**Définir la hauteur de ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)prend les paramètres suivants comme suit :
+ Il est possible de définir la hauteur d'une seule ligne en appelant le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**Définir la hauteur de ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) méthode. Le[**Définir la hauteur de ligne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)prend les paramètres suivants comme suit :
 
 - **Indice de ligne**, l'index de la ligne dont vous modifiez la hauteur.
 - **Hauteur de ligne**, la hauteur de ligne à appliquer sur la ligne.
@@ -40,7 +40,7 @@ Lorsque vous travaillez avec des feuilles de calcul et que vous ajoutez des donn
 
 ### **Définition de la largeur d'une colonne**
 
- Définissez la largeur d'une colonne en appelant la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**DéfinirLargeurColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) méthode. La[**DéfinirLargeurColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)méthode prend les paramètres suivants :
+ Définissez la largeur d'une colonne en appelant la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**DéfinirLargeurColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) méthode. Le[**DéfinirLargeurColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)méthode prend les paramètres suivants :
 
 - **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
 - **Largeur de colonne**, la largeur de colonne souhaitée.
@@ -49,7 +49,7 @@ Lorsque vous travaillez avec des feuilles de calcul et que vous ajoutez des donn
 
 ### **Définition de la largeur de colonne en pixels**
 
-Définissez la largeur d'une colonne en appelant la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)de la collection[**DéfinirLargeurColonnePixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)méthode. La[**DéfinirLargeurColonnePixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)méthode prend les paramètres suivants :
+Définissez la largeur d'une colonne en appelant la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)de la collection[**DéfinirLargeurColonnePixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)méthode. Le[**DéfinirLargeurColonnePixel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)méthode prend les paramètres suivants :
 
 - **Indice de colonne**, l'index de la colonne dont vous modifiez la largeur.
 - **Largeur de colonne**la largeur de colonne souhaitée en pixels.
@@ -58,7 +58,7 @@ Définissez la largeur d'une colonne en appelant la[**Cells**](https://reference
 
 ### **Définition de la largeur de toutes les colonnes dans une feuille de calcul**
 
- Pour définir la même largeur de colonne pour toutes les colonnes de la feuille de calcul, utilisez la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**Largeur standard**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)propriété.
+ Pour définir la même largeur de colonne pour toutes les colonnes de la feuille de calcul, utilisez la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) de la collection[**Largeur standard**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardwidth)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingWidthOfAllColumns-1.cs" >}}
 

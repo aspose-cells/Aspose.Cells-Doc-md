@@ -25,7 +25,7 @@ Aspose.Cells for .NET v を発表させていただきます。
 - スマート マーカーのデータ ソースとして ICustomTypeDeciptor を含める
 - Chart to Image 機能の外部リンク ソース データがサポートされています
 - xls ファイルの MS Excel 2007 外部ページ設定オプションがサポートされています
-- HTML コンテンツをセルの値またはコメントのメモとして指定します
+- セルの値またはコメントのメモとして HTML コンテンツを指定します
 - 112 の修正とその他の機能強化。
 
  (注: Aspose.Cells.Charts クラスは Aspose.Cells.ChartCollection クラスに名前が変更されました。)
@@ -42,7 +42,7 @@ Aspose.Cells for .NET v を発表させていただきます。
  Aspose.Cells.GridDesktop の変更点:
 
 - Format Cellsダイアログボックスで「MM/DD/YYYY」と「M/D/YYYY」の日付フォーマットを設定
-- CSVファイル形式をインポート
+- CSV ファイル形式をインポートします
 - 数式をサポート: LOOKUP、MATCH
 - 3 つの修正とその他の機能強化。
 

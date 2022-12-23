@@ -6,7 +6,7 @@ url: /ar/net/print-comments-while-saving-to-pdf/
 ---
 {{% alert color="primary" %}}
 
-Microsoft يسمح لك برنامج Excel بطباعة التعليقات أثناء الطباعة أو الحفظ بتنسيق PDF باستخدام الخيارات التالية
+يسمح لك Microsoft Excel بطباعة التعليقات أثناء الطباعة أو الحفظ بتنسيق PDF باستخدام الخيارات التالية
 
 - لا أحد
 - في نهاية الورقة

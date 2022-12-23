@@ -15,27 +15,27 @@ url: /zh/java/aspose-cells-for-android-via-java-17-12-release-notes/
 |CELLSJAVA-42423|取消 Workbook.calculateFormula 方法的长时间运行计算|新功能|
 |CELLSJAVA-42414|获取 MS Excel 工作表的 SheetId 字段|新功能|
 |CELLSJAVA-42433|获取所需页面图像所需的 ImageOrPrintOptions.PageIndex 和 ImageOrPrintOptions.Count 属性|新功能|
-|CELLSJAVA-42402|附加的 HTML 需要良好的 HTML|强化|
+|CELLSJAVA-42402|好的 HTML 需要附件 HTML|强化|
 |CELLSJAVA-42372|长连字符的位置与 Microsoft Excel 不同|强化|
 |CELLSJAVA-42479|改进了 LoadDataFilterOptions 枚举并消除了歧义|强化|
 |CELLSJAVA-42460|CSV 格式 - D2 和 D6 是 IsString 但 Aspose.Cells 将它们视为 IsNumeric|强化|
 |CELLSJAVA-42399|输出 Pdf 中的箭头点不明确|漏洞|
-|CELLSJAVA-42419|文本在输出 HTML 中被截断|漏洞|
-|CELLSJAVA-42418|边框颜色与输出 HTML 中的 MS Excel 不匹配|漏洞|
-|CELLSJAVA-42417|背景颜色与输出 HTML 中的 Ms Excel 不匹配|漏洞|
+|CELLSJAVA-42419|文本在输出中被截断 HTML|漏洞|
+|CELLSJAVA-42418|边框颜色与输出中的 MS Excel 不匹配 HTML|漏洞|
+|CELLSJAVA-42417|背景颜色与输出中的 Ms Excel 不匹配 HTML|漏洞|
 |CELLSJAVA-42385|永远不会调用回调 IFilePathProvider，然后 HTML 文件在路径中有“null”|漏洞|
 |CELLSJAVA-42412|将 Excel 转换为 PDF 时缺少数值轴标签|漏洞|
 |CELLSJAVA-42408|将工作表渲染为图像后出现文本重叠问题|漏洞|
 |CELLSJAVA-42420|由于图表数据范围大而导致取消和内存不足的问题|漏洞|
-|CELLSJAVA-42415|输出图表与输出 HTML 中的原始图表不同|漏洞|
+|CELLSJAVA-42415|输出图表与输出中的原始图表不同 HTML|漏洞|
 |CELLSJAVA-42410|图表区域、标签、图例等在输出 PDF 和 PNG 中呈现不正确|漏洞|
 |CELLSJAVA-42409|图表区域在 MS Excel 图表的 PDF 和 PNG 输出中未正确呈现|漏洞|
 |CELLSJAVA-41046|将电子表格呈现为 PDF 格式时，图表的图例顺序已更改|漏洞|
 |CELLSJAVA-40416|图表的颜色和样式丢失|漏洞|
-|CELLSJAVA-42427|导出带边框的网格线不会在 Excel 中显示边框内的网格线到 HTML 呈现|漏洞|
+|CELLSJAVA-42427|导出带边框的网格线不会在 Excel 中显示边框内的网格线到 HTML 渲染|漏洞|
 |CELLSJAVA-42438|LightCellsDataProvider 正在删除前导和尾随空格|漏洞|
-|CELLSJAVA-42422|MS Excel 图表的 PDF 输出中使用了不正确的字体|漏洞|
-|CELLSJAVA-42353|输出 HTML 中缺少一些箭头或标注|漏洞|
+|CELLSJAVA-42422|PDF MS Excel图表输出中使用了不正确的字体|漏洞|
+|CELLSJAVA-42353|输出中缺少一些箭头或标注 HTML|漏洞|
 |CELLSJAVA-42455|工作表评论集合中缺少第二条评论|漏洞|
 |CELLSJAVA-42454|从 XLSM 文件读取时，工作簿创建似乎挂起|漏洞|
 |CELLSJAVA-42450|Style.QuotePrefix 属性不适用于 XLSB 文件|漏洞|
@@ -45,19 +45,19 @@ url: /zh/java/aspose-cells-for-android-via-java-17-12-release-notes/
 |CELLSJAVA-42442|更改 ComboBoxActiveXControl 的值不会更改链接单元格的值|漏洞|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel 和 Cells.setRowHeightPixel 有不同的行为|漏洞|
 |CELLSJAVA-42431|扩展表格范围意外改变单元格内容|漏洞|
-|CELLSJAVA-42457|XLSX转PDF时，图表部分线条不一样|漏洞|
-|CELLSJAVA-42465|某些 CSS 类声明未在输出 HTML 中添加前缀|漏洞|
+|CELLSJAVA-42457|XLSX转换为PDF时，图表中有些线不一样|漏洞|
+|CELLSJAVA-42465|一些 CSS 类声明在输出中没有前缀 HTML|漏洞|
 |CELLSJAVA-42456|HTML 输出与源不一致 - Excel 到 HTML 的转换|漏洞|
 |CELLSJAVA-42478|从 HSQL DB 导入 long 值会抛出异常|漏洞|
-|CELLSJAVA-42466|输出 PDF 中的方程式未正确呈现|漏洞|
-|CELLSJAVA-42475|输出 PDF 中缺少图表|漏洞|
-|CELLSJAVA-42459|输出 PDF/图像中缺少图表的数据标签|漏洞|
+|CELLSJAVA-42466|输出中的方程未正确呈现 PDF|漏洞|
+|CELLSJAVA-42475|输出中缺少图表 PDF|漏洞|
+|CELLSJAVA-42459|输出 PDF/image 中缺少图表的数据标签|漏洞|
 |CELLSJAVA-42453|图表图像不一样 Microsoft Excel|漏洞|
 |CELLSJAVA-42447|数据标签在输出 HTML 文件格式中显示错误|漏洞|
 |CELLSJAVA-42481|设置组合框名称不适用于源 Excel 文件，但如果由 Microsoft Excel 重新保存，它可以正常工作|漏洞|
 |CELLSJAVA-42476|Microsoft 启用宏的 Excel 工作表 (.xlsm) 在通过 Aspose.Cells API 打开和保存后损坏|漏洞|
 |CELLSJAVA-42470|设置复选框链接单元格会导致 MS Excel 在打开输出文件时提示错误消息|漏洞|
-|CELLSJAVA-42462|读取 XLSB 文件会抛出 NullPointerException|例外|
+|CELLSJAVA-42462|读取 XLSB 文件抛出 NullPointerException|例外|
 |CELLSJAVA-42434|异常：加载 HTML 文件格式时出现“java.lang.NumberFormatException”|例外|
 |CELLSJAVA-42448|Cells.deleteBlankRows 导致“java.lang.ArrayIndexOutOfBoundsException: 1937”异常|例外|
 |CELLSJAVA-42426|线程“main”中的异常 java.lang.OutOfMemoryError：超出 GC 开销限制 - 文件 III|例外|

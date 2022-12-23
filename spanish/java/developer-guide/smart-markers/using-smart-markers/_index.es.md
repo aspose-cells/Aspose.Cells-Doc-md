@@ -118,7 +118,7 @@ subtotalN:Ref donde Ref se refiere al grupo por columna.
 
 Por ejemplo,
 
--  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**Productos** mesa.
+-  &=Productos.Unidades(subtotal9:Productos.ProductID) especifica la función de resumen en**Unidades** campo con respecto a la**Identificación de producto** campo en el**productos** mesa.
 -  &=Tabx.Col3(subtotal9:Tabx.Col1) especifica la función de resumen en el**Col3** grupo de campo por**Col1** en la mesa**Tabx**.
 -  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) especifica la función de resumen en**columnaD** grupo de campo por**columnaA** y**columnaB** en mesa**Tabla 1**.
 
@@ -154,9 +154,9 @@ Aspose.Cells ahora también admite el uso de una lista genérica como objeto ani
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Person-Person.java" >}}
 
-## **Uso de la propiedad HTML de marcadores inteligentes**
+## **Usando la propiedad HTML de Smart Markers**
 
-El siguiente código de ejemplo explica el uso de la propiedad HTML de los marcadores inteligentes. Cuando se procese, mostrará "Mundo" en "Hello World" en negrita debido a HTML \<b>etiqueta.
+El siguiente código de ejemplo explica el uso de la propiedad HTML de los marcadores inteligentes. Cuando se procese, mostrará "Mundo" en "Hello World" en negrita debido a HTML \<b> etiqueta.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 

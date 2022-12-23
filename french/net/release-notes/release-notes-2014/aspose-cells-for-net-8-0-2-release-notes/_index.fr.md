@@ -30,17 +30,17 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 ## **Performance**
 
 
- (CELLSNET-42278) - System.OutOfMemoryException lors de l'enregistrement de XLSX au format PDF où XLSX contient de nombreuses cellules vides avec formatage
+ (CELLSNET-42278) - System.OutOfMemoryException lors de l'enregistrement de XLSX à PDF où XLSX a beaucoup de cellules vides avec formatage
 
 
 ## **Insectes**
 
 
- (CELLSNET-42524) - Fonction CalculateTextSize des problèmes d'objet Shape
+(CELLSNET-42524) - Fonction CalculateTextSize des problèmes d'objet Shape
 
  (CELLSNET-42401) - CalculateTextSize() ne renvoie pas la hauteur correcte
 
-(CELLSNET-42235) - Problème avec le dimensionnement automatique de la zone de texte
+ (CELLSNET-42235) - Problème avec le dimensionnement automatique de la zone de texte
 
  (CELLSNET-42104) - CalculateTextSize ne renvoie pas la hauteur correcte
 
@@ -48,23 +48,23 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42562) - Les formules ne fonctionnent pas avec les devises étrangères
 
- (CELLSNET-42269) - Le formatage du tableau croisé dynamique dans le XPS de sortie n'est pas correct
+ (CELLSNET-42269) - Le formatage du tableau croisé dynamique dans la sortie XPS n'est pas correct
 
- (CELLSNET-42597) - AutoFitRows masque le texte enveloppé dans le PDF résultant
+ (CELLSNET-42597) - AutoFitRows provoque le masquage du texte enveloppé dans le résultat PDF
 
  (CELLSNET-42615) - SheetRender n'affiche pas correctement l'exposant
 
  (CELLSNET-42594) - La justification verticale du texte ne fonctionne pas correctement dans SheetRender
 
- (CELLSNET-42580) - L'enregistrement du fichier Excel au format PDF ignore les paramètres de couleur dans l'en-tête
+ (CELLSNET-42580) - Enregistrer le fichier Excel au PDF ignore les paramètres de couleur dans l'en-tête
 
- (CELLSNET-42579) - Problème de saut de page lors du rendu au format PDF
+ (CELLSNET-42579) - Problème de saut de page lors du rendu vers PDF
 
- (CELLSNET-42498) - La bordure est copiée sur la page suivante lors de la conversion de XLSX en PDF
+(CELLSNET-42498) - La bordure est copiée sur la page suivante lors de la conversion de XLSX en PDF
 
  (CELLSNET-42495) - Le rendu PDF contient des lignes indésirables dans les pages 2 et 3
 
-(CELLSNET-42567) - Le graphique disparaît lors de la conversion en PDF
+ (CELLSNET-42567) - Le graphique disparaît lorsqu'il est converti en PDF
 
  (CELLSNET-42527) - Le graphique linéaire et le graphique à barres dans le même graphique ne sont pas dans la bonne position
 
@@ -74,23 +74,23 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-42590) - Attribut xml:space="preserve" perdu pour le nœud OpenXML v (valeur) d'Excel Cell
 
- (CELLSNET-42588) - Impossible d'insérer un tableau dans le fichier XLSB
+ (CELLSNET-42588) - Impossible d'insérer une table dans le fichier XLSB
 
  (CELLSNET-42586) - L'alignement du texte des commentaires lorsqu'il est défini sur la droite ne fonctionne pas
 
- (CELLSNET-42582) - Excel a trouvé une erreur de contenu illisible lors de l'ouverture de Aspose.Cells XLSM converti à partir de XLSB
+ (CELLSNET-42582) - Excel a trouvé une erreur de contenu illisible lors de l'ouverture de Aspose.Cells converti XLSM à partir de XLSB
 
- (CELLSNET-42581) - ArgumentOutOfRangeException - lors de l'ouverture du fichier Excel XLSX
+(CELLSNET-42581) - ArgumentOutOfRangeException - lors de l'ouverture du fichier Excel XLSX
 
  (CELLSNET-42570) - Les formules Cell dans les marqueurs intelligents ne se développent pas
 
  (CELLSNET-42568) - La colonne intitulée Taille du tamis indique #N/A
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
-(CELLSNET-42576) - Exception de référence nulle lors de l'enregistrement du xls au format pdf
+ (CELLSNET-42576) - Exception de référence nulle lors de l'enregistrement du xls au format pdf
 
  (CELLSNET-42628) - System.NullReferenceException lors du chargement d'une feuille de calcul MHTML
 
@@ -104,7 +104,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -118,7 +118,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-40531) - Problème de formule lors du chargement du fichier modèle dans GridWeb
 
- (CELLSNET-42571) - Le format numérique de la colonne H à l'intérieur du GridWeb n'est pas conservé
+(CELLSNET-42571) - Le format numérique de la colonne H à l'intérieur du GridWeb n'est pas conservé
 
  (CELLSNET-42553) - Liste des objets/tableaux formatés/style perdus lors de l'importation d'un fichier Excel dans GridWeb
 
@@ -134,7 +134,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 
 
-Ajoute la propriété Shape.TextDirection
+ Ajoute la propriété Shape.TextDirection
 
  Obtient/définit la direction du flux de texte pour la forme.
 

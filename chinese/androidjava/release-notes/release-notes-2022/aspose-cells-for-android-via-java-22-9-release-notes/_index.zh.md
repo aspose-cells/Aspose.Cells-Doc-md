@@ -24,7 +24,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44717|边框（线）样式问题|
 |CELLSJAVA-44707|边框线不显示|
 |CELLSJAVA-44670|输出 HTML 中的公式问题 - Excel 到 HTML 的转换|
-|CELLSJAVA-44202|导出为 HTML 时，图表中的图例与 MS Excel 不一样|
+|CELLSJAVA-44202|导出到HTML时，图表中的图例与MS Excel不一样|
 |CELLSJAVA-44591|标签的文本旋转与图表输出图像中的 Excel 不匹配|
 |CELLSJAVA-44655|无法显示具有负值的 Treemap 图表导致执行继续运行|
 |CELLSJAVA-44686|当 Title.IsAutoText 为真时，图表 (2016) 的标题文本不正确|
@@ -39,11 +39,11 @@ url: /zh/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44781|调查调整到非常小的高度时的行调整大小问题|
 |CELLSJAVA-44787|工作簿最后一行的底部边框丢失|
 |CELLSJAVA-44761|将 Excel 文件转换为 HTML 时内存使用过多|
-|CELLSJAVA-44801|Excel转PDF使用Aspose.Cells for Java v22.7导致乱码|
+|CELLSJAVA-44801|excel到PDF转换使用Aspose.Cells for Java v22.7导致乱码|
 |CELLSJAVA-44741|将 html 字符串设置到单元格后，输出 xlsx 中的换行符不正确|
 |CELLSJAVA-44776|复制工作表时表格标题行样式丢失|
 |CELLSJAVA-44789|放置在 Excel 电子表格中的文本框的字符串替换问题|
-|CELLSJAVA-44792|将工作簿无限保存为 HTML 格式 (2892)|
+|CELLSJAVA-44792|无限保存工作簿为 HTML 格式 (2892)|
 |CELLSJAVA-44864|并发加载工作簿会引发虚假的“文件已损坏”错误|
 |CELLSJAVA-44327|图表中黑白饼图切片中显示的边框和较少的线条到图像渲染|
 |CELLSJAVA-44591|标签的文本旋转与图表输出图像中的 Excel 不匹配|
@@ -51,10 +51,10 @@ url: /zh/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44860|在某些合并区域中，单元格文本的显示与 excel 中的不一样|
 |CELLSJAVA-44832|转换为 pdf 时输出多页而不是 Excel 中的一页|
 |CELLSJAVA-44812|无法减少图表的绘图区域|
-|CELLSJAVA-44831|Aspose.Cells for Java 打开XLSX文件转换后的DOCX时，MS Word提示错误“Word found unreadable content in...”|
+|CELLSJAVA-44831|Aspose.Cells for Java 从XLSX文件打开转换后的DOCX时，MS Word提示错误“Word found unreadable content in...”|
 |CELLSJAVA-44833|使用 Cell.setHtmlString() 方法时，文本颜色不会应用于输出 Excel 文件中的不同单词或部分内容|
-|CELLSJAVA-44852|静态Excel文件转HTML时边框不正确|
-|CELLSJAVA-44856|Excel 到 HTML 的转换 - 不显示/呈现迷你图（迷你图表）|
+|CELLSJAVA-44852|静态Excel文件转成边框不正确 HTML|
+|CELLSJAVA-44856| Excel 到 HTML 的转换 - 不显示/呈现迷你图（迷你图表）|
 |CELLSJAVA-44859|某些 Html 格式不适用于现有 Excel 文件中的工作表单元格|
 |CELLSJAVA-44725|将 XLSX 转换为 PDF 时出现异常“java.util.zip.ZipException：条目大小无效（预期为 0 但得到 1053 字节）”|
 |CELLSJAVA-44763|使用“org.apache.commons.io.input.AutoCloseInputStream”加载 Excel 文件时出现异常“java.lang.IllegalArgumentException：无法解析参数编号：1:X8”|

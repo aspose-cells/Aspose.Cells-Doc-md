@@ -20,7 +20,7 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Förbättringar görs för ark-till-bild-funktionen
 
- Förbättringar görs för Excel-till-PDF-funktionen
+ Förbättringar görs för Excel-to-PDF-funktionen
 
 
 
@@ -38,23 +38,23 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30673 - Stöd för sorteringsdatafunktion i smarta markörer
 
- 30809 - Inkludera fler formatvillkorstyper (för funktionen för villkorlig formatering) medan du sparar XLS-fil
+ 30809 - Inkludera fler formatvillkorstyper (för funktionen villkorlig formatering) samtidigt som du sparar XLS-filen
 
- 31192 - Stöd för krypteringstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bitars
+31192 - Stöd för krypteringstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bitars
 
  Undantag
 
-30733 - Få ett undantag när du använder vetenskapliga värden för Validations formel
+ 30733 - Få ett undantag när du använder vetenskapliga värden för Validations formel
 
  30748 - Läsning av krypterad Excel2007-mallfil orsakar undantag
 
  30971 - Få ett undantag för metoden Cell.getStringValue()
 
- 30994 - Få ett undantag medan du sparar XLSX med LightCells API:er
+ 30994 - Få ett undantag samtidigt som du sparar XLSX med LightCells API:er
 
  Buggar
 
- 30616 - Bild förlorad i XLS-till-PDF-funktion
+ 30616 - Bild förlorad i funktionen XLS-till-PDF
 
  30695 - X/YAxis förlorad i diagram-till-bild-funktionen
 
@@ -62,7 +62,7 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30697 - Bild skapades felaktigt för Pyramid Chart
 
- 30776 - Ogiltig PDF-fil genererades av XLS-till-PDF-funktionen
+ 30776 - Ogiltig PDF-fil genererades av funktionen XLS-till-PDF
 
  28545 - Cells värde återgavs inte korrekt med egenskapen "krymp för att passa"
 
@@ -70,11 +70,11 @@ url: /sv/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 - TextBox.setHtmlText() analyserade inte rich text korrekt
 
- 30479 - Extra parentes har lagts till för cellvärde i den genererade PDF-filen
+30479 - Extra parentes lades till för cellvärde i den genererade PDF-filen
 
- 30899 - Skalat värde för den nyligen tillagda bilden ändrades i sparad XLS-fil
+ 30899 - Skalat värde för den nyligen tillagda bilden ändrades i sparad XLS fil
 
-30972 - Innehållet i textrutan återgavs inte korrekt i PDF-filen
+ 30972 - Textrutans innehåll återgavs inte korrekt i filen PDF
 
  31050 - Cell.getStringValue() gav inte rätt dubbelvärde
 

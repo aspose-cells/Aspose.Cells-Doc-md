@@ -5,14 +5,14 @@ type: docs
 weight: 105
 url: /ru/net/copy-ranges-of-Excel/
 ---
-## **Введение**
+## **Вступление**
 
 В Excel вы можете выбрать диапазон, скопировать диапазон, а затем вставить его с определенными параметрами на тот же рабочий лист, другие рабочие листы или другие файлы.
 
 ## **Копировать диапазоны с помощью Aspose.Cells**
 
  Aspose.Cells обеспечивает некоторую перегрузку[Диапазон.Копировать](https://reference.aspose.com/cells/net/aspose.cells/range/copy/#copy) способы копирования диапазона.
- А также[Диапазон.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) только стиль копирования диапазона;[Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) только копируемое значение диапазона
+ И[Диапазон.CopyStyle](https://reference.aspose.com/cells/net/aspose.cells/range/copystyle/) только стиль копирования диапазона;[Range.CopyData](https://reference.aspose.com/cells/net/aspose.cells/range/copydata/) только копируемое значение диапазона
 
 ## **Копировать диапазон**
 

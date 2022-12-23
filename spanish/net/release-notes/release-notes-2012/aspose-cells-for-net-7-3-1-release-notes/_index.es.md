@@ -39,7 +39,7 @@ url: /es/net/aspose-cells-for-net-7-3-1-release-notes/
 - Cómo crear marcadores personalizados
 - Los subgráficos no son accesibles
 
- -Autoformas en salida HTML
+ -AutoFormas en HTML Salida
 
 - DataBars: formato condicional en tabla dinámica
 - Pérdida de consultas web en formatos MS Excel 2007
@@ -54,7 +54,7 @@ url: /es/net/aspose-cells-for-net-7-3-1-release-notes/
 - Busco solucion en el Aspose.Cells
 - Excepción: "El índice estaba fuera de rango"
 - Loadingworkbook lanza: 'La cadena de entrada no estaba en un formato correcto'
-- Error de forma a imagen en la función Excel a PDF
+- Error de forma a imagen en Excel a la función PDF
 
 
 
@@ -69,7 +69,7 @@ url: /es/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -Cotizaciones en el archivo delimitado por tabuladores guardado
 
-- La lectura/escritura de CSV no hace un "viaje de ida y vuelta" para algunas entradas
+- CSV lectura/escritura no 'ida y vuelta' para algunas entradas
 
  -StringValue devuelve un valor incorrecto
 
@@ -90,13 +90,13 @@ url: /es/net/aspose-cells-for-net-7-3-1-release-notes/
 - Guardar como HTML muestra una columna oculta en la salida
 - Guardar borra el formato
 - Gráficos en salida HTML
-- Problemas de formato HTML (sobre bordes adicionales)
+- HTML problemas de formato (sobre bordes adicionales)
 
- - Problema de formato de número personalizado y XPS de SheetRender
+ -SheetRender's XPS y problema de formato de número personalizado
 
  -Guardar como PDF no conserva el formato
 
-- Problemas con el formato XLSX en las salidas de Excel y PDF
+- Problemas con el formato XLSX en Excel y salidas PDF
 - La tabla dinámica de Excel representada en PDF no es correcta
 - Fuentes personalizadas en PDF
 - Problema de representación de alineación vertical de Cell
@@ -105,7 +105,7 @@ url: /es/net/aspose-cells-for-net-7-3-1-release-notes/
 - Problema con el formato en la Fila Total en la Tabla Dinámica
 - Office para Mac-Os 2k11 se bloquea después de abrir un archivo de Excel
 
- -¿Por qué falla este código?
+-¿Por qué falla este código?
 
 - El campo calculado de la tabla dinámica se cambia
 - Problema al guardar el libro de trabajo con miembros calculados

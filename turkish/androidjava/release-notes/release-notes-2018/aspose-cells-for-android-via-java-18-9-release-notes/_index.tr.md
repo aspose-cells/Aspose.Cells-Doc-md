@@ -13,7 +13,7 @@ Bu sayfa Aspose.Cells for Android via Java 18.9 için sürüm notları içerir.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Pivot Tablo Şeridini Devre Dışı Bırak|Yeni özellik|
-|CELLSJAVA-42568|Çalışma kitabını ve çalışma sayfasını ODS dosyasında koruyun|Yeni özellik|
+|CELLSJAVA-42568|ODS dosyasında çalışma kitabını ve çalışma sayfasını koruyun|Yeni özellik|
 |CELLSJAVA-42668|Sınıf stilini kullanırken birden çok değeri destekleyin (Bağlantılı: CELLSJAVA-42635)|Artırma|
 |CELLSJAVA-42627|Smart Art görüntüleri doğru şekilde çıkarılamıyor - Şekilden görüntüye dönüştürme (CELLSJAVA-42619)|Artırma|
 |CELLSJAVA-42677|XLSX dosya işleminin kaydedilmesinde kesinti sorunu|Artırma|
@@ -23,13 +23,13 @@ Bu sayfa Aspose.Cells for Android via Java 18.9 için sürüm notları içerir.
 |CELLSJAVA-42667|'#NUM!' alınıyor IRR işlevine sahip bir hücre için|Böcek|
 |CELLSJAVA-42658|XL4 makroları (XLSM) içeren çalışma kitapları, kaydedildikten sonra bozuluyor|Böcek|
 |CELLSJAVA-42656|AlternativeText, yorum Metninin değerini döndürür|Böcek|
-|CELLSJAVA-42635|HTML'den XLS'ye - CSS stili göz ardı edildi|Böcek|
-|CELLSJAVA-41176|Elektronik tabloyu PDF formatına dönüştürürken yanlış hizalama|Böcek|
+|CELLSJAVA-42635|HTML - XLS - CSS stili yok sayıldı|Böcek|
+|CELLSJAVA-41176|E-tablo PDF biçimine dönüştürülürken yanlış hizalama|Böcek|
 |CELLSJAVA-42676|HTML'den MS Excel dosya biçimine dönüştürülürken tablo verileri yanlış satır ve sütuna kaydırıldı|Böcek|
-|CELLSJAVA-41670|Grafiğin görüntü konumu, HTML'ye dönüştürülürken Chrome ve FireFox'ta yanlış|Böcek|
-|CELLSJAVA-41245|Dilimleyici denetimi, Excel dosyasını HTML dosya biçimine dönüştürürken işlenmez|Böcek|
+|CELLSJAVA-41670|HTML'e dönüştürülürken Chrome ve FireFox'ta grafiğin görüntü konumu yanlış|Böcek|
+|CELLSJAVA-41245|Excel dosyası HTML dosya biçimine dönüştürülürken dilimleyici denetimi işlenmez|Böcek|
 |CELLSJAVA-42684|Oluşturulan görüntüde grafiğin ortasındaki dikey çizgi düzgün çizilmemiş|Böcek|
-|CELLSJAVA-42682|Negatif baloncuklar için degrade renk, PDF çıktısında uygulanmıyor|Böcek|
+|CELLSJAVA-42682|PDF çıktısında negatif baloncuklar için gradyan rengi uygulanmıyor|Böcek|
 |CELLSJAVA-42681|Grafik kategori başlığı resimde düzgün gösterilmiyor|Böcek|
 |CELLSJAVA-42695|Birleştirilmiş hücre için yanlış kenarlık stili döndürüldü|Böcek|
 |CELLSJAVA-42694|Excel dosyasından filigranı oku|Böcek|
@@ -38,14 +38,14 @@ Bu sayfa Aspose.Cells for Android via Java 18.9 için sürüm notları içerir.
 |CELLSJAVA-41485|ODS dosyasındaki makrolar, oluşturulan ODS dosya biçiminde tutulmaz|Böcek|
 |CELLSJAVA-42715|Formüller, Excel dosyasındakiyle aynı şekilde alınmaz|Böcek|
 |CELLSJAVA-42711|PDF'deki grafik Excel şablonundan oluşturulmuyor|Böcek|
-|CELLSJAVA-42710|Excel'deki grafikteki yinelenen gösterge öğesi metnini PDF'ye dönüştürme|Böcek|
+|CELLSJAVA-42710|Excel'deki grafikteki yinelenen gösterge öğesi metnini PDF'e dönüştürme|Böcek|
 |CELLSJAVA-42706|PDF çıktısı grafik etiketini göstermiyor|Böcek|
 |CELLSJAVA-42700|Grafik verilerini değiştirdikten sonra şelale grafiği düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42717|Cells.deleteRow hatalı çalışıyor|Böcek|
 |CELLSJAVA-42716|Sınır stili için yanlış değer alındı|Böcek|
 |CELLSJAVA-42709|Birleştirilmiş hücre için yanlış alt kenarlık stili döndürüldü|Böcek|
 |CELLSJAVA-42705|Excel, Otomatik Filtreyi ayarladıktan sonra dosya yüklenirken hata veriyor|Böcek|
-|CELLSJAVA-42703|ODS'yi PDF'ye dönüştürürken grafik görüntülenmiyor|Böcek|
+|CELLSJAVA-42703|ODS, PDF'e dönüştürülürken grafik oluşturulmadı|Böcek|
 |CELLSJAVA-42702|Çalışma sayfasında hücre stilini okuduktan sonra gri kenarlıklar görünüyor|Böcek|
 |CELLSJAVA-42699|PasteType.VALUES_VE_NUMBER_FORMATS düzgün çalışmıyor|Böcek|
 |CELLSJAVA-42646|İstisna: Name.getRefersTo() üzerinde "FormulaBuild Bilinmeyen formül belirteci0"|İstisna|
@@ -53,12 +53,12 @@ Bu sayfa Aspose.Cells for Android via Java 18.9 için sürüm notları içerir.
 |CELLSJAVA-42673|Bir Excel dosyası yüklenirken "java.lang.NumberFormatException" istisnası|İstisna|
 |CELLSJAVA-42669|Çalışma kitabındaki formülleri hesaplarken "java.lang.NullPointerException" istisnası|İstisna|
 |CELLSJAVA-42663|Chart.calculate(), IndexOutOfBoundsException'ı atar|İstisna|
-|CELLSJAVA-42655|İstisna: Bir XLS dosyası yüklenirken "Geçersiz kodlama: boş" - II|İstisna|
+|CELLSJAVA-42655|İstisna: XLS dosyası yüklenirken "Geçersiz kodlama: boş" - II|İstisna|
 |CELLSJAVA-42675|HTML dosyası çalışma kitabına yüklenirken ortaya çıkan NumberFormatException|İstisna|
 |CELLSJAVA-42689|CalculateFormula çağrılırken ortaya çıkan NullPointerException istisnası|İstisna|
-|CELLSJAVA-42678|Çalışma sayfasını PNG dosya biçimine dönüştürürken istisna|İstisna|
+|CELLSJAVA-42678|Çalışma sayfası PNG dosya biçimine dönüştürülürken istisna|İstisna|
 |CELLSJAVA-42411|Cell'de hata: E22-Geçersiz formül - MS Excel dosyasını açarken istisna|İstisna|
-|CELLSJAVA-42691|XLSX'i HTML'ye dönüştürürken NegativeArraySizeException|İstisna|
+|CELLSJAVA-42691|XLSX'i HTML'e dönüştürürken NegativeArraySizeException|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
@@ -162,7 +162,7 @@ CustomDocumentPropertyCollection'ın PDF dosyasına nasıl aktarılacağını be
 
 ### **PdfSaveOptions.CustomPropertiesExport özelliğini ekler**
 
-CustomDocumentPropertyCollection öğesinin PDF dosyasına dışa aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
+CustomDocumentPropertyCollection'ın PDF dosyasına aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
 
 ### **XmlDataBinding sınıfını ekler**
 
@@ -182,6 +182,6 @@ Bu eşlemenin bir XmlDataBinding'ini alır.
 
 {{% alert color="primary" %}}
 
-Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0711616341. 07116341. 07116341. 07116341. 07161616341. 0761,16341,16341,16341,16341. 0761. Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 ve Aspose.Cells for Java v18.9 da bu Aspose.Cells for Android via Java v18.9'a dahildir.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,16341. 0711616341. 07116341. 0711616341. 07161616341. 0761,16341,16341,16341,16341,16341. 0761. Aspose.Cells for Java v18.7, Aspose.Cells for Java v18.8 ve Aspose.Cells for Java v18.9 da bu Aspose.Cells for Android via Java v18.9'a dahildir.
 
 {{% /alert %}}

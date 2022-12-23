@@ -9,7 +9,7 @@ Bazen, GridWeb sayfası değiştiğinde müşteri tarafı işlevinizi yürütmen
 ## **GridWeb sayfa değişikliğinde istemci tarafı işlevini yürütün**
 Aşağıdaki java kodu, GridWebBean.setOnPageChangeClientFunction() özelliğinin nasıl kullanılacağını açıklar. Özelliği, MyOnPageChange adlı istemci tarafı işleviyle ayarlar. Lütfen unutmayın, bu özellik yalnızca sayfalamayı etkinleştirdiyseniz geçerlidir, yani GridWebBean.setEnablePaging(true). Şimdi, GridWeb sayfasını ne zaman değiştirirseniz, istemci tarafı işlevi MyOnPageChange'i çağıracaktır.**geçerli sayfa dizini** üzerinde**konsol** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](execute-client-side-function-on-gridweb-page-change_1.png)
+![yapılacaklar:resim_alternatif_metin](execute-client-side-function-on-gridweb-page-change_1.png)
 ## **Basit kod**
 Bu, bu satır nedeniyle yürütülecek olan istemci tarafı işlevi MyOnPageChange'in kodudur, yani Gridweb.setOnPageChangeClientFunction("MyOnPageChange");
 

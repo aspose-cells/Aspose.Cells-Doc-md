@@ -12,22 +12,22 @@ A veces recibimos la siguiente pregunta: ¿por qué deberíamos usar productos A
 
 
 ## **Apache POI SS: HSSF y XSSF**
-**HSSF** es la implementación Java pura del Proyecto POI del formato de archivo Excel '97(-2007).
+**HSSF**es la implementación Java pura del Proyecto POI del formato de archivo Excel '97(-2007).
 **XSSF** es la implementación pura Java del Proyecto POI del formato de archivo Excel 2007 OOXML (.xlsx).
 
-HSSF y XSSF proporcionan formas de leer hojas de cálculo, crear, modificar, leer y escribir hojas de cálculo XLS. Ellos proveen:
+HSSF y XSSF brindan formas de leer hojas de cálculo, crear, modificar, leer y escribir XLS hojas de cálculo. Ellos proveen:
 
 - estructuras de bajo nivel para personas con necesidades especiales
 - una API de modelo de evento para un acceso eficiente de solo lectura
 - una API completa de modelo de usuario para crear, leer y modificar archivos XLS
 
- Lee mas en[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
+ Lea mas en[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java es un componente de hoja de cálculo de Excel galardonado que permite a los desarrolladores de Java integrar la capacidad de leer, escribir y manipular hojas de cálculo de Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
 
 Aspose.Cells for Java es un componente maduro, escalable y rico en características que ofrece muchas funciones que van mucho más allá de las capacidades simples de exportación de datos de otros proveedores. Con Aspose.Cells for Java, los desarrolladores pueden exportar datos, formatear hojas de cálculo al nivel más granular, importar imágenes, crear gráficos, aplicar y calcular fórmulas complejas, transmitir datos de Excel®, guardar en varios formatos y mucho más, todo esto sin necesidad de Microsoft Excel® o Microsoft Ofimática.
 
- Lee mas en[aspose.com](https://products.aspose.com/cells/java/)
+ Lea mas en[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **¿Por qué no Apache POI SS - HSSF y XSSF?**
 
@@ -41,7 +41,7 @@ Este proyecto también es útil para los desarrolladores que buscan migrar de PO
 
  Explorar[el complemento con ejemplos de código fuente de Aspose.Cells for Java características en comparación con POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
-Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/java/licensing/) artículo para hacer esto.
+ Este complemento utiliza la versión de evaluación de Aspose.Cells. Cuando esté satisfecho con su evaluación, puede comprar una licencia del[Aspose sitio web](https://purchase.aspose.com/buy) . Para eliminar el mensaje de evaluación y las limitaciones de funciones, debe solicitar una licencia de producto. Después de comprar el producto, recibirá un archivo de licencia. Siga las instrucciones en el["Licencias y suscripción"](/cells/es/java/licensing/) artículo para hacer esto.
 
 {{% /alert %}}
 
@@ -59,10 +59,10 @@ Los componentes Aspose son altamente escalables y ultrarrápidos. Son una verdad
 
 Los componentes Aspose brindan todo lo que necesita para administrar archivos de Office, y mucho, mucho más. Están diseñados con la filosofía de permitir que los desarrolladores logren los mejores resultados con la menor cantidad de trabajo.
 
- Los componentes Aspose proporcionan muchas funciones potentes que ahorran tiempo. Por ejemplo,[Aspose.Cells](https://products.aspose.com/cells/java/) ofrece una función que permite a los desarrolladores importar JSON a archivos de Excel. Vale la pena señalar que cada componente de la familia Aspose ofrece su propio conjunto de funciones únicas y potentes.
+Los componentes Aspose proporcionan muchas funciones potentes que ahorran tiempo. Por ejemplo,[Aspose.Cells](https://products.aspose.com/cells/java/) ofrece una función que permite a los desarrolladores importar JSON a archivos de Excel. Vale la pena señalar que cada componente de la familia Aspose ofrece su propio conjunto de funciones únicas y potentes.
 
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
@@ -80,13 +80,13 @@ Puede obtener el código fuente más reciente de una de las siguientes ubicacion
 Siga estos sencillos pasos para abrir y ampliar el código fuente mientras usa:
 #### **Eclipse IDE**
 1. Descarga/clona el código fuente.
-1.  Abra Eclipse y elija**Expediente** > **Importar...**
+1.  Abra Eclipse y elija**Archivo** > **Importar...**
 1. Seleccione**General** > **Proyectos existentes en Workspace**.
 1. Navegar a**seleccione el directorio raíz**del último código fuente que haya descargado.
 1. Hacer clic**Finalizar**para importar con éxito el proyecto descargado.
 #### **IDE de NetBeans**
 1. Descarga/clona el código fuente.
-1. Abra NetBeans y elija**Expediente** > **Nuevo proyecto...**
+1. Abra NetBeans y elija**Archivo** > **Nuevo proyecto...**
 1.  En**Elija Proyecto** pestaña: Seleccionar**Java** > **Java Proyecto con fuentes existentes**.
 1.  En**Nombre y ubicación** pestaña: Proporcione su deseado**Nombre del proyecto** y**Carpeta de proyecto**.
 1.  En**Fuentes existentes** pestaña: haga clic en**Agregar carpeta...** y navegue para seleccionar el directorio raíz del último código fuente que haya descargado.
@@ -140,12 +140,12 @@ Esta sección incluye los siguientes temas
     - [Ordenar datos en hojas de cálculo](/cells/es/java/sort-data-in-spreadsheets/)
   - [Trabajando con hojas de trabajo usando Aspose.Cells](/cells/es/java/working-with-worksheets-using-aspose-cells/)
     - [Agregar marca de agua de Word Art a la hoja de trabajo usando Aspose.Cells](/cells/es/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
-    - [Convierta el libro de trabajo a HTML usando Aspose.Cells](/cells/es/java/convert-workbook-to-html-using-aspose-cells/)
+    - [Convierta Workbook a HTML usando Aspose.Cells](/cells/es/java/convert-workbook-to-html-using-aspose-cells/)
     - [Detectar combinado Cells usando Aspose.Cells](/cells/es/java/detect-merged-cells-using-aspose-cells/)
     - [Mostrar y ocultar barras de desplazamiento de libros de trabajo](/cells/es/java/display-and-hide-scrollbars-of-workbooks/)
     - [Mostrar y ocultar pestañas del libro de trabajo usando Aspose.Cells](/cells/es/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [Cifrar libro de trabajo usando Aspose.Cells](/cells/es/java/encrypt-workbook-using-aspose-cells/)
-    - [Leer archivo CSV con múltiples codificaciones](/cells/es/java/read-csv-file-with-multiple-encodings/)
+    - [Lea el archivo CSV con múltiples codificaciones](/cells/es/java/read-csv-file-with-multiple-encodings/)
     - [Guarde cada hoja de trabajo en un PDF diferente usando Aspose.Cells](/cells/es/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [Establecer el color de la pestaña de la hoja de trabajo en Aspose.Cells](/cells/es/java/set-worksheet-tab-color-in-aspose-cells/)
   - [Trabajar con gráficos en Aspose.Cells](/cells/es/java/working-with-charts-in-aspose-cells/)

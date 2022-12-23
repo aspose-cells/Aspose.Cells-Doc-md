@@ -21,14 +21,14 @@ url: /tr/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNETCORE-98|OOM istisnasıyla xlsb sonuçları yükleniyor|Verim|
 |CELLSNET-47805|.html dosyalarını kaydederken bazı çoklu çizgilerin yanlış konumu.|Böcek|
 |CELLSNET-47810|Ok konumu yanlış|Böcek|
-|CELLSNET-43717|Pivot Alan sıralaması PDF'ye işlenmez|Böcek|
+|CELLSNET-43717|Pivot Alan sıralaması PDF'e işlenmez|Böcek|
 |CELLSNET-43751|PivotTable'a başvurduktan sonra Satır Etiketi Sıralaması kayboluyor|Böcek|
 |CELLSNET-47777|Dönüştürülen HTML'deki biçimlendirme hataları|Böcek|
 |CELLSNET-47824|Yanlış sonuç veren PPMT formülüyle ilgili sorun|Böcek|
 |CELLSNET-47847| Satırları sildikten sonra yanlış formül referansı|Böcek|
 |CELLSNET-47818|Shape.ToImage liman işçisi ortamında metin oluşturmaz|Böcek|
-|CELLSNET-47820|XLSX'ten dönüştürülen Aspose EMF/OfficeCompatibleEMF'de kenarlıklar eksik|Böcek|
-|CELLSNET-47844| PDF'ye kaydederken altı çizili muhasebe biçimlendirilmiş hücrenin yanlış dönüştürülmesi|Böcek|
+|CELLSNET-47820|Aspose EMF/OfficeCompatibleEMF'de kenarlıklar eksik, XLSX'den dönüştürüldü|Böcek|
+|CELLSNET-47844| PDF'e kaydederken çift altı çizili muhasebe biçimlendirilmiş hücrenin yanlış dönüştürülmesi|Böcek|
 |CELLSNET-47819|Kaydederken Veri Etiketleri düzgün görüntülenmiyor|Böcek|
 |CELLSNET-47821|Veri Etiketleri Doğru Değil|Böcek|
 |CELLSNET-47813| Ağaç Haritası grafiğinde (ve diğer gelişmiş grafiklerde) garip davranış (ve farklılıklar)|Böcek|
@@ -38,7 +38,7 @@ url: /tr/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47838|Yerel grafik renk paleti korunmaz|Böcek|
 |CELLSNET-47845| Kenarlıklar, DefaultExceptBorders yapıştırma türüyle yapıştırıldıktan sonra beklenmedik şekilde kaldırıldı|Böcek|
 |CELLSNET-47848|ListObject'in AutoFilter ile kaldırılması veya bunun için Filtre Düğmesi Ekle bayrağıyla ilgili sorun|Böcek|
-|CELLSNET-47840|Bir HTML'den oluşturulan Excel dosyası açılırken ortaya çıkan istisna|İstisna|
+|CELLSNET-47840|HTML'den oluşturulan Excel dosyası açılırken istisna oluştu|İstisna|
 |CELLSNET-47841|xlsx dosyası ile StackOverflowException|İstisna|
 |CELLSNET-47854|Cells.Find, dosya akış aracılığıyla açıldığında özel durum oluşturuyor|İstisna|
 |CELLSNET-47825| Aspose.Cells 21.01 Açılış belgesinde istisna|İstisna|

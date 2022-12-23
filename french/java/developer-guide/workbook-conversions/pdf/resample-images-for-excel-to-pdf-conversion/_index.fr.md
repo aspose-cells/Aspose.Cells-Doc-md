@@ -1,5 +1,5 @@
 ﻿---
-title: Rééchantillonner les images pour la conversion d'Excel en PDF
+title: Rééchantillonner les images pour la conversion Excel vers PDF
 type: docs
 weight: 250
 url: /fr/java/resample-images-for-excel-to-pdf-conversion/
@@ -8,11 +8,11 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 ---
 {{% alert color="primary" %}}
 
-Lorsque vous travaillez avec de gros fichiers Excel Microsoft contenant de nombreuses images, vous devrez peut-être compresser les images qui ont été ajoutées pour réduire la taille du fichier PDF de sortie et améliorer les performances de conversion globales. Aspose.Cells prend en charge le rééchantillonnage des images ajoutées pour réduire la taille du fichier PDF de sortie et améliorer les performances.
+Lorsque vous travaillez avec de gros fichiers Excel Microsoft contenant de nombreuses images, vous devrez peut-être compresser les images qui ont été ajoutées pour réduire la taille du fichier de sortie PDF et améliorer les performances de conversion globales. Aspose.Cells prend en charge le rééchantillonnage des images ajoutées pour réduire la taille du fichier PDF de sortie et améliorer les performances.
 
 {{% /alert %}}
 
-## **Rééchantillonner les images pour la conversion d'Excel en PDF**
+## **Rééchantillonner les images pour la conversion Excel vers PDF**
 
 Veuillez consulter l'exemple de code suivant qui décrit comment effectuer la tâche à l'aide du Aspose.Cells API. L'exemple convertit un fichier Excel Microsoft en un fichier PDF tout en compressant les images dans le fichier.
 
@@ -20,10 +20,10 @@ Veuillez consulter l'exemple de code suivant qui décrit comment effectuer la t�
 
 {{% alert color="primary" %}}
 
- En utilisant le[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) minimise la taille du PDF de sortie, mais cela peut affecter un peu la qualité de l'image.
+ En utilisant le[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) minimise la taille de la sortie PDF mais cela peut affecter un peu la qualité de l'image.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Si votre feuille de calcul contient des formules, il est préférable d'appeler[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+Si votre feuille de calcul contient des formules, il est préférable d'appeler[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul au format PDF. Cela garantira que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le fichier PDF.
 
 {{% /alert %}}

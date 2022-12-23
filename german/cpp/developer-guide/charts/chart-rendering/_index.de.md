@@ -48,7 +48,7 @@ Aspose.Cells API-Unterstützung zum Erstellen einer Vielzahl von Excel-Diagramme
 
 ## **Diagramme rendern**
 
-Aspose.Cells APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um die Renderingunterstützung bereitzustellen, hat die Chart-Klasse ToImage- und ToPdf-Methoden mit einer Vielzahl von Überladungen verfügbar gemacht, um den Anwendungsanforderungen am besten zu entsprechen.
+Aspose.Cells-APIs unterstützen die Konvertierung der Excel-Diagramme in Bilder und PDF-Formate, ohne dass zusätzliche Tools oder Anwendungen erforderlich sind. Um die Renderingunterstützung bereitzustellen, hat die Chart-Klasse ToImage- und ToPdf-Methoden mit einer Vielzahl von Überladungen verfügbar gemacht, um den Anwendungsanforderungen am besten zu entsprechen.
 
 ### **Rendern von Diagrammen in Bilder**
 
@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **Diagramm in PDF rendern**
+### **Rendering-Diagramm bis PDF**
 
-Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die Chart.ToPdf-Methode mit der Fähigkeit verfügbar gemacht, das resultierende PDF im Disc-Pfad oder Stream zu speichern.
+Um das Diagramm in das PDF-Format zu rendern, haben die Aspose.Cells-APIs die Chart.ToPdf-Methode mit der Fähigkeit verfügbar gemacht, das Ergebnis PDF auf dem Datenträgerpfad oder Stream zu speichern.
 
 {{< highlight "cpp" >}}
 
@@ -134,7 +134,7 @@ Es gibt einige Diagrammtypen, die derzeit nicht für das Rendern unterstützt we
 |**Radar**|Radar|**Y**|
 ||RadarWithDataMarkers|**Y**|
 ||Radargefüllt|**Y**|
-|**Auftauchen**|Surface3D|N|
+|**Oberfläche**|Surface3D|N|
 ||SurfaceWireframe3D|N|
 ||Oberflächenkontur|N|
 ||SurfaceContourWireframe|N|
@@ -176,6 +176,6 @@ Es gibt einige Diagrammtypen, die derzeit nicht für das Rendern unterstützt we
 
 {{% alert color="primary" %}}
 
-Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDFs.
+Falls Sie versuchen, die nicht unterstützten Diagrammtypen als Bild oder PDF zu rendern, erhalten Sie möglicherweise Bilder der Größe 0 oder leere PDF.
 
 {{% /alert %}}

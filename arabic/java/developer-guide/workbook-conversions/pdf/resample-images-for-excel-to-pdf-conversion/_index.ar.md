@@ -1,5 +1,5 @@
 ﻿---
-title: إعادة تشكيل الصور لتحويل Excel إلى PDF
+title: إعادة عينة الصور لبرنامج Excel لتحويل PDF
 type: docs
 weight: 250
 url: /ar/java/resample-images-for-excel-to-pdf-conversion/
@@ -8,11 +8,11 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 ---
 {{% alert color="primary" %}}
 
-أثناء العمل مع ملفات Excel Microsoft الكبيرة التي تحتوي على الكثير من الصور ، قد تحتاج إلى ضغط الصور التي تمت إضافتها لتقليل حجم ملف PDF الناتج وتحسين أداء التحويل الكلي. يدعم Aspose.Cells إعادة أخذ عينات من الصور المضافة لتقليل حجم ملف PDF الناتج وتحسين الأداء.
+أثناء العمل مع ملفات Excel Microsoft الكبيرة التي تحتوي على الكثير من الصور ، قد تحتاج إلى ضغط الصور التي تمت إضافتها لتقليل حجم ملف الإخراج PDF وتحسين أداء التحويل الكلي. يدعم Aspose.Cells إعادة أخذ عينات الصور المضافة لتقليل حجم الملف الناتج PDF وتحسين الأداء.
 
 {{% /alert %}}
 
-## **إعادة تشكيل الصور لتحويل Excel إلى PDF**
+## **إعادة عينة الصور لبرنامج Excel لتحويل PDF**
 
 يرجى الاطلاع على نموذج التعليمات البرمجية التالي الذي يصف كيفية تنفيذ المهمة باستخدام Aspose.Cells API. يقوم المثال بتحويل ملف Excel Microsoft إلى ملف PDF أثناء ضغط الصور في الملف.
 
@@ -20,10 +20,10 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 
 {{% alert color="primary" %}}
 
- باستخدام[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) يقلل حجم ملف PDF الناتج ولكنه قد يؤثر على جودة الصورة قليلاً.
+ باستخدام[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) يقلل حجم الإخراج PDF ولكنه قد يؤثر على جودة الصورة قليلاً.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[**Workbook.calculateFormula ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في ملف PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[**Workbook.calculateFormula ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

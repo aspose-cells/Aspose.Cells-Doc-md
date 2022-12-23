@@ -12,12 +12,12 @@ url: /ja/java/aspose-cells-for-java-21-10-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-43768|Java XLSX ファイルから PDF への変換中にヒープ領域の問題が発生する|
+|CELLSJAVA-43768|Java XLSX ファイルを PDF に変換中にヒープ領域の問題が発生する|
 |CELLSJAVA-43875|XLSX ファイルのロード時の例外「無効な FontUnderlineType 文字列 val」|
 |CELLSJAVA-43876|XLSX ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException」|
 |CELLSJAVA-43646|テキストの影の効果が正しくレンダリングされない|
 |CELLSJAVA-43760|二等辺三角形の向きが正しくありません|
-|CELLSJAVA-43786|XLS ファイルを XLSX に変換すると、形状に関する一部の部分が正しくレンダリングされません|
+|CELLSJAVA-43786|XLS ファイルを XLSX に変換すると、形状に関する一部の部分が正しくレンダリングされない|
 |CELLSJAVA-43838|XlsToXlsx を実行すると、オートシェイプが失われます|
 |CELLSJAVA-43839|XlsToXlsx を実行すると、LeftBracket が失われます|
 |CELLSJAVA-43842|XlsToXlsx実行後、LeftBracketの形が元と違う|
@@ -25,11 +25,11 @@ url: /ja/java/aspose-cells-for-java-21-10-release-notes/
 |CELLSJAVA-43880|xls を xlsx に変換した後、テキスト ボックスの角が正しく丸まらない|
 |CELLSJAVA-43867|html にエクスポートすると、条件付き書式のアイコンが異なります|
 |CELLSJAVA-43812|excelToHtml: 形状の位置オフセットが正しくありません|
-|CELLSJAVA-43871|Prism 9 OLE オブジェクトが出力 PDF に表示されない|
+|CELLSJAVA-43871|Prism 9 OLE オブジェクトが出力に表示されない PDF|
 |CELLSJAVA-43883|レンダリングされたページのサイズが正しくない|
 |CELLSJAVA-43881|ファイルをマージすると、シートの背景色の設定が失われる|
-|CELLSJAVA-43892|HTML に変換された Excel の枠線が欠落している|
-|CELLSJAVA-43787|Excel から HTML へのレンダリングでの例外 "IllegalArgumentException: ダッシュの長さがすべてゼロです ..."|
+|CELLSJAVA-43892|HTML に変換された Excel の枠線がありません|
+|CELLSJAVA-43787|例外 "IllegalArgumentException: ダッシュの長さがすべてゼロです ..." が Excel で HTML にレンダリングされる|
 |CELLSJAVA-43885|Excel の変換中に IllegalArgumentException が発生する|
 |CELLSJAVA-43874|Workbook.save は、Aspose ライセンスが適用されている場合にのみ、Aspose.Cells によって特定のファイルで例外をスローします|
 

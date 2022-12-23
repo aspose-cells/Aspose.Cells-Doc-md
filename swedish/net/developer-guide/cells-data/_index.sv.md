@@ -1,5 +1,5 @@
 ﻿---
-title: Hantera data i Excel-filer.
+title: Hantera data för Excel-filer.
 linktitle: Cells Data
 type: docs
 weight: 110
@@ -31,7 +31,7 @@ Aspose.Cells tillåter utvecklare att lägga till data till cellerna i kalkylbla
  De[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)class tillhandahåller flera egenskaper som gör att utvecklare kan hämta värden från cellerna enligt deras datatyper. Dessa egenskaper inkluderar:
 
 - [**Strängvärde**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue): returnerar strängvärdet för cellen.
-- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): returnerar det dubbla värdet för cellen.
+- [**DoubleValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue): returnerar cellens dubbla värde.
 - [**BoolValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/boolvalue): returnerar cellens booleska värde.
 - [**DateTimeValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/datetimevalue): returnerar cellens datum/tidsvärde.
 - [**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue): returnerar flytvärdet för cellen.
@@ -70,7 +70,7 @@ När du arbetar med kalkylblad kan användare lägga till olika typer av data i 
 - [Exportera data från arbetsblad](/cells/sv/net/export-data-from-worksheet/)
 - [Hitta eller sök data](/cells/sv/net/find-or-search-data/)
 - [Hämta Cell String Value med och utan formatering](/cells/sv/net/get-cell-string-value-with-and-without-formatting/)
-- [Lägga till HTML Rich Text i Cell](/cells/sv/net/adding-html-rich-text-inside-the-cell/)
+- [Lägger till HTML Rich Text i Cell](/cells/sv/net/adding-html-rich-text-inside-the-cell/)
 - [Infoga hyperlänkar i Excel eller OpenOffice](/cells/sv/net/insert-hyperlinks-to-excel/)
 - [Importera data till arbetsblad](/cells/sv/net/import-data-into-worksheet/)
 - [Hur och var man använder enumerators](/cells/sv/net/how-and-where-to-use-enumerators/)

@@ -14,14 +14,14 @@ Not: Daha fazla bilgi için aspose.cells için nuget web sayfasını ziyaret ede
 Paket yöneticisi GUI'sini kullanarak Aspose.Cells bileşenine başvurmak için şu adımları izleyin:
 
 - Çözümünüzü/projenizi Visual Studio'da açın.
-- Tıklamak**Aletler** -> **Kitaplık Paket Yöneticisi** -> **NuGet Paketlerini Yönet**Solution'dan. Aynı seçeneğe Çözüm Gezgini aracılığıyla da kolayca erişebilirsiniz. Çözüme veya projeye sağ tıklayın ve seçin**NuGet Paketlerini Yönet**bağlam menüsünden.
-- Seçme**Çevrimiçi**Aspose.Cells .NET paketini bulmak için soldaki menüden arama metin kutusuna "Aspose.Cells" yazın.
+- Tıklamak**Araçlar** -> **Kitaplık Paket Yöneticisi** -> **NuGet Paketlerini Yönet**Solution'dan. Aynı seçeneğe Çözüm Gezgini aracılığıyla da kolayca erişebilirsiniz. Çözüme veya projeye sağ tıklayın ve seçin**NuGet Paketlerini Yönet**bağlam menüsünden.
+- Seçme**İnternet üzerinden**Aspose.Cells .NET paketini bulmak için soldaki menüden arama metin kutusuna "Aspose.Cells" yazın.
 - Tıkla**Düzenlemek**projenize en son sürümü yüklemek için Aspose.Cells for .NET girişinin yanındaki düğme.
 ### **Paket Yöneticisi Konsolunu kullanarak Aspose.Cells'i kurun**
 Paket yöneticisi konsolunu kullanarak Aspose.Cells bileşenine başvurmak için aşağıdaki adımları takip edebilirsiniz:
 
 - Çözümünüzü/projenizi Visual Studio'da açın.
-- Seçme**Aletler** -> **Kitaplık Paket Yöneticisi** -> **Paket Yöneticisi Konsolu**menüden paket yöneticisi konsolunu açmak için.
+- Seçme**Araçlar** -> **Kitaplık Paket Yöneticisi** -> **Paket Yöneticisi Konsolu**menüden paket yöneticisi konsolunu açmak için.
  Uygulamanıza en son tam sürümü yüklemek için “Install-Package Aspose.Cells” komutunu yazın ve enter tuşuna basın. Alternatif olarak, düzeltmeleri içeren en son sürümün de kurulacağını belirtmek için komuta "-prerelease" sonekini ekleyebilirsiniz.
 - Pencerenin sol alt kısmında indirme işleminin devam ettiğini gösteren "İndiriliyor Aspose.Cells..." ipucunun göründüğünü göreceksiniz.
 - İndirdikten sonra aşağıdaki onay mesajlarını göreceksiniz. Aspose EULA'ya aşina değilseniz, URL'de atıfta bulunulan lisansı okumak iyi bir fikirdir.
@@ -37,14 +37,14 @@ Aspose.Cells'i bir uygulamada kullanmak için ona bir referans ekleyin. Visual S
 Yalnızca DLL dosyasını indirdiyseniz veya paketini açtıysanız:
 
 1.  Aspose.Cells.dll dosyasını kullanarak bulun**Araştır** buton. Aspose.Cells görünmelidir**Seçilen Bileşenler** iletişim kutusunun bölmesi.
-1.  Tıklamak**TAMAM** . Aspose.Cells referansı,**Referanslar** projenin düğümü.
+1.  Tıklamak**Tamam** . Aspose.Cells referansı,**Referanslar** projenin düğümü.
 ### **Bileşene bir VS.NET 2010 İstemci Profili projesinden başvuru**
 Projenizin Hedef çerçevesi .NET Framework 3.5/4 İstemci Profili ise, kurulum dizininizin net_ClientProfile klasöründe bulunan Aspose.Cells.dll bileşen dosyasını kullanın. Örneğin:
 
 -  İçinde**Çözüm Gezgini** projeniz için VS.NET 2010, sağ tıklayın**Referanslar** ve seç**Referans ekle**.
 -  seçin**Araştır** iletişim kutusunda sekmesine gidin ve Şunu ara açılır menüsüne tıklayın.
 - Kurulum dizininizde Aspose.Cells.dll bileşen dosyasını bulun ve seçin, örneğin: .../Program Files/Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Ürünü MSI yükleyicisini kullanarak makinenize kurduğunuzdan emin olun. .)**
--  Tıklamak**TAMAM** iletişim kutusunu kapatmak için
+-  Tıklamak**Tamam** iletişim kutusunu kapatmak için
 
 {{% alert color="primary" %}} 
 

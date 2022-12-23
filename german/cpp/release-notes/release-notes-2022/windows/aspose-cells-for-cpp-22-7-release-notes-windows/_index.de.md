@@ -12,5 +12,5 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.7 für Window
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-829| IWarningCallback-Schnittstelle hinzufügen|Die Unterstützung|
-|CELLSCPP-839| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-829| IWarningCallback-Schnittstelle hinzufügen|Unterstützung|
+|CELLSCPP-839| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|

@@ -39,7 +39,7 @@ I vari parametri prestazionali sono i seguenti:
 
 
 
-- **IsAutoRowFit** : quando il valore di Performance è**spento** , il valore di IsAutoRowFit è**falso**per impostazione predefinita. Quando il valore del parametro delle prestazioni è**Su** , il valore è**VERO** per impostazione predefinita. Quando il valore della Performance è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit.
+- **IsAutoRowFit** : quando il valore di Performance è**spento** , il valore di IsAutoRowFit è**falso** per impostazione predefinita. Quando il valore del parametro delle prestazioni è**Su** , il valore è**VERO** per impostazione predefinita. Quando il valore della Performance è**Su** , un report di sottoelemento può reimpostare il report del punto sul valore AutoRowFit.
 
 {{< highlight "java" >}}
 

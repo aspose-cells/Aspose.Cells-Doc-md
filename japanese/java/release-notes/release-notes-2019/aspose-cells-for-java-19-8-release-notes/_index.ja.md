@@ -13,18 +13,18 @@ url: /ja/java/aspose-cells-for-java-19-8-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42949|ECDSA および RSA アルゴリズムのサポート|新機能|
-|CELLSJAVA-42979|PDF/画像に変換する前に総ページ数を取得する|新機能|
-|CELLSJAVA-42967|SVG ファイルをワークシートに挿入する|新機能|
+|CELLSJAVA-42979|PDF/image に変換する前に総ページ数を取得する|新機能|
+|CELLSJAVA-42967|SVG ファイルをワークシートに挿入します|新機能|
 |CELLSJAVA-42969|サポート Java 12 in Aspose.Cells for Java|強化|
 |CELLSJAVA-42977|Excel から PDF への変換中の CPU とメモリの消費量が多い|強化|
 |CELLSJAVA-42902|ワークブックのコピー中にウォーターフォール チャート スタイルが正しくコピーされない|バグ|
-|CELLSJAVA-42944|XLSX から HTML への変換中にエラーが発生しました|バグ|
+|CELLSJAVA-42944|XLSX を HTML に変換中にエラーが発生しました|バグ|
 |CELLSJAVA-42966|ピボットテーブルとピボットグラフを更新すると Excel ファイルが破損する|バグ|
-|CELLSJAVA-42975|HTML 変換の違い|バグ|
-|CELLSJAVA-42971|# レンダリングされた PDF に N/A が表示される
+|CELLSJAVA-42975|HTML変換の違い|バグ|
+|CELLSJAVA-42971|# N/A は、レンダリングされた PDF に表示されます
 |バグ|
-|CELLSJAVA-42970|Excel から PDF へのレンダリングで不要な境界線が拡張される|バグ|
-|CELLSJAVA-42976|Excel ファイルを PDF にレンダリングする際の画像位置の不一致|バグ|
+|CELLSJAVA-42970|Excel の不要な拡張境界線が PDF にレンダリングされる|バグ|
+|CELLSJAVA-42976|Excel ファイルを PDF にレンダリングすると、画像の位置が一致しません|バグ|
 |CELLSJAVA-42961|copyColumns を使用してデータをコピーしているときにテーブル プロパティが正しくコピーされない|バグ|
 |CELLSJAVA-42980|画像のコピー中に透明な画像が不透明に変わる|バグ|
 |CELLSJAVA-42959|XLSX ファイルを PDF にレンダリングするときの例外「Shape to image Error」|例外|

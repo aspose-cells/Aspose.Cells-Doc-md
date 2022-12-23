@@ -6,7 +6,7 @@ url: /es/net/change-tick-label-direction/
 ---
 ## **Cambiar la dirección de la etiqueta de marca**
 
-Aspose.Cells le brinda la posibilidad de cambiar la dirección de la etiqueta del tick del gráfico mediante el[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) propiedad. los[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) propiedad acepta la[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) valor de enumeración. los[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)enumeración proporciona los siguientes miembros
+Aspose.Cells le brinda la posibilidad de cambiar la dirección de la etiqueta del tick del gráfico mediante el[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) propiedad. Él[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) propiedad acepta la[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) valor de enumeración. Él[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)enumeración proporciona los siguientes miembros
 
 - Horizontal
 - Vertical

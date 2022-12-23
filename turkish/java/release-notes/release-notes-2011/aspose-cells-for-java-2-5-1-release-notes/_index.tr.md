@@ -24,9 +24,9 @@ url: /tr/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · ODS dosyalarını okuma/kaydetme hatalarını düzeltir.
 
- · Excel 97-2003 dosyalarını okuma/kaydetme hatalarını giderir.
+ · Excel 97-2003 dosyalarını okuma/kaydetme hatalarını düzeltir.
 
- · Grafikten Görüntüye, Sayfadan Görüntüye ve Excel'den PDF'e özellikleri için geliştirme yapıldı.
+ · Chart to Image, Sheet to Image ve Excel to PDF özelliklerinde geliştirme yapıldı.
 
  · Formülleri ayrıştırmak için iyileştirmeler yapıldı.
 
@@ -48,7 +48,7 @@ url: /tr/java/aspose-cells-for-java-2-5-1-release-notes/
 |22971 | Xl'ler|Şeklin mutlak konumunu al/ayarla|
 |22947 | Oranlar| Formülleri okuyun 2|
 |22950 | Xl'ler| Formülleri ayarla|
-|22998 | Xl'ler| XLS dosyalarını oku|
+|22998 | Xl'ler| XLS dosyasını oku|
 |22286 | Xl'ler| Kesintili kitaplık|
 |23070 | Xlsx| Pivot tabloları kaydet|
 |23048 | Xlsx| Şablon dosyasını oku|
@@ -58,6 +58,6 @@ url: /tr/java/aspose-cells-for-java-2-5-1-release-notes/
 |23649 | Xl'ler| Koşullu biçimlendirmeyi oku|
 |23600 | Xlsx| Grafik 2'yi kaydet|
 |23658 | Chart2Image| Chart2Image sorunu|
-|23721 | Xls2pdf| Oluşturulan PDF'nin düzen sorunları|
+|23721 | Xls2pdf| Oluşturulan PDF'in düzen sorunları|
 |23687 | Xlsx| Grafiğin ikincil eksenini kaydet|
 

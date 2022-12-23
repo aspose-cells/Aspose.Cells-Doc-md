@@ -25,7 +25,7 @@ url: /fr/sharepoint/convert-multiple-files/
 
 ![tâche : image_autre_texte](convert-multiple-files_2.png)
 ### **Utilisation du bouton du ruban serveur sous SharePoint 2010**
- Sous SharePoint 2010, le bouton du ruban du serveur est disponible à la place du menu d'action personnalisé utilisé avec SharePoint 2007 / WSS 3.
+Sous SharePoint 2010, le bouton du ruban du serveur est disponible à la place du menu d'action personnalisé utilisé avec SharePoint 2007 / WSS 3.
 
 **Conversion de documents avec Aspose.Cells for SharePoint sur SharePoint 2010** 
 

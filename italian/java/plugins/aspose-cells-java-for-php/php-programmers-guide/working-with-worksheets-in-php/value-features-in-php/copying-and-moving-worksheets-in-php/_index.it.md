@@ -47,6 +47,6 @@ $workbook->save($dataDir . "Move Worksheet.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Copiare e spostare fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Copiare e spostare fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/CopyingAndMovingWorksheets.php)

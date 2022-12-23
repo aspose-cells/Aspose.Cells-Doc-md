@@ -10,27 +10,27 @@ url: /es/java/aspose-cells-for-java-8-8-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41812 | Los marcadores de imagen no son compatibles al agrupar datos en marcadores inteligentes| Mejora|
 |CELLSJAVA-41772 | La conversión a HTML da como resultado una página vacía| Insecto|
-|CELLSJAVA-41738 | La alineación vertical del texto en un cuadro de texto cambia de la mitad a la parte superior al representar la hoja de cálculo en imagen y PDF| Insecto|
-|CELLSJAVA-41503 | Las advertencias de sustitución de fuentes no funcionan al convertir una hoja de cálculo a formato HTML| Insecto|
+|CELLSJAVA-41738 | La alineación vertical del texto en un cuadro de texto cambia de la mitad a la parte superior al representar la hoja de cálculo en Imagen y PDF| Insecto|
+|CELLSJAVA-41503 | Las advertencias de sustitución de fuentes no funcionan al convertir la hoja de cálculo al formato HTML| Insecto|
 |CELLSJAVA-41797 | Aspose.Cells no calcula correctamente el valor de la celda| Insecto|
 |CELLSJAVA-41779 | El método Cell.calculate() no está calculando los valores correctamente| Insecto|
 |CELLSJAVA-41813 | Distorsión del espacio al final de la segunda página resaltada en rojo en el archivo de muestra de Excel| Insecto|
-|CELLSJAVA-41744 | Texto desalineado en el PDF de salida| Insecto|
-|CELLSJAVA-41723 | Aspose.Cells PDF generado no coincide con PDF generado por Excel de la misma hoja de cálculo| Insecto|
-|CELLSJAVA-41802 |Las etiquetas de marca del eje de categoría no coinciden en el PDF de salida en la representación de Excel a PDF| Insecto|
-|CELLSJAVA-41800 | El ángulo de las etiquetas de los gráficos ha cambiado en el PDF del gráfico| Insecto|
+|CELLSJAVA-41744 | Texto desalineado en la salida PDF| Insecto|
+|CELLSJAVA-41723 |Aspose.Cells generó PDF discrepancias con Excel generó PDF de la misma hoja de cálculo| Insecto|
+|CELLSJAVA-41802 | Las etiquetas de marca del eje de categoría no coinciden en la salida PDF en Excel con la representación PDF| Insecto|
+|CELLSJAVA-41800 | El ángulo de las etiquetas de gráficos ha cambiado en Chart's PDF| Insecto|
 |CELLSJAVA-41798 | La entrada de la leyenda se recorta al convertir el gráfico a PDF| Insecto|
 |CELLSJAVA-41792 | Falta la barra de color rojo en Excel, pero se muestra en PDF| Insecto|
 |CELLSJAVA-41785 | La hoja de cálculo se corrompe después de copiar el libro de trabajo y establecer la posición de la etiqueta de datos| Insecto|
 |CELLSJAVA-41784 | Falta la barra de error al copiar el libro de trabajo| Insecto|
 |CELLSJAVA-41780 | El texto en el cuadro de texto se muestra incompleto al convertir la hoja de trabajo en imagen| Insecto|
 |CELLSJAVA-41773 | Faltan etiquetas de datos para un gráfico en la imagen de salida/PDF para la hoja de cálculo| Insecto|
-|CELLSJAVA-41757 | Las barras con valores positivos aparecen debajo de la regla del eje x de valor 0 en el PDF del gráfico| Insecto|
+|CELLSJAVA-41757 | Las barras con valores positivos aparecen debajo de la regla del eje x de valor 0 en el gráfico PDF| Insecto|
 |CELLSJAVA-41734 | El orden de la leyenda del gráfico se invierte al representar la hoja de trabajo en la imagen| Insecto|
 |CELLSJAVA-41811 | Aspose.Cells está rompiendo las tablas de Power Pivot al abrir y volver a guardar el formato de archivo XLSM| Insecto|
-|CELLSJAVA-41807 | Problema con filas agrupadas al copiar rangos en un archivo XLSX| Insecto|
-|CELLSJAVA-41806 | Problema con filas agrupadas al copiar rangos en un archivo XLS| Insecto|
-|CELLSJAVA-41804 |La fórmula para WordArt no reacciona al cambio de argumento después de convertir XLS a XLSB| Insecto|
+|CELLSJAVA-41807 |Problema con filas agrupadas al copiar rangos en el archivo XLSX| Insecto|
+|CELLSJAVA-41806 |Problema con filas agrupadas al copiar rangos en el archivo XLS| Insecto|
+|CELLSJAVA-41804 | Fórmula para WordArt no reacciona al cambio de argumento después de convertir XLS a XLSB| Insecto|
 |CELLSJAVA-41803 | El rango de formato condicional es incorrecto y no coincide con Microsoft Excel| Insecto|
 |CELLSJAVA-41809 | Worksheet.calculateFormula arroja una excepción de puntero nulo cuando la fórmula se establece a través de NameCollection| Excepción|
 |CELLSJAVA-41808 | "java.lang.NullPointerException" en Workbook.save| Excepción|

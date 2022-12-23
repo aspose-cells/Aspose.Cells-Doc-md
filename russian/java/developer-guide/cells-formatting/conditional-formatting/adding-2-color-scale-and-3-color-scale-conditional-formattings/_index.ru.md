@@ -6,7 +6,7 @@ url: /ru/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ---
 {{% alert color="primary" %}} 
 
-**2-цветная шкала** а также**3-цветная шкала** Условное форматирование добавляется таким же образом, за исключением того, что[FormatCondition.ColorScale.Is3ColorScale](https://reference.aspose.com/cells/java/com.aspose.cells/colorscale#Is3ColorScale) имущество. Это свойство**ЛОЖЬ** для двухцветной шкалы и**истинный** для условного форматирования с 3-цветной шкалой.
+**2-цветная шкала** и**3-цветная шкала** Условное форматирование добавляется таким же образом, за исключением того, что[FormatCondition.ColorScale.Is3ColorScale](https://reference.aspose.com/cells/java/com.aspose.cells/colorscale#Is3ColorScale) имущество. Это свойство**ЛОЖЬ** для двухцветной шкалы и**истинный** для условного форматирования с 3-цветной шкалой.
 
 {{% /alert %}} 
 ## **Добавление условного форматирования 2-цветной шкалы и 3-цветной шкалы**

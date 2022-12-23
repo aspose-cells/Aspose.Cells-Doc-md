@@ -1,12 +1,12 @@
 ﻿---
-title: Läs diagramundertext från ODS-fil
+title: Läs diagramunderrubrik från ODS fil
 type: docs
 weight: 160
 url: /sv/net/read-chart-subtitle-from-ods-file/
 ---
-## **Läs diagramundertext från ODS-fil**
+## **Läs diagramunderrubrik från ODS fil**
 
-Aspose.Cells ger dig möjlighet att läsa diagramundertexter i ODS-filer genom att använda[**Diagram.Undertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) fast egendom. Följande exempelkod laddar[exempel på ODS-fil](89620481.ods) och läser diagrammets undertext med hjälp av[**Diagram.Undertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) egenskapen och skriver ut den i konsolfönstret. Se konsolutgången för koden nedan för referens.
+Aspose.Cells ger dig möjlighet att läsa diagramundertexter i ODS-filer genom att använda[**Diagram.Undertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) fast egendom. Följande exempelkod laddar[exempel ODS fil](89620481.ods) och läser diagrammets undertext med hjälp av[**Diagram.Undertitel**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/subtitle) egenskapen och skriver ut den i konsolfönstret. Se konsolutgången för koden nedan för referens.
 
 ## **Exempelkod**
 

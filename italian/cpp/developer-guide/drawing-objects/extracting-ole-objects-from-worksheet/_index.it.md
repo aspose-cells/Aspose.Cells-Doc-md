@@ -12,5 +12,5 @@ url: /it/cpp/extracting-ole-objects-from-worksheet/
 - [outputExtractOleObject.pptx](66519080.pptx)
 - [outputExtractOleObject.pdf](66519079.pdf)
 - [outputExtractOleObject.docx](66519078.docx)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "DrawingObjects-ExtractingOLEObjectsFromWorksheet.cpp" >}}

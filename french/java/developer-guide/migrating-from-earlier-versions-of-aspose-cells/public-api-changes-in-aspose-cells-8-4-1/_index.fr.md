@@ -45,7 +45,7 @@ workbook.save(output);
 
 Voici quelques propriétés les plus importantes exposées par la classe {ExternalConnection}}.
 
-|**Nom de la propriété** |**La description** |
+|**Nom de la propriété** |**Description** |
 |:- |:- |
 | Actualisation de l'arrière-plan|Indique si la connexion peut être actualisée en arrière-plan (de manière asynchrone).<br> true si l'utilisation préférée de la connexion consiste à actualiser de manière asynchrone en arrière-plan ;<br> false si l'utilisation préférée de la connexion consiste à actualiser de manière synchrone au premier plan.|
 | ConnexionDescription| Spécifie la description de l'utilisateur pour cette connexion|
@@ -53,7 +53,7 @@ Voici quelques propriétés les plus importantes exposées par la classe {Extern
 | Identifiants| Spécifie la méthode d'authentification à utiliser lors de l'établissement (ou du rétablissement) de la connexion.|
 | Est supprimé|Indique si la connexion de classeur associée a été supprimée. vrai si le<br> la connexion a été supprimée ; sinon, faux.|
 | Est nouveau| True si la connexion n'a pas été actualisée pour la première fois ; sinon, faux. Cette<br> L'état peut se produire lorsque l'utilisateur enregistre le fichier avant qu'une requête n'ait fini de renvoyer.|
-| Rester en vie|Vrai lorsque l'application de feuille de calcul doit faire des efforts pour maintenir la connexion<br> ouvert. Si false, l'application doit fermer la connexion après avoir récupéré le<br> informations.|
+| Rester en vie|Vrai lorsque l'application de feuille de calcul doit faire des efforts pour maintenir la connexion<br> ouvrir. Si false, l'application doit fermer la connexion après avoir récupéré le<br> renseignements.|
 | Nom| Spécifie le nom de la connexion. Chaque connexion doit avoir un nom unique.|
 | OdcFile| Spécifie le chemin d'accès complet au fichier de connexion externe à partir duquel cette connexion a été<br> établi. Si une connexion échoue lors d'une tentative d'actualisation des données et que reconnectionMethod=1,<br> puis l'application de feuille de calcul essaiera à nouveau en utilisant les informations du fichier de connexion externe<br> au lieu de l'objet de connexion incorporé dans le classeur.|
 | OnlyUseConnectionFile| Indique si le tableur doit toujours et uniquement utiliser le<br> informations de connexion dans le fichier de connexion externe indiqué par l'attribut odcFile<br> lorsque la connexion est actualisée. Si false, alors l'application de feuille de calcul<br>doit suivre la procédure indiquée par l'attribut reconnectionMethod|
@@ -113,7 +113,7 @@ workbook.save(output);
 ### **Possibilité de définir les dimensions d'image souhaitées pour l'exportation de feuilles de calcul et de graphiques**
 Aspose.Cells for Java 8.4.1 a exposé la méthode ImageOrPrintOptions.setDesiredSize pour définir les dimensions de l'image résultante lors de l'exportation de feuilles de calcul et de graphiques vers des images. La méthode ImageOrPrintOptions.setDesiredSize accepte deux paramètres de type entier, où le premier est la largeur souhaitée et le second la hauteur souhaitée.
 
-L'extrait de code suivant montre comment définir les dimensions souhaitées lors de l'exportation de la feuille de calcul au format PNG.
+L'extrait de code suivant montre comment définir les dimensions souhaitées lors de l'exportation de la feuille de calcul vers PNG.
 
 **Java**
 
@@ -151,7 +151,7 @@ renderer.toImage(0, "output.png");
 
 {{% /alert %}} 
 
-### **Rendu des commentaires au format PDF**
+### **Rendu des commentaires au PDF**
  Avec la version v8.4.1, le Aspose.Cells API a fourni la propriété PageSetup.PrintComments et l'énumération PrintCommentsType afin de faciliter le rendu des commentaires lors de la conversion des feuilles de calcul au format PDF. L'énumération PrintCommentsType a les constantes suivantes.
 
 - PrintCommentsType.PRINT_NON_COMMENTAIRES : Les commentaires ne doivent pas être rendus.

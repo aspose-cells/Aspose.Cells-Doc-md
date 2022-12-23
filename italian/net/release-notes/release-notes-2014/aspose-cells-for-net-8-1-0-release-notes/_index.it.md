@@ -11,7 +11,7 @@ url: /it/net/aspose-cells-for-net-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET è stato aggiornato alla versione 8.1.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 20 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Usando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -22,7 +22,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 ## **Nuove caratteristiche**
 
 
-(CELLSNET-42761) - Rimuovere gli scenari dai fogli di lavoro
+ (CELLSNET-42761) - Rimuovere gli scenari dai fogli di lavoro
 
 
 ## **Insetti**
@@ -32,7 +32,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42387) - Il testo viene spostato fuori dal banner.
 
- (CELLSNET-42385) - La forma del connettore curvo non viene visualizzata durante il rendering di XLSX in PDF
+ (CELLSNET-42385) - La forma del connettore curvo non viene visualizzata durante il rendering da XLSX a PDF
 
  (CELLSNET-42379) - Il testo nella matrice viene visualizzato in modo diverso
 
@@ -44,7 +44,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42742) - Aspose.Cells Incorpora caratteri errati nel PDF
 
- (CELLSNET-42697) - L'intestazione viene duplicata nel pdf di output
+(CELLSNET-42697) - L'intestazione viene duplicata nel pdf di output
 
  (CELLSNET-42759) - Le etichette dell'asse X del grafico sono tagliate
 
@@ -52,7 +52,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42750) - Le frecce vengono visualizzate speculari su un asse verticale
 
-(CELLSNET-42748) - Le linee della legenda sono più sottili che in Excel
+ (CELLSNET-42748) - Le linee della legenda sono più sottili che in Excel
 
  (CELLSNET-42730) - Da XLSM a PDF tende a bloccarsi quando vengono apportate modifiche al valore e al formato Cell
 
@@ -66,11 +66,11 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42725) - L'immagine inserita perde le dimensioni originali
 
- (CELLSNET-42716) - Nastri XLSM persi dopo aver salvato nuovamente il file XLSM
+ (CELLSNET-42716) - XLSM Nastri persi dopo aver salvato nuovamente il file XLSM
 
- (CELLSNET-42711) - Row.ApplyStyle non funziona correttamente
+(CELLSNET-42711) - Row.ApplyStyle non funziona correttamente
 
- (CELLSNET-42708) - Il colore di sfondo verde delle celle scompare nell'HTML
+ (CELLSNET-42708) - Il colore di sfondo verde delle celle scompare in HTML
 
  (CELLSNET-42695) - Errore di visualizzazione protetta nel file MS Excel - È richiesta un'indagine
 
@@ -80,7 +80,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42782) - System.FormatException durante la lettura del file xlsx
 
-(CELLSNET-42758) - Il cast specificato non è un'eccezione valida in Cell.GetDisplayStyle()
+ (CELLSNET-42758) - Il cast specificato non è un'eccezione valida in Cell.GetDisplayStyle()
 
  (CELLSNET-42724) - StackOverflowException si è verificata durante la chiamata al metodo Worksheet/Workbook.CalculateFormula()
 
@@ -89,10 +89,10 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
  (CELLSNET-42706) - System.OutOfMemoryException in DetectFileFormat
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 

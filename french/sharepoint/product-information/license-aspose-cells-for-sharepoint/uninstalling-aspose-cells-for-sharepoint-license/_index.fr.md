@@ -15,6 +15,6 @@ url: /fr/sharepoint/uninstalling-aspose-cells-for-sharepoint-license/
 1. Exécutez les travaux du minuteur d'administration pour terminer la rétractation immédiatement :
  stsadm.exe -o execadmsvcjobs
 1. Attendez que la rétraction soit terminée.
- Vous pouvez utiliser l'Administration centrale pour vérifier si la rétractation est terminée en accédant à**Administration centrale** , alors**Opérations** et**Gestion des solutions**.
+ Vous pouvez utiliser l'Administration centrale pour vérifier si la rétractation est terminée en accédant à**Administration centrale** , ensuite**Opérations** et**Gestion des solutions**.
 1. Supprimez la solution du magasin de solutions SharePoint :
  stsadm.exe -o deletesolution -name Aspose.Cells.SharePoint.License.wsp

@@ -21,7 +21,7 @@ Aspose.Cells for Java 已更新至版本 7.7.2，我们很高兴地宣布此版�
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-40475) - 在 Excel 文档上打印注释
 (CELLSJAVA-40732) - 支持 Justify 分布式对齐设置

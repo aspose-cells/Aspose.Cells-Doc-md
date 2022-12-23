@@ -12,7 +12,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for SharePoint 17.6.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSSP-25|Stöd rendering till XLSM-filformat|Ny funktion|
+|CELLSSP-25|Stöd rendering till XLSM filformat|Ny funktion|
 |CELLSSP-45|Lägg till vattenstämpel i Excel-dokument|Ny funktion|
 |CELLSSP-46|Lägg till sidfot i Excel-dokument|Ny funktion|
 |CELLSSP-38|Förbättringar görs för konverteringsfunktionen|Förbättring|

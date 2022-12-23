@@ -12,7 +12,7 @@ kullanarak çalışma sayfanıza veri aktardığınızda formül alanlarını be
 
  Lütfen verileri bir çalışma sayfasına alırken formül alanının nasıl belirtileceğini açıklayan aşağıdaki örnek koda bakın. Lütfen bkz[çıktı excel dosyası](61767838.xlsx)kod tarafından oluşturulan ve kodun çıktı Excel dosyası üzerindeki etkisini gösteren ekran görüntüsü.
 
-![yapılacaklar:resim_alternatif_Metin](specify-formula-fields-while-importing-data-to-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
 ## **Basit kod**
 

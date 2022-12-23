@@ -32,7 +32,7 @@ url: /ar/java/missing-features-of-xlsx4j-in-aspose-cells/
   - [كشف Cells مدمج في xlsx4j](/cells/ar/java/detect-merged-cells-in-xlsx4j/)
   - [عرض وإخفاء أشرطة التمرير للمصنفات في xlsx4j](/cells/ar/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
   - [عرض وإخفاء علامات تبويب المصنف في xlsx4j](/cells/ar/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-  - [احفظ كل ورقة عمل في ملف PDF مختلف في xlsx4j](/cells/ar/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+  - [احفظ كل ورقة عمل في PDF مختلفة في xlsx4j](/cells/ar/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
   - [اضبط لون علامة تبويب ورقة العمل في xlsx4j](/cells/ar/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **ملحوظة:** العديد من الأمثلة ليست متاحة بعد قريبًا.

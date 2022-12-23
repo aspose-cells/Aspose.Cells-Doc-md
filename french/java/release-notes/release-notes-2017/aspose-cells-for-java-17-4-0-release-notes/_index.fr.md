@@ -10,31 +10,31 @@ url: /fr/java/aspose-cells-for-java-17-4-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41975|Prise en charge du formatage DBNum (modèle personnalisé)|Nouvelle fonctionnalité|
-|CELLSJAVA-42237|L'accès à la cellule crée du code HTML avec des lignes vides|Renforcement|
+|CELLSJAVA-42237|L'accès à la cellule crée HTML avec des lignes vides|Renforcement|
 |CELLSJAVA-42236|Problème de performances avec un environnement multi-threading|Renforcement|
-|CELLSJAVA-42226|Limiter à un dossier et ses sous-dossiers pour utiliser les polices dans le rendu des images/PDF|Renforcement|
-|CELLSJAVA-42239|Erreur de format de chaîne d'entrée lors du chargement d'un code HTML|Punaise|
+|CELLSJAVA-42226|Limiter à un dossier et ses sous-dossiers pour utiliser des polices dans le rendu des images/PDF|Renforcement|
+|CELLSJAVA-42239|Erreur de format de chaîne d'entrée lors du chargement d'un HTML|Punaise|
 |CELLSJAVA-42230|Un attribut d'alignement supplémentaire est généré lors de la conversion de XLSX en HTML|Punaise|
 |CELLSJAVA-42229|Exporter XLSX vers HTML - Les symboles de hachage sont générés à la place des valeurs réelles Cell|Punaise|
 |CELLSJAVA-42218|HTML n'est pas correctement converti en fichier Excel|Punaise|
-|CELLSJAVA-42210|Une partie de la mise en forme conditionnelle de DataBar est manquante dans le HTML de sortie|Punaise|
+|CELLSJAVA-42210|Une partie de la mise en forme conditionnelle de DataBar est manquante dans la sortie HTML|Punaise|
 |CELLSJAVA-41783|L'image d'arrière-plan doit être au format SVG mais elle est au format PNG|Punaise|
 |CELLSJAVA-42253|La valeur de la cellule dépendante provoque une erreur dans XLS|Punaise|
 |CELLSJAVA-42222|La somme n'est pas correcte après le calcul du classeur|Punaise|
 |CELLSJAVA-42254|GridWebServlet?acw_ajax_une erreur d'appel se produit lors du chargement de GridWeb|Punaise|
-|CELLSJAVA-42243|Excel en PDF - Square ressemble à Rectangle|Punaise|
-|CELLSJAVA-42242|Excel en PDF - Le cercle ressemble à une forme ovale|Punaise|
+|CELLSJAVA-42243|Excel vers PDF - Le carré ressemble à un rectangle|Punaise|
+|CELLSJAVA-42242|Excel vers PDF - Le cercle ressemble à une forme ovale|Punaise|
 |CELLSJAVA-42227|Le fichier image "x1.png" a une bordure supérieure supplémentaire et une bordure inférieure manquante|Punaise|
 |CELLSJAVA-42212|Problème de performances lors de l'exportation d'un XLS vers PDF|Punaise|
 |CELLSJAVA-42246|Excel vers HTML - L'alignement du texte dans l'étiquette de l'axe Y du graphique est incorrect|Punaise|
 |CELLSJAVA-42223|Les points du graphique en radar xy px renvoient 0|Punaise|
 |CELLSJAVA-42216|Les valeurs liées de l'axe Y du graphique à bulles changent lorsque AxisScalingValuesIssue-2.xlsx est converti en PDF|Punaise|
 |CELLSJAVA-42250|Erreur de compilation si le code contient une définition de variable de type CommandBar|Punaise|
-|CELLSJAVA-42241|Excel vers PDF - Les parenthèses arrivent dans la ligne suivante|Punaise|
-|CELLSJAVA-42234|L'enregistrement du fichier XLSM au format XLS supprime l'action macro du bouton|Punaise|
+|CELLSJAVA-42241|Excel vers PDF - Les parenthèses arrivent sur la ligne suivante|Punaise|
+|CELLSJAVA-42234|L'enregistrement du fichier XLSM sous le nom XLS supprime l'action macro du bouton|Punaise|
 |CELLSJAVA-42233|Mettre à jour le code - Application du format 3D au graphique|Punaise|
 |CELLSJAVA-42225|Impossible de définir la plage d'entrée de la forme|Punaise|
 |CELLSJAVA-42224|Problème de tri des commentaires|Punaise|

@@ -60,7 +60,7 @@ Aspose.Cells for Reporting Services 客户端组件
 
 
 
-- 服务器组件 - 字段在呈现为 XLSX 时合并
+- 服务器组件 - 呈现为 XLSX 时合并字段
 - 服务器组件 - Aspose.Cells for Reporting Services 的导出问题
 - 服务器组件 - 隐藏列在呈现后可见
 - 服务器组件 - 列组标题丢失

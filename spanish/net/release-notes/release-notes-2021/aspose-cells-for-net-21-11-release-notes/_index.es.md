@@ -17,15 +17,15 @@ url: /es/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49651|Admite guardar como archivo json.|Nueva caracteristica|
 |CELLSNET-48499|Recuperar valores de celda formateados contra ciertas celdas|Mejora|
 |CELLSNET-49523|Borre los nombres definidos al borrar las hojas de trabajo.|Mejora|
-|CELLSNET-48646|Excepción de StackOverflow durante la conversión de Excel a PDF|Actuación|
-|CELLSNET-49378|Problema con el rendimiento de conversión de Excel a HTML y celdas vacías|Actuación|
-|CELLSNET-49453|Mejore el rendimiento al convertir Excel a HTML|Actuación|
+|CELLSNET-48646|Excepción de StackOverflow mientras Excel a PDF Conversión|Rendimiento|
+|CELLSNET-49378|Problema con el rendimiento de conversión de Excel a HTML y celdas vacías|Rendimiento|
+|CELLSNET-49453|Mejore el rendimiento al convertir Excel a HTML|Rendimiento|
 |CELLSNET-48095|3D, la forma de la nube cambió|Insecto|
 |CELLSNET-49544|Error al guardar NamedRange externo que hace referencia al rango de varias hojas|Insecto|
 |CELLSNET-49588|Datos de tipo único guardados de forma diferente al valor original|Insecto|
 |CELLSNET-49667|El resultado del formato condicional ColorScale es incorrecto|Insecto|
 |CELLSNET-49043|La posición de la línea dibujada no es correcta en la imagen|Insecto|
-|CELLSNET-49068|PDF incorrecto generado a partir de un archivo de Excel|Insecto|
+|CELLSNET-49068|Error PDF generado a partir de un archivo de Excel|Insecto|
 |CELLSNET-49179|La referencia del título del eje se eliminó inesperadamente|Insecto|
 |CELLSNET-49294|Los ejes de algunos gráficos son diferentes de los de los archivos de Excel|Insecto|
 |CELLSNET-49495|Superposición de representación de fórmulas|Insecto|
@@ -34,10 +34,10 @@ url: /es/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49193|GridDesktop no funciona correctamente|Insecto|
 |CELLSNET-49642|Aspose.Cells.GridWeb tiene una dependencia no declarada de Newtonsoft.Json|Insecto|
 |CELLSNET-49452|El texto de varias líneas no se representa correctamente|Insecto|
-|CELLSNET-49498|Transmisión de HTML a Excel que genera una excepción con las últimas versiones|Insecto|
+|CELLSNET-49498|HTML transmite a Excel generando una excepción con las últimas versiones|Insecto|
 |CELLSNET-49610|Importación de Xml perdiendo formato de plantilla|Insecto|
-|CELLSNET-49671|El texto con fuentes Windings no se representa correctamente en imágenes/HTML|Insecto|
-|CELLSNETCORE-278|Los resultados de la conversión de XLSX a PDF no se pueden abrir cuando la cultura está configurada en noruego|Insecto|
+|CELLSNET-49671|El texto con fuentes Windings no se representa correctamente en las imágenes/HTML|Insecto|
+|CELLSNETCORE-278|Los resultados de conversión de XLSX a PDF no se pueden abrir cuando la cultura está establecida en noruego|Insecto|
 |CELLSNET-49560|Diferencias en XML|Insecto|
 |CELLSNET-49598|Regresión: diferencias en XML después de guardar|Insecto|
 |CELLSNET-49630|Marcas de verificación incorrectas en la conversión a EMF|Insecto|

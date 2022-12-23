@@ -24,6 +24,6 @@ url: /ru/java/reusing-style-objects/
 
 {{% alert color="primary" %}}
 
- Поскольку[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle() ) а также[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style) ) методы используют намного меньше памяти и эффективнее, чем старше*Cell.получить стиль()* свойство, потреблявшее много ненужной памяти, было удалено с выпуском*Aspose.Cells 7.1.0*.
+ Поскольку[**Cell.getStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle() ) и[**Cell.setStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle(com.aspose.cells.Style) ) методы используют намного меньше памяти и эффективнее, чем старше*Cell.получить стиль()* свойство, потреблявшее много ненужной памяти, было удалено с выпуском*Aspose.Cells 7.1.0*.
 
 {{% /alert %}}

@@ -34,7 +34,7 @@ Esistono due modi possibili per controllare il posizionamento delle immagini uti
 
 ### **Posizionamento assoluto**
 
- Gli sviluppatori possono anche posizionare le immagini in modo assoluto utilizzando il file[**Sono partiti**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) e[**Superiore**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) proprietà del[**Immagine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)oggetto. Questo esempio posiziona un'immagine nella cella F6, 60 pixel da sinistra e 10 pixel dalla parte superiore della cella.
+ Gli sviluppatori possono anche posizionare le immagini in modo assoluto utilizzando il file[**Sinistra**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/left) e[**Superiore**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/top) proprietà del[**Immagine**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)oggetto. Questo esempio posiziona un'immagine nella cella F6, 60 pixel da sinistra e 10 pixel dalla parte superiore della cella.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-AbsolutePositioning-1.cs" >}}
 

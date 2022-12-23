@@ -15,18 +15,18 @@ url: /zh/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43137|Light Cells API：按特定顺序处理表|新功能|
 |CELLSJAVA-43135|从图片形状中删除 ActiveXControl|新功能|
 |CELLSJAVA-43141|添加 ThreadedComment.CreatedTime 属性|新功能|
-|CELLSJAVA-42068|工作簿转成HTML时工作表中的GIF是错误的|漏洞|
+|CELLSJAVA-42068|工作簿转换成HTML时工作表中的GIF是错误的|漏洞|
 |CELLSJAVA-43127|首次打开文件时，Excel 数据透视表不会自动刷新|漏洞|
-|CELLSJAVA-43129|中文文本在HTML到XLS转换中出现乱码|漏洞|
+|CELLSJAVA-43129|HTML到XLS转换中文乱码|漏洞|
 |CELLSJAVA-43139|将工作表渲染为图像时，工作表中的图表不会刷新|漏洞|
 |CELLSJAVA-43148|图表标签位置错误|漏洞|
-|CELLSJAVA-43124|在转换为 PDF 时，两列从表格中删除|漏洞|
+|CELLSJAVA-43124|在转换为 PDF 时，两列从表中删除|漏洞|
 |CELLSJAVA-43091|甜甜圈图上的数据标签在 PDF 文件中重叠|漏洞|
 |CELLSJAVA-43132|将图表导出到图像时某些图表中缺少数据标签|漏洞|
-|CELLSJAVA-43143|WorkbookDesigner.process 之后，Chart 在 HTML 中输出 null|漏洞|
-|CELLSJAVA-43098|用图片替换嵌入对象不适用于 XLS 文件格式|漏洞|
-|CELLSJAVA-43122|导入 Office365 XLSX 文件格式后线程注释的顺序出现问题|漏洞|
-|CELLSJAVA-43134|Apple Numbers'09 中某个单元格的字符串值为空|漏洞|
+|CELLSJAVA-43143|在 WorkbookDesigner.process 之后，Chart 在 HTML 中输出 null|漏洞|
+|CELLSJAVA-43098|用图片替换嵌入对象对 XLS 文件格式不起作用|漏洞|
+|CELLSJAVA-43122|导入到 Office365 XLSX 文件格式后线程注释的顺序出现问题|漏洞|
+|CELLSJAVA-43134|Apple Numbers'09 单元格的字符串值为空|漏洞|
 |CELLSJAVA-43144|检测到的 IsItalic 属性与 MS Excel 不同 (Java)|漏洞|
 |CELLSJAVA-43140|调用 calculateFormula() 时出现 IllegalArgumentException|例外|
 |CELLSJAVA-43110|转换为 PDF - java.lang.NullPointerException|例外|

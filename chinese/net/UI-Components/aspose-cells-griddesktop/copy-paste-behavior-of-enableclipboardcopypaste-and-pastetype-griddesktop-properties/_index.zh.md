@@ -31,14 +31,14 @@ GridDesktop 通过 Aspose.Cells.GridDesktop.GridDesktop.PasteType 属性提供�
 ## **将 EnableClipboardCopyPaste 属性设置为 True 以启用 PasteType 属性**
 Aspose.Cells.GridDesktop.GridDesktop.PasteType 属性仅在您将 Aspose.Cells.GridDesktop.GridDesktop.EnableClipboardCopyPaste 属性设置为 true 时才有效，如此屏幕截图所示。
 
-![待办事项：图像_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
+![待办事项：图片_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_1.png)
 ## **EnableClipboardCopyPaste 和 PasteType 属性的行为**
 假设 EnableClipboardCopyPaste 为 false 且 PasteType 为 All，则以下屏幕截图显示，将单元格 B3 复制并粘贴到单元格 C5 时，不会复制单元格格式，只会复制单元格 B3 的内容。
 
-![待办事项：图像_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_2.png)
+![待办事项：图片_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_2.png)
 
 鉴于 EnableClipboardCopyPaste 为真且 PasteType 为 All，以下屏幕截图显示，当将单元格 B3 复制并粘贴到单元格 C5 时，它还会将单元格 B3 的格式复制到单元格 C5。
 
-![待办事项：图像_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
+![待办事项：图片_替代_文本](copy-paste-behavior-of-enableclipboardcopypaste-and-pastetype-griddesktop-properties_3.png)
 
 

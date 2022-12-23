@@ -125,7 +125,7 @@ Ett dataSet11-objekt läggs till i designern.
 1. Välj GridWeb-kontrollen och högerklicka.
 1.  Välj**Arbetsbladsdesigner** alternativ från menyn.
 
-   **Välj alternativet Arbetsbladsdesigner** 
+   **Välja alternativet Arbetsbladsdesigner** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_14.png)
 
@@ -153,7 +153,7 @@ Dialogrutan innehåller flera egenskaper som kan konfigureras för att binda She
 
 
 
-1.  Kontrollera**BindColumns** fast egendom.
+1.  Kolla**BindColumns** fast egendom.
    **Klicka på BindColumns-egenskapen** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
@@ -365,12 +365,12 @@ En ny rad läggs till i arket i slutet av andra rader.
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_32.png)
 ### **Redigera data**
- Applikationen låter än så länge endast dess användare se tabelldata. Användare kan redigera data i GridWeb-kontrollen, men när man stänger webbläsaren och öppnar databasen har ingenting förändrats. De ändringar som görs sparas inte i databasen.
+ Applikationen låter än så länge endast dess användare se tabelldata. Användare kan redigera data i GridWeb-kontrollen, men när man stänger webbläsaren och öppnar databasen har ingenting förändrats. Ändringarna som görs sparas inte i databasen.
 
  Följande exempel lägger till kod till applikationen så att GridWeb kan spara ändringar i databasen.
 
 1. Öppna**Egenskaper** och välj GridWeb-kontrollens SaveCommand-händelse från listan.
-   **Väljer SaveCommand-händelse för GridWeb** 
+   **Att välja SaveCommand-händelse för GridWeb** 
 
 ![todo:image_alt_text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)
 

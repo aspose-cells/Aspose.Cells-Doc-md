@@ -4,14 +4,14 @@ type: docs
 weight: 20
 url: /tr/net/dnn-export-users-and-roles-to-excel/
 ---
-## **giriiş**
+## **Giriş**
 Aspose .NET Kullanıcıları ve Rolleri Excel'e Aktar Modülü, geliştiricilerin DNN Kullanıcılarını rolleriyle birlikte Microsoft Excel veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
 ### **Modül Özellikleri**
 Modülün bu ilk sürümü, Dışa Aktarma işlemini basit ve kullanımı kolay hale getirmek için aşağıdaki harika özelliklerle zenginleştirilmiştir.
 
 - Kullanıcıları Microsoft Excel Belgelerine (.xls, .xlsx ve .xlsb) dışa aktarın
 - Kullanıcıları Sekmeyle ayrılmış metin belgesine (*.txt) aktarın
-- Kullanıcıları CSV'ye (Virgülle ayrılmış) (*.csv) dışa aktarın
+- Kullanıcıları CSV (Virgülle ayrılmış) (*.csv) olarak dışa aktarın
 - Kullanıcıları OpenDocument Elektronik Tablosuna (*.ods) aktarın
 - Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
 - Tüm veya seçili kullanıcıları seçili çıktı belgesi biçimine aktarma seçeneği.
@@ -40,7 +40,7 @@ DNN modülü için Aspose .NET Cells Export Users and Roles to Excel'i aşağıd
 1.  Şuraya git:**Ev sahibi** menü ve seçin**Uzantılar**.
 1.  Tıklamak**Uzantı Sihirbazını Kur**.
 1. Belirtildiği gibi, indirilen zip dosyasının konumuna göz atın, onu seçin ve ardından tıklayın**Açık**.
-1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Dönüş** buton.
+1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Geri dönmek** buton.
 
  lütfen kontrol edin[bu modül kurulum videosu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) Daha fazla ayrıntı için DNN'den.
 ## **kullanma**
@@ -56,7 +56,7 @@ Aspose .NET DNN için Kullanıcıları ve Rolleri Excel'e Aktar modülünü sayf
 ## **Video Demosu**
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=fq8xh2uE2gc) modülü çalışırken görmek için aşağıdaki
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

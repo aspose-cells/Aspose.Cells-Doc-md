@@ -14,17 +14,17 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|Поддержка сортировки PivotField через вычисляемое поле|
 |CELLSJAVA-44811|Поддержка указания листов для вывода при экспорте в pdf/xps.|
-|CELLSJAVA-44194|Форма чертежа не отображается при преобразовании Excel в PDF|
+|CELLSJAVA-44194|Форма чертежа не отображается в Excel для рендеринга PDF|
 |CELLSJAVA-44733|Исследуйте правила MS Excel для отображения границы ячейки, когда соседний столбец скрыт: граница ячейки не была синхронизирована|
 |CELLSJAVA-44777|Экспорт формул в html только в зависимости от опции HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|Улучшить синтаксический анализ строки html в ячейку|
-|CELLSJAVA-44695| Плохое преобразование в PDF из XLS с выноской линии слева от листа|
+|CELLSJAVA-44695| Плохое преобразование в PDF из XLS с выноской строки слева от листа|
 |CELLSJAVA-44700|Вычисляемые поля сводной таблицы не обновляются при обновлении источника данных|
 |CELLSJAVA-44705|Cell.getDependents() выдает исключение или не может предоставить всех иждивенцев|
 |CELLSJAVA-44717|Проблема со стилем границы (линии)|
 |CELLSJAVA-44707| граница не отображается|
-|CELLSJAVA-44670| Проблема с формулами в выходном HTML — преобразование Excel в HTML|
-|CELLSJAVA-44202|При экспорте в HTML легенда на диаграмме не такая, как в MS Excel|
+|CELLSJAVA-44670| Проблема с формулами в выводе HTML - преобразование Excel в HTML|
+|CELLSJAVA-44202|При экспорте в HTML легенда в диаграмме не совпадает с MS Excel|
 |CELLSJAVA-44591|Поворот текста меток не соответствует Excel в выходном изображении диаграммы|
 |CELLSJAVA-44655|Невозможно отобразить диаграмму Treemap с отрицательным значением, что приводит к продолжению выполнения|
 |CELLSJAVA-44686|Текст заголовка диаграммы (2016) неверен, если для Title.IsAutoText установлено значение true.|
@@ -51,14 +51,14 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44860|отображение текста ячейки не такое, как в Excel в некоторых объединенных областях|
 |CELLSJAVA-44832|Выводятся несколько страниц вместо одной страницы, как в Excel при конвертации в pdf|
 |CELLSJAVA-44812|Невозможно уменьшить область графика для диаграммы|
-|CELLSJAVA-44831|MS Word выдает сообщение об ошибке «Word обнаружил нечитаемое содержимое в…» при открытии преобразованного файла DOCX из файла XLSX по номеру Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word выдает ошибку «Word обнаружил нечитаемое содержимое в…» при открытии конвертированного файла DOCX из XLSX автором Aspose.Cells for Java|
 |CELLSJAVA-44833|Цвет текста не применяется к разным словам или части содержимого в выходном файле Excel при использовании метода Cell.setHtmlString()|
 |CELLSJAVA-44852| Граница неверна, когда статический файл Excel преобразуется в HTML|
 |CELLSJAVA-44856| Преобразование Excel в HTML — спарклайн (мини-диаграмма) не отображается/не отображается|
 |CELLSJAVA-44859|Некоторые форматы HTML не работают для ячеек листа в существующем файле Excel.|
-|CELLSJAVA-44725| Исключение «java.util.zip.ZipException: недопустимый размер записи (ожидалось 0, но получено 1053 байта)» при преобразовании XLSX в PDF|
+|CELLSJAVA-44725| Исключение «java.util.zip.ZipException: недопустимый размер записи (ожидаемый 0, но получено 1053 байта)» при преобразовании XLSX в PDF|
 |CELLSJAVA-44763|Исключение «java.lang.IllegalArgumentException: невозможно проанализировать номер аргумента: 1: X8» при загрузке файла Excel с использованием «org.apache.commons.io.input.AutoCloseInputStream»|
-|CELLSJAVA-44774|Ошибка при сохранении в формате PDF. Требуется проверка|
+|CELLSJAVA-44774|Ошибка при сохранении как PDF - Требуется расследование|
 |CELLSJAVA-44842|Исключение «java.lang.OutOfMemoryError: Java пространство кучи» при преобразовании файла XLSX в PDF|
 
 
@@ -150,7 +150,7 @@ url: /ru/java/aspose-cells-for-android-via-java-22-9-release-notes/
 
 Поддержка установки формул для диапазона ячеек для создания таблицы данных с двумя переменными и таблицы данных с одной переменной.
 
-### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, копты CalculationOptions)**
+### **Добавляет метод Cell.SetDynamicArrayFormula(string arrayFormula, FormulaParseOptions options, object[][] values, bool calculateRange, bool calculateValue, CalculationOptions copys)**
 
 Поддержка установки формулы динамического массива с настраиваемыми параметрами для расчета, особенно когда есть функции, которым требуется пользовательский движок для расчета в формуле.
 

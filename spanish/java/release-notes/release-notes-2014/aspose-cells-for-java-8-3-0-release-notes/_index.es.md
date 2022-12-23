@@ -33,24 +33,24 @@ Insectos
 (CELLSJAVA-41076) - ExternalLink.setDataSource no eliminó correctamente la referencia XLA
 (CELLSJAVA-41068) - El archivo XLSX está dañado después de volver a guardar el archivo a través de las API Aspose.Cells
 (CELLSJAVA-41066): los pasos del eje del gráfico se interrumpieron después de copiar la hoja de trabajo
-(CELLSJAVA-41060): al cambiar la paleta de colores del libro de trabajo mientras se guarda el XLSX en XLS, MS Excel abre la hoja de cálculo resultante en la vista protegida.
-(CELLSJAVA-41059): cambio en el orden de las reglas de formato condicional al guardar XLSX en XLS con cambio de paleta
+(CELLSJAVA-41060): cambiar la paleta de colores del libro de trabajo mientras se guarda el XLSX a XLS hace que MS Excel abra la hoja de cálculo resultante en la vista protegida
+(CELLSJAVA-41059): cambio en el orden de las reglas de formato condicional al guardar XLSX a XLS con cambio de paleta
 (CELLSJAVA-41057) - Pérdida de cotizaciones para ciertos rangos con nombre
-(CELLSJAVA-41056) - Cells. El método copyRows() no copia minigráficos en el formato de archivo XLSX
+(CELLSJAVA-41056) - El método Cells.copyRows() no copia minigráficos en el formato de archivo XLSX
 (CELLSJAVA-41055): problema de formato de texto al leer los estilos de las celdas
 (CELLSJAVA-41049) - ¡Obteniendo #VALOR! error al usar la función TASA
 (CELLSJAVA-41038) - Las series ocultas dentro de la leyenda vuelven a aparecer después de copiar la hoja de trabajo.
 (CELLSJAVA-41036): los pasos del eje del gráfico se interrumpieron cuando se volvió a guardar el libro de trabajo
 (CELLSJAVA-41054) - Copiar la imagen pegada que no se muestra en el PDF
-(CELLSJAVA-41044) - Aspose.Cells PDF generado no pasa la prueba de cumplimiento de PDF/A-1b
+(CELLSJAVA-41044) - Aspose.Cells generado PDF no pasa la prueba de cumplimiento PDF/A-1b
 (CELLSJAVA-41015) - Aspose.Cells El documento PD/A-1b generado falla en la validación previa al vuelo
-(CELLSJAVA-40951): el documento PDF está dañado y no se puede abrir en Acrobat Reader después de convertirlo desde un archivo de plantilla de Excel
+(CELLSJAVA-40951) - El documento PDF está dañado y no se puede abrir en Acrobat Reader después de convertir desde un archivo de plantilla de Excel
 (CELLSJAVA-40725) - Las imágenes prediseñadas no aparecen en pdf
-(CELLSJAVA-40692) - El cumplimiento de PDF/A-1b falló con Adobe Preflight
+(CELLSJAVA-40692): el cumplimiento PDF/A-1b falló con Adobe Preflight
 (CELLSJAVA-41086): los nombres de las series de gráficos definidos por el usuario están vacíos
 (CELLSJAVA-41065): los títulos de los gráficos están desordenados
-(CELLSJAVA-41047): el separador de datos del gráfico de columnas apiladas tiene un grosor diferente al representar la hoja de cálculo en formato PDF
-(CELLSJAVA-41045): las columnas del gráfico se superponen con el eje inferior al representar la hoja de cálculo en formato PDF
+(CELLSJAVA-41047): el separador de datos del gráfico de columnas apiladas tiene un grosor diferente al representar la hoja de cálculo en el formato PDF
+(CELLSJAVA-41045): las columnas del gráfico se superponen con el eje inferior al representar la hoja de cálculo en el formato PDF
 (CELLSJAVA-40989): el gráfico de barras tiene líneas verticales adicionales a la derecha de las barras cuando se representa como PDF
 (CELLSJAVA-40988): la etiqueta de datos del gráfico está recortada en el PDF renderizado
 (CELLSJAVA-40987): las etiquetas y la leyenda del eje del gráfico se superponen en el PDF renderizado
@@ -67,7 +67,7 @@ Otras mejoras y cambios
 Nuevas características
 
 (CELLSJAVA-41074) - Exportar datos de GridWeb a un archivo de Excel o archivo XML - GridWeb para JAVA
-(CELLSJAVA-41078) - Soporte para exportar archivo SpreadsheetML (.xml) - GridWeb (JAVA)
+(CELLSJAVA-41078) - Soporte para exportar el archivo SpreadsheetML (.xml) - GridWeb (JAVA)
 
 Insectos
 

@@ -12,6 +12,6 @@ Es posible proteger los libros y las hojas de trabajo por separado. Por ejemplo,
 
 ## **Detectar si la hoja de trabajo está protegida con contraseña**
 
-Aspose.Cells for Java 8.7.0 ha expuesto el[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) propiedad para detectar si una hoja de trabajo está protegida con contraseña o no. tipo booleano[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) retornos de campo**verdadero** si[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) está protegido por contraseña y**falso** que no.
+Aspose.Cells for Java 8.7.0 ha expuesto el[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) propiedad para detectar si una hoja de trabajo está protegida con contraseña o no. tipo booleano[**Protection.isProtectedWithPassword**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#IsProtectedWithPassword) retornos de campo**verdadero** si[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) está protegido por contraseña y**falso** si no.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetectWorksheetisPasswordProtected-DetectWorksheetisPasswordProtected.java" >}}

@@ -14,7 +14,7 @@ url: /it/net/track-conversion-progress-of-excel-to-tiff/
 
 [File di uscita](95584312.tiff)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-DocumentConversionProgressForTiff-1.cs" >}}
 

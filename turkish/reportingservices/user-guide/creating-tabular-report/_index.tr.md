@@ -10,7 +10,7 @@ Aspose.Cells Rapor şablonundaki bir tablo, bir başlıktan, tablo veri satırla
 
 **Örnek bir tablo** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-tabular-report_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-tabular-report_1.png)
 #### **Tablo Başlığı**
 Tablo başlığı normalde her tablo sütununun başlığını ve statik metin, rapor parametreleri, genel rapor değişkenleri vb. gibi diğer metin öğelerini içerir. Tablo başlığı isteğe bağlıdır. Bir başlık kullanılıyorsa, satırın bir başlık olduğunu belirtmek için başlık etiketi tablo verilerinin ilk sütununun soluna yerleştirilmelidir.
 #### **Tablo Veri Satırı**
@@ -34,7 +34,7 @@ Altbilgi etiketi, oluşturma sırasında çıktı Microsoft Excel dosyasından k
 
 **Örnek şablon** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-tabular-report_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-tabular-report_2.png)
 
 {{% /alert %}} 
 ###### **Bu bölüm aşağıdaki konuları içerir:**

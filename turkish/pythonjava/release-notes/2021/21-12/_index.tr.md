@@ -13,19 +13,19 @@ url: /tr/python-java/aspose-cells-for-python-via-java-21-12-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43994|WorkbookDesigner.process'in SmarkMarker'da yürütülmesini kesme desteği|
-|CELLSJAVA-44039|Oluşturulan PDF'den PDF Yapımcı niteliğini değiştirin|
+|CELLSJAVA-44039|Oluşturulan PDF'den PDF Üretici özniteliğini değiştirin|
 |CELLSJAVA-43469|Olası gerileme: FormatConditionCollection.addArea()'nın performans düşüşü|
-|CELLSJAVA-43983|Regresyon: XLSX'i PDF'ye dönüştürürken sonsuz döngü|
-|CELLSJAVA-44029|XLSX'ten PDF'e: Görüntü dönüştürülmedi|
+|CELLSJAVA-43983|Regresyon: XLSX'i PDF'e dönüştürürken sonsuz döngü|
+|CELLSJAVA-44029|XLSX ila PDF: Görüntü dönüştürülmedi|
 |CELLSJAVA-44093| Daha yeni Aspose.Cells for Java sürümlerinde görüntüye işlenirken Dikdörtgen şekillerle ilgili metin kesme sorunu|
 |CELLSJAVA-44089|DataLabels.setShadow() mevcut değil ve Series.setShadow() yöntemine eşit değil|
-|CELLSJAVA-44000|Cells aynı anda simge seti ve diğer koşullu biçimlendirme kullanılırken stil HTML'de yanlış|
+|CELLSJAVA-44000|Aynı anda simge seti ve diğer koşullu biçimlendirme kullanılırken Cells stili HTML'de yanlış|
 |CELLSJAVA-43932|Çıktı görüntüsünde Patlatılmış Halka Grafikler için ayar veri etiketleri konumuyla ilgili sorun|
 |CELLSJAVA-43934|Grafiği değiştirdikten veya güncelledikten sonra Pasta grafik etiketleri Excel ile eşleşmedi|
-|CELLSJAVA-44094|PDF'ye dışa aktarılırken grafik başlığı kesildi|
-|CELLSJAVA-43533|Ubuntu'da XLSX'ten Html'ye oluşturma sorunu|
+|CELLSJAVA-44094|PDF'e dışa aktarılırken grafik başlığı kesildi|
+|CELLSJAVA-43533|Ubuntu'da Html oluşturma sorununa XLSX|
 |CELLSJAVA-43987|Birleştirilmiş hücrelerin sağ kenarlığı html'de kayboluyor|
-|CELLSJAVA-44016|Resim URL'sini içeren Excel dosyasını HTML'ye dönüştürürken sorun|
+|CELLSJAVA-44016|Resim URL'sini içeren Excel dosyasını HTML'e dönüştürürken sorun|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: Workbook.calculateFormula() öğesini çağırırken IF işlevi için çok az parametre girdiniz|
 |CELLSJAVA-44104|SpreadSheetML'yi içe aktarırken NullPointerException|
 

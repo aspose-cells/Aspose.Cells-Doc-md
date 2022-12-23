@@ -8,7 +8,7 @@ description: Gérez les slicers de fichiers Excel avec le Aspose.Cells.
 ---
 ## **Scénarios d'utilisation possibles**
 
- Un segment est utilisé pour filtrer rapidement les données. Il peut être utilisé pour filtrer les données à la fois dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un segment en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur le*Insertion > Trancheur*. Aspose.Cells vous permet également de créer une trancheuse à l'aide du[**Feuille de calcul.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)méthode.
+ Un segment est utilisé pour filtrer rapidement les données. Il peut être utilisé pour filtrer les données à la fois dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un segment en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur le*Insertion > Trancheuse*. Aspose.Cells vous permet également de créer une trancheuse à l'aide du[**Feuille de calcul.Slicers.Add()**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicercollection/methods/add/index)méthode.
 
 ## **Créer un segment dans un tableau croisé dynamique**
 
@@ -30,7 +30,7 @@ description: Gérez les slicers de fichiers Excel avec le Aspose.Cells.
 
 ## **Sujets avancés**
 - [Modifier les propriétés du segment](/cells/fr/net/change-slicer-properties/)
-- [Dessiner Slicer lors du rendu d'Excel au format PDF](/cells/fr/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [Dessinez Slicer tout en rendant Excel à PDF](/cells/fr/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [Formatage du segment](/cells/fr/net/formatting-slicer/)
 - [Retrait du trancheur](/cells/fr/net/removing-slicer/)
 - [Trancheur de rendu](/cells/fr/net/rendering-slicer/)

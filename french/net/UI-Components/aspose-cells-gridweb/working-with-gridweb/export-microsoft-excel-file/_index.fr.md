@@ -37,7 +37,7 @@ Si votre système de fichiers est NTFS, accordez un accès en lecture/écriture 
 
 {{% /alert %}} 
 
-L'extrait de code ci-dessus peut être utilisé de plusieurs façons. Une méthode courante consiste à ajouter un bouton qui enregistre le contenu de la grille dans un fichier Excel lorsque vous cliquez dessus. Aspose.Cells.GridWeb offre une approche plus simple pour la tâche. Aspose.Cells.GridWeb a un événement appelé SaveCommand. L'extrait de code ci-dessus peut être ajouté au gestionnaire d'événements de l'événement SaveCommand qui permet aux utilisateurs d'enregistrer leur travail en cliquant sur le Aspose.Cells.GridWeb intégré**sauvegarder** bouton.
+L'extrait de code ci-dessus peut être utilisé de plusieurs façons. Une méthode courante consiste à ajouter un bouton qui enregistre le contenu de la grille dans un fichier Excel lorsque vous cliquez dessus. Aspose.Cells.GridWeb offre une approche plus simple pour la tâche. Aspose.Cells.GridWeb a un événement appelé SaveCommand. L'extrait de code ci-dessus peut être ajouté au gestionnaire d'événements de l'événement SaveCommand qui permet aux utilisateurs d'enregistrer leur travail en cliquant sur le Aspose.Cells.GridWeb intégré**Sauver** bouton.
 
 **L'événement SaveCommand de GridWeb** 
 

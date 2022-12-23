@@ -20,30 +20,30 @@ Nous sommes
 
  Améliorations
 
-- Fermer les flux internes pour libérer les ressources mémoire lors de la conversion PDF
+- Fermer les flux internes pour libérer les ressources de mémoire dans la conversion PDF
 - Copier Sparklines lors de la copie de la feuille de calcul
 
- Exceptions
+ Des exceptions
 
 - L'ouverture d'un fichier XLS a causé StackOverflowError
-- L'enregistrement du PDF a provoqué une exception
+- L'enregistrement de PDF a provoqué une exception
 - Worksheet.getFreezedPanes() a causé l'exception NullPointerException
 - L'ouverture d'un fichier XML vide a provoqué une exception
-- L'enregistrement au format PDF a provoqué une exception -I
-- L'enregistrement au format PDF a provoqué une exception -II
-- L'enregistrement au format PDF a provoqué une exception -III
-- L'enregistrement au format PDF a provoqué une exception -IV
+- L'enregistrement dans PDF a provoqué une exception -I
+- L'enregistrement dans PDF a provoqué une exception -II
+- L'enregistrement dans PDF a provoqué une exception -III
+- L'enregistrement dans PDF a provoqué une exception -IV
 - Exception lors de l'ouverture du fichier de modèle HTM
 - IllegalArgumentException lors de l'ouverture d'un fichier XLS
 - NullPointerException lors de l'ouverture d'un fichier XLS
 - Exception ArrayIndexOutOfBounds lors de l'ouverture d'un fichier XLS
 - L'enregistrement du tableau croisé dynamique a provoqué une exception ClassCast après la définition du tri automatique
-- Erreur de forme à l'image lors de l'enregistrement du PDF à l'aide de Aspose Cells
+- Erreur de forme à l'image lors de l'enregistrement PDF à l'aide de Aspose Cells
 - CellsException lors de l'impression du quadrillage au format PDF
 
  Insectes
 
 - Certaines régions enregistrées dans les modèles XLS n'ont pas pu être reconnues lors de la lecture
 - Chart-to-Image ne rend pas l'échelle des graphiques à barres
-- Perte de données après conversion de XLSX en PDF
+- Perte de données après conversion de XLSX à PDF
 - Les graphiques à secteurs et à nuage de points ne fonctionnent pas si Cellcollection est effacé

@@ -22,7 +22,7 @@ Aspose.Cells يسمح للمطورين بإضافة بيانات إلى الخل
 
 ## **تحسين الكفاءة**
 
- كما ترى[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)طريقة لوضع كمية كبيرة من البيانات في ورقة عمل ، يجب إضافة قيم إلى الخلايا ، أولاً بالصفوف ثم بالأعمدة. يعمل هذا الأسلوب على تحسين كفاءة تطبيقاتك بشكل كبير.
+ إذا كنت تستخدم[**ضع القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index)طريقة لوضع كمية كبيرة من البيانات في ورقة عمل ، يجب إضافة قيم إلى الخلايا ، أولاً بالصفوف ثم بالأعمدة. يعمل هذا الأسلوب على تحسين كفاءة تطبيقاتك بشكل كبير.
 
 ## **استرجاع البيانات من Cells**
 
@@ -39,7 +39,7 @@ Aspose.Cells يسمح للمطورين بإضافة بيانات إلى الخل
 
  عندما لا يتم ملء أحد الحقول ، فإن الخلايا ذات[**ضعف القيمة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/doublevalue) أو[**FloatValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/floatvalue)يرمي استثناء.
 
- يمكن أيضًا التحقق من نوع البيانات الموجودة في خلية باستخدام[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) منشأه. في الواقع، فإن[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) الممتلكات على أساس[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)التعداد الذي تم سرد قيمه المحددة مسبقًا أدناه:
+ يمكن أيضًا التحقق من نوع البيانات الموجودة في خلية باستخدام[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) خاصية. في الواقع، فإن[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**يكتب**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/type) الممتلكات على أساس[**CellValueType**](https://reference.aspose.com/cells/net/aspose.cells/cellvaluetype)التعداد الذي تم سرد قيمه المحددة مسبقًا أدناه:
 
 |**Cell أنواع القيمة**|**وصف**|
 |:- |:- |
@@ -70,7 +70,7 @@ Aspose.Cells يسمح للمطورين بإضافة بيانات إلى الخل
 - [تصدير البيانات من ورقة العمل](/cells/ar/net/export-data-from-worksheet/)
 - [البحث عن البيانات أو البحث عنها](/cells/ar/net/find-or-search-data/)
 - [احصل على Cell String Value with وبدون التنسيق](/cells/ar/net/get-cell-string-value-with-and-without-formatting/)
-- [إضافة نص منسق HTML داخل Cell](/cells/ar/net/adding-html-rich-text-inside-the-cell/)
+- [إضافة HTML نص منسق داخل Cell](/cells/ar/net/adding-html-rich-text-inside-the-cell/)
 - [أدخل الارتباطات التشعبية في Excel أو OpenOffice](/cells/ar/net/insert-hyperlinks-to-excel/)
 - [استيراد البيانات إلى ورقة العمل](/cells/ar/net/import-data-into-worksheet/)
 - [كيف وأين تستخدم العدادين](/cells/ar/net/how-and-where-to-use-enumerators/)

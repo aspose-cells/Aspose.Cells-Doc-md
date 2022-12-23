@@ -17,13 +17,13 @@ url: /tr/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46903|ContentTypeProperties'te stil değiştirme|Artırma|
 |CELLSNET-46954|Programı askıya almak yerine Excel'e benzer İstisna Yükseltme|Verim|
 |CELLSNET-46896|Huni grafiği kayboluyor|Böcek|
-|CELLSNET-46934|PDF dosya biçimine dönüştürürken gecikme ve bellek kullanımı|Böcek|
-|CELLSNET-43416|Elektronik tablo PDF'ye dönüştürüldükten sonra Pivot Alanın sıralaması değişti|Böcek|
+|CELLSNET-46934|PDF dosya biçimine dönüştürülürken gecikme ve bellek kullanımı|Böcek|
+|CELLSNET-43416|Elektronik tablo PDF olarak oluşturulduktan sonra Pivot Alanın sıralaması değişti|Böcek|
 |CELLSNET-44686|Grafik ayıklanırken pivot sıralama uygulanmadı|Böcek|
 |CELLSNET-46793|Pivot tablolarla ilgili bir sorun|Böcek|
-|CELLSNET-46882|Pivot tabloyu tarihe göre gruplandırırken ve PDF olarak kaydederken sorun|Böcek|
-|CELLSNET-46935|HTML'de işlenmeyen metni kaydır|Böcek|
-|CELLSNET-46940|Tablo kenarlıkları HTML'de doğru şekilde oluşturulmuyor|Böcek|
+|CELLSNET-46882|Pivot tabloyu tarihe göre gruplandırıp PDF olarak kaydederken sorun|Böcek|
+|CELLSNET-46935|Metni kaydırma HTML'de oluşturulmadı|Böcek|
+|CELLSNET-46940|HTML'de tablo sınırları doğru şekilde oluşturulmadı|Böcek|
 |CELLSNET-46939|TEXTJOIN() işlevi için destek|Böcek|
 |CELLSNET-46237|Cell Format tutmuyor|Böcek|
 |CELLSNET-46245|Kes/Yapıştır, Cell adını GridDesktop'taki yeni konuma kopyalamaz|Böcek|
@@ -33,8 +33,8 @@ url: /tr/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46900|Harita grafiğinin renk şeması değişir|Böcek|
 |CELLSNET-46902|Excel dosyası ImportData kullanılarak doldurulduktan sonra tabloda satırı el ile sil seçeneği devre dışı bırakıldı|Böcek|
 |CELLSNET-46916|Aralık Ekle dosya bozulmasına neden oluyor|Böcek|
-|CELLSNET-46919|XLSX'ten XLSB dosya biçimine geçerken bozuk dosya|Böcek|
-|CELLSNET-46925|XLSX'ten OLE nesnesi ayıklanırken sorun|Böcek|
+|CELLSNET-46919|XLSX'den XLSB dosya biçimine geçerken bozuk dosya|Böcek|
+|CELLSNET-46925|XLSX'den OLE nesnesi çıkarılırken sorun|Böcek|
 |CELLSNET-46928|Conholdate Total lisans sorunu|Böcek|
 |CELLSNET-46929|Çalışma sayfalarını kopyalarken grafik ekseni etiketinin (başlık) yönü değişti|Böcek|
 |CELLSNET-46933|Bir XLS dosyasının açılması ve kaydedilmesi, tüm belge ve özel özellikleri kaldırır|Böcek|

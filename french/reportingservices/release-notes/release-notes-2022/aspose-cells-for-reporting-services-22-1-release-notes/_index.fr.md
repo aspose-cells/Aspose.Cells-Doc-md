@@ -9,7 +9,7 @@ weight: 21
 Cette page contient les notes de version pour Aspose.Cells for Reporting Services 22.1
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |27177 |Prise en charge du moteur de rendu JSON.|Nouvelle fonctionnalité|
 |27178 |Mettez à niveau la version Aspose.Cells vers 22.1.| Amélioration|

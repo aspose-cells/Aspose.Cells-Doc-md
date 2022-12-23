@@ -1,17 +1,17 @@
 ﻿---
-title: TableurML - XLSX, XML
+title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /fr/net/spreadsheetml-xlsx-xml/
 ---
 ## **À propos de SpreadsheetML**
-SpreadsheetML est le nom d'une famille de formats XML pour les feuilles de calcul. Il existe plusieurs versions de SpreadsheetML :
+SpreadsheetML est le nom d'une famille de formats XML pour les feuilles de calcul. Il existe plusieurs versions de SpreadsheetML :
 
-1. La version 2003 de SpreadsheetML a été introduite dans Microsoft Word 2003. SpreadsheetML a été une étape importante par Microsoft vers l'ouverture du format de document.
+1. SpreadsheetML version 2003 a été introduite dans Microsoft Word 2003. SpreadsheetML était une étape importante par Microsoft vers l'ouverture du format de document.
 1. [Office XML ouvert](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) est le nouveau format XML introduit dans les applications Microsoft Office 2007. Office Open XML est un format de conteneur pour plusieurs langages de balisage spécialisés basés sur XML. SpreadsheetML version 2007 est le langage de balisage utilisé par Microsoft Office Excel 2007 pour stocker ses documents.
-1. Microsoft Excel 2010 stocke les documents dans SpreadsheetML version 2010 comme défini dans la norme OOXML mise à jour.
-## **TableurML dans Aspose.Cells**
-Trois "versions" de SpreadsheetML sont disponibles :
+1. Microsoft Excel 2010 stocke les documents dans la version SpreadsheetML 2010 telle que définie dans la norme OOXML mise à jour.
+## **SpreadsheetML à Aspose.Cells**
+Il existe trois "versions" de SpreadsheetML disponibles :
 
 |**SpreadsheetML "Version"**|**Norme/spécification applicables**|**Pris en charge dans Aspose.Cells for .NET**|
 |:- |:- |:- |
@@ -19,15 +19,15 @@ Trois "versions" de SpreadsheetML sont disponibles :
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Oui|
 |Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|Oui|
 |Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|Oui|
-Les documents OOXML SpreadsheetML se présentent le plus souvent sous forme de fichiers XLSX, qui sont des packages ZIP. En plus de XLSX. Aspose.Cells fournit une prise en charge étendue pour le chargement, l'enregistrement et la conversion de documents SpreadsheetML. Une telle implémentation globale est possible car Aspose.Cells a été conçu avec la structure des documents Excel Microsoft à l'esprit (et SpreadsheetML est connu pour imiter la représentation interne des documents Excel Microsoft).
+Les documents OOXML SpreadsheetML se présentent le plus souvent sous la forme de fichiers XLSX, qui sont des packages ZIP. En plus de XLSX. Aspose.Cells fournit un support étendu pour le chargement, l'enregistrement et la conversion de documents SpreadsheetML. Une telle implémentation globale est possible car Aspose.Cells a été conçu avec la structure des documents Excel Microsoft à l'esprit (et SpreadsheetML est connu pour imiter la représentation interne des documents Excel Microsoft).
 ### **OOXML est ouvert, pourquoi utiliser Aspose.Cells ?**
 Il est vrai que la technologie Office Open XML permet de créer des applications de traitement et de génération de documents en utilisant uniquement les classes XML sans s'appuyer sur des bibliothèques tierces telles que Aspose.Cells. Cependant, nous croyons fermement qu'il est toujours très avantageux d'utiliser Aspose.Cells lorsque vous avez pour traiter des documents OOXML, plutôt que de travailler avec XML ou d'autres bibliothèques.
 
 La spécification OOXML compte plusieurs milliers de pages. Être ouvert et standard ne veut pas dire être simple. Pour traiter ou générer correctement des documents OOXML, il faut investir dans un bon apprentissage du format.
 
-En plus de simplifier le traitement et la génération corrects de documents valides, Aspose.Cells fournit les fonctionnalités importantes suivantes que vous n'auriez pas lorsque vous travaillez avec des fichiers OOXML directement via XML ou d'autres bibliothèques tierces :
+En plus de simplifier le traitement et la génération corrects de documents valides, Aspose.Cells fournit les fonctionnalités importantes suivantes que vous n'auriez pas lorsque vous travaillez avec des fichiers OOXML directement via XML ou d'autres bibliothèques tierces :
 
-- Conversions de qualité entre de nombreux formats Excel populaires, y compris la conversion au format PDF, HTML, TIFF et l'impression.
+- Conversions de qualité entre de nombreux formats Excel populaires, y compris la conversion en PDF, HTML, TIFF et l'impression.
 - Capacité à construire des documents à partir de fragments, à partir d'un ou plusieurs documents, tout en fusionnant automatiquement les données par mise en forme stylistique, tableaux et graphiques.
 - Fonctions de haut niveau, telles que l'importation de données à partir de différentes sources de données, notamment Array, ArrayList, DataTable, DataColumn, DataGrid, DataView et DataReader ou l'exportation de données pour remplir un DataTable ou un Array avec une seule ligne de code.
 - Moteur de calcul de formule robuste qui prend en charge presque toutes les fonctions Excel standard et avancées Microsoft.

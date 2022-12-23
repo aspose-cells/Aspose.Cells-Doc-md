@@ -29,4 +29,4 @@ Pour modifier un paramètre de rapport :
 
 ![tâche : image_autre_texte](modifying-report-parameters_3.png)
 
-1.  Cliquez sur**sauvegarder**.
+1.  Cliquez sur**Sauver**.

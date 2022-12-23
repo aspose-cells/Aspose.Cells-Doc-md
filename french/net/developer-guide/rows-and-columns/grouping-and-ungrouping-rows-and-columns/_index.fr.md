@@ -16,9 +16,9 @@ Dans un fichier Excel Microsoft, vous pouvez créer un plan pour les données af
 
 ## **Gestion groupée des lignes et des colonnes**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection qui représente toutes les cellules de la feuille de calcul.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection qui représente toutes les cellules de la feuille de calcul.
 
- La[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul, quelques-unes d'entre elles sont décrites ci-dessous plus en détail.
+ Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection fournit plusieurs méthodes pour gérer les lignes ou les colonnes dans une feuille de calcul, quelques-unes d'entre elles sont décrites ci-dessous plus en détail.
 
 ### **Regroupement de lignes et de colonnes**
 
@@ -37,17 +37,17 @@ Microsoft Excel vous permet de configurer les paramètres de groupe pour affiche
 - Lignes récapitulatives sous les détails.
 - Colonnes récapitulatives à droite du détail.
 
- Les développeurs peuvent configurer ces paramètres de groupe à l'aide de la[**Présenter**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classer.
+ Les développeurs peuvent configurer ces paramètres de groupe à l'aide de la[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/outline) propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe.
 
 ### **Lignes récapitulatives jusqu'en dessous du détail**
 
- Il est possible de contrôler si les lignes récapitulatives sont affichées sous les détails en définissant le paramètre[**Présenter**](https://reference.aspose.com/cells/net/aspose.cells/outline) classer'[**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) propriété à**vrai** ou**faux**.
+ Il est possible de contrôler si les lignes récapitulatives sont affichées sous les détails en définissant le paramètre[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe'[**SummaryRowBelow**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) propriété à**vrai** ou alors**faux**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Colonnes récapitulatives à droite du détail**
 
- Les développeurs peuvent également contrôler l'affichage des colonnes récapitulatives à droite des détails en définissant le paramètre[**RésuméColonneDroite**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) propriété de[**Présenter**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe à**vrai** ou**faux**.
+ Les développeurs peuvent également contrôler l'affichage des colonnes récapitulatives à droite des détails en définissant le paramètre[**RésuméColonneDroite**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) propriété de[**Contour**](https://reference.aspose.com/cells/net/aspose.cells/outline) classe à**vrai** ou alors**faux**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 

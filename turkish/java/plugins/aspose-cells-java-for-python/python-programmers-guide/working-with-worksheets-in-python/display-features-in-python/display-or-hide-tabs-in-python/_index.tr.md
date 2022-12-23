@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-tabs-in-python/
 ---
 ## **Aspose.Cells - Gizlenen Sekmeleri Görüntüle**
 ### **Sekmeleri Gizleme**
- kullanarak sekmeleri gizlemek için**Yakut için Aspose.Cells Java** , aramak**sekmeleri göster** modül.
+ kullanarak sekmeleri gizlemek için**Yakut için Aspose.Cells Java** , Arama**sekmeleri göster** modül.
 
 **Python Kod**
 

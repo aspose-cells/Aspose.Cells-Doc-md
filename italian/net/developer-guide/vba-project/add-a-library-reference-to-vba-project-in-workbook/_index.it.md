@@ -12,7 +12,7 @@ url: /it/net/add-a-library-reference-to-vba-project-in-workbook/
 
 ## **Aggiungi un riferimento alla libreria al progetto VBA in Microsoft Excel**
 
-In Microsoft Excel è possibile aggiungere un riferimento alla libreria al progetto VBA facendo clic su**Strumenti > Riferimenti...** manualmente.
+ In Microsoft Excel è possibile aggiungere un riferimento alla libreria al progetto VBA facendo clic su**Strumenti > Riferimenti...** manualmente.
 
 ## **Aggiungere un riferimento alla libreria al progetto VBA in una cartella di lavoro utilizzando Aspose.Cells**
 

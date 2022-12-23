@@ -36,7 +36,7 @@ Alla dessa justeringsinställningar stöds fullt ut av Aspose.Cells och diskuter
 |Allmän|Representerar allmän textjustering|
 |Rättfärdiga|Representerar justera textjustering|
 |Vänster|Representerar vänster textjustering|
-|Höger|Representerar höger textjustering|
+|Rätt|Representerar höger textjustering|
 |Topp|Representerar topptextjustering|
 |JustifiedLow|Justerar texten med en justerad kashida-längd för arabisk text.|
 |ThaiDistribuerat|Distribuerar thailändsk text speciellt, eftersom varje tecken behandlas som ett ord.|

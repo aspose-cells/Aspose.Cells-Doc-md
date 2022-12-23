@@ -18,10 +18,10 @@ url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45327|Stöd export av HTML-cellers data till DataTable|Ny funktion|
 |CELLSNET-45316|Stöd driften av GridWeb när ASP.NET Sessionsläge är SQL Server|Ny funktion|
 |CELLSNET-45350|OutOfMemory-fel under bildrendering|Prestanda|
-|CELLSNET-45341|Konvertering av XLS till SpreadsheetML med filter förstör utdatafilen|Prestanda|
+|CELLSNET-45341|Att konvertera XLS till SpreadsheetML med filter förstör utdatafilen|Prestanda|
 |CELLSNET-45217|Om du sparar Excel till PDF roteras bilden|Insekt|
 |CELLSNET-45306|Fel stilar när du sparar till HTML med css-prefix|Insekt|
-|CELLSNET-45304|Textjusteringen av den vertikalt roterade texten är fel i utdata-HTML|Insekt|
+|CELLSNET-45304|Textjusteringen av den vertikalt roterade texten är fel i utdata HTML|Insekt|
 |CELLSNET-45299|Text passar inte in i cellen när du sparar som HTML|Insekt|
 |CELLSNET-45288|Undantag inträffade vid inläsning av en HTML-fil|Insekt|
 |CELLSNET-45274|Pivottabellsdata har inte uppdaterats korrekt|Insekt|
@@ -38,7 +38,7 @@ url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45312|Den slutliga Excel-filen skiljer sig från den ursprungliga Excel-filen|Insekt|
 |CELLSNET-45303|Former (rektanglar, linjer, etc.) binds inte längre när du sparar om från XLSX till XLS filformat|Insekt|
 |CELLSNET-45301|Att öppna och spara Excel-filen gör justeringen fel|Insekt|
-|CELLSNET-45297|Att öppna och spara XLSM-filen med en nyare version skadar den|Insekt|
+|CELLSNET-45297|Om du öppnar och sparar filen XLSM med en nyare version skadas den|Insekt|
 |CELLSNET-45296|Att ta bort alla kommentarer från en arbetsbok orsakar fel vid öppning i Excel|Insekt|
 |CELLSNET-45308|Översätt "Övrigt" av cirkeldiagram|Insekt|
 |CELLSNET-45298|Förklaringsposter döljs inte korrekt i det kombinerade diagrammet|Insekt|
@@ -47,7 +47,7 @@ url: /sv/net/aspose-cells-for-net-17-5-release-notes/
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen ExportTableOptions.ExportAsHtmlString**
-Exporterar HTML-strängvärdet för cellerna till datatabellen.
+Exporterar strängvärdet HTML för cellerna till datatabellen.
 #### **Lägger till PageSetup.Copy (PageSetup source, CopyOptions copyOptions) metod**
 Kopierar inställningarna för Utskriftsformat.
 #### **Lägger till egenskapen ImportTableOptions.ShiftFirstRowDown**
@@ -59,7 +59,7 @@ Hämtar och ställer in inställningarna för standardskrivaren.
 #### **Lägger till enum PaperSizeType.Custom**
 Representerar den anpassade pappersstorleken.
 #### **Lägger till enum PdfCompliance.PdfA1a**
-Representerar PDF-format som är kompatibelt med PDFA-1a.
+Representerar formatet PDF kompatibelt med PDFA-1a.
 
 
 #### **Användningsexempel**
@@ -70,7 +70,7 @@ Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 - [Implementera anpassad pappersstorlek på arbetsbladet för rendering](/cells/sv/net/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Ta bort befintliga skrivarinställningar för arbetsblad i Excel-fil](/cells/sv/net/remove-existing-printersettings-of-worksheets-in-excel-file/)
 - [Flytta första raden nedåt när du infogar Cells datatabellrader](/cells/sv/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
-- [Exportera HTML-strängvärde för Cells till datatabellen](/cells/sv/net/export-html-string-value-of-the-cells-to-the-datatable/)
+- [Exportera HTML strängvärde för Cells till datatabellen](/cells/sv/net/export-html-string-value-of-the-cells-to-the-datatable/)
 - [Fungerar med GridWeb när ASP.NET Sessionsläge är SQL Server](/cells/sv/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 - [Aktivera olika GridWeb-lägen](/cells/sv/net/enable-different-gridweb-modes/)
 

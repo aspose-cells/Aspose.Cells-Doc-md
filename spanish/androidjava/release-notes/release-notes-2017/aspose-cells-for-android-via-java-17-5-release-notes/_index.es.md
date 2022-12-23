@@ -27,8 +27,8 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42129|Guardar en HTML es incorrecto|Insecto|
 |CELLSJAVA-42125|Las líneas de cuadrícula detrás de las formas no se exportan cuando se convierten a HTML|Insecto|
 |CELLSJAVA-42110|Algunas reglas CSS ignoradas al importar HTML|Insecto|
-|CELLSJAVA-42094|Los contenidos se tachan en el HTML convertido|Insecto|
-|CELLSJAVA-42091|El estilo de texto de algunas celdas es incorrecto cuando se guardan en HTML|Insecto|
+|CELLSJAVA-42094|Los contenidos están tachados en el convertido HTML|Insecto|
+|CELLSJAVA-42091|El estilo de texto de algunas celdas es incorrecto cuando se guarda en HTML|Insecto|
 |CELLSJAVA-42088|DataBar es incorrecto cuando la celda tiene un color de fondo establecido|Insecto|
 |CELLSJAVA-42018|La imagen del gráfico no se guarda cuando se usa el formato EMF o SVG|Insecto|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines no parece funcionar para una hoja de cálculo en particular|Insecto|
@@ -38,16 +38,16 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42117|No se puede acceder a la variable de instancia m_LoadDataFilterOptions al anular el método startSheet de la clase LoadFilter|Insecto|
 |CELLSJAVA-41882|Cell valor de cadena y problema de redondeo basado en diferentes versiones de JDK|Insecto|
 |CELLSJAVA-42142|Los caracteres de control de derecha a izquierda y de izquierda a derecha no se representan correctamente en PDF cuando la conversión se realiza en Linux|Insecto|
-|CELLSJAVA-42136|Hebreo: en la tabla, las líneas ajustadas a la palabra están alineadas a la derecha en PDF, mientras que deben estar centradas como en Excel.|Insecto|
+|CELLSJAVA-42136|Hebreo: en la tabla, las líneas de palabras envueltas están alineadas a la derecha en PDF, mientras que deben estar centradas como en Excel|Insecto|
 |CELLSJAVA-42113|Conversión incorrecta de la hoja de cálculo árabe a SVG|Insecto|
 |CELLSJAVA-42135|Hebreo: el texto ajustado no está alineado a la derecha en PDF como en Excel|Insecto|
 |CELLSJAVA-42134|Hebreo: etiquetas de serie cuando hay un ajuste de palabra, los caracteres no se muestran en la secuencia correcta|Insecto|
 |CELLSJAVA-42127|Error de forma a imagen al renderizar 03.xls a PDF|Insecto|
 |CELLSJAVA-42126|Error de forma a imagen al renderizar 02.xls a PDF|Insecto|
 |CELLSJAVA-42087|La imagen del gráfico en el HTML es incorrecta|Insecto|
-|CELLSJAVA-42079|Grosor de las líneas desiguales en las intersecciones al representar la hoja de cálculo con el diagrama en PDF|Insecto|
-|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran ni representan de la misma manera (como en el archivo de Excel original) en el archivo PDF de salida|Insecto|
-|CELLSJAVA-42076|El ángulo de las etiquetas del eje x es incorrecto en el PDF del gráfico|Insecto|
+|CELLSJAVA-42079|Grosor de las líneas desiguales en las intersecciones al representar la hoja de cálculo con el diagrama al PDF|Insecto|
+|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran/procesan igual (según el archivo de Excel original) en el archivo de salida PDF|Insecto|
+|CELLSJAVA-42076|El ángulo de las etiquetas del eje x es incorrecto en el gráfico PDF|Insecto|
 |CELLSJAVA-42065|Representación incorrecta de gráficos de barras al representar la hoja de cálculo en HTML|Insecto|
 |CELLSJAVA-42152|La configuración de la fórmula que se refiere al libro de trabajo externo crea una fórmula 3D|Insecto|
 |CELLSJAVA-42146|Error de contenido ilegible en Excel 2007 después de volver a guardar una hoja de cálculo|Insecto|
@@ -71,16 +71,16 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42159|PageSetup.BlackAndWhite no parece funcionar|Insecto|
 |CELLSJAVA-42189|Gráfico de cascada, cuando se llama al cálculo (), los colores de la serie del gráfico se revierten|Insecto|
 |CELLSJAVA-42160|El error de escala logarítmica en Excel hace que Aspose.Cells se cuelgue|Insecto|
-|CELLSJAVA-42158|Los valores de límite del eje vertical cambiaron al representar la hoja de cálculo en PDF|Insecto|
-|CELLSJAVA-42157|Los valores límite de los ejes horizontal y vertical cambiaron al representar el gráfico en EMF|Insecto|
+|CELLSJAVA-42158|Los valores límite del eje vertical cambiaron al renderizar la hoja de cálculo a PDF|Insecto|
+|CELLSJAVA-42157|Los valores límite de los ejes horizontal y vertical cambiaron al renderizar el gráfico a EMF|Insecto|
 |CELLSJAVA-42133|Hebreo: falta el carácter de espacio en PDF|Insecto|
 |CELLSJAVA-42107|El gráfico se suprime verticalmente mientras se representa en la imagen|Insecto|
 |CELLSJAVA-42105|Faltan series de DataTable al exportar el gráfico a la imagen|Insecto|
 |CELLSJAVA-42090|Falta el subrayado en el título cuando el gráfico se convierte en imagen|Insecto|
 |CELLSJAVA-42086|La imagen de fondo en el gráfico es incorrecta|Insecto|
-|CELLSJAVA-42084|Faltan las etiquetas/leyenda del eje del gráfico en blanco y negro del espacio (hebreo) en el archivo PDF de salida|Insecto|
+|CELLSJAVA-42084|Faltan las etiquetas/leyenda del eje del gráfico en blanco y negro del espacio (hebreo) en el archivo de salida PDF|Insecto|
 |CELLSJAVA-41831|El contenido de la forma del rectángulo no se procesa al convertir la hoja de cálculo a HTML|Insecto|
-|CELLSJAVA-42095|El gráfico se ha cambiado al convertir la hoja de cálculo a HTML|Insecto|
+|CELLSJAVA-42095|El gráfico se modificó al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-42096|La fórmula en el gráfico ha cambiado de posición al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSJAVA-42169|Conversión de Excel a PDF: el texto árabe está invertido|Insecto|
 |CELLSJAVA-42193|El nombre de la hoja se pone en mayúsculas al insertar la fórmula|Insecto|
@@ -96,11 +96,11 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42161|Copiar hojas entre libros de trabajo cambia la fórmula|Insecto|
 |CELLSJAVA-42154|No se puede leer el valor de texto del CheckBox|Insecto|
 |CELLSJAVA-42150|El método GetNames() no devuelve todos los nombres|Insecto|
-|CELLSJAVA-40511|Las páginas del PDF generado por Aspose.Cells son todas negras|Insecto|
+|CELLSJAVA-40511|Las páginas del PDF generadas por Aspose.Cells son todas negras|Insecto|
 |CELLSJAVA-42204|Los bordes punteados de la hoja de cálculo no se han representado en HTML|Insecto|
 |CELLSJAVA-42198|El cálculo de la fórmula es incorrecto con el archivo de Excel generado Aspose.Cells|Insecto|
-|CELLSJAVA-42208|Los comentarios (al final) se cortan verticalmente cuando se generan en PDF a través de Aspose.Cells|Insecto|
-|CELLSJAVA-42206|Las líneas de guiones de la serie para los gráficos no se representan correctamente en el PDF de salida|Insecto|
+|CELLSJAVA-42208|Los comentarios (al final) se cortan verticalmente cuando se generan PDF a través de Aspose.Cells|Insecto|
+|CELLSJAVA-42206|Las líneas de guiones de la serie para los gráficos no se representan correctamente en la salida PDF|Insecto|
 |CELLSJAVA-42167|Las etiquetas del eje de categoría se muestran en dos líneas después de convertir el gráfico en imagen|Insecto|
 |CELLSJAVA-42199|Gráfico de cascada, la línea de la barra total y la barra justo antes de que falte|Insecto|
 |CELLSJAVA-42201|Subtarea: las etiquetas del eje de categoría se muestran en dos líneas después de convertir el gráfico en imagen|Insecto|
@@ -114,21 +114,21 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42230|Se genera un atributo de alineación adicional al convertir XLSX a HTML|Insecto|
 |CELLSJAVA-42229|Exportar XLSX a HTML: se generan símbolos hash en lugar de los valores reales Cell|Insecto|
 |CELLSJAVA-42218|HTML no se convierte correctamente a un archivo de Excel|Insecto|
-|CELLSJAVA-42210|Falta parte del formato condicional de DataBar en el HTML de salida|Insecto|
+|CELLSJAVA-42210|Falta parte del formato condicional de DataBar en la salida HTML|Insecto|
 |CELLSJAVA-41783|La imagen de fondo debe estar en formato SVG pero está en formato PNG|Insecto|
 |CELLSJAVA-42253|El valor de celda dependiente provoca un error en XLS|Insecto|
 |CELLSJAVA-42222|La suma no es correcta después del cálculo del libro de trabajo|Insecto|
 |CELLSJAVA-42254|GridWebServlet?acw_ajax_se produce un error de llamada al cargar GridWeb|Insecto|
-|CELLSJAVA-42243|Excel a PDF: el cuadrado se ve como un rectángulo|Insecto|
-|CELLSJAVA-42242|Excel a PDF: el círculo parece una forma ovalada|Insecto|
+|CELLSJAVA-42243|Excel a PDF - Cuadrado parece Rectángulo|Insecto|
+|CELLSJAVA-42242|Excel a PDF - El círculo parece una forma ovalada|Insecto|
 |CELLSJAVA-42227|El archivo de imagen "x1.png" tiene un borde superior adicional y falta el borde inferior|Insecto|
 |CELLSJAVA-42212|Problema de rendimiento al exportar un XLS a PDF|Insecto|
 |CELLSJAVA-42246|Excel a HTML: la alineación del texto en la etiqueta del eje Y del gráfico es incorrecta|Insecto|
 |CELLSJAVA-42223|Los puntos del gráfico de radar xy px devuelven 0|Insecto|
-|CELLSJAVA-42216|Los valores enlazados del eje Y del gráfico de burbujas cambian cuando AxisScalingValuesIssue-2.xlsx se convierte a PDF|Insecto|
+|CELLSJAVA-42216|Los valores enlazados del eje Y del gráfico de burbujas cambian cuando AxisScalingValuesIssue-2.xlsx se convierte en PDF|Insecto|
 |CELLSJAVA-42250|Error de compilación si el código contiene definición de variable con tipo CommandBar|Insecto|
-|CELLSJAVA-42241|Excel a PDF: los corchetes vienen en la siguiente línea|Insecto|
-|CELLSJAVA-42234|Guardar el archivo XLSM como XLS elimina la acción macro del botón|Insecto|
+|CELLSJAVA-42241|Excel a PDF - Los corchetes vienen en la siguiente línea|Insecto|
+|CELLSJAVA-42234|Guardar el archivo XLSM como XLS elimina la acción de macro del botón|Insecto|
 |CELLSJAVA-42233|Actualizar el código - Aplicar formato 3D al gráfico|Insecto|
 |CELLSJAVA-42225|No se puede establecer el rango de entrada de forma|Insecto|
 |CELLSJAVA-42224|Problema con la clasificación de comentarios|Insecto|
@@ -137,13 +137,13 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42217|Después de acceder a VbaModule a través de Aspose API, el archivo de Excel resultante ha roto el proyecto vba|Insecto|
 |CELLSJAVA-42213|La fuente está cambiando involuntariamente su tamaño en un comentario con un CR incrustado en él|Insecto|
 |CELLSJAVA-42283|NullPointerException ocurre cuando el filtro existe fuera del rango con nombre|Insecto|
-|CELLSJAVA-42282|Al copiar una hoja de trabajo, se muestran las filas filtradas en el archivo HTML de salida|Insecto|
-|CELLSJAVA-42276|Los contenidos se muestran de manera diferente (falta algo de texto) en navegadores que no son IE (por ejemplo, Google Chrome) - Representación de Excel a HTML|Insecto|
+|CELLSJAVA-42282|Al copiar una hoja de cálculo, se muestran las filas filtradas en el archivo de salida HTML|Insecto|
+|CELLSJAVA-42276|Los contenidos se muestran de manera diferente (falta algo de texto) en los navegadores que no son IE (por ejemplo, Google Chrome) - Representación de Excel a HTML|Insecto|
 |CELLSJAVA-42247|El formato condicional se pierde al actualizar la tabla dinámica en la hoja de cálculo|Insecto|
 |CELLSJAVA-42257|El estilo de formato condicional está roto|Insecto|
 |CELLSJAVA-42202|La fórmula de Excel no funciona correctamente: se muestra como 6 en lugar de 0|Insecto|
-|CELLSJAVA-42286|Guardar un archivo XLS con gráficos usa el 100 % de la CPU|Insecto|
-|CELLSJAVA-42251|El título está oculto por las etiquetas de tendencia en el PDF de salida|Insecto|
+|CELLSJAVA-42286|Guardar el archivo XLS con gráficos usa el 100 % de la CPU|Insecto|
+|CELLSJAVA-42251|El título está oculto por las etiquetas de tendencia en la salida PDF|Insecto|
 |CELLSJAVA-42284|Workbook.getFonts() muestra fuentes adicionales después de recargar la misma hoja de cálculo|Insecto|
 |CELLSJAVA-42281|Fusionar/Copiar en hojas de Excel: los espacios al principio de las celdas no se conservan|Insecto|
 |CELLSJAVA-42280|Cadena no válida en el archivo: se produce un error al abrir un archivo de Excel|Insecto|
@@ -151,7 +151,7 @@ Esta página contiene notas de la versión para[Aspose.Cells for Android via Jav
 |CELLSJAVA-42271|Worksheet.autoFitColumns() no funciona bien con las celdas que tienen saltos de línea|Insecto|
 |CELLSJAVA-42266|Ordenar el archivo de Excel que contiene comentarios corrompe el archivo de salida de Excel|Insecto|
 |CELLSJAVA-42265|La clasificación de los comentarios provoca el error "Excel encontró contenido ilegible..." al abrir el archivo de salida en MS Excel|Insecto|
-|CELLSJAVA-42264|Problemas de subíndices y superíndices en el archivo ODS de OpenOffice al convertir a HTML o PDF|Insecto|
+|CELLSJAVA-42264|Problemas de subíndices y superíndices en el archivo OpenOffice ODS al convertir a HTML o PDF|Insecto|
 |CELLSJAVA-42122|NullPointerException al abrir un archivo de Excel de gran tamaño|Excepción|
 |CELLSJAVA-42123|Error de forma a imagen: al renderizar un archivo de Excel|Excepción|
 |CELLSJAVA-42144|new Workbook() podría lanzar una excepción en Aspose.Cells for Java 16.12.6|Excepción|
@@ -174,7 +174,7 @@ El usuario puede cambiar la propiedad LoadDataFilterOptions en su implementació
 ### **Agrega la propiedad CellsHelper.SignificantDigits.**
 Obtiene y establece el número de dígitos significativos.
 ### **Agrega la propiedad GlowEffect.Color.**
-Obtiene el color del efecto de resplandor.
+Obtiene el color del efecto de brillo.
 ### **Agrega la propiedad PageSetup.PaperWidth.**
 Representa el ancho en pulgadas del papel, considerando la orientación de la página.
 ### **Agrega la propiedad PageSetup.PaperHeight.**

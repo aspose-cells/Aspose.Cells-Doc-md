@@ -12,15 +12,15 @@ Questo documento è progettato per fornire una comprensione dettagliata di come 
 
 ## **Salvataggio di fogli di lavoro in immagini: approcci diversi**
 
-A volte, potresti dover presentare i tuoi fogli di lavoro come una rappresentazione pittorica. Devi presentare le immagini del foglio di lavoro nelle tue applicazioni o pagine web. Potrebbe essere necessario inserire le immagini in un documento Word, un file PDF, una presentazione PowerPoint o utilizzarle in qualche altro scenario. Semplicemente vuoi un foglio di lavoro reso come immagine in modo da poterlo usare altrove. Aspose.Cells supporta la conversione di fogli di lavoro in file Excel in immagini. Inoltre, Aspose.Cells supporta l'impostazione di diverse opzioni come formato immagine, risoluzione (sia verticale che orizzontale), qualità dell'immagine e altre opzioni di immagine e stampa.
+volte, potresti dover presentare i tuoi fogli di lavoro come una rappresentazione pittorica. Devi presentare le immagini del foglio di lavoro nelle tue applicazioni o pagine web. Potrebbe essere necessario inserire le immagini in un documento Word, un file PDF, una presentazione PowerPoint o utilizzarle in qualche altro scenario. Semplicemente vuoi un foglio di lavoro reso come immagine in modo da poterlo usare altrove. Aspose.Cells supporta la conversione di fogli di lavoro in file Excel in immagini. Inoltre, Aspose.Cells supporta l'impostazione di diverse opzioni come il formato dell'immagine, la risoluzione (sia verticale che orizzontale), la qualità dell'immagine e altre opzioni di immagine e stampa.
 
-Potresti provare l'automazione dell'ufficio, ma l'automazione dell'ufficio ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità e velocità, prezzo e funzionalità. In breve, ci sono molte ragioni, la prima delle quali è che la stessa Microsoft sconsiglia vivamente l'automazione dell'ufficio dalle soluzioni software.
+Potresti provare l'automazione dell'ufficio, ma l'automazione dell'ufficio ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio sicurezza, stabilità, scalabilità e velocità, prezzo e funzionalità. In breve, ci sono molte ragioni, la prima delle quali è che gli stessi Microsoft sconsigliano vivamente l'automazione dell'ufficio dalle soluzioni software.
 
-Questo articolo mostra come creare un'applicazione console in Visual Studio .NET, eseguire la conversione di un foglio di lavoro in immagine utilizzando diverse opzioni di immagine e stampa con poche e semplici righe di codice utilizzando l'API Aspose.Cells.
+Questo articolo mostra come creare un'applicazione console in Visual Studio .NET, eseguire la conversione di un foglio di lavoro in immagine utilizzando diverse opzioni di immagine e stampa con poche e semplici righe di codice utilizzando Aspose.Cells API.
 
  Devi importare[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)spazio dei nomi al tuo programma/progetto. Ha diverse classi preziose, ad esempio,[**FoglioRendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**Workbook Render**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)eccetera.
 
-Il[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class rappresenta un foglio di lavoro per il rendering delle immagini per il foglio di lavoro, ha un overload[**Immaginare**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)metodo che può convertire direttamente un foglio di lavoro in file immagine specificati con gli attributi o le opzioni desiderati. Può restituire l'oggetto System.Drawing.Bitmap e puoi salvare un file immagine sul disco/stream. Sono supportati diversi formati di immagine, ad esempio BMP, PNG, GIFF, JPEG, TIFF, EMF e così via.
+Il[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) class rappresenta un foglio di lavoro per il rendering delle immagini per il foglio di lavoro, ha un overload[**Immaginare**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)metodo che può convertire direttamente un foglio di lavoro in file immagine specificati con gli attributi o le opzioni desiderati. Può restituire l'oggetto System.Drawing.Bitmap e puoi salvare un file immagine sul disco/stream. Sono supportati diversi formati immagine, ad esempio BMP, PNG, GIFF, JPEG, TIFF, EMF e così via.
 
 ## **Utilizzo di Aspose.Cells per convertire il foglio di lavoro in immagine utilizzando le opzioni ImageOrPrint.**
 
@@ -30,7 +30,7 @@ Ho creato una nuova cartella di lavoro in MS Excel e ho aggiunto alcuni dati nel
 
 ### **Scarica e installa Aspose.Cells**
 
- Per prima cosa, devi[Scarica](https://downloads.aspose.com/cells/net) Aspose.Cells per .Net. Installalo sul tuo computer di sviluppo. Tutto[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
+ Per prima cosa, devi[Scarica](https://downloads.aspose.com/cells/net) Aspose.Cells per .Net. Installalo sul tuo computer di sviluppo. Tutti[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
 
 ### **Crea un progetto**
 

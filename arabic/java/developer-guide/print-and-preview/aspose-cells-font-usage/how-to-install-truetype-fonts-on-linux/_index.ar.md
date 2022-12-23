@@ -6,7 +6,7 @@ url: /ar/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-السيناريو الأكثر احتمالا هو أنك تستخدم Aspose.Cells لتحويل جداول البيانات إلى PDF. إذا كنت تقوم بذلك على نظام تشغيل لا يعتمد على Windows مثل Linux ، فإن هذا الموضوع يشرح كيفية التأكد من أن Aspose.Cells يعرض جداول البيانات الخاصة بك بأفضل دقة.
+السيناريو الأكثر ترجيحًا هو أنك تستخدم Aspose.Cells لتحويل جداول البيانات إلى PDF. إذا كنت تقوم بذلك على نظام تشغيل لا يعتمد على Windows مثل Linux ، فإن هذا الموضوع يشرح كيفية التأكد من أن Aspose.Cells يعرض جداول البيانات الخاصة بك بأفضل دقة.
 
 للتأكد من أن جداول البيانات المحولة بواسطة Aspose.Cells تظهر أقرب ما يمكن من الأصل ، قد تحتاج إلى تثبيت "خطوط Windows" أو "خطوط تروتايب" على نظام Linux الخاص بك لأن خطوط TrueType الأكثر استخدامًا لا تأتي مثبتة مسبقًا مع توزيعات Linux بشكل افتراضي.
 
@@ -98,6 +98,6 @@ rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 
 {{% alert color="primary" %}}
 
- في Ubuntu ، انتقل إلى مدير الحزم Synaptic. ابحث عن ملف**ttf-mscorefonts المثبت** حزمة.
+ في Ubuntu ، انتقل إلى مدير الحزم Synaptic. ابحث عن ملف**ttf-mscorefonts المثبت** صفقة.
 
 {{% /alert %}}

@@ -39,7 +39,7 @@ Todas las fuentes de datos y consultas se enumeran en el cuadro de diálogo.
 
 
 1.  En el cuadro de diálogo, llame a la fuente de datos**Servidor SQL** y el conjunto de datos**EmpsVentasDetalle**.
-1.  Hacer clic**próximo**. 
+1.  Hacer clic**Próximo**. 
 
    **Adición de conjuntos de datos y fuentes de datos** 
 
@@ -50,7 +50,7 @@ Todas las fuentes de datos y consultas se enumeran en el cuadro de diálogo.
  Aspose.Cells.Report.Designer inicia Microsoft Consulta.
 
 1.  En el cuadro de diálogo Elegir origen de datos, seleccione**Nueva fuente de datos**.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
  También puede seleccionar una fuente de datos existente.
 
    **Elegir una fuente de datos** 
@@ -72,7 +72,7 @@ Todas las fuentes de datos y consultas se enumeran en el cuadro de diálogo.
 
 1. En el cuadro de diálogo Inicio de sesión de SQL Server, seleccione el valor adecuado para cada elemento.
  Por ejemplo, establezca el servidor en local, seleccione la base de datos AdventureWorks y seleccione**Usar conexión de confianza**.
-1.  Hacer clic**OK**. 
+1.  Hacer clic**DE ACUERDO**. 
 
    **Iniciar sesión en el servidor SQL** 
 
@@ -81,7 +81,7 @@ Todas las fuentes de datos y consultas se enumeran en el cuadro de diálogo.
 
 
 
-1.  Hacer clic**OK**. 
+1.  Hacer clic**DE ACUERDO**. 
 
    **Tenga en cuenta que ahora estamos conectados al servidor SQL** 
 
@@ -100,7 +100,7 @@ La nueva fuente de datos aparece en la**Elija fuente de datos** diálogo.
 
 
 
-1.  Hacer clic**OK** para abrir Microsoft Consulta.
+1.  Hacer clic**DE ACUERDO** para abrir Microsoft Consulta.
 1.  Para crear una consulta en Microsoft Query, consulte el Microsoft Query Helper. En el siguiente ejemplo, creamos una consulta con parámetros.
 
    **Construyendo una consulta** 
@@ -182,7 +182,7 @@ P.Name, PS.Name, SOD.UnitPrice, PC.Name
 
 La consulta tiene tres parámetros: ReportYear, ReportMonth y EmpID.
 
-1.  Desde Microsoft Consultas**Expediente** menú, seleccione**Volver a Aspose.Cells.Report.Designer**. 
+1.  Desde Microsoft Consultas**Archivo** menú, seleccione**Volver a Aspose.Cells.Report.Designer**. 
 
    **Volviendo al diseñador de informes** 
 

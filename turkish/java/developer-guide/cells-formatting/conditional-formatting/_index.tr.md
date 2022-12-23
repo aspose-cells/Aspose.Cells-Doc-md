@@ -6,11 +6,11 @@ url: /tr/java/conditional-formatting/
 ---
 {{% alert color="primary" %}} 
 
- Koşullu biçimlendirme, bir hücreye veya hücre aralığına biçimler uygulamanıza ve bu biçimlendirmenin hücrenin değerine veya bir formülün değerine göre değişmesini sağlayan gelişmiş bir Microsoft Excel özelliğidir. Örneğin, bir hücrenin yalnızca değeri 500'den büyük olduğunda kalın görünmesini sağlayabilirsiniz. Hücrenin değeri koşulu sağladığında, hücreye belirtilen biçim uygulanır. Hücrenin değeri koşulu karşılamıyorsa, varsayılan biçimlendirme kullanılır. Microsoft Excel'de seçin**Biçim** , sonra**Koşullu biçimlendirme** Koşullu Biçimlendirme iletişim kutusunu açmak için.
+ Koşullu biçimlendirme, bir hücreye veya hücre aralığına biçimler uygulamanıza ve bu biçimlendirmenin hücrenin değerine veya bir formülün değerine göre değişmesini sağlayan gelişmiş bir Microsoft Excel özelliğidir. Örneğin, bir hücrenin yalnızca değeri 500'den büyük olduğunda kalın görünmesini sağlayabilirsiniz. Hücrenin değeri koşulu sağladığında, hücreye belirtilen biçim uygulanır. Hücrenin değeri koşulu karşılamıyorsa, varsayılan biçimlendirme kullanılır. Microsoft Excel'de seçin**Biçim** , o zamanlar**Koşullu biçimlendirme** Koşullu Biçimlendirme iletişim kutusunu açmak için.
 
 **Microsoft Excel'de koşullu biçimlendirme** 
 
-![yapılacaklar:resim_alternatif_Metin](conditional-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](conditional-formatting_1.png)
 
 Aspose.Cells, çalışma zamanında hücrelere koşullu biçimlendirme uygulanmasını destekler. Bu makale nasıl yapılacağını açıklıyor.
 
@@ -29,7 +29,7 @@ Aspose.Cells, çalışma zamanında koşullu biçimlendirmenin uygulanmasını d
 ### **Yazı Tipi Ayarla**
 **Microsoft Excel'de yazı tiplerini ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](conditional-formatting_2.png)
+![yapılacaklar:resim_alternatif_metin](conditional-formatting_2.png)
 
 
 
@@ -37,7 +37,7 @@ Aspose.Cells, çalışma zamanında koşullu biçimlendirmenin uygulanmasını d
 ### **Kenarlığı Ayarla**
 **Microsoft Excel'de sınırları ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](conditional-formatting_3.png)
+![yapılacaklar:resim_alternatif_metin](conditional-formatting_3.png)
 
 
 
@@ -45,7 +45,7 @@ Aspose.Cells, çalışma zamanında koşullu biçimlendirmenin uygulanmasını d
 ### **Deseni Ayarla**
 **Microsoft Excel'de bir hücre deseni ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](conditional-formatting_4.png)
+![yapılacaklar:resim_alternatif_metin](conditional-formatting_4.png)
 
 
 

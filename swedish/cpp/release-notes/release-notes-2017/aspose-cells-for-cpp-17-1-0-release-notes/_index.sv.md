@@ -6,9 +6,9 @@ url: /sv/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 ---
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-35|Läs/skriv XLSM-filformat|Ny funktion|
-|CELLSCPP-36|Läs/skriv CSV-filformat|Ny funktion|
-|CELLSCPP-37|Läs/skriv XLSB-filformat|Ny funktion|
+|CELLSCPP-35|Läs/skriv XLSM filformat|Ny funktion|
+|CELLSCPP-36|Läs/skriv CSV filformat|Ny funktion|
+|CELLSCPP-37|Läs/skriv XLSB filformat|Ny funktion|
 |CELLSCPP-38|Skapa och manipulera namngivna intervall|Ny funktion|
 |CELLSCPP-39|Läs/skriv tabbavgränsat filformat|Ny funktion|
 ### **Offentlig API och bakåtinkompatibla ändringar**

@@ -5,7 +5,7 @@ weight: 50
 url: /fr/python-java/get-hyperlinks-in-range/
 ---
 ## **Obtenir des hyperliens dans la plage**
-Pour obtenir des liens hypertexte à portée, utilisez le[getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propriété de la[Intervalle](https://reference.aspose.com/cells/python/asposecells.api/Range)classer. La[getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propriété obtient tous les liens hypertexte dans la plage sélectionnée.
+Pour obtenir des liens hypertexte à portée, utilisez le[getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propriété de la[Intervalle](https://reference.aspose.com/cells/python/asposecells.api/Range)classe. Le[getHyperlinks()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propriété obtient tous les liens hypertexte dans la plage sélectionnée.
 
 L'extrait de code suivant montre comment obtenir tous les liens hypertexte dans la plage sélectionnée.
 

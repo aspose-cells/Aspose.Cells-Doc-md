@@ -18,7 +18,7 @@ url: /fr/net/aspose-cells-for-net-5-1-0-release-notes/
  Convertit les Sparklines en images.
  Prend en charge les marqueurs intelligents d'image.
  Prend en charge les remplissages dégradés de Cell et le thème du fichier XLS.
- Rend le motif de Cell remplit le fichier PDF généré.
+ Le motif de rendu Cell remplit le fichier PDF généré.
  Ajoute la prise en charge de la conformité Pdf/A-1b.
  Améliore les performances et la qualité des fichiers PDF générés.
  46 améliorations et correctifs.
@@ -41,31 +41,31 @@ Fournit une version surchargée de la méthode SumSelectedRanges pour exclure le
 
  Problèmes résolus dans Aspose.Cells for .NET v
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |17474 | GrilleWeb| Les bordures ne sont pas rendues pour les cellules fusionnées|
 |15467 | GrilleDesktop| Modifie le nom de la feuille de calcul en double dans la méthode ImportExcelFile|
 |17581 | Graphique2Image| Convertit le graphique en image|
 |17762 | Graphique2Image| Les tableaux de données, les valeurs et la catégorie sont perdus pour les graphiques en nuage de points XY|
-|17900 | Graphique2Image| Graphique Excel au problème d'image|
-|18023 | Graphique2Image|Graphiques à bulles|
+|17900 | Graphique2Image|Graphique Excel au problème d'image|
+|18023 | Graphique2Image| Graphiques à bulles|
 |18190 | Graphique2Image| Aspose.Cells suppression des exceptions de mémoire dans Azure|
-|18012 | CSV| Exportation différente vers Excel|
+|18012 |CSV | Exportation différente vers Excel|
 |16207 | PDF| Trouver une erreur lors de l'enregistrement du fichier PDF|
-|17535 | PDF| Une police dans XLSX donne deux polices en PDF|
+|17535 | PDF| Une police dans XLSX donne deux polices dans PDF|
 |17537 | PDF| Cellules vides au format monétaire|
 |17776 | PDF| Problème de conversion d'Excel en PDF|
 |17804 | PDF| Les valeurs décimales ne sont pas affichées s'il n'y a que des zéros|
 |17821 | PDF| Propriétés intégrées|
-|17981 | PDF| Problème de conversion Excel en PDF|
-|18021 | PDF| Enregistrement au format PDF - Problèmes avec la police|
+|17981 | PDF| Problème de conversion Excel vers PDF|
+|18021 | PDF| Enregistrement au PDF - Problèmes avec la police|
 |18038 | PDF| Le document PDF semble être corrompu|
-|18136 | PDF| Problème d'enregistrement du PDF|
-|18258 | PDF| Les formules calculées ne sont pas mises à jour lors de la conversion de Cells en PDF|
+|18136 | PDF| Problème d'épargne PDF|
+|18258 | PDF| Les formules calculées ne se mettent pas à jour lors de la conversion de Cells à PDF|
 |18316 | PDF| Problème de conversion avec des données apparaissant sous forme de signes dièse|
-|18258 | PDF| Les formules calculées ne sont pas mises à jour lors de la conversion de Cells en PDF|
+|18258 | PDF| Les formules calculées ne se mettent pas à jour lors de la conversion de Cells à PDF|
 |18316 | PDF| Problème de conversion avec des données apparaissant sous forme de signes dièse|
-|18239 | TableurML| Exception d'index de colonne de fin non valide|
+|18239 |SpreadsheetML | Exception d'index de colonne de fin non valide|
 |17111 | Feuille de calcul2Image| Format incorrect des données numériques|
 |17633 | Feuille de calcul2Image| Ligne dans les graphiques non convertie|
 |17903 | Feuille de calcul2Image| Les performances de worksheet2image|
@@ -73,9 +73,9 @@ Fournit une version surchargée de la méthode SumSelectedRanges pour exclure le
 |17656 | xl| Comment trouver des lignes et des colonnes groupées|
 |17761 | Xls| Calculer des formules externes|
 |17789 | Xls| Formule de mise en forme conditionnelle|
-|17810 | Xls| La plage mobile se comporte de manière incorrecte|
+|17810 | Xls|La plage mobile se comporte de manière incorrecte|
 |17820 | Xls| Ce fichier a été créé avec une version ultérieure|
-|17907 | Xls|Le tri au sein des groupes ne fonctionne pas|
+|17907 | Xls| Le tri au sein des groupes ne fonctionne pas|
 |17954 | Xls| Shape.AlternativeText|
 |17999 | Xls| Prend en charge l'ajout d'une image Tif avec la méthode Pictures.Add()|
 |18054 | Xls| Worsheet.Copy fixe le processeur à 100 %|

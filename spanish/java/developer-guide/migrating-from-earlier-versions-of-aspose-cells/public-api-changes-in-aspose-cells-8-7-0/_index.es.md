@@ -10,8 +10,8 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.6.3 a l
 
 {{% /alert %}} 
 ## **API añadidas**
-### **Compatibilidad con la optimización de PDF**
- Aspose.Cells Las API ya ofrecen la función de convertir hojas de cálculo a PDF. Con este lanzamiento del API, los usuarios ahora pueden[optimizar el tamaño del PDF resultante](/cells/es/java/save-excel-into-pdf-with-standard-or-minimum-size/)también. Aspose.Cells for Java 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios elegir el algoritmo de optimización deseado al exportar hojas de cálculo a formato PDF. Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación.
+### **Soporte para PDF Optimización**
+ Las API Aspose.Cells ya brindan la función de convertir hojas de cálculo a PDF. Con esta versión de API, los usuarios ahora pueden[optimizar el tamaño resultante PDF](/cells/es/java/save-excel-into-pdf-with-standard-or-minimum-size/)también. Aspose.Cells for Java 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios elegir el algoritmo de optimización deseado al exportar hojas de cálculo al formato PDF. Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación.
 
 1. PdfOptimizationType.MINIMUM_SIZE: la calidad se ve comprometida por el tamaño del archivo resultante.
 1. PdfOptimizationType.STANDARD: la calidad no se ve comprometida, por lo que el tamaño del archivo resultante será grande.
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Propiedad DataLabels.ResizeShapeToFitText agregado**
- Otra característica útil que ha expuesto Aspose.Cells for Java 8.7.0 es la propiedad DataLabels.ResizeShapeToFitText que puede habilitar la[cambiar el tamaño de la forma para que se ajuste al texto](/cells/es/java/resize-chart-s-data-label-shape-to-fit-text/) característica de la aplicación Excel para las etiquetas de datos del gráfico.
+ Otra característica útil que ha expuesto Aspose.Cells for Java 8.7.0 es la propiedad DataLabels.ResizeShapeToFitText que puede habilitar la[cambiar el tamaño de la forma para que se ajuste al texto](/cells/es/java/resize-chart-s-data-label-shape-to-fit-text/)característica de la aplicación Excel para las etiquetas de datos del gráfico.
 
 El siguiente es el escenario de uso simple.
 

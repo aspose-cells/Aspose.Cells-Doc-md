@@ -6,7 +6,7 @@ url: /fr/java/aspose-cells-for-java-8-8-3-release-notes/
 ---
 ## **1) Aspose.Cells**
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41866|Comment définir les propriétés d'entrée de légende pour les options de texte|Nouvelle fonctionnalité|
 |CELLSJAVA-41865|Créer une zone de texte dans laquelle chaque ligne a un alignement horizontal différent|Nouvelle fonctionnalité|
@@ -16,13 +16,13 @@ url: /fr/java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-41851|Le graphique croisé dynamique créé avec Aspose.Cells ne s'affiche pas dans Excel 2016 pour MAC|Punaise|
 |CELLSJAVA-41840|Aspose.Cells ajoute null à la fin du chemin pour les ressources HTML|Punaise|
 |CELLSJAVA-41878|Les API LightCells ne génèrent des événements que pour la première colonne de la ligne|Punaise|
-|CELLSJAVA-41859|Cell les bordures apparaissent après avoir réenregistré XLS|Punaise|
+|CELLSJAVA-41859|Cell les bordures apparaissent après le réenregistrement XLS|Punaise|
 |CELLSJAVA-41888|L'image du logo est perdue lors de la conversion de XLS en PDF|Punaise|
-|CELLSJAVA-41874|La position des caractères est différente dans le PDF rendu d'un fichier XLS|Punaise|
+|CELLSJAVA-41874|La position des caractères est différente dans le rendu PDF d'un fichier XLS|Punaise|
 |CELLSJAVA-41852|Texte qui se chevauche lorsque les feuilles de calcul sont converties en EMF sous Linux|Punaise|
-|CELLSJAVA-41823|La densité du texte et les sauts de ligne sont différents par rapport au PDF généré par Excel|Punaise|
-|CELLSJAVA-41822|Le texte est coupé et se chevauche lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-41856|Problèmes de rendu du graphique au format PDF|Punaise|
+|CELLSJAVA-41823|La densité du texte et les sauts de ligne sont différents par rapport à Excel généré PDF|Punaise|
+|CELLSJAVA-41822|Le texte est coupé et se chevauche lors du rendu de la feuille de calcul au PDF|Punaise|
+|CELLSJAVA-41856|Tableau des problèmes de rendu au PDF|Punaise|
 |CELLSJAVA-41855|L'ouverture et l'enregistrement du fichier Excel modifient les lignes de tendance|Punaise|
 |CELLSJAVA-41890|Le classeur enregistre deux fois, le contenu enregistré la deuxième fois sera différent de la première fois|Punaise|
 |CELLSJAVA-41884|Problème avec les sauts de page qui ne sont pas triés avant l'enregistrement dans un fichier Excel|Punaise|
@@ -33,7 +33,7 @@ url: /fr/java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-40366|Icône intégrée - pas d'impression|Punaise|
 |CELLSJAVA-41883|CellsException : type de fonction de complément inconnu : 9, dans Workbook.calculateFormula|Exception|
 |CELLSJAVA-41858|CellsException : Erreur lors du calcul de Cell[0BMW CAN Bus Codes V0.4!R4], dans Workbook.calculateFormula|Exception|
-|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException : 4 sur Workbook.save lors de la ré-enregistrement de XLS|Exception|
+|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException : 4 sur Workbook.save lors de la ré-enregistrement XLS|Exception|
 |CELLSJAVA-41864|Exception : java.lang.IllegalStateException : encodage non valide : null lors de la ré-enregistrement d'un fichier XLS|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.

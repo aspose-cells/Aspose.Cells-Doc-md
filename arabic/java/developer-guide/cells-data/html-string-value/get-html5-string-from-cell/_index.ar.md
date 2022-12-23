@@ -6,11 +6,11 @@ url: /ar/java/get-html5-string-from-cell/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-Aspose.Cells تقوم بارجاع سلسلة HTML للخلية باستخدام[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)طريقة. إذا مررت**خاطئة**كمعامل ، سيعود لك HTML عادي ولكن إذا نجحت**حقيقي**كمعامل ، فإنه سيعيد سلسلة HTML5.
+تقوم Aspose.Cells بارجاع سلسلة HTML للخلية باستخدام[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)طريقة. إذا مررت**خاطئة**كمعامل ، سيعود لك HTML عادي ولكن إذا نجحت**حقيقي**كمعامل ، فإنه سيعيد سلسلة HTML5.
 
 ## **احصل على سلسلة HTML5 من Cell**
 
-نموذج التعليمات البرمجية التالي ينشئ كائن مصنف ويضيف بعض النص في الخلية A1 من ورقة العمل الأولى. ثم تحصل على سلسلة HTML5 و HTML العادية من الخلية A1 باستخدام الامتداد[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)الطريقة وطباعتها على وحدة التحكم.
+نموذج التعليمات البرمجية التالي ينشئ كائن مصنف ويضيف بعض النص في الخلية A1 من ورقة العمل الأولى. ثم تحصل على السلسلة العادية HTML و HTML5 من الخلية A1 باستخدام امتداد[**getHtmlString (قيمة منطقية html5)**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)الطريقة وطباعتها على وحدة التحكم.
 
 ## **عينة من الرموز**
 

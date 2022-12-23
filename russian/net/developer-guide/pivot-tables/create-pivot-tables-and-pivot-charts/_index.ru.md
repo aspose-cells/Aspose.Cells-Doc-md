@@ -10,7 +10,7 @@ url: /ru/net/create-pivot-tables-and-pivot-charts/
 
 Сводная диаграмма — это интерактивное графическое представление данных в сводной таблице. Сводные диаграммы были представлены в Excel 2000. Использование сводных диаграмм еще больше упрощает понимание данных, поскольку сводная таблица автоматически создает промежуточные итоги и итоги.
 
- Aspose.Cells опоры[сводные таблицы](/cells/ru/net/create-pivot-tables-and-pivot-charts/) а также[сводные диаграммы](/cells/ru/net/create-pivot-tables-and-pivot-charts/).
+ Aspose.Cells опоры[сводные таблицы](/cells/ru/net/create-pivot-tables-and-pivot-charts/) и[сводные диаграммы](/cells/ru/net/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
 

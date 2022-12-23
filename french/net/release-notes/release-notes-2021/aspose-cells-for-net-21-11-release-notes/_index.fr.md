@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-11-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-48141|Prise en charge de la formule/fonction XLookup|Nouvelle fonctionnalité|
 |CELLSNET-49614|Prend en charge l'enregistrement d'images avec la méthode workbook.Save().|Nouvelle fonctionnalité|
@@ -25,7 +25,7 @@ url: /fr/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49588|Données de type unique enregistrées différemment de la valeur d'origine|Punaise|
 |CELLSNET-49667|Le résultat de la mise en forme conditionnelle ColorScale est incorrect|Punaise|
 |CELLSNET-49043|La position de la ligne tracée n'est pas correcte dans l'image|Punaise|
-|CELLSNET-49068|Mauvais PDF généré à partir d'un fichier Excel|Punaise|
+|CELLSNET-49068|Mauvais PDF généré à partir du fichier Excel|Punaise|
 |CELLSNET-49179|La référence du titre de l'axe est supprimée de manière inattendue|Punaise|
 |CELLSNET-49294|L'axe de certains graphiques est différent de ceux des fichiers Excel|Punaise|
 |CELLSNET-49495|Chevauchement du rendu des formules|Punaise|
@@ -34,10 +34,10 @@ url: /fr/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49193|GridDesktop ne fonctionne pas correctement|Punaise|
 |CELLSNET-49642|Aspose.Cells.GridWeb a une dépendance non déclarée sur Newtonsoft.Json|Punaise|
 |CELLSNET-49452|Le texte multiligne n'est pas rendu correctement|Punaise|
-|CELLSNET-49498|Flux HTML vers Excel soulevant une exception avec les dernières versions|Punaise|
+|CELLSNET-49498|HTML flux vers Excel soulevant une exception avec les dernières versions|Punaise|
 |CELLSNET-49610|Xml Import perd la mise en forme du modèle|Punaise|
 |CELLSNET-49671|Le texte avec les polices Windings n'est pas correctement rendu aux images/HTML|Punaise|
-|CELLSNETCORE-278|Les résultats de la conversion XLSX en PDF ne peuvent pas être ouverts lorsque la culture est définie sur Norvégien|Punaise|
+|CELLSNETCORE-278|Les résultats de conversion XLSX à PDF ne peuvent pas être ouverts lorsque la culture est définie sur Norvégien|Punaise|
 |CELLSNET-49560|Différences en XML|Punaise|
 |CELLSNET-49598|Régression : différences dans XML après l'enregistrement|Punaise|
 |CELLSNET-49630|Coches incorrectes lors de la conversion en EMF|Punaise|
@@ -45,9 +45,9 @@ url: /fr/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49545|Les types HtmlCrossType.Default et HtmlCrossType.FitToCell sont cassés|Punaise|
 |CELLSNET-49654|Les macros ne fonctionnent pas après la conversion de XLS en XLSM|Punaise|
 |CELLSNET-49727|Les images des fichiers Mht ne sont pas visibles dans IE.|Punaise|
-|CELLSNET-49609|"Erreur de forme en image" lors de la conversion d'un fichier Excel en PDF|Exception|
+|CELLSNET-49609|"Erreur de forme en image" lors de la conversion du fichier Excel en PDF|Exception|
 |CELLSNET-49608|Aspose.Cells génère des erreurs lors de la tentative d'ajout de certains noms de plage|Exception|
-|CELLSNET-49697|XLSX vers PDF : la chaîne d'entrée n'était pas dans un format correct.|Exception|
+|CELLSNET-49697|XLSX à PDF : la chaîne d'entrée n'était pas dans un format correct.|Exception|
 |CELLSNETCORE-287|NullPointerException lors du calcul de la formule|Exception|
 |CELLSNET-49497|ExportXml avec XML Map lève "NullReferenceException"|Exception|
 |CELLSNET-49595|ExportXml avec XML Map lève "NullReferenceException" pour les fichiers Excel complexes|Exception|

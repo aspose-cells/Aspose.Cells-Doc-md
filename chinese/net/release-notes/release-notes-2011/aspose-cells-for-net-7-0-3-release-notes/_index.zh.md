@@ -14,11 +14,11 @@ url: /zh/net/aspose-cells-for-net-7-0-3-release-notes/
 
 Aspose.Cells 
 
-新的功能
+新功能
 
 24953 在生成的 PDF 文件中支持 MS Excel 的高级条件格式
 
-30020 支持 Cell 转换为 PDF 文档时未正确设置的渐变颜色
+30020 支持转换为 PDF 文档时未正确设置的 Cell 渐变颜色
 
 40010 在格式化图表轴时取消选中多级类别标签
 
@@ -52,7 +52,7 @@ Aspose.Cells
 
 31266 XLS 到 PDF 或 XPS 需要很长时间
 
-40053 Excel 到 PDF 的性能随着工作表数量的增加而降低
+40053 Excel 到 PDF 性能随着工作表数量的增加而降低
 
 虫子
 
@@ -70,7 +70,7 @@ Aspose.Cells
 
 40013 RowField 小计 – 格式问题
 
-40014 打开和保存 XLSM 文件会丢弃宏和功能区
+40014 打开和保存 XLSM 文件丢掉宏和功能区
 
 40016 保存 Excel 文件时出错
 
@@ -94,7 +94,7 @@ Aspose.Cells
 
 网格桌面
 
-新的功能
+新功能
 
 29869 支持条件格式（仅支持 Excel 2003 样式（当前））
 
@@ -104,7 +104,7 @@ Aspose.Cells
 
 40029 问题：关于工作表中的超链接的“站点地址无效”
 
- 40051 ImportFromExcelFile 在从 MemoryStream 加载 XLSX 文件（带有合并的单元格）时出现问题
+ 40051 ImportFromExcelFile 在从 MemoryStream 加载 XLSX 文件（包含合并的单元格）时出现问题
 
 40064 项目符号内容显示不正确
 

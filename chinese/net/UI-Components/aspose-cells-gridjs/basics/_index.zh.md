@@ -10,7 +10,7 @@ Aspose.Cells.GridJs 是一个 .NET 标准库，允许用户开发 Web 应用程�
 
 Aspose.Cells.GridJs支持导入流行的电子表格（XLS、XLSX、XLSM、XLSB、CSV、SpreadsheetML、ODS）文件格式。
 
-它还允许将 Excel 文件导出为 PDF、HTML 等。以下是开发 GridJs Web 应用程序的基本流程步骤。
+它还允许将 Excel 文件导出到 PDF、HTML 等。以下是开发 GridJs Web 应用程序的基本流程步骤。
 
 - 实施 GridCacheForStream 以编写您自己的缓存存储业务逻辑。
 - 设置控制器操作以从电子表格文件中获取 json。您可以使用 GridJsWorkbook.ImportExcelFile 和 GridJsWorkbook.ExportToJson API，GridJs 会自动将传播文件存储在缓存中。

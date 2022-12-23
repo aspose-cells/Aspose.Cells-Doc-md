@@ -6,7 +6,7 @@ url: /fr/reportingservices/performance-configuration/
 ---
 {{% alert color="primary" %}} 
 
-Les utilisateurs peuvent optimiser les performances dans une certaine mesure. Vous pouvez configurer certains attributs et paramètres dans le**Aspose.Cells.ReportingServices.xml** fichier comme décrit ci-dessous.
+ Les utilisateurs peuvent optimiser les performances dans une certaine mesure. Vous pouvez configurer certains attributs et paramètres dans le**Aspose.Cells.ReportingServices.xml** fichier comme décrit ci-dessous.
 
 {{% /alert %}} 
 ### **Section Performances**
@@ -52,7 +52,7 @@ Cela montre la section Performance telle qu'elle est par défaut.
  - Lorsque le paramètre Performance est réglé sur 'off', la valeur par défaut est false.
  - Lorsque le paramètre Performance est réglé sur 'on', la valeur par défaut est true.
  - Lorsque le paramètre Performance est défini sur 'on', un rapport de sous-élément peut réinitialiser le paramètre AutoRowFile du rapport.
- Veuillez vous référer à la configuration suivante.
+Veuillez vous référer à la configuration suivante.
 
 **XML**
 
@@ -82,7 +82,7 @@ Cela montre la section Performance telle qu'elle est par défaut.
  - Lorsque le paramètre Performance est réglé sur 'off', la valeur par défaut est false.
  - Lorsque le paramètre Performance est réglé sur 'on', la valeur par défaut est true.
  - Lorsque le paramètre Performance est défini sur 'on', un rapport de sous-élément peut réinitialiser le paramètre AutoRowFile du rapport.
- Veuillez vous référer à la configuration suivante.
+Veuillez vous référer à la configuration suivante.
 
 **XML**
 
@@ -112,7 +112,7 @@ Cela montre la section Performance telle qu'elle est par défaut.
  - Lorsque le paramètre Performance est réglé sur 'off', la valeur par défaut est false.
  - Lorsque le paramètre Performance est réglé sur 'on', la valeur par défaut est true.
  - Lorsque le paramètre Performance est défini sur 'on', un rapport de sous-élément peut réinitialiser le paramètre AutoRowFile du rapport.
- Veuillez vous référer à la configuration suivante.
+Veuillez vous référer à la configuration suivante.
 
 **XML**
 
@@ -138,12 +138,12 @@ Cela montre la section Performance telle qu'elle est par défaut.
 
 {{< /highlight >}}
 
-- IsConditionalFormatting – Peut être true ou false :
+-  IsConditionalFormatting – Peut être true ou false :
  - Lorsque le paramètre Performance est réglé sur 'off', la valeur par défaut est false.
  - Lorsque le paramètre Performance est réglé sur 'on', la valeur par défaut est true.
  - Lorsque le paramètre Performance est défini sur 'on', le rapport de sous-élément peut réinitialiser le paramètre AutoRowFile du rapport de point.
  - Lorsque le paramètre IsSetStyle est défini sur false, la valeur du paramètre Performance n'est pas valide.
- Veuillez vous référer à la configuration suivante.
+Veuillez vous référer à la configuration suivante.
 
 **XML**
 

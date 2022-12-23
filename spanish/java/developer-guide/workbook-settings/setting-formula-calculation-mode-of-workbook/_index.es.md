@@ -16,16 +16,16 @@ Microsoft Excel le permite configurar el modo de cálculo de fórmulas, es decir
 
 Para configurar el modo de cálculo de fórmula en Microsoft Excel:
 
-1.  Seleccione**Fórmulas** y entonces**Opciones de cálculo**.
+1.  Seleccione**Fórmulas** y luego**Opciones de cálculo**.
 1. Seleccione una de las opciones.
 
- Aspose.Cells también le permite configurar el**Modo de cálculo de fórmula** utilizando el[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) propiedad. Puedes asignarle el[**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType)enumeración que tiene uno de los siguientes valores:
+ Aspose.Cells también le permite configurar el**Modo de cálculo de fórmula** utilizando la[**FormulaSettings.CalculationMode**](https://reference.aspose.com/cells/java/com.aspose.cells/formulasettings#CalculationMode) propiedad. Puedes asignarle el[**CalcModeType**](https://reference.aspose.com/cells/java/com.aspose.cells/CalcModeType)enumeración que tiene uno de los siguientes valores:
 
 - [**CalcModeType.AUTOMÁTICO**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC)
 - [**CalcModeType.AUTOMATIC_EXCEPT_TABLE**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#AUTOMATIC_EXCEPT_TABLE)
 - [**CalcModeType.MANUAL**](https://reference.aspose.com/cells/java/com.aspose.cells/calcmodetype#MANUAL)
 
- El siguiente código de ejemplo primero crea un libro de trabajo, luego establece el modo de cálculo de fórmulas en**Manual** y guarda el libro de trabajo como archivo de salida de Excel en el disco.
+El siguiente código de ejemplo primero crea un libro de trabajo, luego establece el modo de cálculo de fórmulas en**Manual** y guarda el libro de trabajo como archivo de salida de Excel en el disco.
 
 **El archivo de salida. Tenga en cuenta el modo de cálculo de la fórmula.**
 

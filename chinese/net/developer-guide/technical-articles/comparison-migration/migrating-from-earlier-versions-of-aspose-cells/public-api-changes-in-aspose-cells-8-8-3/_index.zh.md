@@ -168,7 +168,7 @@ Aspose.Cells for .NET 8.8.3 公开了 HTMLLoadOptions.SupportDivTag 属性，允
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[加载 HTML 时支持内部 DIV 标签](/cells/zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+有关此功能的更多详细信息，请查看详细文章[加载时支持内部 DIV 标签 HTML](/cells/zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -276,11 +276,11 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **添加了 HtmlSaveOptions.ExportGridLines 属性**
-Aspose.Cells for .NET 8.8.3 公开了 HtmlSaveOptions.ExportGridLines 属性，该属性允许在将电子表格导出为 HTML 格式时呈现网格线。布尔类型属性的默认值为 false，但是，当设置为 true 时，API 以 HTML 格式呈现可用数据范围的网格线。
+Aspose.Cells for .NET 8.8.3 公开了 HtmlSaveOptions.ExportGridLines 属性，该属性允许在将电子表格导出为 HTML 格式时呈现网格线。布尔类型属性的默认值为 false，但是，当设置为 true 时，API 将以 HTML 格式呈现可用数据范围的网格线。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[将网格线呈现为 HTML](/cells/zh/net/export-excel-to-html-with-gridlines/).
+有关此功能的更多详细信息，请查看详细文章[将网格线渲染到 HTML](/cells/zh/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 

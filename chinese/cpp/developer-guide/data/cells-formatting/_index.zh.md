@@ -17,7 +17,7 @@ url: /zh/cpp/cells-formatting/
 ## **示例代码**
 以下示例代码以各种方式对工作表的单元格 C4 进行格式化，屏幕截图显示了[输出excel文件](21266438.xlsx)由它生成供您参考。
 
-![待办事项：图像_替代_文本](cells-formatting_1.png)
+![待办事项：图片_替代_文本](cells-formatting_1.png)
 
 
 

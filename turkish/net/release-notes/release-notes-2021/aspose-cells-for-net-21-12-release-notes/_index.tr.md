@@ -22,18 +22,18 @@ url: /tr/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|Başka bir çalışma kitabına kopyalarken koşullu biçimlendirme için 3B referansları yoksay|Artırma|
 |CELLSNET-49984|Bozuk xls dosyasından bazı verileri okuyun.|Artırma|
 |CELLSNET-49990|Tablonun özel toplamlar satır formülünü ayarlama desteği.|Artırma|
-|CELLSNET-49825|Excel'de HTML'ye dönüştürmede ExportImagesAsBase64 özniteliğiyle ilgili performans sorunu|Verim|
+|CELLSNET-49825|Excel'deki ExportImagesAsBase64 özniteliği ile HTML dönüşümüne ilişkin performans sorunu|Verim|
 |CELLSNET-49827|Tanımlanan aralığın RefersTo'su hatalı bir şekilde kaçtı|Böcek|
 |CELLSNET-49759|Boş hücreler hala boş XML öğeleri olarak dışa aktarılıyor|Böcek|
 |CELLSNET-49817|Metin, Emf'ye dönüştürülürken 'Credit Suisse Type Light' yazı tipiyle ortaya hizalanmış değil|Böcek|
-|CELLSNET-49864|XLSX'ten PDF'e dönüştürmede Sağdan Sola metin için ters sırada görünen sözcükler|Böcek|
+|CELLSNET-49864|XLSX - PDF oluşturmada Sağdan Sola metin için ters sırada görünen sözcükler|Böcek|
 |CELLSNET-49873|Xlsx'ten pdf'ye: Sayfa sonu, Excel tarafından oluşturulan pdf ile karşılaştırıldığında farklıdır|Böcek|
-|CELLSNET-49922|Karakterler bir sayfaya sığmıyor ve Excel'de yazdırma konumu PDF oluşturmaya değiştirildi|Böcek|
+|CELLSNET-49922|Karakterler bir sayfaya sığmıyor ve Excel'de yazdırma konumu PDF işleme olarak değiştirildi|Böcek|
 |CELLSNET-49998|HTML işaretlemeli belirli XLS dosyası görüntülenemiyor|Böcek|
 |CELLSNET-49742|Kaydedildikten sonra chart1.xml'deki farklılıklar|Böcek|
-|CELLSNET-49875|XLSX'ten EMF'ye örtüşen Onay İşaretleri|Böcek|
-|CELLSNET-49904|Grafikten PNG tarihlerine doğru dönüştürülmemiş tarihler|Böcek|
-|CELLSNET-49905|Regresyon: Grafiği PNG'ye dönüştürürken sorun|Böcek|
+|CELLSNET-49875|XLSX - EMF örtüşen Onay İşaretleri|Böcek|
+|CELLSNET-49904|PNG tarihli tablo düzgün bir şekilde dönüştürülmedi|Böcek|
+|CELLSNET-49905|Regresyon: Grafiği PNG'e dönüştürürken sorun|Böcek|
 |CELLSNET-49969|XLS belgesini XLSX/XSLM'ye kaydederken taşma hatası|Böcek|
 |CELLSNET-49760|Birleştirilmiş Alan, html'ye dönüştürülürken yanlış görüntüleniyor.|Böcek|
 |CELLSNET-49789|Html dosyası kaydedilirken Excel'in orijinal ızgarası değiştirilmemelidir|Böcek|
@@ -42,8 +42,8 @@ url: /tr/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49898|Akıllı İşaretleyicileri kullanarak görüntüleri hücrelere sığdırırken hücrelerin kenarlığını gösterin|Böcek|
 |CELLSNET-49924|Aspose tarafından oluşturulan XLSX dosyaları hatayla açılıyor|Böcek|
 |CELLSNETCORE-301|Köprü boş bir adrese sahip olduğunda çalışma sayfası ekleme başarısız olur|Böcek|
-|CELLSNET-49812|ODS dosyasını açarken istisna|İstisna|
-|CELLSNET-49876|Bir XLSX dosyasını yeniden kaydederken istisna|İstisna|
+|CELLSNET-49812|ODS dosyası açıldığında istisna|İstisna|
+|CELLSNET-49876|XLSX dosyasını yeniden kaydederken istisna|İstisna|
 |CELLSNET-49943|Çalışma Kitabını kopyalarken System.NullReferenceException|İstisna|
 |
 

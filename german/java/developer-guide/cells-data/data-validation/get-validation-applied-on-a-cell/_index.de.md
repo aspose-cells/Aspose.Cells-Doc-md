@@ -42,6 +42,6 @@ Ignore blank: true
 
 {{< /highlight >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Datenvalidierung](/cells/de/java/data-validation/)

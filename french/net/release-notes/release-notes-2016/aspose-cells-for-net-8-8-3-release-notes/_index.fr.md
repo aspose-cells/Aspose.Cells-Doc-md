@@ -6,15 +6,15 @@ url: /fr/net/aspose-cells-for-net-8-8-3-release-notes/
 ---
 ### **1) Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSNET-44175 | Prise en charge de l'actualisation et du calcul des tableaux croisés dynamiques avec des éléments calculés| Nouvelle fonctionnalité|
 |CELLSNET-44535 | Publiez les API pertinentes pour l'ajout/la manipulation des contrôles ActiveX, y compris le bouton bascule| Nouvelle fonctionnalité|
 |CELLSNET-44482 | Fournir une option pour enregistrer la feuille de calcul avec la vue protégée| Nouvelle fonctionnalité|
-|CELLSNET-44385 |Modifier l'espacement des caractères dans la zone de texte Excel| Nouvelle fonctionnalité|
+|CELLSNET-44385 | Modifier l'espacement des caractères dans la zone de texte Excel| Nouvelle fonctionnalité|
 |CELLSNET-41013 | Prise en charge de l'option de chargement "Sans graphique"| Nouvelle fonctionnalité|
 |CELLSNET-44502 | Prise en charge du quadrillage pour la conversion d'Excel en HTML| Renforcement|
-|CELLSNET-44525 | Prise en charge de la valeur décimale renvoyée par l'implémentation de ICustomFunction et CalculationData.CalculatedValue| Renforcement|
+|CELLSNET-44525 |Prise en charge de la valeur décimale renvoyée par l'implémentation de ICustomFunction et CalculationData.CalculatedValue| Renforcement|
 |CELLSNET-44492 | La qualité d'impression de la police en gras simulée n'est pas bonne| Renforcement|
 |CELLSNET-44530 | Ajouter une propriété de commentaire à ListObject/Table| Renforcement|
 |CELLSNET-44523 | Utilisation de formules matricielles dans les marqueurs intelligents| Renforcement|
@@ -24,32 +24,32 @@ url: /fr/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-44514 | Problème avec PivotItem.IsHidden lors de l'actualisation des données| Punaise|
 |CELLSNET-44513 | Export Html to Excel - le texte "!A1" ajouté à la fin du lien| Punaise|
 |CELLSNET-44500 | Le fichier est corrompu après l'actualisation du tableau croisé dynamique et la copie du classeur| Punaise|
-|CELLSNET-44470 | Cell l'ombrage n'est pas appliqué uniformément lors de la conversion de la feuille de calcul en HTML| Punaise|
-|CELLSNET-44467 | Impossible d'exporter tout le contenu HTML vers Excel lorsque le code HTML contient des éléments 'div' imbriqués| Punaise|
-|CELLSNET-44490 |Problème avec le format d'heure personnalisé| Punaise|
+|CELLSNET-44470 | L'ombrage Cell n'est pas appliqué uniformément lors de la conversion de la feuille de calcul en HTML| Punaise|
+|CELLSNET-44467 | Impossible d'exporter tout le contenu HTML vers Excel lorsque le HTML a des éléments 'div' imbriqués| Punaise|
+|CELLSNET-44490 | Problème avec le format d'heure personnalisé| Punaise|
 |CELLSNET-44201 | Problème concernant les index de caractères non pris en charge dans la formule CHAR| Punaise|
-|CELLSNET-44521 | La conversion au format PDF donne 2 pages PDF par opposition à l'aperçu avant impression d'Excel| Punaise|
-|CELLSNET-44489 | Conversion Excel en PDF - Caractère justifié perdu avec sa mise en forme| Punaise|
-|CELLSNET-44481 | Rendu Excel vers PDF - La position du saut de page a été modifiée| Punaise|
+|CELLSNET-44521 | La conversion en PDF donne 2 PDF pages par opposition à l'aperçu avant impression d'Excel| Punaise|
+|CELLSNET-44489 |Conversion Excel vers PDF - Caractère justifié perdu avec sa mise en forme| Punaise|
+|CELLSNET-44481 | Excel vers le rendu PDF - La position du saut de page a été modifiée| Punaise|
 |CELLSNET-44531 | Aspose.Cells rend la même feuille de calcul en images de tailles différentes dans la session 1 par rapport à la session 0| Punaise|
 |CELLSNET-44491 | La police non installée sur le système ne fonctionne pas pour les zones de texte| Punaise|
 |CELLSNET-44433 | Image rendue différemment du graphique d'origine| Punaise|
 |CELLSNET-44074 | Lignes inutiles sur le graphique lors de l'exportation du graphique vers l'image| Punaise|
 |CELLSNET-44012 | L'image du graphique est différente de la source| Punaise|
-|CELLSNET-40572 | La zone de graphique devient charabia lorsqu'elle est convertie en PDF .NET| Punaise|
+|CELLSNET-40572 | La zone graphique devient charabia lorsqu'elle est convertie en PDF .NET| Punaise|
 |CELLSNET-44536 | Aspose.Cells reconnaît incorrectement la taille de la police du titre du graphique| Punaise|
 |CELLSNET-44522 | Définissez le texte sur la forme du fichier modèle.| Punaise|
 |CELLSNET-44519 | Les références dans le tableau sont rompues après l'importation d'un tableau à deux dimensions dans le tableau| Punaise|
 |CELLSNET-44511 | Les références dans le tableau sont cassées après quelques manipulations avec le fichier| Punaise|
 |CELLSNET-44508 | Différentes tailles de page dans les PDF de sortie qu'Excel| Punaise|
-|CELLSNET-44507 |Problème avec la méthode Shape.GetCharacters()| Punaise|
-|CELLSNET-44505 | Cell la validation ne fonctionne pas correctement avec la fonction INDIRECT| Punaise|
+|CELLSNET-44507 | Problème avec la méthode Shape.GetCharacters()| Punaise|
+|CELLSNET-44505 |Cell la validation ne fonctionne pas correctement avec la fonction INDIRECT| Punaise|
 |CELLSNET-44498 | Les lignes d'en-tête ne se répètent pas lorsque la feuille de calcul est convertie en PDF avec les paramètres régionaux turcs| Punaise|
 |CELLSNET-44496 | OTT est détecté comme ODS| Punaise|
 |CELLSNET-44494 | TextBox.IsFilled défini sur false mais le remplissage apparaît en bleu clair lorsque ODS est affiché dans OpenOffice| Punaise|
 |CELLSNET-44488 | Le fichier est corrompu après shape.UpdateSelectedValue| Punaise|
 |CELLSNET-44329 | Différentes tailles de page de fichier Pdf enregistrées pour les cellules sélectionnées ou non sélectionnées dans le fichier Excel| Punaise|
-|CELLSNET-44271 | ODS en PDF : les 2 premières pages contiennent une nuance bleue| Punaise|
+|CELLSNET-44271 | ODS à PDF : les 2 premières pages contiennent une teinte bleue| Punaise|
 |CELLSNET-44172 | Modification du comportement du traitement Smart Marker lorsqu'il est utilisé dans un tableau croisé dynamique dans les versions 8.6.1 et 8.6.3| Punaise|
 |CELLSNET-44493 | ArgumentException : le paramètre n'est pas valide, lors du redimensionnement du contrôle de formulaire| Punaise|
 |CELLSNET-44528 | ArgumentOutOfRangeException sur PivotTable.CalculateData| Exception|
@@ -58,7 +58,7 @@ url: /fr/net/aspose-cells-for-net-8-8-3-release-notes/
 |CELLSNET-41993 | Exception lors de l'appel de WorkbookDesigner.Process()| Exception|
 ### **2) Suite de grille Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSNET-44533 | Fournir un moyen de spécifier le chemin où GridWeb stocke les fichiers de session temporaires| Nouvelle fonctionnalité|
 |CELLSNET-44497 |Fournir des fonctions côté client pour sélectionner une plage ou pour obtenir la plage sélectionnée à l'aide de JavaScript| Nouvelle fonctionnalité|

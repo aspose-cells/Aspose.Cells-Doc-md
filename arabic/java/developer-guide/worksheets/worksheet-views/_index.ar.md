@@ -79,7 +79,7 @@ url: /ar/java/worksheet-views/
  يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) توفر class مجموعة واسعة من الخصائص والأساليب لإدارة أوراق العمل. لتكوين أجزاء التجميد ، اتصل بـ[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[أجزاء التجميد](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\) ) طريقة. ال[أجزاء التجميد](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#freezePanes\(int,%20int,%20int,%20int\)) تأخذ الطريقة المعلمات التالية:
 
 - **صف**، فهرس صف الخلية الذي سيبدأ التجميد منه.
-- **عمودي**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
+- **عمود**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
 - **صفوف مجمدة**، عدد الصفوف المرئية في الجزء العلوي.
 - **أعمدة مجمدة**، عدد الأعمدة المرئية في الجزء الأيمن
 
@@ -105,7 +105,7 @@ url: /ar/java/worksheet-views/
 تعمل الأجزاء في وقت واحد. إذا قمت بإجراء تغيير في أحدهما ، فسيظهر التغيير في الآخر في نفس الوقت. يوفر Aspose.Cells ميزة الأجزاء المنقسمة للمستخدمين.
 ### **تطبيق وإزالة الأجزاء المنقسمة**
 #### **تقسيم الأجزاء**
-يوفر Aspose.Cells أ[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)توفر class مجموعة واسعة من الخصائص والأساليب لإدارة ملفات Excel. لتنفيذ طرق العرض المقسمة ، استخدم ملف[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[ينقسم](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) طريقة. لإزالة الأجزاء المنقسمة ، استخدم ملف[إزالة](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) طريقة.
+يوفر Aspose.Cells أ[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) فئة تمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)توفر class مجموعة واسعة من الخصائص والأساليب لإدارة ملفات Excel. لتنفيذ طرق العرض المقسمة ، استخدم ملف[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي'[الانقسام](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) طريقة. لإزالة الأجزاء المنقسمة ، استخدم ملف[إزالة](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) طريقة.
 
 في المثال ، نستخدم ملف قالب بسيط يتم تحميله ، ثم يتم تطبيق ميزة تقسيم الأجزاء المحددة على خلية في ورقة العمل الأولى. يتم حفظ الملف المحدث.
 

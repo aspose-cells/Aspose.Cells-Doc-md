@@ -10,7 +10,7 @@ url: /ja/net/specify-individual-or-private-set-of-fonts-for-workbook-rendering/
 
 ## **ワークブックのレンダリング用に個別またはプライベートのフォント セットを指定する**
 
-次のサンプル コードは、[サンプル Excel ファイル](67338268.xlsx)を使用して指定された個々のまたはプライベートなフォントのセットで**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)**クラス。をご覧ください[サンプルフォント](67338271.zip)コード内だけでなく、[PDF出力](67338269.pdf)それによって生成されます。次のスクリーンショットは、フォントが正常に見つかった場合の出力 PDF の外観を示しています。
+次のサンプル コードは、[サンプル Excel ファイル](67338268.xlsx)を使用して指定された個々のまたはプライベートなフォントのセットで**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)**クラス。をご覧ください[サンプルフォント](67338271.zip)コード内だけでなく、[出力 PDF](67338269.pdf)それによって生成されます。次のスクリーンショットは、フォントが正常に見つかった場合の出力 PDF がどのように見えるかを示しています。
 
 ![todo:画像_代替_文章](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 

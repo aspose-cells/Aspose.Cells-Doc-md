@@ -16,15 +16,15 @@ Actualmente, Aspose.Cells.GridDesktop admite la adición de tres tipos de contro
 - **Caja**
 - **Caja combo**
 
-Todos estos controles se derivan de una clase abstracta,**CellControl**. Cada hoja de trabajo contiene una colección de**Control S**Se pueden agregar nuevos controles de celda y se puede acceder a los existentes usando este**Control S**colección fácilmente.
+Todos estos controles se derivan de una clase abstracta,**CellControl**Cada hoja de trabajo contiene una colección de**Control S**. Se pueden agregar nuevos controles de celda y se puede acceder a los existentes usando este**Control S**colección fácilmente.
 
 **IMPORTANTE:**Si desea agregar controles de celda a todas las celdas de una columna en lugar de agregar uno por uno, puede consultar[Gestión de controles Cell en columnas.](/cells/es/net/adding-cell-controls-in-worksheets/)
 ### **Añadir botón**
 Para agregar un botón a la hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
-- Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+- Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 - Accede a cualquier deseado**Hoja de cálculo**
-- Agregar**Botón**hacia**Control S**colección de la**Hoja de cálculo**
+- Agregar**Botón**al**Control S**colección de la**Hoja de cálculo**
 
 
 
@@ -52,9 +52,9 @@ Podemos establecer una imagen/imagen de fondo para el control del botón con su 
 ### **Agregar casilla de verificación**
 Para agregar una casilla de verificación en la hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
-- Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+- Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 - Accede a cualquier deseado**Hoja de cálculo**
-- Agregar**Caja**hacia**Control S**colección de la**Hoja de cálculo**
+- Agregar**Caja**al**Control S**colección de la**Hoja de cálculo**
 
 
 
@@ -71,10 +71,10 @@ Aspose.Cells.GridDesktop proporciona**CellCheckedChanged**evento que se desencad
 ### **Agregar cuadro combinado**
 Para agregar un cuadro combinado a la hoja de trabajo usando Aspose.Cells.GridDesktop, siga los pasos a continuación:
 
-- Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+- Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 - Accede a cualquier deseado**Hoja de cálculo**
 - Cree una matriz de elementos (o valores) que se agregarán a**Caja combo**
-- Agregar**Caja combo**hacia**Control S**colección de la**Hoja de cálculo**especificando la ubicación de la celda (donde se mostrará el cuadro combinado) y los elementos/valores que se mostrarán cuando se haga clic en el cuadro combinado
+- Agregar**Caja combo**al**Control S**colección de la**Hoja de cálculo**especificando la ubicación de la celda (donde se mostrará el cuadro combinado) y los elementos/valores que se mostrarán cuando se haga clic en el cuadro combinado
 
 
 

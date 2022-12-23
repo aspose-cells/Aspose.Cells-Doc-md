@@ -7,7 +7,7 @@ url: /ja/net/removing-worksheets-using-sheet-index-in-php/
 ## **シート インデックスを使用したワークシートの削除**
 シート インデックスを使用したワークシートの削除
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

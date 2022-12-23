@@ -14,5 +14,5 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-20-1-release-note
 |:- |:- |:- |
 |CELLSRS-565|Aspose.Cells for Reporting Services のヘブライ語の問題。|新機能|
 |CELLSRS-567|Aspose.Cells.DLL を更新します。|タスク|
-|CELLSRS-564|レポートの公開に失敗しました。|バグ|
+|CELLSRS-564|レポートの発行に失敗しました。|バグ|
 

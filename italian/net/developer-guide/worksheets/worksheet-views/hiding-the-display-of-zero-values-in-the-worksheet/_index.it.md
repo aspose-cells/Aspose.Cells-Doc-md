@@ -12,7 +12,7 @@ A volte, devi nascondere i valori zero in un foglio di calcolo. Potrebbe essere 
 
 Per nascondere i valori zero in un foglio di lavoro in Microsoft Excel (ad esempio Microsoft Excel 2003):
 
-1.  Dal**Strumenti** menù, selezionare**Opzioni** , quindi selezionare il**Visualizzazione** scheda.
+1.  Dal**Utensili** menù, selezionare**Opzioni** , quindi selezionare il**Visualizzazione** scheda.
 1.  Deseleziona il**Zero valori** opzione.
 1.  Clic**OK**.
 

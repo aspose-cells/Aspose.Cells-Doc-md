@@ -5,7 +5,7 @@ weight: 30
 url: /it/net/dnn-import-users-from-excel/
 ---
 ## **introduzione**
-Aspose Il modulo .NET Importa utenti da Excel consente agli sviluppatori di importare utenti in blocco da file Excel. Questo modulo dimostra la potente funzionalità del foglio di calcolo di Aspose.Cells.
+Aspose .NET Importa utenti da Excel Il modulo consente agli sviluppatori di importare utenti in blocco da file Excel. Questo modulo dimostra la potente funzionalità del foglio di calcolo di Aspose.Cells.
 ### **Caratteristiche del modulo**
 Questa versione iniziale del modulo è arricchita con le seguenti fantastiche funzionalità per rendere il processo di importazione semplice e facile da usare:
 
@@ -49,7 +49,7 @@ Dopo aver installato il modulo Aspose .NET Cells Import Users from Excel for DNN
 
 1. Dall'elenco, seleziona "Aspose Import Users from Excel module for DNN" e trascinalo in posizione.
 
-Hai aggiunto correttamente il modulo Aspose .NET Cells Importa utenti da Excel per il modulo DNN alla tua pagina. I controlli per il caricamento dei file saranno visibili insieme al collegamento "File modello". Puoi scaricare il file modello e formattare i tuoi contenuti come da file modello. Una volta caricato il file Excel, elaborerà automaticamente tutti gli utenti e filtrerà gli utenti esistenti. È possibile selezionare gli utenti che si desidera importare e premere il pulsante "Importa utenti".
+Hai aggiunto correttamente Aspose .NET Cells Importa utenti dal modulo Excel per il modulo DNN alla tua pagina. I controlli per il caricamento dei file saranno visibili insieme al collegamento "File modello". Puoi scaricare il file modello e formattare i tuoi contenuti come da file modello. Una volta caricato il file Excel, elaborerà automaticamente tutti gli utenti e filtrerà gli utenti esistenti. È possibile selezionare gli utenti che si desidera importare e premere il pulsante "Importa utenti".
 ## **Dimostrazione video**
  si prega di controllare[il video](https://www.youtube.com/watch?v=7CN-tz1nYvo) sotto per vedere il modulo in azione.
 ## **Supporto, estensione e contributo**
@@ -58,7 +58,7 @@ Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni p
 
 Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
 
-È possibile registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
+Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
 
 - [Aspose Foro](https://forum.aspose.com/c/cells/9)
 ### **Estendi e contribuisci**

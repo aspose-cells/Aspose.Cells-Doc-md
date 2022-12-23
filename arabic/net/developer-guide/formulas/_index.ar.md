@@ -23,11 +23,11 @@ description: يمكن لـ Aspose.Cells ببساطة الحصول على صيغ 
 
 ## **استخدام وظائف مدمجة**
 
- يتم توفير الوظائف أو الصيغ المضمنة كوظائف جاهزة لتقليل جهود المطورين والوقت. نرى[قائمة الوظائف المضمنة](/cells/ar/net/supported-formula-functions/) يدعمها Aspose.Cells. الوظائف مذكورة بترتيب أبجدي. سيتم دعم المزيد من الوظائف في المستقبل.
+ يتم توفير الوظائف أو الصيغ المضمنة كوظائف جاهزة لتقليل جهود المطورين والوقت. نرى[قائمة الوظائف المدمجة](/cells/ar/net/supported-formula-functions/) يدعمها Aspose.Cells. الوظائف مذكورة بترتيب أبجدي. سيتم دعم المزيد من الوظائف في المستقبل.
 
  يدعم Aspose.Cells معظم الصيغ أو الوظائف التي يوفرها Microsoft Excel. يمكن للمطورين استخدام هذه الصيغ من خلال API أو[جدول بيانات المصمم](/cells/ar/net/what-is-a-designer-spreadsheet/). يدعم Aspose.Cells مجموعة ضخمة من الصيغ الرياضية ، والسلسلة ، والمنطقية ، والتاريخ / الوقت ، والإحصائية ، وقاعدة البيانات ، والبحث والمراجع.
 
- استخدم ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**معادلة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)خاصية لإضافة صيغة إلى خلية.**الصيغ المعقدة**، فمثلا
+ استخدم ال[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**معادلة**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/formula)خاصية لإضافة صيغة إلى خلية.**الصيغ المعقدة**، على سبيل المثال
 
 {{< highlight "java" >}}
 
@@ -47,7 +47,7 @@ description: يمكن لـ Aspose.Cells ببساطة الحصول على صيغ 
 
  يوفر Aspose.Cells ميزات لتسجيل الوظائف الإضافية باستخدام[**أوراق العمل.**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). بعد ذلك عندما قمنا بتعيين cell.Formula = anyFunctionFromAddIn ، يحتوي ملف Excel الناتج على القيمة المحسوبة من الوظيفة الإضافية.
 
-يجب تنزيل ملف XLAM التالي لتسجيل الوظيفة الإضافية في نموذج التعليمات البرمجية أدناه. وبالمثل ، يمكن تنزيل ملف الإخراج "test_udf.xlsx" للتحقق من الإخراج.
+يجب تنزيل الملف XLAM التالي لتسجيل الوظيفة الإضافية في نموذج الكود أدناه. وبالمثل ، يمكن تنزيل ملف الإخراج "test_udf.xlsx" للتحقق من الإخراج.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -71,7 +71,7 @@ description: يمكن لـ Aspose.Cells ببساطة الحصول على صيغ 
 
 ## **باستخدام صيغة R1C1**
 
- إضافة**R1C1** صيغة نمط مرجعي لخلية بامتداد[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**صيغة R1C1**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) منشأه.
+ إضافة**R1C1** صيغة نمط مرجعي لخلية بامتداد[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) صف دراسي'[**صيغة R1C1**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/r1c1formula) خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingR1C1-1.cs" >}}
 

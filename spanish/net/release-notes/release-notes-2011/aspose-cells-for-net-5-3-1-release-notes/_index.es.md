@@ -14,7 +14,7 @@ url: /es/net/aspose-cells-for-net-5-3-1-release-notes/
 
  Qué ha cambiado en Aspose.Cells:
 
-- Admite la representación de texto en árabe en la conversión de PDF.
+- Admite la representación de texto en árabe en la conversión PDF.
  17 mejoras y correcciones.
 
  Qué ha cambiado en Aspose.Cells.GridWeb:

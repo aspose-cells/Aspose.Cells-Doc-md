@@ -15,13 +15,13 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSANDROID-92|Support Product.Family-Lizenz|Neue Funktion|
 |CELLSJAVA-42949|Unterstützt Aspose.Cells ECDSA- und RSA-Algorithmen|Neue Funktion|
 |CELLSJAVA-42979|Holen Sie sich die Gesamtseitenzahl, bevor Sie in PDF/Bild konvertieren|Neue Funktion|
-|CELLSJAVA-42967|Fügen Sie die SVG-Datei in das Arbeitsblatt ein|Neue Funktion|
+|CELLSJAVA-42967|Fügen Sie die Datei SVG in das Arbeitsblatt ein|Neue Funktion|
 |CELLSJAVA-42969|Unterstützung Java 12 in Aspose.Cells for Java|Erweiterung|
 |CELLSJAVA-42977|Hoher CPU- und Speicherverbrauch während der Konvertierung von Excel in PDF|Erweiterung|
-|CELLSJAVA-42861|Alternativtext der Form im ODS-Dateiformat konnte nicht abgerufen werden|Insekt|
-|CELLSJAVA-42929|Der Diagrammtitel ändert sich bei der XLSX-zu-PDF-Konvertierung|Insekt|
-|CELLSJAVA-42933|Die Grafikfarbe ändert sich beim Konvertieren von Excel-Dateien in PDF|Insekt|
-|CELLSJAVA-42946|Falsche Wiedergabe von gestapelten Balkendiagrammen mit Reihen in PDF|Insekt|
+|CELLSJAVA-42861|Alternativtext der Form im Dateiformat ODS konnte nicht abgerufen werden|Insekt|
+|CELLSJAVA-42929|Der Diagrammtitel ändert sich bei der Umwandlung von XLSX in PDF|Insekt|
+|CELLSJAVA-42933|Die Grafikfarbe ändert sich beim Konvertieren einer Excel-Datei in PDF|Insekt|
+|CELLSJAVA-42946|Falsche Darstellung des gestapelten Balkendiagramms mit Serien bis PDF|Insekt|
 |CELLSJAVA-42942|Seiten werden auf Arbeitsblattebene und nicht auf Arbeitsmappenebene gedruckt|Insekt|
 |CELLSJAVA-42952|Falsche Einrückung vom oberen Rand der Zelle in einigen Wörtern|Insekt|
 |CELLSJAVA-42902|Der Wasserfalldiagrammstil wird beim Kopieren der Arbeitsmappe nicht richtig kopiert|Insekt|
@@ -32,27 +32,27 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 19.
 |CELLSJAVA-42944|Fehler beim Konvertieren von XLSX in HTML|Insekt|
 |CELLSJAVA-42966|Das Aktualisieren von PivotTable und PivotCharts beschädigt die Excel-Datei|Insekt|
 |CELLSJAVA-42975|Unterschiede in der HTML-Konvertierung|Insekt|
-|CELLSJAVA-42971|# N/A wird im gerenderten PDF angezeigt
+|CELLSJAVA-42971|# N/A wird in der gerenderten PDF angezeigt
 |Insekt|
-|CELLSJAVA-42970|Unerwünschte verlängerte Grenzlinie in Excel zum PDF-Rendering|Insekt|
-|CELLSJAVA-42976|Nichtübereinstimmung der Bildposition beim Rendern von Excel-Dateien in PDF|Insekt|
+|CELLSJAVA-42970|Unerwünschte verlängerte Grenzlinie in Excel auf PDF-Rendering|Insekt|
+|CELLSJAVA-42976|Nicht übereinstimmende Bildposition beim Rendern der Excel-Datei auf PDF|Insekt|
 |CELLSJAVA-42961|Tabelleneigenschaften werden beim Kopieren von Daten mit copyColumns nicht ordnungsgemäß kopiert|Insekt|
 |CELLSJAVA-42980|Transparentes Bild wird während des Kopierens von Bildern undurchsichtig|Insekt|
-|CELLSJAVA-42990|Ausgeblendete Zeilen werden beim Konvertieren einer Excel-Datei in HTML angezeigt, wenn AutoFilter vorhanden ist|Insekt|
+|CELLSJAVA-42990|Ausgeblendete Zeilen werden beim Konvertieren der Excel-Datei in HTML angezeigt, wenn AutoFilter vorhanden ist|Insekt|
 |CELLSJAVA-42997|CalculateFormula() schlägt bei großen Formelzeichenfolgen fehl|Insekt|
 |CELLSJAVA-43000|CalculateFormula() beschädigt die Excel-Datei|Insekt|
-|CELLSJAVA-42987|Formatierungsprobleme beim Konvertieren von Excel-Dateien in PDF|Insekt|
+|CELLSJAVA-42987|Formatierungsprobleme beim Konvertieren einer Excel-Datei in PDF|Insekt|
 |CELLSJAVA-42986|Überlappender Text nach Konvertierung der chinesischen XLSX-Datei in PDF|Insekt|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) funktioniert nicht für neuere Excel-Versionen|Insekt|
 |CELLSJAVA-42996|Auf Formeln basierende Datenbeschriftungen werden in PDF nicht korrekt wiedergegeben|Insekt|
-|CELLSJAVA-42945|Beim Speichern als HTML wird eine Ausnahme ausgelöst, wenn ExportImagesAsBase64 festgelegt ist|Ausnahme|
+|CELLSJAVA-42945|Speichern unter HTML löst eine Ausnahme aus, wenn ExportImagesAsBase64 festgelegt ist|Ausnahme|
 |CELLSJAVA-42953|NullPointerException beim Konvertieren von XLS-Dateien in HTML|Ausnahme|
 |CELLSJAVA-42951|java.lang.NullPointerException ausgelöst durch comment.setHtmlNote()|Ausnahme|
-|CELLSJAVA-42954|Ausnahme beim Laden und Speichern des XLSX ausgelöst|Ausnahme|
+|CELLSJAVA-42954|Ausnahme beim Laden und Speichern von XLSX|Ausnahme|
 |CELLSJAVA-42957|Beim Speichern von XLSX wird ein ungültiger FontUnderlineType-Wert ausgegeben|Ausnahme|
 |CELLSJAVA-42992|Beim Konvertieren von XLSM in ein Bild wurde eine Ausnahme ausgelöst|Ausnahme|
 |CELLSJAVA-42991|Ausnahme „Spaltenbreite muss zwischen 0 und 255 liegen“ beim Konvertieren von Excel in PDF in macOS|Ausnahme|
-|CELLSJAVA-43004|Ausnahme java.lang.NumberFormatException: Für Eingabestring: "0.0" beim Konvertieren von Excel in HTML|Ausnahme|
+|CELLSJAVA-43004|Ausnahme java.lang.NumberFormatException: Für Eingabestring: „0.0“ beim Konvertieren von Excel in HTML|Ausnahme|
 |CELLSJAVA-43010|IllegalArgumentException beim Ausführen von deleteBlankColumns()|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Android via Java vorgenommen wurden. Wenn Sie Bedenken zu einer der aufgeführten Änderungen haben, äußern Sie diese bitte im Aspose.Cells Support-Forum.

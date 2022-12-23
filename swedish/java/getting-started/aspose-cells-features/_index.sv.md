@@ -22,12 +22,12 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 |**Funktion**|**Beskrivning**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|Ja|
-|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|Ja|
+|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta XLS-formatimplementeringen du kan hitta.|Ja|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större filformat av Excel 2007 och senare versioner, t.ex. XLSX, XLTX, XLSM, XLTM, XLSB etc.|Ja|
-|Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|Ja|
-|HTML|Spara som HTML är tillgängligt.|Ja|
+|Kommaseparerat värde (CSV)|Omfattande stöd för formatet CSV för att interagera med en mängd olika applikationer.|Ja|
+|HTML|Spara som HTML är tillgänglig.|Ja|
 |OpenDocument (ODS)|Aspose.Cells kan ladda och spara dokument i formatet OpenDocument Spreadsheet (.ods).|Ja|
-|Adobe Portable Document Format (PDF)|Konvertera alla kalkylblad till PDF med hög kvalitet.|Ja|
+|Adobe Portable Document Format (PDF)|Konvertera valfritt kalkylblad till PDF med hög kvalitet.|Ja|
 |Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|Ja|
 |Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|Ja|
 ## **Rendering och tryckning**
@@ -36,10 +36,10 @@ Aspose.Cells for Java ger nu högtrogen återgivning av kalkylbladssidor.
 |**Funktion**|**Aspose.Cells for Java**|
 |:- |:- |
 |Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|Ja|
-|Rendera kalkylbladssidor till rasterbilder (PNG, JPEG, BMP etc.).|Ja|
-|Gör kalkylbladssidor till vektorbilder (EMF).|Ja|
+|Återge kalkylbladssidor till rasterbilder (PNG, JPEG, BMP etc.).|Ja|
+|Återge kalkylbladssidor till vektorbilder (EMF).|Ja|
 |Ange bildupplösning, kvalitet, komprimering och andra alternativ.|Ja|
-| Skriv ut kalkylblad med Java utskriftsinfrastruktur. Komponenten har inbyggd utskriftsmetod för att skriva ut<br>kalkylblad som visas i Microsoft Excels förhandsgranskning.|Ja|
+|Skriv ut kalkylblad med Java utskriftsinfrastruktur. Komponenten har inbyggd utskriftsmetod för att skriva ut<br>kalkylblad som visas i Microsoft Excels förhandsgranskning.|Ja|
 |Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|Ja|
 ## **Kalkylbladsinnehållsfunktioner**
 Aspose.Cells for Java tillhandahåller en rik objektmodell som består av över 100 publika klasser/gränssnitt, som låter dig generera, kombinera, modifiera, analysera eller på annat sätt undersöka laddade kalkylblad. Några nyckelfunktioner ges i tabellen nedan.

@@ -20,7 +20,7 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49011|Snabba upp celliteratoråtkomst för rendering för GridDesktop|Prestanda|
 |CELLSNET-48915|Minneslöst undantag vid återgivning av kalkylblad till bild|Prestanda|
 |CELLSNET-47663|Excel-dokument konverteras inte till html|Prestanda|
-|CELLSNET-48506|Förbättra prestandan för att skriva .ods-fil.|Prestanda|
+|CELLSNET-48506|Förbättra prestanda för att skriva .ods-fil.|Prestanda|
 |CELLSNET-48645| Text inuti en pilform fick fel position|Insekt|
 |CELLSNET-48475|Pivottabellens uppdatering fungerar inte korrekt|Insekt|
 |CELLSNET-48711|Exportera den zoomade xlsx till html.|Insekt|
@@ -37,7 +37,7 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|Teckensnittet förvrängs när arket konverteras till Emf-bild med alternativet EmfOnly|Insekt|
 |CELLSNET-48049|Olika axelavstånd vid konvertering från xlsx-arbetsbok till emf|Insekt|
 |CELLSNET-48509|Diagram visas ibland inte baserat på förklaringsposition|Insekt|
-|CELLSNET-48580| Miss Legend-post i utdata SVG från Excel-diagram|Insekt|
+|CELLSNET-48580| Miss Legend-post i utgången SVG i Excel-diagrammet|Insekt|
 |CELLSNET-48696|Fel vid ändring av dataetikettens färg|Insekt|
 |CELLSNET-48698|Problem med diagramfärg vid export i PDF|Insekt|
 |CELLSNET-48797|Medelmarkörvärdet är fel vid läsning från xlsx|Insekt|
@@ -51,10 +51,10 @@ url: /sv/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49055| Autoanpassa kolumner för sammanfogad cell fungerar inte|Insekt|
 |CELLSNET-49100|Vissa celler saknar rutnätslinjer vid export till HTML|Insekt|
 |CELLSNETCORE-149|Genom att kopiera stilar efter att ha kopierat värden raderas cellvärden i Excel 97-format|Insekt|
-|CELLSNETCORE-152|EMF-bilddata kan inte läsas från XLS-fil|Insekt|
+|CELLSNETCORE-152|EMF bilddata kan inte läsas från filen XLS|Insekt|
 |CELLSNET-48444|Ogiltigt parameterfel vid konvertering av xlsb till xls-fil|Undantag|
 |CELLSNET-48607|Form till bild Fel|Undantag|
-|CELLSNET-48866|Det går inte att öppna specifik XLSX Excel-fil i GridDesktop-kontroll|Undantag|
+|CELLSNET-48866|Det går inte att öppna specifik XLSX Excel-fil i GridDesktop-kontrollen|Undantag|
 |CELLSNET-48956| Undantag efter inställning av cellstil med Cell.SetStyle|Undantag|
 |CELLSNET-48712|Array out of bound vid rendering av Box&Whisker-diagram|Undantag|
 |CELLSNET-48910|Undantag vid rendering av box&Whisker Chart till bild|Undantag|
@@ -72,7 +72,7 @@ Hämtar och ställer in den formaterade strategin för automatisk anpassning.
 
 ### **Lägger till egenskapen MsoFormatPicture.Transparency.**
 
-Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (ren).
+ Returnerar eller ställer in graden av transparens för området som ett värde från 0,0 (opak) till 1,0 (ren).
 
 ### **Lägger till överbelastade PivotTableCollection.Remove()-metoder.**
 

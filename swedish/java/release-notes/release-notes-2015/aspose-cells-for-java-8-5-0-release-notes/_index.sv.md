@@ -38,13 +38,13 @@ url: /sv/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **Buggar**
 
 
- (CELLSJAVA-41366) - Kalkylblad skadat efter att ha öppnat och sparat mallen XLSX-fil
+ (CELLSJAVA-41366) - Kalkylblad skadat efter att ha öppnat och sparat mallen XLSX filen
 
-(CELLSJAVA-41355) - Konvertering till HTML lägger till # sträng i slutet av värden för en kolumn
+ (CELLSJAVA-41355) - Konvertering till HTML lägger till # sträng i slutet av värden för en kolumn
 
- (CELLSJAVA-41354) - Siffror i textrutorna visas inte inuti
+(CELLSJAVA-41354) - Numbers i textrutorna visas inte inuti
 
- (CELLSJAVA-41353) - De smarta konsternas placering/justering i PDF:en matchar inte källfilen i Excel
+ (CELLSJAVA-41353) - De smarta konsternas placering/justering i PDF matchar inte med Excel-källfilen
 
  (CELLSJAVA-41343) - Bottom line är mycket längre än originalet i mallfilen
 
@@ -64,11 +64,11 @@ url: /sv/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41304) - Misslyckade konverteringar från XLS till PDF med Aspose.Cells API:er
 
-(CELLSJAVA-41206) - Konvertera Excel-fil som innehåller hyperlänkar till HTML - Cell refererade hyperlänkar fungerar inte
+(CELLSJAVA-41206) - Konvertering av Excel-fil som innehåller hyperlänkar till HTML - Cell refererade hyperlänkar fungerar inte
 
  (CELLSJAVA-40483) - Problem med formateringen av en pilform/-objekt - Excel till PDF-rendering
 
- (CELLSJAVA-41372) - Gantt-diagram renderas inte i utdata-PDF-filformatet
+ (CELLSJAVA-41372) - Gantt-diagram renderas inte i utdatafilformatet PDF
 
  (CELLSJAVA-41363) - Problem med de returnerade värdena för parametrar vid beräkning av anpassad funktion
 
@@ -84,29 +84,29 @@ url: /sv/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41348) - Villkorsformat med nummerformat fungerar inte för XLS
 
- (CELLSJAVA-41347) - Style.isDateTime returnerar false för en cell formaterad som Date
+(CELLSJAVA-41347) - Style.isDateTime returnerar false för en cell formaterad som Date
 
-(CELLSJAVA-41338) - Vänster kant som visas när den inte borde för en cell som har en intilliggande dold kolumn
+ (CELLSJAVA-41338) - Vänster kant som visas när den inte borde för en cell som har en intilliggande dold kolumn
 
  (CELLSJAVA-41331) - Formler uppdateras inte korrekt efter infogningsrader
 
- (CELLSJAVA-41330) - Dynamiskt utskriftsområde brutet när du sparar som / skriv ut PDF
+ (CELLSJAVA-41330) - Dynamiskt utskriftsområde brutet när spara som / skriv ut PDF
 
- (CELLSJAVA-41365) - Några hebreiska tecken i textrutan saknas i utdata-PDF-filen
+ (CELLSJAVA-41365) - Några hebreiska tecken i textrutan saknas i utdatafilen PDF
 
- (CELLSJAVA-41346) - Etiketterna för värdeaxeln och kategoriaxeln i diagrammet är svarta (Excel till PDF-konvertering)
+ (CELLSJAVA-41346) - Etiketterna för värdeaxeln och kategoriaxeln i diagrammet är svarta (Excel till PDF konvertering)
 
  (CELLSJAVA-41312) - Texten är för stor och expanderar utanför marginalen
 
  (CELLSJAVA-41305) - Fet texttecken överlappar varandra medan kalkylblad konverteras till bild
 
- (CELLSJAVA-40916) - Texten utanför sidbrytningen renderas i PDF som radbruten text
+ (CELLSJAVA-40916) - Texten utanför sidbrytningen återges i PDF som radbruten text
 
  (CELLSJAVA-40791) - Problem med sidbrytning, teckensnittsrendering och marginaler i Excel till PDF-rendering
 
- (CELLSJAVA-40605) - Aspose.Cells: avskuren text i originalcellen visas helt när den konverteras till PDF
+(CELLSJAVA-40605) - Aspose.Cells: avskuren text i originalcellen visas helt när den konverteras till PDF
 
-(CELLSJAVA-40479) - Återgivning av problem med sidlayout (RTL).
+ (CELLSJAVA-40479) - Återgivning av problem med sidlayout (RTL).
 
  (CELLSJAVA-40448) - Sidfoten är förstörd i den genererade PDF-filen
 
@@ -130,7 +130,7 @@ url: /sv/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: För inmatningssträng: "0,00" i Workbook ctor
 
- (CELLSJAVA-41344) - java.lang.NullPointerException på Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException på Cells.find
 
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -146,7 +146,7 @@ url: /sv/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-Lägger till egenskapen SheetRender.PageScale.
+ Lägger till egenskapen SheetRender.PageScale.
 
  Det används för att få beräknad sidskala på arket.
 
@@ -177,13 +177,13 @@ Lägger till metoder för att beräkna formler med CalculationOptions: Cell.Calc
 
 
 
- Lägger till metoder: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Lägger till metoder: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Tillåt användaren att hämta data från en referens.
 
 
 
-Ändringar för parametrar för ICustomFunction.CalculateCustomFunction(strängfunktionsnamn, ArrayList paramsList, ArrayList contextObjects)
+ Ändringar för parametrar för ICustomFunction.CalculateCustomFunction(strängfunktionsnamn, ArrayList paramsList, ArrayList contextObjects)
 
  Nu lägger vi till ReferredArea-objektet i "paramsList" istället för värdet eller värdematrisen för det refererade området när motsvarande parameter är en referens eller dess beräknade resultat är referens. Och vi tar bort ReferredAreaCollection från contextObjexts.
 

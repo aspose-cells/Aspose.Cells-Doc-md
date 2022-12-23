@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.1.1
 
 {{% /alert %}} 
 ## **Stöd för varning om teckensnittsersättning har lagts till**
-Med Aspose.Cells for Java 8.1.2 har klasserna WarningInfo och WarningType, IWarningCallback-gränssnittet och SaveOptions.WarningCallback och ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det möjligt för utvecklarna att ta emot varningar när de konverterar teckensnittsersättningar, XPS-format och kalkylblad.
+Med Aspose.Cells for Java 8.1.2 har WarningInfo- och WarningType-klasserna, IWarningCallback-gränssnittet och SaveOptions.WarningCallback och ImageOrPrintOptions.WarningCallback-egenskaperna lagts till för att göra det möjligt för utvecklarna att ta emot varningar när de konverterar teckensnitt för att konvertera teckensnitt,70s163s bilder,163s,70s,70s,70s,60s.
 
 {{% alert color="primary" %}} 
 

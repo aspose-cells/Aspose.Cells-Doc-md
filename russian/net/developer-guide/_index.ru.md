@@ -24,7 +24,7 @@ url: /ru/net/developer-guide/
             <li><a href="/cells/ru/net/opening-different-microsoft-excel-versions-files/">Открытие файлов различных версий Excel Microsoft</a></li>
             <li><a href="/cells/ru/net/opening-files-with-different-formats/">Открытие файлов разных форматов</a></li>
             <li><a href="/cells/ru/net/get-warnings-while-loading-excel-file/">Получать предупреждения при загрузке файла Excel</a></li>
-            <li><a href="/cells/ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Читать электронную таблицу чисел, разработанную Apple Inc. с использованием Aspose.Cells</a></li>
+            <li><a href="/cells/ru/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells</a></li>
         </ul>
         <p>Сохранять</p>
         <ul>
@@ -41,15 +41,15 @@ url: /ru/net/developer-guide/
         <p>Рендеринг и конвертация</p>
         <ul>
             <li><a href="/cells/ru/net/convert-workbook-to-different-formats/">Преобразование рабочей книги в разные форматы</a></li>
-            <li><a href="/cells/ru/net/convert-excel-workbook-to-pdf/">Конвертировать книгу Excel в PDF</a></li>
-            <li><a href="/cells/ru/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Преобразование файла Excel в формат PDF, совместимый с PDFA-1a</a></li>
+            <li><a href="/cells/ru/net/convert-excel-workbook-to-pdf/">Преобразование книги Excel в PDF</a></li>
+            <li><a href="/cells/ru/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Преобразование файла Excel в формат PDF, совместимый с PDFA-1a.</a></li>
             <li><a href="/cells/ru/net/convert-excel-to-image/">Преобразование рабочей книги в различные форматы изображений</a></li>
             <li><a href="/cells/ru/net/track-document-conversion-progress/">Отслеживание процесса преобразования документа</a></li>
-            <li><a href="/cells/ru/net/convert-excel-to-html/">Конвертировать Excel в HTML</a></li>
-            <li><a href="/cells/ru/net/convert-json-to-csv/">Конвертировать JSON в CSV</a></li>
-            <li><a href="/cells/ru/net/convert-csv-to-json/">Конвертировать CSV в JSON</a></li>
+            <li><a href="/cells/ru/net/convert-excel-to-html/">Преобразование Excel в HTML</a></li>
+            <li><a href="/cells/ru/net/convert-json-to-csv/">Преобразование JSON в CSV</a></li>
+            <li><a href="/cells/ru/net/convert-csv-to-json/">Преобразование CSV в JSON</a></li>
         </ul>
-        <p>Опции</p>
+        <p>Параметры</p>
         <ul>
             <li><a href="/cells/ru/net/workbook-settings/">Параметры книги</a></li>
         </ul>
@@ -112,14 +112,14 @@ url: /ru/net/developer-guide/
             <li><a href="/cells/ru/net/create-pivot-table/">Создать сводную таблицу</a></li>
             <li><a href="/cells/ru/net/formatting-pivot-table/">Форматирование сводной таблицы</a></li>
         </ul>
-        <p><a href="/cells/ru/net/create-and-format-table/">Стол</a></p>
+        <p><a href="/cells/ru/net/create-and-format-table/">Таблица</a></p>
          <ul>
             <li><a href="/cells/ru/net/create-and-format-table/">Создать и отформатировать таблицу</a></li>
             <li><a href="/cells/ru/net/tables-and-ranges/">Таблицы и диапазоны</a></li>
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/ru/net/managing-pictures/">Картина</a></p>
+        <p><a href="/cells/ru/net/managing-pictures/">Рисунок</a></p>
         <ul>
             <li><a href="/cells/ru/net/insert-a-linked-picture-from-web-address/">Вставить связанное изображение с веб-адреса</a></li>
             <li><a href="/cells/ru/net/insert-a-picture-based-on-cell-reference/">Вставьте изображение на основе ссылки Cell</a></li>
@@ -289,7 +289,7 @@ url: /ru/net/developer-guide/
         <p>Инструменты данных</p>
         <ul>
          <li><a href="/cells/ru/net/convert-text-to-columns-using-aspose-cells/">Текст в столбцы</a></li>
-         <li><a href="/cells/ru/net/data-validation/">Проверка данных</a></li>
+         <li><a href="/cells/ru/net/data-validation/">Валидация данных</a></li>
          <li><a href="/cells/ru/net/get-validation-applied-on-a-cell/">Применить проверку к номеру Cell</a></li>
          <li><a href="/cells/ru/net/remove-duplicate-rows-in-a-worksheet/">Удалить повторяющиеся строки на листе</a></li>
         </ul>
@@ -333,7 +333,7 @@ url: /ru/net/developer-guide/
     <div class="col-md-6">
         <p>Изменения</p>
         <ul>
-         <li><a href="/cells/ru/net/convert-revision-of-xlsb-to-xlsm/">Преобразование версии XLSB в XLSM</a></li>
+         <li><a href="/cells/ru/net/convert-revision-of-xlsb-to-xlsm/">Преобразовать редакцию XLSB в XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -345,7 +345,7 @@ url: /ru/net/developer-guide/
         <ul>
          <li><a href="/cells/ru/net/worksheet-views/#page-break-preview">Предварительный просмотр разрыва страницы</a></li>
         </ul>
-        <p>Показывать</p>
+        <p>Показать</p>
          <ul>
 		<li><a href="/cells/ru/net/show-and-hide-gridlines-and-row-column-headers/">Просмотр линий сетки и заголовка</a></li>
         </ul>

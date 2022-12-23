@@ -6,9 +6,9 @@ url: /sv/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}}
 
-Ibland, när Microsoft Excel-filer renderas till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta att ett visst teckensnitt har ersatts med en varning. Det här är en användbar funktion som kan hjälpa dig att identifiera varför Aspose.Cells-renderad PDF är annorlunda än den faktiska Excel-filen och du kan sedan vidta lämpliga åtgärder. Du kan till exempel installera de saknade typsnitten så att renderingsresultaten kan se likadana ut.
+Ibland, när du renderar Microsoft Excel-filer till PDF, ersätter Aspose.Cells teckensnitt. Aspose.Cells tillhandahåller en funktion som låter utvecklare veta att ett visst teckensnitt har ersatts med en varning. Detta är en användbar funktion som kan hjälpa dig att identifiera varför Aspose.Cells renderad PDF är annorlunda än den faktiska Excel-filen och du kan sedan vidta lämpliga åtgärder. Du kan till exempel installera de saknade typsnitten så att renderingsresultaten kan se likadana ut.
 
-Om du vill få varningarna för teckensnittsersättning när du renderar en Excel-fil till PDF, implementera IWarningCallback-gränssnittet och ställ in metoden PdfSaveOptions.setWarningCallback() med ditt implementerade gränssnitt.
+Om du vill få varningarna för teckensnittsersättning medan du renderar en Excel-fil till PDF, implementera IWarningCallback-gränssnittet och ställ in metoden PdfSaveOptions.setWarningCallback() med ditt implementerade gränssnitt.
 
 {{% /alert %}}
 
@@ -20,9 +20,9 @@ Aspose.Cells kommer att ersätta typsnitten i cellerna A6 och A7 med lämpliga t
 
 ![todo:image_alt_text](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Ladda ner källfil och utdata-PDF**
+## **Ladda ner källfil och utdata PDF**
 
-Du kan ladda ner källfilen för Excel och PDF-filen från följande länkar
+Du kan ladda ner källfilen för Excel och utgången PDF från följande länkar
 
 - [source.xlsx](5472700.xlsx)
 - [output.pdf](5472699.pdf)
@@ -83,6 +83,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}}
 
- Om ditt kalkylblad innehåller formler är det bäst att anropa Workbook.calculateFormula-metoden precis innan du renderar kalkylarket till PDF-format. Om du gör det säkerställer du att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF-filen.
+ Om ditt kalkylblad innehåller formler är det bäst att anropa Workbook.calculateFormula-metoden precis innan du renderar kalkylarket till formatet PDF. Om du gör det säkerställs att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

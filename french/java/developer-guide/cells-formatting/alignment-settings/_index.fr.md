@@ -22,11 +22,11 @@ Tous ces paramètres d'alignement sont entièrement pris en charge par Aspose.Ce
 
 ## **Paramètres d'alignement dans Aspose.Cells**
 
- Aspose.Cells fournit[**ObtenirStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) méthodes pour la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class qui sont utilisées pour obtenir et définir la mise en forme d'une cellule. La[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style)fournit des propriétés utiles pour configurer les paramètres d'alignement.
+ Aspose.Cells fournit[**ObtenirStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) méthodes pour la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class qui sont utilisées pour obtenir et définir la mise en forme d'une cellule. Le[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style)fournit des propriétés utiles pour configurer les paramètres d'alignement.
 
  Sélectionnez n'importe quel type d'alignement de texte à l'aide de la[**Type d'alignement de texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) énumération. Les types d'alignement de texte prédéfinis dans le[**Type d'alignement de texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype)l'énumération sont :
 
-|**Types d'alignement de texte**|**La description**|
+|**Types d'alignement de texte**|**Description**|
 |:- |:- |
 |Fond|Représente l'alignement du texte inférieur|
 |Centre|Représente l'alignement du texte au centre|
@@ -35,7 +35,7 @@ Tous ces paramètres d'alignement sont entièrement pris en charge par Aspose.Ce
 |Remplir|Représente l'alignement du texte de remplissage|
 |Général|Représente l'alignement général du texte|
 |Justifier|Représente l'alignement du texte justifié|
-|La gauche|Représente l'alignement du texte à gauche|
+|Gauche|Représente l'alignement du texte à gauche|
 |Droit|Représente l'alignement du texte à droite|
 |Haut|Représente l'alignement supérieur du texte|
 |JustifiéBas|Aligne le texte avec une longueur kashida ajustée pour le texte arabe.|
@@ -43,14 +43,14 @@ Tous ces paramètres d'alignement sont entièrement pris en charge par Aspose.Ce
 
 {{% alert color="primary" %}}
 
- Vous pouvez également appliquer le paramètre de justification distribuée à l'aide de la[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) propriété.
+ Vous pouvez également appliquer le paramètre de justification distribuée à l'aide de la[**Style.IsJustifyDistributed**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) la propriété.
 
 {{% /alert %}}
 
 ## **Alignement horizontal, vertical et indentation**
 
  Utilisez le[**AlignementHorizontal**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) propriété pour aligner le texte horizontalement et[**Alignement vertical**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment)propriété pour aligner le texte verticalement.
- Il est possible de définir le niveau d'indentation du texte dans une cellule avec la[**Niveau d'indentation**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) propriété
+ Il est possible de définir le niveau d'indentation du texte dans une cellule avec la[**Niveau d'indentation**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) la propriété
 et tt n'a d'effet que lorsque l'alignement horizontal est à gauche ou à droite.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-1.java" >}}
@@ -58,7 +58,7 @@ et tt n'a d'effet que lorsque l'alignement horizontal est à gauche ou à droite
 
 ## **Orientation**
 
- Définissez l'orientation (rotation) du texte dans une cellule avec la[**Angle de rotation**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle)propriété.
+ Définissez l'orientation (rotation) du texte dans une cellule avec la[**Angle de rotation**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-Orientation-1.java" >}}
 
@@ -68,13 +68,13 @@ La section suivante explique comment contrôler le texte en définissant l'habil
 
 ### **Habillage du texte**
 
- L'habillage du texte dans une cellule facilite la lecture : la hauteur de la cellule s'ajuste pour s'adapter à tout le texte, au lieu de le couper ou de déborder dans les cellules adjacentes. Activez ou désactivez l'habillage du texte avec le[**EstEnveloppéTexte**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)propriété.
+ L'habillage du texte dans une cellule facilite la lecture : la hauteur de la cellule s'ajuste pour s'adapter à tout le texte, au lieu de le couper ou de déborder dans les cellules adjacentes. Activez ou désactivez l'habillage du texte avec le[**EstEnveloppéTexte**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LineBreakTextWrapping-WrapText-1.java" >}}
 
 ### **Rétrécir pour s'adapter**
 
- Une option d'habillage du texte dans un champ consiste à réduire la taille du texte pour l'adapter aux dimensions d'une cellule. Cela se fait en réglant le[**Réduire pour s'adapter**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) propriété. à**vrai**.
+ Une option d'habillage du texte dans un champ consiste à réduire la taille du texte pour l'adapter aux dimensions d'une cellule. Cela se fait en réglant le[**Réduire pour s'adapter**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) la propriété. à**vrai**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 
@@ -94,11 +94,11 @@ La section suivante explique comment contrôler le texte en définissant l'habil
 
 Il est possible de définir l'ordre de lecture du texte dans les cellules. L'ordre de lecture est l'ordre visuel dans lequel les caractères, les mots, etc. sont affichés. Par exemple, l'anglais est une langue de gauche à droite tandis que l'arabe est une langue de droite à gauche.
 
- L'ordre de lecture est défini avec le[**Direction du texte**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) propriété. Aspose.Cells fournit des types de direction de texte prédéfinis dans le[**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)énumération.
+ L'ordre de lecture est défini avec le[**Direction du texte**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) la propriété. Aspose.Cells fournit des types de direction de texte prédéfinis dans le[**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)énumération.
 
-|**Types d'orientation du texte**|**La description**|
+|**Types d'orientation du texte**|**Description**|
 |:- |:- |
-|Le contexte|L'ordre de lecture cohérent avec la langue du premier caractère saisi|
+|Contexte|L'ordre de lecture cohérent avec la langue du premier caractère saisi|
 |De gauche à droite|Ordre de lecture de gauche à droite|
 |De droite à gauche|Ordre de lecture de droite à gauche|
 

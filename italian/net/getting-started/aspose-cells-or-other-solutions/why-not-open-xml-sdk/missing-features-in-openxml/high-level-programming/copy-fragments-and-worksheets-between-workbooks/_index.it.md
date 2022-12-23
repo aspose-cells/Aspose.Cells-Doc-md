@@ -7,7 +7,7 @@ url: /it/net/copy-fragments-and-worksheets-between-workbooks/
 A volte, hai bisogno di un numero di fogli di lavoro con formattazione e dati comuni. Ad esempio, se lavori con budget trimestrali, potresti voler creare una cartella di lavoro con fogli che contengono le stesse intestazioni di colonna, intestazioni di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo.
 Aspose.Cells supporta la copia e lo spostamento di fogli di lavoro all'interno o tra cartelle di lavoro. Il foglio di lavoro, completo di dati, formattazione, tabelle, matrici, grafici, immagini e altri oggetti, viene copiato con il massimo grado di precisione.
 ## **Spostare o copiare fogli utilizzando Microsoft Excel**
-Di seguito sono riportati i passaggi necessari per copiare e spostare fogli di lavoro all'interno o tra cartelle di lavoro in Microsoft Excel.
+Di seguito sono riportati i passaggi necessari per copiare e spostare i fogli di lavoro all'interno o tra le cartelle di lavoro in Microsoft Excel.
 
 1. Per spostare o copiare fogli in un'altra cartella di lavoro, apri la cartella di lavoro che riceverà i fogli.
 1. Passare alla cartella di lavoro che contiene i fogli che si desidera spostare o copiare e quindi selezionare i fogli.

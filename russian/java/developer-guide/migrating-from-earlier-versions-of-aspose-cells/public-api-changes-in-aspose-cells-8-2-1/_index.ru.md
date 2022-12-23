@@ -14,7 +14,7 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-2-1/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Применить проверку к номеру Cell](https://docs.aspose.com/cells/java/get-validation-applied-on-a-cell/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей о[Применить проверку к номеру Cell](https://docs.aspose.com/cells/java/get-validation-applied-on-a-cell/) для дополнительной информации.
 
 {{% /alert %}}
 ## **Добавлен метод getValidationValue() для класса Cell.**

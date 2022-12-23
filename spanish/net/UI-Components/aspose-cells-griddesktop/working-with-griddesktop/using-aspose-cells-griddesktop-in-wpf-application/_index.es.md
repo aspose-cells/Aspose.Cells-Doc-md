@@ -13,7 +13,7 @@ Usaremos Visual Studio 2015 para demostrar el proceso; sin embargo, puede usar c
 
 Este tutorial lo guiará a través del proceso de agregar el control Aspose.Cells.GridDesktop a una aplicación WPF. Necesita cualquier versión del IDE de Visual Studio que admita el desarrollo de WPF para probar esto de su parte.
 ## **Cree una aplicación WPF usando Visual Studio**
- Primero cree una aplicación WPF usando Visual Studio IDE. Haga clic en**Expediente** >> **Nuevo** >> **Proyecto** menú y seleccione**Aplicación WPF** de Plantillas, asigne un nombre al proyecto y haga clic en**OK**. Puede orientar su proyecto a cualquier Framework .NET superior a 2.0, sin embargo, no puede usar el perfil de cliente .NET Frameworks.
+ Primero cree una aplicación WPF usando Visual Studio IDE. Haga clic en**Archivo** >> **Nuevo** >> **Proyecto** menú y seleccione**Aplicación WPF** de Plantillas, asigne un nombre al proyecto y haga clic en**DE ACUERDO**. Puede orientar su proyecto a cualquier Framework .NET superior a 2.0, sin embargo, no puede usar el perfil de cliente .NET Frameworks.
 ## **Agregar referencias a los espacios de nombres requeridos**
 Agregue las referencias a los siguientes ensamblajes haciendo clic con el botón derecho en la ventana Referencias desde el Explorador de soluciones y seleccione el menú Agregar referencia.
 
@@ -37,7 +37,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 ![todo:imagen_alternativa_texto](using-aspose-cells-griddesktop-in-wpf-application_1.png)
 ## **Agregue el control Aspose.Cells.GridDesktop a XAML**
- Simplemente agregue el siguiente código dentro de la etiqueta Grid en XAML. los**WindowsFormsHost** se utiliza para alojar el control de formularios Windows y**gridEscritorio:GridEscritorio** La etiqueta representa el control Aspose.Cells.GridDesktop. También puede nombrar el control para que se pueda hacer referencia a él fácilmente en el código.
+ Simplemente agregue el siguiente código dentro de la etiqueta Grid en XAML. Él**WindowsFormsHost** se utiliza para alojar el control de formularios Windows y**gridEscritorio:GridEscritorio** La etiqueta representa el control Aspose.Cells.GridDesktop. También puede nombrar el control para que se pueda hacer referencia a él fácilmente en el código.
 
 {{< highlight "java" >}}
 
@@ -63,4 +63,4 @@ Ahora podemos acceder y usar el control Aspose.Cells.GridDesktop en el archivo .
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **Construir y ejecutar**
- Ahora, compila y ejecuta la aplicación usando**F5** o**comienzo** en la interfaz de usuario de Visual Studio.
+ Ahora, compila y ejecuta la aplicación usando**F5** o**Comenzar** en la interfaz de usuario de Visual Studio.

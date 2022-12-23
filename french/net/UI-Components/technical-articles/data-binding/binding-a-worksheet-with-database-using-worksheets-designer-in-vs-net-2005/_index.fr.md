@@ -57,7 +57,7 @@ Créez un nouveau site Web à partir du menu Fichier|Nouveau|Site Web....
 **Chiffre:** Création d'un nouveau dossier
 
 
- Après avoir cliqué sur le**Ouvert** bouton dans le**Choisissez l'emplacement** dialogue,**Nouveau site Internet** la boîte de dialogue ressemblera.
+ Après avoir cliqué sur le**Ouvrir** bouton dans le**Choisissez l'emplacement** dialogue,**Nouveau site Internet** la boîte de dialogue ressemblera.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_7.png)
 
@@ -212,7 +212,7 @@ Vous pouvez parcourir la connexion pour vérifier la table et ses champs.
 
 **Chiffre:** Assistant de configuration de l'adaptateur de données
 
- Après avoir cliqué**Prochain** bouton, cliquez sur le**Générateur de requêtes** pour ajouter le**Des produits** tableau, sélectionnez Toutes les colonnes et cliquez sur**D'ACCORD** bouton.
+ Après avoir cliqué**Suivant** bouton, cliquez sur le**Générateur de requêtes** pour ajouter le**Des produits** tableau, sélectionnez Toutes les colonnes et cliquez sur**D'ACCORD** bouton.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_26.png)
 
@@ -236,7 +236,7 @@ Vous pouvez parcourir la connexion pour vérifier la table et ses champs.
 
 ##### **Étape 5 : Génération de l'ensemble de données**
 
- Comme nous avons créé des objets de connexion à la base de données et d'adaptateur de données, nous avons toujours besoin de quelque chose où nous pouvons stocker des données après la connexion à la base de données. UN**Base de données**object peut stocker des données avec précision et nous pouvons également les générer facilement à l'aide de VS.NET 2005 IDE. Pour ce faire, sélectionnez**oleDbDataAdaper1** et clic droit. Un menu contextuel apparaîtra avec certaines options. Sélectionner**Générer** **Base de données...** option dans le menu comme indiqué ci-dessous dans la figure.
+ Comme nous avons créé des objets de connexion à la base de données et d'adaptateur de données, nous avons toujours besoin de quelque chose où nous pouvons stocker des données après la connexion à la base de données. UNE**Base de données**object peut stocker des données avec précision et nous pouvons également les générer facilement à l'aide de VS.NET 2005 IDE. Pour ce faire, sélectionnez**oleDbDataAdaper1** et clic droit. Un menu contextuel apparaîtra avec certaines options. Sélectionner**Générer** **Base de données...** option dans le menu comme indiqué ci-dessous dans la figure.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
@@ -268,17 +268,17 @@ Certains codes sont automatiquement générés dans la connexion liée au fichie
 
 **Chiffre:** Sélection**Concepteur de feuilles de travail...** option du menu
 
- Après ça**Éditeur de collection de feuilles de calcul** boîte de dialogue (également appelée**Concepteur de feuilles de travail** ) sera ouvert, vous pouvez voir plusieurs propriétés qui peuvent être configurées pour lier le**Feuille1** avec n'importe quelle table de la base de données. sélectionnons**La source de données** propriété. Écrire**dataSet11** dedans (que nous avons généré et ajouté à la fenêtre du concepteur à l'étape précédente). Cliquez ensuite sur**Membre de données** propriété. Écrire**Des produits** comme nom de table ici, comme indiqué ci-dessous dans la figure :
+ Après cela**Éditeur de collection de feuilles de calcul** boîte de dialogue (également appelée**Concepteur de feuilles de travail** ) sera ouvert, vous pouvez voir plusieurs propriétés qui peuvent être configurées pour lier le**Feuille1** avec n'importe quelle table de la base de données. sélectionnons**La source de données** la propriété. Écrire**dataSet11** dedans (que nous avons généré et ajouté à la fenêtre du concepteur à l'étape précédente). Cliquez ensuite sur**Membre de données** la propriété. Écrire**Des produits** comme nom de table ici, comme indiqué ci-dessous dans la figure :
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
 
 **Chiffre:** Paramètre**La source de données** et**Membre de données** Propriétés
 
- Maintenant, vous pouvez configurer**LierColonnes** propriété. Après avoir cliqué dessus, vous pouvez maintenant ajouter les colonnes de liaison et définir le**Légende** , **Champ de données** (Cela devrait être le même que**Des produits** champs de table) et d'autres propriétés. Vous pouvez régler le**EstCrééAuto** à**vrai** et appliquer**Validation** et réglez le**NuméroType**de différents domaines pour vos besoins.
+ Maintenant, vous pouvez configurer**LierColonnes** la propriété. Après avoir cliqué dessus, vous pouvez maintenant ajouter les colonnes de liaison et définir le**Légende** , **Champ de données** (Cela devrait être le même que**Des produits** champs de table) et d'autres propriétés. Vous pouvez régler le**EstCrééAuto** à**vrai** et appliquer**Validation** et réglez le**NuméroType**de différents domaines pour vos besoins.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_36.png)
 
-**Chiffre:** En cliquant**LierColonnes** propriété
+**Chiffre:** En cliquant**LierColonnes** la propriété
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_37.png)
 
@@ -474,11 +474,11 @@ End Sub
 
 **Chiffre:** Code ajouté à**GridWeb1_SaveCommand** gestionnaire d'événements
 
- Maintenant, si vous enregistrez vos modifications dans la base de données en utilisant**sauvegarder** bouton de la**GrilleWeb** , ils seraient définitivement sauvés.
+ Maintenant, si vous enregistrez vos modifications dans la base de données en utilisant**Sauver** bouton de la**GrilleWeb** , ils seraient définitivement sauvés.
 
 ##### **Étape 8 : Lancer votre application**
 
- Enfin, nous pouvons compiler et exécuter notre application en appuyant sur**Ctrl+F5** ou en cliquant**Commencer** bouton. Dans la boîte de dialogue de débogage, vous pouvez spécifier l'option de débogage appropriée et cliquer sur**D'ACCORD** bouton comme indiqué ci-dessous dans la figure.
+ Enfin, nous pouvons compiler et exécuter notre application en appuyant sur**Ctrl+F5** ou en cliquant**Démarrer** bouton. Dans la boîte de dialogue de débogage, vous pouvez spécifier l'option de débogage appropriée et cliquer sur**D'ACCORD** bouton comme indiqué ci-dessous dans la figure.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_42.png)
 
@@ -510,7 +510,7 @@ Aspose.Cells.GridWeb crée automatiquement des règles de validation appropriée
 
 **Chiffre:** Sélection**Supprimer la ligne** option du menu
 
- Après avoir sélectionné**Supprimer la ligne** du menu, la ligne est supprimée du**GrilleWeb** . Cliquez maintenant**enregistrer** bouton de la**GrilleWeb** pour supprimer cet enregistrement dans la table de base de données d'origine.
+ Après avoir sélectionné**Supprimer la ligne** du menu, la ligne est supprimée du**GrilleWeb** . Cliquez maintenant**sauvegarder** bouton de la**GrilleWeb** pour supprimer cet enregistrement dans la table de base de données d'origine.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_46.png)
 
@@ -518,7 +518,7 @@ Aspose.Cells.GridWeb crée automatiquement des règles de validation appropriée
 
 ##### **Modification des lignes**
 
- Vous pouvez également modifier les données dans les cellules ou les lignes, puis cliquer sur**sauvegarder** bouton pour enregistrer vos modifications.
+ Vous pouvez également modifier les données dans les cellules ou les lignes, puis cliquer sur**Sauver** bouton pour enregistrer vos modifications.
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_47.png)
 
@@ -542,11 +542,11 @@ Une nouvelle ligne sera ajoutée à la feuille à la fin des lignes après avoir
 
 **Chiffre:** Nouvelle ligne ajoutée à la grille
 
- Après avoir entré les valeurs dans la nouvelle ligne, cliquez sur**sauvegarder** bouton pour confirmer les modifications dans la table de base de données d'origine, comme indiqué ci-dessous
+ Après avoir entré les valeurs dans la nouvelle ligne, cliquez sur**Sauver** bouton pour confirmer les modifications dans la table de base de données d'origine, comme indiqué ci-dessous
 
 ![tâche : image_autre_texte](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_51.png)
 
-**Chiffre:** Enregistrement des modifications dans la table de base de données en cliquant sur**sauvegarder** bouton
+**Chiffre:** Enregistrement des modifications dans la table de base de données en cliquant sur**Sauver** bouton
 
 {{% alert color="primary" %}}   {{% /alert %}}
 

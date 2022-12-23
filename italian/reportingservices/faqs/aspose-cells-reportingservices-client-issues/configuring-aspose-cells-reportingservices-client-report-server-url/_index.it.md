@@ -16,10 +16,10 @@ Per configurare un URL del server di report del client:
 
 1. Immettere le informazioni sulla configurazione del server di report (URL, nome utente e password).
  1. L'URL del server di report deve essere nel formato http://host/ReportServer. Ad esempio http://172.16.204.11/ReportServer.
- 1. Il nome utente è il nome utente di Windows Server. Ad esempio, amministratore.
+1. Il nome utente è il nome utente di Windows Server. Ad esempio, amministratore.
  1. La password è la password dell'utente di Windows Server. Ad esempio, 123456.
  1. Il valore predefinito del dominio è null.
-1.  Clicca il**Test**pulsante per controllare le informazioni di configurazione.
+1.  Clicca il**Test** pulsante per controllare le informazioni di configurazione.
 1.  Clic**Salva** e salvare le informazioni sulla configurazione del server di report.
 
 ![cose da fare:immagine_alt_testo](configuring-aspose-cells-reportingservices-client-report-server-url_3.png)

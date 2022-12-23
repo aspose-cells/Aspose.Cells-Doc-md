@@ -21,7 +21,7 @@ classe RowsAndColumns:
 
 
 
-dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
+ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
@@ -43,7 +43,7 @@ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
  cartella di lavoro = Cartella di lavoro(dataDir + 'Libro1.xls')
 
- # Accesso al primo foglio di lavoro nel file Excel
+ Accesso al primo foglio di lavoro nel file Excel
 
  foglio di lavoro = workbook.getWorksheets().get(0)
 
@@ -61,7 +61,7 @@ dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns'
 
 
 
-def copia_colonne(dataDir):
+ def copia_colonne(dataDir):
 
  dataDir = Settings.dataDir + 'WorkingWithRowsAndColumns/RowsAndColumns/'
 
@@ -69,7 +69,7 @@ def copia_colonne(dataDir):
 
  cartella di lavoro = cartella di lavoro()
 
- # Accesso al primo foglio di lavoro nel file Excel
+ Accesso al primo foglio di lavoro nel file Excel
 
  foglio di lavoro = workbook.getWorksheets().get(0)
 
@@ -129,6 +129,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Aggiungi documenti (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Aggiungi documenti (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithRowsAndColumns/RowsAndColumns.py)

@@ -13,24 +13,24 @@ url: /tr/net/aspose-cells-for-net-20-1-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47026|"En Küçükten En Büyüğe Sırala" ve "En Büyükten En Küçüğe Sırala" görüntü biçimi seçeneğini destekleyin|Yeni özellik|
-|CELLSNET-47030|HTML'ye kaydederken başlıkları görüntüle|Yeni özellik|
+|CELLSNET-47030|HTML'e kaydederken başlıkları görüntüle|Yeni özellik|
 |CELLSNET-47089|DataField'in tüm veri görüntüleme formatlarını destekleyin|Yeni özellik|
 |CELLSNET-47062|STDEV.P ve STDEV.S desteği|Yeni özellik|
 |CELLSNET-47070|Seçenekleri kullanarak Bul() işlevine benzer Değiştirme işlevinde Regex desteği|Yeni özellik|
 |CELLSNET-46998|XAdES imzaları için destek|Yeni özellik|
 |CELLSNET-40174|Grafik tipi sayfasına CheckBox ekleme|Yeni özellik|
-|CELLSNET-43089|ODS'yi XLSX'e dönüştürürken Koşullu Biçimlendirme desteği|Yeni özellik|
-|CELLSNET-43090|ODS'yi XLSX biçimine dönüştürürken Veri Doğrulama desteği|Yeni özellik|
+|CELLSNET-43089|ODS'i XLSX'e dönüştürürken Koşullu Biçimlendirme desteği|Yeni özellik|
+|CELLSNET-43090|ODS'i XLSX biçimine dönüştürürken Veri Doğrulama desteği|Yeni özellik|
 |CELLSNET-47064|.xlsx dosyası için grafikteki şekilleri destekleyin.|Artırma|
 |CELLSNET-47065|DataConnections'tan PowerQuery'yi Alın|Artırma|
 |CELLSNET-47066|MS Excel'e benzer biçimde biçimlendirilmiş PowerQuery MCode'u getirin|Artırma|
 |CELLSNET-47008|Bir grafiğin görüntüsünü belirli bir açıda işlerken sorun|Böcek|
 |CELLSNET-47063|Yazı tipleri yüklenmediğinde Excel'i yazıcıya dönüştürme sorunu|Böcek|
 |CELLSNET-44237|PivotTable'ın DataField sıralamasının azalan sıralaması|Böcek|
-|CELLSNET-47002|Hesaplanan değer "#REF!" olarak gösterilir. ortaya çıkan PDF'de|Böcek|
-|CELLSNET-47050|İlk sayfadaki bazı alanlar çıktı PDF'sinde görünmüyor|Böcek|
+|CELLSNET-47002|Hesaplanan değer "#REF!" olarak gösterilir. sonuçta PDF|Böcek|
+|CELLSNET-47050|İlk sayfadaki bazı alanlar çıktıda görünmüyor PDF|Böcek|
 |CELLSNET-40733|Office .ods dosyasını açın - koşullu biçimlendirme aynı kalmaz|Böcek|
-|CELLSNET-47039|ODS dosyasındaki XY Dağılım grafikleri düzgün işlenmez|Böcek|
+|CELLSNET-47039|ODS dosyasındaki XY Dağılım çizelgeleri düzgün işlenmedi|Böcek|
 |CELLSNET-47040|ODS dosyasındaki ağ grafikleri düzgün işlenmez|Böcek|
 |CELLSNET-47060|Ods dosyasında başlığın özel XY'sini destekleyin|Böcek|
 |CELLSNET-47072|Excel ile karşılaştırıldığında Aspose.Cells tarafından getirilen Bağlantı yolundaki fark|Böcek|
@@ -49,7 +49,7 @@ Güçlü sorgu formülünün tanımını alır.
 #### **DBConnection.PowerQueryFormula özelliğini ekler.**
 Güçlü sorgu formülünün tanımını alır.
 #### **HtmlSaveOptions.ExportHeadings özelliğini ekler.**
- Dosyayı HTML'ye kaydederken başlıkların dışa aktarılıp aktarılmadığını gösterir. varsayılan değer**yanlış**. HTML dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
+ Dosya HTML'e kaydedilirken başlıkların dışa aktarılıp aktarılmadığını gösterir. Varsayılan değer:**YANLIŞ**. HTML dosyasını excel'e aktarmak istiyorsanız, lütfen varsayılan değeri koruyun.
 #### **XAdESType sınıfı ekler**
 XML Gelişmiş Elektronik İmza (XAdES) türü.
 #### **DigitalSignature.XAdESType özelliğini ekler**

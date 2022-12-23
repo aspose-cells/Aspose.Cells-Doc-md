@@ -10,7 +10,7 @@ Bazen büyük excel dosyalarının dönüştürülmesi biraz zaman alabilir. Bu 
 
 ## **Excel'in TIFF'e Dönüştürme İlerlemesini İzleyin**
 
-Aşağıdaki kod örneği,[kaynak excel dosyası](sampleUseWorkbookRenderForImageConversion.xlsx)kullanarak dönüştürme ilerlemesini konsolda yazdırır.*TestTiffPageSavingCallback*uygulayan özel sınıf**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**arayüz. Oluşturulan çıktı dosyası, referansınız için eklenmiştir.
+Aşağıdaki kod örneği,[kaynak excel dosyası](sampleUseWorkbookRenderForImageConversion.xlsx) kullanarak dönüştürme ilerlemesini konsolda yazdırır.*TestTiffPageSavingCallback*uygulayan özel sınıf**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**arayüz. Oluşturulan çıktı dosyası, referansınız için eklenmiştir.
 
 [Çıktı dosyası](DocumentConversionProgressForTiff_out.tiff)
 

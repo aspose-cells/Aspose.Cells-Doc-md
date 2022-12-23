@@ -5,7 +5,7 @@ weight: 40
 url: /zh/java/converting-to-mhtml-files-in-php/
 ---
 ## **Aspose.Cells - 转换为 MHTML 文件**
-要在 PHP 中使用 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_至_Converter 模块的 mhtml() 方法。
+要在 PHP 中使用 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_到_Converter 模块的 mhtml() 方法。
 
 **PHP代码**
 

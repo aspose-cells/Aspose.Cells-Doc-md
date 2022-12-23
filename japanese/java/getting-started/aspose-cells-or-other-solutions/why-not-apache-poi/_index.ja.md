@@ -12,10 +12,10 @@ description: Apache POI SS - HSSF および XSSF ではない理由。
 
 
 ## **Apache POI SS - HSSF および XSSF**
-**HSSF** Excel '97(-2007) ファイル形式の POI プロジェクトの純粋な Java 実装です。
+**HSSF**Excel '97(-2007) ファイル形式の POI プロジェクトの純粋な Java 実装です。
 **XSSF** Excel 2007 OOXML (.xlsx) ファイル形式の POI プロジェクトの純粋な Java 実装です。
 
-HSSF と XSSF は、スプレッドシートを読み取り、XLS スプレッドシートを作成、変更、読み取り、書き込む方法を提供します。彼らが提供します：
+HSSF と XSSF は、スプレッドシートを読み取る方法を提供します。XLS スプレッドシートを作成、変更、読み取り、書き込みします。彼らが提供します：
 
 - 特別なニーズを持つ人々のための低レベルの構造
 - 効率的な読み取り専用アクセスのためのイベントモデル API
@@ -23,7 +23,7 @@ HSSF と XSSF は、スプレッドシートを読み取り、XLS スプレッ�
 
 でもっと読む[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java は受賞歴のある Excel スプレッドシート コンポーネントで、Java 開発者は Excel® スプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF の読み取り、書き込み、および操作機能を組み込むことができます。 Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
 
 Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコンポーネントであり、他のベンダーの単純なデータ エクスポート機能をはるかに超える多くの機能を提供します。 Aspose.Cells for Java を使用すると、開発者は、データのエクスポート、スプレッドシートの最も細かいレベルへの書式設定、画像のインポート、グラフの作成、複雑な数式の適用と計算、Excel® データのストリーミング、さまざまな形式での保存など、すべて Microsoft Excel® を必要とせずに実行できます。または Microsoft オフィス オートメーション。
 
@@ -31,7 +31,7 @@ Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコ�
 
 ## **Apache POI SS ではない理由 - HSSF と XSSF**
 
-一部のタスクは Aspose.Cells で実行できますが、Apache POI では実行できないことに注意してください。たとえば、Excel ファイルを Pdf、JSON、および画像に変換する必要がある場合、Apache POI だけを使用することはできません。Microsoft Excel 365 またはその他のツールも必要です。
+一部のタスクは Aspose.Cells で実行できますが、Apache POI では実行できないことに注意してください。たとえば、Excel ファイルを Pdf、JSON および画像に変換する必要がある場合、Apache POI だけを使用することはできず、Microsoft Excel 365 またはその他のツールも必要です。
 
 POI を Aspose.Cells と比較できます。これを行うには、POI プロジェクト (HSSF および XSSF) の Aspose.Cells に慣れることをお勧めします。これは、.Java API と POI の Aspose.Cells を使用してさまざまなタスクを実行する方法を示しています。このプロジェクトは、Aspose.Cells でのみ利用可能で、Apache POI では利用できないテキスト ドキュメントを操作するための機能もカバーしています。
 
@@ -59,7 +59,7 @@ Aspose コンポーネントは拡張性が高く、非常に高速です。そ�
 
 Aspose コンポーネントは、Office ファイルの管理に必要なすべてのものに加えて、さらに多くのものを提供します。これらは、開発者が最小限の作業で最大の結果を達成できるようにするという哲学に基づいて設計されています。
 
- Aspose コンポーネントは、多くの強力な時間節約機能を提供します。例えば、[Aspose.Cells](https://products.aspose.com/cells/java/)開発者が JSON を Excel ファイルにインポートできる機能を提供します。 Aspose ファミリのすべてのコンポーネントが独自の強力な機能を提供することに注意してください。
+Aspose コンポーネントは、多くの強力な時間節約機能を提供します。例えば、[Aspose.Cells](https://products.aspose.com/cells/java/)開発者が JSON を Excel ファイルにインポートできる機能を提供します。 Aspose ファミリのすべてのコンポーネントが独自の強力な機能を提供することに注意してください。
 
 ## **サポート、拡張、貢献**
 ### **サポート**
@@ -98,7 +98,7 @@ Aspose.Cells Java Apache POI (HSSF+XSSF) はオープン ソースであり、�
   - [Apache POI および Aspose.Cells でのワークシートの操作](/cells/ja/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
     - [新しいワークシートを作成](/cells/ja/java/create-new-worksheet/)
     - [ワークシートに画像を追加](/cells/ja/java/add-images-in-worksheet/)
-    - [ワークシートをCSVに変換](/cells/ja/java/convert-worksheet-to-csv/)
+    - [ワークシートを CSV に変換](/cells/ja/java/convert-worksheet-to-csv/)
     - [ワークブック内でシートをコピー](/cells/ja/java/copy-sheet-within-workbook/)
     - [ワークブック内のシートの並べ替え](/cells/ja/java/re-order-sheets-within-workbook/)
     - [ヘッダーとフッター](/cells/ja/java/header-and-footers/)
@@ -145,8 +145,8 @@ Aspose.Cells Java Apache POI (HSSF+XSSF) はオープン ソースであり、�
     - [ワークブックのスクロールバーの表示と非表示](/cells/ja/java/display-and-hide-scrollbars-of-workbooks/)
     - [Aspose.Cells を使用してワークブックのタブを表示および非表示にする](/cells/ja/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [Aspose.Cells を使用してワークブックを暗号化する](/cells/ja/java/encrypt-workbook-using-aspose-cells/)
-    - [複数のエンコーディングを含む CSV ファイルを読み取る](/cells/ja/java/read-csv-file-with-multiple-encodings/)
-    - [Aspose.Cells を使用して、各ワークシートを別の PDF に保存します。](/cells/ja/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+    - [複数のエンコーディングを持つ CSV ファイルの読み取り](/cells/ja/java/read-csv-file-with-multiple-encodings/)
+    - [Aspose.Cells を使用して、各ワークシートを別の PDF に保存します](/cells/ja/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [Aspose.Cells でワークシートのタブの色を設定する](/cells/ja/java/set-worksheet-tab-color-in-aspose-cells/)
   - [Aspose.Cells でチャートを操作する](/cells/ja/java/working-with-charts-in-aspose-cells/)
     - [ワード アートの透かしをグラフに追加する](/cells/ja/java/add-word-art-watermark-to-chart/)

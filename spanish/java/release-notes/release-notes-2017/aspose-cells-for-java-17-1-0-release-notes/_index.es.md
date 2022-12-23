@@ -11,8 +11,8 @@ url: /es/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42129|Guardar en HTML es incorrecto|Insecto|
 |CELLSJAVA-42125|Las líneas de cuadrícula detrás de las formas no se exportan cuando se convierten a HTML|Insecto|
 |CELLSJAVA-42110|Algunas reglas CSS ignoradas al importar HTML|Insecto|
-|CELLSJAVA-42094|Los contenidos se tachan en el HTML convertido|Insecto|
-|CELLSJAVA-42091|El estilo de texto de algunas celdas es incorrecto cuando se guardan en HTML|Insecto|
+|CELLSJAVA-42094|Los contenidos están tachados en el convertido HTML|Insecto|
+|CELLSJAVA-42091|El estilo de texto de algunas celdas es incorrecto cuando se guarda en HTML|Insecto|
 |CELLSJAVA-42088|DataBar es incorrecto cuando la celda tiene un color de fondo establecido|Insecto|
 |CELLSJAVA-42018|La imagen del gráfico no se guarda cuando se usa el formato EMF o SVG|Insecto|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines no parece funcionar para una hoja de cálculo en particular|Insecto|
@@ -22,16 +22,16 @@ url: /es/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42117|No se puede acceder a la variable de instancia m_LoadDataFilterOptions al anular el método startSheet de la clase LoadFilter|Insecto|
 |CELLSJAVA-41882|Cell valor de cadena y problema de redondeo basado en diferentes versiones de JDK|Insecto|
 |CELLSJAVA-42142|Los caracteres de control de derecha a izquierda y de izquierda a derecha no se representan correctamente en PDF cuando la conversión se realiza en Linux|Insecto|
-|CELLSJAVA-42136|Hebreo: en la tabla, las líneas ajustadas a la palabra están alineadas a la derecha en PDF, mientras que deben estar centradas como en Excel.|Insecto|
+|CELLSJAVA-42136|Hebreo: en la tabla, las líneas de palabras envueltas están alineadas a la derecha en PDF, mientras que deben estar centradas como en Excel|Insecto|
 |CELLSJAVA-42113|Conversión incorrecta de la hoja de cálculo árabe a SVG|Insecto|
 |CELLSJAVA-42135|Hebreo: el texto ajustado no está alineado a la derecha en PDF como en Excel|Insecto|
 |CELLSJAVA-42134|Hebreo: etiquetas de serie cuando hay un ajuste de palabra, los caracteres no se muestran en la secuencia correcta|Insecto|
 |CELLSJAVA-42127|Error de forma a imagen al renderizar 03.xls a PDF|Insecto|
 |CELLSJAVA-42126|Error de forma a imagen al renderizar 02.xls a PDF|Insecto|
 |CELLSJAVA-42087|La imagen del gráfico en el HTML es incorrecta|Insecto|
-|CELLSJAVA-42079|Grosor de las líneas desiguales en las intersecciones al representar la hoja de cálculo con el diagrama en PDF|Insecto|
-|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran ni representan de la misma manera (como en el archivo de Excel original) en el archivo PDF de salida|Insecto|
-|CELLSJAVA-42076|El ángulo de las etiquetas del eje x es incorrecto en el PDF del gráfico|Insecto|
+|CELLSJAVA-42079|Grosor de las líneas desiguales en las intersecciones al representar la hoja de cálculo con el diagrama al PDF|Insecto|
+|CELLSJAVA-42078|Las etiquetas de los gráficos no se muestran/procesan igual (según el archivo de Excel original) en el archivo de salida PDF|Insecto|
+|CELLSJAVA-42076|El ángulo de las etiquetas del eje x es incorrecto en el gráfico PDF|Insecto|
 |CELLSJAVA-42065|Representación incorrecta de gráficos de barras al representar la hoja de cálculo en HTML|Insecto|
 |CELLSJAVA-42152|La configuración de la fórmula que se refiere al libro de trabajo externo crea una fórmula 3D|Insecto|
 |CELLSJAVA-42146|Error de contenido ilegible en Excel 2007 después de volver a guardar una hoja de cálculo|Insecto|
@@ -56,7 +56,7 @@ El usuario puede cambiar la propiedad LoadDataFilterOptions en su implementació
 ### **Agrega la propiedad CellsHelper.SignificantDigits.**
 Obtiene y establece el número de dígitos significativos.
 ### **Agrega la propiedad GlowEffect.Color.**
-Obtiene el color del efecto de resplandor.
+Obtiene el color del efecto de brillo.
 ### **Agrega la propiedad PageSetup.PaperWidth.**
 Representa el ancho en pulgadas del papel, considerando la orientación de la página.
 ### **Agrega la propiedad PageSetup.PaperHeight.**

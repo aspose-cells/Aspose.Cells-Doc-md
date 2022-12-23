@@ -10,7 +10,7 @@ url: /zh/java/aspose-cells-for-java-7-6-0-release-notes/
 
 {{% /alert %}} 
 
-新的功能
+新功能
 
 增强功能
 

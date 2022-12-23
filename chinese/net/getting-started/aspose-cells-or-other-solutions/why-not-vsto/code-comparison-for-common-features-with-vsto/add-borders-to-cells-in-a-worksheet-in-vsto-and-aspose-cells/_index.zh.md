@@ -23,7 +23,7 @@ url: /zh/net/add-borders-to-cells-in-a-worksheet-in-vsto-and-aspose-cells/
 
 该代码生成一个 Excel 文件，其中第一个工作表上有许多单元格，每个单元格具有不同的边框：
 
-![待办事项：图像_替代_文本](picture1.png)
+![待办事项：图片_替代_文本](picture1.png)
 
 Cells 应用了边框。
 ## **VSTO**

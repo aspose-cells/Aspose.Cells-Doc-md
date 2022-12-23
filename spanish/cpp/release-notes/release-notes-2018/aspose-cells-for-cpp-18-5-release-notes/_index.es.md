@@ -12,9 +12,9 @@ Esta página contiene notas de la versión Aspose.Cells para CPP 18.5.
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSCPP-117 |Problema de guardar en EMF (formato)|Insecto|
+|CELLSCPP-117 |Guardar en EMF (formato) problema|Insecto|
 |CELLSCPP-123 |Problema con la tabla hash de glifos|Insecto|
-|CELLSCPP-124 |Problema de color de las líneas de cuadrícula del eje al convertir un gráfico a PDF|Insecto|
+|CELLSCPP-124 |Problema de color de las líneas de cuadrícula del eje al convertir el gráfico a PDF|Insecto|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for C++. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 

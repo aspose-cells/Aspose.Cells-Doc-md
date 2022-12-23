@@ -5,9 +5,9 @@ weight: 870
 url: /fr/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Scénarios d'utilisation possibles**
- Supposons que vous ayez un fichier Excel avec plusieurs feuilles et que vous souhaitiez exporter chaque feuille vers un fichier HTML individuel. Si l'une de vos feuilles contient des liens vers d'autres feuilles, ces liens seront rompus dans le code HTML exporté. Pour faire face à ce problème, le Aspose.Cells fournit[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interface que vous pouvez implémenter pour réparer les liens rompus.
+ Supposons que vous ayez un fichier Excel avec plusieurs feuilles et que vous souhaitiez exporter chaque feuille vers un fichier HTML individuel. Si l'une de vos feuilles contient des liens vers d'autres feuilles, ces liens seront rompus dans le HTML exporté. Pour résoudre ce problème, Aspose.Cells fournit[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interface que vous pouvez implémenter pour réparer les liens rompus.
 ## **Fournir le chemin d'accès au fichier HTML de la feuille de calcul exportée via l'interface IFilePathProvider**
- Veuillez télécharger le[exemple de fichier excel](5473417.zip) utilisé dans le code suivant et ses fichiers HTML exportés. Tous ces fichiers sont à l'intérieur du*Temp* annuaire. Vous devriez l'extraire sur*C :* conduire. Il deviendra alors*C:\Temp*annuaire. Ensuite, vous ouvrirez le*Sheet1.html* fichier dans le navigateur et cliquez sur les deux liens à l'intérieur. Ces liens font référence à ces deux feuilles de calcul HTML exportées qui se trouvent dans le*C:\Temp\AutresFeuilles*annuaire.
+ Veuillez télécharger le[exemple de fichier excel](5473417.zip) utilisé dans le code suivant et ses fichiers HTML exportés. Tous ces fichiers sont à l'intérieur du*Temp* annuaire. Vous devriez l'extraire sur*C :* lecteur. Il deviendra alors*C:\Temp* annuaire. Ensuite, vous ouvrirez le*Sheet1.html* fichier dans le navigateur et cliquez sur les deux liens à l'intérieur. Ces liens font référence à ces deux feuilles de calcul HTML exportées qui se trouvent à l'intérieur du*C:\Temp\AutresFeuilles*annuaire.
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ L'exemple de code ne fonctionnera que lorsque vous définirez la licence Aspose.
 
 {{% /alert %}} 
 
- S'il vous plaît voir commenter ces lignes à l'intérieur du code cassera les liens dans*Sheet1.html* et*Sheet2.html* ou*Sheet3.html*ne s'ouvriront pas lorsque leurs liens seront cliqués à l'intérieur du*Sheet1.html*
+ S'il vous plaît voir commenter ces lignes à l'intérieur du code cassera les liens dans*Sheet1.html* et*Sheet2.html* ou alors*Sheet3.html*ne s'ouvriront pas lorsque leurs liens seront cliqués à l'intérieur du*Sheet1.html*
 
 
 

@@ -11,11 +11,11 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lagt till egenskapen HtmlSaveOptions.DefaultFontName**
-Aspose.Cells for Java 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till HTML-format. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells for Java API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
+Aspose.Cells for Java 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till formatet HTML. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells for Java API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs artikeln om[Ställa in standardteckensnitt för att rendera kalkylblad till HTML-format](/cells/sv/java/set-default-font-while-rendering-spreadsheet-to/).
+ För mer information om den här funktionen, läs artikeln om[Ställ in standardteckensnitt för rendering av kalkylblad till HTML-format](/cells/sv/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **Lagt till egenskapen ImageOrPrintOptions.DefaultFont**
-Aspose.Cells for Java 8.9.0 tillåter att ställa in standardteckensnittsnamnet för klassen ImageOrPrintOptions genom att exponera egenskapen DefaultFont. Den nämnda egenskapen kan användas när Unicode-tecken i kalkylarket inte är inställda med korrekt typsnitt i cellstil, därför kan sådana tecken visas som block i de resulterande bilderna.
+ Aspose.Cells for Java 8.9.0 tillåter att ställa in standardteckensnittsnamnet för klassen ImageOrPrintOptions genom att exponera egenskapen DefaultFont. Den nämnda egenskapen kan användas när Unicode-tecken i kalkylarket inte är inställda med korrekt typsnitt i cellstil, därför kan sådana tecken visas som block i de resulterande bilderna.
 
 {{% alert color="primary" %}} 
 

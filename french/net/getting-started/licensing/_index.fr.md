@@ -41,7 +41,7 @@ Ces paramètres peuvent être obligatoires dans certains cas/scénarios si vous 
 
 {{% /alert %}}
 
-De plus, une feuille de calcul avec un filigrane d'évaluation s'affichera toujours comme feuille de calcul active dans le fichier Excel généré à l'aide de la bibliothèque Aspose.Cells. Uniquement dans la version sous licence, vous pouvez définir la feuille de calcul active sur d'autres feuilles de calcul. Dans le fichier PDF ou image de sortie par Aspose.Cells, un filigrane d'évaluation serait collé en haut du document/image. Vous ne pouvez pas masquer l'avertissement de droit d'auteur d'évaluation (la feuille de calcul supplémentaire) dans le contrôle GridWeb également, il sera toujours ajouté (à la fin dans les onglets de la feuille de calcul) dans le champ.
+De plus, une feuille de calcul avec un filigrane d'évaluation s'affichera toujours comme feuille de calcul active dans le fichier Excel généré à l'aide de la bibliothèque Aspose.Cells. Uniquement dans la version sous licence, vous pouvez définir la feuille de calcul active sur d'autres feuilles de calcul. Dans la sortie PDF ou le fichier image par Aspose.Cells, un filigrane d'évaluation serait collé en haut du document/image. Vous ne pouvez pas masquer l'avertissement de droit d'auteur d'évaluation (la feuille de calcul supplémentaire) dans le contrôle GridWeb également, il sera toujours ajouté (à la fin dans les onglets de la feuille de calcul) dans le champ.
 
 {{% alert color="primary" %}}
 
@@ -148,7 +148,7 @@ Une autre façon astucieuse d'emballer la licence avec votre application et de v
 1.  Dans Visual Studio .NET, incluez le fichier de licence (.lic) dans le projet en le sélectionnant**Ajouter un élément existant** du**Dossier** menu.
 1. Sélectionnez le fichier dans l'explorateur de solutions et définissez**Créer une action** à**Ressource intégrée** dans la fenêtre Propriétés
 
- Pour accéder à la licence intégrée dans l'assembly (en tant que ressource intégrée), il n'est pas nécessaire d'appeler les méthodes GetExecutingAssembly et GetManifestResourceStream de la classe System.Reflection.Assembly de Microsoft .NET Framework. Il suffit d'ajouter le fichier de licence en tant que ressource intégrée à votre projet et de transmettre le nom du fichier de licence dans la méthode SetLicense. La**Aspose.Cells.License** class trouvera automatiquement le fichier de licence dans les ressources intégrées. Veuillez consulter l'exemple ci-dessous pour comprendre cette méthode de configuration de la licence (intégrée) dans vos applications.
+ Pour accéder à la licence intégrée dans l'assembly (en tant que ressource intégrée), il n'est pas nécessaire d'appeler les méthodes GetExecutingAssembly et GetManifestResourceStream de la classe System.Reflection.Assembly de Microsoft .NET Framework. Il suffit d'ajouter le fichier de licence en tant que ressource intégrée à votre projet et de transmettre le nom du fichier de licence dans la méthode SetLicense. Le**Aspose.Cells.License** class trouvera automatiquement le fichier de licence dans les ressources intégrées. Veuillez consulter l'exemple ci-dessous pour comprendre cette méthode de configuration de la licence (intégrée) dans vos applications.
 
 {{< highlight "csharp" >}}
 

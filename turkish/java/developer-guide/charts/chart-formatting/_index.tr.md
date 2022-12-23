@@ -32,7 +32,7 @@ Aşağıda verilen örnekte, grafiğin farklı alanlarına farklı biçimlendirm
 
 **Alanları doldurulmuş bir sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartArea-SettingChartArea.java" >}}
 
@@ -42,13 +42,13 @@ Aşağıda verilen örnekte, grafiğin farklı alanlarına farklı biçimlendirm
 
 **Çizgi stilleri uygulandıktan sonra sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_2.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartLines-SettingChartLines.java" >}}
 
 ### **Microsoft Excel 2007/2010 Temalarını Grafiklere Uygulama**
 
- Geliştiriciler, farklı Microsoft Excel temaları ve renkleri uygulayabilir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)veya aşağıdaki örnekte gösterildiği gibi diğer grafik nesneleri.
+Geliştiriciler, farklı Microsoft Excel temaları ve renkleri uygulayabilir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)veya aşağıdaki örnekte gösterildiği gibi diğer grafik nesneleri.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -58,13 +58,13 @@ Aşağıda gösterildiği gibi bir WYSIWYG ortamında grafiğin başlıklarını
 
 **Microsoft Excel kullanarak bir grafiğin ve eksenlerinin başlıklarını ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_3.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_3.png)
 
-Aspose.Cells, geliştiricilerin çalışma zamanında bir grafiğin başlıklarını ve eksenlerini ayarlamasına da olanak tanır. Tüm çizelgeler ve eksenleri bir[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)aşağıda bir örnekte gösterildiği gibi başlıklarını ayarlamak için kullanılabilecek bir yöntem. Örnek kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir sütun grafiği eklenecektir:
+ Aspose.Cells, geliştiricilerin çalışma zamanında bir grafiğin başlıklarını ve eksenlerini ayarlamasına da olanak tanır. Tüm çizelgeler ve eksenleri bir[**Title.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)aşağıda bir örnekte gösterildiği gibi başlıklarını ayarlamak için kullanılabilecek bir yöntem. Örnek kodu çalıştırdıktan sonra, çalışma sayfasına aşağıda gösterildiği gibi bir sütun grafiği eklenecektir:
 
 **Başlıkları ayarladıktan sonra sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_4.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingTitlesAxes-SettingTitlesAxes.java" >}}
 
@@ -76,7 +76,7 @@ Aspose.Cells, geliştiricilerin çalışma zamanında bir grafiğin başlıklar�
 
 **Gizli ana kılavuz çizgileri olan bir sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_5.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-MajorGridlines-1.java" >}}
 
@@ -86,7 +86,7 @@ Geliştiriciler yalnızca ana kılavuz çizgilerinin görünürlüğünü değil
 
 **Renkli ana kılavuz çizgileri olan sütun grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_6.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsAppearance-ChangingMajorGridlines-1.java" >}}
 
@@ -100,7 +100,7 @@ Aşağıda verilen örnek, farklı nitelikler kullanılarak yan duvarın sınır
 
 ## **Grafik Konumunu ve Boyutunu Değiştirme**
 
- Bazen, çalışma sayfasındaki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek istersiniz. Aspose.Cells şunları sağlar:[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) Bunu başarmak için mülkiyet. Grafiği yenisiyle yeniden boyutlandırmak için alt özelliklerini kullanabilirsiniz.**yükseklik** ve**Genişlik** veya yenisiyle yeniden konumlandırın** X** ve**Y** koordinatları.
+ Bazen, çalışma sayfasındaki yeni veya mevcut grafiğin konumunu veya boyutunu değiştirmek istersiniz. Aspose.Cells şunları sağlar:[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)Bunu başarmak için mülkiyet. Grafiği yenisiyle yeniden boyutlandırmak için alt özelliklerini kullanabilirsiniz.**boy uzunluğu** ve**Genişlik** veya yenisiyle yeniden konumlandırın** X** ve**Y** koordinatları.
 
 ### **Grafiğin Konumunu ve Boyutunu Değiştirme**
 
@@ -117,13 +117,13 @@ Aşağıdaki örnek, yukarıdaki özelliklerin kullanımını açıklamaktadır.
 
 **Örnek kodun yürütülmesinden önceki grafik boyutu ve konumu** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_7.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_7.png)
 
 Yürütmeden sonra çıktı dosyası şöyle görünür:
 
 **Örnek kodun yürütülmesinden sonraki grafik boyutu ve konumu** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_8.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChangeChartPositionAndSize-ChangeChartPositionAndSize.java" >}}
 
@@ -141,7 +141,7 @@ Aşağıdaki örnek, pasta grafiğin nasıl oluşturulacağını gösterir. Bu t
 
 **Giriş pasta grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_9.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
@@ -151,7 +151,7 @@ Aşağıdaki örnek, mevcut grafiğin nasıl değiştirileceğini gösterir. Bu 
 
 **Pasta grafik değiştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_10.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyPieChart-ModifyPieChart.java" >}}
 
@@ -163,13 +163,13 @@ Bu örnekte, bir çizgi grafiğini işleyeceğiz. Mevcut grafiğe bazı veri ser
 
 **Giriş çizgisi grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_11.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_11.png)
 
  Şimdi (içinde bulunan) çizgi grafiğini manipüle ediyoruz.**çizgi grafiği.xls** dosya) aşağıdaki kodu kullanarak. Aşağıdaki çıktı kod tarafından üretilir.
 
 **Manipüle edilmiş çizgi grafiği** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_12.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ModifyLineChart-ModifyLineChart.java" >}}
 
@@ -186,14 +186,14 @@ Microsoft Excel 2010'da minik grafikler eklemek için:
 1. Mini grafiklerin görünmesini istediğiniz hücreleri seçin. Görüntülenmelerini kolaylaştırmak için verilerin yan tarafındaki hücreleri seçin.
 1.  Tıklamak**Sokmak** şeritte ve ardından seçin**kolon** içinde**mini grafikler** grup.
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_13.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_13.png)
 
 1. Çalışma sayfasında kaynak verileri içeren hücre aralığını seçin veya girin.
  Grafikler görünür.
 
 Mini grafikler, örneğin trendleri veya bir softbol liginin galibiyet veya mağlubiyet rekorunu görmenize yardımcı olur. Mini grafikler, ligdeki her takımın tüm sezonunu bile özetleyebilir.
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_14.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_14.png)
 
 ### **Aspose.Cells kullanan mini grafikler**
 
@@ -218,7 +218,7 @@ Bir grafiğin nasıl oluşturulacağını ve Microsoft Excel 2007 3B biçimlendi
 
 **3B biçimlendirmeli bir sütun grafiği**
 
-![yapılacaklar:resim_alternatif_Metin](chart-formatting_15.png)
+![yapılacaklar:resim_alternatif_metin](chart-formatting_15.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-Applying3DFormat-Applying3DFormat.java" >}}
 

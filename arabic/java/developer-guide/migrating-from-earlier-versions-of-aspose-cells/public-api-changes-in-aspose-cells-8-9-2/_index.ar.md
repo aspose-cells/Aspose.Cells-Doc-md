@@ -89,7 +89,7 @@ textOptions.getOutline().setOneColorGradient(Color.getBlue(), 0.3, GradientStyle
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية Shape.Line**
-كشف Aspose.Cells for Java خاصية Shape.Line التي ترجع مثيل LineFormat للتحكم في مظهر الخطوط الخارجية للشكل.
+كشف Aspose.Cells for Java خاصية Shape.Line التي تُرجع مثيل LineFormat للتحكم في مظهر الخطوط الخارجية للشكل.
 
 فيما يلي سيناريو استخدام بسيط لخاصية Shape.Line.
 

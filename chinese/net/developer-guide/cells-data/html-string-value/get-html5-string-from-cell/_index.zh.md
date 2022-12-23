@@ -6,7 +6,7 @@ url: /zh/net/get-html5-string-from-cell/
 ---
 ## **可能的使用场景**
 
-Aspose.Cells 返回单元格的 HTML 字符串[**获取HTML字符串**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)接受布尔参数的方法。如果你通过**错误的**作为参数，它将返回普通 HTML，但如果您通过**真的**作为参数，它将返回 HTML5 字符串。
+Aspose.Cells 返回单元格的 HTML 字符串[**获取HTML字符串**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)接受布尔参数的方法。如果你通过**错误的**作为参数，它将返回 Normal HTML 但如果你通过**真的**作为参数，它将返回 HTML5 字符串。
 
 ## **从 Cell 获取 HTML5 字符串**
 

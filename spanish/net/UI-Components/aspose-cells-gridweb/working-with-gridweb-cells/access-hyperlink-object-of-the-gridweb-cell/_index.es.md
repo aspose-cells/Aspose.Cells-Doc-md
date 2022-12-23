@@ -10,7 +10,7 @@ Puede verificar si la celda contiene un hipervínculo o no utilizando los siguie
 - GridHyperlinkCollection.GetHyperlink (celda GridCell)
 - GridHyperlinkCollection.GetHyperlink(int fila,int columna)
 ## **Abrir hipervínculo en una ventana nueva o existente**
- Si su archivo de Excel contiene un hipervínculo que se vincula a alguna URL como<http://wwww.aspose.com/> y lo carga en GridWeb, los hipervínculos se representarán con el atributo de destino establecido en_ vacío. Significa que cuando haga clic en el hipervínculo en una celda de GridWeb, se abrirá en una nueva ventana en lugar de una ventana existente. Verifique la propiedad GridHyperlink.Target en la siguiente ventana de depuración. Además, si desea abrir el hipervínculo en la ventana existente, configure GridHyperlink.Target en_uno mismo.
+ Si su archivo de Excel contiene un hipervínculo que se vincula a alguna URL como<http://wwww.aspose.com/> y lo carga en GridWeb, los hipervínculos se representarán con el atributo de destino establecido en_ blanco. Significa que cuando haga clic en el hipervínculo en una celda de GridWeb, se abrirá en una nueva ventana en lugar de una ventana existente. Verifique la propiedad GridHyperlink.Target en la siguiente ventana de depuración. Además, si desea abrir el hipervínculo en la ventana existente, configure GridHyperlink.Target en_ser.
 
 ![todo:imagen_alternativa_texto](access-hyperlink-object-of-the-gridweb-cell_1.png)
 ## **Acceder al objeto Hipervínculo de GridWeb Cell**

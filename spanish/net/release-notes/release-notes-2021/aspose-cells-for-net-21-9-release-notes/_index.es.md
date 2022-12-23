@@ -17,10 +17,10 @@ url: /es/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-48624|Admite el rango con nombre de toda la fila/columna para archivos .ods|Mejora|
 |CELLSNET-49052|Configuración de soporte Transparencia de imagen para archivos xlsx.|Mejora|
 |CELLSNETCORE-233|Mejora para cambiar el autor del comentario encadenado|Mejora|
-|CELLSNET-49011|Acelera el acceso al iterador de celdas para renderizar para GridDesktop|Actuación|
-|CELLSNET-48915|Excepción de falta de memoria al representar la hoja de trabajo en la imagen|Actuación|
-|CELLSNET-47663|El documento de Excel no se convierte a html|Actuación|
-|CELLSNET-48506|Mejore el rendimiento para escribir archivos .ods.|Actuación|
+|CELLSNET-49011|Acelera el acceso al iterador de celdas para renderizar para GridDesktop|Rendimiento|
+|CELLSNET-48915|Excepción de falta de memoria al representar la hoja de trabajo en la imagen|Rendimiento|
+|CELLSNET-47663|El documento de Excel no se convierte a html|Rendimiento|
+|CELLSNET-48506|Mejore el rendimiento para escribir archivos .ods.|Rendimiento|
 |CELLSNET-48645| El texto dentro de una forma de flecha tiene la posición incorrecta|Insecto|
 |CELLSNET-48475|La actualización de la tabla dinámica no funciona correctamente|Insecto|
 |CELLSNET-48711|Exporte el xlsx ampliado a html.|Insecto|
@@ -37,7 +37,7 @@ url: /es/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|La fuente está distorsionada al convertir la hoja a imagen Emf con la opción EmfOnly|Insecto|
 |CELLSNET-48049|Espaciado de eje diferente al convertir de libro de trabajo xlsx a emf|Insecto|
 |CELLSNET-48509|El gráfico a veces no aparece según la posición de la leyenda|Insecto|
-|CELLSNET-48580| Entrada de Miss Legend en el SVG de salida del gráfico de Excel|Insecto|
+|CELLSNET-48580| Entrada de Miss Legend en la salida SVG del gráfico de Excel|Insecto|
 |CELLSNET-48696|Error al modificar el color de la etiqueta de datos|Insecto|
 |CELLSNET-48698|Problema de color del gráfico al exportar en PDF|Insecto|
 |CELLSNET-48797|El valor medio del marcador es un error al leer de xlsx|Insecto|
@@ -51,10 +51,10 @@ url: /es/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49055| Las columnas de ajuste automático para la celda combinada no funcionan|Insecto|
 |CELLSNET-49100|A algunas celdas les faltan líneas de cuadrícula al exportar a HTML|Insecto|
 |CELLSNETCORE-149|Copiar estilos después de copiar valores borra los valores de celda en formato Excel 97|Insecto|
-|CELLSNETCORE-152|Los datos de imagen EMF no se pueden leer desde un archivo XLS|Insecto|
+|CELLSNETCORE-152|EMF los datos de la imagen no se pueden leer desde el archivo XLS|Insecto|
 |CELLSNET-48444|Error de parámetro no válido al convertir xlsb a archivo xls|Excepción|
 |CELLSNET-48607|Error de forma a imagen|Excepción|
-|CELLSNET-48866|No se puede abrir un archivo XLSX Excel específico en el control de GridDesktop|Excepción|
+|CELLSNET-48866|No se puede abrir un archivo de Excel XLSX específico en el control de GridDesktop|Excepción|
 |CELLSNET-48956| Excepción después de configurar el estilo de las celdas usando Cell.SetStyle|Excepción|
 |CELLSNET-48712|Matriz fuera de límite al representar el gráfico Box&Whisker|Excepción|
 |CELLSNET-48910|Excepción lanzada al representar el cuadro y el gráfico de bigotes en la imagen|Excepción|
@@ -72,7 +72,7 @@ Obtiene y establece la estrategia formateada para el ajuste automático.
 
 ### **Agrega la propiedad MsoFormatPicture.Transparency.**
 
-Devuelve o establece el grado de transparencia del área como un valor de 0,0 (opaco) a 1,0 (transparente).
+ Devuelve o establece el grado de transparencia del área como un valor de 0,0 (opaco) a 1,0 (transparente).
 
 ### **Agrega métodos PivotTableCollection.Remove() sobrecargados.**
 

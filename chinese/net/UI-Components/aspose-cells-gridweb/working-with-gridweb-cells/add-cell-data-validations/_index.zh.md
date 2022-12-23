@@ -12,7 +12,7 @@ Aspose.Cells.GridWeb 允许您添加**数据验证**使用 GridWorksheet.Validat
 ## **在 GridWeb 的 GridCell 中创建数据验证**
 下面的示例代码创建一个**数据验证**在单元格 B3 中。如果您输入任何不在 20 到 40 之间的值，单元格 B3 将显示**验证错误**形式为**红色 XXXX**如这个屏幕截图所示。
 
-![待办事项：图像_替代_文本](add-cell-data-validations_1.png)
+![待办事项：图片_替代_文本](add-cell-data-validations_1.png)
 
 
 

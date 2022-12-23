@@ -1,5 +1,5 @@
 ﻿---
-title: HTMLのインポート中に改行後の余分なスペースを削除する
+title: HTML のインポート中に改行後の余分なスペースを削除する
 type: docs
 weight: 620
 url: /ja/java/delete-redundant-spaces-after-line-break-while-importing/
@@ -13,7 +13,7 @@ url: /ja/java/delete-redundant-spaces-after-line-break-while-importing/
 次のスクリーンショットは、このプロパティを**間違い**と**真実**.
 
 ![todo:画像_代替_文章](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
-## **HTMLのインポート中に改行後の余分なスペースを削除する**
+## **HTML のインポート中に改行後の余分なスペースを削除する**
 次のサンプル コードは、[HtmlLoadOptions.DeleteRedundantSpaces](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#DeleteRedundantSpaces)財産。設定してください**真実**また**間違い**上記のスクリーンショットに示すように出力を取得します。
 
 

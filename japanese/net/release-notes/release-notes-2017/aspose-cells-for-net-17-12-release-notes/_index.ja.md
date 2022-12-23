@@ -12,9 +12,9 @@ url: /ja/net/aspose-cells-for-net-17-12-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-45358|ストリームを使用して HTML にエクスポートするときに、HTML マークアップとは別に CSS を取得する|新機能|
+|CELLSNET-45358|ストリームを使用して HTML にエクスポートする場合、HTML マークアップから個別に CSS を取得します|新機能|
 |CELLSNET-45697|Microsoft Interop FormulaLocal と同様の Cell.FormulaLocal を実装します。|新機能|
-|CELLSNET-45801|Excel から PDF へのレンダリングでの Office アドインのサポート|新機能|
+|CELLSNET-45801|PDF レンダリングへの Excel での Office アドインのサポート|新機能|
 |CELLSNET-45796|スマート マーカー - データが大きすぎて 1 つのシートに挿入できない場合に、2 番目のワークシートにデータを自動入力する方法|新機能|
 |CELLSNET-45791|ワークブックの共有時に「変更履歴を保持」を更新|新機能|
 |CELLSNET-45746|セル内のテキストが Aspose.Cells.GridDesktop の他のセルと重なっています。|新機能|
@@ -38,7 +38,7 @@ url: /ja/net/aspose-cells-for-net-17-12-release-notes/
 |CELLSNET-45768|ストリームが Seek をサポートしていない場合、Workbook.Save(Stream stream, SaveFormat saveFormat) は失敗します|バグ|
 |CELLSNET-45780|ワークシート データを右から左に表示する際の問題|バグ|
 |CELLSNET-45745|Aspose.Cells.GridDesktop でスクロール バーをクリックするとエラーが発生する|バグ|
-|CELLSNET-45777|Excel ファイルを PDF に変換中に Shape to Image エラーが発生する|例外|
+|CELLSNET-45777|Excel ファイルを PDF に変換する際に Shape to Image エラーが発生する|例外|
 |CELLSNET-45804|Excel (Strict Open XML Spreadsheet) ファイルを開く際の例外|例外|
 |CELLSNET-45798|インデックスが配列の範囲外でした - Excel ファイルのレンダリング中に例外が発生しました|例外|
 |CELLSNET-45795|検証基準のデータを入力する必要があります - ワークブックの保存中に例外が発生します|例外|

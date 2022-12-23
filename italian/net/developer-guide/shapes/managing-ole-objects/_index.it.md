@@ -8,7 +8,7 @@ url: /it/net/managing-ole-objects/
 
 OLE (Object Linking and Embedding) è il framework di Microsoft per una tecnologia di documenti composti. In breve, un documento composto è qualcosa di simile a un display desktop che può contenere oggetti visivi e informativi di ogni tipo: testo, calendari, animazioni, suoni, video in movimento, 3D, notizie continuamente aggiornate, controlli e così via. Ogni oggetto desktop è un'entità programma indipendente che può interagire con un utente e comunicare anche con altri oggetti sul desktop.
 
- OLE (Object Linking and Embedding) è supportato da molti programmi diversi e viene utilizzato per rendere il contenuto creato in un programma disponibile in un altro. Ad esempio, puoi inserire un documento Microsoft Word in Microsoft Excel. Per vedere quali tipi di contenuto è possibile inserire, fare clic su**Oggetto** sul**Inserire** menù. Nel file vengono visualizzati solo i programmi installati sul computer e che supportano gli oggetti OLE**Tipo di oggetto** scatola.
+ OLE (Object Linking and Embedding) è supportato da molti programmi diversi e viene utilizzato per rendere il contenuto creato in un programma disponibile in un altro. Ad esempio, è possibile inserire un documento Word Microsoft in Excel Microsoft. Per vedere quali tipi di contenuto è possibile inserire, fare clic su**Oggetto** sul**Inserire** menù. Nel file vengono visualizzati solo i programmi installati sul computer e che supportano gli oggetti OLE**Tipo di oggetto** scatola.
 
 ### **Inserimento di oggetti OLE nel foglio di lavoro**
 
@@ -31,7 +31,7 @@ Dopo aver eseguito il codice, possiamo salvare diversi file in base ai rispettiv
 
 ### **Estrazione del file MOL incorporato**
 
- Aspose.Cells supporta l'estrazione di oggetti di tipi non comuni come MOL (file di dati molecolari contenente informazioni su atomi e legami). Il seguente frammento di codice illustra l'estrazione del file MOL incorporato e il suo salvataggio su disco utilizzando this[file excel di esempio](94896196.xlsx).
+Aspose.Cells supporta l'estrazione di oggetti di tipi non comuni come MOL (file di dati molecolari contenente informazioni su atomi e legami). Il seguente frammento di codice illustra l'estrazione del file MOL incorporato e il suo salvataggio su disco utilizzando this[file excel di esempio](94896196.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ExtractEmbeddedMolFile-1.cs" >}}
 

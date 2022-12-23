@@ -14,13 +14,13 @@ url: /zh/java/aspose-cells-for-java-20-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43153|在类似于 MS Excel 的土耳其语中显示瀑布图图例|强化|
 |CELLSJAVA-43142|Excel 到 HTML 呈现 - 某些单元格在转换后未对齐|漏洞|
-|CELLSJAVA-43155|当呈现为 HTML 时，旋转的文本设置在单元格之外|漏洞|
+|CELLSJAVA-43155|呈现为 HTML 时，旋转文本设置在单元格之外|漏洞|
 |CELLSJAVA-43161|方程式的错误呈现|漏洞|
 |CELLSJAVA-43130|瀑布图透明度问题|漏洞|
 |CELLSJAVA-43131|Excel 到 PDF - 带有文本的形状未正确转换|漏洞|
 |CELLSJAVA-43133|Chart.toImage 在输出图像中不包含数据标签|漏洞|
 |CELLSJAVA-43138|生成的图像存在渲染问题。|漏洞|
-|CELLSJAVA-43151|转换 XLS 文件后的样式更改|漏洞|
+|CELLSJAVA-43151|XLS 文件转换后的样式更改|漏洞|
 |CELLSJAVA-43158|IllegalArgumentException：地图大小 (0) 必须 >= 1|例外|
 |CELLSJAVA-43149|删除工作表后保存 XLSM 时引发异常|例外|
 |CELLSJAVA-43150|文件加载时出现异常“java.lang.NumberFormatException”|例外|

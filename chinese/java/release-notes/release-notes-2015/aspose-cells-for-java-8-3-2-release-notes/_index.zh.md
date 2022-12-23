@@ -21,15 +21,15 @@ url: /zh/java/aspose-cells-for-java-8-3-2-release-notes/
 
 其他改进和变化
 
-新的功能
+新功能
 
-(CELLSJAVA-41144) - 保存 HTML 时能够从 StyleCollection 中删除 Style
+(CELLSJAVA-41144) - 保存时能够从 StyleCollection 中删除 Style HTML
 (CELLSJAVA-41127) - 为完整的工作簿指定自定义分隔符
 (CELLSJAVA-41143) - 使用 Aspose.Cells 打印时指定作业/文档名称
 
 增强功能
 
-(CELLSJAVA-41145) - 将电子表格导出为 HTML 时智能生成 CSS
+(CELLSJAVA-41145) - 将电子表格导出到 HTML 时智能生成 CSS
 (CELLSJAVA-41177) - Cell.setHtmlString 在使用“时不起作用<s><span style="color:#ff00ff;">S2</span></s>"
 (CELLSJAVA-41162) - 在字体搜索列表中添加 Mac 和 Linux 的默认字体目录
 
@@ -39,24 +39,24 @@ url: /zh/java/aspose-cells-for-java-8-3-2-release-notes/
 
 虫子
 
-(CELLSJAVA-41165) - 数据透视图在更新源数据并将电子表格呈现为 PDF 后不刷新
-(CELLSJAVA-41156) - Chart.refreshPivotData 导致图表轴中的日期在将电子表格转换为 PDF 时转换为数字
-(CELLSJAVA-41154) - 使用 PasteType.ALL 粘贴范围时，HTML 输出中出现额外的行
+(CELLSJAVA-41165) - 在更新源数据并将电子表格呈现为 PDF 后，数据透视图不刷新
+(CELLSJAVA-41156) - Chart.refreshPivotData 导致图表轴中的日期转换为数字，同时将电子表格转换为 PDF
+(CELLSJAVA-41154) - 使用 PasteType.ALL 粘贴范围时，HTML 输出中出现额外行
 (CELLSJAVA-41151) - 在使用和不使用对应于检索行范围的代码行时，关于输出数据透视表格式的奇怪行为
-(CELLSJAVA-41150) - 呈现为 HTML 文件格式时，关于数字格式不支持 FormatCondition
+(CELLSJAVA-41150) - 在呈现为 HTML 文件格式时，格式条件不支持关于 Numbers 格式
 (CELLSJAVA-41146) - 将电子表格转换为 HTML 时边框呈现不正确
 (CELLSJAVA-41134) - XLSB2007TestNewS.xlsb 不加载并不断增加内存消耗
 (CELLSJAVA-41129) - 在 Chrome 中显示输出 HTML 时显示额外的行
 (CELLSJAVA-41122) - 打开和保存财务_陈述_输入_报告_Withdata.xlsb 使其损坏
 (CELLSJAVA-41098) - 刷新数据透视表在转换为 PDF 时删除数据透视表的格式
-(CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE 导致 XLS 损坏
+(CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE 导致 XLS 被破坏
 (CELLSJAVA-41149) - 电子表格转换为 PDF 时时间呈现不正确
 (CELLSJAVA-41148) - Excel 发现不可读的内容...打开和保存工作簿时出错
 (CELLSJAVA-41141) - Cell 未使用 ListObject.putCellValue() 方法设置
 (CELLSJAVA-41140) - 扩展表不会将公式复制到新行
-(CELLSJAVA-41166) - XPS 查看器无法打开 Aspose.Cells 生成的 XPS
+(CELLSJAVA-41166) - XPS 查看器无法打开 Aspose.Cells 生成 XPS
 (CELLSJAVA-41163) - SVG 导出创建无效文件
-(CELLSJAVA-41153) - Shape.toImage 以 BMP 格式而不是 SVG 格式存储图像，而不是图表以外的形状
+(CELLSJAVA-41153) - 对于图表以外的形状，Shape.toImage 以 BMP 格式而不是 SVG 格式存储图像
 (CELLSJAVA-41137) - 设置数据标签的单元格范围值时出现问题
 (CELLSJAVA-41128) - 重新保存 XLSX 文件时图表呈现不正确
 (CELLSJAVA-41125) - 图表图像在以较低分辨率转换时有噪声

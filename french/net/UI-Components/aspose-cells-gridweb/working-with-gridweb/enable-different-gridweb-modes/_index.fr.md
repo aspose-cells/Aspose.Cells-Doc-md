@@ -45,7 +45,7 @@ L'exemple ci-dessous montre comment activer le mode d'édition par programmation
 
 {{% /alert %}} 
 ## **Mode d'affichage**
-Lorsque le contrôle GridWeb est en mode Affichage, les utilisateurs ne peuvent pas éditer ou modifier le contenu de la grille, ce qui signifie qu'ils peuvent uniquement afficher le contenu de la grille. C'est pourquoi ce mode s'appelle le mode Affichage. En mode Afficher, quelques boutons (**Soumettre**, **sauvegarder** et**annuler** ) sont masqués et le menu qui apparaît lors d'un clic droit ne contient que les**Copie** option.
+Lorsque le contrôle GridWeb est en mode Affichage, les utilisateurs ne peuvent pas éditer ou modifier le contenu de la grille, ce qui signifie qu'ils peuvent uniquement afficher le contenu de la grille. C'est pourquoi ce mode s'appelle le mode Affichage. En mode Afficher, quelques boutons (**Nous faire parvenir**, **Sauver** et**annuler** ) sont masqués et le menu qui apparaît lors d'un clic droit ne contient que les**Copie** option.
 
 **Contrôle GridWeb en mode Affichage** 
 

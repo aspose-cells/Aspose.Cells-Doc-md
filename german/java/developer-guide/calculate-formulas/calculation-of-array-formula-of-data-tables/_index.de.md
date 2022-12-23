@@ -14,10 +14,10 @@ Sie können eine Datentabelle in Microsoft Excel erstellen, indem Sie Daten > Wa
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_1.png)
 
- Wenn Sie den Wert der Zelle B1 in 100 ändern, werden die Werte der Datentabelle, die mit gelber Farbe gefüllt sind, zu 120. Der Beispielcode generiert die[PDF ausgeben](5472577.pdf) die 120 als Werte in der Datentabelle anzeigt, wie in diesem Bild gezeigt.
+ Wenn Sie den Wert der Zelle B1 in 100 ändern, werden die Werte der Datentabelle, die mit gelber Farbe gefüllt sind, zu 120. Der Beispielcode generiert die[Ausgang PDF](5472577.pdf) die 120 als Werte in der Datentabelle anzeigt, wie in diesem Bild gezeigt.
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_2.png)
 
- Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5472577.pdf) von dem[Excel-Quelldatei](5472579.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
+ Hier ist der Beispielcode, der zum Generieren der[Ausgang PDF](5472577.pdf) von dem[Excel-Quelldatei](5472579.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

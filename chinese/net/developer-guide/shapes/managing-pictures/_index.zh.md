@@ -28,7 +28,7 @@ Aspose.Cells 允许开发人员在运行时向电子表格添加图片。此外�
 
 ### **比例定位**
 
-开发人员可以使用[**上DeltaX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax)和[**上三角洲**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay)的属性[**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)目的。一个[**图片**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)对象可以从[**图片**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)通过传递其图片索引来收集。此示例将图像放置在 F6 单元格中。
+开发人员可以使用[**上DeltaX**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltax)和[**上三角洲**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/upperdeltay)的属性[**Aspose.Cells.Drawing.Picture**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)目的。一种[**图片**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)对象可以从[**图片**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection)通过传递其图片索引来收集。此示例将图像放置在 F6 单元格中。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Pictures-PositioningPictures-ProportionalPositioning-1.cs" >}}
 

@@ -14,19 +14,19 @@ url: /es/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Características generales/mejoras
 
- Admite LightCellsDataProvider para guardar archivos XLS
+ Admite LightCellsDataProvider para guardar el archivo XLS
 
- Se realizan mejoras para la función de Excel a PDF
+ Se realizan mejoras para la función Excel-to-PDF
 
  31329 - Incluir un método útil: PivotField.getBaseIndex()
 
- 40015 - Hacer que la biblioteca sea compatible con webservices-rt.jar
+40015 - Hacer que la biblioteca sea compatible con webservices-rt.jar
 
  40011 - Compatibilidad para obtener todos los colores que utilizan diferentes objetos en el Libro de trabajo
 
  Excepciones
 
-40022 - La lectura del archivo de plantilla XLS con el conjunto de opciones: LoadDataOnly=true genera una excepción
+ 40022 - Leyendo el archivo de plantilla XLS con el conjunto de opciones: LoadDataOnly=true da una excepción
 
  40017 - El método WorksheetCollection.getNamedRanges() da una excepción
 
@@ -34,9 +34,9 @@ url: /es/java/aspose-cells-for-java-7-0-3-release-notes/
 
  Insectos
 
- 31303 - Cell el valor con el carácter '"' y ',' se guardó incorrectamente para el archivo CSV
+ 31303 - El valor Cell con el carácter '"' y ',' se guardó incorrectamente para el archivo CSV
 
- 31376 - Guardar PDF tomó demasiado tiempo y generó un archivo PDF muy grande
+ 31376 - Guardar PDF llevó demasiado tiempo y generó un archivo PDF muy grande
 
  40001 - El símbolo de moneda se perdió al formatear los valores de celda
 
@@ -46,15 +46,15 @@ url: /es/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40010 - La inserción de filas hace que las celdas combinadas se rompan
 
- 40013 - Los símbolos del filtro automático se duplicaron y se agrandaron al volver a guardar el archivo XLS
+ 40013: los símbolos del filtro automático se duplicaron y se agrandaron al volver a guardar el archivo XLS
 
- 40014 - Las líneas de cuadrícula no se mostraban en la imagen generada para una hoja
+40014 - Las líneas de cuadrícula no se mostraban en la imagen generada para una hoja
 
  40016 - El archivo XLS guardado hace que MS Excel emita mensajes de advertencia -1
 
  40020 - El archivo XLS guardado hace que MS Excel emita mensajes de advertencia -2
 
-40021 - El archivo XLS guardado hace que MS Excel emita mensajes de advertencia -3
+ 40021 - El archivo XLS guardado hace que MS Excel emita mensajes de advertencia -3
 
  40023 - Cell pierde formato después de eliminar filas
 
@@ -68,4 +68,4 @@ url: /es/java/aspose-cells-for-java-7-0-3-release-notes/
 
  40084 - Los valores de fecha y hora se leen en formato doble
 
- 40085 - Cuando la fila/columna supera el límite del archivo XLS, el XLS guardado provoca el error "Excel encontró contenido ilegible" cuando se abre en MS Excel
+ 40085 - Cuando la fila/columna supera el límite del archivo XLS, el XLS guardado provoca: error "Excel encontró contenido ilegible" cuando se abre en MS Excel

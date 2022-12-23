@@ -19,7 +19,7 @@ url: /fr/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
  Quoi de neuf?
 
 - Pris en charge pour exporter la matrice
-- Pris en charge pour exporter des fichiers CSV et TabDelimited
+- Pris en charge pour exporter les fichiers CSV et TabDelimited
 - Pris en charge l'image d'arrière-plan.
 
  Qu'est-ce qui est corrigé ?

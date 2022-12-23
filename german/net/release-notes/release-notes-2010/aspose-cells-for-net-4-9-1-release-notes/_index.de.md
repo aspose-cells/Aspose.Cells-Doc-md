@@ -49,18 +49,18 @@ url: /de/net/aspose-cells-for-net-4-9-1-release-notes/
 |:- |:- |:- |
 |13526 | Diagramm2Bild| Problem mit der Chart ToImage-Methode|
 |14888 | Diagramm2Bild| PlotArea-Positionierungsproblem mit Chart.ToImage|
-|16011 | CSV| Lesen Sie CSV mit Zeilenumbruch|
+|16011 |CSV | Lesen Sie CSV mit Zeilenumbruch|
 |14183 | Pdf| Kopf-/Fußzeile nicht an den Seitenrändern ausgerichtet|
 |14501 | Pdf| Fehler beim Konvertieren der Excel-Datei in pdf|
 |15741 | Pdf| Gitternetzlinien werden nicht angezeigt|
 |15910 | Pdf| Fehlender Link zwischen Lesezeichen und Seite|
 |16207 | Pdf|Fehler beim Speichern der PDF-Datei|
 |16260 | Pdf| Konvertieren verschiedener Dateitypen in TIF|
-|16328 | Pdf| XLS-zu-PDF-Konvertierungsproblem|
+|16328 | Pdf| XLS zu PDF Konvertierungsproblem|
 |16377 | Pdf| Einige Texte in Zellen verschwinden|
-|16402 | Pdf| XLS-zu-PDF-Konvertierungsproblem|
+|16402 | Pdf| XLS zu PDF Konvertierungsproblem|
 |16472 | Pdf| Formatierungsprobleme|
-|16499 | Pdf| PDF bettet keine Schriftarten ein|
+|16499 | Pdf| PDF Schriftarten werden nicht eingebettet|
 |13606 | Arbeitsblatt2Bild| Einige Unterschiede in der gedruckten/gespeicherten Excel-Datei|
 |16236 | Arbeitsblatt2Bild| Die Ausgabe von sheet2imagebypage|
 |15981 | XLs| Problem bezüglich der Formelberechnung|

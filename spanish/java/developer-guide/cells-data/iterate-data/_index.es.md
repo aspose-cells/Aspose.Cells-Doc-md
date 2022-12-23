@@ -15,13 +15,13 @@ Un objeto de una interfaz de iterador se puede utilizar para recorrer todos los 
 
 Las API Aspose.Cells proporcionan un montón de iteradores, sin embargo, este artículo analiza principalmente los tres tipos que se enumeran a continuación.
 
-1. Cells Iterador
+1. Cells iterador
 1. Iterador de filas
 1. Iterador de columnas
 
 {{% /alert %}} 
 ## **Cómo usar iteradores**
-### **Cells Iterador**
+### **Cells iterador**
 Hay varias formas de acceder al iterador de celdas, y uno puede usar cualquiera de estos métodos según los requisitos de la aplicación. Estos son los métodos que devuelven el iterador de las celdas.
 
 1. Cells.iterator

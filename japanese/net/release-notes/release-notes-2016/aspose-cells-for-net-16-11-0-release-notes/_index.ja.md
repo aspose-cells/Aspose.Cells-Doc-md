@@ -16,22 +16,22 @@ url: /ja/net/aspose-cells-for-net-16-11-0-release-notes/
 |CELLSNET-44832 |ワークシート ページの計算に時間がかかる SheetRender.PageCount の問題|パフォーマンス|
 |CELLSNET-44861 |Range.Copy() メソッドが Excel の大きな範囲でフリーズする|パフォーマンス|
 |CELLSNET-44854 |ワークブック名が名前付き範囲に追加されると、スプレッドシートが破損する|バグ|
-|CELLSNET-44852 |HTML を Excel に変換する際に RTL 方向が LTR に変更される|バグ|
+|CELLSNET-44852 |HTML を Excel に変換中に RTL 方向が LTR に変更される|バグ|
 |CELLSNET-44846 |RefreshData の呼び出し後にピボットテーブルのフィルターが失われる|バグ|
 |CELLSNET-44823 |データ ソースを名前付き範囲に変更した後、ピボット テーブルの更新に失敗する|バグ|
 |CELLSNET-44814 |データ列が 1 つある場合に PivotTable.CalculateData() を呼び出すとクラッシュする|バグ|
 |CELLSNET-44799 |Excel ファイルを開いて再保存すると破損する|バグ|
-|CELLSNET-44790 |列の幅、行の高さ、ワード ラップなどで無視される CSS スタイル (HTML から Excel)|バグ|
-|CELLSNET-44786 | TD セルと TH セルの font-weight と text-align に関する問題|バグ|
-|CELLSNET-44448 |出力 PDF でピボットテーブルの内容が正しく表示されない|バグ|
-|CELLSNET-44892 |Workbook のカルチャ設定が、Chart.ToImage を使用する Chart DataLabels に適用されない|バグ|
+|CELLSNET-44790 |列の幅、行の高さ、ワード ラップなどの CSS スタイルが無視される (HTML から Excel)|バグ|
+|CELLSNET-44786 |TD セルと TH セルの font-weight と text-align に関する問題|バグ|
+|CELLSNET-44448 |ピボットテーブルの内容が出力に正しく表示されない PDF|バグ|
+|CELLSNET-44892 | Workbook のカルチャ設定が、Chart.ToImage を使用する Chart DataLabels に適用されない|バグ|
 |CELLSNET-44809 |外部範囲を使用した SUMPRODUCT 関数は、'#REF!' になります。エラー|バグ|
 |CELLSNET-44818 |ワークシートを画像に変換する際に、セル内の長い値が「#」文字列としてレンダリングされる|バグ|
 |CELLSNET-43623 |変換されたファイルのサイズに関する問題 (Excel から PDF への変換)|バグ|
 |CELLSNET-43439 |比較的小さい Excel ファイルからの出力 PDF ファイル サイズの大幅な増加|バグ|
 |CELLSNET-44842 |グラフを画像に変換するとラベルが表示されない|バグ|
-|CELLSNET-44806 |グラフの傾向線が出力 PDF で正しく表示されない|バグ|
-|CELLSNET-44737 |SheetRender.ToImage: チャートがその下の行に重なっています|バグ|
+|CELLSNET-44806 |グラフの傾向線が出力で正しく表示されない PDF|バグ|
+|CELLSNET-44737 | SheetRender.ToImage: チャートがその下の行に重なっています|バグ|
 |CELLSNET-44885 |数式は、ブックの計算後に _xlfn プレフィックスを取得します|バグ|
 |CELLSNET-44884 |ワークシート名が「または」の場合、再保存操作によりスプレッドシートが破損します|バグ|
 |CELLSNET-44880 |Aspose.Cells API によって生成された破損した出力ファイル|バグ|
@@ -57,10 +57,10 @@ url: /ja/net/aspose-cells-for-net-16-11-0-release-notes/
 |CELLSNET-44745 |Aspose.Cells.GridDesktop: コンテキスト メニューで [貼り付け] が常に非アクティブになる|バグ|
 |CELLSNET-44698 |GridWeb コントロール、左にドラッグすると列が消える|バグ|
 |CELLSNET-44886 |HTML として保存すると NullReferenceException が発生する|例外|
-|CELLSNET-44875 |PulseSecure の保存中に例外が発生しました_価格表_フラットファイル_2016年11月_102816_v1.0.xlsx Excel ファイルから HTML|例外|
-|CELLSNET-44874 |PulseSecure の保存中に例外が発生しました_価格表_平らな_ファイル_Oct2016.xlsx Excel ファイルを HTML に変換|例外|
-|CELLSNET-44873 |PulseSecure の保存中に例外が発生しました_価格表_2016年11月_102816_v1.0.xlsx Excel ファイルから HTML|例外|
-|CELLSNET-44872 |PulseSecure の保存中に例外が発生しました_価格表_2016年10月_093016_v1.xlsx Excel ファイルから HTML|例外|
+|CELLSNET-44875 |PulseSecure の保存中に例外が発生しました_価格表_フラットファイル_2016年11月_102816_v1.0.xlsx Excelファイル～HTML|例外|
+|CELLSNET-44874 |PulseSecure の保存中に例外が発生しました_価格表_平らな_ファイル_Oct2016.xlsx ExcelファイルをHTMLに|例外|
+|CELLSNET-44873 |PulseSecure の保存中に例外が発生しました_価格表_2016年11月_102816_v1.0.xlsx ExcelファイルをHTMLに|例外|
+|CELLSNET-44872 |PulseSecure の保存中に例外が発生しました_価格表_2016年10月_093016_v1.xlsx Excel ファイルを HTML に|例外|
 |CELLSNET-44882 |指数表記の値が例外をスローしています|例外|
 |CELLSNET-44849 |特定の XLS から XLSX への変換時に例外がスローされる|例外|
 |CELLSNET-44898 |FileFormatUtil.DetectFileFormat 使用時のスタック オーバーフロー|例外|

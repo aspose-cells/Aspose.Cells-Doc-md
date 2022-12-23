@@ -10,7 +10,7 @@ url: /fr/cpp/aspose-cells-for-cpp-17-02-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-41|Calculer des formules dans des feuilles de calcul Excel|Nouvelle fonctionnalité|
 |CELLSCPP-42|Amélioration des performances de lecture des fichiers XLSX|Amélioration|

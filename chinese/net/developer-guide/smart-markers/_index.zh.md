@@ -27,7 +27,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 - **没有添加** 不要添加额外的行来适应数据。
 - **跳过：n** - 为每行数据跳过 n 行。
-- **升序：n**或者**降序：n** - 在智能标记中对数据进行排序。如果 n 为 1，则该列是排序器的第一个键。对数据源进行处理后对数据进行排序。例如：&=Table1.Field3(升序:1)。
+- **升序：n**要么**降序：n** - 在智能标记中对数据进行排序。如果 n 为 1，则该列是排序器的第一个键。对数据源进行处理后对数据进行排序。例如：&=Table1.Field3(升序:1)。
 - **水平的** 从左到右而不是从上到下写入数据。
 - **数字** 如果可能，将文本转换为数字。
 - **转移** 向下或向右移动，创建额外的行或列以适应数据。 shift 参数的工作方式与 Microsoft Excel 中的相同。例如在Microsoft Excel中，当您选择一个单元格区域时，右键单击并选择**插入**并指定**向下移动单元格**, **右移单元格**和其他选项。简而言之，**转移**参数为垂直/正常（从上到下）或水平（从左到右）智能标记填充相同的功能。
@@ -41,7 +41,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图像_替代_文本](using-smart-markers_1.jpg)|![待办事项：图像_替代_文本](using-smart-markers_2.jpg)|
+|![待办事项：图片_替代_文本](using-smart-markers_1.jpg)|![待办事项：图片_替代_文本](using-smart-markers_2.jpg)|
 ### **动态公式**
 动态公式允许您将 Excel 公式插入到单元格中，即使公式引用了将在导出过程中插入的行。动态公式可以为每个插入的行重复或仅使用放置数据标记的单元格。
 
@@ -72,7 +72,7 @@ Designer 电子表格是标准的 Excel 文件，其中包含视觉格式、公�
 
 |**模板文件**|**输出文件**|
 |:- |:- |
-|![待办事项：图像_替代_文本](using-smart-markers_3.jpg)|![待办事项：图像_替代_文本](using-smart-markers_4.jpg)|
+|![待办事项：图片_替代_文本](using-smart-markers_3.jpg)|![待办事项：图片_替代_文本](using-smart-markers_4.jpg)|
 Cell “C1”包含公式**A1*B1** ，单元格“C2”包含**A2*B2**单元格“C3”包含**A3*B3**.
 
 处理智能标记非常容易。下面是两个代码片段，一个在 C# 中，一个在 VB 中，展示了它是如何完成的。
@@ -89,7 +89,7 @@ Cell “C1”包含公式**A1*B1** ，单元格“C2”包含**A2*B2**单元格�
 ## **分组数据**
 在某些 Excel 报告中，您可能需要将数据分组以使其更易于阅读和分析。将数据分组的主要目的之一是对每组记录运行计算（执行汇总操作）。
 
-Aspose.Cells 智能标记允许您按字段对数据进行分组，并在数据集或数据组之间放置汇总行。例如，如果按 Customers.CustomerID 对数据进行分组，您可以在每次组更改时添加一条摘要记录。
+Aspose.Cells 智能标记允许您按字段对数据进行分组，并在数据集或数据组之间放置摘要行。例如，如果按 Customers.CustomerID 对数据进行分组，您可以在每次组更改时添加一条摘要记录。
 ### **参数**
 以下是一些用于分组数据的智能标记参数。
 #### **组：正常/合并/重复**
@@ -125,7 +125,7 @@ subtotalN:Ref 其中 Ref 指的是按列分组。
 
 |**SmartMarker_Designer.xls 文件中的第一个工作表，包含智能标记**|
 |:- |
-|![待办事项：图像_替代_文本](using-smart-markers_5.png)|
+|![待办事项：图片_替代_文本](using-smart-markers_5.png)|
 在设计器文件的第二个工作表中，我们放置了一些更智能的标记，如下图所示。我们放置以下智能标记：
 &=[订单详情].OrderID(group:normal),
 &=[订单详情].数量,
@@ -135,7 +135,7 @@ subtotalN:Ref 其中 Ref 指的是按列分组。
 
 |**SmartMarker_Designer.xls 文件的第二个工作表，显示混合的智能标记。**|
 |:- |
-|![待办事项：图像_替代_文本](using-smart-markers_6.png)|
+|![待办事项：图片_替代_文本](using-smart-markers_6.png)|
 这是示例中使用的源代码。
 
 
@@ -174,7 +174,7 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。我们使�
 
 |**SM_NestedObjects.xlsx 文件的第一个工作表显示了嵌套的智能标记。**|
 |:- |
-|![待办事项：图像_替代_文本](using-smart-markers_7.png)|
+|![待办事项：图片_替代_文本](using-smart-markers_7.png)|
 下面的例子展示了它是如何工作的。
 
 
@@ -183,7 +183,7 @@ Aspose.Cells 智能标记支持嵌套对象，嵌套对象要简单。我们使�
 ## **使用通用列表作为嵌套对象**
 Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使用以下代码生成的输出 excel 文件的屏幕截图。正如您在屏幕截图中看到的，一个 Teacher 对象包含多个嵌套的 Student 对象。
 
-|![待办事项：图像_替代_文本](using-smart-markers_8.png)|
+|![待办事项：图片_替代_文本](using-smart-markers_8.png)|
 |:- |
 
 
@@ -191,7 +191,7 @@ Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使�
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **使用智能标记的 HTML 属性**
-以下示例代码解释了智能标记的 HTML 属性的使用。处理时，由于 HTML，它会将“Hello World”中的“World”显示为粗体<b>标签。
+以下示例代码解释了智能标记的 HTML 属性的使用。当它被处理时，它会将“Hello World”中的“World”显示为粗体，因为 HTML<b>标签。
 
 
 
@@ -201,7 +201,7 @@ Aspose.Cells 现在也支持使用通用列表作为嵌套对象。请检查使�
 目前默认的处理方式是逐行处理smartmaker。但是有时候同一个数据表的智能标记需要一起处理，不管
 如果它们是否在同一行中，则必须在调用处理之前指定命名范围“_CellsSmartMarkers”并将 WorkbookDesigner.LineByLine 指定为 false。
 
-|![待办事项：图像_替代_文本](using-smart-markers_11.png)|
+|![待办事项：图片_替代_文本](using-smart-markers_11.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-LayerByLayer.cs" >}}
 

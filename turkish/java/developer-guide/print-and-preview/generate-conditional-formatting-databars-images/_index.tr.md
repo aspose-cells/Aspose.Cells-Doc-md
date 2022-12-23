@@ -10,7 +10,7 @@ url: /tr/java/generate-conditional-formatting-databars-images/
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
  Aşağıdaki örnek kod, C1 hücresinin DataBar görüntüsünü oluşturur. Önce hücrenin format koşul nesnesine erişir ve sonra o nesneden DataBar nesnesine erişir ve onu kullanır.[**DataBar.toImage()**](https://reference.aspose.com/cells/java/com.aspose.cells/databar#toImage(com.aspose.cells.Cell,%20com.aspose.cells.ImageOrPrintOptions)) hücrenin görüntüsünü oluşturma yöntemi. Son olarak, görüntüyü diske kaydeder.
 

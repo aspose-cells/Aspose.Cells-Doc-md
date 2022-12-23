@@ -29,7 +29,7 @@ Aspose.Cells stöder även dessa funktioner på ett flexibelt sätt. I det här 
 |Ingen|Representerar ingen bakgrund|
 |ReverseDiagonalStripe|Representerar omvänt diagonalt randmönster|
 |Fast|Representerar ett fast mönster|
-|ThickDiagonal Crosshatch|Representerar ett tjockt diagonalt kryssmönster|
+|ThickDiagonal Crosshatch|Representerar ett tjockt diagonalt rutmönster|
 |ThinDiagonal Crosshatch|Representerar ett tunt diagonalt streckmönster|
 |ThinDiagonalStripe|Representerar ett tunt diagonalt randmönster|
 |ThinHorizontal Crosshatch|Representerar ett tunt horisontellt streckmönster|
@@ -46,7 +46,7 @@ I exemplet nedan är förgrundsfärgen för A1-cellen inställd men A2 är konfi
 
 {{% alert color="primary" %}}
 
--  För att ställa in en cells förgrunds- eller bakgrundsfärg, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) eller[**Bakgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) egenskaper. Båda egenskaperna träder i kraft endast om[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen är konfigurerad.
+-  För att ställa in en cells förgrunds- eller bakgrundsfärg, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) eller[**Bakgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) egenskaper. Båda egenskaperna träder i kraft endast om[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen är konfigurerad.
 -  De[**Förgrundsfärg**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)egenskapen anger cellens nyansfärg.
  De[**Mönster**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)egenskapen anger typen av bakgrundsmönster som används för förgrunden eller bakgrundsfärgen. Aspose.Cells tillhandahåller en uppräkning,[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)som innehåller en uppsättning fördefinierade typer av bakgrundsmönster.
 -  Om du väljer*BackgroundType.None* värde från[**Bakgrundstyp**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)uppräkning tillämpas inte förgrundsfärgen.
@@ -55,9 +55,9 @@ I exemplet nedan är förgrundsfärgen för A1-cellen inställd men A2 är konfi
 
 {{% /alert %}}
 
-### **Använda Gradient Fill Effects**
+### **Tillämpa övertoningsfyllningseffekter**
 
- För att applicera önskade gradientfyllningseffekter på cellen, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)metod i enlighet därmed.
+ För att applicera önskade gradientfyllningseffekter på cellen, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**SetTwoColorGradient**](https://reference.aspose.com/cells/net/aspose.cells/style/methods/settwocolorgradient)metoden i enlighet därmed.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ApproachesToFormatData-ApplyingGradientFillEffects-1.cs" >}}
 
@@ -84,6 +84,6 @@ Exemplet nedan lägger till en anpassad färg (Orchid) till paletten innan den a
 
 {{% alert color="primary" %}}
 
-Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta endast begränsningen i XLS (Excel 97 - 2003) filformat eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010 eller 2013) filformat.
+Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta begränsningen i XLS (Excel 97 - 2003) filformat endast eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010 eller 2013) filformat.
 
 {{% /alert %}}

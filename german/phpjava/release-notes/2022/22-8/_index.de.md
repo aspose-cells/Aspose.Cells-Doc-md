@@ -22,14 +22,14 @@ url: /de/php-java/aspose-cells-for-php-via-java-22-8-release-notes/
 |CELLSJAVA-44773|Daten werden durcheinander gebracht, wenn ein Excel-Dokument mit ausgeblendeten Spalten in GridWeb geöffnet wird (Java)|
 |CELLSJAVA-44781|Untersuchen Sie das Problem der Zeilengrößenänderung, wenn die Größe auf eine sehr geringe Höhe geändert wird|
 |CELLSJAVA-44787|Unterer Rand in der letzten Zeile in der Arbeitsmappe verloren|
-|CELLSJAVA-44761|Übermäßige Speichernutzung bei der Konvertierung einer Excel-Datei in HTML|
+|CELLSJAVA-44761|Übermäßige Speichernutzung bei der Konvertierung der Excel-Datei in HTML|
 |CELLSJAVA-44801|Die Konvertierung von Excel in PDF mit Aspose.Cells for Java v22.7 verursacht verstümmelte Zeichen|
 |CELLSJAVA-44741|Der Zeilenumbruch ist in der xlsx-Ausgabe nicht richtig, nachdem der HTML-String in die Zelle gesetzt wurde|
 |CELLSJAVA-44776|Das Styling der Tabellenkopfzeile geht beim Kopieren des Blattes verloren|
 |CELLSJAVA-44789|Problem mit dem Ersetzen von Zeichenketten in einem Textfeld, das in einer Excel-Tabelle platziert ist|
 |CELLSJAVA-44792| Arbeitsmappe endlos im HTML-Format speichern (2892)|
 |CELLSJAVA-44763|Ausnahme "java.lang.IllegalArgumentException: can't parse argument number: 1:X8" beim Laden der Excel-Datei mit "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Fehler beim Speichern als PDF - Untersuchung erforderlich|
+|CELLSJAVA-44774|Fehler beim Speichern als PDF – Untersuchung erforderlich|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

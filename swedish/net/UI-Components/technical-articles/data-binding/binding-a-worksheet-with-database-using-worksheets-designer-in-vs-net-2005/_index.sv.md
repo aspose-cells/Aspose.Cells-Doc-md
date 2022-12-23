@@ -57,7 +57,7 @@ Skapa en ny webbplats från Arkiv|Ny|Webbplats...-menyn.
 **Figur:** Skapa en ny mapp
 
 
- Efter att ha klickat på**Öppna** knappen i**Välj Plats** dialog,**Ny webbplats** dialogrutan kommer att se ut.
+ Efter att ha klickat på**Öppen** knappen i**Välj Plats** dialog,**Ny webbplats** dialogrutan kommer att se ut.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_7.png)
 
@@ -69,11 +69,11 @@ Nu är projektet skapat
 
 **Figur:** Skapade projekt
 
-### **XHTML och HTML-lägen**
+### **XHTML och HTML lägen**
 
-**Aspose.Cells.GridWeb** stöder helt XHTML Mode som är implementerat som standard i VS.Net 2005 sedan**Xhtml-läge** egendom av**GridWeb** kontroll är inställd på**Sann** som standard när du placerar kontrollen på webbsidan. Men om du vill implementera HTML-läge för kontrollen i VS.Net 2005, kan du göra det ganska enkelt. Du måste ändra**<!DOCTYPE>** tagga lite i webbsidans källkod och ställ in**Xhtml-läge** egendom av**GridWeb** kontroll till**Falsk** .
+**Aspose.Cells.GridWeb** stöder helt XHTML Mode som är implementerat som standard i VS.Net 2005 sedan**Xhtml-läge** egendom av**GridWeb** kontroll är inställd på**Sann** som standard när du placerar kontrollen på webbsidan. Men om du vill implementera HTML Mode för kontrollen i VS.Net 2005, kan du göra det ganska enkelt. Du måste ändra**<!DOCTYPE>** tagga lite i webbsidans källkod och ställ in**Xhtml-läge** egendom av**GridWeb** kontroll till**Falsk** .
 
-#### **I det här ämnet kommer vi att använda HTML-läge för kontrollen. Så följ stegen nedan**
+#### **I det här ämnet kommer vi att använda HTML Mode för kontrollen. Så följ stegen nedan**
 
 ##### **1. Växla till källvyn på webbsidan och hitta följande <!DOCTYPE>-tagg i källkoden.**
 
@@ -248,7 +248,7 @@ Du kan bläddra i anslutningen för att kontrollera tabellen och dess fält.
 
 **Figur:** Klickar**OK** knappen för att generera**Dataset**
 
- Nu kan du se en**datamängd 11** objekt lagts till designern som visas nedan i figuren. Ställ in objektmodifieraren till**Skyddad**.
+ Nu kan du se en**datauppsättning11** objekt lagts till designern som visas nedan i figuren. Ställ in objektmodifieraren till**Skyddad**.
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_32.png)
 
@@ -268,7 +268,7 @@ Viss kod genereras automatiskt i den .cs-filrelaterade anslutningen, dataadapter
 
 **Figur:** Väljer**Arbetsbladsdesigner...** alternativ från menyn
 
- Efter det**Redaktör för kalkylbladssamling** dialog (även kallad**Arbetsbladsdesigner** ) kommer att öppnas kan du se flera egenskaper som kan konfigureras för att binda**Blad 1** med valfri tabell i databasen. Låt oss välja**Datakälla** fast egendom. Skriva**datamängd 11** i den (som vi genererade och lade till i designerfönstret i föregående steg). Klicka sedan på**DataMember** fast egendom. Skriva**Produkter** som ett tabellnamn här som visas nedan i figuren:
+ Efter det**Redaktör för kalkylbladssamling** dialog (även kallad**Arbetsbladsdesigner** ) kommer att öppnas kan du se flera egenskaper som kan konfigureras för att binda**Blad 1** med valfri tabell i databasen. Låt oss välja**Datakälla** fast egendom. Skriva**datauppsättning11** i den (som vi genererade och lade till i designerfönstret i föregående steg). Klicka sedan på**DataMember** fast egendom. Skriva**Produkter** som ett tabellnamn här som visas nedan i figuren:
 
 ![todo:image_alt_text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
 
@@ -298,7 +298,7 @@ Viss kod genereras automatiskt i den .cs-filrelaterade anslutningen, dataadapter
 
 **Figur:** Lägger till lite kod2
 
- Nu lägger vi till lite kod i**Page_Load** händelsehanterare för fyllning**datamängd 11** objekt med data från databasen (med**oleDbDataAdapter1** ) och bindande**GridWeb** styra med**datamängd 11** genom att ringa dess**DataBind** metod.
+ Nu lägger vi till lite kod i**Page_Load** händelsehanterare för fyllning**datauppsättning11** objekt med data från databasen (med**oleDbDataAdapter1** ) och bindande**GridWeb** styra med**datauppsättning11** genom att ringa dess**DataBind** metod.
 
 {{% alert color="primary" %}}   {{% /alert %}}
 
@@ -394,7 +394,7 @@ End Sub
 
 Vi har överlägset byggt en mycket användbar databasapplikation. Men den här applikationen låter dig bara se tabellens data. Även om du kan redigera data i**GridWeb** kontroll men när du stänger ditt webbläsarfönster och öppnar din databas. Du skulle upptäcka att ingenting har förändrats. Det betyder att ändringarna du gjorde inte sparas i databasen. Så det är något du måste göra.
 
- Nu kommer vi att lägga till lite kod till vår applikation så att**GridWeb** kan spara sina ändringar i den faktiska databasen. Låt oss öppna**Egenskaper** ruta och välj**SaveCommand** händelse av**GridWeb** kontrollera från listan över dess händelser. Om du dubbelklickar på**SaveCommand** händelse kommer VS.NET 2005 IDE att skapa**GridWeb1_SaveCommand** händelsehanterare för dig. Lägg till lite kod till den här händelsehanteraren för att uppdatera databasen med modifierade data i**Dataset** (bunden med kalkylbladet) med hjälp av**oleDbDataAdapter1**.
+ Nu kommer vi att lägga till lite kod till vår applikation så att**GridWeb** kan spara sina ändringar i den faktiska databasen. Låt oss öppna**Egenskaper** ruta och välj**SaveCommand** händelse av**GridWeb** kontroll från listan över dess händelser. Om du dubbelklickar på**SaveCommand** händelse kommer VS.NET 2005 IDE att skapa**GridWeb1_SaveCommand** händelsehanterare för dig. Lägg till lite kod till den här händelsehanteraren för att uppdatera databasen med modifierade data i**Dataset** (bunden med kalkylbladet) med hjälp av**oleDbDataAdapter1**.
 
 ##### **Exempel:**
 

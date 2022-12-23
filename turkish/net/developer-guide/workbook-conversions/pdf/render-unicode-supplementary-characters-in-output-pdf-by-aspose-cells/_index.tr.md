@@ -1,5 +1,5 @@
 ﻿---
-title: Çıkış PDF'sinde Aspose.Cells ile Unicode Tamamlayıcı karakterleri işleyin
+title: Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin
 type: docs
 weight: 350
 url: /tr/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -15,14 +15,14 @@ Unicode Karakter Standardında, Tamamlayıcı Karakterler, U+10000'den U+10FFFF'
 
 {{% /alert %}}
 
-## Çıkış PDF'sinde Aspose.Cells ile Unicode Tamamlayıcı karakterleri işleyin
+## Unicode Tamamlayıcı karakterleri PDF çıktısında Aspose.Cells ile işleyin
 
- Aşağıdaki ekran görüntüsü, Aspose.Cells'in[kaynak excel dosyası](5115563.xlsx) içine[çıktı PDF](5115564.pdf). Gördüğünüz gibi, üç Unicode Ek karakteri de Microsoft Excel tarafından yapılanla tamamen aynı hale getirildi.
+ Aşağıdaki ekran görüntüsü, Aspose.Cells'in[kaynak excel dosyası](5115563.xlsx) içine[çıkış PDF](5115564.pdf). Gördüğünüz gibi, üç Unicode Ek karakteri de Microsoft Excel tarafından yapılanla tamamen aynı hale getirildi.
 
-![yapılacaklar:resim_alternatif_Metin](output.png)
+![yapılacaklar:resim_alternatif_metin](output.png)
 
 ## Basit kod
 
- Dönüştürmek için bu örnek kodu kullanabilirsiniz.[kaynak excel dosyası](5115563.xlsx) içine[çıktı PDF](5115564.pdf).
+ Dönüştürmek için bu örnek kodu kullanabilirsiniz.[kaynak excel dosyası](5115563.xlsx) içine[çıkış PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

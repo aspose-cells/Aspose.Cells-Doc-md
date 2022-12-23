@@ -150,9 +150,9 @@ Bu iki kontrolü kullanmak için Aspose.Cells.GridDesktop ve Aspose.Cells.GridWe
 - Microsoft Visual Studio 2017
 - Microsoft Visual Studio 2019
 #### **İnternet Bilgi Sunucusu (IIS)**
-- IIS 5.0 veya üstü
+- IIS 5.0 veya üzeri
 #### **Tarayıcılar**
-- IE 5.5 veya üstü
+- IE 5.5 veya üzeri
 - Mozilla Tarayıcıları (Firefox, Netscape Tarayıcı vb. dahil)
 - Opera (Internet Explorer 6.0 önerilir)
 - Google krom

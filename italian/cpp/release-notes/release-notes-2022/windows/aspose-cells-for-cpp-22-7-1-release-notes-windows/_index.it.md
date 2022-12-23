@@ -10,6 +10,6 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.7.1 per W
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-865| Ottimizza i tag per nuget|Ottimizzare|

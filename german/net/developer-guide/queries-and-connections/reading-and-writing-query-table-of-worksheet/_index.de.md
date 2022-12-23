@@ -40,6 +40,6 @@ Preserve Formatting: False
 
 ## Abfragetabellen-Ergebnisbereich abrufen
 
- Aspose.Cells bietet eine Option zum Lesen der Adresse, dh des Ergebnisbereichs von Zellen für eine Abfragetabelle. Der folgende Code demonstriert diese Funktion, indem er die Adresse des Ergebnisbereichs für eine Abfragetabelle liest. Beispieldatei kann heruntergeladen werden[hier](72417290.xlsx).
+ Aspose.Cells bietet eine Option zum Lesen der Adresse, dh des Ergebnisbereichs von Zellen für eine Abfragetabelle. Der folgende Code demonstriert diese Funktion, indem er die Adresse des Ergebnisbereichs für eine Abfragetabelle liest. Beispieldatei kann heruntergeladen werden[Hier](72417290.xlsx).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageDatabaseConnection-ReadingAndWritingQueryTable-ReadingAddressOfResultRange.cs" >}}

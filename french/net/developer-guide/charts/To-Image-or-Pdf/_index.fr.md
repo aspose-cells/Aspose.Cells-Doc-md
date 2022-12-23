@@ -7,11 +7,11 @@ url: /fr/net/chart-rendering/
 ---
 ## **Graphiques de rendu**
 
- Aspose.Cells Prise en charge des API pour convertir les graphiques Excel en images et en formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir un support de rendu, le[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la classe a exposé[**VersImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**VersPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)méthodes avec une multitude de surcharges pour répondre au mieux aux exigences de l'application.
+ Prise en charge des API Aspose.Cells pour convertir les graphiques Excel en images et formats PDF sans nécessiter d'outils ou d'applications supplémentaires. Afin de fournir un support de rendu, le[**Graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la classe a exposé[**VersImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**VersPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)méthodes avec une multitude de surcharges pour répondre au mieux aux exigences de l'application.
 
 ### **Rendu des graphiques en images**
 
- La[**Chart.ToImageChart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**VersPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) La méthode a une vérité de surcharges pour prendre en charge le rendu simple et avancé. Si l'exigence de l'application est de rendre le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser le[**Chart.ToImageChart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)méthode comme suit.
+ Le[**Chart.ToImageChart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**VersPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) La méthode a une vérité de surcharges pour prendre en charge le rendu simple et avancé. Si l'exigence de l'application est de rendre le graphique dans ses dimensions par défaut, nous vous suggérons d'utiliser le[**Chart.ToImageChart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)méthode comme suit.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
@@ -19,7 +19,7 @@ url: /fr/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Graphique de rendu au format PDF**
+### **Tableau de rendu au PDF**
 
  Afin de rendre le graphique au format PDF, les API Aspose.Cells ont exposé le[**Graphique.VersPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)méthode avec la possibilité de stocker le PDF résultant sur le chemin du disque ou Stream.
 
@@ -44,7 +44,7 @@ url: /fr/net/chart-rendering/
 ||Bar3DCluster|**O**|
 ||Bar3DStacked|**O**|
 ||Barre3D100Pourcentage empilé|**O**|
-|**Ligne**|Ligne|**O**|
+|**La ligne**|La ligne|**O**|
 ||Ligneempilée|**O**|
 ||Line100PercentStacked|**O**|
 ||LineWithDataMarkers|**O**|
@@ -62,7 +62,7 @@ url: /fr/net/chart-rendering/
 ||ScatterConnectedByCurvesWithoutDataMarker|**O**|
 ||ScatterConnectedByLinesWithDataMarker|**O**|
 ||ScatterConnectedByLinesWithoutDataMarker|**O**|
-|**Zone**|Zone|**O**|
+|**Surface**|Surface|**O**|
 ||Zoneempilée|**O**|
 ||Area100PercentStacked|**O**|
 ||Zone3D|**O**|
@@ -115,7 +115,7 @@ url: /fr/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Si vous essayez de rendre les types de graphiques non pris en charge en image ou en PDF, vous risquez de vous retrouver avec des images de taille 0 ou un PDF vierge.
+Si vous essayez de rendre les types de graphiques non pris en charge à l'image ou PDF, vous pouvez vous retrouver avec des images de taille 0 ou vide PDF.
 
 {{% /alert %}}
 

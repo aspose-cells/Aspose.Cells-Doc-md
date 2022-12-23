@@ -1,5 +1,5 @@
 ﻿---
-title: Läser CSV-fil med flera kodningar
+title: Läser CSV Fil med flera kodningar
 type: docs
 weight: 200
 url: /sv/net/reading-csv-file-with-multiple-encodings/
@@ -10,9 +10,9 @@ Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7, etc).
 
 {{% /alert %}}
 
- Aspose.Cells tillhandahåller[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)egenskap som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
+ Aspose.Cells tillhandahåller[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) egenskap som du måste ställa in på**Sann** för att ladda din CSV-fil med flera kodningar korrekt.
 
- Följande skärmdump visar ett exempel på en CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
+ Följande skärmdump visar ett exempel på CSV-fil som innehåller två rader. Första raden är inne**ANSI** kodning och den andra raden är inne**Unicode** kodning
 
 |**Indatafil**|
 |:- |
@@ -30,10 +30,10 @@ Ibland innehåller din CSV-fil flera kodningar (Unicode, ANSI, UTF8, UTF7, etc).
 |:- |
 |![todo:image_alt_text](reading-csv-file-with-multiple-encodings_3.png)|
 
-Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format på rätt sätt.
+Nedan är exempelkoden som konverterar ovanstående CSV-fil till XLSX-format korrekt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 
 ## relaterade artiklar
 
-- [Öppna CSV-filer](/cells/sv/net/opening-files-with-different-formats/#opening-csv-files)
+- [Öppnar CSV Filer](/cells/sv/net/opening-files-with-different-formats/#opening-csv-files)

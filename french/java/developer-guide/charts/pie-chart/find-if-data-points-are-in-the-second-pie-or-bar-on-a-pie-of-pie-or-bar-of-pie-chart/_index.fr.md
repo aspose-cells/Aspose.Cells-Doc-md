@@ -1,5 +1,5 @@
 ﻿---
-title: Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteur
+title: Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteurs
 type: docs
 weight: 910
 url: /fr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/
@@ -8,8 +8,8 @@ url: /fr/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-o
  Vous pouvez trouver si les points de données de la série sont dans le deuxième secteur sur*tarte de tarte* graphique ou dans la barre de*Barre de tarte* graphique en utilisant Aspose.Cells. Veuillez utiliser le[ChartPoint.IsInSecondaryPlotChartPoint.IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot)propriété pour le déterminer.
 
  Veuillez télécharger le[exemple de fichier excel](5473373.xlsx) utilisé dans l'exemple de code suivant et consultez sa sortie de console. Si vous ouvrez le[exemple de fichier excel](5473373.xlsx), vous trouverez, tous les points de données qui sont inférieurs à 10 sont à l'intérieur de la barre de*Barre de tarte*graphique comme indiqué également par la sortie de la console.
-## **Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteur**
- L'exemple de code suivant montre comment déterminer si des points de données se trouvent dans le deuxième secteur ou barre d'un*tarte de tarte* ou*Barre de tarte*graphique.
+## **Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteurs**
+ L'exemple de code suivant montre comment déterminer si des points de données se trouvent dans le deuxième secteur ou barre d'un*tarte de tarte* ou alors*Barre de tarte*graphique.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Sortie console**

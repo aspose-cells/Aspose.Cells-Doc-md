@@ -29,7 +29,7 @@ url: /zh/cpp/aspose-cells-for-cpp-18-4-release-notes/
 |CELLSCPP-89|在 Charts/EnumTypes 目录中翻译和调试测试用例|新功能|
 |CELLSCPP-91|在 Finds 中翻译测试用例|新功能|
 |CELLSCPP-96|翻译和调试 Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts 目录中的测试用例|新功能|
-|CELLSCPP-97|调试并修复有关 XLSX/XLS 到 PDF 渲染的问题|新功能|
+|CELLSCPP-97|调试和修复有关 XLSX/XLS 到 PDF 渲染的问题|新功能|
 |CELLSCPP-98|翻译和调试 LightCells 目录中的测试用例|新功能|
 |CELLSCPP-100|翻译和调试 Merges/OpenSaves/PageSetups/PDF 目录中的测试用例|新功能|
 |CELLSCPP-101|翻译和调试数据透视表目录中的测试用例|新功能|

@@ -66,7 +66,7 @@ Aspose.Cells позволяет разработчикам добавлять д
 - [Создание промежуточных итогов](/cells/ru/net/creating-subtotals/)
 - [Фильтрация данных](/cells/ru/net/data-filtering/)
 - [Сортировка данных](/cells/ru/net/sort-data-of-excel/)
-- [Проверка данных](/cells/ru/net/data-validation/)
+- [Валидация данных](/cells/ru/net/data-validation/)
 - [Экспорт данных из рабочего листа](/cells/ru/net/export-data-from-worksheet/)
 - [Поиск или поиск данных](/cells/ru/net/find-or-search-data/)
 - [Получить строковое значение Cell с форматированием и без него](/cells/ru/net/get-cell-string-value-with-and-without-formatting/)

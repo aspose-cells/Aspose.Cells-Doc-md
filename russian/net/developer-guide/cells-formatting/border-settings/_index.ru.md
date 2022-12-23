@@ -31,7 +31,7 @@ Microsoft Excel позволяет пользователям форматиро
 |Правая граница|Правая пограничная линия|
 |Верхняя граница|Верхняя граница|
 
-[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)коллекция хранит все границы. Каждая граница в[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Коллекция представлена[**Граница**](https://reference.aspose.com/cells/net/aspose.cells/border) объект, который предоставляет два свойства,[**Цвет**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) а также[**Стиль линии**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)чтобы установить цвет и стиль линии границы соответственно.
+[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders)коллекция хранит все границы. Каждая граница в[**Границы**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) Коллекция представлена[**Граница**](https://reference.aspose.com/cells/net/aspose.cells/border) объект, который предоставляет два свойства,[**Цвет**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/color) и[**Стиль линии**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle)чтобы установить цвет и стиль линии границы соответственно.
 
 Чтобы задать цвет линии границы, выберите цвет с помощью перечисления Color (часть .NET Framework) и назначьте его свойству Color объекта Border.
 
@@ -74,7 +74,7 @@ Microsoft Excel позволяет пользователям форматиро
 - Количество строк, количество строк в диапазоне.
 - Количество столбцов, количество столбцов в диапазоне.
 
-[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) метод возвращает[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект, содержащий указанный диапазон ячеек.[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект обеспечивает[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) метод, который принимает следующие параметры для добавления границы к диапазону ячеек:
+[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/1) метод возвращает[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект, содержащий указанный диапазон ячеек.[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект обеспечивает[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder) метод, который принимает следующие параметры для добавления границы к диапазону ячеек:
 
 - **Тип границы** , тип границы, выбранный из[**Тип границы**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)перечисление.
 - **Стиль линии** , стиль линии границы, выбранный из[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)перечисление.
@@ -105,7 +105,7 @@ Aspose.Cells поддерживает 56-цветную палитру Excel Mic
 
 {{% alert color="primary" %}}
 
-В палитре всего 56 цветов. Когда вы добавляете пользовательский цвет в палитру, палитра изменяется, и любой элемент в файле, отформатированный с использованием предыдущего цвета, изменяется. Поэтому при смене палитры будьте очень осторожны. Более того, это ограничение относится только к формату файлов XLS (Excel 97–2003), поскольку такого ограничения нет для XLSX или других расширенных форматов файлов MS Excel (2007/2010 или 2013).
+В палитре всего 56 цветов. Когда вы добавляете пользовательский цвет в палитру, палитра изменяется, и любой элемент в файле, отформатированный с использованием предыдущего цвета, изменяется. Поэтому при смене палитры будьте очень осторожны. Более того, это ограничение только для формата файла XLS (Excel 97 - 2003), поскольку такого ограничения нет для XLSX или других расширенных форматов файлов MS Excel (2007/2010 или 2013).
 
 {{% /alert %}}
 

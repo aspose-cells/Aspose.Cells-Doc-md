@@ -15,7 +15,7 @@ url: /sv/net/aspose-cells-for-net-5-2-0-release-notes/
  Vad har ändrats i Aspose.Cells:
 
 - Stöder signering och validering av digitala signaturer i XLSX-filer.
- Stöder R/W pivottabeller i XLS- och XLSX-filer.
+ Stöder R/W pivottabeller i XLS och XLSX filer.
 Beräknar pivottabelldata till celler.
  31 förbättringar och korrigeringar.
 

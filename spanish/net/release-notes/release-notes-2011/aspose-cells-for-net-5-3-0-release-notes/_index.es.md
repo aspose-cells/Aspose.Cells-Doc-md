@@ -15,7 +15,7 @@ url: /es/net/aspose-cells-for-net-5-3-0-release-notes/
  Qué ha cambiado en Aspose.Cells:
 
 - Se ha mejorado la función de gráfico a imagen.
- Se ha mejorado la función de Excel a PDF.
+ Se ha mejorado la función Excel-to-PDF.
  Se ha mejorado la función de archivos R/W ODS.
  Se ha mejorado la función de ajuste automático de filas.
  63 mejoras y correcciones.
@@ -23,8 +23,8 @@ url: /es/net/aspose-cells-for-net-5-3-0-release-notes/
  Qué ha cambiado en Aspose.Cells.GridWeb:
 
 - Admite todas las funciones del control en FireFox.
- Proporciona compatibilidad para convertir una colección de listas en un objeto DataTable.
-Soporta funciones/fórmulas PEQUEÑAS.
+Proporciona compatibilidad para convertir una colección de listas en un objeto DataTable.
+ Soporta funciones/fórmulas PEQUEÑAS.
  Importa filtros automáticos en los archivos de Excel.
  Se mejora el rendimiento de los scripts de cliente para IE.
  Admite si extender la fila/columna máxima automáticamente al calcular fórmulas.

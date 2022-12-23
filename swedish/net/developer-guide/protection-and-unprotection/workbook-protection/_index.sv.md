@@ -16,7 +16,7 @@ För att förhindra andra användare från att visa dolda kalkylblad, lägga til
 
 1.  Klick**Granska > Skydda arbetsbok**.
 1.  Ange ett lösenord i**rutan Lösenord**.
-1.  Välj**OK** , ange lösenordet igen för att bekräfta det och välj sedan**OK** om igen.
+1.  Välj**OK** , ange lösenordet igen för att bekräfta det och välj sedan**OK** igen.
 
 
 ## **Skydda arbetsboksstrukturen med Aspose.Cell för .Net**

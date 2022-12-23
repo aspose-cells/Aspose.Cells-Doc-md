@@ -12,5 +12,5 @@ Esta página contiene notas de la versión para Aspose.Cells for Reporting Servi
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSRS-544|Aspose.Cells for Reporting Services admite exportar formato XPS.|Nueva caracteristica|
+|CELLSRS-544|Aspose.Cells for Reporting Services admite exportar el formato XPS.|Nueva caracteristica|
 

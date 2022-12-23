@@ -7,7 +7,7 @@ url: /ja/java/protecting-worksheets-in-php/
 ## **Aspose.Cells - ワークシートの保護**
 を使用してワークシートを保護するには**Aspose.Cells Java for PHP**、 電話**保護ワークシート**方法**保護**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

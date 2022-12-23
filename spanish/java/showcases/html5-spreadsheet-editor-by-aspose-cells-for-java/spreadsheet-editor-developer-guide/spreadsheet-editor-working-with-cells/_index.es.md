@@ -12,7 +12,7 @@ url: /es/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [Borrar un Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **Seleccionando un Cell**
@@ -97,13 +97,13 @@ Para eliminar una celda:
 1. Haz clic en una celda que quieras eliminar.
 1.  Cambiar a**Pestaña Formato**.
 1.  Hacer clic**Eliminar Cell** botón.
-1.  Elegir**Turno Cells Arriba** o**Turno Cells Izquierda** botón.
+1.  Escoger**Turno Cells Arriba** o**Turno Cells Izquierda** botón.
 
 El editor eliminará la celda seleccionada. Las celdas adyacentes se desplazarán automáticamente ya sea horizontal o verticalmente para ajustar el espacio.
 
 **¿Cómo funciona?**
 
- los**Turno Cells Arriba** y**Turno Cells Izquierda** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+ Él**Turno Cells Arriba** y**Turno Cells Izquierda** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
 #### **WorksheetView.removeCellShiftUp**
 {{< highlight "java" >}}
 
@@ -147,13 +147,13 @@ Para borrar una celda:
 1. Haz clic en una celda que quieras borrar.
 1.  Cambiar a**Pestaña Formato**.
 1.  Hacer clic**Claro Cell** botón.
-1.  Elegir**Formatos**, **Contenido** o**Ambas cosas** opción.
+1.  Escoger**Formatos**, **Contenido** o**Ambos** opción.
 
 El editor borrará la celda seleccionada.
 
 **¿Cómo funciona?**
 
- los**Formatos**, **Contenido** y**Ambas cosas** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
+ Él**Formatos**, **Contenido** y**Ambos** son manejados por JSF backend bean**Vista de hoja de trabajo**. El código fuente de los respectivos métodos es el siguiente:
 #### **WorksheetView.clearCurrentCellFormatting**
 {{< highlight "java" >}}
 

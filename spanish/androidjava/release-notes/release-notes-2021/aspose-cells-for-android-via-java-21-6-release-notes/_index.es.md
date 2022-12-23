@@ -18,12 +18,12 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43466|CellsException: error para ZipFile al importar ods|
 |CELLSJAVA-43403|La ubicación del texto se desplazó hacia la izquierda al guardar como HTML|
 |CELLSJAVA-43421|Los caracteres de escape y salto de línea no se representan correctamente al convertir HTML a Excel|
-|CELLSJAVA-43427|Formato condicional con barras de datos Mostrar valores en exportación HTML|
-|CELLSJAVA-43428| El formato de contabilidad combinado con la fuente de 6 puntos distorsiona los números en HTML|
+|CELLSJAVA-43427|Formato condicional con barras de datos Mostrar valores en HTML Exportar|
+|CELLSJAVA-43428| Formato de contabilidad combinado con fuente de 6 puntos distorsiona números en HTML|
 |CELLSJAVA-43429|El texto con alineación de texto vertical desaparece en HTML|
 |CELLSJAVA-43407|Las fórmulas de Excel se omiten/cambian después de guardar el archivo|
 |CELLSJAVA-43419| El formato de número personalizado no se muestra correctamente en PDF|
-|CELLSJAVA-43374|Las etiquetas de los gráficos se repiten al convertir los archivos adjuntos de Excel a PDF|
+|CELLSJAVA-43374|Las etiquetas de los gráficos se repiten al convertir los archivos de Excel adjuntos a PDF|
 |CELLSJAVA-43409| Aparecieron etiquetas de datos inesperados en la imagen de salida del gráfico|
 |CELLSJAVA-43411|Las advertencias de sustitución de fuentes no funcionan en la conversión de gráfico a imagen|
 |CELLSJAVA-43414|Problema de conversión de Xls a PDF|
@@ -38,7 +38,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43457|Bucle infinito al guardar el libro de trabajo copiado|
 |CELLSJAVA-43442|Problema con la clasificación de datos al hacer clic en enlaces de encabezado en la demostración de primavera de GridWeb|
 |CELLSJAVA-43443|Problema con el modo de edición en GridWeb Java|
-|CELLSJAVA-43455|Las fuentes no están incrustadas en PDF para caracteres que no son ASCII al establecer EmbedStandardWindowsFonts en falso|
+|CELLSJAVA-43455|Las fuentes no están incrustadas en PDF para caracteres no ASCII al establecer EmbedStandardWindowsFonts en falso|
 |CELLSJAVA-43449|No se puede cambiar la familia de fuentes de los elementos del gráfico de "Calibri" a "Aktiv Grotesk"|
 |CELLSJAVA-43454|Las etiquetas del eje X están cortadas|
 |CELLSJAVA-43445|Regresión: faltan datos de fila para archivos .numbers|
@@ -50,14 +50,14 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43491|El valor de la fórmula que utiliza la tabla de datos no se puede extraer correctamente|
 |CELLSJAVA-43498|El resultado formateado del valor numérico es incorrecto para la configuración regional zh_CN|
 |CELLSJAVA-43451|El contenido del archivo de Excel se muestra incorrectamente y la demostración de ChangeStyle (primavera) no funciona correctamente|
-|CELLSJAVA-43484|El diseño del contenido es inconsistente en la representación de Excel a PDF|
+|CELLSJAVA-43484|El diseño del contenido es inconsistente en Excel con la representación PDF|
 |CELLSJAVA-43465|Faltan algunas series de gráficos al convertir Excel a PDF|
-|CELLSJAVA-43468|Problema con la ecuación de la línea recta en la representación de Excel a PDF|
+|CELLSJAVA-43468|Problema con la ecuación de la línea recta en Excel para la representación PDF|
 |CELLSJAVA-43432|El contenido del gráfico no coincide al volver a guardar un formato de archivo XLS|
 |CELLSJAVA-43475|Regresión: las celdas envueltas en línea se cortan|
 |CELLSJAVA-43478|Regresión: NÚMEROS a PDF, faltan muchos datos|
 |CELLSJAVA-43485|Regresión: contenido adicional al renderizar PDF desde ODS|
-|CELLSJAVA-43492| La conversión de un archivo XML (SpreadsheetML) elimina la configuración Oculta en "Definición de nombre" en la salida XLS y XLSX|
+|CELLSJAVA-43492| La conversión de un archivo XML (SpreadsheetML) elimina la configuración oculta en "Definición de nombre" en la salida XLS y XLSX|
 |CELLSJAVA-43417|Se produjo una excepción al abrir XLSX desde un archivo grande|
 |CELLSJAVA-43431|Se generó java.lang.NullPointerException al llamar a Cells.deleteColumn() con la última versión 21.3 mientras que funciona con 21.2|
 |CELLSJAVA-43437|IndexOutOfBoundsException al hacer clic en otras páginas de la hoja en el modo de evaluación|
@@ -77,7 +77,7 @@ Proporcione a los usuarios la capacidad de acceder a los datos en modo por lotes
 
 ### **Agrega las propiedades TxtSaveOptions.ExportQuotePrefix y TxtLoadOptions.TreatQuotePrefixAsValue.**
 
-Proporcione a los usuarios la capacidad de decidir qué hacer con la comilla simple inicial del valor de la celda al exportar/importar archivos CSV/TSV.
+Proporcione a los usuarios la capacidad de decidir cómo hacerlo con la comilla simple principal del valor de la celda al exportar/importar archivos CSV/TSV.
 
 ### **Agrega los métodos GlobalizationSettings.GetCollationKey(string,bool) y Compare(string,string,bool).**
 

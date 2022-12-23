@@ -10,10 +10,10 @@ url: /fr/net/aspose-cells-for-net-19-11-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-44956|Prise en charge pour masquer les plages sélectionnées et trier les résultats affichés du tableau croisé dynamique|Nouvelle fonctionnalité|
-|CELLSNET-46852|Prend en charge la lecture et l'écriture de table dont la source de données est une table de requête dans le fichier XLS.|Nouvelle fonctionnalité|
+|CELLSNET-46852|Prend en charge la table de lecture et d'écriture dont la source de données est une table de requête dans le fichier XLS.|Nouvelle fonctionnalité|
 |CELLSNET-46967|Prise en charge pour obtenir la taille de l'indentation en unités de pixels|Nouvelle fonctionnalité|
 |CELLSNET-46973|La formule Excel ne fonctionne pas dans le fichier XLS généré|Renforcement|
 |CELLSNET-46981|Prise en charge de la lecture/écriture avec le flux de mémoire pour Workbook.ImportXml et Workbook.ExportXml|Renforcement|
@@ -21,7 +21,7 @@ url: /fr/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46898|L'arrière-plan du modèle 3D devient bleu|Punaise|
 |CELLSNET-46314|Problèmes lors de l'actualisation du tableau croisé dynamique avec "Afficher la valeur en % du total général"|Punaise|
 |CELLSNET-46789|La méthode CalculateData ne fonctionne pas correctement avec le format PDF|Punaise|
-|CELLSNET-46955|Le fichier HTML vers Excel génère une exception "L'élément a déjà été ajouté"|Punaise|
+|CELLSNET-46955|HTML au fichier Excel génère une exception "L'élément a déjà été ajouté"|Punaise|
 |CELLSNET-46987|Impossible de calculer la formule lors du référencement de cellules|Punaise|
 |CELLSNET-46968|La formule indirecte ne fonctionne pas correctement dans MS Excel|Punaise|
 |CELLSNET-46991|Le fichier XLSX est corrompu.|Punaise|
@@ -46,7 +46,7 @@ Importe un flux de fichiers XML dans le classeur.
 #### **Ajoute la méthode Workbook.ExportXml(string mapName, Stream stream).**
 Exportez des données XML vers un flux.
 #### **Ajoute la propriété HtmlSaveOptions.ExportArea**
-Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au format HTML.
+Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au HTML.
 #### **Ajoute les classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem et PowerQueryFormulaItemCollection**
 Obtient des informations dans le DataMashup.
 #### **Ajoute la propriété DBConnection.SeverCommand.**

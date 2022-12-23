@@ -18,7 +18,7 @@ url: /de/net/sitefinity-export-users-to-excel/
 - [Verwendung und Video-Demo](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
   - [Verwenden](#SitefinityExportUserstoExcel-Using)
   - [Video-Demo](#SitefinityExportUserstoExcel-VideoDemo)
-- [Die Unterstützung](#SitefinityExportUserstoExcel-Support)
+- [Unterstützung](#SitefinityExportUserstoExcel-Support)
 - [Erweitern und beitragen](#SitefinityExportUserstoExcel-ExtendandContribute)
 ## **Einführung**
 Aspose .NET Benutzer nach Excel für SiteFinity exportieren Mit dem Modul können Entwickler SiteFinity-Benutzer nach Microsoft Excel oder OpenOffice Spreadsheet exportieren. Dieses Modul demonstriert die leistungsstarke Funktion zum Erstellen von Tabellenkalkulationen, die von Aspose.Cells bereitgestellt wird.
@@ -77,7 +77,7 @@ Die Seite Grundeinstellungen wird angezeigt.
  1. Stellen Sie sicher**Ermöglicht** ist ausgewählt.
  1. Fügen Sie ~/Addons/Aspose.SiteFinity.ExportUsersToExcel/AsposeExportUsersToExcel.ascx hinzu
 
- 1. ` ` im**Steuern Sie den CLR-Typ oder den virtuellen Pfad** aufstellen.
+ 1. ` ` im**Steuern Sie den CLR-Typ oder den virtuellen Pfad** Gebiet.
  1. Hinzufügen**Name**, **Titel** und**Beschreibung** folgendermaßen:
  Aspose.SiteFinity.ExportUsersToExcel
  Aspose SiteFinity-Benutzer nach Excel exportieren
@@ -96,8 +96,8 @@ Nachdem Sie das Aspose Sitefinity Export Users to Excel Add-on installiert und k
 
 Sie haben Aspose Sitefinity Export Users erfolgreich zu Excel hinzugefügt.
 ### **Video-Demo**
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=O1524u-Pom4) unten, um das Modul in Aktion zu sehen.
-## **Die Unterstützung**
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=O1524u-Pom4) unten, um das Modul in Aktion zu sehen.
+## **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.

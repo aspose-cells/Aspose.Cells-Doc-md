@@ -11,7 +11,7 @@ url: /zh/net/reading-cell-values-in-multiple-threads-simultaneously/
 
 {{% /alert %}}
 
-要同时读取多个线程中的单元格值，请设置[**工作表.Cells.多线程读取**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)至**真的**.如果不这样做，您可能会得到错误的单元格值。
+要同时读取多个线程中的单元格值，请设置[**工作表.Cells.多线程读取**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading)到**真的**.如果不这样做，您可能会得到错误的单元格值。
 
 以下代码：
 

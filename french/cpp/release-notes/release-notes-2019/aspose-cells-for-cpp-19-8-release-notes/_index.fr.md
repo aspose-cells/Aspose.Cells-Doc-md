@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 19.8.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-213|Correction d'un problème de lecture hors limites|Punaise|
 ### **Public API et modifications incompatibles avec les versions antérieures**

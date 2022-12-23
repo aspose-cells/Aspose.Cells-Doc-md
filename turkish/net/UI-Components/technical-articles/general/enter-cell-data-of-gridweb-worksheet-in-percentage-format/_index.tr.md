@@ -15,7 +15,7 @@ Hücre stilini Yüzde Biçimi olarak ayarlamadıysanız, %3 giriş verisi 0,03 o
 ## **GridWeb Çalışma Sayfasının Cell Verisini Yüzde Biçiminde Girin**
 Aşağıdaki örnek kod, A1 GridTableItemStyle.NumberType hücresini 10 olarak ayarlar, bu nedenle %3 giriş verisi, ekran görüntüsünde gösterildiği gibi otomatik olarak %3,00 olarak biçimlendirilir.
 
-![yapılacaklar:resim_alternatif_Metin](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
+![yapılacaklar:resim_alternatif_metin](enter-cell-data-of-gridweb-worksheet-in-percentage-format_1.png)
 ### **Basit kod**
 
 

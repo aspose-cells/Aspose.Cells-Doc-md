@@ -11,24 +11,24 @@ url: /es/java/aspose-cells-for-java-8-8-3-release-notes/
 |CELLSJAVA-41866|Cómo configurar las propiedades de entrada de leyenda para las opciones de texto|Nueva caracteristica|
 |CELLSJAVA-41865|Cree un cuadro de texto en el que cada línea tenga una alineación horizontal diferente|Nueva caracteristica|
 |CELLSJAVA-41873|La conversión a HTML genera filas vacías redundantes|Insecto|
-|CELLSJAVA-41869|La alineación del texto se cambia después de volver a guardar un archivo XLS de plantilla|Insecto|
+|CELLSJAVA-41869|La alineación del texto se cambia después de volver a guardar un archivo de plantilla XLS|Insecto|
 |CELLSJAVA-41854|Archivo de Excel con DataBars no convertido a HTML correctamente|Insecto|
 |CELLSJAVA-41851|El gráfico dinámico creado con Aspose.Cells no se muestra en Excel 2016 para MAC|Insecto|
-|CELLSJAVA-41840|Aspose.Cells agrega nulo al final de la ruta para recursos HTML|Insecto|
+|CELLSJAVA-41840|Aspose.Cells agrega nulo al final de la ruta de recursos HTML|Insecto|
 |CELLSJAVA-41878|Las API de LightCells solo generan eventos para la primera columna de la fila|Insecto|
 |CELLSJAVA-41859|Cell aparecen bordes después de volver a guardar XLS|Insecto|
 |CELLSJAVA-41888|La imagen del logotipo se pierde al convertir XLS a PDF|Insecto|
 |CELLSJAVA-41874|La posición del carácter es diferente en el PDF renderizado de un archivo XLS|Insecto|
 |CELLSJAVA-41852|El texto se superpone cuando las hojas de trabajo se convierten a EMF en Linux|Insecto|
-|CELLSJAVA-41823|La densidad del texto y los saltos de línea son diferentes en comparación con el PDF generado por Excel|Insecto|
+|CELLSJAVA-41823|La densidad del texto y los saltos de línea son diferentes en comparación con los generados por Excel PDF|Insecto|
 |CELLSJAVA-41822|El texto se recorta y se superpone al representar la hoja de cálculo en PDF|Insecto|
-|CELLSJAVA-41856|Problemas al renderizar el gráfico a PDF|Insecto|
+|CELLSJAVA-41856|Problemas al renderizar gráfico al PDF|Insecto|
 |CELLSJAVA-41855|Abrir y guardar el archivo de Excel cambia las líneas de tendencia|Insecto|
 |CELLSJAVA-41890|Libro de trabajo guardado dos veces, el contenido guardado la segunda vez será diferente de la primera vez|Insecto|
 |CELLSJAVA-41884|Problema con PageBreaks que no se ordenan antes de guardar en un archivo de Excel|Insecto|
 |CELLSJAVA-41876|Archivo corrupto si se abre, se guarda, se vuelve a abrir y se guarda con las API Aspose.Cells|Insecto|
 |CELLSJAVA-41867|Los valores del eje del gráfico cambiaron después de volver a guardar un archivo XLS|Insecto|
-|CELLSJAVA-41861|NullReferenceException al cargar un archivo Excel XLS|Insecto|
+|CELLSJAVA-41861|NullReferenceException al cargar un archivo de Excel XLS|Insecto|
 |CELLSJAVA-41298|No obtener información precisa sobre el formato de forma de WordArt de las API Aspose.Cells|Insecto|
 |CELLSJAVA-40366|Icono incrustado: no se imprime|Insecto|
 |CELLSJAVA-41883|CellsException: tipo de función de complemento desconocido: 9, en Workbook.calculateFormula|Excepción|

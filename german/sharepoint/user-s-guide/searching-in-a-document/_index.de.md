@@ -6,7 +6,7 @@ url: /de/sharepoint/searching-in-a-document/
 ---
 So durchsuchen Sie alle Dateien in einem Ordner:
 
-1.  Auswählen**Suche im Dokument mit Aspose.Cells** in der ECB des gewünschten Ordners, während er im übergeordneten Ordner bleibt.
+1.  Wählen**Suche im Dokument mit Aspose.Cells** in der ECB des gewünschten Ordners, während er im übergeordneten Ordner bleibt.
 
 Mehrere Dateien gleichzeitig durchsuchen:
 
@@ -19,5 +19,5 @@ Mehrere Dateien gleichzeitig durchsuchen:
 
 Folgende Optionen stehen zur Verfügung:
 
-- **Optionen finden**Konzentrieren Sie Ihre Suche, indem Sie in Zellen, nach Formeln oder Formeln suchen, die einen bestimmten Ausdruck enthalten.
+- **Optionen finden**: Konzentrieren Sie Ihre Suche, indem Sie in Zellen, nach Formeln oder Formeln suchen, die einen bestimmten Ausdruck enthalten.
 - **Groß-/Kleinschreibung beachten**: Wenn die Option „Groß-/Kleinschreibung beachten“ ausgewählt ist, stimmt die Suche exakt mit Zeichen überein, einschließlich Klein- und Großbuchstaben.

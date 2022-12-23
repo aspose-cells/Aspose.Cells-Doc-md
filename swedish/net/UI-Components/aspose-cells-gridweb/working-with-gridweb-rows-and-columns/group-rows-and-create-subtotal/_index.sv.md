@@ -130,7 +130,7 @@ Kontrollens delsummafunktion kan gruppera raderna i arket med en specificerad ko
 |1|columnNameRowIndex|Radindexet för kolumnnamnsraden.|
 |2|datarader|Antalet datarader.|
 |3|groupByColumnIndex|Kolumnindexet för den kolumn som ska grupperas.|
-|4|subtotalFunktion|Uppräkningen av subtotalfunktionstyp.|
+|4|subtotalFunktion|Uppräkning av subtotalfunktionstyp.|
 |5|subtotalColumnIndexList|Kolumnindexen som ska subtotaleras.|
 ### **Sammanfattningsfunktionslista**
 Det finns flera typer av sammanfattningsfunktioner som stöds av {[SubtotalFunction}}-uppräkningen:

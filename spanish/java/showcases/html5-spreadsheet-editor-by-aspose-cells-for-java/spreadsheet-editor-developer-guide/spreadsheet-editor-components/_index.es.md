@@ -24,7 +24,7 @@ Tiene dos áreas principales de interés.
 
 El área de la barra de herramientas con pestañas en la parte superior se llama cinta, técnicamente. Contiene botones, menús desplegables, menús de radio, cuadros de texto y algunos campos ocultos que se utilizan para realizar muchas operaciones en la hoja de cálculo. Cuando se hace clic en estos botones, se envían comandos al servidor y se actualiza la hoja en consecuencia.
 
-**Sábana**
+**Hoja**
 
 La hoja son las filas y las columnas. Cuando se hace clic en las celdas, la cinta se actualiza en consecuencia sin enviar solicitudes al servidor, ya que todos los datos que necesita la cinta se adjuntan a cada celda. La cinta también realiza un seguimiento de la celda, la fila y la columna seleccionadas cuando el usuario navega por la hoja.
 
@@ -36,7 +36,7 @@ El WorkbookService es un bean back-end JSF con ámbito de vista. Funciona como u
 
 **en eso**
 
- los**en eso** es**PostConstrucción** método que se ejecuta justo después de que el servidor de aplicaciones Java complete la creación del objeto. comprueba si**URL**parámetro en el mapa de parámetros de solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
+ Él**en eso** es**PostConstrucción** método que se ejecuta justo después de que el servidor de aplicaciones Java complete la creación del objeto. comprueba si**URL** parámetro en el mapa de parámetros de solicitud y carga la hoja de cálculo correspondiente desde la ubicación dada, si es posible.
 
 **destruir**
 
@@ -44,4 +44,4 @@ Es responsable de limpiar todos los recursos adquiridos cuando ya no son necesar
 ### **Servicio de cargador**
 Crea instancias de hojas de cálculo y las guarda en la memoria todo el tiempo que se necesitan.
 ### **servicio de celdas**
- los**servicio de celdas** administra el caché de filas, columnas, celdas, formato y estructura de las hojas de cálculo.
+ Él**servicio de celdas** administra el caché de filas, columnas, celdas, formato y estructura de las hojas de cálculo.

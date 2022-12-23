@@ -5,7 +5,7 @@ weight: 20
 url: /ar/net/find-value-in-cells/
 ---
 ## **Aspose.Cells - أوجد القيمة في Cells**
-في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال ، النقر فوق**يحرر**وثم**تجد**يفتح مربع حوار البحث. يقوم المستخدمون بإدخال قيمة والنقرات**نعم**للبحث عنه. يبرز Excel الحقول المتطابقة.
+في Microsoft Excel ، يمكن للمستخدمين البحث عن الخلايا التي تحتوي على بيانات محددة. على سبيل المثال ، النقر فوق**تعديل**وثم**يجد**يفتح مربع حوار البحث. يقوم المستخدمون بإدخال قيمة والنقرات**نعم**للبحث عنه. يبرز Excel الحقول المتطابقة.
 
 **C#**
 
@@ -38,7 +38,7 @@ Cell cell = cells.Find("SH", null, findOptions);
 Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**أوجد القيمة في Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)

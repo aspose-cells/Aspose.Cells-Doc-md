@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- Le paramètre de délimiteur de champ dans**rsreportserver.config** est prioritaire sur le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** Lorsque le paramètre de délimiteur de champ dans**rsreportserver.config** est nul ou la valeur par défaut, le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** est utilisé.
+ Le paramètre de délimiteur de champ dans**rsreportserver.config** est prioritaire sur le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** . Lorsque le paramètre de délimiteur de champ dans**rsreportserver.config** est nul ou la valeur par défaut, le paramètre de délimiteur de champ dans**Aspose.Cells.ReportingServices.xml** est utilisé.

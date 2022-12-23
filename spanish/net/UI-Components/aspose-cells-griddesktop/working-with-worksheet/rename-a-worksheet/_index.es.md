@@ -24,6 +24,6 @@ Para cambiar el nombre de una hoja de trabajo usando el control Aspose.Cells.Gri
 
 {{% alert color="primary" %}} 
 
- Antes de cambiar el nombre de la hoja de trabajo, se requiere acceder a la referencia de esa hoja de trabajo. Hay muchas formas de acceder a la referencia de una hoja de cálculo. Para obtener más información sobre esas formas, consulte[Acceso a hojas de trabajo](/cells/es/net/accessing-worksheet/).
+ Antes de cambiar el nombre de la hoja de trabajo, se requiere acceder a la referencia de esa hoja de trabajo. Hay muchas formas de acceder a la referencia de una hoja de cálculo. Para obtener más información sobre esas formas, consulte[Acceder a las hojas de trabajo](/cells/es/net/accessing-worksheet/).
 
 {{% /alert %}}

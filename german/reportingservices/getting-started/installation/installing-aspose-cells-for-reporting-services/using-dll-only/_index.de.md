@@ -6,7 +6,7 @@ url: /de/reportingservices/using-dll-only/
 ---
 ## So installieren Sie Aspose.Cells for Reporting Services nur mit der DLL:
 
-- Besuchen Sie die Aspose.Cells for Reporting Services[Download-Seite](https://downloads.aspose.com/cells/reportingservices) und lade die herunter**Aspose.Cells for Reporting Services (zip)** Archiv, das die neueste Version der Komponente und die installierte Dokumentation enthält.
+-  Besuchen Sie die Aspose.Cells for Reporting Services[Download-Seite](https://downloads.aspose.com/cells/reportingservices) und lade die herunter**Aspose.Cells for Reporting Services (zip)** Archiv, das die neueste Version der Komponente und die installierte Dokumentation enthält.
  - Es gibt 7 Arten von Versionen Aspose.Cells.ReprotingServices.dll in Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. Sie unterstützen verschiedene Microsoft-Berichtsserverprodukte.
  - Aspose.Cells.ReportingServices.dll im SSRS2005-Ordner unterstützt Microsoft SQL Server 2005 Reporting Services.
  - Aspose.Cells.ReportingServices.dll im SSRS2008-Ordner unterstützt Microsoft SQL Server 2008 Reporting Services.
@@ -16,7 +16,7 @@ url: /de/reportingservices/using-dll-only/
 - Entpacken Sie das Archiv in ein Verzeichnis auf Ihrer Festplatte.
 
 - Aspose.Cells for Reporting Services Report Designer installieren:
- - Registrieren**Aspose.Cells.ReportingServices.Client.dll**mit dem Dienstprogramm Regasm.exe.
+ - Registrieren**Aspose.Cells.ReportingServices.Client.dll** mit dem Dienstprogramm Regasm.exe.
  - Add-In Aspose.Cells for Reporting Services in Excel hinzufügen.
    
 - Installieren Sie Aspose.Cells for Reporting Services für Microsoft SQL Server Reporting Services die Dienstkomponente:

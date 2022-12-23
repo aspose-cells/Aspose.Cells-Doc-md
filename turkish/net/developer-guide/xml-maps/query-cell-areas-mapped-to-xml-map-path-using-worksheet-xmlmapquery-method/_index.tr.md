@@ -12,7 +12,7 @@ Aspose.Cells ile XML eşleme yoluna eşlenen hücre alanlarını sorgulayabilirs
 
  Aşağıdaki ekran görüntüsü, içinde XML Eşlemesini görüntüleyen Microsoft Excel'i göstermektedir.[örnek excel dosyası](55541790.xlsx) kodunda kullanılır. Kod, XML haritasını iki kez sorgular ve XML tarafından döndürülen hücre alanlarının listesini yazdırır.[**Worksheet.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery)yöntem aşağıda gösterildiği gibi konsolda.
 
-![yapılacaklar:resim_alternatif_Metin](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
+![yapılacaklar:resim_alternatif_metin](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
 ### **Basit kod**
 

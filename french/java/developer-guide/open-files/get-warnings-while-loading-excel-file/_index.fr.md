@@ -6,7 +6,7 @@ url: /fr/java/get-warnings-while-loading-excel-file/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Parfois, l'utilisateur essaie de charger le classeur qui est quelque peu corrompu mais chargeable. Dans ce cas, Aspose.Cells lance des avertissements lors du chargement du classeur. Vous pouvez intercepter ces avertissements en implémentant le**[IWarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** interface et réglage**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**propriété.
+Parfois, l'utilisateur essaie de charger le classeur qui est quelque peu corrompu mais chargeable. Dans ce cas, Aspose.Cells lance des avertissements lors du chargement du classeur. Vous pouvez intercepter ces avertissements en implémentant le**[IWarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IWarningCallback)** interface et réglage**[LoadOptions.WarningCallback](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#WarningCallback)**la propriété.
 
 ## **Obtenir des avertissements lors du chargement du fichier Excel**
 

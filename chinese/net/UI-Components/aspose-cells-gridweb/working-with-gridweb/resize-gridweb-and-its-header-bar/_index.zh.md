@@ -22,7 +22,7 @@ url: /zh/net/resize-gridweb-and-its-header-bar/
 
 **更改了 GridWeb 控件的宽度和高度** 
 
-![待办事项：图像_替代_文本](resize-gridweb-and-its-header-bar_1.png)
+![待办事项：图片_替代_文本](resize-gridweb-and-its-header-bar_1.png)
 
 
 
@@ -37,13 +37,13 @@ Aspose.Cells.GridWeb 控件包含两个标题栏，如下所示：
 
 **标题栏** 
 
-![待办事项：图像_替代_文本](resize-gridweb-and-its-header-bar_2.png)
+![待办事项：图片_替代_文本](resize-gridweb-and-its-header-bar_2.png)
 
 分别使用 GridWeb 控件的 HeaderBarHeight 和 HeaderBarWidth 属性更改顶部标题栏的高度和左侧标题栏的宽度。下图显示了后面的代码示例的输出。
 
 **更改了标题栏的宽度和高度** 
 
-![待办事项：图像_替代_文本](resize-gridweb-and-its-header-bar_3.png)
+![待办事项：图片_替代_文本](resize-gridweb-and-its-header-bar_3.png)
 
 
 

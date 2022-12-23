@@ -1,13 +1,13 @@
 ﻿---
-title: Ge exporterad kalkylblads-HTML-filsökväg via IFilePathProvider-gränssnittet
+title: Ange exporterat kalkylblad HTML filsökväg via IFilePathProvider-gränssnittet
 type: docs
 weight: 870
 url: /sv/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Möjliga användningsscenarier**
- Anta att du har en excel-fil med flera ark och du vill exportera varje ark till en individuell HTML-fil. Om något av dina ark har länkar till andra ark kommer dessa länkar att brytas i den exporterade HTML-koden. För att hantera detta problem tillhandahåller Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)gränssnitt som du kan implementera för att fixa de trasiga länkarna.
-## **Ge exporterad kalkylblads-HTML-filsökväg via IFilePathProvider-gränssnittet**
- Vänligen ladda ner[exempel på excel-fil](5473417.zip) används i följande kod och dess exporterade HTML-filer. Alla dessa filer finns inuti*Temp* katalog. Du borde extrahera den*C:* kör. Då blir det*C:\Temp*katalog. Då öppnar du*Blad1.html* filen i webbläsaren och klicka på de två länkarna i den. Dessa länkar hänvisar till dessa två exporterade HTML-kalkylblad som finns inuti*C:\Temp\OtherSheets*katalog.
+ Anta att du har en excel-fil med flera ark och du vill exportera varje ark till en individuell HTML-fil. Om något av dina ark har länkar till andra ark, kommer dessa länkar att brytas i den exporterade HTML. För att hantera detta problem tillhandahåller Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)gränssnitt som du kan implementera för att fixa de trasiga länkarna.
+## **Ange exporterat kalkylblad HTML filsökväg via IFilePathProvider-gränssnittet**
+ Vänligen ladda ner[exempel på excel-fil](5473417.zip) används i följande kod och dess exporterade HTML-filer. Alla dessa filer finns inuti*Temp* katalog. Du borde extrahera den*C:* kör. Då blir det*C:\Temp* katalog. Då öppnar du*Blad1.html* filen i webbläsaren och klicka på de två länkarna i den. Dessa länkar hänvisar till dessa två exporterade HTML kalkylblad som finns inuti*C:\Temp\OtherSheets*katalog.
 
 {{< highlight "java" >}}
 
@@ -21,7 +21,7 @@ Följande skärmdump visar hur*C:\Temp\Sheet1.html*och dess länkar ser ut
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- Följande skärmdump visar HTML-källan. Som du kan se att länkarna nu syftar på*C:\Temp\OtherSheets* katalog. Detta uppnåddes med hjälp av[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)gränssnitt.
+ Följande skärmdump visar källan HTML. Som du kan se att länkarna nu syftar på*C:\Temp\OtherSheets* katalog. Detta uppnåddes med hjälp av[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)gränssnitt.
 
 ![todo:image_alt_text](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Exempelkod**

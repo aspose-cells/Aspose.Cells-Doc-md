@@ -10,7 +10,7 @@ HTML5 Spreadsheet Editor può essere incorporato in qualsiasi sito Web, blog e f
 
 **Incorpora come editor autonomo**
 
-Per incorporare come editor autonomo, utilizza il tag HTML IFRAME da aggiungere al sito web. Per esempio:
+Per incorporare come editor autonomo, utilizzare il tag IFRAME HTML da aggiungere al sito web. Per esempio:
 
 {{< highlight "html" >}}
 

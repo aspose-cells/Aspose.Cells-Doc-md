@@ -105,7 +105,7 @@ Om du behöver dela skärmen för att få två olika vyer i samma kalkylblad, de
 Rutorna fungerar samtidigt. Om du gör en ändring i den ena, visas ändringen samtidigt i den andra. Aspose.Cells tillhandahåller funktionen för delade rutor för användarna.
 ### **Applicera och ta bort delade rutor**
 #### **Dela rutor**
-Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att implementera delade vyer, använd[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[dela](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) metod. För att ta bort delade rutor, använd[ta bort Split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
+Aspose.Cells tillhandahåller en[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass som representerar en Microsoft Excel-fil. De[Arbetsbok](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class tillhandahåller ett brett utbud av egenskaper och metoder för att hantera Excel-filer. För att implementera delade vyer, använd[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[dela](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#split\(\) ) metod. För att ta bort delade rutor, använd[ta bortSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
 
 exemplet använder vi en enkel mallfil som laddas, sedan tillämpas funktionen för delade paneler på en cell i det första kalkylbladet. Den uppdaterade filen sparas.
 
@@ -121,7 +121,7 @@ Efter att ha kört ovanstående kod har den genererade filen en delad vy.
 
 ![todo:image_alt_text](worksheet-views_9.png)
 #### **Ta bort rutor**
- Utvecklare kan ta bort delade rutor med hjälp av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[ta bort Split](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
+ Utvecklare kan ta bort delade rutor med hjälp av[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[ta bortSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) metod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-RemovePanes-RemovePanes.java" >}}
 

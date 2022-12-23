@@ -28,21 +28,21 @@ L'enumerazione contiene i seguenti tipi di salvataggio predefiniti:
 |Attaccamento|Invia il foglio di calcolo al browser e si apre in un'applicazione come allegato associato a .xls/.xlsx o altre estensioni|
 |In linea|Invia il documento al browser e presenta un'opzione per salvare il foglio di calcolo su disco o aprirlo all'interno del browser|
 
-### **File XLS**
+### **XLS Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **File XLSX**
+### **XLSX Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **File PDF**
+### **PDF Fascicoli**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 
 ### **Nota**
 
-causa dell'oggetto "System.Web.HttpResponse" non contenuto in .NET5 e .Netstandard,
+A causa dell'oggetto "System.Web.HttpResponse" non contenuto in .NET5 e .Netstandard,
 Quindi questa funzione non esiste nella versione Aspose.Cells .NET5 e .Netstandard, puoi fare riferimento al seguente codice per salvare il file nello stream, quindi eseguire l'operazione sullo stream.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}

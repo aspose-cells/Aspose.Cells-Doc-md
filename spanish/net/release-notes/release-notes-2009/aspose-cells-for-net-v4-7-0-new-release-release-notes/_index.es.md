@@ -40,38 +40,38 @@ Problemas resueltos en Aspose.Cells 4.7.0
 |7447 | pdf| Errores al guardar el libro de trabajo en PDF|
 |6944 | Tabla dinámica| AutoSortField no tiene efecto.|
 |6900 | SpreadML| Se produce una excepción al exportar a SpreadML|
-|6865 | XLS|Convierte el valor de la cadena de tiempo a DateTime|
-|6867 | XLS|El marcador inteligente es el mismo que [tabla].[columna]|
-|7007 | XLS| Fórmulas con rangos con nombre|
-|7016 | XLS| La exclamación en el nombre de la hoja de trabajo provoca un error en las fórmulas|
-|7063 | XLS| Error al guardar el libro de trabajo|
-|7084 | XLS| Insertar un problema de fórmula|
-|7121 | XLS| AutoFitRow no crea filas lo suficientemente grandes con ajuste de texto activado|
-|7201 | XLS| Formato condicional|
-|7335 | XLS| AutoFitColumns no funciona|
-|7336 | XLS| Mover una forma|
-|7337 | XLS| Excepción ArgumentOutOfRange al extraer imágenes|
-|7338 | XLS| El problema de la última celda.|
-|7346 | XLS| System.NullReferenceException con SheetToImage|
-|7366 | XLS| Un error al usar el método Cells.InsertRange en algunos casos|
-|7367 | XLS| Enlaces externos en fórmulas|
-|7443 | XLS| Admite rango con nombre global|
-|7446 | XLS| Hacer frente al nombre de la forma|
-|7448 | XLS| Un problema con los formatos condicionales|
-|7505 | XLS| Excepción de fórmula no válida|
-|7506 | XLS| Mejore el rendimiento del método Cells.DeleteBlankRows|
-|7507 | XLS| Error al abrir algunos archivos XLS especiales|
-|7549 | XLS| Una mejora en el método Cells.InsertColumns|
-|7555 | XLS| Error al llamar al libro de trabajo. Guardar|
-|7613 | XLS|Hoja de cálculo dañada después de copiar|
-|6909 | XLS| Mejorar el rendimiento de la eliminación de filas|
-|7202 | XLS| Error de formato de salida de texto enriquecido|
-|7450 | XLS| Problema con Workbook.Open()|
-|7468 | XLS| Diferentes columnas como DataTable|
-|7650 | XLS| Mejora Cells. Importar método TwoDimensionalObjects|
-|6856 | XLSX| OleObject no se pudo abrir error después de convertir XLSX a XLS|
-|6983 | XLSX| Error de desaparición de la firma digital|
-|7175 | XLSX| Workbook.Open lanza una excepción|
-|7185 | XLSX| InCellDropDown no funciona|
-|7564 | XLSX| Rango con nombre como origen de datos de la tabla dinámica|
-|7617 | XLSX| Una tabla dinámica perdida en un archivo de Excel 2007|
+|6865 |XLS |Convierte el valor de la cadena de tiempo a DateTime|
+|6867 |XLS |El marcador inteligente es el mismo que [tabla].[columna]|
+|7007 |XLS | Fórmulas con rangos con nombre|
+|7016 |XLS | La exclamación en el nombre de la hoja de trabajo provoca un error en las fórmulas|
+|7063 |XLS | Error al guardar el libro de trabajo|
+|7084 |XLS | Insertar un problema de fórmula|
+|7121 |XLS | AutoFitRow no crea filas lo suficientemente grandes con ajuste de texto activado|
+|7201 |XLS | Formato condicional|
+|7335 |XLS | AutoFitColumns no funciona|
+|7336 |XLS | Mover una forma|
+|7337 |XLS | Excepción ArgumentOutOfRange al extraer imágenes|
+|7338 |XLS | El problema de la última celda.|
+|7346 |XLS | System.NullReferenceException con SheetToImage|
+|7366 |XLS | Un error al usar el método Cells.InsertRange en algunos casos|
+|7367 |XLS | Enlaces externos en fórmulas|
+|7443 |XLS | Admite rango con nombre global|
+|7446 |XLS | Hacer frente al nombre de la forma|
+|7448 |XLS | Un problema con los formatos condicionales|
+|7505 |XLS | Excepción de fórmula no válida|
+|7506 |XLS | Mejore el rendimiento del método Cells.DeleteBlankRows|
+|7507 |XLS | Error al abrir algunos archivos especiales XLS|
+|7549 |XLS | Una mejora en el método Cells.InsertColumns|
+|7555 |XLS | Error al llamar al libro de trabajo. Guardar|
+|7613 |XLS |Hoja de cálculo dañada después de copiar|
+|6909 |XLS | Mejorar el rendimiento de la eliminación de filas|
+|7202 |XLS | Error de formato de salida de texto enriquecido|
+|7450 |XLS | Problema con Workbook.Open()|
+|7468 |XLS | Diferentes columnas como DataTable|
+|7650 |XLS | Mejora Cells. Importar método TwoDimensionalObjects|
+|6856 |XLSX | OleObject no se pudo abrir después de convertir XLSX a XLS|
+|6983 |XLSX | Error de desaparición de la firma digital|
+|7175 |XLSX | Workbook.Open lanza una excepción|
+|7185 |XLSX | InCellDropDown no funciona|
+|7564 |XLSX | Rango con nombre como origen de datos de la tabla dinámica|
+|7617 |XLSX | Una tabla dinámica perdida en un archivo de Excel 2007|

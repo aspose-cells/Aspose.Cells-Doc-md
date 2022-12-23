@@ -42,12 +42,12 @@ url: /sv/net/aspose-cells-for-net-7-1-1-release-notes/
 
  -Knappegenskaper
 
-- Cells med fot och tum är felaktiga när de konverteras till PDF
-- Problem med att rendera strecktecken i PDF-utdata
+- Cells med fötter och tum är felaktiga när de konverteras till PDF
+- Problem med att rendera em dash-tecken i PDF-utdata
 - Sidlayout ändrad i den sammanslagna arbetsboken
-- Spara som XLSX skapar ibland en ogiltig fil
+- Spara som XLSX ger ibland en ogiltig fil
 
- -XLS-fil öppnas i skyddat läge efter att ha använt Aspose.Cells
+ -XLS fil öppnas i skyddat läge efter användning av Aspose.Cells
 
 - Cell.GetDependents() fungerar inte med NamedRange
 - Problem med AutoFitRow och IndentLevel
@@ -58,15 +58,15 @@ url: /sv/net/aspose-cells-for-net-7-1-1-release-notes/
 - Problem med ADDRESS-, COUNTBLANK- och IF-funktionerna
 - VLOOKUP OCH OFFSET FUNKTIONER Problem
 - Ingen MS Excel-formelvalidering
-- Problem med NETWORKDAYS-funktionen i XLS-utgång
+- Problem med NETWORKDAYS-funktionen i XLS-utgången
 - HTML-till-Excel-konverteringsproblem
 
- ` `- Problem med HTMLs radspann och klassattribut
+ ` `- HTML problem med radspann och klassattribut
 
- -Stöder Cells datauri
+-Stöder Cells datauri
 
-- Anpassade formaterade ramar förloras vid konvertering till PDF
-- Rutnät i PDF-export
+- Anpassade formaterade ramar förlorade vid konvertering till PDF
+- Rutnät i PDF Export
 
  -Excel hittade oläsbart innehåll fel
 

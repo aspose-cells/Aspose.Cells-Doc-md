@@ -37,7 +37,7 @@ Microsoft Excel 2007 では、セル コメントの背景として画像を使�
 1. 画像を見つけて選択します。
 1. クリック**わかった**すべてのダイアログが閉じるまで。
 
-Aspose.Cells もこの機能を提供します。以下は、ゼロから XLSX ファイルを作成し、セル「A1」にコメントを追加し、背景として画像を設定するコード サンプルです。
+Aspose.Cells もこの機能を提供します。以下は、ゼロから XLSX ファイルを作成し、セル "A1" にコメントを追加し、背景として画像を設定するコード サンプルです。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddImageToComment-1.cs" >}}
 

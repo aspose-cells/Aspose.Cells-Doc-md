@@ -17,7 +17,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.6.
 |CELLSJAVA-42930|Error de carga de Excel95|Mejora|
 |CELLSJAVA-42927|El archivo guardado se abre lentamente en Excel después de eliminar columnas|Mejora|
 |CELLSJAVA-42932|Error de formato condicional con el método Style.getDisplayStyle|Insecto|
-|CELLSJAVA-42928|Algunas líneas no se reflejan en la conversión de XLSX a PDF|Insecto|
+|CELLSJAVA-42928|Algunas líneas no se reflejan en la conversión XLSX a PDF|Insecto|
 |CELLSJAVA-42904|La imagen del encabezado aparentemente corrompe el archivo|Insecto|
 |CELLSJAVA-42907|Filtro perdido después de guardar el libro de trabajo|Insecto|
 |CELLSJAVA-42915|Los filtros se cambian después de agregar una hoja al libro de trabajo|Insecto|

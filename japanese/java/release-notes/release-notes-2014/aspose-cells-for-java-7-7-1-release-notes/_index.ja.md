@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-7-7-1-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java がバージョン 7.7.1 に更新されました。このリリースで 20 を超える新しい便利な改善が追加されたことをお知らせできることをうれしく思います。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -43,12 +43,12 @@ xlsb のピボット テーブルの読み書きをリファクタリングす�
 バグ
 
 (CELLSJAVA-40700) - 計算後に負の値が正になる
-(CELLSJAVA-40668) - 出力 PDF ファイルでヘッダーの内容が歪んでいる
+(CELLSJAVA-40668) - 出力 PDF ファイルでヘッダーのコンテンツが歪んでいる
 (CELLSJAVA-40695) - XLSX から PDF: 結果に左右の余白がない
 (CELLSJAVA-40698) - ピボットテーブルの問題 (フィルターを他の値またはラベルに変更)
 (CELLSJAVA-40671) - Cell.getDisplayStyle() が上位 10 の条件付き書式設定の正しい色を返さない
 (CELLSJAVA-40655) - シェイプ内のテキストの配置が中央から左に変更される
-(CELLSJAVA-40572) - 出力 PDF にシート自体が存在しない場合でも、空白のシートにブックマークが作成されました
+(CELLSJAVA-40572) - 出力PDFにシート自体が存在しない場合でも、空白のシートにブックマークが作成されました
 (CELLSJAVA-40548) - xlsx を PDF ファイルに保存した後、チャーター ヘッダーが見つからない
 (CELLSJAVA-40564) - Excel ファイルを pdf に変換するとデータが失われる
 (CELLSJAVA-40702) - ピボット テーブルが正しく更新されない

@@ -25,31 +25,31 @@ url: /sv/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45577|GridDesktop ska inte rulla förbi sista raden|Förbättring|
 |CELLSNET-45633|GetRanges prestandaproblem när du använder anpassad funktion med många funktioner som ska beräknas|Prestanda|
 |CELLSNET-45592|Vissa ritelements position är fel i Excel till PDF-rendering|Insekt|
-|CELLSNET-45575|Grå bakgrund på rutan saknas i utdata-PDF|Insekt|
-|CELLSNET-45516|Forma text spridd/spridd i Excel till PDF-rendering|Insekt|
+|CELLSNET-45575|Grå bakgrund på lådan saknas i utgången PDF|Insekt|
+|CELLSNET-45516|Formtext spridd/spridd i Excel till PDF-rendering|Insekt|
 |CELLSNET-45415|Sheet to Image-rendering ignorerar asiatiska teckensnitt i TextBox med cellreferens|Insekt|
 |CELLSNET-45315|Viss text (etiketter) saknas i formen i rendering av ark till bild|Insekt|
 |CELLSNET-45655|Tillhandahåller ett alternativ för att kontrollera om nummerprecisionsformatet behålls|Insekt|
-|CELLSNET-45630|HTML-utdata för "222.xlsx" är inte rätt|Insekt|
-|CELLSNET-45621|Två bildresurser skapas istället för en när du sparar som HTML-filformat|Insekt|
+|CELLSNET-45630|HTML-utgången för "222.xlsx" är inte rätt|Insekt|
+|CELLSNET-45621|Två bildresurser skapas istället för en när du sparar som HTML filformat|Insekt|
 |CELLSNET-45597|"Nummer lagrat som text" för de numeriska kolumnerna|Insekt|
-|CELLSNET-45558|När MHtml-filen sparas med XLS-tillägget visar MS Excel fel när XLS-filen öppnas|Insekt|
+|CELLSNET-45558|När MHtml-filen sparas med tillägget XLS visar MS Excel fel när du öppnar filen XLS|Insekt|
 |CELLSNET-45557|Formatering förlorad efter att filen sparats som XLS|Insekt|
 |CELLSNET-45556|Bilder förlorade efter att filen sparats som XLS|Insekt|
 |CELLSNET-45538|Bilder som går förlorade och formatering tas bort när en MHtml-fil sparas till XLS eller MHT|Insekt|
 |CELLSNET-45584|Oändlig loop när du använder PageSetup.GetCommands()|Insekt|
-|CELLSNET-45637|Tre bindestreck "---" återges som tomt utrymme i den utgående PDF-filen|Insekt|
-|CELLSNET-45612|Problem med flytande linjer (enkla, dubbla understrykningar) i Excel till PDF-konvertering|Insekt|
+|CELLSNET-45637|Tre bindestreck "---" återges som tomt utrymme i utdata PDF|Insekt|
+|CELLSNET-45612|Problem med flytande linjer (enkla, dubbla underlinjer) i Excel till PDF konvertering|Insekt|
 |CELLSNET-45608|När ImageOrPrintOptions.OnlyArea = true, blir data skadad|Insekt|
 |CELLSNET-45605|Delvis saknade tecken vid konvertering till bild|Insekt|
 |CELLSNET-45571|Grå cellkanter som standard omvandlas till prickade linjer|Insekt|
 |CELLSNET-45628|Ordet döps om vid konvertering till bild|Insekt|
 |CELLSNET-45603|Problem med metoden Chart.Calculate().|Insekt|
 |CELLSNET-45602|Problem med trendekvationer i diagrammet|Insekt|
-|CELLSNET-45587|Skalan ökas i utdata-PDF-filen för radardiagrammet|Insekt|
+|CELLSNET-45587|Skalan ökas i utgången PDF för radardiagrammet|Insekt|
 |CELLSNET-45573|Sjökortsbilden har inte tresiffriga nummer|Insekt|
 |CELLSNET-45569|Det går inte att rendera bild från diagram via Aspose.Cells|Insekt|
-|CELLSNET-45563|Felaktig diagram-PDF när linjeplottning jämförs med källexcel|Insekt|
+|CELLSNET-45563|Felaktigt diagram PDF när linjeplottning jämförs med källexcel|Insekt|
 |CELLSNET-45561|Bilden genererad från Sample.xlsm-arbetsbladet SampleCharts är inte korrekt|Insekt|
 |CELLSNET-45441|Sjökortsförklaring återges i fel position när den konverteras till bild|Insekt|
 |CELLSNET-45643|OLE-objekt ändrar storlek efter att ha öppnat och redigerat OLE-objektfil|Insekt|
@@ -110,8 +110,8 @@ Får och ställer in designerlagringen för VBA-projektet.
 #### **Användningsexempel**
 Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 
-- [Lägg till PDF-bokmärken med namngivna destinationer](/cells/sv/net/add-pdf-bookmarks-with-named-destinations/)
-- [Kontrollera laddningen av externa resurser i MS Excel Workbook medan du renderar till PDF](/cells/sv/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Lägg till PDF bokmärken med namngivna destinationer](/cells/sv/net/add-pdf-bookmarks-with-named-destinations/)
+- [Kontrollera laddningen av externa resurser i MS Excel Workbook under rendering till PDF](/cells/sv/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Kopiera VBA Macro UserForm DesignerStorage från mall till målarbetsbok](/cells/sv/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Skapa Ta bort och få GridCell-kommentarer](/cells/sv/net/create-remove-and-get-gridcell-comments/)
 - [Skicka form fram eller bak i arbetsbladet](/cells/sv/net/send-shape-front-or-back-inside-the-worksheet/)

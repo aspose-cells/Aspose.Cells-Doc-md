@@ -16,7 +16,7 @@ Quando una riga (o colonna) viene copiata, vengono copiati anche i dati in essa 
 
 {{% alert color="primary" %}} 
 
- Se clicchi**Incolla** sul**Standard** barra degli strumenti o premere**CTRL**+** V** invece di fare clic su un comando sul file**Nel menu Inserisci**, l'eventuale contenuto delle celle di destinazione viene sostituito.
+ Se clicchi**Impasto** sul**Standard** barra degli strumenti o premere**CTRL**+** V** invece di fare clic su un comando sul file**Nel menu Inserisci**, l'eventuale contenuto delle celle di destinazione viene sostituito.
 
 {{% /alert %}} 
 
@@ -32,7 +32,7 @@ Quando una riga (o colonna) viene copiata, vengono copiati anche i dati in essa 
 
  Utilizzare questo metodo per copiare una riga all'interno di un foglio o in un altro foglio. Il[copyRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyRow\(com.aspose.cells.Cells,%20int,%20int\)) funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, anche quel valore viene copiato.
 
-L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un modello di file Microsoft Excel e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
+L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un file Excel modello Microsoft e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingRows-CopyingRows.java" >}}
 
@@ -46,7 +46,7 @@ Il seguente output viene generato quando viene eseguito il codice seguente.
 
 {{% alert color="primary" %}} 
 
-Quando si copiano le righe, è importante annotare le immagini, i grafici o altri oggetti di disegno correlati poiché questo è lo stesso con Microsoft Excel:
+Quando si copiano le righe, è importante notare le immagini, i grafici o altri oggetti di disegno correlati poiché è lo stesso con Microsoft Excel:
 
 1. Se l'indice della riga di origine è 5, l'immagine, il grafico, ecc. viene copiato se è contenuto nelle tre righe (l'indice della riga iniziale è 4 e l'indice della riga finale è 6).
 1. Le immagini, i grafici e così via esistenti nella riga di destinazione non verranno rimossi.
@@ -77,7 +77,7 @@ Ecco la visualizzazione del foglio di calcolo risultante dopo l'esecuzione dello
 - indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
- Utilizzare il[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) metodo per copiare una colonna all'interno di un foglio o in un altro foglio.
+ Usa il[copyColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#copyColumn\(com.aspose.cells.Cells,%20int,%20int\)) metodo per copiare una colonna all'interno di un foglio o in un altro foglio.
 
 Questo esempio copia una colonna da un foglio di lavoro e la incolla in un foglio di lavoro in un'altra cartella di lavoro.
 

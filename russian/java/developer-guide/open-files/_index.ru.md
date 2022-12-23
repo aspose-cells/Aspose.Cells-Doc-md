@@ -7,7 +7,7 @@ url: /ru/java/opening-files-with-different-formats/
 ---
 {{% alert color="primary" %}}
 
-Разработчики используют Aspose.Cells для открытия файлов для различных целей. Например, откройте файл, чтобы получить из него данные, или используйте предопределенный файл электронной таблицы дизайнера, чтобы ускорить процесс разработки. Aspose.Cells позволяет разработчикам открывать различные типы исходных файлов. Эти исходные файлы могут быть Microsoft отчетами Excel, файлами SpreadsheetML, значениями, разделенными запятыми (CSV), файлами с разделителями табуляции или значениями, разделенными табуляцией (TSV). В этой статье обсуждается открытие этих различных исходных файлов с помощью Aspose.Cells.
+Разработчики используют Aspose.Cells для открытия файлов для различных целей. Например, откройте файл, чтобы получить из него данные, или используйте предопределенный файл электронной таблицы дизайнера, чтобы ускорить процесс разработки. Aspose.Cells позволяет разработчикам открывать различные типы исходных файлов. Эти исходные файлы могут быть файлами отчетов Excel Microsoft, SpreadsheetML, значениями, разделенными запятыми (CSV), файлами с разделителями табуляции или значениями, разделенными табуляцией (TSV). В этой статье обсуждается открытие этих различных исходных файлов с помощью Aspose.Cells.
 
 Если вам нужно знать все поддерживаемые форматы файлов, обратитесь к следующим страницам:
 [Поддерживаемые форматы файлов](https://docs.aspose.com/cells/java/supported-file-formats/)
@@ -26,7 +26,7 @@ url: /ru/java/opening-files-with-different-formats/
 
 ### **Открытие через поток**
 
-Иногда файл Excel, который вы хотите открыть, хранится в виде потока. В этом случае, аналогично открытию файла с использованием пути к файлу, передайте поток в качестве параметра при создании экземпляра**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**учебный класс. В следующем примере кода показано открытие файла Excel с помощью потока.
+Иногда файл Excel, который вы хотите открыть, хранится в виде потока. В этом случае, аналогично открытию файла с использованием пути к файлу, передайте поток в качестве параметра при создании экземпляра**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** учебный класс. В следующем примере кода показано открытие файла Excel с помощью потока.
 
 #### **Пример**
 
@@ -45,9 +45,9 @@ url: /ru/java/opening-files-with-different-formats/
 |XLSX|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.|
 |XLSM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM.|
 |XLTX|Представляет файл шаблона Excel 2007/2010/2013/2016/2019 и Office 365 XLTX.|
-|XLTM|Представляет XLTM-файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов.|
-|XLSB|Представляет двоичный XLSB-файл Excel 2007/2010/2013/2016/2019 и Office 365.|
-|Электронная таблицаML|Представляет файл SpreadsheetML|
+|XLTM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов XLTM.|
+|XLSB|Представляет двоичный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB.|
+|SpreadsheetML|Представляет файл SpreadsheetML|
 |Цв|Представляет файл значений, разделенных табуляцией.|
 |TabDelimited|Представляет текстовый файл с разделителями табуляции|
 |шансы|Представляет файл ODS|
@@ -64,17 +64,17 @@ url: /ru/java/opening-files-with-different-formats/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Открытие Microsoft Excel 97 или более поздних версий файлов XLS**
+### **Открытие Microsoft Excel 97 или более поздних версий XLS Файлы**
 
- Чтобы открыть файлы XLS Microsoft Excel XLS 97 или более поздних версий, создайте экземпляр**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** instance с путем или потоком файла шаблона. Или используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** способ и выберите**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** значение в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+ Чтобы открыть файлы XLS Microsoft Excel XLS 97 или более поздних версий, создайте экземпляр**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance с путем или потоком файла шаблона. Или используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** способ и выберите**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** значение в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
 
 #### **Пример**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Открытие Microsoft Excel 2007 или более поздних версий файлов XLSX**
+### **Открытие Microsoft Excel 2007 или более поздних версий XLSX Файлы**
 
- Чтобы открыть файлы XLSX Microsoft Excel 2007 или более поздних версий, создайте экземпляр**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance с путем или потоком файла шаблона. Или используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** значение в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+ Чтобы открыть XLSX файлов Microsoft Excel 2007 или более поздних версий, создайте экземпляр**[Рабочая тетрадь] (https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**instance с путем или потоком файла шаблона. Или используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[XLSX] (https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** значение в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
 
 #### **Пример**
 
@@ -82,9 +82,9 @@ url: /ru/java/opening-files-with-different-formats/
 
 ### **Открытие файлов разных форматов**
 
-Aspose.Cells позволяет разработчикам открывать файлы электронных таблиц в различных форматах, таких как SpreadsheetML, CSV, файлы с разделителями табуляции. Чтобы открыть такие файлы, разработчики могут использовать ту же методологию, что и для открытия файлов различных версий Excel Microsoft.
+Aspose.Cells позволяет разработчикам открывать файлы электронных таблиц в различных форматах, таких как SpreadsheetML, CSV, файлы с разделителями табуляции. Для открытия таких файлов разработчики могут использовать ту же методологию, что и для открытия файлов различных версий Excel.
 
-### **Открытие файлов SpreadsheetML**
+### **Открытие SpreadsheetML файлов**
 
 Файлы SpreadsheetML представляют собой XML-представления ваших электронных таблиц, включая всю информацию о электронной таблице, такую как форматирование, формулы и т. д. Начиная с Microsoft Excel XP, в Microsoft Excel добавлен параметр экспорта XML, который экспортирует ваши электронные таблицы в файлы SpreadsheetML.
 
@@ -94,11 +94,11 @@ Aspose.Cells позволяет разработчикам открывать ф
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningSpreadsheetMLFiles-OpeningSpreadsheetMLFiles.java" >}}
 
-### **Открытие CSV-файлов**
+### **Открытие CSV файлов**
 
-Файлы со значениями, разделенными запятыми (CSV), содержат записи, значения которых разделены запятыми. В файлах CSV данные хранятся в табличном формате, в котором поля разделены запятой и заключены в двойные кавычки. Если значение поля содержит символ двойной кавычки, оно экранируется парой символов двойной кавычки. Вы также можете использовать Microsoft Excel для экспорта данных электронной таблицы в файл CSV.
+Файлы значений, разделенных запятыми (CSV) содержат записи, значения которых разделены запятыми. В файлах CSV данные хранятся в табличном формате, в котором поля разделены запятой и заключены в двойные кавычки. Если значение поля содержит символ двойной кавычки, оно экранируется парой символов двойной кавычки. Вы также можете использовать Microsoft Excel для экспорта данных электронной таблицы в файл CSV.
 
-Чтобы открыть файлы CSV, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+Чтобы открыть файлы CSV, используйте**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[CSV] (https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
 
 #### **Пример**
 
@@ -106,15 +106,15 @@ Aspose.Cells позволяет разработчикам открывать ф
 
 ### **Открытие файлов CSV и замена недопустимых символов**
 
-В Excel при открытии файла CSV со специальными символами символы автоматически заменяются. То же самое делает Aspose.Cells API, что продемонстрировано в приведенном ниже примере кода.
+В Excel при открытии файла CSV со специальными символами символы автоматически заменяются. То же самое делается с помощью Aspose.Cells API, что продемонстрировано в приведенном ниже примере кода.
 
 #### **Пример**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-### **Открытие файлов CSV с помощью предпочтительного парсера**
+### **Открытие файлов CSV с использованием предпочтительного парсера**
 
-Это не всегда необходимо, чтобы использовать настройки парсера по умолчанию для открытия файлов CSV. Иногда импорт CSV-файла не приводит к ожидаемому результату, например формат даты не соответствует ожидаемому или пустые поля обрабатываются по-другому. Для этого**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**доступен для предоставления собственного предпочтительного синтаксического анализатора для анализа различных типов данных в соответствии с требованиями. Следующий пример кода демонстрирует использование предпочтительного синтаксического анализатора.
+Это не всегда необходимо, чтобы использовать настройки парсера по умолчанию для открытия файлов CSV. Иногда импорт файла CSV не приводит к ожидаемому результату, например формат даты не соответствует ожидаемому или пустые поля обрабатываются по-другому. Для этого**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**доступен для предоставления собственного предпочтительного синтаксического анализатора для анализа различных типов данных в соответствии с требованиями. Следующий пример кода демонстрирует использование предпочтительного синтаксического анализатора.
 
 Образец исходного файла и выходные файлы можно загрузить по следующим ссылкам для тестирования этой функции.
 
@@ -126,11 +126,11 @@ Aspose.Cells позволяет разработчикам открывать ф
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
-### **Открытие файлов TSV (с разделителями табуляцией)**
+### **Открытие файлов TSV (разделители табуляцией)**
 
 Файлы с разделителями табуляцией содержат данные электронной таблицы, но без какого-либо форматирования. Данные располагаются в строках и столбцах, таких как таблицы и электронные таблицы. Вкратце, файл с разделителями табуляцией — это особый тип простого текстового файла с табуляцией между каждым столбцом в тексте.
 
-Чтобы открыть файлы с разделителями табуляцией, разработчики должны использовать**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
+Чтобы открыть файлы с разделителями табуляцией, разработчики должны использовать**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** класс и выберите**[TSV] (https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** значение, заданное в**[Формат загрузки] (https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**перечисление.
 
 #### **Пример**
 
@@ -154,15 +154,15 @@ Aspose.Cells также поддерживает открытие файлов M
 
 ### **Открытие SXC файлов**
 
-StarOffice Calc похож на Microsoft Excel и поддерживает формулы, диаграммы, функции и макросы. Электронные таблицы, созданные с помощью этого программного обеспечения, сохраняются с расширением SXC. Файл SXC также используется для файлов электронных таблиц OpenOffice.org Calc. Aspose.Cells может читать файлы SXC, как показано в следующем примере кода.
+StarOffice Calc похож на Microsoft Excel и поддерживает формулы, диаграммы, функции и макросы. Электронные таблицы, созданные с помощью этого программного обеспечения, сохраняются с расширением SXC. Файл SXC также используется для файлов электронных таблиц OpenOffice.org Calc. Aspose.Cells может читать SXC файлов, как показано в следующем примере кода.
 
 #### **Пример**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningSXCFiles-1.java" >}}
 
-### **Открытие файлов FOD**
+### **Открытие FODS файлов**
 
-Файл FODS представляет собой электронную таблицу, сохраненную в формате OpenDocument XML без какого-либо сжатия. Aspose.Cells может читать файлы FODS, как показано в следующем примере кода.
+FODS — это электронная таблица, сохраненная в формате OpenDocument XML без сжатия. Aspose.Cells может читать FODS файлов, как показано в следующем примере кода.
 
 #### **Пример**
 
@@ -176,7 +176,7 @@ StarOffice Calc похож на Microsoft Excel и поддерживает фо
 - [Загрузить рабочую книгу с указанным размером бумаги для принтера](/cells/ru/java/load-workbook-with-specified-printer-paper-size/)
 - [Открытие файлов различных версий Excel Microsoft](/cells/ru/java/opening-different-microsoft-excel-versions-files/)
 - [Оптимизация использования памяти при работе с большими файлами с большими наборами данных](/cells/ru/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Читать электронную таблицу чисел, разработанную Apple Inc. с использованием Aspose.Cells](/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Читать Numbers Электронная таблица, разработанная Apple Inc. с использованием Aspose.Cells](/cells/ru/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Чтение файла CSV с несколькими кодировками](/cells/ru/java/reading-csv-file-with-multiple-encodings/)
 - [Остановите преобразование или загрузку с помощью InterruptMonitor, если это занимает слишком много времени](/cells/ru/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Использование LightCells API](/cells/ru/java/using-lightcells-api/)

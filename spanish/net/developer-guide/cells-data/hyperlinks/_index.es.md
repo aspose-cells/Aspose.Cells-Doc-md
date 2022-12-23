@@ -15,9 +15,9 @@ Usando Aspose.Cells, los desarrolladores pueden crear diferentes tipos de hiperv
 ## **Adición de hipervínculos**
 Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de Excel usando API o hojas de cálculo de diseñador (hojas de cálculo donde los hipervínculos se crean manualmente y Aspose.Cells se usa para importarlos a otras hojas de cálculo).
 
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
+ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona diferentes métodos para agregar diferentes hipervínculos a archivos de Excel.
 ## **Agregar enlace a una URL**
- los[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase contiene un[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) recopilación. Cada artículo en el[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) colección representa un[Hipervínculo](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . Agregue hipervínculos a las URL llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. los[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)método toma los siguientes parámetros:
+ Él[Hoja de cálculo](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase contiene un[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) recopilación. Cada artículo en el[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) colección representa un[Hipervínculo](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . Agregue hipervínculos a las URL llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. Él[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)método toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -34,7 +34,7 @@ Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de 
 
 {{% /alert %}} 
 ## **Agregar un enlace a un Cell en el mismo archivo**
- Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. los[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)El método funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
+ Es posible agregar hipervínculos a celdas en el mismo archivo de Excel llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. Él[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)El método funciona tanto para hipervínculos internos como externos. Una versión del método sobrecargado toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -45,7 +45,7 @@ Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
 ## **Agregar un enlace a un archivo externo**
- Es posible agregar hipervínculos a archivos de Excel externos llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. los[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)método toma los siguientes parámetros:
+ Es posible agregar hipervínculos a archivos de Excel externos llamando al[hipervínculos](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) colección[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) método. Él[Agregar](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)método toma los siguientes parámetros:
 
 - Cell nombre, el nombre de la celda a la que se agregará el hipervínculo.
 - Número de filas, el número de filas en este rango de hipervínculo.
@@ -57,7 +57,7 @@ Aspose.Cells permite a los desarrolladores agregar hipervínculos a archivos de 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToExternalFile-1.cs" >}}
 
 ## **Temas avanzados**
-- [Agregar hipervínculos de imágenes](/cells/es/net/add-image-hyperlinks/)
+- [Agregar hipervínculos de imagen](/cells/es/net/add-image-hyperlinks/)
 - [Detectar tipo de hipervínculo](/cells/es/net/detect-hyperlink-type/)
 - [Edición de hipervínculos de la hoja de trabajo](/cells/es/net/editing-hyperlinks-of-worksheet/)
 - [Obtener hipervínculos en rango](/cells/es/net/get-hyperlinks-in-range/)

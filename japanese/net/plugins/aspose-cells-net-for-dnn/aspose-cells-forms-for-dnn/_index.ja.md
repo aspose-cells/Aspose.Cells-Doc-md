@@ -5,7 +5,7 @@ weight: 40
 url: /ja/net/aspose-cells-forms-for-dnn/
 ---
 ## **序章**
-Aspose.Cells DNN モジュールの動的フォームにより、ユーザーは動的なアンケートと調査を生成し、ユーザー入力を Excel スプレッドシートに保存し、Aspose.Cells を使用して結果を Excel、テキスト、CSV、および OpenDocument スプレッドシートにエクスポートできます。
+Aspose.Cells DNN モジュールの動的フォームにより、ユーザーは動的なアンケートと調査を生成し、ユーザー入力を Excel スプレッドシートに保存し、結果を Excel、テキスト、CSV、および Aspose.Cells を使用して OpenDocument スプレッドシートにエクスポートできます。
 ### **モジュールの機能**
 モジュールのこの初期バージョンには、フォームの構築とエクスポートのプロセスをシンプルで使いやすいものにする次の機能が追加されています。
 

@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/net/columns-containing-strongly-typed-data/
 ---
- Bir elektronik tablonun verileri bir dizi satır ve sütun olarak sakladığını biliyoruz. Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmışsa (bu, bir sütundaki tüm değerlerin aynı veri türüne sahip olması gerektiği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışa aktarabiliriz.**ExportDataTable** Cells sınıfının yöntemi.**ExportDataTable** yöntem, çalışma sayfası verilerini şu şekilde dışa aktarmak için aşağıdaki parametreleri alır:**Veri tablosu** nesne:**Satır numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
+Bir elektronik tablonun verileri bir dizi satır ve sütun olarak sakladığını biliyoruz. Bir çalışma sayfasının sütunlarındaki tüm değerler kesin olarak yazılmışsa (bu, bir sütundaki tüm değerlerin aynı veri türüne sahip olması gerektiği anlamına gelir), o zaman çalışma sayfasının içeriğini çağırarak dışa aktarabiliriz.**ExportDataTable** Cells sınıfının yöntemi.**ExportDataTable** yöntem, çalışma sayfası verilerini şu şekilde dışa aktarmak için aşağıdaki parametreleri alır:**Veri tablosu** nesne:**Satır numarası** , verilerin dışa aktarılacağı ilk hücrenin satır numarasını temsil eder
 
 - **Sütun Numarası** , verilerin dışa aktarılacağı ilk hücrenin sütun numarasını temsil eder
 - **Satır sayısı** , dışa aktarılacak satır sayısını temsil eder

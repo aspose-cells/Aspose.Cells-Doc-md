@@ -6,7 +6,7 @@ url: /fr/net/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## **Scénarios d'utilisation possibles**
 
- La plupart du temps, le format de papier de la feuille de calcul est automatique. Lorsqu'il est automatique, il est souvent défini comme*Lettre* . Parfois, l'utilisateur définit le format de papier de la feuille de calcul en fonction de ses besoins. Dans ce cas, le format du papier n'est pas automatique. Vous pouvez savoir si le format de papier de la feuille de calcul est automatique ou non en utilisant le[**Feuille de calcul.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)propriété.
+ La plupart du temps, le format de papier de la feuille de calcul est automatique. Lorsqu'il est automatique, il est souvent défini comme*Lettre* . Parfois, l'utilisateur définit le format de papier de la feuille de calcul en fonction de ses besoins. Dans ce cas, le format du papier n'est pas automatique. Vous pouvez savoir si le format de papier de la feuille de calcul est automatique ou non en utilisant le[**Feuille de calcul.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)la propriété.
 
 ## **Déterminer si la taille du papier de la feuille de calcul est automatique**
 

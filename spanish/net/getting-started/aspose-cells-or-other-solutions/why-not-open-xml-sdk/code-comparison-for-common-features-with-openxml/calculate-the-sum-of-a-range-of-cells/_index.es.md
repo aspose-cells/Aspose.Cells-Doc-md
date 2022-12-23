@@ -17,7 +17,7 @@ using DocumentFormat.OpenXml.Spreadsheet;
 
 {{< /highlight >}}
 
-A continuación se muestra el código:
+continuación se muestra el código:
 
 {{< highlight "csharp" >}}
 

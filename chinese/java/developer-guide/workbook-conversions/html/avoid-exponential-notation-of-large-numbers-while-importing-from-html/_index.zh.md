@@ -6,7 +6,7 @@ url: /zh/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
 {{% alert color="primary" %}} 
 
-有时您的 HTML 包含 1234567890123456 等长度超过 15 位的数字，当您将 HTML 导入 excel 文件时，这些数字会转换为指数表示法，例如 1.23457E+15。如果你愿意，你的数字应该原样导入而不是转换为指数表示法，那么请使用[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)属性并设置它**真的**在加载您的 HTML 时。
+有时您的 HTML 包含像 1234567890123456 这样长于 15 位的数字，当您将 HTML 导入 excel 文件时，这些数字会转换为指数表示法，例如 1.23457E+15。如果你愿意，你的数字应该原样导入而不是转换为指数表示法，那么请使用[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision)属性并设置它**真的**在加载您的 HTML 时。
 
 {{% /alert %}} 
 ## **从 HTML 导入时避免大数的指数表示法**

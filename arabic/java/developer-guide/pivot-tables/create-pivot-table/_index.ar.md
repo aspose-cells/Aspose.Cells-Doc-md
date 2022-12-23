@@ -15,7 +15,7 @@ url: /ar/java/create-pivot-table/
 كائنات الجدول المحوري هي:
 
 - [**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): يمثل حقلاً في جدول محوري.
-- [**مجموعة PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : إنه يمثل مجموعة من جميع ملفات[**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)كائنات في الجدول المحوري.
+- [**مجموعة PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) إنه يمثل مجموعة من جميع ملفات[**PivotField**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)كائنات في الجدول المحوري.
 - [**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): يمثل جدول محوري.
 - [**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): يمثل مجموعة كل كائنات الجدول المحوري في ورقة العمل.
 
@@ -26,7 +26,7 @@ url: /ar/java/create-pivot-table/
 لإنشاء جدول محوري باستخدام Aspose.Cells ، يرجى اتباع الخطوات التالية:
 
 1.  أضف بعض البيانات إلى خلايا ورقة العمل باستخدام ملحق[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) أشياء[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)طريقة. سيتم استخدام هذه البيانات كمصدر بيانات للجدول المحوري.
-1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء ملف[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) طريقة ال[**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) فئة ، مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)هدف.
+1. أضف جدولاً محوريًا إلى ورقة العمل عن طريق استدعاء ملف[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottablecollection#add(com.aspose.cells.PivotTable,%20int,%20int,%20java.lang.String) ) طريقة ال[**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) فئة ، مغلفة في[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)موضوع.
 1.  الوصول إلى[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) كائن من[**مجموعة PivotTableCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection) عن طريق تمرير[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)فهرس.
 1.  استخدم أيًا من كائنات الجدول المحوري (الموضحة أعلاه) المغلفة في ملف[**جدول محوري**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable)كائن لإدارة الجدول المحوري.
 

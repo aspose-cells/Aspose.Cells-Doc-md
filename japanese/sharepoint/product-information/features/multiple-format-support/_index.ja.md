@@ -15,11 +15,11 @@ Aspose.Cells for SharePoint を使用すると、SharePoint ドキュメント �
 Aspose.Cells for SharePoint は、次の入力形式をサポートしています。
 
 - XLS – Microsoft エクセル 97~2003
-- XLSX – Office オープン XML
-- XLSM、XLTX、XLTM – オフィス オープン XML
+- XLSX – オフィス オープン XML
+- XLSM、XLTX、XLTM – Office オープン XML
 - CSV – カンマ区切り値ワークシート ドキュメント
 - ODS – オープンドキュメント
-- XML – Microsoft Excel スプレッドシートML
+- XML – Microsoft エクセル SpreadsheetML
 
 ドキュメントを生成するには、Aspose.Cells for SharePoint は組み込みバージョンの[Aspose.Cells for .NET](https://products.aspose.com/cells/net/)、Aspose の市場をリードするスプレッドシート処理コンポーネントです。 Microsoft ドキュメントの生成に Excel は使用されません。
 
@@ -28,18 +28,18 @@ Aspose.Cells for SharePoint は、次の入力形式をサポートしていま�
 Aspose.Cells for SharePoint でサポートされている出力形式の完全なリストは次のとおりです。
 
 - PDF – アドビポータブルドキュメント
-- XLS – Microsoft エクセル 97 - 2003
-- XLSX – Office オープン XML
-- XLSM – マクロ用の Office Open XML が有効
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – オフィス オープン XML
+- XLSM – マクロ用の Office Open XML が有効になっています
 - TXT – プレーンテキスト
-- XML – Microsoft Excel スプレッドシートML
+- XML – Microsoft エクセル SpreadsheetML
 - ODS – オープンドキュメント
-- CSV – カンマ区切り値
+- CSV – コンマ区切り値
 - XLSB – Microsoft Excel バイナリ 2007
-- MHTML – 多目的インターネット メール拡張 HTML
-- XPS – XML 用紙仕様
+- MHTML – 多目的インターネットメール内線番号 HTML
+- XPS – XML ペーパー仕様
 - TIFF – タグ付き画像ファイル形式
-- SVG – スケーラブルなベクター グラフィックス
+- SVG – スケーラブル ベクター グラフィックス
 - DIF – 図面交換フォーマット
 
 **ファイルで使用できるサポートされている変換形式が一覧表示されます** 

@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.8 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-859| Correction du problème de référence API|Punaise|
 |CELLSCPP-880| Correction d'une erreur de format de fichier fods ouvert|Punaise|

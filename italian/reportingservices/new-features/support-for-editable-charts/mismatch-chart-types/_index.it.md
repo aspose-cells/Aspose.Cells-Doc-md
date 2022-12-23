@@ -17,6 +17,6 @@ Alcuni tipi di grafico nel file di definizione del report di SQL Server Reportin
 - Range-BoxPlot
 - Forma-imbuto
 
- Quando si esegue il rendering di elementi del grafico che non dispongono di opzioni equivalenti in Microsoft Excel, Aspose.Cells li restituisce alle immagini.
+Quando si esegue il rendering di elementi del grafico che non dispongono di opzioni equivalenti in Microsoft Excel, Aspose.Cells li restituisce alle immagini.
 
 {{% /alert %}}

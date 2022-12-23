@@ -12,7 +12,7 @@ En el calendario japonés** **, una nueva era comienza con el reinado de un nuev
 
 
 
- Aspose.Cells proporciona una forma de convertir fechas gregorianas a fechas japonesas. Durante esta conversión, también se consideran los cambios de época. El siguiente fragmento de código convierte el[Excel fuente](90112015.xlsx) archivo que contiene fechas gregorianas hasta el[PDF de salida](90112016.pdf) con fechas japonesas como se muestra en la imagen de abajo.
+ Aspose.Cells proporciona una forma de convertir fechas gregorianas a fechas japonesas. Durante esta conversión, también se consideran los cambios de época. El siguiente fragmento de código convierte el[Excel fuente](90112015.xlsx) archivo que contiene fechas gregorianas hasta el[salida PDF](90112016.pdf) con fechas japonesas como se muestra en la imagen de abajo.
 
 ![todo:imagen_alternativa_texto](convert-dates-to-japanese-dates_1.jpg)
 

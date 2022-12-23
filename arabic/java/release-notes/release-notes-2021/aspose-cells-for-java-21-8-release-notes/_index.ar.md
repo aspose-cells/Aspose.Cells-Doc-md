@@ -13,20 +13,20 @@ url: /ar/java/aspose-cells-for-java-21-8-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-42494|يتم إنشاء كمية كبيرة من الأنماط غير المستخدمة في قسم CSS|
-|CELLSJAVA-43576|لا يتم عرض قيم النص الرسومي عند تحويل XLSX إلى PDF|
+|CELLSJAVA-43576|لا يتم عرض قيم النص البياني عند تحويل XLSX إلى PDF|
 |CELLSJAVA-43483|لا يتم التأكيد على النص الموجود بعد علامة "br" داخل علامة "em" عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43526|IllegalArgumentException: فهرس العمود غير صالح|
 |CELLSJAVA-43557|لون غير صحيح عند الحفظ بتنسيق html|
 |CELLSJAVA-43567|الانحدار: لم يتم حساب صيغة MDURATION بشكل صحيح|
 |CELLSJAVA-43583|عامل الطاقة "^" لا يعمل لحسابات الصيغ|
-|CELLSJAVA-43549|الصورة مفقودة في Output PDF|
+|CELLSJAVA-43549|الصورة مفقودة في الإخراج PDF|
 |CELLSJAVA-43566|الخطوط الافتراضية على MacOS Big Sur|
 |CELLSJAVA-42579|لا يتم عرض عناوين المحور بشكل صحيح - المحاذاة اليمنى مفقودة عند حفظ Excel في Pdf|
 |CELLSJAVA-43554|لا يظهر نص جدول بيانات المخطط في صورة الإخراج|
 |CELLSJAVA-43556|XLSX إلى PDF: عنوان مخطط غير كامل|
 |CELLSJAVA-40051|دعم Apple iWork|
 |CELLSJAVA-43119|التحويل إلى PDF - رقم تنسيق الملف غير المدعوم 3.5 منذ 2014|
-|CELLSJAVA-43538|يتسبب التخطيط بدون بيانات في تلف XLSX بعد الحفظ باستخدام Aspose Cells|
+|CELLSJAVA-43538|الرسم البياني الذي لا يحتوي على بيانات يتسبب في تلف XLSX بعد الحفظ باستخدام Aspose Cells|
 |CELLSJAVA-43547|يقوم AutoFitRow بتغيير الارتفاع القياسي لورقة العمل|
 |CELLSJAVA-43591|خطأ عند فتح ملف في MS Excel تم حفظه بواسطة Aspose.Cells|
 |CELLSJAVA-43523|CellsException لقراءة اسم الماكرو للشكل: صيغة غير صالحة|

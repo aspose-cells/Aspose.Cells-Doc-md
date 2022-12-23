@@ -17,7 +17,7 @@ url: /ru/java/activating-sheets-and-activating-a-cell-in-worksheet/
 
 Aspose.Cells предоставляет специальные вызовы API для активации листа и ячейки. Например,[**WorksheetCollection.ActiveSheetIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#ActiveSheetIndex)Свойство полезно для установки активного листа в книге. Точно так же[**Рабочий лист.ActiveCell**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ActiveCell)Свойство можно использовать для установки и получения активной ячейки на листе.
 
-Чтобы убедиться, что горизонтальные или вертикальные полосы прокрутки находятся в позиции индекса строки и столбца, в которой вы хотите отобразить определенные данные, используйте[**Лист.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)а также[**Рабочий лист.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)характеристики.
+Чтобы убедиться, что горизонтальные или вертикальные полосы прокрутки находятся в позиции индекса строки и столбца, в которой вы хотите отобразить определенные данные, используйте[**Лист.FirstVisibleRow**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleRow)и[**Рабочий лист.FirstVisibleColumn**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#FirstVisibleColumn)характеристики.
 
 В следующем примере показано, как активировать рабочий лист и сделать в нем активную ячейку. При выполнении кода генерируется следующий вывод. Полосы прокрутки прокручиваются, чтобы сделать 2-ю строку и 2-й столбец их первой видимой строкой и столбцом.
 
@@ -31,6 +31,6 @@ Aspose.Cells предоставляет специальные вызовы API 
 
 {{% alert color="primary" %}}
 
- В**оценка** режим, то есть; без установки действующей лицензии активным рабочим листом всегда будет тот, который содержит водяной знак оценки. Это поведение можно изменить, только установив лицензию при запуске приложения.
+ В**оценка**режим, то есть; без установки действующей лицензии активным рабочим листом всегда будет тот, который содержит водяной знак оценки. Это поведение можно изменить, только установив лицензию при запуске приложения.
 
 {{% /alert %}}

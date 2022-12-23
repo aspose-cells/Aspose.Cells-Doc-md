@@ -61,16 +61,16 @@ url: /tr/net/aspose-cells-for-net-7-3-2-release-notes/
 - Çalışma sayfası kopyalandıktan sonra gizli resimler kayboldu
 - Kaydettikten sonra, Excel çalışma sayfasının verileri kayboldu
 
- - XLSX dosyasını Dağılım grafiğiyle kaydetmek, ekstra seçenekler sağlar
+ - XLSX dosyasının Dağılım grafiği ile kaydedilmesi ekstra seçenekler sağlar
 
-XLSX dosya biçiminde -DataLabels.ShowBubbleSize sorunu
+ XLSX dosya biçiminde -DataLabels.ShowBubbleSize sorunu
 
  -Excel Pasta Grafiğinin başlığı resim dosyasına doğru şekilde işlenmedi
 
  -Yanlış Formül Hesaplama sorunu
 
 - koşullu biçimlendirme ile ilgili Almanca dil sorunu
-- PDF'ye dönüştürdükten sonra boş sayfalar
+- PDF'e dönüştürüldükten sonra boş sayfalar
 - PDF dosyasındaki Üstbilgi/Altbilgi sorunları
 - Excel aralığını görüntüye dönüştürürken boşluklar kayboldu
 - Dil/bölge sorunu - SheetRender ile koşullu biçimlendirme sorunu
@@ -81,9 +81,9 @@ XLSX dosya biçiminde -DataLabels.ShowBubbleSize sorunu
 - Alt Toplamlar yanlış sırayla hesaplanır (Akıllı İşaretçiler)
 - Excel'in XLSB dosya boyutu Sorunu - Seçim Listesi kayboluyor
 
- -Aspose Cells kullanılarak PDF kaydedilirken görüntü hatası şeklinde şekil
+ Aspose Cells kullanılarak PDF kaydedilirken şekil hatası
 
-- PDF'ye dönüştürdükten sonra dosya bozuk
+- PDF'e dönüştürüldükten sonra dosya bozuk
 
 
 

@@ -32,8 +32,8 @@ url: /ar/java/inserting-and-deleting-rows-and-columns/
 ## **أدخل صفًا بالتنسيق**
 لإدراج صف بخيارات التنسيق ، استخدم ملف[إدراج صفوف](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) الزائد الذي يستغرقه[إدراج خيارات](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)كمعامل. تعيين[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)ممتلكات[إدراج خيارات](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)فئة مع[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)تعداد. ال[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)العد من ثلاثة أعضاء كما هو مذكور أدناه.
 
-- [نفس_كما_في الاعلى](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)تنسيق الصف مثل الصف أعلاه.
-- [نفس_كما_أقل](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): تنسيق الصف نفسه كما في الصف أدناه.
+- [نفس_مثل_فوق](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)تنسيق الصف مثل الصف أعلاه.
+- [نفس_مثل_أدناه](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): تنسيق الصف نفسه كما في الصف أدناه.
 - [صافي](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): يمسح التنسيق.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}

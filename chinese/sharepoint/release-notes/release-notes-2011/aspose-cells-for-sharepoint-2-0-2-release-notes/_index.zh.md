@@ -18,4 +18,4 @@ url: /zh/sharepoint/aspose-cells-for-sharepoint-2-0-2-release-notes/
 
 
 
-`   `增强了 PDF 转换中的形状渲染
+`   `在 PDF 转换中对形状渲染进行了增强

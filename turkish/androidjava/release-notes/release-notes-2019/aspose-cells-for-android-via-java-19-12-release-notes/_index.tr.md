@@ -15,20 +15,20 @@ Bu sayfa Aspose.Cells for Android via Java 19.12 için sürüm notları içerir.
 |CELLSJAVA-41814|PivotTable raporundaki belirli alan için özel veri sıralamayı destekleyin|Yeni özellik|
 |CELLSJAVA-43032|API'lere Validation.addArea (CellArea cellArea, boolean jumpArea) veya Validation.setAreas() yöntemi/aşırı yüklemeleri ekleyin|Yeni özellik|
 |CELLSJAVA-42851|ODATA bağlantı ayrıntılarını alın|Yeni özellik|
-|CELLSJAVA-43047|HTML'de dışa aktarmak için hücreye araç ipucu metni ekleme|Yeni özellik|
+|CELLSJAVA-43047|HTML'de dışa aktarma için hücreye araç ipucu metni ekleme|Yeni özellik|
 |CELLSJAVA-42988|hesaplaFormula() ile performans sorunu|Artırma|
-|CELLSJAVA-43018|Aynı çalışma kitabının bazı durumlarını dolaylı olarak değiştirmeden yazdırma alanı aralığını HTML'ye aktarın|Artırma|
+|CELLSJAVA-43018|Aynı çalışma kitabının bazı durumlarını dolaylı olarak değiştirmeden yazdırma alanı aralığını HTML olarak dışa aktarın|Artırma|
 |CELLSJAVA-43041|Cells.importCSV, "dize değeri 255 karakteri aşamaz" istisnasını atar|Artırma|
 |CELLSJAVA-43043|Cells.removeDuplicates, büyük veri kümesi için daha fazla zaman alır|Artırma|
 |CELLSJAVA-43002|XSLB açılırken ZipOutputStream'de beklenmeyen CPU etkin noktası|Artırma|
 |CELLSJAVA-43008|Bir çalışma kitabını açarken OLE nesnesini yüklemeyi devre dışı bırakma seçeneği|Artırma|
-|CELLSJAVA-43019|Radyal grafik, HTML'ye düzgün şekilde işlenmedi|Böcek|
-|CELLSJAVA-43027|PNG'ye dönüştürüldükten sonra eksenin ölçeklemesi farklıdır.|Böcek|
+|CELLSJAVA-43019|Radyal grafik HTML'e uygun şekilde oluşturulmadı|Böcek|
+|CELLSJAVA-43027|PNG'e dönüştürüldükten sonra, eksenin ölçeklendirmesi farklıdır.|Böcek|
 |CELLSJAVA-42474|PivotTable, kaynak verileri güncelledikten sonra yenilenmiyor ve bozulmuyor|Böcek|
-|CELLSJAVA-43033|PDF'ye dönüştürme bitmiyor.|Böcek|
+|CELLSJAVA-43033|PDF'e dönüşüm bitmiyor.|Böcek|
 |CELLSJAVA-43034|Geçersiz Rusça (özel) tarih biçimi çıktısı alındı|Böcek|
 |CELLSJAVA-43040|LoadFilter gerekli sayfayı dikkate almıyor|Böcek|
-|CELLSJAVA-43035|Excel dosyası EMF'ye dönüştürülürken kenarlıklar kayboluyor|Böcek|
+|CELLSJAVA-43035|Excel dosyası EMF'e dönüştürülürken kenarlıklar kayboluyor|Böcek|
 |CELLSJAVA-43016|SheetRender'dan geçersiz sayfa sayısı|Böcek|
 |CELLSJAVA-43026|Grafiği görüntüye dönüştürdükten sonra Veri Etiketleri stili değiştirir ve değerler aynı değildir|Böcek|
 |CELLSJAVA-43038|HyperLinks, Cell.setHtmlString() kullanılarak dışa aktarılmıyor|Böcek|
@@ -36,15 +36,15 @@ Bu sayfa Aspose.Cells for Android via Java 19.12 için sürüm notları içerir.
 |CELLSJAVA-41103|Pivot tablo verilerinin renklendirilmesi ve biçimlendirilmesi düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-43007|PDF beklendiği gibi oluşturulmadı|Böcek|
 |CELLSJAVA-43025|Cell.getStyle.getCustom, Almanca yerel ayarı için yanlış biçim veriyor|Böcek|
-|CELLSJAVA-42793|ODS'den XLSX'e dönüştürme sırasında Fontwork SmartArt nesnesi kayboldu|Böcek|
+|CELLSJAVA-42793|Fontwork SmartArt nesnesi, ODS'den XLSX'e dönüştürme sırasında kayboldu|Böcek|
 |CELLSJAVA-43020|Chart.Calcluate() çağrıldıktan sonra radyal grafik bozuk|Böcek|
 |CELLSJAVA-43022|XLS dosyaları için Şekilden Görüntüye Hata|Böcek|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false), getFormula() çağrılırken istenmeyen sonuçlara neden oluyor|Böcek|
 |CELLSJAVA-43052|Boole değerleri için doğrulama sorunu|Böcek|
-|CELLSJAVA-43054|Portekiz ayarlarında CSV Birleştirme ile ilgili sorun|Böcek|
+|CELLSJAVA-43054|Portekizce ayarlarında CSV Merge ile ilgili sorun|Böcek|
 |CELLSJAVA-43056|Cell.setFormula() harici bağlantılar için güncellenmiyor|Böcek|
 |CELLSJAVA-42767|Excel'den PDF'e dönüştürme sırasında görüntü kaçırıldı|Böcek|
-|CELLSJAVA-42913|Gömülü Visio nesneleri PDF'ye yanlış işlendi|Böcek|
+|CELLSJAVA-42913|Katıştırılmış Visio nesneleri, PDF'e yanlış işlendi|Böcek|
 |CELLSJAVA-42883|Aspose.Cells for Java 95 biçimli dosyadan grafik metni çıkarma sorunu|Böcek|
 |CELLSJAVA-42931|Ekler/Nesneler Excel95'ten getirilmedi|Böcek|
 |CELLSJAVA-43051|Resim için en boy oranı korunmadı|Böcek|
@@ -80,7 +80,7 @@ Bir XML dosya akışını çalışma kitabına aktarır.
 ### **Workbook.ExportXml(string mapName, Stream stream) yöntemini ekler.**
 XML verilerini bir akışa aktarın.
 ### **HtmlSaveOptions.ExportArea özelliğini ekler**
-Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar. Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır. Dosya HTML'ye kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
+Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar. Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır. Dosya HTML'e kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
 ### **Sınıfları ekler: DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem ve PowerQueryFormulaItemCollection**
 DataMashup'ta bilgi alır.
 ### **DBConnection.SeverCommand özelliğini ekler.**
@@ -126,7 +126,7 @@ Sarılmış metnin otomatik sığdırma türünü alır ve ayarlar.
 ### **EmfRenderSetting sınıfını ekler**
 EMF meta dosyasını işlemek için ayarlar.
 ### **PdfSaveOptions.EmfRenderSetting özelliğini ekler**
-PDF dosyasına işlerken EMF meta dosyasını işlemek için ayarlar.
+PDF dosyasına işlenirken EMF meta dosyasının işlenmesi için ayarlar.
 ### **ShapeCollection.AddSvg() yöntemini ekler**
 svg görüntüsü ekler.
 ### **WorkbookSettings.QuotePrefixToStyle özelliği ekler**

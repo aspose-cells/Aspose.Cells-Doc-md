@@ -8,7 +8,7 @@ description: Cet article décrit comment utiliser le filtre de chargement pour l
 ## **Scénarios d'utilisation possibles**
  Veuillez utiliser[GridDesktop.LoadDataFilterGridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)propriété lors du filtrage des données du classeur.
 
- La[GridLoadDataFilterOptionsGridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)énumération a les valeurs suivantes.
+ Le[GridLoadDataFilterOptionsGridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)énumération a les valeurs suivantes.
 - Tout
 - Paramètres du livre
 - CelluleVide
@@ -28,7 +28,7 @@ description: Cet article décrit comment utiliser le filtre de chargement pour l
 - Zone fusionnée
 - Tableau croisé dynamique
 - Réglages
-- Forme
+- Façonner
 - SheetData
 - SheetSettings
 - Structure

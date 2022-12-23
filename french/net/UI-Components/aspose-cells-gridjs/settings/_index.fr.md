@@ -12,7 +12,7 @@ Certains paramètres peuvent être spécifiés par set GridWorkbookSettings :
 - **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridjs/GridWorkbookSettings)**
 
 
-Par exemple, le code suivant définit ReCalculateOnOpen sur false pour arrêter le calcul à l'ouverture du fichier :
+Par exemple, le code suivant définit ReCalculateOnOpen sur false pour arrêter le calcul à l'ouverture du fichier :
 ```C#
    GridJsWorkbook gw = new GridJsWorkbook();
    GridWorkbookSettings gws = new GridWorkbookSettings();

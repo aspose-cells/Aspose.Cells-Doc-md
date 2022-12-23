@@ -5,7 +5,7 @@ weight: 40
 url: /tr/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 ---
 ## **Aspose.Cells - HTML dosyalarını Excel Elektronik Tablolarına dönüştürme**
-Ruby'de Aspose.Cells for Java kullanarak HTML'yi Elektronik Tabloya dönüştürmek için html'yi çağırmanız yeterlidir_ile_Dönüştürücü modülünün excel() yöntemi.
+Ruby'de Aspose.Cells for Java kullanarak HTML'i Elektronik Tabloya dönüştürmek için html'yi çağırmanız yeterlidir_ile_Dönüştürücü modülünün excel() yöntemi.
 
 **Yakut Kodu**
 

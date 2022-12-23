@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for Java がバージョン 8.0.0 に更新されました。このリリースで 30 を超える新しい便利な改善が追加されたことをお知らせいたします。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -28,7 +28,7 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 (CELLSJAVA-40749) - ワークシートのページの開始行/列インデックスと終了行/列インデックスを取得する
 (CELLSJAVA-40744) - Show Formulas MS Excel 機能のサポート
 (CELLSJAVA-40423) - Aspose.Cells および Maven の依存関係
-(CELLSJAVA-40770) - 生成された PDF に作成時刻を設定する
+(CELLSJAVA-40770) - 生成された PDF に作成時間を設定します
 
 機能強化
 
@@ -41,24 +41,24 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 (CELLSJAVA-40738) - setExportActiveWorksheetOnly が HTML のテーブルの配置を変更する
 (CELLSJAVA-40747) - Workbook.copy を呼び出したときに、背景画像が宛先ワークブックにコピーされない
 (CELLSJAVA-40276) - Excel ワークブックを PDF として保存しているときに、画像内のテキストがミラーリングされているように見える
-(CELLSJAVA-40573) - PDFへの保存時に一部の単語が分離される
+(CELLSJAVA-40573) - PDF に保存すると一部の単語が区切られる
 (CELLSJAVA-40743) - テーブルのオートフィルターは xls 形式では機能しませんが、xlsx 形式では正常に機能します
-(CELLSJAVA-40750) - HTML にエクスポートすると、画像で覆われたセルの背景色が失われます
+(CELLSJAVA-40750) - HTML にエクスポートすると、画像で覆われたセルの背景色が失われる
 (CELLSJAVA-40748) - 背景画像のパスが正しくありません
 (CELLSJAVA-40731) - 縦書きの問題
-(CELLSJAVA-40737) - Excel から PDF への変換における形状/コントロールの書式設定の問題
-(CELLSJAVA-40742) - XLSX を PDF に変換するときの軸ラベルの不適切なラッピング
-(CELLSJAVA-40757) - DateTime 列がヨーロッパ ロケールの CSV から誤って読み取られる
+(CELLSJAVA-40737) - Excel の形状/コントロールのフォーマットの問題を PDF に変換
+(CELLSJAVA-40742) - XLSX を PDF に変換する際の軸ラベルの不適切なラッピング
+(CELLSJAVA-40757) - DateTime列がヨーロッパのロケールでCSVから誤って読み取られる
 (CELLSJAVA-40282) - Excel ワークシートを PDF に変換する際に画像出力がミラーリングされる
-(CELLSJAVA-40585) - Aspose.Cells: 埋め込まれたシグマ プロット チャートが PDF/画像に正しくレンダリングされない
-(CELLSJAVA-40742) - XLSX を PDF に変換するときの軸ラベルの不適切なラッピング
+(CELLSJAVA-40585) - Aspose.Cells: 埋め込まれたシグマ プロット チャートが PDF/images に正しくレンダリングされない
+(CELLSJAVA-40742) - XLSX を PDF に変換する際の軸ラベルの不適切なラッピング
 (CELLSJAVA-40758) - 出力 PDF のデータが正しくない
 (CELLSJAVA-40762) - Cell.getDependents(true) の問題 - Cells がリストに含まれてはならない他のシートから
 (CELLSJAVA-40756) - CellsException: Workbook.calculateFormula で null(false)
 (CELLSJAVA-40748) - 背景画像のパスが正しくありません
 (CELLSJAVA-40754) - エラーの背景色でシェイプを html にエクスポートする
-(CELLSJAVA-40766) - XLSX から HTML: HTML で null 値を生成する hideColumn の問題
-(CELLSJAVA-40769) - 再計算セルの数式
+(CELLSJAVA-40766) - XLSX から HTML: hideColumn が HTML で Null 値を生成する問題
+(CELLSJAVA-40769) - 再計算セルの式
 
 (CELLSJAVA-40771) - 行の非表示と行の高さの問題
 

@@ -10,7 +10,7 @@ url: /zh/java/managing-controls/
 
 ## **将 TextBox 控件添加到工作表**
 
-在报告中强调重要信息的一种方法是使用文本框。例如，添加文本以突出显示公司名称或指示销售额最高的地理区域等。 Aspose.Cells 提供了 TextBoxes 类，用于向集合中添加新的文本框。还有一个类，[**文本框**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), 表示用于定义所有类型设置的文本框。它有一些重要的成员：
+在报告中强调重要信息的一种方法是使用文本框。例如，添加文本以突出显示公司名称或指示销售额最高的地理区域等。 Aspose.Cells 提供了 TextBoxes 类，用于向集合中添加新的文本框。还有一个类，[**文本框**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)表示用于定义所有类型设置的文本框。它有一些重要的成员：
 
 - 这[**获取文本框**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame)方法返回一个[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame)用于调整文本框内容的对象。
 - 这[**设置位置**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement)方法指定放置类型。
@@ -26,7 +26,7 @@ url: /zh/java/managing-controls/
 
 **在工作表中创建了两个文本框** 
 
-![待办事项：图像_替代_文本](managing-controls_1.png)
+![待办事项：图片_替代_文本](managing-controls_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingTextBoxControl-1.java" >}}
 
@@ -65,7 +65,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了一个 CheckBox** 
 
-![待办事项：图像_替代_文本](managing-controls_2.png)
+![待办事项：图片_替代_文本](managing-controls_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingCheckBoxControl-1.java" >}}
 
@@ -98,7 +98,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了一些单选按钮** 
 
-![待办事项：图像_替代_文本](managing-controls_3.png)
+![待办事项：图片_替代_文本](managing-controls_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRadioButtonControl-1.java" >}}
 
@@ -130,7 +130,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了一个组合框** 
 
-![待办事项：图像_替代_文本](managing-controls_4.png)
+![待办事项：图片_替代_文本](managing-controls_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingComboBoxControl-1.java" >}}
 
@@ -145,7 +145,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了标签**
 
-![待办事项：图像_替代_文本](managing-controls_5.png)
+![待办事项：图片_替代_文本](managing-controls_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLabelControl-1.java" >}}
 
@@ -177,7 +177,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了一个列表框** 
 
-![待办事项：图像_替代_文本](managing-controls_6.png)
+![待办事项：图片_替代_文本](managing-controls_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingListBoxControl-1.java" >}}
 
@@ -207,7 +207,7 @@ Aspose.Cells 提供了[**复选框集合**](https://reference.aspose.com/cells/j
 
 **工作表中添加了一个按钮**
 
-![待办事项：图像_替代_文本](managing-controls_7.png)
+![待办事项：图片_替代_文本](managing-controls_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingButtonControl-1.java" >}}
 
@@ -217,7 +217,7 @@ Aspose.Cells 允许您在工作表中绘制自选图形。您可以轻松创建�
 
 ### **使用 Microsoft Excel**
 
-1. 在**绘画**工具栏，单击**自选图形**， 指向**线条**然后选择所需的线条样式。
+1. 在**画画**工具栏，单击**自选图形**， 指向**线条**然后选择所需的线条样式。
 1. 拖动以绘制线条。
 1. 执行以下一项或两项操作：
  1. 要限制线条以与其起点成 15 度角绘制，请在拖动时按住 SHIFT。
@@ -234,7 +234,7 @@ Aspose.Cells 允许您在工作表中绘制自选图形。您可以轻松创建�
 
 **在工作表中添加几行** 
 
-![待办事项：图像_替代_文本](managing-controls_8.png)
+![待办事项：图片_替代_文本](managing-controls_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLineControl-1.java" >}}
 
@@ -246,7 +246,7 @@ Aspose.Cells 还允许您绘制箭头线。可以将箭头添加到一行，并�
 
 **工作表中添加了带箭头的线** 
 
-![待办事项：图像_替代_文本](managing-controls_9.png)
+![待办事项：图片_替代_文本](managing-controls_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganArrowHead.java" >}}
 
@@ -256,7 +256,7 @@ Aspose.Cells 允许您在工作表中绘制矩形。您可以创建一个矩形�
 
 ### **使用 Microsoft Excel**
 
-1. 在**绘画**工具栏，单击**长方形**.
+1. 在**画画**工具栏，单击**矩形**.
 1. 拖动以绘制矩形。
 1. 执行以下一项或两项操作：
  1. 要限制矩形从其起点绘制正方形，请在拖动时按住 SHIFT。
@@ -274,7 +274,7 @@ Aspose.Cells 允许您在工作表中绘制矩形。您可以创建一个矩形�
 
 **工作表中添加了一个矩形** 
 
-![待办事项：图像_替代_文本](managing-controls_10.png)
+![待办事项：图片_替代_文本](managing-controls_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRectangleControl-1.java" >}}
 
@@ -284,7 +284,7 @@ Aspose.Cells 允许您在工作表中绘制弧形。您可以创建简单的填�
 
 ### **使用 Microsoft Excel**
 
-1. 在**绘画**工具栏，单击**弧**在里面**自选图形**.
+1. 在**画画**工具栏，单击**弧**在里面**自选图形**.
 1. 拖动以绘制圆弧。
 
 ### **使用 Aspose.Cells**
@@ -299,7 +299,7 @@ Aspose.Cells 允许您在工作表中绘制弧形。您可以创建简单的填�
 
 **工作表中添加了两个弧形** 
 
-![待办事项：图像_替代_文本](managing-controls_11.png)
+![待办事项：图片_替代_文本](managing-controls_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingArcControl-1.java" >}}
 
@@ -309,7 +309,7 @@ Aspose.Cells 允许您在工作表中绘制椭圆形。创建简单且填充的�
 
 ### **使用 Microsoft Excel**
 
-1. 在**绘画**工具栏，单击**椭圆形** .
+1. 在**画画**工具栏，单击**椭圆形** .
 1. 拖动以绘制椭圆。
 1. 执行以下一项或两项操作：
  1. 要限制椭圆从其起点绘制圆，请在拖动时按住 SHIFT。
@@ -327,7 +327,7 @@ Aspose.Cells 允许您在工作表中绘制椭圆形。创建简单且填充的�
 
 **工作表中添加了两个椭圆形** 
 
-![待办事项：图像_替代_文本](managing-controls_12.png)
+![待办事项：图片_替代_文本](managing-controls_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganOvalControl-1.java" >}}
 

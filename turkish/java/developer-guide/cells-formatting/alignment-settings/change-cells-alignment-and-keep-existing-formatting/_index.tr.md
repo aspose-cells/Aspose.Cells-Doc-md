@@ -12,7 +12,7 @@ Bazen birden çok hücrenin hizalamasını değiştirmek, ancak mevcut biçimlen
 
 Aşağıdaki örnek kod,[örnek excel dosyası](67338592.xlsx), aralığı oluşturur ve ortalayarak yatay ve dikey olarak hizalar ve mevcut biçimlendirmeyi olduğu gibi tutar. Aşağıdaki ekran görüntüsü, örnek Excel dosyasını karşılaştırır ve[çıktı excel dosyası](67338591.xlsx)ve hücrelerin mevcut tüm biçimlendirmesinin aynı olduğunu, ancak hücrelerin artık yatay ve dikey olarak ortaya hizalanmış olduğunu gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](change-cells-alignment-and-keep-existing-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](change-cells-alignment-and-keep-existing-formatting_1.png)
 
 ## **Basit kod**
 

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ru/java/managing-document-properties/
 ---
-## **Введение**
+## **Вступление**
 
 Microsoft Excel позволяет добавлять свойства в файлы электронных таблиц. Эти свойства документа предоставляют полезную информацию и разделены на 2 категории, как подробно описано ниже.
 
@@ -26,7 +26,7 @@ Microsoft Excel позволяет добавлять свойства в фай
 |**Выбор информационного меню**|
 |:- |
 |![дело:изображение_альтернативный_текст](managing-document-properties_1.png)|
-1.  Нажмите на**Характеристики** заголовок и выберите «Дополнительные свойства».
+1.  Нажмите на**Характеристики**заголовок и выберите «Дополнительные свойства».
 
 |**Щелкнув Выбор дополнительных свойств**|
 |:- |
@@ -44,7 +44,7 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java непосредственно записывает информацию о API и номере версии в выходных документах. Например, при преобразовании документа в PDF Aspose.Cells for Java заполняет**Заявление** поле со значением «Aspose.Cells» и**PDF-продюсер** поле со значением, например 'Aspose.Cells for Java v17.9'.
+ Aspose.Cells for Java непосредственно записывает информацию о API и номере версии в выходных документах. Например, при рендеринге Document на PDF, Aspose.Cells for Java заполняет**Применение** поле со значением «Aspose.Cells» и**PDF Продюсер** поле со значением, например 'Aspose.Cells for Java v17.9'.
 
 Обратите внимание, что вы не можете поручить Aspose.Cells for Java изменить или удалить эту информацию из выходных документов.
 
@@ -52,14 +52,14 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 ### **Доступ к свойствам документа**
 
- Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)учебный класс.
+Aspose.Cells API поддерживают оба типа свойств документа, встроенные и настраиваемые. Aspose.Cells'[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс представляет файл Excel и, как и файл Excel,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) класс может содержать несколько рабочих листов, каждый из которых представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) класс, тогда как набор рабочих листов представлен[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)учебный класс.
 
  Использовать[**Рабочий листКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)для доступа к свойствам документа файла, как описано ниже.
 
 -  Чтобы получить доступ к встроенным свойствам документа, используйте[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties).
 -  Чтобы получить доступ к пользовательским свойствам документа, используйте[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties).
 
- Оба[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties) а также[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties) вернуть экземпляр[**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) . Эта коллекция содержит[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)объекты, каждый из которых представляет одно встроенное или пользовательское свойство документа.
+ Оба[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#BuiltInDocumentProperties) и[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#CustomDocumentProperties) вернуть экземпляр[**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection) . Эта коллекция содержит[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)объекты, каждый из которых представляет одно встроенное или пользовательское свойство документа.
 
  Это зависит от требований приложения, как получить доступ к свойству, то есть; используя индекс или имя свойства из[**DocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentPropertyCollection)как показано в примере ниже.
 
@@ -79,13 +79,13 @@ Microsoft Excel позволяет добавлять свойства в фай
 
 ### **Добавление пользовательских свойств**
 
- Aspose.Cells API-интерфейсы раскрыли[**добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) метод для[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) класс для добавления настраиваемых свойств в коллекцию.[**добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) добавляет свойство в файл Excel и возвращает ссылку на новое свойство документа в виде[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)объект.
+ Aspose.Cells API-интерфейсы раскрыли[**Добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) метод для[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) класс для добавления настраиваемых свойств в коллекцию.[**Добавлять**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) добавляет свойство в файл Excel и возвращает ссылку на новое свойство документа в виде[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)объект.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Настройка пользовательского свойства «Ссылка на контент»**
 
- Чтобы создать пользовательское свойство, связанное с содержимым заданного диапазона, вызовите метод[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) и передать имя свойства и источник. Вы можете проверить, настроено ли свойство как связанное с содержимым, используя[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) имущество. Кроме того, также возможно получить исходный диапазон с помощью[**Источник**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) собственность[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)учебный класс.
+ Чтобы создать пользовательское свойство, связанное с содержимым заданного диапазона, вызовите метод[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) и передать имя свойства и источник. Вы можете проверить, настроено ли свойство как связанное с содержимым, используя[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) имущество. Кроме того, также возможно получить исходный диапазон с помощью[**Источник**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) собственность[**ДокументСвойства**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)учебный класс.
 
  В примере мы используем простой шаблон файла Excel Microsoft. Рабочая книга имеет определенный именованный диапазон, помеченный**Мой диапазон** который ссылается на значение ячейки.
 

@@ -19,7 +19,7 @@ Excel の図形は、主に次の種類に分類されます。
 - **OleObjects**
 - **ライン**
 - **長方形**
-- **基本形**
+- **基本形状**
 - **ブロック矢印**
 - **方程式の形**
 - **フローチャート**
@@ -70,7 +70,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 {{% alert color="primary" %}}
 
 [public LineShape AddLine(
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -111,7 +111,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 {{% alert color="primary" %}}
 
 [public LineShape AddLine(
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -152,7 +152,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 {{% alert color="primary" %}}
 
 [public RectangleShape AddRectangle(
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -176,13 +176,13 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 ## **C# の Excel ワークシートにキューブを挿入する**
 
-立方体の形状は、**基本形**カテゴリー。
+立方体の形状は、**基本形状**カテゴリー。
 
 ***Microsoft Excel (例: 2007):***
 
 - 立方体を挿入するセルを選択します
 - [挿入] メニューをクリックし、[図形] をクリックします。
-- 次に、からキューブを選択します**基本形**
+- 次に、からキューブを選択します**基本形状**
 
 ![](cube.png)
 
@@ -194,7 +194,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -236,7 +236,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -278,7 +278,7 @@ Aspose.Cells は、ワークシートでの OLE オブジェクトの追加、�
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -320,7 +320,7 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -362,7 +362,7 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、
@@ -404,7 +404,7 @@ multidocument の形状は、**フローチャート**カテゴリー。
 
 [public Shape AddAutoShape(
  AutoShapeType タイプ、
- int upperLeftRow,
+ int upperLeftRow、
 整数トップ、
  int upperLeftColumn、
 整数左、

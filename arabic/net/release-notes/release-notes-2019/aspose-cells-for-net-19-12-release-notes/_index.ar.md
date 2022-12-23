@@ -17,31 +17,31 @@ url: /ar/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47018|يمكن أن يؤدي حساب بعض مخططات التحرير والسرد إلى طرح استثناء|التعزيز|
 |CELLSNET-47016|يختلف التفاف النص في أحدث إصدار من Aspose.Cells|التعزيز|
 |CELLSNET-47023|فقد الرسم البياني أثناء تحميل وحفظ ملف ODS|التعزيز|
-|CELLSNET-47056|لم يتم عرض الرسوم البيانية أثناء تحميل وحفظ ملف ODS|التعزيز|
-|CELLSNET-46679|عرض غير صحيح عند تصدير XLSX إلى PDF|حشرة|
-|CELLSNET-46680|رمز الجناح مفقود عند تحويل XLSX إلى PDF|حشرة|
-|CELLSNET-46740|خطأ في الصور أثناء تحويل ملف Excel إلى PDF|حشرة|
-|CELLSNET-46901|يتغير موضع النموذج ثلاثي الأبعاد|حشرة|
-|CELLSNET-46936|لم يتم عرض الخط بشكل جيد في HTML|حشرة|
-|CELLSNET-47013|تختفي الأرقام الموجودة على الرسم البياني القمعي أثناء تحويل ملف Excel إلى PDF|حشرة|
-|CELLSNET-43846|يفقد Pivot Table أسماء الحقول المخصصة والإعداد "إظهار القيمة باسم ..."|حشرة|
-|CELLSNET-46444|تم تغيير قيمة الجدول المحوري بعد استدعاء PivotTable.CalculateData|حشرة|
-|CELLSNET-46484|لا يقوم RefreshData بفرز البيانات قبل فتح الملف في Excel|حشرة|
-|CELLSNET-47010|مشكلة في تنسيق رؤوس مجموعات الجدول المحوري|حشرة|
-|CELLSNET-47024|ترتيب فرز الصفوف غير صحيح في الجداول المحورية مع صف القيم|حشرة|
-|CELLSNET-47034|يتم ضغط عرض العمود وارتفاع الصفوف أثناء تحويل HTML إلى Excel|حشرة|
-|CELLSNET-47007|يظهر خطأ القيمة أثناء تقييم الصيغة|حشرة|
-|CELLSNET-47029|تم استرداد قيمة غير صحيحة TRUE من Cell بدلاً من القيمة FALSE|حشرة|
-|CELLSNET-47052|تالف DateTimeFormat أثناء تحويل Excel إلى PDF|حشرة|
-|CELLSNET-46757|مشاكل أثناء تحويل XLSX إلى PDF|حشرة|
-|CELLSNET-46976|تختفي بعض خطوط الحدود في عرض Excel إلى PDF|حشرة|
-|CELLSNET-47000|صورة نتيجة غير ملائمة بواسطة SheetRender من ملف ods المحمي بكلمة مرور|حشرة|
-|CELLSNET-47025|لم يتم الكشف عن وحدات الماكرو لـ XLSM|حشرة|
-|CELLSNET-47038|لا يتم عرض المخططات الخطية في ملف ODS بشكل جيد عند فتحها أو حفظها عبر Aspose.Cells|حشرة|
-|CELLSNET-47045|تعطل تغيير اسم الوحدة النمطية لـ VBA|حشرة|
-|CELLSNET-47051|لا يزال المخطط مرتبطًا بورقة العمل الأولى بعد النسخ|حشرة|
-|CELLSNET-47053|اكتشاف تنسيق ملف غير صحيح وتعطل العملية أثناء فتح الملف|حشرة|
-|CELLSNET-46922|استثناء أثناء تحميل ملف XLS|استثناء|
+|CELLSNET-47056|لم يتم تقديم المخططات أثناء تحميل وحفظ ملف ODS|التعزيز|
+|CELLSNET-46679|عرض غير صحيح عند تصدير XLSX إلى PDF|خلل برمجي|
+|CELLSNET-46680|رمز الجناح مفقود عند التحويل XLSX إلى PDF|خلل برمجي|
+|CELLSNET-46740|خطأ في الصور أثناء تحويل ملف Excel إلى PDF|خلل برمجي|
+|CELLSNET-46901|يتغير موضع النموذج ثلاثي الأبعاد|خلل برمجي|
+|CELLSNET-46936|لم يتم تقديم الخط بشكل جيد في HTML|خلل برمجي|
+|CELLSNET-47013|يختفي Numbers على الرسم البياني القمعي أثناء تحويل ملف Excel إلى PDF|خلل برمجي|
+|CELLSNET-43846|يفقد Pivot Table أسماء الحقول المخصصة والإعداد "إظهار القيمة باسم ..."|خلل برمجي|
+|CELLSNET-46444|تم تغيير قيمة الجدول المحوري بعد استدعاء PivotTable.CalculateData|خلل برمجي|
+|CELLSNET-46484|لا يقوم RefreshData بفرز البيانات قبل فتح الملف في Excel|خلل برمجي|
+|CELLSNET-47010|مشكلة في تنسيق رؤوس مجموعات الجدول المحوري|خلل برمجي|
+|CELLSNET-47024|ترتيب فرز الصفوف غير صحيح في الجداول المحورية مع صف القيم|خلل برمجي|
+|CELLSNET-47034|تم ضغط عرض العمود وارتفاع الصفوف أثناء تحويل HTML إلى Excel|خلل برمجي|
+|CELLSNET-47007|يظهر خطأ القيمة أثناء تقييم الصيغة|خلل برمجي|
+|CELLSNET-47029|تم استرداد قيمة غير صحيحة TRUE من Cell بدلاً من القيمة FALSE|خلل برمجي|
+|CELLSNET-47052|عطب DateTimeFormat أثناء تحويل Excel إلى PDF|خلل برمجي|
+|CELLSNET-46757|مشاكل أثناء تحويل XLSX إلى PDF|خلل برمجي|
+|CELLSNET-46976|تختفي بعض خطوط الحدود في Excel إلى عرض PDF|خلل برمجي|
+|CELLSNET-47000|صورة نتيجة غير ملائمة بواسطة SheetRender من ملف ods المحمي بكلمة مرور|خلل برمجي|
+|CELLSNET-47025|لم يتم الكشف عن وحدات الماكرو لـ XLSM|خلل برمجي|
+|CELLSNET-47038|لا يتم عرض المخططات الخطية في ملف ODS بشكل جيد عند فتحها أو حفظها عبر Aspose.Cells|خلل برمجي|
+|CELLSNET-47045|تعطل تغيير اسم الوحدة النمطية لـ VBA|خلل برمجي|
+|CELLSNET-47051|لا يزال المخطط مرتبطًا بورقة العمل الأولى بعد النسخ|خلل برمجي|
+|CELLSNET-47053|اكتشاف تنسيق ملف غير صحيح وتعطل العملية أثناء فتح الملف|خلل برمجي|
+|CELLSNET-46922|استثناء أثناء تحميل الملف XLS|استثناء|
 |CELLSNET-46999|تم طرح استثناء عند عرض ملف ods. "المعلمة غير صالحة."|استثناء|
 |CELLSNET-47017|يطرح OpenXML SDK استثناءً عند فتح الملف المحول|استثناء|
 |CELLSNET-47022|استثناء عند تحميل تنسيق ملف XLSX|استثناء|
@@ -75,7 +75,7 @@ url: /ar/net/aspose-cells-for-net-19-12-release-notes/
 الرجاء استخدام (LoadDataFilterOptions.Drawing & ~ LoadDataFilterOptions.Chart) بدلاً من LoadDataFilterOptions.Shape.
 #### **يضيف فئة FormulaParseOptions**
 يوفر خيارات للمستخدم لإعداد الصيغ.
-#### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (string sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
+#### **يضيف طرقًا: Cell.SetFormula (صيغة سلسلة ، خيارات FormulaParseOptions ، قيمة الكائن) ، SetArrayFormula (سلسلة مصفوفة ، صيغة int ، rowNumber ، int عمود ، FormulaParseOptions options) ، SetSharedFormula (سلسلة sharedFormula ، int rowNumber ، int columnNumber ، FormionsParse)**
 يضبط الصيغ مع الخيارات.
 #### **الطرق القديمة: Cell.SetFormula (صيغة سلسلة ، منطقي هو R1C1 ، منطقي isLocal ، قيمة الكائن) ، SetArrayFormula (string arrayFormula ، int rowNumber ، int columnNumber ، bool isR1C1 ، bool isLocal) ، SetSharedFormula (string sharedFormula، int rowNumber ، int row) isR1C1 ، منطقي isLocal)**
 استخدم الطرق المقابلة مع FormulaParseOptions بدلاً من ذلك.
@@ -86,9 +86,9 @@ url: /ar/net/aspose-cells-for-net-19-12-release-notes/
 #### **يضيف فئة EmfRenderSetting**
 مجموعات لعرض ملف تعريف Emf.
 #### **يضيف خاصية PdfSaveOptions.EmfRenderSetting**
-مجموعات لعرض ملف تعريف EMF أثناء التقديم إلى ملف PDF.
+مجموعات لتقديم ملف تعريف EMF أثناء التقديم إلى ملف PDF.
 #### **يضيف طريقة ShapeCollection.AddSvg ()**
-يضيف صورة SVG.
+يضيف SVG صورة.
 #### **يضيف خاصية WorkbookSettings.QuotePrefixToStyle**
 الإشارة إلى ما إذا كان إعداد خاصية Style.QuotePrefix عند إدخال قيمة السلسلة (التي تبدأ بعلامة اقتباس مفردة) في الخلية
 #### **إضافة خاصية HtmlSaveOptions.AddTooltipText**

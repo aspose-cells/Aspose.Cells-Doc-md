@@ -6,11 +6,11 @@ url: /ru/net/get-paper-width-and-height-of-page-setup-of-worksheet/
 ---
 ## **Возможные сценарии использования**
 
-Иногда вам нужно знать ширину и высоту размера бумаги, поскольку он был установлен в настройках страницы рабочего листа. Пожалуйста, используйте[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)а также[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)свойств для этой цели.
+Иногда вам нужно знать ширину и высоту размера бумаги, поскольку он был установлен в настройках страницы рабочего листа. Пожалуйста, используйте[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)свойств для этой цели.
 
 ## **Получить ширину бумаги и высоту страницы настройки рабочего листа**
 
- В следующем примере кода объясняется использование[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) а также[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) характеристики. Сначала он изменяет размер бумаги на*А2*а затем находит ширину и высоту бумаги, затем меняет ее на*А3*, *А4*, *Письмо*и находит ширину и высоту бумаги соответственно.
+ В следующем примере кода объясняется использование[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) и[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) характеристики. Сначала он изменяет размер бумаги на*А2*а затем находит ширину и высоту бумаги, затем меняет ее на*А3*, *А4*, *Письмо*и находит ширину и высоту бумаги соответственно.
 
 ### **Образец кода**
 

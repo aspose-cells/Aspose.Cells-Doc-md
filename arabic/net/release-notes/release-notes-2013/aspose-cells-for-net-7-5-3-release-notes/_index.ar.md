@@ -31,7 +31,7 @@ url: /ar/net/aspose-cells-for-net-7-5-3-release-notes/
 
  41884 - إخراج صورة TIF غير صحيحة
 
- 41865 - تحويل مشكلة (مشاكل) Excel إلى MHTML
+ 41865 - تحويل Excel إلى MHTML مشكلة (مشاكل)
 
 41914 - ملفات تالفة عند دمج المصنفات
 
@@ -50,7 +50,7 @@ url: /ar/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- \ 3) Aspose.Cells.GridDesktop
+ 3) Aspose.Cells.GridDesktop
 
 
 

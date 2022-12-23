@@ -67,7 +67,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Nuova Linea allo Cells** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Nuova Linea allo Cells** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/New.Line.In.Cells.Aspose.Cells.zip)
 

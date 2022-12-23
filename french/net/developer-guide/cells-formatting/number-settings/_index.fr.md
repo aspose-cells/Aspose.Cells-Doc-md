@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/net/cells-number-settings/
 ---
-## **Définition des formats d'affichage des nombres et des dates**
+## **Définition des formats d'affichage de Numbers et des dates**
 
 Une caractéristique très forte de Microsoft Excel est qu'il permet aux utilisateurs de définir les formats d'affichage des valeurs numériques et des dates. Nous savons que les données numériques peuvent être utilisées pour représenter différentes valeurs, notamment des valeurs décimales, monétaires, de pourcentage, de fraction ou comptables, etc. Toutes ces valeurs numériques sont affichées dans différents formats en fonction du type d'informations qu'elles représentent. De même, il existe de nombreux formats dans lesquels une date ou une heure peut être affichée.
 Aspose.Cells prend en charge cette fonctionnalité et permet aux développeurs de définir n'importe quel format d'affichage pour un nombre ou une date.
@@ -16,15 +16,15 @@ Pour définir les formats d'affichage dans Microsoft Excel :
 1. Cliquez avec le bouton droit sur n'importe quelle cellule.
 1.  Sélectionner**Format Cells**. Une boîte de dialogue apparaîtra qui est utilisée pour définir les formats d'affichage de tout type de valeur.
 
- Dans la partie gauche de la boîte de dialogue, il existe de nombreuses catégories de valeurs telles que**Général**, **Numéro**, **Devise**, **Comptabilité**, **Date**, **Temps**, **Pourcentage,**etc. Aspose.Cells prend en charge tous ces formats d'affichage.
+ Dans la partie gauche de la boîte de dialogue, il existe de nombreuses catégories de valeurs telles que**Général**, **Nombre**, **Devise**, **Comptabilité**, **Date**, **Temps**, **Pourcentage,**etc. Aspose.Cells prend en charge tous ces formats d'affichage.
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
 
- Aspose.Cells fournit[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) méthodes pour la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer. Ces méthodes sont utilisées pour obtenir et définir la mise en forme d'une cellule. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)fournit des propriétés utiles pour gérer les formats d'affichage des nombres et des dates.
+ Aspose.Cells fournit[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) méthodes pour la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe. Ces méthodes sont utilisées pour obtenir et définir la mise en forme d'une cellule. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)fournit des propriétés utiles pour gérer les formats d'affichage des nombres et des dates.
 
 ### **Utilisation des formats numériques intégrés**
 
- Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Ces formats numériques intégrés peuvent être appliqués à l'aide de la[**Numéro**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propriété de la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au[**Numéro**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propriété de la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)objet pour appliquer le format d'affichage. Cette approche est rapide. Les formats numériques intégrés pris en charge par Aspose.Cells sont répertoriés ci-dessous.
+ Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Ces formats numériques intégrés peuvent être appliqués à l'aide de la[**Nombre**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propriété de la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au[**Nombre**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number) propriété de la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)objet pour appliquer le format d'affichage. Cette approche est rapide. Les formats numériques intégrés pris en charge par Aspose.Cells sont répertoriés ci-dessous.
 
 |**Évaluer**|**Taper**|**Formater la chaîne**|
 |:- |:- |:- |
@@ -78,14 +78,14 @@ Pour définir les formats d'affichage dans Microsoft Excel :
 
 ### **Utilisation de formats numériques personnalisés**
 
-Pour définir votre propre chaîne de format personnalisée pour définir le format d'affichage, utilisez la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objets[**Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)propriété. Cette approche n'est pas aussi rapide que l'utilisation de formats prédéfinis, mais elle est plus flexible.
+Pour définir votre propre chaîne de format personnalisée pour définir le format d'affichage, utilisez la[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objets[**Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)la propriété. Cette approche n'est pas aussi rapide que l'utilisation de formats prédéfinis, mais elle est plus flexible.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}
 
 {{% alert color="primary" %}}
 
- Si vous utilisez le[**Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) propriété pour définir le format numérique, tout format précédent défini à l'aide de la[**Numéro**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)propriété est remplacée et vice versa.
+ Si vous utilisez le[**Personnalisé**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom) propriété pour définir le format numérique, tout format précédent défini à l'aide de la[**Nombre**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/number)propriété est remplacée et vice versa.
 
 {{% /alert %}}
 

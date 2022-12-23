@@ -28,7 +28,7 @@ Kör kommandot för att slutföra portmappningen:
 
 *iisexpress-proxy 24262 till 82*
 
-![todo:iisexpress kommando](iisproxy_port_map.png)
+![kommandot todo:iisexpress](iisproxy_port_map.png)
 
 Då kan vi öppna demowebbsidan i mobilens webbläsare.
 

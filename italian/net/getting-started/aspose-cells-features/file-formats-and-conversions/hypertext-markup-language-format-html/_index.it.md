@@ -6,10 +6,10 @@ url: /it/net/hypertext-markup-language-format/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells può essere utilizzato per salvare le cartelle di lavoro di Excel in formato HTML. Le cartelle di lavoro HTML esportate sono orientate a Microsoft Excel, ovvero sono simili a quelle esportate da Microsoft Excel. Puoi anche creare cartelle di lavoro da HTML, ma questo HTML dovrebbe essere orientato a Excel.
+Aspose.Cells può essere utilizzato per salvare le cartelle di lavoro di Excel nel formato HTML. Le cartelle di lavoro HTML esportate sono Microsoft orientate a Excel, ovvero sono simili a quelle esportate da Microsoft Excel. Puoi anche creare cartelle di lavoro da HTML ma questo HTML dovrebbe essere orientato a Excel.
 
 {{% /alert %}} 
-## **HTML in Aspose.Cells**
+## **HTML nel Aspose.Cells**
 La soluzione Aspose supporta completamente le seguenti funzionalità del documento durante la conversione in HTML:
 
 - Cell Formattazione dati e testo
@@ -18,11 +18,11 @@ La soluzione Aspose supporta completamente le seguenti funzionalità del documen
 - Bordi, colori dei bordi
 - Immagini, caselle di testo e forme di disegno
 - Collegamenti ipertestuali
-### **Caricamento dell'HTML all'interno dell'oggetto Workbook**
- Si prega di consultare la sottosezione**Apertura di file HTML**in questo articolo che spiega come caricare HTML all'interno dell'oggetto Workbook.
+### **Caricamento di HTML all'interno dell'oggetto Workbook**
+ Si prega di consultare la sottosezione**Apertura file HTML** in questo articolo che spiega come caricare HTML all'interno dell'oggetto Workbook.
 
 - [Apertura di file](/cells/it/net/opening-files-with-different-formats/#openingfileswithdifferentformats-openinghtmlfiles)
 ### **Salvataggio del file Excel in HTML**
-Si prega di consultare il seguente articolo della documentazione che spiega come convertire/salvare le cartelle di lavoro/fogli di calcolo in formato HTML.
+Si prega di consultare il seguente articolo della documentazione che spiega come convertire/salvare le cartelle di lavoro/fogli di calcolo nel formato HTML.
 
 - [Conversione di file Excel in HTML](/cells/it/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktohtml)

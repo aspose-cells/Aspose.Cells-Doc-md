@@ -5,13 +5,13 @@ weight: 70
 url: /zh/java/converting-worksheet-to-svg-in-ruby/
 ---
 ## **Aspose.Cells - 将工作表转换为 SVG**
-要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_至_Converter 模块的 svg() 方法。
+要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为 SVG，只需调用工作表_到_Converter 模块的 svg() 方法。
 
 **红宝石代码**
 
 {{< highlight "ruby" >}}
 
-定义工作表_至_svg（工作簿）
+定义工作表_到_svg（工作簿）
 
 # 在单个页面中将每个工作表转换为 svg 格式。
 

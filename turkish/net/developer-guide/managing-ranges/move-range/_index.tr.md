@@ -14,12 +14,12 @@ Bu makale, çalışma sayfasındaki bir hücre aralığının nasıl taşınaca�
 
 **giriş dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](move-range-of-cells-in-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](move-range-of-cells-in-a-worksheet_1.png)
 
 Lütfen A1:B5 aralığı C1:D5'e taşınan aşağıdaki oluşturulan dosyaya bakın.
 
 **çıktı dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](move-range-of-cells-in-a-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](move-range-of-cells-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Move-Range.cs" >}}

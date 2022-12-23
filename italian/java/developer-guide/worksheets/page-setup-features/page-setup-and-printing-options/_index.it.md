@@ -8,13 +8,13 @@ url: /it/java/page-setup-and-printing-options/
 
 A volte, gli sviluppatori devono configurare l'impostazione della pagina e le impostazioni di stampa per controllare il processo di stampa. L'impostazione della pagina e le impostazioni di stampa offrono varie opzioni e sono completamente supportate in Aspose.Cells.
 
-Questo articolo illustra come creare un'applicazione console e applicare le opzioni di impostazione della pagina e di stampa a un foglio di lavoro con poche semplici righe di codice usando l'API Aspose.Cells.
+Questo articolo mostra come creare un'applicazione console e applicare le opzioni di impostazione della pagina e di stampa a un foglio di lavoro con poche semplici righe di codice utilizzando Aspose.Cells API.
 
 {{% /alert %}}
 
 ## **Utilizzo delle impostazioni di pagina e stampa**
 
-Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e utilizzato Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
+Per questo esempio, abbiamo creato una cartella di lavoro in Microsoft Excel e usiamo Aspose.Cells per impostare l'impostazione della pagina e le opzioni di stampa.
 
 ### **Impostazione delle opzioni di impostazione della pagina**
 
@@ -41,16 +41,16 @@ Per prima cosa crea un semplice foglio di lavoro in Microsoft Excel. Quindi appl
 ![cose da fare:immagine_alt_testo](page-setup-and-printing-options_3.png)
 
 1. Scarica e installa Aspose.Cells:
-   1. [Scarica](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. [Scaricamento](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
  1. Decomprimilo sul tuo computer di sviluppo.
- Tutto[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
+ Tutti[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
 1. Crea un progetto.
- Crea un progetto utilizzando un editor Java, ad esempio Eclipse, oppure crea un semplice programma utilizzando un editor di testo.
+Crea un progetto utilizzando un editor Java, ad esempio Eclipse, oppure crea un semplice programma utilizzando un editor di testo.
 1. Aggiungi un percorso di classe.
 1. Estrarre Aspose.Cells.jar e dom4j_1.6.1.jar da Aspose.Cells.zip.
  1. Imposta il classpath del progetto in Eclipse:
  1. Seleziona il tuo progetto in Eclipse e poi clicca**Progetto** seguito da**Proprietà**.
- 1. Selezionare**Percorso di compilazione Java** sinistra della finestra di dialogo.
+ 1. Selezionare**Java Costruisci Percorso** a sinistra della finestra di dialogo.
  1. Selezionare la scheda Librerie, fare clic su**Aggiungi JAR** o**Aggiungi JAR esterni** per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli ai percorsi di build.
  Oppure puoi impostarlo in fase di esecuzione al prompt di DOS in Windows:
 
@@ -90,7 +90,7 @@ L'esecuzione del codice modifica le opzioni di stampa.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 
-## **Riepilogo**
+## **Sommario**
 
 {{% alert color="primary" %}}
 

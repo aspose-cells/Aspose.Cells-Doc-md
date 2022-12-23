@@ -10,8 +10,8 @@ url: /sv/java/aspose-cells-for-java-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
-Med Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+ Aspose.Cells for Java har uppdaterats till version 8.1.2 och vi är glada att kunna meddela att denna utgåva kommer med över 20 nya användbara förbättringar.
+Genom att använda Aspose.Cells for Java kan du arbeta med XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, 0761737618, 81s andra applikationer, 401s, 401s, 40. Du kan också generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for Java.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
  Följande är en lista över ändringar i denna version av Aspose.Cells for Java.
@@ -28,28 +28,28 @@ Förbättringar
 
 (CELLSJAVA-40900) - Förvirring av offentliga API-metoder
 (CELLSJAVA-40891) - Processen hänger sig när ett fullständigt skadat kalkylblad laddas
-(CELLSJAVA-40883) - Problem med datumformat vid import av CSV
+(CELLSJAVA-40883) - Problem med datumformat vid import CSV
 (CELLSJAVA-40872) - arbetsblad.getCells().importResultSet, tid från datumkolumnen är alltid 00:00
 
 Buggar
 
 (CELLSJAVA-40866) - Konvertering till HTML respekterar inte ImageFormat i SaveOptions
-(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN får cellerna att skifta i resulterande HTML (spanning problem)
+(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN får cellerna att skifta i resulterande HTML (Spanning Problem)
 (CELLSJAVA-40835) - Exportproblem med dolda kolumner i den renderade HTML-filen
 (CELLSJAVA-40879) - Problem med att skapa bild av dataområdet (ark till bild)
 (CELLSJAVA-40878) - Att ställa in vertikal och horisontell upplösning när du sparar kalkylark till Jpeg-bild träder inte i kraft
 (CELLSJAVA-40877) - Excel till PDF - Dålig bildkvalitet renderad av Aspose Cells 8.xx
 (CELLSJAVA-40910) - Bilder går förlorade när PDF renderas med PdfSaveOptions.setImageType(ImageFormat.getPng())
-(CELLSJAVA-40907) - Datapunktsmarkörer saknas i diagrammet när en Excel-mall-fil sparas som HTML
-(CELLSJAVA-40904) - Vissa diagram renderas inte bra till ut HTML-filformat
+(CELLSJAVA-40907) - Datapunktsmarkörer saknas i diagrammet när en Excel-mall sparas som HTML
+(CELLSJAVA-40904) - Vissa diagram renderas inte bra till filformatet HTML
 (CELLSJAVA-40899) - Data Trunked Issue i Sheet18
 (CELLSJAVA-40898) - Data Trunked Issue i Sheet17
 (CELLSJAVA-40886) - Seriemärken trasiga när en Excel-fil sparas på nytt
 (CELLSJAVA-40885) - Diagramexport av saknad datapunktsform i utdatabildformatet
 (CELLSJAVA-40869) - Ekvationer saknar glyfer och viss formaterad text är trunkerad i den renderade PDF-filen
 (CELLSJAVA-40865) - Bilden är inte tydlig i utdata-pdf
-(CELLSJAVA-40860) - Bubbelegenskaper ändrade i diagrammet när mallen XLSX-fil sparades på nytt
-(CELLSJAVA-40859) - Bubbelegenskaper ändrade i diagrammet när mallen XLSX-fil sparades på nytt
+(CELLSJAVA-40860) - Bubbelegenskaper ändrade i diagrammet när mallen XLSX-filen sparades på nytt
+(CELLSJAVA-40859) - Bubbelegenskaper ändrade i diagrammet när mallen XLSX sparades på nytt
 (CELLSJAVA-40858) - Column100PercentStacked eller Bar label-egenskapen har förlorats
 (CELLSJAVA-40817) - Bilden i utdata-pdf:n blir suddig
 (CELLSJAVA-40880) - DateTime-typen upptäcks inte när ett DateTime-värde läggs till vid körning via Aspose.Cells
@@ -57,7 +57,7 @@ Buggar
 
 Undantag
 
-(CELLSJAVA-40901) - Undantag: "Fel i form till bild! " vid rendering till PDF-filformat
+(CELLSJAVA-40901) - Undantag: "Fel i form till bild! " vid rendering till filformatet PDF
 
 
 Offentlig API och bakåtinkompatibla ändringar

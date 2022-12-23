@@ -23,13 +23,13 @@ url: /ja/java/aspose-cells-for-java-8-3-2-release-notes/
 
 新機能
 
-(CELLSJAVA-41144) - HTML の保存時に StyleCollection から Style を削除する機能
+(CELLSJAVA-41144) - 保存時に StyleCollection から Style を削除する機能 HTML
 (CELLSJAVA-41127) - 完全なワークブックのカスタムセパレータを指定
 (CELLSJAVA-41143) - Aspose.Cells で印刷するときにジョブ/ドキュメント名を指定する
 
 機能強化
 
-(CELLSJAVA-41145) - スプレッドシートを HTML にエクスポートする際の CSS のスマートな生成
+(CELLSJAVA-41145) - スプレッドシートを HTML にエクスポートする際の CSS のスマート生成
 (CELLSJAVA-41177) - Cell.setHtmlString は、"<s><span style="color:#ff00ff;">S2</span></s>"
 (CELLSJAVA-41162) - Mac および Linux のデフォルトのフォント ディレクトリをフォント検索リストに追加します。
 
@@ -40,23 +40,23 @@ url: /ja/java/aspose-cells-for-java-8-3-2-release-notes/
 バグ
 
 (CELLSJAVA-41165) - ソース データを更新し、スプレッドシートを PDF にレンダリングした後、ピボットグラフが更新されない
-(CELLSJAVA-41156) - Chart.refreshPivotData により、スプレッドシートを PDF に変換する際にチャート軸の日付が数値に変換されます
-(CELLSJAVA-41154) - PasteType.ALL で範囲を貼り付けると、HTML 出力に余分な行が表示される
+(CELLSJAVA-41156) - Chart.refreshPivotData により、スプレッドシートを PDF に変換する際に、チャート軸の日付が数値に変換されます
+(CELLSJAVA-41154) - PasteType.ALL で範囲を貼り付けると、HTML の出力に余分な行が表示される
 (CELLSJAVA-41151) - 行範囲の取得に対応するコード行を使用する場合と使用しない場合の、出力ピボットテーブル レポートの書式設定に関する奇妙な動作
-(CELLSJAVA-41150) - HTML ファイル形式へのレンダリング時に Numbers 形式に関して FormatCondition がサポートされない
+(CELLSJAVA-41150) - HTML ファイル形式にレンダリングする場合、Numbers 形式に関して FormatCondition がサポートされない
 (CELLSJAVA-41146) - スプレッドシートを HTML に変換する際の境界線のレンダリングが正しくない
 (CELLSJAVA-41134) - XLSB2007TestNewS.xlsb がロードされず、メモリ消費量が増加し続ける
-(CELLSJAVA-41129) - Chrome で出力 HTML を表示すると余分な行が表示される
+(CELLSJAVA-41129) - Chrome で出力 HTML が表示されると余分な行が表示される
 (CELLSJAVA-41122) - Financial を開いて保存する_声明_入力_報告する_Withdata.xlsb が破損する
-(CELLSJAVA-41098) - ピボット テーブルを更新すると、PDF に変換するときにピボット テーブルの書式設定が削除されます
+(CELLSJAVA-41098) - ピボット テーブルを更新すると、PDF に変換するときにピボット テーブルのフォーマットが削除されます
 (CELLSJAVA-41157) - MemorySetting.MEMORY_PREFERENCE により XLS が破損する
-(CELLSJAVA-41149) - スプレッドシートが PDF に変換されるときの時間のレンダリングが正しくない
+(CELLSJAVA-41149) - スプレッドシートが PDF に変換されると、時刻が正しくレンダリングされない
 (CELLSJAVA-41148) - Excel で読み取り不能なコンテンツが見つかりました... ワークブックを開いて保存する際のエラー
 (CELLSJAVA-41141) - Cell が ListObject.putCellValue() メソッドで設定されない
 (CELLSJAVA-41140) - テーブルを拡張しても数式が新しい行にコピーされない
-(CELLSJAVA-41166) - XPS ビューアーは、Aspose.Cells で生成された XPS を開くことができません
-(CELLSJAVA-41163) - SVGエクスポートで無効なファイルが作成される
-(CELLSJAVA-41153) - Shape.toImage は、チャート以外の形状の画像を SVG ではなく BMP 形式で保存します
+(CELLSJAVA-41166) - XPS ビューアーが開けない Aspose.Cells 生成された XPS
+(CELLSJAVA-41163) - SVG エクスポートで無効なファイルが作成される
+(CELLSJAVA-41153) - Shape.toImage は、チャート以外の形状の場合、SVG ではなく BMP 形式で画像を保存します
 (CELLSJAVA-41137) - データラベルのセル範囲値の設定に関する問題
 (CELLSJAVA-41128) - XLSX ファイルを再保存すると、チャートが正しくレンダリングされない
 (CELLSJAVA-41125) - 低解像度で変換するとチャート画像にノイズが発生する
@@ -77,7 +77,7 @@ Public API および下位互換性のない変更
 WorkbookSettings.NumberDecimalSeparator、NumberGroupSeparator プロパティを追加します
 数値の書式設定/解析に使用されるセパレータを取得/設定します。
 
- WorkbookSettings.CheckWriteProtectedPassword() メソッドを追加
+WorkbookSettings.CheckWriteProtectedPassword() メソッドを追加
 パスワードが正しい書き込み禁止パスワードかどうかをチェックします。
 
  Picture.SignatureLine プロパティと SignatureLine クラスを追加します。
@@ -116,7 +116,7 @@ XpsSaveOptions.PageCount プロパティを追加します
 SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを追加
 ワークシートをプリンターにレンダリングします。
 
-WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを追加
+ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを追加
 ワークブックをプリンターにレンダリングします。
 
  PdfSaveOptions.IsFontSubstitutionCharGranularity プロパティを追加
@@ -147,7 +147,7 @@ GridWeb.AutoRefreshChart プロパティを追加します
 
  WorkbookDesigner の廃止された Open() および Save() メソッドを削除します。
 
- WorkbookSettings の廃止された ReCalcOnOpen、Language、Encoding、および ConvertNumericData プロパティを削除します。
+WorkbookSettings の廃止された ReCalcOnOpen、Language、Encoding、および ConvertNumericData プロパティを削除します。
 
  WorksheetCollection の廃止された HidePivotFieldList、EnableHTTPCompression、IsMinimized、IsHidden、SheetTabBarWidth プロパティを削除します。
 
@@ -157,7 +157,7 @@ GridWeb.AutoRefreshChart プロパティを追加します
 
  Worksheet の廃止された HPageBreaks と VPageBreaks を削除します。
 
-HtmlSaveOptions の廃止された DisplayHTMLCrossString と ExportChartImageFormat を削除します。
+ HtmlSaveOptions の廃止された DisplayHTMLCrossString と ExportChartImageFormat を削除します。
 
  SaveOptions の廃止された ExpCellNameToXLSX プロパティを削除します。
 

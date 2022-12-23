@@ -8,7 +8,7 @@ url: /ja/java/autofit-rows-and-columns-in-php/
 ### **行の自動調整**
 行の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitRow メソッドを呼び出すことです。 autoFitRow メソッドは、(サイズ変更する行の) 行インデックスをパラメーターとして受け取ります。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -46,7 +46,7 @@ url: /ja/java/autofit-rows-and-columns-in-php/
 ### **列の自動調整**
 列の幅と高さを自動的にサイズ変更する最も簡単な方法は、Worksheet クラスの autoFitColumn メソッドを呼び出すことです。 autoFitColumn メソッドは、(サイズ変更しようとしている列の) 列インデックスをパラメーターとして受け取ります。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

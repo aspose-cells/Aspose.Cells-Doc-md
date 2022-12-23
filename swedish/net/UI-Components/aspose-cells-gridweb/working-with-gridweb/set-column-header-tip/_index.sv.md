@@ -11,7 +11,7 @@ Ett komplett exempel ges nedan för att demonstrera hur du ändrar kolumns bildt
 
 ![todo:image_alt_text](set-column-header-tip_1.png)
 ## **Exempelkod**
- Här är provmanuset till**ASPX sida**.
+ Här är ett exempel på manuset**ASPX sida**.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-GridWebBasics-SetColumnHeaderTip.aspx" >}}
 

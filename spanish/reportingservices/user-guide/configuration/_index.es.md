@@ -7,7 +7,7 @@ url: /es/reportingservices/configuration/
 ###### **Esta sección contiene los siguientes temas:**
 - [Líneas de cuadrícula](/cells/es/reportingservices/gridlines/)
 - [delimitadores](/cells/es/reportingservices/delimiters/)
-- [Actuación](/cells/es/reportingservices/performance/)
+- [Rendimiento](/cells/es/reportingservices/performance/)
 - [Cifrado](/cells/es/reportingservices/encryption/)
 - [Firmas digitales](/cells/es/reportingservices/digital-signatures/)
 - [Establecer DeviceInfo en rsreportserver.config](/cells/es/reportingservices/set-deviceinfo-in-rsreportserver-config/)

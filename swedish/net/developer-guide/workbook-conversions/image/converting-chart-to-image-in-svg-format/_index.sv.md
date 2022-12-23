@@ -6,9 +6,9 @@ url: /sv/net/converting-chart-to-image-in-svg-format/
 ---
 {{% alert color="primary" %}} 
 
-Scalable Vector Graphics (SVG) är ett XML-baserat vektorbildformat för tvådimensionell grafik som också stöder interaktivitet och animering. SVG-specifikationen är en öppen standard utvecklad av World Wide Web Consortium (W3C) sedan 1999.
+Scalable Vector Graphics (SVG) är ett XML-baserat vektorbildformat för tvådimensionell grafik som även stöder interaktivitet och animering. SVG-specifikationen är en öppen standard utvecklad av World Wide Web Consortium (W3C) sedan 1999.
 
-SVG-bilder och deras beteenden definieras i XML-textfiler. Detta innebär att de kan sökas, indexeras, skriptas och komprimeras. Som XML-filer kan SVG-bilder skapas och redigeras med vilken textredigerare som helst, men de skapas oftare med ritprogram.
+SVG bilder och deras beteenden definieras i XML-textfiler. Detta innebär att de kan sökas, indexeras, skriptas och komprimeras. Som XML-filer kan SVG-bilder skapas och redigeras med vilken textredigerare som helst, men de skapas oftare med ritprogram.
 
 Aspose.Cells kan spara diagram i bilder i olika format som BMP, JPEG, PNG, GIF, SVG etc. Den här artikeln förklarar hur man sparar ett diagram i SVG-format.
 

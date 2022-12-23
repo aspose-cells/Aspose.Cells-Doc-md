@@ -6,7 +6,7 @@ url: /fr/java/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Microsoft Excel Watch Window est un outil utile pour observer les valeurs des cellules et ses formules de manière pratique dans une fenêtre. Vous pouvez ouvrir le*Fenêtre de surveillance*en utilisant Microsoft Excel en cliquant sur le*Formules > Regarder* *Fenêtre*. Il a les*Ajouter une montre*bouton qui peut être utilisé pour ajouter les cellules à inspecter. De même, vous pouvez utiliser[**Feuille de calcul.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) méthode pour ajouter des cellules dans*Fenêtre de surveillance*en utilisant Aspose.Cells API.
+Microsoft Excel Watch Window est un outil utile pour observer les valeurs des cellules et ses formules de manière pratique dans une fenêtre. Vous pouvez ouvrir le*Fenêtre de surveillance*en utilisant Microsoft Excel en cliquant sur le*Formules > Regarder* *La fenêtre*. Il a les*Ajouter une montre*bouton qui peut être utilisé pour ajouter les cellules à inspecter. De même, vous pouvez utiliser[**Feuille de calcul.getCellWatches().add()**](https://reference.aspose.com/cells/java/com.aspose.cells/cellwatchcollection#add(int,%20int)) méthode pour ajouter des cellules dans*Fenêtre de surveillance*en utilisant Aspose.Cells API.
 
 ## **Ajouter Cells à Microsoft Fenêtre de surveillance des formules Excel**
 

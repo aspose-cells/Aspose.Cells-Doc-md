@@ -6,7 +6,7 @@ url: /es/java/merge-files/
 ---
 ## **Introducción**
 
- Aspose.Cells proporciona diferentes formas de combinar archivos. Para archivos simples con datos, formato y fórmulas, el[**Libro de trabajo.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) ) se puede usar para combinar varios libros de trabajo, y el[**Hoja de trabajo.copia(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)se puede usar para copiar hojas de trabajo en un nuevo libro de trabajo. Estos métodos son fáciles de usar y efectivos, pero si tiene muchos archivos para fusionar, es posible que consuman muchos recursos del sistema. Para evitar esto, use el método estático CellsHelper.mergeFiles, una forma más eficiente de fusionar varios archivos.
+ Aspose.Cells proporciona diferentes formas de combinar archivos. Para archivos simples con datos, formato y fórmulas, el[**Libro de trabajo.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) se puede usar para combinar varios libros de trabajo, y el[**Hoja de trabajo.copia(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) se puede usar para copiar hojas de trabajo en un nuevo libro de trabajo. Estos métodos son fáciles de usar y efectivos, pero si tiene muchos archivos para fusionar, es posible que consuman muchos recursos del sistema. Para evitar esto, use el método estático CellsHelper.mergeFiles, una forma más eficiente de fusionar varios archivos.
 
 ## **Combinar archivos usando Aspose.Cells**
 

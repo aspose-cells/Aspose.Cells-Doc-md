@@ -30,15 +30,15 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41554) - Bild saknas vid konvertering från HTML till EXCEL-format
 
- (CELLSJAVA-41549) - XLSB skadad i Excel 2010 efter att ha sparats av Aspose.Cells v8.6.1
+(CELLSJAVA-41549) - XLSB skadad i Excel 2010 efter att ha sparats av Aspose.Cells v8.6.1
 
- (CELLSJAVA-41530) - Klassisk pivottabelllayoutinställning förlorades när mallen XLSB-filen sparades på nytt
+ (CELLSJAVA-41530) - Klassisk pivottabell layoutinställning förlorade när mallen XLSB sparades på nytt
 
  (CELLSJAVA-41558) - Genomsnittliga villkorliga format Få tillagda formler
 
  (CELLSJAVA-41546) - Workbook.calculateFormula-metoder fastnar på obestämd tid
 
-(CELLSJAVA-41544) - problem med japanskt datumformat vid konvertering från "XML Spreadsheet 2003" till XLSX
+ (CELLSJAVA-41544) - Problem med japanskt datumformat vid konvertering från "XML Spreadsheet 2003" till XLSX
 
  (CELLSJAVA-41543) - Problem med CODE()-funktionen för ryska bokstäver
 
@@ -50,17 +50,17 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41559) - Att spara till PDF genererar felaktiga färgskalafärger
 
- (CELLSJAVA-41556) - Att skriva ut den Aspose.Cells genererade PDF-filen ändrar den inbäddade streckkoden i viss mån
+ (CELLSJAVA-41556) - Att skriva ut Aspose.Cells genererade PDF ändrar den inbäddade streckkoden till viss del
 
- (CELLSJAVA-41552) - Bredd och höjd på ett roterat textvärde verkar vara felaktigt
+(CELLSJAVA-41552) - Bredd och höjd på ett roterat textvärde verkar vara felaktigt
 
- (CELLSJAVA-41578) - Diagram till PDF genereras inte precis efter att metoden chart.toPdf(filnamn) har körts
+ (CELLSJAVA-41578) - Diagram till PDF genereras inte precis efter att metoden chart.toPdf(fileName) har körts
 
  (CELLSJAVA-41574) - Avståndsproblem mellan Y-axeln och Legends
 
- (CELLSJAVA-41557) - Skillnaden mellan axeletikettens markeringar ändras från 10 till 20 medan diagram renderas till PDF
+ (CELLSJAVA-41557) - Skillnaden mellan axeletikettens tickmarkeringar ändras från 10 till 20 medan diagrammet renderas till PDF
 
-(CELLSJAVA-41553) - Diagramfärger visar stora förändringar i PDF-utdata
+ (CELLSJAVA-41553) - Diagramfärger visar stora förändringar i PDF-utgången
 
  (CELLSJAVA-41539) - vertikalt axelområde matchar inte källdiagrammet när kalkylbladet renderas till PDF
 
@@ -70,9 +70,9 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41520) - Kartbilden skärs upp från toppen och höger sida
 
- (CELLSJAVA-41509) - Problem med diagramgränser vid rendering av diagram till PDF
+ (CELLSJAVA-41509) - Problem med sjökortsgränser vid rendering av diagram till PDF
 
- (CELLSJAVA-41505) - Höger och nedre kanter trimmas medan diagram renderas till PDF
+(CELLSJAVA-41505) - Höger och nedre kanter trimmas när diagrammet renderas till PDF
 
  (CELLSJAVA-41560) - Hur man får standardfärg på kalkylbladet
 
@@ -86,11 +86,11 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41550) - java.lang.NullPointerException på Workbook.combine
 
-(CELLSJAVA-41564) - NullPointerExceptions som anropar com.aspose.cells.Row
+ (CELLSJAVA-41564) - NullPointerExceptions som anropar com.aspose.cells.Row
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -132,7 +132,7 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
 
 
- Lägger till AjaxCallFinished-evenemang i GridWeb
+Lägger till AjaxCallFinished-evenemang i GridWeb
 
  Avfyras när ajax-uppdateringen av kontrollen är klar. (EnableAJAX ska ställas in på sant).
 
@@ -148,4 +148,4 @@ url: /sv/java/aspose-cells-for-java-8-6-2-release-notes/
 
  Notera
 
-Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.6.2 också inkluderade i denna 076157316.4816.4816.
+ Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, är de flesta ändringar, förbättringar och korrigeringar som ingår i Aspose.Cells for .NET v8.6.2 också inkluderade i denna 076157316.4816.4816.

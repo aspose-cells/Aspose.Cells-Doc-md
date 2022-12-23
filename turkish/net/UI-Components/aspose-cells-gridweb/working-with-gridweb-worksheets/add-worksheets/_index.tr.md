@@ -15,7 +15,7 @@ Aspose.Cells.GridWeb'e bir çalışma sayfası eklemenin en basit yolu, GridWeb 
 
 **Çıktı: GridWeb'e varsayılan ada sahip bir çalışma sayfası eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](add-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](add-worksheets_1.png)
 
 
 
@@ -31,7 +31,7 @@ Varsayılan adlandırma düzenini kullanmak yerine GridWeb denetimine belirli bi
 
 **Çıktı: Belirtilen ada sahip bir çalışma sayfası GridWeb'e eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](add-worksheets_2.png)
+![yapılacaklar:resim_alternatif_metin](add-worksheets_2.png)
 
 
 

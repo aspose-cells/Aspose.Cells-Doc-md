@@ -28,15 +28,15 @@ Uppräkningen innehåller följande fördefinierade spartyper:
 |Anknytning|Skickar kalkylarket till webbläsaren och öppnas i en applikation som en bilaga kopplad till .xls/.xlsx eller andra tillägg|
 |I kö|Skickar dokumentet till webbläsaren och presenterar ett alternativ för att spara kalkylarket på disk eller öppna i webbläsaren|
 
-### **XLS-filer**
+### **XLS Filer**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX-filer**
+### **XLSX Filer**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF-filer**
+### **PDF Filer**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

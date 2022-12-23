@@ -14,7 +14,7 @@ Tüm Excel çalışma sayfalarında varsayılan olarak kılavuz çizgileri bulun
 
  Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kılavuz çizgilerinin görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Emlak.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış** değer.
+ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kılavuz çizgilerinin görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Emlak.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ** değer.
 
  kullanımını gösteren tam bir örnek aşağıda verilmiştir.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) mülkiyeti[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Excel dosyasının ilk çalışma sayfasının kılavuz çizgilerini gizlemek için sınıf.
 
@@ -22,13 +22,13 @@ Aşağıdaki ekran görüntüsünde, Book1.xls dosyasının üç çalışma sayf
 
 **Book1.xls: değişiklikten önce çalışma sayfası görünümü** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-gridlines-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-gridlines-in-aspose-cells_1.png)
 
 Book1.xls dosyası Workbook sınıfı kullanılarak açılır ve ilk çalışma sayfasındaki kılavuz çizgileri gizlenir. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Output.xls: değişiklikten sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-gridlines-in-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 

@@ -12,6 +12,6 @@ url: /es/net/load-source-excel-file-without-charts/
 
 ## **Cargar hoja de cálculo sin gráficos**
 
-El siguiente código de muestra carga el archivo de Excel de muestra sin gráficos y lo guarda en formato PDF de salida.
+El siguiente código de muestra carga el archivo de Excel de muestra sin gráficos y lo guarda en el formato de salida PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

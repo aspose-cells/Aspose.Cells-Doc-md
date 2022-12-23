@@ -16,6 +16,6 @@ Der folgende Code greift auf den ersten Diagrammpunkt der ersten Reihe zu, setzt
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-RichTextCustomData-RichTextCustomData.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Legen Sie den Formtyp der Datenbeschriftungen des Diagramms fest](/cells/de/java/set-the-shape-type-of-data-labels-of-chart/)

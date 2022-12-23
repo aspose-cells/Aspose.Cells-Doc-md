@@ -6,7 +6,7 @@ url: /fr/net/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Par défaut, Aspose.Cells stocke 17 chiffres significatifs de valeurs doubles dans le fichier Excel, contrairement à MS-Excel qui ne stocke que 15 chiffres significatifs. Vous pouvez modifier le comportement par défaut de Aspose.Cells de 17 chiffres significatifs à 15 chiffres significatifs à l'aide de la[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)propriété.
+Par défaut, Aspose.Cells stocke 17 chiffres significatifs de valeurs doubles dans le fichier Excel, contrairement à MS-Excel qui ne stocke que 15 chiffres significatifs. Vous pouvez modifier le comportement par défaut de Aspose.Cells de 17 chiffres significatifs à 15 chiffres significatifs à l'aide de la[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)la propriété.
 
 ## **Spécification des chiffres significatifs à stocker dans le fichier Excel**
 

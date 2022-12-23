@@ -6,9 +6,9 @@ url: /zh/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **介绍**
 
-Aspose.Cells Sitefinity 模块的动态表单允许用户生成动态问卷和调查，将用户输入保存到 Excel 电子表格中，并使用 Aspose.Cells 将结果导出到 Excel、文本、CSV 和 OpenDocument 电子表格中。该模块演示了 Aspose.Cells for .NET 提供的强大的电子表格构建功能。
+Aspose.Cells Sitefinity 模块的动态表单允许用户生成动态问卷和调查，将用户输入保存到 Excel 电子表格中，并将结果导出到 Excel、文本、CSV 和使用 Aspose.Cells 的 OpenDocument 电子表格。该模块演示了 Aspose.Cells for .NET 提供的强大的电子表格构建功能。
 
-|<p>![待办事项：图像_替代_文本](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
+|<p>![待办事项：图片_替代_文本](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |
 
 ### **模块特点**
@@ -17,7 +17,7 @@ Aspose.Cells Sitefinity 模块的动态表单允许用户生成动态问卷和�
 
 - 在 Excel 中保存表单字段设置
 - 将表单的用户输入数据保存到 Excel
-- 允许添加新的和更新现有的表单域
+- 允许添加新的和更新现有的表单字段
 - 允许添加 TextBox、Multiline TextBox、RadioButtons、CheckBox 和 DropDownList、DropDownList 项目类型字段
 - 允许为每个字段添加/更新标签
 - 允许显示/隐藏表单字段
@@ -82,7 +82,7 @@ Aspose.Cells Sitefinity 模块的动态表单允许用户生成动态问卷和�
  1. 完成后，点击**保存更改**.
 1.widget在工具箱中注册，可以在Sitefinity中使用。 (**看** **下图**)
 
-|<p>![待办事项：图像_替代_文本](picture1.png)</p><p></p>|
+|<p>![待办事项：图片_替代_文本](picture1.png)</p><p></p>|
 |:- |
 
 ## **使用和视频演示**
@@ -95,7 +95,7 @@ Aspose.Cells Sitefinity 模块的动态表单允许用户生成动态问卷和�
 1. 导航到要添加插件的页面。确保页面以编辑模式打开。
 1. 来自**拖动小部件**在右侧的菜单中，选择 Aspose Edit/View/Export Form 并将其拖动到位。 (**看** **下图** )
 
-|<p>![待办事项：图像_替代_文本](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
+|<p>![待办事项：图片_替代_文本](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
 |:- |
 
 您已成功将 Aspose.Cells Dynamic Form Builder for Sitefinity 模块添加到您的页面。

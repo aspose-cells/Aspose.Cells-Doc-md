@@ -24,25 +24,25 @@ url: /zh/java/aspose-cells-for-java-8-6-1-release-notes/
 
 (CELLSJAVA-41528) - XLSB 在使用 Aspose.Cells 重新保存后损坏
 
-(CELLSJAVA-41499) - Cell 参考超链接在生成的 HTML 中不起作用
+(CELLSJAVA-41499) - Cell 参考超链接在结果 HTML 中不起作用
 
 (CELLSJAVA-41487) - 计算命名范围公式会产生#NAME？
 
-(CELLSJAVA-41518) - Acrobat Reader 显示处理页面时出错。 There was a problem reading this document (135) error, while loading Aspose.Cells 生成的PDF
+ (CELLSJAVA-41518) - Acrobat Reader 显示处理页面时出错。 There was a problem reading this document (135) 错误，同时加载 Aspose.Cells 生成 PDF
 
- (CELLSJAVA-41515) - 在将图表呈现为 PDF 时数据标签与数据点重叠
+ (CELLSJAVA-41515) - 数据标签在将图表呈现为 PDF 时与数据点重叠
 
 (CELLSJAVA-41513) - Aspose.Cells 无法将具有图表的 excel 文件转换为 pdf
 
- (CELLSJAVA-41504) - 转换为 PDF 文件格式时，呈现的图表图像中缺少 Y 轴值
+ (CELLSJAVA-41504) - 转换为 PDF 文件格式时，渲染图表图像中缺少 Y 轴值
 
 (CELLSJAVA-41501) - 图表中的 X 轴值在输出 PDF/图像中不合适
 
 (CELLSJAVA-41500) - 图表边框在输出 PDF/图像文件中的几个位置断开
 
-(CELLSJAVA-41494) - 单词在 Excel 图表的 PDF/图像输出中似乎是串联的
+(CELLSJAVA-41494) - 单词在 PDF/excel 图表的图像输出中似乎是串联的
 
-(CELLSJAVA-41493) - 长连字符在 Excel 图表的 PDF/图像输出中显示不正确
+(CELLSJAVA-41493) - 长连字符在 PDF/excel 图表的图像输出中显示不正确
 
 (CELLSJAVA-41484) - 返回的图表点数少于点数
 
@@ -64,9 +64,9 @@ url: /zh/java/aspose-cells-for-java-8-6-1-release-notes/
 
 (CELLSJAVA-41502) - 返回不正确的 RadioButon 高度
 
-(CELLSJAVA-41488) - 当电子表格另存为 XLS 时，下拉验证不会应用于多个区域
+(CELLSJAVA-41488) - 当电子表格另存为 XLS 时，下拉验证未应用于多个区域
 
-(CELLSJAVA-41483) - 如果 XLS 文件包含西里尔名称，则宏代码替换会破坏它
+(CELLSJAVA-41483) - 如果 XLS 文件包含西里尔名称，则宏代码替换会破坏该文件
 
 (CELLSJAVA-41461) - 在显示设置为 125% 的情况下重新保存后列宽发生变化
 
@@ -74,7 +74,7 @@ url: /zh/java/aspose-cells-for-java-8-6-1-release-notes/
 
 (CELLSJAVA-41440) - 加载文件时出现水平对齐问题
 
-(CELLSJAVA-41436) - PDF 文件 W 列中的一些额外格式化单元格
+(CELLSJAVA-41436) - PDF 文件的 W 列中的一些额外格式化单元格
 
 (CELLSJAVA-41435) - PDF 中 P 列和 Q 列底部的一些额外格式化单元格
 
@@ -116,6 +116,6 @@ url: /zh/java/aspose-cells-for-java-8-6-1-release-notes/
 
 添加枚举 HtmlLinkTargetType 和 HtmlSaveOptions.LinkTargetType。
 
-用于设置HTML中target属性的类型
+ HTML 用于设置目标属性的类型
 
 也包含在这个 Aspose.Cells for Java v8.6.1 中。

@@ -9,7 +9,7 @@ url: /es/java/aspose-cells-for-java-8-8-2-release-notes/
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 |CELLSJAVA-41848 | Faltan ciertas etiquetas de datos al representar el gráfico en la imagen| Insecto|
-|CELLSJAVA-41850 |CellsException: Cell ha sido eliminado: D9 con MemorySetting.MEMORY_PREFERENCE| Excepción|
+|CELLSJAVA-41850 | CellsException: Cell ha sido eliminado: D9 con MemorySetting.MEMORY_PREFERENCE| Excepción|
 |CELLSJAVA-41844 | Excepción: "¡Error de forma a imagen!" al renderizar una hoja de trabajo a la imagen| Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.

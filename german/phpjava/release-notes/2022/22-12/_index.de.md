@@ -13,21 +13,21 @@ url: /de/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-43645|Das Attribut "3-D-Format" des Rechtecks wird nicht korrekt gerendert|
-|CELLSJAVA-44936|Legen Sie die DPI-Einstellungen für das Diagrammbild (PNG) fest|
+|CELLSJAVA-44936|Diagrammbild (PNG) DPI-Einstellungen festlegen|
 |CELLSJAVA-44937|Legen Sie die DPI-Einstellungen für das Diagrammbild (JPG) fest|
 |CELLSJAVA-44998|Doppeltes Anführungszeichen verursacht Inline-Stil in HTML fehlgeschlagen|
 |CELLSJAVA-44970|Optimieren Sie den Schatteneffekt|
 |CELLSJAVA-44967|Diagramm getDataLabels().getText() gibt in Version 22.6.0 und späteren Versionen einen anderen Wert zurück|
-|CELLSJAVA-44969|Konvertieren Sie Excel in HTML, die Datenbeschriftungen zeigen Fehler an|
+|CELLSJAVA-44969|Konvertieren Sie Excel in HTML, die Datenlabels zeigen Fehler an|
 |CELLSJAVA-44949|Die Transparenz wurde geändert, wenn der Excel-Bereich als Bild mit einem anderen Format in die Folie PowerPoint eingefügt wurde|
-|CELLSJAVA-44985|Excel-zu-HTML-Konvertierung – die Diagrammlegende wird nicht angezeigt und der Diagrammbereich wird abgeschnitten|
+|CELLSJAVA-44985|Konvertierung von Excel in HTML - die Diagrammlegende wird nicht angezeigt und der Diagrammbereich wird abgeschnitten|
 |CELLSJAVA-44952|Problem mit der DataBar.toImage-Methode bezüglich der Breite|
-|CELLSJAVA-44986|Die importierten Bilder werden nicht in einer Linie ausgerichtet, wenn Bilder in Div|
+|CELLSJAVA-44986| Die importierten Bilder werden nicht in einer Linie ausgerichtet, wenn Bilder in Div|
 |CELLSJAVA-44987|Einige Bilder werden beim Laden von HTML von anderen verdeckt|
 |CELLSJAVA-44988|Text wird beim Laden von HTML nicht gedreht|
 |CELLSJAVA-44989|Schrifteinstellungen in div gehen beim Laden von html verloren|
-|CELLSJAVA-44997|Daten und Formatierungen gehen bei der Konvertierung von HTML in Excel verloren|
-|CELLSJAVA-44999| Aspose.Cells Benutzerdefinierte Globalisierungseinstellungen funktionieren für die meisten Pivot-Tabellen nicht|
+|CELLSJAVA-44997|Daten und Formatierungen sind bei der Konvertierung von HTML in Excel verloren gegangen|
+|CELLSJAVA-44999|Aspose.Cells Benutzerdefinierte Globalisierungseinstellungen funktionieren für die meisten Pivot-Tabellen nicht|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

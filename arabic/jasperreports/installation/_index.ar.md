@@ -1,5 +1,5 @@
 ﻿---
-title: تثبيت
+title: التركيب
 type: docs
 weight: 30
 url: /ar/jasperreports/installation/

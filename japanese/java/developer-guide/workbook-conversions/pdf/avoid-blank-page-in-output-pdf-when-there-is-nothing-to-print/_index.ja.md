@@ -6,11 +6,11 @@ url: /ja/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
 ## **考えられる使用シナリオ**
 
-Excel ファイルが空で、ユーザーが Aspose.Cells を使用して PDF に保存すると、出力 PDF に空白のページが表示されます。場合によっては、このデフォルトの動作が望ましくないことがあります。 Aspose.Cells は[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint)この問題に対処するプロパティ。として設定する場合**間違い**、 それから[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)出力 PDF に印刷するものがない場合に発生します。
+Excel ファイルが空で、ユーザーが Aspose.Cells を使用してそれを PDF に保存すると、出力 PDF で空白のページがレンダリングされます。このデフォルトの動作が望ましくない場合があります。 Aspose.Cells は[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint)この問題に対処するプロパティ。として設定する場合**間違い**、 それから[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)出力PDFに印刷するものがない場合は常に発生します。
 
 ## **印刷するものが何もない場合、出力 PDF で空白ページを回避する**
 
-次のサンプル コードでは、空のワークブックを作成し、設定後に出力 PDF として保存します。[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint)プロパティとして**間違い**.出力 PDF には印刷するものが何もないため、[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)下図のように発生します。
+次のサンプル コードでは、空のワークブックを作成し、設定後に出力 PDF として保存します。[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint)プロパティとして**間違い**.出力 PDF には何も出力されないため、[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)下図のように発生します。
 
 ## **サンプルコード**
 

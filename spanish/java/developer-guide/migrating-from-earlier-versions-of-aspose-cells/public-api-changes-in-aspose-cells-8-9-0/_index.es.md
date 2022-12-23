@@ -15,7 +15,7 @@ Aspose.Cells for Java 8.9.0 ha expuesto la propiedad DefaultFontName para la cla
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo sobre[Configuración de la fuente predeterminada para representar hojas de cálculo en formato HTML](/cells/es/java/set-default-font-while-rendering-spreadsheet-to/).
+ Para obtener más detalles sobre esta función, consulte el artículo sobre[Configuración de la fuente predeterminada para la representación de hojas de cálculo en el formato HTML](/cells/es/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 
@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **Se agregó la propiedad ImageOrPrintOptions.DefaultFont**
-Aspose.Cells for Java 8.9.0 permite establecer el nombre de fuente predeterminado para la clase ImageOrPrintOptions al exponer la propiedad DefaultFont. Dicha propiedad se puede usar cuando los caracteres Unicode en la hoja de cálculo no están configurados con la fuente correcta en el estilo de celda, por lo tanto, dichos caracteres pueden aparecer como bloques en las imágenes resultantes.
+ Aspose.Cells for Java 8.9.0 permite establecer el nombre de fuente predeterminado para la clase ImageOrPrintOptions al exponer la propiedad DefaultFont. Dicha propiedad se puede usar cuando los caracteres Unicode en la hoja de cálculo no están configurados con la fuente correcta en el estilo de celda, por lo tanto, dichos caracteres pueden aparecer como bloques en las imágenes resultantes.
 
 {{% alert color="primary" %}} 
 

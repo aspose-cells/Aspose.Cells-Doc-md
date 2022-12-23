@@ -12,7 +12,7 @@ url: /ru/reportingservices/runtime-error-429/
 ##### **Решение**
 {{% alert color="primary" %}} 
 
- Перерегистрировать**Aspose.Cells.ReportingServices.Client.dll** с использованием**Regasm.exe** полезность:
+ Перерегистрировать**Aspose.Cells.ReportingServices.Client.dll** с использованием**Regasm.exe** утилита:
 
 1. Запустите cmd.exe от имени администратора.
 1. cd $(Aspose.Cells for Reporting Services папка установки).

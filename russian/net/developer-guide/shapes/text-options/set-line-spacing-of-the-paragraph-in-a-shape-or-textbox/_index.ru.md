@@ -6,7 +6,7 @@ url: /ru/net/set-line-spacing-of-the-paragraph-in-a-shape-or-textbox/
 ---
 {{% alert color="primary" %}}
 
- Вы можете установить межстрочный интервал абзаца, его интервал до и после с помощью[**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) а также[**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) свойства[**Текстовый Параграф**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph)учебный класс.
+ Вы можете установить межстрочный интервал абзаца, его интервал до и после с помощью[**TextParagraph.LineSpace**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/linespace), [**TextParagraph.SpaceBefore**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spacebefore) и[**TextParagraph.SpaceAfter**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/spaceafter) свойства[**Текстовый Параграф**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph)учебный класс.
 
 {{% /alert %}}
 

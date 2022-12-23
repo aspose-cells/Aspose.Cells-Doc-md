@@ -26,7 +26,7 @@ url: /zh/net/rotating-cell-text/
 本文中的代码示例给出如下所示的输出。
 **带有旋转文本的单元格。**
 
-![待办事项：图像_替代_文本](rotating-cell-text_1.png)
+![待办事项：图片_替代_文本](rotating-cell-text_1.png)
 
 ### **使用 VSTO 旋转文本**
 

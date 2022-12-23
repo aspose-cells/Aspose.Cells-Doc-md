@@ -64,7 +64,7 @@ var book = new Workbook(filePath, options);
 
 
 ### **Konvertera diagram direkt till PDF**
-Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.ToPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av Stream, vilket gör att användarna kan spara diagrammets PDF i en instans av MemoryStream.
+Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.ToPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kunde acceptera en instans av Stream, vilket gör att användarna kan spara sjökortets PDF i en instans av MemoryStream.
 
 Följande är det enkla användningsscenariot.
 

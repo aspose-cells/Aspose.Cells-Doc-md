@@ -38,13 +38,13 @@ url: /ja/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **バグ**
 
 
-(CELLSJAVA-41366) - テンプレート XLSX ファイルを開いて保存すると、スプレッドシートが破損する
+(CELLSJAVA-41366) - テンプレート XLSX ファイルを開いて保存するとスプレッドシートが破損する
 
 (CELLSJAVA-41355) - HTML に変換すると、列の値の末尾に # 文字列が追加されます
 
-(CELLSJAVA-41354) - テキスト ボックス内の数値が内部に表示されない
+(CELLSJAVA-41354) - テキスト ボックスの Numbers が内部に表示されない
 
-(CELLSJAVA-41353) - PDF 内のスマート アートの配置/配置が、ソースの Excel ファイルと一致しない
+(CELLSJAVA-41353) - PDF のスマート アートの配置/配置がソース Excel ファイルと一致しない
 
 (CELLSJAVA-41343) - テンプレート ファイルの元の行よりも結論が長い
 
@@ -56,15 +56,15 @@ url: /ja/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41339) - テンプレート ファイルでテキストとテキストの配置がめちゃくちゃになる
 
-(CELLSJAVA-41336) - HTMLへのエクスポート時のJavaScriptエラー
+(CELLSJAVA-41336) - HTML へのエクスポート時の JavaScript エラー
 
 (CELLSJAVA-41327) - テンプレートファイルのテキストが失われる
 
 (CELLSJAVA-41326) - テンプレートファイルのテキストが失われる
 
-(CELLSJAVA-41304) - Aspose.Cells API での XLS から PDF への変換の失敗
+(CELLSJAVA-41304) - Aspose.Cells API を使用した XLS から PDF への変換の失敗
 
-(CELLSJAVA-41206) - ハイパーリンクを含む Excel ファイルを HTML に変換する - Cell 参照されたハイパーリンクが機能しない
+(CELLSJAVA-41206) - ハイパーリンクを含む Excel ファイルの HTML への変換 - Cell 参照ハイパーリンクが機能しない
 
 (CELLSJAVA-40483) - 矢印の形状/オブジェクトのフォーマットに関する問題 - Excel から PDF へのレンダリング
 
@@ -80,9 +80,9 @@ url: /ja/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41370) - 破損した Excel ドキュメントと LoadOptions を使用してワークブックをインスタンス化すると、ハングが発生します
 
-(CELLSJAVA-41369) - 数式のオートフィルターの問題
+(CELLSJAVA-41369) - 式のオートフィルターの問題
 
-(CELLSJAVA-41348) - 数値形式の条件付き書式が XLS で機能しない
+(CELLSJAVA-41348) - XLS では数値形式の条件付き書式が機能しない
 
 (CELLSJAVA-41347) - Style.isDateTime は、日付としてフォーマットされたセルに対して false を返します
 
@@ -90,25 +90,25 @@ url: /ja/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41331) - 行の挿入後に数式が正しく更新されない
 
-(CELLSJAVA-41330) - PDFとして保存/印刷すると動的印刷領域が壊れる
+(CELLSJAVA-41330) - PDF として保存/印刷すると動的印刷領域が壊れる
 
-(CELLSJAVA-41365) - テキストボックスの一部のヘブライ文字が出力 PDF ファイルにない
+(CELLSJAVA-41365) - 出力 PDF ファイルで欠落しているテキスト ボックスの一部のヘブライ文字
 
-(CELLSJAVA-41346) - グラフの数値軸と項目軸のラベルが黒く塗りつぶされている (Excel から PDF への変換)
+(CELLSJAVA-41346) - グラフの値軸と項目軸のラベルが黒く塗りつぶされている (Excel から PDF への変換)
 
  (CELLSJAVA-41312) - テキストが大きすぎて、余白を超えて拡大しています
 
 (CELLSJAVA-41305) - ワークシートを画像に変換する際に、太字のテキスト文字が重なり合う
 
-(CELLSJAVA-40916) - 改ページの外側のテキストが PDF で折り返されたテキストとしてレンダリングされる
+(CELLSJAVA-40916) - PDF で改ページの外側のテキストが折り返されたテキストとしてレンダリングされる
 
-(CELLSJAVA-40791) - Excel から PDF へのレンダリングでの改ページ、フォントのレンダリング、余白の問題
+(CELLSJAVA-40791) - PDF レンダリングへの Excel での改ページ、フォントのレンダリング、マージンの問題
 
-(CELLSJAVA-40605) - Aspose.Cells: PDF に変換すると、元のセルの一部のテキストが完全に表示される
+(CELLSJAVA-40605) - Aspose.Cells: PDF に変換すると、元のセルで切り取られたテキストが完全に表示される
 
 (CELLSJAVA-40479) - ページ レイアウトの問題 (RTL) レンダリング
 
-(CELLSJAVA-40448) - 生成された PDF ファイルでフッターがめちゃくちゃになる
+(CELLSJAVA-40448) - 生成された PDF ファイルでフッターがおかしくなる
 
 (CELLSJAVA-41359) - 画像への保存中に円グラフの中央に小さな点が表示される
 
@@ -130,7 +130,7 @@ url: /ja/java/aspose-cells-for-java-8-5-0-release-notes/
 
 (CELLSJAVA-41361) - java.lang.NumberFormatException: For input string: "0,00" at Workbook ctor
 
- (CELLSJAVA-41344) - Cells.find での java.lang.NullPointerException
+(CELLSJAVA-41344) - Cells.find での java.lang.NullPointerException
 
 
 ## **Public API および下位互換性のない変更**
@@ -183,7 +183,7 @@ CalculationOptions で式を計算するためのメソッドを追加します:
 
 
 
-ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) のパラメーターの変更
+ ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects) のパラメーターの変更
 
 ここで、対応するパラメータが参照である場合、またはその計算結果が参照である場合に、参照される領域の値または値配列の代わりに、ReferredArea オブジェクトを「paramsList」に追加します。また、contextObjexts から ReferredAreaCollection を削除します。
 

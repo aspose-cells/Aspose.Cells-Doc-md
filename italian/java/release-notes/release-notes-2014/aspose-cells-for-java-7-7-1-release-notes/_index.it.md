@@ -10,8 +10,8 @@ url: /it/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java è stato aggiornato alla versione 7.7.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 20 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Aspose.Cells for Java è stato aggiornato alla versione 7.7.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 20 nuovi utili miglioramenti.
+Usando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, visualizzare e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for Java.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells for Java.
@@ -43,13 +43,13 @@ Altri miglioramenti e modifiche
 Insetti
 
 (CELLSJAVA-40700) - Il valore negativo diventa positivo dopo il calcolo
-(CELLSJAVA-40668) - Il contenuto dell'intestazione viene distorto nel file PDF di output
-(CELLSJAVA-40695) - Da XLSX a PDF: il risultato non ha margini sinistro e destro
+(CELLSJAVA-40668) - Il contenuto dell'intestazione viene distorto nel file di output PDF
+(CELLSJAVA-40695) - da XLSX a PDF: il risultato non ha margini sinistro e destro
 (CELLSJAVA-40698) - Problema con la tabella pivot (modificare il filtro con un altro valore o etichetta)
 (CELLSJAVA-40671) - Cell.getDisplayStyle() non restituisce il colore corretto per la formattazione condizionale Top 10
 (CELLSJAVA-40655) - L'allineamento del testo nella forma viene modificato dal centro a sinistra
-(CELLSJAVA-40572) - Il segnalibro è stato creato per il foglio vuoto anche se il foglio stesso non era presente nel PDF di output
-(CELLSJAVA-40548) - Intestazione carta mancante dopo xlsx salvato in file PDF
+(CELLSJAVA-40572) - Il segnalibro è stato creato per il foglio bianco anche se il foglio stesso non era presente nell'output PDF
+(CELLSJAVA-40548) - Intestazione carta mancante dopo xlsx salvato nel file PDF
 (CELLSJAVA-40564) - Perdita di dati quando il file excel viene convertito in pdf
 (CELLSJAVA-40702) - La tabella pivot non viene aggiornata correttamente
 (CELLSJAVA-40704) - Il valore cambia dopo il calcolo nel file xlsb

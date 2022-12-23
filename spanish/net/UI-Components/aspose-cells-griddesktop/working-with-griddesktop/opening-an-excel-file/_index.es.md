@@ -35,7 +35,7 @@ En este ejemplo, cree una aplicación de escritorio y haga lo siguiente.
 
 Los desarrolladores pueden utilizar el fragmento de código anterior de la forma que deseen. Por ejemplo, si desea cargar un archivo de Excel automáticamente cuando se carga un formulario de Windows, puede agregar este código en el evento Cargar de su formulario.
 ### **Abriendo un archivo CSV**
-Aspose.Cells. El control GridDesktop también admite la carga de archivos CSV. Cree el evento Click del**Abrir archivo CSV** botón y pegue el siguiente código dentro de él.
+Aspose.Cells. El control GridDesktop también admite la carga del archivo CSV. Cree el evento Click del**Abrir archivo CSV** botón y pegue el siguiente código dentro de él.
 
 
 

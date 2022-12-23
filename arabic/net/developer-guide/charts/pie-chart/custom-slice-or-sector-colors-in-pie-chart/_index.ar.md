@@ -12,8 +12,8 @@ url: /ar/net/custom-slice-or-sector-colors-in-pie-chart/
 
 لتعيين لون مخصص للشرائح أو القطاعات الفردية للمخطط الدائري:
 
-1.  الوصول إلى[**سلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) أشياء[**تشارت بوينت**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1.  قم بتعيين لون من اختيارك باستخدام[**مخطط نقطة ، منطقة ، لون المقدمة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)منشأه.
+1.  الوصول إلى[**مسلسل**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) أشياء[**تشارت بوينت**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
+1.  قم بتعيين لون من اختيارك باستخدام[**مخطط نقطة ، منطقة ، لون المقدمة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)خاصية.
 
 تشرح هذه المقالة أيضًا كيفية:
 

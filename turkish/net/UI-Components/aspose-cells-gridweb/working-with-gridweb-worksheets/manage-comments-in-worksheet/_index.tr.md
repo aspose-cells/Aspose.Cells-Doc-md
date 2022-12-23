@@ -20,7 +20,7 @@ Bu konuda, çalışma sayfalarına yorum ekleme, çalışma sayfalarına erişme
 
 **Çalışma sayfasına bir yorum eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](manage-comments-in-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](manage-comments-in-worksheet_1.png)
 
 
 

@@ -6,7 +6,7 @@ url: /es/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
- veces, necesita copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta característica proporcionando el[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) método.
+ A veces, necesita copiar datos de un rango de celdas a otro, copiando solo los datos, no el formato. Aspose.Cells ofrece esta característica proporcionando el[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) método.
 
 {{% /alert %}} 
 ## **Copiar solo datos de rango**

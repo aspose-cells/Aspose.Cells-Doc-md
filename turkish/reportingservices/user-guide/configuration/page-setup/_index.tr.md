@@ -10,12 +10,12 @@ Yapılandırma, iki bölüm ve 8 tür Sayfa Yapısı özelliği içerir. Bu öze
 - **dizin** dışa aktarılan Excel dosyasının çalışma sayfası dizinini temsil eder.
 - **Sayfalara SığdırUzun** yazdırıldığında çalışma sayfasının ölçekleneceği uzun sayfa sayısını temsil eder.
 - **Sayfalara SığdırGeniş** çalışma sayfasının yazdırıldığında ölçekleneceği genişlikteki sayfa sayısını temsil eder.
-- **Altbilgi Kenar Boşluğu**sayfanın altından altbilgiye olan mesafeyi santimetre biriminde temsil eder.
+- **Altbilgi Kenar Boşluğu** sayfanın altından altbilgiye olan mesafeyi santimetre biriminde temsil eder.
 - **Başlık Marjı** sayfanın üstünden başlığa olan mesafeyi santimetre biriminde temsil eder.
 - **sol kenar boşluğu** sol kenar boşluğunun boyutunu santimetre biriminde temsil eder.
 - **sağ kenar boşluğu** sağ kenar boşluğunun boyutunu santimetre biriminde temsil eder.
 - **Üst boşluk** üst kenar boşluğunun boyutunu santimetre biriminde temsil eder.
-- **Alt Marj** alt kenar boşluğunun boyutunu santimetre biriminde temsil eder.
+- **Alt Marj**alt kenar boşluğunun boyutunu santimetre biriminde temsil eder.
 
 Sayfa Kurulumu Yapılandırma Örneği:
 

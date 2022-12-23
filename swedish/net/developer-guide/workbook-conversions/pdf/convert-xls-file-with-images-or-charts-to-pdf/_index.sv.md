@@ -16,6 +16,6 @@ Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagra
 
 {{% alert color="primary" %}} 
 
- Om kalkylarket innehåller formler är det bäst att anropa[Arbetsbok. BeräknaFormel](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) metod precis innan rendering till PDF. Genom att göra det säkerställs att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+ Om kalkylarket innehåller formler är det bäst att anropa[Arbetsbok. BeräknaFormel](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) metod precis innan rendering till PDF. Om du gör det säkerställs att formelberoende värden beräknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

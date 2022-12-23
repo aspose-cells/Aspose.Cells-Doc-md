@@ -8,7 +8,7 @@ keywords: apply cell validation in excel with c#, apply validation on a cell in 
 ---
 {{% alert color="primary" %}}
 
- Puede usar Aspose.Cells para aplicar la validación a una celda. Aspose.Cells proporciona el[**Cell.ObtenerValidación()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) método para este propósito. Si no se aplica ninguna validación en la celda, devuelve nulo.
+Puede usar Aspose.Cells para aplicar la validación a una celda. Aspose.Cells proporciona el[**Cell.ObtenerValidación()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) método para este propósito. Si no se aplica ninguna validación en la celda, devuelve nulo.
 
  Del mismo modo, puede utilizar[**Hoja de trabajo.Validaciones.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) método para adquirir la validación aplicada a una celda proporcionando sus índices de fila y columna.
 

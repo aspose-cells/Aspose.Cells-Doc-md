@@ -6,7 +6,7 @@ url: /fr/java/set-the-values-format-code-of-chart-series/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Vous pouvez définir le code de format des valeurs des séries de graphiques à l'aide de la[**Series.ValuesFormatCode**](https://reference.aspose.com/cells/java/com.aspose.cells/series#ValuesFormatCode)propriété. Cette propriété n'est pas seulement utile pour les séries basées sur la plage à l'intérieur de la feuille de calcul, mais fonctionne également bien pour les séries créées avec un tableau de valeurs.
+Vous pouvez définir le code de format des valeurs des séries de graphiques à l'aide de la[**Series.ValuesFormatCode**](https://reference.aspose.com/cells/java/com.aspose.cells/series#ValuesFormatCode)la propriété. Cette propriété n'est pas seulement utile pour les séries basées sur la plage à l'intérieur de la feuille de calcul, mais fonctionne également bien pour les séries créées avec un tableau de valeurs.
 
 ## **Définir le code de format des valeurs de la série de graphiques**
 

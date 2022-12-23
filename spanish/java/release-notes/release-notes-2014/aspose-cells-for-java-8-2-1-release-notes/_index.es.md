@@ -35,9 +35,9 @@ Insectos
 (CELLSJAVA-40957): la protección de la hoja de trabajo en el modo con licencia hace que MS Excel se bloquee en la vista previa
 (CELLSJAVA-40956): Chart.getName() devuelve un nombre de gráfico incorrecto
 (CELLSJAVA-40952): Series.hasLeaderLines() no devuelve el valor correcto
-(CELLSJAVA-40944) - El PDF incrustado se corrompe después de fusionar libros de trabajo
-(CELLSJAVA-40979): algunos cuadrados están adjuntos a las etiquetas de datos en el gráfico circular en el PDF representado.
-(CELLSJAVA-40975) - Conversión de XLSX a Jpeg - Rendimiento
+(CELLSJAVA-40944): el PDF incorporado se corrompe después de fusionar libros de trabajo
+(CELLSJAVA-40979): algunos cuadrados se adjuntan a las etiquetas de datos en el gráfico circular en el PDF representado.
+(CELLSJAVA-40975) - Conversión XLSX a Jpeg - Rendimiento
 (CELLSJAVA-40973) - Desactivar setExtractContentPermission - La opción "Permiso para copiar o extraer contenido" no funciona
 (CELLSJAVA-40965) - Cells se encuentran en el PDF
 (CELLSJAVA-40962) - Aspose.Cells representa el valor #N/A de manera diferente a MS Excel

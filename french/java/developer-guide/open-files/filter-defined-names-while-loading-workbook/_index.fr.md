@@ -10,7 +10,7 @@ Aspose.Cells vous permet de filtrer ou de supprimer des noms définis présents 
 
 ## **Filtrer les noms définis lors du chargement du classeur**
 
-L'exemple de code suivant charge le[exemple de fichier Excel](61767873.xlsx)qui a une formule dans la cellule C1 contenant les noms définis, c'est-à-dire*=SOMME(MonNom1, MonNom2)*. Depuis, nous utilisons ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)pour supprimer les noms définis lors du chargement du classeur, la formule de la cellule C1 dans[fichier Excel de sortie](61767872.xlsx)rompt et tu vois*#NAME?*Au lieu. Veuillez consulter la capture d'écran suivante qui montre l'effet du code sur l'exemple de fichier Excel.
+L'exemple de code suivant charge le[exemple de fichier Excel](61767873.xlsx)qui a une formule dans la cellule C1 contenant les noms définis, c'est-à-dire*=SOMME(MonNom1, MonNom2)*. Depuis, nous utilisons ~[**LoadDataFilterOptions.DEFINED_NAMES**](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DEFINED_NAMES)pour supprimer les noms définis lors du chargement du classeur, la formule de la cellule C1 dans[fichier Excel de sortie](61767872.xlsx)rompt et tu vois*#NAME?*au lieu. Veuillez consulter la capture d'écran suivante qui montre l'effet du code sur l'exemple de fichier Excel.
 
 ![tâche : image_autre_texte](filter-defined-names-while-loading-workbook_1.png)
 

@@ -13,20 +13,20 @@ Les tableaux ci-dessous résument les fonctionnalités Aspose.Cells for Java et 
 ## **Plates-formes prises en charge**
 Le produit Aspose.Cells for Java couvre la plupart des environnements de développement et des plates-formes de déploiement populaires qui prennent en charge Java.
 
-|**Caractéristique**|**La description**|
+|**Caractéristique**|**Description**|
 |:- |:- |
 |[Java](/cells/fr/java/installation/)|Aspose.Cells for Java est disponible pour les versions 1.6 et ultérieures et fonctionnera partout où Java est installé.|
 ## **Formats de fichiers et conversions**
 De nombreux clients du monde entier font confiance aux fonctionnalités complètes d'importation et d'exportation de documents fournies par Aspose.Cells for Java.
 
-|**Caractéristique**|**La description**|**Aspose.Cells for Java**|
+|**Caractéristique**|**Description**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |Conversions de haute qualité|Convertissez rapidement et de manière fiable entre plusieurs formats de documents populaires.|Oui|
-|Microsoft Classeur Excel (XLS)|L'implémentation de format XLS la plus rapide et la plus complète que vous puissiez trouver.|Oui|
-|TableurML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. En outre,<br>le composant prend en charge tous les principaux formats de fichiers Excel 2007 et versions ultérieures, par exemple XLSX, XLTX, XLSM, XLTM, XLSB, etc.|Oui|
+|Microsoft Classeur Excel (XLS)|L'implémentation du format XLS la plus rapide et la plus complète que vous puissiez trouver.|Oui|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. En outre,<br>le composant prend en charge tous les principaux formats de fichiers Excel 2007 et versions ultérieures, par exemple XLSX, XLTX, XLSM, XLTM, XLSB, etc.|Oui|
 |Valeur séparée par des virgules (CSV)|Prise en charge complète du format CSV pour interagir avec une variété d'applications.|Oui|
-|HTML|Enregistrer au format HTML est disponible.|Oui|
-|OpenDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|Oui|
+|HTML|Enregistrer sous HTML est disponible.|Oui|
+|OuvrirDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|Oui|
 |Format de document portable Adobe (PDF)|Convertissez n'importe quelle feuille de calcul en PDF avec une haute fidélité.|Oui|
 |Onglet délimité|Chargez et enregistrez des documents au format de fichier délimité par des tabulations.|Oui|
 |Texte brut (TXT)|Extrayez facilement du texte en l'enregistrant au format texte brut.|Oui|
@@ -39,7 +39,7 @@ Aspose.Cells for Java fournit désormais un rendu haute fidélité des pages de 
 |Rendre les pages de la feuille de calcul en images raster (PNG, JPEG, BMP, etc.).|Oui|
 |Rendu des pages de feuille de calcul en images vectorielles (EMF).|Oui|
 |Spécifiez la résolution, la qualité, la compression et d'autres options de l'image.|Oui|
-| Imprimez des feuilles de calcul à l'aide de l'infrastructure d'impression Java. Le composant a une méthode d'impression intégrée pour imprimer<br>feuilles de calcul comme indiqué dans l'aperçu avant impression d'Excel Microsoft.|Oui|
+|Imprimez des feuilles de calcul à l'aide de l'infrastructure d'impression Java. Le composant a une méthode d'impression intégrée pour imprimer<br>feuilles de calcul comme indiqué dans l'aperçu avant impression d'Excel Microsoft.|Oui|
 |Mettez à jour les numéros de page et les autres champs avant le rendu ou l'impression.|Oui|
 ## **Fonctionnalités de contenu de feuille de calcul**
 Aspose.Cells for Java fournit un modèle d'objet riche composé de plus de 100 classes/interfaces publiques, qui vous permettent de générer, combiner, modifier, analyser ou examiner par programme des feuilles de calcul chargées. Certaines caractéristiques clés sont données dans le tableau ci-dessous.

@@ -20,7 +20,7 @@ Aspose.Cells unterstützt diese Funktion von Microsoft Excel für Tabellen und L
 
 ![todo: Bild_alt_Text](convert-an-excel-table-to-a-range-of-data_1.gif)
 
-1.  Auf der**Entwurf** Registerkarte, in der**Werkzeug** Gruppe, klicken**In Bereich umwandeln**.
+1.  Auf der**Design** Registerkarte, in der**Werkzeug** Gruppe, klicken**In Bereich umwandeln**.
 
 ![todo: Bild_alt_Text](convert-an-excel-table-to-a-range-of-data_2.gif)
 

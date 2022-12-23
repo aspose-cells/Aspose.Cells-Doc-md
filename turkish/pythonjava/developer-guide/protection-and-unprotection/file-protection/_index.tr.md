@@ -17,7 +17,7 @@ Aspose.Cells for Python, Microsoft Excel dosyalarını istediğiniz şifreleme t
 
 Microsoft Excel'de (burada Microsoft Excel 2003) dosya şifreleme ayarlarını yapmak için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler**Bir iletişim kutusu görünecektir.
+1.  itibaren**Araçlar** menü, seç**Seçenekler**Bir iletişim kutusu görünecektir.
 1.  seçin**Güvenlik** sekme.
 1.  Bir şifre girin ve tıklayın**Gelişmiş**
 1. Şifreleme türünü seçin ve parolayı onaylayın.

@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-6-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-48104|Ottieni il valore di SlicerCacheItem nella raccolta Slicer.SlicerCache.SlicerCacheItems|Nuova caratteristica|
 |CELLSNET-48121|Supporta lo stile personalizzato di Slicer in Xlsb|Nuova caratteristica|
@@ -19,7 +19,7 @@ url: /it/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|I valori delle celle formattate recuperate sono errati nel foglio di lavoro di Excel|Aumento|
 |CELLSNET-48078|Copia completa della cartella di lavoro dopo il calcolo con l'impostazione CreateCalcChain|Aumento|
 |CELLSNET-48079| Come verificare se un foglio di lavoro è vuoto|Aumento|
-|CELLSNET-48135| Problema con cartella di lavoro protetta (con password) generata da Aspose.Cells|Aumento|
+|CELLSNET-48135|Problema con cartella di lavoro protetta (con password) generata da Aspose.Cells|Aumento|
 |CELLSNET-48050| la cpu si blocca sulla cartella di lavoro aperta|Prestazione|
 |CELLSNET-48063|Tme costo quando si chiama l'API Cells.GetRowRawHeightPoint|Prestazione|
 |CELLSNET-48046|L'offset del testo della forma non è corretto (freccia: quad).|Insetto|
@@ -30,30 +30,30 @@ url: /it/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48080|La tabella pivot non può utilizzare "值" o "Valori" come nome di colonna durante la creazione della tabella pivot|Insetto|
 |CELLSNET-48085| Viene eseguito il rendering dell'intestazione di colonna nascosta|Insetto|
 |CELLSNET-48105|Il posizionamento della casella di testo viene modificato durante la conversione di Excel in HTML|Insetto|
-|CELLSNET-48048| Eccezione durante il salvataggio di XLSX con commenti in formato PDF|Insetto|
+|CELLSNET-48048| Eccezione durante il salvataggio di XLSX con commenti nel formato PDF|Insetto|
 |CELLSNET-48082|L'aggiunta di righe superiori a 30 utilizzando ImportCustomObjects genera un file danneggiato|Insetto|
 |CELLSNET-48086|L'intervallo denominato non è stato creato correttamente in 21.5 ma ha funzionato in 21.4|Insetto|
 |CELLSNET-48118|Supporto per aggiornare le formule di matrice dinamica in base all'intervallo versato aggiornato|Insetto|
 |CELLSNET-48081|L'immagine non viene mostrata in GridWeb|Insetto|
 |CELLSNET-48117|Aggiungere GridCell.GetValidation() per GridDesktop|Insetto|
 |CELLSNET-47627|Problemi durante l'accesso/modifica dell'asse X di un grafico Excel utilizzando Aspose.Cells|Insetto|
-|CELLSNET-48041| Il grafico estratto è distorto nel rendering del grafico rispetto all'immagine/PDF|Insetto|
+|CELLSNET-48041| Il grafico estratto è distorto nel grafico rispetto al rendering image/PDF|Insetto|
 |CELLSNET-48049|Diversa spaziatura degli assi durante la conversione da cartella di lavoro xlsx a emf|Insetto|
 |CELLSNET-48101|I caratteri Chinse vengono visualizzati come Rectagle Linux Docker|Insetto|
 |CELLSNET-48061|PowerQuery che scompaiono dopo la sostituzione della query|Insetto|
 |CELLSNET-48065|Il file salvato nuovamente con un valore di intervallo denominato specifico causa il danneggiamento di Excel|Insetto|
 |CELLSNET-48067|SetChartDataRange non ha riconosciuto le celle unite|Insetto|
 |CELLSNET-48072|Leggi grafico vuoto otterrà un tipo di grafico errato|Insetto|
-|CELLSNET-48133|Errore generato da MS Excel durante l'apertura del file XLSX di output|Insetto|
+|CELLSNET-48133|Errore generato da MS Excel durante l'apertura del file di output XLSX|Insetto|
 |CELLSNET-48045|Viene generata un'eccezione durante la conversione di svg in immagine|Eccezione|
 |CELLSNET-48062|Eccezione sollevata durante la conversione da XLS a XLSX|Eccezione|
 |CELLSNET-48074|Il valore non può essere nullo quando si apre il file dei numeri Apple|Eccezione|
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il comportamento della proprietà Cell.IsErrorValue.**
 

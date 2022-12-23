@@ -166,7 +166,7 @@ m_workbook.Save("output.xlsx")
 ### **Eigenschaft OdsSaveOptions.IsStrictSchema11 Hinzugefügt**
 Die Eigenschaft IsStrictSchema11 wurde der OdsSaveOptions-Klasse hinzugefügt, damit die Entwickler die Tabelle in einem Format speichern können, das der ODF v1.2-Spezifikation entspricht. Der Standardwert der Eigenschaft IsStrictSchema11 ist false, d. h. ab Version 8.3.1 der Aspose.Cells-APIs werden die ODS-Dateien standardmäßig im ODF-Format Version 1.2 gespeichert.
 
-Das unten bereitgestellte Code-Snippet speichert die ODS-Datei im ODF 1.2-Format.
+Das unten bereitgestellte Code-Snippet speichert die Datei ODS im ODF 1.2-Format.
 
 **C#**
 
@@ -235,7 +235,7 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Bitte überprüfen Sie den Artikel[ODS-Datei in ODF 1.1- und 1.2-Spezifikationen speichern](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) für mehr Informationen.
+ Bitte überprüfen Sie den Artikel[Speichern Sie die Datei ODS in den ODF 1.1- und 1.2-Spezifikationen](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) für mehr Informationen.
 
 {{% /alert %}} 
 
@@ -243,9 +243,9 @@ m_workbook.Save("ODF1.1.ods", options)
  Aspose.Cells APIs haben die SparklineCollection.Add(string dataRange, int row, int column)-Methode verfügbar gemacht, um den Datenbereich und den Speicherort der Sparkline-Gruppe anzugeben. Bitte beachten Sie, dass Excel die gleiche Funktion durch die folgenden Schritte bietet.
 
 1. Wählen Sie die Zelle aus, die Ihre Sparkline enthält.
-1.  Auswählen**Bearbeiten Sie Daten aus der Sparkline** Abschnitt innerhalb der**Entwurf** Tab
+1.  Wählen**Bearbeiten Sie Daten aus der Sparkline** Abschnitt innerhalb der**Design** Tab
 1.  Wählen**Standort und Daten der Gruppe bearbeiten**.
-1. Angeben**Datenreichweite** & **Ort**.
+1.  Angeben**Datenreichweite** & **Standort**.
 
  Der folgende Beispielcode lädt die Quelltabelle, greift auf die erste Sparkline-Gruppe zu und fügt neue Datenbereiche und Positionen für die Sparkline-Gruppe hinzu.
 

@@ -6,7 +6,7 @@ url: /fr/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Il est possible de supprimer toutes les lignes et colonnes vides d'une feuille de calcul. Ceci est utile par exemple lors de la génération d'un fichier PDF à partir d'un fichier Excel Microsoft et que vous souhaitez convertir uniquement les lignes et les colonnes contenant des données.
+Il est possible de supprimer toutes les lignes et colonnes vides d'une feuille de calcul. Ceci est utile par exemple lorsque vous générez un fichier PDF à partir d'un fichier Excel Microsoft et que vous souhaitez convertir uniquement les lignes et les colonnes contenant des données.
 
 Utilisez les méthodes Aspose.Cells suivantes pour supprimer les lignes et les colonnes vides :
 

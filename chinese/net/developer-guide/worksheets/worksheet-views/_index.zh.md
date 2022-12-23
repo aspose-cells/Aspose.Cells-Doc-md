@@ -3,6 +3,7 @@ title: 工作表视图
 type: docs
 weight: 40
 url: /zh/net/worksheet-views/
+description: 本文将介绍如何使用 C# 和 .NET API 与 Excel 工作簿和工作表的分页预览进行交互。还可以使用拆分窗格、冻结窗格和缩放系数。
 ---
 ## **分页预览**
 
@@ -71,7 +72,7 @@ Aspose.Cells提供了[**工作簿**](https://reference.aspose.com/cells/net/aspo
 - **冻结行**，顶部窗格中可见行的数量。
 - **冻结列**左窗格中可见列的数量
 
-book1.xls 文件通过调用打开[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类的构造函数，同时实例化它，一些行和列在第一个工作表中被冻结。修改后的文件保存为 output.xls。
+ book1.xls 文件通过调用打开[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类的构造函数，同时实例化它，一些行和列在第一个工作表中被冻结。修改后的文件保存为 output.xls。
 
 下面给出了一个完整的示例，说明如何使用[**冻结窗格**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)冻结Excel文件第一个工作表的行和列（从C4开始，用第4行第3列表示，其中行和列从0索引开始）的方法。
 

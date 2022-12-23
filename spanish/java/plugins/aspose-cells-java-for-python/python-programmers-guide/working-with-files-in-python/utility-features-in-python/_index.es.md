@@ -5,7 +5,7 @@ weight: 20
 url: /es/java/utility-features-in-python/
 ---
 **Esta sección incluye los siguientes temas:** 
-- [Convertir archivos de Excel a HTML en Python](/cells/es/java/converting-excel-files-to-html-in-python/)
+- [Conversión de archivos de Excel a HTML en Python](/cells/es/java/converting-excel-files-to-html-in-python/)
 - [Convertir archivos de Excel a PDF en Python](/cells/es/java/converting-excel-to-pdf-files-in-python/)
 - [Conversión a archivos MHTML en Python](/cells/es/java/converting-to-mhtml-files-in-python/)
 - [Conversión de hoja de trabajo a imagen en Python](/cells/es/java/converting-worksheet-to-image-in-python/)

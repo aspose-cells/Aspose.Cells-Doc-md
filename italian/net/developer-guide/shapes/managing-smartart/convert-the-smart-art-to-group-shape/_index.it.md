@@ -14,7 +14,7 @@ Il codice di esempio seguente carica il file[esempio di file Excel](55541793.xls
 
 ![cose da fare:immagine_alt_testo](convert-the-smart-art-to-group-shape_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-ConvertSmartArtToGroupShape.cs" >}}
 

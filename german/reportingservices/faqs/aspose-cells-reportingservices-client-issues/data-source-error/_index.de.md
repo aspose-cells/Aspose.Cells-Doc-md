@@ -12,7 +12,7 @@ url: /de/reportingservices/data-source-error/
 {{% alert color="primary" %}} 
 
 1.  Klicken**Einrichtung der Datenquelle**.
-1.  Auswählen**Datenquelle teilen**.
+1.  Wählen**Datenquelle teilen**.
 1.  Veröffentlichen Sie den Bericht erneut.
 
 ![todo: Bild_alt_Text](data-source-error_2.png)

@@ -23,7 +23,7 @@ url: /fr/net/aspose-cells-for-net-6-0-1-release-notes/
  28414 L'impression de la feuille de calcul prend très longtemps
 
  28405 SheetRender.ToImage() se bloque sans exception ni erreur
-### **Exceptions**
+### **Des exceptions**
  28780 SheetRender API renvoie "Le spécificateur de format n'était pas valide." exception
 
  28961 Erreur de référence d'objet lors de la conversion en PDF
@@ -48,15 +48,15 @@ url: /fr/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28781 Erreur de formule lorsque le nom de feuille avec parenthèse est utilisé
 
- 28571 Cellules déplacées en HTML
+ 28571 Cellules déplacées dans HTML
 
  24963 Image rendue avec des arrière-plans transparents dans la sortie PDF
 
  28697 Problème de filigrane lors de la conversion en PDF
 
- 28610 Un groupe d'objets disparaît lors de la conversion d'Excel en PDF
+ 28610 Le groupe d'objets disparaît lors de la conversion d'Excel en PDF
 
- 28815 Conversion incorrecte de XLS en PDF
+ 28815 Conversion incorrecte de XLS à PDF
 
  28960 Le texte est coupé lors de la conversion en PDF
 
@@ -66,17 +66,17 @@ url: /fr/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28352 Tableau croisé dynamique - colonne récapitulative supplémentaire créée
 
- 28751 Actualiser la fonctionnalité du tableau croisé dynamique
+28751 Actualiser la fonctionnalité du tableau croisé dynamique
 
  28489 Problème lors de la conversion d'un fichier XLSX vide en TIFF
 
-29058 Problème de rendu
+ 29058 Problème de rendu
 
  28929 Obtention d'un bitmap ou d'un format de papier à partir de SheetRender API bogue
 
  24912 L'enregistrement de XLSB avec des filtres de données ajoute une plage nommée non valide
 
- 28782 Problème de génération XLSB lorsque la feuille de calcul contient la validation des données
+ 28782 XLSB problème de génération lorsque la feuille de calcul contient la validation des données
 
  28714 Un problème avec le format de fichier XLSB
 
@@ -96,12 +96,12 @@ url: /fr/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Insectes**
  29289 Problème de rendu de la barre de défilement verticale lors du filtrage des lignes
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 ### **Nouvelles fonctionnalités**
- 26751 Importer des graphiques et des formes à partir d'un fichier Excel
+26751 Importer des graphiques et des formes à partir d'un fichier Excel
 ### **Améliorations**
  28964 Exporter plus de 256 colonnes vers des fichiers Excel 2007
 
-26751 Rendu des images de forme au format EMF au lieu du format JPEG
+ 26751 Rendre les images de forme au format EMF au lieu du format JPEG
 ### **Insectes**
  28808 Mesurer la largeur de la corde

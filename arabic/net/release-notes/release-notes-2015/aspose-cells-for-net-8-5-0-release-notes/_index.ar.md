@@ -40,7 +40,7 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **البق**
 
 
- (CELLSNET-43702) - جدول بيانات تالف بعد فتح وحفظ ملف XLSX النموذجي
+ (CELLSNET-43702) - تلف جدول البيانات بعد فتح وحفظ ملف القالب XLSX
 
  (CELLSNET-43669) - تؤدي إضافة أكثر من 14 حقلاً إلى عامل تصفية تقرير Pivot Table إلى حدوث خطأ
 
@@ -50,13 +50,13 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43705) - يختلف تنسيق التاريخ في ملف pdf
 
- (CELLSNET-43658) - حدث خطأ في حساب استثناء الخلية في حساب الصيغة
+(CELLSNET-43658) - حدث خطأ في حساب استثناء الخلية في حساب الصيغة
 
-(CELLSNET-43329) - حساب الصيغة باستخدام SUMIF يعطي نتيجة مختلفة عن Excel
+ (CELLSNET-43329) - حساب الصيغة باستخدام SUMIF يعطي نتيجة مختلفة عن Excel
 
  (CELLSNET-42598) - مشكلة في حساب الصيغة
 
- (CELLSNET-43715) - Cell تعبئة النقش - تحويل PDF ينتج ملفات كبيرة
+ (CELLSNET-43715) - Cell تعبئة النقش - PDF التحويل ينتج ملفات كبيرة
 
  (CELLSNET-43694) - تم فقد محاذاة النص عند تحويل جدول البيانات إلى صورة
 
@@ -66,19 +66,19 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43690) - يتم اقتطاع النص من الأسفل أثناء تحويل ورقة العمل إلى صورة
 
- (CELLSNET-43676) - لا يحتوي ملف PDF الناتج على العدد الصحيح من الصفحات
+ (CELLSNET-43676) - الإخراج PDF لا يحتوي على عدد الصفحات الصحيح
 
  (CELLSNET-43672) - جودة صورة سيئة أثناء تقديم ورقة العمل إلى PNG
 
- (CELLSNET-43661) - يتم اقتطاع النص أثناء تحويل جدول البيانات إلى PDF
+ (CELLSNET-43661) - يتم اقتطاع النص أثناء تقديم جدول البيانات إلى PDF
 
  (CELLSNET-43644) - لا يتم عرض النص بشكل صحيح
 
- (CELLSNET-43600) - لم يتم تقديم ملف Excel بشكل صحيح
+(CELLSNET-43600) - لم يتم تقديم ملف Excel بشكل صحيح
 
  (CELLSNET-43593) - النص أعلى السطر ومشكلات التنسيق الأخرى في Excel إلى PDF
 
-(CELLSNET-43481) - فقد Cells بكلمات عبرية تناسق RTL
+ (CELLSNET-43481) - فقد Cells بكلمات عبرية تناسق RTL
 
  (CELLSNET-43457) - رمز العملة العربية على الجانب الخطأ
 
@@ -88,7 +88,7 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43102) - الاختلاف في تباعد الخطوط
 
- (CELLSNET-42832) - يتم تقديم النص الموجود خارج فاصل الصفحة في ملف PDF كنص ملفوف
+ (CELLSNET-42832) - يتم تقديم النص خارج فاصل الصفحة في PDF كنص ملفوف
 
  (CELLSNET-42751) - يتجاوز النص الخلية ويتم اقتطاعه
 
@@ -98,21 +98,21 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-42696) - تلامس الشخصيات بعضها البعض بعد التحويل
 
- (CELLSNET-42542) - يتم قطع النص المدمج والتشوه أثناء تحويل XLSX إلى PDF
+ (CELLSNET-42542) - يتم قطع النص المدمج والتواء أثناء تحويل XLSX إلى PDF
 
  (CELLSNET-42537) - تسطير يتداخل مع حد سفلي مزدوج
 
- (CELLSNET-42474) - تم تغيير حجم الخط بعد التحويل إلى PDF
+(CELLSNET-42474) - تم تغيير حجم الخط بعد التحويل إلى PDF
 
- (CELLSNET-42260) - مقارنة ملف PDF الذي تم إنشاؤه مع Aspose.Cells مع MS Excel
+ (CELLSNET-42260) - مقارنة PDF الناتجة مع Aspose.Cells مع MS Excel
 
-(CELLSNET-41519) - لا تصطف الصفحات عند تحويل ملف XLSX إلى PDF
+ (CELLSNET-41519) - الصفحات لا تصطف عند تحويل XLSX ملف إلى PDF
 
  (CELLSNET-43683) - Aspose 8.4.2 يقرأ خصائص المخطط بشكل غير صحيح ويتم تبديلها
 
- (CELLSNET-43680) - لون وسيلة الإيضاح مفقود في ملف PDF الناتج في تحويل Excel إلى PDF
+ (CELLSNET-43680) - لون وسيلة الإيضاح مفقود في ملف الإخراج PDF في Excel لتحويل PDF
 
- (CELLSNET-43679) - مقياس المحور x الأفقي للمخطط مفقود في تنسيق ملف PDF المعروض
+ (CELLSNET-43679) - مقياس المحور x الأفقي للرسم البياني مفقود في تنسيق الملف PDF المعروض
 
  (CELLSNET-43677) - غير قادر على تعيين محور الفئة على محور النص
 
@@ -122,17 +122,17 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43648) - يتم قطع الصورة من مرجع الخلية عند استخدام SheetRender.
 
- (CELLSNET-42922) - يتم إخفاء خطوط البادئة عند التقديم إلى تنسيق ملف PDF
+(CELLSNET-42922) - يتم إخفاء خطوط البادئة عند التقديم إلى تنسيق ملف PDF
 
- (CELLSNET-42376) - تم قطع النص من TextBox أثناء تحويل XLSX إلى PDF
+ (CELLSNET-42376) - تم قطع النص من TextBox أثناء التقديم XLSX إلى PDF
 
- (CELLSNET-42369) - لم يتم تقديم ملف PDF بشكل صحيح
+ (CELLSNET-42369) - PDF لم يتم تقديمه بشكل صحيح
 
-(CELLSNET-43714) - تتم إزالة الشريط المخصص عند معالجة ملف XLSM
+ (CELLSNET-43714) - تتم إزالة الشريط المخصص عند معالجة ملف XLSM
 
  (CELLSNET-43711) - تمدد الصورة المدرجة حديثًا في ورقة العمل رأسياً
 
- (CELLSNET-43665) - حفظ XLS في XLSX أدى إلى إزالة مربعات النص من ورقة العمل
+ (CELLSNET-43665) - حفظ XLS في XLSX أزال مربعات النص من ورقة العمل
 
  (CELLSNET-43664) - يتم تغيير رمز اليورو إلى علامة الدولار عند حفظه كـ ODS
 
@@ -142,13 +142,13 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43649) - IsEncrypted خطأ بالنسبة إلى .xlsx ولكنه صحيح بالنسبة إلى .xls
 
-(CELLSNET-43641) - مشكلة في حساب الصيغ عند تمكين الحساب التكراري
+ (CELLSNET-43641) - مشكلة في حساب الصيغ عند تمكين الحساب التكراري
 
  (CELLSNET-43618) - لا يتم استرداد القيمة بشكل جيد بواسطة واجهات برمجة التطبيقات Aspose.Cells
 
  (CELLSNET-42995) - المصنف. HasRevisions صحيحة ولكنها لا تحتوي على أي مراجعات
 
- (CELLSNET-41753) - عثر Excel على محتوى غير قابل للقراءة في ToolExample_Revised.xlsm
+(CELLSNET-41753) - عثر Excel على محتوى غير قابل للقراءة في ToolExample_Revised.xlsm
 
 
 ## **استثناءات**
@@ -158,7 +158,7 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -172,7 +172,7 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **البق**
 
 
-(CELLSNET-43688) - ارتفاع الصف لبعض الخلايا المدمجة غير صحيح عند تحميل الملف في GridDesktop control
+ (CELLSNET-43688) - ارتفاع الصف لبعض الخلايا المدمجة غير صحيح عند تحميل الملف في GridDesktop control
 
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
@@ -188,7 +188,7 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-يضيف خاصية SheetRender.PageScale.
+ يضيف خاصية SheetRender.PageScale.
 
  يتم استخدامه للحصول على مقياس صفحة محسوب للورقة.
 
@@ -219,13 +219,13 @@ url: /ar/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
- يضيف الطرق: RefifiedArea.GetValues () ، RefifiedArea.GetValue (int rowOffset ، int colOffset)
+يضيف الطرق: RefifiedArea.GetValues () ، RefifiedArea.GetValue (int rowOffset ، int colOffset)
 
  السماح للمستخدم بجلب البيانات من مرجع.
 
 
 
-التغييرات لمعلمات ICustomFunction.CalculateCustomFunction (سلسلة functionName ، ArrayList paramsList ، ArrayList ContextObjects)
+ التغييرات لمعلمات ICustomFunction.CalculateCustomFunction (سلسلة functionName ، ArrayList paramsList ، ArrayList ContextObjects)
 
  نضيف الآن كائن RefifiedArea إلى "paramsList" بدلاً من القيمة أو مصفوفة القيمة للمنطقة المشار إليها عندما تكون المعلمة المقابلة مرجعًا أو تكون نتيجتها المحسوبة مرجعًا. ونقوم بإزالة RefifiedAreaCollection من ContextObjexts.
 

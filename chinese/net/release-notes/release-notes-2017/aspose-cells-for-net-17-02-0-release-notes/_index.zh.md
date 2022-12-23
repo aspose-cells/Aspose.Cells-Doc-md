@@ -27,27 +27,27 @@ url: /zh/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45067|转换为 PDF 花费的时间太长|表现|
 |CELLSNET-45105|当 CultureInfo 是法语时加载 HTML 失败|漏洞|
 |CELLSNET-45089|HTML 到 Excel：Excel 文件已损坏|漏洞|
-|CELLSNET-45072|XLS 中的艺术字不呈现在 HTML 中|漏洞|
-|CELLSNET-45053|未考虑某些 HTML 标记，并且缺少某些内容|漏洞|
+|CELLSNET-45072|XLS 中的艺术字不在 HTML 中呈现|漏洞|
+|CELLSNET-45053|某些 HTML 标签未被考虑在内，某些内容丢失|漏洞|
 |CELLSNET-45039|将 HTML 呈现为 Excel 时不考虑混合样式规则|漏洞|
-|CELLSNET-45036|在导入 HTML 并转换为 XLSX 时修剪标签后的内容|漏洞|
+|CELLSNET-45036|导入 HTML 转换为 XLSX 时标记后的内容被修剪|漏洞|
 |CELLSNET-45035|当部分内容位于 STRONG 标记之间时，整个单元格内容会变为粗体|漏洞|
-|CELLSNET-45033|Cell 内容在导入 HTML 时被修剪|漏洞|
+|CELLSNET-45033|Cell 内容在导入时被修剪 HTML|漏洞|
 |CELLSNET-44336|无法将 Html 正确转换为 XLSX|漏洞|
 |CELLSNET-45096|调用CalculateFormula()后，公式结果错误|漏洞|
 |CELLSNET-45093|SUMPRODUCT 函数不起作用|漏洞|
-|CELLSNET-45085|LOGNORM.DIST 函数的计算值在 PDF 中不正确|漏洞|
+|CELLSNET-45085|PDF LOGNORM.DIST 函数的计算值不正确|漏洞|
 |CELLSNET-44740|自定义 DateTime 模式不能应用于 GridColumn|漏洞|
-|CELLSNET-45130|使用 Excel 导出 PDF 和 Aspose.Cells 另存为 PDF 的不同结果|漏洞|
-|CELLSNET-45095|电子表格中的图片尚未呈现为 PDF|漏洞|
-|CELLSNET-45075|电子表格中的超链接未导出为 PDF|漏洞|
-|CELLSNET-45074|Excel 中的格式问题到 PDF 呈现|漏洞|
-|CELLSNET-45070|在 Mono 上将电子表格转换为 PDF 时不呈现 3D 饼图|漏洞|
-|CELLSNET-41283|从 Excel 和 Aspose.Cells 保存时 PDF 不同|漏洞|
+|CELLSNET-45130|使用 Excel 导出 PDF 和 Aspose.Cells 的不同结果另存为 PDF|漏洞|
+|CELLSNET-45095|电子表格中的图片尚未呈现给 PDF|漏洞|
+|CELLSNET-45075|电子表格中的超链接未导出到 PDF|漏洞|
+|CELLSNET-45074|Excel 中的格式问题到 PDF 渲染|漏洞|
+|CELLSNET-45070|在 Mono 上将电子表格转换为 PDF 时，3D 饼图不呈现|漏洞|
+|CELLSNET-41283|PDF 从 Excel 和 Aspose.Cells 保存时不同|漏洞|
 |CELLSNET-41196|ToTiff 函数问题 - 显示额外的列|漏洞|
 |CELLSNET-41195|ToTiff 功能问题 - 数据丢失|漏洞|
 |CELLSNET-45097|图表在 Workbook.Copy 后丢失标签格式|漏洞|
-|CELLSNET-45084|将电子表格转换为 PDF 时图表值不同|漏洞|
+|CELLSNET-45084|将电子表格转换为 PDF 时图形值不同|漏洞|
 |CELLSNET-45082|加载和保存源 Excel 文件后，选项卡 Chart9 上的图表发生变化|漏洞|
 |CELLSNET-45066|将电子表格转换为 PDF 时形状被水平压缩|漏洞|
 |CELLSNET-45064|将电子表格转换为 PDF 时不呈现轴标签|漏洞|
@@ -55,20 +55,20 @@ url: /zh/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-44410|旋转的形状组错误渲染为图像|漏洞|
 |CELLSNET-45121|重新保存后Excel文档为空|漏洞|
 |CELLSNET-45120|删除范围后图表无法正确计算/刷新|漏洞|
-|CELLSNET-45118|另存为 XLSM 后电子表格损坏|漏洞|
+|CELLSNET-45118|保存为 XLSM 后电子表格损坏|漏洞|
 |CELLSNET-45107|合并工作簿时合并图表后文本框丢失|漏洞|
 |CELLSNET-45104|更改 LinkSource 正在创建双倍条目|漏洞|
 |CELLSNET-45101|更改现有边框的样式似乎不起作用|漏洞|
-|CELLSNET-45094|加载和保存 XLS 后文本位置发生变化|漏洞|
+|CELLSNET-45094|加载和保存后文本位置发生变化 XLS|漏洞|
 |CELLSNET-45090|添加页脚后未保存多选项卡排序顺序|漏洞|
 |CELLSNET-45086|重新保存 Excel 文件后出现额外的复选框和“复选框”文本|漏洞|
 |CELLSNET-45065|通过简单的加载和保存操作添加不需要的单元格边框|漏洞|
 |CELLSNET-45052|加载和保存文件后文本位置发生变化|漏洞|
 |CELLSNET-44835|WebWorksheet.CreateSubtotal 方法中的 System.NotImplementedException|例外|
 |CELLSNET-45068|加载 Excel 文件时抛出异常|例外|
-|CELLSNET-45112|当调用 Pictures.Clear()，然后保存 XLS 时，发生 System.ArgumentOutOfRangeException|例外|
+|CELLSNET-45112|调用Pictures.Clear()，然后Save XLS时，发生System.ArgumentOutOfRangeException|例外|
 |CELLSNET-45111|保存XLS时，出现System.ArgumentOutOfRangeException|例外|
-|CELLSNET-45108|XLSB 工作簿构造函数中的 System.NullReferenceException|例外|
+|CELLSNET-45108|XLSB 的工作簿构造函数中的 System.NullReferenceException|例外|
 |CELLSNET-45103|Range.MoveTo() 抛出异常|例外|
 |CELLSNET-45088|将电子表格呈现为 PDF 文件格式时出现异常|例外|
 |CELLSNET-45080|加载 HTML 文件格式时出现异常|例外|
@@ -199,7 +199,7 @@ foreach (Aspose.Cells.Font font in fonts)
 
 {{< /highlight >}}
 #### **添加了 TxtSaveOptions.TrimLeadingBlankRowAndColumn 属性**
-此版本的 Aspose.Cells for .NET 公开了 TxtSaveOptions 类的布尔类型 TrimLeadingBlankRowAndColumn 属性，指示在将数据导出为 CSV 或制表符分隔格式时是否应像 Excel 那样修剪前导空白行和列。上述属性的默认值为 false。如果工作表上的数据不是从第一个单元格开始，即：A1，Excel 应用程序会在将数据导出为 CSV 或制表符分隔格式时删除前导空白行和列，但是，默认情况下 Aspose.Cells API，保留如果必须使用 Aspose.Cells API 将导出的 CSV 或制表符分隔的文件导入回同一样本的空白行和列，以便保留数据位置。
+此版本的 Aspose.Cells for .NET 公开了 TxtSaveOptions 类的布尔类型 TrimLeadingBlankRowAndColumn 属性，该属性指示在将数据导出为 CSV 或制表符分隔格式时是否应像 Excel 那样修剪前导空白行和列。上述属性的默认值为 false。如果工作表上的数据不是从第一个单元格开始的，即：A1，Excel 应用程序在将数据导出为 CSV 或制表符分隔格式时删除前导空白行和列，但是，Aspose.Cells API 默认保留如果必须使用 Aspose.Cells API 将导出的 CSV 或制表符分隔的文件导回，则同一样本的空白行和列将保留数据位置。
 
 下面是 TrimLeadingBlankRowAndColumn 属性的简单使用场景。
 

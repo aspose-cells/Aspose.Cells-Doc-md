@@ -10,7 +10,7 @@ url: /ja/
 
 **Aspose.Cells for .NET へようこそ**
 
-Aspose.Cells for .NET は、ソフトウェア開発者が独自のアプリケーション内からスプレッドシート ファイルを作成、読み取り、変換、更新、および印刷できるようにするスプレッドシート プログラミング ライブラリです。 API と GUI コントロールの組み合わせ Aspose.Cells for .NET は、Microsoft Excel® プログラミングと変換を高速化します。 Aspose.Cells for .NET は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for .NET は、ソフトウェア開発者が独自のアプリケーション内からスプレッドシート ファイルを作成、読み取り、変換、更新、および印刷できるようにするスプレッドシート プログラミング ライブラリです。 API と GUI コントロールの組み合わせ Aspose.Cells for .NET は、Microsoft Excel® プログラミングと変換を高速化します。 Aspose.Cells for .NET は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF, JPG, PNG, BMP and SVG を含む一般的な画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Aspose.Cells for .NET は、ソフトウェア開発者が独自のアプリケ�
 
 **Aspose.Cells for Java へようこそ**
 
-Aspose.Cells for Java は、アプリケーションでさまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Java は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for Java は、アプリケーションでさまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Java は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF, JPG, PNG, BMP and SVG を含む一般的な画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ Aspose.Cells for Java は、アプリケーションでさまざまなスプレ�
 
 **Aspose.Cells for C++ へようこそ**
 
-Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、および変換できるようにするネイティブ C++ ライブラリです。 Aspose.Cells for C++ は、MS Excel 97-2003 (XLS)、MS Excel 2007-2013/2016 (XLSX、XLSM、XLSB など)、Open Office XML などのスプレッドシート形式をサポートしています。また、ワークシートから画像をレンダリングし、MS Excel スプレッドシートを PDF 形式に変換することもできます。 API を使用すると、チャートや図形を作成、操作、およびレンダリングすることもできます。さらに、公式計算は、コンポーネントによって提供される別の優れた側面であり、それを利用することができます。
+Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Excel アプリケーションを必要とせずにプログラムでスプレッドシートを作成、操作、および変換できるようにするネイティブ C++ ライブラリです。 Aspose.Cells for C++ は、MS Excel 97-2003 (XLS)、MS Excel 2007-2013/2016 (XLSX、XLSM、XLSB など)、Open Office XML などのスプレッドシート形式をサポートしています。ワークシートから画像をレンダリングし、MS Excel スプレッドシートを PDF 形式に変換することもできます。 API を使用すると、チャートや図形を作成、操作、およびレンダリングすることもできます。さらに、公式計算は、コンポーネントによって提供される別の優れた側面であり、それを利用することができます。
 
 {{% /alert %}}
 
@@ -83,7 +83,7 @@ Aspose.Cells for C++ は、C++ 開発者が Office Automation や Microsoft Exce
 
 **Aspose.Cells for Android via Java へようこそ**
 
-Aspose.Cells for Android via Java は、Android アプリケーションが Microsoft Excel を必要とせずに Excel スプレッドシートを作成および管理できるようにする柔軟なコンポーネントです。 Aspose.Cells for Android via Java の究極の目標は、Aspose.Cells for Java のすべての素晴らしい機能を Android プラットフォームにもたらし、Android Studio または Android 開発をサポートする任意の IDE を使用して、Java でネイティブ Android 開発を行うことを可能にすることです。 Aspose.Cells for Android via Java は、ネイティブの Android アプリケーションがさまざまなドキュメント処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Android via Java は、XLS、XLSX、CSV、SpreadsheetML、ODS、タブ区切り、HTML、PDF、XPS およびその他の形式をサポートしています。 Aspose.Cells for Android via Java を使用すると、スプレッドシートを生成、変更、変換、およびレンダリングできます。
+Aspose.Cells for Android via Java は、Android アプリケーションが Microsoft Excel を必要とせずに Excel スプレッドシートを作成および管理できるようにする柔軟なコンポーネントです。 Aspose.Cells for Android via Java の究極の目標は、Aspose.Cells for Java のすべての素晴らしい機能を Android プラットフォームにもたらし、Android Studio または Android 開発をサポートする任意の IDE を使用して、Java でネイティブ Android 開発を行うことを可能にすることです。 Aspose.Cells for Android via Java は、ネイティブの Android アプリケーションがさまざまなドキュメント処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Android via Java は、XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS およびその他の形式をサポートします。 Aspose.Cells for Android via Java を使用すると、スプレッドシートを生成、変更、変換、およびレンダリングできます。
 
 {{% /alert %}}
 
@@ -106,7 +106,7 @@ Aspose.Cells for Android via Java は、Android アプリケーションが Micr
 
 **Aspose.Cells for Node.js via Java へようこそ**
 
-Aspose.Cells for Node.js via Java は、Node.js を使用した Aspose.Cells for Java のすべての便利な機能を示しています。 Aspose.Cells for Node.js via Java は、さまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Node.js via Java はスケーラブルで機能豊富な API で、スプレッドシート形式の変換、ワークシートのスタイリングを最も詳細なレベルに調整、グラフの管理とレンダリング、信頼性の高い数式計算エンジンを提供します。 Aspose.Cells for Node.js via Java は、XLS、XLSX、ODS、SpreadsheetML、CSV、タブ区切り、HTML/MHTML、PDF、XPS およびその他の形式をサポートしています。 Aspose.Cells for Node.js via Java を使用すると、Excel ドキュメントを生成、変更、変換、およびレンダリングできます。
+Aspose.Cells for Node.js via Java は、Node.js を使用した Aspose.Cells for Java のすべての便利な機能を示しています。 Aspose.Cells for Node.js via Java は、さまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for Node.js via Java はスケーラブルで機能豊富な API で、スプレッドシート形式の変換、ワークシートのスタイリングを最も詳細なレベルに調整、グラフの管理とレンダリング、信頼性の高い数式計算エンジンを提供します。 Aspose.Cells for Node.js via Java は XLS、XLSX、ODS、SpreadsheetML、CSV、タブ区切り、HTML/MHTML、その他 4.6 4.613 フォーマットをサポートAspose.Cells for Node.js via Java を使用すると、Excel ドキュメントを生成、変更、変換、およびレンダリングできます。
 
 {{% /alert %}}
 
@@ -130,7 +130,7 @@ Aspose.Cells for Node.js via Java は、Node.js を使用した Aspose.Cells for
 
 **Aspose.Cells for PHP via Java へようこそ**
 
-Aspose.Cells for PHP via Java は、JavaBridge を使用して Aspose.Cells for Java のすべての貴重な機能を提供します。 Aspose.Cells for PHP via Java は、さまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for PHP via Java はスケーラブルで機能豊富な API で、スプレッドシート形式の変換、ワークシートのスタイリングを最も詳細なレベルに調整、チャートの管理とレンダリング、信頼性の高い数式計算エンジンを提供します。 Aspose.Cells for PHP via Java は、XLS、XLSX、ODS、SpreadsheetML、CSV、タブ区切り、HTML/MHTML、PDF、XPS およびその他の形式をサポートしています。 Aspose.Cells for PHP via Java を使用すると、Excel ドキュメントを生成、変更、変換、およびレンダリングできます。
+Aspose.Cells for PHP via Java は、JavaBridge を使用して Aspose.Cells for Java のすべての貴重な機能を提供します。 Aspose.Cells for PHP via Java は、さまざまなスプレッドシート処理タスクを実行できるようにするクラス ライブラリです。 Aspose.Cells for PHP via Java はスケーラブルで機能豊富な API で、スプレッドシート形式の変換、ワークシートのスタイリングを最も詳細なレベルに調整、チャートの管理とレンダリング、信頼性の高い数式計算エンジンを提供します。 Aspose.Cells for PHP via Java は XLS、XLSX、ODS、SpreadsheetML、CSV、タブ区切り、HTML/MHTML、その他 4.6 4.613 フォーマットをサポートAspose.Cells for PHP via Java を使用すると、Excel ドキュメントを生成、変更、変換、およびレンダリングできます。
 
 {{% /alert %}}
 
@@ -154,7 +154,7 @@ Aspose.Cells for PHP via Java は、JavaBridge を使用して Aspose.Cells for 
 
 **Aspose.Cells for Python via Java へようこそ**
 
-Aspose.Cells for Python via Java を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via Java は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for Python via Java を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via Java は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、および SVG を含む一般的な画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 
@@ -243,7 +243,7 @@ Aspose.Cells for SharePoint は、Microsoft SharePoint アプリケーション�
 
 **Aspose.Cells for Python via .NET へようこそ**
 
-Aspose.Cells for Python via .NET を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via .NET は、ビジネスで毎日使用される一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、SVG などの一般的な画像形式にエクスポートすることもできます。
+Aspose.Cells for Python via .NET を使用すると、アプリケーションでさまざまなスプレッドシート処理タスクを実行できます。 Aspose.Cells for Python via .NET は、ビジネスで毎日使用する一般的なスプレッドシート (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) ファイル形式をサポートしています。また、Excel® ファイルを PDF、XPS、HTML、MHTML、プレーン テキスト、および TIFF、JPG、PNG、BMP、および SVG を含む一般的な画像形式にエクスポートすることもできます。
 
 {{% /alert %}}
 

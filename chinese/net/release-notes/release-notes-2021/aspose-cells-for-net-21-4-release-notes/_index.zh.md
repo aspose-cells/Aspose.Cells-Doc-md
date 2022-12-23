@@ -13,7 +13,7 @@ url: /zh/net/aspose-cells-for-net-21-4-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSNET-47891|支持在启用缓存的情况下获取显示样式|新功能|
-|CELLSNET-47922|在 Excel 到 HTML 转换中使用单元格坐标呈现数据|强化|
+|CELLSNET-47922|在 Excel 中使用单元格坐标渲染数据到 HTML 转换|强化|
 |CELLSNET-47924|使用 BouncyCastle 的 API 实现加密|强化|
 |CELLSNET-47951|通过 XSD 支持 XML 映射|强化|
 |CELLSNET-47206|使用水平智能标记和嵌套数据源对数据进行分组|强化|
@@ -23,13 +23,13 @@ url: /zh/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47916|HTML 样式标签占用 4Gb 内存并在加载到工作簿时崩溃|表现|
 |CELLSNET-46869|艺术字和形状在 PDF 中未正确呈现|漏洞|
 |CELLSNET-47890|Pdf转换过程中线条会漂移|漏洞|
-|CELLSNET-47858|形状在 HTML 和 PDF 中未正确呈现|漏洞|
-|CELLSNET-47907|将 Excel 转换为 HTML 时图表的位置发生了变化|漏洞|
+|CELLSNET-47858|HTML 和 PDF 中的形状未正确呈现|漏洞|
+|CELLSNET-47907|将 Excel 转换为 HTML 时图表的位置发生变化|漏洞|
 |CELLSNET-47856|数据透视表的 XLSX 到 PDF 转换问题|漏洞|
 |CELLSNET-47846|GridWeb 实现与最近的 DevExpress 组件不兼容|漏洞|
 |CELLSNET-47923|对于具有 Calibri 以外的默认字体的工作簿，页面布局视图不正确|漏洞|
 |CELLSNET-47965|Excel 到 PDF 的转换 - 文档页面混淆|漏洞|
-|CELLSNET-46161|输出 PDF 中的倾斜文本未正确显示|漏洞|
+|CELLSNET-46161|倾斜文本在输出中未正确显示 PDF|漏洞|
 |CELLSNET-47917|从 Excel 工作表生成的 PDF 中的饼图标签混乱|漏洞|
 |CELLSNET-47919|从图表中提取的错误最大值|漏洞|
 |CELLSNET-46363|嵌套结构未正确导入 XLSX|漏洞|
@@ -43,7 +43,7 @@ url: /zh/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|打开特殊的 mht 文件时抛出异常。|例外|
 |CELLSNET-47944|将切片器形状转换为图像时出现空异常|例外|
 |CELLSNET-47932|加载具有奇怪公式的特殊 xlsx 文件时出现 Null 异常。|例外|
-|CELLSNET-47963|将范围渲染为 PNG 时参数无效异常|例外|
+|CELLSNET-47963|渲染范围为 PNG 时参数无效异常|例外|
 |CELLSNET-47967|保存 XLS 文件时出现溢出错误|例外|
 |CELLSNET-47921|加载特殊 xlsx 文件时出现空异常|例外|
 |CELLSNET-47945|加载特殊的 html 文件时出现空异常|例外|

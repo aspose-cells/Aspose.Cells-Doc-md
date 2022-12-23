@@ -35,10 +35,10 @@ url: /es/net/aspose-cells-for-net-5-1-2-release-notes/
 |**Número de identificación** |**Componente** |**Resumen** |
 |:- |:- |:- |
 |18841 | Gráfico2Imagen| Área de impresión/Gráfico|
-|19065 | pdf| Conversión a PDF a través de Aspose.Cells Texto reducido|
-|19024 | pdf| La apariencia del PDF generado no es la misma que la de Excel|
-|19170 | pdf| Problema con SaveAs PDF - PDF corrupto|
-|19048 | SpreadML|Error al convertir Excel2003XML a XLSX|
+|19065 | pdf| Conversión a PDF a Aspose.Cells Texto reducido|
+|19024 | pdf| La apariencia del PDF generado no es lo mismo que Excel|
+|19170 | pdf|SaveAs PDF Problema - Corrupto PDF|
+|19048 | SpreadML| Error al convertir Excel2003XML a XLSX|
 |18848 | xls| Combinar con gráficos que causan discrepancias en el área de trazado|
 |18791 | xls| Problema de formato condicional a partir de la versión 4.8.1|
 |19052 | xls| Copie Excel con el controlador de eventos del botón de comando|

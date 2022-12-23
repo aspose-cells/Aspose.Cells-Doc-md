@@ -37,7 +37,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 ![tâche : image_autre_texte](using-aspose-cells-griddesktop-in-wpf-application_1.png)
 ## **Ajouter le contrôle Aspose.Cells.GridDesktop à XAML**
- Ajoutez simplement le code ci-dessous dans la balise Grid en XAML. La**WindowsFormsHostWindowsFormsHost** la balise est utilisée pour héberger le contrôle des formulaires Windows et**gridDesktop:GridDesktop** La balise représente le contrôle Aspose.Cells.GridDesktop. Vous pouvez également nommer le contrôle afin qu'il puisse être facilement référencé dans le code.
+ Ajoutez simplement le code ci-dessous dans la balise Grid en XAML. Le**WindowsFormsHostWindowsFormsHost** la balise est utilisée pour héberger le contrôle des formulaires Windows et**gridDesktop:GridDesktop** La balise représente le contrôle Aspose.Cells.GridDesktop. Vous pouvez également nommer le contrôle afin qu'il puisse être facilement référencé dans le code.
 
 {{< highlight "java" >}}
 
@@ -63,4 +63,4 @@ Nous pouvons désormais accéder et utiliser le contrôle Aspose.Cells.GridDeskt
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **Construire et exécuter**
- Maintenant, construisez et exécutez l'application en utilisant**F5** ou**Commencer** bouton sur l'interface utilisateur de Visual Studio.
+ Maintenant, construisez et exécutez l'application en utilisant**F5** ou alors**Démarrer** bouton sur l'interface utilisateur de Visual Studio.

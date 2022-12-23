@@ -6,7 +6,7 @@ url: /it/net/customize-row-and-column-headers/
 ---
 {{% alert color="primary" %}} 
 
-Come Microsoft Excel, Aspose.Cells.GridWeb utilizza anche intestazioni o didascalie standard per righe (numeri come 1, 2, 3 e così via) e colonne (alfabetiche come A, B, C e così via). Aspose.Cells.GridWeb permette anche di personalizzare le didascalie. Questo argomento illustra la personalizzazione delle intestazioni di riga e colonna in fase di esecuzione usando l'API Aspose.Cells.GridWeb.
+Come Microsoft Excel, Aspose.Cells.GridWeb utilizza anche intestazioni o didascalie standard per righe (numeri come 1, 2, 3 e così via) e colonne (alfabetiche come A, B, C e così via). Aspose.Cells.GridWeb permette anche di personalizzare le didascalie. Questo argomento illustra la personalizzazione delle intestazioni di riga e colonna in fase di esecuzione utilizzando Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Personalizzazione dell'intestazione di riga**

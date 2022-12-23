@@ -6,7 +6,7 @@ url: /it/net/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells consente di modificare il tipo di destinazione del collegamento HTML. Il collegamento HTML ha questo aspetto
+Aspose.Cells consente di modificare il tipo di destinazione del collegamento HTML. HTML il collegamento è simile a questo
 
 {{< highlight "java" >}}
 

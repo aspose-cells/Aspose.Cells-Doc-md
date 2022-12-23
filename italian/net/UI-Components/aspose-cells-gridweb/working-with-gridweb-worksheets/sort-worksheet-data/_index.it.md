@@ -6,7 +6,7 @@ url: /it/net/sort-worksheet-data/
 ---
 {{% alert color="primary" %}} 
 
-L'ordinamento è una caratteristica molto preziosa quando si tratta di elaborazione dei dati. I dati non ordinati sono una seccatura per gli utenti durante la ricerca di informazioni specifiche. Aspose.Cells.GridWeb supporta potenti funzionalità di ordinamento. Questo argomento illustra l'ordinamento dei dati tramite l'API Aspose.Cells.GridWeb.
+L'ordinamento è una caratteristica molto preziosa quando si tratta di elaborazione dei dati. I dati non ordinati sono una seccatura per gli utenti durante la ricerca di informazioni specifiche. Aspose.Cells.GridWeb supporta potenti funzionalità di ordinamento. Questo argomento illustra l'ordinamento dei dati utilizzando Aspose.Cells.GridWeb API.
 
 {{% /alert %}} 
 ## **Ordinamento dei dati**

@@ -15,9 +15,9 @@ url: /sv/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50663|Förbättra prestandan för att ta bort tomma kolumner|
 |CELLSNET-50877|Initiera cellens beräknade värde när du ställer in dynamisk matrisformel|
 |CELLSNET-51006|Ta bort metoden SetDataSource(strängvariabel, objekt[]dataArray) metod.|
-|CELLSNET-50685|Problem med att hämta länkade OLE-bilagor i ODS-fil|
+|CELLSNET-50685|Problem med att hämta länkade OLE-bilagor i filen ODS|
 |CELLSNET-50920|Excel till Tiff-konverteringsproblem|
-|CELLSNET-50820| Problem med att exportera JSON-sträng till Excel|
+|CELLSNET-50820| Problem med att exportera JSON-strängen till Excel|
 |CELLSNET-50853|Slicers-filtret försvinner efter att ha sparats om av Aspose.Cells API:er|
 |CELLSNET-50960|Arbetsboken skadad när en XLSM-fil (som innehåller en pivottabell) sparades på nytt med Aspose.Cells|
 |CELLSNET-50648|DIV/0-felet förvandlas till NUM-fel vid beräkning av NPER-funktionen|
@@ -26,15 +26,15 @@ url: /sv/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50781|Formel inte beräknad som i MS Excel|
 |CELLSNET-50861| Innehåller för Cells.Find() fungerar inte med Tilde-tecken|
 |CELLSNET-50879|Cell:s beräknade värde uppdaterades inte vid uppdatering av dynamiska matrisformler med sant värde för parametern "beräkna"|
-|CELLSNET-50992|Värdet för datum och tid ändrades för anpassade dokumentegenskaper efter att ha sparats i ODS|
+|CELLSNET-50992|Värdet för datum och tid ändrades för anpassade dokumentegenskaper efter att ha sparats till ODS|
 |CELLSNET-50953|Inaktivera kopiera/klistra in tangentbord i GridDesktop|
 |CELLSNET-50771| Teckensnittet blir fetstilt under konvertering av Excel till PDF|
 |CELLSNET-50924|Cell bakgrund förlorad efter konvertering till html|
-|CELLSNET-50951|Konvertera Excel till HTML-resultat med problem|
-|CELLSNET-50962| Problem med att avbryta Spara-processen med PdfSaveOptions.OnePagePerSheet-alternativet för stor arbetsbok|
+|CELLSNET-50951|Konvertering av Excel till HTML resulterar i problem|
+|CELLSNET-50962|Problem med att avbryta Spara-processen med PdfSaveOptions.OnePagePerSheet-alternativet för stor arbetsbok|
 |CELLSNET-50997|Prickade cellboxkonturer bryts på höger sida av rutan höjdmässigt|
 |CELLSNET-50865|Diagram till bild - inte renderat korrekt|
-|CELLSNET-50952|XLS till XLSX-konvertering ändrar tvåfärgsgradienten för villkorliga format|
+|CELLSNET-50952|XLS till XLSX konvertering ändrar tvåfärgsgradienten för villkorliga format|
 |CELLSNET-50989|Bredden på automatiskt anpassade kolumner är inte korrekt om celler slås samman.|
 |CELLSNET-50987|Justering av trapetsform resulterar i "System.ArgumentOutOfRangeException"|
 |CELLSNET-50930| Processen kan inte komma åt filundantaget sedan Aspose.Cells 22.1|

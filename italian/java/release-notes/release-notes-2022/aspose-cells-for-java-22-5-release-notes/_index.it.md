@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-22-5-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44554|Migliora il modello LightCells per l'impostazione delle formule|
 |CELLSJAVA-44535|implementare la cella di messa a fuoco con barra di scorrimento verticale/orizzontale scorrimento automatico alla posizione adatta|
@@ -21,15 +21,15 @@ url: /it/java/aspose-cells-for-java-22-5-release-notes/
 |CELLSJAVA-44501| cerca nel prossimo numero il file duohangduolie.zip|
 |CELLSJAVA-44529|implementare la ricerca di freezepane|
 |CELLSJAVA-44530|indagare sul problema di setactivecell a volte non funziona|
-|CELLSJAVA-44534|Grafica nell'area di stampa non esportata nella conversione da Excel a HTML|
+|CELLSJAVA-44534|Grafica nell'area di stampa non esportata in Excel alla conversione HTML|
 |CELLSJAVA-44539|Il grafico viene spostato a destra durante la conversione in html con area di stampa|
 |CELLSJAVA-44568|I sottotitoli su più righe vengono persi tranne la prima riga nella conversione da HTML a XLS|
 |CELLSJAVA-44512|Il grafico non è presente durante l'esportazione del grafico in formato svg in html|
 |CELLSJAVA-44556|Problema con la visualizzazione dei dati nella tabella dati dopo che l'asse delle coordinate è stato impostato su scala logaritmica - Conversione da Excel a HTML/PDF|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifiche per il salvataggio della cartella di lavoro con LightCells**
 

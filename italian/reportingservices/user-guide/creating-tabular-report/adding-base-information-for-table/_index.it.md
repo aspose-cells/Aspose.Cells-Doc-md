@@ -15,7 +15,7 @@ Per creare una nuova tabella:
 
 ![cose da fare:immagine_alt_testo](adding-base-information-for-table_2.png)
 
-1. Apri un foglio di calcolo Microsoft Excel e progetta l'intestazione della tabella come segue:
+1. Apri un foglio di calcolo Excel Microsoft e progetta l'intestazione della tabella come segue:
 
    **Progettazione dell'intestazione della tabella** 
 

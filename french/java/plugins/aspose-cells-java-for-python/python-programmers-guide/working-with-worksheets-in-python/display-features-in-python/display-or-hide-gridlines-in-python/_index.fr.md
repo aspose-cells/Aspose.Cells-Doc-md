@@ -6,7 +6,7 @@ url: /fr/java/display-or-hide-gridlines-in-python/
 ---
 ## **Aspose.Cells - Afficher Masquer le quadrillage**
 ### **Masquer le quadrillage**
- Pour masquer la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , appel**affichermasquerleslignesdegrille** module.
+ Pour masquer la feuille de calcul à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**affichermasquerleslignesdegrille** module.
 
 **Code Python**
 

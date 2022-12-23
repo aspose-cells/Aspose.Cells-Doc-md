@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-8-1-0-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java wurde auf Version 8.1.0 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version 10 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -27,10 +27,10 @@ Verbesserungen
 Fehler
 
 (CELLSJAVA-40809) – Einige Farben werden direkt vor der Spalte in einer Tabelle angezeigt
-(CELLSJAVA-40814) – Bilder fehlen im resultierenden PDF, wenn die Tabelle unter Ubuntu konvertiert wird
-(CELLSJAVA-40826) – Gitternetzlinien und Schriftarteinstellungen fehlen im Ausgabe-HTML
+(CELLSJAVA-40814) – Bilder fehlen im Ergebnis PDF, wenn die Tabelle unter Ubuntu konvertiert wird
+(CELLSJAVA-40826) – Gitternetzlinien und Schriftarteinstellungen fehlen in der Ausgabe HTML
 (CELLSJAVA-40829) – Die Druckqualität von Arbeitsblättern kann nicht eingestellt werden
-(CELLSJAVA-40838) – Druckkopien werden für das XLS-Format, aber nicht für das XLSX-Format beibehalten
+(CELLSJAVA-40838) – Druckkopien bleiben für das Format XLS erhalten, aber nicht für das Format XLSX
 
 Ausnahmen
 

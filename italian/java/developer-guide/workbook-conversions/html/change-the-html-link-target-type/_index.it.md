@@ -6,7 +6,7 @@ url: /it/java/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells consente di modificare il tipo di destinazione del collegamento HTML. Il collegamento HTML ha questo aspetto:
+Aspose.Cells consente di modificare il tipo di destinazione del collegamento HTML. HTML il link si presenta così:
 
 {{< highlight "java" >}}
 
@@ -23,6 +23,6 @@ Come puoi vedere, l'attributo target nel link HTML sopra è **_self**. Puoi cont
 
 {{% /alert %}} 
 ## **Modificare il tipo di destinazione del collegamento HTML**
- Il codice seguente illustra l'utilizzo di[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) proprietà. Cambia il tipo di destinazione del collegamento in**vuoto**. Per impostazione predefinita, è il**genitore** . Puoi ottenere il[file excel di origine](5472932.xlsx) da questo collegamento è tuttavia possibile utilizzare qualsiasi file excel che contenga un collegamento ipertestuale HTML al suo interno per eseguire questo codice.
+ Il codice seguente illustra l'utilizzo di[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType) proprietà. Cambia il tipo di destinazione del collegamento in**vuoto**. Per impostazione predefinita, è il**genitore** . Puoi ottenere il[file excel di origine](5472932.xlsx) da questo collegamento tuttavia è possibile utilizzare qualsiasi file excel che contenga al suo interno un collegamento ipertestuale HTML per eseguire questo codice.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

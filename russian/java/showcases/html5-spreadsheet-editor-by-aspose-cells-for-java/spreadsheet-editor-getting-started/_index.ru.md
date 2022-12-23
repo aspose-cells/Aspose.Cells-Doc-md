@@ -6,22 +6,22 @@ url: /ru/java/spreadsheet-editor-getting-started/
 ---
 **Оглавление**
 
-- [Введение](#SpreadsheetEditorGettingStarted-Introduction)
+- [Вступление](#SpreadsheetEditorGettingStarted-Introduction)
 - [Системные Требования](#SpreadsheetEditorGettingStarted-SystemRequirements)
 - [Загрузка и установка](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
 - [Поддерживать](#SpreadsheetEditorGettingStarted-Support)
 - [Делать вклад](#SpreadsheetEditorGettingStarted-Contribute)
 - [Лицензия](#SpreadsheetEditorGettingStarted-License)
-### **Введение**
+### **Вступление**
 Редактор электронных таблиц Html5 — это веб-приложение, которое может просматривать и редактировать электронные таблицы в веб-браузере. Он поддерживает Excel, SpreadsheetML, CVS, OpenDocument и многие другие форматы, поддерживаемые Microsoft Excel. Поддерживаются все основные функции, включая редактирование ячеек, форматирование, редактирование формул, управление строками и столбцами и т. д.
 
 ![дело:изображение_альтернативный_текст](aowcrc1.png)
 
- Редактор электронных таблиц HTML5 использует многие функции[Aspose.Cells for Java](https://products.aspose.com/cells/java/)и показывает, как использовать их для создания, обработки и визуализации электронных таблиц в вашем приложении Java.
+ Редактор электронных таблиц HTML5 использует многие функции[Aspose.Cells for Java](https://products.aspose.com/cells/java/) и показывает, как использовать их для создания, обработки и визуализации электронных таблиц в вашем приложении Java.
 
 **Функции**
 
--  Работа с файлами
+- Работа с файлами
  - Поддерживаемые форматы
  - Открыть локальные файлы
  - Открыть из Dropbox
@@ -126,7 +126,7 @@ url: /ru/java/spreadsheet-editor-getting-started/
 
 - Загрузите исходный код проекта.
 - Откройте проект в среде IDE NetBeans.
--  Нажмите***Бежать*** кнопка на панели инструментов.
+-  Нажмите***Бег*** кнопка на панели инструментов.
 -  Выбирать***Стеклянная рыба*** сервер в качестве сервера приложений.
 
 **Использование затмения**
@@ -135,7 +135,7 @@ url: /ru/java/spreadsheet-editor-getting-started/
 
 1. Установите M2Eclipse в Eclipse IDE. Процедура установки описана на их сайте.
 1. Загрузите исходный код проекта.
-1. Открой***импорт*** диалоговое окно из меню «Файл».
+1. Открыть***импорт*** диалоговое окно из меню «Файл».
 1.  Выбирать***Maven Проект*** из диалогового окна импорта.
 1.  Нажмите***Следующий***.
 1.  Нажмите***Просматривать*** для выбора местоположения исходного кода.
@@ -158,7 +158,7 @@ Eclipse IDE должна импортировать и загрузить про
 
 **Aspose.Cells for Java Форумы**
 
- Aspose форумы по продуктам обеспечивают полную поддержку как для пробных, так и для платных клиентов. Эксперты работают круглосуточно и без выходных, чтобы помочь и ответить на вопросы. Посещать[форумы по продуктам здесь](https://forum.aspose.com/c/cells/9).
+ Aspose форумы по продуктам обеспечивают полную поддержку как для пробных, так и для платных клиентов. Эксперты работают круглосуточно и без выходных, чтобы помочь и ответить на вопросы. Посетить[форумы по продуктам здесь](https://forum.aspose.com/c/cells/9).
 
 **Aspose Блоги**
 
@@ -166,7 +166,7 @@ Eclipse IDE должна импортировать и загрузить про
 ### **Делать вклад**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[задача:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Электронная таблица_редактор_по_Aspose.Cells_за_Java)
+[!\[задача:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Электронная таблица_редактор_к_Aspose.Cells_за_Java)
 
 
 Редактор электронных таблиц HTML5 — это проект с открытым исходным кодом, который позволяет каждому внести свой вклад в проект.

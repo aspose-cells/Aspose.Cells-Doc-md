@@ -14,13 +14,13 @@ Comment créer un tableau croisé dynamique explique comment créer un tableau c
 
 ### **Définition des options de format de tableau croisé dynamique**
 
- La[**Tableau croisé dynamique**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)La classe contrôle le tableau croisé dynamique global et peut être formatée de plusieurs façons.
+ Le[**Tableau croisé dynamique**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)La classe contrôle le tableau croisé dynamique global et peut être formatée de plusieurs façons.
 
 #### **Définition du type de format automatique**
 
 Microsoft Excel propose un certain nombre de formats de rapport prédéfinis différents. Aspose.Cells prend également en charge ces options de formatage. Pour y accéder :
 
-1.  Régler[**PivotTable.IsAutoFormatPivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) à**vrai**.
+1.  Ensemble[**PivotTable.IsAutoFormatPivotTable.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat) à**vrai**.
 1.  Attribuez une option de formatage à partir du[**PivotTableAutoFormatTypePivotTableAutoFormatType**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)énumération.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}
@@ -39,7 +39,7 @@ L'exemple de code ci-dessous montre comment formater le tableau croisé dynamiqu
 
 ### **Définition des options de format de champ croisé dynamique**
 
- La[**Champ Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)La classe représente un champ dans un tableau croisé dynamique et peut être formatée de plusieurs façons. L'exemple de code ci-dessous montre comment :
+ Le[**Champ Pivot**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield)La classe représente un champ dans un tableau croisé dynamique et peut être formatée de plusieurs façons. L'exemple de code ci-dessous montre comment :
 
 - Accéder aux champs de ligne.
 - Définition des sous-totaux.
@@ -58,7 +58,7 @@ L'exemple de code ci-dessous montre comment définir les formats d'affichage et 
 
 ### **Effacement des champs de pivot**
 
- La[**PivotFieldCollectionPivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) a une méthode nommée[**Dégager()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)qui vous permet d'effacer les champs de pivot. Utilisez-le lorsque vous souhaitez effacer tous les champs de pivot dans les zones, par exemple, page, colonne, ligne ou données.
+ Le[**PivotFieldCollectionPivotFieldCollection**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection) a une méthode nommée[**Dégager()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfieldcollection/methods/clear)qui vous permet d'effacer les champs de pivot. Utilisez-le lorsque vous souhaitez effacer tous les champs de pivot dans les zones, par exemple, page, colonne, ligne ou données.
 L'exemple de code ci-dessous montre comment effacer tous les champs de pivot dans une zone de données.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ClearPivotFields-1.cs" >}}

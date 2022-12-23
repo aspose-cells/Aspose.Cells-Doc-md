@@ -12,7 +12,7 @@ url: /ar/net/customizing-charts/
 
 يمكن للمطورين إنشاء مخططات مخصصة في وقت التشغيل باستخدام Aspose.Cells.
 
- يتكون المخطط من سلسلة بيانات. يتم تمثيل كل سلسلة بيانات في Aspose.Cells بواسطة أ[**سلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) كائن في حين[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) الكائن بمثابة مجموعة من[**سلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)أشياء. عند إنشاء مخطط مخصص ، يتمتع المطورون بحرية استخدام أنواع مختلفة من المخططات لسلسلة بيانات مختلفة (مجمعة في ملف[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)هدف).
+ يتكون المخطط من سلسلة بيانات. يتم تمثيل كل سلسلة بيانات في Aspose.Cells بواسطة أ[**مسلسل**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) كائن في حين[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) الكائن بمثابة مجموعة من[**مسلسل**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)أشياء. عند إنشاء مخطط مخصص ، يتمتع المطورون بحرية استخدام أنواع مختلفة من المخططات لسلسلة بيانات مختلفة (مجمعة في ملف[**السلسلة**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)موضوع).
 
 يوضح رمز المثال أدناه كيفية إنشاء مخططات مخصصة. في هذا المثال ، سنستخدم مخططًا عموديًا لسلسلة البيانات الأولى ومخطط خطي للسلسلة الثانية. والنتيجة هي أننا نضيف مخططًا عموديًا ، جنبًا إلى جنب مع مخطط خطي ، إلى ورقة العمل.
 

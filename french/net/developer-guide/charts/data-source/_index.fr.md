@@ -22,7 +22,7 @@ Les données de graphique sont les données que nous utilisons comme source de d
 
 ### **Données de catégorie**
 
- Les données de catégorie sont utilisées pour l'étiquetage des données de graphique et peuvent être ajoutées à[**SérieCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) en utilisant son[**Données de catégorie**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)propriété. Un exemple complet est donné ci-dessous pour illustrer l'utilisation des données de graphique et de catégorie. Après avoir exécuté l'exemple de code ci-dessus, un histogramme sera ajouté à la feuille de calcul, comme indiqué ci-dessous.
+ Les données de catégorie sont utilisées pour l'étiquetage des données de graphique et peuvent être ajoutées à[**SérieCollection**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) en utilisant son[**Données de catégorie**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection/properties/categorydata)la propriété. Un exemple complet est donné ci-dessous pour illustrer l'utilisation des données de graphique et de catégorie. Après avoir exécuté l'exemple de code ci-dessus, un histogramme sera ajouté à la feuille de calcul, comme indiqué ci-dessous.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingCategoryData-1.cs" >}}
 

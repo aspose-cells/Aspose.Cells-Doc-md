@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/dnn-database-data-exporter-to-excel/
 ---
-## **giriiş**
+## **Giriş**
 
 Aspose .NET DNN Data Exporter to Excel Module, kullanıcıların verileri doğrudan yerel veya uzak veritabanı tablolarından, görünümlerinden ve özel sorgu yoluyla Microsoft Excel veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir.
 
@@ -23,12 +23,12 @@ Modülün bu ilk sürümü, Dışa Aktarma işlemini basit ve kullanımı kolay 
 - Veri Kaynağı olarak kullanılmasına izin ver (Tablo, Görünümler, Özel Sorgu)
 - Verileri Microsoft Excel Belgelerine Aktar (.xls, .xlsx ve .xlsb)
 - Verileri Sekmeyle ayrılmış metin belgesine (*.txt) Aktar
-- Verileri CSV'ye Aktar (Virgülle ayrılmış) (*.csv)
+- Verileri CSV'e (Virgülle ayrılmış) (*.csv) Aktar
 - Verileri OpenDocument Elektronik Tablosuna Aktarın (*.ods)
 - Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
 - Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir.
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
@@ -62,7 +62,7 @@ DNN modülü için Aspose .NET Cells Database Data Exporter to Excel'i aşağıd
 1.  Şuraya git:**Ev sahibi** menü ve seçin**Uzantılar**.
 1.  Tıklamak**Uzantı Sihirbazını Kur**.
 1. Belirtildiği gibi, indirilen zip dosyasının konumuna göz atın, onu seçin ve ardından tıklayın**Açık**.
-1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Dönüş** buton.
+1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Geri dönmek** buton.
 
  lütfen kontrol edin[bu modül kurulum videosu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) Daha fazla ayrıntı için DNN'den.
 
@@ -75,11 +75,11 @@ Aspose .NET Database Data Expoeter for DNN modülünü kurduktan sonra web siten
 1.  Seçme**Modüller** bunu takiben**Yeni Modül Ekle** üst şeritten.
 1. Listeden 'Aspose.NET DNN Data Exporter to Excel to Excel Kullanarak Aspose.Cells' öğesini seçin ve konumuna sürükleyin.
 
-![yapılacaklar:resim_alternatif_Metin](picture2.png)
+![yapılacaklar:resim_alternatif_metin](picture2.png)
 
 Aspose .NET Database Data Exporter for Excel for DNN modülünü sayfanıza başarıyla eklediniz.
 
-![yapılacaklar:resim_alternatif_Metin](picture3.png)
+![yapılacaklar:resim_alternatif_metin](picture3.png)
 
 1. Önceden doldurulmuş MS SQL Server Bağlantı Dizesi Girin veya Kullanın
 1. Seletec Veri Kaynağı Türü (Tablo, Görünüm, Özel Sorgu)
@@ -94,7 +94,7 @@ Aspose .NET Database Data Exporter for Excel for DNN modülünü sayfanıza baş
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 
-### **Destek**
+### **Destek olmak**
 
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 

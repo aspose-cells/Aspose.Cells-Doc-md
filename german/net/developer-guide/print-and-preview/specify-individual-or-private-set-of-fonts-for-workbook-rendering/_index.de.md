@@ -10,7 +10,7 @@ Im Allgemeinen geben Sie das Schriftartenverzeichnis oder die Schriftartenliste 
 
 ## **Geben Sie einen individuellen oder privaten Satz von Schriftarten für das Rendern von Arbeitsmappen an**
 
- Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338268.xlsx) mit seinem individuellen oder privaten Satz von Schriftarten, die mit angegeben werden**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** Klasse. Bitte sehen Sie sich ... an[Musterschrift](67338271.zip) innerhalb des Codes sowie der verwendet[PDF ausgeben](67338269.pdf) dadurch erzeugt. Der folgende Screenshot zeigt, wie das Ausgabe-PDF aussieht, wenn die Schriftart erfolgreich gefunden wurde.
+ Der folgende Beispielcode lädt die[Beispiel-Excel-Datei](67338268.xlsx) mit seinem individuellen oder privaten Satz von Schriftarten, die mit angegeben werden**[IndividualFontConfigs](https://reference.aspose.com/cells/net/aspose.cells/individualfontconfigs)** Klasse. Bitte sehen Sie sich ... an[Musterschrift](67338271.zip)innerhalb des Codes sowie der verwendet[Ausgang PDF](67338269.pdf) dadurch erzeugt. Der folgende Screenshot zeigt, wie die Ausgabe PDF aussieht, wenn die Schriftart erfolgreich gefunden wurde.
 
 ![todo: Bild_alt_Text](specify-individual-or-private-set-of-fonts-for-workbook-rendering_1.png)
 

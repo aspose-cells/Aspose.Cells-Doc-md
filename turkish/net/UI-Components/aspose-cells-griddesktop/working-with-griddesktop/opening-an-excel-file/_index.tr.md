@@ -9,13 +9,13 @@ url: /tr/net/opening-an-excel-file/
 Aspose.Cells Grid Suite'in benzersiz bir özelliği, Excel dosyalarıyla uyumlu olmasıdır. Bu konuda, kullanıcıların Aspose.Cells.GridDesktop kontrolünü kullanarak Windows uygulamalarında Excel dosyalarını nasıl açabileceklerini göstereceğiz.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
  Aspose.Cells.GridDesktop kullanarak bir Excel dosyasını açmak için, içinde GridDesktop Control bulunan bir masaüstü uygulaması oluşturmanız gerekir. Windows formunuza Aspose.Cells.GridDesktop kontrolünü nasıl ekleyeceğinizi bilmiyorsanız, o zaman başvurmalısınız.[Aspose.Cells.GridDesktop nasıl kullanılır?](/cells/tr/net/how-to-use-aspose-cells-griddesktop/)
 
 Aspose.Cells.GridDesktop, bir Excel dosyasını açmak için aşağıdaki üç farklı yolu sunar.
 
 1. **Dosyadan Açma**
-1. **CSV dosyası açma**
+1. **CSV dosyası açılıyor**
 1. **Akıştan Açma**
 ## **Excel Dosyasını Açma**
 Bu örnekte bir masaüstü uygulaması oluşturun ve aşağıdakileri yapın.
@@ -34,7 +34,7 @@ Bu örnekte bir masaüstü uygulaması oluşturun ve aşağıdakileri yapın.
 
 
 Yukarıdaki kod parçacığı, geliştiriciler tarafından istedikleri şekilde kullanılabilir. Örneğin, bir Windows formu yüklendiğinde otomatik olarak bir Excel dosyası yüklemek istiyorsanız, bu kodu Formunuzun Load olayı altına ekleyebilirsiniz.
-### **CSV dosyası açma**
+### **CSV dosyası açılıyor**
 Aspose.Cells.GridDesktop kontrolü, CSV dosyasının yüklenmesini de destekler. Tıklama olayını oluşturun**CSV Dosyasını Aç** butonuna basın ve içine aşağıdaki kodu yapıştırın.
 
 

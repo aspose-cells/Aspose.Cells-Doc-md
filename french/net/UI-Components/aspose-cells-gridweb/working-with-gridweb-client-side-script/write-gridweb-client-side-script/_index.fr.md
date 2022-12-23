@@ -48,11 +48,11 @@ Toute fonction JavaScript affectée à la propriété OnSubmitClientFunction est
 ### **Fonctions pour les scripts côté client**
 Aspose.Cells.GridWeb expose également des fonctions spécialement pour les scripts côté client. Ces fonctions peuvent être utilisées dans les fonctions JavaScript pour mieux contrôler Aspose.Cells.GridWeb. Ces fonctions côté client incluent les éléments suivants :
 
-|**Les fonctions**|**La description**|
+|**Les fonctions**|**Description**|
 |:- |:- |
 |updateData(bool annulerModifier)|Met à jour toutes les données client de Aspose.Cells.GridWeb avant de les publier sur le serveur. Si le paramètre cancelEdit est vrai, GridWeb ignore toutes les entrées de l'utilisateur.|
 |validerTout()|Utilisé pour vérifier s'il y a des erreurs de validation dans l'entrée de l'utilisateur. S'il y a une erreur, la fonction renvoie false, sinon true .|
-|soumettre(chaîne arg, bool annulerModifier)|Appelez cette fonction pour publier ou soumettre des données au serveur. Cette fonction exécute à la fois les tâches de mise à jour des données et de validation des entrées utilisateur. Cette fonction peut également déclencher un événement de commande côté serveur. Utilisez le paramètre arg pour transmettre votre commande. Par exemple : la commande ENREGISTRER est utilisée pour cliquer sur le**sauvegarder** dans la barre de commandes du contrôle GridWeb et la commande CCMD:MYCOMMAND déclenche un événement CustomCommand.|
+|soumettre(chaîne arg, bool annulerModifier)|Appelez cette fonction pour publier ou soumettre des données au serveur. Cette fonction exécute à la fois les tâches de mise à jour des données et de validation des entrées utilisateur. Cette fonction peut également déclencher un événement de commande côté serveur. Utilisez le paramètre arg pour transmettre votre commande. Par exemple : la commande ENREGISTRER est utilisée pour cliquer sur le**Sauver** dans la barre de commandes du contrôle GridWeb et la commande CCMD:MYCOMMAND déclenche un événement CustomCommand.|
 |setActiveCell(int ligne, int colonne)|Utilisé pour activer une cellule spécifique.|
 |setCellValue (ligne int, colonne int, valeur de chaîne)|Utilisé pour attribuer une valeur à n'importe quelle cellule spécifiée à l'aide de ses numéros de ligne et de colonne.|
 |getCellValue (int ligne, int colonne)|Renvoie la valeur de toute cellule spécifiée.|
@@ -65,7 +65,7 @@ Aspose.Cells.GridWeb expose également des fonctions spécialement pour les scri
 Pour créer une application de test contenant des scripts côté client qui fonctionnent avec Aspose.Cells.GridWeb, suivez les étapes ci-dessous :
 
 1. Créez des fonctions JavaScript à invoquer par GridWeb.
- Ces fonctions seront ajoutées à la page ASP.NET<script></script>étiquette.
+ Ces fonctions seront ajoutées à la page ASP.NET<script></script> étiquette.
 1. Attribuez les noms des fonctions aux propriétés OnSubmitClientFunction et OnValidationErrorClientFunction.
 
 La sortie de l'exemple de code est illustrée ci-dessous :
@@ -74,13 +74,13 @@ La sortie de l'exemple de code est illustrée ci-dessous :
 
 ![tâche : image_autre_texte](write-gridweb-client-side-script_1.png)
 
- Ajoutez une valeur non valide et cliquez sur**sauvegarder**. Une erreur de validation se produit et la ValidationErrorFunction est exécutée.
+ Ajoutez une valeur non valide et cliquez sur**Sauver**. Une erreur de validation se produit et la ValidationErrorFunction est exécutée.
 
 **ValidationErrorFunction invoquée en cas d'erreur de validation** 
 
 ![tâche : image_autre_texte](write-gridweb-client-side-script_2.png)
 
- Jusqu'à ce que vous saisissiez une valeur valide, aucune donnée n'est soumise au serveur. Saisissez une valeur valide et cliquez sur**sauvegarder**. La ConfirmFunction est exécutée.
+ Jusqu'à ce que vous saisissiez une valeur valide, aucune donnée n'est soumise au serveur. Saisissez une valeur valide et cliquez sur**Sauver**. La ConfirmFunction est exécutée.
 
 **ConfirmFunction appelée avant de soumettre les données GridWeb au serveur** 
 

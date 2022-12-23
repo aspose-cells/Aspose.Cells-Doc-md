@@ -9,7 +9,7 @@ weight: 10
 Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 21.12
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-619 |Miglioramento per il rendering PDF di Aspose.Cells per Reporting Services.| Miglioramento|
 |CELLSRS-614 |Problema durante la generazione di file Excel con password.| Insetto|

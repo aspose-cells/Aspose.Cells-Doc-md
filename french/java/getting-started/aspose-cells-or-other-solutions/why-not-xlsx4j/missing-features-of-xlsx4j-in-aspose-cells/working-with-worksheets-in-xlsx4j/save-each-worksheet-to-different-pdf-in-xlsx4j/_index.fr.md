@@ -1,17 +1,17 @@
 ﻿---
-title: Enregistrez chaque feuille de calcul dans un PDF différent au format xlsx4j
+title: Enregistrez chaque feuille de calcul dans différents PDF au format xlsx4j
 type: docs
 weight: 50
 url: /fr/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - Enregistrer chaque feuille de calcul dans un PDF différent**
+## **Aspose.Cells - Enregistrer chaque feuille de calcul dans différents PDF**
 Aspose.Cells prend en charge la conversion de fichiers XLS (contenant des images, des graphiques, etc.) en documents PDF. Aspose.Cells for Java peut fonctionner indépendamment pour convertir une feuille de calcul en document PDF et vous n'avez plus besoin d'utiliser Aspose.Pdf for Java pour la conversion. La conversion ne nécessite pas non plus de créer/utiliser de fichier(s) temporaire(s) car l'ensemble du processus peut être effectué dans la mémoire.
 
 **Java**
 
 {{< highlight "java" >}}
 
-// Récupère le chemin du fichier Excel
+ // Récupère le chemin du fichier Excel
 
 String filePath = dataDir + "workbook.xlsx" ;
 

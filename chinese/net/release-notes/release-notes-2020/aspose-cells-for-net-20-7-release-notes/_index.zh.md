@@ -26,7 +26,7 @@ url: /zh/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47402|数据透视表未刷新|漏洞|
 |CELLSNET-47404|加载 .mht 文件时中文字符不可读。|漏洞|
 |CELLSNET-47411|无法创建 XLSB 的副本|漏洞|
-|CELLSNET-47427|导出为 HTML 时内容发生偏移|漏洞|
+|CELLSNET-47427|导出到 HTML 时内容发生偏移|漏洞|
 |CELLSNET-47471|数据透视表刷新计算后Conditional格式的CellAreas不正确|漏洞|
 |CELLSNET-47426|数据验证规则的值不正确|漏洞|
 |CELLSNET-47456|GetValidation().IgnoreBlank 不工作|漏洞|
@@ -34,11 +34,11 @@ url: /zh/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47443|自动过滤器在 Aspose.Cells.GridDesktop 中无法正常工作|漏洞|
 |CELLSNET-47460|在最近的 Firefox（版本：77 和 78）上打印 GridWeb 不工作|漏洞|
 |CELLSNET-47461|在 GridWeb 中选择多个单元格不适用于最新版本的 Firefox|漏洞|
-|CELLSNET-47417|Excel 到 PDF 渲染中的单元格高度不足|漏洞|
-|CELLSNET-47437|从 XLS 转换的 PDF 在 Acrobat Reader 中引发错误|漏洞|
-|CELLSNET-47423|图表中的值轴和类别轴标签在 Excel 到 PDF 转换中不呈现|漏洞|
+|CELLSNET-47417|Excel中单元格高度不足PDF渲染|漏洞|
+|CELLSNET-47437|从 XLS 转换而来的 PDF 在 Acrobat Reader 中引发错误|漏洞|
+|CELLSNET-47423|图表中的值轴和类别轴标签在 Excel 中未呈现为 PDF 转换|漏洞|
 |CELLSNET-47429|具有自定义填充颜色且没有数据标签的森伯斯特图在 ToImage 方法中引发错误|漏洞|
-|CELLSNET-47438|散点图颜色Excel转PDF|漏洞|
+|CELLSNET-47438|散点图颜色Excel到PDF转换|漏洞|
 |CELLSNET-47401|删除行后表值发生变化|漏洞|
 |CELLSNET-47407|合并的文件已损坏。|漏洞|
 |CELLSNET-47412|某些图表返回的图表类型不正确|漏洞|
@@ -58,8 +58,8 @@ url: /zh/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47477|聪明的制造商 FieldName 有一个点|漏洞|
 |CELLSNET-47439|应用样式时出现空引用异常|例外|
 |CELLSNET-47446|删除工作表时起始行索引无效|例外情况|
-|CELLSNET-47466|加载 XLSX 时出现 NullReferenceException|例外情况|
-|CELLSNET-47476|加载 XLSX 时对象引用未设置为对象异常的实例|例外情况|
+|CELLSNET-47466|加载时出现 NullReferenceException XLSX|例外情况|
+|CELLSNET-47476|加载时对象引用未设置为对象异常的实例 XLSX|例外情况|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **添加 Cells.RemoveDuplicates() 方法。**

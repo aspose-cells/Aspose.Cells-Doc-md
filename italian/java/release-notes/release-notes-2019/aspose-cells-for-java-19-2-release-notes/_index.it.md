@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.2.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42827|Inserisci riga con InsertOptions simile a MS Excel|Nuova caratteristica|
 |CELLSJAVA-42712|Migliora JavaDocs per Aspose.Cells for Java|Aumento|
@@ -28,9 +28,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.2.
 |CELLSJAVA-42821|Quando si elimina la prima riga di un intervallo, l'intervallo viene aggiornato in modo errato|Insetto|
 |CELLSJAVA-42828|Quando si utilizza Cell.setHtmlString viene aggiunta una nuova riga alla fine del testo|Insetto|
 |CELLSJAVA-42820|Eccezione "Valore stringa IMEModeType non valido" durante il caricamento di un formato di file XLSX|Eccezione|
-API pubblica e modifiche non compatibili con le versioni precedenti
+Pubblico API e modifiche incompatibili con le versioni precedenti
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà Cells.CountLarge**
 Dal punto di vista funzionale è uguale alla proprietà Count, ad eccezione del fatto che la proprietà Count può generare un errore di overflow quando sono presenti troppe istanze di oggetti Cell.
 #### **Aggiunge il metodo Hyperlink.Delete()**

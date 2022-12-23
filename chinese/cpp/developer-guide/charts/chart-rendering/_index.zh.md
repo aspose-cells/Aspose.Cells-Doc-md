@@ -6,7 +6,7 @@ url: /zh/cpp/chart-rendering/
 ---
 ## **创建图表**
 
-Aspose.Cells API 支持创建真实的 Excel 图表，详见主题[创建和自定义 Excel 图表](/cells/zh/cpp/creating-and-customizing-charts/).为了演示如何使用 Aspose.Cells API 以图像和 PDF 格式呈现图表，我们将按照以下代码段创建 Column 类型的图表。
+Aspose.Cells API 支持创建真实的 Excel 图表，详见主题[创建和自定义 Excel 图表](/cells/zh/cpp/creating-and-customizing-charts/).为了演示如何使用 Aspose.Cells API 以图像和 PDF 格式呈现图表，我们将按照以下代码段创建一个 Column 类型的图表。
 
 {{< highlight "cpp" >}}
 
@@ -48,7 +48,7 @@ Aspose.Cells API 支持创建真实的 Excel 图表，详见主题[创建和自�
 
 ## **渲染图**
 
-Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，而无需任何其他工具或应用程序。为了提供渲染支持，Chart 类公开了具有大量重载的 ToImage 和 ToPdf 方法，以最好地满足应用程序的要求。
+Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，无需任何其他工具或应用程序。为了提供渲染支持，Chart 类公开了具有大量重载的 ToImage 和 ToPdf 方法，以最好地满足应用程序的要求。
 
 ### **将图表渲染为图像**
 
@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **将图表渲染为 PDF**
+### **渲染图到 PDF**
 
-为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了 Chart.ToPdf 方法，能够将生成的 PDF 存储在磁盘路径或流中。
+为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了 Chart.ToPdf 方法，能够将结果 PDF 存储在磁盘路径或流中。
 
 {{< highlight "cpp" >}}
 
@@ -129,7 +129,7 @@ chart->ToPdf(outputPdfFile);
 ||三维区域|**Y**|
 ||Area3D堆叠|**Y**|
 ||Area3D100PercentStacked|**Y**|
-|**甜甜圈**|甜甜圈|**Y**|
+|**油炸圈饼**|油炸圈饼|**Y**|
 ||甜甜圈爆炸|**Y**|
 |**雷达**|雷达|**Y**|
 ||带数据标记的雷达|**Y**|
@@ -176,6 +176,6 @@ chart->ToPdf(outputPdfFile);
 
 {{% alert color="primary" %}}
 
-如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到大小为 0 的图像或空白 PDF。
+如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到 0 大小的图像或空白 PDF。
 
 {{% /alert %}}

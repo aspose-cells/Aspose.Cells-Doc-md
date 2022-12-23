@@ -5,7 +5,7 @@ weight: 50
 url: /fr/cpp/cells-formatting/
 ---
 ## **Format Cell ou Plage de Cells**
- Si vous souhaitez formater une cellule ou une plage de cellules, Aspose.Cells fournit le[IStyle](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_style)classer. Vous pouvez effectuer tout le formatage de la cellule ou de la plage de cellules à l'aide de cette classe. Certaines des choses relatives au formatage qui peuvent être accomplies avec la classe IStyle sont les suivantes
+ Si vous souhaitez formater une cellule ou une plage de cellules, Aspose.Cells fournit le[IStyle](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_style)classe. Vous pouvez effectuer tout le formatage de la cellule ou de la plage de cellules à l'aide de cette classe. Certaines des choses relatives au formatage qui peuvent être accomplies avec la classe IStyle sont les suivantes
 
 - Définir la couleur de remplissage de la cellule
 - Définir l'habillage du texte de la cellule

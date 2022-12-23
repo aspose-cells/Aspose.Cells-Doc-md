@@ -20,7 +20,7 @@ Aspose.Cells prend en charge toutes ces options d'impression et les développeur
 ## **Définir la zone d'impression**
 Par défaut, seule la zone d'impression est sélectionnée qui intègre toute la zone de la feuille de calcul, qui contient des données, mais les développeurs peuvent également établir une zone d'impression spécifique de la feuille de calcul en fonction de leur souhait.
 
- Pour sélectionner une zone d'impression spécifique, les développeurs peuvent utiliser set**Zone d'impression** méthode de la**Mise en page** classer. Vous pouvez fournir la plage de cellules de la zone d'impression à cette méthode en tant qu'argument.
+ Pour sélectionner une zone d'impression spécifique, les développeurs peuvent utiliser set**Zone d'impression** méthode de la**Mise en page** classe. Vous pouvez fournir la plage de cellules de la zone d'impression à cette méthode en tant qu'argument.
 
 {{< highlight "csharp" >}}
 
@@ -39,7 +39,7 @@ pageSetup.PrintArea = "A1:T35";
 
 {{< /highlight >}}
 ## **Définir les titres d'impression**
- Aspose.Cells vous permet de désigner les en-têtes de ligne et de colonne que vous souhaitez voir répétés sur toutes les pages de votre feuille de calcul imprimée. Pour ce faire, les développeurs peuvent utiliser set**PrintTitleColumns** et**setPrintTitleRows** méthodes de la**Mise en page** classer.
+ Aspose.Cells vous permet de désigner les en-têtes de ligne et de colonne que vous souhaitez voir répétés sur toutes les pages de votre feuille de calcul imprimée. Pour ce faire, les développeurs peuvent utiliser set**PrintTitleColumns** et**setPrintTitleRows** méthodes de la**Mise en page** classe.
 
 Les lignes ou colonnes (à répéter sur toutes les pages de la feuille de calcul imprimée) sont définies en passant leurs numéros de ligne ou de colonne. Par exemple, les lignes sont définies comme \ $1 : \ $2 et les colonnes sont définies comme \ $A : \ $B.
 

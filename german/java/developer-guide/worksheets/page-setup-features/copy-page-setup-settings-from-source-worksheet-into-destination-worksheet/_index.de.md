@@ -6,7 +6,7 @@ url: /de/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Wenn Sie einer Arbeitsmappe ein neues Blatt hinzufügen, enthält es die Standardeinstellungen für die Seiteneinrichtung. Es kann vorkommen, dass Sie die Einstellungen übertragen müssen ([**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)von einem Arbeitsblatt zu einem anderen Arbeitsblatt. In diesem Dokument wird erläutert, wie Sie Seiteneinrichtungseinstellungen mithilfe von Aspose.Cells-APIs von einem Arbeitsblatt in ein anderes kopieren.
+Wenn Sie einer Arbeitsmappe ein neues Blatt hinzufügen, enthält es die Standardeinstellungen für die Seiteneinrichtung. Es kann vorkommen, dass Sie die Einstellungen übertragen müssen ([**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) von einem Arbeitsblatt zu einem anderen Arbeitsblatt. In diesem Dokument wird erläutert, wie Sie Seiteneinrichtungseinstellungen mithilfe von Aspose.Cells-APIs von einem Arbeitsblatt in ein anderes kopieren.
 
 ## **Seiteneinrichtungseinstellungen aus dem Quellarbeitsblatt in das Zielarbeitsblatt kopieren**
 

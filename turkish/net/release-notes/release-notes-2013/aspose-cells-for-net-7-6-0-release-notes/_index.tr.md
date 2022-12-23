@@ -24,7 +24,7 @@ url: /tr/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42003 - PivotTable'ları yenilemeyle ilgili sorun
 
- 42050 - Hücre İstisnası:
+42050 - Hücre İstisnası:
 
  41956 - Şablon dosyasını açarken istisna
 
@@ -36,11 +36,11 @@ url: /tr/net/aspose-cells-for-net-7-6-0-release-notes/
 
  41948 - Grafikten Resme dönüştürme sorunu
 
- 42032 - Excel, XLSX'te okunamayan içerik buldu
+ 42032 - Excel XLSX'de okunamayan içerik buldu
 
  42012 - Formül hesaplama sorunu
 
-41997 - Japonca Yazı Tiplerinin görüntülenme sorunu
+ 41997 - Japonca Yazı Tiplerinin görüntülenme sorunu
 
  \2) Aspose.Cells.GridWeb
 

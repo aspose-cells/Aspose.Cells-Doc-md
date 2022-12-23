@@ -44,7 +44,7 @@ url: /ja/net/aspose-cells-for-net-7-4-2-release-notes/
 
 新機能
 
- 41459 - JavaScript での GridWeb の使用
+41459 - JavaScript での GridWeb の使用
 
 バグ
 

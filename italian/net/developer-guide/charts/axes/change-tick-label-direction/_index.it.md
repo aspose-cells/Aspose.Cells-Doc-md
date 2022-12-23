@@ -26,7 +26,7 @@ L'immagine seguente confronta i file di origine e di output
 
 Il seguente frammento di codice modifica la direzione dell'etichetta del segno di spunta da Rotate90 a Horizontal.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChangeTickLabelDirection-1.cs" >}}
 

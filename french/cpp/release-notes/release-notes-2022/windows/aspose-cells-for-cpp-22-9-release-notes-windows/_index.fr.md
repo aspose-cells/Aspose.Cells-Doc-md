@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.9 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-920| Fonctionnalités de synchronisation avec la version .Net|Soutien|

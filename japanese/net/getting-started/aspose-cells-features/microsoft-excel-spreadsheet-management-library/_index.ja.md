@@ -7,7 +7,7 @@ url: /ja/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Excel スプレッドシート管理ライブラリ**
 ### **ドキュメントの機能**
 - さまざまなソースからプレーンまたは暗号化された Microsft Excel ファイル (Excel97 - Excel2007/2010/2013) を開きます。
-- Excel ファイル (Excel 97 - Excel2007/2010/2013) をさまざまな形式 (XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、タブ区切り、TSV、HTML など) で保存します。
+- Excel ファイル (Excel 97 - Excel2007/2010/2013) を別の形式 (XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、タブ区切り、SpreadsheetML など) で保存 476.3034
 - Excel ファイルを PDF ドキュメントに変換します。
 - Excel スプレッドシートを XPS ドキュメントに変換します。
 - タグ付き画像ファイル形式 (TIFF) に変換します。

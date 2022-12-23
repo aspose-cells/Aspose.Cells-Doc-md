@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-17-9-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-45614|Determina quale dimensione dello stack è necessaria per una determinata cartella di lavoro|Nuova caratteristica|
 |CELLSNET-45649|Formatta il carattere dell'etichetta personalizzata e la sua cella con i marcatori intelligenti|Nuova caratteristica|
@@ -24,36 +24,36 @@ url: /it/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop non dovrebbe scorrere oltre l'ultima colonna|Aumento|
 |CELLSNET-45577|GridDesktop non dovrebbe scorrere oltre l'ultima riga|Aumento|
 |CELLSNET-45633|Problema di prestazioni di GetRanges quando si utilizza la funzione personalizzata con molte funzioni da calcolare|Prestazione|
-|CELLSNET-45592|La posizione di alcuni elementi di disegno è errata nel rendering da Excel a PDF|Insetto|
-|CELLSNET-45575|Lo sfondo grigio sulla scatola non è presente nel PDF di output|Insetto|
-|CELLSNET-45516|Modella il testo disperso/sparso nel rendering da Excel a PDF|Insetto|
+|CELLSNET-45592|La posizione di alcuni elementi di disegno è errata in Excel per il rendering PDF|Insetto|
+|CELLSNET-45575|Lo sfondo grigio sulla scatola non è presente nell'output PDF|Insetto|
+|CELLSNET-45516|Forma il testo disperso/sparso in Excel per il rendering PDF|Insetto|
 |CELLSNET-45415|Il rendering da foglio a immagine ignora i caratteri asiatici in TextBox con riferimento di cella|Insetto|
 |CELLSNET-45315|Manca del testo (etichette) della forma nel rendering da foglio a immagine|Insetto|
 |CELLSNET-45655|Fornire un'opzione per controllare se mantenere il formato di precisione del numero|Insetto|
-|CELLSNET-45630|L'output HTML di "222.xlsx" non è corretto|Insetto|
-|CELLSNET-45621|Due risorse immagine create invece di una durante il salvataggio come formato di file HTML|Insetto|
-|CELLSNET-45597|"Numero memorizzato come testo" per le colonne numeriche|Insetto|
+|CELLSNET-45630|HTML l'output di "222.xlsx" non è corretto|Insetto|
+|CELLSNET-45621|Due risorse immagine create invece di una durante il salvataggio nel formato file HTML|Insetto|
+|CELLSNET-45597|"Numero archiviato come testo" per le colonne numeriche|Insetto|
 |CELLSNET-45558|Quando il file MHtml viene salvato con estensione XLS, MS Excel mostra errori durante l'apertura del file XLS|Insetto|
 |CELLSNET-45557|Formattazione persa dopo aver salvato il file come XLS|Insetto|
 |CELLSNET-45556|Immagini perse dopo aver salvato il file come XLS|Insetto|
-|CELLSNET-45538|Le immagini perse e le formattazioni vengono rimosse quando si salva un file MHtml in XLS o MHT|Insetto|
+|CELLSNET-45538|Le immagini perse e le formattazioni vengono rimosse durante il salvataggio di un file MHtml in XLS o MHT|Insetto|
 |CELLSNET-45584|Ciclo infinito quando si usa PageSetup.GetCommands()|Insetto|
-|CELLSNET-45637|Tre trattini "---" vengono visualizzati come spazio vuoto nel PDF di output|Insetto|
-|CELLSNET-45612|Problema con le linee mobili (singole, doppie sottolineature) nella conversione da Excel a PDF|Insetto|
+|CELLSNET-45637|Tre trattini "---" vengono visualizzati come spazio vuoto nell'output PDF|Insetto|
+|CELLSNET-45612|Problema con le righe mobili (singola, doppia sottolineatura) nella conversione da Excel a PDF|Insetto|
 |CELLSNET-45608|Quando ImageOrPrintOptions.OnlyArea = true, i dati vengono danneggiati|Insetto|
 |CELLSNET-45605|Caratteri parzialmente mancanti durante la conversione in immagine|Insetto|
 |CELLSNET-45571|Bordi predefiniti delle celle grigie convertiti in linee tratteggiate|Insetto|
 |CELLSNET-45628|La parola viene rinominata durante la conversione in immagine|Insetto|
 |CELLSNET-45603|Problema con il metodo Chart.Calculate()|Insetto|
 |CELLSNET-45602|Problema con le equazioni di tendenza nel grafico|Insetto|
-|CELLSNET-45587|La scala è aumentata nel PDF di output per il grafico Radar|Insetto|
+|CELLSNET-45587|La scala è aumentata nell'output PDF per il grafico Radar|Insetto|
 |CELLSNET-45573|L'immagine del grafico non ha numeri a tre cifre|Insetto|
 |CELLSNET-45569|Impossibile eseguire il rendering dell'immagine dal grafico tramite Aspose.Cells|Insetto|
-|CELLSNET-45563|Grafico PDF non corretto quando il tracciato della linea viene confrontato con l'Excel di origine|Insetto|
+|CELLSNET-45563|Grafico errato PDF quando il tracciato a linee viene confrontato con l'Excel di origine|Insetto|
 |CELLSNET-45561|L'immagine generata dal foglio di lavoro Sample.xlsm SampleCharts non è corretta|Insetto|
 |CELLSNET-45441|La legenda del grafico viene visualizzata nella posizione errata quando viene convertita in immagine|Insetto|
 |CELLSNET-45643|L'oggetto OLE cambia dimensione dopo l'apertura e la modifica del file oggetto OLE|Insetto|
-|CELLSNET-45639|SpreadsheetML - L'attributo nascosto nella colonna non funziona|Insetto|
+|CELLSNET-45639|SpreadsheetML - L'attributo nascosto sulla colonna non funziona|Insetto|
 |CELLSNET-45638|L'inserimento della colonna nel foglio di lavoro causa il file Excel di output danneggiato|Insetto|
 |CELLSNET-45636|SpreadsheetML - L'attributo nascosto sulla riga non funziona correttamente|Insetto|
 |CELLSNET-45624|Il salvataggio di una proprietà di data personalizzata comporta la scrittura dell'ora errata|Insetto|
@@ -73,8 +73,8 @@ url: /it/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45589|L'articolo è già stato aggiunto. Digitare nel dizionario: 'Foglio1' Chiave da aggiungere: 'Foglio1'|Eccezione|
 |CELLSNET-45647|L'eccezione si verifica all'apertura di "BUDGET RH 3_1.xlsm" in GridWeb|Eccezione|
 |CELLSNET-45646|Eccezione durante l'importazione di file XLSM in GridWeb|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HTMLLoadOptions.LoadStyleStrategy**
 Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o DateTime.
 #### **Aggiunge la classe AbstractCalculationMonitor**
@@ -110,8 +110,8 @@ Ottiene e imposta l'archiviazione della finestra di progettazione del progetto V
 #### **Esempi di utilizzo**
 Si prega di controllare l'elenco degli argomenti della guida aggiunti nei documenti Wiki Aspose.Cells:
 
-- [Aggiungi segnalibri PDF con destinazioni denominate](/cells/it/net/add-pdf-bookmarks-with-named-destinations/)
-- [Controlla il caricamento delle risorse esterne nella cartella di lavoro MS Excel durante il rendering in PDF](/cells/it/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Aggiungi segnalibri PDF con destinazioni con nome](/cells/it/net/add-pdf-bookmarks-with-named-destinations/)
+- [Controlla il caricamento delle risorse esterne nella cartella di lavoro MS Excel durante il rendering su PDF](/cells/it/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Copia VBA Macro UserForm DesignerStorage dal modello alla cartella di lavoro di destinazione](/cells/it/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Crea Rimuovi e ottieni commenti GridCell](/cells/it/net/create-remove-and-get-gridcell-comments/)
 - [Invia la forma davanti o dietro all'interno del foglio di lavoro](/cells/it/net/send-shape-front-or-back-inside-the-worksheet/)

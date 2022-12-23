@@ -37,6 +37,6 @@ För att infoga ett kalkylblad med Aspose.Cells.GridDesktop, följ stegen nedan:
 
 {{% alert color="primary" %}} 
 
-VIKTIGT: Microsoft Excel (97-2003 XLS) stöder Excel-ark med upp till 65 536 rader och 256 kolumner. Aspose.Cells.GridDesktop följer samma standarder. I Aspose.Cells.GridDesktop-kontrollen kan utvecklare lägga till eller infoga kalkylblad med fler rader och kolumner än standardgränsen, men när de försöker spara Grid-data till en Excel-fil kommer ett undantag att skapas. Det betyder att endast data som finns i de 65 536 raderna och 256 kolumnerna kan sparas till en Excel XLS-fil med Aspose.Cells. GridDesktop, om du använder XLSX (MS Excel 2007/2010) filformat finns det dock ingen sådan begränsning.
+VIKTIGT: Microsoft Excel (97-2003 XLS) stöder Excel-ark med upp till 65 536 rader och 256 kolumner. Aspose.Cells.GridDesktop följer samma standarder. I Aspose.Cells.GridDesktop-kontrollen kan utvecklare lägga till eller infoga kalkylblad med fler rader och kolumner än standardgränsen, men när de försöker spara Grid-data till en Excel-fil kommer ett undantag att skapas. Det betyder att endast data som finns i de 65 536 raderna och 256 kolumnerna kan sparas i en Excel XLS-fil med Aspose.Cells.GridDesktop, om du använder XLSX (MS Excel 2007/2010) filformat finns det dock ingen sådan begränsning.
 
 {{% /alert %}}

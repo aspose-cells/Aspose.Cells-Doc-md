@@ -20,7 +20,7 @@ url: /zh/java/aspose-cells-for-java-8-4-1-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSJAVA-41235) - 支持工作表图像的 RenderToSize API
 
@@ -28,7 +28,7 @@ url: /zh/java/aspose-cells-for-java-8-4-1-release-notes/
 
 ### **虫子**
 
-(CELLSJAVA-41229) - Aspose.Cells 不为 Excel 到 HTML 转换中的工作表生成单独的 HTM 和 CSS 文件
+(CELLSJAVA-41229) - Aspose.Cells 不会为 Excel 中的工作表生成单独的 HTM 和 CSS 文件到 HTML 的转换
 
 (CELLSJAVA-41170) - SheetRender.toImage 在图表的 x 轴上呈现带有“（空白）”标签的图像
 
@@ -36,7 +36,7 @@ url: /zh/java/aspose-cells-for-java-8-4-1-release-notes/
 
 (CELLSJAVA-41240) - 在将电子表格呈现为 PDF 时，Arial 字体的文本从顶部被修剪
 
-(CELLSJAVA-41238) - 论文_一个_保存为 PDF 时无法正常工作
+(CELLSJAVA-41238) - 论文_一种_保存为 PDF 时无法按预期工作
 
 (CELLSJAVA-41217) - 当系列类别数据有逗号时，饼图图例无法正确显示
 
@@ -50,7 +50,7 @@ url: /zh/java/aspose-cells-for-java-8-4-1-release-notes/
 
 (CELLSJAVA-41258) - 使用 Aspose.Cells 加载和保存 XLSX 会使生成的电子表格损坏
 
-(CELLSJAVA-41255) - 自定义按钮变成图片，标题在输出 XLSX 中消失
+(CELLSJAVA-41255) - 自定义按钮变成图片，标题在输出中消失 XLSX
 
 (CELLSJAVA-41254) - Microsoft 打开输出 XLSX 文件时 Excel 崩溃
 
@@ -58,9 +58,9 @@ url: /zh/java/aspose-cells-for-java-8-4-1-release-notes/
 
 ### **例外情况**
 
-(CELLSJAVA-41266) - 打开模板 XLSX 文件时出现 java.lang.NumberFormatException
+(CELLSJAVA-41266) - 打开模板 XLSX 文件时发生 java.lang.NumberFormatException
 
-(CELLSJAVA-41248) - 打开源 XLSX 文件时出现空指针异常
+(CELLSJAVA-41248) - 打开源代码 XLSX 文件时出现空指针异常
 
 (CELLSJAVA-41265) - 异常：打开 SpreadsheetML 文件时出现“java.lang.NullPointerException”
 

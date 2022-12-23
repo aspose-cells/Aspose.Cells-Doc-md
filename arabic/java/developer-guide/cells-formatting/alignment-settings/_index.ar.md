@@ -14,7 +14,7 @@ url: /ar/java/cells-alignment-settings/
 
 - محاذاة النص (أفقيًا وعموديًا)
 - المسافة الفارغة.
-- توجيه.
+- اتجاه.
 - التحكم بالنص.
 - اتجاه النص.
 
@@ -28,11 +28,11 @@ url: /ar/java/cells-alignment-settings/
 
 |**أنواع محاذاة النص**|**وصف**|
 |:- |:- |
-|الأسفل|يمثل محاذاة النص السفلي|
+|قاع|يمثل محاذاة النص السفلي|
 |مركز|يمثل مركز محاذاة النص|
 |CenterAcross|يمثل المركز عبر محاذاة النص|
 |وزعت|يمثل محاذاة النص الموزع|
-|يملأ|يمثل محاذاة النص التعبئة|
+|ملء|يمثل محاذاة النص التعبئة|
 |عام|يمثل محاذاة نص عامة|
 |يبرر|التمثيلات تضبط محاذاة النص|
 |اليسار|يمثل محاذاة النص الأيسر|
@@ -43,22 +43,22 @@ url: /ar/java/cells-alignment-settings/
 
 {{% alert color="primary" %}}
 
- يمكنك أيضًا تطبيق إعداد الضبط الموزع باستخدام امتداد[**الأسلوب. يبرره ويوزع**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) منشأه.
+ يمكنك أيضًا تطبيق إعداد الضبط الموزع باستخدام امتداد[**الأسلوب. يبرره ويوزع**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsJustifyDistributed) خاصية.
 
 {{% /alert %}}
 
 ## **المحاذاة الأفقية والعمودية والمسافة البادئة**
 
  استخدم ال[**المحاذاة الأفقية**](https://reference.aspose.com/cells/java/com.aspose.cells/style#horizontalalignment) لمحاذاة النص أفقيًا و[**انحياز عمودي**](https://reference.aspose.com/cells/java/com.aspose.cells/style#verticalalignment)لمحاذاة النص عموديًا.
- من الممكن تعيين مستوى المسافة البادئة للنص في خلية بامتداد[**مستوى المسافة البادئة**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) منشأه
+ من الممكن تعيين مستوى المسافة البادئة للنص في خلية بامتداد[**مستوى المسافة البادئة**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IndentLevel) خاصية
 و tt فقط عندما تكون المحاذاة الأفقية لليسار أو لليمين.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-1.java" >}}
 
 
-## **توجيه**
+## **اتجاه**
 
- عيّن اتجاه (تدوير) النص في خلية بامتداد[**زاوية الدوران**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle)منشأه.
+ عيّن اتجاه (تدوير) النص في خلية بامتداد[**زاوية الدوران**](https://reference.aspose.com/cells/java/com.aspose.cells/style#RotationAngle)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ConfiguringAlignmentSettings-Orientation-1.java" >}}
 
@@ -68,13 +68,13 @@ url: /ar/java/cells-alignment-settings/
 
 ### **التفاف النص**
 
- يسهل التفاف النص في خلية القراءة: يتم ضبط ارتفاع الخلية لاحتواء النص بالكامل ، بدلاً من قطعه أو امتداده إلى الخلايا المجاورة. قم بتعيين التفاف النص أو إيقاف تشغيله بامتداد[**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)منشأه.
+ يسهل التفاف النص في خلية القراءة: يتم ضبط ارتفاع الخلية لاحتواء النص بالكامل ، بدلاً من قطعه أو امتداده إلى الخلايا المجاورة. قم بتعيين التفاف النص أو إيقاف تشغيله بامتداد[**IsTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "LineBreakTextWrapping-WrapText-1.java" >}}
 
 ### **تقلص لتناسب**
 
- يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد[**يتقلص ليساوي الحجم**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) منشأه. إلى**حقيقي**.
+ يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد ملف[**يتقلص ليساوي الحجم**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit) خاصية. إلى**حقيقي**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 
@@ -94,11 +94,11 @@ url: /ar/java/cells-alignment-settings/
 
 من الممكن ضبط ترتيب قراءة النص في الخلايا. ترتيب القراءة هو الترتيب المرئي الذي يتم به عرض الأحرف والكلمات وما إلى ذلك. على سبيل المثال ، اللغة الإنجليزية هي لغة من اليسار إلى اليمين بينما اللغة العربية هي لغة من اليمين إلى اليسار.
 
- يتم تعيين ترتيب القراءة مع[**اتجاه النص**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) منشأه. يوفر Aspose.Cells أنواع اتجاهات النص المحددة مسبقًا في ملف[**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)تعداد.
+ يتم تعيين ترتيب القراءة بامتداد[**اتجاه النص**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) خاصية. يوفر Aspose.Cells أنواع اتجاهات النص المحددة مسبقًا في ملف[**TextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)تعداد.
 
 |**أنواع اتجاه النص**|**وصف**|
 |:- |:- |
-|سياق|ترتيب القراءة المتوافق مع لغة أول حرف تم إدخاله|
+|سياق الكلام|ترتيب القراءة المتوافق مع لغة أول حرف تم إدخاله|
 |من اليسار إلى اليمين|ترتيب القراءة من اليسار إلى اليمين|
 |من اليمين الى اليسار|ترتيب القراءة من اليمين إلى اليسار|
 

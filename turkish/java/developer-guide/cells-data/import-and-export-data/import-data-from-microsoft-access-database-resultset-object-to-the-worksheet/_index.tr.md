@@ -25,10 +25,10 @@ Daha fazla yardım için lütfen bu Yığın Taşması bağlantısını ziyaret 
 
 Aşağıdaki ekran görüntüsü, Microsoft Access 2016'da açıldığında veritabanı dosyasını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_1.png)
 ## **Microsoft Veritabanı ResultSet Nesnesinden Çalışma Sayfasına Veri Aktarın.**
  Aşağıdaki örnek kod, Microsoft Access Veritabanından SQL sorgusu yürütür ve bir ResultSet nesnesi oluşturur. Ardından ResultSet nesnesinden verileri kullanarak çalışma sayfasına aktarır.[Worksheet.getCells().importResultSet()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#importResultSet\(java.sql.ResultSet,%20int,%20int,%20boolean\)) yöntem. İlk seferde satır ve sütun indekslerini kullanır ve ardından verileri çalışma sayfasına almak için hücre adını kullanır. Son olarak, çalışma kitabını bir dosya olarak kaydeder.[Çıktı Excel Dosyası](48496713.xlsx). Ekran görüntüsü, bir referans için örnek kodun çıktı Excel dosyası üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](import-data-from-microsoft-access-database-resultset-object-to-the-worksheet_2.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet.java" >}}

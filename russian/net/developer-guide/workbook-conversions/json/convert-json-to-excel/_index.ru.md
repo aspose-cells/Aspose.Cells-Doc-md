@@ -1,5 +1,5 @@
 ﻿---
-title: Преобразование JSON в Excel
+title: Преобразовать-JSON-в-Excel
 type: docs
 weight: 300
 url: /ru/net/convert-json-to-excel/
@@ -13,7 +13,7 @@ Aspose.Cells поддерживает преобразование файла Js
 {{% /alert %}}
 
 ## **Преобразование JSON в книгу Excel**
-Не нужно задаваться вопросом, как преобразовать JSON в файл Excel, потому что библиотека Apose.Cells for .NET имеет лучшее решение. Aspose.Cells API обеспечивает поддержку преобразования формата JSON в электронные таблицы. Вы можете использовать[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) class, чтобы указать дополнительные параметры для импорта JSON в Workbook.
+ Не нужно задаваться вопросом, как преобразовать JSON в файл Excel, потому что библиотека Apose.Cells for .NET имеет лучшее решение. Aspose.Cells API обеспечивает поддержку преобразования формата JSON в электронные таблицы. Ты можешь использовать[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) class, чтобы указать дополнительные параметры для импорта JSON в Workbook.
 
  В следующем примере кода демонстрируется импорт JSON в книгу Excel. Пожалуйста, посмотрите код для преобразования[исходный файл](sample.json) в файл xlsx, созданный кодом для справки.
 

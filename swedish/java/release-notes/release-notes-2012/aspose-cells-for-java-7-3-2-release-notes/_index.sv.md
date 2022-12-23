@@ -26,7 +26,7 @@ Vi är
  Undantag
 
 - Att öppna en XLS-fil orsakadeStackOverflowError
-- Att spara PDF orsakade undantag
+- Att spara PDF orsakade Undantag
 - Worksheet.getFreezedPanes() orsakadeNullPointerException
 - Att öppna en tom XML-fil orsakade ett undantag
 - Att spara till PDF orsakade ett undantag -I
@@ -36,14 +36,14 @@ Vi är
 - Undantag när HTM-mallfilen är öppen
 - IllegalArgumentException vid öppning av anXLS-fil
 - NullPointerException när du öppnar en XLS-fil
-- ArrayIndexOutOfBounds-undantag när en XLS-fil öppnas
+- ArrayIndexOutOfBounds-undantag vid öppning av en XLS-fil
 - Att spara pivottabell orsakadeClassCastException efter att ha ställt in automatisk sortering
-- Form till bild-fel när PDF sparas med Aspose Cells
+- Form till bild-fel när du sparar PDF med Aspose Cells
 - Celler Undantag vid utskrift av rutnät till PDF
 
  Buggar
 
-- Vissa regioner som sparats i XLS-mallarna kunde inte kännas igen vid läsning
+- Vissa regioner som sparats i XLS-mallarna kunde inte identifieras vid läsning
 - Diagram-till-bild kan inte återge skalan för stapeldiagram
 - Dataförlust efter konvertering från XLSX till PDF
 - Cirkel- och punktdiagram fungerar inte om Cellcollection är rensad

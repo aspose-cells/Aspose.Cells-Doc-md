@@ -16,7 +16,7 @@ Villkorlig formatering kan:
 - Skugga automatiskt celler med färgskalor baserat på deras relation till värden i andra celler i området. Standardinställningarna skuggar det lägsta värdet i rött och flyttas upp till det högsta värdet i grönt.
 - Använd ikonuppsättningar på samma sätt som färgskalor, men istället för att skugga cellerna lägger den till små ikoner, som pilar och trafikljus i cellerna.
 
-Aspose.Cells stöder fullt ut den villkorliga formateringen som tillhandahålls av Microsoft Excel 2007 och senare versioner i XLSX-format på celler under körning. Det här exemplet visar en övning för avancerade villkorliga formateringstyper inklusive IconSets, DataBars, Color Scales, TimePeriods, Top/Bottom och andra regler med olika uppsättningar av attribut.
+Aspose.Cells stöder fullt ut den villkorliga formateringen som tillhandahålls av Microsoft Excel 2007 och senare versioner i formatet XLSX på celler under körning. Det här exemplet visar en övning för avancerade villkorliga formateringstyper inklusive IconSets, DataBars, Color Scales, TimePeriods, Top/Bottom och andra regler med olika uppsättningar av attribut.
 
 
 

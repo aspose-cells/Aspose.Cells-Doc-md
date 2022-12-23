@@ -32,23 +32,23 @@ Hatalar
 (CELLSJAVA-41167) - Pivot Tabloların yenilenmesi bozuk çalışma kitabı oluşturuyor
 (CELLSJAVA-41232) - Hata - Formül, sayı+e ile biten tanımlı bir ad içeriyor
 (CELLSJAVA-41215) - Aspose.Cells ile oluşturulan EMF, farklı Görüntüleyicilerde farklı şekilde işleniyor
-(CELLSJAVA-41196) - Çalışma sayfası ve hücre değeri eklendikten sonra XLSB bozuluyor
+(CELLSJAVA-41196) - XLSB, çalışma sayfası ve hücre değeri eklendikten sonra bozuluyor
 (CELLSJAVA-41227) - API, Arial yazı tipini Liberation Yazı Tipleri ile değiştiremez
-(CELLSJAVA-41224) - Excel'i PDF'ye dönüştürürken görüntü dönüştürmede hata
+(CELLSJAVA-41224) - Excel'i PDF'e dönüştürürken görüntü dönüştürmede hata
 (CELLSJAVA-41223) - Dışa aktarılan PDF dosyalarının imzalanması başarısız oluyor
 (CELLSJAVA-41208) - Oluşturma İpuçları (Kenar Yumuşatma), SheetRender ile çalışmıyor
 (CELLSJAVA-41193) - Çalışma sayfası görüntüye dönüştürüldüğünde Wingdings Sembolleri düzgün şekilde oluşturulmuyor
 (CELLSJAVA-41184) - Grafikten çıktı görüntüsü oluşturmayla ilgili sorunlar
 (CELLSJAVA-41106) - Pasta grafiğin veri etiketleri, grafik görüntüsünde çakışıyor
 (CELLSJAVA-40941) - Grafik görüntü olarak oluşturulduğunda Pasta Grafiğinin DataLabels'ının çakışması
-(CELLSJAVA-40813) - Pasta Grafiğinin veri etiketi, işlenen HTML'de çakışıyor
+(CELLSJAVA-40813) - Pasta Grafiğin veri etiketi, işlenen HTML'de çakışıyor
 (CELLSJAVA-41182) - Nokta rengi farklı olduğunda düzgün çizgi düzgün değil
 
 İstisnalar
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException: Bilinmeyen Alan, PivotTable.refreshData'da
-(CELLSJAVA-41192) - İstisna: Bir XLS dosyası açılırken "java.lang.Exception: Akışın sonuna ulaşıldı"
-(CELLSJAVA-41228) - XLS yüklenirken Workbook ctor'da java.lang.ArrayIndexOutOfBoundsException
+(CELLSJAVA-41192) - İstisna: XLS dosyası açılırken "java.lang.Exception: Akışın sonuna ulaşıldı"
+(CELLSJAVA-41228) - bir XLS yüklenirken Workbook ctor'da java.lang.ArrayIndexOutOfBoundsException
 (CELLSJAVA-41211) - Dosya adı Workbook.setFileName() kullanılarak ayarlandığında formül başvurusu çözümlenirken istisna oluşuyor
 
 \2) Aspose.Cells Izgara Takımı
@@ -82,7 +82,7 @@ PivotTable'ı kompakt biçimde düzenler.
  PivotTable.ShowInOutlineForm() yöntemini ekler
 PivotTable'ı anahat biçiminde düzenler.
 
-PivotTable.ShowInTabularForm() yöntemini ekler
+ PivotTable.ShowInTabularForm() yöntemini ekler
 PivotTable'ı tablo biçiminde düzenler.
 
  PivotTableCollection.Remove(PivotTable pivotTable) yöntemini ekler
@@ -91,14 +91,14 @@ Belirtilen PivotTable'ı siler
  PivotTableCollection.RemoveAt(int dizini) yöntemini ekler.
 PivotTable'ı belirtilen dizinde siler
 
- Aspose.Cells.Vba ad alanı, VbaPorject, VbaModuleCollection ve VbaModule sınıflarını ekler.
+Aspose.Cells.Vba ad alanı, VbaPorject, VbaModuleCollection ve VbaModule sınıflarını ekler.
 Dosyadaki VBA projesini okumak ve değiştirmek için kullanılırlar.
 
  Border.ThemeColor özelliğini ekler.
 Kenarlığın tema rengini alır ve ayarlar.
 
  TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini ekler.
-Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.
+Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini gösterir.
 
  Eski TxtLoadOptions.KeepExactFormat yöntemleri.
 Lütfen bunun yerine TxtLoadOptions.LoadStyleStrategy özelliğini kullanın.

@@ -8,7 +8,7 @@ url: /zh/java/find-the-root-element-name-of-xml-map/
 
 你可以找到*XML 映射的根元素名称*使用 Aspose.Cells 与[**XmlMap.RootElementName**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmap#RootElementName)财产。以下屏幕截图显示了 Microsoft Excel 中 XML 映射的根元素名称。
 
-![待办事项：图像_替代_文本](find-the-root-element-name-of-xml-map_1.png)
+![待办事项：图片_替代_文本](find-the-root-element-name-of-xml-map_1.png)
 
 ## **示例代码**
 

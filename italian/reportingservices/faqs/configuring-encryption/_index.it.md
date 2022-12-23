@@ -6,7 +6,7 @@ url: /it/reportingservices/configuring-encryption/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells for Reporting Services supporta la crittografia ed è possibile eseguire il rendering di file Microsoft Excel crittografati.
+ Aspose.Cells for Reporting Services supporta la crittografia ed è possibile eseguire il rendering di file Excel Microsoft crittografati.
 
 {{% /alert %}} 
 ### **Tipi di crittografia**
@@ -14,7 +14,7 @@ Aspose.Cells for Reporting Services supporta la crittografia durante l'esportazi
 
 - XOR
 - CRITTOGRAFIA DEBOLE
-- Provider di crittografia avanzata Microsoft
+- Microsoft Forte provider crittografico
 ### **Informazioni sulla configurazione**
  Sono presenti informazioni di configurazione per la crittografia nel file**Aspose.Cells.ReportingServices.xml** file. Quando il valore di Encryption è impostato su "off", Aspose.Cells.ReportingServices disattiva la crittografia.
 

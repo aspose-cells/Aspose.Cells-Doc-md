@@ -43,7 +43,7 @@ url: /ar/cpp/worksheet-views/
  يتم تمثيل ورقة العمل بواسطة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet)يوفر class مجموعة واسعة من الأساليب لإدارة أوراق العمل. لتكوين أجزاء التجميد ، اتصل بـ[أجزاء التجميد](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)طريقة[IWorksheet](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) صف دراسي. ال[أجزاء التجميد](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet#ac4f68dfe9ac219fb8de6d6824ec1aa22)تأخذ الطريقة المعلمات التالية:
 
 - **صف**، فهرس صف الخلية الذي سيبدأ التجميد منه.
-- **عمودي**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
+- **عمود**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
 - **صفوف مجمدة**، عدد الصفوف المرئية في الجزء العلوي.
 - **أعمدة مجمدة**، عدد الأعمدة المرئية في الجزء الأيمن
 

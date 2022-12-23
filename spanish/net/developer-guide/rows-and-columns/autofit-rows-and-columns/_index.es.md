@@ -12,11 +12,11 @@ Microsoft Excel permite a los usuarios cambiar automáticamente el tamaño del a
 
 ## **Ajuste automático**
 
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de trabajo. Este artículo analiza el uso de la[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase para autoajustar filas o columnas.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)clase que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La clase proporciona una amplia gama de propiedades y métodos para administrar una hoja de cálculo. Este artículo analiza el uso de la[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase para autoajustar filas o columnas.
 
 ### **Autoajustar fila - Simple**
 
- El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el alto de una fila es llamar al[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) método. los[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)El método toma un índice de fila (de la fila a redimensionar) como parámetro.
+ El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el alto de una fila es llamar al[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) método. Él[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)El método toma un índice de fila (de la fila a redimensionar) como parámetro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
@@ -28,7 +28,7 @@ Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/c
 - **Índice de la primera columna**, el índice de la primera columna de la fila.
 - **Índice de la última columna**, el índice de la última columna de la fila.
 
- los[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)El método verifica el contenido de todas las columnas en la fila y luego ajusta automáticamente la fila.
+ Él[**Autoajustar fila**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)El método verifica el contenido de todas las columnas en la fila y luego ajusta automáticamente la fila.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
@@ -40,7 +40,7 @@ Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/c
 - **Índice de la primera fila**, el índice de la primera fila de la columna.
 - **Índice de la última fila**, el índice de la última fila de la columna.
 
- los[**Autoajustar columna**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)El método verifica el contenido de todas las filas en la columna y luego ajusta automáticamente la columna.
+ Él[**Autoajustar columna**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)El método verifica el contenido de todas las filas en la columna y luego ajusta automáticamente la columna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 

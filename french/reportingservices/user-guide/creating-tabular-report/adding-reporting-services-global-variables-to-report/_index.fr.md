@@ -23,7 +23,7 @@ Pour ajouter des variables globales aux rapports :
 
 
 
-1.  Cliquez sur**Insérer la formule**dans la barre d'outils Aspose.Cells.Report.Designer (
+1.  Cliquez sur**Insérer une formule**dans la barre d'outils Aspose.Cells.Report.Designer (
 
 ![tâche : image_autre_texte](adding-reporting-services-global-variables-to-report_2.png)
 

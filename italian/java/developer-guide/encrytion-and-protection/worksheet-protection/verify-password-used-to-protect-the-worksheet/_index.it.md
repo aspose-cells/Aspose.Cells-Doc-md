@@ -6,7 +6,7 @@ url: /it/java/verify-password-used-to-protect-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells Le API hanno migliorato il file[**Protezione**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) class introducendo alcune utili proprietà e metodi. Uno di questi metodi è il[**verifica la password**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)) che consente di specificare una password come istanza di String e verifica se la stessa password è stata utilizzata per proteggere il foglio di lavoro.
+ Aspose.Cells Le API hanno migliorato il file[**Protezione**](https://reference.aspose.com/cells/java/com.aspose.cells/Protection) class introducendo alcune utili proprietà e metodi. Uno di questi metodi è il[**verifica la password**](https://reference.aspose.com/cells/java/com.aspose.cells/protection#verifyPassword(java.lang.String)che consente di specificare una password come istanza di String e verifica se la stessa password è stata utilizzata per proteggere il foglio di lavoro.
 
 {{% /alert %}}
 

@@ -8,7 +8,7 @@ url: /sv/net/aspose-cells-gridjs/basics/
 
  Aspose.Cells.GridJs är ett .NET standardbibliotek som tillåter användare att utveckla webbapplikationer för att visa/redigera kalkylblad snabbt och enkelt.
 
-Aspose.Cells.GridJs stöder import av de populära filformaten för kalkylark (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS).
+Aspose.Cells.GridJs stöder import av det populära kalkylarket (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, 07161734) filformat.
 
 Det tillåter också export av Excel-filer till PDF, HTML .etc. Nedan är de grundläggande processtegen för att utveckla en webbapplikation av GridJs.
 

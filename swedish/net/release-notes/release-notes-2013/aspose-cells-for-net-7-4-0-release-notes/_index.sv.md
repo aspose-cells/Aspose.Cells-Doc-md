@@ -27,7 +27,7 @@ url: /sv/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Prestanda
 
-- Hängde när du sparade till PDF-format
+- Hängdes vid lagring till PDF-format
 
 
 
@@ -43,7 +43,7 @@ url: /sv/net/aspose-cells-for-net-7-4-0-release-notes/
 - Pivottabellens uppdaterings- och beräkningsdataproblem
 - HLOOKUP med INDIREKTA formler bugg
 - Avskydda kalkylbladet misslyckas för filerna som sparats med Excel 2013
-- Problem med sidfotens sidnummer vid export till PDF
+- Problem med sidfotsnummer vid export till PDF
 - AcceptAllRevisions tillämpas inte korrekt när du sparar arbetsbok i strömmar
 
  -Korrupta kryssrutor renderade vid spara
@@ -78,19 +78,19 @@ url: /sv/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Buggar
 
- 41279 - GridWebs valideringsmenylista kommer att misslyckas på menyalternativ som innehåller dollartecken -"$"
+41279 - GridWebs valideringsmenylista kommer att misslyckas på menyalternativ som innehåller dollartecken -"$"
 
  41280- GridWebs valideringsmenylista uppdateras efter uppdatering av det refererade cellvärdet
 
  41294 - GridWeb kommer inte att fungera på FireFox för filerna som innehåller celler med valideringslista
 
-41308 - När du redigerar ett cellvärde, tryck på Enter-tangenten kommer att förlora den ursprungliga radbrytningen i IE
+ 41308 - När du redigerar ett cellvärde, tryck på Enter-tangenten kommer att förlora den ursprungliga radbrytningen i IE
 
 - Kopiera-klistra problem i webbrutnät som inte fungerar för Chrome, FireFox etc.
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

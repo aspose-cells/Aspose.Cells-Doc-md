@@ -10,11 +10,11 @@ url: /it/jasperreports/filling-a-jasper-file-with-editable-chart-support/
 
 {{% /alert %}} 
 
-Si prega di leggere la documentazione di JasperReports per una descrizione dettagliata di come compilare un report.
+Si prega di leggere la documentazione di JasperReports per una descrizione dettagliata di come compilare un rapporto.
 
 Ecco un esempio:
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

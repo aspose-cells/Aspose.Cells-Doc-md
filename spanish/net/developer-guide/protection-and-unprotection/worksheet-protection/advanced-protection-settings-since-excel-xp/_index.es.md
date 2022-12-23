@@ -27,11 +27,11 @@ Aspose.Cells admite todas las configuraciones de protección avanzada que ofrece
 
 Para ver la configuración de protección disponible en Excel XP:
 
-1.  Desde el**Instrumentos** menú, seleccione**Proteccion** seguido por**hoja de protección**. Se mostrará un cuadro de diálogo.
+1.  Desde el**Herramientas** menú, seleccione**Proteccion** seguido por**hoja de protección**. Se mostrará un cuadro de diálogo.
 
 Para ver la configuración de protección disponible en Excel 2016
 
-1.  Desde el**Expediente** menú, seleccione**Proteger libro de trabajo** seguido por**Proteger hoja actual**.
+1.  Desde el**Archivo** menú, seleccione**Proteger libro de trabajo** seguido por**Proteger hoja actual**.
 1.  Selecciona el**hoja de protección** en el**Revisar** menú.
 
 Siguiendo los pasos mencionados anteriormente, se mostrará un cuadro de diálogo donde puede permitir o restringir las funciones de las hojas de trabajo o aplicar una contraseña a la hoja de trabajo.
@@ -40,9 +40,9 @@ Siguiendo los pasos mencionados anteriormente, se mostrará un cuadro de diálog
 
 Aspose.Cells admite todas las configuraciones de protección avanzada.
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)clase.
 
- los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) propiedad que se utiliza para aplicar esta configuración de protección avanzada. los[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) la propiedad es de hecho un objeto de la[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/protection)clase que encapsula varias propiedades booleanas para deshabilitar o habilitar restricciones.
+ Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona la[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) propiedad que se utiliza para aplicar esta configuración de protección avanzada. Él[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection) la propiedad es de hecho un objeto de la[**Proteccion**](https://reference.aspose.com/cells/net/aspose.cells/protection)clase que encapsula varias propiedades booleanas para deshabilitar o habilitar restricciones.
 
 A continuación se muestra una pequeña aplicación de ejemplo. Abre un archivo de Excel y utiliza la mayoría de las configuraciones de protección avanzadas compatibles con Excel XP y versiones posteriores.
 

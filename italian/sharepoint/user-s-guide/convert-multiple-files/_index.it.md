@@ -25,7 +25,7 @@ url: /it/sharepoint/convert-multiple-files/
 
 ![cose da fare:immagine_alt_testo](convert-multiple-files_2.png)
 ### **Utilizzo del pulsante della barra multifunzione del server in SharePoint 2010**
- In SharePoint 2010, il pulsante della barra multifunzione del server è disponibile al posto del menu di azione personalizzato utilizzato con SharePoint 2007/WSS 3.
+In SharePoint 2010, il pulsante della barra multifunzione del server è disponibile al posto del menu di azione personalizzato utilizzato con SharePoint 2007/WSS 3.
 
 **Conversione di documenti con Aspose.Cells for SharePoint su SharePoint 2010** 
 

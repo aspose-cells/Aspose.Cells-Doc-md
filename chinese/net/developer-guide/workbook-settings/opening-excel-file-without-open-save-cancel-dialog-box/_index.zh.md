@@ -18,7 +18,7 @@ url: /zh/net/opening-excel-file-without-open-save-cancel-dialog-box/
 
 |**打开-保存-取消对话框**|
 |:- |
-|![待办事项：图像_替代_文本](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
+|![待办事项：图片_替代_文本](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
 如上所述，允许文件在您的系统上打开或运行而不确认您确实需要它是一种安全风险。有些文件包含病毒，有些站点会在不提示您的情况下尝试将有害文件下载到您的计算机。因此，不建议您在没有下载提示的情况下允许下载文件，这样用户在下载或运行文件之前必须验证文件及其来源。禁用下载对话框会使系统容易受到病毒、木马和黑客的攻击，他们可能会悄悄地影响您的系统。
 ## **在没有打开-保存-取消对话框的情况下打开文件**
 虽然这是一个很大的安全问题，但 Microsoft 仍然提供 Internet Explorer 设置，允许用户禁用文件下载的打开-保存-取消提示。
@@ -35,5 +35,5 @@ url: /zh/net/opening-excel-file-without-open-save-cancel-dialog-box/
 
 |**编辑文件类型选项**|
 |:- |
-|![待办事项：图像_替代_文本](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
+|![待办事项：图片_替代_文本](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 此设置允许文件直接在 Web 浏览器中运行，而不会在下载或打开文件时显示“打开-保存-取消”对话框。

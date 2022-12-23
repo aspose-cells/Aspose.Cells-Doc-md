@@ -6,7 +6,7 @@ url: /zh/java/licensing/
 ---
 {{% alert color="primary" %}} 
 
-您可以下载评估版**Aspose.Cells**for Java 来自[它的下载页面](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) Maven 回购。评估版提供与产品许可版完全相同的功能。此外，当您购买许可证并添加几行代码来应用该许可证时，评估版就会成为许可证。
+您可以下载评估版**Aspose.Cells**for Java 从[它的下载页面](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) Maven 回购。评估版提供与产品许可版完全相同的功能。此外，当您购买许可证并添加几行代码来应用该许可证时，评估版就会成为许可证。
 
 一旦您对您的评价感到满意**Aspose.Cells**， 你可以[购买许可证](https://purchase.aspose.com)在 Aspose 网站上。让自己熟悉所提供的不同订阅类型。如有任何疑问，请随时联系 Aspose 销售团队。
 
@@ -14,7 +14,7 @@ url: /zh/java/licensing/
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
-如果你想测试**Aspose.Cells**没有评估版本限制，请求 30 天的临时许可证。请参阅[如何获得临时许可证？](https://purchase.aspose.com/temporary-license)了解更多信息。
+如果你想测试**Aspose.Cells**没有评估版本限制，请求 30 天的临时许可证。请参阅[如何获得临时许可证？](https://purchase.aspose.com/temporary-license)想要查询更多的信息。
 
 {{% /alert %}}
 
@@ -30,7 +30,7 @@ url: /zh/java/licensing/
 
 ### **第二个限制：带有评估水印的工作表**
 
-![待办事项：图像_替代_文本](licensing_1.png)
+![待办事项：图片_替代_文本](licensing_1.png)
 
 此工作表将始终显示为活动工作表。只有在授权版本中，您可以将活动工作表设置为其他工作表。
 

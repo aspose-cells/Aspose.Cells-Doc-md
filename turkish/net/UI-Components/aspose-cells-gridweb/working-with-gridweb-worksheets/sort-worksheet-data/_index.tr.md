@@ -22,11 +22,11 @@ Aşağıdaki örnek, bir çalışma sayfasının dört sütunundaki verileri aza
 
 Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
 
-![yapılacaklar:resim_alternatif_Metin](sort-worksheet-data_1.png)
+![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_1.png)
 
 Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
 
-![yapılacaklar:resim_alternatif_Metin](sort-worksheet-data_2.png)
+![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_2.png)
 
 
 
@@ -42,11 +42,11 @@ Aşağıdaki örnek, verileri artan düzende dört satırda sıralar. Yedi sütu
 
 Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
 
-![yapılacaklar:resim_alternatif_Metin](sort-worksheet-data_3.png)
+![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_3.png)
 
 Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
 
-![yapılacaklar:resim_alternatif_Metin](sort-worksheet-data_4.png)
+![yapılacaklar:resim_alternatif_metin](sort-worksheet-data_4.png)
 
 
 

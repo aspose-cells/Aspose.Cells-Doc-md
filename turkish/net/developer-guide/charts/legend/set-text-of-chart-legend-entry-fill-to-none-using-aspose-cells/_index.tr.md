@@ -14,6 +14,6 @@ url: /tr/net/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 Aşağıdaki ekran görüntüsü, bu kodun etkisini vurgulamaktadır.[örnek excel dosyası](5115219.xlsx).
 
-![yapılacaklar:resim_alternatif_Metin](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ChartLegendEntry-1.cs" >}}

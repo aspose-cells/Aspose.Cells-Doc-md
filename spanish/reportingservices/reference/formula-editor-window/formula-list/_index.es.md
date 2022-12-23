@@ -8,9 +8,9 @@ url: /es/reportingservices/formula-list/
 
 |**Escoger un nombre** |**Nombre de fórmula**|**Descripción**|
 |:- |:- |:- |
-| Campos globales| Tiempo de ejecución|La fecha y la hora en que comenzó a ejecutarse el informe.|
+| Campos globales| Tiempo de ejecución| La fecha y la hora en que comenzó a ejecutarse el informe.|
 || URL del servidor de informes| La URL del servidor de informes en el que se está ejecutando el informe.|
-|| Reportar nombre| El nombre del informe tal como está almacenado en la base de datos del servidor de informes.|
+|| Reportar nombre|El nombre del informe tal como está almacenado en la base de datos del servidor de informes.|
 || InformeCarpeta| La ruta completa a la carpeta que contiene el informe. Esto no incluye la URL del servidor de informes.|
 | Usuario| ID de usuario| El ID del usuario que ejecuta el informe.|
 || Idioma| El ID de idioma del usuario que ejecuta el informe.|
@@ -19,7 +19,7 @@ url: /es/reportingservices/formula-list/
 |**Escoger un nombre**|**Descripción**|
 |:- |:- |
 | Parámetros| La colección Parámetros contiene los parámetros del informe dentro del informe. Los parámetros se pueden pasar a consultas, usarse en filtros o en otras funciones que alteran la apariencia del informe según el parámetro.|
-| Campos| La colección Fields contiene los campos dentro del conjunto de datos actual.|
+| Los campos| La colección Fields contiene los campos dentro del conjunto de datos actual.|
 | conjunto de datos||
 **Operadores**
 Los operadores aritméticos se utilizan para combinar números, variables numéricas, campos numéricos y funciones numéricas para obtener otro número. Los operadores de comparación generalmente se usan para comparar operandos para una condición en una estructura de control como una instrucción If. Los operadores booleanos se utilizan normalmente con operadores de comparación para generar condiciones para estructuras de control.

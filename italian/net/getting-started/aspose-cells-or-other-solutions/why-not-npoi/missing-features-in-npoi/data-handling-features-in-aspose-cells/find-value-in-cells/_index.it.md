@@ -5,7 +5,7 @@ weight: 20
 url: /it/net/find-value-in-cells/
 ---
 ## **Aspose.Cells - Trova valore in Cells**
-In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare**poi**Trova**apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK**per cercarlo. Excel evidenzia i campi corrispondenti.
+In Microsoft Excel, gli utenti possono cercare celle che contengono dati specifici. Ad esempio, facendo clic**Modificare**e poi**Trova**apre la finestra di dialogo Cerca. Gli utenti immettono un valore e fanno clic**OK**per cercarlo. Excel evidenzia i campi corrispondenti.
 
 **C#**
 
@@ -39,7 +39,7 @@ Console.WriteLine("Name of the cell containing String: " + cell.Name);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Trova valore in Cells** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Trova valore in Cells** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Find.Value.In.Cells.Aspose.Cells.zip)
 

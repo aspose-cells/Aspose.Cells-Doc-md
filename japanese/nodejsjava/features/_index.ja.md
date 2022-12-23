@@ -14,14 +14,14 @@ description: Aspose.Cells for Node.js via Java 特徴
 |**特徴**|**説明**|**Aspose.Cells for Java**|**Aspose.Cells for Node.js via Java**|
 |:- |:- |:- |:- |
 |高品質のコンバージョン|迅速かつ確実に、いくつかの一般的なドキュメント形式間で変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft エクセルブック（XLS）|最速かつ最も完全な XLS 形式の実装です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、<br>このコンポーネントは、XLSX、XLTX、XLSM、XLTM などの主要な Excel 2007 以降のバージョンのファイル形式をすべてサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft エクセルワークブック (XLS)|あなたが見つけることができる最速かつ最も完全な XLS フォーマットの実装。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、<br>このコンポーネントは、すべての主要な Excel 2007 以降のバージョンのファイル形式 (XLSX、XLTX、XLSM、XLTM など) をサポートしています。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |カンマ区切り値 (CSV)|さまざまなアプリケーションと対話するための CSV 形式の包括的なサポート。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|HTMLとして保存が可能です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|HTMLとして保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |オープンドキュメント (ODS)|Aspose.Cells は、ドキュメントを OpenDocument スプレッドシート (.ods) 形式で読み込んで保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|スプレッドシートを高忠実度で PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|スプレッドシートを忠実度の高い PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |タブ区切り|ドキュメントをタブ区切りファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|プレーンテキスト (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|平文 (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **レンダリングと印刷**
 Aspose.Cells は、スプレッドシート ページの忠実度の高いレンダリングを提供するようになりました。
 
@@ -29,8 +29,8 @@ Aspose.Cells は、スプレッドシート ページの忠実度の高いレン
 |:- |:- |:- |
 |ドキュメントを Microsoft Excel® に忠実にページにレイアウトします (Microsoft Excel® とまったく同じように)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |ワークシート ページをラスター イメージ (PNG、JPEG など) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークシート ページをラスター イメージ (マルチページ TIFF、GIF) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|スプレッドシート ページをベクトル イメージ (EMF) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークシート ページをラスター イメージにレンダリングします (マルチページ TIFF、GIF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|スプレッドシート ページをベクター イメージにレンダリングします (EMF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |画像の解像度、品質、圧縮、およびその他のオプションを指定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Java 印刷インフラストラクチャを使用してスプレッドシート ページを印刷します。|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |レンダリングまたは印刷する前に、ページ番号およびその他のフィールドを更新します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -66,7 +66,7 @@ Aspose.Cells は、100 を超えるパブリック クラス/インターフェ�
 |リスト オブジェクトの作成/Microsoft Excel テーブル|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |小計の作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |フォーム コントロールおよびその他の描画図形/オブジェクトを挿入する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ピボット テーブルとピボット チャートを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ピボット テーブルとピボット グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |アドイン、VBA、マクロを保持または削除する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |名前付き範囲を操作する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |カスタム グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

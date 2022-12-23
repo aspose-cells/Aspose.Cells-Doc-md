@@ -16,14 +16,14 @@ url: /es/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-44288|Uso de LightCells API con archivos XLSB|Nueva caracteristica|
 |CELLSNET-47817|Actualice la fuente de datos al cambiar el gráfico de cascada a gráfico de columnas.|Mejora|
 |CELLSNETCORE-99|Admite la actualización del icono de visualización para el objeto jpg, zip, msg incrustado.|Mejora|
-|CELLSNET-47827|Espera en CalculateFormula|Actuación|
-|CELLSNET-47832|Cells.DeleteBlankRows nunca termina (bucle infinito) en una hoja de trabajo en particular|Actuación|
-|CELLSNETCORE-98|Cargando resultados xlsb con excepción OOM|Actuación|
+|CELLSNET-47827|Espera en CalculateFormula|Rendimiento|
+|CELLSNET-47832|Cells.DeleteBlankRows nunca termina (bucle infinito) en una hoja de trabajo en particular|Rendimiento|
+|CELLSNETCORE-98|Cargando resultados xlsb con excepción OOM|Rendimiento|
 |CELLSNET-47805|Posición incorrecta de algunas polilíneas al guardar archivos .html.|Insecto|
 |CELLSNET-47810|La posición de la flecha es incorrecta|Insecto|
-|CELLSNET-43717|La clasificación de campos dinámicos no se procesa en PDF|Insecto|
+|CELLSNET-43717|La ordenación de Pivot Field no se procesa en PDF|Insecto|
 |CELLSNET-43751|La clasificación de etiquetas de fila se pierde después de consultar la tabla dinámica|Insecto|
-|CELLSNET-47777|Errores de formato en HTML convertido|Insecto|
+|CELLSNET-47777|Errores de formato en convertido HTML|Insecto|
 |CELLSNET-47824|Problema con la fórmula PPMT que da un resultado incorrecto|Insecto|
 |CELLSNET-47847| Referencia de fórmula incorrecta después de eliminar filas|Insecto|
 |CELLSNET-47818|Shape.ToImage no representa texto en el entorno docker|Insecto|
@@ -38,7 +38,7 @@ url: /es/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47838|La paleta de colores del gráfico nativo no se conserva|Insecto|
 |CELLSNET-47845| Bordes eliminados inesperadamente después de pegar con el tipo de pegado DefaultExceptBorders|Insecto|
 |CELLSNET-47848|Problema con la eliminación de AutoFilter de ListObject o el indicador Agregar botón de filtro para él|Insecto|
-|CELLSNET-47840|Excepción generada al abrir un archivo de Excel generado a partir de un HTML|Excepción|
+|CELLSNET-47840|Se produjo una excepción al abrir un archivo de Excel generado a partir de un HTML|Excepción|
 |CELLSNET-47841|StackOverflowException con archivo xlsx|Excepción|
 |CELLSNET-47854|Cells. Find arroja una excepción cuando el archivo se abre a través de la transmisión|Excepción|
 |CELLSNET-47825| Aspose.Cells 21.01 Excepción en documento de apertura|Excepción|

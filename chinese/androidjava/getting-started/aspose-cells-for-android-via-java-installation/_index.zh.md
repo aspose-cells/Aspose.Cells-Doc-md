@@ -55,35 +55,35 @@ Aspose.Cells for Android via Java 包可以从下载[这里](https://downloads.a
 ### **Android Studio Aspose.Cells for Android via Java 入门**
 加载 Android Studio IDE 后，单击文件 > 新建 > 新建项目，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_1.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_1.png)
 
 您还可以从 Android Studio 的欢迎屏幕创建一个新项目，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_2.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_2.png)
 
 接下来，系统将提示您指定应用程序名称、域和存储项目文件的位置。您可以选择根据您的选择更改默认值或让它们保持原样，然后单击下一步。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_3.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_3.png)
 
 在下一步中，您必须指定希望托管/运行应用程序的 Android 设备。选择后，单击下一步按钮。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_4.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_4.png)
 
 现在您需要从预定义的模板列表中选择活动。为了保持演示简单，我们选择了 Empty Activity 模板，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_5.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_5.png)
 
 单击 Customize the Activity 对话框中的 Finish 按钮，因为我们将保留所有默认设置。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_6.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_6.png)
 
 只要您在上一步中单击“完成”按钮，IDE 就会开始构建项目，如下所示。让它完成或单击取消按钮。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_7.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_7.png)
 
 现在项目已加载到 IDE 中，但是，您可能希望将视图更改为项目，以便可以查看项目文件的完整层次结构。要更改视图，请检查以下快照。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_8.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_8.png)
 
 将视图更改为项目后，找到并加载**build.gradle**编辑器中的文件并粘贴以下代码段，如下所示。
 
@@ -97,22 +97,22 @@ Aspose.Cells for Android via Java 包可以从下载[这里](https://downloads.a
 
 {{< /highlight >}}
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_9.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_9.png)
 
 接下来，我们将 Aspose.Cells for Android via Java Jar 添加到项目中。有 2 个重要步骤，详述如下。
 
 - 手动复制Aspose.Cells for Android via Java Jar到**\应用\库**文件夹。
 - 将 Aspose.Cells for Android via Java Jar 作为库添加到模块中，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_10.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_10.png)
 
 系统将提示您选择要将 Aspose.Cells for Java.Android Jar 作为库添加到的模块。 Please choose appropriately and click OK.
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_11.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_11.png)
 
 您还需要将 APK 文件添加到项目中。您必须将 APK 复制到**\app\src\main\assets**文件夹。如果主文件夹下没有资产文件夹，可以通过在项目视图中右键单击主节点来创建一个。选择新建 > 文件夹 > 资产文件夹。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_12.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_12.png)
 
 将 APK 添加到项目后，需要由项目加载它。有两种加载 APK 的方法如下。
 
@@ -174,12 +174,12 @@ Aspose.Cells for Android via Java 包可以从下载[这里](https://downloads.a
 
 当您使用 IDE 界面上的播放按钮（或使用 SHIFT + F10）运行应用程序时，模拟器将加载应用程序，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_13.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_13.png)
 
 单击模拟器上的按钮将执行代码以在模拟器的外部存储文件夹中创建一个新的电子表格。您可以从 Android 设备监视器访问该文件，如下所示。
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_14.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_14.png)
 
-![待办事项：图像_替代_文本](aspose-cells-for-android-via-java-installation_15.png)
+![待办事项：图片_替代_文本](aspose-cells-for-android-via-java-installation_15.png)
 
 

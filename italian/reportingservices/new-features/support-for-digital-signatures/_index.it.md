@@ -6,9 +6,9 @@ url: /it/reportingservices/support-for-digital-signatures/
 ---
 {{% alert color="primary" %}} 
 
- Una firma digitale garantisce che una cartella di lavoro sia valida e che nessuno l'abbia modificata. Allegare una firma digitale è simile a sigillare una busta. Se una busta arriva sigillata, hai un certo livello di sicurezza che nessuno ha manomesso il suo contenuto.
+Una firma digitale garantisce che una cartella di lavoro sia valida e che nessuno l'abbia modificata. Allegare una firma digitale è simile a sigillare una busta. Se una busta arriva sigillata, hai un certo livello di sicurezza che nessuno ha manomesso il suo contenuto.
 
- È possibile creare una firma digitale personale utilizzando Microsoft Selfcert.exe o qualsiasi altro strumento oppure è possibile acquistare una firma digitale. Per firmare un foglio di calcolo, allegare una firma alle cartelle di lavoro dopo aver creato una firma digitale.
+ Puoi creare una firma digitale personale utilizzando Microsoft Selfcert.exe o qualsiasi altro strumento, oppure puoi acquistare una firma digitale. Per firmare un foglio di calcolo, allegare una firma alle cartelle di lavoro dopo aver creato una firma digitale.
 
  Aspose.Cells for Reporting Services supporta le firme digitali.
 
@@ -20,7 +20,7 @@ Aspose.Cells for Reporting Services supporta le firme digitali durante l'esporta
  Il**Aspose.Cells.ReportingServices.xml** contiene le informazioni di configurazione e il testo di una firma digitale nel formato<DigitalSignature> etichetta:
 
 - Quando DigitalSignature è disattivato, Aspose.Cells for Reporting Services disattiva la funzionalità di firma digitale.
- Per esempio:
+Per esempio:
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ Aspose.Cells for Reporting Services supporta le firme digitali durante l'esporta
 {{< /highlight >}}
 
 - Quando il valore di DigitalSignature è attivo, Aspose.Cells.ReportingServices attiva la funzionalità della firma digitale.
- Per esempio:
+Per esempio:
 
 {{< highlight "java" >}}
 
@@ -47,7 +47,7 @@ Aspose.Cells for Reporting Services supporta le firme digitali durante l'esporta
 - pfxFilename – Punta al file PFX. Il nome file deve essere un nome file completo. Non può essere impostato su un valore vuoto.
 - pfxPwd – Imposta la password. Non può essere lasciato vuoto.
 - scopo – Spiega lo scopo della firma. Può essere vuoto.
- Per esempio:
+Per esempio:
 
 {{< highlight "java" >}}
 

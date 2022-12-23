@@ -7,7 +7,7 @@ url: /ja/java/freeze-panes-in-php/
 ## **Aspose.Cells - フリーズペイン**
 を使用してスプレッドシート ドキュメントのペインを固定するには**Aspose.Cells Java for PHP**、単に呼び出す**FreezePanes**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

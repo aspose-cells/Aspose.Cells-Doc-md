@@ -7,7 +7,7 @@ description: Questo articolo descrive come utilizzare il motore di calcolo perso
 ---
 ## **Implementa il motore di calcolo personalizzato**
 
-Aspose.Cells.GridJs ha un potente motore di calcolo in grado di calcolare quasi tutte le formule di Microsoft Excel. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
+Aspose.Cells.GridJs ha un potente motore di calcolo in grado di calcolare quasi tutte le formule di Excel Microsoft. Nonostante ciò, ti consente anche di estendere il motore di calcolo predefinito che ti offre maggiore potenza e flessibilità.
 
 Le seguenti proprietà e classi vengono utilizzate per implementare questa funzionalità.
 

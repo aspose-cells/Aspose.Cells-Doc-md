@@ -16,48 +16,48 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.3.
 |CELLSJAVA-43137|Light Cells API: bearbetar ark i en specifik ordning|Ny funktion|
 |CELLSJAVA-43135|Ta bort ActiveXControl från bildformen|Ny funktion|
 |CELLSJAVA-43141|Lägg till egenskapen ThreadedComment.CreatedTime|Ny funktion|
-|CELLSJAVA-43074|XLSX till PDF, skillnad i PDF-utdata när du använder Oracle JDK vs Open JDK|Förbättring|
+|CELLSJAVA-43074|XLSX till PDF, skillnad i PDF utdata när du använder Oracle JDK vs Open JDK|Förbättring|
 |CELLSJAVA-43076|Ställ in bildtyp EMF i den renderade HTML-filen|Förbättring|
 |CELLSJAVA-43113|Konvertering till PDF - java.lang.NumberFormatException: För inmatningssträng|Förbättring|
 |CELLSJAVA-43114|Konvertering till PDF - Ogiltig formel:"'APRIL''12'.A1:'APRIL''12'.I23"|Förbättring|
-|CELLSJAVA-43117|Konvertering till PDF - hex är inte ett giltigt hexnummer!|Förbättring|
+|CELLSJAVA-43117|Konvertering till PDF - hex är inte ett giltigt hex-nummer!|Förbättring|
 |CELLSJAVA-43118|Konvertering till PDF - java.lang.NumberFormatException: För inmatningssträng: "341,403,811.74"|Förbättring|
 |CELLSJAVA-43083|Opacitet tillämpas inte på kolumndiagram|Insekt|
 |CELLSJAVA-41879|%of, %of Row, %of ParentRowTotal, %ParentTotal, etc. fungerar inte i pivot excel-utdata|Insekt|
-|CELLSJAVA-43062|Cells standardbakgrundsfärg är fel i utdata-HTML|Insekt|
+|CELLSJAVA-43062|Cells standardbakgrundsfärg är fel i utdata HTML|Insekt|
 |CELLSJAVA-43063|Utdata från SheetRender.toImage() är felaktig|Insekt|
 |CELLSJAVA-43070|calculateFormula() beräknar inte värde|Insekt|
 |CELLSJAVA-43086|Formatformat för procent har tillämpats felaktigt under norsk språk|Insekt|
 |CELLSJAVA-43082|Mindre teckensnitt återges i varje första rad i tabellen|Insekt|
-|CELLSJAVA-41360|Cells med formler visas i PDF-filen medan de inte visas i ODS|Insekt|
-|CELLSJAVA-42786|ODS till XLSX - linjediagram förlorar linjer och teckenförklaringar|Insekt|
+|CELLSJAVA-41360|Cells med formler visas inuti PDF medan de inte visas i ODS|Insekt|
+|CELLSJAVA-42786|ODS till XLSX - linjediagram förlorar rader och teckenförklaringar|Insekt|
 |CELLSJAVA-42788|ODS till XLSX - cirkel blir kvadratisk|Insekt|
 |CELLSJAVA-43073|DataMashup-information är inte tillgänglig i arbetsboken|Insekt|
 |CELLSJAVA-43092|Kan inte bearbeta Excel-fil|Insekt|
-|CELLSJAVA-43077|Undantaget "Oväntad bildtyp" uppstod när kalkylbladet renderades till HTML|Insekt|
-|CELLSJAVA-43096|Programmet hänger sig vid konvertering av Excel-fil till HTML|Insekt|
+|CELLSJAVA-43077|Undantaget "Oväntad bildtyp" höjdes när kalkylbladet renderades till HTML|Insekt|
+|CELLSJAVA-43096|Programmet hänger sig medan Excel-filen konverteras till HTML|Insekt|
 |CELLSJAVA-43107|Konvertering till PDF - com.aspose.cells.CellsException: Form till bild Fel!|Insekt|
 |CELLSJAVA-43108|Konvertering till PDF - com.aspose.cells.CellsException|Insekt|
-|CELLSJAVA-43088|Radardiagram renderas inte i utdatafilen i XLSX till PDF-konvertering|Insekt|
+|CELLSJAVA-43088|Radardiagram renderas inte i utdatafilen i XLSX till PDF konvertering|Insekt|
 |CELLSJAVA-43099|Kalkylbladsbilden återges inte korrekt|Insekt|
-|CELLSJAVA-43093|ActiveX-kontrollen upptäcks inte i XLS-filformat|Insekt|
+|CELLSJAVA-43093|ActiveX-kontrollen upptäcks inte i filformatet XLS|Insekt|
 |CELLSJAVA-43104|Problem med getShowTabs och setShowTabs|Insekt|
 |CELLSJAVA-43121|OOM försöker få antal sidor i XLS|Insekt|
 |CELLSJAVA-43125|Form- och ActiveX-objekt dupliceras|Insekt|
 |CELLSJAVA-42068|GIF i kalkylbladet är fel när arbetsboken konverteras till HTML|Insekt|
 |CELLSJAVA-43127|Excel-pivottabellen uppdateras inte automatiskt när filen först öppnas|Insekt|
-|CELLSJAVA-43129|Kinesisk text är förvanskad i HTML till XLS-konvertering|Insekt|
+|CELLSJAVA-43129|Kinesisk text är förvrängd i konverteringen HTML till XLS|Insekt|
 |CELLSJAVA-43139|Diagrammen i bladet uppdateras inte när kalkylblad renderas till bild|Insekt|
 |CELLSJAVA-43148|Kartetikettens positionsfel|Insekt|
 |CELLSJAVA-43124|Vid konvertering till PDF skärs två kolumner bort från tabellen|Insekt|
-|CELLSJAVA-43091|Dataetiketter på Donuts-diagrammet överlappas i PDF-filen|Insekt|
+|CELLSJAVA-43091|Dataetiketter på Donuts-diagrammet överlappas i filen PDF|Insekt|
 |CELLSJAVA-43132|Dataetiketter saknas i vissa diagram vid export av diagram till en bild|Insekt|
 |CELLSJAVA-43143|Efter WorkbookDesigner.process är diagramutdata null i HTML|Insekt|
-|CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för XLS-filformat|Insekt|
-|CELLSJAVA-43122|Problem med ordning av trådade kommentarer efter import till Office365 XLSX-filformat|Insekt|
+|CELLSJAVA-43098|Att ersätta inbäddat objekt med en bild fungerar inte för filformatet XLS|Insekt|
+|CELLSJAVA-43122|Problem med ordning av trådade kommentarer efter import till filformatet Office365 XLSX|Insekt|
 |CELLSJAVA-43134|Strängvärdet för en cell är tomt i Apple Numbers'09|Insekt|
 |CELLSJAVA-43144|IsItalic-egenskapen har upptäckts på ett annat sätt än MS Excel (Java)|Insekt|
-|CELLSJAVA-43094|Undantag vid laddning av ett XLSX-filformat|Undantag|
+|CELLSJAVA-43094|Undantag vid laddning av ett XLSX filformat|Undantag|
 |CELLSJAVA-43100|Undantag "java.lang.ArrayIndexOutOfBoundsException" när Workbook.calculateFormula() anropas i en Excel-fil|Undantag|
 |CELLSJAVA-43123|ArrayIndexOutOfBoundsException när du använder MEMORY_PREFERENCE|Undantag|
 |CELLSJAVA-43105|Konvertering till PDF - java.lang.ArrayIndexOutOfBoundsException: 60|Undantag|
@@ -87,7 +87,7 @@ Typ av XML Advanced Electronic Signature (XAdES).
 ### **Lägger till egenskapen DigitalSignature.XAdESType**
 Hämtar och ställer in typen av XML Advanced Electronic Signature (XAdES). Standardvärdet är None (XAdES är avstängt).
 ### **Lägger till egenskapen FormulaParseOptions.Parse.**
- Anger om formeln tolkas när ett formeluttryck ställs in i cellen. Standard är**Sann** . Om**falsk**då kommer det inmatade formeluttrycket att behållas som det är för cellen tills användaren anropar andra metoder för att analysera dem eller tills tolkad formeldata krävs av andra operationer, såsom beräkning av formler.
+ Anger om formeln tolkas när ett formeluttryck ställs in i cellen. Standard är**Sann** . Om**falsk**, då kommer det inmatade formeluttrycket att behållas som det är för cellen tills användaren anropar andra metoder för att analysera dem eller tills tolkad formeldata krävs av andra operationer, såsom beräkning av formler.
 ### **Lägger till metoden Workbook.ParseFormulas(bool ignoreError).**
 Analyserar alla formler som inte har analyserats när de laddades eller sattes till en cell.
 ### **Lägger till egenskapen PivotTable.ExternalConnectionDataSource.**

@@ -58,7 +58,7 @@ El complemento es compatible con las siguientes versiones de IntelliJ IDEA:
 
 - 13.0.1 (Comunidad / Edición definitiva)
 - 13.1.2 (CE/UE)
-- 14.0.2 (CE/ UE)
+- 14.0.2 (CE/UE)
 
 ## **Descargando**
 
@@ -68,7 +68,7 @@ El complemento es compatible con las siguientes versiones de IntelliJ IDEA:
 
 Para descargar IntellliJ IDEA
 
-1.  Ir<https://www.jetbrains.com/idea/download/>
+1.  Ir a<https://www.jetbrains.com/idea/download/>
 1. Seleccione su sistema operativo en ejecución
 1. Haga clic en descarga UE o CE.
 
@@ -76,10 +76,10 @@ Para descargar IntellliJ IDEA
 
 -  El complemento se puede descargar directamente desde el[URL de alojamiento del complemento de JetBrains](https://goo.gl/R4pysl) - en el repositorio de complementos IntelliJ IDEA
  y posteriores se pueden instalar usando la opción IDE:
- - Ir**Expediente** > **Ajustes**...>**Complementos**
+ - Ir a**Archivo** > **Ajustes**...>**Complementos**
  - Seleccionar "**Instalar el complemento desde el disco"**
 - O se puede instalar directamente (sin descarga manual desde la URL de alojamiento del complemento de JetBrains) usando las opciones de IDE:
- - Ir**Expediente** > **Ajustes**...>**Complementos**
+ - Ir a**Archivo** > **Ajustes**...>**Complementos**
  - Seleccione**"Explorar repositorios"**
  - En el cuadro de búsqueda escriba: "Aspose"
  - Seleccionar "**Aspose Cells Java para IntelliJ IDEA Maven**"Complemento para instalar.
@@ -98,7 +98,7 @@ Para descargar IntellliJ IDEA
 
 ## **Apoyar, Extender y Contribuir**
 
-### **Apoyo**
+### **Soporte**
 
 - Si desea ver problemas conocidos/informados (por los usuarios o el equipo de control de calidad) en el complemento.
 - O desea informar cualquier problema que haya encontrado en el complemento

@@ -20,25 +20,25 @@ url: /ar/java/aspose-cells-for-java-7-3-2-release-notes/
 
  التحسينات
 
-- أغلق التدفقات الداخلية لتحرير مصادر الذاكرة في تحويل PDF
+- إغلاق التدفقات الداخلية لتحرير مصادر الذاكرة في تحويل PDF
 - انسخ الخطوط المضيئة عند نسخ ورقة العمل
 
  استثناءات
 
-- تسبب فتح ملف XLS في StackOverflowError
+- تسبب فتح ملف XLS في حدوث خطأ StackOverflowError
 - تسبب حفظ PDF في حدوث استثناء
 - تسبب Worksheet.getFreezedPanes () في NullPointerException
 - تسبب فتح ملف XML فارغ في حدوث استثناء
-- تسبب الحفظ في PDF في استثناء -I
-- تسبب الحفظ في PDF في استثناء -II
-- تسبب الحفظ في PDF في استثناء -III
-- تسبب الحفظ في PDF في استثناء -IV
+- تسبب الحفظ في PDF في حدوث استثناء -I
+- تسبب الحفظ في PDF في حدوث استثناء -II
+- تسبب الحفظ في PDF في حدوث استثناء -III
+- تسبب الحفظ في PDF في حدوث استثناء -IV
 - استثناء عند فتح ملف قالب HTM
 - IllegalArgumentException عند فتح ملف anXLS
 - NullPointerException عند فتح ملف XLS
 - استثناء ArrayIndexOutOfBounds عند فتح ملف XLS
 - تسبب حفظ PivotTable في حدوث ClassCastException بعد تعيين الفرز التلقائي
-- خطأ من شكل إلى صورة عند حفظ ملف PDF باستخدام Cells Aspose
+- خطأ من شكل إلى صورة عند حفظ PDF باستخدام Aspose Cells
 - CellsException عند طباعة خطوط الشبكة إلى PDF
 
  البق

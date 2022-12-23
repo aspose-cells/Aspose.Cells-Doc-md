@@ -1,12 +1,12 @@
 ﻿---
-title: حفظ المصنف إلى نص أو تنسيق CSV في Aspose.Cells
+title: احفظ المصنف إلى نص أو تنسيق CSV في Aspose.Cells
 type: docs
 weight: 110
 url: /ar/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، تريد تحويل مصنف أو حفظه باستخدام أوراق عمل متعددة إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT و TabDelim و CSV وما إلى ذلك) ، بشكل افتراضي ، يقوم كل من Microsoft Excel و Aspose.Cells بحفظ محتويات ورقة العمل النشطة فقط.
+في بعض الأحيان ، تريد تحويل مصنف أو حفظه باستخدام أوراق عمل متعددة إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT ، TabDelim ، CSV إلخ.) ، افتراضيًا ، يتم حفظ محتويات ورقة العمل النشطة فقط Microsoft Excel و Aspose.Cells.
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /ar/net/save-workbook-to-text-or-csv-format-in-aspose-cells/
 
 عندما يتم تنفيذ الكود ، فإنه يحول بيانات جميع الأوراق في المصنف إلى تنسيق TXT.
 
-يمكنك تعديل نفس المثال لحفظ ملفك في CSV. بشكل افتراضي ، يكون TxtSaveOptions.Separator عبارة عن فاصلة ، لذلك لا تحدد فاصلًا في حالة الحفظ بتنسيق CSV.
+يمكنك تعديل نفس المثال لحفظ الملف في CSV. بشكل افتراضي ، يكون TxtSaveOptions.Separator عبارة عن فاصلة ، لذلك لا تحدد فاصلًا إذا قمت بالحفظ بتنسيق CSV.
 
 **C#**
 
@@ -74,7 +74,7 @@ File.WriteAllBytes(filePath + ".out.txt", workbookData);
 
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Save%20Workbook%20to%20Text%20or%20CSV%20Format)
 ## **تنزيل نموذج التعليمات البرمجية**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1)

@@ -5,7 +5,7 @@ weight: 10
 url: /de/net/add-data-in-cells/
 ---
 ## **Aspose.Cells - Fügen Sie Daten in Cells hinzu**
-Aspose.Cells stellt eine Klasse Workbook bereit, die eine Microsoft Excel-Datei darstellt. Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit. Jedes Element in der Sammlung Cells repräsentiert ein Objekt der Klasse Cell.
+Aspose.Cells stellt eine Klasse Workbook bereit, die eine Microsoft Excel-Datei darstellt. Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit. Jedes Element in der Sammlung Cells repräsentiert ein Objekt der Klasse Cell.
 
 **C#**
 

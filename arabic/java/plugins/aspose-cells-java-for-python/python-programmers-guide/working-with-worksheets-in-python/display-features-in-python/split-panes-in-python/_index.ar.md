@@ -32,7 +32,7 @@ workbook.save(self.dataDir + "book.out.xls", saveFormat.EXCEL_97_TO_2003);
 print "Panes split successfully."
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**تقسيم الأجزاء (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

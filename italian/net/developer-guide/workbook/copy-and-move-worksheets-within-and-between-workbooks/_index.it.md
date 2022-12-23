@@ -6,7 +6,7 @@ url: /it/net/copy-and-move-worksheets-within-and-between-workbooks/
 ---
 {{% alert color="primary" %}}
 
-volte, hai bisogno di un numero di fogli di lavoro con formattazione e immissione dati comuni. Ad esempio, se lavori con budget trimestrali, potresti voler creare una cartella di lavoro con fogli che contengono le stesse intestazioni di colonna, intestazioni di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo tre volte.
+A volte, hai bisogno di un numero di fogli di lavoro con formattazione e immissione dati comuni. Ad esempio, se lavori con budget trimestrali, potresti voler creare una cartella di lavoro con fogli che contengono le stesse intestazioni di colonna, intestazioni di riga e formule. C'è un modo per farlo: creando un foglio e poi copiandolo tre volte.
 
 Aspose.Cells supporta la copia o lo spostamento di fogli di lavoro all'interno o tra cartelle di lavoro. Fogli di lavoro inclusi dati, formattazione, tabelle, matrici, grafici, immagini e altri oggetti vengono copiati con il massimo grado di precisione.
 
@@ -26,7 +26,7 @@ I passaggi iniziali sono gli stessi per tutti gli esempi.
 1. Scarica e installa Aspose.Cells:
    1. [Scarica Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
  1. Installalo sul tuo computer di sviluppo.
- Tutto[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
+ Tutti[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti.
 1. Crea un progetto:
  1. Avviare Visual Studio.Net.
  1. Creare una nuova applicazione console.

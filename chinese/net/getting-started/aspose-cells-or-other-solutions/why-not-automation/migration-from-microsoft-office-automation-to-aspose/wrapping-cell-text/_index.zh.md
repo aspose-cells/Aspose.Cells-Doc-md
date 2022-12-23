@@ -28,7 +28,7 @@ url: /zh/net/wrapping-cell-text/
 
 运行代码会生成一个包含两个单元格的电子表格，一个包含未换行的文本，另一个包含：
 
-|<p>**使用 VSTO 输出环绕单元格文本** </p><p>![待办事项：图像_替代_文本](wrapping-cell-text_1.png)</p>|<p>**输出环绕单元格文本 Aspose.Cells for .NET** </p><p>![待办事项：图像_替代_文本](wrapping-cell-text_2.png)</p>|
+|<p>**使用 VSTO 输出环绕单元格文本** </p><p>![待办事项：图片_替代_文本](wrapping-cell-text_1.png)</p>|<p>**输出环绕单元格文本 Aspose.Cells for .NET** </p><p>![待办事项：图片_替代_文本](wrapping-cell-text_2.png)</p>|
 |:- |:- |
 
 ### **使用 VSTO 包装 Cell 文本**

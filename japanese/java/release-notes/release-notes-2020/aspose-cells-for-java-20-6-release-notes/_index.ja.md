@@ -14,20 +14,20 @@ url: /ja/java/aspose-cells-for-java-20-6-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43186|展開された列を持つすべての行の総計を計算します|強化|
 |CELLSJAVA-43191|不適切なフォント タイプを指定した場合のシナリオを処理する手段を提供する|強化|
-|CELLSJAVA-43187|XLS「Microsoft Excel 5.0 / 95 Workbook」ファイルをロードするときの例外|強化|
-|CELLSJAVA-43180|黒いワークシート出力を作成する HTML から Excel への変換|バグ|
+|CELLSJAVA-43187|XLS "Microsoft Excel 5.0 / 95 ワークブック" ファイルをロードするときの例外|強化|
+|CELLSJAVA-43180|HTML から Excel への変換により、黒いワークシート出力が作成される|バグ|
 |CELLSJAVA-43181|ExcelをHTMLに変換する際の行の高さの違い|バグ|
 |CELLSJAVA-43188|HTML から Excel への変換中に背景色のスタイルが保持されない|バグ|
 |CELLSJAVA-43196|Aspose.Cells for Java 20.4 および 20.5 を使用して異なる数の VBA モジュールが検出される|バグ|
 |CELLSJAVA-43202|ワークブックの作成完了時にリソースが解放されない|バグ|
 |CELLSJAVA-43203|Unicode 名を持つ名前付き範囲に基づく一部の Excel 検証リストを処理できません|バグ|
-|CELLSJAVA-43185|Linux の setImageResample で JPEG 品質が常に 75 になる|バグ|
+|CELLSJAVA-43185|JPEG Linux の setImageResample で品質が常に 75 になる|バグ|
 |CELLSJAVA-43192|デフォルトで macOS のフォント フォルダー /System/Library/Fonts を読み込む|バグ|
 |CELLSJAVA-43157|ウォーターフォール グラフの作成時に、カスタマイズされたデータ系列の色が保持されない|バグ|
 |CELLSJAVA-43175|ワークブックを他のワークブックに参照するときのチャート シリーズ名の問題|バグ|
 |CELLSJAVA-43201|HTML への保存時の例外「java.util.EmptyStackException」|例外|
 |CELLSJAVA-43204|Cell.getDisplayStringValue() を使用すると NegativeArraySizeException が発生する|例外|
-|CELLSJAVA-43189|XLS ファイルの読み込み中に例外が発生しました|例外|
+|CELLSJAVA-43189|XLS ファイルの読み込み中に発生した例外|例外|
 |CELLSJAVA-43193|一部の XLSX ファイルの読み込み中に NullPointerException が発生しました|例外|
 |CELLSJAVA-43200|ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException」|例外|
 ## **Public API および下位互換性のない変更**

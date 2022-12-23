@@ -6,7 +6,7 @@ url: /ru/net/add-cells-to-microsoft-excel-formula-watch-window/
 ---
 ## **Возможные сценарии использования**
 
-Microsoft Excel Watch Window — это полезный инструмент для удобного просмотра значений ячеек и их формул в окне. Вы можете открыть*Окно просмотра* с помощью Microsoft Excel, нажав кнопку*Формулы > Смотреть* *Окно*. Он имеет*Добавить часы*Кнопка, которую можно использовать для добавления ячеек для проверки. Точно так же вы можете использовать[**Рабочий лист.CellWatches.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index) метод добавления ячеек в*Окно просмотра*используя Aspose.Cells API.
+Microsoft Excel Watch Window — это полезный инструмент для удобного просмотра значений ячеек и их формул в окне. Вы можете открыть*Окно просмотра* с помощью Microsoft Excel, нажав кнопку*Формулы > Смотреть* *Окно*. Он имеет*Добавить часы*Кнопка, которую можно использовать для добавления ячеек для проверки. Точно так же вы можете использовать[**Рабочий лист.CellWatches.Добавить()**](https://reference.aspose.com/cells/net/aspose.cells/cellwatchcollection/methods/add/index)метод добавления ячеек в*Окно просмотра*используя Aspose.Cells API.
 
 ## **Добавить Cells в Microsoft Окно просмотра формулы Excel**
 

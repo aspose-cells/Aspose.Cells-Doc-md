@@ -66,10 +66,10 @@ url: /ar/python-java/supported-formula-functions/
 - CHISQ.INV.RT
 - CHISQ.TEST
 - شيتست
-- يختار
+- أختر
 - ينظف
 - الشفرة
-- عمودي
+- عمود
 - الأعمدة
 - الجمع
 - مركب
@@ -137,7 +137,7 @@ url: /ar/python-java/supported-formula-functions/
 - ERF
 - ERFC
 - نوع الخطأ
-- حتى
+- حتى في
 - بالضبط
 - EXP
 - EXPONDIST
@@ -155,7 +155,7 @@ url: /ar/python-java/supported-formula-functions/
 - فيشر
 - فيشيرينف
 - مُثَبَّت
-- أرضية
+- الأرض
 - FLOOR.MATH
 - تنبؤ بالمناخ
 - FORECAST.LINEAR
@@ -246,7 +246,7 @@ url: /ar/python-java/supported-formula-functions/
 - ابحث عن
 - أدنى
 #### ** م **
-- مباراة
+- تطابق
 - الأعلى
 - ماكسا
 - ماكسيفس
@@ -286,7 +286,7 @@ url: /ar/python-java/supported-formula-functions/
 - نورمينف
 - NORMSDIST
 - ليس
-- حاليا
+- الآن
 - NPER
 - صافي القيمة الحالية
 - NUMBERVALUE
@@ -320,8 +320,8 @@ url: /ar/python-java/supported-formula-functions/
 - PRICEDISC
 - PRICEMAT
 - اختبار
-- منتج
-- مناسب
+- المنتج
+- لائق
 - PV
 #### ** س **
 - الربع
@@ -337,14 +337,14 @@ url: /ar/python-java/supported-formula-functions/
 - الترتيب. AVG
 - الترتيب
 - معدل
-- تلقى
+- استلمو
 - يحل محل
 - استبدال
 - REPT
 - حقا
 - الحق ب
 - رومان
-- دائري
+- مستدير
 - المستدير لأسفل
 - جمع الشمل
 - صف
@@ -374,7 +374,7 @@ url: /ar/python-java/supported-formula-functions/
 - STDEVP
 - STDEVPA
 - ستايكس
-- بديل
+- استبدل
 - المجموع الفرعي
 - مجموع
 - سوميف
@@ -400,7 +400,7 @@ url: /ar/python-java/supported-formula-functions/
 - TDIST
 - نص
 - TEXTJOIN
-- زمن
+- الوقت
 - الوقت ثمين
 - TINV
 - اليوم
@@ -410,7 +410,7 @@ url: /ar/python-java/supported-formula-functions/
 - TRIMMEAN
 - TRUNC
 - TTEST
-- يكتب
+- اكتب
 - صحيح
 #### ** يو **
 - يونيكار

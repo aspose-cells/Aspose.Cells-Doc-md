@@ -299,7 +299,7 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **チャートをマルチページ TIFF に変換する**
+## **チャートをマルチページに変換する TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object

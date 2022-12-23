@@ -12,8 +12,8 @@ url: /ar/python-java/aspose-cells-for-python-via-java-21-10-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-43768|Java لوحظ مشكلة مساحة الكومة أثناء تحويل ملف XLSX إلى PDF|
-|CELLSJAVA-43875|استثناء "Val FontUnderlineType string غير صالح" عند تحميل ملف XLSX|
+|CELLSJAVA-43768|تم ملاحظة مشكلة مساحة الكومة Java أثناء تحويل ملف XLSX إلى PDF|
+|CELLSJAVA-43875|استثناء "Val FontUnderlineType string غير صالح" عند تحميل الملف XLSX|
 |CELLSJAVA-43876|استثناء "java.lang.ArrayIndexOutOfBoundsException" عند تحميل ملف XLSX|
 |CELLSJAVA-43646|لم يتم تقديم تأثير الظل للنص بشكل صحيح|
 |CELLSJAVA-43760|اتجاه المثلث متساوي الساقين غير صحيح|
@@ -21,15 +21,15 @@ url: /ar/python-java/aspose-cells-for-python-via-java-21-10-release-notes/
 |CELLSJAVA-43838|بعد تنفيذ XlsToXlsx ، يتم فقد الشكل التلقائي|
 |CELLSJAVA-43839|بعد تنفيذ XlsToXlsx ، يتم فقد LeftBracket|
 |CELLSJAVA-43842|بعد تنفيذ XlsToXlsx ، يختلف شكل LeftBracket عن الشكل الأصلي|
-|CELLSJAVA-43848|تحويل Excel إلى PDF - لا يتم تغليف بعض أحرف WordArt بنفس الطريقة كما في ملف Excel|
+|CELLSJAVA-43848|تحويل Excel إلى PDF - لا يتم تغليف بعض أحرف WordArt بالطريقة نفسها كما في ملف Excel|
 |CELLSJAVA-43880|الزوايا الدائرية غير الصحيحة لمربع النص بعد تحويل xls إلى xlsx|
 |CELLSJAVA-43867|تختلف أيقونة التنسيق الشرطي عند التصدير إلى html|
 |CELLSJAVA-43812|excelToHtml: إزاحة موضع الشكل غير صحيحة|
-|CELLSJAVA-43871|لا يتم عرض كائنات Prism 9 OLE في ملف PDF الناتج|
+|CELLSJAVA-43871|لم يتم عرض كائنات Prism 9 OLE في الإخراج PDF|
 |CELLSJAVA-43883|أحجام الصفحات المعروضة غير صحيحة|
 |CELLSJAVA-43881|يؤدي دمج الملفات إلى فقد إعداد لون الخلفية للأوراق|
 |CELLSJAVA-43892|حدود Excel المحولة إلى HTML مفقودة|
-|CELLSJAVA-43787|استثناء "IllegalArgumentException: أطوال الشرطة كلها صفر ..." في عرض Excel إلى HTML|
+|CELLSJAVA-43787|استثناء "IllegalArgumentException: أطوال الشرطة كلها صفر ..." في Excel إلى عرض HTML|
 |CELLSJAVA-43885|IllegalArgumentException أثناء تحويل ملف Excel|
 |CELLSJAVA-43874|يطرح Workbook.save استثناء على ملف معين بواسطة Aspose.Cells فقط عند تطبيق ترخيص Aspose|
 

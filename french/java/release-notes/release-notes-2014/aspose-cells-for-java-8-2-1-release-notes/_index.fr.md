@@ -29,15 +29,15 @@ Insectes
 
 (CELLSJAVA-40977) - La mise en forme conditionnelle ne fonctionne pas lorsque le fichier Excel est converti en HTML
 (CELLSJAVA-40959) - Attribut d'alignement supplémentaire dans la sortie HTML.
-(CELLSJAVA-40954) - Incompatibilité de colonnes dans la sortie HTML
+(CELLSJAVA-40954) - Les colonnes ne correspondent pas dans la sortie HTML
 (CELLSJAVA-40953) - Certaines bordures de cellules ont été un peu étendues lors de la conversion d'Excel en HTML
 (CELLSJAVA-40980) - La valeur de la cellule liée n'est pas mise à jour à partir du classeur externe
 (CELLSJAVA-40957) - La protection de la feuille de calcul en mode sous licence provoque le blocage de MS Excel lors de l'aperçu
 (CELLSJAVA-40956) - Chart.getName() renvoie un mauvais nom de graphique
 (CELLSJAVA-40952) - Series.hasLeaderLines() ne renvoie pas la valeur correcte
 (CELLSJAVA-40944) - Le PDF intégré est corrompu après la fusion des classeurs
-(CELLSJAVA-40979) - Certains carrés sont attachés aux étiquettes de données dans le graphique à secteurs du PDF rendu
-(CELLSJAVA-40975) - Conversion XLSX en Jpeg - Performances
+(CELLSJAVA-40979) - Certains carrés sont attachés aux étiquettes de données dans le graphique à secteurs du rendu PDF
+(CELLSJAVA-40975) - Conversion de XLSX en Jpeg - Performances
 (CELLSJAVA-40973) - Désactiver setExtractContentPermission - L'option "Autorisation de copier ou d'extraire du contenu" ne fonctionne pas
 (CELLSJAVA-40965) - Cells se rencontrent dans le PDF
 (CELLSJAVA-40962) - Aspose.Cells affiche la valeur #N/A différemment de MS Excel
@@ -47,12 +47,12 @@ Insectes
 (CELLSJAVA-40948) - L'image personnalisée dans les points de données ne s'affiche pas dans l'image du graphique
 (CELLSJAVA-40947) - Les caractères chinois ne s'affichent pas dans l'image du graphique
 (CELLSJAVA-40946) - Les étiquettes de données sont mal placées dans l'image du graphique
-(CELLSJAVA-40821) - La zone de texte est manquante lorsque le graphique est enregistré au format EMF à l'aide de ToImage
-(CELLSJAVA-40819) - Valeurs d'axe incorrectes lorsque le graphique est enregistré au format EMF à l'aide de ToImage
-(CELLSJAVA-40818) - Titre d'axe manquant lorsque le graphique est enregistré au format EMF à l'aide de ToImage
-(CELLSJAVA-40830) - Index z inversé dans la zone empilée et le graphique à barres lors de l'exportation au format PDF
+(CELLSJAVA-40821) - La zone de texte est manquante lorsque le graphique est enregistré sous EMF à l'aide de ToImage
+(CELLSJAVA-40819) - Valeurs d'axe incorrectes lorsque le graphique est enregistré sous EMF à l'aide de ToImage
+(CELLSJAVA-40818) - Titre d'axe manquant lorsque le graphique est enregistré sous EMF à l'aide de ToImage
+(CELLSJAVA-40830) - Index z inversé dans la zone empilée et le graphique à barres lors de l'exportation vers PDF
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40985) - CellsException : fin de fichier atteinte à Workbook.save
 (CELLSJAVA-40983) - java.lang.NullPointerException à Workbook.save

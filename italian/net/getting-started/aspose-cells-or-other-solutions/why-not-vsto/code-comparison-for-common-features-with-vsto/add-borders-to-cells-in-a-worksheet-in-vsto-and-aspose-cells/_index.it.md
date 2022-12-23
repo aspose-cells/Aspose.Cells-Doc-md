@@ -19,7 +19,7 @@ Per aggiungere bordi alle celle in un foglio di calcolo, procedi come segue:
  1. Adatta automaticamente la colonna in cui si trovano le celle per adattare perfettamente il testo
  1. Salva il documento
 
-Questi passaggi sono mostrati nel codice seguente. I primi esempi di codice mostrano come implementarli usando VSTO con C# o Visual Basic. Dopo gli esempi VSTO ci sono esempi che mostrano come eseguire gli stessi passaggi usando Aspose.Cells for .NET, sempre usando C# o Visual Basic. Gli esempi di codice Aspose.Cells sono molto più brevi perché Aspose.Cells è ottimizzato per una codifica efficiente.
+Questi passaggi sono mostrati nel codice seguente. I primi esempi di codice mostrano come implementarli utilizzando VSTO con C# o Visual Basic. Dopo gli esempi VSTO ci sono esempi che mostrano come eseguire gli stessi passaggi usando Aspose.Cells for .NET, sempre usando C# o Visual Basic. Gli esempi di codice Aspose.Cells sono molto più brevi perché Aspose.Cells è ottimizzato per una codifica efficiente.
 
 Il codice genera un file Excel con un numero di celle sul primo foglio, ciascuna con un bordo diverso:
 

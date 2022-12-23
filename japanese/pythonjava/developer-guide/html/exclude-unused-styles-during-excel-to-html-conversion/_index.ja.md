@@ -5,9 +5,9 @@ weight: 30
 url: /ja/python-java/exclude-unused-styles-during-excel-to-html-conversion/
 ---
 ## **Excel から HTML への変換中に未使用のスタイルを除外する**
-Microsoft Excel ファイルには、未使用のスタイルが多数含まれている場合があります。これらのファイルを HTML 形式にエクスポートすると、未使用のスタイルもエクスポートされます。これにより、出力 HTML のサイズが大きくなります。 Aspose.Cells for Python via Java は、Excel ファイルを HTML に変換する際にこれらのスタイルを除外することをサポートしています。このために、API は[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)財産。値の設定[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)プロパティへ**真実**未使用のスタイルをすべて出力 HTML から除外します。
+Microsoft Excel ファイルには、未使用のスタイルが多数含まれている場合があります。これらのファイルを HTML 形式でエクスポートすると、未使用のスタイルもエクスポートされます。これにより、出力 HTML のサイズが大きくなります。[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)財産。値の設定[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)プロパティへ**真実**出力 HTML から未使用のスタイルをすべて除外します。
 
-次のスクリーンショットは、HTML ファイルで使用されていないスタイルを示しています。[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)プロパティへ**真実**.
+次のスクリーンショットは、HTML ファイル内の未使用のスタイルを示しています。[HtmlSaveOptions.ExcludeUnusedStyles](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExcludeUnusedStyles)プロパティへ**真実**.
 
 ![todo:画像_代替_文章](HtmlSaveOptions-Exclude-Unused-Styles.png)
 

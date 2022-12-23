@@ -6,7 +6,7 @@ url: /fr/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Vous pouvez utiliser Aspose.Cells pour définir la propriété AutoRecover du classeur. La valeur par défaut de cette propriété est**vrai** . Lorsque vous le réglez**faux** sur un classeur, Microsoft Excel désactive la récupération automatique (enregistrement automatique) sur ce fichier Excel.
+Vous pouvez utiliser Aspose.Cells pour définir la propriété AutoRecover du classeur. La valeur par défaut de cette propriété est**vrai** . Lorsque vous le réglez**faux** sur un classeur, Microsoft Excel désactive la récupération automatique (enregistrement automatique) sur ce fichier Excel.
 
  Aspose.Cells fournit[**Classeur.Paramètres.Récupération automatique**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) propriété pour activer ou désactiver cette option.
 

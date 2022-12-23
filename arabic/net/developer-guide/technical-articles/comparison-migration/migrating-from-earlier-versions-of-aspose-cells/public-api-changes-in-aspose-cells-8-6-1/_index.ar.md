@@ -10,8 +10,8 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-6-1/
 
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم نوع هدف ارتباط HTML**
-كشف هذا الإصدار من Aspose.Cells for .NET API عن تعداد يسمى HtmlLinkTargetType مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا[اضبط النوع المستهدف للروابط في جدول البيانات أثناء التحويل إلى تنسيق HTML](/cells/ar/net/change-the-html-link-target-type/). القيم المحتملة لتعداد HtmlLinkTargetType كما يلي حيث تكون القيمة الافتراضية هي Self.
+### **دعم لنوع هدف الارتباط HTML**
+ كشف هذا الإصدار من Aspose.Cells for .NET API عن تعداد يسمى HtmlLinkTargetType مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا[اضبط النوع المستهدف للروابط في جدول البيانات أثناء التحويل إلى تنسيق HTML](/cells/ar/net/change-the-html-link-target-type/). القيم المحتملة لتعداد HtmlLinkTargetType كما يلي حيث تكون القيمة الافتراضية هي Self.
 
 1. HtmlLinkTargetType.Blank: يفتح المستند / الصفحة المرتبطة في نافذة أو علامة تبويب جديدة.
 1. HtmlLinkTargetType.Parent: يفتح المستند / الصفحة المرتبطة في الإطار الأصل.
@@ -96,7 +96,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 
 
 ### **طريقة Cell: إضافة أحرف المجموعة**
- يمكن استخدام طريقة Cell.SetCharacters في[تحديث أجزاء النص المنسق](/cells/ar/net/access-and-update-the-portions-of-rich-text-of-cell/) لكائن Cell معطى. يتم استخدام طريقة Cell.GetCharacters للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام طريقة Cell.SetCharacters بينما**احصل على** تقوم الطريقة بإرجاع مجموعة من كائنات FontSetting التي يمكن معالجتها لتعيين خصائص مختلفة ، اسم الخط ، ولون الخط ، والجرأة ، إلخ.**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
+ يمكن استخدام طريقة Cell.SetCharacters في[تحديث أجزاء النص المنسق](/cells/ar/net/access-and-update-the-portions-of-rich-text-of-cell/) لكائن Cell معطى. يتم استخدام طريقة Cell.GetCharacters للوصول إلى أجزاء النص ومن ثم يمكن إجراء التعديلات باستخدام طريقة Cell.SetCharacters بينما**يحصل** تقوم الطريقة بإرجاع مجموعة من كائنات FontSetting التي يمكن معالجتها لتعيين خصائص مختلفة ، اسم الخط ، ولون الخط ، والجرأة ، إلخ.**تعيين** يمكن استخدام الطريقة لتطبيق التغييرات.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **خاصية VbaProject.IsSigned**
- كشف Aspose.Cells for .NET 8.6.1 عن VbaProject.signed الخاصية التي يمكن استخدامها[اختبار ما إذا كان VbaProject في مصنف تم توقيعه أم لا](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/). ترجع خاصية النوع المنطقي "صحيح" إذا تم توقيع المشروع.
+ كشف Aspose.Cells for .NET 8.6.1 عن VbaProject.signed الخاصية التي يمكن استخدامها[اختبار ما إذا كان VbaProject في مصنف تم توقيعه أم لا](/cells/ar/net/check-if-vba-project-in-a-workbook-is-signed/)ترجع خاصية النوع المنطقي "صحيح" إذا تم توقيع المشروع.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

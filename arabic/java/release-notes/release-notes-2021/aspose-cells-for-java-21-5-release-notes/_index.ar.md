@@ -13,7 +13,7 @@ url: /ar/java/aspose-cells-for-java-21-5-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-43452|التقويم الياباني الذي يستخدم وظيفة Excel لا يقرأ بشكل صحيح|
-|CELLSJAVA-43420| تمت محاذاة النص الذي تم تدويره بشكل غير صحيح عند حفظه بتنسيق HTML|
+|CELLSJAVA-43420| تمت محاذاة النص الذي تم تدويره بشكل غير صحيح عند حفظه كـ HTML|
 |CELLSJAVA-43450|مشكلة تحديث الجدول المحوري|
 |CELLSJAVA-43444|الانحدار: ترجع getLastSavedUniversalTime تاريخًا غير صحيح|
 |CELLSJAVA-43446|Cells استثناء تعقب التغييرات|
@@ -21,7 +21,7 @@ url: /ar/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|حلقة لا نهائية عند حفظ المصنف المنسوخ|
 |CELLSJAVA-43442|مشكلة في فرز البيانات عند النقر على روابط الرأس في العرض التوضيحي لفصل GridWeb|
 |CELLSJAVA-43443|مشكلة تتعلق بوضع التحرير في GridWeb Java|
-|CELLSJAVA-43455|لا يتم تضمين الخطوط في PDF لحروف غير ASCII أثناء ضبط EmbedStandardWindowsFonts على false|
+|CELLSJAVA-43455|لم يتم تضمين الخطوط في PDF للأحرف غير ASCII أثناء تعيين EmbedStandardWindowsFonts على false|
 |CELLSJAVA-43449|تعذر تغيير مجموعة خطوط عناصر المخطط من "Calibri" إلى "Aktiv Grotesk"|
 |CELLSJAVA-43454|تسميات المحور السيني مقطوعة|
 |CELLSJAVA-43445|الانحدار: بيانات الصف المفقودة لملفات .numbers|

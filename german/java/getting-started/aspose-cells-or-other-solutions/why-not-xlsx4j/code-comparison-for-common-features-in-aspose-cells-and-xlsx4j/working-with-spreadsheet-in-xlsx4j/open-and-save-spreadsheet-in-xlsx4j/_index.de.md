@@ -5,7 +5,7 @@ weight: 40
 url: /de/java/open-and-save-spreadsheet-in-xlsx4j/
 ---
 ## **Aspose.Cells – Tabelle öffnen und speichern**
-Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Öffnen Sie beispielsweise eine Datei, um Daten daraus abzurufen, oder verwenden Sie eine vordefinierte Designer-Tabellenkalkulationsdatei, um Ihren Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht es Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft Excel-Berichte, SpreadsheetML-, CSV- oder tabulatorgetrennte Dateien sein.
+Entwickler verwenden Aspose.Cells, um Dateien für verschiedene Zwecke zu öffnen. Öffnen Sie beispielsweise eine Datei, um Daten daraus abzurufen, oder verwenden Sie eine vordefinierte Designer-Tabellenkalkulationsdatei, um Ihren Entwicklungsprozess zu beschleunigen. Aspose.Cells ermöglicht es Entwicklern, verschiedene Arten von Quelldateien zu öffnen. Diese Quelldateien können Microsoft Excel-Berichte, SpreadsheetML, CSV oder tabulatorgetrennte Dateien sein.
 
 **Aspose.Cells**ermöglicht Entwicklern, Excel-Dateien mit dem flexiblen API von Grund auf neu zu erstellen. Sobald Sie Excel-Dateien erstellt haben, müssen Sie auch Ihre Arbeitsmappe (Datei) speichern. Aspose.Cells bietet verschiedene Möglichkeiten, diese Dateien zu speichern.
 

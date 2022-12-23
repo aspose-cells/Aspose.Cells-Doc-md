@@ -22,11 +22,11 @@ Erstellen Sie zunächst ein Webanwendungsprojekt, in dem das Aspose.Cells.GridWe
 
 Ein Dialogfeld „Neues Projekt“ wird angezeigt.
 
-1.  Auswählen**ASP.NET Webanwendung** für die gewünschte Sprache.
+1.  Wählen**ASP.NET Webanwendung** für die gewünschte Sprache.
 
 ![todo: Bild_alt_Text](add-gridweb-to-web-form_2.png)
 
-1.  Auswählen**Webformulare** Schablone.
+1.  Wählen**Webformulare** Vorlage.
 
 ![todo: Bild_alt_Text](add-gridweb-to-web-form_3.png)
 
@@ -89,7 +89,7 @@ Der Pfad bezieht sich immer auf das Projektverzeichnis. Sie sollten kein Verzeic
 
 {{% /alert %}}
 ### **Schritt 5: Ausführen der Webanwendung**
- Führen Sie die Anwendung aus, indem Sie Strg+F5 drücken oder auf klicken**Anfang** Taste.
+ Führen Sie die Anwendung aus, indem Sie Strg+F5 drücken oder auf klicken**Start** Knopf.
 
  Wenn die Anwendung in einem Browser ausgeführt wird, wird die Seite WebForm1.aspx angezeigt, die jetzt ein leeres Aspose.Cells.GridWeb-Steuerelement enthält. Fügen Sie Zellen Werte hinzu, indem Sie darauf klicken. Es ist auch möglich, andere Aufgaben auszuführen, wie z. B. das Ändern der Höhe einer Zeile oder der Breite einer Spalte, das Kopieren (Strg+C) oder Ausschneiden (Strg+X) von Zelldaten in die Zwischenablage und das Einfügen (Strg+V) von Daten in die Zelle . Um weitere Vorgänge auszuführen, klicken Sie mit der rechten Maustaste auf das Steuerelement, um die vollständige Liste der Optionen anzuzeigen.
 

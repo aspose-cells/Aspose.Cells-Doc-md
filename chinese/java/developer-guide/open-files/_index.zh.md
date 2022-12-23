@@ -40,19 +40,19 @@ url: /zh/java/opening-files-with-different-formats/
 
 |**格式类型**|**描述**|
 |:- |:- |
-|CSV|表示 CSV 文件|
+|CSV|代表一个CSV文件|
 |Excel97To2003|表示 Excel 97 - 2003 文件|
 |Xlsx|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 XLSX 文件|
 |Xlsm|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 XLSM 文件|
 |Xlx|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 模板 XLTX 文件|
 |Xltm|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 启用宏的 XLTM 文件|
 |XLSB|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 二进制 XLSB 文件|
-|电子表格ML|表示 SpreadsheetML 文件|
+|SpreadsheetML|代表一个SpreadsheetML文件|
 |Tsv|表示制表符分隔值文件|
-|制表符分隔|表示制表符分隔的文本文件|
-|赔率|表示一个 ODS 文件|
-|HTML|表示一个 HTML 文件|
-|MHTML|表示一个 MHTML 文件|
+|TabDelimited|表示制表符分隔的文本文件|
+|赔率|代表一个ODS文件|
+|HTML|代表一个HTML文件|
+|MHTML|代表一个MHTML文件|
 
 ### **打开 Microsoft Excel 95/5.0 文件**
 
@@ -64,15 +64,15 @@ url: /zh/java/opening-files-with-different-formats/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **打开 Microsoft Excel 97 或更高版本的 XLS 文件**
+### **打开 Microsoft Excel 97 或更高版本 XLS 文件**
 
-要打开 Microsoft Excel XLS 97 或更高版本的 XLS 文件，请实例化**[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**带有模板文件路径或流的实例。或者使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**方法并选择**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)**中的价值**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
+要打开Microsoft Excel XLS 97或更高版本的XLS个文件，实例化**[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**带有模板文件路径或流的实例。或者使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**方法并选择**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)**中的价值**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
 
 #### **例子**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **打开 Microsoft Excel 2007 或更高版本的 XLSX 文件**
+### **打开 Microsoft Excel 2007 或更高版本 XLSX 文件**
 
 要打开 Microsoft Excel 2007 或更高版本的 XLSX 文件，请实例化**[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**带有模板文件路径或流的实例。或者使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**类并选择**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)**中的价值**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
 
@@ -82,11 +82,11 @@ url: /zh/java/opening-files-with-different-formats/
 
 ### **打开不同格式的文件**
 
-Aspose.Cells 允许开发人员打开不同格式的电子表格文件，例如 SpreadsheetML、CSV、Tab Delimited 文件。要打开此类文件，开发人员可以使用与打开不同 Microsoft Excel 版本的文件相同的方法。
+Aspose.Cells 允许开发人员打开不同格式的电子表格文件，例如 SpreadsheetML、CSV、制表符分隔文件。要打开此类文件，开发人员可以使用与打开不同 Microsoft Excel 版本的文件相同的方法。
 
 ### **打开 SpreadsheetML 文件**
 
-SpreadsheetML 文件是电子表格的 XML 表示形式，包括有关电子表格的所有信息，例如格式、公式等。自 Microsoft Excel XP 起，Microsoft Excel 添加了一个 XML 导出选项，可将电子表格导出为 SpreadsheetML 文件。
+SpreadsheetML 文件是电子表格的 XML 表示形式，包括有关电子表格的所有信息，例如格式、公式等。自 Microsoft Excel XP 起，向 Microsoft Excel 添加了一个 XML 导出选项，可将电子表格导出到 SpreadsheetML 文件。
 
 要打开 SpreadsheetML 文件，请使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**类并选择**[电子表格_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)**中的价值**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
 
@@ -96,7 +96,7 @@ SpreadsheetML 文件是电子表格的 XML 表示形式，包括有关电子表�
 
 ### **打开 CSV 文件**
 
-逗号分隔值 (CSV) 文件包含其值由逗号分隔或分隔的记录。在 CSV 文件中，数据以表格格式存储，其中的字段由逗号分隔并由双引号引起来。如果字段的值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出到 CSV 文件。
+逗号分隔值 (CSV) 文件包含其值由逗号分隔或分隔的记录。在 CSV 文件中，数据以表格格式存储，其字段由逗号分隔并由双引号引起来。如果字段的值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出到 CSV 文件。
 
 要打开 CSV 文件，请使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**类并选择**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)**值，预定义在**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
 
@@ -106,7 +106,7 @@ SpreadsheetML 文件是电子表格的 XML 表示形式，包括有关电子表�
 
 ### **打开 CSV 文件并替换无效字符**
 
-在 Excel 中，当打开带有特殊字符的 CSV 文件时，字符会被自动替换。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
+在 Excel 中，打开带有特殊字符的 CSV 文件时，会自动替换这些字符。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
 
 #### **例子**
 
@@ -162,7 +162,7 @@ StarSuite Calc 类似于 Microsoft Excel，支持公式、图表、函数和宏�
 
 ### **打开 FODS 文件**
 
-FODS 文件是保存在 OpenDocument XML 中的电子表格，没有任何压缩。 Aspose.Cells 可以读取 FODS 文件，如以下代码示例所示。
+FODS 文件是以 OpenDocument XML 格式保存的电子表格，没有任何压缩。 Aspose.Cells 可以读取 FODS 文件，如以下代码示例所示。
 
 #### **例子**
 
@@ -176,7 +176,7 @@ FODS 文件是保存在 OpenDocument XML 中的电子表格，没有任何压缩
 - [加载具有指定打印机纸张尺寸的工作簿](/cells/zh/java/load-workbook-with-specified-printer-paper-size/)
 - [打开不同的 Microsoft Excel 版本文件](/cells/zh/java/opening-different-microsoft-excel-versions-files/)
 - [在处理具有大型数据集的大文件时优化内存使用](/cells/zh/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [阅读 Apple Inc. 使用 Aspose.Cells 开发的数字电子表格](/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
-- [读取具有多种编码的 CSV 文件](/cells/zh/java/reading-csv-file-with-multiple-encodings/)
+- [阅读 Apple Inc. 使用 Aspose.Cells 开发的 Numbers 电子表格](/cells/zh/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [读取具有多个编码的 CSV 文件](/cells/zh/java/reading-csv-file-with-multiple-encodings/)
 - [当时间过长时使用 InterruptMonitor 停止转换或加载](/cells/zh/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [使用 LightCells API](/cells/zh/java/using-lightcells-api/)

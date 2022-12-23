@@ -16,12 +16,12 @@ url: /ar/net/chart-and-axis-titles/
 {{% /alert %}}
 
 ## **خيارات العنوان**
- يسمح Aspose.Cells أيضًا بإدارة عناوين الرسم البياني في وقت التشغيل ， مع[عنوان](https://reference.aspose.com/cells/net/aspose.cells.charts/title/) كائن ، يمكنك تغيير تنسيق النص والخط وتعبئة العناوين.
+ يسمح Aspose.Cells أيضًا بإدارة عناوين الرسم البياني في وقت التشغيل ， مع[لقب](https://reference.aspose.com/cells/net/aspose.cells.charts/title/) كائن ، يمكنك تغيير تنسيق النص والخط وتعبئة العناوين.
 
 |![ما يجب القيام به: image_بديل_نص](chart_title.png)|
 
 ## **تحديد عناوين المخططات أو المحاور**
-يمكنك استخدام Microsoft Excel لتعيين عناوين المخطط ومحاوره في بيئة WYSIWYG. يسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين المخطط ومحاوره في وقت التشغيل. تحتوي جميع المخططات ومحاورها على ملف[عنوان](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)الخاصية التي يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال.
+يمكنك استخدام Microsoft Excel لتعيين عناوين المخطط ومحاوره في بيئة WYSIWYG. يسمح Aspose.Cells أيضًا للمطورين بتعيين عناوين المخطط ومحاوره في وقت التشغيل. تحتوي جميع المخططات ومحاورها على ملف[لقب](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/title)الخاصية التي يمكن استخدامها لتعيين عناوينها كما هو موضح أدناه في مثال.
 
 يوضح مقتطف التعليمات البرمجية التالي كيفية تعيين العناوين للمخططات والمحاور.
 

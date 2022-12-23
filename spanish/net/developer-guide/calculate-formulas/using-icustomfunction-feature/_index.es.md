@@ -31,7 +31,7 @@ Aquí se explica cómo usar la función recién definida en una hoja de cálculo
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-UsingICustomFunctionfeature-UsingICustomFunctionFeature.cs" >}}
-## **Visión general**
+## **Descripción general**
 Las API Aspose.Cells simplemente colocan el objeto ReferedArea en "paramsList" cuando el parámetro correspondiente es una referencia o su resultado calculado es una referencia. Si necesita la referencia en sí, puede usar ReferedArea directamente. Si necesita obtener el valor de una sola celda de la referencia correspondiente a la posición de la fórmula, puede usar el método ReferedArea.GetValue(rowOffset, int colOffset). Si necesita una matriz de valores de celda para toda el área, puede usar el método ReferedArea.GetValues.
 
 Como las API Aspose.Cells brindan el área referida en "paramsList", la colección ReferredAreaCollection en "contextObjects" ya no será necesaria (en versiones anteriores, no siempre podía proporcionar un mapa uno a uno a los parámetros de la función personalizada), por lo tanto, ha sido eliminado de los "contextObjects".

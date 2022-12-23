@@ -12,7 +12,7 @@ Bu makalede, pasta grafik dilimlerine/sektörlerine özel renklerin nasıl eklen
 
 Bir pasta grafiğin ayrı dilimleri veya sektörleri için özel renk ayarlamak üzere:
 
-1.  Erişmek[**Diziler**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) nesnenin[**Harita Noktası**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1.  Erişmek[**Dizi**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) nesnenin[**Harita Noktası**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
 1.  kullanarak istediğiniz rengi atayın.[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)yöntem.
 
 Bu makalede ayrıca aşağıdakilerin nasıl ayarlanacağı açıklanmaktadır:
@@ -30,6 +30,6 @@ Bu makalede ayrıca aşağıdakilerin nasıl ayarlanacağı açıklanmaktadır:
 
 **Pasta grafikte özel dilim renkleri**
 
-![yapılacaklar:resim_alternatif_Metin](custom-slice-or-sector-colors-in-pie-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](custom-slice-or-sector-colors-in-pie-chart_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomSliceOrSectorColorsPieChart-CustomSliceOrSectorColorsPieChart.java" >}}

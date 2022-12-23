@@ -14,7 +14,7 @@ Attualmente, Aspose.Cells.GridDesktop supporta l'aggiunta di tre tipi di control
 
 - **Pulsante**
 - **Casella di controllo**
-- **Combo box**
+- **Casella combinata**
 
  Tutti questi controlli derivano da una classe astratta,**CellControl**.
 
@@ -54,8 +54,8 @@ Per aggiungere caselle combinate in una colonna utilizzando Aspose.Cells.GridDes
 
 -  Aggiungi il controllo Aspose.Cells.GridDesktop al tuo**Modulo**
 -  Accedi a qualsiasi desiderato**Foglio di lavoro**
--  Crea un array di elementi (o valori) a cui verranno aggiunti**Combo box**
--  Aggiungere**Combo box** (contenente elementi o valori) a qualsiasi specificato**Colonna** del**Foglio di lavoro**
+-  Crea un array di elementi (o valori) a cui verranno aggiunti**Casella combinata**
+-  Aggiungere**Casella combinata** (contenente elementi o valori) a qualsiasi specificato**Colonna** del**Foglio di lavoro**
 
 
 

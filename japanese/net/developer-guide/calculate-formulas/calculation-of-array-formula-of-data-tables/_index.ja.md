@@ -10,12 +10,12 @@ url: /ja/net/calculation-of-array-formula-of-data-tables/
 
 {{% /alert %}}
 
-次のサンプル コードでは、[ソースエクセルファイル](5115535.xlsx) .セル B1 の値を 100 に変更すると、次の図に示すように、黄色で塗りつぶされたデータ テーブルの値が 120 になります。サンプル コードは、[PDF出力](5115538.pdf).
+次のサンプル コードでは、[ソースエクセルファイル](5115535.xlsx) .セル B1 の値を 100 に変更すると、次の図に示すように、黄色で塗りつぶされたデータ テーブルの値が 120 になります。サンプル コードは、[出力 PDF](5115538.pdf).
 
 ![todo:画像_代替_文章](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo:画像_代替_文章](calculation-of-array-formula-of-data-tables_2.png)
 
-生成に使用するサンプルコードは次のとおりです。[PDF出力](5115538.pdf)から[ソースエクセルファイル](5115535.xlsx).詳細については、コメントをお読みください。
+生成に使用するサンプルコードは次のとおりです。[出力 PDF](5115538.pdf)から[ソースエクセルファイル](5115535.xlsx).詳細については、コメントをお読みください。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

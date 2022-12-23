@@ -6,7 +6,7 @@ url: /fr/jasperreports/feature-tour/
 ---
 ###### **Cette section comprend les rubriques suivantes :**
 - [Présentation des fonctionnalités](/cells/fr/jasperreports/feature-overview/)
-- [Export XLS ou XLSX](/cells/fr/jasperreports/xls-or-xlsx-export/)
+- [XLS ou XLSX Exportation](/cells/fr/jasperreports/xls-or-xlsx-export/)
 - [Haute fidélité à la conception du rapport](/cells/fr/jasperreports/high-fidelity-to-the-report-design/)
 - [Déploiement facile et léger](/cells/fr/jasperreports/easy-and-lightweight-deployment/)
 - [Licence simple et abordable](/cells/fr/jasperreports/simple-and-affordable-licensing/)

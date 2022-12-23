@@ -6,7 +6,7 @@ url: /tr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ---
 {{% alert color="primary" %}}
 
-**2-Renk Skalası** ve**3-Renk Skalası** Koşullu Biçimlendirmeler, farklı olmaları dışında aynı şekilde eklenir.[**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale) Emlak. Bu özellik**yanlış** 2 Renkli Ölçek ve**doğru** 3-Renk Ölçekli Koşullu Biçimlendirmeler için.
+**2-Renk Skalası** ve**3-Renk Skalası** Koşullu Biçimlendirmeler, farklı olmaları dışında aynı şekilde eklenir.[**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale) Emlak. Bu özellik**YANLIŞ** 2 Renkli Ölçek ve**doğru** 3-Renk Ölçekli Koşullu Biçimlendirmeler için.
 
 {{% /alert %}}
 

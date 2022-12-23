@@ -20,7 +20,7 @@ Wir sind
 
  Verbesserungen
 
-- Fügen Sie Anführungszeichen zu leeren Zellenwerten hinzu, wenn Sie eine CSV-Datei exportieren
+- Fügen Sie Anführungszeichen zu leeren Zellenwerten hinzu, wenn Sie eine CSV mit exportieren
 
  Möglichkeit
 
@@ -34,8 +34,8 @@ Wir sind
 
 - Der formatierte Datumswert war anders als in MS Excel angezeigt
 - Diagrammseriennamen gehen verloren, wenn CellCollection gelöscht wird
-- Das Anzeigen von Leerzeichen als Lücken/Nullen funktioniert bei XLSX-Dateien nicht
+- Das Anzeigen von Leerzeichen als Lücken/Nullen funktioniert nicht für XLSX-Dateien
 - Die Formatierung von Datenbeschriftungen für Diagramme ist nicht in Ordnung
-- Die Schriftunterstreichung verschwand in der gerenderten PDF-Datei
+- Schriftunterstreichung verschwand in der gerenderten PDF-Datei
 - Das Festlegen von Schriftstilen hatte für XLSX im LightCells-Modus keine Auswirkung
-- Beim Speichern als PDF ging ein Teil der Fußzeile verloren
+- Beim Speichern auf PDF ging ein Teil der Fußzeile verloren

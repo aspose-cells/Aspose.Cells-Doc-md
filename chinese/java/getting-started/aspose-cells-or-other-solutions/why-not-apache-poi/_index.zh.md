@@ -15,7 +15,7 @@ description: 为什么不是 Apache POI SS - HSSF 和 XSSF。
 **高速钢**是 POI 项目的 Excel '97(-2007) 文件格式的纯 Java 实现。
 **XSSF**是 POI 项目的 Excel 2007 OOXML (.xlsx) 文件格式的纯 Java 实现。
 
-HSSF 和 XSSF 提供了读取电子表格的方法来创建、修改、读取和写入 XLS 电子表格。他们提供：
+HSSF 和 XSSF 提供了读取电子表格的方法创建、修改、读取和写入 XLS 电子表格。他们提供：
 
 - 为有特殊需要的人提供的低层结构
 - 用于高效只读访问的事件模型 API
@@ -23,7 +23,7 @@ HSSF 和 XSSF 提供了读取电子表格的方法来创建、修改、读取和
 
 阅读更多[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java 是屡获殊荣的 Excel 电子表格组件，允许 Java 开发人员嵌入读取、编写和操作 Excel® 电子表格（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）、HTML、MHTML、PDF 的功能和图像文件格式导入到自己的 Java 应用程序中，而无需依赖 Microsoft Excel®。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF和图像文件格式导入自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
 
 Aspose.Cells for Java 是一个成熟、可扩展且功能丰富的组件，它提供的许多功能远远超出其他供应商的简单数据导出功能。使用 Aspose.Cells for Java 开发人员可以导出数据、将电子表格格式化为最精细的级别、导入图像、创建图表、应用和计算复杂公式、流式传输 Excel® 数据、以各种格式保存等等 - 所有这些都不需要 Microsoft Excel®或 Microsoft 办公自动化。
 
@@ -31,7 +31,7 @@ Aspose.Cells for Java 是一个成熟、可扩展且功能丰富的组件，它�
 
 ## **为什么不是 Apache POI SS - HSSF 和 XSSF**
 
-值得注意的是，有些任务可以用Aspose.Cells实现，但是用Apache POI无法完成。例如，如果您需要将Excel文件转换为Pdf、JSON和图像，那么您不能只使用Apache POI，您还需要Microsoft Excel 365或其他工具。
+值得注意的是，有些任务可以用Aspose.Cells实现，但是用Apache POI无法完成。比如你需要将Excel文件转成Pdf、JSON和图片，那么就不能只使用Apache POI，还需要Microsoft Excel 365或者其他工具。
 
 您可以将 POI 与 Aspose.Cells 进行比较为此，我们建议您熟悉 Aspose.Cells for POI 项目（HSSF 和 XSSF）——它展示了使用 Aspose.Cells for .Java 与 POI 相比如何完成不同的任务。该项目还涵盖了处理文本文档的功能，这些功能仅在 Aspose.Cells 中可用，但在 Apache POI 中不可用。
 
@@ -59,7 +59,7 @@ Aspose 组件具有高度可扩展性和闪电般的速度。它们是真正的 
 
 Aspose 组件提供了管理 Office 文件所需的一切，以及更多其他功能。它们的设计理念是让开发人员以最少的工作量取得最大的成果。
 
- Aspose 组件提供许多强大的省时功能。例如，[Aspose.Cells](https://products.aspose.com/cells/java/)提供允许开发人员将 JSON 导入 Excel 文件的功能。值得注意的是，Aspose 系列中的每个组件都提供了自己的一组独特而强大的功能。
+Aspose 组件提供许多强大的省时功能。例如，[Aspose.Cells](https://products.aspose.com/cells/java/)提供允许开发人员将 JSON 导入 Excel 文件的功能。值得注意的是，Aspose 系列中的每个组件都提供了自己的一套独特而强大的功能。
 
 ## **支持、扩展和贡献**
 ### **支持**
@@ -145,7 +145,7 @@ Aspose.Cells Java for Apache POI (HSSF+XSSF) 是开源的，其源代码可在�
     - [显示和隐藏工作簿的滚动条](/cells/zh/java/display-and-hide-scrollbars-of-workbooks/)
     - [使用 Aspose.Cells 显示和隐藏工作簿的选项卡](/cells/zh/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [使用 Aspose.Cells 加密工作簿](/cells/zh/java/encrypt-workbook-using-aspose-cells/)
-    - [读取具有多种编码的 CSV 文件](/cells/zh/java/read-csv-file-with-multiple-encodings/)
+    - [读取具有多个编码的 CSV 文件](/cells/zh/java/read-csv-file-with-multiple-encodings/)
     - [使用 Aspose.Cells 将每个工作表保存到不同的 PDF](/cells/zh/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [在 Aspose.Cells 中设置工作表选项卡颜色](/cells/zh/java/set-worksheet-tab-color-in-aspose-cells/)
   - [在 Aspose.Cells 中使用图表](/cells/zh/java/working-with-charts-in-aspose-cells/)

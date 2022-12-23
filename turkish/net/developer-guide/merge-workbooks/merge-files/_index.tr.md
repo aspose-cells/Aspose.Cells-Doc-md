@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/net/merge-files/
 ---
-## **giriiş**
+## **Giriş**
 
  Aspose.Cells, dosyaları birleştirmek için farklı yollar sunar. Veriler, biçimlendirme ve formüller içeren basit dosyalar için,[**Workbook.Combine()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/combine) yöntem birkaç çalışma kitabını birleştirmek için kullanılabilir ve[**Worksheet.Copy()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/copy/index)yöntem, çalışma sayfalarını yeni bir çalışma kitabına kopyalamak için kullanılabilir. Bu yöntemlerin kullanımı kolay ve etkilidir, ancak birleştirilecek çok sayıda dosyanız varsa, çok fazla sistem kaynağı tükettiklerini görebilirsiniz. Bunu önlemek için,[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles)statik yöntem, birkaç dosyayı birleştirmenin daha verimli bir yolu.
 

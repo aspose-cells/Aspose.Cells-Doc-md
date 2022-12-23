@@ -21,32 +21,32 @@ url: /tr/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50017|Grafik başlığı ve Grafik Ekseni Metninin yanına balon nasıl eklenir|Artırma|
 |CELLSNET-50038| Çok düzeyli grupları daraltma ve genişletme konusunda farklı davranış|Artırma|
 |CELLSNET-50041| BMP resim dosyaları üstbilgi/altbilgide görüntülenmiyor|Artırma|
-|CELLSNET-50108|XLS'den PDF'e: Bellek Yetersiz olduğunda dönüştürme duraksıyor|Verim|
+|CELLSNET-50108|XLS - PDF: Bellek Yetersiz ile dönüştürme duruyor|Verim|
 |CELLSNET-50128|Satır aralığı daralır - Excel'den PDF'e dönüştürme|Böcek|
-|CELLSNET-50086|Cell PDF'ye dönüştürüldükten sonra renkler kayboluyor|Böcek|
+|CELLSNET-50086|Cell renkleri, PDF'e dönüştürüldükten sonra kaybolur|Böcek|
 |CELLSNET-49996|Hücrelerin zengin metin değerleri, MemoryPreference modunda kaybolabilir|Böcek|
 |CELLSNET-50042| Kayıt sırasında hücrelerin adı değiştirilir.|Böcek|
 |CELLSNET-50055|Üst çalışma sayfasında kesme işareti varsa, yerel aralık adı özelliği FullText'ten çıkış yapılmaz|Böcek|
 |CELLSNET-50154|GridWeb, .csv dosyası için önbellekten yükleyemiyor / kaydedemiyor|Böcek|
 |CELLSNET-50063|Excel dosyasını yazdırmak bir sayfa yerine iki sayfa oluşturuyor|Böcek|
-|CELLSNET-50094|Çalışma sayfası içerikleri, Excel'den PDF'e dönüştürmede düzgün şekilde oluşturulmuyor|Böcek|
-|CELLSNET-50129|Sayfa takip edildikçe yazdırma konumu yükselir - Excel'den PDF'e dönüştürme|Böcek|
+|CELLSNET-50094|Çalışma sayfası içerikleri, Excel'de PDF'e dönüştürme işleminde düzgün şekilde işlenmez|Böcek|
+|CELLSNET-50129|Sayfa takip edildikçe yazdırma konumu yukarı çıkar - Excel'den PDF'e dönüştürme|Böcek|
 |CELLSNET-50131|Karakterler eksik - Excel'den PDF'e dönüştürme|Böcek|
 |CELLSNET-49578| Aspose.Cells tarafından tablolardan hesaplanan yanlış max/min değeri|Böcek|
 |CELLSNET-50087|Seri tipi değiştirildikten sonra çıktı tablosu doğru görüntülenmiyor|Böcek|
 |CELLSNET-50197|Şelale Haritasındaki efsane silinemez veya gizlenemez|Böcek|
 |CELLSNET-50065|Çok düzeyli satır gruplarını daraltma ve genişletme ile ilgili farklı davranış|Böcek|
-|CELLSNET-50137|Komut dosyasında HTML bildirilmemiş değişken "düğüm" için XLSX|Böcek|
+|CELLSNET-50137|XLSX ila HTML kodda bildirilmemiş değişken "düğüm"|Böcek|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine, otomatik sığdırma sütunları için çalışmıyor|Böcek|
 |CELLSNET-50165|Dosyayı kaydettikten sonra Fonetik Kılavuz Yazı Tipi değiştirildi|Böcek|
 |CELLSNET-50208|Html olarak kaydederken bazı metinler kayboluyor|Böcek|
 |CELLSNET-50095|XSLB dosyasını açarken istisna|İstisna|
 |CELLSNET-50096| Boş sütunları silerken StackOverflowException|İstisna|
-|CELLSNET-50071|"Desteklenmeyen işlev: CUBESET" HTML istisnasına dönüştürme|İstisna|
+|CELLSNET-50071|HTML "Desteklenmeyen işlev: CUBESET" istisnasına dönüştürme|İstisna|
 |CELLSNET-50097|Aspose.Cells aracılığıyla XSLX dosyasının açılmasıyla ilgili istisna|İstisna|
 |CELLSNET-50133|FillFormat'ı karşılaştırırken NullReferenceException|İstisna|
-|CELLSNET-50138|Bir XLSB dosyasını açarken istisna|İstisna|
-|CELLSNET-50016|EMF yanlış eksen değerleri tablosu|gerileme|
+|CELLSNET-50138|XLSB dosyasının açılmasıyla ilgili istisna|İstisna|
+|CELLSNET-50016|Tablodan EMF yanlış eksen değerlerine|gerileme|
 |
 
 
@@ -72,7 +72,7 @@ Eski sürümlerde DataSorter.Sort() yöntemleri hiçbir şey döndürmez. Bu ver
 
 ### **TxtLoadOptions.ExtendToNextSheet özelliğini ekler.**
 
-Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerini birden çok çalışma sayfasına aktarmayı destekler.
+Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerinin birden çok çalışma sayfasına aktarılmasını destekler.
 
 ### **ExternalLinkCollection.Clear() yöntemini ekler.**
 

@@ -34,13 +34,13 @@ Vous pouvez télécharger Aspose .NET Cells Importer des utilisateurs à partir 
 Une fois téléchargé, veuillez suivre ces étapes pour installer le module sur votre site Web DNN :
 
 1. Connectez-vous à votre site en tant qu'hôte ou en tant que compte de niveau super-utilisateur.
-1.  Naviguez vers le**Héberger** menu et sélectionnez**Rallonges**.
+1.  Naviguez vers le**Hôte** menu et sélectionnez**Rallonges**.
 1.  Cliquez sur**Assistant d'installation d'extension**.
-1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvert**.
-1.  Cliquez sur**Prochain** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Revenir** bouton.
+1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvrir**.
+1.  Cliquez sur**Suivant** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Retour** bouton.
 
  Vérifiez s'il vous plaît[cette vidéo d'installation du module](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) de DNN pour plus de détails.
-## **Utilisant**
+## **En utilisant**
 Après avoir installé le module Aspose .NET Cells Import Users from Excel for DNN, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer :
 
 1. Assurez-vous que vous êtes connecté à DNN avec un compte de niveau hôte ou administrateur.

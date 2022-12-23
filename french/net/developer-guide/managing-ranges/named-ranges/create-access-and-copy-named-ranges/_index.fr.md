@@ -28,7 +28,7 @@ Vous ne pouvez pas nommer une cellule pendant que vous modifiez le contenu de la
 ## **Travailler avec une plage nommée à l'aide de Aspose.Cells**
 
 Ici, nous utilisons le Aspose.Cells API pour effectuer la tâche.
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil.
 
 ### **Créer une plage nommée**
 
@@ -37,7 +37,7 @@ Ici, nous utilisons le Aspose.Cells API pour effectuer la tâche.
 - Nom de la cellule supérieure gauche, nom de la cellule supérieure gauche de la plage.
 - Nom de la cellule inférieure droite, nom de la cellule inférieure droite de la plage.
 
- Quand le[**CréerPlage**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) est appelée, elle renvoie la plage nouvellement créée en tant qu'instance de la[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) classer. Utilisez ceci[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) objet pour configurer la plage nommée. Par exemple, définissez le nom de la plage à l'aide de la[**Nom**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) propriété. L'exemple suivant montre comment créer une plage de cellules nommée qui s'étend sur B4:G14.
+ Quand le[**CréerPlage**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) est appelée, elle renvoie la plage nouvellement créée en tant qu'instance de la[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) classe. Utilisez ceci[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) objet pour configurer la plage nommée. Par exemple, définissez le nom de la plage à l'aide de la[**Nom**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) la propriété. L'exemple suivant montre comment créer une plage de cellules nommée qui s'étend sur B4:G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
@@ -85,13 +85,13 @@ L'exemple suivant montre comment saisir des valeurs dans les cellules d'une plag
 
 #### **Accéder à une plage nommée spécifique**
 
- Appeler le[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) de la collection[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) méthode pour obtenir une plage par le nom spécifié. Un typique[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) prend le nom de la plage nommée et renvoie la plage nommée spécifiée en tant qu'instance de la[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) classer. L'exemple suivant montre comment accéder à une plage spécifiée par son nom.
+ Appeler le[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) de la collection[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) méthode pour obtenir une plage par le nom spécifié. Un typique[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) prend le nom de la plage nommée et renvoie la plage nommée spécifiée en tant qu'instance de la[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) classe. L'exemple suivant montre comment accéder à une plage spécifiée par son nom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
 #### **Accéder à toutes les plages nommées dans une feuille de calcul**
 
- Appeler le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) de la collection[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) méthode pour obtenir toutes les plages nommées dans une feuille de calcul. La[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) renvoie un tableau de toutes les plages de noms dans le[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) le recueil.
+ Appeler le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) de la collection[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) méthode pour obtenir toutes les plages nommées dans une feuille de calcul. Le[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) renvoie un tableau de toutes les plages de noms dans le[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) le recueil.
 
 L'exemple suivant montre comment accéder à toutes les plages nommées dans un classeur.
 

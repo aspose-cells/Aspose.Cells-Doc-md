@@ -19,7 +19,7 @@ Aspose.Cells permite manipular archivos. Este artículo explica las diversas for
 - **[Disposición de contenido](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**, el tipo de disposición de contenido del archivo de salida.
 - **[Opciones de guardado](https://reference.aspose.com/cells/net/aspose.cells/saveoptions)**, el tipo de formato de archivo
 
- los**[Disposición de contenido](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**La enumeración determina si el archivo que se envía al navegador ofrece la opción de abrirse solo directamente en el navegador o en una aplicación asociada con .xls/.xlsx u otra extensión.
+ Él**[Disposición de contenido](https://reference.aspose.com/cells/net/aspose.cells/contentdisposition)**La enumeración determina si el archivo que se envía al navegador ofrece la opción de abrirse solo directamente en el navegador o en una aplicación asociada con .xls/.xlsx u otra extensión.
 
 La enumeración contiene los siguientes tipos de guardado predefinidos:
 
@@ -28,7 +28,7 @@ La enumeración contiene los siguientes tipos de guardado predefinidos:
 |Archivo adjunto|Envía la hoja de cálculo al navegador y se abre en una aplicación como archivo adjunto asociado con .xls/.xlsx u otras extensiones|
 |En línea|Envía el documento al navegador y presenta una opción para guardar la hoja de cálculo en el disco o abrirla dentro del navegador|
 
-### **Archivos XLS**
+### **XLS archivos**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
@@ -36,7 +36,7 @@ La enumeración contiene los siguientes tipos de guardado predefinidos:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **Archivos PDF**
+### **PDF archivos**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

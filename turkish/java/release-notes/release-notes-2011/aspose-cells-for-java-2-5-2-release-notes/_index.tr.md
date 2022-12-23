@@ -18,13 +18,13 @@ url: /tr/java/aspose-cells-for-java-2-5-2-release-notes/
  LineShape'i Excel 2007 XLSX dosyalarına ekler.
  Chart'ın veri kaynağını ayarlarken Seri adını ayarlamak için destek sağlar.
  ODS dosyalarındaki farklı Çalışma Sayfalarının Kılavuz Çizgilerinin görünürlüğünü almayı/ayarlamayı destekler.
- Geliştirme, XLSX dosyalarından Şekilleri okumak için yapılmıştır.
+ XLSX dosyalarından Shape okumak için geliştirme yapılmıştır.
  Grafikten Görüntüye, Sayfadan Görüntüye ve Excel'den PDF'e özellikleri için geliştirme yapılmıştır.
  Geliştirme Formülleri ayrıştırmak için yapılır.
  Cells kopyalama için geliştirme yapılmıştır.
- 31 düzeltme ve geliştirme.
+31 düzeltme ve geliştirme.
 
-Aspose.Cells for Java'de Çözülen Sorunlar 2.5.2.
+ Aspose.Cells for Java'de Çözülen Sorunlar 2.5.2.
 
 
 

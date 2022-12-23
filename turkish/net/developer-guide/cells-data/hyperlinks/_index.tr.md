@@ -17,7 +17,7 @@ Aspose.Cells, geliştiricilerin API veya tasarımcı elektronik tablolarını (k
 
  Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet)class, Excel dosyalarına farklı köprüler eklemek için farklı yöntemler sağlar.
 ## **Bir URL'ye Bağlantı Ekleme**
- bu[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir içerir[köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) Toplamak. İçindeki her öğe[köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) koleksiyon temsil eder[köprü](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . Çağırarak URL'lere köprüler ekleyin[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+ bu[Çalışma kağıdı](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf bir içerir[köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) Toplamak. İçindeki her öğe[köprüler](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/hyperlinks) koleksiyon temsil eder[köprü](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) . Çağırarak URL'lere köprüler ekleyin[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
 
 - Cell adı, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.
@@ -34,7 +34,7 @@ Aspose.Cells, geliştiricilerin API veya tasarımcı elektronik tablolarını (k
 
 {{% /alert %}} 
 ## **Aynı Dosyada Cell'e Bağlantı Ekleme**
- Aynı Excel dosyasındaki hücrelere köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem hem dahili hem de harici köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
+ Aynı Excel dosyasındaki hücrelere köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem hem dahili hem de harici köprüler için çalışır. Aşırı yüklenmiş yöntemin bir sürümü aşağıdaki parametreleri alır:
 
 - Cell ad, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.
@@ -45,7 +45,7 @@ Aspose.Cells, geliştiricilerin API veya tasarımcı elektronik tablolarını (k
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Hyperlinks-AddingLinkToAnotherCell-1.cs" >}}
 ## **Harici Dosyaya Bağlantı Ekleme**
- Dış Excel dosyalarına köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Ekle](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
+ Dış Excel dosyalarına köprüler eklemek mümkündür.[köprüler](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection) koleksiyonun[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index) yöntem. bu[Eklemek](https://reference.aspose.com/cells/net/aspose.cells/hyperlinkcollection/methods/add/index)yöntem aşağıdaki parametreleri alır:
 
 - Cell adı, köprünün ekleneceği hücrenin adı.
 - Satır sayısı, bu köprü aralığındaki satır sayısı.

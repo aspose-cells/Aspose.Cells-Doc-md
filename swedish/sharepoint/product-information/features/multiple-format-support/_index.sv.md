@@ -31,14 +31,14 @@ Den fullständiga listan över utdataformat som stöds av Aspose.Cells for Share
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
 - XLSM – Office Open XML för makron aktiverat
-- TXT – vanlig text
+- TXT – Oformaterad text
 - XML – Microsoft Excel SpreadsheetML
 - ODS – OpenDocument
-- CSV – kommaseparerade värden
+- CSV – Kommaseparerade värden
 - XLSB – Microsoft Excel Binary 2007
 - MHTML – Multipurpose Internet Mail Extension HTML
-- XPS – XML Paper Specification
-- TIFF – Tagged Image File Format
+- XPS – XML-pappersspecifikation
+- TIFF – Taggad bildfilformat
 - SVG – Skalbar vektorgrafik
 - DIF – Drawing Interchange Format
 

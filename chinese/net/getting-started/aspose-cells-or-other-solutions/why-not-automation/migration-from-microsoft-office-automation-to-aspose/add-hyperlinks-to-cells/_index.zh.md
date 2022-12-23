@@ -27,7 +27,7 @@ Aspose.Cells for .NET 允许您通过您的应用程序执行用户可以在 Mic
 
 代码示例生成一个 Excel 文件，该文件在第一个工作表的单元格 A1 中有一个超链接。
 
-![待办事项：图像_替代_文本](add-hyperlinks-to-cells_1.png)
+![待办事项：图片_替代_文本](add-hyperlinks-to-cells_1.png)
 
 **一个超链接被添加到单元格 A1。**
 

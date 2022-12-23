@@ -8,7 +8,7 @@ url: /es/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 A veces, necesita insertar algunas formas necesarias en la hoja de trabajo. Es posible que deba insertar la misma forma en diferentes posiciones de la hoja de trabajo. O necesita insertar formas por lotes en la hoja de trabajo.
 
- ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/) soporta todas estas operaciones.
+ ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/)soporta todas estas operaciones.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Las formas en Excel se dividen principalmente en los siguientes tipos:
 - **estrellas y pancartas**
 - **Rótulos**
 
-Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
+ Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
 
 
 
@@ -50,7 +50,7 @@ Puede usar el siguiente método para insertar una línea en la hoja de cálculo.
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una línea en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar una línea en una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Line.java" >}}
 
@@ -62,7 +62,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una flecha de línea en la hoja de trabajo**
 
- La forma de flecha de línea pertenece a la**Líneas**categoría. Es un caso especial de línea.
+ La forma de flecha de línea pertenece a la**Líneas** categoría. Es un caso especial de línea.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -130,7 +130,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un cubo en la hoja de trabajo**
 
- La forma de cubo pertenece a la**Formas básicas** categoría.
+La forma de cubo pertenece a la**Formas básicas** categoría.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -152,7 +152,7 @@ Puede usar el siguiente método para insertar un cubo en la hoja de cálculo.
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar un cubo en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un cubo en una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-Cube.java" >}}
 
@@ -210,7 +210,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de trabajo.
+Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
@@ -232,7 +232,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un multidocumento en la hoja de trabajo**
 
-La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
+ La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -244,7 +244,7 @@ La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un multidocumento en la hoja de cálculo.
+Puede usar el siguiente método para insertar un multidocumento en la hoja de trabajo.
 
 {{% alert color="primary" %}}
 
@@ -288,7 +288,7 @@ Puede usar el siguiente método para insertar una estrella de cinco puntas en la
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una estrella de cinco puntas en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar una estrella de cinco puntas en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-InsertShapesToWorksheetInAsposeCells-FivePointedStar.java" >}}
 

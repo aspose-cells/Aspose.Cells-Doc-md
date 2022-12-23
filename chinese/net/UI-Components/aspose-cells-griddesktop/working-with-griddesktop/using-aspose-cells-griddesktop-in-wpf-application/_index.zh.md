@@ -35,7 +35,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 **最终的 Windows 标签将类似于下图所示。**
 
-![待办事项：图像_替代_文本](using-aspose-cells-griddesktop-in-wpf-application_1.png)
+![待办事项：图片_替代_文本](using-aspose-cells-griddesktop-in-wpf-application_1.png)
 ## **将 Aspose.Cells.GridDesktop 控件添加到 XAML**
 只需在 XAML 中的 Grid 标记内添加以下代码。这**Windows窗体主机**标记用于承载 Windows 表单控件和**网格桌面：网格桌面**标记代表 Aspose.Cells.GridDesktop 控件。您还可以命名控件，以便在代码中轻松引用它。
 
@@ -55,7 +55,7 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 **最终的 XAML 将如下所示。** 
 
-![待办事项：图像_替代_文本](using-aspose-cells-griddesktop-in-wpf-application_2.png)
+![待办事项：图片_替代_文本](using-aspose-cells-griddesktop-in-wpf-application_2.png)
 ## **使用 Aspose.Cells.GridDesktop**
 我们现在可以像任何其他 Windows Forms 应用程序一样访问和使用 .cs 文件中的 Aspose.Cells.GridDesktop 控件。为了保持演示简单，我们只是在 Aspose.Cells.GridDesktop 控件中加载示例电子表格并将其保存回来。此外，我们还使用了 FrameworkElement_OnLoaded 事件来触发以下语句。
 
@@ -63,4 +63,4 @@ xmlns:gridDesktop="clr-namespace:Aspose.Cells.GridDesktop;assembly=Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **构建与运行**
-现在，使用**F5**或者**开始** Visual Studio UI 上的按钮。
+现在，使用**F5**要么**开始** Visual Studio UI 上的按钮。

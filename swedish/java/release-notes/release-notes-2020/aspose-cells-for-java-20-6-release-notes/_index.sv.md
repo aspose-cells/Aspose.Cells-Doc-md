@@ -14,20 +14,20 @@ url: /sv/java/aspose-cells-for-java-20-6-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43186|Beräkna totalsumman för varje rad med utökad kolumn|Förbättring|
 |CELLSJAVA-43191|Tillhandahåll sätt att hantera scenarier när du anger felaktiga teckensnittstyper|Förbättring|
-|CELLSJAVA-43187|Undantag vid laddning av en XLS "Microsoft Excel 5.0 / 95 Workbook"-filer|Förbättring|
+|CELLSJAVA-43187|Undantag vid inläsning av en XLS "Microsoft Excel 5.0 / 95 arbetsbok"-filer|Förbättring|
 |CELLSJAVA-43180|HTML till Excel-konvertering skapar svart kalkylblad|Insekt|
 |CELLSJAVA-43181|Skillnaden i radhöjd vid konvertering av Excel till HTML|Insekt|
-|CELLSJAVA-43188|Bakgrundsfärgstilen behålls inte under HTML till Excel-konvertering|Insekt|
+|CELLSJAVA-43188|Bakgrundsfärgsstilen behålls inte under HTML för att Excel-konvertering|Insekt|
 |CELLSJAVA-43196|Ett annat antal VBA-moduler upptäcktes med Aspose.Cells for Java 20.4 och 20.5|Insekt|
 |CELLSJAVA-43202|Resurser som inte släpps när arbetsboken har skapats|Insekt|
 |CELLSJAVA-43203|Det går inte att bearbeta vissa Excel-valideringslistor baserat på de namngivna intervallen med Unicode-namn|Insekt|
-|CELLSJAVA-43185|JPEG-kvalitet är alltid 75 på setImageResample på Linux|Insekt|
+|CELLSJAVA-43185|JPEG kvalitet är alltid 75 på setImageResample på Linux|Insekt|
 |CELLSJAVA-43192|Ladda teckensnittsmapp /System/Bibliotek/Teckensnitt på macOS som standard|Insekt|
 |CELLSJAVA-43157|Anpassad dataseriefärg bevaras inte när du skapar ett vattenfallsdiagram|Insekt|
 |CELLSJAVA-43175|Ett problem med diagramseriens namn när arbetsboken hänvisas till andra arbetsböcker|Insekt|
 |CELLSJAVA-43201|Undantag "java.util.EmptyStackException" för att spara till HTML|Undantag|
 |CELLSJAVA-43204|NegativeArraySizeException uppstår när Cell.getDisplayStringValue() används|Undantag|
-|CELLSJAVA-43189|Undantag uppstod när XLS-filen laddades|Undantag|
+|CELLSJAVA-43189|Undantag uppstod när filen XLS laddades|Undantag|
 |CELLSJAVA-43193|NullPointerException inträffade när några XLSX-filer laddades|Undantag|
 |CELLSJAVA-43200|Undantag "java.lang.ArrayIndexOutOfBoundsException" vid inläsning av filen|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**

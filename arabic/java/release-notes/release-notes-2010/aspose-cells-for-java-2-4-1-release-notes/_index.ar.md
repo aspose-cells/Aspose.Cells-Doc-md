@@ -10,7 +10,7 @@ url: /ar/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- يسعدنا أن نعلن Aspose.Cells for Java v2.4.1!
+يسعدنا أن نعلن Aspose.Cells for Java v2.4.1!
 
  ما الذي تغير:
 
@@ -21,7 +21,7 @@ url: /ar/java/aspose-cells-for-java-2-4-1-release-notes/
 - يدعم معالجة موضع النافذة وخصائص الحجم في المصنف.
 - تم تحسين عملية قراءة / حفظ ملفات Excel 2007.
 - تم تحسين ميزة الرسم البياني للصورة.
-- تم تحسين ميزة Direct Excel to PDF.
+- تم تحسين ميزة Excel المباشر إلى PDF.
 - تم تحسين تنسيق قيم Cell.
 - تم تحسين عملية قراءة ملفات Excel 97-2003.
 - تم تحسين وحدة حفظ الرسوم البيانية.
@@ -30,7 +30,7 @@ url: /ar/java/aspose-cells-for-java-2-4-1-release-notes/
 
  تم حل المشكلات في Aspose.Cells for Java 2.4.1
 
-|**معرف الإصدار** |**مكون** |**ملخص** |
+|**معرف الإصدار** |**عنصر** |**ملخص** |
 |:- |:- |:- |
 |19342 | Chart2Image| ترتيب الأسطورة|
 |19421 | معادلة| حساب الصيغة|
@@ -38,9 +38,9 @@ url: /ar/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | xlsx| قراءة ملف Excel2007|
 |19596 | XLS| Cells.getMaxDataColumn ()|
 |19641 | XLS| خيارات التحقق من الخطأ|
-|19696 | جدول| حفظ الرسم البياني لملف excel2003|
-|19822 | جدول|الخلايا المرتبطة لـ ChartFrames مثل Title / DataLabels|
-|19823 | لغة البرمجة| Cell حدود|
+|19696 | جدول|حفظ الرسم البياني لملف excel2003|
+|19822 | جدول| الخلايا المرتبطة لـ ChartFrames مثل Title / DataLabels|
+|19823 | لغة البرمجة| Cell الحدود|
 |19832 | Chart2Image| مخطط WaterFall باستخدام مخطط StackedBar|
 |19894 | XLS| احصل على حجم الشكل ، اقرأ النمط|
 |19989 | XLS| Cell.getStringValue () / getValueType|

@@ -1,5 +1,5 @@
 ﻿---
-title: 使用范围的边界线创建表
+title: 使用范围的边界线创建表格
 type: docs
 weight: 50
 url: /zh/java/create-table-by-using-border-lines-for-a-range/
@@ -18,4 +18,4 @@ keywords: create table, range to table, range to table excel, excel range to tab
 
 运行上述代码后，我们可以生成包含格式化表格的excel文件；这是文件的屏幕截图。
 
-![待办事项：图像_替代_文本](create-table-by-using-border-lines-for-a-range_1.png)
+![待办事项：图片_替代_文本](create-table-by-using-border-lines-for-a-range_1.png)

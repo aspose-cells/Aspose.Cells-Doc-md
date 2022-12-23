@@ -9,16 +9,16 @@ Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Veri Kümesi Oluştur** Aspose.Cells.Report.Designer'da (
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_1.png)
 
 ).
 
 1.  İletişim kutusunda, sol panelde listelenen veri kaynaklarından birini seçin. Örneğin,**SQL Server**.
-1.  Tıklamak**Ekle**. 
+1.  Tıklamak**Eklemek**. 
 
    **Veri kaynağı seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_2.png)
 
 
 
@@ -28,7 +28,7 @@ Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 
    **Yeni bir veri kümesini adlandırma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_3.png)
 
 
 
@@ -36,7 +36,7 @@ Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 
 **Yeni bir sorgu oluşturma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_4.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_4.png)
 
 
 
@@ -45,7 +45,7 @@ Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 
    **Rapor Tasarımcısına Dön** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_5.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_5.png)
 
 
 
@@ -53,4 +53,4 @@ Mevcut bir veri kaynağını kullanarak yeni bir sorgu oluşturmak için:
 
 **yeni veri seti** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-new-query-using-existing-data-source_6.png)
+![yapılacaklar:resim_alternatif_metin](creating-new-query-using-existing-data-source_6.png)

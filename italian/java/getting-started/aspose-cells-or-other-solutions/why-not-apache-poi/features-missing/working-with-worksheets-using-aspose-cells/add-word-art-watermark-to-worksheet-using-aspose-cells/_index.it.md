@@ -7,7 +7,7 @@ url: /it/java/add-word-art-watermark-to-worksheet-using-aspose-cells/
 ## **Aspose.Cells - Aggiungi filigrana Word Art al foglio di lavoro**
 Usa WordArt per aggiungere effetti di testo speciali ai fogli di calcolo. Ad esempio, allunga un titolo nella parte superiore del file, decora il testo e adatta il testo a una forma preimpostata oppure applica il testo a un foglio Excel come filigrana di sfondo. La WordArt diventa un oggetto che puoi spostare o posizionare nei fogli di calcolo per aggiungere decorazioni.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

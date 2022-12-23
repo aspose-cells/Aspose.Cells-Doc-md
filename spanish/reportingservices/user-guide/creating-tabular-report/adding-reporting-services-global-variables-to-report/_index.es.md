@@ -41,7 +41,7 @@ Para agregar variables globales a los informes:
 
 
 
-1.  Hacer clic**OK** para terminar.
+1.  Hacer clic**DE ACUERDO** para terminar.
  La celda ahora contiene un marcador de variable global.
 
    **Un marcador de variables globales en una celda** 

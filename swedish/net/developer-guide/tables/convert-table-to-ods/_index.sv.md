@@ -10,6 +10,6 @@ Aspose.Cells st√∂der konvertering av en Excel-fil med tabell till ODS-fil. Du m√
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToOds-1.cs" >}}
 
-ODS-utdatafilen som genereras av exempelkoden bifogas som referens.
+Utdatafilen ODS som genereras av exempelkoden bifogas som referens.
 
-[**Utdata ODS-fil**](ConvertTableToOds_out.ods)
+[**Utdata ODS Fil**](ConvertTableToOds_out.ods)

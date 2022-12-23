@@ -15,13 +15,13 @@ Format Painter ist die Funktion von MS Excel, die in Aspose.Cells.GridDesktop an
 - **Format Painter einmal verwenden**
 - **Format Painter immer verwenden**
 ### **Format Painter einmal verwenden**
- Wenn Entwickler die Funktion von Format Painter nur einmal verwenden möchten, um die Formatierungseinstellungen einer fokussierten Zelle auf eine einzelne Zelle anzuwenden, können sie dies durch Aufrufen tun**FormatPainter starten** Methode und Bestehen a**FALSCH** Wert dazu. Dies**FALSCH** value verbietet dem Formatmaler für immer, zu malen.
+ Wenn Entwickler die Funktion von Format Painter nur einmal verwenden möchten, um die Formatierungseinstellungen einer fokussierten Zelle auf eine einzelne Zelle anzuwenden, können sie dies durch Aufrufen tun**FormatPainter starten** Methode und Bestehen a**FALSCH** Wert dazu. Diese**FALSCH** value verbietet dem Formatmaler für immer, zu malen.
 
 
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithCells-UsingFormatPainter-UseOnce.cs" >}}
 ### **Format Painter immer verwenden**
-Die Verwendung von Format Painter ist immer eine nützliche Funktion, wenn wir die Formatierungseinstellungen auf mehr als eine Zelle anwenden müssen. Entwickler können diese Funktion durch einen einfachen Aufruf erreichen**FormatPainter starten** Methode und Bestehen a**Stimmt** Wert dazu.
+Die Verwendung von Format Painter ist immer eine nützliche Funktion, wenn wir die Formatierungseinstellungen auf mehr als eine Zelle anwenden müssen. Entwickler können diese Funktion durch einen einfachen Aufruf erreichen**FormatPainter starten** Methode und Bestehen a**wahr** Wert dazu.
 
 
 

@@ -33,7 +33,7 @@ url: /ar/net/missing-features-in-openxml/
   - [تحويل الرسوم البيانية إلى صور](/cells/ar/net/convert-charts-to-images/)
   - [طباعة جداول البيانات](/cells/ar/net/print-spreadsheets/)
   - [حدد دقة الصورة والجودة والضغط والخيارات الأخرى](/cells/ar/net/specify-image-resolution-quality-compression-and-other-options/)
-- [احفظ المصنف بتنسيق نصي أو CSV باستخدام Aspose.Cells](/cells/ar/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [حفظ المصنف إلى نص أو تنسيق CSV باستخدام Aspose.Cells](/cells/ar/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [قم بتعيين الروابط الخارجية في الصيغ في Aspose.Cells](/cells/ar/net/set-external-links-in-formulas-in-aspose-cells/)
 - [إعداد طريقة حساب الصيغة من المصنف في Aspose.Cells](/cells/ar/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [إعداد الصيغة المشتركة في Aspose.Cells](/cells/ar/net/setting-shared-formula-in-aspose-cells/)

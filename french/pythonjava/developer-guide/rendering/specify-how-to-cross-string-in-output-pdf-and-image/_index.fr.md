@@ -1,11 +1,11 @@
 ﻿---
-title: Spécifiez comment croiser la chaîne dans le PDF de sortie et l'image
+title: Spécifiez comment traverser la chaîne dans la sortie PDF et l'image
 type: docs
 weight: 20
 url: /fr/python-java/specify-how-to-cross-string-in-output-pdf-and-image/
 ---
-## **Spécifiez comment croiser la chaîne dans le PDF de sortie et l'image**
- Lorsqu'une cellule contient du texte ou une chaîne plus grande que la largeur de la cellule, la chaîne déborde si la cellule suivante de la colonne suivante est nulle ou vide. Lorsque vous enregistrez votre fichier Excel en PDF/Image, vous pouvez contrôler ce débordement en spécifiant le type croisé à l'aide de la[TextCrossType](https://reference.aspose.com/cells/python/asposecells.api/TextCrossType) énumération. Il a les valeurs suivantes
+## **Spécifiez comment traverser la chaîne dans la sortie PDF et l'image**
+ Lorsqu'une cellule contient du texte ou une chaîne plus grande que la largeur de la cellule, la chaîne déborde si la cellule suivante de la colonne suivante est nulle ou vide. Lorsque vous enregistrez votre fichier Excel dans PDF/Image, vous pouvez contrôler ce débordement en précisant le type croisé à l'aide de la[TextCrossType](https://reference.aspose.com/cells/python/asposecells.api/TextCrossType) énumération. Il a les valeurs suivantes
 
 - [TextCrossType.DEFAULT](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#DEFAULT): Affichage comme MS Excel, dépend de la cellule suivante. Si la cellule suivante est nulle, la chaîne se croisera ou sera tronquée.
 - [TextCrossType. CROSS_KEEP](https://reference.aspose.com/cells/python/asposecells.api/textcrosstype#CROSS_KEEP): Affiche la chaîne similaire à MS Excel exportant PDF/Image

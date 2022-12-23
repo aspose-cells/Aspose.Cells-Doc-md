@@ -6,38 +6,38 @@ url: /fr/net/aspose-cells-for-net-8-9-1-release-notes/
 ---
 ### **1) Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
-|CELLSNET-44274 |Prise en charge du type de police TTE lors du rendu des feuilles de calcul au format PDF| Nouvelle fonctionnalité|
+|CELLSNET-44274 | Prise en charge du type de police TTE lors du rendu des feuilles de calcul en PDF| Nouvelle fonctionnalité|
 |CELLSNET-42277 | Utiliser des caractères privés dans le rendu PDF| Renforcement|
-|CELLSNET-44630 | Formatage des nombres (DateTime) perdu lors de l'importation de données depuis DataGrid (.NET)| Renforcement|
+|CELLSNET-44630 | Numbers formatage (DateTime) perdu lors de l'importation de données depuis DataGrid (.NET)| Renforcement|
 |CELLSNET-44626 | Le graphique copié avec CopyRows fait toujours référence à la feuille de calcul source dans la plage de données du graphique| Renforcement|
 |CELLSNET-44619 | Convertir la chaîne de date au format de date| Renforcement|
 |CELLSNET-44625 | Colspan as 2 augmente considérablement le temps de chargement et de conversion HTML| Performance|
-|CELLSNET-44338 | Dégradation des performances lors du rendu des feuilles de calcul au format PDF| Performance|
+|CELLSNET-44338 | Dégradation des performances lors du rendu des feuilles de calcul en PDF| Performance|
 |CELLSNET-44610 | L'attribut gras est perdu lors de la conversion de HTML en XLSX| Punaise|
 |CELLSNET-44609 | La direction du contenu est modifiée lors de la conversion de HTML en XLSX| Punaise|
 |CELLSNET-44608 | Il manque des bordures lors de la conversion de HTML en XLSX| Punaise|
-|CELLSNET-44607 | Cell l'ombrage est manquant lors de la conversion de HTML en XLSX| Punaise|
+|CELLSNET-44607 | L'ombrage Cell est manquant lors de la conversion de HTML en XLSX| Punaise|
 |CELLSNET-44606 | Le contenu est manquant lors de la conversion de HTML en XLSX| Punaise|
-|CELLSNET-44605 | Conversion incorrecte de HTML en XLSX| Punaise|
-|CELLSNET-44579 | MHTML vers XLS/XLSX revient en tant que document vierge| Punaise|
+|CELLSNET-44605 |Conversion incorrecte de HTML en XLSX| Punaise|
+|CELLSNET-44579 | MHTML à XLS/XLSX revient en tant que document vierge| Punaise|
 |CELLSNET-44572 | Problème avec les liens hypertexte faisant référence à une feuille de calcul dans le même document| Punaise|
 |CELLSNET-44617 | La formule SumProduct n'est pas calculée correctement| Punaise|
-|CELLSNET-44604 |Texte manquant après la conversion XLS en Pdf/A| Punaise|
-|CELLSNET-44603 | Problème d'alignement vertical avec le contenu de la cellule touchant la bordure supérieure lors du rendu des feuilles de calcul au format PDF| Punaise|
-|CELLSNET-44602 | Problème d'alignement horizontal avec des valeurs précédées du signe $ lors du rendu des feuilles de calcul au format PDF| Punaise|
+|CELLSNET-44604 | Texte manquant après conversion XLS en Pdf/A| Punaise|
+|CELLSNET-44603 | Problème d'alignement vertical avec le contenu de la cellule touchant la bordure supérieure lors du rendu des feuilles de calcul au PDF| Punaise|
+|CELLSNET-44602 | Problème d'alignement horizontal avec des valeurs précédées du signe $ lors du rendu des feuilles de calcul en PDF| Punaise|
 |CELLSNET-42715 | Polices perdues dans le PDF| Punaise|
 |CELLSNET-44637 | Le résultat de CalculateTextSize est toujours la hauteur par défaut si le texte d'un TextBox contient de nouvelles lignes| Punaise|
-|CELLSNET-44635 | Le graphique n'est pas correct dans l'échantillon2.xlsx (conversion Excel en PDF)| Punaise|
-|CELLSNET-44634 | Les tableaux de données ne sont pas corrects dans le sample2.xlsx (conversion Excel en PDF)| Punaise|
-|CELLSNET-44633 | Les tableaux de données ne sont pas corrects dans l'échantillon1.xlsx (conversion Excel en PDF)| Punaise|
-|CELLSNET-44623 | Le marqueur de graphique radar modifié ne se convertit pas correctement en PDF| Punaise|
-|CELLSNET-44601 | Les étiquettes d'axe horizontal sont manquantes dans le rendu Graphique vers image| Punaise|
-|CELLSNET-44570 | Problème avec le formatage de la forme WordArt dans le fichier PDF rendu| Punaise|
+|CELLSNET-44635 | Le graphique n'est pas correct dans sample2.xlsx (conversion Excel vers PDF)| Punaise|
+|CELLSNET-44634 | Les tableaux de données ne sont pas corrects dans sample2.xlsx (conversion Excel vers PDF)| Punaise|
+|CELLSNET-44633 | Les tableaux de données ne sont pas corrects dans sample1.xlsx (conversion Excel vers PDF)| Punaise|
+|CELLSNET-44623 | Le marqueur de carte radar modifié ne se convertit pas correctement en PDF| Punaise|
+|CELLSNET-44601 |Les étiquettes d'axe horizontal sont manquantes dans le rendu Graphique vers image| Punaise|
+|CELLSNET-44570 | Problème avec la mise en forme de la forme WordArt dans le fichier rendu PDF| Punaise|
 |CELLSNET-44655 | L'alignement ne fonctionne pas dans un TextBox| Punaise|
 |CELLSNET-44646 | Le fichier est corrompu (le lien hypertexte devient du texte normal) après avoir été traité par les API Aspose.Cells| Punaise|
-|CELLSNET-44639 |La réintégration de la diapositive de présentation dans XLS donne une vue de présentation en double-cliquant| Punaise|
+|CELLSNET-44639 | La réintégration de la diapositive de présentation dans XLS donne une vue de présentation en double-cliquant| Punaise|
 |CELLSNET-44631 | Erreur Excel "Impossible de démarrer l'application source pour cet objet" après la réinsertion de l'OleObject de type Bitmap| Punaise|
 |CELLSNET-44629 | La formule entraîne une erreur #REF après la copie des lignes et le calcul des formules| Punaise|
 |CELLSNET-44624 | Format de date non conservé lors de l'enregistrement en tant que fichier SpeadsheetML| Punaise|
@@ -45,16 +45,16 @@ url: /fr/net/aspose-cells-for-net-8-9-1-release-notes/
 |CELLSNET-44614 | Problème de chemin avec les liens de données externes pour les feuilles de calcul XLS| Punaise|
 |CELLSNET-44611 | Réenregistrer une feuille de calcul avec un thème personnalisé provoque une erreur dans le SDK Open XML| Punaise|
 |CELLSNET-44649 | Le moteur de calcul personnalisé fait que le calcul n'a lieu qu'une seule fois| Punaise|
-|CELLSNET-44584 | System.FormatException s'est produite lors de l'importation d'un fichier HTML| Exception|
+|CELLSNET-44584 |System.FormatException s'est produite lors de l'importation d'un fichier HTML| Exception|
 |CELLSNET-44643 | Exception levée lors de l'ouverture du fichier| Exception|
-|CELLSNET-44612 | CellsException : Erreur dans Cell : O93-Formule invalide lors du chargement de XLSM qui a été enregistré avec Aspose.Cells| Exception|
+|CELLSNET-44612 | CellsException : Erreur dans Cell : O93-Formule non valide lors du chargement de XLSM qui a été enregistrée avec Aspose.Cells| Exception|
 |CELLSNET-44600 | System.ArgumentException à Workbook.Save| Exception|
 ### **2) Suite de grille Aspose.Cells**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSNET-41833 | Problème lors de l'utilisation du format de nombre Pourcentage2| Nouvelle fonctionnalité|
-|CELLSNET-44592 |Une barre de défilement verticale apparaît pour le conteneur lorsque la hauteur du GridWeb est définie sur 100 %| Punaise|
+|CELLSNET-44592 | Une barre de défilement verticale apparaît pour le conteneur lorsque la hauteur du GridWeb est définie sur 100 %| Punaise|
 |CELLSNET-44576 | Le curseur ne bouge pas lorsque ShowCellEditBox est défini sur true| Punaise|
 |CELLSNET-44575 | La fusion de cellules une deuxième fois ne fonctionne pas| Punaise|
 |CELLSNET-44555 | Problème de définition de la valeur d'une cellule au format pourcentage| Punaise|

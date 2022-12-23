@@ -101,7 +101,7 @@ wb->Save(outManipulateRange, SaveFormat_Xlsx);
 ### **Добавлен метод ICells::LinkToXmlMap**
 В класс ICells добавлен метод LinkToXmlMap, который полезен при связывании карты XML.
 ### **Добавлен метод ICells::ImportCSV**
-В класс ICells добавлен метод ImportCSV, который полезен при импорте CSV-файла в ячейки рабочего листа.
+В класс ICells добавлен метод ImportCSV, который полезен при импорте файла CSV в ячейки рабочего листа.
 ### **Добавлен метод ICells::ImportTwoDimensionArray.**
 В класс ICells добавлен метод GetIProtectedRangeCollection, который полезен при импорте двумерного массива данных на рабочий лист.
 ### **Добавлен метод IWorksheet::GetIProtectedRangeCollection.**

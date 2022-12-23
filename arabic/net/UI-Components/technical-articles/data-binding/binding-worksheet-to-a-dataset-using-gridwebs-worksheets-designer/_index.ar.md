@@ -140,10 +140,10 @@ url: /ar/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 يحتوي مربع الحوار على العديد من الخصائص التي يمكن تكوينها لربط الورقة 1 بأي جدول في قاعدة البيانات.
 
-1.  حدد ملف**مصدر البيانات** منشأه.
+1.  حدد ملف**مصدر البيانات** خاصية.
  يتم سرد الكائن dataSet11 الذي تم إنشاؤه في الخطوة السابقة في القائمة.
 1. حدد البيانات
-1.  انقر على**عضو البيانات** منشأه.
+1.  انقر على**عضو البيانات** خاصية.
  يعرض "مصمم أوراق العمل" تلقائيًا قائمة بالجداول في dataSet11. يوجد جدول واحد فقط ، المنتجات.
 1. حدد جدول المنتجات.
    **تعيين خصائص DataSource و DataMember** 
@@ -153,7 +153,7 @@ url: /ar/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 
 
-1.  افحص ال**BindColumns** منشأه.
+1.  افحص ال**BindColumns** خاصية.
    **النقر فوق خاصية BindColumns** 
 
 ![ما يجب القيام به: image_بديل_نص](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
@@ -369,7 +369,7 @@ Aspose.Cells.GridWeb يقوم تلقائيًا بإنشاء قواعد تحقق 
 
  يضيف المثال التالي التعليمات البرمجية إلى التطبيق بحيث يمكن لـ GridWeb حفظ التغييرات في قاعدة البيانات.
 
-1. افتح ال**الخصائص** جزء وحدد الحدث SaveCommand لعنصر تحكم GridWeb من القائمة.
+1. افتح ال**ملكيات** جزء وحدد الحدث SaveCommand لعنصر تحكم GridWeb من القائمة.
    **تحديد حدث SaveCommand من GridWeb** 
 
 ![ما يجب القيام به: image_بديل_نص](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_33.png)

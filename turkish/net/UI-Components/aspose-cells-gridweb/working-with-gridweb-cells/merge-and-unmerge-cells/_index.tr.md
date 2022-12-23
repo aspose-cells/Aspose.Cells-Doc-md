@@ -20,7 +20,7 @@ Birden çok hücreyi birleştirirseniz ve her hücre veri içeriyorsa, birleşti
 
 **Dört hücre tek hücrede birleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](merge-and-unmerge-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](merge-and-unmerge-cells_1.png)
 
 
 

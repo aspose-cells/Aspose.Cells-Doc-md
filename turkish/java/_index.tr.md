@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/java/
 is_root: true
-description: Aspose.Cells for Java, Excel dosyalarının oluşturulmasını, güncellenmesini ve kaydedilmesini destekleyen bir sınıf kitaplığıdır. Ayrıca Aspose.Cells for Java, dosyaların PDF, DOCX, PPTX, JSON,XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim biçimlerine dönüştürülmesini de destekler.
+description: Aspose.Cells for Java, Excel dosyalarının oluşturulmasını, güncellenmesini ve kaydedilmesini destekleyen bir sınıf kitaplığıdır. Ayrıca Aspose.Cells for Java, dosyaların PDF, DOCX, PPTX, JSON,XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil olmak üzere popüler resim biçimlerine dönüştürülmesini de destekler.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Aspose.Cells for Java, Excel dosyalarının oluşturulmasını, gü
 
 API'ler ve GUI kontrolleriyle birleştiğinde Aspose.Cells for Java, Microsoft Excel® programlama ve dönüştürmeyi hızlandırır.
 
-Aspose.Cells for Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON，Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatlarına dışa aktarılmasına izin verir.
+Aspose.Cells for Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil olmak üzere popüler resim formatlarına dışa aktarılmasına izin verir.
 
 
 {{% /alert %}}

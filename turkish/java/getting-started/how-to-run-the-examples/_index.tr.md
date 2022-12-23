@@ -5,9 +5,9 @@ weight: 100
 url: /tr/java/how-to-run-the-examples/
 ---
 ## **GitHub'dan indirin**
- Aspose.Cells for Java'in tüm örnekleri şu adreste barındırılmaktadır:[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Favori GitHub istemcinizi kullanarak depoyu klonlayabilir veya ZIP dosyasını adresinden indirebilirsiniz.[burada](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
+ Aspose.Cells for Java'in tüm örnekleri şu adreste barındırılmaktadır:[GitHub](https://github.com/aspose-cells/Aspose.Cells-for-java) . Favori GitHub istemcinizi kullanarak depoyu klonlayabilir veya ZIP dosyasını adresinden indirebilirsiniz.[Burada](https://github.com/aspose-cells/Aspose.Cells-for-java/archive/master.zip).
 
- ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre çıkarın. Tüm örnekler şu adreste yer almaktadır:**örnekler** dosya.
+ ZIP dosyasının içeriğini bilgisayarınızdaki herhangi bir klasöre çıkarın. Tüm örnekler şu adreste yer almaktadır:**örnekler** Klasör.
 
  bu**Kaynaklar** klasör, örneklerde kullanılan girdi belgelerini veya dosyaları içerir.
 
@@ -39,9 +39,9 @@ ve çalıştırın.
 ## **Ekran görüntüsü**
 Daha fazla yardım için lütfen aşağıdaki ekran görüntüsüne ve vurgulanan alanlarına bakın.
 
-![yapılacaklar:resim_alternatif_Metin](how-to-run-the-examples_1.png)
+![yapılacaklar:resim_alternatif_metin](how-to-run-the-examples_1.png)
 
-## **Katkıda bulunmak**
+## **Katkı yapmak**
 Bir örnek eklemek veya geliştirmek isterseniz, projeye katkıda bulunmanızı öneririz. Bu depodaki tüm örnekler ve vitrin projeleri açık kaynak kodludur ve kendi uygulamalarınızda serbestçe kullanılabilir.
 
 Katkıda bulunmak için depoyu çatallayabilir, kaynak kodunu düzenleyebilir ve bir çekme isteği oluşturabilirsiniz. Değişiklikleri gözden geçireceğiz ve yararlı bulunursa depoya dahil edeceğiz.

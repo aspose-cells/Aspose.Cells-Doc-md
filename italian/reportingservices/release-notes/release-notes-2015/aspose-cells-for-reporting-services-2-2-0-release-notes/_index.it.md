@@ -58,7 +58,7 @@ Si prega di dare il benvenuto a una nuova versione di Aspose.Cells for Reporting
 
 (SSRS-40185) Report analisi impatto elemento - Lo spazio nella parte superiore del report, tra il titolo e la tabella è maggiore e lo spazio tra le due intestazioni in alto è minore.
 
-(SSRS-40184) Report sull'indice di integrità - Il report non viene esportato in XLSX e restituisce l'errore: "Si è verificato un errore durante l'esportazione del report".
+(SSRS-40184) Report sull'indice di integrità - Il report non viene esportato in XLSX, restituendo l'errore: "Si è verificato un errore durante l'esportazione del report".
 
 (SSRS-40183) Dashboard Report - Nel quarto quadruplo c'è molto spazio tra il testo e le categorie migliora, sostieni e monitora.
 

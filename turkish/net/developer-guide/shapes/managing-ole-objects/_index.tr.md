@@ -4,11 +4,11 @@ type: docs
 weight: 50
 url: /tr/net/managing-ole-objects/
 ---
-## **giriiş**
+## **Giriş**
 
 OLE (Object Linking and Embedding), Microsoft'in bir bileşik belge teknolojisi çerçevesidir. Kısaca, bir bileşik belge, her türlü görsel ve bilgi nesnesini içerebilen bir ekran masaüstü gibi bir şeydir: metin, takvimler, animasyonlar, ses, hareketli video, 3B, sürekli güncellenen haberler, kontroller vb. Her masaüstü nesnesi, bir kullanıcıyla etkileşime girebilen ve ayrıca masaüstündeki diğer nesnelerle iletişim kurabilen bağımsız bir program varlığıdır.
 
- OLE (Object Linking and Embedding) birçok farklı program tarafından desteklenir ve bir programda oluşturulan içeriğin başka bir programda kullanılabilir olmasını sağlamak için kullanılır. Örneğin, bir Microsoft Word belgesini Microsoft Excel'e ekleyebilirsiniz. Ne tür içerik ekleyebileceğinizi görmek için tıklayın**Nesne** üzerinde**Sokmak** Menü. Yalnızca bilgisayarda yüklü olan ve OLE nesnelerini destekleyen programlar görüntülenir.**Nesne türü** kutu.
+ OLE (Object Linking and Embedding) birçok farklı program tarafından desteklenir ve bir programda oluşturulan içeriğin başka bir programda kullanılabilir olmasını sağlamak için kullanılır. Örneğin, bir Microsoft Word belgesini Microsoft Excel'e ekleyebilirsiniz. Ne tür içerik ekleyebileceğinizi görmek için tıklayın**Nesne** üzerinde**Sokmak** Menü. Yalnızca bilgisayarda yüklü olan ve OLE nesnelerini destekleyen programlar görüntülenir.**Nesne türü** Kutu.
 
 ### **OLE Nesnelerini Çalışma Sayfasına Ekleme**
 
@@ -23,7 +23,7 @@ Aşağıdaki örnek, bir OLE Nesnesinin/Nesnelerinin bir çalışma sayfasına n
 
 ### **Çalışma Kitabındaki OLE Nesnelerini Çıkarma**
 
-Aşağıdaki örnek, bir Çalışma Kitabında OLE Nesnelerinin nasıl ayıklanacağını gösterir. Örnek, mevcut bir XLS dosyasından farklı OLE nesneleri alır ve OLE nesnesinin dosya formatı türüne göre farklı dosyaları (DOC, XLS, PPT, PDF vb.) kaydeder.
+Aşağıdaki örnek, bir Çalışma Kitabında OLE Nesnelerinin nasıl ayıklanacağını gösterir. Örnek, mevcut bir XLS dosyasından farklı OLE nesneleri alır ve OLE nesnesinin dosya biçimi türüne göre farklı dosyaları (DOC, XLS, PPT, PDF, vb.) kaydeder.
 
 Kodu çalıştırdıktan sonra, ilgili OLE Nesneleri biçim türlerine göre farklı dosyaları kaydedebiliriz.
 

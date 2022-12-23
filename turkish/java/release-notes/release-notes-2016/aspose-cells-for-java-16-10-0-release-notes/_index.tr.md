@@ -10,16 +10,16 @@ url: /tr/java/aspose-cells-for-java-16-10-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41974 | Yenilenen PivotTable, işlenen PDF dosyasında çalışmıyor| Böcek|
 |CELLSJAVA-41900 | XLSM, basit yükleme ve kaydetme işlemi nedeniyle bozulur| Böcek|
-|CELLSJAVA-41790 | Elektronik tablo HTML'ye dönüştürüldükten sonra köprüler beklendiği gibi çalışmıyor| Böcek|
-|CELLSJAVA-42010 | Çıktı PDF'sinde bazı karakterler görüntülenmiyor| Böcek|
-|CELLSJAVA-41977 | Chart'ın PDF'sinde grafik açıklamasının sırası değişti| Böcek|
-|CELLSJAVA-41972 | PDF'de yüksek-alçak satırların Z sırası doğru değil| Böcek|
-|CELLSJAVA-42015 | Aspose.Cells ile yeniden kaydedildikten sonra e-tablo bozuluyor| Böcek|
+|CELLSJAVA-41790 | Elektronik tablo HTML'e dönüştürüldükten sonra köprüler beklendiği gibi çalışmıyor| Böcek|
+|CELLSJAVA-42010 | PDF çıktısında bazı karakterler görüntülenmiyor| Böcek|
+|CELLSJAVA-41977 | Chart'ın PDF'inde grafik açıklamasının sırası değişti| Böcek|
+|CELLSJAVA-41972 | PDF'de yüksek-düşük satırların Z sırası doğru değil| Böcek|
+|CELLSJAVA-42015 |Aspose.Cells ile yeniden kaydedildikten sonra e-tablo bozuluyor| Böcek|
 |CELLSJAVA-42005 | Bir hücreye eklendikten sonra formül değiştirilir| Böcek|
 |CELLSJAVA-41997 | Akıllı İşaretleyiciler kullanan basit fasulye ile garip davranış| Böcek|
 |CELLSJAVA-41993 | a7.xlsm dosyasını açarken NullPointerException| İstisna|
 |CELLSJAVA-41992 | a6.xlsm dosyasını açarken NullPointerException| İstisna|
-|CELLSJAVA-41991 |a5.xlsm dosyasını açarken NullPointerException| İstisna|
+|CELLSJAVA-41991 | a5.xlsm dosyasını açarken NullPointerException| İstisna|
 |CELLSJAVA-41990 | a4.xlsm dosyasını açarken NullPointerException| İstisna|
 |CELLSJAVA-41989 | a3.xlsm dosyasını açarken NullPointerException| İstisna|
 |CELLSJAVA-41988 | a2.xlsm dosyasını açarken NullPointerException| İstisna|

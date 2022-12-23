@@ -15,15 +15,15 @@ url: /tr/php-java/aspose-cells-for-php-via-java-22-3-release-notes/
 |CELLSJAVA-44369| şekil yüksekliği doğru değil|
 |CELLSJAVA-44366|Sayfa içeriğinin yeni bir sayfa sayfasına kopyalanması ve html olarak kaydedilmesi, Excel matematik formülü stilinin anormal olmasına neden olur|
 |CELLSJAVA-44408|Değiştirdiğimiz 2 satırı genişlettiğimizde Cell yüzde formatı kayboluyor|
-|CELLSJAVA-44341|Cell Excel'de DOCX'ten DOCX'e dönüştürme çıktısında genişlik doğru değil|
+|CELLSJAVA-44341|Cell Excel'de DOCX çıktısında DOCX'e dönüştürmede genişlik doğru değil|
 |CELLSJAVA-44383|Koşullu biçimlendirme, özel özellikler eklendikten sonra çalışmayı durdurdu|
 |CELLSJAVA-44370|Excel dosyası açılıp Aspose.Cells ile kaydedildiğinde bozuluyor|
-|CELLSJAVA-44344| XLSX çıktısında aralıkların yatay kopyalanmasıyla ilgili sorun|
+|CELLSJAVA-44344|XLSX çıktısında aralıkların yatay kopyalanmasıyla ilgili sorun|
 |CELLSJAVA-44363| satır başlığı yüksekliği dosyadaki satır içeriğiyle eşleşmiyor|
 |CELLSJAVA-44349|görüntü/şekil, GridWeb için sunucu yeniden başlatıldıktan sonra korunacaktır|
 |CELLSJAVA-44367|Sütun grafiğinin rengi, html'ye dönüştürülürken beyaza döner|
-|CELLSJAVA-44328| Excel dosyasını HTML olarak kaydederken Excel grafiklerinin bazı veri etiketleri kayboluyor|
-|CELLSJAVA-44193|Grafikteki kategori ekseni öğelerinin açısı Excel'den PDF'e dönüştürmede farklıdır|
+|CELLSJAVA-44328| Excel dosyası HTML olarak kaydedilirken Excel grafiklerinin bazı veri etiketleri kayboluyor|
+|CELLSJAVA-44193|Grafikteki kategori ekseni öğelerinin açısı, Excel'de PDF dönüşümünden farklıdır|
 |CELLSJAVA-44314|Grafikten görüntüye dönüştürmede yanlış grafik kategorisi eksen etiketleri|
 |CELLSJAVA-44332|Cell xlsx'i html'ye dönüştürürken altı çizili bağlantı kaldırılamıyor|
 |CELLSJAVA-44323|İmza satırı eklenirken istisna|

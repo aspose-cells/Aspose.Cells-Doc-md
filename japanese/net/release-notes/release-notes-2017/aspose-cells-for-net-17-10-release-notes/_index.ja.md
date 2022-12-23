@@ -16,21 +16,21 @@ url: /ja/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45666|Excel ワークシートの SheetId フィールドを取得する|新機能|
 |CELLSNET-45664|読み書き XLSBファイルの外部接続|新機能|
 |CELLSNET-45660|シートから画像へのレンダリング - アジア フォントの位置合わせの問題|強化|
-|CELLSNET-45408|PDF に変換すると値が消えたり、色が変わったりする|バグ|
+|CELLSNET-45408|PDF に変換すると値が消えるか、色が変わる|バグ|
 |CELLSNET-45696|行を挿入するときにスライサーがシート内で下に移動しない|バグ|
 |CELLSNET-45675|数式の計算エラー (「SUMPRODUCT」と「TRANSPOSE」を含む)|バグ|
-|CELLSNET-45651|PDF へのレンダリング時にワークブックで中国語フォントを使用すると、TextBox のサイズが変更される|バグ|
+|CELLSNET-45651|PDF へのレンダリングでワークブックで中国語フォントを使用すると、TextBox のサイズが変更される|バグ|
 |CELLSNET-45678|画像に変換すると一部文字が欠ける|バグ|
 |CELLSNET-45667|セルのソース値を手動で変更すると、MS Excel でトレンドライン ラベルが更新されない|バグ|
 |CELLSNET-45620|立体チャートでは色や目盛りの間隔が異なる|バグ|
 |CELLSNET-45397|Aspose.Cells はチャート内のフォントを正しく認識しません|バグ|
 |CELLSNET-45700|Aspose.Cells による、MS Excel 2016 アドイン ペインがファイルを開いて保存した後にファイルから削除される|バグ|
-|CELLSNET-45693|ワークシートは、SpreadsheetML から XLSX への変換の出力ファイルで保護されなくなりました|バグ|
+|CELLSNET-45693|SpreadsheetML から XLSX への変換で、ワークシートが出力ファイルで保護されなくなりました。|バグ|
 |CELLSNET-45691|ドキュメントを再保存すると破損する|バグ|
 |CELLSNET-45690|一部のセルでスタイルが間違って引き継がれているようです - SpreadsheetML から XLSX への変換|バグ|
 |CELLSNET-45688|日付列が正しくソートされていません|バグ|
-|CELLSNET-45687|ワークシート保護プロパティは SpreadsheetML から引き継がれません|バグ|
-|CELLSNET-45683|SpreadsheetML AllowSort 要素が出力 XLSX で機能しない|バグ|
+|CELLSNET-45687|ワークシートの保護プロパティは SpreadsheetML から引き継がれません|バグ|
+|CELLSNET-45683|SpreadsheetML 出力で AllowSort 要素が機能しない XLSX|バグ|
 |CELLSNET-45682|MS Excel で、「Excel で読み取り不能なコンテンツが見つかりました....」というエラー メッセージが表示されます。|バグ|
 |CELLSNET-45676|ワークシート名に区切りのないスペースがあるため、再保存するとドキュメントが破損する|バグ|
 |CELLSNET-45673|SpredsheetML に適用する配置スタイル|バグ|
@@ -45,7 +45,7 @@ url: /ja/net/aspose-cells-for-net-17-10-release-notes/
 #### **AbstractCalculationMonitor.Interrupt(string) メソッドを追加**
 ユーザーが数式計算の進行を中断できるようにします。
 #### **HtmlCrossType.MSExport 列挙型を追加します**
-HTML をエクスポートする MS Excel のような文字列を表示します。
+MS Excel exporting HTML のような文字列を表示します。
 #### **Worksheet.TabId プロパティを追加します**
 シートの内部識別子を取得します。
 #### **enum OLEDBCommandType.None を追加します**
@@ -65,4 +65,4 @@ Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックの�
 - [Aspose.Cells を使用して OpenXml の Sheet.SheetId プロパティを利用する](/cells/ja/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [XLSB ファイルの外部接続の読み取りと書き込み](/cells/ja/net/read-and-write-external-connection-of-xls-and-xlsb-files/)
 - [ワークブックの数式計算を中断またはキャンセルする](/cells/ja/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [HtmlCrossType を使用して、出力 HTML で文字列をクロスする方法を指定します](/cells/ja/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+- [HtmlCrossType を使用して、出力 HTML で文字列を交差させる方法を指定します](/cells/ja/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

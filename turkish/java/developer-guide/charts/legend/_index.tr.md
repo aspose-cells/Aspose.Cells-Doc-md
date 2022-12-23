@@ -8,7 +8,7 @@ url: /tr/java/chart-legend/
 ## **Efsane Seçenekleri**
  Aspose.Cells ayrıca çalışma zamanında grafiğin açıklamasını yönetmeye izin verir.[Efsane](https://reference.aspose.com/cells/java/com.aspose.cells/Legend) nesne, gösterge taşınabilir, güncellenebilir ve biçimlendirilebilir.
 
-|![yapılacaklar:resim_alternatif_Metin](chart_legend.png)|
+|![yapılacaklar:resim_alternatif_metin](chart_legend.png)|
 
 ## **Grafiğin Efsanesini Belirleme**
  Aspose.Cells ile grafiğin açıklamasını yönetmek çok kolay[Efsane](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).

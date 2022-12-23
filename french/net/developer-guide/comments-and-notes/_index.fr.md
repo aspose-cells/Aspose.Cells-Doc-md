@@ -13,7 +13,7 @@ Les commentaires sont utilisés pour ajouter des informations supplémentaires a
 
 ## **Ajout d'un commentaire**
 
- Ajouter un commentaire à une cellule en appelant le[**commentaires**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) de la collection[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/add/index) méthode (encapsulée dans la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objet). Le nouveau[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) l'objet est accessible depuis le[**commentaires**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) collection en passant l'index de commentaire. Après avoir accédé au[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) objet, personnalisez la note de commentaire à l'aide de[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) objets[**Noter**](https://reference.aspose.com/cells/net/aspose.cells/comment/properties/note)propriété.
+ Ajouter un commentaire à une cellule en appelant le[**commentaires**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) de la collection[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection/methods/add/index) méthode (encapsulée dans la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objet). Le nouveau[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) l'objet est accessible depuis le[**commentaires**](https://reference.aspose.com/cells/net/aspose.cells/commentcollection) collection en passant l'index de commentaire. Après avoir accédé au[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) objet, personnalisez la note de commentaire à l'aide de[**Commentaire**](https://reference.aspose.com/cells/net/aspose.cells/comment) objets[**Noter**](https://reference.aspose.com/cells/net/aspose.cells/comment/properties/note)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-Comments-AddingComment-1.cs" >}}
 
@@ -30,10 +30,10 @@ Avec Microsoft Excel 2007, il est également possible d'avoir une image comme ar
 1. Cliquez avec le bouton droit sur la cellule qui contient le commentaire.
 1.  Sélectionner**Afficher/Masquer les commentaires**, et effacez tout texte du commentaire.
 1. Cliquez sur la bordure du commentaire pour le sélectionner.
-1.  Sélectionner**Format** , alors**Commentaire**.
+1.  Sélectionner**Format** , ensuite**Commentaire**.
 1.  Sur le**Couleurs et lignes** onglet, développez l'onglet**Couleur** liste.
 1.  Cliquez sur**Effets de remplissage**.
-1.  Sur le**Image** onglet, cliquez**Sélectionnez l'image**.
+1.  Sur le**Photo** onglet, cliquez**Sélectionnez l'image**.
 1. Localisez et sélectionnez l'image.
 1.  Cliquez sur**D'ACCORD** jusqu'à ce que toutes les boîtes de dialogue soient fermées.
 

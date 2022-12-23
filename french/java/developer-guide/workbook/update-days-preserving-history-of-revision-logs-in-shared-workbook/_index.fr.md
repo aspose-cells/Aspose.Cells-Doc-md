@@ -6,7 +6,7 @@ url: /fr/java/update-days-preserving-history-of-revision-logs-in-shared-workbook
 ---
 ## **Scénarios d'utilisation possibles**
 
-Lorsque vous partagez un classeur, vous obtenez une option disant***Conserver l'historique des modifications pendant N jours***comme indiqué dans la capture d'écran suivante. Vous pouvez mettre à jour le nombre de jours de conservation de l'historique en utilisant Aspose.Cells avec[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)propriété.
+Lorsque vous partagez un classeur, vous obtenez une option disant***Conserver l'historique des modifications pendant N jours***comme indiqué dans la capture d'écran suivante. Vous pouvez mettre à jour le nombre de jours de conservation de l'historique en utilisant Aspose.Cells avec[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)la propriété.
 
 ![tâche : image_autre_texte](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 

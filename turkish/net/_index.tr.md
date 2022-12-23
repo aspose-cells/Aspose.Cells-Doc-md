@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/
 is_root: true
-description: C# ile yazılmış güçlü ve hızlı bir Speadsheet programlama kitaplığı. Popüler Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML ve JSON dosya formatlarını destekler ve Excel dosyalarının dışa aktarılmasına izin verir. PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatları.
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil popüler resim biçimleri.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: C# ile yazılmış güçlü ve hızlı bir Speadsheet programlama k
 
 API'ler ve GUI kontrolleriyle birleştiğinde Aspose.Cells for .NET, Microsoft Excel® programlama ve dönüştürmeyi hızlandırır.
 
-Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON，Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatlarına dışa aktarılmasına izin verir.
+Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil olmak üzere popüler resim formatlarına dışa aktarılmasına izin verir.
 
 
 {{% /alert %}}
@@ -43,7 +43,7 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XL
 			<hr><p><a href="/cells/tr/net/getting-started/">Başlarken</a></p></hr>
 			<ul>
 				<li><a href="/cells/tr/net/supported-file-formats/">Desteklenen dosya Biçimleri</a></li>
-				<li><a href="/cells/tr/net/aspose-cells-features/">Özellikler</a></li>
+				<li><a href="/cells/tr/net/aspose-cells-features/">Özellikleri</a></li>
 				<li><a href="/cells/tr/net/system-requirements/">sistem gereksinimleri</a></li>
 				<li><a href="/cells/tr/net/getting-started/#how-to-install">Kurulum</a></li>
 				<li><a href="/cells/tr/net/installation/">Aspose Cells ila NuGet'i yükleyin</a></li>
@@ -58,7 +58,7 @@ Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XL
 	</div>
 	<div class="col-md-4">
 		<p><b>İşlev Geliştirme</b></p>
-			<hr><p><a href="/cells/tr/net/developer-guide/">Kılavuz</a></p></hr>
+			<hr><p><a href="/cells/tr/net/developer-guide/">Rehberlik etmek</a></p></hr>
 			<ul>
 				<li><a href="/cells/tr/net/introduction-of-aspose-cells-for-net/">Aspose.Cells for .NET tanıtımı</a></li>
 				<li><a href="/cells/tr/net/loading-saving-and-managing/">Yükle ve Kaydet</a></li>

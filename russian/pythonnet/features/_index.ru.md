@@ -12,10 +12,10 @@ description: Aspose.Cells for Python via .NET особенности
 
 {{% /alert %}} 
 ## **Форматы файлов и преобразования**
-- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, значения, разделенные запятыми (CSV), HTML, таблица OpenDocument (ODS), PDF, разделители табуляцией, обычный текст (TXT) и популярные форматы изображений, включая TIFF , JPG, PNG, BMP и SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP и SVG.
 ## **Рендеринг и печать**
-- Рендеринг электронных таблиц в векторные изображения (EMF)
-- Рендеринг рабочих листов в растровые изображения (многостраничный TIFF, GIF)
+- Преобразование электронной таблицы в векторные изображения (EMF)
+- Рендеринг рабочих листов в растровые изображения (многостраничные TIFF, GIF)
 - Рендеринг рабочих листов в растровые изображения (PNG, JPEG и т. д.)
 - Рендеринг электронной таблицы в PDF с высокой точностью
 ## **Особенности содержимого электронной таблицы**

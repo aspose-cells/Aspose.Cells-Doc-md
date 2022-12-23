@@ -24,13 +24,13 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-43938) - Supporta l'esportazione del certificato VBA su file o stream
 
- (CELLSNET-43920) - Supporta un'API per verificare se VBAcode è firmato
+ (CELLSNET-43920) - Supporta un API per verificare se VBAcode è firmato
 
  (CELLSNET-43867) - Firma digitalmente progetti/macro VBA
 
  (CELLSNET-44150) - Capacità di lavorare con mappe XML
 
- (CELLSNET-43992) - Supporta la funzionalità di importazione della mappatura XML come avviene dalla scheda Sviluppatore di Excel
+(CELLSNET-43992) - Supporta la funzionalità di importazione della mappatura XML come avviene dalla scheda Sviluppatore di Excel
 
 
 ## **Miglioramenti**
@@ -46,7 +46,7 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44167) - Supporta la funzione ISOWEEKNUM MS Excel 2013
 
-(CELLSNET-44166) - Il segno digitale VBA viene perso durante la conversione (da XLSB a XLSM)
+ (CELLSNET-44166) - Il segno digitale VBA viene perso durante la conversione (da XLSB a XLSM)
 
 
 ## **Prestazione**
@@ -64,25 +64,25 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) - Struttura HTML incompleta durante il salvataggio in un flusso
 
- (CELLSNET-44147) - L'aggiornamento della tabella pivot genera un file excel corrotto
+(CELLSNET-44147) - L'aggiornamento della tabella pivot genera un file excel corrotto
 
  (CELLSNET-44022) - Workbook.Copy non conserva la formattazione per le tabelle pivot
 
  (CELLSNET-44139) - Valori diversi per la stessa cella prima e dopo la chiamata al metodo CalculateFormula()
 
- (CELLSNET-44135) - Il file Excel non viene calcolato correttamente (completamente) (per quanto riguarda i grafici) prima della generazione del PDF
+ (CELLSNET-44135) - Il file Excel non viene calcolato correttamente (completamente) (per quanto riguarda i grafici) prima della generazione PDF
 
  (CELLSNET-44138) - Cell l'ombreggiatura si sovrappone al bordo causandone l'assottigliamento
 
- (CELLSNET-44136) - Excel mostra una pagina nell'anteprima di stampa in cui Aspose.Cells esegue il rendering delle pagine PDF
+ (CELLSNET-44136) - Excel mostra una pagina nell'anteprima di stampa in cui Aspose.Cells esegue il rendering su PDF pagine
 
-(CELLSNET-44122) - Il rendering delle immagini nei fogli non è uguale a quello del file Excel modello originale
+ (CELLSNET-44122) - Il rendering delle immagini nei fogli non è uguale a quello del file Excel modello originale
 
  (CELLSNET-43587) - Cell L'area si sovrappone al bordo Cell durante la conversione del foglio di calcolo in PDF
 
  (CELLSNET-44171) - CopyData tra intervalli non funziona in orizzontale ma funziona correttamente in verticale
 
- (CELLSNET-44153) - Da XLSB a XLSM non funziona correttamente e produce file danneggiati
+(CELLSNET-44153) - da XLSB a XLSM non funziona correttamente e produce un file danneggiato
 
  (CELLSNET-44149) - OleObjects viene rimosso dopo la conversione da XLSB a XLSM
 
@@ -94,9 +94,9 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44160) - L'asse orizzontale è stato modificato con etichette diverse rispetto al file iniziale
 
- (CELLSNET-44157) - L'asse x principale del grafico personalizzato è stato modificato dopo l'apertura e il nuovo salvataggio del file XLSX del modello
+ (CELLSNET-44157) - L'asse x principale del grafico personalizzato è stato modificato dopo l'apertura e il nuovo salvataggio del file modello XLSX
 
-(CELLSNET-43910) - L'estrazione dell'immagine dal foglio di lavoro e l'inserimento nel file del documento la rende incompleta
+ (CELLSNET-43910) - L'estrazione dell'immagine dal foglio di lavoro e l'inserimento nel file del documento la rende incompleta
 
 
 ## **Eccezioni**
@@ -106,7 +106,7 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) - System.IndexOutOfRangeException in PivotTable.CalculateData
 
- (CELLSNET-44064) - CalculateFormula genera un'eccezione sull'xlsm di origine
+(CELLSNET-44064) - CalculateFormula genera un'eccezione sull'xlsm di origine
 
  (CELLSNET-44055) - Aspose.Cell. Eccezione causata dalla conversione pdf a causa dell'impostazione della preferenza di memoria
 
@@ -120,7 +120,7 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -133,10 +133,10 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
  (CELLSNET-44113) - Il testo della riga di intestazione viene visualizzato anche all'interno dei valori del filtro
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -152,7 +152,7 @@ url: /it/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Elimina la proprietà Workbook.SaveOptions obsoleta.
+ Elimina la proprietà Workbook.SaveOptions obsoleta.
 
  Usare invece il metodo Workbook.Save(Stream,SaveOptions) o Workbook.Save(string,SaveOptions).
 
@@ -164,7 +164,7 @@ Elimina la proprietà Workbook.SaveOptions obsoleta.
 
 
 
- Aggiunge la proprietà Proptection.IsProtectedWithPassword.
+Aggiunge la proprietà Proptection.IsProtectedWithPassword.
 
  Indica se il foglio di lavoro è protetto da password.
 
@@ -172,7 +172,7 @@ Elimina la proprietà Workbook.SaveOptions obsoleta.
 
  Aggiunge il metodo VbaProject.Sign.
 
-Firma il progetto VBA con una firma digitale.
+ Firma il progetto VBA con una firma digitale.
 
 
 

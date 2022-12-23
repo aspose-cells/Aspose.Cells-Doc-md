@@ -16,7 +16,7 @@ La siguiente captura de pantalla muestra la[archivo de plantilla](5472556.xlsx) 
 
 ![todo:imagen_alternativa_texto](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-La siguiente captura de pantalla muestra la[PDF de salida](5472554.pdf) que se puede descargar desde el enlace dado. Aquí puede ver que los datos en color rojo y fondo amarillo no están presentes, pero todas las formas están ahí.
+La siguiente captura de pantalla muestra la[salida PDF](5472554.pdf) que se puede descargar desde el enlace dado. Aquí puede ver que los datos en color rojo y fondo amarillo no están presentes, pero todas las formas están ahí.
 
 ![todo:imagen_alternativa_texto](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

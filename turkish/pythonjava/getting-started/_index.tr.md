@@ -8,7 +8,7 @@ keywords: python, excel, instal
 description: Kurulum Aspose.Cells for Python via Java ve kurulum yönergeleri.
 ---
 ## **sistem gereksinimleri**
-Aspose.Cells for Python via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur. Kurulum yapılmadan önce makinenin Java 8 veya üzeri sürümleri olmalıdır.
+ Aspose.Cells for Python via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Python](https://www.python.org/downloads/) kurulur. Kurulum yapılmadan önce makinenin Java 8 veya üzeri sürümleri olmalıdır.
 
 ## **Python Versiyon**
 - Python 3.5 veya üstü

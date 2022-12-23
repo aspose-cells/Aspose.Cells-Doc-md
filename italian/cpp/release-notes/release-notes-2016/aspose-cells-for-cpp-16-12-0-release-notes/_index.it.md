@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /it/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 ---
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSPORTINGC-432|Applicare la formattazione condizionale alle celle|Nuova caratteristica|
 |CELLSPORTINGC-433|Lettura/scrittura di proprietà documento personalizzate|Nuova caratteristica|
@@ -16,8 +16,8 @@ url: /it/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-439|Aggiungi oggetto tabella/elenco al foglio di lavoro|Nuova caratteristica|
 |CELLSPORTINGC-426|Problema di licenza con le API Aspose.Cells for C++|Insetto|
 |CELLSPORTINGC-425|Ottimizza le prestazioni del salvataggio dei file XLS|Miglioramento|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for C++. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Rinomina il metodo ICell::SetStyle in ICell::SetIStyle**
 #### **Rinomina il metodo ICell::SetCharacters in ICell::SetIFontSettings**
 #### **Rinomina il metodo ICellsColor::SetThemeColor in ICellsColor::SetIThemeColor**

@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /ar/reportingservices/delimiters/
 ---
-Aspose.Cells for Reporting Services يدعم المحدد المحدد عند تحويل نسق TXT أو CSV. يتحكم إعدادان في محدد المجال في Aspose.Cells for Reporting Services.
+Aspose.Cells for Reporting Services يدعم المحدد المحدد عند تحويل تنسيق TXT أو CSV. يتحكم إعدادان في محدد المجال في Aspose.Cells for Reporting Services.
 
 1.  معلمة محدد الحقل في**rsreportserver.config** يمكن فقط التحكم في امتداد العرض المحدد.
 
@@ -64,7 +64,7 @@ Specified field delimiters configuration reference:
 
 
 
-1.  معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يمكنه التحكم في جميع امتدادات عرض نوع TXT.
+1.  معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يمكن التحكم في جميع امتدادات تجسيد نوع TXT.
 
 {{< highlight "java" >}}
 
@@ -87,4 +87,4 @@ Specified field delimiters configuration reference:
 
 {{< /highlight >}}
 
- معلمة محدد الحقل في**rsreportserver.config** له الأولوية على معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** عندما تكون معلمة محدد الحقل في**rsreportserver.config** هي القيمة الخالية أو القيمة الافتراضية ، فإن معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يستخدم.
+ معلمة محدد الحقل في**rsreportserver.config** له الأولوية على معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** . عندما تكون معلمة محدد الحقل في**rsreportserver.config** هي القيمة الخالية أو القيمة الافتراضية ، فإن معلمة محدد الحقل في**Aspose.Cells.ReportingServices.xml** يستخدم.

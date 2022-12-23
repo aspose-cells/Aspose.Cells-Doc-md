@@ -14,6 +14,6 @@ url: /it/net/send-shape-front-or-back-inside-the-worksheet/
 
 ![cose da fare:immagine_alt_testo](send-shape-front-or-back-inside-the-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-SendShapeFrontOrBackInWorksheet.cs" >}}

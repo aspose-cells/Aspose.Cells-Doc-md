@@ -8,7 +8,7 @@ url: /tr/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 Bazen çalışma sayfasına bazı gerekli şekilleri eklemeniz gerekir. Aynı şekli çalışma sayfasının farklı konumlarına eklemeniz gerekebilir. Veya çalışma sayfasına toplu olarak şekiller eklemeniz gerekebilir.
 
- Üzülmeyin![Aspose.Cells](https://products.aspose.com/cells/) tüm bu işlemleri destekler.
+ Endişelenme![Aspose.Cells](https://products.aspose.com/cells/)tüm bu işlemleri destekler.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Excel'deki şekiller temel olarak aşağıdaki türlere ayrılır:
 - **Yıldızlar ve Afişler**
 - **açıklamalar**
 
-Bu kılavuz belge, numune yapmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, nasıl kullanılacağını öğreneceksiniz.[Aspose.Cells](https://products.aspose.com/cells/) Belirtilen şekli çalışma sayfasına eklemek için.
+ Bu kılavuz belge, numune yapmak için her türden bir veya iki şekil seçecektir. Bu örnekler aracılığıyla, nasıl kullanılacağını öğreneceksiniz.[Aspose.Cells](https://products.aspose.com/cells/) Belirtilen şekli çalışma sayfasına eklemek için.
 
 
 
@@ -62,7 +62,7 @@ Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
 
 ## **Çalışma Sayfasına çizgi oku ekleme**
 
- Çizgi okunun şekli şuna aittir:**çizgiler**kategori. Çizginin özel bir halidir.
+ Çizgi okunun şekli şuna aittir:**çizgiler** kategori. Çizginin özel bir halidir.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
@@ -130,7 +130,7 @@ Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
 
 ## **Çalışma Sayfasına Küp Ekleme**
 
- Küpün şekli şuna aittir:**Basit şekiller** kategori.
+Küpün şekli şuna aittir:**Basit şekiller** kategori.
 
 ***Microsoft Excel'de (örneğin 2007):***
 
@@ -232,7 +232,7 @@ Yukarıdaki kodu yürütün, aşağıdaki sonuçları alacaksınız:
 
 ## **Çalışma Sayfasına çoklu belge ekleme**
 
-Çoklu belgenin şekli şuna aittir:**Akış Şemaları** kategori.
+ Çoklu belgenin şekli şuna aittir:**Akış Şemaları** kategori.
 
 ***Microsoft Excel'de (örneğin 2007):***
 

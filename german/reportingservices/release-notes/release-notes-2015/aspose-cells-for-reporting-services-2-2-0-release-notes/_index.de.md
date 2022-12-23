@@ -58,7 +58,7 @@ Bitte begrüßen Sie eine neue Version von Aspose.Cells for Reporting Services V
 
 (SSRS-40185) Item Impact Analysis Report – Der Abstand oben im Bericht, zwischen dem Titel und der Tabelle ist größer und der Abstand zwischen den beiden Überschriften oben ist kleiner.
 
-(SSRS-40184) Integritätsindexbericht – Der Bericht wird nicht in XLSX exportiert und gibt folgende Fehlermeldung aus: „Beim Exportieren des Berichts ist ein Fehler aufgetreten.“
+(SSRS-40184) Integritätsindexbericht – Der Bericht wird in XLSX nicht exportiert und gibt den Fehler aus: „Beim Exportieren des Berichts ist ein Fehler aufgetreten.“
 
 (SSRS-40183) Dashboard-Bericht – Im vierten Quad ist viel Platz zwischen dem Text und den Kategorien „Improve“, „Sustain“ und „Monitor“.
 
@@ -86,7 +86,7 @@ Bitte begrüßen Sie eine neue Version von Aspose.Cells for Reporting Services V
 
 (SSRS-40170) Das Popup „Excel hat unlesbaren Inhalt gefunden...“ erscheint in den Berichten, die Unterberichte verwenden
 
-(SSRS-40169) Sichtbare gruppierte Zeilen in der exportierten Excel-Datei ausgeblendet (XLSX)
+(SSRS-40169) Sichtbare gruppierte Zeilen werden in der exportierten Excel-Datei ausgeblendet (XLSX)
 
 (SSRS-40168) Zeilengruppierungen gehen im gerenderten XLSX-Dateiformat verloren
 

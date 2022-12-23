@@ -9,7 +9,7 @@ url: /es/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or
 
  Por favor descarga el[ejemplo de archivo de Excel](5115193.xlsx) utilizado en el siguiente código de muestra y vea su salida de consola. Si abres el[ejemplo de archivo de Excel](5115193.xlsx) , encontrará, todos los puntos de datos que son menos de 10 están dentro de la barra de*barra de pastel*gráfico como también se muestra en la salida de la consola.
 ## **Averigüe si los puntos de datos están en el segundo pastel o barra en un gráfico circular de pastel o de barra de pastel**
- El siguiente código de ejemplo muestra cómo encontrar si los puntos de datos están en el segundo gráfico circular o en la barra de un*pastel de pastel* o*barra de pastel*cuadro.
+ El siguiente código de ejemplo muestra cómo encontrar si los puntos de datos están en el segundo gráfico circular o en la barra de un*pastel de pastel* o*barra de pastel*gráfico.
 
 
 

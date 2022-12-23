@@ -13,17 +13,17 @@ url: /sv/net/aspose-cells-for-net-21-1-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47376|Release Aspose.Cells for .NET 5.0|Ny funktion|
-|CELLSNET-40624| Hur man byter rad/kolumndataserie med aspose|Ny funktion|
+|CELLSNET-40624|Hur man byter rad/kolumndataserie med aspose|Ny funktion|
 |CELLSNET-42195|Konvertera kontroll från xlsm till xls|Ny funktion|
 |CELLSNET-47806|Hämtar datakällans intervall för diagrammet.|Ny funktion|
 |CELLSNET-47756|SmartArt-former renderas inte bra i Excel till PDF-konvertering|Insekt|
 |CELLSNET-47391|Former är inte korrekt placerade i excel till pdf-konverteringar|Insekt|
 |CELLSNET-47766|Pildiagrammet är ofullständigt|Insekt|
-|CELLSNET-47653|Diagram block flyttas vid konvertering till HTML|Insekt|
-|CELLSNET-47720|Ogiltig CSS- och HTML-uppmärkning vid konvertering av XLSX till HTML|Insekt|
-|CELLSNET-47746|Okodade citattecken i värden för HTML-attribut|Insekt|
+|CELLSNET-47653|Diagram block skiftas vid konvertering till HTML|Insekt|
+|CELLSNET-47720|Ogiltig CSS och HTML uppmärkning vid konvertering av XLSX till HTML|Insekt|
+|CELLSNET-47746|Okodade citattecken i värden för HTML attribut|Insekt|
 |CELLSNET-47792|Bilder överlappar texten när du importerar html till Excel|Insekt|
-|CELLSNET-47797|Dålig länk när XLSM-fil renderas i HTML|Insekt|
+|CELLSNET-47797|Dålig länk när XLSM-filen renderas i HTML|Insekt|
 |CELLSNET-47807|Ogiltig HTML-uppmärkning med kapslade A-element|Insekt|
 |CELLSNET-47778|IRR-beräkning utvärderas till #NUM|Insekt|
 |CELLSNET-47814|GridDesktop rullningslister är inte dolda|Insekt|

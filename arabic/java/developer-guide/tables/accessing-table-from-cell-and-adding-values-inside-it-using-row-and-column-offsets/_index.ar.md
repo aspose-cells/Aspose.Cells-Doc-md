@@ -16,7 +16,7 @@ url: /ar/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-an
 
 ### لقطات تقارن المصدر والملفات الناتجة
 
- تُظهر لقطة الشاشة التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على الجدول الفارغ ويبرز الخلية D5 الموجودة داخل الجدول. سنصل إلى هذا الجدول من الخلية D5 باستخدام[**Cell.getTable ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) ثم أضف القيم بداخلها باستخدام كليهما[**Cell.putValue ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) و[**ListObject.putCellValue (rowOffset ، columnOffset ، value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) طُرق.
+ تُظهر لقطة الشاشة التالية ملف Excel المصدر المستخدم داخل الكود. يحتوي على الجدول الفارغ ويبرز الخلية D5 الموجودة داخل الجدول. سنصل إلى هذا الجدول من الخلية D5 باستخدام[**Cell.getTable ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getTable() ) ثم أضف القيم بداخلها باستخدام كليهما[**Cell.putValue ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#putValue(boolean) ) و[**ListObject.putCellValue (rowOffset ، columnOffset ، value)**](https://reference.aspose.com/cells/java/com.aspose.cells/listobject#putCellValue(int,%20int,%20java.lang.Object)) أساليب.
 
 ![ما يجب القيام به: image_بديل_نص](accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets_1.png)
 

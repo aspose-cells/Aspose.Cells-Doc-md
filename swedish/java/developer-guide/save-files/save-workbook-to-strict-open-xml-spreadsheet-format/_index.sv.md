@@ -6,7 +6,7 @@ url: /sv/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Möjliga användningsscenarier**
 
-Aspose.Cells låter dig spara arbetsboken i*Strikt öppet XML-kalkylblad*formatera. För detta ändamål tillhandahåller den**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**fast egendom. Om du ställer in dess värde som**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** , då sparas den utgående Excel-filen i*Strikt öppet XML-kalkylblad* formatera.
+Aspose.Cells låter dig spara arbetsboken i*Strikt öppet XML-kalkylblad*formatera. För detta ändamål tillhandahåller den**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**fast egendom. Om du ställer in dess värde som**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** då sparas den utgående Excel-filen i*Strikt öppet XML-kalkylblad* formatera.
 
 ## **Spara arbetsboken i strikt öppet XML-kalkylbladsformat**
 

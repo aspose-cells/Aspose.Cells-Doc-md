@@ -7,7 +7,7 @@ url: /it/java/add-images-in-spreadsheet-in-xlsx4j/
 ## **Aspose.Cells - Aggiungi immagini nel foglio di calcolo**
 La classe Picture è disponibile per gestire le immagini nel foglio di lavoro
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -29,7 +29,7 @@ Picture picture = sheet.getPictures().get(pictureIndex);
 ## **xlsx4j - Aggiungi immagini nel foglio di calcolo**
 La classe di disegno è disponibile per gestire le immagini nel foglio di lavoro
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

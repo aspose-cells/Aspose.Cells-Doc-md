@@ -4,7 +4,7 @@ type: docs
 weight: 70
 url: /tr/java/detecting-circular-reference/
 ---
-## **giriiş**
+## **Giriş**
 
 Çalışma kitaplarında döngüsel referanslar olabilir ve bazen döngüsel referansların olup olmadığını tespit etmek gerekir.
 

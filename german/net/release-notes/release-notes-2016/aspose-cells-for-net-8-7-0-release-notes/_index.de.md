@@ -30,23 +30,23 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150) – Fähigkeit, mit XML-Maps zu arbeiten
 
- (CELLSNET-43992) – Unterstützt die XML-Mapping-Importfunktion, wie sie auf der Excel-Registerkarte „Entwickler“ erfolgt
+(CELLSNET-43992) – Unterstützt die XML-Mapping-Importfunktion, wie sie auf der Excel-Registerkarte „Entwickler“ erfolgt
 
 
 ## **Verbesserungen**
 
 
- (CELLSNET-43878) – VBA-Digitalzeichen gehen während der Konvertierung verloren (XLSM in XLS)
+ (CELLSNET-43878) – VBA-Digitalzeichen gehen während der Konvertierung verloren (XLSM zu XLS)
 
  (CELLSNET-43160) – Das VBA-Projekt verliert die digitale Signatur, wenn xls als xlsm-Dateiformat gespeichert wird
 
  (CELLSNET-44169) – Die Anordnung des Arrays „Validation.Value1“ unterscheidet sich von der in Excel angezeigten
 
-(CELLSNET-44168) – Bedingte Formatierung mit 2-Farbskala kann nicht erstellt werden
+ (CELLSNET-44168) – Bedingte Formatierung mit 2-Farbskala kann nicht erstellt werden
 
  (CELLSNET-44167) – Unterstützt die Funktion ISOWEEKNUM MS Excel 2013
 
- (CELLSNET-44166) – VBA-Digitalzeichen gehen während der Konvertierung verloren (XLSB zu XLSM)
+ (CELLSNET-44166) - VBA-Digitalzeichen gehen während der Konvertierung verloren (XLSB zu XLSM)
 
 
 ## **Leistung**
@@ -64,27 +64,27 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) – Unvollständige HTML-Struktur beim Speichern in einem Stream
 
- (CELLSNET-44147) – Beim Aktualisieren der Pivot-Tabelle wird eine beschädigte Excel-Datei generiert
+(CELLSNET-44147) – Beim Aktualisieren der Pivot-Tabelle wird eine beschädigte Excel-Datei generiert
 
  (CELLSNET-44022) – Workbook.Copy behält die Formatierung für Pivot-Tabellen nicht bei
 
  (CELLSNET-44139) – Unterschiedliche Werte für dieselbe Zelle vor und nach dem Aufruf der Methode CalculateFormula()
 
- (CELLSNET-44135) – Excel-Datei wird vor der PDF-Generierung nicht richtig (vollständig) berechnet (in Bezug auf Diagramme).
+ (CELLSNET-44135) – Excel-Datei wird vor der Generierung von PDF nicht richtig (vollständig) berechnet (in Bezug auf Diagramme).
 
-(CELLSNET-44138) - Die Cell-Schattierung überlappt die Grenze, wodurch die Grenze ausgedünnt wird
+ (CELLSNET-44138) - Die Cell-Schattierung überlappt die Grenze, wodurch die Grenze ausgedünnt wird
 
- (CELLSNET-44136) – Excel zeigt eine Seite in der Druckvorschau, auf der Aspose.Cells in PDF-Seiten gerendert wird
+ (CELLSNET-44136) – Excel zeigt eine Seite in der Druckvorschau an, auf der Aspose.Cells auf PDF Seiten gerendert wird
 
  (CELLSNET-44122) – Bilder in den Blättern werden nicht so gerendert wie in der ursprünglichen Excel-Vorlagendatei
 
- (CELLSNET-43587) - Der Cell-Bereich überlappt den Cell-Rand, während die Tabelle in PDF konvertiert wird
+ (CELLSNET-43587) - Der Cell-Bereich überlappt die Cell-Grenze, während die Tabelle in PDF konvertiert wird
 
  (CELLSNET-44171) – CopyData zwischen Bereichen funktioniert nicht horizontal, aber vertikal einwandfrei
 
- (CELLSNET-44153) – XLSB zu XLSM funktioniert nicht richtig und erzeugt beschädigte Dateien
+(CELLSNET-44153) - XLSB bis XLSM funktioniert nicht richtig und erzeugt beschädigte Dateien
 
- (CELLSNET-44149) – OleObjects werden nach der Konvertierung von XLSB zu XLSM entfernt
+ (CELLSNET-44149) – OleObjects werden nach der Konvertierung von XLSB in XLSM entfernt
 
  (CELLSNET-44146) – Ergebnisse der bedingten Formatierung werden in PDF nicht richtig gerendert
 
@@ -92,9 +92,9 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141) – Die primäre Kategorieachse des Diagramms wird beim erneuten Speichern der Excel-Quelldatei falsch angezeigt
 
-(CELLSNET-44160) – Die horizontale Achse wurde auf andere Beschriftungen als die ursprüngliche Datei geändert
+ (CELLSNET-44160) – Die horizontale Achse wurde auf andere Beschriftungen als die ursprüngliche Datei geändert
 
- (CELLSNET-44157) – Die primäre X-Achse des benutzerdefinierten Diagramms wurde nach dem Öffnen und erneuten Speichern der XLSX-Vorlagendatei geändert
+ (CELLSNET-44157) – Die primäre x-Achse des benutzerdefinierten Diagramms wurde nach dem Öffnen und erneuten Speichern der Vorlagendatei XLSX geändert
 
  (CELLSNET-43910) – Das Extrahieren des Bildes aus dem Arbeitsblatt und das Einfügen in die Dokumentdatei macht es unvollständig
 
@@ -106,7 +106,7 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) – System.IndexOutOfRangeException bei PivotTable.CalculateData
 
- (CELLSNET-44064) – CalculateFormula löst eine Ausnahme auf Quell-xlsm aus
+(CELLSNET-44064) – CalculateFormula löst eine Ausnahme auf Quell-xlsm aus
 
  (CELLSNET-44055) - Aspose.Cell.Ausnahme verursacht durch PDF-Konvertierung aufgrund der Speicherpräferenzeinstellung
 
@@ -120,7 +120,7 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -128,7 +128,7 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Fehler**
 
 
-(CELLSNET-44151) – JavaScript wird beim Löschen von Inhalten aus der GridWeb-Zelle nicht ausgelöst
+ (CELLSNET-44151) – JavaScript wird beim Löschen von Inhalten aus der GridWeb-Zelle nicht ausgelöst
 
  (CELLSNET-44113) – Kopfzeilentext erscheint auch innerhalb der Filterwerte
 
@@ -152,7 +152,7 @@ url: /de/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Löscht die veraltete Workbook.SaveOptions-Eigenschaft.
+ Löscht die veraltete Workbook.SaveOptions-Eigenschaft.
 
  Verwenden Sie stattdessen die Methode Workbook.Save(Stream,SaveOptions) oder Workbook.Save(string,SaveOptions).
 
@@ -164,7 +164,7 @@ Löscht die veraltete Workbook.SaveOptions-Eigenschaft.
 
 
 
- Fügt die Proptection.IsProtectedWithPassword-Eigenschaft hinzu.
+Fügt die Proptection.IsProtectedWithPassword-Eigenschaft hinzu.
 
  Gibt an, ob das Arbeitsblatt mit einem Kennwort geschützt ist.
 

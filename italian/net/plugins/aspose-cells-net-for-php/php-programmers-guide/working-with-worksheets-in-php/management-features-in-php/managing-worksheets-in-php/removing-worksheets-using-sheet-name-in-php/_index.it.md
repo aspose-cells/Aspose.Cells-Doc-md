@@ -33,6 +33,6 @@ Rimozione di fogli di lavoro utilizzando il nome del foglio
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Rimozione di fogli di lavoro utilizzando il nome del foglio (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Rimozione di fogli di lavoro utilizzando il nome del foglio (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/RemovingWorksheetsUsingSheetName.php)

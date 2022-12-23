@@ -16,7 +16,7 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services デザイナーは、Excel でのマトリックス テンプレートの作成をサポートします。
 - テーブルおよびマトリックス レポート アイテムの条件付き書式設定をサポートします。
-- SQL Server 2008 Reporting Services の CSV および TXT 形式専用のレンダリング Tablix レポート アイテムを追加します。
+- SQL Server 2008 Reporting Services の CSV および TXT 形式のレンダリング Tablix レポート アイテムのみを追加します。
 
 変更点
 

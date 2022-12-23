@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.3.2
+title: Pubblico API Modifiche Aspose.Cells 8.3.2
 type: docs
 weight: 120
 url: /it/net/public-api-changes-in-aspose-cells-8-3-2/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.3.1 alla 8.3.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.1 alla 8.3.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-3-2/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -61,7 +61,7 @@ pic.SignatureLine = s;
 
 
 ### **Metodo Chart.HasAxis Aggiunto**
-Con il rilascio della versione v8.3.2, l'API Aspose.Cells ha fornito il metodo Chart.HasAxis(AxisType axisType, bool isPrimary) per determinare se il grafico dispone o meno di un determinato asse.
+Con il rilascio di v8.3.2, il Aspose.Cells API ha fornito il metodo Chart.HasAxis(AxisType axisType, bool isPrimary) per determinare se il grafico ha o meno un asse particolare.
 
 Il seguente codice di esempio illustra l'utilizzo del metodo Chart.HasAxis per determinare se il grafico di esempio ha l'asse Primario, Secondario e Valore.
 
@@ -177,15 +177,15 @@ Il metodo appena aggiunto Worksheet.RefreshPivotTables consente di aggiornare tu
 
 
 ### **Metodo Workbook.GetNamedStyle Aggiunto**
-Aspose.Cells for .NET L'API ha esposto il metodo Workbook.GetNamedStyle che accetta la stringa come parametro e recupera l'oggetto Style in base al parametro passato.
+Aspose.Cells for .NET API ha esposto il metodo Workbook.GetNamedStyle che accetta la stringa come parametro e recupera l'oggetto Style in base al parametro passato.
 ### **Metodo Cells.ImportTwoDimensionArray aggiunto**
-Aspose.Cells for .NET L'API ha reso possibile l'importazione di array bidimensionali nelle celle del foglio di calcolo esponendo il metodo Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Il suddetto metodo importa una matrice di dati a due dimensioni in un foglio di lavoro con opzioni più flessibili definite in TxtLoadOptions.
+Aspose.Cells for .NET API ha reso possibile l'importazione di array bidimensionali nelle celle del foglio di calcolo esponendo il metodo Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions). Il suddetto metodo importa una matrice di dati a due dimensioni in un foglio di lavoro con opzioni più flessibili definite in TxtLoadOptions.
 ### **Proprietà OnePagePerSheet, PageIndex e PageCount aggiunto**
-Aspose.Cells for .NET 8.3.2 ha esposto le proprietà OnePagePerSheet, PageIndex e PageCount per la classe XpsSaveOptions. L'utente può inserire tutti i contenuti di un foglio di calcolo in una singola pagina di XPS utilizzando la proprietà OnePagePerSheet e/o recuperare il numero di pagine da stampare utilizzando la proprietà PageCount. La proprietà PageIndex ottiene/imposta l'indice in base 0 della prima pagina da salvare.
+Aspose.Cells for .NET 8.3.2 ha esposto le proprietà OnePagePerSheet, PageIndex e PageCount per la classe XpsSaveOptions. L'utente può inserire tutto il contenuto di un foglio di calcolo in una singola pagina di XPS utilizzando la proprietà OnePagePerSheet e/o recuperare il numero di pagine da stampare utilizzando la proprietà PageCount. La proprietà PageIndex ottiene/imposta l'indice in base 0 della prima pagina da salvare.
 ### **Proprietà NumberDecimalSeparator e NumberGroupSeparator aggiunti**
 Aspose.Cells for .NET 8.3.2 ha introdotto le proprietà NumberDecimalSeparator e NumberGroupSeparator che possono ottenere/impostare i separatori personalizzati utilizzati per la formattazione e l'analisi dei valori numerici nei fogli di calcolo.
 
-Il codice di esempio seguente illustra come specificare i separatori personalizzati utilizzando l'API Aspose.Cells. Il codice seguente specifica i separatori decimali e di gruppo personalizzati rispettivamente come punto e spazio.
+Il codice di esempio seguente illustra come specificare i separatori personalizzati utilizzando Aspose.Cells API. Il codice seguente specifica i separatori decimali e di gruppo personalizzati rispettivamente come punto e spazio.
 
 **C#**
 
@@ -220,7 +220,7 @@ opts.IsFontSubstitutionCharGranularity = true;
 
 ## **API rimosse**
 ### **Metodi obsoleti rimossi**
-seguenti metodi sono stati rimossi dall'API pubblica.
+seguenti metodi sono stati rimossi dal pubblico API.
 
 - Metodi Workbook.Open e Workbook.Save.
 - Metodo Workbook.SetOleSize.
@@ -228,7 +228,7 @@ seguenti metodi sono stati rimossi dall'API pubblica.
 - Metodi WorkbookDesigner.Open e WorkbookDesigner.Save.
 - Metodo WorksheetCollection.DeleteName.
 ### **Proprietà obsolete rimosse**
-Le seguenti proprietà sono state rimosse dall'API pubblica.
+Le seguenti proprietà sono state rimosse dal pubblico API.
 
 - Proprietà Workbook.IsProtected.
 - Proprietà Workbook.Language.
@@ -270,4 +270,4 @@ Un oggetto di SaveOptions deve essere passato al metodo Workbook.Save dopo aver 
 ### **Property Workbook.Styles & Class StyleCollection Obsoleto**
 Si consiglia di usare il metodo Workbook.CreateStyle per creare e modificare lo stile per l'istanza di Workbook invece di creare uno Style con il metodo StyleCollection.Add. Inoltre, il metodo Workbook.GetNamedStyle(string) può essere utilizzato per ottenere uno stile con nome invece di StyleCollection[string].
 ### **Metodo PivotItem.Move(int count) Obsoleto**
-Con il rilascio di Aspose.Cells 8.3.2, l'API ha introdotto un altro overload del metodo PivotItem.Move che accetta il parametro integer per il conteggio e il parametro booleano per spostare un PivotItem all'interno del nodo padre.
+Con il rilascio di Aspose.Cells 8.3.2, API ha introdotto un altro overload del metodo PivotItem.Move che accetta il parametro integer per il conteggio e il parametro booleano per spostare un PivotItem all'interno del nodo padre.

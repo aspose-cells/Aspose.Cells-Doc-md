@@ -7,11 +7,11 @@ url: /fr/java/data-formatting/
 ## **Approches pour formater les données dans Cells**
 C'est un fait commun que si les cellules de la feuille de calcul sont correctement formatées, il devient plus facile pour les utilisateurs de lire le contenu (données) de la cellule. Il existe de nombreuses façons de formater les cellules et leur contenu. Le moyen le plus simple consiste à formater les cellules à l'aide d'Excel Microsoft dans un environnement WYSIWYG lors de la création d'une feuille de calcul Designer. Une fois la feuille de calcul du concepteur créée, vous pouvez ouvrir la feuille de calcul à l'aide de Aspose.Cells en conservant tous les paramètres de format enregistrés avec la feuille de calcul. Une autre façon de formater les cellules et leur contenu consiste à utiliser Aspose.Cells API. Dans cette rubrique, nous décrirons deux approches pour formater les cellules et leur contenu avec l'utilisation de Aspose.Cells API.
 ### **Formatage Cells**
- Les développeurs peuvent formater les cellules et leur contenu à l'aide du flexible API de Aspose.Cells. Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe fournit une collection Cells. Chaque élément de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)collection représente un objet de**Cell** classer.
+ Les développeurs peuvent formater les cellules et leur contenu à l'aide du flexible API de Aspose.Cells. Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe fournit une collection Cells. Chaque élément de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)collection représente un objet de**Cell** classe.
 
  Aspose.Cells fournit le[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) propriété dans le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe, utilisée pour définir le style de formatage d'une cellule. De plus, Aspose.Cells fournit également un[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) classe qui est utilisée pour servir le même but. Appliquez différents types de styles de mise en forme sur les cellules pour définir leurs couleurs d'arrière-plan ou de premier plan, les bordures, les polices, les alignements horizontaux et verticaux, le niveau d'indentation, la direction du texte, l'angle de rotation et bien plus encore.
 #### **Utilisation de la méthode setStyle**
- Lorsque vous appliquez différents styles de mise en forme à différentes cellules, il est préférable d'utiliser la méthode setStyle du[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer. Un exemple est donné ci-dessous pour démontrer l'utilisation de la méthode setStyle pour appliquer divers paramètres de mise en forme sur une cellule.
+ Lorsque vous appliquez différents styles de mise en forme à différentes cellules, il est préférable d'utiliser la méthode setStyle du[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe. Un exemple est donné ci-dessous pour démontrer l'utilisation de la méthode setStyle pour appliquer divers paramètres de mise en forme sur une cellule.
 
 
 
@@ -76,15 +76,15 @@ Comme vous pouvez le voir sur la figure ci-dessus, il existe différents types d
 
 Tous ces paramètres d'alignement sont entièrement pris en charge par Aspose.Cells et sont discutés plus en détail ci-dessous.
 ### **Configuration des paramètres d'alignement**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
- La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer.
+ La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe.
 
-Aspose.Cells fournit la méthode setStyle dans le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe utilisée pour la mise en forme d'une cellule. La[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) La classe fournit des propriétés utiles pour configurer les paramètres de police.
+Aspose.Cells fournit la méthode setStyle dans le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe utilisée pour la mise en forme d'une cellule. Le[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) La classe fournit des propriétés utiles pour configurer les paramètres de police.
 
 Sélectionnez n'importe quel type d'alignement de texte à l'aide de l'énumération TextAlignmentType. Les types d'alignement de texte prédéfinis dans l'énumération TextAlignmentType sont :
 
-|**Types d'alignement de texte**|**La description**|
+|**Types d'alignement de texte**|**Description**|
 |:- |:- |
 |Fond|Représente l'alignement du texte inférieur|
 |Centre|Représente l'alignement du texte au centre|
@@ -93,7 +93,7 @@ Sélectionnez n'importe quel type d'alignement de texte à l'aide de l'énuméra
 |Remplir|Représente l'alignement du texte de remplissage|
 |Général|Représente l'alignement général du texte|
 |Justifier|Représente l'alignement du texte justifié|
-|La gauche|Représente l'alignement du texte à gauche|
+|Gauche|Représente l'alignement du texte à gauche|
 |Droit|Représente l'alignement du texte à droite|
 |Haut|Représente l'alignement supérieur du texte|
 {{% alert color="primary" %}} 
@@ -243,9 +243,9 @@ Il est possible de définir l'ordre de lecture du texte dans les cellules. L'ord
 
  L'ordre de lecture est défini avec le[Style](https://reference.aspose.com/cells/java/com.aspose.cells/style) propriété TextDirection de l'objet. Aspose.Cells fournit des types de direction de texte prédéfinis dans l'énumération TextDirectionType.
 
-|**Types d'orientation du texte**|**La description**|
+|**Types d'orientation du texte**|**Description**|
 |:- |:- |
-|Le contexte|L'ordre de lecture cohérent avec la langue du premier caractère saisi|
+|Contexte|L'ordre de lecture cohérent avec la langue du premier caractère saisi|
 |De gauche à droite|Ordre de lecture de gauche à droite|
 |De droite à gauche|Ordre de lecture de droite à gauche|
 
@@ -270,7 +270,7 @@ La sortie suivante est obtenue si l'ordre de lecture du texte est défini de dro
 
 Aspose.Cells prend en charge cette fonctionnalité. Cette rubrique explique comment utiliser cette fonctionnalité.
 ### **Formatage des caractères sélectionnés**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classer. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une collection Worksheets qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. La classe Worksheet fournit une collection Cells. Chaque pièce de la collection Cells représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe.
 
 La classe Cell fournit une méthode de caractères qui prend les paramètres suivants pour sélectionner une plage de caractères dans une cellule :
 
@@ -351,7 +351,7 @@ Le formatage des lignes et des colonnes dans une feuille de calcul pour donner u
 
 Dans cet article, nous allons essayer d'expliquer comment utiliser Aspose.Cells for Java API pour appliquer la mise en forme aux lignes et aux colonnes.
 ### **Formatage des lignes et des colonnes**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe Worksheet. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit la collection Cells. La collection Cells fournit une collection Rows.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par la classe Worksheet. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fournit la collection Cells. La collection Cells fournit une collection Rows.
 #### **Formater une ligne**
 Chaque élément de la collection Rows représente un objet Row. L'objet Row propose la méthode applyStyle utilisée pour appliquer une mise en forme à une ligne.
 
@@ -382,7 +382,7 @@ La collection Cells fournit une collection Columns. Chaque élément de la colle
 
 
 
-#### **Définition du format d'affichage des nombres et des dates pour les lignes et les colonnes**
+#### **Définition du format d'affichage de Numbers et des dates pour les lignes et les colonnes**
 Si l'exigence est de définir le format d'affichage des nombres et des dates pour une ligne ou une colonne complète, le processus est plus ou moins le même que celui décrit ci-dessus, cependant, au lieu de définir des paramètres pour le contenu textuel, vous définirez le formatage des nombres et les dates en utilisant Style.Number ou Style.Custom. Veuillez noter que la propriété Style.Number est de type entier et fait référence aux formats de nombre et de date intégrés, tandis que la propriété Style.Custom est de type chaîne et accepte les modèles valides.
 
 
@@ -399,6 +399,6 @@ Si l'exigence est de définir le format d'affichage des nombres et des dates pou
 
 {{% alert color="primary" %}} 
 
- Veuillez consulter l'article détaillé sur[Réglage des formats d'affichage des nombres et des [dates]](/cells/fr/java/data-formatting/).
+ Veuillez consulter l'article détaillé sur[Réglage des formats d'affichage de Numbers et [Dates]](/cells/fr/java/data-formatting/).
 
 {{% /alert %}}

@@ -10,32 +10,32 @@ url: /it/java/aspose-cells-for-java-17-9-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSJAVA-42391|La larghezza Cell mostrata nel PDF risultante non è la stessa del file Excel quando si utilizza la funzione "Mostra formula"|Nuova caratteristica|
-|CELLSJAVA-42379|Implementa la destinazione denominata durante il rendering nell'output PDF (query sui segnalibri)|Nuova caratteristica|
+|CELLSJAVA-42391|La larghezza Cell mostrata nel risultato PDF non è la stessa del file Excel quando si utilizza la funzione "Mostra formula"|Nuova caratteristica|
+|CELLSJAVA-42379|Implementa la destinazione denominata durante il rendering nell'output PDF (query segnalibro)|Nuova caratteristica|
 |CELLSJAVA-42401|Devi enumerare tutte le forme per impostare correttamente l'ordine Z della forma|Aumento|
 |CELLSJAVA-42368|Imposta il nome del controllo ActiveX (ListBox)|Aumento|
-|CELLSJAVA-42369|L'output HTML del documento Excel contiene valori hash anziché valori effettivi|Insetto|
+|CELLSJAVA-42369|HTML l'output del documento Excel contiene valori hash anziché valori effettivi|Insetto|
 |CELLSJAVA-42366|Il salvataggio di "2.2 CompleteEmail.html" nel formato XLSX genera un file corrotto|Insetto|
 |CELLSJAVA-42365|Il caricamento di "2.1 CompleteEmail.html" nell'oggetto cartella di lavoro genera NullPointerException|Insetto|
 |CELLSJAVA-42381|Il calcolo della cartella di lavoro è errato per la formula di ricerca di Excel|Insetto|
 |CELLSJAVA-42380|La formula di matrice nel foglio viene calcolata in modo diverso tramite Aspose.Cells|Insetto|
-|CELLSJAVA-42370|Collegamenti ipertestuali e contenuti PDF errati|Insetto|
+|CELLSJAVA-42370|Collegamenti ipertestuali errati e contenuto PDF|Insetto|
 |CELLSJAVA-42395|Rendering - L'immagine del grafico non è corretta|Insetto|
-|CELLSJAVA-42393|Le etichette dell'asse delle categorie mancano durante la conversione di Excel in PDF|Insetto|
+|CELLSJAVA-42393|Le etichette dell'asse delle categorie sono mancanti durante la conversione di Excel in PDF|Insetto|
 |CELLSJAVA-42384|Il colore delle barre negative non è corretto quando Excel viene convertito in PDF|Insetto|
 |CELLSJAVA-42378|Il colore della barra è cambiato durante la conversione di Excel in PDF quando si utilizza setCrossAt()|Insetto|
 |CELLSJAVA-42377|Il valore delle unità principali dell'asse nel grafico viene restituito errato|Insetto|
-|CELLSJAVA-42364|Le etichette dati dall'intervallo di celle non vengono visualizzate quando vengono esportate in PDF|Insetto|
+|CELLSJAVA-42364|Le etichette dati dall'intervallo di celle non vengono esportate in PDF|Insetto|
 |CELLSJAVA-42359|Etichette dati mancanti per una serie con valori barra pari a 100|Insetto|
-|CELLSJAVA-42314|Il grafico è vuoto nel PNG di output|Insetto|
-|CELLSJAVA-42313|Il grafico è vuoto nel PDF di output|Insetto|
+|CELLSJAVA-42314|Il grafico è vuoto nell'output PNG|Insetto|
+|CELLSJAVA-42313|Il grafico è vuoto nell'output PDF|Insetto|
 |CELLSJAVA-42374|Riferimenti di caratteri analizzati in modo errato da Aspose Cells|Insetto|
 |CELLSJAVA-42373|La copia della cartella di lavoro e il successivo salvataggio danneggiano il file Excel di output|Insetto|
 |CELLSJAVA-42392|Eccezione "com.aspose.cells.CellsException: contenuto excel sconosciuto!" sulla creazione di un'istanza di un file Excel crittografato|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HTMLLoadOptions.LoadStyleStrategy**
 Indica la strategia per applicare lo stile ai valori analizzati durante la conversione del valore stringa in numero o DateTime.
 ### **Aggiunge la classe AbstractCalculationMonitor**
@@ -71,8 +71,8 @@ Ottiene e imposta l'archiviazione della finestra di progettazione del progetto V
 ### **Esempi di utilizzo**
 Si prega di controllare l'elenco degli argomenti della guida aggiunti nei documenti Wiki Aspose.Cells:
 
-- [Aggiungi segnalibri PDF con destinazioni denominate](/cells/it/java/add-pdf-bookmarks-with-named-destinations/)
-- [Controlla il caricamento delle risorse esterne nella cartella di lavoro MS Excel durante il rendering in PDF](/cells/it/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Aggiungi segnalibri PDF con destinazioni con nome](/cells/it/java/add-pdf-bookmarks-with-named-destinations/)
+- [Controlla il caricamento delle risorse esterne nella cartella di lavoro MS Excel durante il rendering su PDF](/cells/it/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Copia VBA Macro UserForm DesignerStorage dal modello alla cartella di lavoro di destinazione](/cells/it/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Crea Rimuovi e ottieni commenti GridCell](/cells/it/java/create-remove-and-get-gridcell-comments/)
 - [Invia la forma davanti o dietro all'interno del foglio di lavoro](/cells/it/java/send-shape-front-or-back-inside-the-worksheet/)

@@ -109,7 +109,7 @@ url: /zh/jasperreports/integration-with-jasperserver/
 
 **在 JasperServer 上安装 Aspose.Cells for JasperReports 后可用的新导出格式（右侧）** 
 
-![待办事项：图像_替代_文本](integration-with-jasperserver_1.png)
+![待办事项：图片_替代_文本](integration-with-jasperserver_1.png)
 
 
 

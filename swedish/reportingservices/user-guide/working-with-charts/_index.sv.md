@@ -10,7 +10,7 @@ url: /sv/reportingservices/working-with-charts/
 
 {{% /alert %}} 
 
-Så här lägger du till ett diagram i rapportmall:
+Så här lägger du till ett diagram i rapportmallen:
 
 1. Skapa först datamängden som kommer att vara datakällan för diagrammet.
  Nedan använder vi exempeldatabasen AdventureWorks som levereras med SQL Server Reporting Services 2005 och skapar en datauppsättning som heter Sales.

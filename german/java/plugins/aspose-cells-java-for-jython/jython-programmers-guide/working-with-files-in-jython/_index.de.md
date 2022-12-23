@@ -8,8 +8,8 @@ url: /de/java/working-with-files-in-jython/
 
 - [Konvertieren von Excel-Dateien in HTML in Jython](/cells/de/java/converting-excelfiles-to-html-in-jython/)
 - [Konvertieren in Mhtml-Dateien in Jython](/cells/de/java/converting-to-mhtml-files-in-jython/)
-- [Konvertieren in XPS in Jython](/cells/de/java/converting-to-xps-in-jython/)
-- [Arbeitsblatt in SVG in Jython konvertieren](/cells/de/java/converting-worksheet-to-svg-in-jython/)
+- [Umwandlung in XPS in Jython](/cells/de/java/converting-to-xps-in-jython/)
+- [Konvertieren des Arbeitsblatts in SVG in Jython](/cells/de/java/converting-worksheet-to-svg-in-jython/)
 - [Konvertierung von Excel in PDF in Jython](/cells/de/java/excel-to-pdf-conversion-in-jython/)
 - [Dokumenteigenschaften in Jython verwalten](/cells/de/java/managing-document-properties-in-jython/)
 - [Öffnen von Dateien in Jython](/cells/de/java/opening-files-in-jython/)

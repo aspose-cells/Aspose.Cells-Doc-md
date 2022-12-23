@@ -12,7 +12,7 @@ url: /zh/net/read-color-of-shape-s-glow-effect/
 
 请看下面的示例代码及其[源文件](22774108.xlsx)和控制台输出供您参考。以下屏幕截图显示了在 Microsoft Excel 中查看时源 Excel 文件内形状的发光效果。
 
-![待办事项：图像_替代_文本](read-color-of-shape-s-glow-effect_1.png)
+![待办事项：图片_替代_文本](read-color-of-shape-s-glow-effect_1.png)
 
 ## C# 读取形状发光效果颜色的代码
 

@@ -12,7 +12,7 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-44194|Çizim şekli Excel'de PDF'e dönüştürmede işlenmez|
+|CELLSJAVA-44194|Çizim şekli Excel'de PDF işlemeye dönüştürülmüyor|
 |CELLSJAVA-44864|Çalışma kitaplarının eşzamanlı olarak yüklenmesi, sahte "Dosya bozuk" hataları veriyor|
 |CELLSJAVA-44327|Grafikten görüntüye dönüştürmede siyah beyaz pasta dilimlerinde gösterilen kenarlıklar ve daha az çizgi|
 |CELLSJAVA-44591|Etiketlerin metin döndürmesi, grafiğin çıktı görüntüsündeki Excel ile eşleşmiyor|
@@ -20,12 +20,12 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 |CELLSJAVA-44860|bazı birleştirilmiş alanlarda hücre metninin görüntüsü excel'deki ile aynı değil|
 |CELLSJAVA-44832|PDF'ye dönüştürürken Excel'deki gibi tek sayfa yerine çoklu sayfalar çıkıyor|
 |CELLSJAVA-44812|Grafiğin çizim alanı azaltılamıyor|
-|CELLSJAVA-44831|MS Word, Aspose.Cells for Java tarafından XLSX dosyasından dönüştürülen DOCX'i açarken "Word şurada okunamayan içerik bulundu..." hatası veriyor|
+|CELLSJAVA-44831|MS Word, Aspose.Cells for Java tarafından XLSX dosyasından dönüştürülen DOCX dosyasını açarken "Word şurada okunamayan içerik bulundu..." hatası veriyor|
 |CELLSJAVA-44833|Cell.setHtmlString() yöntemi kullanılırken çıktı Excel dosyasındaki farklı sözcüklere veya içeriğin bir kısmına metin rengi uygulanmıyor|
-|CELLSJAVA-44852| Statik Excel dosyası HTML'ye dönüştürüldüğünde kenarlık yanlıştır|
-|CELLSJAVA-44856| Excel'den HTML'ye dönüştürme - Mini grafik (mini grafik) görüntülenmiyor/işlenmiyor|
+|CELLSJAVA-44852| Statik Excel dosyası HTML'e dönüştürüldüğünde kenarlık yanlış|
+|CELLSJAVA-44856| Excel'den HTML'e dönüştürme - Mini grafik (mini grafik) görüntülenmiyor/işlenmiyor|
 |CELLSJAVA-44859|Bazı Html biçimlendirmeleri, mevcut bir Excel dosyasındaki çalışma sayfası hücreleri için çalışmıyor|
-|CELLSJAVA-44842|Bir XLSX dosyasını PDF'ye dönüştürürken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
+|CELLSJAVA-44842|Bir XLSX dosyasını PDF'e dönüştürürken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

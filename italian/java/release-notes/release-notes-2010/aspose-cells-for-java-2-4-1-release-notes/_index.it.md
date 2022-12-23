@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Siamo felici di annunciare Aspose.Cells for Java v2.4.1!
+Siamo felici di annunciare Aspose.Cells for Java v2.4.1!
 
  Cosa è cambiato:
 
@@ -21,7 +21,7 @@ url: /it/java/aspose-cells-for-java-2-4-1-release-notes/
 - Supporta la manipolazione della posizione della finestra e delle proprietà delle dimensioni per la cartella di lavoro.
 - Le operazioni di lettura/salvataggio dei file di Excel 2007 sono migliorate.
 - La funzione da grafico a immagine è stata migliorata.
-- La funzione diretta da Excel a PDF è stata migliorata.
+- La funzione Direct Excel to PDF è stata migliorata.
 - La formattazione dei valori Cell è migliorata.
 - L'operazione di lettura dei file Excel 97-2003 è migliorata.
 - Il modulo di salvataggio dei grafici è stato migliorato.
@@ -30,7 +30,7 @@ url: /it/java/aspose-cells-for-java-2-4-1-release-notes/
 
  Problemi risolti in Aspose.Cells for Java 2.4.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |19342 | Grafico2Immagine| Ordine della leggenda|
 |19421 | Formula| Calcolo della formula|
@@ -38,8 +38,8 @@ url: /it/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | Xlsx| Leggi il file Excel2007|
 |19596 | XL| Cells.getMaxDataColumn()|
 |19641 | XL| Opzioni di controllo degli errori|
-|19696 | Grafico| Salva grafico per file excel2003|
-|19822 | Grafico|Celle collegate per ChartFrames come Title/DataLabels|
+|19696 | Grafico|Salva grafico per file excel2003|
+|19822 | Grafico| Celle collegate per ChartFrames come Title/DataLabels|
 |19823 | HTML| Cell confini|
 |19832 | Grafico2Immagine| Grafico WaterFall utilizzando il grafico StackedBar|
 |19894 | XL| Ottieni le dimensioni della forma, leggi lo stile|

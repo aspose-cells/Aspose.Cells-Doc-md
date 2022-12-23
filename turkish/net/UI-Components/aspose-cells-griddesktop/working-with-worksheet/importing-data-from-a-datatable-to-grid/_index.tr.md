@@ -9,7 +9,7 @@ url: /tr/net/importing-data-from-a-datatable-to-grid/
 .NET Çerçevesinin piyasaya sürülmesinden bu yana Microsoft, verileri bir DataTable nesnesi biçiminde çevrimdışı modda depolamak için mükemmel bir yol sağladı. Geliştiricilerin ihtiyaçlarını anlayan Aspose.Cells.GridDesktop, bir veri tablosundan veri almayı da destekler. Bu konuda bunun nasıl yapılacağı anlatılmaktadır.
 
 {{% /alert %}} 
-## **Örnek**
+## **Örnek vermek**
 Aspose.Cells.GridDesktop kontrolünü kullanarak bir veri tablosunun içeriğini içe aktarmak için:
 
 1. Bir forma Aspose.Cells.GridDesktop denetimi ekleyin.

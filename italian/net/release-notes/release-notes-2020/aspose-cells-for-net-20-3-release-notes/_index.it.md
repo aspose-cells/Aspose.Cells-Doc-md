@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-20-3-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47130|Supporto per FLOOR.MATH(-555,5,1)|Nuova caratteristica|
 |CELLSNET-47168|Supporto per la funzione FILTRO|Nuova caratteristica|
@@ -28,18 +28,18 @@ url: /it/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47191|Il grafico alla differenza di immagine|Insetto|
 |CELLSNET-47202|Le voci della legenda sono sovrapposte nell'immagine di output del grafico|Insetto|
 |CELLSNET-47167|Numero errato di link visibili|Insetto|
-|CELLSNET-47184|BIFF5 con contenuto cirillico viene erroneamente convertito in XLSX|Insetto|
+|CELLSNET-47184|BIFF5 con contenuto cirillico viene convertito erroneamente in XLSX|Insetto|
 |CELLSNET-47205|Range.ApplyStyle() sull'intervallo di colonne ha aumentato notevolmente le dimensioni del file della cartella di lavoro|Insetto|
 |CELLSNET-47210|Il valore di stringa in formato ricco di una cella è vuoto in Apple Numbers'09|Insetto|
 |CELLSNET-47213|Copia del foglio in un'altra cartella di lavoro: le celle nascoste (righe) scompaiono|Insetto|
-|CELLSNETCORE-53|Il punto dati sulla linea del grafico di Excel viene rimosso dopo la conversione in PDF|Insetto|
-|CELLSNET-47212|NullReferenceException durante il salvataggio di particolari XLSM in XLS|Eccezione|
+|CELLSNETCORE-53|Il punto dati sulla riga del grafico di Excel viene rimosso dopo la conversione in PDF|Insetto|
+|CELLSNET-47212|NullReferenceException durante il salvataggio di particolari da XLSM a XLS|Eccezione|
 |CELLSNET-47222|Aspose.Cells 20.2: Eccezione durante la conversione di un particolare file XLSB in Excel97To2003|Eccezione|
 |CELLSNET-47226|Aspose.Cells 20.2: Eccezione durante il tentativo di eliminare colonne vuote|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
-#### **Modifica il comportamento delle funzioni di formattazione per alcuni CultureInfo specificati dall'utente. (SOLO .NET)**
- Nelle vecchie versioni, il nostro motore di formattazione potrebbe modificare alcune proprietà di alcune culture speciali per ottenere il risultato di formattazione generale. Ad esempio, per la maggior parte delle situazioni, JapaneseCalendar dovrebbe essere utilizzato per formattare i valori data-ora, quindi nelle vecchie versioni facciamo sempre in modo che CultureInfo di "ja-JP" utilizzi JapaneseCalendar per la formattazione. Tuttavia, non è sempre destinato agli utenti quando specificano il loro CultureInfo personalizzato tramite API, ad esempio WorkbookSettings.CultureInfo o CustomImplementationFactory.CreateCultureInfo(). Quindi, dalla versione 20.3, utilizziamo la proprietà CultureInfo.UseUserOverride per decidere se modificare automaticamente le proprietà per la formattazione. Per l'oggetto CultureInfo specificato, se questa proprietà è**VERO** , quindi lo consideriamo come se l'utente abbia sovrascritto tutte le proprietà necessarie, quindi non lo cambieremo più per la formattazione. Se questa proprietà è**falso**, allora possiamo modificare automaticamente altre sue proprietà se necessario.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
+#### **Modifica il comportamento delle funzioni di formattazione per alcuni CultureInfo specificati dall'utente.(SOLO .NET)**
+Nelle vecchie versioni, il nostro motore di formattazione potrebbe modificare alcune proprietà di alcune culture speciali per ottenere il risultato di formattazione generale. Ad esempio, per la maggior parte delle situazioni, JapaneseCalendar dovrebbe essere utilizzato per formattare i valori data-ora, quindi nelle vecchie versioni facciamo sempre in modo che CultureInfo di "ja-JP" utilizzi JapaneseCalendar per la formattazione. Tuttavia, non è sempre destinato agli utenti quando specificano il loro CultureInfo personalizzato tramite API, ad esempio WorkbookSettings.CultureInfo o CustomImplementationFactory.CreateCultureInfo(). Quindi, dalla versione 20.3, utilizziamo la proprietà CultureInfo.UseUserOverride per decidere se modificare automaticamente le proprietà per la formattazione. Per l'oggetto CultureInfo specificato, se questa proprietà è**VERO** , quindi lo consideriamo come se l'utente abbia sovrascritto tutte le proprietà necessarie, quindi non lo cambieremo più per la formattazione. Se questa proprietà è**falso**, allora possiamo modificare automaticamente altre sue proprietà se necessario.
 #### **Aggiungere la proprietà LoadFilter.SheetsInLoadingOrder.**
 Gli utenti possono sovrascrivere questa proprietà per specificare i fogli e l'ordine da caricare durante l'importazione delle cartelle di lavoro dal file modello.
 #### **Elimina la proprietà TickLabels.Background obsoleta**

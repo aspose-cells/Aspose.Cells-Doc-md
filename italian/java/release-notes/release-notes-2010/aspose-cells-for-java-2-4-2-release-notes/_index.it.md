@@ -25,14 +25,14 @@ Macro sconosciuta: {...}
 - Controlla se la licenza è stata impostata, include il supporto per ottenere la data di scadenza del tuo abbonamento.
 - Le operazioni di lettura/salvataggio dei file di Excel 2007 sono migliorate.
 - La funzione da grafico a immagine è stata migliorata.
-- La funzione diretta da Excel a PDF è stata migliorata.
+- La funzione Direct Excel to PDF è stata migliorata.
 - La funzione di formattazione dei valori Cell è stata migliorata.
 - Le operazioni di lettura/salvataggio dei file Excel 97-2003 sono migliorate.
 - 21 correzioni e miglioramenti.
 
  Problemi risolti in Aspose.Cells for Java 2.4.2
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |20158 | Formula| La funzione INDIRETTO non funziona correttamente con l'intervallo denominato|
 |20312 | Xlsx| Leggi il file Excel2007|

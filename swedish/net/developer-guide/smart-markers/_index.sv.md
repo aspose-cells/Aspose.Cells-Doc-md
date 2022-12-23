@@ -190,8 +190,8 @@ Aspose.Cells stöder nu även användning av generisk lista som ett kapslat obje
 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
-## **Använder HTML-egenskapen för Smart Markers**
- Följande exempelkod förklarar användningen av HTML-egenskapen för Smart Markers. När det kommer att bearbetas kommer det att visa "World" i "Hello World" som fetstil på grund av HTML<b>märka.
+## **Använder HTML egendom för Smart Markers**
+ Följande exempelkod förklarar användningen av egenskapen HTML för Smart Markers. När det kommer att bearbetas kommer det att visa "World" i "Hello World" som fetstil på grund av HTML<b> märka.
 
 
 

@@ -10,8 +10,8 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-6-1/
 
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم نوع هدف ارتباط HTML**
-كشف هذا الإصدار من Aspose.Cells for Java API عن تعداد يسمى HtmlLinkTargetType مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا[اضبط النوع المستهدف للروابط في جدول البيانات أثناء التحويل إلى تنسيق HTML](/cells/ar/java/change-the-html-link-target-type/). القيم المحتملة لتعداد HtmlLinkTargetType كما يلي حيث تكون القيمة الافتراضية هي SELF.
+### **دعم لنوع هدف الارتباط HTML**
+ كشف هذا الإصدار من Aspose.Cells for Java API عن تعداد يسمى HtmlLinkTargetType مع خاصية جديدة HtmlSaveOptions.LinkTargetType التي تسمح معًا[اضبط النوع المستهدف للروابط في جدول البيانات أثناء التحويل إلى تنسيق HTML](/cells/ar/java/change-the-html-link-target-type/). القيم المحتملة لتعداد HtmlLinkTargetType كما يلي حيث تكون القيمة الافتراضية هي SELF.
 
 1. HtmlLinkTargetType.BLANK: يفتح المستند / الصفحة المرتبطة في نافذة أو علامة تبويب جديدة.
 1. HtmlLinkTargetType.PARENT: يفتح المستند / الصفحة المرتبطة في الإطار الأصل.
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **تمت إضافة الخاصية VbaProject.isSigned**
- كشف Aspose.Cells for Java 8.6.1 خاصية VbaProject.isSigned التي يمكن استخدامها[اختبار ما إذا كان VbaProject في مصنف تم توقيعه أم لا](/cells/ar/java/check-if-vba-project-in-a-workbook-is-signed/). ترجع خاصية النوع المنطقي "صحيح" إذا تم توقيع المشروع.
+ كشف Aspose.Cells for Java 8.6.1 خاصية VbaProject.isSigned التي يمكن استخدامها[اختبار ما إذا كان VbaProject في مصنف تم توقيعه أم لا](/cells/ar/java/check-if-vba-project-in-a-workbook-is-signed/)ترجع خاصية النوع المنطقي "صحيح" إذا تم توقيع المشروع.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

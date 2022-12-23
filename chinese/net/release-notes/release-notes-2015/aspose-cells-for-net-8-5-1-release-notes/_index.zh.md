@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-8-5-1-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-43703) - ICustomFunction - 返回范围而不是单个单元格
 
@@ -24,7 +24,7 @@ url: /zh/net/aspose-cells-for-net-8-5-1-release-notes/
 
 ### **虫子**
 
-(CELLSNET-43744) - 保存为 PDF 时数据透视表不刷新
+(CELLSNET-43744) - 保存到 PDF 时数据透视表不刷新
 
 (CELLSNET-43735) - 数据透视表的带状行选项丢失
 
@@ -54,9 +54,9 @@ url: /zh/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43726) - 组合工作簿更改图表样式
 
-(CELLSNET-43700) - 图片颜色在转换为 PDF 后看起来不同
+(CELLSNET-43700) - 图片的颜色在转换为 PDF 后看起来不同
 
-(CELLSNET-43199) - 将 Excel 保存为 PDF 时内容和形状发生变化
+(CELLSNET-43199) - 将 Excel 保存到 PDF 时内容和形状发生变化
 
 (CELLSNET-43767) - Excel 在 Aspose.Cells 保存的电子表格上显示受保护的视图
 
@@ -86,7 +86,7 @@ url: /zh/net/aspose-cells-for-net-8-5-1-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-42783) - 到外部工作簿的链接创建#REF！在网格桌面
 

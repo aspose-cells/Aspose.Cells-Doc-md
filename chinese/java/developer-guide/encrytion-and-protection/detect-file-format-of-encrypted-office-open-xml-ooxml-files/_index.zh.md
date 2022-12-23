@@ -6,7 +6,7 @@ url: /zh/java/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 ---
 {{% alert color="primary" %}} 
 
-**办公室开放 XML**（也称为**面向对象的XML**或者**Microsoft 打开 XML**(MOX)) 是一种基于 XML 的文件格式，由 Microsoft 开发，用于表示电子表格、图表、演示文稿和文字处理文档等办公文档。
+**办公室开放 XML**（也称为**面向对象的XML**要么**Microsoft 打开 XML**(MOX)) 是一种基于 XML 的文件格式，由 Microsoft 开发，用于表示电子表格、图表、演示文稿和文字处理文档等办公文档。
 
 {{% /alert %}} 
 

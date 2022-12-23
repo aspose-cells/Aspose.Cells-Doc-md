@@ -16,11 +16,11 @@ Fel som gör att formeln inte kan returnera ett resultat - som att dividera ett 
 
 Felet kan lösas med hjälp av alternativen eller ignoreras. Att ignorera ett fel innebär att det felet inte kommer att visas i ytterligare felkontroller.
 
-Aspose.Cells ger felkontrollfunktioner. De[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class hanterar olika typer av felkontroller, till exempel siffror lagrade som text, formelberäkningsfel och valideringsfel. Använd[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)uppräkning för att ställa in önskad felkontroll.
+ Aspose.Cells ger felkontrollfunktioner. De[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class hanterar olika typer av felkontroller, till exempel siffror lagrade som text, formelberäkningsfel och valideringsfel. Använd[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)uppräkning för att ställa in önskad felkontroll.
 
-## **Siffror lagrade som text**
+## **Numbers Lagrat som text**
 
-Ibland kan siffror formateras och lagras i celler som text. Detta kan orsaka problem med beräkningar eller skapa förvirrande sorteringsordningar. Siffror som är formaterade som text är vänsterjusterade istället för högerjusterade i cellen. Om en formel som ska utföra en matematisk operation på celler inte returnerar ett värde, kontrollera justeringen i cellerna som formeln refererar till – några eller alla av dessa celler kan vara siffror formaterade som text.
+Ibland kan siffror formateras och lagras i celler som text. Detta kan orsaka problem med beräkningar eller skapa förvirrande sorteringsordningar. Numbers som är formaterade som text är vänsterjusterade istället för högerjusterade i cellen. Om en formel som ska utföra en matematisk operation på celler inte returnerar ett värde, kontrollera justeringen i cellerna som formeln refererar till – några eller alla av dessa celler kan vara siffror formaterade som text.
 
 Du kan använda alternativen för felkontroll för att snabbt konvertera siffror som lagrats som text till reella siffror. I Microsoft Excel 2003:
 
@@ -29,6 +29,6 @@ Du kan använda alternativen för felkontroll för att snabbt konvertera siffror
    **Nummer lagras som text** alternativet är markerat som standard.
 1. Inaktivera den.
 
-Följande exempelkod visar hur du inaktiverar siffrorna som lagras som textfelkontrollalternativ för ett kalkylblad i mallens XLS-fil med Aspose.Cells API:er.
+Följande exempelkod visar hur du inaktiverar siffrorna som lagras som textfelkontrollalternativ för ett kalkylblad i mallen XLS-filen med hjälp av Aspose.Cells-API:erna.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}

@@ -36,7 +36,7 @@ Questo esempio utilizza il file modello "Book1.xls" creato in Microsoft Excel. D
 
 {{% alert color="primary" %}}
 
- Se vuoi ordinare*Da sinistra a destra* , utilizzare il[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright)attributo.
+ Se vuoi ordinare*Da sinistra a destra* , Usa il[**DataSorter.SortLeftToRight**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortlefttoright) attributo.
 
 {{% /alert %}}
 

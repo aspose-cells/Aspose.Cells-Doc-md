@@ -10,13 +10,13 @@ url: /it/net/aspose-cells-for-net-20-4-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47276|Da XLSX a CSV, virgole richieste per celle vuote simili anche a MS Excel|Nuova caratteristica|
 |CELLSNET-47054|Supporta l'unione di più celle come intervallo|Nuova caratteristica|
 |CELLSNET-47091|Opzione per aggiornare il campo di origine di PowerQueryFormulaItems|Nuova caratteristica|
 |CELLSNET-47273|Impostare il carattere del testo latino e il carattere del testo asiatico per l'asse delle categorie del grafico|Aumento|
-|CELLSNET-47217|Supporta la barra dati, la scala dei colori e le formattazioni condizionali del set di icone di ODS.|Aumento|
+|CELLSNET-47217|Supporta la barra dati, la scala dei colori e le formattazioni condizionali iconset di ODS.|Aumento|
 |CELLSNET-47201|Apri il file protetto da password utilizzando Aspose.Cells.GridDesktop|Aumento|
 |CELLSNET-47254|Supporto per inserire una nuova riga come in MS-EXCEL nella barra della formula|Aumento|
 |CELLSNET-47224|Migliora le prestazioni dei pivotable rinfrescanti.|Prestazione|
@@ -24,7 +24,7 @@ url: /it/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47289|CalculateFormula() non ritorna mai|Prestazione|
 |CELLSNET-47263|Sospeso durante il tentativo di aprire il documento ODP nel costruttore di cartelle di lavoro|Prestazione|
 |CELLSNET-42556|L'ordinamento di PivotField non sembra funzionare|Insetto|
-|CELLSNET-47046|Delimitatori di virgolette non aperte negli attributi HTML IMG nel markup HTML generato|Insetto|
+|CELLSNET-47046|Delimitatori di virgolette non aperte negli attributi IMG HTML nel markup HTML generato|Insetto|
 |CELLSNET-47208|La tabella pivot non mantiene il formato con l'ultima versione|Insetto|
 |CELLSNET-47219|Formula errata nella colonna della tabella dopo l'inserimento di una riga e l'aggiornamento|Insetto|
 |CELLSNET-47261|Rendering da Excel a HTML: dimensione del carattere errata in una tabella esportata|Insetto|
@@ -38,9 +38,9 @@ url: /it/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47200|Problema di sovrapposizione sui pulsanti di navigazione quando si imposta il foglio nascosto come foglio attivo|Insetto|
 |CELLSNET-47274|Immagine di sfondo non impostata in GridWeb|Insetto|
 |CELLSNET-47179|Firma VBA con Bouncy Castle lib|Insetto|
-|CELLSNET-47258|Problema con le immagini dei codici a barre nel rendering da foglio a TIFF|Insetto|
+|CELLSNET-47258|Problema con le immagini dei codici a barre nel rendering da Foglio a TIFF|Insetto|
 |CELLSNET-47216|PowerQueries andato dopo la sostituzione della fonte|Insetto|
-|CELLSNET-47241|Il file ODS si interrompe durante l'impostazione dello stile del carattere e il salvataggio|Insetto|
+|CELLSNET-47241|ODS il file si interrompe durante l'impostazione dello stile del carattere e il salvataggio|Insetto|
 |CELLSNET-47252|Numeric Smart Marker che inserisce il valore della cella come testo|Insetto|
 |CELLSNET-47262|Problema con 100% Stacked Bar e l'unità principale e l'unità minore|Insetto|
 |CELLSNET-47271|Il salvataggio di XLSX con Visio incorporato danneggia il file|Insetto|
@@ -53,8 +53,8 @@ url: /it/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47086|Viene generata un'eccezione durante il rendering di un grafico|Eccezione|
 |CELLSNET-47242|FormatException sul caricamento del file|Eccezione|
 |CELLSNET-47266|Eccezione "L'indice dell'argomento è fuori dall'intervallo dell'array" durante il caricamento di tutti i file allegati|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 #### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

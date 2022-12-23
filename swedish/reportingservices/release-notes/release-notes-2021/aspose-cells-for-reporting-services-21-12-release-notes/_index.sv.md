@@ -11,5 +11,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 21.
 ## **Komplett lista över problem och förbättringar som tas upp i denna version**
 |**ID**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSRS-619 |Förbättring av PDF-renderingen av Aspose.Cells för rapporteringstjänster.| Förbättring|
+|CELLSRS-619 |Förbättring för PDF-renderingen av Aspose.Cells för rapporteringstjänster.| Förbättring|
 |CELLSRS-614 |Problem vid generering av Excel-fil med lösenord.| Insekt|

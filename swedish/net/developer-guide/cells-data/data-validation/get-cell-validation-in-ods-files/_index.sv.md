@@ -1,10 +1,10 @@
 ﻿---
-title: Få Cell Validering i ODS-filer
+title: Få Cell Validering i ODS filer
 type: docs
 weight: 180
 url: /sv/net/get-cell-validation-in-ods-files/
 ---
-## **Få Cell Validering i ODS-filer**
+## **Få Cell Validering i ODS filer**
 
 Med Aspose.Cells kan du få valideringen applicerad på en cell i ODS-filer. För detta tillhandahåller API[**GetValidation**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) metod för[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass.
 

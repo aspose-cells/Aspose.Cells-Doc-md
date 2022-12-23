@@ -15,7 +15,7 @@ AutoRecover 属性的 getter/setter 已添加到 WorkbookSettings 类中，以�
 
 {{% alert color="primary" %}} 
 
-请检查文章[设置电子表格自动恢复](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook)了解更多信息。
+请检查文章[设置电子表格自动恢复](http://aspose.com/docs/display/cellsjava/How+to+set+AutoRecover+property+of+Workbook)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -77,7 +77,7 @@ System.out.println(settings.getRepairLoad());
 {{< /highlight >}}
 
 ### **已添加属性 TxtLoadOptions.KeepExactFormat**
-属性 KeepExactFormat 已添加到 TxtLoadOptions 类，指示在将字符串/文本转换为数字或 DateTime 时是否应为单元格值保留精确格式。添加此属性是为了匹配 MS Excel 应用程序从 CSV 文件加载 DateTime 或数值的行为。为了模拟 MS Excel 的行为，将 KeepExactFormat 属性设置为 false，而默认值为 true，因此单元格值将被格式化为 CSV 文件中的字符串。
+属性 KeepExactFormat 已添加到 TxtLoadOptions 类，指示在将字符串/文本转换为数字或 DateTime 时是否应为单元格值保留精确格式。添加此属性以匹配 MS Excel 应用程序从 CSV 文件加载日期时间或数值的行为。为了模拟 MS Excel 的行为，将 KeepExactFormat 属性设置为 false，而默认值为 true，因此单元格值将被格式化为 CSV 文件中的字符串。
 
 **Java**
 

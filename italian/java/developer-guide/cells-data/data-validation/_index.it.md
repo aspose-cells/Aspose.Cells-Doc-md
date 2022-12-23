@@ -6,21 +6,21 @@ url: /it/java/data-validation/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel offre alcune buone funzionalità per filtrare automaticamente o convalidare i dati del foglio di lavoro.
+Microsoft Excel fornisce alcune buone funzionalità per filtrare automaticamente o convalidare i dati del foglio di lavoro.
 
-[Convalida dei dati](/cells/it/java/data-validation/)è la capacità di impostare regole relative ai dati inseriti in un foglio di lavoro. Ad esempio, utilizzare la convalida per garantire che una colonna etichettata DATE contenga solo date o che un'altra colonna contenga solo numeri. Potresti persino assicurarti che una colonna etichettata DATE contenga solo date all'interno di un determinato intervallo. Con la convalida dei dati, puoi controllare cosa viene inserito nelle celle del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di convalida dei dati e filtro automatico di Microsoft Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+[Convalida dei dati](/cells/it/java/data-validation/) è la capacità di impostare regole relative ai dati inseriti in un foglio di lavoro. Ad esempio, utilizzare la convalida per garantire che una colonna etichettata DATE contenga solo date o che un'altra colonna contenga solo numeri. Potresti persino assicurarti che una colonna etichettata DATE contenga solo date all'interno di un determinato intervallo. Con la convalida dei dati, puoi controllare cosa viene inserito nelle celle del foglio di lavoro. Aspose.Cells supporta completamente Microsoft la convalida dei dati di Excel e le funzionalità di filtro automatico. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}} 
 ## **Tipi di convalida dei dati ed esecuzione**
 Microsoft Excel supporta diversi tipi di convalida dei dati. Ogni tipo viene utilizzato per controllare quale tipo di dati viene immesso in una cella o in un intervallo di celle. Di seguito, frammenti di codice illustrano come convalidarlo:
 
-- [I numeri sono interi](/cells/it/java/data-validation/), cioè che non hanno una parte decimale.
-- [I numeri decimali seguono la struttura corretta](/cells/it/java/data-validation/)L'esempio di codice definisce che un intervallo di celle deve avere due spazi decimali.
+- [Numbers sono interi](/cells/it/java/data-validation/)cioè che non hanno una parte decimale.
+- [I numeri decimali seguono la struttura corretta](/cells/it/java/data-validation/). L'esempio di codice definisce che un intervallo di celle deve avere due spazi decimali.
 - [I valori sono limitati a un elenco di valori](/cells/it/java/data-validation/). La convalida dell'elenco definisce un elenco separato di valori che possono essere applicati a una cella o a un intervallo di celle.
 - [Le date rientrano in un intervallo specifico](/cells/it/java/data-validation/).
 - [Il tempo è all'interno di un intervallo specifico](/cells/it/java/data-validation/).
 - [Un testo si trova all'interno di una determinata lunghezza di caratteri](/cells/it/java/data-validation/).
-### **Convalida dei dati con Microsoft Excel**
+### **Convalida dati con Microsoft Excel**
 Per creare convalide utilizzando Microsoft Excel:
 
 1. In un foglio di lavoro selezionare le celle a cui si desidera applicare la convalida.
@@ -98,11 +98,11 @@ Con questo tipo di convalida, gli utenti possono inserire valori di testo di una
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-TextLengthDataValidation-TextLengthDataValidation.java" >}}
 ## **Regole di convalida dei dati**
- Quando vengono implementate le convalide dei dati, la convalida può essere verificata assegnando valori diversi nelle celle.[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) può essere utilizzato per recuperare il risultato della convalida. L'esempio seguente mostra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente link per il test:
+Quando vengono implementate le convalide dei dati, la convalida può essere verificata assegnando valori diversi nelle celle.[Cell.GetValidationValue()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue\(\)) può essere utilizzato per recuperare il risultato della convalida. L'esempio seguente mostra questa funzionalità con valori diversi. Il file di esempio può essere scaricato dal seguente link per il test:
 
 [SampleDataValidationRules.xlsx](77987849.xlsx)
 
-**Codice di esempio**
+**Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ## **Controlla se la convalida in una cella è a discesa**
@@ -112,7 +112,7 @@ Con questo tipo di convalida, gli utenti possono inserire valori di testo di una
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **Aggiungi CellArea alla convalida esistente**
-Potrebbero esserci casi in cui potresti voler aggiungere[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)all'esistente[Convalida](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). Quando aggiungi[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)utilizzando[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells controlla tutte le aree esistenti per vedere se la nuova area esiste già. Se il file ha un numero elevato di convalide, ciò subisce un calo delle prestazioni. Per ovviare a questo, l'API fornisce il[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metodo. Il*checkIntersezione*parametro indica se controllare l'intersezione di una determinata area con le aree di validazione esistenti. Impostandolo su**falso**disabiliterà il controllo di altre aree. Il*checkEdge*parametro indica se controllare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se sei sicuro che la nuova area non sia l'area in alto a sinistra, puoi impostare questo parametro come**falso**.
+Potrebbero esserci casi in cui potresti voler aggiungere[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)all'esistente[Convalida](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). Quando aggiungi[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)utilizzando[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells controlla tutte le aree esistenti per vedere se la nuova area esiste già. Se il file ha un numero elevato di convalide, ciò subisce un calo delle prestazioni. Per ovviare a questo, lo API mette a disposizione il[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metodo. Il*checkIntersezione*parametro indica se controllare l'intersezione di una determinata area con le aree di validazione esistenti. Impostandolo su**falso**disabiliterà il controllo di altre aree. Il*checkEdge*parametro indica se controllare le aree applicate. Se la nuova area diventa l'area in alto a sinistra, le impostazioni interne vengono ricostruite. Se sei sicuro che la nuova area non sia l'area in alto a sinistra, puoi impostare questo parametro come**falso**.
 
 Il seguente frammento di codice illustra l'uso di[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) metodo per aggiungere new[CellArea](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)all'esistente[Convalida](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 

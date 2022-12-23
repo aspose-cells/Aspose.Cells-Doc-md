@@ -10,12 +10,12 @@ url: /fr/net/aspose-cells-for-net-22-6-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-50880|Nouvelle API pour convertir les données en ICellsDataTable pour la commodité de l'utilisateur|
 |CELLSNET-51140|Prend en charge le stockage de données 5.0 de .numbers|
 |CELLSNET-51144|Prise en charge de la lecture d'images de Numbers13|
-|CELLSNET-51230|Prise en charge de la définition du style pour CellRange|
+|CELLSNET-51230| Prise en charge de la définition du style pour CellRange|
 |CELLSNET-50996|Ajouter la méthode surchargée ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32)|
 |CELLSNET-51184| Prend en charge l'importation de la valeur du tableau si la plage est une simple cellule|
 |CELLSNET-51215|Prise en charge de l'enregistrement des formulaires de table au format xlsb|
@@ -37,12 +37,12 @@ url: /fr/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51092|La police barrée ne fonctionne pas dans le rendu SVG/image sous Linux|
 |CELLSNET-51120|Exception levée lors de l'exportation de données xml liées à Xml Map|
 |CELLSNET-51197|Problème ImportXml avec un champ booléen|
-|CELLSNET-50854|XLSX en PDF : les graphiques à barres ne sont pas rendus correctement|
+|CELLSNET-50854|XLSX à PDF : les graphiques à barres ne sont pas rendus correctement|
 |CELLSNET-50983|Les étiquettes de l'axe X sont erronées|
 |CELLSNET-50998| Le dernier paramètre de l'axe des abscisses n'est pas affiché|
 |CELLSNET-50999|Les étiquettes du graphique ne rentrent pas dans la boîte - la boîte est surdimensionnée|
 |CELLSNET-51000|Libellé du graphique aligné verticalement au lieu d'horizontalement|
-|CELLSNET-51043| Sortie incorrecte des noms de série lors de l'enregistrement du classeur au format PDF|
+|CELLSNET-51043| Sortie incorrecte des noms de série lors de l'enregistrement du classeur dans PDF|
 |CELLSNET-51159| Bogues avec Chart.Title.IsVisible=false lors de l'enregistrement du pdf|
 |CELLSNET-51211| Numéros manquants lors de la création d'une image à partir d'un graphique Excel|
 |CELLSNET-49105|Le fichier .ods enregistré est corrompu lorsque le fichier contient une validation de liste|

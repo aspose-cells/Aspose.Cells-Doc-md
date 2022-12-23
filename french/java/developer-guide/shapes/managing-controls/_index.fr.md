@@ -10,15 +10,15 @@ Les développeurs peuvent ajouter différents objets de dessin tels que des zone
 
 ## **Ajout du contrôle TextBox à la feuille de calcul**
 
-Une façon de souligner les informations importantes dans un rapport consiste à utiliser une zone de texte. Par exemple, ajoutez du texte pour mettre en surbrillance le nom de l'entreprise ou pour indiquer la région géographique avec les ventes les plus élevées, etc. Aspose.Cells fournit la classe TextBoxes, utilisée pour ajouter une nouvelle zone de texte à la collection. Il y a une autre classe,[**Zone de texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), qui représente une zone de texte utilisée pour définir tous les types de paramètres. Il compte quelques membres importants :
+ Une façon de souligner les informations importantes dans un rapport consiste à utiliser une zone de texte. Par exemple, ajoutez du texte pour mettre en surbrillance le nom de l'entreprise ou pour indiquer la région géographique avec les ventes les plus élevées, etc. Aspose.Cells fournit la classe TextBoxes, utilisée pour ajouter une nouvelle zone de texte à la collection. Il y a une autre classe,[**Zone de texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)qui représente une zone de texte utilisée pour définir tous les types de paramètres. Il compte quelques membres importants :
 
--  La[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) méthode renvoie un[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) objet utilisé pour ajuster le contenu de la zone de texte.
--  La[**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) La méthode spécifie le type de placement.
--  La[**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) La méthode spécifie les attributs de la police.
--  La[**ajouterHyperlien**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) ajoute un lien hypertexte pour la zone de texte.
--  La[**RemplirFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) retours de propriété[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) objet utilisé pour définir le format de remplissage de la zone de texte.
--  La[**Format de ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) la propriété renvoie le[**MsoLineFormatMsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) objet généralement utilisé pour le style et l'épaisseur de la ligne de la zone de texte.
--  La[**Définir le texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)La méthode spécifie le texte d'entrée pour la zone de texte.
+-  Le[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) méthode renvoie un[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) objet utilisé pour ajuster le contenu de la zone de texte.
+-  Le[**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) La méthode spécifie le type de placement.
+-  Le[**setFont**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) La méthode spécifie les attributs de la police.
+-  Le[**ajouterHyperlien**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) ajoute un lien hypertexte pour la zone de texte.
+-  Le[**RemplirFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) retours de propriété[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) objet utilisé pour définir le format de remplissage de la zone de texte.
+-  Le[**Format de ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) la propriété renvoie le[**MsoLineFormatMsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) objet généralement utilisé pour le style et l'épaisseur de la ligne de la zone de texte.
+-  Le[**Définir le texte**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) La méthode spécifie le texte d'entrée pour la zone de texte.
 
 L'exemple suivant crée deux zones de texte dans la première feuille de calcul du classeur. La première zone de texte est bien fournie avec différents paramètres de format. La seconde est simple.
 
@@ -57,9 +57,9 @@ Pour placer un contrôle de case à cocher dans votre feuille de calcul, procéd
 
  Aspose.Cells fournit le[**CheckBoxCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) class, qui est utilisée pour ajouter une nouvelle case à cocher à la collection. Il y a une autre classe,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox), qui représente une case à cocher. Il compte quelques membres importants :
 
--  La[**setLinkedCell**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) La méthode spécifie une cellule qui est liée à la case à cocher.
--  La[**Définir le texte**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) La méthode spécifie la chaîne de texte associée à la case à cocher. C'est l'étiquette de la case à cocher.
--  La[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) La méthode spécifie si la case est cochée ou non.
+-  Le[**setLinkedCell**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) La méthode spécifie une cellule qui est liée à la case à cocher.
+-  Le[**Définir le texte**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) La méthode spécifie la chaîne de texte associée à la case à cocher. C'est l'étiquette de la case à cocher.
+-  Le[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) La méthode spécifie si la case est cochée ou non.
 
 L'exemple suivant montre comment ajouter une case à cocher à la feuille de calcul. La sortie ci-dessous est générée après l'exécution du code.
 
@@ -86,7 +86,7 @@ Pour placer un contrôle Bouton radio dans votre feuille de calcul, procédez co
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape qui peut être utilisée pour ajouter un contrôle de bouton radio à une feuille de calcul. La méthode peut renvoyer un objet RadioButton. La classe RadioButton représente un bouton d'option. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape qui peut être utilisée pour ajouter un contrôle de bouton radio à une feuille de calcul. La méthode peut renvoyer un objet RadioButton. La classe RadioButton représente un bouton d'option. Il compte quelques membres importants :
 
 - La méthode setLinkedCell spécifie une cellule qui est liée au bouton radio.
 - La méthode setText spécifie la chaîne de texte associée au bouton radio. C'est l'étiquette du bouton radio.
@@ -119,7 +119,7 @@ Pour placer un contrôle de zone de liste déroulante dans votre feuille de calc
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, qui peut être utilisée pour ajouter un contrôle de zone de liste déroulante à la feuille de calcul. La méthode peut renvoyer un objet ComboBox. La classe ComboBox représente une zone de liste déroulante. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, qui peut être utilisée pour ajouter un contrôle de zone de liste déroulante à la feuille de calcul. La méthode peut renvoyer un objet ComboBox. La classe ComboBox représente une zone de liste déroulante. Il compte quelques membres importants :
 
 - La méthode setLinkedCell spécifie une cellule qui est liée à la zone de liste déroulante.
 - La méthode setInputRange spécifie la plage de cellules de la feuille de calcul utilisée pour remplir la zone de liste déroulante.
@@ -136,7 +136,7 @@ L'exemple suivant montre comment ajouter une zone de liste déroulante à la feu
 
 ## **Ajout d'un contrôle d'étiquette à une feuille de calcul**
 
- Les étiquettes sont un moyen de fournir aux utilisateurs des informations sur le contenu d'une feuille de calcul. Aspose.Cells permet d'ajouter et de manipuler des étiquettes dans une feuille de calcul. La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, utilisée pour ajouter un contrôle d'étiquette à la feuille de calcul. La méthode renvoie un objet Label. La classe Label représente une étiquette dans la feuille de calcul. Il compte quelques membres importants :
+ Les étiquettes sont un moyen de fournir aux utilisateurs des informations sur le contenu d'une feuille de calcul. Aspose.Cells permet d'ajouter et de manipuler des étiquettes dans une feuille de calcul. Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, utilisée pour ajouter un contrôle d'étiquette à la feuille de calcul. La méthode renvoie un objet Label. La classe Label représente une étiquette dans la feuille de calcul. Il compte quelques membres importants :
 
 - La méthode setText spécifie la chaîne de légende d'une étiquette.
 - La méthode setPlacement spécifie le PlacementType, la manière dont l'étiquette est attachée aux cellules de la feuille de calcul.
@@ -166,7 +166,7 @@ Pour placer un contrôle de zone de liste dans une feuille de calcul :
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter un contrôle de zone de liste à une feuille de calcul. La méthode renvoie un objet ListBox. La classe ListBox représente une zone de liste. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter un contrôle de zone de liste à une feuille de calcul. La méthode renvoie un objet ListBox. La classe ListBox représente une zone de liste. Il compte quelques membres importants :
 
 - La méthode setLinkedCell spécifie une cellule qui est liée à la zone de liste.
 - La méthode setInputRange spécifie la plage de cellules de la feuille de calcul utilisée pour remplir la zone de liste.
@@ -197,7 +197,7 @@ Pour placer un contrôle de bouton dans votre feuille de calcul :
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, utilisée pour ajouter un contrôle de bouton à la feuille de calcul. La méthode peut renvoyer un objet Button. La classe Button représente un bouton. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, utilisée pour ajouter un contrôle de bouton à la feuille de calcul. La méthode peut renvoyer un objet Button. La classe Button représente un bouton. Il compte quelques membres importants :
 
 - La méthode setText spécifie la légende du bouton.
 - La méthode setPlacement spécifie le PlacementType, la façon dont le bouton est attaché aux cellules de la feuille de calcul.
@@ -225,7 +225,7 @@ Aspose.Cells vous permet de dessiner des formes automatiques dans vos feuilles d
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme de ligne à la feuille de calcul. La méthode peut renvoyer un objet LineShape. La classe LineShape représente une ligne. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme de ligne à la feuille de calcul. La méthode peut renvoyer un objet LineShape. La classe LineShape représente une ligne. Il compte quelques membres importants :
 
 - La méthode setDashStyle spécifie le format d'une ligne.
 - La méthode setPlacement spécifie le PlacementType, la façon dont la ligne est attachée aux cellules de la feuille de calcul.
@@ -264,7 +264,7 @@ Aspose.Cells vous permet de dessiner des formes rectangulaires dans vos feuilles
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme de rectangle à une feuille de calcul. La méthode peut renvoyer un objet RectangleShape. La classe RectangleShape représente un rectangle. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme de rectangle à une feuille de calcul. La méthode peut renvoyer un objet RectangleShape. La classe RectangleShape représente un rectangle. Il compte quelques membres importants :
 
 - La méthode setLineFormat spécifie les attributs de format de ligne d'un rectangle.
 - La méthode setPlacement spécifie le PlacementType, la façon dont le rectangle est attaché aux cellules de la feuille de calcul.
@@ -278,9 +278,9 @@ L'exemple suivant montre comment ajouter un rectangle à la feuille de calcul. L
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRectangleControl-1.java" >}}
 
-## **Ajout du contrôle d'arc à la feuille de calcul**
+## **Ajout du contrôle d'arc à la feuille de travail**
 
-Aspose.Cells vous permet de dessiner des formes d'arc dans vos feuilles de calcul. Vous pouvez créer des arcs simples et remplis. Vous êtes autorisé à formater la couleur de remplissage et la couleur de la ligne de bordure du contrôle. Par exemple, vous pouvez spécifier / modifier la couleur de l'arc, définir la couleur d'ombrage, spécifier le poids et le style de la forme selon vos besoins.
+Aspose.Cells vous permet de dessiner des formes d'arc dans vos feuilles de calcul. Vous pouvez créer des arcs simples et pleins. Vous êtes autorisé à formater la couleur de remplissage et la couleur de la ligne de bordure du contrôle. Par exemple, vous pouvez spécifier / modifier la couleur de l'arc, définir la couleur d'ombrage, spécifier le poids et le style de la forme selon vos besoins.
 
 ### **Utilisation d'Excel Microsoft**
 
@@ -289,7 +289,7 @@ Aspose.Cells vous permet de dessiner des formes d'arc dans vos feuilles de calcu
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme d'arc à la feuille de calcul. La méthode peut renvoyer un objet ArcShape. La classe ArcShape représente un arc. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme d'arc à la feuille de calcul. La méthode peut renvoyer un objet ArcShape. La classe ArcShape représente un arc. Il compte quelques membres importants :
 
 - La méthode setLineFormat spécifie les attributs de format de ligne d'une forme d'arc.
 - La méthode setPlacement spécifie le PlacementType, la manière dont l'arc est attaché aux cellules de la feuille de calcul.
@@ -317,7 +317,7 @@ Aspose.Cells vous permet de dessiner des formes ovales dans des feuilles de calc
 
 ### **En utilisant Aspose.Cells**
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme ovale à une feuille de calcul. La méthode peut renvoyer un objet Oval. La classe Oval représente une forme ovale. Il compte quelques membres importants :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) La classe fournit une méthode nommée addShape, qui est utilisée pour ajouter une forme ovale à une feuille de calcul. La méthode peut renvoyer un objet Oval. La classe Oval représente une forme ovale. Il compte quelques membres importants :
 
 - La méthode setLineFormat spécifie les attributs de format de ligne d'une forme ovale.
 -  La méthode setPlacement spécifie le**Type d'emplacement** , la manière dont l'ovale est attaché aux cellules de la feuille de calcul.

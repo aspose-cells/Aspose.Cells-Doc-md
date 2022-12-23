@@ -30,7 +30,7 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **البق**
 
 
- (CELLSNET-43581) - يتم نقل النص خارج الشعار عندما يتم تحويل ملف Excel إلى PDF
+ (CELLSNET-43581) - يتم نقل النص خارج الشعار عند تحويل ملف Excel إلى PDF
 
  (CELLSNET-43639) - لا يتم عرض العلامات المائية بشكل صحيح
 
@@ -40,21 +40,21 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43573) - تم نقل الأعمدة إلى الصفحة التالية عند التحويل إلى PDF
 
- (CELLSNET-43571) - فاصل صفحة غير صحيح في ملف PDF الذي تم إنشاؤه عبر Aspose.Cells
+ (CELLSNET-43571) - فاصل صفحة غير صحيح في PDF الذي تم إنشاؤه عبر Aspose.Cells
 
  (CELLSNET-43525) - صورة SheetRender.ToImage التي تم إنشاؤها بها نص يتم قطعه
 
  (CELLSNET-43591) - قيمة بيانات الرسم البياني الدائري غير صحيحة
 
- (CELLSNET-43574) - يتجاوز نص ملصقات البيانات مساحة الرسم البياني عند التحويل إلى PDF
+ (CELLSNET-43574) - يتجاوز نص تسميات البيانات منطقة المخطط عند التحويل إلى PDF
 
  (CELLSNET-43568) - تحويل الرسم البياني إلى صورة وإدخال الصورة
 
  (CELLSNET-43502) - تختفي خطوط الشبكة الرئيسية وتأتي أسطورة السلسلة في المنتصف
 
- (CELLSNET-41716) - لا يتم عرض تسميات المحور X بشكل صحيح
+(CELLSNET-41716) - لا يتم عرض تسميات المحور X بشكل صحيح
 
-(CELLSNET-43641) - مشكلة في حساب الصيغ عند تمكين الحساب التكراري
+ (CELLSNET-43641) - مشكلة في حساب الصيغ عند تمكين الحساب التكراري
 
  (CELLSNET-43637) - نتائج صيغة غير صحيحة لدالة PERCENTRANK
 
@@ -80,9 +80,9 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43585) - Aspose.Cells.CellsException أثناء تحويل جدول البيانات إلى PDF
 
- (CELLSNET-43609) - استثناء عند تحويل ملف Excel إلى تنسيق ملف PDF
+(CELLSNET-43609) - استثناء عند تقديم ملف Excel إلى تنسيق ملف PDF
 
-(CELLSNET-43583) - خطأ GDI في أسلوب SheetRender.ToImage
+ (CELLSNET-43583) - خطأ GDI في أسلوب SheetRender.ToImage
 
  (CELLSNET-43565) - استثناء في حفظ xlsx إلى pdf
 
@@ -108,7 +108,7 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -116,9 +116,9 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **البق**
 
 
- (CELLSNET-43610) - لم يتم إطلاق حدث SaveCommand
+(CELLSNET-43610) - لم يتم إطلاق حدث SaveCommand
 
-(CELLSNET-43551) - لا يعمل IE8 بشكل جيد مع التنسيق المخصص الهولندي البلجيكي
+ (CELLSNET-43551) - لا يعمل IE8 بشكل جيد مع التنسيق المخصص الهولندي البلجيكي
 
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
@@ -140,8 +140,8 @@ url: /ar/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-إضافة تعداد PasteType.Default و PasteType.DefaultExceptBorders.
+ إضافة تعداد PasteType.Default و PasteType.DefaultExceptBorders.
 
- يتم استخدامه لنسخ النطاق كـ "الكل" و "الكل ما عدا الحدود" في MS Excel.
+يتم استخدامه لنسخ النطاق كـ "الكل" و "الكل ما عدا الحدود" في MS Excel.
 
 

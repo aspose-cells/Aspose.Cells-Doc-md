@@ -23,7 +23,7 @@ La boîte de dialogue Modifier le rapport s'affiche.
 
 1. Modifiez les informations de masquage.
 1.  Cliquez sur**Effet**.
- La**Modifier la formule** boîte de dialogue s'affiche.
+ Le**Modifier la formule** boîte de dialogue s'affiche.
 
 ![tâche : image_autre_texte](working-with-table-hide-attributes_3.png)
 
@@ -47,7 +47,7 @@ La boîte de dialogue Modifier le rapport s'affiche.
 
 
 
-1.  Cliquez sur**Commettre** pour ajouter les informations de masquage dans le cache du rapport.
+1.  Cliquez sur**S'engager** pour ajouter les informations de masquage dans le cache du rapport.
 1.  Cliquez sur**proche** pour fermer la boîte de dialogue.
 
 ![tâche : image_autre_texte](working-with-table-hide-attributes_6.png)

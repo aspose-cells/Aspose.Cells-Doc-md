@@ -10,13 +10,13 @@ url: /ru/net/copy-range-data-with-style/
 
 {{% /alert %}}
 
-Aspose.Cells предоставляет ряд классов и методов для работы с диапазонами, например,[**Создатьдиапазон()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index), [**СтильФлаг**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) а также[**ПрименитьСтиль()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/applystyle).
+Aspose.Cells предоставляет ряд классов и методов для работы с диапазонами, например,[**Создатьдиапазон()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index), [**СтильФлаг**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) и[**ПрименитьСтиль()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/applystyle).
 
 Этот пример:
 
 1. Создает рабочую книгу.
 1. Заполняет ряд ячеек на первом листе данными.
-1.  Создает[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1.  Создает[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range).
 1.  Создает[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style) объект с указанными атрибутами форматирования.
 1. Применяет стиль к диапазону данных.
 1. Создает второй диапазон ячеек.

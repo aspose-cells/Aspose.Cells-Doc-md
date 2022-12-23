@@ -16,10 +16,10 @@ url: /it/java/working-with-the-reflection-effect-of-shape-or-chart/
 - [ReflectionEffect.Transparency](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Transparency)
 - [ReflectionEffect.Type](https://reference.aspose.com/cells/java/com.aspose.cells/reflectioneffect#Type)
 
- Lo screenshot seguente mostra l'interfaccia di Microsoft Excel per impostare il file*Effetto riflesso*di Forma.
+ Lo screenshot seguente mostra l'interfaccia di Excel Microsoft per impostare il file*Effetto riflesso*di Forma.
 
 ![cose da fare:immagine_alt_testo](working-with-the-reflection-effect-of-shape-or-chart_1.png)
 ## **Utilizzo dell'effetto riflesso di forma o grafico**
  Il codice di esempio seguente carica il file[file excel di origine](5472529.xlsx) e accede alla prima forma nel primo foglio di lavoro e imposta le proprietà secondarie di[Shape.ReflectionEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Reflection)proprietà e quindi salva la cartella di lavoro nel file[file excel di output](5472539.xlsx).
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-WorkingWithReflectionEffect-WorkingWithReflectionEffect.java" >}}

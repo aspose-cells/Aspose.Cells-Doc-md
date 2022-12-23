@@ -9,7 +9,7 @@ Microsoft Excel 2016 prend en charge les fonctions MINIFS et MAXIFS. Ces fonctio
 
 ![tâche : image_autre_texte](calculation-of-excel-2016-minifs-and-maxifs-functions_1.png)
 ## **Calcul des fonctions Excel 2016 MINIFS et MAXIFS**
- L'exemple de code suivant charge le[exemple de fichier excel](5115149.xlsx) et appelle le[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) méthode pour effectuer le calcul de la formule via Aspose.Cells, puis enregistre les résultats dans le[PDF de sortie](5115154.pdf).
+ L'exemple de code suivant charge le[exemple de fichier excel](5115149.xlsx) et appelle le[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) méthode pour effectuer le calcul de la formule via Aspose.Cells, puis enregistre les résultats dans le[sortie PDF](5115154.pdf).
 
 
 

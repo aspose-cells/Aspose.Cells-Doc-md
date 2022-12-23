@@ -13,42 +13,42 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-42745|تم إرجاع القيمة المتغيرة للحصول على نقاط الاتصال|ميزة جديدة|
-|CELLSJAVA-42662|توفير القدرة على تصدير النطاق بتنسيق HTML|ميزة جديدة|
+|CELLSJAVA-42662|توفير القدرة على تصدير النطاق كما HTML|ميزة جديدة|
 |CELLSJAVA-42746|أشرطة البيانات مفقودة عند تحويل XLSX إلى HTML|ميزة جديدة|
 |CELLSJAVA-42747|تظل القيمة موجودة عند تحويل XLSX إلى HTML|ميزة جديدة|
 |CELLSJAVA-42634|تحويل شكل الشريط الأيمن الأيسر إلى صورة|التعزيز|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - ملف قائمة الحزم مفقود|التعزيز|
 |CELLSJAVA-42528|الخط ليس علامة HTML5 صالحة وعلامة الإغلاق الذاتي ومتصفحات الويب تحرف محتوياته|التعزيز|
-|CELLSJAVA-42738|تمت قراءة عدد قيم التحقق الخاطئ من XLSX|التعزيز|
+|CELLSJAVA-42738|تمت قراءة العد الخاطئ لقيم التحقق من الصحة من XLSX|التعزيز|
 |CELLSJAVA-42734|مشكلة أثناء التعامل مع المحددات المتتالية على أنها مميزة|التعزيز|
 |CELLSJAVA-42731|تنسيق التاريخ غير صحيح للغة اليابانية|التعزيز|
 |CELLSJAVA-42748|فشل LightCells API في تحميل ملف ضخم|التعزيز|
-|CELLSJAVA-42728|يظهر استثناء (StackOverFlow) عند الحفظ في إخراج PDF|حشرة|
-|CELLSJAVA-42729|تم حساب قيمة خاطئة بواسطة ROUNDUP ()|حشرة|
-|CELLSJAVA-42724|انسخ نطاقًا باستخدام PasteType.ALL (خيارات اللصق) لا ينسخ ارتفاعات الصف بشكل صحيح|حشرة|
-|CELLSJAVA-42722|يتم فقد تنسيق نص الارتباط التشعبي عند تعيين نص جديد|حشرة|
-|CELLSJAVA-42688|إخراج تنسيق التاريخ الروسي غير صالح|حشرة|
-|CELLSJAVA-42721|مشكلة مع خطوط SheetRender|حشرة|
-|CELLSJAVA-42723|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تقديم ملف MS Excel إلى PDF|حشرة|
-|CELLSJAVA-42725|تظهر علامات الاقتباس في الصيغة عند استرداد صيغة الخلية عبر Aspose.Cells|حشرة|
-|CELLSJAVA-42720|تدهور الأداء عند استخدام التنسيق الشرطي|حشرة|
-|CELLSJAVA-42737|خط الرسم البياني مفقود في تحويل XLSX-> PNG|حشرة|
-|CELLSJAVA-42735|مشكلة في طريقة getActualChartSize|حشرة|
-|CELLSJAVA-40861|لا يتم نسخ SmartArt عند نسخ المصنف|حشرة|
-|CELLSJAVA-42727|تنسيق النص مفقود في إخراج HTML لنطاق Excel|حشرة|
-|CELLSJAVA-42744|تصبح مجموعات الرموز غير محاذاة عند تحويل XLSX إلى HTML|حشرة|
-|CELLSJAVA-42772|لا يتم تقديم تصدير بيانات النطاق المسمى بشكل صحيح إلى HTML (Java)|حشرة|
-|CELLSJAVA-42753|مشكلة النطاق المحدد|حشرة|
-|CELLSJAVA-42764|يُرجع التحقق دائمًا صحيحًا لطريقة "getInCellDropDown ()"|حشرة|
-|CELLSJAVA-42768|يتم إرجاع التنسيق المخصص للثقافة الخطأ لمواقع مختلفة (ألمانيا ، الفرنسية ، إيطاليا وإسبانيا)|حشرة|
-|CELLSJAVA-42758|تحويل Excel إلى PDF - مشكلة عرض مخطط القياس|حشرة|
-|CELLSJAVA-42761|يطرح تحويل PDF استثناء OutOfMemoryError|حشرة|
+|CELLSJAVA-42728|يظهر استثناء (StackOverFlow) عند الحفظ إلى إخراج PDF|خلل برمجي|
+|CELLSJAVA-42729|تم حساب قيمة خاطئة بواسطة ROUNDUP ()|خلل برمجي|
+|CELLSJAVA-42724|انسخ نطاقًا باستخدام PasteType.ALL (خيارات اللصق) لا ينسخ ارتفاعات الصف بشكل صحيح|خلل برمجي|
+|CELLSJAVA-42722|يتم فقد تنسيق نص الارتباط التشعبي عند تعيين نص جديد|خلل برمجي|
+|CELLSJAVA-42688|إخراج تنسيق التاريخ الروسي غير صالح|خلل برمجي|
+|CELLSJAVA-42721|مشكلة مع خطوط SheetRender|خلل برمجي|
+|CELLSJAVA-42723|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تقديم ملف MS Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-42725|تظهر علامات الاقتباس في الصيغة عند استرداد صيغة الخلية عبر Aspose.Cells|خلل برمجي|
+|CELLSJAVA-42720|تدهور الأداء عند استخدام التنسيق الشرطي|خلل برمجي|
+|CELLSJAVA-42737|خط الرسم البياني مفقود في XLSX-> PNG التحويل|خلل برمجي|
+|CELLSJAVA-42735|مشكلة في طريقة getActualChartSize|خلل برمجي|
+|CELLSJAVA-40861|لا يتم نسخ SmartArt عند نسخ المصنف|خلل برمجي|
+|CELLSJAVA-42727|تنسيق النص مفقود في إخراج HTML من نطاق Excel|خلل برمجي|
+|CELLSJAVA-42744|تصبح مجموعات الرموز غير محاذاة عند تحويل XLSX إلى HTML|خلل برمجي|
+|CELLSJAVA-42772|لم يتم تقديم تصدير بيانات النطاق المسمى بشكل صحيح إلى HTML (Java)|خلل برمجي|
+|CELLSJAVA-42753|مشكلة النطاق المحدد|خلل برمجي|
+|CELLSJAVA-42764|يُرجع التحقق دائمًا صحيحًا لطريقة "getInCellDropDown ()"|خلل برمجي|
+|CELLSJAVA-42768|يتم إرجاع التنسيق المخصص للثقافة الخطأ لمواقع مختلفة (ألمانيا ، الفرنسية ، إيطاليا وإسبانيا)|خلل برمجي|
+|CELLSJAVA-42758|تحويل Excel إلى PDF - مشكلة عرض مخطط القياس|خلل برمجي|
+|CELLSJAVA-42761|PDF يطرح التسليم خطأ OutOfMemoryError|خلل برمجي|
 |CELLSJAVA-42759|CellsException أثناء تحويل الملفات|استثناء|
 |CELLSJAVA-42755|استثناء "NullPointerException" عند إنشاء مثيل لملف (ملفات) XLSX|استثناء|
 |CELLSJAVA-42762|NumberFormatException أثناء معالجة الملفات|استثناء|
-|CELLSJAVA-42774|NullPointerException عند تحميل ملف CSV|استثناء|
-|CELLSJAVA-42765|استثناء "com.aspose.cells.CellsException" عند تحويل ملف Excel إلى تنسيق ملف PDF|استثناء|
-|CELLSJAVA-42754|استثناء "IllegalStateException: ترميز غير صالح: فارغ" عند إنشاء مثيل بتنسيق ملف XLS|استثناء|
+|CELLSJAVA-42774|NullPointerException عند تحميل CSV|استثناء|
+|CELLSJAVA-42765|استثناء "com.aspose.cells.CellsException" عند تقديم ملف Excel إلى تنسيق ملف PDF|استثناء|
+|CELLSJAVA-42754|استثناء "IllegalStateException: ترميز غير صالح: فارغ" عند إنشاء تنسيق ملف XLS|استثناء|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 
@@ -56,7 +56,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 **يضيف خاصية HtmlSaveOptions.WidthScalable**
 
-يشير إلى ما إذا كان سيتم استخدام وحدة قابلة للقياس لوصف عرض العمود عند تصدير ملف إلى HTML. القيمة الافتراضية هي كاذبة.
+يشير إلى ما إذا كان يتم استخدام وحدة قابلة للتحجيم لوصف عرض العمود عند تصدير ملف إلى HTML. القيمة الافتراضية هي false.
 
 **يضيف خاصية WorkbookDesigner.UpdateEmptyStringAsNull**
 
@@ -92,7 +92,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 **إضافة خاصية TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
 
-يسمح للمستخدم باختيار ما إذا كان يجب اعتبار المحددات المتتالية كمحدد عند استيراد ملف CSV.
+يسمح للمستخدم باختيار ما إذا كان يجب اعتبار المحددات المتتالية كواحد عند استيراد ملف CSV.
 
 **يضيف FormatCondition.SetFormulas (صيغة سلسلة 1 ، صيغة سلسلة 2 ، منطقي هو R1C1 ، طريقة منطقية isLocal)**
 
@@ -155,7 +155,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-12-release-notes/
 
 يشير إلى ما إذا كان يجب أن يكون نوع قيمة الخلية التي تم البحث عنها هو نفسه مع المفتاح الذي تم البحث عنه.
 
-**تقادم FindOptions.SearchNext الخاصية**
+**تقادم FindOptions.SearchNext خاصية**
 
 استخدم خاصية FindOptions.SearchBackward بدلاً من ذلك ، القيمة الحقيقية لهذه الخاصية الجديدة تقابل false لـ SearchNext.
 

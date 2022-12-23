@@ -11,7 +11,7 @@ set GridWorkbookSettings ile belirtebileceğimiz bazı ayarlar var:
  
 - **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/GridWorkbookSettings)**
 
-|**İsim** |**Tanım** |
+|**İsim** |**Açıklama** |
 |:- |:- |
 | Maxİterasyon| Döngüsel bir başvuruyu çözmek için maksimum yineleme sayısını alır veya ayarlar, varsayılan değer 100'dür.|
 | yineleme| Döngüsel başvuruları çözmek için yinelemenin kullanılıp kullanılmayacağını alır veya ayarlar.|

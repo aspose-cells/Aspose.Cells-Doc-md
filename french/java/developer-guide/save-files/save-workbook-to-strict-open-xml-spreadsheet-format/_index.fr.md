@@ -6,7 +6,7 @@ url: /fr/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells vous permet d'enregistrer le classeur dans*Feuille de calcul Open XML stricte*format. A cet effet, il fournit la**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**propriété. Si vous définissez sa valeur comme**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** , le fichier Excel de sortie sera enregistré dans*Feuille de calcul Open XML stricte* format.
+Aspose.Cells vous permet d'enregistrer le classeur dans*Feuille de calcul Open XML stricte*format. A cet effet, il fournit la**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**la propriété. Si vous définissez sa valeur comme**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** le fichier Excel de sortie sera enregistré dans*Feuille de calcul Open XML stricte* format.
 
 ## **Enregistrer le classeur au format de feuille de calcul Open XML strict**
 

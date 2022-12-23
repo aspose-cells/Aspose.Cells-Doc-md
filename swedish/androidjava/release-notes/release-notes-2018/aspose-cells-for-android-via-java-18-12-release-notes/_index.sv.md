@@ -23,7 +23,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.12
 |CELLSJAVA-42734|Problem samtidigt som på varandra följande avgränsare behandlas som distinkta|Förbättring|
 |CELLSJAVA-42731|Datumformatet är felaktigt för japansk språk|Förbättring|
 |CELLSJAVA-42748|LightCells API kan inte ladda en stor fil|Förbättring|
-|CELLSJAVA-42728|Ett undantag (StackOverFlow) uppstår när du sparar till PDF-utdata|Insekt|
+|CELLSJAVA-42728|Ett undantag (StackOverFlow) höjs när du sparar till PDF-utgång|Insekt|
 |CELLSJAVA-42729|Fel värde beräknat av ROUNDUP()|Insekt|
 |CELLSJAVA-42724|Kopiera ett intervall med PasteType.ALL (Klistra in alternativ) som inte kopierar radhöjder korrekt|Insekt|
 |CELLSJAVA-42722|Hyperlänktextformatering förloras när ny text ställs in|Insekt|
@@ -32,23 +32,23 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.12
 |CELLSJAVA-42723|Undantag "java.lang.OutOfMemoryError: Java heap space" vid rendering av MS Excel-fil till PDF|Insekt|
 |CELLSJAVA-42725|Citat visas i formeln när cellformeln hämtas via Aspose.Cells|Insekt|
 |CELLSJAVA-42720|Prestandaförsämring vid användning av villkorlig formatering|Insekt|
-|CELLSJAVA-42737|Diagramlinje saknas i XLSX->PNG-konvertering|Insekt|
+|CELLSJAVA-42737|Diagramlinje saknas i XLSX->PNG konvertering|Insekt|
 |CELLSJAVA-42735|Problem med metoden getActualChartSize|Insekt|
 |CELLSJAVA-40861|SmartArt kopierar inte när arbetsboken kopieras|Insekt|
-|CELLSJAVA-42727|Textformatering saknas i HTML-utdata i Excel-intervallet|Insekt|
+|CELLSJAVA-42727|Textformatering saknas i HTML-utdata i excel-intervallet|Insekt|
 |CELLSJAVA-42744|Ikonuppsättningar blir feljusterade när XLSX konverteras till HTML|Insekt|
 |CELLSJAVA-42772|Export av namngivna intervalldata renderas inte korrekt till HTML (Java)|Insekt|
 |CELLSJAVA-42753|Namngiven Range Issue|Insekt|
 |CELLSJAVA-42764|Validering returnerar alltid sant för 'getInCellDropDown()'-metoden|Insekt|
 |CELLSJAVA-42768|Fel kultur anpassat format returneras för olika platser (Tyskland, franska, Italien och Spanien)|Insekt|
-|CELLSJAVA-42758|Excel till PDF-konvertering - problem med rendering av mätdiagram|Insekt|
-|CELLSJAVA-42761|PDF-återgivning kastar OutOfMemoryError-undantaget|Insekt|
+|CELLSJAVA-42758|Omvandling av Excel till PDF - Problem med återgivning av mätdiagram|Insekt|
+|CELLSJAVA-42761|PDF återgivning ger OutOfMemoryError-undantaget|Insekt|
 |CELLSJAVA-42759|CellsException vid konvertering av filer|Undantag|
-|CELLSJAVA-42755|Undantag "NullPointerException" när XLSX-fil(er) instansieras|Undantag|
+|CELLSJAVA-42755|Undantag "NullPointerException" vid instansiering av XLSX-fil(er)|Undantag|
 |CELLSJAVA-42762|NumberFormatException under bearbetning av filer|Undantag|
-|CELLSJAVA-42774|NullPointerException när en CSV laddas|Undantag|
-|CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till PDF-filformat|Undantag|
-|CELLSJAVA-42754|Undantag "IllegalStateException: Ogiltig kodning: null" vid instansiering av ett XLS-filformat|Undantag|
+|CELLSJAVA-42774|NullPointerException när du laddar en CSV|Undantag|
+|CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till filformatet PDF|Undantag|
+|CELLSJAVA-42754|Undantag "IllegalStateException: Ogiltig kodning: null" vid instansiering av ett XLS filformat|Undantag|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 
@@ -92,7 +92,7 @@ Ger en metod för användare att samla in och bearbeta cirkulära referenser.
 
 **Lägger till egenskapen TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
 
-Tillåter användaren att välja om konsekutiva avgränsare ska tas som en när CSV-fil importeras.
+Tillåter användaren att välja om konsekutiva avgränsare ska tas som en vid import av CSV-fil.
 
 **Lägger till metoden FormatCondition.SetFormulas(strängformel1, strängformel2, bool ärR1C1, bool ärLokal)**
 

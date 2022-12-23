@@ -18,13 +18,13 @@ Aspose.Cells 使您能够使用[**TickLabels.DirectionType**](https://reference.
 
 ### **源文件图像**
 
-![待办事项：图像_替代_文本](change-tick-label-direction_1.jpg)
+![待办事项：图片_替代_文本](change-tick-label-direction_1.jpg)
 
 ### **输出文件图像**
 
-![待办事项：图像_替代_文本](change-tick-label-direction_2.jpg)
+![待办事项：图片_替代_文本](change-tick-label-direction_2.jpg)
 
-以下代码片段将刻度标签方向从[**旋转 90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)至[**水平的**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
+以下代码片段将刻度标签方向从[**旋转 90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90)到[**水平的**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
 ### **示例代码**
 

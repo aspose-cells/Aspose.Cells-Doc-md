@@ -10,9 +10,9 @@ url: /ar/net/data-in-non-primitive-shape/
 
 ## **شكل غير بدائي**
 
- في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي. ليس بدائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . يمكنك التحقق من نوعها باستخدام ملف[**الشكل. نوع تلقائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)منشأه.
+في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي. ليس بدائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . يمكنك التحقق من نوعها باستخدام ملف[**الشكل. نوع تلقائي**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)خاصية.
 
- قم بالوصول إلى بيانات الشكل باستخدام ملف[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)منشأه. تقوم بإرجاع جميع المسارات المتصلة التي تشكل الشكل غير البدائي. هذه المسارات من النوع[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)يحتوي على قائمة بجميع الأجزاء التي تحتوي بدورها على النقاط في كل جزء.
+ قم بالوصول إلى بيانات الشكل باستخدام ملف[**الشكل**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)خاصية. تقوم بإرجاع جميع المسارات المتصلة التي تشكل الشكل غير البدائي. هذه المسارات من النوع[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)يحتوي على قائمة بجميع الأجزاء التي تحتوي بدورها على النقاط في كل جزء.
 
 |**يعرض مثالاً لشكل غير بدائي**|
 |:- |

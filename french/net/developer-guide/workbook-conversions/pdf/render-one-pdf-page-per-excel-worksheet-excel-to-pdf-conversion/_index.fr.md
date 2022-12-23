@@ -1,5 +1,5 @@
 ﻿---
-title: Rendu d'une page PDF par feuille de calcul Excel - Conversion d'Excel en PDF
+title: Rendre une page PDF par feuille de calcul Excel - Conversion d'Excel en PDF
 type: docs
 weight: 100
 url: /fr/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
@@ -18,10 +18,10 @@ Veuillez consulter l'exemple de code suivant qui convertit un fichier Excel avec
 
 {{% alert color="primary" %}} 
 
- Si la[Unepageparfeuille](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) l'option est définie sur**vrai**, tout le contenu de la feuille sera restitué sur une seule page PDF.
+ Si la[Unepageparfeuille](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) l'option est définie sur**vrai**, tout le contenu de la feuille sera rendu sur une page PDF.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Si votre feuille de calcul contient des formules, il est préférable d'appeler[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)juste avant de rendre la feuille de calcul au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+Si votre feuille de calcul contient des formules, il est préférable d'appeler[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}

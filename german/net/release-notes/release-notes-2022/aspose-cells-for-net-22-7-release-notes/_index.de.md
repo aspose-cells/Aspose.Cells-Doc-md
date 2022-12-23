@@ -16,7 +16,7 @@ url: /de/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51355|Und Range.Top, Left, Width, Height in Punkteinheiten|
 |CELLSNET-51367|Konvertieren Sie alle Blätter beim Speichern als HTML in eine Seite.|
 |CELLSNET-51486|Der Text wird als kleine Quadrate wiedergegeben|
-|CELLSNET-51492|Beim Konvertieren von XLSX in HTML wird die Standardschriftart nicht angewendet|
+|CELLSNET-51492|Die Standardschriftart wird beim Konvertieren von XLSX in HTML nicht angewendet|
 |CELLSNET-51306|Pivot-Tabellenstile werden mit der neuesten Version von Aspose.Cells for .NET nicht richtig kopiert|
 |CELLSNET-51268|Problem mit der COUNTIFS-Formel, die 0 falsch behandelt|
 |CELLSNET-51297|Cell.GetPrecedents() liefert nicht alle Präzedenzfälle, wenn die Formel auf den definierten Namen verweist|
@@ -29,20 +29,20 @@ url: /de/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51001|Formobjekt auf dem Diagramm ist nicht gut positioniert|
 |CELLSNET-51156| Diagramm-zu-Bild-Konvertierung - Unterschiedliche Anzeige des Diagramms im Ausgabebild|
 |CELLSNET-51213|3D-Kreisdiagramm wird nicht richtig gerendert – Diagramm-zu-Bild-Konvertierung|
-|CELLSNET-51472|Diagrammbeschriftungen fehlen in SVG, wenn es auf äußeres Ende eingestellt ist|
-|CELLSNET-51491|Falsche Werte in Diagrammserien beim Rendern in Bild oder HTML|
-|CELLSNET-51525|Wasserfalldiagramme unterscheiden sich beim Export in HTML/PNG oder PDF|
+|CELLSNET-51472|Diagrammbeschriftungen fehlen bei SVG, wenn es auf äußeres Ende eingestellt ist|
+|CELLSNET-51491|Falsche Werte in Diagrammreihen beim Rendern in Bild oder HTML|
+|CELLSNET-51525|Das Wasserfalldiagramm ist anders, wenn es nach HTML/PNG oder PDF exportiert wird|
 |CELLSNET-51353|Beim Konvertieren einer XLSB-Datei mit DDE-Link in eine XLSM-Datei ändert sich die Position der DDE-Anwendung im Link|
 |CELLSNET-51376|Die Seitengröße wird automatisch von A4 geändert ? Brief für ein Blatt|
-|CELLSNET-51379| Externer Link vom Typ OLE in XLS-Datei wird als vom Typ DDE gelesen|
+|CELLSNET-51379| Externer Link vom Typ OLE in Datei XLS wird als vom Typ DDE gelesen|
 |CELLSNET-51402|Der Inhalt wird beim Speichern der HTML-Datei aus der Zelle verschoben|
 |CELLSNET-51417|Links von Form zu Blatt in Datei werden nach dem Upgrade von 22.5 auf 22.6.1 entfernt|
-|CELLSNET-51418|Ein externer Link vom Typ xlPathMissing wird bei der XLSB-zu-XLSM-Konvertierung in den normalen externalLinkPath-Typ geändert|
+|CELLSNET-51418|Ein externer Link vom Typ xlPathMissing wird bei der Konvertierung von XLSB in XLSM in den normalen Typ externalLinkPath geändert|
 |CELLSNET-51420|Unterschiede in den Dokumenteigenschaften in der Datei app.xml|
 |CELLSNET-51427|Externer Link mit Sonderzeichen „#“, das nicht durch Aspose.Cells maskiert wird|
 |CELLSNET-51482|Das Kombinieren von Blättern aus verschiedenen Arbeitsmappen führt zu einer beschädigten Datei, die MS Excel zum Absturz bringen kann|
-|CELLSNET-51507|Zahlenwerte aus der XLSX-Datei werden als 0 gelesen|
-|CELLSNET-51280|Ausnahme beim Speichern der ODS-Datei (RB-60121)|
+|CELLSNET-51507|Zahlenwerte aus der Datei XLSX werden als 0 gelesen|
+|CELLSNET-51280|Ausnahme beim Speichern der Datei ODS (RB-60121)|
 |CELLSNET-51483|Das Laden der Datei schlägt fehl mit der Ausnahme "Quell-Array war nicht lang genug ..."|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

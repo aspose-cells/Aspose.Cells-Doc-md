@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /tr/cpp/ways-to-calculate-formulas/
 ---
-## **giriiş**
+## **Giriş**
 Aspose.Cells yerleşik bir formül hesaplama motoruna sahiptir. Yalnızca tasarımcı şablonlarından içe aktarılan formülleri yeniden hesaplamakla kalmaz, aynı zamanda çalışma zamanında eklenen formüllerin sonuçlarının hesaplanmasını da destekler.
 ## **Formül Ekleme ve Sonuçları Hesaplama**
 Aspose.Cells, Microsoft Excel'in parçası olan formüllerin veya işlevlerin çoğunu destekler. API aracılığıyla veya tasarımcı elektronik tabloları kullanılarak kullanılabilirler. Aspose.Cells, çok sayıda matematiksel, dizi, boole, tarih/saat, istatistik, arama ve referans formüllerini destekler.

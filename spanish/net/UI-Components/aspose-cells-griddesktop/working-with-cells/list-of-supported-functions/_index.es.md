@@ -19,7 +19,7 @@ Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Esta
 - EN T
 - LN,REGISTRO,REGISTRO10
 - MODIFICACIÓN
-- EXTRAÑO
+- IMPAR
 - PI, POTENCIA, PRODUCTO
 - RADIANES, ALEATORIO, REDONDO, REDONDO HACIA ABAJO, REDONDO HACIA ARRIBA
 - SEÑAL,PECADO,PECADO
@@ -32,7 +32,7 @@ Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Esta
 - ENCONTRAR, FIJO
 - IZQUIERDO, LEN, INFERIOR
 - MEDIO
-- JUEGO
+- FÓSFORO
 - REEMPLAZAR,REPETIR,DERECHO
 - BUSCAR,SUSTITUIR
 - T, TEXTO, RECORTE
@@ -81,7 +81,7 @@ Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Esta
 - CONTAR
 - CONTARA
 - ÍNDICE
-- CÉLULA
+- CELDA
 - MEDIANA
 - TIPO.ERROR
 - ESTÁ EN BLANCO
@@ -95,7 +95,7 @@ Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Esta
 - N / A
 - ESCRIBE
 - CUENTA EN BLANCO
-- LARGO
+- GRANDE
 - MAXA
 - MINA
 - PROMEDIOA
@@ -103,7 +103,7 @@ Hay muchas funciones integradas compatibles con Aspose.Cells Grid Controls. Esta
 - PERCENTIL
 - RANGO PORCENTUAL
 - RANGO
-- ELEGIR
+- ESCOGER
 - BUSCARH
 - PEQUEÑO (Admitido en Aspose.Cells. GridWeb solamente)
 

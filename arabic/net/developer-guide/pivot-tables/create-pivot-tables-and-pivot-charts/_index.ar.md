@@ -1,5 +1,5 @@
 ﻿---
-title: إنشاء الجداول المحورية والمخططات المحورية
+title: إنشاء جداول محورية ومخططات محورية
 type: docs
 weight: 20
 url: /ar/net/create-pivot-tables-and-pivot-charts/

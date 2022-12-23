@@ -8,7 +8,7 @@ url: /de/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 Manchmal müssen Sie einige notwendige Formen in das Arbeitsblatt einfügen. Möglicherweise müssen Sie dieselbe Form an verschiedenen Positionen des Arbeitsblatts einfügen. Oder Sie müssen Formen im Stapelbetrieb in das Arbeitsblatt einfügen.
 
- Keine Sorge![Aspose.Cells](https://products.aspose.com/cells/) unterstützt all diese Operationen.
+ Keine Sorgen![Aspose.Cells](https://products.aspose.com/cells/)unterstützt all diese Operationen.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Die Formen in Excel werden hauptsächlich in die folgenden Typen unterteilt:
 - **Sterne und Banner**
 - **Beschriftungen**
 
-In diesem Leitfaden werden ein oder zwei Formen von jedem Typ ausgewählt, um Muster herzustellen. Anhand dieser Beispiele lernen Sie, wie man sie verwendet[Aspose.Cells](https://products.aspose.com/cells/) um die angegebene Form in das Arbeitsblatt einzufügen.
+ In diesem Leitfaden werden ein oder zwei Formen von jedem Typ ausgewählt, um Muster herzustellen. Anhand dieser Beispiele lernen Sie, wie man sie verwendet[Aspose.Cells](https://products.aspose.com/cells/) um die angegebene Form in das Arbeitsblatt einzufügen.
 
 
 
@@ -62,7 +62,7 @@ Führen Sie den obigen Code aus, Sie erhalten die folgenden Ergebnisse:
 
 ## **Einfügen eines Linienpfeils in das Arbeitsblatt**
 
- Die Form des Linienpfeils gehört zu den**Linien**Kategorie. Es ist ein Sonderfall von line.
+ Die Form des Linienpfeils gehört zu den**Linien** Kategorie. Es ist ein Sonderfall von line.
 
 ***In Microsoft Excel (z. B. 2007):***
 
@@ -130,7 +130,7 @@ Führen Sie den obigen Code aus, Sie erhalten die folgenden Ergebnisse:
 
 ## **Einfügen eines Würfels in ein Arbeitsblatt**
 
- Die Form des Würfels gehört zu den**Grundformen** Kategorie.
+Die Form des Würfels gehört zu den**Grundformen** Kategorie.
 
 ***In Microsoft Excel (z. B. 2007):***
 
@@ -232,7 +232,7 @@ Führen Sie den obigen Code aus, Sie erhalten die folgenden Ergebnisse:
 
 ## **Einfügen eines Multidokuments in ein Arbeitsblatt**
 
-Die Form des Multidokuments gehört zu den**Flussdiagramme** Kategorie.
+ Die Form des Multidokuments gehört zu den**Flussdiagramme** Kategorie.
 
 ***In Microsoft Excel (z. B. 2007):***
 

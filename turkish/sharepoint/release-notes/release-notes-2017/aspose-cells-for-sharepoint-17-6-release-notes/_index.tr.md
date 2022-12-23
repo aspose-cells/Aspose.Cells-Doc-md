@@ -12,7 +12,7 @@ Bu sayfa Aspose.Cells for SharePoint 17.6 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSSP-25|XLSM dosya biçimine dönüştürmeyi destekler|Yeni özellik|
+|CELLSSP-25|XLSM dosya biçimine dönüştürme desteği|Yeni özellik|
 |CELLSSP-45|Excel belgesine Filigran ekleme|Yeni özellik|
 |CELLSSP-46|Excel belgesine altbilgi ekleme|Yeni özellik|
 |CELLSSP-38|Dönüştürme özelliği için geliştirmeler yapıldı|Artırma|

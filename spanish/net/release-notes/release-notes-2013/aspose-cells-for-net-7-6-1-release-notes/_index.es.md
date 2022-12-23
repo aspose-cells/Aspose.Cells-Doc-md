@@ -22,7 +22,7 @@ url: /es/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 - Problema de tabla dinámica con marcadores inteligentes
 
- 41528 - Problemas de formato en el PDF de salida
+ 41528 - Problemas de formato en la salida PDF
 
  \2) Aspose.Cells.GridWeb
 

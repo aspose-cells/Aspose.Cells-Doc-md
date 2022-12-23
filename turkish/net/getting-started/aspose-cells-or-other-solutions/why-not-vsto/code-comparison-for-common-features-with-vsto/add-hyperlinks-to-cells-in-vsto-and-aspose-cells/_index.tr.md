@@ -18,7 +18,7 @@ Bu adımlar aşağıdaki kod örneklerinde gösterilmektedir. İlk örnekler, bi
 
 Kod örnekleri, ilk çalışma sayfasındaki A1 hücresinde köprü bulunan bir Excel dosyası oluşturur.
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 A1 hücresine bir köprü eklenir.
 

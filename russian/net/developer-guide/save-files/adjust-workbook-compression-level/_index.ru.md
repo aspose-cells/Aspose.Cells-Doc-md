@@ -6,7 +6,7 @@ url: /ru/net/adjust-workbook-compression-level/
 ---
 ## **Настройка уровня сжатия рабочей книги**
 
-Разработчики могут настроить уровень сжатия книги при работе с большими книгами. Разработчики могут отдавать предпочтение файлам меньшего размера, а не времени обработки, или наоборот. Aspose.Cells предоставляет**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** перечисление, которое можно использовать для установки уровня сжатия книги.**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** перечисление предоставляет следующие члены.
+Разработчики могут настроить уровень сжатия книги при работе с большими книгами. Разработчики могут отдавать предпочтение файлам меньшего размера, а не времени обработки, или наоборот. Aspose.Cells предоставляет**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** перечисление, которое можно использовать для установки уровня сжатия книги.**[OoxmlCompressionType](https://reference.aspose.com/cells/net/aspose.cells/ooxmlcompressiontype)** перечисление предоставляет следующие элементы.
 
 - Уровень 1: самое быстрое, но наименее эффективное сжатие.
 - Уровень 2: немного медленнее, но лучше, чем уровень 1.

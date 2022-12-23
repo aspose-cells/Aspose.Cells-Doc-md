@@ -17,29 +17,29 @@ url: /es/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26627 - Establecer las propiedades del eje, como el valor Máx./Mín. como "Automático"
 
- 26655 - Exportar imágenes GIF animadas para archivo HTML
+ 26655 - Exportar imágenes animadas GIF para el archivo HTML
 
  26607 - Soporte para calcular la función EOMONTH
 ### **Mejoras**
- 26655 - Fecha de importación/exportación y estilos de borde para archivo ODS
+ 26655 - Fecha de importación/exportación y estilos de borde para el archivo ODS
 
  27317 - Mantener la miniatura del gráfico vuelto a guardar igual que el archivo original al incrustar XLS en PPT
 
  27214 - Hacer que los elementos del campo pivote se oculten/muestren
 
  26626 - Leer/Guardar estilos de tabla dinámica
-### **Actuación**
+### **Rendimiento**
  27041 - La lectura de archivos ODS causa problemas de memoria
 ### **Excepciones**
- 26710 - Obtiene una excepción al leer controles de formulario desde un archivo XLSX
+ 26710 - Obtiene una excepción al leer controles de formulario del archivo XLSX
 
- 27128 - Manejar "NumberFormatException" al leer un archivo ODS cuyo índice de fila del panel dividido excede el límite de Corto
+ 27128 - Manejar "NumberFormatException" al leer el archivo ODS cuyo índice de fila del panel dividido excede el límite de Short
 
 27578: se produjo una excepción "IllegalArgumentException" al leer archivos ODS cuya definición de ancho de columna supera el límite del archivo de Excel
 
  27773 - Hacer frente a "ArrayIndexOutOfBoundsException" al leer hipervínculos del archivo ODS
 
- 27780 - Obtener "NumberFormatException" al renderizar un archivo PDF
+ 27780 - Obtener "NumberFormatException" al procesar el archivo PDF
 ### **Insectos**
  26563 - Problema con la escala del eje en la función Gráfico a imagen
 
@@ -77,7 +77,7 @@ url: /es/java/aspose-cells-for-java-2-5-4-release-notes/
 
  26561 - Problema con la alineación correcta de números grandes para la función Hoja a imagen
 
- 27792 - Guardar formato de fecha personalizado en archivo ODS
+ 27792 - Guardar formato de fecha personalizado en el archivo ODS
 
  27445 - Problema de escala del eje en la función Gráfico a imagen
 

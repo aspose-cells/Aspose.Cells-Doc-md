@@ -20,4 +20,4 @@ url: /es/java/aspose-cells-for-java-7-5-2-release-notes/
 
  Insectos
 
- 40553 - La representación de Excel a PDF no representa gráficos con JDK1.7.0_21
+ 40553 - La representación de Excel en PDF no genera gráficos con JDK1.7.0_21

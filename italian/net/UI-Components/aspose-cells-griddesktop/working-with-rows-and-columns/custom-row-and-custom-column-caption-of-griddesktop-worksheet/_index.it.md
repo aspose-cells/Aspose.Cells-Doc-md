@@ -13,5 +13,5 @@ Il codice di esempio seguente implementa le interfacce ICustomRowCaption e ICust
 
 ![cose da fare:immagine_alt_testo](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithRowsandColumns-Form_CustomRowAndCustomColumnCaptionOfGridDesktopWorksheet.cs" >}}

@@ -17,7 +17,7 @@ url: /ja/reportingservices/setting-conditional-formatting-for-report-item/
 
 1. セル I6 を選択し、テーブル レポート アイテムのこのセルに条件付き書式を追加します。
  1. 1000 未満のセルを薄い赤で塗りつぶし、濃い赤のテキストで書式設定します。
- 1. 1000 を超えるセルを明るい黄色の塗りつぶしで濃い黄色のテキストで書式設定します。
+1. 1000 を超えるセルを明るい黄色の塗りつぶしで濃い黄色のテキストで書式設定します。
 1.  1 つのセルにさらに条件付き書式を設定します。
 
 ![todo:画像_代替_文章](setting-conditional-formatting-for-report-item_2.png)

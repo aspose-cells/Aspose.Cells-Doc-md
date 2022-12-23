@@ -10,7 +10,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% /alert %}} 
 ## **Добавлена поддержка предупреждения о замене шрифта.**
-В Aspose.Cells for .NET 8.1.2 были добавлены классы WarningInfo, WarningType, интерфейс IWarningCallback и свойства SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback, чтобы облегчить пользователю получение предупреждений, если происходит замена шрифта при преобразовании электронных таблиц в изображения или формат PDF.
+В версии Aspose.Cells for .NET 8.1.2 были добавлены классы WarningInfo, WarningType, интерфейс IWarningCallback и свойства SaveOptions.WarningCallback, ImageOrPrintOptions.WarningCallback, чтобы облегчить пользователю получение предупреждения, если при преобразовании электронных таблиц в изображения или формат PDF происходит замена шрифта.
 
 {{% alert color="primary" %}} 
 

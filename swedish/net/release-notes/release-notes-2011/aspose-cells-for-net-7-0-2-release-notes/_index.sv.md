@@ -22,7 +22,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30919 Arbetsbladets TabColor-egenskap för kalkylblad av diagramtyp
 
- 25224 Exportera data utan XLS-begränsning till SpreadsheetML-fil
+ 25224 Exportera data utan begränsning XLS till SpreadsheetML fil
 
  30672 Smarta markörer - Så här grupperar du rader (beräkna totalsummor, delsummor och totalsummor)
 
@@ -30,27 +30,27 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30548 StackOverflowException inträffade när vissa filer öppnades
 
- 30609 Arbetsbokskonstruktorn kastar NullReferenceException
+30609 Arbetsbokskonstruktorn kastar NullReferenceException
 
  30989 Undantag: Ogiltig Excel2007Xlsx-fil
 
  Buggar
 
- 29663 Konvertera Excel till PDF (problem med saknade element)
+ 29663 Konvertera Excel-till-PDF (problem med saknade element)
 
-29692 Problem i Excel-till-PDF-konvertering
+ 29692 Problem i Excel-till-PDF konvertering
 
  29840 Problem med version 6.0.1.3 (avseende diagram)
 
  30102 Problem med diagrambild angående dataetiketter och felstaplar
 
- 30270 Utskriftsproblem - Siffror visas som "#######"
+ 30270 Utskriftsproblem - Numbers visas som "#######"
 
  30533 Problem med DeleteRange-funktionen
 
  30603 EMF Vs PNG Issue
 
- 30729 Wrap-problem vid konvertering av XLS-till-PDF
+ 30729 Wrap-problem vid konvertering av XLS till PDF
 
  30755 Att spara som SaveFormat.XLSM orsakar fel
 
@@ -62,11 +62,11 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30877 Datum visas som serienummer i diagram
 
- 30918 Bildproblem vid lagring i XLS-format
+ 30918 Bildproblem när du sparar i formatet XLS
 
- 30949 Cell innehåll delas halvvägs genom ett ord när XLS-till-PDF konverteras
+30949 Cell innehåll delas halvvägs genom ett ord när XLS-till-PDF konverteras
 
- 30980 Laddar och uppdaterar XLSM och sedan sparar orsakar FEL
+ 30980 Laddar och uppdaterar XLSM sedan sparar orsakar FEL
 
  30998 Problem med Excel 2010 och XLSM
 
@@ -74,7 +74,7 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31005 Negativa värden inom parentes
 
-31068 Spara fil kraschar efter att ha använt DeleteRange-metoden i vissa fall
+ 31068 Spara fil kraschar efter att ha använt DeleteRange-metoden i vissa fall
 
  31078 Uppdatera pivottabell - Den sorterar inte korrekt
 
@@ -100,4 +100,4 @@ url: /sv/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31053 Parametern är inte giltig undantag inträffade i GridDesktop
 
- 31071 Felaktig rendering av dokument via metoden GridDesktop.ImportExcelFile
+31071 Felaktig rendering av dokument via metoden GridDesktop.ImportExcelFile

@@ -6,7 +6,7 @@ url: /ar/java/change-adjustment-values-of-the-shape/
 ---
 {{% alert color="primary" %}} 
 
- يوفر Aspose.Cells[Shape.getGeometry (). getShapeAdjustValues ()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) خاصية لإجراء تغييرات على نقاط الضبط مع الأشكال. في Microsoft Excel UI ، يتم عرض التعديلات كعقد ماسية صفراء. فمثلا:
+ يوفر Aspose.Cells[Shape.getGeometry (). getShapeAdjustValues ()](https://reference.aspose.com/cells/java/com.aspose.cells/geometry#ShapeAdjustValues) خاصية لإجراء تغييرات على نقاط الضبط مع الأشكال. في Microsoft Excel UI ، يتم عرض التعديلات كعقد ماسية صفراء. على سبيل المثال:
 
 - مستطيل مدور لديه تعديل لتغيير القوس
 - المثلث لديه تعديل لتغيير موقع النقطة

@@ -30,6 +30,6 @@ Il codice di esempio seguente modifica il tipo di forma delle etichette dati del
 
 ![cose da fare:immagine_alt_testo](set-the-shape-type-of-data-labels-of-chart_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-SetShapeTypeOfDataLabelsOfChart.java" >}}

@@ -14,7 +14,7 @@ url: /zh/net/display-or-hide-gridlines-in-aspose-cells/
 
 Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)，代表一个 Microsoft Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类包含一个[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)允许访问 Excel 文件中每个工作表的集合。
 
-工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制网格线的可见性，请使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级'[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)财产。[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)是一个布尔属性，这意味着它只能存储一个**真的**或者**错误的**价值。
+工作表由[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级。这[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类提供了广泛的属性和方法来管理工作表。要控制网格线的可见性，请使用[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)班级'[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)财产。[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)是一个布尔属性，这意味着它只能存储一个**真的**要么**错误的**价值。
 
 下面给出了一个完整的示例，演示了[**网格线是否可见**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)的财产[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)类隐藏 Excel 文件第一个工作表的网格线。
 
@@ -22,13 +22,13 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 **Book1.xls：修改前的工作表视图** 
 
-![待办事项：图像_替代_文本](display-or-hide-gridlines-in-aspose-cells_1.png)
+![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_1.png)
 
 Book1.xls 文件是使用 Workbook 类打开的，第一个工作表上的网格线是隐藏的。修改后的文件保存为 output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图像_替代_文本](display-or-hide-gridlines-in-aspose-cells_2.png)
+![待办事项：图片_替代_文本](display-or-hide-gridlines-in-aspose-cells_2.png)
 
 **C#**
 

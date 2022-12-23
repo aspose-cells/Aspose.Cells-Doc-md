@@ -20,7 +20,7 @@ url: /de/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Verbesserungen wurden für die Sheet-to-Image-Funktion vorgenommen
 
- Es wurden Verbesserungen für die Excel-zu-PDF-Funktion vorgenommen
+ Für die Excel-zu-PDF-Funktion wurden Verbesserungen vorgenommen
 
 
 
@@ -36,25 +36,25 @@ url: /de/java/aspose-cells-for-java-7-0-2-release-notes/
 
  29151 – Unterstützung der Gruppierungsdatenfunktion in Smart Markers
 
- 30673 - Unterstützung der Sortierfunktion für Daten in Smart Markern
+ 30673 - Unterstützung der Sortierfunktion für Daten in Smart Markers
 
- 30809 – Fügen Sie beim Speichern von XLS-Dateien weitere Formatbedingungstypen (für die Funktion „Bedingte Formatierung“) hinzu
+ 30809 – Fügen Sie beim Speichern der Datei XLS weitere Formatierungsbedingungstypen (für die Funktion „Bedingte Formatierung“) hinzu
 
- 31192 – Unterstützter Verschlüsselungstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-Bit
+31192 – Unterstützter Verschlüsselungstyp: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-Bit
 
  Ausnahmen
 
-30733 – Es wird eine Ausnahme ausgegeben, wenn wissenschaftliche Werte für die Validierungsformel verwendet werden
+ 30733 – Es wird eine Ausnahme ausgegeben, wenn wissenschaftliche Werte für die Validierungsformel verwendet werden
 
  30748 – Das Lesen einer verschlüsselten Excel2007-Vorlagendatei verursacht eine Ausnahme
 
  30971 – Eine Ausnahme für die Methode Cell.getStringValue() erhalten
 
- 30994 – Ausnahme beim Speichern von XLSX mit LightCells-APIs
+ 30994 – Erhalten Sie eine Ausnahme beim Speichern von XLSX mit LightCells-APIs
 
  Fehler
 
- 30616 – Bild geht in XLS-zu-PDF-Funktion verloren
+ 30616 – Bildverlust in XLS-zu-PDF-Funktion
 
  30695 - X/Y-Achse in Diagramm-zu-Bild-Funktion verloren
 
@@ -70,11 +70,11 @@ url: /de/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 – TextBox.setHtmlText() hat Rich-Text nicht korrekt geparst
 
- 30479 – Für den Zellenwert wurde in der generierten PDF-Datei eine zusätzliche Klammer hinzugefügt
+30479 – Für den Zellenwert wurde in der generierten PDF-Datei eine zusätzliche Klammer hinzugefügt
 
  30899 – Der skalierte Wert des neu hinzugefügten Bildes wurde in der gespeicherten XLS-Datei geändert
 
-30972 – Der Inhalt des Textfelds wurde in der PDF-Datei nicht korrekt gerendert
+ 30972 – Der Inhalt des Textfelds wurde in der Datei PDF nicht korrekt gerendert
 
  31050 - Cell.getStringValue() gab nicht den korrekten Double-Wert zurück
 
@@ -86,6 +86,6 @@ url: /de/java/aspose-cells-for-java-7-0-2-release-notes/
 
  31237 – Formel wurde als „#WERT“ -2 berechnet
 
- 31005 - Klammern gingen für die negativen Werte in der generierten PDF-Datei verloren
+ 31005 – Klammern gingen für die negativen Werte in der generierten PDF-Datei verloren
 
  31312 - ROUND-Formel wurde falsch berechnet

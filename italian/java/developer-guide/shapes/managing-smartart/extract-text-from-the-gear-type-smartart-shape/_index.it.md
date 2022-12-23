@@ -12,7 +12,7 @@ Aspose.Cells può estrarre il testo dalla forma artistica intelligente del tipo 
 
 Il codice di esempio seguente carica il file[esempio di file Excel](67338510.xlsx)che contiene Gear Type Smart Art Shape. Quindi estrae il testo dalle sue singole forme come discusso sopra. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "DrawingObjects-ExtractTextFromGearTypeSmartArtShape.java" >}}
 

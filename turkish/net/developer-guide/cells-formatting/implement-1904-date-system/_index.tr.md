@@ -12,13 +12,13 @@ Microsoft Excel iki tarih sistemini destekler: 1900 tarih sistemi (Windows için
 
 1904 tarih sistemini Microsoft Excel'de uygulamak için (örneğin Microsoft Excel 2003):
 
-1.  itibaren**Aletler** menü, seç**Seçenekler** ve öğesini seçin**Hesaplama** sekme.
+1.  itibaren**Araçlar** menü, seç**Seçenekler** ve öğesini seçin**Hesaplama** sekme.
 1.  seçin**1904 tarih sistemi** seçenek.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 |**Microsoft Excel'de 1904 tarih sistemi seçiliyor**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](implement-1904-date-system_1.png)|
+|![yapılacaklar:resim_alternatif_metin](implement-1904-date-system_1.png)|
 Aspose.Cells API'lerini kullanarak bunun nasıl elde edileceğini öğrenmek için aşağıdaki örnek koda bakın.
 
 

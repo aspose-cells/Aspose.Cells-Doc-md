@@ -6,7 +6,7 @@ url: /fr/java/change-character-spacing-of-excel-textbox-or-shape/
 ---
 {{% alert color="primary" %}} 
 
- Vous pouvez modifier l'espacement des caractères de la zone de texte ou de la forme Excel à l'aide de la[FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing) propriété.
+ Vous pouvez modifier l'espacement des caractères de la zone de texte ou de la forme Excel à l'aide de la[FontSetting.TextOptions.Spacing](https://reference.aspose.com/cells/java/com.aspose.cells/textoptions#Spacing) la propriété.
 
 {{% /alert %}} 
 ## **Modifier l'espacement des caractères d'Excel TextBox ou Shape**

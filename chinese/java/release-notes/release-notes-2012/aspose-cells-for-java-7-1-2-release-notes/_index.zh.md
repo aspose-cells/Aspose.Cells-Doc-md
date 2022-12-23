@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-1-2-release-notes/
 我们是
 很高兴宣布 Aspose.Cells for Java v7.1.2！
 
-新的功能
+新功能
 
  – 支持Cells.importCustomObjects()方法导入POJO
 

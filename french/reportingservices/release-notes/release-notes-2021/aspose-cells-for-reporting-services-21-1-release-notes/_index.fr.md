@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Reporting Service
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSRS-573|Prise en charge du MHtml exporté.|Nouvelle fonctionnalité|
 |CELLSRS-574|Met à niveau la version Aspose.Cells vers 21.1.|Tâche|

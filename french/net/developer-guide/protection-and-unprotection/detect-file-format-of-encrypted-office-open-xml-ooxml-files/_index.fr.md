@@ -6,7 +6,7 @@ url: /fr/net/detect-file-format-of-encrypted-office-open-xml-ooxml-files/
 ---
 {{% alert color="primary" %}} 
 
-**Office XML ouvert**(aussi connu sous le nom**OOXML**ou**Microsoft XML ouvert**(MOX)) est un format de fichier basé sur XML développé par Microsoft pour représenter des documents de bureau tels que des feuilles de calcul, des graphiques, des présentations et des documents de traitement de texte.
+**Office XML ouvert**(aussi connu sous le nom**OOXML**ou alors**Microsoft XML ouvert**(MOX)) est un format de fichier basé sur XML développé par Microsoft pour représenter des documents de bureau tels que des feuilles de calcul, des graphiques, des présentations et des documents de traitement de texte.
 
 {{% /alert %}} 
 

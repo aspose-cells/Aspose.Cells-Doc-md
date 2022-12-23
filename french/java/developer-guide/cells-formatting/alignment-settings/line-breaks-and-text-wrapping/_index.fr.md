@@ -12,7 +12,7 @@ Pour s'assurer que le texte d'une cellule peut être lu, des sauts de ligne et d
 
 ## **Pour envelopper du texte dans un Cell**
 
- Pour envelopper du texte dans une cellule, utilisez la[**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)propriété.
+ Pour envelopper du texte dans une cellule, utilisez la[**Aspose.Cells.Style.setTextWrapped**](https://reference.aspose.com/cells/java/com.aspose.cells/style#IsTextWrapped)la propriété.
 
 L'exemple de code suivant montre comment utiliser l'habillage du texte et les sauts de ligne explicites dans une cellule.
 

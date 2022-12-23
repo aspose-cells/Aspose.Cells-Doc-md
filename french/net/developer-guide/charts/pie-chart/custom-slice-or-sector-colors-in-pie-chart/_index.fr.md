@@ -13,7 +13,7 @@ Cet article explique comment ajouter des couleurs personnalisées aux tranches/s
 Pour définir une couleur personnalisée pour les tranches ou les secteurs individuels d'un graphique à secteurs :
 
 1.  Accéder au[**Série**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objets[**Point de graphique**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint).
-1.  Attribuez la couleur de votre choix à l'aide des[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)propriété.
+1.  Attribuez la couleur de votre choix à l'aide des[**ChartPoint.Area.ForegroundColor**](https://reference.aspose.com/cells/net/aspose.cells.drawing/area/properties/foregroundcolor)la propriété.
 
 Cet article explique également comment :
 

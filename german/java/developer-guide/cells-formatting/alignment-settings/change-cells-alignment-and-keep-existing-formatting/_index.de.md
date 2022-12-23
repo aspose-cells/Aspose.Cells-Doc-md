@@ -6,7 +6,7 @@ url: /de/java/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber auch die vorhandene Formatierung beibehalten. Aspose.Cells ermöglicht Ihnen dies mit der[**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) Eigentum. Wenn Sie es einstellen**Stimmt** , Ausrichtungsänderungen finden sonst nicht statt. Bitte beachten Sie,[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) Objekt wird als Parameter an übergeben[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))-Methode, die die Formatierung tatsächlich auf den Zellbereich anwendet.
+Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber auch die vorhandene Formatierung beibehalten. Aspose.Cells ermöglicht Ihnen dies mit der[**StyleFlag.Alignments**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) Eigentum. Wenn Sie es einstellen**wahr** , Ausrichtungsänderungen finden sonst nicht statt. Bitte beachten Sie,[**StyleFlag**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) Objekt wird als Parameter an übergeben[**Range.applyStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag))-Methode, die die Formatierung tatsächlich auf den Zellbereich anwendet.
 
 ## **Ändern Sie die Cells-Ausrichtung und behalten Sie die vorhandene Formatierung bei**
 

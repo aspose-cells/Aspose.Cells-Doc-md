@@ -18,4 +18,4 @@ Följande kod kommer åt den första diagrampunkten i den första serien, ställ
 
 ## relaterade artiklar
 
-- [Ställ in formtyp för dataetiketter för diagram](/cells/sv/java/set-the-shape-type-of-data-labels-of-chart/)
+- [Ställ in formtypen för dataetiketter för diagram](/cells/sv/java/set-the-shape-type-of-data-labels-of-chart/)

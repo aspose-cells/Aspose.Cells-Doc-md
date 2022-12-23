@@ -6,7 +6,7 @@ url: /fr/net/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Parfois, vous souhaitez modifier l'alignement de plusieurs cellules, mais souhaitez également conserver la mise en forme existante. Aspose.Cells vous permet de le faire en utilisant le[**StyleFlag.Alignements**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) propriété. Si vous le réglez**vrai** , des changements d'alignement auront lieu sinon. Veuillez noter,[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objet est passé en paramètre à[**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)méthode qui applique réellement la mise en forme à une plage de cellules.
+Parfois, vous souhaitez modifier l'alignement de plusieurs cellules, mais souhaitez également conserver la mise en forme existante. Aspose.Cells vous permet de le faire en utilisant le[**StyleFlag.Alignements**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) la propriété. Si vous le réglez**vrai** , des changements d'alignement auront lieu sinon. Veuillez noter,[**StyleDrapeau**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) objet est passé en paramètre à[**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)méthode qui applique réellement la mise en forme à une plage de cellules.
 
 ## **Modifier l'alignement Cells et conserver la mise en forme existante**
 

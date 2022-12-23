@@ -9,6 +9,6 @@ url: /tr/reportingservices/creating-table-item/
  Yeni tablo öğesi oluşturmak için, bölümünde açıklanan adımları izleyin.[Tablolu Rapor Oluşturma](https://docs.aspose.com/cells/reportingservices/creating-tabular-report/).
 Aşağıda örnek bir rapor tablosu bulunmaktadır.
 
-![yapılacaklar:resim_alternatif_Metin](creating-table-item_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-table-item_1.png)
 
 {{% /alert %}}

@@ -42,7 +42,7 @@ workbook.save(data_dir + "HelloWorld.xls", file_format_type.EXCEL_97_TO_2003)
 puts "Document has been saved, please check the output file."
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**Hello World (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/helloworld.rb)

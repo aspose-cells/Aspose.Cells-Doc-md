@@ -14,8 +14,8 @@ OLE (Vinculación e incrustación de objetos) es el marco de trabajo de Microsof
 
 Aspose.Cells admite agregar, extraer y manipular objetos OLE en hojas de trabajo. Por esta razón, Aspose.Cells tiene la[**OleObjectCollectionOleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) clase, utilizada para agregar un nuevo objeto OLE a la lista de recopilación. Otra clase,[**Objeto OLE**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representa un objeto OLE. Tiene algunos miembros importantes:
 
--  los[**Datos de imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propiedad especifica los datos de la imagen (icono) del tipo de matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de trabajo.
--  los[**ObjetoDatos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propiedad especifica los datos del objeto en forma de una matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando haga doble clic en el icono Objeto OLE.
+-  Él[**Datos de imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propiedad especifica los datos de la imagen (icono) del tipo de matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de trabajo.
+-  Él[**ObjetoDatos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propiedad especifica los datos del objeto en forma de una matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando haga doble clic en el icono Objeto OLE.
 
 El siguiente ejemplo muestra cómo agregar objetos OLE a una hoja de cálculo.
 

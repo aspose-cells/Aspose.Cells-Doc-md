@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-scroll-bars-in-ruby/
 ---
 ## **Aspose.Cells - Kaydırma Çubuklarını Görüntüle veya Gizle**
 ### **Kaydırma Çubuklarını Gizleme**
- kullanarak Kaydırma Çubuklarını gizlemek için**Yakut için Aspose.Cells Java** , aramak**kaydırma çubuklarını görüntüle** modül.
+ kullanarak Kaydırma Çubuklarını gizlemek için**Yakut için Aspose.Cells Java** , Arama**kaydırma çubuklarını görüntüle** modül.
 
 **Yakut Kodu**
 

@@ -15,7 +15,7 @@ Aspose.Cells, Android uygulamalarının sistemde Microsoft Excel'in yüklü olma
 {{% /alert %}} 
 ## **Belge Özellikleri**
 - Farklı kaynaklardan Düz veya Şifreli Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümler) açın
-- Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümleri) farklı biçimlerde (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Sekmeyle Ayrılmış, HTML vb.) kaydedin.
+- Excel dosyalarını (Excel97 - Excel2007 ve sonraki sürümleri) farklı formatlarda kaydedin (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Sekmeyle Ayrılmış, HTML vb.)
 - Excel dosyasını PDF belgesine dönüştürün
 - Excel elektronik tablosunu XPS belgesine dönüştürün
 - OpenDocument Elektronik Tablosu (ODS) biçimini Okuma ve Yazma
@@ -69,8 +69,8 @@ Aspose.Cells, Android uygulamalarının sistemde Microsoft Excel'in yüklü olma
 - Kolayca Farklı Grafik Türleri Oluşturun
 -  Özelleştirme**Grafikler** farklı özelliklerini ayarlayarak
 -  Ayarlamak**Grafikler için Veriler** dinamik olarak
--  Ekle**Özel Grafikler** API kullanarak Çalışma Sayfalarına
--  Ekle**resimler** çalışma zamanında Çalışma Sayfalarına
+-  Eklemek**Özel Grafikler** API kullanarak Çalışma Sayfalarına
+-  Eklemek**resimler** çalışma zamanında Çalışma Sayfalarına
 -  Oluştur ve Ekle**Yorumlar** hücrelere
 - Grafiği resim dosyasına dönüştür
 - Çalışma sayfasını görüntü dosyasına dönüştürün

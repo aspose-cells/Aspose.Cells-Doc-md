@@ -10,8 +10,8 @@ Parfois, les utilisateurs sont confrontés à System.StackOverFlowException sur 
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Problème d'épaisseur des lignes lors du rendu d'Excel en PDF**
-Parfois, lorsque le fichier Excel est converti en PDF, l'épaisseur des lignes est différente dans le PDF de sortie. Ce problème n'est pas causé par Aspose.Cells. Il est causé par**Adobe Reader** quand ses réglages**"Dessin au trait lisse"** et**"Améliorer les lignes fines"** sont vérifiés. Si vous décochez ces options, le PDF s'affichera correctement.
+## **Problème d'épaisseur des lignes lors du rendu d'Excel à PDF**
+Parfois, lorsque le fichier Excel est converti en PDF, l'épaisseur des lignes est différente dans la sortie PDF. Ce problème n'est pas causé par Aspose.Cells. Il est causé par**Adobe Reader** quand ses réglages**"Dessin au trait lisse"** et**"Améliorer les lignes fines"** sont vérifiés. Décocher ces options affichera PDF bien.
 
  Si vérifier**"Dessin au trait lisse"** et**"Améliorer les lignes fines"**, l'épaisseur des lignes est différente. Voir les étapes suivantes comment c'est fait:
 

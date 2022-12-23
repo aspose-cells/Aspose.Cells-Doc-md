@@ -10,7 +10,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.0.2 a l
 
 {{% /alert %}} 
 ## **Se agregó la propiedad HtmlSaveOptions.ExportHiddenWorksheet**
-La clase HtmlSaveOptions ha expuesto la propiedad ExportHiddenWorksheet que se puede usar para especificar si las hojas de trabajo ocultas se exportan a formato HTML. El valor por defecto es verdadero. mientras que si se establece en falso, el Aspose.Cells no exportará el contenido oculto de la hoja de trabajo.
+La clase HtmlSaveOptions ha expuesto la propiedad ExportHiddenWorksheet que se puede usar para especificar si las hojas de trabajo ocultas se exportan al formato HTML. El valor por defecto es verdadero. mientras que si se establece en falso, el Aspose.Cells no exportará el contenido oculto de la hoja de trabajo.
 
 {{% alert color="primary" %}} 
 

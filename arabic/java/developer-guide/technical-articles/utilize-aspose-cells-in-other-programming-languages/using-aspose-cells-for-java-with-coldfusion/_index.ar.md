@@ -14,7 +14,7 @@ url: /ar/java/using-aspose-cells-for-java-with-coldfusion/
 
 ## **Aspose.Cells: المنتج الحقيقي**
 
-مع Aspose.Cells يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات بكل التفاصيل وعلى كل مستوى ، واستيراد الصور ، واستيراد المخططات ، وإنشاء المخططات ، ومعالجة المخططات ، وتدفق Microsoft بيانات Excel ، وحفظها بتنسيقات مختلفة بما في ذلك XLS ، و CSV ، و SpreadsheetML ، و TabDelimited ، و TXT ، و XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) متكامل) وغيرها الكثير.
+مع Aspose.Cells يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات بكل التفاصيل وعلى كل مستوى ، واستيراد الصور ، واستيراد المخططات ، وإنشاء المخططات ، ومعالجة المخططات ، وتدفق Microsoft بيانات Excel ، وحفظها بتنسيقات مختلفة بما في ذلك XLS ، CSV ، SpreadsheetML ، TabDelimited ، TXT ، XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) متكامل) وغيرها الكثير.
 
  لمعرفة المزيد حول معلومات المنتج والميزات ودليل المبرمج ، ارجع إلى وثائق Aspose.Cells والمميزات عبر الإنترنت[العروض](https://github.com/aspose-cells/Aspose.Cells-for-Java) . تستطيع[تحميل](https://downloads.aspose.com/cells/java) وتقييمه مجانًا.
 

@@ -62,7 +62,7 @@ Les versions suivantes des exemples d'exécution sont disponibles en télécharg
 - Placez le fichier jar Aspose.Cells for Java téléchargé dans le répertoire "lib".
 - Remplacez "votre-lib" par le nom du fichier jar téléchargé dans le fichier _*init*_.py.
 
-### **Utilisant**
+### **En utilisant**
 
 Vous pouvez créer un document HelloWorld à l'aide de l'exemple de code suivant :
 

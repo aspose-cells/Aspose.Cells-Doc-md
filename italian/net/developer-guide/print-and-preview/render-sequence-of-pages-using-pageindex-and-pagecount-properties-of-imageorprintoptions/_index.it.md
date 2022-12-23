@@ -16,6 +16,6 @@ url: /it/net/render-sequence-of-pages-using-pageindex-and-pagecount-properties-o
 |:- |:- |
 |![cose da fare:immagine_alt_testo](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3)|![cose da fare:immagine_alt_testo](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4)|
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Rendering-RenderLimitedNoOfSequentialPages-1.cs" >}}

@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-22-3-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-50375|Prend en charge le tri PivotField via les valeurs dans la ligne/colonne sélectionnée|
 |CELLSNET-50559|Prise en charge pour obtenir les feuilles de la cellule de manière récursive|
@@ -22,21 +22,21 @@ url: /fr/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50462|Régression : après la copie de la plage de cellules, les formules sont perdues|
 |CELLSNET-50545| Les champs au format conditionnel ne sont pas colorés dans la bonne couleur|
 |CELLSNET-50565|Les formules n'ont pas été calculées correctement|
-|CELLSNET-50309|Plage vers PNG : sortie non conforme aux attentes|
-|CELLSNET-50334|Régression : XLS vers PDF : l'en-tête n'est pas rendu correctement|
+|CELLSNET-50309|Plage jusqu'à PNG : sortie non conforme aux attentes|
+|CELLSNET-50334|Régression : XLS à PDF : l'en-tête n'est pas rendu correctement|
 |CELLSNET-50367|La conversion de .XLSX en PDF prend beaucoup de temps et produit des pages supplémentaires|
 |CELLSNET-50401|Les valeurs numériques ou les nombres suivis d'éléments de ligne ne sont pas visibles dans le pdf résultant|
 |CELLSNET-50478|Workbook.ExportXml renvoie uniquement la première ligne de données de table|
 |CELLSNET-50507|Xml Import affiche les colonnes précédemment masquées dans le modèle|
-|CELLSNET-50554|Le contenu n'est pas rendu correctement lors de la conversion d'Excel en PDF|
-|CELLSNET-50316|Les textes enveloppés ne fonctionnent pas sur les graphiques lors de la génération de PDF|
-|CELLSNET-50411|Les étiquettes de l'axe horizontal du graphique ne sont pas rendues correctement dans le PDF de sortie|
+|CELLSNET-50554|Le contenu n'est pas rendu correctement dans Excel vers la conversion PDF|
+|CELLSNET-50316|Les textes enveloppés ne fonctionnent pas sur les graphiques lors de la génération PDF|
+|CELLSNET-50411|Les étiquettes de l'axe horizontal du graphique ne sont pas rendues correctement dans la sortie PDF|
 |CELLSNET-50341|Problème avec les groupes à plusieurs niveaux Réduire et Développer|
-|CELLSNET-50368| Conversion ODS en PDF incorrecte|
+|CELLSNET-50368|Conversion ODS à PDF incorrecte|
 |CELLSNET-50377|Le formatage "Texte" personnalisé n'est pas appliqué dans le fichier XLS|
 |CELLSNET-50380| La propriété ImportTableOptions.IsHtmlString ne génère pas correctement les liens|
 |CELLSNET-50418|Charger HTML dans le classeur ne fonctionne pas|
-|CELLSNET-50494|Problème de couleur pour les cellules au format conditionnel dans le fichier XLSX de sortie|
+|CELLSNET-50494|Problème de couleur pour les cellules au format conditionnel dans le fichier de sortie XLSX|
 |CELLSNET-50563|Problème lors de la configuration de la licence intégrée pour produire un fichier unique dans l'application .NET 6.0|
 |CELLSNET-50585|Pas de barres obliques mais des barres obliques inverses pour les liens externes avec URL|
 |CELLSNET-50390| System.ArgumentException : le numéro de ligne ou le numéro de colonne ne peut pas être égal à zéro lors de l'importation de données JSON en tant que table|

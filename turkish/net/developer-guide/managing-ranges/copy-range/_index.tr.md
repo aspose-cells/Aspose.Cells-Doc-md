@@ -5,7 +5,7 @@ type: docs
 weight: 105
 url: /tr/net/copy-ranges-of-Excel/
 ---
-## **giriiş**
+## **Giriş**
 
 Excel'de bir aralık seçebilir, aralığı kopyalayabilir ve ardından belirli seçeneklerle aynı çalışma sayfasına, diğer çalışma sayfalarına veya diğer dosyalara yapıştırabilirsiniz.
 

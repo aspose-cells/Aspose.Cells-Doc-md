@@ -129,7 +129,7 @@ url: /ru/net/working-with-visual-studio/
 
 
 
-1.  Сохранить, изменить или удалить<!DOCTYPE>ярлык.
+1.  Сохранить, изменить или удалить<!DOCTYPE> тег.
 1.  Или изменить<!DOCTYPE> тег со следующим:
 
 {{< highlight "csharp" >}}

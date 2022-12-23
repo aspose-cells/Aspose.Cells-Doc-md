@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-3-4-release-notes/
 我们是
 很高兴宣布 Aspose.Cells for Java v7.3.4！
 
-新的功能
+新功能
 
 - 在图纸到图像功能中支持 TIFF 格式
 
@@ -30,7 +30,7 @@ url: /zh/java/aspose-cells-for-java-7-3-4-release-notes/
 
 虫子
 
-- 使用 UTF-8 保存的 CSV 文件中的阿拉伯文本变成了垃圾字符
+- 保存的 CSV 文件中的阿拉伯文本变成了 UTF-8 的垃圾字符
 - Aspose.Cells重新保存的XLS文件出现“数据可能已丢失”错误
 - “Excel 发现不可读的内容…..”错误 Aspose.Cells' 生成的报告
 - Cell.getFormula()没有区分同名不同作用域的不同命名范围

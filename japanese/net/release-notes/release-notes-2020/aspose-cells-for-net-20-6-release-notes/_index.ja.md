@@ -20,7 +20,7 @@ url: /ja/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47315|zip64 に保存すると、ファイルを開くことができませんでした|強化|
 |CELLSNET-47384|画像/形状の読み込みのパフォーマンスを向上させる|パフォーマンス|
 |CELLSNET-47382|HTML から Excel への変換で書式設定が失われる|バグ|
-|CELLSNET-47390|HTML から ODS へのレンダリングで一部の単語の色が間違っている|バグ|
+|CELLSNET-47390|HTML から ODS のレンダリングで一部の単語の色が間違っている|バグ|
 |CELLSNET-47385|Cells.InsertCutCells は範囲交差のあるワークブックで壊れます|バグ|
 |CELLSNET-47389|HLOOKUP の計算が正しくない|バグ|
 |CELLSNET-47352|テキストをクリックすると、テキストが消える|バグ|

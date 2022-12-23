@@ -6,7 +6,7 @@ url: /es/net/working-with-external-data-connection-of-type-webquery/
 ---
 {{% alert color="primary" %}}
 
- Puede acceder a la conexión de datos externos de cualquier tipo mediante la colección Workbook.DataConnections. Un tipo de conexión de datos de este tipo es WebQuery. Este artículo le mostrará cómo trabajar con la conexión de datos WebQuery. Puede crear una conexión de datos WebQuery en Microsoft Excel usando el**Datos** > **Desde la Web** menú.
+ Puede acceder a la conexión de datos externos de cualquier tipo mediante la colección Workbook.DataConnections. Un tipo de conexión de datos de este tipo es WebQuery. Este artículo le mostrará cómo trabajar con la conexión de datos WebQuery. Puede crear una conexión de datos WebQuery en Microsoft Excel usando el**Datos** > **Desde la web** menú.
 
 {{% /alert %}}
 

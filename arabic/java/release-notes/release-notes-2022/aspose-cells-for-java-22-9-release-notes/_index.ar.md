@@ -12,7 +12,7 @@ url: /ar/java/aspose-cells-for-java-22-9-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-44194|لا يتم تقديم شكل الرسم في عرض Excel إلى PDF|
+|CELLSJAVA-44194|لا يتم تقديم شكل الرسم في Excel إلى عرض PDF|
 |CELLSJAVA-44864|يؤدي التحميل المتزامن للمصنفات إلى ظهور أخطاء زائفة "الملف تالف"|
 |CELLSJAVA-44327|تظهر الحدود وعدد أقل من الخطوط في شرائح دائرية بالأبيض والأسود في الرسم البياني لعرض الصورة|
 |CELLSJAVA-44591|لا يتطابق استدارة نص التسميات مع Excel في صورة الإخراج للمخطط|
@@ -20,10 +20,10 @@ url: /ar/java/aspose-cells-for-java-22-9-release-notes/
 |CELLSJAVA-44860|يختلف عرض نص الخلية كما هو الحال في Excel في بعض المناطق المدمجة|
 |CELLSJAVA-44832|يتم إخراج صفحات متعددة بدلاً من صفحة واحدة كما في Excel أثناء التحويل إلى pdf|
 |CELLSJAVA-44812|غير قادر على إنقاص منطقة الرسم للمخطط|
-|CELLSJAVA-44831|يطالب MS Word بالخطأ "وجد Word محتوى غير قابل للقراءة في ..." عند فتح DOCX المحول من ملف XLSX بواسطة Aspose.Cells for Java|
+|CELLSJAVA-44831|يطالب MS Word بالخطأ "وجد Word محتوى غير قابل للقراءة في ..." عند فتح الملف DOCX المحول من XLSX بواسطة Aspose.Cells for Java|
 |CELLSJAVA-44833|لا يتم تطبيق لون النص على كلمات مختلفة أو جزء من المحتويات في ملف Excel الناتج عند استخدام أسلوب Cell.setHtmlString ()|
 |CELLSJAVA-44852| الحد غير صحيح عند تحويل ملف Excel الثابت إلى HTML|
-|CELLSJAVA-44856| تحويل Excel إلى HTML - لا يتم عرض / عرض خط المؤشر (مخطط صغير)|
+|CELLSJAVA-44856| تحويل Excel إلى HTML - لا يتم عرض / تقديم خط المؤشر (مخطط صغير)|
 |CELLSJAVA-44859|لا تعمل بعض تنسيقات Html مع خلايا ورقة العمل في ملف Excel موجود|
 |CELLSJAVA-44842|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تحويل ملف XLSX إلى PDF|
 

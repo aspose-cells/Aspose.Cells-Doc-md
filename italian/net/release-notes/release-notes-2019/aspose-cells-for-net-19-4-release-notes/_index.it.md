@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-19-4-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-46619|Supporta il salvataggio del documento in formato Markdown|Nuova caratteristica|
 |CELLSNET-46124|Supporta l'aggiunta di forme WebExtension|Nuova caratteristica|
@@ -19,21 +19,21 @@ url: /it/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46656|Supporta i commenti in thread|Nuova caratteristica|
 |CELLSNET-46657|Supporta le celle di taglio e incolla|Nuova caratteristica|
 |CELLSNET-46686|Supporta l'utilizzo di spazi bianchi (codice carattere 20) come separatore di gruppi di numeri per la lingua francese|Aumento|
-|CELLSNET-46649|PDF di grandi dimensioni generato rispetto allo strumento online iLovePDF|Aumento|
+|CELLSNET-46649|Grande PDF generato rispetto allo strumento online iLovePDF|Aumento|
 |CELLSNET-46093|I grafici non rispettano l'impostazione della pagina in bianco e nero|Aumento|
 |CELLSNET-46677|L'esportazione di Excel in PDF non esegue il rendering preciso dei testi arabi nei grafici|Aumento|
 |CELLSNET-46639|Supporta l'interruzione di pagina verticale per il file ODS.|Aumento|
 |CELLSNET-46631|Eccezione OutOfMemoryException durante il rendering|Prestazione|
 |CELLSNET-46596|Etichette mancanti nelle forme|Insetto|
 |CELLSNET-46615|Shape.ToImage() esporta immagini di dimensioni diverse|Insetto|
-|CELLSNET-46637|Errori di formattazione nell'HTML generato|Insetto|
+|CELLSNET-46637|Errori di formattazione nel codice HTML generato|Insetto|
 |CELLSNET-46650|PivotTable.ShowValuesRow non impostato su false a livello di codice|Insetto|
 |CELLSNET-46652|Le affettatrici della tabella pivot vengono rimosse dopo il caricamento e il salvataggio|Insetto|
 |CELLSNET-46678|PivotField.IsRepeatItemLabels non viene mantenuto nell'output XLSB|Insetto|
 |CELLSNET-46671|Range.Copy dopo Range.CopyData corrompe la cartella di lavoro|Insetto|
-|CELLSNET-42423|Il salvataggio in PDF ritaglia i dati della riga|Insetto|
-|CELLSNET-45698|Il metodo Worksheet.AutoFitColumns taglia il testo lungo durante il rendering in PDF|Insetto|
-|CELLSNET-46661|Meno numero di pagine renderizzate in PDF rispetto a Excel 365|Insetto|
+|CELLSNET-42423|Il salvataggio in PDF taglia i dati della riga|Insetto|
+|CELLSNET-45698|Il metodo Worksheet.AutoFitColumns taglia il testo lungo durante il rendering su PDF|Insetto|
+|CELLSNET-46661|Meno numero di pagine visualizzate in PDF rispetto a Excel 365|Insetto|
 |CELLSNET-46673|Problema di dimensione del file durante la conversione di Excel in PDF|Insetto|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue non funziona come previsto|Insetto|
 |CELLSNET-46655|Etichette dell'asse delle categorie multilivello perse durante il salvataggio con RefreshChartCache = true|Insetto|
@@ -55,8 +55,8 @@ url: /it/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46646|Eccezione sollevata aprendo il file Excel dopo aver aggiornato il grafico|Eccezione|
 |CELLSNET-46660|La proprietà Style.ForegroundColor genera un'eccezione per determinati scenari|Eccezione|
 |CELLSNET-46688|Eccezioni sollevate durante l'applicazione dinamica degli stili|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge le API per il salvataggio del documento Markdown: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Supporta il salvataggio del contenuto delle celle come tabella markdown. Con il metodo Workbook.Save(), tutto il contenuto delle celle nel foglio attivo verrà esportato come tabella nel documento markdown.
 #### **Rimuove le proprietà obsolete di TxtLoadOptions**

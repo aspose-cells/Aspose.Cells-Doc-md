@@ -8,7 +8,7 @@ url: /zh/java/what-s-new-in-aspose-cells-for-java/
 此页面描述了最近版本中引入的最有趣的新功能 Aspose.Cells。
 
 ## Aspose.Cells for Java 22.12
-* 支持将excel导出为多层次结构的json
+* 支持导出excel到JSON，具有多层层次结构
 
 ## Aspose.Cells for Java 22.11
 

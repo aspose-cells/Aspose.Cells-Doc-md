@@ -10,6 +10,6 @@ Aspose.Cells prend en charge le*DBNum*formatage de modèle personnalisé. Par ex
 
 ## **Exemple de code**
 
- L'exemple de code suivant illustre comment spécifier*DBNum*formatage de modèle personnalisé. Veuillez vérifier son[PDF de sortie](43352082.pdf) pour plus d'aide.
+ L'exemple de code suivant illustre comment spécifier*DBNum*formatage de modèle personnalisé. Veuillez vérifier son[sortie PDF](43352082.pdf) pour plus d'aide.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SpecifyingDBNumCustomPatternFormatting.java" >}}

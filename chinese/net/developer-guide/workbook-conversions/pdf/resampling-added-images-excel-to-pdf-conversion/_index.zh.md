@@ -6,7 +6,7 @@ url: /zh/net/resampling-added-images-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-在处理包含大量图像的大型 Microsoft Excel 文件时，您可能需要压缩已添加的图像以减小输出 PDF 文件的大小并提高整体转换性能。 Aspose.Cells 支持对添加的图像进行重采样以减小输出 PDF 文件的大小并在一定程度上提高性能。
+在处理包含大量图像的大 Microsoft Excel 文件时，您可能需要压缩已添加的图像以减小输出 PDF 文件大小并提高整体转换性能。 Aspose.Cells 支持重新采样添加的图像以减少输出 PDF 文件大小并提高性能。
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /zh/net/resampling-added-images-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}}
 
-使用的[**设置图像重采样**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)选项可最小化输出 PDF 的大小，但它可能会稍微影响图像质量。
+使用的[**设置图像重采样**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)选项最小化输出 PDF 的大小，但它可能会影响图像质量。
 
 {{% /alert %}} {{% alert color="primary" %}}
 

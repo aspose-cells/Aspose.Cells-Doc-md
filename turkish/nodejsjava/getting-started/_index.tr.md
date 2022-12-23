@@ -7,7 +7,7 @@ keywords: nodejs, excel, instal
 description: kurulum Aspose.Cells for Node.js via Java ve kurulum yönergeleri
 ---
 ## **sistem gereksinimleri**
- Aspose.Cells for Node.js via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Node.js](https://nodejs.org/en/download/) ve[düğüm-java](https://github.com/joeferner/node-java) köprü kurulur. Kurulumu kurmadan önce makinede Oracle JDK 7 veya üzeri sürümler bulunmalıdır.
+ Aspose.Cells for Node.js via Java, platformdan bağımsızdır API ve herhangi bir platformda (Windows, Linux ve MacOS) kullanılabilir.[Node.js](https://nodejs.org/en/download/) ve[düğüm-java](https://github.com/joeferner/node-java)köprü kurulur. Kurulumu kurmadan önce makinede Oracle JDK 7 veya üzeri sürümler bulunmalıdır.
 ## **NPM'den yükleyin**
  Aspose.Cells for Node.js via Java den rahatlıkla ulaşabilirsiniz.[NPM](https://www.npmjs.com/package/aspose.cells) aşağıdaki komutla.
 {{< highlight "java" >}}

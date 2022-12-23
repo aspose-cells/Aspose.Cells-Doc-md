@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-5-2-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 40611 - 支持自定义数据排序
 
@@ -42,7 +42,7 @@ url: /zh/net/aspose-cells-for-net-7-5-2-release-notes/
 
 \2) Aspose.Cells.GridWeb
 
-新的功能
+新功能
 
 虫子
 

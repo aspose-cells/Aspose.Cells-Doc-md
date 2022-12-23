@@ -11,7 +11,7 @@ url: /ru/net/public-api-changes-in-aspose-cells-16-11-0/
 {{% /alert %}} 
 ## **Добавлены API**
 ### **Поддержка настроек глобализации**
-Aspose.Cells 16.11.0 предоставил класс GlobalizationSettings вместе со свойством WorkbookSettings.GlobalizationSettings, чтобы заставить API Aspose.Cells использовать настраиваемые метки для промежуточных итогов. Класс GlobalizationSettings имеет следующие методы, которые можно переопределить в пользовательской реализации, чтобы дать нужные имена меткам.**Общий** & **Общий итог**.
+Aspose.Cells 16.11.0 предоставил класс GlobalizationSettings вместе со свойством WorkbookSettings.GlobalizationSettings, чтобы заставить API Aspose.Cells использовать настраиваемые метки для промежуточных итогов. Класс GlobalizationSettings имеет следующие методы, которые можно переопределить в пользовательской реализации, чтобы дать нужные имена меткам.**Общее количество** & **Общая сумма**.
 
 - GlobalizationSettings.GetTotalName: получает общее имя функции.
 - GlobalizationSettings.GetGrandTotalName: получает общее имя функции.

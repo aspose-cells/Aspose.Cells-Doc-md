@@ -6,7 +6,7 @@ url: /de/java/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 ---
 {{% alert color="primary" %}} 
 
- Sie können benutzerdefinierte Beschriftungen zu Datenpunkten in der Reihe des Diagramms hinzufügen. Aspose.Cells bietet[ChartPoint.getDataLabels().setText()](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)-Eigenschaft, um diese benutzerdefinierten Bezeichnungen hinzuzufügen. In diesem Artikel wird erläutert, wie Sie diese Eigenschaft verwenden, um benutzerdefinierte Beschriftungen zu Datenpunkten in der Reihe des Diagramms hinzuzufügen.
+ Sie können benutzerdefinierte Beschriftungen zu Datenpunkten in der Reihe des Diagramms hinzufügen. Aspose.Cells bietet[ChartPoint.getDataLabels().setText()](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)-Eigenschaft, um diese benutzerdefinierten Beschriftungen hinzuzufügen. In diesem Artikel wird erläutert, wie Sie diese Eigenschaft verwenden, um benutzerdefinierte Beschriftungen zu Datenpunkten in der Reihe des Diagramms hinzuzufügen.
 
 {{% /alert %}} 
 ## **Hinzufügen von benutzerdefinierten Beschriftungen zu Datenpunkten in der Reihe des Diagramms**

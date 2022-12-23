@@ -10,8 +10,8 @@ url: /tr/net/aspose-cells-for-net-8-0-2-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for .NET, 8.0.2 sürümüne güncellendi ve bu sürümün 30'dan fazla yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+ Aspose.Cells for .NET, 8.0.2 sürümüne güncellendi ve bu sürümün 30'dan fazla yeni kullanışlı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -30,17 +30,17 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 ## **Verim**
 
 
- (CELLSNET-42278) - XLSX'i PDF'ye kaydederken System.OutOfMemoryException, burada XLSX'te formatlanmış çok sayıda boş hücre var
+ (CELLSNET-42278) - System.OutOfMemoryException, XLSX'i PDF'e kaydederken, burada XLSX'de biçimlendirmeli çok sayıda boş hücre var
 
 
 ## **Hatalar**
 
 
- (CELLSNET-42524) - Shape nesne sorunlarının CalculateTextSize işlevi
+(CELLSNET-42524) - Shape nesne sorunlarının CalculateTextSize işlevi
 
  (CELLSNET-42401) - CalculateTextSize() doğru yüksekliği döndürmez
 
-(CELLSNET-42235) - TextBox Otomatik Boyutlandırma ile ilgili sorun
+ (CELLSNET-42235) - TextBox Otomatik Boyutlandırma ile ilgili sorun
 
  (CELLSNET-42104) - CalculateTextSize doğru yüksekliği vermiyor
 
@@ -48,23 +48,23 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42562) - Formüller yabancı para birimi ile çalışmıyor
 
- (CELLSNET-42269) - XPS çıktısındaki PivotTable biçimlendirmesi doğru değil
+ (CELLSNET-42269) - XPS çıkışındaki PivotTable biçimlendirmesi doğru değil
 
- (CELLSNET-42597) - AutoFitRows, Kaydırılmış metnin ortaya çıkan PDF'de gizlenmesine neden oluyor
+ (CELLSNET-42597) - AutoFitRows, Kaydırılmış metnin PDF sonucunda gizlenmesine neden oluyor
 
  (CELLSNET-42615) - SheetRender, üst simgeyi doğru şekilde oluşturmuyor
 
  (CELLSNET-42594) - Dikey Metin Yaslama, SheetRender'da düzgün çalışmıyor
 
- (CELLSNET-42580) - Excel dosyasını PDF'ye kaydet, başlıktaki renk ayarlarını yoksayar
+ (CELLSNET-42580) - Excel dosyasını PDF'e kaydet, başlıktaki renk ayarlarını yoksayar
 
- (CELLSNET-42579) - PDF'ye dönüştürülürken sayfa sonu sorunu
+ (CELLSNET-42579) - PDF'e dönüştürülürken sayfa sonu sorunu
 
- (CELLSNET-42498) - XLSX'i PDF'ye dönüştürürken kenarlık sonraki sayfaya kopyalanıyor
+(CELLSNET-42498) - XLSX, PDF'e dönüştürülürken kenarlık sonraki sayfaya kopyalanıyor
 
  (CELLSNET-42495) - Pdf oluşturma, sayfa 2 ve 3'te istenmeyen satırlar içeriyor
 
-(CELLSNET-42567) - PDF'ye dönüştürüldüğünde grafik kayboluyor
+ (CELLSNET-42567) - Grafik, PDF'e dönüştürüldüğünde kayboluyor
 
  (CELLSNET-42527) - Aynı grafikteki çizgi grafik ve çubuk grafik doğru konumda değil
 
@@ -78,9 +78,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-42586) - Sağa ayarlandığında yorum metni hizalaması çalışmıyor
 
- (CELLSNET-42582) - Excel, XLSB'den dönüştürülen Aspose.Cells'i açarken Okunamayan İçerik Bulundu hatası
+ (CELLSNET-42582) - Aspose.Cells açılırken Excel Okunamayan İçerik Bulundu hatası XLSB'den XLSM'e dönüştürüldü
 
- (CELLSNET-42581) - ArgumentOutOfRangeException - Excel XLSX dosyasını açarken
+(CELLSNET-42581) - ArgumentOutOfRangeException - Excel XLSX dosyasını açarken
 
  (CELLSNET-42570) - Cell akıllı işaretçilerdeki formüller genişlemiyor
 
@@ -90,7 +90,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 ## **İstisnalar**
 
 
-(CELLSNET-42576) - xls'yi pdf olarak kaydetmede boş referans istisnası
+ (CELLSNET-42576) - xls'yi pdf olarak kaydetmede boş referans istisnası
 
  (CELLSNET-42628) - MHTML elektronik tablosu yüklenirken System.NullReferenceException
 
@@ -104,7 +104,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -118,7 +118,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-40531) - Şablon dosyasını GridWeb'e yüklerken formül sorunu
 
- (CELLSNET-42571) - GridWeb içindeki H sütunundaki sayı biçimi korunmadı
+(CELLSNET-42571) - GridWeb içindeki H sütunundaki sayı biçimi korunmadı
 
  (CELLSNET-42553) - Excel dosyasını GridWeb'e aktarırken kaybolan liste nesneleri/tablo biçimlendirmesi/stil
 
@@ -134,7 +134,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
-Shape.TextDirection özelliğini ekler
+ Shape.TextDirection özelliğini ekler
 
  Şekil için metin akışının yönünü Alır/Ayarlar.
 

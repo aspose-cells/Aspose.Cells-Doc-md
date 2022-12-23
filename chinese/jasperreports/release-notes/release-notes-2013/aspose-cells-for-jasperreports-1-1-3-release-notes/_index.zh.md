@@ -10,6 +10,6 @@ url: /zh/jasperreports/aspose-cells-for-jasperreports-1-1-3-release-notes/
 
 {{% /alert %}} 
 
-新的功能
+新功能
 
 40551 - 支持

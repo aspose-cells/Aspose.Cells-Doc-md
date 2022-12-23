@@ -1,5 +1,5 @@
 ﻿---
-title: Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mithilfe von HTML festlegen
+title: Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mit HTML festlegen
 type: docs
 weight: 120
 url: /de/java/display-bullets-by-setting-cell-value-using/
@@ -8,13 +8,13 @@ keywords: add bullets in excel, add bullets in excel java, display bullets in ex
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells unterstützt jetzt das Anzeigen von Aufzählungszeichen mit HTML-Code. In diesem Artikel wird erläutert, wie Aufzählungszeichen angezeigt werden, indem der Zellenwert mithilfe von HTML festgelegt wird. Wir werden verwenden[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) -Eigenschaft, um den Zellenwert mit unserem HTML festzulegen.
+ Aspose.Cells unterstützt jetzt das Anzeigen von Aufzählungszeichen mit dem Code HTML. In diesem Artikel wird erläutert, wie Aufzählungszeichen angezeigt werden, indem der Zellenwert mit HTML festgelegt wird. Wir werden verwenden[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) -Eigenschaft, um den Zellenwert mit unserem HTML festzulegen.
 
 {{% /alert %}}
 
-## **Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mithilfe von HTML festlegen**
+## **Zeigen Sie Aufzählungszeichen an, indem Sie den Wert Cell mit HTML festlegen**
 
-Der folgende Code verwendet den HTML-Code, um den Zellenwert festzulegen. Sobald Sie diesen Code ausführen, erhalten Sie die Ausgabe wie im Bild unten gezeigt.
+Der folgende Code verwendet den Code HTML, um den Zellenwert festzulegen. Sobald Sie diesen Code ausführen, erhalten Sie die Ausgabe wie im Bild unten gezeigt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DisplayBullets-DisplayBullets.java" >}}
 
@@ -24,6 +24,6 @@ Der folgende Screenshot zeigt die Ausgabe des obigen Beispielcodes.
 
 ![todo: Bild_alt_Text](display-bullets-by-setting-cell-value-using-html_1.png)
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
-- [Hinzufügen von HTML-Rich-Text in Cell](/cells/de/java/adding-html-rich-text-inside-the-cell/)
+- [Hinzufügen von HTML Rich Text in Cell](/cells/de/java/adding-html-rich-text-inside-the-cell/)

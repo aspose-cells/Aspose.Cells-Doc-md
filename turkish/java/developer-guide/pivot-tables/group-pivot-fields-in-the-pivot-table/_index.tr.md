@@ -12,7 +12,7 @@ Microsoft Excel, pivot tablonun pivot alanlarını gruplandırmanıza olanak tan
 
 Aşağıdaki örnek kod,[örnek excel dosyası](64716838.xlsx)kullanarak ilk pivot alanında gruplandırma gerçekleştirir.[**PivotTable.setManualGroupField()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#setManualGroupField(com.aspose.cells.PivotField,%20com.aspose.cells.DateTime,%20com.aspose.cells.DateTime,%20java.util.ArrayList,%20int)) yöntem. Daha sonra pivot tablonun verilerini yeniler ve hesaplar ve çalışma kitabını[çıktı excel dosyası](64716837.xlsx). Ekran görüntüsü, örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir. Ekran görüntüsünde görebileceğiniz gibi, ilk pivot alanı artık aylara ve çeyreklere göre gruplandırılmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](group-pivot-fields-in-the-pivot-table_1.png)
+![yapılacaklar:resim_alternatif_metin](group-pivot-fields-in-the-pivot-table_1.png)
 
 ## **Basit kod**
 

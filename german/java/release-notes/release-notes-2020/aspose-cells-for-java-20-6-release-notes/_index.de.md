@@ -15,19 +15,19 @@ url: /de/java/aspose-cells-for-java-20-6-release-notes/
 |CELLSJAVA-43186|Berechnen Sie die Gesamtsumme für jede Zeile mit erweiterter Spalte|Erweiterung|
 |CELLSJAVA-43191|Bereitstellung von Mitteln zur Behandlung von Szenarien bei der Angabe falscher Schriftarttypen|Erweiterung|
 |CELLSJAVA-43187|Ausnahme beim Laden einer XLS "Microsoft Excel 5.0 / 95 Workbook"-Datei|Erweiterung|
-|CELLSJAVA-43180|HTML-zu-Excel-Konvertierung mit schwarzer Arbeitsblattausgabe|Insekt|
+|CELLSJAVA-43180|HTML in Excel-Konvertierung, wodurch eine schwarze Arbeitsblattausgabe erstellt wird|Insekt|
 |CELLSJAVA-43181|Der Unterschied in der Zeilenhöhe beim Konvertieren von Excel in HTML|Insekt|
-|CELLSJAVA-43188|Der Stil der Hintergrundfarbe wird während der HTML-zu-Excel-Konvertierung nicht beibehalten|Insekt|
+|CELLSJAVA-43188|Der Stil der Hintergrundfarbe wird während der Konvertierung von HTML nach Excel nicht beibehalten|Insekt|
 |CELLSJAVA-43196|Unter Verwendung von Aspose.Cells for Java 20.4 und 20.5 wurde eine unterschiedliche Anzahl von VBA-Modulen erkannt|Insekt|
 |CELLSJAVA-43202|Ressourcen, die nach Abschluss der Arbeitsmappenerstellung nicht freigegeben wurden|Insekt|
 |CELLSJAVA-43203|Einige Excel-Validierungslisten können basierend auf den benannten Bereichen mit Unicode-Namen nicht verarbeitet werden|Insekt|
-|CELLSJAVA-43185|Die JPEG-Qualität ist bei setImageResample unter Linux immer 75|Insekt|
+|CELLSJAVA-43185|JPEG Qualität ist immer 75 auf setImageResample unter Linux|Insekt|
 |CELLSJAVA-43192|Laden Sie standardmäßig den Schriftordner /System/Library/Fonts auf macOS|Insekt|
 |CELLSJAVA-43157|Die Farbe der benutzerdefinierten Datenreihe wird beim Erstellen eines Wasserfalldiagramms nicht beibehalten|Insekt|
 |CELLSJAVA-43175|Ein Problem mit dem Namen der Diagrammserie beim Verweisen auf eine Arbeitsmappe auf andere Arbeitsmappen|Insekt|
-|CELLSJAVA-43201|Ausnahme "java.util.EmptyStackException" beim Speichern in HTML|Ausnahme|
+|CELLSJAVA-43201|Ausnahme "java.util.EmptyStackException" beim Speichern auf HTML|Ausnahme|
 |CELLSJAVA-43204|NegativeArraySizeException tritt auf, wenn Cell.getDisplayStringValue() verwendet wird|Ausnahme|
-|CELLSJAVA-43189|Ausnahme beim Laden der XLS-Datei ausgelöst|Ausnahme|
+|CELLSJAVA-43189|Ausnahme beim Laden der Datei XLS ausgelöst|Ausnahme|
 |CELLSJAVA-43193|Beim Laden einiger XLSX-Dateien ist eine NullPointerException aufgetreten|Ausnahme|
 |CELLSJAVA-43200|Ausnahme „java.lang.ArrayIndexOutOfBoundsException“ beim Laden der Datei|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

@@ -12,31 +12,31 @@ url: /de/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41947|Fähigkeit zu erkennen, ob sich ein DataPoint in Pie oder Bar befindet|Neue Funktion|
 |CELLSJAVA-41936|Die Workbook.calculateFormula()-Methode wird für die Excel-Quelldatei nie beendet|Erweiterung|
 |CELLSJAVA-41827|Spreadsheet benötigt mehr als 3 Minuten, um Formeln mit der Methode Workbook.calculateFormula() zu berechnen|Erweiterung|
-|CELLSJAVA-41928|Bildressource kann beim Rendern der Tabelle in HTML mit IStreamProvider nicht erfasst werden|Insekt|
-|CELLSJAVA-41841|Problem beim Rendern von Kontrollkästchen in HTML|Insekt|
+|CELLSJAVA-41928|Bildressource kann nicht erfasst werden, während die Tabelle mit IStreamProvider auf HTML gerendert wird|Insekt|
+|CELLSJAVA-41841|Problem beim Rendern von Kontrollkästchen auf HTML|Insekt|
 |CELLSJAVA-41932|Problem mit getDisplayStringValue() für Werte im Datumsformat|Insekt|
 |CELLSJAVA-41930|Bei Verwendung von Light Cells-APIs zum Verarbeiten einer XLS-Datei wird immer die erste Zelle des ersten Blatts verarbeitet|Insekt|
-|CELLSJAVA-41931|Zeichenabstand und -umbruch für vertikalen Text beim Rendern der Tabelle in PDF nicht korrekt|Insekt|
+|CELLSJAVA-41931|Zeichenabstand und -umbruch für vertikalen Text beim Rendern der Tabelle auf PDF nicht korrekt|Insekt|
 |CELLSJAVA-41709|Spaltenbreiten sind auf CentOS anders als auf Windows|Insekt|
-|CELLSJAVA-41933|Der Diagrammmaßstab hat sich beim Rendern der Tabelle in PDF verschoben|Insekt|
-|CELLSJAVA-41934|Ausrichtungsproblem beim Rendern einer Excel-Datei in PDF|Insekt|
-|CELLSJAVA-41935|Die Formatierung von Legendeneinträgen wird beim Rendern der Tabelle in PDF gestört|Insekt|
+|CELLSJAVA-41933|Der Diagrammmaßstab hat sich beim Rendern der Tabelle auf PDF verschoben|Insekt|
+|CELLSJAVA-41934|Ausrichtungsproblem beim Rendern einer Excel-Datei auf PDF|Insekt|
+|CELLSJAVA-41935|Die Formatierung von Legendeneinträgen wird beim Rendern der Tabelle auf PDF gestört|Insekt|
 |CELLSJAVA-41943|Die horizontalen Achsenbeschriftungen wurden nicht vollständig gerendert, das heißt; Bei allen Beschriftungen fehlen einige Inhalte im gerenderten Bild.|Insekt|
 |CELLSJAVA-41940|Datei ist nach Formelberechnung und Speichern beschädigt|Insekt|
 |CELLSJAVA-41952|Berechnungsergebnis ist nicht korrekt|Insekt|
 |CELLSJAVA-41941|Matrixformel wird nicht richtig berechnet|Insekt|
-|CELLSJAVA-41937|Einige Werte aus der Excel-Datei fehlen in der HTML-Ausgabe – XLS-zu-HTML-Konvertierung|Insekt|
-|CELLSJAVA-41969|Cell Schattierung fehlt beim Konvertieren von HTML in XLSX|Insekt|
-|CELLSJAVA-41955|Workbook to HTML zeigt '#' in Zellen|Insekt|
-|CELLSJAVA-41942|Fehlende Ränder, Zellenschattierungen und Bilder – Rendern von HTML in Excel|Insekt|
+|CELLSJAVA-41937|Einige Werte aus der Excel-Datei fehlen in der Ausgabe HTML - XLS zu HTML Konvertierung|Insekt|
+|CELLSJAVA-41969|Cell-Schattierung fehlt beim Konvertieren von HTML in XLSX|Insekt|
+|CELLSJAVA-41955|Arbeitsmappe bis HTML zeigt '#' in Zellen|Insekt|
+|CELLSJAVA-41942|Fehlende Rahmen, Zellenschattierungen und Bilder – HTML für Excel-Rendering|Insekt|
 |CELLSJAVA-41967|Cells fehlt in PDF, wenn mehrere Druckbereiche auf einem Blatt definiert sind|Insekt|
 |CELLSJAVA-41958|Die Legende auf der rechten Seite wird im Diagrammbild abgeschnitten|Insekt|
-|CELLSJAVA-41953|Text im Diagramm falsch platziert, nachdem er in das HTML-Format konvertiert wurde|Insekt|
+|CELLSJAVA-41953|Text im Diagramm falsch platziert, nachdem er in das Format HTML konvertiert wurde|Insekt|
 |CELLSJAVA-41948|Das Diagramm wird beim Konvertieren der Tabelle in HTML geändert|Insekt|
-|CELLSJAVA-41981|Falsche Position der vertikalen Linie im PDF des Diagramms|Insekt|
+|CELLSJAVA-41981|Falsche Position der vertikalen Linie in Diagramm PDF|Insekt|
 |CELLSJAVA-41964|Autofit berücksichtigt die Einzugsebene nicht|Insekt|
 |CELLSJAVA-40260|Ändern des Textes einer vorhandenen WordArt in einer Excel-Datei|Insekt|
-|CELLSJAVA-41927|Ausnahme: „java.lang.OutOfMemoryError“ beim Speichern im HTML-Dateiformat|Ausnahme|
+|CELLSJAVA-41927|Ausnahme: "java.lang.OutOfMemoryError" beim Speichern im Dateiformat HTML|Ausnahme|
 |CELLSJAVA-41945|CellsException: Fehler bei der Berechnung von Cell[0Sheet1!E5]in Workbook.calculateFormula während der Berechnung der TREND-Funktion|Ausnahme|
 |CELLSJAVA-41946|Das Öffnen einer Excel-Datei verursacht eine java.lang.NumberFormatException: Für die Eingabezeichenfolge: "80000020"|Ausnahme|
 |CELLSJAVA-41922|IndexOutOfBoundsException beim Kopieren von Zellen|Ausnahme|
@@ -51,7 +51,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
 ### **Fügt die Eigenschaft CopyOptions.ReferToDestinationSheet und die Methode Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) hinzu**
 Wenn der Bereich kopiert wird und das Diagramm auf das Quellblatt verweist, bedeutet False, dass die Datenquelle des kopierten Diagramms nicht geändert wird. True bedeutet, dass die Datenquelle des kopierten Diagramms auf das Zielblatt verweist.
 ### **Fügt die HtmlSaveOptions.FilePathProvider-Eigenschaft hinzu**
-Ruft den IFilePathProvider zum separaten Exportieren von Worksheet in HTML ab oder legt diesen fest.
+Ruft den IFilePathProvider zum separaten Exportieren des Arbeitsblatts auf HTML ab oder legt ihn fest.
 ### **Fügt die IFilePathProvider-Schnittstelle hinzu**
 Stellt den exportierten Dateipfadanbieter dar.
 ### **Fügt die FontConfigs-Klasse hinzu**

@@ -22,6 +22,6 @@ url: /it/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40490 - Problema prospettico del grafico 3D
 
- 40481 - Da XLS a PDF - Problema relativo alla larghezza della cella della tabella
+ 40481 - XLS to PDF - Problema larghezza cella tabella
 
-40519 - Eccezione durante il salvataggio di un documento XLSX
+ 40519 - Eccezione durante il salvataggio di un documento XLSX

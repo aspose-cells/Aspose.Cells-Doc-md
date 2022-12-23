@@ -18,7 +18,7 @@ url: /ja/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49015|ワークシートの名前を変更するときに、ハイパーリンク (Sheet1!A1) を更新します。|強化|
 |CELLSNET-49021|タイプが「テキストを含む」の場合、MS Excel で ods の条件付き書式が失われる|強化|
 |CELLSNET-49280|塗りつぶしタイプで範囲の自動入力をサポート|強化|
-|CELLSNET-49413|HTML のレンダリング時に非表示の形状を削除する|強化|
+|CELLSNET-49413|HTML レンダリング時に非表示の形状を削除する|強化|
 |CELLSNETCORE-135|大きなファイルと UDF の計算中にアプリケーションが停止する|パフォーマンス|
 |CELLSNET-49124|XLSM を HTML に変換するときのぼやけたラジオボタン|バグ|
 |CELLSNET-49115|オペランドが範囲の場合、式の演算子の計算が正しくありません|バグ|
@@ -27,7 +27,7 @@ url: /ja/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49067|GridDesktop でのタブの色の取得と設定に関する問題|バグ|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode が機能しない|バグ|
 |CELLSNET-49118|Xml インポートに関する問題|バグ|
-|CELLSNET-49195|XLSX から HTML への変換で、非表示の文字列が保持されない|バグ|
+|CELLSNET-49195|XLSX から HTML への変換で、非表示文字のシーケンスが保持されない|バグ|
 |CELLSNET-49245|HTML にレンダリングすると、特定の XLS ファイルで画像がシフトする|バグ|
 |CELLSNET-49246|特定の XLSX ファイルを HTML に変換すると画像が表示されない|バグ|
 |CELLSNET-49334|Excel レンダリングのフッター フィールドのフォント テキストに関する問題|バグ|
@@ -38,11 +38,11 @@ url: /ja/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49191|データラベルにパーセント値を表示できません|バグ|
 |CELLSNET-49305|グラフの一部のデータ ラベルが表示されない|バグ|
 |CELLSNET-49374|グラフの線は、Chart.ToImage 関数では Excel とは異なります|バグ|
-|CELLSNET-48613|選択範囲外のリソースは HTML にエクスポートしないでください|バグ|
+|CELLSNET-48613|選択した範囲外のリソースを HTML にエクスポートしないでください|バグ|
 |CELLSNET-49027|ドキュメントのページの色とレイアウトの歪み|バグ|
 |CELLSNET-49145|DataMashup 情報が Excel ファイルから取得されない|バグ|
 |CELLSNET-49146|Excel ファイルの透かしが正しく生成および表示されない|バグ|
-|CELLSNET-49239|XLSM から XLS への変換時に画像に影の効果が適用される|バグ|
+|CELLSNET-49239|XLSM から XLS に変換すると、画像に影の効果が適用されます|バグ|
 |CELLSNET-49244|HTML として保存するとアイコンの条件付き書式が失われる|バグ|
 |CELLSNET-49328|ワークシートのコピー時のエラー|バグ|
 |CELLSNET-49365|AutoFitRows の呼び出し後、プリンター出力でテキストが切り取られる|バグ|

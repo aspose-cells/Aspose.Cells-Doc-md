@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-8-2-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET a été mis à jour vers la version 8.2.2 et nous sommes heureux d'annoncer que cette version apporte l'ajout de plus de 60 nouvelles améliorations utiles.
+ Aspose.Cells for .NET a été mis à jour vers la version 8.2.2 et nous sommes heureux d'annoncer que cette version apporte l'ajout de plus de 60 nouvelles améliorations utiles.
 En utilisant Aspose.Cells for .NET, vous pouvez travailler avec XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS et d'autres formats dans vos applications. Vous pouvez également afficher, générer, modifier, convertir, rendre et imprimer des classeurs sans utiliser Microsoft Excel.
 Consultez la documentation pour savoir comment démarrer avec Aspose.Cells for .NET.
 Notez que ce téléchargement contient une version entièrement fonctionnelle du produit, mais sans jeu de licences, il fonctionnera en mode d'évaluation avec certaines limitations. Pour tester Aspose.Cells sans ces limitations d'évaluation, vous pouvez demander une licence temporaire gratuite de 30 jours.
@@ -22,7 +22,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 ## **Performance**
 
 
- (CELLSNET-43015) - Le processus de conversion en PDF semble se bloquer sur une feuille de calcul comportant 115 996 lignes
+ (CELLSNET-43015) - Le processus de conversion vers PDF semble se bloquer sur une feuille de calcul comportant 115 996 lignes
 
 
 ## **Insectes**
@@ -30,7 +30,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-43070) - Erreur "Impossible de modifier un tableau croisé dynamique en mode de modification de groupe"
 
- (CELLSNET-43061) - Valeur incorrecte calculée par rapport à MS Excel
+(CELLSNET-43061) - Valeur incorrecte calculée par rapport à MS Excel
 
  (CELLSNET-43064) - Provoque le message "Contenu illisible" dans MS Excel
 
@@ -40,21 +40,21 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42903) - Problème de retrait de texte
 
- (CELLSNET-42838) - Le texte dans la zone de texte n'est pas rendu dans le PDF résultant
+ (CELLSNET-42838) - Le texte dans la zone de texte n'est pas rendu dans le résultat PDF
 
  (CELLSNET-41658) - Le tableau croisé dynamique ne conserve pas la mise en forme conditionnelle
 
  (CELLSNET-41656) - Une erreur s'affiche à propos du contenu illisible.
 
-(CELLSNET-40921) - L'orientation de la forme est incorrecte lors du rendu en image
+ (CELLSNET-40921) - L'orientation de la forme est incorrecte lors du rendu en image
 
- (CELLSNET-43056) - La gradation et la texture ne s'affichent pas dans le format de fichier PDF rendu
+ (CELLSNET-43056) - La gradation et la texture ne s'affichent pas dans le format de fichier rendu PDF
 
  (CELLSNET-43035) - Mauvaise exportation pdf - texte coupé et espace supplémentaire ajouté
 
- (CELLSNET-43012) - Le caractère 'P' est coupé dans le PDF de sortie
+ (CELLSNET-43012) - Le caractère 'P' est coupé dans la sortie PDF
 
- (CELLSNET-42999) - Les flèches de mise en forme conditionnelle sont plus petites
+(CELLSNET-42999) - Les flèches de mise en forme conditionnelle sont plus petites
 
  (CELLSNET-42996) - Les lignes de grille blanches sont rendues en noir
 
@@ -72,23 +72,23 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42855) - Le nombre supérieur sur l'axe y pour le graphique supérieur
 
-(CELLSNET-42819) - Problème d'alignement de l'étiquette de l'axe des catégories à plusieurs niveaux du graphique à barres empilées
+ (CELLSNET-42819) - Problème d'alignement de l'étiquette de l'axe des catégories à plusieurs niveaux du graphique à barres empilées
 
  (CELLSNET-42794) - La couleur de remplissage de l'axe du graphique ne s'applique pas lors de la conversion en image
 
  (CELLSNET-42737) - Le diagramme de dispersion ajoute de manière incorrecte un marqueur d'axe X majeur supplémentaire
 
- (CELLSNET-42646) - L'option Workbook RefreshChartCache ne prend pas en compte les paramètres régionaux et linguistiques
+(CELLSNET-42646) - L'option Workbook RefreshChartCache ne prend pas en compte les paramètres régionaux et linguistiques
 
- (CELLSNET-42641) - Valeurs d'axe incorrectes lorsque le graphique est enregistré au format EMF à l'aide de ToImage
+ (CELLSNET-42641) - Valeurs d'axe incorrectes lorsque le graphique est enregistré sous EMF à l'aide de ToImage
 
  (CELLSNET-42639) - Les zones de texte ont été mal placées
 
  (CELLSNET-42638) - Les marques de légende ont une épaisseur différente
 
- (CELLSNET-42637) - Titre d'axe manquant lorsque le graphique est enregistré au format EMF à l'aide de ToImage
+ (CELLSNET-42637) - Titre d'axe manquant lorsque le graphique est enregistré sous EMF à l'aide de ToImage
 
- (CELLSNET-42636) - Valeurs d'axe manquantes lorsque le graphique est enregistré au format EMF à l'aide de ToImage
+ (CELLSNET-42636) - Valeurs d'axe manquantes lorsque le graphique est enregistré sous EMF à l'aide de ToImage
 
  (CELLSNET-42613) - Éléments manquants lors de l'extraction de graphiques complexes
 
@@ -96,13 +96,13 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-43065) - Workbook.CalculateFormula rempli avec des valeurs incorrectes
 
-(CELLSNET-43062) - Erreur lors de l'utilisation du fichier Xls créé avec Excel 2013
+ (CELLSNET-43062) - Erreur lors de l'utilisation du fichier Xls créé avec Excel 2013
 
  (CELLSNET-43054) - ListObject Resize ajoute des filtres à l'intérieur du tableau
 
  (CELLSNET-43049) - Le tableau 3 est redimensionné mais la formule et la mise en forme ne sont pas copiées
 
- (CELLSNET-43048) - ListObject Resize supprime CalculatedColumnFormula
+(CELLSNET-43048) - ListObject Resize supprime CalculatedColumnFormula
 
  (CELLSNET-43041) - Cells.Find ne fonctionne pas avec Regex
 
@@ -120,13 +120,13 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-43020) - BuiltinStyleType.Good est échangé avec BuiltinStyleType.Neutral
 
-(CELLSNET-43014) - Cell bordures sont perdues dans le fichier Excel de sortie
+ (CELLSNET-43014) - Cell bordures sont perdues dans le fichier Excel de sortie
 
  (CELLSNET-43004) - Les indicateurs de feux stop s'affichent sous la forme #N/A
 
  (CELLSNET-43001) - Les valeurs basées sur des formules ne sont pas rendues
 
- (CELLSNET-42981) - Valeur incorrecte d'une fonction Value après CalculateFormula
+(CELLSNET-42981) - Valeur incorrecte d'une fonction Value après CalculateFormula
 
  (CELLSNET-42963) - La formule personnalisée est supprimée après l'appel du classeur.RemoveExternalLinks()
 
@@ -135,7 +135,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  (CELLSNET-42740) - Les entrées d'étiquettes de données dans le graphique à bulles sont erronées
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42947) - "Erreur de forme à image !" exception lors de la conversion en PDF
@@ -150,7 +150,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -160,7 +160,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-43060) - WebWorksheet.SetEditableRange ne fonctionne pas dans GridWeb
 
-(CELLSNET-43057) - Impossible de changer d'onglet et la pagination ne fonctionne pas non plus
+ (CELLSNET-43057) - Impossible de changer d'onglet et la pagination ne fonctionne pas non plus
 
  (CELLSNET-43007) - Le niveau d'indentation ne fonctionne pas avec une autre culture que celle des États-Unis
 
@@ -174,7 +174,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  Ajoute la propriété Chart.Worksheet
 
- Obtient la feuille de calcul qui contient ce graphique.
+Obtient la feuille de calcul qui contient ce graphique.
 
 
 

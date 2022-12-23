@@ -38,13 +38,13 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **Insetti**
 
 
- (CELLSJAVA-41366) - Foglio di calcolo danneggiato dopo l'apertura e il salvataggio del file XLSX del modello
+ (CELLSJAVA-41366) - Foglio di calcolo danneggiato dopo l'apertura e il salvataggio del file modello XLSX
 
-(CELLSJAVA-41355) - La conversione in HTML aggiunge # stringa alla fine dei valori per una colonna
+ (CELLSJAVA-41355) - La conversione in HTML aggiunge # stringa alla fine dei valori per una colonna
 
- (CELLSJAVA-41354) - I numeri nelle caselle di testo non vengono visualizzati all'interno
+(CELLSJAVA-41354) - Numbers nelle caselle di testo non vengono visualizzate all'interno
 
- (CELLSJAVA-41353) - Il posizionamento/allineamento delle arti intelligenti nel PDF non corrisponde al file Excel di origine
+ (CELLSJAVA-41353) - Il posizionamento/allineamento delle arti intelligenti in PDF non corrisponde al file Excel di origine
 
  (CELLSJAVA-41343) - La linea di fondo è molto più lunga dell'originale nel file modello
 
@@ -62,13 +62,13 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41326) - Perdita di testo nel file modello
 
- (CELLSJAVA-41304) - Conversioni non riuscite da XLS a PDF con API Aspose.Cells
+ (CELLSJAVA-41304) - Conversioni non riuscite da XLS a PDF con le API Aspose.Cells
 
 (CELLSJAVA-41206) - Conversione di file Excel contenenti collegamenti ipertestuali in HTML - Cell i collegamenti ipertestuali di riferimento non funzionano
 
  (CELLSJAVA-40483) - Problema con la formattazione di una forma/oggetto freccia - Rendering da Excel a PDF
 
- (CELLSJAVA-41372) - Il diagramma di Gantt non viene visualizzato nel formato file PDF di output
+ (CELLSJAVA-41372) - Il diagramma di Gantt non viene visualizzato nel formato file di output PDF
 
  (CELLSJAVA-41363) - Problema con i valori restituiti dei parametri nel calcolo della funzione personalizzata
 
@@ -84,15 +84,15 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41348) - Il formato condizionale con formato numerico non funziona per XLS
 
- (CELLSJAVA-41347) - Style.isDateTime restituisce false per una cella formattata come Data
+(CELLSJAVA-41347) - Style.isDateTime restituisce false per una cella formattata come Data
 
-(CELLSJAVA-41338) - Il bordo sinistro appare quando non dovrebbe per una cella che ha una colonna nascosta adiacente
+ (CELLSJAVA-41338) - Il bordo sinistro appare quando non dovrebbe per una cella che ha una colonna nascosta adiacente
 
  (CELLSJAVA-41331) - Le formule non vengono aggiornate correttamente dopo l'inserimento delle righe
 
- (CELLSJAVA-41330) - Area di stampa dinamica interrotta quando si salva come / si stampa PDF
+ (CELLSJAVA-41330) - Area di stampa dinamica interrotta quando si salva con nome / stampa PDF
 
- (CELLSJAVA-41365) - Alcuni caratteri ebraici nella casella di testo mancano nel file PDF di output
+ (CELLSJAVA-41365) - Alcuni caratteri ebraici nella casella di testo mancano nel file di output PDF
 
  (CELLSJAVA-41346) - Le etichette dell'asse dei valori e dell'asse delle categorie nel grafico sono oscurate (conversione da Excel a PDF)
 
@@ -100,13 +100,13 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41305) - I caratteri di testo in grassetto si sovrappongono durante la conversione del foglio di lavoro in immagine
 
- (CELLSJAVA-40916) - Il testo all'esterno dell'interruzione di pagina viene visualizzato in PDF come testo a capo
+ (CELLSJAVA-40916) - Il testo al di fuori dell'interruzione di pagina viene visualizzato in PDF come testo a capo
 
- (CELLSJAVA-40791) - Problema con interruzione di pagina, rendering dei caratteri e margini nel rendering da Excel a PDF
+ (CELLSJAVA-40791) - Problema con interruzione di pagina, rendering dei caratteri e margini in Excel per il rendering PDF
 
- (CELLSJAVA-40605) - Aspose.Cells: il testo tagliato nella cella originale viene mostrato completamente quando viene convertito in PDF
+(CELLSJAVA-40605) - Aspose.Cells: il testo tagliato nella cella originale viene mostrato completamente quando convertito in PDF
 
-(CELLSJAVA-40479) - Problema di layout di pagina (RTL) rendering
+ (CELLSJAVA-40479) - Problema di layout di pagina (RTL) rendering
 
  (CELLSJAVA-40448) - Il piè di pagina è incasinato nel file PDF generato
 
@@ -130,13 +130,13 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: per la stringa di input: "0,00" nella cartella di lavoro ctor
 
- (CELLSJAVA-41344) - java.lang.NullPointerException a Cells.find
+(CELLSJAVA-41344) - java.lang.NullPointerException a Cells.find
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -146,7 +146,7 @@ url: /it/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-Aggiunge la proprietà SheetRender.PageScale.
+ Aggiunge la proprietà SheetRender.PageScale.
 
  Viene utilizzato per ottenere la scala di pagina calcolata del foglio.
 
@@ -177,13 +177,13 @@ Aggiunge metodi per il calcolo delle formule con CalculationOptions: Cell.Calcul
 
 
 
- Aggiunge metodi: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Aggiunge metodi: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Consenti all'utente di recuperare i dati da un riferimento.
 
 
 
-Modifiche per i parametri di ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
+ Modifiche per i parametri di ICustomFunction.CalculateCustomFunction(string functionName, ArrayList paramsList, ArrayList contextObjects)
 
  Ora aggiungiamo l'oggetto ReferredArea in "paramsList" invece il valore o l'array di valori dell'area a cui si fa riferimento quando il parametro corrispondente è un riferimento o il suo risultato calcolato è un riferimento. E rimuoviamo ReferredAreaCollection da contextObjexts.
 

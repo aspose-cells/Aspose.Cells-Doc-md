@@ -25,7 +25,7 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 #### **群组设置**
 Microsoft Excel 允许您配置组设置以显示：
 
-- 详细信息下方的摘要行。
+- 详细信息下方的汇总行。
 - 详细信息右侧的摘要列。
 ## **取消分组行和列**
 要取消分组任何已分组的行或列，请调用[细胞](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)收藏的[解组行](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#adc1f6418506854ab41707bfef453ddb1)和[取消组合列](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell#aa3bf9a9510d4e85f68db9ebdcadc8406)方法。两种方法都有两个参数：

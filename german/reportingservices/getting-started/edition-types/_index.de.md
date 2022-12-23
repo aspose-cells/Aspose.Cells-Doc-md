@@ -15,7 +15,7 @@ Aspose.Cells for Reporting Services bietet nur einen Editionstyp an. Die Funktio
 | Erstellung von Datenquellen und Abfragen.| Ja|
 | Reporting Services-Parameter als Berichtsdatenquelle.| Ja|
 | Globale Reporting Services-Variablen als Berichtsdatenquelle.| Ja|
-| Reporting Services-Formeln als Berichtsdatenquelle.| Ja|
+|Reporting Services-Formeln als Berichtsdatenquelle.| Ja|
 | Microsoft Dynamische Excel-Formel.| Ja|
 | Festlegen der freigegebenen Datenquelle als Berichtsdatenquelle zum Zeitpunkt der Veröffentlichung.| Ja|
 | Microsoft Excel-Pivot-Tabellen.| Ja|

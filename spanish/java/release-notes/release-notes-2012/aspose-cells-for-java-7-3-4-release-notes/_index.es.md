@@ -11,7 +11,7 @@ url: /es/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 Estamos
- feliz de anunciar Aspose.Cells for Java v7.3.4!
+feliz de anunciar Aspose.Cells for Java v7.3.4!
 
  Nuevas características
 
@@ -31,7 +31,7 @@ Estamos
  Insectos
 
 - El texto árabe se convirtió en caracteres basura en el archivo CSV guardado con UTF-8
-- Error "Es posible que se hayan perdido los datos" para el archivo XLS vuelto a guardar por Aspose.Cells
+- Error "Es posible que se hayan perdido datos" para el archivo XLS vuelto a guardar por Aspose.Cells
 - "Excel encontró contenido ilegible….."error para el informe generado Aspose.Cells
 - Cell.getFormula() no distinguió rangos con nombres diferentes con el mismo nombre pero diferente alcance
 - Título automático para el problema del gráfico PIE

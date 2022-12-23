@@ -25,7 +25,7 @@ Ce sont les étapes nécessaires pour rechercher des cellules avec des styles sp
 
 ## En utilisant Aspose.Cells for Java
 
- Aspose.Cells for Java fournit la fonctionnalité permettant de rechercher des cellules dans une feuille de calcul avec un style spécifique. Pour cela, le API fournit[**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) propriété.
+ Aspose.Cells for Java fournit la fonctionnalité permettant de rechercher des cellules dans une feuille de calcul avec un style spécifique. Pour cela, le API fournit[**FindOptions.setStyle()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) la propriété.
 
 ### Exemple de code
 

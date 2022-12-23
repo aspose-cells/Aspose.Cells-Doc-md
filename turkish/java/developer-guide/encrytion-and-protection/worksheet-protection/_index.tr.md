@@ -26,9 +26,9 @@ Korumalı çalışma sayfaları hassas verileri gizlemez veya korumaz, dolayıs�
 
 ProtectionType numaralandırması, aşağıdaki önceden tanımlanmış koruma türlerini içerir:
 
-|**Koruma Türleri**|**Tanım**|
+|**Koruma Türleri**|**Açıklama**|
 |:- |:- |
-|[**TÜM**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Kullanıcı bu çalışma sayfasındaki hiçbir şeyi değiştiremez|
+|[**HERŞEY**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Kullanıcı bu çalışma sayfasındaki hiçbir şeyi değiştiremez|
 |[**İÇİNDEKİLER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|Kullanıcı bu çalışma sayfasına veri giremez|
 |[**NESNELER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Kullanıcı çizim nesnelerini değiştiremez|
 |[**SENARYOLAR**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|Kullanıcı kaydedilen senaryoları değiştiremez|
@@ -44,19 +44,19 @@ Aşağıdaki örnek, bir çalışma sayfasının parola ile nasıl korunacağın
 
 **Bir kullanıcının çalışma sayfasını değiştiremeyeceğini belirten bir iletişim kutusu uyarısı** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_1.png)
 
-Çalışma sayfası üzerinde çalışmak için, çalışma sayfasını seçerek korumayı kaldırın.**Koruma** , sonra**Sayfanın korumasını kaldır** dan**Aletler** Menü öğesi aşağıda gösterildiği gibi.
+Çalışma sayfası üzerinde çalışmak için, çalışma sayfasını seçerek korumayı kaldırın.**Koruma** , o zamanlar**Sayfanın korumasını kaldır** dan**Araçlar** Menü öğesi aşağıda gösterildiği gibi.
 
 **Sayfanın Korumasını Kaldır menü öğesini seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_2.png)
 
 Parola isteyen bir iletişim kutusu açılır.
 
 **Çalışma sayfasının korumasını kaldırmak için parola girme** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_3.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_3.png)
 
 ### **Birkaç Kişiyi Korumak Cells**
 
@@ -80,7 +80,7 @@ Hücre komutu kullanılamıyorsa, çalışma sayfasının bazı bölümleri zate
 {{% /alert %}}
 
 1. Yalnızca kilitlemek istediğiniz hücreleri seçin ve 2. adımı tekrarlayın, ancak bu sefer Kilitli onay kutusunu seçin.
-1.  Üzerinde**Aletler** menü, seç**Koruma** , Tıklayın**Sayfayı Koruyun** ve ardından tıklayın**TAMAM**.
+1.  Üzerinde**Araçlar** menü, seç**Koruma** , Tıklayın**Sayfayı Koruyun** ve ardından tıklayın**Tamam**.
 
 {{% alert color="primary" %}}
 
@@ -120,17 +120,17 @@ Aşağıdaki örnek, çalışma sayfasındaki bir sütunun nasıl korunacağın�
 
 Bir çalışma sayfasından korumayı kaldırmak için:
 
- itibaren**Aletler** menü, seç**Koruma** bunu takiben**Sayfanın korumasını kaldır**.
+ itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfanın korumasını kaldır**.
 
 **Korumayı Kaldır Sayfasını Seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_4.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_4.png)
 
 Çalışma sayfası parola korumalı olmadığı sürece koruma kaldırılır. Bu durumda, bir iletişim kutusu parola ister.
 
 **Çalışma sayfasının korumasını kaldırmak için parola girme** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_5.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_5.png)
 
 ### **Aspose.Cells'i kullanma**
 
@@ -165,12 +165,12 @@ Aspose.Cells, Excel XP ve sonraki sürümleri tarafından sunulan tüm gelişmi�
 
 Excel XP'de bulunan koruma ayarlarını görüntülemek için:
 
-1.  itibaren**Aletler** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**.
+1.  itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**.
  Bir iletişim kutusu görüntülenir.
 
    **Excel XP'de koruma seçeneklerini gösteren iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_6.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_6.png)
 
 1. Çalışma sayfası özelliklerine izin verin veya bunları kısıtlayın ya da bir parola uygulayın.
 
@@ -200,7 +200,7 @@ Kullanıcıların hücreleri düzenlemesini kısıtlamak istiyorsanız, herhangi
 
 **Excel XP'de hücreleri kilitlemek için iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](protect-and-unprotect-worksheet_7.png)
+![yapılacaklar:resim_alternatif_metin](protect-and-unprotect-worksheet_7.png)
 
 Aspose.Cells API kullanarak da hücreleri kilitlemek mümkündür. Her hücre, ayrıca bir setLocked yöntemi içeren bir Stil API'e sahiptir. Hücreleri kilitlemek veya kilidini açmak için kullanın.
 

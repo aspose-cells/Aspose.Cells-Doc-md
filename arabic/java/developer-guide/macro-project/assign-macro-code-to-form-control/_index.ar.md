@@ -10,7 +10,7 @@ url: /ar/java/assign-macro-code-to-form-control/
 
 {{% /alert %}} 
 ## **تعيين رمز ماكرو للتحكم في النموذج باستخدام Aspose.Cells**
-نموذج التعليمات البرمجية التالي بإنشاء مصنف جديد وتعيين "رمز ماكرو" إلى "نموذج نموذج" وحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف XLSM الناتج في Microsoft Excel ، سترى رمز الماكرو التالي.
+يقوم نموذج التعليمات البرمجية التالي بإنشاء مصنف جديد ، وتعيين "رمز ماكرو" إلى "نموذج زر" وحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف الإخراج XLSM في Microsoft Excel ، سترى رمز الماكرو التالي.
 
 {{< highlight "java" >}}
 
@@ -22,6 +22,6 @@ End Sub
 
 {{< /highlight >}}
 
-فيما يلي نموذج تعليمة برمجية لإنشاء ملف XLSM الناتج باستخدام رمز الماكرو.
+فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج XLSM برمز الماكرو.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}

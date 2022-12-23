@@ -6,7 +6,7 @@ url: /it/net/specify-author-while-write-protecting-workbook/
 ---
 ## **Possibili scenari di utilizzo**
 
-È possibile specificare il nome dell'autore durante la protezione da scrittura della cartella di lavoro utilizzando l'API Aspose.Cells. Si prega di utilizzare[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)proprietà a tale scopo.
+Puoi specificare il nome dell'autore mentre scrivi proteggendo la tua cartella di lavoro usando Aspose.Cells API. Si prega di utilizzare[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)proprietà a tale scopo.
 
 ## **Specifica l'autore durante la protezione dalla scrittura della cartella di lavoro**
 
@@ -14,6 +14,6 @@ Il seguente codice di esempio spiega l'utilizzo di[**Workbook.Settings.WriteProt
 
 ![cose da fare:immagine_alt_testo](specify-author-while-write-protecting-workbook_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Worksheets-Security-SpecifyAuthorWhileWriteProtectingWorkbook.cs" >}}

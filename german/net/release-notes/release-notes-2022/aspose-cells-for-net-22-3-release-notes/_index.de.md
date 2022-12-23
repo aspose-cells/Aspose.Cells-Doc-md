@@ -23,20 +23,20 @@ url: /de/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50545| Bedingt formatierte Felder werden nicht in der richtigen Farbe eingefärbt|
 |CELLSNET-50565|Formeln wurden nicht korrekt berechnet|
 |CELLSNET-50309|Bereich bis PNG: Ausgabe nicht wie erwartet|
-|CELLSNET-50334|Regression: XLS zu PDF: Header nicht korrekt gerendert|
+|CELLSNET-50334|Regression: XLS bis PDF: Header nicht korrekt gerendert|
 |CELLSNET-50367|Das Konvertieren von .XLSX in PDF dauert lange und erzeugt zusätzliche Seiten|
 |CELLSNET-50401|Numerische Werte oder Zahlen gefolgt von Einzelposten sind im resultierenden PDF nicht sichtbar|
 |CELLSNET-50478|Workbook.ExportXml gibt nur die erste Zeile der Tabellendaten zurück|
 |CELLSNET-50507|Der XML-Import blendet zuvor ausgeblendete Spalten in der Vorlage ein|
-|CELLSNET-50554|Inhalt wird bei der Konvertierung von Excel in PDF nicht richtig gerendert|
-|CELLSNET-50316|Umbrochener Text funktioniert bei Diagrammen nicht, wenn PDF generiert wird|
-|CELLSNET-50411|Beschriftungen der horizontalen Achse des Diagramms werden in der Ausgabe-PDF nicht richtig gerendert|
+|CELLSNET-50554|Inhalt wird in Excel nicht richtig in PDF-Konvertierung gerendert|
+|CELLSNET-50316|Umbrochene Texte funktionieren nicht in Diagrammen, wenn PDF generiert wird|
+|CELLSNET-50411|Beschriftungen der horizontalen Achse des Diagramms werden in der Ausgabe PDF nicht richtig gerendert|
 |CELLSNET-50341|Problem beim Reduzieren und Erweitern von Gruppen mit mehreren Ebenen|
-|CELLSNET-50368| ODS-zu-PDF-Konvertierung falsch|
-|CELLSNET-50377|Die benutzerdefinierte „Text“-Formatierung wird in der XLS-Datei nicht angewendet|
+|CELLSNET-50368|ODS in PDF Konvertierung falsch|
+|CELLSNET-50377|Die benutzerdefinierte „Text“-Formatierung wird in der Datei XLS nicht angewendet|
 |CELLSNET-50380| Die ImportTableOptions.IsHtmlString-Eigenschaft gibt Links nicht korrekt aus|
-|CELLSNET-50418|HTML in Arbeitsmappe laden funktioniert nicht|
-|CELLSNET-50494|Problem mit Farbe für bedingt formatierte Zellen in der XLSX-Ausgabedatei|
+|CELLSNET-50418|Laden Sie HTML in die Arbeitsmappe, die nicht funktioniert|
+|CELLSNET-50494|Problem mit Farbe für bedingt formatierte Zellen in der Ausgabedatei XLSX|
 |CELLSNET-50563|Problem beim Festlegen der eingebetteten Lizenz zum Produzieren einer einzelnen Datei in der Anwendung .NET 6.0|
 |CELLSNET-50585|Keine Schrägstriche, sondern Backslashes für externe Links mit URL|
 |CELLSNET-50390| System.ArgumentException: Die Zeilen- oder Spaltennummer darf beim Importieren von JSON-Daten als Tabelle nicht Null sein|

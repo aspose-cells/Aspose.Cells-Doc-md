@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-8-1-1-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java がバージョン 8.1.1 に更新されました。このリリースで 8 つの新しい便利な改善点が追加されたことをお知らせできることをうれしく思います。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -28,7 +28,7 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 バグ
 
 (CELLSJAVA-40848) - 条件付き書式の背景色が PDF でレンダリングされない
-(CELLSJAVA-40852) - ImageOrPrintOptions の透過性を設定すると、黒い背景で PNG がレンダリングされます
+(CELLSJAVA-40852) - ImageOrPrintOptions の透明度を設定すると、PNG が黒い背景でレンダリングされる
 (CELLSJAVA-40855) - XLSX から PDF: CellsHelper.setFontDir がフォントを選択していないようです
 (CELLSJAVA-40862) - Cell.getType() が日時として数値を検出しています
 (CELLSJAVA-40863) - 数式でのローカライズされた形式のサポート

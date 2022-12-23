@@ -10,6 +10,6 @@ url: /fr/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 
 {{% /alert %}}
 
- Le code suivant crée**Nuage de points relié par des lignes avec des marqueurs de données** puis ajoute**Étiquettes personnalisées** au**Points de données** dans le**Série** de la**Graphique**. Chaque étiquette personnalisée indique le**Nom de la série** et**Nom du point**. Vous pouvez utiliser n'importe quel autre texte à sa place.
+ Le code suivant crée**Nuage de points relié par des lignes avec des marqueurs de données** puis ajoute**Étiquettes personnalisées** au**Points de données** dans le**Série** du**Graphique**. Chaque étiquette personnalisée indique le**Nom de la série** et**Nom du point**. Vous pouvez utiliser n'importe quel autre texte à sa place.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}

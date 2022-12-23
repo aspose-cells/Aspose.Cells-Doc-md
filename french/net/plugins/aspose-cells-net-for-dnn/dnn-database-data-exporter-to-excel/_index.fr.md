@@ -23,7 +23,7 @@ Cette version initiale du module est enrichie des fonctionnalités intéressante
 - Autoriser l'utilisation en tant que source de données (table, vues, requête personnalisée)
 - Exporter des données vers des documents Excel Microsoft (.xls, .xlsx et .xlsb)
 - Exporter les données vers un document texte délimité par des tabulations (*.txt)
-- Exporter des données vers CSV (délimité par des virgules) (*.csv)
+- Exporter les données vers CSV (délimité par des virgules) (*.csv)
 - Exporter des données vers une feuille de calcul OpenDocument (*.ods)
 - Option pour sélectionner le format de sortie souhaité avant l'exportation.
 - Le document exporté est automatiquement envoyé au navigateur pour téléchargement.
@@ -59,14 +59,14 @@ Vous pouvez télécharger Aspose .NET Cells Exportateur de données de base de d
 Une fois téléchargé, veuillez suivre ces étapes pour installer le module sur votre site Web DNN :
 
 1. Connectez-vous à votre site en tant qu'hôte ou en tant que compte de niveau super-utilisateur.
-1.  Naviguez vers le**Héberger** menu et sélectionnez**Rallonges**.
+1.  Naviguez vers le**Hôte** menu et sélectionnez**Rallonges**.
 1.  Cliquez sur**Assistant d'installation d'extension**.
-1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvert**.
-1.  Cliquez sur**Prochain** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Revenir** bouton.
+1. Comme indiqué, accédez à l'emplacement du fichier zip téléchargé, sélectionnez-le, puis cliquez sur**Ouvrir**.
+1.  Cliquez sur**Suivant** , acceptez la licence, poursuivez l'installation. Lorsque vous avez terminé, cliquez sur le**Retour** bouton.
 
  Vérifiez s'il vous plaît[cette vidéo d'installation du module](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) de DNN pour plus de détails.
 
-## **Utilisant**
+## **En utilisant**
 
 Après avoir installé le module Aspose .NET Database Data Expoeter for DNN, il est très simple de commencer à l'utiliser sur votre site Web. Veuillez suivre ces étapes simples pour commencer :
 

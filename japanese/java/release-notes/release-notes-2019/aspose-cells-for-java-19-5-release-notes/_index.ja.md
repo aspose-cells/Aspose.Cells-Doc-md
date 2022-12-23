@@ -13,9 +13,9 @@ url: /ja/java/aspose-cells-for-java-19-5-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42857|エクスポートされた PDF の形状に間違った値が表示される|バグ|
-|CELLSJAVA-42890|変換後、画像が不透明で透明でない - Excel から HTML へのレンダリング|バグ|
-|CELLSJAVA-42893|Excel から HTML へのレンダリングでグラフが表示されない|バグ|
-|CELLSJAVA-42899|Excel から HTML への問題|バグ|
+|CELLSJAVA-42890|画像は不透明で、変換後に透明ではありません - Excel から HTML へのレンダリング|バグ|
+|CELLSJAVA-42893|Excel で HTML のレンダリングにグラフが表示されない|バグ|
+|CELLSJAVA-42899|HTML問題へのエクセル|バグ|
 |CELLSJAVA-42903|CentOS での Excel から HTML へのレンダリングの問題|バグ|
 |CELLSJAVA-42882|MS Excel 95 XLS ファイルからデータを抽出できませんでした|バグ|
 |CELLSJAVA-42887|MS Excel と Aspose.Cells の計算の違い|バグ|
@@ -23,8 +23,8 @@ url: /ja/java/aspose-cells-for-java-19-5-release-notes/
 |CELLSJAVA-42909|DATEVALUE 関数の問題|バグ|
 |CELLSJAVA-42910|文字列に文字が含まれている場合の VLOOKUP 関数の問題|バグ|
 |CELLSJAVA-42911|日付に TEXT 関数を使用する際の問題|バグ|
-|CELLSJAVA-42896|PDF に変換すると、電話番号が変わります|バグ|
-|CELLSJAVA-42900|PDF に変換するとテキストの順序が変わります|バグ|
+|CELLSJAVA-42896|PDF に変換すると電話番号が変わります|バグ|
+|CELLSJAVA-42900|PDF に変換すると、テキストの順序が変わります|バグ|
 |CELLSJAVA-42881|MS Excel 5.0/95 XLS ファイルのロード時の例外「java.lang.IllegalStateException: Invalid encoding: null」|例外|
 |CELLSJAVA-42884|MS Excel 5.0/95 XLS ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException」|例外|
 
@@ -41,4 +41,4 @@ ODS のセル フィールドを表します。
 ### **Cells.ODSCellFields プロパティを追加**
 ODS のセル フィールドのリストを取得します。
 ### **ODSPageBackground クラスと PageSetup.ODSPageBackground プロパティを追加**
-ODSの背景を表しています。
+ODSの背景を表します。

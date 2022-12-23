@@ -6,7 +6,7 @@ url: /ar/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- يمكنك استخدام Aspose.Cells لتعيين خاصية الاسترداد التلقائي للمصنف. القيمة الافتراضية لهذه الخاصية هي**حقيقي** . عندما تقوم بتعيينه**خاطئة** في مصنف ، يقوم Microsoft Excel بتعطيل الاسترداد التلقائي (الحفظ التلقائي) في ملف Excel هذا.
+يمكنك استخدام Aspose.Cells لتعيين خاصية الاسترداد التلقائي للمصنف. القيمة الافتراضية لهذه الخاصية هي**حقيقي** . عندما تقوم بتعيينه**خاطئة** في مصنف ، يقوم Microsoft Excel بتعطيل الاسترداد التلقائي (الحفظ التلقائي) في ملف Excel هذا.
 
  يوفر Aspose.Cells[**المصنف ، الإعدادات ، الاسترداد التلقائي**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) الخاصية لتمكين أو تعطيل هذا الخيار.
 

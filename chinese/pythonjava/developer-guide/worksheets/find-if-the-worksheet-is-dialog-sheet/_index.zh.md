@@ -7,7 +7,7 @@ url: /zh/python-java/find-if-the-worksheet-is-dialog-sheet/
 ## **可能的使用场景**
 对话框工作表是一种包含对话框的工作表的旧格式。这样的工作表可以由旧版本的 Microsoft Excel（例如 2003）插入，如屏幕截图所示。它也可以在较新版本中使用 VBA 插入，例如 Microsoft Excel 2016。
 
-![待办事项：图像_替代_文本](DialogSheet.png)
+![待办事项：图片_替代_文本](DialogSheet.png)
 ## **查找工作表是否为对话框表**
 Aspose.Cells for Python via Java 使您能够检查工作表是否为对话框表。为此，它提供了[工作表.类型](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)财产。如果[工作表.类型](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)返回枚举值[工作表类型.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG)，那么这意味着，你正在处理一个对话框表。
 

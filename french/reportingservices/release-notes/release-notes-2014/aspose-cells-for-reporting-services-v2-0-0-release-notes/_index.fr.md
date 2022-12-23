@@ -37,7 +37,7 @@ Aspose.Cells for Reporting Services Optimisation du concepteur de rapports.
 - ` `(SSRS-40131) La largeur des colonnes n'est pas enveloppée dans les cas pour le moteur de rendu Aspose Données uniquement
 - ` `(SSRS-40130) Problèmes de formatage des devises
 - ` `(SSRS-40129) Le saut de page conditionnel ne fonctionne pas dans les moteurs de rendu Aspose
-- ` `(SSRS-40128) Exportation SSRS vers les en-têtes de colonne de réduction XLSX
+- ` `(SSRS-40128) Exportation SSRS vers XLSX rétrécissement des en-têtes de colonne
 - ` `(SSRS-40127) Aspose Sortie de rapport de données uniquement - La page 2 n'est pas contrôlée via la configuration de l'en-tête de rapport
 - ` `(SSRS-40126) La sortie de la première colonne de rapport est fusionnée en deux colonnes Excel
 - ` `(SSRS-40125) Problèmes de formatage des devises avec Excel et les données uniquement avec Excel
@@ -53,7 +53,7 @@ Aspose.Cells for Reporting Services Optimisation du concepteur de rapports.
 - ` `(SSRS-40114) Format de rapport horizontal
 - ` `(SSRS-40112) Insertion de feuilles supplémentaires dans un classeur exporté
 - ` `(SSRS-40111) Erreur lors de l'exportation du rapport
-- ` `(SSRS-40109) Problèmes de rendu Excel 2007 XLSX
+- ` `(SSRS-40109) Excel 2007 XLSX problèmes de rendu
 - ` `(SSRS-40108) Excel a trouvé du contenu illisible
 - ` `(SSRS-40107) La table n'est pas générée en tant que Tablix dans le RDL
 - ` `(SSRS-40106) Erreur : La référence d'objet n'est pas définie sur une instance d'un objet

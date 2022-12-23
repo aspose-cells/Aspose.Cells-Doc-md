@@ -39,7 +39,7 @@ Créez d'abord une feuille de calcul simple dans Microsoft Excel. Ensuite, appli
  1. Installez-le sur votre ordinateur de développement.
  Tous les composants Aspose, une fois installés, fonctionnent en mode d'évaluation. Le mode d'évaluation n'a pas de limite de temps et il injecte uniquement des filigranes dans les documents produits.
 1. Créer un projet :
- 1. Démarrez Visual Studio. Rapporter.
+ 1. Démarrez Visual Studio. Filet.
  1. Créez une nouvelle application console.
  Cet exemple montre une application console C#, mais vous pouvez également utiliser VB.NET.
 1. Ajoutez des références :

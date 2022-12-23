@@ -20,4 +20,4 @@ url: /de/java/aspose-cells-for-java-7-5-2-release-notes/
 
  Fehler
 
- 40553 – Beim Rendern von Excel in PDF werden keine Diagramme mit JDK1.7.0_21 gerendert
+ 40553 – Beim Rendern von Excel auf PDF werden Diagramme mit JDK1.7.0_21 nicht gerendert

@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-8-1-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java wurde auf Version 8.1.1 aktualisiert und wir freuen uns, Ihnen mitteilen zu können, dass diese Version 8 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -28,8 +28,8 @@ Verbesserungen
 Fehler
 
 (CELLSJAVA-40848) – Hintergrundfarben der bedingten Formatierung werden im PDF nicht gerendert
-(CELLSJAVA-40852) – Das Festlegen der Transparenz von ImageOrPrintOptions rendert das PNG mit schwarzem Hintergrund
-(CELLSJAVA-40855) - XLSX zu PDF: CellsHelper.setFontDir scheint die Schriftarten nicht auszuwählen
+(CELLSJAVA-40852) – Das Festlegen der Transparenz von ImageOrPrintOptions rendert PNG mit schwarzem Hintergrund
+(CELLSJAVA-40855) - XLSX bis PDF: CellsHelper.setFontDir scheint die Schriftarten nicht auszuwählen
 (CELLSJAVA-40862) - Cell.getType() erkennt eine Zahl als datetime
 (CELLSJAVA-40863) – Unterstützung für lokalisierte Formate in Formeln
 

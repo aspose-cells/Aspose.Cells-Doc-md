@@ -18,7 +18,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 Aşağıdaki ekran görüntüsü**Gelişmiş Excel Seçenekleri** ve belirtmek için bölümü vurgular**Özel Ayırıcılar**.
 
-![yapılacaklar:resim_alternatif_Metin](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-custom-number-decimal-and-group-separators-for-workbook_1.png)
 
 ## **Aspose.Cells kullanarak Özel Ayırıcıları Belirtme**
 

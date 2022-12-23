@@ -23,7 +23,7 @@ Bu adımlar aşağıdaki kodda gösterilmiştir. İlk kod örnekleri, bunların 
 
 Kod, ilk sayfada her biri farklı kenarlığa sahip birkaç hücre içeren bir Excel dosyası oluşturur:
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 Cells, kenarlık uygulanmış.
 ## **VSTO**

@@ -66,19 +66,19 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-43271) - L'ouverture et l'enregistrement de la feuille de calcul la corrompent
 
- (CELLSNET-43266) - La deuxième feuille de calcul n'est pas rendue correctement dans le PDF de sortie
+ (CELLSNET-43266) - La deuxième feuille de calcul n'est pas rendue correctement dans la sortie PDF
 
  (CELLSNET-43262) - Les méthodes de IStreamProvider ne sont pas appelées
 
- (CELLSNET-43248) - Connexions au tableau croisé dynamique supprimées pour le segment lors du réenregistrement d'un fichier XLSB
+ (CELLSNET-43248) - Connexions au tableau croisé dynamique supprimées pour le segment lors de la ré-enregistrement d'un fichier XLSB
 
  (CELLSNET-43215) - PivotItem ne se déplace pas vers l'emplacement spécifié lors de l'utilisation de PivotItem.Move
 
- (CELLSNET-43205) - Certains éléments graphiques sont mal placés dans le HTML de sortie
+ (CELLSNET-43205) - Certains éléments graphiques sont mal placés dans la sortie HTML
 
- (CELLSNET-43204) - Certains éléments graphiques sont mal placés dans le PDF de sortie
+ (CELLSNET-43204) - Certains éléments graphiques sont mal placés dans la sortie PDF
 
- (CELLSNET-43051) - Les points de données du graphique apparaissent sous l'image dans le format de fichier HTML rendu
+ (CELLSNET-43051) - Les points de données du graphique apparaissent sous l'image dans le format de fichier rendu HTML
 
  (CELLSNET-42878) - La couleur d'arrière-plan du tableau croisé dynamique est définie sur noir
 
@@ -86,11 +86,11 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-43306) - Aspose.Cells ne convertit pas la ligne pointillée en ligne droite
 
- (CELLSNET-43288) - Les images ne s'affichent pas lors de la conversion de la feuille de calcul en PDF
+(CELLSNET-43288) - Les images ne s'affichent pas lors de la conversion de la feuille de calcul en PDF
 
-(CELLSNET-43263) - Problème de rendu d'image
+ (CELLSNET-43263) - Problème de rendu d'image
 
- (CELLSNET-43245) - La mise en page est réduite et les bordures deviennent plus épaisses dans le PDF de sortie
+ (CELLSNET-43245) - La mise en page est réduite et les bordures deviennent plus épaisses dans la sortie PDF
 
  (CELLSNET-42973) - Problème d'alignement du pied de page
 
@@ -102,7 +102,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-43273) - Le quadrillage principal de l'axe vertical (valeur) n'est plus sélectionnable
 
- (CELLSNET-43272) - Rotation d'image non utilisée dans le format de fichier PDF rendu
+ (CELLSNET-43272) - Rotation d'image non utilisée dans le format de fichier rendu PDF
 
  (CELLSNET-43267) - Le texte hébreu est inversé dans le graphique
 
@@ -112,9 +112,9 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-43210) - Boutons de champ manquants dans le graphique croisé dynamique
 
- (CELLSNET-43046) - Chart.ToImage ne rend pas le format de date conforme à CultureInfo
+(CELLSNET-43046) - Chart.ToImage ne rend pas le format de date conforme à CultureInfo
 
-(CELLSNET-42993) - Les étiquettes de données de graphique ne s'affichent pas lors du rendu au format PDF
+ (CELLSNET-42993) - Les étiquettes de données de graphique ne s'affichent pas lors du rendu vers PDF
 
  (CELLSNET-42893) - SheetRender.ToImage n'affiche pas correctement le graphique
 
@@ -136,13 +136,13 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  (CELLSNET-43280) - Définition du type de placement de CommentShape sur "Déplacer"
 
- (CELLSNET-43275) - Document Excel ouvert en bloquant la vue protégée
+(CELLSNET-43275) - Document Excel ouvert en bloquant la vue protégée
 
-(CELLSNET-43270) - La définition du zoom pour la feuille de calcul de type graphique ne prend pas effet
+ (CELLSNET-43270) - La définition du zoom pour la feuille de calcul de type graphique ne prend pas effet
 
  (CELLSNET-43269) - UpdateLinkedDataSource ne récupère pas les nouvelles données du classeur externe
 
- (CELLSNET-43265) - Problème de conversion du signe livre Ansi SpreadsheetML
+ (CELLSNET-43265) - Problème de conversion du signe Ansi Pound SpreadsheetML
 
  (CELLSNET-43264) - Application de bordures aux cellules
 
@@ -161,14 +161,14 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
  (CELLSNET-43157) - Les zones de texte se cachent derrière les images
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-43323) - Exception sur la méthode Workbook.CalculateFormula()
 
- (CELLSNET-43319) - System.ArgumentOutOfRangeException à l'ouverture du fichier XLA
+(CELLSNET-43319) - System.ArgumentOutOfRangeException à l'ouverture du fichier XLA
 
-(CELLSNET-43292) - Exception lors de l'enregistrement d'un classeur avec une feuille de graphique vide
+ (CELLSNET-43292) - Exception lors de l'enregistrement d'un classeur avec une feuille de graphique vide
 
  (CELLSNET-43278) - Erreur lors du chargement du document Excel avec Sparklines
 
@@ -178,7 +178,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -218,7 +218,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 
 
- Ajoute la méthode WorkbookSettings.CheckWriteProtectedPassword()
+Ajoute la méthode WorkbookSettings.CheckWriteProtectedPassword()
 
  Vérifie si le mot de passe est correct mot de passe protégé en écriture.
 
@@ -244,7 +244,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  Ajoute la méthode PivotItem.Move(int count, bool isSameParent).
 
- Déplace l'élément vers le haut ou vers le bas.
+Déplace l'élément vers le haut ou vers le bas.
 
 
 
@@ -256,7 +256,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
  Ajoute la méthode Workbook.GetNamedStyle(string name).
 
-Obtient le style nommé dans le pool de styles du classeur par son nom.
+ Obtient le style nommé dans le pool de styles du classeur par son nom.
 
 
 
@@ -296,7 +296,7 @@ Obtient le style nommé dans le pool de styles du classeur par son nom.
 
 
 
-Ajoute la méthode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Ajoute la méthode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 
  Rend le classeur à l'imprimante.
 
@@ -322,11 +322,11 @@ Ajoute la méthode WorkbookRender.ToPrinter(string PrinterName, int PrintPageInd
 
  Obsolète la méthode PivotItem.Move(int count).
 
- Utilisation de la méthode PivotItem.Move(int count, bool isSameParent) à la place.
+Utilisation de la méthode PivotItem.Move(int count, bool isSameParent) à la place.
 
 
 
-Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
+ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
 
 
@@ -346,7 +346,7 @@ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
 
 
- Supprime les propriétés obsolètes ReCalcOnOpen, Language, Encoding et ConvertNumericData de WorkbookSettings.
+Supprime les propriétés obsolètes ReCalcOnOpen, Language, Encoding et ConvertNumericData de WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ Supprime toutes les méthodes Open() et Save() obsolètes de Workbook.
 
 
 
-Supprime les DisplayHTMLCrossString et ExportChartImageFormat obsolètes de HtmlSaveOptions.
+ Supprime les DisplayHTMLCrossString et ExportChartImageFormat obsolètes de HtmlSaveOptions.
 
 
 

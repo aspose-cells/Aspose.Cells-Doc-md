@@ -11,7 +11,7 @@ url: /ja/net/public-api-changes-in-aspose-cells-8-6-1/
 {{% /alert %}} 
 ## **追加された API**
 ### **HTML リンク ターゲット タイプのサポート**
-Aspose.Cells for .NET API のこのリリースでは、HtmlLinkTargetType という列挙型が、新しいプロパティ HtmlSaveOptions.LinkTargetType とともに公開されました。[HTML 形式への変換中にスプレッドシートのリンクのターゲット タイプを設定する](/cells/ja/net/change-the-html-link-target-type/)HtmlLinkTargetType 列挙体の可能な値は次のとおりです。既定値は Self です。
+Aspose.Cells for .NET API のこのリリースでは、HtmlLinkTargetType という列挙型が、新しいプロパティ HtmlSaveOptions.LinkTargetType とともに公開されました。[HTML 形式への変換中に、スプレッドシート内のリンクのターゲット タイプを設定します](/cells/ja/net/change-the-html-link-target-type/)HtmlLinkTargetType 列挙体の可能な値は次のとおりです。既定値は Self です。
 
 1. HtmlLinkTargetType.Blank: リンクされたドキュメント/ページを新しいウィンドウまたはタブで開きます。
 1. HtmlLinkTargetType.Parent: リンクされたドキュメント/ページを親フレームで開きます。

@@ -14,6 +14,6 @@ url: /it/net/specify-formula-fields-while-importing-data-to-worksheet/
 
 ![cose da fare:immagine_alt_testo](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.cs" >}}

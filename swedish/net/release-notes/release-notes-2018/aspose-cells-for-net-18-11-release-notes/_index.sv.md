@@ -23,29 +23,29 @@ url: /sv/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46423|Formateringsproblem vid konvertering av XLSX till PDF|Insekt|
 |CELLSNET-46410|Pivottabellformatet blir trassligt efter uppdatering|Insekt|
 |CELLSNET-46404|Bearbetar diagram på samma sätt som bilder när du sparar HTML|Insekt|
-|CELLSNET-46388|Filen är korrupt efter att ha laddat och sparat ett XLSX-filformat|Insekt|
+|CELLSNET-46388|Filen är korrupt efter att ha laddat och sparat ett XLSX filformat|Insekt|
 |CELLSNET-46387|Problem med att sortera pivottabellen|Insekt|
 |CELLSNET-46366|Kanter och bakgrundsfärger saknas vid konvertering av HTML till XLSX|Insekt|
 |CELLSNET-46365|Refererade CSS-formatmallar ignorerades när HTML öppnades|Insekt|
 |CELLSNET-46431|Resultatet av VLookup-formeln skiljer sig från MS Excel-resultatet|Insekt|
-|CELLSNET-46430|Arrayformel fungerar inte efter Workbook.Combine i XLSX till XLSB-konvertering|Insekt|
+|CELLSNET-46430|Arrayformel fungerar inte efter Workbook.Combine i XLSX till XLSB konvertering|Insekt|
 |CELLSNET-46428|Name.RefersTo hämtar inte rätt värde|Insekt|
 |CELLSNET-46413|Att skapa XLSX med villkorlig formatering ger en skadad fil|Insekt|
-|CELLSNET-46403|Arrayformel fungerar inte efter Workbook.Combine för att spara till XLSB-filformat|Insekt|
-|CELLSNET-46396|Arbetsbok som sparats som SVG är skadad eftersom den faktiskt är en TIFF-fil|Insekt|
-|CELLSNET-46420|Graf i PDF får spikproblem|Insekt|
-|CELLSNET-46411|Det hänger sig medan XLSX konverteras till PDF|Insekt|
+|CELLSNET-46403|Matrisformel fungerar inte efter Workbook. Kombinera för att spara till XLSB filformat|Insekt|
+|CELLSNET-46396|Arbetsboken sparad som SVG är skadad eftersom den faktiskt är TIFF-fil|Insekt|
+|CELLSNET-46420|Grafen i PDF får spikproblem|Insekt|
+|CELLSNET-46411|Den hänger sig när XLSX konverteras till PDF|Insekt|
 |CELLSNET-46408|Datamarkörer saknas i utdatadiagrambilden från MS Excel-filen|Insekt|
-|CELLSNET-46393|Axeletiketter feljusterade efter konvertering av MS Excel-diagram till PNG-bildformat|Insekt|
-|CELLSNET-46359|Variation i teckensnittsstorleken för etiketter i diagrammet i SVG-utdatafilen|Insekt|
+|CELLSNET-46393|Axeletiketter feljusterade efter konvertering av MS Excel-diagram till bildformatet PNG|Insekt|
+|CELLSNET-46359|Variation i teckensnittsstorleken för etiketter i diagrammet i utdatafilen SVG|Insekt|
 |CELLSNET-46433|Villkorlig formatering tas bort när namngivna intervall tas bort|Insekt|
 |CELLSNET-46427|MS Excel rapporterar ett problem efter att ha öppnat/sparat med Aspose.Cells|Insekt|
 |CELLSNET-46421|Document CreatedTime-egenskapen ändras efter att ha sparats i flödet|Insekt|
 |CELLSNET-46417|Radbryt text fungerar inte tillsammans med en tom rad ovanför texten|Insekt|
-|CELLSNET-46416|Kartlägger data som förlorats när XLSX-filen laddas och sparas|Insekt|
+|CELLSNET-46416|Kartlägger data som förlorats när filen XLSX laddas och sparas|Insekt|
 |CELLSNET-46409|Problem med rullgardinslistan efter konvertering från XML|Insekt|
-|CELLSNET-46407|Initieringen av arbetsboken tar för lång tid när ett XLSM-filformat laddas|Insekt|
-|CELLSNET-46397|Graftiteln går förlorad när XLS konverteras till XLSM|Insekt|
+|CELLSNET-46407|Initieringen av arbetsboken tar för lång tid när ett filformat XLSM laddas|Insekt|
+|CELLSNET-46397|Graftitel försvinner vid konvertering av XLS till XLSM|Insekt|
 |CELLSNET-46401|ArgumentException när du arbetar med genererad HTML-fil|Undantag|
 |CELLSNET-46426|Undantag vid anrop av AutoFitColumns()|Undantag|
 |CELLSNET-46415|CellsException undantag under spara när ParsingFormulaOnOpen är falskt|Undantag|
@@ -63,7 +63,7 @@ Representerar beräkningsdata för en cell som beräknas.
 #### **Lägger till metoden AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**
 Ger en metod för användare att samla in och bearbeta cirkulära referenser.
 #### **Lägger till egenskapen TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
-Tillåter användaren att välja om konsekutiva avgränsare ska tas som en när CSV-fil importeras.
+Tillåter användaren att välja om konsekutiva avgränsare ska tas som en vid import av CSV-fil.
 #### **Lägger till metoden FormatCondition.SetFormulas(strängformel1, strängformel2, bool ärR1C1, bool ärLokal)**
 Ger ett effektivt och bekvämt sätt för användaren att ställa in formler för FormatCondition.
 #### **Lägger till metoden Validation.GetListValue(int row, int column).**

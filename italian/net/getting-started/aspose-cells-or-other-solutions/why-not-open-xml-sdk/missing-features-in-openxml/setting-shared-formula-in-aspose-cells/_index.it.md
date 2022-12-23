@@ -8,7 +8,7 @@ url: /it/net/setting-shared-formula-in-aspose-cells/
 
 Supponiamo di avere un foglio di lavoro pieno di dati.
 
- Si desidera aggiungere una funzione in B2 che calcolerà l'imposta sulle vendite per la prima riga di dati. La tassa è**9%** . La formula che calcola l'imposta sulle vendite è:**"=A2*0.09"**. Questo articolo spiega come applicare questa formula con Aspose.Cells.
+ Si desidera aggiungere una funzione in B2 che calcolerà l'imposta sulle vendite per la prima riga di dati. La tassa è**9%** La formula che calcola l'imposta sulle vendite è:**"=A2*0.09"**. Questo articolo spiega come applicare questa formula con Aspose.Cells.
 
 {{% /alert %}} 
 

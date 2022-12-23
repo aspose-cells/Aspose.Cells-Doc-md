@@ -129,7 +129,7 @@ url: /ar/net/working-with-visual-studio/
 
 
 
-1.  الاحتفاظ أو تغيير أو حذف<!DOCTYPE>بطاقة شعار.
+1.  الاحتفاظ أو تغيير أو حذف<!DOCTYPE> بطاقة شعار.
 1.  أو قم بتعديل ملف<!DOCTYPE> علامة بالعلامة التالية:
 
 {{< highlight "csharp" >}}
@@ -151,7 +151,7 @@ url: /ar/net/working-with-visual-studio/
 
 
 ### **الخطوة 6: تكوين خصائص Aspose.Cells.GridWeb**
- قم بتكوين خصائص Aspose.Cells.GridWeb في WYSIWYG بالنقر فوق ملف**الخصائص** على الجانب الأيمن من Visual Studio 2013 IDE.
+ قم بتكوين خصائص Aspose.Cells.GridWeb في WYSIWYG بالنقر فوق ملف**ملكيات** على الجانب الأيمن من Visual Studio 2013 IDE.
  يتم عرض مربع حوار الخصائص.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-visual-studio_15.png)

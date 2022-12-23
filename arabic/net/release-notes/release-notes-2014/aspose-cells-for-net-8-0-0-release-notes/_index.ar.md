@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 تم تحديث Aspose.Cells for .NET إلى الإصدار 8.0.0 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 50 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -38,7 +38,7 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 (CELLSNET-42417) - خطأ مطبعي في اسم الأسلوب - SeriesCollection.SecondCatergoryData
 
-(CELLSNET-42413) - فقد السيناريوهات أثناء تحويل XLSB إلى XLSM
+(CELLSNET-42413) - السيناريوهات المفقودة أثناء التحويل XLSB إلى XLSM
 
 ### **أداء**
 
@@ -48,7 +48,7 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 ## **البق**
 
-(CELLSNET-42367) - مشكلة نص عمودي في PDF الناتج
+(CELLSNET-42367) - مشكلة نص عمودي في الإخراج PDF
 
 (CELLSNET-42409) - لم يتم حساب / طباعة الحقل المحسوب
 
@@ -60,9 +60,9 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 (CELLSNET-42358) - مشكلة محاذاة النص مع مربعات الاختيار
 
-(CELLSNET-42357) - بعض مربعات الاختيار مفقودة في إخراج HTML
+(CELLSNET-42357) - بعض مربعات الاختيار مفقودة في الإخراج HTML
 
-(CELLSNET-42352) - حدود مفقودة أثناء تحويل XLSX إلى HTML
+(CELLSNET-42352) - حدود مفقودة أثناء التحويل XLSX إلى HTML
 
 (CELLSNET-42476) - فشل اختبار الحذف في Aspose.Cells v7.7.2.5
 
@@ -88,21 +88,21 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 (CELLSNET-42428) - تحويل Excel إلى PDF - الصفوف غير مرئية
 
-(CELLSNET-42421) - الرقم 8 مفقود في ملف PDF مع بعض المشاهدين
+(CELLSNET-42421) - رقم 8 مفقود في ملف PDF مع بعض المشاهدين
 
-(CELLSNET-42410) - فاصل صفحات إضافي في تحويل Excel إلى PDF
+(CELLSNET-42410) - فاصل صفحات إضافي في Excel لتحويل PDF
 
-(CELLSNET-42338) - التناقضات والمشكلات الخاصة بالقيم والرسوم البيانية في إخراج XPS
+(CELLSNET-42338) - التناقضات والمشكلات للقيم والرسوم البيانية في الإخراج XPS
 
-(CELLSNET-41853) - فقدت تصميمات صفحة XLS تمامًا
+(CELLSNET-41853) - فقدت تصميمات من صفحة XLS تمامًا
 
-(CELLSNET-41803) - لا يظهر قاعدة البيانات السلبية في ملف PDF الناتج
+(CELLSNET-41803) - لا يظهر قاعدة البيانات السلبية في الإخراج PDF
 
-(CELLSNET-42473) - لا يحتوي الرسم البياني على علامات في ملف PDF الناتج
+(CELLSNET-42473) - لا يحتوي المخطط على علامات في الإخراج PDF
 
-(CELLSNET-42403) - مشكلة حجم المخطط وموضعه أثناء تحويل XLSX إلى PDF
+(CELLSNET-42403) - مشكلة حجم المخطط وموضعه أثناء التحويل XLSX إلى PDF
 
-(CELLSNET-42372) - تمت إزالة سلسلة بيانات المخطط في ملفات XLSX الناتجة
+(CELLSNET-42372) - تمت إزالة سلسلة بيانات المخطط في ملفات الإخراج XLSX
 
 (CELLSNET-42055) - الملف تالف بأحدث إصدار من MS Excel (2013)
 
@@ -116,7 +116,7 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 (CELLSNET-42424) - إخراج WEEKNUM () غير صحيح
 
-(CELLSNET-42412) - لا تعمل بعض الصيغ في ملف PDF الناتج بعد استدعاء CalculateFormula ()
+(CELLSNET-42412) - لا تعمل بعض الصيغ في الإخراج PDF بعد استدعاء CalculateFormula ()
 
 (CELLSNET-42397) - خاصية الصيغة لا تعمل على كائن الخلية
 
@@ -173,7 +173,7 @@ url: /ar/net/aspose-cells-for-net-8-0-0-release-notes/
 
 يضيف FileFormatType.Ooxml enum
 
-يمثل ملف xml مفتوحًا في Office مشفرًا (مثل XLSX و DOCX و PPTX وما إلى ذلك).
+يمثل ملف xml المفتوح (مثل XLSX ، DOCX ، PPTX ، إلخ).
 
 إضافة خاصية LoadOptions.MemorySetting و WorkbookSettings.MemorySetting الخاصية
 

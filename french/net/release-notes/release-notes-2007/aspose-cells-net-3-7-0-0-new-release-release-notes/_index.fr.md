@@ -39,7 +39,7 @@ L'édition Professional inclut désormais toutes les fonctionnalités qui étaie
 
 - La méthode AutoFitColumn peut provoquer StackOverflowException lorsqu'elle est appelée plusieurs fois.
  Bug lors de l'enregistrement d'un fichier avec de nombreuses formules
- Plage nommée et autres problèmes de conversion d'un fichier Excel en fichier SpreadsheetML
+ Plage nommée et autres problèmes de conversion du fichier Excel au fichier SpreadsheetML
  Paramètres de style de ligne et de colonne
  Réglage du format du numéro de l'axe des valeurs du graphique
  Lire les caractères scandinaves dans les commentaires

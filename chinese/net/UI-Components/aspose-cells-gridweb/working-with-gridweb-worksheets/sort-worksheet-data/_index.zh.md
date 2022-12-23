@@ -22,11 +22,11 @@ Aspose.Cells.GridWeb 允许开发者对数据进行水平和垂直排序，以�
 
 在应用代码之前，工作表包含无序数据。
 
-![待办事项：图像_替代_文本](sort-worksheet-data_1.png)
+![待办事项：图片_替代_文本](sort-worksheet-data_1.png)
 
 执行代码后，数据按升序排序。
 
-![待办事项：图像_替代_文本](sort-worksheet-data_2.png)
+![待办事项：图片_替代_文本](sort-worksheet-data_2.png)
 
 
 
@@ -42,11 +42,11 @@ Aspose.Cells.GridWeb 允许开发者对数据进行水平和垂直排序，以�
 
 在应用代码之前，工作表包含无序数据。
 
-![待办事项：图像_替代_文本](sort-worksheet-data_3.png)
+![待办事项：图片_替代_文本](sort-worksheet-data_3.png)
 
 执行代码后，数据按升序排序。
 
-![待办事项：图像_替代_文本](sort-worksheet-data_4.png)
+![待办事项：图片_替代_文本](sort-worksheet-data_4.png)
 
 
 

@@ -16,7 +16,7 @@ Aspose.Cells låter användaren visa och dölja delar av en arbetsbok inklusive 
 
 **Styra arbetsbladens synlighet:**
 
- Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Excel-fil.[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)som gör det möjligt att komma åt varje kalkylblad i Excel-filen.
+ Aspose.Cells tillhandahåller en klass,[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) som representerar en Excel-fil.[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass innehåller en[**Arbetsbladssamling**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) som gör det möjligt att komma åt varje kalkylblad i Excel-filen.
 
  Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass tillhandahåller ett brett utbud av egenskaper och metoder för att hantera ett kalkylblad. Men för att kontrollera synligheten för ett kalkylblad kan utvecklare använda[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) metod för[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass.
 
@@ -44,7 +44,7 @@ Aspose.Cells låter användaren visa och dölja delar av en arbetsbok inklusive 
 
 **Arbetsblad - Efter exekvering av exempelkoden:**
 
-**Bok1.xls** filen öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass och sedan det första kalkylbladet i**Bok1.xls** filen görs dold. Den ändrade filen sparas som**output.xls**fil vars bildvy visas nedan:
+**Bok1.xls** filen öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)klass och sedan det första kalkylbladet i**Bok1.xls** filen görs dold. Den ändrade filen sparas som**output.xls** fil vars bildvy visas nedan:
 
 ![todo:image_alt_text](show-and-hide-elements_2.png)
 
@@ -128,7 +128,7 @@ Skärmdumpen nedan visar att Book1.xls innehåller tre arbetsblad: Blad1, Blad2 
 
  Book1.xls öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' och rad- och kolumnrubriken på det första kalkylbladet är dolda. Den ändrade filen sparas som output.xls.
 
-**Arbetsbladsvy efter ändring**
+**Arbetsbladsvy efter modifiering**
 
 ![todo:image_alt_text](show-and-hide-elements_7.png)
 
@@ -161,7 +161,7 @@ Nedan finns en komplett kod som öppnar en Excel-fil, book1.xls, döljer båda r
 
 Skärmdumpen nedan visar filen Book1.xls som innehåller båda rullningslisterna. Den modifierade filen sparas som output.xls-fil, även visad nedan.
 
-**Book1.xls: Excel-fil före eventuella ändringar**
+**Book1.xls: Excel-fil före eventuell ändring**
 
 ![todo:image_alt_text](show-and-hide-elements_8.png)
 
@@ -189,7 +189,7 @@ Aspose.Cells låter dig också kontrollera synligheten för rutnätet.
 
 #### **Dölja rutnät**
 
- Dölj rutnät med hjälp av the[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) metod.
+ Dölj rutnät med hjälp av[**Arbetsblad**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) klass'[**setGridlinesVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) metod.
 
 {{% alert color="primary" %}}
 
@@ -209,7 +209,7 @@ Skärmdumpen nedan visar att Book1.xls-filen innehåller tre kalkylblad: Sheet1,
 
  Book1.xls-filen öppnas med hjälp av[**Arbetsbok**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) klass och sedan döljs rutnätslinjerna för det första kalkylbladet. Den ändrade filen sparas som output.xls-fil.
 
-**Arbetsbladsvy efter ändring**
+**Arbetsbladsvy efter modifiering**
 
 ![todo:image_alt_text](show-and-hide-elements_11.png)
 

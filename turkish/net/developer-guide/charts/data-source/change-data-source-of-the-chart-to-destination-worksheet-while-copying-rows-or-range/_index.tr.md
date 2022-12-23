@@ -12,6 +12,6 @@ Grafik içeren satırları veya aralığı yeni bir çalışma sayfasına kopyal
 
  Aşağıdaki örnek kod, kullanımını açıklar[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) grafikleri içeren satırları veya aralığı yeni bir çalışma sayfasına kopyalarken özelliği. kod kullanır[örnek excel dosyası](5113699.xlsx) ve oluşturur[çıktı excel dosyası](5113697.xlsx).
 
-![yapılacaklar:resim_alternatif_Metin](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
+![yapılacaklar:resim_alternatif_metin](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ChangeChartDataSource-1.cs" >}}

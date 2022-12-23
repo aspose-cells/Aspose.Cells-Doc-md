@@ -6,22 +6,22 @@ url: /tr/java/spreadsheet-editor-getting-started/
 ---
 **İçindekiler**
 
-- [giriiş](#SpreadsheetEditorGettingStarted-Introduction)
+- [Giriş](#SpreadsheetEditorGettingStarted-Introduction)
 - [sistem gereksinimleri](#SpreadsheetEditorGettingStarted-SystemRequirements)
 - [İndirme ve Kurulum](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
-- [Destek](#SpreadsheetEditorGettingStarted-Support)
-- [Katkıda bulunmak](#SpreadsheetEditorGettingStarted-Contribute)
+- [Destek olmak](#SpreadsheetEditorGettingStarted-Support)
+- [Katkı yapmak](#SpreadsheetEditorGettingStarted-Contribute)
 - [Lisans](#SpreadsheetEditorGettingStarted-License)
-### **giriiş**
+### **Giriş**
 Html5 Elektronik Tablo Düzenleyicisi, elektronik tablo belgelerini bir web tarayıcısında görüntüleyebilen ve düzenleyebilen bir web uygulamasıdır. Excel, SpreadsheetML, CVS, OpenDocument ve Microsoft Excel tarafından desteklenen diğer birçok formatı destekler. Hücre düzenleme, biçimlendirme, formül düzenleme, satır ve sütun yönetimi vb. dahil olmak üzere tüm temel özellikler desteklenir.
 
-![yapılacaklar:resim_alternatif_Metin](aowcrc1.png)
+![yapılacaklar:resim_alternatif_metin](aowcrc1.png)
 
- HTML5 Elektronik Tablo Düzenleyicisi'nin birçok özelliğini kullanır.[Aspose.Cells for Java](https://products.aspose.com/cells/java/)ve bunların Java uygulamanızda bir elektronik tablo oluşturmak, işlemek ve işlemek için nasıl kullanılacağını gösterir.
+ HTML5 Elektronik Tablo Düzenleyicisi'nin birçok özelliğini kullanır.[Aspose.Cells for Java](https://products.aspose.com/cells/java/) ve bunların Java uygulamanızda bir elektronik tablo oluşturmak, işlemek ve işlemek için nasıl kullanılacağını gösterir.
 
-**Özellikler**
+**Özellikleri**
 
--  Dosyalarla Çalışmak
+- Dosyalarla Çalışmak
  - Desteklenen Formatlar
  - Yerel dosyaları aç
  - Dropbox'tan aç
@@ -143,7 +143,7 @@ Proje oluşturma süreci Maven ile yönetilmektedir. Böylece herhangi bir IDE o
 1.  Tıklamak***Bitiş***.
 
 Eclipse IDE, projeyi içe aktarmalı ve yüklemelidir.
-### **Destek**
+### **Destek olmak**
 **Hata raporu**
 
  Bir hata raporu göndermek için adresinde yeni bir sorun oluşturun.[Github proje sayfası](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) ve etiketi uygulayın***böcek***.
@@ -158,15 +158,15 @@ Eclipse IDE, projeyi içe aktarmalı ve yüklemelidir.
 
 **Aspose.Cells for Java Forumlar**
 
- Aspose ürün forumları, hem deneme hem de ücretli müşteriler için tam destek sağlar. Uzmanlar, yardım sağlamak ve soruları yanıtlamak için 7/24 oturuyor. Ziyaret etmek[ürün forumları burada](https://forum.aspose.com/c/cells/9).
+ Aspose ürün forumları, hem deneme hem de ücretli müşteriler için tam destek sağlar. Uzmanlar, yardım sağlamak ve soruları yanıtlamak için 7/24 oturuyor. Ziyaret[ürün forumları burada](https://forum.aspose.com/c/cells/9).
 
 **Aspose Bloglar**
 
  Bizimle iletişime geçin ve ürünlerimiz ve tekliflerimiz hakkında en son haberleri takip edin. Abone olmak[blogumuz burada](http://blog.aspose.com).
-### **Katkıda bulunmak**
+### **Katkı yapmak**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[todo:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_elektronik tablo_Editör_ile_Aspose.Cells_için_Java)
+[!\[todo:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_elektronik tablo_Editör_tarafından_Aspose.Cells_için_Java)
 
 
 HTML5 Elektronik Tablo Düzenleyici, herkesin projeye katkıda bulunması için maksimum seçeneğe izin veren açık kaynaklı bir projedir.

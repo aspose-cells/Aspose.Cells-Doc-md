@@ -8,7 +8,7 @@ url: /tr/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting
 
  Microsoft Excel başvuru yapmanızı sağlar*Gelişmiş Filtre* karmaşık ölçütleri karşılayan kayıtları görüntülemek için çalışma sayfası verilerinde. Gelişmiş Filtre'yi Microsoft Excel ile uygulayabilirsiniz.*Veri > Gelişmiş*Bu ekran görüntüsünde gösterildiği gibi komut.
 
-![yapılacaklar:resim_alternatif_Metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
+![yapılacaklar:resim_alternatif_metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 
 Aspose.Cells ayrıca Gelişmiş Filtreyi uygulamanıza olanak tanır.[**Worksheet.AdvancedFilter()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/advancedfilter)yöntem. Tıpkı Microsoft Excel gibi aşağıdaki parametreleri kabul eder.
 
@@ -36,7 +36,7 @@ Yalnızca benzersiz satırları görüntüleme veya kopyalama.
 
 Aşağıdaki örnek kod, üzerinde gelişmiş filtreyi uygular.[Örnek Excel Dosyası](48496692.xlsx) ve oluşturur[Çıktı Excel Dosyası](48496691.xlsx). Ekran görüntüsü, karşılaştırma için her iki dosyayı da gösterir. Ekran görüntüsünde görebileceğiniz gibi, çıktı Excel dosyasında veriler karmaşık kriterlere göre filtrelenmiştir.
 
-![yapılacaklar:resim_alternatif_Metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
+![yapılacaklar:resim_alternatif_metin](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_2.png)
 
 ## **Basit kod**
 

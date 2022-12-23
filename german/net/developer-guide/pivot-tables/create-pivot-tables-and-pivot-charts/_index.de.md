@@ -28,7 +28,7 @@ Aspose.Cells stellt einen speziellen Satz von Klassen bereit, die zum Erstellen 
 1. Laden Sie Aspose.Cells herunter und installieren Sie es:
    1. [Aspose.Cells herunterladen](https://downloads.aspose.com/cells/net).
  1. Installieren Sie es auf Ihrem Entwicklungscomputer.
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein. Um mit der Komponente in vollem Umfang arbeiten zu können, benötigen Sie eine gültige Lizenz.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein. Um mit der Komponente in vollem Umfang arbeiten zu können, benötigen Sie eine gültige Lizenz.
 1. Erstellen Sie ein Projekt:
  1. Starten Sie Visual Studio.Net.
  1. Erstellen Sie eine neue Konsolenanwendung.

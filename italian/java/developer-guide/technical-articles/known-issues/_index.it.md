@@ -1,5 +1,5 @@
 ﻿---
-title: Problemi noti
+title: problemi conosciuti
 type: docs
 weight: 1091
 url: /it/java/known-issues/

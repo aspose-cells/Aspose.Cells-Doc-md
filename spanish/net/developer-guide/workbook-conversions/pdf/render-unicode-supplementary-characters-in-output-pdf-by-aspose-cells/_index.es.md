@@ -1,5 +1,5 @@
 ﻿---
-title: Representar caracteres complementarios Unicode en PDF de salida por Aspose.Cells
+title: Representar caracteres suplementarios Unicode en la salida PDF por Aspose.Cells
 type: docs
 weight: 350
 url: /es/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -15,14 +15,14 @@ En el estándar de caracteres Unicode, los caracteres complementarios son los ca
 
 {{% /alert %}}
 
-## Representar caracteres complementarios Unicode en PDF de salida por Aspose.Cells
+## Representar caracteres suplementarios Unicode en la salida PDF por Aspose.Cells
 
- La siguiente captura de pantalla muestra cómo Aspose.Cells representó el[archivo fuente excel](5115563.xlsx) en el[PDF de salida](5115564.pdf). Como puede ver, los tres caracteres complementarios de Unicode se han representado exactamente igual que lo hizo Microsoft Excel.
+ La siguiente captura de pantalla muestra cómo Aspose.Cells representó el[archivo fuente excel](5115563.xlsx) en el[salida PDF](5115564.pdf). Como puede ver, los tres caracteres complementarios de Unicode se han representado exactamente igual que lo hizo Microsoft Excel.
 
 ![todo:imagen_alternativa_texto](output.png)
 
 ## Código de muestra
 
- Puede usar este código de muestra para convertir[archivo fuente excel](5115563.xlsx) dentro[PDF de salida](5115564.pdf).
+ Puede usar este código de muestra para convertir[archivo fuente excel](5115563.xlsx) en[salida PDF](5115564.pdf).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderUnicodeInOutput-RenderUnicodeInOutput.cs" >}}

@@ -22,7 +22,7 @@ url: /zh/java/aspose-cells-for-java-8-5-1-release-notes/
 ## **虫子**
 
 
-(CELLSJAVA-41378) - 某些单元格的对齐方式未保留在生成的 HTML 中
+(CELLSJAVA-41378) - 某些单元格的对齐未保留在生成的 HTML 中
 
 (CELLSJAVA-41376) - 保存工作簿后弹出错误消息
 
@@ -46,9 +46,9 @@ url: /zh/java/aspose-cells-for-java-8-5-1-release-notes/
 
 (CELLSJAVA-41406) - 图表上的文本框在将电子表格呈现为 PDF 后发生位移
 
-(CELLSJAVA-41403) - 来源：化学被 PDF 中的图表边框覆盖
+(CELLSJAVA-41403) - 资料来源：化学在 PDF 中被图表边框覆盖
 
-(CELLSJAVA-41402) - 来源：化学品被 PNG 中的图表边框覆盖
+(CELLSJAVA-41402) - 来源：化学在 PNG 中被图表边框覆盖
 
 (CELLSJAVA-41387) - 数据标签被标题部分覆盖
 
@@ -70,7 +70,7 @@ url: /zh/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41383) - java.lang.ArrayIndexOutOfBoundsException: 42, at Workbook.save
 
- (CELLSJAVA-41408) - CellsException：形状到图像错误！在将电子表格转换为 PDF 时
+ (CELLSJAVA-41408) - CellsException：形状到图像错误！将电子表格转换为 PDF 时
 
 
 ## **公共 API 和向后不兼容的更改**

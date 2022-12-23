@@ -20,30 +20,30 @@ Aspose.Cells for Java v7.3.2 を発表させていただきます。
 
 機能強化
 
-- PDF 変換でメモリ リソースを解放するための内部ストリームを閉じる
+- PDF 変換でメモリリソースを解放するために内部ストリームを閉じます
 - ワークシートのコピー時にスパークラインをコピー
 
 例外
 
-- XLSファイルを開くとStackOverflowErrorが発生しました
-- PDF の保存中に例外が発生しました
+- XLS ファイルを開くと、StackOverflowError が発生しました
+- PDF を保存すると例外が発生しました
 - Worksheet.getFreezedPanes()はNullPointerExceptionを引き起こしました
 - 空の XML ファイルを開くと例外が発生しました
-- PDF への保存で例外が発生しました -I
-- PDF への保存で例外が発生しました -II
-- PDF への保存で例外が発生しました -III
-- PDF への保存で例外が発生しました -IV
+- PDF に保存すると例外が発生しました -I
+- PDF への保存で例外 -II が発生しました
+- PDF への保存で例外 -III が発生しました
+- PDF に保存すると、例外 -IV が発生しました
 - HTM テンプレート ファイルを開くときの例外
 - XLS ファイルを開くときの IllegalArgumentException
 - XLSファイルを開くときのNullPointerException
 - XLS ファイルを開くときの ArrayIndexOutOfBounds 例外
 - 自動並べ替えを設定した後にピボットテーブルを保存すると、ClassCastException が発生しました
-- Aspose Cells を使用して PDF を保存するときの形状から画像へのエラー
+- PDF usingAspose Cells を保存するときの形状から画像へのエラー
 - グリッド線をPDFに印刷するときのCellsException
 
 バグ
 
-- XLS テンプレートに保存された一部のリージョンは、読み取り時に認識されませんでした
+- XLS テンプレートに保存された一部の地域は、読み取り時に認識されませんでした
 - Chart-to-Image が棒グラフのスケールのレンダリングに失敗する
 - XLSX から PDF への変換後のデータ損失
 - Cellcollection がクリアされている場合、円グラフと散布図が機能しない

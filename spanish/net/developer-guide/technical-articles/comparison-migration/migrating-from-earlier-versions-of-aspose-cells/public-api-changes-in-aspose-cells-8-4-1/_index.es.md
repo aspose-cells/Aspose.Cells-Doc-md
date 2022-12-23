@@ -157,8 +157,8 @@ La misma propiedad también se puede utilizar para convertir gráficos en imáge
 {{% /alert %}} 
 
 
-### **Renderización de comentarios a PDF**
-Con el lanzamiento de v8.4.1, Aspose.Cells API ha proporcionado la propiedad PageSetup.PrintComments y la enumeración PrintCommentsType para facilitar la representación de comentarios al convertir hojas de cálculo a formato PDF. La enumeración PrintCommentsType tiene las siguientes constantes.
+### **Presentación de comentarios al PDF**
+Con el lanzamiento de v8.4.1, Aspose.Cells API ha proporcionado la propiedad PageSetup.PrintComments y la enumeración PrintCommentsType para facilitar la representación de comentarios al convertir hojas de cálculo al formato PDF. La enumeración PrintCommentsType tiene las siguientes constantes.
 
 - PrintCommentsType.PrintNoComments: los comentarios no deben procesarse.
 - PrintCommentsType.PrintInPlace: los comentarios deben representarse donde se colocaron.

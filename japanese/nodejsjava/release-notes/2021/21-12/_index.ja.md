@@ -13,19 +13,19 @@ url: /ja/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43994|SmarkMarker で WorkbookDesigner.process の実行を中断するサポート|
-|CELLSJAVA-44039|生成された PDF から PDF Producer 属性を変更します|
+|CELLSJAVA-44039|生成された PDF から PDF Producer 属性を変更します。|
 |CELLSJAVA-43469|リグレッションの可能性: FormatConditionCollection.addArea() のパフォーマンス低下|
 |CELLSJAVA-43983|リグレッション: XLSX を PDF に変換する際の無限ループ|
-|CELLSJAVA-44029|XLSX から PDF: 画像は変換されません|
+|CELLSJAVA-44029|XLSX ～ PDF: 画像が変換されません|
 |CELLSJAVA-44093|新しい Aspose.Cells for Java バージョンで画像をレンダリングするときの長方形のテキストの切り捨ての問題|
 |CELLSJAVA-44089|DataLabels.setShadow() は利用できず、Series.setShadow() メソッドと等しくありません|
 |CELLSJAVA-44000|Cells アイコン セットとその他の条件付き書式を同時に使用すると、HTML のスタイルが正しくない|
 |CELLSJAVA-43932|出力イメージで展開されたドーナツ グラフのデータ ラベルの位置を設定する際の問題|
 |CELLSJAVA-43934|グラフを操作または更新した後、円グラフのラベルが Excel と一致しない|
 |CELLSJAVA-44094|PDF へのエクスポート時にチャート タイトルが切り捨てられる|
-|CELLSJAVA-43533|Ubuntu での XLSX から Html への作成の問題|
+|CELLSJAVA-43533|XLSX から Ubuntu での HTML 作成の問題|
 |CELLSJAVA-43987|マージされたセルの右枠が html で失われる|
-|CELLSJAVA-44016|画像の URL を含む Excel ファイルを HTML に変換する際の問題|
+|CELLSJAVA-44016|写真の URL を含む Excel ファイルを HTML に変換する際の問題|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: Workbook.calculateFormula() を呼び出すときに関数 IF に入力したパラメーターが少なすぎます|
 |CELLSJAVA-44104|SpreadSheetML のインポート時の NullPointerException|
 

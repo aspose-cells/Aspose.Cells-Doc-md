@@ -9,7 +9,7 @@ url: /de/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 1. Öffnen Sie Visual Studio 2019.
 1. Von dem**Datei**Menü, auswählen**Neu**, dann**Projekt**.
  Der Dialog Neues Projekt erstellen wird geöffnet.
-1. Auswählen**Windows Formular-App (.NET Framework)**aus Visual Studio installierten Projektvorlagen und klicken Sie auf**Nächste**.
+1. Wählen**Windows Formular-App (.NET Framework)**aus Visual Studio installierten Projektvorlagen und klicken Sie auf**Nächste**.
 
 ![todo: Bild_alt_Text](how-to-use-formulabar-with-aspose-cells-griddesktop_1.jpg)
 
@@ -17,13 +17,13 @@ url: /de/net/how-to-use-formulabar-with-aspose-cells-griddesktop/
 
 ![todo: Bild_alt_Text](how-to-use-formulabar-with-aspose-cells-griddesktop_2.jpg)
 ### **Schritt 2: Fügen Sie der Toolbox Steuerelemente hinzu**
-1.  Klick auf das**Werkzeugkasten**
+1.  Klicke auf das**Werkzeugkasten**
 1.  Wählen**Gemeinsame Steuerelemente**, klicken Sie mit der rechten Maustaste und wählen Sie "**Artikel auswählen...**" aus dem Kontextmenü.
-1.  In dem**.NET Framework-Komponenten** Registerkarte der**Wählen Sie Toolbox-Elemente** Fenster, scrollen und auswählen**GridDesktop** und**Formelleiste** Komponenten.
+1.  Im**.NET Framework-Komponenten** Registerkarte der**Wählen Sie Toolbox-Elemente** Fenster, scrollen und auswählen**GridDesktop** und**Formelleiste** Komponenten.
 
 ![todo: Bild_alt_Text](how-to-use-formulabar-with-aspose-cells-griddesktop_3.jpg)
 ### **Schritt 3: Fügen Sie dem Formular Steuerelemente hinzu**
-1. Ziehen Sie GridDestop- und FormulaBar-Steuerelemente in das Formular. Dies sollte den Verweis auf die Aspose.Cells.GridDesktop.dll in den Projektreferenzen hinzufügen. Wenn die Referenz nicht hinzugefügt wird, können Sie die Referenz manuell hinzufügen, indem Sie mit der rechten Maustaste auf die Referenzen klicken und die Option „Referenzen hinzufügen“ auswählen. Navigieren Sie zum Speicherort der Aspose.Cells.GridDesktop.dll und fügen Sie sie hinzu.
+1. Ziehen Sie GridDestop- und FormulaBar-Steuerelemente in das Formular. Dies sollte den Verweis auf die Aspose.Cells.GridDesktop.dll in den Projektreferenzen hinzufügen. Wenn die Referenz nicht hinzugefügt wird, können Sie die Referenz manuell hinzufügen, indem Sie mit der rechten Maustaste auf die Referenzen klicken und die Option "Referenzen hinzufügen" auswählen. Navigieren Sie zum Speicherort der Aspose.Cells.GridDesktop.dll und fügen Sie sie hinzu.
 
 ![todo: Bild_alt_Text](how-to-use-formulabar-with-aspose-cells-griddesktop_4.jpg)
 

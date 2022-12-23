@@ -22,7 +22,7 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30919 Die TabColor-Eigenschaft des Arbeitsblatts für Arbeitsblätter vom Typ Diagramm
 
- 25224 Daten ohne XLS-Beschränkung in eine SpreadsheetML-Datei exportieren
+ 25224 Daten ohne XLS-Beschränkung in SpreadsheetML-Datei exportieren
 
  30672 Smart Markers - So gruppieren Sie Zeilen (Berechnen von Summen, Zwischensummen und Gesamtsummen)
 
@@ -30,7 +30,7 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30548 StackOverflowException beim Öffnen bestimmter Dateien aufgetreten
 
- 30609 Arbeitsmappenkonstruktor löst NullReferenceException aus
+30609 Arbeitsmappenkonstruktor löst NullReferenceException aus
 
  30989 Ausnahme: Ungültige Excel2007Xlsx-Datei
 
@@ -38,21 +38,21 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  29663 Konvertieren von Excel in PDF (Problem mit fehlenden Elementen)
 
-29692 Problem bei der Konvertierung von Excel in PDF
+ 29692 Problem bei der Konvertierung von Excel in PDF
 
  29840 Problem mit Version 6.0.1.3 (bezüglich Charts)
 
  30102 Problem mit Diagrammbild in Bezug auf Datenbeschriftungen und Fehlerbalken
 
- 30270 Druckproblem – Nummern werden als „#######“ angezeigt
+ 30270 Druckproblem – Numbers werden als „#######“ angezeigt
 
  30533 Problem mit der DeleteRange-Funktion
 
- 30603 EMF vs. PNG-Problem
+ 30603 EMF Vs PNG Ausgabe
 
  30729 Umbruchproblem beim Konvertieren von XLS in PDF
 
- 30755 Das Speichern als SaveFormat.XLSM verursacht Fehler
+ 30755 Speichern als SaveFormat.XLSM verursacht Fehler
 
  30785 Linienstil eines ChartPoints kann nicht geändert werden
 
@@ -62,11 +62,11 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30877 Daten werden in Diagrammen als fortlaufende Nummern angezeigt
 
- 30918 Bildprobleme beim Speichern im XLS-Format
+ 30918 Bildprobleme beim Speichern im Format XLS
 
- 30949 Cell Inhalt wird beim Konvertieren von XLS in PDF teilweise durch ein Wort geteilt
+30949 Cell Inhalt wird teilweise durch ein Wort geteilt, wenn XLS in PDF konvertiert wird
 
- 30980 Laden und Aktualisieren von XLSM und anschließendes Speichern verursacht FEHLER
+ 30980 Laden und Aktualisieren XLSM dann Speichern verursacht FEHLER
 
  30998 Probleme mit Excel 2010 und XLSM
 
@@ -74,7 +74,7 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31005 Negative Werte in Klammern
 
-31068 Das Speichern von Dateien stürzt in einigen Fällen nach Verwendung der DeleteRange-Methode ab
+ 31068 Das Speichern von Dateien stürzt in einigen Fällen nach Verwendung der DeleteRange-Methode ab
 
  31078 Pivot-Tabelle aktualisieren – Sortiert nicht richtig
 
@@ -90,7 +90,7 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31243 Kopierbereich mit Validierung
 
- 31277 Beim Speichern in XLSX ist das Dokument schreibgeschützt
+ 31277 Beim Speichern unter XLSX ist das Dokument schreibgeschützt
 
  \2) GridDesktop
 
@@ -100,4 +100,4 @@ url: /de/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31053 Parameter ist ungültig Ausnahme in GridDesktop aufgetreten
 
- 31071 Falsches Rendern des Dokuments über die GridDesktop.ImportExcelFile-Methode
+31071 Falsches Rendern des Dokuments über die GridDesktop.ImportExcelFile-Methode

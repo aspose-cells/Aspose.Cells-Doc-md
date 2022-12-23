@@ -14,5 +14,5 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-1-0-0-release-notes/
 
  ما هو الجديد:
 
--  دعم تنسيقات إدخال MS Excel: XLS و XLSX و XLST و XLSM و CSV و ODS و SpreadsheetML و TXT.
--  دعم تنسيقات الإخراج: XLS و XLSX و CSV و HTML و ODS و PDF و SpreadsheetML و TXT.
+- دعم تنسيقات إدخال MS Excel: XLS ، XLSX ، XLST ، XLSM ، CSV ، ODS ، SpreadsheetML ، TXT.
+-  دعم تنسيقات الإخراج: XLS ، XLSX ، CSV ، HTML ، ODS ، PDF ، SpreadsheetML ، TXT.

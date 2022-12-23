@@ -222,7 +222,7 @@ else
 {{< /highlight >}}
 
 
-### **Eigenschaft ColorScale.Is3ColorScale hinzugefügt**
+### **Eigenschaft ColorScale.Is3ColorScale Hinzugefügt**
  Aspose.Cells for .NET 8.7.0 hat die Eigenschaft ColorScale.Is3ColorScale verfügbar gemacht, die zum Erstellen des bedingten Formats „2-Color Scale“ verwendet werden kann. Die genannte Eigenschaft ist vom Typ Boolean mit dem Standardwert „true“, was bedeutet, dass das bedingte Format standardmäßig eine 3-Farbskala ist. Wenn Sie jedoch die Eigenschaft ColorScale.Is3ColorScale auf false umstellen, wird dies der Fall sein[Generieren Sie ein bedingtes 2-Farbskalen-Format](/cells/de/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/).
 
 Es folgt das einfache Nutzungsszenario.
@@ -274,7 +274,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 {{< /highlight >}}
 
 
-### **Eigenschaft TxtLoadOptions.HasFormula hinzugefügt**
+### **Eigenschaft TxtLoadOptions.HasFormula Hinzugefügt**
  Aspose.Cells for .NET 8.7.0 hat Unterstützung für bereitgestellt[Identifizieren und parsen Sie die Formeln beim Laden von CSV/TXT-Dateien mit getrennten Klardaten](/cells/de/net/load-or-import-csv-file-with-formulas/). Die neu verfügbar gemachte TxtLoadOptions.HasFormula-Eigenschaft weist, wenn sie auf „true“ gesetzt ist, den API an, die Formeln aus der Eingabedatei mit Trennzeichen zu analysieren und sie auf relevante Zellen festzulegen, ohne dass eine zusätzliche Verarbeitung erforderlich ist.
 
 Es folgt das einfache Nutzungsszenario.
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Eigenschaft DataLabels.IsResizeShapeToFitText Hinzugefügt**
- Eine weitere nützliche Funktion, die Aspose.Cells for .NET 8.7.0 verfügbar gemacht hat, ist die DataLabels.IsResizeShapeToFitText-Eigenschaft, die die aktivieren kann[Passen Sie die Größe der Form an den Text an](/cells/de/net/resize-chart-s-data-label-shape-to-fit-text/) Funktion der Excel-Anwendung für die Datenbeschriftungen des Diagramms.
+ Eine weitere nützliche Funktion, die Aspose.Cells for .NET 8.7.0 verfügbar gemacht hat, ist die DataLabels.IsResizeShapeToFitText-Eigenschaft, die die aktivieren kann[Passen Sie die Größe der Form an den Text an](/cells/de/net/resize-chart-s-data-label-shape-to-fit-text/)Funktion der Excel-Anwendung für die Datenbeschriftungen des Diagramms.
 
 Es folgt das einfache Nutzungsszenario.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Eigenschaft PdfSaveOptions.OptimizationType Hinzugefügt**
-Aspose.Cells for .NET 8.7.0 hat die PdfSaveOptions.OptimizationType-Eigenschaft zusammen mit der PdfOptimizationType-Enumeration bereitgestellt, um Benutzern dies zu erleichtern[Wählen Sie den gewünschten Optimierungsalgorithmus, während Sie Tabellenkalkulationen in das PDF-Format exportieren](/cells/de/net/save-excel-into-pdf-with-standard-or-minimum-size/). Es gibt 2 mögliche Werte für die PdfSaveOptions.OptimizationType-Eigenschaft, wie unten beschrieben.
+Aspose.Cells for .NET 8.7.0 hat die PdfSaveOptions.OptimizationType-Eigenschaft zusammen mit der PdfOptimizationType-Enumeration bereitgestellt, um Benutzern dies zu erleichtern[Wählen Sie den gewünschten Optimierungsalgorithmus, während Sie Tabellenkalkulationen in das Format PDF exportieren](/cells/de/net/save-excel-into-pdf-with-standard-or-minimum-size/). Es gibt 2 mögliche Werte für die PdfSaveOptions.OptimizationType-Eigenschaft, wie unten beschrieben.
 
 1. PdfOptimizationType.MinimumSize: Die Qualität ist für die resultierende Dateigröße beeinträchtigt.
 1. PdfOptimizationType.Standard: Die Qualität wird nicht beeinträchtigt, sodass die resultierende Dateigröße groß sein wird.

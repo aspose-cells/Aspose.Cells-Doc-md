@@ -16,7 +16,7 @@ Aspose.Cells for Java ist eine reine Java-Komponente, die mit Perl verwendet wer
 - Aspose.Cells for Java.
 - Java – Perl-Erweiterung.
 - Java-Laufzeit, die die Anforderungen von Aspose.Cells for Java und Java-Perl-Erweiterung erfüllt.
-### **Führen**
+### **Handbuch**
  Um eine Java API in Perl anzurufen, müssen Sie zuerst die Java-Perl-Erweiterung für Perl installieren. (Für die Zwecke dieses Artikels gehen wir davon aus, dass Perl ordnungsgemäß installiert und eingestellt wurde.) Sie können die Erweiterung Java-Perl von herunterladen[Mezzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
 
  Am Ende dieses Dokuments finden Sie ein Beispiel für ein Perl-Skript, das Aspose.Cells for Java aufruft. Führen Sie die folgenden Schritte aus, um es auszuführen:

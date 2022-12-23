@@ -63,8 +63,8 @@ Einige Microsoft Excel-Funktionen geben Arrays von Werten zurück. Um mehrere Er
 
  Es ist möglich, eine Matrixformel auf eine Zelle anzuwenden, indem Sie die aufrufen[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Klasse'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) Methode. Das[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) Die Methode nimmt die folgenden Parameter an:
 
-- **Array-Formel**, die Matrixformel.
-- **Reihenanzahl**die Anzahl der Zeilen, die das Ergebnis der Matrixformel füllen sollen.
+- **Array-Formel**die Matrixformel.
+- **Anzahl der Reihen**, die Anzahl der Zeilen, die das Ergebnis der Matrixformel füllen sollen.
 - **Anzahl der Spalten**die Anzahl der Spalten, die das Ergebnis der Matrixformel füllen sollen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}

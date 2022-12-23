@@ -13,12 +13,12 @@ url: /sv/net/aspose-cells-for-net-21-10-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-49192| Problem med att hämta intervall (RefersTo) med en offsetfunktion|Ny funktion|
-|CELLSNET-49132|Öppna filer med HTML-tabell inuti som XLS-filer|Ny funktion|
+|CELLSNET-49132|Öppna filer med HTML-tabellen inuti som XLS-filer|Ny funktion|
 |CELLSNET-49173|Stöd Range.CurrentRegion Property|Ny funktion|
 |CELLSNET-49015|Uppdatera hyperlänk (Sheet1!A1) när du ändrar namnet på kalkylbladet.|Förbättring|
 |CELLSNET-49021|Villkorlig formatering av ods går förlorad i MS Excel om typen är "Innehåller text"|Förbättring|
 |CELLSNET-49280|Stöd autofyllintervall med fyllningstyp|Förbättring|
-|CELLSNET-49413|Ta bort osynliga former när du renderar HTML|Förbättring|
+|CELLSNET-49413|Ta bort osynliga former vid rendering HTML|Förbättring|
 |CELLSNETCORE-135|Applikationen stannar när stora filer och UDF:er beräknas|Prestanda|
 |CELLSNET-49124|Suddiga radioknappar vid konvertering av XLSM till HTML|Insekt|
 |CELLSNET-49115|Felaktig beräkning av operatorer i formel när operander är intervall|Insekt|
@@ -27,12 +27,12 @@ url: /sv/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49067|Problem med få och ställ in flikfärg i GridDesktop|Insekt|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode fungerar inte|Insekt|
 |CELLSNET-49118|Problem med XML-import|Insekt|
-|CELLSNET-49195|XLSX till HTML-konvertering behåller inte sekvensen av osynliga tecken|Insekt|
-|CELLSNET-49245|Bild skiftar i specifika XLS-filer när de renderas till HTML|Insekt|
-|CELLSNET-49246|Bilden är inte synlig när du konverterar specifik XLSX-fil till HTML|Insekt|
-|CELLSNET-49334| Problem med teckensnittstext i sidfotsfältet för Excel-rendering|Insekt|
+|CELLSNET-49195|XLSX till HTML omvandlingen behåller inte sekvensen av osynliga tecken|Insekt|
+|CELLSNET-49245|Bildförskjutningar i specifika XLS-filer när de renderas till HTML|Insekt|
+|CELLSNET-49246|Bilden är inte synlig vid konvertering av specifik XLSX-fil till HTML|Insekt|
+|CELLSNET-49334|Problem med teckensnittstext i sidfotsfältet för Excel-rendering|Insekt|
 |CELLSNET-49393|Det gick inte att importera XML-filen till mallfilen|Insekt|
-|CELLSNETCORE-226|Onödigt blanksteg som återges under konvertering av Excel till EMF|Insekt|
+|CELLSNETCORE-226|Onödigt blanksteg renderas under konvertering av Excel till EMF|Insekt|
 |CELLSNET-49091|"strCache"-noden saknas i en XML|Insekt|
 |CELLSNET-49161|Det går inte längre att kopiera korrekt värdeaxelmarkeringsetiketts teckensnittsnamn|Insekt|
 |CELLSNET-49191|Kan inte visa procentvärden i dataetikett|Insekt|
@@ -47,12 +47,12 @@ url: /sv/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49328|Fel vid kopiering av arbetsblad|Insekt|
 |CELLSNET-49365|Text klipps i skrivarutdata efter anrop till AutoFitRows|Insekt|
 |CELLSNET-49366|Problem med Cell indatafält för datavalidering i XLSB-format|Insekt|
-|CELLSNETCORE-269|Fel rad med stor höjd läggs till i HTML-tabellen|Insekt|
-|CELLSNETCORE-270|Problem med HTMLString Font när Excel sparats som HTML en gång|Insekt|
+|CELLSNETCORE-269|Fel rad med stor höjd läggs till i HTML tabell|Insekt|
+|CELLSNETCORE-270|Problem med HtmlString Font när Excel sparades som HTML en gång|Insekt|
 |CELLSNET-49375|Problem vid uppdatering av pivottabell efter att ha lagt till data|Insekt|
 |CELLSNET-49194|Undantag vid laddning av excel-filen|Undantag|
 |CELLSNET-49363|CalculateData-metoden på pivottabellen ger undantag|Undantag|
-|CELLSNET-49373|"Inmatningssträngen var inte i rätt format." undantag när XLSX-filen öppnas|Undantag|
+|CELLSNET-49373|"Inmatningssträngen var inte i rätt format." undantag när filen XLSX är öppen|Undantag|
 |CELLSNET-49394|Null undantag när filen NUMBERS är öppen|Undantag|
 |
 

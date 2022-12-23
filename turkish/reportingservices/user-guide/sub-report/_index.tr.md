@@ -10,7 +10,7 @@ Bir alt rapor, bir tablo öğesine gömülebilir. Biçim şöyledir: &=subreport
 
 **Rapor tanımındaki bir alt rapor** 
 
-![yapılacaklar:resim_alternatif_Metin](sub-report_1.png)
+![yapılacaklar:resim_alternatif_metin](sub-report_1.png)
 
 Örnekte alt raporun adı “Satış Siparişi Detayı”dır. SalesOrderNumber adında bir parametresi vardır. Parametrenin değeri EmpSalesDetail.SalesOrderNumber şeklindedir.
 ### **Alt Raporlarla İlgili Kısıtlamalar**

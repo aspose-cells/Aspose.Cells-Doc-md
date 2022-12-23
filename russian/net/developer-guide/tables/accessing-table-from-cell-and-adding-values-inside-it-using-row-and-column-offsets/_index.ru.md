@@ -12,7 +12,7 @@ url: /ru/net/accessing-table-from-cell-and-adding-values-inside-it-using-row-and
 
 {{% /alert %}}
 
- На следующем снимке экрана показан исходный файл Excel, используемый внутри кода. Он содержит пустую таблицу и выделяет ячейку D5, которая находится внутри таблицы. Мы получим доступ к этой таблице из ячейки D5, используя[**Cell.ПолучитьТаблицу()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) метод, а затем добавьте значения внутри него, используя оба[**Cell.Поместить Значение()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) а также[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)методы.
+ На следующем снимке экрана показан исходный файл Excel, используемый внутри кода. Он содержит пустую таблицу и выделяет ячейку D5, которая находится внутри таблицы. Мы получим доступ к этой таблице из ячейки D5, используя[**Cell.ПолучитьТаблицу()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gettable) метод, а затем добавьте значения внутри него, используя оба[**Cell.Поместить Значение()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) и[**ListObject.PutCellValue**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/methods/putcellvalue)методы.
 
 ## Пример
 

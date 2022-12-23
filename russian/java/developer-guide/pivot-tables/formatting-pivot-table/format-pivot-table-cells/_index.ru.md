@@ -6,7 +6,7 @@ url: /ru/java/format-pivot-table-cells/
 ---
 {{% alert color="primary" %}}
 
- Иногда вам нужно отформатировать ячейки сводной таблицы. Например, вы хотите применить цвет фона к ячейкам сводной таблицы. Aspose.Cells предоставляет два метода[**Сводная таблица.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style) ) а также[**Сводная таблица.формат()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)), который вы можете использовать для этой цели.
+ Иногда вам нужно отформатировать ячейки сводной таблицы. Например, вы хотите применить цвет фона к ячейкам сводной таблицы. Aspose.Cells предоставляет два метода[**Сводная таблица.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style) ) и[**Сводная таблица.формат()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)), который вы можете использовать для этой цели.
 
 [**Сводная таблица.formatAll()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#formatAll(com.aspose.cells.Style) ) применяет стиль ко всей сводной таблице, а[**Сводная таблица.формат()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#format(int,%20int,%20com.aspose.cells.Style)) применяет стиль к одной ячейке сводной таблицы.
 

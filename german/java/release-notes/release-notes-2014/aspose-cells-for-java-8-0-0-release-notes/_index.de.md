@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for Java wurde auf Version 8.0.0 aktualisiert und wir freuen uns, Ihnen mitteilen zu können, dass diese Version über 30 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -41,23 +41,23 @@ Fehler
 (CELLSJAVA-40738) – setExportActiveWorksheetOnly ändert die Ausrichtung der Tabelle in HTML
 (CELLSJAVA-40747) – Hintergrundbild wird beim Aufrufen von Workbook.copy nicht in die Zielarbeitsmappe kopiert
 (CELLSJAVA-40276) – Text in einem Bild scheint gespiegelt zu sein, während eine Excel-Arbeitsmappe als PDF gespeichert wird
-(CELLSJAVA-40573) – Einige Wörter werden beim Speichern als PDF getrennt
+(CELLSJAVA-40573) – Einige Wörter werden beim Speichern unter PDF getrennt
 (CELLSJAVA-40743) – Der Tabellen-Autofilter funktioniert nicht im xls-Format, funktioniert aber problemlos im xlsx-Format
-(CELLSJAVA-40750) – Beim Exportieren in HTML verlieren mit Bildern bedeckte Zellen die Hintergrundfarbe
+(CELLSJAVA-40750) – Beim Export nach HTML verlieren vom Bild verdeckte Zellen die Hintergrundfarbe
 (CELLSJAVA-40748) – Der Hintergrundbildpfad ist nicht korrekt
 (CELLSJAVA-40731) - Vertikale Textausgabe
-(CELLSJAVA-40737) – Formatierungsproblem von Formen/Steuerelementen bei der Konvertierung von Excel in PDF
+(CELLSJAVA-40737) – Formatierungsproblem von Formen/Steuerelementen in Excel zur Konvertierung von PDF
 (CELLSJAVA-40742) – Falsches Umbrechen von Achsenbeschriftungen beim Konvertieren von XLSX in PDF
-(CELLSJAVA-40757) – DateTime-Spalten werden falsch aus CSV mit europäischem Gebietsschema gelesen
-(CELLSJAVA-40282) – Gespiegelte Bildausgabe beim Umwandeln eines Excel-Arbeitsblatts in PDF
-(CELLSJAVA-40585) - Aspose.Cells: Eingebettetes Sigma-Plot-Diagramm wird nicht korrekt in PDF/Bilder gerendert
+(CELLSJAVA-40757) – DateTime-Spalten werden fälschlicherweise von CSV mit europäischem Gebietsschema gelesen
+(CELLSJAVA-40282) – Bildausgabe gespiegelt, während ein Excel-Arbeitsblatt in PDF umgewandelt wird
+(CELLSJAVA-40585) - Aspose.Cells: Eingebettetes Sigma-Diagramm wird nicht korrekt auf PDF/images gerendert
 (CELLSJAVA-40742) – Falsches Umbrechen von Achsenbeschriftungen beim Konvertieren von XLSX in PDF
 (CELLSJAVA-40758) – Die Daten im Ausgabe-PDF sind nicht korrekt
 (CELLSJAVA-40762) – Cell.getDependents(true) issue – Cells von anderen Blättern, die nicht in der Liste enthalten sein sollten
 (CELLSJAVA-40756) – CellsException: null bei Workbook.calculateFormula (false)
 (CELLSJAVA-40748) – Der Hintergrundbildpfad ist nicht korrekt
 (CELLSJAVA-40754) – Formen mit fehlerhafter Hintergrundfarbe in HTML exportieren
-(CELLSJAVA-40766) – XLSX zu HTML: Problem mit hideColumn, das Nullwerte in HTML erzeugt
+(CELLSJAVA-40766) - XLSX bis HTML: Problem mit hideColumn, das Nullwerte in HTML erzeugt
 (CELLSJAVA-40769) – Formel der Neuberechnungszelle
 
 (CELLSJAVA-40771) – Problem mit ausgeblendeten Zeilen und Zeilenhöhe

@@ -1,12 +1,12 @@
 ﻿---
-title: احفظ المصنف بتنسيق نصي أو CSV باستخدام Aspose.Cells
+title: حفظ المصنف إلى نص أو تنسيق CSV باستخدام Aspose.Cells
 type: docs
 weight: 80
 url: /ar/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-في بعض الأحيان ، تريد تحويل مصنف أو حفظه باستخدام أوراق عمل متعددة إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT و TabDelim و CSV وما إلى ذلك) ، بشكل افتراضي ، يقوم كل من Microsoft Excel و Aspose.Cells بحفظ محتويات ورقة العمل النشطة فقط.
+في بعض الأحيان ، تريد تحويل مصنف أو حفظه باستخدام أوراق عمل متعددة إلى تنسيق نصي. بالنسبة لتنسيقات النص (على سبيل المثال TXT ، TabDelim ، CSV إلخ.) ، افتراضيًا ، يتم حفظ محتويات ورقة العمل النشطة فقط Microsoft Excel و Aspose.Cells.
 
 {{% /alert %}} 
 
@@ -14,7 +14,7 @@ url: /ar/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 
 عندما يتم تنفيذ الكود ، فإنه يحول بيانات جميع الأوراق في المصنف إلى تنسيق TXT.
 
-يمكنك تعديل نفس المثال لحفظ ملفك في CSV. بشكل افتراضي ، يكون TxtSaveOptions.Separator عبارة عن فاصلة ، لذلك لا تحدد فاصلًا في حالة الحفظ بتنسيق CSV.
+يمكنك تعديل نفس المثال لحفظ الملف في CSV. بشكل افتراضي ، يكون TxtSaveOptions.Separator عبارة عن فاصلة ، لذلك لا تحدد فاصلًا إذا قمت بالحفظ بتنسيق CSV.
 
 **C#**
 
@@ -22,7 +22,7 @@ url: /ar/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 
 string FilePath = @ ".. \ .. \ .. \ Sample Files \"؛
 
-string FileName = FilePath + "حفظ المصنف إلى نص أو بتنسيق CSV.xlsx"؛
+string FileName = FilePath + "حفظ المصنف إلى نص أو CSV Format.xlsx"؛
 
 string destFileName = FilePath + "حفظ المصنف إلى نص أو CSV Format.txt"؛
 

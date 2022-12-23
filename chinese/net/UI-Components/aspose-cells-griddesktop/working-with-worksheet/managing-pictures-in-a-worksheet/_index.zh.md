@@ -32,7 +32,7 @@ url: /zh/net/managing-pictures-in-a-worksheet/
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AccessAndModifyPicture.cs" >}}
 ## **删除图片**
-要删除现有图片，开发人员可以简单地访问所需的工作表，然后**消除**图片来自**图片**的集合**工作表**通过指定包含图片的单元格（使用其名称或行号和列号）。
+要删除现有图片，开发人员可以简单地访问所需的工作表，然后**去掉**图片来自**图片**的集合**工作表**通过指定包含图片的单元格（使用其名称或行号和列号）。
 
 在下面的代码中显示了如何从工作表中删除图片。
 

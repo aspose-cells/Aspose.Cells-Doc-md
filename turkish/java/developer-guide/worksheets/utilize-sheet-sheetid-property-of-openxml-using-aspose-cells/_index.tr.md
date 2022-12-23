@@ -8,7 +8,7 @@ url: /tr/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
 *Sheet.SheetId*özellik içinde bulunur*DocumentFormat.OpenXml.Spreadsheet*ad alanı ve OpenXml'in bir parçasıdır. Bu özelliği ve değerini içinde görebilirsiniz.*çalışma kitabı.xml*aşağıdaki ekran görüntüsünde gösterildiği gibi. Aspose.Cells, eşdeğer özelliği şu şekilde sağlar:[**Worksheet.TabId**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TabId).
 
-![yapılacaklar:resim_alternatif_Metin](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
 ## **Aspose.Cells kullanarak OpenXml'nin Sheet.SheetId özelliğini kullanın**
 

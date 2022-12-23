@@ -18,19 +18,19 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.6.
 |CELLSJAVA-42646|Ausnahme: „FormulaBuild](/p Unbekanntes Formel-Token0“ bei Name.getRefersTo()|Erweiterung|
 |CELLSJAVA-42645|Ausnahme: „FormulaBuild More than one token in stack….“ auf Cell.getFormula()|Erweiterung|
 |CELLSJAVA-42516|Aspose.Cells akzeptiert und korrigiert eine ungültige Formel|Erweiterung|
-|CELLSJAVA-42636|Einige Zeichnungsformen werden beim Rendern von Excel in HTML verschoben oder falsch gerendert|Insekt|
+|CELLSJAVA-42636|Einige Zeichnungsformen werden in Excel verschoben oder falsch auf HTML gerendert|Insekt|
 |CELLSJAVA-42627|CELLSJAVA-42619 – Smart Art-Bilder können nicht korrekt extrahiert werden|Insekt|
-|CELLSJAVA-42618|Die Form wird verschoben, um Daten in Excel für das HTML-Rendering abzudecken|Insekt|
+|CELLSJAVA-42618|Die Form wird verschoben, um Daten in Excel auf HTML-Rendering abzudecken|Insekt|
 |CELLSJAVA-42628|Berechnung von Formeln ist falsch zB generiert #DIV/0! Fehler|Insekt|
-|CELLSJAVA-42615|Cell Das A3-Format ist im Ausgabe-HTML nicht korrekt|Insekt|
-|CELLSJAVA-42621|Schlechte Leistung beim Generieren einer PDF-Datei aus einer MS-Excel-Datei|Insekt|
-|CELLSJAVA-42620|XLSX zu TIFF - Ausnahme NoClassDefFoundError|Insekt|
-|CELLSJAVA-42599|Bilder gehen verloren, wenn eine Excel-Datei in PDF konvertiert wird|Insekt|
+|CELLSJAVA-42615|Cell A3-Format ist in der Ausgabe HTML nicht korrekt|Insekt|
+|CELLSJAVA-42621|Schlechte Leistung beim Generieren der Datei PDF aus einer MS Excel-Datei|Insekt|
+|CELLSJAVA-42620|XLSX bis TIFF - Ausnahme NoClassDefFoundError|Insekt|
+|CELLSJAVA-42599|Bilder gehen verloren, wenn die Excel-Datei in PDF konvertiert wird|Insekt|
 |CELLSJAVA-42630|Die Chart.calculate-Methode verursacht OutOfMemoryError|Insekt|
-|CELLSJAVA-42623|Der Speicher erhöht sich beim Rendern von Excel-Dateien in das PDF-Dateiformat|Insekt|
+|CELLSJAVA-42623|Der Speicher erhöht sich beim Rendern der Excel-Datei in das Dateiformat PDF|Insekt|
 |CELLSJAVA-42592|Die Schriftgröße des Diagrammtitels wurde aufgrund der Methode characters() geändert|Insekt|
 |CELLSJAVA-41860|Der Schatteneffekt wird beim erneuten Speichern von XLS geändert|Insekt|
-|CELLSJAVA-42654|Konvertierung von Excel in PDF – die Konvertierung wird nie abgeschlossen|Insekt|
+|CELLSJAVA-42654|Konvertierung von Excel in PDF - die Konvertierung wird nie abgeschlossen|Insekt|
 |CELLSJAVA-42647|Alternative Text für Kommentarform kann nicht abgerufen oder festgelegt werden|Insekt|
 |CELLSJAVA-42644|Aspose.Cells hängt beim Konvertieren einer Excel-ML-Datei (xml) in PDF mit selbstschließendem Styles-Tag|Insekt|
 |CELLSJAVA-42632|Alternative Text für SmartArt-Form kann nicht festgelegt werden|Insekt|

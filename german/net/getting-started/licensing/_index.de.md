@@ -41,7 +41,7 @@ Diese Einstellungen können in einigen Fällen/Szenarien obligatorisch sein, wen
 
 {{% /alert %}}
 
-Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei angezeigt, die die Bibliothek Aspose.Cells verwendet. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter setzen. In der Ausgabe-PDF- oder Bilddatei von Aspose.Cells würde ein Bewertungswasserzeichen am oberen Rand des Dokuments/Bilds eingefügt. Sie können die Bewertungs-Copyright-Warnung (das zusätzliche Arbeitsblatt) auch im GridWeb-Steuerelement nicht ausblenden, sie wird immer hinzugefügt (am Ende in den Arbeitsblattregistern) im Steuerelement.
+Darüber hinaus wird ein Arbeitsblatt mit Bewertungswasserzeichen immer als aktives Arbeitsblatt in der generierten Excel-Datei angezeigt, die die Bibliothek Aspose.Cells verwendet. Nur in der lizenzierten Version können Sie das aktive Arbeitsblatt auf andere Arbeitsblätter setzen. In der Ausgabe PDF oder der Bilddatei von Aspose.Cells würde ein Bewertungswasserzeichen am oberen Rand des Dokuments/Bilds eingefügt. Sie können die Bewertungs-Copyright-Warnung (das zusätzliche Arbeitsblatt) auch im GridWeb-Steuerelement nicht ausblenden, sie wird immer hinzugefügt (am Ende in den Arbeitsblattregistern) im Steuerelement.
 
 {{% alert color="primary" %}}
 

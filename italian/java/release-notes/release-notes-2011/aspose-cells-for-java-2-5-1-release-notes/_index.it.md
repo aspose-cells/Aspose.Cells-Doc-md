@@ -22,11 +22,11 @@ url: /it/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · Risolve bug di lettura/salvataggio di file Excel 2007.
 
- · Risolve bug di lettura/salvataggio di file ODS.
+ · Corregge i bug di lettura/salvataggio dei file ODS.
 
  · Risolve bug di lettura/salvataggio di file Excel 97-2003.
 
- · Sono stati apportati miglioramenti alle funzioni da grafico a immagine, da foglio a immagine e da Excel a PDF.
+ · È stato apportato un miglioramento alle funzioni Grafico a immagine, Foglio a immagine ed Excel a PDF.
 
  · Il miglioramento è fatto per l'analisi delle formule.
 
@@ -36,7 +36,7 @@ url: /it/java/aspose-cells-for-java-2-5-1-release-notes/
 
  Problemi risolti in Aspose.Cells for Java 2.5.1.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |22652 | XL| Stili di lettura|
 |19112 | XL| Salva grafico|

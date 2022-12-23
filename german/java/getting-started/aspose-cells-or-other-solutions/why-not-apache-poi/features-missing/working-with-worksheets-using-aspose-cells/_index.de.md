@@ -11,6 +11,6 @@ url: /de/java/working-with-worksheets-using-aspose-cells/
 - [Bildlaufleisten von Arbeitsmappen anzeigen und ausblenden](/cells/de/java/display-and-hide-scrollbars-of-workbooks/)
 - [Anzeigen und Ausblenden von Registerkarten der Arbeitsmappe mit Aspose.Cells](/cells/de/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
 - [Verschlüsseln Sie die Arbeitsmappe mit Aspose.Cells](/cells/de/java/encrypt-workbook-using-aspose-cells/)
-- [CSV-Datei mit mehreren Kodierungen lesen](/cells/de/java/read-csv-file-with-multiple-encodings/)
-- [Speichern Sie jedes Arbeitsblatt mit Aspose.Cells in einem anderen PDF](/cells/de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+- [Lesen Sie die Datei CSV mit mehreren Codierungen](/cells/de/java/read-csv-file-with-multiple-encodings/)
+- [Speichern Sie jedes Arbeitsblatt mit Aspose.Cells unter einem anderen PDF](/cells/de/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Legen Sie die Farbe des Arbeitsblatt-Registers in Aspose.Cells fest](/cells/de/java/set-worksheet-tab-color-in-aspose-cells/)

@@ -12,12 +12,12 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 |**Funktion**|**Beskrivning**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta XLS-formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större Excel 2007, 2010 och 2013 filformat t.ex. XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Spara som HTML är tillgängligt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kommaseparerat värde (CSV)|Omfattande stöd för formatet CSV för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Spara som HTML är tillgänglig.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |OpenDocument (ODS)|Aspose.Cells kan ladda och spara dokument i formatet OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|Konvertera alla kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|Konvertera valfritt kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Kalkylbladsinnehållsfunktioner**

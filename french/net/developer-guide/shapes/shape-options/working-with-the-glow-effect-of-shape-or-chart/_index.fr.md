@@ -5,7 +5,7 @@ weight: 240
 url: /fr/net/working-with-the-glow-effect-of-shape-or-chart/
 ---
 ## **Scénarios d'utilisation possibles**
- Aspose.Cells fournit le[Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propriété avec[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) classe pour travailler avec l'effet de lueur de la forme ou du graphique. La[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
+ Aspose.Cells fournit le[Shape.Glow](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/glow) propriété avec[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect) classe pour travailler avec l'effet de lueur de la forme ou du graphique. Le[Effet Lueur](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
 
 - [GlowEffect.Taille](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/size)
 - [GlowEffet.Transparence](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/transparency)

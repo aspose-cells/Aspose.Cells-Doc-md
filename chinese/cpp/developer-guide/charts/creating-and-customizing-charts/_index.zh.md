@@ -16,7 +16,7 @@ url: /zh/cpp/creating-and-customizing-charts/
 
 ## **折线图**
 
-在上面的示例中，只需更改[**图表类型**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)至[**图表类型_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)创建折线图。下面提供了完整的源代码。执行代码时，工作表中会添加一个折线图。请参阅[输出Excel文件](66519069.xlsx)以下示例代码。
+在上面的示例中，只需更改[**图表类型**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70)到[**图表类型_Line**](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.charts#a2f17e69bcefc754569019185d0621b70ad12ff1561ab1424a0c3095b6dc07ac25)创建折线图。下面提供了完整的源代码。执行代码时，工作表中会添加一个折线图。请参阅[输出Excel文件](66519069.xlsx)以下示例代码。
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_LineChart.cpp" >}}
 

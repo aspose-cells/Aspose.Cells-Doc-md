@@ -3,7 +3,7 @@ title: 验证加密文件的密码
 type: docs
 weight: 10
 url: /zh/java/verify-password-of-encrypted-excel-and-ods-files/
-description: 使用 Java 代码验证加密的 Excel（xlsx、xlsb、xls、xlsm）和 Open office (ODS) 文件的密码。
+description: 使用 Java 代码验证加密 Excel（xlsx、xlsb、xls、xlsm）和 Open office (ODS) 文件的密码。
 ---
 {{% alert color="primary" %}}
 如果Excel（xlsx、xlsb、xls、xlsm）和Open office（ODS）文件被密码锁定，Aspose.Cells for Java支持简单的密码验证，无需解析文件的具体数据。

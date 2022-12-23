@@ -16,7 +16,7 @@ Aspose.Cells, kullanıcının bir çalışma kitabının çalışma sayfaları, 
 
 **Çalışma Sayfalarının Görünürlüğünü Kontrol Etme:**
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Bu bir Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Bu, Excel dosyasındaki her çalışma sayfasına erişmenizi sağlar.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Bu bir Excel dosyasını temsil eder.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Bu, Excel dosyasındaki her çalışma sayfasına erişmenizi sağlar.
 
  Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Ancak, bir çalışma sayfasının görünürlüğünü kontrol etmek için geliştiriciler[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) yöntemi[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
 
@@ -26,9 +26,9 @@ Aspose.Cells, kullanıcının bir çalışma kitabının çalışma sayfaları, 
 
 ### **Bir Çalışma Sayfasını Gizleme**
 
- Geliştiriciler bir çalışma sayfasını ileterek gizleyebilirsiniz**yanlış** parametre olarak[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) yöntemi[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
+ Geliştiriciler bir çalışma sayfasını ileterek gizleyebilirsiniz**YANLIŞ** parametre olarak[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) yöntemi[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
 
-**Örnek:**
+**Örnek vermek:**
 
  kullanımını gösteren eksiksiz bir örnek aşağıda verilmiştir.[**setVisible(yanlış)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) yöntemi[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Excel dosyasının ilk çalışma sayfasını gizlemek için sınıf.
 
@@ -38,15 +38,15 @@ Aspose.Cells, kullanıcının bir çalışma kitabının çalışma sayfaları, 
 
  Aşağıdaki ekran görüntüsünde, bunu görebilirsiniz**Kitap1.xls** dosyası üç çalışma sayfası içerir:**Sayfa1** , **Sayfa2** ve**Sayfa3** .
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_1.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_1.png)
 
 **Figür:** Herhangi bir değişiklikten önce çalışma sayfası görünümü
 
 **Çalışma Sayfası - Örnek Kodu Çalıştırdıktan Sonra:**
 
-**Kitap1.xls** dosya kullanılarak açılır[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf ve ardından sınıfın ilk çalışma sayfası**Kitap1.xls** dosya gizlenir. Değiştirilen dosya şu şekilde kaydedilir:**çıktı.xls**resimsel görünümü aşağıda gösterilen dosya:
+**Kitap1.xls** dosya kullanılarak açılır[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)sınıf ve ardından sınıfın ilk çalışma sayfası**Kitap1.xls** dosya gizlenir. Değiştirilen dosya şu şekilde kaydedilir:**çıktı.xls** resimsel görünümü aşağıda gösterilen dosya:
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_2.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_2.png)
 
 **Figür:** Değişiklikten sonra çalışma sayfası görünümü
 
@@ -65,7 +65,7 @@ Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Söz 
 
 **Sayfa sekmeleri ve sekme kaydırma düğmeleri**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_3.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_3.png)
 
 Geliştiriciler, Aspose.Cells'i kullanarak Excel dosyalarındaki sayfa sekmelerinin ve sekme kaydırma düğmelerinin görünürlüğünü kontrol edebilir.
 
@@ -92,11 +92,11 @@ Book1.xls dosyasının aşağıdaki şekilde sekmeler içerdiğini görebilirsin
 
 **book1.xls: Herhangi bir değişiklikten önceki Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_4.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_4.png)
 
 **output.xls: Değişiklikten sonra Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_5.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
@@ -124,13 +124,13 @@ Aşağıdaki ekran görüntüsü Book1.xls'in üç çalışma sayfası içerdiğ
 
 **Book1.xls: değişiklikten önceki çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_6.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_6.png)
 
  Book1.xls kullanılarak açılır[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class' ve ilk çalışma sayfasındaki satır ve sütun başlıkları gizlenir. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Değişiklikten sonra çalışma sayfası görünümü**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_7.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideUnhideWorksheet-1.java" >}}
 
@@ -149,7 +149,7 @@ Microsoft Excel, kullanıcıların çalışma sayfası içeriklerinde gezinebilm
 
 ### **Kaydırma Çubuklarını Gizleme**
 
- ayarlayarak kaydırma çubuklarını gizleyin.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf'[**setVScrollBarGörünür**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) veya[**setHScrollBarGörünür**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) yöntemleri**yanlış**.
+ ayarlayarak kaydırma çubuklarını gizleyin.[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf'[**setVScrollBarGörünür**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) veya[**setHScrollBarGörünür**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) yöntemleri**YANLIŞ**.
 
 ### **Kaydırma Çubuklarını Görünür Hale Getirmek**
 
@@ -163,11 +163,11 @@ Aşağıdaki ekran görüntüsü, her iki kaydırma çubuğunu da içeren Book1.
 
 **Book1.xls: Herhangi bir değişiklik yapılmadan önceki Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_8.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_8.png)
 
 **output.xls: Değişiklikten sonra Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_9.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-display-DisplayHideScrollBars-1.java" >}}
 
@@ -205,13 +205,13 @@ Aşağıdaki ekran görüntüsü, Book1.xls dosyasının üç çalışma sayfas�
 
 **Değişiklikten önce çalışma sayfası görünümü**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_10.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_10.png)
 
  Book1.xls dosyası,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class ve ardından ilk çalışma sayfasının kılavuz çizgileri gizlenir. Değiştirilen dosya output.xls dosyası olarak kaydedilir.
 
 **Değişiklikten sonra çalışma sayfası görünümü**
 
-![yapılacaklar:resim_alternatif_Metin](show-and-hide-elements_11.png)
+![yapılacaklar:resim_alternatif_metin](show-and-hide-elements_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 

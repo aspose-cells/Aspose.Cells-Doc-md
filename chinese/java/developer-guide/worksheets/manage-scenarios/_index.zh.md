@@ -11,12 +11,12 @@ url: /zh/java/create-manipulate-or-remove-scenarios-from-worksheets/
 
 {{% /alert %}}
 
- Aspose.Cells提供了一些有用的类，例如[**场景集**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioCollection), [**设想**](https://reference.aspose.com/cells/java/com.aspose.cells/Scenario), [**ScenarioInputCellCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCellCollection)和[**场景输入单元格**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCell).它还提供了[**工作表.场景**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Scenarios)财产。下面的示例代码打开一个 XLSX Excel 文件（包含一些场景）并从工作表中删除一个现有场景。它还在保存 Excel 文件之前添加了一个新场景。它使用一个包含场景的非常简单的模板文件。
+ Aspose.Cells提供了一些有用的类，例如[**场景集**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioCollection), [**设想**](https://reference.aspose.com/cells/java/com.aspose.cells/Scenario), [**ScenarioInputCellCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCellCollection)和[**场景输入单元格**](https://reference.aspose.com/cells/java/com.aspose.cells/ScenarioInputCell).它还提供了[**工作表.场景**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Scenarios)财产。下面的示例代码打开一个 XLSX Excel 文件（包含一些场景）并从工作表中删除现有场景。它还在保存 Excel 文件之前添加了一个新场景。它使用一个包含场景的非常简单的模板文件。
 
 执行代码后，现有方案将被删除，新方案将添加到工作表中。
 
 **输出文件**
 
-![待办事项：图像_替代_文本](create-manipulate-or-remove-scenarios-from-worksheets_1.png)
+![待办事项：图片_替代_文本](create-manipulate-or-remove-scenarios-from-worksheets_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateScenariosfromWorksheets-CreateScenariosfromWorksheets.java" >}}

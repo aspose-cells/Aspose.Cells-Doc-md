@@ -13,5 +13,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells for C++ 21.6 för Windows.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-292| Optimera sökresultaten i nuget|Förbättring|
-|CELLSCPP-283| Fixa ArrayList konstruktor bugg|Insekt|
-|CELLSCPP-284|PathHelper-initieringsproblem|Insekt|
+|CELLSCPP-283|Fixa ArrayList konstruktor bugg|Insekt|
+|CELLSCPP-284| PathHelper-initieringsproblem|Insekt|

@@ -14,7 +14,7 @@ url: /de/python-java/aspose-cells-for-python-via-java-22-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44415|Tausende der getResourceAsAStream-Aufrufe verursachen eine hohe CPU-Last und einen hohen Speicherverbrauch während der Berichterstellung|
 |CELLSJAVA-44490|GridWorkbookSetting für GridWeb hinzufügen|
-|CELLSJAVA-44455|Beim Konvertieren einer XLSX-Datei in eine PDF-Datei wird das Datum in der Pivot-Tabelle zu einer fortlaufenden Nummer|
+|CELLSJAVA-44455|Beim Konvertieren der Datei XLSX in PDF wird das Datum in der Pivot-Tabelle zu einer fortlaufenden Nummer|
 |CELLSJAVA-44370|Excel-Datei wird beschädigt, wenn sie geöffnet und mit Aspose.Cells gespeichert wird|
 |CELLSJAVA-44381|Bedingungsformatierungsproblem beim Löschen der Zeile oder Spalte|
 |CELLSJAVA-44442|Öffnen und Speichern mit Aspose.Cells beschädigt die Arbeitsmappe|
@@ -25,7 +25,7 @@ url: /de/python-java/aspose-cells-for-python-via-java-22-4-release-notes/
 |CELLSJAVA-44466| zusätzliches Problem 3, setCalculateFormula auf false funktioniert nicht|
 |CELLSJAVA-44496|Schließen Sie beim Laden von HTML das Beschriftungs-Tag/-Element für die Tabelle ein|
 |CELLSJAVA-44429|Die Wirkung des Excel-Diagramms in Excel unterscheidet sich von der in HTML|
-|CELLSJAVA-44414| Unicode in JSON unterbricht generierte XLSX- und CSV-Dateien|
+|CELLSJAVA-44414| Unicode in JSON unterbricht die generierten XLSX und CSV|
 |CELLSJAVA-44404|Ausnahme "java.lang.IllegalArgumentException: Ungültiger Spaltenindex" beim Laden einer XLSX-Datei in GridWeb|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

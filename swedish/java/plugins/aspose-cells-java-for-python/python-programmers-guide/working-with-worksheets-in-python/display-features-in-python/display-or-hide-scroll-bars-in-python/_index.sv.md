@@ -6,7 +6,7 @@ url: /sv/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - Visa eller dölj rullningslister**
 ### **Döljer rad-/kolumnrubriker**
-För att dölja rad-/kolumnrubriker med hjälp av**Aspose.Cells Java for Python** , ringa upp**DisplayHideRowColumnHeaders** modul.
+ För att dölja rad-/kolumnrubriker med hjälp av**Aspose.Cells Java for Python** , ringa upp**DisplayHideRowColumnHeaders** modul.
 
 **Python Kod**
 

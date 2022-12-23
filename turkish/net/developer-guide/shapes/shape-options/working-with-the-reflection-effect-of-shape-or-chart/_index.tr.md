@@ -12,7 +12,7 @@ url: /tr/net/working-with-the-reflection-effect-of-shape-or-chart/
 - [Mesafe](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
 - [FadeYön](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
 - [RotWithShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
-- [Boyut](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
+- [Boy](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)
 - [şeffaflık](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/transparency)
 - [Tip](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/type)
 ## **Şeklin veya Grafiğin Yansıma Efektiyle Çalışma**

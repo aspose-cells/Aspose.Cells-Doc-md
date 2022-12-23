@@ -20,7 +20,7 @@ Al leer archivos de plantilla, el componente analiza cada celda y proporciona su
 
 En ambos procedimientos, se procesa un objeto Cell y luego se descarta, el objeto Workbook no contiene la colección. En este modo, por lo tanto, se ahorra memoria al importar y exportar Microsoft un archivo de Excel que tiene un gran conjunto de datos que, de lo contrario, usaría mucha memoria.
 
-Aunque LightCells API procesa las celdas de la misma manera para los archivos XLSX y XLS (en realidad, no carga todas las celdas en la memoria sino que procesa una celda y luego la descarta), ahorra memoria de manera más efectiva para los archivos XLSX que para los archivos XLS debido a los diferentes modelos de datos y estructuras de los dos formatos.
+Aunque LightCells API procesa las celdas de la misma manera para los archivos XLSX y XLS (en realidad no carga todas las celdas en la memoria sino que procesa una celda y luego la descarta), ahorra memoria de manera más efectiva para los archivos XLSX que para los archivos XLS debido a los diferentes modelos de datos y estructuras de los dos formatos.
 
  Sin embargo,**para archivos XLS** , para ahorrar más memoria, los desarrolladores pueden especificar una ubicación temporal para guardar los datos temporales generados durante el proceso Guardar. Comúnmente,**usar LightCells API para guardar el archivo XLSX puede ahorrar un 50% o más de memoria** que usar la forma común,**guardar XLS puede ahorrar entre un 20 y un 40 % de memoria**.
 

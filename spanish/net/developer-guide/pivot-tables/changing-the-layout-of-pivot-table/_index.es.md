@@ -8,7 +8,7 @@ url: /es/net/changing-the-layout-of-pivot-table/
 
  Microsoft Excel le permite cambiar el diseño de la tabla dinámica usando*Herramientas de tabla dinámica > Diseño > Diseño de informe* comandos de menú. Puede cambiar el diseño en estas tres formas
 
-- Mostrar en forma compacta
+- Mostrar en formato compacto
 - Mostrar en forma de esquema
 - Mostrar en forma tabular
 

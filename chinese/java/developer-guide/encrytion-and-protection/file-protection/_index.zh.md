@@ -18,11 +18,11 @@ Microsoft Excel (97 - 365) 使您能够加密/密码保护您的电子表格。�
 - 输入**打开密码**然后点击**先进的**按钮。
 - 选择加密类型并确认密码。
 
-![待办事项：图像_替代_文本](encrypting-excel-files_1.png)
+![待办事项：图片_替代_文本](encrypting-excel-files_1.png)
 
 **图：选项对话框**
 
-![待办事项：图像_替代_文本](encrypting-excel-files_2.png)
+![待办事项：图片_替代_文本](encrypting-excel-files_2.png)
 
 **图：加密类型对话框**
 

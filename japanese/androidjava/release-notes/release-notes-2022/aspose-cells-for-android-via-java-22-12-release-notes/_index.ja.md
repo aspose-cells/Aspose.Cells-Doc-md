@@ -14,9 +14,9 @@ url: /ja/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44890|GridWeb の openpassword を使用したインポート ファイルのサポート|
 |CELLSJAVA-43645|四角形の「3-D 形式」属性が正しくレンダリングされない|
-|CELLSJAVA-44936|グラフ画像 (PNG) の DPI 設定を設定する|
+|CELLSJAVA-44936|チャート画像の設定 (PNG) DPI 設定|
 |CELLSJAVA-44937|グラフ画像 (JPG) の DPI 設定を設定する|
-|CELLSJAVA-44998|HTML でインライン スタイルが失敗する原因となる二重引用符|
+|CELLSJAVA-44998|HTML で失敗したインライン スタイルの原因となる二重引用符|
 |CELLSJAVA-44884|XLSX から HTML または PDF への変換後にリスト番号が正しくない|
 |CELLSJAVA-44883|ピボット テーブルを含むワークブックでピボット テーブルを処理すると、ワークブックが破損する|
 |CELLSJAVA-44879|GridWeb の書式設定された結果は、Cell.DisplayStringValue とは異なりました。|
@@ -24,21 +24,21 @@ url: /ja/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |CELLSJAVA-44853|軸角度のデータは、グラフから画像へのレンダリングで Excel と同じではありません|
 |CELLSJAVA-44854|軸ステップのデータは、グラフから画像へのレンダリングで Excel と同じではありません|
 |CELLSJAVA-44904|Excel チャートをレンダリングして JPG に変換する際の問題|
-|CELLSJAVA-44850|XLT ファイルをインポートすると、最新のリソース ファイルを含む最新の Aspose.Cells.GridWeb バージョンの最新のデモを使用して、テキストが完全に表示されない|
+|CELLSJAVA-44850|XLT ファイルをインポートすると、最新の Aspose.Cells.GridWeb バージョンと最新のリソース ファイルを使用した最新のデモを使用して、テキストが完全に表示されない|
 |CELLSJAVA-44857|Aspose.Cells.GridWeb for Java v22.8 バージョンで最新のリソース ファイルを使用して Excel ドキュメントを開くと、セルの効果が元のドキュメントとは異なる|
 |CELLSJAVA-44903|SVG レンディションが期待どおりに機能しない|
 |CELLSJAVA-44909|複数の行を太字にすると、無駄に他の行に溢れて見える|
-|CELLSJAVA-44888|変換後に「+」と「-」が消えた - Excel から HTML へのレンダリング|
+|CELLSJAVA-44888|変換後に「+」と「-」が消えた - Excel を HTML にレンダリング|
 |CELLSJAVA-44775|グラフから画像へのレンダリングでグラフ ラベルが重なる|
 |CELLSJAVA-44882|チャートから画像へのレンダリング - ラベルの 1 つがドーナツ チャート内にあります|
-|CELLSJAVA-44943|XLSX から PDF: チャート ラベルが正しくレンダリングされない|
-|CELLSJAVA-44928|XLS から PDF: 画像のデータが不十分です|
+|CELLSJAVA-44943|XLSX から PDF: グラフ ラベルが正しく表示されない|
+|CELLSJAVA-44928|XLS ～ PDF: 画像のデータが不足しています|
 |CELLSJAVA-44910|Excel を HTML に変換すると、何千もの同様の小さな画像が生成されます|
 |CELLSJAVA-44944|表のサイズを変更すると、セルの書式が変更されます|
 |CELLSJAVA-44948|HTML を Excel に変換すると、シートに画像が表示されない|
 |CELLSJAVA-44970|影の効果を最適化する|
 |CELLSJAVA-44967|v22.6.0 以降のバージョンで異なる値を返すチャート getDataLabels().getText()|
-|CELLSJAVA-44969|Excel を HTML に変換すると、データラベルにエラーが表示される|
+|CELLSJAVA-44969|Excel を HTML に変換すると、データラベルにエラーが表示されます|
 |CELLSJAVA-44949|Excel の範囲を異なる形式の画像として PowerPoint スライドに挿入すると、透明度が変更されました|
 |CELLSJAVA-44985|Excel から HTML への変換 - グラフの凡例が表示されず、プロット エリアが切り捨てられる|
 |CELLSJAVA-44952|幅に関する DataBar.toImage メソッドの問題|
@@ -46,13 +46,13 @@ url: /ja/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |CELLSJAVA-44987|HTML の読み込み時に一部の画像が他の画像に覆われる|
 |CELLSJAVA-44988|HTMLのロード時にテキストが回転しない|
 |CELLSJAVA-44989|HTML のロード時に div のフォント設定が失われる|
-|CELLSJAVA-44997|HTML から Excel への変換でデータとフォーマットが失われる|
+|CELLSJAVA-44997|HTML から Excel への変換でデータと書式が失われる|
 |CELLSJAVA-44999|Aspose.Cells ほとんどのピボット テーブルでカスタム GlobalizationSettings が機能しない|
 |CELLSJAVA-44898|GZIPInputStream から読み取ると、22.7 以降のバージョンで偽の「ファイルが破損しています」というエラーがスローされることがあります|
 |CELLSJAVA-44881|XLS ファイルのロード時の例外「java.lang.ArrayIndexOutOfBoundsException: 15070」|
 |CELLSJAVA-44908|大きな XLSB ファイルをロードするときの例外「java.lang.OutOfMemoryError: Java ヒープ領域」|
 |CELLSJAVA-44929|リグレッション: Workbook.calculateFormula() での「java.lang.NullPointerException」|
-|CELLSJAVA-44927|Excel ファイルを HTML に変換するときの例外「java.lang.IndexOutOfBoundsException: インデックス: 5、サイズ: 5」|
+|CELLSJAVA-44927|Excel ファイルを HTML に変換すると、例外「java.lang.IndexOutOfBoundsException: インデックス: 5、サイズ: 5」が発生する|
 |CELLSJAVA-44939|エラー "java.lang.StringIndexOutOfBoundsException: String index out of range: 0" が Excel ファイルの読み取り中に発生する|
 
 

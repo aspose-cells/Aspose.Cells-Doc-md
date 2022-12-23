@@ -24,7 +24,7 @@ url: /it/reportingservices/aspose-cells-for-reporting-services-v1-4-0-release-no
 
  Correzioni e miglioramenti in Aspose.Cells for Reporting Services 1.4.0
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |4889 | Rendering| Supporta Microsoft SQL Server 2000 Reporting Services|
 |6312 | Rendering| Supporta MicrosoftSQL Server 2008 Reporting Services|

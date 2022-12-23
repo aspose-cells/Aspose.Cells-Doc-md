@@ -14,5 +14,5 @@ Aspose.Cells değerlendirme sürümü (yani lisans uygulanmamış Aspose.Cells),
 
 |**Değerlendirme uyarısı – fazladan bir çalışma sayfası**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](evaluate-aspose-cells_1.png)|
+|![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_1.png)|
  Aspose.Cells'i değerlendirme sürüm sınırlaması olmadan test etmek istiyorsanız,[30 günlük geçici lisans talep edin](https://purchase.aspose.com/temporary-license).

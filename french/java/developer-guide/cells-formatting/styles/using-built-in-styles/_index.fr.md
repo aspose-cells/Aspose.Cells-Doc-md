@@ -51,7 +51,7 @@ Aspose.Cells fournit une vaste collection de styles réutilisables pour formater
 - [HEADER_4](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#HEADER_4)
 - [HYPERLIEN](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#HYPERLINK)
 - [FOLLOWED_HYPERLINK](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#FOLLOWED_HYPERLINK)
-- [SAISIR](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#INPUT)
+- [CONTRIBUTION](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#INPUT)
 - [LINKED_CELL](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#LINKED_CELL)
 - [NEUTRE](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#NEUTRAL)
 - [ORDINAIRE](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#NORMAL)

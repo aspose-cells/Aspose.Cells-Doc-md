@@ -8,7 +8,7 @@ Bazen, çalışma sayfalarının yazdırmayı denetlemesi için sayfa yapısı a
 
 **Sayfa Seçenekleri** 
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-features_1.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-features_1.png)
 
 Sayfa yapısı seçenekleri Aspose.Cells'de tam olarak desteklenmektedir. Bu makale, Aspose.Cells ile sayfa seçeneklerinin nasıl ayarlanacağını açıklamaktadır.
 
@@ -20,9 +20,9 @@ Worksheet sınıfı, sayfa yapısı seçeneklerini ayarlamak için kullanılan P
 
 ### **Sayfa yönlendirmesi**
 
- Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıf'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) yöntem. bu[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) yöntemi alır[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) parametre olarak numaralandırma. üyeleri[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)numaralandırma aşağıda listelenmiştir.
+Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıf'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) yöntem. bu[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) yöntemi alır[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) parametre olarak numaralandırma. üyeleri[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) numaralandırma aşağıda listelenmiştir.
 
-|**Sayfa Yönlendirme Türleri**|**Tanım**|
+|**Sayfa Yönlendirme Türleri**|**Açıklama**|
 |:- |:- |
 |[**MANZARA**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|Yatay yönlendirme|
 |[**VESİKA**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Dikey yönlendirme|
@@ -45,7 +45,7 @@ Worksheet sınıfı, sayfa yapısı seçeneklerini ayarlamak için kullanılan P
 
  kullanarak çalışma sayfalarının yazdırılacağı kağıt boyutunu ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıf'[**Kağıt boyutu**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) Emlak. PaperSize özelliği, ön tanımlı değerlerden birini kabul eder.[**KağıtBoyutuTürü**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) numaralandırma, aşağıda listelenmiştir.
 
-|**Kağıt Boyutu Türleri**|**Tanım**|
+|**Kağıt Boyutu Türleri**|**Açıklama**|
 |:- |:- |
 |Kağıt10x14|10 inç x 14 inç|
 |Kağıt11x17|11 inç x 17 inç|
@@ -111,9 +111,9 @@ Aspose.Cells, Microsoft Excel'in sayfa düzeni seçeneklerini tamamen destekler.
 
 **Microsoft Excel'de sayfa kenar boşlukları**
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-features_2.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-features_2.png)
 
- Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan Worksheets koleksiyonunu içerir. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
+ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. Workbook sınıfı, bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan Worksheets koleksiyonunu içerir. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf.
 
  Worksheet sınıfı, sayfa yapısı seçeneklerini ayarlamak için kullanılan PageSetup özelliğini sağlar. PageSetup özniteliği,[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) yazdırılan bir çalışma sayfası için farklı sayfa düzeni seçenekleri ayarlamayı mümkün kılan sınıf. PageSetup sınıfı, sayfa yapısı seçeneklerini ayarlamak için kullanılan çeşitli özellikler ve yöntemler sağlar.
 
@@ -136,7 +136,7 @@ Aspose.Cells, Microsoft Excel'in sayfa düzeni seçeneklerini tamamen destekler.
 
 ### **Üstbilgi ve Altbilgi Kenar Boşlukları**
 
-ile üstbilgi ve altbilgi kenar boşluklarını ayarlayın[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) gibi üyeler[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) ve[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ ile üstbilgi ve altbilgi kenar boşluklarını ayarlayın[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) gibi üyeler[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) ve[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -146,7 +146,7 @@ ile üstbilgi ve altbilgi kenar boşluklarını ayarlayın[**Sayfa ayarı**](htt
 
 **Sayfa Yapısı iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-features_3.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-features_3.png)
 
 Aspose.Cells, çalışma zamanında çalışma sayfalarına üstbilgi ve altbilgi eklenmesine izin verir, ancak üstbilgi ve altbilgilerin yazdırma için önceden tasarlanmış bir dosyada manuel olarak ayarlanması önerilir. Microsoft Excel'i, geliştirme süresini kısaltmak üzere üst bilgileri ve alt bilgileri kolayca ayarlamak için bir GUI aracı olarak kullanabilirsiniz. Aspose.Cells dosyayı içe aktarabilir ve bu ayarları rezerve edebilir.
 
@@ -156,7 +156,7 @@ Aspose.Cells, çalışma zamanında çalışma sayfalarına üstbilgi ve altbilg
 
 Komut dosyası komutları, Aspose.Cells tarafından sağlanan ve geliştiricilerin üst bilgileri ve alt bilgileri biçimlendirmesine olanak tanıyan özel komutlardır.
 
-|**Komut Dosyası Komutları**|**Tanım**|
+|**Komut Dosyası Komutları**|**Açıklama**|
 |:- |:- |
 |&P|Geçerli sayfa numarası.|
 |&G|Bir resim.|
@@ -189,7 +189,7 @@ Kodu çalıştırdıktan ve dosyayı açtıktan sonra, çalışma sayfasının b
 
 **Üst bilgiye/alt bilgiye grafik ekleme** 
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-features_4.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-features_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertImageInHeaderFooter-InsertImageInHeaderFooter.java" >}}
 
@@ -216,7 +216,7 @@ Bu yazdırma seçeneklerinin tümü aşağıda gösterilmiştir.
 
 **Yazdırma (sayfa) seçenekleri** 
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-features_5.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-features_5.png)
 
 ### **Yazdırma ve Sayfa Seçeneklerini Ayarlama**
 
@@ -232,7 +232,7 @@ Varsayılan olarak, yalnızca yazdırma alanı, çalışma sayfasının veri iç
 
 ### **Baskı Başlıklarını Ayarla**
 
- Aspose.Cells, yazdırılan bir çalışma sayfasının tüm sayfalarında yinelenecek satır ve sütun başlıkları belirlemenizi sağlar. Bunu yapmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıf'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) ve[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) özellikleri.
+ Aspose.Cells, yazdırılan bir çalışma sayfasının tüm sayfalarında yinelenecek satır ve sütun başlıkları belirlemenizi sağlar. Bunu yapmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) sınıf'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) ve[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) özellikler.
 
 Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek tanımlanır. Örneğin, satırlar $1:$2 olarak tanımlanır ve sütunlar $A:$B olarak tanımlanır.
 
@@ -253,7 +253,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
  Önceden tanımlanmış değerler,[**YazdırYorum Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) numaralandırma aşağıda açıklanmıştır.
 
-|**Yorum Türlerini Yazdır**|**Tanım**|
+|**Yorum Türlerini Yazdır**|**Açıklama**|
 |:- |:- |
 |[**PRINT_IN_PLACE**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_IN_PLACE)|Yorumların çalışma sayfasında görüntülendiği şekilde yazdırılacağını belirtir.|
 |[**PRINT_NO_COMMENTS**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype#PRINT_NO_COMMENTS)|Yorumların yazdırılmayacağını belirtir.|
@@ -261,7 +261,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
  Önceden tanımlanmış değerler[**Yazdırma HatalarıTürü**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) numaralandırma aşağıda açıklanmıştır.
 
-|**Yazdırma Hatası Türleri**|**Tanım**|
+|**Yazdırma Hatası Türleri**|**Açıklama**|
 |:- |:- |
 |[*PRINT_ERRORS_BLANK*](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_BLANK)|Hataların yazdırılmayacağını belirtir.|
 |[**PRINT_ERRORS_DASH**](https://reference.aspose.com/cells/java/com.aspose.cells/printerrorstype#PRINT_ERRORS_DASH)|Hataların "--" olarak yazdırılacağını belirtir.|
@@ -281,7 +281,7 @@ Tekrarlanacak satır veya sütunlar, satır veya sütun numaraları geçirilerek
 
  Önceden tanımlanmış değerler[**BaskıSiparişTürü**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintOrderType) numaralandırma aşağıda açıklanmıştır.
 
-|**Yazdırma Sırası Türleri**|**Tanım**|
+|**Yazdırma Sırası Türleri**|**Açıklama**|
 |:- |:- |
 |[**AŞAĞI_THEN_OVER**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#DOWN_THEN_OVER)|Aşağıya doğru yazdırın, sonra üzerine.|
 |[**OVER_THEN_DOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/printordertype#OVER_THEN_DOWN)|Üstüne yazdırın, sonra aşağı.|

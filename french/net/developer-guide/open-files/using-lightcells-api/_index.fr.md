@@ -20,7 +20,7 @@ Dans les deux procédures, un objet Cell est traité puis supprimé, l'objet Wor
 
 Même si le LightCells API traite les cellules de la même manière pour les fichiers XLSX et XLS (il ne charge pas réellement toutes les cellules en mémoire mais traite une cellule puis la supprime), il économise de la mémoire plus efficacement pour les fichiers XLSX que pour les fichiers XLS en raison de les différents modèles et structures de données des deux formats.
 
- Cependant,**pour les fichiers XLS** , pour économiser davantage de mémoire, les développeurs peuvent spécifier un emplacement temporaire pour enregistrer les données temporaires générées lors du processus d'enregistrement. Communément,**l'utilisation de LightCells API pour enregistrer le fichier XLSX peut économiser 50 % ou plus de mémoire** que d'utiliser la voie commune,**l'enregistrement de XLS peut économiser environ 20 à 40 % de mémoire**.
+ Cependant,**pour les fichiers XLS** , pour économiser davantage de mémoire, les développeurs peuvent spécifier un emplacement temporaire pour enregistrer les données temporaires générées lors du processus d'enregistrement. Communément,**l'utilisation de LightCells API pour enregistrer le fichier XLSX peut économiser 50 % ou plus de mémoire** que d'utiliser la voie commune,**enregistrer XLS peut économiser environ 20 à 40% de mémoire**.
 ## Écrire un gros fichier Excel
 Aspose.Cells fournissent une interface, LightCellsDataProvider, qui doit être implémentée dans votre programme. L'interface représente le fournisseur de données pour l'enregistrement de fichiers de feuille de calcul volumineux en mode léger.
 

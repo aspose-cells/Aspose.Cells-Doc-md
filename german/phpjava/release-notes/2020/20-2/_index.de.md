@@ -12,21 +12,21 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for PHP via Java 20.2.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-43076|Stellen Sie den Bildtyp EMF in der gerenderten HTML-Datei ein|Erweiterung|
-|CELLSJAVA-43113|Konvertierung in PDF - java.lang.NumberFormatException: Für Eingabezeichenfolge|Erweiterung|
-|CELLSJAVA-43114|Konvertierung in PDF - Ungültige Formel:"'APRIL''12'.A1:'APRIL''12'.I23"|Erweiterung|
-|CELLSJAVA-43117|Konvertierung in PDF - Hex ist keine gültige Hex-Zahl|Erweiterung|
-|CELLSJAVA-43118|Konvertierung in PDF - java.lang.NumberFormatException: Für Eingabestring: "341.403.811.74"|Erweiterung|
-|CELLSJAVA-43077|Ausnahme „Unerwarteter Bildtyp“ beim Rendern des Arbeitsblatts in HTML ausgelöst|Insekt|
-|CELLSJAVA-43096|Das Programm hängt sich auf, während eine Excel-Datei in HTML konvertiert wird|Insekt|
-|CELLSJAVA-43107|Konvertierung in PDF - com.aspose.cells.CellsException: Shape to image Error!|Insekt|
+|CELLSJAVA-43076|Legen Sie den Bildtyp EMF in der gerenderten HTML-Datei fest|Erweiterung|
+|CELLSJAVA-43113|Konvertierung in PDF - java.lang.NumberFormatException: Für Eingabestring|Erweiterung|
+|CELLSJAVA-43114|Umwandlung in PDF - Ungültige Formel:"'APRIL''12'.A1:'APRIL''12'.I23"|Erweiterung|
+|CELLSJAVA-43117|Umwandlung in PDF - hex ist keine gültige Hex-Zahl|Erweiterung|
+|CELLSJAVA-43118|Umwandlung in PDF - java.lang.NumberFormatException: Für Eingabestring: "341.403.811.74"|Erweiterung|
+|CELLSJAVA-43077|Ausnahme „Unerwarteter Bildtyp“ beim Rendern des Arbeitsblatts auf HTML ausgelöst|Insekt|
+|CELLSJAVA-43096|Das Programm hängt sich auf, während die Excel-Datei in HTML konvertiert wird|Insekt|
+|CELLSJAVA-43107|Umwandlung in PDF - com.aspose.cells.CellsException: Shape to image Error!|Insekt|
 |CELLSJAVA-43108|Konvertierung in PDF - com.aspose.cells.CellsException|Insekt|
-|CELLSJAVA-43088|Netzdiagramm wird in der Ausgabedatei bei der XLSX-in-PDF-Konvertierung nicht gerendert|Insekt|
-|CELLSJAVA-43091|Datenbeschriftungen im Donuts-Diagramm werden in der PDF-Datei überlappt|Insekt|
+|CELLSJAVA-43088|Netzdiagramm wird in der Ausgabedatei bei der Konvertierung von XLSX in PDF nicht gerendert|Insekt|
+|CELLSJAVA-43091|Datenbeschriftungen im Donuts-Diagramm werden in der Datei PDF überlappt|Insekt|
 |CELLSJAVA-43099|Arbeitsblattbild wird nicht richtig gerendert|Insekt|
-|CELLSJAVA-43093|ActiveX-Steuerelement wird im XLS-Dateiformat nicht erkannt|Insekt|
+|CELLSJAVA-43093|ActiveX-Steuerelement wird im Dateiformat XLS nicht erkannt|Insekt|
 |CELLSJAVA-43104|Probleme mit getShowTabs und setShowTabs|Insekt|
-|CELLSJAVA-43121|OOM versucht, die Anzahl der Seiten in XLS zu erhalten|Insekt|
+|CELLSJAVA-43121|OOM versucht, die Anzahl der Seiten in XLS abzurufen|Insekt|
 |CELLSJAVA-43125|Formular- und ActiveX-Objekte werden dupliziert|Insekt|
 |CELLSJAVA-43094|Ausnahme beim Laden eines XLSX-Dateiformats|Ausnahme|
 |CELLSJAVA-43100|Ausnahme „java.lang.ArrayIndexOutOfBoundsException“ beim Aufruf von Workbook.calculateFormula() in einer Excel-Datei|Ausnahme|
@@ -34,7 +34,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for PHP via Java 20.2.
 |CELLSJAVA-43105|Konvertierung in PDF - java.lang.ArrayIndexOutOfBoundsException: 60|Ausnahme|
 |CELLSJAVA-43106|Konvertierung in PDF - java.lang.IllegalArgumentException|Ausnahme|
 |CELLSJAVA-43109|Konvertierung in PDF - java.lang.NullPointerException|Ausnahme|
-|CELLSJAVA-43111|Konvertierung in PDF - com.aspose.cells.CellsException: Ungültige Daten!|Ausnahme|
+|CELLSJAVA-43111|Umwandlung in PDF - com.aspose.cells.CellsException: Ungültige Daten!|Ausnahme|
 |CELLSJAVA-43112|Konvertierung in PDF - java.lang.NullPointerException|Ausnahme|
 |CELLSJAVA-43115|Konvertierung in PDF - java.lang.NegativeArraySizeException|Ausnahme|
 |CELLSJAVA-43116|Konvertierung in PDF - java.lang.IllegalStateException: Der strukturierte Speicher scheint beschädigt zu sein.|Ausnahme|

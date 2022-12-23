@@ -10,7 +10,7 @@ url: /sv/java/read-color-of-the-shape-s-glow-effect/
 
 ## Läs Color of the Glow Effect of Shape
 
- Se följande exempelkod och dess[källkod excel-fil](23166984.xlsx)och konsolutgången för din referens. Följande skärmdump visar glödeffekten av formen inuti källexcelfilen när den visas i Microsoft Excel.
+ Se följande exempelkod och dess[source excel-fil](23166984.xlsx)och konsolutgången för din referens. Följande skärmdump visar glödeffekten av formen inuti källexcelfilen när den visas i Microsoft Excel.
 
 ![todo:image_alt_text](read-color-of-the-shape-s-glow-effect_1.png)
 
@@ -20,7 +20,7 @@ url: /sv/java/read-color-of-the-shape-s-glow-effect/
 
 ## Konsolutdata genererad av exempelkoden
 
- Här är konsolutgången för ovanstående exempelkod när den körs med den medföljande[källkod excel-fil](23166984.xlsx).
+ Här är konsolutgången för ovanstående exempelkod när den körs med den medföljande[source excel-fil](23166984.xlsx).
 
 {{< highlight "java" >}}
 

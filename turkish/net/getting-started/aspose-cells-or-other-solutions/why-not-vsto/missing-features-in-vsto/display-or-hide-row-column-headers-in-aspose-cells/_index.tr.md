@@ -14,7 +14,7 @@ Bir Excel dosyasındaki tüm çalışma sayfaları, satırlar ve sütunlar halin
 
  Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Satır ve sütun başlıklarının görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) Emlak.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış** değer.
+ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Satır ve sütun başlıklarının görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) Emlak.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ** değer.
 
  nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf'[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) dosyadaki ilk çalışma sayfasındaki satır ve sütun başlıklarını gizleme özelliği.
 
@@ -22,13 +22,13 @@ Ekran görüntüsü, giriş dosyası olan Book1.xls'yi gösterir. Üç çalışm
 
 **Book1.xls: değişiklikten önceki çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-row-column-headers-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-row-column-headers-in-aspose-cells_1.png)
 
 Book1.xls, Workbook sınıfının Open yöntemi çağrılarak açılır ve ilk çalışma sayfasındaki satır ve sütun başlıkları gizlenir. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Output.xls: değişiklikten sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-row-column-headers-in-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-row-column-headers-in-aspose-cells_2.png)
 
 **C#**
 

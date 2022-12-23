@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-18-11-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46377|Vérifier si une cellule a une formule circulaire|Nouvelle fonctionnalité|
 |CELLSNET-46399|Une exception s'est produite lors de l'appel de PivotTable.RefreshData()|Nouvelle fonctionnalité|
@@ -22,22 +22,22 @@ url: /fr/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46441|Cell.GetDisplayStyle() se bloque pour une cellule|Performance|
 |CELLSNET-46423|Problèmes de formatage lors de la conversion de XLSX en PDF|Punaise|
 |CELLSNET-46410|Le format du tableau croisé dynamique est gâché après l'actualisation|Punaise|
-|CELLSNET-46404|Traiter les diagrammes de la même manière que les images lors de l'enregistrement de HTML|Punaise|
+|CELLSNET-46404|Traiter les diagrammes de la même manière que les images lors de l'enregistrement HTML|Punaise|
 |CELLSNET-46388|Le fichier est corrompu après le chargement et la ré-enregistrement d'un format de fichier XLSX|Punaise|
 |CELLSNET-46387|Tableau croisé dynamique de tri des problèmes|Punaise|
 |CELLSNET-46366|Les bordures et les couleurs d'arrière-plan sont manquantes lors de la conversion du HTML en XLSX|Punaise|
-|CELLSNET-46365|Feuilles de style CSS référencées ignorées lors de l'ouverture de HTML|Punaise|
+|CELLSNET-46365|Feuilles de style CSS référencées ignorées lors de l'ouverture HTML|Punaise|
 |CELLSNET-46431|Le résultat de la formule VLookup est différent du résultat MS Excel|Punaise|
-|CELLSNET-46430|La formule matricielle ne fonctionne pas après Workbook.Combine dans la conversion XLSX vers XLSB|Punaise|
+|CELLSNET-46430|La formule matricielle ne fonctionne pas après Workbook.Combine dans la conversion XLSX à XLSB|Punaise|
 |CELLSNET-46428|Name.RefersTo ne récupère pas la valeur correcte|Punaise|
 |CELLSNET-46413|La création de XLSX avec une mise en forme conditionnelle produit un fichier corrompu|Punaise|
 |CELLSNET-46403|La formule matricielle ne fonctionne pas après Workbook.Combine pour enregistrer au format de fichier XLSB|Punaise|
-|CELLSNET-46396|Le classeur enregistré au format SVG est corrompu car il s'agit en fait d'un fichier TIFF|Punaise|
-|CELLSNET-46420|Graphique en PDF obtenant un problème de pointe|Punaise|
+|CELLSNET-46396|Le classeur enregistré sous SVG est corrompu car il s'agit en fait du fichier TIFF|Punaise|
+|CELLSNET-46420|Graphique dans PDF obtenant un problème de pointe|Punaise|
 |CELLSNET-46411|Il se bloque lors de la conversion de XLSX en PDF|Punaise|
 |CELLSNET-46408|Les marqueurs de données sont manquants dans l'image du graphique de sortie du fichier MS Excel|Punaise|
 |CELLSNET-46393|Les étiquettes d'axe ne sont pas alignées après la conversion du graphique MS Excel au format d'image PNG|Punaise|
-|CELLSNET-46359|Variation de la taille de la police pour les étiquettes du graphique dans le fichier SVG de sortie|Punaise|
+|CELLSNET-46359|Variation de la taille de la police des étiquettes dans le graphique dans le fichier de sortie SVG|Punaise|
 |CELLSNET-46433|La mise en forme conditionnelle est supprimée lors de la suppression de la plage nommée|Punaise|
 |CELLSNET-46427|MS Excel signale un problème après ouverture/enregistrement avec Aspose.Cells|Punaise|
 |CELLSNET-46421|La propriété Document CreatedTime change après l'enregistrement dans le flux|Punaise|
@@ -46,7 +46,7 @@ url: /fr/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46409|Problème avec la liste déroulante après la conversion à partir de XML|Punaise|
 |CELLSNET-46407|L'initialisation du classeur prend trop de temps lors du chargement d'un format de fichier XLSM|Punaise|
 |CELLSNET-46397|Le titre du graphique est perdu lors de la conversion de XLS en XLSM|Punaise|
-|CELLSNET-46401|ArgumentException lors de l'utilisation d'un fichier HTML généré|Exception|
+|CELLSNET-46401|ArgumentException lors de l'utilisation du fichier HTML généré|Exception|
 |CELLSNET-46426|Exception lors de l'appel d'AutoFitColumns()|Exception|
 |CELLSNET-46415|Exception CellsException lors de l'enregistrement lorsque ParsingFormulaOnOpen est faux|Exception|
 |CELLSNET-46422|Exception lors du traitement des balises actives|Exception|

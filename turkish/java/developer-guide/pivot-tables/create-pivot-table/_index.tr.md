@@ -15,7 +15,7 @@ url: /tr/java/create-pivot-table/
 Pivot tablo nesneleri şunlardır:
 
 - [**PivotAlanı**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): pivot tablodaki bir alanı temsil eder.
-- [**Özet Alan Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : tümünün bir koleksiyonunu temsil eder[**PivotAlanı**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)Pivot tablodaki nesneler.
+- [**Özet Alan Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) tümünün bir koleksiyonunu temsil eder[**PivotAlanı**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)Pivot tablodaki nesneler.
 - [**Pivot tablo**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): bir pivot tabloyu temsil eder.
 - [**Özet Tablo Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): çalışma sayfasındaki tüm pivot tablo nesnelerinin koleksiyonunu temsil eder.
 
@@ -40,6 +40,6 @@ Aşağıdaki kod örneği, yukarıda listelenen temel adımları izleyerek basit
 
 **Karşılık gelen bir alana dayalı bir pivot tablo oluşturma**
 
-![yapılacaklar:resim_alternatif_Metin](create-pivot-table_1.png)
+![yapılacaklar:resim_alternatif_metin](create-pivot-table_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-CreatePivotTable-CreatePivotTable.java" >}}

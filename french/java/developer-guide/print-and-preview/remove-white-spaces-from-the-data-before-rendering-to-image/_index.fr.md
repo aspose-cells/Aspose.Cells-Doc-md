@@ -10,7 +10,7 @@ Parfois, vous devez présenter des images de feuille de calcul dans des applicat
 
 {{% /alert %}}
 
- La[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)est capable de convertir une feuille de calcul en un fichier image avec tous les attributs spécifiés, par exemple, format d'image, feuilles paginées, etc. Plusieurs formats d'image sont pris en charge, notamment BMP, GIF, JPG, TIFF et EMF.
+ Le[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)est capable de convertir une feuille de calcul en un fichier image avec tous les attributs spécifiés, par exemple, format d'image, feuilles paginées, etc. Plusieurs formats d'image sont pris en charge, notamment BMP, GIF, JPG, TIFF et EMF.
 
  Lorsque vous utilisez la fonction feuille à image, l'image de sortie comporte un espace blanc/vide, c'est-à-dire une bordure, autour d'elle par défaut. Vous pouvez supprimer ceci. Définissez les marges de mise en page supérieure, gauche, inférieure et droite de la feuille de calcul source sur 0 et spécifiez[**Options d'image ou d'impression**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)attributs en conséquence.
 

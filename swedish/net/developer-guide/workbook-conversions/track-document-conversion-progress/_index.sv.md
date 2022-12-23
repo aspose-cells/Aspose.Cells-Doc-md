@@ -10,7 +10,7 @@ url: /sv/net/track-document-conversion-progress/
 
 ## **Spåra dokumentkonverteringsförlopp**
 
- Följande kodexempel laddar[källkod excel-fil](94896151.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback* anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**gränssnitt.
+ Följande kodexempel laddar[source excel-fil](94896151.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestPageSavingCallback* anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**gränssnitt.
 
 ## **Exempelkod**
 

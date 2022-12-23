@@ -25,7 +25,7 @@ url: /tr/net/aspose-cells-for-net-4-9-0-release-notes/
 - Akıllı işaretçilerin veri kaynağı olarak ICustomTypeDesciptor içerir
 - Grafikten Görüntüye özelliğindeki harici bağlantılı kaynak verileri desteklenir
 - xls dosyasındaki MS Excel 2007 harici sayfa kurulum seçenekleri desteklenir
-- HTML içeriğini hücrenin değeri veya yorumun notu olarak belirtir
+- HTML içeriğini hücrenin değeri veya yorum notu olarak belirtir
 - 112 düzeltme ve diğer geliştirmeler.
 
  (Not: Aspose.Cells.Charts sınıfı, Aspose.Cells.ChartCollection sınıfı olarak yeniden adlandırılmıştır.)

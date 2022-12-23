@@ -7,10 +7,10 @@ url: /sv/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Excel Spreadsheet Management Library**
 ### **Dokumentfunktioner**
 - Öppna vanliga eller krypterade Microsft Excel-filer (Excel97 - Excel2007/2010/2013) från olika källor.
-- Spara Excel-filer (Excel 97 - Excel2007/2010/2013) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML etc.)
+- Spara Excel-filer (Excel 97 - Excel2007/2010/2013) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, 0761537481, 7115376481, 71113481, etc
 - Konvertera Excel-fil till PDF-dokument.
 - Konvertera Excel-kalkylblad till XPS-dokument.
-- Konvertera till Tagged Image File Format (TIFF).
+- Konvertera till taggat bildfilformat (TIFF).
 - Läs och skriv OpenDocument Spreadsheet-format (ODS).
 - Ändra dokumentegenskaperna för Excel-filer.
 ### **Arbetsbladsfunktioner**

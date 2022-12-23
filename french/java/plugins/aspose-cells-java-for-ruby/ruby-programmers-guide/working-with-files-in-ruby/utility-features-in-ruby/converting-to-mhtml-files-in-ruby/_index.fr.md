@@ -1,11 +1,11 @@
 ﻿---
-title: Conversion en fichiers MHTML dans Ruby
+title: Conversion en fichiers MHTML en Ruby
 type: docs
 weight: 50
 url: /fr/java/converting-to-mhtml-files-in-ruby/
 ---
 ## **Aspose.Cells - Conversion en fichiers MHTML**
-Pour convertir une feuille de calcul en fichier MHTML à l'aide de Aspose.Cells for Java dans Ruby, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
+Pour convertir la feuille de calcul en fichier MHTML à l'aide de Aspose.Cells for Java dans Ruby, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
 
 **Code rubis**
 

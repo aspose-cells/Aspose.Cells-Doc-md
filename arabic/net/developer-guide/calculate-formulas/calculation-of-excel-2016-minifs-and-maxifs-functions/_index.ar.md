@@ -9,7 +9,7 @@ Microsoft يدعم Excel 2016 وظائف MINIFS و MAXIFS. هذه الوظائف
 
 ![ما يجب القيام به: image_بديل_نص](calculation-of-excel-2016-minifs-and-maxifs-functions_1.png)
 ## **حساب وظائف Excel 2016 MINIFS و MAXIFS**
- يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج ملف اكسل](5115149.xlsx) ويدعو[المصنف .CalculateFormula ()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) طريقة لإجراء حساب الصيغة عبر Aspose.Cells ثم يحفظ النتائج في[إخراج PDF](5115154.pdf).
+ يقوم نموذج التعليمات البرمجية التالي بتحميل ملف[نموذج ملف اكسل](5115149.xlsx) ويدعو[المصنف .CalculateFormula ()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) طريقة لإجراء حساب الصيغة عبر Aspose.Cells ثم يحفظ النتائج في[الإخراج PDF](5115154.pdf).
 
 
 

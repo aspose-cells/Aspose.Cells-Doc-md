@@ -22,7 +22,7 @@ Esto incluye las siguientes características abundantes de Aspose.Cells en compa
   - [Convertir gráfico en imágenes](/cells/es/net/convert-chart-to-images/)
   - [Crear gráficos](/cells/es/net/create-charts/)
 - [Trabajando con hojas de trabajo en Aspose.Cells](/cells/es/net/working-with-worksheets-in-aspose-cells/)
-  - [Guarde cada hoja de trabajo en un PDF diferente](/cells/es/net/save-each-worksheet-to-different-pdf/)
+  - [Guarde cada hoja de trabajo en diferentes PDF](/cells/es/net/save-each-worksheet-to-different-pdf/)
   - [Establecer el color de la pestaña de la hoja de trabajo en Aspose.Cells](/cells/es/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Nota:** Muchos más ejemplos aún estarán disponibles pronto.

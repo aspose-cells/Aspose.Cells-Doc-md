@@ -6,7 +6,7 @@ weight: 80
 url: /tr/net/managing-document-properties/
 description: Elektronik tablo dosyalarının belge özelliklerini yönetin.
 ---
-## **giriiş**
+## **Giriş**
 
 Microsoft Excel, elektronik tablo dosyalarına özellikler ekleme yeteneği sağlar. Bu belge özellikleri yararlı bilgiler sağlar ve aşağıda ayrıntıları verildiği gibi 2 kategoriye ayrılır.
 
@@ -21,23 +21,23 @@ Yerleşik ve özel özellikler hakkında bilinmesi gereken en önemli nokta, yer
 
 ## **Microsoft Excel Kullanarak Belge Özelliklerini Yönetme**
 
- Microsoft Excel, Excel dosyalarının belge özelliklerini WYSIWYG tarzında yönetmenizi sağlar. açmak için lütfen aşağıdaki adımları izleyin.**Özellikleri** Excel 2016'da iletişim kutusu.
+ Microsoft Excel, Excel dosyalarının belge özelliklerini WYSIWYG tarzında yönetmenizi sağlar. açmak için lütfen aşağıdaki adımları izleyin.**Özellikler** Excel 2016'da iletişim kutusu.
 
 1.  itibaren**Dosya** menü, seç**Bilgi**.
 
 |**Bilgi Menüsünün Seçilmesi**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_1.png)|
-1.  Tıklamak**Özellikleri** başlığını açın ve "Gelişmiş Özellikler"i seçin.
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_1.png)|
+1.  Tıklamak**Özellikler**başlığını açın ve "Gelişmiş Özellikler"i seçin.
 
 |**Gelişmiş Özellikler Seçimine Tıklama**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_2.png)|
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_2.png)|
 1. Dosyanın belge özelliklerini yönetin.
 
 |**Özellikler İletişim Kutusu**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](managing-document-properties_3.png)|
+|![yapılacaklar:resim_alternatif_metin](managing-document-properties_3.png)|
 Özellikler iletişim kutusunda Genel, Özet, İstatistikler, İçerik ve Gümrük gibi farklı sekmeler bulunur. Her sekme, dosyayla ilgili farklı türden bilgilerin yapılandırılmasına yardımcı olur. Özel sekmesi, özel özellikleri yönetmek için kullanılır.
 
 ## **Aspose.Cells Kullanarak Belge Özellikleriyle Çalışma**
@@ -46,7 +46,7 @@ Geliştiriciler, Aspose.Cells API'lerini kullanarak belge özelliklerini dinamik
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belgeyi PDF'ye dönüştürürken, Aspose.Cells for .NET doldurulur**Başvuru** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcısı** değeri olan alan, örneğin 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET, API ve Sürüm Numarası ile ilgili bilgileri doğrudan çıktı belgelerine yazar. Örneğin, Belge PDF'e işlendiğinde, Aspose.Cells for .NET doldurulur**Uygulama** 'Aspose.Cells' değerine sahip alan ve**PDF Yapımcı** değeri olan alan, örneğin 'Aspose.Cells v17.9'.
 
 Lütfen Aspose.Cells for .NET'e bu bilgileri çıktı Belgelerinden değiştirme veya kaldırma talimatı veremeyeceğinizi unutmayın.
 
@@ -54,7 +54,7 @@ Lütfen Aspose.Cells for .NET'e bu bilgileri çıktı Belgelerinden değiştirme
 
 ### **Belge Özelliklerine Erişme**
 
- Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)sınıf.
+Aspose.Cells API'ler, yerleşik ve özel olmak üzere her iki belge özelliği türünü de destekler. Aspose.Cells'[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class bir Excel dosyasını temsil eder ve bir Excel dosyası gibi[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf, her biri tarafından temsil edilen birden çok çalışma sayfası içerebilir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf, oysa çalışma sayfalarının koleksiyonu şu şekilde temsil edilir:[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)sınıf.
 
  Kullan[**Çalışma Sayfası Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Dosyanın belge özelliklerine aşağıda açıklandığı gibi erişmek için.
 
@@ -79,7 +79,7 @@ Lütfen Aspose.Cells for .NET'e bu bilgileri çıktı Belgelerinden değiştirme
 
 {{% /alert %}}
 
-|**Üye adı**|**Tanım**|**ToXXX Yöntemi**|
+|**Üye adı**|**Açıklama**|**ToXXX Yöntemi**|
 |:- |:- |:- |
 |boole|Özellik veri türü Boolean'dır|ToBool|
 |Tarih|Özellik veri türü DateTime'dır. Microsoft Excel'in yalnızca depoladığını unutmayın.<br>tarih bölümü, bu türden özel bir özellikte hiçbir zaman depolanamaz|ToDateTime|
@@ -95,7 +95,7 @@ Bu konunun başında daha önce açıkladığımız gibi, geliştiriciler yerle�
 
 ### **Özel Özellikler Ekleme**
 
- Aspose.Cells API'ler şu bilgileri açığa çıkardı:[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) için yöntem[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) koleksiyona özel özellikler eklemek için sınıf. bu[**Ekle**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) yöntemi, özelliği Excel dosyasına ekler ve yeni belge özelliği için bir referans olarak bir referans döndürür.[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)nesne.
+ Aspose.Cells API'ler şu bilgileri açığa çıkardı:[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) için yöntem[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) koleksiyona özel özellikler eklemek için sınıf. bu[**Eklemek**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) yöntemi, özelliği Excel dosyasına ekler ve yeni belge özelliği için bir referans olarak bir referans döndürür.[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)nesne.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 

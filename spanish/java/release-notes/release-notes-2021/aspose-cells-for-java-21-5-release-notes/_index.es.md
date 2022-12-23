@@ -13,7 +13,7 @@ url: /es/java/aspose-cells-for-java-21-5-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-43452|El calendario japonés que usa una función de Excel no se lee correctamente|
-|CELLSJAVA-43420| Texto rotado incorrectamente alineado cuando se guarda como HTML|
+|CELLSJAVA-43420| El texto rotado se alineó incorrectamente cuando se guardó como HTML|
 |CELLSJAVA-43450|Problema de actualización de la tabla dinámica|
 |CELLSJAVA-43444|Regresión: getLastSavedUniversalTime devuelve una fecha incorrecta|
 |CELLSJAVA-43446|Cells Excepción de seguimiento de cambios|
@@ -21,7 +21,7 @@ url: /es/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|Bucle infinito al guardar el libro de trabajo copiado|
 |CELLSJAVA-43442|Problema con la clasificación de datos al hacer clic en enlaces de encabezado en la demostración de primavera de GridWeb|
 |CELLSJAVA-43443|Problema con el modo de edición en GridWeb Java|
-|CELLSJAVA-43455|Las fuentes no están incrustadas en PDF para caracteres que no son ASCII al establecer EmbedStandardWindowsFonts en falso|
+|CELLSJAVA-43455|Las fuentes no están incrustadas en PDF para caracteres no ASCII al establecer EmbedStandardWindowsFonts en falso|
 |CELLSJAVA-43449|No se puede cambiar la familia de fuentes de los elementos del gráfico de "Calibri" a "Aktiv Grotesk"|
 |CELLSJAVA-43454|Las etiquetas del eje X están cortadas|
 |CELLSJAVA-43445|Regresión: faltan datos de fila para archivos .numbers|

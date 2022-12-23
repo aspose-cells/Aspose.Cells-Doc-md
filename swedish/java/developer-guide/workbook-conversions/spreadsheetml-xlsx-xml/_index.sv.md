@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/java/spreadsheetml-xlsx-xml/
 ---
-## **Om SpreadsheetML**
+## **Cirka SpreadsheetML**
 SpreadsheetML är ett namn på en familj av XML-baserade format för kalkylarksdokument. Det finns flera versioner av SpreadsheetML:
 
 1. SpreadsheetML version 2003 introducerades i Microsoft Word 2003. SpreadsheetML var ett betydande steg av Microsoft mot att göra dokumentformatet öppet.
@@ -18,13 +18,13 @@ Det finns tre "versioner" av SpreadsheetML tillgängliga:
 |Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|Ja|
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|Ja|
 |Microsoft Excel 2010 och senare versioner|OOXML ISO/IEC DIS 29500|Ja|
-OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, som är ZIP-paket. Förutom XLSX. Aspose.Cells ger omfattande stöd för att ladda, spara och konvertera SpreadsheetML-dokument. En sådan allomfattande implementering är möjlig eftersom Aspose.Cells utformades med strukturen Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
+OOXML SpreadsheetML-dokument kommer oftast som XLSX-filer, som är ZIP-paket. Förutom XLSX. Aspose.Cells ger omfattande stöd för att ladda, spara och konvertera SpreadsheetML dokument. En sådan allomfattande implementering är möjlig eftersom Aspose.Cells utformades med strukturen Microsoft Excel-dokument i åtanke (och SpreadsheetML är känt för att efterlikna den interna representationen av Microsoft Excel-dokument).
 
 **Ett XLSX-dokument genererat av Aspose.Cells och öppnat i Microsoft Excel** 
 
 ![todo:image_alt_text](spreadsheetml-xlsx-xml_1.png)
 
-**XLSX-dokumentet som genereras av Aspose.Cells följer Open Packaging Convention och kan öppnas i en ZIP-kompatibel applikation** 
+**XLSX-dokumentet genererat av Aspose.Cells följer Open Packaging Convention och kan öppnas i en ZIP-kompatibel applikation** 
 
 ![todo:image_alt_text](spreadsheetml-xlsx-xml_2.png)
 ## **OOXML är öppet, varför använda Aspose.Cells?**

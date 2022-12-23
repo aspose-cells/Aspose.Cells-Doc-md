@@ -82,7 +82,7 @@ Luego defina la dependencia Aspose.Cells for Java API en su pom.xml de la siguie
 
 ¡Felicidades! Ha definido correctamente la dependencia Aspose.Cells for Java Maven en su proyecto Maven.
 
-## **Apoyo**
+## **Soporte**
 
 Verifique lo siguiente para obtener soporte técnico rápido
 

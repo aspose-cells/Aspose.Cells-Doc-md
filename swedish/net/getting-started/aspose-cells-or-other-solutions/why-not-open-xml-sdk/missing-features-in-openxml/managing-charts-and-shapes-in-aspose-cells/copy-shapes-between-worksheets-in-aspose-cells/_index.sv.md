@@ -45,7 +45,7 @@ workbook.Save(FileName);
 {{< /highlight >}}
 
 **Notera:** För mer information om att kopiera flera former behöver du besöka[här](/cells/sv/net/copy-shapes-between-worksheets/)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
 ## **Ladda ner körningsexempel**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)

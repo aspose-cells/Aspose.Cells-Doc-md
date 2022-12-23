@@ -1,5 +1,5 @@
 ﻿---
-title: PDF'ye kaydederken Yazı Tipini yalnızca belirli Unicode karakterlerinde değiştirin
+title: PDF'e kaydederken Yazı Tipini yalnızca belirli Unicode karakterlerinde değiştirin
 type: docs
 weight: 260
 url: /tr/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
@@ -15,7 +15,7 @@ Ancak bu, bazı kullanıcılar için istenmeyen bir davranıştır ve tüm kelim
 Bu sorunu çözmek için Aspose.Cells, PdfSaveOptions.IsFontSubstitutionCharGranularity özelliğini sağlar; bu özellik, yalnızca görüntülenemeyen belirli bir karakterin yazı tipinin görüntülenebilir yazı tipine dönüştürülmesi ve kelimenin veya cümlenin geri kalanının orijinal yazı tipinde kalması için doğru olarak ayarlanması gerekir.
 
 {{% /alert %}} 
-## **Örnek**
+## **Örnek vermek**
 Aşağıdaki ekran görüntüsü, aşağıdaki örnek kod tarafından oluşturulan iki çıktı PDF'sini karşılaştırır.
 
 Biri PdfSaveOptions.IsFontSubstitutionCharGranularity özelliği ayarlanmadan, diğeri ise PdfSaveOptions.IsFontSubstitutionCharGranularity özelliği true olarak ayarlandıktan sonra oluşturuldu.
@@ -24,12 +24,12 @@ Biri PdfSaveOptions.IsFontSubstitutionCharGranularity özelliği ayarlanmadan, d
 
 |**İlk Pdf Dosyası**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
+|![yapılacaklar:resim_alternatif_metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
 
 
 |**İkinci Pdf Dosyası**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
+|![yapılacaklar:resim_alternatif_metin](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
 ### **Basit kod**
 
 

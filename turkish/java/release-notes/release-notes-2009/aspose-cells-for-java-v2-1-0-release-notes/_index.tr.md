@@ -14,7 +14,7 @@ Aspose.Cells for Java v2.1.0'ı duyurmaktan mutluluk duyuyoruz!
 
 Neler değişti:
 
-l Açık Belge Elektronik Tablo dosyası (ODS) için yeni özellikler ekleyin: Köprü, Sayfa Yapısı seçenekleri, Grup taslağı, Koşullu biçimlendirme, Veri doğrulama, Otomatik Filtre, Sayfa Sonu, PrintTitleRows/Sütunlar, Şekillerle ilgili nesneler (Yorum, Yay, Düğme, Onay Kutusu, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
+l Açık Belge Elektronik Tablo dosyası için yeni özellikler ekleyin(ODS): Köprü, Sayfa Düzeni seçenekleri, Grup taslağı, Koşullu biçimlendirme, Veri doğrulama, Otomatik Filtre, Sayfa Sonu, YazdırTitleRows/Columns, Şekillerle ilgili nesneler (Yorum, Yay, Düğme, Onay Kutusu, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
 
 l MS Excel 2007 dosya biçimi için yeni özellikler sağlayın: Resim Ekleme, Grafik Ekleme.
 
@@ -28,9 +28,9 @@ l Köprü işlevini hesaplayın.
 
 l Kullanıcı tanımlı Adları silin.
 
-Çalışma Kitabını/Çalışma Sayfasını kopyalarken Otomatik Filtre özniteliklerini dahil edin.
+l Çalışma Kitabını/Çalışma Sayfasını kopyalarken Otomatik Filtre özniteliklerini dahil edin.
 
-l xls2pdf dönüştürmede köprüler için destek.
+xls2pdf dönüştürmede köprüler için destek.
 
 l Şablon dosyasındaki Ole Nesnelerini ayıklayın.
 
@@ -47,7 +47,7 @@ Aspose.Cells for Java v2.1.0'de Çözülen Sorunlar
 |9769|xls|bağlantılı hücre aracılığıyla kontrolleri güncelleyin ve bunun tersi de geçerlidir.|
 |9768|xls|Şeklin adı ve ZOrderPosition|
 |9716|xls|formül|
-|9715|xls|Yorum|
+|9715|xls|Yorum Yap|
 |9686|xls|Güçlü Çalışma Kitabı Şifrelemesi|
 |9674|xls|Ondalık sayıları yuvarlamak için Cell.getStringValue()|
 |9498|xls|hem BIFF7 hem de BIFF8 kayıtlarını içeren şablon dosyalarını okuma|
@@ -59,9 +59,9 @@ Aspose.Cells for Java v2.1.0'de Çözülen Sorunlar
 |9343|xls|Worksheet.unFreezePanes/freezePanes|
 |9344|xls|SmartMarker'da dinamik formüller|
 |9363|xls|Yatay işaretli SmartMarker:|
-|9364|xlsx|kullanıcının çıktı akışını kapatır|
+|9364|xlsx|kullanıcının çıkış akışını kapatır|
 |9404|xls|Microsoft Jet Engine tarafından oluşturulan şablon dosyasını okuma|
-|9264|CSV'ler|CSV dosya biçimini içe/dışa aktarma|
+|9264|CSV|CSV dosya biçimini içe/dışa aktarma|
 |9265|Xls2pdf|xls2pdf'de birleştirilmiş hücreler|
 |9173|xlsx|Excel2007 dosya biçimi için Style.isCellLocked() özelliği|
 |9174|xls|PageSetup'ın Üstbilgi/Altbilgi bölümünde resmin boyutunu ayarlayın|

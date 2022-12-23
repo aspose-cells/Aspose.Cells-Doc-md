@@ -10,7 +10,7 @@ Microsoft Excel le permite copiar un minigráfico especificando el rango de dato
 
 - Seleccione la celda que contiene su minigráfico.
 -  Seleccione**Editar datos** desde el**Minigráfico** sección dentro de la**Diseño** pestaña
--  Elegir**Editar ubicación y datos del grupo...**
+-  Escoger**Editar ubicación y datos del grupo...**
 - Especifique el rango de datos y la ubicación y haga clic en Aceptar.
 
 ## Ejemplo

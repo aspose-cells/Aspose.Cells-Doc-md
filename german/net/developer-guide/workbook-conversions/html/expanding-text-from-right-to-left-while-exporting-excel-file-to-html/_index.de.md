@@ -1,24 +1,24 @@
 ﻿---
-title: Erweitern von Text von rechts nach links beim Exportieren einer Excel-Datei in HTML
+title: Erweitern von Text von rechts nach links beim Exportieren der Excel-Datei nach HTML
 type: docs
 weight: 60
 url: /de/net/expanding-text-from-right-to-left-while-exporting-excel-file-to/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells unterstützt jetzt das Erweitern von Text von rechts nach links beim Exportieren von Excel-Dateien in HTML. Diese Funktion wurde seit v8.9.0.0 implementiert. Wenn Ihre Excel-Quelldatei nun Text enthält, der von rechts nach links erweitert wird, wird Aspose.Cells ihn korrekt in HTML exportieren.
+Aspose.Cells unterstützt jetzt das Erweitern von Text von rechts nach links beim Exportieren von Excel-Dateien nach HTML. Diese Funktion wurde seit v8.9.0.0 implementiert. Wenn Ihre Excel-Quelldatei nun Text enthält, der von rechts nach links erweitert wird, exportiert Aspose.Cells ihn korrekt nach HTML.
 
 {{% /alert %}} 
-## **Erweitern von Text von rechts nach links beim Exportieren einer Excel-Datei in HTML**
+## **Erweitern von Text von rechts nach links beim Exportieren der Excel-Datei nach HTML**
  Der folgende Beispielcode konvertiert die[Excel-Beispieldatei](5115502.xlsx) in HTML. Dieser Screenshot zeigt, wie das Excel-Beispiel in Microsoft Excel 2013 aussieht.
 
 ![todo: Bild_alt_Text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_1.png)
 
- Dieser Screenshot zeigt die[Ausgabe von HTML, das mit einer älteren Version generiert wurde](5115509).
+ Dieser Screenshot zeigt die[Ausgabe HTML generiert mit älterer Version](5115509).
 
 ![todo: Bild_alt_Text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_2.png)
 
- Dieser Screenshot zeigt die[HTML-Ausgabe, die mit einer neueren Version generiert wurde](5115508).
+ Dieser Screenshot zeigt die[Ausgabe HTML generiert mit neuerer Version](5115508).
 
 ![todo: Bild_alt_Text](expanding-text-from-right-to-left-while-exporting-excel-file-to-html_3.png)
 

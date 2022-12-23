@@ -14,7 +14,7 @@ url: /zh/java/aspose-cells-java-1-7-5-0-hot-fix-release-notes/
 
 我们已经发布了 Aspose.Cells for Java V1.7.5！包括以下增强和修复：
 
-- 支持导出到 HTML 文件。
+- 支持导出到HTML文件。
 支持自动调整行/列。
 支持在工作表中查找字符串/公式。
 修复了插入行/列的错误。

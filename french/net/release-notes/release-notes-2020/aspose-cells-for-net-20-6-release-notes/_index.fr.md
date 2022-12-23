@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-20-6-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47353|Prise en charge du stockage du fichier temporaire pour les informations de session dans GridWeb|Renforcement|
 |CELLSNET-47388|GridWeb SessionMode.File doit stocker le fichier cache pour différentes pages/onglets|Renforcement|
@@ -19,8 +19,8 @@ url: /fr/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-43418|Copier et coller (données uniquement) une plage non contiguë|Renforcement|
 |CELLSNET-47315|Le fichier n'a pas pu être ouvert lorsqu'il a été enregistré dans zip64|Renforcement|
 |CELLSNET-47384|Améliorer les performances de chargement des images/formes|Performance|
-|CELLSNET-47382|La conversion HTML vers Excel perd la mise en forme|Punaise|
-|CELLSNET-47390|La couleur de certains mots est incorrecte dans le rendu HTML vers ODS|Punaise|
+|CELLSNET-47382|La conversion HTML vers Excel perd le formatage|Punaise|
+|CELLSNET-47390|La couleur de certains mots est incorrecte dans le rendu HTML à ODS|Punaise|
 |CELLSNET-47385|Cells.InsertCutCells saute sur les classeurs avec une intersection de plage|Punaise|
 |CELLSNET-47389|Calcul HLOOKUP incorrect|Punaise|
 |CELLSNET-47352|Après avoir cliqué sur le texte, le texte disparaît|Punaise|

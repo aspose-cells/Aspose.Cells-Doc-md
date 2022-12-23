@@ -7,11 +7,11 @@ url: /de/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Excel-Tabellenverwaltungsbibliothek**
 ### **Dokumentfunktionen**
 - Öffnen Sie einfache oder verschlüsselte Microsoft Excel-Dateien (Excel97 - Excel2007/2010/2013) aus verschiedenen Quellen.
-- Speichern Sie Excel-Dateien (Excel 97 - Excel2007/2010/2013) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML etc.)
-- Konvertieren Sie eine Excel-Datei in ein PDF-Dokument.
-- Konvertieren Sie eine Excel-Tabelle in ein XPS-Dokument.
-- In das Tagged Image File Format (TIFF) konvertieren.
-- Lesen und schreiben Sie das OpenDocument Spreadsheet (ODS)-Format.
+- Speichern Sie Excel-Dateien (Excel 97 - Excel2007/2010/2013) in verschiedenen Formaten (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tabulatorgetrennt, 4819 usw.)
+- Konvertieren Sie die Excel-Datei in das Dokument PDF.
+- Konvertieren Sie die Excel-Tabelle in das Dokument XPS.
+- In Tagged Image File Format konvertieren (TIFF).
+- Lesen und schreiben Sie das Format OpenDocument Spreadsheet (ODS).
 - Ändern Sie die Dokumenteigenschaften von Excel-Dateien.
 ### **Arbeitsblattfunktionen**
 #### **Anzeigeoptionen**

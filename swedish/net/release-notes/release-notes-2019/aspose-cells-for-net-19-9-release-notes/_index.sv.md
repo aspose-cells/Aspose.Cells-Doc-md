@@ -19,19 +19,19 @@ url: /sv/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46883|Pivottabeller behåller inte flera valalternativ efter bearbetning av smarta markörer|Insekt|
 |CELLSNET-46874|Värden som inte härrör från formeln och kräver att man trycker på F2 för att få värden i celler|Insekt|
 |CELLSNET-46904|Hyperlänkar går förlorade när data importeras från DataTable|Insekt|
-|CELLSNET-46875|Innehållet flödar över från sidan under PDF-konvertering|Insekt|
+|CELLSNET-46875|Innehållet flödar över från sidan under PDF konvertering|Insekt|
 |CELLSNET-46865|Ett objekt ändras efter att ha öppnat och sparat|Insekt|
 |CELLSNET-46866|Att ställa in teckensnitt och teckenstorlek för Drawing.TextBox fungerar inte i ODS|Insekt|
-|CELLSNET-46867|Kryssrutor förlorade när XLSX sparades om|Insekt|
+|CELLSNET-46867|Kryssrutor förlorade när du sparade om XLSX|Insekt|
 |CELLSNET-46873|Ref! visas som formel ej tillämpad|Insekt|
-|CELLSNET-46876|OLE-objektlänk är inte tillgänglig från XLS-fil|Insekt|
+|CELLSNET-46876|OLE-objektlänk är inte tillgänglig från XLS-filen|Insekt|
 |CELLSNET-46881|Gruppering och avgruppering döljer inte gränser|Insekt|
 |CELLSNET-46884|Arbetsblad grupperas när du använder VisibilityType.VeryHidden/Hidden|Insekt|
 |CELLSNET-46886|Tabell med en rad som utökas till ytterligare en rad nedan efter att du har sparat arbetsboken|Insekt|
 |CELLSNET-46887|Villkorlig formatering behålls inte efter att filen har öppnats i MS Excel och sparats.|Insekt|
 |CELLSNET-46891|OleObjects gradientfyllning läses som FillType.Solid|Insekt|
 |CELLSNET-46894|Visa arkfliksinställning avmarkerad när du sparar Excel-filen|Insekt|
-|CELLSNET-46906|Aspose.Cells hängde på att öppna en XLSX-fil|Insekt|
+|CELLSNET-46906|Aspose.Cells hängde på att öppna en XLSX fil|Insekt|
 |CELLSNET-46909|OLE Objects formatering ändrades efter att Excel-filen öppnades och sparades|Insekt|
 |CELLSNET-46857|Filteranslutningar på pivotdiagram förlorar inställningar vid spara efter att ha uppdaterat pivottabeller|Insekt|
 |CELLSNET-46862|Inställningen "Dölj objekt utan data" i slicer går förlorad efter uppdatering av pivottabeller|Insekt|

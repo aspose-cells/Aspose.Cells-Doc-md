@@ -6,7 +6,7 @@ url: /de/java/chart-formatting/
 ---
 ## **Darstellung des Diagramms einstellen**
 
- Im[Diagrammtypen](/cells/de/java/chart-types/)gaben wir eine kurze Einführung in die Arten von Diagrammen und Diagrammobjekten, die von Aspose.Cells angeboten werden.
+ In[Diagrammtypen](/cells/de/java/chart-types/)gaben wir eine kurze Einführung in die Arten von Diagrammen und Diagrammobjekten, die von Aspose.Cells angeboten werden.
 
 In diesem Artikel besprechen wir, wie Sie das Erscheinungsbild von Diagrammen anpassen können, indem Sie eine Reihe verschiedener Eigenschaften festlegen:
 
@@ -48,7 +48,7 @@ Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm 
 
 ### **Anwenden von Microsoft Excel 2007/2010-Designs auf Diagramme**
 
- Entwickler können verschiedene Microsoft Excel-Designs und -Farben auf die anwenden[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)oder andere Diagrammobjekte, wie im Beispiel unten gezeigt.
+Entwickler können verschiedene Microsoft Excel-Designs und -Farben auf die anwenden[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)oder andere Diagrammobjekte, wie im Beispiel unten gezeigt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -60,7 +60,7 @@ Sie können Microsoft Excel verwenden, um die Titel eines Diagramms und seine Ac
 
 ![todo: Bild_alt_Text](chart-formatting_3.png)
 
-Aspose.Cells ermöglicht es Entwicklern auch, die Titel eines Diagramms und seiner Achsen zur Laufzeit festzulegen. Alle Diagramme und ihre Achsen enthalten a[**Titel.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)Methode, die verwendet werden kann, um ihre Titel festzulegen, wie unten in einem Beispiel gezeigt. Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt:
+ Aspose.Cells ermöglicht es Entwicklern auch, die Titel eines Diagramms und seiner Achsen zur Laufzeit festzulegen. Alle Diagramme und ihre Achsen enthalten a[**Titel.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)Methode, die verwendet werden kann, um ihre Titel festzulegen, wie unten in einem Beispiel gezeigt. Nach dem Ausführen des Beispielcodes wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, wie unten gezeigt:
 
 **Säulendiagramm nach dem Festlegen von Titeln** 
 
@@ -100,7 +100,7 @@ Das folgende Beispiel zeigt, wie Sie den Rand der Seitenwand mithilfe verschiede
 
 ## **Ändern Sie die Position und Größe des Diagramms**
 
- Manchmal möchten Sie die Position oder Größe des neuen oder vorhandenen Diagramms innerhalb des Arbeitsblatts ändern. Aspose.Cells bietet die[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) Eigenschaft, dies zu erreichen. Sie können die Untereigenschaften verwenden, um die Größe des Diagramms mit neu zu ändern**Höhe** und**Breite** oder mit new neu positionieren** X** und**Y**-Koordinaten.
+ Manchmal möchten Sie die Position oder Größe des neuen oder vorhandenen Diagramms innerhalb des Arbeitsblatts ändern. Aspose.Cells bietet die[**Chart.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)Eigenschaft, dies zu erreichen. Sie können die Untereigenschaften verwenden, um die Größe des Diagramms mit neu zu ändern**Höhe** und**Breite** oder mit new neu positionieren** X** und**Y**-Koordinaten.
 
 ### **Position und Größe des Diagramms ändern**
 

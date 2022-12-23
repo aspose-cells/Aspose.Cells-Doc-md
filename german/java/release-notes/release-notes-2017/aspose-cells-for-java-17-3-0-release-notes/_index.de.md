@@ -13,17 +13,17 @@ url: /de/java/aspose-cells-for-java-17-3-0-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42205|Das Festlegen einer Formel mit langem Zeichenfolgenliteral führt zu einer beschädigten Excel-Datei|Erweiterung|
-|CELLSJAVA-42204|Gepunktete Rahmen aus der Tabelle wurden nicht in HTML gerendert|Insekt|
+|CELLSJAVA-42204|Gepunktete Ränder aus der Tabelle wurden nicht auf HTML gerendert|Insekt|
 |CELLSJAVA-42198|Formelberechnung mit Aspose.Cells generierter Excel-Datei ist falsch|Insekt|
-|CELLSJAVA-42156|Die oberen und unteren Ränder der Zellen sind während der Konvertierung in HTML verschwunden|Insekt|
-|CELLSJAVA-42208|Kommentare (am Ende) werden bei generiertem PDF über Aspose.Cells vertikal geschnitten|Insekt|
-|CELLSJAVA-42206|Reihen-Strichlinien für Diagramme werden in der Ausgabe-PDF nicht korrekt gerendert|Insekt|
+|CELLSJAVA-42156|Die oberen und unteren Ränder der Zellen sind beim Konvertieren in HTML verschwunden|Insekt|
+|CELLSJAVA-42208|Kommentare (am Ende) werden vertikal geschnitten, wenn sie PDF über Aspose.Cells generiert werden|Insekt|
+|CELLSJAVA-42206|Reihen-Strichlinien für Diagramme werden in der Ausgabe PDF nicht korrekt gerendert|Insekt|
 |CELLSJAVA-42167 |Kategorieachsenbeschriftungen werden nach der Konvertierung des Diagramms in ein Bild in zwei Zeilen angezeigt|Insekt|
 |CELLSJAVA-42199|Wasserfalldiagramm, die Linie vom Gesamtbalken und der Balken direkt davor fehlen|Insekt|
 |CELLSJAVA-42201|Teilaufgabe - Kategorieachsenbeschriftungen, die nach der Konvertierung des Diagramms in ein Bild in zwei Zeilen angezeigt werden|Insekt|
 |CELLSJAVA-42155|Das exportierte Diagramm hat andere X-Achsenbeschriftungen als die in Excel|Insekt|
 |CELLSJAVA-42128|Das Diagramm ist beim Öffnen und Speichern der Excel-Quelldatei falsch|Insekt|
-|CELLSJAVA-42203|Die Schriftart wurde nach dem einfachen Laden und erneuten Speichern des XLSM geändert|Insekt|
+|CELLSJAVA-42203|Die Schriftart wurde nach dem einfachen Laden und erneuten Speichern der XLSM geändert|Insekt|
 |CELLSJAVA-42196|Die Formatierung der resultierenden Datei wird in der neu gespeicherten Datei durcheinandergebracht|Insekt|
 |CELLSJAVA-42195|Wasserfalldiagramm, Gesamtreihe sieht falsch aus|Insekt|
 |CELLSJAVA-42181|Geschützte Ansicht nach erneutem Speichern einer XLS-Datei|Insekt|
@@ -42,7 +42,7 @@ Mit der aktuellen Version 17.3.0 oder höher können Entwickler die Globalisieru
 1. **Fügt die Methode GlobalizationSettings.getEmptyDataName() hinzu** - Es erhält den Namen des Labels "(leer)" in der PivotTable.
 1. **Fügt die Methode GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType) hinzu** - Es erhält den Namen des Typs "PivotFieldSubtotalType" in der PivotTable.
 
-In diesem Codebeispiel wird erläutert, wie die Globalisierungseinstellungen einer Pivot-Tabelle angepasst werden. Es erstellt eine Klasse CustomPivotTableGlobalizationSettings, die von einer Basisklasse GlobalizationSettings abgeleitet ist, und überschreibt alle erforderlichen Methoden. Diese Methoden geben den benutzerdefinierten Text für Pivot-Summe, Zwischensumme, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen und leere Werte zurück. Dann weist es das Objekt dieser Klasse der Workbook.GlobalizationSettings-Eigenschaft zu. Der Code lädt die Excel-Quelldatei, die die Pivot-Tabelle enthält, aktualisiert und berechnet ihre Daten und speichert sie als Ausgabe-PDF-Datei. Entwickler können die Arbeitsmappe auch in jedem unterstützten Format speichern.
+In diesem Codebeispiel wird erläutert, wie die Globalisierungseinstellungen einer Pivot-Tabelle angepasst werden. Es erstellt eine Klasse CustomPivotTableGlobalizationSettings, die von einer Basisklasse GlobalizationSettings abgeleitet ist, und überschreibt alle erforderlichen Methoden. Diese Methoden geben den benutzerdefinierten Text für Pivot-Summe, Zwischensumme, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen und leere Werte zurück. Dann weist es das Objekt dieser Klasse der Workbook.GlobalizationSettings-Eigenschaft zu. Der Code lädt die Excel-Quelldatei, die die Pivot-Tabelle enthält, aktualisiert und berechnet ihre Daten und speichert sie als Ausgabedatei PDF. Entwickler können die Arbeitsmappe auch in jedem unterstützten Format speichern.
 
 **Java**
 

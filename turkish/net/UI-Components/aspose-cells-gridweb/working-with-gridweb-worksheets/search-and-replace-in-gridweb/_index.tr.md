@@ -16,9 +16,9 @@ Bul/Değiştir iletişim kutusunu açmanın iki yolu vardır:
 1.  Kontrol aktifken, basın**CTRL+F** iletişim kutusunu açmak için veya tuşuna basın.**CTRL+R** diyalog kutusunu açmak için tuşu**Yer değiştirmek** düğme etkinleştirildi.
 1.  İmleci çalışma sayfasındaki hücre alanına getirin, ardından sağ tıklayın. Seçme**Bulmak** veya**Yer değiştirmek** menüden.
 
-   **Bul'u Seçmek** 
+   **Bul'u Seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](search-and-replace-in-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](search-and-replace-in-gridweb_1.png)
 
 
 
@@ -27,12 +27,12 @@ Bul/Değiştir iletişim kutusunu açmanın iki yolu vardır:
 
 **Bul/Değiştir iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](search-and-replace-in-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](search-and-replace-in-gridweb_2.png)
 ### **Bul'u Kullanma**
 Aramak:
 
 1. Bul/Değiştir iletişim kutusunu açın.
-1.  Aramak istediğiniz diziyi yazın**Ne buldun** alan.
+1.  Aramak istediğiniz diziyi yazın**Ne buldun** tarla.
 1.  Tıklamak**Sonraki Bul** aramak.
 
 Bulma koşulunuzla eşleşen bir sonraki hücre vurgulanır.
@@ -45,7 +45,7 @@ Arama kriteriniz bulunamazsa, bunu size söylemek için bir iletişim kutusu gö
 ### **Arama Seçenekleri**
 İletişim kutusunda özelleştirebileceğiniz bazı arama seçenekleri vardır. Aşağıdaki tablo bunları listeler.
 
-|**Numara.** |**Seçenek Adı** |**Tanım** |
+|**Numara.** |**Seçenek Adı** |**Açıklama** |
 |:- |:- |:- |
 |1 | Maç durumu| Aramada büyük/küçük harf duyarlılığının kullanılıp kullanılmayacağını gösterir.|
 |2 | Tüm kelimeyi eşleştir| Aramada kelimenin tamamının eşleşip eşleşmeyeceğini belirtir.|
@@ -56,13 +56,13 @@ Arama kriteriniz bulunamazsa, bunu size söylemek için bir iletişim kutusu gö
 Metni veya değerleri değiştirmek için:
 
 1.  düğmesine basarak Bul/Değiştir iletişim kutusunu açın.**CTRL+F** veya bir hücreyi sağ tıklayıp seçin**Bulmak** tıklamadan önce**Yer değiştirmek**.
-1.  Değiştirme dizesini şuraya yazın:**İle değiştirin** alan.
+1.  Değiştirme dizesini şuraya yazın:**Şununla değiştir** tarla.
 1.  Tıklamak**Yer değiştirmek**.
 
 Metni değiştirmek için:
 
 1. İletişim kutusunu açın.
-1.  Bulmak istediğiniz metni girin**Ne buldun** alan ve onu değiştirmek istediğiniz metin**İle değiştirin** alan.
+1.  Bulmak istediğiniz metni girin**Ne buldun** alan ve onu değiştirmek istediğiniz metin**Şununla değiştir** tarla.
 1.  Tıklayarak her seferinde bir oluşumu değiştirin**Sonraki Bul** bunu takiben**Yer değiştirmek**.
 1.  Çalışma sayfasının ne içerdiğinden çok eminseniz, tıklayın.**Hepsini değiştir**.
 

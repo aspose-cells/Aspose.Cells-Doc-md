@@ -5,9 +5,9 @@ weight: 60
 url: /it/java/encrypt-workbook-using-aspose-cells/
 ---
 ## **Aspose.Cells - Crittografa cartella di lavoro**
-L'esempio seguente mostra come crittografare/proteggere con password un file Excel utilizzando l'API Aspose.Cells.
+L'esempio seguente mostra come è possibile crittografare/proteggere con password un file excel utilizzando Aspose.Cells API.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

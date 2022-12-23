@@ -10,30 +10,30 @@ Tablo alt bilgileri eklemek için:
 
    **Altbilgi etiketi hücresini seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-footers_1.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-footers_1.png)
 
 
 
 
 1.  Tıklamak**Altbilgiyi Ayarla**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-footers_2.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-footers_2.png)
 
 ). 
 
 **Alt bilgi etiketi seti** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-footers_3.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-footers_3.png)
 
 
 
 
 1. Alt bilgi veri satırını ekleyin.
- Alt bilgi veri satırları, statik metin, veri işaretçileri, Raporlama Servisleri formülleri vb. içerebilir. Burada, birleştirilmiş bir statik metin hücresi ve bir Raporlama Servisleri formül hücresi içeren bir alt bilgi satırı ekledik.
+ Alt bilgi veri satırları, statik metin, veri işaretçileri, Raporlama Servisleri formülleri vb. içerebilir. Burada, birleştirilmiş bir statik metin hücresi ve bir Raporlama Servisleri formül hücresi içeren bir altbilgi satırı ekledik.
 
-   **tamamlanmış alt bilgi** 
+   **tamamlanmış altbilgi** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-footers_4.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-footers_4.png)
 
 
 
@@ -41,4 +41,4 @@ Bir tabloda birden fazla altbilgi veri satırına izin verilir.
 
 **İkinci bir altbilgi satırı** 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-footers_5.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-footers_5.png)

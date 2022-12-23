@@ -1,11 +1,11 @@
 ﻿---
-title: Çalışma Sayfasını Python'de SVG'ye Dönüştürme
+title: Çalışma Sayfasını Python'de SVG'e Dönüştürme
 type: docs
 weight: 50
 url: /tr/java/converting-worksheet-to-svg-in-python/
 ---
-## **Aspose.Cells - Çalışma Sayfasını SVG'ye Dönüştürme**
-Python'de Aspose.Cells for Java'i kullanarak Çalışma Sayfasını SVG'ye dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
+## **Aspose.Cells - Çalışma Sayfası SVG'e dönüştürülüyor**
+Python'de Aspose.Cells for Java'i kullanarak Çalışma Sayfasını SVG'e dönüştürmek için çalışma sayfasını çağırmanız yeterlidir_ile_Dönüştürücü modülünün svg() yöntemi.
 
 **Python Kod**
 
@@ -53,6 +53,6 @@ print "Excel to SVG conversion completed successfully."
 
 {{< /highlight >}}
 ## **Çalışan Kodu İndir**
- İndirmek**Çalışma Sayfasını SVG'ye Dönüştürme(Aspose.Cells)** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
+ İndirmek**Çalışma Sayfası SVG(Aspose.Cells)'e Dönüştürülüyor** aşağıda belirtilen sosyal kodlama sitelerinin herhangi birinden:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

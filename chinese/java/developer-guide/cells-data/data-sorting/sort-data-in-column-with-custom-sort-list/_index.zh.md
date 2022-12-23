@@ -12,7 +12,7 @@ url: /zh/java/sort-data-in-column-with-custom-sort-list/
 
 以下示例代码解释了如何使用 DataSorter.AddKey(int key, SortOrder order, String[]customList) 方法使用自定义排序列表对数据进行排序。请参阅[示例 Excel 文件](50528359.xlsx)在此代码中使用和[输出Excel文件](50528358.xlsx)由它产生。下面的屏幕截图显示了示例 Excel 文件中的代码在执行时的效果。
 
-![待办事项：图像_替代_文本](sort-data-in-column-with-custom-sort-list_1.png)
+![待办事项：图片_替代_文本](sort-data-in-column-with-custom-sort-list_1.png)
 
 ## **示例代码**
 

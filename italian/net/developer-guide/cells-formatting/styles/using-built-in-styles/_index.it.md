@@ -3,7 +3,7 @@ title: Utilizzo degli stili incorporati
 type: docs
 weight: 80
 url: /it/net/using-built-in-styles/
-description: Codice C# per utilizzare gli stili predefiniti di Excel con l'API Aspose.Cells for .NET
+description: C# codice per utilizzare gli stili predefiniti di Excel con Aspose.Cells for .NET API
 keywords: c# use excel built in styles, c# programmatically apply styles in workbook, programmatically apply styles in workbook, c# apply built in styles in excel, c# apply built in styles in workbook, c# code apply built in styles in workbook, c# code apply built in styles in excel workbook
 ---
 {{% alert color="primary" %}}
@@ -48,7 +48,7 @@ Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare 
 - MONETA
 - VALUTA_1
 - TESTO_ESPLICATIVO
-- BUONA
+- BUONO
 - INTESTAZIONE_1
 - INTESTAZIONE_2
 - INTESTAZIONE_3
@@ -68,6 +68,6 @@ Aspose.Cells fornisce una vasta raccolta di stili riutilizzabili per formattare 
 - ROW_LEVEL
 - COLONNA_LIVELLO
 
-## Codice C# per usare gli stili incorporati
+## C# per utilizzare gli stili incorporati
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingBuiltinStyles-1.cs" >}}

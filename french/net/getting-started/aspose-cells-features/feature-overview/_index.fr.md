@@ -12,7 +12,7 @@ Les tableaux ci-dessous résument les fonctionnalités Aspose.Cells for .NET et 
 ## **Plates-formes prises en charge**
 Le produit Aspose.Cells for .NET couvre la plupart des environnements de développement et des plates-formes de déploiement populaires.
 
-|**Caractéristique**|**La description**|
+|**Caractéristique**|**Description**|
 |:- |:- |
 |[.NET Cadre](/cells/fr/net/system-requirements/#net-frameworks)|Utilisez Aspose.Cells for .NET pour créer ASP.NET, des services Web, WinForms ou tout autre type d'application pour toutes les versions 2.0 ou ultérieures de .NET Framework, y compris les versions de profil client. Prise en charge complète de 32 bits et 64 bits.|
 |[.NET Norme 2.0](/cells/fr/net/system-requirements/#net-standard)|Le dossier 'netStandard' contient l'assembly à utiliser avec le framework qui implémente .NET Standard 2.0 tel que .NET Core 2.1/3.1. La dernière version de Aspose.Cells API prend également en charge .NET 5.0 et .NET 6.0.|
@@ -24,27 +24,27 @@ Le produit Aspose.Cells for .NET couvre la plupart des environnements de dévelo
 ## **Formats de fichiers et conversions**
 De nombreux clients du monde entier font confiance aux fonctionnalités complètes d'importation et d'exportation de documents fournies par Aspose.Cells for .NET.
 
-|**Caractéristique**|**La description**|**.NET**|**.NET Norme 2.0** |
+|**Caractéristique**|**Description**|**.NET**|**.NET Norme 2.0** |
 |:- |:- |:- |:- |
 |Conversions de haute qualité|Convertissez rapidement et de manière fiable entre plusieurs formats de documents populaires.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Classeur Excel (XLS)|L'implémentation de format XLS la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TableurML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. De plus, le composant prend en charge<br>tous les principaux formats de fichiers Excel 2007, 2010 et 2013, par exemple XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Classeur Excel (XLS)|L'implémentation du format XLS la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. De plus, le composant prend en charge<br>tous les principaux formats de fichiers Excel 2007, 2010 et 2013, par exemple XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Valeur séparée par des virgules (CSV)|Prise en charge complète du format CSV pour interagir avec une variété d'applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|VST|Chargez et enregistrez des documents au format de fichier TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Enregistrer au format HTML est disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|Chargez et enregistrez des documents au format de fichier TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Enregistrer sous HTML est disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[OpenDocument - ODS](/cells/fr/net/opendocument-ods/)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Conversion en fichiers PDF|Convertissez n'importe quelle feuille de calcul en PDF avec une haute fidélité.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Onglet délimité|Chargez et enregistrez des documents au format de fichier délimité par des tabulations.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Texte brut (TXT)|Extrayez facilement du texte en l'enregistrant au format texte brut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Document XPS](/cells/fr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Convertir une feuille de calcul Excel en document XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Conversion d'une feuille de calcul en image et d'une feuille de calcul en image par page](/cells/fr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Les feuilles de calcul peuvent également être exportées au format Tagged Image File Format (TIFF) avec tous les types de compression souhaités.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[document XPS](/cells/fr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Convertir une feuille de calcul Excel en document XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Conversion d'une feuille de calcul en image et d'une feuille de calcul en image par page](/cells/fr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Les feuilles de calcul peuvent également être exportées au format Tagged Image File (TIFF) avec tous les types de compression souhaités.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Rendu et impression**
 Aspose.Cells for .NET fournit désormais un rendu haute fidélité des pages de feuille de calcul.
 
 |**Caractéristique**|**.NET**|**.NET Norme 2.0** |
 |:- |:- |:- |
 |Disposez le document en pages avec une haute fidélité à Microsoft Excel® (exactement comme Microsoft Excel® le ferait).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendu des pages de feuille de calcul en images raster (TIFF, TIFF multipage, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Rendu des pages de feuille de calcul en images raster (TIFF, multipage TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rendu des pages de feuille de calcul en images vectorielles (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Spécifiez la résolution, la qualité, la compression et d'autres options de l'image.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Imprimez des feuilles de calcul à l'aide de l'infrastructure d'impression .NET. Le composant a une méthode d'impression intégrée pour imprimer les feuilles de calcul comme indiqué dans l'aperçu avant impression d'Excel Microsoft.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

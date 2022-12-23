@@ -23,6 +23,6 @@ Pour désinstaller Aspose.Cells for SharePoint, exécutez le programme d'install
 
  Veuillez noter que l'exécution du**Réparation**l'option ne réactive pas Aspose.Cells for SharePoint sur les collections de sites. Au lieu de cela, la fonction doit être activée manuellement après le redéploiement avec le**Réparation** option.
 
- Désinstallation à l'aide de**Retirer** puis la réinstallation peut être plus pratique car elle vous permet de sélectionner les applications Web et les collections de sites cibles lors de l'installation.
+ Désinstallation à l'aide de**Supprimer** puis la réinstallation peut être plus pratique car elle vous permet de sélectionner les applications Web et les collections de sites cibles lors de l'installation.
 
 {{% /alert %}}

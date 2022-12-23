@@ -8,7 +8,7 @@ url: /zh/nodejs-java/optimizing-memory-usage-while-working-with-big-files-having
 
 在构建包含大型数据集的工作簿或读取大型 Microsoft Excel 文件时，进程占用的 RAM 总量始终是一个问题。可以采取一些措施来应对挑战。 Aspose.Cells 提供了一些相关选项和 API 调用以降低、减少和优化内存使用。此外，它还可以帮助流程更有效地工作并运行得更快。
 
-利用[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)用于优化用于单元格数据的内存以降低整体内存成本的选项。为单元格构建大数据集时，与使用默认设置相比，可以节省一定的内存[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL).
+采用[**内存设置.MEMORY_PREFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#MEMORY_PREFERENCE)用于优化用于单元格数据的内存以降低整体内存成本的选项。为单元格构建大数据集时，与使用默认设置相比，可以节省一定的内存[**内存设置.NORMAL**](https://reference.aspose.com/cells/java/com.aspose.cells/memorysetting#NORMAL).
 
 {{% /alert %}}
 

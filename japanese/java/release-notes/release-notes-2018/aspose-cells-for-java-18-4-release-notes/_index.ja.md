@@ -14,22 +14,22 @@ url: /ja/java/aspose-cells-for-java-18-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42523|Aspose.Cells API で FIPS 準拠バージョンの Bouncy Castle を使用する|新機能|
 |CELLSJAVA-42572|数式は 8192 文字を超えてはいけません|強化|
-|CELLSJAVA-42569|XLS のグラフの水平カテゴリ軸ラベル項目にアクセスできません|強化|
+|CELLSJAVA-42569|XLS の Chart の水平カテゴリ軸ラベル項目にアクセスできません|強化|
 |CELLSJAVA-42580|言語ドキュメント プロパティの取得/設定|強化|
 |CELLSJAVA-42565|前景色 vs 背景色 vs 塗りつぶし色 - 2 つの引数を取る単一のメソッドを使用する|強化|
 |CELLSJAVA-42528|"<Font>" は有効な HTML5 および自己終了タグではなく、Web ブラウザーはそのコンテンツを誤って表示します|強化|
-|CELLSJAVA-42413|Aspose.Cells によるワークシートのセルへの SVG 画像タイプの挿入|強化|
-|CELLSJAVA-42551|出力 PDF で一部の形状が正しくない|バグ|
-|CELLSJAVA-42578|Excel を HTML に保存するときに条件付き書式が失われる|バグ|
+|CELLSJAVA-42413|Aspose.Cells でワークシートのセルに SVG 画像タイプを挿入|強化|
+|CELLSJAVA-42551|出力で一部の形状が正しくない PDF|バグ|
+|CELLSJAVA-42578|Excel を HTML に保存しているときに条件付き書式が失われる|バグ|
 |CELLSJAVA-42571|出力 HTML が MS-Excel と一致しない|バグ|
-|CELLSJAVA-42553|HTML へのエクスポート後に名前付き領域へのリンクが正しくない|バグ|
+|CELLSJAVA-42553|HTML にエクスポートした後、名前付き領域へのリンクが正しくない|バグ|
 |CELLSJAVA-42530|ピボット テーブルと対応するグラフの日付形式が正しくありません|バグ|
 |CELLSJAVA-42527|グラフの x 軸に多くの値があり、値が互いに重なっています|バグ|
 |CELLSJAVA-42581|Aspose.Cells はセル A2 の間違った値を返します|バグ|
 |CELLSJAVA-42583|XML マップでテーブルが正しく作成されない|バグ|
 |CELLSJAVA-42577|特定のチャートの DataPoint.getYValue() メソッドを使用して、値 (0 の場合は 0、空白の場合は空白) を取得/抽出します。|バグ|
 |CELLSJAVA-42566|MS Excel チャートのサブタイトル (凡例エントリ) の反転|バグ|
-|CELLSJAVA-42560|Excel Chart の PNG 出力に矢印が表示されない|バグ|
+|CELLSJAVA-42560|Excel グラフの PNG 出力に矢印がありません|バグ|
 |CELLSJAVA-42508|Java メソッド 'Shape.toImage' は、.NET の同じメソッドとは異なる動作をします|バグ|
 |CELLSJAVA-42573|Aspose.Cells TextBox の 18.3 回転が EXCEL で機能しない_97_TO_2003 保存形式|バグ|
 |CELLSJAVA-42570|Excel ファイルを処理して保存した後、TextBox 内に空白の改行が表示される|バグ|
@@ -37,9 +37,9 @@ url: /ja/java/aspose-cells-for-java-18-4-release-notes/
 # **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for Java に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 #### **HtmlCrossType 列挙型に新しい項目「CrossHideRight」を追加**
-HTML クロス文字列を表示し、テキストが重なっている場合は右文字列を非表示にします。
-#### **LoadFormat、SaveFormat、および FileFormatType 列挙型の新しい項目「TSV」を追加**
-「TabDelimited」と同じTSV(Tab-separated values)ファイルを表します。
+HTML クロス文字列を表示し、テキストが重なると右文字列を非表示にします。
+#### **LoadFormat、SaveFormat、FileFormatType 列挙型に新しい項目「TSV」を追加**
+「TabDelimited」と同じ、TSV(タブ区切り値)ファイルを表します。
 #### **列挙型 ImageType を追加します**
 画像の種類を表します。
 #### **MsoTextFrame.RotateTextWithShape および ShapeTextAlignment.RotateTextWithShape プロパティを追加**
@@ -65,6 +65,6 @@ HTML クロス文字列を表示し、テキストが重なっている場合は
 #### **Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) メソッドを追加**
 目的のページ サイズでグラフの PDF を作成し、ストリームに保存します。
 #### **Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) メソッドを追加**
-目的のページ サイズでグラフの PDF を作成し、ファイルに保存します。
+グラフの PDF を目的のページ サイズで作成し、ファイルに保存します。
 #### **PdfSaveOptions.OutputBlankPageWhenNothingToPrint プロパティを追加**
 印刷するものが何もない場合に白紙ページを出力するかどうかを示します。

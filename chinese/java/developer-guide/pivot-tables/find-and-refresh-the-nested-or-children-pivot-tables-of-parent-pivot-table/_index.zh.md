@@ -12,7 +12,7 @@ url: /zh/java/find-and-refresh-the-nested-or-children-pivot-tables-of-parent-piv
 
 下面的示例代码加载[示例 Excel 文件](61767766.xlsx)包含三个数据透视表。底部的两个数据透视表是上述数据透视表的子项，如屏幕截图所示。该代码使用[**数据透视表.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()方法，然后将它们一一刷新。
 
-![待办事项：图像_替代_文本](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+![待办事项：图片_替代_文本](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 
 ## **示例代码**
 

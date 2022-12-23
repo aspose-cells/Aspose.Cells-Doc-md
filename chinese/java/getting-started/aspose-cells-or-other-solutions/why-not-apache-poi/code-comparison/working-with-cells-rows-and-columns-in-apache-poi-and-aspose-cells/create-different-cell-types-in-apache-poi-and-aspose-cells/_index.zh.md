@@ -93,6 +93,6 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{% alert color="primary" %}} 
 
-欲了解更多详情，请访问[设置数字和日期的显示格式](/cells/zh/java/data-formatting/).
+欲了解更多详情，请访问[设置Numbers和日期的显示格式](/cells/zh/java/data-formatting/).
 
 {{% /alert %}}

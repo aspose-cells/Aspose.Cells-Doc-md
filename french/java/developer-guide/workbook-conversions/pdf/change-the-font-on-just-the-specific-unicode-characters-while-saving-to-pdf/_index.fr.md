@@ -12,7 +12,7 @@ Lorsqu'un tel caractère apparaît à l'intérieur d'un mot ou d'une phrase qui 
 
 Cependant, il s'agit d'un comportement indésirable pour certains utilisateurs et ils souhaitent uniquement que la police du caractère spécifique soit modifiée au lieu de modifier la police du mot ou de la phrase entière.
 
- Pour faire face à ce problème, le Aspose.Cells fournit[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) propriété qui doit être définie**vrai**de sorte que seule la police du caractère spécifique qui n'est pas affichable est modifiée et que la police du reste du mot ou de la phrase reste la même.
+ Pour faire face à ce problème, le Aspose.Cells fournit[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) propriété qui doit être définie**vrai** de sorte que seule la police du caractère spécifique qui n'est pas affichable est modifiée et que la police du reste du mot ou de la phrase reste la même.
 
 {{% /alert %}}
 

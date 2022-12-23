@@ -40,23 +40,23 @@ url: /ja/net/aspose-cells-for-net-8-6-3-release-notes/
 
 (CELLSNET-44096) - Workbook.CalculateFormula が無期限にスタックする
 
-(CELLSNET-44102) - ワークシートを EMF に変換する際のパフォーマンス ラグ
+(CELLSNET-44102) - ワークシートを EMF に変換する際のパフォーマンスの遅延
 
 ### **バグ**
 
 (CELLSNET-44092) - キリル文字を含む Hyperlink.Address の読み取りに関する問題
 
-(CELLSNET-44090) - ピボット テーブルを含む XLSB ファイルが v8.6.2 で破損する
+(CELLSNET-44090) - XLSB ピボット テーブルを含むファイルが v8.6.2 で破損する
 
 (CELLSNET-44073) - HtmlHiddenColDisplayType.Remove で HTML に変換すると空のチャートが作成される
 
 (CELLSNET-43917) - スプレッドシートを HTML に変換する際にテキストがトリミングされる
 
-(CELLSNET-43914) - スプレッドシートを PDF にレンダリングする際にテキストがボックスからはみ出す
+(CELLSNET-43914) - スプレッドシートを PDF にレンダリングしているときに、テキストがボックスからはみ出す
 
 (CELLSNET-44111) - 漢字を含むハイパーリンク アドレスが正しく変換されない
 
-(CELLSNET-44080) - Cells PDF への変換中にテキストがわずかに右にシフトする
+(CELLSNET-44080) - PDF への変換中に Cells のテキストがわずかに右にシフトする
 
 (CELLSNET-44125) - Excel ドキュメントの PDF への保存が失敗する
 
@@ -74,7 +74,7 @@ url: /ja/net/aspose-cells-for-net-8-6-3-release-notes/
 
 (CELLSNET-44131) - 挿入された行の数に応じて、いくつかの間違った数式が表示されます
 
-(CELLSNET-44128) - XLSB に保存すると、=SUM(Table[Col]) のような式が壊れる
+(CELLSNET-44128) - XLSB に保存すると、=SUM(Table[Col]) のような数式が壊れます
 
 (CELLSNET-44082) - Aspose.Cells が保存時に非表示のスタイルを表示する
 
@@ -102,7 +102,7 @@ url: /ja/net/aspose-cells-for-net-8-6-3-release-notes/
 
 (CELLSNET-44127) - PDF ファイル/メモリ ストリームに保存すると例外が発生する
 
-(CELLSNET-44085) - ODS の読み込み中の System.Exception
+(CELLSNET-44085) - ODS のロード中に System.Exception が発生する
 
 (CELLSNET-43720) - ワークブックとピボット テーブルを結合する際の不明な領域エラー
 

@@ -11,7 +11,7 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET 已更新到版本 8.0.2，我们很高兴地宣布此版本增加了 30 多个新的有用改进。
-使用 Aspose.Cells for .NET，您可以在应用程序中处理 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
+使用 Aspose.Cells for .NET，您可以在应用程序中使用 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
 访问文档以了解如何开始使用 Aspose.Cells for .NET。
 请注意，此下载包含该产品的完整工作版本，但如果没有许可证集，它将在评估模式下运行，但有一些限制。要在没有这些评估限制的情况下测试 Aspose.Cells，您可以申请免费的 30 天临时许可证。
 以下是此版本 Aspose.Cells 的更改列表。
@@ -21,7 +21,7 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-42585) - 更改评论文本方向
@@ -30,7 +30,7 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 ## **表现**
 
 
-(CELLSNET-42278) - 将 XLSX 保存为 PDF 时出现 System.OutOfMemoryException，其中 XLSX 有很多带格式的空白单元格
+(CELLSNET-42278) - 将 XLSX 保存到 PDF 时出现 System.OutOfMemoryException，其中 XLSX 有很多带格式的空白单元格
 
 
 ## **虫子**
@@ -50,15 +50,15 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 
 (CELLSNET-42269) - 输出 XPS 中的数据透视表格式不正确
 
-(CELLSNET-42597) - AutoFitRows 导致换行文本隐藏在生成的 PDF 中
+(CELLSNET-42597) - AutoFitRows 导致换行文本隐藏在结果 PDF 中
 
 (CELLSNET-42615) - SheetRender 未正确呈现上标
 
 (CELLSNET-42594) - 垂直文本对齐在 SheetRender 中无法正常工作
 
-(CELLSNET-42580) - 将 Excel 文件保存为 PDF 会忽略标题中的颜色设置
+(CELLSNET-42580) - 将 Excel 文件保存到 PDF 会忽略标题中的颜色设置
 
-(CELLSNET-42579) - 呈现为 PDF 时出现分页问题
+(CELLSNET-42579) - 渲染到 PDF 时出现分页问题
 
 (CELLSNET-42498) - 在将 XLSX 转换为 PDF 时，边框被复制到下一页
 
@@ -78,11 +78,11 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 
 (CELLSNET-42586) - 设置为右侧时评论文本对齐不起作用
 
-(CELLSNET-42582) - 打开 Aspose.Cells 从 XLSB 转换的 XLSM 时，Excel 发现不可读的内容错误
+(CELLSNET-42582) - Excel 在打开 Aspose.Cells 时发现无法读取的内容错误从 XLSB 转换为 XLSM
 
 (CELLSNET-42581) - ArgumentOutOfRangeException - 打开 Excel XLSX 文件时
 
-(CELLSNET-42570) - Cell 智能标记中的公式未扩展
+(CELLSNET-42570) - Cell 智能标记中的公式未展开
 
 (CELLSNET-42568) - 即 Sieve Size 列显示#N/A
 
@@ -90,7 +90,7 @@ url: /zh/net/aspose-cells-for-net-8-0-2-release-notes/
 ## **例外情况**
 
 
-(CELLSNET-42576) - 将 xls 保存为 pdf 时出现空引用异常
+ (CELLSNET-42576) - 将 xls 保存为 pdf 时出现空引用异常
 
 (CELLSNET-42628) - 加载 MHTML 电子表格时出现 System.NullReferenceException
 

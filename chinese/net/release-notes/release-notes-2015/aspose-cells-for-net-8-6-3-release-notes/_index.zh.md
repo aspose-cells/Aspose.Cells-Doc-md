@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-8-6-3-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-44084) - 批量导入数据时解析 Html 标签
 
@@ -46,25 +46,25 @@ url: /zh/net/aspose-cells-for-net-8-6-3-release-notes/
 
 (CELLSNET-44092) - 读取带有西里尔字符的 Hyperlink.Address 时出现问题
 
-(CELLSNET-44090) - 带有数据透视表的 XLSB 文件在 v8.6.2 中损坏
+(CELLSNET-44090) - XLSB 带有数据透视表的文件在 v8.6.2 中损坏
 
 (CELLSNET-44073) - 使用 HtmlHiddenColDisplayType.Remove 转换为 HTML 会创建空图表
 
 (CELLSNET-43917) - 在将电子表格转换为 HTML 时修剪文本
 
-(CELLSNET-43914) - 在将电子表格呈现为 PDF 时文本溢出方框
+(CELLSNET-43914) - 在将电子表格渲染到 PDF 时文本溢出框
 
 (CELLSNET-44111) - 包含中文字符的超链接地址未正确转换
 
 (CELLSNET-44080) - Cells 文本在转换为 PDF 期间略微向右移动
 
-(CELLSNET-44125) - Excel 文档保存为 PDF 失败
+(CELLSNET-44125) - Excel 文档保存到 PDF 失败
 
 (CELLSNET-44117) - 图表标题和图例的转换不正确
 
 (CELLSNET-44086) - pdf 文件内图表的水平轴缩放错误并反转
 
-(CELLSNET-44079) - 保存为 PDF 时图表图例的某些条目丢失
+(CELLSNET-44079) - 图表图例的一些条目在保存到 PDF 时丢失
 
 (CELLSNET-44046) - Chart.ToImage 修改标签对齐方式
 

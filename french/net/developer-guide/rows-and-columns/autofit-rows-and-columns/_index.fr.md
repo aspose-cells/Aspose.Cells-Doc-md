@@ -12,11 +12,11 @@ Microsoft Excel permet aux utilisateurs de redimensionner automatiquement la lar
 
 ## **Ajustement automatique**
 
-Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Cet article examine l'utilisation de[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe pour ajuster automatiquement les lignes ou les colonnes.
+Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Cet article examine l'utilisation de[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe pour ajuster automatiquement les lignes ou les colonnes.
 
 ### **Ligne d'ajustement automatique - Simple**
 
- L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) méthode. La[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)prend un index de ligne (de la ligne à redimensionner) comme paramètre.
+ L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index) méthode. Le[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/autofitrow/index)prend un index de ligne (de la ligne à redimensionner) comme paramètre.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowsandColumns-1.cs" >}}
 
@@ -28,7 +28,7 @@ Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspos
 - **Index de la première colonne**, l'index de la première colonne de la ligne.
 - **Index de la dernière colonne**, l'index de la dernière colonne de la ligne.
 
- La[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)La méthode vérifie le contenu de toutes les colonnes de la ligne, puis ajuste automatiquement la ligne.
+ Le[**AutoFitRow**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitrow/methods/1)La méthode vérifie le contenu de toutes les colonnes de la ligne, puis ajuste automatiquement la ligne.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitRowinSpecificRange-1.cs" >}}
 
@@ -40,7 +40,7 @@ Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspos
 - **Index de la première ligne**, l'index de la première ligne de la colonne.
 - **Index de la dernière ligne**, l'index de la dernière ligne de la colonne.
 
- La[**Ajustement automatique de la colonne**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)La méthode vérifie le contenu de toutes les lignes de la colonne, puis ajuste automatiquement la colonne.
+ Le[**Ajustement automatique de la colonne**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/autofitcolumn/methods/1)La méthode vérifie le contenu de toutes les lignes de la colonne, puis ajuste automatiquement la colonne.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-AutofitColumninSpecificRange-1.cs" >}}
 

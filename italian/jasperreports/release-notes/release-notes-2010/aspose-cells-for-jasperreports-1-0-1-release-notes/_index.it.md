@@ -14,7 +14,7 @@ Siamo lieti di annunciareAspose.Cells for JasperReports 1.0.1!
 
 Cosa c'è di nuovo:
 
-- Le dimensioni dei caratteri vengono regolate in modo appropriato per incollare caratteri in formato Microsoft Excel simili ai caratteri in formato PDF.
+- Le dimensioni dei caratteri vengono regolate in modo appropriato per incollare i caratteri nel formato Excel Microsoft simile ai caratteri nel formato PDF.
 -  Le etichette degli assi (dei grafici) in formato data vengono visualizzate correttamente e di conseguenza.
 - Sono supportati gli effetti di riempimento sfumato per le aree, incluso lo sfondo del grafico (area del grafico, area del grafico, ecc.), sfondo della legenda, barre e bolle, ecc.
 

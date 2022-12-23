@@ -11,7 +11,7 @@ url: /es/net/public-api-changes-in-aspose-cells-8-3-2/
 {{% /alert %}} 
 ## **API añadidas**
 ### **Mecanismo para establecer la posición absoluta de PivotItem**
- Para proporcionar la función[Posicionamiento absoluto de PivotItem](/cells/es/net/specifying-the-absolute-position-of-the-pivot-item/)el Aspose.Cells for .NET 8.3.2 ha expuesto una serie de propiedades y métodos de ayuda que se enumeran a continuación.
+ Para proporcionar la característica[Posicionamiento absoluto de PivotItem](/cells/es/net/specifying-the-absolute-position-of-the-pivot-item/)el Aspose.Cells for .NET 8.3.2 ha expuesto una serie de propiedades y métodos de ayuda que se enumeran a continuación.
 
 - La propiedad PivotItem.Position se puede usar para especificar el índice de posición en todos los PivotItems, independientemente del nodo principal.
 - La propiedad PivotItem.PositionInSameParentNode se puede usar para especificar el índice de posición en PivotItems en el mismo nodo principal.
@@ -164,7 +164,7 @@ sr.ToPrinter(printerName, 1, 4);
 {{< /highlight >}}
 
 
-### **Método Worksheet.RefreshPivotTables añadido**
+### **Método Worksheet.RefreshPivotTables agregado**
 El método recién agregado Worksheet.RefreshPivotTables permite actualizar todas las tablas dinámicas en una hoja de cálculo determinada en una sola llamada.
 
 **C#**

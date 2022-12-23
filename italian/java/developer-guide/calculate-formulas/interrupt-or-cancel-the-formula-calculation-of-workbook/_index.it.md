@@ -12,7 +12,7 @@ Aspose.Cells fornisce un meccanismo per interrompere o annullare il calcolo dell
 
 Il codice di esempio seguente implementa il[**primaCalcola()**](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationmonitor#beforeCalculate(int,%20int,%20int)) metodo del[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)classe. All'interno di questo metodo, trova il nome della cella utilizzando i parametri dell'indice di riga e colonna. Se il nome della cella è B8, interrompe il processo di calcolo chiamando il metodo AbstractCalculationMonitor.interrupt(). Una volta, la classe concreta di[**AbstractCalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationMonitor)class è implementata, la sua istanza è assegnata a[**CalculationOptions.CalculationMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CalculationMonitor)proprietà. Infine,[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula(com.aspose.cells.CalculationOptions)) è chiamato passando[**Opzioni di calcolo**](https://reference.aspose.com/cells/java/com.aspose.cells/CalculationOptions)come parametro. Si prega di consultare il[esempio di file Excel](51740744.xlsx)utilizzato all'interno del codice così come l'output della console del codice indicato di seguito per riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Formulas-InterruptOrCancelFormulaCalculationOfWorkbook.java" >}}
 

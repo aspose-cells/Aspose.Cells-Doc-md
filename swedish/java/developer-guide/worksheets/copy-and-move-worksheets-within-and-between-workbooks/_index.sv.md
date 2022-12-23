@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Kopiera kalkylblad i en arbetsbok:
- Nedan finns koden som används av för att utföra uppgiften. Den kopierar arbetsbladet Copy inom FirstWorkbook.xls.
+Nedan finns koden som används av för att utföra uppgiften. Den kopierar arbetsbladet Copy inom FirstWorkbook.xls.
 
 Genom att köra koden flyttas kalkylbladet med namnet Copy inom FirstWorkbook.xls med det nya namnet Last Sheet.
 

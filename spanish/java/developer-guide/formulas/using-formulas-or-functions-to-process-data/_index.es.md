@@ -12,7 +12,7 @@ Una de las características atractivas de Microsoft Excel es su capacidad para p
 
 ## **Uso de fórmulas y funciones**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) recopilación. Cada artículo en el[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) colección representa un objeto de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) recopilación. Cada artículo en el[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Cells) colección representa un objeto de la[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
 
  Es posible aplicar fórmulas a las celdas usando propiedades y métodos que ofrece el[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase, discutido en más detalle a continuación.
 
@@ -47,7 +47,7 @@ Una de las características atractivas de Microsoft Excel es su capacidad para p
 
  Aspose.Cells proporciona características para registrar funciones adicionales usando[**Hojas de trabajo.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Luego cuando nos ponemos[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, el archivo de salida de Excel contiene el valor calculado de la función AddIn.
 
-A continuación, se descargará el archivo XLAM para registrar la función de complemento en el código de muestra a continuación. De manera similar, el archivo de salida "test_udf.xlsx" se puede descargar para verificar la salida.
+A continuación, se descargará el archivo XLAM para registrar la función adicional en el código de ejemplo siguiente. De manera similar, el archivo de salida "test_udf.xlsx" se puede descargar para verificar la salida.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -63,12 +63,12 @@ Las fórmulas de matriz son fórmulas que funcionan con matrices, en lugar de n�
 
 ![todo:imagen_alternativa_texto](using-formulas-or-functions-to-process-data_1.png)
 
-Algunas funciones de Excel Microsoft devuelven matrices de valores. Para calcular múltiples resultados con una fórmula de matriz, ingrese la matriz en un rango de celdas con el mismo número de filas y columnas que los argumentos de la matriz.
+Algunas funciones de Excel Microsoft devuelven matrices de valores. Para calcular varios resultados con una fórmula de matriz, ingrese la matriz en un rango de celdas con el mismo número de filas y columnas que los argumentos de la matriz.
 
- Es posible aplicar una fórmula de matriz a una celda llamando al[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase'[**setArrayFórmula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) método. los[**setArrayFórmula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) método toma los siguientes parámetros:
+ Es posible aplicar una fórmula de matriz a una celda llamando al[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase'[**setArrayFórmula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) método. Él[**setArrayFórmula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) método toma los siguientes parámetros:
 
-- **Fórmula de matriz**, la fórmula matricial.
-- **Número de filas**el número de filas para completar el resultado de la fórmula de matriz.
+- **Fórmula de matriz**la fórmula matricial.
+- **Número de filas**, el número de filas para completar el resultado de la fórmula de matriz.
 - **Número de columnas**, el número de columnas para completar el resultado de la fórmula de matriz.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

@@ -1,5 +1,5 @@
 ﻿---
-title: متفرقات
+title: متنوع
 type: docs
 weight: 70
 url: /ar/jasperreports/miscellaneous/

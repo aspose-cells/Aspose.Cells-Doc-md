@@ -5,7 +5,7 @@ weight: 30
 url: /es/java/create-pivot-charts-in-xlsx4j/
 ---
 ## **Aspose.Cells - Crear gráficos dinámicos**
-Una tabla dinámica es un resumen interactivo de registros. Por ejemplo, puede tener cientos de entradas de facturas en una lista en una hoja de cálculo. Una tabla dinámica puede totalizar las facturas por cliente, producto o fecha. Con Microsoft Excel es posible reorganizar rápidamente la información en la tabla dinámica arrastrando los botones a una nueva posición.
+Una tabla dinámica es un resumen interactivo de registros. Por ejemplo, puede tener cientos de entradas de facturas en una lista en una hoja de trabajo. Una tabla dinámica puede totalizar las facturas por cliente, producto o fecha. Con Microsoft Excel es posible reorganizar rápidamente la información en la tabla dinámica arrastrando los botones a una nueva posición.
 Un gráfico dinámico es una representación gráfica interactiva de los datos en una tabla dinámica. Los gráficos dinámicos se introdujeron en Excel 2000. El uso de un gráfico dinámico facilita aún más la comprensión de los datos, ya que la tabla dinámica crea subtotales y totales automáticamente.
 
 Aspose.Cells admite tablas dinámicas y gráficos dinámicos.

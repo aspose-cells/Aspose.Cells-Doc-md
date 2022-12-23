@@ -6,7 +6,7 @@ url: /ru/net/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells позволяет изменить тип цели ссылки HTML. HTML-ссылка выглядит так
+Aspose.Cells позволяет изменить тип цели ссылки HTML. HTML ссылка выглядит так
 
 {{< highlight "java" >}}
 
@@ -14,7 +14,7 @@ Aspose.Cells позволяет изменить тип цели ссылки HT
 
 {{< /highlight >}}
 
-Как вы можете видеть, целевой атрибут в HTML-ссылке выше — **_self**. Вы можете управлять этим целевым атрибутом с помощью свойства [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
+Как вы можете видеть, целевой атрибут в приведенной выше ссылке HTML — **_self**. Вы можете управлять этим целевым атрибутом с помощью свойства [**HtmlSaveOptions.LinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/linktargettype). Это свойство принимает перечисление [**HtmlLinkTargetType**](https://reference.aspose.com/cells/net/aspose.cells/htmllinktargettype), которое имеет следующие значения.
 
 - HtmlLinkTargetType. Пусто
 - HtmlLinkTargetType.Parent

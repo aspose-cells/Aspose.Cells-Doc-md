@@ -6,7 +6,7 @@ url: /it/java/specifying-the-absolute-position-of-the-pivot-item/
 ---
 {{% alert color="primary" %}}
 
-A volte, l'utente deve specificare la posizione assoluta degli elementi pivot, l'API Aspose.Cells ha esposto alcune nuove proprietà e un metodo per soddisfare questo requisito dell'utente.
+A volte, l'utente deve specificare la posizione assoluta degli elementi pivot, Aspose.Cells API ha esposto alcune nuove proprietà e un metodo per soddisfare questo requisito dell'utente.
 
 -  Aggiunto[**PivotItem.setPosition()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#Position) proprietà che può essere utilizzata per specificare l'indice di posizione in tutti i PivotItem indipendentemente dal nodo padre. Aggiunto[**PivotItem.setPositionInSameParentNode()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#PositionInSameParentNode) proprietà che può essere utilizzata per specificare l'indice di posizione nei PivotItems sotto lo stesso nodo padre.
 -  Aggiunto[**PivotItem.move(int count, boolean isSameParent)**](https://reference.aspose.com/cells/java/com.aspose.cells/pivotitem#move(int,%20boolean)per spostare l'elemento verso l'alto o verso il basso in base al valore del conteggio, dove il conteggio è il numero di posizioni per spostare l'oggetto PivotItem verso l'alto o verso il basso. Se il valore del conteggio è minore di zero, l'elemento verrà spostato verso l'alto mentre se il valore del conteggio è maggiore di zero, il PivotItem si sposterà verso il basso, parametro di tipo booleano isSameParent che specifica se l'operazione di spostamento deve essere eseguita nello stesso nodo padre o non.
@@ -16,7 +16,7 @@ A volte, l'utente deve specificare la posizione assoluta degli elementi pivot, l
 
 {{% /alert %}}
 
-## Codice di esempio
+## Codice d'esempio
 
 Il seguente codice di esempio crea una tabella pivot e quindi specifica le posizioni degli elementi pivot nello stesso nodo padre.
 

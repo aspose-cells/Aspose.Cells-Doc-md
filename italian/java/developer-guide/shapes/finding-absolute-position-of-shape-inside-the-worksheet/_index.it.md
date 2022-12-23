@@ -6,13 +6,13 @@ url: /it/java/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- volte è necessario conoscere la posizione assoluta di una forma su un foglio di lavoro. Aspose.Cells fornisce il[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) e[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) proprietà a questo scopo. Queste proprietà restituiscono la posizione assoluta di una forma in un foglio di lavoro in pixel.
+ A volte è necessario conoscere la posizione assoluta di una forma su un foglio di lavoro. Aspose.Cells fornisce il[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) e[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner) proprietà a questo scopo. Queste proprietà restituiscono la posizione assoluta di una forma in un foglio di lavoro in pixel.
 
 {{% /alert %}}
 
 ## **Spiegazione delle proprietà Shape.getLeftToCorner() e Shape.getTopToCorner()**
 
- Questo screenshot spiega quali distanze il[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) e[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)misura delle proprietà.
+Questo screenshot spiega quali distanze il[**Shape.getLeftToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#LeftToCorner) e[**Shape.getTopToCorner()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#TopToCorner)misura delle proprietà.
 
 **Misurazione della posizione assoluta**
 

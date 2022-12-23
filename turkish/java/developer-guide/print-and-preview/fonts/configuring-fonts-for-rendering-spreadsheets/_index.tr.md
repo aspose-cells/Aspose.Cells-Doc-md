@@ -6,7 +6,7 @@ url: /tr/java/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells API'ler, elektronik tabloları resim formatlarında oluşturmanın yanı sıra PDF ve XPS formatlarına dönüştürme olanağı sağlar. Dönüştürme doğruluğunu en üst düzeye çıkarmak için elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunması gerekir. Gerekli yazı tiplerinin mevcut olmaması durumunda, Aspose.Cells API'leri gerekli yazı tiplerini mevcut olanlarla değiştirmeye çalışacaktır.
+Aspose.Cells API'leri, elektronik tabloları resim formatlarında oluşturmanın yanı sıra PDF ve XPS formatlarına dönüştürme olanağı sağlar. Dönüştürme doğruluğunu en üst düzeye çıkarmak için elektronik tabloda kullanılan yazı tiplerinin işletim sisteminin varsayılan yazı tipi dizininde bulunması gerekir. Gerekli yazı tiplerinin mevcut olmaması durumunda, Aspose.Cells API'leri gerekli yazı tiplerini mevcut olanlarla değiştirmeye çalışacaktır.
 
 ## **Yazı Tiplerinin Seçimi**
 
@@ -21,7 +21,7 @@ Aspose.Cells API'lerinin perde arkasında takip ettiği süreç aşağıdadır.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi dizinini tek bir istisna dışında tarar; ne zaman JVM bağımsız değişkenleri**-DAspose.Cells.FontDirExc="FontDiziniz"** ayarlanır. Bu durumda, Aspose.Cells API'leri, işletim sisteminin varsayılan yazı tipi dizinini taramayı atlayacak ve yalnızca yukarıda belirtilen JVM bağımsız değişkenlerinde belirtilen yolu arayacaktır.
+ Aspose.Cells API'leri her zaman işletim sisteminin varsayılan yazı tipi dizinini tek bir istisna dışında tarar; ne zaman JVM bağımsız değişkenleri**-DAspose.Cells.FontDirExc="FontDiziniz"**ayarlanır. Bu durumda, Aspose.Cells API'leri, işletim sisteminin varsayılan yazı tipi dizinini taramayı atlayacak ve yalnızca yukarıda belirtilen JVM bağımsız değişkenlerinde belirtilen yolu arayacaktır.
 
 {{% /alert %}}
 
@@ -35,7 +35,7 @@ Aspose.Cells API'lerinin perde arkasında takip ettiği süreç aşağıdadır.
 
 {{% alert color="primary" %}}
 
- İkisi birden[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) yöntemleri, bir Boole tipi ikinci parametreyi kabul eder. Geçen**doğru**ikinci parametre olarak Aspose.Cells API'lerini yazı tipi dosyaları için alt klasörleri aramaya yönlendirecektir.
+ Her ikisi de[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) yöntemleri, bir Boole tipi ikinci parametreyi kabul eder. Geçen**doğru**ikinci parametre olarak Aspose.Cells API'lerini yazı tipi dosyaları için alt klasörleri aramaya yönlendirecektir.
 
 {{% /alert %}}
 

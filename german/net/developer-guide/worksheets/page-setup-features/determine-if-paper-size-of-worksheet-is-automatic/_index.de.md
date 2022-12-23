@@ -6,7 +6,7 @@ url: /de/net/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Meistens ist die Papiergröße des Arbeitsblatts automatisch. Wenn es automatisch ist, wird es oft als eingestellt*Brief* . Manchmal legt der Benutzer die Papiergröße des Arbeitsblatts gemäß seinen Anforderungen fest. In diesem Fall wird das Papierformat nicht automatisch eingestellt. Sie können feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist oder nicht, indem Sie die verwenden[**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)Eigentum.
+ Meistens ist die Papiergröße des Arbeitsblatts automatisch. Wenn es automatisch ist, wird es oft als eingestellt*Buchstabe* . Manchmal legt der Benutzer die Papiergröße des Arbeitsblatts gemäß seinen Anforderungen fest. In diesem Fall wird das Papierformat nicht automatisch eingestellt. Sie können feststellen, ob die Papiergröße des Arbeitsblatts automatisch ist oder nicht, indem Sie die verwenden[**Worksheet.PageSetup.IsAutomaticPaperSize**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/isautomaticpapersize)Eigentum.
 
 ## **Stellen Sie fest, ob die Papiergröße des Arbeitsblatts automatisch ist**
 

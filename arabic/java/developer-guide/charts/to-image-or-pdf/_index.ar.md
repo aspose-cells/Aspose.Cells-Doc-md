@@ -7,13 +7,13 @@ url: /ar/java/chart-rendering/
 ---
 ## **إنشاء الرسوم البيانية**
 
- دعم Aspose.Cells APIs لإنشاء حقيقة من مخططات Excel كما هو مفصل تحت الموضوع[إنشاء وتخصيص مخططات Excel](/cells/ar/java/creating-and-customizing-charts/)لتوضيح استخدام واجهات برمجة تطبيقات Aspose.Cells لعرض المخططات بتنسيق صورة و PDF ، سننشئ مخططًا من النوع Column وفقًا للمقتطف التالي.
+ دعم Aspose.Cells APIs لإنشاء حقيقة من مخططات Excel كما هو مفصل تحت الموضوع[إنشاء وتخصيص مخططات Excel](/cells/ar/java/creating-and-customizing-charts/). لتوضيح استخدام واجهات برمجة تطبيقات Aspose.Cells لعرض المخططات في صورة وتنسيق PDF ، سنقوم بإنشاء مخطط من النوع Column وفقًا للمقتطف التالي.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **تقديم المخططات**
 
- تدعم واجهات برمجة التطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل تقديم الدعم ، فإن[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)لقد كشفت الطبقة[**إلى الصورة**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) طرق ذات حمولات زائدة لتناسب متطلبات التطبيق على أفضل وجه.
+ تدعم واجهات برمجة تطبيقات Aspose.Cells تحويل مخططات Excel إلى صور وتنسيقات PDF دون الحاجة إلى أي أدوات أو تطبيقات إضافية. من أجل تقديم الدعم ، فإن[**جدول**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)لقد كشفت الطبقة[**إلى الصورة**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) طرق ذات حمولات زائدة لتناسب متطلبات التطبيق على أفضل وجه.
 
 ### **تقديم المخططات للصور**
 
@@ -27,7 +27,7 @@ url: /ar/java/chart-rendering/
 
 ### **تقديم مخطط إلى PDF**
 
- من أجل تقديم المخطط إلى تنسيق PDF ، كشفت واجهات برمجة التطبيقات Aspose.Cells امتداد[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) مع القدرة على تخزين ملف PDF الناتج على مسار القرص أو مثيل OutputStream.
+ من أجل تقديم المخطط إلى تنسيق PDF ، كشفت واجهات برمجة التطبيقات Aspose.Cells تنسيق[**Chart.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) مع القدرة على تخزين الناتج PDF على مسار القرص أو مثيل OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -37,7 +37,7 @@ url: /ar/java/chart-rendering/
 
 |**نوع التخطيط**|**النوع الفرعي للمخطط**|**أيد**|
 |:- |:- |:- |
-|**عمودي**|عمودي|** نعم **|
+|**عمود**|عمود|** نعم **|
 ||العمود مكدسة|** نعم **|
 ||عمود 100 نسبة مكدسة|** نعم **|
 ||Column3D العنقودية|** نعم **|
@@ -79,7 +79,7 @@ url: /ar/java/chart-rendering/
 |**رادار**|رادار|** نعم **|
 ||RadarWithDataMarkers|** نعم **|
 ||الرادار|** نعم **|
-|**سطح**|Surface3D|ن|
+|**سطح - المظهر الخارجي**|Surface3D|ن|
 ||SurfaceWireframe3D|ن|
 ||SurfaceContour|ن|
 ||SurfaceContourWireframe|ن|
@@ -101,7 +101,7 @@ url: /ar/java/chart-rendering/
 ||مخروط 100٪ مكدسة|** نعم **|
 ||مخروطي الشكل|** نعم **|
 ||مخروطي الشكل مكدس|** نعم **|
-||ConicalBar 100Percent مكدسة|** نعم **|
+||مخروطي الشكل 100٪ مكدس|** نعم **|
 ||عمود مخروطي ثلاثي الأبعاد|** نعم **|
 |**هرم**|هرم|** نعم **|
 ||الهرم مكدسة|** نعم **|
@@ -121,12 +121,12 @@ url: /ar/java/chart-rendering/
 
 {{% alert color="primary" %}}
 
-في حالة محاولة عرض أنواع المخططات غير المدعومة على صورة أو ملف PDF ، فقد ينتهي بك الأمر مع 0 صور بحجم أو ملف PDF فارغ.
+في حالة محاولة تقديم أنواع المخططات غير المدعومة إلى صورة أو PDF ، فقد ينتهي بك الأمر بصور بحجم 0 أو PDF فارغًا.
 
 {{% /alert %}}
 
 
 ## **موضوعات مسبقة**
 - [تحويل الرسم البياني إلى صورة بتنسيق SVG](/cells/ar/java/converting-chart-to-image-in-svg-format/)
-- [إنشاء مخطط PDF بحجم الصفحة المطلوب](/cells/ar/java/create-chart-pdf-with-desired-page-size/)
+- [قم بإنشاء مخطط PDF بحجم الصفحة المطلوب](/cells/ar/java/create-chart-pdf-with-desired-page-size/)
 - [تصدير المخطط إلى SVG مع سمة viewBox](/cells/ar/java/export-chart-to-svg-with-viewbox-attribute/)

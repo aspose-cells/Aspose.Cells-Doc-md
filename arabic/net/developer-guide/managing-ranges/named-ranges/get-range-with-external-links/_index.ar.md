@@ -17,7 +17,7 @@ url: /ar/net/get-range-with-external-links/
 - [**StartColumn**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startcolumn): عمود البداية للمنطقة
 - [**StartRow**](https://reference.aspose.com/cells/net/aspose.cells/referredarea/properties/startrow): صف البداية للمنطقة
 
- يوضح نموذج التعليمات البرمجية الوارد أدناه استخدام[**الاسم**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)طريقة للحصول على نطاقات مع روابط خارجية.
+ يوضح نموذج التعليمات البرمجية الوارد أدناه استخدام[**الاسم**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)طريقة الحصول على نطاقات مع روابط خارجية.
 
 ## **عينة من الرموز**
 

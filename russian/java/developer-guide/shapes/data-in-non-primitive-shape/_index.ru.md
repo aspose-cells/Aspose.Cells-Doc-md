@@ -10,7 +10,7 @@ url: /ru/java/data-in-non-primitive-shape/
 
 ## **Непримитивная форма**
 
- В Aspose.Cells непримитивным формам присваивается тип[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Вы можете проверить их тип с помощью[**Форма.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)метод.
+В Aspose.Cells непримитивным формам присваивается тип[**AutoShapeType.NOT_PRIMITIVE**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . Вы можете проверить их тип с помощью[**Форма.getAutoShapeType()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)метод.
 
  Доступ к данным формы с помощью[**Форма.getPaths()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)метод. Он возвращает все связанные пути, которые составляют не примитивную форму. Эти пути относятся к типу ShapePath, который содержит список всех сегментов, которые, в свою очередь, содержат точки в каждом сегменте.
 

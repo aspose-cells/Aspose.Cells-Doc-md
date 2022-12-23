@@ -40,7 +40,7 @@ L'exemple de code ci-dessous illustre comment enregistrer le contenu de la grill
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
- L'extrait de code ci-dessus peut être utilisé de plusieurs façons. Une méthode courante consiste à ajouter un bouton qui enregistre le contenu de la grille dans un fichier Excel lorsque vous cliquez dessus. Aspose.Cells.GridWeb offre une approche plus simple pour la tâche. Aspose.Cells.GridWeb a un événement appelé SaveCommand. L'extrait de code ci-dessus peut être ajouté au gestionnaire d'événements de l'événement SaveCommand qui permet aux utilisateurs d'enregistrer leur travail en cliquant sur le Aspose.Cells.GridWeb intégré**sauvegarder** bouton.
+ L'extrait de code ci-dessus peut être utilisé de plusieurs façons. Une méthode courante consiste à ajouter un bouton qui enregistre le contenu de la grille dans un fichier Excel lorsque vous cliquez dessus. Aspose.Cells.GridWeb offre une approche plus simple pour la tâche. Aspose.Cells.GridWeb a un événement appelé SaveCommand. L'extrait de code ci-dessus peut être ajouté au gestionnaire d'événements de l'événement SaveCommand qui permet aux utilisateurs d'enregistrer leur travail en cliquant sur le Aspose.Cells.GridWeb intégré**Sauver** bouton.
 
 ## **Redimensionner Aspose.Cells.GridWeb et sa barre d'en-tête**
 
@@ -95,7 +95,7 @@ Cette rubrique fournit une introduction à tous les événements pris en charge 
 
 Aspose.Cells.Le contrôle GridWeb prend en charge plusieurs événements qui offrent plus de contrôle pour effectuer des opérations lorsque des événements spécifiques sont déclenchés dans le contrôle. Vous trouverez ci-dessous une liste complète des événements pris en charge par le contrôle Aspose.Cells.GridWeb.
 
-|**Événements**|**La description**|
+|**Événements**|**Description**|
 |:- |:- |
 |CellCommand|Se produit lorsque le lien hypertexte de commande d'une cellule est cliqué. Lorsque cet événement est déclenché, son paramètre e.Argument fournit le nom de la commande.|
 |DoubleClicCellule|Se produit lorsque la cellule est double-cliquée.|
@@ -110,9 +110,9 @@ Aspose.Cells.Le contrôle GridWeb prend en charge plusieurs événements qui off
 |Suppression de ligne|Se produit lorsqu'un utilisateur tente de supprimer une ligne d'une feuille de calcul à l'aide du menu côté client.|
 |LigneDoubleClic|Se produit lorsque l'en-tête de ligne est double-cliqué.|
 |LigneInsérée|Se produit lorsqu'un utilisateur insère une ligne dans la feuille de calcul à l'aide du menu côté client.|
-|Enregistrer la commande| Se produit lorsque le**sauvegarder** bouton est cliqué.|
+|Enregistrer la commande| Se produit lorsque le**Sauver** bouton est cliqué.|
 |SheetTabClick|Se produit lorsqu'un onglet de feuille est cliqué.|
-|SoumettreCommande| Se produit lorsque le**Soumettre** bouton est cliqué.|
+|SoumettreCommande| Se produit lorsque le**Nous faire parvenir** bouton est cliqué.|
 |Annuler la commande| Se produit lorsque le**annuler** bouton est cliqué.|
 |AjaxAppelTerminé|Se déclenche lorsque la mise à jour AJAX du contrôle est terminée. (EnableAJAX doit être défini sur true).|
 |CellModifiedOnAjax|Se déclenche lorsque la cellule est modifiée dans un appel AJAX.|
@@ -185,7 +185,7 @@ Pour économiser les efforts des développeurs, Aspose.Cells.GridWeb propose des
 |Coloré2|Bleu|
 |Professionnel1|cyan|
 |Professionnel2|Cyan à nouveau|
-|Traditionnel1|Sombre|
+|Traditionnel1|Foncé|
 |Traditionnel2|Gris|
 |Personnalisé|Personnalisé|
 Lorsqu'un style particulier est sélectionné, il modifie toute l'apparence du contrôle GridWeb. Les développeurs peuvent sélectionner un style prédéfini à appliquer lors de l'exécution à l'aide du API flexible de Aspose.Cells.GridWeb.
@@ -511,7 +511,7 @@ Les développeurs peuvent également passer en mode édition par programmation e
 
 ### **Mode d'affichage**
 
-Lorsque le contrôle GridWeb est en mode Affichage, les utilisateurs ne peuvent pas éditer ou modifier le contenu de la grille, ce qui signifie qu'ils peuvent uniquement afficher le contenu de la grille. C'est pourquoi ce mode s'appelle le mode Affichage. En mode Afficher, quelques boutons (**Soumettre**, **sauvegarder** et**annuler** ) sont masqués et le menu qui apparaît lors d'un clic droit ne contient que les**Copie** et**Trouver** option.
+Lorsque le contrôle GridWeb est en mode Affichage, les utilisateurs ne peuvent pas éditer ou modifier le contenu de la grille, ce qui signifie qu'ils peuvent uniquement afficher le contenu de la grille. C'est pourquoi ce mode s'appelle le mode Affichage. En mode Afficher, quelques boutons (**Nous faire parvenir**, **Sauver** et**annuler** ) sont masqués et le menu qui apparaît lors d'un clic droit ne contient que les**Copie** et**Trouver** option.
 
 **Contrôle GridWeb en mode Affichage** 
 

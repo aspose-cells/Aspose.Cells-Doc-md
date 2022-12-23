@@ -13,7 +13,7 @@ url: /ar/net/copy-vba-macro-userform-designerstorage-from-template-to-target-wor
 
 ## **نسخ VBA ماكرو UserForm DesignerStorage من قالب إلى المصنف الهدف**
 
-يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بنسخ مشروع VBA من ملف[نموذج ملف Excel](50528345.xlsm) في مصنف فارغ ويحفظه كملف[إخراج ملف Excel](50528346.xlsm). إذا فتحت مشروع VBA داخل ملف Excel النموذجي ، فسترى نموذج مستخدم كما هو موضح أدناه. يتكون نموذج المستخدم من Designer Storage ، لذا سيتم نسخه باستخدام[**VbaModuleCollection.GetDesignerStorage ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/getdesignerstorage)و[**VbaModuleCollection.AddDesignerStorage ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/adddesignerstorage)طُرق.
+يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بنسخ مشروع VBA من ملف[نموذج ملف Excel](50528345.xlsm) في مصنف فارغ ويحفظه كملف[إخراج ملف Excel](50528346.xlsm). إذا فتحت مشروع VBA داخل ملف Excel النموذجي ، فسترى نموذج مستخدم كما هو موضح أدناه. يتكون نموذج المستخدم من Designer Storage ، لذا سيتم نسخه باستخدام[**VbaModuleCollection.GetDesignerStorage ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/getdesignerstorage)و[**VbaModuleCollection.AddDesignerStorage ()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbamodulecollection/methods/adddesignerstorage)أساليب.
 
 **! [todo: image_alt_text] (copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)**
 

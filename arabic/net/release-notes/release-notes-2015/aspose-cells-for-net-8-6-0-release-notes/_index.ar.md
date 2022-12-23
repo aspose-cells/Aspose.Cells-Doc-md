@@ -34,7 +34,7 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43900) - الارتباط التشعبي. لم يتم تحديث TextToDisplay
 
- (CELLSNET-43892) - يزداد حجم مستند XLSX مع كل حفظ
+ (CELLSNET-43892) - يزداد حجم المستند XLSX مع كل عملية حفظ
 
  (CELLSNET-43869) - Aspose.Cells غير قادر على العمل في Trust Trust
 
@@ -42,37 +42,37 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **البق**
 
 
- (CELLSNET-43884) - لا يتم عرض رموز Wingdings بشكل صحيح أثناء تحويل جدول بيانات معين إلى HTML
+(CELLSNET-43884) - لا يتم عرض رموز Wingdings بشكل صحيح أثناء تحويل جدول بيانات معين إلى HTML
 
  (CELLSNET-43877) - يقوم Excel دائمًا بإصلاح جدول البيانات الناتج بعد إضافة PivotTable
 
- (CELLSNET-43831) - HTML إلى Excel - تم تجاهل أنماط CSS
+ (CELLSNET-43831) - HTML إلى Excel - تم تجاهل أسلوب CSS
 
-(CELLSNET-43750) - تغييرات المخطط في جدول البيانات الناتج بعد تحديث المخطط
+ (CELLSNET-43750) - تغييرات المخطط في جدول البيانات الناتج بعد تحديث المخطط
 
  (CELLSNET-43843) - مصنف .CalculateFormula لا يعود أبدًا
 
  (CELLSNET-43842) - Aspose.Cells خطأ في إدراج الصف
 
- (CELLSNET-43879) - تداخل الأحرف وتحويلها إلى ######## في عرض Excel إلى PDF
+ (CELLSNET-43879) - تراكب الأحرف وتحويلها إلى ######## في Excel إلى عرض PDF
 
  (CELLSNET-43854) - تم إزاحة الأحرف المرتفعة والمنخفضة لأعلى كثيرًا عند إنشاء الصورة
 
  (CELLSNET-42762) - يتم تقديم تسميات محور المخطط في نص متعرج
 
- (CELLSNET-42384) - يتم تعتيم مربعات WordArt عند تحويل XLSX إلى PDF
+ (CELLSNET-42384) - يتم تعتيم صناديق WordArt عند تحويل XLSX إلى PDF
 
  (CELLSNET-42380) - تأتي صناديق SmartArt باللون الأسود.
 
- (CELLSNET-42377) - يتداخل عنوان تخطيط SmartArt مع تسطير تحت عنوان الصورة.
+(CELLSNET-42377) - يتداخل عنوان تخطيط SmartArt مع تسطير تحت عنوان الصورة.
 
- (CELLSNET-41493) - يتم قطع / التفاف النص في ملف PDF الذي تم إنشاؤه
+ (CELLSNET-41493) - يتم اقتطاع النص / لفه في PDF الذي تم إنشاؤه
 
  (CELLSNET-41398) - وثيقة جدول البيانات تنتج وثائق متعددة عند تحويلها
 
  (CELLSNET-43894) - تعذر تحديث ارتباط OLE ObjectSourceFullName
 
-(CELLSNET-43882) - تم تغيير PageSetup.Zoom بعد فتح المصنف وحفظه
+ (CELLSNET-43882) - تم تغيير PageSetup.Zoom بعد فتح المصنف وحفظه
 
  (CELLSNET-43881) - يتم فقد بعض صيغ الخلايا عند نسخ الصف
 
@@ -86,7 +86,7 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43836) - يعمل Range.CopyData لكن Range.Copy لا يعمل
 
- (CELLSNET-43830) - إضافة أكثر من 2084 حرفًا في الارتباط التشعبي يفسد ملف xlsx الناتج
+(CELLSNET-43830) - إضافة أكثر من 2084 حرفًا في الارتباط التشعبي يفسد ملف xlsx الناتج
 
  (CELLSNET-43829) - يتم عرض وظيفة Excel مع # NAME؟ خطأ في الورقة 1
 
@@ -100,7 +100,7 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43852) - CellsException في Workbook.CalculateFormula
 
-(CELLSNET-43893) - CellsException أثناء تحويل جدول بيانات إلى تنسيق PDF
+ (CELLSNET-43893) - CellsException أثناء تقديم جدول بيانات إلى تنسيق PDF
 
  (CELLSNET-42108) - CellsException: المعلمة غير صالحة: أثناء تحويل XLS إلى PDF
 
@@ -112,7 +112,7 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -132,7 +132,7 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
  يضيف WorkbookMetadata مساحة الاسم والفئات.
 
- يتم استخدامه لقراءة وحفظ البيانات الوصفية للملف.
+يتم استخدامه لقراءة وحفظ البيانات الوصفية للملف.
 
 
 
@@ -150,6 +150,6 @@ url: /ar/net/aspose-cells-for-net-8-6-0-release-notes/
 
  يضيف خاصية OoxmlSaveOptions.UpdateZoom
 
-يتم استخدامه لتحديث PageSetup.Zoom إذا كانت خصائص PageSetup.FitToPagesWide و PageSetup.FitToPagesTall تتحكم في كيفية قياس ورقة العمل.
+ يتم استخدامه لتحديث PageSetup.Zoom إذا كانت خصائص PageSetup.FitToPagesWide و PageSetup.FitToPagesTall تتحكم في كيفية قياس ورقة العمل.
 
 

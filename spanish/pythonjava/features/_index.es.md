@@ -12,12 +12,12 @@ Esta página resume las características de Aspose.Cells for Python via Java.
 
 {{% /alert %}} 
 ## **Formatos de archivo y conversiones**
-- XLS, SpreadsheetML (XLSX, XML), valores separados por comas (CSV), HTML, hoja de cálculo OpenDocument (ODS), PDF, delimitado por tabuladores, texto sin formato (TXT)
+- XLS, SpreadsheetML (XLSX, XML), valor separado por comas (CSV), HTML, hoja de cálculo de OpenDocument (ODS), PDF, delimitado por tabuladores, texto sin formato (TXT)
 ## **Renderizado e Impresión**
 - Renderizar hoja de cálculo a imágenes vectoriales (EMF)
-- Renderizar hojas de trabajo a imágenes rasterizadas (TIFF multipágina, GIF)
-- Renderice hojas de trabajo a imágenes rasterizadas (PNG, JPEG, etc.)
-- Renderizar hoja de cálculo a PDF con alta fidelidad
+- Renderizar hojas de trabajo a imágenes rasterizadas (Multipage TIFF, GIF)
+- Renderizar hojas de trabajo a imágenes rasterizadas (PNG, JPEG, etc.)
+- Renderizar hoja de cálculo al PDF con alta fidelidad
 ## **Características del contenido de la hoja de cálculo**
 - Copie o mueva hojas de trabajo dentro o entre libros de trabajo
 - Inserte imágenes, cree gráficos convencionales y personalizados y establezca un fondo degradado para gráficos usando API

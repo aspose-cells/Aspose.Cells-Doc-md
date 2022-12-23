@@ -10,7 +10,7 @@ url: /it/sharepoint/aspose-cells-for-sharepoint-17-9-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSSP-68|Aggiungi filigrana a più file|Nuova caratteristica|
 

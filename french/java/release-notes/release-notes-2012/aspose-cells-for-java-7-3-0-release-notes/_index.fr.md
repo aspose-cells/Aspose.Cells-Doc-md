@@ -15,7 +15,7 @@ Nous sommes
 
  Quoi de neuf
 
-- Lis
+- Lire
  et écrire des fichiers MHT
 - Les soutiens
  Cartes XML
@@ -24,7 +24,7 @@ Nous sommes
 
 
 
-D'autres fonctionnalités, améliorations et correctifs notables sont indiqués ci-dessous.
+ D'autres fonctionnalités, améliorations et correctifs notables sont indiqués ci-dessous.
 
  Nouvelles fonctionnalités
 
@@ -34,7 +34,7 @@ D'autres fonctionnalités, améliorations et correctifs notables sont indiqués 
 
 - Formater les valeurs des cellules avec les paramètres régionaux spécifiés par l'utilisateur
 
- Exceptions
+ Des exceptions
 
 - Les fichiers de police non pris en charge peuvent entraîner l'échec de l'enregistrement au format PDF avec une exception
 
@@ -44,8 +44,8 @@ D'autres fonctionnalités, améliorations et correctifs notables sont indiqués 
 - La plage nommée a été créée deux fois
 - La méthode sortNames() a provoqué une exception lors de l'enregistrement d'un fichier XLSM
 - Le nombre n'a pas été formaté correctement pour la fraction
-- PDF vierge généré pourPrintOrderType.OVER_ALORS_VERS LE BAS
-- La couleur d'arrière-plan et les grilles sont incorrectes dans le PDF généré
+- Vide PDF généré pourPrintOrderType.OVER_ENSUITE_VERS LE BAS
+- La couleur de fond et les grilles sont incorrectes dans le PDF généré
 - Les fonctions d'interception et de pente n'ont pas été calculées correctement
 - Supprimer la limite de 33 000 éléments de champ Pivot pour les formats de fichier Excel 2007
 - La notation 1:1 n'est pas prise en charge dans la fonction SI

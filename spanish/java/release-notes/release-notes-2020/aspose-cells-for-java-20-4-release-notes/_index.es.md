@@ -14,10 +14,10 @@ url: /es/java/aspose-cells-for-java-20-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43153|Mostrar la leyenda del gráfico de cascada en turco similar a MS Excel|Mejora|
 |CELLSJAVA-43142|Representación de Excel a HTML: algunas celdas no están alineadas después de la conversión|Insecto|
-|CELLSJAVA-43155|El texto rotado se establece fuera de la celda cuando se representa como HTML|Insecto|
+|CELLSJAVA-43155|El texto girado se establece fuera de la celda cuando se representa como HTML|Insecto|
 |CELLSJAVA-43161|Representación incorrecta de la ecuación.|Insecto|
 |CELLSJAVA-43130|Problema de transparencia del gráfico de cascada|Insecto|
-|CELLSJAVA-43131|Excel a PDF - Formas con texto no convertido correctamente|Insecto|
+|CELLSJAVA-43131|Excel to PDF - Formas con texto no convertido correctamente|Insecto|
 |CELLSJAVA-43133|Chart.toImage no incluye etiquetas de datos en la imagen de salida|Insecto|
 |CELLSJAVA-43138|Imagen generada con problema de renderizado.|Insecto|
 |CELLSJAVA-43151|Cambios de estilo después de la conversión del archivo XLS|Insecto|

@@ -1,5 +1,5 @@
 ﻿---
-title: Guarde el libro de trabajo en formato de texto o CSV usando Aspose.Cells
+title: Guardar libro de trabajo en texto o formato CSV usando Aspose.Cells
 type: docs
 weight: 80
 url: /es/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
@@ -10,7 +10,7 @@ A veces, desea convertir o guardar un libro de trabajo con varias hojas de traba
 
 {{% /alert %}} 
 
-El siguiente ejemplo de código explica cómo guardar un libro completo en formato de texto. Cargue el libro de origen, que podría ser cualquier archivo de hoja de cálculo de Excel u OpenOffice Microsoft (es decir, XLS, XLSX, XLSM, XLSB, ODS, etc.) con cualquier número de hojas de trabajo.
+El siguiente ejemplo de código explica cómo guardar un libro completo en formato de texto. Cargue el libro de origen, que podría ser cualquier archivo de hoja de cálculo de Excel u OpenOffice Microsoft (por ejemplo, XLS, XLSX, XLSM, XLSB, ODS, etc.) con cualquier número de hojas de trabajo.
 
 Cuando se ejecuta el código, convierte los datos de todas las hojas del libro de trabajo al formato TXT.
 
@@ -22,9 +22,9 @@ Puede modificar el mismo ejemplo para guardar su archivo en CSV. De forma predet
 
 string FilePath = @"..\..\..\Archivos de muestra\";
 
-string FileName = FilePath + "Guardar libro de trabajo en formato de texto o CSV.xlsx";
+string FileName = FilePath + "Guardar libro de trabajo en texto o formato CSV.xlsx";
 
-string destFileName = FilePath + "Guardar libro de trabajo en formato de texto o CSV.txt";
+string destFileName = FilePath + "Guardar libro de trabajo en texto o formato CSV.txt";
 
 // Cargue su libro de trabajo de origen
 

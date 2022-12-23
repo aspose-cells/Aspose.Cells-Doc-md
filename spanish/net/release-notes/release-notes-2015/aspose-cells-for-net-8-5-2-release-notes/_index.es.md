@@ -30,13 +30,13 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43786): el archivo está dañado después de actualizar la tabla dinámica en el archivo de plantilla.
 
- (CELLSNET-43594) - PivotField.IsRepeatItemLabels no funciona en la tabla dinámica
+(CELLSNET-43594) - PivotField.IsRepeatItemLabels no funciona en la tabla dinámica
 
  (CELLSNET-43367): problema con PivotTable.Format() para formatear el encabezado PivotField
 
  (CELLSNET-41618) - No se muestran algunas imágenes y formas después de convertir Xls a Html
 
-(CELLSNET-43817) - CalculateFormula() nunca finaliza para algunas fórmulas SUMIF de Excel
+ (CELLSNET-43817) - CalculateFormula() nunca finaliza para algunas fórmulas SUMIF de Excel
 
  (CELLSNET-43675) - Problema al calcular la función NORM.S.DIST
 
@@ -52,17 +52,17 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43806): el gráfico/curva no es el mismo para los gráficos de dispersión XY.
 
- (CELLSNET-43805) - Conversión de hoja de cálculo a PDF: se pierde el estilo en negrita
+(CELLSNET-43805) - Conversión de hoja de cálculo a PDF: se pierde el estilo en negrita
 
  (CELLSNET-43804) - Conversión de hoja de cálculo a PDF: contenido en renderizaciones de cuadro de texto con sangría
 
  (CELLSNET-43779) - Inconsistencia de gráfico a imagen para el formato de archivo EMF
 
-(CELLSNET-43772): el texto en la forma del dibujo no se ajusta correctamente
+ (CELLSNET-43772): el texto en la forma del dibujo no se ajusta correctamente
 
- (CELLSNET-43771): la imagen se ha desplazado después de convertir la hoja de cálculo en PDF
+ (CELLSNET-43771): la imagen se ha desplazado después de representar la hoja de cálculo a PDF
 
- (CELLSNET-43748) - El texto del cuadro de texto se superpone en la representación de Excel a PDF
+ (CELLSNET-43748): el texto del cuadro de texto se superpone en Excel a la representación PDF
 
  (CELLSNET-43820): la hoja de cálculo que contiene Slicers se daña después de volver a guardar
 
@@ -74,7 +74,7 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43802) - El archivo de Excel se corrompe al abrirlo y volver a guardarlo y no se abre en Excel 2013
 
- (CELLSNET-43799): al volver a guardar la hoja de cálculo, los resultados se corrompen y se eliminan las segmentaciones.
+(CELLSNET-43799): al volver a guardar la hoja de cálculo, los resultados se corrompen y se eliminan las segmentaciones.
 
  (CELLSNET-43792) - La conexión de datos del libro de trabajo se elimina después de volver a guardar la hoja de cálculo
 
@@ -84,23 +84,23 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43629) - PivotTable.RefreshData() - No se puede convertir un objeto de tipo
 
-(CELLSNET-43778) - System.FormatException en Chart.ToImage cuando la configuración regional del sistema es Rusia
+ (CELLSNET-43778) - System.FormatException en Chart.ToImage cuando la configuración regional del sistema es Rusia
 
  (CELLSNET-43822): el libro de trabajo que contiene el gráfico no se puede guardar y genera una excepción
 
  (CELLSNET-43814) - La carga de Excel en formato xlsm arroja un error de referencia nula
 
- (CELLSNET-43793) - Aspose.Cells. CellsException: error de elemento de anulación al cargar un archivo XLSX
+ (CELLSNET-43793) - Aspose.Cells.CellsException: error de elemento de invalidación al cargar un archivo XLSX
 
  (CELLSNET-43784) - System.ArgumentException en Workbook.Combine
 
  (CELLSNET-43783): excepción al representar una hoja de cálculo en un formato de archivo delimitado por tabulaciones
 
- (CELLSNET-43828) - System.InvalidCastException al volver a guardar un archivo XLSX de plantilla
+ (CELLSNET-43828): System.InvalidCastException al volver a guardar un archivo de plantilla XLSX
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Nuevas características**
@@ -108,7 +108,7 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43809): agrega un evento de devolución de llamada asíncrono para griddesktop
 
- (CELLSNET-42316) - El método abreviado de teclado Ctrl + Mayús + teclas de flecha no funciona.
+(CELLSNET-42316) - El método abreviado de teclado Ctrl + Mayús + teclas de flecha no funciona.
 
  (CELLSNET-42174) - Control + teclas de flecha no salta a la celda con datos
 
@@ -132,7 +132,7 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
  Agrega la propiedad SaveOptions.MergeAreas.
 
- Se utiliza para fusionar CellAreas individuales del formato y la validación condicionales.
+Se utiliza para fusionar CellAreas individuales del formato y la validación condicionales.
 
 
 
@@ -142,7 +142,7 @@ url: /es/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-Añade el método SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+ Añade el método SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 
  Renderizar cierta página de SheetRender a un gráfico.
 
@@ -160,7 +160,7 @@ Añade el método SheetRender.ToImage(int pageIndex, Graphics g, float x, float 
 
 
 
-Agrega eventos GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate.
+ Agrega eventos GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate.
 
  Ocurre en el estado diferente de cargar el archivo del libro de trabajo en GridDesktop.
 

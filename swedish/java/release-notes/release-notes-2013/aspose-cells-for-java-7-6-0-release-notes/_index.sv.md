@@ -24,6 +24,6 @@ url: /sv/java/aspose-cells-for-java-7-6-0-release-notes/
 
 40610 - Radering av diagram orsakar oläsbara kalkylblad
 
-40467 - Kan inte ändra storlek på textrutan i XLSX40623 - "#VALUE!" fel efter beräkning
+ 40467 - Kan inte ändra storlek på textrutan i XLSX40623 - "#VALUE!" fel efter beräkning
 
  40620 - Fel vid exekvering av ersätt i textrutan

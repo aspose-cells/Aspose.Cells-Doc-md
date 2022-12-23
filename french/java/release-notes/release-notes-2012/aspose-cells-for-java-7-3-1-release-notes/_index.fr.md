@@ -11,7 +11,7 @@ url: /fr/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Nous sommes
-heureux d'annoncer Aspose.Cells for Java v7.3.1 pour les utilisateurs !
+ heureux d'annoncer Aspose.Cells for Java v7.3.1 pour les utilisateurs !
 
  Nouvelles fonctionnalités
 
@@ -37,7 +37,7 @@ maintenant, nous avons donc intégré ces nouvelles fonctionnalités/améliorati
 
  Améliorations
 
--Les fichiers de polices temporaires sont créés plusieurs fois lors de l'enregistrement au format PDF
+ -Les fichiers de polices temporaires sont créés plusieurs fois lors de l'enregistrement au format PDF
 
  -La date dans l'en-tête/le pied de page n'a pas été formatée en conséquence avec les paramètres régionaux du classeur
 
@@ -45,32 +45,32 @@ maintenant, nous avons donc intégré ces nouvelles fonctionnalités/améliorati
 
  -Exporter des formes automatiques pour le fichier HTML
 
- Exceptions
+ Des exceptions
 
-- Exception : "Erreur de forme par rapport à l'image" lors de l'enregistrement au format PDF
+- Exception : "Erreur de forme à l'image" lors de l'enregistrement au format PDF
 
- -Problème de forme à l'image lors de l'enregistrement au format PDF
+ -Problème de forme à l'image lors de l'enregistrement au PDF
 
 - "NullPointerException" pour la méthode Chart.calculate()
 
- -L'enregistrement de XLS au format PDF a provoqué une exception
+ -L'enregistrement de XLS en tant que PDF a provoqué une exception
 
- -L'enregistrement de XLS au format PDF a provoqué une exception II
+ -L'enregistrement de XLS en tant que PDF a provoqué une exception II
 
  Insectes
 
- -Texte superposé et quadrillage manqué pour enregistrer le PDF
+ -Texte superposé et quadrillage manqué pour enregistrer PDF
 
- -Des bordures supplémentaires ont été affichées lors de la ré-enregistrement
+-Des bordures supplémentaires ont été affichées lors de la ré-enregistrement
 
  fichier de modèle en tant que fichier XLS
 
  -La lecture du nom avec la référence "!$A$1" a provoqué une exception
 
- -La génération de PDF a échoué avec les données d'un graphique spécifique
+ -PDF la génération a échoué avec les données d'un graphique spécifique
 
  -Les formules sont incorrectes après l'insertion de la plage
 
  -Le PDF généré à partir du classeur Excel avait plus de pages
 
--Les étiquettes de graphique sont mal alignées et se chevauchent lors de la copie de la feuille de calcul
+ -Les étiquettes de graphique sont mal alignées et se chevauchent lors de la copie de la feuille de calcul

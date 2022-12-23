@@ -14,7 +14,7 @@ Per aggiungere collegamenti ipertestuali alle celle in un foglio di calcolo, pro
 1. Aggiungi collegamento ipertestuale.
 1. Salva il documento.
 
-Questi passaggi sono illustrati negli esempi di codice riportati di seguito. I primi esempi mostrano come usare VSTO con C# per aggiungere un collegamento ipertestuale a una cella. Gli esempi che seguono mostrano come fare la stessa cosa usando Aspose.Cells for .NET, sempre usando C#.
+Questi passaggi sono illustrati negli esempi di codice riportati di seguito. I primi esempi mostrano come utilizzare VSTO con C# per aggiungere un collegamento ipertestuale a una cella. Gli esempi che seguono mostrano come fare la stessa cosa usando Aspose.Cells for .NET, sempre usando C#.
 
 Gli esempi di codice generano un file Excel con un collegamento ipertestuale nella cella A1 del primo foglio di lavoro.
 

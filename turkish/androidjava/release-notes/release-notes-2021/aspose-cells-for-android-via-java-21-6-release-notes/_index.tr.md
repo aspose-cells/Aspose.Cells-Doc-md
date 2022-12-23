@@ -16,19 +16,19 @@ Bu sayfa Aspose.Cells for Android via Java 21.6 için sürüm notları içerir.
 |CELLSJAVA-43386|Veriler alfa olmayan sayısal karakterler içerdiğinde sıralama çalışmıyor|
 |CELLSJAVA-43452|Excel işlevi kullanan Japon takvimi doğru okunmuyor|
 |CELLSJAVA-43466|CellsException: Odaları içe aktarırken ZipFile hatası|
-|CELLSJAVA-43403|HTML olarak kaydederken metin yerleşimi sola kaydırıldı|
-|CELLSJAVA-43421|HTML'yi Excel'e dönüştürürken çıkış ve satır sonu karakterleri doğru şekilde oluşturulmuyor|
+|CELLSJAVA-43403|HTML olarak kaydedilirken metin yerleşimi sola kaydırıldı|
+|CELLSJAVA-43421|HTML'i Excel'e dönüştürürken kaçış ve satır sonu karakterleri doğru şekilde işlenmedi|
 |CELLSJAVA-43427|Veri Çubukları ile Koşullu Biçim HTML Dışa Aktarmada Değerleri Göster|
-|CELLSJAVA-43428| 6 punto Yazı Tipi ile birleştirilmiş muhasebe biçimi, HTML'deki sayıları bozar|
-|CELLSJAVA-43429|Dikey Metin Hizalamalı Metin HTML'de Kayboluyor|
+|CELLSJAVA-43428| 6 punto Yazı Tipi ile birleştirilmiş muhasebe formatı, HTML'deki sayıları bozar|
+|CELLSJAVA-43429|HTML'de Dikey Metin Hizalamalı Metin Kayboluyor|
 |CELLSJAVA-43407|Dosyayı kaydettikten sonra Excel formülleri atlanıyor/değiştiriliyor|
-|CELLSJAVA-43419| Özel sayı formatı PDF'de doğru görüntülenmiyor|
-|CELLSJAVA-43374|Ekli Excel dosyaları PDF'ye dönüştürülürken yinelenen grafik etiketleri|
+|CELLSJAVA-43419| PDF'de özel sayı biçimi doğru görüntülenmiyor|
+|CELLSJAVA-43374|Ekli Excel dosyaları PDF'e dönüştürülürken yinelenen grafik etiketleri|
 |CELLSJAVA-43409| Grafiğin çıktı görüntüsünde beklenmeyen Veri etiketleri belirdi|
 |CELLSJAVA-43411|Grafikten görüntüye dönüştürmede çalışmayan yazı tipi değiştirme uyarıları|
 |CELLSJAVA-43414|Xls'den PDF'ye dönüştürme sorunu|
 |CELLSJAVA-43425|Üstbilgi-Altbilgi, Excel'e aktarıldığında ilk sayfada kullanılamaz|
-|CELLSJAVA-43433|Başvurulan resim PDF'de işlenmez|
+|CELLSJAVA-43433|Başvurulan resim PDF'de oluşturulmadı|
 |CELLSJAVA-43434|SmartMarker dinamik formülü yanlış genişleyen hücre stiline sahip|
 |CELLSJAVA-43435| Akıllı İşaretçiler dinamik formülü, hücreleri formüldeki sütunlara göre değil, sol genişletilmiş sütuna göre ekler|
 |CELLSJAVA-43450|Pivot tablo yenileme sorunu|
@@ -38,7 +38,7 @@ Bu sayfa Aspose.Cells for Android via Java 21.6 için sürüm notları içerir.
 |CELLSJAVA-43457|Kopyalanan çalışma kitabını kaydederken sonsuz döngü|
 |CELLSJAVA-43442|GridWeb bahar demosunda başlık bağlantılarına tıklandığında veri sıralama ile ilgili sorun|
 |CELLSJAVA-43443|GridWeb Java'de düzenleme moduyla ilgili sorun|
-|CELLSJAVA-43455|EmbedStandardWindowsFonts ayarı false olarak ayarlanırken ASCII olmayan karakterler için yazı tipleri PDF'ye gömülmez|
+|CELLSJAVA-43455|EmbedStandardWindowsFonts false olarak ayarlanırken ASCII olmayan karakterler için yazı tipleri PDF'de gömülü değildir|
 |CELLSJAVA-43449|Grafik öğelerinin yazı tipi ailesi "Calibri"den "Aktiv Grotesk"e değiştirilemiyor|
 |CELLSJAVA-43454|X Ekseni etiketleri kesilir|
 |CELLSJAVA-43445|Regresyon: .numbers dosyaları için eksik satır verileri|
@@ -50,13 +50,13 @@ Bu sayfa Aspose.Cells for Android via Java 21.6 için sürüm notları içerir.
 |CELLSJAVA-43491|Veri tablosunu kullanan formülün değeri doğru şekilde çıkarılamıyor|
 |CELLSJAVA-43498|zh_CN yerel ayarı için sayısal değerin biçimlendirilmiş sonucu yanlış|
 |CELLSJAVA-43451|Excel dosyasının içeriği yanlış görüntüleniyor ve ChangeStyle (yay) demosu düzgün çalışmıyor|
-|CELLSJAVA-43484|Excel'den PDF'e dönüştürmede içerik düzeni tutarsız|
-|CELLSJAVA-43465|Excel'i PDF'ye dönüştürürken birkaç grafik dizisi eksik|
-|CELLSJAVA-43468|Excel'den PDF'e dönüştürmede düz çizgi denklemiyle ilgili sorun|
-|CELLSJAVA-43432|Bir XLS dosya biçimi yeniden kaydedilirken grafik içeriği uyuşmuyor|
+|CELLSJAVA-43484|İçerik düzeni, Excel'de PDF oluşturmayla tutarsız|
+|CELLSJAVA-43465|Excel'i PDF'e dönüştürürken birkaç grafik dizisi eksik|
+|CELLSJAVA-43468|Excel'de PDF oluşturmaya yönelik düz çizgi denklemiyle ilgili sorun|
+|CELLSJAVA-43432|XLS dosya biçimi yeniden kaydedilirken grafik içeriği uyuşmuyor|
 |CELLSJAVA-43475|Regresyon: Çizgiye sarılmış hücreler kesilir|
 |CELLSJAVA-43478|Regresyon: NUMBERS - PDF, çok fazla veri eksik|
-|CELLSJAVA-43485|Gerileme: ODS'den PDF oluştururken ekstra içerik|
+|CELLSJAVA-43485|Gerileme: ODS'den PDF'i oluştururken ekstra içerik|
 |CELLSJAVA-43492| Bir XML (SpreadsheetML) dosyasının dönüştürülmesi, XLS ve XLSX çıktılarındaki "Ad Tanımı"ndaki Gizli ayarı kaldırır|
 |CELLSJAVA-43417|Büyük dosyadan XLSX açılırken istisna oluştu|
 |CELLSJAVA-43431|java.lang.NullPointerException, en son sürüm 21.3 ile Cells.deleteColumn() çağrılırken ortaya çıktı, oysa 21.2 ile çalışıyor|

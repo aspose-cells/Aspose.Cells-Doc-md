@@ -15,15 +15,15 @@ url: /de/java/aspose-cells-for-java-22-3-release-notes/
 |CELLSJAVA-44369| Formhöhe ist nicht korrekt|
 |CELLSJAVA-44366|Das Kopieren des Blattinhalts auf eine neue Blattseite und das Speichern als HTML führt zu einem anormalen Stil der Excel-Mathematikformel|
 |CELLSJAVA-44408|Das Prozentformat von Cell geht verloren, wenn wir die beiden geänderten Zeilen erweitern|
-|CELLSJAVA-44341|Cell Breite ist in der DOCX-Ausgabe in Excel in DOCX-Konvertierung nicht korrekt|
+|CELLSJAVA-44341|Cell Breite ist nicht korrekt in der Ausgabe DOCX in Excel zu DOCX Konvertierung|
 |CELLSJAVA-44383|Die bedingte Formatierung funktionierte nicht mehr, nachdem benutzerdefinierte Eigenschaften hinzugefügt wurden|
 |CELLSJAVA-44370|Excel-Datei wird beschädigt, wenn sie geöffnet und mit Aspose.Cells gespeichert wird|
-|CELLSJAVA-44344| Problem mit horizontalem Kopieren von Bereichen in der XLSX-Ausgabe|
+|CELLSJAVA-44344|Problem mit horizontalem Kopieren von Bereichen in der Ausgabe XLSX|
 |CELLSJAVA-44363| Die Zeilenkopfhöhe stimmt nicht mit dem Zeileninhalt in der Datei mit Freezepane überein|
 |CELLSJAVA-44349|Bild/Form soll nach dem Neustart des Servers für GridWeb beibehalten werden|
 |CELLSJAVA-44367|Die Farbe des Säulendiagramms wird bei der Konvertierung in html weiß|
-|CELLSJAVA-44328| Einige Datenbeschriftungen von Excel-Diagrammen gehen verloren, wenn eine Excel-Datei als HTML gespeichert wird|
-|CELLSJAVA-44193|Der Winkel der Kategorieachsenelemente im Diagramm unterscheidet sich bei der Excel-in-PDF-Konvertierung|
+|CELLSJAVA-44328| Einige Datenbeschriftungen von Excel-Diagrammen gehen verloren, wenn die Excel-Datei als HTML gespeichert wird|
+|CELLSJAVA-44193|Der Winkel der Kategorieachsenelemente im Diagramm unterscheidet sich in Excel von der PDF-Konvertierung|
 |CELLSJAVA-44314|Falsche Diagrammkategorie-Achsenbeschriftungen beim Diagramm-zu-Bild-Rendering|
 |CELLSJAVA-44332|Cell Link-Unterstreichung kann nicht entfernt werden, wenn xlsx in html konvertiert wird|
 |CELLSJAVA-44323|Ausnahme beim Hinzufügen einer Signaturzeile|

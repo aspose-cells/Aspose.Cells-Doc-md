@@ -19,12 +19,12 @@ Wir sind
  und MHT-Dateien schreiben
 - Unterstützt
  XML-Karten
-- Sich bewerben
+- Anwenden
  MS Excel 2007/2010-Designs zu Diagrammen
 
 
 
-Weitere bemerkenswerte Funktionen, Verbesserungen und Korrekturen sind unten aufgeführt.
+ Weitere bemerkenswerte Funktionen, Verbesserungen und Korrekturen sind unten aufgeführt.
 
  Neue Eigenschaften
 
@@ -44,8 +44,8 @@ Weitere bemerkenswerte Funktionen, Verbesserungen und Korrekturen sind unten auf
 - Der benannte Bereich wurde zweimal erstellt
 - Die sortNames()-Methode verursachte eine Ausnahme beim Speichern einer XLSM-Datei
 - Die Zahl wurde für den Bruchteil nicht richtig formatiert
-- Leere PDF-Datei generiert für PrintOrderType.OVER_DANN_NIEDER
-- Hintergrundfarbe und Raster sind in der generierten PDF-Datei falsch
+- Leer PDF generiert für PrintOrderType.OVER_DANN_NIEDER
+- Hintergrundfarbe und Raster sind im generierten PDF falsch
 - Intercept- und Slope-Funktionen wurden nicht korrekt berechnet
 - Entfernen Sie die 33.000-Grenze von Pivot-Feldelementen für Excel 2007-Dateiformate
 - Die Notation 1:1 wird in der IF-Funktion nicht unterstützt

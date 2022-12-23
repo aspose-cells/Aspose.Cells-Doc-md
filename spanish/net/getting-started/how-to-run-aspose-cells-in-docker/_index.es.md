@@ -113,7 +113,7 @@ Preste atención al argumento de montaje porque, como se mencionó anteriormente
 
 ## Imágenes de apoyo Aspose.Cells
 
-- Aspose.Cells for .NET El estándar no admite EMF ni TIFF en Linux.
+- Aspose.Cells for .NET El estándar no es compatible con EMF y TIFF en Linux.
 
 
 ## Más ejemplos

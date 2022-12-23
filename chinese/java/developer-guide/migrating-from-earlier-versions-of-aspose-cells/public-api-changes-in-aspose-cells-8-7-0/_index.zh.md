@@ -10,8 +10,8 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-7-0/
 
 {{% /alert %}} 
 ## **添加的 API**
-### **支持 PDF 优化**
-Aspose.Cells API 已经提供了将电子表格转换为 PDF 的功能。有了这个 API 版本，用户现在可以[优化生成的 PDF 大小](/cells/zh/java/save-excel-into-pdf-with-standard-or-minimum-size/)以及。 Aspose.Cells for Java 8.7.0 公开了 PdfSaveOptions.OptimizationType 属性以及 PdfOptimizationType 枚举，以方便用户在将电子表格导出为 PDF 格式时选择所需的优化算法。 PdfSaveOptions.OptimizationType 属性有 2 个可能的值，如下所述。
+### **支持PDF优化**
+Aspose.Cells API 已经提供了将电子表格转换为 PDF 的功能。通过 API 的这个版本，用户现在可以[优化结果 PDF 大小](/cells/zh/java/save-excel-into-pdf-with-standard-or-minimum-size/)以及。 Aspose.Cells for Java 8.7.0 公开了 PdfSaveOptions.OptimizationType 属性以及 PdfOptimizationType 枚举，以方便用户在将电子表格导出为 PDF 格式时选择所需的优化算法。 PdfSaveOptions.OptimizationType 属性有 2 个可能的值，如下所述。
 
 1. PdfOptimizationType.MINIMUM_SIZE：质量因生成的文件大小而受到影响。
 1. PdfOptimizationType.STANDARD：质量不会受到影响，因此生成的文件会很大。
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **添加了属性 TxtLoadOptions.HasFormula**
- Aspose.Cells for Java 8.7.0 已经支持[在加载具有定界纯数据的 CSV/TXT 文件时识别和解析公式](/cells/zh/java/load-or-import-csv-file-with-formulas/).新公开的 TxtLoadOptions.HasFormula 属性在设置为 true 时指示 API 从输入分隔文件中解析公式并将它们设置到相关单元格，而无需任何额外处理。
+ Aspose.Cells for Java 8.7.0 已经支持[在加载具有分隔纯数据的 CSV/TXT 文件时识别和解析公式](/cells/zh/java/load-or-import-csv-file-with-formulas/).新公开的 TxtLoadOptions.HasFormula 属性在设置为 true 时指示 API 从输入分隔文件中解析公式并将它们设置到相关单元格，而无需任何额外处理。
 
 以下是简单的使用场景。
 

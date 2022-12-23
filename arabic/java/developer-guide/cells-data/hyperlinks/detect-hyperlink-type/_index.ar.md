@@ -10,7 +10,7 @@ url: /ar/java/detect-hyperlink-type/
 
 - [**خارجي**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EXTERNAL): رابط خارجي
 - [**مسار الملف**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#FILE_PATH): المسار المحلي والكامل للملفات \ المجلدات.
-- [**البريد الإلكتروني**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): البريد الإلكتروني
+- [**البريد الإلكتروني**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#EMAIL): بريد إلكتروني
 - [**CELL_REFERENCE**](https://reference.aspose.com/cells/java/com.aspose.cells/targetmodetype#CELL_REFERENCE): ارتباط بالخلية أو النطاق المسمى.
 
 للتحقق من نوع الارتباط التشعبي ، يجب أن يكون ملف[**ارتباط تشعبي**](https://reference.aspose.com/cells/java/com.aspose.cells/Hyperlink) فئة توفر أ[**نوع الرابط**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType) مع نوع إرجاع[**نوع الهدف**](https://reference.aspose.com/cells/java/com.aspose.cells/TargetModeType). يوضح مقتطف الشفرة التالي استخدام ملف[**نوع الرابط**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#LinkType)الملكية باستخدام هذا[ملف اكسل المصدر](LinkTypes.xlsx).

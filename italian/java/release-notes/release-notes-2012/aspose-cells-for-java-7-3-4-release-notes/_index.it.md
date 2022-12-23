@@ -11,7 +11,7 @@ url: /it/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 Noi siamo
- felice di annunciare Aspose.Cells for Java v7.3.4!
+felice di annunciare Aspose.Cells for Java v7.3.4!
 
  Nuove caratteristiche
 

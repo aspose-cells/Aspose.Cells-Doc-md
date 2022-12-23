@@ -28,11 +28,11 @@ url: /ja/net/aspose-cells-for-net-5-3-3-release-notes/
 ### **パフォーマンス**
 25774 Excel から PDF への変換
 ### **例外**
-27076 ODS ファイルを開く際の FormatException の処理
+27076 ODS ファイルを開くときに FormatException を処理する
 
 27063 無効な列インデックス - SheetRender.ToImage() メソッドからの Aspose.Cells.CellsException
 
- 26571 Aspose.Cells は XLS ファイルを開くことができません
+26571 Aspose.Cells は XLS ファイルを開けません
 
 26309 ソース配列の長さが不十分です – Excel ファイルを開く際の例外
 
@@ -48,7 +48,7 @@ url: /ja/net/aspose-cells-for-net-5-3-3-release-notes/
 
 18878 Pdf ファイルへの保存中にフォント サイズを小さくする
 
-19318 PDF エクスポートのテキストが正しくない
+19318 PDF エクスポートの間違ったテキスト
 
 24011 PDF に保存 (バグ)
 
@@ -74,7 +74,7 @@ url: /ja/net/aspose-cells-for-net-5-3-3-release-notes/
 
 26984 ワークシート間での数式計算の問題
 
-26308 XLSB 数式が XLSX 数式とは異なる値を返す
+26308 XLSB 数式は XLSX 数式とは異なる値を返します
 
 25783 テーブルのヘッダーに Range.CopyValue を使用すると、Excel ファイルが開いて警告が表示される
 

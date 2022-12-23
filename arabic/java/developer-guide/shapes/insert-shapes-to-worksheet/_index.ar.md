@@ -8,7 +8,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 تحتاج أحيانًا إلى إدراج بعض الأشكال الضرورية في ورقة العمل ، وقد تحتاج إلى إدراج نفس الشكل في مواضع مختلفة من ورقة العمل ، أو قد تحتاج إلى إدخال أشكال مجمعة في ورقة العمل.
 
- لا تقلق![Aspose.Cells](https://products.aspose.com/cells/) يدعم كل هذه العمليات.
+ لا تقلق![Aspose.Cells](https://products.aspose.com/cells/)يدعم كل هذه العمليات.
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 - **النجوم واللافتات**
 - **وسائل الشرح**
 
-ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
+ ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
 
 
 
@@ -46,7 +46,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -62,7 +62,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج سهم خط في ورقة العمل**
 
- شكل سهم الخط ينتمي إلى**خطوط**فئة وهي حالة خاصة من الخط.
+ شكل سهم الخط ينتمي إلى**خطوط** فئة وهي حالة خاصة من الخط.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -80,7 +80,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -114,7 +114,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -130,7 +130,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج مكعب في ورقة العمل**
 
- شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
+شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -148,7 +148,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -182,7 +182,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -216,7 +216,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -232,7 +232,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 ## **إدراج مستند متعدد في ورقة العمل**
 
-شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
+ شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -250,7 +250,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -284,7 +284,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 
@@ -318,7 +318,7 @@ url: /ar/java/insert-shapes-to-worksheet-in-aspose-cells/
 
 [الشكل العام addAutoShape (نوع int ، int upperLeftRow ، int top ، int upperLeftColumn ، int left ، int height ، int width)](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addAutoShape(int,%20int,%20int,%20int,%20int,%20int,%20int))
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/java/com.aspose.cells/Shape) موضوع.
 
 {{% /alert %}}
 

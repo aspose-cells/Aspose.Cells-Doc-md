@@ -24,13 +24,13 @@ url: /it/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42003 - Problema con l'aggiornamento delle tabelle pivot
 
- 42050 - CellsException:
+42050 - CellsException:
 
  41956 - Eccezione durante l'apertura del file modello
 
  Insetti
 
- 41570 - Problema di conversione da Excel a PDF arabo
+ 41570 - Problema di conversione da Excel a PDF in arabo
 
  41983 - Le tabelle pivot nei file XLS causano il danneggiamento
 
@@ -40,7 +40,7 @@ url: /it/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 - Problema calcolo formula
 
-41997 - Problema di visualizzazione dei caratteri giapponesi
+ 41997 - Problema di visualizzazione dei caratteri giapponesi
 
  \2) Aspose.Cells.GridWeb
 

@@ -10,20 +10,20 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.6.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42914|Les grands formats conditionnels provoquent une exception OOM|Renforcement|
 |CELLSJAVA-42916|Problème de format de données après Workbook.save()|Renforcement|
 |CELLSJAVA-42930|Échec de chargement d'Excel95|Renforcement|
 |CELLSJAVA-42927|Le fichier enregistré s'ouvre lentement dans Excel après la suppression de colonnes|Renforcement|
 |CELLSJAVA-42932|Erreur de mise en forme conditionnelle avec la méthode Style.getDisplayStyle|Punaise|
-|CELLSJAVA-42928|Certaines lignes ne sont pas reflétées dans la conversion XLSX en PDF|Punaise|
+|CELLSJAVA-42928|Certaines lignes ne sont pas reflétées dans la conversion XLSX à PDF|Punaise|
 |CELLSJAVA-42904|L'image d'en-tête corrompt apparemment le fichier|Punaise|
 |CELLSJAVA-42907|Filtre perdu après l'enregistrement du classeur|Punaise|
 |CELLSJAVA-42915|Les filtres sont modifiés après l'ajout d'une feuille au classeur|Punaise|
-|CELLSJAVA-42918|Graphique du fichier converti aplati (conversion XLS en XLSX)|Punaise|
+|CELLSJAVA-42918|Graphique du fichier converti aplati (conversion XLS à XLSX)|Punaise|
 |CELLSJAVA-42938|Le chargement du fichier XLSX arrête l'application|Punaise|
-|CELLSJAVA-42859|CellsException pour le chargement du nom à partir du fichier ODS|Exception|
+|CELLSJAVA-42859|CellsException pour le chargement du nom du fichier ODS|Exception|
 |CELLSJAVA-42908|Exception lors de l'appel de Name.getRefersTo()|Exception|
 |CELLSJAVA-42926|IllegalStateException lors du chargement du classeur|Exception|
 

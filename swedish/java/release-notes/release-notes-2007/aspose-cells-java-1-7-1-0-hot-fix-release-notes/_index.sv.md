@@ -14,8 +14,8 @@ url: /sv/java/aspose-cells-java-1-7-1-0-hot-fix-release-notes/
 
  Vi har släppt Aspose.Cells for Java V1.7.1!Följande förbättringar och korrigeringar ingår:
 
-- Stöder för att importera innehåll och stilar i cellerna från SpreadsheetML-fil
- Stöder för att exportera innehåll och stilar i cellerna till SpreadsheetML-fil
+- Stöder för att importera innehåll och stilar i cellerna från SpreadsheetML-filen
+ Stöder för att exportera innehåll och stilar av cellerna till SpreadsheetML-filen
  Stöder formelns beräkningsmotor
  Stöder för att ställa in R1C1-formel
  Stöder ytterligare två typer av datakällor av pivottabell

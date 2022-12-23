@@ -15,7 +15,7 @@ url: /zh/java/aspose-cells-for-java-2-2-1-release-notes/
 改变了什么：
 
 - 包括对 MS Excel 2007 提供的高级条件格式的支持
-- 支持 MS Excel 2007 为 XLS 文件保存的条件格式的扩展记录
+- 支持MS Excel 2007为XLS文件保存的条件格式的扩展记录
 - 在读取 MS Excel 2007 文件时保留不受支持的公式
 - 从 MS Excel 2007 模板文件的页眉/页脚读取图片
 - 对读取模板文件进行了增强

@@ -14,7 +14,7 @@ url: /fr/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Ce qui a changé dans Aspose.Cells :
 
-- Prend en charge l'exportation de fichiers PDF cryptés.
+- Prend en charge l'exportation de fichiers cryptés PDF.
 - 45 améliorations et corrections.
 
  Ce qui a changé dans Aspose.Cells.GridWeb :
@@ -32,14 +32,14 @@ url: /fr/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Problèmes résolus dans Aspose.Cells for .NET v5.1.4.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
-|20247 | SAO| Erreur dans la formule lorsque j'enregistre en tant qu'ODS|
+|20247 |ODS | Erreur dans la formule lorsque j'enregistre sous ODS|
 |18357 | PDF| Problème de conversion sur les graphiques PIE|
-|18925 | PDF| Convertir Excel en PDF|
+|18925 | PDF| Problème Convertir Excel en PDF|
 |19883 | PDF| Lancer une erreur de référence d'objet introuvable|
 |20011 | PDF| Les sauts de page avec une page vide ne fonctionnent pas|
-|20057 | PDF| Problème de conversion Excel en PDF|
+|20057 | PDF| Problème de conversion Excel vers PDF|
 |20070 | PDF| Police multi-octets|
 |20071 | PDF| Couleur de police multi-octets|
 |20450 | PDF| Index de ligne invalide|
@@ -50,8 +50,8 @@ url: /fr/net/aspose-cells-for-net-5-1-4-release-notes/
 |20721 | Tableau croisé dynamique| Le fil d'alimentation n'était pas au bon format|
 |20228 | Sheet2Image| Compression RLE résultant en TIFF bitonaux|
 |20574 | Sheet2Image| La fonctionnalité d'enregistrement dans l'image n'est pas formatée correctement|
-|20181 | TableurML| Une cellule qui utilise la fonction Hyperlink lève une exception|
-|20519 | TableurML| Impossible d'obtenir le contenu d'Excel 2007 au format XML|
+|20181 |SpreadsheetML | Une cellule qui utilise la fonction Hyperlink lève une exception|
+|20519 |SpreadsheetML | Impossible d'obtenir le contenu d'Excel 2007 au format XML|
 |20055 | Xls| La formule contient '\r'|
 |20152 | Xls| Choisissez La fonction ne s'évalue pas correctement après l'insertion de lignes|
 |20168 | Xls| Recalcul des fonctions VBA personnalisées|

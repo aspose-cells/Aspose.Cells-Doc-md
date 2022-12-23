@@ -6,7 +6,7 @@ url: /it/java/saving-files-in-php/
 ---
 ## **Aspose.Cells - Salvataggio File**
 ### **Salvataggio del file in una posizione**
- Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Giava for PHP** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
+ Se gli sviluppatori devono salvare i propri file utilizzando**Aspose.Cells Java for PHP** in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando l'estensione**FileFormatType**enumerazione) mentre si chiama il**Salva**metodo di**Cartella di lavoro**oggetto.
 
 **Codice PHP**
 
@@ -36,6 +36,6 @@ $workbook->save($dataDir . "book.out.xml", $fileFormatType->EXCEL_2003_XML);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Salvataggio file (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Salvataggio file (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/FileHandlingFeatures/SavingFiles.php)

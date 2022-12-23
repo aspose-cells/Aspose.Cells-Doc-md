@@ -13,7 +13,7 @@ url: /zh/net/custom-sorting-in-pivot-table/
 
 [输出 Excel 文件](98107429.xlsx)
 
-[输出PDF文件](98107430.pdf)
+[输出 PDF 文件](98107430.pdf)
 
 
 

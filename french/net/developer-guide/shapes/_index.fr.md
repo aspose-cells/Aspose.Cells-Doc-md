@@ -10,7 +10,7 @@ description: Gérer les images, oleobject, formes dans des fichiers Excel.
 
 Parfois, vous devez insérer certaines formes nécessaires dans la feuille de calcul. Vous devrez peut-être insérer la même forme dans différentes positions de la feuille de calcul. Ou vous devez insérer des formes par lots dans la feuille de calcul.
 
- Ne t'en fais pas![Aspose.Cells](https://products.aspose.com/cells/) prend en charge toutes ces opérations.
+ Ne t'en fais pas![Aspose.Cells](https://products.aspose.com/cells/)prend en charge toutes ces opérations.
 
 {{% /alert %}}
 
@@ -26,12 +26,12 @@ Les formes dans Excel sont principalement divisées en types suivants :
 - **Étoiles et bannières**
 - **Légendes**
 
-Ce document guide sélectionnera une ou deux formes de chaque type pour créer des échantillons. Grâce à ces exemples, vous apprendrez à utiliser[Aspose.Cells](https://products.aspose.com/cells/) pour insérer la forme spécifiée dans la feuille de calcul.
+ Ce document guide sélectionnera une ou deux formes de chaque type pour créer des échantillons. Grâce à ces exemples, vous apprendrez à utiliser[Aspose.Cells](https://products.aspose.com/cells/) pour insérer la forme spécifiée dans la feuille de calcul.
 
 ## **Ajout d'images dans la feuille de calcul Excel dans C#**
 
 Ajouter des images à une feuille de calcul est très simple. Cela ne prend que quelques lignes de code :
- Appelez simplement le[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) méthode de la[**Des photos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulée dans le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objet). La[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)méthode prend les paramètres suivants :
+ Appelez simplement le[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) méthode de la[**Des photos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) collection (encapsulée dans le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objet). Le[**Ajouter**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)méthode prend les paramètres suivants :
 
 - **Index de la ligne supérieure gauche**, l'index de la ligne supérieure gauche.
 - **Index de la colonne en haut à gauche**, l'indice de la colonne supérieure gauche.
@@ -44,8 +44,8 @@ Ajouter des images à une feuille de calcul est très simple. Cela ne prend que 
 
 Aspose.Cells prend en charge l'ajout, l'extraction et la manipulation d'objets OLE dans les feuilles de calcul. Pour cette raison, Aspose.Cells a le[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) classe, utilisée pour ajouter un nouvel objet OLE à la liste de collection. Une autre classe,[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), représente un objet OLE. Il compte quelques membres importants :
 
--  La[**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propriété spécifie les données d'image (icône) de type tableau d'octets. L'image s'affichera pour montrer l'objet OLE dans la feuille de calcul.
--  La[**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propriété spécifie les données de l'objet sous la forme d'un tableau d'octets. Ces données seront affichées dans son programme associé lorsque vous double-cliquez sur l'icône de l'objet OLE.
+-  Le[**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propriété spécifie les données d'image (icône) de type tableau d'octets. L'image s'affichera pour montrer l'objet OLE dans la feuille de calcul.
+-  Le[**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propriété spécifie les données de l'objet sous la forme d'un tableau d'octets. Ces données seront affichées dans son programme associé lorsque vous double-cliquez sur l'icône de l'objet OLE.
 
 L'exemple suivant montre comment ajouter un ou plusieurs objets OLE dans une feuille de calcul.
 
@@ -94,7 +94,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'une flèche de ligne dans la feuille de calcul Excel dans C#**
 
- La forme de la flèche de ligne appartient à la**Lignes**catégorie. C'est un cas particulier de ligne.
+ La forme de la flèche de ligne appartient à la**Lignes** catégorie. C'est un cas particulier de ligne.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -176,7 +176,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'un cube dans une feuille de calcul Excel dans C#**
 
- La forme du cube appartient à la**Formes de base** Catégorie.
+La forme du cube appartient à la**Formes de base** Catégorie.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -202,7 +202,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un cube dans la feuille 
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 
@@ -244,7 +244,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une flèche quadruple de
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 
@@ -286,7 +286,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un signe de multiplicati
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 
@@ -302,7 +302,7 @@ Exécutez le code ci-dessus, vous obtiendrez les résultats suivants :
 
 ## **Insertion d'un multidocument dans une feuille de calcul Excel dans C#**
 
-La forme de multidocument appartient à la**Organigrammes** Catégorie.
+ La forme de multidocument appartient à la**Organigrammes** Catégorie.
 
 ***Dans Microsoft Excel (par exemple 2007) :***
 
@@ -328,7 +328,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un multidocument dans la
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 
@@ -370,7 +370,7 @@ Vous pouvez utiliser la méthode suivante pour insérer une étoile à cinq bran
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 
@@ -412,7 +412,7 @@ Vous pouvez utiliser la méthode suivante pour insérer un nuage de bulles de pe
  largeur entière
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- La méthode retourne un[Forme](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
+ La méthode retourne un[Façonner](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) objet.
 
 {{% /alert %}}
 

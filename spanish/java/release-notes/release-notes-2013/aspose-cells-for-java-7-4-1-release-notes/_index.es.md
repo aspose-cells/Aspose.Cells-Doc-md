@@ -16,7 +16,7 @@ url: /es/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Mejoras
 
-40407 - Admite texto rotado en las celdas
+ 40407 - Admite texto rotado en las celdas
 
  Excepciones
 

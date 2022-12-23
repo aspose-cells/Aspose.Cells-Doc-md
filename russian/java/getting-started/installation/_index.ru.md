@@ -1,5 +1,5 @@
 ﻿---
-title: Монтаж
+title: Установка
 type: docs
 weight: 20
 url: /ru/java/installation/

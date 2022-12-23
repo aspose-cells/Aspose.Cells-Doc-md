@@ -13,9 +13,9 @@ url: /tr/net/aspose-cells-for-net-19-5-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-46703|Yeni Japon takvimi düzgün görüntülenmiyor|Yeni özellik|
-|CELLSNET-46693|ODS'nin destek geçmişi|Yeni özellik|
+|CELLSNET-46693|ODS destek geçmişi|Yeni özellik|
 |CELLSNET-46695|ODS dosyasının arka planını ayarla|Yeni özellik|
-|CELLSNET-46706|Arapça yazı tipini PDF'ye dönüştürürken geçersiz sayı sırası.|Artırma|
+|CELLSNET-46706|Arapça yazı tipini PDF'e dönüştürürken geçersiz sayı sırası.|Artırma|
 |CELLSNET-46692|IStreamProvider arayüzü ile tüm harici verileri kontrol edin|Artırma|
 |CELLSNET-46711|Birleştirilmiş alana ImportCustomObjects, birleştirmeyi keser|Artırma|
 |CELLSNET-46713|"String.StartsWith("\0")" yöntemi, macOS'ta her zaman true değerini döndürür|Artırma|
@@ -24,16 +24,16 @@ url: /tr/net/aspose-cells-for-net-19-5-release-notes/
 |CELLSNET-46682|Dilimleyici ayarları için "Veri içermeyen öğeleri gizle" seçeneği işaretli değil|Böcek|
 |CELLSNET-46707|PivotTable.GetChildren(), yanlış sayıda bağımlılık döndürür|Böcek|
 |CELLSNET-46689|Bir çalışma kitabını PDF olarak kaydetmek, excel'in yerel çıktısından farklıdır|Böcek|
-|CELLSNET-46704|Aspose.Cells kullanarak Excel'i PDF'ye dönüştürmenin çıktısı Excel'den farklıdır|Böcek|
-|CELLSNET-46720|Excel'den PDF'e dönüştürmede son sayfada sayfa yapısı bozuk|Böcek|
+|CELLSNET-46704|Aspose.Cells kullanarak Excel'i PDF'e dönüştürmenin çıktısı Excel'den farklıdır|Böcek|
+|CELLSNET-46720|Excel'deki son sayfada sayfa yapısı bozuk PDF'e dönüştürme|Böcek|
 |CELLSNET-46727|Çalışma kitabını PDF olarak kaydederken yanlış sayfa numaralandırma|Böcek|
 |CELLSNET-46700|Pasta grafiği veri etiketleri birbiriyle örtüşüyor|Böcek|
-|CELLSNET-46696|Microsoft grafik grafiğine sahip XLS'nin XLSX ve XLSM'ye dönüştürülmesi okunamaz bir içerik hatasına neden oluyor|Böcek|
-|CELLSNET-46697|XLSM'yi OLE nesnesiyle XLS'ye dönüştürmek bir hataya neden oluyor|Böcek|
-|CELLSNET-46712|Microsoft grafik grafiğine sahip XLS'nin XLSX ve XLSM'ye dönüştürülmesi okunamaz bir içerik hatasına neden oluyor|Böcek|
+|CELLSNET-46696|XLS ile Microsoft grafik grafiğinin XLSX ve XLSM'e dönüştürülmesi okunamaz bir içerik hatasına neden oluyor|Böcek|
+|CELLSNET-46697|XLSM'i OLE nesnesiyle XLS'e dönüştürmek bir hataya neden oluyor|Böcek|
+|CELLSNET-46712|XLS ile Microsoft grafik grafiğinin XLSX ve XLSM'e dönüştürülmesi okunamaz bir içerik hatasına neden oluyor|Böcek|
 |CELLSNET-46715|Cells.InsertCutCells() Sorunu|Böcek|
 |CELLSNET-46725|"_x000a_" dizesi çok satırlı grafiğin alt metin açıklamasına eklendi|Böcek|
-|CELLSNET-46683|Bir Excel dosyasını PDF'ye dönüştürürken istisna|İstisna|
+|CELLSNET-46683|Bir Excel dosyasını PDF olarak işlerken istisna|İstisna|
 |CELLSNET-46690|Shape.ForeignData'dan (Diagram) Excel çalışma kitabı yüklenirken bir istisna ortaya çıktı|İstisna|
 |CELLSNET-46728|Akışı Çalışma Kitabı olarak kaydederken istisna|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -45,8 +45,8 @@ Katıştırılmış grafik grafik dosyasını temsil eder.
 #### **ImportTableOptions.CheckMergedCells özelliklerini ekler**
 Verileri içe aktarırken birleştirilmiş hücrelerin kontrol edilip edilmediğini gösterir.
 #### **ODSCellFieldCollection, ODSCellField sınıfları ve ODSCellFieldType sıralamasını ekler.**
-ODS'nin hücre alanını temsil eder.
+ODS hücre alanını temsil eder.
 #### **Cells.ODSCellFields özelliklerini ekler.**
-ODS'nin hücre alanlarının listesini alır.
+ODS hücre alanlarının listesini alır.
 #### **ODSPageBackground sınıfını ve PageSetup.ODSPageBackground özelliğini ekler**
-ODS'nin arka planını temsil eder.
+ODS'in arka planını temsil eder.

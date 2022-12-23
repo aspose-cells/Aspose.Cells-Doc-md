@@ -11,5 +11,5 @@ Il codice di esempio seguente trova la versione di GridDesktop in fase di esecuz
 
 ![cose da fare:immagine_alt_testo](find-griddesktop-version-at-runtime_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithGridDesktop-Form_FindGridDesktopVersionAtRunTime.cs" >}}

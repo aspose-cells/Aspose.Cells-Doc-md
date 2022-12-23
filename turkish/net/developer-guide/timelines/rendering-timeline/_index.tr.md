@@ -12,7 +12,7 @@ Aspose.Cells, office 2013, office 2016, office 2019 ve office 365 kullanmadan za
 ## **Oluşturma Zaman Çizelgesi**
 Aşağıdaki örnek kod,[örnek excel dosyası](input.xlsx) mevcut bir zaman çizelgesini içerir. Şekil nesnesini zaman çizelgesinin adına göre alın ve ardından onu Shape.ToImage() yöntemiyle bir resme dönüştürün. Akan görüntü ise[çıktı görüntüsü](out.png)işlenen zaman çizelgesini gösterir. Gördüğünüz gibi, zaman çizelgesi düzgün bir şekilde oluşturuldu ve örnek Excel dosyasındakiyle aynı görünüyor.
 
-![yapılacaklar:resim_alternatif_Metin](out.png)
+![yapılacaklar:resim_alternatif_metin](out.png)
 ### **Basit kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Timelines-RenderingTimeline.cs" >}}
 

@@ -9,7 +9,7 @@ url: /sv/java/protect-and-unprotect-worksheet/
 När ett kalkylblad är skyddat är de åtgärder en användare kan vidta begränsade. De kan till exempel inte mata in data, infoga eller ta bort rader eller kolumner etc. De allmänna skyddsalternativen i Microsoft Excel är:
 
 - Innehåll
-- Objekt
+- Föremål
 - Scenarier
 
 Skyddade kalkylblad döljer eller skyddar inte känslig data, så det skiljer sig från filkryptering. I allmänhet är kalkylbladsskydd lämpligt för presentationsändamål. Det hindrar slutanvändaren från att ändra data, innehåll och formatering i kalkylbladet.
@@ -30,7 +30,7 @@ ProtectionType-uppräkningen innehåller följande fördefinierade skyddstyper:
 |:- |:- |
 |[**ALLT**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#ALL)|Användaren kan inte ändra något i detta kalkylblad|
 |[**INNEHÅLL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#CONTENTS)|Användaren kan inte ange data i detta kalkylblad|
-|[**OBJEKT**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Användaren kan inte ändra ritobjekt|
+|[**FÖREMÅL**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#OBJECTS)|Användaren kan inte ändra ritobjekt|
 |[**SCENARIER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|Användaren kan inte ändra sparade scenarier|
 |[**STRUKTURERA**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|Användaren kan inte ändra sparad struktur|
 |[**FÖNSTER**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|Användaren kan inte ändra sparade fönster|

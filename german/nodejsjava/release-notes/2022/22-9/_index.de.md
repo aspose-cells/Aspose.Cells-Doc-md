@@ -12,7 +12,7 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-22-9-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-44194|Zeichnungsform wird in Excel nicht in PDF-Rendering gerendert|
+|CELLSJAVA-44194|Zeichnungsform wird in Excel nicht auf PDF gerendert|
 |CELLSJAVA-44864|Das gleichzeitige Laden von Arbeitsmappen löst falsche „Datei ist beschädigt“-Fehler aus|
 |CELLSJAVA-44327|Rahmen und weniger Linien, die in schwarzen und weißen Tortenstücken in der Diagramm-zu-Bild-Wiedergabe angezeigt werden|
 |CELLSJAVA-44591|Die Textdrehung von Beschriftungen stimmt nicht mit Excel im Ausgabebild des Diagramms überein|
@@ -20,7 +20,7 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-22-9-release-notes/
 |CELLSJAVA-44860|Die Anzeige von Zellentext ist in einigen zusammengeführten Bereichen nicht dieselbe wie in Excel|
 |CELLSJAVA-44832|Beim Konvertieren in PDF werden mehrere Seiten statt einer Seite wie in Excel ausgegeben|
 |CELLSJAVA-44812|Der Plotbereich für das Diagramm kann nicht verkleinert werden|
-|CELLSJAVA-44831|MS Word zeigt beim Öffnen der konvertierten DOCX-Datei aus der XLSX-Datei mit Aspose.Cells for Java einen Fehler „Word hat unlesbaren Inhalt gefunden in …“ an|
+|CELLSJAVA-44831|MS Word zeigt beim Öffnen der konvertierten DOCX aus XLSX-Datei von Aspose.Cells for Java einen Fehler „Word hat unlesbaren Inhalt gefunden in …“ an|
 |CELLSJAVA-44833|Die Textfarbe wird nicht auf verschiedene Wörter oder Teile des Inhalts in der Excel-Ausgabedatei angewendet, wenn die Methode Cell.setHtmlString() verwendet wird|
 |CELLSJAVA-44852| Der Rahmen ist falsch, wenn die statische Excel-Datei in HTML konvertiert wird|
 |CELLSJAVA-44856| Konvertierung von Excel in HTML – Sparkline (Minidiagramm) wird nicht angezeigt/gerendert|

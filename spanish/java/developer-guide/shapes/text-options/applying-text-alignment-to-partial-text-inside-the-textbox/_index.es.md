@@ -13,7 +13,7 @@ El siguiente código de ejemplo aplica la alineación de texto a un cuadro de te
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ApplyAlignmentToTextBox.java" >}}
 
-También puede cambiar la alineación del texto de algún texto dentro de una forma de cuadro de texto con el texto HTML adecuado. El siguiente código de ejemplo aplica la alineación del texto al texto parcial dentro del cuadro de texto.
+También puede cambiar la alineación del texto de algún texto dentro de una forma de cuadro de texto con el texto HTML apropiado. El siguiente código de ejemplo aplica la alineación del texto al texto parcial dentro del cuadro de texto.
 
 [archivo fuente](SampleTextboxExcel2016.xlsx)
 

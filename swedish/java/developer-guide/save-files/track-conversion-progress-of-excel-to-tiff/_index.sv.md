@@ -10,7 +10,7 @@ Ibland kan det ta lite tid att konvertera stora Excel-filer. Under denna tid kan
 
 ## **Spåra konverteringsförlopp för Excel till TIFF**
 
-Följande kodexempel laddar[källkod excel-fil](sampleUseWorkbookRenderForImageConversion.xlsx)och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestTiffPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt. Den genererade utdatafilen bifogas för din referens.
+Följande kodexempel laddar[source excel-fil](sampleUseWorkbookRenderForImageConversion.xlsx) och skriver ut dess konverteringsförlopp i konsolen med hjälp av*TestTiffPageSavingCallback*anpassad klass som implementerar**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**gränssnitt. Den genererade utdatafilen bifogas för din referens.
 
 [Utdatafil](DocumentConversionProgressForTiff_out.tiff)
 

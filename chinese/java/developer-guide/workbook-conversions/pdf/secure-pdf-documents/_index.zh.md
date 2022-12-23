@@ -10,7 +10,7 @@ keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, 
 
 有时，开发人员需要处理加密的 PDF 文件。例如，他们需要使用用户密码和所有者密码来保护文档的安全，以免任何人都可以打开它们，或者想要限制文档内容是否可以打印或提取。
 
-本文介绍了在将电子表格保存为 PDF 时如何传入 PDF 安全选项。
+本文介绍如何在将电子表格保存到 PDF 时传入 PDF 安全选项。
 
 {{% /alert %}} 
 
@@ -20,6 +20,6 @@ Aspose.Cells API 提供[**Pdf安全选项**](https://reference.aspose.com/cells/
 
 {{% alert color="primary" %}}
 
-如果电子表格包含公式，最好调用[**工作簿.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) 就在将其呈现为 PDF 之前。这可确保重新计算依赖于公式的值，并在 PDF 中呈现正确的值。
+如果电子表格包含公式，最好调用[**工作簿.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) 就在将其呈现为 PDF 之前。这可确保重新计算公式相关值，并在 PDF 中呈现正确的值。
 
 {{% /alert %}}

@@ -15,15 +15,15 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-12-release-notes/
 |CELLSJAVA-43994|支持打断SmarkMarker中WorkbookDesigner.process的执行|
 |CELLSJAVA-44039|从生成的 PDF 修改 PDF Producer 属性|
 |CELLSJAVA-43469|可能的回归：FormatConditionCollection.addArea() 的性能下降|
-|CELLSJAVA-43983|回归：将 XLSX 转换为 PDF 时的无限循环|
+|CELLSJAVA-43983|回归：将 XLSX 转换为 PDF 时无限循环|
 |CELLSJAVA-44029|XLSX 到 PDF：图像未转换|
 |CELLSJAVA-44093|在较新的 Aspose.Cells for Java 版本中呈现为图像时，矩形形状的文本截断问题|
 |CELLSJAVA-44089|DataLabels.setShadow() 不可用且不等于 Series.setShadow() 方法|
-|CELLSJAVA-44000|Cells 同时使用图标集和其他条件格式时，HTML 中的样式不正确|
+|CELLSJAVA-44000|Cells HTML 同时使用图标集和其他条件格式时样式不正确|
 |CELLSJAVA-43932|在输出图像中为爆炸圆环图设置数据标签位置的问题|
 |CELLSJAVA-43934|操作或更新图表后饼图标签与 Excel 不匹配|
-|CELLSJAVA-44094|导出为 PDF 时图表标题被截断|
-|CELLSJAVA-43533|Ubuntu 中的 XLSX 到 Html 创建问题|
+|CELLSJAVA-44094|导出到 PDF 时图表标题被截断|
+|CELLSJAVA-43533|XLSX 到 Ubuntu 中的 Html 创建问题|
 |CELLSJAVA-43987|合并单元格的右边框在html中丢失|
 |CELLSJAVA-44016|将包含图片 URL 的 Excel 文件转换为 HTML 时出现问题|
 |CELLSJAVA-44071|com.aspose.cells.CellsException：您在调用 Workbook.calculateFormula() 时为函数 IF 输入的参数太少|

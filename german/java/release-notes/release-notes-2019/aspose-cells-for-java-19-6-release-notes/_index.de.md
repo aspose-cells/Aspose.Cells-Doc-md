@@ -17,13 +17,13 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 19.6.
 |CELLSJAVA-42930|Fehler beim Laden von Excel95|Erweiterung|
 |CELLSJAVA-42927|Die gespeicherte Datei wird in Excel nach dem Löschen von Spalten langsam geöffnet|Erweiterung|
 |CELLSJAVA-42932|Bedingter Formatierungsfehler mit der Style.getDisplayStyle-Methode|Insekt|
-|CELLSJAVA-42928|Einige Zeilen werden bei der XLSX-zu-PDF-Konvertierung nicht wiedergegeben|Insekt|
+|CELLSJAVA-42928|Einige Zeilen spiegeln sich nicht in der Konvertierung von XLSX in PDF wider|Insekt|
 |CELLSJAVA-42904|Das Header-Bild beschädigt scheinbar die Datei|Insekt|
 |CELLSJAVA-42907|Filter nach dem Speichern der Arbeitsmappe verloren|Insekt|
 |CELLSJAVA-42915|Filter werden nach dem Hinzufügen eines Blatts zur Arbeitsmappe geändert|Insekt|
-|CELLSJAVA-42918|Diagramm der konvertierten Datei abgeflacht (Konvertierung von XLS in XLSX)|Insekt|
-|CELLSJAVA-42938|Das Laden der XLSX-Datei hält die Anwendung an|Insekt|
-|CELLSJAVA-42859|CellsException für das Laden des Namens aus der ODS-Datei|Ausnahme|
+|CELLSJAVA-42918|Das Diagramm der konvertierten Datei wurde abgeflacht (Konvertierung von XLS in XLSX)|Insekt|
+|CELLSJAVA-42938|Beim Laden der Datei XLSX wird die Anwendung angehalten|Insekt|
+|CELLSJAVA-42859|CellsException für das Laden des Namens aus der Datei ODS|Ausnahme|
 |CELLSJAVA-42908|Ausnahme beim Aufrufen von Name.getRefersTo()|Ausnahme|
 |CELLSJAVA-42926|IllegalStateException beim Laden der Arbeitsmappe|Ausnahme|
 

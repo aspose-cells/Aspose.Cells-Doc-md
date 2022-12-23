@@ -14,6 +14,6 @@ Aspose.Cells fornisce[**XmlMapCollection.Add()**](https://reference.aspose.com/c
 
 ![cose da fare:immagine_alt_testo](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddXMLMapInsideWorkbook-AddXMLMapInsideWorkbook.java" >}}

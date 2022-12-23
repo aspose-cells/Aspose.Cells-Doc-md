@@ -33,7 +33,7 @@ url: /es/net/aspose-cells-for-net-7-3-2-release-notes/
 
 
 
- Actuación
+ Rendimiento
 
 - Problemas de rendimiento con tablas dinámicas
 
@@ -61,9 +61,9 @@ url: /es/net/aspose-cells-for-net-7-3-2-release-notes/
 - Las imágenes ocultas desaparecieron después de copiar la hoja de trabajo
 - Después de guardar, los datos de la hoja de cálculo de Excel desaparecieron
 
- -Al guardar el archivo XLSX con diagrama de dispersión, se habilitan opciones adicionales
+ -Guardar el archivo XLSX con Scatter plot habilita opciones adicionales
 
--Problema de DataLabels.ShowBubbleSize con el formato de archivo XLSX
+ -Problema de DataLabels.ShowBubbleSize con formato de archivo XLSX
 
  -El título del gráfico circular de Excel no se representa correctamente en el archivo de imagen
 
@@ -71,7 +71,7 @@ url: /es/net/aspose-cells-for-net-7-3-2-release-notes/
 
 - Problema del idioma alemán con respecto al formato condicional
 - Páginas en blanco después de convertir a PDF
-- Problemas de encabezado/pie de página en archivo PDF
+- Problemas de encabezado/pie de página en el archivo PDF
 - Espacios perdidos al renderizar el rango de Excel a la imagen
 - Problema de idioma/región: problema de formato condicional con SheetRender
 - Problema de formato de número personalizado con número negativo
@@ -81,7 +81,7 @@ url: /es/net/aspose-cells-for-net-7-3-2-release-notes/
 - Los subtotales se calculan en orden incorrecto (marcadores inteligentes)
 - Problema de tamaño de archivo XLSB de Excel: la lista de selección desaparece
 
- -Error de forma a imagen al guardar PDF usando Aspose Cells
+-Error de forma a imagen al guardar PDF usando Aspose Cells
 
 - Después de convertir a PDF, el archivo está dañado
 

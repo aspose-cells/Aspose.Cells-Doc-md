@@ -20,22 +20,22 @@ for .NET 的 Aspose.Cells 现在还包括通过 Xamarin 的 iOS 的 Aspose.Cells
 |:- |:- |:- |
 |CELLSNET-45740|查找父数据透视表的子数据透视表|新功能|
 |CELLSNET-45771|处理自动轴单位，如 Microsoft Excel|新功能|
-|CELLSNET-45668|读写 XLSB 文件的 tableSingleCells|新功能|
+|CELLSNET-45668|读写XLSB文件的tableSingleCells|新功能|
 |CELLSNET-45830|Aspose.Cells.GridDesktop 删除行列后添加事件|新功能|
 |CELLSNET-45805|GridWeb 无法正确呈现滚动条|新功能|
 |CELLSNET-45845|往返转换期间不受支持的外部样式表|强化|
 |CELLSNET-45803|XLS 格式应与 MS Excel 2016 匹配|强化|
 |CELLSNET-45842|FontSettings 互相覆盖，而 MS Excel 保留它们|强化|
 |CELLSNET-45653|GridDesktop 中的筛选无法正常工作或类似 Microsoft Excel|强化|
-|CELLSNET-45763|形状文本在 Excel 到 PDF 转换中旋转|漏洞|
+|CELLSNET-45763|形状文本在 Excel 中旋转为 PDF 转换|漏洞|
 |CELLSNET-45669|转换为图像时字符重叠|漏洞|
-|CELLSNET-45841|处理 Power Pivot 的 XLSB 文件在打开和重新保存时损坏|漏洞|
+|CELLSNET-45841|XLSB 处理 Power Pivot 的文件在打开和重新保存时损坏|漏洞|
 |CELLSNET-45819|从 HTML 导出到 Excel 时不显示边框|漏洞|
 |CELLSNET-45807|当 HtmlSaveOptions.ExportActiveWorksheetOnly 属性设置为 true 时，不会出现网格线|漏洞|
 |CELLSNET-45788|支持为单标签文档导出单独的样式表|漏洞|
 |CELLSNET-45826|将 XLSX 转换为 PDF 后图像属性（标题和主题）丢失|漏洞|
 |CELLSNET-45811|呈现 Excel 会剪切右边框并丢失一些数据|漏洞|
-|CELLSNET-45808|使用 RTL 语言时，将 Excel 转换为 PDF 会使用撇号剪切单词|漏洞|
+|CELLSNET-45808|使用 RTL 语言时，将 Excel 转换为 PDF 会用撇号剪切单词|漏洞|
 |CELLSNET-45840|保存为 XLS 格式后图表被拉伸 - “鼠标悬停事件 - embedded.xls”|漏洞|
 |CELLSNET-45815|当 QAR_symbol 设置为“丿.兀”时，Chart.Calculate 挂起。|漏洞|
 |CELLSNET-45765|当自定义格式使用“mm”格式时无法导出图表|漏洞|
@@ -45,7 +45,7 @@ for .NET 的 Aspose.Cells 现在还包括通过 Xamarin 的 iOS 的 Aspose.Cells
 |CELLSNET-44901|简单重新保存后，图例条目略微下移|漏洞|
 |CELLSNET-45775|将图表转换为图像时缺少第二个垂直轴标签|漏洞|
 |CELLSNET-45850|将工作表从一本书复制到另一本书时出错|漏洞|
-|CELLSNET-45847|SpreadsheetML 到 XLSX - Aspose.Cells 设置保护设置|漏洞|
+|CELLSNET-45847|SpreadsheetML 至 XLSX - Aspose.Cells 设置保护设置|漏洞|
 |CELLSNET-45846|MS Excel 在打开重新保存的文件时提示错误信息|漏洞|
 |CELLSNET-45838|左图即“季节性调整” - 输出 Excel 文件中的条形大小变化|漏洞|
 |CELLSNET-45837|电子表格 XML 无效，因为它包含具有双前缀的元素|漏洞|
@@ -73,12 +73,12 @@ for .NET 的 Aspose.Cells 现在还包括通过 Xamarin 的 iOS 的 Aspose.Cells
 #### **添加 LoadOptions.ParsingPivotCachedRecords 属性**
 指示加载文件时是否解析透视缓存记录。默认值为false。仅适用于Excel Xlsx、Xltx、Xltm、Xlsm和Xlsb文件格式。
 #### **添加 HtmlSaveOptions.ExcludeUnusedStyles 属性**
-表示是否排除未使用的样式。默认值为false。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+表示是否排除未使用的样式。默认值为false。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportDocumentProperties 属性**
-是否导出文档属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+是否导出文档属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportWorksheetProperties 属性**
-表示是否导出工作表属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+表示是否导出工作表属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 HtmlSaveOptions.ExportWorkbookProperties 属性**
-是否导出工作簿属性。默认值为true。如果要将 HTML 或 Mht 文件导入到 Excel，请保持默认值。
+是否导出工作簿属性。默认值为true。如果要将 HTML 或 Mht 文件导入 Excel，请保持默认值。
 #### **添加 PivotTable.GetChildren() 方法**
 获取使用此数据透视表数据作为数据源的子数据透视表。

@@ -20,7 +20,7 @@ url: /ru/java/page-setup-features/
 
 ### **Ориентация страницы**
 
- Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setOrientation (ТипОриентации Страницы)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) метод.[**setOrientation (ТипОриентации Страницы)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) метод принимает[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) перечисление в качестве параметра. Члены[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)перечисление приведено ниже.
+Ориентацию страницы можно установить как книжную или альбомную с помощью[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setOrientation (ТипОриентации Страницы)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) метод.[**setOrientation (ТипОриентации Страницы)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) метод принимает[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) перечисление в качестве параметра. Члены[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) перечисление приведено ниже.
 
 |**Типы ориентации страницы**|**Описание**|
 |:- |:- |
@@ -37,7 +37,7 @@ url: /ru/java/page-setup-features/
 
 ### **Параметры FitToPages**
 
- Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) а также[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) методы. Эти методы также используются для масштабирования рабочих листов.
+ Чтобы уместить содержимое рабочего листа в определенное количество страниц, используйте[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) и[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) методы. Эти методы также используются для масштабирования рабочих листов.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
@@ -57,7 +57,7 @@ url: /ru/java/page-setup-features/
 |БумагаB4|B4 (250 мм x 354 мм)|
 |БумагаB5|B5 (182 мм x 257 мм)|
 |БумагаВизитная Карточка|Визитная карточка (90 мм x 55 мм)|
-|БумагаCЛист|Лист размера C|
+|БумагаCЛист|Лист размера С|
 |БумагаDЛист|Лист размера D|
 |БумагаКонверт10|Конверт №10 (4-1/8 дюйма x 9-1/2 дюйма)|
 |БумагаКонверт11|Конверт №11 (4-1/2 дюйма x 10-3/8 дюйма)|
@@ -113,7 +113,7 @@ Aspose.Cells полностью поддерживает параметры на
 
 ![дело:изображение_альтернативный_текст](page-setup-features_2.png)
 
- Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)который представляет собой файл Excel Microsoft. Класс Workbook содержит коллекцию Worksheets, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.
+ Aspose.Cells предоставляет класс,[**Рабочая тетрадь**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) который представляет собой файл Excel Microsoft. Класс Workbook содержит коллекцию Worksheets, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) учебный класс.
 
  Класс Worksheet предоставляет свойство PageSetup, используемое для установки параметров настройки страницы. Атрибут PageSetup является объектом[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) класс, который позволяет устанавливать различные параметры макета страницы для печатного листа. Класс PageSetup предоставляет различные свойства и методы, используемые для установки параметров настройки страницы.
 
@@ -130,13 +130,13 @@ Aspose.Cells полностью поддерживает параметры на
 
 ### **Центрировать на странице**
 
- Можно центрировать что-то на странице по горизонтали и по вертикали.[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) класс имеет членов для этой цели:[**setCenterГоризонтально**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) а также[**setCenterVertical**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+ Можно центрировать что-то на странице по горизонтали и по вертикали.[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) класс имеет членов для этой цели:[**setCenterГоризонтально**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) и[**setCenterVertical**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
 ### **Поля верхнего и нижнего колонтитула**
 
-Установите поля верхнего и нижнего колонтитула с помощью[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) члены, такие как[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) а также[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Установите поля верхнего и нижнего колонтитула с помощью[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) члены, такие как[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) и[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -159,7 +159,7 @@ Aspose.Cells позволяет добавлять верхние и нижни�
 |**Команды сценария**|**Описание**|
 |:- |:- |
 |&П|Текущий номер страницы.|
-|&ГРАММ|Картинка.|
+|&Г|Картинка.|
 |&N|Общее количество страниц.|
 |&D|Текущая дата.|
 |&Т|Текущее время.|
@@ -177,7 +177,7 @@ Aspose.Cells позволяет добавлять верхние и нижни�
 
 ### **Вставьте графику в верхний или нижний колонтитул**
 
-[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) класс имеет методы[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) а также[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) для добавления изображений в верхний и нижний колонтитулы листа. Эти методы принимают два параметра:
+[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) класс имеет методы[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) и[**setFooterPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) для добавления изображений в верхний и нижний колонтитулы листа. Эти методы принимают два параметра:
 
 - **Раздел**, раздел верхнего или нижнего колонтитула, где будет размещено изображение. Есть три секции: левая, центральная и правая, представленные числовыми значениями 0, 1 и 2 соответственно.
 - **Входной поток файла**, графические данные. Двоичные данные должны быть записаны в буфер массива байтов.
@@ -232,7 +232,7 @@ Microsoft Параметры настройки страницы Excel пред�
 
 ### **Установить заголовки для печати**
 
- Aspose.Cells позволяет указать, что заголовки строк и столбцов будут повторяться на всех страницах печатного листа. Для этого используйте[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) а также[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) характеристики.
+ Aspose.Cells позволяет указать, что заголовки строк и столбцов будут повторяться на всех страницах печатного листа. Для этого используйте[**Настройка страницы**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) учебный класс'[**setPrintTitleColumns**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleColumns) и[**setPrintTitleRows**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintTitleRows) характеристики.
 
 Строки или столбцы, которые будут повторяться, определяются путем передачи их номеров строк или столбцов. Например, строки определяются как $1:$2, а столбцы — как $A:$B.
 
@@ -249,7 +249,7 @@ Microsoft Параметры настройки страницы Excel пред�
 - [**setPrintDraft**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintDraft), логическое свойство, определяющее, следует ли печатать рабочий лист в черновом качестве или нет.
 - [**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors), определяет, следует ли печатать ошибки ячеек как отображаемые, пустые, тире или Н/Д.
 
- Чтобы установить[**ПечатьКомментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) а также[**Ошибки печати**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) properties, Aspose.Cells также предоставляет два перечисления,[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) а также[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) которые содержат предварительно определенные значения, которые должны быть присвоены[**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) а также[**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) свойства соответственно.
+ Чтобы установить[**ПечатьКомментарии**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) и[**Ошибки печати**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) properties, Aspose.Cells также предоставляет два перечисления,[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) и[**PrintErrorsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintErrorsType) которые содержат предварительно определенные значения, которые должны быть присвоены[**setPrintComments**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintComments) и[**setPrintErrors**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintErrors) свойства соответственно.
 
  Предустановленные значения в[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/PrintCommentsType) перечисление описано ниже.
 

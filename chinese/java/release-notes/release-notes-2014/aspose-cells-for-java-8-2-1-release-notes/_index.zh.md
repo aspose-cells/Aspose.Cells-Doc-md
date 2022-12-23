@@ -20,7 +20,7 @@ Aspose.Cells for Java 已更新到版本 8.2.1，我们很高兴地宣布此版�
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-40955) - 形状绝对定位
 (CELLSJAVA-40943) - 向 PasteOptions 添加一个选项以仅粘贴范围内的可见单元格
@@ -36,10 +36,10 @@ Aspose.Cells for Java 已更新到版本 8.2.1，我们很高兴地宣布此版�
 (CELLSJAVA-40956) - Chart.getName() 返回错误的图表名称
 (CELLSJAVA-40952) - Series.hasLeaderLines() 没有返回正确的值
 (CELLSJAVA-40944) - 嵌入式 PDF 在合并工作簿后损坏
-(CELLSJAVA-40979) - 一些方块附加到呈现的 PDF 饼图中的数据标签
+(CELLSJAVA-40979) - 一些方块附加到呈现的饼图中的数据标签 PDF
 (CELLSJAVA-40975) - XLSX 到 Jpeg 的转换 - 性能
 (CELLSJAVA-40973) - 禁用 setExtractContentPermission - “复制或提取内容的权限”选项不起作用
-(CELLSJAVA-40965) - Cells 在PDF中互相碰碰
+(CELLSJAVA-40965) - Cells 在PDF中遇到对方
 (CELLSJAVA-40962) - Aspose.Cells 以不同于 MS Excel 的方式呈现 #N/A 值
 (CELLSJAVA-40926) - 表格边框在 100% 缩放时是正常的而不是粗体
 (CELLSJAVA-40833) - 图表的图像质量低 - 图表到图像的转换
@@ -49,8 +49,8 @@ Aspose.Cells for Java 已更新到版本 8.2.1，我们很高兴地宣布此版�
 (CELLSJAVA-40946) - 数据标签在图表图像中的位置错误
 (CELLSJAVA-40821) - 使用 ToImage 将图表另存为 EMF 时，文本框丢失
 (CELLSJAVA-40819) - 使用 ToImage 将图表保存为 EMF 时轴值错误
-(CELLSJAVA-40818) - 使用 ToImage 将图表保存为 EMF 时缺少轴标题
-(CELLSJAVA-40830) - 导出为 PDF 时堆叠区域和条形图中的反向 z-index
+(CELLSJAVA-40818) - 使用 ToImage 将图表另存为 EMF 时缺少轴标题
+(CELLSJAVA-40830) - 导出到 PDF 时堆叠区域和条形图中的反向 z-index
 
 例外情况
 

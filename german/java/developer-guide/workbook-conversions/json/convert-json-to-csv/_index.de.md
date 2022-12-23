@@ -1,12 +1,12 @@
 ﻿---
-title: Konvertieren Sie JSON in CSV
+title: Wandeln Sie JSON in CSV um
 type: docs
 weight: 160
 url: /de/java/convert-json-to-csv/
 ---
-Aspose.Cells unterstützt die Konvertierung von einfachem sowie verschachteltem JSON in CSV. Dafür sorgt die API[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Die Klasse bietet die Optionen für das JSON-Layout wie z[**ArrayTitle ignorieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle)(ignoriert den Titel, wenn das Array eine Eigenschaft eines Objekts ist) oder[**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable)(verarbeitet das Array als Tabelle). Das[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-Klasse verarbeitet den JSON-Code mithilfe der Layoutoptionen, die mit der festgelegt wurden[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Klasse.
+Aspose.Cells unterstützt das Umwandeln von einfachen sowie verschachtelten JSON in CSV. Dafür sorgt API[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen. Das[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Klasse bietet die Optionen für JSON Layout wie[**ArrayTitle ignorieren**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle)(ignoriert den Titel, wenn das Array eine Eigenschaft eines Objekts ist) oder[**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable)(verarbeitet das Array als Tabelle). Das[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Die Klasse verarbeitet die JSON unter Verwendung der mit der festgelegten Layoutoptionen[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)Klasse.
 
-Das folgende Codebeispiel veranschaulicht die Verwendung von[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen zum Laden der[Quell-JSON-Datei](SampleJson.json)und generiert die[CSV-Datei ausgeben](SampleJson_out.csv).
+Das folgende Codebeispiel veranschaulicht die Verwendung von[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen zum Laden der[Quelldatei JSON](SampleJson.json)und generiert die[Ausgabedatei CSV](SampleJson_out.csv).
 
 ## Beispielcode
 

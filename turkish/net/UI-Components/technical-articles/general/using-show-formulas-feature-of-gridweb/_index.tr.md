@@ -24,8 +24,8 @@ Aspose.Cells.GridWeb, Microsoft Excel'de Formülleri Göster adlı özelliği sa
 
 Dosya GridWeb'e yüklenir ve aşağıdaki resimde tüm değerleri içeren bir sayfa görebiliriz.
 
-![yapılacaklar:resim_alternatif_Metin](using-show-formulas-feature-of-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](using-show-formulas-feature-of-gridweb_1.png)
 
 CTRL + ~ tuşlarına bastıktan sonra tüm formüller görüntülenir.
 
-![yapılacaklar:resim_alternatif_Metin](using-show-formulas-feature-of-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](using-show-formulas-feature-of-gridweb_2.png)

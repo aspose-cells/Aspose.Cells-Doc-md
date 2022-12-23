@@ -37,12 +37,12 @@ Kodun yürütülmesinden sonra, A1 hücresi ile aynı stile sahip tüm hücreler
 
 ### Ekran görüntüleri
 
-![yapılacaklar:resim_alternatif_Metin](find-cells-with-specific-style_1.png)
+![yapılacaklar:resim_alternatif_metin](find-cells-with-specific-style_1.png)
 
 **Figür:** Stilleri olan hücrelere sahip kaynak dosya
 
  İşte aşağıdaki kod tarafından oluşturulan çıktı dosyasıdır. Hücre ile aynı stile sahip tüm hücreleri görebilirsiniz.**A1** "Bulundu" metni var
 
-![yapılacaklar:resim_alternatif_Metin](find-cells-with-specific-style_2.png)
+![yapılacaklar:resim_alternatif_metin](find-cells-with-specific-style_2.png)
 
 **Figür:**Şuna göre arama yaptıktan sonra bulunan hücrelerle çıktı dosyası**A1** stil

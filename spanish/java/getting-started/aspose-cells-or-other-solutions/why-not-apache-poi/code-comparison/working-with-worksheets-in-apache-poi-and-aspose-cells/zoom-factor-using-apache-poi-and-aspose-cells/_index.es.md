@@ -5,7 +5,7 @@ weight: 70
 url: /es/java/zoom-factor-using-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Factor de zoom**
-Microsoft Excel proporciona una función que permite a los usuarios establecer el zoom o el factor de escala de una hoja de cálculo. Esta característica ayuda a los usuarios a ver el contenido de la hoja de trabajo en vistas más pequeñas o más grandes.
+Microsoft Excel proporciona una función que permite a los usuarios establecer el zoom o el factor de escala de una hoja de trabajo. Esta característica ayuda a los usuarios a ver el contenido de la hoja de trabajo en vistas más pequeñas o más grandes.
 
 Aspose.Cells proporciona una clase, Workbook, que representa un archivo de Excel Microsoft. La clase Workbook contiene una WorksheetCollection que permite el acceso a cada hoja de trabajo en un archivo de Excel.
 

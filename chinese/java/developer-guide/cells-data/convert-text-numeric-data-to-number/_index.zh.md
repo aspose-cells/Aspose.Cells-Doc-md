@@ -18,13 +18,13 @@ Aspose.Cells for Java API 提供[**Cells.convertStringToNumericValue()**](https:
 
 **输入文件：作为文本字符串输入的数字** 
 
-![待办事项：图像_替代_文本](convert-text-numeric-data-to-number_1.png)
+![待办事项：图片_替代_文本](convert-text-numeric-data-to-number_1.png)
 
 这些字符串数字已使用以下方法转换为数字[**Cells.convertStringToNumericValue()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#convertStringToNumericValue()在下面的屏幕截图中。如您所见，它们现在是右对齐的。
 
 **输出文件：字符串已转换为数字** 
 
-![待办事项：图像_替代_文本](convert-text-numeric-data-to-number_2.png)
+![待办事项：图片_替代_文本](convert-text-numeric-data-to-number_2.png)
 
 以下示例代码说明了如何将所有字符串数字数据转换为所有工作表中的实际数字。
 

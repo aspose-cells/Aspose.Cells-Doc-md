@@ -24,7 +24,7 @@ Genel olarak sıralama, verilerin sütunlarda görüntülendiği bitişik bir ve
 
 **Microsoft Excel'deki Sırala iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_Metin](data-sorting_1.png)
+![yapılacaklar:resim_alternatif_metin](data-sorting_1.png)
 
 ## **Aspose.Cells ile Verileri Sıralama**
 
@@ -43,13 +43,13 @@ Bu örnek, Microsoft Excel'de oluşturulan "Book1.xls" şablon dosyasını kulla
 
 **Verilerle birlikte şablon Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](data-sorting_2.png)
+![yapılacaklar:resim_alternatif_metin](data-sorting_2.png)
 
 Aşağıdaki kodu çalıştırdıktan sonra, çıktı Excel dosyasından da görebileceğiniz gibi veriler uygun şekilde sıralanır.
 
 **Verileri sıraladıktan sonra çıktı Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](data-sorting_3.png)
+![yapılacaklar:resim_alternatif_metin](data-sorting_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-DataSorting-DataSorting.java" >}}
 

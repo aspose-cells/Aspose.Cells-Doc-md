@@ -1,25 +1,25 @@
 ﻿---
-title: SpreadsheetML - XLSX、XML
+title: SpreadsheetML - XLSX, XML
 type: docs
 weight: 10
 url: /zh/net/spreadsheetml-xlsx-xml/
 ---
 ## **关于 SpreadsheetML**
-SpreadsheetML 是一系列基于 XML 的电子表格文档格式的名称。 SpreadsheetML 有多个版本：
+SpreadsheetML 是一系列基于 XML 的电子表格文档格式的名称。 SpreadsheetML有几个版本：
 
-1. SpreadsheetML 版本 2003 在 Microsoft Word 2003 中引入。SpreadsheetML 是 Microsoft 朝着开放文档格式迈出的重要一步。
-1. [办公室开放 XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) 是 Microsoft Office 2007 应用程序中引入的基于 XML 的新格式。 Office Open XML 是多种基于 XML 的专用标记语言的容器格式。 SpreadsheetML 版本 2007 是 Microsoft Office Excel 2007 用来存储其文档的标记语言。
+1. SpreadsheetML 版本 2003 是在 Microsoft Word 2003 中引入的。SpreadsheetML 是 Microsoft 向开放文档格式迈出的重要一步。
+1. [办公室开放 XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) 是 Microsoft Office 2007 应用程序中引入的基于 XML 的新格式。 Office Open XML 是多种基于 XML 的专用标记语言的容器格式。 SpreadsheetML version 2007是Microsoft Office Excel 2007用来存储其文档的标记语言。
 1. Microsoft Excel 2010 将文档存储在更新的 OOXML 标准中定义的 SpreadsheetML 版本 2010 中。
-## **Aspose.Cells 中的 SpreadsheetML**
-SpreadsheetML 共有三个“版本”：
+## **SpreadsheetML 在 Aspose.Cells**
+有 SpreadsheetML 的三个“版本”可用：
 
-|**SpreadsheetML“版本”**|**适用标准/规范**|**支持 Aspose.Cells for .NET**|
+|**SpreadsheetML “版本”**|**适用标准/规范**|**支持 Aspose.Cells for .NET**|
 |:- |:- |:- |
 |Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|是的|
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|是的|
 |Microsoft Excel 2010|OOXML ISO/IEC DIS 29500|是的|
 |Microsoft Excel 2013|OOXML ISO/IEC DIS 29500|是的|
-OOXML SpreadsheetML 文档通常以 XLSX 文件的形式出现，它们是 ZIP 包。除了 XLSX。 Aspose.Cells 为加载、保存和转换 SpreadsheetML 文档提供了广泛的支持。这种包罗万象的实现是可能的，因为 Aspose.Cells 在设计时考虑了 Microsoft Excel 文档的结构（并且 SpreadsheetML 以模仿 Microsoft Excel 文档的内部表示而闻名）。
+OOXML SpreadsheetML 文档通常以 XLSX 文件的形式出现，它们是 ZIP 包。除了 XLSX. Aspose.Cells 还提供了对加载、保存和转换 SpreadsheetML 文档的广泛支持。这种包罗万象的实现是可能的，因为 Aspose.Cells 在设计时考虑到了 Microsoft Excel 文档的结构（并且 SpreadsheetML 以模仿 Microsoft Excel 文档的内部表示而闻名）。
 ### **OOXML 是开放的，为什么要使用 Aspose.Cells？**
 的确，Office Open XML 技术可以仅使用 XML 类来构建文档处理和生成应用程序，而无需依赖第三方库（例如 Aspose.Cells）。但是，我们坚信，当您拥有处理 OOXML 文档，而不是通过 XML 或其他库工作。
 

@@ -10,10 +10,10 @@ Bir Microsoft Excel belgesini belge kitaplığında önizlemek için:
 
    **Menüden Belge Önizleme'yi seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](preview-document_1.png)
+![yapılacaklar:resim_alternatif_metin](preview-document_1.png)
 
 
 
 **Belge önizlemesi** 
 
-![yapılacaklar:resim_alternatif_Metin](preview-document_2.png)
+![yapılacaklar:resim_alternatif_metin](preview-document_2.png)

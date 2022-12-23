@@ -26,17 +26,17 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 
 |**Funktion**|**Beskrivning**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |:- |
-|Högkvalitativa konverteringar|Konvertera snabbt och tillförlitligt mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta implementeringen av XLS-format du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom stöder komponenten<br>alla stora Excel 2007, 2010 och 2013 filformat till exempel XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TSV|Ladda och spara dokument i TSV-filformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Spara som HTML är tillgängligt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Konverteringar av hög kvalitet|Konvertera snabbt och tillförlitligt mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel-arbetsbok (XLS)|Den snabbaste och mest kompletta XLS-formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom stöder komponenten<br>alla stora Excel 2007, 2010 och 2013 filformat, till exempel XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kommaseparerat värde (CSV)|Omfattande stöd för formatet CSV för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|Ladda och spara dokument i filformatet TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Spara som HTML är tillgänglig.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[OpenDocument - ODS](/cells/sv/net/opendocument-ods/)|Aspose.Cells kan ladda och spara dokument i formatet OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Konvertera till PDF-filer|Konvertera alla kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Konvertera till PDF-filer|Konvertera valfritt kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XPS-dokument](/cells/sv/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Konvertera Excel-kalkylblad till XPS-dokument|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XPS dokument](/cells/sv/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Konvertera Excel-kalkylblad till XPS-dokument|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Konvertera kalkylblad till bild & kalkylblad till bild för sida](/cells/sv/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Kalkylarken kan också exporteras till Tagged Image File Format (TIFF) med valfri komprimeringstyp.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Rendering och tryckning**
 Aspose.Cells for .NET ger nu högtrogen återgivning av kalkylbladssidor.
@@ -44,8 +44,8 @@ Aspose.Cells for .NET ger nu högtrogen återgivning av kalkylbladssidor.
 |**Funktion**|**.NET**|**.NET Standard 2.0** |
 |:- |:- |:- |
 |Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendera kalkylbladssidor till rasterbilder (TIFF, flersidig TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Gör kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Återge kalkylbladssidor till rasterbilder (TIFF, flersidiga TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Återge kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange bildupplösning, kvalitet, komprimering och andra alternativ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skriv ut kalkylblad med .NET utskriftsinfrastruktur. Komponenten har en inbyggd utskriftsmetod för att skriva ut kalkylbladen som visas i Microsoft Excels förhandsgranskning.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

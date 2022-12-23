@@ -1,10 +1,10 @@
 ﻿---
-title: Enregistrer chaque feuille de calcul dans un PDF différent
+title: Enregistrer chaque feuille de calcul dans un autre PDF
 type: docs
 weight: 10
 url: /fr/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - Enregistrer chaque feuille de calcul dans un PDF différent**
+## **Aspose.Cells - Enregistrer chaque feuille de calcul dans différents PDF**
 Aspose.Cells prend en charge la conversion de fichiers XLS (contenant des images, des graphiques, etc.) en documents PDF. Aspose.Cells for .NET peut fonctionner indépendamment pour convertir une feuille de calcul en document PDF et vous n'avez plus besoin d'utiliser Aspose.Pdf for .NET pour la conversion. La conversion ne nécessite pas non plus de créer/utiliser de fichier(s) temporaire(s) car l'ensemble du processus peut être effectué dans la mémoire.
 
 **C#**
@@ -55,7 +55,7 @@ for (int j = 0; j < workbook.Worksheets.Count; j++)
 
 {{< /highlight >}}
 ## **Télécharger le code d'exécution**
- Télécharger**Enregistrer chaque feuille de calcul dans un PDF différent** forment l'un des sites de codage social mentionnés ci-dessous :
+ Télécharger**Enregistrer chaque feuille de calcul dans un autre PDF** forment l'un des sites de codage social mentionnés ci-dessous :
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Save.Each.Worksheet.to.Different.PDF.Aspose.Cells.zip)
 

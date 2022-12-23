@@ -22,9 +22,9 @@ url: /zh/java/aspose-cells-for-java-20-11-release-notes/
 |CELLSJAVA-43313|图表标签在打印时更改其位置|漏洞|
 |CELLSJAVA-43314|0/100% 线不打印 100% 饼图|漏洞|
 |CELLSJAVA-43316|打印图表时的各种问题|漏洞|
-|CELLSJAVA-40582|智能艺术文本未正确呈现为 PDF/图像|漏洞|
+|CELLSJAVA-40582|智能艺术文本未正确呈现为 PDF/image|漏洞|
 |CELLSJAVA-41639|从“XML 电子表格 2003”格式转换为 XLSX 格式时不保留列宽|漏洞|
-|CELLSJAVA-43315|将 XLS 转换为 XLSX 会使文件损坏，并在将输出 XLSX 转换为 PDF 时出现“Shape to Image”错误|漏洞|
+|CELLSJAVA-43315|将 XLS 转换为 XLSX 会使文件损坏并在将输出 XLSX 转换为 PDF 时出现“形状到图像”错误|漏洞|
 |CELLSJAVA-43334|表问题上的自动筛选|漏洞|
 |
 
@@ -67,7 +67,7 @@ url: /zh/java/aspose-cells-for-java-20-11-release-notes/
 
 ### **添加 ListObject.Filter() 方法。**
 
-过滤表格。
+过滤表。
 
 ### **添加覆盖 XmlMapCollection.Clear() 方法。**
 

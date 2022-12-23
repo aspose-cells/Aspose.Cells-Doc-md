@@ -151,12 +151,12 @@ void AddingCellFormula()
 
 ### **1) VSTO**
 
-![yapılacaklar:resim_alternatif_Metin](use-formulas-functions-to-process-data_1.png)
+![yapılacaklar:resim_alternatif_metin](use-formulas-functions-to-process-data_1.png)
 
 **Şekil 1:** VSTO ile formülleri kullanarak çıktı alın
 
 ### **2) Aspose.Cells for .NET**
 
-![yapılacaklar:resim_alternatif_Metin](use-formulas-functions-to-process-data_2.png)
+![yapılacaklar:resim_alternatif_metin](use-formulas-functions-to-process-data_2.png)
 
 **Şekil 2:** Aspose.Cells for .NET ile formülleri kullanarak çıktı

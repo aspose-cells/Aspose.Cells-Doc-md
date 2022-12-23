@@ -28,7 +28,7 @@ url: /it/net/aspose-cells-for-net-7-3-0-release-notes/
 
  Miglioramenti
 
-- Problema di versione mono supportata
+- Mono problema di versione supportato
 - Impossibile utilizzare la formula come parametro di
 - Le funzioni personalizzate possono restituire intervalli che possono essere utilizzati su SUM
 - Applicazione di temi ai grafici
@@ -52,14 +52,14 @@ url: /it/net/aspose-cells-for-net-7-3-0-release-notes/
 - Un problema con il metodo Cells.ExportDataTableAsString() e la formattazione personalizzata
 - Un problema serio con la tabella pivot
 - L'utilizzo del metodo Workbook.CalculateFormula() su più cartelle di lavoro al volo dà #VALORE
-- Il rendering PDF di forme aziendali (testo all'interno) non è piacevole
+- PDF il rendering di forme aziendali (testo all'interno) non è piacevole
 - Problema con il sommario XLS basato sul numero di pagine stampate
 
- -La conversione PDF perde i valori delle aree denominate
+ -La conversione PDF perde i valori delle aree nominate
 
 - Fare riferimento a celle con valori da formule di matrice non funziona
 
- -Cells Problema di formattazione
+-Cells Problema di formattazione
 
 - Problema con la formula che fa riferimento a un'immagine
 - Le formule di matrice in SpreadsheetML non vengono trasferite durante la conversione in XLSX

@@ -14,7 +14,7 @@ url: /tr/java/formatting-pivot-table/
 
 #### **AutoFormat ve PivotTableStyle Türlerini Ayarlama**
 
- Aşağıdaki kod örneği, otomatik biçim türünün ve pivot tablo stili türünün nasıl ayarlanacağını gösterir.[**Otomatik BiçimTürü**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) ve[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) özellikleri.
+ Aşağıdaki kod örneği, otomatik biçim türünün ve pivot tablo stili türünün nasıl ayarlanacağını gösterir.[**Otomatik BiçimTürü**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#AutoFormatType) ve[**PivotTableStyleType**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#PivotTableStyleType) özellikler.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-SetAutoFormatandPivotTableStyleTypes-SetAutoFormatandPivotTableStyleTypes.java" >}}
 

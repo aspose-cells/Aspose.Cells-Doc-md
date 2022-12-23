@@ -19,37 +19,37 @@ url: /ja/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-43975|レンダリング用の Aspose.Cells API による OTF フォント タイプのサポート|新機能|
 |CELLSNET-47445|ODS ファイルとして保存するとピボット テーブルが表示されない|新機能|
 |CELLSNET-47495|スライドが画像である PPTX へのワークブックの変換をサポートします。|新機能|
-|CELLSNET-47499|ページが写真であるワークブックを DOCX に変換する sipport。|新機能|
+|CELLSNET-47499|ワークブックを DOCX に変換するポートは、ページが画像です。|新機能|
 |CELLSNET-47538|.ods ファイルのサポート テーブル。|新機能|
-|CELLSNET-47515|Aspose.Cells を使用している間、XLSX から HTML への変換に数分かかります|強化|
+|CELLSNET-47515|XLSX から HTML への変換には、Aspose.Cells を使用しているときに数分かかります|強化|
 |CELLSNET-47483|XLS をロードするときの例外「フォント名の最大長は 31 です」|強化|
 |CELLSNET-47489|PowerQueryFormulaParameters を編集するためのプロビジョニング|強化|
 |CELLSNET-47387|140K行を超える大きなExcelデータで数式を計算できない|パフォーマンス|
 |CELLSNET-47474|ページはブラウザと同じではありません|バグ|
-|CELLSNET-47480|ワークシートを HTML/画像に変換するときにスタイルとコンテンツが見つからない|バグ|
-|CELLSNET-47493|XLSX から HTML への変換に関する問題|バグ|
+|CELLSNET-47480|ワークシートを HTML/images に変換するとスタイルとコンテンツが見つからない|バグ|
+|CELLSNET-47493|XLSX を HTML に変換する際の問題|バグ|
 |CELLSNET-47501|右側のいくつかの正の数値フォーマット スペースが出力にありません|バグ|
-|CELLSNET-47503|XLSX を HTML に変換するときにフィールドが見つからない|バグ|
-|CELLSNET-47516|ファイルを HTML または MHT にエクスポートする際に線形グラデーションの背景をサポート|バグ|
+|CELLSNET-47503|XLSX を HTML に変換するとフィールドが欠落する|バグ|
+|CELLSNET-47516|ファイルを HTML または MHT にエクスポートするときに線形グラデーションの背景をサポート|バグ|
 |CELLSNET-47521|XLSX を再保存した後に出力ファイルを開くとエラー メッセージが表示される|バグ|
 |CELLSNET-47475|CalculateFormula() は、MS Excel とは異なる方法で計算します|バグ|
-|CELLSNET-47504|Excel から HTML レンダリングへの不適切な形式変換|バグ|
-|CELLSNET-47464|Excel から PDF への変換でドキュメントの上部に行が作成される|バグ|
+|CELLSNET-47504|Excel での HTML レンダリングへの不適切な形式変換|バグ|
+|CELLSNET-47464|エクセルからPDFに変換すると文書の先頭に線ができる|バグ|
 |CELLSNET-47481|ワークシートを画像に変換するときにラベルが見つからない|バグ|
-|CELLSNET-47497|Excel から EMF へのテキストの配置が一貫していない|バグ|
+|CELLSNET-47497|Excel から EMF へのテキストの配置が一貫していません|バグ|
 |CELLSNET-47522|Aspose レンダリングされた画像は、手動でコピーして貼り付ける場合と比較して、列間のギャップが大きくなります|バグ|
 |CELLSNET-47533|Excel ファイルの画像が PDF にレンダリングされない|バグ|
-|CELLSNET-47484|チャートとゼロ幅の Unicode 文字での XLSX から HTML への変換の問題|バグ|
+|CELLSNET-47484|XLSX から HTML への変換の問題 (グラフとゼロ幅の Unicode 文字)|バグ|
 |CELLSNET-47509|XLS から PDF: グラフの X 軸のスケーリングが正しくありません|バグ|
 |CELLSNET-47520|Cells.InsertRange によりチャート タイトルが失われる|バグ|
 |CELLSNET-47485|RelativeToOriginalPictureSize = false が機能しない|バグ|
 |CELLSNET-47507|json データからの Smart Marker マージ グループ化|バグ|
 |CELLSNET-47511|RemoveExternalLinks を呼び出した後も外部リンクが存在する|バグ|
-|CELLSNETCORE-74|XLSファイルの読み込みと保存中に形状の位置が変更されました|バグ|
+|CELLSNETCORE-74|XLS ファイルの読み込みと保存中に形状の位置が変更されました|バグ|
 |CELLSNETCORE-75|XLSファイルを読み込んで保存するとテキスト枠が小さくなる|バグ|
 |CELLSNETCORE-76|XLS ファイルのロードおよび保存中にフォントが変更される|バグ|
-|CELLSNET-47487|XLSB を PDF に変換するときの形状から画像へのエラー|例外|
-|CELLSNET-47490|非表示の要素を含む XLSX ファイルを HTML に変換すると例外がスローされる|例外|
+|CELLSNET-47487|XLSB を PDF に変換する際の形状から画像へのエラー|例外|
+|CELLSNET-47490|非表示の要素を含む XLSX ファイルを HTML に変換すると、例外がスローされる|例外|
 |CELLSNET-47526|ピボット フィールドがデータ フィールドの場合、例外がスローされます。|例外|
 |CELLSNET-47529|特定のファイルを使用した完全なラウンドトリップ HTML 変換中の例外|例外|
 |CELLSNET-47496|チャートを画像に変換するときの例外|例外|

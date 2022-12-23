@@ -9,19 +9,19 @@ url: /de/java/spreadsheet-editor-getting-started/
 - [Einführung](#SpreadsheetEditorGettingStarted-Introduction)
 - [System Anforderungen](#SpreadsheetEditorGettingStarted-SystemRequirements)
 - [Download und Installation](#SpreadsheetEditorGettingStarted-DownloadandInstallation)
-- [Die Unterstützung](#SpreadsheetEditorGettingStarted-Support)
-- [Beitragen](#SpreadsheetEditorGettingStarted-Contribute)
+- [Unterstützung](#SpreadsheetEditorGettingStarted-Support)
+- [Dazu beitragen](#SpreadsheetEditorGettingStarted-Contribute)
 - [Lizenz](#SpreadsheetEditorGettingStarted-License)
 ### **Einführung**
-Html5 Spreadsheet Editor ist eine Webanwendung, die Tabellenkalkulationsdokumente in einem Webbrowser anzeigen und bearbeiten kann. Es unterstützt Excel, SpreadsheetML, CVS, OpenDocument und viele andere Formate, die von Microsoft Excel unterstützt werden. Alle grundlegenden Funktionen einschließlich Zellenbearbeitung, Formatierung, Formelbearbeitung, Zeilen- und Spaltenverwaltung usw. werden unterstützt.
+Html5 Spreadsheet Editor ist eine Webanwendung, die Tabellenkalkulationsdokumente in einem Webbrowser anzeigen und bearbeiten kann. Es unterstützt Excel, SpreadsheetML, CVS, OpenDocument und viele andere von Microsoft Excel unterstützte Formate. Alle grundlegenden Funktionen einschließlich Zellenbearbeitung, Formatierung, Formelbearbeitung, Zeilen- und Spaltenverwaltung usw. werden unterstützt.
 
 ![todo: Bild_alt_Text](aowcrc1.png)
 
- Der HTML5-Tabellen-Editor verwendet viele Funktionen von[Aspose.Cells for Java](https://products.aspose.com/cells/java/)und zeigt, wie Sie sie verwenden, um eine Tabelle in Ihrer Java-Anwendung zu erstellen, zu manipulieren und zu rendern.
+ Der HTML5-Tabellen-Editor verwendet viele Funktionen von[Aspose.Cells for Java](https://products.aspose.com/cells/java/) und zeigt, wie Sie sie verwenden, um eine Tabelle in Ihrer Java-Anwendung zu erstellen, zu manipulieren und zu rendern.
 
 **Merkmale**
 
--  Arbeiten mit Dateien
+- Arbeiten mit Dateien
  - Unterstützte Formate
  - Lokale Dateien öffnen
  - Von Dropbox öffnen
@@ -33,7 +33,7 @@ Html5 Spreadsheet Editor ist eine Webanwendung, die Tabellenkalkulationsdokument
  - Blätter umbenennen
  - Wechseln Sie zwischen den Blättern
 -  Arbeiten mit Zeilen und Spalten
- - Fügen Sie eine Zeile hinzu
+ - Fügen Sie eine Reihe hinzu
  - Fügen Sie eine Spalte hinzu
  - Entfernen Sie eine Zeile
  - Entfernen Sie eine Spalte
@@ -127,7 +127,7 @@ Der Projekterstellungsprozess wird mit Maven verwaltet. Sie können also eine WA
 - Laden Sie den Quellcode des Projekts herunter.
 - Öffnen Sie das Projekt in NetBeans IDE.
 -  Klicken***Laufen*** Schaltfläche auf der Symbolleiste.
--  Auswählen***Glasfische*** Server als Anwendungsserver.
+-  Wählen***Glasfische*** Server als Anwendungsserver.
 
 **Verwenden von Eclipse**
 
@@ -136,14 +136,14 @@ Der Projekterstellungsprozess wird mit Maven verwaltet. Sie können also eine WA
 1. Installieren Sie M2Eclipse in Ihrer Eclipse-IDE. Der Installationsvorgang ist auf deren Website beschrieben.
 1. Laden Sie den Quellcode des Projekts herunter.
 1. Öffne das***Importieren*** Dialog aus dem Menü Datei.
-1.  Auswählen***Maven Projekt*** aus dem Importdialog.
+1.  Wählen***Maven Projekt*** aus dem Importdialog.
 1.  Klicken***Nächste***.
 1.  Klicken***Durchsuche*** um den Speicherort des Quellcodes auszuwählen.
-1.  Auswählen***pom.xml*** aus der Liste unten.
+1.  Wählen***pom.xml*** aus der Liste unten.
 1.  Klicken***Fertig***.
 
 Die Eclipse-IDE sollte das Projekt importieren und laden.
-### **Die Unterstützung**
+### **Unterstützung**
 **Fehlerbericht**
 
  Um einen Fehlerbericht zu senden, erstellen Sie ein neues Problem unter[Github-Projektseite](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) und bringen Sie das Etikett an***Insekt***.
@@ -154,7 +154,7 @@ Die Eclipse-IDE sollte das Projekt importieren und laden.
 
 **Fragen und Hilfe**
 
- Sie können alle Arten von Fragen im Zusammenhang mit dem HTML5-Tabellen-Editor stellen[Github-Problem](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) . Erstellen Sie einfach ein neues Problem und wenden Sie die an***Frage*** Etikett.
+ Sie können alle Arten von Fragen im Zusammenhang mit dem HTML5-Tabellen-Editor stellen[Github-Problem](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java/issues) . Erstellen Sie einfach ein neues Problem und wenden Sie die an***Frage*** Etikette.
 
 **Aspose.Cells for Java Foren**
 
@@ -163,10 +163,10 @@ Die Eclipse-IDE sollte das Projekt importieren und laden.
 **Aspose Blogs**
 
  Nehmen Sie Kontakt mit uns auf und bleiben Sie über Neuigkeiten zu unseren Produkten und Angeboten auf dem Laufenden. Etwas abonnieren[unser Blog hier](http://blog.aspose.com).
-### **Beitragen**
+### **Dazu beitragen**
 [](https://github.com/AsposeShowcase/Html5_Spreadsheet_Editor_by_Aspose.Cells_for_Java)
 
-[!\[todo:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Kalkulationstabelle_Editor_durch_Aspose.Cells_zum_Java)
+[!\[todo:image_alt_text\]](https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png)](https://github.com/AsposeShowcase/Html5_Kalkulationstabelle_Editor_von_Aspose.Cells_Pro_Java)
 
 
 Der HTML5-Tabellen-Editor ist ein Open-Source-Projekt, das jedem maximale Möglichkeiten bietet, zum Projekt beizutragen.

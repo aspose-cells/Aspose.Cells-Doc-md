@@ -20,7 +20,7 @@ In diesem Thema wird gezeigt, wie Aspose.Cells.GridWeb verwendet wird, indem ein
 
  Der Dialog Neue Website wird geöffnet.
 
-1.  Auswählen**ASP.NET Website für Webformulare** aus von Visual Studio installierten Vorlagen.
+1.  Wählen**ASP.NET Website für Webformulare** aus von Visual Studio installierten Vorlagen.
 1.  Wählen Sie den HTTP-Modus für den Speicherort der Website.
 
 ![todo: Bild_alt_Text](working-with-visual-studio_2.png)
@@ -75,7 +75,7 @@ Alle Ordner und Webanwendungen, die in Ihrem IIS-Stammordner gespeichert sind, w
 
 
 
-Alle Webseiten (einschließlich ASP.NET) können in zwei Modi geöffnet werden. Eine davon ist die Quellansicht, mit der Entwickler auf den Quellcode zugreifen und ihn ändern können. Der zweite Modus ist die Entwurfsansicht, die zum Entwerfen von Webseiten im WYSIWYG-Stil verwendet werden kann. Der obige Screenshot zeigt eine Quellansicht der Webseite default.aspx. Um die Entwurfsansicht anzuzeigen, klicken Sie auf**Entwurf**. 
+Alle Webseiten (einschließlich ASP.NET) können in zwei Modi geöffnet werden. Eine davon ist die Quellansicht, mit der Entwickler auf den Quellcode zugreifen und ihn ändern können. Der zweite Modus ist die Entwurfsansicht, die zum Entwerfen von Webseiten im WYSIWYG-Stil verwendet werden kann. Der obige Screenshot zeigt eine Quellansicht der Webseite default.aspx. Um die Entwurfsansicht anzuzeigen, klicken Sie auf**Design**. 
 
 **Entwurfsansicht der Seite „default.aspx“.** 
 
@@ -129,7 +129,7 @@ Löschen Sie die von Visual Studio hinzugefügte Seite „Default.aspx“, und f
 
 
 
-1.  Behalten, ändern oder löschen Sie die<!DOCTYPE>Schild.
+1.  Behalten, ändern oder löschen Sie die<!DOCTYPE> Schild.
 1.  Oder ändern Sie die<!DOCTYPE> Tag mit folgendem:
 
 {{< highlight "csharp" >}}

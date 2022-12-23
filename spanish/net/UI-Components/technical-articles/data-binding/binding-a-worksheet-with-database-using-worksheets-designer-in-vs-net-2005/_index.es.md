@@ -16,17 +16,17 @@ url: /es/net/binding-a-worksheet-with-database-using-worksheets-designer-in-vs-n
 
 ### **Paso 1: crear una base de datos de muestra**
 
- En primer lugar, crearemos una base de datos de muestra que se utilizará en este artículo. Hemos utilizado MS Access para crear una base de datos de muestra que contiene**Productos** tabla cuyo esquema se muestra a continuación:
+ En primer lugar, crearemos una base de datos de muestra que se utilizará en este artículo. Hemos utilizado MS Access para crear una base de datos de muestra que contiene**productos** tabla cuyo esquema se muestra a continuación:
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_1.png)
 
-**Figura:** Información de diseño de**Productos** mesa
+**Figura:** Información de diseño de**productos** mesa
 
- Se agregan pocos registros ficticios al**Productos** tabla como se muestra a continuación en la figura:
+ Se agregan pocos registros ficticios al**productos** tabla como se muestra a continuación en la figura:
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_2.png)
 
-**Figura:** Registros en**Productos** mesa
+**Figura:** Registros en**productos** mesa
 
 ### **Paso 2: Diseño de una aplicación de muestra**
 
@@ -115,7 +115,7 @@ Una vez que encuentre esa etiqueta, seleccione esa etiqueta completa en el códi
 
 **Figura:** Elección de elementos
 
- Ahora selecciona**GridWeb** componente y haga clic**OK**
+ Ahora seleccione**GridWeb** componente y haga clic**DE ACUERDO**
 
 {{% alert color="primary" %}}
 
@@ -212,7 +212,7 @@ Puede navegar por la conexión para comprobar la tabla y sus campos.
 
 **Figura:** Asistente de configuración del adaptador de datos
 
- Después de hacer clic**próximo** botón, haga clic en el**Consultor de construcción** para agregar el**Productos** tabla, seleccione Todas las columnas y haga clic en**OK** botón.
+ Después de hacer clic**Próximo** botón, haga clic en el**Consultor de construcción** para agregar el**productos** tabla, seleccione Todas las columnas y haga clic en**DE ACUERDO** botón.
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_26.png)
 
@@ -242,11 +242,11 @@ Puede navegar por la conexión para comprobar la tabla y sus campos.
 
 **Figura:** Seleccionando**Generar** **Conjunto de datos...** opción del menú
 
- Después de seleccionar**Generar** **Conjunto de datos...** opción del menú, una**Generar conjunto de datos** se abriría el diálogo. Usando este diálogo, podemos seleccionar cuál sería el nombre del nuevo**conjunto de datos** objeto que se creará y qué tablas se deben agregar a**conjunto de datos** . Controlar**Agregar este conjunto de datos al diseñador** opción y haga clic**OK** como se muestra a continuación en la figura.
+ Después de seleccionar**Generar** **Conjunto de datos...** opción del menú, una**Generar conjunto de datos** se abriría el diálogo. Usando este diálogo, podemos seleccionar cuál sería el nombre del nuevo**conjunto de datos** objeto que se creará y qué tablas se deben agregar a**conjunto de datos** . Controlar**Agregar este conjunto de datos al diseñador** opción y haga clic**DE ACUERDO** como se muestra a continuación en la figura.
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_31.png)
 
-**Figura:** haciendo clic**OK** botón para generar**conjunto de datos**
+**Figura:** haciendo clic**DE ACUERDO** botón para generar**conjunto de datos**
 
  Ahora, puedes ver un**dataSet11** objeto agregado al diseñador como se muestra a continuación en la figura. Establezca el modificador de objeto en**Protegido**.
 
@@ -268,13 +268,13 @@ Cierto código se genera automáticamente en la conexión relacionada con el arc
 
 **Figura:** Seleccionando**Diseñador de hojas de trabajo...** opción del menú
 
- Después**Editor de colección de hojas de trabajo** diálogo (también llamado**Diseñador de hojas de trabajo** ) se abrirá, puede ver varias propiedades que se pueden configurar para enlazar el**Hoja1** con cualquier tabla de la base de datos. seleccionemos**Fuente de datos** propiedad. Escribe**dataSet11** en él (que generamos y agregamos a la ventana del diseñador en el paso anterior). Luego haga clic en**miembro de datos** propiedad. Escribe**Productos** como un nombre de tabla aquí como se muestra a continuación en la figura:
+ Después**Editor de colección de hojas de trabajo** diálogo (también llamado**Diseñador de hojas de trabajo** ) se abrirá, puede ver varias propiedades que se pueden configurar para enlazar el**Hoja1** con cualquier tabla de la base de datos. seleccionemos**Fuente de datos** propiedad. Escribir**dataSet11** en él (que generamos y agregamos a la ventana del diseñador en el paso anterior). Luego haga clic en**miembro de datos** propiedad. Escribir**productos** como un nombre de tabla aquí como se muestra a continuación en la figura:
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
 
 **Figura:** Ajuste**Fuente de datos** y**miembro de datos** propiedades
 
- Ahora, puedes configurar**BindColumns** propiedad. Después de hacer clic en él, ahora puede agregar las columnas de enlace y configurar el**Subtítulo** , **Campo de datos** (Debe ser igual que**Productos** campos de tabla) y otras propiedades. Puede configurar el**EsAutoCreado** a**verdadero** y aplicar**Validación** y establecer el**NúmeroTipo**de diferentes campos para sus necesidades.
+ Ahora, puedes configurar**BindColumns** propiedad. Después de hacer clic en él, ahora puede agregar las columnas de enlace y configurar el**Subtítulo** , **Campo de datos** (Debe ser igual que**productos** campos de tabla) y otras propiedades. Puede configurar el**EsAutoCreado** a**verdadero** y aplicar**Validación** y establecer el**NúmeroTipo**de diferentes campos para sus necesidades.
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_36.png)
 
@@ -478,7 +478,7 @@ End Sub
 
 ##### **Paso 8: ejecutar su aplicación**
 
- Finalmente, podemos compilar y ejecutar nuestra aplicación presionando**Ctrl+F5** o haciendo clic**comienzo** botón. En el cuadro de diálogo de depuración, puede especificar la opción de depuración adecuada y hacer clic en**OK** como se muestra a continuación en la figura.
+ Finalmente, podemos compilar y ejecutar nuestra aplicación presionando**Ctrl+F5** o haciendo clic**Comenzar** botón. En el cuadro de diálogo de depuración, puede especificar la opción de depuración adecuada y hacer clic en**DE ACUERDO** como se muestra a continuación en la figura.
 
 ![todo:imagen_alternativa_texto](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_42.png)
 

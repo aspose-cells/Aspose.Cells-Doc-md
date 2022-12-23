@@ -14,7 +14,7 @@ Auf dieser Seite erfahren Sie, wie Sie Aspose Cells installieren und eine Hello 
 
 ### **Installieren Sie Aspose.Cells bis NuGet**
 
-NuGet ist der einfachste Weg, Aspose.Cells for .NET herunterzuladen und zu installieren.
+ NuGet ist der einfachste Weg, Aspose.Cells for .NET herunterzuladen und zu installieren.
 
 1.  Öffnen Sie Microsoft Visual Studio und NuGet Paket-Manager.
 1.  Suchen Sie nach "aspose.cells", um die gewünschte Aspose.Cells for .NET zu finden.

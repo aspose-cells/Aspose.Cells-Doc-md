@@ -12,7 +12,7 @@ url: /tr/net/add-cell-data-validations/
 ## **GridWeb'in GridCell'inde Veri Doğrulaması Oluşturma**
  Aşağıdaki örnek kod, bir**Veri doğrulama** B3 hücresinde. 20 ile 40 arasında olmayan bir değer girerseniz, B3 hücresi görünecektir.**Doğrulama Hatası** şeklinde**kırmızı XXXX** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-data-validations_1.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-data-validations_1.png)
 
 
 

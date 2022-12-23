@@ -6,7 +6,7 @@ url: /es/java/cut-and-paste-cells/
 ---
 ## **Cortar y Pegar Cells**
 
-Aspose.Cells le brinda la posibilidad de cortar y pegar celdas dentro de una hoja de trabajo usando el[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) método de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)recopilación. los[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) acepta los siguientes parámetros.
+Aspose.Cells le brinda la posibilidad de cortar y pegar celdas dentro de una hoja de trabajo usando el[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) método de la[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)recopilación. Él[**insertCutCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertCutCells(com.aspose.cells.Range,%20int,%20int,%20int)) acepta los siguientes parámetros.
 
 - [**Rango**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)El rango de celdas a cortar.
 - Índice de fila: el índice de la fila para insertar celdas.

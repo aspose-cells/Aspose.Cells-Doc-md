@@ -1,5 +1,5 @@
 ﻿---
-title: Återge en PDF-sida per Excel-arbetsblad - Excel till PDF-konvertering
+title: Rendera en PDF sida per Excel-arbetsblad - Excel till PDF konvertering
 type: docs
 weight: 40
 url: /sv/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
@@ -16,10 +16,10 @@ Se följande exempelkod som konverterar en Excel-fil med flera kalkylblad till P
 
 {{% alert color="primary" %}}
 
- Om[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) alternativet är inställt på**Sann** , renderas allt arkinnehåll till en PDF-sida. Pappersstorleken inställd av[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) är ogiltig, men de andra inställningarna som ställts in med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)träder fortfarande i kraft.
+ Om[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) alternativet är inställt på**Sann** , renderas allt arkinnehåll till en PDF sida. Pappersstorleken inställd av[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) är ogiltig, men de andra inställningarna som ställts in med[**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)träder fortfarande i kraft.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Om ditt kalkylblad innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) -metoden precis innan du renderar kalkylarket till PDF. Detta säkerställer att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF-filen.
+ Om ditt kalkylblad innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()-metoden precis innan kalkylarket renderas till PDF. Detta säkerställer att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

@@ -14,17 +14,17 @@ Bu sayfa Aspose.Cells for Android via Java 22.9 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-44721|PivotField'i hesaplanan alan aracılığıyla sıralamayı destekler|
 |CELLSJAVA-44811|Pdf/xps'ye dışa aktarırken çıktı alınacak sayfaları belirtme desteği|
-|CELLSJAVA-44194|Çizim şekli Excel'de PDF'e dönüştürmede işlenmez|
+|CELLSJAVA-44194|Çizim şekli Excel'de PDF işlemeye dönüştürülmüyor|
 |CELLSJAVA-44733|Bitişik sütun gizlendiğinde hücrenin kenarlığını görüntülemek için ms excel kurallarını araştırın: hücrenin sınırı senkronize edilmedi|
 |CELLSJAVA-44777|Formülleri yalnızca HtmlSaveOptions.Exportformula seçeneğine bağlı olarak html'ye aktarın|
 |CELLSJAVA-44791|Html dizesini hücreye ayrıştırmayı geliştirin|
-|CELLSJAVA-44695| Sayfanın solunda Satır Bilgisi bulunan XLS'den PDF'ye hatalı dönüştürme|
+|CELLSJAVA-44695| Sayfanın solunda Satır Bilgisi ile XLS'den PDF'e hatalı dönüştürme|
 |CELLSJAVA-44700|Pivot tablo hesaplanan alanları, veri kaynağı güncellenirken yenilenmiyor|
 |CELLSJAVA-44705|Cell.getDependents() İstisna atar veya tüm bağımlıları sağlayamaz|
 |CELLSJAVA-44717|Kenarlık (çizgi) stiliyle ilgili sorun|
 |CELLSJAVA-44707| sınır çizgisi görüntülenmiyor|
-|CELLSJAVA-44670| Çıktı HTML'sindeki Formüllerle ilgili sorun - Excel'den HTML'ye dönüştürme|
-|CELLSJAVA-44202|HTML'ye dışa aktarırken, grafikteki açıklama MS Excel ile aynı değil|
+|CELLSJAVA-44670| HTML çıktısındaki Formüllerle ilgili sorun - Excel'den HTML'e dönüştürme|
+|CELLSJAVA-44202|HTML'e dışa aktarırken tablodaki açıklama MS Excel ile aynı değil|
 |CELLSJAVA-44591|Etiketlerin metin döndürmesi, grafiğin çıktı görüntüsündeki Excel ile eşleşmiyor|
 |CELLSJAVA-44655|Negatif değere sahip Ağaç Haritası grafiği görüntülenemiyor, yürütmenin çalışmaya devam etmesine neden oluyor|
 |CELLSJAVA-44686|Chart(2016) başlık metni, Title.IsAutoText doğru olduğunda yanlıştır|
@@ -38,12 +38,12 @@ Bu sayfa Aspose.Cells for Android via Java 22.9 için sürüm notları içerir.
 |CELLSJAVA-44773|Gizli sütunları olan bir Excel belgesi GridWeb'e açılırken veriler karışıyor (Java)|
 |CELLSJAVA-44781|çok az yüksekliğe yeniden boyutlandırıldığında satır yeniden boyutlandırma sorununu araştırın|
 |CELLSJAVA-44787|Çalışma kitabındaki son satırda alt kenarlık kayboldu|
-|CELLSJAVA-44761|Excel dosyasının HTML'ye dönüştürülmesinde aşırı bellek kullanımı|
-|CELLSJAVA-44801|Aspose.Cells for Java v22.7 kullanılarak Excel'den PDF'e dönüştürme, bozuk karakterlere neden oluyor|
+|CELLSJAVA-44761|Excel dosyasının HTML'e dönüştürülmesinde aşırı bellek kullanımı|
+|CELLSJAVA-44801|Aspose.Cells for Java v22.7 kullanılarak Excel'den PDF'e dönüştürme bozuk karakterlere neden oluyor|
 |CELLSJAVA-44741|Html dizesini hücreye ayarladıktan sonra xlsx çıktısında satır sonu doğru değil|
 |CELLSJAVA-44776|Sayfa kopyalanırken tablo başlığı satırı stili kayboldu|
 |CELLSJAVA-44789|Excel elektronik tablosuna yerleştirilen metin kutusunun karakter dizesinin değiştirilmesiyle ilgili sorun|
-|CELLSJAVA-44792| Çalışma kitabını HTML biçimine sonsuz kaydetme (2892)|
+|CELLSJAVA-44792| Çalışma kitabını HTML biçimine (2892) sonsuz kaydetme|
 |CELLSJAVA-44864|Çalışma kitaplarının eşzamanlı olarak yüklenmesi, sahte "Dosya bozuk" hataları veriyor|
 |CELLSJAVA-44327|Grafikten görüntüye dönüştürmede siyah beyaz pasta dilimlerinde gösterilen kenarlıklar ve daha az çizgi|
 |CELLSJAVA-44591|Etiketlerin metin döndürmesi, grafiğin çıktı görüntüsündeki Excel ile eşleşmiyor|
@@ -51,15 +51,15 @@ Bu sayfa Aspose.Cells for Android via Java 22.9 için sürüm notları içerir.
 |CELLSJAVA-44860|bazı birleştirilmiş alanlarda hücre metninin görüntüsü excel'deki ile aynı değil|
 |CELLSJAVA-44832|PDF'ye dönüştürürken Excel'deki gibi tek sayfa yerine çoklu sayfalar çıkıyor|
 |CELLSJAVA-44812|Grafiğin çizim alanı azaltılamıyor|
-|CELLSJAVA-44831|MS Word, Aspose.Cells for Java tarafından XLSX dosyasından dönüştürülen DOCX'i açarken "Word şurada okunamayan içerik bulundu..." hatası veriyor|
+|CELLSJAVA-44831|MS Word, Aspose.Cells for Java tarafından XLSX dosyasından dönüştürülen DOCX dosyasını açarken "Word şurada okunamayan içerik bulundu..." hatası veriyor|
 |CELLSJAVA-44833|Cell.setHtmlString() yöntemi kullanılırken çıktı Excel dosyasındaki farklı sözcüklere veya içeriğin bir kısmına metin rengi uygulanmıyor|
-|CELLSJAVA-44852| Statik Excel dosyası HTML'ye dönüştürüldüğünde kenarlık yanlıştır|
-|CELLSJAVA-44856| Excel'den HTML'ye dönüştürme - Mini grafik (mini grafik) görüntülenmiyor/işlenmiyor|
+|CELLSJAVA-44852| Statik Excel dosyası HTML'e dönüştürüldüğünde kenarlık yanlış|
+|CELLSJAVA-44856| Excel'den HTML'e dönüştürme - Mini grafik (mini grafik) görüntülenmiyor/işlenmiyor|
 |CELLSJAVA-44859|Bazı Html biçimlendirmeleri, mevcut bir Excel dosyasındaki çalışma sayfası hücreleri için çalışmıyor|
-|CELLSJAVA-44725| XLSX'i PDF'ye dönüştürürken "java.util.zip.ZipException: geçersiz giriş boyutu (0 bekleniyor ancak 1053 bayt var)" istisnası|
+|CELLSJAVA-44725| XLSX'i PDF'e dönüştürürken "java.util.zip.ZipException: geçersiz giriş boyutu (0 bekleniyor ancak 1053 bayt var)" istisnası|
 |CELLSJAVA-44763|"Java.lang.IllegalArgumentException: "org.apache.commons.io.input.AutoCloseInputStream" kullanılarak Excel dosyasını yüklerken bağımsız değişken numarası: 1:X8" ayrıştırılamıyor|
-|CELLSJAVA-44774|PDF olarak kaydederken hata oluştu - İnceleme gerekli|
-|CELLSJAVA-44842|Bir XLSX dosyasını PDF'ye dönüştürürken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
+|CELLSJAVA-44774|PDF olarak kaydedilirken hata oluştu - İnceleme gerekli|
+|CELLSJAVA-44842|Bir XLSX dosyasını PDF'e dönüştürürken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
 
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

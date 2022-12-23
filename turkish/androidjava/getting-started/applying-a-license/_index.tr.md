@@ -48,8 +48,8 @@ license.setLicense(fstream);
 
 Lisansa bir Android paket dosyasından ada göre kaynak olarak erişmek için:
 
-1.  Lisans dosyasını uygulamanıza bir kaynak olarak ekleyin.**res/ham** dosya.
- Lisans dosyası,**res/ham** dosya.
+1.  Lisans dosyasını uygulamanıza bir kaynak olarak ekleyin.**res/ham** Klasör.
+ Lisans dosyası,**res/ham** Klasör.
 1. Aşağıdaki kod örneğiyle kaynaktan lisansa erişin/yükleyin.
 
 **Java**

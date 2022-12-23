@@ -11,7 +11,7 @@ is_root: true
 
 **Bienvenido a Aspose.Cells for JasperReports**
 
- Aspose.Cells for JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en Microsoft formatos de Excel (XLS, XLSX).
+ Aspose.Cells for JasperReports es una biblioteca que funciona como reemplazo de[JasperInformes](https://community.jaspersoft.com/project/jasperreports-library)El exportador de Excel original Microsoft, incluido con algunas mejoras excelentes. Elimina la dependencia de la biblioteca de puntos de interés y utiliza Aspose.Cells for Java en el back-end para exportar informes en formatos de Excel Microsoft (XLS, XLSX).
 
 {{% /alert %}}
 

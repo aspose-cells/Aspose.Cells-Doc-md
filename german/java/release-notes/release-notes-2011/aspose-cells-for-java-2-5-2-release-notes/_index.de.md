@@ -19,12 +19,12 @@ url: /de/java/aspose-cells-for-java-2-5-2-release-notes/
  Bietet Unterstützung zum Festlegen des Seriennamens beim Festlegen der Datenquelle des Diagramms.
  Unterstützt das Abrufen/Festlegen der Sichtbarkeit von Rasterlinien für verschiedene Arbeitsblätter in ODS-Dateien.
  Es wurde eine Verbesserung zum Lesen von Shapes aus XLSX-Dateien vorgenommen.
- Die Funktionen Diagramm-zu-Bild, Blatt-zu-Bild und Excel-zu-PDF wurden verbessert.
+ Die Funktionen „Chart-to-Image“, „Sheet-to-Image“ und „Excel-to-PDF“ wurden verbessert.
  Für das Parsen von Formeln wurde eine Erweiterung vorgenommen.
  Für das Kopieren von Cells wird eine Erweiterung vorgenommen.
- 31 Korrekturen und Verbesserungen.
+31 Korrekturen und Verbesserungen.
 
-In Aspose.Cells for Java behobene Probleme 2.5.2.
+ In Aspose.Cells for Java behobene Probleme 2.5.2.
 
 
 

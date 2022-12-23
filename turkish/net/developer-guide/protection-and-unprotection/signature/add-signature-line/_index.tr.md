@@ -16,7 +16,7 @@ url: /tr/net/add-signature-line/
 
  Aşağıdaki örnek kod, nasıl kullanılacağını gösterdi[**Resim.İmza Satırı**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture/properties/signatureline)çalışma sayfasının imza satırını ekleme özelliği. Ekran görüntüsü, yürütmeden sonra örnek kodun örnek Excel dosyası üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](add-signature-line.png)
+![yapılacaklar:resim_alternatif_metin](add-signature-line.png)
 
 ## **Basit kod**
 

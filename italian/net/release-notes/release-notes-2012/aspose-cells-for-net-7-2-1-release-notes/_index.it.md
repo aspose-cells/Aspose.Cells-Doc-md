@@ -21,7 +21,7 @@ url: /it/net/aspose-cells-for-net-7-2-1-release-notes/
  Miglioramenti
 
 - Le linee delle forme vengono archiviate in modo errato dopo la conversione in PDF
-- La macro è scomparsa dopo aver salvato un file XLSM in formato XLS
+- La macro è scomparsa dopo aver salvato un file XLSM nel formato XLS
 - Le opzioni della casella di riepilogo si sovrappongono l'una all'altra
 - Aspose.Cells danneggiamento del file XLSM dopo aver chiamato il metodo Workbook.Save()
 - Il componente distrugge le proprietà del nodo CalcPr dell'XML della cartella di lavoro
@@ -57,7 +57,7 @@ url: /it/net/aspose-cells-for-net-7-2-1-release-notes/
 - Differenze nell'aspetto del grafico tra MS Excel e PDF
 - Conversione di Excel 97-2003 in PDF
 
- -Aspose.Cells danneggiando il file XLSM dopo aver chiamato due volte il salvataggio
+ -Aspose.Cells danneggiamento del file XLSM dopo aver chiamato due volte il salvataggio
 
 - Segnalibri su un problema di livello
 
@@ -71,7 +71,7 @@ url: /it/net/aspose-cells-for-net-7-2-1-release-notes/
 - Il grafico copiato ruota le etichette dell'unità di visualizzazione di 90 gradi
 - Bug di calcolo con una cartella di lavoro
 - Esecuzione di calcoli del totale parziale su colonne raggruppate
-- I problemi per la conversione PDF per quanto riguarda il disegno delle forme
+- I problemi per la conversione PDF relativi al disegno delle forme
 
  - Problema degli intervalli denominati
 

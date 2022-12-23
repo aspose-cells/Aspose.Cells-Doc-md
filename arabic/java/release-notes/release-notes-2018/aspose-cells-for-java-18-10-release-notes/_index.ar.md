@@ -15,19 +15,19 @@ url: /ar/java/aspose-cells-for-java-18-10-release-notes/
 |CELLSJAVA-42634|تحويل شكل الشريط الأيمن الأيسر إلى صورة|التعزيز|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - ملف قائمة الحزم مفقود|التعزيز|
 |CELLSJAVA-42528|الخط ليس علامة HTML5 صالحة وعلامة الإغلاق الذاتي ومتصفحات الويب تحرف محتوياته|التعزيز|
-|CELLSJAVA-42728|يظهر استثناء (StackOverFlow) عند الحفظ في إخراج PDF|حشرة|
-|CELLSJAVA-42729|تم حساب قيمة خاطئة بواسطة ROUNDUP ()|حشرة|
-|CELLSJAVA-42724|انسخ نطاقًا باستخدام PasteType.ALL (خيارات اللصق) لا ينسخ ارتفاعات الصف بشكل صحيح|حشرة|
-|CELLSJAVA-42722|يتم فقد تنسيق نص الارتباط التشعبي عند تعيين نص جديد|حشرة|
-|CELLSJAVA-42688|إخراج تنسيق التاريخ الروسي غير صالح|حشرة|
-|CELLSJAVA-42721|مشكلة مع خطوط SheetRender|حشرة|
-|CELLSJAVA-42723|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تقديم ملف MS Excel إلى PDF|حشرة|
-|CELLSJAVA-42725|تظهر علامات الاقتباس في الصيغة عند استرداد صيغة الخلية عبر Aspose.Cells|حشرة|
-|CELLSJAVA-42720|تدهور الأداء عند استخدام التنسيق الشرطي|حشرة|
+|CELLSJAVA-42728|يظهر استثناء (StackOverFlow) عند الحفظ إلى إخراج PDF|خلل برمجي|
+|CELLSJAVA-42729|تم حساب قيمة خاطئة بواسطة ROUNDUP ()|خلل برمجي|
+|CELLSJAVA-42724|انسخ نطاقًا باستخدام PasteType.ALL (خيارات اللصق) لا ينسخ ارتفاعات الصف بشكل صحيح|خلل برمجي|
+|CELLSJAVA-42722|يتم فقد تنسيق نص الارتباط التشعبي عند تعيين نص جديد|خلل برمجي|
+|CELLSJAVA-42688|إخراج تنسيق التاريخ الروسي غير صالح|خلل برمجي|
+|CELLSJAVA-42721|مشكلة مع خطوط SheetRender|خلل برمجي|
+|CELLSJAVA-42723|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تقديم ملف MS Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-42725|تظهر علامات الاقتباس في الصيغة عند استرداد صيغة الخلية عبر Aspose.Cells|خلل برمجي|
+|CELLSJAVA-42720|تدهور الأداء عند استخدام التنسيق الشرطي|خلل برمجي|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 ### **يضيف خاصية HtmlSaveOptions.WidthScalable**
-يشير إلى ما إذا كان سيتم استخدام وحدة قابلة للقياس لوصف عرض العمود عند تصدير ملف إلى HTML. القيمة الافتراضية هي كاذبة.
+يشير إلى ما إذا كان يتم استخدام وحدة قابلة للتحجيم لوصف عرض العمود عند تصدير ملف إلى HTML. القيمة الافتراضية هي false.
 ### **يضيف خاصية WorkbookDesigner.UpdateEmptyStringAsNull**
 يشير إلى ما إذا كانت معالجة قيمة السلسلة الفارغة فارغة أم لا.
 ### **يحدّث القيمة التي تم إرجاعها لأسلوب DocumentProperty.ToDateTime () وخصائص BuiltInDocumentPropertyCollection.CreatedTime و BuiltInDocumentPropertyCollection.LastPrinted و BuiltInDocumentPropertyCollection.LastSavedTime.**

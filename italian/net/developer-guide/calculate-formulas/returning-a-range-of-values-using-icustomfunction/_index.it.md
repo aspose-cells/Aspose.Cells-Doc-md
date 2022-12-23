@@ -14,7 +14,7 @@ url: /it/net/returning-a-range-of-values-using-icustomfunction/
 
 {{% alert color="primary" %}}
 
- Aspose.Cells fornisce[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)interfaccia utilizzata per implementare funzioni definite dall'utente o personalizzate che non sono supportate da Microsoft Excel come funzioni integrate.
+ Aspose.Cells fornisce[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction)interfaccia utilizzata per implementare funzioni definite dall'utente o personalizzate che non sono supportate da Microsoft Excel come funzioni predefinite.
 
  Principalmente quando si implementa il[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction) metodo di interfaccia, è necessario restituire un singolo valore di cella. Ma a volte è necessario restituire un intervallo di valori. Questo articolo spiegherà come restituire l'intervallo di valori da[**IFunzione personalizzata**](https://reference.aspose.com/cells/net/aspose.cells/icustomfunction).
 

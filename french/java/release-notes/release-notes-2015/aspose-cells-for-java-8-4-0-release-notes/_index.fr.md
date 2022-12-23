@@ -41,14 +41,14 @@ Insectes
 (CELLSJAVA-41184) - Problèmes avec le rendu de l'image de sortie à partir du graphique
 (CELLSJAVA-41106) - Les étiquettes de données du graphique à secteurs se chevauchent dans l'image du graphique
 (CELLSJAVA-40941) - Chevauchement des DataLabels du graphique à secteurs lorsque le graphique est rendu sous forme d'image
-(CELLSJAVA-40813) - Les étiquettes de données du graphique à secteurs se chevauchent dans le HTML rendu
+(CELLSJAVA-40813) - Les étiquettes de données du graphique à secteurs se chevauchent dans le rendu HTML
 (CELLSJAVA-41182) - La ligne lisse n'est pas correcte lorsque la couleur du point est différente
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-41201) - java.lang.IllegalArgumentException : zone inconnue, sur PivotTable.refreshData
-(CELLSJAVA-41192) - Exception : "java.lang.Exception : Fin de flux atteinte" à l'ouverture d'un fichier XLS
-(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException au niveau du classeur lors du chargement d'un XLS
+(CELLSJAVA-41192) - Exception : "java.lang.Exception : fin de flux atteinte" à l'ouverture d'un fichier XLS
+(CELLSJAVA-41228) - java.lang.ArrayIndexOutOfBoundsException sur Workbook ctor lors du chargement d'un XLS
 (CELLSJAVA-41211) - Une exception se produit lors de la résolution de la référence de formule lorsque le nom de fichier est défini à l'aide de Workbook.setFileName()
 
 \2) Suite de grille Aspose.Cells
@@ -82,7 +82,7 @@ Présente le tableau croisé dynamique sous une forme compacte.
  Ajoute la méthode PivotTable.ShowInOutlineForm()
 Présente le tableau croisé dynamique sous forme de plan.
 
-Ajoute la méthode PivotTable.ShowInTabularForm()
+ Ajoute la méthode PivotTable.ShowInTabularForm()
 Présente le tableau croisé dynamique sous forme de tableau.
 
  Ajoute la méthode PivotTableCollection.Remove(PivotTable pivotTable)
@@ -91,7 +91,7 @@ Supprime le tableau croisé dynamique spécifié
  Ajoute la méthode PivotTableCollection.RemoveAt(int index).
 Supprime le tableau croisé dynamique à l'index spécifié
 
- Ajoute l'espace de noms Aspose.Cells.Vba, les classes VbaPorject, VbaModuleCollection et VbaModule.
+Ajoute l'espace de noms Aspose.Cells.Vba, les classes VbaPorject, VbaModuleCollection et VbaModule.
 Ils sont utilisés pour lire et modifier le projet VBA dans le fichier.
 
  Ajoute la propriété Border.ThemeColor.

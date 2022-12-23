@@ -6,7 +6,7 @@ url: /ja/java/save-ods-file-in-odf-1-1-and-1-2-specifications/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells は保存をサポートします (**OpenDocument スプレッドシート**ODS ファイル (**OpenDocument 形式** ODF 1.1 および ODF 1.2 仕様。 Aspose.Cells が追加されました[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) ODS ファイルの保存に ODF 1.1 仕様を使用するプロパティ。このプロパティのデフォルト値は**間違い**であるため、この特別な設定なしで保存された ODS ファイルは 1.2 仕様を使用します。
+Aspose.Cells は保存をサポートします (**OpenDocument スプレッドシート**ODS ファイル (**OpenDocument 形式** ODF 1.1 および ODF 1.2 仕様。 Aspose.Cells が追加されました[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) ODS ファイルの保存に ODF 1.1 仕様を使用するプロパティ。このプロパティのデフォルト値は**間違い**したがって、この特別な設定なしで保存された ODS ファイルは 1.2 仕様を使用します。
 
 {{% /alert %}}
 

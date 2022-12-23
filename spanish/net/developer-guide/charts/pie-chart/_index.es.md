@@ -11,7 +11,7 @@ url: /es/net/creating-pie-chart-with-leader-lines/
 
 {{% /alert %}}
 
-Para demostrar el uso de Aspose.Cells for .NET API para crear un gráfico circular con líneas guía, primero crearemos un nuevo[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e ingrese algunos datos que servirán como fuente de datos de la serie. Una vez que los datos estén en su lugar, agregaremos un[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) de tipo[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)a la colección de gráficos y establezca sus diferentes aspectos para obtener la vista de gráfico deseada.
+Para demostrar el uso de Aspose.Cells for .NET API para crear un gráfico circular con líneas guía, primero crearemos un nuevo[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) e ingrese algunos datos que servirán como fuente de datos de la serie. Una vez que los datos estén en su lugar, agregaremos un[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) de tipo[**ChartType.Pie**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)a la colección de gráficos y establezca sus diferentes aspectos para obtener la vista de gráfico deseada.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-CreatePieChartWithLeaderLines-CreateWorkbook.cs" >}}
 

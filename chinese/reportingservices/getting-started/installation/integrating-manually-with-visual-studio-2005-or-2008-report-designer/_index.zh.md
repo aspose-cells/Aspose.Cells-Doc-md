@@ -84,4 +84,4 @@ url: /zh/reportingservices/integrating-manually-with-visual-studio-2005-or-2008-
 
 **注册组件后，报表设计器中会出现新的导出格式** 
 
-![待办事项：图像_替代_文本](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)
+![待办事项：图片_替代_文本](integrating-manually-with-visual-studio-2005-or-2008-report-designer_1.png)

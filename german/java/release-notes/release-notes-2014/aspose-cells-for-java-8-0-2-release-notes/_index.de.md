@@ -11,7 +11,7 @@ url: /de/java/aspose-cells-for-java-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java wurde auf Version 8.0.2 aktualisiert und wir freuen uns, Ihnen mitteilen zu können, dass diese Version über 10 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -22,15 +22,15 @@ Andere Verbesserungen und Änderungen
 Verbesserungen
 
 (CELLSJAVA-40788) – Unterstützung eines benutzerdefinierten Designs für Formeigenschaften
-(CELLSJAVA-40803) – Legen Sie Rendering-Hinweise für Bilder beim Exportieren von Tabellenkalkulationen in HTML fest
+(CELLSJAVA-40803) – Legen Sie Rendering-Hinweise für Bilder beim Exportieren von Tabellenkalkulationen auf HTML fest
 
 Fehler
 
 (CELLSJAVA-40793) – Die Reichweite bezieht sich nicht auf den korrekten Bereich
 (CELLSJAVA-40768) – WorkbookRender.toPrinter()-Methode druckt kein Bild
-(CELLSJAVA-40669) – Problem mit Pivot Column Grand beim Rendern von XLTX in PDF
-(CELLSJAVA-40801) – Cell Ausrichtungsprobleme in der gerenderten PDF-Datei
-(CELLSJAVA-40406) - Konvertieren einer Excel-Datei mit einer großen Anzahl von Spalten in eine PDF-Datei
+(CELLSJAVA-40669) – Pivot Column Grand-Problem beim Rendern von XLTX zu PDF
+(CELLSJAVA-40801) – Cell-Ausrichtungsprobleme in der gerenderten PDF-Datei
+(CELLSJAVA-40406) – Konvertieren einer Excel-Datei mit einer großen Anzahl von Spalten in eine PDF-Datei
 (CELLSJAVA-40794) – AutoFitColumns funktioniert nicht, wenn es mit anderen Schriftarteinstellungen verwendet wird
 (CELLSJAVA-40816) – Der Cursor bewegt sich immer noch zur letzten Spalte, nachdem er mit Cells.DeleteColumn() gelöscht wurde
 (CELLSJAVA-40786) – Die generierte EMK-Form ist nicht mit dem Original identisch
@@ -40,7 +40,7 @@ Fehler
 Ausnahmen
 
 (CELLSJAVA-40797) - Cell.getDependents() löst NullPointerException aus
-(CELLSJAVA-40800) – CellsException beim Konvertieren von Tabellenkalkulationen in PDF unter MAC OS
+(CELLSJAVA-40800) – CellsException beim Konvertieren der Tabelle in PDF unter MAC OS
 
 Öffentliche API und rückwärts inkompatible Änderungen
 

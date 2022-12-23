@@ -18,4 +18,4 @@ Miglioramenti
 
 
 
-`   ` Sono stati apportati miglioramenti al rendering delle forme nella conversione PDF
+`   `Sono stati apportati miglioramenti per il rendering delle forme nella conversione PDF

@@ -56,7 +56,7 @@ Di seguito è riportato un elenco di miglioramenti e modifiche in questa version
 
 (CELLSNET-44111) - L'indirizzo del collegamento ipertestuale contenente caratteri cinesi non viene convertito correttamente
 
-(CELLSNET-44080) - Cells testo leggermente spostato a destra durante la conversione in PDF
+(CELLSNET-44080) - Il testo Cells è stato leggermente spostato a destra durante la conversione in PDF
 
 (CELLSNET-44125) - Il salvataggio in PDF non riesce per un documento Excel
 
@@ -100,7 +100,7 @@ Di seguito è riportato un elenco di miglioramenti e modifiche in questa version
 
 (CELLSNET-44099) - CalculateFormula genera un'eccezione
 
-(CELLSNET-44127) - Il salvataggio in file PDF/flusso di memoria causa un'eccezione
+(CELLSNET-44127) - Il salvataggio nel flusso di file/memoria PDF causa un'eccezione
 
 (CELLSNET-44085) - System.Exception durante il caricamento di ODS
 
@@ -126,9 +126,9 @@ Di seguito è riportato un elenco di miglioramenti e modifiche in questa version
 
 (CELLSNET-44107) - Si è verificata un'eccezione durante l'inserimento della colonna in GridDesktop
 
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà ImportTableOptions.IsHtmlString.
 

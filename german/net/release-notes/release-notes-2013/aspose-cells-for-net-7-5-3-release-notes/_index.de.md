@@ -50,7 +50,7 @@ url: /de/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

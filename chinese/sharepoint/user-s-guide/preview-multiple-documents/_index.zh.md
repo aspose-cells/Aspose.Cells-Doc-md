@@ -17,7 +17,7 @@ url: /zh/sharepoint/preview-multiple-documents/
 
 **使用 SharePoint 进行文档预览** 
 
-![待办事项：图像_替代_文本](preview-multiple-documents_1.png)
+![待办事项：图片_替代_文本](preview-multiple-documents_1.png)
 
 当您预览多个文档时，数据区域会显示列表中的第一个文档。文档列表显示所有预览的文档。查看另一个文档：
 

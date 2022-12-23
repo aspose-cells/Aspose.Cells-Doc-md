@@ -23,7 +23,7 @@ url: /zh/net/aspose-cells-for-net-7-2-1-release-notes/
 - 转换为 PDF 后形状的线条被错误归档
 - 将 XLSM 文件保存为 XLS 格式后宏消失
 - 列表框选项相互重叠
-- Aspose.Cells 调用 Workbook.Save() 方法后损坏 XLSM 文件
+- Aspose.Cells 在调用 Workbook.Save() 方法后损坏 XLSM 文件
 - 该组件破坏工作簿 XML 的 CalcPr 节点的属性
 - 你想放一个超过 32K 的字符串
 - 列索引的智能标记语法
@@ -71,12 +71,12 @@ url: /zh/net/aspose-cells-for-net-7-2-1-release-notes/
 - 复制的图表将显示单位标签旋转 90 度
 - 工作簿的计算错误
 - 对分组列执行小计计算
-- PDF转换中关于绘图形状的问题
+- PDF 绘制形状转换的问题
 
 -命名范围问题
 
 - Aspose.Cells 损坏包含数据透视表的 Excel 文件
-- XLSX 到 PDF 的转换问题
+- XLSX 到 PDF 转换问题
 
 -Aspose.Cells 错误地处理日期值
 
@@ -86,7 +86,7 @@ url: /zh/net/aspose-cells-for-net-7-2-1-release-notes/
 
  在相关 XML 文件中发现问题
 
-- 将 XLSM 文件保存到新工作簿后形状名称更改
+- 将 XLSM 文件保存到新工作簿后更改形状名称
 - 带有通配符（例如“*”）的 VLookup 公式错误
 
 

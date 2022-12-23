@@ -21,9 +21,9 @@ url: /tr/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 |CELLSJAVA-44130|Veri etiketlerinin metni, çıktı grafiği görüntüsüne sarılır|
 |CELLSJAVA-44204|csv için sayfalandırma sorunu|
 |CELLSJAVA-43934|Pasta grafiği etiketleri, grafiği değiştirdikten veya güncelledikten sonra Excel ile eşleşmiyor|
-|CELLSJAVA-44122|HTML'yi dışa aktarırken, veri etiketleri Excel'inkinden farklı|
-|CELLSJAVA-41949| Çalışma Kitabını XLSX ve HTML biçimlerine kaydederken içerik farklı işleniyor|
-|CELLSJAVA-44207|HTML'ye dışa aktarırken satır yüksekliği yükselir|
+|CELLSJAVA-44122|HTML dışa aktarılırken veri etiketleri Excel'dekinden farklı|
+|CELLSJAVA-41949| Çalışma Kitabı XLSX & HTML biçimlerine kaydedilirken içerik farklı işleniyor|
+|CELLSJAVA-44207|HTML'e dışa aktarırken satır yüksekliği artıyor|
 |CELLSJAVA-44233|XLSX dosyasını dönüştürürken sonsuz döngü|
 |CELLSJAVA-44234|data.xls dosyası için yetersiz bellek sorunu|
 |CELLSJAVA-44246|Boş dosya için "geçersiz endrow dizini" istisnası|
@@ -51,7 +51,7 @@ Eski sürümlerde?DataSorter.Sort() yöntemleri hiçbir şey döndürmez. Bu ver
 
 ### **TxtLoadOptions.ExtendToNextSheet özelliğini ekler.**
 
-Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerini birden çok çalışma sayfasına aktarmayı destekler.
+Verilerin satır sayısı veya sütun sayısı ms excel sınırını aşarsa, CSV/TSV verilerinin birden çok çalışma sayfasına aktarılmasını destekler.
 
 ### **ExternalLinkCollection.Clear() yöntemini ekler.**
 

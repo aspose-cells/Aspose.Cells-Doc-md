@@ -13,7 +13,7 @@ Si está utilizando Microsoft Excel en la configuración regional o el idioma ru
 
 ## **Implementar errores y valor booleano en ruso o cualquier otro idioma**
 
- El siguiente código de ejemplo ilustra cómo implementar errores y valores booleanos en ruso o en cualquier otro idioma. Por favor, checa el[Ejemplo de archivo de Excel](73990159.xlsx) utilizado en este código y su[PDF de salida](73990160.pdf)La captura de pantalla muestra la diferencia entre el archivo Excel de muestra y el PDF de salida como referencia.
+ El siguiente código de ejemplo ilustra cómo implementar errores y valores booleanos en ruso o en cualquier otro idioma. Por favor, checa el[Ejemplo de archivo de Excel](73990159.xlsx) utilizado en este código y su[Salida PDF](73990160.pdf)La captura de pantalla muestra la diferencia entre el archivo de muestra de Excel y la salida PDF como referencia.
 
 ![todo:imagen_alternativa_texto](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 

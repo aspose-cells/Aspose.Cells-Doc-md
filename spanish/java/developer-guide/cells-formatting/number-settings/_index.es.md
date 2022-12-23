@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /es/java/cells-number-settings/
 ---
-## **Configuración de formatos de visualización de números y fechas**
+## **Configuración de formatos de visualización de Numbers y fechas**
 
 Una característica muy fuerte de Microsoft Excel es que permite a los usuarios configurar los formatos de visualización de valores numéricos y fechas. Sabemos que los datos numéricos se pueden utilizar para representar diferentes valores, incluidos valores decimales, monetarios, porcentuales, fraccionarios o contables, etc. Todos estos valores numéricos se muestran en diferentes formatos según el tipo de información que representan. Del mismo modo, existen muchos formatos en los que se puede mostrar una fecha o una hora.
 Aspose.Cells admite esta funcionalidad y permite a los desarrolladores configurar cualquier formato de visualización para un número o una fecha.
@@ -16,7 +16,7 @@ Para establecer formatos de visualización en Microsoft Excel:
 1. Haga clic derecho en cualquier celda.
 1.  Seleccione**Formato Cells**. Aparecerá un cuadro de diálogo que se utiliza para configurar los formatos de visualización de cualquier tipo de valor.
 
- En el lado izquierdo del cuadro de diálogo, hay muchas categorías de valores como**General**, **Número**, **Divisa**, **Contabilidad**, **Fecha**, **Tiempo**, **Porcentaje,**etc. Aspose.Cells admite todos estos formatos de visualización.
+ En el lado izquierdo del cuadro de diálogo, hay muchas categorías de valores como**General**, **Número**, **Divisa**, **Contabilidad**, **Fecha**, **Hora**, **Porcentaje,**etc. Aspose.Cells admite todos estos formatos de visualización.
 
 ## **Uso de formatos numéricos integrados**
 
@@ -46,11 +46,11 @@ Para establecer formatos de visualización en Microsoft Excel:
 |15|Fecha|d-mmm-aaa|
 |16|Fecha|d-mmm|
 |17|Fecha|mmm-aaa|
-|18|Tiempo|h:mm AM/PM|
-|19|Tiempo|h:mm:ss AM/PM|
-|20|Tiempo|mmm|
-|21|Tiempo|h: mm: ss|
-|22|Tiempo|m/d/aa h:mm|
+|18|Hora|h:mm AM/PM|
+|19|Hora|h:mm:ss AM/PM|
+|20|Hora|mmm|
+|21|Hora|h: mm: ss|
+|22|Hora|m/d/aa h:mm|
 |37|Divisa|# ,##0;-#,##0
 |
 |38|Divisa|# ,##0;[Rojo]-#,##0
@@ -63,9 +63,9 @@ Para establecer formatos de visualización en Microsoft Excel:
 |42|Contabilidad|_ $* #,##0_ ;_ $* "_ ;_ @_|
 |43|Contabilidad|_ * #,##0.00_ ;_ * "??_ ;_ @_|
 |44|Contabilidad|_ $* #,##0.00_ ;_ $* "??_ ;_ @_|
-|45|Tiempo|mm: ss|
-|46|Tiempo|h :mm:ss|
-|47|Tiempo|mm:ss.0|
+|45|Hora|mm: ss|
+|46|Hora|h :mm:ss|
+|47|Hora|mm:ss.0|
 |48|Científico|## 0.0E+00
 |
 |49|Texto|@|

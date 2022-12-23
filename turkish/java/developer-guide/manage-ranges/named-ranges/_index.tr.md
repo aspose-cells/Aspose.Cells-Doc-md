@@ -87,7 +87,7 @@ Aşağıdaki örnek, bir aralığa anahat kenarlığının nasıl ayarlanacağı
 
  Yukarıdaki kod yürütüldükten sonra aşağıdaki çıktı üretilecektir:
 
-![yapılacaklar:resim_alternatif_Metin](named-ranges_1.png)
+![yapılacaklar:resim_alternatif_metin](named-ranges_1.png)
 #### **Aralıktaki hücrelere stil uygulama**
 Bazen, bir hücredeki hücrelere bir stil uygulamak istersiniz.[Menzil](https://reference.aspose.com/cells/java/com.aspose.cells/range) . Bunun için, aralıktaki hücreler üzerinde yineleme yapabilir ve[Cell.setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) stili hücreye uygulama yöntemi.
 

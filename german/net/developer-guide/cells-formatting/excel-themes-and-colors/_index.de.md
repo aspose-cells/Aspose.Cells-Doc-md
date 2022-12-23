@@ -22,7 +22,7 @@ Nachfolgend sind einige Methoden und Eigenschaften aufgeführt, die Designfarben
 
 Das folgende Beispiel zeigt, wie Designfarben abgerufen und festgelegt werden.
 
-Das folgende Beispiel verwendet eine XLSX-Vorlagendatei, ruft die Farben für verschiedene Themenfarbtypen ab, ändert die Farben und speichert die Excel-Datei Microsoft.
+Das folgende Beispiel verwendet eine XLSX-Vorlagendatei, ruft die Farben für verschiedene Themenfarbtypen ab, ändert die Farben und speichert die Microsoft-Excel-Datei.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-GetSetThemeColors-1.cs" >}}
 
@@ -30,7 +30,7 @@ Das folgende Beispiel verwendet eine XLSX-Vorlagendatei, ruft die Farben für ve
 
 Das folgende Beispiel zeigt, wie Sie benutzerdefinierte Designs mit Ihren gewünschten Farben anwenden. Wir verwenden eine Beispielvorlagendatei, die manuell in Microsoft Excel 2007 erstellt wurde.
 
-Das folgende Beispiel lädt eine XLSX-Vorlagendatei, definiert Farben für verschiedene Themenfarbtypen, wendet die benutzerdefinierten Farben an und speichert die Excel-Datei.
+Das folgende Beispiel lädt eine Vorlagendatei XLSX, definiert Farben für verschiedene Themenfarbtypen, wendet die benutzerdefinierten Farben an und speichert die Excel-Datei.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Excel2007Themes-CustomizeThemes-1.cs" >}}
 

@@ -22,8 +22,8 @@ För att lägga till kanter till celler i ett kalkylblad, gör följande:
  1. Lägg till text i cellerna som du ska lägga till kanter till.
 1. Lägg till kanter:
  1. Definiera ett intervall.
- 1. Använd en kantstil på intervallet.
-Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer.
+1. Använd en kantstil på intervallet.
+ Upprepa för varje område och varje kantstil du vill ställa in. Detta exempel gäller hårlinjer, tunna, medelstora och tjocka linjer.
 1. Avsluta:
  1. Anpassa kolumnen som cellerna är i automatiskt för att passa texten snyggt.
  1. Spara dokumentet.

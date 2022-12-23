@@ -6,7 +6,7 @@ url: /es/java/resize-chart-s-data-label-shape-to-fit-text/
 ---
 {{% alert color="primary" %}}
 
- La aplicación Excel proporciona la**Cambiar el tamaño de la forma para que se ajuste al texto** opción para DataLabels de Chart para aumentar el tamaño de la forma para que el texto quepa dentro de ella. Se puede acceder a esta opción en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haga clic derecho y seleccione**Formatear etiquetas de datos** menú. En**Tamaño y propiedades** pestaña, expandir**Alineación** para revelar las propiedades relacionadas, incluida la**Cambiar el tamaño de la forma para corregir el texto** opción.
+ La aplicación Excel proporciona la**Cambiar el tamaño de la forma para que se ajuste al texto** opción para DataLabels de Chart para aumentar el tamaño de la forma para que el texto quepa dentro de ella. Se puede acceder a esta opción en la interfaz de Excel seleccionando cualquiera de las etiquetas de datos en el gráfico. Haga clic derecho y seleccione**Formatear etiquetas de datos** menú. Sobre**Tamaño y propiedades** pestaña, expandir**Alineación** para revelar las propiedades relacionadas, incluida la**Cambiar el tamaño de la forma para corregir el texto** opción.
 
 ![todo:imagen_alternativa_texto](resize-chart-s-data-label-shape-to-fit-text_1.png)
 

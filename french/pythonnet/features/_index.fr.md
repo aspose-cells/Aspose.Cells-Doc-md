@@ -1,5 +1,5 @@
 ﻿---
-title: Fonctionnalités
+title: Caractéristiques
 type: docs
 weight: 5
 url: /fr/python-net/features/
@@ -12,12 +12,12 @@ Cette page résume les fonctionnalités Aspose.Cells for Python via .NET.
 
 {{% /alert %}} 
 ## **Formats de fichiers et conversions**
-- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) et formats d'image populaires, y compris TIFF , JPG, PNG, BMP et SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP et SVG.
 ## **Rendu et impression**
-- Rendre la feuille de calcul en images vectorielles (EMF)
+- Convertir la feuille de calcul en images vectorielles (EMF)
 - Rendu des feuilles de calcul en images raster (Multipage TIFF, GIF)
 - Rendu des feuilles de calcul en images raster (PNG, JPEG, etc.)
-- Rendre la feuille de calcul au format PDF avec une haute fidélité
+- Rendre la feuille de calcul au PDF avec une haute fidélité
 ## **Fonctionnalités de contenu de feuille de calcul**
 - Copier ou déplacer des feuilles de calcul dans ou entre des classeurs
 - Insérez des images, créez des graphiques conventionnels et personnalisés et définissez un arrière-plan dégradé pour les graphiques à l'aide de API

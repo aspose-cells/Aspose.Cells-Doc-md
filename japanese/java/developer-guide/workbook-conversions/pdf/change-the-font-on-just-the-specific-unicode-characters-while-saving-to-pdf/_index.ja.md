@@ -1,5 +1,5 @@
 ﻿---
-title: PDF への保存中に特定の Unicode 文字だけのフォントを変更する
+title: PDF に保存するときに、特定の Unicode 文字だけのフォントを変更します
 type: docs
 weight: 150
 url: /ja/java/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
@@ -18,7 +18,7 @@ url: /ja/java/change-the-font-on-just-the-specific-unicode-characters-while-savi
 
 ## **例**
 
-次のスクリーンショットは、以下のサンプル コードによって生成された 2 つの出力 PDF を比較しています。 1つは設定せずに生成されました[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)プロパティと、もう一方は を設定した後に生成されたものです[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)プロパティへ**真実**.最初の PDF でわかるように、Non-Breaking Hyphen のために、文全体のフォントが Times New Roman から Arial Unicode MS に変更されています。 2 番目の PDF では、Non-Breaking Hyphen のフォントのみが変更されています。
+次のスクリーンショットは、以下のサンプル コードによって生成された 2 つの出力 PDF を比較しています。 1つは設定せずに生成されました[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)プロパティと、もう一方は を設定した後に生成されたものです[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity)プロパティへ**真実**.最初の PDF でわかるように、Non-Breaking Hyphen により、文全体のフォントが Times New Roman から Arial Unicode MS に変更されています。 2 番目の PDF では、Non-Breaking Hyphen のフォントのみが変更されています。
 
 ![todo:画像_代替_文章](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 

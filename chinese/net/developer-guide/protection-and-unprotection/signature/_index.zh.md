@@ -14,7 +14,7 @@ description: Excel文件数字签名、验证。为了保护 Excel 文件工作�
 
 ## **介绍**
 
-使用“数字签名”对话框附加数字签名。数字签名对话框列出了有效的证书。您可以使用“数字签名”对话框查看证书并选择您要使用的证书。如果工作簿有数字签名，签名的名称会出现在**证书名称**场地。如果您单击**消除**数字签名对话框中的按钮，Microsoft Excel 也会删除数字签名。
+使用“数字签名”对话框附加数字签名。数字签名对话框列出了有效的证书。您可以使用“数字签名”对话框查看证书并选择您要使用的证书。如果工作簿有数字签名，签名的名称会出现在**证书名称**场地。如果您单击**去掉**数字签名对话框中的按钮，Microsoft Excel 也会删除数字签名。
 
 Aspose.Cells 提供了[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)命名空间来执行作业（分配和验证数字签名）。命名空间具有一些用于添加和验证数字签名的有用功能。
 

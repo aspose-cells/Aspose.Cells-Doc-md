@@ -38,7 +38,7 @@ url: /zh/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [风格](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **加载工作簿时筛选对象**
-以下示例代码说明了如何从工作簿中筛选图表。请检查[示例 excel 文件](5472489.xlsx)用于此代码和[输出PDF](5472488.pdf)由它产生。正如您在输出 PDF 中看到的那样，所有图表都已从工作簿中过滤掉。
+以下示例代码说明了如何从工作簿中筛选图表。请检查[示例 excel 文件](5472489.xlsx)用于此代码和[输出 PDF](5472488.pdf)由它产生。正如您在输出 PDF 中看到的那样，所有图表都已从工作簿中过滤掉。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **加载工作表时过滤对象**

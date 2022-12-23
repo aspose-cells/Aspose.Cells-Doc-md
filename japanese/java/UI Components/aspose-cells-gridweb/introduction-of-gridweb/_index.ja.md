@@ -152,4 +152,4 @@ Aspose.Cells.GridWeb は、Microsoft の Internet Explorer (IE) で完全にサ�
 |シートのタブをスクロール|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Cells の境界線を設定|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Cellsのフォント設定をする|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-{{< emoticons/cross >}}セルのコンテキスト メニューは、クライアント サイド メニュー ボタンをクリックすることによってのみアクティブ化できます。
+{{< emoticons/cross >}}セルのコンテキスト メニューは、クライアント側のメニュー ボタンをクリックすることによってのみアクティブ化できます。

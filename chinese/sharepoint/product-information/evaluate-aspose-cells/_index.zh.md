@@ -20,4 +20,4 @@ Aspose.Cells for SharePoint评估版没有时间限制，评估用户也可免�
 
 **在评估模式下，Aspose.Cells for SharePoint 注入评估警告** 
 
-![待办事项：图像_替代_文本](evaluate-aspose-cells_1.png)
+![待办事项：图片_替代_文本](evaluate-aspose-cells_1.png)

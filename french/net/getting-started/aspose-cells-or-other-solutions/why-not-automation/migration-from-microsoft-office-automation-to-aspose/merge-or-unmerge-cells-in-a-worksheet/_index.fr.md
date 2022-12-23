@@ -10,7 +10,7 @@ Lorsque vous travaillez avec des feuilles de calcul, vous devez souvent créer u
 
 {{% /alert %}}
 
-## **La description**
+## **Description**
 
 Ouvrez un fichier Excel existant, fusionnez certaines cellules dans la première feuille de calcul du classeur et enregistrez le fichier Excel.
 

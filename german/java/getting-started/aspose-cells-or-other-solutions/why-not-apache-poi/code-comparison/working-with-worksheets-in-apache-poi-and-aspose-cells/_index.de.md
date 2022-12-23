@@ -8,7 +8,7 @@ url: /de/java/working-with-worksheets-in-apache-poi-and-aspose-cells/
 
 - [Neues Arbeitsblatt erstellen](/cells/de/java/create-new-worksheet)
 - [Fügen Sie Bilder im Arbeitsblatt hinzu](/cells/de/java/add-images-in-worksheet/)
-- [Arbeitsblatt in CSV konvertieren](/cells/de/java/convert-worksheet-to-csv/)
+- [Konvertieren Sie das Arbeitsblatt in CSV](/cells/de/java/convert-worksheet-to-csv/)
 - [Blatt innerhalb der Arbeitsmappe kopieren](/cells/de/java/copy-sheet-within-workbook/)
 - [Blätter innerhalb der Arbeitsmappe neu anordnen](/cells/de/java/re-order-sheets-within-workbook/)
 - [Kopf- und Fußzeilen](/cells/de/java/header-and-footers/)

@@ -66,7 +66,7 @@ url: /de/net/grid-features/
 | Validierungen regulärer Ausdrücke|**X**|**X**||
 | DropDownList-Validierungen||**X**|**X**|
 | Benutzerdefinierte Validierungen|**X**|**X**||
-|**Kommentare**||||
+|**Bemerkungen**||||
 | Kommentare von Cells hinzufügen/entfernen|**X**|**X**|**X**|
 |**Bilder**||||
 | Bilder hinzufügen/entfernen in Cells|**X**|**X**|**X**|
@@ -76,7 +76,7 @@ url: /de/net/grid-features/
 |**Tastaturnavigation**||||
 | Tastaturnavigation in Cells|**X**|**X**|**X**|
 |**Kontrollen**||||
-| Hinzufügen/Entfernen**Taste** , **Kontrollkästchen** & **Kombinationsfeld** Kontrollen unter Cells|**X**|||
+| Hinzufügen/Entfernen**Knopf** , **Kontrollkästchen** & **Kombinationsfeld** Kontrollen unter Cells|**X**|||
 |**Sicherheit**||||
 | Sperren oder verbergen Cells|**X**|||
 |**Funktionen & Formeln**||||

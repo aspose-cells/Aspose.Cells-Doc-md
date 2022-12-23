@@ -32,11 +32,11 @@ Bu makalede, Aspose.Cells'in aşağıdaki amaçlarla nasıl kullanılacağı aç
 
   **FirstWorkbook.xls**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_1.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_1.png)
 
 **SecondWorkbook.xls**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_2.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_2.png)
 
 1. Aspose.Cells'i indirin ve yükleyin:
    1. [İndir Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
@@ -47,7 +47,7 @@ Bu makalede, Aspose.Cells'in aşağıdaki amaçlarla nasıl kullanılacağı aç
 1. Bir sınıf yolu ekleyin:
 1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
  1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve menülere tıklayın**proje** , sonra**Özellikleri**.
+ 1. Eclipse'de projenizi seçin ve menülere tıklayın**Proje** , o zamanlar**Özellikler**.
  1. Seçin**Java Derleme Yolu** iletişim kutusunun sol tarafında, ardından Kitaplıklar sekmesini seçin,
  1. tıklayın**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
 
@@ -65,13 +65,13 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Çalışma sayfasını bir çalışma kitabı içinde kopyalama:
- Görevi gerçekleştirmek için tarafından kullanılan kod aşağıdadır. FirstWorkbook.xls içindeki Copy çalışma sayfasını kopyalar.
+Görevi gerçekleştirmek için tarafından kullanılan kod aşağıdadır. FirstWorkbook.xls içindeki Copy çalışma sayfasını kopyalar.
 
 Kodun çalıştırılması, FirstWorkbook.xls içindeki Copy adlı çalışma sayfasını Last Sheet yeni adıyla taşır.
 
 **Çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_3.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWithinWorkbook-1.java" >}}
 
@@ -83,7 +83,7 @@ Kodun yürütülmesi, çalışma sayfasını FirstWorkbook.xls'de dizin 1'den di
 
 **Çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_4.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 
@@ -93,7 +93,7 @@ Kodun çalıştırılması, Copy to SecondWorkbook.xls çalışma sayfasını Sh
 
 **Çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_5.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-CopyWorksheetsBetweenWorkbooks-1.java" >}}
 
@@ -103,11 +103,11 @@ Kodun çalıştırılması, taşıma çalışma sayfasını FirstWorkbook.xls'de
 
 **Çıktı FirstWorkbook.xls**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_6.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_6.png)
 
 **SecondWorkbook.xls çıktısı**
 
-![yapılacaklar:resim_alternatif_Metin](copy-and-move-worksheets-within-and-between-workbooks_7.png)
+![yapılacaklar:resim_alternatif_metin](copy-and-move-worksheets-within-and-between-workbooks_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-Value-MoveWorksheet-1.java" >}}
 

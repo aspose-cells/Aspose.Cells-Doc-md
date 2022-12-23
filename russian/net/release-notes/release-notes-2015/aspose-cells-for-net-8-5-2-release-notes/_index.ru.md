@@ -30,13 +30,13 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43786) — файл поврежден после обновления сводной таблицы в файле шаблона.
 
- (CELLSNET-43594) — PivotField.IsRepeatItemLabels не работает в сводной таблице.
+(CELLSNET-43594) — PivotField.IsRepeatItemLabels не работает в сводной таблице.
 
  (CELLSNET-43367) — Проблема с PivotTable.Format() для форматирования заголовка PivotField.
 
  (CELLSNET-41618) — Некоторые изображения и фигуры не отображаются после преобразования Xls в HTML.
 
-(CELLSNET-43817) — CalculateFormula() никогда не завершается для некоторых формул SUMIF Excel.
+ (CELLSNET-43817) — CalculateFormula() никогда не завершается для некоторых формул SUMIF Excel.
 
  (CELLSNET-43675) - Проблема в вычислении функции НОРМ.СТ.РАСП.
 
@@ -52,17 +52,17 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43806) - График/кривая отличается для точечных диаграмм XY.
 
- (CELLSNET-43805) - Преобразование электронной таблицы в PDF: потеряно жирное начертание
+(CELLSNET-43805) - Преобразование электронной таблицы в PDF: жирный шрифт утерян
 
  (CELLSNET-43804) — Преобразование электронной таблицы в PDF: содержимое в TextBox отображается с отступом
 
- (CELLSNET-43779) — несоответствие диаграммы и изображения для формата файла EMF.
+ (CELLSNET-43779) - Несоответствие диаграммы и изображения для формата файла EMF
 
-(CELLSNET-43772) - Текст в фигуре рисунка не переносится правильно.
+ (CELLSNET-43772) - Текст в фигуре рисунка не переносится правильно.
 
- (CELLSNET-43771) — Изображение сместилось после преобразования электронной таблицы в формат PDF.
+ (CELLSNET-43771) — изображение сместилось после рендеринга электронной таблицы на PDF.
 
- (CELLSNET-43748) — текст TextBox перекрывается при преобразовании Excel в PDF.
+ (CELLSNET-43748) — текст TextBox перекрывается в Excel для рендеринга PDF.
 
  (CELLSNET-43820) — электронная таблица, содержащая слайсеры, повреждается после повторного сохранения.
 
@@ -74,7 +74,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43802) — файл Excel повреждается при открытии и повторном сохранении и не открывается в Excel 2013.
 
- (CELLSNET-43799) — повторное сохранение электронной таблицы приводит к повреждению результатов и удалению срезов.
+(CELLSNET-43799) — повторное сохранение электронной таблицы приводит к повреждению результатов и удалению срезов.
 
  (CELLSNET-43792) — соединение с данными рабочей книги удаляется после повторного сохранения электронной таблицы.
 
@@ -84,7 +84,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43629) — PivotTable.RefreshData() — невозможно преобразовать объект типа
 
-(CELLSNET-43778) — System.FormatException в Chart.ToImage, когда языковым стандартом системы является Россия.
+ (CELLSNET-43778) — System.FormatException в Chart.ToImage, когда языковым стандартом системы является Россия.
 
  (CELLSNET-43822) — рабочую книгу, содержащую диаграмму, невозможно сохранить, и возникает исключение
 
@@ -100,7 +100,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-\2) Aspose.Cells Сетка Люкс
+ \2) Aspose.Cells Сетка Люкс
 
 
 ## **Новые особенности**
@@ -108,7 +108,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43809) — добавлено событие асинхронного обратного вызова для griddesktop.
 
- (CELLSNET-42316) — Сочетание клавиш Ctrl + Shift + клавиши со стрелками не работает.
+(CELLSNET-42316) — Сочетание клавиш Ctrl + Shift + клавиши со стрелками не работает.
 
  (CELLSNET-42174) — Control + клавиши со стрелками не переходят к ячейке с данными
 
@@ -132,7 +132,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
  Добавляет свойство SaveOptions.MergeAreas.
 
- Он используется для объединения отдельных CellAreas условного форматирования и проверки.
+Он используется для объединения отдельных CellAreas условного форматирования и проверки.
 
 
 
@@ -142,7 +142,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-Добавляет метод SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+ Добавляет метод SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 
  Визуализируйте определенную страницу SheetRender в Graphics.
 
@@ -160,7 +160,7 @@ url: /ru/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-Добавляет события GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate.
+ Добавляет события GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate.
 
  Происходит в другом состоянии загрузки файла книги в GridDesktop.
 

@@ -19,15 +19,15 @@ url: /ja/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-41521|テキストを列に変換する MS Excel 機能のサポート|新機能|
 |CELLSJAVA-42205|長い文字列リテラルを含む数式を設定すると、Excel ファイルが破損する|強化|
 |CELLSJAVA-41975|DBNum (カスタム パターン) フォーマットをサポート|新機能|
-|CELLSJAVA-42237|セルにアクセスすると、空白行の HTML が作成されます|強化|
+|CELLSJAVA-42237|セルにアクセスすると、空白行で HTML が作成されます|強化|
 |CELLSJAVA-42236|マルチスレッド環境でのパフォーマンスの問題|強化|
-|CELLSJAVA-42226|画像/PDF のレンダリングでフォントを使用するフォルダーとそのサブフォルダーに制限する|強化|
+|CELLSJAVA-42226|イメージのレンダリングでフォントを使用するフォルダーとそのサブフォルダーに制限する/PDF|強化|
 |CELLSJAVA-41130|ピボット テーブルの定義済み単語の言語を変更する|強化|
 |CELLSJAVA-42272|ハイパーリンクを Excel セルに埋め込むオプション|強化|
-|CELLSJAVA-42129|HTMLへの保存は間違っています|バグ|
+|CELLSJAVA-42129|HTML への保存は間違っています|バグ|
 |CELLSJAVA-42125|HTML に変換すると、シェイプの背後にあるグリッド線がエクスポートされない|バグ|
-|CELLSJAVA-42110|HTML のインポート時に一部の CSS ルールが無視される|バグ|
-|CELLSJAVA-42094|変換後の HTML で内容に取り消し線が引かれている|バグ|
+|CELLSJAVA-42110|インポート時に一部の CSS ルールが無視される HTML|バグ|
+|CELLSJAVA-42094|HTML 変換後の内容は取り消し線|バグ|
 |CELLSJAVA-42091|HTML に保存すると、一部のセルのテキスト スタイルが正しくない|バグ|
 |CELLSJAVA-42088|セルに背景色が設定されている場合に DataBar が正しくない|バグ|
 |CELLSJAVA-42018|EMF または SVG 形式を使用すると、チャート画像が保存されない|バグ|
@@ -38,16 +38,16 @@ url: /ja/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42117|LoadFilter クラスの startSheet メソッドをオーバーライドしている間、インスタンス変数 m_LoadDataFilterOptions にアクセスできません|バグ|
 |CELLSJAVA-41882|Cell 異なる JDK バージョンに基づく文字列値と丸めの問題|バグ|
 |CELLSJAVA-42142|Linux で変換を行うと、PDF で右から左および左から右の制御文字が正しくレンダリングされない|バグ|
-|CELLSJAVA-42136|ヘブライ語 - Excel のように中央揃えにする必要があるのに対し、PDF では折り返し行が右揃えになっています。|バグ|
+|CELLSJAVA-42136|ヘブライ語 - 表では、PDF では折り返し行が右揃えになっていますが、Excel では中央揃えにする必要があります。|バグ|
 |CELLSJAVA-42113|アラビア語ワークシートの SVG への間違った変換|バグ|
 |CELLSJAVA-42135|ヘブライ語 - Excel のように PDF で折り返されたテキストが右揃えにならない|バグ|
 |CELLSJAVA-42134|ヘブライ語 - ワード ラップがある場合のシリーズ ラベルで、文字が正しい順序で表示されない|バグ|
-|CELLSJAVA-42127|03.xls を PDF にレンダリングする際のシェイプからイメージへのエラー|バグ|
-|CELLSJAVA-42126|02.xls を PDF にレンダリングする際のシェイプからイメージへのエラー|バグ|
-|CELLSJAVA-42087|HTML のチャート画像が間違っている|バグ|
+|CELLSJAVA-42127|03.xls を PDF にレンダリング中のシェイプからイメージへのエラー|バグ|
+|CELLSJAVA-42126|02.xls を PDF にレンダリング中のシェイプからイメージへのエラー|バグ|
+|CELLSJAVA-42087|HTML のチャート画像が間違っています|バグ|
 |CELLSJAVA-42079|ダイアグラムを含むスプレッドシートを PDF にレンダリングする際の交点での不均一な線の太さ|バグ|
 |CELLSJAVA-42078|出力 PDF ファイルで、グラフ ラベルが (元の Excel ファイルと同じように) 表示/レンダリングされない|バグ|
-|CELLSJAVA-42076|グラフの PDF で x 軸ラベルの角度が正しくない|バグ|
+|CELLSJAVA-42076|グラフの PDF で x 軸ラベルの角度が正しくありません|バグ|
 |CELLSJAVA-42065|スプレッドシートを HTML にレンダリングする際の棒グラフのレンダリングが正しくない|バグ|
 |CELLSJAVA-42152|外部ワークブックを参照する数式を設定すると、3D 数式が作成されます|バグ|
 |CELLSJAVA-42146|スプレッドシートを再保存した後の Excel 2007 での読み取り不能コンテンツ エラー|バグ|
@@ -58,30 +58,30 @@ url: /ja/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42069|Linux で XLSM ファイルを再保存中に Vba モジュールが失われる|バグ|
 |CELLSJAVA-42025|API は、変更された式に余分なアポストロフィを追加します|バグ|
 |CELLSJAVA-41984|{-1} を使用したデザイナー スプレッドシートの動的数式 {-2} return 無効な数式エラー|バグ|
-|CELLSJAVA-41739|XLS から XLSB への変換中に、形状の透明度が 0 にリセットされる|バグ|
-|CELLSJAVA-42165|非表示の行と列を含む範囲を新しいワークブックにコピーして HTML に変換する際のデータ損失|バグ|
-|CELLSJAVA-42164|非表示の行と列を含む範囲を新しいワークブックにコピーして HTML に変換する際のデータ損失 - II|バグ|
-|CELLSJAVA-42162|非表示の行と列を含む範囲を新しいワークブックにコピーして HTML に変換する際のデータ損失 - III|バグ|
+|CELLSJAVA-41739|XLS を XLSB に変換する際に、形状の透明度が 0 にリセットされる|バグ|
+|CELLSJAVA-42165|非表示の行と列を含む範囲を新しいワークブックにコピーし、それを HTML に変換する際のデータ損失|バグ|
+|CELLSJAVA-42164|非表示の行と列を含む範囲を新しいワークブックにコピーし、それを HTML に変換する際のデータ損失 - II|バグ|
+|CELLSJAVA-42162|非表示の行と列を含む範囲を新しいワークブックにコピーし、それを HTML に変換する際のデータ損失 - III|バグ|
 |CELLSJAVA-40251|PDF として保存すると書式が保持されない|バグ|
 |CELLSJAVA-42187|Excel の数式が機能せず、「#DIV/0!」と表示されます。|バグ|
 |CELLSJAVA-42184|同時保存の問題|バグ|
-|CELLSJAVA-42156|HTML への変換中にセルの上下の境界線がなくなる|バグ|
+|CELLSJAVA-42156|HTML への変換中にセルの上下の境界線が消えてしまう|バグ|
 |CELLSJAVA-42147|Excel の数式が正しく機能しない|バグ|
 |CELLSJAVA-41565|データの再読み込み時にリスト データの検証ドロップダウンが閉じない|バグ|
 |CELLSJAVA-42159|PageSetup.BlackAndWhite が機能していないようです|バグ|
 |CELLSJAVA-42189|ウォーターフォール チャートで、calculate() が呼び出されると、チャート シリーズの色が元に戻ります|バグ|
 |CELLSJAVA-42160|Excel の対数スケールのバグにより、Aspose.Cells がハングする|バグ|
-|CELLSJAVA-42158|スプレッドシートを PDF にレンダリング中に縦軸の境界値が変更されました|バグ|
-|CELLSJAVA-42157|チャートを EMF にレンダリング中に横軸と縦軸の境界値が変更されました|バグ|
+|CELLSJAVA-42158|スプレッドシートのレンダリング中に垂直軸の境界値が PDF に変更されました|バグ|
+|CELLSJAVA-42157|グラフのレンダリング中に水平軸と垂直軸の境界値が EMF に変更されました|バグ|
 |CELLSJAVA-42133|ヘブライ語 - PDF にスペース文字がありません|バグ|
 |CELLSJAVA-42107|画像へのレンダリング中にグラフが垂直方向に抑制される|バグ|
 |CELLSJAVA-42105|グラフを画像にエクスポート中に DataTable シリーズが見つからない|バグ|
 |CELLSJAVA-42090|グラフを画像に変換すると、タイトルに下線が表示されない|バグ|
 |CELLSJAVA-42086|チャートの背景画像が間違っている|バグ|
-|CELLSJAVA-42084|空白の白黒グラフの軸 (ヘブライ語) ラベル/凡例が出力 PDF ファイルにありません|バグ|
+|CELLSJAVA-42084|出力 PDF ファイルに空白の白黒グラフの軸 (ヘブライ語) ラベル/凡例がありません|バグ|
 |CELLSJAVA-41831|スプレッドシートを HTML に変換するときに、長方形の内容がレンダリングされない|バグ|
 |CELLSJAVA-42095|スプレッドシートを HTML に変換中にチャートが変更されました|バグ|
-|CELLSJAVA-42096|スプレッドシートを HTML に変換中に、チャート内の数式の位置が変更されました|バグ|
+|CELLSJAVA-42096|スプレッドシートを HTML に変換しているときに、チャート内の数式の位置が変更されました|バグ|
 |CELLSJAVA-42169|Excel から PDF への変換 - アラビア語のテキストが反転する|バグ|
 |CELLSJAVA-42193|数式を挿入するとシート名が大文字になる|バグ|
 |CELLSJAVA-42191|updateSelectedValue を呼び出すと、activeSheetIndex が変更されます|バグ|
@@ -96,39 +96,39 @@ url: /ja/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42161|ワークブック間でシートをコピーすると、数式が変更されます|バグ|
 |CELLSJAVA-42154|CheckBox のテキスト値を読み取れません|バグ|
 |CELLSJAVA-42150|GetNames() メソッドがすべての名前を返さない|バグ|
-|CELLSJAVA-40511|Aspose.Cells で生成された PDF のページはすべて黒です|バグ|
+|CELLSJAVA-40511|Aspose.Cells によって生成された PDF のページはすべて黒です|バグ|
 |CELLSJAVA-42204|スプレッドシートの点線の境界線が HTML にレンダリングされていません|バグ|
 |CELLSJAVA-42198|Aspose.Cells 生成された Excel ファイルで数式の計算が正しくない|バグ|
-|CELLSJAVA-42208|Aspose.Cells 経由で PDF を生成すると、コメント (末尾) が縦に切れます。|バグ|
-|CELLSJAVA-42206|出力 PDF でチャートの一連の破線が正しくレンダリングされない|バグ|
+|CELLSJAVA-42208|Aspose.Cells 経由で PDF が生成されると、コメント (末尾) が縦にカットされます|バグ|
+|CELLSJAVA-42206|グラフの系列破線が出力で正しくレンダリングされない PDF|バグ|
 |CELLSJAVA-42167|グラフを画像に変換した後、2 行で表示される項目軸ラベル|バグ|
 |CELLSJAVA-42199|ウォーターフォール チャート、合計棒からの線と欠落している直前の棒|バグ|
 |CELLSJAVA-42201|サブタスク - チャートを画像に変換した後、2 行で表示されるカテゴリ軸ラベル|バグ|
 |CELLSJAVA-42155|エクスポートされたグラフの X 軸のラベルが Excel のものとは異なる|バグ|
 |CELLSJAVA-42128|ソースの Excel ファイルを開いて保存すると、グラフが正しく表示されない|バグ|
-|CELLSJAVA-42203|XLSM を読み込んで再保存しただけでフォントが変更された|バグ|
+|CELLSJAVA-42203|XLSM を読み込んで再保存しただけでフォントが変更されました|バグ|
 |CELLSJAVA-42196|結果のファイルのフォーマットが、再保存されたファイルでめちゃくちゃになる|バグ|
 |CELLSJAVA-42195|ウォーターフォール チャート、合計シリーズが正しく表示されない|バグ|
 |CELLSJAVA-42045|レーダーチャート画像が生成されない|バグ|
-|CELLSJAVA-42239|HTML 読み込み時の入力文字列形式エラー|バグ|
+|CELLSJAVA-42239|HTML の読み込み時の入力文字列形式エラー|バグ|
 |CELLSJAVA-42230|XLSX を HTML に変換すると、追加の align 属性が生成されます。|バグ|
-|CELLSJAVA-42229|XLSX を HTML にエクスポート - 実際の Cell 値の代わりにハッシュ記号が生成されます|バグ|
-|CELLSJAVA-42218|HTML が Excel ファイルに正しく変換されない|バグ|
+|CELLSJAVA-42229|XLSX から HTML へのエクスポート - 実際の Cell 値の代わりにハッシュ記号が生成されます|バグ|
+|CELLSJAVA-42218|HTML は Excel ファイルに正しく変換されません|バグ|
 |CELLSJAVA-42210|出力 HTML に一部の DataBar 条件付き書式がありません|バグ|
 |CELLSJAVA-41783|背景画像は SVG 形式である必要がありますが、PNG 形式です|バグ|
-|CELLSJAVA-42253|依存セル値が原因で XLS でエラーが発生する|バグ|
+|CELLSJAVA-42253|依存セル値により、XLS でエラーが発生する|バグ|
 |CELLSJAVA-42222|ワークブックの計算後に合計が正しくない|バグ|
 |CELLSJAVA-42254|GridWebServlet?acw_アヤックス_GridWeb の読み込み中に呼び出しエラーが発生する|バグ|
 |CELLSJAVA-42243|Excel から PDF - 正方形が長方形に見える|バグ|
-|CELLSJAVA-42242|Excel から PDF - 円は楕円形のように見えます|バグ|
+|CELLSJAVA-42242|Excel から PDF - 円が楕円形に見える|バグ|
 |CELLSJAVA-42227|画像ファイル「x1.png」には余分な上部境界線があり、下部境界線がありません|バグ|
 |CELLSJAVA-42212|XLS を PDF にエクスポートする際のパフォーマンスの問題|バグ|
 |CELLSJAVA-42246|Excel から HTML - グラフの Y 軸ラベルのテキストの配置が間違っている|バグ|
 |CELLSJAVA-42223|レーダー チャートのポイント xy px 0 を返す|バグ|
 |CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx を PDF に変換すると、バブル チャートの Y 軸の境界値が変更される|バグ|
 |CELLSJAVA-42250|コードに CommandBar 型の変数の定義が含まれている場合のコンパイル エラー|バグ|
-|CELLSJAVA-42241|Excel から PDF - ブラケットは次の行に追加されます|バグ|
-|CELLSJAVA-42234|XLSM ファイルを XLS として保存すると、ボタンからマクロ アクションが取り除かれます|バグ|
+|CELLSJAVA-42241|Excel から PDF - ブラケットが次の行に入ります|バグ|
+|CELLSJAVA-42234|XLSM ファイルを XLS として保存すると、ボタンからマクロ アクションが削除されます|バグ|
 |CELLSJAVA-42233|コードのアップグレード - チャートへの 3D フォーマットの適用|バグ|
 |CELLSJAVA-42225|形状の入力範囲を設定できません|バグ|
 |CELLSJAVA-42224|コメントの並べ替えに関する問題|バグ|
@@ -151,22 +151,22 @@ url: /ja/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42271|Worksheet.autoFitColumns() は、改行のあるセルではうまく機能しません|バグ|
 |CELLSJAVA-42266|コメントを含む Excel ファイルを並べ替えると、出力 Excel ファイルが破損する|バグ|
 |CELLSJAVA-42265|コメントを並べ替えると、出力ファイルを MS Excel で開いたときに「Excel で読み取り不能なコンテンツが見つかりました....」というエラーが発生する|バグ|
-|CELLSJAVA-42264|HTML または PDF に変換する際の OpenOffice ODS ファイルの下付き文字と上付き文字の問題|バグ|
+|CELLSJAVA-42264|OpenOffice ODS ファイルを HTML または PDF に変換する際の下付き文字と上付き文字の問題|バグ|
 |CELLSJAVA-42122|サイズの大きい Excel ファイルを開くと NullPointerException が発生する|例外|
 |CELLSJAVA-42123|形状から画像へのエラー - Excel ファイルのレンダリング中|例外|
 |CELLSJAVA-42144|new Workbook() は Aspose.Cells for Java 16.12.6 で例外をスローする可能性があります|例外|
 |CELLSJAVA-42143|例外: Workbook.save() メソッドの java.lang.ArrayIndexOutOfBoundsException|例外|
 |CELLSJAVA-42137|Excel のレンダリングで無効な列インデックスの例外が発生する|例外|
 |CELLSJAVA-42111|最後のセルの無効な数式の例外|例外|
-|CELLSJAVA-42179|HTML のロード中に Workbook ctor で NullPointerException が発生する|例外|
+|CELLSJAVA-42179|HTML の読み込み中に Workbook ctor で NullPointerException が発生する|例外|
 |CELLSJAVA-42174|HTML のロード中に Workbook ctor で NullPointerException - II|例外|
 |CELLSJAVA-42192|CellsException: 穴のサイズが無効です: 10 から 90 の間でなければなりません|例外|
-|CELLSJAVA-42190|例外: XLSX ファイル形式の読み込み時の「java.lang.IndexOutOfBoundsException」|例外|
+|CELLSJAVA-42190|例外: XLSX ファイル形式をロードするときの「java.lang.IndexOutOfBoundsException」|例外|
 |CELLSJAVA-42185|例外 - ReadElementString のみを呼び出すことができました - ワークブックを開くときに発生しました|例外|
 |CELLSJAVA-42231|行の挿入時に例外が発生する|例外|
 |CELLSJAVA-42268|例外: チャートを画像にレンダリングするときの「java.lang.NullPointerException」|例外|
-|CELLSJAVA-42278|例外: HTML ファイル形式で保存する場合の「java.lang.IndexOutOfBoundsException: インデックス: 12、サイズ: 12」|例外|
-|CELLSJAVA-42274|例外: XLSX ファイルのロード時の「java.lang.StringIndexOutOfBoundsException: 文字列インデックスが範囲外です: 0」|例外|
+|CELLSJAVA-42278|例外: HTML ファイル形式で保存する場合、「java.lang.IndexOutOfBoundsException: インデックス: 12、サイズ: 12」|例外|
+|CELLSJAVA-42274|例外: XLSX ファイルのロード時に「java.lang.StringIndexOutOfBoundsException: String index out of range: 0」|例外|
 ## **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for Android via Java に対して行われた後方互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、それを提起してください。 Aspose.Cells サポート フォーラムで。
 ### **LoadFilter.LoadDataFilterOptions プロパティのセッターを追加して m_LoadDataFilterOptions 変数を置き換えます**

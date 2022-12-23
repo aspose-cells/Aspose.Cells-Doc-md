@@ -14,5 +14,5 @@ Aspose.Cells for SharePoint v1.0.0 を発表できることをうれしく思い
 
 新着情報：
 
--  MS Excel 入力形式のサポート: XLS、XLSX、XLST、XLSM、CSV、ODS、SpreadsheetML、TXT。
+- MS Excel 入力形式のサポート: XLS、XLSX、XLST、XLSM、CSV、ODS、SpreadsheetML、TXT。
 - 出力形式のサポート: XLS、XLSX、CSV、HTML、ODS、PDF、SpreadsheetML、TXT。

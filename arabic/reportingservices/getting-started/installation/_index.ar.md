@@ -1,5 +1,5 @@
 ﻿---
-title: تثبيت
+title: التركيب
 type: docs
 weight: 10
 url: /ar/reportingservices/installation/

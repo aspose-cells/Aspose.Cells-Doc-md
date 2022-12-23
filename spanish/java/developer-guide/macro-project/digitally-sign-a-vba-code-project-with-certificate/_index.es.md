@@ -9,7 +9,7 @@ url: /es/java/digitally-sign-a-vba-code-project-with-certificate/
  Puede firmar digitalmente su proyecto de código VBA usando Aspose.Cells con su[**Libro de trabajo.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)) método. Siga estos pasos para verificar si su archivo de Excel está firmado digitalmente con un certificado.
 
 -  Hacer clic**básico visual** desde el**Desarrollador** pestaña para abrir**Visual Basic para Aplicaciones IDE**
--  Hacer clic**Instrumentos** > **Firmas digitales...** de**Visual Basic para Aplicaciones IDE**
+-  Hacer clic**Herramientas** > **Firmas digitales...** de**Visual Basic para Aplicaciones IDE**
 
  y mostrará la**Formulario de firma digital** mostrando si el documento está firmado digitalmente con un certificado o no.
 
@@ -17,7 +17,7 @@ url: /es/java/digitally-sign-a-vba-code-project-with-certificate/
 
 ## **Firme digitalmente un proyecto de código VBA con certificado en C#**
 
- El siguiente código de ejemplo ilustra cómo hacer uso de[**Libro de trabajo.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)) método. Aquí están los archivos de entrada y salida del código de muestra. Puede usar cualquier archivo de Excel y cualquier certificado para probar este código.
+ El siguiente código de ejemplo ilustra cómo hacer uso de[**Libro de trabajo.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)método. Aquí están los archivos de entrada y salida del código de muestra. Puede usar cualquier archivo de Excel y cualquier certificado para probar este código.
 
 - [Archivo Excel de origen](5115028.xlsm) utilizado en el código de ejemplo.
 - [Ejemplo de archivo pfx](5115039.pfx) para crear Firma Digital. Instálelo en su computadora para ejecutar este código. Su contraseña es 1234.

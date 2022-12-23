@@ -34,7 +34,7 @@ La enumeración ProtectionType contiene los siguientes tipos de protección pred
 |[**ESCENARIOS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#SCENARIOS)|El usuario no puede modificar los escenarios guardados|
 |[**ESTRUCTURA**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#STRUCTURE)|El usuario no puede modificar la estructura guardada|
 |[**VENTANAS**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#WINDOWS)|El usuario no puede modificar las ventanas guardadas|
-|[**NINGUNA**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|Sin protección|
+|[**NINGUNO**](https://reference.aspose.com/cells/java/com.aspose.cells/protectiontype#NONE)|Sin protección|
 
 El siguiente ejemplo muestra cómo proteger una hoja de trabajo con una contraseña.
 
@@ -46,7 +46,7 @@ Después de usar el código anterior para proteger la hoja de trabajo, verifique
 
 ![todo:imagen_alternativa_texto](protect-and-unprotect-worksheet_1.png)
 
-Para trabajar en la hoja de trabajo, desproteja la hoja de trabajo seleccionando el**Proteccion** , después**Desproteger hoja** desde el**Instrumentos** elemento de menú como se muestra a continuación.
+Para trabajar en la hoja de trabajo, desproteja la hoja de trabajo seleccionando el**Proteccion** , después**Desproteger hoja** desde el**Herramientas** elemento de menú como se muestra a continuación.
 
 **Selección del elemento de menú Desproteger hoja** 
 
@@ -80,7 +80,7 @@ Si el comando de celdas no está disponible, es posible que partes de la hoja de
 {{% /alert %}}
 
 1. Seleccione solo las celdas que desea bloquear y repita el paso 2, pero esta vez seleccione la casilla de verificación Bloqueado.
-1.  Sobre el**Instrumentos** menú, seleccione**Proteccion** , haga clic**hoja de protección** y luego haga clic en**OK**.
+1.  Sobre el**Herramientas** menú, seleccione**Proteccion** , haga clic**hoja de protección** y luego haga clic en**DE ACUERDO**.
 
 {{% alert color="primary" %}}
 
@@ -98,7 +98,7 @@ El siguiente ejemplo muestra cómo proteger algunas celdas en la hoja de trabajo
 
 ### **Proteger una fila en la hoja de trabajo**
 
- Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de trabajo. Aquí, podemos hacer uso de[**aplicarEstilo()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) método de[**Fila**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) class para aplicar Style a una fila en particular en la hoja de cálculo. Este método toma dos argumentos: un[**Estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objeto y[**Bandera de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) estructura que tiene todos los miembros relacionados con el formato aplicado.
+ Aspose.Cells le permite bloquear fácilmente cualquier fila en la hoja de trabajo. Aquí, podemos hacer uso de[**aplicarEstilo()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) método de[**Fila**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) class para aplicar Style a una fila en particular en la hoja de trabajo. Este método toma dos argumentos: un[**Estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) objeto y[**Bandera de estilo**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) estructura que tiene todos los miembros relacionados con el formato aplicado.
 
 El siguiente ejemplo muestra cómo proteger una fila en la hoja de cálculo. Primero desbloquea todas las celdas de la hoja de trabajo y luego bloquea la primera fila. Finalmente, protege la hoja de trabajo. Una fila/columna tiene un estilo API que además contiene un método setCellLocked. Puede bloquear o desbloquear la fila/columna usando la estructura StyleFlag.
 
@@ -120,7 +120,7 @@ El siguiente ejemplo muestra cómo proteger una columna en la hoja de cálculo. 
 
 Para eliminar la protección de una hoja de trabajo:
 
- Desde el**Instrumentos** menú, seleccione**Proteccion** seguido por**Desproteger hoja**.
+ Desde el**Herramientas** menú, seleccione**Proteccion** seguido por**Desproteger hoja**.
 
 **Seleccionar hoja desprotegida** 
 
@@ -134,7 +134,7 @@ Se elimina la protección, a menos que la hoja de trabajo esté protegida con co
 
 ### **Usando Aspose.Cells**
 
- Una hoja de trabajo se puede desproteger llamando al[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**Desproteger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) método. los[**Desproteger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) El método se puede utilizar de dos maneras, que se describen a continuación.
+ Una hoja de trabajo se puede desproteger llamando al[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase'[**Desproteger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect() ) método. Él[**Desproteger**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#unprotect()) El método se puede utilizar de dos maneras, que se describen a continuación.
 
 ### **Desproteger una hoja de trabajo simplemente protegida**
 
@@ -165,7 +165,7 @@ Aspose.Cells admite todas las configuraciones de protección avanzadas que ofrec
 
 Para ver la configuración de protección disponible en Excel XP:
 
-1.  Desde el**Instrumentos** menú, seleccione**Proteccion** seguido por**hoja de protección**.
+1.  Desde el**Herramientas** menú, seleccione**Proteccion** seguido por**hoja de protección**.
  Se muestra un cuadro de diálogo.
 
    **Diálogo para mostrar opciones de protección en Excel XP**

@@ -14,6 +14,6 @@ Il seguente codice di esempio spiega come utilizzare [**DataSorter.AddKey Method
 
 ![cose da fare:immagine_alt_testo](sort-data-in-column-with-custom-sort-list_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SortDataInColumnWithCustomSortList.cs" >}}

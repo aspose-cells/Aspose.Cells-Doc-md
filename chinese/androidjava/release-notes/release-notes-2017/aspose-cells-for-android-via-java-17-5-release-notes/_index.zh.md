@@ -19,36 +19,36 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-41521|支持将文本转换为列 MS Excel 功能|新功能|
 |CELLSJAVA-42205|使用长字符串文本设置公式会导致损坏的 Excel 文件|强化|
 |CELLSJAVA-41975|支持 DBNum（自定义模式）格式化|新功能|
-|CELLSJAVA-42237|访问单元格会创建带有空行的 HTML|强化|
+|CELLSJAVA-42237|访问单元格会创建带有空白行的 HTML|强化|
 |CELLSJAVA-42236|多线程环境的性能问题|强化|
-|CELLSJAVA-42226|限制为文件夹及其子文件夹以在渲染图像/PDF 时使用字体|强化|
+|CELLSJAVA-42226|限制为文件夹及其子文件夹以在渲染图像时使用字体/PDF|强化|
 |CELLSJAVA-41130|更改数据透视表预定义词的语言|强化|
 |CELLSJAVA-42272|在 Excel 单元格中嵌入超链接的选项|强化|
-|CELLSJAVA-42129|保存到 HTML 是错误的|漏洞|
-|CELLSJAVA-42125|转换为 HTML 时，形状后面的网格线不会导出|漏洞|
-|CELLSJAVA-42110|导入 HTML 时忽略了一些 CSS 规则|漏洞|
-|CELLSJAVA-42094|转换后的 HTML 中的内容被删除线|漏洞|
-|CELLSJAVA-42091|保存为 HTML 时某些单元格的文本样式错误|漏洞|
+|CELLSJAVA-42129|保存到HTML是错误的|漏洞|
+|CELLSJAVA-42125|转换为 HTML 时不导出形状后面的网格线|漏洞|
+|CELLSJAVA-42110|导入时忽略了一些 CSS 规则 HTML|漏洞|
+|CELLSJAVA-42094|转换后的内容被划线 HTML|漏洞|
+|CELLSJAVA-42091|保存到HTML时部分单元格文字样式错误|漏洞|
 |CELLSJAVA-42088|当单元格设置了背景颜色时 DataBar 错误|漏洞|
-|CELLSJAVA-42018|使用 EMF 或 SVG 格式时，图表图片未保存|漏洞|
+|CELLSJAVA-42018|使用 EMF 或 SVG 格式时图表图片未保存|漏洞|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines 似乎不适用于特定的电子表格|漏洞|
 |CELLSJAVA-42131|使用 Aspose Cells API 重新计算多个公式会导致“#NUM!”错误|漏洞|
 |CELLSJAVA-42124|使用 ICustomParser 导入 CSV 时出现日期格式问题|漏洞|
 |CELLSJAVA-42118|Name.getRanges() API 产生意外结果|漏洞|
 |CELLSJAVA-42117|覆盖 LoadFilter 类的 startSheet 方法时无法访问实例变量 m_LoadDataFilterOptions|漏洞|
 |CELLSJAVA-41882|Cell 基于不同JDK版本的字符串值&舍入问题|漏洞|
-|CELLSJAVA-42142|在 Linux 上完成转换后，PDF 中的从右到左和从左到右的控制字符无法正确呈现|漏洞|
-|CELLSJAVA-42136|希伯来语 - 在表格中，单词换行在 PDF 中右对齐，而在 Excel 中它们应该居中|漏洞|
+|CELLSJAVA-42142|在 Linux 上完成转换时，从右到左和从左到右的控制字符在 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42136|希伯来语 - 在表格中，单词换行在 PDF 中右对齐，而它们应该像在 Excel 中一样居中|漏洞|
 |CELLSJAVA-42113|错误地将阿拉伯语工作表转换为 SVG|漏洞|
-|CELLSJAVA-42135|希伯来语 - 换行文本在 PDF 中不像在 Excel 中那样右对齐|漏洞|
+|CELLSJAVA-42135|希伯来语 - 换行文本在 PDF 中未像在 Excel 中那样右对齐|漏洞|
 |CELLSJAVA-42134|希伯来语 - 系列标签出现换行时字符未按正确顺序显示|漏洞|
-|CELLSJAVA-42127|将 03.xls 渲染为 PDF 时出现图像错误|漏洞|
-|CELLSJAVA-42126|将 02.xls 渲染为 PDF 时出现图像错误|漏洞|
-|CELLSJAVA-42087|HTML 中的图表图像错误|漏洞|
-|CELLSJAVA-42079|将带有图表的电子表格渲染为 PDF 时，交叉点处的线条粗细不均匀|漏洞|
+|CELLSJAVA-42127|形状到图像渲染 03.xls 到 PDF 时出错|漏洞|
+|CELLSJAVA-42126|形状到图像渲染 02.xls 到 PDF 时出错|漏洞|
+|CELLSJAVA-42087|HTML中的图表图像是错误的|漏洞|
+|CELLSJAVA-42079|在将带有图表的电子表格渲染到 PDF 时，交叉点处线条的粗细不均匀|漏洞|
 |CELLSJAVA-42078|输出 PDF 文件中的图表标签未显示/呈现相同（根据原始 Excel 文件）|漏洞|
-|CELLSJAVA-42076|图表 PDF 中 x 轴标签的角度不正确|漏洞|
-|CELLSJAVA-42065|将电子表格呈现为 HTML 时条形图呈现不正确|漏洞|
+|CELLSJAVA-42076|Chart 的 x 轴标签角度不正确 PDF|漏洞|
+|CELLSJAVA-42065|将电子表格渲染到 HTML 时条形图渲染不正确|漏洞|
 |CELLSJAVA-42152|引用外部工作簿的设置公式创建 3d 公式|漏洞|
 |CELLSJAVA-42146|重新保存电子表格后 Excel 2007 中出现不可读内容错误|漏洞|
 |CELLSJAVA-42121|条件格式表达式在删除行时发生变化|漏洞|
@@ -65,14 +65,14 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-40251|另存为 PDF 不保留格式|漏洞|
 |CELLSJAVA-42187|Excel 公式无效并显示为“#DIV/0!”|漏洞|
 |CELLSJAVA-42184|并发保存问题|漏洞|
-|CELLSJAVA-42156|转换为 HTML 时，单元格的顶部和底部边框消失了|漏洞|
+|CELLSJAVA-42156|转换为 HTML 时单元格的顶部和底部边框消失|漏洞|
 |CELLSJAVA-42147|Excel 公式无法正常工作|漏洞|
 |CELLSJAVA-41565|列表数据验证下拉列表在重新加载数据时不会关闭|漏洞|
 |CELLSJAVA-42159|PageSetup.BlackAndWhite 似乎不起作用|漏洞|
 |CELLSJAVA-42189|瀑布图，当调用 calculate() 时，图表系列颜色被还原|漏洞|
 |CELLSJAVA-42160|Excel 中的对数刻度错误导致 Aspose.Cells 挂起|漏洞|
-|CELLSJAVA-42158|将电子表格呈现为 PDF 时垂直轴边界值发生变化|漏洞|
-|CELLSJAVA-42157|将图表呈现为 EMF 时水平和垂直轴边界值发生变化|漏洞|
+|CELLSJAVA-42158|将电子表格呈现为 PDF 时，垂直轴边界值已更改|漏洞|
+|CELLSJAVA-42157|将图表呈现为 EMF 时，水平轴和垂直轴的边界值已更改|漏洞|
 |CELLSJAVA-42133|希伯来语 - PDF 中缺少空格字符|漏洞|
 |CELLSJAVA-42107|渲染到图像时图表被垂直抑制|漏洞|
 |CELLSJAVA-42105|将图表导出到图像时缺少 DataTable 系列|漏洞|
@@ -96,11 +96,11 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42161|跨工作簿复制工作表会更改公式|漏洞|
 |CELLSJAVA-42154|无法读取复选框的文本值|漏洞|
 |CELLSJAVA-42150|GetNames() 方法未返回所有名称|漏洞|
-|CELLSJAVA-40511|Aspose.Cells生成的PDF页面全黑|漏洞|
+|CELLSJAVA-40511|Aspose.Cells生成的PDF的页面全黑|漏洞|
 |CELLSJAVA-42204|电子表格中的虚线边框未呈现为 HTML|漏洞|
 |CELLSJAVA-42198|Aspose.Cells 生成的Excel文件公式计算有误|漏洞|
 |CELLSJAVA-42208|通过 Aspose.Cells 生成 PDF 时，评论（最后）被垂直切割|漏洞|
-|CELLSJAVA-42206|图表的系列虚线在输出 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42206|图表的系列虚线在输出中未正确呈现 PDF|漏洞|
 |CELLSJAVA-42167|将图表转换为图像后，分类轴标签显示为两行|漏洞|
 |CELLSJAVA-42199|瀑布图，总条线和它之前的条线丢失|漏洞|
 |CELLSJAVA-42201|子任务 - 将图表转换为图像后，分类轴标签显示为两行|漏洞|
@@ -111,24 +111,24 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42195|瀑布图，总系列看起来不对|漏洞|
 |CELLSJAVA-42045|未生成雷达图图像|漏洞|
 |CELLSJAVA-42239|加载 HTML 时输入字符串格式错误|漏洞|
-|CELLSJAVA-42230|将 XLSX 转换为 HTML 时会生成一个额外的对齐属性|漏洞|
-|CELLSJAVA-42229|将 XLSX 导出为 HTML - 生成哈希符号代替实际的 Cell 值|漏洞|
+|CELLSJAVA-42230|将 XLSX 转换为 HTML 时会生成一个附加对齐属性|漏洞|
+|CELLSJAVA-42229|将 XLSX 导出到 HTML - 生成哈希符号代替实际的 Cell 值|漏洞|
 |CELLSJAVA-42218|HTML 未正确转换为 Excel 文件|漏洞|
-|CELLSJAVA-42210|输出 HTML 中缺少一些 DataBar 条件格式|漏洞|
-|CELLSJAVA-41783|背景图像应为 SVG 格式，但为 PNG 格式|漏洞|
-|CELLSJAVA-42253|依赖单元格值导致 XLS 中出现错误|漏洞|
+|CELLSJAVA-42210|输出中缺少某些 DataBar 条件格式 HTML|漏洞|
+|CELLSJAVA-41783|背景图片应为 SVG 格式，但实际为 PNG 格式|漏洞|
+|CELLSJAVA-42253|依赖单元格值导致错误 XLS|漏洞|
 |CELLSJAVA-42222|工作簿计算后总和不正确|漏洞|
 |CELLSJAVA-42254|GridWebServlet?acw_阿贾克斯_加载 GridWeb 时出现调用错误|漏洞|
-|CELLSJAVA-42243|Excel 转 PDF - 方形看起来像矩形|漏洞|
-|CELLSJAVA-42242|Excel 转 PDF - 圆形看起来像椭圆形|漏洞|
+|CELLSJAVA-42243|Excel 到 PDF - 方形看起来像矩形|漏洞|
+|CELLSJAVA-42242|Excel 到 PDF - 圆形看起来像椭圆形|漏洞|
 |CELLSJAVA-42227|图像文件“x1.png”有一个额外的顶部边框和缺失的底部边框|漏洞|
-|CELLSJAVA-42212|将 XLS 导出为 PDF 时出现性能问题|漏洞|
+|CELLSJAVA-42212|将 XLS 导出到 PDF 时出现性能问题|漏洞|
 |CELLSJAVA-42246|Excel 到 HTML - 图表 Y 轴标签中的文本对齐错误|漏洞|
 |CELLSJAVA-42223|雷达图的点 xy px 返回 0|漏洞|
-|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx转PDF时气泡图Y轴绑定值变化|漏洞|
+|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx 转换为 PDF 时气泡图 Y 轴的绑定值发生变化|漏洞|
 |CELLSJAVA-42250|如果代码包含类型为 CommandBar 的变量定义，则会出现编译错误|漏洞|
 |CELLSJAVA-42241|Excel 到 PDF - 括号在下一行|漏洞|
-|CELLSJAVA-42234|将 XLSM 文件另存为 XLS 从按钮中删除宏操作|漏洞|
+|CELLSJAVA-42234|将 XLSM 文件保存为 XLS 从按钮中删除宏操作|漏洞|
 |CELLSJAVA-42233|升级代码——将3D格式应用于图表|漏洞|
 |CELLSJAVA-42225|无法设置形状输入范围|漏洞|
 |CELLSJAVA-42224|排序评论的问题|漏洞|
@@ -137,13 +137,13 @@ url: /zh/java/aspose-cells-for-android-via-java-17-5-release-notes/
 |CELLSJAVA-42217|通过Aspose API访问VbaModule后，生成的Excel文件已经破坏了vba工程|漏洞|
 |CELLSJAVA-42213|字体无意中改变了评论中嵌入的 CR 的大小|漏洞|
 |CELLSJAVA-42283|当过滤器存在于命名范围之外时发生 NullPointerException|漏洞|
-|CELLSJAVA-42282|复制工作表会取消隐藏输出 HTML 文件中的过滤行|漏洞|
+|CELLSJAVA-42282|复制工作表会取消隐藏输出 HTML 文件中的筛选行|漏洞|
 |CELLSJAVA-42276|内容在非 IE 浏览器（例如 Google chrome）中显示不同（某些文本丢失）- Excel 到 HTML 呈现|漏洞|
 |CELLSJAVA-42247|在电子表格中刷新数据透视表时条件格式丢失|漏洞|
 |CELLSJAVA-42257|条件格式样式已损坏|漏洞|
 |CELLSJAVA-42202|Excel 公式无法正常工作 - 它显示为 6 而不是 0|漏洞|
 |CELLSJAVA-42286|保存带有图形的 XLS 文件使用 100% CPU|漏洞|
-|CELLSJAVA-42251|标题被输出 PDF 中的趋势标签遮盖|漏洞|
+|CELLSJAVA-42251|标题被输出中的趋势标签遮盖了 PDF|漏洞|
 |CELLSJAVA-42284|Workbook.getFonts() 在重新加载同一个电子表格后显示其他字体|漏洞|
 |CELLSJAVA-42281|合并/复制到 Excel 工作表 - 单元格开头的空格未保留|漏洞|
 |CELLSJAVA-42280|文件中的字符串无效 - 打开 Excel 文件时出错|漏洞|

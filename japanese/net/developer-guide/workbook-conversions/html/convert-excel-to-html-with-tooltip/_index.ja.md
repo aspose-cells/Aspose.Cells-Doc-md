@@ -6,9 +6,9 @@ url: /ja/net/convert-excel-to-html-with-tooltip/
 ---
 ## **ツールチップを使用して Excel を HTML に変換する**
 
-生成された HTML でテキストが途切れており、ホバー イベントのツールチップとして完全なテキストを表示したい場合があります。 Aspose.Cells は、提供することでこれをサポートします**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)**財産。の設定**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)**プロパティへ**真実**生成された HTML に完全なテキストをツールチップとして追加します。
+生成された HTML でテキストが途切れており、ホバー イベントでテキスト全体をツールチップとして表示したい場合があります。 Aspose.Cells は、提供することでこれをサポートします**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)**財産。の設定**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/addtooltiptext)**プロパティへ**真実**生成された HTML に完全なテキストがツールチップとして追加されます。
 
-次の画像は、生成された HTML ファイルのツールチップを示しています。
+次の図は、生成された HTML ファイルのツールチップを示しています。
 
 ![todo:画像_代替_文章](convert-excel-to-html-with-tooltip_1.jpg)
 

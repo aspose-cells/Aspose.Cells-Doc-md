@@ -14,7 +14,7 @@ url: /it/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Cosa è cambiato in Aspose.Cells:
 
-- Supporta l'esportazione di file PDF crittografati.
+- Supporta l'esportazione di file crittografati PDF.
 - 45 miglioramenti e correzioni.
 
  Cosa è cambiato in Aspose.Cells.GridWeb:
@@ -32,9 +32,9 @@ url: /it/net/aspose-cells-for-net-5-1-4-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v5.1.4.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
-|20247 | ODS| Errore nella formula quando salvo come ODS|
+|20247 |ODS | Errore nella formula quando salvo come ODS|
 |18357 | PDF| Problema di conversione sui grafici a torta|
 |18925 | PDF| Problema Converti Excel in PDF|
 |19883 | PDF| Errore di generazione del riferimento all'oggetto non trovato|
@@ -50,8 +50,8 @@ url: /it/net/aspose-cells-for-net-5-1-4-release-notes/
 |20721 | Tabella pivot| La stringa di input non era in un formato corretto|
 |20228 | Foglio2Immagine| Compressione RLE risultante in TIFF bitonali|
 |20574 | Foglio2Immagine| La funzionalità di salvataggio nell'immagine non è formattata correttamente|
-|20181 | Foglio di calcoloML| Una cella che utilizza la funzione Collegamento ipertestuale genera un'eccezione|
-|20519 | Foglio di calcoloML| Impossibile ottenere il contenuto di Excel 2007 come XML|
+|20181 |SpreadsheetML | Una cella che utilizza la funzione Collegamento ipertestuale genera un'eccezione|
+|20519 |SpreadsheetML | Impossibile ottenere il contenuto di Excel 2007 come XML|
 |20055 | XL| La formula contiene '\r'|
 |20152 | XL| Scegli la funzione che non valuta correttamente dopo aver inserito le righe|
 |20168 | XL| Ricalcolo delle funzioni VBA personalizzate|

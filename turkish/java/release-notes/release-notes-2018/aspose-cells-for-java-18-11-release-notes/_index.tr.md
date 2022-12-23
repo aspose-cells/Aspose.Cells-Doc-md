@@ -12,7 +12,7 @@ Bu sayfa Aspose.Cells for Java 18.11 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42738|Doğrulama değerlerinin yanlış sayısı XLSX'ten okunuyor|Artırma|
+|CELLSJAVA-42738|XLSX'den yanlış doğrulama değerleri okundu|Artırma|
 |CELLSJAVA-42734|Ardışık sınırlayıcıları farklı olarak ele alırken sorun|Artırma|
 |CELLSJAVA-42739|Aspose.Cells.GridWeb (Java), çok kullanıcılı bir ortamda aynı anda kullanıldığında çöküyor|Böcek|
 |CELLSJAVA-42737|XLSX->PNG dönüşümünde grafik satırı eksik|Böcek|

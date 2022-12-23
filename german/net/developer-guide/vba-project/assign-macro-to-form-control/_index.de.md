@@ -10,7 +10,7 @@ url: /de/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einer Formularschaltfläche einen Makrocode zu und speichert die Ausgabe im XLSM-Format. Sobald Sie die XLSM-Ausgabedatei in Microsoft Excel öffnen, sehen Sie den folgenden Makrocode.
+Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einer Formularschaltfläche einen Makrocode zu und speichert die Ausgabe im Format XLSM. Sobald Sie die Ausgabedatei XLSM in Microsoft Excel öffnen, sehen Sie den folgenden Makrocode.
 
 {{< highlight "java" >}}
 
@@ -24,6 +24,6 @@ End Sub
 
 ## **Weisen Sie dem Formularsteuerelement in C# ein Makro zu**
 
-Hier ist der Beispielcode zum Generieren der XLSM-Ausgabedatei mit Makrocode.
+Hier ist der Beispielcode zum Generieren der Ausgabedatei XLSM mit Makrocode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

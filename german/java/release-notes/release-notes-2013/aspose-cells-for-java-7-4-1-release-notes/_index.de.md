@@ -16,7 +16,7 @@ url: /de/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Verbesserungen
 
-40407 - Unterstützt gedrehten Text in den Zellen
+ 40407 - Unterstützt gedrehten Text in den Zellen
 
  Ausnahmen
 

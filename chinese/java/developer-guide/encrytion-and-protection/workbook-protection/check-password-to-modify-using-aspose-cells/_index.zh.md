@@ -8,7 +8,7 @@ url: /zh/java/check-password-to-modify-using-aspose-cells/
 
 你可以分配一个**打开密码**和一个**修改密码**在 Microsoft Excel 中创建工作簿时。请查看此屏幕截图，其中显示了 Microsoft Excel 提供的用于指定这些密码的界面。
 
-![待办事项：图像_替代_文本](check-password-to-modify-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](check-password-to-modify-using-aspose-cells_1.png)
 
 有时，您需要检查给定的密码是否与**修改密码**以编程方式。 Aspose.Cells提供[**workbook.getSettings().getWriteProtection().validatePassword()**](https://reference.aspose.com/cells/java/com.aspose.cells/writeprotection#validatePassword(java.lang.String)) 方法，您可以使用该方法检查给定的要修改的密码是否正确。
 

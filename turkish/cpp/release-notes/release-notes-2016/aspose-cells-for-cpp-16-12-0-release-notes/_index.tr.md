@@ -15,7 +15,7 @@ url: /tr/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-438|Çalışma sayfasındaki satırları ve sütunları gruplandırma|Yeni özellik|
 |CELLSPORTINGC-439|Çalışma sayfasına Tablo/Liste Nesnesi Ekleme|Yeni özellik|
 |CELLSPORTINGC-426|Aspose.Cells for C++ API'leriyle ilgili lisans sorunu|Böcek|
-|CELLSPORTINGC-425|XLS dosyalarını kaydetme performansını optimize edin|Gelişme|
+|CELLSPORTINGC-425|XLS dosyasını kaydetme performansını optimize edin|Gelişme|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for C++ numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **ICell::SetStyle yöntemini ICell::SetIStyle olarak yeniden adlandırır**

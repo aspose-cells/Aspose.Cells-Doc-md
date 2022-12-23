@@ -28,37 +28,37 @@ url: /es/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45134|Los anchos de columna se pierden al importar HTML como XLSX|Insecto|
 |CELLSNET-45133|El estilo del contenido se pierde al importar HTML como XLSX|Insecto|
 |CELLSNET-45132|WrapText habilitado en HTML se pierde cuando se guarda en formato XLSX|Insecto|
-|CELLSNET-45127|El estilo y el tamaño de la fuente cambian después de importar HTML como XLSX|Insecto|
+|CELLSNET-45127|El estilo y tamaño de fuente se cambia después de importar HTML como XLSX|Insecto|
 |CELLSNET-45115|Actualizar la tabla dinámica después de agregar algunos datos genera un archivo de Excel corrupto|Insecto|
 |CELLSNET-45109|Error en la actualización de la tabla dinámica agrupada por columna de fecha|Insecto|
 |CELLSNET-45081|La función de combinación de etiquetas de Pivot Table no funciona|Insecto|
-|CELLSNET-45076|La alineación no funciona y el texto sale de la celda en la conversión de Excel a HTML|Insecto|
+|CELLSNET-45076|La alineación no funciona y el texto sale de la celda en Excel a la conversión HTML|Insecto|
 |CELLSNET-45057|La conversión de HTML a XLSX no es correcta|Insecto|
-|CELLSNET-45040|Algunos elementos de campo dinámico se representan como valores de fecha en lugar de números|Insecto|
+|CELLSNET-45040|Algunos elementos de campo dinámico se representan como valores de fecha en lugar de Numbers|Insecto|
 |CELLSNET-40265|Problema con la cultura de los archivos de entrada|Insecto|
 |CELLSNET-45142|Problema con la función BUSCARV cuando se usa el rango externo|Insecto|
 |CELLSNET-45150|Imposible expandir o contraer las últimas filas de la hoja de trabajo|Insecto|
 |CELLSNET-45139|La paginación no funciona con dos GridWebs en una página|Insecto|
 |CELLSNET-45137|Las filas o columnas agrupadas tienen problemas en GridWeb cuando se ejecuta en Internet Explorer 11|Insecto|
-|CELLSNET-45203|Los caracteres se superponen al renderizar un archivo de Excel a PDF|Insecto|
+|CELLSNET-45203|Los caracteres se superponen al representar un archivo de Excel en PDF|Insecto|
 |CELLSNET-45196|La impresión está distorsionada en XPS exportado|Insecto|
 |CELLSNET-45187|Las etiquetas deben estar en orden ascendente según la especificación TrueType|Insecto|
 |CELLSNET-45169|Advertencia: el tamaño máximo para la región es 262144 bytes, en SheetRender.ToImage en Mono|Insecto|
 |CELLSNET-45167|SheetRender.ToImage representa el contenido ilegible e incompleto en Mono|Insecto|
 |CELLSNET-45166|SheetRender.ToImage muestra solo el encabezado y el pie de página en Mono|Insecto|
-|CELLSNET-43732|La representación en EMF y el pegado en Word provocan que el texto se superponga en el PDF resultante|Insecto|
-|CELLSNET-45186|El gráfico de áreas no se muestra en la exportación de PDF|Insecto|
+|CELLSNET-43732|Representar a EMF y pegarlo en Word hace que el texto se superponga en el PDF resultante|Insecto|
+|CELLSNET-45186|El gráfico de áreas no se muestra en la exportación PDF|Insecto|
 |CELLSNET-45178|Las etiquetas de los ejes se recortan al representar el gráfico en la imagen|Insecto|
 |CELLSNET-45177|Faltan las etiquetas de los ejes al representar el gráfico en la imagen - II|Insecto|
 |CELLSNET-45151|Los gráficos pierden todo el formato al representar la hoja de cálculo en PDF|Insecto|
-|CELLSNET-45147|Falta el gráfico al renderizar la hoja de cálculo a PDF|Insecto|
+|CELLSNET-45147|Falta el gráfico al renderizar la hoja de cálculo al PDF|Insecto|
 |CELLSNET-44998|Las etiquetas de datos del gráfico cambian después de convertir la hoja de cálculo a PDF|Insecto|
-|CELLSNET-44984|La línea de tendencia del segundo diagrama no se representa correctamente en el PDF de salida|Insecto|
+|CELLSNET-44984|La línea de tendencia en el segundo diagrama no se representa correctamente en la salida PDF|Insecto|
 |CELLSNET-41539|El arte de la palabra o la imagen de la elipse verde se representa incorrectamente alrededor del gráfico en el PDF|Insecto|
 |CELLSNET-45197|Range.MoveTo no mueve la validación de datos y el formato condicional|Insecto|
 |CELLSNET-45183|El atributo "Bloqueado" del control ActiveX (ComboBox) no se cambia|Insecto|
 |CELLSNET-45179|La configuración de CodeName en el archivo XLSX no funciona bien|Insectos|
-|CELLSNET-45175|El formato de imagen no funciona para archivos XLSX|Insecto|
+|CELLSNET-45175|El formato de imagen no funciona para los archivos XLSX|Insecto|
 |CELLSNET-45174|El rango Print_Area se rompió después de DeleteRange|Insecto|
 |CELLSNET-45173|El archivo XLSX está dañado después de guardar|Insecto|
 |CELLSNET-45171|Mover el rango hace que los rangos internos se reduzcan siendo una celda de largo|Insecto|
@@ -67,7 +67,7 @@ url: /es/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45154|Mover el rango no actualiza las referencias en otra hoja|Insecto|
 |CELLSNET-45145|No se puede eliminar el objeto CameraTool|Insecto|
 |CELLSNET-45060|La configuración de la fuente del botón cambió después de una operación simple de carga y guardado|Insecto|
-|CELLSNET-43722|Error de archivo: es posible que se hayan perdido datos, arrojados por Excel al abrir XLS|Insecto|
+|CELLSNET-43722|Error de archivo: es posible que se hayan perdido los datos, arrojados por Excel al abrir XLS|Insecto|
 |CELLSNET-45190|Ocurrió una excepción al calcular la fórmula WORKDAY|Excepción|
 |CELLSNET-45199|Excel a PDF: índice fuera de la excepción de matriz|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
@@ -84,7 +84,7 @@ Usando la versión reciente 17.3.0 o superior, los desarrolladores pueden person
 1. **Agrega el método GlobalizationSettings.GetEmptyDataName()** - Recibe el nombre de la etiqueta "(en blanco)" en la tabla dinámica.
 1. **Agrega el método GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType)** - Recibe el nombre de tipo "PivotFieldSubtotalType" en la tabla dinámica.
 
-Este ejemplo de código explica cómo personalizar la configuración de globalización de una tabla dinámica. Crea una clase CustomPivotTableGlobalizationSettings derivada de una clase base GlobalizationSettings y anula todos sus métodos necesarios. Estos métodos devuelven el texto personalizado para Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values. Luego asigna el objeto de esta clase a la propiedad Workbook.GlobalizationSettings. El código carga el archivo Excel de origen que contiene la tabla dinámica, actualiza y calcula sus datos y los guarda como un archivo PDF de salida. Los desarrolladores también pueden guardar el libro de trabajo en cualquier formato compatible.
+Este ejemplo de código explica cómo personalizar la configuración de globalización de una tabla dinámica. Crea una clase CustomPivotTableGlobalizationSettings derivada de una clase base GlobalizationSettings y anula todos sus métodos necesarios. Estos métodos devuelven el texto personalizado para Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values. Luego asigna el objeto de esta clase a la propiedad Workbook.GlobalizationSettings. El código carga el archivo fuente de Excel que contiene la tabla dinámica, actualiza y calcula sus datos y los guarda como un archivo de salida PDF. Los desarrolladores también pueden guardar el libro de trabajo en cualquier formato admitido.
 
 **.NET, C#**
 

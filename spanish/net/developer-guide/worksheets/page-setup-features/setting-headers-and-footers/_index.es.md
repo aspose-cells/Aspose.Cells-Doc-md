@@ -22,7 +22,7 @@ Los comandos de script son comandos especiales que le permiten configurar el for
 
 |**Comandos de secuencia de comandos**|**Descripción**|
 |:- |:- |
-|&PAGS|El número de página actual|
+|&PAG|El número de página actual|
 |&GRAMO|Una foto|
 |&NORTE|El número total de páginas|
 |&D|la fecha actual|
@@ -35,23 +35,23 @@ Los comandos de script son comandos especiales que le permiten configurar el for
 
 ### **Establecer encabezados y pies de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) La clase proporciona dos métodos,[**EstablecerEncabezado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader) y[**Establecer pie de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter), que se usa para agregar un encabezado y un pie de página a una hoja de cálculo. Estos métodos toman sólo dos parámetros:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) La clase proporciona dos métodos,[**EstablecerEncabezado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheader) y[**Establecer pie de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooter), que se usa para agregar un encabezado y un pie de página a una hoja de cálculo. Estos métodos toman sólo dos parámetros:
 
 - **Sección** – la sección donde se debe colocar el encabezado o pie de página. Hay tres secciones: izquierda, centro y derecha, representadas por 0, 1 y 2 respectivamente.
-- **Guion** – el guión que se utilizará para el encabezado o pie de página. Este script contiene comandos de script para formatear encabezados o pies de página.
+- **Texto** – el guión que se utilizará para el encabezado o pie de página. Este script contiene comandos de script para formatear encabezados o pies de página.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetHeadersAndFooters-1.cs" >}}
 
 ### **Insertar una imagen en un encabezado o pie de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) La clase tiene dos métodos adicionales,[**EstablecerImagenDeEncabezado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture) y[**Establecer imagen de pie de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture), utilizado para agregar imágenes en el encabezado y pie de página. Estos métodos toman los parámetros:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) La clase tiene dos métodos adicionales,[**EstablecerImagenDeEncabezado**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setheaderpicture) y[**Establecer imagen de pie de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/methods/setfooterpicture), utilizado para agregar imágenes en el encabezado y pie de página. Estos métodos toman los parámetros:
 
 - **Sección**– la sección de encabezado o pie de página donde se colocará la imagen. Hay tres secciones, izquierda, centro y derecha, representadas por los valores 0, 1 y 2 respectivamente.
 - **matriz de bytes** – los datos gráficos (los datos binarios deben escribirse en el búfer de una matriz de bytes).
 
 Después de ejecutar el código a continuación y abrir el archivo, verifique el encabezado de la hoja de trabajo de la siguiente manera:
 
-1.  Sobre el**Expediente** menú, seleccione**Configuración de página**. Se mostrará un cuadro de diálogo.
+1.  Sobre el**Archivo** menú, seleccione**Configuración de página**. Se mostrará un cuadro de diálogo.
 1.  Selecciona el**Encabezado/Pie de página** pestaña.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-InsertImageInHeaderFooter-1.cs" >}}

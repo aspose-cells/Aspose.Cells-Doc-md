@@ -14,7 +14,7 @@ keywords: excel superscript java, excel subscript java, excel superscript and su
 
 ## **العمل مع مرتفع و منخفض**
 
- قم بتطبيق التأثير المرتفع باستخدام امتداد[**الخط**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[**تعيين**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) منشأه. لتطبيق منخفض ، استخدم[**الخط**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[**تعيين**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)طريقة.
+ قم بتطبيق التأثير المرتفع باستخدام امتداد[**الخط**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[**تعيين**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript) خاصية. لتطبيق منخفض ، استخدم[**الخط**](https://reference.aspose.com/cells/java/com.aspose.cells/Font) أشياء[**تعيين**](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)طريقة.
 
 توضح أمثلة التعليمات البرمجية التالية كيفية تطبيق علامتي وسفينة على النص.
 

@@ -31,8 +31,8 @@ url: /de/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 ### **Schritt 3: Herstellen einer Verbindung mit der Datenbank mithilfe des Server-Explorers**
  Es ist Zeit, sich mit der Datenbank zu verbinden. Wir können dies ganz einfach mit dem Server Explorer in Visual Studio.NET tun.
 
-1.  Auswählen**Datenverbindung** in**Server-Explorer** und Rechtsklick.
-1.  Auswählen**Verbindung hinzufügen** aus dem Menü.
+1.  Wählen**Datenverbindung** in**Server-Explorer** und Rechtsklick.
+1.  Wählen**Verbindung hinzufügen** aus dem Menü.
    **Auswahl der Option Verbindung hinzufügen** 
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_4.png)
@@ -49,7 +49,7 @@ url: /de/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
  Mit diesem Dialog können Sie sich mit jeder Datenbank verbinden. Standardmäßig können Sie sich mit einer SQL Server-Datenbank verbinden. Für dieses Beispiel müssen wir eine Verbindung mit einer Microsoft Access-Datenbank herstellen.
 
 1.  Drücke den**Anbieter** Tab.
-1.  Auswählen**Microsoft Jet 4.0 OLE DB-Anbieter** von dem**OLE DB-Anbieter** aufführen.
+1.  Wählen**Microsoft Jet 4.0 OLE DB-Anbieter** von dem**OLE DB-Anbieter** aufführen.
 1.  Klicken**Nächste**.
    **Klicken Sie auf Weiter, nachdem Sie einen OLE DB-Anbieter ausgewählt haben** 
 
@@ -96,8 +96,8 @@ Zwei Datenbankverbindungsobjekte (oleDbConnection1 und oleDbDataAdapter1) wurden
 ### **Schritt 5: DataSet generieren**
 Bisher haben wir Datenbankverbindungsobjekte erstellt, müssen aber nach der Verbindung mit der Datenbank noch Daten speichern. Ein DataSet-Objekt kann Daten genau speichern und wir können es auch einfach mit der VS.NET-IDE generieren.
 
-1.  Auswählen**oleDbDataAdaper1** und Rechtsklick.
-1.  Auswählen**Datensatz generieren** Option aus dem Menü.
+1.  Wählen**oleDbDataAdaper1** und Rechtsklick.
+1.  Wählen**Datensatz generieren** Option aus dem Menü.
    **Auswahl der Option DataSet generieren** 
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_11.png)
@@ -123,7 +123,7 @@ Dem Designer wird ein dataSet11-Objekt hinzugefügt.
  Jetzt ist es an der Zeit, das Geheimnis zu lüften.
 
 1. Wählen Sie das GridWeb-Steuerelement aus, und klicken Sie mit der rechten Maustaste.
-1.  Auswählen**Arbeitsblatt-Designer** Option aus dem Menü.
+1.  Wählen**Arbeitsblatt-Designer** Option aus dem Menü.
 
    **Auswählen der Option Arbeitsblatt-Designer** 
 
@@ -283,7 +283,7 @@ End Sub
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 ### **Schritt 8: Ausführen der Anwendung**
- Kompilieren Sie die Anwendung und führen Sie sie aus: Drücken Sie entweder**Strg+F5** oder klicken**Anfang**. 
+ Kompilieren Sie die Anwendung und führen Sie sie aus: Drücken Sie entweder**Strg+F5** oder klicken**Start**. 
 **Ausführen der Anwendung** 
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
@@ -315,7 +315,7 @@ Die Zeile würde sofort gelöscht.
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
 ### **Zeilen bearbeiten**
-Bearbeiten Sie Daten in Zellen oder Zeilen und klicken Sie dann auf**Speichern** oder**Einreichen** um die Änderungen zu speichern.
+Bearbeiten Sie Daten in Zellen oder Zeilen und klicken Sie dann auf**Speichern** oder**einreichen** um die Änderungen zu speichern.
 ### **Zeilen hinzufügen**
 1.  Um eine Zeile hinzuzufügen, klicken Sie mit der rechten Maustaste auf eine Zelle und wählen Sie sie aus**Zeile hinzufügen**.
    **Auswahl der Option Zeile hinzufügen aus dem Menü** 
@@ -334,8 +334,8 @@ Eine neue Zeile wird dem Blatt am Ende anderer Zeilen hinzugefügt.
  Links neben der neuen Zeile befindet sich ein Sternchen{{< emoticons/cross >}} , was anzeigt, dass die Zeile neu ist.
 
 1. Fügen Sie der neuen Zeile Werte hinzu.
-1.  Klicken**Speichern** oder**Einreichen** um die Änderung zu bestätigen.
-   **Änderungen an Daten speichern, indem Sie auf *Speichern klicken** Taste*
+1.  Klicken**Speichern** oder**einreichen** um die Änderung zu bestätigen.
+   **Änderungen an Daten speichern, indem Sie auf *Speichern klicken** Knopf*
 
 ![todo: Bild_alt_Text](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
 ### **Zahlenformat einstellen**

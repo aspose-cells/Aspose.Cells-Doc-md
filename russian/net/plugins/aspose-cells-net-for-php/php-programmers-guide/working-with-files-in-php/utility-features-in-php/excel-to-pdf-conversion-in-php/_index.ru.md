@@ -5,7 +5,7 @@ weight: 20
 url: /ru/net/excel-to-pdf-conversion-in-php/
 ---
 ## **Aspose.Cells - Преобразование Excel в PDF**
-Конвертировать файл Excel Microsoft в PDF
+Преобразование файла Excel Microsoft в PDF
 
 **PHP-код**
 

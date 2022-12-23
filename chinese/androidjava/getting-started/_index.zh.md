@@ -12,11 +12,11 @@ url: /zh/java/aspose-cells-for-android-via-java-features/
 |**特征**|**描述**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |:- |
 |高质量的转化|快速可靠地在几种流行的文档格式之间进行转换。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 工作簿 (XLS/XLSB)|您可以找到的最快、最完整的 XLS/XLSB 格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|电子表格 ML（XLSX、XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。而且，<br>该组件支持所有主要的 Excel 2007 和更高版本的文件格式，例如 XLSX、XLTX、XLSM、XLTM 等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|逗号分隔值 (CSV)|全面支持CSV格式，与多种应用交互。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 工作簿 (XLS/XLSB)|您可以找到最快、最完整的 XLS/XLSB 格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML（XLSX，XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。而且，<br>该组件支持所有主要的 Excel 2007 和更高版本的文件格式，例如 XLSX、XLTX、XLSM、XLTM 等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|逗号分隔值 (CSV)|全面支持CSV格式与多种应用交互。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|另存为 HTML 可用。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|开放文档 (ODS)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|打开文档 (ODS)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Adobe 便携式文档格式 (PDF)|将任何电子表格高保真地转换为 PDF。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |制表符分隔|以制表符分隔的文件格式加载和保存文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |纯文本 (TXT)|通过以纯文本格式保存轻松提取文本。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

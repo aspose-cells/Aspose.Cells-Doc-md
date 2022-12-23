@@ -19,16 +19,16 @@ url: /zh/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43403|另存为 HTML 时文本位置向左移动|
 |CELLSJAVA-43421|将 HTML 转换为 Excel 时转义字符和换行符未正确呈现|
 |CELLSJAVA-43427|带数据条的条件格式在 HTML 导出中显示值|
-|CELLSJAVA-43428|会计格式结合 6 点字体扭曲 HTML 中的数字|
+|CELLSJAVA-43428|会计格式结合 6 点字体扭曲数字 HTML|
 |CELLSJAVA-43429|垂直文本对齐的文本在 HTML 中消失|
 |CELLSJAVA-43407|保存文件后跳过/更改 Excel 公式|
-|CELLSJAVA-43419|自定义数字格式未在 PDF 中正确显示|
+|CELLSJAVA-43419|自定义数字格式在 PDF 中未正确显示|
 |CELLSJAVA-43374|将附加的 Excel 文件转换为 PDF 时图表标签重复|
 |CELLSJAVA-43409|意外的数据标签出现在图表的输出图像中|
 |CELLSJAVA-43411|字体替换警告在图表到图像转换中不起作用|
 |CELLSJAVA-43414|xls转pdf问题|
 |CELLSJAVA-43425|导出到 Excel 时，首页上的页眉页脚不可用|
-|CELLSJAVA-43433|引用的图像未以 PDF 格式呈现|
+|CELLSJAVA-43433|参考图像未在 PDF 中呈现|
 |CELLSJAVA-43434|SmartMarker 动态公式扩展单元格样式错误|
 |CELLSJAVA-43435|Smart Markers 动态公式根据左侧展开的列而不是根据公式中的列插入单元格|
 |CELLSJAVA-43450|数据透视表刷新问题|
@@ -38,7 +38,7 @@ url: /zh/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43457|保存复制的工作簿时无限循环|
 |CELLSJAVA-43442|单击 GridWeb spring 演示中的标题链接时出现数据排序问题|
 |CELLSJAVA-43443|GridWeb 中的编辑模式问题 Java|
-|CELLSJAVA-43455|将 EmbedStandardWindowsFonts 设置为 false 时，非 ASCII 字符的字体不会嵌入 PDF|
+|CELLSJAVA-43455|将 EmbedStandardWindowsFonts 设置为 false 时，非 ASCII 字符的字体未嵌入 PDF|
 |CELLSJAVA-43449|无法将图表元素的字体系列从“Calibri”更改为“Aktiv Grotesk”|
 |CELLSJAVA-43454|X 轴标签被切断|
 |CELLSJAVA-43445|回归：缺少 .numbers 文件的行数据|
@@ -50,12 +50,12 @@ url: /zh/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43491|使用数据表的公式值无法正确提取|
 |CELLSJAVA-43498|zh_CN 语言环境的数值格式化结果不正确|
 |CELLSJAVA-43451|Excel 文件内容显示不正确，ChangeStyle (spring) demo 运行不正常|
-|CELLSJAVA-43484|Excel 到 PDF 呈现中的内容布局不一致|
+|CELLSJAVA-43484|内容布局在 Excel 中呈现不一致 PDF|
 |CELLSJAVA-43465|将 Excel 转换为 PDF 时缺少几个图表系列|
 |CELLSJAVA-43468|Excel 中的直线方程问题到 PDF 渲染|
 |CELLSJAVA-43432|重新保存 XLS 文件格式时图表内容不匹配|
 |CELLSJAVA-43475|回归：线包裹的细胞被切断|
-|CELLSJAVA-43478|回归：数字到 PDF，缺少大量数据|
+|CELLSJAVA-43478|回归：NUMBERS 到 PDF，缺少大量数据|
 |CELLSJAVA-43485|回归：从 ODS 渲染 PDF 时的额外内容|
 |CELLSJAVA-43492|转换 XML (SpreadsheetML) 文件会删除输出 XLS 和 XLSX 中“名称定义”中的隐藏设置|
 |CELLSJAVA-43417|从大文件打开 XLSX 时出现异常|
@@ -77,7 +77,7 @@ url: /zh/java/aspose-cells-for-android-via-java-21-6-release-notes/
 
 ### **添加 TxtSaveOptions.ExportQuotePrefix 和 TxtLoadOptions.TreatQuotePrefixAsValue 属性。**
 
-使用户能够决定在导出/导入 CSV/TSV 文件时如何处理单元格值的前导单引号。
+为用户提供在导出/导入 CSV/TSV 文件时决定如何处理单元格值的前导单引号的能力。
 
 ### **添加 GlobalizationSettings.GetCollationKey(string,bool) 和 Compare(string,string,bool) 方法。**
 

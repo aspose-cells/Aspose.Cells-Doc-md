@@ -6,7 +6,7 @@ url: /it/java/detect-merged-cells-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-In Microsoft Excel, è possibile unire più celle in una sola. Questo è spesso usato per creare tabelle complesse o per creare una cella che contiene un'intestazione che si estende su più colonne.
+In Microsoft Excel, più celle possono essere unite in una sola. Questo è spesso usato per creare tabelle complesse o per creare una cella che contiene un'intestazione che si estende su più colonne.
 
 Aspose.Cells consente di identificare le aree di celle unite in un foglio di lavoro. Puoi separarli anche tu. Questo articolo fornisce le righe di codice più semplici per eseguire l'attività utilizzando Aspose.Cells.
 
@@ -16,7 +16,7 @@ Questo articolo fornisce istruzioni compatte su come trovare e separare le celle
 
 ## **Dimostrazione**
 
- Questo esempio utilizza un file modello di Microsoft Excel chiamato**MergeTrial**. Ha alcune aree di celle unite in un foglio chiamato anche Merge Trial.
+ Questo esempio usa un file Excel modello Microsoft chiamato**MergeTrial**. Ha alcune aree di celle unite in un foglio chiamato anche Merge Trial.
 
 **Il file modello**
 

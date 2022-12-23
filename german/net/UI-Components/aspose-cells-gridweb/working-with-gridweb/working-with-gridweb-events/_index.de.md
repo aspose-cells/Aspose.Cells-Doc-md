@@ -40,7 +40,7 @@ Diese Liste enthält keine Ereignisse, die von Aspose.Cells.GridWeb von der Cont
 | SaveCommand| Tritt auf, wenn die**Speichern** Schaltfläche angeklickt wird.|
 | BlattdatenAktualisiert| Tritt auf, wenn das Steuerelement die bereitgestellten Daten geladen und die Arbeitsblattdaten aktualisiert hat.|
 | SheetTabClick| Tritt auf, wenn auf eine Blattregisterkarte geklickt wird.|
-| SubmitCommand| Tritt auf, wenn die**Einreichen** Schaltfläche angeklickt wird.|
+| SubmitCommand| Tritt auf, wenn die**einreichen** Schaltfläche angeklickt wird.|
 | Rückgängig-Befehl| Tritt auf, wenn die**Rückgängig machen** Schaltfläche angeklickt wird.|
 | AjaxCallFertig| Wird ausgelöst, wenn das AJAX-Update des Steuerelements abgeschlossen ist. (EnableAJAX muss auf true gesetzt werden).|
 | CellModifiedOnAjax| Wird ausgelöst, wenn die Zelle im AJAX-Aufruf geändert wird.|
@@ -50,7 +50,7 @@ Diese Liste enthält keine Ereignisse, die von Aspose.Cells.GridWeb von der Cont
 Um eine bestimmte Operation beim Auslösen eines bestimmten Ereignisses auszuführen, müssen wir einen Ereignishandler erstellen. Ein Event-Handler führt die gewünschte Aufgabe aus, wenn ein bestimmtes Ereignis ausgelöst wird. Die unten dargestellten Schritte zeigen, wie ein einfaches Rasterereignis mit Visual Studio behandelt wird.
 ### **Schritt 1: Auswählen eines Ereignisses von Aspose.Cells.GridWeb Control**
 1. Wählen Sie das Steuerelement Aspose.Cells.GridWeb aus und öffnen Sie auf der rechten Seite das Dialogfeld Eigenschaften.
-1.  Drücke den**Registerkarte „Ereignisse“.** Taste.
+1.  Drücke den**Registerkarte „Ereignisse“.** Knopf.
 1. Wählen Sie eine Veranstaltung aus.
  Für dieses Beispiel wird das SaveCommand-Ereignis ausgewählt.
 ### **Schritt 2: Erstellen eines Ereignishandlers**

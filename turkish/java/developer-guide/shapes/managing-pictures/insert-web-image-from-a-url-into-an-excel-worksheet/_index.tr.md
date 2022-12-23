@@ -6,7 +6,7 @@ url: /tr/java/insert-web-image-from-a-url-into-an-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Bu makale, bir web görüntüsünü doğrudan bir web sitesine nasıl ekleyebileceğinizi gösterir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). Aşağıda verilen kod parçacığı, istenen sonuca ulaşmak için java.net & java.io ad alanlarını com.aspose.cells ile birlikte kullanır.
+ Bu makale, bir web görüntüsünü doğrudan bir web sitesine nasıl ekleyebileceğinizi gösterir.[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Aşağıda verilen kod parçacığı, istenen sonuca ulaşmak için java.net & java.io ad alanlarını com.aspose.cells ile birlikte kullanır.
 
 {{% /alert %}}
 

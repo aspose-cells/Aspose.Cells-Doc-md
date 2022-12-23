@@ -6,7 +6,7 @@ weight: 122
 url: /tr/net/using-formulas-or-functions-to-process-data/
 description: Aspose.Cells, excel dosyalarının formüllerini kolayca alabilir, ayarlayabilir ve hesaplayabilir.
 ---
-## **giriiş**
+## **Giriş**
 
 Microsoft Excel'in ilgi çekici özelliklerinden biri, verileri formüller ve işlevlerle işleyebilmesidir. Microsoft Excel, kullanıcıların karmaşık hesaplamaları hızla gerçekleştirmesine yardımcı olan bir dizi yerleşik işlev ve formül sağlar. Aspose.Cells ayrıca, geliştiricilerin değerleri kolayca hesaplamasına yardımcı olan çok sayıda yerleşik işlev ve formül sağlar. Aspose.Cells ayrıca eklenti işlevlerini de destekler. Ayrıca Aspose.Cells, Aspose.Cells'deki dizi ve R1C1 formüllerini destekler.
 
@@ -23,7 +23,7 @@ Microsoft Excel'in ilgi çekici özelliklerinden biri, verileri formüller ve i�
 
 ## **Yerleşik İşlevleri Kullanma**
 
- Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sunulur. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/net/supported-formula-functions/) Aspose.Cells tarafından desteklenmektedir. Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
+ Yerleşik işlevler veya formüller, geliştiricilerin çabalarını ve zamanını azaltmak için hazır işlevler olarak sağlanır. Görmek[yerleşik işlevlerin bir listesi](/cells/tr/net/supported-formula-functions/) Aspose.Cells tarafından desteklenmektedir. Fonksiyonlar alfabetik sırayla listelenmiştir. Gelecekte daha fazla işlev desteklenecektir.
 
  Aspose.Cells, Microsoft Excel tarafından sunulan formüllerin veya işlevlerin çoğunu destekler. Geliştiriciler bu formülleri API veya[tasarımcı elektronik tablosu](/cells/tr/net/what-is-a-designer-spreadsheet/). Aspose.Cells, çok sayıda matematiksel, dizi, Boolean, tarih/saat, istatistik, veritabanı, arama ve referans formüllerini destekler.
 
@@ -63,8 +63,8 @@ Bazı Microsoft Excel işlevleri, değer dizileri döndürür. Bir dizi formül�
 
  çağırarak bir hücreye dizi formülü uygulamak mümkündür.[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) sınıf'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntem. bu[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) yöntem aşağıdaki parametreleri alır:
 
-- **Dizi Formülü**, dizi formülü.
-- **Satır sayısı**dizi formülünün sonucu doldurulacak satır sayısı.
+- **Dizi Formülü**dizi formülü.
+- **Satır sayısı**, dizi formülünün sonucu doldurulacak satır sayısı.
 - **Sütun sayısı**dizi formülünün sonucu doldurulacak sütun sayısı.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}

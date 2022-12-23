@@ -24,9 +24,9 @@ url: /es/net/aspose-cells-for-net-7-1-1-release-notes/
 - Opciones de AutoFitColumn
 - ¿Existe el método GetDependents() en la versión .NET?
 
- -Admite elementos TH en la tabla HTML
+ -Soporte elementos TH en la tabla HTML
 
-- Excel a PDF (árabe): formato incorrecto de palabra/fecha en la conversión
+- Excel a PDF (árabe): formato de palabra/fecha incorrecto en la conversión
 - El software antivirus elimina los archivos de Excel de los correos electrónicos
 
  Excepciones
@@ -43,11 +43,11 @@ url: /es/net/aspose-cells-for-net-7-1-1-release-notes/
  -Propiedades del botón
 
 - Cells con pies y pulgadas son incorrectos cuando se convierten a PDF
-- Problema al representar caracteres de guion em en la salida de PDF
+- Problema al representar caracteres de guion em en la salida PDF
 - Diseño de página cambiado en el libro de trabajo combinado
 - Guardar como XLSX a veces produce un archivo no válido
 
- -El archivo XLS se abre en modo protegido después de usar Aspose.Cells
+ -XLS el archivo se abre en modo protegido después de usar Aspose.Cells
 
 - Cell.GetDependents() no funciona con NamedRange
 - Problema de AutoFitRow y IndentLevel
@@ -61,12 +61,12 @@ url: /es/net/aspose-cells-for-net-7-1-1-release-notes/
 - Problemas con la función NETWORKDAYS en la salida XLS
 - Problemas de conversión de HTML a Excel
 
- ` `- Problemas de atributos de clase y rango de filas de HTML
+ ` `- HTML'srowspan y problemas de atributos de clase
 
- -El Cells admite datauri
+-El Cells admite datauri
 
 - Bordes con formato personalizado perdidos al convertir a PDF
-- Líneas de cuadrícula en la exportación de PDF
+- Líneas de cuadrícula en PDF Exportar
 
  -Error de contenido ilegible encontrado en Excel
 

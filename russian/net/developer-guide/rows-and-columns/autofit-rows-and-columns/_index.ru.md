@@ -61,8 +61,8 @@ Aspose.Cells предоставляет[**Рабочая тетрадь**](https
 
 Сигнатуры вышеупомянутых методов следующие:
 
-1.  AutoFitRows(int startRow, int endRow,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)опции)
-1. AutoFitColumns(int firstColumn, int lastColumn,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)опции)
+1.  AutoFitRows(int startRow, int endRow,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)параметры)
+1. AutoFitColumns(int firstColumn, int lastColumn,[**AutoFitterOptions**](https://reference.aspose.com/cells/net/aspose.cells/autofitteroptions)параметры)
 
 {{% /alert %}}
 

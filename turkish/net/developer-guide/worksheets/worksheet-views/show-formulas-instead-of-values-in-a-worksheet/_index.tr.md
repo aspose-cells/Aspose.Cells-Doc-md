@@ -3,6 +3,7 @@ title: Çalışma Sayfasında Değerler Yerine Formülleri Gösterme
 type: docs
 weight: 20
 url: /tr/net/show-formulas-instead-of-values-in-a-worksheet/
+description: Bu makale, bir Excel çalışma sayfasındaki veya elektronik tablosundaki değerler yerine programlı olarak formülleri görüntülemek için C# API veya .NET Kitaplığının kullanımına ilişkin örnek kod sağlar.
 ---
 {{% alert color="primary" %}}
 

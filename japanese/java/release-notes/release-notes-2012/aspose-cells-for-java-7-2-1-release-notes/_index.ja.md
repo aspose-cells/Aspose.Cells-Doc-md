@@ -22,7 +22,7 @@ Aspose.Cells for Java v7.2.1 を発表させていただきます!
 - Cells.findString()/find() は、特定の範囲での RegExand の検索をサポートします
 - Picture.setTitle()/getTitle() をサポート
 - MS Excel チャートを ODS ファイルに保存
-- Aspose.Cellsで作成したXLSファイルをPOI対応にする
+- Aspose.Cells で作成された XLS ファイルを POI と互換性があるようにします
 
 例外
 
@@ -30,7 +30,7 @@ Aspose.Cells for Java v7.2.1 を発表させていただきます!
 
 バグ
 
-- 保存した XLSX ファイルでエラーが発生する:「Datamay has been lost」
-- 生成された PDF で書式設定された数値が正しくありませんでした (千グループ文字が失われました)
+- 保存された XLSX ファイルでエラーが発生する:「Datamay has been lost」
+- 生成された PDF で書式設定された数値が正しくありませんでした (1000 個のグループ文字が失われました)
 - JDK6 バージョンの生成された PDF に棒グラフが表示されませんでした。
 - 範囲を拡張するときに参照が更新されない

@@ -7,7 +7,7 @@ url: /de/java/auto-fit-row-and-column/
 ## **Aspose.Cells – Zeile und Spalte automatisch anpassen**
 Der einfachste Ansatz zum automatischen Anpassen der Breite und Höhe einer Zeile besteht darin, die Worksheet.autoFitRow-Methode aufzurufen. Die autoFitRow-Methode nimmt einen Zeilenindex (der Zeile, deren Größe geändert werden soll) als Parameter.
 
-**Bitte beachten Sie:** Wenn Sie Zeilen und Spalten in Excel-Tabellen mit Java automatisch anpassen möchten, besuchen Sie bitte[Zeilen und Spalten automatisch anpassen](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Bitte beachten Sie:**Wenn Sie Zeilen und Spalten in Excel-Tabellen mit Java automatisch anpassen möchten, besuchen Sie bitte[Zeilen und Spalten automatisch anpassen](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 

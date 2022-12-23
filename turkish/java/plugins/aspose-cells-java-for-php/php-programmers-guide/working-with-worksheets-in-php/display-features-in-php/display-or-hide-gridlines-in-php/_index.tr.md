@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-gridlines-in-php/
 ---
 ## **Aspose.Cells - Kılavuz Çizgilerini Görüntüle veya Gizle**
 ### **Kılavuz Çizgilerini Gizleme**
- kullanarak çalışma sayfasını gizlemek için**Aspose.Cells Java for PHP** , aramak**displayhidegridlines** modül.
+ kullanarak çalışma sayfasını gizlemek için**Aspose.Cells Java for PHP** , Arama**displayhidegridlines** modül.
 
 **PHP Kodu**
 

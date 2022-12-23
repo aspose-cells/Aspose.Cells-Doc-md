@@ -13,7 +13,7 @@ url: /tr/net/aspose-cells-for-net-21-4-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47891|Önbellek etkinken görüntü stili alma desteği|Yeni özellik|
-|CELLSNET-47922|Excel'de hücre koordinatlarıyla verileri HTML'ye dönüştürme|Artırma|
+|CELLSNET-47922|Excel'de hücre koordinatlarıyla verileri HTML dönüştürmesine dönüştürün|Artırma|
 |CELLSNET-47924|BouncyCastle'ın API ile Kriptoyu Uygulayın|Artırma|
 |CELLSNET-47951|XSD tarafından desteklenen XML haritaları|Artırma|
 |CELLSNET-47206|Yatay Akıllı İşaretleyiciler ve iç içe geçmiş veri kaynağı ile verileri gruplama|Artırma|
@@ -23,16 +23,16 @@ url: /tr/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47916|HTML stil etiketi, 4 Gb bellek tüketir ve çalışma kitabına yüklenirken çöküyor|Verim|
 |CELLSNET-46869|WordArts ve şekiller PDF'de düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSNET-47890|Pdf dönüştürme sırasında çizgiler kayacak|Böcek|
-|CELLSNET-47858|Şekiller HTML ve PDF'de düzgün şekilde oluşturulmuyor|Böcek|
-|CELLSNET-47907|Excel'i HTML'ye dönüştürürken grafiğin yerleşimi değiştirildi|Böcek|
-|CELLSNET-47856|Pivot tablolarla XLSX'ten PDF'e dönüştürme sorunu|Böcek|
+|CELLSNET-47858|HTML ve PDF'de şekiller düzgün şekilde oluşturulmuyor|Böcek|
+|CELLSNET-47907|Excel HTML'e dönüştürülürken grafiğin yerleşimi değiştirildi|Böcek|
+|CELLSNET-47856|Pivot tablolarla XLSX'den PDF'e dönüştürme sorunu|Böcek|
 |CELLSNET-47846|GridWeb uygulaması, son DevExpress bileşenleriyle uyumsuz|Böcek|
 |CELLSNET-47923|Calibri dışında varsayılan yazı tipine sahip çalışma kitabı için uygun olmayan sayfa düzeni görünümü|Böcek|
 |CELLSNET-47965| Excel'den PDF'e Dönüştürme - Belge sayfaları karışık|Böcek|
-|CELLSNET-46161|Çıktı PDF'sinde eğik metin doğru şekilde gösterilmiyor|Böcek|
-|CELLSNET-47917|Excel Çalışma Sayfasından Oluşturulan PDF'de Dağınık Pasta Grafik Etiketleri|Böcek|
+|CELLSNET-46161|PDF çıktısında eğik metin doğru gösterilmiyor|Böcek|
+|CELLSNET-47917|PDF'de Dağınık Pasta Grafik Etiketleri Excel Çalışma Sayfasından Oluşturuldu|Böcek|
 |CELLSNET-47919|Grafiklerden çıkarılan yanlış maksimum değer|Böcek|
-|CELLSNET-46363|Yuvalanmış yapı, XLSX'e düzgün şekilde aktarılmaz|Böcek|
+|CELLSNET-46363|Yuvalanmış yapı, XLSX'e düzgün şekilde aktarılmadı|Böcek|
 |CELLSNET-47838|Yerel grafik renk paleti korunmaz|Böcek|
 |CELLSNET-47910|Range.Copy, koşullu biçimlendirmeyi hatalı bir şekilde günceller|Böcek|
 |CELLSNET-47931|Birden fazla seçenek aynı anda ayarlandığında Style.SetBorder() çöküyor|Böcek|
@@ -43,8 +43,8 @@ url: /tr/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|Özel bir mht dosyası açılırken bir İstisna atılır.|İstisna|
 |CELLSNET-47944|Dilimleyici şeklini görüntüye dönüştürürken Boş İstisna|İstisna|
 |CELLSNET-47932|Garip formüle sahip özel bir xlsx dosyası yüklenirken Boş İstisna.|İstisna|
-|CELLSNET-47963|Aralık PNG'ye dönüştürülürken parametre geçerli bir istisna değil|İstisna|
-|CELLSNET-47967|Bir XLS dosyasını kaydederken taşma hatası|İstisna|
+|CELLSNET-47963|PNG aralığı oluşturulurken parametre geçerli bir istisna değil|İstisna|
+|CELLSNET-47967|XLS dosyasını kaydederken taşma hatası|İstisna|
 |CELLSNET-47921|Özel bir xlsx dosyası yüklenirken Boş İstisna|İstisna|
 |CELLSNET-47945|Özel bir html dosyası yüklenirken Boş İstisna|İstisna|
 |CELLSNET-47949|Yeni çalışma kitabı açıldığında geçersiz küçük birim istisnası atılıyor|İstisna|

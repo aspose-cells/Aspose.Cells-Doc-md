@@ -12,12 +12,12 @@ Många kunder över hela världen litar på de grundliga dokumentimport- och exp
 |**Funktion**|**Beskrivning**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |:- |
 |Högkvalitativa omvandlingar|Snabbt och tillförlitligt, konvertera mellan flera populära dokumentformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel-arbetsbok (XLS/XLSB)|Den snabbaste och mest kompletta XLS/XLSB-formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel-arbetsbok (XLS/XLSB)|Den snabbaste och mest kompletta XLS/XLSB formatimplementeringen du kan hitta.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX, XML)| Aspose.Cells stöder OOXML, Flat OPC och även Excel 2003 XML. Dessutom,<br>komponenten stöder alla större filformat av Excel 2007 och senare versioner, t.ex. XLSX, XLTX, XLSM, XLTM etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Kommaseparerat värde (CSV)|Omfattande stöd för CSV-formatet för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Spara som HTML är tillgängligt.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Kommaseparerat värde (CSV)|Omfattande stöd för formatet CSV för att interagera med en mängd olika applikationer.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Spara som HTML är tillgänglig.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |OpenDocument (ODS)|Aspose.Cells kan ladda och spara dokument i formatet OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Adobe Portable Document Format (PDF)|Konvertera alla kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Adobe Portable Document Format (PDF)|Konvertera valfritt kalkylblad till PDF med hög kvalitet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Tabbavgränsad|Ladda och spara dokument i det tabbavgränsade filformatet.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Oformaterad text (TXT)|Extrahera enkelt text genom att spara i vanligt textformat.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **Rendering och tryckning**
@@ -26,9 +26,9 @@ Aspose.Cells ger nu högtrogen återgivning av kalkylbladssidor.
 |**Funktion**|**Aspose.Cells for Java**|**Aspose.Cells for Android via Java**|
 |:- |:- |:- |
 |Lägg upp dokument till sidor med hög trohet till Microsoft Excel® (exakt som Microsoft Excel® skulle göra det).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendera kalkylbladssidor till rasterbilder (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Rendera kalkylbladssidor till rasterbilder (Multipage TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-|Gör kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Återge kalkylbladssidor till rasterbilder (PNG, JPEG, etc.).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Återge kalkylbladssidor till rasterbilder (Flersidiga TIFF, GIF).|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
+|Återge kalkylbladssidor till vektorbilder (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Ange bildupplösning, kvalitet, komprimering och andra alternativ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Skriv ut kalkylbladssidor med Java utskriftsinfrastruktur.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Uppdatera sidnummer och andra fält innan du renderar eller skriver ut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

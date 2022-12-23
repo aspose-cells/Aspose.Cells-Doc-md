@@ -22,14 +22,14 @@ Autres améliorations et modifications
 Améliorations
 
 (CELLSJAVA-40788) - Prise en charge du thème personnalisé pour les propriétés de forme
-(CELLSJAVA-40803) - Définir des conseils de rendu pour les images lors de l'exportation de feuilles de calcul au format HTML
+(CELLSJAVA-40803) - Définir des conseils de rendu pour les images lors de l'exportation de feuilles de calcul vers HTML
 
 Insectes
 
 (CELLSJAVA-40793) - La plage ne fait pas référence à la zone correcte
 (CELLSJAVA-40768) - La méthode WorkbookRender.toPrinter() n'imprime pas la photo
-(CELLSJAVA-40669) - Problème de pivot de colonne lors du rendu de XLTX en PDF
-(CELLSJAVA-40801) - Cell problèmes d'alignement dans le fichier PDF rendu
+(CELLSJAVA-40669) - Grand problème de colonne pivot lors du rendu de XLTX à PDF
+(CELLSJAVA-40801) - Problèmes d'alignement Cell dans le fichier rendu PDF
 (CELLSJAVA-40406) - Conversion d'un fichier Excel avec un grand nombre de colonnes en fichier PDF
 (CELLSJAVA-40794) - AutoFitColumns ne fonctionne pas lorsqu'il est utilisé avec différents paramètres de police
 (CELLSJAVA-40816) - Le curseur se déplace toujours vers la dernière colonne après avoir utilisé Cells.DeleteColumn() pour le supprimer
@@ -37,10 +37,10 @@ Insectes
 (CELLSJAVA-40806) - Les signets Excel ne sont pas générés lors de la conversion en PDF
 
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40797) - Cell.getDependents() lève NullPointerException
-(CELLSJAVA-40800) - CellsException lors de la conversion d'une feuille de calcul en PDF sur MAC OS
+(CELLSJAVA-40800) - CellsException lors de la conversion de la feuille de calcul en PDF sous MAC OS
 
 Public API et modifications incompatibles avec les versions antérieures
 

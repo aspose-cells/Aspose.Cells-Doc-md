@@ -10,17 +10,17 @@ url: /tr/java/aspose-cells-for-java-9-0-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41947 | Bir DataPoint'in Pie'de mi yoksa Bar'da mı olduğunu algılama yeteneği|Yeni özellik|
 |CELLSJAVA-41827 | Workbook.calculateFormula() yöntemi kullanılırken elektronik tablonun formülleri hesaplaması 3 dakikadan uzun sürüyor| Artırma|
-|CELLSJAVA-41969 | Cell HTML'yi XLSX dosya biçimine dönüştürürken gölgelendirme eksik| Böcek|
-|CELLSJAVA-41955 | Çalışma kitabından HTML'ye hücrelerde '#' gösteriliyor| Böcek|
-|CELLSJAVA-41942 |Eksik kenarlıklar, hücre gölgelendirme ve resimler - HTML'den Excel'e dönüştürme| Böcek|
-|CELLSJAVA-41967 | Tek bir sayfada birden çok yazdırma alanı tanımlandığında PDF'de Cells eksik| Böcek|
+|CELLSJAVA-41969 | HTML dosya formatı XLSX dosya formatına dönüştürülürken Cell gölgeleme eksik| Böcek|
+|CELLSJAVA-41955 | HTML çalışma kitabı hücrelerde '#' gösteriyor| Böcek|
+|CELLSJAVA-41942 | Eksik kenarlıklar, hücre gölgelendirme ve resimler - HTML'den Excel'e işleme| Böcek|
+|CELLSJAVA-41967 | Tek bir sayfada birden çok yazdırma alanı tanımlandığında Cells, PDF'de eksik| Böcek|
 |CELLSJAVA-41958 | Sağ taraftaki açıklama grafiğin görüntüsünde kesiliyor| Böcek|
-|CELLSJAVA-41953 | HTML biçimine dönüştürüldükten sonra diyagramda yanlış yerleştirilmiş metin| Böcek|
-|CELLSJAVA-41948 | E-tablo HTML'ye dönüştürülürken grafik değiştirildi| Böcek|
-|CELLSJAVA-41981 | Grafiğin PDF'sindeki dikey çizginin yanlış konumu| Böcek|
+|CELLSJAVA-41953 | HTML biçimine dönüştürüldükten sonra şemada yanlış yerleştirilmiş metin| Böcek|
+|CELLSJAVA-41948 | Elektronik tablo HTML'e dönüştürülürken grafik değiştirildi| Böcek|
+|CELLSJAVA-41981 | Tablonun PDF'inde dikey çizginin yanlış konumu| Böcek|
 |CELLSJAVA-41964 | Otomatik sığdırma, girinti düzeyini dikkate almaz| Böcek|
 |CELLSJAVA-40260 | Bir Excel dosyasındaki mevcut bir WordArt'ın metnini değiştirme| Böcek|
-|CELLSJAVA-41971 | Cell.getValiationValue(), özel doğrulama türü için NullPointerException'ı atar| İstisna|
+|CELLSJAVA-41971 |Cell.getValiationValue(), özel doğrulama türü için NullPointerException'ı atar| İstisna|
 |CELLSJAVA-41963 | a5.xlsx kaynağı açılırken geçersiz anahtar boyutu istisnası oluşuyor| İstisna|
 |CELLSJAVA-41962 | a4.xls kaynağı açılırken ArrayIndexOutOfBoundsException istisnası oluşuyor| İstisna|
 |CELLSJAVA-41961 | a3.xls kaynağı açılırken dosya istisnasında geçersiz dize oluşuyor| İstisna|
@@ -30,7 +30,7 @@ url: /tr/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSJAVA-41965 |GridWeb için de gerekli olan CELLSNET-44565 ve CELLSNET-44676 gibi sürümü edinin (Java)| Artırma|
+|CELLSJAVA-41965 | GridWeb için de gerekli olan CELLSNET-44565 ve CELLSNET-44676 gibi sürümü edinin (Java)| Artırma|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **Shape.TextOptions özelliğini ekler**

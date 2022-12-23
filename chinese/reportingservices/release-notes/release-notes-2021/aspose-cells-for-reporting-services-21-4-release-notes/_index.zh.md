@@ -12,7 +12,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-21-4-release-note
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSRS-577|支持导出 TIFF。|新功能|
+|CELLSRS-577|支持导出TIFF。|新功能|
 |CELLSRS-578|将 Aspose.Cells 版本升级到 21.4.2。|改进|
 
 

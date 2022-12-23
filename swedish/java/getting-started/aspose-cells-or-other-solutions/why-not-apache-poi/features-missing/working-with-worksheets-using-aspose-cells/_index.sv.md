@@ -11,6 +11,6 @@ url: /sv/java/working-with-worksheets-using-aspose-cells/
 - [Visa och dölj rullningslister för arbetsböcker](/cells/sv/java/display-and-hide-scrollbars-of-workbooks/)
 - [Visa och dölj flikar i arbetsboken med Aspose.Cells](/cells/sv/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
 - [Kryptera arbetsbok med Aspose.Cells](/cells/sv/java/encrypt-workbook-using-aspose-cells/)
-- [Läs CSV-fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
-- [Spara varje kalkylblad till olika PDF-filer med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+- [Läs CSV Fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
+- [Spara varje kalkylblad till olika PDF med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
 - [Ställ in kalkylbladsflikfärg i Aspose.Cells](/cells/sv/java/set-worksheet-tab-color-in-aspose-cells/)

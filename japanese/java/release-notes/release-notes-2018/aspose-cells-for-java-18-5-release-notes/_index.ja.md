@@ -12,17 +12,17 @@ url: /ja/java/aspose-cells-for-java-18-5-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-42550|各ワークブックに独自のプライベート (専用) フォント セットがある場合の PDF への同時変換|新機能|
+|CELLSJAVA-42550|PDF への同時変換。各ワークブックには独自のプライベート (排他的) フォント セットがあります。|新機能|
 |CELLSJAVA-42594|XLAM の LoadFormat と FileFormatType を検出する|強化|
 |CELLSJAVA-42604|テンプレート ファイルを開いて保存すると、ピボット テーブルの書式設定と動作が変更される|バグ|
-|CELLSJAVA-41918|スプレッドシート (XLS) が単純な読み込みと保存後に破損する|バグ|
+|CELLSJAVA-41918|単純な読み込みと保存の後、スプレッドシート (XLS) が破損する|バグ|
 |CELLSJAVA-42616|Aspose.Cells Iterator.hasnext() を 2 回呼び出すと iterator インターフェイスが壊れる|バグ|
 |CELLSJAVA-42607|ドキュメント プロパティの抽出時にプロパティ値が文字化けする|バグ|
 |CELLSJAVA-42601|透かしを追加した後、ブックが壊れている|バグ|
 |CELLSJAVA-42600|新しいリリースでは同じコードの実行が遅くなる|バグ|
 |CELLSJAVA-42598|テンプレート ファイルにプロパティが抽出されない|バグ|
-|CELLSJAVA-42589|HTML をセルに追加するときの NullPointerException|バグ|
-|CELLSJAVA-41414|XLSX ファイルを再保存すると、グラフから線が消える|バグ|
+|CELLSJAVA-42589|HTML をセルに追加すると NullPointerException が発生する|バグ|
+|CELLSJAVA-41414|XLSX ファイルを再保存するとチャートから線が消える|バグ|
 |CELLSJAVA-42602|軽量モードでセルをマージするときの例外「IndexOutOfBoundsException」|例外|
 |CELLSJAVA-42610|XLS ファイルのロード時の例外「java.lang.IllegalStateException: Invalid encoding: null」|例外|
 |CELLSJAVA-42608|Excel ファイルを開くと ArrayIndexOutOfBoundsException が発生する|例外|

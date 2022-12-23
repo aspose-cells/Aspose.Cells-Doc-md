@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.8.1
+title: Pubblico API Modifiche Aspose.Cells 8.8.1
 type: docs
 weight: 280
 url: /it/java/public-api-changes-in-aspose-cells-8-8-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.8.0 alla 8.8.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.8.0 alla 8.8.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -44,7 +44,7 @@ L'enumerazione LoadDataFilterOptions fornisce le selezioni seguenti.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -62,11 +62,11 @@ Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
 ### **Converti direttamente il grafico in PDF**
-Aspose.Cells Le API hanno già fornito la possibilità di eseguire il rendering dei grafici in PDF durante l'utilizzo del metodo Chart.toPdf. Con questa versione, l'API ha esposto un'altra versione sovraccaricata del suddetto metodo che potrebbe accettare un'istanza di OutputStream, consentendo agli utenti di salvare il PDF del grafico in un'istanza di ByteArrayOutputStream.
+Le API Aspose.Cells hanno già fornito la possibilità di eseguire il rendering dei grafici su PDF durante l'utilizzo del metodo Chart.toPdf. Con questa versione, lo API ha esposto un'altra versione sovraccaricata del suddetto metodo che potrebbe accettare un'istanza di OutputStream, consentendo agli utenti di salvare lo PDF del grafico in un'istanza di ByteArrayOutputStream.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -92,7 +92,7 @@ chart.toPdf(outStream);
 ### **Aggiunta proprietà WorkbookSettings.PaperSize**
 Aspose.Cells for Java 8.8.1 ha esposto la proprietà WorkbookSettings.PaperSize per impostare la dimensione della carta di stampa predefinita per l'intero foglio di calcolo. La proprietà WorkbookSettings.PaperSize accetta un valore dall'enumerazione PaperSizeType che contiene le dimensioni predefinite per i tipi di carta da stampa più utilizzati.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -112,7 +112,7 @@ settings.setPaperSize(PaperSizeType.PAPER_A_4);
 
 {{< /highlight >}}
 ### **Aggiunta la proprietà Shape.TextBody**
-Questa versione dell'API Aspose.Cells for Java ha esposto Shape.TextBody per manipolare gli aspetti del testo in una forma. Il seguente frammento utilizza la suddetta proprietà per impostare l'effetto ombra del testo in un TextBox.
+Questa versione di Aspose.Cells for Java API ha esposto Shape.TextBody per manipolare gli aspetti del testo in una forma. Il seguente frammento utilizza la suddetta proprietà per impostare l'effetto ombra del testo in un TextBox.
 
 {{% alert color="primary" %}} 
 
@@ -120,11 +120,11 @@ Questa versione dell'API Aspose.Cells for Java ha esposto Shape.TextBody per man
 
 {{% /alert %}} 
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
-//Crea un'istanza di Workbook
+ //Crea un'istanza di Workbook
 
 Libro della cartella di lavoro = nuova cartella di lavoro();
 
@@ -164,7 +164,7 @@ Aspose.Cells for Java 8.8.1 ha esposto un altro sovraccarico per il metodo Works
 ### **Aggiunto il metodo GridCell.createValidation**
 Aspose.Cells.GridWeb ha fornito la possibilità di aggiungere direttamente la regola di convalida a una singola cella durante l'utilizzo del metodo GridCell.createValidation. Il suddetto metodo richiede 2 parametri. Il primo è di tipo GridValidationType che determina il tipo di validazione, mentre il secondo parametro (isRequied) è di tipo Boolean.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

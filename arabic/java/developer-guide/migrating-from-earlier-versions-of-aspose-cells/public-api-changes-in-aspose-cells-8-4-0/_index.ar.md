@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **تمت إضافة الخاصية HtmlSaveOptions.CellCssPrefix**
-الخاصية المضافة حديثًا HtmlSaveOptions.CellCssPrefix تسمح بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
+تسمح الخاصية المضافة حديثًا HtmlSaveOptions.CellCssPrefix بتعيين البادئة لملفات CSS أثناء تصدير جداول البيانات إلى تنسيق HTML.
 
 {{% alert color="primary" %}} 
 

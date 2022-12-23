@@ -12,7 +12,7 @@ Parfois, vous souhaitez accéder à une feuille de calcul à partir de la réfé
 
 ## Exemple
 
- L'exemple suivant montre comment utiliser le[**Graphique.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) propriété. Le code imprime d'abord le nom de la feuille de calcul, puis accède au premier graphique de la feuille de calcul. Il imprime ensuite à nouveau le nom de la feuille de calcul, à l'aide de la[**Graphique.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)propriété.
+ L'exemple suivant montre comment utiliser le[**Graphique.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet) la propriété. Le code imprime d'abord le nom de la feuille de calcul, puis accède au premier graphique de la feuille de calcul. Il imprime ensuite à nouveau le nom de la feuille de calcul, à l'aide de la[**Graphique.getWorksheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#Worksheet)la propriété.
 
 ### Java code pour accéder à la feuille de calcul du graphique
 

@@ -11,7 +11,7 @@ url: /de/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET wurde auf Version 8.0.0 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 50 neue nützliche Verbesserungen enthält.
-Mit Aspose.Cells for .NET können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for .NET können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for .NET beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells.
@@ -48,7 +48,7 @@ Andere Verbesserungen und Änderungen
 
 ## **Fehler**
 
-(CELLSNET-42367) – Vertikaler Textfehler in der Ausgabe-PDF
+(CELLSNET-42367) – Vertikales Textproblem in der Ausgabe PDF
 
 (CELLSNET-42409) – Berechnetes Feld wird nicht berechnet/gedruckt
 
@@ -60,7 +60,7 @@ Andere Verbesserungen und Änderungen
 
 (CELLSNET-42358) – Problem mit der Textausrichtung bei Kontrollkästchen
 
-(CELLSNET-42357) – Einige Kontrollkästchen fehlen im Ausgabe-HTML
+(CELLSNET-42357) - Einige Checkboxen fehlen in der Ausgabe HTML
 
 (CELLSNET-42352) – Fehlende Ränder beim Konvertieren von XLSX in HTML
 
@@ -72,7 +72,7 @@ Andere Verbesserungen und Änderungen
 
 (CELLSNET-42491) – Unterstrichene und doppelte untere Zellenränder werden nicht richtig gedruckt
 
-(CELLSNET-42474) – Die Schriftgröße wurde nach der Konvertierung in PDF geändert
+(CELLSNET-42474) - Die Schriftgröße wurde nach der Konvertierung auf PDF geändert
 
 (CELLSNET-42463) - SheetRender-Problem mit unterschiedlichen Fußzeilenbildern
 
@@ -86,23 +86,23 @@ Andere Verbesserungen und Änderungen
 
 (CELLSNET-42432) – Das Objekt wird derzeit an einer Ausnahme verwendet
 
-(CELLSNET-42428) – Konvertierung von Excel in PDF – Zeilen sind nicht sichtbar
+(CELLSNET-42428) – Umwandlung von Excel in PDF – Zeilen sind nicht sichtbar
 
-(CELLSNET-42421) - Nummer 8 fehlt in PDF-Datei mit einigen Viewern
+(CELLSNET-42421) – Nummer 8 fehlt in der Datei PDF mit einigen Betrachtern
 
-(CELLSNET-42410) – Zusätzlicher Seitenumbruch bei der Konvertierung von Excel in PDF
+(CELLSNET-42410) – Extra Seitenumbruch in Excel zur Konvertierung von PDF
 
-(CELLSNET-42338) – Diskrepanzen und Probleme bei Werten und Diagrammen im Ausgabe-XPS
+(CELLSNET-42338) – Abweichungen und Probleme bei Werten und Diagrammen in der Ausgabe XPS
 
-(CELLSNET-41853) - Designs von der XLS-Seite gehen vollständig verloren
+(CELLSNET-41853) - Designs von Seite XLS vollständig verloren
 
-(CELLSNET-41803) – Negativer Datenbalken erscheint nicht in der Ausgabe-PDF
+(CELLSNET-41803) – Negativer Datenbalken erscheint nicht in der Ausgabe PDF
 
-(CELLSNET-42473) – Das Diagramm enthält keine Markierungen in der Ausgabe-PDF
+(CELLSNET-42473) – Diagramm enthält keine Markierungen in der Ausgabe PDF
 
 (CELLSNET-42403) – Problem mit Diagrammgröße und -platzierung beim Konvertieren von XLSX in PDF
 
-(CELLSNET-42372) – Die Datenreihen des Diagramms wurden in den XLSX-Ausgabedateien entfernt
+(CELLSNET-42372) – Die Datenreihe des Diagramms wurde in den Ausgabedateien XLSX entfernt
 
 (CELLSNET-42055) – Datei mit der neuesten Version von MS Excel (2013) beschädigt
 
@@ -116,7 +116,7 @@ Andere Verbesserungen und Änderungen
 
 (CELLSNET-42424) – Falsche WEEKNUM()-Ausgabe
 
-(CELLSNET-42412) – Einige Formeln funktionieren nicht in der Ausgabe-PDF, nachdem CalculateFormula() aufgerufen wurde.
+(CELLSNET-42412) – Einige Formeln funktionieren nicht in der Ausgabe PDF nach dem Aufrufen von CalculateFormula()
 
 (CELLSNET-42397) – Formeleigenschaft funktioniert nicht auf dem Zellobjekt
 
@@ -133,7 +133,7 @@ Andere Verbesserungen und Änderungen
 ### **Ausnahmen**
 
 
-(CELLSNET-42441) – Fehler beim XLSX-Aufruf von GetNamedRanges
+(CELLSNET-42441) – Fehler in XLSX beim Aufrufen von GetNamedRanges
 
 ## 2) Aspose.Cells Grid-Suite
 

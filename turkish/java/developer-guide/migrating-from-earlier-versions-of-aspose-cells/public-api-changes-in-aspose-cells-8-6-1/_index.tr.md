@@ -10,13 +10,13 @@ Bu belge, Aspose.Cells API sürümünde 8.6.0'dan 8.6.1'e modül/uygulama geliş
 
 {{% /alert %}} 
 ## **Eklenen API'ler**
-### **HTML Bağlantısı Hedef Türü Desteği**
-Aspose.Cells for Java API'in bu sürümü, birlikte izin veren yeni bir özellik olan HtmlSaveOptions.LinkTargetType ile birlikte HtmlLinkTargetType adında bir numaralandırma ortaya çıkardı.[HTML biçimine dönüştürürken e-tablodaki bağlantılar için hedef türünü ayarlayın](/cells/tr/java/change-the-html-link-target-type/). Varsayılan değerin SELF olduğu HtmlLinkTargetType numaralandırmasının olası değerleri aşağıdaki gibidir.
+### **HTML Bağlantı Hedefi Türü Desteği**
+ Aspose.Cells for Java API'in bu sürümü, birlikte izin veren yeni bir özellik olan HtmlSaveOptions.LinkTargetType ile birlikte HtmlLinkTargetType adında bir numaralandırma ortaya çıkardı.[HTML formatına dönüştürürken e-tablodaki bağlantılar için hedef tipini ayarlayın](/cells/tr/java/change-the-html-link-target-type/). Varsayılan değerin SELF olduğu HtmlLinkTargetType numaralandırmasının olası değerleri aşağıdaki gibidir.
 
 1. HtmlLinkTargetType.BLANK: Bağlantı verilen belgeyi/sayfayı yeni bir pencerede veya sekmede açar.
 1. HtmlLinkTargetType.PARENT: Bağlı belgeyi/sayfayı ana çerçevede açar.
 1. HtmlLinkTargetType.SELF: Bağlantı verilen belgeyi/sayfayı, bağlantının tıklandığı çerçevede açar.
-1. HtmlLinkTargetType.TOP: Bağlantılı belgeyi/sayfayı pencerenin tüm gövdesinde açar.
+1. HtmlLinkTargetType.TOP: Bağlantılı belgeyi/sayfayı pencerenin tam gövdesinde açar.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -91,7 +91,7 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Yöntem Cell.setCharacters Eklendi**
- Cell.setCharacters yöntemi şu amaçlarla kullanılabilir:[zengin metnin bölümlerini güncelleme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) belirli bir Cell nesnesinin. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**almak** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**Ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+ Cell.setCharacters yöntemi şu amaçlarla kullanılabilir:[zengin metnin bölümlerini güncelleme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) belirli bir Cell nesnesinin. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**elde etmek** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Özellik VbaProject.isSigned Eklendi**
- Aspose.Cells for Java 8.6.1, şu amaçlarla kullanılabilecek VbaProject.isSigned özelliğini kullanıma sundu:[Çalışma Kitabındaki bir VbaProject'in imzalanıp imzalanmadığını test edin](/cells/tr/java/check-if-vba-project-in-a-workbook-is-signed/). Boole tipi özelliği, proje imzalanmışsa true değerini döndürür.
+ Aspose.Cells for Java 8.6.1, şu amaçlarla kullanılabilecek VbaProject.isSigned özelliğini kullanıma sundu:[Çalışma Kitabındaki bir VbaProject'in imzalanıp imzalanmadığını test edin](/cells/tr/java/check-if-vba-project-in-a-workbook-is-signed/)Boole tipi özelliği, proje imzalanmışsa true değerini döndürür.
 
 Basit kullanım senaryosu aşağıdadır.
 

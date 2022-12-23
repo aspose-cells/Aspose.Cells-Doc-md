@@ -15,15 +15,15 @@ url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-41814|支持数据透视表中特定区域的自定义数据排序|新功能|
 |CELLSJAVA-43032|将 Validation.addArea (CellArea cellArea, boolean skipArea) 或 Validation.setAreas() 方法/重载添加到 API|新功能|
 |CELLSJAVA-42851|获取 ODATA 连接详细信息|新功能|
-|CELLSJAVA-43047|将工具提示文本添加到单元格以便以 HTML 格式导出|新功能|
+|CELLSJAVA-43047|在 HTML 中向单元格添加工具提示文本以供导出|新功能|
 |CELLSJAVA-42988|calculateFormula() 的性能问题|强化|
 |CELLSJAVA-43018|将打印区域范围导出到 HTML，而不隐式更改同一工作簿的某些状态|强化|
 |CELLSJAVA-43041|Cells.importCSV 抛出异常“字符串值不能超过 255 个字符”|强化|
 |CELLSJAVA-43043|Cells.removeDuplicates 需要更多时间处理大型数据集|强化|
 |CELLSJAVA-43002|打开 XSLB 时 ZipOutputStream 中出现意外的 CPU 热点|强化|
 |CELLSJAVA-43008|打开工作簿时禁用加载 OLE 对象的选项|强化|
-|CELLSJAVA-43019|径向图未正确呈现为 HTML|漏洞|
-|CELLSJAVA-43027|呈现为 PNG 后，轴的缩放比例不同。|漏洞|
+|CELLSJAVA-43019|径向图未正确呈现到 HTML|漏洞|
+|CELLSJAVA-43027|渲染到 PNG 后，轴的缩放比例不同。|漏洞|
 |CELLSJAVA-42474|更新源数据后数据透视表未刷新和损坏|漏洞|
 |CELLSJAVA-43033|转换为 PDF 不会结束。|漏洞|
 |CELLSJAVA-43034|检索到无效的俄语（自定义）日期格式输出|漏洞|
@@ -34,17 +34,17 @@ url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 |CELLSJAVA-43038|使用 Cell.setHtmlString() 不导出超链接|漏洞|
 |CELLSJAVA-43039|Cell.setHtmlString() 未将某些 HTML 标记/脚本呈现为 Excel 导出|漏洞|
 |CELLSJAVA-41103|数据透视表数据着色和格式未正确呈现|漏洞|
-|CELLSJAVA-43007|未按预期生成 PDF|漏洞|
+|CELLSJAVA-43007|PDF 没有按预期生成|漏洞|
 |CELLSJAVA-43025|Cell.getStyle.getCustom 返回德语语言环境的错误格式|漏洞|
-|CELLSJAVA-42793|在 ODS 到 XLSX 转换过程中字体 SmartArt 对象丢失|漏洞|
+|CELLSJAVA-42793|Fontwork SmartArt 对象在 ODS 到 XLSX 转换期间丢失|漏洞|
 |CELLSJAVA-43020|调用 Chart.Calcluate() 后径向图扭曲|漏洞|
 |CELLSJAVA-43022|XLS 文件的形状到图像错误|漏洞|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) 在调用 getFormula() 时导致意外结果|漏洞|
 |CELLSJAVA-43052|布尔值的验证问题|漏洞|
 |CELLSJAVA-43054|葡萄牙语设置中的 CSV 合并问题|漏洞|
 |CELLSJAVA-43056|Cell.setFormula() 不更新外部链接|漏洞|
-|CELLSJAVA-42767|Excel 到 PDF 转换过程中丢失的图像|漏洞|
-|CELLSJAVA-42913|嵌入的 Visio 对象未正确呈现为 PDF|漏洞|
+|CELLSJAVA-42767|Excel 到 PDF 转换期间丢失的图像|漏洞|
+|CELLSJAVA-42913|嵌入的 Visio 对象错误地呈现为 PDF|漏洞|
 |CELLSJAVA-42883|从 Aspose.Cells for Java 95 格式文件中提取图形文本的问题|漏洞|
 |CELLSJAVA-42931|未从 Excel95 中提取附件/对象|漏洞|
 |CELLSJAVA-43051|图片未保持纵横比|漏洞|
@@ -80,7 +80,7 @@ url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ### **添加 Workbook.ExportXml(string mapName, Stream stream) 方法。**
 将 XML 数据导出到流。
 ### **添加 HtmlSaveOptions.ExportArea 属性**
-获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。将文件保存为 HTML 时，只会导出指定区域。
+获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。保存文件到HTML时只会导出指定区域。
 ### **添加类：DataMashup、PowerQueryFormula、PowerQueryFormulaCollection、PowerQueryFormulaItem 和 PowerQueryFormulaItemCollection**
 获取 DataMashup 中的信息。
 ### **添加 DBConnection.SeverCommand 属性。**
@@ -124,9 +124,9 @@ url: /zh/java/aspose-cells-for-android-via-java-19-12-release-notes/
 ### **添加 AutoFitterOptions.AutoFitWrappedTextType 属性和 AutoFitWrappedTextType 枚举。**
 获取和设置自动调整换行文本的类型。
 ### **添加 EmfRenderSetting 类**
-用于呈现 EMF 图元文件的设置。
+设置渲染 EMF 图元文件。
 ### **添加 PdfSaveOptions.EmfRenderSetting 属性**
-设置用于在呈现为 PDF 文件时呈现 EMF 图元文件。
+在渲染到 PDF 文件时设置渲染 EMF 图元文件。
 ### **添加 ShapeCollection.AddSvg() 方法**
 添加 svg 图像。
 ### **添加 WorkbookSettings.QuotePrefixToStyle 属性**

@@ -20,6 +20,6 @@ url: /tr/net/getting-notifications-while-merging-data-with-smart-markers/
 
  Sürecin geri kalanı, Akıllı İşaretleyicileri içeren tasarımcı elektronik tablosunun yüklenmesini içerir.[Çalışma KitabıTasarımcısı](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner)ve veri kaynağını ayarlayarak işleyin. Örneği basit tutmak için, aşağıdaki anlık görüntüde gösterildiği gibi yalnızca iki Akıllı İşaretleyici içeren önceden tanımlanmış bir tasarımcı elektronik tablosu kullandık; burada veri kaynağı, verileri belirtilen Akıllı İşaretleyicilere göre birleştirmek için dinamik olarak oluşturuluyor.
 
-|![yapılacaklar:resim_alternatif_Metin](getting-notifications-while-merging-data-with-smart-markers_1.png)|
+|![yapılacaklar:resim_alternatif_metin](getting-notifications-while-merging-data-with-smart-markers_1.png)|
 |:- |
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-GetSmartMarkerNotifications-1.cs" >}}

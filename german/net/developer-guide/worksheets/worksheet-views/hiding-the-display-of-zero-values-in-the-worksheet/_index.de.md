@@ -12,7 +12,7 @@ Manchmal müssen Sie Nullwerte in einer Tabelle ausblenden. Dies kann eine pers�
 
 So blenden Sie Nullwerte in einem Arbeitsblatt in Microsoft Excel aus (z. B. Microsoft Excel 2003):
 
-1.  Von dem**Werkzeug** Menü, auswählen**Optionen** , und wählen Sie dann die aus**Aussicht** Tab.
+1.  Von dem**Werkzeug** Menü, auswählen**Optionen** , und wählen Sie dann die aus**Sicht** Tab.
 1.  Deaktivieren Sie die**Nullwerte** Möglichkeit.
 1.  Klicken**OK**.
 

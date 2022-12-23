@@ -22,21 +22,21 @@ url: /it/java/aspose-cells-for-java-8-5-1-release-notes/
 ## **Insetti**
 
 
- (CELLSJAVA-41378) - L'allineamento di determinate celle non viene mantenuto nell'HTML generato
+ (CELLSJAVA-41378) - L'allineamento di alcune celle non viene mantenuto nel HTML generato
 
  (CELLSJAVA-41376) - Viene visualizzato un messaggio di errore dopo il salvataggio della cartella di lavoro
 
- (CELLSJAVA-41412) - ListColumn.getRange restituisce null
+(CELLSJAVA-41412) - ListColumn.getRange restituisce null
 
  (CELLSJAVA-41407) - Codice VBA in .xlsb perso dopo il salvataggio
 
-(CELLSJAVA-41396) - Il calcolo delle formule non funziona quando abbiamo più di 65536 celle denominate
+ (CELLSJAVA-41396) - Il calcolo delle formule non funziona quando abbiamo più di 65536 celle denominate
 
  (CELLSJAVA-41389) - L'abilitazione di ShowTotal per ListObject inserisce una riga vuota sopra il totale
 
  (CELLSJAVA-41388) - La funzione TREND di Excel non è in grado di calcolare utilizzando CalculateFormula
 
- (CELLSJAVA-41379) - Colori delle schede persi dopo aver salvato nuovamente l'XLSB
+ (CELLSJAVA-41379) - Colori della scheda persi dopo aver salvato nuovamente il XLSB
 
  (CELLSJAVA-41370) - Quando si crea un'istanza di una cartella di lavoro con un documento Excel danneggiato e LoadOptions, si verifica un blocco
 
@@ -48,13 +48,13 @@ url: /it/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41403) - Fonte: la sostanza chimica è sovrascritta dal bordo della carta in PDF
 
- (CELLSJAVA-41402) - Fonte: la sostanza chimica è sovrascritta dal bordo del grafico in PNG
+ (CELLSJAVA-41402) - Fonte: la sostanza chimica è sovrascritta dal bordo della carta in PNG
 
  (CELLSJAVA-41387) - Le etichette dei dati vengono sovrascritte dalla sezione dell'intestazione
 
- (CELLSJAVA-41380) - La conversione da grafico a immagine/PDF non esporta la casella di testo contenuta in modalità di licenza
+(CELLSJAVA-41380) - La conversione da grafico a immagine/PDF non esporta la casella di testo contenuta in modalità di licenza
 
-(CELLSJAVA-41244) - Gli indicatori e le frecce non appaiono bene o sono sfigurati
+ (CELLSJAVA-41244) - Gli indicatori e le frecce non appaiono bene o sono sfigurati
 
  (CELLSJAVA-40929) - Le parole in una casella di testo non hanno spazi tra loro all'interno del pdf di output
 
@@ -73,10 +73,10 @@ url: /it/java/aspose-cells-for-java-8-5-1-release-notes/
  (CELLSJAVA-41408) - CellsException: errore da forma a immagine! durante la conversione del foglio di calcolo in PDF
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -92,7 +92,7 @@ url: /it/java/aspose-cells-for-java-8-5-1-release-notes/
 
 
 
- Aggiunge il metodo Cell.GetHeightOfValue().
+Aggiunge il metodo Cell.GetHeightOfValue().
 
  Viene utilizzato per ottenere l'altezza del valore in unità di pixel.
 
@@ -102,4 +102,4 @@ url: /it/java/aspose-cells-for-java-8-5-1-release-notes/
 
  Nota
 
-Poiché la base di codice di Aspose.Cells for Java corrisponde al codice della versione .NET pertinente, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v8.5.1 sono inclusi anche in questo Aspose.Cells for Java v8.5.1.
+ Poiché la base di codice di Aspose.Cells for Java corrisponde al codice della versione .NET pertinente, la maggior parte delle modifiche, miglioramenti e correzioni inclusi in Aspose.Cells for .NET v8.5.1 sono inclusi anche in questo Aspose.Cells for Java v8.5.1.

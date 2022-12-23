@@ -12,5 +12,5 @@ url: /zh/cpp/aspose-cells-for-cpp-22-4-release-notes-windows/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSCPP-755|与 .Net 版本同步功能|新的功能|
+|CELLSCPP-755|与 .Net 版本同步功能|新功能|
 |CELLSCPP-733|修复内存泄漏|虫子|

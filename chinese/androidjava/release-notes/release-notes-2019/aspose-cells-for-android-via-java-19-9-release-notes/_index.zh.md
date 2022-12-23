@@ -19,9 +19,9 @@ url: /zh/java/aspose-cells-for-android-via-java-19-9-release-notes/
 |CELLSJAVA-42969|支持 Java 12 中 Aspose.Cells for Java|强化|
 |CELLSJAVA-42977|Excel 到 PDF 转换期间的高 CPU 和内存消耗|强化|
 |CELLSJAVA-42861|无法获取 ODS 文件格式的形状的替代文本|漏洞|
-|CELLSJAVA-42929|XLSX 到 PDF 转换中的图形标题更改|漏洞|
+|CELLSJAVA-42929|图表标题在 XLSX 到 PDF 转换时发生变化|漏洞|
 |CELLSJAVA-42933|将 Excel 文件转换为 PDF 时图形颜色发生变化|漏洞|
-|CELLSJAVA-42946|将带有系列的堆叠条形图错误呈现为 PDF|漏洞|
+|CELLSJAVA-42946|带有系列的堆叠条形图错误呈现为 PDF|漏洞|
 |CELLSJAVA-42942|在工作表级别而非工作簿级别打印的页面|漏洞|
 |CELLSJAVA-42952|某些单词中单元格顶部的错误缩进|漏洞|
 |CELLSJAVA-42902|复制工作簿时，瀑布图样式未正确复制|漏洞|
@@ -31,11 +31,11 @@ url: /zh/java/aspose-cells-for-android-via-java-19-9-release-notes/
 |CELLSJAVA-42902|复制工作簿时，瀑布图样式未正确复制|漏洞|
 |CELLSJAVA-42944|将 XLSX 转换为 HTML 时出错|漏洞|
 |CELLSJAVA-42966|刷新数据透视表和数据透视图会损坏 Excel 文件|漏洞|
-|CELLSJAVA-42975|HTML 转换的差异|漏洞|
+|CELLSJAVA-42975|HTML转换的差异|漏洞|
 |CELLSJAVA-42971|# N/A 显示在呈现的 PDF 中
 |漏洞|
 |CELLSJAVA-42970|Excel 中不需要的扩展边框线到 PDF 渲染|漏洞|
-|CELLSJAVA-42976|将 Excel 文件渲染为 PDF 时图像位置不匹配|漏洞|
+|CELLSJAVA-42976|将 Excel 文件呈现为 PDF 时图像位置不匹配|漏洞|
 |CELLSJAVA-42961|使用 copyColumns 复制数据时未正确复制表属性|漏洞|
 |CELLSJAVA-42980|图片复制时透明图片变为不透明|漏洞|
 |CELLSJAVA-42990|存在自动筛选时将 Excel 文件转换为 HTML 时显示隐藏行|漏洞|
@@ -44,12 +44,12 @@ url: /zh/java/aspose-cells-for-android-via-java-19-9-release-notes/
 |CELLSJAVA-42987|将 Excel 文件转换为 PDF 时出现格式问题|漏洞|
 |CELLSJAVA-42986|将中文 XLSX 文件转换为 PDF 后文本重叠|漏洞|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(false) 不适用于较新的 Excel 版本|漏洞|
-|CELLSJAVA-42996|基于公式的数据标签未在 PDF 中正确呈现|漏洞|
-|CELLSJAVA-42945|如果设置了 ExportImagesAsBase64，另存为 HTML 会抛出异常|例外|
+|CELLSJAVA-42996|基于公式的数据标签在 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42945|如果设置了 ExportImagesAsBase64，另存为 HTML 会引发异常|例外|
 |CELLSJAVA-42953|将 XLS 文件转换为 HTML 时出现 NullPointerException|例外|
 |CELLSJAVA-42951|comment.setHtmlNote() 抛出的 java.lang.NullPointerException|例外|
 |CELLSJAVA-42954|加载和保存 XLSX 时出现异常|例外|
-|CELLSJAVA-42957|保存 XLSX 时抛出无效的 FontUnderlineType 值|例外|
+|CELLSJAVA-42957|保存时抛出无效的FontUnderlineType值 XLSX|例外|
 |CELLSJAVA-42992|将 XLSM 转换为图像时出现异常|例外|
 |CELLSJAVA-42991|在 macOS 中将 Excel 转换为 PDF 时出现“列宽必须介于 0 到 255 之间”异常|例外|
 |CELLSJAVA-43004|异常 java.lang.NumberFormatException：对于输入字符串：“0.0”，同时将 Excel 转换为 HTML|例外|

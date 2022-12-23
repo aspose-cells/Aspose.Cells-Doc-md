@@ -10,8 +10,8 @@ Questo articolo spiegherà come applicare il subtotale ai dati e modificare la d
 
  È possibile applicare Subtotale ai dati utilizzando[**Foglio di lavoro.Cells.subtotale()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) metodo. Richiede i seguenti parametri.
 
-- **CellArea** - L'intervallo su cui applicare il subtotale
-- **Raggruppa per** - Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero
+- **CellArea** L'intervallo su cui applicare il subtotale
+- **Raggruppare per** - Il campo in base al quale eseguire il raggruppamento, come offset di un numero intero in base zero
 - **Funzione** - La funzione del subtotale.
 - **Elenco totale** - Un array di offset di campo in base zero, che indica i campi a cui vengono aggiunti i subtotali.
 - **Sostituire** - Indica se sostituire i subtotali correnti
@@ -36,7 +36,7 @@ Lo screenshot seguente mostra il file Excel di output generato dal codice di ese
 
 ![cose da fare:immagine_alt_testo](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
-### Codice Java per applicare il subtotale e modificare la direzione delle righe di riepilogo del contorno sotto i dettagli
+### Java codice per applicare il subtotale e modificare la direzione delle righe di riepilogo del contorno sotto il dettaglio
 
 Ecco il codice di esempio per ottenere l'output mostrato sopra.
 

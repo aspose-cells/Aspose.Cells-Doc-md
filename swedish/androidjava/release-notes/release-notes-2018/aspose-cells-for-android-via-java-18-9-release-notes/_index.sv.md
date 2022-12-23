@@ -13,12 +13,12 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.9.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Inaktivera Pivot Table Ribbon|Ny funktion|
-|CELLSJAVA-42568|Skydda arbetsbok och kalkylblad i ODS-fil|Ny funktion|
+|CELLSJAVA-42568|Skydda arbetsbok och kalkylblad i filen ODS|Ny funktion|
 |CELLSJAVA-42668|Stöd flera värden när du använder klassstil (länkad till: CELLSJAVA-42635)|Förbättring|
 |CELLSJAVA-42627|Det går inte att extrahera Smart Art-bilder korrekt - Konvertering från form till bild (CELLSJAVA-42619)|Förbättring|
 |CELLSJAVA-42677|Avbrottsproblem med att spara XLSX-filprocessen|Förbättring|
 |CELLSJAVA-42687|Hyperlänken fungerar inte när den refereras från ett annat ark|Förbättring|
-|CELLSJAVA-42672|PDF-dokumentet är för stort|Insekt|
+|CELLSJAVA-42672|Utdatadokumentet PDF är för stort|Insekt|
 |CELLSJAVA-42671|Hyperlänkproblem vid visning av utdata Excel-fil i MS Excel japansk version|Insekt|
 |CELLSJAVA-42667|Får '#NUM!' för en cell med IRR-funktion|Insekt|
 |CELLSJAVA-42658|Arbetsböcker med XL4-makron (XLSM) blir korrupta efter lagring|Insekt|
@@ -27,9 +27,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.9.
 |CELLSJAVA-41176|Felaktig justering vid rendering av kalkylark till PDF-format|Insekt|
 |CELLSJAVA-42676|Tabelldata flyttades till fel rad och kolumn vid konvertering från HTML till MS Excel-filformat|Insekt|
 |CELLSJAVA-41670|Diagrammets bildposition är fel i Chrome och FireFox vid konvertering till HTML|Insekt|
-|CELLSJAVA-41245|Slicer-kontroll återges inte när Excel-fil konverteras till HTML-filformat|Insekt|
+|CELLSJAVA-41245|Slicer-kontroll renderas inte när Excel-fil konverteras till filformatet HTML|Insekt|
 |CELLSJAVA-42684|Vertikal linje i mitten av diagrammet ritas inte korrekt i den renderade bilden|Insekt|
-|CELLSJAVA-42682|Gradientfärg för negativa bubblor tillämpas inte i PDF-utdata|Insekt|
+|CELLSJAVA-42682|Gradientfärg för negativa bubblor gäller inte i PDF-utgången|Insekt|
 |CELLSJAVA-42681|Sjökortskategorins titel visas inte korrekt i bilden|Insekt|
 |CELLSJAVA-42695|Fel kantstil returnerades för sammanslagen cell|Insekt|
 |CELLSJAVA-42694|Läs vattenstämpel från Excel-fil|Insekt|
@@ -38,8 +38,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.9.
 |CELLSJAVA-41485|Makron i ODS-filen behålls inte i det genererade ODS-filformatet|Insekt|
 |CELLSJAVA-42715|Formler hämtas inte på samma sätt som i Excel-fil|Insekt|
 |CELLSJAVA-42711|Diagram i PDF genereras inte från Excel-mallen|Insekt|
-|CELLSJAVA-42710|Duplicera förklaringsobjekttext i diagrammet i Excel till PDF-konvertering|Insekt|
-|CELLSJAVA-42706|PDF-utdata visar inte diagrametikett|Insekt|
+|CELLSJAVA-42710|Duplicera förklaringsobjekttext i diagrammet i Excel till PDF konvertering|Insekt|
+|CELLSJAVA-42706|PDF utdata visar inte diagrametikett|Insekt|
 |CELLSJAVA-42700|Vattenfallsdiagrammet återges inte korrekt efter att ha ändrat sjökortsdata|Insekt|
 |CELLSJAVA-42717|Cells.deleteRow fungerar felaktigt|Insekt|
 |CELLSJAVA-42716|Fel värde hämtat för kantstil|Insekt|
@@ -54,9 +54,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 18.9.
 |CELLSJAVA-42669|Undantag "java.lang.NullPointerException" vid beräkning av formler i arbetsboken|Undantag|
 |CELLSJAVA-42663|Chart.calculate() kastar IndexOutOfBoundsException|Undantag|
 |CELLSJAVA-42655|Undantag: "Ogiltig kodning: null" när en XLS-fil laddas - II|Undantag|
-|CELLSJAVA-42675|NumberFormatException höjdes när HTML-filen laddades in i arbetsboken|Undantag|
+|CELLSJAVA-42675|NumberFormatException uppstod när filen HTML laddades in i arbetsboken|Undantag|
 |CELLSJAVA-42689|NullPointerException undantag uppstod när CalculateFormula anropades|Undantag|
-|CELLSJAVA-42678|Undantag vid rendering av kalkylblad till PNG-filformat|Undantag|
+|CELLSJAVA-42678|Undantag vid rendering av kalkylblad till filformatet PNG|Undantag|
 |CELLSJAVA-42411|Fel i Cell: E22-Ogiltig formel - undantag vid öppning av MS Excel-fil|Undantag|
 |CELLSJAVA-42691|NegativeArraySizeException vid konvertering av XLSX till HTML|Undantag|
 
@@ -158,11 +158,11 @@ Får standardnamn på engelska typsnittsstilen (vanlig, fet, kursiv) för sidhuv
 
 ### **Lägger till PdfCustomPropertiesExport enum**
 
-Anger hur CustomDocumentPropertyCollection exporteras till PDF-fil.
+Anger hur CustomDocumentPropertyCollection exporteras till filen PDF.
 
 ### **Lägger till egenskapen PdfSaveOptions.CustomPropertiesExport**
 
-Hämtar eller ställer in ett värde som bestämmer hur CustomDocumentPropertyCollection exporteras till PDF-fil. Standardvärdet är None.
+Hämtar eller ställer in ett värde som bestämmer hur CustomDocumentPropertyCollection exporteras till filen PDF. Standardvärdet är None.
 
 ### **Lägger till klass XmlDataBinding**
 

@@ -10,7 +10,7 @@ description: Use Python Excel API para crear hojas de cálculo de Excel en Pytho
 ### **Insertar una fila**
 Inserte una fila en cualquier ubicación llamando al método insertRows de la colección Cells. El método insertRows toma el índice de la fila donde se insertará la nueva fila como primer argumento y el número de filas que se insertarán como segundo argumento. Los siguientes son los pasos:
 
-- Cargar libro de trabajo XLS o XLSX
+- Cargue el libro de trabajo XLS o XLSX
 - Accede a la hoja de trabajo
 - Insertar la fila
 - Guardar como libro de trabajo XLS o XLSX

@@ -4,7 +4,7 @@ linktitle: Öppna filer
 type: docs
 weight: 20
 url: /sv/net/loading-saving-and-managing/
-description: Med Aspose.Cells är det enkelt att skapa, öppna och hantera Excel, CSV, TSV, ODS, HTML, Numbers, Json, XML, Pdf, Jpg, Tiff, Image, Mht och XPS-filer.
+description: Med Aspose.Cells är det enkelt att skapa, öppna och hantera Excel,CSV,TSV,ODS,HTML,Numbers,Json,XML,Pdf,Jpg,Tiff,Image,Mht,Mht.
 ---
 {{% alert color="primary" %}}
 
@@ -34,6 +34,6 @@ Med Aspose.Cells är det enkelt att öppna, spara och hantera Excel-filer.
 - [Öppna olika Microsoft Excel-versionsfiler](/cells/sv/net/opening-different-microsoft-excel-versions-files/)
 - [Öppna filer med olika format](/cells/sv/net/opening-files-with-different-formats/)
 - [Optimera minnesanvändning när du arbetar med stora filer med stora datamängder](/cells/sv/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Läs Numbers Kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Stoppa konvertering eller laddning med InterruptMonitor när det tar för lång tid](/cells/sv/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Använder LightCells API](/cells/sv/net/using-lightcells-api/)

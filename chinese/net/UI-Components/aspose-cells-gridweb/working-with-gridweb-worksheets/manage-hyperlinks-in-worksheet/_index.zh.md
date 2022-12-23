@@ -53,7 +53,7 @@ URL 超链接看起来更像是您通常在网站上看到的简单超链接。 
 
 **输出：添加到工作表的文本超链接** 
 
-![待办事项：图像_替代_文本](manage-hyperlinks-in-worksheet_1.png)
+![待办事项：图片_替代_文本](manage-hyperlinks-in-worksheet_1.png)
 
 
 
@@ -73,15 +73,15 @@ URL 超链接看起来更像是您通常在网站上看到的简单超链接。 
 
 **输出：添加到工作表的图像超链接** 
 
-![待办事项：图像_替代_文本](manage-hyperlinks-in-worksheet_2.png)
+![待办事项：图片_替代_文本](manage-hyperlinks-in-worksheet_2.png)
 
 {{% alert color="primary" %}} 
 
-设置图像超链接的 AltText 与设置一个类似的功能<ALT>HTML 中的标记。仅当未显示超链接图像时才显示文本。 （例如，如果图像不在指定位置。）如果找不到第二个超链接的图像，下面代码片段的输出将如下所示。
+设置图像超链接的 AltText 与设置一个类似的功能<ALT>HTML 中的标签。仅当未显示超链接图像时才显示文本。 （例如，如果图像不在指定位置。）如果找不到第二个超链接的图像，下面代码片段的输出将如下所示。
 
 **找不到图像 URL 的图像** 
 
-![待办事项：图像_替代_文本](manage-hyperlinks-in-worksheet_3.png)
+![待办事项：图片_替代_文本](manage-hyperlinks-in-worksheet_3.png)
 
 {{% /alert %}} 
 
@@ -103,7 +103,7 @@ URL 超链接看起来更像是您通常在网站上看到的简单超链接。 
 
 **单元格命令超链接已添加到工作表** 
 
-![待办事项：图像_替代_文本](manage-hyperlinks-in-worksheet_4.png)
+![待办事项：图片_替代_文本](manage-hyperlinks-in-worksheet_4.png)
 
 
 
@@ -117,7 +117,7 @@ URL 超链接看起来更像是您通常在网站上看到的简单超链接。 
 
 **输出：单击超链接时添加到 A6 单元格的文本** 
 
-![待办事项：图像_替代_文本](manage-hyperlinks-in-worksheet_5.png)
+![待办事项：图片_替代_文本](manage-hyperlinks-in-worksheet_5.png)
 
 
 

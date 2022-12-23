@@ -6,7 +6,7 @@ url: /ja/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 ---
 ## **考えられる使用シナリオ**
 
-Aspose.Cells を使用すると、任意の図形またはコメントの余白を設定できます。[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment)財産。このプロパティは、のオブジェクトを返します[**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment)たとえば、さまざまなプロパティを持つクラス[**上余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**左余白点**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**右余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt)などを使用して、上、左、下、右の余白を設定できます。
+Aspose.Cells を使用すると、任意の図形またはコメントの余白を設定できます。[**Shape.TextBody.TextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/fontsettingcollection#TextAlignment)財産。このプロパティは、のオブジェクトを返します[**ShapeTextAlignment**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeTextAlignment)たとえば、さまざまなプロパティを持つクラス[**上余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#TopMarginPt), [**左余白ポイント**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#LeftMarginPt), [**BottomMarginPt**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#BottomMarginPt), [**右余白点**](https://reference.aspose.com/cells/java/com.aspose.cells/shapetextalignment#RightMarginPt)などを使用して、上、左、下、右の余白を設定できます。
 
 ## **ワークシート内のコメントまたはシェイプの余白を設定する**
 

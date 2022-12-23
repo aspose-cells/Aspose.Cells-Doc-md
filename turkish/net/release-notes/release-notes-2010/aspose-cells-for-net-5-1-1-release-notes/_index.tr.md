@@ -21,10 +21,10 @@ url: /tr/net/aspose-cells-for-net-5-1-1-release-notes/
 
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |
-|18024 | Chart2Image| PDF'ye dönüştürürken grafik onay etiketi biçimi sorunu|
+|18024 | Chart2Image| PDF'e dönüştürülürken grafik onay etiketi biçimi sorunu|
 |18028 | Chart2Image| Chart_Overlapping sorunu|
 |18458 | Chart2Image| Kesilmiş veri etiketi sorunu|
-|18652 | Pdf| Geçersiz Cell Ad, PDF formatında kaydedilirken|
+|18652 | Pdf| PDF biçiminde kaydedilirken geçersiz Cell adı|
 |18034 | Şekil2Resim| İlk sayfanın düzeni ve tasarımı kayboluyor ve metin çakışıyor|
 |18687 | Çalışma Sayfası2Görüntü| ToImage İstisna atar|
 |18473 | Xl'ler|Office 2010, XLS dosyasıyla ilgili bir sorun algıladı|

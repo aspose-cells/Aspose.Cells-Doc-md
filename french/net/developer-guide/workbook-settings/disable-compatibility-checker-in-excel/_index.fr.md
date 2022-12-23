@@ -21,8 +21,8 @@ Parfois, vous devez désactiver le vérificateur de compatibilité pour une feui
 
 Pour désactiver le vérificateur de compatibilité dans Microsoft Excel (par exemple Microsoft Excel 2007/2010) :
 
--  (Excel 2007) Sur le bouton Office, cliquez sur**Préparer** , alors**Exécutez le vérificateur de compatibilité** , puis effacez le**Vérifier la compatibilité lorsque vous enregistrez ce classeur** option.
--  (Excel 2010) Dans l'onglet Fichier, cliquez sur**Info** , alors**Vérifier les problèmes** , Cliquez sur**Vérifier la compatibilité** , et, enfin, effacer le**Vérifier la compatibilité lorsque vous enregistrez ce classeur** option.
+-  (Excel 2007) Sur le bouton Office, cliquez sur**Préparer** , ensuite**Exécutez le vérificateur de compatibilité** , puis effacez le**Vérifier la compatibilité lorsque vous enregistrez ce classeur** option.
+-  (Excel 2010) Dans l'onglet Fichier, cliquez sur**Info** , ensuite**Vérifier les problèmes** , Cliquez sur**Vérifier la compatibilité** , et, enfin, effacer le**Vérifier la compatibilité lorsque vous enregistrez ce classeur** option.
 
 ## **Utilisation des API Aspose.Cells**
 

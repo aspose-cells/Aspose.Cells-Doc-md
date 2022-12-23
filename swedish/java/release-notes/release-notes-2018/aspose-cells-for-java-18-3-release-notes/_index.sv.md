@@ -19,15 +19,15 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.3.
 |CELLSJAVA-42558|Det går inte att komma åt etikettobjekt för horisontell kategoriaxel|Förbättring|
 |CELLSJAVA-42552|Utdata HTML matchar inte med MS Excel|Insekt|
 |CELLSJAVA-42536|Excel-filer skadade efter öppning/spara av Aspose.Cells API:er|Insekt|
-|CELLSJAVA-42513|Extra kolumner kommer i slutet av varje rad i utdata-HTML för ett intervall|Insekt|
+|CELLSJAVA-42513|Extra kolumner kommer i slutet av varje rad i utgången HTML för ett intervall|Insekt|
 |CELLSJAVA-42542|Excel-filen är skadad och har några celler ändrade efter att ha sparats|Insekt|
 |CELLSJAVA-42524|Beräkningsfel finns i det dolda bladet, nämligen "KD020"|Insekt|
 |CELLSJAVA-42514|ImportTableOptions.setInsertRows() fungerar inte när ResultSet importeras till kalkylbladet|Insekt|
 |CELLSJAVA-42505|Kommentarer bifogade till cellerna (i mallfilen) visas inte när Excel-filen importeras till GridWeb|Insekt|
 |CELLSJAVA-42520|Inkonsekventa cellkoordinater rapporterade av ImageOrPrintOptions.DrawObjectEventHandler|Insekt|
-|CELLSJAVA-42518|Radkanter är feljusterade i utdata-PDF-filen|Insekt|
+|CELLSJAVA-42518|Kanter för rader är feljusterade i utgången PDF|Insekt|
 |CELLSJAVA-42561|X-axelskalan är felaktig i PNG-utdata från Excel-diagram|Insekt|
-|CELLSJAVA-42556|Återgivningen av diagrammet är inte korrekt i den utgående PDF-filen|Insekt|
+|CELLSJAVA-42556|Återgivningen av diagrammet är inte korrekt i utgången PDF|Insekt|
 |CELLSJAVA-42547|Diagrammet ersätts med rött X vid konvertering av XLSX till ODS|Insekt|
 |CELLSJAVA-42546|Bilder förlorade vid konvertering av ODS till XLSX|Insekt|
 |CELLSJAVA-42538|Egenskaper extraheras inte från XLS- och XLSX-filer|Insekt|
@@ -43,7 +43,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.3.
 # **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HtmlSaveOptions.ExportSimilarBorderStyle**
-Anger om liknande kantstil exporteras när kantstilen inte stöds av webbläsare. Om du vill importera HTML- eller MHT-filen till Excel, behåll standardvärdet. Standardvärdet är falskt.
+Anger om liknande kantstil exporteras när kantstilen inte stöds av webbläsare. Om du vill importera filen HTML eller MHT till Excel, behåll standardvärdet. Standardvärdet är falskt.
 #### **Lägger till egenskapen Axis.AxisLabels**
 Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().
 #### **Lägger till ny enumtyp: GridValidationType.CustomServerFunction**

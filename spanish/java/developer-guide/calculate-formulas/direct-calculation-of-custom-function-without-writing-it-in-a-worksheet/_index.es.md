@@ -14,7 +14,7 @@ Consulte el siguiente código de ejemplo que ilustra el uso de este método. Hem
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementDirectCalculationOfCustomFunction-ImplementDirectCalculationOfCustomFunction.java" >}}
 ## **Salida de consola**
-A continuación se muestra la salida de la consola del código de muestra anterior.
+A continuación se muestra la salida de la consola del código de ejemplo anterior.
 
 {{< highlight "java" >}}
 

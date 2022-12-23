@@ -14,6 +14,6 @@ Quando condividi una cartella di lavoro, ottieni un'opzione che dice***Conserva 
 
 Il seguente codice di esempio crea una cartella di lavoro vuota, quindi la condivide e aggiorna i giorni dei registri di revisione conservando la cronologia a 7 giorni, che normalmente è di 30 giorni. Si prega di consultare il[file Excel di output](60489784.xlsx)generato dal codice per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.java" >}}

@@ -14,7 +14,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-5-2/
  كشف هذا الإصدار من Aspose.Cells for .NET API عن حملين زائدين جديدين من طريقة SheetRender.ToImage التي تسمح الآن بقبول مثيل لفئة System.Drawing.Graphics إلى[تقديم في سياق الرسومات](/cells/ar/net/render-worksheet-to-graphic-context/). تواقيع الطرق المضافة حديثًا هي كما يلي.
 
 1. SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
-1. SheetRender.ToImage (int pageIndex، Graphics g، float x، float y، float width، float height)
+1. SheetRender.ToImage (int pageIndex، Graphics g، float x، float y، float width، float width، float height)
 
 فيما يلي سيناريو الاستخدام البسيط.
 

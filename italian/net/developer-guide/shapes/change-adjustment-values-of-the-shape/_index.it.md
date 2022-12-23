@@ -6,7 +6,7 @@ url: /it/net/change-adjustment-values-of-the-shape/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells fornisce[**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) proprietà per apportare modifiche ai punti di regolazione con le forme. Nell'interfaccia utente di Microsoft Excel, le regolazioni vengono visualizzate come nodi romboidali gialli. Per esempio:
+ Aspose.Cells fornisce[**Shape.Geometry.ShapeAdjustValues**](https://reference.aspose.com/cells/net/aspose.cells.drawing/geometry/properties/shapeadjustvalues) proprietà per apportare modifiche ai punti di regolazione con le forme. Nell'interfaccia utente di Excel Microsoft, le regolazioni vengono visualizzate come nodi romboidali gialli. Per esempio:
 
 - Rettangolo arrotondato ha una regolazione per cambiare l'arco
 - Triangolo ha una regolazione per cambiare la posizione del punto

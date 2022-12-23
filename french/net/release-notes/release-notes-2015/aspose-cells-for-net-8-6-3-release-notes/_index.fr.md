@@ -52,11 +52,11 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-43917) - Texte coupé lors de la conversion de la feuille de calcul en HTML
 
-(CELLSNET-43914) - Le texte déborde de la zone lors du rendu de la feuille de calcul au format PDF
+(CELLSNET-43914) - Le texte déborde de la zone lors du rendu de la feuille de calcul en PDF
 
 (CELLSNET-44111) - L'adresse de lien hypertexte contenant des caractères chinois n'est pas correctement convertie
 
-(CELLSNET-44080) - Cells texte légèrement décalé vers la droite lors de la conversion en PDF
+(CELLSNET-44080) - Texte Cells légèrement décalé vers la droite lors de la conversion en PDF
 
 (CELLSNET-44125) - L'enregistrement au format PDF échoue pour un document Excel
 
@@ -74,7 +74,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-44131) - Certaines formules erronées apparaissent en fonction du nombre de lignes insérées
 
-(CELLSNET-44128) - L'enregistrement dans XLSB rompt les formules comme =SUM(Table[Col])
+(CELLSNET-44128) - Enregistrer dans XLSB rompt les formules comme =SUM(Table[Col])
 
 (CELLSNET-44082) - Aspose.Cells affiche des styles masqués lors de l'enregistrement
 
@@ -94,15 +94,15 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-41492) - Énorme quantité de validations
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSNET-44097) - La chaîne d'entrée n'était pas dans un format correct, à Workbook.Save
 
 (CELLSNET-44099) - CalculateFormula génère une exception
 
-(CELLSNET-44127) - L'enregistrement dans un fichier PDF/flux de mémoire provoque une exception
+(CELLSNET-44127) - L'enregistrement dans le flux de fichier/mémoire PDF provoque une exception
 
-(CELLSNET-44085) - System.Exception lors du chargement d'ODS
+(CELLSNET-44085) - System.Exception lors du chargement ODS
 
 (CELLSNET-43720) - Erreur de zone inconnue lors de la combinaison de classeurs avec des tableaux croisés dynamiques
 
@@ -122,7 +122,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-44100) - Un zoom arrière sur la feuille de calcul GridDesktop entraîne une réduction du contenu dans le coin supérieur gauche
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSNET-44107) - Une exception s'est produite lors de l'insertion d'une colonne dans GridDesktop
 

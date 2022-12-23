@@ -12,7 +12,7 @@ Microsoft Excel kullanarak Metninizi Sütunlara dönüştürebilirsiniz. Bu öze
 
  Aşağıdaki örnek kod, kullanımını açıklar[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) yöntem. Kod, önce ilk çalışma sayfasının A sütununa bazı kişilerin adını ekler. Ad ve soyadı boşluk karakteriyle ayrılır. Sonra geçerli[**Worksheet.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns) A sütunundaki yöntemi ve çıktı excel dosyası olarak kaydedin. eğer açarsan[çıktı excel dosyası](25395213.xlsx), göreceksiniz, bu ekran görüntüsünde gösterildiği gibi adlar A sütununda, soyadlar ise B sütunundadır.
 
-![yapılacaklar:resim_alternatif_Metin](convert-text-to-columns-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](convert-text-to-columns-using-aspose-cells_1.png)
 
 ## **Basit kod**
 

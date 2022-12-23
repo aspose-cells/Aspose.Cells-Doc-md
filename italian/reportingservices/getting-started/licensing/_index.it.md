@@ -32,7 +32,7 @@ Il nome del file di licenza può essere uno dei seguenti in base al tipo di abbo
 - Aspose.Cells.Reporting.Services - Multiple Deployment Subscription.lic
 - Aspose.Cells.Reporting.Services - Abbonamento distribuzione server singolo.lic
 
-Per verificare che il file di licenza sia stato installato correttamente, esportare qualsiasi report come cartella di lavoro di Microsoft Excel. Se la cartella di lavoro non contiene alcun foglio di lavoro filigrana alla fine, il file di licenza è stato attivato correttamente.
+Per verificare che il file di licenza sia stato installato correttamente, esportare qualsiasi report come cartella di lavoro Excel Microsoft. Se la cartella di lavoro non contiene alcun foglio di lavoro filigrana alla fine, il file di licenza è stato attivato correttamente.
 
  Aspose.Cells for Reporting Services inietta un foglio di lavoro con filigrana di valutazione quando si lavora in modalità di valutazione. Quando un file di licenza valido, ad esempio quando**Aspose.Cells.ReportingServices.lic** si trova nella cartella $[Cartella di installazione]\License\, non esiste un foglio di lavoro con filigrana di valutazione.
 

@@ -15,14 +15,14 @@ url: /zh/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |CELLSJAVA-43994|支持打断SmarkMarker中WorkbookDesigner.process的执行|
 |CELLSJAVA-44039|从生成的 PDF 修改 PDF Producer 属性|
 |CELLSJAVA-43768|Java 将 XLSX 文件转换为 PDF 时出现堆空间问题|
-|CELLSJAVA-43875|加载 XLSX 文件时出现“无效的 FontUnderlineType 字符串 val”异常|
+|CELLSJAVA-43875|加载 XLSX 文件时出现异常“无效的 FontUnderlineType 字符串 val”|
 |CELLSJAVA-43876|加载 XLSX 文件时出现异常“java.lang.ArrayIndexOutOfBoundsException”|
 |CELLSJAVA-43844|会计数字格式所需的增强功能|
-|CELLSJAVA-43953|渲染特定文本/部分“Cell”和“评论”以在 Excel 到 PDF 转换中翻译成日语|
+|CELLSJAVA-43953|将特定文本/部分“Cell”和“评论”呈现为在 Excel 中翻译成日语到 PDF 转换|
 |CELLSJAVA-43469|可能的回归：FormatConditionCollection.addArea() 的性能下降|
 |CELLSJAVA-43646|文字阴影效果渲染不正确|
 |CELLSJAVA-43760|等腰三角形方向不正确|
-|CELLSJAVA-43786|将 XLS 文件转换为 XLSX 时，有关形状的某些部分无法正确呈现|
+|CELLSJAVA-43786|将 XLS 文件转换为 XLSX 时，有关形状的某些部分未正确呈现|
 |CELLSJAVA-43838|执行XlsToXlsx后自选图形丢失|
 |CELLSJAVA-43839|执行XlsToXlsx后，LeftBracket丢失|
 |CELLSJAVA-43842|执行XlsToXlsx后，LeftBracket的形状和原来的不一样|
@@ -30,35 +30,35 @@ url: /zh/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |CELLSJAVA-43880|将 xls 转换为 xlsx 后文本框的圆角不正确|
 |CELLSJAVA-43867|导出到 html 时条件格式图标不同|
 |CELLSJAVA-43812|excelToHtml：形状位置偏移不正确|
-|CELLSJAVA-43871|Prism 9 OLE 对象未显示在输出 PDF 上|
+|CELLSJAVA-43871|Prism 9 OLE 对象未显示在输出上 PDF|
 |CELLSJAVA-43883|渲染页面的大小不正确|
 |CELLSJAVA-43881|合并文件导致工作表的背景颜色设置丢失|
 |CELLSJAVA-43892|转换为 HTML 的 Excel 边框丢失|
 |CELLSJAVA-43935|保存和加载 XLS 文件时形状文本字体大小问题|
 |CELLSJAVA-43952|临时牌照过期问题|
 |CELLSJAVA-43954|XLSX 到 PDF：图像导致异常“java.lang.OutOfMemoryError：Java 堆空间”|
-|CELLSJAVA-43902|Excel转HTML的部分边框是多余的|
-|CELLSJAVA-43933|只有一个数据导出为 HTML 时，条件格式与 Excel 不同|
+|CELLSJAVA-43902|转换为HTML的Excel部分边框多余|
+|CELLSJAVA-43933|只有一个数据导出到HTML时，条件格式和Excel不一样|
 |CELLSJAVA-43878|Excel 簇条形图数据标签的位置不正确|
 |CELLSJAVA-43895|将 XLS 转换为 XLSX 时，线形和其他图表形状无法正确呈现|
 |CELLSJAVA-43934|操作或更新图表后饼图标签与 Excel 不匹配|
-|CELLSJAVA-43519|包含在隐藏行或列中的合并单元格会产生不均匀的 HTML 表格|
-|CELLSJAVA-43962|excel中的条件格式转成html后效果不一致|
-|CELLSJAVA-43983|回归：将 XLSX 转换为 PDF 时的无限循环|
+|CELLSJAVA-43519|包含在隐藏行或列中的合并单元格产生不均匀的 HTML 表|
+|CELLSJAVA-43962|excel中的条件格式转换为HTML后效果不一致|
+|CELLSJAVA-43983|回归：将 XLSX 转换为 PDF 时无限循环|
 |CELLSJAVA-44029|XLSX 到 PDF：图像未转换|
 |CELLSJAVA-44093|在较新的 Aspose.Cells for Java 版本中呈现为图像时，矩形形状的文本截断问题|
 |CELLSJAVA-44089|DataLabels.setShadow() 不可用且不等于 Series.setShadow() 方法|
-|CELLSJAVA-44000|Cells 同时使用图标集和其他条件格式时，HTML 中的样式不正确|
+|CELLSJAVA-44000|Cells HTML 同时使用图标集和其他条件格式时样式不正确|
 |CELLSJAVA-43932|在输出图像中为爆炸圆环图设置数据标签位置的问题|
-|CELLSJAVA-44094|导出为 PDF 时图表标题被截断|
-|CELLSJAVA-43533|Ubuntu 中的 XLSX 到 Html 创建问题|
+|CELLSJAVA-44094|导出到 PDF 时图表标题被截断|
+|CELLSJAVA-43533|XLSX 到 Ubuntu 中的 Html 创建问题|
 |CELLSJAVA-43987|合并单元格的右边框在html中丢失|
 |CELLSJAVA-44016|将包含图片 URL 的 Excel 文件转换为 HTML 时出现问题|
-|CELLSJAVA-43787|Excel 到 HTML 呈现中的异常“IllegalArgumentException：破折号长度全为零...”|
+|CELLSJAVA-43787|Excel 中的异常“IllegalArgumentException：破折号长度全为零...”到 HTML 渲染|
 |CELLSJAVA-43885|转换 excel 时出现 IllegalArgumentException|
 |CELLSJAVA-43874|仅当应用 Aspose 许可证时，Workbook.save 才会通过 Aspose.Cells 在特定文件上引发异常|
 |CELLSJAVA-43969|具有 COUNTIF 函数和外部引用的名称会产生 NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException：用于将 Excel 文件呈现为 HTML 时的输入字符串|
+|CELLSJAVA-43903|java.lang.NumberFormatException：对于将 Excel 文件呈现为 HTML 时的输入字符串|
 |CELLSJAVA-44071|com.aspose.cells.CellsException：您在调用 Workbook.calculateFormula() 时为函数 IF 输入的参数太少|
 |CELLSJAVA-44104|导入 SpreadSheetML 时出现 NullPointerException|
 

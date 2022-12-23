@@ -14,7 +14,7 @@ description: Signature numérique du fichier Excel, vérification. Pour protége
 
 ## **Introduction**
 
- Utilisez la boîte de dialogue Signature numérique pour joindre une signature numérique. La boîte de dialogue Signature numérique répertorie les certificats valides. Vous pouvez utiliser la boîte de dialogue Signature numérique pour afficher les certificats et sélectionner celui que vous souhaitez utiliser. Si un classeur a une signature numérique, le nom de la signature apparaît dans le**Nom du certificat** champ. Si vous cliquez sur le**Retirer** dans la boîte de dialogue Signature numérique, Microsoft Excel supprime également la signature numérique.
+ Utilisez la boîte de dialogue Signature numérique pour joindre une signature numérique. La boîte de dialogue Signature numérique répertorie les certificats valides. Vous pouvez utiliser la boîte de dialogue Signature numérique pour afficher les certificats et sélectionner celui que vous souhaitez utiliser. Si un classeur a une signature numérique, le nom de la signature apparaît dans le**Nom du certificat** domaine. Si vous cliquez sur le**Supprimer** dans la boîte de dialogue Signature numérique, Microsoft Excel supprime également la signature numérique.
 
 Aspose.Cells fournit le[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)espace de noms pour effectuer le travail (attribuer et valider des signatures numériques). L'espace de noms possède des fonctionnalités utiles pour ajouter et valider des signatures numériques.
 

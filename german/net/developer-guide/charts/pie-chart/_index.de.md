@@ -33,7 +33,7 @@ Schließlich speichert der folgende Code das Diagramm im Bildformat und die Arbe
 - [Benutzerdefinierte Segment- oder Sektorfarben im Kreisdiagramm](/cells/de/net/custom-slice-or-sector-colors-in-pie-chart/)
 - [Finden Sie heraus, ob sich Datenpunkte im zweiten Kreis oder Balken auf einem Kreisdiagramm oder Balkendiagramm befinden](/cells/de/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Erstellen von Diagrammen](/cells/de/net/creating-charts/)
 - [Anpassen von Diagrammen](/cells/de/net/customizing-charts/)

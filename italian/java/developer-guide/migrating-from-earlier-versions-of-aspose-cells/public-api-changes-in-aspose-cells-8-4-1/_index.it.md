@@ -1,21 +1,21 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.4.1
+title: Pubblico API Modifiche Aspose.Cells 8.4.1
 type: docs
 weight: 150
 url: /it/java/public-api-changes-in-aspose-cells-8-4-1/
 ---
 {{% alert color="primary" %}} 
 
- Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/) e[classi rimosse ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+ Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.4.0 alla 8.4.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/) e[classi rimosse ecc.](/cells/it/java/public-api-changes-in-aspose-cells-8-4-1/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Meccanismo per modificare la connessione al database**
-La classe com.aspose.cells.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database archiviati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for Java 8.4.1. Con questa versione, l'API ha fornito il supporto per manipolare anche le impostazioni di connessione al database.
+La classe com.aspose.cells.ExternalConnection conteneva già il metodo e le proprietà che potevano essere utilizzate per ispezionare i dettagli della connessione al database archiviati in un foglio di calcolo. La maggior parte delle proprietà associate alla classe ExternalConnection erano di sola lettura fino al rilascio di Aspose.Cells for Java 8.4.1. Con questa versione, lo API ha fornito il supporto per manipolare anche le impostazioni di connessione al database.
 
 Il frammento di codice seguente mostra come modificare dinamicamente le impostazioni di connessione al database.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -72,7 +72,7 @@ Aspose.Cells for Java 8.4.1 ha esposto il metodo DataLabels.characters per recup
 
 Il frammento di codice seguente mostra come utilizzare il metodo DataLabels.characters.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -115,7 +115,7 @@ Aspose.Cells for Java 8.4.1 ha esposto il metodo ImageOrPrintOptions.setDesiredS
 
 Il seguente frammento di codice mostra come impostare le dimensioni desiderate durante l'esportazione del foglio di lavoro in PNG.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -151,8 +151,8 @@ renderer.toImage(0, "output.png");
 
 {{% /alert %}} 
 
-### **Rendering di commenti in PDF**
- Con il rilascio di v8.4.1, l'API Aspose.Cells ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo in formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti.
+### **Commenti di rendering a PDF**
+ Con il rilascio di v8.4.1, Aspose.Cells API ha fornito la proprietà PageSetup.PrintComments e l'enumerazione PrintCommentsType per facilitare il rendering dei commenti durante la conversione dei fogli di calcolo nel formato PDF. L'enumerazione PrintCommentsType ha le seguenti costanti.
 
 - PrintCommentsType.PRINT_NO_COMMENTI: I commenti non devono essere resi.
 - PrintCommentsType.PRINT_IN_LUOGO: i commenti devono essere resi dove sono inseriti.
@@ -160,7 +160,7 @@ renderer.toImage(0, "output.png");
 
 Il codice di esempio seguente illustra l'utilizzo della proprietà PageSetup.PrintComments per eseguire il rendering dei commenti utilizzando tutti i possibili valori di enumerazione PrintCommentsType.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -203,7 +203,7 @@ Aspose.Cells for Java 8.4.1 ha esposto Workbook.isLicensed che potrebbe essere d
 
 Il codice di esempio seguente illustra l'utilizzo della proprietà Workbook.isLicensed.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -236,11 +236,11 @@ else
 {{< /highlight >}}
 
 ### **Aggiunta proprietà ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells for Java 8.4.1 ha esposto la proprietà SVGFitToViewPort per la classe ImageOrPrintOptions che può essere utilizzata per attivare l'attributo viewBox per il formato file SVG durante l'esportazione di fogli di calcolo o grafici in formato SVG. Il valore predefinito di questa proprietà è false pertanto l'XML di base per il file SVG generato senza impostare la suddetta proprietà non includerà l'attributo viewBox.
+Aspose.Cells for Java 8.4.1 ha esposto la proprietà SVGFitToViewPort per la classe ImageOrPrintOptions che può essere utilizzata per attivare l'attributo viewBox per il formato di file SVG durante l'esportazione di fogli di calcolo o grafici nel formato SVG. Il valore di default di questa proprietà è false pertanto l'XML di base per il file SVG generato senza impostare la suddetta proprietà non includerà l'attributo viewBox.
 
 Il codice di esempio seguente illustra l'utilizzo della proprietà ImageOrPrintOptions.SVGFitToViewPort.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

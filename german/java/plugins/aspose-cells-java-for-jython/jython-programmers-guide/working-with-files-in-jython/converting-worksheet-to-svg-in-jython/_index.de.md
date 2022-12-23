@@ -1,10 +1,10 @@
 ﻿---
-title: Arbeitsblatt in SVG in Jython konvertieren
+title: Konvertieren des Arbeitsblatts in SVG in Jython
 type: docs
 weight: 40
 url: /de/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells – Arbeitsblatt in SVG konvertieren**
+## **Aspose.Cells - Konvertieren des Arbeitsblatts in SVG**
  Zum Anhängen von Dokumenten mit**Aspose.Cells Java für Jython**. Hier sehen Sie Beispielcode.
 
 **Jython-Code**

@@ -10,6 +10,6 @@ url: /ar/net/adding-custom-labels-to-data-points-in-the-series-of-the-chart/
 
 {{% /alert %}}
 
- الكود التالي يخلق**مخطط مبعثر متصل بواسطة خطوط بعلامات البيانات** ثم يضيف**تسميات مخصصة** الى**نقاط البيانات** في ال**سلسلة** التابع**جدول**. يعرض كل تصنيف مخصص ملف**اسم المسلسل** و**اسم النقطة**. يمكنك استخدام أي نص آخر بدلاً منه.
+ الكود التالي يخلق**مخطط مبعثر متصل بواسطة خطوط بعلامات البيانات** ثم يضيف**تسميات مخصصة** الى**نقاط البيانات** في ال**مسلسل** التابع**جدول**. يعرض كل تصنيف مخصص ملف**اسم المسلسل** و**اسم النقطة**. يمكنك استخدام أي نص آخر بدلاً منه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-AddCustomLabelsToDataPoints-AddCustomLabelsToDataPointsInTheSeriesOfChart.cs" >}}

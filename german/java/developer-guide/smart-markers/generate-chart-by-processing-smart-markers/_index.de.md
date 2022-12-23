@@ -18,7 +18,7 @@ Eine Designer-Tabelle ist eine einfache Excel-Datei, die mit der Excel-Anwendung
 
 {{% alert color="primary" %}} 
 
- Detaillierte Informationen zu Smart Markern sind verfügbar[hier](/cells/de/java/smart-markers/).
+ Detaillierte Informationen zu Smart Markern sind verfügbar[Hier](/cells/de/java/smart-markers/).
 
 {{% /alert %}} 
 

@@ -28,9 +28,9 @@ url: /zh/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47875|MS Excel 需要在通过 Aspose.Cells 重新保存后修复文件|漏洞|
 |CELLSNET-47829|实现循环引用和迭代时公式计算结果不同|漏洞|
 |CELLSNET-47865|Aspose.Cells 日文格式的日期显示不正确|漏洞|
-|CELLSNET-47872|Aspose.Cells 打开重新保存的 XLTM 文件时 MS Excel 提示错误信息|漏洞|
+|CELLSNET-47872|MS Excel打开Aspose.Cells重新保存的XLTM文件时提示错误信息|漏洞|
 |CELLSNET-47897|加载到 ASP.NET 应用程序时列表项选择不起作用|漏洞|
-|CELLSNET-47862|导出为 PDF 时，Excel 会计下划线被截断|漏洞|
+|CELLSNET-47862|导出到 PDF 时，Excel 会计下划线被截断|漏洞|
 |CELLSNET-47881|将 XML 文件导入/映射到工作簿时列宽小于预期|漏洞|
 |CELLSNET-47804|图表图例文本显示不正确|漏洞|
 |CELLSNET-47834|图表中的 Chart.Calculate() 更改图表格式|漏洞|
@@ -46,7 +46,7 @@ url: /zh/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47913|Shape.UpdateSelectedValue() 导致不正确的形状更新|漏洞|
 |CELLSNET-47866|加载 Html 时出现异常|例外|
 |CELLSNET-47882|将 html 导入 excel 文件时出现异常|例外|
-|CELLSNET-47863|将 HTML 标记添加到单元格引发 System.FormatException|例外|
+|CELLSNET-47863|将 HTML 标记添加到单元格会引发 System.FormatException|例外|
 |CELLSNET-47868|打开 Office 2000 XLS 文件时出现无效的结束行索引异常|例外|
 |CELLSNET-47869|Cells 工作簿加载失败异常|例外|
 |CELLSNET-47870|加载 XLS 文件时出现异常|例外|

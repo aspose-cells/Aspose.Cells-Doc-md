@@ -30,9 +30,9 @@ url: /ar/reportingservices/getting-started/
 - [تنسيقات الملفات المدعومة](/cells/ar/reportingservices/supported-file-formats/)
 - [دعم العلامات المركبة](/cells/ar/reportingservices/composite-markers/)
 - [دعم التوقيعات الرقمية](/cells/ar/reportingservices/support-for-digital-signatures/)
-- [المزيد من الميزات](/cells/ar/reportingservices/features/).
+- [المزيد من المزايا](/cells/ar/reportingservices/features/).
 
-**يتضمن هذا القسم الموضوعات الأخرى التالية:**
+**يتضمن هذا القسم المواضيع الأخرى التالية:**
 
 - [نظرة عامة على المنتج](/cells/ar/reportingservices/product-overview/)
 - [أنواع الإصدارات](/cells/ar/reportingservices/edition-types/)

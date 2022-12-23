@@ -17,35 +17,35 @@ url: /es/net/aspose-cells-for-net-18-8-release-notes/
 |CELLSNET-46123|Admite fórmulas de análisis de registros de revisión en matriz binaria|Nueva caracteristica|
 |CELLSNET-46220|Establezca la opción ContentCopyForAccessibility al convertir la hoja de cálculo al formato de archivo PDF|Nueva caracteristica|
 |CELLSNET-43560|Cifrar un archivo ODS|Nueva caracteristica|
-|CELLSNET-43556|Abrir archivo ODS cifrado|Nueva caracteristica|
-|CELLSNET-46209|Admite lectura y escritura de archivos DConn de XLS|Nueva caracteristica|
+|CELLSNET-43556|Abrir archivo cifrado ODS|Nueva caracteristica|
+|CELLSNET-46209|Admite lectura y escritura de DConn del archivo XLS|Nueva caracteristica|
 |CELLSNET-43326|Agregue sobrecargas a CopyRows y CopyColumns con opciones de Pegado especial|Nueva caracteristica|
 |CELLSNET-41637|Recuperar la configuración de subtotalización|Nueva caracteristica|
 |CELLSNET-46252|Argumento para omitir fila/filas como encabezados de datos en el rango de exportación a la tabla de datos|Mejora|
 |CELLSNET-46226|Las anotaciones de tinta se convierten en imágenes regulares después de la conversión|Mejora|
 |CELLSNET-41693|Se incluye la mejora de las columnas de ajuste automático|Mejora|
-|CELLSNET-46263|La aplicación se cuelga al convertir XLS a PDF|Actuación|
-|CELLSNET-46262|Cell el fondo es incorrecto cuando la orientación del texto de la celda está inclinada en el PDF de salida|Insecto|
-|CELLSNET-44761|El texto de una forma no se ha representado correctamente en PDF|Insecto|
-|CELLSNET-43916|Falta la sombra de la forma al convertir la hoja de cálculo a HTML|Insecto|
+|CELLSNET-46263|La aplicación se cuelga al convertir XLS a PDF|Rendimiento|
+|CELLSNET-46262|Cell el fondo es incorrecto cuando la orientación del texto de la celda está inclinada en la salida PDF|Insecto|
+|CELLSNET-44761|El texto en una forma no se ha representado correctamente en PDF|Insecto|
+|CELLSNET-43916|Falta la sombra de forma al convertir la hoja de cálculo a HTML|Insecto|
 |CELLSNET-46251|La aplicación se cuelga al convertir XLSX a HTML|Insecto|
-|CELLSNET-46241|Problema con multilíneas en HTML|Insecto|
-|CELLSNET-46219|No se sigue el ancho de la etiqueta HTML al convertir HTML a XLSX|Insecto|
+|CELLSNET-46241|Problema con multilineas en HTML|Insecto|
+|CELLSNET-46219|El ancho de la etiqueta HTML no se sigue al convertir HTML a XLSX|Insecto|
 |CELLSNET-46280|Excepción generada al importar datos a un archivo de Excel con SmartMarkers|Insecto|
 |CELLSNET-46267|Problema con el filtrado de datos en las filas superiores|Insecto|
 |CELLSNET-46264|La propiedad R1C1Formula ha cambiado su comportamiento|Insecto|
 |CELLSNET-46258|Problema al calcular la fórmula de matriz VLOOKUP inversa|Insecto|
 |CELLSNET-46197|Problema de validación de datos: si insertar un valor incorrecto y hacer clic en otra celda no restaura automáticamente la celda de validación a su valor anterior|Insecto|
 |CELLSNET-46276|Conversión de Excel a PDF: se agrega una página vacía|Insecto|
-|CELLSNET-46275|PDF grande creado a partir de XLS|Insecto|
+|CELLSNET-46275|Grande PDF creado a partir de XLS|Insecto|
 |CELLSNET-46259|Convertir Excel a PDF agrega línea recta|Insecto|
-|CELLSNET-46255|Problema con el número de página (en el pie de página) en la representación de Excel a PDF|Insecto|
-|CELLSNET-46238|La carga del archivo ODS cifrado falló|Insecto|
-|CELLSNET-46231|El texto de las celdas de la columna A no se representa correctamente en el PDF de salida|Insecto|
-|CELLSNET-46165|Aspose.Cells deja de responder cuando intenta convertir un archivo de Excel a formato de archivo PDF|Insecto|
+|CELLSNET-46255|Problema con el número de página (en el pie de página) en Excel para la representación PDF|Insecto|
+|CELLSNET-46238|Error al cargar el archivo ODS cifrado|Insecto|
+|CELLSNET-46231|El texto en las celdas de la columna A no se representa correctamente en la salida PDF|Insecto|
+|CELLSNET-46165|Aspose.Cells deja de responder cuando intenta convertir un archivo de Excel al formato de archivo PDF|Insecto|
 |CELLSNET-46236|Archivo de MS Excel dañado después de la anonimización|Insecto|
 |CELLSNET-45192|El archivo XLS guardado se muestra en la vista de protección|Insecto|
-|CELLSNET-46235|La imagen no se puede mostrar al guardar en formato XLS|Insecto|
+|CELLSNET-46235|La imagen no se puede mostrar cuando se guarda en formato XLS|Insecto|
 |CELLSNET-46225|Manejo de retorno de carro entre comillas dobles|Insecto|
 |CELLSNET-46218|Después de ejecutar AutoFitColumns, las palabras de la columna aún no se representan por completo|Insecto|
 |CELLSNET-46139|Workbook.DataConnections no muestra la información de conexión del archivo XLS|Insecto|
@@ -53,10 +53,10 @@ url: /es/net/aspose-cells-for-net-18-8-release-notes/
 |CELLSNET-45377|Conexiones de datos no encontradas en el documento XLS|Insecto|
 |CELLSNET-44487|La conexión de datos se pierde al convertir XLT a XLSM|Insecto|
 |CELLSNET-44486|La conexión de datos se pierde al convertir XLS a XLSM|Insecto|
-|CELLSNET-43563|Los gráficos se pierden cuando XLSX se convierte a ODS|Insecto|
+|CELLSNET-43563|Los gráficos se pierden cuando XLSX se convierte en ODS|Insecto|
 |CELLSNET-41002|La ecuación desaparece durante la conversión de formato (XLSX -> XLS)|Insecto|
 |CELLSNET-46277|Excepción al calcular fórmulas|Excepción|
-|CELLSNET-46249|Se lanza una excepción al leer un archivo HTML|Excepción|
+|CELLSNET-46249|Se lanza una excepción al leer el archivo HTML|Excepción|
 |CELLSNET-46246|La excepción se lanza al agregar la firma digital en el servidor de la plataforma en la nube de GroupDocs|Excepción|
 |CELLSNET-46232|Excepción de nombre de celda no válido al cargar el archivo XLSX|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**

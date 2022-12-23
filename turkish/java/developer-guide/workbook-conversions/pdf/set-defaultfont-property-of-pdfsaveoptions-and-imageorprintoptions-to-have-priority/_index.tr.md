@@ -6,7 +6,7 @@ url: /tr/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions
 ---
 ## **Olası Kullanım Senaryoları**
 
- ayarlarken**Varsayılan yazı tipi** mülkiyet[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) PDF veya görüntüye kaydetmenin bunu ayarlamasını bekleyebilirsiniz.**Varsayılan yazı tipi** çalışma kitabındaki yazı tipi eksik (yüklenmemiş) olan tüm metne.
+ ayarlarken**Varsayılan yazı tipi** mülkiyet[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions) ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions) , PDF'e kaydetmeyi bekleyebilirsiniz veya görüntü,**Varsayılan yazı tipi** çalışma kitabındaki yazı tipi eksik (yüklenmemiş) olan tüm metne.
 
  Genel olarak, PDF veya görüntüye kaydederken, Aspose.Cells önce Çalışma Kitabının varsayılan yazı tipini (örn.[**Workbook.DefaultStyle.Font**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Font) ). Çalışma kitabının varsayılan yazı tipi hala metni düzgün bir şekilde gösteremiyor/işleyemiyorsa, Aspose.Cells belirtilen yazı tipiyle oluşturmaya çalışacaktır.**Varsayılan yazı tipi** öznitelik[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions).
 
@@ -14,7 +14,7 @@ Beklentilerinizle başa çıkmak için, " adında bir Boolean özelliğimiz var.
 
 ## **PdfSaveOptions/ImageOrPrintOptions'ın DefaultFont özelliğini ayarlayın**
 
-Aşağıdaki örnek kod bir Excel dosyasını açar. A1 hücresinde (ilk çalışma sayfasında) "Noel Saati Yazı Tipi metni" olarak ayarlanmış bir metin bulunur. Yazı tipi adı, makinede yüklü olmayan "Noel Zamanı Kişisel Kullanımı" şeklindedir. Ayarladık**Varsayılan yazı tipi**özniteliği[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)"Times New Roman"a. biz de ayarladık**CheckWorkbookDefaultFont**Boole özelliği "**yanlış**A1 hücresinin metninin "Times New Roman" yazı tipiyle işlenmesini ve çalışma kitabının varsayılan yazı tipini (bu durumda "Calibri") kullanmamasını sağlar. Kod, ilk çalışma sayfasını PNG ve TIFF resim formatlarına dönüştürür. Sonunda PDF dosya biçimine dönüştürülür.
+Aşağıdaki örnek kod bir Excel dosyasını açar. A1 hücresinde (ilk çalışma sayfasında) "Noel Saati Yazı Tipi metni" olarak ayarlanmış bir metin bulunur. Yazı tipi adı, makinede yüklü olmayan "Noel Zamanı Kişisel Kullanımı" şeklindedir. Ayarladık**Varsayılan yazı tipi**özniteliği[**PdfKaydetmeSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions)/[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)"Times New Roman"a. biz de ayarladık**CheckWorkbookDefaultFont**Boole özelliği "**YANLIŞ**" Bu, A1 hücresinin metninin "Times New Roman" yazı tipiyle işlenmesini ve çalışma kitabının varsayılan yazı tipini (bu durumda "Calibri") kullanmamasını sağlar. Kod, ilk çalışma sayfasını PNG ve TIFF görüntü biçimlerine dönüştürür. Sonunda PDF dosya biçimine dönüşür.
 
 {{% alert color="primary" %}}
 
@@ -24,11 +24,11 @@ Aşağıdaki örnek kod bir Excel dosyasını açar. A1 hücresinde (ilk çalı�
 
 Bu, ekran görüntüsü[şablon dosyası](49446914.xlsx)örnek kodda kullanılmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
+![yapılacaklar:resim_alternatif_metin](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_1.png)
 
-Bu, ayarlandıktan sonra çıkan PNG görüntüsüdür.[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)"Times New Roman" özelliği.
+Bu, ayarlandıktan sonra PNG çıktı görüntüsüdür.[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)"Times New Roman" özelliği.
 
-![yapılacaklar:resim_alternatif_Metin](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
+![yapılacaklar:resim_alternatif_metin](set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority_2.png)
 
 çıktıya bakın[TIFF](out1_imageTIFF.tiff)ayarladıktan sonra görüntü[**ImageOrPrintOptions.DefaultFont**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont)"Times New Roman" özelliği.
 

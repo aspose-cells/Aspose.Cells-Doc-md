@@ -39,12 +39,12 @@ url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 - Hur man skapar anpassade markörer
 - Underdiagram är inte tillgängliga
 
- -Autoformer i HTML-utdata
+ -AutoShapes i HTML Utgång
 
 - DataBars - Villkorlig formatering i pivottabell
 - Förlorar webbfrågor i MS Excel 2007-format
 - Hantera externa dataintervall och deras egenskaper
-- MS Excels XLSB-filstorleksproblem
+- MS Excels XLSB filstorleksproblem
 
 
 
@@ -54,7 +54,7 @@ url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 - Letar efter en lösning på Aspose.Cells
 - Undantag: "Index var utanför intervallet"
 - Loadingworkbook-kast: 'Inmatningssträngen var inte i rätt format'
-- Form till bild Fel i Excel till PDF-funktion
+- Form till bild Fel i Excel till PDF-funktionen
 
 
 
@@ -89,15 +89,15 @@ url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 
 - Spara som HTML visar dold kolumn i utdata
 - Att spara rensar formateringen
-- Grafik i HTML-utdata
-- HTML-formateringsproblem (avseende extra ramar)
+- Grafik i HTML utgång
+- HTML formateringsproblem (avseende extra ramar)
 
- -SheetRenders XPS och anpassade nummerformat problem
+ -SheetRenders problem med XPS och anpassat nummerformat
 
- -Spara som PDF bevarar inte formateringen
+ -Spara som PDF bevarar inte formatering
 
 - Problem med XLSX-formatering i Excel och PDF-utgångar
-- Excels pivottabell som renderats till PDF är inte korrekt
+- Excels pivottabell renderad till PDF är inte korrekt
 - Anpassade teckensnitt i PDF
 - Cells problem med vertikal justering
 - Text saknas längst till höger
@@ -105,7 +105,7 @@ url: /sv/net/aspose-cells-for-net-7-3-1-release-notes/
 - Problem med formatering i totalraden i pivottabellen
 - Office för Mac-Os 2k11 kraschar efter att en Excel-fil har öppnats
 
- -Varför misslyckas den här koden?
+-Varför misslyckas den här koden?
 
 - Pivottabellens beräknade fält ändras
 - Problem med att spara arbetsbok med beräknade medlemmar

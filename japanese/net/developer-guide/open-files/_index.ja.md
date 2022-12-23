@@ -34,6 +34,6 @@ Aspose.Cells を使用すると、Excel ファイルを簡単に開き、保存�
 - [異なる Microsoft Excel バージョンのファイルを開く](/cells/ja/net/opening-different-microsoft-excel-versions-files/)
 - [異なる形式のファイルを開く](/cells/ja/net/opening-files-with-different-formats/)
 - [大規模なデータセットを含む大きなファイルを操作する際のメモリ使用量の最適化](/cells/ja/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Aspose.Cells を使用して Apple Inc. が開発した数値スプレッドシートを読む](/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発](/cells/ja/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します](/cells/ja/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells の使用 API](/cells/ja/net/using-lightcells-api/)

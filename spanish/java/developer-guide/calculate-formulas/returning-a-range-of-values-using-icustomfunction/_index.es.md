@@ -6,7 +6,7 @@ url: /es/java/returning-a-range-of-values-using-icustomfunction/
 ---
 {{% alert color="primary" %}}
 
- los[**IFunciónPersonalizada**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) está en desuso desde el lanzamiento de Aspose.Cells for Java 20.8. Por favor use el[**ResumenCálculoMotor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) clase. el uso de la[**ResumenCálculoMotor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) La clase se describe en el siguiente artículo.
+ Él[**IFunciónPersonalizada**](https://reference.aspose.com/cells/java/com.aspose.cells/ICustomFunction) está en desuso desde el lanzamiento de Aspose.Cells for Java 20.8. Por favor use el[**ResumenCálculoMotor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) clase. el uso de la[**ResumenCálculoMotor**](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) La clase se describe en el siguiente artículo.
 
 [Devolver un rango de valores usando AbstractCalculationEngine](/cells/es/java/returning-a-range-of-values-using-abstractcalculationengine/).
 

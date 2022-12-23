@@ -10,21 +10,21 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.12.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42745|N'obtient pas de points de connexion car son type renvoyé est 'zo[]'|Nouvelle fonctionnalité|
-|CELLSJAVA-42662|Fournir la possibilité d'exporter la plage au format HTML|Nouvelle fonctionnalité|
+|CELLSJAVA-42662|Fournir la possibilité d'exporter la gamme en tant que HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42746|Les barres de données sont manquantes lorsque XLSX est converti en HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42747|La valeur existe toujours lorsque XLSX est converti au format de fichier HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42748|LightCells API ne parvient pas à charger un fichier volumineux|Renforcement|
 |CELLSJAVA-42727|La mise en forme du texte est manquante dans la sortie HTML de la plage MS Excel|Punaise|
 |CELLSJAVA-42744|Les jeux d'icônes deviennent désalignés lorsque XLSX est converti en HTML|Punaise|
-|CELLSJAVA-42772|L'exportation des données de la plage nommée n'est pas correctement rendue au format HTML (Java)|Punaise|
+|CELLSJAVA-42772|L'exportation des données de la plage nommée n'est pas correctement rendue à HTML (Java)|Punaise|
 |CELLSJAVA-42753|Un problème trouvé dans la plage nommée|Punaise|
 |CELLSJAVA-42764|La validation renvoie toujours true pour la méthode 'getInCellDropDown()'|Punaise|
 |CELLSJAVA-42768|Un format personnalisé de culture incorrect est renvoyé pour différents paramètres régionaux (Allemagne, France, Italie et Espagne)|Punaise|
 |CELLSJAVA-42758|Conversion Excel en PDF - Problème de rendu du graphique de jauge|Punaise|
-|CELLSJAVA-42761|Le rendu PDF lève l'exception OutOfMemoryError|Punaise|
+|CELLSJAVA-42761|PDF le rendu lève l'exception OutOfMemoryError|Punaise|
 |CELLSJAVA-42759|CellsException lors de la conversion de fichiers|Exception|
 |CELLSJAVA-42755|Exception "NullPointerException" lors de l'instanciation du ou des fichiers XLSX|Exception|
 |CELLSJAVA-42762|NumberFormatException lors du traitement des fichiers|Exception|
@@ -54,7 +54,7 @@ Utilisez plutôt la propriété FindOptions.SearchBackward, la valeur true de ce
 ### **Supprime les méthodes obsolètes Cells.FindString, FindStringStartsWith, FindStringEndsWith, FindStringContains et FindNumber**
 Utilisez plutôt la méthode Cells.Find (object,Cell,FindOptions). Pour obtenir les mêmes résultats avec les méthodes FindNumber, FindString, veuillez définir FindOptions.ValueTypeSensitive sur true.
 ### **Supprime la méthode obsolète Cells.ImportGridView(System.Web.UI.WebControls.GridView,int ,int , bool ,bool ,bool )**
-Utilisez la méthode Cells.ImportGridView (System.Web.UI.WebControls.GridView gridView,int firstRow,int firstColumn,ImportTableOptions options). Au lieu.
+Utilisez la méthode Cells.ImportGridView (System.Web.UI.WebControls.GridView gridView,int firstRow,int firstColumn,ImportTableOptions options). au lieu.
 ### **Supprime la propriété obsolète Cells.Start**
 Utilisez plutôt la propriété Cells.FirstCell.
 ### **Supprime la propriété obsolète Cells.End**
@@ -65,7 +65,7 @@ Utilisez la méthode Cells.GetEnumerator() pour itérer toutes les cellules de c
 Utilisez plutôt la méthode Cells.ImportData (DataTable,int,int,ImportTableOptions).
 ### **Supprime les méthodes Cells.ImportDataReader() obsolètes**
 Utilisez plutôt la méthode Cells.ImportData (IDataReader, int, int,ImportTableOptions).
-### **Supprime la propriété Shape.Rotation obsolète**
+### **Supprime la propriété obsolète Shape.Rotation**
 Utilisez plutôt la propriété Shape.RotationAngle.
 ### **Supprime la propriété Validation.AreaList obsolète**
 Utilisez plutôt la propriété Validation.Areas.

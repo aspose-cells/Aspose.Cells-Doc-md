@@ -299,7 +299,7 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Konvertera diagram till flersidig TIFF**
+## **Konvertera diagram till MultiPage TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -371,6 +371,6 @@ options.OnePagePerSheet = true;
 chart.ToImage(MyDir + "Chart to Tiff Image.tiff", options);
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesOpenXMLExcelv1.1)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Converting%20Chart%20to%20Image%20%28Aspose.Cells%29.zip)

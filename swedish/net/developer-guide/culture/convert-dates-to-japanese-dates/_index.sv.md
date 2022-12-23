@@ -12,7 +12,7 @@ I den japanska** **kalendern börjar en ny era med en ny kejsares regeringstid. 
 
 
 
- Aspose.Cells ger ett sätt att konvertera gregorianska datum till japanska datum. Under denna omvandling beaktas också förändringarna i eran. Följande kodavsnitt konverterar[käll Excel](90112015.xlsx) fil som innehåller gregorianska datum till[mata ut PDF](90112016.pdf) med japanska datum som visas i bilden nedan.
+ Aspose.Cells ger ett sätt att konvertera gregorianska datum till japanska datum. Under denna omvandling beaktas också förändringarna i eran. Följande kodavsnitt konverterar[käll Excel](90112015.xlsx) fil som innehåller gregorianska datum till[utgång PDF](90112016.pdf) med japanska datum som visas i bilden nedan.
 
 ![todo:image_alt_text](convert-dates-to-japanese-dates_1.jpg)
 

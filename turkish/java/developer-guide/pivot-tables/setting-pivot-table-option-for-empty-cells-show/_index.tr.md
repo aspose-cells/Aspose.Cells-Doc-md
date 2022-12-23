@@ -15,7 +15,7 @@ Microsoft Excel'de bu seçeneği bulmak ve ayarlamak için:
 1.  seçin**Düzen ve Biçim** sekme.
 1.  seçin**Boş hücreler için göster** seçeneği ve bir dize belirtin.
 
-![yapılacaklar:resim_alternatif_Metin](setting-pivot-table-option-for-empty-cells-show_1.png)
+![yapılacaklar:resim_alternatif_metin](setting-pivot-table-option-for-empty-cells-show_1.png)
 
 {{% /alert %}}
 

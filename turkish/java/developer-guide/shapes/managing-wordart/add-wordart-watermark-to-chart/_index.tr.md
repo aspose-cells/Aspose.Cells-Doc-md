@@ -20,11 +20,11 @@ Aşağıdaki örnek, mevcut bir grafiğin çizim alanı için bir WordArt şekli
 
 **giriş dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](add-wordart-watermark-to-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](add-wordart-watermark-to-chart_1.png)
 
 **çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](add-wordart-watermark-to-chart_2.png)
+![yapılacaklar:resim_alternatif_metin](add-wordart-watermark-to-chart_2.png)
 
 ### Grafiklere WordArt Filigranı eklemek için Java kodu
 

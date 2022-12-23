@@ -12,5 +12,5 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-19-3-release-note
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSRS-544|Aspose.Cells for Reporting Services は、XPS 形式のエクスポートをサポートしています。|新機能|
+|CELLSRS-544|Aspose.Cells for Reporting Services は、XPS 形式のエクスポートをサポートします。|新機能|
 

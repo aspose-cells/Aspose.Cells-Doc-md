@@ -77,7 +77,7 @@ So fügen Sie einen Bild-Hyperlink hinzu:
 
 {{% alert color="primary" %}} 
 
- Das Festlegen des AltText des Bild-Hyperlinks erfüllt eine ähnliche Funktion wie das Festlegen von an<ALT> -Tag im HTML-Format. Der Text wird nur angezeigt, wenn das verlinkte Bild nicht angezeigt wird. (Beispielsweise, wenn sich das Bild nicht an der angegebenen Position befindet.) Wenn das Bild des zweiten Hyperlinks nicht gefunden wird, würde die Ausgabe des folgenden Codeausschnitts wie folgt aussehen.
+ Das Festlegen des AltText des Bild-Hyperlinks erfüllt eine ähnliche Funktion wie das Festlegen von an<ALT> Tag in HTML. Der Text wird nur angezeigt, wenn das verlinkte Bild nicht angezeigt wird. (Beispielsweise, wenn sich das Bild nicht an der angegebenen Position befindet.) Wenn das Bild des zweiten Hyperlinks nicht gefunden wird, würde die Ausgabe des folgenden Codeausschnitts wie folgt aussehen.
 
 **Das Bild für die Bild-URL konnte nicht gefunden werden** 
 
@@ -111,7 +111,7 @@ So fügen Sie einen Zellbefehl-Hyperlink hinzu:
 ##### **Ereignisbehandlung von Cell-Befehls-Hyperlinks**
 Entwickler müssen einen Ereignishandler für das CellCommand-Ereignis des GridWeb-Steuerelements erstellen, um bestimmte Aufgaben auszuführen, wenn auf einen bestimmten Zellenbefehls-Hyperlink geklickt wird. Die Ereignisbehandlungsroutine des CellCommand-Ereignisses stellt ein Objekt vom Typ CellEventArgs bereit, das die Argument-Eigenschaft bereitstellt. Verwenden Sie die Argument-Eigenschaft, um einen bestimmten Hyperlink zu identifizieren, indem Sie seinen CellCommand-Wert vergleichen.
 
-Das folgende Beispiel erstellt einen Ereignishandler für den im obigen Code erstellten Zellenbefehls-Hyperlink. Der CellCommand des Hyperlinks wurde auf Click festgelegt. Überprüfen Sie es also im Ereignishandler zuerst und fügen Sie dann Code hinzu, der eine Nachricht in der A6-Zelle anzeigt.
+Das folgende Beispiel erstellt einen Ereignishandler für den im obigen Code erstellten Zellenbefehls-Hyperlink. Der CellCommand des Hyperlinks wurde auf Click gesetzt. Überprüfen Sie es also im Ereignishandler zuerst und fügen Sie dann Code hinzu, der eine Nachricht in der A6-Zelle anzeigt.
 
 Der Ereignishandler wird aufgerufen, wenn auf den Hyperlink geklickt wird.
 

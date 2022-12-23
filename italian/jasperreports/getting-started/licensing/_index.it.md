@@ -31,7 +31,7 @@ Questo metodo è applicabile per l'utilizzo con JasperReports.
 
 {{% /alert %}}
 
-Scarica la licenza sul tuo computer e copiala nella cartella appropriata (ad esempio la cartella della tua applicazione o**JasperReports\lib**).
+ Scarica la licenza sul tuo computer e copiala nella cartella appropriata (ad esempio la cartella della tua applicazione o**JasperReports\lib**).
 Aggiungi il seguente codice al tuo progetto:
 
 {{< highlight "csharp" >}}
@@ -58,7 +58,7 @@ Questo metodo è applicabile per l'utilizzo con JasperServer.
 
 {{% /alert %}}
 
-1.  Scarica la licenza sul tuo computer e copiala sul file**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF** cartella, dove**\<DirInstall>** sta per la directory di installazione di JasperServer.
+1.  Scarica la licenza sul tuo computer e copiala sul file**\<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF**cartella, dove**\<DirInstall>** sta per la directory di installazione di JasperServer.
 1.  Individua il**\<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file e aggiungere le seguenti righe:
 
 **XML**
@@ -75,7 +75,7 @@ Questo metodo è applicabile per l'utilizzo con JasperServer.
 
 ## **Verifica che la licenza funzioni**
 
-Esporta qualsiasi rapporto in formato XLS e controlla se il rapporto contiene un messaggio di valutazione. Se non viene visualizzato alcun messaggio di valutazione, la licenza funziona correttamente.
+Esporta qualsiasi report nel formato XLS e controlla se il report contiene un messaggio di valutazione. Se non viene visualizzato alcun messaggio di valutazione, la licenza funziona correttamente.
 
 **Aspose.Cells for JasperReports inserisce un foglio di lavoro di valutazione in modalità valutazione** 
 

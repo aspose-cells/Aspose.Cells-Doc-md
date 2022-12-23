@@ -12,7 +12,7 @@ url: /sv/java/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **Kontrollera om VBA-projekt i en arbetsbok är signerat**
 
- Följande kod laddar arbetsboken och kontrollerar om dess VBA-projekt är signerat med[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)fast egendom. Fastigheten kommer tillbaka**Sann** om projektet signeras annars kommer det tillbaka**falsk**.
+ Följande kod laddar arbetsboken och kontrollerar om dess VBA-projekt är signerat med[**Workbook.getVbaProject().isSigned()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) fast egendom. Fastigheten kommer tillbaka**Sann** om projektet signeras annars kommer det tillbaka**falsk**.
 
 ## Exempelkod
 

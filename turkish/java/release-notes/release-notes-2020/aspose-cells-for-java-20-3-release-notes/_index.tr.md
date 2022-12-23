@@ -15,21 +15,21 @@ url: /tr/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43137|Light Cells API: sayfaları belirli bir sırayla işleme|Yeni özellik|
 |CELLSJAVA-43135|ActiveXControl'ü Resim şeklinden kaldırın|Yeni özellik|
 |CELLSJAVA-43141|ThreadedComment.CreatedTime özelliği ekleyin|Yeni özellik|
-|CELLSJAVA-42068|Çalışma kitabı HTML'ye dönüştürüldüğünde çalışma sayfasındaki GIF yanlıştır|Böcek|
+|CELLSJAVA-42068|Çalışma kitabı HTML'e dönüştürüldüğünde çalışma sayfasındaki GIF yanlış|Böcek|
 |CELLSJAVA-43127|Dosya ilk açıldığında Excel Pivot Tablosu otomatik olarak yenilenmez|Böcek|
-|CELLSJAVA-43129|Çince metin HTML'den XLS'ye dönüştürmede bozuk|Böcek|
+|CELLSJAVA-43129|HTML - XLS dönüştürmede Çince metin bozuk|Böcek|
 |CELLSJAVA-43139|Çalışma sayfası görüntüye dönüştürülürken sayfadaki grafikler yenilenmiyor|Böcek|
 |CELLSJAVA-43148|Grafik etiketi konum hatası|Böcek|
-|CELLSJAVA-43124|PDF'ye dönüştürüldüğünde tablodan iki sütun kesilir|Böcek|
+|CELLSJAVA-43124|PDF'e dönüştürüldüğünde tablodan iki sütun kesilir|Böcek|
 |CELLSJAVA-43091|Donut grafiğindeki veri etiketleri PDF dosyasında çakışıyor|Böcek|
 |CELLSJAVA-43132|Grafiği resme aktarırken bazı çizelgelerde veri etiketleri eksik|Böcek|
 |CELLSJAVA-43143|WorkbookDesigner.process'ten sonra, HTML'de Grafik çıktısı boş|Böcek|
 |CELLSJAVA-43098|Katıştırılmış nesneyi bir resimle değiştirmek, XLS dosya biçimi için çalışmıyor|Böcek|
-|CELLSJAVA-43122|Office365 XLSX dosya biçimine içe aktardıktan sonra Zincirli yorumların sırası ile ilgili bir sorun|Böcek|
-|CELLSJAVA-43134|Apple Numbers'09'da bir hücrenin dize değeri boş|Böcek|
+|CELLSJAVA-43122|Office365 XLSX dosya biçimine içe aktarıldıktan sonra Zincirli yorumların sırası ile ilgili bir sorun|Böcek|
+|CELLSJAVA-43134|Bir hücrenin dize değeri Apple'da boş Numbers'09|Böcek|
 |CELLSJAVA-43144|IsItalic özelliği MS Excel'den farklı algılandı (Java)|Böcek|
 |CELLSJAVA-43140|HesaplamaFormula() çağrılırken IllegalArgumentException|İstisna|
-|CELLSJAVA-43110|PDF'ye dönüştürme - java.lang.NullPointerException|İstisna|
+|CELLSJAVA-43110|PDF'e dönüştürme - java.lang.NullPointerException|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **LoadFilter.SheetsInLoadingOrder özelliğini ekleyin**

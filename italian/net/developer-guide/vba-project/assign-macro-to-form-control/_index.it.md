@@ -10,7 +10,7 @@ url: /it/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Il seguente codice di esempio crea una nuova cartella di lavoro, assegna un codice macro a un pulsante modulo e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel, vedrai il seguente codice macro.
+Il codice di esempio seguente crea una nuova cartella di lavoro, assegna un codice macro a un pulsante modulo e salva l'output nel formato XLSM. Una volta, aprirai il file di output XLSM in Microsoft Excel vedrai il seguente codice macro.
 
 {{< highlight "java" >}}
 
@@ -24,6 +24,6 @@ End Sub
 
 ## **Assegna macro al controllo del modulo in C#**
 
-Ecco il codice di esempio per generare il file XLSM di output con il codice macro.
+Ecco il codice di esempio per generare il file di output XLSM con il codice macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

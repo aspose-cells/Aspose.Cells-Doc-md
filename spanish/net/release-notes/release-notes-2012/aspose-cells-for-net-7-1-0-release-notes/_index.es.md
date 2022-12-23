@@ -16,7 +16,7 @@ url: /es/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Nuevo
-Características
+ Características
 
 - Soporte para aplicar formato condicional a tablas dinámicas
 - Leer configuración de campos de grupo en tablas dinámicas
@@ -34,13 +34,13 @@ Características
 
  -PivotField.ShowCompact: valor de propiedad incorrecto en formato XLS
 
- -Valor de elementos incorrectos de Pivot Field en los campos agrupados
+-Valor de elementos incorrectos de Pivot Field en los campos agrupados
 
  -Lectura de elementos del caché (campo pivote)
 
 - Problemas al abrir un archivo SpreadsheetML
 
- Actuación
+ Rendimiento
 
 - Problema de rendimiento al agregar nombres de rango
 - Excepción de memoria y cálculos de fórmulas en celdas
@@ -55,7 +55,7 @@ Características
 
  Insectos
 
--Error al actualizar la tabla dinámica en un libro de Excel
+ -Error al actualizar la tabla dinámica en un libro de Excel
 
 - Problema con el tamaño de papel predeterminado
 - Borde derecho sucio en la imagen al convertir XLS a PDF
@@ -65,8 +65,8 @@ Características
 - Excel a HTML: problema de ajuste de palabras
 - Los atributos de fuente del botón se cambian después de Guardar
 - La leyenda del gráfico se reduce con el método Shape.UpperLeftRow()
-- Error en el documento PDF de salida
-- Los encabezados de varias líneas no son compatibles al renderizar en un archivo PDF
+- Error en el documento de salida PDF
+- Los encabezados de varias líneas no son compatibles durante la representación en el archivo PDF
 - Lectura de todos los datos de los campos base de la tabla dinámica
 - Exportar hoja de Excel a DataTable da error
 - Problema al abrir archivos ODS
@@ -74,11 +74,11 @@ Características
 
  -La fórmula da como resultado #Ref
 
-- El archivo XLS bloquea MS Excel 2007
+- El archivo XLS falla MS Excel 2007
 - Error al abrir el archivo usando MS Excel
 - Problema con la salida HTML en la nueva DLL Aspose.Cells (versión)
 
--La actualización del archivo XLSX con la tabla dinámica hace que Excel muestre un error
+ -La actualización del archivo XLSX con la tabla dinámica hace que Excel muestre un error
 
  -Función ToImage generando columna extra en la imagen generada (Sheet-to-Imageissue)
 

@@ -12,12 +12,12 @@ url: /ar/net/aspose-cells-for-ios-via-xamarin-features/
 |**ميزة**|**وصف**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |تحويلات عالية الجودة|تحويل سريع وموثوق بين العديد من تنسيقات المستندات الشائعة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft مصنف Excel (XLS)|أسرع وأشمل تنفيذ لتنسيق XLS يمكنك أن تجده.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft مصنف Excel (XLS)|تطبيق تنسيق XLS الأسرع والأكثر اكتمالًا الذي يمكنك العثور عليه.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |SpreadsheetML (XLSX ، XML)| يدعم Aspose.Cells OOXML و Flat OPC وأيضًا Excel 2003 XML. علاوة على ذلك،<br>يدعم المكون جميع تنسيقات ملفات Excel 2007 و 2010 و 2013 الرئيسية مثل XLSX و XLTX و XLSM و XLTM إلخ.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|قيمة مفصولة بفاصلة (CSV)|دعم شامل لتنسيق CSV للتفاعل مع مجموعة متنوعة من التطبيقات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|لغة البرمجة|حفظ بتنسيق HTML متاح.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|قيمة مفصولة بفاصلة (CSV)|دعم شامل للتنسيق CSV للتفاعل مع مجموعة متنوعة من التطبيقات.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|حفظ باسم HTML متاح.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |OpenDocument (ODS)|يمكن Aspose.Cells تحميل وحفظ الوثائق بتنسيق OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|تنسيق Adobe Portable Document Format (PDF)|قم بتحويل أي جدول بيانات إلى PDF بدقة عالية.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|تنسيق المستندات المحمولة من Adobe (PDF)|قم بتحويل أي جدول بيانات إلى PDF بدقة عالية.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |علامة التبويب محدد|قم بتحميل وحفظ المستندات بتنسيق ملف محدد بعلامات جدولة.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |نص عادي (TXT)|استخرج النص بسهولة عن طريق الحفظ بتنسيق نص عادي.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ### **ميزات محتوى جدول البيانات**

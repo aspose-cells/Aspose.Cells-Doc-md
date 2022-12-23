@@ -13,24 +13,24 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.12.
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-42745|No obtiene puntos de conexión ya que su tipo devuelto es 'zo[]'|Nueva caracteristica|
-|CELLSJAVA-42662|Proporcionar la capacidad de exportar el rango como HTML|Nueva caracteristica|
-|CELLSJAVA-42746|Faltan barras de datos cuando XLSX se convierte a HTML|Nueva caracteristica|
-|CELLSJAVA-42747|El valor aún existe cuando XLSX se convierte a formato de archivo HTML|Nueva caracteristica|
+|CELLSJAVA-42662|Proporcione la capacidad de exportar el rango como HTML|Nueva caracteristica|
+|CELLSJAVA-42746|Faltan barras de datos cuando XLSX se convierte en HTML|Nueva caracteristica|
+|CELLSJAVA-42747|El valor aún existe cuando XLSX se convierte al formato de archivo HTML|Nueva caracteristica|
 |CELLSJAVA-42748|LightCells API no puede cargar un archivo enorme|Mejora|
 |CELLSJAVA-42727|Falta el formato de texto en la salida HTML del rango de MS Excel|Insecto|
-|CELLSJAVA-42744|Los conjuntos de iconos se desalinean cuando XLSX se convierte a HTML|Insecto|
+|CELLSJAVA-42744|Los conjuntos de iconos se desalinean cuando XLSX se convierte en HTML|Insecto|
 |CELLSJAVA-42772|La exportación de datos de rango con nombre no se representa correctamente en HTML (Java)|Insecto|
 |CELLSJAVA-42753|Un problema encontrado en el rango con nombre|Insecto|
 |CELLSJAVA-42764|La validación siempre devuelve verdadero para el método 'getInCellDropDown ()'|Insecto|
 |CELLSJAVA-42768|Se devuelve un formato personalizado de cultura incorrecto para diferentes lugares (Alemania, Francia, Italia y España)|Insecto|
 |CELLSJAVA-42758|Conversión de Excel a PDF: problema de representación del gráfico de indicadores|Insecto|
-|CELLSJAVA-42761|La representación en PDF arroja la excepción OutOfMemoryError|Insecto|
+|CELLSJAVA-42761|PDF la interpretación lanza la excepción OutOfMemoryError|Insecto|
 |CELLSJAVA-42759|CellsException al convertir archivos|Excepción|
 |CELLSJAVA-42755|Excepción "NullPointerException" al instanciar los archivos XLSX|Excepción|
 |CELLSJAVA-42762|NumberFormatException al procesar archivos|Excepción|
 |CELLSJAVA-42774|NullPointerException al cargar un CSV|Excepción|
 |CELLSJAVA-42765|Excepción "com.aspose.cells.CellsException" al representar un archivo de Excel en formato de archivo PDF|Excepción|
-|CELLSJAVA-42754|"IllegalStateException: codificación no válida: nulo" al crear instancias de un formato de archivo XLS|Excepción|
+|CELLSJAVA-42754|"IllegalStateException: codificación no válida: nulo" al instanciar un formato de archivo XLS|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega la propiedad HtmlSaveOptions.ExportSingleTab**

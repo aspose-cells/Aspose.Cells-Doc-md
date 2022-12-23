@@ -10,14 +10,14 @@ Eclipse IDE 是著名的 Java 集成开发环境 (IDE)。 IDE 绝对是 Eclipse 
 
 Eclipse IDE 可以使用附加软件组件进行扩展。 Eclipse 将这些软件组件称为插件。一些开源项目和公司已经扩展了 Eclipse IDE 或在 Eclipse 框架之上创建了独立的应用程序 (Eclipse RCP)。
 ### **Aspose.Cells for Java**
-[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)是屡获殊荣的 Excel 电子表格组件，允许 Java 开发人员嵌入读取、写入和操作 Excel® 电子表格（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）、HTML、MHTML、PDF 和图像的能力文件格式导入他们自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
+[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image文件格式导入他们自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)是一个成熟的、可扩展的、功能丰富的组件，它提供的许多功能远远超出了其他供应商的简单数据导出功能。使用 Aspose.Cells for Java 开发人员可以导出数据、将电子表格格式化为最精细的级别、导入图像、创建图表、应用和计算复杂公式、流式传输 Excel® 数据、以各种格式保存等等 - 所有这些都不需要 Microsoft Excel®或 Microsoft 办公自动化。
 ### **Aspose.Cells Java 用于 Eclipse (Maven)**
 -  Aspose.Cells Java for Eclipse (Maven) 是一个插件**日蚀集成开发环境**经过**Aspose.**本插件面向使用Maven平台for Java开发并希望使用的开发者[Aspose.Cells for Java](http://goo.gl/gtvhlQ)在他们的项目中。该插件允许您创建 maven 项目以供使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)并下载[代码示例](https://goo.gl/uxznrb)API 的。
-- 该插件提供以下功能以供使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)内**日蚀集成开发环境**舒服地：
+- 该插件提供以下功能以供使用[Aspose.Cells for Java API](http://goo.gl/gtvhlQ)之内**日蚀集成开发环境**舒服地：
 
-![待办事项：图像_替代_文本](kwkgljg.png)
+![待办事项：图片_替代_文本](kwkgljg.png)
 
 
 **巫师**:

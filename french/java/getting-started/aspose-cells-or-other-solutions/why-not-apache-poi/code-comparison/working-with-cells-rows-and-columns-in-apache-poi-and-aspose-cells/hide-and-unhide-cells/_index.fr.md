@@ -5,7 +5,7 @@ weight: 30
 url: /fr/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells - Masquer et afficher les lignes et les colonnes**
-Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classer. La classe Worksheet fournit une collection Cells qui représente toutes les cellules de la feuille de calcul. La collection Cells propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul.
+Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul du fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. La classe Worksheet fournit une collection Cells qui représente toutes les cellules de la feuille de calcul. La collection Cells propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul.
 
 **Java**
 

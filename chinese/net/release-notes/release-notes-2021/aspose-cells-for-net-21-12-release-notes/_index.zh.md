@@ -22,13 +22,13 @@ url: /zh/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|复制到另一个工作簿时忽略条件格式的 3D 引用|强化|
 |CELLSNET-49984|从损坏的 xls 文件中读取一些数据。|强化|
 |CELLSNET-49990|支持设置表格的自定义汇总行公式。|强化|
-|CELLSNET-49825|Excel 到 HTML 转换中 ExportImagesAsBase64 属性的性能问题|表现|
+|CELLSNET-49825|Excel 中 ExportImagesAsBase64 属性到 HTML 转换的性能问题|表现|
 |CELLSNET-49827|定义范围的 RefersTo 被错误转义|漏洞|
 |CELLSNET-49759|空单元格仍导出为空 XML 元素|漏洞|
 |CELLSNET-49817|呈现为 Emf 时，文本未与“Credit Suisse Type Light”字体居中对齐|漏洞|
-|CELLSNET-49864|XLSX 到 PDF 渲染中从右到左文本以相反顺序出现的单词|漏洞|
+|CELLSNET-49864|在 XLSX 到 PDF 渲染中从右到左的文本以相反的顺序出现的单词|漏洞|
 |CELLSNET-49873|Xlsx 到 pdf：与 Excel 生成的 pdf 相比，分页符不同|漏洞|
-|CELLSNET-49922|字符不适合一页，打印位置在 Excel 中更改为 PDF 呈现|漏洞|
+|CELLSNET-49922|字符不适合一页，打印位置在 Excel 中更改为 PDF 渲染|漏洞|
 |CELLSNET-49998|无法查看带有 HTML 标记的特定 XLS 文件|漏洞|
 |CELLSNET-49742|保存后 chart1.xml 的差异|漏洞|
 |CELLSNET-49875|XLSX 到 EMF 重叠刻度线|漏洞|
@@ -40,7 +40,7 @@ url: /zh/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49850|图片：FitToCell 参数在图像智能标记中不起作用|漏洞|
 |CELLSNET-49870|在 Excel 电子表格中合并多个工作表时标题变宽|漏洞|
 |CELLSNET-49898|显示单元格的边框，同时使用智能标记使图像适合单元格|漏洞|
-|CELLSNET-49924|Aspose-生成的 XLSX 文件打开时出错|漏洞|
+|CELLSNET-49924|Aspose-生成XLSX文件打开错误|漏洞|
 |CELLSNETCORE-301|当超链接具有空地址时添加工作表失败|漏洞|
 |CELLSNET-49812|打开 ODS 文件时出现异常|例外|
 |CELLSNET-49876|重新保存 XLSX 文件时出现异常|例外|

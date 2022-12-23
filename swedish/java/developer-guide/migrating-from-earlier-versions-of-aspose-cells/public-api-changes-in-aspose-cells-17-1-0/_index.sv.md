@@ -75,7 +75,7 @@ Här är ett enkelt användningsscenario.
 
 {{< /highlight >}}
 ### **Lade till CellsHelper.SignificantDigits Property**
-Aspose.Cells 17.1.0 har exponerat egenskapen SignificantDigits från klassen CellsHelper som gör det möjligt att hämta eller ställa in antalet signifikanta siffror för numeriska värden i ett kalkylblad. Standardvärdet för egenskapen CellsHelper.SignificantDigits är 17 medan det endast är tillämpligt om resultatet måste lagras i XLSX-filformat.
+Aspose.Cells 17.1.0 har exponerat egenskapen SignificantDigits från klassen CellsHelper som gör det möjligt att hämta eller ställa in antalet signifikanta siffror för numeriska värden i ett kalkylblad. Standardvärdet för egenskapen CellsHelper.SignificantDigits är 17 medan det endast är tillämpligt om resultatet måste lagras i filformatet XLSX.
 
 Här är ett enkelt scenario för att demonstrera användningen av CellsHelper.SignificantDigits-egenskapen.
 

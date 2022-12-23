@@ -6,7 +6,7 @@ url: /de/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-Früher wird auf Textfelder über den Index aus der zugegriffen[Arbeitsblatt.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) Sammlung, aber Sie können jetzt auch über den Namen dieser Sammlung auf das Textfeld zugreifen. Dies ist eine bequeme und schnelle Möglichkeit, auf Ihr Textfeld zuzugreifen, wenn Sie seinen Namen bereits kennen.
+ Früher wird auf Textfelder über den Index aus der zugegriffen[Arbeitsblatt.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) Sammlung, aber Sie können jetzt auch über den Namen dieser Sammlung auf das Textfeld zugreifen. Dies ist eine bequeme und schnelle Möglichkeit, auf Ihr Textfeld zuzugreifen, wenn Sie seinen Namen bereits kennen.
 
 {{% /alert %}} 
 ## **Greifen Sie über den Namen auf das Textfeld zu**

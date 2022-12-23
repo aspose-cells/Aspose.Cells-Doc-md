@@ -1,10 +1,10 @@
 ﻿---
-title: Pivot Tabloyu ODS dosyasına kaydet
+title: Pivot Tabloyu ODS dosyasına kaydedin
 type: docs
 weight: 150
 url: /tr/java/save-pivot-table-in-ods-file/
 ---
- Aspose.Cells, pivot tabloyu ODS dosyalarına kaydetme yeteneği sağlar. Bunun için, mevcut povot tablolu bir çalışma kitabını dönüştürmeniz veya yeni bir pivot tablo oluşturmanız ve dosyayı ODS formatında kaydetmeniz yeterlidir. mutlaka arayın[**PivotTable.CalculateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()pivot tablonun çıktı ODS dosyasında görüntülendiğinden emin olmak için kaydetmeden önce. Aşağıdaki kod parçacığı, özet tabloyu ODS dosyasına kaydetmeyi gösterir.
+ Aspose.Cells, pivot tabloyu ODS dosyalarına kaydetme olanağı sağlar. Bunun için mevcut povot tablolu bir çalışma kitabını dönüştürmeniz veya yeni bir pivot tablo oluşturmanız ve dosyayı ODS formatında kaydetmeniz yeterlidir. mutlaka arayın[**PivotTable.CalculateData()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#calculateData()kaydetmeden önce pivot tablonun ODS çıktı dosyasında görüntülendiğinden emin olun. Aşağıdaki kod parçacığı, pivot tablonun ODS dosyasına kaydedildiğini gösterir.
 
 ## Basit kod
 
@@ -12,4 +12,4 @@ url: /tr/java/save-pivot-table-in-ods-file/
 
 Yukarıdaki kodu oluşturan çıktı dosyası, referansınız için eklenmiştir.
 
-[Çıktı ODS Dosyası](PivotTableSaveInODS_out.ods)
+[Çıktı ODS Dosya](PivotTableSaveInODS_out.ods)

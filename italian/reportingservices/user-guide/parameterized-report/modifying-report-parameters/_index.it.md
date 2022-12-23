@@ -1,5 +1,5 @@
 ﻿---
-title: Modifica dei parametri del report
+title: Modifica dei parametri del rapporto
 type: docs
 weight: 20
 url: /it/reportingservices/modifying-report-parameters/

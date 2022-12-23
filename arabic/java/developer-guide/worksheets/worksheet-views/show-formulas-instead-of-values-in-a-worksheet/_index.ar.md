@@ -10,7 +10,7 @@ url: /ar/java/show-formulas-instead-of-values-in-a-worksheet/
 
 {{% /alert %}} 
 
-يوفر Aspose.Cells أ[**Worksheet.setShowFormulas ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) منشأه. اضبط هذا على**حقيقي**لتعيين Microsoft Excel لعرض الصيغ.
+يوفر Aspose.Cells أ[**Worksheet.setShowFormulas ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) خاصية. اضبط هذا على**حقيقي**لتعيين Microsoft Excel لعرض الصيغ.
 
 تُظهر الصورة التالية ورقة العمل التي تحتوي على صيغة في الخلية A3: = Sum (A1: A2).
 
@@ -18,7 +18,7 @@ url: /ar/java/show-formulas-instead-of-values-in-a-worksheet/
 
 ![ما يجب القيام به: image_بديل_نص](show-formulas-instead-of-values-in-a-worksheet_1.png)
 
- تُظهر الصورة التالية الصيغة بدلاً من القيمة المحسوبة ، والتي يتم تمكينها من خلال تعيين[**Worksheet.setShowFormulas ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) الملكية ل**حقيقي** مع Aspose.Cells.
+ تُظهر الصورة التالية الصيغة بدلاً من القيمة المحسوبة ، والتي يتم تمكينها من خلال تعيين[**Worksheet.setShowFormulas ()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) ملكية ل**حقيقي** مع Aspose.Cells.
 
 **تعرض ورقة العمل الآن الصيغة بدلاً من القيمة المحسوبة**
 

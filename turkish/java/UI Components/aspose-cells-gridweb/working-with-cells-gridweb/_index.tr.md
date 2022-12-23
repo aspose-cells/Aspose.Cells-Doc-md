@@ -75,7 +75,7 @@ Programlı olarak bir formül eklemek için, Aspose.Cells.GridWeb, **=** işaret
 
 **B3 hücresine eklenen ancak GridWeb tarafından hesaplanmayan formül** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_1.png)
 
 Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz hesaplanmadığını görebilirsiniz. Tüm formülleri hesaplamak için, formülleri aşağıda gösterildiği gibi çalışma sayfalarına ekledikten sonra GridWeb denetiminin GridWorksheetCollection 'ın measureFormula yöntemini çağırın.
 
@@ -87,13 +87,13 @@ Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz h
 
 **GridWeb'in Gönder düğmesini tıklatmak** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_2.png)
 
-**ÖNEMLİ** : Bir kullanıcı**Kaydetmek** veya**Geri alma** düğmeleri veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
+**ÖNEMLİ** : Bir kullanıcı**Kayıt etmek** veya**Geri alma** düğmeleri veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
 
 **Hesaplamadan sonra formül sonucu** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_3.png)
 ### **Diğer Çalışma Sayfalarından Cells'e Referans Verme**
 Aspose.Cells.GridWeb'i kullanarak, farklı çalışma sayfalarında depolanan değerlere formüllerinde başvurmak, karmaşık formüller oluşturmak mümkündür.
 
@@ -105,7 +105,7 @@ Farklı bir çalışma sayfasından bir hücre değerine başvurmak için sözdi
 
  Aşağıdaki örnek kod, bir**Veri doğrulama** B3 hücresinde. 20 ile 40 arasında olmayan bir değer girerseniz, B3 hücresi görünecektir.**Doğrulama Hatası** şeklinde**kırmızı XXXX** bu ekran görüntüsünde gösterildiği gibi.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_4.png)
 
 
 
@@ -115,11 +115,11 @@ Aspose.Cells.GridWeb, Gönder, Kaydet ve Geri Al gibi özel düğmeler içerir. 
 
 Aşağıdaki örnek kod, özel bir komut düğmesinin nasıl oluşturulacağını ve tıklama olayının nasıl işleneceğini açıklar. Özel komut düğmeniz için herhangi bir simgeyi kullanabilirsiniz. Gösterim amacıyla bu resim ikonunu kullandık.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_5.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_5.png)
 
  Aşağıdaki ekran görüntüsünde görebileceğiniz gibi, kullanıcı özel komut düğmesine tıkladığında A1 hücresine şunu söyleyen bir metin ekler:**"Özel Komut Düğmem Tıklandı."**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_6.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_6.png)
 
 
 
@@ -142,6 +142,6 @@ Hücre stilini Yüzde Biçimi olarak ayarlamadıysanız, %3 giriş verisi 0,03 o
 ### **GridWeb Çalışma Sayfasının Cell Verisini Yüzde Biçiminde Girin**
 Aşağıdaki örnek kod, A1 GridTableItemStyle.NumberType hücresini 10 olarak ayarlar, bu nedenle %3 giriş verisi, ekran görüntüsünde gösterildiği gibi otomatik olarak %3,00 olarak biçimlendirilir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-cells-gridweb_7.png)
+![yapılacaklar:resim_alternatif_metin](working-with-cells-gridweb_7.png)
 ### **Basit kod**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}

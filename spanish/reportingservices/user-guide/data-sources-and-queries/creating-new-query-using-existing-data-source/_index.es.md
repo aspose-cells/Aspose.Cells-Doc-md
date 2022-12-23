@@ -24,7 +24,7 @@ Para crear una nueva consulta utilizando una fuente de datos existente:
 
 
 1. En el cuadro de diálogo, escriba un nuevo nombre de conjunto de datos, por ejemplo, SalesEmps.
-1.  Hacer clic**próximo**. 
+1.  Hacer clic**Próximo**. 
 
    **Nombrar un nuevo conjunto de datos** 
 
@@ -41,7 +41,7 @@ Para crear una nueva consulta utilizando una fuente de datos existente:
 
 
 
-1.  Desde Microsoft Consultas**Expediente** menú, seleccione**Volver a Aspose.Cells.Report.Designer**. 
+1.  Desde Microsoft Consultas**Archivo** menú, seleccione**Volver a Aspose.Cells.Report.Designer**. 
 
    **Volver al Diseñador de informes** 
 

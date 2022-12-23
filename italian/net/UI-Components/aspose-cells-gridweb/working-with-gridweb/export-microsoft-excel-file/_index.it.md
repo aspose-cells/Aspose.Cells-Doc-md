@@ -1,12 +1,12 @@
 ﻿---
-title: Esporta file Microsoft Excel
+title: Esporta file Excel Microsoft
 type: docs
 weight: 50
 url: /it/net/export-microsoft-excel-file/
 ---
 {{% alert color="primary" %}} 
 
-È possibile creare nuovi file Microsoft Excel o manipolarli esistenti su siti Web in modalità GUI utilizzando il controllo Aspose.Cells.GridWeb. I file possono quindi essere salvati in file Excel. Aspose.Cells.GridWeb funge efficacemente da editor di fogli di calcolo online. Questo argomento descrive come salvare il contenuto della griglia in file Excel.
+È possibile creare nuovi file Excel Microsoft esistenti o manipolarli sui siti Web in modalità GUI utilizzando il controllo Aspose.Cells.GridWeb. I file possono quindi essere salvati in file Excel. Aspose.Cells.GridWeb funge efficacemente da editor di fogli di calcolo online. Questo argomento descrive come salvare il contenuto della griglia in file Excel.
 
 {{% /alert %}} 
 ## **Esporta file Excel**

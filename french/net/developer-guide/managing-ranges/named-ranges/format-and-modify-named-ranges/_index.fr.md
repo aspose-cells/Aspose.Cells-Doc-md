@@ -16,7 +16,7 @@ L'exemple suivant montre comment définir la couleur de remplissage unie (couleu
 
 ### **Ajout de bordures à une plage nommée**
 
- Il est possible d'ajouter des bordures à une plage de cellules au lieu d'une seule cellule. La[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) l'objet fournit un[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)méthode qui prend les paramètres suivants pour ajouter une bordure à la plage de cellules :
+ Il est possible d'ajouter des bordures à une plage de cellules au lieu d'une seule cellule. Le[**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range) l'objet fournit un[**SetOutlineBorder**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/setoutlineborder)méthode qui prend les paramètres suivants pour ajouter une bordure à la plage de cellules :
 
 -  Type de bordure, le type de bordure, sélectionné dans le[**Type de bordure**](https://reference.aspose.com/cells/net/aspose.cells/bordertype)énumération.
 -  Style de ligne, le style de ligne, sélectionné dans le[**CellBorderType**](https://reference.aspose.com/cells/net/aspose.cells/cellbordertype)énumération.

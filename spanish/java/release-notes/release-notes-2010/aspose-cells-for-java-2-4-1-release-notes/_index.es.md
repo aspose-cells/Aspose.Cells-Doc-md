@@ -10,7 +10,7 @@ url: /es/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- ¡Nos complace anunciar Aspose.Cells for Java v2.4.1!
+¡Nos complace anunciar Aspose.Cells for Java v2.4.1!
 
  Qué ha cambiado:
 
@@ -21,7 +21,7 @@ url: /es/java/aspose-cells-for-java-2-4-1-release-notes/
 - Admite manipular la posición de la ventana y las propiedades de tamaño para Workbook.
 - Se ha mejorado la operación de lectura/guardado de archivos de Excel 2007.
 - Se ha mejorado la función Gráfico a imagen.
-- Se ha mejorado la función directa de Excel a PDF.
+- Se ha mejorado la función Direct Excel to PDF.
 - Se ha mejorado el formato de los valores Cell.
 - Se mejora la operación de lectura de archivos de Excel 97-2003.
 - Se ha mejorado el módulo de guardado de gráficos.
@@ -38,8 +38,8 @@ url: /es/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | xlsx| Leer archivo Excel2007|
 |19596 | xls| Cells.getMaxDataColumn()|
 |19641 | xls| Opciones de comprobación de errores|
-|19696 | Cuadro| Guardar gráfico para el archivo excel2003|
-|19822 | Cuadro|Celdas vinculadas para ChartFrames como Título/Etiquetas de datos|
+|19696 | Gráfico|Guardar gráfico para el archivo excel2003|
+|19822 | Gráfico| Celdas vinculadas para ChartFrames como Título/Etiquetas de datos|
 |19823 | html| Cell fronteras|
 |19832 | Gráfico2Imagen| Gráfico de cascada con gráfico de barras apiladas|
 |19894 | xls| Obtenga el tamaño de la forma, lea el estilo|

@@ -32,6 +32,6 @@ Ett designerkalkylblad är en Excel-fil skapad med Microsoft Excel där all form
 
 ### **Smarta markörer**
 
- Dessutom låter Aspose.Cells dig lägga till[smarta markörer](/cells/sv/python-net/smart-markers/)till designerkalkylarket. Smarta markörer bearbetas under körning med WorkbookDesigner-klassens processmetod. Detta kan hjälpa dig att skriva mindre kod och ändå få bra resultat.
+ Dessutom låter Aspose.Cells dig lägga till[smarta markörer](/cells/sv/python-net/smart-markers/) till designerkalkylarket. Smarta markörer bearbetas under körning med WorkbookDesigner-klassens processmetod. Detta kan hjälpa dig att skriva mindre kod och ändå få bra resultat.
 
 [Ta reda på mer om smarta markörer](/cells/sv/python-net/smart-markers/).

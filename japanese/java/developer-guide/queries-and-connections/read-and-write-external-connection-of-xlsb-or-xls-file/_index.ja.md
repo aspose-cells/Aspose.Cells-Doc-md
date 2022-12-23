@@ -6,11 +6,11 @@ url: /ja/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
 ## **考えられる使用シナリオ**
 
-Aspose.Cells は既に XLSX ファイルの読み取りと書き込みの外部接続をサポートしていますが、今回は XLSB と XLS ファイルのこの機能もサポートしています。ただし、コードは両方のタイプの形式で同じです。
+Aspose.Cells は既に XLSX ファイルの読み取りと書き込みの外部接続をサポートしていますが、現在は XLSB と XLS ファイルのこの機能もサポートしています。ただし、コードは両方のタイプの形式で同じです。
 
-## **XLSB/XLSファイルの外部接続の読み書き**
+## **XLSB/XLS ファイルの外部接続の読み取りと書き込み**
 
-次のサンプル コードは、サンプル XLSB (XLS もロード可能) ファイルをロードし、実際には Microsoft Access DB 接続である最初の外部接続を読み取ります。次に、[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)プロパティを取得し、出力 XLSB ファイルとして保存します。スクリーンショットは、コードの効果を示しています[サンプル XLSB ファイル](51740743.xlsb)と[出力XLSBファイル](51740742.xlsb)その実行後。以下のサンプル コードのコンソール出力も参照してください。
+次のサンプル コードは、サンプル XLSB (XLS もロード可能) ファイルをロードし、実際には Microsoft Access DB 接続である最初の外部接続を読み取ります。次に、[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)プロパティを取得し、出力 XLSB ファイルとして保存します。スクリーンショットは、コードの効果を示しています[サンプル XLSB ファイル](51740743.xlsb)と[出力 XLSB ファイル](51740742.xlsb)その実行後。以下のサンプル コードのコンソール出力も参照してください。
 
 ![todo:画像_代替_文章](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 

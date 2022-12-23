@@ -14,7 +14,7 @@ url: /it/net/get-warnings-while-loading-excel-file/
 
 ![cose da fare:immagine_alt_testo](get-warnings-while-loading-excel-file_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-GetWarningsWhileLoadingExcelFile.cs" >}}
 

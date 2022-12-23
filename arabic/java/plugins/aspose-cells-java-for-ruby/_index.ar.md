@@ -10,7 +10,7 @@ url: /ar/java/aspose-cells-java-for-ruby/
 RJB هو برنامج جسر يربط بين روبي و Java بواجهة Java الأصلية. Rake + Rjb هي أداة بناء أكثر قوة وفائدة من كل من Maven و Ant. يمكنك اختبار فئة منطق الأعمال Java الخاصة بك نفسها باستخدام محاكاة Rjb. يساعد على ترحيل كائن طراز Struts إلى تطبيق RoR الخاص بك. لكن احذر من تطبيق buildSwing ، فإن Ruby (و Rjb) لا يفكران في معالجة خيوط JVM الأصلية ...
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java هو مكون جداول بيانات Excel حائز على جوائز يسمح لمطوري Java بتضمين القدرة على قراءة جداول بيانات Excel® وكتابتها ومعالجتها (XLS و XLSX و XLSM و XLSB و XLTX و SpreadsheetML و CSV و ODS) و HTML و MHTML و PDF وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
+Aspose.Cells for Java هو أحد مكونات جداول بيانات Excel الحائز على جوائز والذي يسمح لمطوري Java بتضمين القدرة على قراءة وكتابة ومعالجة جداول بيانات Excel® (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، 07618310481 ، 0761910481 ، SpreadsheetML ، 076191481) وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
 
 Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني بالميزات يقدم العديد من الوظائف التي تفوق بكثير قدرات تصدير البيانات البسيطة للبائعين الآخرين. مع Aspose.Cells for Java يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات إلى المستوى الأكثر دقة واستيراد الصور وإنشاء المخططات وتطبيق وحساب الصيغ المعقدة ودفق بيانات Excel® وحفظها بتنسيقات مختلفة وغير ذلك الكثير - كل هذا دون الحاجة إلى Microsoft Excel® أو Microsoft أتمتة المكاتب.
 ### **Aspose.Cells Java لروبي**
@@ -49,7 +49,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 
 {{< /highlight >}}
 
-1.  ثم نفذ
+1. ثم نفذ
 
 {{< highlight "java" >}}
 
@@ -114,10 +114,10 @@ Aspose.Cells Java لـ Ruby هو مصدر مفتوح وكود المصدر ال�
       - [حفظ الملفات في روبي](/cells/ar/java/saving-files-in-ruby/)
     - [ميزات المنفعة في روبي](/cells/ar/java/utility-features-in-ruby/)
       - [تحويل الرسم البياني إلى صورة في روبي](/cells/ar/java/converting-chart-to-image-in-ruby/)
-      - [تحويل ملفات Excel إلى HTML بلغة Ruby](/cells/ar/java/converting-excel-files-to-html-in-ruby/)
-      - [تحويل ملفات Excel إلى ملفات PDF بلغة Ruby](/cells/ar/java/converting-excel-to-pdf-files-in-ruby/)
-      - [تحويل ملفات HTML إلى جداول بيانات Excel بلغة Ruby](/cells/ar/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
-      - [التحويل إلى ملفات MHTML في روبي](/cells/ar/java/converting-to-mhtml-files-in-ruby/)
+      - [تحويل ملفات Excel إلى HTML في روبي](/cells/ar/java/converting-excel-files-to-html-in-ruby/)
+      - [تحويل ملفات إكسل إلى PDF بلغة روبي](/cells/ar/java/converting-excel-to-pdf-files-in-ruby/)
+      - [تحويل ملفات HTML إلى جداول بيانات إكسل بلغة روبي](/cells/ar/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
+      - [التحويل إلى MHTML ملفات في روبي](/cells/ar/java/converting-to-mhtml-files-in-ruby/)
       - [تحويل ورقة العمل إلى صورة في روبي](/cells/ar/java/converting-worksheet-to-image-in-ruby/)
       - [تحويل ورقة العمل إلى SVG في روبي](/cells/ar/java/converting-worksheet-to-svg-in-ruby/)
       - [تشفير ملفات اكسل في روبي](/cells/ar/java/encrypting-excel-files-in-ruby/)
@@ -139,9 +139,9 @@ Aspose.Cells Java لـ Ruby هو مصدر مفتوح وكود المصدر ال�
       - [ضبط خيارات الصفحة في روبي](/cells/ar/java/setting-page-options-in-ruby/)
     - [ميزات الأمان في Ruby](/cells/ar/java/security-features-in-ruby/)
       - [حماية أوراق العمل في روبي](/cells/ar/java/protecting-worksheets-in-ruby/)
-      - [قم بإلغاء حماية ورقة العمل في Ruby](/cells/ar/java/unprotect-a-worksheet-in-ruby/)
+      - [قم بإلغاء حماية ورقة العمل في روبي](/cells/ar/java/unprotect-a-worksheet-in-ruby/)
     - [ميزات القيمة في روبي](/cells/ar/java/value-features-in-ruby/)
-      - [نسخ ونقل أوراق العمل في روبي](/cells/ar/java/copying-and-moving-worksheets-in-ruby/)
+      - [نسخ وتحريك أوراق العمل في روبي](/cells/ar/java/copying-and-moving-worksheets-in-ruby/)
       - [إدارة فواصل الصفحات في روبي](/cells/ar/java/managing-page-breaks-in-ruby/)
   - [العمل مع الصفوف والأعمدة في روبي](/cells/ar/java/working-with-rows-and-columns-in-ruby/)
     - [ضبط ارتفاع الصف وعرض العمود في روبي](/cells/ar/java/adjusting-row-height-and-column-width-in-ruby/)

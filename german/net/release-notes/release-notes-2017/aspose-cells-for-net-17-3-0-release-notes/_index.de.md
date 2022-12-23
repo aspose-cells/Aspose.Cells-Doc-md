@@ -23,44 +23,44 @@ url: /de/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45138|PrintArea schafft es nicht, Bilder korrekt zu transformieren|Insekt|
 |CELLSNET-45136|Boxen werden gedreht, wenn Excel in PDF konvertiert wird|Insekt|
 |CELLSNET-45182|Die resultierende Tabelle kann nicht ohne Reparatur in Excel geladen werden|Insekt|
-|CELLSNET-45143|Aspose.Cells erzeugt beim Speichern in XLSB eine beschädigte Pivot-Tabelle mit Berichtsfilter|Insekt|
+|CELLSNET-45143|Aspose.Cells erzeugt eine beschädigte Pivot-Tabelle mit Berichtsfilter, wenn sie unter XLSB gespeichert wird|Insekt|
 |CELLSNET-45135|Bilder überlappen sich beim Importieren von HTML als XLSX|Insekt|
 |CELLSNET-45134|Beim Importieren von HTML als XLSX gehen Spaltenbreiten verloren|Insekt|
-|CELLSNET-45133|Das Inhaltsdesign geht beim Importieren von HTML als XLSX verloren|Insekt|
-|CELLSNET-45132|In HTML aktivierter WrapText geht verloren, wenn er im XLSX-Format gespeichert wird|Insekt|
-|CELLSNET-45127|Schriftstil und -größe werden nach dem Import von HTML als XLSX geändert|Insekt|
+|CELLSNET-45133|Inhaltsgestaltung geht beim Importieren von HTML als XLSX verloren|Insekt|
+|CELLSNET-45132|Der in HTML aktivierte WrapText geht verloren, wenn er im Format XLSX gespeichert wird|Insekt|
+|CELLSNET-45127|Schriftstil und -größe werden nach dem Importieren von HTML als XLSX geändert|Insekt|
 |CELLSNET-45115|Das Aktualisieren der Pivot-Tabelle nach dem Hinzufügen einiger Daten erzeugt eine beschädigte Excel-Datei|Insekt|
 |CELLSNET-45109|Fehler beim Aktualisieren der nach Datumsspalte gruppierten Pivot-Tabelle|Insekt|
 |CELLSNET-45081|Die Funktion zum Zusammenführen von Beschriftungen der Pivot-Tabelle funktioniert nicht|Insekt|
-|CELLSNET-45076|Die Ausrichtung funktioniert nicht und der Text verlässt die Zelle bei der Excel-zu-HTML-Konvertierung|Insekt|
-|CELLSNET-45057|Konvertierung von HTML nach XLSX ist nicht korrekt|Insekt|
-|CELLSNET-45040|Einige Pivot-Feldelemente werden als Datumswerte statt als Zahlen gerendert|Insekt|
+|CELLSNET-45076|Die Ausrichtung funktioniert nicht und Text wird aus der Zelle in Excel in HTML konvertiert|Insekt|
+|CELLSNET-45057|Konvertierung von HTML zu XLSX ist nicht korrekt|Insekt|
+|CELLSNET-45040|Einige Pivot-Feldelemente werden als Datumswerte anstelle von Numbers gerendert|Insekt|
 |CELLSNET-40265|Problem mit der Kultur der Eingabedateien|Insekt|
 |CELLSNET-45142|Problem mit der VLOOKUP-Funktion, wenn ein externer Bereich verwendet wird|Insekt|
 |CELLSNET-45150|Die letzten Zeilen des Arbeitsblatts können nicht erweitert oder reduziert werden|Insekt|
 |CELLSNET-45139|Paging funktioniert nicht mit zwei GridWebs auf einer Seite|Insekt|
 |CELLSNET-45137|Gruppierte Zeilen oder Spalten haben Probleme in GridWeb, wenn es auf Internet Explorer 11 ausgeführt wird|Insekt|
 |CELLSNET-45203|Beim Rendern einer Excel-Datei in PDF überlappen sich Zeichen|Insekt|
-|CELLSNET-45196|Der Ausdruck ist in exportiertem XPS verstümmelt|Insekt|
+|CELLSNET-45196|Der Ausdruck ist im exportierten XPS verstümmelt|Insekt|
 |CELLSNET-45187|Tags sollten gemäß der TrueType-Spezifikation in aufsteigender Reihenfolge sein|Insekt|
 |CELLSNET-45169|Warnung: Die maximale Größe für die Region beträgt 262144 Byte, bei SheetRender.ToImage am Mono|Insekt|
 |CELLSNET-45167|SheetRender.ToImage rendert den Inhalt verstümmelt und unvollständig auf Mono|Insekt|
 |CELLSNET-45166|SheetRender.ToImage rendert nur die Kopf- und Fußzeile der Seite auf Mono|Insekt|
-|CELLSNET-43732|Das Rendern in EMF und das Einfügen in Word führt zu Textüberschneidungen im resultierenden PDF|Insekt|
-|CELLSNET-45186|Flächendiagramm wird beim PDF-Export nicht angezeigt|Insekt|
+|CELLSNET-43732|Das Rendern auf EMF und das Einfügen in Word führt zu Textüberschneidungen im Ergebnis PDF|Insekt|
+|CELLSNET-45186|Flächendiagramm wird beim Export von PDF nicht angezeigt|Insekt|
 |CELLSNET-45178|Achsenbeschriftungen werden beim Rendern des Diagramms in das Bild getrimmt|Insekt|
 |CELLSNET-45177|Beim Rendern des Diagramms in das Bild fehlen Achsenbeschriftungen - II|Insekt|
-|CELLSNET-45151|Diagramme verlieren die gesamte Formatierung, während die Tabelle in PDF gerendert wird|Insekt|
-|CELLSNET-45147|Beim Rendern der Tabelle in PDF fehlt das Diagramm|Insekt|
+|CELLSNET-45151|Diagramme verlieren die gesamte Formatierung, während die Tabelle auf PDF gerendert wird|Insekt|
+|CELLSNET-45147|Diagramm fehlt beim Rendern der Tabelle auf PDF|Insekt|
 |CELLSNET-44998|Die Datenbeschriftungen des Diagramms ändern sich nach der Konvertierung der Tabelle in PDF|Insekt|
-|CELLSNET-44984|Die Trendlinie im zweiten Diagramm wird im Ausgabe-PDF nicht richtig gerendert|Insekt|
-|CELLSNET-41539|Wortkunst/Bild mit grünen Ellipsen wird in der PDF-Datei falsch um das Diagramm herum gerendert|Insekt|
+|CELLSNET-44984|Die Trendlinie im zweiten Diagramm wird in der Ausgabe PDF nicht richtig gerendert|Insekt|
+|CELLSNET-41539|Wortkunst/Bild mit grünen Ellipsen wird in PDF falsch um das Diagramm herum gerendert|Insekt|
 |CELLSNET-45197|Range.MoveTo verschiebt keine Datenvalidierung und bedingte Formatierung|Insekt|
 |CELLSNET-45183|Das Attribut "Gesperrt" des ActiveX-Steuerelements (ComboBox) wird nicht geändert|Insekt|
-|CELLSNET-45179|Das Festlegen von CodeName in der XLSX-Datei funktioniert nicht einwandfrei|Fehler|
+|CELLSNET-45179|Das Festlegen von CodeName in der Datei XLSX funktioniert nicht einwandfrei|Fehler|
 |CELLSNET-45175|Die Bildformatierung funktioniert nicht für XLSX-Dateien|Insekt|
 |CELLSNET-45174|Print_Area-Bereich brach nach DeleteRange|Insekt|
-|CELLSNET-45173|Die XLSX-Datei ist nach dem Speichern beschädigt|Insekt|
+|CELLSNET-45173|XLSX Datei ist nach dem Speichern beschädigt|Insekt|
 |CELLSNET-45171|Das Verschieben des Bereichs bewirkt, dass die inneren Bereiche um eine Zelle verkleinert werden|Insekt|
 |CELLSNET-45162|Das Diagramm wird nach dem Löschen eines Bereichs nicht korrekt berechnet/aktualisiert|Insekt|
 |CELLSNET-45155|Cells.InsertColumns/DeleteColumns bewirkt "#REF" für das ListObject/Table|Insekt|
@@ -69,7 +69,7 @@ url: /de/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45060|Die Schriftarteinstellungen der Schaltfläche wurden nach dem einfachen Laden und Speichern geändert|Insekt|
 |CELLSNET-43722|Dateifehler: Möglicherweise sind Daten verloren gegangen, die von Excel beim Öffnen von XLS ausgelöst wurden|Insekt|
 |CELLSNET-45190|Beim Berechnen der WORKDAY-Formel ist eine Ausnahme aufgetreten|Ausnahme|
-|CELLSNET-45199|Excel zu PDF – Index außerhalb des Arrays Ausnahme|Ausnahme|
+|CELLSNET-45199|Excel an PDF – Index außerhalb des Arrays Ausnahme|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.
 #### **Anpassen der Globalisierungseinstellungen einer Pivot-Tabelle**
@@ -84,7 +84,7 @@ Mit der aktuellen Version 17.3.0 oder höher können Entwickler die Globalisieru
 1. **Fügt die Methode GlobalizationSettings.GetEmptyDataName() hinzu** - Es erhält den Namen des Labels "(leer)" in der PivotTable.
 1. **Fügt die Methode GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType) hinzu** - Es erhält den Namen des Typs "PivotFieldSubtotalType" in der PivotTable.
 
-In diesem Codebeispiel wird erläutert, wie die Globalisierungseinstellungen einer Pivot-Tabelle angepasst werden. Es erstellt eine Klasse CustomPivotTableGlobalizationSettings, die von einer Basisklasse GlobalizationSettings abgeleitet ist, und überschreibt alle erforderlichen Methoden. Diese Methoden geben den benutzerdefinierten Text für Pivot-Summe, Zwischensumme, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen und leere Werte zurück. Dann weist es das Objekt dieser Klasse der Workbook.GlobalizationSettings-Eigenschaft zu. Der Code lädt die Excel-Quelldatei, die die Pivot-Tabelle enthält, aktualisiert und berechnet ihre Daten und speichert sie als Ausgabe-PDF-Datei. Entwickler können die Arbeitsmappe auch in jedem unterstützten Format speichern.
+In diesem Codebeispiel wird erläutert, wie die Globalisierungseinstellungen einer Pivot-Tabelle angepasst werden. Es erstellt eine Klasse CustomPivotTableGlobalizationSettings, die von einer Basisklasse GlobalizationSettings abgeleitet ist, und überschreibt alle erforderlichen Methoden. Diese Methoden geben den benutzerdefinierten Text für Pivot-Summe, Zwischensumme, Gesamtsumme, Alle Elemente, Mehrere Elemente, Spaltenbeschriftungen, Zeilenbeschriftungen und leere Werte zurück. Dann weist es das Objekt dieser Klasse der Workbook.GlobalizationSettings-Eigenschaft zu. Der Code lädt die Excel-Quelldatei, die die Pivot-Tabelle enthält, aktualisiert und berechnet ihre Daten und speichert sie als Ausgabedatei PDF. Entwickler können die Arbeitsmappe auch in jedem unterstützten Format speichern.
 
 **.NET, C#**
 

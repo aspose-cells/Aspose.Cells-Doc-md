@@ -16,15 +16,15 @@ url: /ja/java/aspose-cells-for-java-18-1-release-notes/
 |CELLSJAVA-42491|ドキュメントのプロパティをエクスポートするかどうかを決定するオプションを提供します (親の問題 ID: CELLSJAVA-42471)|新機能|
 |CELLSJAVA-42498|Chart シートの PdfBookmarkEntry を作成する|新機能|
 |CELLSJAVA-42464|すべての ActiveX コントロールに必要な修正 (親の問題 ID: CELLSJAVA-42442)|強化|
-|CELLSJAVA-42490|Excel ファイルを HTML にエクスポートするときに未使用のスタイルを除外する (親の問題 ID: CELLSJAVA-42471)|強化|
+|CELLSJAVA-42490|Excel ファイルを HTML にエクスポートするときに未使用のスタイルを除外 (親の問題 ID: CELLSJAVA-42471)|強化|
 |CELLSJAVA-42473|画像の一部が切り捨てられているか欠落しており、元のソース画像と一致しません|バグ|
-|CELLSJAVA-42469|出力 PDF の形状から画像がはみ出す|バグ|
-|CELLSJAVA-42461|出力 HTML で要素の形状が正しくない|バグ|
+|CELLSJAVA-42469|出力 PDF の Shape から画像がはみ出す|バグ|
+|CELLSJAVA-42461|出力の要素形状が正しくない HTML|バグ|
 |CELLSJAVA-42495|Excel から Html - 折り返しテキストは無視されます|バグ|
 |CELLSJAVA-42489|XLSB ファイルを開いて保存すると破損する|バグ|
 |CELLSJAVA-42487|HTML 出力の不一致 - スペースの問題|バグ|
 |CELLSJAVA-42471|HTML への保存時に無関係なデータが含まれる|バグ|
-|CELLSJAVA-42467|再保存後に XLSB が破損する|バグ|
+|CELLSJAVA-42467|XLSB 再保存後に破損しました|バグ|
 |CELLSJAVA-42488|15 桁の数字が MS Excel の数字と一致しません|バグ|
 |CELLSJAVA-42499|出力 PDF (by Aspose.Cells) と MS Excel 生成 PDF を比較した場合の余白とレイアウトの違い|バグ|
 |CELLSJAVA-42486|機能が Java で動作しない - ResultSet|バグ|

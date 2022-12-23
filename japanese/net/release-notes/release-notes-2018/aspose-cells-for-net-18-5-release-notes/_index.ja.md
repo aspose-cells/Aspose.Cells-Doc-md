@@ -14,32 +14,32 @@ url: /ja/net/aspose-cells-for-net-18-5-release-notes/
 |:- |:- |:- |
 |CELLSNET-46095|実装関数 CEILING.PRECISE|新機能|
 |CELLSNET-46023|厳格な Open XML スプレッドシート形式をサポート|新機能|
-|CELLSNET-46080|PDFに変換するとき、画像の色は黒でなければなりません|強化|
-|CELLSNET-46087|ページ設定 PrintErrorType が Excel から PDF へのレンダリングで機能しない|強化|
+|CELLSNET-46080|PDF に変換すると、画像の色は黒になります。|強化|
+|CELLSNET-46087|ページ設定の PrintErrorType が Excel で PDF レンダリングに機能しない|強化|
 |CELLSNET-46084|PDF への保存中に PageSetup.PrintDraft が有効にならない|強化|
-|CELLSNET-46100|Excel ファイルを PDF に変換中の System.OutOfMemoryException|パフォーマンス|
+|CELLSNET-46100|Excel ファイルを PDF に変換中に System.OutOfMemoryException が発生する|パフォーマンス|
 |CELLSNET-46033|「Absent item Yes」という名前のページ フィールドが更新時に失われる|バグ|
 |CELLSNET-46096|計算チェーンと定義名を使用した場合の計算エラー|バグ|
 |CELLSNET-46047|ExcelファイルをGridWebにインポートすると、いくつかの列が消えます|バグ|
-|CELLSNET-46110|「Issue2 ラッピングなし」の場合、テキストの折り返しが正しくありません_習慣_page_size.xlsx」をPDFに変換|バグ|
-|CELLSNET-46109|「2号ラッピング.xlsx」をPDFに変換すると、文字の折り返しが正しくない|バグ|
-|CELLSNET-46108|「3号ラッピング.xlsx」をPDFに変換すると文字の折り返しが正しくない|バグ|
-|CELLSNET-46088|ページ設定のズーム倍率によって、PDF で誤ったページ数が作成される|バグ|
+|CELLSNET-46110|「Issue2 ラッピングなし」の場合、テキストの折り返しが正しくありません_習慣_page_size.xlsx」は PDF に変換されます|バグ|
+|CELLSNET-46109|「課題 2 ラッピング.xlsx」を PDF に変換すると、テキストの折り返しが正しくない|バグ|
+|CELLSNET-46108|「Issue3 Wrapping.xlsx」を PDF に変換すると、テキストの折り返しが正しくない|バグ|
+|CELLSNET-46088|ページ設定の倍率により、PDF に誤ったページ数が作成される|バグ|
 |CELLSNET-46076|ブックを MemoryStream に保存するときの例外|バグ|
 |CELLSNET-46052|一部のセルの周囲のグリッド線の一部が正しく描画されない|バグ|
-|CELLSNET-46036|グラフ タイトルは、Excel から PDF へのレンダリングで文字がすべて一緒に実行される場所で押しつぶされます。|バグ|
-|CELLSNET-46082|PDF に保存した後に円グラフの凡例の色が変わり、円グラフのスライスと一致しません。|バグ|
-|CELLSNET-46104|XLSB を XLSM に保存すると、破損した MS Excel ファイルが作成される|バグ|
+|CELLSNET-46036|グラフ タイトルは、Excel ですべての文字が PDF レンダリングに一緒に実行される場所で押しつぶされます。|バグ|
+|CELLSNET-46082|PDF に保存した後、円グラフの凡例の色が変わり、円グラフのスライスと一致しません。|バグ|
+|CELLSNET-46104|XLSB を XLSM に保存すると、破損した MS Excel ファイルが作成されます|バグ|
 |CELLSNET-46098|既存のワークブックにコピーすると名前付き範囲が失われる|バグ|
-|CELLSNET-46077|XLSX ファイルを再保存すると、埋め込まれた描画オブジェクトが出力ファイル内で狭すぎる|バグ|
-|CELLSNET-46068|Aspose.Cells SpreadsheetML ファイルを PDF として保存すると空白の PDF が返される|バグ|
+|CELLSNET-46077|XLSX ファイルを再保存すると、埋め込み描画オブジェクトが出力ファイルで狭すぎる|バグ|
+|CELLSNET-46068|SpreadsheetML ファイルを PDF として保存すると、Aspose.Cells は空白の PDF を返します。|バグ|
 |CELLSNET-46060|ODS を XLSX ファイル形式に変換中にデータが失われる|バグ|
 |CELLSNET-46057|名前付き範囲がスマート マーカーの「シフト」パラメータで拡張されない|バグ|
 |CELLSNET-46055|スマート マーカーで「シフト」パラメーターを使用すると、生成された行が同じスタイル/フォーマットでレンダリングされない|バグ|
 |CELLSNET-46048|条件付き書式は、シフト パラメータを使用したスマート マーカーでは機能しません|バグ|
 |CELLSNET-42764|ドキュメント行のサイズが自動調整されている場合、MS Excel セルのテキストが切り取られる|バグ|
 |CELLSNET-41678|ListObject/Table のサイズを変更しても、条件付き書式は更新されません|バグ|
-|CELLSNET-46059|読み込み中に例外がスローされるため、XLS ファイルを開くことができません|例外|
+|CELLSNET-46059|ロード中に例外がスローされるため、XLS ファイルを開くことができません|例外|
 |CELLSNET-46097|例外 "無効な式:"'New' Name'!G11:G15"."ピボット チャート データを更新するとき|例外|
 |CELLSNET-46075|Excel ファイルを PDF にレンダリングするときの例外|例外|
 |CELLSNET-46101|Mono Ubuntu Linux で MS Excel ファイルを開くと NullReferenceExceptions が発生する|例外|

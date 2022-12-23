@@ -9,7 +9,7 @@ description: In diesem Artikel wird beschrieben, wie Sie den Ladefilter für die
  Bitte verwende[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)-Eigenschaft beim Filtern von Daten aus der Arbeitsmappe.
 
  Das[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)Enumeration hat die folgenden Werte.
-- Alle
+- Alles
 - Bucheinstellungen
 - ZelleLeer
 - CellBool

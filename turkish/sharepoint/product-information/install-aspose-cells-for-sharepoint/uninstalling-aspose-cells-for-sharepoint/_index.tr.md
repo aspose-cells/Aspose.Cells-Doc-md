@@ -14,7 +14,7 @@ Aspose.Cells for SharePoint'i kaldırmak için kurulum programını çalıştır
 
 **Aspose.Cells kaldırılıyor** 
 
-![yapılacaklar:resim_alternatif_Metin](uninstalling-aspose-cells-for-sharepoint_1.png)
+![yapılacaklar:resim_alternatif_metin](uninstalling-aspose-cells-for-sharepoint_1.png)
 
 
 

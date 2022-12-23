@@ -20,7 +20,7 @@ La clase Worksheet proporciona la propiedad PageSetup, que se utiliza para confi
 
 ### **Orientación de la página**
 
- La orientación de la página se puede establecer en vertical u horizontal mediante el[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) clase'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) método. los[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) método toma el[**Tipo de orientación de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeración como parámetro. los miembros de la[**Tipo de orientación de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)enumeración se enumeran a continuación.
+La orientación de la página se puede establecer en vertical u horizontal mediante el[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) clase'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) método. Él[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) método toma el[**Tipo de orientación de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeración como parámetro. los miembros de la[**Tipo de orientación de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) enumeración se enumeran a continuación.
 
 |**Tipos de orientación de página**|**Descripción**|
 |:- |:- |
@@ -113,7 +113,7 @@ Aspose.Cells es totalmente compatible con las opciones de configuración de pág
 
 ![todo:imagen_alternativa_texto](page-setup-features_2.png)
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)que representa un archivo de Excel Microsoft. La clase Workbook contiene la colección Worksheets que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) que representa un archivo de Excel Microsoft. La clase Workbook contiene la colección Worksheets que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase.
 
  La clase Worksheet proporciona la propiedad PageSetup, que se utiliza para configurar las opciones de configuración de la página. El atributo PageSetup es un objeto del[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class que permite establecer diferentes opciones de diseño de página para una hoja de trabajo impresa. La clase PageSetup proporciona varias propiedades y métodos que se utilizan para configurar las opciones de configuración de la página.
 
@@ -130,13 +130,13 @@ Aspose.Cells es totalmente compatible con las opciones de configuración de pág
 
 ### **Centrar en la página**
 
- Es posible centrar algo en una página horizontal y verticalmente. los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) La clase tiene miembros para este propósito:[**establecerCentroHorizontalmente**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) y[**establecerCentroVerticalmente**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
+ Es posible centrar algo en una página horizontal y verticalmente. Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) La clase tiene miembros para este propósito:[**establecerCentroHorizontalmente**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterHorizontally) y[**establecerCentroVerticalmente**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#CenterVertically).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-CenterOnPage-CenterOnPage.java" >}}
 
 ### **Márgenes de encabezado y pie de página**
 
-Establecer márgenes de encabezado y pie de página con[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) miembros como[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) y[**establecer Margen de pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Establecer márgenes de encabezado y pie de página con[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) miembros como[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) y[**establecer Margen de pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -158,7 +158,7 @@ Los comandos de script son comandos especiales proporcionados por Aspose.Cells q
 
 |**Comandos de secuencia de comandos**|**Descripción**|
 |:- |:- |
-|&PAGS|El número de página actual.|
+|&PAG|El número de página actual.|
 |&GRAMO|Una foto.|
 |&NORTE|El número total de páginas.|
 |&D|La fecha actual.|
@@ -171,20 +171,20 @@ Los comandos de script son comandos especiales proporcionados por Aspose.Cells q
 
 ### **Establecer encabezados y pies de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase proporciona el método[**establecerEncabezado**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) para agregar un encabezado y[**establecer pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) para agregar un pie de página a una hoja de cálculo. El script se utiliza como argumento para todos los métodos mencionados anteriormente. Representa el script que se utilizará para el encabezado o pie de página. Este script contiene comandos de script para formatear encabezados o pies de página.
+ Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase proporciona el método[**establecerEncabezado**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeader(int,%20java.lang.String) para agregar un encabezado y[**establecer pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooter(int,%20java.lang.String)) para agregar un pie de página a una hoja de cálculo. El script se utiliza como argumento para todos los métodos mencionados anteriormente. Representa el script que se utilizará para el encabezado o pie de página. Este script contiene comandos de script para formatear encabezados o pies de página.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetHeadersAndFooters-SetHeadersAndFooters.java" >}}
 
 ### **Insertar un gráfico en un encabezado o pie de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase tiene los métodos[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) y[**establecer imagen de pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) para agregar imágenes al encabezado y pie de página de una hoja de trabajo. Estos métodos toman dos parámetros:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase tiene los métodos[**setHeadPicture**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setHeaderPicture(int,%20byte[]) ) y[**establecer imagen de pie de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFooterPicture(int,%20byte[])) para agregar imágenes al encabezado y pie de página de una hoja de trabajo. Estos métodos toman dos parámetros:
 
 - **Sección**, la sección del encabezado o pie de página donde se colocará la imagen. Hay tres secciones: izquierda, centro y derecha, representadas por los valores numéricos 0, 1 y 2 respectivamente.
 - **Flujo de entrada de archivo**, los datos gráficos. Los datos binarios deben escribirse en el búfer de una matriz de bytes.
 
 Después de ejecutar el código y abrir el archivo, verifique el encabezado de la hoja de trabajo en Microsoft Excel:
 
-1.  Sobre el**Expediente** menú, seleccione**Configuración de página**.
+1.  Sobre el**Archivo** menú, seleccione**Configuración de página**.
 1.  En el cuadro de diálogo Configurar página, seleccione el**Encabezado/Pie de página** pestaña.
 
 **Insertar un gráfico en un encabezado/pie de página** 
@@ -195,13 +195,13 @@ Después de ejecutar el código y abrir el archivo, verifique el encabezado de l
 
 ### **Insertar un gráfico solo en el encabezado de la primera página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class también tiene otros métodos útiles, por ejemplo[**establecerImagen**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**establecerFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), para agregar imágenes en el encabezado/pie de página de la primera página de una hoja de cálculo. La primera página es una página especial: es común querer que muestre información especial, por ejemplo, el logotipo de una empresa.
+ Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class también tiene otros métodos útiles, por ejemplo[**establecerImagen**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setPicture(boolean,%20boolean,%20boolean,%20int,%20byte[])), [**establecerFirstPageHeader**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageHeader(int,%20java.lang.String)), [**setFirstPageFooter**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#setFirstPageFooter(int,%20java.lang.String)), para agregar imágenes en el encabezado/pie de página de la primera página de una hoja de cálculo. La primera página es una página especial: es común querer que muestre información especial, por ejemplo, el logotipo de una empresa.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-InsertGraphicinFirstPageHeaderOnly-InsertGraphicinFirstPageHeaderOnly.java" >}}
 
 ## **Configuración de las opciones de impresión**
 
-Microsoft Los ajustes de configuración de página de Excel proporcionan varias opciones de impresión (también denominadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de cálculo. Estas opciones de impresión permiten a los usuarios:
+Microsoft Los ajustes de configuración de página de Excel proporcionan varias opciones de impresión (también denominadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de trabajo. Estas opciones de impresión permiten a los usuarios:
 
 - Seleccione un área de impresión específica en una hoja de trabajo.
 - Imprimir títulos.
@@ -218,7 +218,7 @@ Todas estas opciones de impresión se muestran a continuación.
 
 ![todo:imagen_alternativa_texto](page-setup-features_5.png)
 
-### **Configuración de las opciones de impresión y hoja**
+### **Configuración de las opciones de impresión y hojas**
 
  spose.Cells admite todas las opciones de impresión que ofrece Microsoft Excel y los desarrolladores pueden configurar fácilmente estas opciones para las hojas de trabajo utilizando las propiedades que ofrece el[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup)clase. Cómo se utilizan estas propiedades se analiza a continuación con más detalle.
 
@@ -240,7 +240,7 @@ Las filas o columnas que se repetirán se definen pasando sus números de fila o
 
 ### **Establecer otras opciones de impresión**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class también proporciona varias otras propiedades para establecer las opciones generales de impresión de la siguiente manera:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) class también proporciona varias otras propiedades para establecer las opciones generales de impresión de la siguiente manera:
 
 - [**setPrintGridlines**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintGridlines), una propiedad booleana que define si se imprimen líneas de cuadrícula o no.
 - [*establecerEncabezados de impresión*](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintHeadings), una propiedad booleana que define si se imprimen o no los encabezados de fila y columna.
@@ -272,7 +272,7 @@ Las filas o columnas que se repetirán se definen pasando sus números de fila o
 
 ### **Establecer orden de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase proporciona la[**establecer orden**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de trabajo. Hay dos posibilidades para ordenar las páginas de la siguiente manera:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) la clase proporciona la[**establecer orden**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Order) propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de cálculo. Hay dos posibilidades para ordenar las páginas de la siguiente manera:
 
 - **Abajo y luego encima** imprime todas las páginas hacia abajo antes de imprimir cualquier página hacia la derecha.
 - **arriba y luego abajo** imprime las páginas de izquierda a derecha antes de imprimir las siguientes páginas.

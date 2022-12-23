@@ -17,7 +17,7 @@ url: /es/java/aspose-cells-for-java-20-8-release-notes/
 |CELLSJAVA-43240|Saltos de línea no deseados en formas/objetos al convertir Excel a PDF|Insecto|
 |CELLSJAVA-43255|Problema de rendimiento en la conversión de Excel a PDF|Insecto|
 |CELLSJAVA-43250|Las celdas de etiquetas expandidas no se fusionan en SmartMarker|Insecto|
-|CELLSJAVA-43253|Guardar el archivo usando OoxmlSaveOptions después de reemplazar el texto en SmartArt convierte XLS a XLSX|Insecto|
+|CELLSJAVA-43253|Guardar el archivo usando OoxmlSaveOptions después de reemplazar texto en SmartArt convierte XLS a XLSX|Insecto|
 CELLSJAVA-43170|CellsException en el método de fórmula de cálculo|Excepción|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

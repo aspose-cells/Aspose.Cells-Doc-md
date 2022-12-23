@@ -1,5 +1,5 @@
 ﻿---
-title: 複数のエンコーディングを含む CSV ファイルの読み取り
+title: 複数のエンコーディングを持つ CSV ファイルの読み取り
 type: docs
 weight: 200
 url: /ja/net/reading-csv-file-with-multiple-encodings/
@@ -10,7 +10,7 @@ CSV ファイルに複数のエンコーディング (Unicode、ANSI、UTF8、UT
 
 {{% /alert %}}
 
-Aspose.Cells は[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)に設定する必要があるプロパティ**真実**複数のエンコーディングを使用して CSV ファイルを適切にロードします。
+Aspose.Cells は[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)に設定する必要があるプロパティ**真実**複数のエンコーディングで CSV ファイルを適切にロードします。
 
 次のスクリーンショットは、2 行を含むサンプル CSV ファイルを示しています。最初の行は**ANSI**エンコーディングと2行目は**ユニコード**エンコーディング
 
@@ -18,7 +18,7 @@ Aspose.Cells は[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com
 |:- |
 |![todo:画像_代替_文章](reading-csv-file-with-multiple-encodings_1.png)|
 
-次のスクリーンショットは、上記の CSV ファイルから変換された XLSX ファイルを示しています。[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)プロパティへ**真実**.ご覧のとおり、Unicode テキストは適切に変換されていません。
+次のスクリーンショットは、上記の CSV ファイルを設定せずに変換した XLSX ファイルを示しています。[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)プロパティへ**真実**.ご覧のとおり、Unicode テキストは適切に変換されていません。
 
 |**出力ファイル 1: 複数のエンコードに対応していません**|
 |:- |

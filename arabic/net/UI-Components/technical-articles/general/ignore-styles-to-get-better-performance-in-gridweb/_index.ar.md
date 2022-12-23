@@ -7,7 +7,7 @@ description: توضح هذه المقالة كيفية استخدام IgnoreStyl
 keywords: performance
 ---
 ## **سيناريوهات الاستخدام الممكنة**
- يرجى استخدام[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)الخاصية لتحميل عدد أقل من الصفوف / الأعمدة المطلوبة من المصنف.
+ الرجاء استخدام[GridWeb.IgnoreStyleWithNoData](https://reference.aspose.com/cells/net/aspose.cells.gridweb/mainweb/ignorestylewithnodata)الخاصية لتحميل عدد أقل من الصفوف / الأعمدة المطلوبة من المصنف.
  
 ## **احصل على أداء أفضل أثناء تحميل المصنف**
  رجاء تاكد من[نموذج ملف اكسل](largerowswithstyle.xlsx) 

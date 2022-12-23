@@ -77,7 +77,7 @@ Aquí hay un escenario de uso simple.
 
 
 ### **Se agregó la propiedad CellsHelper.SignificantDigits**
-Aspose.Cells 17.1.0 ha expuesto la propiedad SignificantDigits de la clase CellsHelper que permite obtener o establecer la cantidad de dígitos significativos para valores numéricos en una hoja de cálculo. El valor predeterminado de la propiedad CellsHelper.SignificantDigits es 17, mientras que solo es aplicable si el resultado debe almacenarse en formato de archivo XLSX.
+Aspose.Cells 17.1.0 ha expuesto la propiedad SignificantDigits de la clase CellsHelper que permite obtener o establecer la cantidad de dígitos significativos para valores numéricos en una hoja de cálculo. El valor predeterminado de la propiedad CellsHelper.SignificantDigits es 17, mientras que solo es aplicable si el resultado debe almacenarse en el formato de archivo XLSX.
 
 Aquí hay un escenario simple para demostrar el uso de la propiedad CellsHelper.SignificantDigits.
 
@@ -139,7 +139,7 @@ Aspose.Cells 17.1.0 ha expuesto las propiedades PaperWidth y PaperHeight para la
 
 {{% alert color="primary" %}} 
 
- Consulte el artículo detallado sobre[Recuperación del tamaño de papel de la hoja de trabajo](/cells/es/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
+ Consulte el artículo detallado sobre[Recuperación del tamaño de papel de la hoja de cálculo](/cells/es/net/get-paper-width-and-height-of-page-setup-of-worksheet/)
 
 {{% /alert %}} 
 ### **Se agregó la propiedad WorkbookSettings.CheckCustomNumberFormat**

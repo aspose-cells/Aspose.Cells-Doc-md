@@ -22,13 +22,13 @@ url: /tr/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Hatalar
 
- 41748 - XLSX bozuk olarak kaydedilen çalışma kitabı
+ 41748 - XLSX olarak kaydedilen çalışma kitabı bozuk
 
  41710 - Bir karakter soru işaretine dönüşüyor
 
- 41614 - PDF, filtrelenmiş öğeleri göstermiyor
+ 41614 - PDF filtrelenmiş öğeleri göstermiyor
 
-41695 - Grafik Göstergesi yanlış konumda
+ 41695 - Grafik Göstergesi yanlış konumda
 
 41632 - Grafik Göstergesi merkeze hizalanamaz 41745 - Belirli Kopyala/Yapıştır özellikleri bozuk
 
@@ -44,6 +44,6 @@ url: /tr/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Hatalar
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Hatalar

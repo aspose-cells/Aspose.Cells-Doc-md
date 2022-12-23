@@ -16,8 +16,8 @@ url: /de/java/aspose-cells-for-java-2-1-2-release-notes/
 
 - Bietet Diagramm-zu-Bild-Funktion.
  Importiert RichText aus der SpreadSheetML-Vorlagendatei.
-Unterstützt den Export des Name-Objekts mit externen Referenzen für die SpreadSheetML-Datei.
- Exportiert Bilder in PageSetup for Excel 2007-Dateien.
+ Unterstützt den Export des Name-Objekts mit externen Referenzen für die SpreadSheetML-Datei.
+Exportiert Bilder in PageSetup for Excel 2007-Dateien.
  Importiert TextBox-Steuerelemente aus Excel 2007-Dateien.
  Bietet Unterstützung zum Festlegen von Aufzeichnungsgrenzen beim Importieren von Daten aus ResultSet für Smart Markers.
  Legt die Position einer Form auf die Mitte des angegebenen Bereichs fest.
@@ -30,10 +30,10 @@ Unterstützt den Export des Name-Objekts mit externen Referenzen für die Spread
  Verbessert die Leistung beim Lesen großer Excel 2007-Dateien.
  Steigert die Leistung von LightCells API für große Excel 2007-Dateien.
  Der Lesevorgang für die Eigenschaften eines Dokuments wurde verbessert.
-Das Importieren von CSV-Dateien wurde verbessert.
+ Der Vorgang zum Importieren von CSV-Dateien wurde verbessert.
  67 Korrekturen und Verbesserungen.
 
- In Aspose.Cells for Java behobene Probleme 2.1.2
+In Aspose.Cells for Java behobene Probleme 2.1.2
 
 
 
@@ -48,7 +48,7 @@ Das Importieren von CSV-Dateien wurde verbessert.
 |11928 | XLS| Vorlagendatei lesen|
 |11943 | SpreadSheetML| Lesen Sie eine spezielle Datei, die von OWC generiert wurde|
 |11973 | SpreadSheetML| Lesen Sie eine spezielle Datei, die von OWC generiert wurde|
-|12006 | CSV| csv-Datei lesen|
+|12006 |CSV | csv-Datei lesen|
 |12032 | FormelEngine| COUNTIF-Formel|
 |12034 | XLS| Spalten automatisch anpassen|
 |12056 | FormelEngine| IF-Formel|
@@ -72,11 +72,11 @@ Das Importieren von CSV-Dateien wurde verbessert.
 |12493 | XLSX| Lesen Sie Bedingte Formatierung|
 |12498 | Diagramm| ChartPoints- und LegendEntries-Sammlung|
 |12575 | Diagramm| Die Größe von PlotArea|
-|12576 | Diagramm|Fehlerleiste|
+|12576 | Diagramm| Fehlerleiste|
 |12622 | XLSX| Geteilte Formel lesen|
 |12625 | XLSX| Diagramm lesen|
 |12667 | XLS| Datetime-Wert|
-|12684 | CSV| Nummer lesen|
+|12684 |CSV |Nummer lesen|
 |12717 | XLS| Bild mit Mac OS|
 |12727 | XLS| Dokumenteigenschaften lesen|
 |12750 | XLS| Holen Sie sich einen Hyperlink der Form|

@@ -14,12 +14,12 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.7.
 |:- |:- |:- |
 |CELLSJAVA-42668|Unterstützung mehrerer Werte bei Verwendung des Klassenstils (Verknüpft mit: CELLSJAVA-42635)|Erweiterung|
 |CELLSJAVA-42627|Smart Art-Bilder können nicht korrekt extrahiert werden – Form-zu-Bild-Konvertierung (CELLSJAVA-42619)|Erweiterung|
-|CELLSJAVA-42672|Das ausgegebene PDF-Dokument ist zu groß|Insekt|
+|CELLSJAVA-42672|Das Ausgabedokument PDF ist zu groß|Insekt|
 |CELLSJAVA-42671|Problem mit Hyperlinks beim Anzeigen der Excel-Ausgabedatei in der japanischen Version von MS Excel|Insekt|
 |CELLSJAVA-42667|Erhalten von '#NUM!' für eine Zelle mit IRR-Funktion|Insekt|
 |CELLSJAVA-42658|Arbeitsmappen mit XL4-Makros (XLSM) werden nach dem Speichern beschädigt|Insekt|
 |CELLSJAVA-42656|AlternativeText gibt den Wert des Kommentars Text zurück|Insekt|
-|CELLSJAVA-42635|HTML zu XLS - CSS-Stil ignoriert|Insekt|
+|CELLSJAVA-42635|HTML bis XLS – CSS-Stil ignoriert|Insekt|
 |CELLSJAVA-42673|Ausnahme "java.lang.NumberFormatException" beim Laden einer Excel-Datei|Ausnahme|
 |CELLSJAVA-42669|Ausnahme "java.lang.NullPointerException" beim Berechnen von Formeln in der Arbeitsmappe|Ausnahme|
 |CELLSJAVA-42663|Chart.calculate() löst IndexOutOfBoundsException aus|Ausnahme|

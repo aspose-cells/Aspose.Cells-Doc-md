@@ -16,7 +16,7 @@ url: /de/sharepoint/aspose-cells-for-sharepoint-3-0-1-release-notes/
 
  SHAREPOINT-40018 – Suche im Dokument bei SharePoint
 
-SHAREPOINT-40015- Aspose.Cells for SharePoint Symbolleiste for SharePoint 2010 hinzufügen
+ SHAREPOINT-40015- Aspose.Cells for SharePoint Symbolleiste for SharePoint 2010 hinzufügen
 
 
 

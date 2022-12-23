@@ -11,7 +11,7 @@ Bu belge, Aspose.Cells API sürümünde 8.6.1'den 8.6.2'ye modül/uygulama geli�
 {{% /alert %}} 
 ## **Eklenen API'ler**
 ### **Akıllı İşaretleyicilerle Geri Arama Desteği**
-Aspose.Cells for Java API'in bu sürümü, WorkbookDesigner.CallBack alanını ve ISmartMarkerCallBack arabirimini kullanıma sunmuştur.[işlenmekte olan hücre referansı ve/veya akıllı işaretleyici hakkında bildirimleri alın](/cells/tr/java/getting-notifications-while-merging-data-with-smart-markers/) . Aşağıdaki kod parçası, WorkbookDesigner.process yöntemi için geri aramayı işleyen yeni bir sınıf tanımlamak için ISmartMarkerCallBack arabiriminin kullanımını gösterir.
+ Aspose.Cells for Java API'in bu sürümü, WorkbookDesigner.CallBack alanını ve ISmartMarkerCallBack arabirimini kullanıma sunmuştur.[işlenmekte olan hücre referansı ve/veya akıllı işaretleyici hakkında bildirimleri alın](/cells/tr/java/getting-notifications-while-merging-data-with-smart-markers/) . Aşağıdaki kod parçası, WorkbookDesigner.process yöntemi için geri aramayı işleyen yeni bir sınıf tanımlamak için ISmartMarkerCallBack arabiriminin kullanımını gösterir.
 
 **Java**
 
@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **Yöntem Chart.toPdf Eklendi**
-Aspose.Cells for Java 8.6.2, Chart şeklini doğrudan PDF formatına dönüştürmek için kullanılabilecek Chart.toPdf yöntemini ortaya çıkardı. Bahsedilen yöntem şu anda, ortaya çıkan dosyayı diskte depolamak için dosya yolu konumu olarak String türünde bir parametre kabul etmektedir.
+Aspose.Cells for Java 8.6.2, Chart şeklini doğrudan PDF biçimine dönüştürmek için kullanılabilecek Chart.toPdf yöntemini kullanıma sundu. Bahsedilen yöntem şu anda, ortaya çıkan dosyayı diskte depolamak için dosya yolu konumu olarak String türünde bir parametre kabul etmektedir.
 
 Basit kullanım senaryosu aşağıdadır.
 

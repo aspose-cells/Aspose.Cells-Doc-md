@@ -19,12 +19,12 @@ url: /ar/java/aspose-cells-for-java-7-1-1-release-notes/
 
  التحسينات
 
-- الحفظ في XLSX باستخدام LightCells API عن طريق العرض المباشر لـ OutputStream
+- حفظ إلى XLSX باستخدام LightCells API عن طريق العرض المباشر لـ OutputStream
 
  استثناءات
 
 - يطرح أسلوب Cell.setHtmlString () NullPointerException
-- صفوف ملفات قالب Readingan XLSX NullPointerException
+- Readingan XLSX قالب صفوف ملفات NullPointerException
 
  البق
 

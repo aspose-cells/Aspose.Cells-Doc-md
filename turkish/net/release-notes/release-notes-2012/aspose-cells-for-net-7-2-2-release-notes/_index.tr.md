@@ -44,7 +44,7 @@ Biz
 - Aspose Cells kullanılarak dosyanın kopyalanması Onarım çalışması gerektirir
 - Bir Excel 97 XLS dosyasının bir Word belgesi olduğunu düşünmek
 
- -PDF grafiğine dışa aktarma, Excel sürümünden farklıdır
+ -PDF tablosuna aktarma Excel sürümünden farklıdır
 
 - PDF grafiğine dışa aktarma, Excel sürüm -2'den farklıdır
 

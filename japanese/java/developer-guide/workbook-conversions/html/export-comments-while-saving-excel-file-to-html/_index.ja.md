@@ -1,12 +1,12 @@
 ﻿---
-title: Excel ファイルを HTML に保存しながらコメントをエクスポートする
+title: ExcelファイルをHTMLに保存しながらコメントをエクスポートする
 type: docs
 weight: 40
 url: /ja/java/export-comments-while-saving-excel-file-to-html/
 ---
 ## **考えられる使用シナリオ**
 
-Excel ファイルを HTML に保存すると、コメントはエクスポートされません。ただし、Aspose.Cells は、[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)財産。設定すれば**真実**の場合、HTML は Excel ファイルに存在するコメントも表示します。
+Excel ファイルを HTML に保存すると、コメントがエクスポートされません。ただし、Aspose.Cells は、[**HtmlSaveOptions.IsExportComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#IsExportComments)財産。設定すれば**真実**、次に HTML は、Excel ファイルに存在するコメントも表示します。
 
 ## **ExcelファイルをHtmlに保存しながらコメントをエクスポート**
 

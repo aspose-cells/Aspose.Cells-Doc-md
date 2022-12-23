@@ -6,7 +6,7 @@ url: /sv/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Möjliga användningsscenarier**
 
- Aspose.Cells API:er har avslöjat[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass för att hantera de scenarier där användaren vill använda anpassade etiketter för delsummor i ett kalkylblad. Dessutom[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass kan också användas för att ändra**Övrig** etikett för cirkeldiagrammet medan du renderar kalkylblad eller diagram.
+ Aspose.Cells API:er har avslöjat[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass för att hantera de scenarier där användaren vill använda anpassade etiketter för delsummor i ett kalkylblad. Dessutom[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) klass kan också användas för att ändra**Övrig** etikett för cirkeldiagrammet medan du renderar kalkylblad eller diagram.
 
 ## **Introduktion till GlobalizationSettings Class**
 
@@ -18,7 +18,7 @@ url: /sv/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Anpassade etiketter för delsummor**
 
- De[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) klass kan användas för att anpassa etiketterna Delsumma genom att åsidosätta[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)metoder som visats framöver.
+ De[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass kan användas för att anpassa etiketterna Delsumma genom att åsidosätta[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)metoder som visats framöver.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Проверка данных
+title: Валидация данных
 type: docs
 weight: 70
 url: /ru/java/data-validation/
@@ -8,13 +8,13 @@ url: /ru/java/data-validation/
 
 Microsoft Excel предоставляет несколько полезных функций для автоматической фильтрации или проверки данных рабочего листа.
 
-[Проверка данных](/cells/ru/java/data-validation/) это возможность устанавливать правила, относящиеся к данным, введенным на листе. Например, используйте проверку, чтобы убедиться, что столбец с надписью ДАТА содержит только даты или что другой столбец содержит только числа. Вы даже можете убедиться, что столбец с надписью DATE содержит только даты в определенном диапазоне. С проверкой данных вы можете контролировать, что вводится в ячейки на листе. Aspose.Cells полностью поддерживает функции проверки данных и автофильтра Microsoft Excel. В этой статье объясняется, как использовать функции в Microsoft Excel и как кодировать их с помощью Aspose.Cells.
+[Валидация данных](/cells/ru/java/data-validation/) это возможность устанавливать правила, относящиеся к данным, введенным на листе. Например, используйте проверку, чтобы убедиться, что столбец с надписью ДАТА содержит только даты или что другой столбец содержит только числа. Вы даже можете убедиться, что столбец с надписью DATE содержит только даты в определенном диапазоне. С проверкой данных вы можете контролировать, что вводится в ячейки на листе. Aspose.Cells полностью поддерживает функции проверки данных и автофильтра Microsoft Excel. В этой статье объясняется, как использовать функции в Microsoft Excel и как кодировать их с помощью Aspose.Cells.
 
 {{% /alert %}} 
 ## **Типы проверки данных и выполнение**
 Microsoft Excel поддерживает ряд различных типов проверки данных. Каждый тип используется для контроля того, какой тип данных вводится в ячейку или диапазон ячеек. Ниже фрагменты кода иллюстрируют, как это проверить:
 
-- [Числа целые](/cells/ru/java/data-validation/)то есть, что они не имеют десятичной части.
+- [Numbers целые](/cells/ru/java/data-validation/)то есть, что они не имеют десятичной части.
 - [Десятичные числа следуют правильной структуре](/cells/ru/java/data-validation/). В примере кода определяется, что диапазон ячеек должен содержать два десятичных пробела.
 - [Значения ограничены списком значений](/cells/ru/java/data-validation/). Проверка списка определяет отдельный список значений, которые можно применить к ячейке или диапазону ячеек.
 - [Даты попадают в определенный диапазон](/cells/ru/java/data-validation/).
@@ -46,13 +46,13 @@ Microsoft Excel поддерживает ряд различных типов п
 
 [Тип Валидации](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)перечисление имеет следующие члены:
 
-|**Имя члена**|**Описание**|
+|**Имя участника**|**Описание**|
 |:- |:- |
 |[ЛЮБОЕ_ЗНАЧЕНИЕ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Обозначает значение любого типа.|
 |[ЦЕЛОЕ ЧИСЛО](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Обозначает тип проверки для целых чисел.|
 |[ДЕСЯТИЧНЫЙ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DECIMAL)|Обозначает тип проверки для десятичных чисел.|
 |[СПИСОК](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#LIST)|Обозначает тип проверки для раскрывающегося списка.|
-|[СВИДАНИЕ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Обозначает тип проверки для дат.|
+|[ДАТИРОВАТЬ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#DATE)|Обозначает тип проверки для дат.|
 |[ВРЕМЯ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TIME)|Обозначает тип проверки для времени.|
 |[TEXT_LENGTH](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#TEXT_LENGTH)|Обозначает тип проверки длины текста.|
 |[ОБЫЧАЙ](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#CUSTOM)|Обозначает настраиваемый тип проверки.|
@@ -128,6 +128,6 @@ Microsoft Excel поддерживает ряд различных типов п
 
 
 ## **Предварительные темы**
-- [Получить Cell Проверка в файлах ODS](/cells/ru/java/get-cell-validation-in-ods-files/)
+- [Получить проверку Cell в файлах ODS](/cells/ru/java/get-cell-validation-in-ods-files/)
 - [Применить проверку к номеру Cell](/cells/ru/java/get-validation-applied-on-a-cell/)
 - [Убедитесь, что значение Cell удовлетворяет правилам проверки данных.](/cells/ru/java/verify-that-cell-value-satisfies-data-validation-rules/)

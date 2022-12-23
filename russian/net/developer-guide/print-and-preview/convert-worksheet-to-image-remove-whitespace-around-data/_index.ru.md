@@ -12,7 +12,7 @@ url: /ru/net/convert-worksheet-to-image-remove-whitespace-around-data/
 
 ## **Удалить пробелы вокруг данных**
 
-[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API преобразует рабочий лист в файл изображения с любыми заданными атрибутами, например форматом изображения, листами с разбивкой на страницы и т. д. Поддерживается несколько форматов изображений, включая BMP, GIF, JPG, TIFF и EMF.
+[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API преобразует рабочий лист в файл изображения с любыми указанными атрибутами, например форматом изображения, листами с разбивкой на страницы и т. д. Поддерживается несколько форматов изображений, включая BMP, GIF, JPG, TIFF и EMF.
 
  Когда вы используете функцию преобразования листа в изображение, выходное изображение по умолчанию имеет пробелы, то есть границу вокруг него. Вы можете удалить это, установив верхнее, нижнее, левое и правое поля настройки страницы для исходного листа на 0 и указав[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)атрибуты соответственно.
 

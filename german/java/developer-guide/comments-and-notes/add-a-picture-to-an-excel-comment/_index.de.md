@@ -20,7 +20,7 @@ Mit Microsoft Excel 2007 ist es möglich, ein Bild als Hintergrund für einen Ze
 1.  Wählen**Kommentare ein-/ausblenden** und löschen Sie jeglichen Text aus dem Kommentar.
 1. Klicken Sie auf den Rand des Kommentars, um ihn auszuwählen.
 1.  Wählen**Format** , dann**Kommentar**.
-1. Klicken Sie auf der Registerkarte Farben und Linien auf den Pfeil für**Farbe**.
+1.  Klicken Sie auf der Registerkarte Farben und Linien auf den Pfeil für**Farbe**.
 1.  Klicken**Fülleffekte**.
 1.  Klicken Sie auf die Registerkarte Bild**Wählen Sie Bild**.
 1. Suchen Sie das Bild und wählen Sie es aus

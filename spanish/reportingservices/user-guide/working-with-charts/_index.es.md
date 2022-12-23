@@ -51,8 +51,8 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-1.  En Microsoft Excel, haga clic en el**Insertar** menú y seleccione**Cuadro**.
-1.  Hacer clic**próximo**. 
+1.  En Microsoft Excel, haga clic en el**Insertar** menú y seleccione**Gráfico**.
+1.  Hacer clic**Próximo**. 
 
 ![todo:imagen_alternativa_texto](working-with-charts_2.png)
 
@@ -85,7 +85,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
  En la muestra, hemos agregado la serie de ventas.
 1. Establezca el valor de Serie2 (Serie de ventas) en el segundo campo de datos de la tabla.
 En la muestra es “CompanySales!$D$3:$D$3”. El primer $D$3 es el índice de la primera fila de "Ventas" y el segundo $D$3 es un marcador de posición para el índice de la última fila de "Ventas" y se reemplazará con el índice de la fila real de los datos de la tabla en el momento de la representación.
-1.  Hacer clic**próximo** continuar.
+1.  Hacer clic**Próximo** continuar.
 
 ![todo:imagen_alternativa_texto](working-with-charts_6.png)
 

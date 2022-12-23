@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSRS-556|Supporta Microsoft Reporting Services 2019.|Nuova caratteristica|
 |CELLSRS-568|Integra Aspose.Cells for Reporting Services in Visual Studio 2017/2019.|Nuova caratteristica|

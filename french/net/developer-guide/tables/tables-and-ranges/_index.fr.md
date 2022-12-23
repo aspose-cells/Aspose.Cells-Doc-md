@@ -28,8 +28,8 @@ Les fonctionnalités du tableau ne sont plus disponibles une fois le tableau con
 
 ## **Convertir une table en plage avec des options**
 
-Aspose.Cells fournit des options supplémentaires lors de la conversion de la table en plage via le[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) classer. La[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)la classe fournit[**Dernière rangée**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions/properties/lastrow)propriété qui vous permet de définir le dernier index de la ligne du tableau. La mise en forme du tableau sera conservée jusqu'à l'index de ligne spécifié et le reste de la mise en forme sera supprimé.
+Aspose.Cells fournit des options supplémentaires lors de la conversion de la table en plage via le[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions) classe. Le[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)la classe fournit[**Dernière rangée**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions/properties/lastrow)propriété qui vous permet de définir le dernier index de la ligne du tableau. La mise en forme du tableau sera conservée jusqu'à l'index de ligne spécifié et le reste de la mise en forme sera supprimé.
 
-L'exemple de code ci-dessous illustre l'utilisation de[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)classer.
+L'exemple de code ci-dessous illustre l'utilisation de[**TableToRangeOptions**](https://reference.aspose.com/cells/net/aspose.cells.tables/tabletorangeoptions)classe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-ConvertTableToRangeWithOptions-1.cs" >}}

@@ -28,7 +28,7 @@ Der wichtigste Punkt, den Sie über integrierte und benutzerdefinierte Eigenscha
 |**Auswählen des Info-Menüs**|
 |:- |
 |![todo: Bild_alt_Text](managing-document-properties_1.png)|
-1.  Klicke auf**Eigenschaften** Überschrift und wählen Sie "Erweiterte Eigenschaften".
+1.  Klicke auf**Eigenschaften**Überschrift und wählen Sie "Erweiterte Eigenschaften".
 
 |**Klicken Sie auf Erweiterte Eigenschaftenauswahl**|
 |:- |
@@ -46,7 +46,7 @@ Entwickler können die Dokumenteigenschaften mithilfe der Aspose.Cells-APIs dyna
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beim Rendern von Document in PDF wird beispielsweise Aspose.Cells for .NET ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF-Produzent** Feld mit dem Wert, zB 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beispielsweise wird beim Rendern von Dokument an PDF Aspose.Cells for .NET ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF Hersteller** Feld mit dem Wert, zB 'Aspose.Cells v17.9'.
 
 Bitte beachten Sie, dass Sie Aspose.Cells for .NET nicht anweisen können, diese Informationen aus Ausgabedokumenten zu ändern oder zu entfernen.
 
@@ -54,7 +54,7 @@ Bitte beachten Sie, dass Sie Aspose.Cells for .NET nicht anweisen können, diese
 
 ### **Zugriff auf Dokumenteigenschaften**
 
- Aspose.Cells APIs unterstützen beide Arten von Dokumenteigenschaften, integrierte und benutzerdefinierte. Aspose.Cells'[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse stellt eine Excel-Datei dar und wie eine Excel-Datei die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Die Klasse kann mehrere Arbeitsblätter enthalten, die jeweils durch dargestellt werden[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse, während die Sammlung von Arbeitsblättern durch die dargestellt wird[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Klasse.
+Aspose.Cells APIs unterstützen beide Arten von Dokumenteigenschaften, integrierte und benutzerdefinierte. Aspose.Cells'[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse stellt eine Excel-Datei dar und wie eine Excel-Datei die[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Die Klasse kann mehrere Arbeitsblätter enthalten, die jeweils durch dargestellt werden[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse, während die Sammlung von Arbeitsblättern durch die dargestellt wird[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)Klasse.
 
  Verwenden Sie die[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection), um wie unten beschrieben auf die Dokumenteigenschaften der Datei zuzugreifen.
 
@@ -84,7 +84,7 @@ Bitte beachten Sie, dass Sie Aspose.Cells for .NET nicht anweisen können, diese
 |Boolesch|Der Eigenschaftsdatentyp ist Boolean|ToBool|
 |Datum|Der Eigenschaftsdatentyp ist DateTime. Beachten Sie, dass Microsoft nur Excel speichert<br>B. dem Datumsteil, kann keine Uhrzeit in einer benutzerdefinierten Eigenschaft dieses Typs gespeichert werden|ToDateTime|
 |Schweben|Der Eigenschaftsdatentyp ist Double|Verdoppeln|
-|Nummer|Der Eigenschaftsdatentyp ist Int32|ToInt|
+|Anzahl|Der Eigenschaftsdatentyp ist Int32|ToInt|
 |Schnur|Der Eigenschaftsdatentyp ist String|ToString|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
@@ -95,7 +95,7 @@ Wie wir bereits zu Beginn dieses Themas beschrieben haben, können Entwickler ke
 
 ### **Hinzufügen von benutzerdefinierten Eigenschaften**
 
- Aspose.Cells APIs haben die ausgesetzt[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) Methode für die[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) -Klasse, um der Sammlung benutzerdefinierte Eigenschaften hinzuzufügen. Das[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) -Methode fügt die Eigenschaft der Excel-Datei hinzu und gibt einen Verweis auf die neue Dokumenteigenschaft als zurück[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)Objekt.
+ Aspose.Cells APIs haben die ausgesetzt[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) Methode für die[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) -Klasse, um der Sammlung benutzerdefinierte Eigenschaften hinzuzufügen. Das[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) -Methode fügt die Eigenschaft der Excel-Datei hinzu und gibt einen Verweis auf die neue Dokumenteigenschaft als zurück[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)Objekt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 

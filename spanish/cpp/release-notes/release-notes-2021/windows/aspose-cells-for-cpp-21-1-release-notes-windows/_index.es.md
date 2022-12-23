@@ -13,5 +13,5 @@ Esta página contiene notas de la versión para Aspose.Cells for C++ 21.1 para W
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSCPP-269| Solucionar el problema de la licencia de carga|Insecto|
-|CELLSCPP-270|Solucionar el problema de convertir a PDF|Insecto|
+|CELLSCPP-270|Arreglar el problema de convertir a PDF|Insecto|
 |CELLSCPP-271|Admite la función SetDPI|Nueva caracteristica|

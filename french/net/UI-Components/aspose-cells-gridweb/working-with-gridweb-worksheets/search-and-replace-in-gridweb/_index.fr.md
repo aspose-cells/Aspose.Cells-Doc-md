@@ -14,7 +14,7 @@ L'un des moyens les plus rapides d'apporter des modifications répétitives dans
 Il existe deux manières d'ouvrir la boîte de dialogue Rechercher/Remplacer :
 
 1.  Lorsque la commande est active, appuyez sur**CTRL+F** pour ouvrir la boîte de dialogue, ou appuyez sur**CTRL+R** touche pour ouvrir la boîte de dialogue avec la**Remplacer** bouton activé.
-1.  Déplacez le curseur vers la zone de cellule dans la feuille de calcul, puis cliquez avec le bouton droit. Sélectionner**Trouver** ou**Remplacer** du menu.
+1.  Déplacez le curseur vers la zone de cellule dans la feuille de calcul, puis cliquez avec le bouton droit. Sélectionner**Trouver** ou alors**Remplacer** du menu.
 
    **Sélection de Rechercher** 
 
@@ -32,7 +32,7 @@ Il existe deux manières d'ouvrir la boîte de dialogue Rechercher/Remplacer :
 Chercher:
 
 1. Ouvrez la boîte de dialogue Rechercher/Remplacer.
-1.  Tapez la chaîne que vous souhaitez rechercher dans le champ**Trouver quoi** champ.
+1.  Tapez la chaîne que vous souhaitez rechercher dans le champ**Trouver quoi** domaine.
 1.  Cliquez sur**Rechercher suivant** chercher.
 
 La cellule suivante qui correspond à votre condition de recherche est mise en surbrillance.
@@ -45,7 +45,7 @@ Si votre critère de recherche n'est pas trouvé, une boîte de dialogue s'affic
 ### **Options de recherche**
 Vous pouvez personnaliser certaines options de recherche dans la boîte de dialogue. Le tableau ci-dessous les répertorie.
 
-|**Non.** |**Nom de l'option** |**La description** |
+|**Non.** |**Nom de l'option** |**Description** |
 |:- |:- |:- |
 |1 | Cas de correspondance| Indique s'il faut utiliser la sensibilité à la casse dans la recherche.|
 |2 | Correspond à un mot entier| Indique si le mot entier doit correspondre à la recherche.|
@@ -56,13 +56,13 @@ Vous pouvez personnaliser certaines options de recherche dans la boîte de dialo
 Pour remplacer du texte ou des valeurs :
 
 1.  Ouvrez la boîte de dialogue Rechercher/Remplacer en appuyant sur**CTRL+F** , ou cliquez avec le bouton droit sur une cellule et sélectionnez**Trouver** avant de cliquer**Remplacer**.
-1.  Tapez la chaîne de remplacement dans le champ**Remplacer par** champ.
+1.  Tapez la chaîne de remplacement dans le champ**Remplacer par** domaine.
 1.  Cliquez sur**Remplacer**.
 
 Pour remplacer du texte :
 
 1. Ouvrez la boîte de dialogue.
-1.  Entrez le texte que vous souhaitez rechercher dans le**Trouver quoi** champ, et le texte par lequel vous voulez le remplacer dans le**Remplacer par** champ.
+1.  Entrez le texte que vous souhaitez rechercher dans le**Trouver quoi** champ, et le texte par lequel vous voulez le remplacer dans le**Remplacer par** domaine.
 1.  Remplacez une occurrence à la fois en cliquant sur**Rechercher suivant** suivie par**Remplacer**.
 1.  Si vous êtes sûr du contenu de la feuille de calcul, cliquez sur**Remplace tout**.
 

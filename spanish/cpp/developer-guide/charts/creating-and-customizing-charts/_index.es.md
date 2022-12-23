@@ -10,7 +10,7 @@ Un gráfico es una presentación visual de información. Aspose.Cells permite a 
 
 ## **Gráfico piramidal**
 
- Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de cálculo. Por favor vea el[archivo de salida de Excel](66519068.xlsx) del siguiente código de ejemplo.
+ Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de trabajo. Por favor vea el[archivo de salida de Excel](66519068.xlsx) del siguiente código de ejemplo.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_PyramidChart.cpp" >}}
 
@@ -32,6 +32,6 @@ Hasta ahora, cuando hemos discutido los gráficos, hemos visto gráficos estánd
 
 Un gráfico se compone de una serie de datos. Al crear un gráfico personalizado, los desarrolladores tienen la libertad de usar diferentes tipos de gráficos para diferentes series de datos.
 
- El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de trabajo. Por favor vea el[archivo de salida de Excel](66519071.xlsx) del siguiente código de ejemplo.
+ El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de cálculo. Por favor vea el[archivo de salida de Excel](66519071.xlsx) del siguiente código de ejemplo.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Charts-CreatingAndCustomizingCharts_CustomChart.cpp" >}}

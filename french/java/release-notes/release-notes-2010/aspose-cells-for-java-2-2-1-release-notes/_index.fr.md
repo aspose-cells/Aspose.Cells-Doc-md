@@ -23,7 +23,7 @@ url: /fr/java/aspose-cells-for-java-2-2-1-release-notes/
 
  Problèmes résolus au Aspose.Cells for Java 2.2.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |16369 | xl| Enregistrer le fichier xls|
 |16358 | xl| Enregistrer les conditions de format|

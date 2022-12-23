@@ -26,7 +26,7 @@ workbook.save(self.dataDir + "HelloWorld.xls" , file_format_type.EXCEL_97_TO_200
 print "Document has been saved, please check the output file.";
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**Hello World (Aspose.Cells)** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

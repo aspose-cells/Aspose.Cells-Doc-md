@@ -12,7 +12,7 @@ Aspose.Cells, çalışma kitabı nesnesinin içine, Belge Bilgileri Panelinde g�
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
 Aşağıdaki örnek kod, iki özel özellik ekler. İlk özellik herhangi bir tür içermez ve ikinci özellik DateTime olarak bir türe sahiptir. Bir kez, bu kod tarafından oluşturulan çıktı Excel dosyasını açacaksınız, bu iki özelliği Belge Bilgileri Paneli içinde göreceksiniz.
 

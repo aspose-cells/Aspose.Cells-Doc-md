@@ -44,9 +44,9 @@ url: /zh/net/aspose-cells-for-net-7-2-2-release-notes/
 - 使用 Aspose 复制文件 Cells 需要修复工作
 - 将 Excel 97 XLS 文件视为 Word 文档
 
- 导出为 PDF 图表不同于 Excel 版本
+-导出到PDF图表与Excel版本不同
 
-- 导出为PDF图表不同于Excel版本-2
+- 导出到PDF图表不同于Excel版本-2
 
 -图表中嵌入了额外的线条
 

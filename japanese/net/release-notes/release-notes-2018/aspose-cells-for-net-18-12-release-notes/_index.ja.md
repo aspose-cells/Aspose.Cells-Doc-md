@@ -12,31 +12,31 @@ url: /ja/net/aspose-cells-for-net-18-12-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-46479|単一シートのワークブックを HTML に変換するときにタブ名を使用できない|新機能|
+|CELLSNET-46479|シングル シート ブックが HTML に変換されると、タブ名を使用できません|新機能|
 |CELLSNET-46503|LoadDataFilterOptions を使用して VBA データの読み込みを制御する|新機能|
-|CELLSNET-42414|XLSB から XLSM および XLS から XLSM への変換中に変更履歴が失われる|強化|
+|CELLSNET-42414|XLSB から XLSM および XLS から XLSM への変換中に追跡された変更が失われる|強化|
 |CELLSNET-46090|XLS を XLSX に保存するときに、図形のグループ化を解除した後、テキストが少し移動しました|強化|
 |CELLSNET-46439|メモリ パフォーマンスの最適化: Workbook の読み込み後に元のストリームを解放する|パフォーマンス|
 |CELLSNET-46371|XLSX->HTML->XLSX の変換中に一部のシートでグリッド線が表示されない|バグ|
-|CELLSNET-46447|HTML から XLS へのレンダリングでフォーマットが失われる|バグ|
+|CELLSNET-46447|HTML から XLS のレンダリングでフォーマットが失われる|バグ|
 |CELLSNET-46494|MHT から XLSX への変換 - セル コンテンツの問題|バグ|
 |CELLSNET-46468|出力ファイルを開くときに MS Excel でエラーが表示される|バグ|
 |CELLSNET-46487|英語以外のロケール式が機能しない|バグ|
 |CELLSNET-46489|インデックスを持つ行を削除し、同じインデックスを持つ行を読み取ると、Cell.ValuType: IsNull が返されます|バグ|
 |CELLSNET-46406|パスワードで保護された ODS ドキュメントを開くことができません|バグ|
-|CELLSNET-46466|MS Excel から PDF へのレンダリングでバーコードの下のテキストが表示されない|バグ|
-|CELLSNET-46470|TIFF 出力へのレンディション後にイメージが見つからない|バグ|
+|CELLSNET-46466|バーコードの下のテキストが MS Excel で PDF レンダリングに表示されない|バグ|
+|CELLSNET-46470|TIFF 出力へのレンディション後に画像が欠落している|バグ|
 |CELLSNET-46499|Excel から PDF に変換すると、画像が正しく表示されない|バグ|
 |CELLSNET-46443|MS Excel チャートからレンダリングされた画像に余分なテキストが表示される|バグ|
 |CELLSNET-46450|MS Excel チャートからレンダリングされたイメージには、元のチャートよりも多くの軸単位があります|バグ|
 |CELLSNET-46451|テンプレート ファイル (グラフを含む) を PDF ファイル形式にレンダリングする際の問題|バグ|
 |CELLSNET-46454|セッション 0 とセッション 1 で Excel チャートとは異なる方法でレンダリングされた凡例の順序|バグ|
 |CELLSNET-46471|XLS ファイル形式でカラー マーカー LineWithDataMarkers を設定できません|バグ|
-|CELLSNET-42729|SmartArt グラフを HTML ファイル形式としてレンダリングすると、テキストがずれて表示される|バグ|
+|CELLSNET-42729|SmartArt グラフが HTML ファイル形式でレンダリングされると、テキストが移動する|バグ|
 |CELLSNET-46462|タグをテキストに置き換えながらテキストを繰り返す|バグ|
 |CELLSNET-46483|カスタム UI xml を含むドキュメントを XLSB から XLSM に変換した後のエラー|バグ|
 |CELLSNET-46495|グラフを画像に変換中に見つかった問題|バグ|
-|CELLSNET-46486|XLS から PDF への変換中に発生した例外|例外|
+|CELLSNET-46486|XLS を PDF に変換中に例外が発生しました|例外|
 |CELLSNET-46472|PivotTable.GetChildren() で例外「Cell の名前が無効です」が発生する|例外|
 |CELLSNET-46452|XLSB ファイル形式のロード時の例外「NullReferenceException」|例外|
 |CELLSNET-46456|ワークブックの読み込み時の ArgumentException|例外|

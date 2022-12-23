@@ -1,5 +1,5 @@
 ﻿---
-title: Évitez la notation exponentielle des grands nombres lors de l'importation depuis HTML
+title: Évitez la notation exponentielle des grands nombres lors de l'importation à partir de HTML
 type: docs
 weight: 10
 url: /fr/net/avoid-exponential-notation-of-large-numbers-while-importing-from/
@@ -10,6 +10,6 @@ url: /fr/net/avoid-exponential-notation-of-large-numbers-while-importing-from/
 
 {{% /alert %}}
 
- L'exemple de code suivant explique l'utilisation de[**HTMLLoadOptions.KeepPrecision**](https://reference.aspose.com/cells/net/aspose.cells/abstracttextloadoptions/properties/keepprecision)propriété. Le API importera le nombre tel qu'il est sans le convertir en notation exponentielle.
+ L'exemple de code suivant explique l'utilisation de[**HTMLLoadOptions.KeepPrecision**](https://reference.aspose.com/cells/net/aspose.cells/abstracttextloadoptions/properties/keepprecision)la propriété. Le API importera le nombre tel qu'il est sans le convertir en notation exponentielle.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-AvoidExponentialNotationWhileImportingFromHtml-1.cs" >}}

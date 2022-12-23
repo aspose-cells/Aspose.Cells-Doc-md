@@ -6,7 +6,7 @@ url: /ar/net/aspose-cells-griddesktop/loading-filter
 description: توضح هذه المقالة كيفية استخدام عامل التصفية لمكتبة Aspose.Cells.GridDesktop.
 ---
 ## **سيناريوهات الاستخدام الممكنة**
- يرجى استخدام[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)الخاصية أثناء تصفية البيانات من المصنف.
+ الرجاء استخدام[GridDesktop.LoadDataFilter](https://reference.aspose.com/cells/net/aspose.cells.griddesktop/griddesktop/properties/loaddatafilter)الخاصية أثناء تصفية البيانات من المصنف.
 
  ال[GridLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells.griddesktop.data/gridloaddatafilteroptions)التعداد له القيم التالية.
 - الجميع

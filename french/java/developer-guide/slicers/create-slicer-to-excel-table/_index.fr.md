@@ -6,7 +6,7 @@ url: /fr/java/create-slicer-to-excel-table/
 ---
 ## **Scénarios d'utilisation possibles**
 
- Un segment est utilisé pour filtrer rapidement les données. Il peut être utilisé pour filtrer les données à la fois dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un segment en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur le*Insertion > Trancheur*. Aspose.Cells vous permet également de créer une trancheuse à l'aide du[**Feuille de calcul.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int)) méthode.
+ Un segment est utilisé pour filtrer rapidement les données. Il peut être utilisé pour filtrer les données à la fois dans un tableau ou un tableau croisé dynamique. Microsoft Excel vous permet de créer un segment en sélectionnant un tableau ou un tableau croisé dynamique, puis en cliquant sur le*Insertion > Trancheuse*. Aspose.Cells vous permet également de créer une trancheuse à l'aide du[**Feuille de calcul.Slicers.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/slicercollection#add(com.aspose.cells.ListObject,%20com.aspose.cells.ListColumn,%20int,%20int)) méthode.
 
 ## **Créer un segment dans un tableau Excel**
 

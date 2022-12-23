@@ -6,7 +6,7 @@ url: /ru/java/find-type-of-x-and-y-values-of-points-in-chart-series/
 ---
 ## **Возможные сценарии использования**
 
-Иногда вам нужно знать тип значений X и Y точек диаграммы в серии. Aspose.Cells предоставляет[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)а также[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)свойства, которые можно использовать для этой цели. Обратите внимание, вам придется позвонить[**Диаграмма.рассчитать()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()), прежде чем вы сможете эффективно использовать эти свойства.
+Иногда вам нужно знать тип значений X и Y точек диаграммы в серии. Aspose.Cells предоставляет[**ChartPoint.XValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#XValueType)и[**ChartPoint.YValueType**](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#YValueType)свойства, которые можно использовать для этой цели. Обратите внимание, вам придется позвонить[**Диаграмма.рассчитать()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#calculate()), прежде чем вы сможете эффективно использовать эти свойства.
 
 ## **Найдите тип значений X и Y точек в серии диаграмм**
 

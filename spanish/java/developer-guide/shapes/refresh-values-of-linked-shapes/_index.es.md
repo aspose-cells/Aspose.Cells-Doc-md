@@ -16,7 +16,7 @@ url: /es/java/refresh-values-of-linked-shapes/
 
 ![todo:imagen_alternativa_texto](refresh-values-of-linked-shapes_1.png)
 
-Puedes descargar el[archivo fuente de Excel](5472956.xlsx) y el[PDF de salida](5472955.pdf) de los enlaces dados.
+Puedes descargar el[archivo fuente de Excel](5472956.xlsx) y el[salida PDF](5472955.pdf) de los enlaces dados.
 
 ### Java código para actualizar los valores de las formas vinculadas
 

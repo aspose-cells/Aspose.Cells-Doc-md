@@ -71,7 +71,7 @@ Aspose.Cells for Reporting Services クライアント コンポーネントの�
 
 - サーバー コンポーネント – ReportingServices の Cell の背景色の問題 (XL#CCS)
 - サーバー コンポーネント - 動的数式とテーブル フッターの問題
-- ServerComponent - ユーザーが CSV exporttype を選択した場合、CSV の代わりに XLSX ファイルを生成します
+- ServerComponent - ユーザーが CSV exporttype を選択した場合、CSV の代わりに XLSX ファイルを生成します。
 - ServerComponent - クロス集計レポートを MS Excel 2007 にエクスポートできない
 - サーバー コンポーネント - CSV エクスポート エンコーディングの問題
 

@@ -1,10 +1,10 @@
 ﻿---
-title: Mantenga separadores para filas en blanco mientras exporta hojas de cálculo a formato CSV
+title: Mantenga separadores para filas en blanco al exportar hojas de cálculo al formato CSV
 type: docs
 weight: 160
 url: /es/net/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/
 ---
-## **Mantenga separadores para filas en blanco mientras exporta hojas de cálculo a formato CSV**
+## **Mantenga separadores para filas en blanco al exportar hojas de cálculo al formato CSV**
 
 Aspose.Cells brinda la capacidad de mantener los separadores de línea al convertir hojas de cálculo al formato CSV. Para ello, puede utilizar el**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow)**propiedad de**[TxtSaveOptions](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions)**clase.**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow)**es una propiedad booleana. Para mantener los separadores para las líneas en blanco al convertir el archivo de Excel a CSV, configure el**[KeepSeparatorsForBlankRow](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/keepseparatorsforblankrow)**propiedad a**verdadero**.
 

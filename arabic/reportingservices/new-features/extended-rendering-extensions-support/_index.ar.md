@@ -6,6 +6,6 @@ url: /ar/reportingservices/extended-rendering-extensions-support/
 ---
 {{% alert color="primary" %}} 
 
-يدعم Aspose.Cells for Reporting Services التصدير إلى تنسيقات XLSM و HTML ، وكذلك Microsoft تنسيقات جداول بيانات Excel (XLS و XLSX و XLSB) وتنسيقات أخرى مثل ODS و SpreadsheetML و CSV و TXT.
+ Aspose.Cells for Reporting Services يدعم التصدير إلى تنسيقات XLSM و HTML ، بالإضافة إلى تنسيقات جداول بيانات Excel Microsoft (XLS ، XLSX ، XLSB) ، وتنسيقات أخرى مثل ODS ، SpreadsheetML ، CSV.
 
 {{% /alert %}}

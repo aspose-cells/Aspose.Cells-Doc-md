@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /ru/net/create-access-and-copy-named-ranges/
 ---
-## **Введение**
+## **Вступление**
 
 Обычно метки столбцов и строк относятся к отдельным ячейкам. Можно создавать описательные имена для представления ячеек, диапазонов ячеек, формул или постоянных значений. Слово**имя** может относиться к строке символов, представляющей ячейку, диапазон ячеек, формулу или постоянное значение. Присвоение имени диапазону означает, что на этот диапазон ячеек можно ссылаться по его имени. Используйте простые для понимания названия, например «Продукты», для обозначения труднопонятных диапазонов, например «Продажи!C20:C30». Метки можно использовать в формулах, которые ссылаются на данные на одном листе; если вы хотите представить диапазон на другом листе, вы можете использовать имя. * Именованные диапазоны являются одними из самых мощных функций Microsoft Excel, особенно когда они используются в качестве исходного диапазона для элементов управления списками, сводных таблиц, диаграмм и т. д.
 
@@ -12,7 +12,7 @@ url: /ru/net/create-access-and-copy-named-ranges/
 
 ### **Создать именованные диапазоны**
 
- Следующие шаги описывают, как назвать ячейку или диапазон ячеек, используя**MS Эксель** . Этот метод относится к**Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** а также**2002**.
+ Следующие шаги описывают, как назвать ячейку или диапазон ячеек, используя**MS Эксель** . Этот метод относится к**Microsoft Office Excel 2003**, **Microsoft Excel 97**, **2000** и**2002**.
 
 1. Выберите ячейку, диапазон ячеек, которые вы хотите назвать.
 1.  Нажмите на**Поле имени** в левом конце строки формул.
@@ -37,7 +37,7 @@ url: /ru/net/create-access-and-copy-named-ranges/
 - Имя верхней левой ячейки, имя верхней левой ячейки в диапазоне.
 - Имя нижней правой ячейки, имя нижней правой ячейки в диапазоне.
 
- Когда[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) вызывается метод, он возвращает только что созданный диапазон как экземпляр[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) учебный класс. Использовать это[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) объект для настройки именованного диапазона. Например, задайте имя диапазона с помощью[**Имя**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) имущество. В следующем примере показано, как создать именованный диапазон ячеек, охватывающий B4:G14.
+ Когда[**Создатьдиапазон**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) вызывается метод, он возвращает только что созданный диапазон как экземпляр[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) учебный класс. Использовать это[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) объект для настройки именованного диапазона. Например, задайте имя диапазона с помощью[**Имя**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) имущество. В следующем примере показано, как создать именованный диапазон ячеек, охватывающий B4:G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
@@ -85,7 +85,7 @@ url: /ru/net/create-access-and-copy-named-ranges/
 
 #### **Доступ к определенному именованному диапазону**
 
- Позвоните[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) коллекция[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) метод для получения диапазона по указанному имени. Типичный[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) метод принимает имя именованного диапазона и возвращает указанный именованный диапазон как экземпляр[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range) учебный класс. В следующем примере показано, как получить доступ к указанному диапазону по его имени.
+ Позвоните[**Рабочие листы**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) коллекция[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) метод для получения диапазона по указанному имени. Типичный[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) метод принимает имя именованного диапазона и возвращает указанный именованный диапазон как экземпляр[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range) учебный класс. В следующем примере показано, как получить доступ к указанному диапазону по его имени.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 

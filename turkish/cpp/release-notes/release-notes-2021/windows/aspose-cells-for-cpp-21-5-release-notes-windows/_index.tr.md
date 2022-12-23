@@ -14,5 +14,5 @@ Bu sayfa Aspose.Cells for C++ 21.5 için Windows için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSCPP-274| Pdf'ye dönüştürme sorununu düzeltin|Böcek|
 |CELLSCPP-276| Lisans imzası için SHA256 doğrulamasını destekler|Yeni özellik|
-|CELLSCPP-277| Destek PDF/A-1a uyumluluğu - IPdfSaveOptions|Yeni özellik|
+|CELLSCPP-277| PDF/A-1a uyumluluğunu destekler - IPdfSaveOptions|Yeni özellik|
 |CELLSCPP-279| Dönüştürülen PDF iyi biçimlendirilmemiş|Böcek|

@@ -19,7 +19,7 @@ Aspose.Cells 允许您更改单个工作表选项卡的颜色，使它们在其�
 
 **选项卡已着色为红色、绿色和蓝色**
 
-![待办事项：图像_替代_文本](set-worksheet-tab-color_1.png)
+![待办事项：图片_替代_文本](set-worksheet-tab-color_1.png)
 
 ## **使用 Aspose.Cells 设置工作表选项卡颜色**
 

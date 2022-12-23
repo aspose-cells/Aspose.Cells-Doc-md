@@ -13,10 +13,10 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 17.11.
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-42433|Las propiedades ImageOrPrintOptions.PageIndex e ImageOrPrintOptions.Count necesarias para obtener la imagen de las páginas deseadas|Nueva caracteristica|
-|CELLSJAVA-42427|La exportación de líneas de cuadrícula con bordes no muestra líneas de cuadrícula dentro del borde en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42427|La exportación de líneas de cuadrícula con bordes no muestra líneas de cuadrícula dentro del borde en Excel para la representación HTML|Insecto|
 |CELLSJAVA-42438|LightCellsDataProvider está eliminando los espacios iniciales y finales|Insecto|
 |CELLSJAVA-42422|Se utiliza una fuente incorrecta en la salida PDF del gráfico de MS Excel|Insecto|
-|CELLSJAVA-42353|Faltan algunas flechas o llamadas en el HTML de salida|Insecto|
+|CELLSJAVA-42353|Faltan algunas flechas o llamadas en la salida HTML|Insecto|
 |CELLSJAVA-42455|Falta el segundo comentario en la colección de comentarios de la hoja de trabajo|Insecto|
 |CELLSJAVA-42454|La creación del libro de trabajo parece bloquearse cuando se lee desde un archivo XLSM|Insecto|
 |CELLSJAVA-42450|La propiedad Style.QuotePrefix no funciona para el archivo XLSB|Insecto|

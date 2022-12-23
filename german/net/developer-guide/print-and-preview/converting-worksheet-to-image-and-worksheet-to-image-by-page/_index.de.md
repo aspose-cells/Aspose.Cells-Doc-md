@@ -30,7 +30,7 @@ Diese Aufgabe zeigt, wie Sie Aspose.Cells verwenden, um ein Arbeitsblatt aus ein
 ### **Projekt einrichten**
 
 1.  Zuerst,[herunterladen Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
-1.  Installieren Sie es auf Ihrem Entwicklungscomputer. Alle[Aspose](http://www.aspose.com/)Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein. Starten Sie nun Visual Studio.Net und erstellen Sie eine neue Konsolenanwendung. Dieses Beispiel verwendet eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden. Fügen Sie dem erstellten Projekt den Verweis auf Aspose.Cells hinzu.
+1.  Installieren Sie es auf Ihrem Entwicklungscomputer. Alles[Aspose](http://www.aspose.com/)Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein. Starten Sie nun Visual Studio.Net und erstellen Sie eine neue Konsolenanwendung. Dieses Beispiel verwendet eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden. Fügen Sie dem erstellten Projekt den Verweis auf Aspose.Cells hinzu.
 
 ### **Arbeitsblatt in Bilddatei konvertieren**
 

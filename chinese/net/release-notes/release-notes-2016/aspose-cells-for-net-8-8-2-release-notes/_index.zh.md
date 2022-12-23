@@ -11,17 +11,17 @@ url: /zh/net/aspose-cells-for-net-8-8-2-release-notes/
 |CELLSNET-44314 |如何呈现 Unicode 增补字符|新功能|
 |CELLSNET-41817 |在矩形中将文字效果设置为偏移|强化|
 |CELLSNET-41454 |Aspose.Cells 错误地确定了一些文件格式|强化|
-|CELLSNET-44476 |另存为 HTML 文件格式时忽略文本方向|漏洞|
+|CELLSNET-44476 |保存为 HTML 文件格式时忽略文本方向|漏洞|
 |CELLSNET-44457 |转换为 HTML 文件时表格中的底部边框丢失|漏洞|
-|CELLSNET-44446 |保存为 HTML 时所有 CSS 样式都没有前缀|漏洞|
+|CELLSNET-44446 |保存为HTML时所有CSS样式都没有前缀|漏洞|
 |CELLSNET-44444 |打开和保存包含数据透视表的文件会导致损坏的电子表格|漏洞|
-|CELLSNET-44443 |将数据透视图转换为 PDF - 次要 y 轴搞砸了|漏洞|
-|CELLSNET-44450 |生成的 PDF 中的图片旋转不正确|漏洞|
-|CELLSNET-44303 |SheetRender.ToImage 未正确呈现图形的数据标签|漏洞|
+|CELLSNET-44443 |数据透视图到 PDF - 次要 y 轴搞砸了|漏洞|
+|CELLSNET-44450 |生成的图片旋转不正确 PDF|漏洞|
+|CELLSNET-44303 | SheetRender.ToImage 未正确呈现图形的数据标签|漏洞|
 |CELLSNET-44478 |打开和重写 Excel 文件后缩放级别发生变化|漏洞|
 |CELLSNET-44477 |列表对象名称在工作表副本上发生冲突|漏洞|
-|CELLSNET-44472 |CustomXmlParts 不能正常用于 XLS 文件|漏洞|
-|CELLSNET-44466 |将 HTML 导出到 Excel 后无法正确显示图像|漏洞|
+|CELLSNET-44472 |CustomXmlParts 不能为 XLS 文件正常工作|漏洞|
+|CELLSNET-44466 |HTML 导出到 Excel 后无法正确显示图像|漏洞|
 |CELLSNET-44465 |删除空白行/列时删除图表|漏洞|
 |CELLSNET-44463 |TextBox 中的黑色文本在 PDF 中呈现为白色|漏洞|
 |CELLSNET-44456 |目标文件中的粗体样式在 Range.CopyData() 调用后丢失|漏洞|

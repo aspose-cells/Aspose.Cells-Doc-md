@@ -19,4 +19,4 @@ url: /es/net/aspose-cells-net-4-0-0-0-new-release-release-notes/
 - Se agregó el método Worksheets.SortNames para resolver un problema al agregar una gran cantidad de rangos con nombre.
 - Se agregaron nuevas demostraciones de gráficos
 - Se corrigió un error en la configuración de la fórmula.
-- Se corrigió un error al guardar el archivo para transmitir con formato CSV
+- Se corrigió un error al guardar el archivo para transmitir con el formato CSV

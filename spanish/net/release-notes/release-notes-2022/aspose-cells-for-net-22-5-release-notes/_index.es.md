@@ -15,9 +15,9 @@ url: /es/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50663|Mejorar el rendimiento de la eliminación de columnas en blanco|
 |CELLSNET-50877|Inicialice el valor calculado de la celda al configurar la fórmula de matriz dinámica|
 |CELLSNET-51006|Elimine el método SetDataSource (variable de cadena, object [] dataArray) método.|
-|CELLSNET-50685|Problema con la recuperación de archivos adjuntos OLE vinculados en un archivo ODS|
+|CELLSNET-50685|Problema con la recuperación de archivos adjuntos OLE vinculados en el archivo ODS|
 |CELLSNET-50920|Problema de conversión de Excel a Tiff|
-|CELLSNET-50820| Problema de exportar una cadena JSON a Excel|
+|CELLSNET-50820| Problema de exportar la cadena JSON a Excel|
 |CELLSNET-50853|El filtro de rebanadores desaparece después de volver a guardar con las API Aspose.Cells|
 |CELLSNET-50960|Libro de trabajo dañado al volver a guardar un archivo XLSM (que contiene una tabla dinámica) por Aspose.Cells|
 |CELLSNET-50648|El error DIV/0 se convierte en error NUM al calcular la función NPER|
@@ -30,8 +30,8 @@ url: /es/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50953|Deshabilitar copiar/pegar teclado en GridDesktop|
 |CELLSNET-50771| La fuente se pone en negrita durante la conversión de Excel a PDF|
 |CELLSNET-50924|Cell fondo perdido después de convertir a html|
-|CELLSNET-50951|Convertir resultados de Excel a HTML con problemas|
-|CELLSNET-50962| Problema con la interrupción del proceso de guardado con la opción PdfSaveOptions.OnePagePerSheet para libros grandes|
+|CELLSNET-50951|Convertir Excel a HTML resultados con problemas|
+|CELLSNET-50962|Problema con la interrupción del proceso de guardado con la opción PdfSaveOptions.OnePagePerSheet para libros grandes|
 |CELLSNET-50997|Los contornos del cuadro de celdas punteadas se rompen en el lado derecho de la altura del cuadro|
 |CELLSNET-50865|Gráfico a imagen: no se representa correctamente|
 |CELLSNET-50952|La conversión de XLS a XLSX cambia el degradado de dos colores de los formatos condicionales|
@@ -63,4 +63,4 @@ Representa el tipo de advertencia es la limitación de Excel.
 
 ### **Añade el método ShapeGuideCollection.Add(string name, double val).**
 
-Añade una guía de forma.
+Añade una guía de formas.

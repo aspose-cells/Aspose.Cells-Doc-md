@@ -10,8 +10,8 @@ Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.6.0
 
 {{% /alert %}} 
 ## **APIs hinzugefügt**
-### **Unterstützung für den Zieltyp HTML-Link**
-Diese Version von Aspose.Cells for .NET API hat eine Aufzählung namens HtmlLinkTargetType zusammen mit einer neuen Eigenschaft HtmlSaveOptions.LinkTargetType verfügbar gemacht, die zusammen dies ermöglicht[Legen Sie den Zieltyp für die Links in der Tabelle während der Konvertierung in das HTML-Format fest](/cells/de/net/change-the-html-link-target-type/). Die möglichen Werte der HtmlLinkTargetType-Enumeration lauten wie folgt, wobei der Standardwert Self ist.
+### **Unterstützung für HTML Linkzieltyp**
+ Diese Version von Aspose.Cells for .NET API hat eine Aufzählung namens HtmlLinkTargetType zusammen mit einer neuen Eigenschaft HtmlSaveOptions.LinkTargetType verfügbar gemacht, die zusammen dies ermöglicht[Stellen Sie den Zieltyp für die Links in der Tabelle während der Konvertierung in das Format HTML ein](/cells/de/net/change-the-html-link-target-type/). Die möglichen Werte der HtmlLinkTargetType-Enumeration lauten wie folgt, wobei der Standardwert Self ist.
 
 1. HtmlLinkTargetType.Blank: Öffnet das verlinkte Dokument/die verlinkte Seite in einem neuen Fenster oder Tab.
 1. HtmlLinkTargetType.Parent: Öffnet das verlinkte Dokument/die verlinkte Seite im übergeordneten Frame.
@@ -96,7 +96,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 
 
 ### **Methode Cell.SetCharacters hinzugefügt**
- Dazu kann die Methode Cell.SetCharacters verwendet werden[Aktualisieren Sie die Teile des Rich-Texts](/cells/de/net/access-and-update-the-portions-of-rich-text-of-cell/) eines bestimmten Cell-Objekts. Die Methode Cell.GetCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.SetCharacters vorgenommen werden, während die**Erhalten** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**Satz** -Methode verwendet werden, um die Änderungen anzuwenden.
+ Dazu kann die Methode Cell.SetCharacters verwendet werden[Aktualisieren Sie die Teile des Rich-Texts](/cells/de/net/access-and-update-the-portions-of-rich-text-of-cell/) eines bestimmten Cell-Objekts. Die Methode Cell.GetCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.SetCharacters vorgenommen werden, während die**Bekommen** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**Satz** -Methode verwendet werden, um die Änderungen anzuwenden.
 
 Es folgt das einfache Nutzungsszenario.
 
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **Eigenschaft VbaProject.IsSigned Hinzugefügt**
- Aspose.Cells for .NET 8.6.1 hat die VbaProject.IsSigned-Eigenschaft verfügbar gemacht, die verwendet werden kann[Testen Sie, ob ein VbaProject in einer Arbeitsmappe signiert ist oder nicht](/cells/de/net/check-if-vba-project-in-a-workbook-is-signed/). Die Eigenschaft vom Typ Boolean gibt „true“ zurück, wenn das Projekt signiert ist.
+ Aspose.Cells for .NET 8.6.1 hat die VbaProject.IsSigned-Eigenschaft verfügbar gemacht, die verwendet werden kann[Testen Sie, ob ein VbaProject in einer Arbeitsmappe signiert ist oder nicht](/cells/de/net/check-if-vba-project-in-a-workbook-is-signed/)Die Eigenschaft vom Typ Boolean gibt „true“ zurück, wenn das Projekt signiert ist.
 
 Es folgt das einfache Nutzungsszenario.
 

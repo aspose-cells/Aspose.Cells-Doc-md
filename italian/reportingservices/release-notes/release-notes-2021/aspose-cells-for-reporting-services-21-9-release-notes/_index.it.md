@@ -8,6 +8,6 @@ weight: 13
 Questa pagina contiene le note sulla versione per Aspose.Cells Reporting Services 21.9
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |21848 |Aspose.Cells Reporting Services supporta l'esportazione di file in formato Dif.|

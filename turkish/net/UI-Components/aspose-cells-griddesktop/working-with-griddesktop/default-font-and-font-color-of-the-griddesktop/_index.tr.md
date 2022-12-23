@@ -12,7 +12,7 @@ Bazen, GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini değiştirm
 ## **Tasarım Zamanında Varsayılan Yazı Tipi ve Yazı Tipi Rengini Değiştirme**
 Aşağıdaki ekran görüntüsü, Tasarım Zamanında GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini nasıl değiştireceğinizi gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](default-font-and-font-color-of-the-griddesktop_1.png)
+![yapılacaklar:resim_alternatif_metin](default-font-and-font-color-of-the-griddesktop_1.png)
 ## **Çalışma Zamanında Varsayılan Yazı Tipi ve Yazı Tipi Rengini Değiştirme**
 Aşağıdaki örnek kod, Çalışma Zamanında GridDesktop'un varsayılan yazı tipini ve yazı tipi rengini nasıl değiştireceğinizi açıklar.
 

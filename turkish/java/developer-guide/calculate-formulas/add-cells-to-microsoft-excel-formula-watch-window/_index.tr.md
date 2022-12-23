@@ -12,7 +12,7 @@ Microsoft Excel İzleme Penceresi, hücre değerlerini ve formüllerini bir penc
 
  Aşağıdaki örnek kod, C1 ve E1 hücrelerinin formülünü ayarlar ve her ikisini de*İzleme Penceresi*. Daha sonra çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338509.xlsx). Çıktı Excel dosyasını açarsanız ve*İzleme Penceresi*, bu ekran görüntüsünde gösterildiği gibi her iki hücreyi de göreceksiniz.
 
-![yapılacaklar:resim_alternatif_Metin](add-cells-to-microsoft-excel-formula-watch-window_1.png)
+![yapılacaklar:resim_alternatif_metin](add-cells-to-microsoft-excel-formula-watch-window_1.png)
 
 ## **Basit kod**
 

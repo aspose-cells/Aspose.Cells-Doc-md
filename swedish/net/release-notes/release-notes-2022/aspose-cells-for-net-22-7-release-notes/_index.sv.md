@@ -29,20 +29,20 @@ url: /sv/net/aspose-cells-for-net-22-7-release-notes/
 |CELLSNET-51001|Formobjektet på diagrammet är inte väl placerat|
 |CELLSNET-51156| Konvertering av diagram till bild - Olika visning av diagram i utdatabilden|
 |CELLSNET-51213|3D-cirkeldiagram inte korrekt renderat - Konvertering av diagram till bild|
-|CELLSNET-51472|Sjökortsetiketter saknas i SVG när de är inställda på utsidan|
+|CELLSNET-51472|Sjökortsetiketter saknas från SVG när de är inställda på utsidan|
 |CELLSNET-51491|Fel värden används i diagramserier vid rendering till bild eller HTML|
-|CELLSNET-51525|Vattenfallsdiagram är annorlunda när det exporteras till HTML/PNG eller PDF|
-|CELLSNET-51353|Att konvertera en XLSB-fil med DDE-länk till XLSM-fil ändrar DDE-applikationens position i länken|
+|CELLSNET-51525|Vattenfallsdiagrammet är annorlunda när det exporteras till HTML/PNG eller PDF|
+|CELLSNET-51353|Konvertering av en XLSB-fil med DDE-länk till XLSM-fil ändrar DDE-applikationens position i länk|
 |CELLSNET-51376|Sidstorlek ändras automatiskt från A4 ? Brev för ett ark|
-|CELLSNET-51379| Extern länk av typen OLE i XLS-fil läses som av typen DDE|
+|CELLSNET-51379| Extern länk av typen OLE i filen XLS läses som av typen DDE|
 |CELLSNET-51402|Innehållet flyttas innehållet från cellen när html-filen sparas|
 |CELLSNET-51417|Länkar från form till ark i fil tas bort efter uppgradering från 22.5 till 22.6.1|
-|CELLSNET-51418|En extern länk av typen xlPathMissing ändras till normal externLinkPath-typ i XLSB till XLSM-konvertering|
+|CELLSNET-51418|En extern länk av typen xlPathMissing ändras till normal externLinkPath-typ i konverteringen XLSB till XLSM|
 |CELLSNET-51420|Skillnader i dokumentegenskaperna i filen app.xml|
 |CELLSNET-51427|Extern länk som innehåller specialtecknet "#" som inte är escaped av Aspose.Cells|
 |CELLSNET-51482|Att kombinera ark från olika arbetsböcker resulterar i korrupta filer som kan krascha MS Excel|
-|CELLSNET-51507|Talvärden från XLSX-fil läses som 0|
-|CELLSNET-51280|Undantag vid lagring av ODS-fil (RB-60121)|
+|CELLSNET-51507|Talvärden från filen XLSX läses som 0|
+|CELLSNET-51280|Undantag när ODS-filen sparas (RB-60121)|
 |CELLSNET-51483|Filinläsning misslyckas med undantaget "Källmatrisen var inte tillräckligt lång..."|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

@@ -1,12 +1,12 @@
 ﻿---
-title: 保存为 PDF 时仅更改特定 Unicode 字符的字体
+title: 保存到 PDF 时仅更改特定 Unicode 字符的字体
 type: docs
 weight: 260
 url: /zh/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/
 ---
 {{% alert color="primary" %}} 
 
-某些 Unicode 字符无法通过用户指定的字体显示。一个这样的 Unicode 字符是**不间断连字符**(U+2011) 其 Unicode 编号为 8209。此字符无法显示为**英语字体格式一种** 但它可以用其他字体显示，例如**宋体 Unicode MS**.
+某些 Unicode 字符无法通过用户指定的字体显示。一个这样的 Unicode 字符是**不间断连字符**(U+2011) 其 Unicode 编号为 8209。此字符无法显示为**英语字体格式一种** 但它可以用其他字体显示，如**宋体 Unicode MS**.
 
 当这样的字符出现在某些特定字体（如 Times New Roman）的单词或句子中时，Aspose.Cells 将整个单词或句子的字体更改为可以显示此字符的字体，如 Arial Unicode 到 MS。
 
@@ -24,12 +24,12 @@ url: /zh/net/change-the-font-on-just-the-specific-unicode-characters-while-savin
 
 |**第一个 PDF 文件**|
 |:- |
-|![待办事项：图像_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
+|![待办事项：图片_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)|
 
 
 |**第二个 PDF 文件**|
 |:- |
-|![待办事项：图像_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
+|![待办事项：图片_替代_文本](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
 ### **示例代码**
 
 

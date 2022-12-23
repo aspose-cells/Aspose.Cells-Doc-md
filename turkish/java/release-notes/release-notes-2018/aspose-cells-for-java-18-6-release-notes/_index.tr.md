@@ -18,28 +18,28 @@ Bu sayfa Aspose.Cells for Java 18.6 için sürüm notları içerir.
 |CELLSJAVA-42646|İstisna: Name.getRefersTo() üzerinde "FormulaBuild](/p Bilinmeyen formül belirteci0"|Artırma|
 |CELLSJAVA-42645|İstisna: Cell.getFormula() üzerinde "FormulaBuild More token in stack..."|Artırma|
 |CELLSJAVA-42516|Aspose.Cells geçersiz bir formülü kabul eder ve düzeltir|Artırma|
-|CELLSJAVA-42636|Bazı çizim şekilleri, Excel'den HTML'ye dönüştürmede yanlış bir şekilde yer değiştiriyor veya işleniyor|Böcek|
+|CELLSJAVA-42636|Bazı çizim şekilleri, Excel'de yanlış bir şekilde HTML oluşturmaya kaydırıldı veya işlendi|Böcek|
 |CELLSJAVA-42627|CELLSJAVA-42619 - Smart Art görüntüleri doğru şekilde çıkarılamıyor|Böcek|
-|CELLSJAVA-42618|Şekil, Excel'deki verileri HTML'ye dönüştürmeyi kapsayacak şekilde değiştirildi|Böcek|
+|CELLSJAVA-42618|Şekil, Excel'deki verileri kapsayacak şekilde HTML işlemeye kaydırıldı|Böcek|
 |CELLSJAVA-42628|Formüllerin hesaplanması yanlış, örneğin #DIV/0! hatalar|Böcek|
-|CELLSJAVA-42615|Cell Çıktı HTML'sinde A3 biçimi doğru değil|Böcek|
-|CELLSJAVA-42621|Bir MS Excel dosyasından PDF dosyası oluştururken düşük performans|Böcek|
-|CELLSJAVA-42620|XLSX'ten TIFF'e - istisna NoClassDefFoundError|Böcek|
-|CELLSJAVA-42599|Excel dosyası PDF'ye dönüştürüldüğünde görüntüler kayboluyor|Böcek|
+|CELLSJAVA-42615|Cell A3 formatı çıktıda doğru değil HTML|Böcek|
+|CELLSJAVA-42621|Bir MS Excel dosyasından PDF dosyası oluşturulurken düşük performans|Böcek|
+|CELLSJAVA-42620|XLSX - TIFF - istisna NoClassDefFoundError|Böcek|
+|CELLSJAVA-42599|Excel dosyası PDF'e dönüştürüldüğünde görüntüler kayboluyor|Böcek|
 |CELLSJAVA-42630|Chart.calculate yöntemi OutOfMemoryError'a neden oluyor|Böcek|
 |CELLSJAVA-42623|Excel dosyasını PDF dosya biçimine dönüştürürken bellek artar|Böcek|
 |CELLSJAVA-42592|Karakterler () yöntemi nedeniyle grafik başlığında yazı tipi boyutu değişti|Böcek|
-|CELLSJAVA-41860|XLS yeniden kaydedilirken gölge efekti değiştirildi|Böcek|
+|CELLSJAVA-41860|XLS yeniden kaydedilirken gölge efekti değişti|Böcek|
 |CELLSJAVA-42654|Excel'den PDF'e dönüştürme - dönüştürme hiçbir zaman tamamlanmaz|Böcek|
 |CELLSJAVA-42647|Yorum şekli için alternatif metin alınamıyor veya ayarlanamıyor|Böcek|
-|CELLSJAVA-42644|Aspose.Cells, bir e-tablo ml dosyasını (xml) kendi kendine kapanan Styles etiketiyle PDF'ye dönüştürürken takılıyor|Böcek|
+|CELLSJAVA-42644|Aspose.Cells, bir e-tablo ml dosyasını (xml) kendi kendine kapanan Styles etiketiyle PDF'e dönüştürürken takılıyor|Böcek|
 |CELLSJAVA-42632|SmartArt şekli için alternatif metin ayarlanamıyor|Böcek|
 |CELLSJAVA-42631|getFirstVisibleRow() ve getFirstVisibleColumn() geçersiz indeksler döndürüyor|Böcek|
 |CELLSJAVA-42624|Yeniden kaydettikten sonra kodlanmış simgeler ("%5c" gibi) içeren köprülerin kodu çözülür|Böcek|
 |CELLSJAVA-42638|Cell.getDisplayStringValue(), java.lang.NullPointerException'ı atar|İstisna|
-|CELLSJAVA-42652|Bir XLS dosyası yüklenirken java.lang.ArrayIndexOutOfBoundsException oluştu|İstisna|
-|CELLSJAVA-42650|İstisna: Bir XLS dosyası yüklenirken "Geçersiz kodlama: boş"|İstisna|
-|CELLSJAVA-42649|İstisna: Bir XLS dosyası yüklenirken "HPageBreaks sayısı 1024'ten büyük olamaz"|İstisna|
+|CELLSJAVA-42652|Java.lang.ArrayIndexOutOfBoundsException, bir XLS dosyası yüklenirken oluştu|İstisna|
+|CELLSJAVA-42650|İstisna: XLS dosyası yüklenirken "Geçersiz kodlama: boş"|İstisna|
+|CELLSJAVA-42649|İstisna: XLS dosyası yüklenirken "HPageBreaks sayısı 1024'ten büyük olamaz"|İstisna|
 |CELLSJAVA-42648|İstisna: Picture.getData()'da "Görüntü verileri okunamadı"|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

@@ -9,7 +9,7 @@ Bir rapor parametresini değiştirmek için:
 1. Microsoft Excel'i açın.
 1.  Tıklamak**Rapor Parametresi**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-parameters_1.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_1.png)
 
 ).
 
@@ -18,7 +18,7 @@ Bir rapor parametresini değiştirmek için:
 
    **parametre seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-parameters_2.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_2.png)
 
 
 
@@ -27,6 +27,6 @@ Bir rapor parametresini değiştirmek için:
 
    **parametrenin değiştirilmesi** 
 
-![yapılacaklar:resim_alternatif_Metin](modifying-report-parameters_3.png)
+![yapılacaklar:resim_alternatif_metin](modifying-report-parameters_3.png)
 
-1.  Tıklamak**Kaydetmek**.
+1.  Tıklamak**Kayıt etmek**.

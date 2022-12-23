@@ -13,7 +13,7 @@ url: /ru/net/custom-sorting-in-pivot-table/
 
 [Выходной файл Excel](98107429.xlsx)
 
-[Выходной PDF-файл](98107430.pdf)
+[Выходной файл PDF](98107430.pdf)
 
 
 

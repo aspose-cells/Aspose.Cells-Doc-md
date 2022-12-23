@@ -1,12 +1,12 @@
 ﻿---
-title: Birden Çok Kodlamayla CSV Dosyasını Okuma
+title: Birden Fazla Kodlama İçeren CSV Dosyasını Okuma
 type: docs
 weight: 140
 url: /tr/java/reading-csv-file-with-multiple-encodings/
 ---
 {{% alert color="primary" %}} 
 
-Bazen, CSV dosyanız birden çok Kodlama içerir (Unicode, ANSI, UTF8, UTF7 vb.). Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları örneğin PDF veya XLSX gibi diğer biçimlere dönüştürmenize olanak tanır.
+Bazen, CSV dosyanız birden çok Kodlama (Unicode, ANSI, UTF8, UTF7 vb.) içerir. Aspose.Cells, bu tür CSV dosyalarını yüklemenize ve bunları başka biçimlere, örneğin PDF veya XLSX'e dönüştürmenize olanak tanır.
 
 {{% /alert %}} 
 
@@ -16,21 +16,21 @@ Bazen, CSV dosyanız birden çok Kodlama içerir (Unicode, ANSI, UTF8, UTF7 vb.)
 
 **Giriş dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](reading-csv-file-with-multiple-encodings_1.png)
+![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_1.png)
 
 Aşağıdaki ekran görüntüsü, TxtLoadOptions.setMultiEncoded() yöntemini true olarak ayarlamadan yukarıdaki CSV dosyasından dönüştürülen XLSX dosyasını gösterir. Gördüğünüz gibi, Unicode metni düzgün bir şekilde dönüştürülmedi.
 
 **Çıktı dosyası 1: çoklu kodlama için herhangi bir düzenleme yapılmadı** 
 
-![yapılacaklar:resim_alternatif_Metin](reading-csv-file-with-multiple-encodings_2.png)
+![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_2.png)
 
-Aşağıdaki ekran görüntüsü, TxtLoadOptions.setMultiEncoded() yöntemi true olarak ayarlandıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir. Gördüğünüz gibi, Unicode metni artık düzgün bir şekilde dönüştürüldü.
+Aşağıdaki ekran görüntüsü, TxtLoadOptions.setMultiEncoded() yöntemini true olarak ayarladıktan sonra yukarıdaki CSV dosyasından dönüştürülen XSLX dosyasını gösterir. Gördüğünüz gibi, Unicode metni artık düzgün bir şekilde dönüştürüldü.
 
 **Çıktı dosyası 2: IsMultiEncoded, true olarak ayarlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](reading-csv-file-with-multiple-encodings_3.png)
+![yapılacaklar:resim_alternatif_metin](reading-csv-file-with-multiple-encodings_3.png)
 
-Aşağıda, yukarıdaki CSV dosyasını düzgün bir şekilde XLSX formatına dönüştüren örnek kod bulunmaktadır.
+Aşağıda, yukarıdaki CSV dosyasını düzgün bir şekilde XLSX biçimine dönüştüren örnek kod bulunmaktadır.
 
 **Java**
 

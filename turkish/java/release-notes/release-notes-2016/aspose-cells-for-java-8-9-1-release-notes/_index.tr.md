@@ -11,15 +11,15 @@ url: /tr/java/aspose-cells-for-java-8-9-1-release-notes/
 |CELLSJAVA-41925|Hesaplama süresi son API revizyonları ile artmıştır.|Yeni özellik|
 |CELLSJAVA-40958|Kullanıcı tarafından yapılandırılabilen yazı tipi değiştirme mekanizması gereklidir|Yeni özellik|
 |CELLSJAVA-41936|Workbook.calculateFormula() yöntemi, kaynak Excel dosyası için hiçbir zaman sonlandırılmaz|Artırma|
-|CELLSJAVA-41928|IStreamProvider ile elektronik tablo HTML'ye dönüştürülürken görüntü kaynağı yakalanamıyor|Böcek|
-|CELLSJAVA-41841|CheckBox'ları HTML'ye dönüştürmeyle ilgili sorun|Böcek|
+|CELLSJAVA-41928|IStreamProvider ile elektronik tablo HTML'e dönüştürülürken görüntü kaynağı yakalanamıyor|Böcek|
+|CELLSJAVA-41841|CheckBox'ları HTML'e dönüştürmeyle ilgili sorun|Böcek|
 |CELLSJAVA-41932|Tarih biçimlendirilmiş değerler için getDisplayStringValue() ile ilgili sorun|Böcek|
 |CELLSJAVA-41930|Bir XLS dosyasını işlemek için Light Cells API'leri kullanıldığında, her zaman ilk sayfanın ilk hücresi işlenir|Böcek|
-|CELLSJAVA-41931|Elektronik tabloyu PDF'ye dönüştürürken dikey metin için karakter aralığı ve kesme doğru değil|Böcek|
+|CELLSJAVA-41931|E-tablo PDF'e dönüştürülürken dikey metin için karakter aralığı ve kesme doğru değil|Böcek|
 |CELLSJAVA-41709|Sütun genişlikleri, CentOS'ta Windows'dekinden farklıdır|Böcek|
-|CELLSJAVA-41933|Elektronik tablo PDF'ye dönüştürülürken grafik ölçeği değişti|Böcek|
-|CELLSJAVA-41934|Bir Excel dosyasını PDF'ye dönüştürürken hizalama sorunu|Böcek|
-|CELLSJAVA-41935|Elektronik tabloyu PDF'ye dönüştürürken gösterge girişlerinin biçimlendirmesi bozuluyor|Böcek|
+|CELLSJAVA-41933|Elektronik tablo oluşturulurken grafik ölçeği PDF olarak değişti|Böcek|
+|CELLSJAVA-41934|Bir Excel dosyasını PDF olarak işlerken hizalama sorunu|Böcek|
+|CELLSJAVA-41935|Elektronik tablo PDF'e dönüştürülürken açıklama girişlerinin biçimlendirmesi bozuldu|Böcek|
 |CELLSJAVA-41943|Yatay eksen etiketleri tam olarak işlenmemiştir, yani; işlenen görüntüdeki tüm etiketlerde bazı içerikler eksik.|Böcek|
 |CELLSJAVA-41940|Dosya, formül hesaplamasından sonra bozuldu ve kaydedildi|Böcek|
 |CELLSJAVA-41927|İstisna: HTML dosya biçimine kaydederken "java.lang.OutOfMemoryError"|İstisna|

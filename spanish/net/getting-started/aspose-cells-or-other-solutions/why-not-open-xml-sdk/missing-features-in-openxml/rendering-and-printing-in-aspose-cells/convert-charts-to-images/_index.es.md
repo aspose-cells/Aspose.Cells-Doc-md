@@ -4,8 +4,8 @@ type: docs
 weight: 10
 url: /es/net/convert-charts-to-images/
 ---
-**Gráficos**son visualmente atractivos y facilitan que los usuarios vean comparaciones, patrones y tendencias en los datos. Por ejemplo, en lugar de tener que analizar varias columnas de números de la hoja de trabajo, puede ver de un vistazo si las ventas están cayendo o aumentando durante períodos trimestrales, o cómo se comparan las ventas reales con las ventas proyectadas. A veces, necesita presentar el gráfico en tus aplicaciones o páginas web. Es posible que deba insertarlo en un documento de Word, un archivo PDF, una presentación de Power Point o en algún otro escenario. Simplemente desea que el gráfico se represente como una imagen, para que pueda pegarlo en sus aplicaciones con facilidad. Una imagen vale la pena. Con frecuencia, en el curso del trabajo, uno tiene que presentar información estadística y gráfica de una manera fácil de entender y de mantener. Puede probar la Automatización de la Oficina, pero la Automatización de la Oficina tiene sus propios inconvenientes. Hay varias razones y problemas involucrados: por ejemplo, Seguridad, Estabilidad, Escalabilidad/Velocidad, Precio, Características, etc. En resumen, hay muchas razones, siendo la principal que Microsoft recomienda enfáticamente contra la automatización de Office de las soluciones de software: Consideraciones para Automatización de Office del lado del servidor. Hay otra opción que puede usar para convertir un gráfico de Excel en una imagen usando**Aspose.Cells**.
-## **Conversión de gráfico a EMF**
+**Gráficos**son visualmente atractivos y facilitan que los usuarios vean comparaciones, patrones y tendencias en los datos. Por ejemplo, en lugar de tener que analizar varias columnas de números de hojas de trabajo, puede ver de un vistazo si las ventas están cayendo o aumentando en períodos trimestrales, o cómo se comparan las ventas reales con las ventas proyectadas. A veces, es necesario presentar el gráfico en tus aplicaciones o páginas web. Es posible que deba insertarlo en un documento de Word, un archivo PDF, una presentación de Power Point o en algún otro escenario. Simplemente desea que el gráfico se represente como una imagen, para que pueda pegarlo en sus aplicaciones con facilidad. Una imagen vale la pena. Con frecuencia, en el curso del trabajo, uno tiene que presentar información estadística y gráfica de una manera fácil de entender y de mantener. Puede probar la Automatización de la Oficina, pero la Automatización de la Oficina tiene sus propios inconvenientes. Hay varias razones y problemas involucrados: por ejemplo, Seguridad, Estabilidad, Escalabilidad/Velocidad, Precio, Características, etc. En resumen, hay muchas razones, siendo la principal que Microsoft recomienda enfáticamente contra la automatización de Office de las soluciones de software: Consideraciones para Automatización de Office del lado del servidor. Hay otra opción que puede usar para convertir un gráfico de Excel en una imagen usando**Aspose.Cells**.
+## **Tabla de conversión a EMF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -64,7 +64,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Conversión de gráfico a BMP**
+## **Tabla de conversión a BMP**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -122,7 +122,7 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **Convertir gráfico a JPEG**
+## **Tabla de conversión a JPEG**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -181,7 +181,7 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Convertir gráfico a PNG**
+## **Tabla de conversión a PNG**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -240,7 +240,7 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Conversión de gráfico a TIFF**
+## **Tabla de conversión a TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -299,7 +299,7 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Conversión de gráfico a TIFF de varias páginas**
+## **Conversión de gráfico a varias páginas TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object

@@ -12,17 +12,17 @@ Aspose.Cells ermöglicht dem Benutzer das Ein- und Ausblenden von Elementen eine
 
 ## **Ein Arbeitsblatt ein- und ausblenden**
 
- Eine Excel-Datei kann ein oder mehrere Arbeitsblätter enthalten. Immer wenn wir eine Excel-Datei erstellen, fügen wir der Excel-Datei, in der wir arbeiten, Arbeitsblätter hinzu. Jedes Arbeitsblatt in einer Excel-Datei ist unabhängig von dem anderen Arbeitsblatt, da es seine eigenen Daten und Formatierungseinstellungen usw. hat. Manchmal müssen Entwickler möglicherweise einige Arbeitsblätter ausblenden und andere in der Excel-Datei aus eigenem Interesse sichtbar machen. So,**Aspose.Cells** ermöglicht Entwicklern, die Sichtbarkeit der Arbeitsblätter in ihren Excel-Dateien zu steuern.
+ Eine Excel-Datei kann ein oder mehrere Arbeitsblätter enthalten. Immer wenn wir eine Excel-Datei erstellen, fügen wir der Excel-Datei, in der wir arbeiten, Arbeitsblätter hinzu. Jedes Arbeitsblatt in einer Excel-Datei ist unabhängig von dem anderen Arbeitsblatt, da es seine eigenen Daten und Formatierungseinstellungen usw. hat. Manchmal müssen Entwickler möglicherweise einige Arbeitsblätter ausblenden und andere in der Excel-Datei aus eigenem Interesse sichtbar machen. Damit,**Aspose.Cells** ermöglicht Entwicklern, die Sichtbarkeit der Arbeitsblätter in ihren Excel-Dateien zu steuern.
 
 **Steuern der Sichtbarkeit der Arbeitsblätter:**
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) die eine Excel-Datei darstellt.[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält a[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
+ Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) die eine Excel-Datei darstellt.[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse enthält a[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
  Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Die Klasse bietet eine breite Palette von Eigenschaften und Methoden zum Verwalten eines Arbeitsblatts. Aber um die Sichtbarkeit eines Arbeitsblatts zu steuern, können Entwickler verwenden[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) Methode der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 
 ### **Ein Arbeitsblatt sichtbar machen**
 
- Entwickler können ein Arbeitsblatt durch Übergeben sichtbar machen**Stimmt** als Parameter für die[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) Methode der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
+ Entwickler können ein Arbeitsblatt durch Übergeben sichtbar machen**wahr** als Parameter für die[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) Methode der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 
 ### **Ausblenden eines Arbeitsblatts**
 
@@ -44,7 +44,7 @@ Aspose.Cells ermöglicht dem Benutzer das Ein- und Ausblenden von Elementen eine
 
 **Arbeitsblatt – nach dem Ausführen des Beispielcodes:**
 
-**Buch1.xls** Datei wird mit dem geöffnet[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse und dann das erste Arbeitsblatt der**Buch1.xls** Datei wird ausgeblendet. Die geänderte Datei wird gespeichert als**Ausgabe.xls**Datei, deren bildliche Ansicht unten gezeigt wird:
+**Buch1.xls** Datei wird mit dem geöffnet[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Klasse und dann das erste Arbeitsblatt der**Buch1.xls** Datei wird ausgeblendet. Die geänderte Datei wird gespeichert als**Ausgabe.xls** Datei, deren bildliche Ansicht unten gezeigt wird:
 
 ![todo: Bild_alt_Text](show-and-hide-elements_2.png)
 
@@ -153,7 +153,7 @@ Microsoft Excel bietet auch horizontale und vertikale Bildlaufleisten, damit Ben
 
 ### **Bildlaufleisten sichtbar machen**
 
- Machen Sie Bildlaufleisten sichtbar, indem Sie die Workbook-Klasse festlegen.[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) oder[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) Methoden zu**Stimmt**.
+ Machen Sie Bildlaufleisten sichtbar, indem Sie die Workbook-Klasse festlegen.[**setVScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsVScrollBarVisible) oder[**setHScrollBarVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#IsHScrollBarVisible) Methoden zu**wahr**.
 
 **Vollständiges Codebeispiel:**
 
@@ -215,7 +215,7 @@ Der folgende Screenshot zeigt, dass die Datei Book1.xls drei Arbeitsblätter ent
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-DisplayHideGridlines-DisplayHideGridlines.java" >}}
 
-### **In Verbindung stehende Artikel**
+### **Zum Thema passende Artikel**
 
 {{% alert color="primary" %}}
 

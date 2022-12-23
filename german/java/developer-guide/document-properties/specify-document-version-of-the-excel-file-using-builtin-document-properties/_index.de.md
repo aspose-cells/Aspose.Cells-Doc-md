@@ -6,11 +6,11 @@ url: /de/java/specify-document-version-of-the-excel-file-using-builtin-document-
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Sie können die ändern*Versionsnummer*der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann auswählen*Eigenschaften > Details*und dann Bearbeiten der*Versionsnummer*aufstellen. Bitte verwende[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
+Sie können die ändern*Versionsnummer*der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann auswählen*Eigenschaften > Details*und dann Bearbeiten der*Versionsnummer*Gebiet. Bitte verwende[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
 
 ## **Geben Sie die Dokumentversion der Excel-Datei mithilfe der integrierten Dokumenteigenschaften an**
 
-Der folgende Beispielcode erstellt eine Arbeitsmappe und ändert ihre integrierten Dokumenteigenschaften, die enthalten*Titel*, *Autoren* und*Versionsnummer*. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](64716836.xlsx)generiert durch den Code und Screenshot, der die geänderte zeigt*Versionsnummer*durch[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)Eigentum.
+Der folgende Beispielcode erstellt eine Arbeitsmappe und ändert ihre integrierten Dokumenteigenschaften, die enthalten*Titel*, *Autoren* und*Versionsnummer*. Bitte sehen Sie sich ... an[Excel-Datei ausgeben](64716836.xlsx)generiert durch den Code und Screenshot, der die geänderte zeigt*Versionsnummer*von[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)Eigentum.
 
 ![todo: Bild_alt_Text](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 

@@ -18,14 +18,14 @@ JAXB'yi ve Açık XML dosya yapısını anlamak için zaman ayırmanız gerekece
 
  da daha fazlasını oku[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java, Java geliştiricilerinin Excel® elektronik tablolarını (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF okuma, yazma ve değiştirme becerisini yerleştirmesine izin veren ödüllü bir Excel Elektronik Tablo bileşenidir. ve resim dosyası formatlarını Microsoft Excel®'e güvenmek zorunda kalmadan kendi Java uygulamalarına dönüştürün.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF ve görüntü dosyası formatlarını Microsoft Excel®'e güvenmeye gerek kalmadan kendi Java uygulamalarına dönüştürün.
 
 Aspose.Cells for Java, diğer satıcıların basit veri dışa aktarma yeteneklerinin çok ötesinde birçok işlev sunan olgun, ölçeklenebilir ve zengin özelliklere sahip bir bileşendir. Aspose.Cells for Java ile geliştiriciler verileri dışa aktarabilir, elektronik tabloları en ayrıntılı düzeyde biçimlendirebilir, görüntüleri içe aktarabilir, grafikler oluşturabilir, karmaşık formüller uygulayabilir ve hesaplayabilir, Excel® verilerini aktarabilir, çeşitli biçimlerde kaydedebilir ve çok daha fazlasını yapabilir - tüm bunları Microsoft Excel®'e ihtiyaç duymadan yapabilirsiniz veya Microsoft Ofis Otomasyonu.
 
  da daha fazlasını oku[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **neden xlsx4j olmasın**
-xlsx4j yalnızca Microsoft Açık XML Excel xlsx dosyalarını ayrıştırıp kaydedebilir,Aspose.Cells for Java tüm Excel dosya biçimlerini (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) işleyebilir ve çeşitli dosya biçimi dönüştürmelerini destekler.
+xlsx4j only can parsing and saving Microsoft Open XML Excel xlsx files,Aspose.Cells for Java can process all Excel file formats(XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) and supports various file format conversions.
 
 ## **xlsx4j için Aspose.Cells Java**
 xlsx4j için Project Aspose.Cells, xlsx4j ile karşılaştırıldığında Aspose.Cells Java API'ler kullanılarak farklı görevlerin nasıl gerçekleştirilebileceğini gösterir. Proje ayrıca elektronik tablolarla uğraşmak için yalnızca Aspose.Cells API'lerinde bulunan ancak xlsx4j'de olmayan özellikleri de kapsar.
@@ -90,7 +90,7 @@ Desteklenen platformlar aşağıdadır:
 
 **Not:**Lütfen Aspose API'in mevcut en son sürümünü kullanın.
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
@@ -124,7 +124,7 @@ Bu bölüm aşağıdaki konuları içerir
     - [Verileri xlsx4j'de Sırala](/cells/tr/java/sort-data-in-xlsx4j/)
     - [xlsx4j'de Emsalleri ve Bağımlıları İzleme](/cells/tr/java/tracing-precedents-and-dependents-in-xlsx4j/)
   - [xlsx4j için Çeşitli Örnekler](/cells/tr/java/miscellaneous-examples-for-xlsx4j/)
-    - [Elektronik Tabloyu xlsx4j'de PDF'ye Dönüştür](/cells/tr/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
+    - [Elektronik Tabloyu xlsx4j'de PDF'e Dönüştür](/cells/tr/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
     - [xlsx4j'de Pivot Tablo oluşturun](/cells/tr/java/create-pivot-table-in-xlsx4j/)
     - [Çalışma Kitaplarını xlsx4j'de Yazdırma](/cells/tr/java/printing-workbooks-in-xlsx4j/)
     - [xlsx4j'de Yazdırma Başlıklarını Ayarlama](/cells/tr/java/set-print-titles-in-xlsx4j/)
@@ -133,9 +133,9 @@ Bu bölüm aşağıdaki konuları içerir
     - [xlsx4j'de Grafikler Oluşturun](/cells/tr/java/create-charts-in-xlsx4j/)
     - [xlsx4j'de Özet Grafikler Oluşturun](/cells/tr/java/create-pivot-charts-in-xlsx4j/)
   - [xlsx4j'de Çalışma Sayfalarıyla Çalışma](/cells/tr/java/working-with-worksheets-in-xlsx4j/)
-    - [Çalışma Kitabını xlsx4j'de HTML'ye Dönüştür](/cells/tr/java/convert-workbook-to-html-in-xlsx4j/)
+    - [Çalışma Kitabını xlsx4j'de HTML'e Dönüştür](/cells/tr/java/convert-workbook-to-html-in-xlsx4j/)
     - [Birleştirilmiş Cells'i xlsx4j'de Algıla](/cells/tr/java/detect-merged-cells-in-xlsx4j/)
     - [Çalışma Kitaplarının Kaydırma Çubuklarını xlsx4j'de Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
     - [Çalışma Kitabı Sekmelerini xlsx4j'de Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-    - [Her Çalışma Sayfasını xlsx4j'de Farklı PDF'ye Kaydet](/cells/tr/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+    - [Her Çalışma Sayfasını xlsx4j'de Farklı PDF'e Kaydet](/cells/tr/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [xlsx4j'de Çalışma Sayfası Sekme Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color-in-xlsx4j/)

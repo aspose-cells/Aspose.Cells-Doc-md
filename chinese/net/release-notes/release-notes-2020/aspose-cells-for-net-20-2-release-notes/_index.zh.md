@@ -12,10 +12,10 @@ url: /zh/net/aspose-cells-for-net-20-2-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSNET-47113|竖线分隔/CSV 到 JSON 的转换|新功能|
+|CELLSNET-47113|竖线分隔 / CSV 到 JSON 的转换|新功能|
 |CELLSNET-47141|数据透视表和外部连接之间的链接|新功能|
 |CELLSNET-47135|Aspose.Cells 不将 TEXTJOIN() 高级公式/函数视为公式|强化|
-|CELLSNET-47126|Aspose.Cells 在更新 XLSX 文件时从包含 RTD 公式的文件中删除“volatileDependencies.xml”|强化|
+|CELLSNET-47126|Aspose.Cells 在更新 XLSX 文件时使用 RTD 公式从文件中删除“volatileDependencies.xml”|强化|
 |CELLSNET-47159|PivotTable.CalculateStyle 花费的时间太多|表现|
 |CELLSNET-42065|先前计算的 Pivot Percentage 在 pivot.CalculateData() 之后中断|漏洞|
 |CELLSNET-47102|在负时间自定义格式（h:mm）上将 Excel 转换为 PDF 后显示“#”|漏洞|
@@ -27,17 +27,17 @@ url: /zh/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop 加载大文件需要很长时间|漏洞|
 |CELLSNET-47043|无法将受保护工作表的单元格选择到 GridDesktop|漏洞|
 |CELLSNET-47117|Aspose.Cells 20.1 在读取以前使用 XAdES 签名的文件时未定义 XAdES 类型|漏洞|
-|CELLSNET-47081|将图表渲染为 PDF|漏洞|
+|CELLSNET-47081|渲染图到 PDF|漏洞|
 |CELLSNET-47085|当轴标签的文本方向为“堆叠”时，图表无法正确呈现|漏洞|
 |CELLSNET-47112|图表到图像转换失败|漏洞|
-|CELLSNET-47133|导出为 PDF 时不一致|漏洞|
+|CELLSNET-47133|导出到PDF时不一致|漏洞|
 |CELLSNET-47107|条件格式化对象给出 IsAboveAverage 属性的错误结果|漏洞|
 |CELLSNET-47114|工作簿 RemoveExternalLinks 导致文档损坏|漏洞|
-|CELLSNET-47139|带有外部链接公式的 ODS 文件显示额外的工作表|漏洞|
-|CELLSNET-47145|打开和保存 ODS 文件后命名范围消失|漏洞|
+|CELLSNET-47139|ODS 带有外部链接公式的文件显示额外的工作表|漏洞|
+|CELLSNET-47145|打开并保存 ODS 文件后命名范围消失|漏洞|
 |CELLSNET-47146|文件打不开|漏洞|
 |CELLSNET-47147|工作表代码名称问题|漏洞|
-|CELLSNET-47153|ODS 图在保存后发生变化|漏洞|
+|CELLSNET-47153|ODS 图表在保存后发生变化|漏洞|
 |CELLSNET-47157|外部链接数量错误|漏洞|
 |CELLSNET-47164|检测到的 IsItalic 属性与 MS Excel 不同|漏洞|
 |CELLSNET-47169|ParetoLine 图表中未设置 CategoryType.CategoryScale|漏洞|
@@ -45,7 +45,7 @@ url: /zh/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47156|访问 ExternalLink.IsReferred 或 IsVisible 时出现 IndexOutOfRangeException|例外|
 |CELLSNET-47140|将 ODS 加载到 GridDesktop 时出现异常|例外|
 |CELLSNET-47105|导入 XML 数据时出现异常，其中表中的列未映射|例外|
-|CELLSNET-47170|将 Excel 文件保存为 PDF 时出现异常“从‘DateTime’到‘Double’的无效转换”|例外|
+|CELLSNET-47170|将 Excel 文件保存到 PDF 时出现异常“从‘DateTime’到‘Double’的无效转换”|例外|
 |CELLSNET-47152|Worksheet.Cells.EndCellInRow 给出文件错误|例外|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。

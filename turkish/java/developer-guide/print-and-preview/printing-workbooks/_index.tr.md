@@ -16,7 +16,7 @@ Bu belge, geliştiricilere elektronik tabloların nasıl yazdırılacağını (k
 
 Elektronik tablonuzu oluşturmayı bitirdikten sonra, ihtiyaçlarınız için büyük olasılıkla sayfanın basılı bir kopyasını yazdırmak isteyeceksiniz. Yazdırırken, seçiminizi belirtmediğiniz sürece, MS Excel tüm çalışma sayfası alanını yazdırmak istediğinizi varsayar. Aşağıdaki ekran görüntüsü, çalışma kitabını Excel ile yazdırmak için iletişim kutusunu gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](printing-workbooks_1.png)
+![yapılacaklar:resim_alternatif_metin](printing-workbooks_1.png)
 
 **Figür:** Yazdır İletişim Kutusu
 

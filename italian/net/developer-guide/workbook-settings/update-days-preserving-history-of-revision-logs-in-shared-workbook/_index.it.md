@@ -14,6 +14,6 @@ url: /it/net/update-days-preserving-history-of-revision-logs-in-shared-workbook/
 
  Il seguente codice di esempio crea una cartella di lavoro vuota, quindi la condivide e aggiorna i giorni dei registri di revisione conservando la cronologia a 7 giorni, che normalmente è di 30 giorni. Si prega di consultare il[file Excel di output](60489773.xlsx) generato dal codice per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.cs" >}}

@@ -18,6 +18,6 @@ url: /ar/java/changing-the-layout-of-pivot-table/
 
 ## **مثال**
 
- يُظهر نموذج التعليمات البرمجية التالي أولاً الجدول المحوري بتنسيق**شكل مضغوط** ، ثم يعرض الجدول المحوري بتنسيق**نموذج المخطط التفصيلي**وأخيرًا ، يعرض الجدول المحوري بتنسيق**شكل جدول**.
+ يُظهر نموذج التعليمات البرمجية التالي أولاً الجدول المحوري بتنسيق**شكل مضغوط** ، ثم يعرض الجدول المحوري بتنسيق**نموذج المخطط التفصيلي** وأخيرًا ، يعرض الجدول المحوري بتنسيق**شكل جدول**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}

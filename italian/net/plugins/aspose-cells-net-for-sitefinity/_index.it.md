@@ -18,7 +18,7 @@ Sitefinity è un moderno sistema di gestione dei contenuti Web (CMS) basato su A
 #### **Aspose.Cells for .NET**
 Aspose.Cells for .NET è una libreria di classi avanzata for .NET che consente di eseguire un'ampia gamma di attività di elaborazione di fogli di calcolo direttamente all'interno delle applicazioni .NET.
 
-Con Aspose.Cells puoi generare, modificare, convertire, rendere e stampare fogli di calcolo senza utilizzare Microsoft Excel.
+Con Aspose.Cells puoi generare, modificare, convertire, renderizzare e stampare fogli di calcolo senza utilizzare Microsoft Excel.
 
 Aspose.Cells for .NET supporta XSL, XSLX, OpenOffice e molti altri formati.
 #### **Aspose.Cells for .NET Plugin**

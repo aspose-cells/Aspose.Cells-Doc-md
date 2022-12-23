@@ -26,7 +26,7 @@ Der folgende Screenshot zeigt die**Erweiterte Excel-Optionen** und hebt den Absc
 
 ## **Angeben von benutzerdefinierten Trennzeichen mit Aspose.Cells**
 
- Der folgende Beispielcode veranschaulicht, wie die benutzerdefinierten Trennzeichen mit Aspose.Cells API angegeben werden. Er gibt die benutzerdefinierten Dezimalzahlen und Gruppentrennzeichen als Punkt bzw. Leerzeichen an. Also die Nummer**123,456.789** wird angezeigt als**123 456.789** wie im Screenshot gezeigt, der die vom Code generierte Ausgabe-PDF zeigt.
+ Der folgende Beispielcode veranschaulicht, wie die benutzerdefinierten Trennzeichen mit Aspose.Cells API angegeben werden. Er gibt die benutzerdefinierten Dezimalzahlen und Gruppentrennzeichen als Punkt bzw. Leerzeichen an. Also die Nummer**123,456.789** wird angezeigt als**123 456.789** wie im Screenshot gezeigt, der die vom Code generierte Ausgabe PDF zeigt.
 
 ![todo: Bild_alt_Text](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 

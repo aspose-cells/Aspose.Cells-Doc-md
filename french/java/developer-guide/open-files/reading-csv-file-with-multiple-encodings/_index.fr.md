@@ -1,5 +1,5 @@
 ﻿---
-title: Lecture d'un fichier CSV avec plusieurs encodages
+title: Lecture du fichier CSV avec plusieurs encodages
 type: docs
 weight: 140
 url: /fr/java/reading-csv-file-with-multiple-encodings/

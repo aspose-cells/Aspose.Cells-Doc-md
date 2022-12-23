@@ -11,7 +11,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.6.0 a l
 {{% /alert %}} 
 ## **API añadidas**
 ### **Compatibilidad con el tipo de destino de enlace HTML**
-Esta versión de Aspose.Cells for .NET API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión a formato HTML](/cells/es/net/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es Self.
+ Esta versión de Aspose.Cells for .NET API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión al formato HTML](/cells/es/net/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es Self.
 
 1. HtmlLinkTargetType.Blank: abre el documento o la página vinculados en una nueva ventana o pestaña.
 1. HtmlLinkTargetType.Parent: abre el documento o la página vinculados en el marco principal.
@@ -96,7 +96,7 @@ ranges.Add(cells.CreateRange("A1:B4"));
 
 
 ### **Método Cell. Establecer caracteres añadidos**
- El método Cell.SetCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/net/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.GetCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.SetCharacters mientras que el**Obtener** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**Establecer** El método se puede utilizar para aplicar los cambios.
+ El método Cell.SetCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/net/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.GetCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.SetCharacters mientras que el**Conseguir** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**Colocar** El método se puede utilizar para aplicar los cambios.
 
 El siguiente es el escenario de uso simple.
 
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **Propiedad VbaProject.IsSigned agregada**
- Aspose.Cells for .NET 8.6.1 ha expuesto la propiedad VbaProject.IsSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/). La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
+ Aspose.Cells for .NET 8.6.1 ha expuesto la propiedad VbaProject.IsSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/net/check-if-vba-project-in-a-workbook-is-signed/)La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
 
 El siguiente es el escenario de uso simple.
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Conversion de fichiers HTML en feuilles de calcul Excel dans Ruby
+title: Conversion de fichiers HTML en feuilles de calcul Excel en Ruby
 type: docs
 weight: 40
 url: /fr/java/converting-html-files-to-excel-spreadsheets-in-ruby/

@@ -7,7 +7,7 @@ url: /tr/java/auto-fit-row-and-column/
 ## **Aspose.Cells - Satır ve Sütunu Otomatik Sığdır**
 Bir satırın genişliğini ve yüksekliğini otomatik olarak boyutlandırmak için en basit yaklaşım, Worksheet.autoFitRow yöntemini çağırmaktır. autoFitRow yöntemi, parametre olarak bir satır dizini (yeniden boyutlandırılacak satırın) alır.
 
-**Lütfen aklınızda bulundurun:** Java'i kullanarak Excel elektronik tablolarındaki satırları ve sütunları otomatik olarak sığdırmak istiyorsanız, lütfen şu adresi ziyaret edin:[Satırları ve Sütunları Otomatik Sığdır](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Lütfen aklınızda bulundurun:**Java'i kullanarak Excel elektronik tablolarındaki satırları ve sütunları otomatik olarak sığdırmak istiyorsanız, lütfen şu adresi ziyaret edin:[Satırları ve Sütunları Otomatik Sığdır](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 

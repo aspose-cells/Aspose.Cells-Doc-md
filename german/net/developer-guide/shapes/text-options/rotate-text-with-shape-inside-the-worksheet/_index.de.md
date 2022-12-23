@@ -6,7 +6,7 @@ url: /de/net/rotate-text-with-shape-inside-the-worksheet/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Mit Microsoft Excel können Sie Text in jede beliebige Form einfügen. Wenn Sie eine Form mit dem sehr alten Microsoft Excel 2003 hinzufügen, dreht sich der Text nicht mit der Form. Wenn Sie jedoch eine Form mit neueren Versionen von Microsoft Excel hinzufügen, z. B. 2007, 2010, 2013 oder 2016 usw., dreht sich der Text mit der Form. Sie können steuern, ob sich der Text mit der Form drehen soll oder nicht[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) Eigentum. Der Standardwert davon ist**Stimmt**was bedeutet, dass sich der Text mit der Form dreht, aber wenn Sie ihn so einstellen**FALSCH**, dann dreht sich der Text nicht mit der Form.
+Mit Microsoft Excel können Sie Text in jede beliebige Form einfügen. Wenn Sie eine Form mit dem sehr alten Microsoft Excel 2003 hinzufügen, dreht sich der Text nicht mit der Form. Wenn Sie jedoch eine Form mit neueren Versionen von Microsoft Excel hinzufügen, z. B. 2007, 2010, 2013 oder 2016 usw., dreht sich der Text mit der Form. Sie können steuern, ob sich der Text mit der Form drehen soll oder nicht[**ShapeTextAlignment.RotateTextWithShape**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/shapetextalignment/properties/rotatetextwithshape) Eigentum. Der Standardwert davon ist**wahr**was bedeutet, dass sich der Text mit der Form dreht, aber wenn Sie ihn so einstellen**FALSCH**, dann dreht sich der Text nicht mit der Form.
 
 ## **Drehen Sie Text mit Form innerhalb des Arbeitsblatts**
 

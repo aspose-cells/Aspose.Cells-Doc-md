@@ -14,7 +14,7 @@ Aspose.Cells le permite encriptar y proteger con contraseña Microsoft archivos 
 ## **Usando Microsoft Excel**
 Para establecer la configuración de cifrado de archivos en Microsoft Excel (aquí Microsoft Excel 2003):
 
-1.  Desde el**Instrumentos** menú, seleccione**Opciones**.
+1.  Desde el**Herramientas** menú, seleccione**Opciones**.
  Aparece un cuadro de diálogo.
 1.  Selecciona el**Seguridad** pestaña.
 1.  Introduzca una contraseña y haga clic en**Avanzado** 

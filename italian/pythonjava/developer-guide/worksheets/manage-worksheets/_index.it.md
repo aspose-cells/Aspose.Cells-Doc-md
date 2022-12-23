@@ -4,9 +4,9 @@ type: docs
 weight: 10
 url: /it/python-java/manage-worksheets/
 ---
-Gestire i fogli di lavoro utilizzando Aspose.Cells for Python via Java è molto semplice. In questo articolo, dimostreremo l'aggiunta, l'accesso e la rimozione di fogli di lavoro utilizzando l'API Aspose.Cells.
+Gestire i fogli di lavoro utilizzando Aspose.Cells for Python via Java è molto semplice. In questo articolo, dimostreremo l'aggiunta, l'accesso e la rimozione di fogli di lavoro utilizzando Aspose.Cells API.
 ## **Aggiunta di fogli di lavoro a un nuovo file Excel**
- Per creare una nuova cartella di lavoro, creare un oggetto del file[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook) classe. Il[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook)class rappresenta un file Excel. Quindi utilizzando il[Inserisci](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) metodo del[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , i nuovi fogli di lavoro vengono aggiunti al file Excel. Infine, per salvare il file Excel appena creato, chiama il file[Salva](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) metodo del[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook)classe.
+ Per creare una nuova cartella di lavoro, creare un oggetto del file[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook) classe. Il[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook) class rappresenta un file Excel. Quindi utilizzando il[Inserisci](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#add\(\) ) metodo del[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection) , i nuovi fogli di lavoro vengono aggiunti al file Excel. Infine, per salvare il file Excel appena creato, chiama il file[Salva](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String\) ) metodo del[Cartella di lavoro](https://reference.aspose.com/cells/python/asposecells.api/Workbook)classe.
 
 Il frammento di codice seguente illustra la creazione di un nuovo file Excel e l'aggiunta di un foglio di lavoro.
 
@@ -22,7 +22,7 @@ Dopo aver caricato una cartella di lavoro, gli sviluppatori possono accedere a q
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-AccessingWorksheetsUsingSheetName.py" >}}
 ## **Rimozione di fogli di lavoro**
-Potrebbero esserci momenti in cui alcuni fogli si incontrano per essere rimossi dalla cartella di lavoro. Per questo, l'API fornisce il[WorksheetCollection.removeAt](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#removeAt\(int\)metodo. Puoi passare l'indice del foglio o il nome del foglio da rimuovere. Gli esempi seguenti illustrano la rimozione dei fogli di lavoro utilizzando l'indice del foglio e il nome del foglio.
+Potrebbero esserci momenti in cui alcuni fogli si incontrano per essere rimossi dalla cartella di lavoro. Per questo, il API fornisce il[WorksheetCollection.removeAt](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#removeAt\(int\)) metodo. Puoi passare l'indice del foglio o il nome del foglio da rimuovere. Gli esempi seguenti illustrano la rimozione dei fogli di lavoro utilizzando l'indice del foglio e il nome del foglio.
 ### **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "Worksheets-RemovingWorksheetsUsingSheetIndex.py" >}}
 ### **Rimozione di fogli di lavoro utilizzando il nome del foglio**

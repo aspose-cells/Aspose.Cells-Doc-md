@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-6-0-0-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
  13872 导出到 XPS 文件
 
@@ -34,11 +34,11 @@ url: /zh/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27760 支持表源作为命名范围
 
-27955 在打印或呈现为 PDF 时指定动态打印区域
+27955 在打印或渲染到 PDF 时指定动态打印区域
 
 表现
 
-28139 Excel 到 PDF 的性能问题
+28139 Excel 到 PDF 性能问题
 
 27095 Workbook.CalculateFormula() 方法有问题
 
@@ -54,7 +54,7 @@ url: /zh/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27998 打开合法的 XLSX 文件时抛出异常
 
-28318 以 XLSM 格式保存 XLS 工作簿时出现异常
+28318 以XLSM格式保存XLS工作簿时出现异常
 
 虫子
 
@@ -76,11 +76,11 @@ url: /zh/net/aspose-cells-for-net-6-0-0-release-notes/
 
 18503 对角线在 PDF 中显示不正确
 
-27168 分组形状在保存为 PDF 时扭曲
+27168 分组形状在保存到 PDF 时扭曲
 
 27240 Excel 到 PDF 转换 - 图表范围问题
 
-28112 将 Excel (XLS) 文件另存为 PDF 导致出现问题
+28112 将 Excel (XLS) 文件保存为 PDF 导致出现问题
 
 27061 MS Excel 2010 中的受保护视图警告
 
@@ -100,7 +100,7 @@ url: /zh/net/aspose-cells-for-net-6-0-0-release-notes/
 
 28269 AutoRow 高度问题，同时创建超过最大高度的行
 
-XLS 和 XLSX 文件之间的 26941 AutoFilter 问题
+26941 XLS 和 XLSX 文件之间的自动筛选问题
 
 28036 生成文件中的单元格格式问题
 
@@ -122,6 +122,6 @@ XLS 和 XLSX 文件之间的 26941 AutoFilter 问题
 
 \3) Aspose.Cells.GridDesktop
 
-新的功能
+新功能
 
 27280 为单元格的 Button 控件设置背景图像

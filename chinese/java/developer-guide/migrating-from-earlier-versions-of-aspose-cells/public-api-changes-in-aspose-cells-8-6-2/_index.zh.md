@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **添加方法 Chart.toPdf**
-Aspose.Cells for Java 8.6.2 公开了 Chart.toPdf 方法，可用于直接将 Chart 形状渲染为 PDF 格式。该方法目前接受一个字符串类型的参数作为文件路径位置，将生成的文件存储在磁盘上。
+Aspose.Cells for Java 8.6.2 公开了Chart.toPdf 方法，可用于直接将Chart 形状渲染为PDF 格式。该方法目前接受一个字符串类型的参数作为文件路径位置，将生成的文件存储在磁盘上。
 
 以下是简单的使用场景。
 

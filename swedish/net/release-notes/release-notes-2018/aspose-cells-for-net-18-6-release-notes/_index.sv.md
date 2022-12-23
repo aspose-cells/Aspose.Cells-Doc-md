@@ -26,40 +26,40 @@ url: /sv/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46121|Konvertera smart konst från XLS till XLSX filformat|Förbättring|
 |CELLSNET-45961|Bläckverktyg försvann vid konvertering till PDF|Förbättring|
 |CELLSNET-45160|Delar av bilden i kalkylarket återges i olika färger medan kalkylblad konverteras till bild|Förbättring|
-|CELLSNET-43592|Ink Objects återges inte när kalkylblad konverteras till PDF-format|Förbättring|
-|CELLSNET-45891|Vissa former saknas och vissa är dispergerade (dispositionerade) - Excel till HTML-konvertering|Insekt|
-|CELLSNET-46112|När Issue4 bildtext placement.xlsx konverteras till PDF är formateringen inte bra|Insekt|
+|CELLSNET-43592|Ink Objects återges inte när kalkylark konverteras till formatet PDF|Förbättring|
+|CELLSNET-45891|Vissa former saknas och vissa är dispergerade (dispositionerade) - Excel till HTML konvertering|Insekt|
+|CELLSNET-46112|När Issue4 bildtext placement.xlsx konverterades till PDF är formateringen inte bra|Insekt|
 |CELLSNET-45212|Förskjuten större bild vid konvertering av en XLSM till PDF|Insekt|
-|CELLSNET-42636|Vissa ritningsformer förskjuts eller återges felaktigt i Excel till HTML-rendering|Insekt|
+|CELLSNET-42636|Vissa ritningsformer är förskjutna eller återgivna felaktigt i Excel till HTML-rendering|Insekt|
 |CELLSNET-42627|Det gick inte att extrahera smarta konstbilder korrekt|Insekt|
 |CELLSNET-42618|Formen förskjuts för att täcka data i Excel till HTML-rendering|Insekt|
 |CELLSNET-46146|Alla tidigare kolumner och raddata stannar i pivottabellen efter filtrering|Insekt|
 |CELLSNET-46127|Utdata HTML är bra i Chrome men fel i IE eller Edge|Insekt|
-|CELLSNET-45005|Rader importerade till en cell vid import av HTML-filformat|Insekt|
-|CELLSNET-45004|Cell-värdet trunkeras vid import av HTML|Insekt|
+|CELLSNET-45005|Rader importerade till en cell vid import av filformatet HTML|Insekt|
+|CELLSNET-45004|Cell värde trunkerat vid import HTML|Insekt|
 |CELLSNET-46162|Enstaka citattecken försvinner från formeln när filen öppnas|Insekt|
 |CELLSNET-46069|Formler (som innehåller länkad datakälla i andra arbetsböcker) beräknas inte bra|Insekt|
 |CELLSNET-46142|Flikfältet blir dold när användaren byter flik eftersom rutnätets höjd växer|Insekt|
 |CELLSNET-46177|Utskrift från Aspose.Cells skiljer sig från Excel|Insekt|
-|CELLSNET-46176|PDF-utdata ignorerar alla sidbrytningar i en MS Excel-fil|Insekt|
-|CELLSNET-46153|Formfärgen ändras vid konvertering till PDF-filformat|Insekt|
-|CELLSNET-46126|Excel-dokumentet glider när det sparas som PDF|Insekt|
-|CELLSNET-46125|Blandning av sida 1 och sida 2 i utdata-PDF|Insekt|
+|CELLSNET-46176|PDF utdata ignorerar alla sidbrytningar i en MS Excel-fil|Insekt|
+|CELLSNET-46153|Formfärgen ändras vid konvertering till filformatet PDF|Insekt|
+|CELLSNET-46126|Excel-dokumentet glider när du sparar som PDF|Insekt|
+|CELLSNET-46125|Blandning av sida 1 och sida 2 i utgången PDF|Insekt|
 |CELLSNET-46114|Enstaka ord delas upp i två rader i Aspose.Cells' renderad utdatabild|Insekt|
 |CELLSNET-45766|Det gick inte att ladda lösenordsskyddad ODS-fil|Insekt|
 |CELLSNET-46164|Pareto-diagram visas inte i MS Excel-fil men det renderas något bra i PDF|Insekt|
 |CELLSNET-46155|Etiketten på diagrammets horisontella axel är skadad|Insekt|
-|CELLSNET-46150|Att spara XLT-filen som XLS efter att ha rensat diagrammets dataserie orsakar röd "Skyddad vy"-varning|Insekt|
+|CELLSNET-46150|Att spara XLT-filen som XLS efter att ha rensat sjökortets dataserie orsakar röd "Skyddad vy"-varning|Insekt|
 |CELLSNET-46140|Vattenstämpel fungerar bra med kalkylbladen men ingenting dyker upp på diagram|Insekt|
 |CELLSNET-46129|Y-axelmarkeringar i diagrambild stämmer inte överens med MS-Excel|Insekt|
 |CELLSNET-46100|CellsException - System.OutOfMemoryException vid konvertering av Excel-fil till PDF|Insekt|
-|CELLSNET-46082|Cirkeldiagramsförklaringsfärgerna ändras efter att ha sparats till PDF och stämmer inte överens med cirkeldiagramsegment|Insekt|
+|CELLSNET-46082|Cirkeldiagramförklaringsfärgerna ändras efter att ha sparats till PDF och stämmer inte överens med cirkeldiagramsegment|Insekt|
 |CELLSNET-46072|Att spara en XLT/XLTX-fil som XLS/XLSX orsakar röd "Skyddad vy"-varning|Insekt|
 |CELLSNET-46166|Hyperlänkar är skadade när man hänvisar till ark med specialtecken i namnet|Insekt|
 |CELLSNET-46141|Standardiserat sätt för de tre sista siffrorna i signaturformens namn|Insekt|
 |CELLSNET-46131|Ändra storlek på huvudlösa tabeller korrumperar den utgående MS Excel-filen|Insekt|
 |CELLSNET-46128|Utdata Excel-fil är korrupt efter att ha skapat listobjekt|Insekt|
-|CELLSNET-46134|När du renderar ett Excel-dokument till PDF slutförs processen aldrig|Insekt|
+|CELLSNET-46134|När du renderar ett Excel-dokument till PDF avslutas processen aldrig|Insekt|
 |CELLSNET-46175|Aspose.Cells.CellsException på Aspose.Cells.Workbook.Save()|Undantag|
 |CELLSNET-46147|Fel vid initialisering av en XLSX-fil|Undantag|
 |CELLSNET-46138|EndOfStreamException när Aspose.Cells.Dll (senaste sammansättningen) ilmerged|Undantag|

@@ -12,7 +12,7 @@ La mise en forme conditionnelle est une fonctionnalité avancée d'Excel Microso
 
 Il est possible d'appliquer une mise en forme conditionnelle avec Microsoft Office Automation mais cela a ses inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple, la sécurité, la stabilité, l'évolutivité et la vitesse. La raison principale pour trouver une autre solution est que Microsoft eux-mêmes déconseillent fortement la bureautique pour les solutions logicielles.
 
-Cet article montre comment créer une application console, ajouter une mise en forme conditionnelle sur des cellules avec quelques lignes de code les plus simples en utilisant le Aspose.Cells API.
+Cet article montre comment créer une application console, ajouter une mise en forme conditionnelle sur les cellules avec quelques lignes de code les plus simples en utilisant le Aspose.Cells API.
 
 {{% /alert %}}
 

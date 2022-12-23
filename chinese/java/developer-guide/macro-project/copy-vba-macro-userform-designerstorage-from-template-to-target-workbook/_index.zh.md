@@ -15,11 +15,11 @@ Aspose.Cells 允许您将 VBA 项目从一个 Excel 文件复制到另一个 Exc
 
 请参阅以下示例代码。它将 VBA 项目从[模板 Excel 文件](50528367.xlsm)到一个空的工作簿中并将其另存为[输出Excel文件](50528366.xlsm).如果您打开模板 Excel 文件中的 VBA 项目，您将看到如下所示的用户窗体。用户表单由 Designer Storage 组成，因此将使用[**VbaModuleCollection.GetDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#getDesignerStorage(java.lang.String)） 和[**VbaModuleCollection.AddDesignerStorage()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbamodulecollection#addDesignerStorage(java.lang.String,%20byte[])） 方法。
 
-![待办事项：图像_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
+![待办事项：图片_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_1.png)
 
 以下屏幕截图显示了输出 Excel 文件及其从模板 Excel 文件复制的内容。当您单击按钮 1 时，它会打开 VBA 用户窗体，它本身有一个命令按钮，单击时会显示一个消息框。
 
-![待办事项：图像_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
+![待办事项：图片_替代_文本](copy-vba-macro-userform-designerstorage-from-template-to-target-workbook_2.png)
 
 ## **示例代码**
 

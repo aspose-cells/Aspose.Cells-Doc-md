@@ -4,10 +4,10 @@ type: docs
 weight: 50
 url: /it/java/converting-worksheet-to-svg-in-python/
 ---
-## **Aspose.Cells - Conversione foglio di lavoro in SVG**
+## **Aspose.Cells - Conversione del foglio di lavoro in SVG**
 Per convertire il foglio di lavoro in SVG utilizzando Aspose.Cells for Java in Python, è sufficiente richiamare il foglio di lavoro_a_svg() metodo del modulo Converter.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -53,6 +53,6 @@ print "Excel to SVG conversion completed successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Conversione del foglio di lavoro in SVG (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Conversione del foglio di lavoro in SVG(Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

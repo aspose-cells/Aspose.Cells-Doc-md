@@ -20,7 +20,7 @@ Bu makale, bir çalışma sayfasındaki birleştirilmiş hücrelerin nasıl bulu
 
 **şablon dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](detect-merged-cells-in-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](detect-merged-cells-in-a-worksheet_1.png)
 
  Aspose.Cells şunları sağlar:[**Cells.getMergedCells**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MergedCells)birleştirilmiş hücre alanlarının ArrayList'ini almak için kullanılan yöntem.
 
@@ -28,7 +28,7 @@ Aşağıdaki kod yürütüldüğünde, sayfanın içeriğini temizler ve dosyay�
 
 **Çıktı Dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](detect-merged-cells-in-a-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](detect-merged-cells-in-a-worksheet_2.png)
 
 ## **Kod Örneği**
 

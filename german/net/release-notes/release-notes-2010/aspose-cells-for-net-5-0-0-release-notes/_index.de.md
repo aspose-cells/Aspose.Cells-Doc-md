@@ -14,10 +14,10 @@ url: /de/net/aspose-cells-for-net-5-0-0-release-notes/
 
  Was hat sich in Aspose.Cells geändert:
 
-- Beinhaltet MS Excel 2007 XLSB-Dateiformatunterstützung.
+- Enthält Unterstützung für das Dateiformat MS Excel 2007 XLSB.
  Bietet eine spezielle Funktion zum Kopieren und Einfügen.
- Unterstützt das Sortieren von Smart Markern.
-37 Verbesserungen und Korrekturen.
+Unterstützt das Sortieren von Smart Markern.
+ 37 Verbesserungen und Korrekturen.
 
  Was hat sich in Aspose.Cells.GridWeb geändert:
 

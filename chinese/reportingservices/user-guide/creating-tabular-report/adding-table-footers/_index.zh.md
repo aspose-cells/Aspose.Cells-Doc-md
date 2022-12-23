@@ -10,20 +10,20 @@ url: /zh/reportingservices/adding-table-footers/
 
    **选择页脚标签单元格** 
 
-![待办事项：图像_替代_文本](adding-table-footers_1.png)
+![待办事项：图片_替代_文本](adding-table-footers_1.png)
 
 
 
 
 1. 点击**设置页脚**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图像_替代_文本](adding-table-footers_2.png)
+![待办事项：图片_替代_文本](adding-table-footers_2.png)
 
 ). 
 
 **页脚标签集** 
 
-![待办事项：图像_替代_文本](adding-table-footers_3.png)
+![待办事项：图片_替代_文本](adding-table-footers_3.png)
 
 
 
@@ -33,7 +33,7 @@ url: /zh/reportingservices/adding-table-footers/
 
    **完成的页脚** 
 
-![待办事项：图像_替代_文本](adding-table-footers_4.png)
+![待办事项：图片_替代_文本](adding-table-footers_4.png)
 
 
 
@@ -41,4 +41,4 @@ url: /zh/reportingservices/adding-table-footers/
 
 **第二个页脚行** 
 
-![待办事项：图像_替代_文本](adding-table-footers_5.png)
+![待办事项：图片_替代_文本](adding-table-footers_5.png)

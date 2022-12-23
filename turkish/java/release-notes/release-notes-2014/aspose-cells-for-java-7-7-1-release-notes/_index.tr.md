@@ -10,8 +10,8 @@ url: /tr/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java, 7.7.1 sürümüne güncellendi ve bu sürümün 20'den fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for Java, 7.7.1 sürümüne güncellendi ve bu sürümün 20'den fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -43,17 +43,17 @@ Diğer İyileştirmeler ve Değişiklikler
 Hatalar
 
 (CELLSJAVA-40700) - Negatif değer hesaplandıktan sonra pozitif olur
-(CELLSJAVA-40668) - Çıktı PDF dosyasında başlık içeriği bozuluyor
-(CELLSJAVA-40695) - XLSX'ten PDF'ye: Sonucun Sol ve Sağ Kenar Boşlukları yok
+(CELLSJAVA-40668) - PDF çıktı dosyasında başlık içeriği bozuluyor
+(CELLSJAVA-40695) - XLSX - PDF: Sonuçta Sol ve Sağ Kenar Boşlukları yok
 (CELLSJAVA-40698) - PivotTable ile ilgili sorun (Filtreyi başka bir değere veya etikete değiştirin)
 (CELLSJAVA-40671) - Cell.getDisplayStyle(), İlk 10 koşullu biçimlendirme için doğru rengi döndürmez
 (CELLSJAVA-40655) - Şekildeki metnin hizalaması merkezden sola doğru değişiyor
-(CELLSJAVA-40572) - Çıktı PDF'sinde sayfanın kendisi bulunmamasına rağmen boş sayfa için yer imi oluşturuldu
+(CELLSJAVA-40572) - Sayfanın kendisi PDF çıktısında olmamasına rağmen boş sayfa için yer imi oluşturuldu
 (CELLSJAVA-40548) - xlsx PDF dosyasına kaydedildikten sonra Charter başlığı eksik
 (CELLSJAVA-40564) - Excel dosyası pdf'ye dönüştürüldüğünde veri kaybı
 (CELLSJAVA-40702) - Pivot tablo düzgün bir şekilde yenilenmiyor
 (CELLSJAVA-40704) - xlsb dosyasındaki hesaplamadan sonra değer değişiyor
-(CELLSJAVA-40701) - Excel PDF'ye dönüştürüldüğünde Veri Kaybı ve Yanlış etiket hizalaması
+(CELLSJAVA-40701) - Excel PDF'e dönüştürüldüğünde Veri Kaybı ve Yanlış etiket hizalaması
 (CELLSJAVA-40518) - Başlık satırlarındaki resim yalnızca PDF'de ilk sayfada görünüyor
 (CELLSJAVA-40239) - Yanlış formül işleme
 (CELLSJAVA-40703) - PDF çıktısında şekil şeffaf değildi

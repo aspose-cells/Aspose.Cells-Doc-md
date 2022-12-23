@@ -6,7 +6,7 @@ url: /fr/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
-Parfois, vous devez copier des données d'une plage de cellules à une autre, en copiant uniquement les données, pas la mise en forme. Aspose.Cells offre cette fonctionnalité en fournissant le[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) méthode.
+ Parfois, vous devez copier des données d'une plage de cellules à une autre, en copiant uniquement les données, pas la mise en forme. Aspose.Cells offre cette fonctionnalité en fournissant le[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) méthode.
 
 {{% /alert %}} 
 ## **Copier uniquement les données de plage**

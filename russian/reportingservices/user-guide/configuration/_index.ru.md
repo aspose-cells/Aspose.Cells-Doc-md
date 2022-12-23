@@ -7,7 +7,7 @@ url: /ru/reportingservices/configuration/
 ###### **Этот раздел содержит следующие темы:**
 - [Линии сетки](/cells/ru/reportingservices/gridlines/)
 - [Разделители](/cells/ru/reportingservices/delimiters/)
-- [Производительность](/cells/ru/reportingservices/performance/)
+- [Спектакль](/cells/ru/reportingservices/performance/)
 - [Шифрование](/cells/ru/reportingservices/encryption/)
 - [Цифровые подписи](/cells/ru/reportingservices/digital-signatures/)
 - [Установите DeviceInfo в rsreportserver.config](/cells/ru/reportingservices/set-deviceinfo-in-rsreportserver-config/)

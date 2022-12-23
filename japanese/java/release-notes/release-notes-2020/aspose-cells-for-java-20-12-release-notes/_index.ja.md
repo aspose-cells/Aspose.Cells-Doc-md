@@ -17,10 +17,10 @@ url: /ja/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43346|ピボット テーブルのページ フィルタに 12 個を超えるフィールドを追加すると、出力ファイルが破損する|
 |CELLSJAVA-43351|PDF への変換中にヘッダー テーブルの背景色が正しくない|
 |CELLSJAVA-43358|HTML から Excel への変換中にテキストが見つからない|
-|CELLSJAVA-43341|LightCellsDataProvider で CSV をエクスポートする際の余分な空の列|
+|CELLSJAVA-43341|LightCellsDataProvider を使用して CSV をエクスポートする際の余分な空の列|
 |CELLSJAVA-43352|Excel ファイルを PDF に変換すると、大きな数値の問題が発生する|
 |CELLSJAVA-43339|ソースファイルを pdf に変換する際に画像の位置がずれてしまう|
-|CELLSJAVA-43340|XLS から PDF への変換でコンテンツが欠落している|
+|CELLSJAVA-43340|XLS から PDF への変換で内容が欠落している|
 |CELLSJAVA-43336|グラフの凡例のエントリが左に大きく表示される|
 |CELLSJAVA-43356|つの値の間にある場合、グラフの空の値/ギャップは考慮されません|
 |CELLSJAVA-43344|現在のユーザー名は、最後のコメントの作成者として表示されます|
@@ -28,7 +28,7 @@ url: /ja/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43361|xls から xlsx への変換でセルの色が正しくない|
 |CELLSJAVA-43366|SetAsTotal プロパティが更新されない|
 |CELLSJAVA-43348|XLSB から PDF への変換: CellsException: -2147483648|
-|CELLSJAVA-43343|形状の項目が選択されていないファイルを PDF にエクスポートするときの例外|
+|CELLSJAVA-43343|形状の選択されたアイテムを持たないファイルを PDF にエクスポートするときの例外|
 
 ## **Public API および下位互換性のない変更**
 

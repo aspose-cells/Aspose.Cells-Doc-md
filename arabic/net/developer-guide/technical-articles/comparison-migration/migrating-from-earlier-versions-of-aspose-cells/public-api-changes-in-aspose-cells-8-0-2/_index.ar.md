@@ -56,7 +56,7 @@ book.Save(myDir + "output.xlsx");
 
 {{% /alert %}}
 ## **تمت إضافة خاصية ConvertFormulasData إلى فئة HTMLLoadOptions**
-تمت إضافة خاصية ConvertFormulasData إلى فئة HTMLLoadOptions ، وذلك لتسهيل قيام المطورين بتحميل صيغ Excel من ملفات HTML. تشير الخاصية المنطقية ConvertFormulasData إلى ما إذا كان سيتم تحويل السلسلة إلى صيغة أم لا عندما تبدأ قيمة السلسلة بالحرف '='.
+تمت إضافة خاصية ConvertFormulasData إلى فئة HTMLLoadOptions ، من أجل تسهيل المطورين لتحميل صيغ Excel من ملفات HTML. تشير الخاصية المنطقية ConvertFormulasData إلى ما إذا كان سيتم تحويل السلسلة إلى صيغة أم لا عندما تبدأ قيمة السلسلة بالحرف '='.
 
 **C#**
 
@@ -84,6 +84,6 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% /alert %}}
 ## **تمت إضافة خاصية ImageOptions إلى فئة HtmlSaveOptions**
-تمت إضافة الخاصية ImageOptions إلى فئة HtmlSaveOptions. أدى تعريض خاصية ImageOptions إلى تمكين المطورين من تعيين التفضيلات للصور المضمنة في HTML أثناء تصدير جداول البيانات.
+تمت إضافة الخاصية ImageOptions إلى فئة HtmlSaveOptions. أدى تعريض الخاصية ImageOptions إلى تمكين المطورين من تعيين التفضيلات للصور المضمنة في HTML أثناء تصدير جداول البيانات.
 ## **خاصية HtmlSaveOptions.ExportChartImageFormat قديمة**
 تم وضع علامة HtmlSaveOptions.ExportChartImageFormat على أنه قديم بدءًا من Aspose.Cells for .NET 8.0.2. يُنصح باستخدام HtmlSaveOptions.ImageOptions بدلاً من ذلك لإعدادات تنسيق الصورة أثناء تصدير جداول البيانات إلى تنسيق HTML.

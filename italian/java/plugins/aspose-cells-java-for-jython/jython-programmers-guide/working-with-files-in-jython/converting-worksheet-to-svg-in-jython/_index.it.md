@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /it/java/converting-worksheet-to-svg-in-jython/
 ---
-## **Aspose.Cells - Conversione foglio di lavoro in SVG**
+## **Aspose.Cells - Conversione del foglio di lavoro in SVG**
  Per aggiungere documenti utilizzando**Aspose.Cells Java per Jython**. Qui puoi vedere il codice di esempio.
 
 **Codice Jython**
@@ -39,7 +39,7 @@ classe ConvertingWorksheetToSVG:
 
  # Converti ogni foglio di lavoro in formato svg in una singola pagina.
 
-imgOptions = ImageOrPrintOptions()
+ imgOptions = ImageOrPrintOptions()
 
  imgOptions.setSaveFormat(saveFormat.SVG)
 
@@ -87,6 +87,6 @@ if __name__ == '__main__':
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Aggiungi documenti (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Aggiungi documenti (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose-Cells-Java-for-Jython/asposecells/WorkingWithFiles/ConvertingWorksheetToSVG.py)

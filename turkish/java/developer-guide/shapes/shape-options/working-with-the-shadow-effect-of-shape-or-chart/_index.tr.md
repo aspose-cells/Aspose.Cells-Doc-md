@@ -17,7 +17,7 @@ url: /tr/java/working-with-the-shadow-effect-of-shape-or-chart/
 
  Aşağıdaki ekran görüntüsü, ayarlamak için Microsoft Excel arayüzünü gösterir.*Gölge Efekti*şekil.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-the-shadow-effect-of-shape-or-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-the-shadow-effect-of-shape-or-chart_1.png)
 ## **Şeklin veya Grafiğin Gölge Efektiyle Çalışma**
  Aşağıdaki örnek kod,[kaynak excel dosyası](5472531.xlsx) ve ilk çalışma sayfasındaki ilk şekle erişir ve alt özelliklerini ayarlar.[Shape.ShadowEffect](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ShadowEffect)özelliğine ve ardından çalışma kitabını şuraya kaydeder:[çıktı excel dosyası](5472530.xlsx).
 ## **Basit kod**

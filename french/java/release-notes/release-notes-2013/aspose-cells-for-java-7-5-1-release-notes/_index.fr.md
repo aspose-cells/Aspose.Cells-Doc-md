@@ -14,7 +14,7 @@ url: /fr/java/aspose-cells-for-java-7-5-1-release-notes/
 
  40566 - Insérer une image basée sur la référence de cellule
 
- Exceptions
+ Des exceptions
 
  40550 - Exception lors du chargement du document
 

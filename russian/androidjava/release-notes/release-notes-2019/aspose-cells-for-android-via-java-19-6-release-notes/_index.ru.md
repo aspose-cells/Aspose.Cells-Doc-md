@@ -16,21 +16,21 @@ url: /ru/java/aspose-cells-for-android-via-java-19-6-release-notes/
 |CELLSJAVA-42916|Проблема с форматом данных после Workbook.save()|Улучшение|
 |CELLSJAVA-42930|Ошибка загрузки Excel95|Улучшение|
 |CELLSJAVA-42927|Сохраненный файл медленно открывается в Excel после удаления столбцов|Улучшение|
-|CELLSJAVA-42857|Неверное значение отображается для фигур в экспортированном PDF-файле|Ошибка|
+|CELLSJAVA-42857|Неверное значение отображается для фигур в экспортированном PDF|Ошибка|
 |CELLSJAVA-42890|Изображение непрозрачное и непрозрачное после преобразования - рендеринг Excel в HTML|Ошибка|
-|CELLSJAVA-42893|Диаграмма отсутствует в рендеринге Excel в HTML|Ошибка|
-|CELLSJAVA-42899|Проблема с Excel в HTML|Ошибка|
-|CELLSJAVA-42903|Проблема рендеринга Excel в HTML на CentOS|Ошибка|
+|CELLSJAVA-42893|Диаграмма отсутствует в Excel для рендеринга HTML|Ошибка|
+|CELLSJAVA-42899|Excel на HTML проблема|Ошибка|
+|CELLSJAVA-42903|Проблема с рендерингом Excel до HTML в CentOS|Ошибка|
 |CELLSJAVA-42882|Не удалось извлечь данные из файла MS Excel 95 XLS|Ошибка|
 |CELLSJAVA-42887|Разница в расчетах между MS Excel и Aspose.Cells|Ошибка|
 |CELLSJAVA-42891|Функция ЧИСТВНДОХ выдает числовую ошибку, если в диапазоне существует какое-либо нулевое значение.|Ошибка|
 |CELLSJAVA-42909|Проблема с функцией DATEVALUE|Ошибка|
 |CELLSJAVA-42910|Проблема с функцией ВПР, когда в строке есть символ|Ошибка|
 |CELLSJAVA-42911|Проблема при использовании функции ТЕКСТ для дат|Ошибка|
-|CELLSJAVA-42896|Преобразование в PDF превращает телефонные номера|Ошибка|
+|CELLSJAVA-42896|Преобразование в PDF переворачивает телефонные номера|Ошибка|
 |CELLSJAVA-42900|Преобразование в PDF изменяет порядок текста|Ошибка|
 |CELLSJAVA-42932|Ошибка условного форматирования с методом Style.getDisplayStyle|Ошибка|
-|CELLSJAVA-42928|Некоторые строки не отображаются при преобразовании XLSX в PDF.|Ошибка|
+|CELLSJAVA-42928|Некоторые строки не отражаются при преобразовании XLSX в PDF.|Ошибка|
 |CELLSJAVA-42904|Изображение заголовка, по-видимому, портит файл|Ошибка|
 |CELLSJAVA-42907|Фильтр потерян после сохранения книги|Ошибка|
 |CELLSJAVA-42915|Фильтры меняются после добавления листа в книгу|Ошибка|
@@ -54,8 +54,8 @@ url: /ru/java/aspose-cells-for-android-via-java-19-6-release-notes/
 ### **Добавляет свойства Cells.ODSCellFields.**
 Получает список полей ячеек ODS.
 ### **Добавляет класс ODSPageBackground и свойство PageSetup.ODSPageBackground.**
-Представляет собой фон ОРВ.
-### **Добавляет enum FileFormatType.FODS, FileFormatType.SXC, LoadFormat.FODS, LoadFormat.SXC, SaveFormat.FODS и SaveFormat.SXC.**
+Представляет фон ODS.
+### **Добавляет enum FileFormatType.FODS, FileFormatType.SXC,LoadFormat.FODS,LoadFormat.SXC,SaveFormat.FODS и SaveFormat.SXC.**
 Представляет типы форматов файлов .FODS и .SXC.
 ### **Добавляет перечисление WarningType.UnsupportedFileFormat**
 Представляет неподдерживаемый формат файла для типов предупреждений.

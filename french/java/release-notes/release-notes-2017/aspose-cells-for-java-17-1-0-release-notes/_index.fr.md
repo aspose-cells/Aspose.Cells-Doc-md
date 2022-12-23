@@ -4,15 +4,15 @@ type: docs
 weight: 120
 url: /fr/java/aspose-cells-for-java-17-1-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42132|Méthodes GetPaperWidth et GetPaperHeight ajoutées à la classe PageSetup|Nouvelle fonctionnalité|
-|CELLSJAVA-41950|Prise en charge du remplissage dégradé pour WordArt lors de la conversion de feuilles de calcul en HTML|Nouvelle fonctionnalité|
-|CELLSJAVA-42129|L'enregistrement au format HTML est incorrect|Punaise|
-|CELLSJAVA-42125|Les lignes de grille derrière les formes ne sont pas exportées lors de la conversion en HTML|Punaise|
-|CELLSJAVA-42110|Certaines règles CSS ignorées lors de l'importation de HTML|Punaise|
+|CELLSJAVA-41950|Prise en charge du remplissage dégradé pour le WordArt lors de la conversion des feuilles de calcul en HTML|Nouvelle fonctionnalité|
+|CELLSJAVA-42129|L'enregistrement au HTML est erroné|Punaise|
+|CELLSJAVA-42125|Les quadrillages derrière les formes ne sont pas exportés lors de la conversion en HTML|Punaise|
+|CELLSJAVA-42110|Certaines règles CSS ignorées lors de l'importation HTML|Punaise|
 |CELLSJAVA-42094|Le contenu est barré dans le HTML converti|Punaise|
-|CELLSJAVA-42091|Le style de texte de certaines cellules est incorrect lors de l'enregistrement au format HTML|Punaise|
+|CELLSJAVA-42091|Le style de texte de certaines cellules est incorrect lorsqu'il est enregistré dans HTML|Punaise|
 |CELLSJAVA-42088|DataBar incorrect lorsque la cellule a une couleur d'arrière-plan définie|Punaise|
 |CELLSJAVA-42018|L'image du graphique n'est pas enregistrée lorsque le format EMF ou SVG est utilisé|Punaise|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines ne semble pas fonctionner pour une feuille de calcul particulière|Punaise|
@@ -21,18 +21,18 @@ url: /fr/java/aspose-cells-for-java-17-1-0-release-notes/
 |CELLSJAVA-42118|Name.getRanges() API produit des résultats inattendus|Punaise|
 |CELLSJAVA-42117|Impossible d'accéder à la variable d'instance m_LoadDataFilterOptions lors du remplacement de la méthode startSheet de la classe LoadFilter|Punaise|
 |CELLSJAVA-41882|Cell valeur de chaîne et problème d'arrondi basé sur différentes versions de JDK|Punaise|
-|CELLSJAVA-42142|Les caractères de contrôle de droite à gauche et de gauche à droite ne sont pas rendus correctement en PDF lorsque la conversion est effectuée sous Linux|Punaise|
-|CELLSJAVA-42136|Hébreu - Dans le tableau, les lignes enveloppées de mots sont alignées à droite dans PDF alors qu'elles doivent être centrées comme dans Excel|Punaise|
+|CELLSJAVA-42142|Les caractères de contrôle de droite à gauche et de gauche à droite ne sont pas rendus correctement dans PDF lorsque la conversion est effectuée sous Linux|Punaise|
+|CELLSJAVA-42136|Hébreu - Dans le tableau, les lignes enveloppées de mots sont alignées à droite en PDF alors qu'elles doivent être centrées comme dans Excel|Punaise|
 |CELLSJAVA-42113|Mauvaise conversion de la feuille de calcul arabe en SVG|Punaise|
-|CELLSJAVA-42135|Hébreu - Le texte enveloppé n'est pas aligné à droite dans un PDF comme dans Excel|Punaise|
+|CELLSJAVA-42135|Hébreu - Le texte enveloppé n'est pas aligné à droite dans PDF comme dans Excel|Punaise|
 |CELLSJAVA-42134|Hébreu - Étiquettes de série lorsqu'il y a un retour à la ligne, les caractères ne sont pas affichés dans le bon ordre|Punaise|
-|CELLSJAVA-42127|Forme à l'erreur d'image lors du rendu 03.xls au format PDF|Punaise|
-|CELLSJAVA-42126|Forme à l'erreur d'image lors du rendu 02.xls au format PDF|Punaise|
+|CELLSJAVA-42127|Forme à l'image Erreur lors du rendu 03.xls à PDF|Punaise|
+|CELLSJAVA-42126|Forme à l'image Erreur lors du rendu 02.xls à PDF|Punaise|
 |CELLSJAVA-42087|L'image du graphique dans le HTML est erronée|Punaise|
-|CELLSJAVA-42079|Épaisseur inégale des lignes aux intersections lors du rendu d'une feuille de calcul avec diagramme au format PDF|Punaise|
-|CELLSJAVA-42078|Les étiquettes de graphique ne sont pas affichées/rendues de la même manière (selon le fichier Excel d'origine) dans le fichier PDF de sortie|Punaise|
-|CELLSJAVA-42076|L'angle des étiquettes de l'axe des x est incorrect dans le PDF du graphique|Punaise|
-|CELLSJAVA-42065|Rendu incorrect des graphiques à barres lors du rendu de la feuille de calcul au format HTML|Punaise|
+|CELLSJAVA-42079|Épaisseur inégale des lignes aux intersections lors du rendu de la feuille de calcul avec diagramme au PDF|Punaise|
+|CELLSJAVA-42078|Les étiquettes de graphique ne sont pas affichées/rendues de la même manière (selon le fichier Excel d'origine) dans le fichier de sortie PDF|Punaise|
+|CELLSJAVA-42076|L'angle des étiquettes de l'axe des x est incorrect dans le graphique PDF|Punaise|
+|CELLSJAVA-42065|Rendu incorrect des graphiques à barres lors du rendu de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-42152|La définition d'une formule faisant référence à un classeur externe crée une formule 3D|Punaise|
 |CELLSJAVA-42146|Erreur de contenu illisible dans Excel 2007 après avoir réenregistré une feuille de calcul|Punaise|
 |CELLSJAVA-42121|Modifications de l'expression de format conditionnel lors de la suppression de lignes|Punaise|

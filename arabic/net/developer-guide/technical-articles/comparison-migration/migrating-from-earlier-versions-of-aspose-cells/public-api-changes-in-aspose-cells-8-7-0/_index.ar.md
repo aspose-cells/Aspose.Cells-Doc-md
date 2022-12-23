@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **تمت إضافة الخاصية TxtLoadOptions.HasFormula**
- Aspose.Cells for .NET 8.7.0 قدم دعمًا لـ[تحديد الصيغ وتحليلها أثناء تحميل ملفات CSV / TXT التي تحتوي على بيانات عادية محددة](/cells/ar/net/load-or-import-csv-file-with-formulas/). تعرض خاصية TxtLoadOptions.HasFormula المكشوفة حديثًا عند ضبطها على true توجه API لتحليل الصيغ من ملف الإدخال المحدد وتعيينها على الخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
+ Aspose.Cells for .NET 8.7.0 قدم دعمًا لـ[تحديد الصيغ وتحليلها أثناء تحميل CSV/TXT الملفات ذات البيانات العادية المحددة](/cells/ar/net/load-or-import-csv-file-with-formulas/). تعرض خاصية TxtLoadOptions.HasFormula المكشوفة حديثًا عند ضبطها على true توجه API لتحليل الصيغ من ملف الإدخال المحدد وتعيينها على الخلايا ذات الصلة دون الحاجة إلى أي معالجة إضافية.
 
 فيما يلي سيناريو الاستخدام البسيط.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **تمت إضافة خاصية DataLabels.IsResizeShapeToFitText**
- ميزة مفيدة أخرى كشفها Aspose.Cells for .NET 8.7.0 هي خاصية DataLabels.IsResizeShapeToFitText التي يمكنها تمكين[تغيير حجم الشكل لاحتواء النص](/cells/ar/net/resize-chart-s-data-label-shape-to-fit-text/) ميزة تطبيق Excel لتسميات بيانات الرسم البياني.
+ ميزة مفيدة أخرى كشفها Aspose.Cells for .NET 8.7.0 هي خاصية DataLabels.IsResizeShapeToFitText التي يمكنها تمكين[تغيير حجم الشكل لاحتواء النص](/cells/ar/net/resize-chart-s-data-label-shape-to-fit-text/)ميزة تطبيق Excel لتسميات بيانات الرسم البياني.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

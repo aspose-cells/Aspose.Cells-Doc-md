@@ -18,18 +18,18 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.4.
 |CELLSJAVA-42856|Problema de conversión de Excel a HTML|Insecto|
 |CELLSJAVA-42872|Imagen de la Hoja, faltan las líneas derecha e inferior|Insecto|
 |CELLSJAVA-42873|La hoja preacondicionada tiene varios fondos de celda y falta texto y está oculta.|Insecto|
-|CELLSJAVA-42874|Pérdida de columna al exportar el archivo a HTML|Insecto|
+|CELLSJAVA-42874|Pérdida de columna al exportar el archivo al HTML|Insecto|
 |CELLSJAVA-42875|El ancho es incorrecto y la pantalla está fuera de forma|Insecto|
 |CELLSJAVA-42878|El resultado de calcular fórmulas no es correcto|Insecto|
-|CELLSJAVA-40419|No se puede crear un PDF etiquetado al exportar de Excel a PDF|Insecto|
+|CELLSJAVA-40419|No se puede crear PDF etiquetado al exportar desde Excel a PDF|Insecto|
 |CELLSJAVA-40570|Conversión incorrecta a PDF y JPG para páginas de diferentes tamaños|Insecto|
 |CELLSJAVA-42833|Problema al incrustar el mismo archivo PDF en varias hojas de un libro de trabajo|Insecto|
 |CELLSJAVA-42858|Problema al agregar una imagen a celdas combinadas usando marcadores inteligentes con la opción Picture:FitToCell|Insecto|
-|CELLSJAVA-42862|El nombre de la hoja se renombra en fórmulas después de la importación de CSV|Insecto|
-|CELLSJAVA-42865|Hora incorrecta de lectura de una celda en el archivo ODS|Insecto|
+|CELLSJAVA-42862|El nombre de la hoja se renombra en fórmulas después de la importación CSV|Insecto|
+|CELLSJAVA-42865|Hora incorrecta leída de una celda en el archivo ODS|Insecto|
 |CELLSJAVA-42879|El archivo de Excel se corrompe después de guardar por Aspose.Cells|Insecto|
 |CELLSJAVA-42860|java.lang.NullPointerException al cargar un formato de archivo ODS|Excepción|
-|CELLSJAVA-42871|java.lang.Exception: Clon no compatible para transmisión respaldada al convertir XLSX a PDF|Excepción|
+|CELLSJAVA-42871|java.lang.Exception: Clon no admitido para transmisión respaldada al convertir XLSX a PDF|Excepción|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.

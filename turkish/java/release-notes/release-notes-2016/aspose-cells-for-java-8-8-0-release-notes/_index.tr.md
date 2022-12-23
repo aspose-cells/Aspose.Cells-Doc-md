@@ -9,28 +9,28 @@ url: /tr/java/aspose-cells-for-java-8-8-0-release-notes/
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 |CELLSJAVA-41812 | Akıllı İşaretleyicilerde Verileri Gruplandırırken Görüntü İşaretleyicileri desteklenmez| Artırma|
-|CELLSJAVA-41772 | HTML'ye dönüştürme, boş sayfayla sonuçlanır| Böcek|
-|CELLSJAVA-41738 | Bir Metin Kutusundaki metnin dikey hizalaması, e-tablo Görüntü ve PDF'ye dönüştürülürken ortadan yukarı doğru değişir| Böcek|
-|CELLSJAVA-41503 | E-tabloyu HTML biçimine dönüştürürken Yazı Tipi Değiştirme Uyarıları çalışmıyor| Böcek|
+|CELLSJAVA-41772 | HTML'e dönüştürme, boş sayfayla sonuçlanır| Böcek|
+|CELLSJAVA-41738 | Metin Kutusundaki metnin dikey hizalaması, e-tabloyu Görüntü & PDF olarak işlerken ortadan yukarı doğru değişir| Böcek|
+|CELLSJAVA-41503 | E-tablo HTML biçimine dönüştürülürken Yazı Tipi Değiştirme Uyarıları çalışmıyor| Böcek|
 |CELLSJAVA-41797 | Aspose.Cells hücrenin değerini doğru hesaplamıyor| Böcek|
 |CELLSJAVA-41779 | Cell.calculate() yöntemi değerleri düzgün hesaplamıyor| Böcek|
 |CELLSJAVA-41813 | Örnek Excel dosyasında ikinci sayfanın sonundaki boşluk bozulması kırmızı olarak vurgulanmıştır| Böcek|
-|CELLSJAVA-41744 | Çıkış PDF'sinde yanlış hizalanmış metin| Böcek|
-|CELLSJAVA-41723 | Aspose.Cells, aynı e-tablonun Excel tarafından oluşturulmuş PDF'si ile oluşturulmuş PDF uyuşmazlıkları| Böcek|
-|CELLSJAVA-41802 |Kategori ekseni onay etiketleri, Excel'deki çıktı PDF'sinde PDF oluşturmada uyuşmazlık| Böcek|
-|CELLSJAVA-41800 | Chart'ın PDF'sinde grafik etiketlerinin açısı değişti| Böcek|
-|CELLSJAVA-41798 | Grafiği PDF'ye dönüştürürken açıklama girişi kırpılıyor| Böcek|
-|CELLSJAVA-41792 | Kırmızı renkli çubuk Excel'de yok ancak PDF'de görüntüleniyor| Böcek|
+|CELLSJAVA-41744 | Çıktıda yanlış hizalanmış metin PDF| Böcek|
+|CELLSJAVA-41723 |Aspose.Cells, PDF oluşturdu Excel ile aynı e-tablonun PDF'ini oluşturdu| Böcek|
+|CELLSJAVA-41802 | Excel'de PDF çıkışında PDF oluşturmada kategori ekseni onay etiketleri uyuşmazlığı| Böcek|
+|CELLSJAVA-41800 | Grafik etiketlerinin açısı, Grafiğin PDF'inde değişti| Böcek|
+|CELLSJAVA-41798 | Tablo PDF'e dönüştürülürken gösterge girişi kırpılıyor| Böcek|
+|CELLSJAVA-41792 | Excel'de kırmızı renkli çubuk eksik ancak PDF'de görüntüleniyor| Böcek|
 |CELLSJAVA-41785 | Çalışma Kitabı kopyalandıktan ve DataLabel'in konumu ayarlandıktan sonra elektronik tablo bozuluyor| Böcek|
 |CELLSJAVA-41784 | Çalışma Kitabı kopyalanırken Hata Çubuğu eksik| Böcek|
 |CELLSJAVA-41780 | Çalışma sayfası resme dönüştürülürken TextBox'taki metin eksik işleniyor| Böcek|
-|CELLSJAVA-41773 | Elektronik tablo için çıktı görüntüsünde/PDF'de bir grafikte veri etiketleri eksik| Böcek|
-|CELLSJAVA-41757 | Chart'ın PDF'sinde 0 değerli x ekseni kuralının altında pozitif değerli çubuklar görünüyor| Böcek|
+|CELLSJAVA-41773 | E-tablo için çıktı görüntüsü/PDF'deki bir grafik için veri etiketleri eksik| Böcek|
+|CELLSJAVA-41757 | Grafiğin PDF'inde 0 değerli x ekseni kuralının altında pozitif değerli çubuklar görünüyor| Böcek|
 |CELLSJAVA-41734 | Çalışma Sayfasını Görüntüye dönüştürürken Grafiğin Açıklama sırası tersine döndü| Böcek|
 |CELLSJAVA-41811 | Aspose.Cells, XLSM dosya biçimini açıp yeniden kaydettikten sonra Power Pivot Tablolarını bozuyor| Böcek|
-|CELLSJAVA-41807 | XLSX dosyasındaki aralıkları kopyalarken gruplandırılmış satırlarla ilgili sorun| Böcek|
-|CELLSJAVA-41806 | XLS dosyasındaki aralıkları kopyalarken gruplandırılmış satırlarla ilgili sorun| Böcek|
-|CELLSJAVA-41804 |WordArt için Formül, XLS'yi XLSB'ye dönüştürdükten sonra bağımsız değişken değişikliğine tepki vermiyor| Böcek|
+|CELLSJAVA-41807 |XLSX dosyasındaki aralıkları kopyalarken gruplandırılmış satırlarla ilgili sorun| Böcek|
+|CELLSJAVA-41806 |XLS dosyasındaki aralıkları kopyalarken gruplandırılmış satırlarla ilgili sorun| Böcek|
+|CELLSJAVA-41804 | WordArt formülü, XLS'i XLSB'e dönüştürdükten sonra bağımsız değişken değişikliğine tepki vermiyor| Böcek|
 |CELLSJAVA-41803 | Koşullu biçimlendirme aralığı yanlış ve Microsoft Excel ile eşleşmiyor| Böcek|
 |CELLSJAVA-41809 | Worksheet.calculateFormula, formül NameCollection aracılığıyla ayarlandığında boş işaretçi istisnası atar| İstisna|
 |CELLSJAVA-41808 | Workbook.save'de "java.lang.NullPointerException"| İstisna|

@@ -15,19 +15,19 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.10.
 |CELLSJAVA-42634|Konvertieren Sie die linke rechte Bandform in ein Bild|Erweiterung|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - fehlende Paketlistendatei|Erweiterung|
 |CELLSJAVA-42528|Die Schriftart ist kein gültiges HTML5- und selbstschließendes Tag, und Webbrowser stellen ihren Inhalt falsch dar|Erweiterung|
-|CELLSJAVA-42728|Beim Speichern in der PDF-Ausgabe wird eine Ausnahme (StackOverFlow) ausgelöst|Insekt|
+|CELLSJAVA-42728|Beim Speichern in die Ausgabe PDF wird eine Ausnahme (StackOverFlow) ausgelöst|Insekt|
 |CELLSJAVA-42729|Falscher Wert von ROUNDUP() berechnet|Insekt|
 |CELLSJAVA-42724|Kopieren Sie einen Bereich mit PasteType.ALL (Einfügeoptionen), wobei die Zeilenhöhen nicht ordnungsgemäß kopiert werden|Insekt|
 |CELLSJAVA-42722|Hyperlink-Textformatierung geht verloren, wenn neuer Text festgelegt wird|Insekt|
 |CELLSJAVA-42688|Ungültige Ausgabe im russischen Datumsformat|Insekt|
 |CELLSJAVA-42721|Problem mit SheetRender-Schriftarten|Insekt|
-|CELLSJAVA-42723|Ausnahme "java.lang.OutOfMemoryError: Java heap space" beim Rendern von MS Excel-Dateien in PDF|Insekt|
+|CELLSJAVA-42723|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern der MS Excel-Datei auf PDF|Insekt|
 |CELLSJAVA-42725|Anführungszeichen erscheinen in der Formel, wenn die Zellformel über Aspose.Cells abgerufen wird|Insekt|
 |CELLSJAVA-42720|Leistungsabfall bei Verwendung der bedingten Formatierung|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
 ### **Fügt die HtmlSaveOptions.WidthScalable-Eigenschaft hinzu**
-Gibt an, ob beim Exportieren der Datei in HTML eine skalierbare Einheit zur Beschreibung der Spaltenbreite verwendet wird. Der Standardwert ist falsch.
+Gibt an, ob beim Exportieren der Datei nach HTML eine skalierbare Einheit zur Beschreibung der Spaltenbreite verwendet wird. Der Standardwert ist „false“.
 ### **Fügt die WorkbookDesigner.UpdateEmptyStringAsNull-Eigenschaft hinzu**
 Gibt an, ob der leere Zeichenfolgenwert als Null verarbeitet wird.
 ### **Aktualisiert den zurückgegebenen Wert der Methode DocumentProperty.ToDateTime(), der Eigenschaften BuiltInDocumentPropertyCollection.CreatedTime, BuiltInDocumentPropertyCollection.LastPrinted und BuiltInDocumentPropertyCollection.LastSavedTime.**

@@ -6,7 +6,7 @@ url: /fr/java/code-comparison-for-common-features-in-aspose-cells-and-xlsx4j/
 ---
 Les développeurs à la recherche de bibliothèques de traitement de feuilles de calcul peuvent avoir besoin de parcourir les fonctionnalités fournies par les bibliothèques disponibles sur le marché. Généralement, peu de facteurs sont pris en compte lors du choix d'une option :
 
-- Fonctionnalités
+- Caractéristiques
 - Efforts requis pour utiliser la bibliothèque
 - Performance
 

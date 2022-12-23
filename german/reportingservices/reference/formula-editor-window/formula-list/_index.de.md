@@ -8,9 +8,9 @@ url: /de/reportingservices/formula-list/
 
 |**Name einsetzen** |**Formelname**|**Beschreibung**|
 |:- |:- |:- |
-| Globale Felder| Ausführungszeit|Datum und Uhrzeit des Beginns der Berichtsausführung.|
+| Globale Felder| Ausführungszeit| Datum und Uhrzeit des Beginns der Berichtsausführung.|
 || ReportServerUrl| Die URL des Berichtsservers, auf dem der Bericht ausgeführt wird.|
-|| Berichtsname| Der Name des Berichts, wie er in der Berichtsserver-Datenbank gespeichert ist.|
+|| Berichtsname|Der Name des Berichts, wie er in der Berichtsserver-Datenbank gespeichert ist.|
 || Berichtsordner| Der vollständige Pfad zu dem Ordner, der den Bericht enthält. Dies beinhaltet nicht die Berichtsserver-URL.|
 | Benutzer| Benutzeridentifikation| Die ID des Benutzers, der den Bericht ausführt.|
 || Sprache| Die Sprach-ID des Benutzers, der den Bericht ausführt.|
@@ -39,7 +39,7 @@ Arithmetische Operatoren werden verwendet, um Zahlen, numerische Variablen, nume
 ||>= | Größer oder gleich, zum Beispiel 4 >= 3 wahr.|
 ||= | Gleich, zum Beispiel 4 = 3 falsch.|
 ||<> | Ungleich, zum Beispiel 4<> 3 wahr.|
-|| Wie|Vergleicht eine Zeichenfolge mit einem Muster. Zum Beispiel result = string Wie Muster.|
+|| Mögen|Vergleicht eine Zeichenfolge mit einem Muster. Zum Beispiel result = string Wie Muster.|
 || Ist| Vergleicht zwei Objektreferenzvariablen, zum Beispiel asp Is aspose.|
 | Verkettung|& | Erzeugt eine Zeichenfolgenverkettung von zwei Ausdrücken.|
 ||+ | Addiert zwei Zahlen oder gibt den positiven Wert eines numerischen Ausdrucks zurück. Kann auch verwendet werden, um zwei Zeichenfolgenausdrücke zu verketten.|

@@ -4,7 +4,7 @@ type: docs
 weight: 130
 url: /tr/net/set-column-width-to-scalable-unit-like-em-or-percent/
 ---
-Bir elektronik tablodan bir HTML dosyası oluşturmak çok yaygındır. Sütunların boyutu, birçok durumda işe yarayan "pt" ile tanımlanır. Ancak, bu sabit boyutun gerekli olmayabileceği bir durum olabilir. Örneğin, bu HTML sayfasının görüntülendiği yerde bir kap paneli genişliği 600 piksel ise. Bu durumda, oluşturulan tablo genişliği daha büyükse yatay bir kaydırma çubuğu elde edebilirsiniz. Daha iyi bir sunum elde etmek için bu sabit boyutun em veya yüzde gibi ölçeklenebilir bir birime dönüştürülmesi istenmiştir. Aşağıdaki örnek kod nerede kullanılabilir?[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/widthscalable) ayarlandı**doğru** ölçeklenebilir genişlik oluşturmak için.
+Bir elektronik tablodan HTML dosyası oluşturmak çok yaygındır. Sütunların boyutu, birçok durumda işe yarayan "pt" ile tanımlanır. Ancak, bu sabit boyutun gerekli olmayabileceği bir durum olabilir. Örneğin, bu HTML sayfasının görüntülendiği yerde bir konteyner paneli genişliği 600px ise. Bu durumda, oluşturulan tablo genişliği daha büyükse yatay bir kaydırma çubuğu elde edebilirsiniz. Daha iyi bir sunum elde etmek için bu sabit boyutun em veya yüzde gibi ölçeklenebilir bir birime dönüştürülmesi istenmiştir. Aşağıdaki örnek kod nerede kullanılabilir?[**HtmlSaveOptions.WidthScalable**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/widthscalable) ayarlandı**doğru** ölçeklenebilir genişlik oluşturmak için.
 
 Örnek kaynak dosya ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir:
 

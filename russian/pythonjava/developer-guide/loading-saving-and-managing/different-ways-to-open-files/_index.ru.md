@@ -24,13 +24,13 @@ url: /ru/python-java/different-ways-to-open-files/
 
 ## **Открытие файла только с данными**
 
- Чтобы открыть файл только с данными, используйте**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** а также**[Загрузить фильтр] (https://reference.aspose.com/cells/python-java/asposecells.api/LoadFilter)**классы, чтобы установить связанные атрибуты и параметры классов для загружаемого файла шаблона.
+ Чтобы открыть файл только с данными, используйте**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** и**[Загрузить фильтр] (https://reference.aspose.com/cells/python-java/asposecells.api/LoadFilter)**классы, чтобы установить связанные атрибуты и параметры классов для загружаемого файла шаблона.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenFilewithDataOnly.py" >}}
 
 {{% alert color="primary" %}}
 
-Исключение будет выдано, если вы попытаетесь открыть неродные файлы Excel или файлы других форматов (например, PPT/PPTX, DOC/DOCX и т. д.) по номеру Aspose.Cells.
+Будет выдано исключение, если вы попытаетесь открыть неродные файлы Excel или файлы других форматов (например, PPT/PPTX, DOC/DOCX и т. д.) по номеру Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

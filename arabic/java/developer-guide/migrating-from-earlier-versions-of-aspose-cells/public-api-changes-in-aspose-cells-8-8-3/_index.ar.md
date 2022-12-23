@@ -252,11 +252,11 @@ book.save(dir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **تمت إضافة خاصية HtmlSaveOptions.ExportGridLines**
-كشف Aspose.Cells for Java 8.8.3 خاصية HtmlSaveOptions.ExportGridLines التي تسمح بعرض خطوط الشبكة أثناء تصدير جدول البيانات إلى تنسيق HTML. تحتوي خاصية Boolean type على القيمة الافتراضية false ، ومع ذلك ، عند التعيين على true ، فإن API يعرض خطوط الشبكة لنطاق البيانات المتاح بتنسيق HTML.
+كشف Aspose.Cells for Java 8.8.3 خاصية HtmlSaveOptions.ExportGridLines التي تسمح بعرض خطوط الشبكة أثناء تصدير جدول البيانات إلى تنسيق HTML. تحتوي خاصية النوع المنطقي على القيمة الافتراضية false ، ومع ذلك ، عند التعيين إلى true ، فإن API يعرض خطوط الشبكة لنطاق البيانات المتاح بتنسيق HTML.
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[عرض خطوط الشبكة إلى HTML](/cells/ar/java/export-excel-to-html-with-gridlines/).
+ لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة التفصيلية على[تقديم خطوط الشبكة إلى HTML](/cells/ar/java/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 

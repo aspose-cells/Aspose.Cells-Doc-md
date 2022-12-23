@@ -38,14 +38,14 @@ Es gibt viele integrierte Funktionen, die von Aspose.Cells Grid Controls unterst
 - T,TEXT,TRIM
 - OBERER, HÖHER
 - WERT
-- SIEH NACH OBEN
+- NACHSCHLAGEN
 - SVERWEIS
 - WIDECHAR
 ### **Datums- und Zeitfunktionen**
 - STUNDE
 - MINUTE, MONAT
 - JETZT
-- ZWEITE
+- SEKUNDE
 - ZEIT, HEUTE
 - WOCHENTAG
 - JAHR
@@ -54,7 +54,7 @@ Es gibt viele integrierte Funktionen, die von Aspose.Cells Grid Controls unterst
 - WENN
 - NICHT
 - ODER
-- STIMMT
+- WAHR
 ### **Neue Funktionen**
 - MINDEST
 - ROW (nur in Aspose.Cells.GridWeb unterstützt)
@@ -66,7 +66,7 @@ Es gibt viele integrierte Funktionen, die von Aspose.Cells Grid Controls unterst
 - INDIREKT
 - ISERR
 - IST NUMMER
-- SAUBER
+- REINIGEN
 - Renminbi
 - FAKTDOPPELT
 - GCD
@@ -78,7 +78,7 @@ Es gibt viele integrierte Funktionen, die von Aspose.Cells Grid Controls unterst
 - SERIESUM
 - SQRTPI
 - ZWISCHENSUMME
-- ZÄHLEN
+- ANZAHL
 - GRAF
 - INDEX
 - ZELLE

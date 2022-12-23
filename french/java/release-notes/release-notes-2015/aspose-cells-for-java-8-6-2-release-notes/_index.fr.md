@@ -30,7 +30,7 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41554) - Image manquante lors de la conversion du format HTML au format EXCEL
 
- (CELLSJAVA-41549) - XLSB corrompu dans Excel 2010 après avoir été enregistré par Aspose.Cells v8.6.1
+(CELLSJAVA-41549) - XLSB corrompu dans Excel 2010 après avoir été enregistré par Aspose.Cells v8.6.1
 
  (CELLSJAVA-41530) - Le paramètre de mise en page du tableau croisé dynamique classique est perdu lors du réenregistrement du fichier de modèle XLSB
 
@@ -38,7 +38,7 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41546) - Les méthodes Workbook.calculateFormula restent bloquées pour une durée indéterminée
 
-(CELLSJAVA-41544) - Problème de format de date japonais lors de la conversion de "XML Spreadsheet 2003" en XLSX
+ (CELLSJAVA-41544) - Problème de format de date japonais lors de la conversion de "XML Spreadsheet 2003" en XLSX
 
  (CELLSJAVA-41543) - Problème avec la fonction CODE() pour les lettres russes
 
@@ -46,23 +46,23 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41538) - Le réenregistrement de la feuille de calcul supprime quelques propriétés de la balise sheet1.xml pour la balise controlPr
 
- (CELLSJAVA-41567) - Problème avec la police Webdings dans les rendus Excel vers PDF
+ (CELLSJAVA-41567) - Problème avec la police Webdings dans Excel pour les rendus PDF
 
- (CELLSJAVA-41559) - L'enregistrement au format PDF génère des couleurs d'échelle de couleurs incorrectes
+ (CELLSJAVA-41559) - L'enregistrement en PDF génère des couleurs d'échelle de couleurs incorrectes
 
- (CELLSJAVA-41556) - L'impression du PDF généré Aspose.Cells modifie dans une certaine mesure le code-barres intégré
+ (CELLSJAVA-41556) - L'impression du Aspose.Cells généré PDF modifie le code-barres intégré dans une certaine mesure
 
- (CELLSJAVA-41552) - La largeur et la hauteur d'une valeur de texte pivotée semblent être incorrectes
+(CELLSJAVA-41552) - La largeur et la hauteur d'une valeur de texte pivotée semblent être incorrectes
 
- (CELLSJAVA-41578) - Le graphique au format PDF n'est pas généré juste après l'exécution de la méthode chart.toPdf(fileName)
+ (CELLSJAVA-41578) - Le graphique vers PDF n'est pas généré juste après l'exécution de la méthode chart.toPdf(fileName)
 
  (CELLSJAVA-41574) - Problème d'espacement entre l'axe Y et les légendes
 
- (CELLSJAVA-41557) - La différence entre les graduations des étiquettes d'axe passe de 10 à 20 lors du rendu du graphique au format PDF
+ (CELLSJAVA-41557) - La différence entre les graduations des étiquettes d'axe passe de 10 à 20 lors du rendu du graphique en PDF
 
-(CELLSJAVA-41553) - Les couleurs du graphique montrent un changement majeur dans la sortie PDF
+ (CELLSJAVA-41553) - Les couleurs du graphique montrent un changement majeur dans la sortie PDF
 
- (CELLSJAVA-41539) - la plage de l'axe vertical ne correspond pas au graphique source lors du rendu de la feuille de calcul au format PDF
+ (CELLSJAVA-41539) - la plage de l'axe vertical ne correspond pas au graphique source lors du rendu de la feuille de calcul en PDF
 
  (CELLSJAVA-41536) - Problème concernant les formes de la ligne de série dans le graphique selon MS Excel 2010/2013
 
@@ -70,9 +70,9 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41520) - L'image du graphique est coupée du haut et du côté droit
 
- (CELLSJAVA-41509) - Problèmes avec les bordures de graphique lors du rendu du graphique au format PDF
+ (CELLSJAVA-41509) - Problèmes avec les bordures de graphique lors du rendu du graphique vers PDF
 
- (CELLSJAVA-41505) - Les bordures droite et inférieure sont coupées lors du rendu du graphique au format PDF
+(CELLSJAVA-41505) - Les bordures droite et inférieure sont coupées lors du rendu du graphique à PDF
 
  (CELLSJAVA-41560) - Comment obtenir la couleur par défaut de la feuille de calcul
 
@@ -81,16 +81,16 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
  (CELLSJAVA-41469) - Prise en charge des marqueurs intelligents imbriqués
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSJAVA-41550) - java.lang.NullPointerException sur Workbook.combine
 
-(CELLSJAVA-41564) - NullPointerExceptions appelant com.aspose.cells.Row
+ (CELLSJAVA-41564) - NullPointerExceptions appelant com.aspose.cells.Row
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -132,7 +132,7 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
 
 
- Ajoute l'événement AjaxCallFinished dans GridWeb
+Ajoute l'événement AjaxCallFinished dans GridWeb
 
  Se déclenche lorsque la mise à jour ajax du contrôle est terminée (le EnableAJAX doit être défini sur true).
 
@@ -148,4 +148,4 @@ url: /fr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  Noter
 
-Étant donné que la base de code de Aspose.Cells for Java correspond au code de la version .NET pertinente, la plupart des modifications, améliorations et correctifs inclus dans le Aspose.Cells for .NET v8.6.2 sont également inclus dans ce Aspose.Cells for Java v8.6.2.
+ Étant donné que la base de code de Aspose.Cells for Java correspond au code de la version .NET pertinente, la plupart des modifications, améliorations et correctifs inclus dans le Aspose.Cells for .NET v8.6.2 sont également inclus dans ce Aspose.Cells for Java v8.6.2.

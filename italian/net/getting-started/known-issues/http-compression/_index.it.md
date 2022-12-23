@@ -7,7 +7,7 @@ url: /it/net/http-compression/
 ## **Problema di compressione HTTP**
 Alcuni utenti segnalano che se configurano la compressione HTTP in IIS, trovano errori durante l'invio di file generati ai browser client.
 ### **Spiegazione**
- Noi usiamo**"Content-disposition", "inline; filename=test.xls"** header per forzare il browser ad aprire il file e**"Content-disposition", "allegato; filename=test.xls"** header per forzare il browser ad aprire il file**Salva come** finestra di dialogo e utilizzare Microsoft Excel per aprire il file. Tuttavia, ci sono alcune eccezioni che esistono.
+ Noi usiamo**"Content-disposition", "inline; filename=test.xls"** header per forzare il browser ad aprire il file e**"Content-disposition", "allegato; filename=test.xls"** header per forzare il browser ad aprire il file**Salva come** dialog e usa Microsoft Excel per aprire il file. Tuttavia, ci sono alcune eccezioni che esistono.
 ### **Eccezioni**
 È possibile utilizzare il seguente codice per verificare che NON si tratti di un bug di Aspose.
 

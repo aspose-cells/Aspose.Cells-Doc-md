@@ -13,17 +13,17 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Unterstützung zum Unterbrechen der Ausführung von WorkbookDesigner.process in SmarkMarker|
-|CELLSJAVA-44039|Ändern Sie das PDF-Erzeugerattribut aus der generierten PDF|
+|CELLSJAVA-44039|Ändern Sie das Attribut PDF Erzeuger aus dem generierten PDF|
 |CELLSJAVA-43469|Mögliche Regression: Leistungsabfall von FormatConditionCollection.addArea()|
 |CELLSJAVA-43983|Regression: Endlosschleife beim Konvertieren von XLSX in PDF|
-|CELLSJAVA-44029|XLSX zu PDF: Bild wird nicht konvertiert|
+|CELLSJAVA-44029|XLSX bis PDF: Bild wird nicht konvertiert|
 |CELLSJAVA-44093| Textabschneidungsproblem mit rechteckigen Formen beim Rendern in Bilder in neueren Aspose.Cells for Java-Versionen|
 |CELLSJAVA-44089|DataLabels.setShadow() ist nicht verfügbar und entspricht nicht der Methode Series.setShadow()|
-|CELLSJAVA-44000|Cells Stil ist in HTML falsch, wenn Symbolsatz und andere bedingte Formatierung gleichzeitig verwendet werden|
+|CELLSJAVA-44000|Der Cells-Stil ist in HTML falsch, wenn Symbolsatz und andere bedingte Formatierung gleichzeitig verwendet werden|
 |CELLSJAVA-43932|Problem beim Festlegen der Position von Datenbeschriftungen für explodierte Donut-Diagramme im Ausgabebild|
 |CELLSJAVA-43934|Die Beschriftungen des Kreisdiagramms stimmen nach dem Bearbeiten oder Aktualisieren des Diagramms nicht mit Excel überein|
-|CELLSJAVA-44094|Der Diagrammtitel wird beim PDF-Export abgeschnitten|
-|CELLSJAVA-43533|XLSX-zu-HTML-Erstellungsproblem in Ubuntu|
+|CELLSJAVA-44094|Diagrammtitel beim Exportieren nach PDF abgeschnitten|
+|CELLSJAVA-43533|XLSX zu HTML-Erstellungsproblem in Ubuntu|
 |CELLSJAVA-43987|Der rechte Rand verbundener Zellen geht in HTML verloren|
 |CELLSJAVA-44016|Problem beim Konvertieren der Excel-Datei mit der Bild-URL in HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: Sie haben beim Aufruf von Workbook.calculateFormula() zu wenige Parameter für die Funktion IF eingegeben|

@@ -13,7 +13,7 @@ url: /zh/cpp/aspose-cells-for-cpp-19-1-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSCPP-187|将形状保存为图像格式|新功能|
-|CELLSCPP-178|支持 TSV 格式，也称为 TabDelimited 格式|改进|
+|CELLSCPP-178|支持TSV格式也称为TabDelimited格式|改进|
 |CELLSCPP-123|形状类型中的强引用和弱引用问题|漏洞|
 |CELLSCPP-124|删除 Shape 2007 的循环引用|漏洞|
 |CELLSCPP-184|静态成员变量转换问题|漏洞|

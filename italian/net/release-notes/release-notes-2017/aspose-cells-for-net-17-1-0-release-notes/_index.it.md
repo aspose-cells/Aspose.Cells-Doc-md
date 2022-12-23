@@ -4,12 +4,12 @@ type: docs
 weight: 120
 url: /it/net/aspose-cells-for-net-17-1-0-release-notes/
 ---
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSNET-44747|Il file XLSX di MS Excel 2016 contenente il grafico Waterfall non può essere aperto tramite le API Aspose.Cells|Nuova caratteristica|
+|CELLSNET-44747|Il file MS Excel 2016 XLSX contenente il grafico a cascata non può essere aperto tramite le API Aspose.Cells|Nuova caratteristica|
 |CELLSNET-44940|Associa foglio di lavoro a un oggetto Raccolta personalizzata (Aspose.Cells.GridWeb)|Nuova caratteristica|
 |CELLSNET-44939|Associa foglio di lavoro a un oggetto DataSet in fase di esecuzione (Aspose.Cells.GridWeb)|Nuova caratteristica|
-|CELLSNET-44597|Il file Excel di output non è buono quando si converte un file HTML in formato file Excel|Aumento|
+|CELLSNET-44597|Il file Excel di output non va bene quando si converte un file HTML nel formato file Excel|Aumento|
 |CELLSNET-44994|Problema con il formato della data nelle impostazioni locali tedesche durante il rendering di un file Excel in PDF|Aumento|
 |CELLSNET-44986|Rappresentazione di numeri doppi in Aspose.Cells|Aumento|
 |CELLSNET-45023|PivotTable.RefreshData richiede molto tempo|Prestazione|
@@ -28,13 +28,13 @@ url: /it/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-44991|Il risultato della funzione YIELD non è accurato quando viene chiamato il metodo CalculateFormula()|Insetto|
 |CELLSNET-44978|La formula di calcolo restituisce risultati diversi rispetto a MS Excel|Insetto|
 |CELLSNET-45019|Immagine resa in modo errato quando una cella ha il simbolo della sterlina egiziana|Insetto|
-|CELLSNET-43815|Gli oggetti WordArt diventano semplici punti nel PDF di output|Insetto|
+|CELLSNET-43815|Gli oggetti WordArt diventano semplici punti nell'output PDF|Insetto|
 |CELLSNET-44976|Il grafico ad area è inclinato alla fine nell'output PDF a differenza del file MS Excel|Insetto|
 |CELLSNET-44969|Linee non necessarie appaiono nell'immagine del grafico|Insetto|
 |CELLSNET-44941|Le impostazioni cultura non vengono applicate all'immagine del grafico di output|Insetto|
 |CELLSNET-44938|Il grafico non viene visualizzato correttamente quando il foglio di calcolo viene convertito in PDF|Insetto|
 |CELLSNET-44919|L'immagine generata da Aspose.Cells viene distorta quando inserita in Docx|Insetto|
-|CELLSNET-45047|I contenuti del foglio di lavoro cambiano dopo l'apertura e il nuovo salvataggio, come illustrato nella seconda schermata|Insetto|
+|CELLSNET-45047|contenuti del foglio di lavoro cambiano dopo l'apertura e il nuovo salvataggio, come illustrato nella seconda schermata|Insetto|
 |CELLSNET-45046|I contenuti del foglio di lavoro cambiano dopo l'apertura e il nuovo salvataggio, come illustrato nella prima schermata|Insetto|
 |CELLSNET-45027|I bordi delle celle tratteggiate non vengono mantenuti durante la conversione da XLSX a ODS|Insetto|
 |CELLSNET-45021|I file Excel vengono danneggiati dopo il caricamento e il salvataggio tramite le API Aspose.Cells|Insetto|
@@ -46,23 +46,23 @@ url: /it/net/aspose-cells-for-net-17-1-0-release-notes/
 |CELLSNET-43770|La formula viene calcolata in modo errato dal metodo Workbook.CalculateFormula() e il file di output è danneggiato|Insetto|
 |CELLSNET-43733|Il testo WordArt in TextBox viene visualizzato solo come contorno anziché come caratteri riempiti durante la conversione del foglio di calcolo in PDF|Insetto|
 |CELLSNET-43725|Il ridimensionamento di ListObject in XLSM con un intervallo di dati esterno rende il risultato danneggiato|Insetto|
-|CELLSNET-43580|Questa filigrana WordArt non viene stampata correttamente poiché il colore/stile viene modificato nel PDF di output|Insetto|
+|CELLSNET-43580|Questa filigrana WordArt non viene stampata correttamente poiché il colore/stile viene modificato nell'output PDF|Insetto|
 |CELLSNET-43562|Il filtro sulle colonne viene perso quando XLSX viene convertito in ODS|Insetto|
-|CELLSNET-43405|Il testo della funzione viene danneggiato e il testo WordArt diventa bianco dopo la conversione di un formato di file XLS in XLSX|Insetto|
-|CELLSNET-43404|La formattazione del testo WordArt nel file XLS viene modificata dopo la conversione nel formato di file XLSX|Insetto|
-|CELLSNET-41938|Problemi di formattazione (relativi a WordArt) con file XLS|Insetto|
+|CELLSNET-43405|Il testo della funzione viene danneggiato e il testo WordArt diventa bianco dopo la conversione di un formato di file da XLS a XLSX|Insetto|
+|CELLSNET-43404|La formattazione del testo WordArt nel file XLS viene modificata dopo la conversione nel formato file XLSX|Insetto|
+|CELLSNET-41938|Problemi di formattazione (relativi a WordArt) con il file XLS|Insetto|
 |CELLSNET-41708|Problema con l'aggiunta di effetti 3D alle forme (TextBox) create utilizzando Aspose.Cells|Insetto|
 |CELLSNET-41164|Supporto SmartArt nel rendering da Excel a PDF|Insetto|
 |CELLSNET-40903|Problema con GlowEffect|Insetto|
-|CELLSNET-45006|Le celle unite sembrano essere separate durante il caricamento del foglio di calcolo esistente su GridWeb|Insetto|
+|CELLSNET-45006|Le celle unite sembrano essere separate durante il caricamento del foglio di calcolo esistente in GridWeb|Insetto|
 |CELLSNET-44802|Problema con la cella unita Copia/Incolla - Aspose.Cells.GridDesktop|Insetto|
 |CELLSNET-43962|WebWorksheet.GroupRows o GridWorkSheet.GroupRows non funziona come previsto|Insetto|
 |CELLSNET-40897|Foglio di calcolo con controlli del modulo|Insetto|
 |CELLSNET-45031|NullReferenceException in PivotTable.RefreshData con Slicer|Eccezione|
 |CELLSNET-45041|Eccezione durante il salvataggio di un file Excel|Eccezione|
-|CELLSNET-45016|Eccezione all'apertura di un file XLSX modello|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+|CELLSNET-45016|Eccezione all'apertura di un file modello XLSX|Eccezione|
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il setter per la proprietà LoadFilter.LoadDataFilterOptions per sostituire la variabile m_LoadDataFilterOptions**
 L'utente può modificare la proprietà LoadDataFilterOptions nell'implementazione di LoadFilter per modificare il comportamento del caricamento della cartella di lavoro.
 #### **Aggiunge la proprietà CellsHelper.SignificantDigits**

@@ -10,7 +10,7 @@ El editor de hojas de cálculo HTML5 se puede integrar en cualquier sitio web, b
 
 **Incrustar como editor independiente**
 
-Para insertar como un editor independiente, use la etiqueta HTML IFRAME para agregar al sitio web. Por ejemplo:
+Para insertar como un editor independiente, use la etiqueta IFRAME HTML para agregar al sitio web. Por ejemplo:
 
 {{< highlight "html" >}}
 

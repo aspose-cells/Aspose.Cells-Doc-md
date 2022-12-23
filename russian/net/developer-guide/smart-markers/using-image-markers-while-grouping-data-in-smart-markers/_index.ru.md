@@ -17,7 +17,7 @@ url: /ru/net/using-image-markers-while-grouping-data-in-smart-markers/
 
 {{< /highlight >}}
 
- Затем он заполняет источник данных данными и вызывает[WorkbookDesigner.Процесс()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) способ обработки тегов смарт-маркеров. Код использует эти изображения, т.е.[луна.png](5115492.png) а также[луна2.png](5115491.png) но вы можете использовать любое изображение.
+ Затем он заполняет источник данных данными и вызывает[WorkbookDesigner.Процесс()](https://reference.aspose.com/cells/net/aspose.cells/workbookdesigner/methods/process) способ обработки тегов смарт-маркеров. Код использует эти изображения, т.е.[луна.png](5115492.png) и[луна2.png](5115491.png) но вы можете использовать любое изображение.
 
 
 

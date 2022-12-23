@@ -22,7 +22,7 @@ Los siguientes son los pasos necesarios para copiar y mover hojas de trabajo den
 1. En el**antes de la hoja**cuadro, haga clic en la hoja antes de la cual desea insertar las hojas movidas o copiadas.
 1. Para copiar las hojas en lugar de moverlas, seleccione la**crear una copia**caja.
 ### **Copiar hojas de trabajo dentro de un libro de trabajo**
-Aspose.Cells proporciona una sobrecarga[WorksheetCollection.addCopy()](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#addCopy\(int\)) método que se utiliza para copiar una hoja de trabajo existente. Una versión del método toma el índice de la hoja de cálculo de origen como parámetro. La otra versión toma el nombre de la hoja de trabajo de origen.
+Aspose.Cells proporciona una sobrecarga[WorksheetCollection.addCopy()](https://reference.aspose.com/cells/python/asposecells.api/worksheetcollection#addCopy\(int\)) método que se utiliza para copiar una hoja de cálculo existente. Una versión del método toma el índice de la hoja de cálculo de origen como parámetro. La otra versión toma el nombre de la hoja de trabajo de origen.
 
 El siguiente ejemplo muestra cómo copiar una hoja de trabajo existente dentro de un libro de trabajo.
 

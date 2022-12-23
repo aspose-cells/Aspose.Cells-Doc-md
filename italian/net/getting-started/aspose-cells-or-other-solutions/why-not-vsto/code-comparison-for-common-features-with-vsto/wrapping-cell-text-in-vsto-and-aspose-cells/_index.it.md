@@ -13,7 +13,7 @@ Per creare un foglio di lavoro con due celle, una con testo a capo e una senza:
  1. Aggiungi testo alla cella A1.
  1. Aggiungi testo a capo alla cella A5.
 1. Salva il foglio di calcolo.
- Gli esempi di codice seguenti mostrano come eseguire questi passaggi usando VSTO con C#. Gli esempi di codice che mostrano come eseguire la stessa operazione utilizzando Aspose.Cells for .NET, sempre utilizzando C# seguono immediatamente dopo.
+ Gli esempi di codice seguenti mostrano come eseguire questi passaggi utilizzando VSTO con C#. Gli esempi di codice che mostrano come eseguire la stessa operazione utilizzando Aspose.Cells for .NET, sempre utilizzando C# seguono immediatamente dopo.
 
 L'esecuzione del codice genera un foglio di calcolo con due celle, una con testo che non è stato racchiuso e una con:
 

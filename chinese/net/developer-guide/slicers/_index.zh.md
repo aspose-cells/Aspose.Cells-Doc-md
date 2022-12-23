@@ -14,7 +14,7 @@ description: 使用 Aspose.Cells 管理 Excel 文件的切片器。
 
 请参阅以下示例代码。它加载了[示例 Excel 文件](67338470.xlsx)包含数据透视表。然后它根据第一个基本数据透视字段创建切片器。最后，它将工作簿保存在[输出 XLSX](67338471.xlsx)和[输出 XLSB](67338472.xlsb)格式。以下屏幕截图显示了 Aspose.Cells 在输出 Excel 文件中创建的切片器。
 
-![待办事项：图像_替代_文本](create-slicer-to-a-pivot-table_1.png)
+![待办事项：图片_替代_文本](create-slicer-to-a-pivot-table_1.png)
 
 ### **示例代码**
 
@@ -30,7 +30,7 @@ description: 使用 Aspose.Cells 管理 Excel 文件的切片器。
 
 ## **推进主题**
 - [更改切片器属性](/cells/zh/net/change-slicer-properties/)
-- [在将 Excel 渲染为 PDF 时绘制切片器](/cells/zh/net/draw-slicer-while-rendering-excel-to-pdf/)
+- [在将 Excel 渲染到 PDF 时绘制切片器](/cells/zh/net/draw-slicer-while-rendering-excel-to-pdf/)
 - [格式化切片器](/cells/zh/net/formatting-slicer/)
 - [删除切片器](/cells/zh/net/removing-slicer/)
 - [渲染切片器](/cells/zh/net/rendering-slicer/)

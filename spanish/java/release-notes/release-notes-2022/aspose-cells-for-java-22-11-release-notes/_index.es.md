@@ -16,11 +16,11 @@ url: /es/java/aspose-cells-for-java-22-11-release-notes/
 |CELLSJAVA-44775|Las etiquetas de los gráficos se superponen en la representación del gráfico a la imagen|
 |CELLSJAVA-44882|Representación de gráfico a imagen: una de las etiquetas está dentro del gráfico de anillos|
 |CELLSJAVA-44943|XLSX a PDF: las etiquetas de los gráficos no se representan correctamente|
-|CELLSJAVA-44928|XLS a PDF: datos insuficientes para una imagen|
-|CELLSJAVA-44910|Convierta los resultados de Excel a HTML en miles de imágenes pequeñas similares|
+|CELLSJAVA-44928|XLS a PDF: Datos insuficientes para una imagen|
+|CELLSJAVA-44910|Convertir Excel a HTML da como resultado miles de imágenes pequeñas similares|
 |CELLSJAVA-44944|Cambiar el tamaño de las tablas cambia el formato de las celdas|
 |CELLSJAVA-44948| Las imágenes no se pueden mostrar en la hoja al convertir HTML a Excel|
-|CELLSJAVA-44908|Excepción "java.lang.OutOfMemoryError: Java heap space" al cargar archivos XLSB grandes|
+|CELLSJAVA-44908|Excepción "java.lang.OutOfMemoryError: Java heap space" al cargar archivos grandes XLSB|
 |CELLSJAVA-44929|Regresión: "java.lang.NullPointerException" en Workbook.calculateFormula()|
 |CELLSJAVA-44927|Excepción "java.lang.IndexOutOfBoundsException: Índice: 5, Tamaño: 5" al convertir un archivo de Excel a HTML|
 |CELLSJAVA-44939|Error "java.lang.StringIndexOutOfBoundsException: índice de cadena fuera de rango: 0" al intentar leer un archivo de Excel|

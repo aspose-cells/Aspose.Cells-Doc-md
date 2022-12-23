@@ -24,12 +24,12 @@ url: /de/python-java/aspose-cells-for-python-via-java-22-6-release-notes/
 |CELLSJAVA-44646|Löschen von Inhalten auf kopiertem Blatt löst NullPointerException aus|
 |CELLSJAVA-44656|Cells.getMaxDataColumn gibt einen anderen (falschen) Wert in 22.5 zurück|
 |CELLSJAVA-44650|Die Excel-Dokumentseite ist beim Laden in Aspose.Cells.GridWeb (Java) unordentlich|
-|CELLSJAVA-44660|Problem mit der Datenausrichtung beim Laden des XLS in Aspose.Cells.GridWeb (Java)|
+|CELLSJAVA-44660|Problem mit der Datenausrichtung beim Laden von XLS in Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problem beim Laden der ET-Datei in Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Der Titel der Achse im Diagramm wird im Ausgabebild gedreht - Diagramm-zu-Bild-Konvertierung|
-|CELLSJAVA-44615|Graue Linie im Ausgabebild der XLS-Datei gezeichnet|
-|CELLSJAVA-44665|Das Laden der ODS-Datei hängt|
-|CELLSJAVA-44651|Fehler „Kein numerischer Wert“ beim Konvertieren von Excel-Tabellen in HTML/PDF|
+|CELLSJAVA-44615|Graue Linie im Ausgabebild der Datei XLS gezeichnet|
+|CELLSJAVA-44665|Das Laden der Datei ODS hängt|
+|CELLSJAVA-44651|Fehler „Kein numerischer Wert“ beim Konvertieren einer Excel-Tabelle in HTML/PDF|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

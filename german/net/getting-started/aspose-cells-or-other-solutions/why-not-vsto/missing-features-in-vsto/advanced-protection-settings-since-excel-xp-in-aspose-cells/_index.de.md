@@ -32,7 +32,7 @@ So zeigen Sie die in Excel XP verfügbaren Schutzeinstellungen an:
 
 ### **Erweiterte Schutzeinstellungen mit Aspose.Cells**
 
-Aspose.Cells unterstützen alle erweiterten Schutzeinstellungen.
+Aspose.Cells unterstützt alle erweiterten Schutzeinstellungen.
 
  Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse.
 

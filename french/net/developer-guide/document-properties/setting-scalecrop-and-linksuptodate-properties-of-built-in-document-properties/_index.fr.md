@@ -7,7 +7,7 @@ url: /fr/net/setting-scalecrop-and-linksuptodate-properties-of-built-in-document
 ## **Scénarios d'utilisation possibles**
 [ScaleCrop](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/scalecrop) et[Liens à jour](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/linksuptodate)sont deux propriétés de document intégrées étendues définies dans le format OpenXml. Le but de ces propriétés est de suivre
 ## **1) Mise à l'échelle**
- Cet élément indique le mode d'affichage de la vignette du document. Définissez cet élément sur**vrai**pour activer la mise à l'échelle de la vignette du document à l'écran. Définissez cet élément sur**FAUX** pour activer le recadrage de la vignette du document afin d'afficher uniquement les sections qui correspondent à l'affichage.
+ Cet élément indique le mode d'affichage de la vignette du document. Définissez cet élément sur**vrai** pour activer la mise à l'échelle de la vignette du document à l'écran. Définissez cet élément sur**FAUX** pour activer le recadrage de la vignette du document afin d'afficher uniquement les sections qui correspondent à l'affichage.
 
 Les valeurs possibles pour cet élément sont définies par le type de données booléen W3C XML Schema.
 ## **2) Liens à jour**

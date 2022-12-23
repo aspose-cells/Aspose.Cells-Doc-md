@@ -18,7 +18,7 @@ description: Firma digitale del file Excel, verifica. Per proteggere l'autentici
 
 Aspose.Cells fornisce il[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)spazio dei nomi per eseguire il lavoro (assegnare e convalidare le firme digitali). Lo spazio dei nomi ha alcune funzioni utili per l'aggiunta e la convalida delle firme digitali.
 
-Vedere il seguente codice di esempio che descrive come eseguire l'attività utilizzando l'API Aspose.Cells for .NET.
+Vedere il seguente codice di esempio che descrive come eseguire l'attività utilizzando Aspose.Cells for .NET API.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-AssignAndValidateDigitalSignatures-AssignAndValidateDigitalSignatures.cs" >}}
 

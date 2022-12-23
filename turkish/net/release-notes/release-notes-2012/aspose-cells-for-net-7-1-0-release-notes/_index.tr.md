@@ -16,7 +16,7 @@ url: /tr/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Yeni
-Özellikler
+ Özellikleri
 
 - Pivot Tablolara Koşullu Biçimlendirme uygulama desteği
 - Pivot Tablolardaki Grup Alanlarının yapılandırmasını okuyun
@@ -34,11 +34,11 @@ Yeni
 
  -PivotField.ShowCompact - XLS biçiminde yanlış özellik değeri
 
- -Pivot Field'ın gruplandırılmış alanlardaki yanlış ürün değeri
+-Pivot Field'ın gruplandırılmış alanlardaki yanlış ürün değeri
 
  Önbellekten öğeleri okuma (Pivot Alan)
 
-- Bir SpreadsheetML dosyasını açarken sorunlar
+- SpreadsheetML dosyasını açma sorunları
 
  Verim
 
@@ -55,36 +55,36 @@ Yeni
 
  Hatalar
 
--Bir Excel çalışma kitabında pivot tablo yenilenemedi
+ -Bir Excel çalışma kitabında pivot tablo yenilenemedi
 
 - Varsayılan kağıt boyutuyla ilgili sorun
-- XLS'yi PDF'ye dönüştürürken görüntüde kirli sağ kenarlık
+- XLS'den PDF'e dönüştürülürken resimde kirli sağ kenarlık
 - Workbook.CalculateFormula() yöntem hatası
 - v5.2.1.0'dan v7.0.3.0'a yükseltme yapılırken birden çok sorun bulundu
-- TIFF dosyasına Satır/Sütun Başlıkları ve Açıklamalar eklenemiyor
+- TIFF dosyasına Satır/Sütun Başlıkları ve Yorumlar dahil edilemiyor
 - Excel'den Html'ye - sözcük kaydırma sorunu
 - Düğmenin yazı tipi nitelikleri, Kaydet'ten sonra değiştirilir
 - Grafiğin açıklaması, Shape.UpperLeftRow() yöntemi kullanılarak küçültülür
-- Çıktı PDF belgesinde hata
+- PDF belgesi çıktısında hata
 - PDF dosyasına dönüştürülürken Çok Satırlı Başlıklar desteklenmez
 - Pivot Tablonun temel alanlarındaki tüm verileri okuma
 - Excel sayfasını DataTable'a dışa aktarmak hata veriyor
-- ODS dosyalarının açılması sorunu
+- ODS dosya sorunu açılıyor
 - Cell kenarlık, Aspose.Cells v7.0.4.x ile düzgün şekilde işlenmedi
 
  -Formül sonuçları #Ref olarak
 
 - XLS dosyası MS Excel 2007'de çöküyor
 - Ms Excel kullanılarak dosya açılırken hata oluştu
-- Yeni Aspose.Cells DLL'de (sürüm) HTML çıktısıyla ilgili sorun
+- Yeni Aspose.Cells DLL'sinde (sürüm) HTML çıktısıyla ilgili sorun
 
--XLSX dosyasını Pivot Tablo ile güncellemek, Excel'in hata görüntülemesine neden oluyor
+ -XLSX dosyasını Pivot Tablo ile güncellemek, Excel'in hata görüntülemesine neden oluyor
 
  Oluşturulan görüntüde fazladan sütun oluşturan -ToImage işlevi (Sheet-to-Imageissue)
 
 - Birden çok renkli tablo içeren Excel 2007 çalışma kitabı, dönüştürülen PDF dosyasında görüntülenmiyor
 
- -PDF'ye dönüştürmek için Excel'deki Fitting Sheet on One Page seçeneğini kullanmak işe yaramıyor gibi görünüyor
+ -Excel'de Fitting Sheet on One Page seçeneğini kullanarak PDF'e dönüştürmek işe yaramıyor gibi görünüyor
 
 - v5.2.1.0'dan v7.0.3.0'a yükseltirken birden çok sorun
 
@@ -100,5 +100,5 @@ Yeni
 
  Hatalar
 
-- Bir XLSX dosyasını GridWeb'e aktarma sorunları
+- Bir XLSX dosyasını GridWeb sorunlarına aktarma
 - Formül iyi çalışmıyor

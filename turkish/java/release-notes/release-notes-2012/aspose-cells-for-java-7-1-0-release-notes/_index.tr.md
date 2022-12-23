@@ -22,14 +22,14 @@ url: /tr/java/aspose-cells-for-java-7-1-0-release-notes/
 
  Hatalar
 
- -Cell, oluşturulan PDF dosyasındaki içerik kayboldu
+ -Cell içeriği, oluşturulan PDF dosyasından kayboldu
 
--Hata mesajı: Dosya MS Excel'de açılırken "Pivot tablo Excel'in sonraki bir sürümünde oluşturuldu..."
+ -Hata mesajı: Dosya MS Excel'de açılırken "Pivot tablo Excel'in sonraki bir sürümünde oluşturuldu..."
 
- ` `- Bir XLS şablon dosyası açılırken sayfanın yakınlaştırması değişti
+ ` `- XLS şablon dosyası açılırken sayfanın yakınlaştırması değişti
 
  -Cell.getStringValue(), çift türler için yanlış değer veriyor
 
- -PDF'ye kaydederken, şeklin metninin sağ kısmı kesiliyor ve görüntünün bir kısmı kayboluyor
+ -PDF'e kaydederken, şeklin metninin sağ kısmı kesiliyor ve görüntünün bir kısmı kayboluyor
 
  -ODS dosya biçimine kaydederken sayı biçimi kayboldu

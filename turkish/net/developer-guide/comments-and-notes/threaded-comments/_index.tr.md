@@ -8,13 +8,13 @@ url: /tr/net/threaded-comments/
 
 MS Excel 365, dizili yorumlar eklemek için bir özellik sağlar. Bu yorumlar sohbet işlevi görür ve tartışmalar için kullanılabilir. Yorumlar artık zincirleme konuşmalara izin veren bir Yanıt kutusuyla birlikte gelir. Eski yorumlar, Excel 365'te Notlar olarak adlandırılır. Aşağıdaki ekran görüntüsü, Excel'de açıldığında zincir halinde yorumların nasıl görüntülendiğini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_1.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_1.jpg)
 
 Zincirleme yorumlar, Excel'in eski sürümlerinde bu şekilde gösterilir. Aşağıdaki görseller örnek dosya Excel 2016 programında açılarak çekilmiştir.
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_2.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_2.jpg)
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_3.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_3.jpg)
 
 Aspose.Cells ayrıca zincirleme yorumları yönetme özelliği de sağlar.
 
@@ -28,12 +28,12 @@ Excel 365'te zincirleme açıklamalar eklemek için aşağıdaki adımları izle
  - Tıkla**Gözden geçirmek** Sekme
  - Tıkla**Yeni yorum** buton
  - Bu, aktif hücreye yorum girmek için bir diyalog açacaktır.
-  - ![yapılacaklar:resim_alternatif_Metin](threaded-comments_4.jpg)
+  - ![yapılacaklar:resim_alternatif_metin](threaded-comments_4.jpg)
 - Yöntem 2
  - Yorumu eklemek istediğiniz hücreye sağ tıklayın.
  - Tıkla**Yeni yorum** seçenek.
  - Bu, aktif hücreye yorum girmek için bir diyalog açacaktır.
-  - ![yapılacaklar:resim_alternatif_Metin](threaded-comments_5)
+  - ![yapılacaklar:resim_alternatif_metin](threaded-comments_5)
 
 ### **Aspose.Cells'i kullanarak Zincirli Yorum Ekle**
 
@@ -55,7 +55,7 @@ Aşağıdaki kod örneği, kullanımını gösterir[**Yorumlar.AddThreadedCommen
 
 Excel'de dizili yorumları okumak için, yorumları görüntülemek üzere farenizi yorumları içeren hücrenin üzerine getirin. Yorumlar görünümü, aşağıdaki görüntüdeki görünüme benzeyecektir.
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_1.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_1.jpg)
 
 ### **Aspose.Cells'i kullanarak Zincirli yorumları okuyun**
 
@@ -97,7 +97,7 @@ Oluşturulma Zamanı: 15.05.2019 12:46:23
 
  Excel'de zincir halinde bir yorumu düzenlemek için,**Düzenlemek** aşağıdaki resimde gösterildiği gibi yorumdaki bağlantı.
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_7.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_7.jpg)
 
 ### **Aspose.Cells'i kullanarak Zincirleme yorumu düzenleyin**
 
@@ -115,7 +115,7 @@ Aşağıdaki örnek, sütunu yükleyerek A1 sütunundaki ilk zincirleme yorumun 
 
  Excel'de zincirlenmiş yorumları kaldırmak için, yorumları içeren hücreye sağ tıklayın ve**Yorumu Sil** Aşağıdaki resimde gösterildiği gibi seçenek.
 
-![yapılacaklar:resim_alternatif_Metin](threaded-comments_8.jpg)
+![yapılacaklar:resim_alternatif_metin](threaded-comments_8.jpg)
 
 ### **Aspose.Cells kullanarak Zincirli yorumları kaldırın**
 

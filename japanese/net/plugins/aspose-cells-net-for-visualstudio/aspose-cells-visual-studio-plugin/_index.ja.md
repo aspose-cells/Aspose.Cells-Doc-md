@@ -12,7 +12,7 @@ Microsoft Visual Studio は、Microsoft の統合開発環境 (IDE) です。Mic
 
 Aspose.Cells for .NET は、サーバーに Microsoft Excel® をインストールすることなく、.NET アプリケーションが Excel® スプレッドシートを作成、変更、変換、レンダリング、および印刷できるようにする最も柔軟なコンポーネント グループを提供します。
 
-Aspose.Cells for .NET は、すべての主要な Microsoft Excel およびその他のファイル形式 (XLS、XLSX、XLSM、XLTX/XLTM、HTML、CSV、ODS、タブ区切り、SpreadsheetML、PDF など) をサポートしています。
+Aspose.Cells for .NET supports all the major Microsoft Excel and other file formats including XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML and PDF, etc.
 詳細については、[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Aspose.Cells for .NET Visual Studio を使用した例を調べる**

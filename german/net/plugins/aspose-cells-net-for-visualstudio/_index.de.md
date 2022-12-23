@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells .NET für VisualStudio
+title: Aspose.Cells .NET für Visual Studio
 type: docs
 weight: 60
 url: /de/net/aspose-cells-net-for-visualstudio/

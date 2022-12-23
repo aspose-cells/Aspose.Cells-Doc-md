@@ -30,23 +30,23 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150) - Capacité à travailler avec des cartes XML
 
- (CELLSNET-43992) - Prise en charge de la fonctionnalité d'importation de mappage XML telle qu'elle est effectuée à partir de l'onglet Développeur Excel
+(CELLSNET-43992) - Prise en charge de la fonctionnalité d'importation de mappage XML telle qu'elle est effectuée à partir de l'onglet Développeur Excel
 
 
 ## **Améliorations**
 
 
- (CELLSNET-43878) - Le signe numérique VBA est perdu lors de la conversion (XLSM vers XLS)
+ (CELLSNET-43878) - Le signe numérique VBA est perdu lors de la conversion (XLSM à XLS)
 
  (CELLSNET-43160) - Le projet VBA perd sa signature numérique lors de l'enregistrement de xls au format de fichier xlsm
 
  (CELLSNET-44169) - L'ordre du tableau Validation.Value1 est différent de ce qui est affiché dans Excel
 
-(CELLSNET-44168) - Impossible de créer une mise en forme conditionnelle d'échelle à 2 couleurs
+ (CELLSNET-44168) - Impossible de créer une mise en forme conditionnelle d'échelle à 2 couleurs
 
  (CELLSNET-44167) - Prise en charge de la fonction ISOWEEKNUM MS Excel 2013
 
- (CELLSNET-44166) - Le signe numérique VBA est perdu lors de la conversion (XLSB vers XLSM)
+ (CELLSNET-44166) - Le signe numérique VBA est perdu lors de la conversion (XLSB à XLSM)
 
 
 ## **Performance**
@@ -64,17 +64,17 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) - Structure HTML incomplète lors de l'enregistrement dans un flux
 
- (CELLSNET-44147) - L'actualisation du tableau croisé dynamique génère un fichier Excel corrompu
+(CELLSNET-44147) - L'actualisation du tableau croisé dynamique génère un fichier Excel corrompu
 
  (CELLSNET-44022) - Workbook.Copy ne conserve pas la mise en forme des tableaux croisés dynamiques
 
  (CELLSNET-44139) - Différentes valeurs pour la même cellule avant et après l'appel de la méthode CalculateFormula()
 
- (CELLSNET-44135) - Le fichier Excel n'est pas correctement (entièrement) calculé (concernant les graphiques) avant la génération du PDF
+ (CELLSNET-44135) - Le fichier Excel n'est pas correctement (entièrement) calculé (concernant les graphiques) avant la génération PDF
 
-(CELLSNET-44138) - L'ombrage Cell chevauche la bordure, provoquant l'amincissement de la bordure
+ (CELLSNET-44138) - L'ombrage Cell chevauche la bordure, provoquant l'amincissement de la bordure
 
- (CELLSNET-44136) - Excel affiche une page dans l'aperçu avant impression où Aspose.Cells est rendu en pages PDF
+ (CELLSNET-44136) - Excel affiche une page dans l'aperçu avant impression où Aspose.Cells est rendu sur PDF pages
 
  (CELLSNET-44122) - Les images dans les feuilles ne sont pas rendues de la même manière que dans le fichier Excel de modèle d'origine
 
@@ -82,31 +82,31 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44171) - CopyData entre les plages ne fonctionne pas horizontalement mais fonctionne bien verticalement
 
- (CELLSNET-44153) - XLSB à XLSM ne fonctionne pas correctement et produit un fichier corrompu
+(CELLSNET-44153) - XLSB à XLSM ne fonctionnent pas correctement et produisent un fichier corrompu
 
  (CELLSNET-44149) - OleObjects est supprimé après la conversion de XLSB en XLSM
 
- (CELLSNET-44146) - Les résultats de la mise en forme conditionnelle ne s'affichent pas correctement au format PDF
+ (CELLSNET-44146) - Les résultats de la mise en forme conditionnelle ne s'affichent pas correctement dans PDF
 
  (CELLSNET-44144) - L'ajout de propriétés personnalisées supprime le contenu de la feuille de calcul
 
  (CELLSNET-44141) - L'axe des catégories principales du graphique se trompe lors de la réenregistrement du fichier Excel source
 
-(CELLSNET-44160) - L'axe horizontal a été remplacé par des étiquettes différentes de celles du fichier initial
+ (CELLSNET-44160) - L'axe horizontal a été remplacé par des étiquettes différentes de celles du fichier initial
 
  (CELLSNET-44157) - L'axe des X principal du graphique personnalisé a été modifié après l'ouverture et le réenregistrement du fichier de modèle XLSX
 
  (CELLSNET-43910) - L'extraction de l'image de la feuille de calcul et son insertion dans le fichier de document la rendent incomplète
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-44119) - Erreur de calcul dans Workbook.CalculateFormula
 
  (CELLSNET-44089) - System.IndexOutOfRangeException à PivotTable.CalculateData
 
- (CELLSNET-44064) - CalculateFormula lève une exception sur la source xlsm
+(CELLSNET-44064) - CalculateFormula lève une exception sur la source xlsm
 
  (CELLSNET-44055) - Aspose.Cell. Exception causée par la conversion pdf en raison du paramètre de préférence de mémoire
 
@@ -120,7 +120,7 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -128,7 +128,7 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Insectes**
 
 
-(CELLSNET-44151) - JavaScript n'est pas déclenché lors de la suppression du contenu de la cellule GridWeb
+ (CELLSNET-44151) - JavaScript n'est pas déclenché lors de la suppression du contenu de la cellule GridWeb
 
  (CELLSNET-44113) - Le texte de la ligne d'en-tête apparaît également dans les valeurs de filtre
 
@@ -152,7 +152,7 @@ url: /fr/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Supprime la propriété Workbook.SaveOptions obsolète.
+ Supprime la propriété Workbook.SaveOptions obsolète.
 
  Utilisez plutôt la méthode Workbook.Save(Stream,SaveOptions) ou Workbook.Save(string,SaveOptions).
 
@@ -164,7 +164,7 @@ Supprime la propriété Workbook.SaveOptions obsolète.
 
 
 
- Ajoute la propriété Proptection.IsProtectedWithPassword.
+Ajoute la propriété Proptection.IsProtectedWithPassword.
 
  Indique si la feuille de calcul est protégée par un mot de passe.
 

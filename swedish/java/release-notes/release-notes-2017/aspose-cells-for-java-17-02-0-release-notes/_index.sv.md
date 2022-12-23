@@ -15,9 +15,9 @@ url: /sv/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42009|Stöd MS Excel 2016 TreeMap-diagram|Ny funktion|
 |CELLSJAVA-42008|Stöd MS Excel 2016 Waterfall Chart|Ny funktion|
 |CELLSJAVA-41521|Stöd för att konvertera text till kolumner MS Excel-funktionen|Ny funktion|
-|CELLSJAVA-42165|Dataförlust när du kopierar intervall med dolda rader och kolumner till ny arbetsbok och konverterar den till HTML|Insekt|
-|CELLSJAVA-42164|Dataförlust när du kopierar intervall med dolda rader och kolumner till ny arbetsbok och konverterar den till HTML - II|Insekt|
-|CELLSJAVA-42162|Dataförlust medan du kopierar intervall med dolda rader och kolumner till ny arbetsbok och konverterar den till HTML - III|Insekt|
+|CELLSJAVA-42165|Dataförlust när intervall med dolda rader och kolumner kopieras till ny arbetsbok och konverteras till HTML|Insekt|
+|CELLSJAVA-42164|Dataförlust när intervall med dolda rader och kolumner kopieras till ny arbetsbok och konverteras till HTML - II|Insekt|
+|CELLSJAVA-42162|Dataförlust när intervall med dolda rader och kolumner kopieras till ny arbetsbok och konverteras till HTML - III|Insekt|
 |CELLSJAVA-40251|Spara som PDF bevarar inte formateringen|Insekt|
 |CELLSJAVA-42187|Excel-formeln fungerar inte och visas som "#DIV/0!"|Insekt|
 |CELLSJAVA-42184|Problem med att spara samtidigt|Insekt|
@@ -30,23 +30,23 @@ url: /sv/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSNET-45106|Bugg in try catch and re-throw undantag där ExceptionType ändras|Insekt|
 |CELLSJAVA-42189|Vattenfallsdiagram, när calculate() anropas, återställs färgerna i diagramserien.|Insekt|
 |CELLSJAVA-42160|Logaritmisk skala bugg i Excel gör att Aspose Cells hänger sig|Insekt|
-|CELLSJAVA-42158|Vertical Axis bundna värden ändrades under rendering av kalkylark till PDF|Insekt|
-|CELLSJAVA-42157|Horisontella och vertikala axelbundna värden ändrades under renderingen av diagram till EMF|Insekt|
+|CELLSJAVA-42158|Vertikal axel bundna värden ändrades under rendering av kalkylark till PDF|Insekt|
+|CELLSJAVA-42157|Horisontella och vertikala axelbundna värden ändrades under rendering av diagram till EMF|Insekt|
 |CELLSJAVA-42133|Hebreiska - Mellanslagstecken saknas i PDF|Insekt|
 |CELLSJAVA-42107|Diagram undertrycks vertikalt under rendering till bild|Insekt|
 |CELLSJAVA-42105|DataTable-serier saknas vid export av diagram till bild|Insekt|
 |CELLSJAVA-42090|Saknar understrykning i rubriken när diagram konverteras till bild|Insekt|
 |CELLSJAVA-42086|Bakgrundsbilden i diagrammet är fel|Insekt|
-|CELLSJAVA-42084|Mellanslag s/v-diagrammets axeletiketter (hebreiska)/legenden saknas i utdata-PDF-filen|Insekt|
-|CELLSJAVA-41831|Innehållet i rektangelformen återges inte när kalkylark konverteras till HTML|Insekt|
-|CELLSJAVA-42095|Diagrammet har ändrats vid konvertering av kalkylblad till HTML|Insekt|
-|CELLSJAVA-42096|Formeln i diagrammet har ändrat position vid konvertering av kalkylblad till HTML|Insekt|
-|CELLSJAVA-42169|Excel till PDF-konvertering - arabisk text är omvänd|Insekt|
+|CELLSJAVA-42084|Mellanslag s/v-diagrammets axel (hebreiska) etiketter/legend saknas i utdatafilen PDF|Insekt|
+|CELLSJAVA-41831|Innehållet i rektangelformen återges inte vid konvertering av kalkylark till HTML|Insekt|
+|CELLSJAVA-42095|Diagrammet har ändrats när kalkylbladet konverterades till HTML|Insekt|
+|CELLSJAVA-42096|Formeln i diagrammet har ändrat position när kalkylbladet konverterades till HTML|Insekt|
+|CELLSJAVA-42169|Excel till PDF konvertering - arabisk text är omvänd|Insekt|
 |CELLSJAVA-42193|Arknamnet får versaler när formeln infogas|Insekt|
 |CELLSJAVA-42191|Anrop för att uppdateraSelectedValue ändringar activeSheetIndex|Insekt|
 |CELLSJAVA-42181|Skyddad vy efter att ha sparat en XLS-fil igen|Insekt|
 |CELLSJAVA-42180|Att kopiera en arbetsbok ändrar standardhöjden|Insekt|
-|CELLSJAVA-42177|Formel i anpassad validering saknas när arbetsboken sparas i XLS-format|Insekt|
+|CELLSJAVA-42177|Formel i anpassad validering saknas när arbetsboken sparas i formatet XLS|Insekt|
 |CELLSJAVA-42173|Excel måste återställa filen efter enkel spara via Aspose.Cells|Insekt|
 |CELLSJAVA-42171|Kalkylarket blir skadat efter att ha ändrat teckensnitt för formerna|Insekt|
 |CELLSJAVA-42168|Det går inte att ändra teckensnittet för några få former i samlingen|Insekt|
@@ -55,16 +55,16 @@ url: /sv/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|Genom att kopiera ark över arbetsböcker ändras formeln|Insekt|
 |CELLSJAVA-42154|Det går inte att läsa kryssrutans textvärde|Insekt|
 |CELLSJAVA-42150|Metoden GetNames() returnerar inte alla namn|Insekt|
-|CELLSJAVA-40511|Sidorna i PDF-filen som genereras av Aspose.Cells är helt svarta|Insekt|
-|CELLSJAVA-42179|NullPointerException i Workbook ctor när du laddar en HTML|Undantag|
-|CELLSJAVA-42174|NullPointerException på Workbook ctor när du laddar en HTML - II|Undantag|
+|CELLSJAVA-40511|Sidorna i PDF genererade av Aspose.Cells är helt svarta|Insekt|
+|CELLSJAVA-42179|NullPointerException på Workbook ctor när du laddar en HTML|Undantag|
+|CELLSJAVA-42174|NullPointerException vid Workbook ctor när du laddar en HTML - II|Undantag|
 |CELLSJAVA-42192|CellsException: Ogiltig hålstorlek: den måste vara mellan 10 och 90|Undantag|
-|CELLSJAVA-42190|Undantag: "java.lang.IndexOutOfBoundsException" när ett XLSX-filformat laddas|Undantag|
+|CELLSJAVA-42190|Undantag: "java.lang.IndexOutOfBoundsException" vid inläsning av ett XLSX filformat|Undantag|
 |CELLSJAVA-42185|Undantag - ReadElementString kunde endast anropas - inträffade när arbetsboken öppnades|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Tillagd HTMLLoadOptions.AutoFitColsAndRows-egenskap**
-Den här versionen av Aspose.Cells for Java API har lagt till egenskapen HTMLLoadOptions.AutoFitColsAndRows som indikerar om API automatiskt ska anpassa kolumner och rader när HTML-koden importeras i objektläget. Egenskapen boolesk typ har standardvärdet som false vilket innebär att cellhöjderna och -bredderna kommer att importeras som de är, men när ovannämnda egenskap är satt till true försöker API justera kolumnbredderna och radhöjderna enligt innehållet .
+Den här versionen av Aspose.Cells for Java API har lagt till egenskapen HTMLLoadOptions.AutoFitColsAndRows som indikerar om API automatiskt ska anpassa kolumner och rader medan HTML importeras i objektläget. Egenskapen boolesk typ har standardvärdet som false, vilket innebär att cellhöjderna och -bredderna kommer att importeras som de är, men när den tidigare nämnda egenskapen är inställd på true, försöker API justera kolumnbredderna och radhöjderna enligt innehållet .
 
 Här är det enkla användningsscenariot för HTMLLoadOptions.AutoFitColsAndRows-egenskapen.
 
@@ -190,7 +190,7 @@ Font[]fonts = book.getFonts();
 
 {{< /highlight >}}
 ### **Lagt till egenskapen TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Denna revidering av Aspose.Cells for Java har exponerat den booleska typen TrimLeadingBlankRowAndColumn-egenskap för klassen TxtSaveOptions som anger om ledande tomma rader och kolumner ska trimmas som Excel gör när data exporteras till CSV- eller tabbavgränsade format. Standardvärdet för falsement är falsement. Om data i kalkylbladet inte startar från den första cellen, det vill säga: A1, tar Excel-applikationen bort de inledande tomma raderna och kolumnerna medan data exporteras till CSV- eller tabbavgränsade format, men Aspose.Cells API:er som standard behåller de tomma raderna och kolumnerna för samma prov för att behålla dataplatsen om de exporterade CSV- eller tabbavgränsade filerna måste importeras tillbaka med Aspose.Cells API:er.
+Denna revidering av Aspose.Cells for Java har exponerat den booleska typen TrimLeadingBlankRowAndColumn för klassen TxtSaveOptions som anger om ledande tomma rader och kolumner ska trimmas som Excel gör när man exporterar data till CSV eller tabbavgränsade egenskapsformat för falsement. Om data i kalkylbladet inte startar från den första cellen, det vill säga: A1, tar Excel-applikationen bort de inledande tomma raderna och kolumnerna medan data exporteras till CSV eller tabbavgränsade format, men Aspose.Cells API:er som standard behåller de tomma raderna och kolumnerna för samma prov för att behålla dataplatsen om de exporterade CSV eller tabbavgränsade filerna måste importeras tillbaka med Aspose.Cells API:er.
 
 Här är ett enkelt användningsscenario för egenskapen TrimLeadingBlankRowAndColumn.
 
@@ -220,9 +220,9 @@ Egenskapen Shape.TextShapeType hämtar eller ställer in den förinställda text
 ### **Användningsexempel**
 Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 
-1. [Anpassa kolumner och rader automatiskt när du laddar HTML i arbetsboken](/cells/sv/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
+1. [Autopassa kolumner och rader när HTML laddas i arbetsboken](/cells/sv/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
 1. [Konvertera text till kolumner med Aspose.Cells](/cells/sv/java/convert-text-to-columns-using-aspose-cells/)
 1. [Få en lista över teckensnitt som används i ett kalkylblad eller en arbetsbok](/cells/sv/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Få varningar när du laddar Excel-fil](/cells/sv/java/get-warnings-while-loading-excel-file/)
 1. [Läs och manipulera Excel 2016-diagram](/cells/sv/java/read-and-manipulate-excel-2016-charts/)
-1. [Trimma ledande tomma rader och kolumner samtidigt som du exporterar kalkylblad till CSV-format](/cells/sv/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Trimma ledande tomma rader och kolumner samtidigt som du exporterar kalkylblad till formatet CSV](/cells/sv/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

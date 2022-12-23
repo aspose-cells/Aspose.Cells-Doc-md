@@ -13,6 +13,6 @@ url: /ru/java/custom-sorting-in-pivot-table/
 
 [Выходной файл Excel](95584328.xlsx)
 
-[Выходной PDF-файл](95584329.pdf)
+[Выходной файл PDF](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

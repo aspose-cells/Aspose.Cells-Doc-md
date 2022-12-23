@@ -38,7 +38,7 @@ Questo articolo illustra come creare un'applicazione console in Visual Studio.Ne
 Di seguito sono riportati i passaggi necessari per creare un foglio di calcolo e formattare celle diverse in righe e colonne diverse di un foglio di lavoro.
 
 1. Scarica e installa Aspose.Cells:
-   1. [Scarica](https://downloads.aspose.com/cells/net) Aspose.Cells for .NET.
+   1. [Scaricamento](https://downloads.aspose.com/cells/net) Aspose.Cells for .NET.
  1. Installalo sul tuo computer di sviluppo.
 1. Crea un progetto e aggiungi i riferimenti:
  1. Avviare Visual Studio.Net.

@@ -261,7 +261,7 @@ BindWithoutInSheetHeaders الخاص ()
 
  db.OleDbConnection1.ConnectionString = "الموفر = Microsoft.Jet.OLEDB.4.0 ؛ مصدر البيانات =" + المسار + "\ Database \ Northwind.mdb"
 
- محاولة
+ يحاول
 
  يتصل بقاعدة البيانات ويجلب البيانات.
 

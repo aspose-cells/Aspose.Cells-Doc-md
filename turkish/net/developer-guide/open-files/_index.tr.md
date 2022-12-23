@@ -34,6 +34,6 @@ Aspose.Cells ile Excel dosyalarını açmak, kaydetmek ve yönetmek kolaydır.
 - [Farklı Microsoft Excel Sürüm Dosyalarını Açma](/cells/tr/net/opening-different-microsoft-excel-versions-files/)
 - [Farklı Biçimlerdeki Dosyaları Açma](/cells/tr/net/opening-files-with-different-formats/)
 - [Büyük Veri Kümelerine Sahip Büyük Dosyalarla Çalışırken Bellek Kullanımını Optimize Etme](/cells/tr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun](/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun](/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun](/cells/tr/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells'i Kullanma API](/cells/tr/net/using-lightcells-api/)

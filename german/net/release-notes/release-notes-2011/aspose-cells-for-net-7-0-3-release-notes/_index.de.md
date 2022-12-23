@@ -18,9 +18,9 @@ Aspose.Cells
 
  24953 Unterstützt die erweiterte bedingte Formatierung von MS Excel in der generierten PDF-Datei
 
- 30020 Support Cell Verlaufsfarbe, die beim Konvertieren in ein PDF-Dokument nicht richtig eingestellt ist
+ 30020 Unterstützung für Cell Verlaufsfarbe, die beim Konvertieren in ein PDF-Dokument nicht richtig eingestellt ist
 
-40010 Deaktivieren Sie mehrstufige Kategoriebeschriftungen beim Formatieren der Diagrammachse
+ 40010 Deaktivieren Sie mehrstufige Kategoriebeschriftungen beim Formatieren der Diagrammachse
 
  Verbesserungen
 
@@ -32,13 +32,13 @@ Aspose.Cells
 
  40080 Verbesserung - Excel95 - Excel 2003-Datei
 
- 40081 Fehler beim Prüfen der Optionen, die mit XLSM-Dateien nicht funktionieren
+ 40081 Fehler beim Überprüfen der Optionen funktioniert nicht mit XLSM-Dateien
 
 
 
  Ausnahmen
 
- 31331 Beim Öffnen der XLS-Datei ist ein Fehler aufgetreten
+ 31331 Beim Öffnen der Datei XLS ist ein Fehler aufgetreten
 
  40045 NullReferenceException beim Festlegen von Kopf-/Fußzeile in Seite einrichten gefunden
 
@@ -46,13 +46,13 @@ Aspose.Cells
 
  40060 Ungültiger Pinseltyp beim Konvertieren einer Excel-Arbeitsmappe in XPS
 
- 40061 StackOverflow beim Aufrufen der Methode WorksheetCollection.GetNamedRanges()
+40061 StackOverflow beim Aufrufen der Methode WorksheetCollection.GetNamedRanges()
 
  Leistung
 
- 31266 XLS zu PDF oder XPS braucht so viel Zeit
+ 31266 XLS bis PDF oder XPS nimmt so viel Zeit in Anspruch
 
- 40053 Excel-zu-PDF Die Leistung nimmt ab, wenn die Anzahl der Arbeitsblätter zunimmt
+ 40053 Excel-to- PDF Die Leistung nimmt ab, wenn die Anzahl der Arbeitsblätter zunimmt
 
  Fehler
 
@@ -60,17 +60,17 @@ Aspose.Cells
 
  30224 Diagrammbilder stimmen nicht mit Excel-Diagrammen überein
 
-30651 Cell.SetStyle(Style style, bool explizitFlag) funktioniert nicht wie erwartet
+ 30651 Cell.SetStyle(Style style, bool explizitFlag) funktioniert nicht wie erwartet
 
  31334 BuiltInDocumentProperties.HyperlinkBase kann nicht gelesen oder festgelegt werden
 
- 40009 Problem beim Öffnen der XLSM-Datei
+ 40009 Dateiproblem beim Öffnen von XLSM
 
  40012 Der Stil hat sich nach dem Zusammenführen oder Hinzufügen eines Kopierblatts zu einer Arbeitsmappe geändert
 
  40013 Zeilenfeld-Zwischensumme – Formatierungsproblem
 
- 40014 Beim Öffnen und Speichern einer XLSM-Datei werden Makros und Ribbons weggeworfen
+ 40014 Das Öffnen und Speichern der Datei XLSM wirft Makros und Bänder weg
 
  40016 Fehler beim Speichern von Excel-Dateien
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 Verweise auf Array-Formeln werden beim Löschen einer Zeile oder Spalte nicht aktualisiert
 
- 40065 Negatives BigInt-Problem
+40065 Negatives BigInt-Problem
 
  40073 Aspose.Cells Smart Markers-Parameterproblem
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Neue Eigenschaften
 
-29869 Unterstützung für bedingte Formatierung (nur Excel 2003-Stile werden (derzeit) unterstützt)
+ 29869 Unterstützung für bedingte Formatierung (nur Excel 2003-Stile werden (derzeit) unterstützt)
 
  Fehler
 
@@ -104,7 +104,7 @@ Aspose.Cells
 
  40029 Problem: „Adresse der Website ist ungültig“ in Bezug auf Hyperlinks im Blatt
 
- 40051 ImportFromExcelFile verursacht ein Problem beim Laden einer XLSX-Datei (mit verbundenen Zellen) aus MemoryStream
+ 40051 ImportFromExcelFile gibt ein Problem beim Laden einer XLSX-Datei (mit verbundenen Zellen) aus MemoryStream
 
  40064 Inhalte mit Aufzählungszeichen werden nicht korrekt angezeigt
 

@@ -12,7 +12,7 @@ url: /de/net/aspose-cells-for-net-21-8-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSNET-48470|Unterstützung der Skalierung von Arbeitsblattseiten beim Exportieren von Dateien in HTML|Neue Funktion|
+|CELLSNET-48470|Unterstützung der Skalierung von Arbeitsblattseiten beim Exportieren von Dateien nach HTML|Neue Funktion|
 |CELLSNET-41286|Unterstützung von XML-Karten|Neue Funktion|
 |CELLSNET-45255|Unterstützung für Apples .numbers? Datei Format|Neue Funktion|
 |CELLSNET-47737| Unterstützung für das Lesen des neuesten Apples .numbers-Dateiformats|Neue Funktion|
@@ -21,23 +21,23 @@ url: /de/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-46412|Die Lizenz funktioniert nicht in der Release-Version der MVC-Anwendung, wenn sie auf dem IIS-Server bereitgestellt wird|Erweiterung|
 |CELLSNET-47888|Geeignete SmartMarker erforderlich, um die gewünschte Ausgabe zu erzielen|Erweiterung|
 |CELLSNET-48452|Unterstützung beim Lesen von Bildformularnummern 09-Dateien.|Erweiterung|
-|CELLSNET-48372|Warten Sie mit dem Speichern in HTML für die XLSB-Datei|Leistung|
+|CELLSNET-48372|Warten Sie mit dem Speichern in HTML für die Datei XLSB|Leistung|
 |CELLSNET-48091|Objekt mit Drehung ist verzerrt.|Insekt|
 |CELLSNET-48173|Verschiebung der Texte in den Diagrammformen|Insekt|
 |CELLSNET-48241|Die Textposition in der Fünfeckform ist falsch|Insekt|
 |CELLSNET-48247|Der Biegepfeil verschwindet beim Konvertieren in pdf.|Insekt|
 |CELLSNET-48363|Die Position des Rich-Texts wird wiederholt berechnet, wodurch der Text nach oben verschoben wird.|Insekt|
-|CELLSNET-47839|Shape to image Fehler beim Speichern von XLSX in PDF|Insekt|
+|CELLSNET-47839|Shape to image Fehler beim Speichern von XLSX bis PDF|Insekt|
 |CELLSNET-48312|Problem mit der Zoomstufe in Ausgabe-HTML.|Insekt|
-|CELLSNET-48329|Problem mit der Bildausrichtung beim Exportieren des Bereichs in HTML|Insekt|
-|CELLSNET-48333| Tabellenspalten im Bereich mit unterer Ausrichtung werden in konvertiertem HTML kombiniert|Insekt|
+|CELLSNET-48329|Problem mit der Bildausrichtung beim Exportieren des Bereichs bis HTML|Insekt|
+|CELLSNET-48333| Tabellenspalten im Bereich mit unterer Ausrichtung werden in konvertierten HTML kombiniert|Insekt|
 |CELLSNET-48365| Datenschnitte, die aus Pivot-Tabellen-Basisfeldern erstellt wurden, funktionieren nicht|Insekt|
-|CELLSNET-48359|Makros werden nach der Migration von XLS zu XLSM entfernt|Insekt|
+|CELLSNET-48359|Makros werden nach der Migration von XLS auf XLSM entfernt|Insekt|
 |CELLSNET-48448|Die Diagrammdatenquelle mit dem benannten Bereich wird nicht korrekt analysiert|Insekt|
-|CELLSNET-47369|Diagrammpunkt fehlt und Form im generierten EMF-Bild gestaucht|Insekt|
+|CELLSNET-47369|Diagrammpunkt fehlt und Form im generierten EMF-Bild gequetscht|Insekt|
 |CELLSNET-48497|Die generierte xlsx-Datei ist nach dem Verknüpfen der Zelle mit XmlMap beschädigt|Insekt|
 |CELLSNET-48132| Problem beim Ändern der Position der Datenbeschriftung des Donut-Diagramms|Insekt|
-|CELLSNET-48385|XLSX zu TIFF: Diagrammbalken werden in der Ausgabe nicht gerendert|Insekt|
+|CELLSNET-48385|XLSX bis TIFF: Diagrammbalken werden in der Ausgabe nicht gerendert|Insekt|
 |CELLSNET-48386|Falscher Schriftartname für den Schriftartnamen der Teilstrichbeschriftung der Kategorieachse|Insekt|
 |CELLSNET-48503|Die Ausrichtung des Achsentitels ist eine Verschiebung im Ausgabe-PDF|Insekt|
 |CELLSNET-48509|Das Diagramm wird manchmal nicht basierend auf der Legendenposition angezeigt|Insekt|
@@ -52,8 +52,8 @@ url: /de/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48477|Die PivotTable.CalculateData-Methode löst eine Ausnahme aus|Ausnahme|
 |CELLSNET-48395|Form-zu-Bild-Erhöhungsausnahme in der Docker-Umgebung für die Datei Display.xlsx|Ausnahme|
 |CELLSNET-48367|Ausnahme ausgelöst, wenn die PlotArea-Breite 0 ist|Ausnahme|
-|CELLSNET-48172|„Form-zu-Bild-Fehler“ beim Konvertieren von Excel-Dateien in PDF|Ausnahme|
-|CELLSNET-48490|"Arithmetische Operation führte zu einem Überlauf." Ausnahme beim Öffnen einer XLS-Datei|Ausnahme|
+|CELLSNET-48172|„Form-zu-Bild-Fehler“ beim Konvertieren der Excel-Datei in PDF|Ausnahme|
+|CELLSNET-48490|"Arithmetische Operation führte zu einem Überlauf." Ausnahme beim Öffnen der Datei XLS|Ausnahme|
 |CELLSNET-48545|Ausnahme beim Aufrufen von Shape.UpdateSelectedValue() ausgelöst|Ausnahme|
 |
 

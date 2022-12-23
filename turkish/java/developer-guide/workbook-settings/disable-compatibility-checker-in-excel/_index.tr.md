@@ -18,16 +18,16 @@ Bazen, belirli bir e-tablo için Uyumluluk Denetleyicisini devre dışı bırakm
 
 Microsoft Excel'de Uyumluluk Denetleyicisini devre dışı bırakmak için (örneğin Microsoft Excel 2007/2010):
 
--  (Excel 2007) Office düğmesinde,**HAZIRLAMA** , sonra**Uyumluluk Denetleyicisini Çalıştır** ve ardından temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
--  (Excel 2010 & 2013) Dosya sekmesinde,**Bilgi** , sonra**Sorunları kontrol et** , Tıklayın**Uyumluluğu Kontrol Edin** , ve son olarak, temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
+-  (Excel 2007) Office düğmesinde,**Hazırlamak** , o zamanlar**Uyumluluk Denetleyicisini Çalıştır** ve ardından temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
+-  (Excel 2010 & 2013) Dosya sekmesinde,**Bilgi** , o zamanlar**Sorunları kontrol et** , Tıklayın**Uyumluluğu Kontrol Edin** , ve son olarak, temizleyin**Bu çalışma kitabını kaydettiğinizde uyumluluğu kontrol edin** seçenek.
 
 ## **Aspose.Cells API'leri kullanma**
 
- Yı kur[**WorkbookSettings.CheckComptiliblite**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) mülkiyet**Yanlış** Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için.
+ Yı kur[**WorkbookSettings.CheckComptiliblite**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) mülkiyet**YANLIŞ** Microsoft Excel'in Uyumluluk Denetleyicisini devre dışı bırakmak için.
 
 Bir şablon XLS dosyamız olduğunu varsayalım. Bir kullanıcı bunu MS Excel 2007/2010/2013'te kaydettiğinde veya yeniden kaydettiğinde, aşağıdaki ekran görüntüsünde gösterildiği gibi Uyumluluk Denetleyicisi iletişim kutusu görüntülenir.
 
-![yapılacaklar:resim_alternatif_Metin](disable-compatibility-checker-in-excel_1.png)
+![yapılacaklar:resim_alternatif_metin](disable-compatibility-checker-in-excel_1.png)
 
 Aşağıdaki kod, Uyumluluk Denetleyicisinin Aspose.Cells for Java ile nasıl devre dışı bırakılacağını gösterir.
 

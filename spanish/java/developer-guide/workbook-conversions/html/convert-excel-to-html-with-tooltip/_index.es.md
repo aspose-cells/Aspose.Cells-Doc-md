@@ -12,7 +12,7 @@ La siguiente imagen muestra la información sobre herramientas en el archivo HTM
 
 ![todo:imagen_alternativa_texto](convert-excel-to-html-with-tooltip_1.jpg)
 
-El siguiente ejemplo de código carga el[archivo fuente excel](AddTooltipToHtmlSample.xlsx)y genera la[archivo HTML de salida](AddTooltipToHtmlSample_out.zip)con la información sobre herramientas.
+El siguiente ejemplo de código carga el[archivo fuente excel](AddTooltipToHtmlSample.xlsx)y genera la[archivo de salida HTML](AddTooltipToHtmlSample_out.zip)con la información sobre herramientas.
 
 ## Código de muestra
 

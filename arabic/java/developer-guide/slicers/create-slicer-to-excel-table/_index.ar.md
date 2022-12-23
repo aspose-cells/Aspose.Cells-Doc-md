@@ -10,7 +10,7 @@ url: /ar/java/create-slicer-to-excel-table/
 
 ## **قم بإنشاء جهاز تقطيع إلى جدول Excel**
 
- يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بتحميل ملف[نموذج لملف Excel](sampleCreateSlicerToExcelTable.xlsx) الذي يحتوي على جدول. ثم يقوم بإنشاء أداة تقطيع الشرائح بناءً على العمود الأول. أخيرًا ، يحفظ المصنف بتنسيق[إخراج XLSX](outputCreateSlicerToExcelTable.xlsx) صيغة.
+ يرجى الاطلاع على نموذج التعليمات البرمجية التالي. يقوم بتحميل ملف[نموذج لملف Excel](sampleCreateSlicerToExcelTable.xlsx) الذي يحتوي على جدول. ثم يقوم بإنشاء أداة تقطيع الشرائح بناءً على العمود الأول. أخيرًا ، يحفظ المصنف بتنسيق[الإخراج XLSX](outputCreateSlicerToExcelTable.xlsx) صيغة.
 
 ## **عينة من الرموز**
 

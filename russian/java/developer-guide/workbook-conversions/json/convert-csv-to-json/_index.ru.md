@@ -1,20 +1,20 @@
 ﻿---
-title: Конвертировать CSV в JSON
+title: Преобразование CSV в JSON
 type: docs
 weight: 170
 url: /ru/java/convert-csv-to-json/
 ---
-## **Конвертировать CSV в JSON**
+## **Преобразование CSV в JSON**
 
-Aspose.Cells поддерживает преобразование CSV в JSON. Для этого API предоставляет[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)а также[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)классы.[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class предоставляет параметры для экспорта диапазона в JSON.[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)класс имеет следующие свойства.
+Aspose.Cells поддерживает преобразование CSV в JSON. Для этого API предоставляет[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)и[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)классы.[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)класс предоставляет параметры для экспорта диапазона в JSON.[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)класс имеет следующие свойства.
 
-- [**Экспорткак строка**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString)это экспортирует строковое значение ячеек в JSON.
+- [**Экспорткак строка**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): Это экспортирует строковое значение ячеек в JSON.
 - [**Хасхеадерров**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): указывает, содержит ли диапазон строку заголовка.
 - [**Отступ**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): указывает отступ.
 
-[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)class экспортирует JSON, используя параметры экспорта, установленные с помощью[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)учебный класс.
+[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)класс экспортирует JSON, используя параметры экспорта, установленные с помощью[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)учебный класс.
 
-В следующем примере кода показано использование[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)а также[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)классы для загрузки[исходный CSV-файл](SampleCsv.csv)и печатает[JSON](SampleJson_out.csv) вывод в консоль.
+В следующем примере кода показано использование[**Экспортранжетоджсоноптионс**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)и[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)классы для загрузки[исходный файл CSV](SampleCsv.csv)и печатает[JSON](SampleJson_out.csv) вывод в консоль.
 
 ### **Образец кода**
 

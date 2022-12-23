@@ -10,7 +10,7 @@ Aspose.Cells låter dig stoppa konverteringen av arbetsboken till olika format s
 
 ## **Stoppa konvertering eller laddning med InterruptMonitor när det tar för lång tid**
 
-Följande exempelkod förklarar användningen av[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objekt. Koden konverterar en ganska stor Excel-fil till PDF. Det tar flera sekunder (dvs*mer än 30 sekunder*) för att få det konverterat på grund av dessa kodrader.
+Följande exempelkod förklarar användningen av[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)objekt. Koden konverterar en ganska stor Excel-fil till PDF. Det tar flera sekunder (dvs.*mer än 30 sekunder*) för att få det konverterat på grund av dessa kodrader.
 
 {{< highlight "java" >}}
 
@@ -22,7 +22,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-Som du ser**AB1000000**är en ganska längre cell i XLSX-fil. Men den*WaitForWhileAndThenInterrupt()*metoden avbryter konverteringen efter 10 sekunder och programmet avslutas/avslutas. Använd följande kod för att köra exempelkoden.
+Som du ser**AB1000000**är en ganska längre cell i XLSX-filen. Men den*WaitForWhileAndThenInterrupt()*metoden avbryter konverteringen efter 10 sekunder och programmet avslutas/avslutas. Använd följande kod för att köra exempelkoden.
 
 {{< highlight "java" >}}
 

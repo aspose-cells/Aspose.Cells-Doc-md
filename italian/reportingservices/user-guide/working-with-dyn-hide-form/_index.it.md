@@ -27,7 +27,7 @@ Per nascondere le informazioni:
 
 
 
-L'area definita è nascosta dal report.
+L'area definita è nascosta dal rapporto.
 
 Per rimuovere le informazioni nascoste:
 

@@ -26,7 +26,7 @@ Aspose.Cells for Reporting Services 支持三种加密方式：XOR、WEAK ENCRYP
 
 {{< /highlight >}}
 
-当加密的值为**上**, Aspose.Cells for Reporting Services 打开加密。
+当加密的值为**在**, Aspose.Cells for Reporting Services 打开加密。
 
 {{< highlight "java" >}}
 

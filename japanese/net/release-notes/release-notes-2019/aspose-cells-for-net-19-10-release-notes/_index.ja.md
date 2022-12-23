@@ -17,13 +17,13 @@ url: /ja/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46903|ContentTypeProperties のスタイルの変更|強化|
 |CELLSNET-46954|プログラムをハングアップさせるのではなく、Excel に似た例外を発生させる|パフォーマンス|
 |CELLSNET-46896|ファンネルグラフが消える|バグ|
-|CELLSNET-46934|PDFファイル形式への変換時の遅延とメモリ使用量|バグ|
+|CELLSNET-46934|PDF ファイル形式に変換する際の遅延とメモリ使用量|バグ|
 |CELLSNET-43416|スプレッドシートを PDF にレンダリングした後、ピボット フィールドの並べ替えが変更される|バグ|
 |CELLSNET-44686|チャートの抽出時にピボットソートが適用されない|バグ|
 |CELLSNET-46793|ピボット テーブルの問題|バグ|
 |CELLSNET-46882|ピボット テーブルを日付でグループ化し、PDF として保存する際の問題|バグ|
-|CELLSNET-46935|HTML でレンダリングされていないテキストを折り返す|バグ|
-|CELLSNET-46940|テーブルの境界線が HTML で正しくレンダリングされない|バグ|
+|CELLSNET-46935|HTML でレンダリングされない折り返しテキスト|バグ|
+|CELLSNET-46940|HTML でテーブルの境界線が正しくレンダリングされない|バグ|
 |CELLSNET-46939|TEXTJOIN() 関数のサポート|バグ|
 |CELLSNET-46237|Cell フォーマットがくっつかない|バグ|
 |CELLSNET-46245|切り取り/貼り付けで Cell の名前が GridDesktop の新しい場所にコピーされない|バグ|
@@ -33,15 +33,15 @@ url: /ja/net/aspose-cells-for-net-19-10-release-notes/
 |CELLSNET-46900|マップチャートの配色が変わります|バグ|
 |CELLSNET-46902|ImportData を使用して Excel ファイルにデータを入力した後、テーブルで行を手動で削除するオプションが無効になる|バグ|
 |CELLSNET-46916|挿入範囲が原因でファイルが破損する|バグ|
-|CELLSNET-46919|XLSX から XLSB ファイル形式に変更するとファイルが破損する|バグ|
+|CELLSNET-46919|ファイル形式を XLSX から XLSB に変更するとファイルが破損する|バグ|
 |CELLSNET-46925|XLSX から OLE オブジェクトを抽出する際の問題|バグ|
 |CELLSNET-46928|Conholdate 総ライセンス発行|バグ|
 |CELLSNET-46929|ワークシートをコピーすると、グラフの軸ラベル (タイトル) の方向が変更される|バグ|
-|CELLSNET-46933|XLS ファイルを開いて保存すると、すべてのドキュメントとカスタム プロパティが削除されます|バグ|
+|CELLSNET-46933|XLS ファイルを開いて保存すると、ドキュメントとカスタム プロパティがすべて削除される|バグ|
 |CELLSNET-46945|Extend Range.RemoveDuplicates|バグ|
 |CELLSNET-46948|範囲.大容量のコピー性能|バグ|
 |CELLSNET-46949|ワークシートをコピーすると、OLE オブジェクトが画像になる|バグ|
-|CELLSNET-46941|セルにファイル参照がある場合、HTML として保存すると例外がスローされます|例外|
+|CELLSNET-46941|HTML として保存すると、セルにファイル参照がある場合に例外がスローされます|例外|
 |CELLSNET-46952|Workbook.RemoveUnusedStyles() の呼び出し時の例外|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。

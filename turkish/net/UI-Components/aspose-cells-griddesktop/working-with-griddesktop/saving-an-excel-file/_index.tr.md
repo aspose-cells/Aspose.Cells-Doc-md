@@ -9,7 +9,7 @@ url: /tr/net/saving-an-excel-file/
 Aspose.Cells.GridDesktop kontrolünü kullanarak, kullanıcılar yalnızca yeni Excel dosyaları oluşturamaz, aynı zamanda mevcut olanları da yönetebilir. Ancak her iki durumda da Aspose.Cells.GridDesktop içeriğini kaydetmek gerekli olacaktır. Bu, kullanıcılarımıza Grid içeriklerini bir Excel dosyası olarak nasıl kaydedebilecekleri konusunda bilgi vermek için şimdi tartışmamızın konusu.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 Aspose.Cells.GridDesktop kontrolünün içeriğini bir Excel dosyası olarak kaydetmek için Aspose.Cells.GridDesktop aşağıdaki yöntemleri sağlar.
 
 1. **Dosya Olarak Kaydetme**

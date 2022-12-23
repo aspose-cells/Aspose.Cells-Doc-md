@@ -20,37 +20,37 @@ url: /ja/net/aspose-cells-for-net-17-11-release-notes/
 |CELLSNET-45755|Smart Art シェイプのテキストを取得できません|強化|
 |CELLSNET-45720|ピボット テーブルのデータ更新に時間がかかりすぎています|パフォーマンス|
 |CELLSNET-45680|画像形式に変換すると形状の向きがおかしい|バグ|
-|CELLSNET-45679|出力 PDF で星形が正しく表示されない|バグ|
+|CELLSNET-45679|星形が出力に正しく表示されない PDF|バグ|
 |CELLSNET-45669|画像変換時に文字が重なる|バグ|
 |CELLSNET-45665|一部の描画要素は反転され、他の要素は右にシフトされます|バグ|
-|CELLSNET-43912|スプレッドシートを PDF にレンダリングする際に線オブジェクトの位置が変更される|バグ|
+|CELLSNET-43912|スプレッドシートのレンダリング中に線オブジェクトの位置が PDF に変更されました|バグ|
 |CELLSNET-45715|ピボットテーブル オプション - 値の行を表示 - 再保存すると有効になります|バグ|
 |CELLSNET-45671|ピボットテーブル データの更新/計算時に計算フィールドの合計値が表示されない|バグ|
 |CELLSNET-45650|MHTML ファイル形式を Excel ファイルに保存するときに、データを適切な列に展開する際のエラー|バグ|
 |CELLSNET-45721|LightCellsDataProvider が先頭と末尾のスペースを削除しています|バグ|
 |CELLSNET-45719|数式の計算で数式が予期せずエラーに解決される|バグ|
 |CELLSNET-45724|Excel を PDF として保存すると、列幅が狭くなります|バグ|
-|CELLSNET-45712|出力 PDF にグラフの凡例が表示されない|バグ|
-|CELLSNET-45710|Excel ファイルを PDF として保存した後、グラフの数値の書式設定が失われる|バグ|
-|CELLSNET-45708|Aspose.Cells によって作成された PDF ファイルは、Adobe Acrobat Reader でエラーを引き起こします|バグ|
-|CELLSNET-45684|チャートを画像または PDF に変換 - 3D 折れ線グラフが正しくないか回転している|バグ|
+|CELLSNET-45712|グラフの凡例が出力にありません PDF|バグ|
+|CELLSNET-45710|Excel ファイルを PDF として保存すると、グラフの数値の書式設定が失われる|バグ|
+|CELLSNET-45708|Aspose.Cells によって作成された PDF ファイルにより、Adobe Acrobat Reader でエラーが発生する|バグ|
+|CELLSNET-45684|チャートから画像または PDF - 3D 折れ線グラフが正しくないか、回転しています|バグ|
 |CELLSNET-45760|検証が 1 つのワークシートから別のワークシートに正しくコピーされない|バグ|
 |CELLSNET-45758|Style.QuotePrefix プロパティが XLSB ファイル形式で機能しない|バグ|
 |CELLSNET-45757|特定の Excel ワークブックを開いて保存すると非表示になる|バグ|
 |CELLSNET-45754|結合されたブックで列が予期せず展開された|バグ|
-|CELLSNET-45749|複数のフォントを持つ HTML 文字列により、出力 Excel ファイルが破損する|バグ|
-|CELLSNET-45739|SpreadsheetML ファイルを Aspose.Cells 経由で再保存すると、追加の保護設定が適用される|バグ|
-|CELLSNET-45738|AutoFitColumns は、出力 Excel ファイルで HTML 形式を壊します|バグ|
+|CELLSNET-45749|HTML 文字列に複数のフォントが含まれていると、出力 Excel ファイルが破損する|バグ|
+|CELLSNET-45739|Aspose.Cells 経由で再保存された SpreadsheetML ファイルには、適用された追加の保護設定が含まれています|バグ|
+|CELLSNET-45738|出力 Excel ファイルで AutoFitColumns が HTML の書式設定を壊す|バグ|
 |CELLSNET-45734|出力ファイルを開くと、MS Excel でエラー メッセージが表示される|バグ|
 |CELLSNET-45733|図形のグループ化を解除すると、テキスト ボックスのフォントが変更される|バグ|
 |CELLSNET-45714|行の自動調整後に行の高さが大きくなりすぎる|バグ|
 |CELLSNET-45735|コンテキスト メニューを使用して変更する場合の CellColor の問題|バグ|
 |CELLSNET-45707|PivotTable.RefreshData 使用時の例外|例外|
-|CELLSNET-45728|PDF ページとして保存するときに、インデックスが範囲外の例外でした|例外|
+|CELLSNET-45728|PDF ページとして保存するときのインデックスが範囲外の例外でした|例外|
 |CELLSNET-45704|Aspose.Cells を Azure Web ジョブとして使用すると、Workbook.Save() が例外で失敗する|例外|
 |CELLSNET-45753|XLSB を PDF に変換すると System.ArgumentOutOfRangeException が発生する|例外|
 |CELLSNET-45751|ExportDataTable() メソッドで使用される ExportTableOptions.Indexes プロパティにより例外が発生する|例外|
-|CELLSNET-45726|出力 XLS ファイルの読み込み中に例外が発生しました (OLE オブジェクト、画像などは除外されます)。|例外|
+|CELLSNET-45726|出力 XLS ファイルの読み込み中に例外が発生しました (OLE オブジェクト、画像などを除く)|例外|
 |CELLSNET-45723|数式に文字 "[" が含まれている場合、R1C1Formula は例外をスローします。|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。

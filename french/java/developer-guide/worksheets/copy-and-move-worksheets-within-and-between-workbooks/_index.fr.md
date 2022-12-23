@@ -47,9 +47,9 @@ Les étapes initiales sont les mêmes pour tous les exemples.
 1. Ajoutez un chemin de classe :
 1. Extrayez les fichiers Aspose.Cells.jar et dom4j_1.6.1.jar de Aspose.Cells.zip.
  1. Définissez le chemin de classe du projet dans Eclipse :
- 1. Sélectionnez votre projet dans Eclipse et cliquez sur les menus**Projet** , alors**Propriétés**.
+ 1. Sélectionnez votre projet dans Eclipse et cliquez sur les menus**Projet** , ensuite**Propriétés**.
  1. Sélectionnez**Java Chemin de construction** dans la partie gauche de la boîte de dialogue, puis sélectionnez l'onglet Bibliothèques,
- 1. Cliquez sur**Ajouter des JAR** ou**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter dans les chemins de génération.
+ 1. Cliquez sur**Ajouter des JAR** ou alors**Ajouter des fichiers JAR externes** pour sélectionner Aspose.Cells.jar et dom4j_1.6.1.jar et les ajouter dans les chemins de génération.
 
 {{% alert color="primary" %}}
 
@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Copier une feuille de calcul dans un classeur :
- Vous trouverez ci-dessous le code utilisé par pour accomplir la tâche. Il copie la feuille de calcul Copy dans FirstWorkbook.xls.
+Vous trouverez ci-dessous le code utilisé par pour accomplir la tâche. Il copie la feuille de calcul Copy dans FirstWorkbook.xls.
 
 L'exécution du code déplace la feuille de calcul nommée Copy dans FirstWorkbook.xls avec le nouveau nom Last Sheet.
 

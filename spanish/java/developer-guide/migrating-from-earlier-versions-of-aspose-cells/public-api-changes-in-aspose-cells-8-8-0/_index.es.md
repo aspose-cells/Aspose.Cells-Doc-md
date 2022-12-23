@@ -23,7 +23,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.7.2 a l
 
 {{% /alert %}} 
 ### **Se agregó la propiedad HTMLLoadOptions.KeepPrecision**
-Aspose.Cells for Java 8.8.0 agregó la propiedad HTMLLoadOptions.KeepPrecision para controlar la conversión de valores numéricos largos a notación exponencial al importar archivos HTML. De forma predeterminada, cualquier valor de más de 15 dígitos se convierte a notación exponencial si los datos se importan desde una cadena o un archivo HTML. Sin embargo, ahora los usuarios pueden controlar este comportamiento con la ayuda de la propiedad HTMLLoadOptions.KeepPrecision. Si dicha propiedad se establece en verdadero, los valores se importarán tal como están en la fuente.
+Aspose.Cells for Java 8.8.0 agregó la propiedad HTMLLoadOptions.KeepPrecision para controlar la conversión de valores numéricos largos a notación exponencial al importar archivos HTML. De forma predeterminada, cualquier valor de más de 15 dígitos se convierte a notación exponencial si los datos se importan desde la cadena o el archivo HTML. Sin embargo, ahora los usuarios pueden controlar este comportamiento con la ayuda de la propiedad HTMLLoadOptions.KeepPrecision. Si dicha propiedad se establece en verdadero, los valores se importarán tal como están en la fuente.
 
 {{% alert color="primary" %}} 
 
@@ -85,7 +85,7 @@ Aspose.Cells for Java 8.8.0 ha expuesto la propiedad HTMLLoadOptions.DeleteRedun
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Eliminar espacios redundantes de HTML](/cells/es/java/delete-redundant-spaces-after-line-break-while-importing/)
+ Para obtener más detalles sobre esta función, consulte el artículo detallado sobre[Eliminar espacios redundantes del HTML](/cells/es/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 

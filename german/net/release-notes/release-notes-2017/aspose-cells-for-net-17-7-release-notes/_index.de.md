@@ -12,7 +12,7 @@ url: /de/net/aspose-cells-for-net-17-7-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSNET-45437|Unterstützung von Fehlern und booleschen Werten im russischen Gebietsschema bei der Excel-zu-PDF-Wiedergabe|Neue Funktion|
+|CELLSNET-45437|Unterstützungsfehler und boolescher Wert im russischen Gebietsschema in Excel bis PDF-Rendering|Neue Funktion|
 |CELLSNET-45456|Lesen von Zellendaten, Formeln und Stilen aus der Zahlendatei|Neue Funktion|
 |CELLSNET-45483|Unterstützung zum Ändern des Startwerts des Zeilenindex auf 0 (statt 1) in Aspose.Cells.GridDesktop|Neue Funktion|
 |CELLSNET-45434|GridWeb ViewPanel ist nicht immer sichtbar|Neue Funktion|
@@ -28,14 +28,14 @@ url: /de/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45402|Cell.DisplayStringValue stimmt nicht mit den ursprünglichen Werten überein|Insekt|
 |CELLSNET-45479|Aspose.Cells 17.5 – Falsches digitales Signieren mit DSA-Zertifikat|Insekt|
 |CELLSNET-45420|DefaultFont-Einstellung funktioniert nicht|Insekt|
-|CELLSNET-45364|Einige Formen/Objekte werden in der Ausgabe-PDF ausgeschnitten|Insekt|
+|CELLSNET-45364|Einige Formen/Objekte sind in der Ausgabe PDF ausgeschnitten|Insekt|
 |CELLSNET-45491|Im Ausgabebild des Diagramms erschien ein schwarzes Unschärfe-Objekt, das an den Datenbeschriftungen angehängt war|Insekt|
 |CELLSNET-45476|Das Datumsformat der Beschriftungen der X-Achse wird geändert und bei Legendeneinträgen überschrieben|Insekt|
-|CELLSNET-45471|Text „III.LowerQualityAboveSML“ auf der zweiten Seite des PDF-Dokuments ist defekt|Insekt|
+|CELLSNET-45471|Text "III.LowerQualityAboveSML" auf der 2. Seite von PDF ist defekt|Insekt|
 |CELLSNET-45454|Blasenfarben werden für verschiedene Diagramme ein wenig geändert, selbst wenn dieselben Codezeilen verwendet werden|Insekt|
-|CELLSNET-45452|Sparklines werden im Ausgabe-PDF nicht korrekt gerendert|Insekt|
+|CELLSNET-45452|Sparklines werden in der Ausgabe PDF nicht korrekt gerendert|Insekt|
 |CELLSNET-45493|Beim Ändern der Größe des Listenobjekts wird keine benutzerdefinierte Formatierung übernommen|Insekt|
-|CELLSNET-45482|Beim Extrahieren und erneuten Einfügen von Bildern gehen einige Formen in der XLS-Datei verloren|Insekt|
+|CELLSNET-45482|Einige Formen gehen in der Datei XLS verloren, wenn Bilder extrahiert und wieder eingefügt werden|Insekt|
 |CELLSNET-45466|Einige zusätzliche Grenzen werden automatisch hinzugefügt|Insekt|
 |CELLSNET-45464|Der Achsentyp des Diagramms wird nach Workbook.Combine() geändert|Insekt|
 |CELLSNET-45463|Zeilenhöhen und Diagrammgrößen werden kleiner, wenn die Methode Workbook.Combine() verwendet wird|Insekt|
@@ -46,7 +46,7 @@ url: /de/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45438|Das Drehen des Zellentextes um 90 Grad beeinträchtigt die Textausrichtung der Zelle|Insekt|
 |CELLSNET-45425|GridWeb fügt dem Excel-Dropdown-Eintrag Platz hinzu|Insekt|
 |CELLSNET-42363|Problem mit den Beschriftungen von Pivot-Feldern in PivotTable (GridWeb)|Insekt|
-|CELLSNET-45486|Beim Speichern einer Excel-Arbeitsmappe (mit verbundenen Zellen) im HTML-Dateiformat ist eine NullReferenceException aufgetreten|Ausnahme|
+|CELLSNET-45486|Beim Speichern einer Excel-Arbeitsmappe (mit verbundenen Zellen) im Dateiformat HTML ist eine NullReferenceException aufgetreten|Ausnahme|
 |CELLSNET-45478|Ausnahme beim Öffnen einer beschädigten MHTML-Datei über Aspose.Cells-APIs|Ausnahme|
 |CELLSNET-45467|„System.ArgumentOutOfRangeException“ ist beim Laden einer MHTML-Datei aufgetreten|Ausnahme|
 |CELLSNET-45485|Beim Berechnen einer gültigen Formel ist eine Ausnahme aufgetreten|Ausnahme|
@@ -91,7 +91,7 @@ Macht das GridWeb-Steuerelement mit der aktuellen Browserfenstergröße kompatib
 #### **Anwendungsbeispiele**
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Cells-Wiki-Dokumenten hinzugefügt wurden:
 
-- [Read Numbers Spreadsheet Entwickelt von Apple Inc. mit Aspose.Cells](/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells](/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Setzen Sie die DefaultFont-Eigenschaft von PdfSaveOptions und ImageOrPrintOptions auf Priorität](/cells/de/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Wenden Sie den erweiterten Filter von Microsoft Excel an, um Datensätze anzuzeigen, die komplexe Kriterien erfüllen](/cells/de/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementieren Sie Fehler und boolesche Werte in Russisch oder einer anderen Sprache](/cells/de/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

@@ -12,7 +12,7 @@ url: /fr/java/aspose-cells-for-java-7-6-1-release-notes/
 
  Améliorations
 
- Exceptions
+ Des exceptions
 
  40636 - Le fichier génère une exception à son ouverture
 

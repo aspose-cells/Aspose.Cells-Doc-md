@@ -15,15 +15,15 @@ url: /zh/java/aspose-cells-for-java-22-3-release-notes/
 |CELLSJAVA-44369|形状高度不正确|
 |CELLSJAVA-44366|将sheet内容复制到新的sheet页面另存为html导致Excel数学公式样式异常|
 |CELLSJAVA-44408|当我们扩展我们更改的那两行时，Cell 的百分比格式丢失|
-|CELLSJAVA-44341|Cell 宽度在 Excel 到 DOCX 转换中的输出 DOCX 中不正确|
+|CELLSJAVA-44341|Cell 宽度在 Excel 中输出 DOCX 到 DOCX 的转换中不正确|
 |CELLSJAVA-44383|添加自定义属性后条件格式停止工作|
 |CELLSJAVA-44370|使用 Aspose.Cells 打开和保存时 Excel 文件损坏|
-|CELLSJAVA-44344|输出 XLSX 中水平复制范围的问题|
+|CELLSJAVA-44344|输出中水平复制范围的问题 XLSX|
 |CELLSJAVA-44363|行标题高度与冻结窗格文件中的行内容不匹配|
 |CELLSJAVA-44349|图像/形状应在 GridWeb 服务器重启后保留|
 |CELLSJAVA-44367|转html时柱形图颜色变白|
-|CELLSJAVA-44328|将 Excel 文件另存为 HTML 时，Excel 图形的某些数据标签丢失|
-|CELLSJAVA-44193|图表中类别轴项目的角度在 Excel 到 PDF 转换中不同|
+|CELLSJAVA-44328|将 Excel 文件保存为 HTML 时，Excel 图形的某些数据标签丢失|
+|CELLSJAVA-44193|图表中类别轴项目的角度在Excel中不同 PDF 转换|
 |CELLSJAVA-44314|图表中错误的图表类别轴标签到图像渲染|
 |CELLSJAVA-44332|Cell 将 xlsx 转换为 html 时无法删除链接下划线|
 |CELLSJAVA-44323|添加签名行时出现异常|

@@ -20,7 +20,7 @@ Diese erste Version des Add-ons hat die folgenden Funktionen:
 - Verwendung als Datenquelle zulassen (Tabelle, Ansichten, benutzerdefinierte Abfrage)
 - Exportieren Sie Daten in Microsoft Excel-Dokumente (.xls, .xlsx und .xlsb)
 - Exportieren von Daten in ein tabulatorgetrenntes Textdokument (*.txt)
-- Daten nach CSV exportieren (kommagetrennt) (*.csv)
+- Daten exportieren nach CSV (kommagetrennt) (*.csv)
 - Exportieren von Daten in eine OpenDocument-Tabelle (*.ods)
 - Option zur Auswahl des gewünschten Ausgabeformats vor dem Export.
 - Das exportierte Dokument wird automatisch zum Herunterladen an den Browser gesendet.
@@ -65,7 +65,7 @@ Nachdem Sie das Aspose .NET Database Data Exporter to Excel for Umbraco-Modul in
 1.  Erweitere das**Vorlagen** -Knoten und wählen Sie die Vorlage aus, der Sie etwas hinzufügen möchten, z. B. Textpage.
 1. Wählen Sie die Position in der ausgewählten Vorlage aus, an der Sie die hinzuzufügende Schaltfläche exportieren möchten. Normalerweise möchten Sie es vielleicht oben rechts auf der Seite oder unten auf der Seite hinzufügen.
 1.  Klicken**Makro einfügen** auf dem oberen Band.
-1.  Aus**Wählen Sie ein Makro aus** (Aspose .NET Database Data Exporter to Excel for Umbraco), wählen Sie das kürzlich installierte Makro Aspose .NET Database Data Exporter to Excel for Umbraco aus und klicken Sie auf**OK**.
+1.  Von**Wählen Sie ein Makro aus** (Aspose .NET Database Data Exporter to Excel for Umbraco), wählen Sie das kürzlich installierte Makro Aspose .NET Database Data Exporter to Excel for Umbraco aus und klicken Sie auf**OK**.
 
  Bitte überprüfen Sie den Screenshot unten für Details.
 
@@ -82,9 +82,9 @@ Sie haben das Modul Aspose .NET Database Data Exporter to Excel erfolgreich zu I
 1. Klicken Sie auf Daten exportieren
 1. Die gewünschte Datei wird automatisch heruntergeladen.
 ## **Video-Demo**
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=MkfKyeLTauE) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=MkfKyeLTauE) unten, um das Modul in Aktion zu sehen.
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.

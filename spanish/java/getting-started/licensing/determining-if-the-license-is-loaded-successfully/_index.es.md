@@ -12,7 +12,7 @@ url: /es/java/determining-if-the-license-is-loaded-successfully/
 
 ## **Determinar si la licencia se cargó correctamente**
 
- El siguiente código accede a la[**Libro de trabajo.tiene licencia()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)antes de establecer una licencia y devuelve false. Luego carga la licencia y vuelve a acceder a la propiedad, que ahora devuelve verdadero.
+ El siguiente código accede a la[**Libro de trabajo.tiene licencia()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#IsLicensed)antes de establecer una licencia y devuelve falso. Luego carga la licencia y vuelve a acceder a la propiedad, que ahora devuelve verdadero.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DeterminetheLicenseLoadedSuccessfully-DeterminetheLicenseLoadedSuccessfully.java" >}}
 

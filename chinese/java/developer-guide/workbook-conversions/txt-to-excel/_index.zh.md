@@ -6,7 +6,7 @@ url: /zh/java/convert-csv-tsv-and-txt-to-excel/
 ---
 ## **打开 CSV 文件**
 
-逗号分隔值 (CSV) 文件包含其值由逗号分隔或分隔的记录。在 CSV 文件中，数据以表格格式存储，其中的字段由逗号分隔并由双引号引起来。如果字段的值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出到 CSV 文件。
+逗号分隔值 (CSV) 文件包含其值由逗号分隔或分隔的记录。在 CSV 文件中，数据以表格格式存储，其字段由逗号分隔并由双引号引起来。如果字段的值包含双引号字符，则使用一对双引号字符进行转义。您还可以使用 Microsoft Excel 将电子表格数据导出到 CSV 文件。
 
 要打开 CSV 文件，请使用**[加载选项](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**类并选择**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)**值，预定义在**[加载格式](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**枚举。
 
@@ -16,7 +16,7 @@ url: /zh/java/convert-csv-tsv-and-txt-to-excel/
 
 ### **打开 CSV 文件并替换无效字符**
 
-在 Excel 中，当打开带有特殊字符的 CSV 文件时，字符会被自动替换。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
+在 Excel 中，打开带有特殊字符的 CSV 文件时，会自动替换这些字符。 Aspose.Cells API 完成了同样的操作，在下面给出的代码示例中进行了演示。
 
 #### **例子**
 

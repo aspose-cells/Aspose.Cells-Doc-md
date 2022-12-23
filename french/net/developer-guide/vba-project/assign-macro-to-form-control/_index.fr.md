@@ -10,7 +10,7 @@ url: /fr/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-L'exemple de code suivant crée un nouveau classeur, attribue un code de macro à un bouton de formulaire et enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier XLSM de sortie dans Microsoft Excel, vous verrez le code macro suivant.
+L'exemple de code suivant crée un nouveau classeur, attribue un code de macro à un bouton de formulaire et enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier de sortie XLSM dans Microsoft Excel, vous verrez le code macro suivant.
 
 {{< highlight "java" >}}
 
@@ -24,6 +24,6 @@ End Sub
 
 ## **Attribuer une macro au contrôle de formulaire dans C#**
 
-Voici l'exemple de code pour générer le fichier XLSM de sortie avec Macro Code.
+Voici l'exemple de code pour générer le fichier de sortie XLSM avec Macro Code.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

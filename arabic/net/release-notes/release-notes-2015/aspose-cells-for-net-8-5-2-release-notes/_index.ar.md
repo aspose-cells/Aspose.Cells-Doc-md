@@ -30,13 +30,13 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43786) - الملف تالف بعد تحديث PivotTable في ملف القالب
 
- (CELLSNET-43594) - PivotField.IsRepeatItemLabels لا تعمل في الجدول المحوري
+(CELLSNET-43594) - PivotField.IsRepeatItemLabels لا تعمل في الجدول المحوري
 
  (CELLSNET-43367) - مشكلة في PivotTable.Format () لتنسيق رأس PivotField
 
  (CELLSNET-41618) - عدم عرض بعض الصور والأشكال بعد تحويل Xls إلى Html
 
-(CELLSNET-43817) - CalculateFormula () لا ينتهي أبدًا لبعض صيغ SUMIF Excel
+ (CELLSNET-43817) - CalculateFormula () لا ينتهي أبدًا لبعض صيغ SUMIF Excel
 
  (CELLSNET-43675) - مشكلة في حساب دالة NORM.SDIST
 
@@ -52,17 +52,17 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43806) - الرسم البياني / المنحنى يختلف عن مخططات XY المبعثرة.
 
- (CELLSNET-43805) - تحويل جدول البيانات إلى PDF: تم فقد النمط الغامق
+(CELLSNET-43805) - جدول بيانات إلى PDF التحويل: النمط الغامق مفقود
 
- (CELLSNET-43804) - تحويل جدول البيانات إلى PDF: المحتويات في TextBox مع المسافة البادئة
+ (CELLSNET-43804) - جدول بيانات للتحويل PDF: المحتويات في TextBox تصيير مع المسافة البادئة
 
- (CELLSNET-43779) - عدم تناسق الرسم البياني للصورة لتنسيق ملف EMF
+ (CELLSNET-43779) - عدم تناسق الرسم البياني للصورة لتنسيق الملف EMF
 
-(CELLSNET-43772) - لم يتم التفاف النص الموجود في شكل الرسم بشكل صحيح
+ (CELLSNET-43772) - لم يتم التفاف النص الموجود في شكل الرسم بشكل صحيح
 
  (CELLSNET-43771) - تم إزاحة الصورة بعد تحويل جدول البيانات إلى PDF
 
- (CELLSNET-43748) - نص مربع النص متداخل في عرض Excel إلى PDF
+ (CELLSNET-43748) - نص مربع النص متداخل في Excel مع عرض PDF
 
  (CELLSNET-43820) - يصبح جدول البيانات الذي يحتوي على مقسمات تالفًا بعد إعادة الحفظ
 
@@ -74,7 +74,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43802) - تلف ملف Excel عند الفتح وإعادة الحفظ ولا يفتح في Excel 2013
 
- (CELLSNET-43799) - تؤدي إعادة حفظ جدول البيانات إلى تلف النتائج وإزالة مقسمات العرض
+(CELLSNET-43799) - تؤدي إعادة حفظ جدول البيانات إلى تلف النتائج وإزالة مقسمات العرض
 
  (CELLSNET-43792) - تمت إزالة اتصال بيانات المصنف بعد إعادة حفظ جدول البيانات
 
@@ -84,7 +84,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43629) - PivotTable.RefreshData () - غير قادر على تحويل كائن من النوع
 
-(CELLSNET-43778) - System.FormatException في Chart.ToImage عندما تكون لغة النظام هي روسيا
+ (CELLSNET-43778) - System.FormatException في Chart.ToImage عندما تكون لغة النظام هي روسيا
 
  (CELLSNET-43822) - لا يمكن حفظ المصنف الذي يحتوي على مخطط ويؤدي إلى استثناء
 
@@ -100,7 +100,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **ميزات جديدة**
@@ -108,7 +108,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43809) - يضيف حدث رد اتصال غير متزامن لشبكة سطح المكتب
 
- (CELLSNET-42316) - اختصار لوحة المفاتيح Ctrl + Shift + مفاتيح الأسهم لا يعمل.
+(CELLSNET-42316) - اختصار لوحة المفاتيح Ctrl + Shift + مفاتيح الأسهم لا يعمل.
 
  (CELLSNET-42174) - لا ينتقل Control + مفاتيح الأسهم إلى الخلية التي تحتوي على البيانات
 
@@ -132,7 +132,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
  يضيف خاصية SaveOptions.MergeAreas.
 
- يتم استخدامه لدمج CellAreas الفردية من التنسيق الشرطي والتحقق من الصحة.
+يتم استخدامه لدمج CellAreas الفردية من التنسيق الشرطي والتحقق من الصحة.
 
 
 
@@ -142,7 +142,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-يضيف طريقة SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
+ يضيف طريقة SheetRender.ToImage (int pageIndex ، Graphics g ، float x ، float y)
 
  تقديم صفحة معينة من SheetRender إلى رسومات.
 
@@ -160,7 +160,7 @@ url: /ar/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-يضيف أحداث GridDesktop.BeforeLoadFile / FinishLoadFile / BeforeCalculate / FinishCalculate.
+ يضيف أحداث GridDesktop.BeforeLoadFile / FinishLoadFile / BeforeCalculate / FinishCalculate.
 
  يحدث في الحالة المختلفة لتحميل ملف المصنف في GridDesktop.
 

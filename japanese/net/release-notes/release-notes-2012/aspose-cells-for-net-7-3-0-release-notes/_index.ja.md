@@ -52,18 +52,18 @@ url: /ja/net/aspose-cells-for-net-7-3-0-release-notes/
 - Cells.ExportDataTableAsString() メソッドとカスタム書式の問題
 - ピボットテーブルの深刻な問題
 - その場で複数のワークブックで Workbook.CalculateFormula() メソッドを使用すると、#VALUE が得られます
-- ビジネス シェイプ (内部のテキスト) の PDF レンダリングは適切ではありません
-- 印刷ページ数に基づく XLS の目次の問題
+- PDF ビジネス シェイプ (テキスト内) のレンダリングが適切ではありません
+- 印刷ページ数に基づく XLS 目次の問題
 
--PDF 変換で名前付き領域の値が欠落する
+ PDF 変換で、名前付き領域の値が失われます。
 
 - 配列数式の値でセルを参照できない
 
 -Cells フォーマットの問題
 
 - 画像を参照する数式の問題
-- XLSX への変換時に、SpreadsheetML の配列数式が引き継がれない
-- XLSM で名前付き範囲が失われるバグ
+- SpreadsheetML の配列数式は、XLSX に変換するときに引き継がれません。
+- XLSM の名前付き範囲のバグを失う
 
 
 

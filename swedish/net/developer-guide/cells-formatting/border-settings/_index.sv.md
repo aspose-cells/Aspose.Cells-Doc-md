@@ -18,7 +18,7 @@ Med Aspose.Cells kan utvecklare lägga till ramar och anpassa hur de ser ut på 
 
 #### **Lägger till gränser till en Cell**
 
-Utvecklare kan lägga till gränser till en cell genom att använda[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Gränstypen skickas som ett index till[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Alla kanttyper är fördefinierade i[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) uppräkning.
+Utvecklare kan lägga till gränser till en cell genom att använda[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Gränstypen skickas som ett index till[**Gränser**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/borders) samling. Alla kanttyper är fördefinierade i[**BorderType**](https://reference.aspose.com/cells/net/aspose.cells/bordertype) uppräkning.
 
 **Gränsuppräkning**
 
@@ -55,7 +55,7 @@ För att ställa in en rams linjefärg, välj en färg med färguppräkningen (e
 |SlantedDashDot|Lutande medelhög streckprickad linje|
 |Tjock|Tjock linje|
 |Tunn|Tunn linje|
-Välj en av linjestilarna och tilldela den sedan till[**Gräns**](https://reference.aspose.com/cells/net/aspose.cells/border) objekt[**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) fast egendom.
+Välj en av linjestilarna och tilldela den sedan till[**Gräns**](https://reference.aspose.com/cells/net/aspose.cells/border) föremål[**LineStyle**](https://reference.aspose.com/cells/net/aspose.cells/border/properties/linestyle) fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-Borders-AddingBordersToCells-1.cs" >}}
 
@@ -105,7 +105,7 @@ Exemplet nedan lägger till en anpassad färg (Orchid) till paletten innan den a
 
 {{% alert color="primary" %}}
 
-Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta endast begränsningen i XLS (Excel 97 - 2003) filformat eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010 eller 2013) filformat.
+Paletten rymmer endast 56 färger. När du lägger till en anpassad färg till paletten ändras paletten och alla element i filen som formaterats med föregående färg ändras. Så var mycket försiktig när du ändrar paletten. Dessutom är detta begränsningen i XLS (Excel 97 - 2003) filformat endast eftersom det inte finns någon sådan begränsning för XLSX eller andra avancerade MS Excel (2007/2010 eller 2013) filformat.
 
 {{% /alert %}}
 

@@ -16,6 +16,6 @@ url: /tr/net/aspose-cells-net-3-7-2-0-hot-fix-release-notes/
 
 - Daha fazla Excel işlevini desteklemek için gelişmiş formül hesaplama motoru
 - Excel dosyalarını yüklerken optimize edilmiş performans
-- Dosyaları SpreadsheetML olarak dışa aktarmak için bir hata düzeltildi
+- Dosyaları SpreadsheetML olarak dışa aktarma hatası düzeltildi
 - Bir grafik TickLabel ayar hatası düzeltildi
 - Çok sayıda yorum ekleme ve liste doğrulama hatası düzeltildi

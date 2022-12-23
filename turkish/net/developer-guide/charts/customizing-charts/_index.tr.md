@@ -12,7 +12,7 @@ url: /tr/net/customizing-charts/
 
 Geliştiriciler, Aspose.Cells'i kullanarak çalışma zamanında özel grafikler oluşturabilir.
 
- Grafik, bir veri serisinden oluşur. Aspose.Cells'deki her veri serisi, bir[**Diziler**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) nesne oysa[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesne koleksiyonu olarak hizmet eder[**Diziler**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)nesneler. Geliştiriciler, özel bir grafik oluştururken, farklı veri serileri için farklı türde grafikler kullanma özgürlüğüne sahiptir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)nesne).
+ Grafik, bir veri serisinden oluşur. Aspose.Cells'deki her veri serisi, bir[**Dizi**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) nesne oysa[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) nesne koleksiyonu olarak hizmet eder[**Dizi**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)nesneler. Geliştiriciler, özel bir grafik oluştururken, farklı veri serileri için farklı türde grafikler kullanma özgürlüğüne sahiptir.[**Seri Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)nesne).
 
 Aşağıdaki örnek kod, özel grafiklerin nasıl oluşturulacağını gösterir. Bu örnekte, birinci veri serisi için bir sütun grafiği ve ikinci seri için bir çizgi grafiği kullanacağız. Sonuç olarak, çalışma sayfasına bir çizgi grafiğiyle birlikte bir sütun grafiği ekliyoruz.
 

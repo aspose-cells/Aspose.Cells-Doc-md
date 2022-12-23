@@ -32,7 +32,7 @@ Aspose.Cells.GridWeb'e çalışma sayfası eklemenin en basit yolu, GridWeb dene
 
 **Çıktı: GridWeb'e varsayılan ada sahip bir çalışma sayfası eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithoutSpecificName-AddingWorksheetWithoutSpecificName.jsp" >}}
 
@@ -42,7 +42,7 @@ Varsayılan adlandırma şemasını kullanmak yerine GridWeb denetimine belirli 
 
 **Çıktı: Belirtilen ada sahip bir çalışma sayfası GridWeb'e eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingWorksheetWithSpecificName-AddingWorksheetWithSpecificName.jsp" >}}
 
@@ -73,13 +73,13 @@ Kodu çalıştırmadan önce, çalışma sayfasının Sayfa1 gibi varsayılan bi
 
 **Giriş dosyası: varsayılan adı Sheet1 olan bir çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_3.png)
 
 Kodu çalıştırdıktan sonra, çalışma sayfası Fatura olarak yeniden adlandırılır.
 
 **Çıktı: çalışma sayfasının adı Fatura olarak değiştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-RenamingWorksheet-RenamingWorksheet.jsp" >}}
 
@@ -138,7 +138,7 @@ Bu konuda, çalışma sayfalarına yorum ekleme, çalışma sayfalarına erişme
 
 **Çalışma sayfasına bir yorum eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_5.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-AddingComments-AddingComments.jsp" >}}
 
@@ -177,7 +177,7 @@ Aşağıdaki köprüler Aspose.Cells.GridWeb tarafından desteklenir:
 
  Aşağıdaki örnek, bir çalışma sayfasına iki köprü ekler. biri var_ diğeri ayarlıyken boş hedef_ebeveyn.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_6.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_6.png)
 
 **Çıktı: çalışma sayfasına eklenen metin köprüleri**
 
@@ -187,7 +187,7 @@ Aşağıdaki köprüler Aspose.Cells.GridWeb tarafından desteklenir:
 
 Aşağıdaki örnek, bir çalışma sayfasına resim URL köprüsü ekler.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_7.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_7.png)
 
 **Çıktı: çalışma sayfasına eklenen görüntü köprüsü**
 
@@ -213,13 +213,13 @@ Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
 
 **Giriş: sıralanmamış veriler** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_8.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_8.png)
 
 Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
 
 **Çıktı: veriler yukarıdan aşağıya artan sırada sıralanır** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_9.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromtoptobottomascendingorder-datasortedfromtoptobottomascendingorder.jsp" >}}
 
@@ -237,13 +237,13 @@ Kodu uygulamadan önce, çalışma sayfası sıralanmamış veriler içerir.
 
 **Girdi: kod parçacığını yürütmeden önce sıralanmamış veriler** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_10.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_10.png)
 
 Kodu çalıştırdıktan sonra, veriler artan düzende sıralanır.
 
 **Çıktı: artan düzende soldan sağa sıralanmış veriler** 
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_11.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-worksheets-datasortedfromleftrightascendingorder-datasortedfromleftrightascendingorder.jsp" >}}
 
@@ -258,15 +258,15 @@ Bul/Değiştir iletişim kutusunu açmanın iki yolu vardır:
 1.  Kontrol aktifken, basın**CTRL+F** iletişim kutusunu açmak için veya tuşuna basın.**CTRL+R** diyalog kutusunu açmak için tuşu**Yer değiştirmek** düğme etkinleştirildi.
 1.  İmleci çalışma sayfasındaki hücre alanına getirin, ardından sağ tıklayın. Seçme**Bulmak** veya**Yer değiştirmek** menüden.
 
-**Bul'u Seçmek**
+**Bul'u Seçme**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_12.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_12.png)
 
 Bir bul ve değiştir iletişim kutusu görüntülenir.
 
 **Bul/Değiştir iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_Metin](working-with-worksheets-gridweb_13.png)
+![yapılacaklar:resim_alternatif_metin](working-with-worksheets-gridweb_13.png)
 
 **Bul'u Kullanma**
 
@@ -288,7 +288,7 @@ Arama kriteriniz bulunamazsa, bunu size söylemek için bir iletişim kutusu gö
 
 İletişim kutusunda özelleştirebileceğiniz bazı arama seçenekleri vardır. Aşağıdaki tablo bunları listeler.
 
-|**Numara.**|**Seçenek Adı**|**Tanım**|
+|**Numara.**|**Seçenek Adı**|**Açıklama**|
 |:- |:- |:- |
 |1|Maç durumu|Aramada büyük/küçük harf duyarlılığının kullanılıp kullanılmayacağını gösterir.|
 |2|Tüm kelimeyi eşleştir|Aramada kelimenin tamamıyla eşleşip eşleşmeyeceğini belirtir.|
@@ -301,13 +301,13 @@ Arama kriteriniz bulunamazsa, bunu size söylemek için bir iletişim kutusu gö
 Metni veya değerleri değiştirmek için:
 
 1.  düğmesine basarak Bul/Değiştir iletişim kutusunu açın.**CTRL+F** veya bir hücreyi sağ tıklayıp seçin**Bulmak** tıklamadan önce**Yer değiştirmek**.
-1.  Değiştirme dizesini şuraya yazın:**İle değiştirin**alan.
+1.  Değiştirme dizesini şuraya yazın:**Şununla değiştir**tarla.
 1.  Tıklamak**Yer değiştirmek**.
 
 Metni değiştirmek için:
 
 1. İletişim kutusunu açın.
-1.  Bulmak istediğiniz metni girin**Ne buldun** alan ve onu değiştirmek istediğiniz metin**İle değiştirin** alan.
+1.  Bulmak istediğiniz metni girin**Ne buldun** alan ve onu değiştirmek istediğiniz metin**Şununla değiştir** tarla.
 1.  Tıklayarak her seferinde bir oluşumu değiştirin**Sonraki Bul** bunu takiben**Yer değiştirmek**.
 1.  Çalışma sayfasının ne içerdiğinden çok eminseniz, tıklayın.**Hepsini değiştir**.
 

@@ -5,7 +5,7 @@ weight: 220
 url: /fr/net/working-with-the-shadow-effect-of-shape-or-chart/
 ---
 ## **Scénarios d'utilisation possibles**
- Aspose.Cells fournit le[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect) propriété avec[EffetOmbre](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect) classe pour travailler avec l'effet d'ombre de la forme ou du graphique. La[EffetOmbre](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
+ Aspose.Cells fournit le[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect) propriété avec[EffetOmbre](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect) classe pour travailler avec l'effet d'ombre de la forme ou du graphique. Le[EffetOmbre](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
 
 - [Angle](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/angle)
 - [Se brouiller](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/blur)

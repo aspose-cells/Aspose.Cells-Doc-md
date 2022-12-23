@@ -20,8 +20,8 @@ url: /tr/net/aspose-cells-for-net-7-2-1-release-notes/
 
  Geliştirmeler
 
-- Şekillerin satırları, PDF'ye dönüştürüldükten sonra yanlış dosyalanıyor
-- Bir XLSM dosyasını XLS formatına kaydettikten sonra makro kayboldu
+- PDF'e dönüştürüldükten sonra şekillerin satırları yanlış dosyalanıyor
+- XLSM dosyasını XLS biçiminde kaydettikten sonra makro kayboldu
 - Liste kutusu seçenekleri birbiriyle örtüşüyor
 - Aspose.Cells, Workbook.Save() yöntemini çağırdıktan sonra XLSM dosyasını bozuyor
 - Bileşen, çalışma kitabı XML'sinin CalcPr düğümünün özelliklerini yok eder
@@ -35,7 +35,7 @@ url: /tr/net/aspose-cells-for-net-7-2-1-release-notes/
 
 - Desteklenmeyen işlevi atan GetNamedRanges() yöntemi
 - İstisna: Geçersiz IMEModeType dize değeri
-- SharePoint'ten bir XLSX Elektronik Tablosu yüklenirken istisna
+- SharePoint'ten XLSX Elektronik Tablosu yüklenirken istisna
 - NullReferenceException'ı atan GetNamedRanges() yöntemi
 - .xlsm girdi dosyasıyla başlatılırken istisna
 - Karmaşık formül(ler) içeren bir belge açılamıyor
@@ -55,7 +55,7 @@ url: /tr/net/aspose-cells-for-net-7-2-1-release-notes/
 
 - MS Excel grafiklerinde DataTable ile ilgili sorun
 - MS Excel ve PDF arasındaki grafiğin görünümündeki farklılıklar
-- Excel 97-2003'ü PDF'ye Dönüştürme
+- Excel 97- 2003'ü PDF'e dönüştürme
 
  -Aspose.Cells, Kaydet'i iki kez çağırdıktan sonra XLSM dosyasını bozuyor
 
@@ -76,7 +76,7 @@ url: /tr/net/aspose-cells-for-net-7-2-1-release-notes/
  -Adlandırılmış Aralıklar sorunu
 
 - Aspose.Cells Pivot Tablolar içeren Excel dosyalarını bozuyor
-- XLSX'ten PDF'e dönüştürme sorunları
+- XLSX - PDF dönüştürme sorunları
 
  -Aspose.Cells, Tarih değerini yanlış işler
 

@@ -70,19 +70,19 @@ url: /ja/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44139) - CalculateFormula() メソッドを呼び出す前後で同じセルの値が異なる
 
-(CELLSNET-44135) - Excel ファイルが PDF 生成前に (グラフに関して) 正しく (完全に) 計算されない
+(CELLSNET-44135) - Excel ファイルは、PDF 生成前に (グラフに関して) 適切に (完全に) 計算されません
 
 (CELLSNET-44138) - Cell シェーディングが境界線に重なり、境界線が細くなる
 
-(CELLSNET-44136) - Excel の印刷プレビューで 1 ページが表示され、Aspose.Cells が PDF ページにレンダリングされます
+(CELLSNET-44136) - Excel の印刷プレビューで 1 ページが表示され、Aspose.Cells が PDF ページにレンダリングされる
 
 (CELLSNET-44122) - シート内の画像が元のテンプレート Excel ファイルと同じようにレンダリングされない
 
-(CELLSNET-43587) - スプレッドシートを PDF に変換中に、Cell 領域が Cell 境界線と重なる
+(CELLSNET-43587) - スプレッドシートを PDF に変換する際に、Cell の領域が Cell の境界線と重なる
 
 (CELLSNET-44171) - 範囲間の CopyData は水平方向には機能しませんが、垂直方向には正常に機能します
 
-(CELLSNET-44153) - XLSB から XLSM への変換が正しく機能せず、破損したファイルが生成される
+(CELLSNET-44153) - XLSB から XLSM が正しく動作せず、破損したファイルが生成される
 
 (CELLSNET-44149) - XLSB から XLSM への変換後に OleObjects が削除される
 
@@ -94,7 +94,7 @@ url: /ja/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44160) - 横軸が初期ファイルとは異なるラベルに変更されました
 
-(CELLSNET-44157) - テンプレート XLSX ファイルを開いて再保存すると、カスタム チャートのプライマリ x 軸が変更されます。
+(CELLSNET-44157) - テンプレート XLSX ファイルを開いて再保存した後、カスタム グラフのプライマリ x 軸が変更されました。
 
  (CELLSNET-43910) - ワークシートから画像を抽出してドキュメント ファイルに挿入すると、画像が不完全になる
 
@@ -106,21 +106,21 @@ url: /ja/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44089) - PivotTable.CalculateData での System.IndexOutOfRangeException
 
- (CELLSNET-44064) - ソース xlsm で CalculateFormula が例外をスローする
+(CELLSNET-44064) - ソース xlsm で CalculateFormula が例外をスローする
 
 (CELLSNET-44055) - Aspose.Cell.メモリ設定が原因で PDF 変換が原因で例外が発生する
 
-(CELLSNET-44179) - HTML ファイル (XSLT から作成) の読み込み中に例外が発生する
+(CELLSNET-44179) - HTML ファイル (XSLT から作成) のロード中に例外が発生する
 
 (CELLSNET-44145) - WorkbookMetadata ctor での System.NullReferenceException
 
  (CELLSNET-44143) - XLSX のロード中に Workbook ctor で例外が発生する
 
-(CELLSNET-44142) - XLS で Workbook のインスタンスを作成するときの IndexOutOfBoundsException
+(CELLSNET-44142) - XLS で Workbook のインスタンスを作成すると IndexOutOfBoundsException が発生する
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -164,7 +164,7 @@ TxtLoadOptions.HasFormula プロパティを追加します。
 
 
 
- Proptection.IsProtectedWithPassword プロパティを追加します。
+Proptection.IsProtectedWithPassword プロパティを追加します。
 
 ワークシートがパスワードで保護されているかどうかを示します。
 

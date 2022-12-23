@@ -21,6 +21,6 @@ $workbook->save($dataDir . "OutBook1.html", $saveFormat->HTML);
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Conversione di file Excel in HTML (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Conversione di file Excel in HTML (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingExcelFilesToHtml.php)

@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /fr/reportingservices/performance/
 ---
- Pour améliorer les performances, définissez le paramètre Performance sur**SUR**.
+ Pour améliorer les performances, définissez le paramètre Performance sur**AU**.
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **IsAutoRowFitIsAutoRowFit** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur de IsAutoRowFit est**faux**par défaut. Lorsque la valeur du paramètre de performance est**sur** , la valeur est**vrai** par défaut. Lorsque la valeur de Performance est**sur** , un rapport de sous-élément peut réinitialiser le rapport de points à la valeur AutoRowFit.
+- **IsAutoRowFitIsAutoRowFit** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur de IsAutoRowFit est**faux** par défaut. Lorsque la valeur du paramètre de performance est**au** , la valeur est**vrai** par défaut. Lorsque la valeur de Performance est**au** , un rapport de sous-élément peut réinitialiser le rapport de points à la valeur AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **EstFusionné** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur par défaut de IsMerged est**faux** . Lorsque la valeur de Performance est**sur** , La valeur par défaut est**vrai** . Lorsque la valeur du paramètre Performance est**sur** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
+- **EstFusionné** : Lorsque la valeur de Performance est**à l'arrêt** , la valeur par défaut de IsMerged est**faux** . Lorsque la valeur de Performance est**au** , La valeur par défaut est**vrai** . Lorsque la valeur du paramètre Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -89,7 +89,7 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **IsSetStyle** : Lorsque la valeur de Performance est**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**sur** , La valeur par défaut est**vrai** . De même, lorsque Performance est**sur** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
+- **IsSetStyle** : Lorsque la valeur de Performance est**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**au** , La valeur par défaut est**vrai** . De même, lorsque Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -114,7 +114,7 @@ Les différents paramètres de performance sont les suivants :
 
 
 
-- **EstFormatageConditionnel** : Lorsque les performances sont**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**sur** , La valeur par défaut est**vrai** . De même, lorsque Performance est**sur** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit. Lorsque la valeur du paramètre IsSetStyle est définie sur**faux** , la valeur de Performance n'est pas valide.
+- **EstFormatageConditionnel** : Lorsque les performances sont**à l'arrêt** , La valeur par défaut est**faux** . Lorsque les performances sont**au** , La valeur par défaut est**vrai** . De même, lorsque Performance est**au** , un rapport de sous-éléments peut réinitialiser le rapport de point sur la valeur AutoRowFit. Lorsque la valeur du paramètre IsSetStyle est définie sur**faux** , la valeur de Performance n'est pas valide.
 
 {{< highlight "java" >}}
 

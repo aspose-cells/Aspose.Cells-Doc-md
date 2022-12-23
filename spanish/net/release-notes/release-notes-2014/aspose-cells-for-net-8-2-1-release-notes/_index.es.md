@@ -34,15 +34,15 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42941): genera un error de contenido ilegible en el archivo XLSM
 
-(CELLSNET-42933): no se pueden evitar las etiquetas de fila cuando se crea un pivote con aspose.
+ (CELLSNET-42933): no se pueden evitar las etiquetas de fila cuando se crea un pivote con aspose.
 
  (CELLSNET-42857): el archivo se corrompe al abrirlo y guardarlo
 
  (CELLSNET-42816) - El cuadro de texto diagonal aparece en horizontal cuando la hoja de cálculo se convierte a PDF
 
- (CELLSNET-42815): el cuadro de texto diagonal aparece en horizontal cuando la hoja de cálculo se convierte a HTML
+ (CELLSNET-42815) - El cuadro de texto diagonal aparece en horizontal cuando la hoja de cálculo se convierte a HTML
 
- (CELLSNET-42676) - El grosor de las líneas de flecha del diagrama de visio es incorrecto en el pdf de salida
+(CELLSNET-42676) - El grosor de las líneas de flecha del diagrama de visio es incorrecto en el pdf de salida
 
  (CELLSNET-41568) - Excel a imagen con forma girada no se representa correctamente
 
@@ -50,15 +50,15 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42802): problema de representación gráfica al convertir Xls a PDF
 
- (CELLSNET-42980): salto de página incorrecto al procesar la hoja de cálculo en PDF
+ (CELLSNET-42980): salto de página incorrecto al representar la hoja de cálculo en PDF
 
- (CELLSNET-42979): extensión no deseada del borde al representar una hoja de cálculo en PDF
+ (CELLSNET-42979): extensión no deseada del borde al representar la hoja de cálculo en PDF
 
- (CELLSNET-42970): la operación de adición en el pie de página de Excel no funciona en la representación de PDF
+ (CELLSNET-42970): la operación de adición en el pie de página de Excel no funciona en la representación PDF
 
  (CELLSNET-42936) - Impresión en ambos lados de la página
 
-(CELLSNET-42938): hipervínculos para las formas perdidas en el formato de archivo PDF renderizado
+ (CELLSNET-42938): hipervínculos para las formas perdidas en el formato de archivo renderizado PDF
 
  (CELLSNET-42966): contenido ilegible después de abrir y guardar el archivo xlsx
 
@@ -66,15 +66,15 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42946) - El valor de la celda L45 es incorrecto después de calcular la fórmula
 
- (CELLSNET-42943): limitación de Excel con respecto al recuento de hipervínculos en Aspose.Cells
+(CELLSNET-42943): limitación de Excel con respecto al recuento de hipervínculos en Aspose.Cells
 
  (CELLSNET-42934) - Referencias de rango de nombre y tipo de gráfico de dispersión de lectura incorrecta
 
- (CELLSNET-42926): el pie de página no es correcto al convertir un documento de SpreadsheetML
+ (CELLSNET-42926): el pie de página no es correcto al convertir del documento SpreadsheetML
 
  (CELLSNET-42837) - Mostrar tabla de datos con clave de leyenda de chat
 
- (CELLSNET-41129): el logotipo desapareció en el archivo PDF de salida
+ (CELLSNET-41129): el logotipo desapareció en el archivo de salida PDF
 
  (CELLSNET-42986): fórmula incorrecta copiada en celdas al insertar filas en tablas
 
@@ -84,7 +84,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42940) - Hipervínculo en PDF de XLS
 
-(CELLSNET-42738) - La línea suavizada en el gráfico de dispersión contiene bucles
+ (CELLSNET-42738) - La línea suavizada en el gráfico de dispersión contiene bucles
 
  (CELLSNET-42739) - La imagen del gráfico de dispersión muestra marcadores de cuadrícula del eje X incorrectos
 
@@ -94,7 +94,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42929) - IndexOutOfRangeException lanzada en PivotTable.CalculateData
 
- (CELLSNET-42213): conversión de un archivo XLS que contiene una forma con un fondo degradado a PDF
+(CELLSNET-42213): conversión de un archivo XLS que contiene una forma con un fondo degradado a PDF
 
  (CELLSNET-42962): excepción en Workbook.RemoveExternalLinks()
 

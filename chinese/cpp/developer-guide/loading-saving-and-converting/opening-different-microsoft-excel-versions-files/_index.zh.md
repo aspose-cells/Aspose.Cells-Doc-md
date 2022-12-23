@@ -18,19 +18,19 @@ Aspose.Cells 可以打开一系列不同的 Microsoft Excel 版本文件，例�
 
 |**文件格式类型**|**描述**|
 |:- |:- |
-|文件格式类型_CSV|表示 CSV 文件|
+|文件格式类型_CSV|代表一个CSV文件|
 |文件格式类型_Excel97To2003|表示 Excel 97 - 2003 文件|
 |文件格式类型_Xlsx|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 XLSX 文件|
 |文件格式类型_Xlsm|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 XLSM 文件|
 |文件格式类型_Xltx|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 模板 XLTX 文件|
 |文件格式类型_Xltm|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 启用宏的 XLTM 文件|
 |文件格式类型_Xlsb|表示 Excel 2007/2010/2013/2016/2019 和 Office 365 二进制 XLSB 文件|
-|FileFormatType_SpreadsheetML|表示 SpreadsheetML 文件|
+|FileFormatType_SpreadsheetML|代表一个SpreadsheetML文件|
 |文件格式类型_Tsv|表示制表符分隔值文件|
 |FileFormatType_TabDelimited|表示制表符分隔的文本文件|
-|文件格式类型_Ods|表示一个 ODS 文件|
-|文件格式类型_Html|表示一个 HTML 文件|
-|文件格式类型_MHtml|表示一个 MHTML 文件|
+|文件格式类型_Ods|代表一个ODS文件|
+|文件格式类型_Html|代表一个HTML文件|
+|文件格式类型_MHtml|代表一个MHTML文件|
 
 ### **打开 Microsoft Excel 95/5.0 文件**
 

@@ -10,25 +10,25 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43396|La conversion d'une feuille Excel en fichier texte supprime le guillemet simple du début|
 |CELLSJAVA-43386|Le tri ne fonctionne pas lorsque les données contiennent des caractères non alphanumériques|
 |CELLSJAVA-43452|Le calendrier japonais utilisant une fonction Excel n'est pas lu correctement|
 |CELLSJAVA-43466|CellsException : erreur pour ZipFile lors de l'importation de ods|
-|CELLSJAVA-43403|Placement du texte décalé vers la gauche lors de l'enregistrement au format HTML|
+|CELLSJAVA-43403|Placement du texte décalé vers la gauche lors de l'enregistrement sous HTML|
 |CELLSJAVA-43421|Les caractères d'échappement et de saut de ligne ne sont pas correctement rendus lors de la conversion de HTML en Excel|
 |CELLSJAVA-43427|Format conditionnel avec barres de données Afficher les valeurs dans l'exportation HTML|
-|CELLSJAVA-43428| Le format comptable combiné à une police de 6 points déforme les nombres en HTML|
-|CELLSJAVA-43429|Le texte avec alignement vertical du texte disparaît en HTML|
+|CELLSJAVA-43428| Le format comptable combiné à la police 6 points déforme les chiffres en HTML|
+|CELLSJAVA-43429|Le texte avec alignement vertical du texte disparaît dans HTML|
 |CELLSJAVA-43407|Les formules Excel sont ignorées/modifiées après l'enregistrement du fichier|
-|CELLSJAVA-43419| Le format numérique personnalisé ne s'affiche pas correctement dans le PDF|
+|CELLSJAVA-43419| Le format de nombre personnalisé ne s'affiche pas correctement dans PDF|
 |CELLSJAVA-43374|Les étiquettes de graphique se répètent lors de la conversion des fichiers Excel joints en PDF|
 |CELLSJAVA-43409| Des étiquettes de données inattendues sont apparues dans l'image de sortie du graphique|
 |CELLSJAVA-43411|Les avertissements de substitution de police ne fonctionnent pas dans la conversion de graphique en image|
 |CELLSJAVA-43414|Problème de conversion xls vers pdf|
 |CELLSJAVA-43425|En-tête-pied de page non disponible sur la première page lors de l'exportation vers Excel|
-|CELLSJAVA-43433|L'image référencée n'est pas rendue au format PDF|
+|CELLSJAVA-43433|L'image référencée n'est pas rendue dans PDF|
 |CELLSJAVA-43434|La formule dynamique SmartMarker a un mauvais style de cellule en expansion|
 |CELLSJAVA-43435| La formule dynamique des marqueurs intelligents insère des cellules en fonction de la colonne développée à gauche, mais pas en fonction des colonnes de la formule|
 |CELLSJAVA-43450|Problème d'actualisation du tableau croisé dynamique|
@@ -38,7 +38,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43457|Boucle infinie lors de l'enregistrement du classeur copié|
 |CELLSJAVA-43442|Problème avec le tri des données lors du clic sur les liens d'en-tête dans la démo du printemps GridWeb|
 |CELLSJAVA-43443|Problème avec le mode d'édition dans le GridWeb Java|
-|CELLSJAVA-43455|Les polices ne sont pas incorporées dans le PDF pour les caractères non ASCII lors de la définition de EmbedStandardWindowsFonts sur false|
+|CELLSJAVA-43455|Les polices ne sont pas incorporées dans PDF pour les caractères non ASCII lors de la définition de EmbedStandardWindowsFonts sur false|
 |CELLSJAVA-43449|Impossible de modifier la famille de polices des éléments de graphique de "Calibri" à "Aktiv Grotesk"|
 |CELLSJAVA-43454|Les étiquettes de l'axe X sont coupées|
 |CELLSJAVA-43445|Régression : données de ligne manquantes pour les fichiers .numbers|
@@ -50,13 +50,13 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43491|La valeur de la formule utilisant la table de données ne peut pas être extraite correctement|
 |CELLSJAVA-43498|Le résultat formaté de la valeur numérique est incorrect pour les paramètres régionaux zh_CN|
 |CELLSJAVA-43451|Le contenu du fichier Excel ne s'affiche pas correctement et la démo ChangeStyle (printemps) ne fonctionne pas correctement|
-|CELLSJAVA-43484|La mise en page du contenu est incohérente dans le rendu Excel vers PDF|
+|CELLSJAVA-43484|La mise en page du contenu est incohérente dans Excel avec le rendu PDF|
 |CELLSJAVA-43465|Manque quelques séries de graphiques lors de la conversion d'Excel en PDF|
-|CELLSJAVA-43468|Problème avec l'équation de la ligne droite dans le rendu Excel vers PDF|
+|CELLSJAVA-43468|Problème avec l'équation de la ligne droite dans Excel au rendu PDF|
 |CELLSJAVA-43432|Le contenu du graphique ne correspond pas lors de la ré-enregistrement d'un format de fichier XLS|
 |CELLSJAVA-43475|Régression : les cellules entourées de lignes sont coupées|
-|CELLSJAVA-43478|Régression : NUMBERS en PDF, beaucoup de données manquantes|
-|CELLSJAVA-43485|Régression : contenu supplémentaire lors du rendu d'un PDF à partir d'ODS|
+|CELLSJAVA-43478|Régression : NUMBERS jusqu'à PDF, beaucoup de données manquantes|
+|CELLSJAVA-43485|Régression : contenu supplémentaire lors du rendu PDF à partir de ODS|
 |CELLSJAVA-43492| La conversion d'un fichier XML (SpreadsheetML) supprime le paramètre Masqué dans "Définition du nom" dans la sortie XLS et XLSX|
 |CELLSJAVA-43417|Exception déclenchée lors de l'ouverture de XLSX à partir d'un fichier volumineux|
 |CELLSJAVA-43431|java.lang.NullPointerException levée lors de l'appel de Cells.deleteColumn() avec la dernière version 21.3 alors qu'elle fonctionne avec 21.2|
@@ -65,7 +65,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43447| L'exception "java.lang.NullPointerException" s'est produite lors de l'utilisation d'un fichier de style personnalisé dans GridWeb|
 |CELLSJAVA-43439|NegativeArraySizeException se produit lors du chargement du classeur|
 |CELLSJAVA-43453|NullPointerException sur la méthode Workbook.save|
-|CELLSJAVA-43486|NullPointerException lors de la conversion d'un document HTML en un classeur|
+|CELLSJAVA-43486|NullPointerException lors de la conversion d'un document HTML en classeur|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

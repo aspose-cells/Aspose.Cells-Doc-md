@@ -12,13 +12,13 @@ Quando un tale carattere si trova all'interno di una parola o frase che si trova
 
 Tuttavia, questo è un comportamento indesiderabile per alcuni utenti e desiderano solo che il carattere del carattere specifico debba essere cambiato invece di cambiare il carattere dell'intera parola o frase.
 
- Per far fronte a questo problema, Aspose.Cells fornisce[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) proprietà che deve essere impostata**VERO**in modo che venga modificato solo il carattere del carattere specifico che non è visualizzabile e il carattere per il resto della parola o della frase rimanga lo stesso.
+ Per far fronte a questo problema, Aspose.Cells fornisce[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) proprietà che deve essere impostata**VERO** in modo che venga modificato solo il carattere del carattere specifico che non è visualizzabile e il carattere per il resto della parola o della frase rimanga lo stesso.
 
 {{% /alert %}}
 
 ## **Esempio**
 
- Lo screenshot seguente confronta i due PDF di output generati dal codice di esempio riportato di seguito. Uno è stato generato senza impostazione[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) property e l'altra è stata generata dopo aver impostato il file[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) proprietà a**VERO**. Come puoi vedere nel primo PDF, il carattere dell'intera frase è cambiato da Times New Roman ad Arial Unicode MS a causa di Non-Breaking Hyphen. Mentre nel secondo PDF, è cambiato solo il font di Un-Breaking Hyphen.
+ Lo screenshot seguente confronta i due PDF di output generati dal codice di esempio riportato di seguito. Uno è stato generato senza impostazione[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) property e l'altra è stata generata dopo aver impostato il file[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) proprietà a**VERO**. Come puoi vedere nel primo PDF, il carattere dell'intera frase è cambiato da Times New Roman ad Arial Unicode MS a causa di Non-Breaking Hyphen. Mentre nel secondo PDF è cambiato solo il font di Un-Breaking Hyphen.
 
 ![cose da fare:immagine_alt_testo](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 

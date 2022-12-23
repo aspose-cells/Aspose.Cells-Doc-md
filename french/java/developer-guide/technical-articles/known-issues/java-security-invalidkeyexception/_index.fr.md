@@ -4,9 +4,9 @@ type: docs
 weight: 10
 url: /fr/java/java-security-invalidkeyexception/
 ---
-## **Sommaire**
+## **Résumé**
 Par défaut, l'AES prend en charge une clé de 128 bits, si vous prévoyez d'utiliser une clé de 192 ou 256 bits, le compilateur Java lancera une exception de taille de clé illégale. Cela n'est pas dû à un bogue de Aspose.Cells API, mais plutôt à la fonctionnalité limitée de JDK/JRE lui-même. Les fichiers de stratégie par défaut de JDK/JRE sont paralysés en raison des restrictions d'importation dans certains pays. Les utilisateurs doivent obtenir les fichiers de stratégie "Unlimited Strength" et les installer dans leur JRE pour utiliser la fonctionnalité de cryptographie avancée pour le chiffrement/déchiffrement.
-## **Les symptômes**
+## **Symptômes**
  Vous pouvez obtenir java.security.InvalidKeyException : taille de clé illégale ou paramètres par défaut ou java.security.InvalidKeyException : taille de clé illégale lors du chargement d'une feuille de calcul protégée.
 ## **La solution**
 La solution est en fait très simple comme détaillé ci-dessous.

@@ -9,7 +9,7 @@ url: /tr/net/working-with-aspose-cells-griddesktop-events/
 Olaylar, bir kontrolde veya sınıfta bir değişiklik meydana geldiğinde bildirim göndermek için kullanılır. Aspose.Cells.GridDesktop, denetimde belirli değişiklikler meydana geldiğinde belirli görevleri gerçekleştirmek için kullanılan çeşitli olaylara sahiptir. Bu konu, Aspose.Cells.GridDesktop denetimi tarafından desteklenen tüm olaylara bir giriş sağlar ve bu olayların nasıl işlenebileceğini açıklar.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 Aspose.Cells.GridDesktop kontrolü, belirli olaylar tetiklendiğinde işlemlerin gerçekleştirilmesi için daha fazla kontrol sağlayan birkaç olayı destekler. Aspose.Cells.GridDesktop denetimi tarafından desteklenen olayların tam listesi aşağıdadır.
 
 {{% alert color="primary" %}} 
@@ -18,7 +18,7 @@ Bu liste, Control sınıfından Aspose.Cells.GridDesktop tarafından devralınan
 
 {{% /alert %}} 
 
-|**Olaylar**|**Tanım**|
+|**Olaylar**|**Açıklama**|
 |:- |:- |
 |Hesaplamadan Önce|Çalışma kitabında formülü hesaplamadan önce oluşur.|
 |DosyaYüklemeden Önce|Çalışma kitabı dosyadan yüklenmeden önce gerçekleşir.|
@@ -46,13 +46,13 @@ Belirli bir olay tetiklendiğinde belirli bir işlemi gerçekleştirmek için bi
 
 **Adım 1: Aspose.Cells.GridDesktop Control Olayını Seçme**
 
-1. Visual Studio'da Aspose.Cells.GridDesktop denetimini seçin ve denetimini açın.**Özellikleri**diyalog
+1. Visual Studio'da Aspose.Cells.GridDesktop denetimini seçin ve denetimini açın.**Özellikler** diyalog
 1.  Tıkla**Olaylar** sekme.
 1.  Bir etkinlik seçin. (bu örnek için,**Hücre Tıklaması** olay seçilir).
 
 **2. Adım: Olay İşleyici Oluşturma**
 
-1.  Seçilen bir olayı çift tıklatın.**Özellikleri**diyalog
+1.  Seçilen bir olayı çift tıklatın.**Özellikler** diyalog
 1. Olay çift tıklandığında, Visual Studio.NET tarafından bir olay işleyicisi oluşturulur. Aşağıda, GridControl Denetimi için bir olayın oluşturulduğunu gösteren, tasarımcı tarafından oluşturulmuş kod yer almaktadır.
 
 

@@ -19,8 +19,8 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Python via .NET 22.1
 |CELLSNET-51952|Die Berechnung von MAXIFS-Formeln dauert lange|
 |CELLSNET-52064|Es ist nicht zulässig, nicht leere Zellen vom Ende des Arbeitsblattfehlers wegzuschieben, wenn die Methode Cells.InsertRows verwendet wird|
 |CELLSNET-52029|Beschriftungen von Legendeneinträgen gemäß den lokalen/regionalen Einstellungen übersetzen|
-|CELLSNET-51419|Der externe Link der Pivot-Tabelle wurde beim Konvertieren der XLS-Datei in XLSM gelöscht|
-|CELLSNET-51984|Die XLSX-Datei mit der PivotTable-Datei ist nach dem erneuten Speichern beschädigt|
+|CELLSNET-51419|Der externe Link der Pivot-Tabelle wurde beim Konvertieren der Datei XLS in XLSM gelöscht|
+|CELLSNET-51984|XLSX Datei mit PivotTable-Datei ist nach erneutem Speichern beschädigt|
 |CELLSNET-51987|Problem mit einigen intelligenten Markierungen (eingefügt) in der PivotTable und im Pivot-Diagramm|
 |CELLSNET-52065|Falsche externe Datenverbindungen beim Konvertieren externer Verbindungen|
 |CELLSNET-52088| Beim Erstellen einer klassischen Pivot-Tabelle wird eine zusätzliche Zeile hinzugefügt|
@@ -29,8 +29,8 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Python via .NET 22.1
 |CELLSNET-52078|Style.SetPatternColor(BackgroundType,Color,Color) wird nicht wirksam|
 |CELLSNET-52105|LightCellsDataHandler.StartSheet(Worksheet) kann das Blatt nicht überspringen, wenn für die xlsb-Vorlagendatei „false“ zurückgegeben wird|
 |CELLSNET-46764|Fehlender Diagrammtitel beim Konvertieren in PDF|
-|CELLSNET-52049|XLSX zu PDF: Text nicht richtig formatiert|
-|CELLSNET-52073|Problem bezüglich der Schriftart Arial Tur in Excel für die PDF-Wiedergabe|
+|CELLSNET-52049|XLSX bis PDF: Text nicht richtig formatiert|
+|CELLSNET-52073|Problem bezüglich der Schriftart Arial Tur in Excel bei der Wiedergabe von PDF|
 |CELLSNET-52083|Einige Zellen mit dem Buchhaltungsnummernformat werden als ##### dargestellt.|
 |CELLSNET-52091|Wenn Sie den Inhalt des Arbeitsblatts auf Schwarzweiß setzen, wird er immer noch in Farbe gedruckt und es werden unnötig Ränder angezeigt|
 |CELLSNET-51972|Arbeitsblätter, die Schaltflächenobjekte enthalten, werden beim Kopieren des Arbeitsblatts nicht richtig erkannt|
@@ -40,10 +40,10 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Python via .NET 22.1
 |CELLSNET-52054| Stilbeschädigung nach dem Speichern und erneuten Öffnen einer Aspose.Cells-generierten Arbeitsmappe|
 |CELLSNET-52056| Problem mit Hyperlink-Duplizierung|
 |CELLSNET-52071| Konvertierung von Excel in XML – Elementnamen werden nicht mit Escapezeichen versehen|
-|CELLSNET-52074|HTML zu XLSX: Fehlender Zellinhalt|
+|CELLSNET-52074|HTML bis XLSX: Fehlender Zellinhalt|
 |CELLSNET-52084|Die Position des Textes "Northwind Traders" ist falsch (der linke Einzugswert wird nicht richtig interpretiert).|
 |CELLSNET-52063|PivotTable.CalculateData hat NullReferenceException verursacht|
 |CELLSNET-51986|Das zweimalige Berechnen der Arbeitsmappe mit aktivierter Berechnungskette verursachte eine Ausnahme|
-|CELLSNET-52081|Das Öffnen einer XLSX-Datei, deren Stile entfernt wurden, löst eine Ausnahme aus|
+|CELLSNET-52081|Beim Öffnen der Datei XLSX, deren Stile entfernt wurden, wird eine Ausnahme ausgelöst|
 |CELLSNET-52044|Ausnahme beim Importieren der Kundendatei in GridWeb|
 |CELLSNET-52002|Beim Versuch, ein ungeschütztes Dokument mit einem Kennwort zu öffnen, wird eine Ausnahme ausgelöst|

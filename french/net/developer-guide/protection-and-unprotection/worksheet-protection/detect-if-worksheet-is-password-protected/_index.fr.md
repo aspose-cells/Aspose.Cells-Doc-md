@@ -10,6 +10,6 @@ Il est possible de protéger séparément les classeurs et les feuilles de calcu
 
 {{% /alert %}}
 
- Aspose.Cells for .NET 8.7.0 a exposé le[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) propriété pour détecter si une feuille de calcul est protégée par un mot de passe ou non. Type booléen[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) retours de propriété**vrai** si[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) est protégé par un mot de passe et**faux** sinon.
+ Aspose.Cells for .NET 8.7.0 a exposé le[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) propriété pour détecter si une feuille de calcul est protégée par un mot de passe ou non. Type booléen[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword) retours de propriété**vrai** si[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) est protégé par un mot de passe et**faux** si non.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-CheckIfPasswordProtected-CheckIfPasswordProtected.cs" >}}

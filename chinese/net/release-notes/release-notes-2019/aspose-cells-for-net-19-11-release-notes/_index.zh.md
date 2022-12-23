@@ -20,8 +20,8 @@ url: /zh/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46905|XLS 文件中保存的链接源没有更改|强化|
 |CELLSNET-46898|3D模型的背景变成蓝色|漏洞|
 |CELLSNET-46314|使用“显示值占总计的百分比”刷新数据透视表时出现问题|漏洞|
-|CELLSNET-46789|CalculateData 方法不能正确处理 PDF 格式|漏洞|
-|CELLSNET-46955|HTML 到 Excel 文件引发异常“项目已添加”|漏洞|
+|CELLSNET-46789|CalculateData 方法不能正确使用 PDF 格式|漏洞|
+|CELLSNET-46955|HTML Excel 文件引发异常“项目已添加”|漏洞|
 |CELLSNET-46987|引用单元格时无法计算公式|漏洞|
 |CELLSNET-46968|间接公式在 MS Excel 中不能正常工作|漏洞|
 |CELLSNET-46991|XLSX 文件已损坏。|漏洞|
@@ -46,7 +46,7 @@ url: /zh/net/aspose-cells-for-net-19-11-release-notes/
 #### **添加 Workbook.ExportXml(string mapName, Stream stream) 方法。**
 将 XML 数据导出到流。
 #### **添加 HtmlSaveOptions.ExportArea 属性**
-获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。将文件保存为 HTML 时，只会导出指定区域。
+获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。保存文件到HTML时只会导出指定区域。
 #### **添加类：DataMashup、PowerQueryFormula、PowerQueryFormulaCollection、PowerQueryFormulaItem 和 PowerQueryFormulaItemCollection**
 获取 DataMashup 中的信息。
 #### **添加 DBConnection.SeverCommand 属性。**

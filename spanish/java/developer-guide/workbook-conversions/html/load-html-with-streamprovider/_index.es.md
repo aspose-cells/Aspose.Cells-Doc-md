@@ -14,7 +14,7 @@ Al cargar html que contiene recursos externos, a menudo nos enfrentamos a los si
 
 {{% /alert %}} 
 
- Este es el código principal que muestra el uso de[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Este es el código principal que muestra el uso de[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

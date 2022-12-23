@@ -5,9 +5,9 @@ weight: 20
 url: /it/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Rimuovere la protezione di un foglio di lavoro**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Giava for Python** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
+ Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java for Python** , chiamata**unprotect_worksheet** metodo di**protezione** modulo.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -45,6 +45,6 @@ print "Worksheet unprotected successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Rimuovere la protezione di un foglio di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Rimuovere la protezione di un foglio di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

@@ -27,7 +27,7 @@ In Windows Entdecker:
 
 1.  Auf der**Werkzeug** Menü, auswählen**Ordneroptionen**.
 1. Klicken Sie im Dialogfeld Ordneroptionen auf die Registerkarte Dateitypen.
-1. Wählen Sie den Dateityp XLS-Erweiterung aus.
+1. Wählen Sie den Erweiterungsdateityp XLS aus.
 1.  Klicken**Fortschrittlich**. 
 Ein Dialogfeld wird angezeigt. Es hat unten drei Optionen.
 1.  Deaktivieren**Bestätigen Sie das Öffnen nach dem Download**.

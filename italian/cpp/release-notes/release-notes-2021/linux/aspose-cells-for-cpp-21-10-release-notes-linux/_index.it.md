@@ -12,7 +12,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 21.10 per Li
 
 Siamo lieti di annunciare il rilascio di Aspose.Cells for C++ 21.10 per Linux.
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-478| Aggiorna il modulo boost per Windows|Miglioramento|
 |CELLSCPP-483| Aggiorna il modulo boost per Linux|Miglioramento|

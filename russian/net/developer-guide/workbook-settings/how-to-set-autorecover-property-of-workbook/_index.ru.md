@@ -6,7 +6,7 @@ url: /ru/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Вы можете использовать Aspose.Cells для установки свойства автоматического восстановления книги. Значение по умолчанию для этого свойства**истинный** . Когда вы установите его**ЛОЖЬ** в книге Microsoft Excel отключает автовосстановление (автосохранение) в этом файле Excel.
+Вы можете использовать Aspose.Cells для установки свойства автоматического восстановления книги. Значение по умолчанию для этого свойства**истинный** . Когда вы установите его**ЛОЖЬ** в книге Microsoft Excel отключает автовосстановление (автосохранение) в этом файле Excel.
 
  Aspose.Cells предоставляет[**Книга.Настройки.Автовосстановление**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) свойство, чтобы включить или отключить эту опцию.
 
@@ -18,7 +18,7 @@ url: /ru/net/how-to-set-autorecover-property-of-workbook/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-SetAutoRecovery-SetAutoRecovery.cs" >}}
 
-## **Выход**
+## **Вывод**
 
 Вот вывод консоли приведенного выше примера кода.
 

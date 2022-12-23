@@ -1,5 +1,5 @@
 ﻿---
-title: Moteur de calcul de formule en xlsx4j
+title: Moteur de calcul de formule dans xlsx4j
 type: docs
 weight: 40
 url: /fr/java/formula-calculation-engine-in-xlsx4j/

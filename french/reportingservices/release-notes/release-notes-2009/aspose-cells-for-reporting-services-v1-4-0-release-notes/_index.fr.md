@@ -24,7 +24,7 @@ Prend en charge Microsoft SQL Server 2008 Reporting Services.
 
  Corrections et améliorations dans Aspose.Cells for Reporting Services 1.4.0
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |4889 | Rendre| Prend en charge les services de rapport MicrosoftSQL Server 2000|
 |6312 | Rendre| Prend en charge les services de rapport MicrosoftSQL Server 2008|

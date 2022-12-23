@@ -6,7 +6,7 @@ url: /tr/jasperreports/product-overview/
 ---
 {{% alert color="primary" %}}
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_1.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
 
 ### **Aspose.Cells for JasperReports Dokümantasyona hoş geldiniz!**
 
@@ -18,10 +18,10 @@ url: /tr/jasperreports/product-overview/
 
 Aspose.Cells for JasperReports, raporları JasperReports ve JasperServer'dan Microsoft Excel dosya biçimlerine aktarmayı kolaylaştıran esnek bir çözümdür. Tüm rapor özellikleri, en yüksek hassasiyetle Microsoft Excel elektronik tablolarına dönüştürülür.
 
-Orijinal POI tabanlı Micrsofot Excel dışa aktarıcı tarafından sağlanan işlevselliğin yanı sıra, bu bileşen bazı değerli özellikler sağlar. XLS'ye ihracatla ilgili başlıca yenilikler şunları içerir:
+Orijinal POI tabanlı Micrsofot Excel dışa aktarıcı tarafından sağlanan işlevselliğin yanı sıra, bu bileşen bazı değerli özellikler sağlar. XLS'e ihracat ile ilgili önemli yenilikler şunları içerir:
 
 - Statik resimler yerine Microsoft Excel formatında düzenlenebilir grafikler sağlayın.
 
 **Aspose.Cells for JasperReports kullanılarak örnek bir rapor oluşturulur** 
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_2.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_2.png)

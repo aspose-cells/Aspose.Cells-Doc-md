@@ -14,7 +14,7 @@ Il file di origine utilizzato nel seguente frammento di codice è allegato come 
 
 [File sorgente](ODataSample.xlsx)
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-GetOdataDetails-1.java" >}}
 

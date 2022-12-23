@@ -13,7 +13,7 @@ url: /ja/java/aspose-cells-for-java-20-7-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43221|XLT ファイルのロード時の例外「java.lang.NullPointerException」|強化|
-|CELLSJAVA-43222|XLS ファイルをロードするときの例外「com.aspose.cells.CellsException: 数式データが壊れている必要があります....」|強化|
+|CELLSJAVA-43222|XLS ファイルをロードするときの例外「com.aspose.cells.CellsException: 式データが壊れている必要があります....」|強化|
 |CELLSJAVA-43223|XLS ファイルのロード時の例外「java.lang.IllegalStateException: Invalid encoding: null」|強化|
 |CELLSJAVA-43226|画像のデータを取得するときの例外「java.lang.ArrayIndexOutOfBoundsException」|強化|
 |CELLSJAVA-43234|2014 年より前のデータはピボット テーブルから読み取られません|バグ|
@@ -22,7 +22,7 @@ url: /ja/java/aspose-cells-for-java-20-7-release-notes/
 |CELLSJAVA-43219|数式参照を別のシートに追加すると、Excel ワークブックが破損する|バグ|
 |CELLSJAVA-43232|ROUNDUP 関数の問題|バグ|
 |CELLSJAVA-43243|隣接セルの数式を変更中に数式を取得できませんでした|バグ|
-|CELLSJAVA-43217|XLSX を XPS に印刷すると、背景の書式設定が失われる|バグ|
+|CELLSJAVA-43217|XLSX から XPS を印刷すると、背景の書式設定が失われます|バグ|
 |CELLSJAVA-43224|物理プリンターへの印刷中の問題|バグ|
 |CELLSJAVA-43241|Excel 領域から画像を作成する際の行の高さと境界線の問題|バグ|
 |CELLSJAVA-43209|SmartMarkers の使用中に setRepeatFormulaWithSubtotal(true) が期待される結果を生成しない|バグ|

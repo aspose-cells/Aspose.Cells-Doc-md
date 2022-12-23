@@ -19,7 +19,7 @@ El filtrado automático es la forma más rápida de seleccionar solo los element
 Para activar la función de autofiltro en Microsoft Excel:
 
 1. Haga clic en la fila de encabezado en una hoja de cálculo.
-1.  Desde el**Datos** menú, seleccione**Filtrar** y entonces**Autofiltro**.
+1.  Desde el**Datos** menú, seleccione**Filtrar** y luego**Autofiltro**.
 
 Cuando aplica un filtro automático a una hoja de trabajo, los interruptores de filtro (flechas negras) aparecen a la derecha de los encabezados de las columnas.
 

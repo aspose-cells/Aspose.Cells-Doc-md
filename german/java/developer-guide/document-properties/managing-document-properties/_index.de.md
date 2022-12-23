@@ -26,7 +26,7 @@ Der wichtigste Punkt, den Sie über integrierte und benutzerdefinierte Eigenscha
 |**Auswählen des Info-Menüs**|
 |:- |
 |![todo: Bild_alt_Text](managing-document-properties_1.png)|
-1.  Klicke auf**Eigenschaften** Überschrift und wählen Sie "Erweiterte Eigenschaften".
+1.  Klicke auf**Eigenschaften**Überschrift und wählen Sie "Erweiterte Eigenschaften".
 
 |**Klicken Sie auf Erweiterte Eigenschaftenauswahl**|
 |:- |
@@ -44,7 +44,7 @@ Entwickler können die Dokumenteigenschaften mithilfe der Aspose.Cells-APIs dyna
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beim Rendern von Document in PDF wird beispielsweise Aspose.Cells for Java ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF-Produzent** Feld mit dem Wert, zB 'Aspose.Cells for Java v17.9'.
+ Aspose.Cells for Java schreibt die Informationen über API und die Versionsnummer direkt in Ausgabedokumente. Beispielsweise wird beim Rendern von Dokument an PDF Aspose.Cells for Java ausgefüllt**Anwendung** Feld mit dem Wert 'Aspose.Cells' und**PDF Hersteller** Feld mit dem Wert, zB 'Aspose.Cells for Java v17.9'.
 
 Bitte beachten Sie, dass Sie Aspose.Cells for Java nicht anweisen können, diese Informationen aus Ausgabedokumenten zu ändern oder zu entfernen.
 
@@ -52,7 +52,7 @@ Bitte beachten Sie, dass Sie Aspose.Cells for Java nicht anweisen können, diese
 
 ### **Zugriff auf Dokumenteigenschaften**
 
- Aspose.Cells APIs unterstützen beide Arten von Dokumenteigenschaften, integrierte und benutzerdefinierte. Aspose.Cells'[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse stellt eine Excel-Datei dar und wie eine Excel-Datei die[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)Die Klasse kann mehrere Arbeitsblätter enthalten, die jeweils durch dargestellt werden[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse, während die Sammlung von Arbeitsblättern durch die dargestellt wird[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Klasse.
+Aspose.Cells APIs unterstützen beide Arten von Dokumenteigenschaften, integrierte und benutzerdefinierte. Aspose.Cells'[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Klasse stellt eine Excel-Datei dar und wie eine Excel-Datei die[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) Die Klasse kann mehrere Arbeitsblätter enthalten, die jeweils durch dargestellt werden[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Klasse, während die Sammlung von Arbeitsblättern durch die dargestellt wird[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Klasse.
 
  Verwenden Sie die[**Arbeitsblattsammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection), um wie unten beschrieben auf die Dokumenteigenschaften der Datei zuzugreifen.
 
@@ -79,13 +79,13 @@ Wie wir bereits zu Beginn dieses Themas beschrieben haben, können Entwickler ke
 
 ### **Hinzufügen von benutzerdefinierten Eigenschaften**
 
- Aspose.Cells APIs haben die ausgesetzt[**hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) Methode für die[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) -Klasse, um der Sammlung benutzerdefinierte Eigenschaften hinzuzufügen. Das[**hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) )-Methode fügt die Eigenschaft der Excel-Datei hinzu und gibt eine Referenz für die neue Dokumenteigenschaft als a[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)Objekt.
+ Aspose.Cells APIs haben die ausgesetzt[**addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) Methode für die[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) -Klasse, um der Sammlung benutzerdefinierte Eigenschaften hinzuzufügen. Das[**addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) )-Methode fügt die Eigenschaft der Excel-Datei hinzu und gibt eine Referenz für die neue Dokumenteigenschaft als a[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)Objekt.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **Konfigurieren der benutzerdefinierten Eigenschaft „Link zum Inhalt“.**
 
- Um eine benutzerdefinierte Eigenschaft zu erstellen, die mit dem Inhalt eines bestimmten Bereichs verknüpft ist, rufen Sie die auf[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String))-Methode und übergeben Sie den Eigenschaftsnamen und die Quelle. Sie können überprüfen, ob eine Eigenschaft als mit Inhalt verknüpft konfiguriert ist, indem Sie die verwenden[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) Eigentum. Darüber hinaus ist es auch möglich, den Quellbereich mithilfe von abzurufen[**Quelle**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) Eigentum der[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)Klasse.
+ Um eine benutzerdefinierte Eigenschaft zu erstellen, die mit dem Inhalt eines bestimmten Bereichs verknüpft ist, rufen Sie die auf[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) )-Methode und übergeben Sie den Eigenschaftsnamen und die Quelle. Sie können überprüfen, ob eine Eigenschaft als mit Inhalt verknüpft konfiguriert ist, indem Sie die verwenden[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) Eigentum. Darüber hinaus ist es auch möglich, den Quellbereich mithilfe von abzurufen[**Quelle**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) Eigentum der[**DocumentProperty**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)Klasse.
 
  Wir verwenden im Beispiel eine einfache Vorlage Microsoft Excel-Datei. Die Arbeitsmappe hat einen definierten benannten Bereich mit der Bezeichnung**MeineRange** was sich auf einen Zellenwert bezieht.
 

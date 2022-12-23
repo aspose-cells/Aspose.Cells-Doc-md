@@ -25,7 +25,7 @@ Följande exempel visar hur man lägger till ett OLE-objekt i ett kalkylblad.
 
 Följande exempel visar hur man extraherar OLE-objekt i en arbetsbok. Exemplet hämtar olika OLE-objekt från en befintlig XLS-fil och sparar olika filer (DOC, XLS, PPT, PDF, etc.) baserat på OLE-objektets filformattyp.
 
-Här är skärmdumpen av mallen XLS-fil, den har olika OLE-objekt inbäddade i det första kalkylbladet.
+Här är skärmdumpen av mallen XLS-filen, den har olika OLE-objekt inbäddade i det första kalkylbladet.
 
 **Mallfilen innehåller fyra OLE-objekt** 
 

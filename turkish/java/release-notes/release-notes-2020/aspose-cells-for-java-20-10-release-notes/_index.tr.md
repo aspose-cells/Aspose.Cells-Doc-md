@@ -12,25 +12,25 @@ url: /tr/java/aspose-cells-for-java-20-10-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-40913|Ortaya çıkan PDF'de ok yönü değişti|Böcek|
+|CELLSJAVA-40913|Sonuç olarak ok yönü değişti PDF|Böcek|
 |CELLSJAVA-43282|Yenileme pivotu çalışmıyor ve çıktı dosyasını bozuyor|Böcek|
 |CELLSJAVA-43286|Aspose.Cells, HtmlHiddenRowDisplayType.REMOVE ayarlarıyla çakışıyor|Böcek|
 |CELLSJAVA-43302|Cells değerini almayla ilgili sorun|Böcek|
-|CELLSJAVA-43308|wrapText özelliği ile HTML'den Excel'e dönüştürme|Böcek|
+|CELLSJAVA-43308|HTML, wrapText özelliğiyle excel dönüştürmeye|Böcek|
 |CELLSJAVA-43318|Cell pivot tablo yenilemesinden sonra değer sorunu|Böcek|
 |CELLSJAVA-43299|Cell değerini almayla ilgili sorun|Böcek|
 |CELLSJAVA-43284|Belirli bir fiziksel yazıcı için Aspose.Cells kullanılırken grafik yazdırılmıyor|Böcek|
 |CELLSJAVA-43273|Açıklama öğelerindeki metin çıktı görüntüsünde kesiliyor|Böcek|
 |CELLSJAVA-43274|Grafik çubuğu dış hat rengindeki fark|Böcek|
-|CELLSJAVA-43276|XLSX'i PDF'ye dönüştürürken satır sonu sorunları|Böcek|
+|CELLSJAVA-43276|XLSX'i PDF'e dönüştürürken satır sonu sorunları|Böcek|
 |CELLSJAVA-43278|Excel'de üstü çizili PDF dosyasında görüntülenmiyor|Böcek|
-|CELLSJAVA-43304|Çıktı PDF'sinde grafiğin bazı Veri Etiketleri eksik|Böcek|
+|CELLSJAVA-43304|PDF çıktısında grafiğin bazı Veri etiketleri eksik|Böcek|
 |CELLSJAVA-43311|Grafik X Ekseni Etiketleri, Görüntüye Dönüştürüldüklerinde Çapraz Yerine Dikeydir|Böcek|
 |CELLSJAVA-40992|Bir Excel dosyasını yeniden kaydederken grafik metni konumuyla ilgili sorun|Böcek|
 |CELLSJAVA-43294|Koşullu biçimlendirme renk teması düzgün çalışmıyor|Böcek|
 |CELLSJAVA-43307|Çalışma sayfası kopyalanırken Gömülü OLE Nesnesiyle Yeniden Boyutlandırma Sorunu|Böcek|
 |CELLSJAVA-43296|Pivot tablo yenilenirken ArrayIndexOutOfBoundsException|İstisna|
-|CELLSJAVA-43298|Aspose.Cells 20.8: PDF'ye kaydederken istisna.|İstisna|
+|CELLSJAVA-43298|Aspose.Cells 20.8: PDF'e kaydedildiğinde istisna.|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

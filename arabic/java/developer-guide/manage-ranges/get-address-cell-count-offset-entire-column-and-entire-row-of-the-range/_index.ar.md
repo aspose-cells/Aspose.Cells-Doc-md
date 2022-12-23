@@ -6,7 +6,7 @@ url: /ar/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
- يوفر Aspose.Cells ملف[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)الكائن الذي يحتوي على طرق مساعدة مختلفة تسهل على المستخدم العمل مع Excel Ranges بسهولة. توضح هذه المقالة استخدام الطرق التالية أو خصائص[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)هدف.
+ يوفر Aspose.Cells ملف[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)الكائن الذي يحتوي على طرق مساعدة مختلفة تسهل على المستخدم العمل مع Excel Ranges بسهولة. توضح هذه المقالة استخدام الطرق التالية أو خصائص[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)موضوع.
 
 - **تبوك**
 

@@ -8,7 +8,7 @@ url: /zh/java/update-days-preserving-history-of-revision-logs-in-shared-workbook
 
 当您共享工作簿时，您会看到一个选项说***保留更改历史 N 天***如以下屏幕截图所示。您可以使用 Aspose.Cells 更新保留历史记录的天数[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)财产。
 
-![待办事项：图像_替代_文本](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
+![待办事项：图片_替代_文本](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 
 ## **更新天数在共享工作簿中保留修订日志的历史记录**
 

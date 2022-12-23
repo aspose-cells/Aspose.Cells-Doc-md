@@ -7,7 +7,7 @@ url: /zh/net/chart-rendering/
 ---
 ## **渲染图**
 
- Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，而无需任何其他工具或应用程序。为了提供渲染支持，[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)班级暴露了[**印象**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**到PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)具有大量重载的方法，以最好地满足应用程序的要求。
+ Aspose.Cells API 支持将 Excel 图表转换为图像和 PDF 格式，无需任何其他工具或应用程序。为了提供渲染支持，[**图表**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)班级暴露了[**印象**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**到PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)具有大量重载的方法，以最好地满足应用程序的要求。
 
 ### **将图表渲染为图像**
 
@@ -19,9 +19,9 @@ url: /zh/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **将图表渲染为 PDF**
+### **渲染图到 PDF**
 
-为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了[**图表.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)能够将生成的 PDF 存储在光盘路径或流中的方法。
+为了将图表呈现为 PDF 格式，Aspose.Cells API 公开了[**图表.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)方法能够将结果 PDF 存储在光盘路径或流中。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -68,7 +68,7 @@ url: /zh/net/chart-rendering/
 ||三维区域|**Y**|
 ||Area3D堆叠|**Y**|
 ||Area3D100PercentStacked|**Y**|
-|**甜甜圈**|甜甜圈|**Y**|
+|**油炸圈饼**|油炸圈饼|**Y**|
 ||甜甜圈爆炸|**Y**|
 |**雷达**|雷达|**Y**|
 ||带数据标记的雷达|**Y**|
@@ -115,7 +115,7 @@ url: /zh/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到大小为 0 的图像或空白 PDF。
+如果您尝试将不受支持的图表类型呈现为图像或 PDF，您最终可能会得到 0 大小的图像或空白 PDF。
 
 {{% /alert %}}
 

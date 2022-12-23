@@ -5,9 +5,9 @@ weight: 70
 url: /ja/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **考えられる使用シナリオ**
-複数のシートを含む Excel ファイルがあり、各シートを個別の HTML ファイルにエクスポートするとします。シートに他のシートへのリンクがある場合、それらのリンクはエクスポートされた HTML で壊れます。この問題に対処するために、Aspose.Cells が提供します。[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)壊れたリンクを修正するために実装できるインターフェース。
-## **IFilePathProvider インターフェイスを介して、エクスポートされたワークシートの HTML ファイル パスを提供します**
-をダウンロードしてください[サンプルエクセルファイル](5115213.zip)次のコードとそのエクスポートされた HTML ファイルで使用されます。これらのファイルはすべて、Temp ディレクトリ内にあります。 C: ドライブに展開する必要があります。すると C:\Temp ディレクトリになります。次に、ブラウザで Sheet1.html ファイルを開き、その中の 2 つのリンクをクリックします。これらのリンクは、C:\Temp\OtherSheets ディレクトリ内にあるこれら 2 つのエクスポートされた HTML ワークシートを参照しています。
+複数のシートを含む Excel ファイルがあり、各シートを個別の HTML ファイルにエクスポートするとします。シートのいずれかに他のシートへのリンクがある場合、それらのリンクはエクスポートされた HTML で壊れます。この問題に対処するために、Aspose.Cells は[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)壊れたリンクを修正するために実装できるインターフェース。
+## **エクスポートされたワークシート HTML ファイル パスを IFilePathProvider インターフェイス経由で提供します**
+をダウンロードしてください[サンプルエクセルファイル](5115213.zip)次のコードとそのエクスポートされた HTML ファイルで使用されます。これらのファイルはすべて、Temp ディレクトリ内にあります。 C: ドライブに展開する必要があります。すると C:\Temp ディレクトリになります。次に、ブラウザで Sheet1.html ファイルを開き、その中の 2 つのリンクをクリックします。これらのリンクは、C:\Temp\OtherSheets ディレクトリ内にあるエクスポートされた 2 つの HTML ワークシートを参照しています。
 
 {{< highlight "java" >}}
 

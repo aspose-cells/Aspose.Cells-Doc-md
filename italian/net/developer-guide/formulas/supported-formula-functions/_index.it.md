@@ -21,7 +21,7 @@ Aspose.Cells Le API supportano la maggior parte delle funzioni standard e la for
 Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcolare i risultati delle seguenti formule e funzioni.
 
 ###### **UN**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |addominali|
 |ACCRITTO|
@@ -47,7 +47,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |MEDIASE|
 
 ###### **B**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |BESSELLI|
 |BESSELJ|
@@ -69,7 +69,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |BITXOR|
 
 ###### **C**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |SOFFITTO|
 |SOFFITTO.MATEMATICA|
@@ -117,7 +117,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |CUMPRINC|
 
 ###### **D**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |DATA|
 |DATASE|
@@ -152,7 +152,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |DVARP|
 
 ###### **E**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |DATA|
 |EFFETTO|
@@ -166,7 +166,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |ESPONDISTA|
 
 ###### **F**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |FATTO|
 |FATTO DOPPIO|
@@ -175,7 +175,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |FDIST|
 |F.DIST.RT|
 |FILTRO|
-|TROVA|
+|TROVARE|
 |TROVADB|
 |F.INV.RT|
 |FINV|
@@ -192,7 +192,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |PROGRAMMA FV|
 
 ###### **G**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |DISTRIB.GAMMA|
 |DISTRIB.GAMMA|
@@ -206,7 +206,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |CRESCITA|
 
 ###### **H**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |HARMEANO|
 |HEX2BIN|
@@ -219,7 +219,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |DISTRIB. IPGEOM|
 
 ###### **IO**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |SE|
 |IFERRORE|
@@ -264,12 +264,12 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |ISPMT|
 
 ###### **K**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |KURT|
 
 ###### **S**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |DI GRANDI DIMENSIONI|
 |Lcm|
@@ -286,13 +286,13 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |DISTRIB.LOGNORM|
 |INV.LOGNORM|
 |DISTRIB.LOGNORM|
-|CONSULTARE|
+|CERCARE|
 |MINORE|
 
 ###### **M**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
-|INCONTRO|
+|PARTITA|
 |MASSIMO|
 |MAXA|
 |MAXIF|
@@ -317,7 +317,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |MULTINOMIALE|
 
 ###### **N**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |N|
 |N / A|
@@ -341,7 +341,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |NUMEROVALORE|
 
 ###### **O**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |OTT2BIN|
 |OTT2DIC|
@@ -355,7 +355,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |O|
 
 ###### **P**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |PEARSON|
 |PERCENTILE.EXC|
@@ -369,7 +369,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |PMT|
 |POISSON.DIST|
 |POISSON|
-|POTENZA|
+|ENERGIA|
 |PPMT|
 |PREZZO|
 |PREZZODISC|
@@ -380,7 +380,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |fotovoltaico|
 
 ###### **Q**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |QUARTILE|
 |QUARTILE.ESC|
@@ -388,7 +388,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |QUOZIENTE|
 
 ###### **R**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |RADIANTI|
 |CASO|
@@ -396,7 +396,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |RANDBETWEEN|
 |RANK.AVG|
 |RANK.EQ|
-|RANGO|
+|CLASSIFICA|
 |VOTA|
 |RICEVUTO|
 |SOSTITUIRE|
@@ -405,7 +405,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |GIUSTO|
 |DESTRAB|
 |ROMANO|
-|IL GIRO|
+|TONDO|
 |ARROTONDAMENTO|
 |ARROTONDARE|
 |RIGA|
@@ -413,10 +413,10 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |RSQ|
 
 ###### **S**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |RICERCA|
-|CERCAB|
+|CERCA B|
 |SECONDO|
 |SEQUENZA|
 |SERIESUM|
@@ -455,7 +455,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |SYD|
 
 ###### **T**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |T|
 |ABBRONZATURA|
@@ -484,7 +484,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |GENERE|
 
 ###### **U**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |UNICAR|
 |UNICODE|
@@ -492,7 +492,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |SUPERIORE|
 
 ###### **V**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |VALORE|
 |VARO|
@@ -504,8 +504,8 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |VDB|
 |CERCA.VERT|
 
-###### **W**
-|**Funzione**|**Riepilogo**|
+###### **C**
+|**Funzione**|**Sommario**|
 |:- |:- |
 |GIORNO SETTIMANALE|
 |SETTIMANA NUM|
@@ -515,14 +515,14 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |GIORNO LAVORATIVO.INTL|
 
 ###### **X**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |XIRR|
 |CERCA X|
 |XNPV|
 
 ###### **S**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |ANNO|
 |ANNOFRAC|
@@ -531,7 +531,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 |RENDIMENTO|
 
 ###### **Z**
-|**Funzione**|**Riepilogo**|
+|**Funzione**|**Sommario**|
 |:- |:- |
 |Z.TEST|
 |ZTEST|

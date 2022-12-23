@@ -97,7 +97,7 @@ workbook.save("output.xlsx");
 {{% /alert %}} 
 
 ### **Yöntemler OdsSaveOptions.isStrictSchema11 & OdsSaveOptions.setStrictSchema11 Eklendi**
-Geliştiricilerin elektronik tabloyu ODF v1.2 spesifikasyonuna uygun biçimde kaydetmelerine olanak sağlamak için isStrictSchema11 & setStrictSchema11 yöntemleri OdsSaveOptions sınıfına eklenmiştir. setStrictSchema11 özelliğinin varsayılan değeri yanlıştır; bu, Aspose.Cells API'lerin 8.3.1 sürümünden itibaren ODS dosyalarının varsayılan olarak ODF formatı sürüm 1.2 olarak kaydedileceği anlamına gelir.
+Geliştiricilerin elektronik tabloyu ODF v1.2 spesifikasyonuna uygun biçimde kaydetmelerine olanak sağlamak için isStrictSchema11 & setStrictSchema11 yöntemleri OdsSaveOptions sınıfına eklenmiştir. setStrictSchema11 özelliğinin varsayılan değeri yanlıştır; bu, Aspose.Cells API'lerinin 8.3.1 sürümünden itibaren ODS dosyalarının varsayılan olarak ODF biçimi sürüm 1.2 olarak kaydedileceği anlamına gelir.
 
 Aşağıda sağlanan kod parçacığı, ODS dosyasını ODF 1.2 biçiminde kaydeder.
 
@@ -145,7 +145,7 @@ workbook.save("ODF1.1.ods", options);
 1. Sparkline'ınızı içeren hücreyi seçin.
 1.  Seçme**Mini Grafikten Verileri Düzenleme** içindeki bölüm**Tasarım** sekme
 1.  Seçmek**Grup Konumunu ve Verilerini Düzenle**.
-1. Belirtin**Veri aralığı** & **Konum**.
+1.  Belirtin**Veri aralığı** & **Konum**.
 
  Aşağıdaki örnek kod, kaynak e-tabloyu yükler, ilk mini grafik grubuna erişir ve mini grafik grubu için yeni veri aralıkları ve konumları ekler.
 

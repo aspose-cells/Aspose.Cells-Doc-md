@@ -6,7 +6,7 @@ url: /tr/net/replace-text-in-smart-art/
 ---
 ## **Olası Kullanım Senaryoları**
 
- Akıllı sanat, bir çalışma kitabındaki en önemli nesnelerden biridir. Çoğu zaman akıllı sanatta metni güncelleme ihtiyacı vardır. Aspose.Cells ayarlayarak bu özelliği sağlayın[**şekil.metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) Emlak.
+Akıllı sanat, bir çalışma kitabındaki en önemli nesnelerden biridir. Çoğu zaman akıllı sanatta metni güncelleme ihtiyacı vardır. Aspose.Cells ayarlayarak bu özelliği sağlayın[**şekil.metin**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) Emlak.
 
 Örnek kaynak dosya aşağıdaki bağlantıdan indirilebilir:
 

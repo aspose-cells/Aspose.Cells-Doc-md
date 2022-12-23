@@ -66,19 +66,19 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43271) - يؤدي فتح جدول البيانات وحفظه إلى تلفه
 
- (CELLSNET-43266) - لا يتم تقديم ورقة العمل الثانية بشكل جيد في ملف PDF الناتج
+ (CELLSNET-43266) - لا يتم عرض ورقة العمل الثانية بشكل جيد في الإخراج PDF
 
  (CELLSNET-43262) - لم يتم استدعاء طرق IStreamProvider
 
- (CELLSNET-43248) - تمت إزالة اتصالات PivotTable لتقطيع الشرائح عند إعادة حفظ ملف XLSB
+ (CELLSNET-43248) - تمت إزالة اتصالات PivotTable من أجل تقطيع الشرائح عند إعادة حفظ ملف XLSB
 
  (CELLSNET-43215) - لا ينتقل PivotItem إلى الموقع المحدد أثناء استخدام PivotItem.Move
 
- (CELLSNET-43205) - تم وضع بعض العناصر الرسومية في غير محلها في إخراج HTML
+ (CELLSNET-43205) - تم وضع بعض العناصر الرسومية في غير محلها في الإخراج HTML
 
- (CELLSNET-43204) - تم وضع بعض العناصر الرسومية في غير محلها في ملف PDF الناتج
+ (CELLSNET-43204) - تم وضع بعض العناصر الرسومية في غير محلها في الإخراج PDF
 
- (CELLSNET-43051) - تظهر نقاط بيانات المخطط أسفل الصورة بتنسيق ملف HTML المعروض
+ (CELLSNET-43051) - تظهر نقاط بيانات المخطط أسفل الصورة بتنسيق الملف HTML المعروض
 
  (CELLSNET-42878) - تم ضبط لون خلفية الجدول المحوري على الأسود
 
@@ -86,11 +86,11 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43306) - Aspose.Cells لا يحول الخط المنقط إلى خط مستقيم
 
- (CELLSNET-43288) - لا يتم عرض الصور أثناء تحويل جدول البيانات إلى PDF
+(CELLSNET-43288) - لا يتم عرض الصور أثناء تحويل جدول البيانات إلى PDF
 
-(CELLSNET-43263) - مشكلة في عرض الصورة
+ (CELLSNET-43263) - مشكلة في عرض الصورة
 
- (CELLSNET-43245) - يتقلص التخطيط وتصبح الحدود أكثر سمكًا في ملف PDF الناتج
+ (CELLSNET-43245) - يتقلص التخطيط وتصبح الحدود أكثر سمكًا في الإخراج PDF
 
  (CELLSNET-42973) - مشكلة محاذاة التذييل
 
@@ -102,7 +102,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43273) - خطوط الشبكة الرئيسية للمحور الرأسي (القيمة) لم تعد قابلة للتحديد
 
- (CELLSNET-43272) - تدوير الصورة غير مستخدم في تنسيق ملف PDF المقدم
+ (CELLSNET-43272) - تدوير الصورة غير مستخدم في تنسيق الملف PDF الذي تم تقديمه
 
  (CELLSNET-43267) - تم عكس النص العبري في المخطط
 
@@ -112,9 +112,9 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43210) - أزرار الحقل مفقودة في التخطيط المحوري
 
- (CELLSNET-43046) - لا يعرض Chart.ToImage تنسيق التاريخ المطابق لـ CultureInfo
+(CELLSNET-43046) - لا يعرض Chart.ToImage تنسيق التاريخ المطابق لـ CultureInfo
 
-(CELLSNET-42993) - لا تظهر تسميات بيانات الرسم البياني عند التقديم إلى PDF
+ (CELLSNET-42993) - لا تظهر تسميات بيانات الرسم البياني عند التقديم إلى PDF
 
  (CELLSNET-42893) - لا يعرض SheetRender.ToImage المخطط بشكل صحيح
 
@@ -136,13 +136,13 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43280) - ضبط نوع موضع التعليق على "نقل"
 
- (CELLSNET-43275) - تم فتح مستند Excel في حظر العرض المحمي
+(CELLSNET-43275) - تم فتح مستند Excel في حظر العرض المحمي
 
-(CELLSNET-43270) - لا يتم تفعيل إعداد "تكبير / تصغير" لنوع "ورقة عمل"
+ (CELLSNET-43270) - لا يتم تفعيل إعداد "تكبير / تصغير" لنوع "ورقة عمل"
 
  (CELLSNET-43269) - لا يقوم UpdateLinkedDataSource باسترداد بيانات جديدة من مصنف خارجي
 
- (CELLSNET-43265) - مشكلة تحويل علامة SpreadsheetML في Ansi Pound
+ (CELLSNET-43265) - مشكلة تحويل علامة Ansi Pound SpreadsheetML
 
  (CELLSNET-43264) - تطبيق الحدود على الخلايا
 
@@ -166,9 +166,9 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  (CELLSNET-43323) - استثناء على Workbook.CalculateFormula () طريقة
 
- (CELLSNET-43319) - System.ArgumentOutOfRangeException عند فتح ملف XLA
+(CELLSNET-43319) - System.ArgumentOutOfRangeException عند فتح ملف XLA
 
-(CELLSNET-43292) - استثناء عند حفظ المصنف بورقة تخطيط فارغة
+ (CELLSNET-43292) - استثناء عند حفظ المصنف بورقة تخطيط فارغة
 
  (CELLSNET-43278) - حدث خطأ أثناء تحميل مستند Excel باستخدام خطوط المؤشرات المضيئة
 
@@ -178,7 +178,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -218,7 +218,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
- يضيف طريقة WorkbookSettings.CheckWriteProtectedPassword ()
+يضيف طريقة WorkbookSettings.CheckWriteProtectedPassword ()
 
  للتحقق مما إذا كانت كلمة المرور صحيحة ، وكتابة كلمة المرور المحمية.
 
@@ -244,7 +244,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  يضيف طريقة PivotItem.Move (عدد int ، bool isSameParent).
 
- تحريك العنصر لأعلى أو لأسفل.
+تحريك العنصر لأعلى أو لأسفل.
 
 
 
@@ -256,7 +256,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  يضيف طريقة Workbook.GetNamedStyle (اسم السلسلة).
 
-الحصول على النمط المسمى في تجمع أنماط المصنف حسب الاسم.
+ الحصول على النمط المسمى في تجمع أنماط المصنف حسب الاسم.
 
 
 
@@ -296,7 +296,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-يضيف WorkbookRender.ToPrinter (سلسلة PrinterName ، int PrintPageIndex ، int PrintPageCount)
+ يضيف WorkbookRender.ToPrinter (سلسلة PrinterName ، int PrintPageIndex ، int PrintPageCount)
 
  يعرض المصنف إلى الطابعة.
 
@@ -322,11 +322,11 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
  عفا عليها الزمن طريقة PivotItem.Move (عدد العمليات).
 
- استخدام طريقة PivotItem.Move (عدد int ، bool isSameParent) بدلاً من ذلك.
+استخدام طريقة PivotItem.Move (عدد int ، bool isSameParent) بدلاً من ذلك.
 
 
 
-يحذف جميع طرق Open () و Save () القديمة من المصنف.
+ يحذف جميع طرق Open () و Save () القديمة من المصنف.
 
 
 
@@ -346,7 +346,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
- حذف خصائص ReCalcOnOpen واللغة والتشفير و ConvertNumericData المتقادمة من WorkbookSettings.
+حذف خصائص ReCalcOnOpen واللغة والتشفير و ConvertNumericData المتقادمة من WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ url: /ar/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-حذف DisplayHTMLCrossString و ExportChartImageFormat المتقادم من HtmlSaveOptions.
+ حذف DisplayHTMLCrossString و ExportChartImageFormat المتقادم من HtmlSaveOptions.
 
 
 

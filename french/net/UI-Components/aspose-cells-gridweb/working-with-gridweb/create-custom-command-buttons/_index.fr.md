@@ -6,7 +6,7 @@ url: /fr/net/create-custom-command-buttons/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells.GridWeb contient des boutons spéciaux comme**Soumettre**, **sauvegarder** et**annuler**. Tous ces boutons effectuent des tâches spécifiques pour Aspose.Cells.GridWeb.
+ Aspose.Cells.GridWeb contient des boutons spéciaux comme**Nous faire parvenir**, **Sauver** et**annuler**. Tous ces boutons effectuent des tâches spécifiques pour Aspose.Cells.GridWeb.
 Il est également possible d'ajouter des boutons personnalisés qui effectuent des tâches personnalisées. Cette rubrique explique comment utiliser cette fonctionnalité.
 
 {{% /alert %}} 

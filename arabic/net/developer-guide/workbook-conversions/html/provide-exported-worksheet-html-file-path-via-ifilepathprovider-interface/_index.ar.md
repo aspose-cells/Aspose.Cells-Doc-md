@@ -5,9 +5,9 @@ weight: 70
 url: /ar/net/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
- لنفترض أن لديك ملف Excel به أوراق متعددة وتريد تصدير كل ورقة إلى ملف HTML فردي. إذا كان أي من أوراقك يحتوي على روابط لأوراق أخرى ، فسيتم قطع هذه الروابط في ملف HTML المُصدَّر. للتعامل مع هذه المشكلة ، يوفر Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهة يمكنك تنفيذها لإصلاح الروابط المعطلة.
-## **قم بتوفير مسار ملف HTML لورقة العمل المصدرة عبر واجهة IFilePathProvider**
- يرجى تنزيل ملف[نموذج ملف اكسل](5115213.zip)المستخدمة في الكود التالي وملفات HTML المصدرة. كل هذه الملفات موجودة داخل دليل Temp. يجب عليك استخراجه على محرك الأقراص C:. ثم سيصبح دليل C: \ Temp. ثم تفتح ملف Sheet1.html في المتصفح والنقر فوق الرابطين بداخله. تشير هذه الروابط إلى ورقتي عمل HTML المصدرتين والموجودة داخل دليل C: \ Temp \ OtherSheets.
+ لنفترض أن لديك ملف Excel به أوراق متعددة وتريد تصدير كل ورقة إلى ملف HTML فردي. إذا كان أي من أوراقك يحتوي على روابط لأوراق أخرى ، فسيتم قطع هذه الروابط في HTML. للتعامل مع هذه المشكلة ، يوفر Aspose.Cells[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهة يمكنك تنفيذها لإصلاح الروابط المعطلة.
+## **قم بتوفير مسار ملف ورقة العمل HTML الذي تم تصديره عبر واجهة IFilePathProvider**
+ يرجى تنزيل ملف[نموذج ملف اكسل](5115213.zip)المستخدمة في الكود التالي والملفات المصدرة HTML. كل هذه الملفات موجودة داخل دليل Temp. يجب عليك استخراجه على محرك الأقراص C:. ثم سيصبح دليل C: \ Temp. ثم تفتح ملف Sheet1.html في المتصفح والنقر فوق الرابطين بداخله. تشير هذه الروابط إلى هاتين أوراق العمل HTML المصدرة والموجودة داخل دليل C: \ Temp \ OtherSheets.
 
 {{< highlight "java" >}}
 
@@ -21,11 +21,11 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 ![ما يجب القيام به: image_بديل_نص](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
- تُظهر لقطة الشاشة التالية مصدر HTML. كما ترى أن الروابط تشير الآن إلى دليل C: \ Temp \ OtherSheets. تم تحقيق ذلك باستخدام[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهه المستخدم.
+ تُظهر لقطة الشاشة التالية المصدر HTML. كما ترى أن الروابط تشير الآن إلى دليل C: \ Temp \ OtherSheets. تم تحقيق ذلك باستخدام[IFilePathProvider](https://reference.aspose.com/cells/net/aspose.cells/ifilepathprovider)واجهه المستخدم.
 
 ![ما يجب القيام به: image_بديل_نص](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **عينة من الرموز**
- يرجى ملاحظة أن دليل C: \ Temp هو لغرض التوضيح فقط. يمكنك استخدام أي دليل من اختيارك ومكان[نموذج ملف اكسل](5115211.xlsx)بالداخل هناك وتنفيذ نموذج التعليمات البرمجية المقدم. سيقوم بعد ذلك بإنشاء مجلد فرعي OtherSheets داخل الدليل الخاص بك وتصدير أوراق العمل الثانية والثالثة HTML بداخله. يرجى تغيير متغير dirPath داخل الكود المقدم وإحالته إلى الدليل الذي تختاره قبل التنفيذ.
+ يرجى ملاحظة أن دليل C: \ Temp هو لغرض التوضيح فقط. يمكنك استخدام أي دليل من اختيارك ومكان[نموذج ملف اكسل](5115211.xlsx)بالداخل هناك وتنفيذ نموذج التعليمات البرمجية المقدم. سيقوم بعد ذلك بإنشاء دليل فرعي OtherSheets داخل الدليل الخاص بك وتصدير أوراق العمل الثانية والثالثة HTML بداخله. يرجى تغيير متغير dirPath داخل الكود المقدم وإحالته إلى الدليل الذي تختاره قبل التنفيذ.
 
 {{% alert color="primary" %}} 
 

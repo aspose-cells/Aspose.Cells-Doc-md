@@ -20,8 +20,8 @@ url: /tr/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  * Neler Geliştirildi?
 
-- Excel'in PDF'ye dönüştürülmesi geliştirildi* Çalışma kitabını Excel2003 dosya biçiminde kaydettiğinizde, Aspose.Cells, sütunu veya satırı 65536 satır ve 256 sütun sınırını aşan hücreleri otomatik olarak keser.* Kodlama belirtilmediğinde, CSV dosyasını okumak sistem varsayılan kodlamasını almaya ve kullanmaya çalışacaktır.
+- Excel'in PDF'ye dönüştürülmesi geliştirildi* Çalışma kitabını Excel2003 dosya biçiminde kaydettiğinizde, Aspose.Cells, sütunu veya satırı 65536 satır ve 256 sütun sınırını aşan hücreleri otomatik olarak keser.* Kodlama belirtilmediğinde, CSV dosyasını okumak, sistem varsayılan kodlamasını almaya ve kullanmaya çalışacaktır.
 
  * Neler Düzeltildi?
 
-- Formül hesaplamadaki bazı hatalar düzeltildi* Şablon dosyasını okumayla ilgili bazı hatalar düzeltildi*Resmin ölçeğini alma hatası düzeltildi* NamedStyle'ı kaydetme hatası düzeltildi* Yorumun sınır çizgisini görünür hale getirme hatası düzeltildi* Hücrenin Kenarlığını ayarlama hatası düzeltildi* HYPERLINK formülünün bir hatası düzeltildi* Adları kaydetme hatası düzeltildi* Çalışma Kitabını korumalı yapıyla kaydetme hatası düzeltildi* Set Name nesnesinin metnindeki bir hata düzeltildi* Birleştirilmiş hücrelerin dize değerini alma hatası düzeltildi* WorkbookDesigner için SmartMarker'ı işleme hatası düzeltildi
+- Formül hesaplamadaki bazı hatalar düzeltildi*Şablon dosyasını okumayla ilgili bazı hatalar düzeltildi* Resmin ölçeğini alma hatası düzeltildi* NamedStyle'ı kaydetme hatası düzeltildi* Yorumun sınır çizgisini görünür hale getirme hatası düzeltildi* Hücrenin Kenarlığını ayarlama hatası düzeltildi* HYPERLINK formülünün bir hatası düzeltildi* Adları kaydetme hatası düzeltildi* Çalışma Kitabını korumalı yapıyla kaydetme hatası düzeltildi* Set Name nesnesinin metnindeki bir hata düzeltildi* Birleştirilmiş hücrelerin dize değerini alma hatası düzeltildi* WorkbookDesigner için SmartMarker'ı işleme hatası düzeltildi

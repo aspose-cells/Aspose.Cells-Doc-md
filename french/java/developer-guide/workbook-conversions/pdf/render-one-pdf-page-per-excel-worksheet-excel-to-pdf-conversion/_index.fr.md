@@ -1,5 +1,5 @@
 ﻿---
-title: Rendu d'une page PDF par feuille de calcul Excel - Conversion d'Excel en PDF
+title: Rendre une page PDF par feuille de calcul Excel - Conversion d'Excel en PDF
 type: docs
 weight: 40
 url: /fr/java/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
@@ -16,10 +16,10 @@ Veuillez consulter l'exemple de code suivant qui convertit un fichier Excel avec
 
 {{% alert color="primary" %}}
 
- Si la[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) l'option est définie sur**vrai** , tout le contenu de la feuille est restitué sur une seule page PDF. Le format de papier défini par[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) n'est pas valide, mais les autres paramètres définis avec[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)prennent encore effet.
+ Si la[**PdfSaveOptions.OnePagePerSheet**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OnePagePerSheet) l'option est définie sur**vrai** , tout le contenu de la feuille est rendu sur une page PDF. Le format de papier défini par[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup) n'est pas valide, mais les autres paramètres définis avec[**Mise en page**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)prennent encore effet.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-Si votre feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) juste avant de rendre la feuille de calcul au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si votre feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant de rendre la feuille de calcul en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}

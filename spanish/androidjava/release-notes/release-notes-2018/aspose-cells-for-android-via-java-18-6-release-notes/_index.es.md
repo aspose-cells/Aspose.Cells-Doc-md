@@ -13,7 +13,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Use la versión compatible con FIPS de Bouncy Castle en las API Aspose.Cells|Nueva caracteristica|
-|CELLSJAVA-42550|La conversión simultánea a PDF mientras cada libro de trabajo tiene su propio conjunto privado (exclusivo) de fuentes|Nueva caracteristica|
+|CELLSJAVA-42550|La conversión simultánea a PDF, mientras que cada libro de trabajo tiene su propio conjunto de fuentes privado (exclusivo)|Nueva caracteristica|
 |CELLSJAVA-42339|Implemente la clasificación de datos personalizados en el informe de tabla dinámica a través de las API Aspose.Cells|Nueva caracteristica|
 |CELLSJAVA-42625|La implementación de la característica de MS Excel 'Watch Window'|Nueva caracteristica|
 |CELLSJAVA-42612|No se puede extraer el texto del tipo de engranaje SmartArt|Nueva caracteristica|
@@ -27,9 +27,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42646|Excepción: "FormulaBuild Token de fórmula desconocido 0" en Name.getRefersTo()|Mejora|
 |CELLSJAVA-42645|Excepción: "FormulaBuild Más de un token en la pila..." en Cell.getFormula()|Mejora|
 |CELLSJAVA-42516|Aspose.Cells acepta y corrige una fórmula inválida|Mejora|
-|CELLSJAVA-42551|Algunas formas no son correctas en el PDF de salida|Insecto|
+|CELLSJAVA-42551|Algunas formas no son correctas en la salida PDF|Insecto|
 |CELLSJAVA-42578|El formato condicional se pierde al guardar Excel en HTML|Insecto|
-|CELLSJAVA-42571|El HTML de salida no coincide con MS-Excel|Insecto|
+|CELLSJAVA-42571|La salida HTML no coincide con MS-Excel|Insecto|
 |CELLSJAVA-42553|Los enlaces al área nombrada son incorrectos después de exportar a HTML|Insecto|
 |CELLSJAVA-42530|Las tablas dinámicas y los gráficos correspondientes no tienen el formato de fecha correcto|Insecto|
 |CELLSJAVA-42527|El gráfico tiene muchos valores en el eje x y los valores se superponen entre sí|Insecto|
@@ -42,7 +42,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42573|Aspose.Cells 18.3 La rotación de un cuadro de texto no funciona para EXCEL_97_TO_2003 guardar formato|Insecto|
 |CELLSJAVA-42570|Aparece una nueva línea en blanco dentro del cuadro de texto después de procesar y guardar el archivo de Excel|Insecto|
 |CELLSJAVA-42604|El formato y el comportamiento de la tabla dinámica cambiaron después de abrir/guardar el archivo de plantilla|Insecto|
-|CELLSJAVA-41918|La hoja de cálculo (XLS) se corrompe después de una simple carga y guardado|Insecto|
+|CELLSJAVA-41918|La hoja de cálculo (XLS) se corrompe después de cargar y guardar|Insecto|
 |CELLSJAVA-42616|Aspose.Cells rompe la interfaz del iterador al llamar a Iterator.hasnext() dos veces|Insecto|
 |CELLSJAVA-42607|Los valores de las propiedades se distorsionan al extraer las propiedades del documento|Insecto|
 |CELLSJAVA-42601|El libro de trabajo está dañado después de agregar una marca de agua|Insecto|
@@ -50,16 +50,16 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42598|Las propiedades no se extraen en el archivo de plantilla|Insecto|
 |CELLSJAVA-42589|NullPointerException al agregar HTML a una celda|Insecto|
 |CELLSJAVA-41414|Las líneas desaparecieron del gráfico cuando se volvió a guardar el archivo XLSX|Insecto|
-|CELLSJAVA-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en Excel para la representación HTML|Insecto|
 |CELLSJAVA-42627|CELLSJAVA-42619 No se pueden extraer imágenes Smart Art correctamente|Insecto|
-|CELLSJAVA-42618|La forma se desplaza para cubrir los datos en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42618|La forma se desplaza para cubrir los datos en Excel a la representación HTML|Insecto|
 |CELLSJAVA-42628|El cálculo de las fórmulas es incorrecto, por ejemplo, ¡genera #DIV/0! errores|Insecto|
-|CELLSJAVA-42615|Cell El formato A3 no es correcto en el HTML de salida|Insecto|
-|CELLSJAVA-42621|Rendimiento deficiente al generar un archivo PDF desde un archivo de Excel|Insecto|
+|CELLSJAVA-42615|Cell El formato A3 no es correcto en la salida HTML|Insecto|
+|CELLSJAVA-42621|Rendimiento deficiente al generar el archivo PDF desde un archivo de Excel|Insecto|
 |CELLSJAVA-42620|XLSX a TIFF - excepción NoClassDefFoundError|Insecto|
 |CELLSJAVA-42599|Las imágenes se pierden cuando el archivo de Excel se convierte a Pdf|Insecto|
 |CELLSJAVA-42630|El método Chart.calculate provoca OutOfMemoryError|Insecto|
-|CELLSJAVA-42623|La memoria aumenta al renderizar archivos de Excel a formato de archivo PDF|Insecto|
+|CELLSJAVA-42623|La memoria aumenta al renderizar el archivo de Excel al formato de archivo PDF|Insecto|
 |CELLSJAVA-42592|El tamaño de fuente cambió en el título del gráfico debido al método de caracteres ()|Insecto|
 |CELLSJAVA-41860|El efecto de sombra se cambia al volver a guardar XLS|Insecto|
 |CELLSJAVA-42654|Conversión de Excel a PDF: la conversión nunca se completa|Insecto|
@@ -87,11 +87,11 @@ La siguiente es una lista de los cambios realizados al público API, como miembr
 
 ### **Agrega el nuevo elemento "CrossHideRight" para la enumeración HtmlCrossType**
 
-Muestra la cadena cruzada HTML y oculta la cadena correcta cuando el texto se superpone.
+Muestra HTML cadena cruzada y oculta la cadena derecha cuando el texto se superpone.
 
 ### **Agrega el nuevo elemento "TSV" para las enumeraciones LoadFormat, SaveFormat y FileFormatType**
 
-Representa un archivo TSV (valores separados por tabulaciones), igual que "TabDelimited".
+Representa un archivo TSV (valores separados por tabuladores), igual que "TabDelimited".
 
 ### **Agrega tipo de imagen de enumeración**
 
@@ -139,11 +139,11 @@ Representa los tipos de alineación de diseño de página.
 
 ### **Agrega el método Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
 
-Crea el PDF del gráfico con el tamaño de página deseado y lo guarda en una secuencia.
+Crea el gráfico PDF con el tamaño de página deseado y lo guarda en una secuencia.
 
 ### **Agrega el método Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
 
-Crea el PDF del gráfico con el tamaño de página deseado y lo guarda en un archivo.
+Crea el gráfico PDF con el tamaño de página deseado y lo guarda en un archivo.
 
 ### **Agrega la propiedad PdfSaveOptions.OutputBlankPageWhenNothingToPrint**
 
@@ -219,7 +219,7 @@ Mejora para el rango de procesamiento.
 
 ### **Sobrecarga el método WorkbookRender.ToImage()**
 
-Representa el libro de trabajo en imagen por el índice de la página.
+Representa el libro de trabajo en una imagen por el índice de la página.
 
 ### **Agrega el método Legend.LegendEntriesLabels()**
 

@@ -30,5 +30,5 @@ Errore durante il rendering della macro 'codice': valore non valido specificato 
  newWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scarica**
+## **Scaricamento**
 - [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/CopyWorksheets.Aspose.Cells.zip)

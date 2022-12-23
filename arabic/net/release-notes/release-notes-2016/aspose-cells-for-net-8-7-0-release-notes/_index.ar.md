@@ -30,23 +30,23 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150) - القدرة على العمل مع خرائط XML
 
- (CELLSNET-43992) - دعم وظيفة استيراد تعيين XML كما يتم ذلك من علامة تبويب Excel Developer
+(CELLSNET-43992) - دعم وظيفة استيراد تعيين XML كما يتم ذلك من علامة تبويب Excel Developer
 
 
 ## **التحسينات**
 
 
- (CELLSNET-43878) - تُفقد علامة VBA الرقمية أثناء التحويل (XLSM إلى XLS)
+ (CELLSNET-43878) - فقدت علامة VBA الرقمية أثناء التحويل (XLSM إلى XLS)
 
  (CELLSNET-43160) - يفقد مشروع VBA التوقيع الرقمي عند حفظ xls بتنسيق ملف xlsm
 
  (CELLSNET-44169) - Validation.Value1 ترتيب الصفيف يختلف عما هو معروض في Excel
 
-(CELLSNET-44168) - غير قادر على إنشاء تنسيق شرطي لمقياس لونين
+ (CELLSNET-44168) - غير قادر على إنشاء تنسيق شرطي لمقياس لونين
 
  (CELLSNET-44167) - دعم وظيفة ISOWEEKNUM MS Excel 2013
 
- (CELLSNET-44166) - يتم فقد علامة VBA الرقمية أثناء التحويل (XLSB إلى XLSM)
+ (CELLSNET-44166) - فقدت علامة VBA الرقمية أثناء التحويل (XLSB إلى XLSM)
 
 
 ## **أداء**
@@ -64,17 +64,17 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) - بنية HTML غير مكتملة عند الحفظ إلى دفق
 
- (CELLSNET-44147) - يؤدي تحديث الجدول المحوري إلى إنشاء ملف Excel تالف
+(CELLSNET-44147) - يؤدي تحديث الجدول المحوري إلى إنشاء ملف Excel تالف
 
  (CELLSNET-44022) - مصنف. لا يحتفظ النسخ بتنسيق الجداول المحورية
 
  (CELLSNET-44139) - قيم مختلفة لنفس الخلية قبل وبعد استدعاء طريقة CalculateFormula ()
 
- (CELLSNET-44135) - لم يتم حساب ملف Excel بشكل صحيح (بالكامل) (بخصوص الرسوم البيانية) قبل إنشاء PDF
+ (CELLSNET-44135) - لم يتم حساب ملف Excel بشكل صحيح (بالكامل) (فيما يتعلق بالمخططات) قبل إنشاء PDF
 
-(CELLSNET-44138) - Cell التظليل يتداخل مع الحد مما يتسبب في ترقق الحد
+ (CELLSNET-44138) - Cell التظليل يتداخل مع الحد مما يتسبب في ترقق الحد
 
- (CELLSNET-44136) - يعرض Excel صفحة واحدة في معاينة الطباعة حيث يتم عرض Aspose.Cells على صفحات PDF
+ (CELLSNET-44136) - يعرض Excel صفحة واحدة في معاينة الطباعة حيث يتم عرض Aspose.Cells على PDF صفحة
 
  (CELLSNET-44122) - لا يتم عرض الصور الموجودة في الأوراق كما في ملف Excel الأصلي للقالب
 
@@ -82,7 +82,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44171) - لا يعمل CopyData بين النطاقات أفقيًا ولكنه يعمل بشكل عمودي بشكل جيد
 
- (CELLSNET-44153) - لا يعمل XLSB إلى XLSM بشكل صحيح وينتج ملفًا تالفًا
+(CELLSNET-44153) - XLSB إلى XLSM لا يعمل بشكل صحيح وينتج عنه ملف تالف
 
  (CELLSNET-44149) - إزالة OleObjects بعد التحويل من XLSB إلى XLSM
 
@@ -92,9 +92,9 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141) - حدث خطأ في محور فئة الرسم البياني الأساسي عند إعادة حفظ ملف Excel المصدر
 
-(CELLSNET-44160) - تم تغيير المحور الأفقي إلى تسميات مختلفة عن الملف الأولي
+ (CELLSNET-44160) - تم تغيير المحور الأفقي إلى تسميات مختلفة عن الملف الأولي
 
- (CELLSNET-44157) - تم تغيير المحور x الأساسي للرسم البياني المخصص بعد فتح وإعادة حفظ ملف XLSX للقالب
+ (CELLSNET-44157) - تم تغيير المحور x الأساسي للمخطط المخصص بعد فتح ملف القالب وإعادة حفظه XLSX
 
  (CELLSNET-43910) - استخراج الصورة من ورقة العمل وإدراجها في ملف المستند يجعلها غير مكتملة
 
@@ -106,7 +106,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) - System.IndexOutOfRangeException في PivotTable.CalculateData
 
- (CELLSNET-44064) - يطرح CalculateFormula استثناء على xlsm المصدر
+(CELLSNET-44064) - يطرح CalculateFormula استثناء على xlsm المصدر
 
  (CELLSNET-44055) - Aspose.Cell. استثناء ناتج عن تحويل pdf بسبب إعداد تفضيل الذاكرة
 
@@ -116,11 +116,11 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44143) - استثناء في Workbook ctor أثناء تحميل XLSX
 
- (CELLSNET-44142) - IndexOutOfBoundsException عند إنشاء مثيل مصنف مع XLS
+ (CELLSNET-44142) - IndexOutOfBoundsException عند إنشاء مثيل من مصنف باستخدام XLS
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -128,7 +128,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **البق**
 
 
-(CELLSNET-44151) - لم يتم تشغيل JavaScript أثناء حذف المحتويات من خلية GridWeb
+ (CELLSNET-44151) - لم يتم تشغيل JavaScript أثناء حذف المحتويات من خلية GridWeb
 
  (CELLSNET-44113) - يظهر نص صف الرأس أيضًا داخل قيم التصفية
 
@@ -152,7 +152,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-يحذف خاصية Workbook.SaveOptions القديمة.
+ يحذف خاصية Workbook.SaveOptions القديمة.
 
  استخدم طريقة Workbook.Save (Stream ، SaveOptions) أو Workbook.Save (سلسلة ، SaveOptions) بدلاً من ذلك.
 
@@ -164,7 +164,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
- يضيف خاصية Proptection.IsProtectedWithPassword.
+يضيف خاصية Proptection.IsProtectedWithPassword.
 
  يشير إلى ما إذا كانت ورقة العمل محمية بكلمة مرور.
 
@@ -172,7 +172,7 @@ url: /ar/net/aspose-cells-for-net-8-7-0-release-notes/
 
  يضيف طريقة VbaProject.Sign.
 
- قم بتوقيع مشروع VBA بواسطة DigitalSignature.
+ توقيع مشروع VBA بواسطة DigitalSignature.
 
 
 

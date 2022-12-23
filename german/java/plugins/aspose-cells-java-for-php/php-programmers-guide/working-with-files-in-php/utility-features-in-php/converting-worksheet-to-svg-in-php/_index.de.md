@@ -1,10 +1,10 @@
 ﻿---
-title: Konvertieren von Arbeitsblättern in SVG in PHP
+title: Konvertieren des Arbeitsblatts in SVG in PHP
 type: docs
 weight: 60
 url: /de/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells – Arbeitsblatt in SVG konvertieren**
+## **Aspose.Cells - Konvertieren des Arbeitsblatts in SVG**
 Um Worksheet mit Aspose.Cells for Java in PHP in SVG zu konvertieren, rufen Sie einfach worksheet auf_zu_svg()-Methode des Converter-Moduls.
 
 **PHP-Code**
@@ -55,6 +55,6 @@ for($i=0; $i < $sheetCount; $i++)
 
 {{< /highlight >}}
 ## **Laufcode herunterladen**
-Download**Arbeitsblatt in SVG konvertieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+Download**Konvertieren des Arbeitsblatts in SVG (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

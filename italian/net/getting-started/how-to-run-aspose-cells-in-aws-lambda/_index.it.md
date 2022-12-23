@@ -25,10 +25,10 @@ url: /it/net/how-to-run-aspose-cells-in-aws-lambda/
 
 ## Crea un progetto in esecuzione in AWS Lambda
 
-1. Creare un'applicazione Web ASP.NET Core in Visual Studio, scrivere il codice di test, ottenere Aspose.Cells da nuget.
+1. Crea un'applicazione Web principale ASP.NET in Visual Studio, scrivi il codice di test, ottieni Aspose.Cells da nuget.
 
 1. Assicurati che il progetto di test funzioni correttamente sulla tua macchina locale, quindi distribuiscilo su AWS Elastic Beanstalk:
- Fai clic con il pulsante destro del mouse sul nome del progetto, scegli "Pubblica su AWS Elastic Beanstalk". (Questa opzione esiste solo dopo aver installato AWS Toolkit per Visual Studio).
-1. Dovrai aggiungere un nuovo utente con il tuo account AWS e utente IAM, puoi importare il file "credentials.csv" che ottieni nel passaggio precedente.
+Fai clic con il pulsante destro del mouse sul nome del progetto, scegli "Pubblica su AWS Elastic Beanstalk". (Questa opzione esiste solo dopo aver installato AWS Toolkit per Visual Studio).
+1.  Dovrai aggiungere un nuovo utente con il tuo account AWS e utente IAM, puoi importare il file "credentials.csv" che ottieni nel passaggio precedente.
 1. Pubblicazione riuscita, riceverai un indirizzo di collegamento come: `http://testprojectaspose-test.us-west-2.elasticbeanstalk.com/`
  Attendi 10 minuti affinché il link abbia effetto, quindi puoi visitarlo!

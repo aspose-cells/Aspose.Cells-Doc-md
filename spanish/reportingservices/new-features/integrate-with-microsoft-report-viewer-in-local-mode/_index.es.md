@@ -13,7 +13,7 @@ Report Viewer puede generar informes de forma independiente utilizando un motor 
 - En modo remoto, Report Viewer puede exportar informes a todos los formatos instalados en el servidor de informes al que está conectado. Por lo tanto, para exportar informes a más formatos de Excel Microsoft solo necesita instalar Aspose.Cells for Reporting Services en el servidor.
 - Sin embargo, en el modo local, Report Viewer no se conecta a un servidor de informes y la lista de formatos de exportación se limita a solo unos pocos formatos integrados.
 
- Al instalar Aspose.Cells for Reporting Services en una máquina de desarrollo y seguir los pasos a continuación, puede exportar a más formatos de Microsoft Excel desde Report Viewer trabajando en modo local.
+Al instalar Aspose.Cells for Reporting Services en una máquina de desarrollo y seguir los pasos a continuación, puede exportar a más formatos de Microsoft Excel desde Report Viewer trabajando en modo local.
 
 {{% /alert %}} 
 ### **Trabajando con Aspose.Cells en modo local**
@@ -246,7 +246,7 @@ End Sub
 {{< /highlight >}}
 
 1.  Invoque el método AddExtension desde el código.
- - Puede llamar a AddExtension (que se muestra en el paso anterior) cada vez que necesite agregar Aspose.Cells for Reporting Services formatos de exportación a una instancia de control de Report Viewer. Considere llamar desde el Formulario_Cargar o Página_Cargue el controlador de eventos de una aplicación WinForms o ASP .NET.
+ Puede llamar a AddExtension (que se muestra en el paso anterior) cada vez que necesite agregar Aspose.Cells for Reporting Services formatos de exportación a una instancia de control de Report Viewer. Considere llamar desde el Formulario_Cargar o Página_Cargue el controlador de eventos de una aplicación WinForms o ASP .NET.
  - Puede agregar todos o solo algunos formatos de exportación Aspose.Cells for Reporting Services. Puede especificar cualquier nombre de visualización para que los formatos aparezcan en el Visor de informes.
  Para agregar los formatos de exportación Aspose.Cells for Reporting Services a Microsoft Report Viewer en modo local, use el siguiente código:
 
@@ -290,7 +290,7 @@ End Sub
 
 1.  Pruebe los nuevos formatos de exportación.
  1. Ejecute su aplicación.
-Debería notar una serie de nuevos formatos de exportación disponibles en el**Exportar** menú en el Visor de informes.
+ Debería notar una serie de nuevos formatos de exportación disponibles en el**Exportar** menú en el Visor de informes.
  1. Seleccione uno de los formatos y ejecute la exportación.
  1. Verifique que el documento se haya creado de la manera que esperaba.
 

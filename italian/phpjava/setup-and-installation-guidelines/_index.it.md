@@ -7,16 +7,16 @@ keywords: php, excel, instal
 description: configurazione Aspose.Cells for PHP via Java e istruzioni per l'installazione
 ---
 ## **Requisiti di sistema**
-Aspose.Cells for PHP via Java è un'API indipendente dalla piattaforma e può essere utilizzata su qualsiasi piattaforma (Windows, Linux, MacOS ecc.) dove[PHP](https://www.php.net/downloads.php)7 o versioni successive installate. La macchina deve disporre di Oracle JDK 7 o versioni successive prima di configurare l'installazione.
+Aspose.Cells for PHP via Java è indipendente dalla piattaforma API e può essere utilizzato su qualsiasi piattaforma (Windows, Linux, MacOS ecc.) dove[PHP](https://www.php.net/downloads.php)7 o versioni successive installate. La macchina deve disporre di Oracle JDK 7 o versioni successive prima di configurare l'installazione.
 ## **Installazione e utilizzo**
 Aspose.Cells for PHP via Java è distribuito come archivio ZIP.
 
 Per configurare l'ambiente, installare e utilizzare Aspose.Cells for PHP via Java, seguire le istruzioni:
 ### **Linux:**
-- Scarica[PHP](https://www.php.net/downloads.php)sorgente e installarlo. Oppure, usa il comando "sudo apt install php-xxx" per installare il binario php.
+- Scaricamento[PHP](https://www.php.net/downloads.php)sorgente e installarlo. Oppure, usa il comando "sudo apt install php-xxx" per installare il binario php.
 - Installa Oracle JDK (1.7 o 1.8) per Linux, configura la variabile di ambiente JAVA_HOME.
-- Scarica/ottieni l'API "Aspose.Cells for PHP via Java" ed estraila. Ci sarà una cartella chiamata "aspose.cells".
-- Scarica il binario PHP/Java Bridge (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
+- Scarica / Ottieni "Aspose.Cells for PHP via Java" API ed estrailo. Ci sarà una cartella chiamata "aspose.cells".
+- Scarica PHP/Java Bridge binary (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
 - Scarica la libreria PHP java/Java.inc (Java.inc) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvala nella cartella "aspose.cells".
 - Esegui "PHP/Java Bridge" nella cartella sopra con il comando sotto.
 
@@ -26,11 +26,11 @@ Per configurare l'ambiente, installare e utilizzare Aspose.Cells for PHP via Jav
 
 |$ php esempio.php|
 |:- |
-### **Finestre:**
-- Scarica[PHP](https://www.php.net/downloads.php)binario di Windows e aggiungi "php.exe" a PATH.
+### **Windows:**
+- Scaricamento[PHP](https://www.php.net/downloads.php)binario di Windows e aggiungi "php.exe" a PATH.
 - Installa Oracle JDK (1.7 o 1.8) per Windows e configura la variabile di ambiente JAVA_HOME.
-- Scarica l'API "Aspose.Cells for PHP via Java" ed estraila. Ci sarà una cartella chiamata "aspose.cells".
-- Scarica il binario PHP/Java Bridge (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
+- Scarica "Aspose.Cells for PHP via Java" API ed estrailo. Ci sarà una cartella chiamata "aspose.cells".
+- Scarica PHP/Java Bridge binary (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
 - Scarica la libreria PHP java/Java.inc (Java.inc) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvala nella cartella "aspose.cells".
 - Esegui "PHP/Java Bridge" nella cartella sopra con il comando sotto. Selezionare la porta del listener http 8080 all'avvio del bridge e fare clic sul pulsante OK.
 
@@ -43,8 +43,8 @@ Per configurare l'ambiente, installare e utilizzare Aspose.Cells for PHP via Jav
 ### **Mac:**
 - Installare[PHP](https://www.php.net/downloads.php).
 - Installa Oracle JDK (1.7 o 1.8) per Mac, configura la variabile di ambiente JAVA_HOME.
-- Scarica l'API "Aspose.Cells for PHP via Java" ed estraila. Ci sarà una cartella chiamata "aspose.cells".
-- Scarica il binario PHP/Java Bridge (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
+- Scarica "Aspose.Cells for PHP via Java" API ed estrailo. Ci sarà una cartella chiamata "aspose.cells".
+- Scarica PHP/Java Bridge binary (JavaBridge.jar) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvalo nella cartella "aspose.cells".
 - Scarica la libreria PHP java/Java.inc (Java.inc) da http://php-java-bridge.sourceforge.net/pjb/download.php e salvala nella cartella "aspose.cells".
 - Esegui "PHP/Java Bridge" nella cartella sopra con il comando sotto. Selezionare la porta del listener http 8080 all'avvio del bridge e fare clic sul pulsante OK.
 

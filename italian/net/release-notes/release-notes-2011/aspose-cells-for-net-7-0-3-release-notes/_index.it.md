@@ -18,9 +18,9 @@ Aspose.Cells
 
  24953 Supporta la formattazione condizionale avanzata di MS Excel nel file PDF generato
 
- 30020 Supporto Cell Colore sfumato non impostato correttamente durante la conversione in documento PDF
+ 30020 Supporto Cell Gradient Color non impostato correttamente durante la conversione nel documento PDF
 
-40010 Deselezionare le etichette di categoria multilivello durante la formattazione dell'asse del grafico
+ 40010 Deselezionare le etichette di categoria multilivello durante la formattazione dell'asse del grafico
 
  Miglioramenti
 
@@ -46,11 +46,11 @@ Aspose.Cells
 
  40060 Tipo di pennello non valido durante la conversione della cartella di lavoro di Excel in XPS
 
- 40061 StackOverflow alla chiamata del metodo WorksheetCollection.GetNamedRanges()
+40061 StackOverflow alla chiamata del metodo WorksheetCollection.GetNamedRanges()
 
  Prestazione
 
- 31266 XLS in PDF o XPS richiede così tanto tempo
+ 31266 XLS a PDF o XPS richiede tanto tempo
 
  40053 Da Excel a PDF Le prestazioni diminuiscono all'aumentare del numero di fogli di lavoro
 
@@ -60,11 +60,11 @@ Aspose.Cells
 
  30224 Le immagini dei grafici non corrispondono ai grafici di Excel
 
-30651 Cell.SetStyle(Style style, bool explicitFlag) non funziona come previsto
+ 30651 Cell.SetStyle(Style style, bool explicitFlag) non funziona come previsto
 
  31334 Impossibile leggere o impostare BuiltInDocumentProperties.HyperlinkBase
 
- 40009 Problema di apertura del file XLSM
+ 40009 Apertura problema file XLSM
 
  40012 Lo stile è stato modificato dopo l'unione o l'aggiunta di un foglio di copia all'operazione della cartella di lavoro
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 I riferimenti alle formule di matrice non vengono aggiornati quando si elimina una riga o una colonna
 
- 40065 Problema bigInt negativo
+40065 Problema bigInt negativo
 
  40073 Aspose.Cells Problema parametri Smart Markers
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Nuove caratteristiche
 
-29869 Supporto della formattazione condizionale (solo gli stili di Excel 2003 sono supportati (attualmente))
+ 29869 Supporto della formattazione condizionale (solo gli stili di Excel 2003 sono supportati (attualmente))
 
  Insetti
 

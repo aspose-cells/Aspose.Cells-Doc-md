@@ -15,7 +15,7 @@ url: /de/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45614|Bestimmen Sie, welche Stapelgröße für eine bestimmte Arbeitsmappe benötigt wird|Neue Funktion|
 |CELLSNET-45649|Formatieren Sie die Schriftart des benutzerdefinierten Labels und seine Zelle mit Smart Markers|Neue Funktion|
 |CELLSNET-44353|Steuern Sie das Laden externer Ressourcen in der MS Excel-Arbeitsmappe|Neue Funktion|
-|CELLSNET-40787|Änderungen nach der Konvertierung nicht nachverfolgen (XLS --> XLSM)|Neue Funktion|
+|CELLSNET-40787|Änderungen nach Konvertierung nicht nachverfolgen (XLS --> XLSM)|Neue Funktion|
 |CELLSNET-45607|Cell-Kommentar als Excel-Tooltip anzeigen - Aspose.Cells.GridWeb|Neue Funktion|
 |CELLSNET-45559|Die Beschriftung der Aktienkursreihe ist nicht richtig positioniert|Erweiterung|
 |CELLSNET-45626|Ausnahme: „Zu viele Einträge. Erwägen Sie, ZipOutputStream.Enable Zip64 festzulegen“ beim Zusammenführen der Datei(en)|Erweiterung|
@@ -24,38 +24,38 @@ url: /de/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop sollte nicht über die letzte Spalte hinaus scrollen|Erweiterung|
 |CELLSNET-45577|GridDesktop sollte nicht über die letzte Zeile hinaus scrollen|Erweiterung|
 |CELLSNET-45633|GetRanges-Leistungsproblem bei Verwendung einer benutzerdefinierten Funktion mit vielen zu berechnenden Funktionen|Leistung|
-|CELLSNET-45592|Die Position einiger Zeichnungselemente ist beim Rendern von Excel in PDF falsch|Insekt|
-|CELLSNET-45575|Der graue Hintergrund auf der Box fehlt im Ausgabe-PDF|Insekt|
-|CELLSNET-45516|Formen Sie in Excel verteilten/verstreuten Text in eine PDF-Wiedergabe um|Insekt|
+|CELLSNET-45592|Die Position einiger Zeichnungselemente ist in Excel beim Rendern von PDF falsch|Insekt|
+|CELLSNET-45575|Bei der Ausgabe PDF fehlt der graue Hintergrund auf der Box|Insekt|
+|CELLSNET-45516|Gestalten Sie in Excel verteilten/verstreuten Text in PDF-Rendering|Insekt|
 |CELLSNET-45415|Beim Rendern von Blatt zu Bild werden asiatische Schriftarten in TextBox mit Zellbezug ignoriert|Insekt|
 |CELLSNET-45315|Einige Texte (Beschriftungen) fehlen in der Form beim Rendern von Blatt zu Bild|Insekt|
 |CELLSNET-45655|Bereitstellung einer Option, um zu steuern, ob das Zahlenpräzisionsformat beibehalten wird|Insekt|
-|CELLSNET-45630|Die HTML-Ausgabe von "222.xlsx" ist nicht korrekt|Insekt|
-|CELLSNET-45621|Beim Speichern im HTML-Dateiformat werden zwei Bildressourcen anstelle von einer erstellt|Insekt|
+|CELLSNET-45630|HTML Ausgabe von "222.xlsx" ist nicht richtig|Insekt|
+|CELLSNET-45621|Beim Speichern im Dateiformat HTML werden zwei Bildressourcen anstelle von einer erstellt|Insekt|
 |CELLSNET-45597|"Zahl gespeichert als Text" für die numerischen Spalten|Insekt|
-|CELLSNET-45558|Wenn eine MHtml-Datei mit der Erweiterung XLS gespeichert wird, zeigt MS Excel beim Öffnen der XLS-Datei Fehler an|Insekt|
-|CELLSNET-45557|Formatierung nach Speichern der Datei als XLS verloren|Insekt|
-|CELLSNET-45556|Bilder gehen nach dem Speichern der Datei als XLS verloren|Insekt|
-|CELLSNET-45538|Beim Speichern einer MHTML-Datei in XLS oder MHT gehen Bilder verloren und Formatierungen werden entfernt|Insekt|
+|CELLSNET-45558|Wenn die MHtml-Datei mit der Erweiterung XLS gespeichert wird, zeigt MS Excel beim Öffnen der Datei XLS Fehler an|Insekt|
+|CELLSNET-45557|Formatierung verloren, nachdem die Datei als XLS gespeichert wurde|Insekt|
+|CELLSNET-45556|Bilder gehen verloren, nachdem die Datei als XLS gespeichert wurde|Insekt|
+|CELLSNET-45538|Bilder gehen verloren und Formatierungen werden entfernt, wenn eine MHTML-Datei unter XLS oder MHT gespeichert wird|Insekt|
 |CELLSNET-45584|Endlosschleife bei Verwendung von PageSetup.GetCommands()|Insekt|
-|CELLSNET-45637|Drei Bindestriche „---“ werden im Ausgabe-PDF als Leerzeichen gerendert|Insekt|
-|CELLSNET-45612|Problem mit fließenden Linien (einfach, doppelt unterstrichen) bei der Excel-in-PDF-Konvertierung|Insekt|
+|CELLSNET-45637|Drei Bindestriche „---“ werden in der Ausgabe PDF als Leerzeichen gerendert|Insekt|
+|CELLSNET-45612|Problem mit fließenden Linien (einfache, doppelte Unterstreichungen) in Excel zur Konvertierung von PDF|Insekt|
 |CELLSNET-45608|Wenn ImageOrPrintOptions.OnlyArea = true, werden die Daten beschädigt|Insekt|
 |CELLSNET-45605|Teilweise fehlende Zeichen beim Konvertieren in Bild|Insekt|
 |CELLSNET-45571|Graue Standardzellenränder werden in gepunktete Linien umgewandelt|Insekt|
 |CELLSNET-45628|Das Wort wird beim Konvertieren in ein Bild umbenannt|Insekt|
 |CELLSNET-45603|Problem mit der Chart.Calculate()-Methode|Insekt|
 |CELLSNET-45602|Problem mit Trendgleichungen im Diagramm|Insekt|
-|CELLSNET-45587|Der Maßstab wird in der Ausgabe-PDF für das Netzdiagramm erhöht|Insekt|
+|CELLSNET-45587|Der Maßstab wird in der Ausgabe PDF für das Netzdiagramm erhöht|Insekt|
 |CELLSNET-45573|Das Diagrammbild hat keine dreistelligen Zahlen|Insekt|
 |CELLSNET-45569|Bild aus Diagramm kann nicht über Aspose.Cells gerendert werden|Insekt|
-|CELLSNET-45563|Falsches Diagramm-PDF, wenn Liniendarstellung mit Quell-Excel verglichen wird|Insekt|
+|CELLSNET-45563|Falsches Diagramm PDF, wenn Liniendarstellung mit Quell-Excel verglichen wird|Insekt|
 |CELLSNET-45561|Das aus Sample.xlsm-Arbeitsblatt SampleCharts generierte Bild ist nicht korrekt|Insekt|
 |CELLSNET-45441|Die Diagrammlegende wird beim Konvertieren in ein Bild an der falschen Position gerendert|Insekt|
 |CELLSNET-45643|Das OLE-Objekt ändert die Größe nach dem Öffnen und Bearbeiten der OLE-Objektdatei|Insekt|
-|CELLSNET-45639|SpreadsheetML - Verstecktes Attribut für Spalte funktioniert nicht|Insekt|
+|CELLSNET-45639|SpreadsheetML – Ausgeblendetes Attribut für Spalte funktioniert nicht|Insekt|
 |CELLSNET-45638|Das Einfügen einer Spalte in ein Arbeitsblatt verursacht eine beschädigte Excel-Ausgabedatei|Insekt|
-|CELLSNET-45636|SpreadsheetML - Verstecktes Attribut in Zeile funktioniert nicht richtig|Insekt|
+|CELLSNET-45636|SpreadsheetML – Ausgeblendetes Attribut in Zeile funktioniert nicht richtig|Insekt|
 |CELLSNET-45624|Das Speichern einer benutzerdefinierten Datumseigenschaft führt dazu, dass die falsche Zeit geschrieben wird|Insekt|
 |CELLSNET-45617|Die Spaltenbreite wird nach dem Laden und Speichern einer XLS-Datei geändert|Insekt|
 |CELLSNET-45616|Das Kreisdiagramm und das Säulendiagramm werden nach dem erneuten Laden und erneuten Speichern dramatisch geändert|Insekt|
@@ -67,7 +67,7 @@ url: /de/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45537|Das Bildsymbol geht nach dem Bearbeiten der Zelle B3 verloren|Insekt|
 |CELLSNET-45448|Gruppenspalten funktionieren in GridWeb nicht|Insekt|
 |CELLSNET-45627|Die Methode PivotTable.CalculateData() löst System.IndexOutOfRangeException aus|Ausnahme|
-|CELLSNET-45610|NullReferenceException beim Lesen von XLSX mit LoadFilter, das eine Pivot-Tabelle enthält|Ausnahme|
+|CELLSNET-45610|NullReferenceException beim Lesen von XLSX mit LoadFilter, das Pivot-Tabelle enthält|Ausnahme|
 |CELLSNET-42702|Fehler „Unlesbarer Inhalt“ beim Erstellen der Pivot-Tabelle|Ausnahme|
 |CELLSNET-45635|Die Eingabezeichenfolge hatte kein korrektes Format – Ausnahme beim Öffnen einer MS Excel-Datei|Ausnahme|
 |CELLSNET-45589|Artikel wurde bereits hinzugefügt. Wörterbuch eingeben: 'Sheet1' Schlüssel wird hinzugefügt: 'Sheet1'|Ausnahme|
@@ -110,8 +110,8 @@ Ruft den Designerspeicher des VBA-Projekts ab und legt ihn fest.
 #### **Anwendungsbeispiele**
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Cells-Wiki-Dokumenten hinzugefügt wurden:
 
-- [Fügen Sie PDF-Lesezeichen mit benannten Zielen hinzu](/cells/de/net/add-pdf-bookmarks-with-named-destinations/)
-- [Steuern Sie das Laden externer Ressourcen in MS Excel-Arbeitsmappen beim Rendern in PDF](/cells/de/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Fügen Sie PDF Lesezeichen mit benannten Zielen hinzu](/cells/de/net/add-pdf-bookmarks-with-named-destinations/)
+- [Steuern Sie das Laden externer Ressourcen in der MS Excel-Arbeitsmappe, während Sie auf PDF rendern](/cells/de/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Kopieren Sie VBA Macro UserForm DesignerStorage aus der Vorlage in die Zielarbeitsmappe](/cells/de/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [GridCell-Kommentare erstellen und abrufen](/cells/de/net/create-remove-and-get-gridcell-comments/)
 - [Senden Sie die Form nach vorne oder hinten in das Arbeitsblatt](/cells/de/net/send-shape-front-or-back-inside-the-worksheet/)

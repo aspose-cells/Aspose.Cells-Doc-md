@@ -6,7 +6,7 @@ url: /sv/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Möjliga användningsscenarier**
 
- Ibland vill du visa delsumma och totalsumma etiketter på icke-engelska språk som kinesiska, japanska, arabiska, hindi etc. Aspose.Cells låter dig göra detta med[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass och[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) fast egendom. Se den här artikeln om hur du använder den[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass
+Ibland vill du visa delsumma och totalsumma etiketter på icke-engelska språk som kinesiska, japanska, arabiska, hindi etc. Aspose.Cells låter dig göra detta med[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass och[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) fast egendom. Se den här artikeln om hur du använder den[**Globaliseringsinställningar**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)klass
 
 - [Använda klassen GlobalizationSettings för anpassade delsummaetiketter och andra cirkeletiketter](/cells/sv/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 

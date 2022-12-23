@@ -12,23 +12,23 @@ url: /ja/php-java/aspose-cells-for-php-via-java-20-2-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-43076|レンダリングされた HTML ファイルでイメージ タイプ EMF を設定する|強化|
+|CELLSJAVA-43076|レンダリングされた HTML ファイルにイメージ タイプ EMF を設定します。|強化|
 |CELLSJAVA-43113|PDF への変換 - java.lang.NumberFormatException: For input string|強化|
 |CELLSJAVA-43114|PDF への変換 - 無効な式:"'APRIL''12'.A1:'APRIL''12'.I23"|強化|
 |CELLSJAVA-43117|PDF への変換 - 16 進数は有効な 16 進数ではありません|強化|
 |CELLSJAVA-43118|PDF への変換 - java.lang.NumberFormatException: For input string: "341,403,811.74"|強化|
-|CELLSJAVA-43077|ワークシートを HTML にレンダリングする際に例外「予期しない画像タイプ」が発生する|バグ|
+|CELLSJAVA-43077|ワークシートを HTML にレンダリングしているときに例外「予期しない画像の種類」が発生する|バグ|
 |CELLSJAVA-43096|Excel ファイルを HTML に変換中にプログラムがハングする|バグ|
 |CELLSJAVA-43107|PDF への変換 - com.aspose.cells.CellsException: Shape to image エラー!|バグ|
 |CELLSJAVA-43108|PDF への変換 - com.aspose.cells.CellsException|バグ|
 |CELLSJAVA-43088|レーダー チャートが XLSX から PDF への変換で出力ファイルに表示されない|バグ|
-|CELLSJAVA-43091|ドーナツ グラフのデータ ラベルが PDF ファイルで重なっている|バグ|
+|CELLSJAVA-43091|ドーナツ グラフのデータ ラベルが PDF ファイルで重複している|バグ|
 |CELLSJAVA-43099|ワークシートの画像が正しく表示されない|バグ|
-|CELLSJAVA-43093|ActiveX コントロールが XLS ファイル形式で検出されない|バグ|
+|CELLSJAVA-43093|XLS ファイル形式で ActiveX コントロールが検出されない|バグ|
 |CELLSJAVA-43104|getShowTabs と setShowTabs に関する問題|バグ|
-|CELLSJAVA-43121|XLSでページ数を取得しようとしているOOM|バグ|
+|CELLSJAVA-43121|OOM が XLS のページ数を取得しようとしています|バグ|
 |CELLSJAVA-43125|フォームと ActiveX オブジェクトが重複している|バグ|
-|CELLSJAVA-43094|XLSX ファイル形式の読み込み時の例外|例外|
+|CELLSJAVA-43094|XLSX ファイル形式をロードするときの例外|例外|
 |CELLSJAVA-43100|Excel ファイルで Workbook.calculateFormula() を呼び出すと、例外「java.lang.ArrayIndexOutOfBoundsException」が発生する|例外|
 |CELLSJAVA-43123|MEMORY_PREFERENCE の使用中に ArrayIndexOutOfBoundsException が発生する|例外|
 |CELLSJAVA-43105|PDF への変換 - java.lang.ArrayIndexOutOfBoundsException: 60|例外|
@@ -38,7 +38,7 @@ url: /ja/php-java/aspose-cells-for-php-via-java-20-2-release-notes/
 |CELLSJAVA-43112|PDF への変換 - java.lang.NullPointerException|例外|
 |CELLSJAVA-43115|PDF への変換 - java.lang.NegativeArraySizeException|例外|
 |CELLSJAVA-43116|PDF への変換 - java.lang.IllegalStateException: 構造化ストレージが壊れているようです。|例外|
-|CELLSJAVA-43120|ワークブックを PDF に変換中に java.lang.NumberFormatException|例外|
+|CELLSJAVA-43120|ワークブックを PDF に変換中に java.lang.NumberFormatException が発生する|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for PHP via Java に対して行われた後方互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、それを提起してください。 Aspose.Cells サポート フォーラムで。
 #### **FormulaParseOptions.Parse プロパティを追加します。**

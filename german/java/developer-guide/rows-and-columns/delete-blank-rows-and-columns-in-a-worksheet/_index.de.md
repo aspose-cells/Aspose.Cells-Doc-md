@@ -6,7 +6,7 @@ url: /de/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Es ist möglich, alle leeren Zeilen und Spalten aus einem Arbeitsblatt zu löschen. Dies ist beispielsweise nützlich, wenn Sie aus einer Microsoft Excel-Datei eine PDF-Datei generieren und nur Zeilen und Spalten konvertieren möchten, die Daten enthalten.
+Es ist möglich, alle leeren Zeilen und Spalten aus einem Arbeitsblatt zu löschen. Dies ist beispielsweise nützlich, wenn Sie eine PDF-Datei aus einer Microsoft-Excel-Datei generieren und nur Zeilen und Spalten konvertieren möchten, die Daten enthalten.
 
 Verwenden Sie die folgenden Aspose.Cells-Methoden, um leere Zeilen und Spalten zu löschen:
 

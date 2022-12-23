@@ -30,7 +30,7 @@ Aspose.Cells 内嵌公式计算引擎。除了从设计器文件导入计算公�
 
 有时，您需要直接计算公式结果而不将它们添加到工作表中。公式中使用的单元格值已存在于工作表中，您只需根据某些 Microsoft Excel 公式查找这些值的结果，而无需在工作表中添加公式。
 
-您可以使用 Aspose.Cells' 公式计算引擎 APIs[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)至[**计算**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)这些公式的结果而不将它们添加到工作表中：
+您可以使用 Aspose.Cells' 公式计算引擎 APIs[**工作表**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)到[**计算**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3)这些公式的结果而不将它们添加到工作表中：
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DirectCalculationFormula-1.cs" >}}
 

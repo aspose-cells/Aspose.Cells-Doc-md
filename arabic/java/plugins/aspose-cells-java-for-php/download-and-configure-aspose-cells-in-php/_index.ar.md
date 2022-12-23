@@ -87,7 +87,7 @@ $ git clone [https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/P
  4. تحميل[JavaBridge.war](https://sourceforge.net/projects/php-java-bridge/files/Binary%20package/php-java-bridge_6.2.1/JavaBridgeTemplate621.war/download). انسخ هذا الملف إلى دليل تطبيقات الويب tomcat.
 (على سبيل المثال: C: \ Program Files \ Apache Software Foundation \ Tomcat 8.0 \ webapps)
 
-\ 5. أعد تشغيل خدمة اباتشي tomcat.
+\ 5. أعد تشغيل خدمة اباتشي القط.
 
  6- اذهب إلى<http://localhost:8080/JavaBridge/test.php> للتحقق مما إذا كان php يعمل. يمكنك أن تجد أمثلة أخرى هناك
 

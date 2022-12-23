@@ -10,7 +10,7 @@ Det här dokumentet beskriver ändringar av Aspose.Cells API från version 8.0.2
 
 {{% /alert %}} 
 ## **HtmlSaveOptions.ExportHiddenWorksheet Property har lagts till**
-Klassen HtmlSaveOptions har exponerat egenskapen ExportHiddenWorksheet som kan användas för att ange om dolda kalkylblad exporteras till HTML-format. Standardvärdet är sant. medan om satt till false, kommer Aspose.Cells inte att exportera dolt kalkylbladsinnehåll.
+Klassen HtmlSaveOptions har exponerat egenskapen ExportHiddenWorksheet som kan användas för att ange om dolda kalkylblad exporteras till formatet HTML. Standardvärdet är sant. medan om satt till false, kommer Aspose.Cells inte att exportera dolt kalkylbladsinnehåll.
 
 {{% alert color="primary" %}} 
 

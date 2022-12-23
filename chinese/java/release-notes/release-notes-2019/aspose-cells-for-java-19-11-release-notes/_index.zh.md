@@ -17,8 +17,8 @@ url: /zh/java/aspose-cells-for-java-19-11-release-notes/
 |CELLSJAVA-43018|将打印区域范围导出到 HTML，而不隐式更改同一工作簿的某些状态|强化|
 |CELLSJAVA-43041|Cells.importCSV 抛出异常“字符串值不能超过 255 个字符”|强化|
 |CELLSJAVA-43043|Cells.removeDuplicates 需要更多时间处理大型数据集|强化|
-|CELLSJAVA-43019|径向图未正确呈现为 HTML|漏洞|
-|CELLSJAVA-43027|在呈现为 PNG 后，轴的缩放比例不同。|漏洞|
+|CELLSJAVA-43019|径向图未正确呈现到 HTML|漏洞|
+|CELLSJAVA-43027|翻译成 PNG 后，轴的缩放比例不同。|漏洞|
 |CELLSJAVA-42474|更新源数据后数据透视表未刷新和损坏|漏洞|
 |CELLSJAVA-43033|转换为 PDF 不会结束。|漏洞|
 |CELLSJAVA-43034|检索到无效的俄语（自定义）日期格式输出|漏洞|
@@ -38,7 +38,7 @@ url: /zh/java/aspose-cells-for-java-19-11-release-notes/
 ### **添加 Workbook.ExportXml(string mapName, Stream stream) 方法。**
 将 XML 数据导出到流。
 ### **添加 HtmlSaveOptions.ExportArea 属性**
-获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。将文件保存为 HTML 时，只会导出指定区域。
+获取或设置当前活动工作表的导出单元格区域。如果设置该属性，则当前活动工作表的打印区域将被忽略。保存文件到HTML时只会导出指定区域。
 ### **添加类：DataMashup、PowerQueryFormula、PowerQueryFormulaCollection、PowerQueryFormulaItem 和 PowerQueryFormulaItemCollection**
 获取 DataMashup 中的信息。
 ### **添加 DBConnection.SeverCommand 属性。**

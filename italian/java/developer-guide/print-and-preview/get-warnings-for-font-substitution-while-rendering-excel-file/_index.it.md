@@ -6,9 +6,9 @@ url: /it/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}}
 
-volte, durante il rendering di file Microsoft Excel in PDF, Aspose.Cells sostituisce i caratteri. Aspose.Cells fornisce una funzionalità che consente agli sviluppatori di sapere che un determinato carattere è stato sostituito attivando un avviso. Questa è una funzione utile che può aiutarti a identificare perché Aspose.Cells ha reso il PDF è diverso dal file Excel effettivo e puoi quindi intraprendere le azioni appropriate. Ad esempio, è possibile installare i caratteri mancanti in modo che i risultati del rendering abbiano lo stesso aspetto.
+A volte, durante il rendering di file Excel Microsoft in PDF, Aspose.Cells sostituisce i caratteri. Aspose.Cells fornisce una funzionalità che consente agli sviluppatori di sapere che un determinato carattere è stato sostituito attivando un avviso. Questa è una funzione utile che può aiutarti a identificare perché Aspose.Cells reso PDF è diverso dal file Excel effettivo e puoi quindi intraprendere le azioni appropriate. Ad esempio, è possibile installare i caratteri mancanti in modo che i risultati del rendering abbiano lo stesso aspetto.
 
-Se desideri ricevere gli avvisi per la sostituzione dei caratteri durante il rendering di un file Excel in PDF, implementa l'interfaccia IWarningCallback e imposta il metodo PdfSaveOptions.setWarningCallback() con l'interfaccia implementata.
+Se si desidera ottenere gli avvisi per la sostituzione dei caratteri durante il rendering di un file Excel in PDF, implementare l'interfaccia IWarningCallback e impostare il metodo PdfSaveOptions.setWarningCallback() con l'interfaccia implementata.
 
 {{% /alert %}}
 
@@ -20,9 +20,9 @@ Aspose.Cells sostituirà i caratteri nelle celle A6 e A7 con caratteri idonei co
 
 ![cose da fare:immagine_alt_testo](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **Scarica il file sorgente e il PDF di output**
+## **Scarica il file sorgente e l'output PDF**
 
-È possibile scaricare il file Excel di origine e il PDF di output dai seguenti collegamenti
+È possibile scaricare il file Excel sorgente e l'output PDF dai seguenti collegamenti
 
 - [fonte.xlsx](5472700.xlsx)
 - [uscita.pdf](5472699.pdf)
@@ -83,6 +83,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}}
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo Workbook.calculateFormula appena prima di eseguire il rendering del foglio di calcolo in formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati nel PDF.
+ Se il tuo foglio di calcolo contiene formule, è meglio chiamare il metodo Workbook.calculateFormula appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
 
 {{% /alert %}}

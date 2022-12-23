@@ -15,7 +15,7 @@ Aquí se explica cómo crear un rango, poner un valor, establecer un estilo y re
 
 ## **Gestión de rangos usando Aspose.Cells**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) colección que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación.
 
 ### **Crear rango**
 

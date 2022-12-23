@@ -14,4 +14,4 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.5.0 für Wind
 |:- |:- |:- |
 |CELLSCPP-778| XML-Modul optimieren|Optimieren|
 |CELLSCPP-784| DateTime::parseUTC-Problem behoben|Fehler|
-|CELLSCPP-786| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-786| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|

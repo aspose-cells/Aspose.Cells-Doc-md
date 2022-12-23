@@ -16,7 +16,7 @@ La capture d'écran suivante montre le[fichier modèle](5472556.xlsx) contenu et
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-La capture d'écran suivante montre le[PDF de sortie](5472554.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
+La capture d'écran suivante montre le[sortie PDF](5472554.pdf) que vous pouvez télécharger à partir du lien indiqué. Ici vous pouvez voir, les données en couleur rouge et fond jaune ne sont pas présentes mais toutes les formes sont là.
 
 ![tâche : image_autre_texte](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

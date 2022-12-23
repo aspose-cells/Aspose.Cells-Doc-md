@@ -12,6 +12,6 @@ url: /zh/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ## **添加 2 色标和 3 色标条件格式**
 以下示例代码添加了 2 色和 3 色比例条件格式。它生成[输出excel文件](5472511.xlsx)如下所示。
 
-![待办事项：图像_替代_文本](adding-2-color-scale-and-3-color-scale-conditional-formattings_1.png)
+![待办事项：图片_替代_文本](adding-2-color-scale-and-3-color-scale-conditional-formattings_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddingTwoAndThreeColorScale-AddingTwoAndThreeColorScale.java" >}}

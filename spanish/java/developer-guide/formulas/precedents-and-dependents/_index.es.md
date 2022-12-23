@@ -36,7 +36,7 @@ Microsoft Excel permite a los usuarios rastrear precedentes y dependientes.
 ### **Rastreando precedentes**
 Aspose.Cells facilita la obtención de celdas precedentes. No solo puede recuperar celdas que brindan datos a fórmulas precedentes simples, sino que también puede encontrar celdas que brindan datos a fórmulas precedentes complejas con rangos con nombre.
 
-En el siguiente ejemplo, se utiliza un archivo de plantilla de Excel, Book1.xls. La hoja de cálculo tiene datos y fórmulas en la primera hoja de cálculo.
+En el siguiente ejemplo, se utiliza un archivo de plantilla de Excel, Book1.xls. La hoja de cálculo tiene datos y fórmulas en la primera hoja de trabajo.
 
  Aspose.Cells proporciona el[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) clase'[ObtenerPrecedentes](https://reference.aspose.com/cells/java/com.aspose.cells/Cell#getPrecedents() ) método utilizado para rastrear los precedentes de una celda. devuelve un[ReferredAreaCollectionReferredAreaCollectionReferredAreaCollection](https://reference.aspose.com/cells/java/com.aspose.cells/ReferredAreaCollection)Como puede ver arriba, en Book1.xls, la celda B7 contiene una fórmula "=SUM(A1:A3)". Entonces, las celdas A1:A3 son las celdas precedentes a la celda B7. El siguiente ejemplo demuestra la función de rastreo de precedentes utilizando el archivo de plantilla Book1.xls.
 

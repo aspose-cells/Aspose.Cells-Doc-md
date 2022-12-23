@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.4.0
+title: Pubblico API Modifiche Aspose.Cells 8.4.0
 type: docs
 weight: 130
 url: /it/net/public-api-changes-in-aspose-cells-8-4-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.2 alla 8.4.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati,[classi aggiunte ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/) e[classi rimosse ecc.](/cells/it/net/public-api-changes-in-aspose-cells-8-4-0/), ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -171,10 +171,10 @@ workbook.Save("TabularForm.xlsx");
 {{< /highlight >}}
 
 
-### **Classe TxtLoadStyleStrategy e proprietà TxtLoadOptions.LoadStyleStrategy aggiunta**
+### **Classe TxtLoadStyleStrategy e proprietà TxtLoadOptions.LoadStyleStrategy aggiunto**
 Aspose.Cells for .NET 8.4.0 ha esposto la classe TxtLoadStyleStrategy e la proprietà TxtLoadOptions.LoadStyleStrategy per specificare la strategia per formattare i valori analizzati durante la conversione del valore stringa in numero o data/ora.
 ### **Metodo DataBar.ToImage aggiunto**
-Con il rilascio della v8.4.0, l'API Aspose.Cells ha fornito il metodo DataBar.ToImage per salvare i DataBar formattati in modo condizionale in formato immagine. Il metodo {DataBar.ToImage}} accetta due parametri come descritto di seguito.
+Con il rilascio della v8.4.0, il Aspose.Cells API ha fornito il metodo DataBar.ToImage per salvare i DataBar formattati in modo condizionale in formato immagine. Il metodo {DataBar.ToImage}} accetta due parametri come descritto di seguito.
 
 - Il primo parametro è di tipo Aspose.Cells.Cell su cui è stata applicata la formattazione condizionale.
 - Il secondo parametro è di tipo Aspose.Cells.Rendering.ImageOrPrintOptions per impostare diversi parametri dell'immagine risultante.
@@ -223,11 +223,11 @@ File.WriteAllBytes("databar.png", imgBytes);
 
 
 ### **Proprietà Border.ThemeColor aggiunto**
-Aspose.Cells Le API consentono di estrarre i dati di formattazione relativi al tema dai fogli di calcolo. Con il rilascio di Aspose.Cells for .NET 8.4.0, l'API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi del colore del tema dei bordi Cell.
-### **Proprietà DrawObject.ImageBytes aggiunta**
+Aspose.Cells Le API consentono di estrarre i dati di formattazione relativi al tema dai fogli di calcolo. Con il rilascio di Aspose.Cells for .NET 8.4.0, API ha esposto la proprietà Border.ThemeColor che può essere utilizzata per recuperare gli attributi del colore del tema dei bordi Cell.
+### **Proprietà DrawObject.ImageBytes aggiunto**
 Aspose.Cells for .NET 8.4.0 ha esposto la proprietà DrawObject.ImageBytes per ottenere i dati dell'immagine da Chart o Shape.
 ### **Proprietà HtmlSaveOptions.ExportBogusRowData aggiunta**
-Aspose.Cells for .NET 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData}}. La proprietà del tipo booleano determina se l'API inietterà dati fasulli della riga inferiore durante l'esportazione del foglio di calcolo in formato HTML.
+Aspose.Cells for .NET 8.4.0 ha fornito la proprietà {HtmlSaveOptions.ExportBogusRowData}}. La proprietà del tipo booleano determina se API inietterà dati fasulli della riga inferiore durante l'esportazione del foglio di calcolo nel formato HTML.
 
 {{% alert color="primary" %}} 
 
@@ -261,7 +261,7 @@ workbook.Save("output.xlsx");
 
 
 ### **Proprietà HtmlSaveOptions.CellCssPrefix aggiunta**
-La proprietà appena aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione di fogli di calcolo in formato HTML.
+La proprietà appena aggiunta HtmlSaveOptions.CellCssPrefix consente di impostare il prefisso per i file CSS durante l'esportazione dei fogli di calcolo nel formato HTML.
 
 {{% alert color="primary" %}} 
 

@@ -5,10 +5,10 @@ weight: 30
 url: /it/net/adding-new-worksheets-to-workbook-and-activating-a-sheet-in-vsto-and-aspose-cells/
 ---
 ## **Suggerimento per la migrazione:**
-1. Aggiungi nuovi fogli di lavoro a un file Microsoft Excel esistente.
+1. Aggiungi nuovi fogli di lavoro a un file Excel Microsoft esistente.
 1. Inserisci i dati nelle celle di ogni nuovo foglio di lavoro.
 1. Attiva un foglio nella cartella di lavoro.
-1. Salva come file Microsoft Excel.
+1. Salva come file Excel Microsoft.
 
 Di seguito sono riportati frammenti di codice paralleli per VSTO (C#) e Aspose.Cells for .NET (C#), che mostrano come eseguire queste attività.
 
@@ -16,7 +16,7 @@ Di seguito sono riportati frammenti di codice paralleli per VSTO (C#) e Aspose.C
 
 {{< highlight "csharp" >}}
 
- //inizia l'oggetto dell'applicazione
+//inizia l'oggetto dell'applicazione
 
 Excel.Application excelApp = Applicazione;
 

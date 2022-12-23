@@ -28,23 +28,23 @@ url: /ru/net/feature-overview/
 |:- |:- |:- |:- |
 |Качественные конверсии|Быстро и надежно конвертируйте между несколькими популярными форматами документов.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Microsoft Книга Excel (XLS)|Самая быстрая и наиболее полная реализация формата XLS, которую вы можете найти.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Электронная таблицаML (XLSX, XML)| Aspose.Cells поддерживает OOXML, Flat OPC, а также Excel 2003 XML. Кроме того, компонент поддерживает<br>все основные форматы файлов Excel 2007, 2010 и 2013, например XLSX, XLTX, XLSM, XLTM и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells поддерживает OOXML, Flat OPC, а также Excel 2003 XML. Кроме того, компонент поддерживает<br>все основные форматы файлов Excel 2007, 2010 и 2013, например XLSX, XLTX, XLSM, XLTM и т. д.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Значение, разделенное запятыми (CSV)|Всесторонняя поддержка формата CSV для взаимодействия с различными приложениями.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ТСВ|Загружайте и сохраняйте документы в формате файла TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Сохранить как HTML доступно.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument — СОД](/cells/ru/net/opendocument-ods/)|Aspose.Cells может загружать и сохранять документы в формате электронной таблицы OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Преобразование в файлы PDF|Конвертируйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|Загружайте и сохраняйте документы в формате файла TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Сохранить как HTML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[OpenDocument - ODS](/cells/ru/net/opendocument-ods/)|Aspose.Cells может загружать и сохранять документы в формате электронной таблицы OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Преобразование в файлы PDF|Преобразуйте любую электронную таблицу в PDF с высокой точностью.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Табуляция с разделителями|Загружайте и сохраняйте документы в формате файлов с разделителями табуляции.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Обычный текст (TXT)|Легко извлекайте текст, сохраняя его в текстовом формате.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XPS-документ](/cells/ru/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Преобразование электронной таблицы Excel в документ XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Преобразование рабочего листа в изображение и рабочего листа в изображение по странице](/cells/ru/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Электронные таблицы также можно экспортировать в формат файлов изображений с тегами (TIFF) с любым желаемым типом сжатия.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XPS документ](/cells/ru/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Преобразование электронной таблицы Excel в документ XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Преобразование рабочего листа в изображение и рабочего листа в изображение по странице](/cells/ru/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Электронные таблицы также можно экспортировать в формат файла изображения с тегами (TIFF) с любым желаемым типом сжатия.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Рендеринг и печать**
 Aspose.Cells for .NET теперь обеспечивает высокоточную визуализацию страниц электронных таблиц.
 
 |**Особенность**|**.NET**|**.NET Стандарт 2.0** |
 |:- |:- |:- |
 |Разложите документ на страницы с высокой точностью до Microsoft Excel® (точно так же, как это сделает Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Преобразование страниц рабочего листа в растровые изображения (TIFF, многостраничный TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Преобразование страниц рабочего листа в растровые изображения (TIFF, многостраничные TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Преобразование страниц электронных таблиц в векторные изображения (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Укажите разрешение изображения, качество, сжатие и другие параметры.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Печатайте электронные таблицы, используя инфраструктуру печати .NET. Компонент имеет встроенный метод печати для печати рабочих листов, как показано в Microsoft Предварительном просмотре перед печатью Excel.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

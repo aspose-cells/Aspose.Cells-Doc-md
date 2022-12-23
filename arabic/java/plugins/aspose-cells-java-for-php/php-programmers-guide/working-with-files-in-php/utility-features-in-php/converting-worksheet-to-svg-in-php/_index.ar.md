@@ -1,5 +1,5 @@
 ﻿---
-title: تحويل ورقة العمل إلى SVG في PHP
+title: تحويل ورقة العمل إلى SVG بلغة PHP
 type: docs
 weight: 60
 url: /ar/java/converting-worksheet-to-svg-in-php/
@@ -54,7 +54,7 @@ for($i=0; $i < $sheetCount; $i++)
 }
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 تحميل**تحويل ورقة العمل إلى SVG (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

@@ -28,7 +28,7 @@ url: /ja/java/aspose-cells-for-java-8-6-2-release-notes/
 ## **バグ**
 
 
-(CELLSJAVA-41554) - HTML から EXCEL 形式への変換時に画像が見つからない
+(CELLSJAVA-41554) - HTML から EXCEL 形式への変換時に画像が欠落する
 
 (CELLSJAVA-41549) - Aspose.Cells v8.6.1 で保存した後、Excel 2010 で XLSB が破損する
 
@@ -46,15 +46,15 @@ url: /ja/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41538) - スプレッドシートを再保存すると、controlPr タグの sheet1.xml からいくつかのプロパティが削除されます
 
-(CELLSJAVA-41567) - Excel から PDF へのレンダリングでの webdings フォントの問題
+(CELLSJAVA-41567) - Excel の webdings フォントで PDF レンダリングの問題
 
-(CELLSJAVA-41559) - PDF に保存すると、正しくないカラースケール カラーが生成されます
+(CELLSJAVA-41559) - PDF に保存すると、正しくないカラースケールの色が生成されます
 
-(CELLSJAVA-41556) - Aspose.Cells で生成された PDF を印刷すると、埋め込まれたバーコードがある程度変更されます
+(CELLSJAVA-41556) - PDF 生成された Aspose.Cells を印刷すると、埋め込まれたバーコードがある程度変更されます
 
 (CELLSJAVA-41552) - 回転したテキスト値の幅と高さが正しくないようです
 
-(CELLSJAVA-41578) - chart.toPdf(fileName) メソッドの実行直後に Chart to PDF が生成されない
+(CELLSJAVA-41578) - chart.toPdf(fileName) メソッドの実行直後に PDF までのチャートが生成されない
 
 (CELLSJAVA-41574) - Y 軸と凡例の間の間隔の問題
 
@@ -72,7 +72,7 @@ url: /ja/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41509) - グラフを PDF にレンダリングする際のグラフの境界線に関する問題
 
-(CELLSJAVA-41505) - グラフを PDF にレンダリングする際に右と下の境界線がトリミングされる
+(CELLSJAVA-41505) - PDF へのチャートのレンダリング中に右と下の境界線がトリミングされる
 
 (CELLSJAVA-41560) - ワークシートのデフォルト色を取得する方法
 
@@ -86,11 +86,11 @@ url: /ja/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41550) - Workbook.combine での java.lang.NullPointerException
 
-(CELLSJAVA-41564) - com.aspose.cells.Row を呼び出す NullPointerExceptions
+ (CELLSJAVA-41564) - com.aspose.cells.Row を呼び出す NullPointerExceptions
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -132,7 +132,7 @@ WorkbookDesigner.CallBack プロパティと ISmartMarkerCallBack インター�
 
 
 
- GridWeb に AjaxCallFinished イベントを追加
+GridWeb に AjaxCallFinished イベントを追加
 
 コントロールの ajax 更新が完了したときに発生します (EnableAJAX は true に設定されます)。
 
@@ -148,4 +148,4 @@ WorkbookDesigner.CallBack プロパティと ISmartMarkerCallBack インター�
 
 ノート
 
-Aspose.Cells for Java のコード ベースは、関連する .NET バージョンのコードと一致するため、Aspose.Cells for .NET v8.6.2 に含まれるほとんどの変更、機能強化、および修正は、この Aspose.Cells for Java v8.6.2 にも含まれています。
+ Aspose.Cells for Java のコード ベースは、関連する .NET バージョンのコードと一致するため、Aspose.Cells for .NET v8.6.2 に含まれるほとんどの変更、機能強化、および修正は、この Aspose.Cells for Java v8.6.2 にも含まれています。

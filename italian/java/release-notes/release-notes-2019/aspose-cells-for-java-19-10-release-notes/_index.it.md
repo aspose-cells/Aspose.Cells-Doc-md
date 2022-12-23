@@ -10,17 +10,17 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.10.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41814|Supporta l'ordinamento personalizzato dei dati per l'area specifica nel rapporto di tabella pivot|Nuova caratteristica|
 |CELLSJAVA-42988|Problema di prestazioni con calcolaFormula()|Aumento|
 |CELLSJAVA-41103|La colorazione e la formattazione dei dati della tabella pivot non vengono visualizzate correttamente|Insetto|
-|CELLSJAVA-43007|Il PDF non viene generato come previsto|Insetto|
+|CELLSJAVA-43007|PDF non viene generato come previsto|Insetto|
 |CELLSJAVA-43025|Cell.getStyle.getCustom restituisce un formato errato per la locale tedesca|Insetto|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException durante il caricamento del file Excel|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo Cells.RemoveDuplicates()**
 Rimuove i dati duplicati dell'intervallo.
 ### **Aggiunge la proprietà OleObject.FullObjectBin**

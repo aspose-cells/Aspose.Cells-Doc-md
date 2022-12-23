@@ -1,5 +1,5 @@
 ﻿---
-title: Especifique cómo cruzar la cadena en el PDF de salida y la imagen
+title: Especifique cómo cruzar la cadena en la salida PDF y la imagen
 type: docs
 weight: 110
 url: /es/java/specify-how-to-cross-string-in-output-pdf-and-image/
@@ -16,9 +16,9 @@ Cuando una celda contiene texto o una cadena pero es más grande que el ancho de
 
 - [**TextoCrossType.STRICT_IN_CELL**](https://reference.aspose.com/cells/java/com.aspose.cells/textcrosstype#STRICT_IN_CELL): solo muestra la cadena dentro del ancho de la celda.
 
-## **Especifique cómo cruzar cadenas en PDF/Imagen de salida usando TextCrossType**
+## **Especifique cómo cruzar una cadena en la salida PDF/Imagen usando TextCrossType**
 
-El siguiente código de muestra carga el archivo de muestra de Excel y lo guarda en formato PDF/Imagen especificando diferentes[**Tipo de cruz de texto**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType)El archivo de muestra de Excel y los archivos de salida se pueden descargar desde los siguientes enlaces:
+El siguiente código de muestra carga el archivo de muestra de Excel y lo guarda en el formato PDF/Imagen especificando diferentes[**Tipo de cruz de texto**](https://reference.aspose.com/cells/java/com.aspose.cells/TextCrossType). El archivo de muestra de Excel y los archivos de salida se pueden descargar desde los siguientes enlaces:
 
 [ejemploCrossType.xlsx](sampleCrossType.xlsx)
 

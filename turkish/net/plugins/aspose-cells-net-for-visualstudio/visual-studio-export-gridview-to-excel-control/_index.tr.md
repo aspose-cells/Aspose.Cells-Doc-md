@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/visual-studio-export-gridview-to-excel-control/
 ---
-## **giriiş**
+## **Giriş**
  GridView'u Excel'e Aktar Kontrolü, GridView içeriğinin Microsoft Excel veya OpenOffice Elektronik Tablolarına aktarılmasına izin veren bir ASP.NET sunucu kontrolüdür.[Aspose.Cells](https://products.aspose.com/cells/net/) . ekler**Excel'e Aktar** GridView kontrolünün üstündeki düğme. Düğmeye tıklamak, GridView denetiminin içeriğini dinamik olarak bir Microsoft Excel veya OpenOffice Elektronik Tablosuna aktarır ve ardından, dışa aktarılan dosyayı kullanıcı tarafından seçilen disk konumuna yalnızca birkaç saniye içinde otomatik olarak indirir.
 ### **Modül Özellikleri**
 Denetimin bu ilk sürümü aşağıdaki özellikleri sağlar:
@@ -19,7 +19,7 @@ Denetimin bu ilk sürümü aşağıdaki özellikleri sağlar:
 - Yapılandırılabilir disk yolunda sunucuda dışa aktarılan her belgeyi kaydetme seçeneği
 - Disk belleği etkinleştirildiğinde geçerli sayfayı veya tüm sayfaları dışa aktarma seçeneği
 
-![yapılacaklar:resim_alternatif_Metin](visual-studio-export-gridview-to-excel-control_1.png)
+![yapılacaklar:resim_alternatif_metin](visual-studio-export-gridview-to-excel-control_1.png)
 
 Bu kontrol, GridView'ü aşağıdaki farklı dosya biçimlerinde dışa aktarmanıza olanak tanır.
 
@@ -72,14 +72,14 @@ Araçlar menüsünde Araç Kutusu Öğelerini Seç'e tıklayın.
 
 Sol taraftaki Araç Kutusunda bir aspx veya ascx kontrolü açtığınızda, Genel Sekmesi altında ExportGridViewToWord'u göreceksiniz.
 
-![yapılacaklar:resim_alternatif_Metin](visual-studio-export-gridview-to-excel-control_2.png)
+![yapılacaklar:resim_alternatif_metin](visual-studio-export-gridview-to-excel-control_2.png)
 ## **kullanma**
 Kurulduktan sonra, bu kontrolü ASP.NET uygulamalarınızda kullanmaya başlamak çok kolaydır.
 
 |**.NET çerçeve 4.0 ve üzeri için** |**.NET çerçeve 2.0 ve üzeri için** |** |
 |:- |:- |:- |
 | Visual Studio 2010 ve üzeri sürümlerde .NET çerçeve 4.0 ve üzeri sürümlerde çalışan uygulamalar için şunu görmeniz gerekir:**ExportGridViewToExcel**kontrol etmek**Aspose** Aşağıda gösterildiği gibi Araç Çubuğunda Sekme. Bu kontrolü, diğer .NET kontrolleri gibi ASP.NET sayfanıza, kontrolünüze veya ana sayfanıza sürükleyip bırakabilir ve başlayabilirsiniz.|Herhangi bir görsel stüdyo sürümünde .NET 2.0'da çalışan uygulamalarda bu kontrolü kullanabilmek için, araç kutunuza ExportGridViewToExcel'i talimatlara göre eklediğinizden emin olun.[8.1.2.1 İndirme ve Yükleme]() başlık altında**Visual Studio 2005, 2008 ve Express sürümleri için** <br> Görmelisin**ExportGridViewToExcel**kontrol etmek**Genel** Aşağıda gösterildiği gibi Araç Çubuğunda Sekme. Bu kontrolü, diğer .NET kontrolleri gibi ASP.NET sayfanıza, kontrolünüze veya ana sayfanıza sürükleyip bırakabilir ve başlayabilirsiniz.||
-|<p>![yapılacaklar:resim_alternatif_Metin](picture2.png)</p><p></p>|<p>![yapılacaklar:resim_alternatif_Metin](picture3.png)</p><p></p>||
+|<p>![yapılacaklar:resim_alternatif_metin](picture2.png)</p><p></p>|<p>![yapılacaklar:resim_alternatif_metin](picture3.png)</p><p></p>||
 ### **ExportGridViewToExcel kontrolünü el ile ekleme**
 Visual Studio Toolbox kullanan yukarıdaki yöntemleri kullanırken herhangi bir sorun yaşarsanız, bu kontrolü 2.0'dan daha büyük herhangi bir .NET çerçevesinde çalışan ASP.NET uygulamanıza manuel olarak ekleyebilirsiniz.
 
@@ -110,7 +110,7 @@ Bu Kontrolü kullanırken karşılaşabileceğiniz yaygın sorular ve sorunlar
 ### **Aspose .NET GridView'ı Excel Kontrol Özelliklerine Aktar**
 Aşağıdaki özellikler, bu kontrol tarafından sağlanan harika özellikleri yapılandırmak ve kullanmak için kullanıma sunulmuştur.
 
-|**Mülkiyet adı** |**Tip** |**Örnek/Olası değerler** |**Tanım** |
+|**Mülkiyet adı** |**Tip** |**Örnek/Olası değerler** |**Açıklama** |
 |:- |:- |:- |:- |
 | Dışa AktarDüğmeMetni| sicim| Excel'e Aktar| Mevcut varsayılan metni geçersiz kılmak için bu özelliği kullanabilirsiniz.|
 |ExportButtonCssClass| sicim| btn btn-birincil| Dışa aktarma düğmesinin dış div'ine uygulanan Css Sınıfı. Düğmeye css uygulamak için .yourClass girişini kullanabilirsiniz.|
@@ -142,7 +142,7 @@ Tüm özelliklerin kullanıldığı GridView'ı Excel'e Dışa Aktar denetiminin
 ## **Video Demosu**
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=_fSq_3TP1oM) modülü çalışırken görmek için aşağıdaki
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

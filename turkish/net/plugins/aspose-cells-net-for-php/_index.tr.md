@@ -6,7 +6,7 @@ url: /tr/net/aspose-cells-net-for-php/
 ---
 ## **Başlarken**
 
-### **giriiş**
+### **Giriş**
 
 ### **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
@@ -22,7 +22,7 @@ url: /tr/net/aspose-cells-net-for-php/
 
 **Desteklenen platformlar aşağıdadır:**
 
-- PHP 5.3 veya üzeri
+- PHP 5.3 veya üstü
 - Windows işletim sistemi
 
 ### **İndirin ve Yapılandırın**
@@ -119,7 +119,7 @@ ve kurulum komutunu çalıştırın
 
 ### **Destek Genişletin ve Katkıda Bulunun**
 
-#### **Destek**
+#### **Destek olmak**
 
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 

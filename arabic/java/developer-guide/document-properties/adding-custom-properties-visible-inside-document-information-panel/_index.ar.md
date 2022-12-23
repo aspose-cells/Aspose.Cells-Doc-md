@@ -8,7 +8,7 @@ url: /ar/java/adding-custom-properties-visible-inside-document-information-panel
 
 يمكن استخدام Aspose.Cells لإضافة خصائص مخصصة داخل عنصر المصنف والتي تكون مرئية داخل لوحة معلومات المستند. يمكنك فتح لوحة معلومات المستند في Microsoft Excel باستخدام ملف> معلومات> خصائص> إظهار أوامر قائمة لوحة المستند.
 
- يرجى استخدام[**Workbook.getContentTypeProperties (). add ()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) لإضافة خاصية مخصصة ستكون مرئية في لوحة معلومات المستند
+ الرجاء استخدام[**Workbook.getContentTypeProperties (). add ()**](https://reference.aspose.com/cells/java/com.aspose.cells/contenttypepropertycollection#add(java.lang.Object)) لإضافة خاصية مخصصة ستكون مرئية في لوحة معلومات المستند
 
 {{% /alert %}}
 

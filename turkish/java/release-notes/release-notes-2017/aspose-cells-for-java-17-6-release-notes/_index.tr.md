@@ -14,25 +14,25 @@ url: /tr/java/aspose-cells-for-java-17-6-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42315|AjaxCallFinished olayı için JS İstemcisi API'i ekleyin - GridWeb (JAVA)|Yeni özellik|
 |CELLSJAVA-42194|Çalışma sayfasında grup satırları - GridWeb (JAVA)|Yeni özellik|
-|CELLSJAVA-42308|PivotTable yanlış (eksik satırlar, pivot alan başlıkları iki kez yazdırılıyor, Tarih sayısal değerlere dönüştürülüyor, vb.) Excel'den HTML'ye dönüştürme|Böcek|
-|CELLSJAVA-42298|Excel dosyasının HTML çıktısında bulunan ekstra karakterler|Böcek|
-|CELLSJAVA-42277|HtmlSaveOptions.setExportHiddenWorksheet false olarak ayarlandığında resim çıktı HTML'sinde görüntülenmiyor|Böcek|
-|CELLSJAVA-42259|HTML, Excel dosyasına düzgün bir şekilde dönüştürülemedi|Böcek|
-|CELLSJAVA-42256|HTML tablosunu Excel'e dönüştürmeyle ilgili sorun|Böcek|
+|CELLSJAVA-42308|Excel'de PivotTable yanlış (eksik satırlar, pivot alan başlıkları iki kez yazdırılıyor, Tarih sayısal değerlere dönüştürülüyor, vb.)|Böcek|
+|CELLSJAVA-42298|Excel dosyasının HTML çıktısında fazladan karakterler var|Böcek|
+|CELLSJAVA-42277|HtmlSaveOptions.setExportHiddenWorksheet false olarak ayarlandığında resim HTML çıktısında görüntülenmiyor|Böcek|
+|CELLSJAVA-42259|HTML Excel dosyasına düzgün dönüştürülemedi|Böcek|
+|CELLSJAVA-42256|HTML tablosunu Excel'e dönüştürme sorunu|Böcek|
 |CELLSJAVA-42319|Formülleri belirtirken Yazdırma Alanının hesaplanmasıyla ilgili sorun|Böcek|
 |CELLSJAVA-42273|Sütun Başlığı İpucunu Ayarla özelliği GridWeb'de (JAVA) çalışmıyor|Böcek|
 |CELLSJAVA-42269|GridWorksheet.setColumnHeaderToolTip(), GridWeb'de (JAVA) çalışmıyor|Böcek|
 |CELLSJAVA-42320|Ayrı bir sayfada varsa grafik güncellenmiyor|Böcek|
 |CELLSJAVA-42295|Cell değeri, varolan bir hücreye tıkladığımızda başlangıca eklenir (bazı değerlere sahip)|Böcek|
-|CELLSJAVA-42325|XLSX PDF olarak kaydedildiğinde, kelimeler yansıtılır|Böcek|
-|CELLSJAVA-42299|Excel dosyasının çıktı PDF'sinde/görüntüsünde fazladan karakterler var|Böcek|
+|CELLSJAVA-42325|XLSX, PDF olarak kaydedildiğinde, kelimeler ikizlenir|Böcek|
+|CELLSJAVA-42299|Excel dosyasının PDF/görüntü çıktısında fazladan karakterler var|Böcek|
 |CELLSJAVA-42301|Çubuk grafiğin PDF çıktısında çubuklar eksik|Böcek|
-|CELLSJAVA-42293|Çıktı HTML'sinde grafik görüntüsü yanlış|Böcek|
-|CELLSJAVA-42292|Çıktı HTML'sinde grafiğin görüntüsü yanlış|Böcek|
-|CELLSJAVA-42270|Excel Grafiği PDF'ye dönüştürüldüğünde içerik eksik|Böcek|
-|CELLSJAVA-42258|Grafiğin PDF'sinde x ekseni etiketlerinin yanlış tarih biçimi var|Böcek|
-|CELLSJAVA-42252|Çıktı PDF'sinde yanlış Y ekseni ölçeklendirmesi|Böcek|
-|CELLSJAVA-42245|HTML'ye kaydederken stil/biçimlendirme yanlış|Böcek|
+|CELLSJAVA-42293|Çıktıda grafik görüntüsü yanlış HTML|Böcek|
+|CELLSJAVA-42292|HTML çıktısında grafiğin görüntüsü yanlış|Böcek|
+|CELLSJAVA-42270|Excel Grafiği PDF'e dönüştürüldüğünde içerik eksik|Böcek|
+|CELLSJAVA-42258|Grafiğin PDF'inde x ekseni etiketlerinin yanlış tarih biçimi var|Böcek|
+|CELLSJAVA-42252|PDF çıkışında yanlış Y ekseni ölçeklendirmesi|Böcek|
+|CELLSJAVA-42245|HTML'e kaydedildiğinde stil/biçimlendirme yanlış|Böcek|
 |CELLSJAVA-42316|Excel dosyasını açarken ve kaydederken görüntüleri sıkıştırma seçeneği korunmaz|Böcek|
 |CELLSJAVA-42306|Dosya2'deki hücrelerin arka plan rengi, Çalışma Kitabını açarken ve kaydederken değişiyor|Böcek|
 |CELLSJAVA-42305|Dosya1'deki hücrelerin arka plan rengi, Çalışma Kitabını açarken ve kaydederken değişiyor|Böcek|
@@ -41,7 +41,7 @@ url: /tr/java/aspose-cells-for-java-17-6-release-notes/
 |CELLSJAVA-42307|İstisna: HTML dosya biçimine dönüştürülürken "satır dizini pivot tablo raporunun içinde olmamalıdır" oluştu|İstisna|
 |CELLSJAVA-42285|İstisna: Çalışma sayfasında HTML dosya biçimine dönüştürülecek bir PivotTable varsa "Satır dizini negatif olamaz" oluştu|İstisna|
 |CELLSJAVA-42318|Çalışma Kitabı'nı açmaya çalışırken bir istisna atılıyor|İstisna|
-|CELLSJAVA-42311|İstisna: Aspose.Cells API'leri aracılığıyla bir ODS dosyası açılırken "java.lang.NullPointerException"|İstisna|
+|CELLSJAVA-42311|İstisna: ODS dosyasını Aspose.Cells API'leri aracılığıyla açarken "java.lang.NullPointerException"|İstisna|
 |CELLSJAVA-42302|Kaynak Excel dosyasından Çalışma Kitabı örneği oluşturmaya ilişkin NullPointerException|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

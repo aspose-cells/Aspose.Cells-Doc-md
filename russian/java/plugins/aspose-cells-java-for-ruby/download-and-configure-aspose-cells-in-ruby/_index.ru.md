@@ -25,7 +25,7 @@ url: /ru/java/download-and-configure-aspose-cells-in-ruby/
 
 {{< /highlight >}}
 
-1.  А затем выполнить
+1. А затем выполнить
 
 {{< highlight "java" >}}
 

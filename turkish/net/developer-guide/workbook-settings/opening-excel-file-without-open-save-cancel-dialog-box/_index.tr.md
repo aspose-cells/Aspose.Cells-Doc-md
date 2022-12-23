@@ -18,16 +18,16 @@ Aşağıdaki görüntü, bir dosyayı indirmeye çalışırken Internet Explorer
 
 |**Aç-Kaydet-İptal iletişim kutusu**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
+|![yapılacaklar:resim_alternatif_metin](opening-excel-file-without-open-save-cancel-dialog-box_1.png)|
 Yukarıda açıklandığı gibi, gerçekten istediğinize dair onay almadan bir dosyanın sisteminizde açılmasına veya çalışmasına izin vermek bir güvenlik riskidir. Bazı dosyalar virüs içerir ve bazı siteler size sormadan zararlı dosyaları makinenize indirmeye çalışır. Bu nedenle, kullanıcıların dosyayı doğrulaması gerekmesi ve indirmeden veya çalıştırmadan önce kaynağının doğrulanabilmesi için indirme istemi olmadan dosya indirmeye izin vermeniz önerilmez. İndirme iletişim kutusunun devre dışı bırakılması, sisteminizi sessizce etkileyebilecek virüslere, Truva atlarına ve bilgisayar korsanlarına karşı savunmasız hale getirir.
 ## **Bir Dosyayı Aç-Kaydet-İptal iletişim kutusu olmadan açma**
  Büyük bir güvenlik endişesi olsa da, Microsoft, kullanıcıların dosya indirme için Aç-Kaydet-İptal istemini devre dışı bırakmasına izin veren Internet Explorer ayarları sağlar.
 
 Windows Explorer'da:
 
-1.  Üzerinde**Aletler** menü, seç**Dosya seçenekleri**.
+1.  Üzerinde**Araçlar** menü, seç**Dosya seçenekleri**.
 1. Klasör Seçenekleri iletişim kutusundaki Dosya Türleri sekmesine tıklayın.
-1. XLS uzantısı dosya türünü seçin.
+1. XLS uzantı dosya türünü seçin.
 1.  Tıklamak**Gelişmiş**. 
 Bir iletişim kutusu görüntülenir. Altta üç seçenek var.
 1.  İşareti kaldır**İndirdikten sonra açmayı onaylayın**.
@@ -35,5 +35,5 @@ Bir iletişim kutusu görüntülenir. Altta üç seçenek var.
 
 |**Dosya türü seçeneklerini düzenleme**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
+|![yapılacaklar:resim_alternatif_metin](opening-excel-file-without-open-save-cancel-dialog-box_2.png)|
 Bu ayar, dosyayı indirirken veya açarken Aç-Kaydet-İptal iletişim kutusu gösterilmeden dosyaların doğrudan web tarayıcısında çalışmasına olanak tanır.

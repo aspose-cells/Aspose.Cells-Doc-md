@@ -15,4 +15,4 @@ url: /ja/cpp/aspose-cells-for-cpp-21-5-release-notes-windows/
 |CELLSCPP-274| PDF への変換の問題を修正|バグ|
 |CELLSCPP-276|ライセンス署名の SHA256 検証をサポート|新機能|
 |CELLSCPP-277|PDF/A-1a 準拠のサポート - IPdfSaveOptions|新機能|
-|CELLSCPP-279|変換された PDF の形式が正しくありません|バグ|
+|CELLSCPP-279|変換された PDF は適切にフォーマットされていません|バグ|

@@ -18,9 +18,9 @@ Aspose.Cells
 
  24953 Admite el formato condicional avanzado de MS Excel en el archivo PDF generado
 
- 30020 Soporte Cell Color de degradado que no está configurado correctamente al convertir a documento PDF
+ 30020 Soporte Cell Color de degradado que no está configurado correctamente al convertir al documento PDF
 
-40010 Desmarque Etiquetas de categoría multinivel al formatear el eje del gráfico
+ 40010 Desmarque Etiquetas de categoría multinivel al formatear el eje del gráfico
 
  Mejoras
 
@@ -32,7 +32,7 @@ Aspose.Cells
 
  40080 Mejora - Excel95 - Archivo de Excel 2003
 
- 40081 Error al comprobar las opciones que no funcionan con archivos XLSM
+ 40081 Error al comprobar las opciones que no funcionan con los archivos XLSM
 
 
 
@@ -44,15 +44,15 @@ Aspose.Cells
 
  40047 No se puede copiar una hoja de trabajo en particular en otro libro de trabajo con una hoja de trabajo
 
- 40060 Tipo de pincel no válido al convertir un libro de trabajo de Excel a XPS
+ 40060 Tipo de pincel no válido al convertir el libro de Excel a XPS
 
- 40061 StackOverflow al llamar al método WorksheetCollection.GetNamedRanges()
+40061 StackOverflow al llamar al método WorksheetCollection.GetNamedRanges()
 
- Actuación
+ Rendimiento
 
- 31266 XLS a PDF o XPS lleva mucho tiempo
+ 31266 XLS al PDF o XPS tarda mucho
 
- 40053 El rendimiento de Excel a PDF disminuye a medida que aumenta el número de hojas de trabajo
+ 40053 Excel-to- PDF El rendimiento disminuye a medida que aumenta el número de hojas de trabajo
 
  Insectos
 
@@ -60,7 +60,7 @@ Aspose.Cells
 
  30224 Las imágenes de los gráficos no coinciden con los gráficos de Excel
 
-30651 Cell.SetStyle(Style style, bool explicitFlag) no funciona como se esperaba
+ 30651 Cell.SetStyle(Style style, bool explicitFlag) no funciona como se esperaba
 
  31334 BuiltInDocumentProperties.HyperlinkBase no se puede leer ni establecer
 
@@ -70,7 +70,7 @@ Aspose.Cells
 
  40013 Subtotal de RowField: problema de formato
 
- 40014 Al abrir y guardar un archivo XLSM, se descartan macros y cintas
+ 40014 Abrir y guardar el archivo XLSM tira macros y cintas
 
  40016 Errores al guardar archivos de Excel
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 Las referencias de fórmula de matriz no se actualizan al eliminar una fila o columna
 
- 40065 Problema bigInt negativo
+40065 Problema bigInt negativo
 
  40073 Aspose.Cells Problema de parámetros de marcadores inteligentes
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Nuevas características
 
-29869 Soporte de formato condicional (solo se admiten estilos de Excel 2003 (actualmente))
+ 29869 Soporte de formato condicional (solo se admiten estilos de Excel 2003 (actualmente))
 
  Insectos
 

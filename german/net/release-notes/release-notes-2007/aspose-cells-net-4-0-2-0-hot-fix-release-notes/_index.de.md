@@ -21,4 +21,4 @@ url: /de/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
  Neue C#-Chart-Demos hinzugefügt
  Fehler beim Laden von Dateien mit UNC-Hyperlinks behoben
  Fehler beim Formatieren von Zellen mit einer Aspose erstellten Excel-Datei in einigen Fällen behoben
-Berechnungsmaschine für geformte Formeln
+ Berechnungsmaschine für geformte Formeln

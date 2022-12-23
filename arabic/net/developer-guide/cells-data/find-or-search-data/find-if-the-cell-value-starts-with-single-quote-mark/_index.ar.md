@@ -10,6 +10,6 @@ url: /ar/net/find-if-the-cell-value-starts-with-single-quote-mark/
 
 {{% /alert %}}
 
- يوضح نموذج التعليمات البرمجية التالي أنه لا يمكن التمييز بين السلاسل مثل العينة و "العينة"[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) منشأه. لذلك يجب أن نستخدم[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)خاصية لتمييزهم.
+يوضح نموذج التعليمات البرمجية التالي أنه لا يمكن التمييز بين السلاسل مثل العينة و "العينة"[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) خاصية. لذلك يجب أن نستخدم[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)خاصية لتمييزهم.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}

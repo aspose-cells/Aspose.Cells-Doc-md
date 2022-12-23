@@ -113,7 +113,7 @@ workbook.save(output);
 Avec la version v8.4.2, le Aspose.Cells API a ajouté 2 nouveaux champs d'énumération pour PasteType comme détaillé ci-dessous.
 
 - PasteType.DEFAULT : Fonctionne de manière similaire à la fonctionnalité "Tous" d'Excel pour coller une plage de cellules.
-- PasteType.ALL_À L'EXCEPTION_BORDURES : Fonctionne de la même manière que la fonctionnalité "Tous sauf les bordures" d'Excel pour coller une plage de cellules.
+- PasteType.ALL_SAUF_BORDURES : Fonctionne de la même manière que la fonctionnalité "Tous sauf les bordures" d'Excel pour coller une plage de cellules.
 
 L'exemple de code suivant illustre l'utilisation du champ PasteType.DEFAULT.
 

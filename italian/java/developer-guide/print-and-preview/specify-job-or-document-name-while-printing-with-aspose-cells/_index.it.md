@@ -12,7 +12,7 @@ url: /it/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 ## **Specificare il nome del lavoro o del documento durante la stampa con Aspose.Cells**
 
- Il codice di esempio carica il file Excel di origine e quindi lo invia alla stampante specificando il nome del lavoro o del documento utilizzando l'estensione[**WorkbookRender.toPrinter(nomestampante, nomelavoro)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) e[**SheetRender.toPrinter(nomestampante, nomelavoro)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)metodi. Lo screenshot mostra l'aspetto del nome del lavoro nella coda della stampante.
+ Il codice di esempio carica il file Excel di origine e quindi lo invia alla stampante specificando il nome del lavoro o del documento utilizzando l'estensione[**WorkbookRender.toPrinter(nomestampante, nomelavoro)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) e[**SheetRender.toPrinter(nomestampante, nomelavoro)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) metodi. Lo screenshot mostra l'aspetto del nome del lavoro nella coda della stampante.
 
 ![cose da fare:immagine_alt_testo](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 

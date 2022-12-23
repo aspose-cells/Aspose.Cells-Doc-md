@@ -8,11 +8,11 @@ url: /it/java/apply-conditional-formatting-in-worksheets/
 
 Questo articolo è progettato per fornire informazioni dettagliate su come aggiungere la formattazione condizionale a un intervallo di celle in un foglio di lavoro.
 
-La formattazione condizionale è una funzionalità avanzata di Microsoft Excel che consente di applicare formati a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, lo sfondo di una cella potrebbe essere rosso per evidenziare un valore negativo oppure il colore del testo potrebbe essere verde per un valore positivo. Quando il valore della cella soddisfa la condizione del formato, viene applicato il formato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella.
+La formattazione condizionale è una funzionalità avanzata in Microsoft Excel che consente di applicare formati a un intervallo di celle e di modificare la formattazione in base al valore della cella o al valore di una formula. Ad esempio, lo sfondo di una cella potrebbe essere rosso per evidenziare un valore negativo oppure il colore del testo potrebbe essere verde per un valore positivo. Quando il valore della cella soddisfa la condizione del formato, viene applicato il formato. Se il valore della cella non soddisfa la condizione del formato, viene utilizzata la formattazione predefinita della cella.
 
-È possibile applicare la formattazione condizionale con Microsoft Office Automation, ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio, sicurezza, stabilità, scalabilità e velocità. Il motivo principale per trovare un'altra soluzione è che la stessa Microsoft sconsiglia vivamente Office Automation per le soluzioni software.
+È possibile applicare la formattazione condizionale con Microsoft Office Automation ma questo ha i suoi svantaggi. Ci sono diversi motivi e problemi coinvolti: ad esempio, sicurezza, stabilità, scalabilità e velocità. Il motivo principale per trovare un'altra soluzione è che lo stesso Microsoft sconsiglia vivamente Office Automation per le soluzioni software.
 
-Questo articolo mostra come creare un'applicazione console, aggiungere la formattazione condizionale alle celle con poche semplici righe di codice utilizzando l'API Aspose.Cells.
+Questo articolo mostra come creare un'applicazione console, aggiungere la formattazione condizionale alle celle con poche semplici righe di codice utilizzando Aspose.Cells API.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ Questo articolo funziona attraverso le seguenti attività:
 ### **Attività 1: utilizzo di Aspose.Cells per applicare la formattazione condizionale in base al valore Cell**
 
 1. **Scaricare e installare Aspose.Cells.zip**:
-   1. [Scarica](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
+   1. [Scaricamento](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
  1. Decomprimilo sul tuo computer di sviluppo.
  Tutti i componenti Aspose, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e inserisce solo filigrane nei documenti prodotti.
 1. **Crea un progetto**.
@@ -36,10 +36,10 @@ Questo articolo funziona attraverso le seguenti attività:
 1. Estrarre Aspose.Cells.jar e dom4j_1.6.1.jar da Aspose.Cells.zip.
  1. Imposta il classpath del progetto in Eclipse:
  1. Seleziona il tuo progetto in Eclipse e poi seleziona**Proprietà** dal**Progetto** menù.
- 1. Seleziona "Java Build Path" a sinistra della finestra di dialogo.
+ 1. Selezionare "Java Build Path" a sinistra della finestra di dialogo.
  1. Sul**Biblioteche** scheda, selezionare**Aggiungi JAR** o**Aggiungi JAR esterni** per selezionare Aspose.Cells.jar e dom4j_1.6.1.jar e aggiungerli nei percorsi di compilazione.
  1. Scrivere un'applicazione per richiamare le API dei componenti di Aspose.
- Oppure puoi impostare il percorso in fase di esecuzione su un prompt DOS in Windows.
+ Oppure puoi impostare il percorso in fase di esecuzione su un prompt di DOS in Windows.
 
 {{< highlight "java" >}}
 
@@ -83,7 +83,7 @@ Quando viene eseguito il codice precedente, la formattazione condizionale viene 
 
 {{% alert color="primary" %}}
 
-Questo articolo illustra come applicare la formattazione condizionale alle celle in un foglio di lavoro con l'API Aspose.Cells. Si spera che ti fornisca alcune informazioni in modo da poter utilizzare queste opzioni nei tuoi scenari.
+Questo articolo mostra come applicare la formattazione condizionale alle celle in un foglio di lavoro con Aspose.Cells API. Si spera che ti fornisca alcune informazioni in modo da poter utilizzare queste opzioni nei tuoi scenari.
 
 Aspose.Cells offre una grande flessibilità per le soluzioni e fornisce velocità, efficienza e affidabilità eccezionali per soddisfare specifici requisiti applicativi aziendali. Aspose.Cells beneficia di anni di ricerca, progettazione e attenta messa a punto.
 

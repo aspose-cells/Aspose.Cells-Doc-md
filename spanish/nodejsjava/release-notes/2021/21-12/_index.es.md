@@ -13,7 +13,7 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Soporte para interrumpir la ejecución de WorkbookDesigner.process en SmarkMarker|
-|CELLSJAVA-44039|Modificar el atributo PDF Producer del PDF generado|
+|CELLSJAVA-44039|Modificar el atributo de productor PDF del PDF generado|
 |CELLSJAVA-43469|Posible regresión: degradación del rendimiento de FormatConditionCollection.addArea()|
 |CELLSJAVA-43983|Regresión: bucle infinito al convertir XLSX a PDF|
 |CELLSJAVA-44029|XLSX a PDF: la imagen no se convierte|
@@ -23,7 +23,7 @@ url: /es/nodejs-java/aspose-cells-for-node-js-via-java-21-12-release-notes/
 |CELLSJAVA-43932|Problema con la configuración de la posición de las etiquetas de datos para los gráficos de anillos expandidos en la imagen de salida|
 |CELLSJAVA-43934|Las etiquetas del gráfico circular no coinciden con Excel después de manipular o actualizar el gráfico|
 |CELLSJAVA-44094|Título del gráfico truncado al exportar a PDF|
-|CELLSJAVA-43533|Problema de creación de XLSX a Html en Ubuntu|
+|CELLSJAVA-43533|XLSX al problema de creación de Html en Ubuntu|
 |CELLSJAVA-43987|El borde derecho de las celdas combinadas se pierde en html|
 |CELLSJAVA-44016|Problema al convertir el archivo de Excel que contiene la URL de la imagen a HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: ha ingresado muy pocos parámetros para la función IF al llamar a Workbook.calculateFormula()|

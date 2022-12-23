@@ -28,7 +28,7 @@ url: /fr/reportingservices/aspose-cells-for-reporting-services-v1-4-1-release-no
 
 Problèmes résolus au Aspose.Cells for Reporting Services 1.4.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |8431 | Rendre| Formater le bogue perdu|
 |8211 | Rendre| Améliorations SSRS2008|

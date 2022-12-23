@@ -13,8 +13,8 @@ url: /sv/java/aspose-cells-for-java-22-10-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-44890|stöd importfil med openpassword för GridWeb|
-|CELLSJAVA-44884| Listnummer är felaktiga efter konvertering av XLSX till HTML eller PDF|
-|CELLSJAVA-44883|Arbetsboken som innehåller pivottabellen skadas efter bearbetning av pivottabellen i den|
+|CELLSJAVA-44884| Listnumren är felaktiga efter XLSX till HTML eller PDF konvertering|
+|CELLSJAVA-44883| Arbetsboken som innehåller pivottabellen skadas efter bearbetning av pivottabellen i den|
 |CELLSJAVA-44879|Det formaterade resultatet för GridWeb skilde sig från Cell.DisplayStringValue|
 |CELLSJAVA-44327|Kanter och färre linjer visas i svartvita pajskivor i diagram till bildrendering|
 |CELLSJAVA-44853|Data om x-axelns vinkel är inte samma som Excel i diagram till bild-rendering|
@@ -22,7 +22,7 @@ url: /sv/java/aspose-cells-for-java-22-10-release-notes/
 |CELLSJAVA-44904|Problem vid rendering av Excel-diagram till JPG-konvertering|
 |CELLSJAVA-44850|När du importerar en XLT-fil, visas inte texten helt med de senaste demos med senaste Aspose.Cells.GridWeb-versionen med senaste resursfiler|
 |CELLSJAVA-44857|När du använder versionen Aspose.Cells.GridWeb for Java v22.8 med senaste resursfiler för att öppna ett Excel-dokument, är effekten av cellerna annorlunda än originaldokumentet|
-|CELLSJAVA-44903|SVG-återgivningen fungerar inte som förväntat|
+|CELLSJAVA-44903|SVG återgivningen fungerar inte som förväntat|
 |CELLSJAVA-44909| När flera rader är fetstilade verkar det svämma över till de andra raderna i onödan|
 |CELLSJAVA-44898|Att läsa från GZIPInputStream ger ibland falskt "Filen är skadad" fel i 22.7 och nyare versioner|
 |CELLSJAVA-44881|Undantag "java.lang.ArrayIndexOutOfBoundsException: 15070" vid inläsning av en XLS-fil|
@@ -33,7 +33,7 @@ Följande är en lista över alla ändringar som gjorts för allmänheten API, s
 
 ### **Ändrade gränsen för att flytta celler ut från arket för att infoga rader**
 
-I gamla versioner, om det finns celler som har formateringsinställningar men som inte har något värde? och som kommer att flyttas ut från arket, är infogning inte tillåten. Från 22.10 är infogning tillåten för en sådan typ av situation och sådant beteende är samma sak med ms excel nu.
+gamla versioner, om det finns celler som har formateringsinställningar men som inte har något värde? och som kommer att flyttas ut från arket, är infogning inte tillåten. Från 22.10 är infogning tillåten för en sådan typ av situation och sådant beteende är samma sak med ms excel nu.
 
 ### **Lägger till klassen DataModelConnection**
 

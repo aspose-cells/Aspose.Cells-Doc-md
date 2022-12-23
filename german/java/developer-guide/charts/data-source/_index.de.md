@@ -20,7 +20,7 @@ Bei der Arbeit an Diagrammen mit Aspose.Cells müssen zwei Arten von Daten wie f
 
 ### **Diagrammdaten**
 
- Diagrammdaten sind die Daten, die wir als Datenquelle zum Erstellen unserer Diagramme verwenden. Wir können einen Bereich der Zellen (mit Diagrammdaten) hinzufügen, indem wir die aufrufen[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) Objekt[**Hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) Methode.
+ Diagrammdaten sind die Daten, die wir als Datenquelle zum Erstellen unserer Diagramme verwenden. Wir können einen Bereich der Zellen (mit Diagrammdaten) hinzufügen, indem wir die aufrufen[**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) Objekt[**Addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/seriescollection#add(java.lang.Object)) Methode.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-SettingChartsData-SettingChartsData.java" >}}
 

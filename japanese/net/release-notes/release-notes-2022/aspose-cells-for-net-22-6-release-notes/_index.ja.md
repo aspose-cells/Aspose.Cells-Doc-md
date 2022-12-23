@@ -23,9 +23,9 @@ url: /ja/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50954|ワークブックをロードした後の CheckBox の間違った UpperLeftRow|
 |CELLSNET-51153|チェックボックスを複製する|
 |CELLSNET-51158|Linux で図形やテキスト ボックスなどのオブジェクトに書かれた文字が文字化けする|
-|CELLSNET-51180|XLSM に変換されたピボット テーブルを含む XLS ファイルが破損し、データ接続の詳細が削除された|
+|CELLSNET-51180|XLSM に変換されたピボット テーブルを含む XLS ファイルが破損し、データ接続の詳細が削除されました|
 |CELLSNET-50598|FILTER 関数を使用した動的数式を更新して正しく計算できない|
-|CELLSNET-51069|Cell.Calculate() は、ブックに対して計算チェーンが有効になっている場合、数式の依存関係を更新しません。|
+|CELLSNET-51069|Cell.Calculate() は、ブックに対して計算チェーンが有効になっている場合、式の依存関係を更新しません。|
 |CELLSNET-51186| Aspose.Cells の数式計算エンジンの CEILING 関数に関する問題|
 |CELLSNET-51192|DATE 関数は #NUM として計算されました! 1900 年 1 月 0 日|
 |CELLSNET-51195|データ テーブルを含む XLSB ファイルを XLSM 形式に変換すると、データ テーブルが削除される|
@@ -34,15 +34,15 @@ url: /ja/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51041|html のロード時に漢字が壊れる|
 |CELLSNET-51072|Date フィールドの ImportXml の問題|
 |CELLSNET-51081|保存した HTML をワークブックにリロードした後、カスタム形式が変更される|
-|CELLSNET-51092|Linux でレンダリングされた SVG/画像で取り消し線フォントが機能しない|
+|CELLSNET-51092|Linux でレンダリングされた SVG/image で取り消し線フォントが機能しない|
 |CELLSNET-51120|Xml マップにリンクされた xml データのエクスポート中に例外がスローされる|
 |CELLSNET-51197|ブール値フィールドの ImportXml の問題|
-|CELLSNET-50854|XLSX から PDF: 棒グラフが正しく表示されない|
+|CELLSNET-50854|XLSX ～ PDF: 棒グラフが正しく表示されない|
 |CELLSNET-50983|軸のラベルが間違っている|
 |CELLSNET-50998|最後の x 軸パラメーターが表示されない|
 |CELLSNET-50999|グラフのラベルがボックスに収まらない - ボックスが大きすぎる|
 |CELLSNET-51000|水平ではなく垂直に配置されたグラフ ラベル|
-|CELLSNET-51043|ワークブックを PDF に保存するときの系列名の出力が正しくない|
+|CELLSNET-51043|ワークブックを PDF に保存すると、系列名が正しく出力されない|
 |CELLSNET-51159|PDF 保存時の Chart.Title.IsVisible=false のバグ|
 |CELLSNET-51211|Excel チャートから画像を作成する際の数値の欠落|
 |CELLSNET-49105|ファイルにリスト検証が含まれていると、保存された .ods ファイルが破損する|
@@ -54,7 +54,7 @@ url: /ja/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-51199|workbook.save(filePath) はフリーズ ペインをキャンセルします|
 |CELLSNET-51228|Workbook.CalculateFormula により、「オブジェクト参照がオブジェクトのインスタンスに設定されていません」という例外が発生する|
 |CELLSNET-51045|スタイルを Aspose.Cells.GridDesktop の範囲に設定すると、例外「Cell が削除されました: D7」が発生する|
-|CELLSNET-47707|XLS ファイルをロードするときの例外「この Excel ファイルには (Excel2.1 以前のファイル形式) レコードが含まれています」|
+|CELLSNET-47707|XLS ファイルのロード時の例外「この Excel ファイルには (Excel2.1 以前のファイル形式) レコードが含まれています」|
 |CELLSNET-47960|新しいブックに失敗すると例外が発生します: この Excel ファイルには (Excel4.0 以前のファイル形式) レコードが含まれています。|
 |CELLSNET-51227| System.FormatException. Suomi Excel ファイルをロードするときに、文字列が有効な DateTime として認識されませんでした|
 

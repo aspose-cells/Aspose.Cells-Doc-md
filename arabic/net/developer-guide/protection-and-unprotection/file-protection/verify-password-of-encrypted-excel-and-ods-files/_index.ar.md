@@ -3,10 +3,10 @@ title: تحقق من كلمة المرور للملفات المشفرة
 type: docs
 weight: 10
 url: /ar/net/verify-password-of-encrypted-excel-and-ods-files/
-description: تحقق من كلمة مرور ملفات Excel المشفرة (xlsx و xlsb و xls و xlsm) وملفات المكتب المفتوح (ODS) باستخدام أكواد CShape.
+description: تحقق من كلمة مرور ملفات Excel المشفرة (xlsx و xlsb و xls و xlsm) و Open office (ODS) باستخدام أكواد CShape.
 ---
 {{% alert color="primary" %}}
-إذا تم تأمين ملفات Excel (xlsx و xlsb و xls و xlsm) و Open office (ODS) بكلمة مرور ، فإن Aspose يدعم التحقق البسيط من كلمة المرور دون تحليل بيانات محددة للملفات.
+إذا تم تأمين ملفات Excel (xlsx و xlsb و xls و xlsm) و Open office (ODS) بكلمة مرور ، فإن Aspose يدعم التحقق البسيط من كلمة المرور بدون تحليل بيانات معينة للملفات.
 {{% /alert %}}
 
 ## **تحقق من كلمة مرور الملف المشفر**

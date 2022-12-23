@@ -46,20 +46,20 @@ url: /de/net/aspose-cells-for-net-7-3-0-release-notes/
 
  Fehler
 
-- Problem mit XPS und benutzerdefiniertem Zahlenformat von SheetRender
+- Problem mit SheetRender XPS und benutzerdefiniertem Zahlenformat
 - Umbruch der Legendenelemente des Diagramms beim Speichern als Bild
 - Bugsheet-Diagramme werden nicht angezeigt
 - Ein Problem mit der Methode Cells.ExportDataTableAsString() und benutzerdefinierter Formatierung
 - Ein ernsthaftes Problem mit der Pivot-Tabelle
 - Die Verwendung der Methode Workbook.CalculateFormula() für mehrere Arbeitsmappen im Handumdrehen ergibt #VALUE
-- Die PDF-Wiedergabe von Geschäftsformen (Text darin) ist nicht schön
-- Ausgabe mit XLS-Inhaltsverzeichnis nach Anzahl der gedruckten Seiten
+- PDF Das Rendern von Geschäftsformen (Text im Inneren) ist nicht schön
+- Ausgabe mit XLS Inhaltsverzeichnis nach Anzahl der gedruckten Seiten
 
- -Die PDF-Konvertierung vermisst die Werte der genannten Bereiche
+ -Die PDF Umrechnung verfehlt die Werte der genannten Bereiche
 
 - Das Referenzieren von Zellen mit Werten aus Matrixformeln funktioniert nicht
 
- -Cells Formatierungsproblem
+-Cells Formatierungsproblem
 
 - Problem mit der Formel, die auf ein Bild verweist
 - Array-Formeln in SpreadsheetML werden bei der Konvertierung in XLSX nicht übernommen

@@ -22,7 +22,7 @@ Hay dos opciones para agregar fórmulas a las otras celdas (B3, B4, B5, etc.) en
 
 Haga lo que hizo para la primera celda, configurando efectivamente la fórmula para cada celda, actualizando la referencia de celda en consecuencia (A3*0,09, A4*0,09, A5*0,09, etc.). Esto requiere que se actualicen las referencias de celda para cada fila. También requiere Aspose.Cells para analizar cada fórmula individualmente, lo que puede llevar mucho tiempo para hojas de cálculo grandes y fórmulas complejas. También agrega líneas adicionales de códigos, aunque los bucles pueden reducirlos un poco.
 
- Otro enfoque es utilizar un**fórmula compartida** Con una fórmula compartida, las fórmulas se actualizan automáticamente para las referencias de celda en cada fila para que el impuesto se calcule correctamente. los[Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) es más eficiente que el primer método.
+ Otro enfoque es utilizar un**fórmula compartida** Con una fórmula compartida, las fórmulas se actualizan automáticamente para las referencias de celda en cada fila para que el impuesto se calcule correctamente. Él[Cell.setSharedFormula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setSharedFormula\(java.lang.String,%20int,%20int\)) es más eficiente que el primer método.
 
 El siguiente ejemplo demuestra cómo usarlo. La siguiente captura de pantalla muestra el archivo de salida.
 

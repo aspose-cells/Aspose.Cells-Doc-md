@@ -7,7 +7,7 @@ url: /fr/java/filter-objects-while-loading-workbook-or-worksheet/
 ## **Scénarios d'utilisation possibles**
  Veuillez utiliser[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) propriété lors du filtrage des données du classeur. Mais si vous souhaitez filtrer les données de feuilles de calcul individuelles, vous devrez remplacer[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) méthode. Veuillez fournir la valeur appropriée à partir du[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) énumération lors de la création ou de l'utilisation[ChargerFiltre](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
- La[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)énumération a les valeurs suivantes.
+ Le[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)énumération a les valeurs suivantes.
 
 - [RIEN](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
 - [TOUT](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
@@ -20,7 +20,7 @@ url: /fr/java/filter-objects-while-loading-workbook-or-worksheet/
 - [FORMULE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#FORMULA)
 - [CELL_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_DATA)
 - [GRAPHIQUE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CHART)
-- [FORME](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
+- [FAÇONNER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE)
 - [MERGED_AREA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#MERGED_AREA)
 - [MISE EN FORME CONDITIONNELLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CONDITIONAL_FORMATTING)
 - [LA VALIDATION DES DONNÉES](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DATA_VALIDATION)
@@ -38,7 +38,7 @@ url: /fr/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STYLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Filtrer les objets lors du chargement du classeur**
- L'exemple de code suivant montre comment filtrer les graphiques du classeur. S'il vous plaît, vérifiez le[exemple de fichier excel](5472489.xlsx) utilisé dans ce code et le[PDF de sortie](5472488.pdf)généré par celui-ci. Comme vous pouvez le voir dans le PDF de sortie, tous les graphiques ont été filtrés du classeur.
+ L'exemple de code suivant montre comment filtrer les graphiques du classeur. S'il vous plaît, vérifiez le[exemple de fichier excel](5472489.xlsx) utilisé dans ce code et le[sortie PDF](5472488.pdf)généré par celui-ci. Comme vous pouvez le voir dans la sortie PDF, tous les graphiques ont été filtrés du classeur.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **Filtrer les objets lors du chargement de la feuille de calcul**

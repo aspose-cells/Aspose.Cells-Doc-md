@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 18.8.
 
 {{% /alert %}} 
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSCPP-177 |Enregistrer le graphique dans l'image|Nouvelle fonctionnalité|
 |CELLSCPP-123 |Problème avec la table de hachage des glyphes|Punaise|

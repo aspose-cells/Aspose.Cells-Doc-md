@@ -6,7 +6,7 @@ url: /es/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-El escenario más probable es que esté utilizando Aspose.Cells para convertir hojas de cálculo a PDF. Si está haciendo esto en un sistema operativo no basado en Windows, como Linux, este tema explica cómo asegurarse de que Aspose.Cells represente sus hojas de cálculo con la mejor fidelidad.
+El escenario más probable es que esté usando Aspose.Cells para convertir hojas de cálculo a PDF. Si está haciendo esto en un sistema operativo no basado en Windows como Linux, este tema explica cómo asegurarse de que Aspose.Cells represente sus hojas de cálculo con la mejor fidelidad.
 
 Para asegurarse de que las hojas de cálculo convertidas por Aspose.Cells se parezcan lo más posible al original, es posible que deba instalar "fuentes Windows" o "fuentes TrueType" en su sistema Linux porque las fuentes TrueType más utilizadas no vienen preinstaladas con Distribuciones de Linux por defecto.
 

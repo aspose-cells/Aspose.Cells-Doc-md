@@ -6,7 +6,7 @@ url: /tr/java/setting-page-options-in-ruby/
 ---
 ## **Aspose.Cells - Ayar Sayfası Seçenekleri**
 ### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , aramak**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
+ kullanarak sayfa yönü ayarlarını uygulamak için**Yakut için Aspose.Cells Java** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
 **Yakut Kodu**
 
@@ -52,7 +52,7 @@ end   
 
 {{< /highlight >}}
 ### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Yakut için Aspose.Cells Java** , aramak**ölçekleme** yöntemi**sayfa ayarı** modül.
+ kullanarak ölçekleme uygulamak için**Yakut için Aspose.Cells Java** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
 
 **Yakut Kodu**
 

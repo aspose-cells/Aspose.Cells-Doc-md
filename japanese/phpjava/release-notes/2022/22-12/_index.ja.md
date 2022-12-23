@@ -13,12 +13,12 @@ url: /ja/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43645|四角形の「3-D 形式」属性が正しくレンダリングされない|
-|CELLSJAVA-44936|グラフ画像 (PNG) の DPI 設定を設定する|
+|CELLSJAVA-44936|チャート画像の設定 (PNG) DPI 設定|
 |CELLSJAVA-44937|グラフ画像 (JPG) の DPI 設定を設定する|
-|CELLSJAVA-44998|HTML でインライン スタイルが失敗する原因となる二重引用符|
+|CELLSJAVA-44998|HTML で失敗したインライン スタイルの原因となる二重引用符|
 |CELLSJAVA-44970|影の効果を最適化する|
 |CELLSJAVA-44967|v22.6.0 以降のバージョンで異なる値を返すチャート getDataLabels().getText()|
-|CELLSJAVA-44969|Excel を HTML に変換すると、データラベルにエラーが表示される|
+|CELLSJAVA-44969|Excel を HTML に変換すると、データラベルにエラーが表示されます|
 |CELLSJAVA-44949|Excel の範囲を異なる形式の画像として PowerPoint スライドに挿入すると、透明度が変更されました|
 |CELLSJAVA-44985|Excel から HTML への変換 - グラフの凡例が表示されず、プロット エリアが切り捨てられる|
 |CELLSJAVA-44952|幅に関する DataBar.toImage メソッドの問題|
@@ -26,7 +26,7 @@ url: /ja/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |CELLSJAVA-44987|HTML の読み込み時に一部の画像が他の画像に覆われる|
 |CELLSJAVA-44988|HTMLのロード時にテキストが回転しない|
 |CELLSJAVA-44989|HTML のロード時に div のフォント設定が失われる|
-|CELLSJAVA-44997|HTML から Excel への変換でデータとフォーマットが失われる|
+|CELLSJAVA-44997|HTML から Excel への変換でデータと書式が失われる|
 |CELLSJAVA-44999|Aspose.Cells ほとんどのピボット テーブルでカスタム GlobalizationSettings が機能しない|
 
 ## **Public API および下位互換性のない変更**

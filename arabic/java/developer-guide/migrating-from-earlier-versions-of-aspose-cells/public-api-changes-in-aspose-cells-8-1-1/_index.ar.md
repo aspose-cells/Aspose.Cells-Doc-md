@@ -11,7 +11,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-1-1/
 {{% /alert %}} 
 ## **الخصائص والميزات المضافة**
 ### **تمت إضافة خاصية HtmlSaveOptions.PresentationPreference**
-كشفت فئة HtmlSaveOptions عن خاصية getter / setter لخاصية PresentationPreference والتي يمكن استخدامها لعرض النتائج بتخطيط أفضل عند تصدير جداول البيانات إلى HTML أو MHTML. القيمة الافتراضية هي كاذبة. بينما إذا تم ضبطه على "صحيح" ، يقوم Aspose.Cells API بتصدير محتويات ورقة العمل مع عرض تقديمي أفضل.
+تعرض فئة HtmlSaveOptions أداة getter / setter لخاصية PresentationPreference والتي يمكن استخدامها لعرض النتائج بتخطيط أفضل عند تصدير جداول البيانات إلى HTML أو MHTML. القيمة المفترضة هي false. بينما إذا تم ضبطه على "صحيح" ، يقوم Aspose.Cells API بتصدير محتويات ورقة العمل مع عرض تقديمي أفضل.
 
 {{% alert color="primary" %}} 
 

@@ -6,10 +6,10 @@ url: /es/sharepoint/previewing-document/
 ---
 Aspose.Cells para Share Point admite la vista previa de documentos directamente desde SharePoint. Los siguientes formatos admiten la vista previa:
 
-- XLS-Microsoft Excel 97-2003
-- XLSX: Oficina XML abierta
-- XLSM, XLTX, XLTM: Office Open XML
-- XML – Microsoft Excel Hoja de cálculo ML
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Oficina XML abierta
+- XLSM, XLTX, XLTM – Office Open XML
+- XML-Microsoft Excel SpreadsheetML
 
 **Selección de un documento para obtener una vista previa** 
 

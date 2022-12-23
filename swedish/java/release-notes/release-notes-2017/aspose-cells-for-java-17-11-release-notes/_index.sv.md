@@ -13,20 +13,20 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 17.11.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42433|ImageOrPrintOptions.PageIndex och ImageOrPrintOptions.Count egenskaper som behövs för att få bilden av önskade sidor|Ny funktion|
-|CELLSJAVA-42427|Att exportera rutnät med kanter visar inte rutnät innanför gränsen i Excel till HTML-rendering|Insekt|
+|CELLSJAVA-42427|Exportera rutnät med kanter visar inte rutnät innanför gränsen i Excel till HTML-rendering|Insekt|
 |CELLSJAVA-42438|LightCellsDataProvider tar bort ledande och efterföljande utrymmen|Insekt|
-|CELLSJAVA-42422|Felaktigt teckensnitt används i PDF-utdata från MS Excel-diagrammet|Insekt|
-|CELLSJAVA-42353|Några pilar eller anrop saknas i HTML-utdata|Insekt|
+|CELLSJAVA-42422|Felaktigt teckensnitt används i PDF-utgången i MS Excel-diagrammet|Insekt|
+|CELLSJAVA-42353|Några pilar eller anrop saknas i utgången HTML|Insekt|
 |CELLSJAVA-42455|Den andra kommentaren saknas i kalkylbladets kommentarsamling|Insekt|
 |CELLSJAVA-42454|Skapandet av arbetsbok verkar hänga sig när man läser från en XLSM-fil|Insekt|
-|CELLSJAVA-42450|Style.QuotePrefix-egenskapen fungerar inte för XLSB-fil|Insekt|
+|CELLSJAVA-42450|Style.QuotePrefix-egenskapen fungerar inte för filen XLSB|Insekt|
 |CELLSJAVA-42445|Inställning av bilddata påverkar det andra diagrammet och det visas fel|Insekt|
 |CELLSJAVA-42444|CheckBox.setName()-metoden fungerar i MS Excel 2016 men fungerar inte i MS Excel 2007|Insekt|
 |CELLSJAVA-42443|MS Excel-filter konverteras inte korrekt - XLSB till XLSM konvertering|Insekt|
 |CELLSJAVA-42442|Att ändra värdet på ComboBoxActiveXControl ändrar inte värdet på den länkade cellen|Insekt|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel och Cells.setRowHeightPixel har olika beteenden|Insekt|
 |CELLSJAVA-42431|Om du utökar tabellintervallet muteras cellinnehållet oväntat|Insekt|
-|CELLSJAVA-42434|Undantag: "java.lang.NumberFormatException" när ett HTML-filformat laddas|Undantag|
+|CELLSJAVA-42434|Undantag: "java.lang.NumberFormatException" vid inläsning av ett HTML filformat|Undantag|
 |CELLSJAVA-42448|Cells.deleteBlankRows orsakar undantaget "java.lang.ArrayIndexOutOfBoundsException: 1937"|Undantag|
 |CELLSJAVA-42426|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overhead-gränsen har överskridits - fil III|Undantag|
 |CELLSJAVA-42425|Undantag i tråden "huvud" java.lang.OutOfMemoryError: GC overhead-gränsen har överskridits - Fil II|Undantag|
@@ -34,8 +34,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 17.11.
 |CELLSJAVA-42428|Chart.toImage resulterar i java.lang.ArrayIndexOutOfBoundsException|Undantag|
 |CELLSJAVA-42452|Att spara en arbetsbok som PDF efter RemoveUusedStyles API producerar ett CellsException|Undantag|
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException: Ogiltigt radindex" inträffade|Undantag|
-|CELLSJAVA-42439|Undantag: "java.lang.IllegalArgumentException: Ogiltigt radindex" när du sparar ett XLSX-filformat|Undantag|
-|CELLSJAVA-42437|Undantag: java.lang.NumberFormatException när du sparar ett XLSB-filformat igen|Undantag|
+|CELLSJAVA-42439|Undantag: "java.lang.IllegalArgumentException: Ogiltigt radindex" för att spara ett XLSX filformat|Undantag|
+|CELLSJAVA-42437|Undantag: java.lang.NumberFormatUndantag när ett XLSB filformat sparas på nytt|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till metoden Shape.GetResultOfSmartArt().**

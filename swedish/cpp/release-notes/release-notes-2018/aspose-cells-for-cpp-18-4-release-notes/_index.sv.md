@@ -29,11 +29,11 @@ Den här sidan innehåller utgåvor för Aspose.Cells för CPP 18.4.
 |CELLSCPP-89|Översätt och felsök testfall i katalogen Charts/EnumTypes|Ny funktion|
 |CELLSCPP-91|Översätt testfall i Finds|Ny funktion|
 |CELLSCPP-96|Översätt och felsök testfall i katalogen Formler/Hyperlänkar/ImpHtml/ImportExports/Inserts|Ny funktion|
-|CELLSCPP-97|Felsök och fixa problem angående XLSX/XLS till PDF-rendering|Ny funktion|
+|CELLSCPP-97|Felsöka och fixa problem angående XLSX/XLS till PDF rendering|Ny funktion|
 |CELLSCPP-98|Översätt och felsök testfall i LightCells katalog|Ny funktion|
 |CELLSCPP-100|Översätt och felsök testfall i katalogen Merges/OpenSaves/PageSetups/PDF|Ny funktion|
 |CELLSCPP-101|Översätt och felsök testfall i PivotTables-katalogen|Ny funktion|
-|CELLSCPP-102|Diagram analyseras (behålls) inte när ett XLSX-filformat öppnas/sparas|Ny funktion|
+|CELLSCPP-102|Diagram analyseras inte (behålls) när ett XLSX filformat öppnas/sparas|Ny funktion|
 |CELLSCPP-103|Översätt och felsök testfall i Shapes-katalogen|Ny funktion|
 |CELLSCPP-105|Översätt och felsök testfall i XlsxTest-katalogen|Ny funktion|
 |CELLSCPP-108|Öppna filer och kontrollera diagramrelaterade problem|Ny funktion|

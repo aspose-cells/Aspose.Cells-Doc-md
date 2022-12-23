@@ -12,11 +12,11 @@ url: /zh/net/aspose-cells-for-net-20-4-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSNET-47276|XLSX 到 CSV，空白单元格所需的逗号也类似于 MS Excel|新功能|
+|CELLSNET-47276|XLSX 到 CSV，空白单元格需要逗号也类似于 MS Excel|新功能|
 |CELLSNET-47054|支持将多个单元格合并为一个范围|新功能|
 |CELLSNET-47091|更新 PowerQueryFormulaItems 源字段的选项|新功能|
 |CELLSNET-47273|为图表类别轴设置拉丁文字字体和亚洲文字字体|强化|
-|CELLSNET-47217|支持 ODS 的数据栏、色阶和图标集条件格式。|强化|
+|CELLSNET-47217|支持 ODS 的数据条、色阶和图标集条件格式。|强化|
 |CELLSNET-47201|使用 Aspose.Cells.GridDesktop 打开受密码保护的文件|强化|
 |CELLSNET-47254|支持在公式栏中像 MS-EXCEL 一样输入新行|强化|
 |CELLSNET-47224|提高刷新数据透视表的性能。|表现|
@@ -28,28 +28,28 @@ url: /zh/net/aspose-cells-for-net-20-4-release-notes/
 |CELLSNET-47208|数据透视表不保持最新版本的格式|漏洞|
 |CELLSNET-47219|插入行并刷新后表列中的公式错误|漏洞|
 |CELLSNET-47261|Excel 到 HTML 呈现 - 导出的表格中的字体大小错误|漏洞|
-|CELLSNET-47279|将文件导出为 HTML 时，所有行中的第一列文本都没有下标|漏洞|
+|CELLSNET-47279|导出文件到HTML时，所有行的第一列文本都没有下标|漏洞|
 |CELLSNET-47163|插入列和更新参考的问题|漏洞|
 |CELLSNET-47244|公式（MROUND、MIN）计算不正确|漏洞|
 |CELLSNET-47250|只有在指定 columnOffsets 参数时，删除重复项才适用于第一列|漏洞|
 |CELLSNET-47267|模板文件中没有计算公式|漏洞|
 |CELLSNET-47268|TrimLeadingBlankRowAndColumn 不一致|漏洞|
-|CELLSNET-47269|XLSX 到 CSV 的转换 - 输出中缺少逗号|漏洞|
+|CELLSNET-47269|XLSX 到 CSV 转换 - 输出中缺少逗号|漏洞|
 |CELLSNET-47200|将隐藏工作表设置为活动工作表时导航按钮重叠问题|漏洞|
 |CELLSNET-47274|GridWeb 中未设置背景图像|漏洞|
 |CELLSNET-47179|带有 Bouncy Castle lib 的 VBA 签名|漏洞|
-|CELLSNET-47258|Sheet 中条形码图像到 TIFF 渲染的问题|漏洞|
+|CELLSNET-47258|Sheet 中的条形码图像出现 TIFF 渲染问题|漏洞|
 |CELLSNET-47216|PowerQueries 在源替换后消失|漏洞|
 |CELLSNET-47241|ODS 文件在设置字体样式和保存时被破坏|漏洞|
 |CELLSNET-47252|数字智能标记将单元格值作为文本插入|漏洞|
 |CELLSNET-47262|100% Stacked Bar 以及主要单位和次要单位的问题|漏洞|
 |CELLSNET-47271|使用嵌入式 visio 保存 XLSX 会损坏文件|漏洞|
-|CELLSNET-47282|Aspose.Cells 20.3：XLSB 到 XLS 的转换问题|漏洞|
+|CELLSNET-47282|Aspose.Cells 20.3：XLSB 到 XLS 转换问题|漏洞|
 |CELLSNET-47291|从 Excel 文件中读取错误的项目符号字符|漏洞|
 |CELLSNET-47096|带有 SplitterPane 的 GridDesktop 公式栏问题|漏洞|
 |CELLSNET-47247|调用 Cell.R1C1Formula 时引发异常|例外|
 |CELLSNET-47235|refreshPivotData 时出现 NullPointerException|例外|
-|CELLSNET-47246|将 Excel 文件保存为 PDF 时出现异常“无法访问已关闭的流”|例外|
+|CELLSNET-47246|将 Excel 文件保存到 PDF 时出现异常“无法访问已关闭的流”|例外|
 |CELLSNET-47086|渲染图表时抛出异常|例外|
 |CELLSNET-47242|文件加载时出现 FormatException|例外|
 |CELLSNET-47266|加载所有附加文件时出现异常“参数索引超出数组范围”|例外|

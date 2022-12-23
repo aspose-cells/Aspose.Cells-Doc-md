@@ -9,9 +9,9 @@ Varsayılan olarak Aspose.Cells.GridWeb, makinedeki yerel/bölgesel ayarlara gö
 ## **Sayısal tuş takımından ondalık ayırıcıyı değiştirme**
 Kullanmak**GridWorksheetCollection.NumberDecimalSeparator**özelliğini kullanarak, ondalık ayırıcıyı Sayısal tuş takımından programlı olarak değiştirebilirsiniz. Lütfen nasıl çalıştığını gösteren ekran görüntülerine bakın
 
-![yapılacaklar:resim_alternatif_Metin](change-the-decimal-separator-from-numeric-keypad_1.png)
+![yapılacaklar:resim_alternatif_metin](change-the-decimal-separator-from-numeric-keypad_1.png)
 
-![yapılacaklar:resim_alternatif_Metin](change-the-decimal-separator-from-numeric-keypad_2.png)
+![yapılacaklar:resim_alternatif_metin](change-the-decimal-separator-from-numeric-keypad_2.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Worksheets-ChangeDecimalSeparatorFromNumericKeypad.aspx.cs" >}}
 

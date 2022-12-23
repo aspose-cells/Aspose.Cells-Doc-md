@@ -17,8 +17,8 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.12
 |CELLSJAVA-44936|Ställ in diagrambild (PNG) DPI-inställningar|
 |CELLSJAVA-44937|Ställ in diagrambild (JPG) DPI-inställningar|
 |CELLSJAVA-44998|Dubbla citattecken som orsakar inline stil misslyckades i HTML|
-|CELLSJAVA-44884| Listnummer är felaktiga efter konvertering av XLSX till HTML eller PDF|
-|CELLSJAVA-44883|Arbetsboken som innehåller pivottabellen skadas efter bearbetning av pivottabellen i den|
+|CELLSJAVA-44884| Listnumren är felaktiga efter XLSX till HTML eller PDF konvertering|
+|CELLSJAVA-44883| Arbetsboken som innehåller pivottabellen skadas efter bearbetning av pivottabellen i den|
 |CELLSJAVA-44879|Det formaterade resultatet för GridWeb skilde sig från Cell.DisplayStringValue|
 |CELLSJAVA-44327|Kanter och färre linjer visas i svartvita pajskivor i diagram till bildrendering|
 |CELLSJAVA-44853|Data om x-axelns vinkel är inte samma som Excel i diagram till bild-rendering|
@@ -26,13 +26,13 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.12
 |CELLSJAVA-44904|Problem vid rendering av Excel-diagram till JPG-konvertering|
 |CELLSJAVA-44850|När du importerar en XLT-fil, visas inte texten helt med de senaste demos med senaste Aspose.Cells.GridWeb-versionen med senaste resursfiler|
 |CELLSJAVA-44857|När du använder versionen Aspose.Cells.GridWeb for Java v22.8 med senaste resursfiler för att öppna ett Excel-dokument, är effekten av cellerna annorlunda än originaldokumentet|
-|CELLSJAVA-44903|SVG-återgivningen fungerar inte som förväntat|
+|CELLSJAVA-44903|SVG återgivningen fungerar inte som förväntat|
 |CELLSJAVA-44909| När flera rader är fetstilade verkar det svämma över till de andra raderna i onödan|
-|CELLSJAVA-44888|"+" och "-" försvann efter konvertering - Excel till HTML-rendering|
+|CELLSJAVA-44888|"+" och "-" försvann efter konvertering - Excel till HTML rendering|
 |CELLSJAVA-44775|Diagrametiketter överlappade i diagram till bildrendering|
 |CELLSJAVA-44882|Tabell-till-bild-rendering - En av etiketterna finns inuti munkdiagrammet|
 |CELLSJAVA-44943|XLSX till PDF: Diagrametiketter renderade inte korrekt|
-|CELLSJAVA-44928|XLS till PDF: Otillräcklig data för en bild|
+|CELLSJAVA-44928|XLS till PDF: Otillräckliga data för en bild|
 |CELLSJAVA-44910|Konvertera Excel till HTML resulterar i tusentals liknande små bilder|
 |CELLSJAVA-44944|Ändra storlek på tabeller ändra formateringen av celler|
 |CELLSJAVA-44948| Bilder kan inte visas i arket när HTML konverteras till Excel|
@@ -40,17 +40,17 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.12
 |CELLSJAVA-44967|Diagram getDataLabels().getText() som returnerar ett annat värde i v22.6.0 och senare versioner|
 |CELLSJAVA-44969|Konvertera Excel till HTML, dataetiketterna visar fel|
 |CELLSJAVA-44949|Transparens ändrades när Excel-intervall infogades som bild med annat format i PowerPoint slide|
-|CELLSJAVA-44985|Excel till HTML-konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
+|CELLSJAVA-44985|Excel till HTML konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
 |CELLSJAVA-44952|Problem med DataBar.toImage-metoden angående bredd|
-|CELLSJAVA-44986|De importerade bilderna är inte justerade i en linje när bilderna är i Div|
+|CELLSJAVA-44986| De importerade bilderna är inte justerade i en linje när bilderna är i Div|
 |CELLSJAVA-44987|Vissa bilder täcks av andra när html laddas|
 |CELLSJAVA-44988|Text roteras inte när html laddas|
 |CELLSJAVA-44989|Teckensnittsinställningar i div går förlorade när html laddas|
 |CELLSJAVA-44997|Data och formatering förlorade i HTML till Excel-konvertering|
-|CELLSJAVA-44999| Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
+|CELLSJAVA-44999|Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
 |CELLSJAVA-44898|Att läsa från GZIPInputStream ger ibland falskt "Filen är skadad" fel i 22.7 och nyare versioner|
 |CELLSJAVA-44881|Undantag "java.lang.ArrayIndexOutOfBoundsException: 15070" vid inläsning av en XLS-fil|
-|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" när stora XLSB-filer laddas|
+|CELLSJAVA-44908|Undantag "java.lang.OutOfMemoryError: Java heap space" när stora XLSB filer laddas|
 |CELLSJAVA-44929|Regression: "java.lang.NullPointerException" på Workbook.calculateFormula()|
 |CELLSJAVA-44927|Undantag "java.lang.IndexOutOfBoundsException: Index: 5, Storlek: 5" vid konvertering av Excel-fil till HTML|
 |CELLSJAVA-44939|Fel "java.lang.StringIndexOutOfBoundsException: Strängindex utanför intervallet: 0" vid försök att läsa en Excel-fil|
@@ -62,7 +62,7 @@ Följande är en lista över eventuella ändringar som gjorts för allmänheten 
 
 ### **Ändrade gränsen för att flytta celler ut från arket för att infoga rader**
 
-I gamla versioner, om det finns celler som har formateringsinställningar men som inte har något värde? och som kommer att flyttas ut från arket, är infogning inte tillåten. Från 22.10 är infogning tillåten för en sådan typ av situation och sådant beteende är samma sak med ms excel nu.
+gamla versioner, om det finns celler som har formateringsinställningar men som inte har något värde? och som kommer att flyttas ut från arket, är infogning inte tillåten. Från 22.10 är infogning tillåten för en sådan typ av situation och sådant beteende är samma sak med ms excel nu.
 
 ### **Lägger till klassen DataModelConnection**
 

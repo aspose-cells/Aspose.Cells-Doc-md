@@ -28,7 +28,7 @@ url: /tr/java/aspose-cells-for-java-8-5-2-release-notes/
 ## **Geliştirmeler**
 
 
- (CELLSJAVA-41373) - Excel dosyasını HTML dosya biçimine kaydettikten sonra hizalama ayarlarında uyuşmazlık
+ (CELLSJAVA-41373) - Excel dosyasını HTML dosya biçiminde kaydettikten sonra hizalama ayarlarında uyumsuzluk
 
 
 ## **Hatalar**
@@ -40,11 +40,11 @@ url: /tr/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) - Tek bir hücreye sahip olmasına rağmen Birleştir ve Ortala seçeneği seçildi
 
- (CELLSJAVA-41429) - Elektronik tablo yeniden kaydedildikten sonra Geçiş Formülü Girişi için Lotus Uyumluluk Ayarları değiştirildi
+(CELLSJAVA-41429) - Elektronik tablo yeniden kaydedildikten sonra Geçiş Formülü Girişi için Lotus Uyumluluk Ayarları değiştirildi
 
- (CELLSJAVA-41427) - Çok Fazla Doğrulama Cells XLS Dosyasını Bozuyor
+ (CELLSJAVA-41427) - Çok Fazla Doğrulama Cells, XLS Dosyasını Bozuyor
 
-(CELLSJAVA-41424) - ICustomFunction arayüzü aracılığıyla özel işlev kullanmak doğru değeri hesaplamıyor
+ (CELLSJAVA-41424) - ICustomFunction arayüzü aracılığıyla özel işlev kullanmak doğru değeri hesaplamıyor
 
  (CELLSJAVA-41423) - Bir ODS dosyasından PDF oluşturulurken yanlış düzen
 
@@ -52,7 +52,7 @@ url: /tr/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells milyonlarca hücreyi sonsuza kadar tutar
 
- (CELLSJAVA-41395) - ODS'den HTML'ye Dönüştürme - Metin stili sorunları
+ (CELLSJAVA-41395) - ODS - HTML Dönüştürme - Metin stili sorunları
 
  (CELLSJAVA-41426) - x ekseni ile Cell tablosu pdf'ye dönüştürülürken doğru ölçeklenmiyor
 
@@ -74,7 +74,7 @@ url: /tr/java/aspose-cells-for-java-8-5-2-release-notes/
 
  SaveOptions.MergeAreas özelliğini ekler.
 
- Koşullu biçimlendirme ve doğrulamanın ayrı CellAreas'larını birleştirmek için kullanılır.
+Koşullu biçimlendirme ve doğrulamanın ayrı CellAreas'larını birleştirmek için kullanılır.
 
 
 
@@ -84,7 +84,7 @@ url: /tr/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) yöntemini ekler
+ SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) yöntemini ekler
 
  SheetRender'ın belirli bir sayfasını bir Graphics'e dönüştürün.
 

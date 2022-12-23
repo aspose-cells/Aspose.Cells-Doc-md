@@ -6,7 +6,7 @@ url: /fr/java/save-ods-file-in-odf-1-1-and-1-2-specifications/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells prend en charge l'enregistrement (**Feuille de calcul OpenDocument**) Fichier ODS dans (**Format OpenDocument** ) Spécifications ODF 1.1 et ODF 1.2. Aspose.Cells a ajouté[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) propriété pour utiliser la spécification ODF 1.1 pour enregistrer les fichiers ODS. La valeur par défaut de cette propriété est**faux**, donc le fichier ODS enregistré sans ces paramètres spéciaux utilisera la spécification 1.2.
+Aspose.Cells prend en charge l'enregistrement (**Feuille de calcul OpenDocument**) ODS fichier dans (**Format OpenDocument** ) Spécifications ODF 1.1 et ODF 1.2. Aspose.Cells a ajouté[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) propriété pour utiliser la spécification ODF 1.1 pour enregistrer les fichiers ODS. La valeur par défaut de cette propriété est**faux**donc le fichier ODS enregistré sans ces paramètres spéciaux utilisera la spécification 1.2.
 
 {{% /alert %}}
 

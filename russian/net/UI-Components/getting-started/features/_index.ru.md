@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ru/net/grid-features/
 ---
- В следующей таблице приведены функции, доступные в**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** а также**Aspose.Cells.GridJs** элементы управления предоставляются по телефону Aspose.Cells for .NET.
+ В следующей таблице приведены функции, доступные в**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** и**Aspose.Cells.GridJs** элементы управления предоставляются по телефону Aspose.Cells for .NET.
 
 |**Функции**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
 |:- |:- |:- |:- |
@@ -62,7 +62,7 @@ url: /ru/net/grid-features/
 | Отформатируйте Cells с помощью Format Painter.|**ИКС**||**ИКС**|
 | Управляйте внешним видом сетки|**ИКС**|**ИКС**||
 | Встроенные и настраиваемые визуальные стили||**ИКС**||
-|**Проверка данных**||||
+|**Валидация данных**||||
 | Проверка регулярных выражений|**ИКС**|**ИКС**||
 | Проверка DropDownList||**ИКС**|**ИКС**|
 | Пользовательские проверки|**ИКС**|**ИКС**||

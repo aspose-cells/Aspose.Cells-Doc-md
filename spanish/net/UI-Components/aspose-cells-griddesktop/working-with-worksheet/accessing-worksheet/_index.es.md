@@ -6,7 +6,7 @@ url: /es/net/accessing-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Una hoja de trabajo es una parte integral de un archivo de Excel. De hecho, un archivo de Excel se compone de una o más hojas de cálculo. Cada hoja de cálculo puede estar compuesta por hasta 65 536 filas y 256 columnas únicamente. Es la hoja de trabajo que contiene datos en un archivo de Excel.
+Una hoja de trabajo es una parte integral de un archivo de Excel. De hecho, un archivo de Excel se compone de una o más hojas de cálculo. Cada hoja de cálculo puede estar compuesta por hasta 65 536 filas y 256 columnas solamente. Es la hoja de trabajo que contiene datos en un archivo de Excel.
 
 Aspose.Cells.GridDesktop puede crear y manipular archivos de Excel existentes y nuevos, por lo que existe, por supuesto, una forma de acceder a las hojas de trabajo usando Aspose.Cells.GridDesktop. Este tema trata sobre cómo.
 

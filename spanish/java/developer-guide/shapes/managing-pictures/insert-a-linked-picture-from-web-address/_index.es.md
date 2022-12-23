@@ -6,7 +6,7 @@ url: /es/java/insert-a-linked-picture-from-web-address/
 ---
 {{% alert color="primary" %}}
 
-A veces es necesario insertar una imagen de la web (http://) en una hoja de trabajo. Para hacerlo, especifique la URL de la imagen y la imagen se descargará cada vez que se abra la hoja de cálculo en Microsoft Excel. La imagen no está incrustada físicamente en el documento de Excel, sino que apunta a un recurso web.
+veces es necesario insertar una imagen de la web (http://) en una hoja de trabajo. Para hacerlo, especifique la URL de la imagen y la imagen se descargará cada vez que se abra la hoja de cálculo en Microsoft Excel. La imagen no está incrustada físicamente en el documento de Excel, sino que apunta a un recurso web.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ A veces es necesario insertar una imagen de la web (http://) en una hoja de trab
 
 En Microsoft Excel (por ejemplo 2007):
 
-1.  Haga clic en el**Insertar** menú y seleccione**Imagen**.
+1.  Haga clic en el**Insertar** menú y seleccione**Fotografía**.
 
 ![todo:imagen_alternativa_texto](insert-a-linked-picture-from-web-address_1.png)
 
@@ -32,7 +32,7 @@ Se inserta la imagen.
 
  Aspose.Cells for Java admite agregar una imagen vinculada utilizando el método[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
- El método devuelve un[**Imagen**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objeto.
+ El método devuelve un[**Fotografía**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objeto.
 
 El siguiente ejemplo muestra cómo agregar una imagen vinculada desde una dirección web a una hoja de trabajo.
 

@@ -20,7 +20,7 @@ Veriler bir DataView nesnesinden içe aktarıldığında, içe aktarılan verile
 
 **Çıktı: DataView'dan yeni bir çalışma sayfasına aktarılan veriler** 
 
-![yapılacaklar:resim_alternatif_Metin](import-dataview-to-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](import-dataview-to-gridweb_1.png)
 
  Sütunların genişlikleri, içerdikleri tüm verileri gösterecek şekilde ayarlanır. Veriler DataView'dan içe aktarıldığında, sütun genişlikleri otomatik olarak ayarlanmaz. Kullanıcıların bunları kendileri ayarlaması gerekir. Sütun genişliklerini programlı olarak ayarlamak için bkz.[Satırları ve Sütunları Yeniden Boyutlandırma](/cells/tr/net/resize-rows-and-columns/).
 

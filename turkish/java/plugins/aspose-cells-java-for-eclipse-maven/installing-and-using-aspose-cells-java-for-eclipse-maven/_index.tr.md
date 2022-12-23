@@ -8,13 +8,13 @@ url: /tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 **Tutulma için Aspose.Cells Java (Maven)** eklenti, Mevcut'tan kolayca kurulabilir**Eklenti** Eklenti iletişim kutusundaki sekme.
 
-- açmak için seçin**Eklentiler**dan**Aletler** Eclipse'deki menü.
+- açmak için seçin**Eklentiler**dan**Araçlar** Eclipse'deki menü.
 
-![yapılacaklar:resim_alternatif_Metin](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
+![yapılacaklar:resim_alternatif_metin](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
 -  Bu ekler**Aspose.Cells Maven Proje** Yeni Proje sihirbazında ve**Aspose.Cells Kod Örneği** Eclipse IDE'nin Yeni Diğer sihirbazında.
 
-![yapılacaklar:resim_alternatif_Metin](project_1.png)
+![yapılacaklar:resim_alternatif_metin](project_1.png)
 
 ## **kullanma**
 
@@ -26,16 +26,16 @@ url: /tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 1. Seçme**Aspose.Cells Maven Proje**içinde**Maven**kategori.
 1. Tıklamak**Sonraki**.
 
-![yapılacaklar:resim_alternatif_Metin](project_2.png)
+![yapılacaklar:resim_alternatif_metin](project_2.png)
 
 1. Sağlamak**Proje Adı, Konum, GroupId, ArtifactId**ve**Sürüm**Maven Projeniz için tıklayın ve**Bitiş.**
 
-![yapılacaklar:resim_alternatif_Metin](project_3.png)
+![yapılacaklar:resim_alternatif_metin](project_3.png)
 
 1. Bu,[Aspose.Cells for Java](https://products.aspose.com/cells/java/) En son[Maven Bağımlılık](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referans[Aspose Bulut Maven Depo](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) ve içinde yapılandırın**pom.xml**. Eğer seçtiyseniz**Ayrıca Kod Örneklerini İndirin,** indirme**Kod Örnekleri** da başlayacak[Aspose.Cells for Java API Örnekler Deposu.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 1. Takip etmek**Maven** Projeniz üzerinde oluşturulacak**Eclipse IDE'si** sihirbaz tamamlandığında:
 
-![yapılacaklar:resim_alternatif_Metin](project_4.png)
+![yapılacaklar:resim_alternatif_metin](project_4.png)
 
 1.  oluşturulan**Maven Proje** kullanmak için yapılandırılmış**Aspose.Cells for Java API** ve Proje gereksinimlerinize göre geliştirilmeye hazır.
  İndirmeyi seçtiyseniz[Kod Örnekleri](https://github.com/aspose-cells/Aspose.Cells-for-Java) , kullanabilirsiniz**Aspose.Cells Kod Örneği (sihirbaz)**İthalat için gerekli**Kod Örnekleri** Aspose.Cells for Java API numaralı telefonu projenize ekleyin.
@@ -56,15 +56,15 @@ url: /tr/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 1. Seçme**Aspose.Cells Kod Örneği**içinde**Java**kategori.
 1. Tıklamak**Sonraki**.  
 
-![yapılacaklar:resim_alternatif_Metin](example_1.png)
+![yapılacaklar:resim_alternatif_metin](example_1.png)
 
 1.  Projenizi seçin ve ardından seçmek için ağacı genişletin**Kod Örneği** kategori ve tıklayın**Bitiş**.
 
-![yapılacaklar:resim_alternatif_Metin](example_2.png)
+![yapılacaklar:resim_alternatif_metin](example_2.png)
 
 1.  Bu, seçilen kategoriyi kopyalayacaktır**Kod Örnekleri**Java dosyaları altında projeye**com.aspose.cells.examples**paket. Ayrıca Kod Örneklerinin ihtiyaç duyduğu tüm gerekli kaynaklar şuraya kopyalanacaktır:**kaynak/ana/kaynaklar**klasör, aşağıda gösterildiği gibi:
 
-![yapılacaklar:resim_alternatif_Metin](example_3.png)
+![yapılacaklar:resim_alternatif_metin](example_3.png)
 
 1. Örnek kodu inceleyin, derleyin ve çalıştırın.
 1. Artık diğer örnekleri test edebilir ve Aspose.Cells for Java API'i kullanarak kendi uygulamanızı oluşturmaya başlayabilirsiniz.

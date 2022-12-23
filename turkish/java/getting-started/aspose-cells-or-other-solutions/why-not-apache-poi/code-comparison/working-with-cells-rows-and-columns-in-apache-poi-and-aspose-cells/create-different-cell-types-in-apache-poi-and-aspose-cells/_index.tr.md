@@ -93,6 +93,6 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{% alert color="primary" %}} 
 
- Daha fazla ayrıntı için, ziyaret edin[Sayıların ve Tarihlerin Görüntüleme Biçimlerini Ayarlama](/cells/tr/java/data-formatting/).
+ Daha fazla ayrıntı için, ziyaret edin[Numbers ve Tarihlerin Görüntüleme Biçimlerini Ayarlama](/cells/tr/java/data-formatting/).
 
 {{% /alert %}}

@@ -14,13 +14,13 @@ url: /tr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Genel Özellikler / İyileştirmeler
 
- XLSX dosyalarını kaydetmek için LightCellsDataProvider'ı destekler
+ XLSX dosyasını kaydetmek için LightCellsDataProvider'ı destekler
 
  J2SE7.0 sürümünü destekleyin
 
  Sayfadan Görüntüye özelliği için geliştirmeler yapıldı
 
- Excel'den PDF'e özelliği için iyileştirmeler yapıldı
+ Excel-to-PDF özelliği için iyileştirmeler yapıldı
 
 
 
@@ -40,11 +40,11 @@ url: /tr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30809 - XLS dosyasını kaydederken daha fazla biçim koşulu türü ekleyin (Koşullu Biçimlendirme özelliği için)
 
- 31192 - Desteklenen şifreleme türü: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bit
+31192 - Desteklenen şifreleme türü: RC4, Microsoft Enhanced Cryptographic Provider 1.0 128-bit
 
  İstisnalar
 
-30733 - Doğrulama formülü için bilimsel değerleri kullanırken bir istisna alın
+ 30733 - Doğrulama formülü için bilimsel değerleri kullanırken bir istisna alın
 
  30748 - Şifrelenmiş Excel2007 şablon dosyasının okunması İstisnaya neden oluyor
 
@@ -54,7 +54,7 @@ url: /tr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Hatalar
 
- 30616 - XLS'den PDF'e özelliğinde resim kayboldu
+ 30616 - XLS'den PDF'e özellikte resim kayboldu
 
  30695 - Grafikten Görüntüye özelliğinde kaybolan X/YA Ekseni
 
@@ -62,23 +62,23 @@ url: /tr/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30697 - Piramit Grafiği için görüntü yanlış oluşturuldu
 
- 30776 - XLS'den PDF'e özelliği tarafından geçersiz PDF dosyası oluşturuldu
+ 30776 - Geçersiz PDF dosyası, XLS-to-PDF özelliği tarafından oluşturuldu
 
  28545 - Cell'in değeri "sığdırmak için küçült" özelliğiyle doğru şekilde işlenmedi
 
- 30777 - Elde edilen PDF dosyasında metin sola değil ortaya hizalandı
+ 30777 - Ortaya çıkan PDF dosyasında metin sola değil ortaya hizalandı
 
  30911 - TextBox.setHtmlText(), zengin metni doğru şekilde ayrıştırmadı
 
- 30479 - Oluşturulan PDF dosyasındaki hücre değeri için fazladan parantez eklendi
+30479 - Oluşturulan PDF dosyasındaki hücre değeri için ekstra parantez eklendi
 
- 30899 - Kaydedilmiş XLS dosyasında yeni eklenen resmin ölçeklenmiş değeri değiştirildi
+ 30899 - Kaydedilen XLS dosyasındaki yeni eklenen resmin ölçek değeri değiştirildi
 
-30972 - Metin Kutusunun içeriği PDF dosyasında doğru şekilde işlenmedi
+ 30972 - Metin Kutusunun içeriği PDF dosyasında doğru şekilde işlenmedi
 
  31050 - Cell.getStringValue() doğru çift değeri vermedi
 
- 31007 - Formüller, oluşturulan XLS dosyasında "#NAME" olarak gösterildi
+ 31007 - Oluşturulan XLS dosyasında formüller "#NAME" olarak gösterildi
 
  31194 - MROUND formülü doğru hesaplanmadı
 

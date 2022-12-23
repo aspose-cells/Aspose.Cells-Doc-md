@@ -25,7 +25,7 @@ Aspose.Cells for Java支持以下Java版本：
 
 ### **从 Maven 存储库安装 Aspose Cells for Java**
 
-Maven 是下载和安装 Aspose.Cells for Java 最简单的方法。
+ Maven 是下载和安装 Aspose.Cells for Java 最简单的方法。
 
 1. 在 Maven pom.xml 中指定 Aspose Maven 存储库配置/位置。
  2. 在 pom.xml 中定义 Aspose.Cells for Java API 依赖项。

@@ -5,7 +5,7 @@ weight: 30
 url: /de/java/hide-and-unhide-cells/
 ---
 ## **Aspose.Cells – Zeilen und Spalten ein- und ausblenden**
-Aspose.Cells bietet eine Klasse,[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) , die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Klasse. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit, die alle Zellen im Arbeitsblatt darstellt. Die Sammlung Cells bietet mehrere Methoden zum Verwalten von Zeilen oder Spalten in einem Arbeitsblatt.
+Aspose.Cells bietet eine Klasse,[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) die eine Microsoft Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Klasse. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit, die alle Zellen im Arbeitsblatt darstellt. Die Sammlung Cells bietet mehrere Methoden zum Verwalten von Zeilen oder Spalten in einem Arbeitsblatt.
 
 **Java**
 

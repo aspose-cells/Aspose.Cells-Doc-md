@@ -6,44 +6,44 @@ url: /tr/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 ---
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41664|Koşullu Biçimlendirmeye Dayalı DataBar'ları HTML'ye Aktarma|Yeni özellik|
-|CELLSJAVA-40746|XLSX'i HTML'ye dışa aktarırken ColorScale, DataBar, IconSet'i destekleyin|Yeni özellik|
+|CELLSJAVA-41664|DataBar'ları Koşullu Biçimlendirmeye dayalı olarak HTML'e dışa aktarma|Yeni özellik|
+|CELLSJAVA-40746|XLSX'i HTML'e dışa aktarırken ColorScale, DataBar, IconSet desteği|Yeni özellik|
 |CELLSJAVA-41820|Çalışma sayfasının yöntemi yok calcualteFormula(Dize formülü, CalculationOptions seçenekleri)|Yeni özellik|
 |CELLSJAVA-40544|Workbook.calculateFormula'da performans darboğazı|Artırma|
 |CELLSJAVA-41817|PivotField için ShowAllItems ayarı etkili görünmüyor|Böcek|
-|CELLSJAVA-41810|EMF görüntüsünde metin tıkanıyor ve üst üste biniyor|Böcek|
-|CELLSJAVA-41801|EMF görüntüsünde metin etiketleri çakışıyor|Böcek|
+|CELLSJAVA-41810|EMF resminde metin tıkanıyor ve üst üste biniyor|Böcek|
+|CELLSJAVA-41801|EMF görselinde metin etiketleri çakışıyor|Böcek|
 |CELLSJAVA-41834|Çalışma kitabını kopyalarken özel durum oluştu|Böcek|
-|CELLSJAVA-41819|E-tablodan HTML'ye: Kaynak e-tablodan tema kopyalandıktan sonra Şekildeki Metnin Hizalanması yanlış|Böcek|
-|CELLSJAVA-41824|Grafik çıktı PDF'sinde işlenmez|Böcek|
-|CELLSJAVA-41805|Grafiğin PDF'sinde X ekseni etiketleri eksik|Böcek|
-|CELLSJAVA-41767|Chart'ın PDF'sindeki X ekseni etiketlerinin yanlış sayı biçimi|Böcek|
-|CELLSJAVA-41640|Grafik için çıktı PDF/Görüntüsünde uzun tireler uygun şekilde görüntülenmiyor|Böcek|
+|CELLSJAVA-41819|E-tablodan HTML'e: Temayı kaynak e-tablodan kopyaladıktan sonra Şekildeki Metnin Hizalanması yanlış|Böcek|
+|CELLSJAVA-41824|PDF çıktısında grafik görüntülenmiyor|Böcek|
+|CELLSJAVA-41805|Grafiğin PDF'inde X ekseni etiketleri eksik|Böcek|
+|CELLSJAVA-41767|Tablo PDF'deki X ekseni etiketlerinin yanlış sayı biçimi|Böcek|
+|CELLSJAVA-41640|Grafik için PDF/Resim çıktısında uzun tireler uygun şekilde görüntülenmiyor|Böcek|
 |CELLSJAVA-41604|Grafiğin Yatay Izgara Çizgileri PDF'de düzgün görünmüyor|Böcek|
 |CELLSJAVA-41832|Çalışma sayfasını resme dönüştürürken birkaç grafik çubuğu eksik|Böcek|
 |CELLSJAVA-41837|Chart.toPDF'yi ekleyin(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)|Böcek|
 |CELLSJAVA-41839|Adlandırılmış bir aralık içinde Cells.copyRow() yöntemi kullanıldığında, adlandırılmış bir aralık oluşturulur|Böcek|
 |CELLSJAVA-41838|Sayfada autoSizeColumns uygulanırken, sütun düzgün şekilde genişletilmiyor|Böcek|
-|CELLSJAVA-41835|Elektronik tabloyu PDF'ye kaydederken CellsException|İstisna|
+|CELLSJAVA-41835|Elektronik tabloyu PDF'e kaydederken CellsException|İstisna|
 |CELLSJAVA-41826|NaN İstisnası|İstisna|
 |CELLSJAVA-41848|Grafikten resme işlenirken belirli veri etiketleri eksik|Böcek|
 |CELLSJAVA-41850|CellsException: Cell kaldırıldı: MemorySetting.MEMORY_PREFERENCE ile D9|İstisna|
 |CELLSJAVA-41844|İstisna: "Şekilden görüntüye Hata !" bir çalışma sayfasını resme dönüştürürken|İstisna|
 |CELLSJAVA-41866|Metin Seçenekleri için Açıklama Girişi Özellikleri nasıl ayarlanır?|Yeni özellik|
 |CELLSJAVA-41865|Her satırın farklı Yatay Hizalamaya sahip olduğu Metin Kutusu oluşturun|Yeni özellik|
-|CELLSJAVA-41873|HTML'ye dönüştürme, gereksiz boş satırlar oluşturur|Böcek|
-|CELLSJAVA-41869|Bir şablon XLS dosyası yeniden kaydedildikten sonra metin hizalaması değişti|Böcek|
-|CELLSJAVA-41854|DataBar'lara sahip Excel dosyası düzgün bir şekilde HTML'ye dönüştürülmedi|Böcek|
+|CELLSJAVA-41873|HTML'e dönüştürme, gereksiz boş satırlar oluşturur|Böcek|
+|CELLSJAVA-41869|Bir şablon XLS dosyası yeniden kaydedildikten sonra metin hizalaması değiştirildi|Böcek|
+|CELLSJAVA-41854|DataBar'lara sahip Excel dosyası HTML'e düzgün şekilde dönüştürülmedi|Böcek|
 |CELLSJAVA-41851|Aspose.Cells ile oluşturulan Özet Grafik MAC için Excel 2016'da görüntülenmiyor|Böcek|
 |CELLSJAVA-41840|Aspose.Cells, HTML kaynakları için yolun sonuna null ekler|Böcek|
 |CELLSJAVA-41878|LightCells API'leri yalnızca satırın ilk sütunu için olaylar oluşturur|Böcek|
 |CELLSJAVA-41859|Cell XLS yeniden kaydedildikten sonra kenarlıklar görünüyor|Böcek|
-|CELLSJAVA-41888|XLS'yi PDF'ye dönüştürürken logo görüntüsü kayboluyor|Böcek|
-|CELLSJAVA-41874|Bir XLS dosyasından işlenen PDF'de karakter konumu farklı|Böcek|
-|CELLSJAVA-41852|Çalışma sayfası Linux'ta EMF'ye dönüştürüldüğünde metin çakışıyor|Böcek|
-|CELLSJAVA-41823|Metin yoğunluğu ve satır sonları, Excel tarafından oluşturulan PDF ile karşılaştırıldığında farklıdır|Böcek|
-|CELLSJAVA-41822|Elektronik tablo PDF'ye dönüştürülürken metin kırpılıyor ve üst üste biniyor|Böcek|
-|CELLSJAVA-41856|Grafiği PDF'ye dönüştürme sorunları|Böcek|
+|CELLSJAVA-41888|XLS, PDF'e dönüştürülürken logo görüntüsü kayboluyor|Böcek|
+|CELLSJAVA-41874|Oluşturulan PDF dosyasındaki karakter konumu, bir XLS dosyasından farklı|Böcek|
+|CELLSJAVA-41852|Çalışma sayfası Linux'ta EMF'e dönüştürüldüğünde metin çakışıyor|Böcek|
+|CELLSJAVA-41823|Metin yoğunluğu ve satır sonları, oluşturulan Excel ile karşılaştırıldığında farklıdır PDF|Böcek|
+|CELLSJAVA-41822|E-tablo PDF'e dönüştürülürken metin kırpılıyor ve üst üste biniyor|Böcek|
+|CELLSJAVA-41856|Tabloyu PDF'e dönüştürme sorunları|Böcek|
 |CELLSJAVA-41855|Excel dosyasını açıp kaydetmek trend çizgilerini değiştirir|Böcek|
 |CELLSJAVA-41890|Çalışma kitabı iki kez kaydedilir, ikinci kez kaydedilen içerik ilk seferden farklı olur|Böcek|
 |CELLSJAVA-41884|Excel dosyasına kaydedilmeden önce sıralanmayan PageBreaks ile ilgili sorun|Böcek|
@@ -54,24 +54,24 @@ url: /tr/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 |CELLSJAVA-40366|Katıştırılmış simgeyle ilgili sorun - yazdırılamıyor|Böcek|
 |CELLSJAVA-41883|CellsException: Bilinmeyen eklenti işlev türü: 9, Workbook.calculateFormula'da|İstisna|
 |CELLSJAVA-41858|CellsException: Workbook.calculateFormula'da Cell[0BMW CAN Bus Codes V0.4!R4] hesaplanırken hata oluştu|İstisna|
-|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: XLS yeniden kaydedilirken Workbook.save'de 4|İstisna|
+|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: Workbook.save'de 4, XLS yeniden kaydedilirken|İstisna|
 |CELLSJAVA-41864|İstisna: java.lang.IllegalStateException: Geçersiz kodlama: XLS dosyasının yeniden kaydedilmesinde null|İstisna|
-|CELLSJAVA-41901|Çıktı PDF'sinde çubuklar yukarı doğru hareket ediyor|Artırma|
+|CELLSJAVA-41901|Çıkışta çubuklar yukarı doğru hareket ediyor PDF|Artırma|
 |CELLSJAVA-41909|Çalışma Kitabı için Özel Ondalık Sayı ve Grup Ayırıcıları Belirtme Çalışmıyor|Böcek|
 |CELLSJAVA-41895|Formül hesaplama sonucu, Excel yerel hesaplamasından farklıdır|Böcek|
 |CELLSJAVA-41917|SheetRender.toImage() yöntemi kullanılırken onay kutuları doğru şekilde oluşturulmuyor|Böcek|
-|CELLSJAVA-41903|PDF'ye dönüştürülürken karakter yönü farklı|Böcek|
-|CELLSJAVA-41896|Bazı karakterler eksik veya doğrudan Excel'den PDF'e dönüştürme işlemine yapıştırılmamış|Böcek|
+|CELLSJAVA-41903|PDF'e dönüştürülürken karakter yönü farklı|Böcek|
+|CELLSJAVA-41896|Bazı karakterler eksik veya doğrudan Excel'de PDF dönüşümüne yapıştırılmamış|Böcek|
 |CELLSJAVA-41740|DataBar resimlerinden bazıları boş|Böcek|
 |CELLSJAVA-41769|Grafiğin çubukları, PDF'deki hücrelerle düzgün şekilde hizalanmamış|Böcek|
-|CELLSJAVA-41905|Elektronik tablo EMF'ye dönüştürüldükten sonra yanlış hizalanmış çubuklar|Böcek|
-|CELLSJAVA-41894|Elektronik tabloyu PDF'ye dönüştürürken karakter boşlukları sorunu|Hatalar|
-|CELLSJAVA-41893|Çıkış PDF'sinde arka plan görüntüsü bozuk veya bulanık|Böcek|
-|CELLSJAVA-41892|Çıktı PDF'sinde arka plan görüntüsü uzatıldı|Böcek|
+|CELLSJAVA-41905|E-tablo EMF olarak oluşturulduktan sonra yanlış hizalanmış çubuklar|Böcek|
+|CELLSJAVA-41894|Elektronik tabloyu PDF'e dönüştürürken karakter boşlukları sorunu|Hatalar|
+|CELLSJAVA-41893|Çıktıda arka plan görüntüsü bozuk veya bulanık PDF|Böcek|
+|CELLSJAVA-41892|PDF çıktısında arka plan görüntüsü uzatıldı|Böcek|
 |CELLSJAVA-41916|Cells.copyColumns kullanılırken bozulan harici formül referansları|Böcek|
 |CELLSJAVA-41915|Metin değiştirildikten sonra bozuk XLSX dosyası|Böcek|
 |CELLSJAVA-41912|Adlandırılmış Aralıklara başvuran bir e-tabloda removeFormula ile ilgili sorun|Böcek|
-|CELLSJAVA-41899|FileFormatUtil.detectFileFormat ile XLSX yükleme biçimi algılanamıyor|Böcek|
+|CELLSJAVA-41899|XLSX yükleme biçimi FileFormatUtil.detectFileFormat ile algılanamıyor|Böcek|
 |CELLSJAVA-41328|frenchCommonWords.xlsx'te metin bloğu kaybı|Böcek|
 |CELLSJAVA-40307|Metin Taşması kontrolü|Böcek|
 |CELLSJAVA-41919|CellsException: 2"="Stra?e zu breit",", Workbook ctor'da|İstisna|
@@ -115,7 +115,7 @@ Tablonun yorumunu alır ve ayarlar.
 ### **ShapeCollection.AddActiveXControl() yöntemini ekler.**
 ActiveX denetimi ekler.
 ### **HTMLLoadOptions.DefaultFontName özelliğini ekler**
-HTML'yi dışa aktarmak için varsayılan yazı tipi adını belirtir, stil yazı tipi olmadığında varsayılan yazı tipi kullanılacaktır. Bu özellik null ise, Aspose.Cells orijinal yazı tipiyle aynı aileye sahip evrensel yazı tipini kullanır, varsayılan değer boştur.
+Dışa aktarma için varsayılan yazı tipi adını belirtir HTML, stil yazı tipi olmadığında varsayılan yazı tipi kullanılacaktır. Bu özellik null ise, Aspose.Cells orijinal yazı tipiyle aynı aileye sahip evrensel yazı tipini kullanır, varsayılan değer boştur.
 ### **PivotTable.IsExcel2003Compatible özelliğini ekler**
 PivotTable yenilenirken PivotTable'ın Excel2003 ile uyumlu olup olmadığını belirtir. true ise, bir dize 255 karakterden küçük veya buna eşit olmalıdır, bu nedenle dize 255 karakterden büyükse,
 kesilecek. False ise, bir dizge yukarıda bahsedilen kısıtlamaya sahip olmayacaktır. Varsayılan değer doğrudur.

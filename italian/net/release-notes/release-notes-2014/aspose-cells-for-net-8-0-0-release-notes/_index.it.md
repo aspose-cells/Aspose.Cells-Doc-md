@@ -11,7 +11,7 @@ url: /it/net/aspose-cells-for-net-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for .NET è stato aggiornato alla versione 8.0.0 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 50 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Usando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -48,7 +48,7 @@ Altri miglioramenti e modifiche
 
 ## **Insetti**
 
-(CELLSNET-42367) - Problema di testo verticale nel PDF di output
+(CELLSNET-42367) - Problema di testo verticale nell'output PDF
 
 (CELLSNET-42409) - Campo calcolato non calcolato/stampato
 
@@ -60,9 +60,9 @@ Altri miglioramenti e modifiche
 
 (CELLSNET-42358) - Problema di allineamento del testo con le caselle di controllo
 
-(CELLSNET-42357) - Mancano alcune caselle di controllo nell'HTML di output
+(CELLSNET-42357) - Mancano alcune caselle di controllo nell'output HTML
 
-(CELLSNET-42352) - Bordi mancanti durante la conversione di XLSX in HTML
+(CELLSNET-42352) - Bordi mancanti durante la conversione da XLSX a HTML
 
 (CELLSNET-42476) - Il test di eliminazione non riesce in Aspose.Cells v7.7.2.5
 
@@ -78,7 +78,7 @@ Altri miglioramenti e modifiche
 
 (CELLSNET-42456) - SheetRender non riesce a generare correttamente le immagini
 
-(CELLSNET-42452) - Il collegamento ipertestuale non funziona quando viene convertito in PDF
+(CELLSNET-42452) - Il collegamento ipertestuale non funziona se convertito in PDF
 
 (CELLSNET-42448) - La formattazione condizionale della barra dei dati non viene visualizzata correttamente
 
@@ -92,17 +92,17 @@ Altri miglioramenti e modifiche
 
 (CELLSNET-42410) - Interruzione di pagina aggiuntiva nella conversione da Excel a PDF
 
-(CELLSNET-42338) - Discrepanze e problemi per valori e grafici nell'XPS di output
+(CELLSNET-42338) - Discrepanze e problemi per valori e grafici nell'output XPS
 
 (CELLSNET-41853) - Disegni dalla pagina XLS completamente persi
 
-(CELLSNET-41803) - La barra dati negativa non viene visualizzata nel PDF di output
+(CELLSNET-41803) - La barra dati negativa non viene visualizzata nell'output PDF
 
-(CELLSNET-42473) - Il grafico non contiene marcatori nel PDF di output
+(CELLSNET-42473) - Il grafico non contiene marcatori nell'output PDF
 
-(CELLSNET-42403) - Problema di dimensioni e posizionamento del grafico durante la conversione di XLSX in PDF
+(CELLSNET-42403) - Problema di dimensioni e posizionamento del grafico durante la conversione da XLSX a PDF
 
-(CELLSNET-42372) - Le serie di dati del grafico sono state rimosse nei file XLSX di output
+(CELLSNET-42372) - Le serie di dati del grafico sono state rimosse nei file di output XLSX
 
 (CELLSNET-42055) - File danneggiato con l'ultima versione di MS Excel (2013)
 
@@ -116,7 +116,7 @@ Altri miglioramenti e modifiche
 
 (CELLSNET-42424) - Output WEEKNUM() errato
 
-(CELLSNET-42412) - Alcune formule non funzionano nel PDF di output dopo aver richiamato CalculateFormula()
+(CELLSNET-42412) - Alcune formule non funzionano nell'output PDF dopo aver richiamato CalculateFormula()
 
 (CELLSNET-42397) - La proprietà Formula non funziona sull'oggetto cella
 
@@ -133,7 +133,7 @@ Altri miglioramenti e modifiche
 ### **Eccezioni**
 
 
-(CELLSNET-42441) - Errore in XLSX che chiama GetNamedRanges
+(CELLSNET-42441) - Errore in XLSX durante la chiamata a GetNamedRanges
 
 ## 2) Aspose.Cells Griglia Suite
 
@@ -155,9 +155,9 @@ Altri miglioramenti e modifiche
 
 (CELLSNET-42415) - La formula che utilizza un intervallo denominato non funziona
 
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 Proprietà AutoFilter.FilterColumnCollection obsoleta
 

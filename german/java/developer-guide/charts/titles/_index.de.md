@@ -29,4 +29,4 @@ Das folgende Code-Snippet zeigt, wie Titel für Diagramme und Achsen festgelegt 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SettingTitlesAxes-1.cs" >}}
 
 ## **Themen vorantreiben**
-- [Lesen Sie den Diagrammuntertitel aus der ODS-Datei](/cells/de/java/read-chart-subtitle-from-ods-file/)
+- [Lesen Sie den Diagrammuntertitel aus der Datei ODS](/cells/de/java/read-chart-subtitle-from-ods-file/)

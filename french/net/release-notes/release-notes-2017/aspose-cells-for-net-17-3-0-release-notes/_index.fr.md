@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-17-3-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45037|Prise en charge des étiquettes de total et de total général personnalisées pour les tableaux croisés dynamiques|Nouvelle fonctionnalité|
 |CELLSNET-45156|Synchroniser la pagination des deux grilles (Aspose.Cells.GridWeb)|Nouvelle fonctionnalité|
@@ -24,41 +24,41 @@ url: /fr/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45136|Les cases sont pivotées lors de la conversion d'Excel en PDF|Punaise|
 |CELLSNET-45182|La feuille de calcul résultante ne peut pas être chargée dans Excel sans réparation|Punaise|
 |CELLSNET-45143|Aspose.Cells produit un tableau croisé dynamique corrompu avec un filtre de rapport lorsqu'il est enregistré dans XLSB|Punaise|
-|CELLSNET-45135|Les images se chevauchent lors de l'importation de HTML au format XLSX|Punaise|
-|CELLSNET-45134|Les largeurs de colonne sont perdues lors de l'importation de HTML au format XLSX|Punaise|
-|CELLSNET-45133|Le style du contenu est perdu lors de l'importation de HTML au format XLSX|Punaise|
-|CELLSNET-45132|WrapText activé en HTML est perdu lors de l'enregistrement au format XLSX|Punaise|
-|CELLSNET-45127|Le style et la taille de la police sont modifiés après l'importation de HTML au format XLSX|Punaise|
+|CELLSNET-45135|Les images se chevauchent lors de l'importation de HTML en tant que XLSX|Punaise|
+|CELLSNET-45134|Les largeurs de colonne sont perdues lors de l'importation de HTML en tant que XLSX|Punaise|
+|CELLSNET-45133|Le style de contenu est perdu lors de l'importation de HTML en tant que XLSX|Punaise|
+|CELLSNET-45132|WrapText activé dans HTML est perdu lors de l'enregistrement au format XLSX|Punaise|
+|CELLSNET-45127|Le style et la taille de la police sont modifiés après l'importation de HTML en tant que XLSX|Punaise|
 |CELLSNET-45115|L'actualisation du tableau croisé dynamique après l'ajout de certaines données génère un fichier Excel corrompu|Punaise|
 |CELLSNET-45109|Erreur lors de l'actualisation du tableau croisé dynamique regroupé par colonne de date|Punaise|
 |CELLSNET-45081|La fonctionnalité de fusion des étiquettes du tableau croisé dynamique ne fonctionne pas|Punaise|
-|CELLSNET-45076|L'alignement ne fonctionne pas et le texte sort de la cellule dans la conversion Excel vers HTML|Punaise|
+|CELLSNET-45076|L'alignement ne fonctionne pas et le texte sort de la cellule dans Excel en conversion HTML|Punaise|
 |CELLSNET-45057|La conversion de HTML en XLSX n'est pas correcte|Punaise|
-|CELLSNET-45040|Certains éléments de champ pivot sont rendus sous forme de valeurs de date au lieu de nombres|Punaise|
+|CELLSNET-45040|Certains éléments de champ pivot sont rendus sous forme de valeurs de date au lieu de Numbers|Punaise|
 |CELLSNET-40265|Problème avec la culture des fichiers d'entrée|Punaise|
 |CELLSNET-45142|Problème avec la fonction VLOOKUP lorsque la plage externe est utilisée|Punaise|
 |CELLSNET-45150|Impossible de développer ou de réduire les dernières lignes de la feuille de calcul|Punaise|
 |CELLSNET-45139|La pagination ne fonctionne pas avec deux GridWebs sur une page|Punaise|
 |CELLSNET-45137|Les lignes ou colonnes groupées ont des problèmes dans GridWeb lorsqu'il est exécuté sur Internet Explorer 11|Punaise|
-|CELLSNET-45203|Les caractères se chevauchent lors du rendu d'un fichier Excel au format PDF|Punaise|
-|CELLSNET-45196|L'impression est brouillée dans le XPS exporté|Punaise|
+|CELLSNET-45203|Les caractères se chevauchent lors du rendu d'un fichier Excel en PDF|Punaise|
+|CELLSNET-45196|L'impression est tronquée lors de l'exportation XPS|Punaise|
 |CELLSNET-45187|Les balises doivent être dans l'ordre croissant conformément à la spécification TrueType|Punaise|
 |CELLSNET-45169|Avertissement : La taille maximale de la région est de 262 144 octets, à SheetRender.ToImage sur Mono|Punaise|
 |CELLSNET-45167|SheetRender.ToImage rend le contenu brouillé et incomplet sur Mono|Punaise|
 |CELLSNET-45166|SheetRender.ToImage rend uniquement l'en-tête et le pied de page sur Mono|Punaise|
-|CELLSNET-43732|Le rendu au format EMF et le collage dans Word entraînent le chevauchement du texte dans le PDF résultant|Punaise|
-|CELLSNET-45186|Le graphique en aires ne s'affiche pas lors de l'exportation PDF|Punaise|
+|CELLSNET-43732|Le rendu en EMF et le collage dans Word entraînent le chevauchement du texte dans le PDF résultant|Punaise|
+|CELLSNET-45186|Le graphique en aires ne s'affiche pas sur l'exportation PDF|Punaise|
 |CELLSNET-45178|Les étiquettes d'axe sont coupées lors du rendu du graphique en image|Punaise|
 |CELLSNET-45177|Les étiquettes d'axe sont manquantes lors du rendu du graphique en image - II|Punaise|
-|CELLSNET-45151|Les graphiques perdent tout formatage lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSNET-45147|Le graphique est manquant lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSNET-45151|Les graphiques perdent tout formatage lors du rendu de la feuille de calcul en PDF|Punaise|
+|CELLSNET-45147|Le graphique est manquant lors du rendu de la feuille de calcul au PDF|Punaise|
 |CELLSNET-44998|Les étiquettes de données du graphique changent après la conversion de la feuille de calcul en PDF|Punaise|
-|CELLSNET-44984|La courbe de tendance dans le deuxième diagramme n'est pas rendue correctement dans le PDF de sortie|Punaise|
-|CELLSNET-41539|Le texte/l'image de l'ellipse verte est mal rendu autour du graphique dans le PDF|Punaise|
+|CELLSNET-44984|La ligne de tendance dans le deuxième diagramme n'est pas rendue correctement dans la sortie PDF|Punaise|
+|CELLSNET-41539|L'image / l'art du mot ellipse verte est mal rendu autour du graphique dans le PDF|Punaise|
 |CELLSNET-45197|Range.MoveTo ne déplace pas la validation des données et la mise en forme conditionnelle|Punaise|
 |CELLSNET-45183|L'attribut "Verrouillé" du champ ActiveX (ComboBox) n'est pas modifié|Punaise|
 |CELLSNET-45179|La définition de CodeName sur le fichier XLSX ne fonctionne pas correctement|Insectes|
-|CELLSNET-45175|Le formatage des images ne fonctionne pas pour les fichiers XLSX|Punaise|
+|CELLSNET-45175|Le formatage de l'image ne fonctionne pas pour les fichiers XLSX|Punaise|
 |CELLSNET-45174|La plage Print_Area s'est cassée après DeleteRange|Punaise|
 |CELLSNET-45173|Le fichier XLSX est corrompu après l'enregistrement|Punaise|
 |CELLSNET-45171|Le déplacement de la plage entraîne le rétrécissement des plages intérieures d'une longueur d'une cellule|Punaise|
@@ -67,7 +67,7 @@ url: /fr/net/aspose-cells-for-net-17-3-0-release-notes/
 |CELLSNET-45154|Le déplacement de la plage ne met pas à jour les références sur une autre feuille|Punaise|
 |CELLSNET-45145|Impossible de supprimer l'objet CameraTool|Punaise|
 |CELLSNET-45060|Les paramètres de police du bouton ont changé après une simple opération de chargement et de sauvegarde|Punaise|
-|CELLSNET-43722|Erreur de fichier : des données ont peut-être été perdues, générées par Excel lors de l'ouverture de XLS|Punaise|
+|CELLSNET-43722|Erreur de fichier : des données ont peut-être été perdues, générées par Excel lors de l'ouverture XLS|Punaise|
 |CELLSNET-45190|Une exception s'est produite lors du calcul de la formule WORKDAY|Exception|
 |CELLSNET-45199|Excel vers PDF - Exception d'index hors tableau|Exception|
 ### **Public API et modifications incompatibles avec les versions antérieures**
@@ -84,7 +84,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 1. **Ajoute la méthode GlobalizationSettings.GetEmptyDataName()** - Il obtient le nom de l'étiquette "(vide)" dans le tableau croisé dynamique.
 1. **Ajoute la méthode GlobalizationSettings.GetSubTotalName(PivotFieldSubtotalType subTotalType)** - Il obtient le nom du type "PivotFieldSubtotalType" dans le tableau croisé dynamique.
 
-Cet exemple de code explique comment personnaliser les paramètres de globalisation d'un tableau croisé dynamique. Il crée une classe CustomPivotTableGlobalizationSettings dérivée d'une classe de base GlobalizationSettings et remplace toutes ses méthodes nécessaires. Ces méthodes renvoient le texte personnalisé pour le total croisé dynamique, le sous-total, le total général, tous les éléments, plusieurs éléments, les étiquettes de colonne, les étiquettes de ligne, les valeurs vides. Ensuite, il affecte l'objet de cette classe à la propriété Workbook.GlobalizationSettings. Le code charge le fichier Excel source qui contient le tableau croisé dynamique, actualise et calcule ses données et l'enregistre en tant que fichier PDF de sortie. Les développeurs peuvent également enregistrer le classeur dans n'importe quel format pris en charge.
+Cet exemple de code explique comment personnaliser les paramètres de globalisation d'un tableau croisé dynamique. Il crée une classe CustomPivotTableGlobalizationSettings dérivée d'une classe de base GlobalizationSettings et remplace toutes ses méthodes nécessaires. Ces méthodes renvoient le texte personnalisé pour le total croisé dynamique, le sous-total, le total général, tous les éléments, plusieurs éléments, les étiquettes de colonne, les étiquettes de ligne, les valeurs vides. Ensuite, il affecte l'objet de cette classe à la propriété Workbook.GlobalizationSettings. Le code charge le fichier Excel source qui contient le tableau croisé dynamique, actualise et calcule ses données et l'enregistre en tant que fichier de sortie PDF. Les développeurs peuvent également enregistrer le classeur dans n'importe quel format pris en charge.
 
 **.NET, C#**
 

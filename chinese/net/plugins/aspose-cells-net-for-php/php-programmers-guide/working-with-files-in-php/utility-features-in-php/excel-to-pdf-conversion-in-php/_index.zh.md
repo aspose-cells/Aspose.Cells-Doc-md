@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /zh/net/excel-to-pdf-conversion-in-php/
 ---
-## **Aspose.Cells - Excel 到 PDF 的转换**
+## **Aspose.Cells - Excel 到 PDF 转换**
 将 Microsoft Excel 文件转换为 PDF
 
 **PHP代码**

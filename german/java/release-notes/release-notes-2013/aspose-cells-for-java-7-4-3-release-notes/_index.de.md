@@ -16,6 +16,6 @@ Diese Seite enthält Versionshinweise für [Aspose.Cells for Java 7.4.3|https://
 
  40367 – Drucken von Excel mit Bild Problem
 
- 40474 - Zellenformatierung kann nicht kopiert werden
+40474 - Zellenformatierung kann nicht kopiert werden
 
  40480 – Problem mit COUNTA- und INDIREKT-Formeln

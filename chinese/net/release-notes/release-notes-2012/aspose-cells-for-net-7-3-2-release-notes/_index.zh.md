@@ -18,7 +18,7 @@ url: /zh/net/aspose-cells-for-net-7-3-2-release-notes/
 
 
 
-新的功能
+新功能
 
 - 支持在 Workbook.Copy() 中复制迷你图
 
@@ -61,9 +61,9 @@ url: /zh/net/aspose-cells-for-net-7-3-2-release-notes/
 - 复制工作表后隐藏的图片消失了
 - 保存后，Excel工作表的数据消失了
 
--使用散点图保存 XLSX 文件可启用额外选项
+ 使用散点图保存 XLSX 文件可启用额外选项
 
--XLSX 文件格式的 DataLabels.ShowBubbleSize 问题
+-DataLabels.ShowBubbleSize 问题与 XLSX 文件格式
 
 -Excel 饼图的标题未正确呈现为图像文件
 
@@ -77,13 +77,13 @@ url: /zh/net/aspose-cells-for-net-7-3-2-release-notes/
 - 负数的自定义数字格式问题
 - 在数据透视表中设置小计的颜色
 - 在数据透视表中保存包含计算成员的工作簿时出现问题
-- 与 SheetRender (XPS) 有关的公式和语言问题
+- 与 SheetRender 相关的公式和语言问题 (XPS)
 - 小计的计算顺序不正确（智能标记）
 - Excel 的 XLSB 文件大小问题 - 选择列表消失
 
- 使用 Aspose Cells 保存 PDF 时出现图像错误
+ 使用 Aspose Cells 保存 PDF 时形状到图像错误
 
-- 转换为 PDF 后，文件已损坏
+- 转换为PDF后，文件损坏
 
 
 

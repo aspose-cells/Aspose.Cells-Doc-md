@@ -10,7 +10,7 @@ url: /fr/net/update-power-query-formula-item/
 
 ## **Mise à jour de l'élément de formule Power Query**
 
- Aspose.Cells API permet de mettre à jour les éléments de formule Power Query. L'extrait de code suivant illustre la mise à jour de l'emplacement du fichier de source de données dans le fichier Excel à l'aide de la commande[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)propriété. Les fichiers source et de sortie joints pour votre référence.
+ Aspose.Cells API permet de mettre à jour les éléments de formule Power Query. L'extrait de code suivant illustre la mise à jour de l'emplacement du fichier de source de données dans le fichier Excel à l'aide de la commande[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)la propriété. Les fichiers source et de sortie joints pour votre référence.
 
 - [Fichier source 1](106364953.xlsx)
 - [Fichier source 2](106364954.xlsx)

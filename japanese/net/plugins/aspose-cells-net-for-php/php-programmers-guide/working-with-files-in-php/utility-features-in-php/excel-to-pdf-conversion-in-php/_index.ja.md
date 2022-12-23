@@ -1,13 +1,13 @@
 ﻿---
-title: PHP での Excel から PDF への変換
+title: PHPでのExcelからPDFへの変換
 type: docs
 weight: 20
 url: /ja/net/excel-to-pdf-conversion-in-php/
 ---
 ## **Aspose.Cells - Excel から PDF への変換**
-Microsoft ExcelファイルをPDFに変換
+Microsoft Excel ファイルを PDF に変換
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

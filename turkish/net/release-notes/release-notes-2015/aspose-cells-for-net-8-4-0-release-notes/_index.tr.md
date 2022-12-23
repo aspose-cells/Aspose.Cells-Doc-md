@@ -16,7 +16,7 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Yeni özellikler**
 
 
-(CELLSNET-43362) - PivotTable'ı Çalışma Sayfasından silme desteği
+ (CELLSNET-43362) - PivotTable'ı Çalışma Sayfasından silme desteği
 
  (CELLSNET-43279) - İçerik Türü Özellikleri XLS biçiminde gösterilmiyor
 
@@ -26,11 +26,11 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Geliştirmeler**
 
 
- (CELLSNET-43368) - Excel'i HTML'ye kaydederken CSS oluşturmayı özelleştirme
+ (CELLSNET-43368) - Excel'i HTML'e kaydederken CSS oluşturmayı özelleştirme
 
  (CELLSNET-43361) - ImportTwoDimensionArray'den sonra Cell'in Sayı Biçimi korunamıyor
 
- (CELLSNET-43454) - Aspose.Pdf, PDF/A-1B çıktısını doğrulamaz
+ (CELLSNET-43454) - Aspose.Pdf, PDF/A-1B çıkışını doğrulamaz
 
  (CELLSNET-43452) - PDF çıktısının PDFA1B uyumluluğu doğrulanmadı
 
@@ -44,15 +44,15 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Verim**
 
 
- (CELLSNET-43438) - Elektronik tablodan HTML'ye, 1 GB'lık bir HTML dosyası oluşturur
+ (CELLSNET-43438) - HTML e-tablosu 1 GB HTML dosyası oluşturur
 
- (CELLSNET-43399) - CalculateFormula() yöntemiyle ilgili performans sorunu
+(CELLSNET-43399) - CalculateFormula() yöntemiyle ilgili performans sorunu
 
 
 ## **Hatalar**
 
 
-(CELLSNET-43460) - Arka plan rengi: rgba(0, 0, 0, 0); arka plan rengini siyah yapar
+ (CELLSNET-43460) - Arka plan rengi: rgba(0, 0, 0, 0); arka plan rengini siyah yapar
 
  (CELLSNET-43403) - İkinci Pivot yapıldığında ilk sütun kayboluyor
 
@@ -68,19 +68,19 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43331) - Pivot tablo oluşturulduktan sonra Excel dosyası bozuluyor
 
- (CELLSNET-43328) - Çıktı PDF'sinde görüntülerin konumu yanlış
+ (CELLSNET-43328) - Çıktıda görüntülerin konumu yanlış PDF
 
  (CELLSNET-43322) - Dosya yeniden kaydedildiğinde PivotChart'ta düğmeler belirdi
 
  (CELLSNET-42919) - Pivot Verileri yenilendikten sonra "Excel okunamaz bulundu..." hatası
 
- (CELLSNET-43451) - Çalışma sayfasını resme dönüştürürken hizalama sorunu
+(CELLSNET-43451) - Çalışma sayfasını resme dönüştürürken hizalama sorunu
 
-(CELLSNET-43414) - Başlık ile gövde arasındaki boşluk farklı
+ (CELLSNET-43414) - Başlık ile gövde arasındaki boşluk farklı
 
  (CELLSNET-43411) - Daha yeni sürüm 96 dpi'den azını kabul edemez
 
- (CELLSNET-43410) - Çıktı PDF'sinde her Environment.NewLine ile yanlış boşluk
+ (CELLSNET-43410) - PDF çıkışındaki her Environment.NewLine ile yanlış boşluk
 
  (CELLSNET-43348) - FitToPagesTall ve FitToPagesWide özelliği beklendiği gibi çalışmıyor
 
@@ -90,17 +90,17 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43375) - Grafiği Resme dönüştürürken Grafik Başlığı yanlış işleniyor
 
- (CELLSNET-43352) - XLSX'ten dönüştürüldüğünde PDF boyutu iki katına çıkıyor
+ (CELLSNET-43352) - PDF boyutu, XLSX'den dönüştürüldüğünde iki katına çıkar
 
- (CELLSNET-43351) - XLSX'i PDF'ye dönüştürürken Grafik Göstergesi sorunu
+ (CELLSNET-43351) - XLSX'i PDF'e dönüştürürken Grafik Göstergesi sorunu
 
- (CELLSNET-43350) - XLSX'i PDF'ye dönüştürürken Grafik Ekseni sorunu
+ (CELLSNET-43350) - XLSX'i PDF'e dönüştürürken Grafik Ekseni sorunu
 
- (CELLSNET-43349) - XLSX'i PDF'ye dönüştürürken Grafik Sorunu
+(CELLSNET-43349) - XLSX'i PDF'e dönüştürürken Grafik Sorunu
 
  (CELLSNET-43347) - Çalışma Kitabı kopyalanırken Chart's Series Shadow kopyalanmıyor
 
-(CELLSNET-43339) - Çıktı PDF'sinde grafikler düzgün şekilde oluşturulmuyor
+ (CELLSNET-43339) - Grafikler, PDF çıktısında düzgün şekilde oluşturulmuyor
 
  (CELLSNET-42573) - Pasta grafik etiketleri çakışıyor
 
@@ -116,17 +116,17 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43456) - Xls yüklenip kaydedildikten sonra WordArt'ın yazı tipi rengi değişiyor
 
- (CELLSNET-43441) - XLSX'ten XLSB'ye dönüştürme, bozuk e-tablo üretiyor
+ (CELLSNET-43441) - XLSX'den XLSB'e dönüştürme bozuk e-tablo üretiyor
 
  (CELLSNET-43434) - Katıştırılmış Docm veya xls'deki Dotx açılamıyor
 
  (CELLSNET-43432) - Akıllı İşaretleyiciler, X sayıda satırdan sonra veri birleştirmeyi durdurur
 
- (CELLSNET-43426) - Çalışma sayfalarını birleştirmek kesme işaretini keser
+(CELLSNET-43426) - Çalışma sayfalarını birleştirmek kesme işaretini keser
 
  (CELLSNET-43424) - Arama formülü doğru hesaplanmamış
 
-(CELLSNET-43423) - Çıktı Excel dosyasında PageSetup.IsHFAlignMargins otomatik olarak doğru oluyor
+ (CELLSNET-43423) - Çıktı Excel dosyasında PageSetup.IsHFAlignMargins otomatik olarak doğru oluyor
 
  (CELLSNET-43419) - Alt adresleri olmayan köprüler kayboluyor
 
@@ -146,9 +146,9 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43338) - Bir tabloya sütun eklemek okunamaz uyarıya neden oluyor
 
- (CELLSNET-43336) - Koşullu biçimlendirme oluşturma sorunu - Excel'den HTML'ye
+(CELLSNET-43336) - Koşullu biçimlendirmenin işlenmesiyle ilgili sorun - Excel'den HTML'e
 
-(CELLSNET-43335) - Koşullu biçimlendirmeyi işlemeyle ilgili sorun - Excel'den PDF'ye
+ (CELLSNET-43335) - Koşullu biçimlendirme oluşturmayla ilgili sorun - Excel'den PDF'e
 
  (CELLSNET-43333) - Cells.ImportDataReader() yönteminde Satır Ekle parametresi düzgün çalışmıyor
 
@@ -168,21 +168,21 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43320) - Html olarak kaydederken boş referans istisnası
 
- (CELLSNET-43314) - Bir XLS dosyası açılırken istisna oluştu
+ (CELLSNET-43314) - XLS dosyası açılırken istisna oluştu
 
  (CELLSNET-43312) - Pivot tablo yenilenirken dizin aralık dışındaydı istisnası
 
  (CELLSNET-43393) - Cell.PutValue'da dizin sınır dışı istisnası
 
- (CELLSNET-43427) - Excel dosyasını açarken System.OverflowException
+(CELLSNET-43427) - Excel dosyasını açarken System.OverflowException
 
-(CELLSNET-43356) - Bölgesel ayar Fransızca olarak ayarlandığında biçim hatası oluşuyor
+ (CELLSNET-43356) - Bölgesel ayar Fransızca olarak ayarlandığında biçim hatası oluşuyor
 
  (CELLSNET-43353) - Workbook.Combine'da System.NullReferenceException
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -230,7 +230,7 @@ url: /tr/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-PivotTable.ShowInTabularForm() yöntemini ekler
+ PivotTable.ShowInTabularForm() yöntemini ekler
 
  PivotTable'ı tablo biçiminde düzenler.
 
@@ -248,7 +248,7 @@ PivotTable.ShowInTabularForm() yöntemini ekler
 
 
 
- Aspose.Cells.Vba ad alanı, VbaPorject, VbaModuleCollection ve VbaModule sınıflarını ekler.
+Aspose.Cells.Vba ad alanı, VbaPorject, VbaModuleCollection ve VbaModule sınıflarını ekler.
 
  Dosyadaki VBA projesini okumak ve değiştirmek için kullanılırlar.
 
@@ -256,13 +256,13 @@ PivotTable.ShowInTabularForm() yöntemini ekler
 
  Border.ThemeColor özelliğini ekler.
 
- Kenarlığın tema rengini alır ve ayarlar.
+Kenarlığın tema rengini alır ve ayarlar.
 
 
 
  TxtLoadStyleStrategy sınıfını ve TxtLoadOptions.LoadStyleStrategy özelliğini ekler.
 
-Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini belirtir.
+ Dize değerini sayıya veya tarih saatine dönüştürürken ayrıştırılmış değerler için stil uygulama stratejisini gösterir.
 
 
 

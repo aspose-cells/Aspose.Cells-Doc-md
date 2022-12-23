@@ -7,7 +7,7 @@ url: /it/java/managing-document-properties-in-python/
 ## **Aspose.Cells - Gestione Proprietà Documento**
 Gli sviluppatori possono utilizzare il**Indice**o**Nome** della proprietà per ottenere una proprietà specifica da a**proprietà_personalizzate**raccolta come mostrato di seguito nell'esempio.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -48,6 +48,6 @@ print "Excel file's custom properties accessed successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Hello World (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Hello World (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

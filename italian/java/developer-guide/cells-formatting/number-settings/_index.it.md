@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /it/java/cells-number-settings/
 ---
-## **Impostazione dei formati di visualizzazione di numeri e date**
+## **Impostazione dei formati di visualizzazione di Numbers e delle date**
 
 Una caratteristica molto forte di Microsoft Excel è che consente agli utenti di impostare i formati di visualizzazione di valori numerici e date. Sappiamo che i dati numerici possono essere utilizzati per rappresentare diversi valori inclusi decimali, valuta, percentuale, frazione o valori contabili, ecc. Tutti questi valori numerici vengono visualizzati in diversi formati a seconda del tipo di informazioni che rappresentano. Allo stesso modo, ci sono molti formati in cui è possibile visualizzare una data o un'ora.
 Aspose.Cells supporta questa funzionalità e consente agli sviluppatori di impostare qualsiasi formato di visualizzazione per un numero o una data.

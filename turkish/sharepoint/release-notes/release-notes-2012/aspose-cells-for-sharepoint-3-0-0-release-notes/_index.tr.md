@@ -22,6 +22,6 @@ url: /tr/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
  Geliştirmeler
 
 - destek ekle
- dönüştürme için yeni biçimler (XLSB, MHTml, XPS, TIFF, SVG, DIF) için
+yeni biçimler için (XLSB, MHTml, XPS, TIFF, SVG, DIF) dönüşüm için
 - Optimize Aspose.Cells
  for SharePoint bileşeni

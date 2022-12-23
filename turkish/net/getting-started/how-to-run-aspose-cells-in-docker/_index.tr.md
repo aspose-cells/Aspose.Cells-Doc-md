@@ -25,9 +25,9 @@ Bu örnekte, "Hello World!" yapan basit bir Hello World konsol uygulaması oluş
 Hello World programını oluşturmak için aşağıdaki adımları takip ediniz:
 1. Docker yüklendikten sonra, Linux Kapsayıcılarını (varsayılan) kullandığından emin olun. Gerekirse, Docker Masaüstü menüsünden Linux kapsayıcılarına geç seçeneğini seçin.
 1. Visual Studio'da bir .NET Core konsol uygulaması oluşturun.<br>
-![yapılacaklar:resim_alternatif_Metin](create-a-new-project.png)<br>
+![yapılacaklar:resim_alternatif_metin](create-a-new-project.png)<br>
 1. NuGet'den en son Aspose.Cells sürümünü yükleyin. System.Drawing.Common ve System.Text.Encoding.CodePages, Aspose.Cells'in bir bağımlılığı olarak kurulacaktır.<br>
-![yapılacaklar:resim_alternatif_Metin](nuget-aspose-cells.png)<br>
+![yapılacaklar:resim_alternatif_metin](nuget-aspose-cells.png)<br>
 1. Uygulama Linux üzerinde çalışacağından, uygun yerel Linux varlıklarının yüklenmesi gerekir. Dotnet core sdk 3.1 temel görüntüsüyle başlayın ve libgdiplus libc6-dev'i kurun.
 1. Gerekli tüm bağımlılıklar eklendiğinde, “Hello World!” Oluşturan basit bir program yazın. çalışma kitabı ve onu desteklenen tüm kaydetme biçimlerinde kaydeder:<br>
 **.NET**<br>
@@ -71,7 +71,7 @@ namespace Aspose.Cells.Docker
 Bir sonraki adım, Dockerfile dosyasını oluşturmak ve yapılandırmaktır.
 
 1. Dockerfile dosyasını oluşturun ve uygulamanızın çözüm dosyasının yanına yerleştirin. Bu dosya adını uzantısız tutun (varsayılan).
-1. Dockerfile'da şunu belirtin:
+1. Dockerfile'da şunları belirtin:
 
 {{< highlight "plain" >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster 

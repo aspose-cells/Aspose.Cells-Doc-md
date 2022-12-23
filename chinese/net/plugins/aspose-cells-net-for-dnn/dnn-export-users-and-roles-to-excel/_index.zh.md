@@ -11,7 +11,7 @@ Aspose .NET 将用户和角色导出到 Excel 模块允许开发人员将 DNN �
 
 - 将用户导出到 Microsoft Excel 文档（.xls、.xlsx 和 .xlsb）
 - 将用户导出到制表符分隔的文本文档 (*.txt)
-- 将用户导出为 CSV（逗号分隔）(*.csv)
+- 将用户导出到 CSV（逗号分隔）(*.csv)
 - 将用户导出到 OpenDocument 电子表格 (*.ods)
 - 导出前选择所需输出格式的选项。
 - 将所有或选定用户导出为选定输出文档格式的选项。

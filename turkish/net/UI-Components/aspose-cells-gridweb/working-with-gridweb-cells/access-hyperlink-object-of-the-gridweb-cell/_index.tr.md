@@ -12,7 +12,7 @@ Aşağıdaki iki yöntemi kullanarak hücrenin köprü içerip içermediğini ko
 ## **Köprüyü Yeni veya Mevcut Pencerede Aç**
  Excel dosyanız, aşağıdaki gibi bazı URL'lere bağlanan köprü içeriyorsa<http://wwww.aspose.com/> ve onu GridWeb'e yüklediğinizde köprüler, hedef özniteliği olarak ayarlanmış olarak işlenecektir._ boşluk. Bunun anlamı, bir GridWeb hücresindeki köprüyü tıkladığınızda mevcut pencere yerine yeni bir pencerede açılacaktır. Lütfen aşağıdaki hata ayıklama penceresinde GridHyperlink.Target özelliğini kontrol edin. Ayrıca, köprüyü mevcut pencerede açmak istiyorsanız, lütfen GridHyperlink.Target öğesini şu şekilde ayarlayın:_öz.
 
-![yapılacaklar:resim_alternatif_Metin](access-hyperlink-object-of-the-gridweb-cell_1.png)
+![yapılacaklar:resim_alternatif_metin](access-hyperlink-object-of-the-gridweb-cell_1.png)
 ## **GridWeb Cell'in Köprü nesnesine erişin**
 Aşağıdaki örnek kod, A1 hücresinin köprüsüne erişir. A1 hücresi köprü içeriyorsa GridHyperlink nesnesini döndürür, aksi takdirde boş döndürür.
 ### **Basit kod**

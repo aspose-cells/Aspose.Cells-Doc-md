@@ -6,7 +6,7 @@ url: /tr/java/copying-and-moving-worksheets-in-python/
 ---
 ## **Aspose.Cells - Çalışma Sayfalarını Kopyalama ve Taşıma**
 ### **Çalışma Kitabındaki Çalışma Sayfalarını Kopyalama**
- Çalışma sayfasını kullanarak kopyalamak için**Yakut içinde Aspose.Cells for Java** , aramak**kopya_çalışma sayfası** yöntemi**kopya çalışma sayfaları** modül. Aşağıda kod örneğini görebilirsiniz.
+ Çalışma sayfasını kullanarak kopyalamak için**Yakut içinde Aspose.Cells for Java** , Arama**kopya_çalışma sayfası** yöntemi**kopya çalışma sayfaları** modül. Aşağıda kod örneğini görebilirsiniz.
 
 **Python Kod**
 

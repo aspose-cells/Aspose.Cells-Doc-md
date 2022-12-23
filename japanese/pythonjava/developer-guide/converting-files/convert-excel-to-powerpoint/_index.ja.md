@@ -8,7 +8,7 @@ keywords: Exporting Workbook to slide without office 2013, office 2016, office 2
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells for Python via Java は、Excel (.xls、xlsx、.xlsb、xlsm)、CSV、および OpenOffice (.ods) ファイルを PowerPoint ファイルに変換することをサポートしています。
+Aspose.Cells for Python via Java は、Excel (.xls、xlsx、.xlsb、xlsm)、CSV および OpenOffice (.ods) ファイルから PowerPoint ファイルへの変換をサポートしています。
 
 {{% /alert %}}
 

@@ -13,7 +13,7 @@ url: /ru/java/get-equation-text-of-chart-trendline/
 
 ## **Пример**
 
- На следующем снимке экрана показана диаграмма с линией тренда, а текст уравнения выделен красным цветом. Мы получим этот текст с помощью[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)свойство в следующем примере кода.
+На следующем снимке экрана показана диаграмма с линией тренда, а текст уравнения выделен красным цветом. Мы получим этот текст с помощью[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)свойство в следующем примере кода.
 
 ![дело:изображение_альтернативный_текст](get-equation-text-of-chart-trendline_1.png)
 

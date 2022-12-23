@@ -15,6 +15,6 @@ Nos complace anunciar el lanzamiento de Aspose.Cells for C++ 22.8 para Linux.
 |:- |:- |:- |
 |CELLSCPP-859| Solucionar el problema de referencia API|Insecto|
 |CELLSCPP-880| Solucione el error de formato de archivo de fods abierto|Insecto|
-|CELLSCPP-881| Funciones de sincronización con la versión .Net|Apoyo|
+|CELLSCPP-881| Funciones de sincronización con la versión .Net|Soporte|
 
 

@@ -14,27 +14,27 @@ url: /ja/net/aspose-cells-for-net-19-2-release-notes/
 |:- |:- |:- |
 |CELLSNET-46582|Range.Hyperlinks プロパティをサポート|新機能|
 |CELLSNET-46534|Cells.count 属性の場合、Int32 は小さい場合があります|強化|
-|CELLSNET-46552|暗号化された XLSX を暗号化された PPTX および暗号化された DOCX と区別する|強化|
+|CELLSNET-46552|暗号化された XLSX を、暗号化された PPTX および暗号化された DOCX と区別する|強化|
 |CELLSNET-46568|箱ひげ図スタイルの設定|強化|
 |CELLSNET-46573|無効な文字を括弧などの適切な記号に置き換えます|強化|
 |CELLSNET-46581|開く/保存すると、表の代替テキストが削除されます|強化|
 |CELLSNET-46584|Aspose.Cells API のパフォーマンスの問題|パフォーマンス|
 |CELLSNET-46556|TextBox のテキストが切り取られる|バグ|
-|CELLSNET-46565|Excel から PDF へのレンダリングで出力 PDF にピクトグラムが表示されない|バグ|
+|CELLSNET-46565|Excel の出力 PDF から PDF へのレンダリングでピクトグラムが表示されない|バグ|
 |CELLSNET-46477|コピーしたシートでピボット テーブルの条件付き書式が機能しない|バグ|
-|CELLSNET-46547|HTML から Excel への変換でコンテンツが欠落している|バグ|
-|CELLSNET-46566|Aspose.Cells API で保存した後に XLSX ファイルが破損する|バグ|
-|CELLSNET-46572|複数のデータ フィールドを追加すると XLSB が破損するが、XLSX は正常に動作する|バグ|
+|CELLSNET-46547|HTML から Excel への変換にコンテンツがありません|バグ|
+|CELLSNET-46566|Aspose.Cells API で保存した後、XLSX ファイルが破損する|バグ|
+|CELLSNET-46572|XLSX は正常に動作するのに対し、複数のデータ フィールドを追加すると XLSB が破損する|バグ|
 |CELLSNET-46548|XLSX を PDF ファイル形式に変換する際の NumberValue の問題|バグ|
 |CELLSNET-46557|Aspose.Cells 数式計算エンジンで計算された間違ったセル値|バグ|
 |CELLSNET-46578|Worksheet.AutoFitColumns() は列に完全に適合していません|バグ|
 |CELLSNET-46550|MS Excel チャートを画像に変換するときにラベル テキストが台無しになる|バグ|
 |CELLSNET-46558|ODS ファイルを読み込んで保存すると、グラフの目盛りが失われる|バグ|
-|CELLSNET-46560|ODS ファイルの保存時にシリーズの名前が失われる|バグ|
-|CELLSNET-46561|チャートのプロット エリアの既定の境界線は、ODS ファイルでは表示されません。|バグ|
-|CELLSNET-46562|XLSX ファイルの読み取りと保存時に X 軸のグリッド線が削除される|バグ|
+|CELLSNET-46560|ODS ファイルを保存するとシリーズの名前が失われる|バグ|
+|CELLSNET-46561|ODS ファイルでは、グラフのプロット エリアのデフォルトの境界線が表示されないようにする必要があります。|バグ|
+|CELLSNET-46562|XLSX ファイルを読み込んで保存すると、X 軸のグリッド線が削除される|バグ|
 |CELLSNET-46569|MS Excel ファイルを読み込んで保存した後に変更されたページ設定の設定|バグ|
-|CELLSNET-46574|XLSB ファイルの保存と開く際の問題|バグ|
+|CELLSNET-46574|XLSB ファイルを保存して開く際の問題|バグ|
 |CELLSNET-46555|一部のプロパティの編集中に例外が発生する|例外|
 |CELLSNET-46571|出力ファイル (テンプレート ファイルを再保存した後) を MS Excel で開くと例外が発生する|例外|
 ### **Public API および下位互換性のない変更**

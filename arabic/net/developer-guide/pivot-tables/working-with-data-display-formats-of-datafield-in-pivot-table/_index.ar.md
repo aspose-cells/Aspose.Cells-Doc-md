@@ -12,7 +12,7 @@ url: /ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/
 
 ## **خيار تنسيق العرض "الترتيب من الأصغر إلى الأكبر" و "الترتيب من الأكبر إلى الأصغر"**
 
-ASpose.Cells يوفر القدرة على تحديد خيار نسق العرض للحقول المحورية. لهذا ، يوفر API الامتداد[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) منشأه. لترتيب من الأكبر إلى الأصغر ، يمكنك تعيين[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)الملكية ل[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). يوضح مقتطف التعليمات البرمجية التالي تعيين خيارات تنسيق العرض.
+ASpose.Cells يوفر القدرة على تحديد خيار نسق العرض للحقول المحورية. لهذا ، يوفر API الامتداد[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat) خاصية. لترتيب من الأكبر إلى الأصغر ، يمكنك تعيين[**PivotField.DataDisplayFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfield/properties/datadisplayformat)ملكية ل[**PivotFieldDataDisplayFormat.RankLargestToSmallest**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivotfielddatadisplayformat). يوضح مقتطف التعليمات البرمجية التالي تعيين خيارات تنسيق العرض.
 
 يمكن تنزيل عينة من ملفات المصدر والمخرجات من هنا لاختبار نموذج التعليمات البرمجية:
 

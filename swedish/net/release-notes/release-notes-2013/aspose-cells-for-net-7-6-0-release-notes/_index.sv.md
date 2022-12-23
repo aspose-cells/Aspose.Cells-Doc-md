@@ -24,13 +24,13 @@ url: /sv/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42003 - Problem med att uppdatera pivottabeller
 
- 42050 - CellsException:
+42050 - CellsException:
 
  41956 - Undantag vid öppning av mallfilen
 
  Buggar
 
- 41570 - Problem med konvertering av arabiska Excel till PDF
+ 41570 - Excel till PDF Arabiska konverteringsproblem
 
  41983 - Pivottabeller i XLS-filer orsakar korruption
 
@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 - Formelberäkningsfråga
 
-41997 - Japanska teckensnitts skärmproblem
+ 41997 - Japanska teckensnitts skärmproblem
 
  \2) Aspose.Cells.GridWeb
 

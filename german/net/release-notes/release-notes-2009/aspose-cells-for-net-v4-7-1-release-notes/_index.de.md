@@ -36,18 +36,18 @@ In Aspose.Cells behobene Probleme 4.7.1
 |8114 | Charts2Image| Speichern der Arbeitsmappe mit Diagramm in HTML defekt|
 |8119 | Charts2Image| Verwenden von FillFormat.Pattern|
 |8223 | Charts2Image| Der Titel der Kategorie X-Achse wird nicht angezeigt|
-|8113 | HTML| HTML auf Arbeitsblattname beschädigt, der ein Leerzeichen enthält|
-|8420 | HTML| Problem mit dem HTML-Exportformat|
+|8113 |HTML | HTML auf Arbeitsblattname beschädigt, der ein Leerzeichen enthält|
+|8420 |HTML | HTML Problem mit dem Exportformat|
 |7718 | Pdf| Unterstützt Hyperlinks beim direkten Konvertieren von Zellen in PDF|
-|7723 | Pdf| Schriftprobleme beim Konvertieren von Aspose.Cells in PDF|
-|7726 | Pdf| Cells 4.7.0 Speichern im PDF-Stream funktioniert nicht|
+|7723 | Pdf| Schriftprobleme bei der Konvertierung von Aspose.Cells in PDF|
+|7726 | Pdf| Cells 4.7.0 Das Speichern im PDF-Stream funktioniert nicht|
 |7727 | Pdf| PDF-Datei ist zu groß|
 |7730 | Pdf| Der Wörterbuchausnahme wurde bereits ein Schlüssel hinzugefügt|
-|7838 | Pdf| Excel to PDF erzeugt beschädigte PDF-Dateien|
+|7838 | Pdf| Excel an PDF erzeugt beschädigte PDF-Datei|
 |7978 | Pdf| Einige Aspose.Cells-Speicherprobleme|
 |7980 | Pdf| Unterschiede in der Ausgabe|
 |7728 | SpreadML| Index außerhalb des Bereichs|
-|8116 | SpreadML| Fehlerhaftes SpreadsheetML, wenn ein Blatt gelöscht wird|
+|8116 | SpreadML| Schlecht SpreadsheetML, wenn ein Blatt gelöscht wird|
 |8118 | SpreadML| Fehler, wenn ein PRINT_AREA vorhanden ist|
 |7381 | XLs| Methode EndCellinRow für Excel2007|
 |7722 | XLs| Kopiervalidierungen im Kopierbereich.|

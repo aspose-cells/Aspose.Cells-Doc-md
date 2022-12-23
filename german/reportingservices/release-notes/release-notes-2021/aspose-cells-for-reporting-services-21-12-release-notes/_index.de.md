@@ -11,5 +11,5 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 ## **Vollständige Liste der in dieser Version behandelten Probleme und Verbesserungen**
 |**ICH WÜRDE**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSRS-619 |Verbesserung für die PDF-Wiedergabe von Aspose.Cells für Reporting Services.| Verbesserung|
+|CELLSRS-619 |Verbesserung für die PDF-Darstellung von Aspose.Cells für Reporting Services.| Verbesserung|
 |CELLSRS-614 |Problem beim Generieren einer Excel-Datei mit Passwort.| Insekt|

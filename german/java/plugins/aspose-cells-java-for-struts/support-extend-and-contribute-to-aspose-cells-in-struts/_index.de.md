@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /de/java/support-extend-and-contribute-to-aspose-cells-in-struts/
 ---
-## **Die Unterstützung**
+## **Unterstützung**
 - Wenn Sie bekannte / gemeldete Probleme (von den Benutzern oder dem QA-Team) in der Anwendung sehen möchten.
 - Oder Sie möchten ein Problem melden, das Sie in der Anwendung gefunden haben
 - Haben Sie Verbesserungsvorschläge oder möchten Sie eine Funktionsanfrage stellen

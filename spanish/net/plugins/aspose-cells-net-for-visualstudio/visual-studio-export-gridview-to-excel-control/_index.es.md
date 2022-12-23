@@ -112,13 +112,13 @@ Las siguientes propiedades están expuestas para configurar y usar funciones gen
 
 |**Nombre de la propiedad** |**Escribe** |**Ejemplo/Valores posibles** |**Descripción** |
 |:- |:- |:- |:- |
-| ExportButtonText| cuerda| Exportar a Excel| Puede usar esta propiedad para anular el texto predeterminado existente|
-|ExportButtonCssClassExportButtonCssClass| cuerda| btn btn-primario| Clase Css que se aplica al div externo del botón de exportación. Para aplicar css en el botón, puede usar la entrada .yourClass|
-| ExportFileHeadingExportFileHeading| cuerda|<h4>Informe de ejemplo de exportación de GridView</h4> | Puede usar etiquetas html para agregar estilo a su encabezado|
+| ExportButtonText| cadena| Exportar a Excel| Puede usar esta propiedad para anular el texto predeterminado existente|
+|ExportButtonCssClassExportButtonCssClass| cadena| btn btn-primario| Clase Css que se aplica al div externo del botón de exportación. Para aplicar css en el botón, puede usar la entrada .yourClass|
+| ExportFileHeadingExportFileHeading| cadena|<h4>Informe de ejemplo de exportación de GridView</h4> | Puede usar etiquetas html para agregar estilo a su encabezado|
 | Formato de salida de exportación| enumeración| Xlsx, Xlsb, Xls, Txt, Csv, Ods| Formato de salida del documento exportado. Los formatos admitidos son Xlsx, Xlsb, Xls, Txt, Csv, Ods|
-| ExportOutputPathOnServerExportOutputPathOnServer| cuerda| C:<br> temperatura| Salida local Ruta del disco en el servidor donde se guarda automáticamente una copia de la exportación. La aplicación debe tener acceso de escritura a esta ruta.|
+| ExportOutputPathOnServerExportOutputPathOnServer| cadena| C:<br> temperatura| Salida local Ruta del disco en el servidor donde se guarda automáticamente una copia de la exportación. La aplicación debe tener acceso de escritura a esta ruta.|
 | ExportDataSource| objeto| allRowsDataTable|Establece el objeto del que este control de enlace de datos recupera su lista de elementos de datos. El objeto debe tener todos los datos que necesitan ser exportados. Esta propiedad se usa además de la propiedad DataSource normal y es útil cuando la paginación personalizada está habilitada y la página actual solo obtiene filas para mostrarlas en la pantalla.|
-| LicenseFilePath| cuerda|| Ruta local en el servidor al archivo de licencia. Por ejemplo C:<br> inetpub<br> Aspose.Cells.lic|
+| LicenseFilePath| cadena|| Ruta local en el servidor al archivo de licencia. Por ejemplo C:<br> inetpub<br> Aspose.Cells.lic|
 A continuación se muestra un ejemplo del control Exportar GridView a Excel con todas las propiedades utilizadas.
 
 {{< highlight "java" >}}
@@ -142,7 +142,7 @@ A continuación se muestra un ejemplo del control Exportar GridView a Excel con 
 ## **Vídeo de demostración**
  por favor, compruebe[el video](https://www.youtube.com/watch?v=_fSq_3TP1oM) a continuación para ver el módulo en acción.
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
@@ -164,7 +164,7 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abierto**Aspose.Excel.GridViewExport.sln**
 #### **Descripción general del código fuente**
 Hay tres proyectos en la solución.

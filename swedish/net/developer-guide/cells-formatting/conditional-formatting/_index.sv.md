@@ -36,7 +36,7 @@ Utvecklare kan skapa ett designerkalkylblad som innehåller villkorlig formateri
 Aspose.Cells låter dig både lägga till och ta bort villkorlig formatering under körning. Kodexemplen nedan visar hur du ställer in villkorlig formatering:
 
 1. Instantiera en arbetsbok.
-1. Lägg till ett tomt villkorsformat.
+1. Lägg till ett tomt villkorligt format.
 1. Ställ in intervallet som formateringen ska gälla för.
 1. Definiera formateringsvillkoren.
 1. Spara filen.

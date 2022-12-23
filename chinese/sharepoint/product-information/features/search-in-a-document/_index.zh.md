@@ -7,7 +7,7 @@ url: /zh/sharepoint/search-in-a-document/
 Aspose.Cells for SharePoint 支持搜索存储在 SharePoint 站点中的文档。 Aspose.Cells for Share Point 支持以下输入格式预览文档：
 
 - XLS – Microsoft Excel 97 - 2003
-- XLSX——Office Open XML
+- XLSX – Office Open XML
 - XLSM、XLTX、XLTM – Office Open XML
 - XML - Microsoft Excel SpreadsheetML
 
@@ -20,12 +20,12 @@ Aspose.Cells for SharePoint 支持搜索存储在 SharePoint 站点中的文档�
 
 **在文档中搜索选项** 
 
-![待办事项：图像_替代_文本](search-in-a-document_1.png)
+![待办事项：图片_替代_文本](search-in-a-document_1.png)
 
 **设置搜索条件** 
 
-![待办事项：图像_替代_文本](search-in-a-document_2.png)
+![待办事项：图片_替代_文本](search-in-a-document_2.png)
 
 **搜索结果** 
 
-![待办事项：图像_替代_文本](search-in-a-document_3.png)
+![待办事项：图片_替代_文本](search-in-a-document_3.png)

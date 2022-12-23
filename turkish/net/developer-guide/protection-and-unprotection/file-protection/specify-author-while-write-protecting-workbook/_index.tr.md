@@ -12,7 +12,7 @@ Aspose.Cells API ile çalışma kitabınızı yazmaya karşı korurken yazar ad�
 
 Aşağıdaki örnek kod, kullanımını açıklar[**Workbook.Settings.WriteProtection.Author**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)Emlak. Kod boş bir çalışma kitabı oluşturur, yazma onu bir parola ile korur, yazar adını belirtir ve olduğu gibi kaydeder.[çıktı excel dosyası](67338582.xlsx). Aşağıdaki ekran görüntüsü, referansınız için örnek kodun çıktı Excel dosyası üzerindeki etkisini göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](specify-author-while-write-protecting-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-author-while-write-protecting-workbook_1.png)
 
 ## **Basit kod**
 

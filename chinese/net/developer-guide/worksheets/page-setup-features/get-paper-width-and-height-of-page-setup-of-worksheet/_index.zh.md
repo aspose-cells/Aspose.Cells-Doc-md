@@ -10,7 +10,7 @@ url: /zh/net/get-paper-width-and-height-of-page-setup-of-worksheet/
 
 ## **获取工作表页面设置的纸张宽度和高度**
 
-下面的示例代码解释了[**页面设置.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)特性。它首先将纸张大小更改为*A2*然后找到纸张的宽度和高度，然后将其更改为*A3*, *A4*, *信*并分别求出纸张的宽度和高度。
+下面的示例代码解释了[**页面设置.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth)和[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight)特性。它首先将纸张大小更改为*A2*然后找到纸张的宽度和高度，然后将其更改为*A3*, *A4*, *信件*并分别求出纸张的宽度和高度。
 
 ### **示例代码**
 

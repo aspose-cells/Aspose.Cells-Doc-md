@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-22-6-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44632|Supporta la formattazione dell'intera riga di dati nella tabella pivot|
 |CELLSJAVA-44611|Miglioramento per la lettura di celle vuote da file xlsx|
@@ -29,11 +29,11 @@ url: /it/java/aspose-cells-for-java-22-6-release-notes/
 |CELLSJAVA-44584|Il titolo dell'asse nel grafico viene ruotato nell'immagine di output - Conversione da grafico a immagine|
 |CELLSJAVA-44615|Linea grigia tracciata nell'immagine di output dal file XLS|
 |CELLSJAVA-44665|Il caricamento del file ODS si blocca|
-|CELLSJAVA-44651|Errore "Non è un valore numerico" durante la conversione del foglio Excel in HTML/PDF|
+|CELLSJAVA-44651|Errore "Non un valore numerico" durante la conversione del foglio Excel in HTML/PDF|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe CellsDataTableFactory**
 

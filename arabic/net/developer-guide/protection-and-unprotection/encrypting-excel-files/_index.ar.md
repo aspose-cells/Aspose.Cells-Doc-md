@@ -40,9 +40,9 @@ url: /ar/net/encrypting-excel-files/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
-## **تشفير / فك تشفير ملف ODS بواسطة Aspose.Cells**
+## **تشفير / فك تشفير ملف ODS مع Aspose.Cells**
 
-Aspose.Cells يسمح بتشفير وفك تشفير ملف ODS. يمكن فتح ملف ODS الذي تم فك تشفيره في كل من Excel و OpenOffice ، ولكن لا يمكن فتح ملف ODS المشفر إلا بواسطة OpenOffice بعد توفير كلمة المرور. لا يستطيع Excel فتح ملف ODS المشفر وقد يرفع رسالة تحذير. لا تنطبق خيارات التشفير على ملف ODS بخلاف أنواع الملفات الأخرى. لتشفير ملف ODS ، قم بتحميل الملف واضبط الامتداد[**إعدادات المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) قيمة كلمة المرور الفعلية قبل حفظها. يمكن فتح ملف ODS المشفر الناتج في OpenOffice فقط.
+Aspose.Cells يسمح بتشفير وفك تشفير ملف ODS. يمكن فتح ملف ODS الذي تم فك تشفيره في كل من Excel و OpenOffice ، ولكن لا يمكن فتح ملف ODS المشفر إلا بواسطة OpenOffice بعد توفير كلمة المرور. لا يمكن لـ Excel فتح ملف ODS المشفر وقد يرفع رسالة تحذير. لا تنطبق خيارات التشفير على ملف ODS بخلاف أنواع الملفات الأخرى. لتشفير ملف ODS ، قم بتحميل الملف واضبط الامتداد[**إعدادات المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password) قيمة كلمة المرور الفعلية قبل حفظها. يمكن فتح ملف ODS المشفر الناتج في OpenOffice فقط.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

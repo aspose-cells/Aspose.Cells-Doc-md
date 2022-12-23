@@ -28,7 +28,7 @@ Biri kaydırılmış metin içeren ve diğeri içermeyen iki hücreli bir çalı
 
 Kodun çalıştırılması, biri sarmalanmamış metin ve diğeri aşağıdakileri içeren iki hücreli bir elektronik tabloyla sonuçlanır:
 
-|<p>**VSTO ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_Metin](wrapping-cell-text_1.png)</p>|<p>**Aspose.Cells for .NET ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_Metin](wrapping-cell-text_2.png)</p>|
+|<p>**VSTO ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_metin](wrapping-cell-text_1.png)</p>|<p>**Aspose.Cells for .NET ile çıktı sarma hücre metni** </p><p>![yapılacaklar:resim_alternatif_metin](wrapping-cell-text_2.png)</p>|
 |:- |:- |
 
 ### **Cell Metni VSTO Kullanarak Kaydırma**

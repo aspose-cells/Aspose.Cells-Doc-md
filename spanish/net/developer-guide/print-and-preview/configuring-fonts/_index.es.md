@@ -6,7 +6,7 @@ url: /es/net/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Posibles escenarios de uso**
 
-Las API Aspose.Cells brindan la posibilidad de representar las hojas de cálculo en formatos de imagen, así como convertirlas a formatos PDF y XPS. Para maximizar la fidelidad de la conversión, es necesario que las fuentes utilizadas en la hoja de cálculo estén disponibles en el directorio de fuentes predeterminado del sistema operativo. En caso de que las fuentes requeridas no estén presentes, las API Aspose.Cells intentarán sustituir las fuentes requeridas por las disponibles.
+Las API Aspose.Cells brindan la posibilidad de representar las hojas de cálculo en formatos de imagen, así como convertirlas a los formatos PDF y XPS. Para maximizar la fidelidad de la conversión, es necesario que las fuentes utilizadas en la hoja de cálculo estén disponibles en el directorio de fuentes predeterminado del sistema operativo. En caso de que las fuentes requeridas no estén presentes, las API Aspose.Cells intentarán sustituir las fuentes requeridas por las disponibles.
 
 ## **Selección de fuentes**
 
@@ -21,7 +21,7 @@ A continuación se muestra el proceso que siguen las API Aspose.Cells detrás de
 
 ## **Establecer carpetas de fuentes personalizadas**
 
- Aspose.Cells Las API buscan en el directorio de fuentes predeterminado del sistema operativo las fuentes requeridas. En caso de que las fuentes requeridas no estén disponibles en el directorio de fuentes del sistema, las API buscan en los directorios personalizados (definidos por el usuario). los**[Configuraciones de fuentes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs)**class ha expuesto varias formas de establecer directorios de fuentes personalizados como se detalla a continuación.
+ Aspose.Cells Las API buscan en el directorio de fuentes predeterminado del sistema operativo las fuentes requeridas. En caso de que las fuentes requeridas no estén disponibles en el directorio de fuentes del sistema, las API buscan en los directorios personalizados (definidos por el usuario). Él**[Configuraciones de fuentes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs)**class ha expuesto varias formas de establecer directorios de fuentes personalizados como se detalla a continuación.
 
 1. **[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)**: Este método es útil si solo hay una carpeta para configurar.
 1. **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)**: este método es útil cuando las fuentes residen en varias carpetas y el usuario desea configurar todas las carpetas por separado en lugar de combinar todas las fuentes en una sola carpeta.
@@ -29,7 +29,7 @@ A continuación se muestra el proceso que siguen las API Aspose.Cells detrás de
 
 {{% alert color="primary" %}}
 
- Ambas cosas**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** Los métodos aceptan un segundo parámetro de tipo booleano. Paso**verdadero** ya que el segundo parámetro dirigirá a las API Aspose.Cells para buscar las subcarpetas de los archivos de fuentes.
+ Ambos**[FontConfigs.SetFontFolder](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolder)** & **[FontConfigs.SetFontFolders](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontfolders)** Los métodos aceptan un segundo parámetro de tipo booleano. Paso**verdadero** ya que el segundo parámetro dirigirá a las API Aspose.Cells para buscar las subcarpetas de los archivos de fuentes.
 
 {{% /alert %}}
 
@@ -47,7 +47,7 @@ Si se utilizan todos los métodos mencionados anteriormente para configurar las 
 
 ## **Mecanismo de sustitución de fuentes**
 
- Las API Aspose.Cells también brindan la capacidad de especificar la fuente sustituta para fines de representación. Este mecanismo es útil cuando una fuente requerida no está disponible en la máquina donde se debe realizar la conversión. Los usuarios pueden proporcionar una lista de nombres de fuentes como alternativa a la fuente requerida originalmente. Para lograr esto, las API Aspose.Cells han expuesto el**[FontConfigs.SetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontsubstitutes)** método que acepta 2 parámetros. El primer parámetro es de tipo**cuerda** , que debe ser el nombre de la fuente que debe sustituirse. El segundo parámetro es una matriz de tipo**cuerda**Los usuarios pueden proporcionar una lista de nombres de fuentes como sustitución del nombre de fuente original (especificado en el primer parámetro).
+ Las API Aspose.Cells también brindan la capacidad de especificar la fuente sustituta para fines de representación. Este mecanismo es útil cuando una fuente requerida no está disponible en la máquina donde se debe realizar la conversión. Los usuarios pueden proporcionar una lista de nombres de fuentes como alternativa a la fuente requerida originalmente. Para lograr esto, las API Aspose.Cells han expuesto el**[FontConfigs.SetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/setfontsubstitutes)** método que acepta 2 parámetros. El primer parámetro es de tipo**cadena** , que debe ser el nombre de la fuente que debe sustituirse. El segundo parámetro es una matriz de tipo**cadena**Los usuarios pueden proporcionar una lista de nombres de fuentes como sustitución del nombre de fuente original (especificado en el primer parámetro).
 
 Aquí hay un escenario de uso simple.
 
@@ -58,7 +58,7 @@ Aquí hay un escenario de uso simple.
 Además de los métodos mencionados anteriormente, las API Aspose.Cells también han proporcionado medios para recopilar información sobre qué fuentes y sustituciones se han establecido.
 
 1. **[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)** método devuelve una matriz de tipo**[FuenteFuenteBase](https://reference.aspose.com/cells/net/aspose.cells/fontsourcebase)**que contiene la lista de fuentes de fuentes especificadas. En caso de que no se hayan establecido fuentes, el**[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)**El método devolverá una matriz vacía.
-1. **[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)** método acepta un parámetro de tipo**cuerda** permitiendo especificar el nombre de la fuente para la que se ha establecido la sustitución. En caso de que no se haya establecido ninguna sustitución para el nombre de fuente especificado, el**[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)**método devolverá nulo.
+1. **[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)** método acepta un parámetro de tipo**cadena** permitiendo especificar el nombre de la fuente para la que se ha establecido la sustitución. En caso de que no se haya establecido ninguna sustitución para el nombre de fuente especificado, el**[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)**método devolverá nulo.
 
 ## **Temas avanzados**
 - [Establezca la fuente predeterminada al representar la hoja de cálculo en imágenes](/cells/es/net/set-default-font-while-rendering-spreadsheet-to-images/)

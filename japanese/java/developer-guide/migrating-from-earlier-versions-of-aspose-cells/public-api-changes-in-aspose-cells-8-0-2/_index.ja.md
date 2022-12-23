@@ -52,7 +52,7 @@ book.save(myDir + "output.xlsx");
 
 {{< /highlight >}}
 ## **ConvertFormulasData プロパティを HTMLLoadOptions クラスに追加**
-ConvertFormulasData プロパティが HTMLLoadOptions クラスに追加され、開発者が HTML ファイルから Excel 式を簡単にロードできるようになりました。ブール値の ConvertFormulasData プロパティは、文字列値が文字 '=' で始まる場合に、文字列を数式に変換するかどうかを示します。
+ConvertFormulasData プロパティが HTMLLoadOptions クラスに追加され、開発者が HTML ファイルから Excel の式を簡単にロードできるようになりました。ブール値の ConvertFormulasData プロパティは、文字列値が文字 '=' で始まる場合に、文字列を数式に変換するかどうかを示します。
 
 **Java**
 
@@ -82,4 +82,4 @@ ConvertFormulasData プロパティのデフォルト値は false です。
 ## **ImageOptions プロパティを HtmlSaveOptions クラスに追加**
 ImageOptions プロパティが HtmlSaveOptions クラスに追加されました。 ImageOptions プロパティを公開することで、開発者はスプレッドシートのエクスポート中に HTML に埋め込まれた画像の設定を行うことができます。
 ## **廃止された HtmlSaveOptions.ExportChartImageFormat プロパティ**
-HtmlSaveOptions.ExportChartImageFormat は、Aspose.Cells for .NET 8.0.2 から廃止されました。スプレッドシートを HTML 形式にエクスポートする際は、代わりに HtmlSaveOptions.ImageOptions を画像形式の設定に使用することをお勧めします。
+HtmlSaveOptions.ExportChartImageFormat は、Aspose.Cells for .NET 8.0.2 から廃止されました。スプレッドシートを HTML 形式にエクスポートする際は、画像形式設定の代わりに HtmlSaveOptions.ImageOptions を使用することをお勧めします。

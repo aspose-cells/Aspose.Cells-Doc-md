@@ -29,4 +29,4 @@ Följande kodavsnitt visar hur du ställer in titlar till diagram och axlar.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
 
 ## **Förhandsämnen**
-- [Läs diagramundertext från ODS-fil](/cells/sv/net/read-chart-subtitle-from-ods-file/)
+- [Läs diagramunderrubrik från ODS fil](/cells/sv/net/read-chart-subtitle-from-ods-file/)

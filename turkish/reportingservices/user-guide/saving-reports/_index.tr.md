@@ -8,7 +8,7 @@ url: /tr/reportingservices/saving-reports/
 
  Bir raporu kaydetmek için tıklayın**Raporu Kaydet**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](saving-reports_1.png)
+![yapılacaklar:resim_alternatif_metin](saving-reports_1.png)
 
 ). 
 Rapor (Microsoft Excel şablonu) bir RDL dosyası olarak kaydedilir.

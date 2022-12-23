@@ -10,7 +10,7 @@ Microsoft Excel 2013 permet aux utilisateurs d'envelopper ou de dérouler du tex
 
 {{% /alert %}}
 
-Aspose.Cells fournit le[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) méthode. Mis à**Vrai** ou**Faux** pour activer ou désactiver l'habillage du texte sur les étiquettes de données respectivement.
+Aspose.Cells fournit le[**DataLabels.setTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped) méthode. Mis à**Vrai** ou alors**Faux** pour activer ou désactiver l'habillage du texte sur les étiquettes de données respectivement.
 
  De même, utilisez le[**DataLabels.isTextWrapped()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#IsTextWrapped)méthode pour savoir si une étiquette de données est déjà encapsulée.
 

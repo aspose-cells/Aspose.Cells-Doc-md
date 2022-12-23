@@ -103,7 +103,7 @@ Aspose.Cells for .NET har också tillhandahållit medel för att samla informati
 
 {{% /alert %}} 
 ### **Lade till IFilePathProvider Interface & HtmlSaveOptions.FilePathProvider egendom**
-Aspose.Cells for .NET 8.9.1 gör det möjligt att hämta/ställa in IFilePathProvider för att exportera kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar till en plats i ett annat kalkylblad, där applikationskravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan de ovannämnda hyperlänkarna hållas intakta oavsett att de pekar på en plats i en separat resulterande HTML-fil.
+Aspose.Cells for .NET 8.9.1 gör det möjligt att hämta/ställa in IFilePathProvider för export av kalkylblad till separata HTML-filer. Dessa nya API:er är användbara i scenarier där hyperlänkar i ett kalkylblad pekar till en plats i ett annat kalkylblad, där applikationskravet är att rendera varje kalkylblad till en separat HTML-fil. Genom att implementera IFilePathProvider kan de ovannämnda hyperlänkarna hållas intakta oavsett det faktum att de pekar på en plats i en separat resulterande HTML-fil.
 
 Följande är det enkla användningsscenariot för egenskapen HtmlSaveOptions.FilePathProvider.
 

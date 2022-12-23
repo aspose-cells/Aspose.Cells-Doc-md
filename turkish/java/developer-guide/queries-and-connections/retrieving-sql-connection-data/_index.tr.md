@@ -6,7 +6,7 @@ url: /tr/java/retrieving-sql-connection-data/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuna bağlantı kurmak için gereken tüm verileri içerir, örneğin,**sunucu URL'si**, **Kullanıcı adı**, **Tablo ismi**, **tam SQL sorgusu**, **Sorgu Türü**, **masanın konumu** , ve**adlandırılmış aralığın adı** ile ilişkili.
+ Aspose.Cells, SQL bağlantı verilerini almanıza yardımcı olabilir. Bu, SQL sunucusuna bağlantı kurmak için gereken tüm verileri içerir, örneğin,**sunucu URL'si**, **Kullanıcı adı**, **Tablo ismi**, **tam SQL sorgusu**, **Sorgu Türü**, **masanın yeri** , ve**adlandırılmış aralığın adı** ile ilişkili.
 
 {{% /alert %}} 
 
@@ -18,7 +18,7 @@ Microsoft Excel'de bir veritabanına şu şekilde bağlanın:
 
 **Microsoft Excel'de SQL bağlantı seçeneği gösteriliyor** 
 
-![yapılacaklar:resim_alternatif_Metin](retrieving-sql-connection-data_1.png)
+![yapılacaklar:resim_alternatif_metin](retrieving-sql-connection-data_1.png)
 
 Aspose.Cells, harici bağlantıları almak için Workbook.getDataConnections() yöntemini sağlar. Çalışma kitabındaki ExternalConnection nesnelerinin bir koleksiyonunu döndürür.
 

@@ -25,7 +25,7 @@ Como se explicó anteriormente, permitir que un archivo se abra o se ejecute en 
 
 En Windows Explorador:
 
-1.  Sobre el**Instrumentos** menú, seleccione**Opciones de carpeta**.
+1.  Sobre el**Herramientas** menú, seleccione**Opciones de carpeta**.
 1. Haga clic en la pestaña Tipos de archivo en el cuadro de diálogo Opciones de carpeta.
 1. Seleccione el tipo de archivo de extensión XLS.
 1.  Hacer clic**Avanzado**. 

@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Nuove caratteristiche
 
- 13872 Esporta in file XPS
+ 13872 Esporta nel file XPS
 
  28363 Crea file XLSX protetti da scrittura
 
@@ -34,7 +34,7 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27760 Supporta l'origine della tabella come intervalli denominati
 
- 27955 Specificare l'area di stampa dinamica durante la stampa o il rendering in PDF
+ 27955 Specificare l'area di stampa dinamica durante la stampa o il rendering su PDF
 
  Prestazione
 
@@ -52,9 +52,9 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27382 L'immagine interrotta causa l'arresto anomalo di Aspose.Cells
 
-27998 Eccezione generata durante l'apertura di un file XLSX legittimo
+27998 Eccezione generata durante l'apertura del file legittimo XLSX
 
- 28318 Si è verificata un'eccezione durante il salvataggio di una cartella di lavoro XLS in formato XLSM
+ 28318 Si è verificata un'eccezione durante il salvataggio di una cartella di lavoro XLS nel formato XLSM
 
  Insetti
 
@@ -74,7 +74,7 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28024 Ottenere intervalli denominati e tabelle
 
- 18503 Le linee diagonali non vengono visualizzate correttamente nel PDF
+ 18503 Le linee diagonali non vengono visualizzate correttamente in PDF
 
  27168 Le forme raggruppate vengono distorte durante il salvataggio in PDF
 
@@ -92,7 +92,7 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Punti elenco mancanti nell'immagine esportata nella funzione Da foglio a immagine
 
- 28413 Il formato della colonna nella conversione TIFF non è corretto
+ 28413 Il formato della colonna in TIFF La conversione non è corretta
 
  27906 Carattere di escape in Marcatori intelligenti
 
@@ -114,13 +114,13 @@ url: /it/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27835 Supporta IE9 senza utilizzare la modalità di compatibilità
 
- 28145 Problemi con il browser Google Chrome
+ 28145 Problemi con il browser Chrome Google
 
  26368 Impossibile individuare una cella facendo clic su un collegamento ipertestuale
 
  27799 L'impostazione ShowDefaultGridLine = false non è disponibile quando XhtmlMode di GridWeb è impostato su "true"
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Nuove caratteristiche
 

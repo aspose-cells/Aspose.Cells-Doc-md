@@ -6,7 +6,7 @@ url: /sv/net/create-pdfbookmarkentry-for-chart-sheet/
 ---
 ## **Möjliga användningsscenarier**
 
-Tidigare skulle Aspose.Cells skapa[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för ett vanligt ark. Men nu kan Aspose.Cells också skapa[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för diagramblad. Eftersom diagrambladet inte har någon annan cell förutom cell A1, så kommer det att skapas[**Pdf BookmarkEntry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) endast för cell A1.
+Tidigare skulle Aspose.Cells skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för ett vanligt ark. Men nu kan Aspose.Cells också skapa[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) för diagramblad. Eftersom diagrambladet inte har någon annan cell förutom cell A1, så kommer det att skapas[**Pdf Bookmark Entry**](https://reference.aspose.com/cells/net/aspose.cells.rendering/pdfbookmarkentry) endast för cell A1.
 
 ## **Skapa PdfBookmarkEntry för diagramblad**
 
@@ -17,7 +17,7 @@ Tidigare skulle Aspose.Cells skapa[**Pdf BookmarkEntry**](https://reference.aspo
 - Bokmärke-III
 - Bokmärke-IV-diagram2
 
-Följande skärmdump visar[mata ut PDF](61767757.pdf) genereras av exempelkoden för en referens.
+Följande skärmdump visar[utgång PDF](61767757.pdf)genereras av exempelkoden för en referens.
 
 ![todo:image_alt_text](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

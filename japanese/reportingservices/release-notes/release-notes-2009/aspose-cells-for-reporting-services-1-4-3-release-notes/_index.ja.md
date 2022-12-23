@@ -33,7 +33,7 @@ url: /ja/reportingservices/aspose-cells-for-reporting-services-1-4-3-release-not
 |**問題ID** |**成分** |**概要** |
 |:- |:- |:- |
 |11837 |与える|Aspose.Cells.ReportingServices でサポートされる機能|
-|11563 |与える|SSRS サブスクリプションを XLS 問題としてファイル システムに保存する|
+|11563 |与える|SSRS サブスクリプションがファイル システムに XLS として保存される問題|
 |11085 |与える|Aspose.Cells 64 ビットの問題|
 |11090 |与える|プログラマティック行|
 |10710 |与える|.xls へのレポートのエクスポート|

@@ -18,17 +18,17 @@ Aşağıdaki örnek, hem otomatik hem de özel veri filtrelerini uygular. Örnek
 
 **Girdi: ilk çalışma sayfasındaki veri listesi** 
 
-![yapılacaklar:resim_alternatif_Metin](filter-data_1.jpg)
+![yapılacaklar:resim_alternatif_metin](filter-data_1.jpg)
 
 **Çıktı: otomatik filtreleme özelliğini etkinleştir** 
 
-![yapılacaklar:resim_alternatif_Metin](filter-data_2.jpg)
+![yapılacaklar:resim_alternatif_metin](filter-data_2.jpg)
 ### **Otomatik filtre**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Cells-SetAutoFilter.aspx-SetAutoFilter.cs" >}}
 ### **Özel Veri Filtresi**
 **Kriterlere göre özel filtrelenmiş veriler** 
 
-![yapılacaklar:resim_alternatif_Metin](filter-data_3.jpg)
+![yapılacaklar:resim_alternatif_metin](filter-data_3.jpg)
 
 
 

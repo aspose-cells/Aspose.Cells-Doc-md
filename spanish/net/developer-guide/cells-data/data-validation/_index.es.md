@@ -12,11 +12,11 @@ Microsoft Excel proporciona algunas buenas características para filtrar automá
 
 ## **Tipos de validación de datos y ejecución**
 
-La validación de datos es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de cálculo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo.
+La validación de datos es la capacidad de establecer reglas relacionadas con los datos ingresados en una hoja de trabajo. Por ejemplo, utilice la validación para asegurarse de que una columna etiquetada como FECHA contenga solo fechas o que otra columna contenga solo números. Incluso podría asegurarse de que una columna etiquetada como FECHA contenga solo fechas dentro de un cierto rango. Con la validación de datos, puede controlar lo que se ingresa en las celdas de la hoja de trabajo.
 
 Microsoft Excel admite varios tipos diferentes de validación de datos. Cada tipo se usa para controlar qué tipo de datos se ingresan en una celda o rango de celdas. A continuación, los fragmentos de código ilustran cómo validar eso:
 
-- Los números son enteros, es decir, que no tienen parte decimal.
+- Numbers son enteros, es decir, que no tienen parte decimal.
 - Los números decimales siguen la estructura correcta. El ejemplo de código define que un rango de celdas debe tener dos espacios decimales.
 - Los valores están restringidos a una lista de valores. La validación de lista define una lista separada de valores que se pueden aplicar a una celda o rango de celdas.
 - Las fechas caen dentro de un rango específico.
@@ -45,7 +45,7 @@ La validación de datos es una característica poderosa para validar la informac
 
 #### **Tipos de validación de datos**
 
- los[**Tipo de validación**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)enumeración tiene los siguientes miembros:
+ Él[**Tipo de validación**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)enumeración tiene los siguientes miembros:
 
 |**Nombre de miembro**|**Descripción**|
 |:- |:- |
@@ -54,7 +54,7 @@ La validación de datos es una característica poderosa para validar la informac
 |Decimal|Indica el tipo de validación para números decimales.|
 |Lista|Indica el tipo de validación para la lista desplegable.|
 |Fecha|Indica el tipo de validación para las fechas.|
-|Tiempo|Indica el tipo de validación por tiempo.|
+|Hora|Indica el tipo de validación por tiempo.|
 |Longitud del texto|Indica el tipo de validación para la longitud del texto.|
 |Disfraz|Indica un tipo de validación personalizado.|
 
@@ -108,7 +108,7 @@ Cuando se implementan validaciones de datos, se puede verificar la validación a
 
 ## **Agregar CellArea a la validación existente**
 
- Puede haber casos en los que desee agregar[**área de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)a existente[**Validación**](https://reference.aspose.com/cells/net/aspose.cells/validation). cuando agregas[**área de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) usando[**Validación.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells comprueba todas las áreas existentes para ver si la nueva área ya existe. Si el archivo tiene una gran cantidad de validaciones, esto afecta el rendimiento. Para superar esto, el API proporciona la[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) método. los*chequeIntersección* El parámetro indica si se debe verificar la intersección de un área dada con áreas de validación existentes. Configurándolo en**falso** deshabilitará la verificación de otras áreas. los*comprobarBorde* El parámetro indica si se deben verificar las áreas aplicadas. Si la nueva área se convierte en el área superior izquierda, se reconstruyen las configuraciones internas. Si está seguro de que la nueva área no es el área superior izquierda, puede configurar este parámetro como**falso**.
+ Puede haber casos en los que desee agregar[**área de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)a existente[**Validación**](https://reference.aspose.com/cells/net/aspose.cells/validation). cuando agregas[**área de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) usando[**Validación.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells comprueba todas las áreas existentes para ver si la nueva área ya existe. Si el archivo tiene una gran cantidad de validaciones, esto afecta el rendimiento. Para superar esto, el API proporciona la[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) método. Él*chequeIntersección* El parámetro indica si se debe verificar la intersección de un área dada con áreas de validación existentes. Configurándolo en**falso** deshabilitará la verificación de otras áreas. Él*comprobarBorde* El parámetro indica si se deben verificar las áreas aplicadas. Si la nueva área se convierte en el área superior izquierda, se reconstruyen las configuraciones internas. Si está seguro de que la nueva área no es el área superior izquierda, puede configurar este parámetro como**falso**.
 
 El siguiente fragmento de código demuestra el uso de la[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) método para agregar nuevos[**área de celda**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)a existente[**Validación**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 
@@ -122,6 +122,6 @@ Los archivos de Excel de origen y salida se adjuntan como referencia.
 
 
 ## **Temas avanzados**
-- [Obtenga la validación Cell en archivos ODS](/cells/es/net/get-cell-validation-in-ods-files/)
+- [Obtenga la validación Cell en los archivos ODS](/cells/es/net/get-cell-validation-in-ods-files/)
 - [Obtenga la validación aplicada en un Cell](/cells/es/net/get-validation-applied-on-a-cell/)
 - [Verifique que el valor Cell cumpla con las reglas de validación de datos](/cells/es/net/verify-that-cell-value-satisfies-data-validation-rules/)

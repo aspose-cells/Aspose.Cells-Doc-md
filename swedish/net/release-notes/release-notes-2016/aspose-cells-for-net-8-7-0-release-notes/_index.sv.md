@@ -30,7 +30,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150) - Möjlighet att arbeta med XML-kartor
 
- (CELLSNET-43992) - Stöd för XML-mappningsimportfunktion som det görs från fliken Excel-utvecklare
+(CELLSNET-43992) - Stöd för XML-mappningsimportfunktion som det görs från fliken Excel-utvecklare
 
 
 ## **Förbättringar**
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44169) - Validation.Value1-arrayordningen skiljer sig från vad som visas i Excel
 
-(CELLSNET-44168) - Det går inte att skapa villkorlig formatering med 2-färgsskala
+ (CELLSNET-44168) - Det går inte att skapa villkorlig formatering med 2-färgsskala
 
  (CELLSNET-44167) - Stöd ISOWEEKNUM MS Excel 2013-funktion
 
@@ -62,39 +62,39 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Buggar**
 
 
- (CELLSNET-44164) - Ofullständig HTML-struktur när du sparar till en stream
+ (CELLSNET-44164) - Ofullständig HTML-struktur när du sparar till en ström
 
- (CELLSNET-44147) - Uppdatering av pivottabellen genererar korrupt Excel-fil
+(CELLSNET-44147) - Uppdatering av pivottabellen genererar korrupt Excel-fil
 
  (CELLSNET-44022) - Workbook.Copy bevarar inte formatering för pivottabeller
 
  (CELLSNET-44139) - Olika värden för samma cell före och efter anropet av metoden CalculateFormula()
 
- (CELLSNET-44135) - Excel-filen är inte korrekt (fullständigt) beräknad (avseende diagram) innan PDF-generering
+ (CELLSNET-44135) - Excel-filen är inte korrekt (fullständigt) beräknad (avseende diagram) före PDF-genereringen
 
-(CELLSNET-44138) - Cell skuggning överlappar gränsen vilket gör att gränsen förtunnas
+ (CELLSNET-44138) - Cell skuggning överlappar gränsen vilket gör att gränsen förtunnas
 
- (CELLSNET-44136) - Excel visar en sida i förhandsgranskning där Aspose.Cells renderas till PDF-sidor
+ (CELLSNET-44136) - Excel visar en sida i förhandsgranskning där Aspose.Cells återges till PDF sidor
 
  (CELLSNET-44122) - Bilderna i arken återges inte på samma sätt som i den ursprungliga Excel-mallen
 
- (CELLSNET-43587) - Cell Området överlappar Cell-gränsen medan kalkylark konverteras till PDF
+ (CELLSNET-43587) - Cell Området överlappar Cell-gränsen medan kalkylbladet konverteras till PDF
 
  (CELLSNET-44171) - CopyData mellan intervall fungerar inte horisontellt men det fungerar bra vertikalt
 
- (CELLSNET-44153) - XLSB till XLSM fungerar inte korrekt och producerar skadad fil
+(CELLSNET-44153) - XLSB till XLSM fungerar inte korrekt och producerar skadad fil
 
  (CELLSNET-44149) - OleObjects tas bort efter konvertering från XLSB till XLSM
 
- (CELLSNET-44146) - Resultaten av villkorlig formatering återges inte korrekt i PDF
+ (CELLSNET-44146) - Resultaten för villkorlig formatering återges inte korrekt i PDF
 
  (CELLSNET-44144) - Lägga till anpassade egenskaper tar bort kalkylbladets innehåll
 
  (CELLSNET-44141) - Diagrammets primära kategoriaxel blir fel när du sparar om källexcelfilen
 
-(CELLSNET-44160) - Horisontell axel ändrades till andra etiketter än den ursprungliga filen
+ (CELLSNET-44160) - Horisontell axel ändrades till andra etiketter än den ursprungliga filen
 
- (CELLSNET-44157) - Anpassat diagrams primära x-axel har ändrats efter att ha öppnat och sparat mallen XLSX-fil
+ (CELLSNET-44157) - Anpassat diagrams primära x-axel ändrades efter att ha öppnat och sparat mallen XLSX filen
 
  (CELLSNET-43910) - Att extrahera bilden från kalkylbladet och infoga den i dokumentfilen gör den ofullständig
 
@@ -106,7 +106,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) - System.IndexOutOfRangeException vid pivottabell.CalculateData
 
- (CELLSNET-44064) - CalculateFormula kastar undantag på källan xlsm
+(CELLSNET-44064) - CalculateFormula kastar undantag på källan xlsm
 
  (CELLSNET-44055) - Aspose.Cell. Undantag orsakat av pdf-konvertering på grund av minnesinställningar
 
@@ -114,13 +114,13 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44145) - System.NullReferenceException i WorkbookMetadata ctor
 
- (CELLSNET-44143) - Undantag i Workbook ctor vid laddning av XLSX
+ (CELLSNET-44143) - Undantag vid arbetsboken under laddning XLSX
 
  (CELLSNET-44142) - IndexOutOfBoundsException när du skapar en instans av arbetsbok med XLS
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -128,7 +128,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Buggar**
 
 
-(CELLSNET-44151) - JavaScript utlöses inte när innehåll tas bort från GridWeb-cellen
+ (CELLSNET-44151) - JavaScript utlöses inte när innehåll tas bort från GridWeb-cellen
 
  (CELLSNET-44113) - Rubrikradstext visas också i filtervärdena
 
@@ -152,7 +152,7 @@ url: /sv/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Tar bort föråldrad Workbook.SaveOptions-egenskap.
+ Tar bort föråldrad Workbook.SaveOptions-egenskap.
 
  Använd metoden Workbook.Save(Stream,SaveOptions) eller Workbook.Save(string,SaveOptions) istället.
 
@@ -164,7 +164,7 @@ Tar bort föråldrad Workbook.SaveOptions-egenskap.
 
 
 
- Lägger till egenskapen Proptection.IsProtectedWithPassword.
+Lägger till egenskapen Proptection.IsProtectedWithPassword.
 
  Indikerar om kalkylbladet är skyddat med lösenord.
 

@@ -10,7 +10,7 @@ url: /zh/java/find-or-search-data/
 
 **使用“查找”对话框查找包含特定值的单元格** 
 
-![待办事项：图像_替代_文本](find-or-search-data_1.png)
+![待办事项：图片_替代_文本](find-or-search-data_1.png)
 
 在此示例中，搜索值为“Oranges”。
 
@@ -24,7 +24,7 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 
 所有查找方法都返回包含指定搜索值的任何单元格的单元格引用。
 ## **查找包含公式**
-开发者可以通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) 方法，设置[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType)至[LookInType.公式](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
+开发者可以通过调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\) 方法，设置[FindOptions.setLookInType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookInType)到[LookInType.公式](https://reference.aspose.com/cells/java/com.aspose.cells/lookintype#FORMULAS)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
 
 通常，[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)) 方法接受两个或多个参数：
 
@@ -34,17 +34,17 @@ Aspose.Cells提供了一个类，[工作簿](https://reference.aspose.com/cells/
 
 **示例工作表数据** 
 
-![待办事项：图像_替代_文本](find-or-search-data_2.png)
+![待办事项：图片_替代_文本](find-or-search-data_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsContainingFormula-FindingCellsContainingFormula.java" >}}
 ## **搜索字符串**
 搜索包含字符串值的单元格既简单又灵活。有多种搜索方式，例如，搜索包含以特定字符或字符集开头的字符串的单元格。
 ### **搜索以特定字符开头的字符串**
-要搜索字符串中的第一个字符，请调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)方法，设置[查找选项.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)至[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
+要搜索字符串中的第一个字符，请调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)方法，设置[查找选项.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)到[LookAtType.START_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#START_WITH)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsWithStringOrNumber-FindingCellsWithStringOrNumber.java" >}}
 ### **搜索以特定字符结尾的字符串**
-Aspose.Cells 也可以查找以特定字符结尾的字符串。要搜索字符串中的最后一个字符，请调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)方法，设置[查找选项.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)至[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
+Aspose.Cells 也可以查找以特定字符结尾的字符串。要搜索字符串中的最后一个字符，请调用[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)收藏的[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)方法，设置[查找选项.setLookAtType](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#LookAtType)到[LookAtType.END_WITH](https://reference.aspose.com/cells/java/com.aspose.cells/lookattype#END_WITH)并将其作为参数传递给[寻找](https://reference.aspose.com/cells/java/com.aspose.cells/cells#find\(java.lang.Object,%20com.aspose.cells.Cell\)） 方法。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FindingCellsEndWithSpecificCharacters-FindingCellsEndWithSpecificCharacters.java" >}}
 ## **使用正则表达式搜索：RegEx 功能**

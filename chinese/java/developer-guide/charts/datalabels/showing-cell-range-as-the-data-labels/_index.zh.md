@@ -16,7 +16,7 @@ url: /zh/java/showing-cell-range-as-the-data-labels/
 
 以下屏幕截图突出显示了此选项以供您参考。
 
-![待办事项：图像_替代_文本](showing-cell-range-as-the-data-labels_1.png)
+![待办事项：图片_替代_文本](showing-cell-range-as-the-data-labels_1.png)
 
 ## 使用 Aspose.Cells 将单元格范围显示为数据标签
 

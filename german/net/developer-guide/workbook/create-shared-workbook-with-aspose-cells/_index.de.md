@@ -12,7 +12,7 @@ Microsoft Mit Excel können Sie die Arbeitsmappe freigeben, wie im folgenden Scr
 
 ## **Gemeinsame Arbeitsmappe mit Aspose.Cells erstellen**
 
- Der folgende Beispielcode erstellt eine freigegebene Arbeitsmappe per Einstellung[**Arbeitsmappe.Einstellungen.Freigegeben**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) Eigentum als**Stimmt** . Wann öffnen Sie die[Excel-Datei ausgeben](55541786.xlsx) in Microsoft Excel, werden Sie sehen**Geteilt**mit dem Namen der Ausgabearbeitsmappe, wie in diesem Screenshot gezeigt.
+ Der folgende Beispielcode erstellt eine freigegebene Arbeitsmappe per Einstellung[**Arbeitsmappe.Einstellungen.Freigegeben**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared) Eigentum als**wahr** . Wann öffnen Sie die[Excel-Datei ausgeben](55541786.xlsx) in Microsoft Excel, werden Sie sehen**Geteilt**mit dem Namen der Ausgabearbeitsmappe, wie in diesem Screenshot gezeigt.
 
 ![todo: Bild_alt_Text](create-shared-workbook-with-aspose-cells_2.png)
 

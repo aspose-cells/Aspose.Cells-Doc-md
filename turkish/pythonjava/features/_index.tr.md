@@ -1,5 +1,5 @@
 ﻿---
-title: Özellikler
+title: Özellikleri
 type: docs
 weight: 5
 url: /tr/python-java/features/
@@ -12,12 +12,12 @@ Bu sayfada Aspose.Cells for Python via Java özellikleri özetlenmektedir.
 
 {{% /alert %}} 
 ## **Dosya Biçimleri ve Dönüşümler**
-- XLS, Elektronik TabloML (XLSX, XML), Virgülle Ayrılmış Değer (CSV), HTML, OpenDocument Elektronik Tablosu (ODS), PDF, Sekmeyle Ayrılmış, Düz Metin (TXT)
+- XLS, SpreadsheetML (XLSX, XML), Virgülle Ayrılmış Değer (CSV), HTML, OpenDocument Elektronik Tablosu (ODS), PDF, Sekmeyle Ayrılmış, Düz Metin (TXT)
 ## **Oluşturma ve Yazdırma**
 - Elektronik tabloyu vektör görüntülere dönüştürme (EMF)
-- Çalışma sayfalarını raster görüntülere dönüştürün (Çok Sayfalı TIFF, GIF)
+- Çalışma sayfalarını raster görüntülere dönüştür (Multipage TIFF, GIF)
 - Çalışma sayfalarını raster görüntülere dönüştürün (PNG, JPEG, vb.)
-- Elektronik Tabloyu yüksek doğrulukla PDF'ye dönüştürün
+- Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün
 ## **Elektronik Tablo İçeriği Özellikleri**
 - Çalışma sayfalarını çalışma kitaplarının içinde veya arasında kopyalama veya taşıma
 - API'i kullanarak resimler ekleyin, geleneksel ve özel grafikler oluşturun ve grafikler için degrade arka planı ayarlayın

@@ -16,32 +16,32 @@ url: /de/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNETCORE-45|Laden Sie Daten aus der Datenquelle mit der Option, einige Zeichen wie Apostrophe zu überspringen|Neue Funktion|
 |CELLSNET-47018|Die Berechnung einiger Kombinationsdiagramme kann eine Ausnahme auslösen|Erweiterung|
 |CELLSNET-47016|Umbruchtext ist in der neuesten Version von Aspose.Cells anders|Erweiterung|
-|CELLSNET-47023|Diagramm beim Laden und Speichern der ODS-Datei verloren|Erweiterung|
-|CELLSNET-47056|Diagramme werden beim Laden und Speichern der ODS-Datei nicht gerendert|Erweiterung|
-|CELLSNET-46679|Falsches Rendering beim Exportieren von XLSX in PDF|Insekt|
-|CELLSNET-46680|Beim Konvertieren von XLSX in PDF fehlt das Wingding-Symbol|Insekt|
-|CELLSNET-46740|Fehler in Bildern beim Konvertieren von Excel-Dateien in PDF|Insekt|
+|CELLSNET-47023|Diagramm beim Laden und Speichern der Datei ODS verloren|Erweiterung|
+|CELLSNET-47056|Diagramme werden beim Laden und Speichern der Datei ODS nicht gerendert|Erweiterung|
+|CELLSNET-46679|Falsches Rendering beim Exportieren von XLSX nach PDF|Insekt|
+|CELLSNET-46680|Beim Umwandeln von XLSX in PDF fehlt das Wingding-Symbol|Insekt|
+|CELLSNET-46740|Fehler in Bildern beim Konvertieren der Excel-Datei in PDF|Insekt|
 |CELLSNET-46901|Die Position des 3D-Modells verschiebt sich|Insekt|
 |CELLSNET-46936|Schriftart wird in HTML nicht korrekt wiedergegeben|Insekt|
-|CELLSNET-47013|Zahlen im Trichterdiagramm verschwinden beim Konvertieren von Excel-Dateien in PDF|Insekt|
+|CELLSNET-47013|Numbers im Trichterdiagramm verschwindet beim Konvertieren der Excel-Datei in PDF|Insekt|
 |CELLSNET-43846|Die Pivot-Tabelle verliert die benutzerdefinierten Feldnamen und die Einstellung "Wert anzeigen als...".|Insekt|
 |CELLSNET-46444|Der Pivot-Tabellenwert wurde nach dem Aufrufen von PivotTable.CalculateData geändert|Insekt|
 |CELLSNET-46484|RefreshData sortiert keine Daten, bevor die Datei in Excel geöffnet wird|Insekt|
 |CELLSNET-47010|Ein Problem mit der Formatierung der Kopfzeilen von Pivot-Tabellengruppen|Insekt|
 |CELLSNET-47024|Falsche Zeilensortierreihenfolge in Pivot-Tabellen mit Wertezeile|Insekt|
-|CELLSNET-47034|Spaltenbreite und Zeilenhöhe wurden während der HTML-zu-Excel-Konvertierung gestaucht|Insekt|
+|CELLSNET-47034|Spaltenbreite und Zeilenhöhe wurden während der Konvertierung von HTML nach Excel gestaucht|Insekt|
 |CELLSNET-47007|Beim Auswerten der Formel wird ein Wertfehler angezeigt|Insekt|
 |CELLSNET-47029|Falscher Wert TRUE, abgerufen von Cell statt Wert FALSE|Insekt|
 |CELLSNET-47052|Beschädigtes DateTimeFormat beim Konvertieren von Excel in PDF|Insekt|
 |CELLSNET-46757|Probleme beim Konvertieren von XLSX in PDF|Insekt|
-|CELLSNET-46976|Einige Grenzlinien verschwinden beim Excel-zu-PDF-Rendering|Insekt|
+|CELLSNET-46976|Einige Grenzlinien verschwinden in Excel beim Rendern von PDF|Insekt|
 |CELLSNET-47000|Unangemessenes Ergebnisbild von SheetRender aus passwortgeschützter .ods-Datei|Insekt|
 |CELLSNET-47025|Makros für XLSM nicht erkannt|Insekt|
-|CELLSNET-47038|Liniendiagramme in der ODS-Datei werden beim Öffnen oder Speichern über Aspose.Cells nicht korrekt gerendert|Insekt|
+|CELLSNET-47038|Liniendiagramme in der Datei ODS werden beim Öffnen oder Speichern über Aspose.Cells nicht korrekt gerendert|Insekt|
 |CELLSNET-47045|Änderung des VBA-Modulnamens stürzt ab|Insekt|
 |CELLSNET-47051|Das Diagramm ist nach dem Kopieren immer noch an das erste Arbeitsblatt gebunden|Insekt|
 |CELLSNET-47053|Falsche Dateiformaterkennung und Prozess bleibt beim Öffnen der Datei hängen|Insekt|
-|CELLSNET-46922|Ausnahme beim Laden der XLS-Datei|Ausnahme|
+|CELLSNET-46922|Ausnahme beim Laden der Datei XLS|Ausnahme|
 |CELLSNET-46999|Beim Rendern der .ods-Datei wird eine Ausnahme „Parameter ist nicht gültig“ ausgelöst.|Ausnahme|
 |CELLSNET-47017|OpenXML SDK löst beim Öffnen der konvertierten Datei eine Ausnahme aus|Ausnahme|
 |CELLSNET-47022|Ausnahme beim Laden eines XLSX-Dateiformats|Ausnahme|
@@ -86,9 +86,9 @@ Ruft den Typ des automatisch angepassten umbrochenen Texts ab und legt ihn fest.
 #### **Fügt die EmfRenderSetting-Klasse hinzu**
 Setzt zum Rendern der EMF-Metadatei.
 #### **Fügt die PdfSaveOptions.EmfRenderSetting-Eigenschaft hinzu**
-Legt fest, dass die EMF-Metadatei beim Rendern in eine PDF-Datei gerendert wird.
+Legt fest, dass EMF-Metadatei gerendert wird, während in PDF-Datei gerendert wird.
 #### **Fügt die Methode ShapeCollection.AddSvg() hinzu**
-Fügt ein SVG-Bild hinzu.
+Fügt das Bild SVG hinzu.
 #### **Fügt die WorkbookSettings.QuotePrefixToStyle-Eigenschaft hinzu**
 Gibt an, ob die Style.QuotePrefix-Eigenschaft festgelegt wird, wenn der Zeichenfolgenwert (der mit einem einfachen Anführungszeichen beginnt) in die Zelle eingegeben wird
 #### **Fügt die HtmlSaveOptions.AddTooltipText-Eigenschaft hinzu**

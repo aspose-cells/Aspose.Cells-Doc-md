@@ -13,28 +13,28 @@ url: /zh/java/aspose-cells-for-java-17-4-0-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-41975|支持 DBNum（自定义模式）格式化|新功能|
-|CELLSJAVA-42237|访问单元格会创建带有空行的 HTML|强化|
+|CELLSJAVA-42237|访问单元格会创建带有空白行的 HTML|强化|
 |CELLSJAVA-42236|多线程环境的性能问题|强化|
-|CELLSJAVA-42226|限制为文件夹及其子文件夹以在渲染图像/PDF 时使用字体|强化|
+|CELLSJAVA-42226|限制为文件夹及其子文件夹以在渲染图像时使用字体/PDF|强化|
 |CELLSJAVA-42239|加载 HTML 时输入字符串格式错误|漏洞|
-|CELLSJAVA-42230|将 XLSX 转换为 HTML 时会生成一个额外的对齐属性|漏洞|
-|CELLSJAVA-42229|将 XLSX 导出为 HTML - 生成哈希符号代替实际的 Cell 值|漏洞|
+|CELLSJAVA-42230|将 XLSX 转换为 HTML 时会生成一个附加对齐属性|漏洞|
+|CELLSJAVA-42229|将 XLSX 导出到 HTML - 生成哈希符号代替实际的 Cell 值|漏洞|
 |CELLSJAVA-42218|HTML 未正确转换为 Excel 文件|漏洞|
-|CELLSJAVA-42210|输出 HTML 中缺少一些 DataBar 条件格式|漏洞|
-|CELLSJAVA-41783|背景图像应为 SVG 格式，但为 PNG 格式|漏洞|
-|CELLSJAVA-42253|依赖单元格值导致 XLS 中出现错误|漏洞|
+|CELLSJAVA-42210|输出中缺少某些 DataBar 条件格式 HTML|漏洞|
+|CELLSJAVA-41783|背景图片应为 SVG 格式，但实际为 PNG 格式|漏洞|
+|CELLSJAVA-42253|依赖单元格值导致错误 XLS|漏洞|
 |CELLSJAVA-42222|工作簿计算后总和不正确|漏洞|
 |CELLSJAVA-42254|GridWebServlet?acw_阿贾克斯_加载 GridWeb 时出现调用错误|漏洞|
-|CELLSJAVA-42243|Excel 转 PDF - 方形看起来像矩形|漏洞|
-|CELLSJAVA-42242|Excel 转 PDF - 圆形看起来像椭圆形|漏洞|
+|CELLSJAVA-42243|Excel 到 PDF - 方形看起来像矩形|漏洞|
+|CELLSJAVA-42242|Excel 到 PDF - 圆形看起来像椭圆形|漏洞|
 |CELLSJAVA-42227|图像文件“x1.png”有一个额外的顶部边框和缺失的底部边框|漏洞|
-|CELLSJAVA-42212|将 XLS 导出为 PDF 时出现性能问题|漏洞|
+|CELLSJAVA-42212|将 XLS 导出到 PDF 时出现性能问题|漏洞|
 |CELLSJAVA-42246|Excel 到 HTML - 图表 Y 轴标签中的文本对齐错误|漏洞|
 |CELLSJAVA-42223|雷达图的点 xy px 返回 0|漏洞|
-|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx转PDF时气泡图Y轴绑定值变化|漏洞|
+|CELLSJAVA-42216|AxisScalingValuesIssue-2.xlsx 转换为 PDF 时气泡图 Y 轴的绑定值发生变化|漏洞|
 |CELLSJAVA-42250|如果代码包含类型为 CommandBar 的变量定义，则会出现编译错误|漏洞|
 |CELLSJAVA-42241|Excel 到 PDF - 括号在下一行|漏洞|
-|CELLSJAVA-42234|将 XLSM 文件另存为 XLS 从按钮中删除宏操作|漏洞|
+|CELLSJAVA-42234|将 XLSM 文件保存为 XLS 从按钮中删除宏操作|漏洞|
 |CELLSJAVA-42233|升级代码——将3D格式应用于图表|漏洞|
 |CELLSJAVA-42225|无法设置形状输入范围|漏洞|
 |CELLSJAVA-42224|排序评论的问题|漏洞|

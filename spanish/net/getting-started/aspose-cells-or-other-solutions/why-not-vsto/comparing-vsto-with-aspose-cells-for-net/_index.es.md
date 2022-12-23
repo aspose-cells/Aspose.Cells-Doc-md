@@ -10,13 +10,13 @@ Este artículo compara el uso de VSTO (Visual Studio Tools para Office) con otro
 
 {{% /alert %}}
 
-## **Visión general**
+## **Descripción general**
 
 Microsoft Excel es utilizado ampliamente por empresas e individuos en todo tipo de industrias. La aplicación de hoja de cálculo es casi omnipresente y permite a los usuarios no solo almacenar y organizar datos, sino también crear modelos complejos con fórmulas y presentar datos claramente con formato y gráficos avanzados.
 
 VSTO permite que los documentos de Office Microsoft ejecuten código envuelto en un ensamblado .NET. Se utiliza para desarrollar aplicaciones que funcionan con Microsoft archivos y funciones de Office. Los desarrolladores han utilizado ASP, componentes web de Office e interoperabilidad COM en aplicaciones durante años. Microsoft ha mejorado VSTO para desarrollar e implementar aplicaciones y mejorar la administración de la memoria. Pero, la pregunta sigue siendo: ¿VSTO está diseñado para ser más fácil de usar y más confiable que otros enfoques disponibles en la actualidad? Los desarrolladores quieren trabajar con soluciones que no los decepcionen en términos de rendimiento, seguridad, escalabilidad, estabilidad, confiabilidad o características mejoradas.
 
-[Aspose](http://www.aspose.com/)proporciona una gran línea de .NET, Java, Cloud y API de Android. Las API Aspose incluyen productos como Aspose.Cells, Aspose.Words, Aspose.Pdf y Aspose.Slides, API que ayudan[los desarrolladores abren, modifican, generan, guardan, fusionan y convierten documentos en varios formatos, incluidos XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
+[Aspose](http://www.aspose.com/)proporciona una gran línea de .NET, Java, Cloud y API de Android. Las API Aspose incluyen productos como Aspose.Cells, Aspose.Words, Aspose.Pdf y Aspose.Slides, API que ayudan[los desarrolladores abren, modifican, generan, guardan, combinan y convierten documentos en varios formatos, incluidos XLS, XLSX, DOC, DOCX, HTML, PDF, PPT.
 
 En este artículo, comparamos VSTO con Aspose.Cells for .NET.
 
@@ -24,7 +24,7 @@ En este artículo, comparamos VSTO con Aspose.Cells for .NET.
 
 -  Revisar la[Aspose.Cells documentación](https://docs.aspose.com/cells/net/).
 -  Vea cómo funciona en el[demostraciones en línea](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  Pruébalo:[descargar](https://downloads.aspose.com/cells/net) una versión de evaluación de forma gratuita.
+-  Pruébalo:[descargar](https://downloads.aspose.com/cells/net)una versión de evaluación de forma gratuita.
 
 Este artículo compara VSTO y Aspose.Cells en diferentes aspectos relacionados con Microsoft Excel. La lista no está completa, pero representa algunas cuestiones que los responsables de la toma de decisiones deben comprender antes de tomar una decisión final antes de adoptar un enfoque.
 
@@ -40,7 +40,7 @@ Las funciones que proporciona VSTO dependen de la combinación de productos VSTO
 
 Aspose.Cells proporciona todo lo necesario para administrar Microsoft archivos de Office Excel y mucho, mucho más. El API brinda a los desarrolladores excelentes resultados con el mínimo esfuerzo. Aspose.Cells proporciona muchas funciones potentes que ahorran tiempo. el API proporciona API fáciles de usar para todo tipo de actividades de gestión de hojas de cálculo, cubriendo casi todas las características que proporciona Microsoft Excel. Todas las tareas enumeradas para VSTO se pueden realizar fácilmente con Aspose.Cells.
 
-Aspose.Cells también es compatible con varias funciones avanzadas, incluida la compatibilidad con marcadores inteligentes, la importación y exportación de datos hacia y desde varias fuentes de datos, objetos y archivos de Excel, compatibilidad con clientes COM (cliente ASP) Interoperabilidad con el componente, conversión de archivos de Excel a formato PDF , guardando gráficos y hojas de cálculo de Excel como archivos de imagen.
+Aspose.Cells también es compatible con varias funciones avanzadas, incluida la compatibilidad con marcadores inteligentes, la importación y exportación de datos hacia y desde varias fuentes de datos, objetos y archivos de Excel, compatibilidad con clientes COM (cliente ASP) Interoperabilidad con el componente, conversión de archivos de Excel al formato PDF , guardando gráficos y hojas de cálculo de Excel como archivos de imagen.
 
 ### **Seguridad**
 
@@ -50,7 +50,7 @@ Los proveedores de servicios de Internet (ISP) que alojan varias aplicaciones de
 
 Aspose.Cells for .NET puede ejecutarse con un nivel de seguridad de confianza medio. No se requieren privilegios especiales para ejecutar el ensamblaje en un entorno hospedado. La confianza media impone restricciones sobre los tipos de recursos del sistema compartido a los que pueden acceder las aplicaciones. Muchas aplicaciones web se ejecutan en servidores de alojamiento web. En el modo de alojamiento web, la mayoría de ellos solo pueden ejecutarse con un nivel de seguridad de confianza medio. Aspose.Cells for .NET puede satisfacer su necesidad muy bien en este sentido.
 
-### **Actuación**
+### **Rendimiento**
 
 El rendimiento es el factor más crítico al elegir cualquier enfoque o metodología para construir una solución.
 
@@ -77,7 +77,7 @@ VSTO tiene una larga lista de requisitos previos:
 - Una o más de las siguientes ediciones de Visual Studio Tools para Office:
  - Microsoft Herramientas de Visual Studio 2005 para Microsoft Office System
  - Microsoft Visual Studio 2005 Herramientas para 2007 Microsoft Office System
--Edición profesional de Visual Studio 2008
+ -Edición profesional de Visual Studio 2008
  - Visual Studio 2008 Team Suite Edición
  - Una versión de Microsoft Office:
  - Microsoft Office Profesional 2003 SP1

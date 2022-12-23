@@ -32,7 +32,7 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44043): abrir y volver a guardar un archivo de Excel grande daña el documento
 
-(CELLSNET-44031) - XLSB dañado en Excel 2010 después de guardar en v8.6.1
+ (CELLSNET-44031) - XLSB dañado en Excel 2010 después de guardar en v8.6.1
 
  (CELLSNET-43990) - Autoforma fuera de lugar al representar la hoja de cálculo en PDF
 
@@ -44,21 +44,21 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43786): el archivo está dañado después de actualizar la tabla dinámica en el archivo de plantilla.
 
- (CELLSNET-43421) - La flecha no se representa correctamente al convertir una hoja de cálculo a PDF
+ (CELLSNET-43421): la flecha no se procesa correctamente al convertir la hoja de cálculo a PDF
 
- (CELLSNET-43391): problema con la representación HTML de una tabla con una columna oculta
+ (CELLSNET-43391): problema con la representación HTML para una tabla con una columna oculta
 
- (CELLSNET-44045): los métodos Workbook.CalculateFormula se atascan por tiempo indefinido
+(CELLSNET-44045): los métodos Workbook.CalculateFormula se atascan por tiempo indefinido
 
- (CELLSNET-44051) - Faltan iconos de formato condicional en PDF
+ (CELLSNET-44051): faltan iconos de formato condicional en PDF
 
- (CELLSNET-44047) - Las páginas se reducen en el PDF de salida
+ (CELLSNET-44047) - Las páginas están alejadas en la salida PDF
 
  (CELLSNET-44025): el grosor del borde no se conserva según el área de impresión
 
  (CELLSNET-44002) - La imagen se escala debido a algún problema en el código
 
-(CELLSNET-43960) - No se puede leer un archivo protegido con contraseña
+ (CELLSNET-43960) - No se puede leer un archivo protegido con contraseña
 
  (CELLSNET-44062): la entrada de la leyenda del gráfico no se elimina cuando la columna de la fuente de datos está oculta
 
@@ -72,7 +72,7 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-43978): el gráfico a la imagen se genera con valores adicionales
 
- (CELLSNET-43874): el formato de número de Chart.NSeries.DataLabels no se conserva al volver a guardar
+(CELLSNET-43874): el formato de número de Chart.NSeries.DataLabels no se conserva al volver a guardar
 
  (CELLSNET-44038) - Chart.ToImage() modifica la alineación del texto de la etiqueta
 
@@ -82,7 +82,7 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44056) - Guardar en PDF pierde los bordes verticales
 
-(CELLSNET-44049) - Las columnas ocultas pierden su ancho
+ (CELLSNET-44049) - Las columnas ocultas pierden su ancho
 
  (CELLSNET-44039): no se pudo calcular la fórmula en función de los valores filtrados en la hoja de cálculo
 
@@ -90,13 +90,13 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44034) - Las validaciones no funcionan en formato XLSB
 
- (CELLSNET-44030) - La función de Excel SUMIFS no funciona en formato XLSB
+ (CELLSNET-44030) - La función de Excel SUMIFS no funciona en el formato XLSB
 
  (CELLSNET-44007) - Duplicación de objetos de cámara en la hoja de cálculo resultante al volver a guardar XLSB
 
- (CELLSNET-44006) - Error de vista protegida al abrir XLS guardado nuevamente
+ (CELLSNET-44006): error de vista protegida al abrir, se volvió a guardar XLS
 
- (CELLSNET-44001) - La fórmula NOW() no se muestra correctamente en la conversión de SpreadsheetML(XML) a PDF
+(CELLSNET-44001) - La fórmula NOW() no se muestra correctamente en la conversión SpreadsheetML (XML) a PDF
 
  (CELLSNET-43894): no se pudo actualizar el enlace OLE ObjectSourceFullName
 
@@ -108,15 +108,15 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
  (CELLSNET-44008) - CellsException en SheetRender.ToImage
 
- (CELLSNET-43926) - CellsException en Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException en Workbook.CalculateFormula
 
- (CELLSNET-44052): se produjo una excepción en Workbook.Save() en la conversión de Excel a PDF
+ (CELLSNET-44052): se produjo una excepción en Workbook.Save() en Excel para la conversión PDF
 
  (CELLSNET-44050): System.FormatException en Workbook ctor
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -124,7 +124,7 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 ## **Nuevas características**
 
 
-(CELLSNET-44036) - El color de la fuente es el mismo para todo el texto aunque la celda tiene textos con diferentes colores
+ (CELLSNET-44036) - El color de la fuente es el mismo para todo el texto aunque la celda tiene textos con diferentes colores
 
  (CELLSNET-44033) - Obtener celdas modificadas en modo Ajax en el lado del servidor
 
@@ -176,7 +176,7 @@ url: /es/net/aspose-cells-for-net-8-6-2-release-notes/
 
 
 
- Agrega el evento AjaxCallFinished en GridWeb
+Agrega el evento AjaxCallFinished en GridWeb
 
  Se activa cuando finaliza la actualización ajax del control (el EnableAJAX se establecerá en verdadero).
 

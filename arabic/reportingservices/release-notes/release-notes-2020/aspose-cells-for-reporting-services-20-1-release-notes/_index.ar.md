@@ -14,5 +14,5 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-20-1-release-note
 |:- |:- |:- |
 |CELLSRS-565|مشكلة في اللغة العبرية في Aspose.Cells for Reporting Services.|ميزة جديدة|
 |CELLSRS-567|تحديث Aspose.Cells.DLL.|مهمة|
-|CELLSRS-564|فشل نشر التقرير.|حشرة|
+|CELLSRS-564|فشل نشر التقرير.|خلل برمجي|
 

@@ -19,10 +19,10 @@ url: /zh/net/aspose-cells-for-net-8-1-0-release-notes/
 \1) Aspose.Cells 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
-(CELLSNET-42761) - 从工作表中删除场景
+ (CELLSNET-42761) - 从工作表中删除场景
 
 
 ## **虫子**
@@ -32,7 +32,7 @@ url: /zh/net/aspose-cells-for-net-8-1-0-release-notes/
 
 (CELLSNET-42387) - 文本已移出横幅。
 
- (CELLSNET-42385) - 将 XLSX 渲染为 PDF 时不显示弯曲的连接器形状
+ (CELLSNET-42385) - 将 XLSX 渲染到 PDF 时，弯曲的连接器形状不会出现
 
 (CELLSNET-42379) - 矩阵中的文本显示不同
 
@@ -66,7 +66,7 @@ url: /zh/net/aspose-cells-for-net-8-1-0-release-notes/
 
 (CELLSNET-42725) - 插入的图像失去原始大小
 
-(CELLSNET-42716) - 重新保存 XLSM 文件后 XLSM 色带丢失
+(CELLSNET-42716) - XLSM 重新保存 XLSM 文件后色带丢失
 
 (CELLSNET-42711) - Row.ApplyStyle 工作不正常
 
@@ -80,7 +80,7 @@ url: /zh/net/aspose-cells-for-net-8-1-0-release-notes/
 
 (CELLSNET-42782) - 读取 xlsx 文件时出现 System.FormatException
 
-(CELLSNET-42758) - 指定的转换在 Cell.GetDisplayStyle() 上无效
+ (CELLSNET-42758) - 指定的转换在 Cell.GetDisplayStyle() 上无效
 
 (CELLSNET-42724) - 调用 Worksheet/Workbook.CalculateFormula() 方法时发生 StackOverflowException
 

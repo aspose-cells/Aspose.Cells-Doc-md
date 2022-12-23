@@ -20,7 +20,7 @@ url: /ja/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50751|範囲をコピーするときに PasteType.ValuesAndFormats をサポートします。|
 |CELLSNET-50620|xls を pdf に変換するとき、テキスト ボックスのテキスト空白行のサイズが正しくレンダリングされない|
 |CELLSNET-50684|ODS ファイルからの OLE 添付ファイルの抽出に関する問題|
-|CELLSNET-50712|Excel から PDF への変換で、ワードアートの効果と図形が正しくレンダリングされない|
+|CELLSNET-50712|PDF への変換で、ワードアートの効果と図形が Excel で正しくレンダリングされない|
 |CELLSNET-50714|Aspose.Cells API で開いて保存すると、XLSB ファイルが破損する|
 |CELLSNET-50778|出力 PDF のピボット テーブルに垂直線がありません|
 |CELLSNET-50517|行の挿入/削除後の条件付き書式の数式の参照が間違っている|
@@ -33,14 +33,14 @@ url: /ja/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50815|ダブルクリック編集セル値の動作が正しくありません|
 |CELLSNET-50594|XLSX を HTML に変換すると、テキストが入力フィールドの後ろに隠れる|
 |CELLSNET-50665|PDF への変換中に CreatedTime を設定すると、PDF/A-1b の検証に失敗しました|
-|CELLSNET-50701|挿入された画像の明るさとコントラストは、Excel から PDF への変換でリセットされます|
-|CELLSNET-50834|Excel から HTML への変換での表の結合セルに関する問題|
-|CELLSNET-50595|XLSX から SVG へ: チャートの違い|
+|CELLSNET-50701|挿入された画像の明るさとコントラストが Excel で PDF 変換にリセットされる|
+|CELLSNET-50834|Excel で表の結合セルを HTML に変換する際の問題|
+|CELLSNET-50595|XLSX～SVG：チャートの違い|
 |CELLSNET-50596|出力 XLSX ファイルで軸単位が変更されない|
-|CELLSNET-50740|XLSX から JPG: テキストがグラフの右側に移動|
-|CELLSNET-50309|PNG までの範囲: 出力が期待どおりにならない|
+|CELLSNET-50740|XLSX から JPG: テキストがグラフの右側にシフト|
+|CELLSNET-50309|PNG までの範囲: 出力が期待どおりではありません|
 |CELLSNET-50610|RecalculateBeforeSave 新しいバージョンでは常に false|
-|CELLSNET-50611|Excel から PDF へのレンダリングでのブール値に関する問題|
+|CELLSNET-50611|Excel のブール値を PDF にレンダリングする際の問題|
 |CELLSNET-50706|2回目にSaveToStream()で保存するとファイルサイズが何倍にも減る|
 |CELLSNET-50749|コメントのみの列を削除する DeleteBlankColumns(options) メソッド|
 |CELLSNET-50759|保存されていないブックへの外部リンクがブックにある場合、数式が正しく保存されない|
@@ -48,7 +48,7 @@ url: /ja/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50779|XLS -> XLSX -> XLS の変換中に埋め込みオブジェクトに関する潜在的なデータ損失|
 |CELLSNET-50821|Range.AutoFill の問題 - 範囲領域が交差している場合、データが適切に自動入力されない|
 |CELLSNET-50777|オーストラリアの地域形式で PutValue メソッドが System.StackOverflowException をスローする|
-|CELLSNET-50275|ODS を HTML にレンダリングするときの「オブジェクト参照がオブジェクトのインスタンスに設定されていません」という例外|
+|CELLSNET-50275|ODS から HTML へのレンダリング時の「オブジェクト参照がオブジェクトのインスタンスに設定されていません」例外|
 |CELLSNET-50713|XLSB ファイルのロード時の System.NullReferenceException|
 
 ## **Public API および下位互換性のない変更**

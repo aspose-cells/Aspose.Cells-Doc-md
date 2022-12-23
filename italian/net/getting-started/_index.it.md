@@ -12,17 +12,17 @@ Questa pagina ti mostrerà come installare Aspose Cells e creare un'applicazione
 
 ## **Installazione**
 
-### **Installa Aspose.Cells tramite NuGet**
+### **Installa da Aspose.Cells a NuGet**
 
  NuGet è il modo più semplice per scaricare e installare Aspose.Cells for .NET.
 
-1.  Apri Microsoft Visual Studio e il gestore di pacchetti NuGet.
+1.  Apri Microsoft Visual Studio e NuGet gestore pacchetti.
 1.  Cerca "aspose.cells" per trovare il Aspose.Cells for .NET desiderato.
 1. Clicca su "Installa", Aspose.Cells for .NET verrà scaricato e referenziato nel tuo progetto.
-**![Installa Aspose Cells tramite NuGet](install-through-nuget.png)**
+**![Installa da Aspose Cells a NuGet](install-through-nuget.png)**
 
  Puoi anche scaricarlo dalla pagina web nuget per aspose.cells:
-[Aspose.Cells for .NET Pacchetto NuGet](https://www.nuget.org/packages/Aspose.Cells/)
+[Aspose.Cells for .NET NuGet Confezione](https://www.nuget.org/packages/Aspose.Cells/)
 
 [Più passo per i dettagli](/cells/it/net/installation/)
 
@@ -76,18 +76,18 @@ Si applica a: NetStandard2.0, NetCore2.1, NetCore3.1, Net5.0, Net6.0 e versione 
 
 ### **Come utilizzare la libreria grafica su piattaforme non Windows con Net6**
 
- Aspose.Cells per Net6 ora utilizza SkiaSharp come libreria grafica, come consigliato in[dichiarazione ufficiale di Microsoft](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . Per ulteriori dettagli sull'utilizzo di Aspose.Cells con NET6, vedere[Come eseguire Aspose.Cells per .Net6](/cells/it/net/how-to-run-aspose-cells-for-net6/).
+ Aspose.Cells per Net6 ora utilizza SkiaSharp come libreria grafica, come consigliato in[comunicato ufficiale del Microsoft](https://github.com/dotnet/designs/blob/f9d006073b7a019bd2021e99c66516447f7fb1a6/accepted/2021/system-drawing-win-only/system-drawing-win-only.md) . Per ulteriori dettagli sull'utilizzo di Aspose.Cells con NET6, vedere[Come eseguire Aspose.Cells per .Net6](/cells/it/net/how-to-run-aspose-cells-for-net6/).
 
 ## **Creazione dell'applicazione Hello World**
 
-I passaggi seguenti creano l'applicazione Hello World utilizzando l'API Aspose.Cells:
+passaggi seguenti creano l'applicazione Hello World utilizzando Aspose.Cells API:
 
 1.  Se hai una licenza, allora[applicarlo](/cells/it/net/licensing/).
  Se stai utilizzando la versione di valutazione, salta le righe di codice relative alla licenza.
 1.  Crea un'istanza di[Cartella di lavoro](https://reference.aspose.com/cells/net/aspose.cells/workbook) class per creare un nuovo file Excel o aprire un file Excel esistente.
 1. Accedi a qualsiasi cella desiderata di un foglio di lavoro nel file Excel.
 1.  Inserisci le parole**Hello World!** in una cella a cui si accede.
-1. Genera il file Microsoft Excel modificato.
+1. Genera il file Excel Microsoft modificato.
 
 L'implementazione dei passaggi precedenti è dimostrata negli esempi seguenti.
 
@@ -99,6 +99,6 @@ L'esempio seguente crea una nuova cartella di lavoro da zero, inserisce "Hello W
 
 ### **Esempio di codice: apertura di un file esistente**
 
-L'esempio seguente apre un file modello di Microsoft Excel esistente "Sample.xlsx", inserisce "Hello World!" nella cella A1 nel primo foglio di lavoro e salva come file Excel.
+L'esempio seguente apre un file modello Excel Microsoft esistente "Sample.xlsx", inserisce "Hello World!" nella cella A1 nel primo foglio di lavoro e salva come file Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Introduction-OpenExistingFile-1.cs" >}}

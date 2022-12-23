@@ -33,7 +33,7 @@ url: /ar/net/formatting-pivot-table/
 
 #### **تنسيق الشكل والمظهر يدويًا**
 
- لتنسيق شكل تقرير الجدول المحوري يدويًا ، بدلاً من استخدام تنسيقات التقارير المحددة مسبقًا ، استخدم تنسيق[**PivotTable.Format ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) و[**PivotTable.FormatAll ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall)طُرق. قم بإنشاء كائن نمط للتنسيق الذي تريده ، على سبيل المثال:
+ لتنسيق شكل تقرير الجدول المحوري يدويًا ، بدلاً من استخدام تنسيقات التقارير المحددة مسبقًا ، استخدم تنسيق[**PivotTable.Format ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) و[**PivotTable.FormatAll ()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall)أساليب. قم بإنشاء كائن نمط للتنسيق الذي تريده ، على سبيل المثال:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-FormattingLook-1.cs" >}}
 

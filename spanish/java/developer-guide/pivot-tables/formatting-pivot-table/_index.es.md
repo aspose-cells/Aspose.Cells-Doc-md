@@ -10,7 +10,7 @@ url: /es/java/formatting-pivot-table/
 
 ### **Configuración de opciones de formato de tabla dinámica**
 
- los[**Tabla dinámica**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) class le permite configurar varias opciones de formato para una tabla dinámica.
+ Él[**Tabla dinámica**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable) class le permite configurar varias opciones de formato para una tabla dinámica.
 
 #### **Configuración de los tipos de formato automático y estilo de tabla dinámica**
 

@@ -6,7 +6,7 @@ url: /ar/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-في وقت سابق ، يتم الوصول إلى مربعات النص عن طريق الفهرس من ملف[Workheet.getTextBoxes ()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) المجموعة ولكن الآن يمكنك أيضًا الوصول إلى مربع النص بالاسم من هذه المجموعة. هذه طريقة ملائمة وسريعة للوصول إلى مربع النص الخاص بك إذا كنت تعرف اسمه بالفعل.
+ في وقت سابق ، يتم الوصول إلى مربعات النص عن طريق الفهرس من ملف[Workheet.getTextBoxes ()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) المجموعة ولكن الآن يمكنك أيضًا الوصول إلى مربع النص بالاسم من هذه المجموعة. هذه طريقة ملائمة وسريعة للوصول إلى مربع النص الخاص بك إذا كنت تعرف اسمه بالفعل.
 
 {{% /alert %}} 
 ## **قم بالوصول إلى مربع النص بالاسم**

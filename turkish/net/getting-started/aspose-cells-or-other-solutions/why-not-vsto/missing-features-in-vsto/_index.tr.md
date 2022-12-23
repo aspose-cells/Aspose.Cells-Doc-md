@@ -26,7 +26,7 @@ Bu bölümde aşağıdaki konular yer almaktadır:
     - [ArrayList'ten içe aktarma](/cells/tr/net/importing-from-arraylist/)
     - [Özel Nesnelerden İçe Aktarma](/cells/tr/net/importing-from-custom-objects/)
     - [DataTable'dan içe aktarma](/cells/tr/net/importing-from-datatable/)
-- [Çalışma Kitabını Aspose.Cells'de Metin veya CSV Biçiminde Kaydet](/cells/tr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [Çalışma Kitabını Metne veya CSV Biçiminde Aspose.Cells'e Kaydet](/cells/tr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [Aspose.Cells'deki Akıllı İşaretçiler](/cells/tr/net/smart-markers-in-aspose-cells/)
   - [Verileri Gruplandırma](/cells/tr/net/grouping-data/)
   - [Görüntü İşaretleyicileri](/cells/tr/net/image-markers/)

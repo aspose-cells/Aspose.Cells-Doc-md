@@ -27,8 +27,8 @@ url: /sv/java/aspose-cells-for-java-22-6-release-notes/
 |CELLSJAVA-44660|Problem med datajustering när du laddar XLS till Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problem när du laddar et-filen till Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Titeln på axeln i diagrammet roteras i utdatabilden - Konvertering av diagram till bild|
-|CELLSJAVA-44615|Grå linje ritad i utdatabilden från XLS-fil|
-|CELLSJAVA-44665|Laddar ODS-filen hänger sig|
+|CELLSJAVA-44615|Grå linje ritad i utdatabilden från filen XLS|
+|CELLSJAVA-44665|Laddar ODS filen hänger sig|
 |CELLSJAVA-44651|Felet "Inte ett numeriskt värde" vid konvertering av Excel-ark till HTML/PDF|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

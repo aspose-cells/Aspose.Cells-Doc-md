@@ -23,7 +23,7 @@ Per applicare il filtro automatico a una colonna:
 1. Colonne di adattamento automatico per rendere attraente il display.
 1. Salva il foglio di calcolo.
 
- Gli esempi di codice in questo articolo mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/auto-filter-data/) con C# o Visual Basic o usando[Apose.Cells](/cells/it/net/auto-filter-data/), sempre con C# o Visual Basic.
+ Gli esempi di codice in questo articolo mostrano come eseguire questi passaggi utilizzando[VSTO](/cells/it/net/auto-filter-data/) con C# o Visual Basic o utilizzando[Apose.Cells](/cells/it/net/auto-filter-data/), sempre con C# o Visual Basic.
 
 ### **Filtro automatico dei dati con VSTO**
 

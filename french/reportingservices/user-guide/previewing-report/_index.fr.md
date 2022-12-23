@@ -12,7 +12,7 @@ La prévisualisation d'un rapport vous permet de vous assurer qu'il s'agit bien 
 
 Pour prévisualiser un rapport :
 
-1.  Cliquez sur**Voir** 
+1.  Cliquez sur**Vue** 
 
 ![tâche : image_autre_texte](previewing-report_1.png)
 

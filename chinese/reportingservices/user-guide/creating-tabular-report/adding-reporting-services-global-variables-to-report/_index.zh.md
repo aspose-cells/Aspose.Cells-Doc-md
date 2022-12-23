@@ -18,14 +18,14 @@ Aspose.Cells'报表模板支持 Reporting Services 的全局变量作为包含 R
 
    **选定的单元格** 
 
-![待办事项：图像_替代_文本](adding-reporting-services-global-variables-to-report_1.png)
+![待办事项：图片_替代_文本](adding-reporting-services-global-variables-to-report_1.png)
 
 
 
 
 1. 点击**插入公式**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图像_替代_文本](adding-reporting-services-global-variables-to-report_2.png)
+![待办事项：图片_替代_文本](adding-reporting-services-global-variables-to-report_2.png)
 
 ).
 
@@ -36,7 +36,7 @@ Aspose.Cells'报表模板支持 Reporting Services 的全局变量作为包含 R
 
    **选择全局变量** 
 
-![待办事项：图像_替代_文本](adding-reporting-services-global-variables-to-report_3.png)
+![待办事项：图片_替代_文本](adding-reporting-services-global-variables-to-report_3.png)
 
 
 
@@ -46,4 +46,4 @@ Aspose.Cells'报表模板支持 Reporting Services 的全局变量作为包含 R
 
    **单元格中的全局变量标记** 
 
-![待办事项：图像_替代_文本](adding-reporting-services-global-variables-to-report_4.png)
+![待办事项：图片_替代_文本](adding-reporting-services-global-variables-to-report_4.png)

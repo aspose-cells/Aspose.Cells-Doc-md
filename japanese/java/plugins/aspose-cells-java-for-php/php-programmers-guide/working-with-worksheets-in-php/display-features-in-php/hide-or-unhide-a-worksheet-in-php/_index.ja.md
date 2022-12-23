@@ -8,7 +8,7 @@ url: /ja/java/hide-or-unhide-a-worksheet-in-php/
 ### **ワークシートを非表示にする**
 Aspose.Cells Java for PHP を使用してワークシートを非表示にするには、次のように呼び出します。**hideunhideワークシート**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

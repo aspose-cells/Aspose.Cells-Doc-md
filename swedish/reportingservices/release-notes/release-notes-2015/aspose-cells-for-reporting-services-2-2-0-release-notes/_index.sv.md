@@ -88,7 +88,7 @@ Vänligen välkomna en ny version av Aspose.Cells for Reporting Services V2.2.0.
 
 (SSRS-40169) Synliga grupperade rader som är dolda i den exporterade Excel-filen (XLSX)
 
-(SSRS-40168) Radgrupperingar går förlorade i det renderade XLSX-filformatet
+(SSRS-40168) Radgrupperingar går förlorade i det renderade filformatet XLSX
 
 (SSRS-40167) Undantag inträffar: Okänt bildformat: Parametern är inte giltig.
 

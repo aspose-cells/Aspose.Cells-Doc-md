@@ -4,9 +4,9 @@ type: docs
 weight: 190
 url: /fr/java/export-chart-to-svg-with-viewbox-attribute/
 ---
- Par défaut, lorsque le graphique est exporté au format SVG, le**viewBox** L'attribut n'est pas inclus dans son XML. Cependant, Aspose.Cells fournit[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) propriété qui, lorsqu'elle est définie sur**vrai** exporte le graphique en SVG avec l'attribut viewBox.
+ Par défaut, lorsque le graphique est exporté au format SVG, le**viewBox** L'attribut n'est pas inclus dans son XML. Cependant, Aspose.Cells fournit[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) propriété qui, lorsqu'elle est définie sur**vrai** exporte le graphique vers SVG avec l'attribut viewBox.
 
- Si vous ouvrez le SVG du graphique dans le bloc-notes, vous trouverez le**viewBox** attribut similaire à celui-ci.
+ Si vous ouvrez le SVG du graphique dans le bloc-notes, vous trouverez le**viewBox**attribut similaire à celui-ci.
 
 {{< highlight "java" >}}
 

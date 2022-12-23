@@ -27,19 +27,19 @@ Bir veri listesini gerçek bir Liste Nesnesine dönüştürdüğünüzde pek ço
 
 **Liste nesnesi oluşturmak için veri aralığı seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-a-list-object_1.png)
+![yapılacaklar:resim_alternatif_metin](creating-a-list-object_1.png)
 
 Bu, Liste Oluştur iletişim kutusunu görüntüler.
 
 **Liste Oluştur iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-a-list-object_2.png)
+![yapılacaklar:resim_alternatif_metin](creating-a-list-object_2.png)
 
- List nesnesini uygulama ve Toplam Satırı belirtme (Select**Veri** , sonra**Liste** , bunu takiben**Toplam Satır**).
+ List nesnesini uygulama ve Toplam Satırı belirtme (Select**Veri** , o zamanlar**Liste** , bunu takiben**Toplam Satır**).
 
 **Liste nesnesi oluşturma** 
 
-![yapılacaklar:resim_alternatif_Metin](creating-a-list-object_3.png)
+![yapılacaklar:resim_alternatif_metin](creating-a-list-object_3.png)
 
 ## **Kullanarak tablo oluşturma Aspose.Cells API**
 

@@ -14,7 +14,7 @@ url: /ja/java/using-aspose-cells-for-java-with-coldfusion/
 
 ## **Aspose.Cells: 本当の製品**
 
-Aspose.Cells を使用すると、開発者はデータのエクスポート、あらゆる詳細およびあらゆるレベルでのスプレッドシートの書式設定、画像のインポート、グラフのインポート、グラフの作成、グラフの操作、Microsoft Excel データのストリーミング、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML などのさまざまな形式での保存を行うことができます([Aspose.Pdf](https://products.aspose.com/pdf/java/)統合) など。
+Aspose.Cells を使用すると、開発者はデータのエクスポート、あらゆる詳細およびあらゆるレベルでのスプレッドシートの書式設定、画像のインポート、チャートのインポート、チャートの作成、チャートの操作、Microsoft Excel データのストリーミング、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML などのさまざまなフォーマットでの保存が可能([Aspose.Pdf](https://products.aspose.com/pdf/java/)統合) など。
 
 製品情報、機能、およびプログラマー ガイドの詳細については、Aspose.Cells のドキュメントとオンラインの特集記事を参照してください。[デモ](https://github.com/aspose-cells/Aspose.Cells-for-Java).あなたはできる[ダウンロード](https://downloads.aspose.com/cells/java)無料で評価します。
 
@@ -26,7 +26,7 @@ lib フォルダーに新しい JAR を配置した後、ColdFusion アプリケ
 
 ### **Aspose.Cells for Java と ColdFusion を使用して Excel ファイルを作成する**
 
-以下では、空の Microsoft Excel ファイルを生成し、いくつかのコンテンツを挿入して XLS ファイルとして保存する簡単なアプリケーションを作成します。
+以下では、空の Microsoft Excel ファイルを生成し、コンテンツを挿入して XLS ファイルとして保存する簡単なアプリケーションを作成します。
 
 以下は実際のコードです (ColdFusion & Aspose.Cells for Java)。コードを実行すると、Excel ファイル output.xls が生成されます。
 

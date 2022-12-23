@@ -59,7 +59,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-1.  Нажмите на**Серии** вкладка
+1.  Нажмите на**Ряд** вкладка
 
 ![дело:изображение_альтернативный_текст](working-with-charts_3.png)
 

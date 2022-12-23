@@ -35,7 +35,7 @@ sr.ToPrinter("Samsung ML-1520 Series");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Stampa di cartelle di lavoro** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Stampa di cartelle di lavoro** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Printing.Workbooks.Aspose.Cells.zip)
 

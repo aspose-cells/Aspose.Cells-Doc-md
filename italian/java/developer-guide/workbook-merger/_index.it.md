@@ -4,12 +4,12 @@ linktitle: Fusione cartella di lavoro
 type: docs
 weight: 50
 url: /it/java/combine-multiple-workbooks-into-a-single-workbook/
-description: Combina più cartelle di lavoro in singole cartelle di lavoro utilizzando il codice Java e l'API Aspose.Cells for Java.
+description: Combina più cartelle di lavoro in singole cartelle di lavoro utilizzando il codice Java e Aspose.Cells for Java API.
 keywords: combine multiple workbooks into one, combine multiple workbooks into one java, combine multiple workbooks into one with java, combine multiple workbooks into single workbook with java, combine multiple workbooks into single workbook java, java code to combine multiple workbooks into single workbook, how to combine multiple workbooks into single workbook with java, how to combine multiple workbooks into one with java, merge multiple workbooks into one with java, how to merge multiple workbooks into one java, how to merge multiple workbooks into one with java
 ---
 {{% alert color="primary" %}}
 
-volte, è necessario combinare cartelle di lavoro con vari contenuti come immagini, grafici e dati in un'unica cartella di lavoro. Aspose.Cells supporta questa funzione. Questo articolo mostra come creare una semplice applicazione per combinare cartelle di lavoro con poche e semplici righe di codice utilizzando Aspose.Cells.
+A volte, è necessario combinare cartelle di lavoro con vari contenuti come immagini, grafici e dati in un'unica cartella di lavoro. Aspose.Cells supporta questa funzione. Questo articolo mostra come creare una semplice applicazione per combinare cartelle di lavoro con poche e semplici righe di codice utilizzando Aspose.Cells.
 
 {{% /alert %}}
 

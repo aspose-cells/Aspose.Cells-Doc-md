@@ -8,11 +8,11 @@ url: /it/net/convert-revision-of-xlsb-to-xlsm/
 
 Aspose.Cells ora supporta la conversione completa delle revisioni del file XLSB nel file XLSM. Le revisioni si trovano all'interno del percorso \xl\revisions. Puoi visualizzarli modificando l'estensione del file XLSB in ZIP. Il percorso \xl\revisions contiene file che terminano con estensioni .bin.
 
-Quando converti il tuo file XLSB in file XLSM usando Aspose.Cells, questi file .bin vengono convertiti correttamente in file .xml come mostrato in questi due screenshot.
+Quando converti il tuo file XLSB nel file XLSM usando Aspose.Cells, questi file .bin vengono convertiti correttamente in file .xml come mostrato in questi due screenshot.
 
 {{% /alert %}} 
 
-Il seguente esempio di codice mostra come convertire il file XLSB nel formato XLSM utilizzando Aspose.Cells.
+L'esempio di codice seguente mostra come convertire il file XLSB nel formato XLSM utilizzando Aspose.Cells.
 
 
 

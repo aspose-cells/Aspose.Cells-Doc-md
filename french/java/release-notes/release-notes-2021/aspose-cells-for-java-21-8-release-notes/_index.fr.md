@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-21-8-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42494|Grande quantité de styles inutilisés générés dans la section CSS|
 |CELLSJAVA-43576|Les valeurs de texte graphique ne sont pas affichées lors de la conversion de XLSX en PDF|
@@ -19,14 +19,14 @@ url: /fr/java/aspose-cells-for-java-21-8-release-notes/
 |CELLSJAVA-43557|Couleur incorrecte lors de l'enregistrement au format HTML|
 |CELLSJAVA-43567|Régression : la formule MDURATION n'est pas calculée correctement|
 |CELLSJAVA-43583|L'opérateur de puissance "^" ne fonctionne pas pour les calculs de formule|
-|CELLSJAVA-43549|Image manquante dans le PDF de sortie|
+|CELLSJAVA-43549|Image manquante dans la sortie PDF|
 |CELLSJAVA-43566|Polices par défaut sur MacOS Big Sur|
 |CELLSJAVA-42579|Les étiquettes d'axe ne s'affichent pas correctement - Alignement à droite manquant lors de l'enregistrement d'Excel au format PDF|
 |CELLSJAVA-43554|Le texte de la table de données du graphique n'est pas affiché dans l'image de sortie|
-|CELLSJAVA-43556|XLSX en PDF : Titre du diagramme incomplet|
+|CELLSJAVA-43556|XLSX à PDF : Titre du schéma incomplet|
 |CELLSJAVA-40051|Assistance Apple iWork|
 |CELLSJAVA-43119|Conversion en PDF - Format de fichier non pris en charge Number3.5 depuis 2014|
-|CELLSJAVA-43538|Un graphique sans données entraîne la corruption de XLSX après l'enregistrement avec Aspose Cells|
+|CELLSJAVA-43538|Un graphique sans données provoque la corruption de XLSX après avoir enregistré avec Aspose Cells|
 |CELLSJAVA-43547|AutoFitRow modifie la hauteur standard de la feuille de calcul|
 |CELLSJAVA-43591|Erreur lors de l'ouverture du fichier dans MS Excel enregistré par Aspose.Cells|
 |CELLSJAVA-43523|CellsException pour la lecture du nom de la macro de la forme : formule non valide|

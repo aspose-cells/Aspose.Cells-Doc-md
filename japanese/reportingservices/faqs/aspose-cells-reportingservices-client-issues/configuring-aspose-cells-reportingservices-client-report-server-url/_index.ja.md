@@ -16,9 +16,9 @@ url: /ja/reportingservices/configuring-aspose-cells-reportingservices-client-rep
 
 1. レポート サーバーの構成情報 (URL、ユーザー名、およびパスワード) を入力します。
  1. レポート サーバーの URL は、http://host/ReportServer の形式である必要があります。たとえば、http://172.16.204.11/ReportServer です。
- 1. ユーザー名は Window Server のユーザー名です。たとえば、管理者。
+1. ユーザー名は Window Server のユーザー名です。たとえば、管理者。
  1. パスワードは Window Server ユーザーのパスワードです。たとえば、123456 です。
-1. ドメインのデフォルト値は null です。
+ 1. ドメインのデフォルト値は null です。
 1. クリック**テスト**ボタンをクリックして構成情報を確認します。
 1. クリック**セーブ**レポート サーバーの構成情報を保存します。
 

@@ -11,7 +11,7 @@ url: /zh/net/aspose-cells-for-net-7-7-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本新增了 50 多项有用的改进。
-使用 Aspose.Cells for .NET，您可以在应用程序中处理 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
+使用 Aspose.Cells for .NET，您可以在应用程序中使用 XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS 和其他格式。您还可以在不使用 Microsoft Excel 的情况下查看、生成、修改、转换、呈现和打印工作簿。
 访问文档以了解如何开始使用 Aspose.Cells for .NET。
 请注意，此下载包含该产品的完整工作版本，但如果没有许可证集，它将在评估模式下运行，但有一些限制。要在没有这些评估限制的情况下测试 Aspose.Cells，您可以申请免费的 30 天临时许可证。
 以下是此版本 Aspose.Cells 的更改列表。
@@ -27,12 +27,12 @@ Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-42299) - 支持 B3（13.9 x 19.7 英寸）PaperSizeType
 
-(CELLSNET-42370) - 应用对齐分布式文本对齐设置
+ (CELLSNET-42370) - 应用对齐分布式文本对齐设置
 
 (CELLSNET-42312) - 检索 RemovePersonalInformation 设置
 
@@ -42,25 +42,25 @@ Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本
 
 (CELLSNET-42349) - 从 HTML 到 XLSX 的转换不正确
 
-(CELLSNET-42346) - 另存为 HTML 会创建太多 br 标签
+(CELLSNET-42346) - 另存为 HTML 创建了太多的 br 标签
 
-(CELLSNET-42323) - 输出的 PDF 不反映 Excel 文件中的图表
+(CELLSNET-42323) - 输出 PDF 不反映 Excel 文件中的图表
 
 (CELLSNET-42301) - 输出 PDF 无法计算数据透视表中计算字段的值
 
 (CELLSNET-42300) - 从 XLS 转换为 XLSM 时数据透视表显示问题
 
-(CELLSNET-42285) - 以通用作为其数字格式的数字出现分数
+(CELLSNET-42285) - Numbers 以常规作为其数字格式显示分数
 
 (CELLSNET-42272) - 带有条件格式图标集的 Xlsx 文件在打开和重新保存后损坏
 
 (CELLSNET-42271) - 图标、切片器和颜色渐变等条件格式化功能在输出 XLSB 文件中丢失
 
-(CELLSNET-42261) - 在将单元格合并为标题时另存为 HTML 和隐藏列时出现问题
+(CELLSNET-42261) - 另存为 HTML 并在合并单元格作为标题时隐藏列时出现问题
 
 (CELLSNET-42163) - 打开并重新保存文件时条件格式丢失
 
-(CELLSNET-42147) - Aspose Cells 7.6.0 - 使用 Pivot 加载和保存 XLSB 文件时出现问题
+(CELLSNET-42147) - Aspose Cells 7.6.0 - 加载和保存带有 Pivot 的 XLSB 文件时出现问题
 
 (CELLSNET-42008) - PivotTable.DataBodyRange 起始列属性不正确
 
@@ -68,9 +68,9 @@ Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本
 
 (CELLSNET-40161) - Excel 到 HTML - 没有换行符
 
-(CELLSNET-42336) - 输出 PDF 中数据透视表中的月份格式错误
+(CELLSNET-42336) - 输出中数据透视表中的月份格式错误 PDF
 
-(CELLSNET-42335) - 当 XLSX 转换为 PDF 时，数据透视表被截断
+ (CELLSNET-42335) - 当 XLSX 转换为 PDF 时，数据透视表被截断
 
 (CELLSNET-42347) - 文本格式问题 - 单词 city 中的字母 y 被截断
 
@@ -82,7 +82,7 @@ Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本
 
 (CELLSNET-42298) - 将 PaperSizeType 设置为 PaperA6 以 PaperA4 大小呈现 PDF
 
-(CELLSNET-42289) - CHAR(151) 在 PDF 中无法正常工作
+ (CELLSNET-42289) - CHAR(151) 在 PDF 中无法正常工作
 
 (CELLSNET-41950) - Aspose.Cells IIS 7.5 上带有 AutoFit 操作的非常奇怪的行为
 
@@ -92,7 +92,7 @@ Aspose.Cells for .NET 已更新至 7.7.2 版，我们很高兴地宣布此版本
 
 (CELLSNET-42296) - PDF 中缺少图表
 
-(CELLSNET-41743) - XLSX 到图像转换中的形状问题
+(CELLSNET-41743) - XLSX 中的形状到图像的转换问题
 
 (CELLSNET-40467) - 将 XLS 文件保存为 XLSM，然后返回 XLS，修改文件中的图表
 

@@ -8,7 +8,7 @@ url: /ru/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 Чтобы отобразить элементы диаграммы в Microsoft диаграммы Excel:
 
-1. Открой**Aspose.Cells.ReportingServices.xml** файл.
+1. Открыть**Aspose.Cells.ReportingServices.xml** файл.
 1.  Измените параметры конфигурации в**Aspose.Cells.ReportingServices.xml** файл.
 1. Добавьте информацию о конфигурации желаемого отчета.
 

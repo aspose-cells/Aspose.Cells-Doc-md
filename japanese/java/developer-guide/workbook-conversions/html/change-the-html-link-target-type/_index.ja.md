@@ -1,12 +1,12 @@
 ﻿---
-title: HTML リンクのターゲット タイプを変更する
+title: HTML リンク ターゲット タイプの変更
 type: docs
 weight: 450
 url: /ja/java/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells では、HTML リンクのターゲット タイプを変更できます。 HTML リンクは次のようになります。
+Aspose.Cells では、HTML リンク ターゲット タイプを変更できます。 HTML リンクは次のようになります。
 
 {{< highlight "java" >}}
 
@@ -22,7 +22,7 @@ Aspose.Cells では、HTML リンクのターゲット タイプを変更でき�
 - [上](https://reference.aspose.com/cells/java/com.aspose.cells/htmllinktargettype#TOP)
 
 {{% /alert %}} 
-## **HTML リンクのターゲット タイプを変更する**
-次のコードは、[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType)財産。リンクターゲットタイプをに変更します**空欄**.デフォルトでは、**親**.あなたは得ることができます[ソースエクセルファイル](5472932.xlsx)ただし、このリンクから、内部に HTML ハイパーリンクを含む任意の Excel ファイルを使用して、このコードを実行できます。
+## **HTML リンク ターゲット タイプの変更**
+次のコードは、[HtmlSaveOptions.setLinkTargetType()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#LinkTargetType)財産。リンクターゲットタイプをに変更します**空欄**.デフォルトでは、**親**.あなたは得ることができます[ソースエクセルファイル](5472932.xlsx)ただし、このリンクから HTML ハイパーリンクを含む任意の Excel ファイルを使用して、このコードを実行できます。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeHTMLLinkTargetType-ChangeHTMLLinkTargetType.java" >}}

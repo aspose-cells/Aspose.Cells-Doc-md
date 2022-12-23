@@ -25,7 +25,7 @@ Det är väldigt enkelt och lätt att installera Aspose.cells Java för Ruby gem
 
 {{< /highlight >}}
 
-1.  Och sedan avrätta
+1. Och sedan avrätta
 
 {{< highlight "java" >}}
 

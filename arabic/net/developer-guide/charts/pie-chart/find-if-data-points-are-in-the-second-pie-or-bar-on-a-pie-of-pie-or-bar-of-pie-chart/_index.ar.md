@@ -15,7 +15,7 @@ url: /ar/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
 ## **إخراج وحدة التحكم**
- يرجى الاطلاع على إخراج وحدة التحكم التالية الذي تم إنشاؤه بعد تنفيذ نموذج التعليمات البرمجية أعلاه باستخدام[نموذج ملف اكسل](5115193.xlsx) . إذا[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) هو**خاطئة** ، تكون نقطة البيانات داخل الدائرة أو إذا كانت كذلك**حقيقي**، ثم تكون نقطة البيانات داخل الشريط.
+ يرجى الاطلاع على إخراج وحدة التحكم التالية الذي تم إنشاؤه بعد تنفيذ نموذج التعليمات البرمجية أعلاه باستخدام[نموذج ملف اكسل](5115193.xlsx) . إذا[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) يكون**خاطئة** ، تكون نقطة البيانات داخل الدائرة أو إذا كانت كذلك**حقيقي**، ثم تكون نقطة البيانات داخل الشريط.
 
 
 

@@ -62,7 +62,7 @@ Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
 ### **Konvertera diagram direkt till PDF**
-Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.toPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kan acceptera en instans av OutputStream, vilket gör att användarna kan spara diagrammets PDF i en instans av ByteArrayOutputStream.
+Aspose.Cells API:er har redan gjort det möjligt att rendera diagram till PDF när man använder metoden Chart.toPdf. Med den här utgåvan har API avslöjat en annan överbelastad version av nämnda metod som kunde acceptera en instans av OutputStream, vilket gör att användarna kan spara diagrammets PDF i en instans av ByteArrayOutputStream.
 
 Följande är det enkla användningsscenariot.
 

@@ -15,7 +15,7 @@ Aspose.Cells for .NET 8.9.0 公开了 HtmlSaveOptions 类的 DefaultFontName 属
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看有关的文章[设置默认字体以将电子表格呈现为 HTML 格式](/cells/zh/net/set-default-font-while-rendering-spreadsheet-to/).
+有关此功能的更多详细信息，请查看有关的文章[将呈现电子表格的默认字体设置为 HTML 格式](/cells/zh/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

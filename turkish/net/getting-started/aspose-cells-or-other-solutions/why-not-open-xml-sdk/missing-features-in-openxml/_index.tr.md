@@ -33,7 +33,7 @@ Bu bölüm aşağıdaki konuları içerir
   - [Grafikleri resimlere dönüştürün](/cells/tr/net/convert-charts-to-images/)
   - [Elektronik tabloları yazdır](/cells/tr/net/print-spreadsheets/)
   - [Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin](/cells/tr/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Aspose.Cells'i kullanarak Çalışma Kitabını Metin veya CSV Biçiminde Kaydetme](/cells/tr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Aspose.Cells'i kullanarak Çalışma Kitabını Metne veya CSV Formatına Kaydet](/cells/tr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Aspose.Cells'de Formüllerde Dış Bağlantıları Ayarlayın](/cells/tr/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Aspose.Cells'de Çalışma Kitabının Formül Hesaplama Modunu Ayarlama](/cells/tr/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Aspose.Cells'de Paylaşılan Formülü Ayarlama](/cells/tr/net/setting-shared-formula-in-aspose-cells/)

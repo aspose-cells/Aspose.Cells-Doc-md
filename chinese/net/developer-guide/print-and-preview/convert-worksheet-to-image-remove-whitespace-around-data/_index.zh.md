@@ -12,7 +12,7 @@ url: /zh/net/convert-worksheet-to-image-remove-whitespace-around-data/
 
 ## **删除数据周围的空白**
 
-这[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API 将工作表转换为具有任何指定属性的图像文件，例如图像格式、分页表等。支持多种图像格式，包括 BMP、GIF、JPG、TIFF 和 EMF。
+这[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API 将工作表转换为具有任意指定属性的图像文件，例如图像格式、分页纸等。支持多种图像格式，包括 BMP、GIF、JPG、TIFF 和 EMF。
 
 当您使用图纸到图像功能时，默认情况下输出图像周围有空白，即边框。您可以通过将源工作表的顶部、底部、左侧和右侧页面设置页边距设置为 0 来删除它，并指定[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)相应的属性。
 

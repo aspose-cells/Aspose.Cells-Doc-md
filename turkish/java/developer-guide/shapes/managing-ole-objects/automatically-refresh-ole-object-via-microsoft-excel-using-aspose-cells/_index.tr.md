@@ -14,10 +14,10 @@ url: /tr/java/automatically-refresh-ole-object-via-microsoft-excel-using-aspose-
 
  Aşağıdaki ekran görüntüsü,[örnek excel dosyası](5473423.xlsx) Microsoft Excel'de açıldığında görünüyor.
 
-![yapılacaklar:resim_alternatif_Metin](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_1.png)
 
  Aşağıdaki ekran görüntüsü,[çıktı excel dosyası](5473429.xlsx) Microsoft Excel'de açıldığında görünüyor.
 
-![yapılacaklar:resim_alternatif_Metin](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](automatically-refresh-ole-object-via-microsoft-excel-using-aspose-cells_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutomaticallyrefreshOLEobject-AutomaticallyrefreshOLEobject.java" >}}

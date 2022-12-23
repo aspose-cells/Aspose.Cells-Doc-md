@@ -11,7 +11,7 @@ url: /it/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET è stato aggiornato alla versione 8.0.1 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 30 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. È inoltre possibile visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Usando Aspose.Cells for .NET puoi lavorare con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche visualizzare, generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for .NET.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells.
@@ -44,7 +44,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-42533) - Il file di output si arrestava in modo anomalo in MS Excel dopo l'aggiunta del filtro Pivot
 
- (CELLSNET-42516) - Il commento nascosto viene visualizzato durante l'esportazione in HTML
+ (CELLSNET-42516) - Il commento nascosto viene mostrato quando esportato in HTML
 
  (CELLSNET-42470) - Excel ha trovato un messaggio di contenuto illeggibile su Aspose.Cells generato XLSX
 
@@ -114,7 +114,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -122,9 +122,9 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 ## **Insetti**
 
 
- (CELLSNET-42522) - Problema GridWeb: la regolazione della larghezza della colonna non funziona in Chrome
+(CELLSNET-42522) - Problema GridWeb: la regolazione della larghezza della colonna non funziona in Chrome
 
-(CELLSNET-42509) - Le forme non vengono visualizzate correttamente in gridweb
+ (CELLSNET-42509) - Le forme non vengono visualizzate correttamente in gridweb
 
  (CELLSNET-42503) - L'intervallo è ambiguo nello spazio dei nomi Aspose.cells
 
@@ -137,10 +137,10 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 

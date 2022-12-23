@@ -10,12 +10,12 @@ url: /tr/net/calculation-of-array-formula-of-data-tables/
 
 {{% /alert %}}
 
-Aşağıdaki örnek kodda,[kaynak excel dosyası](5115535.xlsx) . B1 hücresinin değerini 100 olarak değiştirirseniz aşağıdaki resimlerde görüldüğü gibi Sarı renk ile doldurulan Data Table değerleri 120 olacaktır. Örnek kod,[çıktı PDF](5115538.pdf).
+Aşağıdaki örnek kodda,[kaynak excel dosyası](5115535.xlsx) . B1 hücresinin değerini 100 olarak değiştirirseniz aşağıdaki resimlerde görüldüğü gibi Sarı renk ile doldurulan Data Table değerleri 120 olacaktır. Örnek kod,[çıkış PDF](5115538.pdf).
 
-![yapılacaklar:resim_alternatif_Metin](calculation-of-array-formula-of-data-tables_1.png)
+![yapılacaklar:resim_alternatif_metin](calculation-of-array-formula-of-data-tables_1.png)
 
-![yapılacaklar:resim_alternatif_Metin](calculation-of-array-formula-of-data-tables_2.png)
+![yapılacaklar:resim_alternatif_metin](calculation-of-array-formula-of-data-tables_2.png)
 
- İşte oluşturmak için kullanılan örnek kod[çıktı PDF](5115538.pdf) dan[kaynak excel dosyası](5115535.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
+ İşte oluşturmak için kullanılan örnek kod[çıkış PDF](5115538.pdf) dan[kaynak excel dosyası](5115535.xlsx). Daha fazla bilgi için lütfen yorumları okuyunuz.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

@@ -22,39 +22,39 @@ url: /ja/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46178|カスタム オブジェクトのインポート時に DateTimeOffset 形式をサポート|強化|
 |CELLSNET-46171|GroupShape の定義が誤解を招く|強化|
 |CELLSNET-46152|Aspose.Cells API の関連メソッドが GetRangeAddess()、GetCellCount()、GetEntireAddress()、および GetOffset() に追加されました|強化|
-|CELLSNET-46122|スマート アートを XLSX から XLS ファイル形式に変換する|強化|
-|CELLSNET-46121|スマート アートを XLS から XLSX ファイル形式に変換する|強化|
-|CELLSNET-45961|PDF に変換するとインク ツールが消える|強化|
+|CELLSNET-46122|スマート アートを XLSX から XLS のファイル形式に変換する|強化|
+|CELLSNET-46121|スマート アートを XLS から XLSX のファイル形式に変換する|強化|
+|CELLSNET-45961|PDF に変換するとインク ツールが消えた|強化|
 |CELLSNET-45160|ワークシートを画像に変換する際に、スプレッドシートの画像の一部が異なる色で表示される|強化|
-|CELLSNET-43592|スプレッドシートを PDF 形式に変換する際にインク オブジェクトがレンダリングされない|強化|
-|CELLSNET-45891|一部の図形が欠落しており、一部が散らばっている (位置がずれている) - Excel から HTML への変換|バグ|
-|CELLSNET-46112|Issue4 の吹き出しの配置.xlsx を PDF に変換すると、書式が正しくない|バグ|
-|CELLSNET-45212|XLSM から PDF への変換時に大きな画像を置き換えました|バグ|
-|CELLSNET-42636|Excel から HTML へのレンダリングで、一部の描画図形がずれたり、正しくレンダリングされない|バグ|
+|CELLSNET-43592|スプレッドシートを PDF 形式に変換しているときにインク オブジェクトがレンダリングされない|強化|
+|CELLSNET-45891|一部の図形が欠落し、一部が分散 (配置がずれている) - Excel から HTML への変換|バグ|
+|CELLSNET-46112|Issue4 の callout placement.xlsx を PDF に変換すると、書式が正しくありません|バグ|
+|CELLSNET-45212|XLSM を PDF に変換すると、大きな画像が移動しました|バグ|
+|CELLSNET-42636|一部の描画図形が、Excel で HTML レンダリングに移動するか、正しくレンダリングされない|バグ|
 |CELLSNET-42627|スマートアート画像を正しく抽出できません|バグ|
-|CELLSNET-42618|Excel から HTML へのレンダリングでデータをカバーするために形状が移動する|バグ|
+|CELLSNET-42618|Excel のデータを HTML レンダリングにカバーするために、形状が置き換えられます。|バグ|
 |CELLSNET-46146|以前のすべての列と行のデータは、フィルター処理後もピボットテーブルに残ります|バグ|
 |CELLSNET-46127|出力 HTML は Chrome では適切ですが、IE または Edge では正しくありません|バグ|
-|CELLSNET-45005|HTML ファイル形式のインポート時に単一セルにインポートされる行|バグ|
-|CELLSNET-45004|Cell HTML のインポート時に値が切り捨てられる|バグ|
+|CELLSNET-45005|HTML ファイル形式をインポートするときに単一セルにインポートされる行|バグ|
+|CELLSNET-45004|HTML のインポート時に Cell の値が切り捨てられる|バグ|
 |CELLSNET-46162|ファイルを開くと、式から一重引用符が消えます|バグ|
 |CELLSNET-46069|数式 (他のワークブックにリンクされたデータ ソースを含む) が正しく計算されない|バグ|
 |CELLSNET-46142|グリッドの高さが大きくなるため、ユーザーがタブを変更するとタブバーが非表示になります|バグ|
 |CELLSNET-46177|Aspose.Cells からの印刷が Excel と異なる|バグ|
-|CELLSNET-46176|PDF 出力は、MS Excel ファイル内のすべての改ページを無視します|バグ|
-|CELLSNET-46153|PDFファイル形式に変換すると形状の色が変わる|バグ|
-|CELLSNET-46126|Excel 文書を PDF として保存中にスリップする|バグ|
-|CELLSNET-46125|出力 PDF でのページ 1 とページ 2 の混合|バグ|
+|CELLSNET-46176|PDF 出力で、MS Excel ファイル内のすべての改ページが無視される|バグ|
+|CELLSNET-46153|PDF ファイル形式に変換すると形状の色が変わる|バグ|
+|CELLSNET-46126|PDF として保存中に Excel 文書がスリップする|バグ|
+|CELLSNET-46125|出力でのページ 1 とページ 2 の混合 PDF|バグ|
 |CELLSNET-46114|Aspose.Cells' レンダリングされた出力イメージでは、1 つの単語が 2 行に分割されています。|バグ|
 |CELLSNET-45766|パスワードで保護された ODS ファイルを読み込めません|バグ|
 |CELLSNET-46164|パレート図は MS Excel ファイルでは表示されませんが、PDF では多少きれいに表示されます|バグ|
 |CELLSNET-46155|グラフの横軸ラベルが壊れています|バグ|
-|CELLSNET-46150|グラフのデータ シリーズをクリアした後に XLT ファイルを XLS として保存すると、赤色の「保護されたビュー」警告が表示される|バグ|
+|CELLSNET-46150|チャートのデータ シリーズをクリアした後に XLT ファイルを XLS として保存すると、赤い「保護されたビュー」警告が表示される|バグ|
 |CELLSNET-46140|透かしはスプレッドシートで正常に機能しますが、グラフには何も表示されません|バグ|
 |CELLSNET-46129|グラフ イメージの Y 軸の目盛りが MS-Excel と一致しない|バグ|
-|CELLSNET-46100|CellsException - Excel ファイルを PDF に変換中に System.OutOfMemoryException|バグ|
+|CELLSNET-46100|CellsException - Excel ファイルを PDF に変換中に System.OutOfMemoryException が発生する|バグ|
 |CELLSNET-46082|PDF に保存すると、円グラフの凡例の色が変わり、円グラフのスライスと一致しません。|バグ|
-|CELLSNET-46072|XLT/XLTX ファイルを XLS/XLSX として保存すると、赤色の「保護されたビュー」警告が表示される|バグ|
+|CELLSNET-46072|XLT/XLTX ファイルを XLS/XLSX として保存すると、赤い「保護されたビュー」警告が表示されます|バグ|
 |CELLSNET-46166|名前に特殊文字を含むシートを参照すると、ハイパーリンクが破損する|バグ|
 |CELLSNET-46141|署名形状名の最後の 3 つの数字の標準化された方法|バグ|
 |CELLSNET-46131|ヘッドレス テーブルのサイズを変更すると、出力 MS Excel ファイルが破損する|バグ|
@@ -63,7 +63,7 @@ url: /ja/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46175|Aspose.Cells.CellsException at Aspose.Cells.Workbook.Save()|例外|
 |CELLSNET-46147|XLSX ファイルの初期化エラー|例外|
 |CELLSNET-46138|Aspose.Cells.Dll (最新のアセンブリ) がマージされた場合の EndOfStreamException|例外|
-|CELLSNET-46173|例外: XLS ファイルをロードするときの「ファイルが壊れています」|例外|
+|CELLSNET-46173|例外: XLS ファイルのロード時に「ファイルが破損しています」|例外|
 |CELLSNET-46137|Aspose.Cells (最新のアセンブリ) がマージされた場合の ArgumentOutOfRangeException|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。

@@ -1,5 +1,5 @@
 ﻿---
-title: 为 Excel 到 PDF 转换重新采样图像
+title: 将 Excel 图像重新采样为 PDF 转换
 type: docs
 weight: 250
 url: /zh/java/resample-images-for-excel-to-pdf-conversion/
@@ -8,11 +8,11 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 ---
 {{% alert color="primary" %}}
 
-在处理包含大量图像的大型 Microsoft Excel 文件时，您可能需要压缩已添加的图像以减小输出 PDF 文件的大小并提高整体转换性能。 Aspose.Cells 支持重新采样添加的图像以减少输出 PDF 文件大小并提高性能。
+在处理包含大量图像的大 Microsoft Excel 文件时，您可能需要压缩已添加的图像以减小输出 PDF 文件大小并提高整体转换性能。 Aspose.Cells 支持重新采样添加的图像以减少输出 PDF 文件大小并提高性能。
 
 {{% /alert %}}
 
-## **为 Excel 到 PDF 转换重新采样图像**
+## **将 Excel 图像重新采样为 PDF 转换**
 
 请参阅以下示例代码，它描述了如何使用 Aspose.Cells API 执行任务。该示例将 Microsoft Excel 文件转换为 PDF 文件，同时压缩文件中的图像。
 
@@ -20,7 +20,7 @@ keywords: excel to pdf, resample images during excel to pdf conversion, compress
 
 {{% alert color="primary" %}}
 
-使用[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) 选项可以最小化输出 PDF 的大小，但它可能会稍微影响图像质量。
+使用[**PdfSaveOptions.setImageResample**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#setImageResample(int,%20int)) 选项最小化输出 PDF 的大小，但它可能会稍微影响图像质量。
 
 {{% /alert %}} {{% alert color="primary" %}}
 

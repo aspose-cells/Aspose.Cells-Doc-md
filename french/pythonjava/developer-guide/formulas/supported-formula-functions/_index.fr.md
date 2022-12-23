@@ -11,7 +11,7 @@ Les API Aspose.Cells prennent en charge la plupart des fonctions standard et la 
 {{% /alert %}} 
 ### **Définir, lire et calculer au moment de l'exécution**
 Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de calculer les résultats des formules et fonctions suivantes.
-#### **UN**
+#### **UNE**
 - abdos
 - ACCRINT
 - ACCRINMC
@@ -30,9 +30,9 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - ATAN2
 - ATANH
 - AVEDEV
-- MOYEN
 - MOYENNE
-- MOYENNESI
+- MOYENNE
+- MOYENNE SI
 - MOYENNE SI
 #### **B**
 - BESSELI
@@ -67,7 +67,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - CHISQ.TEST
 - CHITEST
 - CHOISIR
-- NETTOYER
+- FAIRE LE MÉNAGE
 - CODE
 - COLONNE
 - COLONNES
@@ -104,7 +104,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - DATEVALUE
 - MOYENNE
 - JOURNÉE
-- JOURNÉES
+- JOURS
 - JOURS360
 - BD
 - DCOUNT
@@ -155,9 +155,9 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - PÊCHEUR
 - PÊCHEUR
 - FIXÉ
-- SOL
+- ÉTAGE
 - PLANCHER.MATH
-- PRÉVOIR
+- LES PRÉVISIONS
 - PRÉVISION.LINÉAIRE
 - FORMULETEXTE
 - FRÉQUENCE, FV
@@ -229,9 +229,9 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 #### **K**
 - KURT
 #### **L**
-- GRAND
+- GRANDE
 - LCM
-- LA GAUCHE
+- GAUCHE
 - GAUCHETB
 - LEN
 - LENB
@@ -246,7 +246,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - CHERCHER
 - PLUS BAS
 #### **M**
-- MATCH
+- RENCONTRE
 - MAX
 - MAXA
 - MAXIFS
@@ -286,7 +286,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - NORMINV
 - LOI.NORMALESD
 - NE PAS
-- À PRÉSENT
+- MAINTENANT
 - NPER
 - VAN
 - NUMBERVALUE
@@ -300,7 +300,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - ODDLPRICE
 - CHAMP ÉTRANGE
 - DÉCALAGE
-- OU
+- OU ALORS
 #### **P**
 - PEARSON
 - CENTILE
@@ -336,27 +336,27 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - RANG
 - RANG.MOY
 - RANG.EQ
-- ÉVALUER
-- REÇU
+- FRÉQUENCE
+- A REÇU
 - REMPLACER
 - REMPLACEB
 - REPT
 - DROIT
 - DROITEB
 - ROMAIN
-- TOUR
+- ROND
 - ARRONDIR VERS LE BAS
 - ARRONDISSEMENT
 - LIGNE
 - LIGNES
 - RSQ
 #### **S**
-- CHERCHER
+- RECHERCHER
 - RECHERCHEB
 - DEUXIÈME
 - SÉQUENCE
 - SOMME DE LA SÉRIE
-- PANCARTE
+- SIGNE
 - PÉCHÉ
 - SINH
 - FAUSSER
@@ -384,7 +384,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, de lire et de 
 - SUMX2MY2
 - SUMX2PY2
 - SUMXMY2
-- CHANGER
+- INTERRUPTEUR
 - SYD
 #### **C**
 - J

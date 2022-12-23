@@ -22,6 +22,6 @@ url: /sv/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40490 - 3D-diagrams perspektivfråga
 
- 40481 - XLS till PDF - Problem med tabellcellbredd
+ 40481 - XLS till PDF - Problem med tabellcellens bredd
 
-40519 - Undantag vid lagring av ett XLSX-dokument
+ 40519 - Undantag vid lagring av ett XLSX-dokument

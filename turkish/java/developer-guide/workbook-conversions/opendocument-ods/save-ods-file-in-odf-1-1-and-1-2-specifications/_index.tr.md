@@ -6,7 +6,7 @@ url: /tr/java/save-ods-file-in-odf-1-1-and-1-2-specifications/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells kaydetmeyi destekler (**OpenDocument Elektronik Tablosu**) ODS dosyası (**Açık Belge Biçimi** ) ODF 1.1 ve ODF 1.2 özellikleri. Aspose.Cells eklendi[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) ODS dosyalarını kaydetmek için ODF 1.1 spesifikasyonunu kullanma özelliği. Bu özelliğin varsayılan değeri**yanlış**, yani bu özel ayarlar olmadan kaydedilen ODS dosyası 1.2 spesifikasyonunu kullanacaktır.
+Aspose.Cells kaydetmeyi destekler (**OpenDocument Elektronik Tablosu**) ODS dosya içinde (**Açık Belge Biçimi** ) ODF 1.1 ve ODF 1.2 özellikleri. Aspose.Cells eklendi[**OdsSaveOptions.setStrictSchema11()**](https://reference.aspose.com/cells/java/com.aspose.cells/odssaveoptions#IsStrictSchema11) ODS dosyalarını kaydetmek için ODF 1.1 spesifikasyonunu kullanma özelliği. Bu özelliğin varsayılan değeri**YANLIŞ**yani bu özel ayarlar olmadan kaydedilen ODS dosyası 1.2 spesifikasyonunu kullanacaktır.
 
 {{% /alert %}}
 

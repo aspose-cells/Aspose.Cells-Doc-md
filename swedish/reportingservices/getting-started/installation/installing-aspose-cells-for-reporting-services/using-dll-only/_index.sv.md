@@ -6,7 +6,7 @@ url: /sv/reportingservices/using-dll-only/
 ---
 ## Så här installerar du Aspose.Cells for Reporting Services med endast DLL:n:
 
-- Besök Aspose.Cells for Reporting Services[nedladdningssida](https://downloads.aspose.com/cells/reportingservices) och ladda ner**Aspose.Cells for Reporting Services (zip)** arkiv som innehåller den senaste versionen av komponenten och den installerade dokumentationen.
+-  Besök Aspose.Cells for Reporting Services[nedladdningssida](https://downloads.aspose.com/cells/reportingservices) och ladda ner**Aspose.Cells for Reporting Services (zip)** arkiv som innehåller den senaste versionen av komponenten och den installerade dokumentationen.
  - Det finns 7 typer av versioner Aspose.Cells.ReprotingSerivces.dll i Aspose.Cells.ReportingServices.DLLs_xx.xx.zip. De stöder olika Microsoft rapportserverprodukter.
  - Aspose.Cells.ReportingServices.dll i SSRS2005-mappstöd Microsoft SQL Server 2005 Reporting Services.
  - Aspose.Cells.ReportingServices.dll i SSRS2008-mappstöd Microsoft SQL Server 2008 Reporting Services.
@@ -16,13 +16,13 @@ url: /sv/reportingservices/using-dll-only/
 - Packa upp arkivet i en katalog på din hårddisk.
 
 - Installera Aspose.Cells for Reporting Services Rapportdesigner:
- - Registrera**Aspose.Cells.ReportingServices.Client.dll**med hjälp av verktyget Regasm.exe.
+ - Registrera**Aspose.Cells.ReportingServices.Client.dll** med hjälp av verktyget Regasm.exe.
  - Lägg till Aspose.Cells for Reporting Services tillägg i Excel.
    
 - Installera Aspose.Cells for Reporting Services för Microsoft SQL Server Reporting Services tjänstekomponenten:
  - Sätta**Aspose.Cells.ReportingServices.dll** till ${Microsoft installationsmappen för SQL Server Reporting Services}\ReportServer\bin-mappen.
  - Lägg till Aspose.Cells for Reporting Services renderertillägg:
- - Öppna**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rsreportserver.config**
+ - Öppen**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rsreportserver.config**
  - Lägg till följande rader i<Render>……</Render> element:
 {{< highlight "xml" >}}
 
@@ -77,7 +77,7 @@ url: /sv/reportingservices/using-dll-only/
 
 {{< /highlight >}}
  - Lägg till Aspose.Cells for Reporting Services behörigheter för att köra:
- - Öppna**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** och a
+ - Öppen**${Microsoft Installationsmapp för SQL Server Reporting Services}\ReportServer\rssrvpolicy.config** och a
  - Lägg till följande som den sista punkten i den andra till den yttre<CodeGroup> element (vilket borde vara<CodeGroup class="FirstMatchCodeGroup" version="1" PermissionSetName="Execution" Description="This code group grants MyComputer code Execution permission. "> ): 
 
 {{< highlight "xml" >}}

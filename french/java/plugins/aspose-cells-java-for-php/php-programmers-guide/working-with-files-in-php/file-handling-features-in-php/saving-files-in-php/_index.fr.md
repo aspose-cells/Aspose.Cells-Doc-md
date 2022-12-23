@@ -6,7 +6,7 @@ url: /fr/java/saving-files-in-php/
 ---
 ## **Aspose.Cells - Enregistrement de fichiers**
 ### **Enregistrement du fichier à un emplacement**
- Si les développeurs ont besoin d'enregistrer leurs fichiers à l'aide de**Aspose.Cells Java for PHP** à un emplacement de stockage, ils peuvent simplement spécifier le nom du fichier (avec son chemin de stockage complet) et le format de fichier souhaité (en utilisant le**TypeFormatFichier**énumération) en appelant le**enregistrer**méthode de**Cahier**objet.
+ Si les développeurs ont besoin d'enregistrer leurs fichiers à l'aide de**Aspose.Cells Java for PHP** à un emplacement de stockage, ils peuvent simplement spécifier le nom du fichier (avec son chemin de stockage complet) et le format de fichier souhaité (en utilisant le**TypeFormatFichier**énumération) en appelant le**sauvegarder**méthode de**Cahier**objet.
 
 **Code PHP**
 

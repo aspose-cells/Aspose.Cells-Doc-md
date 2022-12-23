@@ -22,17 +22,17 @@ url: /sv/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49739|Ignorera 3D-referenser för villkorlig formatering när du kopierar till en annan arbetsbok|Förbättring|
 |CELLSNET-49984|Läs en del data från skadad xls-fil.|Förbättring|
 |CELLSNET-49990|Stöd inställning av anpassade totaler radformel för tabell.|Förbättring|
-|CELLSNET-49825|Prestandaproblem med ExportImagesAsBase64-attributet i Excel till HTML-konvertering|Prestanda|
+|CELLSNET-49825|Prestandaproblem med ExportImagesAsBase64-attributet i Excel till HTML konvertering|Prestanda|
 |CELLSNET-49827|RefersTo för definierat intervall är felaktigt escaped|Insekt|
 |CELLSNET-49759|Tomma celler exporteras fortfarande som tomma XML-element|Insekt|
 |CELLSNET-49817|Texten är inte mittjusterad med teckensnittet "Credit Suisse Type Light" vid rendering till Emf|Insekt|
-|CELLSNET-49864|Ord som visas i omvänd ordning för text från höger till vänster i XLSX till PDF-rendering|Insekt|
+|CELLSNET-49864|Ord som visas i omvänd ordning för höger-till-vänster text i XLSX till PDF rendering|Insekt|
 |CELLSNET-49873|Xlsx till pdf: Sidbrytning är annorlunda jämfört med Excel-genererad pdf|Insekt|
-|CELLSNET-49922|Tecken får inte plats på en sida och utskriftsposition ändras i Excel till PDF-rendering|Insekt|
+|CELLSNET-49922|Tecken får inte plats på en sida och utskriftspositionen ändras i Excel till PDF-rendering|Insekt|
 |CELLSNET-49998|Kan inte visa specifik XLS-fil med HTML-uppmärkning|Insekt|
 |CELLSNET-49742|Skillnader i chart1.xml efter sparande|Insekt|
 |CELLSNET-49875|XLSX till EMF överlappande bockmarkeringar|Insekt|
-|CELLSNET-49904|Diagram till PNG-datum har inte konverterats korrekt|Insekt|
+|CELLSNET-49904|Diagram till PNG datum som inte konverterats korrekt|Insekt|
 |CELLSNET-49905|Regression: Problem vid konvertering av diagram till PNG|Insekt|
 |CELLSNET-49969|Overflow-fel när XLS-dokument sparas till XLSX/XSLM|Insekt|
 |CELLSNET-49760|Merged Area visas fel vid konvertering till html.|Insekt|
@@ -42,7 +42,7 @@ url: /sv/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49898|Visa kanten på cellerna medan bilderna anpassas till cellerna med hjälp av smarta markörer|Insekt|
 |CELLSNET-49924|Aspose-genererade XLSX-filer öppnas med fel|Insekt|
 |CELLSNETCORE-301|Lägg till kalkylblad misslyckas när hyperlänk har en nolladress|Insekt|
-|CELLSNET-49812|Undantag när ODS-filen är öppen|Undantag|
+|CELLSNET-49812|Undantag när filen ODS är öppen|Undantag|
 |CELLSNET-49876|Undantag när du sparar om en XLSX-fil|Undantag|
 |CELLSNET-49943|System.NullReferenceException vid kopiering av arbetsbok|Undantag|
 |

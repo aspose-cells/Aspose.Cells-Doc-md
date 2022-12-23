@@ -6,7 +6,7 @@ url: /es/net/setting-print-options/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Los ajustes de configuración de página de Excel proporcionan varias opciones de impresión (también denominadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de cálculo.
+Microsoft Los ajustes de configuración de página de Excel proporcionan varias opciones de impresión (también denominadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de trabajo.
 
 {{% /alert %}}
 
@@ -43,7 +43,7 @@ Las filas o columnas que se repetirán se definen pasando sus números de fila o
 
 ### **Establecer otras opciones de impresión**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class también proporciona varias otras propiedades para establecer las opciones generales de impresión de la siguiente manera:
+ Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)class también proporciona varias otras propiedades para establecer las opciones generales de impresión de la siguiente manera:
 
 - [**ImprimirGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines)una propiedad booleana que define si se imprimen líneas de cuadrícula o no.
 - [**ImprimirEncabezados**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): una propiedad booleana que define si se imprimen o no los encabezados de fila y columna.
@@ -77,7 +77,7 @@ Las filas o columnas que se repetirán se definen pasando sus números de fila o
 
 ### **Establecer orden de página**
 
- los[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la clase proporciona la[**Ordenar**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de trabajo. Hay dos posibilidades para ordenar las páginas de la siguiente manera.
+ Él[**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la clase proporciona la[**Ordenar**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propiedad que se utiliza para ordenar que se impriman varias páginas de la hoja de cálculo. Hay dos posibilidades para ordenar las páginas de la siguiente manera.
 
 - **Abajo y luego encima:** imprime todas las páginas hacia abajo antes de imprimir cualquier página hacia la derecha.
 - **Arriba y luego abajo:** imprime páginas de izquierda a derecha antes de imprimir las siguientes páginas.

@@ -20,10 +20,10 @@ url: /de/reportingservices/comparisons/
 | Pivot-Tabellen, interaktive Diagramme, VBA und Makros.| Ja| Ja| Nein|
 | Reporting Services-Parameter als Berichtsdatenquelle.| Ja| Ja| Ja|
 | Globale Reporting Services-Variablen als Berichtsdatenquelle.| Ja| Ja| Ja|
-| Reporting Services-Formeln als Berichtsdatenquelle.| Ja| Ja| Ja|
+|Reporting Services-Formeln als Berichtsdatenquelle.| Ja| Ja| Ja|
 | Festlegen der Zeilengruppen und Fußzeilen der Tabelle zur Entwurfszeit.| Ja| Nein| Ja|
 | Dynamische Formeln| Ja (umgesetzt durch spezielle Smart Marker).| Nein| Nein|
-|Konfiguration der Berichtsparameter.| Ja| Nein| Ja|
+| Konfiguration der Berichtsparameter.| Ja| Nein| Ja|
 | Exportieren verschiedener Berichtselemente in die vorgesehenen Blätter in einer Excel-Arbeitsmappe.| Ja (zur Entwurfszeit angegeben)| Ja (zur Entwurfszeit angegeben)| Nein|
 - **Nicht unterstützte Funktionen**
 Die folgenden Funktionen werden nicht unterstützt:

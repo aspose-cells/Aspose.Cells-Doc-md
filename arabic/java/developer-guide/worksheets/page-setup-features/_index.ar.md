@@ -20,7 +20,7 @@ url: /ar/java/page-setup-features/
 
 ### **اتجاه الصفحة**
 
- يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة. ال[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة يأخذ[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد كمعامل. أعضاء[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)التعداد مذكور أدناه.
+يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة. ال[**setOrientation (PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) طريقة يأخذ[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد كمعامل. أعضاء[**PageOrientationType**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) التعداد مذكور أدناه.
 
 |**أنواع اتجاه الصفحة**|**وصف**|
 |:- |:- |
@@ -37,13 +37,13 @@ url: /ar/java/page-setup-features/
 
 ### **خيارات FitToPages**
 
- لملاءمة محتويات ورقة العمل مع عدد محدد من الصفحات ، استخدم ملحق[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) طُرق. تُستخدم هذه الطرق أيضًا لتوسيع نطاق أوراق العمل.
+ لملاءمة محتويات ورقة العمل مع عدد محدد من الصفحات ، استخدم ملحق[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setFitToPagesTall**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesTall) و[**setFitToPagesWide**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FitToPagesWide) أساليب. تُستخدم هذه الطرق أيضًا لتوسيع نطاق أوراق العمل.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-FitToPagesOptions-FitToPagesOptions.java" >}}
 
 ### **حجم الورق**
 
- عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) منشأه. تقبل الخاصية PaperSize إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) التعداد ، المدرجة أدناه.
+ عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PaperSize) خاصية. تقبل الخاصية PaperSize إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/java/com.aspose.cells/PaperSizeType) التعداد ، المدرجة أدناه.
 
 |**أنواع أحجام الورق**|**وصف**|
 |:- |:- |
@@ -113,7 +113,7 @@ Aspose.Cells يدعم Microsoft خيارات إعداد صفحة Excel بشكل 
 
 ![ما يجب القيام به: image_بديل_نص](page-setup-features_2.png)
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل ملف Excel Microsoft. تحتوي فئة المصنف على مجموعة أوراق العمل التي تتيح الوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) صف دراسي.
 
  توفر فئة ورقة العمل خاصية PageSetup المستخدمة لتعيين خيارات إعداد الصفحة. السمة PageSetup هي كائن من[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) فئة تجعل من الممكن تعيين خيارات مختلفة لتخطيط الصفحة لورقة عمل مطبوعة. توفر فئة PageSetup العديد من الخصائص والأساليب المستخدمة لتعيين خيارات إعداد الصفحة.
 
@@ -136,7 +136,7 @@ Aspose.Cells يدعم Microsoft خيارات إعداد صفحة Excel بشكل 
 
 ### **هوامش الرأس والتذييل**
 
-تعيين هوامش الرأس والتذييل باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أعضاء مثل[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) و[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ تعيين هوامش الرأس والتذييل باستخدام[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) أعضاء مثل[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) و[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 
@@ -226,7 +226,7 @@ Aspose.Cells يدعم Microsoft خيارات إعداد صفحة Excel بشكل 
 
 بشكل افتراضي ، تدمج منطقة الطباعة فقط جميع مناطق ورقة العمل التي تحتوي على بيانات. يمكن للمطورين إنشاء منطقة طباعة معينة من ورقة العمل.
 
- لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) منشأه. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
+ لتحديد منطقة طباعة معينة ، استخدم ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) صف دراسي'[**setPrintArea**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#PrintArea) خاصية. قم بتعيين نطاق خلايا يحدد منطقة الطباعة لهذه الخاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-SetPrintArea-SetPrintArea.java" >}}
 

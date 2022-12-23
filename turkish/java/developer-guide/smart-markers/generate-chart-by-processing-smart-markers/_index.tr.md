@@ -18,7 +18,7 @@ Bir tasarımcı elektronik tablosu, Microsoft Excel uygulaması veya Aspose.Cell
 
 {{% alert color="primary" %}} 
 
- Akıllı İşaretleyiciler hakkında detaylı bilgi mevcuttur[burada](/cells/tr/java/smart-markers/).
+ Akıllı İşaretleyiciler hakkında detaylı bilgi mevcuttur[Burada](/cells/tr/java/smart-markers/).
 
 {{% /alert %}} 
 
@@ -60,7 +60,7 @@ cells.get("A5").putValue("&=$Year2015(horizontal)");
 
 Bu aşamada ortaya çıkan elektronik tabloyu kaydederseniz, çalışma tablosundaki veriler aşağıdaki gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_Metin](generate-chart-by-processing-smart-markers_1.png)
+![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_1.png)
 ## **İşleme Tasarımcısı Elektronik Tablosu**
  Tasarımcı elektronik tablosunu işlemek için, tasarımcı elektronik tablosunda kullanılan Akıllı İşaretleyicilere karşılık gelen bir veri kaynağına sahip olmamız gerekir. Örneğin, şu şekilde bir Akıllı İşaretleyici girişi oluşturduk:**&=$Başlıklar(yatay)** değişkeni Headers adına göre temsil ederken, anahtar**(yatay)** verilerin yatay olarak doldurulması gerektiğini önerir.
 
@@ -118,7 +118,7 @@ designer.process();
 
 Bu aşamada elektronik tabloyu kaydederseniz, veriler aşağıdaki gibi görünecektir.
 
-![yapılacaklar:resim_alternatif_Metin](generate-chart-by-processing-smart-markers_2.png)
+![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -142,4 +142,4 @@ Veriler yerleştirildikten sonra, tek yapmamız gereken veri kaynağına dayalı
 
 Son tablo aşağıdaki gibi görünüyor.
 
-![yapılacaklar:resim_alternatif_Metin](generate-chart-by-processing-smart-markers_3.png)
+![yapılacaklar:resim_alternatif_metin](generate-chart-by-processing-smart-markers_3.png)

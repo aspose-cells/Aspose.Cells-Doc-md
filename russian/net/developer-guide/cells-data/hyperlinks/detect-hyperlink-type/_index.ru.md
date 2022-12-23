@@ -13,7 +13,7 @@ url: /ru/net/detect-hyperlink-type/
 - Электронная почта: Электронная почта
 - CellReference: ссылка на ячейку или именованный диапазон.
 
- Чтобы проверить тип гиперссылки,[**Гиперссылка**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) класс предоставляет[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) свойство с возвращаемым типом[**Тип таргетмоде**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Следующий фрагмент кода демонстрирует использование[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)свойство с помощью этого[исходный файл excel](94896195.xlsx).
+Чтобы проверить тип гиперссылки,[**Гиперссылка**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) класс предоставляет[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) свойство с возвращаемым типом[**Тип таргетмоде**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Следующий фрагмент кода демонстрирует использование[**Тип ссылки**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)свойство с помощью этого[исходный файл excel](94896195.xlsx).
 
 ### Исходный код
 

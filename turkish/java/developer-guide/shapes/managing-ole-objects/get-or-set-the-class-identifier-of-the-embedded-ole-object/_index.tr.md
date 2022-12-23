@@ -9,7 +9,7 @@ url: /tr/java/get-or-set-the-class-identifier-of-the-embedded-ole-object/
 ## **Katıştırılmış OLE Nesnesinin Sınıf Tanımlayıcısını Alın veya Ayarlayın**
  Aşağıdaki ekran görüntüsü, Ole Nesne Sınıfı Tanımlayıcısını, yani kullanıcıdan okunan GUID'yi gösterir.[örnek excel dosyası](5473378.xls) katıştırılmış PowerPoint ole nesnesini içeren.
 
-![yapılacaklar:resim_alternatif_Metin](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
+![yapılacaklar:resim_alternatif_metin](get-or-set-the-class-identifier-of-the-embedded-ole-object_1.png)
 ## **Basit kod**
  Lütfen ile yürütülen aşağıdaki örnek koda bakın.[örnek excel dosyası](5473378.xls) ve yazdıran konsol çıktısı*Sınıf Tanımlayıcı*Ole Nesnesi, yani GUID. Yazdırılan GUID, ekran görüntüsünde gösterilenle tamamen aynıdır.
 

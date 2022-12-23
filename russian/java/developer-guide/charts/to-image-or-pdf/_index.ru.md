@@ -7,13 +7,13 @@ url: /ru/java/chart-rendering/
 ---
 ## **Создание диаграмм**
 
- Aspose.Cells API-интерфейсы поддерживают создание различных диаграмм Excel, как описано в разделе[Создание и настройка диаграмм Excel](/cells/ru/java/creating-and-customizing-charts/)Чтобы продемонстрировать использование API-интерфейсов Aspose.Cells для отображения диаграмм в формате изображения и PDF, мы создадим диаграмму типа «Столбец» в соответствии со следующим фрагментом.
+ Aspose.Cells API-интерфейсы поддерживают создание различных диаграмм Excel, как описано в разделе[Создание и настройка диаграмм Excel](/cells/ru/java/creating-and-customizing-charts/). Чтобы продемонстрировать использование API-интерфейсов Aspose.Cells для отображения диаграмм в формате изображения и PDF, мы создадим диаграмму типа «Столбец» в соответствии со следующим фрагментом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **Отображение диаграмм**
 
- Aspose.Cells API-интерфейсы поддерживают преобразование диаграмм Excel в изображения и форматы PDF без каких-либо дополнительных инструментов или приложений. Чтобы обеспечить поддержку рендеринга,[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)класс выставил[**изображать**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**вPDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) методы с множеством перегрузок для наилучшего соответствия требованиям приложения.
+ API-интерфейсы Aspose.Cells поддерживают преобразование диаграмм Excel в изображения и форматы PDF без каких-либо дополнительных инструментов или приложений. Чтобы обеспечить поддержку рендеринга,[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)класс выставил[**изображать**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**вPDF**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) методы с множеством перегрузок для наилучшего соответствия требованиям приложения.
 
 ### **Преобразование диаграмм в изображения**
 
@@ -25,9 +25,9 @@ url: /ru/java/chart-rendering/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Преобразование диаграммы в PDF**
+### **График рендеринга на PDF**
 
- Чтобы преобразовать диаграмму в формат PDF, API-интерфейсы Aspose.Cells предоставили[**Диаграмма.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) метод с возможностью сохранения результирующего PDF-файла на пути к диску или в экземпляре OutputStream.
+ Чтобы отобразить диаграмму в формате PDF, API-интерфейсы Aspose.Cells предоставили[**Диаграмма.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) метод с возможностью сохранения результирующего PDF в пути к диску или в экземпляре OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -68,7 +68,7 @@ url: /ru/java/chart-rendering/
 ||ScatterConnectedByCurvesWithoutDataMarker|**Д**|
 ||ScatterConnectedByLinesWithDataMarker|**Д**|
 ||ScatterConnectedByLinesWithoutDataMarker|**Д**|
-|**Область**|Область|**Д**|
+|**Площадь**|Площадь|**Д**|
 ||ПлощадьСложенный|**Д**|
 ||Area100PercentStacked|**Д**|
 ||Площадь3D|**Д**|
@@ -85,7 +85,7 @@ url: /ru/java/chart-rendering/
 ||ПоверхностьКонтурКаркас|Н|
 |**Пузырь**|Пузырь|**Д**|
 ||Пузырь3D|Н|
-|**Запас**|ЗапасВысокийНизкийЗакрыть|**Д**|
+|**Акции**|ЗапасВысокийНизкийЗакрыть|**Д**|
 ||ЗапасОткрытыйВысокийНизкийЗакрыть|**Д**|
 ||StockVolumeHighLowClose|**Д**|
 ||StockVolumeOpenHighLowClose|**Д**|
@@ -121,12 +121,12 @@ url: /ru/java/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения нулевого размера или пустой PDF.
+Если вы попытаетесь преобразовать неподдерживаемые типы диаграмм в изображение или PDF, вы можете получить изображения нулевого размера или пустое PDF.
 
 {{% /alert %}}
 
 
 ## **Предварительные темы**
 - [Преобразование диаграммы в изображение в формате SVG](/cells/ru/java/converting-chart-to-image-in-svg-format/)
-- [Создайте PDF-файл диаграммы с желаемым размером страницы](/cells/ru/java/create-chart-pdf-with-desired-page-size/)
+- [Создайте диаграмму PDF с желаемым размером страницы](/cells/ru/java/create-chart-pdf-with-desired-page-size/)
 - [Экспорт диаграммы в SVG с атрибутом viewBox](/cells/ru/java/export-chart-to-svg-with-viewbox-attribute/)

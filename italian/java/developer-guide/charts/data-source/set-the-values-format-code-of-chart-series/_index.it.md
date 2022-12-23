@@ -14,6 +14,6 @@ Il seguente codice di esempio aggiunge una serie nel grafico vuoto che non ha se
 
 ![cose da fare:immagine_alt_testo](set-the-values-format-code-of-chart-series_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-SetValuesFormatCodeOfChartSeries.java" >}}

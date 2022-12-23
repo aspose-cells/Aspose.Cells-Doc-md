@@ -14,7 +14,7 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-2-0/
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, ознакомьтесь с подробной статьей о[Одновременное чтение значений Cells в многопоточной среде](/cells/ru/java/reading-cell-values-in-multiple-threads-simultaneously/) Чтобы получить больше информации.
+ Пожалуйста, ознакомьтесь с подробной статьей о[Одновременное чтение значений Cells в многопоточной среде](/cells/ru/java/reading-cell-values-in-multiple-threads-simultaneously/) для дополнительной информации.
 
 {{% /alert %}}
 ## **Добавлены перегрузки для методов autoFitRows и autoFitColumns.**

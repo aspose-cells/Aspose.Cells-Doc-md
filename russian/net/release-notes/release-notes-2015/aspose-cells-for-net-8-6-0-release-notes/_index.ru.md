@@ -34,7 +34,7 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43900) — Hyperlink.TextToDisplay не обновляется.
 
- (CELLSNET-43892) — Размер документа XLSX увеличивается при каждом сохранении.
+ (CELLSNET-43892) - XLSX размер документа увеличивается при каждом сохранении
 
  (CELLSNET-43869) — Aspose.Cells не может работать в Medium Trust
 
@@ -42,37 +42,37 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Ошибки**
 
 
- (CELLSNET-43884) — символы Wingdings отображаются неправильно при преобразовании некоторых электронных таблиц в HTML.
+(CELLSNET-43884) — символы Wingdings отображаются неправильно при преобразовании определенной электронной таблицы в HTML.
 
  (CELLSNET-43877) — Excel всегда восстанавливает результирующую электронную таблицу после добавления сводной таблицы.
 
  (CELLSNET-43831) — HTML в Excel — стиль CSS игнорируется
 
-(CELLSNET-43750) — Диаграмма изменяется в результирующей электронной таблице после обновления диаграммы.
+ (CELLSNET-43750) — Диаграмма изменяется в результирующей электронной таблице после обновления диаграммы.
 
  (CELLSNET-43843) — Workbook.CalculateFormula никогда не возвращается
 
  (CELLSNET-43842) - Aspose.Cells Ошибка вставки строки
 
- (CELLSNET-43879) — символы перекрываются и преобразуются в ######## при преобразовании Excel в PDF
+ (CELLSNET-43879) - символы перекрываются и преобразуются в ######## в Excel для рендеринга PDF
 
  (CELLSNET-43854) — Верхний и нижний индексы слишком сильно сдвинуты вверх при создании изображения.
 
  (CELLSNET-42762) — метки осей диаграммы отображаются неровным текстом.
 
- (CELLSNET-42384) — поля WordArt блокируются при преобразовании XLSX в PDF.
+ (CELLSNET-42384) — поля WordArt блокируются, когда XLSX преобразуется в PDF.
 
  (CELLSNET-42380) — поля SmartArt становятся черными.
 
- (CELLSNET-42377) — заголовок макета SmartArt перекрывается с подчеркиванием под заголовком изображения.
+(CELLSNET-42377) — заголовок макета SmartArt перекрывается с подчеркиванием под заголовком изображения.
 
- (CELLSNET-41493) - Текст усекается/обтекается в сгенерированном PDF-файле.
+ (CELLSNET-41493) - Текст усекается/переносится в сгенерированном PDF
 
  (CELLSNET-41398) — Табличный документ создает несколько документов при преобразовании.
 
  (CELLSNET-43894) — не удалось обновить ссылку OLE ObjectSourceFullName.
 
-(CELLSNET-43882) — PageSetup.Zoom изменился после открытия и сохранения книги.
+ (CELLSNET-43882) — PageSetup.Zoom изменился после открытия и сохранения книги.
 
  (CELLSNET-43881) — Некоторые формулы ячеек теряются при копировании строки.
 
@@ -86,7 +86,7 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43836) — Range.CopyData работает, но Range.Copy не работает
 
- (CELLSNET-43830) — Добавление более 2084 символов в гиперссылку приводит к повреждению выходного файла xlsx.
+(CELLSNET-43830) — Добавление более 2084 символов в гиперссылку приводит к повреждению выходного файла xlsx.
 
  (CELLSNET-43829) — функция Excel отображается с #NAME? ошибка на листе 1
 
@@ -94,25 +94,25 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Исключения**
 
 
- (CELLSNET-43866) — исключение CellsException при преобразовании электронной таблицы в PDF.
+ (CELLSNET-43866) — CellsException при рендеринге электронной таблицы на PDF.
 
  (CELLSNET-43847) — Исключение возникает при попытке вызвать RefreshPivotTables.
 
  (CELLSNET-43852) — CellsException в Workbook.CalculateFormula
 
-(CELLSNET-43893) — исключение CellsException при преобразовании электронной таблицы в формат PDF.
+ (CELLSNET-43893) — исключение CellsException при отображении электронной таблицы в формате PDF.
 
- (CELLSNET-42108) — CellsException: недопустимый параметр: при преобразовании XLS в PDF
+ (CELLSNET-42108) - CellsException: параметр недействителен: при преобразовании XLS в PDF
 
  (CELLSNET-43835) — System.OutOfMemoryException при преобразовании файла XLS в формат файла PDF.
 
- (CELLSNET-43865) — ArgumentException при преобразовании электронной таблицы в PDF и HTML.
+ (CELLSNET-43865) — ArgumentException при отображении электронной таблицы в PDF и HTML.
 
  (CELLSNET-43862) — NullReferenceException в Workbook.Save
 
 
 
-\2) Aspose.Cells Сетка Люкс
+ \2) Aspose.Cells Сетка Люкс
 
 
 ## **Другие улучшения и изменения**
@@ -132,7 +132,7 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Добавляет пространство имен и классы WorkbookMetadata.
 
- Он используется для чтения и сохранения метаданных файла.
+Он используется для чтения и сохранения метаданных файла.
 
 
 
@@ -150,6 +150,6 @@ url: /ru/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Добавляет свойство OoxmlSaveOptions.UpdateZoom.
 
-Он используется для обновления PageSetup.Zoom, если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием листа.
+ Он используется для обновления PageSetup.Zoom, если свойства PageSetup.FitToPagesWide и PageSetup.FitToPagesTall управляют масштабированием листа.
 
 

@@ -14,7 +14,7 @@ Führen Sie die folgenden Schritte aus, um einer Spalte eine beliebige Validieru
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
-- **Hinzufügen** ein Gewünschtes**Validierung** zu irgendeiner Spalte
+- **Addieren** ein Gewünschtes**Validierung** zu irgendeiner Spalte
 
 **WICHTIG:**Weitere Informationen zu den Validierungsarten (oder Validierungsmodi wie z**Erforderliche Validierung**, **Validierung regulärer Ausdrücke** und**Benutzerdefinierte Validierung** ) und Umsetzung**Benutzerdefinierte Validierung** , bitte beziehen Sie sich auf[Arbeiten mit Validierungen in Arbeitsblättern.](/cells/de/net/working-with-validations-in-worksheets/)
 

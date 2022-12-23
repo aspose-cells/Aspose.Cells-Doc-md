@@ -13,7 +13,7 @@ url: /ja/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42680|ピボット テーブル リボンを無効にする|新機能|
-|CELLSJAVA-42568|ODS ファイルでワークブックとワークシートを保護する|新機能|
+|CELLSJAVA-42568|ODS ファイルのワークブックとワークシートを保護する|新機能|
 |CELLSJAVA-42668|クラススタイル使用時の複数値のサポート (リンク先: CELLSJAVA-42635)|強化|
 |CELLSJAVA-42627|Smart Art 画像を正しく抽出できない - 形状から画像への変換 (CELLSJAVA-42619)|強化|
 |CELLSJAVA-42677|XLSX ファイル プロセスの保存に関する中断の問題|強化|
@@ -24,10 +24,10 @@ url: /ja/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |CELLSJAVA-42658|XL4 マクロ (XLSM) を含むワークブックが保存後に破損する|バグ|
 |CELLSJAVA-42656|AlternativeText は、コメント テキストの値を返します|バグ|
 |CELLSJAVA-42635|HTML から XLS - CSS スタイルは無視されます|バグ|
-|CELLSJAVA-41176|スプレッドシートを PDF 形式にレンダリングする際の位置合わせの誤り|バグ|
-|CELLSJAVA-42676|HTML から MS Excel ファイル形式への変換中に、テーブル データが間違った行と列に移動しました|バグ|
-|CELLSJAVA-41670|HTML への変換中に Chrome と FireFox でチャートの画像の位置が正しくない|バグ|
-|CELLSJAVA-41245|Excel ファイルを HTML ファイル形式に変換するときにスライサー コントロールがレンダリングされない|バグ|
+|CELLSJAVA-41176|スプレッドシートを PDF 形式にレンダリングする際の位置合わせが正しくない|バグ|
+|CELLSJAVA-42676|HTML から MS Excel ファイル形式への変換中にテーブル データが間違った行と列に移動する|バグ|
+|CELLSJAVA-41670|Chrome と FireFox で HTML への変換中にチャートの画像位置が正しくない|バグ|
+|CELLSJAVA-41245|Excel ファイルを HTML ファイル形式に変換すると、スライサー コントロールがレンダリングされない|バグ|
 |CELLSJAVA-42684|グラフの中央にある垂直線が、レンダリングされたイメージで正しく描画されない|バグ|
 |CELLSJAVA-42682|負のバブルのグラデーション カラーが PDF 出力に適用されない|バグ|
 |CELLSJAVA-42681|グラフ カテゴリのタイトルが画像に正しく表示されない|バグ|
@@ -35,17 +35,17 @@ url: /ja/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |CELLSJAVA-42694|Excel ファイルから透かしを読み取る|バグ|
 |CELLSJAVA-42686|プロパティ コメントに不要なテキストが含まれています|バグ|
 |CELLSJAVA-42685|プロパティ「リビジョン番号」が正しくチェックされていません|バグ|
-|CELLSJAVA-41485|ODS ファイル内のマクロは、生成された ODS ファイル形式では保持されません|バグ|
+|CELLSJAVA-41485|ODS ファイルのマクロは、生成された ODS ファイル形式では保持されません。|バグ|
 |CELLSJAVA-42715|数式が Excel ファイルと同じように取得されない|バグ|
 |CELLSJAVA-42711|PDF のグラフが Excel テンプレートから生成されない|バグ|
-|CELLSJAVA-42710|Excel から PDF への変換で、グラフの凡例項目のテキストが重複する|バグ|
+|CELLSJAVA-42710|Excel のグラフの凡例項目テキストを PDF 変換に複製する|バグ|
 |CELLSJAVA-42706|PDF 出力にグラフ ラベルが表示されない|バグ|
 |CELLSJAVA-42700|チャート データを変更した後、ウォーターフォール チャートが正しく表示されない|バグ|
 |CELLSJAVA-42717|Cells.deleteRow が正しく動作しない|バグ|
 |CELLSJAVA-42716|境界線スタイルに対して間違った値が取得されました|バグ|
 |CELLSJAVA-42709|結合されたセルに対して間違った下罫線スタイルが返される|バグ|
 |CELLSJAVA-42705|オートフィルターを設定した後、ファイルの読み込み中に Excel でエラーが発生する|バグ|
-|CELLSJAVA-42703|ODS から PDF への変換中にチャートが表示されない|バグ|
+|CELLSJAVA-42703|ODS から PDF への変換中にグラフが表示されない|バグ|
 |CELLSJAVA-42702|ワークシートのセル スタイルを読み取った後に灰色の境界線が表示される|バグ|
 |CELLSJAVA-42699|PasteType.VALUES_と_NUMBER_FORMATS が正常に動作していません|バグ|
 |CELLSJAVA-42646|例外: Name.getRefersTo() での「FormulaBuild Unknown formula token0」|例外|
@@ -54,11 +54,11 @@ url: /ja/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |CELLSJAVA-42669|ワークブックで数式を計算するときの例外「java.lang.NullPointerException」|例外|
 |CELLSJAVA-42663|Chart.calculate() は IndexOutOfBoundsException をスローします|例外|
 |CELLSJAVA-42655|例外: XLS ファイルの読み込み時の「無効なエンコード: null」 - II|例外|
-|CELLSJAVA-42675|HTML ファイルをワークブックにロード中に発生した NumberFormatException|例外|
+|CELLSJAVA-42675|HTML ファイルをワークブックにロード中に NumberFormatException が発生する|例外|
 |CELLSJAVA-42689|CalculateFormula の呼び出し中に発生する NullPointerException 例外|例外|
 |CELLSJAVA-42678|ワークシートを PNG ファイル形式にレンダリングするときの例外|例外|
 |CELLSJAVA-42411|Cell のエラー: E22-無効な数式 - MS Excel ファイルを開く際の例外|例外|
-|CELLSJAVA-42691|XLSX から HTML への変換中に NegativeArraySizeException が発生する|例外|
+|CELLSJAVA-42691|XLSX を HTML に変換中に NegativeArraySizeException が発生する|例外|
 
 ## **Public API および下位互換性のない変更**
 

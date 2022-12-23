@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-7-7-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java がバージョン 7.7.2 に更新されました。このリリースでは、約 20 の新しい便利な改善点が追加されたことをお知らせいたします。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -33,7 +33,7 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 
 バグ
 
-(CELLSJAVA-40711) - Axis.setTickLabelSpacing() が XLS バージョンで機能しない
+(CELLSJAVA-40711) - XLS バージョンで Axis.setTickLabelSpacing() が機能しない
 (CELLSJAVA-40714) - Cell 境界線が不透明なセルにレンダリングされました
 (CELLSJAVA-40710) - 以下の計算エラー
 (CELLSJAVA-40715) - 式の計算におけるワイルドカード解析の問題
@@ -42,7 +42,7 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 (CELLSJAVA-40729) - フォーマットされた中国語日付の抽出の問題
 (CELLSJAVA-40728) - getStringValue() は #VALUE を返します!
 (CELLSJAVA-40722) - XLS 形式に変換した後に検証が機能しない
-(CELLSJAVA-40690) - XLSX to PDF: ハイパーリンクの下の下線が隣接する文字位置に広がっています
+(CELLSJAVA-40690) - XLSX から PDF: ハイパーリンクの下の下線が隣接する文字位置に広がっています
 
 例外
 

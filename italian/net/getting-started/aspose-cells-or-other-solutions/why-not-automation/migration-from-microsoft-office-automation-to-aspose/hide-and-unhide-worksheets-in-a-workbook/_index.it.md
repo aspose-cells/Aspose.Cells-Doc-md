@@ -8,7 +8,7 @@ url: /it/net/hide-and-unhide-worksheets-in-a-workbook/
 
 Quando si presentano cartelle di lavoro ai clienti o si esegue una presentazione, può essere utile nascondere i fogli di lavoro in una cartella di lavoro. Un approccio strutturato alla modellazione di fogli di calcolo suggerisce che i dati, le formule e le visualizzazioni come i grafici siano conservati su fogli separati. Questo approccio mantiene il layout pulito e semplice e semplifica la navigazione nella cartella di lavoro. Quando si presentano i risultati, è possibile nascondere i dati o i fogli formula per evitare distrazioni.
 
-Gli utenti che lavorano in Microsoft Excel possono facilmente nascondere e quindi mostrare (mostrare) i fogli di lavoro. Le stesse funzionalità sono disponibili per gli sviluppatori che programmano con fogli di calcolo Excel. Esistono diversi modi per lavorare con i fogli di calcolo all'interno delle applicazioni software. Un metodo è usare VSTO, un altro è Aspose.Cells for .NET.
+Gli utenti che lavorano in Excel Microsoft possono facilmente nascondere e quindi mostrare (mostrare) i fogli di lavoro. Le stesse funzionalità sono disponibili per gli sviluppatori che programmano con fogli di calcolo Excel. Esistono diversi modi per lavorare con i fogli di calcolo all'interno delle applicazioni software. Un metodo è usare VSTO, un altro è Aspose.Cells for .NET.
 
 {{% /alert %}}
 
@@ -23,9 +23,9 @@ I passaggi per nascondere un foglio di lavoro sono:
 1. Nascondi il foglio di lavoro.
 1. Salva il file.
 
- Per[scoprire](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/) di nuovo un foglio di lavoro, attiva semplicemente la visibilità per il foglio nascosto.
+ A[scoprire](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/) di nuovo un foglio di lavoro, attiva semplicemente la visibilità per il foglio nascosto.
 
- Gli esempi di codice riportati di seguito mostrano innanzitutto come nascondere un foglio di lavoro. I primi campioni mostrano il processo con[VSTO](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/) , utilizzando C# o Visual Basic, rispetto all'utilizzo[Aspose.Cells](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/), sempre usando C# o Visual Basics.
+ Gli esempi di codice riportati di seguito mostrano innanzitutto come nascondere un foglio di lavoro. I primi campioni mostrano il processo con[VSTO](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/) , utilizzando C# o Visual Basic, rispetto a using[Aspose.Cells](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/), sempre usando C# o Visual Basics.
 
  La seconda serie di esempi di codice mostra la riga utilizzata per scoprire il foglio di lavoro[VSTO](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/) o[Aspose.Cells](/cells/it/net/hide-and-unhide-worksheets-in-a-workbook/).
 

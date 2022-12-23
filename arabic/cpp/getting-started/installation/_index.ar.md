@@ -1,5 +1,5 @@
 ﻿---
-title: تثبيت
+title: التركيب
 type: docs
 weight: 40
 url: /ar/cpp/installation/

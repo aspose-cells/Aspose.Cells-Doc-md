@@ -6,9 +6,9 @@ url: /es/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 ---
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSCPP-35|Formato de archivo XLSM de lectura/escritura|Nueva caracteristica|
-|CELLSCPP-36|Leer/Escribir formato de archivo CSV|Nueva caracteristica|
-|CELLSCPP-37|Formato de archivo XLSB de lectura/escritura|Nueva caracteristica|
+|CELLSCPP-35|Leer/escribir formato de archivo XLSM|Nueva caracteristica|
+|CELLSCPP-36|Leer/escribir formato de archivo CSV|Nueva caracteristica|
+|CELLSCPP-37|Leer/escribir formato de archivo XLSB|Nueva caracteristica|
 |CELLSCPP-38|Crear y manipular rangos con nombre|Nueva caracteristica|
 |CELLSCPP-39|Formato de archivo delimitado por tabuladores de lectura/escritura|Nueva caracteristica|
 ### **Public API y cambios incompatibles con versiones anteriores**

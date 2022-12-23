@@ -10,20 +10,20 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41814|Prise en charge du tri de données personnalisé pour la zone spécifique du rapport de tableau croisé dynamique|Nouvelle fonctionnalité|
 |CELLSJAVA-43032|Ajoutez la méthode/les surcharges Validation.addArea (CellArea cellArea, boolean skipArea) ou Validation.setAreas() aux API|Nouvelle fonctionnalité|
 |CELLSJAVA-42851|Obtenir les détails de la connexion ODATA|Nouvelle fonctionnalité|
-|CELLSJAVA-43047|Ajout d'un texte d'info-bulle à la cellule pour l'exportation au format HTML|Nouvelle fonctionnalité|
+|CELLSJAVA-43047|Ajout d'un texte d'info-bulle à la cellule pour l'exportation dans HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-42988|Problème de performances avec calculateFormula()|Renforcement|
-|CELLSJAVA-43018|Exporter la plage de la zone d'impression au format HTML sans modifier implicitement un état du même classeur|Renforcement|
+|CELLSJAVA-43018|Exporter la plage de la zone d'impression vers HTML sans modifier implicitement un état du même classeur|Renforcement|
 |CELLSJAVA-43041|Cells.importCSV génère une exception "la valeur de la chaîne ne peut pas dépasser 255 caractères"|Renforcement|
 |CELLSJAVA-43043|Cells.removeDuplicates prend plus de temps pour un grand ensemble de données|Renforcement|
 |CELLSJAVA-43002|Point chaud CPU inattendu dans ZipOutputStream lors de l'ouverture de XSLB|Renforcement|
 |CELLSJAVA-43008|Option pour désactiver le chargement de l'objet OLE lors de l'ouverture d'un classeur|Renforcement|
-|CELLSJAVA-43019|Le graphique radial n'est pas rendu correctement en HTML|Punaise|
-|CELLSJAVA-43027|Après le rendu en PNG, la mise à l'échelle de l'axe est différente.|Punaise|
+|CELLSJAVA-43019|Le graphique radial n'est pas rendu correctement à HTML|Punaise|
+|CELLSJAVA-43027|Après rendu à PNG, la mise à l'échelle de l'axe est différente.|Punaise|
 |CELLSJAVA-42474|Le tableau croisé dynamique n'est pas actualisé et corrompu après la mise à jour des données source|Punaise|
 |CELLSJAVA-43033|La conversion en PDF ne s'arrête pas.|Punaise|
 |CELLSJAVA-43034|La sortie du format de date russe (personnalisé) non valide est récupérée|Punaise|
@@ -34,17 +34,17 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43038|Les hyperliens ne sont pas exportés à l'aide de Cell.setHtmlString()|Punaise|
 |CELLSJAVA-43039|Cell.setHtmlString() ne rend pas certaines balises/scripts HTML à l'exportation Excel|Punaise|
 |CELLSJAVA-41103|La coloration et la mise en forme des données du tableau croisé dynamique ne s'affichent pas correctement|Punaise|
-|CELLSJAVA-43007|Le PDF n'est pas généré comme prévu|Punaise|
+|CELLSJAVA-43007|PDF n'est pas généré comme prévu|Punaise|
 |CELLSJAVA-43025|Cell.getStyle.getCustom renvoie un format incorrect pour les paramètres régionaux allemands|Punaise|
 |CELLSJAVA-42793|Objet Fontwork SmartArt perdu lors de la conversion ODS en XLSX|Punaise|
 |CELLSJAVA-43020|Graphique radial déformé après l'appel de Chart.Calcluate()|Punaise|
-|CELLSJAVA-43022|Forme à l'erreur d'image pour les fichiers XLS|Punaise|
+|CELLSJAVA-43022|Erreur de forme à image pour les fichiers XLS|Punaise|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) provoque des résultats indésirables lors de l'appel de getFormula()|Punaise|
 |CELLSJAVA-43052|Problème de validation des valeurs booléennes|Punaise|
-|CELLSJAVA-43054|Problème avec la fusion CSV dans les paramètres portugais|Punaise|
+|CELLSJAVA-43054|Problème avec CSV Fusionner dans les paramètres portugais|Punaise|
 |CELLSJAVA-43056|Cell.setFormula() ne se met pas à jour pour les liens externes|Punaise|
 |CELLSJAVA-42767|Image manquée lors de la conversion d'Excel en PDF|Punaise|
-|CELLSJAVA-42913|Objets Visio incorporés rendus incorrectement au format PDF|Punaise|
+|CELLSJAVA-42913|Objets Visio intégrés rendus incorrectement à PDF|Punaise|
 |CELLSJAVA-42883|Problème d'extraction du texte du graphique à partir du fichier au format Aspose.Cells for Java 95|Punaise|
 |CELLSJAVA-42931|Pièces jointes/Objets non extraits d'Excel95|Punaise|
 |CELLSJAVA-43051|Format d'image non conservé pour l'image|Punaise|
@@ -80,7 +80,7 @@ Importe un flux de fichiers XML dans le classeur.
 ### **Ajoute la méthode Workbook.ExportXml(string mapName, Stream stream).**
 Exportez des données XML vers un flux.
 ### **Ajoute la propriété HtmlSaveOptions.ExportArea**
-Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au format HTML.
+Obtient ou définit la CellArea d'exportation de la feuille de calcul active actuelle. Si vous définissez cet attribut, la zone d'impression de la feuille de calcul active actuelle sera omise. Seule la zone spécifiée sera exportée lors de l'enregistrement du fichier au HTML.
 ### **Ajoute les classes : DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem et PowerQueryFormulaItemCollection**
 Obtient des informations dans le DataMashup.
 ### **Ajoute la propriété DBConnection.SeverCommand.**
@@ -126,7 +126,7 @@ Obtient et définit le type de texte enveloppé d'ajustement automatique.
 ### **Ajoute la classe EmfRenderSetting**
 Ensembles pour le rendu du métafichier EMF.
 ### **Ajoute la propriété PdfSaveOptions.EmfRenderSetting**
-Définit le rendu du métafichier EMF lors du rendu en fichier PDF.
+Définit le rendu du métafichier EMF lors du rendu dans le fichier PDF.
 ### **Ajoute la méthode ShapeCollection.AddSvg()**
 Ajoute une image svg.
 ### **Ajoute la propriété WorkbookSettings.QuotePrefixToStyle**

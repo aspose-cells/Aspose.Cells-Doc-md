@@ -10,7 +10,7 @@ Cuando copia filas o rangos que contienen gráficos en una nueva hoja de trabajo
 
 ## **Cambie la fuente de datos del gráfico a la hoja de trabajo de destino al copiar filas o rango**
 
- El siguiente código de ejemplo explica el uso de[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) propiedad al copiar filas o rangos que contienen gráficos a una nueva hoja de cálculo. El código utiliza el[ejemplo de archivo de Excel](5113699.xlsx) y genera la[archivo de salida de Excel](5113697.xlsx).
+ El siguiente código de ejemplo explica el uso de[**CopyOptions.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet) propiedad al copiar filas o rangos que contienen gráficos a una nueva hoja de trabajo. El código utiliza el[ejemplo de archivo de Excel](5113699.xlsx) y genera la[archivo de salida de Excel](5113697.xlsx).
 
 ![todo:imagen_alternativa_texto](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 

@@ -15,8 +15,8 @@ Pour modifier la police et la couleur d'une colonne à l'aide de Aspose.Cells.Gr
 -  Accédez à tout**Feuille de travail**
 -  Accéder à un**Colonne** dont la police et la couleur doivent être modifiées
 -  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** de la**Colonne** au personnalisé
--  Enfin, réglez**Couleur de la police** de la**Colonne** à tout désiré**Couleur**
+-  Met le**Police de caractère** du**Colonne** au personnalisé
+-  Enfin, réglez**Couleur de la police** du**Colonne** à tout désiré**Couleur**
 
 
 
@@ -47,8 +47,8 @@ column.SetFontColor(Color.Blue);
 -  Accédez à tout**Feuille de travail**
 -  Accéder à un**Ligne** dont la police et la couleur doivent être modifiées
 -  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** de la**Ligne** au personnalisé
--  Enfin, réglez**Couleur de la police** de la**Ligne** à tout désiré**Couleur**
+-  Met le**Police de caractère** du**Ligne** au personnalisé
+-  Enfin, réglez**Couleur de la police** du**Ligne** à tout désiré**Couleur**
 
 
 

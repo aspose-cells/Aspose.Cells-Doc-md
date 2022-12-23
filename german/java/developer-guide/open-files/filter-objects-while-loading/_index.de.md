@@ -10,7 +10,7 @@ url: /de/java/filter-objects-while-loading-workbook-or-worksheet/
  Das[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)Enumeration hat die folgenden Werte.
 
 - [KEINER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#NONE)
-- [ALLE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
+- [ALLES](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#ALL)
 - [ZELLE_LEER](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_BLANK)
 - [CELL_STRING](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_STRING)
 - [CELL_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#CELL_NUMERIC)
@@ -38,7 +38,7 @@ url: /de/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [STIL](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **Filtern Sie Objekte beim Laden der Arbeitsmappe**
- Der folgende Beispielcode veranschaulicht, wie Diagramme aus der Arbeitsmappe gefiltert werden. Bitte überprüfen Sie die[Excel-Beispieldatei](5472489.xlsx) in diesem Code verwendet und die[PDF ausgeben](5472488.pdf)dadurch erzeugt. Wie Sie im Ausgabe-PDF sehen können, wurden alle Diagramme aus der Arbeitsmappe herausgefiltert.
+ Der folgende Beispielcode veranschaulicht, wie Diagramme aus der Arbeitsmappe gefiltert werden. Bitte überprüfen Sie die[Excel-Beispieldatei](5472489.xlsx) in diesem Code verwendet und die[Ausgang PDF](5472488.pdf)dadurch erzeugt. Wie Sie in der Ausgabe PDF sehen können, wurden alle Diagramme aus der Arbeitsmappe herausgefiltert.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **Objekte beim Laden des Arbeitsblatts filtern**

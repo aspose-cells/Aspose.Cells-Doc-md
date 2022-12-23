@@ -6,11 +6,11 @@ url: /ar/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-takin
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-يسمح لك Aspose.Cells بإيقاف تحويل المصنف إلى تنسيقات مختلفة مثل PDF و HTML وما إلى ذلك باستخدام امتداد[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)كائن عندما يستغرق وقتا طويلا. غالبًا ما تكون عملية التحويل كثيفة الاستخدام لوحدة المعالجة المركزية والذاكرة وغالبًا ما يكون من المفيد إيقافها عندما تكون الموارد محدودة. يمكنك استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)سواء لإيقاف التحويل وكذلك لإيقاف تحميل مصنف ضخم. يرجى استخدام[**المصنف**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)خاصية وقف التحويل و[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)خاصية تحميل مصنف ضخم.
+يسمح لك Aspose.Cells بإيقاف تحويل المصنف إلى تنسيقات مختلفة مثل PDF ، HTML ، إلخ باستخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)كائن عندما يستغرق وقتا طويلا. غالبًا ما تكون عملية التحويل كثيفة الاستخدام لوحدة المعالجة المركزية والذاكرة وغالبًا ما يكون من المفيد إيقافها عندما تكون الموارد محدودة. يمكنك استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)سواء لإيقاف التحويل وكذلك لإيقاف تحميل مصنف ضخم. الرجاء استخدام[**المصنف**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#InterruptMonitor)خاصية وقف التحويل و[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#InterruptMonitor)خاصية تحميل مصنف ضخم.
 
 ## **أوقف التحويل أو التحميل باستخدام InterruptMonitor عندما يستغرق وقتًا طويلاً**
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)هدف. يقوم الكود بتحويل ملف Excel كبير جدًا إلى PDF. سيستغرق الأمر عدة ثوانٍ (على سبيل المثال*أكثر من 30 ثانية*) لتحويلها بسبب هذه الأسطر من التعليمات البرمجية.
+يشرح نموذج التعليمات البرمجية التالي استخدام[**InterruptMonitor**](https://reference.aspose.com/cells/java/com.aspose.cells/InterruptMonitor)موضوع. يقوم الكود بتحويل ملف Excel كبير جدًا إلى PDF. سيستغرق الأمر عدة ثوانٍ (على سبيل المثال*أكثر من 30 ثانية*) لتحويلها بسبب هذه الأسطر من التعليمات البرمجية.
 
 {{< highlight "java" >}}
 

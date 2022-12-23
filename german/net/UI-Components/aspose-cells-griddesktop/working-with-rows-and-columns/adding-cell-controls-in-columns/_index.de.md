@@ -12,7 +12,7 @@ In unseren späteren Diskussionen haben wir über das Hinzufügen und Verwalten 
 ## **Einführung**
 Derzeit unterstützt Aspose.Cells.GridDesktop das Hinzufügen von drei Arten von Zellsteuerelementen, darunter die folgenden:
 
-- **Taste**
+- **Knopf**
 - **Kontrollkästchen**
 - **Kombinationsfeld**
 
@@ -24,9 +24,9 @@ Um Schaltflächen mit Aspose.Cells.GridDesktop zu einer Spalte hinzuzufügen, f�
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Taste** zu allen angegebenen**Spalte** des**Arbeitsblatt**
+-  Addieren**Knopf** zu allen angegebenen**Spalte** des**Arbeitsblatt**
 
-**HINWEIS:** Beim Hinzufügen**Taste**, können wir die Breite, Höhe und Beschriftung der Schaltfläche angeben.
+**HINWEIS:** Beim Hinzufügen**Knopf**, können wir die Breite, Höhe und Beschriftung der Schaltfläche angeben.
 
 
 
@@ -39,7 +39,7 @@ Um mit Aspose.Cells.GridDesktop Kontrollkästchen in eine Spalte einzufügen, f�
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Kontrollkästchen** zu allen angegebenen**Spalte** des**Arbeitsblatt**
+-  Addieren**Kontrollkästchen** zu allen angegebenen**Spalte** des**Arbeitsblatt**
 
 **HINWEIS:** Beim Hinzufügen**Kontrollkästchen**, können wir auch den Status des Kontrollkästchens angeben.
 
@@ -55,7 +55,7 @@ Um Comboboxen mit Aspose.Cells.GridDesktop zu einer Spalte hinzuzufügen, führe
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
 -  Erstellen Sie ein Array von Elementen (oder Werten), denen hinzugefügt wird**Kombinationsfeld**
--  Hinzufügen**Kombinationsfeld** (mit Elementen oder Werten) zu einem beliebigen angegebenen**Spalte** des**Arbeitsblatt**
+-  Addieren**Kombinationsfeld** (mit Elementen oder Werten) zu einem beliebigen angegebenen**Spalte** des**Arbeitsblatt**
 
 
 

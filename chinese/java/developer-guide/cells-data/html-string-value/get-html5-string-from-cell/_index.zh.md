@@ -6,7 +6,7 @@ url: /zh/java/get-html5-string-from-cell/
 ---
 ## **可能的使用场景**
 
-Aspose.Cells 返回单元格的 HTML 字符串[**getHtmlString（布尔值 html5）**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)方法。如果你通过**错误的**作为参数，它会返回给你普通的 HTML 但如果你通过**真的**作为参数，它将返回 HTML5 字符串。
+Aspose.Cells 返回单元格的 HTML 字符串[**getHtmlString（布尔值 html5）**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)方法。如果你通过**错误的**作为参数，它将返回 Normal HTML 但如果你通过**真的**作为参数，它将返回 HTML5 字符串。
 
 ## **从 Cell 获取 HTML5 字符串**
 

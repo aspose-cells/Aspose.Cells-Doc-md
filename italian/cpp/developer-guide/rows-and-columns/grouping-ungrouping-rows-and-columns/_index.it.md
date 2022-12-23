@@ -5,11 +5,11 @@ weight: 30
 url: /it/cpp/grouping-ungrouping-rows-and-columns/
 ---
 ## **introduzione**
-In un file Microsoft Excel, puoi creare una struttura per i dati per mostrare e nascondere i livelli di dettaglio con un solo clic del mouse.
+In un file Excel Microsoft, puoi creare una struttura per i dati per mostrare e nascondere i livelli di dettaglio con un solo clic del mouse.
 
  Clicca il**Simboli di contorno**, 1,2,3, + e - per visualizzare rapidamente solo le righe o le colonne che forniscono riepiloghi o intestazioni per le sezioni in un foglio di lavoro oppure è possibile utilizzare i simboli per visualizzare i dettagli sotto un singolo riepilogo o intestazione.
 ## **Gestione di gruppo di righe e colonne**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la classe fornisce un[ICelle](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)raccolta che rappresenta tutte le celle del foglio di lavoro.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) la classe contiene un[Fogli di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) raccolta che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) la classe fornisce un[ICelle](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)raccolta che rappresenta tutte le celle del foglio di lavoro.
 
  Il[ICelle](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)collection fornisce diversi metodi per gestire righe o colonne in un foglio di lavoro, alcuni di questi sono discussi di seguito in modo più dettagliato.
 ### **Raggruppamento di righe e colonne**

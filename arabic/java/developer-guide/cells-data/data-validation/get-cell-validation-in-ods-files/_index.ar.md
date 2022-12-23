@@ -1,14 +1,14 @@
 ﻿---
-title: احصل على Cell التحقق من الصحة في ملفات ODS
+title: احصل على Cell التحقق من صحة ODS في ملفات
 type: docs
 weight: 190
 url: /ar/java/get-cell-validation-in-ods-files/
 ---
-## **احصل على Cell التحقق من الصحة في ملفات ODS**
+## **احصل على Cell التحقق من صحة ODS في ملفات**
 
-باستخدام Aspose.Cells ، يمكنك الحصول على التحقق المطبق على خلية في ملفات ODS. لهذا ، يوفر API الامتداد[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) طريقة ال[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)صف دراسي.
+باستخدام Aspose.Cells ، يمكنك الحصول على التحقق المطبق على خلية في ملف ODS. لهذا ، يوفر API امتداد[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) طريقة ال[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)صف دراسي.
 
-يوضح نموذج التعليمات البرمجية التالي استخدام[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) عن طريق تحميل ملف[مصدر المواد المستنفدة للأوزون](SampleBook1.ods)ملف وقراءة التحقق من صحة الخلية A9.
+يوضح نموذج التعليمات البرمجية التالي استخدام[**GetValidation**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidation()) عن طريق تحميل ملف[المصدر ODS](SampleBook1.ods)ملف وقراءة التحقق من صحة الخلية A9.
 
 ### **عينة من الرموز**
 

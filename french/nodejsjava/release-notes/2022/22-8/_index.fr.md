@@ -10,7 +10,7 @@ url: /fr/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44811|Prise en charge de la spécification des feuilles à produire lors de l'exportation au format pdf/xps|
 |CELLSJAVA-44777|Exporter les formules au format HTML uniquement en fonction de l'option HtmlSaveOptions.Exportformula|
@@ -23,13 +23,13 @@ url: /fr/nodejs-java/aspose-cells-for-node-js-via-java-22-8-release-notes/
 |CELLSJAVA-44781|enquêter sur le problème de redimensionnement de la ligne lors du redimensionnement à très peu de hauteur|
 |CELLSJAVA-44787|Bordure inférieure perdue à la dernière ligne du classeur|
 |CELLSJAVA-44761|Utilisation excessive de la mémoire lors de la conversion du fichier Excel en HTML|
-|CELLSJAVA-44801|La conversion Excel en PDF à l'aide de Aspose.Cells for Java v22.7 provoque des caractères brouillés|
+|CELLSJAVA-44801|La conversion d'Excel en PDF à l'aide de Aspose.Cells for Java v22.7 provoque des caractères brouillés|
 |CELLSJAVA-44741|Le saut de ligne n'est pas correct dans la sortie xlsx après avoir défini la chaîne html dans la cellule|
 |CELLSJAVA-44776|Style de ligne d'en-tête de tableau perdu lors de la copie de la feuille|
 |CELLSJAVA-44789|Problème avec le remplacement de la chaîne de caractères de la zone de texte placée dans la feuille de calcul Excel|
-|CELLSJAVA-44792| Enregistrement sans fin du classeur au format HTML (2892)|
+|CELLSJAVA-44792| Classeur d'enregistrement sans fin au format HTML (2892)|
 |CELLSJAVA-44763|Exception "java.lang.IllegalArgumentException: can't parse argument number: 1:X8" lors du chargement du fichier Excel à l'aide de "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Erreur lors de l'enregistrement au format PDF - Enquête requise|
+|CELLSJAVA-44774|Erreur lors de l'enregistrement sous PDF - Enquête requise|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

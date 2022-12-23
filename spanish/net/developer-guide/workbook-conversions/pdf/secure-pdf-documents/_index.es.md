@@ -1,14 +1,14 @@
 ﻿---
-title: Documentos PDF seguros
+title: Seguro PDF Documentos
 type: docs
 weight: 120
 url: /es/net/secure-pdf-documents/
 ---
 {{% alert color="primary" %}}
 
-A veces, los desarrolladores necesitan trabajar con archivos PDF encriptados. Por ejemplo, necesitan proteger los documentos con contraseñas de usuario y propietario para que no cualquiera pueda abrirlos, o desean restringir si el contenido del documento se puede imprimir o extraer.
+A veces, los desarrolladores necesitan trabajar con archivos cifrados PDF. Por ejemplo, necesitan proteger los documentos con contraseñas de usuario y propietario para que no cualquiera pueda abrirlos, o desean restringir si el contenido del documento se puede imprimir o extraer.
 
-Este artículo explica cómo pasar las opciones de seguridad de PDF al guardar hojas de cálculo en PDF.
+Este artículo explica cómo pasar las opciones de seguridad PDF al guardar hojas de cálculo en PDF.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ Este artículo explica cómo pasar las opciones de seguridad de PDF al guardar h
 
 {{% alert color="primary" %}}
 
- Si la hoja de cálculo contiene fórmulas, es mejor llamar[**Libro de trabajo. Calcular fórmula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)justo antes de convertirlo en PDF. Esto garantiza que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+ Si la hoja de cálculo contiene fórmulas, es mejor llamar[**Libro de trabajo. Calcular fórmula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)justo antes de representarlo en PDF. Esto garantiza que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en PDF.
 
 {{% /alert %}}

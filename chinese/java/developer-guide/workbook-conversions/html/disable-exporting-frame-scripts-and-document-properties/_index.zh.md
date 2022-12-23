@@ -6,7 +6,7 @@ url: /zh/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells 在将工作簿转换为 HTML 时导出框架脚本和文档属性。 Aspose.Cells for Java 的 8.6.0 版本引入了一个选项，允许您有选择地禁用导出框架脚本和文档属性。请使用[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties)属性来禁用导出。
+Aspose.Cells 在将工作簿转换为 HTML 时导出框架脚本和文档属性。Aspose.Cells for Java 的 8.6.0 版本引入了一个选项，允许您有选择地禁用导出框架脚本和文档属性。请使用[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties)属性来禁用导出。
 
 {{% /alert %}} 
 ## **禁用导出框架脚本和文档属性**

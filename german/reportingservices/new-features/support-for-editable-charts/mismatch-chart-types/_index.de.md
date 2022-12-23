@@ -17,6 +17,6 @@ Einige Diagrammtypen in der Berichtsdefinitionsdatei von SQL Server Reporting Se
 - Range-BoxPlot
 - Form-Trichter
 
- Beim Rendern von Diagrammelementen, die keine entsprechenden Optionen in Microsoft Excel haben, gibt Aspose.Cells sie in Bilder aus.
+Beim Rendern von Diagrammelementen, die keine entsprechenden Optionen in Microsoft Excel haben, gibt Aspose.Cells sie in Bilder aus.
 
 {{% /alert %}}

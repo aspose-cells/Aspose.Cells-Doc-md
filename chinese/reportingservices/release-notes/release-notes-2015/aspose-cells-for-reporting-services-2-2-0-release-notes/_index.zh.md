@@ -58,7 +58,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-2-2-0-release-not
 
 (SSRS-40185) 项目影响分析报告 - 报告顶部的空间，标题和表格之间的空间较多，顶部两个标题之间的空间较少。
 
-(SSRS-40184) 完整性指数报告 - 报告未在 XLSX 中导出，并给出错误：“导出报告时出错。”
+(SSRS-40184) 完整性指数报告 - 报告未在 XLSX 中导出，给出错误：“导出报告时出错。”
 
 (SSRS-40183) 仪表板报告 - 在第四个四边形中，文本与改进、维持和监控类别之间有很多空间。
 
@@ -86,7 +86,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-2-2-0-release-not
 
 (SSRS-40170)“Excel 发现不可读的内容...”弹出窗口出现在使用子报告的报告中
 
-(SSRS-40169) 可见分组行集隐藏在导出的 Excel 文件 (XLSX) 中
+(SSRS-40169) 在导出的 Excel 文件中设置隐藏的可见分组行 (XLSX)
 
 (SSRS-40168) 行分组在呈现的 XLSX 文件格式中丢失
 

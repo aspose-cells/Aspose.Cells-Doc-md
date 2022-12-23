@@ -1,5 +1,5 @@
 ﻿---
-title: Copiare righe e colonne in Python
+title: Copia di righe e colonne in Python
 type: docs
 weight: 30
 url: /it/java/copying-rows-and-columns-in-python/
@@ -14,7 +14,7 @@ Il metodo copyRow accetta i seguenti parametri:
 - l'indice della riga di origine e
 - l'indice della riga di destinazione.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -50,7 +50,7 @@ Il metodo copyColumn accetta i seguenti parametri:
 - indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "ruby" >}}
 
@@ -113,6 +113,6 @@ print "Copy Columns Successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Copia di righe e colonne (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Copia di righe e colonne (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

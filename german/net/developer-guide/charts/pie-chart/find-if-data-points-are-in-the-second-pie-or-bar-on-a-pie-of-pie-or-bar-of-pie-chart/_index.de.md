@@ -15,7 +15,7 @@ url: /de/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindDataPointsInPieBar-FindDataPointsInPieBar.cs" >}}
 ## **Konsolenausgabe**
- Bitte sehen Sie sich die folgende Konsolenausgabe an, die nach der Ausführung des obigen Beispielcodes mit der generiert wird[Excel-Beispieldatei](5115193.xlsx) . Wenn[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) ist**FALSCH** , der Datenpunkt befindet sich innerhalb des Kuchens oder wenn ja**Stimmt**, dann befindet sich der Datenpunkt innerhalb des Balkens.
+ Bitte sehen Sie sich die folgende Konsolenausgabe an, die nach der Ausführung des obigen Beispielcodes mit der generiert wird[Excel-Beispieldatei](5115193.xlsx) . Wenn[IsInSecondaryPlot](https://reference.aspose.com/cells/net/aspose.cells.charts/chartpoint/properties/isinsecondaryplot) ist**FALSCH** , der Datenpunkt befindet sich innerhalb des Kuchens oder wenn ja**wahr**, dann befindet sich der Datenpunkt innerhalb des Balkens.
 
 
 

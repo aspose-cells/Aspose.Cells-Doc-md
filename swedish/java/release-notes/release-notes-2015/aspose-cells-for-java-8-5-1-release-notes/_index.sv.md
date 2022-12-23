@@ -22,15 +22,15 @@ url: /sv/java/aspose-cells-for-java-8-5-1-release-notes/
 ## **Buggar**
 
 
- (CELLSJAVA-41378) - Justering av vissa celler bibehålls inte i den genererade HTML-koden
+ (CELLSJAVA-41378) - Justering av vissa celler bibehålls inte i den genererade HTML
 
  (CELLSJAVA-41376) - Felmeddelande dyker upp efter att arbetsboken har sparats
 
- (CELLSJAVA-41412) - ListColumn.getRange returnerar null
+(CELLSJAVA-41412) - ListColumn.getRange returnerar null
 
  (CELLSJAVA-41407) - VBA-kod i .xlsb förloras efter att ha sparats
 
-(CELLSJAVA-41396) - Att beräkna formler fungerar inte när vi har fler än 65536 namngivna celler
+ (CELLSJAVA-41396) - Att beräkna formler fungerar inte när vi har fler än 65536 namngivna celler
 
  (CELLSJAVA-41389) - Aktivering av ShowTotal för ListObject infogar en tom rad ovanför totalen
 
@@ -42,19 +42,19 @@ url: /sv/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41411) - Konstigt teckensnittsersättning vid uppgradering till 8.5.0 från 8.4.x
 
- (CELLSJAVA-41410) - Bildfärgsproblem i Excel till PDF-transformation
+ (CELLSJAVA-41410) - Bildfärgsproblem i Excel till PDF transformation
 
  (CELLSJAVA-41406) - Textrutan i diagrammet förskjuts efter att kalkylarket har renderats till PDF
 
  (CELLSJAVA-41403) - Källa: Kemikalien åsidosätts av sjökortsgränsen i PDF
 
- (CELLSJAVA-41402) - Källa: Kemikalie åsidosätts av sjökortsgräns i PNG
+ (CELLSJAVA-41402) - Källa: Kemikalien åsidosätts av sjökortsgränsen i PNG
 
  (CELLSJAVA-41387) - Dataetiketter åsidosätts av rubriksektionen
 
- (CELLSJAVA-41380) - Konvertering av diagram till bild/PDF exporterar inte den inneslutna textrutan i licensieringsläge
+(CELLSJAVA-41380) - Chart to Image/PDF-konvertering exporterar inte den inneslutna textrutan i licensieringsläge
 
-(CELLSJAVA-41244) - Markörer och pilar ser inte bra ut eller är vanställda
+ (CELLSJAVA-41244) - Markörer och pilar ser inte bra ut eller är vanställda
 
  (CELLSJAVA-40929) - Ord i en textruta har inte mellanslag mellan varandra i utdata-pdf
 
@@ -70,7 +70,7 @@ url: /sv/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41383) - java.lang.ArrayIndexOutOfBoundsException: 42, på Workbook.save
 
- (CELLSJAVA-41408) - CellsException: Form till bild Fel! medan du konverterar kalkylblad till PDF
+ (CELLSJAVA-41408) - CellsException: Form till bild Fel! medan du konverterar kalkylark till PDF
 
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -92,7 +92,7 @@ url: /sv/java/aspose-cells-for-java-8-5-1-release-notes/
 
 
 
- Lägger till metoden Cell.GetHeightOfValue().
+Lägger till metoden Cell.GetHeightOfValue().
 
  Det används för att få höjden på värdet i pixelenhet.
 
@@ -102,4 +102,4 @@ url: /sv/java/aspose-cells-for-java-8-5-1-release-notes/
 
  Notera
 
-Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, ingår de flesta av ändringarna, förbättringarna och korrigeringarna som ingår i Aspose.Cells for .NET v8.5.1 också i denna 076157318.4 v.4181.
+ Eftersom kodbasen för Aspose.Cells for Java matchar koden för relevant version .NET, ingår de flesta av ändringarna, förbättringarna och korrigeringarna som ingår i Aspose.Cells for .NET v8.5.1 också i denna 076157318.4 v.4181.

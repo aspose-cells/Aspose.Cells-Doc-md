@@ -8,7 +8,7 @@ url: /zh/java/chart-legend/
 ## **图例选项**
 Aspose.Cells 还允许在运行时管理图表的图例，使用[传奇](https://reference.aspose.com/cells/java/com.aspose.cells/Legend)对象、图例可以移动、更新和格式化。
 
-|![待办事项：图像_替代_文本](chart_legend.png)|
+|![待办事项：图片_替代_文本](chart_legend.png)|
 
 ## **设置图表图例**
 使用 Aspose.Cells 管理图表的图例很简单[传奇](https://reference.aspose.com/cells/java/com.aspose.cells/Legend).

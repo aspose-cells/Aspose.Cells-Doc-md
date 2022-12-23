@@ -16,7 +16,7 @@ url: /ru/java/insert-a-linked-picture-from-web-address/
 
 В Microsoft Excel (например, 2007):
 
-1.  Нажмите на**Вставлять** меню и выберите**Картина**.
+1.  Нажмите на**Вставлять** меню и выберите**Рисунок**.
 
 ![дело:изображение_альтернативный_текст](insert-a-linked-picture-from-web-address_1.png)
 
@@ -32,7 +32,7 @@ url: /ru/java/insert-a-linked-picture-from-web-address/
 
  Aspose.Cells for Java поддерживает добавление связанного изображения с помощью метода[**ShapeCollection.addLinkedPicture (int upperLeftRow, int upperLeftColumn, int height, int width, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
- Метод возвращает[**Картина**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)объект.
+ Метод возвращает[**Рисунок**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)объект.
 
 В следующем примере показано, как добавить связанное изображение с веб-адреса на лист.
 

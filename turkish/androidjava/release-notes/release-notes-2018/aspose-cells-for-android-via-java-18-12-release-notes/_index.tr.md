@@ -14,41 +14,41 @@ Bu sayfa Aspose.Cells for Android via Java 18.12 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-42745|Bağlantı noktalarını almak için döndürülen değeri değiştirin|Yeni özellik|
 |CELLSJAVA-42662|Aralığı HTML olarak dışa aktarma yeteneği sağlayın|Yeni özellik|
-|CELLSJAVA-42746|XLSX, HTML'ye dönüştürüldüğünde veri çubukları eksik|Yeni özellik|
-|CELLSJAVA-42747|Değer, XLSX HTML'ye dönüştürüldüğünde hala mevcuttur|Yeni özellik|
+|CELLSJAVA-42746|XLSX, HTML'e dönüştürüldüğünde veri çubukları eksik|Yeni özellik|
+|CELLSJAVA-42747|XLSX, HTML'e dönüştürüldüğünde değer hala mevcuttur|Yeni özellik|
 |CELLSJAVA-42634|Sol sağ şerit şeklini resme dönüştürün|Artırma|
 |CELLSJAVA-42713|Aspose.Cells for Java JavaDocs - eksik paket listesi dosyası|Artırma|
 |CELLSJAVA-42528|Yazı tipi geçerli bir HTML5 değil ve kendi kendine kapanan etiket ve web tarayıcıları içeriğini yanlış tanıtıyor|Artırma|
-|CELLSJAVA-42738|Doğrulama değerlerinin yanlış sayısı XLSX'ten okunuyor|Artırma|
+|CELLSJAVA-42738|XLSX'den yanlış doğrulama değerleri okundu|Artırma|
 |CELLSJAVA-42734|Ardışık sınırlayıcıları farklı olarak ele alırken sorun|Artırma|
 |CELLSJAVA-42731|Japonca yerel ayar için tarih biçimi yanlış|Artırma|
 |CELLSJAVA-42748|LightCells API, büyük dosyayı yükleyemiyor|Artırma|
-|CELLSJAVA-42728|PDF çıktısına kaydederken bir istisna (StackOverFlow) ortaya çıkıyor|Böcek|
+|CELLSJAVA-42728|PDF çıktısına kaydederken bir istisna (StackOverFlow) yükseliyor|Böcek|
 |CELLSJAVA-42729|ROUNDUP() tarafından hesaplanan yanlış değer|Böcek|
 |CELLSJAVA-42724|Satır yüksekliklerini düzgün şekilde kopyalamayan PasteType.ALL (Yapıştırma seçenekleri) ile bir aralığı kopyalayın|Böcek|
 |CELLSJAVA-42722|Yeni metin ayarlandığında köprü metni biçimlendirmesi kayboluyor|Böcek|
 |CELLSJAVA-42688|Geçersiz Rusça tarih biçimi çıktısı|Böcek|
 |CELLSJAVA-42721|SheetRender yazı tipleriyle ilgili sorun|Böcek|
-|CELLSJAVA-42723|MS Excel dosyasını PDF'ye dönüştürürken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|Böcek|
+|CELLSJAVA-42723|MS Excel dosyasını PDF olarak işlerken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|Böcek|
 |CELLSJAVA-42725|Aspose.Cells aracılığıyla hücre formülü alınırken formülde alıntılar görünüyor|Böcek|
 |CELLSJAVA-42720|Koşullu biçimlendirme kullanılırken performans düşüşü|Böcek|
 |CELLSJAVA-42737|XLSX->PNG dönüşümünde grafik satırı eksik|Böcek|
 |CELLSJAVA-42735|getActualChartSize yöntemiyle ilgili sorun|Böcek|
 |CELLSJAVA-40861|Çalışma kitabı kopyalandığında SmartArt kopyalanmıyor|Böcek|
 |CELLSJAVA-42727|Excel aralığının HTML çıktısında metin biçimlendirmesi eksik|Böcek|
-|CELLSJAVA-42744|XLSX HTML'ye dönüştürüldüğünde Simge Kümeleri yanlış hizalanır|Böcek|
-|CELLSJAVA-42772|Adlandırılmış aralık verilerini dışa aktarma, HTML'ye doğru şekilde işlenmedi (Java)|Böcek|
+|CELLSJAVA-42744|XLSX, HTML'e dönüştürüldüğünde Simge Kümeleri yanlış hizalanır|Böcek|
+|CELLSJAVA-42772|Adlandırılmış aralık verilerinin dışa aktarılması doğru şekilde HTML'e (Java) işlenmedi|Böcek|
 |CELLSJAVA-42753|Adlandırılmış Aralık Sorunu|Böcek|
 |CELLSJAVA-42764|Doğrulama, 'getInCellDropDown()' yöntemi için her zaman true değerini döndürür|Böcek|
 |CELLSJAVA-42768|Farklı yerel ayarlar (Almanya, Fransa, İtalya ve İspanya) için yanlış kültür özel biçimi döndürülüyor|Böcek|
 |CELLSJAVA-42758|Excel'den PDF'e dönüştürme - Gösterge grafiği oluşturma sorunu|Böcek|
-|CELLSJAVA-42761|PDF yorumlama, OutOfMemoryError istisnasını atar|Böcek|
+|CELLSJAVA-42761|PDF yorumlama, OutOfMemoryError özel durumu oluşturuyor|Böcek|
 |CELLSJAVA-42759|Dosyaları dönüştürürken CellsException|İstisna|
-|CELLSJAVA-42755|XLSX dosyalarının örneğini oluştururken "NullPointerException" istisnası|İstisna|
+|CELLSJAVA-42755|XLSX dosya(lar)ı başlatılırken "NullPointerException" istisnası|İstisna|
 |CELLSJAVA-42762|Dosyaları işlerken NumberFormatException|İstisna|
-|CELLSJAVA-42774|CSV yüklerken NullPointerException|İstisna|
-|CELLSJAVA-42765|Bir Excel dosyasını PDF dosya biçimine dönüştürürken "com.aspose.cells.CellsException" istisnası|İstisna|
-|CELLSJAVA-42754|Bir XLS dosya formatını başlatırken "IllegalStateException: Geçersiz kodlama: null" istisnası|İstisna|
+|CELLSJAVA-42774|Bir CSV yüklenirken NullPointerException|İstisna|
+|CELLSJAVA-42765|Bir Excel dosyasını PDF dosya biçiminde işlerken "com.aspose.cells.CellsException" istisnası|İstisna|
+|CELLSJAVA-42754|XLS dosya biçimi başlatılırken "IllegalStateException: Geçersiz kodlama: boş" istisnası|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 
@@ -56,7 +56,7 @@ Aşağıda, API Aspose.Cells for Android Aspose.Cells adresinde yapılan, eklene
 
 **HtmlSaveOptions.WidthScalable özelliğini ekler**
 
-Dosyayı HTML'ye dışa aktarırken sütun genişliğini açıklamak için ölçeklenebilir birim kullanılıp kullanılmadığını gösterir. Varsayılan değer yanlıştır.
+Dosyayı HTML'e dışa aktarırken sütun genişliğini açıklamak için ölçeklenebilir birim kullanılıp kullanılmadığını gösterir. Varsayılan değer yanlıştır.
 
 **WorkbookDesigner.UpdateEmptyStringAsNull özelliğini ekler**
 
@@ -201,6 +201,6 @@ Bunun yerine ExportDataTable(firstRow,firstColumn, totalRows, totalColumns,Expor
 
 {{% alert color="primary" %}}
 
-Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761,1631,1631. 0761,16341,1631. 0711616341. 0731,1631. 0731,1631,1631,1631. 071. Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 ve Aspose.Cells for Java v18.12 de buna dahildir Aspose.Cells for Android 0761193121.v18.12.
+Aspose.Cells Kod tabanı for Android via Java, ilgili .NET ve Java sürüm (ler), Aspose.Cells 07616341. 0761. 071. 0761. 0711631. 071161631. 0731. 071161631. 0731,1631. 0731,16341,1631. 071. Aspose.Cells for Java v18.10, Aspose.Cells for Java v18.11 ve Aspose.Cells for Java v18.12 de buna dahildir Aspose.Cells for Android 0761193121.v18.12.
 
 {{% /alert %}}

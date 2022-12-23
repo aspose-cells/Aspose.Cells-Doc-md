@@ -29,7 +29,7 @@ Insectos
 
 (CELLSJAVA-40848) - Los colores de fondo del formato condicional no se representan en el pdf
 (CELLSJAVA-40852): la configuración de la transparencia de ImageOrPrintOptions representa el PNG con fondo negro
-(CELLSJAVA-40855) - XLSX a PDF: CellsHelper.setFontDir no parece seleccionar las fuentes
+(CELLSJAVA-40855) - XLSX a PDF: CellsHelper.setFontDir no parece elegir las fuentes
 (CELLSJAVA-40862) - Cell.getType() está detectando el número como fecha y hora
 (CELLSJAVA-40863): compatibilidad con formatos localizados en fórmulas
 

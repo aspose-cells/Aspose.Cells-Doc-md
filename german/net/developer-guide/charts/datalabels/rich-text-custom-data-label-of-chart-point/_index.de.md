@@ -12,6 +12,6 @@ url: /de/net/rich-text-custom-data-label-of-chart-point/
 
 ## Benutzerdefinierte Rich-Text-Datenbeschriftung des Diagrammpunkts
 
- Der folgende Code greift auf den ersten Diagrammpunkt der ersten Reihe zu, setzt seinen Text und legt dann die Schriftart der ersten 10 Zeichen fest, indem er seine Farbe auf Rot und Fettdruck auf setzt**Stimmt**.
+ Der folgende Code greift auf den ersten Diagrammpunkt der ersten Reihe zu, setzt seinen Text und legt dann die Schriftart der ersten 10 Zeichen fest, indem er seine Farbe auf Rot und Fettdruck auf setzt**wahr**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-RichTextCustomDataLabel-RichTextCustomDataLabelOfChartPoint.cs" >}}

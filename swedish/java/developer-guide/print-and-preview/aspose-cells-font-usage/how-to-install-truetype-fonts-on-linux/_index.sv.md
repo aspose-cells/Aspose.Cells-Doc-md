@@ -6,7 +6,7 @@ url: /sv/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-Det mest troliga scenariot är att du använder Aspose.Cells för att konvertera kalkylblad till PDF. Om du gör detta på ett icke-Windows-baserat operativsystem som Linux så förklarar det här avsnittet hur du säkerställer att Aspose.Cells återger dina kalkylblad med bästa noggrannhet.
+Det mest troliga scenariot är att du använder Aspose.Cells för att konvertera kalkylblad till PDF. Om du gör detta på ett icke-Windows-baserat operativsystem som Linux så förklarar det här avsnittet hur du säkerställer att Aspose.Cells renderar dina kalkylblad med bästa noggrannhet.
 
 För att se till att kalkylblad som konverterats av Aspose.Cells visas så nära originalet som möjligt kan du behöva installera "Windows fonts" eller "TrueType fonts" på ditt Linux-system eftersom de vanligaste TrueType-teckensnitten inte kommer förinstallerade med Linux-distributioner som standard.
 

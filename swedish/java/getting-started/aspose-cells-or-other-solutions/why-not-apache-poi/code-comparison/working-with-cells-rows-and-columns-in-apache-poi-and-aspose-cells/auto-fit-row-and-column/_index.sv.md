@@ -7,7 +7,7 @@ url: /sv/java/auto-fit-row-and-column/
 ## **Aspose.Cells - Autopassa rad och kolumn**
 Det enklaste sättet att automatiskt anpassa bredd och höjd på en rad är att anropa metoden Worksheet.autoFitRow. AutoFitRow-metoden tar ett radindex (för raden som ska ändras storlek) som en parameter.
 
-**Vänligen notera:** Om du vill automatiskt anpassa rader och kolumner i Excel-kalkylblad med Java, vänligen besök[Autopassa rader och kolumner](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Vänligen notera:**Om du vill automatiskt anpassa rader och kolumner i Excel-kalkylblad med Java, vänligen besök[Autopassa rader och kolumner](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 
@@ -57,5 +57,5 @@ fileOut.close();
 {{< /highlight >}}
 ## **Ladda ner Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java/com/aspose/cells/examples/featurescomparison/cellsrowscolumns/autofitrowandcolumn)

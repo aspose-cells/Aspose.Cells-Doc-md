@@ -156,7 +156,7 @@ Aspose.Cells は、一般的なリストをネストされたオブジェクト�
 
 ## **Smart Markers の HTML プロパティの使用**
 
-次のサンプル コードでは、スマート マーカーの HTML プロパティの使用について説明します。処理されると、HTML のため、「Hello World」の「World」が太字で表示されます\<b>鬼ごっこ。
+次のサンプル コードでは、スマート マーカーの HTML プロパティの使用について説明します。処理されると、HTML のため、「Hello World」の「World」が太字で表示されます \<b>鬼ごっこ。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 

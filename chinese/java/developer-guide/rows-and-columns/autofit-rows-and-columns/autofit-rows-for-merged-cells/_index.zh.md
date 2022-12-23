@@ -16,7 +16,7 @@ Microsoft Excel 提供了一项功能，允许您根据单元格的内容自动�
 
 **输出Excel文件**
 
-![待办事项：图像_替代_文本](autofit-rows-for-merged-cells_1.png)
+![待办事项：图片_替代_文本](autofit-rows-for-merged-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AutoFitRowsforMergedCells-AutoFitRowsforMergedCells.java" >}}
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Speichern Sie die Arbeitsmappe mit Aspose.Cells im Text- oder CSV-Format
+title: Speichern Sie die Arbeitsmappe im Text- oder CSV-Format mit Aspose.Cells
 type: docs
 weight: 80
 url: /de/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
@@ -10,11 +10,11 @@ Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern in das Tex
 
 {{% /alert %}} 
 
-Im folgenden Codebeispiel wird erläutert, wie eine gesamte Arbeitsmappe im Textformat gespeichert wird. Laden Sie die Quellarbeitsmappe, bei der es sich um eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Arbeitsblättern handeln kann.
+Im folgenden Codebeispiel wird erläutert, wie eine gesamte Arbeitsmappe im Textformat gespeichert wird. Laden Sie die Quellarbeitsmappe, die eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei sein kann (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Arbeitsblättern.
 
-Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das TXT-Format.
+Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das Format TXT.
 
-Sie können dasselbe Beispiel ändern, um Ihre Datei im CSV-Format zu speichern. Standardmäßig ist TxtSaveOptions.Separator ein Komma, geben Sie also kein Trennzeichen an, wenn Sie im CSV-Format speichern.
+Sie können dasselbe Beispiel ändern, um Ihre Datei im Format CSV zu speichern. TxtSaveOptions.Separator ist standardmäßig ein Komma, geben Sie also kein Trennzeichen an, wenn Sie im Format CSV speichern.
 
 **C#**
 
@@ -22,9 +22,9 @@ Sie können dasselbe Beispiel ändern, um Ihre Datei im CSV-Format zu speichern.
 
 string FilePath = @"..\..\..\Beispieldateien\";
 
-string FileName = FilePath + "Arbeitsmappe im Text- oder CSV-Format.xlsx speichern";
+string FileName = FilePath + "Save Workbook to Text or CSV Format.xlsx";
 
-string destFileName = FilePath + "Arbeitsmappe im Text- oder CSV-Format.txt speichern";
+string destFileName = FilePath + "Save Workbook to Text or CSV Format.txt";
 
 //Laden Sie Ihre Quellarbeitsmappe
 

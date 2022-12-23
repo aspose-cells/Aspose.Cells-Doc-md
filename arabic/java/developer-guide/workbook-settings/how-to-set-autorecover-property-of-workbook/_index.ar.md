@@ -6,7 +6,7 @@ url: /ar/java/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- يمكنك استخدام Aspose.Cells لتعيين خاصية الاسترداد التلقائي للمصنف. القيمة الافتراضية لهذه الخاصية هي**حقيقي** . عندما تقوم بتعيينه**خاطئة**في أحد المصنفات ، يقوم Microsoft Excel بتعطيل الاسترداد التلقائي (الحفظ التلقائي) في ملف Excel هذا.
+يمكنك استخدام Aspose.Cells لتعيين خاصية الاسترداد التلقائي للمصنف. القيمة الافتراضية لهذه الخاصية هي**حقيقي** . عندما تقوم بتعيينه**خاطئة** في أحد المصنفات ، يقوم Microsoft Excel بتعطيل الاسترداد التلقائي (الحفظ التلقائي) في ملف Excel هذا.
 
  يوفر Aspose.Cells[**Workbook.getSettings (). setAutoRecover ()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) الخاصية لتمكين أو تعطيل هذا الخيار.
 

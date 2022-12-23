@@ -47,7 +47,7 @@ Vi kan ha några användardefinierade formler som vi vill inkludera som ett exce
 
  Aspose.Cells tillhandahåller funktioner för att registrera tilläggsfunktioner med hjälp av[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index). Efteråt när vi ställer in cell.Formula = anyFunctionFromAddIn, innehåller utdata Excel-filen det beräknade värdet från AddIn-funktionen.
 
-Följande XLAM-fil ska laddas ner för registrering av tilläggsfunktionen i exempelkoden nedan. På samma sätt kan utdatafilen "test_udf.xlsx" laddas ner för att kontrollera utdata.
+Följande XLAM-fil ska laddas ner för registrering av tilläggsfunktionen i nedanstående exempelkod. På samma sätt kan utdatafilen "test_udf.xlsx" laddas ner för att kontrollera utdata.
 
 [TestUDF.xlam](81920908.xlam)
 
@@ -63,8 +63,8 @@ Vissa Microsoft Excel-funktioner returnerar matriser med värden. För att berä
 
  Det är möjligt att tillämpa en matrisformel på en cell genom att anropa[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) klass'[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metod. De[**SetArrayFormula**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setarrayformula) metoden tar följande parametrar:
 
-- **Matrisformel**, matrisformeln.
-- **Antal rader**antalet rader som ska fyllas i resultatet av matrisformeln.
+- **Matrisformel**matrisformeln.
+- **Antal rader**, antalet rader som ska fyllas i resultatet av matrisformeln.
 - **Antal kolumner**antalet kolumner som ska fyllas i resultatet av matrisformeln.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-ProcessDataUsingArrayFunction-1.cs" >}}

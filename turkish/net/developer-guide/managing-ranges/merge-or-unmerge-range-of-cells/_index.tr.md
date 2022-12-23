@@ -12,7 +12,7 @@ keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in r
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
  Aşağıdaki örnek kod önce bir aralık (A1:D4) oluşturur, ardından aralıktaki hücreleri tek bir hücrede birleştirir.[**Aralık.Birleştirme()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) yöntem. Benzer şekilde, bir aralık oluşturarak ve çağırarak hücreleri bölebilirsiniz.[**Range.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge)yöntem.
 

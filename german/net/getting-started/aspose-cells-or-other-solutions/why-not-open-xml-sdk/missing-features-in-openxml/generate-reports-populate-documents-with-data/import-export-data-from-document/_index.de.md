@@ -21,7 +21,7 @@ Daten sind die Sammlung von Rohdaten, und wir erstellen Tabellendokumente oder B
 - **DataReader**
 - **Rasteransicht**
 
- Aspose.Cells bietet eine Klasse,**Arbeitsmappe** die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit.
+ Aspose.Cells bietet eine Klasse,**Arbeitsmappe** die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Sammlung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse stellt eine Cells-Sammlung bereit.
 
 Cells-Sammlung bietet sehr nützliche Methoden zum Importieren von Daten aus verschiedenen Datenquellen.
 
@@ -64,7 +64,7 @@ workbook.Save(MyDir+"DataImport from Array.xls");
 
 ### **Importieren aus ArrayList**
 
- Entwickler können Daten aus einer ArrayList in ihre Arbeitsblätter importieren, indem sie die aufrufen**ArrayListe importieren** Methode der Sammlung Cells. Die ImportArray-Methode übernimmt die folgenden Parameter:**Anordnungsliste** , stellt das ArrayList-Objekt dar, dessen Inhalt importiert werden muss
+ Entwickler können Daten aus einer ArrayList in ihre Arbeitsblätter importieren, indem sie die aufrufen**ArrayListe importieren** Methode der Sammlung Cells. Die ImportArray-Methode akzeptiert die folgenden Parameter:**Anordnungsliste** , stellt das ArrayList-Objekt dar, dessen Inhalt importiert werden muss
 
 - Zeilennummer stellt die Zeilennummer der ersten Zelle dar, in die die Daten importiert werden
 - Spaltennummer stellt die Spaltennummer der ersten Zelle dar, in die die Daten importiert werden
@@ -259,10 +259,10 @@ Entwickler können ihre Arbeitsblattdaten einfach in ein DataTable-Objekt export
 
 ### **Spalten mit stark typisierten Daten**
 
- Wir wissen, dass eine Tabelle Daten als eine Folge von Zeilen und Spalten speichert. Wenn alle Werte in den Spalten eines Arbeitsblatts stark typisiert sind (d. h. alle Werte in einer Spalte müssen denselben Datentyp haben), können wir den Inhalt des Arbeitsblatts exportieren, indem wir die aufrufen**ExportDataTable** Methode der Klasse Cells.**ExportDataTable** -Methode verwendet die folgenden Parameter, um Arbeitsblattdaten als zu exportieren**Datentabelle** Objekt:**Zeilennummer** , stellt die Zeilennummer der ersten Zelle dar, aus der die Daten exportiert werden
+Wir wissen, dass eine Tabelle Daten als eine Folge von Zeilen und Spalten speichert. Wenn alle Werte in den Spalten eines Arbeitsblatts stark typisiert sind (d. h. alle Werte in einer Spalte müssen denselben Datentyp haben), können wir den Inhalt des Arbeitsblatts exportieren, indem wir die aufrufen**ExportDataTable** Methode der Klasse Cells.**ExportDataTable** -Methode verwendet die folgenden Parameter, um Arbeitsblattdaten als zu exportieren**Datentabelle** Objekt:**Zeilennummer** , stellt die Zeilennummer der ersten Zelle dar, aus der die Daten exportiert werden
 
 - **Spaltennummer** , stellt die Spaltennummer der ersten Zelle dar, aus der die Daten exportiert werden
-- **Reihenanzahl** , stellt die Anzahl der zu exportierenden Zeilen dar
+- **Anzahl der Reihen** , stellt die Anzahl der zu exportierenden Zeilen dar
 - **Anzahl der Spalten** stellt die Anzahl der zu exportierenden Spalten dar
 - **Spaltennamen exportieren** , eine boolesche Eigenschaft, die angibt, ob die Daten in der ersten Zeile des Arbeitsblatts als Spaltennamen der DataTable exportiert werden sollen oder nicht
 

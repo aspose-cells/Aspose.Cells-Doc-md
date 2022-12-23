@@ -151,12 +151,12 @@ renderer.toImage(0, "output.png");
 
 {{% /alert %}} 
 
-### **Renderización de comentarios a PDF**
- Con el lanzamiento de v8.4.1, Aspose.Cells API ha proporcionado la propiedad PageSetup.PrintComments y la enumeración PrintCommentsType para facilitar la representación de comentarios al convertir hojas de cálculo a formato PDF. La enumeración PrintCommentsType tiene las siguientes constantes.
+### **Presentación de comentarios al PDF**
+ Con el lanzamiento de v8.4.1, Aspose.Cells API ha proporcionado la propiedad PageSetup.PrintComments y la enumeración PrintCommentsType para facilitar la representación de comentarios al convertir hojas de cálculo al formato PDF. La enumeración PrintCommentsType tiene las siguientes constantes.
 
 - ImprimirComentariosTipo.IMPRIMIR_NO_COMENTARIOS: Los comentarios no deben ser renderizados.
 - ImprimirComentariosTipo.IMPRIMIR_EN_LUGAR: Los comentarios deben presentarse donde se colocan.
-- ImprimirComentariosTipo.IMPRIMIR_SÁBANA_FIN: Los comentarios deben presentarse al final de la hoja de trabajo.
+- ImprimirComentariosTipo.IMPRIMIR_HOJA_FIN: Los comentarios deben presentarse al final de la hoja de trabajo.
 
 El siguiente código de ejemplo muestra el uso de la propiedad PageSetup.PrintComments para representar los comentarios con todos los valores de enumeración PrintCommentsType posibles.
 
@@ -201,7 +201,7 @@ workbook.save("printsheetend.pdf");
 ### **Se agregó la propiedad Workbook.isLicensed**
 Aspose.Cells for Java 8.4.1 ha expuesto Workbook.isLicensed, que podría ser de gran ayuda para determinar si la licencia se cargó correctamente o no. Si accede a esta propiedad antes de establecer la licencia, devolverá falso y viceversa, sin embargo, la licencia debería ser válida.
 
-El siguiente código de ejemplo muestra el uso de la propiedad Workbook.isLicensed.
+El siguiente código de ejemplo demuestra el uso de la propiedad Workbook.isLicensed.
 
 **Java**
 

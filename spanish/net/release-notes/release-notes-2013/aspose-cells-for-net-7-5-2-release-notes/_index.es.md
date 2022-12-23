@@ -30,7 +30,7 @@ url: /es/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 - Problema con la actualización de tablas dinámicas
+ 41891 - Problema con la actualización de tablas dinámicas
 
  41868 - Problema de fórmula DSUM
 
@@ -50,7 +50,7 @@ url: /es/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 
 
 

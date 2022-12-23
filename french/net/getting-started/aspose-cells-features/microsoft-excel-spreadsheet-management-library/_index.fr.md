@@ -7,11 +7,11 @@ url: /fr/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Bibliothèque de gestion de feuille de calcul Excel**
 ### **Caractéristiques des documents**
 - Ouvrez des fichiers Microsoft Excel bruts ou cryptés (Excel97 - Excel2007/2010/2013) provenant de différentes sources.
-- Enregistrez des fichiers Excel (Excel 97 - Excel2007/2010/2013) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML etc.)
-- Convertir un fichier Excel en document PDF.
-- Convertir une feuille de calcul Excel en document XPS.
+- Enregistrer les fichiers Excel (Excel 97 - Excel2007/2010/2013) dans différents formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, etc.
+- Convertissez le fichier Excel en document PDF.
+- Convertissez la feuille de calcul Excel en document XPS.
 - Convertir au format de fichier image balisé (TIFF).
-- Lecture et écriture au format OpenDocument Spreadsheet (ODS).
+- Lecture et écriture au format feuille de calcul OpenDocument (ODS).
 - Modifier les propriétés de document des fichiers Excel.
 ### **Fonctionnalités de la feuille de calcul**
 #### **Option d'affichage**

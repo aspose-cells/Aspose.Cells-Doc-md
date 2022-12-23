@@ -13,7 +13,7 @@ description: Aspose.Cells kitaplığı ile VBA Modülü ekleyin ve VBA veya Makr
 
 {{% /alert %}}
 
-Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur ve yeni bir VBA Modülü ve Makro Kodu ekler ve çıktıyı XLSM biçiminde kaydeder. Bir kez, çıktı XLSM dosyasını Microsoft Excel'de açacaksınız ve**Geliştirici > Visual Basic** menü komutları, "TestModule" adında bir modül göreceksiniz ve içinde aşağıdaki makro kodunu göreceksiniz.
+Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur ve yeni bir VBA Modülü ve Makro Kodu ekler ve çıktıyı XLSM biçiminde kaydeder. Bir kez, XLSM çıktı dosyasını Microsoft Excel'de açacaksınız ve**Geliştirici > Visual Basic** menü komutları, "TestModule" adında bir modül göreceksiniz ve içinde aşağıdaki makro kodunu göreceksiniz.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-İşte VBA Modülü ve Makro Kodu ile çıktı XLSM dosyasını oluşturmak için örnek kod.
+İşte XLSM çıktı dosyasını VBA Modülü ve Makro Kodu ile oluşturmak için örnek kod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

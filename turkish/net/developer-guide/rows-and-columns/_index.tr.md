@@ -32,7 +32,7 @@ Elektronik tablolarla çalışırken ve satırlara veya sütunlara veri eklerken
 
  Geliştiricilerin çalışma sayfasındaki tüm satırlar için aynı satır yüksekliğini ayarlamaları gerekirse, bunu[**Standart Yükseklik**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) mülkiyeti[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)Toplamak.
 
-**Örnek:**
+**Örnek vermek:**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightAllRows-1.cs" >}}
 

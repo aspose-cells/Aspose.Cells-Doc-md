@@ -13,9 +13,9 @@ Cette rubrique explique comment utiliser Aspose.Cells.GridWeb avec les applicati
 Cette rubrique montre comment utiliser Aspose.Cells.GridWeb en créant un exemple de site Web dans Visual Studio 2019. Le processus a été divisé en étapes.
 ### **Étape 1 : Création d'un nouveau projet**
 1. Ouvrez Visual Studio 2019.
-1.  Du**Dossier** menu, sélectionnez**Nouveau** , alors**Projet**.
+1.  Du**Dossier** menu, sélectionnez**Nouveau** , ensuite**Projet**.
  La boîte de dialogue Créer un nouveau projet s'ouvre.
-1.  Sélectionner**ASP.NET Application Web de base** à partir des modèles de projet installés dans Visual Studio et cliquez sur**Prochain**.
+1.  Sélectionner**ASP.NET Application Web de base** à partir des modèles de projet installés dans Visual Studio et cliquez sur**Suivant**.
 
 ![tâche : image_autre_texte](how-to-use-aspose-cells-gridweb-with-net-core_1.jpg)
 

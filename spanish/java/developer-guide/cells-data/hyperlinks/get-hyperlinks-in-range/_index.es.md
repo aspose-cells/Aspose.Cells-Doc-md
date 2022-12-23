@@ -6,7 +6,7 @@ url: /es/java/get-hyperlinks-in-range/
 ---
 ## **Obtener hipervínculos en rango**
 
-los[**Rango**](https://reference.aspose.com/cells/java/com.aspose.cells/range) la clase proporciona un[**obtener hipervínculos()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks) captador de propiedades que obtiene todos los hipervínculos en el rango seleccionado. También puede eliminar el hipervínculo llamando al[**Hipervínculo.eliminar()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()) método.
+Él[**Rango**](https://reference.aspose.com/cells/java/com.aspose.cells/range) la clase proporciona un[**obtener hipervínculos()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#Hyperlinks) captador de propiedades que obtiene todos los hipervínculos en el rango seleccionado. También puede eliminar el hipervínculo llamando al[**Hipervínculo.eliminar()**](https://reference.aspose.com/cells/java/com.aspose.cells/hyperlink#delete()) método.
 
 ## Código de muestra
 

@@ -6,7 +6,7 @@ url: /fr/net/change-the-absolute-path-of-external-link-data-source-file/
 ---
 ## Scénarios d'utilisation possibles
 
- Si vous souhaitez modifier le chemin absolu du fichier de source de données du lien externe, veuillez utiliser le[**Workbook.AbsolutePathWorkbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)propriété. Initialement, cette propriété sera définie sur le chemin à partir duquel le fichier Excel a été chargé. Mais vous pouvez le définir sur une chaîne vide ou vous pouvez le définir sur un chemin de dossier local ou un chemin de réseau distant. Chaque fois que vous modifierez cette propriété, le chemin du fichier de source de données de lien externe sera également modifié.
+ Si vous souhaitez modifier le chemin absolu du fichier de source de données du lien externe, veuillez utiliser le[**Workbook.AbsolutePathWorkbook.AbsolutePath**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/absolutepath)la propriété. Initialement, cette propriété sera définie sur le chemin à partir duquel le fichier Excel a été chargé. Mais vous pouvez le définir sur une chaîne vide ou vous pouvez le définir sur un chemin de dossier local ou un chemin de réseau distant. Chaque fois que vous modifierez cette propriété, le chemin du fichier de source de données de lien externe sera également modifié.
 
 ## Modifier le chemin absolu du fichier de source de données de lien externe
 

@@ -12,7 +12,7 @@ url: /it/net/check-password-to-modify-using-aspose-cells/
 
 ## **Controllare la password da modificare in Microsoft Excel**
 
-Puoi assegnare**Password per aprire** e**Password da modificare** durante la creazione delle cartelle di lavoro in Microsoft Excel. Si prega di vedere questo screenshot che mostra l'interfaccia fornita da Microsoft Excel per specificare queste password.
+ Puoi assegnare**Password per aprire** e**Password da modificare** durante la creazione delle cartelle di lavoro in Microsoft Excel. Si prega di vedere questo screenshot che mostra l'interfaccia Microsoft fornita da Excel per specificare queste password.
 
 |![cose da fare:immagine_alt_testo](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |

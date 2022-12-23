@@ -6,11 +6,11 @@ url: /tr/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Olası Kullanım Senaryoları**
 
- Aspose.Cells API'ler şu bilgileri açığa çıkardı:[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)kullanıcının bir e-tabloda Alt Toplamlar için özel etiketler kullanmak istediği senaryolarla başa çıkmak için sınıf. Ayrıca,[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)sınıf aynı zamanda değiştirmek için de kullanılabilir.**Başka** çalışma sayfasını veya grafiği işlerken Pasta grafiği için etiket.
+ Aspose.Cells API'ler şu bilgileri açığa çıkardı:[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)kullanıcının bir e-tabloda Alt Toplamlar için özel etiketler kullanmak istediği senaryolarla başa çıkmak için sınıf. Ayrıca,[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) sınıf aynı zamanda değiştirmek için de kullanılabilir.**Diğer** çalışma sayfasını veya grafiği işlerken Pasta grafiği için etiket.
 
 ## **GlobalizationSettings Sınıfına Giriş**
 
- bu[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) class şu anda, Alt Toplamlar için istenen etiketleri almak veya alt toplamlar için özel metin oluşturmak üzere özel bir sınıfta geçersiz kılınabilen aşağıdaki 3 yöntemi sunmaktadır.**Başka** Pasta grafiğin etiketi.
+ bu[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) class şu anda, Alt Toplamlar için istenen etiketleri almak veya alt toplamlar için özel metin oluşturmak üzere özel bir sınıfta geçersiz kılınabilen aşağıdaki 3 yöntemi sunmaktadır.**Diğer** Pasta grafiğin etiketi.
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Fonksiyonun toplam adını alır.
 1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Fonksiyonun genel toplam adını alır.
@@ -18,7 +18,7 @@ url: /tr/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Ara Toplamlar için Özel Etiketler**
 
- bu[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) sınıfı geçersiz kılarak Ara Toplam etiketlerini özelleştirmek için kullanılabilir.[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Yöntemler ileride gösterildiği gibi.
+ bu[**KüreselleşmeAyarları**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)sınıfı geçersiz kılarak Ara Toplam etiketlerini özelleştirmek için kullanılabilir.[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Yöntemler ileride gösterildiği gibi.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 

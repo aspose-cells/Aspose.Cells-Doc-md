@@ -12,7 +12,7 @@ Aspose.Cells, çalışma kitabında bulunan tanımlı adları filtrelemenize vey
 
  Aşağıdaki örnek kod,[örnek excel dosyası](61767860.xlsx) hücrede formülü olan**C1** tanımlı adları içeren örn.*= TOPLA(Adım1, Adım2)*. ~ kullandığımız için[**LoadDataFilterOptions.DefinedNames**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions) çalışma kitabını yüklerken tanımlı adları kaldırmak için C1 hücresindeki formül[çıktı excel dosyası](61767861.xlsx) kırılır ve görürsün*#NAME?*yerine. Lütfen kodun örnek Excel dosyası üzerindeki etkisini gösteren aşağıdaki ekran görüntüsüne bakın.
 
-![yapılacaklar:resim_alternatif_Metin](filter-defined-names-while-loading-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](filter-defined-names-while-loading-workbook_1.png)
 
 ## **Basit kod**
 

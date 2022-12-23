@@ -65,8 +65,8 @@ Aspose.Cells
 - Excel 到 Html - 自动换行问题
 - 保存后按钮的字体属性发生变化
 - 使用 Shape.UpperLeftRow() 方法缩小图表的图例
-- 输出 PDF 文档时出错
-- 呈现为 PDF 文件时不支持多行标题
+- 输出PDF文档出错
+- 渲染到 PDF 文件时不支持多行标题
 - 从数据透视表的基本字段中读取所有数据
 - 将 Excel 工作表导出到 DataTable 会出错
 - 打开 ODS 文件问题
@@ -74,23 +74,23 @@ Aspose.Cells
 
 -#Ref 中的公式结果
 
-- XLS 文件使 MS Excel 2007 崩溃
+- XLS 文件崩溃 MS Excel 2007
 - 使用 Ms Excel 打开文件时出错
-- 新 Aspose.Cells DLL（版本）中的 HTML 输出问题
+- 新的 Aspose.Cells DLL（版本）中的 HTML 输出有问题
 
--用数据透视表更新 XLSX 文件导致 Excel 显示错误
+-用数据透视表更新XLSX文件导致Excel显示错误
 
 -ToImage 函数在生成的图像中生成额外的列（Sheet-to-Imageissue）
 
-- 具有多个彩色表格的 Excel 2007 工作簿未在转换后的 PDF 文件中呈现
+- 包含多个彩色表格的 Excel 2007 工作簿未在转换后的 PDF 文件中呈现
 
- 在 Excel 中使用“一页上的拟合表”选项转换为 PDF 似乎不起作用
+ 在 Excel 中使用“一页上的装配表”选项转换为 PDF 似乎不起作用
 
 - 从 v5.2.1.0 升级到 v7.0.3.0 时出现多个问题
 
 \2) Aspose.Cells.GridDesktop
 
-新的功能
+新功能
 
 - 导入到 GridDesktop 时 MS Excel 的分组数据功能
 

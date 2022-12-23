@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ru/net/
 is_root: true
-description: Мощная и быстрая библиотека программирования электронных таблиц, написанная в C#. Она поддерживает популярные форматы файлов Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, SpreadsheetML, CSV), OpenOffice (ODS), HTML и JSON и позволяет экспортировать файлы Excel в PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, обычный текст и популярные форматы изображений, включая TIFF, JPG, PNG, BMP и SVG.
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF,DOCX, PPTX, JSON, XPS, HTML, MHTML, обычный текст и популярные форматы изображений, включая TIFF, JPG, PNG, BMP and SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Мощная и быстрая библиотека програм�
 
 В сочетании с API и элементами управления графическим интерфейсом Aspose.Cells for .NET ускоряет программирование и преобразование Microsoft Excel®.
 
-Aspose.Cells for .NET поддерживает популярные форматы файлов электронных таблиц (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), которые ваша компания использует каждый день. Он также позволяет экспортировать файлы Excel в PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, обычный текст и популярные форматы изображений, включая TIFF, JPG, PNG, BMP и SVG.
+Aspose.Cells for .NET поддерживает популярные форматы файлов электронных таблиц (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), которые ваша компания использует каждый день. Он также позволяет экспортировать файлы Excel в форматы PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, обычный текст и популярные форматы изображений, включая TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}
@@ -45,7 +45,7 @@ Aspose.Cells for .NET поддерживает популярные формат
 				<li><a href="/cells/ru/net/supported-file-formats/">Поддерживаемые форматы файлов</a></li>
 				<li><a href="/cells/ru/net/aspose-cells-features/">Функции</a></li>
 				<li><a href="/cells/ru/net/system-requirements/">Системные Требования</a></li>
-				<li><a href="/cells/ru/net/getting-started/#how-to-install">Монтаж</a></li>
+				<li><a href="/cells/ru/net/getting-started/#how-to-install">Установка</a></li>
 				<li><a href="/cells/ru/net/installation/">Установите Aspose Cells до NuGet</a></li>
 			</ul>
 			<p>Учиться</p>
@@ -58,7 +58,7 @@ Aspose.Cells for .NET поддерживает популярные формат
 	</div>
 	<div class="col-md-4">
 		<p><b>Функции разработки</b></p>
-			<hr><p><a href="/cells/ru/net/developer-guide/">Руководство</a></p></hr>
+			<hr><p><a href="/cells/ru/net/developer-guide/">Гид</a></p></hr>
 			<ul>
 				<li><a href="/cells/ru/net/introduction-of-aspose-cells-for-net/">Введение Aspose.Cells for .NET</a></li>
 				<li><a href="/cells/ru/net/loading-saving-and-managing/">Загрузить и сохранить</a></li>

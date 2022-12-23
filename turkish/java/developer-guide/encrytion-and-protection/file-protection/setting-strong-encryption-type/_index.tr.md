@@ -18,15 +18,15 @@ Ayrıca Aspose.Cells API'i kullanarak Excel dosyalarını güçlü şifreleme t�
 
 Microsoft Excel'de (örneğin 2007) dosya şifrelemeyi uygulamak için:
 
-1.  itibaren**Aletler** menü, seç**Seçenekler**.
+1.  itibaren**Araçlar** menü, seç**Seçenekler**.
 1.  seçin**Güvenlik** sekme.
-1.  için bir değer girin**açmak için şifre** alan.
+1.  için bir değer girin**açmak için şifre** tarla.
 1.  Tıklamak**Gelişmiş**.
 1. Şifreleme türünü seçin ve parolayı onaylayın.
 
    **Microsoft Excel'de şifrelemeyi ayarlama**
 
-![yapılacaklar:resim_alternatif_Metin](setting-strong-encryption-type_1.png)
+![yapılacaklar:resim_alternatif_metin](setting-strong-encryption-type_1.png)
 
 ## **Aspose.Cells ile Şifreleme Uygulamak**
 

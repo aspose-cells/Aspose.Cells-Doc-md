@@ -6,13 +6,13 @@ url: /ru/net/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells может открывать различные Microsoft файлы версий Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX или зашифрованные файлы Excel.
+Aspose.Cells может открывать различные Microsoft файлы версий Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, открытие Microsoft Excel 2007/2010/2013/2013/2016/2019 и Office 365 XLSX или зашифрованные файлы Excel.
 
 {{% /alert %}}
 
 ## **Открытие файлов разных версий Microsoft Excel**
 
-Приложение часто должно иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может потребоваться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и т. д. Используйте конструктор или укажите**[Рабочая тетрадь] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** учебный класс'**[Формат файла] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)** атрибут типа, который определяет формат с помощью**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**перечисление.
+ Приложение часто должно иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может понадобиться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и так далее. Используйте конструктор или укажите**[Рабочая тетрадь] (https://reference.aspose.com/cells/net/aspose.cells/workbook)** учебный класс'**[Формат файла] (https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/fileformat)**атрибут типа, который определяет формат с помощью**[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**перечисление.
 
 **[FileFormatType] (https://reference.aspose.com/cells/net/aspose.cells/fileformattype)**перечисление содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
 
@@ -23,9 +23,9 @@ Aspose.Cells может открывать различные Microsoft файл
 |XLSX|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.|
 |XLSM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM.|
 |XLTX|Представляет файл шаблона Excel 2007/2010/2013/2016/2019 и Office 365 XLTX.|
-|XLTM|Представляет XLTM-файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов.|
-|XLSB|Представляет двоичный XLSB-файл Excel 2007/2010/2013/2016/2019 и Office 365.|
-|Электронная таблицаML|Представляет файл SpreadsheetML|
+|XLTM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов XLTM.|
+|XLSB|Представляет двоичный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB.|
+|SpreadsheetML|Представляет файл SpreadsheetML|
 |Цв|Представляет файл значений, разделенных табуляцией.|
 |TabDelimited|Представляет текстовый файл с разделителями табуляции|
 |шансы|Представляет файл ODS|
@@ -48,7 +48,7 @@ Aspose.Cells может открывать различные Microsoft файл
 
 ### **Открытие Microsoft файлов Excel 2007/2010/2013/2016/2019 и Office 365 XLSX**
 
- Чтобы открыть файл формата Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и установите соответствующий атрибут/параметры**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**class для загружаемого файла шаблона.
+Чтобы открыть формат Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)** и установите соответствующий атрибут/параметры**[LoadOptions](https://reference.aspose.com/cells/net/aspose.cells/loadoptions)**class для загружаемого файла шаблона.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningMicrosoftExcel2007XlsxFiles-1.cs" >}}
 

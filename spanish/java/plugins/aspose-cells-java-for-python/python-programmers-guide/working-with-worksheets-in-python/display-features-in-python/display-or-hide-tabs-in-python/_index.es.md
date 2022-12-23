@@ -6,7 +6,7 @@ url: /es/java/display-or-hide-tabs-in-python/
 ---
 ## **Aspose.Cells - Mostrar ocultar pestañas**
 ### **Ocultar pestañas**
- Para ocultar pestañas usando**Aspose.Cells Java para rubí** , llamar**Mostrar ocultar pestañas** módulo.
+ Para ocultar pestañas usando**Aspose.Cells Java para rubí** , llamada**Mostrar ocultar pestañas** módulo.
 
 **Código Python**
 

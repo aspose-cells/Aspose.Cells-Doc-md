@@ -15,9 +15,9 @@ url: /zh/java/aspose-cells-for-java-17-3-0-release-notes/
 |CELLSJAVA-42205|使用长字符串文本设置公式会导致损坏的 Excel 文件|强化|
 |CELLSJAVA-42204|电子表格中的虚线边框未呈现为 HTML|漏洞|
 |CELLSJAVA-42198|Aspose.Cells 生成的Excel文件公式计算有误|漏洞|
-|CELLSJAVA-42156|转换为 HTML 时，单元格的顶部和底部边框消失了|漏洞|
+|CELLSJAVA-42156|转换为 HTML 时单元格的顶部和底部边框消失|漏洞|
 |CELLSJAVA-42208|通过 Aspose.Cells 生成 PDF 时，评论（最后）被垂直切割|漏洞|
-|CELLSJAVA-42206|图表的系列虚线在输出 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42206|图表的系列虚线在输出中未正确呈现 PDF|漏洞|
 |CELLSJAVA-42167 |将图表转换为图像后，分类轴标签显示为两行|漏洞|
 |CELLSJAVA-42199|瀑布图，总条线和它之前的条线丢失|漏洞|
 |CELLSJAVA-42201|子任务 - 将图表转换为图像后，分类轴标签显示为两行|漏洞|

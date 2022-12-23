@@ -3,6 +3,7 @@ title: Arbetsbladsvyer
 type: docs
 weight: 40
 url: /sv/net/worksheet-views/
+description:  Den här artikeln kommer att beskriva hur du använder C# och .NET API för att interagera med sidbrytningsförhandsvisningen av en Excel-arbetsbok och kalkylblad. Arbeta med delade rutor, frysta rutor och zoomfaktor också.
 ---
 ## **Förhandsvisning av sidbrytning**
 
@@ -71,7 +72,7 @@ Ett arbetsblad representeras av[**Arbetsblad**](https://reference.aspose.com/cel
 - **Frysta rader**, antalet synliga rader i den övre rutan.
 - **Frysta kolonner**, antalet synliga kolumner i den vänstra rutan
 
-Book1.xls-filen öppnas genom att anropa[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' konstruktor medan den instansieras och några rader och kolumner fryses i det första kalkylbladet. Den ändrade filen sparas som output.xls.
+ Book1.xls-filen öppnas genom att anropa[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class' konstruktor medan den instansieras och några rader och kolumner fryses i det första kalkylbladet. Den ändrade filen sparas som output.xls.
 
  Ett komplett exempel ges nedan som visar hur man använder[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)metod för att frysa rader och kolumner (med början från C4, representerad av 4:e raden och 3:e kolumnen, där raderna och kolumnerna börjar från 0-indexet) i det första kalkylbladet i Excel-filen.
 

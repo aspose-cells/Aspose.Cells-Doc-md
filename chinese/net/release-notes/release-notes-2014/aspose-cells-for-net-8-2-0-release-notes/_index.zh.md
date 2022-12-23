@@ -40,9 +40,9 @@ Aspose.Cells for .NET 已更新到版本 8.2.0，我们很高兴地宣布此版�
 ## **虫子**
 
 
-(CELLSNET-42866) - 生成的 PDF 中缺少电子表格中的垂直文本
+(CELLSNET-42866) - 结果 PDF 中缺少电子表格中的垂直文本
 
-(CELLSNET-42835) - 当 XLS 呈现为 PDF 时，文本在形状的一侧未对齐
+(CELLSNET-42835) - 当 XLS 呈现为 PDF 时，文本未与形状对齐
 
 (CELLSNET-42787) - 输出 pdf 中的渲染图像不清晰
 
@@ -52,17 +52,17 @@ Aspose.Cells for .NET 已更新到版本 8.2.0，我们很高兴地宣布此版�
 
 (CELLSNET-42827) - 工作表中单元格的多线程读取值问题
 
-(CELLSNET-42898) - 将电子表格呈现为 PDF 时样式页脚出现问题
+(CELLSNET-42898) - 当电子表格呈现为 PDF 时样式页脚出现问题
 
-(CELLSNET-42880) - Aspose.Cells PDF 保存的页数为 3。
+(CELLSNET-42880) - Aspose.Cells PDF 保存的页数是 3。
 
  (CELLSNET-42841) - Tiff 图像跨越 4 页而不是 2 页
 
-(CELLSNET-42833) - 形状与生成的 PDF 中的文本重叠
+(CELLSNET-42833) - 形状与结果 PDF 中的文本重叠
 
-(CELLSNET-42829) - 生成的 PDF 中的复选框未正确对齐
+(CELLSNET-42829) - 结果 PDF 中的复选框未正确对齐
 
-(CELLSNET-42776) - 将电子表格保存为 PDF 时图像质量下降
+(CELLSNET-42776) - 将电子表格保存到 PDF 时图像质量下降
 
 (CELLSNET-42620) - 图形中的字符 e 未填充黑色
 
@@ -70,9 +70,9 @@ Aspose.Cells for .NET 已更新到版本 8.2.0，我们很高兴地宣布此版�
 
 (CELLSNET-42847) - 图表在重新保存 ODS 文件时丢失
 
-(CELLSNET-42831) - 生成的 PDF 中的形状发生了变化
+(CELLSNET-42831) - 结果 PDF 的形状发生了变化
 
-(CELLSNET-42830) - 生成的 PDF 中箭头方向的变化
+(CELLSNET-42830) - 结果 PDF 中箭头方向的变化
 
 (CELLSNET-42828) - 生成的 PDF 具有经过修剪的形状，其中未显示十字的一部分
 
@@ -92,7 +92,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.0，我们很高兴地宣布此版�
 
 (CELLSNET-42899) - Name.GetRange 返回 null 而不是实际范围
 
-(CELLSNET-42897) - 在呈现为 PDF 时为 COUNTIF 公式计算的值不正确
+(CELLSNET-42897) - 渲染到 PDF 时为 COUNTIF 公式计算的值不正确
 
 (CELLSNET-42889) - Workbook.CalculateFormula 未正确计算值
 
@@ -134,7 +134,7 @@ Aspose.Cells for .NET 已更新到版本 8.2.0，我们很高兴地宣布此版�
 
  (CELLSNET-42895) - Page.IsPostBack 在 GridWeb 中始终为 false
 
- (CELLSNET-42881) - GridWeb 在所有 Web 工作表中显示相同的图片
+(CELLSNET-42881) - GridWeb 在所有 Web 工作表中显示相同的图片
 
 
 ## **例外情况**

@@ -15,7 +15,7 @@ url: /de/java/aspose-cells-for-java-2-2-1-release-notes/
  Was hat sich geändert:
 
 -  Enthält Unterstützung für die erweiterte bedingte Formatierung von MS Excel 2007
--  Unterstützt erweiterte Datensätze der bedingten Formatierung, die von MS Excel 2007 für XLS-Dateien gespeichert wurden
+-  Unterstützt erweiterte Datensätze der bedingten Formatierung, die von MS Excel 2007 für die Datei XLS gespeichert wurden
 - Behält nicht unterstützte Formeln beim Lesen von MS Excel 2007-Dateien bei
 -  Liest Bilder aus der Kopf-/Fußzeile in einer MS Excel 2007-Vorlagendatei
 -  Beim Lesen von Vorlagendateien wurden Verbesserungen vorgenommen

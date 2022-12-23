@@ -6,7 +6,7 @@ url: /fr/net/change-tick-label-direction/
 ---
 ## **Changer la direction de l'étiquette de la coche**
 
-Aspose.Cells vous offre la possibilité de changer la direction de l'étiquette du graphique en utilisant le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) propriété. La[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) la propriété accepte le[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) valeur d'énumération. La[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)l'énumération fournit les membres suivants
+Aspose.Cells vous offre la possibilité de changer la direction de l'étiquette du graphique en utilisant le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) la propriété. Le[**TickLabels.DirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/ticklabels/properties/directiontype) la propriété accepte le[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype) valeur d'énumération. Le[**ChartTextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttextdirectiontype)l'énumération fournit les membres suivants
 
 - Horizontal
 - Vertical

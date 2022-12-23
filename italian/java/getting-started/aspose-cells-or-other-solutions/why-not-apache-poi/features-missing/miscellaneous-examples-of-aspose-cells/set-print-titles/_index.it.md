@@ -9,7 +9,7 @@ Aspose.Cells consente di designare le intestazioni di riga e colonna da ripetere
 
 Le righe o le colonne che verranno ripetute vengono definite passando i loro numeri di riga o colonna. Ad esempio, le righe sono definite come $1:$2 e le colonne sono definite come $A:$B.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

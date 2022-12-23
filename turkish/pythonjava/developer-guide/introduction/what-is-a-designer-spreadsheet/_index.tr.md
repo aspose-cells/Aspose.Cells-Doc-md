@@ -24,7 +24,7 @@ Bir tasarımcı elektronik tablosu, Microsoft Excel kullanılarak oluşturulan v
 
 **Tasarımcı e-tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](what-is-a-designer-spreadsheet_1.png)
+![yapılacaklar:resim_alternatif_metin](what-is-a-designer-spreadsheet_1.png)
 
 ### **Bu nasıl kullanılır?**
 

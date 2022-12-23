@@ -12,7 +12,7 @@ url: /ar/net/convert-worksheet-to-image-remove-whitespace-around-data/
 
 ## **إزالة المسافة البيضاء حول البيانات**
 
- ال[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API يقوم بتحويل ورقة العمل إلى ملف صورة مع أي سمات محددة ، على سبيل المثال ، تنسيق الصورة ، والأوراق المرقمة ، إلخ. يتم دعم العديد من تنسيقات الصور ، بما في ذلك BMP و GIF و JPG و TIFF و EMF.
+ ال[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API يحول ورقة العمل إلى ملف صورة مع أي سمات محددة ، على سبيل المثال ، تنسيق الصورة ، والأوراق المرقمة ، إلخ. يتم دعم العديد من تنسيقات الصور ، بما في ذلك BMP ، GIF ، JPG ، TIFF ، و EMF.
 
  عند استخدام ميزة من ورقة إلى صورة ، يكون للصورة الناتجة مسافة بيضاء ، أي حد ، حولها بشكل افتراضي. يمكنك إزالة هذا عن طريق تعيين هوامش إعداد الصفحة العلوية والسفلية واليسرى واليمنى لورقة العمل المصدر على 0 وتحديدها[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)السمات وفقًا لذلك.
 

@@ -13,7 +13,7 @@ Aspose.Cells for Reporting Services (включая клиент Aspose.Cells.Re
 Поддерживаются следующие версии Excel Microsoft. Кроме того, вам необходимо установить дополнительные исправления для устранения некоторых возможных проблем с Microsoft Office 2000, 2002, XP или 2003.
 
 - Microsoft Excel 2000
- Установите**lockbackRegKey.msi** чтобы исправить проблему CLR на Microsoft компьютерах Office старше Office 2003.
+Установите**lockbackRegKey.msi** чтобы исправить проблему CLR на Microsoft компьютерах Office старше Office 2003.
 - Microsoft Excel 2002
  Установить**lockbackRegKey.msi** чтобы исправить проблему CLR на Microsoft компьютерах Office старше Office 2003.
 - Microsoft Excel 2003

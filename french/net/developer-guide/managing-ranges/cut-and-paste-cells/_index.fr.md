@@ -6,7 +6,7 @@ url: /fr/net/cut-and-paste-cells/
 ---
 ## **Couper et coller Cells**
 
-Aspose.Cells vous offre la possibilité de couper et coller des cellules dans une feuille de calcul en utilisant le[**InsérerCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) méthode de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil. La[**InsérerCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)accepte les paramètres suivants.
+Aspose.Cells vous offre la possibilité de couper et coller des cellules dans une feuille de calcul en utilisant le[**InsérerCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells) méthode de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) le recueil. Le[**InsérerCutCells**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertcutcells)accepte les paramètres suivants.
 
 - [**Intervalle**](https://reference.aspose.com/cells/net/aspose.cells/range)La plage de cellules à couper.
 - Index de ligne : l'index de la ligne dans laquelle insérer les cellules.

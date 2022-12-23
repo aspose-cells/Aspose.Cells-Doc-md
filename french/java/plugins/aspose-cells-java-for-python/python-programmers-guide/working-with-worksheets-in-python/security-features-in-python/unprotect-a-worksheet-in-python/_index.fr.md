@@ -5,7 +5,7 @@ weight: 20
 url: /fr/java/unprotect-a-worksheet-in-python/
 ---
 ## **Aspose.Cells - Déprotéger une feuille de calcul**
- Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java for Python** , appel**unprotect_worksheet** méthode de**protection** module.
+ Pour protéger la feuille de calcul à l'aide de**Aspose.Cells Java for Python** , téléphoner à**unprotect_worksheet** méthode de**protection** module.
 
 **Code Python**
 

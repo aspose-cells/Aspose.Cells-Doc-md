@@ -21,4 +21,4 @@ url: /tr/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
  Yeni C# grafik demoları eklendi
  UNC köprüleriyle dosya yüklenirken oluşan hata düzeltildi
  Bazı durumlarda Aspose oluşturulmuş bir Excel dosyasıyla hücrelerin biçimlendirilmesindeki hata düzeltildi
-Şekilli formül hesaplama motoru
+ Şekilli formül hesaplama motoru

@@ -12,6 +12,6 @@ url: /ru/net/disable-pivot-table-ribbons/
 
 ## **Отключить ленту сводной таблицы с помощью PivotTable.EnableWizard**
 
-Следующий код демонстрирует эту функцию, получая доступ к сводной таблице с листа, а затем устанавливая[**Включитьмастер**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) к**ЛОЖЬ** . Образец файла сводной таблицы можно скачать здесь[ссылка на сайт](pivot_table_test.xlsx).
+Следующий код демонстрирует эту функцию, получая доступ к сводной таблице с листа, а затем устанавливая[**Включитьмастер**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard) к**ЛОЖЬ** . Образец файла сводной таблицы можно скачать здесь[соединять](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}

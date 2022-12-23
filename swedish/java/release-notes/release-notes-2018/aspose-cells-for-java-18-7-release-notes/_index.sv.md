@@ -14,7 +14,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.7.
 |:- |:- |:- |
 |CELLSJAVA-42668|Stöd flera värden när du använder klassstil (länkad till: CELLSJAVA-42635)|Förbättring|
 |CELLSJAVA-42627|Det går inte att extrahera Smart Art-bilder korrekt - Konvertering från form till bild (CELLSJAVA-42619)|Förbättring|
-|CELLSJAVA-42672|PDF-dokumentet är för stort|Insekt|
+|CELLSJAVA-42672|Utdatadokumentet PDF är för stort|Insekt|
 |CELLSJAVA-42671|Hyperlänkproblem vid visning av utdata Excel-fil i MS Excel japansk version|Insekt|
 |CELLSJAVA-42667|Får '#NUM!' för en cell med IRR-funktion|Insekt|
 |CELLSJAVA-42658|Arbetsböcker med XL4-makron (XLSM) blir korrupta efter lagring|Insekt|

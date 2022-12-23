@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-7-0-1-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 29512 添加新的重载方法：Cell.SetStyle(Style style, bool explicitFlag)
 
@@ -24,7 +24,7 @@ url: /zh/net/aspose-cells-for-net-7-0-1-release-notes/
 
 表现
 
-30177 从 ODS 文件生成 PDF 文件时发生堆栈溢出异常
+从 ODS 文件生成 PDF 文件时发生 30177 堆栈溢出异常
 
 30045 Aspose.Cells 打开文件时挂断
 
@@ -64,6 +64,6 @@ url: /zh/net/aspose-cells-for-net-7-0-1-release-notes/
 
 
 
-新的功能
+新功能
 
 29821 支持公式栏控件

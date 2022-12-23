@@ -14,7 +14,7 @@ url: /ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-t
 
 {{< /highlight >}}
 
-Здесь первые три ячейки или столбца пусты. Когда вы открываете такой CSV-файл в Microsoft Excel, Microsoft Excel отбрасывает эти начальные пустые строки и столбцы.
+Здесь первые три ячейки или столбца пусты. Когда вы открываете такой файл CSV в Microsoft Excel, то Microsoft Excel отбрасывает эти начальные пустые строки и столбцы.
 
  По умолчанию Aspose.Cells не отбрасывает начальные пустые столбцы и строки при сохранении, но если вы хотите удалить их так же, как Microsoft Excel, тогда Aspose.Cells предоставляет**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** имущество. Пожалуйста, установите его на**истинный**а затем все ведущие пустые строки и столбцы будут удалены при сохранении.
 
@@ -26,7 +26,7 @@ url: /ru/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-t
 
 ## **Обрезать начальные пустые строки и столбцы при экспорте электронных таблиц в формат CSV**
 
-Следующий пример кода загружает исходный файл Excel с двумя ведущими пустыми столбцами. Сначала он сохраняет файл excel в формате CSV без каких-либо изменений, а затем устанавливает**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** собственность на**истинный** и снова сохраняет. На скриншоте показано[исходный файл excel](sampleTrimBlankColumns.xlsx), [вывод файла CSV без обрезки](outputWithoutTrimBlankColumns.csv), и[выходной файл CSV с обрезкой](outputTrimBlankColumns.csv).
+ Следующий пример кода загружает исходный файл Excel с двумя ведущими пустыми столбцами. Сначала он сохраняет файл excel в формате CSV без каких-либо изменений, а затем устанавливает**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)** собственность на**истинный** и снова сохраняет. На скриншоте показано[исходный файл excel](sampleTrimBlankColumns.xlsx), [вывод файла CSV без обрезки](outputWithoutTrimBlankColumns.csv), и[выходной файл CSV с обрезкой](outputTrimBlankColumns.csv).
 
 ![дело:изображение_альтернативный_текст](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 

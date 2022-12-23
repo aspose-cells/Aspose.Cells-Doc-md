@@ -37,7 +37,7 @@ url: /ar/net/create-access-and-copy-named-ranges/
 - اسم الخلية اليسرى العلوية ، اسم الخلية اليسرى العلوية في النطاق.
 - اسم الخلية اليمنى السفلية ، اسم الخلية اليمنى السفلية في النطاق.
 
- عندما[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) يتم استدعاء الأسلوب ، ويعيد النطاق الذي تم إنشاؤه حديثًا كمثيل لـ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) صف دراسي. استخدم هذا[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) كائن لتكوين النطاق المسمى. على سبيل المثال ، قم بتعيين اسم النطاق باستخدام[**اسم**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) منشأه. يوضح المثال التالي كيفية إنشاء نطاق مسمى من الخلايا يمتد عبر B4: G14.
+ عندما[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) يتم استدعاء الأسلوب ، ويعيد النطاق الذي تم إنشاؤه حديثًا كمثيل لـ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) صف دراسي. استخدم هذا[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) كائن لتكوين النطاق المسمى. على سبيل المثال ، قم بتعيين اسم النطاق باستخدام[**اسم**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) خاصية. يوضح المثال التالي كيفية إنشاء نطاق مسمى من الخلايا يمتد عبر B4: G14.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 

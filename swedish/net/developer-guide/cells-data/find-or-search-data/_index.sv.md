@@ -14,7 +14,7 @@ Microsoft Excel tillåter användare att hitta celler i ett kalkylblad som inneh
 
 ### **Använder Microsoft Excel**
 
-Microsoft Excel tillåter användare att hitta celler i ett kalkylblad som innehåller specificerade data. Om du väljer**Redigera** från**Hitta** menyn i Microsoft Excel kommer du att se en dialogruta där du kan ange sökvärdet.
+ Microsoft Excel tillåter användare att hitta celler i ett kalkylblad som innehåller specificerade data. Om du väljer**Redigera** från**Hitta** menyn i Microsoft Excel kommer du att se en dialogruta där du kan ange sökvärdet.
 
 Här letar vi efter värdet "Apelsiner". Aspose.Cells tillåter också utvecklare att hitta celler i kalkylbladet som innehåller specificerade värden.
 
@@ -54,7 +54,7 @@ I exemplen nedan används kalkylbladsdata för att öva på att hitta metoder:
 
  Det är möjligt att hitta specificerade strängvärden genom att anropa detsamma[**Hitta**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) metod som finns i[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) samling med olika[**Hitta Alternativ**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- Specificera[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) och[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)egenskaper. Följande exempelkod illustrerar hur man använder dessa egenskaper för att hitta celler med olika antal strängar vid**början** eller vid**Centrum** eller vid**slutet** av cellens sträng.
+ Specificera[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) och[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) egenskaper. Följande exempelkod illustrerar hur man använder dessa egenskaper för att hitta celler med olika antal strängar vid**början** eller vid**Centrum** eller vid**slutet** av cellens sträng.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

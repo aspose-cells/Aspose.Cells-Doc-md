@@ -11,5 +11,5 @@ Bu sayfa Aspose.Cells for Reporting Services 21.12 için sürüm notları içeri
 ## **Bu Sürümde yer alan sorunların ve geliştirmelerin tam listesi**
 |**İD**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSRS-619 |Raporlama Hizmetleri İçin Aspose.Cells'in PDF oluşturması için iyileştirme.| Gelişme|
+|CELLSRS-619 |Raporlama Hizmetleri için Aspose.Cells'in PDF oluşturması için iyileştirme.| Gelişme|
 |CELLSRS-614 |Parola ile Excel dosyası oluştururken sorun.| Böcek|

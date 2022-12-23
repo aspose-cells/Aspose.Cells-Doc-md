@@ -13,17 +13,17 @@ url: /de/net/aspose-cells-for-net-21-1-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-47376|Version Aspose.Cells for .NET 5.0|Neue Funktion|
-|CELLSNET-40624| So wechseln Sie Zeilen-/Spaltendatenreihen mit aspose|Neue Funktion|
+|CELLSNET-40624|So wechseln Sie Zeilen-/Spaltendatenreihen mit aspose|Neue Funktion|
 |CELLSNET-42195|Konvertieren Sie die Steuerung von xlsm in xls|Neue Funktion|
 |CELLSNET-47806|Ruft den Datenquellenbereich des Diagramms ab.|Neue Funktion|
-|CELLSNET-47756|SmartArt-Formen werden bei der Konvertierung von Excel in PDF nicht korrekt gerendert|Insekt|
+|CELLSNET-47756|SmartArt-Formen werden in Excel nicht in PDF-Konvertierung gerendert|Insekt|
 |CELLSNET-47391|Formen werden bei Excel-zu-PDF-Konvertierungen nicht richtig positioniert|Insekt|
 |CELLSNET-47766|Das Pfeildiagramm ist unvollständig|Insekt|
-|CELLSNET-47653|Diagram Blöcke werden beim Konvertieren in HTML verschoben|Insekt|
-|CELLSNET-47720|Ungültiges CSS- und HTML-Markup beim Konvertieren von XLSX in HTML|Insekt|
+|CELLSNET-47653|Diagram-Blöcke werden bei der Konvertierung in HTML verschoben|Insekt|
+|CELLSNET-47720|Ungültiges CSS und HTML-Markup beim Konvertieren von XLSX in HTML|Insekt|
 |CELLSNET-47746|Uncodierte Anführungszeichen in Werten von HTML-Attributen|Insekt|
 |CELLSNET-47792|Beim Importieren von HTML in Excel überlappen Bilder den Text|Insekt|
-|CELLSNET-47797|Ungültiger Link, wenn XLSM-Datei in HTML gerendert wird|Insekt|
+|CELLSNET-47797|Fehlerhafter Link, wenn die Datei XLSM in HTML gerendert wird|Insekt|
 |CELLSNET-47807|Ungültiges HTML-Markup mit verschachtelten A-Elementen|Insekt|
 |CELLSNET-47778|IRR-Berechnung ergibt #NUM|Insekt|
 |CELLSNET-47814|GridDesktop-Bildlaufleisten werden nicht ausgeblendet|Insekt|
@@ -39,7 +39,7 @@ url: /de/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNETCORE-93|H1-Tag wird ohne zusätzliche Tags wie Unterstreichen, Kursiv oder Fett nicht gerendert|Insekt|
 |CELLSNETCORE-97|Der Aufruf von RemoveExternalLinks() löst eine Ausnahme aus|Insekt|
 |CELLSNET-47719|xlsb konnte nicht in xlsx gespeichert werden|Ausnahme|
-|CELLSNET-47784|Ausnahme beim Importieren eines HTML-Dokuments mit IStreamProvider|Ausnahme|
+|CELLSNET-47784|Ausnahme beim Importieren des Dokuments HTML mit IStreamProvider|Ausnahme|
 |CELLSNET-47801|CalculateData in der Pivot-Tabelle löst eine Ausnahme aus|Ausnahme|
 |CELLSNET-47809|Cell.ContainsExternalLink wirft „Casting nicht möglich|Ausnahme|
 |CELLSNET-47791| Diagramm, das dazu führt, dass Workbook.Save fehlschlägt|Ausnahme|

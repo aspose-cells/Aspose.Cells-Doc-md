@@ -15,7 +15,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-9-0/
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تعيين الخط الافتراضي لعرض جداول البيانات على تنسيق HTML](/cells/ar/net/set-default-font-while-rendering-spreadsheet-to/).
+ لمزيد من التفاصيل حول هذه الميزة ، يرجى مراجعة المقالة على[تحديد الخط الافتراضي لتحويل جداول البيانات إلى نسق HTML](/cells/ar/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

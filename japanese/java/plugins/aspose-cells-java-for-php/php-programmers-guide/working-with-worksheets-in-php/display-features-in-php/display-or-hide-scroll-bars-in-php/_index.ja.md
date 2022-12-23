@@ -8,7 +8,7 @@ url: /ja/java/display-or-hide-scroll-bars-in-php/
 ### **スクロール バーを非表示にする**
 を使用してスクロール バーを非表示にするには**Aspose.Cells Java for PHP**、 電話**スクロールバーを非表示にする**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

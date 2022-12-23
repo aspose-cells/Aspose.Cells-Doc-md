@@ -227,7 +227,7 @@ Aspose.Cells API 允许从电子表格中提取与主题相关的格式数据。
 ### **添加了属性 DrawObject.ImageBytes**
 Aspose.Cells for .NET 8.4.0 公开了 DrawObject.ImageBytes 属性以从图表或形状获取图像数据。
 ### **已添加属性 HtmlSaveOptions.ExportBogusRowData**
-Aspose.Cells for .NET 8.4.0 提供了 {HtmlSaveOptions.ExportBogusRowData}} 属性。布尔类型属性确定 API 是否会在将电子表格导出为 HTML 格式时注入伪造的底行数据。
+Aspose.Cells for .NET 8.4.0 提供了 {HtmlSaveOptions.ExportBogusRowData}} 属性。布尔类型属性决定 API 在将电子表格导出为 HTML 格式时是否会注入伪造的底行数据。
 
 {{% alert color="primary" %}} 
 

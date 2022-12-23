@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-4-0-release-notes/
 我们是
 很高兴地宣布 Aspose.Cells for Java v7.4.0！
 
-新的功能
+新功能
 
 - 支持自定义编码保存 HTML 文件
 

@@ -16,7 +16,7 @@ Aspose.Cells ermöglicht es Ihnen, Arbeitsblattdaten alphabetisch oder numerisch
 
 So sortieren Sie Daten in Microsoft Excel:
 
-1.  Auswählen**Daten** von dem**Sortieren** Speisekarte.
+1.  Wählen**Daten** von dem**Sortieren** Speisekarte.
  Der Dialog Sortieren wird angezeigt.
 1. Wählen Sie eine Sortieroption aus.
 

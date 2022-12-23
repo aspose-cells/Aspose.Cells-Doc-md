@@ -89,7 +89,7 @@ Les instructions fournies ci-dessus installeront le package TTF Microsoft compre
 1. Comic Sans MS (Gras)
 1. Courier New (gras, italique, gras italique)
 1. Géorgie (gras, italique, gras italique)
-1. Impact
+1. Impacter
 1. Tahoma
 1. Times New Roman (gras, italique, gras italique)
 1. Trébuchet (gras, italique, gras italique)

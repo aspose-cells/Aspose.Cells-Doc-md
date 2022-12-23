@@ -20,15 +20,15 @@ Desteklenen tüm dosya biçimlerini bilmeniz gerekiyorsa, lütfen aşağıdaki s
 
 Dosya yolunu kullanarak bir Microsoft Excel dosyasını açmak için, örneğini oluştururken dosyanın yolunu bir parametre olarak iletin.**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**sınıf. Aşağıdaki örnek kod, dosya yolunu kullanarak bir Excel dosyasını açmayı gösterir.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningFilesThroughPath-OpeningFilesThroughPath.java" >}}
 
 ### **Akış yoluyla açma**
 
-Bazen açmak istediğiniz Excel dosyası bir akış olarak saklanır. Bu durumda, dosya yolunu kullanarak bir dosyayı açmaya benzer şekilde, akışı başlatırken akışı bir parametre olarak iletin.**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**sınıf. Aşağıdaki örnek kod, akış kullanılarak bir Excel dosyasının açılmasını gösterir.
+Bazen açmak istediğiniz Excel dosyası bir akış olarak saklanır. Bu durumda, dosya yolunu kullanarak bir dosyayı açmaya benzer şekilde, akışı başlatırken akışı bir parametre olarak iletin.**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** sınıf. Aşağıdaki örnek kod, akış kullanılarak bir Excel dosyasının açılmasını gösterir.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningFilesThroughStream-OpeningFilesThroughStream.java" >}}
 
@@ -38,18 +38,18 @@ Bazen açmak istediğiniz Excel dosyası bir akış olarak saklanır. Bu durumda
 
  bu**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma, bazıları aşağıda verilen önceden tanımlanmış birçok dosya formatını içerir.
 
-|**Biçim Türleri**|**Tanım**|
+|**Biçim Türleri**|**Açıklama**|
 |:- |:- |
-|Csv|Bir CSV dosyasını temsil eder|
+|Csv|CSV dosyasını temsil eder|
 |Excel97To2003|Bir Excel 97 - 2003 dosyasını temsil eder|
 |Xlsx|Bir Excel 2007/2010/2013/2016/2019 ve Office 365 XLSX dosyasını temsil eder|
 |Xlsm|Bir Excel 2007/2010/2013/2016/2019 ve Office 365 XLSM dosyasını temsil eder|
 |Xltx|Bir Excel 2007/2010/2013/2016/2019 ve Office 365 şablonu XLTX dosyasını temsil eder|
 |Xltm|Bir Excel 2007/2010/2013/2016/2019 ve Office 365 makro özellikli XLTM dosyasını temsil eder|
 |Xlsb|Bir Excel 2007/2010/2013/2016/2019 ve Office 365 ikili XLSB dosyasını temsil eder|
-|E-tabloML|Bir SpreadsheetML dosyasını temsil eder|
+|SpreadsheetML|SpreadsheetML dosyasını temsil eder|
 |Tsv|Sekmeyle ayrılmış değerler dosyasını temsil eder|
-|Sekmeyle Sınırlandırılmış|Sekmeyle Ayrılmış bir metin dosyasını temsil eder|
+|TabDelimited|Sekmeyle Ayrılmış bir metin dosyasını temsil eder|
 |Oranlar|Bir ODS dosyasını temsil eder|
 |html|Bir HTML dosyasını temsil eder|
 |Mhtml|Bir MHTML dosyasını temsil eder|
@@ -60,61 +60,61 @@ Bazen açmak istediğiniz Excel dosyası bir akış olarak saklanır. Bu durumda
 
 [Excel95_5.0.xls](Excel95_5.0.xls)
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Microsoft Excel 97 veya sonraki sürümleri XLS Dosyalarını açma**
+### **Microsoft Excel 97 veya sonraki sürümlerini açma XLS Dosyaları**
 
- Microsoft Excel XLS 97 veya sonraki sürümlerin XLS dosyalarını açmak için**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** şablon dosyasının yolu veya akışı ile örnek. Veya**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** yöntemini seçin ve**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** içindeki değer**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
+ XLS Microsoft Excel XLS 97 veya sonraki sürümlerin XLS dosyalarını açmak için,**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**şablon dosyasının yolu veya akışı ile örnek. Veya**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** yöntemini seçin ve**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)** içindeki değer**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Microsoft Excel 2007 veya sonraki sürümleri XLSX Dosyalarını açma**
+### **Microsoft Excel 2007 veya sonraki sürümlerini açma XLSX Dosyaları**
 
  Microsoft Excel 2007 veya sonraki sürümlerin XLSX dosyalarını açmak için**[Çalışma Kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**şablon dosyasının yolu veya akışı ile örnek. Veya**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** sınıfı seçin ve**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)** içindeki değer**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel2007XlsxFiles-OpeningMicrosoftExcel2007XlsxFiles.java" >}}
 
 ### **Farklı Biçimlerdeki Dosyaları Açma**
 
-Aspose.Cells, geliştiricilerin SpreadsheetML, CSV, Sekmeyle Ayrılmış dosyalar gibi farklı biçimlerdeki elektronik tablo dosyalarını açmasına olanak tanır. Bu tür dosyaları açmak için geliştiriciler, farklı Microsoft Excel sürümlerindeki dosyaları açarken kullandıkları metodolojinin aynısını kullanabilirler.
+Aspose.Cells, geliştiricilerin SpreadsheetML, CSV, Sekmeyle Ayrılmış dosyalar gibi farklı biçimlerdeki elektronik tablo dosyalarını açmasına olanak tanır. Bu tür dosyaları açmak için geliştiriciler, farklı Microsoft Excel sürümlerindeki dosyaları açarken kullandıkları metodolojinin aynısını kullanabilir.
 
 ### **SpreadsheetML Dosyalarını Açma**
 
-SpreadsheetML dosyaları, elektronik tablonuzla ilgili biçimlendirme, formüller vb. tüm bilgileri içeren XML temsilleridir. Microsoft Excel XP'den bu yana, Microsoft Excel'e elektronik tablolarınızı SpreadsheetML dosyalarına aktaran bir XML dışa aktarma seçeneği eklenmiştir.
+SpreadsheetML dosyaları, elektronik tablonuzla ilgili biçimlendirme, formüller vb. tüm bilgileri içeren XML temsilleridir. Microsoft Excel XP'den beri, Microsoft Excel'e elektronik tablolarınızı SpreadsheetML dosyalarına aktaran bir XML dışa aktarma seçeneği eklenmiştir.
 
 SpreadsheetML dosyalarını açmak için**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** sınıfı seçin ve**[SPREADSHEET_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)** içindeki değer**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningSpreadsheetMLFiles-OpeningSpreadsheetMLFiles.java" >}}
 
 ### **CSV Dosyalarını Açma**
 
-Virgülle Ayrılmış Değerler (CSV) dosyaları, değerleri virgülle ayrılmış veya ayrılmış kayıtlar içerir. CSV dosyalarında veriler, virgül karakteriyle ayrılan ve çift tırnak karakteriyle alıntılanan alanlara sahip tablo biçiminde depolanır. Bir alanın değeri bir çift tırnak karakteri içeriyorsa, bir çift çift tırnak karakteri ile çıkış yapılır. Elektronik tablo verilerinizi bir CSV dosyasına aktarmak için Microsoft Excel'i de kullanabilirsiniz.
+Virgülle Ayrılmış Değerler (CSV) dosyaları, değerleri sınırlanmış veya virgülle ayrılmış kayıtlar içerir. CSV dosyalarında veriler, virgül karakteriyle ayrılan ve çift tırnak karakteriyle alıntılanan alanlara sahip tablo biçiminde saklanır. Bir alanın değeri bir çift tırnak karakteri içeriyorsa, bir çift çift tırnak karakteri ile çıkış yapılır. Elektronik tablo verilerinizi bir CSV dosyasına aktarmak için Microsoft Excel'i de kullanabilirsiniz.
 
 CSV dosyalarını açmak için**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** sınıfı seçin ve**[CSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#CSV)** değer, önceden tanımlanmış**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningCSVFiles-OpeningCSVFiles.java" >}}
 
-### **CSV dosyalarını açma ve geçersiz karakterleri değiştirme**
+### **CSV dosyalarının açılması ve geçersiz karakterlerin değiştirilmesi**
 
 Excel'de özel karakterler içeren CSV dosyası açıldığında karakterler otomatik olarak değiştirilir. Aynısı, aşağıda verilen kod örneğinde gösterilen Aspose.Cells API tarafından yapılır.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesAndReplacingInvalidCharacters-1.java" >}}
 
-### **Tercih edilen ayrıştırıcıyı kullanarak CSV dosyalarını açma**
+### **Tercih edilen ayrıştırıcıyı kullanarak CSV dosyasını açma**
 
-Bu, CSV dosyalarını açarken varsayılan ayrıştırıcı ayarlarını kullanmak için her zaman gerekli değildir. Bazen CSV dosyasının içe aktarılması beklenen çıktıyı oluşturmaz, örneğin tarih biçimi beklendiği gibi değildir veya boş alanlar farklı şekilde işlenir. Bu amaç için**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**gereksinime göre farklı veri türlerini ayrıştırmak için kendi tercih edilen ayrıştırıcıyı sağlamak için kullanılabilir. Aşağıdaki örnek kod, tercih edilen ayrıştırıcının kullanımını gösterir.
+Bu, CSV dosyalarını açmak için varsayılan ayrıştırıcı ayarlarını kullanmak için her zaman gerekli değildir. Bazen CSV dosyasının içe aktarılması beklenen çıktıyı oluşturmaz, örneğin tarih biçimi beklendiği gibi değildir veya boş alanlar farklı şekilde işlenir. Bu amaç için**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**gereksinime göre farklı veri türlerini ayrıştırmak için kendi tercih edilen ayrıştırıcıyı sağlamak için kullanılabilir. Aşağıdaki örnek kod, tercih edilen ayrıştırıcının kullanımını gösterir.
 
 Bu özelliği test etmek için örnek kaynak dosya ve çıktı dosyaları aşağıdaki bağlantılardan indirilebilir.
 
@@ -122,7 +122,7 @@ Bu özelliği test etmek için örnek kaynak dosya ve çıktı dosyaları aşağ
 
 [outputsamplePreferredParser.xlsx](outputsamplePreferredParser.xlsx)
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningCSVFilesWithPreferredParser-1.java" >}}
 
@@ -132,7 +132,7 @@ Sekmeyle ayrılmış dosyalar, herhangi bir biçimlendirme olmaksızın elektron
 
 Sekmeyle ayrılmış dosyaları açmak için geliştiriciler**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** sınıfı seçin ve**[TSV](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#TSV)** değer, önceden tanımlanmış**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**numaralandırma.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningTabDelimitedFiles-OpeningTabDelimitedFiles.java" >}}
 
@@ -140,7 +140,7 @@ Sekmeyle ayrılmış dosyaları açmak için geliştiriciler**[LoadOptions](http
 
 Microsoft Excel kullanarak şifreli Excel dosyaları oluşturmanın mümkün olduğunu biliyoruz. Bu tür şifrelenmiş dosyaları açmak için, geliştiricilerin özel bir aşırı yüklenmiş LoadOptions yöntemini çağırması ve FileFormatType numaralandırmasında önceden tanımlanmış olan VARSAYILAN değeri seçmesi gerekir. Bu yöntem, aşağıdaki örnekte gösterildiği gibi şifrelenmiş dosyanın şifresini de alacaktır.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningEncryptedExcelFiles-OpeningEncryptedExcelFiles.java" >}}
 
@@ -154,17 +154,17 @@ Aspose.Cells ayrıca parola korumalı MS Excel 2013 dosyalarının açılmasın�
 
 ### **SXC Dosyalarını Açma**
 
-StarOffice Calc, Microsoft Excel'e benzer ve formülleri, çizelgeleri, işlevleri ve makroları destekler. Bu yazılımla oluşturulan elektronik tablolar, SXC uzantısıyla kaydedilir. SXC dosyası, OpenOffice.org Calc elektronik tablo dosyaları için de kullanılır. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi SXC dosyalarını okuyabilir.
+StarOffice Calc, Microsoft Excel'e benzer ve formülleri, çizelgeleri, işlevleri ve makroları destekler. Bu yazılımla oluşturulan elektronik tablolar SXC uzantısıyla kaydedilir. SXC dosyası, OpenOffice.org Calc elektronik tablo dosyaları için de kullanılır. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi SXC dosyalarını okuyabilir.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningSXCFiles-1.java" >}}
 
 ### **FODS Dosyalarını Açma**
 
-FODS dosyası, herhangi bir sıkıştırma olmadan OpenDocument XML'de kaydedilen elektronik tablodur. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi FODS dosyalarını okuyabilir.
+FODS dosyası, herhangi bir sıkıştırma olmadan OpenDocument XML'de kaydedilmiş bir elektronik tablodur. Aspose.Cells, aşağıdaki kod örneğinde gösterildiği gibi FODS dosyalarını okuyabilir.
 
-#### **Örnek**
+#### **Örnek vermek**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Files-Handling-OpeningFODSFiles-1.java" >}}
 
@@ -172,11 +172,11 @@ FODS dosyası, herhangi bir sıkıştırma olmadan OpenDocument XML'de kaydedile
 - [Çalışma Kitabı yüklenirken Tanımlı Adları Filtrele](/cells/tr/java/filter-defined-names-while-loading-workbook/)
 - [Çalışma Kitabı veya Çalışma Sayfası yüklenirken Nesneleri Filtrele](/cells/tr/java/filter-objects-while-loading-workbook-or-worksheet/)
 - [Excel Dosyasını Yüklerken Uyarılar Alın](/cells/tr/java/get-warnings-while-loading-excel-file/)
-- [E-tabloları CSV biçimine dışa aktarırken Boş Satırlar için Ayırıcıları Koruyun](/cells/tr/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [E-tabloları CSV biçiminde dışa aktarırken Boş Satırlar için Ayırıcıları Koruyun](/cells/tr/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [Çalışma Kitabını Belirtilen Yazıcı Kağıt Boyutuyla Yükleyin](/cells/tr/java/load-workbook-with-specified-printer-paper-size/)
 - [Farklı Microsoft Excel Sürüm Dosyalarını Açma](/cells/tr/java/opening-different-microsoft-excel-versions-files/)
 - [Büyük Veri Kümelerine Sahip Büyük Dosyalarla Çalışırken Bellek Kullanımını Optimize Etme](/cells/tr/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun](/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
-- [Birden Çok Kodlamayla CSV Dosyasını Okuma](/cells/tr/java/reading-csv-file-with-multiple-encodings/)
+- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun](/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Birden Fazla Kodlama İçeren CSV Dosyasını Okuma](/cells/tr/java/reading-csv-file-with-multiple-encodings/)
 - [Çok uzun sürdüğünde InterruptMonitor kullanarak dönüştürmeyi veya yüklemeyi durdurun](/cells/tr/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells'i Kullanma API](/cells/tr/java/using-lightcells-api/)

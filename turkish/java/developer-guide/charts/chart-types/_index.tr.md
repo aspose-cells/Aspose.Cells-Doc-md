@@ -17,7 +17,7 @@ Aspose.Cells, Microsoft Excel'de desteklenen hemen hemen tüm grafik türlerini 
 ### **Standart Tipler**
 Standart grafikler, normalde standart biçimlendirmeyle kullanılanlardır:
 
-|<p>- [Kolon](/cells/tr/java/chart-types/)</p><p>- [Çubuk](/cells/tr/java/chart-types/)</p><p>- [Astar](/cells/tr/java/chart-types/)</p><p>- [Turta](/cells/tr/java/chart-types/)</p><p>- [Dağılım](/cells/tr/java/chart-types/)</p><p>- [Alan](/cells/tr/java/chart-types/)</p><p>- [Tatlı çörek](/cells/tr/java/chart-types/)</p>|<p>- [Radar](/cells/tr/java/chart-types/)</p><p>- [Yüzey 3D](/cells/tr/java/chart-types/)</p><p>- [kabarcık](/cells/tr/java/chart-types/)</p><p>- [Stoklamak](/cells/tr/java/chart-types/)</p><p>- [silindir](/cells/tr/java/chart-types/)</p><p>- [koni](/cells/tr/java/chart-types/)</p><p>- [Piramit](/cells/tr/java/chart-types/)</p><p>- [ağaç haritası](/cells/tr/java/chart-types/)</p><p>- [güneş patlaması](/cells/tr/java/chart-types/)</p><p>- [histogram](/cells/tr/java/chart-types/)</p><p>- [Kutu ve Bıyık](/cells/tr/java/chart-types/)</p><p>- [Şelale](/cells/tr/java/chart-types/)</p>|
+|<p>- [Kolon](/cells/tr/java/chart-types/)</p><p>- [Bar](/cells/tr/java/chart-types/)</p><p>- [Astar](/cells/tr/java/chart-types/)</p><p>- [Turta](/cells/tr/java/chart-types/)</p><p>- [Dağılım](/cells/tr/java/chart-types/)</p><p>- [Alan](/cells/tr/java/chart-types/)</p><p>- [Tatlı çörek](/cells/tr/java/chart-types/)</p>|<p>- [Radar](/cells/tr/java/chart-types/)</p><p>- [Yüzey 3D](/cells/tr/java/chart-types/)</p><p>- [kabarcık](/cells/tr/java/chart-types/)</p><p>- [Stoklamak](/cells/tr/java/chart-types/)</p><p>- [silindir](/cells/tr/java/chart-types/)</p><p>- [koni](/cells/tr/java/chart-types/)</p><p>- [Piramit](/cells/tr/java/chart-types/)</p><p>- [ağaç haritası](/cells/tr/java/chart-types/)</p><p>- [güneş patlaması](/cells/tr/java/chart-types/)</p><p>- [histogram](/cells/tr/java/chart-types/)</p><p>- [Kutu ve Bıyık](/cells/tr/java/chart-types/)</p><p>- [Şelale](/cells/tr/java/chart-types/)</p>|
 |:- |:- |
 Standart grafik türlerinin her biri aşağıda daha ayrıntılı olarak açıklanmaktadır.
 #### **Sütun Grafikleri**
@@ -25,7 +25,7 @@ Sütun grafikleri, bir veya daha fazla veri öğesinin farklı değerlerini gör
 
 **Microsoft Excel'de desteklenen sütun grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_1.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_1.png)
 
 Aşağıdaki sütun grafikleri Aspose.Cells'de desteklenir:
 
@@ -41,7 +41,7 @@ Aşağıdaki sütun grafikleri Aspose.Cells'de desteklenir:
 
 **Microsoft Excel'de desteklenen çubuk grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_2.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_2.png)
 
 Aşağıdaki çubuk grafikler Aspose.Cells'de desteklenir:
 
@@ -56,7 +56,7 @@ Aşağıdaki çubuk grafikler Aspose.Cells'de desteklenir:
 
 **Microsoft Excel'de desteklenen çizgi grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_3.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_3.png)
 
 Aşağıdaki çizgi grafikler Aspose.Cells'de desteklenir:
 
@@ -78,22 +78,22 @@ Pasta grafikler çoğunlukla, bir bütünün farklı kısımlarını veya bir to
 
 **Microsoft Excel'de desteklenen pasta grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_4.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_4.png)
 
 Aşağıdaki pasta grafikler Aspose.Cells'de desteklenir:
 
-- basit pasta grafiği
-- 3B pasta grafiği
+- basit pasta grafik
+- 3B pasta grafik
 - Pasta grafiği pastası
 - Patlatılmış pasta grafik
-- 3B patlatılmış pasta grafiği
+- 3B patlatılmış pasta grafik
 - Pasta grafiği çubuğu
 #### **Dağılım Grafikleri**
 Dağılım çizelgeleri çoğunlukla istatistiklerde, her biri yatay ("X") ve dikey ("Y") eksende bir koordinata sahip olan yalnızca sonlu sayıda noktayı görüntüleyerek ilgili iki niceliksel veya sayısal veri kümesini görsel olarak görüntülemek ve karşılaştırmak için kullanılır.
 
 **Microsoft Excel'de desteklenen dağılım grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_5.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_5.png)
 
 Aşağıdaki dağılım grafikleri Aspose.Cells'de desteklenir:
 
@@ -107,7 +107,7 @@ Alan grafiği, grafiği çizilen bilgi parçaları arasındaki ilişkileri vurgu
 
 **Microsoft Excel'de desteklenen alan grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_6.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_6.png)
 
 Aşağıdaki alan grafikleri Aspose.Cells'de desteklenir:
 
@@ -122,7 +122,7 @@ Halka grafiği, pasta grafiğine benzer ve çoğunlukla veri oranlarının büt�
 
 **Microsoft Excel'de desteklenen halka grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_7.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_7.png)
 
 Aşağıdaki halka grafikler Aspose.Cells'de desteklenir:
 
@@ -133,7 +133,7 @@ Radar çizelgeleri, bir öğeyle ilgili birkaç farklı faktöre bakmak istediğ
 
 **Microsoft Excel'de desteklenen radar grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_8.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_8.png)
 
 Aşağıdaki radar çizelgeleri Aspose.Cells'de desteklenir:
 
@@ -145,7 +145,7 @@ Diğer 3B grafikler gibi, yüzey 3B grafikleri de X, Y ve Z eksenlerini temel al
 
 **Microsoft Excel'de desteklenen yüzey 3B grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_9.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_9.png)
 
 Aşağıdaki yüzey 3B grafikleri Aspose.Cells'de desteklenir:
 
@@ -158,7 +158,7 @@ Kabarcık grafiği, veri noktalarının baloncuklarla değiştirildiği dağıl�
 
 **Microsoft Excel'de desteklenen kabarcık grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_10.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_10.png)
 
 Aşağıdaki kabarcık grafikleri Aspose.Cells'de desteklenir:
 
@@ -169,7 +169,7 @@ Hisse senedi grafikleri çoğunlukla hisse senedi fiyat verileri için kullanıl
 
 **Microsoft Excel'de desteklenen hisse senedi grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_11.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_11.png)
 
 Aşağıdaki hisse senedi grafikleri Aspose.Cells'de desteklenmektedir:
 
@@ -182,7 +182,7 @@ Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki ver
 
 **Microsoft Excel'de desteklenen silindir grafikleri** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_12.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_12.png)
 
 Aşağıdaki silindir grafikleri Aspose.Cells'de desteklenir:
 
@@ -196,7 +196,7 @@ Aşağıdaki silindir grafikleri Aspose.Cells'de desteklenir:
 #### **Koni Grafikleri**
  Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki vermek için koni veri işaretçilerini kullanır.
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_13.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_13.png)
 
 
 **Microsoft Excel'de desteklenen koni grafikleri**
@@ -215,7 +215,7 @@ Bu grafik türleri, sütun, çubuk ve 3B sütun grafiklere dramatik bir etki ver
 
 **Microsoft Excel'de desteklenen piramit grafikler** 
 
-![yapılacaklar:resim_alternatif_Metin](chart-types_14.png)
+![yapılacaklar:resim_alternatif_metin](chart-types_14.png)
 
 Aşağıdaki piramit grafikler Aspose.Cells'de desteklenir:
 

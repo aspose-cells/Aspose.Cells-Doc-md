@@ -56,7 +56,7 @@ url: /ar/net/import-data-into-worksheet/
 
 ## **الاستيراد من كائنات مخصصة إلى منطقة مدمجة**
 
-لاستيراد بيانات من مجموعة كائنات إلى ورقة عمل تحتوي على خلايا مدمجة ، استخدم[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) منشأه. إذا كان قالب Excel يحتوي على خلايا مدمجة ، فقم بتعيين قيمة[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)الملكية على صواب. مرر ال[**خيارات ImportTable**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) كائن مع قائمة الأعمدة / الخصائص لطريقة عرض قائمة الكائنات التي تريدها. يوضح نموذج التعليمات البرمجية التالي استخدام[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) لاستيراد البيانات من الكائنات المخصصة إلى الخلايا المدمجة. يرجى الاطلاع على المرفق[مصدر Excel](90112033.xlsx) ملف و[الإخراج إكسل](90112034.xlsx) ملف كمرجع.
+لاستيراد بيانات من مجموعة كائنات إلى ورقة عمل تحتوي على خلايا مدمجة ، استخدم[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) خاصية. إذا كان قالب Excel يحتوي على خلايا مدمجة ، فقم بتعيين قيمة[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells)الملكية على صواب. مرر ال[**خيارات ImportTable**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions) كائن مع قائمة الأعمدة / الخصائص لطريقة عرض قائمة الكائنات التي تريدها. يوضح نموذج التعليمات البرمجية التالي استخدام[**ImportTableOptions.CheckMergedCells**](https://reference.aspose.com/cells/net/aspose.cells/importtableoptions/properties/checkmergedcells) لاستيراد البيانات من الكائنات المخصصة إلى الخلايا المدمجة. يرجى الاطلاع على المرفق[مصدر Excel](90112033.xlsx) ملف و[الإخراج إكسل](90112034.xlsx) ملف كمرجع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportCustomObjectsToMergedArea-1.cs" >}}
 
@@ -66,7 +66,7 @@ url: /ar/net/import-data-into-worksheet/
 
 - **جدول البيانات** ، ال*جدول البيانات* الكائن الذي تقوم باستيراد المحتوى منه.
 - **هو اسم الحقل المعروض** ، يحدد ما إذا كانت أسماء ملفات*جدول البيانات*يجب استيراد الأعمدة إلى ورقة العمل كصف أول أم لا.
-- **خلية البداية**، يمثل اسم خلية البداية (على سبيل المثال "A1") من مكان استيراد محتويات ملف*جدول البيانات*.
+- **خلية البداية** ، يمثل اسم خلية البداية (على سبيل المثال "A1") من مكان استيراد محتويات ملف*جدول البيانات*.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromDataTable-1.cs" >}}
 
@@ -74,7 +74,7 @@ url: /ar/net/import-data-into-worksheet/
 
 يوفر Aspose.Cells ميزات للعمل مع العناصر الديناميكية كمصدر بيانات. يساعد في استخدام مصدر البيانات حيث تتم إضافة الخصائص ديناميكيًا إلى الكائنات. بمجرد إضافة الخصائص إلى العنصر ، يعتبر Aspose.Cells الإدخال الأول كقالب ويتعامل مع الباقي وفقًا لذلك. هذا يعني أنه إذا تمت إضافة بعض الخصائص الديناميكية إلى عنصر أول فقط وليس إلى كائنات أخرى ، فإن Aspose.Cells يعتبر أن جميع العناصر في المجموعة يجب أن تكون متطابقة.
 
-في هذا المثال ، يتم استخدام نموذج نموذج يحتوي مبدئيًا على متغيرين فقط. يتم تحويل هذه القائمة إلى قائمة الكائنات الديناميكية. ثم يتم إضافة بعض الحقول الإضافية إليه وتحميله أخيرًا في المصنف. يختار المصنف القيم الموجودة في ملف XLSX النموذجي فقط. يستخدم مصنف القالب هذا العلامات الذكية التي تحتوي أيضًا على معلمات. تسمح لك المعلمات بتعديل كيفية وضع المعلومات. يمكن الحصول على تفاصيل حول العلامات الذكية من المقالة التالية:
+في هذا المثال ، يتم استخدام نموذج نموذج يحتوي مبدئيًا على متغيرين فقط. يتم تحويل هذه القائمة إلى قائمة الكائنات الديناميكية. ثم يتم إضافة بعض الحقول الإضافية إليه وتحميله أخيرًا في المصنف. يختار المصنف القيم الموجودة في ملف القالب XLSX فقط. يستخدم مصنف القالب هذا العلامات الذكية التي تحتوي أيضًا على معلمات. تسمح لك المعلمات بتعديل كيفية وضع المعلومات. يمكن الحصول على تفاصيل حول العلامات الذكية من المقالة التالية:
 
 [استخدام العلامات الذكية](/cells/ar/net/using-smart-markers/)
 
@@ -114,20 +114,20 @@ url: /ar/net/import-data-into-worksheet/
 
  لاستيراد البيانات من ملف*عرض شبكي* السيطرة ، استدعاء[**إيمبورتجريدفيو**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview) طريقة[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)مجموعة.
 
-Aspose.Cells يسمح لنا باحترام قيم تنسيق HTML أثناء استيراد البيانات إلى جدول البيانات. عند تمكين تحليل HTML أثناء استيراد البيانات ، يقوم Aspose.Cells بتحويل HTML إلى تنسيق الخلية المقابل.
+Aspose.Cells يسمح لنا باحترام HTML القيم المنسقة أثناء استيراد البيانات إلى جدول البيانات. عند اتاحة التوزيع HTML أثناء استيراد البيانات ، يقوم Aspose.Cells بتحويل HTML إلى تنسيق الخلية المقابل.
 
-## **استيراد بيانات بتنسيق HTML**
+## **استيراد HTML بيانات منسقة**
 
- يوفر Aspose.Cells أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)فئة توفر طرقًا مفيدة للغاية لاستيراد البيانات من مصادر البيانات الخارجية. توضح هذه المقالة كيفية تحليل نص بتنسيق HTML أثناء استيراد البيانات وتحويل HTML إلى قيم خلية منسقة.
+ يوفر Aspose.Cells أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)فئة توفر طرقًا مفيدة للغاية لاستيراد البيانات من مصادر البيانات الخارجية. يوضح هذا المقال كيفية تحليل HTML نص منسق أثناء استيراد البيانات وتحويل HTML إلى قيم خلية منسقة.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
 ## **استيراد البيانات من JSON**
 
-يوفر Aspose.Cells أ[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) فئة لمعالجة JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) الصف لديه[**بيانات الاستيراد**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) طريقة لاستيراد بيانات JSON. يوفر Aspose.Cells أيضًا أ[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) فئة تمثل خيارات تخطيط JSON. ال[**بيانات الاستيراد**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)طريقة تقبل[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)كمعامل. ال[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)فئة توفر الخصائص التالية.
+يوفر Aspose.Cells أ[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) فئة المعالجة JSON.[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) الصف لديه[**بيانات الاستيراد**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata) طريقة لاستيراد بيانات JSON. يوفر Aspose.Cells أيضًا أ[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) فئة تمثل خيارات تخطيط JSON. ال[**بيانات الاستيراد**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)طريقة تقبل[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)كمعامل. ال[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)فئة توفر الخصائص التالية.
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): يجب معالجة الإشارات في المصفوفة كجدول أم لا.
-- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحويل السلسلة في JSON إلى رقم أو تاريخ.
+- [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): الحصول على أو تحديد قيمة تشير إلى ما إذا كان سيتم تحويل السلسلة في JSON إلى رقم أو تاريخ.
 - [**صيغة التاريخ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/dateformat): الحصول على تنسيق قيمة التاريخ وتعيينه.
 - [**IgnoreArrayTitle**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorearraytitle): يشير إلى ما إذا كان سيتم تجاهل العنوان إذا كانت خاصية الكائن عبارة عن مصفوفة
 - [**تجاهل**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/ignorenull): يشير إلى ما إذا كان يجب تجاهل القيمة الخالية أم لا.
@@ -135,7 +135,7 @@ Aspose.Cells يسمح لنا باحترام قيم تنسيق HTML أثناء ا
 - [**رقم**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): الحصول على تنسيق القيمة الرقمية وتعيينه.
 - [**العنوان**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle): الحصول على نمط العنوان وتحديده.
 
-يوضح نموذج التعليمة البرمجية أدناه استخدام ملحق[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) و[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) فئات لاستيراد بيانات JSON.
+يوضح نموذج التعليمة البرمجية أدناه استخدام ملحق[**JsonUtility**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) و[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) فئات لاستيراد JSON البيانات.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

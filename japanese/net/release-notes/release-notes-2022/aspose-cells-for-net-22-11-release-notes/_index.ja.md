@@ -14,14 +14,14 @@ url: /ja/net/aspose-cells-for-net-22-11-release-notes/
 |:- |:- |:- |
 |CELLSNET-52026|タイムラインのコピーをサポート|
 |CELLSNET-52022|CSE レガシー配列数式と通常の配列数式を区別または区別する|
-|CELLSNET-52156|XLSX を HTML に保存するときに結合された表のセルを無効にする|
+|CELLSNET-52156|XLSX から HTML への保存時に結合されたテーブル セルを無効にする|
 |CELLSNET-52159|HTML を Excel に変換する際に、折りたたまれたプロパティを解析するためのサポート|
-|CELLSNET-51939|XLSX から PDF: コンテンツのずれ|
-|CELLSNET-51940|XLS から PDF: セル内のコンテンツの位置ずれ|
-|CELLSNET-52068|XLSX から PDF: 図形が見つからない/レイアウトが崩れる|
+|CELLSNET-51939|XLSX ～ PDF: コンテンツの不整合|
+|CELLSNET-51940|XLS から PDF: セル内のコンテンツのずれ|
+|CELLSNET-52068|XLSX ～ PDF: 図形が見つからない/レイアウトが崩れる|
 |CELLSNET-52092|Excel の図の文字印刷と行間が途切れる|
 |CELLSNET-52186|XLSX ドキュメントを PDF に変換すると、シェイプ/ボックスが空になる|
-|CELLSNET-52225|テキスト ボックス内の XLSX から PDF への文字が反転する|
+|CELLSNET-52225|XLSX ～ PDF テキストボックスの文字反転|
 |CELLSNET-52086|生成されたファイルで破損した外部接続|
 |CELLSNET-52133|Excel の数式は、再保存された xlsb ファイルで中かっこで囲まれています。|
 |CELLSNET-52158|不適切な循環参照の検出|
@@ -34,15 +34,15 @@ url: /ja/net/aspose-cells-for-net-22-11-release-notes/
 |CELLSNET-52157|PDF への変換中にページ枠がテキストに重なる|
 |CELLSNET-52118|OpenOffice と LibreCalc で html が cell に設定されている場合、異なる形式間で一貫性のない結果|
 |CELLSNET-52125|インデックスが range.copy with picture の範囲外でした|
-|CELLSNET-52143|XLS ファイルを XLSM に変換すると、リンクの関係タイプが変更される|
-|CELLSNET-52144|リンク関係タイプを変更する XLS から XLSM への変換|
+|CELLSNET-52143|XLS ファイルを XLSM に変換すると、リンクの関係タイプが変更されます。|
+|CELLSNET-52144|XLS から XLSM への変換 リンク関係タイプの変更|
 |CELLSNET-52151|xlsb を保存すると、すべてのコメントが最後のコメントに置き換えられました|
 |CELLSNET-52152|AutoFit 行操作が Aspose.Cells を介して適用されると、行の高さの値が正しくありません|
 |CELLSNET-52155|範囲コピー後に条件付き書式が失われる|
-|CELLSNET-52181|XLSX から HTML: Cells の範囲が正しくエクスポートされない|
+|CELLSNET-52181|XLSX ～ HTML: Cells の範囲が正しくエクスポートされない|
 |CELLSNET-52214|出力 Excel ファイルで最後の行の内容が切り捨てられる|
 |CELLSNET-52236|スマート マーカー (group:merge) が結合セルに対して機能しない|
-|CELLSNET-52241|ドキュメント内のボックス (形状) が出力 PDF に表示されない|
+|CELLSNET-52241|ドキュメント内のボックス (形状) が出力に表示されない PDF|
 |CELLSNET-52243|ワークブックの保存時に VBA プロジェクトを変更するとエラーが発生する|
 
 ## **Public API および下位互換性のない変更**

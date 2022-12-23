@@ -22,7 +22,7 @@ url: /de/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 – Problem mit PivotTable mit intelligenten Markierungen
 
- 41528 – Formatierungsprobleme in der Ausgabe-PDF
+ 41528 – Formatierungsprobleme in der Ausgabe PDF
 
  \2) Aspose.Cells.GridWeb
 

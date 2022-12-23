@@ -21,7 +21,7 @@ url: /de/java/aspose-cells-for-java-2-4-3-release-notes/
 - Behebt einige interne Fehler beim Lesen/Speichern von ODS-Dateien.
 - Behebt einige interne Fehler beim Lesen/Speichern von Excel 97-2003-Dateien.
 - Die Funktion „Diagramm zu Bild“ wurde verbessert.
-- Die Funktion Direct Excel to PDF wurde verbessert.
+- Die Funktion „Direct Excel to PDF“ wurde verbessert.
 - 14 Korrekturen und Verbesserungen.
 
  In Aspose.Cells for Java behobene Probleme 2.4.3
@@ -29,16 +29,16 @@ url: /de/java/aspose-cells-for-java-2-4-3-release-notes/
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
 |20887 | XLSX| Von Zellen verwendete Themenfarbe|
-|20913 | ODS| Autofilter lesen|
+|20913 |ODS | Autofilter lesen|
 |21073 | XLs| Zellen kopieren|
 |21164 | XLs| Lesen Sie die Excel2003-Datei|
 |21155 | Xls2Pdf| Rendern von Formen/chinesischen Schriftzeichen|
 |21283 | XLs| Unterschiedliche Kopf-/Fußzeile für erste/gerade/ungerade Seiten|
 |21480 | XLSX| Stile lesen|
-|21481 | ODS| Ganzer Zeilen-/Spaltenbezug wie „B:B“ oder „1:1“|
+|21481 |ODS | Ganzer Zeilen-/Spaltenbezug wie „B:B“ oder „1:1“|
 |20635 | Diagramm| Überprüfen Sie die ungültige Datenquelle|
 |21580 | XLs| Automatischer Filter|
-|21679 | ODS| Vorlagendatei lesen|
+|21679 |ODS | Vorlagendatei lesen|
 |21703 | XLs| Zahlenformatierung|
 |21686 | XLs| Dokumenteigenschaften lesen|
 |21622 | html| Diagramm/Formen als Bild exportieren|

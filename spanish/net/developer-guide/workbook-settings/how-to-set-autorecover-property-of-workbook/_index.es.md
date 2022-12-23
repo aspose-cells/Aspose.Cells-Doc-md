@@ -6,7 +6,7 @@ url: /es/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Puede usar Aspose.Cells para establecer la propiedad Autorrecuperación del libro de trabajo. El valor predeterminado de esta propiedad es**verdadero** . cuando lo configuras**falso** en un libro de trabajo, Microsoft Excel deshabilita la Autorrecuperación (Autoguardado) en ese archivo de Excel.
+Puede usar Aspose.Cells para establecer la propiedad Autorrecuperación del libro de trabajo. El valor predeterminado de esta propiedad es**verdadero** . cuando lo configuras**falso** en un libro de trabajo, Microsoft Excel deshabilita la Autorrecuperación (Autoguardado) en ese archivo de Excel.
 
  Aspose.Cells proporciona[**Workbook.Settings.AutoRecover**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) propiedad para habilitar o deshabilitar esta opción.
 

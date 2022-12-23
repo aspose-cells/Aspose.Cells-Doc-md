@@ -16,10 +16,10 @@ Allo stesso modo, potrebbe essere necessario che un foglio di lavoro specifico s
 ## **Aggiunta di fogli di lavoro e attivazione di un foglio**
 Ai fini di questo suggerimento per la migrazione:
 
-1. Aggiungi nuovi fogli di lavoro a un file Microsoft Excel esistente.
+1. Aggiungi nuovi fogli di lavoro a un file Excel Microsoft esistente.
 1. Inserisci i dati nelle celle di ogni nuovo foglio di lavoro.
 1. Attiva un foglio nella cartella di lavoro.
-1. Salva come file Microsoft Excel.
+1. Salva come file Excel Microsoft.
 
 Di seguito sono riportati frammenti di codice paralleli per VSTO (C#, VB) e Aspose.Cells for .NET (C#, VB), che mostrano come eseguire queste attività.
 ### **VSTO**

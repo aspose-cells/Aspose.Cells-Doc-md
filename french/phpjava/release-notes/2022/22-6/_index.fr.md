@@ -10,7 +10,7 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44632|Prend en charge le formatage de la ligne entière de données dans le tableau croisé dynamique|
 |CELLSJAVA-44611|Amélioration de la lecture des cellules vides du fichier xlsx|
@@ -27,9 +27,9 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-6-release-notes/
 |CELLSJAVA-44660|Problème d'alignement des données lors du chargement du XLS dans Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problème lors du chargement du fichier et dans Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Le titre de l'axe dans le graphique est pivoté dans l'image de sortie - Conversion graphique en image|
-|CELLSJAVA-44615|Ligne grise dessinée dans l'image de sortie du fichier XLS|
+|CELLSJAVA-44615|Ligne grise tracée dans l'image de sortie du fichier XLS|
 |CELLSJAVA-44665|Le chargement du fichier ODS se bloque|
-|CELLSJAVA-44651|Erreur "Pas une valeur numérique" lors de la conversion d'une feuille Excel en HTML/PDF|
+|CELLSJAVA-44651|Erreur "Pas une valeur numérique" lors de la conversion de la feuille Excel en HTML/PDF|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
 

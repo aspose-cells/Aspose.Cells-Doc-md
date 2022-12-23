@@ -33,8 +33,8 @@ Biz
 
 - Cells.importCustomObjects(), belirtilen DateTime biçimiyle çalışmıyor
 - Yanlış GrafikDağılım grafiğinin türü
-- Çift değer, CSV şablon dosyasından okurken kesinliği kaybeder
+- CSV şablon dosyasından okunurken çift değer hassasiyeti kaybeder
 - Grafik Serisi, bir görüntüye dönüştürülürken ters çevrildi
 - Yeniden kaydedilen XLSX dosyası "Excelfound unreadable content..." hatasına neden oluyor
 - Kaydedilen Pivot Tablo, MS Excel'de açıldığında "ProtectionView"a neden oldu
-- Aspose.Cellscreates ile Liste doğrulamayı kullanma Sistemin liste ayırıcısını değiştirdikten sonra çalışmayan bir XLS dosyası
+- Aspose.Cellscreates ve XLS dosyası tarafından Liste doğrulamanın kullanılması, Sistemin liste ayırıcısını değiştirdikten sonra çalışmayan

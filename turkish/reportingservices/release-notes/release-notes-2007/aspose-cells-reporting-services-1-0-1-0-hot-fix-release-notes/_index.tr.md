@@ -10,7 +10,7 @@ url: /tr/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
 
 {{% /alert %}} 
 
- giriiş
+ Giriş
 
  Raporlama Hizmeti v1.0.1 için Aspose.Cells, o zamandan beri özellik geliştirme ve hata düzeltmeleri içerir
 
@@ -19,7 +19,7 @@ url: /tr/reportingservices/aspose-cells-reporting-services-1-0-1-0-hot-fix-relea
  Ne var ne yok?
 
 - Matrisi dışa aktarmak için desteklenir
-- CSV ve TabDelimated dosyasını dışa aktarmak için desteklenir
+- CSV ve TabDelimited dosyasının dışa aktarılması desteklenir
 - Arka plan resmini destekledi.
 
  Neler Düzeltildi?

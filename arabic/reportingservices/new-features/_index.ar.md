@@ -10,7 +10,7 @@ url: /ar/reportingservices/new-features/
 - [التكامل مع Microsoft عارض التقرير في الوضع المحلي](/cells/ar/reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/)
 - [تمديد دعم ملحقات التقديم](/cells/ar/reportingservices/extended-rendering-extensions-support/)
 - [دعم Microsoft Excel 2007 أو 2010 UI المخصص](/cells/ar/reportingservices/support-for-microsoft-excel-2007-or-2010-custom-ui/)
-- [دعم المخططات القابلة للتحرير](/cells/ar/reportingservices/support-for-editable-charts/)
+- [دعم المخططات القابلة للتعديل](/cells/ar/reportingservices/support-for-editable-charts/)
 - [دعم التواقيع الرقمية](/cells/ar/reportingservices/support-for-digital-signatures/)
 - [أضف مصفوفة في Aspose.Cells for Reporting Services عميل](/cells/ar/reportingservices/add-matrix-in-aspose-cells-for-reporting-services-client/)
 - [إضافة وظيفة إخفاء في Aspose.Cells for Reporting Services عميل](/cells/ar/reportingservices/add-hide-function-in-aspose-cells-for-reporting-services-client/)

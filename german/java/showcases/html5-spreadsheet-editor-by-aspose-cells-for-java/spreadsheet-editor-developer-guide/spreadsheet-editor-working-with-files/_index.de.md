@@ -86,7 +86,7 @@ Die Datei wird im Editor geöffnet.
 
 **Laden und Entladen**
 
- Die Methode***LoaderService.fromInputStream*** liest die***Eingabestrom*** bereitgestellt von fileUpload***Komponente*** Instanz erstellen von***com.aspose.cells.Workbook*** Klasse. Diese Instanz wird gespeichert, solange der Benutzer die Tabelle im Webbrowser anzeigt oder bearbeitet. Wenn der Benutzer den Editor verlässt oder den Browser schließt, werden die nicht verwendeten Instanzen automatisch aus dem Speicher entfernt, um den Server sauber zu halten.
+ Die Methode***LoaderService.fromInputStream*** liest die***Eingabestrom*** bereitgestellt von fileUpload***Komponente*** Instanz erstellen von***com.aspose.cells.Workbook***Klasse. Diese Instanz wird gespeichert, solange der Benutzer die Tabelle im Webbrowser anzeigt oder bearbeitet. Wenn der Benutzer den Editor verlässt oder den Browser schließt, werden die nicht verwendeten Instanzen automatisch aus dem Speicher entfernt, um den Server sauber zu halten.
 
 
 
@@ -270,7 +270,7 @@ So öffnen Sie Dateien aus Dropbox:
 1.  Klicken**Aus Dropbox öffnen** um die Dropbox-Dateiauswahl zu öffnen.
 1. Wenn Sie noch nicht angemeldet sind, müssen Sie sich bei Ihrem Dropbox-Konto anmelden.
 1. Navigieren Sie zur gewünschten Datei und klicken Sie darauf, um sie auszuwählen.
-1.  Klicken**Wählen** ganz unten.
+1.  Klicken**Wählen** unten.
 
 Ihre ausgewählte Datei wird von Dropbox geöffnet.
 
@@ -278,7 +278,7 @@ Ihre ausgewählte Datei wird von Dropbox geöffnet.
 
 **Wie es funktioniert?**
 
- Das**Aus Dropbox öffnen** Schaltfläche verwendet**Dropbox-JavaScript-Auswahl API** um das Dropbox-Auswahldialogfeld zu öffnen. Die Auswahl stellt die URL der ausgewählten Datei bereit, die von der Rückruffunktion erfasst und an den Server zurückgesendet wird. Der Server erstellt eine Instanz der Tabelle aus der URL, initialisiert einige Verwaltungsaufgaben und sendet DOM-Aktualisierungen an den Browser zurück. Der Browser rendert und aktualisiert den HTML-Code und der Benutzer ist bereit, das geladene Dokument zu bearbeiten.
+ Das**Aus Dropbox öffnen** Schaltfläche verwendet**Dropbox-JavaScript-Auswahl API** , um das Dropbox-Auswahldialogfeld zu öffnen. Die Auswahl stellt die URL der ausgewählten Datei bereit, die von der Rückruffunktion erfasst und an den Server zurückgesendet wird. Der Server erstellt eine Instanz der Tabelle aus der URL, initialisiert einige Verwaltungsaufgaben und sendet DOM-Aktualisierungen an den Browser zurück. Der Browser rendert und aktualisiert HTML und der Benutzer ist bereit, das geladene Dokument zu bearbeiten.
 ### **Von URL öffnen**
  Dateien können direkt aus URLs geöffnet werden. Dadurch kann der Benutzer jede öffentlich verfügbare Datei im Internet bearbeiten. Zum Öffnen der Datei anhängen**?url=Standort** Parameter mit dem gewünschten Wert**Lage** beim Laden des Editors. Zum Beispiel:
 
@@ -298,11 +298,11 @@ Ihre ausgewählte Datei wird von Dropbox geöffnet.
 
 **Caching**
 
- Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache**eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
+ Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache** eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
 
 **DOM-Updates**
 
-Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neuen HTML-Code zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
+Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neue HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
 
 
 
@@ -503,7 +503,7 @@ Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um n
 So erstellen Sie eine neue leere Tabelle:
 
 1.  Wechseln zu**Registerkarte Datei**.
-1.  Drücke den**Neu** Taste.
+1.  Drücke den**Neu** Knopf.
 
 Der Editor schließt die geöffnete Tabelle, falls vorhanden, und öffnet eine neue.
 
@@ -513,15 +513,15 @@ Der Editor schließt die geöffnete Tabelle, falls vorhanden, und öffnet eine n
 
 **Instanziieren Sie ein neues Objekt**
 
- Wenn der**Neu** Schaltfläche wird vom Benutzer angeklickt,**WorksheetView.loadBlank** , die schließlich anruft**LoaderService.fromBlank**. LoaderService erstellt eine neue Instanz einer leeren Tabelle.
+ Wenn die**Neu** Schaltfläche wird vom Benutzer angeklickt,**WorksheetView.loadBlank** , die schließlich anruft**LoaderService.fromBlank**. LoaderService erstellt eine neue Instanz einer leeren Tabelle.
 
 **Caching**
 
- Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache**eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
+ Das Caching erfolgt direkt nach dem Laden der Tabelle. Das**LoaderService** Anrufe**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** und**LoaderService.buildRowHeightCache** eins nach dem anderen, um den Inhalt der Tabelle zwischenzuspeichern und alle Vorgänge schnell und reibungslos zu halten.
 
 **DOM-Updates**
 
-Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neuen HTML-Code zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
+Wenn die Tabelle serverseitig bereit ist, werden JSF-Komponenten verwendet, um neue HTML zu generieren und DOM-Aktualisierungen an den Benutzer zu senden, die vom Webbrowser gerendert werden.
 
 
 
@@ -701,10 +701,10 @@ Die geänderte Datei wird zum Download exportiert. Die folgenden Formate werden 
 
 - Excel 2007-2013 XLSX
 - Excel 1997-2003 XLS
-- Excel-XLSM
-- Excel-XLSB
+- Excel XLSM
+- Excel XLSB
 - Excel XLTX
-- Excel XL™
+- Excel XLTM
 - SpreadsheetML
 - Portables Dokumentenformat (PDF)
 - OpenDocument-Tabelle (ODS)

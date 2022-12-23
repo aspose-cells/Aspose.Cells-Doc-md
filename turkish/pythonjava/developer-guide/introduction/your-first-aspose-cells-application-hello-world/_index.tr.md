@@ -31,7 +31,7 @@ Aşağıdaki örnek, sıfırdan yeni bir çalışma kitabı oluşturur, "Hello W
 
 **Oluşturulan e-tablo** 
 
-![yapılacaklar:resim_alternatif_Metin](your-first-aspose-cells-application-hello-world_1.png)
+![yapılacaklar:resim_alternatif_metin](your-first-aspose-cells-application-hello-world_1.png)
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "CreatingHelloWorldFile.py" >}}
 

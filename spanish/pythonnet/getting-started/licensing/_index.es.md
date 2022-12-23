@@ -20,7 +20,7 @@ Las limitaciones se muestran a continuación:
  Al ejecutar su programa, solo puede abrir 100 archivos de Excel usando Aspose.Cells Python a través de la biblioteca .Net. Si su aplicación excede este número, se lanzará una excepción.
 
 
-Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando Aspose.Cells Python a través de la biblioteca. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En el PDF de salida o el archivo de imagen por Aspose.Cells Python vía, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen.
+Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando Aspose.Cells Python a través de la biblioteca. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En la salida PDF o el archivo de imagen por Aspose.Cells Python vía, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen.
 
 {{% alert color="primary" %}}
 

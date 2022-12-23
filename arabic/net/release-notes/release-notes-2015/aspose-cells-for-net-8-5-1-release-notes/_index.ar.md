@@ -68,7 +68,7 @@ url: /ar/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43742) - سلوك حماية مصنف غير متسق
 
-(CELLSNET-43734) - لا يستطيع Excel فتح الملف بعد التحويل من XLSM إلى XLS
+(CELLSNET-43734) - لا يمكن لبرنامج Excel فتح الملف بعد التحويل من XLSM إلى XLS
 
 (CELLSNET-43727) - يتسبب دمج المصنفات في ظهور تحذير Excel "لا يمكن تحرير PivotTable في وضع تحرير المجموعة"
 

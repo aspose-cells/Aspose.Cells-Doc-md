@@ -13,8 +13,8 @@ url: /zh/python-java/aspose-cells-for-python-via-java-22-2-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-44317|这个xlsx里面的文字是乱码|
-|CELLSJAVA-44271|Excel 转 PDF 时，输出位置相对于手动转换有偏移|
-|CELLSJAVA-44197|将 XLSX 转换为 PDF 时，不显示数据透视表时间线形状（窗口）|
+|CELLSJAVA-44271|Excel 转换为 PDF 时，输出位置相对于手动转换有偏移|
+|CELLSJAVA-44197|XLSX转PDF时，数据透视表时间轴形状（窗口）不显示|
 |CELLSJAVA-44267|包含数据透视表的工作簿已损坏|
 |CELLSJAVA-44114|XLSX 到 PDF：XLSX 文件中科学数字格式的数据与输出 PDF 文件中的数据不匹配|
 |CELLSJAVA-44293|在 MS Excel 中打开时需要恢复重新保存的 Excel 文件|
@@ -25,13 +25,13 @@ url: /zh/python-java/aspose-cells-for-python-via-java-22-2-release-notes/
 |CELLSJAVA-44229|td 内容被 div 标签包裹时公式丢失|
 |CELLSJAVA-44247|转换为 pdf 时单行文本被换行|
 |CELLSJAVA-44175|甜甜圈图标签重叠的问题|
-|CELLSJAVA-44192|图表中的类别轴项目名称在 Excel 到 PDF 转换中被截断|
-|CELLSJAVA-44233|转换 XLSX 文件时无限循环|
+|CELLSJAVA-44192|图表中的类别轴项目名称在 Excel 中被截断为 PDF 转换|
+|CELLSJAVA-44233|XLSX 文件转换时死循环|
 |CELLSJAVA-44263|将图表标签文本的方向设置为垂直不生效|
 |CELLSJAVA-44268|Chart.toPdf 方法上的异常“java.lang.NullPointerException”|
-|CELLSJAVA-44302|Excel文件转HTML后坐标轴文字方向错误|
+|CELLSJAVA-44302|Excel文件转成坐标轴文字方向错误 HTML|
 |CELLSJAVA-44314|图表中错误的图表类别轴标签到图像渲染|
-|CELLSJAVA-44274|是否支持 SVG 格式以读取或呈现为 PDF|
+|CELLSJAVA-44274|是否支持 SVG 格式读取或呈现为 PDF|
 |CELLSJAVA-44311|呈现为 HTML 文件格式时出现异常“java.lang.OutOfMemoryError：Java 堆空间”|
 |CELLSJAVA-44285|调用 Workbook.calculateFormula() 时出现异常“java.lang.ClassCastException：com.aspose.cells.n2f 无法转换为 com.aspose.cells.o90”|
 

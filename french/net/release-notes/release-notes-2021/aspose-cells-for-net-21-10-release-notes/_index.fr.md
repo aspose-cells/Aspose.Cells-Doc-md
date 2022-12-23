@@ -10,10 +10,10 @@ url: /fr/net/aspose-cells-for-net-21-10-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-49192| Problème de récupération des plages (RefersTo) avec une fonction de décalage|Nouvelle fonctionnalité|
-|CELLSNET-49132|Ouvrir les fichiers avec un tableau HTML à l'intérieur en tant que fichiers XLS|Nouvelle fonctionnalité|
+|CELLSNET-49132|Ouvrir les fichiers avec la table HTML à l'intérieur en tant que fichiers XLS|Nouvelle fonctionnalité|
 |CELLSNET-49173|Prise en charge de la propriété Range.CurrentRegion|Nouvelle fonctionnalité|
 |CELLSNET-49015|Mettez à jour le lien hypertexte (Sheet1! A1) lors de la modification du nom de la feuille de calcul.|Renforcement|
 |CELLSNET-49021|La mise en forme conditionnelle des ods est perdue dans MS Excel si le type est "Contient du texte"|Renforcement|
@@ -27,10 +27,10 @@ url: /fr/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49067|Problème avec l'obtention et la définition de la couleur de l'onglet dans GridDesktop|Punaise|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode ne fonctionne pas|Punaise|
 |CELLSNET-49118|Problème avec l'importation XML|Punaise|
-|CELLSNET-49195|La conversion XLSX en HTML ne conserve pas la séquence de caractères invisibles|Punaise|
-|CELLSNET-49245|L'image se décale dans des fichiers XLS spécifiques lors du rendu au format HTML|Punaise|
-|CELLSNET-49246|L'image n'est pas visible lors de la conversion d'un fichier XLSX spécifique en HTML|Punaise|
-|CELLSNET-49334| Problème avec le texte de police dans le champ de pied de page pour le rendu Excel|Punaise|
+|CELLSNET-49195|La conversion de XLSX à HTML ne conserve pas la séquence de caractères invisibles|Punaise|
+|CELLSNET-49245|L'image se décale dans des fichiers XLS spécifiques lors du rendu en HTML|Punaise|
+|CELLSNET-49246|L'image n'est pas visible lors de la conversion d'un fichier spécifique XLSX en HTML|Punaise|
+|CELLSNET-49334|Problème avec le texte de police dans le champ de pied de page pour le rendu Excel|Punaise|
 |CELLSNET-49393|Impossible d'importer avec succès le fichier XML dans le fichier de modèle|Punaise|
 |CELLSNETCORE-226|Espace blanc inutile rendu lors de la conversion d'Excel en EMF|Punaise|
 |CELLSNET-49091|Le noeud "strCache" manquant dans un XML|Punaise|
@@ -38,17 +38,17 @@ url: /fr/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49191|Impossible d'afficher les valeurs de pourcentage dans l'étiquette de données|Punaise|
 |CELLSNET-49305|Certaines étiquettes de données dans le graphique sont manquantes|Punaise|
 |CELLSNET-49374|La ligne de graphique est différente avec la fonction Chart.ToImage que dans Excel|Punaise|
-|CELLSNET-48613|Une ressource qui est hors de la plage sélectionnée ne doit pas être exportée au format HTML|Punaise|
+|CELLSNET-48613|Une ressource qui est hors de la plage sélectionnée ne doit pas être exportée vers HTML|Punaise|
 |CELLSNET-49027|Distorsion de la couleur et de la mise en page de la page du document|Punaise|
 |CELLSNET-49145|Informations DataMashup non extraites du fichier Excel|Punaise|
 |CELLSNET-49146|Le filigrane dans le fichier Excel ne peut pas être correctement généré et affiché|Punaise|
-|CELLSNET-49239|L'effet d'ombre est appliqué aux images lors de la conversion de XLSM en XLS|Punaise|
+|CELLSNET-49239|L'effet d'ombre est appliqué aux images lors de la conversion de XLSM à XLS|Punaise|
 |CELLSNET-49244|La mise en forme conditionnelle de l'icône est perdue lors de l'enregistrement au format HTML|Punaise|
 |CELLSNET-49328|Erreur lors de la copie des feuilles de calcul|Punaise|
 |CELLSNET-49365|Le texte est tronqué dans la sortie de l'imprimante après l'appel à AutoFitRows|Punaise|
 |CELLSNET-49366|Problème avec les champs de saisie de validation des données Cell au format XLSB|Punaise|
-|CELLSNETCORE-269|La mauvaise ligne avec une grande hauteur est ajoutée dans le tableau HTML|Punaise|
-|CELLSNETCORE-270|Problèmes avec la police HtmlString lorsque Excel a été enregistré une fois au format HTML|Punaise|
+|CELLSNETCORE-269|La mauvaise ligne avec une grande hauteur est ajoutée dans la table HTML|Punaise|
+|CELLSNETCORE-270|Problèmes avec la police HtmlString lorsque Excel a enregistré une fois sous HTML|Punaise|
 |CELLSNET-49375|Problème lors de l'actualisation du tableau croisé dynamique après l'ajout de données|Punaise|
 |CELLSNET-49194|Exception lors du chargement du fichier excel|Exception|
 |CELLSNET-49363|La méthode CalculateData sur le tableau croisé dynamique lève une exception|Exception|

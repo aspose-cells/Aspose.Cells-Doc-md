@@ -4,7 +4,7 @@ type: docs
 weight: 9
 url: /tr/reportingservices/product-overview/
 ---
-![yapılacaklar:resim_alternatif_Metin](product-overview_1.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_1.png)
 **Aspose.Cells for Reporting Services Dokümantasyona hoş geldiniz!**
 Aspose.Cells, geliştiricilerin Microsoft Excel'e güvenmeden Excel elektronik tablolarını okuma, yazma ve değiştirme becerisini kendi uygulamalarına yerleştirmelerine olanak tanıyan ödüllü bir elektronik tablo bileşenidir.
 
@@ -16,7 +16,7 @@ Aspose.Cells for Reporting Services bileşenini kullanarak rapor tasarlamanın i
 
 **Aspose.Cells for Reporting Services kullanılarak oluşturulmuş örnek bir rapor** 
 
-![yapılacaklar:resim_alternatif_Metin](product-overview_2.png)
+![yapılacaklar:resim_alternatif_metin](product-overview_2.png)
 
 Aspose.Cells for Reporting Services iki parçadan oluşmaktadır.
 - **Aspose.Cells.Report.Designer**

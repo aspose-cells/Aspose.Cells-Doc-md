@@ -20,8 +20,8 @@ url: /sv/net/aspose-cells-for-net-22-11-release-notes/
 |CELLSNET-51940|XLS till PDF: Innehållsfeljustering i celler|
 |CELLSNET-52068|XLSX till PDF: Former saknas/layout kollapsar|
 |CELLSNET-52092|Teckenutskrift och mellanrum i figurerna i Excel skärs bort|
-|CELLSNET-52186|Former/rutor är tomma när XLSX-dokument konverteras till PDF|
-|CELLSNET-52225|XLSX till PDF-tecken i textrutor omvända|
+|CELLSNET-52186|Former/lådor är tomma vid konvertering av XLSX dokument till PDF|
+|CELLSNET-52225|XLSX till PDF Tecken i textrutor omvända|
 |CELLSNET-52086|Externa anslutningar skadade i den genererade filen|
 |CELLSNET-52133|Excel-formler lindas med lockiga hängslen i den återsparade xlsb-filen|
 |CELLSNET-52158|Felaktig cirkulär referensdetektering|
@@ -35,14 +35,14 @@ url: /sv/net/aspose-cells-for-net-22-11-release-notes/
 |CELLSNET-52118|Inkonsekvent resultat i olika format när html är inställt på cell i OpenOffice och LibreCalc|
 |CELLSNET-52125|Index var utanför intervallet för range.copy med bild|
 |CELLSNET-52143| Relationstypen för länken ändras när en XLS-fil konverteras till XLSM|
-|CELLSNET-52144|XLS till XLSM-konvertering ändrar länkrelationstyp|
+|CELLSNET-52144|XLS till XLSM konvertering ändrar länkrelationstyp|
 |CELLSNET-52151|Att spara xlsb ersatte alla kommentarer med senaste kommentaren|
 |CELLSNET-52152|Radhöjdsvärdet är felaktigt när AutoFit-radfunktionen tillämpas via Aspose.Cells|
 |CELLSNET-52155|Villkorlig formatering förloras efter intervallkopiering|
 |CELLSNET-52181|XLSX till HTML: Cells-intervallet har inte exporterats korrekt|
 |CELLSNET-52214|Innehållet på sista raden trunkeras i den utgående Excel-filen|
 |CELLSNET-52236| Smart markör (grupp:sammanfoga) fungerar inte för sammanslagna celler|
-|CELLSNET-52241|Rutor (former) i dokumentet visas inte i den utgående PDF-filen|
+|CELLSNET-52241|Rutor (former) i dokumentet visas inte i utdata PDF|
 |CELLSNET-52243|Ändring av VBA-projekt ger ett felmeddelande när arbetsboken sparas|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

@@ -21,12 +21,12 @@ url: /tr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47433|Worksheet.Cells.RemoveDuplicates çalışmıyor veya çok fazla zaman alıyor.|Verim|
 |CELLSNET-46753|WorkbookDesigner.Process() büyük veriler için kilitleniyor|Verim|
 |CELLSNET-47379|HTML'den Excel'e Dönüştürme - CSS'de tanımlandığında kenarlıklar eksik|Böcek|
-|CELLSNET-47394|Tarihleri içeren grafik açıklaması, PDF çıktısında farklı bir biçime sahip|Böcek|
+|CELLSNET-47394|Tarih içeren grafik açıklamaları, PDF çıktısında farklı bir biçime sahip|Böcek|
 |CELLSNET-47400|Excel'de ayarlanandan farklı Koşullu Biçim|Böcek|
 |CELLSNET-47402|Pivot tablolar yenilenmedi|Böcek|
 |CELLSNET-47404|.mht dosyası yüklenirken Çince karakterler okunamıyor.|Böcek|
-|CELLSNET-47411|XLSB'nin bir kopyası oluşturulamadı|Böcek|
-|CELLSNET-47427|HTML'ye dışa aktarılırken içerik kaydırılıyor|Böcek|
+|CELLSNET-47411|XLSB'in bir kopyası oluşturulamadı|Böcek|
+|CELLSNET-47427|HTML'e dışa aktarılırken içerik kaydırılıyor|Böcek|
 |CELLSNET-47471|PivotTable yenilendikten ve hesaplandıktan sonra Koşullu biçimlerin CellAreas'ı doğru değil|Böcek|
 |CELLSNET-47426|Veri doğrulama kuralının yanlış değeri|Böcek|
 |CELLSNET-47456|GetValidation().IgnoreBlank çalışmıyor|Böcek|
@@ -34,9 +34,9 @@ url: /tr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47443|Otomatik filtreler Aspose.Cells.GridDesktop'ta düzgün çalışmıyor|Böcek|
 |CELLSNET-47460|GridWeb'i en son Firefox'ta (sürümler: 77 ve 78) yazdırma çalışmıyor|Böcek|
 |CELLSNET-47461|Firefox'un son sürümlerinde çalışmayan GridWeb'de birden çok hücrenin seçilmesi|Böcek|
-|CELLSNET-47417|Excel'den PDF'e dönüştürmede hücre yüksekliği yetersiz|Böcek|
+|CELLSNET-47417|Hücre yüksekliği Excel'de PDF oluşturma için yetersiz|Böcek|
 |CELLSNET-47437|XLS'den dönüştürülen PDF, Acrobat Reader'da bir hata veriyor|Böcek|
-|CELLSNET-47423|Grafiklerdeki değer ekseni ve kategori ekseni etiketleri, Excel'de PDF'ye dönüştürmede işlenmez|Böcek|
+|CELLSNET-47423|Grafiklerdeki değer ekseni ve kategori ekseni etiketleri Excel'de PDF dönüşümüne işlenmez|Böcek|
 |CELLSNET-47429|Özel dolgu rengine sahip ve veri etiketi içermeyen güneş patlaması grafiği, ToImage yönteminde hata veriyor|Böcek|
 |CELLSNET-47438|Dağılım grafiği rengi Excel'den PDF'e dönüştürme|Böcek|
 |CELLSNET-47401|Satırları sildikten sonra değişen tablo değerleri|Böcek|
@@ -44,7 +44,7 @@ url: /tr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47412|Bazı grafikler için yanlış grafik türü döndürüldü|Böcek|
 |CELLSNET-47413|Bazı grafikler için eksik grafik başlığı|Böcek|
 |CELLSNET-47415|CopyRows, formüllerde hedef adlı aralık değerlerini kullanmaz|Böcek|
-|CELLSNET-47420|ChartType.Line'ın XLS ve XLSX'teki farklı sonuçları|Böcek|
+|CELLSNET-47420|XLS ve XLSX'de ChartType.Line'ın farklı sonuçları|Böcek|
 |CELLSNET-47425|DataBar türü için koşullu biçimlendirme kuralı önceliği yanlış|Böcek|
 |CELLSNET-47430|Bir aralığın biçimlendirmesinin yapıştırılması, hedefe yapıştırılan boş bir aralıkla sonuçlandı|Böcek|
 |CELLSNET-47431|Cells sayı biçimlendirmesinin değiştirilmesi beklenmedik bir şekilde kenarlıklar ekliyor|Böcek|
@@ -53,7 +53,7 @@ url: /tr/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47447|Grafik Ekseninin sayı biçimi alınamıyor|Böcek|
 |CELLSNET-47454|Piksel cinsinden aynı değerde farklı satır yükseklikleri|Böcek|
 |CELLSNET-47459|.xlsx'ten .xlsb'ye dönüştürüldükten sonra grafiğin boyutu değişti|Böcek|
-|CELLSNET-47462|JSON'u Excel'e aktarırken hata oluştu|Böcek|
+|CELLSNET-47462|JSON'i Excel'e aktarırken hata oluştu|Böcek|
 |CELLSNET-47465|XLS dosyası kaydedilirken tablonun stili kayboldu|Böcek|
 |CELLSNET-47477|Akıllı yapımcılar FieldName'de bir nokta var|Böcek|
 |CELLSNET-47439|Stil uygularken boş referans istisnası|İstisna|

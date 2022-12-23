@@ -10,22 +10,22 @@ url: /it/java/aspose-cells-for-java-20-4-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43153|Visualizza la legenda del grafico a cascata in turco simile a MS Excel|Aumento|
 |CELLSJAVA-43142|Rendering da Excel a HTML: alcune celle non sono allineate dopo la conversione|Insetto|
 |CELLSJAVA-43155|Il testo ruotato viene impostato fuori dalla cella quando viene visualizzato come HTML|Insetto|
 |CELLSJAVA-43161|Rappresentazione errata dell'equazione|Insetto|
 |CELLSJAVA-43130|Problema di trasparenza del grafico a cascata|Insetto|
-|CELLSJAVA-43131|Da Excel a PDF: forme con testo non convertito correttamente|Insetto|
+|CELLSJAVA-43131|Excel a PDF - Forme con testo non convertito correttamente|Insetto|
 |CELLSJAVA-43133|Chart.toImage non include etichette di dati nell'immagine di output|Insetto|
 |CELLSJAVA-43138|Immagine generata con problemi di rendering.|Insetto|
-|CELLSJAVA-43151|Modifica dello stile dopo la conversione del file XLS|Insetto|
+|CELLSJAVA-43151|Modifiche di stile dopo la conversione del file XLS|Insetto|
 |CELLSJAVA-43158|IllegalArgumentException: Map size(0) deve essere >= 1|Eccezione|
 |CELLSJAVA-43149|Eccezione sollevata durante il salvataggio di XLSM dopo la rimozione del foglio di lavoro|Eccezione|
 |CELLSJAVA-43150|Eccezione "java.lang.NumberFormatException" al caricamento del file|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ChartTextFrame.DirectionType.**
 Ottiene e imposta la direzione del testo nel grafico.
 ### **Aggiunge ChartTextFrame.ReadingOrder e rende obsoleta la proprietà ChartTextFrame.TextDirection.**

@@ -5,7 +5,7 @@ weight: 20
 url: /de/java/cell-alignment-settings/
 ---
 ## **Aspose.Cells - Cell Ausrichtungseinstellungen**
-Aspose.Cells bietet eine Klasse, Workbook, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert.
+Aspose.Cells bietet eine Klasse, Workbook, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine WorksheetCollection, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt.
 
 Die Worksheet-Klasse stellt eine Cells-Sammlung bereit. Jedes Element in der Sammlung Cells repräsentiert ein Objekt der Klasse Cell.
 

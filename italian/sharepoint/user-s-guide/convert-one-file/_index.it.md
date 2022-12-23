@@ -10,7 +10,7 @@ url: /it/sharepoint/convert-one-file/
 
 {{% /alert %}} 
 ### **Conversione di singoli file**
-Per convertire un determinato documento in una raccolta documenti:
+ Per convertire un determinato documento in una raccolta documenti:
 
 1.  Selezionare**Converti con Aspose.Cells.SharePoint** nell'Edit Control Block (ECB) del documento.
 
@@ -27,7 +27,7 @@ Viene visualizzata la schermata delle impostazioni di conversione. Qui puoi perf
  Per impostazione predefinita, Aspose.Cells for SharePoint precompila questo campo con il nome del file sorgente.
  L'estensione viene aggiunta automaticamente in base al formato selezionato.
 1.  Avvia la conversione facendo clic**Convertire**.
- (Oppure torna alla libreria, ignorando le impostazioni, facendo clic su**Annulla**.)
+(Oppure torna alla libreria, ignorando le impostazioni, facendo clic su**Annulla**.)
 
 **Schermata Impostazioni di conversione per la conversione di un file** 
 

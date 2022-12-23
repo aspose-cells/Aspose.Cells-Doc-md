@@ -10,8 +10,8 @@ url: /ja/net/aspose-cells-for-net-7-7-1-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for .NET がバージョン 7.7.1 に更新されました。このリリースにより、80 を超える新しい便利な改善が追加されたことをお知らせいたします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+ Aspose.Cells for .NET がバージョン 7.7.1 に更新されました。このリリースにより、80 を超える新しい便利な改善が追加されたことをお知らせいたします。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -58,13 +58,13 @@ xlsbのピボットテーブルの読み書きの手直し
 ## **バグ**
 
 
- (CELLSNET-42220) - 出力 PDF ファイルでの矢印形状のレンダリングに関する問題
+ (CELLSNET-42220) - 出力 PDF ファイルの矢印形状のレンダリングに関する問題
 
 (CELLSNET-42139) - Cell.GetDisplayStyle() が TOP 10% および BOTTOM 10% の条件付き書式設定で機能しない
 
 (CELLSNET-40904) - Excel 画像からレンダリングするときに画像で使用される間違った色
 
-(CELLSNET-42249) - Aspose.Cells により XLSB ファイルが破損する
+(CELLSNET-42249) - Aspose.Cells が XLSB ファイルを破損する
 
 (CELLSNET-42217) - MS Excel に「読めないコンテンツ」というメッセージが表示される
 
@@ -76,7 +76,7 @@ xlsbのピボットテーブルの読み書きの手直し
 
 (CELLSNET-41363) - PivotField の問題 - 'Repeat item labels' 状態が正しくない (*.xlsb)
 
- (CELLSNET-41362) - ピボットフィールドの問題 - 「IsCalculatedField」状態が正しくない (*.xlsb)
+(CELLSNET-41362) - ピボットフィールドの問題 - 「IsCalculatedField」状態が正しくない (*.xlsb)
 
  (CELLSNET-41361) - ピボットフィールドの問題 - 並べ替えフィールド (*.xlsb) の状態が正しくない
 
@@ -88,7 +88,7 @@ xlsbのピボットテーブルの読み書きの手直し
 
  (CELLSNET-41343) - ピボットテーブル - 「フィールドごとに保持する項目数」の状態が正しくない (*.xlsb)
 
-(CELLSNET-41342) - ピボットテーブル - 「RowHeaderCaption」フィールド (*.xlsb) の値がありません
+ (CELLSNET-41342) - ピボットテーブル - 「RowHeaderCaption」フィールド (*.xlsb) の値がありません
 
 (CELLSNET-41341) - ピボットテーブル - 複数の集計範囲 (*.xlsb) を持つピボット テーブルのデータ ソースの欠損値
 
@@ -96,7 +96,7 @@ xlsbのピボットテーブルの読み書きの手直し
 
 (CELLSNET-41339) - 不正な「行/列ヘッダー」状態 (*.xlsb)
 
- (CELLSNET-41338) - ピボットテーブル - 「並べ替え時にカスタム リストを使用」状態が正しくない (*.xlsb)
+(CELLSNET-41338) - ピボットテーブル - 「並べ替え時にカスタム リストを使用」状態が正しくない (*.xlsb)
 
  (CELLSNET-41337) - ピボットテーブル - 'AutoFormat' 値が正しくない (*.xlsb)
 
@@ -114,7 +114,7 @@ xlsbのピボットテーブルの読み書きの手直し
 
  (CELLSNET-42232) - 画像に変換すると複数行のセルが切り捨てられる (シートから画像)
 
- (CELLSNET-42231) - PDF へのエクスポート - 複数行のテキストがセル内で途切れて重なる
+ (CELLSNET-42231) - PDF にエクスポート - 複数行のテキストがセル内で途切れて重なる
 
 (CELLSNET-42227) - XLSX から PDF: 結果に左右の余白がない
 
@@ -122,19 +122,19 @@ xlsbのピボットテーブルの読み書きの手直し
 
 (CELLSNET-41964) - シーケンスに従わずに 3 ページ目だけを tiff にレンダリングすると機能しない
 
-(CELLSNET-41847) - Excel ファイルを PDF 形式に変換すると、データが失われ、ラベルの配置が正しくない問題が発生します。
+(CELLSNET-41847) - Excel ファイルを PDF 形式に変換すると、データが失われ、ラベルの配置が正しくない問題が発生する
 
- (CELLSNET-42112) - データの PDF 生成フォーマットの問題
+(CELLSNET-42112) - PDF データの世代フォーマットの問題
 
 (CELLSNET-42266) - 出力 PDF の最初のページにタイトル行が 2 回表示される
 
-(CELLSNET-42097) - PDF生成 - データフォーマットの問題
+(CELLSNET-42097) - PDF 生成 - データ形式の問題
 
-(CELLSNET-41435) - 条件付きで書式設定されたセルの Excel を PNG 画像にレンダリングするときに、セルの垂直方向の配置が保持されない
+(CELLSNET-41435) - 条件付きでフォーマットされたセルの PNG 画像に Excel をレンダリングすると、セルの垂直方向の配置が保持されない
 
 (CELLSNET-42267) - チャートの画像を取得できません
 
-(CELLSNET-42221) - 出力 HTML ファイル形式のレンダリング矢印の問題
+(CELLSNET-42221) - 出力 HTML ファイル形式でのレンダリング矢印の問題
 
 (CELLSNET-41892) - 透明度を使用した SheetRender.ToImage の品質の低下
 
@@ -188,7 +188,7 @@ xlsbのピボットテーブルの読み書きの手直し
 
 (CELLSNET-40527) - XML スプレッドシートを XLSX ファイル形式に変換すると、境界線のスタイルと背景が変更される
 
-(CELLSNET-40321) - 「PageSetup.FirstPageNumber」プロパティは、印刷または PDF 形式へのレンダリングに使用されません
+(CELLSNET-40321) - 「PageSetup.FirstPageNumber」プロパティは、PDF 形式への印刷またはレンダリングに使用されません
 
 (CELLSNET-40216) - Aspose.Cells コンポーネントを介して変換すると、Excel の日付形式と文字列値が失われる
 
@@ -202,13 +202,13 @@ xlsbのピボットテーブルの読み書きの手直し
 
 (CELLSNET-42234) - HTML ファイルのロードに関する問題
 
-(CELLSNET-42257) - XLSX から PDF への変換中に、GDI+ で一般的なエラーが発生しました
+(CELLSNET-42257) - XLSX を PDF に変換中に、GDI+ で一般的なエラーが発生しました
 
 (CELLSNET-41299) - 無効なファイル例外の拡張が必要
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

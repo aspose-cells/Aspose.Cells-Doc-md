@@ -12,7 +12,7 @@ url: /de/java/apply-shading-to-alternate-rows-and-columns-with-conditional-forma
 ## **Wenden Sie mithilfe der bedingten Formatierung eine Schattierung auf abwechselnde Zeilen und Spalten an**
 Dieser Artikel nutzt die integrierten Funktionen von Excel wie ROW, COLUMN & MOD. Hier sind kleine Details dieser Funktionen zum besseren Verständnis des Code-Snippets, das im Voraus bereitgestellt wird.
 
-- **DIE ZEILE()** Funktion gibt die Zeilennummer eines Zellbezugs zurück. Wenn die Referenz weggelassen wird, wird davon ausgegangen, dass die Referenz die Zellenadresse ist, in die die ROW-Funktion eingegeben wurde.
+- **REIHE()** Funktion gibt die Zeilennummer eines Zellbezugs zurück. Wenn die Referenz weggelassen wird, wird davon ausgegangen, dass die Referenz die Zellenadresse ist, in die die ROW-Funktion eingegeben wurde.
 - **SÄULE()**Funktion gibt die Spaltennummer eines Zellbezugs zurück. Wenn die Referenz weggelassen wird, wird davon ausgegangen, dass die Referenz die Zellenadresse ist, in die die COLUMN-Funktion eingegeben wurde.
 - **MOD()** Die Funktion gibt den Rest zurück, nachdem eine Zahl durch einen Divisor geteilt wurde, wobei der erste Parameter der Funktion der numerische Wert ist, dessen Rest Sie finden möchten, und der zweite Parameter die Zahl ist, die zum Teilen in den Zahlenparameter verwendet wird. Wenn der Divisor 0 ist, wird #DIV/0 zurückgegeben! Error.
 
@@ -26,7 +26,7 @@ Der folgende Schnappschuss zeigt die resultierende Tabelle, die in die Excel-Anw
 
 ![todo: Bild_alt_Text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)
 
- Um die Schattierung auf alternative Spalten anzuwenden, müssen Sie lediglich die Formel ändern**=MOD(ZEILE(),2)=0** wie**=MOD(SPALTE(),2)=0** , das ist; Anstatt den Zeilenindex abzurufen, ändern Sie die Formel, um den Spaltenindex abzurufen.
+ Um die Schattierung auf alternative Spalten anzuwenden, müssen Sie lediglich die Formel ändern**=MOD(ZEILE(),2)=0** als**=MOD(SPALTE(),2)=0** , das ist; Anstatt den Zeilenindex abzurufen, ändern Sie die Formel, um den Spaltenindex abzurufen.
 Die resultierende Tabelle sieht in diesem Fall wie in der folgenden Abbildung aus.
 
 ![todo: Bild_alt_Text](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)

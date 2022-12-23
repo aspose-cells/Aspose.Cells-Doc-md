@@ -64,7 +64,7 @@ Specified field delimiters configuration reference:
 
 
 
-1. 中的字段分隔符参数**Aspose.Cells.ReportingServices.xml**可以控制所有TXT类型的渲染插件。
+1. 中的字段分隔符参数**Aspose.Cells.ReportingServices.xml**可以控制所有TXT类型的渲染扩展。
 
 {{< highlight "java" >}}
 

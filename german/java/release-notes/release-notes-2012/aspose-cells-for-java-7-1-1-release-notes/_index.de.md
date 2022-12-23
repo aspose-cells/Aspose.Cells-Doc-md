@@ -32,5 +32,5 @@ Wir sind
 - Inhalte in Textbox wurden nicht korrekt gerendert
 - Die ROUND-Funktion kann einen Wert größer als 922337,20 nicht runden
 - Diagramm wurde nicht korrekt aus ODStemplate-Datei gelesen
-- Benutzerdefiniertes Zahlenformat: „dd.MM.yyyy“ wurde für die ODS-Datei nicht korrekt gespeichert
+- Benutzerdefiniertes Zahlenformat: "dd.MM.yyyy" wurde für die Datei ODS nicht korrekt gespeichert
 - LineShape werden im generierten PDF-Dokument kürzer

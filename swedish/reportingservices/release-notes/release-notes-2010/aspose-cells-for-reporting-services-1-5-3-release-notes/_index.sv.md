@@ -16,7 +16,7 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-5-3-release-not
 
 
 
- · Stöder ODS-exportformat.
+ · Stöder ODS exportformat.
 
  · Stöder XLSB exportformat.
 

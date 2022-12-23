@@ -6,7 +6,7 @@ url: /sv/java/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **Möjliga användningsscenarier**
 
-Om arket är tomt kommer Aspose.Cells inte att skriva ut något när du exporterar kalkylblad till bild. Du kan ändra detta beteende genom att använda[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) fast egendom. När du ska ställa in den på**Sann**, kommer den att skriva ut den tomma sidan.
+ Om arket är tomt kommer Aspose.Cells inte att skriva ut något när du exporterar kalkylblad till bild. Du kan ändra detta beteende genom att använda[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OutputBlankPageWhenNothingToPrint) fast egendom. När du ska ställa in den på**Sann**, kommer den att skriva ut den tomma sidan.
 
 ## **Skriv ut tom sida när det inte finns något att skriva ut**
 

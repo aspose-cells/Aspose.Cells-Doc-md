@@ -28,7 +28,7 @@ Den viktigaste punkten att veta om inbyggda och anpassade egenskaper är att inb
 |**Välj infomeny**|
 |:- |
 |![todo:image_alt_text](managing-document-properties_1.png)|
-1.  Klicka på**Egenskaper** rubrik och välj "Avancerade egenskaper".
+1.  Klicka på**Egenskaper**rubrik och välj "Avancerade egenskaper".
 
 |**Klicka på Avancerat val av egenskaper**|
 |:- |
@@ -38,7 +38,7 @@ Den viktigaste punkten att veta om inbyggda och anpassade egenskaper är att inb
 |**Egenskapsdialog**|
 |:- |
 |![todo:image_alt_text](managing-document-properties_3.png)|
-dialogrutan Egenskaper finns det olika flikar, som Allmänt, Sammanfattning, Statistik, Innehåll och Tull. Varje flik hjälper till att konfigurera olika typer av information relaterad till filen. Fliken Anpassad används för att hantera anpassade egenskaper.
+I dialogrutan Egenskaper finns det olika flikar, som Allmänt, Sammanfattning, Statistik, Innehåll och Tull. Varje flik hjälper till att konfigurera olika typer av information relaterad till filen. Fliken Anpassad används för att hantera anpassade egenskaper.
 
 ## **Arbeta med dokumentegenskaper med Aspose.Cells**
 
@@ -46,7 +46,7 @@ Utvecklare kan hantera dokumentegenskaperna dynamiskt med hjälp av Aspose.Cells
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, vid rendering av dokument till PDF, fylls Aspose.Cells for .NET**Ansökan** fält med värdet 'Aspose.Cells' och**PDF-producent** fält med värdet, t.ex. 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET skriver direkt informationen om API och versionsnummer i utdatadokument. Till exempel, när dokument återges till PDF, fylls Aspose.Cells for .NET i**Ansökan** fält med värdet 'Aspose.Cells' och**PDF Producent** fält med värdet, t.ex. 'Aspose.Cells v17.9'.
 
 Observera att du inte kan instruera Aspose.Cells for .NET att ändra eller ta bort denna information från utdatadokument.
 
@@ -54,7 +54,7 @@ Observera att du inte kan instruera Aspose.Cells for .NET att ändra eller ta bo
 
 ### **Åtkomst till dokumentegenskaper**
 
- Aspose.Cells API:er stöder båda typerna av dokumentegenskaper, inbyggda och anpassade. Aspose.Cells'[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass representerar en Excel-fil och, liksom en Excel-fil, den[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook)klass kan innehålla flera kalkylblad, var och en representerad av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass medan samlingen av kalkylblad representeras av[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)klass.
+Aspose.Cells API:er stöder båda typerna av dokumentegenskaper, inbyggda och anpassade. Aspose.Cells'[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass representerar en Excel-fil och, liksom en Excel-fil, den[**Arbetsbok**](https://reference.aspose.com/cells/net/aspose.cells/workbook) klass kan innehålla flera kalkylblad, var och en representerad av[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass medan samlingen av kalkylblad representeras av[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)klass.
 
  Använd[**Arbetsbladssamling**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)för att komma åt filens dokumentegenskaper enligt beskrivningen nedan.
 

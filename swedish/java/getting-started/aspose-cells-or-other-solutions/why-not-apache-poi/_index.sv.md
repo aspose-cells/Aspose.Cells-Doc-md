@@ -12,10 +12,10 @@ Ibland får vi följande fråga: varför ska vi använda Aspose-produkter istäl
 
 
 ## **Apache POI SS - HSSF och XSSF**
-**HSSF** är POI-projektets rena Java-implementering av filformatet Excel '97(-2007).
+**HSSF**är POI-projektets rena Java-implementering av filformatet Excel '97(-2007).
 **XSSF** är POI-projektets rena Java-implementering av Excel 2007 OOXML (.xlsx) filformat.
 
-HSSF och XSSF ger sätt att läsa kalkylblad skapa, ändra, läsa och skriva XLS-kalkylblad. De bidrar:
+HSSF och XSSF ger sätt att läsa kalkylblad skapa, ändra, läsa och skriva XLS kalkylblad. De bidrar:
 
 - lågnivåstrukturer för personer med särskilda behov
 - ett eventmodel-api för effektiv skrivskyddad åtkomst
@@ -23,7 +23,7 @@ HSSF och XSSF ger sätt att läsa kalkylblad skapa, ändra, läsa och skriva XLS
 
  Läs mer på[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java är en prisbelönt Excel-kalkylbladskomponent som gör det möjligt för Java-utvecklare att bädda in förmågan att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML), HTML, ODS, PDF, ODS, PDF och bildfilformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF och bildfilsformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
 Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 
@@ -31,7 +31,7 @@ Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbju
 
 ## **Varför inte Apache POI SS - HSSF och XSSF**
 
-Det är värt att notera att vissa uppgifter kan uppnås med Aspose.Cells, men inte kan utföras med Apache POI. Till exempel, om du behöver konvertera Excel-filer till Pdf, JSON och bilder, kan du inte bara använda Apache POI, du behöver också Microsoft Excel 365 eller andra verktyg.
+Det är värt att notera att vissa uppgifter kan uppnås med Aspose.Cells, men inte kan utföras med Apache POI. Om du till exempel behöver konvertera Excel-filer till Pdf, JSON och bilder, kan du inte bara använda Apache POI, du behöver också Microsoft Excel 365 eller andra verktyg.
 
 Du kan jämföra POI med Aspose.Cells För att göra detta föreslår vi att du bekantar dig med Aspose.Cells för POI-projektet (HSSF och XSSF) – det visar hur olika uppgifter kan utföras med Aspose.Cells för .Java 07161434I. Projektet omfattar även funktioner för att arbeta med textdokument som endast är tillgängliga i Aspose.Cells, men inte i Apache POI.
 
@@ -41,11 +41,11 @@ Det här projektet är också användbart för utvecklare som vill migrera från
 
  Utforska[plugin med källkodsexempel på Aspose.Cells for Java funktioner i jämförelse med POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
-Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/java/licensing/) artikel för att göra detta.
+ Detta plugin använder utvärderingsversionen av Aspose.Cells. När du är nöjd med din utvärdering kan du köpa en licens från[Aspose hemsida](https://purchase.aspose.com/buy) . För att ta bort utvärderingsmeddelandet och funktionsbegränsningarna måste du ansöka om en produktlicens. Efter att du köpt produkten får du en licensfil. Vänligen följ instruktionerna i["Licensiering och prenumeration"](/cells/sv/java/licensing/) artikel för att göra detta.
 
 {{% /alert %}}
 
-I följande avsnitt och artiklar kommer vi att titta närmare på några av funktionerna och förmågorna som tillhandahålls av Aspose.Cells.
+följande avsnitt och artiklar kommer vi att titta närmare på några av funktionerna och förmågorna som tillhandahålls av Aspose.Cells.
 
 ### Stabilitet
 
@@ -59,7 +59,7 @@ Aspose komponenter är mycket skalbara och blixtsnabba. De är en äkta .NET-lö
 
 Aspose-komponenter ger allt du behöver för att hantera Office-filer, plus mycket, mycket mer. De är designade med filosofin att tillåta utvecklare att uppnå de bästa resultaten med minsta möjliga arbete.
 
- Aspose komponenter ger många kraftfulla tidsbesparande funktioner. Till exempel,[Aspose.Cells](https://products.aspose.com/cells/java/) erbjuder en funktion som gör att utvecklare kan importera JSON till Excel-filer. Det är värt att notera att varje komponent i Aspose-familjen erbjuder sin egen uppsättning unika och kraftfulla funktioner.
+Aspose komponenter ger många kraftfulla tidsbesparande funktioner. Till exempel,[Aspose.Cells](https://products.aspose.com/cells/java/) erbjuder en funktion som gör att utvecklare kan importera JSON till Excel-filer. Det är värt att notera att varje komponent i Aspose-familjen erbjuder sin egen uppsättning unika och kraftfulla funktioner.
 
 ## **Stödja, utöka och bidra**
 ### **Stöd**
@@ -145,8 +145,8 @@ Det här avsnittet innehåller följande ämnen
     - [Visa och dölj rullningslister för arbetsböcker](/cells/sv/java/display-and-hide-scrollbars-of-workbooks/)
     - [Visa och dölj flikar i arbetsboken med Aspose.Cells](/cells/sv/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [Kryptera arbetsbok med Aspose.Cells](/cells/sv/java/encrypt-workbook-using-aspose-cells/)
-    - [Läs CSV-fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
-    - [Spara varje kalkylblad till olika PDF-filer med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+    - [Läs CSV Fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
+    - [Spara varje kalkylblad till olika PDF med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [Ställ in kalkylbladsflikfärg i Aspose.Cells](/cells/sv/java/set-worksheet-tab-color-in-aspose-cells/)
   - [Arbeta med diagram i Aspose.Cells](/cells/sv/java/working-with-charts-in-aspose-cells/)
     - [Lägg till Word Art Watermark till diagrammet](/cells/sv/java/add-word-art-watermark-to-chart/)
@@ -156,7 +156,7 @@ Det här avsnittet innehåller följande ämnen
   - [Diverse exempel på Aspose.Cells](/cells/sv/java/miscellaneous-examples-of-aspose-cells/)
     - [Ställ in utskriftsrubriker](/cells/sv/java/set-print-titles/)
     - [Skriva ut arbetsböcker med Aspose.Cells](/cells/sv/java/printing-workbooks-using-aspose-cells/)
-    - [Konvertera kalkylblad till PDF med Aspose.Cells](/cells/sv/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+    - [Konvertera kalkylark till PDF med Aspose.Cells](/cells/sv/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 
 ## Se även

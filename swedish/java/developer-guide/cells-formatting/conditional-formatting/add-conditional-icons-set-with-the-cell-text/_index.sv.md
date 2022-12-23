@@ -10,7 +10,7 @@ Ibland vill du lägga till villkorliga ikoner bredvid texten i en cell för att 
 
 {{% /alert %}} 
 
-Följande är ett exempel som skapar en XLSX-fil från början och lägger till villkorliga ikoner till celler med text utan att använda villkorlig formatering.
+Följande är ett exempel som skapar en XLSX-fil från grunden och lägger till villkorliga ikoner i celler med text utan att använda villkorlig formatering.
 
 När koden exekveras läggs bilder från den villkorliga ikonuppsättningen till i cellområdet "B2:C4" som visas nedan.
 

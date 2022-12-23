@@ -5,7 +5,7 @@ weight: 30
 url: /fr/net/list-of-supported-number-formats/
 ---
 ## **Aspose.Cells**
- Le composant Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Ces formats numériques intégrés peuvent être appliqués à l'aide de la**Numéro** propriété de la**Style** objet. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au*Numéro* propriété de**Style** objet et donc le format d'affichage est appliqué. Cette approche est plus rapide. Les formats numériques intégrés pris en charge par le composant Aspose.Cells sont indiqués ci-dessous :
+ Le composant Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Ces formats numériques intégrés peuvent être appliqués à l'aide de la**Nombre** propriété de la**Style** objet. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au*Nombre* propriété de**Style** objet et donc le format d'affichage est appliqué. Cette approche est plus rapide. Les formats numériques intégrés pris en charge par le composant Aspose.Cells sont indiqués ci-dessous :
 
 |**Évaluer**|**Taper**|**Formater la chaîne**|
 |:- |:- |:- |
@@ -55,7 +55,7 @@ url: /fr/net/list-of-supported-number-formats/
 |
 |49 | Texte|@ |
 ## **Aspose.Cells Grille Suite**
-Comme nous savons qu'il existe deux contrôles Grid Aspose.Cells : Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Les deux contrôles prennent en charge un grand nombre de formats numériques, qui sont divisés en deux sections par rapport à chaque contrôle comme suit :
+Comme nous savons qu'il existe deux contrôles Grid Aspose.Cells : Aspose.Cells.GridDesktop & Aspose.Cells.GridWeb. Les deux contrôles prennent en charge un grand nombre de formats numériques, qui sont divisés en deux sections par rapport à chaque contrôle comme suit :
 
 - Formats de nombre pris en charge dans Aspose.Cells.GridDesktop
 - Formats de nombre pris en charge dans Aspose.Cells.GridWeb

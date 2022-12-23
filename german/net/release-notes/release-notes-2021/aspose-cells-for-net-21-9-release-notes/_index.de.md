@@ -37,7 +37,7 @@ url: /de/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|Die Schriftart wird beim Konvertieren des Blatts in ein Emf-Bild mit der Option EmfOnly verzerrt|Insekt|
 |CELLSNET-48049|Unterschiedlicher Achsabstand beim Konvertieren von xlsx-Arbeitsmappe in emf|Insekt|
 |CELLSNET-48509|Das Diagramm wird manchmal nicht basierend auf der Legendenposition angezeigt|Insekt|
-|CELLSNET-48580| Miss Legend-Eintrag in der Ausgabe-SVG des Excel-Diagramms|Insekt|
+|CELLSNET-48580| Miss Legend-Eintrag in der Ausgabe SVG des Excel-Diagramms|Insekt|
 |CELLSNET-48696|Fehler beim Ändern der Farbe der Datenbeschriftung|Insekt|
 |CELLSNET-48698|Diagrammfarbproblem beim Export in PDF|Insekt|
 |CELLSNET-48797|Mittlerer Markerwert ist Fehler beim Lesen von xlsx|Insekt|
@@ -49,12 +49,12 @@ url: /de/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-48718|Falschen eingebetteten Objektnamen erhalten|Insekt|
 |CELLSNET-48966| Nach dem Kopieren des Zellbereichs gehen Formeln verloren|Insekt|
 |CELLSNET-49055| AutoFit-Spalten für verbundene Zellen funktionieren nicht|Insekt|
-|CELLSNET-49100|Bei einigen Zellen fehlen beim Exportieren in HTML Gitterlinien|Insekt|
+|CELLSNET-49100|Bei einigen Zellen fehlen Gitterlinien beim Exportieren nach HTML|Insekt|
 |CELLSNETCORE-149|Das Kopieren von Stilen nach dem Kopieren von Werten löscht Zellenwerte im Excel 97-Format|Insekt|
-|CELLSNETCORE-152|EMF-Bilddaten können nicht aus XLS-Datei gelesen werden|Insekt|
+|CELLSNETCORE-152|EMF Bilddaten können nicht aus XLS Datei gelesen werden|Insekt|
 |CELLSNET-48444|Ungültiger Parameterfehler beim Konvertieren von xlsb in xls-Datei|Ausnahme|
 |CELLSNET-48607|Shape-to-Image-Fehler|Ausnahme|
-|CELLSNET-48866|Eine bestimmte XLSX-Excel-Datei kann nicht in der GridDesktop-Steuerung geöffnet werden|Ausnahme|
+|CELLSNET-48866|Spezifische Excel-Datei XLSX kann nicht im GridDesktop-Steuerelement geöffnet werden|Ausnahme|
 |CELLSNET-48956| Ausnahme nach dem Festlegen des Zellenstils mit Cell.SetStyle|Ausnahme|
 |CELLSNET-48712|Array außerhalb des Bereichs beim Rendern eines Box&Whisker-Diagramms|Ausnahme|
 |CELLSNET-48910|Beim Rendern des Box&Whisker-Diagramms in ein Bild wird eine Ausnahme ausgelöst|Ausnahme|
@@ -72,7 +72,7 @@ Ruft die formatierte Strategie für die automatische Anpassung ab und legt sie f
 
 ### **Fügt die MsoFormatPicture.Transparency-Eigenschaft hinzu.**
 
-Gibt den Transparenzgrad des Bereichs als Wert von 0,0 (deckend) bis 1,0 (durchsichtig) zurück oder legt ihn fest.
+ Gibt den Transparenzgrad des Bereichs als Wert von 0,0 (deckend) bis 1,0 (durchsichtig) zurück oder legt ihn fest.
 
 ### **Fügt überladene PivotTableCollection.Remove()-Methoden hinzu.**
 

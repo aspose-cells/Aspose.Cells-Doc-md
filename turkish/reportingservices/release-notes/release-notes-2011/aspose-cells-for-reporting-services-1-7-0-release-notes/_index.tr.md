@@ -16,7 +16,7 @@ url: /tr/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services tasarımcı, Excel'de matris şablonu oluşturmayı destekler.
 - Tablo ve matris rapor öğeleri için Koşullu Biçimlendirmeyi destekler.
-- SQL Server 2008 Raporlama Servislerinde yalnızca CSV ve TXT formatları için işleme tablix rapor öğesi ekler.
+- SQL Server 2008 Raporlama Hizmetlerinde yalnızca CSV ve TXT biçimleri için işleme tablix rapor öğesi ekler.
 
  Ne değişti?
 

@@ -6,7 +6,7 @@ url: /tr/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells - Ayar Sayfası Seçenekleri**
 ### **Sayfa yönlendirmesi**
- kullanarak sayfa yönü ayarlarını uygulamak için**Aspose.Cells Java for PHP** , aramak**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
+ kullanarak sayfa yönü ayarlarını uygulamak için**Aspose.Cells Java for PHP** , Arama**Sayfa yönlendirmesi** yöntemi**sayfa ayarı** modül.
 
 **PHP Kodu**
 
@@ -46,7 +46,7 @@ url: /tr/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Ölçekleme faktörü**
- kullanarak ölçekleme uygulamak için**Aspose.Cells Java for PHP** , aramak**ölçekleme** yöntemi**sayfa ayarı** modül.
+ kullanarak ölçekleme uygulamak için**Aspose.Cells Java for PHP** , Arama**ölçekleme** yöntemi**sayfa ayarı** modül.
 
 **PHP Kodu**
 

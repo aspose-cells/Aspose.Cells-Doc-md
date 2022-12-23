@@ -8,7 +8,7 @@ keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows 
 ---
 {{% alert color="primary" %}}
 
-Al crear una nueva hoja de trabajo o trabajar con una hoja de trabajo existente, es posible que deba agregar filas o columnas adicionales para acomodar los datos. En otras ocasiones, es posible que deba eliminar filas o columnas de posiciones específicas en la hoja de cálculo.
+Al crear una nueva hoja de trabajo o trabajar con una hoja de trabajo existente, es posible que deba agregar filas o columnas adicionales para acomodar los datos. En otras ocasiones, es posible que deba eliminar filas o columnas de posiciones específicas en la hoja de trabajo.
 
 {{% /alert %}}
 

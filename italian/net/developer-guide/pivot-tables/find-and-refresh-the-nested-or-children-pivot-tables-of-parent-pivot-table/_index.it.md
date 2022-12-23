@@ -14,6 +14,6 @@ A volte, una tabella pivot utilizza un'altra tabella pivot come origine dati, qu
 
 ![cose da fare:immagine_alt_testo](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-FindAndRefreshNestedOrChildrenPivotTables.cs" >}}

@@ -15,7 +15,7 @@ Aspose.Cells Grid Suite 的一个独特功能是它与 Excel 文件的兼容性�
 Aspose.Cells.GridDesktop提供以下三种不同的方式来打开Excel文件。
 
 1. **从文件打开**
-1. **打开 CSV 文件**
+1. **打开一个 CSV 文件**
 1. **从流中打开**
 ## **打开 Excel 文件**
 在此示例中，创建一个桌面应用程序并执行以下操作。
@@ -34,7 +34,7 @@ Aspose.Cells.GridDesktop提供以下三种不同的方式来打开Excel文件。
 
 
 开发人员可以按照他们想要的任何方式使用上面的代码片段。例如，如果您想在加载 Windows 窗体时自动加载 Excel 文件，则可以在窗体的 Load 事件下添加此代码。
-### **打开 CSV 文件**
+### **打开一个 CSV 文件**
 Aspose.Cells.GridDesktop控件也支持加载CSV文件。创建的点击事件**打开 CSV 文件**按钮并将以下代码粘贴到其中。
 
 

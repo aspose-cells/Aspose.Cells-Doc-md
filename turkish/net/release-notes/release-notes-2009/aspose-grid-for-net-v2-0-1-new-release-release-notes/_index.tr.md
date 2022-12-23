@@ -10,7 +10,7 @@ url: /tr/net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Grid v sürümünü yayınladık.
+ Aspose.Grid v sürümünü yayınladık.
 
  Neler değişti:
 
@@ -30,7 +30,7 @@ Aspose.Grid v sürümünü yayınladık.
 
  l Açıklamaya Genişlik ve Yükseklik özelliklerini ekler.
 
- l Yorumlar yazı tipini ayarlamak için GridDesktop'a CommentFont özelliği ekler.
+ l Yorumlar yazı tipini ayarlamak için GridDesktop'a CommentFont özelliğini ekler.
 
  l Yorumların Genişliğini ve Yüksekliğini belirtmek için CommentCollection sınıfına yönelik Add yönteminin aşırı yüklenmiş listesi için yeni sürümler sağlar.
 
@@ -67,7 +67,7 @@ Aspose.Grid v sürümünü yayınladık.
 |7942 | Izgara.Masaüstü| Tek veya kayan türler değerini hücre olarak ayarlar, boş görüntüler.|
 |7970 | Izgara.Masaüstü| Normalde gösterilmeyen sağ alt kenarlıklar.|
 |7971 | Izgara.Masaüstü| Odaklanmış hücrenin normal olarak gösterilmeyen siyah kenarlığı.|
-|7972 | Izgara.Masaüstü| Demo Özellikleri, Resimler özelliğini gösteren dosya yolu istisnası atar.|
+|7972 | Izgara.Masaüstü| Demo Özellikleri, Resimler özelliğini gösteren dosya yolu istisnası oluşturur.|
 |7973 | Izgara.Masaüstü| Tüm formüllerin yeniden hesaplanmasını önlemek için SetSelectedIndex yöntemini ComboBox'a ekler.|
 |7974 | Izgara.Masaüstü|Bir hücrenin ComboBox üzerinde bir tuşa basarsa, düzenlemeyi başlatır.|
 |7975 | Izgara.Masaüstü| Biçim Cell İletişim Kutusundaki yazı tipi boyutu hatası.|

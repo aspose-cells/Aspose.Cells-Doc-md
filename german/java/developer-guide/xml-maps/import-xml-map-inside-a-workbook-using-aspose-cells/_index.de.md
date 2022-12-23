@@ -8,7 +8,7 @@ url: /de/java/import-xml-map-inside-a-workbook-using-aspose-cells/
 
  Aspose.Cells ermöglicht Ihnen das Importieren von XML-Zuordnungen in die Arbeitsmappe mithilfe von[**Workbook.importXml()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#importXml(java.lang.String,%20java.lang.String,%20int,%20int)) Methode. Sie können eine XML-Karte mithilfe von Excel Microsoft mit den folgenden Schritten importieren
 
--  Auswählen**Entwickler** Tab
+-  Wählen**Entwickler** Tab
 -  Klicken**Importieren** im Abschnitt XML und befolgen Sie die erforderlichen Schritte.
 
  Sie müssen Ihre XML-Daten angeben, um den Import abzuschließen. Hier ist ein[XML-Beispieldaten](5472501.txt) die Sie zum Testen verwenden können.

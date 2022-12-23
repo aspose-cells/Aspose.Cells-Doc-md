@@ -6,14 +6,14 @@ url: /it/net/declaration/
 ---
 {{% alert color="primary" %}} 
 
-In genere, tutti i componenti Aspose .NET richiedono il set di autorizzazioni Full Trust. Il motivo è che i componenti Aspose for .NET devono accedere alle impostazioni del registro, ai file di sistema diversi dalla directory virtuale per determinate operazioni come l'analisi dei caratteri, ecc. autorizzazioni impostate in molti casi.
+In genere, tutti i componenti Aspose .NET richiedono il set di autorizzazioni Full Trust. Il motivo è che i componenti Aspose for .NET devono accedere alle impostazioni del registro, ai file di sistema diversi dalla directory virtuale per determinate operazioni come l'analisi dei caratteri, ecc. impostato in molti casi.
 
 {{% /alert %}} 
 ## **Sfida fiducia parziale/fiducia media**
-provider di servizi Internet che ospitano più applicazioni di società diverse applicano per lo più un livello di sicurezza medio. Inoltre, a volte è necessario ospitare più applicazioni su un server condiviso, ad esempio in un ISP o in altri scenari, è necessario utilizzare il livello di attendibilità medio per limitare le applicazioni. Il livello di attendibilità medio di ASP.NET fornisce un ambiente di esecuzione vincolato adatto per isolare più applicazioni ospitate su server ISP. Nel caso di .NET 2.0, tale livello di sicurezza può impostare i seguenti vincoli che potrebbero influire sulla capacità di Aspose.Cells for .NET di funzionare correttamente, ad esempio:
+provider di servizi Internet che ospitano più applicazioni di società diverse applicano per lo più un livello di sicurezza medio. Inoltre, a volte è necessario ospitare più applicazioni su un server condiviso, ad esempio in un ISP o in altri scenari, è necessario utilizzare il livello di attendibilità medio per limitare le applicazioni. Il livello di attendibilità medio ASP.NET fornisce un ambiente di esecuzione vincolato adatto per isolare più applicazioni ospitate su server ISP. Nel caso di .NET 2.0, tale livello di sicurezza può impostare i seguenti vincoli che potrebbero influire sulla capacità di Aspose.Cells for .NET di funzionare correttamente, ad esempio:
 
 - **RegistryPermission non è disponibile**. Ciò significa che non è possibile accedere al registro, necessario per enumerare i font installati durante il rendering di fogli di calcolo o altri documenti.
-- **FileIOPermission è limitato**. Ciò significa che puoi accedere solo ai file nella gerarchia di directory virtuale della tua applicazione. Ciò significa potenzialmente che i caratteri non possono essere letti durante l'esportazione.
+- **FileIOPermission è limitato**Ciò significa che puoi accedere solo ai file nella gerarchia di directory virtuale della tua applicazione. Ciò significa potenzialmente che i caratteri non possono essere letti durante l'esportazione.
 ## **Usa Aspose.Cells for .NET sul set di autorizzazioni di attendibilità medio**
 È possibile seguire alcuni consigli per eseguire Aspose.Cells for .NET su livello di attendibilità medio o ambiente server condiviso:
 

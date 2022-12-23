@@ -16,14 +16,14 @@ Aspose.Cells de bu özellikleri esnek bir şekilde destekler. Bu konuda Aspose.C
 
  bu[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) var[**Stil Al**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle/index) ve[**SetStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle/index) bir hücrenin biçimlendirmesini almak ve ayarlamak için kullanılan yöntemler. bu[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style)class, hücrelerin ön plan ve arka plan renklerini ayarlamak için özellikler sağlar. Aspose.Cells bir sağlar[**ArkaplanTürü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)Aşağıda verilen önceden tanımlanmış bir dizi arka plan deseni içeren numaralandırma.
 
-|**Arka Plan Desenleri**|**Tanım**|
+|**Arka Plan Desenleri**|**Açıklama**|
 |:- |:- |
 |çapraz çapraz|Çapraz çapraz tarama modelini temsil eder|
 |Çapraz Şerit|Çapraz şerit desenini temsil eder|
 |Gri6|%6,25 gri deseni temsil eder|
 |Gray12|%12,5 gri deseni temsil eder|
 |Gri25|%25 gri deseni temsil eder|
-|gri50|%50 gri deseni temsil eder|
+|gri50|%50 gri modeli temsil eder|
 |gri75|%75 gri deseni temsil eder|
 |Yatay Şerit|Yatay şerit desenini temsil eder|
 |Hiçbiri|arka planı temsil etmez|
@@ -46,9 +46,9 @@ Aşağıdaki örnekte, A1 hücresinin ön plan rengi ayarlanmıştır ancak A2, 
 
 {{% alert color="primary" %}}
 
--  Bir hücrenin ön plan veya arka plan rengini ayarlamak için[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Ön plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) veya[**Arka plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) özellikleri. Her iki özellik de yalnızca şu durumlarda geçerli olacaktır:[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Model**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özellik yapılandırılır.
+-  Bir hücrenin ön plan veya arka plan rengini ayarlamak için[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Ön plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) veya[**Arka plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor) özellikler. Her iki özellik de yalnızca şu durumlarda geçerli olacaktır:[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) nesnenin[**Desen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özellik yapılandırılır.
 -  bu[**Ön plan rengi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)özelliği hücrenin gölge rengini ayarlar.
- bu[**Model**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özelliği, ön plan veya arka plan rengi için kullanılan arka plan deseninin türünü belirtir. Aspose.Cells bir numaralandırma sağlar,[**ArkaplanTürü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)önceden tanımlanmış bir dizi arka plan deseni içerir.
+ bu[**Desen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)özelliği, ön plan veya arka plan rengi için kullanılan arka plan deseninin türünü belirtir. Aspose.Cells bir numaralandırma sağlar,[**ArkaplanTürü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)önceden tanımlanmış bir dizi arka plan deseni içerir.
 -  eğer seçersen*ArkaplanTürü.Yok* gelen değer[**ArkaplanTürü**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)numaralandırma, ön plan rengi uygulanmaz.
  Aynı şekilde, arka plan rengini seçerseniz arka plan rengi uygulanmaz.*ArkaplanTürü.Yok* veya*ArkaplanTürü.Katı* değerler.
 -  Hücrenin gölgeleme/dolgu rengini alırken, eğer[**Stil.Desen**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern) dır-dir*ArkaplanTürü.Yok*, [**Stil.Ön PlanRenk**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor) geri dönücek*Renk.Boş*.
@@ -84,6 +84,6 @@ Aşağıdaki örnek, bir yazı tipine uygulamadan önce palete özel bir renk (O
 
 {{% alert color="primary" %}}
 
-Palet sadece 56 renk içerir. Palete özel bir renk eklediğinizde, palet değiştirilir ve önceki renkle biçimlendirilmiş dosyadaki herhangi bir öğe değiştirilir. Bu yüzden paleti değiştirirken lütfen çok dikkatli olun. Ayrıca, XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir sınırlama olmadığından, bu yalnızca XLS (Excel 97 - 2003) dosya biçimindeki sınırlamadır.
+Palet sadece 56 renk içerir. Palete özel bir renk eklediğinizde, palet değiştirilir ve önceki renkle biçimlendirilmiş dosyadaki herhangi bir öğe değiştirilir. Bu yüzden paleti değiştirirken lütfen çok dikkatli olun. Ayrıca, bu yalnızca XLS (Excel 97 - 2003) dosya biçimindeki sınırlamadır, çünkü XLSX veya diğer gelişmiş MS Excel (2007/2010 veya 2013) dosya biçimleri için böyle bir sınırlama yoktur.
 
 {{% /alert %}}

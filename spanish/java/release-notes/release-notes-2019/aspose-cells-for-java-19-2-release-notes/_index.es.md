@@ -15,11 +15,11 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.2.
 |CELLSJAVA-42827|Insertar fila con InsertOptions similar a MS Excel|Nueva caracteristica|
 |CELLSJAVA-42712|Mejora JavaDocs para Aspose.Cells for Java|Mejora|
 |CELLSJAVA-42823|El uso de FontUnderlineType.WORDS arroja una excepción|Mejora|
-|CELLSJAVA-42826|Datos con formato condicional omitido durante la conversión de XLSX a HTML|Insecto|
+|CELLSJAVA-42826|Datos con formato condicional omitido durante la conversión XLSX a HTML|Insecto|
 |CELLSJAVA-42815|Agregar una referencia compleja al nombre definido da como resultado un libro de MS Excel corrupto|Insecto|
 |CELLSJAVA-42822|Cell.getValidationValue devuelve un valor incorrecto para el valor especificado|Insecto|
 |CELLSJAVA-42829|Nombre de la función personalizada dentro de las fórmulas compartidas reemplazada por otro nombre|Insecto|
-|CELLSJAVA-42824|Faltan los títulos de los ejes y otro formato es incorrecto en los gráficos de conversión de Excel a PDF/A|Insecto|
+|CELLSJAVA-42824|Faltan los títulos de los ejes y otro formato es incorrecto en los gráficos de Excel a la conversión PDF/A|Insecto|
 |CELLSJAVA-42814|Las flechas en la salida PNG no coinciden con las flechas en el gráfico de Excel|Insecto|
 |CELLSJAVA-42777|Se cambió la altura de las filas incorrectas al usar la operación de filas de ajuste automático|Insecto|
 |CELLSJAVA-42813|La configuración del libro de trabajo "ReCalculateOnOpen" no se conserva|Insecto|

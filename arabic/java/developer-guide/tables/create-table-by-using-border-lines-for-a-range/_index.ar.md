@@ -1,5 +1,5 @@
 ﻿---
-title: قم بإنشاء جدول باستخدام خطوط الحدود لنطاق
+title: إنشاء جدول باستخدام خطوط الحدود لنطاق
 type: docs
 weight: 50
 url: /ar/java/create-table-by-using-border-lines-for-a-range/
@@ -8,7 +8,7 @@ keywords: create table, range to table, range to table excel, excel range to tab
 ---
 {{% alert color="primary" %}}
 
- في بعض الأحيان ، قد ترغب في إنشاء جدول عن طريق إضافة خطوط حدود لملف**نطاق**/**CellArea** بناءً على عنوان الخلايا التي لديك. يمكنك استخدام[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة لإنشاء نطاق من الخلايا. ال[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة إرجاع أ[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) هدف. يمكنك إنشاء ملف[**أسلوب**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) الكائن وحدد خيارات الحدود (أعلى ، يسار ، أسفل ، يمين) وفقًا لذلك. في وقت لاحق ، قد تحصل على خلايا[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)وقم بتطبيق التنسيق المطلوب على الخلايا.
+ في بعض الأحيان ، قد ترغب في إنشاء جدول عن طريق إضافة خطوط حدود لملف**نطاق**/**CellArea** بناءً على عنوان الخلايا التي لديك. يمكنك استخدام[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة لإنشاء نطاق من الخلايا. ال[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) طريقة إرجاع أ[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) موضوع. يمكنك إنشاء ملف[**أسلوب**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) الكائن وحدد خيارات الحدود (أعلى ، يسار ، أسفل ، يمين) وفقًا لذلك. في وقت لاحق ، قد تحصل على خلايا[**نطاق**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)وقم بتطبيق التنسيق المطلوب على الخلايا.
 
 {{% /alert %}}
 

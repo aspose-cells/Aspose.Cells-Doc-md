@@ -14,7 +14,7 @@ url: /zh/java/aspose-cells-for-java-v2-1-0-release-notes/
 
 改变了什么：
 
-l 为Open Document Spreadsheet文件(ODS)添加新功能：超链接、页面设置选项、分组大纲、条件格式、数据验证、自动筛选、分页符、PrintTitleRows/Columns、Shapes相关对象（Comment、Arc、Button、CheckBox、ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
+l 为 Open Document Spreadsheet 文件（ODS）添加新功能：超链接、页面设置选项、组大纲、条件格式、数据验证、自动筛选、分页符、PrintTitleRows/Columns、Shapes 相关对象（Comment、Arc、Button、CheckBox、ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
 
 l 提供MS Excel 2007文件格式的新功能：插入图片、添加图表。
 
@@ -28,13 +28,13 @@ l 计算超链接功能。
 
 l 删除用户定义的名称。
 
-在复制工作簿/工作表时包括自动筛选属性。
+l 在复制工作簿/工作表时包括自动筛选属性。
 
-l 支持xls2pdf 转换中的超链接。
+支持xls2pdf 转换中的超链接。
 
 l 提取模板文件中的Ole Objects。
 
-l 修复了R/W ODS 的一些bug。
+l 修复了R/W ODS的一些bug。
 
 l 48 个修复和其他增强功能。
 
@@ -61,7 +61,7 @@ Aspose.Cells for Java v2.1.0 中已解决的问题
 |9363|xls|带有水平标志的 SmartMarker：|
 |9364|xlsx|关闭用户的输出流|
 |9404|xls|读取由 Microsoft Jet Engine 创建的模板文件|
-|9264|CSV文件|导入/导出 CSV 文件格式|
+|9264|CSV|导入/导出 CSV 文件格式|
 |9265|Xls2PDF|xls2pdf 中的合并单元格|
 |9173|xlsx|Excel2007 文件格式的 Style.isCellLocked() 属性|
 |9174|xls|在 PageSetup 的页眉/页脚中设置图片的大小|

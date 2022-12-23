@@ -11,7 +11,7 @@ Metnin görünümü ve hissi, yazı tipi ayarları değiştirilerek kontrol edil
 
 **Microsoft Excel'deki yazı tipi ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](dealing-with-font-settings_1.png)
+![yapılacaklar:resim_alternatif_metin](dealing-with-font-settings_1.png)
 
 Tıpkı Microsoft Excel gibi, Aspose.Cells de hücrelerin yazı tipi ayarlarını yapılandırmayı destekler.
 
@@ -46,7 +46,7 @@ Bu makale şunların nasıl yapılacağını gösterir:
 ### **Yazı Tipi Altı Çizili Tipini Ayarlama**
  ile metnin altını çizin[Yazı tipi](https://reference.aspose.com/cells/java/com.aspose.cells/Font) nesnenin[setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) Emlak. Aspose.Cells, önceden tanımlanmış çeşitli alt çizgili yazı tipleri sunar.[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)numaralandırma.
 
-|**Alt Çizgi Tipleri**|**Tanım**|
+|**Alt Çizgi Tipleri**|**Açıklama**|
 |:- |:- |
 |[YOK](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|Alt çizgi yok|
 |[BEKAR](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Tek bir alt çizgi|
@@ -67,7 +67,7 @@ Bu makale şunların nasıl yapılacağını gösterir:
 |[DALGA](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Dalga Alt Çizgisi|
 |[WAVY_DOUBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Çift Dalga Alt Çizgi|
 |[dalgalı_ağır](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Ağır Dalga Alt Çizgisi|
-|` `[KELİMELER](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Yalnızca Boşluk Olmayan Karakterlerin Altı Çizili|
+|` `[SÖZLER](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Yalnızca Boşluk Olmayan Karakterlerin Altı Çizili|
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontUnderlineType-SettingFontUnderlineType.java" >}}
 
 

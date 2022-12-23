@@ -6,7 +6,7 @@ url: /tr/java/display-or-hide-scroll-bars-in-python/
 ---
 ## **Aspose.Cells - Kaydırma Çubuklarını Görüntüle veya Gizle**
 ### **Satır/Sütun Başlıklarını Gizleme**
-kullanarak satır/sütun başlıklarını gizlemek için**Aspose.Cells Java for Python** , aramak**DisplayHideRowColumnHeaders** modül.
+ kullanarak satır/sütun başlıklarını gizlemek için**Aspose.Cells Java for Python** , Arama**DisplayHideRowColumnHeaders** modül.
 
 **Python Kod**
 

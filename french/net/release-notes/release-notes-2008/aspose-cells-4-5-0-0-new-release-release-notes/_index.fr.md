@@ -27,7 +27,7 @@ url: /fr/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` ` Prise en charge de plus de fonctions dans le moteur de calcul de formule
 - ` `Prise en charge d'autres filtres personnalisés dans le filtre automatique.
 - ` `Prise en charge améliorée d'Excel2007 Xlsx
-- ` `Prise en charge améliorée de SpreadsheetML
+- ` `Assistance SpreadsheetML améliorée
 - ` `Conversion xls2Pdf améliorée
 - ` `Graphiques améliorés2Conversion d'image.
 - ` `Marqueur intelligent amélioré

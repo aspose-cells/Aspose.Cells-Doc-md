@@ -10,9 +10,9 @@ url: /fr/net/aspose-cells-for-net-17-7-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSNET-45437|Prise en charge des erreurs et de la valeur booléenne dans les paramètres régionaux russes dans le rendu Excel vers PDF|Nouvelle fonctionnalité|
+|CELLSNET-45437|Prise en charge des erreurs et de la valeur booléenne dans les paramètres régionaux russes dans Excel jusqu'au rendu PDF|Nouvelle fonctionnalité|
 |CELLSNET-45456|Lire les données, la formule et le style des cellules à partir du fichier de nombres|Nouvelle fonctionnalité|
 |CELLSNET-45483|Prise en charge de la modification de la valeur de départ de l'index de ligne à 0 (au lieu de 1) dans Aspose.Cells.GridDesktop|Nouvelle fonctionnalité|
 |CELLSNET-45434|GridWeb ViewPanel n'est pas toujours visible|Nouvelle fonctionnalité|
@@ -28,12 +28,12 @@ url: /fr/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45402|Cell.DisplayStringValue ne correspond pas aux valeurs d'origine|Punaise|
 |CELLSNET-45479|Aspose.Cells 17.5 - Signature numérique incorrecte avec certificat DSA|Punaise|
 |CELLSNET-45420|Le paramètre DefaultFont ne fonctionne pas|Punaise|
-|CELLSNET-45364|Certaines formes/objets sont coupés dans le PDF de sortie|Punaise|
+|CELLSNET-45364|Certaines formes/objets sont coupés dans la sortie PDF|Punaise|
 |CELLSNET-45491|Un flou noir attaché aux étiquettes de données est apparu dans l'image de sortie du graphique|Punaise|
 |CELLSNET-45476|Le format de date des étiquettes de l'axe X est modifié et remplacé sur les entrées de légende|Punaise|
 |CELLSNET-45471|Le texte "III.LowerQualityAboveSML" sur la 2ème page du PDF est cassé|Punaise|
 |CELLSNET-45454|Les couleurs des bulles sont un peu modifiées pour différents graphiques, même en utilisant les mêmes lignes de code|Punaise|
-|CELLSNET-45452|Les sparklines ne sont pas rendues correctement dans le PDF de sortie|Punaise|
+|CELLSNET-45452|Les sparklines ne sont pas rendues correctement dans la sortie PDF|Punaise|
 |CELLSNET-45493|Le redimensionnement de ListObject n'entraîne pas la mise en forme personnalisée|Punaise|
 |CELLSNET-45482|Certaines formes sont perdues dans le fichier XLS lors de l'extraction et de la réinsertion d'images|Punaise|
 |CELLSNET-45466|Certaines bordures supplémentaires sont automatiquement ajoutées|Punaise|
@@ -91,7 +91,7 @@ Rend le contrôle GridWeb compatible avec la taille actuelle de la fenêtre du n
 #### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
-- [Lire la feuille de calcul des nombres Développé par Apple Inc. en utilisant Aspose.Cells](/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lire la feuille de calcul Numbers développée par Apple Inc. en utilisant Aspose.Cells](/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Définir la propriété DefaultFont de PdfSaveOptions et ImageOrPrintOptions pour avoir la priorité](/cells/fr/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Appliquer le filtre avancé de Microsoft Excel pour afficher les enregistrements répondant à des critères complexes](/cells/fr/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implémenter les erreurs et la valeur booléenne en russe ou dans toute autre langue](/cells/fr/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

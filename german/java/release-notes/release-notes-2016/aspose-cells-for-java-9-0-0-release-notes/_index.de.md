@@ -10,17 +10,17 @@ url: /de/java/aspose-cells-for-java-9-0-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-41947 | Fähigkeit zu erkennen, ob sich ein DataPoint in Pie oder Bar befindet|Neue Funktion|
 |CELLSJAVA-41827 | Spreadsheet benötigt mehr als 3 Minuten, um Formeln zu berechnen, wenn die Methode Workbook.calculateFormula() verwendet wird| Erweiterung|
-|CELLSJAVA-41969 | Cell Schattierung fehlt beim Konvertieren von HTML in das XLSX-Dateiformat| Insekt|
-|CELLSJAVA-41955 | Workbook to HTML zeigt '#' in den Zellen| Insekt|
-|CELLSJAVA-41942 |Fehlende Ränder, Zellenschattierungen und Bilder – Rendern von HTML in Excel| Insekt|
+|CELLSJAVA-41969 | Cell-Schattierung fehlt beim Konvertieren des HTML- in das XLSX-Dateiformat| Insekt|
+|CELLSJAVA-41955 | Arbeitsmappe bis HTML zeigt '#' in den Zellen| Insekt|
+|CELLSJAVA-41942 | Fehlende Rahmen, Zellenschattierungen und Bilder – HTML für Excel-Rendering| Insekt|
 |CELLSJAVA-41967 | Cells fehlt in PDF, wenn mehrere Druckbereiche auf einem Blatt definiert sind| Insekt|
 |CELLSJAVA-41958 | Die Legende auf der rechten Seite wird im Bild des Diagramms abgeschnitten| Insekt|
-|CELLSJAVA-41953 | Text im Diagramm falsch platziert, nachdem er in das HTML-Format konvertiert wurde| Insekt|
+|CELLSJAVA-41953 | Text im Diagramm falsch platziert, nachdem er in das Format HTML konvertiert wurde| Insekt|
 |CELLSJAVA-41948 | Das Diagramm wird beim Konvertieren der Tabelle in HTML geändert| Insekt|
-|CELLSJAVA-41981 | Falsche Position der vertikalen Linie im PDF des Diagramms| Insekt|
+|CELLSJAVA-41981 | Falsche Position der vertikalen Linie im Diagramm PDF| Insekt|
 |CELLSJAVA-41964 | Autofit berücksichtigt die Einzugsebene nicht| Insekt|
 |CELLSJAVA-40260 | Ändern des Textes einer vorhandenen WordArt in einer Excel-Datei| Insekt|
-|CELLSJAVA-41971 | Cell.getValiationValue() löst NullPointerException für den benutzerdefinierten Validierungstyp aus| Ausnahme|
+|CELLSJAVA-41971 |Cell.getValiationValue() löst NullPointerException für den benutzerdefinierten Validierungstyp aus| Ausnahme|
 |CELLSJAVA-41963 | Beim Öffnen der Quelle a5.xlsx tritt eine Ausnahme wegen unzulässiger Schlüsselgröße auf| Ausnahme|
 |CELLSJAVA-41962 | Beim Öffnen der Quelle a4.xls tritt eine ArrayIndexOutOfBoundsException-Ausnahme auf| Ausnahme|
 |CELLSJAVA-41961 | Beim Öffnen der Quelle a3.xls tritt eine ungültige Zeichenfolge in der Dateiausnahme auf| Ausnahme|
@@ -30,7 +30,7 @@ url: /de/java/aspose-cells-for-java-9-0-0-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSJAVA-41965 |Holen Sie sich die Version wie CELLSNET-44565 und CELLSNET-44676, die auch für GridWeb benötigt wird (Java)| Erweiterung|
+|CELLSJAVA-41965 | Holen Sie sich die Version wie CELLSNET-44565 und CELLSNET-44676, die auch für GridWeb benötigt wird (Java)| Erweiterung|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
 ### **Fügt die Shape.TextOptions-Eigenschaft hinzu**

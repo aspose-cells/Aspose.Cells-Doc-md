@@ -5,7 +5,7 @@ weight: 50
 url: /es/python-java/get-hyperlinks-in-range/
 ---
 ## **Obtener hipervínculos en rango**
-Para obtener hipervínculos dentro del rango, use el[obtener hipervínculos()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propiedad de la[Rango](https://reference.aspose.com/cells/python/asposecells.api/Range)clase. los[obtener hipervínculos()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)La propiedad obtiene todos los hipervínculos en el rango seleccionado.
+Para obtener hipervínculos dentro del rango, use el[obtener hipervínculos()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)propiedad de la[Rango](https://reference.aspose.com/cells/python/asposecells.api/Range)clase. Él[obtener hipervínculos()](https://reference.aspose.com/cells/python/asposecells.api/range#Hyperlinks)La propiedad obtiene todos los hipervínculos en el rango seleccionado.
 
 El siguiente fragmento de código muestra cómo obtener todos los hipervínculos en el rango seleccionado.
 

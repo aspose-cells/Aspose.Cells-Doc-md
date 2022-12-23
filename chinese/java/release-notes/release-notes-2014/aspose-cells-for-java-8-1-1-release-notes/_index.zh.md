@@ -28,7 +28,7 @@ Aspose.Cells for Java 已更新至版本 8.1.1，我们很高兴地宣布此版�
 虫子
 
 (CELLSJAVA-40848) - 条件格式背景颜色未在 pdf 中呈现
-(CELLSJAVA-40852) - 设置 ImageOrPrintOptions 的透明度以黑色背景呈现 PNG
+(CELLSJAVA-40852) - 设置 ImageOrPrintOptions 的透明度使 PNG 呈现黑色背景
 (CELLSJAVA-40855) - XLSX 到 PDF：CellsHelper.setFontDir 似乎没有选择字体
 (CELLSJAVA-40862) - Cell.getType() 正在检测数字作为日期时间
 (CELLSJAVA-40863) - 支持公式中的本地化格式

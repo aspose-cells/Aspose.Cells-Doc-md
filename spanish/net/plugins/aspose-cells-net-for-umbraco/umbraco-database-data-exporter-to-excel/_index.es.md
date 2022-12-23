@@ -52,7 +52,7 @@ Una vez descargado, siga estos pasos para instalar este paquete en su sitio web 
 1.  Iniciar sesión en el Umbraco**Desarrollador** sección, por ejemplo `http://www.myblog.com/umbraco`
 1.  Desde el árbol, expanda el**Paquetes** carpeta.
 1.  Desde aquí hay dos formas de instalar un paquete: seleccione**Instalar paquete local** o navegar por el**Repositorio de paquetes de Umbraco.**
-1. si instalas**paquete local**, no descomprima el paquete, cargue el archivo comprimido en Umbraco.
+1. si instalas**paquete local**, no descomprima el paquete, cargue el archivo zip en Umbraco.
 1. Siga las instrucciones en pantalla.
 
 **Nota:** Es posible que obtenga un error de "Longitud máxima de solicitud excedida" durante la instalación. Puede solucionar este problema fácilmente actualizando el valor 'maxRequestLength' en su archivo Umbraco web.config.
@@ -65,7 +65,7 @@ Después de haber instalado el módulo Aspose .NET Database Data Exporter to Exc
 1.  Ampliar la**Plantillas** y seleccione la plantilla a la que desea agregar, por ejemplo, Textpage.
 1. Seleccione la posición en la plantilla seleccionada donde desea agregar el botón de exportación. Por lo general, es posible que desee agregarlo en la parte superior derecha de la página o en la parte inferior de la página.
 1.  Hacer clic**Insertar macro** en la cinta superior.
-1.  De**Elige una macro** (Aspose .NET Exportador de datos de base de datos a Excel para Umbraco), seleccione la macro Aspose .NET Exportador de datos de base de datos a Excel para Umbraco recientemente instalada y haga clic en**OK**.
+1.  Desde**Elige una macro** (Aspose .NET Exportador de datos de base de datos a Excel para Umbraco), seleccione la macro Aspose .NET Exportador de datos de base de datos a Excel para Umbraco recientemente instalada y haga clic en**DE ACUERDO**.
 
  Consulte la captura de pantalla a continuación para obtener más detalles.
 
@@ -84,7 +84,7 @@ Ha agregado con éxito el módulo Aspose .NET Exportador de datos de base de dat
 ## **Vídeo de demostración**
  por favor, compruebe[el video](https://www.youtube.com/watch?v=MkfKyeLTauE) a continuación para ver el módulo en acción.
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
@@ -106,5 +106,5 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abierto**por ejemplo, Aspose.DatabaseDataExportertoExcel.sln**

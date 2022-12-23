@@ -6,7 +6,7 @@ url: /it/net/ohal-report-canvas-component/
 ---
 {{% alert color="primary" %}}
 
-[Rapporto PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
+[Denuncia PDF](https://blog.aspose.com/2008/03/17/complete-excel-export-capabilities-using-apis/)
 
 **Uso di Aspose.Cells nel componente Report Canvas**
 
@@ -16,11 +16,11 @@ Robert Chivers, 17 marzo 2008
 
 ## **Sfondo del prodotto**
 
-Il componente Report Canvas consente all'utente di creare report visivi basati su un set di dati precaricato. L'utente può aggiungere diversi componenti alla propria tela, tra cui immagini, caselle di testo, grafici e tabelle, quindi specifica i dati e come devono essere aggregati. L'utente può quindi riorganizzare e ridimensionare gli oggetti per adattarli alla pagina. L'utente può specificare le tavolozze dei colori e salvare i modelli per un utilizzo futuro. Aspose.Cells viene utilizzato per esportare tutti gli oggetti sulla tela in Excel con i dati corretti. Il componente è scritto con VB.Net in Visual Studio 2008.
+Il componente Report Canvas consente all'utente di creare report visivi basati su un set di dati precaricato. L'utente può aggiungere diversi componenti alla propria tela, tra cui immagini, caselle di testo, grafici e tabelle, quindi specifica i dati e come devono essere aggregati. L'utente può quindi riorganizzare e ridimensionare gli oggetti per adattarli alla pagina. L'utente può specificare le tavolozze dei colori e salvare i modelli per un uso futuro. Aspose.Cells viene utilizzato per esportare tutti gli oggetti sulla tela in Excel con i dati corretti. Il componente è scritto con VB.Net in Visual Studio 2008.
 
 ## **Scenario dei requisiti**
 
-Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione Microsoft Excel quasi complete. La cosa più importante per noi è la possibilità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, che mancavano in altri componenti di terze parti.
+Abbiamo selezionato Aspose.Cells per le sue capacità di esportazione di Excel Microsoft quasi complete. La cosa più importante per noi è la possibilità di esportare grafici e tabelle, specialmente in Microsoft Excel 2007, che mancavano in altri componenti di terze parti.
 
 ## **Implementazione della soluzione**
 

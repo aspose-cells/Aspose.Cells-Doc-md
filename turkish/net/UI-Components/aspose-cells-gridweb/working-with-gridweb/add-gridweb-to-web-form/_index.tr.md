@@ -14,9 +14,9 @@ Bu konuda, yeni başlayanlara web uygulamalarında Aspose.Cells.GridWeb denetimi
 Öncelikle, Aspose.Cells.GridWeb kontrolünün kullanılacağı bir web uygulaması projesi oluşturun:
 
 1. Visual Studio'yu açın.
-1.  itibaren**Dosya** menü, seç**Yeni** bunu takiben**proje**. 
+1.  itibaren**Dosya** menü, seç**Yeni** bunu takiben**Proje**. 
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_1.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_1.png)
 
 
 
@@ -24,17 +24,17 @@ Yeni Bir Proje İletişim Kutusu görünür.
 
 1.  Seçme**ASP.NET Web Uygulaması** istediğiniz dil için
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_2.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_2.png)
 
 1.  Seçme**Web Formları** şablon.
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_3.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_3.png)
 
 1. Projeye yeni bir web formu ekleyin.
 ### **2. Adım: Denetimi Web Formuna Katıştırma**
  Aspose.Cells.GridWeb denetimini Visual Studio araç kutusundan web formuna sürükleyip bırakın.
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_4.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_4.png)
 
 {{% alert color="primary" %}} 
 
@@ -44,15 +44,15 @@ Yeni Bir Proje İletişim Kutusu görünür.
 
  Kontrol forma eklendiğinde şu şekilde işlenir:
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_5.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_5.png)
 ### **3. Adım: Denetimi Yeniden Boyutlandırma**
 Form, varsayılan bir boyutta işlenir. Kenarlıkları veya köşeleri sürükleyerek boyutu ayarlayın.
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_6.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_6.png)
 ### **4. Adım: Kontrol Özelliklerini Ayarlama**
  Aspose.Cells.GridWeb kontrolü, çeşitli özellikler kullanılarak da yapılandırılabilir.
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_7.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_7.png)
 
 Özellikler iletişim kutusu ile kontrolün birçok özelliğini ayarlamak mümkündür. Temel özellikler yükseklik, genişlik, renk ve görsel stilleri içerir. Gelişmiş özellikler, düzenleme modunu, oturum modunu ve çift tıklama modunu içerir. Ayrıca, Özellikler iletişim kutusunda özelleştirilmiş olay işleyicileri ayarlamak mümkündür.
 
@@ -63,13 +63,13 @@ Ayrıca, Aspose.Cells.GridWeb için, Özellikler iletişim kutusunun altında k�
 Özel komut düğmeleri düzenleyicisini açmak için:
  GridWeb denetimine sağ tıklayın ve seçin**Özel Komut Düğmeleri**. 
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_8.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_8.png)
 
 
 
  CustomCommandButton Koleksiyon Düzenleyici iletişim kutusu görüntülenir.
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_9.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_9.png)
 
 İletişim kutusu, geliştiricilerin GridWeb denetiminde özel komut düğmeleri eklemesine ve kaldırmasına olanak tanır.
 
@@ -95,4 +95,4 @@ Yol her zaman projenin dizini ile ilişkilidir. Proje dizini dışında herhangi
 
 **GridWeb kontrolünün içerik menüsü** 
 
-![yapılacaklar:resim_alternatif_Metin](add-gridweb-to-web-form_10.png)
+![yapılacaklar:resim_alternatif_metin](add-gridweb-to-web-form_10.png)

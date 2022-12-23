@@ -6,7 +6,7 @@ url: /sv/java/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Du kan använda Aspose.Cells för att ställa in AutoRecover-egenskapen för arbetsboken. Standardvärdet för den här egenskapen är**Sann** . När du ställer in den**falsk** en arbetsbok, Microsoft Excel inaktiverar automatisk återställning (autospara) på den Excel-filen.
+Du kan använda Aspose.Cells för att ställa in AutoRecover-egenskapen för arbetsboken. Standardvärdet för den här egenskapen är**Sann** . När du ställer in den**falsk** i en arbetsbok, Microsoft Excel inaktiverar automatisk återställning (autospara) på den Excel-filen.
 
  Aspose.Cells tillhandahåller[**Workbook.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) egenskap för att aktivera eller inaktivera detta alternativ.
 

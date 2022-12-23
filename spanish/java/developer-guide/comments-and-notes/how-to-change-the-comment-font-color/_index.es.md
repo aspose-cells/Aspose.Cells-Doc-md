@@ -14,4 +14,4 @@ Aspose.Cells proporciona un[**Forma.TextBody**](https://reference.aspose.com/cel
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ChangeCommentFontColor-1.java" >}}
 
-los[archivo de salida](outputChangeCommentFontColor.xlsx)generado por el código anterior se adjunta para su referencia.
+Él[archivo de salida](outputChangeCommentFontColor.xlsx)generado por el código anterior se adjunta para su referencia.

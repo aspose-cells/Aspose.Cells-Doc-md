@@ -15,7 +15,7 @@ Her serinin değerini, yüzdesini vb. kolayca bilebiliriz.
 ## **Veri Etiketleri Seçenekleri**
  Aspose.Cells ayrıca çalışma zamanında grafiğin veri etiketlerini yönetmeye izin verir.[Veri etiketleri](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/) nesne, grafiğin veri etiketlerini taşımak, güncellemek ve biçimlendirmek kolaydır.
 
-|![yapılacaklar:resim_alternatif_Metin](chart_datalabels.png)|
+|![yapılacaklar:resim_alternatif_metin](chart_datalabels.png)|
 
 ## **Grafiğin Veri Etiketlerini Yönetme**
  Aspose.Cells ile grafiğin veri etiketlerini yönetmek çok kolay[Veri etiketleri](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/).

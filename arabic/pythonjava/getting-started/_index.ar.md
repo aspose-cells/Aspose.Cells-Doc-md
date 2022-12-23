@@ -8,17 +8,17 @@ keywords: python, excel, instal
 description: إعداد Aspose.Cells for Python via Java وإرشادات التثبيت.
 ---
 ## **متطلبات النظام**
-Aspose.Cells for Python via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Python](https://www.python.org/downloads/) تم تنصيبه. يجب أن يحتوي الجهاز على Java 8 أو إصدارات أعلى قبل إعداد التثبيت.
+ Aspose.Cells for Python via Java مستقل عن النظام الأساسي API ويمكن استخدامه على أي منصة (Windows و Linux و MacOS) حيث[Python](https://www.python.org/downloads/) تم تنصيبه. يجب أن يحتوي الجهاز على Java 8 أو إصدارات أعلى قبل إعداد التثبيت.
 
 ## **إصدار Python**
 - Python 3.5 أو أعلى
 ## **إصدار Java**
 - Java 1.8 أو أعلى
 
-## **تثبيت**
+## **التركيب**
 ### **Windows:**
 - **قم بتثبيت Java وضبط متغيرات بيئة التشغيل JAVA_HOME و PATH**
-فمثلا:
+على سبيل المثال:
 {{< highlight "java" >}}
 
 JAVA_HOME=C:\jdk1.8.0_131

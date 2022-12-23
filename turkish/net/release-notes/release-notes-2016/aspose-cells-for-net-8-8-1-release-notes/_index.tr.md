@@ -10,31 +10,31 @@ url: /tr/net/aspose-cells-for-net-8-8-1-release-notes/
 |:- |:- |:- |
 |CELLSNET-41817 | Metin efektini Dikdörtgen Şeklinde Ofset olarak ayarlama| Yeni özellik|
 |CELLSNET-44407 | Yazdırma Alanı, sınırı paylaşan hücrelerden geçtiğinde işleme sırasında kenarlık kalınlığı azaltılır| Artırma|
-|CELLSNET-44413 | WorkbookSettings.IsDefaultEncrypted'in varsayılan değerini yanlış yapın| Artırma|
+|CELLSNET-44413 |WorkbookSettings.IsDefaultEncrypted'in varsayılan değerini yanlış yapın| Artırma|
 |CELLSNET-44392 | Aspose.Cells.xml ".\Bin\net4.0" klasöründe eksik| Artırma|
 |CELLSNET-44291 | Gizli boş sütunları ve satırları daha verimli hale getirmek için kodu optimize edin| Artırma|
-|CELLSNET-44417 | API, bozuk ve virüs bulaşmış bir e-tabloyu PDF'ye dönüştürürken takılıyor| Verim|
-|CELLSNET-44088 | Koşullu biçimlendirme kurallarına ilişkin simgeler HTML'ye dönüştürülmez| Böcek|
-|CELLSNET-44263 | HTML'yi XLSX olarak içe aktarırken biçimlendirme kayboluyor| Böcek|
+|CELLSNET-44417 | API, bozuk ve virüs bulaşmış bir e-tabloyu PDF'e dönüştürürken takılıyor| Verim|
+|CELLSNET-44088 | Koşullu biçimlendirme kurallarının simgeleri HTML'e işlenmez| Böcek|
+|CELLSNET-44263 | HTML, XLSX olarak içe aktarılırken biçimlendirme kayboluyor| Böcek|
 |CELLSNET-44427 | ISO 8601 biçimindeki tarihler, tarihler yerine dizeler olarak değerlendiriliyor| Böcek|
-|CELLSNET-44414 | Excel'den PDF'ye dönüştürme sırasında büyük resimlerle ilgili sorun| Böcek|
+|CELLSNET-44414 | Excel'den PDF'e dönüştürme sırasında büyük resimlerle ilgili sorun| Böcek|
 |CELLSNET-44341 | Hücrelerdeki Çince ve İngilizce kelimeler için AutoFitMergedCells seçeneği açıkken AutoFitRows kullanılarak yanlış satır yükseklikleri| Böcek|
-|CELLSNET-44309 |Çıktı PDF'sinde döndürülmüş olarak gösterilmeyen parantez (Excel'den PDF'e dönüştürme)| Böcek|
+|CELLSNET-44309 | PDF çıktısında döndürülmüş parantez gösterilmiyor (Excel'den PDF'e dönüştürme)| Böcek|
 |CELLSNET-44302 | SheetRender.ToImage hücre kenarlığını oluşturmuyor| Böcek|
-|CELLSNET-43237 | Elektronik tabloları PDF'ye dönüştürürken Dikey Semboller doğru şekilde oluşturulmuyor| Böcek|
-|CELLSNET-41907 | Dönüştürülen PDF dosyasında bazı dikey metinler hala düzgün şekilde görüntülenemiyor| Böcek|
+|CELLSNET-43237 | E-tablolar PDF'e dönüştürülürken Dikey Semboller doğru şekilde oluşturulmuyor| Böcek|
+|CELLSNET-41907 |Dönüştürülen PDF dosyasında bazı dikey metinler hala düzgün görüntülenemiyor| Böcek|
 |CELLSNET-44405 | Grafik görüntüsü, %50'ye ayarlanmış olmasına rağmen %0'da "Kuruluşunuz" serisine sahip| Böcek|
 |CELLSNET-44404 | Worksheet.Copy yöntemi grafikleri doğru şekilde kopyalamıyor| Böcek|
-|CELLSNET-44398 | Grafiğin EMF oluşturması daha yeni sürümde düzgün çalışmıyor| Böcek|
+|CELLSNET-44398 | EMF grafiğin oluşturulması daha yeni sürümde düzgün çalışmıyor| Böcek|
 |CELLSNET-44397 | Grafikten Görüntüye oluşturma - Metin (Veri Etiketleri), orijinal tablodan daha kalındır| Böcek|
 |CELLSNET-44387 | Chart.ToImage kullanılarak oluşturulan resim yanlış| Böcek|
 |CELLSNET-44365 | aspose.cells kullanılarak görüntü olarak oluşturulan belirli bir grafik için veri serisi etiketinin bir kısmı eksik| Böcek|
 |CELLSNET-44426 |ImportOptions.ConvertNumericData = true ayarı, ' ile değerlerle sonuçlanır<' or '> rakam görüntülenmiyor| Böcek|
 |CELLSNET-44408 | Veri doğrulama açılır menüsü/virgül içeren liste girişleriyle ilgili sorun| Böcek|
-|CELLSNET-44403 |XLS'yi XLSX'e kaydederken arka plan filigranı kaldırılır| Böcek|
+|CELLSNET-44403 | XLS, XLSX'e kaydedilirken arka plan filigranı kaldırıldı| Böcek|
 |CELLSNET-44402 | ExternalLink, genişletilmiş yolla yanlış DataSource döndürdü| Böcek|
 |CELLSNET-44394 | Smart Marker gruplandırması daha yeni sürümde bozuldu| Böcek|
-|CELLSNET-44390 | Akıllı İşaretleyicilerin Grup özniteliğiyle ilgili sorun - Tüm veriler işlenmiyor| Böcek|
+|CELLSNET-44390 |Akıllı İşaretleyicilerin Grup özniteliğiyle ilgili sorun - Tüm veriler işlenmiyor| Böcek|
 |CELLSNET-44388 | Farklı çalışma sayfalarındaki adlandırılmış hücreler çalışma kitabını bozar| Böcek|
 |CELLSNET-44379 | Elektronik tablo yeniden kaydedildikten sonra grafik etiketleri kayboluyor| Böcek|
 |CELLSNET-44329 | Excel dosyasındaki seçili veya seçili olmayan hücreler için farklı kaydedilmiş Pdf dosyası sayfa boyutları| Böcek|
@@ -48,10 +48,10 @@ url: /tr/net/aspose-cells-for-net-8-8-1-release-notes/
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 |CELLSNET-42313 | Excel dosyasında Veri Doğrulama okuma desteği - Aspose.Cells.GridDesktop| Yeni özellik|
-|CELLSNET-44267 |GridWeb kontrolünde kaydırma yaparken EnableAsync özniteliği ayarlanırken geç yükleme sorunu| Artırma|
+|CELLSNET-44267 | GridWeb kontrolünde kaydırma yaparken EnableAsync özniteliği ayarlanırken geç yükleme sorunu| Artırma|
 |CELLSNET-41793 | Hücre birleştirme işleminden sonra aşağı ok düzgün çalışmıyor| Artırma|
 |CELLSNET-44424 | GridWeb'de vurgulamayı seçin doğru değil| Böcek|
-|CELLSNET-44364 | GridWeb'de hücreye tıkladıktan sonra hücrenin biçimlendirmesi değişiyor| Böcek|
+|CELLSNET-44364 |GridWeb'de hücreye tıkladıktan sonra hücrenin biçimlendirmesi değişiyor| Böcek|
 |CELLSNET-44343 | Elektronik tablo yüklenirken GridDesktop açılır listeyi göstermiyor| Böcek|
 |CELLSNET-44409 | Bir Excel dosyasını GridWeb'e aktarırken istisna| İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -73,4 +73,4 @@ Izgara hücresi için bir doğrulama nesnesi oluşturur.
 #### **GridCell.RemoveValidation() yöntemini ekler.**
 Doğrulama nesnesini bir ızgara hücresinden kaldırır.
 #### **Chart.ToPdf(System.IO.Stream stream) yöntemini ekler.**
-Akış olarak PDF'ye kaydetme tablosu ekler.
+PDF'e akış olarak kaydetme grafiği ekler.

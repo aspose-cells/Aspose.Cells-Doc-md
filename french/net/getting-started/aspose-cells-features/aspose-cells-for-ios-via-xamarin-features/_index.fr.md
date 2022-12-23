@@ -9,14 +9,14 @@ Cette section fournit une comparaison de la disponibilité des fonctionnalités 
 ### **Formats de fichiers et conversions**
 De nombreux clients du monde entier font confiance aux fonctionnalités complètes d'importation et d'exportation de documents fournies par Aspose.Cells.
 
-|**Caractéristique**|**La description**|**.NET**|**Xamarin.iOS**|
+|**Caractéristique**|**Description**|**.NET**|**Xamarin.iOS**|
 |:- |:- |:- |:- |
 |Conversions de haute qualité|Convertissez rapidement et de manière fiable entre plusieurs formats de documents populaires.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Classeur Excel (XLS)|L'implémentation de format XLS la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TableurML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. En outre,<br>le composant prend en charge tous les principaux formats de fichiers Excel 2007, 2010 et 2013, par exemple XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Classeur Excel (XLS)|L'implémentation du format XLS la plus rapide et la plus complète que vous puissiez trouver.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells prend en charge OOXML, Flat OPC et également Excel 2003 XML. En outre,<br>le composant prend en charge tous les principaux formats de fichiers Excel 2007, 2010 et 2013, par exemple XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Valeur séparée par des virgules (CSV)|Prise en charge complète du format CSV pour interagir avec une variété d'applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|Enregistrer au format HTML est disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OpenDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|Enregistrer sous HTML est disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OuvrirDocument (ODS)|Aspose.Cells peut charger et enregistrer des documents au format OpenDocument Spreadsheet (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Format de document portable Adobe (PDF)|Convertissez n'importe quelle feuille de calcul en PDF avec une haute fidélité.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Onglet délimité|Chargez et enregistrez des documents au format de fichier délimité par des tabulations.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Texte brut (TXT)|Extrayez facilement du texte en l'enregistrant au format texte brut.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

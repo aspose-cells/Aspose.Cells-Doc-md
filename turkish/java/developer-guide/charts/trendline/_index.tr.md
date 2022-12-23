@@ -11,11 +11,11 @@ url: /tr/java/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
-## **Örnek**
+## **Örnek vermek**
 
- Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği gösterir ve Denklem Metni Kırmızı renkte gösterilir. Bu metni kullanarak geri alacağız.[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)özelliği aşağıdaki örnek kodda.
+Aşağıdaki ekran görüntüsü Trend Çizgili Grafiği gösterir ve Denklem Metni Kırmızı renkte gösterilir. Bu metni kullanarak geri alacağız.[**Trendline.getDataLabels().getText()**](https://reference.aspose.com/cells/java/com.aspose.cells/datalabels#Text)özelliği aşağıdaki örnek kodda.
 
-![yapılacaklar:resim_alternatif_Metin](get-equation-text-of-chart-trendline_1.png)
+![yapılacaklar:resim_alternatif_metin](get-equation-text-of-chart-trendline_1.png)
 
 ### Grafik eğilim çizgisinin denklem metnini almak için Java kodu
 

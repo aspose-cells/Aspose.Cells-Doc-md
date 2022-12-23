@@ -1,5 +1,5 @@
 ﻿---
-title: Визуализация дополнительных символов Unicode в выходном PDF по Aspose.Cells
+title: Визуализация дополнительных символов Unicode в выводе PDF по Aspose.Cells
 type: docs
 weight: 690
 url: /ru/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -14,8 +14,8 @@ url: /ru/java/render-unicode-supplementary-characters-in-output-pdf-by-aspose-ce
 - В UTF-16 для этих символов требуется 2 суррогата (16-битные единицы).
 
 {{% /alert %}} 
-## **Визуализация дополнительных символов Unicode в выходном PDF по Aspose.Cells**
- На следующем снимке экрана показано, как Aspose.Cells визуализировал[исходный файл excel](5473390.xlsx) в[вывод PDF](5473391.pdf)Как вы можете видеть, все три дополнительных символа Unicode были отображены точно так же, как это было сделано Microsoft Excel.
+## **Визуализация дополнительных символов Unicode в выводе PDF по Aspose.Cells**
+ На следующем снимке экрана показано, как Aspose.Cells визуализировал[исходный файл excel](5473390.xlsx) в[вывод PDF](5473391.pdf). Как вы можете видеть, все три дополнительных символа Unicode были отображены точно так же, как это было сделано Microsoft Excel.
 
 ![дело:изображение_альтернативный_текст](render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells_1.png)
 

@@ -12,7 +12,7 @@ url: /ja/cpp/aspose-cells-for-cpp-18-5-release-notes/
 
 |**鍵** |**概要** |**カテゴリー** |
 |:- |:- |:- |
-|CELLSCPP-117 |EMF (フォーマット) の問題に保存|バグ|
+|CELLSCPP-117 |EMF（フォーマット）号に保存|バグ|
 |CELLSCPP-123 |グリフハッシュテーブルの問題|バグ|
 |CELLSCPP-124 |グラフを PDF に変換するときの軸のグリッド線の色の問題|バグ|
 ### **Public API および下位互換性のない変更**

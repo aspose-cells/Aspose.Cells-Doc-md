@@ -7,7 +7,7 @@ keywords: python, excel, limitation, api, difference
 description: Aspose.Cells for Python via Java kısıtlamalar ve api farklılıkları
 ---
 ## **Kamu API Farklar**
-### **Örnek**
+### **Örnek vermek**
 **Aspose.Cells for Java**
 
 {{< highlight "java" >}}

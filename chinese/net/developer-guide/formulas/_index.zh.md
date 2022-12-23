@@ -47,7 +47,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
  Aspose.Cells 提供使用以下功能注册添加功能的功能[**工作表.RegisterAddInFunction()**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/registeraddinfunction/index).之后，当我们设置 cell.Formula = anyFunctionFromAddIn 时，输出的 Excel 文件包含从 AddIn 函数计算出的值。
 
-应下载以下 XLAM 文件以在以下示例代码中注册插件功能。同样，可以下载输出文件“test_udf.xlsx”来检查输出。
+在下面的示例代码中注册插件功能需要下载XLAM文件。同样，可以下载输出文件“test_udf.xlsx”来检查输出。
 
 [测试UDF.xlam](81920908.xlam)
 

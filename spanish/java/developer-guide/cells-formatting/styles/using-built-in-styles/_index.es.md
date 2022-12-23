@@ -9,15 +9,15 @@ url: /es/java/using-built-in-styles/
 Aspose.Cells proporciona una amplia colección de estilos reutilizables para formatear una celda en un documento de hoja de cálculo. Podemos usar estilos incorporados en nuestro libro de trabajo y también crear estilos personalizados.
 
 {{% /alert %}} 
-## **Cómo usar estilos incorporados**
- El método[Workbook.createBuiltinStyle](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#createBuiltinStyle\(int\) ) y clase[BuiltinStyleType](https://reference.aspose.com/cells/java/com.aspose.cells/BuiltinStyleType)que sea conveniente crear estilos reutilizables. Aquí hay una lista de todos los estilos integrados posibles:
+## **Cómo usar estilos integrados**
+ El método[Workbook.createBuiltinStyle](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#createBuiltinStyle\(int\) ) y clase[BuiltinStyleType](https://reference.aspose.com/cells/java/com.aspose.cells/BuiltinStyleType)que sea conveniente crear estilos reutilizables. Aquí hay una lista de todos los estilos incorporados posibles:
 
-- [VEINTE_POR CIENTO_ACENTO_1](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_1)
-- [VEINTE_POR CIENTO_ACENTO_2](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_2)
-- [VEINTE_POR CIENTO_ACENTO_3](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_3)
-- [VEINTE_POR CIENTO_ACENTO_4](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_4)
-- [VEINTE_POR CIENTO_ACENTO_5](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_5)
-- [VEINTE_POR CIENTO_ACENTO_6](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_6)
+- [20_POR CIENTO_ACENTO_1](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_1)
+- [20_POR CIENTO_ACENTO_2](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_2)
+- [20_POR CIENTO_ACENTO_3](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_3)
+- [20_POR CIENTO_ACENTO_4](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_4)
+- [20_POR CIENTO_ACENTO_5](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_5)
+- [20_POR CIENTO_ACENTO_6](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#TWENTY_PERCENT_ACCENT_6)
 - [CUARENTA_POR CIENTO_ACENTO_1](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_1)
 - [CUARENTA_POR CIENTO_ACENTO_2](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_2)
 - [CUARENTA_POR CIENTO_ACENTO_3](https://reference.aspose.com/cells/java/com.aspose.cells/builtinstyletype#FORTY_PERCENT_ACCENT_3)

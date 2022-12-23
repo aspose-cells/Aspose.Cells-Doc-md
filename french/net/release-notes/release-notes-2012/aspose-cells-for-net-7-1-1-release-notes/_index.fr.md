@@ -29,7 +29,7 @@ url: /fr/net/aspose-cells-for-net-7-1-1-release-notes/
 - Excel vers PDF (arabe) - Mise en forme incorrecte des mots/dates lors de la conversion
 - Un logiciel antivirus supprime les fichiers Excel des e-mails
 
- Exceptions
+ Des exceptions
 
 - Erreur lors de l'ouverture d'un fichier contenant une feuille de calcul dont le nom contient : " !" personnage
 - Exceptions lors du chargement d'un fichier Excel valide - à chaque fois
@@ -42,12 +42,12 @@ url: /fr/net/aspose-cells-for-net-7-1-1-release-notes/
 
  -Propriétés des boutons
 
-- Cells avec les pieds et les pouces incorrects lors de la conversion en PDF
-- Problème de rendu des caractères em tiret dans la sortie PDF
+- Cells avec les pieds et les pouces sont incorrects lorsqu'ils sont convertis en PDF
+- Problème de rendu des caractères em dash dans la sortie PDF
 - Mise en page modifiée dans le classeur fusionné
 - Enregistrer sous XLSX produit parfois un fichier invalide
 
- -Le fichier XLS s'ouvre en mode protégé après avoir utilisé Aspose.Cells
+ -XLS le fichier s'ouvre en mode protégé après avoir utilisé Aspose.Cells
 
 - Cell.GetDependents() ne fonctionne pas avec NamedRange
 - Problème AutoFitRow et IndentLevel
@@ -61,12 +61,12 @@ url: /fr/net/aspose-cells-for-net-7-1-1-release-notes/
 - Problèmes avec la fonction NETWORKDAYS dans la sortie XLS
 - Problèmes de conversion HTML vers Excel
 
- ` ` - Problèmes d'étendue de ligne et d'attributs de classe HTML
+ ` `- HTML'srowspan et problèmes d'attributs de classe
 
- -Est-ce que Cells prend en charge datauri
+-Est-ce que Cells prend en charge datauri
 
-- Bordures formatées personnalisées perdues lors de la conversion en PDF
-- Grille dans l'exportation PDF
+- Perte des bordures formatées personnalisées lors de la conversion en PDF
+- Quadrillage dans l'exportation PDF
 
  -Excel a trouvé une erreur de contenu illisible
 

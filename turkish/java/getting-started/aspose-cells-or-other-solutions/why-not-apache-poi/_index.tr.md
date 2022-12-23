@@ -12,18 +12,18 @@ Bazen şu soruyu alıyoruz: Neden Apache POI yerine Aspose ürünlerini kullanma
 
 
 ## **Apache POI SS - HSSF ve XSSF**
-**HSSF** POI Projesi'nin Excel '97(-2007) dosya biçiminin saf Java uygulamasıdır.
+**HSSF**POI Projesi'nin Excel '97(-2007) dosya biçiminin saf Java uygulamasıdır.
 **XSSF** POI Projesi'nin Excel 2007 OOXML (.xlsx) dosya biçiminin saf Java uygulamasıdır.
 
-HSSF ve XSSF, elektronik tabloları okumanın, XLS elektronik tablolarını oluşturmanın, değiştirmenin, okumanın ve yazmanın yollarını sağlar. Sağladıkları:
+HSSF ve XSSF, elektronik tabloları okuma, XLS elektronik tabloları oluşturma, değiştirme, okuma ve yazma yolları sağlar. Sağladıkları:
 
 - özel ihtiyaçları olanlar için düşük seviyeli yapılar
 - verimli salt okunur erişim için bir eventmodel api
-- XLS dosyalarını oluşturmak, okumak ve değiştirmek için eksiksiz bir kullanıcı modeli api'si
+- XLS dosyalarını oluşturmak, okumak ve değiştirmek için tam bir kullanıcı modeli api'si
 
  da daha fazlasını oku[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java, Java geliştiricilerinin Excel® elektronik tablolarını (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF okuma, yazma ve değiştirme becerisini yerleştirmesine izin veren ödüllü bir Excel Elektronik Tablo bileşenidir. ve resim dosyası formatlarını Microsoft Excel®'e güvenmek zorunda kalmadan kendi Java uygulamalarına dönüştürün.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF ve görüntü dosyası formatlarını Microsoft Excel®'e güvenmeye gerek kalmadan kendi Java uygulamalarına dönüştürün.
 
 Aspose.Cells for Java, diğer satıcıların basit veri dışa aktarma yeteneklerinin çok ötesinde birçok işlev sunan olgun, ölçeklenebilir ve zengin özelliklere sahip bir bileşendir. Aspose.Cells for Java ile geliştiriciler verileri dışa aktarabilir, elektronik tabloları en ayrıntılı düzeyde biçimlendirebilir, görüntüleri içe aktarabilir, grafikler oluşturabilir, karmaşık formüller uygulayabilir ve hesaplayabilir, Excel® verilerini aktarabilir, çeşitli biçimlerde kaydedebilir ve çok daha fazlasını yapabilir - tüm bunları Microsoft Excel®'e ihtiyaç duymadan yapabilirsiniz veya Microsoft Ofis Otomasyonu.
 
@@ -31,7 +31,7 @@ Aspose.Cells for Java, diğer satıcıların basit veri dışa aktarma yetenekle
 
 ## **Neden Apache POI SS - HSSF ve XSSF değil?**
 
-Bazı görevlerin Aspose.Cells ile gerçekleştirilebileceğini ancak Apache POI ile gerçekleştirilemeyeceğini belirtmekte fayda var. Örneğin, Excel dosyalarını PDF, JSON ve görsellere dönüştürmeniz gerekiyorsa, o zaman sadece Apache POI'yi kullanamazsınız, ayrıca Microsoft Excel 365 veya diğer araçlara ihtiyacınız vardır.
+Bazı görevlerin Aspose.Cells ile gerçekleştirilebileceğini ancak Apache POI ile gerçekleştirilemeyeceğini belirtmekte fayda var. Örneğin, Excel dosyalarını PDF, JSON ve resimlere dönüştürmeniz gerekiyorsa, yalnızca Apache POI'yi kullanamazsınız, ayrıca Microsoft Excel 365 veya diğer araçlara ihtiyacınız vardır.
 
 POI'yi Aspose.Cells ile karşılaştırabilirsiniz Bunu yapmak için, POI projesi için Aspose.Cells'i (HSSF ve XSSF) tanımanızı öneririz - .Java API için POI için Aspose.Cells kullanılarak nasıl farklı görevlerin yapılabileceğini gösterir. Proje ayrıca, yalnızca Aspose.Cells'de bulunan ancak Apache POI'de bulunmayan metin belgeleriyle çalışmaya yönelik özellikleri de kapsar.
 
@@ -41,7 +41,7 @@ Bu proje aynı zamanda POI'den Aspose.Cells'e geçmek isteyen geliştiriciler i�
 
  Keşfetmek[Aspose.Cells for Java kaynak kodu örnekleri ile eklenti POI ile karşılaştırmalı özellikler](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
-Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun olduğunuzda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy) . Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lütfen içindeki talimatları takip edin.["Lisanslama ve Abonelik"](/cells/tr/java/licensing/) Bunu yapmak için makale.
+ Bu eklenti, Aspose.Cells'in değerlendirme sürümünü kullanır. Değerlendirmenizden memnun olduğunuzda, şu adresten bir lisans satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy) . Değerlendirme mesajını ve özellik sınırlamalarını kaldırmak için bir ürün lisansı uygulamanız gerekir. Ürünü satın aldıktan sonra bir lisans dosyası alacaksınız. Lütfen içindeki talimatları takip edin.["Lisanslama ve Abonelik"](/cells/tr/java/licensing/) Bunu yapmak için makale.
 
 {{% /alert %}}
 
@@ -55,14 +55,14 @@ Aspose bileşenleri kapsamlı bir şekilde test edilmiştir. Aspose bileşenleri
 
 Aspose bileşenleri yüksek düzeyde ölçeklenebilir ve ışık hızındadır. Bunlar gerçek bir .NET çözümüdür ve tek bir uygulamaya güç sağlayan tek bir sunucuda veya kurumsal bir uygulamaya güç veren yük dengeli bir web grubu üzerinde kusursuz bir şekilde çalışır.
 
-### Özellikler
+### Özellikleri
 
 Aspose bileşenleri, Office dosyalarını yönetmek için ihtiyaç duyduğunuz her şeyin yanı sıra çok daha fazlasını sağlar. Geliştiricilerin en az çalışmayla en iyi sonuçları elde etmelerine izin verme felsefesiyle tasarlanmıştır.
 
- Aspose bileşenleri, birçok güçlü zaman kazandıran işlev sağlar. Örneğin,[Aspose.Cells](https://products.aspose.com/cells/java/) geliştiricilerin JSON'u Excel dosyalarına aktarmasına izin veren bir özellik sunar. Aspose ailesindeki her bileşenin kendi benzersiz ve güçlü özelliklerini sunduğunu belirtmek gerekir.
+Aspose bileşenleri, birçok güçlü zaman kazandıran işlev sağlar. Örneğin,[Aspose.Cells](https://products.aspose.com/cells/java/) geliştiricilerin JSON'i Excel dosyalarına aktarmalarını sağlayan bir özellik sunar. Aspose ailesindeki her bileşenin kendi benzersiz ve güçlü özelliklerini sunduğunu belirtmek gerekir.
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.
@@ -98,7 +98,7 @@ Bu bölüm aşağıdaki konuları içerir
   - [Apache POI ve Aspose.Cells'de Çalışma Sayfalarıyla Çalışma](/cells/tr/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
     - [Yeni Çalışma Sayfası Oluştur](/cells/tr/java/create-new-worksheet/)
     - [Çalışma Sayfasına Görüntü Ekle](/cells/tr/java/add-images-in-worksheet/)
-    - [Çalışma Sayfasını CSV'ye Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
+    - [Çalışma Sayfasını CSV'e Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
     - [Çalışma Kitabı İçinde Sayfayı Kopyala](/cells/tr/java/copy-sheet-within-workbook/)
     - [Çalışma Kitabında Sayfaları Yeniden Sırala](/cells/tr/java/re-order-sheets-within-workbook/)
     - [Üstbilgi ve Altbilgiler](/cells/tr/java/header-and-footers/)
@@ -140,13 +140,13 @@ Bu bölüm aşağıdaki konuları içerir
     - [Elektronik Tablolardaki Verileri Sıralama](/cells/tr/java/sort-data-in-spreadsheets/)
   - [Aspose.Cells kullanarak Çalışma Sayfalarıyla Çalışma](/cells/tr/java/working-with-worksheets-using-aspose-cells/)
     - [Aspose.Cells'i kullanarak Çalışma Sayfasına Word Art Filigranı ekleyin](/cells/tr/java/add-word-art-watermark-to-worksheet-using-aspose-cells/)
-    - [Aspose.Cells kullanarak Çalışma Kitabını HTML'ye dönüştürün](/cells/tr/java/convert-workbook-to-html-using-aspose-cells/)
+    - [Aspose.Cells'i kullanarak Çalışma Kitabını HTML'e dönüştürün](/cells/tr/java/convert-workbook-to-html-using-aspose-cells/)
     - [Aspose.Cells kullanarak Birleştirilmiş Cells'i algıla](/cells/tr/java/detect-merged-cells-using-aspose-cells/)
     - [Çalışma Kitaplarının Kaydırma Çubuklarını Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-scrollbars-of-workbooks/)
     - [Aspose.Cells'i kullanarak Çalışma Kitabının Sekmelerini Görüntüleme ve Gizleme](/cells/tr/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [Çalışma Kitabını Aspose.Cells kullanarak şifrele](/cells/tr/java/encrypt-workbook-using-aspose-cells/)
-    - [Birden Çok Kodlamayla CSV Dosyasını Okuyun](/cells/tr/java/read-csv-file-with-multiple-encodings/)
-    - [Aspose.Cells kullanarak Her Çalışma Sayfasını Farklı PDF'ye kaydedin](/cells/tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+    - [Birden Fazla Kodlama İçeren CSV Dosyasını Okuyun](/cells/tr/java/read-csv-file-with-multiple-encodings/)
+    - [Aspose.Cells'i kullanarak Her Çalışma Sayfasını Farklı PDF'e Kaydet](/cells/tr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [Aspose.Cells'de Çalışma Sayfası Sekme Rengini Ayarla](/cells/tr/java/set-worksheet-tab-color-in-aspose-cells/)
   - [Aspose.Cells'de Grafiklerle Çalışma](/cells/tr/java/working-with-charts-in-aspose-cells/)
     - [Grafiğe Word Art Filigranı Ekleyin](/cells/tr/java/add-word-art-watermark-to-chart/)
@@ -156,7 +156,7 @@ Bu bölüm aşağıdaki konuları içerir
   - [Aspose.Cells'in Muhtelif Örnekleri](/cells/tr/java/miscellaneous-examples-of-aspose-cells/)
     - [Baskı Başlıklarını Ayarla](/cells/tr/java/set-print-titles/)
     - [Aspose.Cells kullanarak Çalışma Kitaplarını Yazdırma](/cells/tr/java/printing-workbooks-using-aspose-cells/)
-    - [Aspose.Cells'i kullanarak Elektronik Tabloyu PDF'ye dönüştürün](/cells/tr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+    - [Aspose.Cells'i kullanarak Elektronik Tabloyu PDF'e dönüştürün](/cells/tr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 
 ## Ayrıca bakınız

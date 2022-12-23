@@ -12,7 +12,7 @@ url: /ar/java/add-and-retrieve-data/
 ## **إضافة البيانات إلى Cells**
  Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)، يمثل ملف Excel Microsoft. ال[دفتر العمل](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) فئة تحتوي على[ورقة العمل](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)يسمح بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) صف دراسي. ال[ورقة عمل](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) فئة توفر أ[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) مجموعة. كل عنصر في[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) تمثل المجموعة كائنًا من[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)صف دراسي.
 
- Aspose.Cells يسمح للمطورين بإضافة البيانات إلى الخلايا في أوراق العمل عن طريق استدعاء[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) صف دراسي'[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)منشأه. باستخدام ملف[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)الخاصية ، من الممكن إضافة قيم منطقية ، أو سلسلة ، أو مزدوجة ، أو عدد صحيح أو تاريخ / وقت ، وما إلى ذلك إلى الخلية.
+ Aspose.Cells يسمح للمطورين بإضافة البيانات إلى الخلايا في أوراق العمل عن طريق استدعاء[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) صف دراسي'[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)خاصية. باستخدام ملف[setValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)الخاصية ، من الممكن إضافة قيم منطقية ، أو سلسلة ، أو مزدوجة ، أو عدد صحيح أو تاريخ / وقت ، وما إلى ذلك إلى الخلية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingDataToCells-AddingDataToCells.java" >}}
 ### **تحسين الكفاءة**
@@ -40,7 +40,7 @@ url: /ar/java/add-and-retrieve-data/
 |**Cell أنواع القيمة**|**وصف**|
 |:- |:- |
 |[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|تحدد أن قيمة الخلية منطقية.|
-|[هو_تاريخ_زمن](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|يحدد أن قيمة الخلية هي التاريخ / الوقت.|
+|[يكون_تاريخ_الوقت](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|يحدد أن قيمة الخلية هي التاريخ / الوقت.|
 |[IS_ERROR](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_ERROR)|يمثل أن الخلية تحتوي على قيمة خطأ|
 |[باطل](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NULL)|يمثل خلية فارغة.|
 |[IS_NUMERIC](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_NUMERIC)|يحدد أن قيمة الخلية رقمية.|

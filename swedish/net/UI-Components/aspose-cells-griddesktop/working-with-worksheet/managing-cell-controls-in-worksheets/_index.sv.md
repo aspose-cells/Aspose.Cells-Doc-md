@@ -12,7 +12,7 @@ Det här ämnet diskuterar några viktiga koncept för att hantera cellkontrolle
 ## **Åtkomst till Cell kontroller**
  För att komma åt och ändra en befintlig cellkontroll i kalkylbladet kan utvecklare komma åt en specifik cellkontroll från**Kontroller** samling av**Arbetsblad** genom att ange cellen (med cellnamn eller dess plats i termer av rad- och kolumnnummer) där cellkontrollen visas. När en cellkontroll väl har nåtts kan utvecklare ändra dess egenskaper under körning. Till exempel, i exemplet nedan, har vi kommit åt en befintlig**Kryssruta** cellstyrning från**Arbetsblad** och ändrade dess kontrollerade egenskap.
 
-**VIKTIG:** **Kontroller** samling innehåller alla typer av cellkontroller i form av**CellControl** objekt. Så, om du behöver komma åt en specifik typ av cellkontroll, säg**Kryssruta** då måste du typcasta**CellControl** invända mot**Kryssruta** klass.
+**VIKTIG:** **Kontroller** samling innehåller alla typer av cellkontroller i form av**CellControl** föremål. Så, om du behöver komma åt en specifik typ av cellkontroll, säg**Kryssruta** då måste du typcasta**CellControl** protestera mot**Kryssruta** klass.
 
 
 

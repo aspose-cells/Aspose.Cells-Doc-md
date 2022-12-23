@@ -63,7 +63,7 @@ Die folgende Ausgabe wird generiert, wenn der folgende Code ausgeführt wird.
 
 - **Erste Reihe**, die erste Zeile des Bereichs.
 - **Erste Spalte**, die erste Spalte des Bereichs.
-- **Reihenanzahl**, die Anzahl der Zeilen im Bereich.
+- **Anzahl der Reihen**, die Anzahl der Zeilen im Bereich.
 - **Anzahl der Spalten**, die Anzahl der Spalten im Bereich.
 
  Das[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\) )-Methode gibt a zurück[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/Range) Objekt, das den angegebenen Bereich enthält. Das[Bereich](https://reference.aspose.com/cells/java/com.aspose.cells/Range) Objekt bietet a[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\))-Methode, die die folgenden Parameter akzeptiert:
@@ -140,7 +140,7 @@ Das[Muster setzen](https://reference.aspose.com/cells/java/com.aspose.cells/styl
 |[HORIZONTAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#HORIZONTAL_STRIPE)|Repräsentiert ein horizontales Streifenmuster|
 |[KEINER](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Stellt keinen Hintergrund dar|
 |[UMKEHREN_DIAGONALE_STREIFEN](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Stellt umgekehrtes diagonales Streifenmuster dar|
-|[FEST](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Stellt ein durchgehendes Muster dar|
+|[SOLIDE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Stellt ein durchgehendes Muster dar|
 |[DICK_DIAGONALE_Kreuzschlitz](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Stellt ein dickes diagonales Schraffurmuster dar|
 |[DÜNN_DIAGONALE_Kreuzschlitz](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Stellt ein dünnes diagonales Schraffurmuster dar|
 |[DÜNN_DIAGONALE_STREIFEN](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Stellt ein dünnes diagonales Streifenmuster dar|
@@ -176,7 +176,7 @@ Aspose.Cells unterstützt diese Funktion. In diesem Thema wird die Verwendung di
 ### **Ausgewählte Zeichen formatieren**
 Aspose.Cells bietet eine Klasse,[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), die eine Microsoft Excel-Datei darstellt. Das[Arbeitsmappe](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)Klasse enthält a[Arbeitsblattsammlung](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Klasse. Das[Arbeitsblatt](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Klasse bietet a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Sammlung. Jeder Artikel in der[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)Sammlung stellt ein Objekt der[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)Klasse.
 
-Das[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse bietet[Figuren](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\))-Methode, die die folgenden Parameter verwendet, um einen Bereich von Zeichen in einer Zelle auszuwählen:
+Das[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) Klasse bietet[Zeichen](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\))-Methode, die die folgenden Parameter verwendet, um einen Bereich von Zeichen in einer Zelle auszuwählen:
 
 - **Startindex**, der Index des Zeichens, ab dem die Auswahl beginnen soll.
 - **Anzahl von Charakteren**, die Anzahl der auszuwählenden Zeichen.
@@ -191,7 +191,7 @@ In der Ausgabedatei ist in der Zelle „A1“ das Wort „Besuch“ mit der Stan
 
 {{% alert color="primary" %}} 
 
- Wenn du interessiert bist[Formatieren eines Teils von Rich Text in einer Zelle](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) , erwägen Sie die Verwendung von[Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\) ) & Cell.setCharacters-Methoden. Das[Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\) ) Methode verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**erhalten**-Methode gibt ein Array von zurück[Schrifteinstellung](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) Objekte, die manipuliert werden können, um verschiedene Eigenschaften wie Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen und**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
+ Wenn du interessiert bist[Formatieren eines Teils von Rich Text in einer Zelle](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) , erwägen Sie die Verwendung von[Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\) ) & Cell.setCharacters-Methoden. Das[Cell.getCharacters](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getCharacters\(\) ) Methode verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**bekommen**-Methode gibt ein Array von zurück[Schrifteinstellung](https://reference.aspose.com/cells/java/com.aspose.cells/FontSetting) Objekte, die manipuliert werden können, um verschiedene Eigenschaften wie Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen und**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
 
 {{% /alert %}}
 

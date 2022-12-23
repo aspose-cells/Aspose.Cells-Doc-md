@@ -79,7 +79,7 @@ file.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Colonna adatta automaticamente** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Colonna adatta automaticamente** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.3/Auto.Fit.Columns.zip)
 

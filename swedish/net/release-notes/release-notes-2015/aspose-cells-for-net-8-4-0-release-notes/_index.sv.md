@@ -16,9 +16,9 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Nya egenskaper**
 
 
-(CELLSNET-43362) - Stöd för att ta bort en pivottabell från kalkylblad
+ (CELLSNET-43362) - Stöd för att ta bort en pivottabell från kalkylblad
 
- (CELLSNET-43279) - Innehållstypsegenskaper visas inte i XLS-format
+ (CELLSNET-43279) - Innehållstypsegenskaper visas inte i formatet XLS
 
  (CELLSNET-43276) - Workbook.ContentTypeProperties.Add(namn, värde, typ) behövs
 
@@ -32,7 +32,7 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43454) - Aspose.Pdf validerar inte utdata PDF/A-1B
 
- (CELLSNET-43452) - PDFA1B-kompatibilitet för utdata-PDF:n validerades inte
+ (CELLSNET-43452) - PDFA1B-kompatibilitet för utgången PDF validerades inte
 
  (CELLSNET-42646) - Workbook RefreshChartCache fungerar med regionala och språkinställningar
 
@@ -44,15 +44,15 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **Prestanda**
 
 
- (CELLSNET-43438) - Kalkylblad till HTML genererar en HTML-fil på 1 GB
+ (CELLSNET-43438) - Kalkylark till HTML genererar en 1GB HTML-fil
 
- (CELLSNET-43399) - Prestandaproblem med metoden CalculateFormula().
+(CELLSNET-43399) - Prestandaproblem med metoden CalculateFormula().
 
 
 ## **Buggar**
 
 
-(CELLSNET-43460) - Bakgrundsfärg: rgba(0, 0, 0, 0); gör bakgrundsfärgen svart
+ (CELLSNET-43460) - Bakgrundsfärg: rgba(0, 0, 0, 0); gör bakgrundsfärgen svart
 
  (CELLSNET-43403) - Första kolumnen försvinner när andra Pivot
 
@@ -68,19 +68,19 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43331) - Excel-filen blir skadad efter att ha skapat en pivottabell
 
- (CELLSNET-43328) - Placeringen av bilder är fel i utdata-PDF-filen
+ (CELLSNET-43328) - Placeringen av bilder är fel i utgången PDF
 
  (CELLSNET-43322) - Knappar dök upp i pivotdiagrammet när filen har sparats på nytt
 
  (CELLSNET-42919) - Felet "Excel hittades oläsligt..." efter uppdatering av pivotdata
 
- (CELLSNET-43451) - Justeringsproblem vid rendering av kalkylbladet till bild
+(CELLSNET-43451) - Justeringsproblem vid rendering av kalkylbladet till bild
 
-(CELLSNET-43414) - Gapet mellan huvudet och kroppen är annorlunda
+ (CELLSNET-43414) - Gapet mellan huvudet och kroppen är annorlunda
 
  (CELLSNET-43411) - Nyare version kunde inte acceptera mindre än 96 dpi
 
- (CELLSNET-43410) - Felaktigt mellanrum med varje miljö. NewLine i utdata-PDF
+ (CELLSNET-43410) - Felaktigt avstånd med varje miljö. NewLine i utgång PDF
 
  (CELLSNET-43348) - FitToPagesTall och FitToPagesWide attribut fungerar inte som förväntat
 
@@ -90,17 +90,17 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43375) - Diagramtitel renderades felaktigt vid konvertering av diagram till bild
 
- (CELLSNET-43352) - PDF-storleken fördubblas när den konverteras från XLSX
+ (CELLSNET-43352) - PDF storlek fördubblas när den konverteras från XLSX
 
  (CELLSNET-43351) - Problem med diagramförklaring vid konvertering av XLSX till PDF
 
- (CELLSNET-43350) - Problem med diagramaxel vid konvertering av XLSX till PDF
+ (CELLSNET-43350) - Problem med diagramaxeln vid konvertering av XLSX till PDF
 
- (CELLSNET-43349) - Grafiskt problem vid konvertering av XLSX till PDF
+(CELLSNET-43349) - Grafiskt problem vid konvertering av XLSX till PDF
 
  (CELLSNET-43347) - Charts Series Shadow kopierar inte när arbetsboken kopieras
 
-(CELLSNET-43339) - Diagram renderas inte korrekt i den utgående PDF-filen
+ (CELLSNET-43339) - Diagram renderas inte korrekt i utdata PDF
 
  (CELLSNET-42573) - Cirkeldiagrametiketter överlappar varandra
 
@@ -122,11 +122,11 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43432) - Smart Markers slutar slå samman data efter X antal rader
 
- (CELLSNET-43426) - Att kombinera arbetsblad bryter apostrof
+(CELLSNET-43426) - Att kombinera arbetsblad bryter apostrof
 
  (CELLSNET-43424) - Uppslagsformeln har inte beräknats korrekt
 
-(CELLSNET-43423) - PageSetup.IsHFAlignMargins blir automatiskt sanna i utdata Excel-filen
+ (CELLSNET-43423) - PageSetup.IsHFAlignMargins blir automatiskt sanna i utdata Excel-filen
 
  (CELLSNET-43419) - Hyperlänkar utan subadresser går förlorade
 
@@ -146,9 +146,9 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43338) - Att infoga kolumner i en tabell orsakar den oläsbara varningen
 
- (CELLSNET-43336) - Problem med att rendera villkorlig formatering - Excel till HTML
+(CELLSNET-43336) - Problem med rendering av villkorlig formatering - Excel till HTML
 
-(CELLSNET-43335) - Problem med rendering av villkorlig formatering - Excel till PDF
+ (CELLSNET-43335) - Problem med rendering av villkorlig formatering - Excel till PDF
 
  (CELLSNET-43333) - Insert Rows-parametern fungerar inte bra i metoden Cells.ImportDataReader()
 
@@ -168,21 +168,21 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43320) - Null referensundantag när du sparar som html
 
- (CELLSNET-43314) - Undantag uppstod när en XLS-fil öppnades
+ (CELLSNET-43314) - Undantag kastas när en XLS-fil öppnas
 
  (CELLSNET-43312) - Index var utanför intervallundantaget vid uppdatering av pivottabellen
 
  (CELLSNET-43393) - Index out of bound undantag på Cell.PutValue
 
- (CELLSNET-43427) - System.OverflowException vid öppning av Excel-filen
+(CELLSNET-43427) - System.OverflowException vid öppning av Excel-filen
 
-(CELLSNET-43356) - Formatfel uppstår när regional inställning är inställd på franska
+ (CELLSNET-43356) - Formatfel uppstår när regional inställning är inställd på franska
 
  (CELLSNET-43353) - System.NullReferenceException på Workbook.Combine
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -230,7 +230,7 @@ url: /sv/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-Lägger till metoden PivotTable.ShowInTabularForm().
+ Lägger till metoden PivotTable.ShowInTabularForm().
 
  Layouter pivottabellen i tabellform.
 
@@ -248,7 +248,7 @@ Lägger till metoden PivotTable.ShowInTabularForm().
 
 
 
- Lägger till klasserna Aspose.Cells.Vba namespace, VbaPorject, VbaModuleCollection och VbaModule.
+Lägger till klasserna Aspose.Cells.Vba namespace, VbaPorject, VbaModuleCollection och VbaModule.
 
  De används för att läsa och ändra VBA-projektet i filen.
 
@@ -256,13 +256,13 @@ Lägger till metoden PivotTable.ShowInTabularForm().
 
  Lägger till egenskapen Border.ThemeColor.
 
- Hämtar och ställer in gränsens temafärg.
+Hämtar och ställer in gränsens temafärg.
 
 
 
  Lägger till klassen TxtLoadStyleStrategy och egenskapen TxtLoadOptions.LoadStyleStrategy.
 
-Indikerar strategin för att tillämpa stil för analyserade värden vid konvertering av strängvärde till nummer eller datum och tid.
+ Indikerar strategin för att tillämpa stil för analyserade värden vid konvertering av strängvärde till nummer eller datum och tid.
 
 
 

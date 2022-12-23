@@ -16,7 +16,7 @@ La validation des données est la possibilité de définir des règles relatives
 
 Microsoft Excel prend en charge un certain nombre de différents types de validation de données. Chaque type est utilisé pour contrôler le type de données saisies dans une cellule ou une plage de cellules. Ci-dessous, des extraits de code illustrent comment valider cela :
 
-- Les nombres sont entiers, c'est-à-dire qu'ils n'ont pas de partie décimale.
+- Numbers sont entiers, c'est-à-dire qu'ils n'ont pas de partie décimale.
 - Les nombres décimaux suivent la bonne structure. L'exemple de code définit qu'une plage de cellules doit avoir deux espaces décimaux.
 - Les valeurs sont limitées à une liste de valeurs. La validation de liste définit une liste distincte de valeurs qui peuvent être appliquées à une cellule ou à une plage de cellules.
 - Les dates se situent dans une plage spécifique.
@@ -45,14 +45,14 @@ La validation des données est une fonctionnalité puissante pour valider les in
 
 #### **Types de validation des données**
 
- La[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)énumération a les membres suivants :
+ Le[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)énumération a les membres suivants :
 
-|**Nom de membre**|**La description**|
+|**Nom de membre**|**Description**|
 |:- |:- |
 |De n'importe quelle valeur|Indique une valeur de n'importe quel type.|
 |Nombre entier|Indique le type de validation pour les nombres entiers.|
 |Décimal|Indique le type de validation pour les nombres décimaux.|
-|Liste|Indique le type de validation pour la liste déroulante.|
+|Lister|Indique le type de validation pour la liste déroulante.|
 |Date|Indique le type de validation des dates.|
 |Temps|Indique le type de validation pour le temps.|
 |Longueur du texte|Indique le type de validation pour la longueur du texte.|
@@ -108,7 +108,7 @@ Lorsque les validations de données sont mises en œuvre, la validation peut êt
 
 ## **Ajouter CellArea à la validation existante**
 
- Il peut y avoir des cas où vous voudrez peut-être ajouter[**ZoneCellule**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)à l'existant[**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation). Lorsque vous ajoutez[**ZoneCellule**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) utilisant[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells vérifie toutes les zones existantes pour voir si la nouvelle zone existe déjà. Si le fichier a un grand nombre de validations, cela affecte les performances. Pour surmonter cela, le API fournit le[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) méthode. La*checkIntersection* Le paramètre indique s'il faut vérifier l'intersection d'une zone donnée avec des zones de validation existantes. Le mettre à**faux** désactivera la vérification des autres zones. La*checkEdge* Le paramètre indique s'il faut vérifier les zones appliquées. Si la nouvelle zone devient la zone supérieure gauche, les paramètres internes sont reconstruits. Si vous êtes sûr que la nouvelle zone n'est pas la zone en haut à gauche, vous pouvez définir ce paramètre comme**faux**.
+ Il peut y avoir des cas où vous voudrez peut-être ajouter[**ZoneCellule**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)à l'existant[**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation). Lorsque vous ajoutez[**ZoneCellule**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) en utilisant[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells vérifie toutes les zones existantes pour voir si la nouvelle zone existe déjà. Si le fichier a un grand nombre de validations, cela affecte les performances. Pour surmonter cela, le API fournit le[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) méthode. Le*checkIntersection* Le paramètre indique s'il faut vérifier l'intersection d'une zone donnée avec des zones de validation existantes. Le mettre à**faux** désactivera la vérification des autres zones. Le*checkEdge* Le paramètre indique s'il faut vérifier les zones appliquées. Si la nouvelle zone devient la zone supérieure gauche, les paramètres internes sont reconstruits. Si vous êtes sûr que la nouvelle zone n'est pas la zone en haut à gauche, vous pouvez définir ce paramètre comme**faux**.
 
 L'extrait de code suivant illustre l'utilisation de[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) méthode pour ajouter de nouveaux[**ZoneCellule**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)à l'existant[**Validation**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 

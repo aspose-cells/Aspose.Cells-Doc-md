@@ -50,13 +50,13 @@ url: /fr/net/binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer/
 
 1.  Clique le**Fournisseur** languette.
 1.  Sélectionner**Microsoft Fournisseur OLE DB Jet 4.0** du**Fournisseur(s) OLE DB** liste.
-1.  Cliquez sur**Prochain**.
+1.  Cliquez sur**Suivant**.
    **Cliquer sur Suivant après avoir sélectionné un fournisseur OLE DB** 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_6.png)
 
 
- La**Lien** la page à onglet est ouverte.
+ Le**Lien** la page à onglet est ouverte.
 
 1.  Sélectionnez le fichier de base de données Access Microsoft (dans notre cas, db.mdb) et cliquez sur**D'ACCORD**.
    **Cliquer sur le bouton OK après avoir sélectionné le fichier de base de données** 
@@ -140,10 +140,10 @@ Un objet dataSet11 est ajouté au concepteur.
 
 La boîte de dialogue contient plusieurs propriétés qui peuvent être configurées pour lier Sheet1 à n'importe quelle table de la base de données.
 
-1.  Sélectionnez le**La source de données** propriété.
+1.  Sélectionnez le**La source de données** la propriété.
  L'objet dataSet11 généré à l'étape précédente est répertorié dans le menu.
 1. Sélectionnez dataSet11.
-1.  Clique le**Membre de données** propriété.
+1.  Clique le**Membre de données** la propriété.
  Le concepteur de feuilles de calcul affiche automatiquement une liste de tables dans dataSet11. Il n'y a qu'une seule table, Produits.
 1. Sélectionnez la table Produits.
    **Définition des propriétés DataSource et DataMember** 
@@ -153,7 +153,7 @@ La boîte de dialogue contient plusieurs propriétés qui peuvent être configur
 
 
 
-1.  Vérifier la**LierColonnes** propriété.
+1.  Vérifier la**LierColonnes** la propriété.
    **Cliquer sur la propriété BindColumns** 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_17.png)
@@ -283,7 +283,7 @@ End Sub
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_21.png)
 ### **Étape 8 : Exécution de l'application**
- Compilez et lancez l'application : soit appuyez sur**Ctrl+F5** ou cliquez**Commencer**. 
+ Compilez et lancez l'application : soit appuyez sur**Ctrl+F5** ou cliquez**Démarrer**. 
 **Lancer l'application** 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_22.png)
@@ -315,7 +315,7 @@ La ligne serait supprimée instantanément.
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_26.png)
 ### **Modification des lignes**
-Modifiez les données dans les cellules ou les lignes, puis cliquez sur**sauvegarder** ou**Soumettre** pour enregistrer les modifications.
+Modifiez les données dans les cellules ou les lignes, puis cliquez sur**Sauver** ou alors**Nous faire parvenir** pour enregistrer les modifications.
 ### **Ajout de lignes**
 1.  Pour ajouter une ligne, cliquez avec le bouton droit sur une cellule et sélectionnez**Ajouter une rangée**.
    **Sélection de l'option Ajouter une ligne dans le menu** 
@@ -334,7 +334,7 @@ Une nouvelle ligne est ajoutée à la feuille à la fin des autres lignes.
  À gauche de la nouvelle ligne se trouve un astérisque{{< emoticons/cross >}} , indiquant que la ligne est nouvelle.
 
 1. Ajoutez des valeurs à la nouvelle ligne.
-1.  Cliquez sur**sauvegarder** ou**Soumettre** pour confirmer le changement.
+1.  Cliquez sur**Sauver** ou alors**Nous faire parvenir** pour confirmer le changement.
    **Enregistrement des modifications apportées aux données en cliquant sur * Enregistrer** bouton*
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_29.png)
@@ -343,8 +343,8 @@ Une nouvelle ligne est ajoutée à la feuille à la fin des autres lignes.
 
 1. Revenez à Visual Studio.NET.
 1. Ouvrez l'éditeur de collections BindColumn.
- La**NuméroType** propriété de la**Prix du produit** la colonne est définie sur**Général**.
-   **La propriété NumberType définie sur Général** 
+ Le**NuméroType** propriété de la**Prix du produit** la colonne est définie sur**Général**.
+   **La propriété NumberType définie sur General** 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_30.png)
 
@@ -457,7 +457,7 @@ Vous pouvez également vérifier le code ajouté au gestionnaire d'événements 
 
 ![tâche : image_autre_texte](binding-worksheet-to-a-dataset-using-gridwebs-worksheets-designer_34.png)
 
- Enregistrez les modifications dans la base de données à l'aide de la**sauvegarder** maintenant les enregistre définitivement.
+ Enregistrez les modifications dans la base de données à l'aide de la**Sauver** maintenant les enregistre définitivement.
 ## **Conclusion**
 {{% alert color="primary" %}} 
 

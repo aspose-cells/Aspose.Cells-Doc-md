@@ -10,7 +10,7 @@ Il est possible d'ajouter une variété de graphiques aux feuilles de calcul ave
 
 ### **Créer simplement un graphique**
 
-Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
+Il est simple de créer un graphique avec Aspose.Cells avec les exemples de codes suivants :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-Java-Charts-ManipulateChart-HowToCreateColumnChart-1.java" >}}
 
@@ -33,9 +33,9 @@ Avant de créer des graphiques, il est important de comprendre certains concepts
 - [**Collection de graphiques**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , une collection de[**Graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objets.
 -  DataLabels, DataLabels pour le spécifié[**Série**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Point de graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Ligne de tendance**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
 - [**RemplirFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), format de remplissage pour une forme.
-- [**Sol**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), le plancher d'un graphique 3D.
+- [**Étage**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), le plancher d'un graphique 3D.
 - [**Légende**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), la légende du graphique.
-- [**Ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), la ligne du graphique.
+- [**La ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), la ligne du graphique.
 - [**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , une collection de[**Série**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)objets.
 - [**Série**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), représente une seule série de données dans un graphique.
 - [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), les étiquettes de graduation associées aux graduations sur un axe du graphique.
@@ -48,13 +48,13 @@ Avant de créer des graphiques, il est important de comprendre certains concepts
 
 Comme mentionné ci-dessus, tous les objets graphiques sont des instances de leurs classes respectives et fournissent des propriétés et des méthodes spécifiques pour effectuer des tâches spécifiques. Utilisez des objets graphiques pour créer des graphiques.
 
-Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de la[**Collection de graphiques**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) le recueil. Chaque élément de la[**Collection de graphiques**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) la collection représente un[**Graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objet. UN[**Graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)L'objet encapsule tous les objets graphiques nécessaires pour personnaliser l'apparence du graphique. La section suivante montre comment utiliser quelques objets graphiques de base pour créer un graphique simple.
+Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de la[**Collection de graphiques**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) le recueil. Chaque élément de la[**Collection de graphiques**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) la collection représente un[**Graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objet. UNE[**Graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)L'objet encapsule tous les objets graphiques nécessaires pour personnaliser l'apparence du graphique. La section suivante montre comment utiliser quelques objets graphiques de base pour créer un graphique simple.
 
 ### **Création d'un graphique simple**
 
  Il est possible de créer de nombreux types de graphiques différents avec Aspose.Cells. Tous les graphiques standard pris en charge par Aspose.Cells sont prédéfinis dans une énumération nommée[**Type de graphique**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType). Les types de graphiques prédéfinis sont :
 
-|**Types de graphiques**|**La description**|
+|**Types de graphiques**|**Description**|
 |:- |:- |
 |Colonne|Représente l'histogramme groupé|
 |Colonneempilée|Représente un graphique à colonnes empilées|
@@ -69,7 +69,7 @@ Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de l
 |Bar3DCluster|Représente un graphique à barres groupées 3D|
 |Bar3DStacked|Représente un graphique à barres empilées 3D|
 |Barre3D100Pourcentage empilé|Représente un graphique à barres empilées 3D à 100 %|
-|Ligne|Représente le graphique en courbes|
+|La ligne|Représente le graphique en courbes|
 |Ligneempilée|Représente un graphique en courbes empilées|
 |Line100PercentStacked|Représente un graphique linéaire empilé à 100 %|
 |LineWithDataMarkers|Représente le graphique linéaire avec des marqueurs de données|
@@ -87,7 +87,7 @@ Ajoutez n'importe quel type de graphique à une feuille de calcul à l'aide de l
 |ScatterConnectedByCurvesWithoutDataMarker|Représente le diagramme de dispersion relié par des courbes, sans marqueurs de données|
 |ScatterConnectedByLinesWithDataMarker|Représente le diagramme de dispersion relié par des lignes, avec des marqueurs de données|
 |ScatterConnectedByLinesWithoutDataMarker|Représente le diagramme de dispersion connecté par des lignes, sans marqueurs de données|
-|Zone|Représente le graphique en aires|
+|Surface|Représente le graphique en aires|
 |Zoneempilée|Représente un graphique en aires empilées|
 |Area100PercentStacked|Représente un graphique en aires empilées à 100 %|
 |Zone3D|Représente le graphique en aires 3D|

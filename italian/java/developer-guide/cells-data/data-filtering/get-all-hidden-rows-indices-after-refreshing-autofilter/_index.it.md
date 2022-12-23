@@ -12,7 +12,7 @@ Quando applichi un filtro automatico alle celle del foglio di lavoro, alcune rig
 
 Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716913.xlsx)che contiene alcune delle righe nascoste manualmente dall'utente finale di Excel. Il codice applica il filtro automatico e lo aggiorna utilizzando int[][**AutoFilter.refresh(bool hideRows)**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#refresh(boolean)) che restituisce gli indici di riga di tutte le righe nascoste dal filtro automatico. Quindi stampa gli indici delle righe nascoste sulla console insieme ai nomi e ai valori delle celle.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.java" >}}
 

@@ -14,7 +14,7 @@ Este tema proporciona una guía básica paso a paso para principiantes para ayud
 Primero, cree un proyecto de aplicación web en el que usar el control Aspose.Cells.GridWeb:
 
 1. Abra Visual Studio.
-1.  Desde el**Expediente** menú, seleccione**Nuevo** seguido por**Proyecto**. 
+1.  Desde el**Archivo** menú, seleccione**Nuevo** seguido por**Proyecto**. 
 
 ![todo:imagen_alternativa_texto](add-gridweb-to-web-form_1.png)
 
@@ -89,7 +89,7 @@ La ruta siempre está relacionada con el directorio del proyecto. No debe usar n
 
 {{% /alert %}}
 ### **Paso 5: Ejecución de la aplicación web**
- Ejecute la aplicación presionando Ctrl+F5 o haciendo clic en el**comienzo** botón.
+ Ejecute la aplicación presionando Ctrl+F5 o haciendo clic en el**Comenzar** botón.
 
  Cuando la aplicación se ejecuta en un navegador, se muestra la página WebForm1.aspx, que ahora contiene un control Aspose.Cells.GridWeb vacío. Agregue valores a las celdas haciendo clic en ellas. También es posible realizar otras tareas como cambiar la altura de una fila o el ancho de una columna, copiar (Ctrl+C) o cortar (Ctrl+X) datos de celdas en el portapapeles y pegar (Ctrl+V) datos en celdas. . Para realizar más operaciones, haga clic derecho en el control para ver la lista completa de opciones.
 

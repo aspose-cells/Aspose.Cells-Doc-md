@@ -11,11 +11,11 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-9-0/
 {{% /alert %}} 
 ## **追加された API**
 ### **HtmlSaveOptions.DefaultFontName プロパティを追加**
-Aspose.Cells for Java 8.9.0 では、HtmlSaveOptions クラスの DefaultFontName プロパティが公開され、スプレッドシートを HTML 形式にレンダリングする際にデフォルトのフォント名を指定できるようになりました。デフォルトのフォントは、スタイルのフォントが存在しない場合にのみ使用されます。 HtmlSaveOptions.DefaultFontName プロパティのデフォルト値は null です。つまり、Aspose.Cells for Java API は、元のフォントと同じファミリを持つユニバーサル フォントを使用します。
+Aspose.Cells for Java 8.9.0 では、HtmlSaveOptions クラスの DefaultFontName プロパティが公開され、スプレッドシートを HTML 形式でレンダリングする際にデフォルトのフォント名を指定できるようになりました。デフォルトのフォントは、スタイルのフォントが存在しない場合にのみ使用されます。 HtmlSaveOptions.DefaultFontName プロパティのデフォルト値は null です。つまり、Aspose.Cells for Java API は、元のフォントと同じファミリを持つユニバーサル フォントを使用します。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の記事を参照してください。[スプレッドシートを HTML 形式にレンダリングするためのデフォルト フォントの設定](/cells/ja/java/set-default-font-while-rendering-spreadsheet-to/).
+この機能の詳細については、次の記事を参照してください。[スプレッドシートをレンダリングするためのデフォルト フォントを HTML 形式に設定する](/cells/ja/java/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

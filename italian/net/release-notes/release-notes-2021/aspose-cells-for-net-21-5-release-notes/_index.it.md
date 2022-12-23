@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-5-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47964| Supporta il report Slicer vincolante con tabella pivot e grafico pivot|Nuova caratteristica|
 |CELLSNET-48003|Supporta l'importazione di html gratuito con immagine svg|Nuova caratteristica|
@@ -25,7 +25,7 @@ url: /it/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|La nuova cartella di lavoro si blocca su un file non valido|Prestazione|
 |CELLSNET-48012|Migliora le prestazioni per la lettura di file .ods con un'ampia gamma di convalide.|Prestazione|
 |CELLSNET-48039|Ciclo infinito durante il salvataggio della cartella di lavoro copiata|Prestazione|
-|CELLSNET-44224|La filigrana WordArt non viene visualizzata nel formato di file PDF di output|Insetto|
+|CELLSNET-44224|La filigrana WordArt non viene visualizzata nel formato file di output PDF|Insetto|
 |CELLSNET-47887|Il testo all'interno della forma è fuori posto|Insetto|
 |CELLSNET-47920|Alcuni contenuti mancano nella conversione da HTML a Excel|Insetto|
 |CELLSNET-47981|Il risultato dell'esportazione dell'intervallo con celle unite in html non è corretto|Insetto|
@@ -40,29 +40,29 @@ url: /it/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-48031|"Errore da forma a immagine" viene generato durante la conversione di file xlsx in html|Insetto|
 |CELLSNET-48037|L'immagine è distorta durante il salvataggio in PDF|Insetto|
 |CELLSNET-47714|Il testo sull'asse verticale si sovrappone all'asse orizzontale sul grafico durante la conversione in EMF|Insetto|
-|CELLSNET-47856|Problema di conversione da XLSX a PDF con tabelle pivot|Insetto|
+|CELLSNET-47856|Problema di conversione da XLSX a PDF con le tabelle pivot|Insetto|
 |CELLSNET-47986|Da grafico a immagine/PDF - output errato con tipo di grafico a cascata|Insetto|
-|CELLSNET-48010|Eccezione durante il caricamento di file XLSX di Excel 2010|Insetto|
+|CELLSNET-48010|Eccezione durante il caricamento di un file Excel 2010 XLSX|Insetto|
 |CELLSNET-48020|I controlli del modulo vengono eliminati dopo Carica e salva Excel 95 tramite Aspose.Cells|Insetto|
 |CELLSNET-48033|File Excel danneggiato dopo il caricamento e il salvataggio|Insetto|
-|CELLSNET-47957| "Errore da forma a immagine" viene generato durante la conversione di un file Excel in formato file PDF|Eccezione|
+|CELLSNET-47957| "Errore da forma a immagine" viene generato durante la conversione di un file Excel nel formato file PDF|Eccezione|
 |CELLSNET-48027|Eccezione di parametro non valido durante la conversione della forma in immagine|Eccezione|
 |CELLSNET-48029|"Errore da forma a immagine" aumenta|Eccezione|
 |CELLSNET-48017|Eccezione "La stringa di input non era in un formato corretto" durante l'importazione del file html|Eccezione|
 |CELLSNET-48034|Dimensione carattere non valida nel file Mht.|Eccezione|
 |CELLSNET-47977|Eccezione durante l'analisi della formula '[96]Foglio costi'!$D$6|Eccezione|
 |CELLSNET-47979|Eccezione riferimento oggetto nel metodo Save|Eccezione|
-|CELLSNET-48040|L'eccezione viene sollevata durante la conversione di XLSB in XLSX|Eccezione|
+|CELLSNET-48040|L'eccezione viene sollevata durante la conversione da XLSB a XLSX|Eccezione|
 |CELLSNET-47980|Si è verificato un errore durante il salvataggio di un file Excel tramite Aspose.Cells|Eccezione|
 |CELLSNET-48001|Eccezione indice di riga non valida durante la chiamata a GetPrintingPageBreaks()|Eccezione|
 |CELLSNET-48022|Border.LineType imprevisto di una cella|Eccezione|
-|CELLSNET-48032|Eccezione quando si apre il file ODS del documento|Eccezione|
+|CELLSNET-48032|Eccezione quando si apre il documento ODS file|Eccezione|
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Slicer.AddPivotConnection(PivotTable pivot).**
 
@@ -148,17 +148,17 @@ Utilizzare invece l'enumerazione DynamicFilterType.Feburay.
  
 Usare invece l'enumerazione FileFormatType.Bmp.
 
-### **Rende obsoleta l'enumerazione FileFormatType.CSV e aggiunge l'enumerazione FileFormatType.Csv.**
+### **Rende obsoleto FileFormatType.CSV enum e aggiunge FileFormatType.Csv enum.**
 
  
  Usare invece l'enumerazione FileFormatType.Csv.
 
-### **Rende obsoleta l'enumerazione FileFormatType.TSV e aggiunge l'enumerazione FileFormatType.Tsv.**
+### **Rende obsoleto FileFormatType.TSV enum e aggiunge FileFormatType.Tsv enum.**
 
  
  Usare invece l'enumerazione FileFormatType.Tsv.
 
-### **Rende obsoleta l'enumerazione FileFormatType.FODS e aggiunge l'enumerazione FileFormatType.Fods.**
+### **Rende obsoleto FileFormatType.FODS enum e aggiunge FileFormatType.Fods enum.**
 
  Usare invece l'enumerazione FileFormatType.Fods.
 
@@ -218,7 +218,7 @@ Usare invece l'enumerazione FileFormatType.MsEquation.
  
  Usare invece l'enumerazione FileFormatType.Sxc.
 
-### **Rende obsoleta l'enumerazione FileFormatType.TIFF e aggiunge l'enumerazione FileFormatType.Tiff.**
+### **Rende obsoleto FileFormatType.TIFF enum e aggiunge FileFormatType.Tiff enum.**
 
  
  Usare invece l'enumerazione FileFormatType.Tiff.
@@ -247,32 +247,32 @@ Usare invece l'enumerazione FileFormatType.MsEquation.
 ### **Rende obsoleta l'enumerazione FileFormatType.Excel2003XML e aggiunge l'enumerazione FileFormatType.SpreadsheetML.**
 
  
- Usare invece l'enumerazione FileFormatType.SpreadsheetML.
+ Usare invece FileFormatType.SpreadsheetML enum.
 
-### **Rende obsoleta l'enumerazione SaveFormat.XPS e aggiunge l'enumerazione SaveFormat.Xps.**
+### **Rende obsoleto SaveFormat.XPS enum e aggiunge SaveFormat.Xps enum.**
 
  
  Usare invece l'enumerazione SaveFormat.Xps.
 
-### **Rende obsoleta l'enumerazione SaveFormat.TSV e aggiunge l'enumerazione SaveFormat.Tsv.**
+### **Rende obsoleto SaveFormat.TSV enum e aggiunge SaveFormat.Tsv enum.**
 
  Usa invece SaveFormat.Tsv enum.
 
-### **Rende obsoleta l'enumerazione SaveFormat.TIFF e aggiunge l'enumerazione SaveFormat.Tiff.**
+### **Rende obsoleto SaveFormat.TIFF enum e aggiunge SaveFormat.Tiff enum.**
 
  
 Usare invece l'enumerazione SaveFormat.Tiff.
 
-### **Rende obsoleta l'enumerazione SaveFormat.SXC e aggiunge l'enumerazione SaveFormat.Sxc.**
+### **Rende obsoleto SaveFormat.SXC enum e aggiunge SaveFormat.Sxc enum.**
 
 Usare invece l'enumerazione SaveFormat.Sxc.
 
-### **Rende obsoleta l'enumerazione SaveFormat.SVG e aggiunge l'enumerazione SaveFormat.Svg.**
+### **Rende obsoleto SaveFormat.SVG enum e aggiunge SaveFormat.Svg enum.**
 
  
 Usa invece SaveFormat.Svg enum.
 
-### **Rende obsoleta l'enumerazione SaveFormat.ODS e aggiunge l'enumerazione SaveFormat.Ods.**
+### **Rende obsoleto SaveFormat.ODS enum e aggiunge SaveFormat.Ods enum.**
 
  
  Usare invece l'enumerazione SaveFormat.Ods.
@@ -282,31 +282,31 @@ Usa invece SaveFormat.Svg enum.
  
  Usare invece l'enumerazione SaveFormat.Fods.
 
-### **Rende obsoleta l'enumerazione SaveFormat.CSV e aggiunge l'enumerazione SaveFormat.Csv.**
+### **Rende obsoleto SaveFormat.CSV enum e aggiunge SaveFormat.Csv enum.**
 
  
  Usare invece SaveFormat.Csv enum.
 
-### **Rende obsoleta l'enumerazione LoadFormat.CSV e aggiunge l'enumerazione LoadFormat.Csv.**
+### **Rende obsoleto LoadFormat.CSV enum e aggiunge LoadFormat.Csv enum.**
 
  
  Usare invece l'enumerazione LoadFormat.Csv.
 
-### **Rende obsoleta l'enumerazione LoadFormat.TSV e aggiunge l'enumerazione LoadFormat.Tsv.**
+### **Rende obsoleto LoadFormat.TSV enum e aggiunge LoadFormat.Tsv enum.**
 
  
-Usare invece l'enumerazione LoadFormat.Tsv.
+ Usare invece l'enumerazione LoadFormat.Tsv.
 
-### **Rende obsoleta l'enumerazione LoadFormat.ODS e aggiunge l'enumerazione LoadFormat.Ods.**
+### **Rende obsoleto LoadFormat.ODS enum e aggiunge LoadFormat.Ods enum.**
 
  Usare invece l'enumerazione LoadFormat.Ods.
 
-### **Rende obsoleta l'enumerazione LoadFormat.SXC e aggiunge l'enumerazione LoadFormat.Sxc.**
+### **Rende obsoleto LoadFormat.SXC enum e aggiunge LoadFormat.Sxc enum.**
 
  
  Usare invece l'enumerazione LoadFormat.Sxc.
 
-### **Rende obsoleta l'enumerazione LoadFormat.FODS e aggiunge l'enumerazione LoadFormat.Fods.**
+### **Rende obsoleto LoadFormat.FODS enum e aggiunge LoadFormat.Fods enum.**
 
  
  Usare invece l'enumerazione LoadFormat.Fods.

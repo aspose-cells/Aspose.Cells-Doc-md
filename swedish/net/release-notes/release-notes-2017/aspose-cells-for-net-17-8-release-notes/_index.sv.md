@@ -20,28 +20,28 @@ url: /sv/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45517 |Lägg till stöd för Share xlsx-fil|Förbättring|
 |CELLSNET-45554 |Synkronisera eller uppdatera kommentaren på klientsidan efter Cell Kommentaren har uppdaterats på serversidan|Förbättring|
 |CELLSNET-45530 |MS Excel förbrukar mer minne (ca 2 GB) för att öppna utdatafilen|Prestanda|
-|CELLSNET-45531 |Positionen för formtexten är fel i utdata-PDF - Excel till PDF-konvertering|Insekt|
+|CELLSNET-45531 |Positionen för formtexten är fel i utdata PDF - Excel till PDF konvertering|Insekt|
 |CELLSNET-45507 |Diagram inte korrekt återgivna i Output Pdf|Insekt|
 |CELLSNET-45477 |Problem med att rendera former i omvandling av ark till bild|Insekt|
-|CELLSNET-45473 |Problem med textjustering när du sparar en XLS-fil som HTML av Aspose.Cells API:er|Insekt|
+|CELLSNET-45473 |Textjusteringsproblem när du sparar en XLS-fil som HTML av Aspose.Cells API:er|Insekt|
 |CELLSNET-45536 |Text klipps ut när Excel-ark renderas till bild|Insekt|
 |CELLSNET-45524 |Redundant linje uppträdde vid rendering av former i omvandling av ark till bild|Insekt|
 |CELLSNET-45522 |Cells till PDF - sidfoten radbryts inte när sidfoten innehåller|Insekt|
 |CELLSNET-45512 |Aspose.Cells skapar en massiv EMF-fil vid rendering av ark till bildfil|Insekt|
 |CELLSNET-45508 |Data trunkeras även efter autopassningsrader|Insekt|
 |CELLSNET-45495 |Lägg till digitala signaturer till redan signerade dokument|Insekt|
-|CELLSNET-45553 |Diagram i resulterande PDF har oväntade värden|Insekt|
-|CELLSNET-45551 |Bilden blir svart när den renderas till PDF-filformat|Insekt|
-|CELLSNET-45547 |Sparklines är inte jämnare i den utgående EMF-bilden|Insekt|
+|CELLSNET-45553 |Diagram i resulterade PDF har oväntade värden|Insekt|
+|CELLSNET-45551 |Bilden blir svart när den renderas till filformatet PDF|Insekt|
+|CELLSNET-45547 |Sparklines är inte jämnare i utdata EMF-bilden|Insekt|
 |CELLSNET-45514 |ErrorBar caps renderas inte korrekt|Insekt|
 |CELLSNET-45398 |Sekundäraxeltitel i diagram renderades felaktigt|Insekt|
 |CELLSNET-45570 |Excel-filen är korrupt på grund av datavalideringsintervall efter att ha öppnats och åter sparats via Aspose.Cells API:er|Insekt|
 |CELLSNET-45560 |Felmeddelande visas i Microsoft Excel efter anrop av metoden RemoveMacro().|Insekt|
 |CELLSNET-45555 |Cells.GroupRows isHidden-attributet visas felaktigt med kapslade grupper|Insekt|
 |CELLSNET-45552 |Länkade bilder dupliceras i diagrammet när du öppnar och sparar en XLSX-fil|Insekt|
-|CELLSNET-45549 |Utdata XLS-fil är korrupt när du öppnar och sparar Source Xls-filen|Insekt|
-|CELLSNET-45548 |SpreadsheetML AllowFilter-elementet fungerar inte i utdata XLSX|Insekt|
-|CELLSNET-45546 |Saknade celldata när ODS-fil öppnas och sparas|Insekt|
+|CELLSNET-45549 |Utdatafilen XLS är korrupt när källfilen Xls öppnas och sparas|Insekt|
+|CELLSNET-45548 |SpreadsheetML AllowFilter-elementet fungerar inte i utgången XLSX|Insekt|
+|CELLSNET-45546 |Celldata saknas när ODS-filen öppnas och sparas|Insekt|
 |CELLSNET-45544 |När intervallet flyttas hänvisar formeln bara till den första cellen i intervallet|Insekt|
 |CELLSNET-45543 |Om du flyttar villkorligt formaterade celler tas formateringen bort|Insekt|
 |CELLSNET-45541 |H7 i space.xlsx - mellanslag visas inte|Insekt|
@@ -51,7 +51,7 @@ url: /sv/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45529 |ListObject.Resize ändrar format och ställer in filter|Insekt|
 |CELLSNET-45520 |Kommentarsfält är inte korrekt öppnade från SpreadsheetML|Insekt|
 |CELLSNET-45518 |Datavalidering i den utgående Excel-filen fungerar inte|Insekt|
-|CELLSNET-45509 |Inbäddade objekt/bilder renderas inte i Excel till PDF-konvertering|Insekt|
+|CELLSNET-45509 |Inbäddade objekt/bilder renderas inte i Excel till PDF konvertering|Insekt|
 |CELLSNET-45505 |Vissa former förskjuts i XLS-filen när bilder extraheras och infogas igen|Insekt|
 |CELLSNET-45504 |Ledande citattecken saknas i xlsx-filen|Insekt|
 |CELLSNET-45502 |Duplicering av arbetsbok genererar skadad fil för Excel 2016/2007|Insekt|
@@ -79,7 +79,7 @@ Indikerar om en tom sida ska matas ut när det inte finns något att skriva ut.
 Skapar ett kommentarsobjekt för en cell.
 ## **Lägger till metoden GridCell.RemoveComment**
 Tar bort kommentarobjektet från cellen.
-## **Lägger till GridCell.GetComment-metoden**
+## **Lägger till metoden GridCell.GetComment**
 Hämtar kommentarobjekt på denna cell.
 ## **Lägger till egenskapen GridDesktop.DefaultCellFont**
 Hämtar eller ställer in standardteckensnittet för cellen.

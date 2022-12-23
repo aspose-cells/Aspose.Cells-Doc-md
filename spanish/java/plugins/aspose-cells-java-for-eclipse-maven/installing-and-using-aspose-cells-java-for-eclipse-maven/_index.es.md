@@ -8,7 +8,7 @@ url: /es/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 **Aspose.Cells Java para eclipse (Maven)** El complemento se puede instalar fácilmente desde Disponible**Enchufar** pestaña en el cuadro de diálogo Complemento.
 
-- Para abrirlo, seleccione**Complementos**desde el**Instrumentos** menú en Eclipse.
+- Para abrirlo, seleccione**Complementos**desde el**Herramientas** menú en Eclipse.
 
 ![todo:imagen_alternativa_texto](installing-and-using-aspose-cells-java-for-eclipse-maven_1)
 
@@ -24,7 +24,7 @@ url: /es/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 1. Seleccione**Nuevo -> Proyecto**.
 1. Seleccione**Aspose.Cells Maven Proyecto**en el**Maven**categoría.
-1. Hacer clic**próximo**.
+1. Hacer clic**Próximo**.
 
 ![todo:imagen_alternativa_texto](project_2.png)
 
@@ -32,8 +32,8 @@ url: /es/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 ![todo:imagen_alternativa_texto](project_3.png)
 
-1. Esto recuperará el[Aspose.Cells for Java](https://products.aspose.com/cells/java/) más reciente[Maven Dependencia](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referencia de[Aspose Nube Maven Repositorio](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) y configurarlo en**pom.xml**. Si ha optado por**También descargue ejemplos de código,** descarga de la**Ejemplos de código** también comenzará desde el[Aspose.Cells for Java API Repositorio de ejemplos.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
-1. Siguiendo**Maven** El proyecto se creará en su**Eclipse IDE** al finalizar el asistente:
+1. Esto recuperará el[Aspose.Cells for Java](https://products.aspose.com/cells/java/) el último[Maven Dependencia](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) referencia de[Aspose Nube Maven Repositorio](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) y configurarlo en**pom.xml**. Si ha optado por**También descargue ejemplos de código,** descarga de la**Ejemplos de código** también comenzará desde el[Aspose.Cells for Java API Repositorio de ejemplos.](https://github.com/aspose-cells/Aspose.Cells-for-Java)
+1. Siguiente**Maven** El proyecto se creará en su**Eclipse IDE** al finalizar el asistente:
 
 ![todo:imagen_alternativa_texto](project_4.png)
 
@@ -46,7 +46,7 @@ url: /es/java/installing-and-using-aspose-cells-java-for-eclipse-maven/
 
 {{% alert color="primary" %}}
 
- Para poder usar**Aspose.Cells Asistente de ejemplo de código**cómodamente: se recomienda seleccionar siempre**También descargue ejemplos de código** mientras creaba**Maven Proyecto**en**Aspose.Cells Maven Proyecto** **mago**,
+ Para poder usar**Aspose.Cells Asistente de ejemplo de código**cómodamente: se recomienda seleccionar siempre**También descargue ejemplos de código** mientras creaba**Maven Proyecto**sobre**Aspose.Cells Maven Proyecto** **mago**,
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Para usar ejemplos, simplemente:
 
 1. Hacer clic**Nuevo -> Otro** en**Eclipse**.
 1. Seleccione**Aspose.Cells Código Ejemplo**en el**Java**categoría.
-1. Hacer clic**próximo**.  
+1. Hacer clic**Próximo**.  
 
 ![todo:imagen_alternativa_texto](example_1.png)
 

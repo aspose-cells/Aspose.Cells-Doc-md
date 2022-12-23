@@ -12,4 +12,4 @@ url: /ar/cpp/aspose-cells-for-cpp-22-6-2-release-notes-windows/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSCPP-821| إصلاح 4 بايت utf8 لا يدعم|حشرة|
+|CELLSCPP-821| إصلاح 4 بايت utf8 لا يدعم|خلل برمجي|

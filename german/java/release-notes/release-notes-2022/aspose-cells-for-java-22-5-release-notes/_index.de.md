@@ -21,11 +21,11 @@ url: /de/java/aspose-cells-for-java-22-5-release-notes/
 |CELLSJAVA-44501| Suchen Sie in der nächsten Ausgabe nach der Datei duohangduolie.zip|
 |CELLSJAVA-44529|Suche nach Freezepane implementieren|
 |CELLSJAVA-44530|Untersuchen Sie das Problem, dass setactivecell manchmal nicht funktioniert|
-|CELLSJAVA-44534|Grafik im Druckbereich nicht in Excel-zu-HTML-Konvertierung exportiert|
+|CELLSJAVA-44534|Grafik im Druckbereich nicht in Excel zu HTML Konvertierung exportiert|
 |CELLSJAVA-44539|Diagramm wird beim Konvertieren in HTML mit Druckbereich nach rechts verschoben|
-|CELLSJAVA-44568|Mehrzeilige Beschriftungen gehen mit Ausnahme der ersten Zeile bei der HTML-zu-XLS-Konvertierung verloren|
+|CELLSJAVA-44568|Mehrzeilige Beschriftungen gehen mit Ausnahme der ersten Zeile bei der Konvertierung von HTML in XLS verloren|
 |CELLSJAVA-44512|Das Diagramm fehlt beim Exportieren des Diagramms in SVG in HTML|
-|CELLSJAVA-44556|Problem mit der Datenanzeige in der Datentabelle, nachdem die Koordinatenachse auf logarithmische Skalierung eingestellt wurde – Konvertierung von Excel in HTML/PDF|
+|CELLSJAVA-44556|Problem mit der Datenanzeige in der Datentabelle, nachdem die Koordinatenachse auf die logarithmische Skala eingestellt wurde – Konvertierung von Excel in HTML/PDF|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

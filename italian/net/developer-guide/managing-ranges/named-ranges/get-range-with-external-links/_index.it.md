@@ -19,6 +19,6 @@ Molte volte i file Excel accedono ai dati da altri file Excel utilizzando colleg
 
  Il codice di esempio fornito di seguito dimostra l'uso di[**Nome.GetReferredAreas**](https://reference.aspose.com/cells/net/aspose.cells/name/methods/getreferredareas)metodo per ottenere intervalli con collegamenti esterni.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-GetRangeWithExternalLinks-1.cs" >}}

@@ -3,7 +3,7 @@ title: ブック構造の保護と保護解除
 type: docs
 weight: 40
 url: /ja/java/protect-and-unprotect-workbook-structure/
-description: Aspose.Cells for Java を使用して、Excel (xlsx、xls、xsb) および Open office calc (ODS) ファイルをロックおよびロック解除します。
+description: Java コードを使用して Excel ファイルのワークブック構造を保護および保護解除します。
 ---
 {{% alert color="primary" %}}
 他のユーザーが非表示のワークシートを表示したり、ワークシートを追加、移動、削除、非表示にしたり、ワークシートの名前を変更したりできないようにするために、Excel ブックの構造をパスワードで保護できます。

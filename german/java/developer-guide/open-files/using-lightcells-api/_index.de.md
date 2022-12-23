@@ -20,9 +20,9 @@ Beim Lesen von Vorlagendateien analysiert die Komponente jede Zelle und stellt d
 
 In beiden Verfahren wird ein Cell-Objekt verarbeitet und dann verworfen, das Workbook-Objekt enthält die Sammlung nicht. In diesem Modus wird also beim Importieren und Exportieren von Microsoft Excel-Dateien mit einem großen Datensatz, der sonst viel Speicher verbrauchen würde, Speicherplatz gespart.
 
-Obwohl LightCells API die Zellen für XLSX- und XLS-Dateien auf die gleiche Weise verarbeitet (es lädt nicht alle Zellen in den Speicher, sondern verarbeitet eine Zelle und verwirft sie dann), spart es aufgrund von für XLSX-Dateien effektiver Speicher als für XLS-Dateien die unterschiedlichen Datenmodelle und Strukturen der beiden Formate.
+Obwohl LightCells API die Zellen für XLSX- und XLS-Dateien auf die gleiche Weise verarbeitet (es lädt nicht alle Zellen in den Speicher, sondern verarbeitet eine Zelle und verwirft sie dann), spart es aufgrund von XLSX-Dateien effektiver Speicher als XLS-Dateien die unterschiedlichen Datenmodelle und Strukturen der beiden Formate.
 
- Jedoch,**für XLS-Dateien** , um mehr Speicher zu sparen, können Entwickler einen temporären Speicherort zum Speichern temporärer Daten angeben, die während des Speichervorgangs generiert werden. Häufig,**Die Verwendung von LightCells API zum Speichern einer XLSX-Datei kann 50 % oder mehr Speicherplatz einsparen** als den üblichen Weg zu gehen,**Durch das Speichern von XLS können etwa 20-40 % Speicher eingespart werden**.
+ Jedoch,**für XLS Dateien** , um mehr Speicher zu sparen, können Entwickler einen temporären Speicherort zum Speichern temporärer Daten angeben, die während des Speichervorgangs generiert werden. Häufig,**Die Verwendung von LightCells API zum Speichern der Datei XLSX kann 50 % oder mehr Speicherplatz sparen** als den üblichen Weg zu gehen,**Durch das Speichern von XLS können etwa 20-40 % Speicher eingespart werden**.
 
 ### **Schreiben großer Excel-Dateien**
 
@@ -48,7 +48,7 @@ Beim Lesen einer Arbeitsmappe in diesem Modus wird startSheet() überprüft, wen
 
 Wenn auch die Zellen der Zeile verarbeitet werden müssen, gibt processRow() true zurück und startCell() wird für jede vorhandene Zelle in der Zeile aufgerufen, um zu prüfen, ob sie verarbeitet werden muss. Wenn dies der Fall ist, wird processCell() aufgerufen.
 
-Der folgende Beispielcode veranschaulicht diesen Prozess. Das Programm liest eine große Datei mit Millionen von Datensätzen. Es braucht ein wenig Zeit, um jedes Blatt in der Arbeitsmappe zu lesen. Der Beispielcode liest die Datei und ruft die Gesamtzahl der Zellen, die Anzahl der Zeichenfolgen und die Anzahl der Formeln für jedes Arbeitsblatt ab.
+Der folgende Beispielcode veranschaulicht diesen Vorgang. Das Programm liest eine große Datei mit Millionen von Datensätzen. Es braucht ein wenig Zeit, um jedes Blatt in der Arbeitsmappe zu lesen. Der Beispielcode liest die Datei und ruft die Gesamtzahl der Zellen, die Anzahl der Zeichenfolgen und die Anzahl der Formeln für jedes Arbeitsblatt ab.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-LightCellsTest1-LightCellsTest1.java" >}}
 

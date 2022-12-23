@@ -21,7 +21,7 @@ Manchmal müssen Sie die Kompatibilitätsprüfung für eine bestimmte Tabelle de
 
 So deaktivieren Sie die Kompatibilitätsprüfung in Microsoft Excel (z. B. Microsoft Excel 2007/2010):
 
--  (Excel 2007) Klicken Sie auf die Office-Schaltfläche**Vorbereiten** , dann**Führen Sie die Kompatibilitätsprüfung aus** , und löschen Sie dann die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
+-  (Excel 2007) Klicken Sie auf die Office-Schaltfläche**Bereiten** , dann**Führen Sie die Kompatibilitätsprüfung aus** , und löschen Sie dann die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
 -  (Excel 2010) Klicken Sie auf der Registerkarte Datei auf**Die Info** , dann**Auf Probleme prüfen** , klicken**Kompatibilität prüfen** , und löschen Sie schließlich die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
 
 ## **Verwenden von Aspose.Cells-APIs**

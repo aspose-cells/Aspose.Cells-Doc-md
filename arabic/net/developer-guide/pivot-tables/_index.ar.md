@@ -51,6 +51,6 @@ description: إنشاء وتنسيق الجداول المحورية لملفا�
 - [جدول محوري وبيانات مصدر](/cells/ar/net/pivot-table-and-source-data/)
 - [جدول محوري إخفاء البيانات وفرزها](/cells/ar/net/pivot-table-hide-and-sort-data/)
 - [تحديث وحساب الجدول المحوري الذي يحتوي على عناصر محسوبة](/cells/ar/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [حفظ Pivot Table في ملف ODS](/cells/ar/net/save-pivot-table-in-ods-file/)
+- [احفظ Pivot Table في ملف ODS](/cells/ar/net/save-pivot-table-in-ods-file/)
 - [إظهار خيار صفحات تصفية التقرير](/cells/ar/net/show-report-filter-pages-option/)
 - [العمل مع تنسيقات عرض البيانات DataField في Pivot Table](/cells/ar/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

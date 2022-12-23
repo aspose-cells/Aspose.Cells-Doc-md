@@ -11,6 +11,6 @@ Cette page contient les notes de version pour Aspose.Cells Reporting Services 22
 '{{% /alert %}} '
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
 
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |35094 | Exporter vers CSV (ACCSV) - problèmes d'encodage|

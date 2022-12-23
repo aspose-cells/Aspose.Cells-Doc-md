@@ -13,7 +13,7 @@ Hier ist ein Beispiel für die lokale Dateispeicherung:
 {{< gist "aspose-cells-gists" "fb32f5c7a98978432e5e05c50995a4ca" "LocalFileCache.cs" >}}
 
 Für die serverseitige Speicherung stellen wir auch ein Beispiel bereit.
- Bitte prüfen:<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
+ Bitte prüfe:<https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Examples_GridJs/Models/AwsCache.cs>
 ## 2. Holen Sie sich json aus der Tabellenkalkulationsdatei.
 ```C#
 GridJsWorkbook wbj = new GridJsWorkbook();

@@ -6,7 +6,7 @@ url: /ar/net/export-vba-certificate-to-file-or-stream/
 ---
 {{% alert color="primary" %}}
 
- يسمح لك Aspose.Cells بتصدير شهادة VBA الرقمية للدفق مثل تدفق الملفات أو الذاكرة. يمكنك الوصول إلى البيانات الأولية لشهادة VBA الرقمية باستخدام ملف[**Workbook.VbaProject.CertRawData**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/certrawdata) منشأه.
+ يسمح لك Aspose.Cells بتصدير شهادة VBA الرقمية للدفق مثل تدفق الملفات أو الذاكرة. يمكنك الوصول إلى البيانات الأولية لشهادة VBA الرقمية باستخدام ملف[**Workbook.VbaProject.CertRawData**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/certrawdata) خاصية.
 
 {{% /alert %}}
 

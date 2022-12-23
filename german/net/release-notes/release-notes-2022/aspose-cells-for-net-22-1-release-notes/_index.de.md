@@ -20,33 +20,33 @@ url: /de/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50072|Nicht unterstützte Funktion: CUBESET|Erweiterung|
 |CELLSNET-50017|So fügen Sie eine Blase neben dem Diagrammtitel und dem Diagrammachsentext hinzu|Erweiterung|
 |CELLSNET-50038| Unterschiedliches Verhalten beim Reduzieren und Erweitern von Gruppen mit mehreren Ebenen|Erweiterung|
-|CELLSNET-50041| BMP-Bilddateien werden nicht in der Kopf-/Fußzeile angezeigt|Erweiterung|
-|CELLSNET-50108|XLS zu PDF: Konvertierung bleibt bei Out of Memory stehen|Leistung|
-|CELLSNET-50128|Der Zeilenabstand wird schmaler - Umwandlung von Excel in PDF|Insekt|
-|CELLSNET-50086|Cell Farben verschwinden nach Konvertierung in PDF|Insekt|
+|CELLSNET-50041| BMP Bilddateien werden nicht in Kopf-/Fußzeile angezeigt|Erweiterung|
+|CELLSNET-50108|XLS bis PDF: Konvertierung bleibt bei Out of Memory stehen|Leistung|
+|CELLSNET-50128|Der Zeilenabstand wird schmaler - Excel auf PDF umstellen|Insekt|
+|CELLSNET-50086|Cell Farben verschwinden nach Umwandlung in PDF|Insekt|
 |CELLSNET-49996|Rich-Text-Werte von Zellen können im MemoryPreference-Modus verloren gehen|Insekt|
 |CELLSNET-50042| Der Name der Zellen wird während der Aufzeichnung geändert|Insekt|
 |CELLSNET-50055|Die Eigenschaft FullText des lokalen Bereichsnamens wird nicht maskiert, wenn das übergeordnete Arbeitsblatt einen Apostroph hat|Insekt|
 |CELLSNET-50154|GridWeb kann die CSV-Datei nicht aus dem Cache laden/speichern|Insekt|
 |CELLSNET-50063|Beim Drucken einer Excel-Datei werden zwei Seiten statt einer Seite gerendert|Insekt|
-|CELLSNET-50094|Arbeitsblattinhalte werden bei der Konvertierung von Excel in PDF nicht richtig gerendert|Insekt|
-|CELLSNET-50129|Die Druckposition steigt an, wenn der Seite gefolgt wird - Umwandlung von Excel in PDF|Insekt|
+|CELLSNET-50094|Arbeitsblattinhalte werden in Excel nicht richtig in PDF-Konvertierung gerendert|Insekt|
+|CELLSNET-50129|Die Druckposition steigt, wenn der Seite gefolgt wird - Konvertierung von Excel in PDF|Insekt|
 |CELLSNET-50131|Die Zeichen fehlen - Umwandlung von Excel in PDF|Insekt|
 |CELLSNET-49578| Falscher Max/Min-Wert berechnet aus Diagrammen von Aspose.Cells|Insekt|
 |CELLSNET-50087|Das Ausgabediagramm wird nach dem Ändern des Serientyps nicht korrekt angezeigt|Insekt|
 |CELLSNET-50197|Die Legende im Wasserfalldiagramm kann nicht gelöscht oder ausgeblendet werden|Insekt|
 |CELLSNET-50065|Unterschiedliches Verhalten beim Reduzieren und Erweitern von mehrstufigen Zeilengruppen|Insekt|
-|CELLSNET-50137|Nicht deklarierte XLSX-zu-HTML-Variable "Knoten" im Skript|Insekt|
+|CELLSNET-50137|XLSX bis HTML nicht deklarierte Variable "node" im Skript|Insekt|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine funktioniert nicht für automatisch angepasste Spalten|Insekt|
 |CELLSNET-50165|Phonetic Guide Font wird nach dem Speichern der Datei geändert|Insekt|
 |CELLSNET-50208|Einige Texte gehen beim Speichern als HTML verloren|Insekt|
 |CELLSNET-50095|Ausnahme beim Öffnen der XSLB-Datei|Ausnahme|
 |CELLSNET-50096| StackOverflowException beim Löschen leerer Spalten|Ausnahme|
-|CELLSNET-50071|Konvertierung in HTML-Ausnahme "Nicht unterstützte Funktion: CUBESET"|Ausnahme|
+|CELLSNET-50071|Umstellung auf HTML Ausnahme "Nicht unterstützte Funktion: CUBESET"|Ausnahme|
 |CELLSNET-50097|Ausnahme beim Öffnen der XSLX-Datei über Aspose.Cells|Ausnahme|
 |CELLSNET-50133|NullReferenceException beim Vergleich von FillFormat|Ausnahme|
 |CELLSNET-50138|Ausnahme beim Öffnen einer XLSB-Datei|Ausnahme|
-|CELLSNET-50016|Diagramm zu falschen EMF-Achsenwerten|Rückfall|
+|CELLSNET-50016|Diagramm zu EMF falsche Achsenwerte|Rückfall|
 |
 
 
@@ -72,7 +72,7 @@ In alten Versionen geben DataSorter.Sort() Methoden nichts zurück. Ab dieser Ve
 
 ### **Fügt die TxtLoadOptions.ExtendToNextSheet-Eigenschaft hinzu.**
 
-Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Anzahl der Zeilen oder Spalten der Daten das Limit von MS Excel überschreitet.
+Unterstützt den Import von CSV/TSV-Daten in mehrere Arbeitsblätter, wenn die Zeilen- oder Spaltenanzahl der Daten das Limit von MS Excel überschreitet.
 
 ### **Fügt die Methode ExternalLinkCollection.Clear() hinzu.**
 

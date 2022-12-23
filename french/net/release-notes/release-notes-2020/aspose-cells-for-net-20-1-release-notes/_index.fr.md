@@ -10,25 +10,25 @@ url: /fr/net/aspose-cells-for-net-20-1-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47026|Prise en charge de l'option de format d'affichage "Classer du plus petit au plus grand" et "Classer du plus grand au plus petit"|Nouvelle fonctionnalité|
-|CELLSNET-47030|Afficher les en-têtes lors de l'enregistrement au format HTML|Nouvelle fonctionnalité|
+|CELLSNET-47030|Afficher les en-têtes lors de l'enregistrement dans HTML|Nouvelle fonctionnalité|
 |CELLSNET-47089|Prend en charge tous les formats d'affichage de données de DataField|Nouvelle fonctionnalité|
 |CELLSNET-47062|Prise en charge de STDEV.P et STDEV.S|Nouvelle fonctionnalité|
 |CELLSNET-47070|Prise en charge de Regex dans la fonction Remplacer similaire à Find () à l'aide d'options|Nouvelle fonctionnalité|
 |CELLSNET-46998|Prise en charge des signatures XAdES|Nouvelle fonctionnalité|
 |CELLSNET-40174|Insertion d'une case à cocher dans une feuille de type de graphique|Nouvelle fonctionnalité|
-|CELLSNET-43089|Prise en charge du formatage conditionnel lors de la conversion d'ODS en XLSX|Nouvelle fonctionnalité|
-|CELLSNET-43090|Prise en charge de la validation des données lors de la conversion d'ODS au format XLSX|Nouvelle fonctionnalité|
+|CELLSNET-43089|Prise en charge du formatage conditionnel lors de la conversion de ODS en XLSX|Nouvelle fonctionnalité|
+|CELLSNET-43090|Prise en charge de la validation des données lors de la conversion du format ODS au format XLSX|Nouvelle fonctionnalité|
 |CELLSNET-47064|Prend en charge les formes dans le graphique pour le fichier .xlsx.|Renforcement|
 |CELLSNET-47065|Obtenir PowerQuery à partir de DataConnections|Renforcement|
 |CELLSNET-47066|Récupérer PowerQuery MCode formaté similaire à MS Excel|Renforcement|
 |CELLSNET-47008|Problème lors du rendu d'une image d'un graphique sous un angle spécifique|Punaise|
 |CELLSNET-47063|Problème de rendu d'Excel vers l'imprimante lorsque les polices ne sont pas installées|Punaise|
 |CELLSNET-44237|Ordre décroissant du champ de données du tableau croisé dynamique|Punaise|
-|CELLSNET-47002|La valeur calculée s'affiche sous la forme "#REF !" dans le PDF résultant|Punaise|
-|CELLSNET-47050|Certains champs de la première page n'apparaissent pas dans le PDF de sortie|Punaise|
+|CELLSNET-47002|La valeur calculée s'affiche sous la forme "#REF !" en résultant PDF|Punaise|
+|CELLSNET-47050|Certains champs de la première page n'apparaissent pas dans la sortie PDF|Punaise|
 |CELLSNET-40733|Ouvrez le fichier Office .ods - la mise en forme conditionnelle ne reste pas|Punaise|
 |CELLSNET-47039|Les diagrammes de dispersion XY dans le fichier ODS ne sont pas rendus correctement|Punaise|
 |CELLSNET-47040|Les graphiques nets dans le fichier ODS ne sont pas rendus correctement|Punaise|

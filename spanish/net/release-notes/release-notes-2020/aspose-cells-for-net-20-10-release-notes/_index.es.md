@@ -13,21 +13,21 @@ url: /es/net/aspose-cells-for-net-20-10-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSNET-47625|Verifica la contraseña para archivos cifrados|Nueva caracteristica|
-|CELLSNET-47601|Procesar filas y columnas adicionales en HTML sin perturbar las fórmulas/referencias para parecerse a la salida con MS Excel|Nueva caracteristica|
+|CELLSNET-47601|Procesar filas y columnas adicionales en HTML sin perturbar fórmulas/referencias para parecerse a la salida con MS Excel|Nueva caracteristica|
 |CELLSNET-47619|Aspose Gráfico SetChartDataRange Problema|Mejora|
 |CELLSNET-47632|Diferencia de estructura y orden en OLE de la entrada y salida después de guardar el archivo|Mejora|
 |CELLSNET-47644|Diferentes conexiones externas obtenidas en comparación con MS Excel|Mejora|
 |CELLSNET-47652|Problemas de espaciado de fuentes cuando se establece el formato de caracteres|Mejora|
-|CELLSNET-47623|Operación de guardado lenta con muchas fórmulas en el archivo|Actuación|
-|CELLSNET-47606|La aplicación se cuelga al convertir Excel a PDF|Actuación|
+|CELLSNET-47623|Operación de guardado lenta con muchas fórmulas en el archivo|Rendimiento|
+|CELLSNET-47606|La aplicación se cuelga al convertir Excel a PDF|Rendimiento|
 |CELLSNET-47611|Problema de cálculo de la fórmula IRR|Insecto|
 |CELLSNET-47616|Delete Range se comporta de manera diferente entre v20.8 y v20.9|Insecto|
 |CELLSNETCORE-83|El archivo de Excel no se mostraba correctamente en GridWeb|Insecto|
 |CELLSNETCORE-86|Problema de visualización de formas en GridWeb|Insecto|
 |CELLSNET-47597|Las áreas de relleno son muy diferentes en comparación con el archivo de origen.|Insecto|
-|CELLSNET-47614|Faltan algunos símbolos en el PDF de salida en la representación de Excel a PDF|Insecto|
+|CELLSNET-47614|Faltan algunos símbolos en la salida PDF en Excel a la representación PDF|Insecto|
 |CELLSNET-47636|Conversión de Excel a PDF: el resultado pasa por la página en orientación horizontal|Insecto|
-|CELLSNET-47637|Conversión de Excel a PDF con Calibri Light|Insecto|
+|CELLSNET-47637|Conversión de Excel al problema PDF con Calibri Light|Insecto|
 |CELLSNET-42982|El tamaño y el diseño del gráfico se cambiaron después de Workbook.Combine|Insecto|
 |CELLSNET-47594|Opción para obtener información de PlotBy y OnAction similar a MS Excel|Insecto|
 |CELLSNET-47595|El gráfico no se retuvo correctamente en el archivo de Excel al cargarlo y guardarlo de nuevo|Insecto|
@@ -44,9 +44,9 @@ url: /es/net/aspose-cells-for-net-20-10-release-notes/
 |CELLSNETCORE-84|Información de estilo devuelta junto con el texto del encabezado|Insecto|
 |CELLSNETCORE-85|Cells. InsertCutCells corrompe las notas|Insecto|
 |CELLSNET-47544|Faltan imágenes y la posición del texto era incorrecta al renderizar Excel en Linux|Insecto|
-|CELLSNET-47571|La conversión de HTML de XLS entra en un bucle de conversión continuo|Insecto|
+|CELLSNET-47571|La conversión HTML de XLS entra en un bucle de conversión continua|Insecto|
 |CELLSNET-47583|PivotTable.TableRange2 da un valor incorrecto para la tabla dinámica|Insecto|
-|CELLSNET-47584|Aspose.Cells La conversión de HTML a Excel no mostraba imágenes|Insecto|
+|CELLSNET-47584|Aspose.Cells HTML a la conversión de Excel no mostró imágenes|Insecto|
 |CELLSNET-47609|Diagram no se muestra en html cuando la hoja no tiene otro contenido|Insecto|
 |CELLSNET-47633|La tabla dinámica con fechas no se actualiza correctamente|Insecto|
 |CELLSNET-47635|Slicer en una tabla diferente genera un archivo dañado|Insecto|

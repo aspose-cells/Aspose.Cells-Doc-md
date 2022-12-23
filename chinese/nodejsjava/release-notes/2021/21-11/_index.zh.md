@@ -13,20 +13,20 @@ url: /zh/nodejs-java/aspose-cells-for-node-js-via-java-21-11-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSJAVA-43844|会计数字格式所需的增强功能|
-|CELLSJAVA-43953|渲染特定文本/部分“Cell”和“评论”以在 Excel 到 PDF 转换中翻译成日语|
+|CELLSJAVA-43953|将特定文本/部分“Cell”和“评论”呈现为在 Excel 中翻译成日语到 PDF 转换|
 |CELLSJAVA-43935|保存和加载 XLS 文件时形状文本字体大小问题|
 |CELLSJAVA-43952|临时牌照过期问题|
 |CELLSJAVA-43954|XLSX 到 PDF：图像导致异常“java.lang.OutOfMemoryError：Java 堆空间”|
-|CELLSJAVA-43902|Excel转HTML的部分边框是多余的|
-|CELLSJAVA-43933|只有一个数据导出为 HTML 时，条件格式与 Excel 不同|
+|CELLSJAVA-43902|转换为HTML的Excel部分边框多余|
+|CELLSJAVA-43933|只有一个数据导出到HTML时，条件格式和Excel不一样|
 |CELLSJAVA-43878|Excel 簇条形图数据标签的位置不正确|
 |CELLSJAVA-43895|将 XLS 转换为 XLSX 时，线形和其他图表形状无法正确呈现|
 |CELLSJAVA-43932|在输出图像中为爆炸圆环图设置数据标签位置的问题|
 |CELLSJAVA-43934|操作或更新图表后饼图标签与 Excel 不匹配|
-|CELLSJAVA-43519|包含在隐藏行或列中的合并单元格会产生不均匀的 HTML 表格|
-|CELLSJAVA-43962|excel中的条件格式转成html后效果不一致|
+|CELLSJAVA-43519|包含在隐藏行或列中的合并单元格产生不均匀的 HTML 表|
+|CELLSJAVA-43962|excel中的条件格式转换为HTML后效果不一致|
 |CELLSJAVA-43969|具有 COUNTIF 函数和外部引用的名称会产生 NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException：用于将 Excel 文件呈现为 HTML 时的输入字符串|
+|CELLSJAVA-43903|java.lang.NumberFormatException：对于将 Excel 文件呈现为 HTML 时的输入字符串|
 
 ## **公共 API 和向后不兼容的更改**
 

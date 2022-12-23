@@ -20,6 +20,6 @@ Il codice di esempio seguente mostra come utilizzare la disposizione del testo e
 
 ## **Per utilizzare interruzioni di riga esplicite**
 
-Puoi usare '\n' in Java per inserire le interruzioni di riga esplicite in una cella.
+È possibile utilizzare '\n' in Java per inserire le interruzioni di riga esplicite in una cella.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseExplicitLineBreaks-UseExplicitLineBreaks.java" >}}

@@ -16,7 +16,7 @@ url: /it/net/export-excel-data-to-datatable-without-any-formatting/
 
 {{% /alert %}}
 
-## Codice di esempio
+## Codice d'esempio
 
  L'esempio seguente spiega l'uso di[**ExportTableOptions.FormatStrategy**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/formatstrategy)proprietà per esportare dati excel con e senza alcuna formattazione.
 

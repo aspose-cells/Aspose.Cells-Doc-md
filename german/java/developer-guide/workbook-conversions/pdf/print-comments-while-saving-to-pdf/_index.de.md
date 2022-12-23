@@ -1,12 +1,12 @@
 ﻿---
-title: Drucken Sie Kommentare beim Speichern als PDF
+title: Kommentare beim Speichern unter PDF drucken
 type: docs
 weight: 180
 url: /de/java/print-comments-while-saving-to-pdf/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Mit den folgenden Optionen können Sie in Excel Kommentare beim Drucken oder Speichern im PDF-Format drucken
+Microsoft Excel ermöglicht es Ihnen, Kommentare beim Drucken oder Speichern im PDF-Format mit den folgenden Optionen zu drucken
 
 - Keiner
 - Am Ende des Blattes
@@ -14,7 +14,7 @@ Microsoft Mit den folgenden Optionen können Sie in Excel Kommentare beim Drucke
 
 {{% /alert %}}
 
-## **Drucken Sie Kommentare beim Speichern als PDF**
+## **Kommentare beim Speichern unter PDF drucken**
 
 Aspose.Cells stellt die folgenden Aufzählungen bereit, um die Druckkommentare beim Speichern von PDF zu unterstützen
 
@@ -24,10 +24,10 @@ Aspose.Cells stellt die folgenden Aufzählungen bereit, um die Druckkommentare b
 
 ## Code-Auszug
 
- Der folgende Beispielcode veranschaulicht die Verwendung[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype)enum zum Drucken von Kommentaren beim Speichern im PDF-Format.
+ Der folgende Beispielcode veranschaulicht die Verwendung[**PrintCommentsType**](https://reference.aspose.com/cells/java/com.aspose.cells/printcommentstype) enum zum Drucken von Kommentaren beim Speichern unter PDF.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-PrintComments-PrintComments.java" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
-- [Konvertieren Sie Excel-Dateien in das mit PDFA-1a kompatible PDF-Format](/cells/de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Konvertieren Sie die Excel-Datei in das mit PDFA-1a kompatible PDF-Format](/cells/de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)

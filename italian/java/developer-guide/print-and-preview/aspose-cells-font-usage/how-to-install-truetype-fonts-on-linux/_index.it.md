@@ -8,7 +8,7 @@ url: /it/java/how-to-install-truetype-fonts-on-linux/
 
 Lo scenario più probabile è che tu stia utilizzando Aspose.Cells per convertire i fogli di calcolo in PDF. Se lo stai facendo su un sistema operativo non basato su Windows come Linux, questo argomento spiega come garantire che Aspose.Cells visualizzi i tuoi fogli di calcolo con la massima fedeltà.
 
-Per assicurarti che i fogli di calcolo convertiti da Aspose.Cells appaiano il più vicino possibile all'originale, potresti dover installare "font Windows" o "font TrueType" sul tuo sistema Linux perché i font TrueType più comunemente usati non sono preinstallati con Distribuzioni Linux per impostazione predefinita.
+Per assicurarti che i fogli di calcolo convertiti da Aspose.Cells appaiano il più vicino possibile all'originale, potresti dover installare "caratteri Windows" o "caratteri TrueType" sul tuo sistema Linux perché i caratteri TrueType più comunemente usati non sono preinstallati con Distribuzioni Linux per impostazione predefinita.
 
 Ci sono due modi principali per ottenere font TrueType su un sistema Linux:
 
@@ -23,7 +23,7 @@ Un modo semplice e veloce è copiare i file .TTF e .TTC dalla directory C:\Windo
 
 {{% alert color="primary" %}}
 
-Per quanto ne sappiamo, Microsoft concede in licenza i caratteri affinché chiunque possa utilizzarli liberamente, ma controlla tu stesso la licenza dei caratteri.
+Per quanto ne sappiamo, Microsoft concede in licenza i font a chiunque possa usarli liberamente, ma controlla tu stesso la licenza dei font.
 
 {{% /alert %}}
 
@@ -82,7 +82,7 @@ rpm \-ivh /root/rpmbuild/RPMS/noarch/msttcorefonts-2.5-1.noarch.rpm
 
 1. Riavvia la macchina per rendere effettive le modifiche.
 
-Le istruzioni fornite sopra installeranno il pacchetto Microsoft TTFs che include le seguenti famiglie di caratteri:
+Le istruzioni fornite sopra installeranno il pacchetto TTFs Microsoft che include le seguenti famiglie di caratteri:
 
 1. Andale Mono
 1. Arial Black/Arial (grassetto, corsivo, grassetto corsivo)

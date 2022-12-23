@@ -83,7 +83,7 @@ PC.Name
 
 {{< /highlight >}}
 
-1. Cree un conjunto de datos denominado SalesEmps. Usaremos eso como los valores válidos para el parámetro EmpID.
+1. Cree un conjunto de datos llamado SalesEmps. Usaremos eso como los valores válidos para el parámetro EmpID.
  El SQL que define SalesEmps es:
 
 **sql**

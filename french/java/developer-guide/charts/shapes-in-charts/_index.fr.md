@@ -15,10 +15,10 @@ Parfois, vous devez insérer des objets de dessin tels que des étiquettes, des 
 
 Les libellés permettent de fournir des informations aux utilisateurs sur le contenu d'une feuille de calcul. Aspose.Cells vous permet d'ajouter et de manipuler des étiquettes même dans les graphiques.
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), utilisé pour ajouter un contrôle d'étiquette à un graphique. Voici une liste des paramètres utilisés pour la méthode :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addLabelInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLabelInChart(int,%20int,%20int,%20int)), utilisé pour ajouter un contrôle d'étiquette à un graphique. Voici une liste des paramètres utilisés pour la méthode :
 
 - **Haut** – le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
-- **la gauche** – le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
+- **gauche** – le décalage vertical de l'étiquette à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
 - **la taille** – la hauteur de l'étiquette, en unités de 1/4000 de la surface du graphique.
 - **largeur** – la largeur de l'étiquette, en unités de 1/4000 de la surface du graphique.
 
@@ -45,10 +45,10 @@ Vous trouverez ci-dessous le code d'origine pour ajouter une étiquette au graph
 
 ## **Ajout du contrôle TextBox au graphique**
 
- Une façon de mettre en évidence des informations importantes dans un rapport consiste à utiliser une zone de texte. Par exemple, saisissez du texte pour mettre en surbrillance le nom de l'entreprise ou pour indiquer la région géographique avec les ventes les plus élevées. La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), qui est utilisé pour ajouter un contrôle de zone de texte à un graphique. Voici la liste des paramètres utilisés pour la méthode :
+ Une façon de mettre en évidence des informations importantes dans un rapport consiste à utiliser une zone de texte. Par exemple, saisissez du texte pour mettre en surbrillance le nom de l'entreprise ou pour indiquer la région géographique avec les ventes les plus élevées. Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addTextBoxInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addTextBoxInChart(int,%20int,%20int,%20int)), qui est utilisé pour ajouter un contrôle de zone de texte à un graphique. Voici la liste des paramètres utilisés pour la méthode :
 
 - **Haut** – le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
-- **la gauche** – le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
+- **gauche** – le décalage vertical de la zone de texte à partir du coin supérieur gauche en unités de 1/4000 de la zone du graphique.
 - **la taille**– la hauteur de la zone de texte, en unités de 1/4000 de la zone du graphique.
 - **largeur** – la largeur de la zone de texte, en unités de 1/4000 de la zone du graphique.
 
@@ -68,15 +68,15 @@ Vous trouverez ci-dessous le code d'origine pour ajouter une zone de texte au gr
 
 Aspose.Cells vous permet d'insérer des images dans un graphique. Par exemple, ajoutez une image pour souligner ou donner plus de sens à un graphique ou à son contenu, ou insérez un fichier d'image de marque.
 
- La[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), qui est utilisé pour ajouter un objet image au graphique. Voici la liste des paramètres utilisés pour la méthode :
+ Le[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) classe fournit une méthode nommée[**addPictureInChart**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPictureInChart(int,%20int,%20java.io.InputStream,%20int,%20int)), qui est utilisé pour ajouter un objet image au graphique. Voici la liste des paramètres utilisés pour la méthode :
 
 - **Haut**– le décalage vertical de l'image par rapport au coin supérieur gauche en unités de 1/4000 de la zone de carte.
-- **la gauche**– le décalage vertical de l'image par rapport au coin supérieur gauche en unités de 1/4000 de la zone de carte.
+- **gauche**– le décalage vertical de l'image par rapport au coin supérieur gauche en unités de 1/4000 de la zone de carte.
 - **flux** – un objet flux qui contient les données d'image.
 - **Échellelargeur** – l'échelle de la largeur de l'image, une valeur en pourcentage.
 - **Échelle de hauteur** – l'échelle de la hauteur de l'image, une valeur en pourcentage.
 
- La méthode renvoie un objet de la[**Image**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) classe où le[**Image**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)La classe représente un objet image dans le graphique.
+ La méthode renvoie un objet de la[**Photo**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture) classe où le[**Photo**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)La classe représente un objet image dans le graphique.
 
 L'exemple suivant montre comment ajouter une image au graphique. L'exemple utilise le fichier de concepteur précédent qui contient un graphique. Nous utilisons ce fichier pour insérer une image dans le graphique.
 
@@ -96,6 +96,6 @@ L'image suivante montre la feuille de graphique avec la case à cocher dans le f
 
 ![tâche : image_autre_texte](controls-in-charts_5.jpg)
 
-La[fichier de sortie](InsertCheckboxInChartSheet_out.xlsx)généré par l'extrait de code suivant est joint pour votre référence.
+Le[fichier de sortie](InsertCheckboxInChartSheet_out.xlsx)généré par l'extrait de code suivant est joint pour votre référence.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-InsertCheckboxInChartSheet-1.java" >}}

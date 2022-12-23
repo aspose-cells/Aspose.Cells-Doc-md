@@ -1,12 +1,12 @@
 ﻿---
-title: تنسيق Adobe Portable Document Format - PDF
+title: تنسيق المستندات المحمولة من Adobe - PDF
 type: docs
 weight: 40
 url: /ar/net/adobe-portable-document-format-pdf/
 ---
 {{% alert color="primary" %}} 
 
- يمكن تحويل أي مستند تم تحميله إلى Aspose.Cells إلى PDF يتوافق مع تنسيق[PDF 1.5](https://docs.fileformat.com/pdf/) أو[PDF / A-1b](https://docs.fileformat.com/pdf/a/) تخصيص. يبذل Aspose.Cells قصارى جهده لتحويل مستندات Excel Microsoft بأمانة إلى PDF. في معظم الأحيان ، لا يمكن تمييز مظهر مستند PDF النهائي عن مستند Excel الأصلي Microsoft.
+ يمكن تحويل أي مستند تم تحميله في Aspose.Cells إلى PDF الذي يتوافق مع[PDF 1.5](https://docs.fileformat.com/pdf/) أو[PDF / أ -1 ب](https://docs.fileformat.com/pdf/a/)تخصيص. يبذل Aspose.Cells قصارى جهده لتحويل مستندات Excel Microsoft بأمانة إلى PDF. في معظم الأوقات ، لا يمكن تمييز مظهر المستند الأخير PDF عن مستند Excel Microsoft الأصلي.
 
 {{% /alert %}} 
 ## **PDF في Aspose.Cells**

@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /ja/net/cells-number-settings/
 ---
-## **数字と日付の表示形式を設定する**
+## **Numbersと日付の表示形式を設定する**
 
 Microsoft Excel の非常に強力な機能は、ユーザーが数値と日付の表示形式を設定できることです。数値データは、10 進数、通貨、パーセンテージ、分数、会計値などのさまざまな値を表すために使用できることがわかっています。これらの数値はすべて、表す情報の種類に応じてさまざまな形式で表示されます。同様に、日付または時刻を表示できる形式は多数あります。
 Aspose.Cells はこの機能をサポートし、開発者が数値または日付の表示形式を設定できるようにします。
@@ -16,7 +16,7 @@ Microsoft Excel で表示形式を設定するには:
 1. 任意のセルを右クリックします。
 1. 選択する**フォーマット Cells**.任意の種類の値の表示形式を設定するために使用されるダイアログが表示されます。
 
-ダイアログの左側には、次のような多くの値のカテゴリがあります。**全般的**, **番号**, **通貨**, **会計**, **日にち**, **時間**, **割合、**Aspose.Cells は、これらの表示形式をすべてサポートしています。
+ダイアログの左側には、次のような多くの値のカテゴリがあります。**全般的**, **番号**, **通貨**, **会計**, **日にち**, **時間**, **割合、**Aspose.Cells は、これらの表示形式をすべてサポートします。
 
 Aspose.Cells はクラスを提供し、[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Microsoft Excel ファイルを表します。の[**ワークブック**](https://reference.aspose.com/cells/net/aspose.cells/workbook)クラスには[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Excel ファイル内の各ワークシートにアクセスできるコレクション。ワークシートは、[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラス。の[**ワークシート**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)クラスは[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。の各項目[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクションはのオブジェクトを表します[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)クラス。
 

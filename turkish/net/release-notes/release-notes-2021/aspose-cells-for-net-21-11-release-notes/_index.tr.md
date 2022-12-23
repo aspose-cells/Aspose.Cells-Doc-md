@@ -17,9 +17,9 @@ url: /tr/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49651|json dosyası olarak kaydetmeyi destekler.|Yeni özellik|
 |CELLSNET-48499|Belirli hücrelere karşı biçimlendirilmiş hücre değerlerini al|Artırma|
 |CELLSNET-49523|Çalışma sayfalarını temizlerken tanımlı adları temizleyin.|Artırma|
-|CELLSNET-48646|Excel'den PDF'e Dönüştürme sırasında StackOverflow istisnası|Verim|
-|CELLSNET-49378|Excel'den HTML'ye dönüştürme performansı ve boş hücrelerle ilgili sorun|Verim|
-|CELLSNET-49453|Excel'i HTML'ye dönüştürürken performansı artırın|Verim|
+|CELLSNET-48646|Excel'den PDF'e Dönüşüm sırasında StackOverflow istisnası|Verim|
+|CELLSNET-49378|Excel'den HTML'e dönüştürme performansı ve boş hücrelerle ilgili sorun|Verim|
+|CELLSNET-49453|Excel'i HTML'e dönüştürürken performansı artırın|Verim|
 |CELLSNET-48095|3D, bulutun şekli değişti|Böcek|
 |CELLSNET-49544|Birden çok sayfa aralığına başvuran harici NamedRange'i kaydetme hatası|Böcek|
 |CELLSNET-49588|Orijinal değerden farklı kaydedilen tek tip veriler|Böcek|
@@ -34,20 +34,20 @@ url: /tr/net/aspose-cells-for-net-21-11-release-notes/
 |CELLSNET-49193|GridDesktop düzgün çalışmıyor|Böcek|
 |CELLSNET-49642|Aspose.Cells.GridWeb'in Newtonsoft.Json'a bildirilmemiş bağımlılığı var|Böcek|
 |CELLSNET-49452|Çok satırlı metin düzgün işlenmez|Böcek|
-|CELLSNET-49498|En son sürümlerde istisna oluşturan Excel'e HTML akışı|Böcek|
+|CELLSNET-49498|HTML Excel'e akış, en son sürümlerde istisna oluşturuyor|Böcek|
 |CELLSNET-49610|Xml Import şablon biçimlendirmesini kaybediyor|Böcek|
-|CELLSNET-49671|Windings yazı tiplerine sahip metin, resimlere/HTML'ye düzgün şekilde işlenmiyor|Böcek|
-|CELLSNETCORE-278|Kültür Norveççe olarak ayarlandığında XLSX'ten PDF'e dönüştürme sonuçları açılamaz|Böcek|
+|CELLSNET-49671|Windings yazı tiplerine sahip metin, resimlere/HTML'e uygun şekilde işlenmiyor|Böcek|
+|CELLSNETCORE-278|XLSX - PDF dönüştürme sonuçları, kültür Norveççe olarak ayarlandığında açılamaz|Böcek|
 |CELLSNET-49560|XML'deki farklılıklar|Böcek|
 |CELLSNET-49598|Regresyon: Kaydettikten sonra XML'deki farklılıklar|Böcek|
-|CELLSNET-49630|EMF'ye dönüştürmede yanlış Onay İşaretleri|Böcek|
+|CELLSNET-49630|EMF'e dönüştürmede yanlış Onay İşaretleri|Böcek|
 |CELLSNET-49673|Grafikleri görüntülere dönüştürürken noktalı çizgilerin bazı kısımları düz çizgiler haline geldi|Böcek|
 |CELLSNET-49545|HtmlCrossType.Default ve HtmlCrossType.FitToCell türleri bozuk|Böcek|
-|CELLSNET-49654|Makrolar, XLS'yi XLSM'ye dönüştürdükten sonra çalışmıyor|Böcek|
+|CELLSNET-49654|XLS'i XLSM'e dönüştürdükten sonra makrolar çalışmıyor|Böcek|
 |CELLSNET-49727|Mht dosyalarının görüntüleri IE'de görünmez.|Böcek|
-|CELLSNET-49609|Excel dosyasını PDF'ye dönüştürürken "Şekilden görüntüye hata"|İstisna|
+|CELLSNET-49609|Excel dosyasını PDF'e dönüştürürken "Şekilden görüntüye hata"|İstisna|
 |CELLSNET-49608|Aspose.Cells, belirli aralık adlarını eklemeye çalışırken hata veriyor|İstisna|
-|CELLSNET-49697|XLSX'ten PDF'e: Girdi dizisi doğru biçimde değildi.|İstisna|
+|CELLSNET-49697|XLSX - PDF: Girdi dizisi doğru biçimde değildi.|İstisna|
 |CELLSNETCORE-287|Formül hesaplanırken NullPointerException|İstisna|
 |CELLSNET-49497|XML Eşlemeli ExportXml "NullReferenceException" hatası veriyor|İstisna|
 |CELLSNET-49595|XML Eşlemeli ExportXml, karmaşık Excel dosyaları için "NullReferenceException" hatası veriyor|İstisna|

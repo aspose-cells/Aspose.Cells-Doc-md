@@ -13,7 +13,7 @@ Wenn Sie Microsoft Excel in russischem Gebietsschema oder Sprache oder einem and
 
 ## **Implementieren Sie Fehler und boolesche Werte in Russisch oder einer anderen Sprache**
 
- Der folgende Beispielcode veranschaulicht, wie Fehler und boolesche Werte in Russisch oder einer anderen Sprache implementiert werden. Bitte überprüfen Sie die[Beispiel-Excel-Datei](73990159.xlsx) in diesem Code und seinen verwendet[PDF ausgeben](73990160.pdf)Der Screenshot zeigt den Unterschied zwischen der Beispiel-Excel-Datei und der Ausgabe-PDF als Referenz.
+ Der folgende Beispielcode veranschaulicht, wie Fehler und boolesche Werte in Russisch oder einer anderen Sprache implementiert werden. Bitte überprüfen Sie die[Beispiel-Excel-Datei](73990159.xlsx) in diesem Code und seinen verwendet[Ausgabe PDF](73990160.pdf)Der Screenshot zeigt den Unterschied zwischen der Beispiel-Excel-Datei und der Ausgabe PDF als Referenz.
 
 ![todo: Bild_alt_Text](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 

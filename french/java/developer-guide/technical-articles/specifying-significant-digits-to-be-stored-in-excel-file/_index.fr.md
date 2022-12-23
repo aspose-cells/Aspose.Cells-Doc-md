@@ -6,7 +6,7 @@ url: /fr/java/specifying-significant-digits-to-be-stored-in-excel-file/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Par défaut, Aspose.Cells stocke 17 chiffres significatifs de valeurs doubles dans les feuilles de calcul contrairement à l'application Excel qui ne stocke que 15 chiffres significatifs. Vous pouvez modifier le comportement par défaut de Aspose.Cells pour ce cas, c'est-à-dire ; vous pouvez changer le nombre de chiffres significatifs de 17 à 15 tout en utilisant le[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)propriété.
+Par défaut, Aspose.Cells stocke 17 chiffres significatifs de valeurs doubles dans les feuilles de calcul contrairement à l'application Excel qui ne stocke que 15 chiffres significatifs. Vous pouvez modifier le comportement par défaut de Aspose.Cells pour ce cas, c'est-à-dire ; vous pouvez changer le nombre de chiffres significatifs de 17 à 15 tout en utilisant le[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/java/com.aspose.cells/cellshelper#SignificantDigits)la propriété.
 
 ## **Spécification des chiffres significatifs à stocker dans le fichier Excel**
 

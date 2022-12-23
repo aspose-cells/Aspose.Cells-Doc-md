@@ -29,4 +29,4 @@ Följande kodavsnitt visar hur du ställer in titlar till diagram och axlar.
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "SettingTitlesAxes-1.cs" >}}
 
 ## **Förhandsämnen**
-- [Läs diagramundertext från ODS-fil](/cells/sv/java/read-chart-subtitle-from-ods-file/)
+- [Läs diagramunderrubrik från ODS fil](/cells/sv/java/read-chart-subtitle-from-ods-file/)

@@ -7,7 +7,7 @@ url: /tr/net/chart-rendering/
 ---
 ## **Oluşturma Grafikleri**
 
- Aspose.Cells API'ler, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Render desteği sağlamak için,[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)uygulama gereksinimlerine en iyi uyacak şekilde aşırı yükleme verisine sahip yöntemler.
+ Aspose.Cells API'leri, Excel Grafiklerini herhangi bir ek araç veya uygulama gerektirmeden resimlere ve PDF biçimlerine dönüştürmeyi destekler. Render desteği sağlamak için,[**Çizelge**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) sınıf açığa çıktı[**Hayal etmek**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)uygulama gereksinimlerine en iyi uyacak şekilde aşırı yükleme verisine sahip yöntemler.
 
 ### **Grafikleri Görüntülere Dönüştürme**
 
@@ -19,9 +19,9 @@ url: /tr/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Grafiği PDF'e Dönüştürme**
+### **Tabloyu PDF'e Oluşturma**
 
- Grafiği PDF formatına dönüştürmek için Aspose.Cells API'leri[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)Elde edilen PDF'yi disk yolunda veya Akışta saklama yeteneğine sahip bir yöntem.
+ Grafiği PDF biçimine dönüştürmek için Aspose.Cells API'leri[**Chart.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)elde edilen PDF'i disk yolunda veya Akışta saklama yeteneğine sahip yöntem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -29,7 +29,7 @@ url: /tr/net/chart-rendering/
 
  Şu anda işleme için desteklenmeyen birkaç grafik türü vardır. Bu tür grafik türleri şunları içerir:** içinde N****Aşağıdaki tablonun desteklenen** sütunu.
 
-|**Grafik türü**|**Grafik alt türü**|**desteklenen**|
+|**Grafik tipi**|**Grafik alt türü**|**desteklenen**|
 |:- |:- |:- |
 |**Kolon**|Kolon|**e**|
 ||SütunYığılmış|**e**|
@@ -38,7 +38,7 @@ url: /tr/net/chart-rendering/
 ||Sütun3DSığılmış|**e**|
 ||Sütun3D100YığılmışYüzde|**e**|
 ||Sütun3D|**e**|
-|**Çubuk**|Çubuk|**e**|
+|**Bar**|Bar|**e**|
 ||Çubuk Yığılmış|**e**|
 ||Bar100YığılmışYüzde|**e**|
 ||Bar3Dkümelenmiş|**e**|
@@ -115,9 +115,9 @@ url: /tr/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Desteklenmeyen grafik türlerini görüntüye veya PDF'ye dönüştürmeye çalışırsanız, 0 boyutlu görüntüler veya boş PDF ile karşılaşabilirsiniz.
+Desteklenmeyen grafik türlerini resim veya PDF'e dönüştürmeye çalışırsanız, 0 boyutlu resimler veya boş PDF ile sonuçlanabilirsiniz.
 
 {{% /alert %}}
 
 ## **ileri konular**
-- [Grafiği İstenilen Sayfa Boyutuyla PDF'ye Dönüştürün](/cells/tr/net/chart-to-pdf/)
+- [Grafiği İstenilen Sayfa Boyutuyla PDF'e Dönüştür](/cells/tr/net/chart-to-pdf/)

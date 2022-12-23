@@ -14,7 +14,7 @@ keywords: excel superscript c#, excel subscript c#, excel superscript and subscr
 
 ## **العمل مع مرتفع و منخفض**
 
- قم بتطبيق التأثير المرتفع عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**هو مرتفع**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) الملكية ل**حقيقي** . لتطبيق منخفض ، قم بتعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) الملكية ل**حقيقي**.
+ قم بتطبيق التأثير المرتفع عن طريق تعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**هو مرتفع**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) ملكية ل**حقيقي** . لتطبيق منخفض ، قم بتعيين[**أسلوب الخط**](https://reference.aspose.com/cells/net/aspose.cells/font) أشياء[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) ملكية ل**حقيقي**.
 
 توضح أمثلة التعليمات البرمجية التالية كيفية تطبيق سوبر ومكتوب على النص.
 

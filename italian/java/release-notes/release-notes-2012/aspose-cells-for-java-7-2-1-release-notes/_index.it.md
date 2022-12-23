@@ -22,7 +22,7 @@ Noi siamo
 - Cells.findString()/find() supporta la ricerca di RegExand in un intervallo specifico
 - Supporto Picture.setTitle()/getTitle()
 - Salva i grafici MS Excel nel file ODS
-- Rendi Aspose.Cells il file XLS creato compatibile con il POI
+- Rendi il file Aspose.Cells creato XLS compatibile con il POI
 
  Eccezioni
 
@@ -31,6 +31,6 @@ Noi siamo
  Insetti
 
 - Il file XLSX salvato restituisce l'errore: "I dati potrebbero essere stati persi"
-- Il numero formattato non era corretto nel PDF generato (sono stati persi migliaia di caratteri di gruppo)
+- Il numero formattato non era corretto nel PDF generato (sono stati persi migliaia di caratteri del gruppo)
 - Il grafico a barre non veniva visualizzato nel PDF generato per la versione JDK6
 - I riferimenti non vengono aggiornati quando si espande un intervallo

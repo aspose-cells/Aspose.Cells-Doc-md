@@ -6,11 +6,11 @@ url: /es/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking
 ---
 ## **Posibles escenarios de uso**
 
-Aspose.Cells le permite detener la conversión de Workbook a varios formatos como PDF, HTML, etc. usando el[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) objeto cuando está tardando demasiado. El proceso de conversión suele hacer un uso intensivo de la CPU y la memoria y suele ser útil detenerlo cuando los recursos son limitados. Puedes usar[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) tanto para detener la conversión como para dejar de cargar un libro de trabajo enorme. Por favor use[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) propiedad para detener la conversión y[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) propiedad para cargar un libro de trabajo enorme.
+Aspose.Cells le permite detener la conversión de Workbook a varios formatos como PDF, HTML, etc. usando el[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) objeto cuando está tardando demasiado. El proceso de conversión suele hacer un uso intensivo de la CPU y la memoria y suele ser útil detenerlo cuando los recursos son limitados. Puedes usar[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor)tanto para detener la conversión como para dejar de cargar un libro de trabajo enorme. Por favor use[**Workbook.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/interruptmonitor) propiedad para detener la conversión y[**LoadOptions.InterruptMonitor**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/interruptmonitor) propiedad para cargar un libro de trabajo enorme.
 
 ## **Detenga la conversión o la carga con InterruptMonitor cuando tarde demasiado**
 
-El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) objeto. El código convierte un archivo de Excel bastante grande a PDF. Tardará varios segundos (es decir,*más de 30 segundos*) para convertirlo debido a estas líneas de código.
+El siguiente código de ejemplo explica el uso de[**InterrumpirMonitor**](https://reference.aspose.com/cells/net/aspose.cells/interruptmonitor) objeto. El código convierte un archivo de Excel bastante grande a PDF. Tomará varios segundos (es decir,*más de 30 segundos*) para convertirlo debido a estas líneas de código.
 
 {{< highlight "csharp" >}}
 

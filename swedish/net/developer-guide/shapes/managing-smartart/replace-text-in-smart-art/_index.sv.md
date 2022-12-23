@@ -6,7 +6,7 @@ url: /sv/net/replace-text-in-smart-art/
 ---
 ## **Möjliga användningsscenarier**
 
- Smart konst är ett av huvudobjekten i en arbetsbok. Många gånger finns det ett behov av att uppdatera texten i smart konst. Aspose.Cells tillhandahåller denna funktion genom att ställa in[**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) fast egendom.
+Smart konst är ett av huvudobjekten i en arbetsbok. Många gånger finns det ett behov av att uppdatera texten i smart konst. Aspose.Cells tillhandahåller denna funktion genom att ställa in[**Shape.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) fast egendom.
 
 Exempelkällfilen kan laddas ner från följande länk:
 

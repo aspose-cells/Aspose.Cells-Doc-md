@@ -12,7 +12,7 @@ Bu sayfa Aspose.Cells for Reporting Services 21.4 için sürüm notları içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSRS-577|TIFF'i dışa aktarma desteği.|Yeni özellik|
+|CELLSRS-577|İhracat desteği TIFF.|Yeni özellik|
 |CELLSRS-578|Aspose.Cells sürümünü 21.4.2'ye yükseltir.| Gelişme|
 
 

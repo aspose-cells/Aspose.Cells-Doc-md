@@ -11,5 +11,5 @@ url: /de/java/utility-features-in-php/
 - [Konvertieren von Excel in PDF-Dateien in PHP](/cells/de/java/converting-excel-to-pdf-files-in-php/)
 - [Konvertieren in MHTML-Dateien in PHP](/cells/de/java/converting-to-mhtml-files-in-php/)
 - [Arbeitsblatt in Bild in PHP konvertieren](/cells/de/java/converting-worksheet-to-image-in-php/)
-- [Konvertieren von Arbeitsblättern in SVG in PHP](/cells/de/java/converting-worksheet-to-svg-in-php/)
+- [Konvertieren des Arbeitsblatts in SVG in PHP](/cells/de/java/converting-worksheet-to-svg-in-php/)
 - [Dokumenteigenschaften in PHP verwalten](/cells/de/java/managing-document-properties-in-php/)

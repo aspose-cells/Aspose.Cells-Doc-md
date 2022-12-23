@@ -6,30 +6,30 @@ url: /fr/java/aspose-cells-for-java-8-7-1-release-notes/
 ---
 ## **Autres améliorations et modifications**
 
-|**Clé** |**Sommaire** |**Catégorie** |
+|**Clé** |**Résumé** |**Catégorie** |
 |:- |:- |:- |
 |CELLSJAVA-41747 | Prise en charge du calcul de la fonction FORMULATEXT|Nouvelle fonctionnalité|
-|CELLSJAVA-41702 | Des colonnes supplémentaires sont ajoutées dans le fichier HTML de sortie| Punaise|
-|CELLSJAVA-41708 | Les colonnes sont manquantes dans la sortie HTML| Punaise|
-|CELLSJAVA-41720 | L'enregistrement d'une image au format SVG lors de la conversion d'une feuille de calcul en HTML entraîne une extension de fichier image incorrecte| Punaise|
-|CELLSJAVA-41721 |Rendu incorrect du texte dans une forme lors de la conversion de la feuille de calcul en HTML| Punaise|
-|CELLSJAVA-41711 | Problème de boucle infinie lors de l'enregistrement au format HTML| Punaise|
+|CELLSJAVA-41702 | Des colonnes supplémentaires sont ajoutées dans le fichier de sortie HTML| Punaise|
+|CELLSJAVA-41708 | Les colonnes manquent dans la sortie HTML| Punaise|
+|CELLSJAVA-41720 | L'enregistrement de l'image dans SVG lors de la conversion de la feuille de calcul en HTML entraîne une extension de fichier image incorrecte| Punaise|
+|CELLSJAVA-41721 | Rendu incorrect du texte dans une forme lors de la conversion de la feuille de calcul en HTML| Punaise|
+|CELLSJAVA-41711 | Problème de boucle infinie lors de l'enregistrement au HTML| Punaise|
 |CELLSJAVA-41737 | Cell.getStringValue pour le type DateTime donne une valeur indésirable| Punaise|
-|CELLSJAVA-41681 | L'en-tête du graphique s'étend au-delà de la bordure du graphique lors de l'utilisation de Chart.toImage| Punaise|
+|CELLSJAVA-41681 |L'en-tête du graphique s'étend au-delà de la bordure du graphique lors de l'utilisation de Chart.toImage| Punaise|
 |CELLSJAVA-41691 | Les étiquettes de données se chevauchent avec la zone de graphique au format d'image du graphique| Punaise|
 |CELLSJAVA-41692 | Les étiquettes de données se chevauchent avec la zone de graphique dans le format de fichier PDF du graphique| Punaise|
 |CELLSJAVA-41696 | Les bordures inférieure et droite sont manquantes dans le format de fichier PDF du graphique| Punaise|
-|CELLSJAVA-41712 | Les couleurs incorrectes sont rendues dans le PDF du graphique à barres| Punaise|
-|CELLSJAVA-41722 | Acrobat Reader affiche une erreur lors du chargement du PDF généré Aspose.Cells'| Punaise|
+|CELLSJAVA-41712 | Les couleurs incorrectes sont rendues dans le graphique à barres PDF| Punaise|
+|CELLSJAVA-41722 | Acrobat Reader affiche une erreur lors du chargement de Aspose.Cells' généré PDF| Punaise|
 |CELLSJAVA-41724 | La série est entièrement opaque en SVG par opposition au graphique d'origine dans la feuille de calcul| Punaise|
-|CELLSJAVA-41725 | L'image SVG est différente du graphique d'origine dans la feuille de calcul| Punaise|
-|CELLSJAVA-41727 | L'effet de remplissage d'image ou de texture de DataLabel n'a pas été rendu au format SVG| Punaise|
+|CELLSJAVA-41725 | SVG l'image est différente du graphique d'origine dans la feuille de calcul| Punaise|
+|CELLSJAVA-41727 | L'effet de remplissage d'image ou de texture de DataLabel n'a pas été rendu à SVG| Punaise|
 |CELLSJAVA-41728 | Le fichier SVG résultant a une taille de 0 Ko| Punaise|
-|CELLSJAVA-41741 | L'image en SVG rend l'image vide/mauvaise| Punaise|
+|CELLSJAVA-41741 | L'image au SVG rend l'image vide/mauvaise| Punaise|
 |CELLSJAVA-41743 | Le titre graphique manque dans le pdf de sortie| Punaise|
-|CELLSJAVA-41714 |FileFormatUtil.loadFormatToExtension renvoie .ODS pour le fichier .ODP| Punaise|
-|CELLSJAVA-41715 | Contenu illisible dans Excel 2007 après avoir réenregistré PerformanceReport.xlsb| Punaise|
-|CELLSJAVA-41731 | La formule de forme ne s'actualise pas lors de l'enregistrement de XLS en XLSB| Punaise|
+|CELLSJAVA-41714 | FileFormatUtil.loadFormatToExtension renvoie .ODS pour le fichier .ODP| Punaise|
+|CELLSJAVA-41715 |Contenu illisible dans Excel 2007 après avoir réenregistré PerformanceReport.xlsb| Punaise|
+|CELLSJAVA-41731 | La formule de forme ne s'actualise pas lors de l'enregistrement de XLS à XLSB| Punaise|
 |CELLSJAVA-41733 | Cell.getFormula renvoie la formule avec le nom de la feuille entre crochets et le chemin d'accès au fichier de feuille de calcul| Punaise|
 |CELLSJAVA-41732 | Exception : "[0]Sheet1!B2-Formule non valide : plusieurs jetons dans la pile" sur la méthode Workbook.calculateFormula()| Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**

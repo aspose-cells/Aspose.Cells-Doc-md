@@ -17,6 +17,6 @@ url: /ar/reportingservices/mismatch-chart-types/
 - المدى BoxPlot
 - شكل قمع
 
- عند تحويل عناصر المخطط التي لا تحتوي على خيارات مكافئة في Microsoft Excel ، يقوم Aspose.Cells بإخراجها إلى الصور.
+عند تحويل عناصر المخطط التي لا تحتوي على خيارات مكافئة في Microsoft Excel ، يقوم Aspose.Cells بإخراجها إلى الصور.
 
 {{% /alert %}}

@@ -30,7 +30,7 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150): capacidad para trabajar con mapas XML
 
- (CELLSNET-43992): admite la funcionalidad de importación de asignación XML como se hace desde la pestaña Desarrollador de Excel
+(CELLSNET-43992): admite la funcionalidad de importación de asignación XML como se hace desde la pestaña Desarrollador de Excel
 
 
 ## **Mejoras**
@@ -42,14 +42,14 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44169) - El orden de la matriz Validation.Value1 es diferente a lo que se muestra en Excel
 
-(CELLSNET-44168) - No se puede crear formato condicional de escala de 2 colores
+ (CELLSNET-44168) - No se puede crear formato condicional de escala de 2 colores
 
  (CELLSNET-44167) - Compatibilidad con la función ISOWEEKNUM MS Excel 2013
 
- (CELLSNET-44166) - La señal digital VBA se pierde durante la conversión (XLSB a XLSM)
+ (CELLSNET-44166) - La señal digital de VBA se pierde durante la conversión (XLSB a XLSM)
 
 
-## **Actuación**
+## **Rendimiento**
 
 
  (CELLSNET-44156): la aplicación de la consola falla en Workbook.CalculateFormula
@@ -62,19 +62,19 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Insectos**
 
 
- (CELLSNET-44164): estructura HTML incompleta al guardar en una secuencia
+ (CELLSNET-44164) - Estructura HTML incompleta al guardar en una secuencia
 
- (CELLSNET-44147): la actualización de la tabla dinámica genera un archivo de Excel corrupto
+(CELLSNET-44147): la actualización de la tabla dinámica genera un archivo de Excel corrupto
 
  (CELLSNET-44022): Workbook.Copy no conserva el formato de las tablas dinámicas.
 
  (CELLSNET-44139): diferentes valores para la misma celda antes y después de llamar al método CalculateFormula()
 
- (CELLSNET-44135) - El archivo de Excel no se calculó correctamente (totalmente) (con respecto a los gráficos) antes de la generación del PDF
+ (CELLSNET-44135) - El archivo de Excel no se calculó correctamente (totalmente) (con respecto a los gráficos) antes de la generación PDF
 
-(CELLSNET-44138) - Cell el sombreado se superpone al borde, lo que provoca que el borde se adelgace
+ (CELLSNET-44138) - Cell el sombreado se superpone al borde, lo que provoca que el borde se adelgace
 
- (CELLSNET-44136): Excel muestra una página en la vista previa de impresión donde Aspose.Cells se representa en páginas PDF
+ (CELLSNET-44136): Excel muestra una página en la vista previa de impresión donde Aspose.Cells se representa en PDF páginas
 
  (CELLSNET-44122): las imágenes en las hojas no se representan de la misma manera que en el archivo de Excel de la plantilla original
 
@@ -82,7 +82,7 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44171) - CopyData entre rangos no funciona horizontalmente pero funciona bien verticalmente
 
- (CELLSNET-44153) - XLSB a XLSM no funciona correctamente y genera un archivo dañado
+(CELLSNET-44153) - XLSB a XLSM no funciona correctamente y genera un archivo dañado
 
  (CELLSNET-44149) - OleObjects se elimina después de la conversión de XLSB a XLSM
 
@@ -92,9 +92,9 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141): el eje de categoría principal del gráfico falla al volver a guardar el archivo Excel de origen
 
-(CELLSNET-44160) - El eje horizontal se cambió a etiquetas diferentes a las del archivo inicial
+ (CELLSNET-44160) - El eje horizontal se cambió a etiquetas diferentes a las del archivo inicial
 
- (CELLSNET-44157): el eje x principal del gráfico personalizado cambió después de abrir y volver a guardar el archivo XLSX de plantilla.
+ (CELLSNET-44157): el eje x principal del gráfico personalizado cambió después de abrir y volver a guardar el archivo de plantilla XLSX
 
  (CELLSNET-43910) - Extraer la imagen de la hoja de trabajo e insertarla en el archivo del documento la vuelve incompleta
 
@@ -106,7 +106,7 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) - System.IndexOutOfRangeException en PivotTable.CalculateData
 
- (CELLSNET-44064) - CalculateFormula genera una excepción en xlsm de origen
+(CELLSNET-44064) - CalculateFormula genera una excepción en xlsm de origen
 
  (CELLSNET-44055) - Aspose.Cell. Excepción provocada por la conversión de PDF debido a la configuración de preferencia de memoria
 
@@ -114,13 +114,13 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44145) - System.NullReferenceException en el factor WorkbookMetadata
 
- (CELLSNET-44143): excepción en Workbook ctor al cargar XLSX
+ (CELLSNET-44143): excepción en el libro de trabajo ctor mientras se carga XLSX
 
  (CELLSNET-44142) - IndexOutOfBoundsException al crear una instancia de Workbook con XLS
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -128,7 +128,7 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Insectos**
 
 
-(CELLSNET-44151): JavaScript no se activa al eliminar contenido de la celda GridWeb.
+ (CELLSNET-44151): JavaScript no se activa al eliminar contenido de la celda GridWeb.
 
  (CELLSNET-44113): el texto de la fila del encabezado también aparece dentro de los valores del filtro.
 
@@ -152,7 +152,7 @@ url: /es/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Elimina la propiedad obsoleta Workbook.SaveOptions.
+ Elimina la propiedad obsoleta Workbook.SaveOptions.
 
  Use el método Workbook.Save(Stream,SaveOptions) o Workbook.Save(string,SaveOptions) en su lugar.
 
@@ -164,7 +164,7 @@ Elimina la propiedad obsoleta Workbook.SaveOptions.
 
 
 
- Agrega la propiedad Proptection.IsProtectedWithPassword.
+Agrega la propiedad Proptection.IsProtectedWithPassword.
 
  Indica si la hoja de trabajo está protegida con contraseña.
 

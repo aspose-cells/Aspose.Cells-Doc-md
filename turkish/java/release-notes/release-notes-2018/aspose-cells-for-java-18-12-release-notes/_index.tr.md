@@ -14,23 +14,23 @@ Bu sayfa Aspose.Cells for Java 18.12 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-42745|Döndürülen türü 'zo[]' olduğundan bağlantı noktaları almaz|Yeni özellik|
 |CELLSJAVA-42662|Aralığı HTML olarak dışa aktarma yeteneği sağlayın|Yeni özellik|
-|CELLSJAVA-42746|XLSX, HTML'ye dönüştürüldüğünde veri çubukları eksik|Yeni özellik|
+|CELLSJAVA-42746|XLSX, HTML'e dönüştürüldüğünde veri çubukları eksik|Yeni özellik|
 |CELLSJAVA-42747|XLSX, HTML dosya formatına dönüştürüldüğünde değer hala mevcuttur|Yeni özellik|
 |CELLSJAVA-42748|LightCells API, büyük bir dosyayı yükleyemiyor|Artırma|
 |CELLSJAVA-42727|MS Excel aralığının HTML çıktısında metin biçimlendirmesi eksik|Böcek|
-|CELLSJAVA-42744|XLSX HTML'ye dönüştürüldüğünde Simge Kümeleri yanlış hizalanır|Böcek|
-|CELLSJAVA-42772|Adlandırılmış aralık verilerini dışa aktarma, HTML'ye doğru şekilde işlenmedi (Java)|Böcek|
+|CELLSJAVA-42744|XLSX, HTML'e dönüştürüldüğünde Simge Kümeleri yanlış hizalanır|Böcek|
+|CELLSJAVA-42772|Adlandırılmış aralık verilerinin dışa aktarılması doğru şekilde HTML'e (Java) işlenmedi|Böcek|
 |CELLSJAVA-42753|Adlandırılmış Aralıkta bulunan bir sorun|Böcek|
 |CELLSJAVA-42764|Doğrulama, 'getInCellDropDown()' yöntemi için her zaman true değerini döndürür|Böcek|
 |CELLSJAVA-42768|Farklı yerel ayarlar (Almanya, Fransa, İtalya ve İspanya) için yanlış kültür özel biçimi döndürülüyor|Böcek|
 |CELLSJAVA-42758|Excel'den PDF'e dönüştürme - Gösterge grafiği oluşturma sorunu|Böcek|
-|CELLSJAVA-42761|PDF yorumlama, OutOfMemoryError istisnasını atar|Böcek|
+|CELLSJAVA-42761|PDF yorumlama, OutOfMemoryError özel durumu oluşturuyor|Böcek|
 |CELLSJAVA-42759|Dosyaları dönüştürürken CellsException|İstisna|
-|CELLSJAVA-42755|XLSX dosyalarının örneğini oluştururken "NullPointerException" istisnası|İstisna|
+|CELLSJAVA-42755|XLSX dosya(lar)ı başlatılırken "NullPointerException" istisnası|İstisna|
 |CELLSJAVA-42762|Dosyaları işlerken NumberFormatException|İstisna|
-|CELLSJAVA-42774|CSV yüklerken NullPointerException|İstisna|
-|CELLSJAVA-42765|Bir Excel dosyasını PDF dosya biçimine dönüştürürken "com.aspose.cells.CellsException" istisnası|İstisna|
-|CELLSJAVA-42754|Bir XLS dosya formatını başlatırken "IllegalStateException: Geçersiz kodlama: null"|İstisna|
+|CELLSJAVA-42774|Bir CSV yüklenirken NullPointerException|İstisna|
+|CELLSJAVA-42765|Bir Excel dosyasını PDF dosya biçiminde işlerken "com.aspose.cells.CellsException" istisnası|İstisna|
+|CELLSJAVA-42754|Bir XLS dosya biçimi başlatılırken "IllegalStateException: Geçersiz kodlama: null"|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **HtmlSaveOptions.ExportSingleTab özelliğini ekler**

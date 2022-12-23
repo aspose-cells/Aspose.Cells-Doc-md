@@ -83,7 +83,7 @@ Im obigen Screenshot sehen Sie, dass eine Formel zu B3 hinzugefügt, aber noch n
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-CalculateFormula-CalculateFormula.jsp" >}}
 
- Benutzer können Formeln auch durch Klicken berechnen**Einreichen**.
+ Benutzer können Formeln auch durch Klicken berechnen**einreichen**.
 
 **Klicken Sie auf die Schaltfläche Senden von GridWeb** 
 

@@ -21,14 +21,14 @@ Il punto più importante da sapere sulle proprietà predefinite e personalizzate
 
 ## **Gestione delle proprietà del documento utilizzando Microsoft Excel**
 
- Microsoft Excel consente di gestire le proprietà del documento dei file Excel in modo WYSIWYG. Si prega di seguire i passaggi seguenti per aprire il file**Proprietà** finestra di dialogo in Excel 2016.
+ Microsoft Excel permette di gestire le proprietà dei documenti dei file Excel in maniera WYSIWYG. Si prega di seguire i passaggi seguenti per aprire il file**Proprietà** finestra di dialogo in Excel 2016.
 
 1.  Dal**File** menù, selezionare**Informazioni**.
 
 |**Selezionando Menu Informazioni**|
 |:- |
 |![cose da fare:immagine_alt_testo](managing-document-properties_1.png)|
-1.  Clicca su**Proprietà** voce e selezionare "Proprietà avanzate".
+1.  Clicca su**Proprietà**voce e selezionare "Proprietà avanzate".
 
 |**Facendo clic su Selezione proprietà avanzate**|
 |:- |
@@ -46,7 +46,7 @@ Gli sviluppatori possono gestire dinamicamente le proprietà del documento utili
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET scrive direttamente le informazioni sull'API e il numero di versione nei documenti di output. Ad esempio, dopo il rendering del documento in PDF, Aspose.Cells for .NET viene popolato**Applicazione** campo con valore 'Aspose.Cells' e**Produttore PDF** campo con il valore, ad esempio 'Aspose.Cells v17.9'.
+ Aspose.Cells for .NET scrive direttamente le informazioni su API e il numero di versione nei documenti di output. Ad esempio, dopo aver reso Document to PDF, Aspose.Cells for .NET popola**Applicazione** campo con valore 'Aspose.Cells' e**PDF Produttore** campo con il valore, ad esempio 'Aspose.Cells v17.9'.
 
 Si prega di notare che non è possibile incaricare Aspose.Cells for .NET di modificare o rimuovere queste informazioni dai documenti di output.
 
@@ -54,9 +54,9 @@ Si prega di notare che non è possibile incaricare Aspose.Cells for .NET di modi
 
 ### **Accesso alle proprietà del documento**
 
- Aspose.Cells Le API supportano entrambi i tipi di proprietà del documento, integrate e personalizzate. Aspose.Cells'[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class rappresenta un file Excel e, come un file Excel, il file[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la classe può contenere più fogli di lavoro, ciascuno rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class mentre la raccolta di fogli di lavoro è rappresentata dal file[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)classe.
+Aspose.Cells Le API supportano entrambi i tipi di proprietà del documento, integrate e personalizzate. Aspose.Cells'[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class rappresenta un file Excel e, come un file Excel, il file[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe può contenere più fogli di lavoro, ciascuno rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class mentre la raccolta di fogli di lavoro è rappresentata dal file[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)classe.
 
- Utilizzare il[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)per accedere alle proprietà del documento del file come descritto di seguito.
+ Usa il[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)per accedere alle proprietà del documento del file come descritto di seguito.
 
 -  Per accedere alle proprietà predefinite del documento, utilizzare[**WorksheetCollection.BuiltInDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/builtindocumentproperties).
 -  Per accedere alle proprietà del documento personalizzate, utilizzare[**WorksheetCollection.CustomDocumentProperties**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/properties/customdocumentproperties).
@@ -103,7 +103,7 @@ Come descritto in precedenza all'inizio di questo argomento, gli sviluppatori no
 
  Per creare una proprietà personalizzata collegata al contenuto di un determinato intervallo, chiama il metodo[**CustomDocumentPropertyCollection.AddLinkToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/addlinktocontent) metodo e passare il nome della proprietà e l'origine. Puoi verificare se una proprietà è configurata come collegata al contenuto utilizzando il file[**DocumentProperty.IsLinkedToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/islinkedtocontent) proprietà. Inoltre, è anche possibile ottenere l'intervallo di origine utilizzando il file[**Fonte**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/source) proprietà del[**Proprietà documento**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)classe.
 
- Usiamo un semplice modello di file Microsoft Excel nell'esempio. La cartella di lavoro ha un intervallo denominato definito etichettato**MyRange** che fa riferimento a un valore di cella.
+ Usiamo un semplice modello di file Excel Microsoft nell'esempio. La cartella di lavoro ha un intervallo denominato definito etichettato**MyRange** che fa riferimento a un valore di cella.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-ConfigureLinktoContentDocumentProperty.cs" >}}
 

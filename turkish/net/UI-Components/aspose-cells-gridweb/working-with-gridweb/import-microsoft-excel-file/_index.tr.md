@@ -36,7 +36,7 @@ Yukarıdaki kod parçasını istediğiniz gibi kullanabilirsiniz. Örneğin, bir
 
 **Bir düğmeye tıklandığında bir Excel dosyası yüklenir** 
 
-![yapılacaklar:resim_alternatif_Metin](import-microsoft-excel-file_1.png)
+![yapılacaklar:resim_alternatif_metin](import-microsoft-excel-file_1.png)
 
 {{% alert color="primary" %}} 
 

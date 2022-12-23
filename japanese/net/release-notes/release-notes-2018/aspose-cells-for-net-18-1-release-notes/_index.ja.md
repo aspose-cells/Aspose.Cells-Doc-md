@@ -27,7 +27,7 @@ for .NET の Aspose.Cells には、Xamarin 経由の iOS 用の Aspose.Cells と
 |CELLSNET-45803|XLS 形式は MS Excel 2016 と一致する必要があります|強化|
 |CELLSNET-45842|FontSettings は相互に上書きされますが、MS Excel は両方を保持します|強化|
 |CELLSNET-45653|GridDesktop でのフィルタリングが正しく機能しない、または Microsoft Excel のように|強化|
-|CELLSNET-45763|Excel から PDF への変換で図形テキストが回転する|バグ|
+|CELLSNET-45763|図形のテキストは、Excel で PDF 変換に回転されます。|バグ|
 |CELLSNET-45669|画像変換時に文字が重なる|バグ|
 |CELLSNET-45841|Power Pivot を扱う XLSB ファイルを開いて再保存すると破損する|バグ|
 |CELLSNET-45819|HTML から Excel へのエクスポート時に境界線が表示されない|バグ|
@@ -35,29 +35,29 @@ for .NET の Aspose.Cells には、Xamarin 経由の iOS 用の Aspose.Cells と
 |CELLSNET-45788|単一タブ ドキュメントの個別のスタイルシートのエクスポートをサポート|バグ|
 |CELLSNET-45826|XLSX を PDF に変換すると、画像のプロパティ (タイトルと件名) が失われる|バグ|
 |CELLSNET-45811|Excel をレンダリングすると右側の境界線が切り取られ、一部のデータが失われる|バグ|
-|CELLSNET-45808|Excel を PDF に変換すると、RTL 言語を使用しているときに単語がアポストロフィで切り取られる|バグ|
-|CELLSNET-45840|XLS 形式に保存した後にグラフが引き伸ばされる - 「マウスオーバー イベント - embedded.xls」|バグ|
+|CELLSNET-45808|Excel を PDF に変換すると、RTL 言語の使用時に単語がアポストロフィで切り取られる|バグ|
+|CELLSNET-45840|XLS 形式で保存した後、グラフが引き伸ばされる - 「マウスオーバー イベント - embedded.xls」|バグ|
 |CELLSNET-45815|QAR_symbol が「丿.兀」に設定されている場合、Chart.Calculate がハングします。|バグ|
 |CELLSNET-45765|カスタム形式が「mm」形式を使用している場合、グラフをエクスポートできませんでした|バグ|
 |CELLSNET-45756|Excel ファイルを開いて再保存すると、グラフを含むシートに変更が表示される|バグ|
-|CELLSNET-45580|特定の XLS ファイルでグラフのサイズが変更される|バグ|
+|CELLSNET-45580|特定の XLS ファイルでグラフ サイズが変更される|バグ|
 |CELLSNET-45018|読み込みと保存後に Excel グラフが変更されました|バグ|
 |CELLSNET-44901|凡例のエントリは、単純な再保存後にわずかに下に移動しました|バグ|
 |CELLSNET-45775|グラフを画像に変換するときに、2 番目の縦軸のラベルが表示されない|バグ|
 |CELLSNET-45850|あるブックから別のブックにシートをコピーする際のエラー|バグ|
-|CELLSNET-45847|SpreadsheetML から XLSX - Aspose.Cells は保護設定を設定します|バグ|
+|CELLSNET-45847|SpreadsheetML ～ XLSX - Aspose.Cells は保護設定を設定します|バグ|
 |CELLSNET-45846|MS Excel に再保存したファイルを開くと、エラー メッセージが表示されます。|バグ|
 |CELLSNET-45838|左のグラフ、つまり「季節調整」 - 出力 Excel ファイルでバーのサイズが変化します|バグ|
 |CELLSNET-45837|プレフィックスが 2 つある要素が含まれているため、スプレッドシート XML が無効になります|バグ|
 |CELLSNET-45835|Cell.R1C1Formula は、名前付き範囲を参照すると null を返します|バグ|
 |CELLSNET-45834|OLE オブジェクトを挿入すると、埋め込まれた Pdf 画像が壊れる|バグ|
-|CELLSNET-45831|変換後に失われた計算チェーン部分 (XLSB -> XLSM)|バグ|
+|CELLSNET-45831|変換後に欠落した計算チェーン部分 (XLSB -> XLSM)|バグ|
 |CELLSNET-45827|リスト数がゼロの場合、ImportCustomObjects はフィールド名をインポートしません|バグ|
 |CELLSNET-45816|ファイルを開く際の無効な数式エラー|バグ|
 |CELLSNET-45814|垂直方向の配置がセル範囲に適用されない|バグ|
 |CELLSNET-45812|XLSX ファイルを再保存すると絶対パスが相対パスに変わる|バグ|
 |CELLSNET-45810|RGB(255, 0, 0) は、HtmlString 割り当ての Int32 の有効な値ではありません|バグ|
-|CELLSNET-44690|XLS を再保存すると、グラフが垂直方向に引き伸ばされます|バグ|
+|CELLSNET-44690|XLS を再保存すると、グラフが縦に伸びます|バグ|
 |CELLSNET-44621|XLSB から XLSM への変換: 結果のファイルに xl\queryTables\queryTable1 が含まれていません|バグ|
 |CELLSNET-45800|セル A1 をクリックすると、他のセルにジャンプし、フォーカスされたセルの位置が間違っています|バグ|
 |CELLSNET-45793|折りたたみ/展開後にグループのステータスが正しくない - Aspose.Cells.GridDesktop|バグ|

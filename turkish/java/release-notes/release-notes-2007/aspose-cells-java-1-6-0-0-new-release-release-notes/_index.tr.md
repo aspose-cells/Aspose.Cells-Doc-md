@@ -15,7 +15,7 @@ url: /tr/java/aspose-cells-java-1-6-0-0-new-release-release-notes/
  Aspose.Cells for Java V1.6.0 sürümünü yayınladık! Aşağıdaki geliştirmeler ve düzeltmeler dahildir:
 
 - Smart Marker Designer'ı destekler
- EMF/WMF formatında görüntü eklemeyi destekler
+ EMF/WMF biçimli görüntü eklemeyi destekler
  Grafikte düz çizgi ayarlamayı destekler
 Alanı gizlemek/göstermek için Area.setVisible() yöntemini ekler
  Demoları günceller

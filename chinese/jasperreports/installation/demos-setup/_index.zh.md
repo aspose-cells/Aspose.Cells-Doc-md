@@ -16,7 +16,7 @@ Aspose.Cells for JasperReports 提供的演示是标准的 JasperReports 演示�
 
 1. 下载 JasperReports（例如<https://sourceforge.net/projects/jasperreports/files/archive/>).确保下载包含源代码和演示的整个存档项目，而不仅仅是一个 JAR。
 1. 将归档项目解压到硬盘上的某个位置，例如 C:\。
-1. 从 \demo 文件夹中复制所有演示文件夹**Aspose.Cells.JasperReports.zip**至**\<安装目录>\demo\samples**， 在哪里 ”\<InstallDir>" 是您将 JasperReports 解压到的位置。此步骤是必需的，因为演示构建脚本依赖于 JasperReports 的文件夹结构，否则您将需要修改构建脚本。
+1. 从 \demo 文件夹中复制所有演示文件夹**Aspose.Cells.JasperReports.zip**到**\<安装目录>\demo\samples**， 在哪里 ”\<InstallDir>" 是您将 JasperReports 解压到的位置。此步骤是必需的，因为演示构建脚本依赖于 JasperReports 的文件夹结构，否则您将需要修改构建脚本。
 1. 复制**aspose.cells.jasperreports.jar**从 Aspose.Cells.JasperReports.zip 的 \lib 文件夹到**\<安装目录>\lib**.
 1. 准备Ant Build Tool和Ivy Dependency Manager，参见**\<安装目录>\readme.txt**.
 1. 修改**构建.xml**在**\<安装目录>\demo\samples**，将 aspose.cells.jasperreports.jar 添加到类路径中：

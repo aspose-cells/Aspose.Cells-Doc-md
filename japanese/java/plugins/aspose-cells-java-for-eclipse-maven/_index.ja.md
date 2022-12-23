@@ -10,7 +10,7 @@ Eclipse IDE は、有名な Java 統合開発環境 (IDE) です。 IDE は間�
 
 Eclipse IDE は、ソフトウェア コンポーネントを追加して拡張できます。 Eclipse では、これらのソフトウェア コンポーネントをプラグインと呼びます。いくつかのオープン ソース プロジェクトや企業は、Eclipse IDE を拡張したり、Eclipse フレームワーク上にスタンドアロン アプリケーション (Eclipse RCP) を作成したりしています。
 ### **Aspose.Cells for Java**
-[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)受賞歴のある Excel スプレッドシート コンポーネントであり、Java 開発者は、Excel® スプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF、および画像を読み取り、書き込み、操作する機能を組み込むことができます。 Microsoft Excel® に依存する必要なく、ファイル形式を独自の Java アプリケーションに変換できます。
+[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image Microsoft Excel® に依存する必要なく、ファイル形式を独自の Java アプリケーションに変換できます。
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)他のベンダーの単純なデータ エクスポート機能をはるかに超える多くの機能を提供する、成熟したスケーラブルで機能豊富なコンポーネントです。 Aspose.Cells for Java を使用すると、開発者は、データのエクスポート、スプレッドシートの最も細かいレベルへの書式設定、画像のインポート、グラフの作成、複雑な数式の適用と計算、Excel® データのストリーミング、さまざまな形式での保存など、すべて Microsoft Excel® を必要とせずに実行できます。または Microsoft オフィス オートメーション。
 ### **Aspose.Cells Eclipse の場合は Java (Maven)**

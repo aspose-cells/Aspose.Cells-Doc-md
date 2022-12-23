@@ -13,7 +13,7 @@ Aspose.Cells ermöglicht es Ihnen, die Farbe einzelner Arbeitsblatt-Registerkart
 ## **Festlegen der Farbe der Arbeitsblattregisterkarte mit Microsoft Excel**
 
 1. Klicken Sie mit der rechten Maustaste auf eine Registerkarte im Registerkartenblatt unten im aktuellen Arbeitsblatt.
-1.  Auswählen**Registerkartenfarbe**.
+1.  Wählen**Registerkartenfarbe**.
 1. Wählen Sie eine Farbe aus der Palette aus.
 1.  Klicken**OK**.
 

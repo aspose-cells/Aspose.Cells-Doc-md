@@ -18,11 +18,11 @@ Bu sayfa Aspose.Cells for Java 18.4 için sürüm notları içerir.
 |CELLSJAVA-42580|Dil belgesi özelliğini al/ayarla|Artırma|
 |CELLSJAVA-42565|Ön plan rengi - Arka plan rengi - Dolgu rengi - İki bağımsız değişken alan tek bir yöntem kullanın|Artırma|
 |CELLSJAVA-42528|"<Font>" geçerli bir HTML5 ve kendi kendine kapanan etiket değil ve web tarayıcıları içeriğini yanlış tanıtıyor|Artırma|
-|CELLSJAVA-42413|SVG resim türünü Aspose.Cells ile çalışma sayfası hücrelerine ekleyin|Artırma|
-|CELLSJAVA-42551|Çıktı PDF'sinde bazı şekiller doğru değil|Böcek|
-|CELLSJAVA-42578|Excel'i HTML'ye kaydederken koşullu biçimlendirme kayboluyor|Böcek|
-|CELLSJAVA-42571|Çıktı HTML'si MS-Excel ile eşleşmiyor|Böcek|
-|CELLSJAVA-42553|HTML'ye dışa aktarıldıktan sonra adlandırılmış alana bağlantılar yanlış|Böcek|
+|CELLSJAVA-42413|SVG görüntü türünü Aspose.Cells ile çalışma sayfası hücrelerine ekleyin|Artırma|
+|CELLSJAVA-42551|Çıktıda bazı şekiller doğru değil PDF|Böcek|
+|CELLSJAVA-42578|Excel HTML'e kaydedilirken koşullu biçimlendirme kayboluyor|Böcek|
+|CELLSJAVA-42571|HTML çıktısı, MS-Excel ile eşleşmiyor|Böcek|
+|CELLSJAVA-42553|HTML'e aktarıldıktan sonra, adlandırılmış alana olan bağlantılar yanlış|Böcek|
 |CELLSJAVA-42530|Pivot Tablolar ve ilgili Grafikler doğru Tarih biçimine sahip değil|Böcek|
 |CELLSJAVA-42527|Grafikte x ekseninde birçok değer var ve değerler birbiri üzerine biniyor|Böcek|
 |CELLSJAVA-42581|Aspose.Cells, A2 hücresinin yanlış değerini döndürür|Böcek|
@@ -37,7 +37,7 @@ Bu sayfa Aspose.Cells for Java 18.4 için sürüm notları içerir.
 # **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **HtmlCrossType enum için yeni öğe "CrossHideRight" ekler**
-HTML çapraz dizesini görüntüler ve metin üst üste bindiğinde doğru dizeyi gizler.
+HTML çapraz dizeyi görüntüler ve metin üst üste geldiğinde sağ diziyi gizler.
 #### **LoadFormat, SaveFormat ve FileFormatType numaralandırmaları için yeni öğe "TSV" ekler**
 "TabDelimited" ile aynı olan bir TSV(Sekmeyle ayrılmış değerler) dosyasını temsil eder.
 #### **Enum ImageType ekler**
@@ -63,8 +63,8 @@ Grafik noktasının Y değer türünü alır.
 #### **Enum PageLayoutAlignmentType ekler**
 Sayfa düzeni hizalama türlerini temsil eder.
 #### **Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) yöntemini ekler**
-Grafiğin PDF'sini istenen sayfa boyutuyla oluşturur ve bir akışa kaydeder.
+Grafiğin PDF'ini istenen sayfa boyutuyla oluşturur ve bir akışa kaydeder.
 #### **Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) yöntemini ekler**
-Grafiğin PDF'sini istenen sayfa boyutunda oluşturur ve bir dosyaya kaydeder.
+Grafiğin PDF'ini istenen sayfa boyutunda oluşturur ve bir dosyaya kaydeder.
 #### **PdfSaveOptions.OutputBlankPageWhenNothingToPrint özelliği ekler**
 Yazdırılacak bir şey olmadığında boş bir sayfa çıktısı alınıp alınmayacağını belirtir.

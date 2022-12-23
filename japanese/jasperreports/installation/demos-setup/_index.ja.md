@@ -24,5 +24,5 @@ Aspose.Cells for JasperReports デモを実行するには、次の手順を実�
 1. 現在のディレクトリを次の場所に変更します**\<インストールディレクトリ>\demo\hsqldb**次のコマンドラインを実行します。
    **ant runServer**
 1. 現在のディレクトリを Aspose.Cells for JasperReports デモのいずれかに変更します。たとえば、**\<InstallDir>\demo\samples\ac.charts**コマンドラインで次のコマンドを実行します。
-   **アリテスト** Aspose XLS エクスポーターを使用してレポート ファイルを作成します。
+   **アリテスト** Aspose XLS エクスポーターを使用してレポート ファイルを生成します。
 1. 結果のドキュメントの 1 つを開いて表示します。たとえば、**\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** Microsoft Excel または別のアプリケーションで。

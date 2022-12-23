@@ -35,7 +35,7 @@ Aspose.Cells
 - Shapes.AddCopy スロー: インデックスが範囲外でした
 - ワークシートをコピーした後の NullReferenceException
 - 例外: ファイルを開くときに無効な MsoLineDashStyle 文字列値が発生しました
-- 一部の XLSX ファイルを TIFF 形式に変換できない
+- 一部の XLSX ファイルを TIFF 形式に変換できません
 
 
 
@@ -63,7 +63,7 @@ Aspose.Cells
 - PDF 形式で保存するときの計算セルの問題
 - Cells 計算が正しくありません
 
--PDF へのエクスポート時のテキスト値のカスタム書式設定
+ PDF にエクスポートする際のテキスト値のカスタム書式設定
 
 - Excel から PDF への変換に関する問題
 - ピボット テーブルを含むシートを削除するとブックが破損する
@@ -81,7 +81,7 @@ Aspose.Cells
 - Aspose.Cells で画像イメージを正確に印刷できない
 - WorkBook.Copy() メソッド使用中のエラー
 - Microsoft Office ファイル検証アドインの警告
-- ClearData オプションを使用して XLS 形式に保存する際の問題
+- ClearData オプションを使用して XLS 形式で保存する際の問題
 - 条件付き書式 - *.XLSB との互換性の問題
 - 単純に開いて\保存した後のワークブックの破損
 - Aspose.Cells によって作成された XLSX ファイルを変換すると、Excel で無効な XLS ファイルが生成される

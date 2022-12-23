@@ -14,8 +14,8 @@ Para cambiar la fuente y el color de una celda usando Aspose.Cells.GridDesktop, 
 
 -  Accede a cualquier deseado**Hoja de cálculo**
 -  Accede a un**Cell** sobre el que queremos aplicar un**Estilo**
--  Obtener**Estilo** del**Cell**
--  Establecer**Estilo** propiedades de acuerdo a sus necesidades personalizadas
+-  Conseguir**Estilo** del**Cell**
+-  Colocar**Estilo** propiedades de acuerdo a sus necesidades personalizadas
 -  Finalmente, establezca**Estilo** del**Cell** con el actualizado
 
  Hay muchas propiedades y métodos útiles ofrecidos por**Estilo** objeto que pueden usar los desarrolladores para personalizar el estilo de acuerdo con sus requisitos. En el siguiente código, se demuestra cómo aplicar un estilo personalizado en la celda.
@@ -37,8 +37,8 @@ Hay seis tipos de bordes admitidos por Aspose.Cells.GridDesktop de la siguiente 
 ### **Tipos de líneas de borde**
 Un borde se compone de una línea. Al cambiar el tipo de línea, cambia la apariencia de un borde. Hay muchos tipos de líneas de borde compatibles con Aspose.Cells.GridDesktop, que también se enumeran a continuación:
 
-- **Ninguna** , no representa ninguna frontera
-- **Delgada** , representa un borde de línea continua
+- **Ninguno** , no representa ninguna frontera
+- **Delgado** , representa un borde de línea sólida
 - **Medio** , representa un borde de línea sólida con un ancho de línea igual a 2f
 - **punteado** , representa el borde de la línea discontinua
 - **Punteado** , representa el borde de la línea de puntos
@@ -55,7 +55,7 @@ Un borde se compone de una línea. Al cambiar el tipo de línea, cambia la apari
 ## **Configuración de formatos de número**
 Aspose.Cells.GridDesktop también proporciona una función sólida de configuración de formatos de números para los valores ingresados en las celdas. Hay 58 formatos de números integrados ofrecidos por Aspose.Cells.GridDesktop. Para ver una lista completa de todos los formatos de número admitidos, consulte[Formatos de número admitidos.](/cells/es/net/list-of-supported-number-formats/)
 
- A todos los formatos numéricos integrados se les asigna un**Índice** número.**Por ejemplo** la**Índice** número de**0.00E+00** el formato de número es**11** . Para usar un formato de número incorporado en cualquier celda, los desarrolladores pueden establecer la propiedad NumberFormat de**Estilo** objetar a la**Índice** número de ese formato de número específico. Sin embargo, si los desarrolladores necesitan tener su propio formato de número personalizado, también pueden usar la propiedad personalizada de**Estilo** objeto.
+ A todos los formatos numéricos integrados se les asigna un**Índice** número.**Por ejemplo** el**Índice** número de**0.00E+00** el formato de número es**11** . Para usar un formato de número incorporado en cualquier celda, los desarrolladores pueden establecer la propiedad NumberFormat de**Estilo** objetar a la**Índice** número de ese formato de número específico. Sin embargo, si los desarrolladores necesitan tener su propio formato de número personalizado, también pueden usar la propiedad personalizada de**Estilo** objeto.
 
 
 

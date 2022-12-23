@@ -12,6 +12,6 @@ Potrebbero esserci situazioni in cui potresti voler modificare le proprietà del
 
  Vedere il seguente codice di esempio. Carica il[esempio di file Excel](sampleCreateSlicerToExcelTable.xlsx) che contiene una tabella. Quindi crea l'affettatrice in base alla prima colonna e ne modifica le proprietà come altezza della riga, larghezza, è stampabile, titolo, ecc. Salva la cartella di lavoro come[outputChangeSlicerProperties.xlsx](outputChangeSlicerProperties.xlsx).
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Slicers-ChangeSlicerProperties-1.cs" >}}

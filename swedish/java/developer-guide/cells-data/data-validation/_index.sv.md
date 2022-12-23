@@ -14,7 +14,7 @@ Microsoft Excel tillhandahåller några bra funktioner för att automatiskt filt
 ## **Datavalideringstyper och exekvering**
 Microsoft Excel stöder ett antal olika typer av datavalidering. Varje typ används för att styra vilken typ av data som matas in i en cell eller cellintervall. Nedan illustrerar kodavsnitt hur man validerar det:
 
-- [Siffror är hela](/cells/sv/java/data-validation/)det vill säga att de inte har en decimaldel.
+- [Numbers är hela](/cells/sv/java/data-validation/)det vill säga att de inte har en decimaldel.
 - [Decimaltal följer rätt struktur](/cells/sv/java/data-validation/). Kodexemplet definierar att ett cellområde ska ha två decimaler.
 - [Värden är begränsade till en lista med värden](/cells/sv/java/data-validation/). Listvalidering definierar en separat lista med värden som kan tillämpas på en cell eller cellintervall.
 - [Datum faller inom ett specifikt intervall](/cells/sv/java/data-validation/).
@@ -33,7 +33,7 @@ Så här skapar du valideringar med Microsoft Excel:
 ![todo:image_alt_text](data-validation_1.png)
 ### **Datavalidering med Aspose.Cells**
 Datavalidering är en kraftfull funktion för att validera informationen som skrivs in i kalkylblad. Med datavalidering kan utvecklare ge användarna en lista med valmöjligheter, begränsa datainmatningar till en specifik typ eller storlek, etc.
- I Aspose.Cells, vardera[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)klass har en[Valideringar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Validations)objekt som representerar en samling av[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)objekt. För att ställa in validering, ställ in några av[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)klass egenskaper:
+ I Aspose.Cells, vardera[Arbetsblad](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)klass har en[Valideringar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Validations)objekt som representerar en samling av[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)föremål. För att ställa in validering, ställ in några av[Godkännande](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)klass egenskaper:
 
 - [Typ](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Type): representerar valideringstypen, som kan specificeras genom att använda ett av de fördefinierade värdena i[ValidationType](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)uppräkning.
 - [Operatör](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#Operator): representerar den operator som ska användas i valideringen, som kan specificeras genom att använda ett av de fördefinierade värdena i[Operatörstyp](https://reference.aspose.com/cells/java/com.aspose.cells/OperatorType)uppräkning.
@@ -106,7 +106,7 @@ När datavalideringar implementeras kan valideringen kontrolleras genom att till
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-VerifyCellValueSatisfiesDataValidationRules-1.java" >}}
 ## **Kontrollera om validering i en cell är rullgardinsmeny**
- Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) egenskapen kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. Exempelfilen för testning kan laddas ner från följande länk:
+ Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[Validation.InCellDropDown](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#InCellDropDown) egenskap kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. Exempelfilen för testning kan laddas ner från följande länk:
 
 [sampleDataValidationRules.xlsx](77987849.xlsx)
 
@@ -128,6 +128,6 @@ Käll- och utdata Excel-filerna bifogas som referens.
 
 
 ## **Förhandsämnen**
-- [Få Cell Validering i ODS-filer](/cells/sv/java/get-cell-validation-in-ods-files/)
+- [Få Cell Validering i ODS filer](/cells/sv/java/get-cell-validation-in-ods-files/)
 - [Få validering tillämpad på en Cell](/cells/sv/java/get-validation-applied-on-a-cell/)
 - [Verifiera att Cell-värdet uppfyller reglerna för datavalidering](/cells/sv/java/verify-that-cell-value-satisfies-data-validation-rules/)

@@ -28,21 +28,21 @@ Lorsqu'une ligne (ou une colonne) est copiée, les données qu'elle contient, y 
 1.  Dans l'onglet Accueil, cliquez sur**Copie**.
 1.  Cliquez sur la première cellule de la zone où vous souhaitez**pâte** ce que vous avez copié.
 1.  Dans l'onglet Accueil, cliquez sur la flèche à côté de**Pâte** , puis sélectionnez**Pâte** Spécial.
-1.  Sélectionnez le**options** tu veux.
+1.  Sélectionnez le**choix** vous voulez.
 
 ## **En utilisant Aspose.Cells**
 
 ## **Copier des lignes uniques**
 
- Aspose.Cells fournit le[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) méthode de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)classer. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la ligne source vers la ligne de destination.
+ Aspose.Cells fournit le[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow) méthode de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)classe. Cette méthode copie tous les types de données, y compris les formules, les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la ligne source vers la ligne de destination.
 
- La[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)méthode prend les paramètres suivants :
+ Le[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)méthode prend les paramètres suivants :
 
 -  la source[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objet,
 - l'index de la ligne source, et
 - l'index de la ligne de destination.
 
- Utilisez cette méthode pour copier une ligne dans une feuille ou dans une autre feuille. La[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)La méthode fonctionne de la même manière que Microsoft Excel. Ainsi, par exemple, vous n'avez pas besoin de définir explicitement la hauteur de la ligne de destination, cette valeur est également copiée.
+ Utilisez cette méthode pour copier une ligne dans une feuille ou dans une autre feuille. Le[**CopieRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)La méthode fonctionne de la même manière que Microsoft Excel. Ainsi, par exemple, vous n'avez pas besoin de définir explicitement la hauteur de la ligne de destination, cette valeur est également copiée.
 
 L'exemple suivant montre comment copier une ligne dans une feuille de calcul. Il utilise un modèle de fichier Excel Microsoft et copie la deuxième ligne (complète avec les données, le formatage, les commentaires, les images, etc.) et le colle à la 12e ligne de la même feuille de calcul.
 
@@ -70,7 +70,7 @@ Vous pouvez également copier plusieurs lignes vers une nouvelle destination tou
 
  Aspose.Cells fournit le[**CopierColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn) méthode de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)classe, cette méthode copie tous les types de données, y compris les formules - avec des références mises à jour - et les valeurs, les commentaires, les formats de cellule, les cellules masquées, les images et autres objets de dessin de la colonne source vers la colonne de destination.
 
- La[**CopierColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)méthode prend les paramètres suivants :
+ Le[**CopierColonne**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)méthode prend les paramètres suivants :
 
 -  la source[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)objet,
 - index de colonne source, et

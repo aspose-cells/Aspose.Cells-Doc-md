@@ -12,9 +12,9 @@ Aspose.Cells stöder konvertering av en Json-fil (JavaScript Object Notation) ti
 
 {{% /alert %}}
 
-## **Konvertera JSON till Excel arbetsbok**
+## **Konvertera JSON till Excel-arbetsbok**
 
- Du behöver inte undra hur man konverterar JSON till Excel-fil, eftersom Aspose.Cells Java-biblioteket har bästa beslutet. Aspose.Cells Java API ger stöd för att konvertera JSON-format till kalkylblad. Du kan använda[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) klass för att ange ytterligare inställningar för import av JSON till arbetsbok.
+ Du behöver inte undra hur man konverterar JSON till Excel-fil, eftersom biblioteket Aspose.Cells Java har bästa beslutet. Aspose.Cells Java API ger stöd för att konvertera formatet JSON till kalkylblad. Du kan använda[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) klass för att ange ytterligare inställningar för import av JSON till arbetsbok.
 
 Följande kodexempel visar import av JSON till Excel Workbook. Se koden för att konvertera[källfilen](sample.json) till xlsx-filen som genereras av koden för referens.
 

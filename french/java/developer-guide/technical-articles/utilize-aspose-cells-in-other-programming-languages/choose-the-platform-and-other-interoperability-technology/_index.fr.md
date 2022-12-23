@@ -19,7 +19,7 @@ url: /fr/java/choose-the-platform-and-other-interoperability-technology/
 | perle|Java | En ligne :: Java|
 | PHP|Java |Java Pont|
 |Python |Java | JPype|
- Dans le tableau ci-dessus, vous pouvez voir que pour certains langages de programmation, il est possible d'utiliser Aspose.Cells for Java. Le tableau suivant peut vous aider à choisir :
+ Dans le tableau ci-dessus, vous pouvez voir que pour certains langages de programmation, il est possible d'utiliser Aspose.Cells for Java. Le tableau suivant peut vous aider à choisir :
 
 |**Scénario** |**Quand utiliser** |
 |:- |:- |

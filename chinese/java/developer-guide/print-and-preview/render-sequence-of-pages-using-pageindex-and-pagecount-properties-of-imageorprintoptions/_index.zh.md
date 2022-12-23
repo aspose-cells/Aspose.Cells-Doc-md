@@ -12,9 +12,9 @@ url: /zh/java/render-sequence-of-pages-using-pageindex-and-pagecount-properties-
 
 下面的示例代码加载[示例 Excel 文件](55541812.xlsx)并且只渲染第 4、5、6 和 7 页[**ImageOrPrintOptions.PageIndex**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageIndex)和[**ImageOrPrintOptions.PageCount**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#PageCount)特性。这是代码生成的渲染页面。
 
-|![待办事项：图像_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1.png)|![待办事项：图像_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2.png)|
+|![待办事项：图片_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_1.png)|![待办事项：图片_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_2.png)|
 |:- |:- |
-|![待办事项：图像_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3.png)|![待办事项：图像_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4.png)|
+|![待办事项：图片_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_3.png)|![待办事项：图片_替代_文本](render-sequence-of-pages-using-pageindex-and-pagecount-properties-of-imageorprintoptions_4.png)|
 
 ## **示例代码**
 

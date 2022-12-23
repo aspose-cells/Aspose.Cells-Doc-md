@@ -8,7 +8,7 @@ url: /ja/java/setting-page-options-in-php/
 ### **ページの向き**
 を使用してページの向きの設定を適用するには**Aspose.Cells Java for PHP**、 電話**page_orientation**方法**ページ設定**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -48,7 +48,7 @@ url: /ja/java/setting-page-options-in-php/
 ### **スケーリング係数**
 を使用してスケーリングを適用するには**Aspose.Cells Java for PHP**、 電話**スケーリング**方法**ページ設定**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

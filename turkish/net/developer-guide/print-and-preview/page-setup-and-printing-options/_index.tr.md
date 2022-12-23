@@ -18,11 +18,11 @@ Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa 
 
 ### **Sayfa Yapısı Seçeneklerini ayarlamak için Aspose.Cells'i kullanma**
 
-Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Düzeni seçeneklerini değiştirir.
+Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Yapısı seçeneklerini değiştirir.
 
 |**Çıktı dosyası.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_1.png)|
+|![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_1.png)|
 
 1. Microsoft Excel'de bazı verilerle bir çalışma sayfası oluşturun:
  1. Microsoft Excel'de yeni bir çalışma kitabı açın.
@@ -32,14 +32,14 @@ Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa 
 
 |**Varsayılan sayfa kurulum seçenekleri.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_2.png)|
+|![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_2.png)|
 
 1. Aspose.Cells'i indirin ve yükleyin:
    1. [İndirmek](https://downloads.aspose.com/cells/net) .Net için Aspose.Cells.
  1. Geliştirme bilgisayarınıza kurun.
  Tüm Aspose bileşenleri kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
 1. Bir proje oluşturun:
- 1. Visual Studio'yu başlatın. Ağ.
+ 1. Visual Studio'yu başlatın. Açık.
  1. Yeni bir konsol uygulaması oluşturun.
  Bu örnek, bir C# konsol uygulamasını gösterecektir, ancak VB.NET'i de kullanabilirsiniz.
 1. Referans ekle:
@@ -66,11 +66,11 @@ Aşağıdaki örnek, yukarıdaki örnekte oluşturulan dosyaya (PageSetup.xls) y
 
 |**Giriş belgesi**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_3.png)|
+|![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_3.png)|
 Kodun çalıştırılması yazdırma seçeneklerini değiştirir.
 
 |**Çıktı dosyası**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_4.png)|
+|![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_4.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PageSetupAndPrintingOptions-SettingPrintingOptions-1.cs" >}}

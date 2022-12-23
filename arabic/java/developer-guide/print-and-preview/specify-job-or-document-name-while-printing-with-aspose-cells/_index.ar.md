@@ -12,7 +12,7 @@ url: /ar/java/specify-job-or-document-name-while-printing-with-aspose-cells/
 
 ## **حدد اسم المهمة أو المستند أثناء الطباعة باستخدام Aspose.Cells**
 
- يقوم نموذج التعليمات البرمجية بتحميل ملف Excel المصدر ثم إرساله إلى الطابعة عن طريق تحديد الوظيفة أو اسم المستند باستخدام ملف[**WorkbookRender.toPrinter (اسم الطابعة ، اسم الوظيفة)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) و[**SheetRender.toPrinter (اسم الطابعة ، اسم الوظيفة)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) طُرق. تُظهر لقطة الشاشة كيف يبدو اسم الوظيفة في قائمة انتظار الطابعة.
+ يقوم نموذج التعليمات البرمجية بتحميل ملف Excel المصدر ثم إرساله إلى الطابعة عن طريق تحديد الوظيفة أو اسم المستند باستخدام ملف[**WorkbookRender.toPrinter (اسم الطابعة ، اسم الوظيفة)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbookrender#toPrinter(java.lang.String,%20java.lang.String) ) و[**SheetRender.toPrinter (اسم الطابعة ، اسم الوظيفة)**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String,%20java.lang.String)) أساليب. تُظهر لقطة الشاشة كيف يبدو اسم الوظيفة في قائمة انتظار الطابعة.
 
 ![ما يجب القيام به: image_بديل_نص](specify-job-or-document-name-while-printing-with-aspose-cells_1.png)
 

@@ -14,12 +14,12 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.4.
 |:- |:- |:- |
 |CELLSJAVA-42523|Använd FIPS-kompatibel version av Bouncy Castle i Aspose.Cells API:er|Ny funktion|
 |CELLSJAVA-42572|Formel bör inte innehålla mer än 8192 tecken|Förbättring|
-|CELLSJAVA-42569|Det går inte att komma åt objekt för horisontella kategoriaxeletiketter i diagram i XLS|Förbättring|
+|CELLSJAVA-42569|Det går inte att komma åt objekt för horisontella kategoriaxeletiketter i diagrammet i XLS|Förbättring|
 |CELLSJAVA-42580|Hämta/ställ in språkdokumentegenskap|Förbättring|
 |CELLSJAVA-42565|Förgrundsfärg vs bakgrundsfärg vs fyllningsfärg - Använd en enda metod som tar två argument|Förbättring|
 |CELLSJAVA-42528|"<Font>" är inte en giltig HTML5 och självstängande tagg och webbläsare ger en felaktig bild av dess innehåll|Förbättring|
-|CELLSJAVA-42413|Infoga SVG-bildtyp i kalkylbladsceller med Aspose.Cells|Förbättring|
-|CELLSJAVA-42551|Vissa former är inte korrekta i den utgående PDF-filen|Insekt|
+|CELLSJAVA-42413|Infoga SVG bildtyp i kalkylbladsceller med Aspose.Cells|Förbättring|
+|CELLSJAVA-42551|Vissa former är inte korrekta i utgången PDF|Insekt|
 |CELLSJAVA-42578|Villkorlig formatering går förlorad när Excel sparas till HTML|Insekt|
 |CELLSJAVA-42571|Utdata HTML matchar inte med MS-Excel|Insekt|
 |CELLSJAVA-42553|Länkar till namngivet område är fel efter export till HTML|Insekt|
@@ -37,9 +37,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.4.
 # **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till nytt objekt "CrossHideRight" för HtmlCrossType enum**
-Visar HTML-korssträng och döljer den högra strängen när texten överlappas.
+Visar HTML tvärsträng och döljer den högra strängen när texten överlappas.
 #### **Lägger till nytt objekt "TSV" för LoadFormat, SaveFormat och FileFormatType enums**
-Representerar en TSV-fil (Tab-separated values), samma som "TabDelimited".
+Representerar en TSV-fil (tabbseparerade värden), samma som "TabDelimited".
 #### **Lägger till enum ImageType**
 Representerar typen av bild.
 #### **Lägger till egenskaperna MsoTextFrame.RotateTextWithShape och ShapeTextAlignment.RotateTextWithShape**

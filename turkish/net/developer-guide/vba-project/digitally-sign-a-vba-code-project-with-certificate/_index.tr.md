@@ -9,7 +9,7 @@ url: /tr/net/digitally-sign-a-vba-code-project-with-certificate/
  Aspose.Cells ile VBA kodlu projenizi dijital olarak imzalayabilirsiniz.[**Workbook.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign)yöntem. Excel dosyanızın bir sertifika ile dijital olarak imzalanıp imzalanmadığını kontrol etmek için lütfen aşağıdaki adımları izleyin.
 
 -  Tıklamak**Visual Basic** dan**Geliştirici** açmak için sekme**Uygulamalar IDE'si için Visual Basic**
--  Tıklamak**Aletler** > **Dijital imzalar...** nın-nin**Uygulamalar IDE'si için Visual Basic**
+-  Tıklamak**Araçlar** > **Dijital imzalar...** ile ilgili**Uygulamalar IDE'si için Visual Basic**
 
  ve gösterecek**Dijital İmza Formu** belgenin bir sertifika ile dijital olarak imzalanıp imzalanmadığını gösterir.
 

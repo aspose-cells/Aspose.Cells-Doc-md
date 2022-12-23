@@ -6,7 +6,7 @@ url: /fr/net/determine-if-shape-is-smart-art-shape/
 ---
 ## **Scénarios d'utilisation possibles**
 
- Les Smart Art Shapes sont des formes spéciales dans Microsoft Excel qui vous permettent de créer automatiquement des diagrammes complexes. Vous pouvez déterminer si la forme est une forme artistique intelligente ou une forme normale en utilisant[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)propriété.
+ Les Smart Art Shapes sont des formes spéciales dans Microsoft Excel qui vous permettent de créer automatiquement des diagrammes complexes. Vous pouvez déterminer si la forme est une forme artistique intelligente ou une forme normale en utilisant[**Shape.IsSmartArt**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/issmartart)la propriété.
 
 ## **Déterminer si la forme est une forme artistique intelligente**
 

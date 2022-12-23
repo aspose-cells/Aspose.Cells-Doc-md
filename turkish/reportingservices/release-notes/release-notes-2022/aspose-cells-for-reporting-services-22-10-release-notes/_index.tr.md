@@ -12,6 +12,6 @@ Bu sayfa, Aspose.Cells Raporlama Hizmetleri 22.10 için sürüm notları içerir
 
 |**İD**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|35094 | CSV'ye Aktar (ACCSV) - kodlama sorunları|
+|35094 | CSV'e (ACCSV) dışa aktarma - kodlama sorunları|
 |35344 | Metin kutusu rapor öğesi için özel biçimi düzeltin.|
 |35345 | Sayı biçimi oluşturma desteği.|

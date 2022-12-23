@@ -22,8 +22,8 @@ url: /es/java/aspose-cells-for-java-21-1-release-notes/
 |CELLSJAVA-40264|Error con controles de formulario o controles ActiveX al guardar como EXCEL_97_TO_2003|
 |CELLSJAVA-43372|Archivo dañado creado al convertir ODS a XLSX|
 |CELLSJAVA-43378|Mostrar como cambios en blanco de verdadero a falso después de clonar el libro de trabajo|
-|CELLSJAVA-43379|Excepción generada al guardar el libro de trabajo como HTML|
-|CELLSJAVA-43376|Excepción "java.lang.ClassCastException: Desbordamiento en la conversión de int a byte. Valor de int: 144" al cargar un archivo XLSX|
+|CELLSJAVA-43379|Se generó una excepción al guardar el libro de trabajo como HTML|
+|CELLSJAVA-43376|Excepción "java.lang.ClassCastException: desbordamiento en la conversión de int a byte. valor de int: 144" al cargar un archivo XLSX|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

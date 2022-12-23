@@ -11,7 +11,7 @@ En nuestro tema anterior, hablamos sobre la importación del contenido de un Dat
 {{% /alert %}} 
 ## **Exportación de contenido de cuadrícula**
 ### **Exportación a una tabla de datos específica**
- Para exportar el contenido de Grid a un objeto DataTable específico, siga los pasos a continuación: Agregue el control Aspose.Cells.GridDesktop a su**Forma**.
+ Para exportar el contenido de Grid a un objeto DataTable específico, siga los pasos a continuación: Agregue el control Aspose.Cells.GridDesktop a su**Formulario**.
 
 - Cree un objeto DataTable específico según sus necesidades.
 -  Exportar los datos de un seleccionado**Hoja de cálculo** a su objeto DataTable especificado.

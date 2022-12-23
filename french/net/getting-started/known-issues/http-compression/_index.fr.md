@@ -8,7 +8,7 @@ url: /fr/net/http-compression/
 Certains utilisateurs signalent que s'ils configurent la compression HTTP dans IIS, ils trouvent des erreurs lors de l'envoi des fichiers générés aux navigateurs clients.
 ### **Explication**
  Nous utilisons**"Content-disposition", "inline; filename=test.xls"** header pour forcer le navigateur à ouvrir le fichier et**"Content-disposition", "pièce jointe ; filename=test.xls"** en-tête pour forcer le navigateur à ouvrir le**Enregistrer sous** boîte de dialogue et utilisez Microsoft Excel pour ouvrir le fichier. Cependant, certaines exceptions existent.
-### **Exceptions**
+### **Des exceptions**
 Vous pouvez utiliser le code suivant pour vérifier qu'il ne s'agit PAS d'un bogue de Aspose.
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-KnowledgeBase-KnownIssues-HTTPCompression.aspx-HTTPCompression.cs" >}}

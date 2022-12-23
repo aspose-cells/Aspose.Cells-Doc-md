@@ -15,7 +15,7 @@ Il tipo di bordo dipende da dove viene aggiunto. Ad esempio, un bordo superiore 
 
 Con Aspose.Cells, gli sviluppatori possono aggiungere bordi e personalizzare il loro aspetto nello stesso modo flessibile di Microsoft Excel.
 ### **Aggiunta di bordi a Cells**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
  Aspose.Cells fornisce il[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ) metodo nel[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe utilizzata per impostare lo stile di formattazione di una cella. Inoltre, l'oggetto del[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/Style)viene utilizzata la classe e fornisce le proprietà per la configurazione delle impostazioni dei caratteri.
 #### **Aggiunta di bordi a un numero Cell**
@@ -47,8 +47,8 @@ Con Aspose.Cells, gli sviluppatori possono aggiungere bordi e personalizzare il 
 |[NESSUNO](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#NONE)|Non rappresenta alcuna linea|
 |[MEDIO](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#MEDIUM)|Rappresenta la linea media|
 |[INCLINATO_TRATTINO_PUNTO](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#SLANTED_DASH_DOT)|Rappresenta una linea tratteggiata media obliqua|
-|[SPESSO](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Rappresenta la linea spessa|
-|[SOTTILE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Rappresenta la linea sottile|
+|[DI SPESSORE](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THICK)|Rappresenta la linea spessa|
+|[MAGRO](https://reference.aspose.com/cells/java/com.aspose.cells/cellbordertype#THIN)|Rappresenta la linea sottile|
  Selezionare uno degli stili di linea di cui sopra e quindi assegnarlo a[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/Style)dell'oggetto[setBorder](https://reference.aspose.com/cells/java/com.aspose.cells/style#setBorder\(int,%20int,%20com.aspose.cells.Color\)) metodo.
 
 Il seguente output viene generato durante l'esecuzione del codice seguente.
@@ -62,11 +62,11 @@ Il seguente output viene generato durante l'esecuzione del codice seguente.
  È possibile aggiungere bordi a un intervallo di celle piuttosto che a una singola cella. Innanzitutto, crea un intervallo di celle chiamando il metodo[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) della collezione[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), che accetta i seguenti parametri:
 
 - **Prima riga**, la prima riga dell'intervallo.
-- **Prima Colonna**, la prima colonna dell'intervallo.
+- **Prima colonna**, la prima colonna dell'intervallo.
 - **Numero di righe**, il numero di righe nell'intervallo.
 - **Numero di colonne**, il numero di colonne nell'intervallo.
 
- Il[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\) ) metodo restituisce a[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oggetto, che contiene l'intervallo specificato. Il[Gamma](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oggetto fornisce a[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) metodo che accetta i seguenti parametri:
+ Il[createRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\) ) metodo restituisce a[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oggetto, che contiene l'intervallo specificato. Il[Allineare](https://reference.aspose.com/cells/java/com.aspose.cells/Range) oggetto fornisce a[setOutlineBorders](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)) metodo che accetta i seguenti parametri:
 
 - **CellBorderType**, lo stile della linea del bordo, selezionato da[CellBorderType](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)enumerazione.
 - **Colore**, il colore della linea del bordo, selezionato da[Colore](https://reference.aspose.com/cells/java/com.aspose.cells/Color)enumerazione.
@@ -79,9 +79,9 @@ Il seguente output viene generato durante l'esecuzione del codice seguente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AddingBorderstoRange-AddingBorderstoRange.java" >}}
 ## **Colori e tavolozza**
-Una tavolozza è il numero di colori disponibili per l'uso nella creazione di un'immagine. L'uso di una tavolozza standardizzata in una presentazione consente all'utente di creare un aspetto coerente. Ogni file di Microsoft Excel (97-2003) dispone di una tavolozza di 56 colori che possono essere applicati a celle, caratteri, griglie, oggetti grafici, riempimenti e linee in un grafico.
+Una tavolozza è il numero di colori disponibili per l'uso nella creazione di un'immagine. L'uso di una tavolozza standardizzata in una presentazione consente all'utente di creare un aspetto coerente. Ogni file Excel Microsoft (97-2003) ha una tavolozza di 56 colori che possono essere applicati a celle, caratteri, griglie, oggetti grafici, riempimenti e linee in un grafico.
 
-**Impostazioni della tavolozza in Microsoft Excel** 
+**Impostazioni tavolozza in Microsoft Excel** 
 
 ![cose da fare:immagine_alt_testo](cells-formatting_4.png)
 
@@ -91,16 +91,16 @@ Aspose.Cells supporta anche una tavolozza di 56 colori. Una tavolozza di colori 
 
 {{% alert color="primary" %}} 
 
-La tavolozza contiene solo 56 colori. Quando aggiungi un colore personalizzato alla tavolozza, la tavolozza viene modificata e qualsiasi elemento nel file formattato con il colore precedente viene modificato. Quindi, quando cambi la tavolozza, fai molta attenzione. Inoltre, questa è la limitazione solo nel formato di file XLS (Excel 97 - 2003) poiché non esiste tale limitazione per XLSX o altri formati di file avanzati MS Excel (2007/2010).
+La tavolozza contiene solo 56 colori. Quando aggiungi un colore personalizzato alla tavolozza, la tavolozza viene modificata e qualsiasi elemento nel file formattato con il colore precedente viene modificato. Quindi, quando cambi la tavolozza, fai molta attenzione. Inoltre, questa è la limitazione solo nel formato di file XLS (Excel 97 - 2003) in quanto non esiste tale limitazione per XLSX o altri formati di file MS Excel avanzati (2007/2010).
 
 {{% /alert %}} 
 
-Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Microsoft Excel. La classe fornisce il[changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)) metodo che accetta i seguenti parametri per aggiungere un colore personalizzato per modificare la tavolozza:
+Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Excel Microsoft. La classe fornisce il[changePalette](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#changePalette\(com.aspose.cells.Color,%20int\)) metodo che accetta i seguenti parametri per aggiungere un colore personalizzato per modificare la tavolozza:
 
 - **Colore personalizzato**, il colore personalizzato da aggiungere alla tavolozza.
 - **Indice**, l'indice del colore che verrà sostituito con il colore personalizzato. Dovrebbe essere compreso tra 0 e 55.
 
-L'esempio seguente aggiunge un colore personalizzato alla tavolozza prima di applicarlo a un font.
+L'esempio seguente aggiunge un colore personalizzato alla tavolozza prima di applicarlo a un carattere.
 
 
 
@@ -114,7 +114,7 @@ Microsoft Excel può impostare i colori di primo piano (contorno) e di sfondo (r
 
 Aspose.Cells supporta anche queste funzionalità in modo flessibile. In questo argomento, impariamo a utilizzare queste funzionalità utilizzando Aspose.Cells.
 ### **Impostazione di colori e motivi di sfondo**
-Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
+Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
 Aspose.Cells fornisce il[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\)) metodo nel[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe utilizzata per impostare la formattazione di una cella. Inoltre, l'oggetto del[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/Style)class può essere utilizzato per configurare le impostazioni dei caratteri.
 
@@ -141,13 +141,13 @@ Il[Impostare il modello](https://reference.aspose.com/cells/java/com.aspose.cell
 |[NESSUNO](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#NONE)|Non rappresenta alcuno sfondo|
 |[INVERSIONE_DIAGONALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#REVERSE_DIAGONAL_STRIPE)|Rappresenta il motivo a strisce diagonali inverse|
 |[SOLIDO](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#SOLID)|Rappresenta un modello solido|
-|[SPESSO_DIAGONALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Rappresenta un motivo a tratteggio incrociato diagonale spesso|
-|[SOTTILE_DIAGONALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Rappresenta un motivo a tratteggio diagonale sottile|
-|[SOTTILE_DIAGONALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Rappresenta il motivo a strisce diagonali sottili|
-|[SOTTILE_ORIZZONTALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Rappresenta un motivo a tratteggio incrociato orizzontale sottile|
-|[SOTTILE_ORIZZONTALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|Rappresenta un motivo a strisce orizzontali sottili|
-|[SOTTILE_INVERSIONE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|Rappresenta un sottile motivo a strisce diagonali inverse|
-|[SOTTILE_VERTICALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|Rappresenta un motivo a strisce verticali sottili|
+|[DI SPESSORE_DIAGONALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THICK_DIAGONAL_CROSSHATCH)|Rappresenta un motivo a tratteggio incrociato diagonale spesso|
+|[MAGRO_DIAGONALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_CROSSHATCH)|Rappresenta un motivo a tratteggio diagonale sottile|
+|[MAGRO_DIAGONALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_DIAGONAL_STRIPE)|Rappresenta il motivo a strisce diagonali sottili|
+|[MAGRO_ORIZZONTALE_TRATTATURA INCROCIATA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_CROSSHATCH)|Rappresenta un motivo a tratteggio incrociato orizzontale sottile|
+|[MAGRO_ORIZZONTALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_HORIZONTAL_STRIPE)|Rappresenta un motivo a strisce orizzontali sottili|
+|[MAGRO_INVERSIONE_DIAGONAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_REVERSE_DIAGONAL_STRIPE)|Rappresenta un sottile motivo a strisce diagonali inverse|
+|[MAGRO_VERTICALE_BANDA](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#THIN_VERTICAL_STRIPE)|Rappresenta un motivo a strisce verticali sottili|
 |[VERTICAL_STRIPE](https://reference.aspose.com/cells/java/com.aspose.cells/backgroundtype#VERTICAL_STRIPE)|Rappresenta il motivo a strisce verticali|
 Nell'esempio seguente, il colore di primo piano della cella A1 è impostato ma A2 è configurato per avere sia i colori di primo piano che di sfondo con un motivo di sfondo a strisce verticali.
 
@@ -174,9 +174,9 @@ Il seguente output viene generato durante l'esecuzione del codice.
 
 Aspose.Cells supporta questa funzione. Questo argomento spiega come utilizzare questa funzione.
 ### **Formattazione dei caratteri selezionati**
-Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
+Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)la classe fornisce a[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)collezione rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
-Il[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) la classe fornisce[personaggi](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\)) metodo che accetta i seguenti parametri per selezionare un intervallo di caratteri in una cella:
+Il[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) la classe fornisce[caratteri](https://reference.aspose.com/cells/java/com.aspose.cells/cell#characters\(int,%20int\)) metodo che accetta i seguenti parametri per selezionare un intervallo di caratteri in una cella:
 
 - **Inizio indice**, l'indice del carattere da cui iniziare la selezione.
 - **Numero di caratteri**, il numero di caratteri da selezionare.

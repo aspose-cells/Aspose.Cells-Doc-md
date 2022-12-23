@@ -10,6 +10,6 @@ url: /fr/net/get-the-version-number-of-the-application-that-created-the-excel-do
 
 {{% /alert %}}
 
- L'exemple de code suivant illustre l'utilisation du[**Classeur.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version)propriété. Il charge les fichiers Excel créés avec Microsoft Excel 2003, 2007, 2010 et 2013 et imprime le numéro de version de l'application qui a créé ces documents Excel.
+ L'exemple de code suivant illustre l'utilisation du[**Classeur.BuiltInDocumentProperties.Version**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/version)la propriété. Il charge les fichiers Excel créés avec Microsoft Excel 2003, 2007, 2010 et 2013 et imprime le numéro de version de l'application qui a créé ces documents Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-GetApplicationVersion-1.cs" >}}

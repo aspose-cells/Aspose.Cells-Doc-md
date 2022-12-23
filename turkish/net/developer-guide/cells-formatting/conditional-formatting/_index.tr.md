@@ -4,12 +4,12 @@ linktitle: Koşullu Biçimler
 type: docs
 weight: 60
 url: /tr/net/conditional-formatting/
-description: CSharp'ta koşullu biçimler Excel ve ODS dosyalarına nasıl uygulanır?
+description: CSharp'ta Excel ve ODS dosyalarına koşullu biçimler nasıl uygulanır?
 keywords: apply conditional formats 
 ---
-## **giriiş**
+## **Giriş**
 
- Koşullu biçimlendirme, bir hücreye veya hücre aralığına biçimler uygulamanıza ve bu biçimlendirmenin hücrenin değerine veya bir formülün değerine göre değişmesini sağlayan gelişmiş bir Microsoft Excel özelliğidir. Örneğin, bir hücrenin yalnızca değeri 500'den büyük olduğunda kalın görünmesini sağlayabilirsiniz. Hücrenin değeri koşulu sağladığında, hücreye belirtilen biçim uygulanır. Hücrenin değeri biçim koşulunu karşılamıyorsa, hücrenin varsayılan biçimlendirmesi kullanılır. Microsoft Excel'de seçin**Biçim** , sonra**Koşullu biçimlendirme** Koşullu Biçimlendirme iletişim kutusunu açmak için.
+ Koşullu biçimlendirme, bir hücreye veya hücre aralığına biçimler uygulamanıza ve bu biçimlendirmenin hücrenin değerine veya bir formülün değerine göre değişmesini sağlayan gelişmiş bir Microsoft Excel özelliğidir. Örneğin, bir hücrenin yalnızca değeri 500'den büyük olduğunda kalın görünmesini sağlayabilirsiniz. Hücrenin değeri koşulu sağladığında, hücreye belirtilen biçim uygulanır. Hücrenin değeri biçim koşulunu karşılamıyorsa, hücrenin varsayılan biçimlendirmesi kullanılır. Microsoft Excel'de seçin**Biçim** , o zamanlar**Koşullu biçimlendirme** Koşullu Biçimlendirme iletişim kutusunu açmak için.
 
 Aspose.Cells, çalışma zamanında hücrelere koşullu biçimlendirme uygulanmasını destekler. Bu makale nasıl yapılacağını açıklıyor. Ayrıca renk ölçeği koşullu biçimlendirme için Excel tarafından kullanılan rengin nasıl hesaplanacağını da açıklar.
 

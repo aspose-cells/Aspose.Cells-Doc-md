@@ -6,7 +6,7 @@ url: /fr/java/read-color-of-the-shape-s-glow-effect/
 ---
 ## Scénarios d'utilisation possibles
 
- Si vous voulez lire la couleur de l'effet de lueur de n'importe quelle forme, veuillez utiliser le[**Forme.Glow.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#Color)propriété. Il vous aidera à trouver les différentes propriétés relatives à la couleur de l'effet de lueur appliqué dans une forme.
+ Si vous voulez lire la couleur de l'effet de lueur de n'importe quelle forme, veuillez utiliser le[**Forme.Glow.Color**](https://reference.aspose.com/cells/java/com.aspose.cells/gloweffect#Color)la propriété. Il vous aidera à trouver les différentes propriétés relatives à la couleur de l'effet de lueur appliqué dans une forme.
 
 ## Lire la couleur de l'effet lumineux de la forme
 

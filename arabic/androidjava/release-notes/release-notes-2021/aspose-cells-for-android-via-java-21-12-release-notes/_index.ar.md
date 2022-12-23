@@ -13,12 +13,12 @@ url: /ar/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-43994|دعم لمقاطعة تنفيذ WorkbookDesigner.process في SmarkMarker|
-|CELLSJAVA-44039|قم بتعديل سمة PDF Producer من ملف PDF الذي تم إنشاؤه|
-|CELLSJAVA-43768|Java لوحظ مشكلة مساحة الكومة أثناء تحويل ملف XLSX إلى PDF|
-|CELLSJAVA-43875|استثناء "Val FontUnderlineType string غير صالح" عند تحميل ملف XLSX|
+|CELLSJAVA-44039|قم بتعديل PDF سمة المُنتِج من PDF المُنشأ|
+|CELLSJAVA-43768|تم ملاحظة مشكلة مساحة الكومة Java أثناء تحويل ملف XLSX إلى PDF|
+|CELLSJAVA-43875|استثناء "Val FontUnderlineType string غير صالح" عند تحميل الملف XLSX|
 |CELLSJAVA-43876|استثناء "java.lang.ArrayIndexOutOfBoundsException" عند تحميل ملف XLSX|
-|CELLSJAVA-43844|هناك حاجة إلى تحسين تنسيق الأرقام المحاسبية|
-|CELLSJAVA-43953|تقديم نص / جزء محدد "Cell" و "تعليق" ليتم ترجمته إلى اليابانية في تحويل Excel إلى PDF|
+|CELLSJAVA-43844| هناك حاجة إلى تحسين تنسيق الأرقام المحاسبية|
+|CELLSJAVA-43953|تقديم نص / جزء محدد "Cell" و "تعليق" ليتم ترجمته إلى اليابانية في Excel إلى تحويل PDF|
 |CELLSJAVA-43469|الانحدار المحتمل: تدهور أداء FormatConditionCollection.addArea ()|
 |CELLSJAVA-43646|لم يتم تقديم تأثير الظل للنص بشكل صحيح|
 |CELLSJAVA-43760|اتجاه المثلث متساوي الساقين غير صحيح|
@@ -26,39 +26,39 @@ url: /ar/java/aspose-cells-for-android-via-java-21-12-release-notes/
 |CELLSJAVA-43838|بعد تنفيذ XlsToXlsx ، يتم فقد الشكل التلقائي|
 |CELLSJAVA-43839|بعد تنفيذ XlsToXlsx ، يتم فقد LeftBracket|
 |CELLSJAVA-43842|بعد تنفيذ XlsToXlsx ، يختلف شكل LeftBracket عن الشكل الأصلي|
-|CELLSJAVA-43848|تحويل Excel إلى PDF - لا يتم تغليف بعض أحرف WordArt بنفس الطريقة كما في ملف Excel|
+|CELLSJAVA-43848|تحويل Excel إلى PDF - لا يتم تغليف بعض أحرف WordArt بالطريقة نفسها كما في ملف Excel|
 |CELLSJAVA-43880|الزوايا الدائرية غير الصحيحة لمربع النص بعد تحويل xls إلى xlsx|
 |CELLSJAVA-43867|تختلف أيقونة التنسيق الشرطي عند التصدير إلى html|
 |CELLSJAVA-43812|excelToHtml: إزاحة موضع الشكل غير صحيحة|
-|CELLSJAVA-43871|لا يتم عرض كائنات Prism 9 OLE في ملف PDF الناتج|
+|CELLSJAVA-43871|لم يتم عرض كائنات Prism 9 OLE في الإخراج PDF|
 |CELLSJAVA-43883|أحجام الصفحات المعروضة غير صحيحة|
 |CELLSJAVA-43881|يؤدي دمج الملفات إلى فقد إعداد لون الخلفية للأوراق|
 |CELLSJAVA-43892|حدود Excel المحولة إلى HTML مفقودة|
-|CELLSJAVA-43935|مشكلة حجم خط نص الشكل أثناء حفظ وتحميل ملف XLS|
+|CELLSJAVA-43935|مشكلة في حجم خط نص الشكل أثناء حفظ وتحميل ملف XLS|
 |CELLSJAVA-43952|إصدار انتهاء صلاحية الترخيص المؤقت|
-|CELLSJAVA-43954|XLSX إلى PDF: تسبب الصورة استثناء "خطأ java.lang.OutOfMemory: Java مساحة الكومة"|
+|CELLSJAVA-43954|XLSX إلى PDF: تسبب الصورة استثناء "java.lang.OutOfMemoryError: Java heap space"|
 |CELLSJAVA-43902|بعض حدود Excel المحولة إلى HTML زائدة عن الحاجة|
-|CELLSJAVA-43933|عند التصدير إلى HTML ببيانات واحدة فقط ، يختلف التنسيق الشرطي عن Excel|
+|CELLSJAVA-43933|عند التصدير إلى HTML ببيانات واحدة فقط ، فإن التنسيق الشرطي يختلف عن Excel|
 |CELLSJAVA-43878| الموضع غير الصحيح لتسميات بيانات مخطط شريط المجموعة في Excel|
 |CELLSJAVA-43895|لا يتم عرض شكل الخط وأشكال المخططات الأخرى بشكل صحيح عند تحويل XLS إلى XLSX|
 |CELLSJAVA-43934|تسميات المخطط الدائري غير متطابقة مع Excel بعد معالجة المخطط أو تحديثه|
-|CELLSJAVA-43519|تنتج الخلايا المدمجة المضمنة في الصفوف أو الأعمدة المخفية جدول HTML غير متساوٍ|
-|CELLSJAVA-43962|التأثير غير متسق بعد تحويل التنسيق الشرطي في Excel إلى HTML|
-|CELLSJAVA-43983|الانحدار: حلقة لا نهائية عند تحويل XLSX إلى PDF|
+|CELLSJAVA-43519|تنتج الخلايا المدمجة المتضمنة في الصفوف أو الأعمدة المخفية جدول HTML غير متساو|
+|CELLSJAVA-43962|التأثير غير متناسق بعد تحويل التنسيق الشرطي في Excel إلى HTML|
+|CELLSJAVA-43983|الانحدار: الحلقة اللانهائية عند تحويل XLSX إلى PDF|
 |CELLSJAVA-44029|XLSX إلى PDF: لم يتم تحويل الصورة|
 |CELLSJAVA-44093| مشكلة اقتطاع النص مع أشكال المستطيل عند التقديم للصورة في الإصدارات الأحدث Aspose.Cells for Java|
 |CELLSJAVA-44089|DataLabels.setShadow () غير متوفر ولا يساوي طريقة Series.setShadow ()|
 |CELLSJAVA-44000|نمط Cells غير صحيح في HTML عند استخدام مجموعة الرموز والتنسيقات الشرطية الأخرى في نفس الوقت|
 |CELLSJAVA-43932|مشكلة تتعلق بتعيين موضع تسميات البيانات للمخططات الدائرية المجوفة المنفصلة في صورة الإخراج|
 |CELLSJAVA-44094|تم قطع عنوان المخطط عند التصدير إلى PDF|
-|CELLSJAVA-43533|XLSX إلى مشكلة إنشاء Html في أوبونتو|
+|CELLSJAVA-43533|XLSX لمشكلة إنشاء Html في أوبونتو|
 |CELLSJAVA-43987|يتم فقدان الحد الأيمن للخلايا المدمجة في لغة تأشير النص الفائق|
 |CELLSJAVA-44016|مشكلة عند تحويل ملف Excel الذي يحتوي على عنوان URL للصورة إلى HTML|
-|CELLSJAVA-43787|استثناء "IllegalArgumentException: أطوال الشرطة كلها صفر ..." في عرض Excel إلى HTML|
+|CELLSJAVA-43787|استثناء "IllegalArgumentException: أطوال الشرطة كلها صفر ..." في Excel إلى عرض HTML|
 |CELLSJAVA-43885|IllegalArgumentException أثناء تحويل ملف Excel|
 |CELLSJAVA-43874|يطرح Workbook.save استثناء على ملف معين بواسطة Aspose.Cells فقط عند تطبيق ترخيص Aspose|
 |CELLSJAVA-43969|ينتج عن الاسم الذي يحتوي على دالة COUNTIF والمرجع الخارجي NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException: لسلسلة الإدخال عند تحويل ملف Excel إلى HTML|
+|CELLSJAVA-43903|java.lang.NumberFormatException: لسلسلة الإدخال عند تقديم ملف Excel إلى HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: لقد أدخلت عددًا قليلاً جدًا من المعلمات للوظيفة IF عند استدعاء Workbook.calculateFormula ()|
 |CELLSJAVA-44104|NullPointerException عند استيراد SpreadSheetML|
 

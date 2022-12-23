@@ -7,7 +7,7 @@ url: /tr/python-java/find-if-the-worksheet-is-dialog-sheet/
 ## **Olası Kullanım Senaryoları**
 İletişim Sayfası, bir iletişim kutusu içeren sayfanın eski bir biçimidir. Böyle bir sayfa, bu ekran görüntüsünde gösterildiği gibi Microsoft Excel örneğin 2003'ün eski bir sürümü tarafından eklenebilir. Daha yeni sürümlerde VBA ile de eklenebilir, örneğin Microsoft Excel 2016.
 
-![yapılacaklar:resim_alternatif_Metin](DialogSheet.png)
+![yapılacaklar:resim_alternatif_metin](DialogSheet.png)
 ## **Çalışma Sayfasının İletişim Sayfası olup olmadığını bulun**
 Aspose.Cells for Python via Java, çalışma sayfasının bir iletişim sayfası olup olmadığını kontrol etmenizi sağlar. Bunun için sağladığı[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)Emlak. Eğer[Çalışma Sayfası.Türü](https://reference.aspose.com/cells/python/asposecells.api/worksheet#Type)numaralandırma değeri döndürür[SheetType.DIALOG](https://reference.aspose.com/cells/python/asposecells.api/sheettype#DIALOG), o zaman bir diyalog sayfasıyla uğraşıyorsunuz demektir.
 

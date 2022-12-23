@@ -34,7 +34,7 @@ url: /ja/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-43900) - Hyperlink.TextToDisplay が更新されない
 
-(CELLSNET-43892) - 保存するたびに XLSX ドキュメントのサイズが大きくなる
+(CELLSNET-43892) - XLSX 保存するたびにドキュメント サイズが大きくなる
 
 (CELLSNET-43869) - Aspose.Cells はミディアムトラストで実行できません
 
@@ -54,7 +54,7 @@ url: /ja/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-43842) - Aspose.Cells 行挿入エラー
 
-(CELLSNET-43879) - 文字が重複し、Excel から PDF へのレンダリングで ######## に変換される
+(CELLSNET-43879) - 文字が重複し、Excel で ######## に変換されて PDF レンダリングに変換される
 
 (CELLSNET-43854) - 画像生成時に上付き文字と下付き文字が上に移動しすぎた
 
@@ -64,7 +64,7 @@ url: /ja/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-42380) - SmartArt ボックスが黒くなります。
 
- (CELLSNET-42377) - SmartArt レイアウトの見出しが、画像の見出しの下の下線と重なっています。
+(CELLSNET-42377) - SmartArt レイアウトの見出しが、画像の見出しの下の下線と重なっています。
 
  (CELLSNET-41493) - 生成された PDF でテキストが切り捨てられたり折り返されたりする
 
@@ -78,7 +78,7 @@ url: /ja/net/aspose-cells-for-net-8-6-0-release-notes/
 
 (CELLSNET-43876) - キャリッジ リターン ライン フィードの二重読み取り
 
-(CELLSNET-43864) - 2 つの XLSM ワークブックを結合すると、破損したワークブックが生成される
+(CELLSNET-43864) - 2 つの XLSM ワークブックを結合すると、破損したワークブックが生成されます
 
 (CELLSNET-43839) - PDF への変換中にスプレッドシート内の画像がレンダリングされない
 
@@ -94,25 +94,25 @@ url: /ja/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **例外**
 
 
-(CELLSNET-43866) - スプレッドシートを PDF にレンダリングする際の CellsException
+(CELLSNET-43866) - スプレッドシートを PDF にレンダリング中に CellsException が発生する
 
- (CELLSNET-43847) - RefreshPivotTables を呼び出そうとすると例外が発生する
+(CELLSNET-43847) - RefreshPivotTables を呼び出そうとすると例外が発生する
 
 (CELLSNET-43852) - Workbook.CalculateFormula での CellsException
 
-(CELLSNET-43893) - スプレッドシートを PDF 形式にレンダリングする際の CellsException
+ (CELLSNET-43893) - スプレッドシートを PDF 形式にレンダリング中に CellsException が発生する
 
- (CELLSNET-42108) - CellsException: パラメータが無効です: XLS から PDF への変換中
+(CELLSNET-42108) - CellsException: パラメータが無効です: XLS を PDF に変換中
 
-(CELLSNET-43835) - XLS ファイルを PDF ファイル形式に変換するときに System.OutOfMemoryException が発生する
+(CELLSNET-43835) - XLS ファイルを PDF ファイル形式に変換すると System.OutOfMemoryException が発生する
 
-(CELLSNET-43865) - スプレッドシートを PDF および HTML にレンダリングする際の ArgumentException
+(CELLSNET-43865) - スプレッドシートを PDF & HTML にレンダリング中に ArgumentException が発生する
 
- (CELLSNET-43862) - Workbook.Save での NullReferenceException
+(CELLSNET-43862) - Workbook.Save での NullReferenceException
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

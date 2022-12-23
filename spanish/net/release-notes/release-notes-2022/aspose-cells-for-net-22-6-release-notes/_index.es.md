@@ -15,7 +15,7 @@ url: /es/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50880|Nuevas API para convertir datos a ICellsDataTable para comodidad del usuario|
 |CELLSNET-51140|Soporte de almacenamiento de datos 5.0 de .numbers|
 |CELLSNET-51144|Admite la lectura de imágenes de Numbers13|
-|CELLSNET-51230|Soporte para establecer estilo para CellRange|
+|CELLSNET-51230| Soporte para establecer estilo para CellRange|
 |CELLSNET-50996|Añadir ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32) método sobrecargado|
 |CELLSNET-51184| Admite la importación de valores de matriz si el rango es una celda simple|
 |CELLSNET-51215|Soporte para guardar formularios de tablas en xlsb|

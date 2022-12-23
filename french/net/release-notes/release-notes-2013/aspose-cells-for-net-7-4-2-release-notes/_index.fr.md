@@ -18,7 +18,7 @@ url: /fr/net/aspose-cells-for-net-7-4-2-release-notes/
 
  Améliorations
 
- Exceptions
+ Des exceptions
 
  41490 - Exception : caractères illégaux dans le chemin
 
@@ -28,7 +28,7 @@ url: /fr/net/aspose-cells-for-net-7-4-2-release-notes/
 
  41440 - Problème de ligne pointillée - Feuille à image
 
- 41470 - Concernant la conversion d'un classeur en fichier PDF
+ 41470 - Concernant la conversion du fichier Workbook-to-PDF
 
  41442 - Fonction ToTiff : problèmes d'alignement des nombres
 
@@ -44,7 +44,7 @@ url: /fr/net/aspose-cells-for-net-7-4-2-release-notes/
 
  Nouvelles fonctionnalités
 
- 41459 - Utilisation de GridWeb en JavaScript
+41459 - Utilisation de GridWeb en JavaScript
 
  Insectes
 

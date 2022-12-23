@@ -51,7 +51,7 @@ Aşağıdaki kod parçacığı, başlıkların grafiklere ve eksenlere nasıl ay
 ### **Büyük Kılavuz Çizgilerle Çalışma**
 Ana kılavuz çizgilerinin görünümünü özelleştirmek mümkündür. Kılavuz çizgilerini gizleyin veya gösterin ya da renklerini ve diğer ayarlarını tanımlayın. Aşağıda, kılavuz çizgilerinin nasıl gizleneceğini ve renklerinin nasıl değiştirileceğini gösteriyoruz.
 #### **Büyük Kılavuz Çizgilerini Gizleme**
-Geliştiriciler, ana kılavuz çizgilerinin görünürlüğünü ayarlayarak kontrol edebilir.[Görünür](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) mülkiyeti[Astar](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) itiraz etmek**doğru** veya**yanlış**.
+Geliştiriciler, ana kılavuz çizgilerinin görünürlüğünü ayarlayarak kontrol edebilir.[Görünür](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) mülkiyeti[Astar](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) itiraz etmek**doğru** veya**YANLIŞ**.
 
 Aşağıdaki kod parçacığı, ana kılavuz çizgilerinin nasıl gizleneceğini gösterir. Ana kılavuz çizgilerini gizledikten sonra, kılavuz çizgileri olmayacak çalışma sayfasına bir sütun grafiği eklenecektir.
 

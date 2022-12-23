@@ -11,7 +11,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.5 pour Lin
 {{% /alert %}}
 
 Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 22.5 pour Linux.
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-778| Optimiser le module xml|Optimiser|
 |CELLSCPP-784| Correction du problème DateTime :: parseUTC|Insectes|

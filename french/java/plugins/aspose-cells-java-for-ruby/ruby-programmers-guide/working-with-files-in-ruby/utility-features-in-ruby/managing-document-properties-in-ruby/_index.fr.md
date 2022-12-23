@@ -5,7 +5,7 @@ weight: 90
 url: /fr/java/managing-document-properties-in-ruby/
 ---
 ## **Aspose.Cells - Accès aux propriétés du document**
-Les développeurs peuvent utiliser le**Indice**ou**Nom** de la propriété pour obtenir une propriété spécifique d'un**propriétés_personnalisées**collection comme démontré ci-dessous dans l'exemple.
+Les développeurs peuvent utiliser le**Indice**ou alors**Nom** de la propriété pour obtenir une propriété spécifique d'un**propriétés_personnalisées**collection comme démontré ci-dessous dans l'exemple.
 
 **Code rubis**
 

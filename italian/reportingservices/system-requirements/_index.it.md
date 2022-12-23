@@ -6,16 +6,16 @@ url: /it/reportingservices/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services (compreso il client Aspose.Cells.ReportingServices, i componenti aggiuntivi per Microsoft Excel e il server Aspose.Cells.ReportingServices) deve essere installato correttamente. Inoltre, Microsoft SQL Server deve essere installato prima di installare Aspose.Cells for Reporting Services.
+Aspose.Cells for Reporting Services (compreso il client Aspose.Cells.ReportingServices, i componenti aggiuntivi per Microsoft Excel e Aspose.Cells.ReportingServices Server) deve essere installato correttamente. Inoltre, Microsoft SQL Server deve essere installato prima di installare Aspose.Cells for Reporting Services.
 
 {{% /alert %}} 
 ### **Sistema d'ufficio**
-Sono supportate le seguenti versioni di Microsoft Excel. Inoltre, è necessario installare patch aggiuntive per superare alcuni possibili problemi per Microsoft Office 2000, 2002, XP o 2003.
+Sono supportate le seguenti versioni di Excel Microsoft. Inoltre, è necessario installare patch aggiuntive per superare alcuni possibili problemi per Microsoft Office 2000, 2002, XP o 2003.
 
 - Microsoft Excel 2000
- Installa il**lockbackRegKey.msi** per risolvere un problema CLR su macchine Microsoft Office precedenti a Office 2003.
+Installa il**lockbackRegKey.msi** per risolvere un problema CLR su macchine Office Microsoft precedenti a Office 2003.
 - Microsoft Excel 2002
- Installare**lockbackRegKey.msi** per risolvere un problema CLR su macchine Microsoft Office precedenti a Office 2003.
+ Installare**lockbackRegKey.msi** per risolvere un problema CLR su macchine Office Microsoft precedenti a Office 2003.
 - Microsoft Excel 2003
  Aggiorna sempre a Office 2003 (KB907417). Questo aggiornamento corregge un potenziale problema in cui un componente aggiuntivo, uno smart tag o uno smart document potrebbe non essere caricato se utilizza Microsoft .NET Framework 2.0.
 - Microsoft Excel 2007
@@ -44,23 +44,23 @@ Sono supportate le seguenti versioni di Microsoft Excel. Inoltre, è necessario 
 Sono supportati i seguenti sistemi operativi Microsoft Windows:
 
 - Microsoft Windows 2000 Server
-- Microsoft Windows 2000 professionale
+- Microsoft Windows 2000 Professionista
 - Microsoft Windows XP Home Edition
 - Microsoft Windows XP Edizione Professionale
-- Edizione Microsoft Windows XP Professional x64
-- Server Microsoft Windows 2003
+- Microsoft Windows Edizione XP Professional x64
+- Microsoft Windows 2003 Server
 - Microsoft Windows Vista
 - Microsoft Windows 7
-- Server Microsoft Windows 2008
-- Microsoft Windows Server 2008 R2
-- Server Microsoft Windows 2012
-- Server Microsoft Windows 2012 R2
-- Server Microsoft Windows 2016
-- Server Microsoft Windows 2019
+- Microsoft Windows 2008 Server
+- Microsoft Windows 2008 Server R2
+- Microsoft Windows 2012 Server
+- Microsoft Windows 2012 Server R2
+- Microsoft Windows 2016 Server
+- Microsoft Windows 2019 Server
 
-### **Versioni di .NET Framework supportate**
-Sono supportate le seguenti versioni di .NET Framework:
+### **Versioni del framework .NET supportate**
+Sono supportate le seguenti versioni di Framework .NET:
 
-- NET Framework 2.0
-- .NET Framework 3.5
-- .NET Framework 4.x
+- NET Quadro 2.0
+- .NET Quadro 3.5
+- .NET Quadro 4.x

@@ -10,8 +10,8 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-7-0/
 
 {{% /alert %}} 
 ## **Добавлены API**
-### **Поддержка оптимизации PDF**
- Aspose.Cells API уже предоставляют функцию преобразования электронных таблиц в PDF. В этом выпуске API пользователи теперь могут[оптимизировать результирующий размер PDF](/cells/ru/java/save-excel-into-pdf-with-standard-or-minimum-size/)также. Aspose.Cells for Java 8.7.0 предоставило свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить пользователям выбор желаемого алгоритма оптимизации при экспорте электронных таблиц в формат PDF. Существует 2 возможных значения свойства PdfSaveOptions.OptimizationType, как описано ниже.
+### **Поддержка PDF Оптимизация**
+ Aspose.Cells API уже предоставляют функцию преобразования электронных таблиц в PDF. В этом выпуске API пользователи теперь могут[оптимизировать полученный размер PDF](/cells/ru/java/save-excel-into-pdf-with-standard-or-minimum-size/)также. Aspose.Cells for Java 8.7.0 предоставляет свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить пользователям выбор желаемого алгоритма оптимизации при экспорте электронных таблиц в формат PDF. Существует 2 возможных значения свойства PdfSaveOptions.OptimizationType, как описано ниже.
 
 1. PdfOptimizationType.MINIMUM_SIZE: Качество скомпрометировано из-за результирующего размера файла.
 1. PdfOptimizationType.STANDARD: качество не страдает, поэтому результирующий размер файла будет большим.
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Добавлено свойство TxtLoadOptions.HasFormula**
- Aspose.Cells for Java 8.7.0 предоставил поддержку[определять и анализировать формулы при загрузке файлов CSV/TXT, содержащих простые данные с разделителями](/cells/ru/java/load-or-import-csv-file-with-formulas/). Недавно открытое свойство TxtLoadOptions.HasFormula, если для него задано значение true, указывает API анализировать формулы из входного файла с разделителями и устанавливать их в соответствующие ячейки без дополнительной обработки.
+ Aspose.Cells for Java 8.7.0 предоставил поддержку[идентифицировать и анализировать формулы при загрузке файлов CSV/TXT, содержащих простые данные с разделителями](/cells/ru/java/load-or-import-csv-file-with-formulas/). Недавно открытое свойство TxtLoadOptions.HasFormula, если для него задано значение true, указывает API анализировать формулы из входного файла с разделителями и устанавливать их в соответствующие ячейки без дополнительной обработки.
 
 Ниже приведен простой сценарий использования.
 
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Добавлено свойство DataLabels.ResizeShapeToFitText.**
- Еще одна полезная функция, представленная в версии Aspose.Cells for Java 8.7.0, — это свойство DataLabels.ResizeShapeToFitText, которое позволяет[изменить размер фигуры, чтобы она соответствовала тексту](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/) функция приложения Excel для меток данных диаграммы.
+ Еще одна полезная функция, представленная в версии Aspose.Cells for Java 8.7.0, — это свойство DataLabels.ResizeShapeToFitText, которое позволяет[изменить размер фигуры, чтобы она соответствовала тексту](/cells/ru/java/resize-chart-s-data-label-shape-to-fit-text/)функция приложения Excel для меток данных диаграммы.
 
 Ниже приведен простой сценарий использования.
 

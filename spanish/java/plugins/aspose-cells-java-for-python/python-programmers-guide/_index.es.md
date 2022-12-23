@@ -15,7 +15,7 @@ Es muy útil para los desarrolladores que quieren usar Aspose.Cells Java Apis en
     - [Abriendo Archivos en Python](/cells/es/java/opening-files-in-python/)
     - [Guardar archivos en Python](/cells/es/java/saving-files-in-python/)
   - [Funciones de utilidad en Python](/cells/es/java/utility-features-in-python/)
-    - [Convertir archivos de Excel a HTML en Python](/cells/es/java/converting-excel-files-to-html-in-python/)
+    - [Conversión de archivos de Excel a HTML en Python](/cells/es/java/converting-excel-files-to-html-in-python/)
     - [Convertir archivos de Excel a PDF en Python](/cells/es/java/converting-excel-to-pdf-files-in-python/)
     - [Conversión a archivos MHTML en Python](/cells/es/java/converting-to-mhtml-files-in-python/)
     - [Conversión de hoja de trabajo a imagen en Python](/cells/es/java/converting-worksheet-to-image-in-python/)

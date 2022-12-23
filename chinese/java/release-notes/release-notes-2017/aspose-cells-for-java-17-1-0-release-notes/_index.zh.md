@@ -8,31 +8,31 @@ url: /zh/java/aspose-cells-for-java-17-1-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42132|PageSetup 类中添加了 GetPaperWidth 和 GetPaperHeight 方法|新功能|
 |CELLSJAVA-41950|在将电子表格转换为 HTML 时支持艺术字的渐变填充|新功能|
-|CELLSJAVA-42129|保存到 HTML 是错误的|漏洞|
-|CELLSJAVA-42125|转换为 HTML 时，形状后面的网格线不会导出|漏洞|
-|CELLSJAVA-42110|导入 HTML 时忽略了一些 CSS 规则|漏洞|
-|CELLSJAVA-42094|转换后的 HTML 中的内容被删除线|漏洞|
-|CELLSJAVA-42091|保存为 HTML 时某些单元格的文本样式错误|漏洞|
+|CELLSJAVA-42129|保存到HTML是错误的|漏洞|
+|CELLSJAVA-42125|转换为 HTML 时不导出形状后面的网格线|漏洞|
+|CELLSJAVA-42110|导入时忽略了一些 CSS 规则 HTML|漏洞|
+|CELLSJAVA-42094|转换后的内容被划线 HTML|漏洞|
+|CELLSJAVA-42091|保存到HTML时部分单元格文字样式错误|漏洞|
 |CELLSJAVA-42088|当单元格设置了背景颜色时 DataBar 错误|漏洞|
-|CELLSJAVA-42018|使用 EMF 或 SVG 格式时，图表图片未保存|漏洞|
+|CELLSJAVA-42018|使用 EMF 或 SVG 格式时图表图片未保存|漏洞|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines 似乎不适用于特定的电子表格|漏洞|
 |CELLSJAVA-42131|使用 Aspose Cells API 重新计算多个公式会导致“#NUM!”错误|漏洞|
 |CELLSJAVA-42124|使用 ICustomParser 导入 CSV 时出现日期格式问题|漏洞|
 |CELLSJAVA-42118|Name.getRanges() API 产生意外结果|漏洞|
 |CELLSJAVA-42117|覆盖 LoadFilter 类的 startSheet 方法时无法访问实例变量 m_LoadDataFilterOptions|漏洞|
 |CELLSJAVA-41882|Cell 基于不同JDK版本的字符串值&舍入问题|漏洞|
-|CELLSJAVA-42142|在 Linux 上完成转换后，PDF 中的从右到左和从左到右的控制字符无法正确呈现|漏洞|
-|CELLSJAVA-42136|希伯来语 - 在表格中，单词换行在 PDF 中右对齐，而在 Excel 中它们应该居中|漏洞|
+|CELLSJAVA-42142|在 Linux 上完成转换时，从右到左和从左到右的控制字符在 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42136|希伯来语 - 在表格中，单词换行在 PDF 中右对齐，而它们应该像在 Excel 中一样居中|漏洞|
 |CELLSJAVA-42113|错误地将阿拉伯语工作表转换为 SVG|漏洞|
-|CELLSJAVA-42135|希伯来语 - 换行文本在 PDF 中不像在 Excel 中那样右对齐|漏洞|
+|CELLSJAVA-42135|希伯来语 - 换行文本在 PDF 中未像在 Excel 中那样右对齐|漏洞|
 |CELLSJAVA-42134|希伯来语 - 系列标签出现换行时字符未按正确顺序显示|漏洞|
-|CELLSJAVA-42127|将 03.xls 渲染为 PDF 时出现图像错误|漏洞|
-|CELLSJAVA-42126|将 02.xls 渲染为 PDF 时出现图像错误|漏洞|
-|CELLSJAVA-42087|HTML 中的图表图像错误|漏洞|
-|CELLSJAVA-42079|将带有图表的电子表格渲染为 PDF 时，交叉点处的线条粗细不均匀|漏洞|
+|CELLSJAVA-42127|形状到图像渲染 03.xls 到 PDF 时出错|漏洞|
+|CELLSJAVA-42126|形状到图像渲染 02.xls 到 PDF 时出错|漏洞|
+|CELLSJAVA-42087|HTML中的图表图像是错误的|漏洞|
+|CELLSJAVA-42079|在将带有图表的电子表格渲染到 PDF 时，交叉点处线条的粗细不均匀|漏洞|
 |CELLSJAVA-42078|输出 PDF 文件中的图表标签未显示/呈现相同（根据原始 Excel 文件）|漏洞|
-|CELLSJAVA-42076|图表 PDF 中 x 轴标签的角度不正确|漏洞|
-|CELLSJAVA-42065|将电子表格呈现为 HTML 时条形图呈现不正确|漏洞|
+|CELLSJAVA-42076|Chart 的 x 轴标签角度不正确 PDF|漏洞|
+|CELLSJAVA-42065|将电子表格渲染到 HTML 时条形图渲染不正确|漏洞|
 |CELLSJAVA-42152|引用外部工作簿的设置公式创建 3d 公式|漏洞|
 |CELLSJAVA-42146|重新保存电子表格后 Excel 2007 中出现不可读内容错误|漏洞|
 |CELLSJAVA-42121|条件格式表达式在删除行时发生变化|漏洞|

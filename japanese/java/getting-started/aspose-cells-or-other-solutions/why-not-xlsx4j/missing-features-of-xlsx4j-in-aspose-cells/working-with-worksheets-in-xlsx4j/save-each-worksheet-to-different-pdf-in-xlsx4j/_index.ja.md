@@ -1,17 +1,17 @@
 ﻿---
-title: 各ワークシートをxlsx4jの異なるPDFに保存
+title: 各ワークシートを xlsx4j の異なる PDF に保存します
 type: docs
 weight: 50
 url: /ja/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
 ## **Aspose.Cells - 各ワークシートを別の PDF に保存**
-Aspose.Cells は、XLS ファイル (画像、チャートなどを含む) の PDF ドキュメントへの変換をサポートしています。 Aspose.Cells for Java は、スプレッドシートを Pdf ドキュメントに変換するために独立して機能し、変換に Aspose.Pdf for Java を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
+Aspose.Cells は、XLS ファイル (画像、チャートなどを含む) を PDF ドキュメントに変換することをサポートします。 Aspose.Cells for Java は独立してスプレッドシートを Pdf ドキュメントに変換することができ、変換に Aspose.Pdf for Java を使用する必要がなくなりました。プロセス全体をメモリ内で実行できるため、変換では一時ファイルを作成/使用する必要はありません。
 
 **Java**
 
 {{< highlight "java" >}}
 
-//Excelファイルのパスを取得
+ //Excelファイルのパスを取得
 
 文字列 filePath = dataDir + "workbook.xlsx";
 
@@ -65,6 +65,6 @@ for (int j = 0; j < workbook.getWorksheets().getCount(); j++)
 
 {{% alert color="primary" %}} 
 
-詳細については、次を参照してください。[各ワークシートを異なる PDF ファイルに保存する](/cells/ja/java/save-each-worksheet-to-a-different-pdf-file).
+詳細については、次を参照してください。[各ワークシートを別の PDF ファイルに保存する](/cells/ja/java/save-each-worksheet-to-a-different-pdf-file).
 
 {{% /alert %}}

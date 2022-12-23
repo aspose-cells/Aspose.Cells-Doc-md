@@ -10,7 +10,7 @@ description: إدارة الصور والكائنات والأشكال في مل
 
 تحتاج أحيانًا إلى إدراج بعض الأشكال الضرورية في ورقة العمل ، وقد تحتاج إلى إدراج نفس الشكل في مواضع مختلفة من ورقة العمل ، أو قد تحتاج إلى إدخال أشكال مجمعة في ورقة العمل.
 
- لا تقلق![Aspose.Cells](https://products.aspose.com/cells/) يدعم كل هذه العمليات.
+ لا تقلق![Aspose.Cells](https://products.aspose.com/cells/)يدعم كل هذه العمليات.
 
 {{% /alert %}}
 
@@ -26,12 +26,12 @@ description: إدارة الصور والكائنات والأشكال في مل
 - **النجوم واللافتات**
 - **وسائل الشرح**
 
-ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
+ ستحدد وثيقة الدليل هذه شكلاً أو شكلين من كل نوع لعمل عينات ، ومن خلال هذه الأمثلة سوف تتعلم كيفية الاستخدام[Aspose.Cells](https://products.aspose.com/cells/) لإدراج الشكل المحدد في ورقة العمل.
 
 ## **إضافة الصور في ورقة عمل Excel في C#**
 
 من السهل جدًا إضافة الصور إلى جدول البيانات. لا يتطلب الأمر سوى بضعة أسطر من التعليمات البرمجية:
- ما عليك سوى الاتصال بـ[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) طريقة[**الصور**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) هدف). ال[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)تأخذ الطريقة المعلمات التالية:
+ ما عليك سوى الاتصال بـ[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) طريقة[**الصور**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) مجموعة (مغلفة في ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) موضوع). ال[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)تأخذ الطريقة المعلمات التالية:
 
 - **فهرس الصف العلوي الأيسر**، فهرس الصف العلوي الأيسر.
 - **فهرس العمود الأيسر العلوي**، فهرس العمود الأيسر العلوي.
@@ -78,7 +78,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) موضوع.
 
 {{% /alert %}}
 
@@ -94,7 +94,7 @@ description: إدارة الصور والكائنات والأشكال في مل
 
 ## **إدراج سهم خط في ورقة عمل Excel في C#**
 
- شكل سهم الخط ينتمي إلى**خطوط**فئة وهي حالة خاصة من الخط.
+ شكل سهم الخط ينتمي إلى**خطوط** فئة وهي حالة خاصة من الخط.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -119,7 +119,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addline)
 
- تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل خط](https://reference.aspose.com/cells/net/aspose.cells.drawing/lineshape) موضوع.
 
 {{% /alert %}}
 
@@ -160,7 +160,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addrectangle)
 
- تقوم الطريقة بإرجاع ملف[شكل مستطيل](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل مستطيل](https://reference.aspose.com/cells/net/aspose.cells.drawing/rectangleshape) موضوع.
 
 {{% /alert %}}
 
@@ -176,7 +176,7 @@ description: إدارة الصور والكائنات والأشكال في مل
 
 ## **إدراج مكعب في ورقة عمل Excel في C#**
 
- شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
+شكل المكعب ينتمي إلى**الأشكال الأساسية** الفئة.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -202,7 +202,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 
@@ -244,7 +244,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 
@@ -286,7 +286,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 
@@ -302,7 +302,7 @@ description: إدارة الصور والكائنات والأشكال في مل
 
 ## **إدخال مستند متعدد في ورقة عمل Excel في C#**
 
-شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
+ شكل المستندات المتعددة ينتمي إلى**مخططات انسيابية** الفئة.
 
 ***في Microsoft Excel (على سبيل المثال 2007):***
 
@@ -328,7 +328,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 
@@ -370,7 +370,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 
@@ -412,7 +412,7 @@ description: إدارة الصور والكائنات والأشكال في مل
  عرض كثافة العمليات
 )](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addautoshape)
 
- تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) هدف.
+ تقوم الطريقة بإرجاع ملف[شكل](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape) موضوع.
 
 {{% /alert %}}
 

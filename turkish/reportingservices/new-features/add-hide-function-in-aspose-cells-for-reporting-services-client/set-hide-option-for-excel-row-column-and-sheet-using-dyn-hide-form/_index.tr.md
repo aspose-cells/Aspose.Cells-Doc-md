@@ -13,4 +13,4 @@ Aspose.Cells for Reporting Services, Gizle parametrelerinde belirtilen herhangi 
 
 **Gizleme seçeneklerini belirleme** 
 
-![yapılacaklar:resim_alternatif_Metin](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)
+![yapılacaklar:resim_alternatif_metin](set-hide-option-for-excel-row-column-and-sheet-using-dyn-hide-form_1.png)

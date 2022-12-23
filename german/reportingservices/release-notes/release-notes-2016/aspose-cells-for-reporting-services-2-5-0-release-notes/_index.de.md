@@ -12,9 +12,9 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-2-5-0-release-not
 |SSRS-40224 | Unterstützt SQL Server 2016|Neue Funktion|
 |SSRS-40238 | Zeilenhöhe automatisch anpassen funktioniert nicht in der gerenderten Excel-Datei| Insekt|
 |SSRS-40236 | Migrieren von Berichtsserver zu SQL Server 2016| Insekt|
-|SSRS-40234 | Hyperlinks wurden beim Exportieren in das XLSX-Format beschädigt| Insekt|
-|SSRS-40233 | Die Fehlermeldung „Excel hat unlesbaren Inhalt gefunden“ wird von MS Excel angezeigt, wenn die exportierte XLSX-Datei darin geöffnet wird| Insekt|
-|SSRS-40232 | Problem mit Seitenumbruch| Insekt|
-|SSRS-40230 |Unerwartete Gruppen und Zellstile wurden in der Excel-Ausgabedatei hinzugefügt| Insekt|
+|SSRS-40234 | Hyperlinks wurden beim Exportieren in das Format XLSX beschädigt| Insekt|
+|SSRS-40233 | Die Fehlermeldung „Excel hat nicht lesbaren Inhalt gefunden“ wird von MS Excel angezeigt, wenn die exportierte XLSX-Datei darin geöffnet wird| Insekt|
+|SSRS-40232 |Problem mit Seitenumbruch| Insekt|
+|SSRS-40230 | Unerwartete Gruppen und Zellstile wurden in der Excel-Ausgabedatei hinzugefügt| Insekt|
 |SSRS-40226 | Rendering Services für SSRS – Veröffentlichung des Berichts fehlgeschlagen| Insekt|
 

@@ -16,7 +16,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 新機能
 
- 13872 XPS ファイルへのエクスポート
+ 13872 XPS ファイルにエクスポート
 
 28363 書き込み禁止の XLSX ファイルを作成する
 
@@ -54,7 +54,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27998 正当な XLSX ファイルを開くと例外がスローされる
 
-28318 XLS ブックを XLSM 形式で保存するときに例外が発生しました
+28318 XLS ワークブックを XLSM 形式で保存するときに例外が発生しました
 
 バグ
 
@@ -78,7 +78,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27168 PDF に保存すると、グループ化された図形が歪む
 
-27240 Excel から PDF への変換 - グラフの範囲の問題
+27240 Excel から PDF への変換 - チャート範囲の問題
 
 28112 Excel (XLS) ファイルを PDF として保存すると問題が発生する
 
@@ -92,7 +92,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27951 Sheet to Image 機能でエクスポートされた画像に黒丸がありません
 
-28413 TIFF 変換での列の形式が正しくありません
+28413 TIFF の列の形式 変換が正しくありません
 
 27906 スマート マーカーのエスケープ文字
 
@@ -100,7 +100,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 28269 最大の高さを超える行を作成する際の AutoRow の高さの問題
 
-26941 XLS ファイルと XLSX ファイル間のオートフィルターの問題
+26941 XLS と XLSX ファイル間のオートフィルターの問題
 
 28036 生成されたファイルのセルの書式設定に関する問題
 
@@ -120,7 +120,7 @@ url: /ja/net/aspose-cells-for-net-6-0-0-release-notes/
 
 27799 GridWeb の XhtmlMode が「true」に設定されている場合、ShowDefaultGridLine = false の設定は使用できません。
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 新機能
 

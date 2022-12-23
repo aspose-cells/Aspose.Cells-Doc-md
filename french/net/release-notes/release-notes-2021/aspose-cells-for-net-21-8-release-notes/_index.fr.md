@@ -10,9 +10,9 @@ url: /fr/net/aspose-cells-for-net-21-8-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSNET-48470|Prise en charge de la mise à l'échelle des pages de feuille de calcul lors de l'exportation de fichiers au format HTML|Nouvelle fonctionnalité|
+|CELLSNET-48470|Prise en charge de la mise à l'échelle des pages de feuille de calcul lors de l'exportation de fichiers vers HTML|Nouvelle fonctionnalité|
 |CELLSNET-41286|Prise en charge des cartes XML|Nouvelle fonctionnalité|
 |CELLSNET-45255|Prise en charge des .numbers d'Apple ? format de fichier|Nouvelle fonctionnalité|
 |CELLSNET-47737| Prise en charge de la lecture du dernier format de fichier Apples .numbers|Nouvelle fonctionnalité|
@@ -27,17 +27,17 @@ url: /fr/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48241|La position du texte dans la forme du pentagone est incorrecte|Punaise|
 |CELLSNET-48247|La flèche de flexion disparaît lors de la conversion en pdf.|Punaise|
 |CELLSNET-48363|La position du texte enrichi est calculée à plusieurs reprises, provoquant le déplacement du texte vers le haut.|Punaise|
-|CELLSNET-47839|Forme à l'image Erreur lors de l'enregistrement de XLSX au format PDF|Punaise|
+|CELLSNET-47839|Forme à l'image Erreur lors de l'enregistrement XLSX à PDF|Punaise|
 |CELLSNET-48312|Problème avec le niveau de zoom dans la sortie html.|Punaise|
-|CELLSNET-48329|Problème d'alignement d'image lors de l'exportation d'une plage au format HTML|Punaise|
-|CELLSNET-48333| Les colonnes de tableau dans la plage avec un alignement en bas sont combinées dans le code HTML converti|Punaise|
+|CELLSNET-48329|Problème d'alignement de l'image lors de l'exportation de la plage vers HTML|Punaise|
+|CELLSNET-48333| Les colonnes de tableau dans la plage avec un alignement en bas sont combinées dans HTML converti|Punaise|
 |CELLSNET-48365| Les segments créés à partir des champs de base du tableau croisé dynamique ne fonctionnent pas|Punaise|
 |CELLSNET-48359|Les macros sont supprimées après la migration de XLS vers XLSM|Punaise|
 |CELLSNET-48448|La source de données du graphique avec la plage nommée n'est pas analysée correctement|Punaise|
 |CELLSNET-47369|Point de graphique manquant et forme comprimée dans l'image EMF générée|Punaise|
 |CELLSNET-48497|Le fichier xlsx généré est cassé après avoir lié la cellule à XmlMap|Punaise|
 |CELLSNET-48132| Problème lors de la modification de la position de l'étiquette de données du graphique en anneau|Punaise|
-|CELLSNET-48385|XLSX vers TIFF : les barres de graphique ne sont pas rendues en sortie|Punaise|
+|CELLSNET-48385|XLSX à TIFF : les barres du graphique ne sont pas rendues dans la sortie|Punaise|
 |CELLSNET-48386|Mauvais nom de police pour le nom de la police de l'étiquette de coche de l'axe des catégories|Punaise|
 |CELLSNET-48503|L'alignement du titre de l'axe est décalé dans le pdf de sortie|Punaise|
 |CELLSNET-48509|Le graphique n'apparaît parfois pas en fonction de la position de la légende|Punaise|
@@ -47,12 +47,12 @@ url: /fr/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48460|Les PowerQueries sont perdues après le remplacement|Punaise|
 |CELLSNET-48478|Le contenu du fichier XML n'est pas chargé|Punaise|
 |CELLSNET-48492|Problème avec 100% Stacked Bar et l'unité principale et l'unité mineure|Punaise|
-|CELLSNET-48504|Index de colonne invalide lors de la conversion de XLSX|Punaise|
+|CELLSNET-48504|Index de colonne invalide lors de la conversion XLSX|Punaise|
 |CELLSNET-48512|La suppression du filtre automatique ne fonctionne pas correctement|Punaise|
 |CELLSNET-48477|La méthode PivotTable.CalculateData lève une exception|Exception|
 |CELLSNET-48395|La forme à l'image déclenche une exception dans l'environnement Docker pour le fichier Display.xlsx|Exception|
 |CELLSNET-48367|Exception levée lorsque la largeur de PlotArea est de 0|Exception|
-|CELLSNET-48172|"Erreur de forme en image" lors de la conversion d'un fichier Excel en PDF|Exception|
+|CELLSNET-48172|"Erreur de forme en image" lors de la conversion du fichier Excel en PDF|Exception|
 |CELLSNET-48490|"Opération arithmétique a donné lieu à un trop-plein." exception lors de l'ouverture du fichier XLS|Exception|
 |CELLSNET-48545|Exception levée lors de l'appel de Shape.UpdateSelectedValue()|Exception|
 |

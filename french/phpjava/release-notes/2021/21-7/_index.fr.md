@@ -10,7 +10,7 @@ url: /fr/php-java/aspose-cells-for-php-via-java-21-7-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43477|Signer numériquement un projet de code VBA avec certificat en utilisant Aspose.Cells for Java|
 |CELLSJAVA-40452|Obtenir des plages de données externes et des détails|
@@ -18,17 +18,17 @@ url: /fr/php-java/aspose-cells-for-php-via-java-21-7-release-notes/
 |CELLSJAVA-41121|SheetRender ne restitue pas correctement l'organigramme|
 |CELLSJAVA-43331|Texte manquant dans le cercle lors de la conversion XLS en HTML|
 |CELLSJAVA-43507|Lors de l'exécution de svg pour insérer excel sous java, il se ferme anormalement.|
-|CELLSJAVA-41887|Les données de pourcentage d'un tableau croisé dynamique ne s'affichent pas correctement en HTML|
-|CELLSJAVA-43482|Les exposants et les indices ne sont pas formatés correctement lors de la conversion d'un document HTML en classeur|
+|CELLSJAVA-41887|Les données de pourcentage d'un tableau croisé dynamique ne s'affichent pas correctement dans HTML|
+|CELLSJAVA-43482|Exposants et indices non formatés correctement lors de la conversion d'un document HTML en classeur|
 |CELLSJAVA-43501|Valeur incorrecte lue à l'aide de la fonction getStringValue()|
 |CELLSJAVA-43515|Problème de formule MDURATION|
 |CELLSJAVA-43528|La date et l'heure de création et la date de mise à jour ne peuvent pas être extraites|
 |CELLSJAVA-43529|Impossible d'extraire BuiltInDocumentProperties|
 |CELLSJAVA-43530|Les résultats des propriétés de date et d'heure sont différents|
-|CELLSJAVA-41693|L'équation dans une zone de texte ne se rend pas au format PDF|
-|CELLSJAVA-43487|Texte non centré dans le PDF de sortie lors de la conversion d'Excel en PDF|
+|CELLSJAVA-41693|L'équation dans une zone de texte ne rend pas PDF|
+|CELLSJAVA-43487|Texte non centré dans la sortie PDF dans Excel à PDF conversion|
 |CELLSJAVA-42867|Les formes ne sont pas récupérées dans le format de fichier ODS|
-|CELLSJAVA-42895|La sortie PNG du graphique MS Excel présente des écarts|
+|CELLSJAVA-42895|PNG la sortie du graphique MS Excel présente des écarts|
 |CELLSJAVA-43015|Problème avec SheetRender.toImage() lors de l'utilisation de la méthode setPrintArea()|
 |CELLSJAVA-43258|La police des points du graphique change après la copie du classeur|
 |CELLSJAVA-43436|Aspose Cells ignore l'axe y inversé dans le diagramme|
@@ -49,11 +49,11 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 
 ### **Ajoute la méthode PivotFormatCondition.AddColumnAreaCondition(PivotField columnField) .**
 
-Ajoute une limite de format conditionnel de tableau croisé dynamique dans les champs de colonne.
+ Ajoute une limite de format conditionnel de tableau croisé dynamique dans les champs de colonne.
 
 ### **Ajoute la méthode PivotFormatCondition.AddColumnAreaCondition(String fieldName) .**
 
-Ajoute une limite de format conditionnel de tableau croisé dynamique dans les champs de colonne.
+ Ajoute une limite de format conditionnel de tableau croisé dynamique dans les champs de colonne.
 
 ### **Ajoute la méthode PivotFormatCondition.AddRowAreaCondition(PivotField rowField) .**
 

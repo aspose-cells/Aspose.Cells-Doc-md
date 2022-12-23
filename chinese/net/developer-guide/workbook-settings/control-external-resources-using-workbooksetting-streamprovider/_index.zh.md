@@ -12,7 +12,7 @@ url: /zh/net/control-external-resources-using-workbooksetting-streamprovider/
 
 下面的示例代码解释了[**工作簿.设置.StreamProvider**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/streamprovider) .它加载了[示例 Excel 文件](61767863.xlsx)包含链接图像。该代码将链接的图像替换为[Aspose 徽标](61767862.png)并使用将整个工作表渲染成单个图像[**图纸渲染**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)班级。以下屏幕截图显示了示例 Excel 文件及其[渲染输出图像](61767865.png)供参考。如您所见，损坏的链接图像已替换为 Aspose 徽标。
 
-![待办事项：图像_替代_文本](control-external-resources-using-workbooksetting-streamprovider_1.png)
+![待办事项：图片_替代_文本](control-external-resources-using-workbooksetting-streamprovider_1.png)
 
 ## **示例代码**
 

@@ -6,7 +6,7 @@ url: /ar/net/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان ، تريد تغيير محاذاة عدة خلايا ولكنك تريد أيضًا الاحتفاظ بالتنسيق الحالي. يسمح لك Aspose.Cells بالقيام بذلك باستخدام ملف[**StyleFlag. التحالفات**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) منشأه. إذا كنت ستقوم بتعيينه**حقيقي** ، ستحدث التغييرات في المحاذاة وإلا لم يحدث ذلك. يرجى الملاحظة،[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) يتم تمرير الكائن كمعامل إلى[**النطاق.**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)الطريقة التي تطبق بالفعل التنسيق على نطاق من الخلايا.
+في بعض الأحيان ، تريد تغيير محاذاة عدة خلايا ولكنك تريد أيضًا الاحتفاظ بالتنسيق الحالي. يسمح لك Aspose.Cells بالقيام بذلك باستخدام ملف[**StyleFlag. التحالفات**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) خاصية. إذا كنت ستقوم بتعيينه**حقيقي** ، ستحدث التغييرات في المحاذاة وإلا لم يحدث ذلك. يرجى الملاحظة،[**النمط**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) يتم تمرير الكائن كمعامل إلى[**النطاق.**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)الطريقة التي تطبق بالفعل التنسيق على نطاق من الخلايا.
 
 ## **قم بتغيير Cells المحاذاة والاحتفاظ بالتنسيق الموجود**
 

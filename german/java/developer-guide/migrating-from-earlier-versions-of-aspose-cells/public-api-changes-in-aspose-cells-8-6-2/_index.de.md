@@ -11,7 +11,7 @@ Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.6.1
 {{% /alert %}} 
 ## **APIs hinzugefügt**
 ### **Unterstützung für Rückruf mit intelligenten Markierungen**
-Diese Version von Aspose.Cells for Java API hat das WorkbookDesigner.CallBack-Feld und die ISmartMarkerCallBack-Schnittstelle bereitgestellt, die dies zusammen ermöglichen[Erhalten Sie die Benachrichtigungen über die verarbeitete Zellreferenz und/oder intelligente Markierung](/cells/de/java/getting-notifications-while-merging-data-with-smart-markers/) . Der folgende Codeabschnitt demonstriert die Verwendung der ISmartMarkerCallBack-Schnittstelle zum Definieren einer neuen Klasse, die den Rückruf für die WorkbookDesigner.process-Methode verarbeitet.
+ Diese Version von Aspose.Cells for Java API hat das WorkbookDesigner.CallBack-Feld und die ISmartMarkerCallBack-Schnittstelle bereitgestellt, die dies zusammen ermöglichen[Erhalten Sie die Benachrichtigungen über die verarbeitete Zellreferenz und/oder intelligente Markierung](/cells/de/java/getting-notifications-while-merging-data-with-smart-markers/) . Der folgende Codeabschnitt demonstriert die Verwendung der ISmartMarkerCallBack-Schnittstelle zum Definieren einer neuen Klasse, die den Rückruf für die WorkbookDesigner.process-Methode verarbeitet.
 
 **Java**
 
@@ -108,7 +108,7 @@ Chart chart = worksheet.getCharts().get(0);
 chart.toPdf(outputFilePath);
 
 {{< /highlight >}}
-### **Methode Workbook.removeUnusedStyles hinzugefügt**
+### **Methode Workbook.removeUnusedStyles Hinzugefügt**
  Aspose.Cells for Java 8.6.2 hat die Workbook.removeUnusedStyles-Methode bereitgestellt, die verwendet werden kann[Entfernen Sie alle nicht verwendeten Stilobjekte aus dem Stilpool](/cells/de/java/remove-unused-styles-inside-the-workbook/). 
 
 Es folgt das einfache Nutzungsszenario.

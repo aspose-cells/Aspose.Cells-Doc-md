@@ -14,13 +14,13 @@ Microsoft Excel permite a los usuarios encontrar celdas en una hoja de trabajo q
 
 ### **Usando Microsoft Excel**
 
-Microsoft Excel permite a los usuarios encontrar celdas en una hoja de trabajo que contiene datos específicos. Si selecciona**Editar** desde el**Encontrar** menú en Microsoft Excel, verá un cuadro de diálogo donde puede especificar el valor de búsqueda.
+ Microsoft Excel permite a los usuarios encontrar celdas en una hoja de trabajo que contiene datos específicos. Si selecciona**Editar** desde el**Encontrar** menú en Microsoft Excel, verá un cuadro de diálogo donde puede especificar el valor de búsqueda.
 
 Aquí, buscamos el valor "Naranjas". Aspose.Cells también permite a los desarrolladores encontrar celdas en la hoja de trabajo que contienen valores específicos.
 
 ### **Usando Aspose.Cells**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección que representa todas las celdas de la hoja de cálculo. los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection proporciona varios métodos para encontrar celdas en una hoja de cálculo que contiene datos especificados por el usuario. Algunos de estos métodos se analizan a continuación con más detalle.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) colección que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección que representa todas las celdas de la hoja de trabajo. Él[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection proporciona varios métodos para encontrar celdas en una hoja de cálculo que contiene datos especificados por el usuario. Algunos de estos métodos se analizan a continuación con más detalle.
 
 {{% alert color="primary" %}}
 
@@ -54,7 +54,7 @@ Los siguientes ejemplos usan datos de hojas de trabajo para practicar métodos d
 
  Es posible encontrar valores de cadena especificados llamando al mismo[**Encontrar**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) método que se encuentra en el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) colección con varios[**BuscarOpciones**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- Especifica el[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) y[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)propiedades. El siguiente código de ejemplo ilustra cómo usar estas propiedades para encontrar celdas con varios números de cadenas al mismo tiempo.**comienzo** o en el**centro** o en el**final** de la cadena de la celda.
+ Especifica el[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) y[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) propiedades. El siguiente código de ejemplo ilustra cómo usar estas propiedades para encontrar celdas con varios números de cadenas al mismo tiempo.**comienzo** o en el**centro** o en el**final** de la cadena de la celda.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

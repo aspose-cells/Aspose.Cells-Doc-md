@@ -4,7 +4,7 @@ type: docs
 weight: 120
 url: /tr/net/recognise-self-closing-tags/
 ---
-HTML, \ gibi boş etiketler için çeşitli etiket biçimlendirmesine sahip olabilir.<td>\</td> veya \<td/>. Aspose.Cells şu anda bu biçimlerin her ikisini de desteklerken daha önce yalnızca \ destekliyordu.<td>\</td> etiketler gibi. Ekteki örnek HTML dosyası Excel dosyasına dönüştürülerek bu özellik test edilebilir. Örnek HTML dosyası ve çıktı Excel dosyası test için aşağıdaki bağlantılardan indirilebilir.
+HTML, \ gibi boş etiketler için çeşitli etiket biçimlendirmesine sahip olabilir<td>\</td> veya \<td/>. Aspose.Cells şu anda bu biçimlerin her ikisini de desteklerken daha önce yalnızca \ destekliyordu.<td>\</td> etiketler gibi. Ekteki örnek HTML dosyası Excel dosyasına dönüştürülerek bu özellik test edilebilir. Örnek HTML dosyası ve çıktı Excel dosyası test için aşağıdaki linklerden indirilebilir.
 
 [sampleSelfClosingTags.html](sampleSelfClosingTags)
 

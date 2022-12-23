@@ -7,7 +7,7 @@ url: /ja/net/worksheet-to-image-conversion-in-php/
 ## **Aspose.Cells - ワークシートを画像に変換**
 Microsoft Excel ワークシートを画像ファイルに変換する
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

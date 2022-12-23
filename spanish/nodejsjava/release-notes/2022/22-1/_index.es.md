@@ -22,9 +22,9 @@ url: /es/nodejsjava/aspose-cells-for-node-js-via-java-22-1-release-notes/
 |CELLSJAVA-44204|problema de paginacion para csv|
 |CELLSJAVA-43934|Las etiquetas del gráfico circular no coinciden con Excel después de manipular o actualizar el gráfico|
 |CELLSJAVA-44122|Al exportar HTML, las etiquetas de datos son diferentes a las de Excel|
-|CELLSJAVA-41949| El contenido se procesa de manera diferente al guardar el libro de trabajo en formatos XLSX y HTML|
+|CELLSJAVA-41949| El contenido se procesa de manera diferente al guardar el libro de trabajo en los formatos XLSX y HTML|
 |CELLSJAVA-44207|Al exportar a HTML, la altura de la fila aumenta|
-|CELLSJAVA-44233|Bucle infinito al convertir un archivo XLSX|
+|CELLSJAVA-44233|Bucle infinito al convertir el archivo XLSX|
 |CELLSJAVA-44234|Problema de falta de memoria para el archivo data.xls|
 |CELLSJAVA-44246|Excepción "Índice final no válido" para archivo vacío|
 |CELLSJAVA-44258| Excepción de puntero nulo para archivo|

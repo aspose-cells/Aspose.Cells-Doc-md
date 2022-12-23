@@ -18,6 +18,6 @@ Aspose.Cells for Reporting Services 可以通过两种方式部署：
 使用安装程序有两个优点：
 
 1. 它在系统注册表中进行所有必要的输入，以将 Microsoft Excel 公开给 COM 应用程序。
-1. 它包含允许您获取代码样本的演示项目。
+1. 它包含允许您获取代码示例的演示项目。
 
 {{% /alert %}}

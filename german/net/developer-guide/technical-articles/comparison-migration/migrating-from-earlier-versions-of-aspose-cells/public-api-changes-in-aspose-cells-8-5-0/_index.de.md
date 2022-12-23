@@ -15,7 +15,7 @@ Wenn ein Parameter für die benutzerdefinierte Funktion ein Zellbezug ist, wurde
 
 Um solche Anforderungen zu unterstützen, hat Aspose.Cells for .NET 8.5.0 den Parameterwert in „paramsList“ für den angegebenen Bereich geändert. Seit v8.5.0 fügt API das ReferredArea-Objekt einfach in die „paramsList“ ein, wenn der entsprechende Parameter eine Referenz ist oder sein berechnetes Ergebnis eine Referenz ist. Wenn Sie die Referenz selbst benötigen, können Sie die ReferredArea direkt verwenden. Wenn Sie einen einzelnen Zellenwert aus der Referenz abrufen müssen, die der Position der Formel entspricht, können Sie die Methode ReferredArea.GetValue(rowOffset, int colOffset) verwenden. Wenn Sie ein Zellwerte-Array für den gesamten Bereich benötigen, können Sie die Methode ReferredArea.GetValues verwenden.
 
-Jetzt, da Aspose.Cells for .NET 8.5.0 die ReferredArea in „paramsList“ angibt, wird die ReferredAreaCollection in „contextObjects“ nicht mehr benötigt (in alten Versionen konnte sie den Parametern der benutzerdefinierten Funktion nicht immer eine Eins-zu-eins-Zuordnung geben), Daher hat diese Version es jetzt auch aus "contextObjects" entfernt.
+Jetzt, da Aspose.Cells for .NET 8.5.0 die ReferredArea in „paramsList“ angibt, wird die ReferredAreaCollection in „contextObjects“ nicht mehr benötigt (in alten Versionen konnte sie den Parametern der benutzerdefinierten Funktion nicht immer eine Eins-zu-Eins-Zuordnung geben), Daher hat diese Version es jetzt auch aus "contextObjects" entfernt.
 
 Diese Änderung erfordert geringfügige Änderungen am Code der Implementierung für ICustomFunction, wenn Sie den Wert/die Werte des Referenzparameters benötigen.
 

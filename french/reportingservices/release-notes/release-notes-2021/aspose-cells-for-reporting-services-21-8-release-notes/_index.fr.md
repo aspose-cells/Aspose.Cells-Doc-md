@@ -8,7 +8,7 @@ weight: 14
 Cette page contient les notes de version pour Aspose.Cells Reporting Services 21.8
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |19820 |Mise à jour Aspose.Cells ReportingService MSI eula| Tâche|
 |19860 |Prise en charge de l'exportation de fichiers JPG.|Nouvelle fonctionnalité|

@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-2-0-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET がバージョン 8.2.0 に更新されました。このリリースでは、40 を超える新しい便利な改善が追加されたことをお知らせします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -40,9 +40,9 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **バグ**
 
 
-(CELLSNET-42866) - スプレッドシートの垂直テキストが結果の PDF に表示されない
+(CELLSNET-42866) - 結果の PDF で、スプレッドシートの縦書きテキストが欠落している
 
-(CELLSNET-42835) - XLS を PDF にレンダリングすると、テキストが形状の横に配置されない
+(CELLSNET-42835) - XLS が PDF にレンダリングされると、テキストが形状の横に配置されない
 
 (CELLSNET-42787) - レンダリングされた画像が出力 PDF ではっきりしない
 
@@ -54,15 +54,15 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42898) - スプレッドシートが PDF としてレンダリングされるときのスタイル付きフッターの問題
 
-(CELLSNET-42880) - Aspose.Cells PDF で保存されるページ数は 3 です。
+(CELLSNET-42880) - Aspose.Cells PDF によって保存されたページ数は 3 です。
 
  (CELLSNET-42841) - 2 ページではなく 4 ページにわたる Tiff 画像
 
-(CELLSNET-42833) - 結果の PDF でテキストに重なる形状
+(CELLSNET-42833) - 結果のテキストに形状が重なる PDF
 
-(CELLSNET-42829) - 結果の PDF でチェック ボックスが正しく配置されない
+ (CELLSNET-42829) - 結果の PDF でチェック ボックスが正しく配置されない
 
-(CELLSNET-42776) - スプレッドシートを PDF に保存する際に画質が低下する
+(CELLSNET-42776) - スプレッドシートを PDF に保存すると画質が低下する
 
 (CELLSNET-42620) - グラフィック内の文字 e が黒色で塗りつぶされない
 
@@ -70,17 +70,17 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42847) - ODS ファイルを再保存するとチャートが失われる
 
-(CELLSNET-42831) - 結果の PDF で形状がずれている
+(CELLSNET-42831) - 形状が結果のPDFでシフトしました
 
-(CELLSNET-42830) - 結果の PDF の矢印方向の変更
+(CELLSNET-42830) - 結果の矢印方向の変更 PDF
 
-(CELLSNET-42828) - 結果の PDF の形状がトリミングされ、十字の一部が表示されない
+ (CELLSNET-42828) - 結果として得られた PDF は、表示されていない十字の一部でトリミングされた形状をしています
 
 (CELLSNET-42798) - バブル チャート イメージが正しく作成されない (Chart to Image)
 
  (CELLSNET-42920) - Excel XLSM ファイルを保存すると、読み取り不能コンテンツ エラーが発生する
 
-(CELLSNET-42909) - テンプレート XLSX ファイルを再保存すると、引出線が非表示になる
+(CELLSNET-42909) - テンプレート XLSX ファイルを再保存すると、リーダー線が非表示になる
 
 (CELLSNET-42908) - セルの終了位置が E9 から F9 に変更されました
 
@@ -92,7 +92,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42899) - Name.GetRange が実際の範囲ではなく null を返す
 
-(CELLSNET-42897) - PDF へのレンダリング中に COUNTIF 数式に対して誤った値が計算される
+(CELLSNET-42897) - PDF へのレンダリング中に COUNTIF 式に対して計算された値が正しくない
 
 (CELLSNET-42889) - Workbook.CalculateFormula によって値が正しく計算されませんでした
 
@@ -104,7 +104,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42849) - Excel ファイルを再保存すると XML マッピングが失われる
 
-(CELLSNET-42848) - ODS ファイルの再保存時にコメントのフォントが変更される
+(CELLSNET-42848) - ODS ファイルを再保存するとコメントのフォントが変わる
 
 (CELLSNET-42806) - チャートの系列式の変更
 
@@ -114,9 +114,9 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 ## **例外**
 
 
-(CELLSNET-41952) - ワークブックを PDF として保存する際の「メモリ不足の例外」
+(CELLSNET-41952) - ワークブックを PDF として保存すると「メモリ不足の例外」が発生する
 
- (CELLSNET-42891) - CellsException: そのようなヘッダーまたはフッターはまだサポートされていません!
+(CELLSNET-42891) - CellsException: そのようなヘッダーまたはフッターはまだサポートされていません!
 
  (CELLSNET-42875) - メモリ ストリームからワークブックを開く際の NullReferenceException
 
@@ -124,7 +124,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

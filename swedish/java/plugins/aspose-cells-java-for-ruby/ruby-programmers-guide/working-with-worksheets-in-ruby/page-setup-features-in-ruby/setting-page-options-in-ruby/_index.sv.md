@@ -52,7 +52,7 @@ end   
 
 {{< /highlight >}}
 ### **Skalningsfaktor**
- För att tillämpa skalning med**Aspose.Cells Java för Ruby** , ringa upp**skalning** metod av**utskriftsformat** modul.
+ För att tillämpa skalning med hjälp av**Aspose.Cells Java för Ruby** , ringa upp**skalning** metod av**utskriftsformat** modul.
 
 **Ruby kod**
 

@@ -22,6 +22,6 @@ Ouvrez la boîte de dialogue "Modifier le rapport" et choisissez l'onglet Plan.
 ![tâche : image_autre_texte](add-group-function-in-aspose-cells-for-reporting-services-client_2.jpg)
 
 
- Cliquez sur**Commettre** bouton et enregistrez les configurations masquées.
+ Cliquez sur**S'engager** bouton et enregistrez les configurations masquées.
 
 ![tâche : image_autre_texte](add-group-function-in-aspose-cells-for-reporting-services-client_3.jpg)

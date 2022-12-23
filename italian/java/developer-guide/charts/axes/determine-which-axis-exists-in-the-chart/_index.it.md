@@ -20,7 +20,7 @@ Lo screenshot seguente mostra un grafico con solo la categoria primaria e l'asse
 
  Il codice di esempio seguente illustra l'utilizzo di[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)per determinare se il grafico di esempio ha la categoria primaria e secondaria e l'asse dei valori. Di seguito è mostrato l'output della console del codice che mostra true per la categoria primaria e l'asse del valore e false per la categoria secondaria e l'asse del valore.
 
-### Codice Java per determinare quale asse esiste nel grafico
+### Java codice per determinare quale asse esiste nel grafico
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-DetermineWhichAxisExistsInChart-DetermineWhichAxisExistsInChart.java" >}}
 

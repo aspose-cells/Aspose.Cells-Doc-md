@@ -11,7 +11,7 @@ url: /sv/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- Följande skärmbild visar diagrammet med en trendlinje och dess ekvationstext visas i röd färg. Vi kommer att hämta denna text med hjälp av[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)egenskap i följande exempelkod.
+Följande skärmbild visar diagrammet med en trendlinje och dess ekvationstext visas i röd färg. Vi kommer att hämta denna text med hjälp av[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)egenskap i följande exempelkod.
 
 ![todo:image_alt_text](get-equation-text-of-chart-trendline_1.png)
 

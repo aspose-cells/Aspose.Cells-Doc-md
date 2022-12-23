@@ -13,7 +13,7 @@ Dies ist ein weiteres grundlegendes Thema für die Entwickler, um einen grundleg
 Um eine Zeile aus dem Arbeitsblatt zu entfernen, gehen Sie bitte wie folgt vor:
 
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Entfernen**Die Zeile** von dem**Arbeitsblatt** indem Sie den Index der zu entfernenden Zeile angeben
+-  Entfernen**Reihe** von dem**Arbeitsblatt** indem Sie den Index der zu entfernenden Zeile angeben
 
 Das folgende Codebeispiel zeigt Ihnen, wie Sie eine Zeile aus dem Arbeitsblatt entfernen.
 

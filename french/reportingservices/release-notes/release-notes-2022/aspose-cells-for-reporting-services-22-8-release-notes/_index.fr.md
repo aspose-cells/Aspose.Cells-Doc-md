@@ -9,6 +9,6 @@ weight: 14
 Cette page contient les notes de version pour Aspose.Cells for Reporting Services 22.8
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |33637 |Prise en charge du moteur de rendu XLTX.|Nouvelle fonctionnalité|

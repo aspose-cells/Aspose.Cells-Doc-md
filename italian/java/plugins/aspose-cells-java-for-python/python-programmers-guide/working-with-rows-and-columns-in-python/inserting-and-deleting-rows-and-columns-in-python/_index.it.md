@@ -4,7 +4,7 @@ type: docs
 weight: 60
 url: /it/java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Usa l'API Python Excel per creare fogli di calcolo Excel in Python. Inserisci o elimina righe da XLSX o XLS nelle tue applicazioni Python senza MS Office.
+description: Usa Python Excel API per creare fogli di calcolo Excel in Python. Inserisci o elimina righe da XLSX o XLS nelle tue applicazioni Python senza MS Office.
 ---
 ## **Crea fogli di calcolo Excel in Python - Gestione di righe/colonne**
 ### **Inserimento di una riga**
@@ -15,7 +15,7 @@ Inserire una riga in qualsiasi posizione chiamando il metodo insertRows della ra
 - Inserisci la riga
 - Salva come cartella di lavoro XLS o XLSX
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -46,7 +46,7 @@ Per inserire più righe nel foglio di lavoro, chiama il metodo insertRows della 
 - Indice di riga, l'indice della riga da cui verranno inserite le nuove righe.
 - Numero di righe, numero totale di righe da inserire.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -78,7 +78,7 @@ Per eliminare una riga in qualsiasi posizione, chiama il metodo deleteRows della
 - Indice di riga, l'indice della riga da cui verranno eliminate le righe.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -109,7 +109,7 @@ Per eliminare più righe da un foglio di lavoro, chiama il metodo deleteRows del
 - Indice di riga, l'indice della riga da cui verranno eliminate le righe.
 - Numero di righe, numero totale di righe che devono essere eliminate.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -141,7 +141,7 @@ Gli sviluppatori possono anche inserire una colonna nel foglio di lavoro in qual
 - Indice colonna, l'indice della colonna da cui verrà inserita la colonna
 - Numero di colonne, numero totale di colonne da inserire
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -174,7 +174,7 @@ Per eliminare una colonna dal foglio di lavoro in qualsiasi posizione, chiama il
 - Numero di colonne, numero totale di colonne che devono essere eliminate.
 - Shift celle, parametro booleano per indicare se spostare le celle a sinistra dopo la cancellazione.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "python" >}}
 
@@ -201,6 +201,6 @@ print "Delete Column Successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Gestione righe/colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

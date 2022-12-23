@@ -8,7 +8,7 @@ url: /ar/net/adding-custom-properties-visible-inside-document-information-panel/
 
 يمكن استخدام Aspose.Cells لإضافة خصائص مخصصة داخل عنصر المصنف والتي تكون مرئية داخل لوحة معلومات المستند. يمكنك فتح لوحة معلومات المستند في Microsoft Excel باستخدام ملف> معلومات> خصائص> إظهار أوامر قائمة لوحة المستند.
 
- يرجى استخدام[**Workbook.ContentTypeProperties.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)طريقة لإضافة خاصية مخصصة والتي ستكون مرئية في لوحة معلومات المستند
+ الرجاء استخدام[**Workbook.ContentTypeProperties.Add ()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)طريقة لإضافة خاصية مخصصة والتي ستكون مرئية في لوحة معلومات المستند
 
 يضيف نموذج التعليمات البرمجية التالي خاصيتين مخصصتين. الخاصية الأولى بدون أي نوع والخاصية الثانية لها نوع التاريخ والوقت. بمجرد فتح ملف Excel الناتج الذي تم إنشاؤه بواسطة هذا الرمز ، سترى هاتين الخاصيتين داخل لوحة معلومات المستند.
 

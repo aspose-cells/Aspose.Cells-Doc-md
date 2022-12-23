@@ -10,7 +10,7 @@ url: /ru/net/reading-csv-file-with-multiple-encodings/
 
 {{% /alert %}}
 
- Aspose.Cells обеспечивает[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)свойство, которое вам нужно установить в**истинный** чтобы правильно загрузить файл CSV с несколькими кодировками.
+ Aspose.Cells обеспечивает[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) свойство, которое вам нужно установить в**истинный** чтобы правильно загрузить файл CSV с несколькими кодировками.
 
  На следующем снимке экрана показан пример файла CSV, который содержит две строки. Первая строка находится в**ANSI** кодировка, а вторая строка находится в**Юникод** кодирование
 
@@ -18,22 +18,22 @@ url: /ru/net/reading-csv-file-with-multiple-encodings/
 |:- |
 |![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_1.png)|
 
- На следующем снимке экрана показан файл XLSX, преобразованный из вышеуказанного файла CSV без установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode не был преобразован должным образом.
+ На следующем снимке экрана показан файл XLSX, преобразованный из указанного выше файла CSV без установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode не был преобразован должным образом.
 
 |**Выходной файл 1: приспособление для многократного кодирования не предусмотрено.**|
 |:- |
 |![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_2.png)|
 
- На следующем снимке экрана показан файл XSLX, преобразованный из вышеуказанного файла CSV после установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode теперь конвертируется правильно.
+ На следующем снимке экрана показан файл XSLX, преобразованный из указанного выше файла CSV после установки[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) собственность на**истинный**. Как видите, текст Unicode теперь конвертируется правильно.
 
 |**Выходной файл 2: IsMultiEncoded имеет значение true**|
 |:- |
 |![дело:изображение_альтернативный_текст](reading-csv-file-with-multiple-encodings_3.png)|
 
-Ниже приведен пример кода, который правильно преобразует вышеуказанный файл CSV в формат XLSX.
+Ниже приведен пример кода, который правильно преобразует указанный выше файл CSV в формат XLSX.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ReadingCSVMultipleEncodings-1.cs" >}}
 
 ## Статьи по Теме
 
-- [Открытие CSV-файлов](/cells/ru/net/opening-files-with-different-formats/#opening-csv-files)
+- [Открытие CSV файлов](/cells/ru/net/opening-files-with-different-formats/#opening-csv-files)

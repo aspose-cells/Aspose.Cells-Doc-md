@@ -11,7 +11,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-16-11-0/
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
 ### **دعم إعدادات العولمة**
-كشف Aspose.Cells 16.11.0 عن فئة GlobalizationSettings جنبًا إلى جنب مع خاصية WorkbookSettings.GlobalizationSettings من أجل فرض Aspose.Cells APIs لاستخدام تسميات مخصصة للمجموعات الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن تجاوزها في التنفيذ المخصص لإعطاء الأسماء المطلوبة للتسميات**المجموع** & **المبلغ الإجمالي**.
+كشف Aspose.Cells 16.11.0 عن فئة GlobalizationSettings جنبًا إلى جنب مع خاصية WorkbookSettings.GlobalizationSettings من أجل فرض Aspose.Cells APIs لاستخدام تسميات مخصصة للمجموعات الفرعية. تحتوي فئة GlobalizationSettings على الطرق التالية التي يمكن تجاوزها في التنفيذ المخصص لإعطاء الأسماء المطلوبة للتسميات**مجموع** & **المبلغ الإجمالي**.
 
 - GlobalizationSettings.getTotalName: الحصول على الاسم الإجمالي للوظيفة.
 - GlobalizationSettings.getGrandTotalName: الحصول على الاسم الإجمالي الكلي للدالة.

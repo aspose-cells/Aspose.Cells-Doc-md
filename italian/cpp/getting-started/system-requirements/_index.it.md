@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /it/cpp/system-requirements/
 ---
-Aspose.Cells for C++ è una libreria C++ nativa che consente agli sviluppatori C++ di creare, manipolare e convertire fogli di calcolo a livello di programmazione senza richiedere Office Automation o l'applicazione Microsoft Excel.
+Aspose.Cells for C++ è una libreria C++ nativa che consente agli sviluppatori C++ di creare, manipolare e convertire fogli di calcolo a livello di codice senza richiedere l'automazione di Office o l'applicazione Excel Microsoft.
 
 ## Sistemi operativi supportati
 
@@ -17,7 +17,7 @@ Aspose.Cells for C++ supporta i seguenti sistemi operativi e piattaforme a 64 o 
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Server Windows 2008 (x64, x86)</li><li>Server Windows 2012 (x64, x86)</li><li>Server Windows 2012 R2 (x64, x86)</li><li>Server Windows 2016 (x64, x86)</li><li>Server Windows 2019 (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
+			<td><ul><li>Windows Server 2008 (x64, x86)</li><li>Windows Server 2012 (x64, x86)</li><li>Windows Server 2012 R2 (x64, x86)</li><li>Windows Server 2016 (x64, x86)</li><li>Windows Server 2019 (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
 			<td>Linux</td>
@@ -29,9 +29,9 @@ Aspose.Cells for C++ supporta i seguenti sistemi operativi e piattaforme a 64 o 
 
 È possibile utilizzare Aspose.Cells for C++ durante lo sviluppo di applicazioni per Windows o Linux.
 
-### finestre
+### Windows
 
-Aspose.Cells for C++ può essere utilizzato per sviluppare applicazioni in qualsiasi ambiente di sviluppo che supporti[Set di strumenti della piattaforma Microsoft Visual Studio v142](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), ma gli ambienti elencati nella tabella seguente sono esplicitamente supportati:
+ Aspose.Cells for C++ può essere utilizzato per sviluppare applicazioni in qualsiasi ambiente di sviluppo che supporti[Microsoft Set di strumenti della piattaforma Visual Studio v142](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160), ma gli ambienti elencati nella tabella seguente sono esplicitamente supportati:
 
 <table>  
 	<tr>

@@ -8,4 +8,4 @@ Aspose.Cells for Android via Java ist vollständig in Java geschrieben, hängt n
 
 - Aspose.Cells for Android via Java jar-Bibliothek.
 - Beispielprojekte.
-- Aspose.Cells Dokumentation im HTML-Format.
+- Aspose.Cells Dokumentation im Format HTML.

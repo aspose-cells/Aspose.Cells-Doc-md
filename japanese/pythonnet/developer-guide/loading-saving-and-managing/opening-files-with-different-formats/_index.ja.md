@@ -17,7 +17,7 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 
 ## **異なる形式のファイルを開く**
 
-Aspose.Cells を使用すると、開発者は、SpreadsheetML、カンマ区切り値 (CSV)、タブ区切りまたはタブ区切り値 (TSV)、ODS ファイルなど、さまざまな形式のスプレッドシート ファイルを開くことができます。このようなファイルを開くために、開発者は異なる Microsoft Excel バージョンのファイルを開く場合と同じ方法を使用できます。
+Aspose.Cells を使用すると、開発者は、SpreadsheetML、カンマ区切り値 (CSV)、タブ区切りまたはタブ区切り値 (TSV)、ODS ファイルなど、さまざまな形式のスプレッドシート ファイルを開くことができます。このようなファイルを開くには、開発者は異なる Microsoft Excel バージョンのファイルを開く場合と同じ方法を使用できます。
 
 ### **SpreadsheetML ファイルを開く**
 
@@ -33,11 +33,11 @@ Aspose.Cells を使用すると、HTML ファイルを Workbook オブジェク�
 
 ### **CSV ファイルを開く**
 
-カンマ区切り値 (CSV) ファイルには、値がカンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で囲まれたテーブルとして保存されます。フィールド値に二重引用符が含まれている場合は、二重引用符のペアでエスケープされます。 Microsoft Excel を使用して、スプレッドシート データを CSV にエクスポートすることもできます。
+コンマ区切り値 (CSV) ファイルには、値がコンマで区切られたレコードが含まれています。データは、各列がコンマ文字で区切られ、二重引用符で囲まれたテーブルとして保存されます。フィールド値に二重引用符が含まれている場合は、二重引用符のペアでエスケープされます。 Microsoft Excel を使用して、スプレッドシート データを CSV にエクスポートすることもできます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenCSVFile.py" >}}
 
-#### **CSV ファイルを開き、無効な文字を置き換える**
+#### **CSV ファイルを開いて無効な文字を置き換える**
 
 Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動的に置き換えられます。以下のコード例で示されている Aspose.Cells API でも同じことが行われます。
 
@@ -71,12 +71,12 @@ Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動
 
 ### **SXC ファイルを開く**
 
-StarOffice Calc は Microsoft Excel に似ており、数式、チャート、関数、およびマクロをサポートしています。このソフトウェアで作成されたスプレッドシートは、SXC 拡張子で保存されます。 SXC ファイルは、OpenOffice.org Calc スプレッドシート ファイルにも使用されます。 Aspose.Cells は、次のコード サンプルで示されているように、SXC ファイルを読み取ることができます。
+StarOffice Calc は Microsoft Excel に似ており、数式、チャート、関数、およびマクロをサポートしています。このソフトウェアで作成されたスプレッドシートは、拡張子 SXC で保存されます。 SXC ファイルは、OpenOffice.org Calc スプレッドシート ファイルにも使用されます。次のコード サンプルで示すように、Aspose.Cells は SXC ファイルを読み取ることができます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenSXCFile.py" >}}
 
 ### **FODS ファイルを開く**
 
-FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプレッドシートです。 Aspose.Cells は、次のコード サンプルで示されているように、FODS ファイルを読み取ることができます。
+FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプレッドシートです。次のコード サンプルで示すように、Aspose.Cells は FODS ファイルを読み取ることができます。
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "OpenFODSFile.py" >}}

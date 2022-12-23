@@ -6,7 +6,7 @@ url: /fr/net/copy-page-setup-settings-from-source-worksheet-into-destination-wor
 ---
 ## **Scénarios d'utilisation possibles**
 
- Lorsque vous ajoutez une nouvelle feuille à un classeur, elle contient la valeur par défaut*Paramètres de mise en page*. Il peut arriver que vous deviez transférer les paramètres ([**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)d'une feuille de calcul à une autre feuille de calcul. Ce document explique comment copier les paramètres de mise en page d'une feuille de calcul à une autre à l'aide des API Aspose.Cells.
+ Lorsque vous ajoutez une nouvelle feuille à un classeur, elle contient la valeur par défaut*Paramètres de mise en page*. Il peut arriver que vous deviez transférer les paramètres ([**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) d'une feuille de calcul à une autre feuille de calcul. Ce document explique comment copier les paramètres de mise en page d'une feuille de calcul à une autre à l'aide des API Aspose.Cells.
 
 ## **Copier les paramètres de mise en page de la feuille de calcul source dans la feuille de calcul de destination**
 

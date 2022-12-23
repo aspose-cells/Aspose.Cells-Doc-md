@@ -20,4 +20,4 @@ url: /it/java/aspose-cells-for-java-7-5-2-release-notes/
 
  Insetti
 
- 40553 - Il rendering da Excel a PDF non esegue il rendering dei grafici con JDK1.7.0_21
+ 40553 - Il rendering di Excel in PDF non esegue il rendering dei grafici con JDK1.7.0_21

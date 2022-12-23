@@ -36,8 +36,8 @@ Les fonctionnalités du tableau ne sont plus disponibles une fois le tableau con
 
 ## **Convertir une table en plage avec des options**
 
-Aspose.Cells fournit des options supplémentaires lors de la conversion de la table en plage via le[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)classer. La[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)la classe fournit[**Dernière rangée**](https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow)propriété qui vous permet de définir le dernier index de la ligne du tableau. La mise en forme du tableau sera conservée jusqu'à l'index de ligne spécifié et le reste de la mise en forme sera supprimé.
+Aspose.Cells fournit des options supplémentaires lors de la conversion de la table en plage via le[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)classe. Le[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)la classe fournit[**Dernière rangée**](https://reference.aspose.com/cells/java/com.aspose.cells/tabletorangeoptions#LastRow)propriété qui vous permet de définir le dernier index de la ligne du tableau. La mise en forme du tableau sera conservée jusqu'à l'index de ligne spécifié et le reste de la mise en forme sera supprimé.
 
-L'exemple de code ci-dessous illustre l'utilisation de[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)classer.
+L'exemple de code ci-dessous illustre l'utilisation de[**TableToRangeOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/TableToRangeOptions)classe.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Tables-ConvertTableToRangeWithOptions-1.java" >}}

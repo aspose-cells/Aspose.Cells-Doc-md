@@ -16,7 +16,7 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-3-0-1-release-notes/
 
  SHAREPOINT-40018- Rechercher dans le document sur SharePoint
 
-SHAREPOINT-40015- Ajouter Aspose.Cells for SharePoint barre d'outils for SharePoint 2010
+ SHAREPOINT-40015- Ajouter Aspose.Cells for SharePoint barre d'outils for SharePoint 2010
 
 
 

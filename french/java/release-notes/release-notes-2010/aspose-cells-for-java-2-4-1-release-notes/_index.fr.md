@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Nous sommes heureux d'annoncer Aspose.Cells for Java v2.4.1 !
+Nous sommes heureux d'annoncer Aspose.Cells for Java v2.4.1 !
 
  Ce qui a changé :
 
@@ -30,7 +30,7 @@ url: /fr/java/aspose-cells-for-java-2-4-1-release-notes/
 
  Problèmes résolus au Aspose.Cells for Java 2.4.1
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |19342 | Graphique2Image| Ordre de la légende|
 |19421 | Formule| Calcul de la formule|
@@ -38,8 +38,8 @@ url: /fr/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | Xlsx| Lire le fichier Excel2007|
 |19596 | Xls| Cells.getMaxDataColumn()|
 |19641 | Xls| Options de vérification des erreurs|
-|19696 | Graphique| Enregistrer le graphique pour le fichier excel2003|
-|19822 | Graphique|Cellules liées pour les ChartFrames tels que Title/DataLabels|
+|19696 | Graphique|Enregistrer le graphique pour le fichier excel2003|
+|19822 | Graphique| Cellules liées pour les ChartFrames tels que Title/DataLabels|
 |19823 | HTML| Cell bordures|
 |19832 | Graphique2Image| Graphique WaterFall utilisant le graphique StackedBar|
 |19894 | Xls| Obtenir la taille de la forme, lire le style|

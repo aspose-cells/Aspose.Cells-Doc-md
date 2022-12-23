@@ -35,7 +35,7 @@ metaWorkbook.save(filePath);
 
 {{< /highlight >}}
 ### **添加了属性 HtmlSaveOptions.ExportFrameScriptsAndProperties**
-Aspose.Cells for Java 8.6.0 公开了 HtmlSaveOptions.ExportFrameScriptsAndProperties 属性，该属性可用于在将电子表格转换为 HTML 格式时影响其他脚本的创建。在默认设置下，Aspose.Cells API 以 HTML 格式导出电子表格，就像 Excel 应用程序导出一样，即；生成的 HTML 包含框架和条件注释，可检测浏览器类型并相应地调整布局。 HtmlSaveOptions.ExportFrameScriptsAndProperties 属性的默认值为 true，这意味着；导出是按照 Excel 标准完成的。如果该属性设置为 false，则 API 不会[生成与框架和条件注释相关的脚本](/cells/zh/java/disable-exporting-frame-scripts-and-document-properties/).在这种情况下，生成的 HTML 可以在任何浏览器中正确查看，但是无法使用 Aspose.Cells API 将其导回。
+Aspose.Cells for Java 8.6.0 公开了 HtmlSaveOptions.ExportFrameScriptsAndProperties 属性，该属性可用于在将电子表格转换为 HTML 格式时影响其他脚本的创建。在默认设置下，Aspose.Cells API 以 HTML 格式导出电子表格，就像 Excel 应用程序导出一样，即；结果 HTML 包含框架和条件注释，可检测浏览器类型并相应地调整布局。 HtmlSaveOptions.ExportFrameScriptsAndProperties 属性的默认值为 true，这意味着；导出是按照 Excel 标准完成的。如果该属性设置为 false，则 API 不会[生成与框架和条件注释相关的脚本](/cells/zh/java/disable-exporting-frame-scripts-and-document-properties/).在这种情况下，生成的 HTML 可以在任何浏览器中正确查看，但是无法使用 Aspose.Cells API 将其导回。
 
 以下是简单的使用场景。
 
@@ -59,7 +59,7 @@ book.save("output.html", options)
 
 {{< /highlight >}}
 ### **添加属性 Shape.MarcoName**
- Aspose.Cells for Java 8.6.0 公开了Shape.MarcoName属性，可用于[将 VBA 模块分配给表单控件](/cells/zh/java/assign-macro-code-to-form-control/)这样一个Button是为了提供交互。该属性是字符串类型，因此它可以接受模块名称并将其分配给控件。
+Aspose.Cells for Java 8.6.0 公开了Shape.MarcoName属性，可用于[将 VBA 模块分配给表单控件](/cells/zh/java/assign-macro-code-to-form-control/)这样一个Button是为了提供交互。该属性是字符串类型，因此它可以接受模块名称并将其分配给控件。
 
 以下是简单的使用场景。
 

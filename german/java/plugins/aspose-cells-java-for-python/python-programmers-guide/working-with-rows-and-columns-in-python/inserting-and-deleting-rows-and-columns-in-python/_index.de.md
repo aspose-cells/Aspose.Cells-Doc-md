@@ -4,16 +4,16 @@ type: docs
 weight: 60
 url: /de/java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Verwenden Sie Python Excel API, um Excel-Tabellen in Python zu erstellen. Fügen Sie Zeilen aus XLSX oder XLS in Ihre Python Anwendungen ohne MS Office ein oder löschen Sie sie.
+description: Verwenden Sie Python Excel API, um Excel-Tabellen in Python zu erstellen. Fügen Sie Zeilen aus XLSX oder XLS in Ihre Python-Anwendungen ohne MS Office ein oder löschen Sie sie.
 ---
 ## **Erstellen Sie Excel-Tabellen in Python – Verwalten von Zeilen/Spalten**
 ### **Einfügen einer Zeile**
 Fügen Sie an einer beliebigen Stelle eine Zeile ein, indem Sie die Methode insertRows der Sammlung Cells aufrufen. Die insertRows-Methode verwendet den Index der Zeile, in die die neue Zeile eingefügt wird, als erstes Argument und die Anzahl der einzufügenden Zeilen als zweites Argument. Im Folgenden sind die Schritte:
 
-- XLS- oder XLSX-Arbeitsmappe laden
+- Arbeitsmappe XLS oder XLSX laden
 - Greifen Sie auf das Arbeitsblatt zu
 - Zeile einfügen
-- Als XLS- oder XLSX-Arbeitsmappe speichern
+- Als Arbeitsmappe XLS oder XLSX speichern
 
 **Python Code**
 

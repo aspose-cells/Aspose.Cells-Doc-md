@@ -20,7 +20,7 @@ Microsoft Excel'de bir sayfanın arka plan resmini ayarlamak için (örneğin, M
 
    **Sayfa arka planı ayarlama**
 
-![yapılacaklar:resim_alternatif_Metin](set-background-picture-for-a-worksheet_1.jpg)
+![yapılacaklar:resim_alternatif_metin](set-background-picture-for-a-worksheet_1.jpg)
 
 ## **Aspose.Cells ile Sayfa Arka Planını Ayarlama**
 

@@ -74,7 +74,7 @@ L'exemple de code ajoute une validation d'expression personnalisée à C1. Les u
 ### **Forcer la validation**
 En utilisant Aspose.Cells.GridWeb, les utilisateurs peuvent publier des données d'entrée sur un serveur. Même s'il existe des règles de validation pour différentes cellules mais que la propriété ForceValidation du contrôle GridWeb n'est pas définie sur true, les données d'entrée erronées seront également soumises au serveur et aucune validation n'est forcée. La propriété ForceValidation de GridWeb est toujours définie sur true par défaut.
 
- Lorsque la propriété ForceValidation a la valeur true, le contrôle ne publie pas de données sur le serveur Web tant que les valeurs d'entrée de toutes les cellules ne sont pas valides. Par exemple, si quelqu'un entre une valeur d'entrée non valide dans une cellule ou n'entre pas de valeur, la validation côté client est activée et les utilisateurs ne peuvent pas publier de données même s'ils cliquent sur**Soumettre**.
+ Lorsque la propriété ForceValidation a la valeur true, le contrôle ne publie pas de données sur le serveur Web tant que les valeurs d'entrée de toutes les cellules ne sont pas valides. Par exemple, si quelqu'un entre une valeur d'entrée non valide dans une cellule ou n'entre pas de valeur, la validation côté client est activée et les utilisateurs ne peuvent pas publier de données même s'ils cliquent sur**Nous faire parvenir**.
 
 **Mauvaise valeur d'entrée mise en évidence par GridWeb** 
 

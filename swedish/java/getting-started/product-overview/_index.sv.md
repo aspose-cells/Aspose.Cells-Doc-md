@@ -22,15 +22,15 @@ Aspose.Cells kan användas med alla typer av applikationer, oavsett om Java webb
 
 Förutom att stödja vanliga funktioner som att skapa eller läsa inbyggda Excel-filer, erbjuder Aspose.Cells också många avancerade funktioner som att spara och öppna Excel-filer till och från strömmar, skicka utdata till en klientwebbläsare, importera och exportera data från en**Resultatet satt** eller en**Array**, importera bilder och diagram, skapa bilder och diagram via API, importera formler från ett designerkalkylblad och konfigurera sidinställningar via API.
 
-Dessutom finns det också ett antal unika funktioner som utvecklarna bara kan hitta i Aspose.Cells såsom stöd för CSV- och SpreadsheetML-format, lägga till kopian av ett befintligt kalkylblad (med fullständigt innehåll, bilder och diagram etc.) till en fil, ställa in gradientbakgrund för diagram genom API, skapa kommentarer, autofilter och sidbrytningar genom API, ställa in komplexa formler, stödja villkorlig formatering, stödja skyddsalternativ introducerade i Microsoft Excel XP eller högre, manipulera namngivna intervall, lokalisera API:er, stödja anpassade diagram 40814 och formelberäkningsmotor etc.
+Dessutom finns det också ett antal unika funktioner som utvecklarna bara kan hitta i Aspose.Cells, såsom stöd för CSV och SpreadsheetML format, lägga till kopian av ett befintligt kalkylblad (med fullständigt innehåll, bilder och diagram etc.) till en fil, ställa in gradientbakgrund för diagram genom API, skapa kommentarer, autofilter och sidbrytningar genom API, ställa in komplexa formler, stödja villkorlig formatering, stödja skyddsalternativ introducerade i Microsoft Excel XP eller högre, manipulera namngivna intervall, lokalisera API:er, stödja anpassade diagram 40816 och formelberäkningsmotor etc.
 ## **Dokumentfunktioner**
 - Öppna vanliga eller krypterade Excel-filer (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) från olika källor
-- Öppna Plain Numbers-filer (skapade av Apples "Numbers"-program) från olika källor
-- Spara Excel-filer (Excel97- Excel2007/2010/2013/2016/2019) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
+- Öppna vanliga Numbers-filer (skapade av Apples "Numbers"-applikation) från olika källor
+- Save Excel files (Excel97- Excel2007/2010/2013/2016/2019) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
 - Konvertera Excel-fil till PDF-dokument
 - Konvertera Excel-kalkylblad till XPS-dokument
 -  Konvertera till taggat bildfilformat**(TIFF)**
--  Läsa och skriva**OpenDocument Spreadsheet (ODS)** formatera
+-  Läsa och skriva**OpenDocument Spreadsheet (ODS )** formatera
 - Ändra dokumentegenskaperna för Excel-filer
 ## **Arbetsbladsfunktioner**
 ### **Skärmalternativ**

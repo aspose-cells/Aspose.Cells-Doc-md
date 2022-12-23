@@ -10,7 +10,7 @@ url: /ar/net/get-worksheet-of-the-chart/
 
 {{% /alert %}}
 
- يوضح المثال التالي كيفية استخدام ملف[**الرسم البياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) منشأه. يقوم الرمز أولاً بطباعة اسم ورقة العمل ، ثم يصل إلى المخطط الأول في ورقة العمل. ثم يقوم بطباعة اسم ورقة العمل مرة أخرى باستخدام امتداد[**الرسم البياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)منشأه.
+ يوضح المثال التالي كيفية استخدام ملف[**الرسم البياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet) خاصية. يقوم الرمز أولاً بطباعة اسم ورقة العمل ، ثم يصل إلى المخطط الأول في ورقة العمل. ثم يقوم بطباعة اسم ورقة العمل مرة أخرى باستخدام امتداد[**الرسم البياني**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/properties/worksheet)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-GetWorksheetOfTheChart-GetWorksheetOfTheChart.cs" >}}
 

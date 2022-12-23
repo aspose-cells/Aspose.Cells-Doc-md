@@ -13,6 +13,6 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 21.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSRS-575|Uppgraderar version Aspose.Cells till 21.3.|Uppgift|
-|CELLSRS-576|Stöd till exporterad SVG.|Ny funktion|
+|CELLSRS-576|Support till exporterade SVG.|Ny funktion|
 
 

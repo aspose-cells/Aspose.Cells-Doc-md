@@ -19,7 +19,7 @@ url: /zh/java/aspose-cells-for-java-8-5-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSJAVA-41374) - 将“不同计数”常量添加到数据透视表中的 ConsolidationFunction 类
@@ -42,17 +42,17 @@ url: /zh/java/aspose-cells-for-java-8-5-2-release-notes/
 
 (CELLSJAVA-41429) - 转换公式输入的 Lotus 兼容性设置在重新保存电子表格后发生更改
 
-(CELLSJAVA-41427) - 太多验证 Cells 损坏了 XLS 文件
+(CELLSJAVA-41427) - 过多的验证 Cells 损坏了 XLS 文件
 
 (CELLSJAVA-41424) - 通过 ICustomFunction 接口使用自定义函数不会计算出正确的值
 
-(CELLSJAVA-41423) - 从 ODS 文件呈现 PDF 时布局错误
+(CELLSJAVA-41423) - 从 ODS 文件渲染 PDF 时布局错误
 
 (CELLSJAVA-41422) - Cells.copyRows 在单元格中使用条件格式导致文件大小增加和性能问题
 
 (CELLSJAVA-41419) - OutOfMemoryError，Aspose.Cells 永远保留数百万个单元格
 
-(CELLSJAVA-41395) - ODS 到 HTML 的转换 - 文本样式问题
+(CELLSJAVA-41395) - ODS 到 HTML 转换 - 文本样式问题
 
 (CELLSJAVA-41426) - Cell 带有 x 轴的图表在转换为 pdf 时无法正确缩放
 

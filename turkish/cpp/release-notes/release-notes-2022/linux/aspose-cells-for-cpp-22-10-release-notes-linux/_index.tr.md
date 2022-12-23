@@ -13,6 +13,6 @@ Bu sayfa, Linux için Aspose.Cells for C++ 22.10 sürüm notlarını içerir.
 Linux için Aspose.Cells for C++ 22.10 sürümünü duyurmaktan mutluluk duyuyoruz.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-943| Özellikleri .Net sürümüyle senkronize edin|Destek|
+|CELLSCPP-943| Özellikleri .Net sürümüyle senkronize edin|Destek olmak|
 
 

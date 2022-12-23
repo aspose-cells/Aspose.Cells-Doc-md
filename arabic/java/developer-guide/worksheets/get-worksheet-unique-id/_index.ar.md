@@ -6,7 +6,7 @@ url: /ar/java/get-worksheet-unique-id/
 ---
 ## **احصل على معرف فريد لورقة العمل**
 
-يوفر Aspose.Cells القدرة على الحصول على المعرف الفريد لورقة العمل باستخدام[**ورقة عمل فريدة**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)منشأه. يوضح مقتطف الشفرة التالي استخدام ملف[**ورقة عمل فريدة**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)خاصيه لطباعه المعرف الفريد لورقه العمل. يستخدم مقتطف الكود التالي هذا[نموذج ملف اكسل](Book1.xlsx).
+يوفر Aspose.Cells القدرة على الحصول على المعرف الفريد لورقة العمل باستخدام[**ورقة عمل فريدة**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)خاصية. يوضح مقتطف الشفرة التالي استخدام ملف[**ورقة عمل فريدة**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#UniqueId)خاصيه لطباعه المعرف الفريد لورقه العمل. يستخدم مقتطف الكود التالي هذا[نموذج ملف اكسل](Book1.xlsx).
 
 ## عينة من الرموز
 

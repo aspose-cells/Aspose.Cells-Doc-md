@@ -10,7 +10,7 @@ HTML5 Elektronik Tablo Düzenleyici, elektronik tabloları internet üzerinden p
 
 **Bağımsız düzenleyici olarak göm**
 
-Bağımsız bir düzenleyici olarak gömmek için web sitesine eklemek üzere HTML IFRAME etiketini kullanın. Örneğin:
+Bağımsız bir düzenleyici olarak yerleştirmek için web sitesine eklemek üzere HTML IFRAME etiketini kullanın. Örneğin:
 
 {{< highlight "html" >}}
 

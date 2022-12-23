@@ -8,13 +8,13 @@ url: /de/java/using-icustomfunction-feature/
 
 Dieser Artikel bietet ein detailliertes Verständnis der Verwendung des ICustomFunction-Features zum Implementieren benutzerdefinierter Funktionen mit Aspose.Cells-APIs.
 
-Die ICustomFunction-Schnittstelle ermöglicht es, benutzerdefinierte Formelberechnungsfunktionen hinzuzufügen, um die Kernberechnungsmaschine von Aspose.Cells zu erweitern, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte (benutzerdefinierte) Funktionen in einer Vorlagendatei oder im Code zu definieren, wobei die benutzerdefinierte Funktion mithilfe von Aspose.Cells-APIs wie jede andere Microsoft-Excel-Standardfunktion implementiert und ausgewertet werden kann.
+Die ICustomFunction-Schnittstelle ermöglicht es, benutzerdefinierte Formelberechnungsfunktionen hinzuzufügen, um die Kernberechnungs-Engine von Aspose.Cells zu erweitern, um bestimmte Anforderungen zu erfüllen. Diese Funktion ist nützlich, um benutzerdefinierte (benutzerdefinierte) Funktionen in einer Vorlagendatei oder im Code zu definieren, wobei die benutzerdefinierte Funktion mithilfe von Aspose.Cells-APIs wie jede andere standardmäßige Microsoft-Excel-Funktion implementiert und ausgewertet werden kann.
 
- Bitte beachten Sie, dass diese Schnittstelle durch ersetzt wurde[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) und wird in Zukunft entfernt. Einige technische Artikel/Beispiele zur neuen API:[hier](/cells/de/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) und[hier](/cells/de/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Bitte beachten Sie, dass diese Schnittstelle durch ersetzt wurde[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) und wird in Zukunft entfernt. Einige technische Artikel/Beispiele zur neuen API:[Hier](/cells/de/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) und[Hier](/cells/de/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Wenn Sie neu bei Aspose.Cells for Java APIs sind, überprüfen Sie dies bitte[Dies](https://docs.aspose.com/cells/java/installation/) Artikel, um zu erfahren, wie Sie die Aspose.Cells for Java in Ihrem Projekt erwerben und referenzieren können.
+ Wenn Sie neu bei Aspose.Cells for Java APIs sind, überprüfen Sie dies bitte[diese](https://docs.aspose.com/cells/java/installation/) Artikel, um zu erfahren, wie Sie die Aspose.Cells for Java in Ihrem Projekt erwerben und referenzieren können.
 
 {{% /alert %}} 
 ## **Erstellen und Auswerten einer benutzerdefinierten Funktion**

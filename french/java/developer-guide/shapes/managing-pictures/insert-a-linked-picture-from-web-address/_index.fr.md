@@ -16,7 +16,7 @@ Parfois, vous devez insérer une image provenant du Web (http://) dans une feuil
 
 Dans Microsoft Excel (par exemple 2007) :
 
-1.  Clique le**Insérer** menu et sélectionnez**Image**.
+1.  Clique le**Insérer** menu et sélectionnez**Photo**.
 
 ![tâche : image_autre_texte](insert-a-linked-picture-from-web-address_1.png)
 
@@ -32,7 +32,7 @@ L'image est insérée.
 
  Aspose.Cells for Java prend en charge l'ajout d'une image liée à l'aide de la méthode[**ShapeCollection.addLinkedPicture(int upperLeftRow, int upperLeftColumn, int hauteur, int largeur, java.lang.String sourceFullName)**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addLinkedPicture(int,%20int,%20int,%20int,%20java.lang.String)).
 
- La méthode retourne un[**Image**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objet.
+ La méthode retourne un[**Photo**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objet.
 
 L'exemple suivant montre comment ajouter une image liée à partir d'une adresse Web à une feuille de calcul.
 

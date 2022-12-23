@@ -40,31 +40,31 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-44096) - Workbook.CalculateFormula süresiz olarak takılıyor
 
-(CELLSNET-44102) - Çalışma sayfasını EMF'ye dönüştürürken performans gecikmesi
+(CELLSNET-44102) - Çalışma sayfası EMF'e dönüştürülürken performans gecikmesi
 
 ### **Hatalar**
 
 (CELLSNET-44092) - Kiril karakterleri içeren Hyperlink.Address okuma sorunu
 
-(CELLSNET-44090) - Pivot tablolu XLSB dosyası v8.6.2'de bozuluyor
+(CELLSNET-44090) - pivot tablolu XLSB dosyası v8.6.2'de bozuluyor
 
-(CELLSNET-44073) - HtmlHiddenColDisplayType.Remove ile HTML'ye dönüştürme boş Grafik oluşturuyor
+(CELLSNET-44073) - HtmlHiddenColDisplayType.Remove ile HTML'e dönüştürme boş Grafik oluşturuyor
 
-(CELLSNET-43917) - Elektronik tablo HTML'ye dönüştürülürken metin kırpıldı
+(CELLSNET-43917) - Elektronik tablo HTML'e dönüştürülürken metin kırpıldı
 
-(CELLSNET-43914) - Elektronik tabloyu PDF'ye dönüştürürken metin kutudan taşıyor
+(CELLSNET-43914) - Elektronik tablo PDF olarak işlenirken metin kutudan taşar
 
 (CELLSNET-44111) - Çince karakterler içeren köprü adresi düzgün bir şekilde dönüştürülmüyor
 
-(CELLSNET-44080) - Cells metin, PDF'ye dönüştürme sırasında hafifçe sağa kaydırıldı
+(CELLSNET-44080) - Cells metni, PDF'e dönüştürme sırasında hafifçe sağa kaydırıldı
 
-(CELLSNET-44125) - Bir Excel belgesi için PDF'ye kaydetme başarısız oluyor
+(CELLSNET-44125) - Bir Excel belgesi için PDF'e kaydetme başarısız oluyor
 
 (CELLSNET-44117) - Grafiğin başlığı ve açıklaması için yanlış dönüştürme
 
 (CELLSNET-44086) - PDF dosyası içindeki grafiğin yatay ekseni yanlış ölçeklenmiş ve tersine çevrilmiş
 
-(CELLSNET-44079) - PDF'ye kaydederken grafik açıklamasının bazı girişleri kayboluyor
+(CELLSNET-44079) - PDF'e kaydedilirken grafik açıklamasının bazı girişleri kayboluyor
 
 (CELLSNET-44046) - Chart.ToImage etiket hizalamasını değiştirir
 
@@ -74,7 +74,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-44131) - Eklenen satır sayısına bağlı olarak bazı yanlış formüller görünüyor
 
-(CELLSNET-44128) - XLSB'ye kaydet, =SUM(Table[Col]) gibi formülleri bozar
+(CELLSNET-44128) - XLSB'e kaydet =TOPLA(Table[Süt]) gibi formülleri sonlandırır
 
 (CELLSNET-44082) - Aspose.Cells, kaydetme sırasında gizli stilleri gösteriyor
 
@@ -88,7 +88,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-43083) - Adlandırılmış hücreye yapılan başvuru geçersiz "#Ad?" bir sayfayı kopyalarken
 
-(CELLSNET-42114) - xml'den XLSX'e dönüştürmede karşılaşılan sorunlar
+(CELLSNET-42114) - xml'den XLSX'e dönüştürülürken karşılaşılan sorunlar
 
 (CELLSNET-41886) - Yeniden boyutlandırılmış ListObject ile grafik güncellenmiyor
 
@@ -100,7 +100,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki iyileştirmelerin ve değişiklikl
 
 (CELLSNET-44099) - CalculateFormula istisna oluşturuyor
 
-(CELLSNET-44127) - PDF dosyasına/bellek akışına kaydetmek istisnaya neden oluyor
+(CELLSNET-44127) - PDF dosya/bellek akışına kaydetmek istisnaya neden oluyor
 
 (CELLSNET-44085) - ODS yüklenirken System.Exception
 

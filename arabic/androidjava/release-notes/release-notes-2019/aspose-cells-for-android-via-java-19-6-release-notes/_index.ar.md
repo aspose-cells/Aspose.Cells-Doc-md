@@ -16,26 +16,26 @@ url: /ar/java/aspose-cells-for-android-via-java-19-6-release-notes/
 |CELLSJAVA-42916|مشكلة تنسيق البيانات بعد Workbook.save ()|التعزيز|
 |CELLSJAVA-42930|فشل تحميل Excel95|التعزيز|
 |CELLSJAVA-42927|يفتح الملف المحفوظ ببطء في Excel بعد حذف الأعمدة|التعزيز|
-|CELLSJAVA-42857|يتم عرض قيمة خاطئة للأشكال في ملف PDF المُصدَّر|حشرة|
-|CELLSJAVA-42890|الصورة معتمة وغير شفافة بعد التحويل - تحويل Excel إلى HTML|حشرة|
-|CELLSJAVA-42893|المخطط مفقود في عرض Excel إلى HTML|حشرة|
-|CELLSJAVA-42899|Excel إلى مشكلة HTML|حشرة|
-|CELLSJAVA-42903|مشكلة عرض Excel إلى HTML على CentOS|حشرة|
-|CELLSJAVA-42882|تعذر استخراج البيانات من ملف MS Excel 95 XLS|حشرة|
-|CELLSJAVA-42887|فرق الحساب بين MS Excel و Aspose.Cells|حشرة|
-|CELLSJAVA-42891|تعطي الدالة XIRR خطأ رقميًا في حالة وجود أي قيمة فارغة في النطاق|حشرة|
-|CELLSJAVA-42909|مشكلة متعلقة بوظيفة DATEVALUE|حشرة|
-|CELLSJAVA-42910|مشكلة في وظيفة VLOOKUP عند وجود حرف في السلسلة|حشرة|
-|CELLSJAVA-42911|مشكلة أثناء استخدام دالة TEXT للتواريخ|حشرة|
-|CELLSJAVA-42896|التحويل إلى PDF يحول أرقام الهواتف|حشرة|
-|CELLSJAVA-42900|التحويل إلى PDF يغير ترتيب النص|حشرة|
-|CELLSJAVA-42932|خطأ في التنسيق الشرطي في أسلوب Style.getDisplayStyle|حشرة|
-|CELLSJAVA-42928|لا تنعكس بعض الأسطر في تحويل XLSX إلى PDF|حشرة|
-|CELLSJAVA-42904|يبدو أن صورة العنوان تفسد الملف|حشرة|
-|CELLSJAVA-42907|تم فقد عامل التصفية بعد حفظ المصنف|حشرة|
-|CELLSJAVA-42915|يتم تغيير عوامل التصفية بعد إضافة ورقة إلى المصنف|حشرة|
-|CELLSJAVA-42918|مخطط الملف المحول بالارض (تحويل XLS إلى XLSX)|حشرة|
-|CELLSJAVA-42938|تحميل ملف XLSX توقف التطبيق|حشرة|
+|CELLSJAVA-42857|تم عرض قيمة خاطئة للأشكال في PDF المُصدَّر|خلل برمجي|
+|CELLSJAVA-42890|الصورة معتمة وغير شفافة بعد التحويل - Excel إلى HTML التقديم|خلل برمجي|
+|CELLSJAVA-42893|المخطط مفقود في Excel حتى عرض HTML|خلل برمجي|
+|CELLSJAVA-42899|Excel مشكلة HTML|خلل برمجي|
+|CELLSJAVA-42903|Excel إلى HTML مشكلة التقديم على CentOS|خلل برمجي|
+|CELLSJAVA-42882|تعذر استخراج البيانات من ملف MS Excel 95 XLS|خلل برمجي|
+|CELLSJAVA-42887|فرق الحساب بين MS Excel و Aspose.Cells|خلل برمجي|
+|CELLSJAVA-42891|تعطي الدالة XIRR خطأ رقميًا في حالة وجود أي قيمة فارغة في النطاق|خلل برمجي|
+|CELLSJAVA-42909|مشكلة متعلقة بوظيفة DATEVALUE|خلل برمجي|
+|CELLSJAVA-42910|مشكلة في وظيفة VLOOKUP عند وجود حرف في السلسلة|خلل برمجي|
+|CELLSJAVA-42911|مشكلة أثناء استخدام دالة TEXT للتواريخ|خلل برمجي|
+|CELLSJAVA-42896|التحويل إلى PDF يحول أرقام الهواتف|خلل برمجي|
+|CELLSJAVA-42900|التحويل إلى PDF يغير ترتيب النص|خلل برمجي|
+|CELLSJAVA-42932|خطأ في التنسيق الشرطي في أسلوب Style.getDisplayStyle|خلل برمجي|
+|CELLSJAVA-42928|لا تنعكس بعض الأسطر في التحويل XLSX إلى PDF|خلل برمجي|
+|CELLSJAVA-42904|يبدو أن صورة العنوان تفسد الملف|خلل برمجي|
+|CELLSJAVA-42907|تم فقد عامل التصفية بعد حفظ المصنف|خلل برمجي|
+|CELLSJAVA-42915|يتم تغيير عوامل التصفية بعد إضافة ورقة إلى المصنف|خلل برمجي|
+|CELLSJAVA-42918|تم تسوية مخطط الملف المحول (تحويل XLS إلى XLSX)|خلل برمجي|
+|CELLSJAVA-42938|يؤدي تحميل ملف XLSX إلى توقف التطبيق|خلل برمجي|
 |CELLSJAVA-42881|استثناء "java.lang.IllegalStateException: ترميز غير صالح: فارغ" عند تحميل ملف MS Excel 5.0 / 95 XLS|استثناء|
 |CELLSJAVA-42884|استثناء "java.lang.ArrayIndexOutOfBoundsException" عند تحميل ملف MS Excel 5.0 / 95 XLS|استثناء|
 |CELLSJAVA-42859|CellsException لتحميل الاسم من ملف ODS|استثناء|
@@ -50,13 +50,13 @@ url: /ar/java/aspose-cells-for-android-via-java-19-6-release-notes/
 ### **يضيف خصائص ImportTableOptions.CheckMergedCells**
 يشير إلى ما إذا كان التحقق من الخلايا المدمجة عند استيراد البيانات.
 ### **إضافة فئات ODSCellFieldCollection و ODSCellField و ODSCellFieldType enum**
-يمثل مجال الخلية في المواد المستنفدة للأوزون.
+يمثل حقل الخلية ODS.
 ### **يضيف Cells.ODSCellFields Properties**
-يحصل على قائمة حقول الخلايا في نظام الوثائق الرسمية.
+الحصول على كشف حقول الخلايا للرقم ODS.
 ### **إضافة فئة ODSPageBackground وخاصية PageSetup.ODSPageBackground**
-يمثل خلفية نظام الوثائق الرسمية.
+يمثل خلفية ODS.
 ### **إضافة enum FileFormatType.FODS و FileFormatType.SXC و LoadFormat.FODS و LoadFormat.SXC و SaveFormat.FODS و SaveFormat.SXC**
-يمثل نوعي تنسيقات الملفات .FODS و .SXC.
+يمثل نوعي تنسيقات الملف .FODS و .SXC.
 ### **إضافة نوع WarningType.UnsupportedFileFormat**
 يمثل تنسيق ملف غير مدعوم لأنواع التحذير.
 ### **يضيف تعداد ODSGeneratorType**

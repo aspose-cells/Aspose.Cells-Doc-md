@@ -19,14 +19,14 @@ url: /ar/java/managing-document-properties/
 
 ## **إدارة خصائص الوثيقة باستخدام Microsoft Excel**
 
- Microsoft يسمح Excel بإدارة خصائص المستندات لملفات Excel بطريقة WYSIWYG. يرجى اتباع الخطوات التالية لفتح ملف**الخصائص** الحوار في Excel 2016.
+ Microsoft يسمح Excel بإدارة خصائص المستندات لملفات Excel بطريقة WYSIWYG. يرجى اتباع الخطوات التالية لفتح ملف**ملكيات** الحوار في Excel 2016.
 
 1.  من**ملف** القائمة ، حدد**معلومات**.
 
 |**اختيار قائمة المعلومات**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_1.png)|
-1.  انقر فوق**الخصائص** العنوان وحدد "خصائص متقدمة".
+1.  انقر فوق**ملكيات**العنوان وحدد "خصائص متقدمة".
 
 |**النقر فوق تحديد الخصائص المتقدمة**|
 |:- |
@@ -44,7 +44,7 @@ url: /ar/java/managing-document-properties/
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for Java يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تحويل الوثيقة إلى PDF ، يتم ملء Aspose.Cells for Java**طلب** حقل بقيمة "Aspose.Cells" و**منتج PDF** الحقل بالقيمة ، على سبيل المثال "Aspose.Cells for Java v17.9".
+ Aspose.Cells for Java يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تقديم المستند إلى PDF ، يتم تعبئة Aspose.Cells for Java**تطبيق** حقل بقيمة "Aspose.Cells" و**PDF منتج** الحقل بالقيمة ، على سبيل المثال "Aspose.Cells for Java v17.9".
 
 يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for Java لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
 
@@ -52,7 +52,7 @@ url: /ar/java/managing-document-properties/
 
 ### **الوصول إلى خصائص المستند**
 
- تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)صف دراسي.
+تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)صف دراسي.
 
  استخدم ال[**ورقة العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)للوصول إلى خصائص مستند الملف كما هو موضح أدناه.
 
@@ -79,13 +79,13 @@ url: /ar/java/managing-document-properties/
 
 ### **إضافة خصائص مخصصة**
 
- كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) طريقة لـ[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) class لإضافة خصائص مخصصة إلى المجموعة. ال[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) يضيف الأسلوب الخاصية إلى ملف Excel ويعيد مرجعًا لخاصية المستند الجديدة كملف[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)هدف.
+ كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) طريقة لـ[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/CustomDocumentPropertyCollection) class لإضافة خصائص مخصصة إلى المجموعة. ال[**يضيف**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#add(java.lang.String,%20boolean) ) يضيف الأسلوب الخاصية إلى ملف Excel ويعيد مرجعًا لخاصية المستند الجديدة كملف[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)موضوع.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-AddingCustomProperty.java" >}}
 
 ### **تكوين خاصية مخصصة "ارتباط بالمحتوى"**
 
- لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) طريقة واسم خاصية المرور والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) منشأه. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)صف دراسي.
+ لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.addLinkToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/customdocumentpropertycollection#addLinkToContent(java.lang.String,%20java.lang.String) ) طريقة واسم خاصية المرور والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.isLinkedToContent**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#IsLinkedToContent) خاصية. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/java/com.aspose.cells/documentproperty#Source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/java/com.aspose.cells/DocumentProperty)صف دراسي.
 
  نستخدم ملف إكسل Microsoft قالب بسيط في المثال. يحتوي المصنف على نطاق مسمى محدد يسمى**MyRange** الذي يشير إلى قيمة الخلية.
 

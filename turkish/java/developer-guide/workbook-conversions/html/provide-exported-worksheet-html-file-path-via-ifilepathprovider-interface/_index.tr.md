@@ -1,13 +1,13 @@
 ﻿---
-title: IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası HTML dosyası yolu sağlayın
+title: IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası HTML dosya yolunu sağlayın
 type: docs
 weight: 870
 url: /tr/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Olası Kullanım Senaryoları**
- Birden fazla sayfa içeren bir excel dosyanız olduğunu ve her sayfayı ayrı bir HTML dosyasına dışa aktarmak istediğinizi varsayalım. Sayfalarınızdan herhangi birinin başka sayfalara bağlantıları varsa, bu bağlantılar dışa aktarılan HTML'de bozulur. Bu sorunla başa çıkmak için Aspose.Cells şunları sağlar:[IFilePathSağlayıcı](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)bozuk bağlantıları düzeltmek için uygulayabileceğiniz arayüz.
-## **IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası HTML dosyası yolu sağlayın**
- Lütfen indirin[örnek excel dosyası](5473417.zip) aşağıdaki kodda ve dışa aktarılan HTML dosyalarında kullanılır. Tüm bu dosyalar içinde*Sıcaklık* dizin. üzerine çıkarmalısın*C:* sürmek. Sonra olacak*C:\Sıcaklık*dizin. sonra açacaksın*Sheet1.html* tarayıcıda dosya ve içindeki iki bağlantıya tıklayın. Bu bağlantılar, içinde bulunan bu iki dışa aktarılmış HTML çalışma sayfasına atıfta bulunur.*C:\Sıcaklık\Diğer Sayfalar*dizin.
+ Birden fazla sayfa içeren bir excel dosyanız olduğunu ve her bir sayfayı ayrı HTML dosyasına aktarmak istediğinizi varsayalım. Sayfalarınızdan herhangi birinin diğer sayfalara bağlantıları varsa, bu bağlantılar dışa aktarılan HTML'de kırılacaktır. Bu sorunu çözmek için Aspose.Cells şunları sağlar:[IFilePathSağlayıcı](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)bozuk bağlantıları düzeltmek için uygulayabileceğiniz arayüz.
+## **IFilePathProvider arabirimi aracılığıyla dışa aktarılan çalışma sayfası HTML dosya yolunu sağlayın**
+ Lütfen indirin[örnek excel dosyası](5473417.zip) aşağıdaki kodda ve dışa aktarılan HTML dosyalarında kullanılır. Tüm bu dosyalar içinde*Sıcaklık* dizin. üzerine çıkarmalısın*C:* sürmek. Sonra olacak*C:\Sıcaklık* dizin. sonra açacaksın*Sheet1.html* tarayıcıda dosya ve içindeki iki bağlantıya tıklayın. Bu bağlantılar, dışa aktarılan bu iki HTML çalışma sayfasına atıfta bulunur.*C:\Sıcaklık\Diğer Sayfalar*dizin.
 
 {{< highlight "java" >}}
 
@@ -19,13 +19,13 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 Aşağıdaki ekran görüntüsü,*C:\Temp\Sheet1.html*ve bağlantıları şuna benzer:
 
-![yapılacaklar:resim_alternatif_Metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
+![yapılacaklar:resim_alternatif_metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_1.png)
 
  Aşağıdaki ekran görüntüsü HTML kaynağını göstermektedir. Gördüğünüz gibi, bağlantıların şimdi atıfta bulunduğu*C:\Sıcaklık\Diğer Sayfalar* dizin. Bu, kullanılarak elde edildi[IFilePathSağlayıcı](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)arayüz.
 
-![yapılacaklar:resim_alternatif_Metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
+![yapılacaklar:resim_alternatif_metin](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Basit kod**
- lütfen aklınızda bulundurun*C:\Sıcaklık* dizin sadece açıklama amaçlıdır. İstediğiniz herhangi bir dizini ve yeri kullanabilirsiniz.[örnek excel dosyası](5473414.xlsx) orada ve verilen örnek kodu yürütün. Daha sonra oluşturacak*DiğerSayfalar* dizininizdeki alt dizine girin ve içindeki ikinci ve üçüncü çalışma sayfalarını HTML olarak dışa aktarın. lütfen değiştir*dirPath*sağlanan kodun içindeki değişken ve çalıştırmadan önce onu seçtiğiniz dizine yönlendirin.
+ lütfen aklınızda bulundurun*C:\Sıcaklık* dizin sadece açıklama amaçlıdır. İstediğiniz herhangi bir dizini ve yeri kullanabilirsiniz.[örnek excel dosyası](5473414.xlsx) orada ve verilen örnek kodu yürütün. Daha sonra oluşturacak*DiğerSayfalar* dizininizdeki alt dizini açın ve içindeki ikinci ve üçüncü çalışma sayfalarını HTML dışa aktarın. lütfen değiştir*dirPath*sağlanan kodun içindeki değişken ve çalıştırmadan önce onu seçtiğiniz dizine yönlendirin.
 
 {{% alert color="primary" %}} 
 

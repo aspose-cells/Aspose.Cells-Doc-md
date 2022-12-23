@@ -1,5 +1,5 @@
 ﻿---
-title: Admite el diseño de etiquetas DIV al cargar HTML en un libro de trabajo de Excel
+title: Admite el diseño de las etiquetas DIV al cargar HTML en el libro de trabajo de Excel
 type: docs
 weight: 50
 url: /es/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
@@ -10,7 +10,7 @@ Normalmente, el diseño de las etiquetas div se ignora al cargar HTML en un obje
 
 {{% /alert %}} 
 
- El siguiente código de ejemplo ilustra el uso de[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) propiedad. Por favor descarga el[Aspose Logotipo](5115218.png) utilizado dentro del HTML de entrada y el[archivo de salida de Excel](5115220.xlsx) generado por el código.
+ El siguiente código de ejemplo ilustra el uso de[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) propiedad. Por favor descarga el[Aspose Logotipo](5115218.png) utilizado dentro de la entrada HTML y el[archivo de salida de Excel](5115220.xlsx) generado por el código.
 
 
 

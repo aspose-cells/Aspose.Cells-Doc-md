@@ -31,7 +31,7 @@ Aspose.Cells, dosya sisteminde TrueType yazı tiplerini otomatik olarak bulmaya 
 
 ### **Yazı Tipiyle İlgili Tipik Sorunlar ve Çözümler**
 
-Bu tablo, Aspose.Cells'i kullanarak elektronik tabloları PDF'ye dönüştürürken karşılaşabileceğiniz bazı sorunları ve çözümlerini listeler.
+Bu tablo, Aspose.Cells'i kullanarak elektronik tabloları PDF'e dönüştürürken karşılaşabileceğiniz sorunlardan bazılarını ve çözümlerini listeler.
 
 {{% alert color="primary" %}}
 

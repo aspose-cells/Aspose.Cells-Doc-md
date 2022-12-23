@@ -10,7 +10,7 @@ url: /sv/net/assign-macro-to-form-control/
 
 {{% /alert %}}
 
-Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i XLSM-format. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel du kommer att se följande makrokod.
+Följande exempelkod skapar en ny arbetsbok, tilldelar en makrokod till en formulärknapp och sparar utdata i formatet XLSM. En gång kommer du att öppna utdatafilen XLSM i Microsoft Excel, du kommer att se följande makrokod.
 
 {{< highlight "java" >}}
 
@@ -24,6 +24,6 @@ End Sub
 
 ## **Tilldela makro till formulärkontroll i C#**
 
-Här är exempelkoden för att generera utdata-XLSM-filen med makrokod.
+Här är exempelkoden för att generera utdatafilen XLSM med makrokod.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AssignMacroToFormControl-1.cs" >}}

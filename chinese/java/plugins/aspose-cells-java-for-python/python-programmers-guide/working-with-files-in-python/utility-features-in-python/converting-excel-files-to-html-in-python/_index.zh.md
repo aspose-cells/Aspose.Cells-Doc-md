@@ -1,11 +1,11 @@
 ﻿---
-title: 在 Python 中将 Excel 文件转换为 HTML
+title: 将 Excel 文件转换为 Python 中的 HTML
 type: docs
 weight: 10
 url: /zh/java/converting-excel-files-to-html-in-python/
 ---
 ## **Aspose.Cells - 将 Excel 文件转换为 HTML**
-要使用 Python 中的 Aspose.Cells for Java 将 Excel 转换为 HTML，只需调用工作表_至_Converter 模块的 html() 方法。
+要使用 Python 中的 Aspose.Cells for Java 将 Excel 转换为 HTML，只需调用工作表_到_Converter 模块的 html() 方法。
 
 **Python 代码**
 

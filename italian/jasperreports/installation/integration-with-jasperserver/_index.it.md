@@ -16,7 +16,7 @@ Per integrare Aspose.Cells for JasperReports con JasperServer, eseguire i passag
 
 {{% /alert %}} 
 
-1.  Aggiungere le seguenti nuove proprietà dell'esportatore al file**<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file.
+1. Aggiungere le seguenti nuove proprietà dell'esportatore al file**<DirInstall>\apache-tomcat\webapps\jasperserver\WEB-INF\flows\viewReportBeans.xml** file.
 
 **XML**
 
@@ -105,7 +105,7 @@ Per integrare Aspose.Cells for JasperReports con JasperServer, eseguire i passag
 
 
 
-1.  Eseguire JasperServer e aprire qualsiasi report da visualizzare. Se i passaggi precedenti sono stati eseguiti correttamente, sono disponibili icone di formato aggiuntive.
+1. Eseguire JasperServer e aprire qualsiasi report da visualizzare. Se i passaggi precedenti sono stati eseguiti correttamente, sono disponibili icone di formato aggiuntive.
 
 **Nuovi formati di esportazione disponibili (a destra) dopo aver installato Aspose.Cells for JasperReports su JasperServer** 
 

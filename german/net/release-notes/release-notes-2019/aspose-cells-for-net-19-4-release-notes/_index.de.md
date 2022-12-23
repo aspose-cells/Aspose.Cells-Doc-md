@@ -19,34 +19,34 @@ url: /de/net/aspose-cells-for-net-19-4-release-notes/
 |CELLSNET-46656|Unterstützen Sie Thread-Kommentare|Neue Funktion|
 |CELLSNET-46657|Unterstützen Sie das Ausschneiden und Einfügen von Zellen|Neue Funktion|
 |CELLSNET-46686|Unterstützen Sie die Verwendung von Leerzeichen (Zeichencode 20) als Trennzeichen für Zahlengruppen für die französische Sprache|Erweiterung|
-|CELLSNET-46649|Großes PDF generiert im Vergleich zum Online-Tool iLovePDF|Erweiterung|
+|CELLSNET-46649|Große PDF generiert im Vergleich zum Online-Tool iLovePDF|Erweiterung|
 |CELLSNET-46093|Diagramme berücksichtigen die Seiteneinrichtung in Schwarzweiß nicht|Erweiterung|
-|CELLSNET-46677|Beim Exportieren von Excel in PDF werden arabische Texte in Diagrammen nicht genau wiedergegeben|Erweiterung|
-|CELLSNET-46639|Unterstützung für vertikalen Seitenumbruch für ODS-Datei.|Erweiterung|
+|CELLSNET-46677|Beim Exportieren von Excel nach PDF werden arabische Texte in Diagrammen nicht genau wiedergegeben|Erweiterung|
+|CELLSNET-46639|Unterstützt vertikalen Seitenumbruch für die Datei ODS.|Erweiterung|
 |CELLSNET-46631|Ausnahme OutOfMemoryException beim Rendern|Leistung|
 |CELLSNET-46596|Etiketten fehlen in Formen|Insekt|
 |CELLSNET-46615|Shape.ToImage() exportiert Bilder unterschiedlicher Größe|Insekt|
 |CELLSNET-46637|Formatierungsfehler in generiertem HTML|Insekt|
 |CELLSNET-46650|PivotTable.ShowValuesRow wurde programmgesteuert nicht auf „false“ gesetzt|Insekt|
 |CELLSNET-46652|Slicer für Pivot-Tabellen werden nach dem Laden und Speichern entfernt|Insekt|
-|CELLSNET-46678|PivotField.IsRepeatItemLabels wird in Ausgabe-XLSB nicht beibehalten|Insekt|
+|CELLSNET-46678|PivotField.IsRepeatItemLabels wird in Ausgabe XLSB nicht gepflegt|Insekt|
 |CELLSNET-46671|Range.Copy nach Range.CopyData beschädigt die Arbeitsmappe|Insekt|
-|CELLSNET-42423|Beim Speichern im PDF-Format werden die Zeilendaten gekürzt|Insekt|
-|CELLSNET-45698|Die Worksheet.AutoFitColumns-Methode schneidet den langen Text beim Rendern in PDF ab|Insekt|
-|CELLSNET-46661|Weniger Seiten, die in PDF gerendert werden als in Excel 365|Insekt|
+|CELLSNET-42423|Das Speichern auf PDF kürzt die Zeilendaten|Insekt|
+|CELLSNET-45698|Die Worksheet.AutoFitColumns-Methode schneidet den langen Text beim Rendern auf PDF ab|Insekt|
+|CELLSNET-46661|Weniger Seiten, die in PDF gerendert werden, im Vergleich zu Excel 365|Insekt|
 |CELLSNET-46673|Problem mit der Dateigröße beim Konvertieren von Excel in PDF|Insekt|
 |CELLSNET-46632|ChartPoint.Datalabels.ShowValue funktioniert nicht wie erwartet|Insekt|
 |CELLSNET-46655|Mehrstufige Kategorieachsenbeschriftungen gehen beim Speichern mit RefreshChartCache = true verloren|Insekt|
 |CELLSNET-46665|Die Excel-Datei ist nach dem Aufruf von NSeries.Clear() in Oberflächendiagrammen beschädigt|Insekt|
 |CELLSNET-46672|Fehlende Seriendaten beim Exportieren des Diagramms in ein Bild|Insekt|
 |CELLSNET-46627|Ein Problem mit dem Zeigen von Pivot-Diagrammen|Insekt|
-|CELLSNET-46640|Der horizontale Seitenumbruch geht verloren, wenn die Zeile beim Speichern der ODS-Datei leer ist|Insekt|
+|CELLSNET-46640|Der horizontale Seitenumbruch geht verloren, wenn die Zeile beim Speichern der Datei ODS leer ist|Insekt|
 |CELLSNET-46643|Benannte Bereiche werden beim Kopieren einer Spalte nicht kopiert|Insekt|
 |CELLSNET-46644|HeadingPairs- und TitlesOfParts-Tags gehen verloren|Insekt|
 |CELLSNET-46651|Excel-Datei beim Öffnen und Speichern beschädigt|Insekt|
 |CELLSNET-46654|Unterstützung beim Hinzufügen von WebExtension|Insekt|
 |CELLSNET-46662|Problem beim Abrufen von BuiltInDocumentProperties|Insekt|
-|CELLSNET-46663|Die Bildgröße hat sich beim Konvertieren von XLS in PDF geändert|Insekt|
+|CELLSNET-46663|Bildgröße beim Konvertieren von XLS in PDF geändert|Insekt|
 |CELLSNET-46667|Ausgeblendete Zeilen werden abgerufen, während PlotVisibleRows = true ist|Insekt|
 |CELLSNET-46668|Die gepunktete Linie wird durchgezogen, wenn XLSX als ODS gespeichert wird|Insekt|
 |CELLSNET-46669|Shape to image Fehler beim Rendern einer Excel-Datei in PDF|Ausnahme|
@@ -90,4 +90,4 @@ Stellt die Thread-Kommentare zum Kommentar dar.
 #### **Fügen Sie die Methoden CommentCollection.AddThreadedComment() und CommentCollection.GetThreadedComments() hinzu.**
 Fügt die Thread-Kommentare hinzu und ruft sie ab.
 #### **Chart.SubTitle-Eigenschaft hinzufügen.**
-Ruft den Untertitel des Diagramms ab. Nur für Dateien im ODS-Format.
+Ruft den Untertitel des Diagramms ab. Nur für Datei im Format ODS.

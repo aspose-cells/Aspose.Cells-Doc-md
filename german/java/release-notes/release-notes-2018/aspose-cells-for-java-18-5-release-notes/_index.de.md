@@ -12,7 +12,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.5.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-42550|Die gleichzeitige Konvertierung in PDF, während jede Arbeitsmappe ihren eigenen privaten (exklusiven) Satz von Schriftarten hat|Neue Funktion|
+|CELLSJAVA-42550|Die gleichzeitige Konvertierung in PDF, während jede Arbeitsmappe über ihren eigenen privaten (exklusiven) Satz von Schriftarten verfügt|Neue Funktion|
 |CELLSJAVA-42594|LoadFormat und FileFormatType von XLAM erkennen|Erweiterung|
 |CELLSJAVA-42604|Die Formatierung und das Verhalten der Pivot-Tabelle haben sich nach dem Öffnen/Speichern der Vorlagendatei geändert|Insekt|
 |CELLSJAVA-41918|Spreadsheet (XLS) wird nach einfachem Laden und Speichern beschädigt|Insekt|
@@ -22,7 +22,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.5.
 |CELLSJAVA-42600|Derselbe Code wird in neuen Versionen langsamer ausgeführt|Insekt|
 |CELLSJAVA-42598|Eigenschaften werden nicht in die Vorlagendatei extrahiert|Insekt|
 |CELLSJAVA-42589|NullPointerException beim Hinzufügen von HTML zu einer Zelle|Insekt|
-|CELLSJAVA-41414|Linien sind aus dem Diagramm verschwunden, wenn die XLSX-Datei erneut gespeichert wird|Insekt|
+|CELLSJAVA-41414|Linien sind aus dem Diagramm verschwunden, wenn die Datei XLSX erneut gespeichert wird|Insekt|
 |CELLSJAVA-42602|Ausnahme „IndexOutOfBoundsException“ beim Zusammenführen von Zellen im vereinfachten Modus|Ausnahme|
 |CELLSJAVA-42610|Ausnahme „java.lang.IllegalStateException: Invalid encoding: null“ beim Laden einer XLS-Datei|Ausnahme|
 |CELLSJAVA-42608|ArrayIndexOutOfBoundsException tritt beim Öffnen einer Excel-Datei auf|Ausnahme|

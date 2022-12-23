@@ -26,7 +26,7 @@ url: /fr/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · Corrige les bugs de lecture/sauvegarde des fichiers Excel 97-2003.
 
- · L'amélioration est faite pour les fonctionnalités Graphique vers Image, Feuille vers Image et Excel vers PDF.
+ · L'amélioration est faite pour le graphique à l'image, la feuille à l'image et Excel aux fonctionnalités PDF.
 
  · L'amélioration est faite pour l'analyse des formules.
 
@@ -36,7 +36,7 @@ url: /fr/java/aspose-cells-for-java-2-5-1-release-notes/
 
  Problèmes résolus au Aspose.Cells for Java 2.5.1.
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |22652 | Xls| Modes de lecture|
 |19112 | Xls| Enregistrer le graphique|
@@ -56,7 +56,7 @@ url: /fr/java/aspose-cells-for-java-2-5-1-release-notes/
 |23217 | Xls| Créer un nom|
 |23586 | Xls| Lire les propriétés des documents|
 |23649 | Xls| Lire la mise en forme conditionnelle|
-|23600 | Xlsx| Enregistrer le graphique 2|
+|23600 | Xlsx| Enregistrer le graphique 2|
 |23658 | Graphique2Image| Problème Chart2Image|
 |23721 | Xls2pdf| Problèmes de mise en page du PDF généré|
 |23687 | Xlsx| Enregistrer l'axe secondaire du graphique|

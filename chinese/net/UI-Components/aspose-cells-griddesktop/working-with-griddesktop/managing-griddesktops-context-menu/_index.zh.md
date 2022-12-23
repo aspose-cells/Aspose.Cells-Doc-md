@@ -19,7 +19,7 @@ ContextMenuManager 类用于管理上下文菜单项。 GridDesktop.ContextMenuM
 
 **GridDeskop 的默认菜单** 
 
-![待办事项：图像_替代_文本](managing-griddesktops-context-menu_1.png)
+![待办事项：图片_替代_文本](managing-griddesktops-context-menu_1.png)
 
 现在，使用以下代码隐藏一些菜单项：
 
@@ -33,7 +33,7 @@ ContextMenuManager 类用于管理上下文菜单项。 GridDesktop.ContextMenuM
 
 **一些菜单项被隐藏** 
 
-![待办事项：图像_替代_文本](managing-griddesktops-context-menu_2.png)
+![待办事项：图片_替代_文本](managing-griddesktops-context-menu_2.png)
 ### **添加新菜单项**
 使用以下代码片段将新的上下文菜单项添加到列表中。
 
@@ -54,4 +54,4 @@ ContextMenuManager 类用于管理上下文菜单项。 GridDesktop.ContextMenuM
 
 **一个新的菜单项被添加到列表中** 
 
-![待办事项：图像_替代_文本](managing-griddesktops-context-menu_3.png)
+![待办事项：图片_替代_文本](managing-griddesktops-context-menu_3.png)

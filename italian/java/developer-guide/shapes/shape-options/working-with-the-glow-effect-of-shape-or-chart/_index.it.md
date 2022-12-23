@@ -10,12 +10,12 @@ Aspose.Cells fornisce la proprietà Shape.Glow per lavorare con l'effetto baglio
 - GlowEffect.Size
 - GlowEffect.Transparency
 
-Lo screenshot seguente mostra l'interfaccia di Microsoft Excel per impostare l'effetto bagliore della forma.
+Lo screenshot seguente mostra l'interfaccia Excel Microsoft per impostare l'effetto bagliore della forma.
 
 ![cose da fare:immagine_alt_testo](working-with-the-glow-effect-of-shape-or-chart_1.png)
 ## **Utilizzo dell'effetto bagliore di forma o grafico**
  Il codice di esempio seguente carica il file[file excel di origine](5472520.xlsx) accede alla prima forma nel primo foglio di lavoro e imposta le proprietà secondarie della proprietà Shape.Glow e quindi salva la cartella di lavoro in[file excel di output](5472527.xlsx).
-## **Codice di esempio**
+## **Codice d'esempio**
 
 
 

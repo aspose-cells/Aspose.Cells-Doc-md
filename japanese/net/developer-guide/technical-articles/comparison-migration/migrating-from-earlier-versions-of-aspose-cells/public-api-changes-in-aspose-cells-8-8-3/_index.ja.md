@@ -164,11 +164,11 @@ oleObject.AutoLoad = true;
 
 
 ### **HTMLLoadOptions.SupportDivTag プロパティを追加**
-Aspose.Cells for .NET 8.8.3 は HTMLLoadOptions.SupportDivTag プロパティを公開しました。これにより、Aspose.Cells オブジェクト モデルで HTML ファイル/スニペットをロードする際に、TD タグに埋め込まれた DIV タグを解析できます。ブール型のプロパティのデフォルト値は false です。
+Aspose.Cells for .NET 8.8.3 は HTMLLoadOptions.SupportDivTag プロパティを公開しました。これにより、HTML オブジェクト モデルで HTML ファイル/スニペットをロードする際に、TD タグに埋め込まれた DIV タグを解析できます。ブール型のプロパティのデフォルト値は false です。
 
 {{% alert color="primary" %}} 
 
-この機能の詳細については、次の詳細記事を参照してください。[HTML のロード中に内部 DIV タグをサポートする](/cells/ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+この機能の詳細については、次の詳細記事を参照してください。[HTML のロード中に内部 DIV タグをサポート](/cells/ja/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -276,7 +276,7 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **HtmlSaveOptions.ExportGridLines プロパティを追加**
-Aspose.Cells for .NET 8.8.3 は HtmlSaveOptions.ExportGridLines プロパティを公開しました。これにより、スプレッドシートを HTML 形式にエクスポートする際にグリッド線をレンダリングできます。ブール型のプロパティのデフォルト値は false ですが、true に設定すると、API は、使用可能なデータ範囲のグリッド線を HTML 形式でレンダリングします。
+Aspose.Cells for .NET 8.8.3 は、スプレッドシートを HTML 形式にエクスポートする際にグリッド線をレンダリングできる HtmlSaveOptions.ExportGridLines プロパティを公開しました。ブール型のプロパティのデフォルト値は false ですが、true に設定すると、API は使用可能なデータ範囲のグリッド線を HTML 形式でレンダリングします。
 
 {{% alert color="primary" %}} 
 

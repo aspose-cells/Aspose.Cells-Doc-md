@@ -12,7 +12,7 @@ url: /ja/net/aspose-cells-for-net-21-8-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-48470|ファイルを HTML にエクスポートする際のワークシート ページのスケーリングのサポート|新機能|
+|CELLSNET-48470|ファイルを HTML にエクスポートする際のワークシート ページのスケーリングをサポート|新機能|
 |CELLSNET-41286|XML マップのサポート|新機能|
 |CELLSNET-45255|Apple の .numbers のサポート?ファイル形式|新機能|
 |CELLSNET-47737|最新の Apples .numbers ファイル形式の読み取りのサポート|新機能|
@@ -27,17 +27,17 @@ url: /ja/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48241|五角形の文字位置がおかしい|バグ|
 |CELLSNET-48247|pdfに変換すると曲がる矢印が消えます。|バグ|
 |CELLSNET-48363|リッチ テキストの位置が繰り返し計算されるため、テキストが上に移動します。|バグ|
-|CELLSNET-47839|XLSX を PDF に保存する際の Shape to image エラー|バグ|
+|CELLSNET-47839|Shape to image 保存時のエラー|バグ|
 |CELLSNET-48312|出力 HTML のズーム レベルに問題があります。|バグ|
 |CELLSNET-48329|範囲を HTML にエクスポートするときの画像の配置の問題|バグ|
 |CELLSNET-48333|下揃えの範囲内の表の列は、変換された HTML で結合されます|バグ|
 |CELLSNET-48365|ピボット テーブルのベースフィールドから作成されたスライサーが機能しない|バグ|
 |CELLSNET-48359|XLS から XLSM への移行後にマクロが削除される|バグ|
 |CELLSNET-48448|名前付き範囲を持つチャート データ ソースが正しく解析されない|バグ|
-|CELLSNET-47369|生成された EMF 画像でチャート ポイントが欠落し、形状が圧迫される|バグ|
+|CELLSNET-47369|チャート ポイントが見つからず、生成された EMF 画像で形状が圧迫されている|バグ|
 |CELLSNET-48497|セルを XmlMap にリンクした後、生成された xlsx ファイルが破損する|バグ|
 |CELLSNET-48132|ドーナツ グラフのデータ ラベルの位置を変更する際の問題|バグ|
-|CELLSNET-48385|XLSX から TIFF: グラフ バーが出力でレンダリングされない|バグ|
+|CELLSNET-48385|XLSX ～ TIFF: グラフ バーが出力に表示されません|バグ|
 |CELLSNET-48386|カテゴリ軸の目盛りラベルのフォント名のフォント名が正しくありません|バグ|
 |CELLSNET-48503|軸タイトルの配置は、出力pdfでシフトされています|バグ|
 |CELLSNET-48509|凡例の位置に基づいてグラフが表示されないことがある|バグ|
@@ -52,7 +52,7 @@ url: /ja/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48477|PivotTable.CalculateData メソッドが例外をスローする|例外|
 |CELLSNET-48395|ファイル Display.xlsx の Docker 環境で Shape to image が例外を発生させる|例外|
 |CELLSNET-48367|PlotArea 幅が 0 の場合にスローされる例外|例外|
-|CELLSNET-48172|ExcelファイルをPDFに変換する際の「形状から画像へのエラー」|例外|
+|CELLSNET-48172|Excel ファイルを PDF に変換する際の「形状から画像へのエラー」|例外|
 |CELLSNET-48490|「算術演算でオーバーフローが発生しました。」 XLS ファイルを開くときの例外|例外|
 |CELLSNET-48545|Shape.UpdateSelectedValue() の呼び出し中に発生した例外|例外|
 |

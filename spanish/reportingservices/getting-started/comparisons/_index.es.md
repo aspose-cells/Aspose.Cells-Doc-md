@@ -20,10 +20,10 @@ url: /es/reportingservices/comparisons/
 | Tablas dinámicas, gráficos interactivos, VBA y macros.| Sí| Sí| No|
 | Parámetros de Reporting Services como origen de datos del informe.| Sí| Sí| Sí|
 | Variables globales de Reporting Services como origen de datos del informe.| Sí| Sí| Sí|
-| Fórmulas de Reporting Services como origen de datos del informe.| Sí| Sí| Sí|
+|Fórmulas de Reporting Services como origen de datos del informe.| Sí| Sí| Sí|
 | Especificar los grupos de filas y los pies de página de la tabla en tiempo de diseño.| Sí| No| Sí|
 | fórmulas dinámicas| Sí (implementado por Smart Markers especiales).| No| No|
-|Configuración de los parámetros del informe.| Sí| No| Sí|
+| Configuración de los parámetros del informe.| Sí| No| Sí|
 | Exportación de varios elementos de informe a las hojas designadas en un libro de Excel.| Sí (especificado en el momento del diseño)| Sí (especificado en el momento del diseño)| No|
 - **Funciones no admitidas**
 Las siguientes características no son compatibles:

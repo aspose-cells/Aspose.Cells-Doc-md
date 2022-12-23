@@ -14,7 +14,7 @@ So erstellen Sie einen Berichtsparameter in Aspose.Cells.Report.Designer:
 )
  Im Dialogfeld werden alle Berichtsparameter im linken Bereich aufgelistet.
 
-1.  Klicken**Hinzufügen**. 
+1.  Klicken**Addieren**. 
 
    **Das Formular Berichtsparameterkonfiguration** 
 
@@ -33,8 +33,8 @@ So erstellen Sie einen Berichtsparameter in Aspose.Cells.Report.Designer:
 
 Die gültigen Werte für einen Berichtsparameter können aus einem Datensatz oder einer Gruppe benutzerdefinierter Werte stammen. Ein Berichtsparameter hat zwei Datenfelder: Bezeichnung und Wert. Der Labelwert kann null sein.
 
-1.  Klicken**Konfiguration** um eine Gruppe von Werten für den Berichtsparameter einzurichten.
-1.  Fügen Sie Werte für die hinzu**Etikett** und**Wert** Felder.
+1.  Klicken**Installieren** um eine Gruppe von Werten für den Berichtsparameter einzurichten.
+1.  Fügen Sie Werte für die hinzu**Etikette** und**Wert** Felder.
 
    **Etikett und Wert hinzufügen** 
 
@@ -43,9 +43,9 @@ Die gültigen Werte für einen Berichtsparameter können aus einem Datensatz ode
 
 
 
-1.  Klicken**Hinzufügen**.
+1.  Klicken**Addieren**.
  Wiederholen Sie diesen Vorgang, um weitere Werte für den Parameter hinzuzufügen.
-1.  Klicken**Nah dran**.
+1.  Klicken**Nahe**.
 1.  Klicken**Speichern** um den Parameter zu speichern.
 1.  Der neue Berichtsparameter wird im linken Bereich aufgelistet.
 

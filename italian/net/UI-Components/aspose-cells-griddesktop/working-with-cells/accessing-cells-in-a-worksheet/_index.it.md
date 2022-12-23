@@ -10,7 +10,7 @@ Finora abbiamo discusso dell'utilizzo di fogli di lavoro, righe e colonne, ma qu
 
 {{% /alert %}} 
 ## **Accesso a Cells in un foglio di lavoro**
-Possiamo accedere a qualsiasi cella di un foglio di lavoro utilizzando l'API di Aspose.Cells.GridDesktop. Ci potrebbero essere tre possibili modi per accedere alle celle come segue:
+Possiamo accedere a qualsiasi cella di un foglio di lavoro utilizzando lo API di Aspose.Cells.GridDesktop. Ci potrebbero essere tre possibili modi per accedere alle celle come segue:
 
 - **Utilizzando il nome Cell**
 - **Utilizzo degli indici di riga e colonna di Cell**

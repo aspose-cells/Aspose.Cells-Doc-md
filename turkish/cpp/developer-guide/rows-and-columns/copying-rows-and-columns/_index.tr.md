@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/cpp/copying-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Bazen tüm çalışma sayfasını kopyalamadan çalışma sayfasındaki satırları ve sütunları kopyalamanız gerekir. Aspose.Cells ile çalışma kitaplarının içinde veya arasında satır ve sütun kopyalamak mümkündür.
 Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere içerdiği veriler de kopyalanır.
 ## **Microsoft Excel ile Satırları ve Sütunları Kopyalama**
@@ -42,12 +42,12 @@ Aşağıdaki örnek, çalışma sayfasındaki bir satırın nasıl kopyalanacağ
 
 Satırları kopyalarken, Microsoft Excel'de olduğu gibi ilgili resimleri, çizelgeleri veya diğer çizim nesnelerini not etmek önemlidir:
 
-1. Kaynak satır dizini 5 ise resim, grafik vb. üç satırda yer alıyorsa kopyalanır (başlangıç satır dizini 4 ve bitiş satır dizini 6'dır).
+1. Kaynak satır dizini 5 ise, resim, grafik vb. üç satırda yer alıyorsa kopyalanır (başlangıç satır dizini 4 ve bitiş satır dizini 6'dır).
 1. Hedef satırdaki mevcut resimler, çizelgeler vb. kaldırılmayacaktır.
 
 {{% /alert %}} 
 ### **Sütunları Kopyalama**
-Aspose.Cells, Aspose::Cells::ICells sınıfının CopyColumn yöntemini sağlar; bu yöntem, formüller - güncellenmiş referanslarla - ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kaynaktan kopyalar sütundan hedef sütuna.
+Aspose.Cells, Aspose::Cells::ICells sınıfının CopyColumn yöntemini sağlar; bu yöntem, formüller - güncellenmiş referanslarla - ve değerler, yorumlar, hücre biçimleri, gizli hücreler, resimler ve kaynaktan diğer çizim nesneleri dahil olmak üzere tüm veri türlerini kopyalar sütundan hedef sütuna.
 
 CopyColumn yöntemi aşağıdaki parametreleri alır:
 

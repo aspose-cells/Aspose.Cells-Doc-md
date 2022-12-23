@@ -23,11 +23,11 @@ url: /ar/java/get-and-set-formula/
 
 ## **استخدام وظائف مدمجة**
 
- يتم توفير الوظائف أو الصيغ المضمنة كوظائف جاهزة لتقليل جهود المطورين والوقت. نرى[قائمة الوظائف المضمنة](/cells/ar/java/supported-formula-functions/). يتم سرد الوظائف بالترتيب الأبجدي. سيتم دعم المزيد من الوظائف في المستقبل.
+ يتم توفير الوظائف أو الصيغ المضمنة كوظائف جاهزة لتقليل جهود المطورين والوقت. نرى[قائمة الوظائف المدمجة](/cells/ar/java/supported-formula-functions/). يتم سرد الوظائف بالترتيب الأبجدي. سيتم دعم المزيد من الوظائف في المستقبل.
 
  يدعم Aspose.Cells معظم الصيغ أو الوظائف التي يوفرها Microsoft Excel. يمكن للمطورين استخدام هذه الصيغ من خلال API أو[جدول بيانات المصمم](/cells/ar/java/what-is-a-designer-spreadsheet/). يدعم Aspose.Cells مجموعة ضخمة من الصيغ الرياضية ، والجمل ، والمنطقية ، والتاريخ / الوقت ، والإحصائية ، وقاعدة البيانات ، والبحث ، والصيغ المرجعية.
 
- استخدم ال[**معادلة**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)ممتلكات[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) فئة لإضافة صيغة إلى خلية.**الصيغ المعقدة**، فمثلا
+ استخدم ال[**معادلة**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula)ممتلكات[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) فئة لإضافة صيغة إلى خلية.**الصيغ المعقدة**، على سبيل المثال
 
 {{< highlight "java" >}}
 
@@ -75,7 +75,7 @@ url: /ar/java/get-and-set-formula/
 
 ## **باستخدام صيغة R1C1**
 
- تطبيق**R1C1** صيغة نمط مرجعي لخلية بامتداد[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) صف دراسي'[**الصيغة**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)منشأه.
+ تطبيق**R1C1** صيغة نمط مرجعي لخلية بامتداد[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) صف دراسي'[**الصيغة**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#R1C1Formula)خاصية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingR1C1-1.java" >}}
 

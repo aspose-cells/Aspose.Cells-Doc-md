@@ -22,11 +22,11 @@ Aspose.Cells for Java产品涵盖了大部分支持Java的流行开发环境和�
 |**特征**|**描述**|**Aspose.Cells for Java**|
 |:- |:- |:- |
 |高质量的转化|快速可靠地在几种流行的文档格式之间进行转换。|是的|
-|Microsoft Excel 工作簿 (XLS)|您可以找到的最快、最完整的 XLS 格式实现。|是的|
-|电子表格 ML（XLSX、XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。而且，<br>该组件支持所有主要的 Excel 2007 和更高版本的文件格式，例如 XLSX、XLTX、XLSM、XLTM、XLSB 等。|是的|
-|逗号分隔值 (CSV)|全面支持CSV格式，与多种应用交互。|是的|
+|Microsoft Excel 工作簿 (XLS)|您可以找到最快、最完整的 XLS 格式实现。|是的|
+|SpreadsheetML（XLSX，XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。而且，<br>该组件支持所有主要的 Excel 2007 和更高版本的文件格式，例如 XLSX、XLTX、XLSM、XLTM、XLSB 等。|是的|
+|逗号分隔值 (CSV)|全面支持CSV格式与多种应用交互。|是的|
 |HTML|另存为 HTML 可用。|是的|
-|开放文档 (ODS)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|是的|
+|打开文档 (ODS)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|是的|
 |Adobe 便携式文档格式 (PDF)|将任何电子表格高保真地转换为 PDF。|是的|
 |制表符分隔|以制表符分隔的文件格式加载和保存文档。|是的|
 |纯文本 (TXT)|通过以纯文本格式保存轻松提取文本。|是的|

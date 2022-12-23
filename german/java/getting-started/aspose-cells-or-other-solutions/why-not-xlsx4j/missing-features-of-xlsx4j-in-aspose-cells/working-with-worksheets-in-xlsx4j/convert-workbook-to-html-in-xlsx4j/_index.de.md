@@ -4,8 +4,8 @@ type: docs
 weight: 10
 url: /de/java/convert-workbook-to-html-in-xlsx4j/
 ---
-## **Aspose.Cells – Arbeitsmappe in HTML konvertieren**
- Die Aspose.Cells-APIs bieten Unterstützung für den Export von Tabellenkalkulationen in das HTML-Format. Für diesen Zweck,**Aspose.Cells** nutzt die**HtmlSaveOptions** -Klasse, mit der Entwickler mehrere Aspekte des Ausgabe-HTML steuern können.
+## **Aspose.Cells - Arbeitsmappe in HTML konvertieren**
+ Die Aspose.Cells-APIs bieten Unterstützung für den Export von Tabellenkalkulationen in das HTML-Format. Für diesen Zweck,**Aspose.Cells** nutzt die**HtmlSaveOptions** Klasse, mit der Entwickler mehrere Aspekte der Ausgabe HTML steuern können.
 
 **Java**
 

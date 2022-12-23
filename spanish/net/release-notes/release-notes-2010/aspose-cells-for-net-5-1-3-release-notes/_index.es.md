@@ -52,21 +52,21 @@ url: /es/net/aspose-cells-for-net-5-1-3-release-notes/
 |19246 | GridEscritorio| Cells problema de formato de datos: las fechas se convierten en números|
 |19336 | GridEscritorio| Se genera una excepción al combinar 0 filas o 0 rangos de columnas.|
 |19411 | GridEscritorio| La función BUSCARV no admite el uso de valor doble o int|
-|19721 | html| Guardar un documento de Excel como HTML lleva mucho tiempo|
+|19721 | html| Guardar el documento de Excel como HTML lleva mucho tiempo|
 |17485 | pdf| Logotipo faltante y texto borroso/claro|
-|18114 | pdf| Problema de conversión de PDF|
+|18114 | pdf| PDF Problema de conversión|
 |19237 | pdf|Diferencia en la impresión desde Excel y la salida a PDF|
 |19392 | pdf| El ancho de la imagen se redujo en la conversión a PDF|
-|19409 | pdf| La apariencia de PDF difiere de XLSX|
+|19409 | pdf| PDF se ve y se siente diferente de XLSX|
 |19420 | pdf| Formato de fecha|
 |19425 | pdf| Tamaño de archivo = 0 cuando se convierte a PDF|
-|19546 | pdf| Convertir este archivo a PDF|
-|19651 | pdf| El archivo de Excel no se puede convertir a PDF debido a un error de formato de PDF no válido|
+|19546 | pdf| Convierta este archivo a PDF|
+|19651 | pdf| El archivo de Excel no se puede convertir a PDF debido a un error de formato de pdf no válido|
 |19873 | pdf| El texto sale de la tabla y no se imprime por completo|
 |19430 | Tabla dinámica| 2003 XLS con tablas dinámicas dañadas|
 |19542 | Tabla dinámica| DataBordyRange no devuelve el área correcta|
 |19852 | Tabla dinámica| La tabla dinámica provoca errores en los archivos XLSX pero funciona bien en XLS|
-|19942 | SpreadML| Problema de apertura de documento de SpreadsheetML con atributos de espacio de nombres|
+|19942 | SpreadML| SpreadsheetML problema de apertura de documento con atributos de espacio de nombres|
 |19052 | xls| Copie Excel con el controlador de eventos del botón de comando|
 |19238 | xls| getPrecedents devuelve una columna 164|
 |19541 | xls| Error en la fórmula de matriz de rango con nombre|
@@ -76,8 +76,8 @@ url: /es/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | xls| Problema con contraseñas y Excel 2003|
 |19901 | xls| Problema de FÓRMULAS DE ÍNDICE Y BUSQUEDA en GridWeb.|
 |19911 | xls| Pérdida de formatos de etiquetas de puntos de datos individuales|
-|19931 | xls| Problema al agregar hipervínculo a Cell|
-|19934 | xls|ImportTwoDimensionArray parece invalidar algunas celdas|
+|19931 | xls|Problema al agregar hipervínculo a Cell|
+|19934 | xls| ImportTwoDimensionArray parece invalidar algunas celdas|
 |19250 | xlsx| Diálogo de error de contenido ilegible de Excel encontrado|
 |19334 | xlsx| No se puede abrir el libro de Excel que contiene el gráfico|
 |19341 | xlsx| Problemas con hojas de trabajo con carácter de coma|

@@ -27,4 +27,4 @@ En Aspose.Cells rapportmall kan innehålla valfritt antal av följande typer av 
 1. **Publicera rapport**.
  Efter stegen ovan är rapporten redo att publiceras. Användare kan ange vilken mapp rapporten publiceras till. Om det behövs kan du tilldela en delad datakälla på rapportservern som datakälla för rapporten.
 1. **Förhandsgranska rapport**.
-När du väljer en rapport för förhandsgranskning på rapportservern uppmanas du att ange vilket filformat den ska exporteras till (till exempel Microsoft Excel 97-2003 binärt XLS-format, SpreadsheetML eller Microsoft Excel 2007 XLSX-format) och eventuella indatarapportparametrar som skapats under rapportutformningen. Efter detta fylls rapporten med data från Reporting Services.
+När du väljer en rapport för förhandsgranskning på rapportservern uppmanas du att ange vilket filformat den ska exporteras till (till exempel Microsoft Excel 97-2003 binärt XLS format, SpreadsheetML eller Microsoft Excel 2007 08161 inmatningsparametrar),3 och valfritt indataformat för rapport. under rapportutformningen. Efter detta fylls rapporten med data från Reporting Services.

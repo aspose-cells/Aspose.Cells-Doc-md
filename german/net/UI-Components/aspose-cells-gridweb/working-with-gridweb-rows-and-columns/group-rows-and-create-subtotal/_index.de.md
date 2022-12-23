@@ -138,7 +138,7 @@ Es gibt mehrere Arten von Zusammenfassungsfunktionen, die von der Enumeration {[
 |**Nein.**|**Funktionsname**|**Beschreibung**|
 |:- |:- |:- |
 |1|DURCHSCHNITT|Berechnet den Durchschnitt der Werte.|
-|2|ZÄHLEN|Zählt die numerischen Werte in den Zellen.|
+|2|ANZAHL|Zählt die numerischen Werte in den Zellen.|
 |3|GRAF|Zählt die nicht numerischen Daten in den Zellen.|
 |4|max|Berechnet den größten Wert.|
 |5|MINDEST|Berechnet den kleinsten Wert.|
@@ -182,7 +182,7 @@ function_num ist eine Zahl, die den Typ der Funktion angibt, die bei der Zwische
 
 |**1**|**DURCHSCHNITT**|
 |:- |:- |
-|2|ZÄHLEN|
+|2|ANZAHL|
 |3|GRAF|
 |4|max|
 |5|MINDEST|

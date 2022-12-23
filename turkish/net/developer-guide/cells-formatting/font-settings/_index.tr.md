@@ -30,7 +30,7 @@ Bir metnin görünümü ve verdiği his, yazı tipi ayarları değiştirilerek k
 
 ### **Yazı Tipi Boyutunu Ayarlama**
 
-ile yazı tipi boyutunu ayarlayın.[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)nesnenin[**Boyut**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)Emlak.
+ile yazı tipi boyutunu ayarlayın.[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)nesnenin[**Boy**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)Emlak.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
@@ -44,7 +44,7 @@ Kullan[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/
 
 Kullan[**Stil.Yazı Tipi**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)nesnenin[**Altını çizmek**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline)metnin altını çizme özelliği. Aspose.Cells, önceden tanımlanmış çeşitli alt çizgili yazı tipleri sunar.[**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) numaralandırma.
 
-|**Alt Çizgi Tipleri**|**Tanım**|
+|**Alt Çizgi Tipleri**|**Açıklama**|
 |:- |:- |
 |Muhasebe|Tek bir muhasebe alt çizgisi|
 |Çift|Çift alt çizgi|

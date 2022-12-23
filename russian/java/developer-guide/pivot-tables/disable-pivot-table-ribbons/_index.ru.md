@@ -12,6 +12,6 @@ url: /ru/java/disable-pivot-table-ribbons/
 
 ## **Отключить ленту сводной таблицы с помощью PivotTable.setEnableWizard**
 
-Следующий код демонстрирует эту функцию путем доступа к сводной таблице с листа и последующего вызова метода[**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) установить этот флаг**ЛОЖЬ** . Образец файла сводной таблицы можно скачать здесь[ссылка на сайт](71630876.xlsx).
+Следующий код демонстрирует эту функцию путем доступа к сводной таблице с листа и последующего вызова метода[**setEnableWizard**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#EnableWizard) установить этот флаг**ЛОЖЬ** . Образец файла сводной таблицы можно скачать здесь[соединять](71630876.xlsx).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-PivotTables-DisablePivotTableRibbon-1.java" >}}

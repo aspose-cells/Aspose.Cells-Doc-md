@@ -10,8 +10,8 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.6 pour Win
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-292| Optimisez les résultats de la recherche au nuget|Amélioration|
-|CELLSCPP-283| Correction du bogue du constructeur ArrayList|Punaise|
-|CELLSCPP-284|Problème d'initialisation de PathHelper|Punaise|
+|CELLSCPP-283|Correction du bogue du constructeur ArrayList|Punaise|
+|CELLSCPP-284| Problème d'initialisation de PathHelper|Punaise|

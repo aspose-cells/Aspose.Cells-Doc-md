@@ -14,7 +14,7 @@ Harici kaynaklar içeren html'yi yüklerken, genellikle aşağıdaki iki sorunla
 
 {{% /alert %}} 
 
- Bu, kullanımını gösteren ana koddur.[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Bu, kullanımını gösteren ana koddur.[**HtmlLoadOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

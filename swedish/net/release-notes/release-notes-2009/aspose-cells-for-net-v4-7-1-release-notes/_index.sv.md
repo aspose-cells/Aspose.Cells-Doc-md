@@ -33,21 +33,21 @@ Problem lösta i Aspose.Cells 4.7.1
 |7729 | Chart2Image| Diagrambilden ser inte ut som ett underliggande diagramobjekt|
 |7938 | Charts2Image| Procenttecken visas inte i cirkeldiagrammet|
 |7981 | Charts2Image| Exporterat diagram trasslat|
-|8114 | Charts2Image| Spara arbetsbok med diagram i HTML trasig|
+|8114 | Charts2Image| Sparar arbetsbok med diagram i HTML trasig|
 |8119 | Charts2Image| Använder FillFormat.Pattern|
 |8223 | Charts2Image| Kategori X-axeltiteln visas inte|
-|8113 | HTML| Html bruten på kalkylbladsnamn som innehåller ett mellanslag|
-|8420 | HTML| HTML-exportformatproblem|
+|8113 |HTML | Html bruten på kalkylbladsnamn som innehåller ett mellanslag|
+|8420 |HTML | HTML problem med exportformat|
 |7718 | Pdf| Stöder hyperlänk för att direkt konvertera celler till pdf|
-|7723 | Pdf| Teckensnittsproblem med Aspose.Cells-konvertering till PDF|
-|7726 | Pdf| Cells 4.7.0 att spara till PDF-ström fungerar inte|
+|7723 | Pdf| Teckensnittsproblem med Aspose.Cells som konverterar till PDF|
+|7726 | Pdf| Cells 4.7.0 att spara till PDF stream fungerar inte|
 |7727 | Pdf| Pdf-filen är för stor|
 |7730 | Pdf| Nyckel har redan lagts till i ordboksundantaget|
 |7838 | Pdf| Excel till PDF producerar korrupta pdf-filer|
 |7978 | Pdf| Vissa Aspose.Cells räddningsproblem|
 |7980 | Pdf| Skillnader i output|
 |7728 | SpreadML| Index utanför intervallet|
-|8116 | SpreadML| Dåligt SpreadsheetML när ett ark tas bort|
+|8116 | SpreadML| Bad SpreadsheetML när ett ark raderas|
 |8118 | SpreadML| Fel när ett PRINT_AREA finns|
 |7381 | Xls| Metod EndCellinRow för excel2007|
 |7722 | Xls| Kopiera valideringar inom kopieringsintervall.|

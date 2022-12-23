@@ -12,7 +12,7 @@ url: /ar/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 1.  قم بتعديل معلمات التكوين في ملف**Aspose.Cells.ReportingServices.xml** ملف.
 1. أضف معلومات تكوين التقرير المطلوب.
 
-فمثلا:
+على سبيل المثال:
 
 {{< highlight "java" >}}
 

@@ -13,7 +13,7 @@ Aspose.Cells Las API admiten la mayoría de las funciones estándar y la fórmul
 
 ||||||||||||||
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**[Automóvil club británico)** |**[Cama y desayuno)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[S.S)** |**[yo](#i)** |**[J](#j)** |**[K](#k)** |**[L](#l)** |**[M](#m)** |
+|**[Automóvil club británico)** |**[Cama y desayuno)** |**[C](#c)** |**[D](#d)** |**[E](#e)** |**[F](#f)** |**[G](#g)** |**[S.S)** |**[yo](#yo)** |**[J](#j)** |**[K](#k)** |**[L](#l)** |**[M](#m)** |
 |**[N](#n)** |**[O](#o)** |**[Páginas)** |**[Q](#q)** |**[R](#r)** |**[S](#s)** |**[T](#t)** |**[U](#u)** |**[V](#v)** |**[W](#w)** |**[X](#x)** |**[A](#a)** |**[Z](#z)** |
 
 {{% /alert %}}
@@ -74,7 +74,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |TECHO|
 |MATEMÁTICAS DE TECHO|
 |TECHO. PRECISO|
-|CÉLULA|
+|CELDA|
 |CARBONIZARSE|
 |CHIDISTA|
 |CHIINV|
@@ -83,7 +83,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |DISTR.CHICUAD.RT|
 |CHISQ.INV.RT|
 |PRUEBA CHISQ.|
-|ELEGIR|
+|ESCOGER|
 |LIMPIO|
 |CÓDIGO|
 |COLUMNA|
@@ -124,7 +124,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |FECHAVALO|
 |PROMEDIO|
 |DÍA|
-|DÍAS|
+|DIAS|
 |DÍAS360|
 |base de datos|
 |DCUENTO|
@@ -263,7 +263,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |NÚMERO DE SEMANA ISO|
 |ISPMT|
 
-###### **k**
+###### **K**
 |**Función**|**Resumen**|
 |:- |:- |
 |kurt|
@@ -271,7 +271,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 ###### **L**
 |**Función**|**Resumen**|
 |:- |:- |
-|LARGO|
+|GRANDE|
 |MCM|
 |IZQUIERDA|
 |IZQUIERDAB|
@@ -292,7 +292,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 ###### **METRO**
 |**Función**|**Resumen**|
 |:- |:- |
-|JUEGO|
+|FÓSFORO|
 |MÁX.|
 |MAXA|
 |MAXIFS|
@@ -346,7 +346,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |OCT2BIN|
 |OCT2DIC|
 |OCT2HEX|
-|EXTRAÑO|
+|IMPAR|
 |PRECIO IMPAR|
 |ODDFYIELD|
 |PRECIO IMPAR|
@@ -354,7 +354,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |COMPENSAR|
 |O|
 
-###### **PAGS**
+###### **PAG**
 |**Función**|**Resumen**|
 |:- |:- |
 |PEARSON|
@@ -369,7 +369,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |PAGO|
 |DISTR.POISSON|
 |VENENO|
-|ENERGÍA|
+|PODER|
 |PPMT|
 |PRECIO|
 |PRECIODISCO|
@@ -405,7 +405,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |CORRECTO|
 |DERECHAB|
 |ROMANO|
-|REDONDO|
+|RONDA|
 |REDONDEAR A LA BAJA|
 |REDONDEO|
 |FILA|
@@ -420,16 +420,16 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |SEGUNDO|
 |SECUENCIA|
 |SERIESUMA|
-|SÁBANA|
+|HOJA|
 |HOJAS|
-|SEÑAL|
+|SIGNO|
 |PECADO|
 |SINH|
 |SESGAR|
 |SLN|
 |PENDIENTE|
 |PEQUEÑA|
-|CLASIFICAR|
+|TIPO|
 |ORDENAR POR|
 |SQRT|
 |SQRTPI|
@@ -468,11 +468,11 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 |DISTR.T|
 |TEXTO|
 |TEXTO UNIRSE|
-|TIEMPO|
+|HORA|
 |VALOR DEL TIEMPO|
 |T.INV.2T|
 |TINV|
-|ESTE DIA|
+|HOY|
 |TRANSPONER|
 |TENDENCIA|
 |RECORTAR|

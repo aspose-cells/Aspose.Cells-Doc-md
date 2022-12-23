@@ -18,28 +18,28 @@ url: /tr/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-46026|cellModifiedOnAjax - Aspose.Cells.GridWeb'de ek hücre değişikliğini destekleyin|Yeni özellik|
 |CELLSNET-46013|HTML olarak kaydederken yer paylaşımlı içeriği gizleyen yeni çapraz tip|Artırma|
 |CELLSNET-45965|Geriye dönüştürme sırasında standart LINK öğesini işleyebilme|Artırma|
-|CELLSNET-46032|Excel dosyası boşken tek sayfa boş PDF oluşturma|Artırma|
-|CELLSNET-46027|Excel'den PDF'e dönüştürme - Üstbilgi/altbilgi sorunu|Artırma|
+|CELLSNET-46032|Excel dosyası boşken tek sayfa boş oluşturma PDF|Artırma|
+|CELLSNET-46027|Excel'den PDF'e oluşturma - Üstbilgi/altbilgi sorunu|Artırma|
 |CELLSNET-45970|Bir sütunu otomatik sığdırırken, Aspose.Cells, hücre metin kaydırıldığında satır yüksekliğini dikkate almaz|Artırma|
 |CELLSNET-44985|Metni kaydırarak sütunları otomatik sığdırma işlemiyle ilgili sorun|Artırma|
 |CELLSNET-42701|AutoFitColumns' kaydırma metni sorunu|Artırma|
-|CELLSNET-46005|Çıktı PDF dosya biçimindeki farklı sayfalar için ters yazılan yazılar|Böcek|
+|CELLSNET-46005|Çıktı PDF dosya biçimindeki farklı sayfalar için yazılar tersine çevrildi|Böcek|
 |CELLSNET-45958|XLSX'i HTML olarak kaydederken yanlış biçimlendirme|Böcek|
 |CELLSNET-45907|Grafiğin oluşturulmasında eksik değerler|Böcek|
-|CELLSNET-46034|PivotTable'ları (veri kaynağı harici olan) XLS dosya biçiminden kaldıramaz|Böcek|
+|CELLSNET-46034|PivotTable'lar (veri kaynağı harici olan) XLS dosya biçiminden kaldırılamaz|Böcek|
 |CELLSNET-46016|PivotTable yenilendikten sonra Excel dosyası bozuluyor|Böcek|
 |CELLSNET-45988|"Sample2.xlsx" içindeki Pivot Tablonun yenilenmesi bozuk Excel dosyası oluşturuyor|Böcek|
 |CELLSNET-46011|Workbook.Calculation, F155 hücresi için yanlış değer veriyor|Böcek|
 |CELLSNET-46001|DateTime işlevleri hesaplanırken DateTime değerlerinin yanlış değerlendirilmesi|Böcek|
 |CELLSNET-46000|Hücrelere sığacak şekilde küçült, oluşturulan görüntüde metnin normalden biraz daha küçük olmasını sağladı|Böcek|
 |CELLSNET-45998|Kenar boşlukları, tüm kenar boşlukları sıfıra ayarlandığında ve OnePagePerSheet doğru olarak ayarlandığında hala oradadır.|Böcek|
-|CELLSNET-45990|PDF çıktısı, optimizasyon türüne göre değişir|Böcek|
+|CELLSNET-45990|PDF çıktı, optimizasyon türüne göre değişir|Böcek|
 |CELLSNET-46053|Şablon dosyasındaki grafiği hesaplarken "Giriş dizesi doğru biçimde değildi"|Böcek|
 |CELLSNET-46029|Özel veri filtrelemeyle ilgili sorunlar|Böcek|
 |CELLSNET-46024|Eğik çizgi ile OriginalDataSource kaydetme sırasında ters eğik çizgi olarak değiştirildi|Böcek|
 |CELLSNET-46018|OTS dosyası kaydedilirken resimler ve diyagramlar eksik|Böcek|
 |CELLSNET-46003|ActiveX ComboBox'taki ListFillRange güncellenmiyor|Böcek|
-|CELLSNET-46002|Sayfa başlığı satırları, çıktı PDF'sinde yalnızca ilk sayfada görüntülenir|Böcek|
+|CELLSNET-46002|PDF çıktısında sayfa başlığı satırları yalnızca ilk sayfada görüntülenir|Böcek|
 |CELLSNET-45996|A30'da Hata - Yeni satırlar kaldırıldı|Böcek|
 |CELLSNET-45995|C32'deki Hata - Beyaz boşluk kaldırıldı|Böcek|
 |CELLSNET-45968|Workbook.CalculateFormula değiştirildi "#REF!" adına?"|Böcek|
@@ -53,13 +53,13 @@ url: /tr/net/aspose-cells-for-net-18-4-release-notes/
 |CELLSNET-45991|Alt satıra kaydırmak ve grup düğmesine tıklamak satırları daraltmaz|Böcek|
 |CELLSNET-45919|Bir Excel dosyası içe aktarılırken kontroller (seçenek düğmeleri ve kaydırma çubukları) oluşturulmaz|Böcek|
 |CELLSNET-45975|Cells, L10:L12 aralığında birleştirilemez|İstisna|
-|CELLSNET-46008|Dosyada geçersiz dize - XLS dosyası açılırken istisna oluşuyor|İstisna|
-|CELLSNET-46004|Bir XLSX dosyası açılırken "Giriş dizesi doğru biçimde değildi" istisnası|İstisna|
-|CELLSNET-45992|Aspose.Cells 18.2: Belirli bir XLS dosyasının açılması ArgumentOutOfRangeException'a neden oluyor|İstisna|
+|CELLSNET-46008|Dosyada geçersiz dize - XLS dosyasını açarken istisna oluşuyor|İstisna|
+|CELLSNET-46004|XLSX dosyası açılırken "Giriş dizesi doğru biçimde değildi" istisnası|İstisna|
+|CELLSNET-45992|Aspose.Cells 18.2: Belirli XLS dosyasının açılması ArgumentOutOfRangeException'a neden oluyor|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **HtmlCrossType enum için yeni öğe "CrossHideRight" ekler**
-HTML çapraz dizesini görüntüler ve metin üst üste bindiğinde doğru dizeyi gizler.
+HTML çapraz dizeyi görüntüler ve metin üst üste geldiğinde sağ diziyi gizler.
 #### **LoadFormat, SaveFormat ve FileFormatType numaralandırmaları için yeni öğe "TSV" ekler**
 "TabDelimited" ile aynı olan bir TSV(Sekmeyle ayrılmış değerler) dosyasını temsil eder.
 #### **Enum ImageType ekler**
@@ -85,8 +85,8 @@ Grafik noktasının Y değer türünü alır.
 #### **Enum PageLayoutAlignmentType ekler**
 Sayfa düzeni hizalama türlerini temsil eder.
 #### **Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) yöntemini ekler**
-Grafiğin PDF'sini istenen sayfa boyutuyla oluşturur ve bir akışa kaydeder.
+Grafiğin PDF'ini istenen sayfa boyutuyla oluşturur ve bir akışa kaydeder.
 #### **Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType) yöntemini ekler**
-Grafiğin PDF'sini istenen sayfa boyutunda oluşturur ve bir dosyaya kaydeder.
+Grafiğin PDF'ini istenen sayfa boyutunda oluşturur ve bir dosyaya kaydeder.
 #### **PdfSaveOptions.OutputBlankPageWhenNothingToPrint özelliği ekler**
 Yazdırılacak bir şey olmadığında boş bir sayfa çıktısı alınıp alınmayacağını belirtir.

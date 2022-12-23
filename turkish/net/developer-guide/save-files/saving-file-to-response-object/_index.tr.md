@@ -23,20 +23,20 @@ Aspose.Cells, dosyaları değiştirmeyi mümkün kılar. Bu makalede, dosyaları
 
 Numaralandırma, aşağıdaki önceden tanımlanmış kaydetme türlerini içerir:
 
-|**Tip**|**Tanım**|
+|**Tip**|**Açıklama**|
 |:- |:- |
 |Ek|Elektronik tabloyu tarayıcıya gönderir ve bir uygulamada .xls/.xlsx veya diğer uzantılarla ilişkili bir ek olarak açılır.|
 |Çizgide|Belgeyi tarayıcıya gönderir ve elektronik tabloyu diske kaydetme veya tarayıcıda açma seçeneği sunar|
 
-### **XLS Dosyaları**
+### **XLS Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSFile-1.cs" >}}
 
-### **XLSX Dosyaları**
+### **XLSX Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveXLSXFile-1.cs" >}}
 
-### **PDF Dosyaları**
+### **PDF Dosyalar**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveInPdfFormat-1.cs" >}}
 

@@ -12,18 +12,18 @@ Bu sayfa Aspose.Cells for Java 19.12 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-43047|HTML'de dışa aktarmak için hücreye araç ipucu metni ekleme|Yeni özellik|
+|CELLSJAVA-43047|HTML'de dışa aktarma için hücreye araç ipucu metni ekleme|Yeni özellik|
 |CELLSJAVA-43002|XSLB açılırken ZipOutputStream'de beklenmeyen CPU etkin noktası|Artırma|
 |CELLSJAVA-43008|Bir çalışma kitabını açarken OLE nesnesini yüklemeyi devre dışı bırakma seçeneği|Artırma|
-|CELLSJAVA-42793|ODS'den XLSX'e dönüştürme sırasında Fontwork SmartArt nesnesi kayboldu|Böcek|
+|CELLSJAVA-42793|Fontwork SmartArt nesnesi, ODS'den XLSX'e dönüştürme sırasında kayboldu|Böcek|
 |CELLSJAVA-43020|Chart.Calcluate() çağrıldıktan sonra radyal grafik bozuk|Böcek|
 |CELLSJAVA-43022|XLS dosyaları için Şekilden Görüntüye Hata|Böcek|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false), getFormula() çağrılırken istenmeyen sonuçlara neden oluyor|Böcek|
 |CELLSJAVA-43052|Boole değerleri için doğrulama sorunu|Böcek|
-|CELLSJAVA-43054|Portekiz ayarlarında CSV Birleştirme ile ilgili sorun|Böcek|
+|CELLSJAVA-43054|Portekizce ayarlarında CSV Merge ile ilgili sorun|Böcek|
 |CELLSJAVA-43056|Cell.setFormula() harici bağlantılar için güncellenmiyor|Böcek|
 |CELLSJAVA-42767|Excel'den PDF'e dönüştürme sırasında görüntü kaçırıldı|Böcek|
-|CELLSJAVA-42913|Gömülü Visio nesneleri PDF'ye yanlış işlendi|Böcek|
+|CELLSJAVA-42913|Katıştırılmış Visio nesneleri, PDF'e yanlış işlendi|Böcek|
 |CELLSJAVA-42883|Aspose.Cells for Java 95 biçimli dosyadan grafik metni çıkarma sorunu|Böcek|
 |CELLSJAVA-42931|Ekler/Nesneler Excel95'ten getirilmedi|Böcek|
 |CELLSJAVA-43051|Resim için en boy oranı korunmadı|Böcek|
@@ -73,7 +73,7 @@ Sarılmış metnin otomatik sığdırma türünü alır ve ayarlar.
 ### **EmfRenderSetting sınıfını ekler**
 EMF meta dosyasını işlemek için ayarlar.
 ### **PdfSaveOptions.EmfRenderSetting özelliğini ekler**
-PDF dosyasına işlerken EMF meta dosyasını işlemek için ayarlar.
+PDF dosyasına işlenirken EMF meta dosyasının işlenmesi için ayarlar.
 ### **ShapeCollection.AddSvg() yöntemini ekler**
 svg görüntüsü ekler.
 ### **WorkbookSettings.QuotePrefixToStyle özelliği ekler**

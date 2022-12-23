@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-5-0-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 增强功能
 
@@ -26,7 +26,7 @@ url: /zh/net/aspose-cells-for-net-7-5-0-release-notes/
 
 41710 - 一个字符变成问号
 
-41614 - PDF 不显示过滤的项目
+41614 - PDF 不显示筛选的项目
 
 41695 - 图表图例位置错误
 

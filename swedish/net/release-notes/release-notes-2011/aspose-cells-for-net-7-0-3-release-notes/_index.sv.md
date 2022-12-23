@@ -18,9 +18,9 @@ Aspose.Cells
 
  24953 Stöd MS Excels avancerade villkorliga formatering i den genererade PDF-filen
 
- 30020 Support Cell Gradientfärg som inte är korrekt inställd vid konvertering till PDF-dokument
+ 30020 Support Cell Gradientfärg som inte är korrekt inställd vid konvertering till PDF dokument
 
-40010 Avmarkera Kategorietiketter på flera nivåer medan du formaterar diagrammets axel
+ 40010 Avmarkera Kategorietiketter på flera nivåer medan du formaterar diagrammets axel
 
  Förbättringar
 
@@ -32,7 +32,7 @@ Aspose.Cells
 
  40080 Förbättring - Excel95 - Excel 2003-fil
 
- 40081 Fel vid kontroll av alternativ som inte fungerar med XLSM-filer
+ 40081 Fel vid kontroll av alternativen fungerar inte med XLSM-filer
 
 
 
@@ -46,13 +46,13 @@ Aspose.Cells
 
  40060 Ogiltig borsttyp vid konvertering av Excel-arbetsbok till XPS
 
- 40061 StackOverflow på att anropa metoden WorksheetCollection.GetNamedRanges()
+40061 StackOverflow på att anropa metoden WorksheetCollection.GetNamedRanges()
 
  Prestanda
 
  31266 XLS till PDF eller XPS tar så mycket tid
 
- 40053 Excel-till-PDF-prestanda minskar när antalet kalkylblad ökar
+ 40053 Excel-to- PDF Prestanda minskar när antalet kalkylblad ökar
 
  Buggar
 
@@ -60,17 +60,17 @@ Aspose.Cells
 
  30224 Diagrambilder matchar inte Excels diagram
 
-30651 Cell.SetStyle(Style style, bool explicitFlag) fungerar inte som förväntat
+ 30651 Cell.SetStyle(Style style, bool explicitFlag) fungerar inte som förväntat
 
  31334 BuiltInDocumentProperties.HyperlinkBase kan inte läsas eller ställas in
 
- 40009 Öppnande av XLSM-filproblem
+ 40009 Öppnar XLSM filproblem
 
  40012 Stilen ändrades efter att ha sammanfogat eller lagt till kopieringsarket i arbetsboken
 
  40013 RowField Subtotal – formateringsproblem
 
- 40014 Att öppna och spara XLSM-filen kastar bort makron och band
+ 40014 Att öppna och spara XLSM fil kastar bort makron och band
 
  40016 Fel när Excel-filer sparas
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 Matrisformelreferenser uppdateras inte när en rad eller kolumn tas bort
 
- 40065 Negativt bigInt-problem
+40065 Negativt bigInt-problem
 
  40073 Aspose.Cells Parametrar för smarta markörer
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Nya egenskaper
 
-29869 Support Villkorlig formatering (endast Excel 2003-stilar stöds (för närvarande))
+ 29869 Support Villkorlig formatering (endast Excel 2003-stilar stöds (för närvarande))
 
  Buggar
 

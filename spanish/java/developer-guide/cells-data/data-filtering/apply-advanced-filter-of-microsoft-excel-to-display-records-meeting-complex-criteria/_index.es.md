@@ -5,7 +5,7 @@ weight: 190
 url: /es/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/
 ---
 ## **Posibles escenarios de uso**
- Microsoft Excel le permite aplicar*Filtro avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplen criterios complejos. Puede aplicar Filtro avanzado con Microsoft Excel a través de su*Datos > Avanzado*comando como se muestra en esta captura de pantalla.
+ Microsoft Excel te permite aplicar*Filtro avanzado* en los datos de la hoja de cálculo para mostrar registros que cumplen criterios complejos. Puede aplicar Filtro avanzado con Microsoft Excel a través de su*Datos > Avanzado*comando como se muestra en esta captura de pantalla.
 
 ![todo:imagen_alternativa_texto](apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria_1.png)
 

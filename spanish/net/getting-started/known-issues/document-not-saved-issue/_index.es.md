@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /es/net/document-not-saved-issue/
 ---
-## **Tema**
+## **Asunto**
 Tengo un problema extraño con una hoja de cálculo que creé con su control. Se abre y edita muy bien en Excel, pero cuando trato de realizar un Guardar o Guardar como, aparece un cuadro de mensaje "Documento no guardado".
 ### **Resumen de asuntos**
  Este es un error de Excel:

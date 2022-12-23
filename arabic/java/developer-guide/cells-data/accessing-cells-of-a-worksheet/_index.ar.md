@@ -50,7 +50,7 @@ Aspose.Cells يسمح للمطورين بالوصول إلى أقصى نطاق �
 
 ![ما يجب القيام به: image_بديل_نص](accessing-cells-of-a-worksheet_1.png)
 
- يوضح نموذج التعليمات البرمجية التالي كيفية الوصول إلى ملف[MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)منشأه. يولد الكود الناتج التالي.
+ يوضح نموذج التعليمات البرمجية التالي كيفية الوصول إلى ملف[MaxDisplayRange](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDisplayRange)خاصية. يولد الكود الناتج التالي.
 
 {{< highlight "java" >}}
 

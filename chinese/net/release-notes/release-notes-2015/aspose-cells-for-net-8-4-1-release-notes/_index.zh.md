@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-4-1-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-42514) - 设置 SQL 数据连接
@@ -32,13 +32,13 @@ url: /zh/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **虫子**
 
 
-(CELLSNET-43475) - HTML 中的数据透视表数据视图不相关
+(CELLSNET-43475) - 数据透视表在 HTML 中的数据视图不相关
 
-(CELLSNET-43474) - 呈现为 HTML 时数据透视表不刷新
+(CELLSNET-43474) - 渲染到 HTML 时数据透视表不刷新
 
 (CELLSNET-43473) - 报告过滤器选择更改
 
-(CELLSNET-43450) - 将电子表格转换为 HTML 时 HTML 呈现不正确
+(CELLSNET-43450) - 将电子表格转换为 HTML 时 HTML 的呈现不正确
 
 (CELLSNET-43428) - 组标题中的数据透视表单元格样式不正确
 
@@ -50,15 +50,15 @@ url: /zh/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43340) - 重新保存 XLS 电子表格会使结果损坏
 
-(CELLSNET-43545) - 日期与呈现的 PDF 文件格式中左页脚中的文本重叠
+(CELLSNET-43545) - 在呈现的 PDF 文件格式中，日期与左页脚中的文本重叠
 
 (CELLSNET-43543) - 最后一个单元格的双单元格边框打印不正确
 
-(CELLSNET-43541) - 转换为 PDF 时缺少表格标题边框
+(CELLSNET-43541) - 转换为 PDF 时缺少表头边框
 
 (CELLSNET-43516) - Aspose 不打印空白页
 
-(CELLSNET-43508) - 电子表格到 PDF 生成空白 PDF
+(CELLSNET-43508) - PDF 的电子表格生成空白 PDF
 
  (CELLSNET-43507) - 输出 PDF 文件中的图像像素略有下降
 
@@ -96,7 +96,7 @@ url: /zh/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-42854) - x 轴不显示半数行和文本
 
-(CELLSNET-42614) - 导出为 PDF 的图表有额外的线条
+(CELLSNET-42614) - 导出到 PDF 的图表有额外的线条
 
 (CELLSNET-40984) - 我有一个 0byte 图像 - Shape2Image 错误
 
@@ -126,7 +126,7 @@ url: /zh/net/aspose-cells-for-net-8-4-1-release-notes/
 ## **例外情况**
 
 
-(CELLSNET-43304) - 将 MHTML 文件加载到工作簿实例时出现 System.ArgumentException
+(CELLSNET-43304) - 将 MHTML 文件加载到工作簿实例时发生 System.ArgumentException
 
  (CELLSNET-43503) - 在 Workbook.Save 观察到 System.NullReferenceException
 

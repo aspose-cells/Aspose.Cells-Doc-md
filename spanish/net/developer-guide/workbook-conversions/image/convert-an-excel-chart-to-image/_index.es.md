@@ -8,7 +8,7 @@ url: /es/net/convert-an-excel-chart-to-image/
 
 Los gráficos son visualmente atractivos y facilitan que los usuarios vean comparaciones, patrones y tendencias en los datos. Por ejemplo, en lugar de analizar columnas de números de hojas de trabajo, un gráfico muestra de un vistazo si las ventas están cayendo o subiendo, o cómo se comparan las ventas reales con las ventas proyectadas. Con frecuencia se pide a las personas que presenten información estadística y gráfica de una manera fácil de entender y de mantener. Una imagen ayuda.
 
-A veces, se necesitan gráficos en una aplicación o páginas web. O puede ser necesario para un documento de Word, un archivo PDF, una presentación PowerPoint o alguna otra aplicación. En cada caso, desea representar el gráfico como una imagen para poder usarlo en cualquier otro lugar.
+A veces, se necesitan gráficos en una aplicación o páginas web. O podría ser necesario para un documento de Word, un archivo PDF, una presentación PowerPoint o alguna otra aplicación. En cada caso, desea representar el gráfico como una imagen para poder usarlo en cualquier otro lugar.
 
 {{% /alert %}}
 

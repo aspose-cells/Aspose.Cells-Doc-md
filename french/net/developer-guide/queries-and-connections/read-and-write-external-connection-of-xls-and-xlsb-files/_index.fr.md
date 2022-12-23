@@ -1,12 +1,12 @@
 ﻿---
-title: Lire et écrire une connexion externe de fichiers XLS et XLSB
+title: Lire et écrire la connexion externe des fichiers XLS et XLSB
 type: docs
 weight: 80
 url: /fr/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells prend déjà en charge la connexion externe en lecture et en écriture du fichier XLSX, mais désormais, il prend également en charge cette fonctionnalité pour les fichiers XLSB et XLS. Cependant, le code est le même pour tous les types de formats.
+Aspose.Cells prend déjà en charge la connexion externe en lecture et en écriture du fichier XLSX mais maintenant, il prend également en charge cette fonctionnalité pour les fichiers XLSB et XLS. Cependant, le code est le même pour tous les types de formats.
 
 ## **Lire et écrire la connexion externe du fichier XLS/XLSB**
 

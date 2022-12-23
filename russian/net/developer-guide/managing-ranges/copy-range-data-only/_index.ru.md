@@ -16,7 +16,7 @@ url: /ru/net/copy-range-data-only/
 
 1. Создайте рабочую книгу.
 1. Добавьте данные в ячейки на первом листе.
-1.  Создать[**Диапазон**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1.  Создать[**Спектр**](https://reference.aspose.com/cells/net/aspose.cells/range).
 1.  Создать[**Стиль**](https://reference.aspose.com/cells/net/aspose.cells/style) объект с указанными атрибутами форматирования.
 1. Примените форматирование стиля к диапазону.
 1. Создайте еще один диапазон ячеек.

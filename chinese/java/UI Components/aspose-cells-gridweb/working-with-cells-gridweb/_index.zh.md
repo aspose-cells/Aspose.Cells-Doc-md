@@ -75,7 +75,7 @@ Aspose.Cells.GridWeb 提供的最有价值的功能是支持公式或函数。 A
 
 **公式添加到 B3 单元格但未由 GridWeb 计算** 
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_1.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_1.png)
 
 在上面的截图中，可以看到B3中已经添加了一个公式，但是还没有进行计算。要计算所有公式，请在将公式添加到工作表后调用 GridWeb 控件的 GridWorksheetCollection 的 calculateFormula 方法，如下所示。
 
@@ -87,13 +87,13 @@ Aspose.Cells.GridWeb 提供的最有价值的功能是支持公式或函数。 A
 
 **单击 GridWeb 的提交按钮** 
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_2.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_2.png)
 
-**重要的**：如果用户点击**节省**或者**撤消**按钮或工作表选项卡，所有公式均由 GridWeb 自动计算。
+**重要的**：如果用户点击**救球**要么**撤消**按钮或工作表选项卡，所有公式均由 GridWeb 自动计算。
 
 **计算后的公式结果** 
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_3.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_3.png)
 ### **从其他工作表中引用 Cells**
 使用 Aspose.Cells.GridWeb，可以在其公式中引用存储在不同工作表中的值，从而创建复杂的公式。
 
@@ -105,7 +105,7 @@ Aspose.Cells.GridWeb 允许您添加**数据验证**使用 GridWorksheet.getVali
 
 下面的示例代码创建一个**数据验证**在单元格 B3 中。如果您输入任何不在 20 到 40 之间的值，单元格 B3 将显示**验证错误**形式为**红色 XXXX**如这个屏幕截图所示。
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_4.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_4.png)
 
 
 
@@ -115,11 +115,11 @@ Aspose.Cells.GridWeb 包含特殊按钮，如提交、保存和撤消。所有�
 
 以下示例代码解释了如何创建自定义命令按钮以及如何处理其单击事件。您可以为自定义命令按钮使用任何图标。出于说明目的，我们使用了这个图像图标。
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_5.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_5.png)
 
 正如您在下面的屏幕截图中看到的，当用户单击自定义命令按钮时，它会在单元格 A1 中添加一个文本说**“单击了我的自定义命令按钮。”**
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_6.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_6.png)
 
 
 
@@ -142,6 +142,6 @@ GridWeb 现在支持用户以百分比格式输入单元格数据，如 3%，单
 ### **以百分比格式输入 Cell GridWeb 工作表数据**
 以下示例代码将单元格 A1 GridTableItemStyle.NumberType 设置为 10，因此输入数据 3% 会自动格式化为 3.00%，如屏幕截图所示。
 
-![待办事项：图像_替代_文本](working-with-cells-gridweb_7.png)
+![待办事项：图片_替代_文本](working-with-cells-gridweb_7.png)
 ### **示例代码**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-cells-EnterCellDataofGridWebWorksheet-EnterCellDataofGridWebWorksheet.jsp" >}}

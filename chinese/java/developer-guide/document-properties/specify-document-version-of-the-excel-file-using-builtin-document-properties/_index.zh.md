@@ -12,7 +12,7 @@ url: /zh/java/specify-document-version-of-the-excel-file-using-builtin-document-
 
 以下示例代码创建一个工作簿并更改其内置文档属性，其中包括*标题*, *作者*和*版本号*.请参阅[输出Excel文件](64716836.xlsx)由显示修改后的代码和屏幕截图生成*版本号*经过[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#DocumentVersion)财产。
 
-![待办事项：图像_替代_文本](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
+![待办事项：图片_替代_文本](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 
 ## **示例代码**
 

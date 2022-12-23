@@ -15,13 +15,13 @@ url: /zh/java/aspose-cells-for-java-17-5-release-notes/
 |CELLSJAVA-41130|更改数据透视表预定义词的语言|强化|
 |CELLSJAVA-42272|在 Excel 单元格中嵌入超链接的选项|强化|
 |CELLSJAVA-42283|当过滤器存在于命名范围之外时发生 NullPointerException|漏洞|
-|CELLSJAVA-42282|复制工作表会取消隐藏输出 HTML 文件中的过滤行|漏洞|
+|CELLSJAVA-42282|复制工作表会取消隐藏输出 HTML 文件中的筛选行|漏洞|
 |CELLSJAVA-42276|内容在非 IE 浏览器（例如 Google chrome）中显示不同（某些文本丢失）- Excel 到 HTML 呈现|漏洞|
 |CELLSJAVA-42247|在电子表格中刷新数据透视表时条件格式丢失|漏洞|
 |CELLSJAVA-42257|条件格式样式已损坏|漏洞|
 |CELLSJAVA-42202|Excel 公式无法正常工作 - 它显示为 6 而不是 0|漏洞|
 |CELLSJAVA-42286|保存带有图形的 XLS 文件使用 100% CPU|漏洞|
-|CELLSJAVA-42251|标题被输出 PDF 中的趋势标签遮盖|漏洞|
+|CELLSJAVA-42251|标题被输出中的趋势标签遮盖了 PDF|漏洞|
 |CELLSJAVA-42284|Workbook.getFonts() 在重新加载同一个电子表格后显示其他字体|漏洞|
 |CELLSJAVA-42281|合并/复制到 Excel 工作表 - 单元格开头的空格未保留|漏洞|
 |CELLSJAVA-42280|文件中的字符串无效 - 打开 Excel 文件时出错|漏洞|

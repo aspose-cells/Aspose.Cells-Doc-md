@@ -177,7 +177,7 @@ Die folgenden Aktiencharts werden in Aspose.Cells unterstützt:
 - Open-High-Low-Close-Aktiendiagramm
 - Volumen-Hoch-Tief-Schließen-Aktiendiagramm
 - Volumen-Open-High-Low-Close-Aktienchart
-#### **Zylinderdiagramme**
+#### **Zylindertabellen**
 Diese Diagrammtypen verwenden Zylinderdatenmarkierungen, um Säulen-, Balken- und 3D-Säulendiagrammen einen dramatischen Effekt zu verleihen.
 
 **Zylinderdiagramme werden in Microsoft Excel unterstützt** 

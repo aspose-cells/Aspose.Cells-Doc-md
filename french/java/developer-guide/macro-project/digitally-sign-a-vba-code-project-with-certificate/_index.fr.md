@@ -17,7 +17,7 @@ url: /fr/java/digitally-sign-a-vba-code-project-with-certificate/
 
 ## **Signer numériquement un projet de code VBA avec certificat en C#**
 
- L'exemple de code suivant illustre l'utilisation de[**Classeur.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)) méthode. Voici les fichiers d'entrée et de sortie de l'exemple de code. Vous pouvez utiliser n'importe quel fichier Excel et n'importe quel certificat pour tester ce code.
+ L'exemple de code suivant illustre l'utilisation de[**Classeur.VbaProject.Sign()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#sign(com.aspose.cells.DigitalSignature)méthode. Voici les fichiers d'entrée et de sortie de l'exemple de code. Vous pouvez utiliser n'importe quel fichier Excel et n'importe quel certificat pour tester ce code.
 
 - [Fichier source Excel](5115028.xlsm) utilisé dans l'exemple de code.
 - [Exemple de fichier pfx](5115039.pfx) pour créer une signature numérique. Veuillez l'installer sur votre ordinateur pour exécuter ce code. Son mot de passe est 1234.

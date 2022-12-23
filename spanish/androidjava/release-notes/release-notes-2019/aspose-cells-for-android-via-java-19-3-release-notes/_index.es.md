@@ -20,23 +20,23 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42823|El uso de FontUnderlineType.WORDS arroja una excepción|Mejora|
 |CELLSJAVA-42846|Los resultados de extracción de texto difieren|Mejora|
 |CELLSANDROID-85|Problemas en la conversión de hoja a imagen con imágenes transparentes sobre otras imágenes|Insecto|
-|CELLSJAVA-42290|Mdashes y ndashes insertados en cuadros de texto en gráficos no se representan correctamente en el PDF del gráfico|Insecto|
+|CELLSJAVA-42290|Mdashes y ndashes insertados en TextBoxes en los gráficos no se representan correctamente en el gráfico PDF|Insecto|
 |CELLSJAVA-42750|No se pueden recuperar los elementos de los campos de página en el informe de tabla dinámica|Insecto|
-|CELLSJAVA-42783|Problema con texto tachado en formato de archivo HTML generado|Insecto|
-|CELLSJAVA-42784|Los datos en algunas celdas (p. ej., G7, H7, etc.) no se procesan de la misma manera que en el archivo original en la conversión de Excel a HTML/imagen|Insecto|
+|CELLSJAVA-42783|Problema con el texto tachado en el formato de archivo generado HTML|Insecto|
+|CELLSJAVA-42784|Los datos en algunas celdas (por ejemplo, G7, H7, etc.) no se representan de la misma manera que en el archivo original en Excel a HTML/conversión de imagen|Insecto|
 |CELLSJAVA-42797|Algunos estilos no se representan en la entrada HTML|Insecto|
 |CELLSJAVA-42807|El cálculo de la fórmula/función "ISOWEEKNUM" no es el mismo que el de MS Excel|Insecto|
-|CELLSJAVA-42794|ODS a XLSX: el color del texto cambió|Insecto|
+|CELLSJAVA-42794|ODS a XLSX - Color del texto cambiado|Insecto|
 |CELLSJAVA-42795|ODS a XLSX: la fuente tachada no se conserva correctamente|Insecto|
-|CELLSJAVA-42796|ODS a XLSX: las dimensiones del cuadro de texto cambiaron|Insecto|
+|CELLSJAVA-42796|ODS a XLSX: cambiaron las dimensiones del cuadro de texto|Insecto|
 |CELLSJAVA-42798|ODS -> XLSX: el hipervínculo funciona pero se muestra como texto sin formato|Insecto|
 |CELLSJAVA-42802|ODS a XLSX, los porcentajes se pierden en el gráfico de barras|Insecto|
 |CELLSJAVA-42803|El esquema "SummaryRowBelow" no se ve afectado al guardar como formato de archivo XLSB|Insecto|
-|CELLSJAVA-42826|Datos con formato condicional omitido durante la conversión de XLSX a HTML|Insecto|
+|CELLSJAVA-42826|Datos con formato condicional omitido durante la conversión XLSX a HTML|Insecto|
 |CELLSJAVA-42815|Agregar una referencia compleja al nombre definido da como resultado un libro de MS Excel corrupto|Insecto|
 |CELLSJAVA-42822|Cell.getValidationValue devuelve un valor incorrecto para el valor especificado|Insecto|
 |CELLSJAVA-42829|Nombre de la función personalizada dentro de las fórmulas compartidas reemplazada por otro nombre|Insecto|
-|CELLSJAVA-42824|Faltan los títulos de los ejes y otro formato es incorrecto en los gráficos de conversión de Excel a PDF/A|Insecto|
+|CELLSJAVA-42824|Faltan los títulos de los ejes y otro formato es incorrecto en los gráficos de Excel a la conversión PDF/A|Insecto|
 |CELLSJAVA-42814|Las flechas en la salida PNG no coinciden con las flechas en el gráfico de Excel|Insecto|
 |CELLSJAVA-42777|Se cambió la altura de las filas incorrectas al usar la operación de filas de ajuste automático|Insecto|
 |CELLSJAVA-42813|La configuración del libro de trabajo "ReCalculateOnOpen" no se conserva|Insecto|
@@ -44,11 +44,11 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-42817|El color de fondo de los cuadros de texto cambió inesperadamente|Insecto|
 |CELLSJAVA-42821|Al eliminar la primera fila de un rango, el rango se actualiza incorrectamente|Insecto|
 |CELLSJAVA-42828|Cuando se usa Cell.setHtmlString, se agrega una nueva línea al final del texto|Insecto|
-|CELLSJAVA-42844|El texto no está correctamente alineado en la salida de PDF|Insecto|
+|CELLSJAVA-42844|El texto no está correctamente alineado en la salida PDF|Insecto|
 |CELLSJAVA-42834|Cambia el color del texto negro a rojo|Insecto|
-|CELLSJAVA-42839|El gráfico de dispersión no se representa en la conversión de Excel a PDF|Insecto|
-|CELLSJAVA-42840|Las etiquetas del eje horizontal no se representan correctamente para los gráficos en la representación de Excel a PDF|Insecto|
-|CELLSJAVA-42842|El gráfico de burbujas 2D no se representa en la conversión de Excel a PDF|Insecto|
+|CELLSJAVA-42839|El gráfico de dispersión no se representa en Excel para la conversión PDF|Insecto|
+|CELLSJAVA-42840|Las etiquetas del eje horizontal no se representan correctamente para los gráficos en Excel para la representación PDF|Insecto|
+|CELLSJAVA-42842|El gráfico de burbujas 2D no se representa en Excel para la conversión PDF|Insecto|
 |CELLSJAVA-42833|Problema al incrustar el mismo archivo PDF en varias hojas de un libro de trabajo|Insecto|
 |CELLSJAVA-42836|Workbook.hasExernalLinks() no devuelve verdadero para enlaces DDE|Insecto|
 |CELLSJAVA-42848|Configuración de fuentes y otros objetos no copiados usando la función Range.copy()|Insecto|
@@ -109,7 +109,7 @@ Encapsula el objeto que representa un único modelo 3D en una hoja de cálculo.
 ### **Agrega la enumeración ImageType.Gltf**
 Representa el tipo de modelo 3D.
 ### **Cambios para la fuente predeterminada del archivo de plantilla XLS cargado**
-En versiones anteriores, no permitíamos aplicar la fuente definida en el tema (característica avanzada en MS Excel 2007 y versiones posteriores) según la región al cargar los archivos de plantilla XLS. Según los requisitos de algunos usuarios, lo admitimos desde v19.3. Si la región se ha especificado en el archivo de plantilla XLS, aplicaremos la fuente definida en el tema de acuerdo con el valor de la región especificada guardada. De lo contrario, aplicaremos la fuente definida en el tema según la configuración regional del entorno de la aplicación. Esto hará que cambie la fuente predeterminada del libro de trabajo (cargado desde el archivo de plantilla XLS que tiene datos de tema especificados) y luego influirá en otras características, como el ancho de columna, el tamaño de la forma, el efecto de representación, etc.
+En versiones anteriores, no permitíamos aplicar la fuente definida en el tema (característica avanzada en MS Excel 2007 y versiones posteriores) según la región al cargar los archivos de plantilla XLS. Según los requisitos de algunos usuarios, lo admitimos desde v19.3. Si la región se especificó en el archivo de plantilla XLS, aplicaremos la fuente definida en el tema de acuerdo con el valor de la región especificada guardada. De lo contrario, aplicaremos la fuente definida en el tema según la configuración regional del entorno de la aplicación. Esto hará que cambie la fuente predeterminada del libro de trabajo (cargado desde el archivo de plantilla XLS que tiene datos de tema especificados) y luego influirá en otras características, como el ancho de columna, el tamaño de la forma, el efecto de representación, etc.
 ### **Añade el método Name.GetReferredAreas(bool recalculate)**
 Proporciona las referencias referidas por el nombre definido como el método GetRanges(bool recalculate). Pero las referencias devueltas están representadas por el objeto RefererArea que proporciona características más ricas, incluidos los enlaces externos.
 ### **Agrega la propiedad TxtSaveOptions.KeepSeparatorsForBlankRow**

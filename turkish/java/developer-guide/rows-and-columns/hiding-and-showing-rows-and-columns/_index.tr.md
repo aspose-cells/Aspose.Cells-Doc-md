@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /tr/java/hiding-and-showing-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Bazen, kullanıcılar tarafından çalışma sayfasının belirli satırlarını veya sütunlarını gizlemek ve daha sonra bunları görüntülemek de gerekebilir. Microsoft Excel bu özelliği sağlar ve Aspose.Cells gibi.
 ## **Satırların ve Sütunların Görünürlüğünü Kontrol Etme**
  Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[Çalışma Sayfası Koleksiyonu](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)Excel dosyasındaki her çalışma sayfasına erişim sağlar. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf bir sağlar[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon. bu[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)[](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)koleksiyon, bir çalışma sayfasındaki satırları veya sütunları yönetmek için çeşitli yöntemler sağlar. Bunlardan bazıları aşağıda tartışılmaktadır.

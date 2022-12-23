@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.3 per Win
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-676| Ottimizza le prestazioni|Miglioramento|
 |CELLSCPP-709| Risolto il problema di libtcmalloc per Win32|Insetti|

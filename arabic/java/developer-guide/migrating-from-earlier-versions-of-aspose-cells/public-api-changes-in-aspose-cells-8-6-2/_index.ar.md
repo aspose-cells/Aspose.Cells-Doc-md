@@ -11,7 +11,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-6-2/
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
 ### **دعم معاودة الاتصال باستخدام العلامات الذكية**
-كشف هذا الإصدار من Aspose.Cells for Java API عن حقل WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح معًا[الحصول على إشعارات حول مرجع الخلية و / أو العلامة الذكية قيد المعالجة](/cells/ar/java/getting-notifications-while-merging-data-with-smart-markers/) . يوضح الجزء التالي من التعليمات البرمجية استخدام واجهة ISmartMarkerCallBack لتحديد فئة جديدة تتعامل مع استدعاء طريقة WorkbookDesigner.process.
+ كشف هذا الإصدار من Aspose.Cells for Java API عن حقل WorkbookDesigner.CallBack وواجهة ISmartMarkerCallBack التي تسمح معًا[الحصول على إشعارات حول مرجع الخلية و / أو العلامة الذكية قيد المعالجة](/cells/ar/java/getting-notifications-while-merging-data-with-smart-markers/) . يوضح الجزء التالي من التعليمات البرمجية استخدام واجهة ISmartMarkerCallBack لتحديد فئة جديدة تتعامل مع استدعاء طريقة WorkbookDesigner.process.
 
 **Java**
 
@@ -83,7 +83,7 @@ report.process(false);
 
 {{< /highlight >}}
 ### **تمت إضافة طريقة Chart.toPdf**
-كشف Aspose.Cells for Java 8.6.2 طريقة Chart.toPdf التي يمكن استخدامها لعرض شكل المخطط مباشرة إلى تنسيق PDF. تقبل الطريقة المذكورة حاليًا معلمة من النوع String كموقع مسار الملف لتخزين الملف الناتج على القرص.
+كشف Aspose.Cells for Java 8.6.2 طريقة Chart.toPdf التي يمكن استخدامها لتقديم شكل المخطط مباشرة إلى تنسيق PDF. تقبل الطريقة المذكورة حاليًا معلمة من النوع String كموقع مسار الملف لتخزين الملف الناتج على القرص.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

@@ -7,11 +7,11 @@ url: /tr/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Excel Elektronik Tablo Yönetimi Kitaplığı**
 ### **Belge Özellikleri**
 - Farklı kaynaklardan düz veya şifreli Microsft Excel dosyalarını (Excel97 - Excel2007/2010/2013) açın.
-- Excel dosyalarını (Excel 97 - Excel2007/2010/2013) farklı biçimlerde (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Sekmeyle Ayrılmış, TSV, HTML vb.) kaydedin.
+- Excel dosyalarını (Excel 97 - Excel2007/2010/2013) farklı biçimlerde kaydedin (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, 4819, 3819)
 - Excel dosyasını PDF belgesine dönüştürün.
 - Excel elektronik tablosunu XPS belgesine dönüştürün.
-- Etiketli Görüntü Dosyası Biçimine (TIFF) dönüştürün.
-- OpenDocument Elektronik Tablosu (ODS) biçimini okuyun ve yazın.
+- Etiketli Görüntü Dosyası Formatına Dönüştür (TIFF).
+- OpenDocument Hesap Tablosu (ODS) biçimini okuyun ve yazın.
 - Excel dosyalarının belge özelliklerini değiştirin.
 ### **Çalışma Sayfası Özellikleri**
 #### **Görüntüleme seçenekleri**

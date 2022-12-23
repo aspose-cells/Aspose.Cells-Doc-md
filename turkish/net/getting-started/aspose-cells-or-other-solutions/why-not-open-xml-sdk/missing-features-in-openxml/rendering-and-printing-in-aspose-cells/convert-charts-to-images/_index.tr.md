@@ -5,7 +5,7 @@ weight: 10
 url: /tr/net/convert-charts-to-images/
 ---
 **Grafikler**görsel olarak çekicidir ve kullanıcıların verilerdeki karşılaştırmaları, kalıpları ve eğilimleri görmesini kolaylaştırır. Örneğin, çalışma sayfası numaralarından oluşan birkaç sütunu analiz etmek yerine, satışların üç aylık dönemler boyunca düşüp yükselmediğini veya gerçek satışların öngörülen satışlarla nasıl karşılaştırıldığını bir bakışta görebilirsiniz.Bazen, grafiği sunmanız gerekir. uygulamalarınızda veya web sayfalarınızda. Bunu bir Word Belgesine, bir PDF dosyasına, bir Power Point Sunumuna veya başka bir senaryoya eklemeniz gerekebilir. Basitçe, grafiğin bir resim olarak işlenmesini istiyorsunuz, böylece onu uygulamalarınıza kolaylıkla yapıştırabilirsiniz. Bir Resim değerlidir. Sıklıkla, iş sırasında, istatistiksel ve grafiksel bilgilerin anlaşılması ve bakımı kolay bir şekilde sunulması gerekir. Ofis Otomasyonu'nu deneyebilirsiniz, ancak Ofis otomasyonunun kendi dezavantajları vardır. İlgili birkaç neden ve sorun vardır: Örneğin, Güvenlik, Kararlılık, Ölçeklenebilirlik/Hız, Fiyat, Özellikler vb. Office'in sunucu tarafı Otomasyonu. Bir Excel Grafiği'ni kullanarak bir görüntüye dönüştürmek için kullanabileceğiniz başka bir seçenek daha vardır.**Aspose.Cells**.
-## **Grafiği EMF'ye Dönüştürme**
+## **Grafiği EMF'e Dönüştürme**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -64,7 +64,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Grafiği BMP'ye Dönüştürme**
+## **Grafiği BMP'e Dönüştürme**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -181,7 +181,7 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Grafiği PNG'ye Dönüştürme**
+## **Grafiği PNG'e Dönüştürme**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -299,7 +299,7 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Grafiği Çok Sayfalı TIFF'e Dönüştürme**
+## **Grafiği Çoklu Sayfaya Dönüştürme TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object

@@ -3,6 +3,7 @@ title: グリッド線と行の列ヘッダーの表示と非表示
 type: docs
 weight: 30
 url: /ja/net/show-and-hide-gridlines-and-row-column-headers/
+description: この記事では、C# API または .NET ライブラリを使用して、Excel ワークシートのグリッド線、行ヘッダー、列ヘッダーをプログラムで非表示または表示するためのサンプル コードを提供します。
 ---
 {{% alert color="primary" %}}
 

@@ -4,7 +4,7 @@ type: docs
 weight: 200
 url: /it/net/protecting-and-unprotecting-workbooks-in-vsto-and-aspose-cells/
 ---
-Per aprire un file Microsoft Excel esistente, proteggere la cartella di lavoro con la struttura e gli attributi di Windows e salvare il file.
+Per aprire un file Excel Microsoft esistente, proteggere la cartella di lavoro con la struttura e gli attributi Windows e salvare il file.
 
 Di seguito sono riportati frammenti di codice paralleli per VSTO (C#) e Aspose.Cells for .NET (C#) che mostrano come proteggere una cartella di lavoro.
 ## **VSTO**

@@ -6,11 +6,11 @@ url: /sv/net/excel-to-html-use-presentationpreference-option-for-better-layout/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells tillhandahåller en användbar HtmlSaveOptions.PresentationPreference-egenskap för utvecklare som behöver göra en bättre layout när de sparar en Microsoft Excel-fil i HTML- eller MHT-format. Standardvärdet för egenskapen är falskt. Vi rekommenderar att du ställer in den här egenskapen till sann för att få en mer attraktiv presentation av Excel-rapporter.
+Aspose.Cells tillhandahåller en användbar HtmlSaveOptions.PresentationPreference-egenskap för utvecklare som behöver göra en bättre layout när de sparar en Microsoft Excel-fil till HTML- eller MHT-format. Standardvärdet för egenskapen är falskt. Vi rekommenderar att du ställer in den här egenskapen till sann för att få en mer attraktiv presentation av Excel-rapporter.
 
 {{% /alert %}} 
 
-Se exempelkoden nedan som visar hur man renderar en HTML-fil från Excel-rapport med presentationsinställningar på.
+Se exempelkoden nedan som visar hur man renderar en HTML-fil från Excel-rapport med presentationspreferens på.
 
 
 

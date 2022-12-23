@@ -12,10 +12,10 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-40792|不为 ODS 文件创建数据透视表|新功能|
+|CELLSJAVA-40792|没有为 ODS 文件创建数据透视表|新功能|
 |CELLSJAVA-43221|加载 XLT 文件时出现异常“java.lang.NullPointerException”|强化|
 |CELLSJAVA-43222|加载 XLS 文件时出现异常“com.aspose.cells.CellsException：公式数据应该已损坏......”|强化|
-|CELLSJAVA-43223|加载 XLS 文件时出现异常“java.lang.IllegalStateException：无效编码：null”|强化|
+|CELLSJAVA-43223|加载 XLS 文件时出现异常“java.lang.IllegalStateException: Invalid encoding: null”|强化|
 |CELLSJAVA-43226|检索图片数据时出现异常“java.lang.ArrayIndexOutOfBoundsException”|强化|
 |CELLSJAVA-43234|未从数据透视表中读取 2014 年之前的数据|漏洞|
 |CELLSJAVA-43210|错误的值 #Value read by Aspose.Cells|漏洞|
@@ -23,13 +23,13 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43219|将公式引用添加到不同的工作表会导致 Excel 工作簿损坏|漏洞|
 |CELLSJAVA-43232|ROUNDUP 函数问题|漏洞|
 |CELLSJAVA-43243|更改相邻单元格的公式时无法检索公式|漏洞|
-|CELLSJAVA-43217|将 XLSX 打印到 XPS 会丢失背景格式|漏洞|
+|CELLSJAVA-43217|打印 XLSX 到 XPS 丢失背景格式|漏洞|
 |CELLSJAVA-43224|打印到物理打印机时出现问题|漏洞|
 |CELLSJAVA-43241|从 Excel 区域创建图像时的行高和边框问题|漏洞|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) 在使用 SmartMarkers 时未生成预期结果|漏洞|
 |CELLSJAVA-43213|Aspose.Cells 20.6 在 Office 365（版本 2005 内部版本 12827.20268）上无法正常使用表单控件|漏洞|
-|CELLSJAVA-43214|将 XLS 转换为 XLSX 时会生成损坏的 XLSX 文件|漏洞|
-|CELLSJAVA-43216|XLS 到 XLSX 转换 - 形状的字体粗体和位置发生变化|漏洞|
+|CELLSJAVA-43214|将 XLS 翻译为 XLSX 时，它会生成一个损坏的 XLSX 文件|漏洞|
+|CELLSJAVA-43216|XLS 到 XLSX 转换 - 形状的字体粗体和定位已更改|漏洞|
 |CELLSJAVA-43228|生成的 XLS 在受保护的视图中|漏洞|
 |CELLSJAVA-43231|替换后输出文件出错|漏洞|
 |CELLSJAVA-43242|在 Head 标签之外找到的样式标签之一|漏洞|
@@ -37,7 +37,7 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43240|将 Excel 转换为 PDF 时形状/对象中出现意外的换行符|漏洞|
 |CELLSJAVA-43255|Excel 到 PDF 转换的性能问题|漏洞|
 |CELLSJAVA-43250|展开的标签单元格不会合并到 SmartMarker 中|漏洞|
-|CELLSJAVA-43253|在 SmartArt 中替换文本后使用 OoxmlSaveOptions 保存文件将 XLS 转换为 XLSX|漏洞|
+|CELLSJAVA-43253|在 SmartArt 中替换文本后使用 OoxmlSaveOptions 保存文件会将 XLS 转换为 XLSX|漏洞|
 |CELLSJAVA-43263|设置单元格填充颜色和条件格式时的 SmartMarker 问题|漏洞|
 |CELLSJAVA-43269|无法从数据透视表中获取价值|漏洞|
 |CELLSJAVA-43272|设置宽度可缩放后图像缩小|漏洞|
@@ -49,14 +49,14 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43293|PivotTable.refreshData() 之后的过滤器选项问题|漏洞|
 |CELLSJAVA-43279|使用 getStringValue() 未正确获取值|漏洞|
 |CELLSJAVA-43291|网格内容不显示|漏洞|
-|CELLSJAVA-43037|PDF转换的字体问题|漏洞|
-|CELLSJAVA-43249|使用物理打印机、XPS 和 PDF 打印机时出现打印问题|漏洞|
+|CELLSJAVA-43037|PDF 转换时的字体问题|漏洞|
+|CELLSJAVA-43249|使用物理打印机 XPS 和 PDF 打印机时出现打印问题|漏洞|
 |CELLSJAVA-43254|将电子表格转换为图像时的字体差异|漏洞|
 |CELLSJAVA-43266|Java版本默认不支持从当前用户字体文件夹加载字体|漏洞|
-|CELLSJAVA-43268|Excel 到 TIFF 渲染 - 一些值被替换为“#”字符|漏洞|
+|CELLSJAVA-43268|Excel 到 TIFF 呈现 - 一些值被替换为“#”字符|漏洞|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException：ZipFile 错误|漏洞|
 |CELLSJAVA-43277|高宽比问题|漏洞|
-|CELLSJAVA-43245|将 Excel 文件转换为 PDF 后，组合图表无法正确显示|漏洞|
+|CELLSJAVA-43245|将 Excel 文件转换为 PDF 后组合图无法正确显示|漏洞|
 |CELLSJAVA-43276|将 XLSX 转换为 PDF 时出现换行问题|漏洞|
 |CELLSJAVA-43261|SmartMarker: group:merge with Number Format Percentage 时，展开结果错误|漏洞|
 |CELLSJAVA-43265|无法加载 XLSX 文件|漏洞|
@@ -233,7 +233,7 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 
 ### **废弃 Filter.Visibledropdown 属性。**
 
-利用**FilterColumn.IsDropdownVisible**反而。
+采用**FilterColumn.IsDropdownVisible**反而。
 
 ### **添加 CopyOptions.KeepMacros 属性。**
 
@@ -257,4 +257,4 @@ url: /zh/java/aspose-cells-for-android-via-java-20-9-release-notes/
 
 ### **添加 XlsbSaveOptions.ExportAllColumnIndexes 属性。**
 
-指示在保存 XLSB 文件时是否为所有单元格导出列索引。
+表示保存XLSB文件时是否导出所有单元格的列索引。

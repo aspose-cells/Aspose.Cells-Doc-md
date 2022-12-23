@@ -6,11 +6,11 @@ url: /de/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Aspose.Cells APIs haben die ausgesetzt[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse, um mit den Szenarien fertig zu werden, in denen der Benutzer benutzerdefinierte Beschriftungen für Zwischensummen in einer Tabelle verwenden möchte. Außerdem die[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse kann auch verwendet werden, um die zu ändern**Sonstiges** Bezeichnung für das Kreisdiagramm beim Rendern des Arbeitsblatts oder Diagramms.
+ Aspose.Cells APIs haben die ausgesetzt[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse, um mit den Szenarien fertig zu werden, in denen der Benutzer benutzerdefinierte Beschriftungen für Zwischensummen in einer Tabelle verwenden möchte. Außerdem die[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Klasse kann auch verwendet werden, um die zu ändern**Andere** Bezeichnung für das Kreisdiagramm beim Rendern des Arbeitsblatts oder Diagramms.
 
 ## **Einführung in die GlobalizationSettings-Klasse**
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Die Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die zu rendern**Sonstiges** Beschriftung eines Tortendiagramms.
+ Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) Die Klasse bietet derzeit die folgenden 3 Methoden, die in einer benutzerdefinierten Klasse überschrieben werden können, um gewünschte Beschriftungen für die Zwischensummen zu erhalten oder benutzerdefinierten Text für die zu rendern**Andere** Beschriftung eines Tortendiagramms.
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Ruft den Gesamtnamen der Funktion ab.
 1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Ruft den Gesamtsummennamen der Funktion ab.
@@ -18,7 +18,7 @@ url: /de/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Benutzerdefinierte Beschriftungen für Zwischensummen**
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) -Klasse kann zum Anpassen der Zwischensummenbeschriftungen verwendet werden, indem die Klasse überschrieben wird[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Methoden wie oben gezeigt.
+ Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)-Klasse kann zum Anpassen der Zwischensummenbeschriftungen verwendet werden, indem die Klasse überschrieben wird[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)Methoden wie oben gezeigt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
@@ -28,7 +28,7 @@ url: /de/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 {{% alert color="primary" %}}
 
- Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Beschriftungen nicht geändert werden.
+ Das[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse funktioniert nur zum Hinzufügen neuer Zwischensummen. Wenn eine Tabelle bereits Zwischensummen enthält, können ihre Bezeichnungen nicht geändert werden.
 
 {{% /alert %}}
 

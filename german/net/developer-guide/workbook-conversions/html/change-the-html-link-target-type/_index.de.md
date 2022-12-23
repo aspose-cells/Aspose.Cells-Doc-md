@@ -1,12 +1,12 @@
 ﻿---
-title: Ändern Sie den Zieltyp des HTML-Links
+title: Ändern Sie den Linkzieltyp HTML
 type: docs
 weight: 320
 url: /de/net/change-the-html-link-target-type/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells ermöglicht es Ihnen, den Zieltyp des HTML-Links zu ändern. Der HTML-Link sieht so aus
+Mit Aspose.Cells können Sie den Linkzieltyp HTML ändern. HTML Link sieht so aus
 
 {{< highlight "java" >}}
 

@@ -6,7 +6,7 @@ url: /ar/java/show-leading-apostrophe-in-cells/
 ---
 ## **إظهار الفاصلة العليا في الخلايا**
 
-في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)منشأه. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[**اقتباس**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)الملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
+في Microsoft Excel ، يتم إخفاء الفاصلة العليا في قيمة الخلية. يوفر Aspose.Cells خاصية لعرض الفاصلة العليا بشكل افتراضي. لهذا ، يوفر API[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)خاصية. تشير هذه الخاصية إلى ما إذا كان سيتم تعيين ملف[**اقتباس**](https://reference.aspose.com/cells/java/com.aspose.cells/Style#QuotePrefix)الخاصية عند إدخال قيمة سلسلة تبدأ بعلامة اقتباس واحدة للخلية. وضع[**المصنف.الإعدادات**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#QuotePrefixToStyle)ملكية ل**خاطئة**سيعرض الفاصلة العليا في ملف Excel الناتج.
 
 تُظهر لقطة الشاشة التالية ملف Excel الناتج مع الفاصلة العليا المرئية.
 

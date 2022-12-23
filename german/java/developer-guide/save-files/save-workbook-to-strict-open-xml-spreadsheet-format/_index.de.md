@@ -6,7 +6,7 @@ url: /de/java/save-workbook-to-strict-open-xml-spreadsheet-format/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells ermöglicht Ihnen das Speichern der Arbeitsmappe in*Strikte offene XML-Tabelle*Format. Dafür stellt sie die**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**Eigentum. Wenn Sie seinen Wert als festlegen**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** , dann wird die ausgegebene Excel-Datei gespeichert*Strikte offene XML-Tabelle* Format.
+Aspose.Cells ermöglicht Ihnen das Speichern der Arbeitsmappe in*Strikte offene XML-Tabelle*Format. Dafür stellt sie die**[Workbook.Settings.Compliance](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#Compliance)**Eigentum. Wenn Sie seinen Wert als festlegen**[OoxmlCompliance.ISO_29500_2008_STRICT](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompliance#ISO_29500_2008_STRICT)** dann wird die ausgegebene Excel-Datei gespeichert*Strikte offene XML-Tabelle* Format.
 
 ## **Speichern Sie die Arbeitsmappe im strikt offenen XML-Tabellenformat**
 

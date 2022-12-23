@@ -26,7 +26,7 @@ url: /ru/net/missing-features-in-vsto/
     - [Импорт из ArrayList](/cells/ru/net/importing-from-arraylist/)
     - [Импорт из пользовательских объектов](/cells/ru/net/importing-from-custom-objects/)
     - [Импорт из DataTable](/cells/ru/net/importing-from-datatable/)
-- [Сохранить книгу в текстовом формате или формате CSV по номеру Aspose.Cells](/cells/ru/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [Сохранить книгу в текст или формат CSV в формате Aspose.Cells](/cells/ru/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [Умные маркеры в Aspose.Cells](/cells/ru/net/smart-markers-in-aspose-cells/)
   - [Группировка данных](/cells/ru/net/grouping-data/)
   - [Маркеры изображения](/cells/ru/net/image-markers/)

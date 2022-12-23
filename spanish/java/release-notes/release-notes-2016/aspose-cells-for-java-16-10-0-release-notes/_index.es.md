@@ -11,15 +11,15 @@ url: /es/java/aspose-cells-for-java-16-10-0-release-notes/
 |CELLSJAVA-41974 | La actualización de la tabla dinámica no funciona en el archivo PDF representado| Insecto|
 |CELLSJAVA-41900 | XLSM se corrompe con una simple operación de carga y guardado| Insecto|
 |CELLSJAVA-41790 | Los hipervínculos no funcionan como se esperaba después de convertir la hoja de cálculo a HTML| Insecto|
-|CELLSJAVA-42010 | Algunos caracteres no se representan en el PDF de salida| Insecto|
-|CELLSJAVA-41977 | El orden de la leyenda del gráfico cambió en el PDF del gráfico| Insecto|
+|CELLSJAVA-42010 | Algunos caracteres no se representan en la salida PDF| Insecto|
+|CELLSJAVA-41977 | El orden de la leyenda del gráfico cambió en Chart's PDF| Insecto|
 |CELLSJAVA-41972 | El orden Z de las líneas altas y bajas no es correcto en PDF| Insecto|
-|CELLSJAVA-42015 | La hoja de cálculo se corrompe después de volver a guardar con Aspose.Cells| Insecto|
+|CELLSJAVA-42015 |La hoja de cálculo se corrompe después de volver a guardar con Aspose.Cells| Insecto|
 |CELLSJAVA-42005 | La fórmula se cambia después de insertar en una celda| Insecto|
 |CELLSJAVA-41997 | Comportamiento extraño con frijol simple usando marcadores inteligentes| Insecto|
 |CELLSJAVA-41993 | NullPointerException al abrir el archivo a7.xlsm| Excepción|
 |CELLSJAVA-41992 | NullPointerException al abrir el archivo a6.xlsm| Excepción|
-|CELLSJAVA-41991 |NullPointerException al abrir el archivo a5.xlsm| Excepción|
+|CELLSJAVA-41991 | NullPointerException al abrir el archivo a5.xlsm| Excepción|
 |CELLSJAVA-41990 | NullPointerException al abrir el archivo a4.xlsm| Excepción|
 |CELLSJAVA-41989 | NullPointerException al abrir el archivo a3.xlsm| Excepción|
 |CELLSJAVA-41988 | NullPointerException al abrir el archivo a2.xlsm| Excepción|

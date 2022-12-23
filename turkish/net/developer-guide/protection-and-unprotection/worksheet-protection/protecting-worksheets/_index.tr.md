@@ -12,7 +12,7 @@ Bir çalışma sayfası korunduğunda, kullanıcının yapabileceği işlemler k
 
 ## **Çalışma Sayfalarını Koruyun**
 
-### **giriiş**
+### **Giriş**
 
 Microsoft Excel'deki genel koruma seçenekleri şunlardır:
 
@@ -34,7 +34,7 @@ Korumalı çalışma sayfaları hassas verileri gizlemez veya korumaz, dolayıs�
 
  bu[**Koruma Türü**](https://reference.aspose.com/cells/net/aspose.cells/protectiontype)numaralandırma, aşağıdaki önceden tanımlanmış koruma türlerini içerir:
 
-|**Koruma Türleri**|**Tanım**|
+|**Koruma Türleri**|**Açıklama**|
 |:- |:- |
 |Herşey|Kullanıcı bu çalışma sayfasındaki hiçbir şeyi değiştiremez|
 |İçindekiler|Kullanıcı bu çalışma sayfasına veri giremez|
@@ -52,13 +52,13 @@ Yukarıdaki kod çalışma sayfasını korumak için kullanıldıktan sonra, ça
 
 |**Bir kullanıcının çalışma sayfasını değiştiremeyeceğini belirten bir iletişim kutusu uyarısı**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](protecting-worksheets_1.png)|
+|![yapılacaklar:resim_alternatif_metin](protecting-worksheets_1.png)|
 
-Çalışma sayfası üzerinde çalışmak için, çalışma sayfasını seçerek korumayı kaldırın.**Koruma** , sonra**Sayfanın korumasını kaldır** dan**Aletler** menü seçeneği.
+Çalışma sayfası üzerinde çalışmak için, çalışma sayfasını seçerek korumayı kaldırın.**Koruma** , o zamanlar**Sayfanın korumasını kaldır** dan**Araçlar** menü seçeneği.
 
 Sayfanın Korumasını Kaldır menü öğesini seçtikten sonra, aşağıda gösterildiği gibi çalışma sayfası üzerinde çalışabilmeniz için parolayı girmenizi isteyen bir iletişim kutusu açılır:
 
-|![yapılacaklar:resim_alternatif_Metin](protecting-worksheets_2.png)|
+|![yapılacaklar:resim_alternatif_metin](protecting-worksheets_2.png)|
 
 ### **Microsoft Excel'i Kullanarak Çalışma Sayfasında birkaç Cells'i koruyun**
 
@@ -69,9 +69,9 @@ Aşağıdaki noktalar, MS Excel kullanılarak birkaç hücrenin nasıl kilitlene
 1.  Tüm çalışma sayfasını tıklayarak seçin**Hepsini seç** düğmesi (1. satır için satır numarasının hemen üzerindeki ve A sütun harfinin solundaki gri dikdörtgen).
 1.  Tıklamak**Cells** üzerinde**Biçim** menü, tıklayın**Koruma** sekmesini seçin ve ardından**Kilitli** onay kutusu.
  Bu, çalışma sayfasındaki tüm hücrelerin kilidini açar
- Eğer**Cells** komutu kullanılamıyorsa, çalışma sayfasının bazı bölümleri zaten kilitli olabilir. Üzerinde**Aletler** menü, üzerine gelin**Koruma** ve ardından tıklayın**Sayfanın korumasını kaldır**.
+ Eğer**Cells** komutu kullanılamıyorsa, çalışma sayfasının bazı bölümleri zaten kilitli olabilir. Üzerinde**Araçlar** menü, üzerine gelin**Koruma** ve ardından tıklayın**Sayfanın korumasını kaldır**.
 1.  Yalnızca kilitlemek istediğiniz hücreleri seçin ve 2. adımı tekrarlayın, ancak bu kez**Kilitli** onay kutusu.
-1.  Üzerinde**Aletler** menü, üzerine gelin**Koruma** , Tıklayın**Sayfayı Koruyun** ve ardından tıklayın**TAMAM**.
+1.  Üzerinde**Araçlar** menü, üzerine gelin**Koruma** , Tıklayın**Sayfayı Koruyun** ve ardından tıklayın**Tamam**.
 1.  İçinde**Sayfayı Koruyun** iletişim kutusunda, bir parola belirleme ve kullanıcıların değiştirebilmesini istediğiniz öğeleri seçme seçeneğiniz vardır.
 
 ### **Aspose Cells'i Kullanarak Çalışma Sayfasında birkaç Cells'i koruyun**

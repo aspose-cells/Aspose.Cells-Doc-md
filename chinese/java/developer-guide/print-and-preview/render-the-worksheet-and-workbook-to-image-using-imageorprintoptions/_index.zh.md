@@ -47,6 +47,6 @@ API 提供了几个有价值的类，例如，[**图纸渲染**](https://referen
 ## 相关文章
 
 - [将工作表转换为不同的图像格式](/cells/zh/java/converting-worksheet-to-different-image-formats/)
-- [使用 viewBox 属性将图表导出为 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
+- [使用 viewBox 属性将图表导出到 SVG](/cells/zh/java/export-chart-to-svg-with-viewbox-attribute/)
 - [将工作表或图表导出为具有所需宽度和高度的图像](/cells/zh/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [按页将工作表转换为图像并将工作表转换为图像](/cells/zh/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

@@ -21,16 +21,16 @@ Antes de crear gráficos, es importante comprender algunos conceptos básicos qu
 
 #### **Objetos de gráficos**
 
- Aspose.Cells proporciona un conjunto especial de clases que se utilizan para crear todo tipo de gráficos. Estas clases se utilizan para crear**graficando objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
+ Aspose.Cells proporciona un conjunto especial de clases que se utilizan para crear todo tipo de gráficos. Estas clases se utilizan para crear**graficar objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
 
 - [**Eje**](https://reference.aspose.com/cells/java/com.aspose.cells/Axis), el eje de un gráfico.
-- [**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), un único gráfico de Excel.
-- [**Área de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de cálculo.
-- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), una tabla de datos de gráficos.
+- [**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart), un único gráfico de Excel.
+- [**Área de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartArea), el área del gráfico en la hoja de trabajo.
+- [**ChartDataTable**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartDataTable), una tabla de datos de gráfico.
 - [**GráficoMarco**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartFrame), el objeto de marco en un gráfico.
 - [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), un solo punto en una serie en un gráfico.
 - [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), una colección que contiene todos los puntos de una serie.
-- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , una coleccion de[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objetos.
+- [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , una coleccion de[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objetos.
 -  DataLabels, DataLabels para el especificado[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**línea de tendencia**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
 - [**Formato de relleno**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), formato de relleno para una forma.
 - [**Piso**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), el suelo de un gráfico 3D.
@@ -48,7 +48,7 @@ Antes de crear gráficos, es importante comprender algunos conceptos básicos qu
 
 Como se mencionó anteriormente, todos los objetos de gráficos son instancias de sus respectivas clases y proporcionan propiedades y métodos específicos para realizar tareas específicas. Use objetos de gráficos para crear gráficos.
 
-Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) recopilación. Cada artículo en el[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) colección representa un[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto. A[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)El objeto encapsula todos los objetos de gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo usar algunos objetos gráficos básicos para crear un gráfico simple.
+Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) recopilación. Cada artículo en el[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) colección representa un[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto. A[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)El objeto encapsula todos los objetos de gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo usar algunos objetos gráficos básicos para crear un gráfico simple.
 
 ### **Crear un gráfico simple**
 
@@ -87,7 +87,7 @@ Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**ChartCollec
 |DispersiónConectadoPorCurvasSinMarcador de datos|Representa el gráfico de dispersión conectado por curvas, sin marcadores de datos|
 |ScatterConnectedByLinesWithDataMarker|Representa el gráfico de dispersión conectado por líneas, con marcadores de datos|
 |ScatterConnectedByLinesWithoutDataMarker|Representa el gráfico de dispersión conectado por líneas, sin marcadores de datos|
-|Área|Representa el gráfico de área|
+|Zona|Representa el gráfico de área|
 |Área apilada|Representa el gráfico de áreas apiladas|
 |Área100PorcentajeApilado|Representa un gráfico de áreas apiladas al 100 %|
 |Área3D|Representa el gráfico de área 3D|
@@ -132,8 +132,8 @@ Para crear un gráfico usando Aspose.Cells:
 1.  Agregue un gráfico a la hoja de trabajo llamando al[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) colección[*agregar*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ) método, encapsulado en el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)objeto.
 1.  Especifique el tipo de gráfico con el[**Tipo de gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)enumeración.
  Por ejemplo, el ejemplo utiliza el[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)value como el tipo de gráfico.
-1.  Accede al nuevo[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto de la[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)colección pasando su índice.
-1.  Utilice cualquiera de los objetos de gráficos encapsulados en el[**Cuadro**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objeto para gestionar el gráfico.
+1.  Accede al nuevo[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) objeto de la[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)colección pasando su índice.
+1.  Utilice cualquiera de los objetos de gráficos encapsulados en el[**Gráfico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)objeto para gestionar el gráfico.
  El siguiente ejemplo utiliza el[**SerieColección**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)objeto de gráfico para especificar la fuente de datos del gráfico.
 
 Al agregar datos de origen al gráfico, el origen de datos puede ser un rango de celdas (como "A1:C3"), una secuencia de celdas no contiguas (como "A1, A3, A5") o una secuencia de valores (como "1,2,3").
@@ -184,7 +184,7 @@ Los desarrolladores pueden crear gráficos personalizados en tiempo de ejecució
 
 {{% /alert %}}
 
-El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de trabajo.
+El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de cálculo.
 
 **Gráfico personalizado que combina gráficos de columnas y líneas**
 

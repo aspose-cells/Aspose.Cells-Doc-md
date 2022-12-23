@@ -45,11 +45,11 @@ Para agregar un hipervínculo de texto a una hoja de cálculo:
 
 {{% alert color="primary" %}} 
 
- NOTA: El objetivo del hipervínculo se puede establecer en_ uno mismo,_top o _parent para abrir URL web en una ventana nueva, actual o superior, respectivamente.
+ NOTA: El objetivo del hipervínculo se puede establecer en_ ser,_top o _parent para abrir URL web en una ventana nueva, actual o superior, respectivamente.
 
 {{% /alert %}} 
 
-El siguiente ejemplo agrega dos hipervínculos a una hoja de cálculo. Uno no tiene destino mientras que el otro está configurado como _parent.
+El siguiente ejemplo agrega dos hipervínculos a una hoja de trabajo. Uno no tiene destino mientras que el otro está configurado como _parent.
 
 **Salida: hipervínculos de texto agregados a la hoja de trabajo** 
 
@@ -60,7 +60,7 @@ El siguiente ejemplo agrega dos hipervínculos a una hoja de cálculo. Uno no ti
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Worksheets-AddHyperlinks.aspx-AddTextHyperlinks.cs" >}}
 
 
-##### **Hipervínculos de imágenes**
+##### **Hipervínculos de imagen**
 Para agregar un hipervínculo de imagen:
 
 1. Agregue el control Aspose.Cells.GridWeb a su formulario web.

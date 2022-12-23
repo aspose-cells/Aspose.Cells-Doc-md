@@ -16,12 +16,12 @@ Aşağıdaki resimde, A3 hücresinde bir formül bulunan çalışma sayfası gö
 
 **A3 hücresinde formül bulunan çalışma sayfası**
 
-![yapılacaklar:resim_alternatif_Metin](show-formulas-instead-of-values-in-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](show-formulas-instead-of-values-in-a-worksheet_1.png)
 
  Aşağıdaki resimde, hesaplanan değer yerine ayarlanarak etkinleştirilen formül gösterilmektedir.[**Worksheet.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) mülkiyet**doğru** Aspose.Cells ile.
 
 **Çalışma sayfası artık hesaplanan değer yerine formülü gösteriyor**
 
-![yapılacaklar:resim_alternatif_Metin](show-formulas-instead-of-values-in-a-worksheet_2.png)
+![yapılacaklar:resim_alternatif_metin](show-formulas-instead-of-values-in-a-worksheet_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ShowFormulas-ShowFormulas.java" >}}

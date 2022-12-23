@@ -10,6 +10,6 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.7.1 pour W
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-865| Optimiser les balises pour nuget|Optimiser|

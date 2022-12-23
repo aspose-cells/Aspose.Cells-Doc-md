@@ -27,12 +27,12 @@ Améliorations
 Insectes
 
 (CELLSJAVA-40809) - Certaines couleurs sont affichées juste avant la colonne dans un tableau
-(CELLSJAVA-40814) - Les images sont manquantes dans le PDF résultant lors de la conversion de la feuille de calcul sur Ubuntu
-(CELLSJAVA-40826) - Les paramètres de quadrillage et de police sont manquants dans le HTML de sortie
+(CELLSJAVA-40814) - Les images sont manquantes dans PDF résultant lorsque la feuille de calcul est convertie sur Ubuntu
+(CELLSJAVA-40826) - Les paramètres de quadrillage et de police sont manquants dans la sortie HTML
 (CELLSJAVA-40829) - Impossible de définir la qualité d'impression des feuilles de calcul
-(CELLSJAVA-40838) - Les copies imprimées sont conservées pour le format XLS mais pas pour le format XLSX
+(CELLSJAVA-40838) - Les copies d'impression sont conservées pour le format XLS mais pas pour le format XLSX
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40739) - Enregistrement de Pivottable en tant que mht
 (CELLSJAVA-40531) - CellsException : la taille de la carte (0) doit être >= 1

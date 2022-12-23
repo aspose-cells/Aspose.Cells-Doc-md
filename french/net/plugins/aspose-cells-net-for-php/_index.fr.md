@@ -150,7 +150,7 @@ Cette section comprend les rubriques suivantes
       - [Sauvegarder des fichiers en PHP](/cells/fr/net/saving-files-in-php/)
     - [Fonctionnalités utilitaires en PHP](/cells/fr/net/utility-features-in-php/)
       - [Crypter des fichiers en PHP](/cells/fr/net/encrypting-files-in-php/)
-      - [Conversion Excel en PDF en PHP](/cells/fr/net/excel-to-pdf-conversion-in-php/)
+      - [Excel vers PDF Conversion en PHP](/cells/fr/net/excel-to-pdf-conversion-in-php/)
       - [Gestion des propriétés de document en PHP](/cells/fr/net/managing-document-properties-in-php/)
       - [Conversion de feuille de calcul en image en PHP](/cells/fr/net/worksheet-to-image-conversion-in-php/)
   - [Travailler avec des formules en PHP](/cells/fr/net/working-with-formulas-in-php/)

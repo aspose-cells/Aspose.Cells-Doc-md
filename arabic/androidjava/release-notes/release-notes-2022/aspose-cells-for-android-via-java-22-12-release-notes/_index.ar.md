@@ -14,11 +14,11 @@ url: /ar/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44890|دعم استيراد ملف مع openpassword لـ GridWeb|
 |CELLSJAVA-43645|لم يتم تقديم سمة "تنسيق ثلاثي الأبعاد" للمستطيل بشكل صحيح|
-|CELLSJAVA-44936|تعيين إعدادات صورة المخطط (PNG) DPI|
+|CELLSJAVA-44936|تعيين صورة المخطط (PNG) إعدادات DPI|
 |CELLSJAVA-44937|ضبط إعدادات صورة المخطط (JPG) DPI|
-|CELLSJAVA-44998|اقتباس مزدوج تسبب في فشل النمط المضمّن في HTML|
+|CELLSJAVA-44998|اقتباس مزدوج تسبب في فشل النمط المضمن في HTML|
 |CELLSJAVA-44884| أرقام القائمة غير صحيحة بعد تحويل XLSX إلى HTML أو PDF|
-|CELLSJAVA-44883|تلف المصنف الذي يحتوي على جدول محوري بعد معالجة الجدول المحوري فيه|
+|CELLSJAVA-44883| تلف المصنف الذي يحتوي على جدول محوري بعد معالجة الجدول المحوري فيه|
 |CELLSJAVA-44879|كانت النتيجة المنسقة لـ GridWeb مختلفة عن Cell.DisplayStringValue|
 |CELLSJAVA-44327|تظهر الحدود وعدد أقل من الخطوط في شرائح دائرية بالأبيض والأسود في الرسم البياني لعرض الصورة|
 |CELLSJAVA-44853|البيانات الموجودة على زاوية المحور س ليست هي نفسها البيانات الموجودة في Excel في عرض الرسم البياني للصورة|
@@ -26,31 +26,31 @@ url: /ar/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |CELLSJAVA-44904|مشاكل عند تقديم مخططات Excel لتحويل JPG|
 |CELLSJAVA-44850|عند استيراد ملف XLT ، لا يتم عرض النص بالكامل باستخدام أحدث العروض التوضيحية بأحدث إصدار Aspose.Cells.GridWeb مع أحدث ملفات الموارد|
 |CELLSJAVA-44857|عند استخدام إصدار Aspose.CellsGridWeb for Java v22.8 مع أحدث ملفات الموارد لفتح مستند Excel ، يختلف تأثير الخلايا عن المستند الأصلي|
-|CELLSJAVA-44903|عرض SVG لا يعمل كما هو متوقع|
+|CELLSJAVA-44903|التسليم SVG لا يعمل كما هو متوقع|
 |CELLSJAVA-44909| عندما يتم كتابة العديد من السطور بالخط العريض ، يبدو أنها تفيض إلى الأسطر الأخرى دون داع|
-|CELLSJAVA-44888|اختفت "+" و "-" بعد التحويل - تحويل Excel إلى HTML|
+|CELLSJAVA-44888|اختفت "+" و "-" بعد التحويل - Excel إلى عرض HTML|
 |CELLSJAVA-44775|تتداخل تسميات المخطط في الرسم البياني مع عرض الصورة|
 |CELLSJAVA-44882|عرض الرسم البياني للصورة - توجد إحدى التسميات داخل المخطط الدائري المجوف|
-|CELLSJAVA-44943|XLSX إلى PDF: لم يتم عرض ملصقات المخططات بشكل صحيح|
-|CELLSJAVA-44928|XLS إلى PDF: بيانات غير كافية للصورة|
-|CELLSJAVA-44910|ينتج عن تحويل Excel إلى HTML آلاف الصور الصغيرة المتشابهة|
+|CELLSJAVA-44943|XLSX إلى PDF: لم يتم تقديم عناوين المخططات بشكل صحيح|
+|CELLSJAVA-44928|XLS إلى PDF: بيانات غير كافية لصورة|
+|CELLSJAVA-44910|تحويل Excel إلى HTML ينتج عنه آلاف الصور الصغيرة المتشابهة|
 |CELLSJAVA-44944|يؤدي تغيير حجم الجداول إلى تغيير تنسيق الخلايا|
 |CELLSJAVA-44948| لا يمكن عرض الصور في الورقة عند تحويل HTML إلى Excel|
 |CELLSJAVA-44970|تحسين تأثير الظل|
 |CELLSJAVA-44967|قم بتخطيط getDataLabels (). getText () بإرجاع قيمة مختلفة في v22.6.0 والإصدارات الأحدث|
-|CELLSJAVA-44969|تحويل Excel إلى HTML ، تعرض قواعد البيانات الأخطاء|
+|CELLSJAVA-44969|قم بتحويل Excel إلى HTML ، تعرض علامات البيانات أخطاء|
 |CELLSJAVA-44949|تغيرت الشفافية عند إدراج نطاق Excel كصورة بتنسيق مختلف في شريحة PowerPoint|
-|CELLSJAVA-44985|تحويل Excel إلى HTML - لا تظهر وسيلة إيضاح الرسم البياني ويتم قطع منطقة الرسم|
+|CELLSJAVA-44985|تحويل Excel إلى HTML - لا تظهر وسيلة إيضاح الرسم البياني ويتم اقتطاع مساحة الرسم|
 |CELLSJAVA-44952|مشكلة في أسلوب DataBar.toImage بخصوص العرض|
-|CELLSJAVA-44986|لا تتم محاذاة الصور المستوردة في خط عندما تكون الصور بتنسيق Div|
+|CELLSJAVA-44986| لا تتم محاذاة الصور المستوردة في خط عندما تكون الصور بتنسيق Div|
 |CELLSJAVA-44987|يتم تغطية بعض الصور من قبل الآخرين عند تحميل html|
 |CELLSJAVA-44988|لا يتم تدوير النص عند تحميل html|
 |CELLSJAVA-44989|تُفقد إعدادات الخط في div عند تحميل html|
-|CELLSJAVA-44997|البيانات والتنسيقات المفقودة في تحويل HTML إلى Excel|
-|CELLSJAVA-44999| Aspose.Cells إعدادات العولمة المخصصة لا تعمل لمعظم الجدول المحوري|
+|CELLSJAVA-44997|فقدت البيانات والتنسيقات في HTML لتحويل Excel|
+|CELLSJAVA-44999|Aspose.Cells إعدادات العولمة المخصصة لا تعمل لمعظم الجدول المحوري|
 |CELLSJAVA-44898|تؤدي القراءة من GZIPInputStream أحيانًا إلى ظهور خطأ زائف "الملف تالف" في 22.7 والإصدارات الأحدث|
 |CELLSJAVA-44881|استثناء "java.lang.ArrayIndexOutOfBoundsException: 15070" عند تحميل ملف XLS|
-|CELLSJAVA-44908|استثناء "java.lang.OutOfMemoryError: Java مساحة الكومة" عند تحميل ملفات XLSB كبيرة|
+|CELLSJAVA-44908|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تحميل ملفات XLSB كبيرة|
 |CELLSJAVA-44929|الانحدار: "java.lang.NullPointerException" على Workbook.calculateFormula ()|
 |CELLSJAVA-44927|استثناء "java.lang.IndexOutOfBoundsException: الفهرس: 5 ، الحجم: 5" عند تحويل ملف Excel إلى HTML|
 |CELLSJAVA-44939|خطأ "java.lang.StringIndexOutOfBoundsException: فهرس السلسلة خارج النطاق: 0" أثناء محاولة قراءة ملف Excel|

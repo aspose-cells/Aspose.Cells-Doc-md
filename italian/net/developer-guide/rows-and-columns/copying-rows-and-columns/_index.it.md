@@ -18,7 +18,7 @@ Quando una riga (o colonna) viene copiata, vengono copiati anche i dati in essa 
 
 {{% alert color="primary" %}}
 
- Se clicchi**Incolla** sul**Standard** barra degli strumenti o premere**CTRL**+** V** invece di fare clic su un comando sul file**Nel menu Inserisci**, l'eventuale contenuto delle celle di destinazione viene sostituito.
+ Se clicchi**Impasto** sul**Standard** barra degli strumenti o premere**CTRL**+** V** invece di fare clic su un comando sul file**Nel menu Inserisci**, l'eventuale contenuto delle celle di destinazione viene sostituito.
 
 {{% /alert %}}
 
@@ -26,8 +26,8 @@ Quando una riga (o colonna) viene copiata, vengono copiati anche i dati in essa 
 
 1. Seleziona le celle che contengono i dati o altri attributi che desideri copiare.
 1.  Nella scheda Home, fare clic su**copia**.
-1.  Fare clic sulla prima cella nell'area in cui si desidera**incolla** quello che hai copiato.
-1.  Nella scheda Home, fai clic sulla freccia accanto a**Incolla** , quindi selezionare**Incolla** Speciale.
+1.  Fare clic sulla prima cella nell'area in cui si desidera**impasto** quello che hai copiato.
+1.  Nella scheda Home, fai clic sulla freccia accanto a**Impasto** , quindi selezionare**Impasto** Speciale.
 1.  Seleziona il**opzioni** tu vuoi.
 
 ## **Utilizzando Aspose.Cells**
@@ -42,9 +42,9 @@ Quando una riga (o colonna) viene copiata, vengono copiati anche i dati in essa 
 - l'indice della riga di origine e
 - l'indice della riga di destinazione.
 
- Utilizzare questo metodo per copiare una riga all'interno di un foglio o in un altro foglio. Il[**CopiaRiga**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)metodo funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, anche quel valore viene copiato.
+ Utilizzare questo metodo per copiare una riga all'interno di un foglio o in un altro foglio. Il[**CopiaRiga**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)Il metodo funziona in modo simile a Microsoft Excel. Quindi, ad esempio, non è necessario impostare esplicitamente l'altezza della riga di destinazione, anche quel valore viene copiato.
 
-L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un modello di file Microsoft Excel e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
+L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza un file Excel modello Microsoft e copia la seconda riga (completa di dati, formattazione, commenti, immagini e così via) e la incolla nella dodicesima riga nello stesso foglio di lavoro.
 
  Puoi saltare il passaggio che ottiene l'altezza della riga di origine utilizzando il[**Cells.GetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/getrowheight) metodo e quindi imposta l'altezza della riga di destinazione utilizzando il[**Cells.SetRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) metodo come il[**CopiaRiga**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrow)Il metodo si occupa automaticamente dell'altezza della riga.
 
@@ -52,7 +52,7 @@ L'esempio seguente mostra come copiare una riga in un foglio di lavoro. Utilizza
 
 {{% alert color="primary" %}}
 
-Quando si copiano le righe, è importante annotare le immagini, i grafici o altri oggetti di disegno correlati poiché questo è lo stesso con Microsoft Excel:
+Quando si copiano le righe, è importante notare le immagini, i grafici o altri oggetti di disegno correlati poiché è lo stesso con Microsoft Excel:
 
 1. Se l'indice della riga di origine è 5, l'immagine, il grafico, ecc. viene copiato se è contenuto nelle tre righe (l'indice della riga iniziale è 4 e l'indice della riga finale è 6).
 1. Le immagini, i grafici e così via esistenti nella riga di destinazione non verranno rimossi.
@@ -76,7 +76,7 @@ Puoi anche copiare più righe su una nuova destinazione mentre usi il file[**Cel
 - indice della colonna di origine e
 - l'indice della colonna di destinazione.
 
- Utilizzare il[**Copia colonna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)metodo per copiare una colonna all'interno di un foglio o in un altro foglio.
+ Usa il[**Copia colonna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumn)metodo per copiare una colonna all'interno di un foglio o in un altro foglio.
 
 Questo esempio copia una colonna da un foglio di lavoro e la incolla in un foglio di lavoro in un'altra cartella di lavoro.
 

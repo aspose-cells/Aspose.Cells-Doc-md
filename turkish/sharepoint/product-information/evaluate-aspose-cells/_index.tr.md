@@ -20,4 +20,4 @@ Değerlendirme modu, dışa aktarılan tüm belgelere bir değerlendirme uyarıs
 
 **Değerlendirme modunda, Aspose.Cells for SharePoint bir Değerlendirme Uyarısı enjekte eder** 
 
-![yapılacaklar:resim_alternatif_Metin](evaluate-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_1.png)

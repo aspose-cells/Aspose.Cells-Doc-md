@@ -32,31 +32,31 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41680) - API återger det ryska månadsnamnet annorlunda före och efter anropet calculateFormula-metoden
 
- (CELLSJAVA-41673) - Aspose.Cells läser inget från Excel-arket i mallfilen
+(CELLSJAVA-41673) - Aspose.Cells läser inget från Excel-arket i mallfilen
 
 
 ## **Buggar**
 
 
- (CELLSJAVA-41685) - Diagrambilder har en storlek på 0 KB vid konvertering av kalkylblad till HTML
+ (CELLSJAVA-41685) - Sjökortsbilder har en storlek på 0 KB när kalkylbladet konverteras till HTML
 
- (CELLSJAVA-41684) - Diagrambild saknas i HTML
+ (CELLSJAVA-41684) - Sjökortsbild saknas i HTML
 
- (CELLSJAVA-41676) - HTML-utdata ger oförutsägbara resultat
+ (CELLSJAVA-41676) - HTML Utdata ger oförutsägbara resultat
 
  (CELLSJAVA-41665) - Bilden i kalkylbladet exporteras inte till HTML
 
  (CELLSJAVA-41632) - Problem med datumjustering vid konvertering från EXCEL till HTML och tillbaka till EXCEL
 
-(CELLSJAVA-41603) - Fel bakgrundsfärg för celler visas vid export av ett cellintervall till html
+ (CELLSJAVA-41603) - Fel bakgrundsfärg för celler visas vid export av ett cellintervall till html
 
- (CELLSJAVA-41337) - Konvertering till HTML genererar en väldigt stor HTML-fil
+ (CELLSJAVA-41337) - Konvertering till HTML genererar en mycket stor HTML-fil
 
  (CELLSJAVA-41705) - Textfärg återges inte korrekt i HTML i Excel-tabeller
 
- (CELLSJAVA-41647) - Hyperlänk i ett ListObject som pekar på ett område blir bruten när kalkylblad konverteras till HTML
+ (CELLSJAVA-41647) - Hyperlänk i ett ListObject som pekar på ett område blir bruten när kalkylbladet konverteras till HTML
 
- (CELLSJAVA-41659) - Användning av namngiven stil på en cell återspeglas inte i avsnittet Stilar i Excel-gränssnittet
+(CELLSJAVA-41659) - Användning av namngiven stil på en cell återspeglas inte i avsnittet Stilar i Excel-gränssnittet
 
  (CELLSJAVA-41602) - Cell.calculate()-metoden fungerar inte korrekt för en specifik cell
 
@@ -70,57 +70,57 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41662) - Kant saknas vid rendering av DataBar till bild
 
-(CELLSJAVA-41548) - DataBar till bild: DataBar-storleken i bilden motsvarar inte Excel
+ (CELLSJAVA-41548) - DataBar till bild: DataBar-storleken i bilden motsvarar inte Excel
 
  (CELLSJAVA-41250) - Arket återges inte korrekt med SheetRender.toImage()
 
  (CELLSJAVA-41701) - Plot Area höjd & Plot Area Y-värden är olika efter att ha laddat om diagrammet från kalkylbladet
 
- (CELLSJAVA-41699) - Konvertering av diagram till bild - Diagrambild är inte korrekt återgiven eftersom stapelstorlekar visar olika
+(CELLSJAVA-41699) - Konvertering av diagram till bild - Diagrambild är inte korrekt återgiven eftersom stapelstorlekar visar olika
 
  (CELLSJAVA-41689) - Kantutjämning verkar inte träda i kraft för diagrammets seriefyllning vid export till HTML
 
-(CELLSJAVA-41686) - RenderingHints.VALUE_TEXT_ ANTIALIAS_GASP träder inte i kraft när kalkylark konverteras till HTML
+(CELLSJAVA-41686) - RenderingHints.VALUE_TEXT_ ANTIALIAS_GASP träder inte i kraft när kalkylbladet konverteras till HTML
 
  (CELLSJAVA-41678) - Felaktiga färger återges i diagrammets PDF
 
  (CELLSJAVA-41669) - Alla staplar visas under 0-värdesregeln i diagrammets PDF
 
- (CELLSJAVA-41667) - Klustrade stapeldiagram visas inte i PDF-filformatet
+ (CELLSJAVA-41667) - Klustrade stapeldiagram visas inte i utdatafilformatet PDF
 
-(CELLSJAVA-41660) - Tjockleken på X-axeln och Y-axeln ökar i diagrammets PDF
+ (CELLSJAVA-41660) - Tjockleken på X-axeln och Y-axeln ökar i diagrammets PDF
 
  (CELLSJAVA-41657) - Bubbeldiagram visas inte korrekt när det konverteras till bild
 
  (CELLSJAVA-41656) - Diagramserievärde visas i en vinkel
 
- (CELLSJAVA-41646) - nedre delen av X-axeln i diagrammets PDF trimmas
+(CELLSJAVA-41646) - nedre delen av X-axeln i diagrammets PDF trimmas
 
- (CELLSJAVA-41644) - Axeletiketter visas lutade medan diagram renderas till PDF
+ (CELLSJAVA-41644) - Axeletiketter visas lutade när diagrammet renderas till PDF
 
- (CELLSJAVA-41628) - Inriktning av rubrik inte korrekt i diagram till PDF
+ (CELLSJAVA-41628) - Inriktningen av rubriken är inte korrekt i diagrammet till PDF
 
  (CELLSJAVA-41623) - Några dataseriestaplar saknas i diagrammets PDF med Chart.toPdf
 
  (CELLSJAVA-41468) - Diagrammets kvalitetsproblem - Kantutjämning träder inte i kraft utan skugga
 
- (CELLSJAVA-41445) - Bubbeldiagram har ingen kantutjämningseffekt i det renderade HTML-filformatet
+ (CELLSJAVA-41445) - Bubbeldiagram har ingen kantutjämningseffekt i det renderade filformatet HTML
 
-(CELLSJAVA-41306) - Excel till PDF-konverteringsproblem - höger sida avskuren
+ (CELLSJAVA-41306) - Excel till PDF konverteringsproblem - höger sida avskuren
 
- (CELLSJAVA-41697) - Fel teckensnittsfärg visas för tabeller och intervall i det genererade HTML/Image/PDF-formatet
+ (CELLSJAVA-41697) - Fel teckensnittsfärg visas för tabeller och intervall i det genererade formatet HTML/Image/PDF
 
-(CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash() returnerar 0 efter omskydd med makrokod
+ (CELLSJAVA-41679) - Worksheet.getProtection().getPasswordHash() returnerar 0 efter omskydd med makrokod
 
  (CELLSJAVA-41675) - Bilden är inte transparent i utdata-pdf
 
- (CELLSJAVA-41671) - Felaktig återgivning av villkorligt formaterade Cell-färger i resulterande PDF
+ (CELLSJAVA-41671) - Felaktig återgivning av villkorligt formaterade Cell-färger i Resultant PDF
 
- (CELLSJAVA-41663) - Spara villkorlig formateringsikonbilddata till filresultat i tom bild
+(CELLSJAVA-41663) - Spara villkorlig formateringsikonbilddata till filresultat i tom bild
 
  (CELLSJAVA-41661) - Processen fastnar när du laddar och konverterar till xlsx-fil från xml
 
- (CELLSJAVA-41597) - Oläsbart innehåll i Excel 2007 efter att XLSB har sparats på nytt
+ (CELLSJAVA-41597) - Oläsbart innehåll i Excel 2007 efter att ha sparats om XLSB
 
 
 ## **Undantag**
@@ -130,7 +130,7 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -160,7 +160,7 @@ url: /sv/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-Tar bort föråldrad Workbook.SaveOptions-egenskap.
+ Tar bort föråldrad Workbook.SaveOptions-egenskap.
 
  Använd metoden Workbook.Save(Stream,SaveOptions) eller Workbook.Save(string,SaveOptions) istället.
 
@@ -172,7 +172,7 @@ Tar bort föråldrad Workbook.SaveOptions-egenskap.
 
 
 
- Lägger till egenskapen Proptection.IsProtectedWithPassword.
+Lägger till egenskapen Proptection.IsProtectedWithPassword.
 
  Indikerar om kalkylbladet är skyddat med lösenord.
 

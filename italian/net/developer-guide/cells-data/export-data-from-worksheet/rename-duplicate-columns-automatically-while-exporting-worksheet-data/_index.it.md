@@ -14,7 +14,7 @@ url: /it/net/rename-duplicate-columns-automatically-while-exporting-worksheet-da
 
 ![cose da fare:immagine_alt_testo](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-RenameDuplicateColumnsAutomaticallyWhileExportingWorksheetData.cs" >}}
 

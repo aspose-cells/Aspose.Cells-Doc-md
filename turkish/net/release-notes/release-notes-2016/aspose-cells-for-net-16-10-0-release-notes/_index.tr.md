@@ -11,23 +11,23 @@ url: /tr/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44374 | Yalnızca xml haritasıyla ilgili bazı sütunlardan oluşan bir dizi tanımlayarak xml haritasını içe aktarın| Yeni özellik|
 |CELLSNET-44701 | API, DIV etiketini içeren satırı stil ekranıyla gizler: yok| Artırma|
 |CELLSNET-44700 | API, display:block stiline sahip DIV etiketleri arasındaki içeriği içe aktarmaz| Artırma|
-|CELLSNET-44699 | API, HTML'nin DIV etiketleri arasındaki içeriği içe aktarmaz| Artırma|
-|CELLSNET-44304 |PivotTable.GetCellByDisplayName, 256. alan üzerindeki herhangi bir şey için null değerini döndürür| Artırma|
+|CELLSNET-44699 | API, HTML'in DIV etiketleri arasındaki içeriği içe aktarmaz| Artırma|
+|CELLSNET-44304 | PivotTable.GetCellByDisplayName, 256. alan üzerindeki herhangi bir şey için null değerini döndürür| Artırma|
 |CELLSNET-44808 | Tablo veya ListObject'teki formül yeni satırlarla yayılmıyor| Artırma|
 |CELLSNET-44719 | Workbook.Worksheets.ExternalLinks aynı listeyi döndürmez| Artırma|
 |CELLSNET-44721 | Ortaya çıkan elektronik tablo MS Excel'e yüklenemez| Böcek|
 |CELLSNET-44695 | HTML'den yükle, stil bloğundaki kalın stili yok sayar| Böcek|
 |CELLSNET-44779 | D5 hücresinin hesaplanan değeri yanlış| Böcek|
-|CELLSNET-44775 | Excel'den PDF'e Dönüştürme - Çıktı PDF dosya biçiminde artan sayfa sayısı| Böcek|
-|CELLSNET-44771 | Excel'i PDF'ye dönüştürürken metin kaybı| Böcek|
+|CELLSNET-44775 | Excel'den PDF'e Dönüştürme - PDF çıktı dosya biçimindeki sayfa sayısı arttı| Böcek|
+|CELLSNET-44771 | Excel'i PDF'e dönüştürürken metin kaybı| Böcek|
 |CELLSNET-44733 | Görüntüde daha az sütun genişliği nedeniyle gizli metin oluşturuldu| Böcek|
-|CELLSNET-44768 | Grafik başlığı dinamik olarak değişmiyor| Böcek|
+|CELLSNET-44768 |Grafik başlığı dinamik olarak değişmiyor| Böcek|
 |CELLSNET-44763 | MS Office'te İbranice dil paketi kullanılarak tanımlanan grafik, görüntüye doğru şekilde aktarılmıyor| Böcek|
-|CELLSNET-44730 | Yaslanmış liste çıktı PDF'sinde düzgün görüntülenmiyor| Böcek|
-|CELLSNET-44729 | Excel'deki numaralı listeler, PDF'ye dışa aktarılırken düzgün görüntülenmiyor| Böcek|
-|CELLSNET-44720 | Çıktı PDF'sinde yay uçları yuvarlak değil karedir| Böcek|
+|CELLSNET-44730 | Yaslanmış liste, PDF çıktısında düzgün görüntülenmiyor| Böcek|
+|CELLSNET-44729 | Excel'deki numaralı listeler, PDF'e dışa aktarılırken düzgün görüntülenmiyor| Böcek|
+|CELLSNET-44720 | Çıkışta yay uçları yuvarlak değil kare PDF| Böcek|
 |CELLSNET-44715 | API, Pasta Grafiğinin Dilim rengini Yok olarak döndürür| Böcek|
-|CELLSNET-44804 |Adı '#' karakteri içeren başka bir çalışma sayfasına köprü içeren çalışma kitabı bozuluyor| Böcek|
+|CELLSNET-44804 | Adı '#' karakteri içeren başka bir çalışma sayfasına köprü içeren çalışma kitabı bozuluyor| Böcek|
 |CELLSNET-44791 | Basit yükleme ve kaydetme işleminden sonra nesne konumlandırma değişiklikleri| Böcek|
 |CELLSNET-44772 | "file:///" veya benzerini ekleyerek köprülerle ilgili sorun| Böcek|
 |CELLSNET-44769 | Çalışma kitabı Aspose.Cells API'leri tarafından işlendiğinde koşullu biçimlendirme bozuluyor| Böcek|
@@ -35,14 +35,14 @@ url: /tr/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44759 | Köprü yeni bir yoruma eklenemez| Böcek|
 |CELLSNET-44758 | Mevcut bir yoruma köprü eklenemez| Böcek|
 |CELLSNET-44756 | Çalışma kitabı kaydedildikten sonra metin kutusu silindi| Böcek|
-|CELLSNET-44755 | Bir aralığı/sütun başka bir çalışma sayfasına kopyalandıktan sonra Excel çöküyor| Böcek|
+|CELLSNET-44755 |Bir aralığı/sütun başka bir çalışma sayfasına kopyalandıktan sonra Excel çöküyor| Böcek|
 |CELLSNET-44754 | Aspose.Cells, hücrelerin formüllerini alırken tek bir alıntı almıyor| Böcek|
 |CELLSNET-44751 | E-tablo, basit açma ve kaydetme işleminden sonra bozuluyor| Böcek|
 |CELLSNET-44743 | Hücre yorumu içine köprü ekleme çalışmıyor| Böcek|
 |CELLSNET-44735 | Özel karakterli harici bağlantının güncellenmesiyle ilgili sorun| Böcek|
 |CELLSNET-44731 |# Dinamik olarak enjekte edilen YÜZDEBİRLİK işlevi için AD hatası
 | Böcek|
-|CELLSNET-44726 |Satırların kopyalanması/eklenmesi, çıktı Excel dosyasında beklenmeyen kenarlıklara neden oldu| Böcek|
+|CELLSNET-44726 | Satırların kopyalanması/eklenmesi, çıktı Excel dosyasında beklenmeyen kenarlıklara neden oldu| Böcek|
 |CELLSNET-44642 | Excel dosyasının yeniden kaydedilmesi varsayılan yazı tipini değiştirir| Böcek|
 |CELLSNET-44785 | Belirli bir dosyayı açarken NullReferenceException (XLSB)| İstisna|
 |CELLSNET-44760 | SheetRender başlatılırken IndexOutOfRangeException| İstisna|
@@ -54,12 +54,12 @@ url: /tr/net/aspose-cells-for-net-16-10-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44724 | Aspose.Cells.GridWeb'de Özel İşlevleri Destekleyin| Yeni özellik|
+|CELLSNET-44724 |Aspose.Cells.GridWeb'de Özel İşlevleri Destekleyin| Yeni özellik|
 |CELLSNET-44784 | Kopyalama işlemi, kopyalanan değeri orijinal hücreden kaldırarak Kesme işlemi gibi davranır| Böcek|
 |CELLSNET-44777 | Köprü hücresi silinirken kilitleniyor Aspose.Cells.GridDesktop| Böcek|
 |CELLSNET-44776 | Köprü ekleme ve ardından içerik menüsü yoluyla düzenleme ve kaldırma GridDesktop'u çökertiyor| Böcek|
 |CELLSNET-44774 | Yanlış formül uygulama çökmesine neden oluyor - Aspose.Cells.GridDesktop| Böcek|
-|CELLSNET-44748 |Doğrudan formül çubuğuna formül yazmaya başladığımızda GridDesktop çöktü| Böcek|
+|CELLSNET-44748 | Doğrudan formül çubuğuna formül yazmaya başladığımızda GridDesktop çöktü| Böcek|
 |CELLSNET-44739 | Aspose.Cells katıştırılmış lisansı bulabilir ancak Aspose.Cells.GridDesktop bulamaz| Böcek|
 |CELLSNET-44738 | Satırlar için Otomatik Filtre etkinleştirilemiyor| Böcek|
 |CELLSNET-44753 | GridDesktop hatalı biçimlendirilmiş bir elektronik tablo ML yüklerken takılıyor| Böcek|

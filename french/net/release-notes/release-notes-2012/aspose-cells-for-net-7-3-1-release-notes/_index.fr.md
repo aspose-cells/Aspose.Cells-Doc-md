@@ -44,17 +44,17 @@ url: /fr/net/aspose-cells-for-net-7-3-1-release-notes/
 - DataBars - Mise en forme conditionnelle dans un tableau croisé dynamique
 - Perte de requêtes Web dans les formats MS Excel 2007
 - Gérer les plages de données externes et leurs propriétés
-- Problème de taille de fichier XLSB de MS Excel
+- Problème de taille de fichier MS Excel XLSB
 
 
 
- Exceptions
+ Des exceptions
 
 - La méthode statique CellsHelper.DetectFileFormat() lève une exception
 - Vous cherchez une solution au Aspose.Cells
 - Exception : "L'index était hors plage"
 - Le chargement du classeur renvoie : "La chaîne d'entrée n'était pas dans un format correct"
-- Forme d'erreur d'image dans la fonction Excel vers PDF
+- Erreur de forme à image dans Excel vers la fonctionnalité PDF
 
 
 
@@ -69,7 +69,7 @@ url: /fr/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -Citations dans le fichier enregistré délimité par des tabulations
 
-- La lecture/écriture CSV ne fait pas « aller-retour » pour certaines entrées
+- CSV lecture/écriture n'effectue pas d'aller-retour pour certaines entrées
 
  -StringValue renvoie une valeur erronée
 
@@ -87,17 +87,17 @@ url: /fr/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -Problèmes de calcul de la fonction TRIM
 
-- Enregistrer au format HTML affiche la colonne masquée dans la sortie
+- Enregistrer sous HTML affiche une colonne masquée dans la sortie
 - L'enregistrement efface le formatage
 - Graphiques dans la sortie HTML
-- Problèmes de formatage HTML (concernant les bordures supplémentaires)
+- HTML problèmes de formatage (concernant les bordures supplémentaires)
 
- - Problème de XPS et de format de nombre personnalisé de SheetRender
+ -SheetRender's XPS et problème de format de nombre personnalisé
 
- -Enregistrer au format PDF ne conserve pas la mise en forme
+ -Enregistrer sous PDF ne conserve pas le formatage
 
-- Problèmes avec le formatage XLSX dans les sorties Excel et PDF
-- Le tableau croisé dynamique d'Excel rendu au format PDF n'est pas correct
+- Problèmes avec le formatage XLSX dans Excel et les sorties PDF
+- Le tableau croisé dynamique d'Excel rendu à PDF n'est pas correct
 - Polices personnalisées en PDF
 - Problème de rendu de l'alignement vertical de Cell
 - Texte manquant à l'extrémité la plus à droite
@@ -105,7 +105,7 @@ url: /fr/net/aspose-cells-for-net-7-3-1-release-notes/
 - Problème de mise en forme dans la ligne Total du tableau croisé dynamique
 - Office pour Mac-Os 2k11 se bloque après l'ouverture d'un fichier Excel
 
- -Pourquoi ce code échoue-t-il ?
+-Pourquoi ce code échoue-t-il ?
 
 - Le champ calculé du tableau croisé dynamique est modifié
 - Problème lors de l'enregistrement d'un classeur avec des membres calculés
@@ -116,7 +116,7 @@ url: /fr/net/aspose-cells-for-net-7-3-1-release-notes/
 - La zone de texte Excel est redimensionnée de manière incorrecte lors du rendu en image
 - SheetRender exporte la forme de manière incorrecte
 
- \2) GrilleWeb
+ \2) Grille Web
 
 
 

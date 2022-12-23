@@ -11,7 +11,7 @@ is_root: true
 
 **欢迎拨打Aspose.Cells for JasperReports**
 
- Aspose.Cells for JasperReports 是一个库，可以替代[碧玉报告](https://community.jaspersoft.com/project/jasperreports-library)原始 Microsoft Excel 导出器，捆绑了一些强大的增强功能。去掉了对POI库的依赖，后台使用Aspose.Cells for Java导出Microsoft Excel格式（XLS、XLSX）的报表。
+ Aspose.Cells for JasperReports 是一个库，可以替代[碧玉报告](https://community.jaspersoft.com/project/jasperreports-library)原始 Microsoft Excel 导出器，捆绑了一些强大的增强功能。去掉对POI库的依赖，后台使用Aspose.Cells for Java导出Microsoft Excel格式的报表（XLS、XLSX）。
 
 {{% /alert %}}
 

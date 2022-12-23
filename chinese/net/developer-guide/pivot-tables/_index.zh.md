@@ -51,6 +51,6 @@ Aspose.Cells 提供了一组特殊的类[**Aspose.Cells.Pivot**](https://referen
 - [数据透视表和源数据](/cells/zh/net/pivot-table-and-source-data/)
 - [数据透视表隐藏和排序数据](/cells/zh/net/pivot-table-hide-and-sort-data/)
 - [刷新并计算具有计算项的数据透视表](/cells/zh/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [在 ODS 文件中保存数据透视表](/cells/zh/net/save-pivot-table-in-ods-file/)
+- [将数据透视表保存在 ODS 文件中](/cells/zh/net/save-pivot-table-in-ods-file/)
 - [显示报告筛选页面选项](/cells/zh/net/show-report-filter-pages-option/)
 - [使用数据透视表中DataField的数据显示格式](/cells/zh/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

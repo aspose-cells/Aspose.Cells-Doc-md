@@ -12,30 +12,30 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.9.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-40792|Pivottabell skapas inte för ODS-fil|Ny funktion|
-|CELLSJAVA-43221|Undantag "java.lang.NullPointerException" vid laddning av XLT-fil|Förbättring|
+|CELLSJAVA-40792|Pivottabellen skapas inte för ODS-filen|Ny funktion|
+|CELLSJAVA-43221|Undantag "java.lang.NullPointerException" när filen XLT laddas|Förbättring|
 |CELLSJAVA-43222|Undantag "com.aspose.cells.CellsException: formeldata borde ha skadats..." när en XLS-fil laddas|Förbättring|
 |CELLSJAVA-43223|Undantag "java.lang.IllegalStateException: Ogiltig kodning: null" när en XLS-fil laddas|Förbättring|
 |CELLSJAVA-43226|Undantag "java.lang.ArrayIndexOutOfBoundsException" när bildens data hämtas|Förbättring|
 |CELLSJAVA-43234|Data före 2014 läses inte från pivottabellen|Insekt|
 |CELLSJAVA-43210|Fel värde #Värde läst av Aspose.Cells|Insekt|
-|CELLSJAVA-43215|Det går inte att omvandla XLSM-fil till PDF|Insekt|
+|CELLSJAVA-43215|Det går inte att transformera XLSM-filen till PDF|Insekt|
 |CELLSJAVA-43219|Att lägga till formelreferens till olika ark resulterar i en skadad Excel-arbetsbok|Insekt|
 |CELLSJAVA-43232|ROUNDUP-funktionsproblem|Insekt|
 |CELLSJAVA-43243|Formel kunde inte hämtas när formeln för angränsande cell ändrades|Insekt|
-|CELLSJAVA-43217|Utskrift av XLSX till XPS förlorar bakgrundsformateringen|Insekt|
+|CELLSJAVA-43217|Utskrift XLSX till XPS förlorar bakgrundsformatering|Insekt|
 |CELLSJAVA-43224|Problem vid utskrift till en fysisk skrivare|Insekt|
 |CELLSJAVA-43241|Problem med linjehöjd och kant när du skapar en bild från Excel-området|Insekt|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) genererar inte förväntade resultat när du använder SmartMarkers|Insekt|
 |CELLSJAVA-43213|Aspose.Cells 20.6 fungerar inte bra med formulärkontroller på Office 365 (version 2005 Build 12827.20268)|Insekt|
-|CELLSJAVA-43214|Vid översättning av XLS till XLSX produceras en trasig XLSX-fil|Insekt|
-|CELLSJAVA-43216|XLS till XLSX-konvertering - teckensnittets fethet och placering ändras för formen|Insekt|
+|CELLSJAVA-43214|När du översätter XLS till XLSX produceras en trasig XLSX-fil|Insekt|
+|CELLSJAVA-43216|XLS till XLSX konvertering - teckensnitts fethet och placering har ändrats för formen|Insekt|
 |CELLSJAVA-43228|Genererad XLS är i skyddad vy|Insekt|
 |CELLSJAVA-43231|Fel i utdatafilen efter byten|Insekt|
 |CELLSJAVA-43242|En av stiltaggen som finns utanför Head-taggen|Insekt|
 |CELLSJAVA-43157|Anpassad dataseriefärg bevaras inte när du skapar ett vattenfallsdiagram|Insekt|
 |CELLSJAVA-43240|Oavsiktliga radbrytningar i former/objekt vid konvertering av Excel till PDF|Insekt|
-|CELLSJAVA-43255|Prestandaproblem vid konvertering av Excel till PDF|Insekt|
+|CELLSJAVA-43255|Prestandaproblem på Excel till PDF konvertering|Insekt|
 |CELLSJAVA-43250|Utökade etikettceller slås inte samman i SmartMarker|Insekt|
 |CELLSJAVA-43253|Att spara filen med OoxmlSaveOptions efter att ha ersatt text i SmartArt konverterar XLS till XLSX|Insekt|
 |CELLSJAVA-43263|SmartMarker-problem när en cell är inställd på fyllningsfärg och villkorlig formatering|Insekt|
@@ -49,17 +49,17 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.9.
 |CELLSJAVA-43293|Problem med filteralternativ efter PivotTable.refreshData()|Insekt|
 |CELLSJAVA-43279|Värden hämtas inte korrekt med getStringValue()|Insekt|
 |CELLSJAVA-43291|rutnätsinnehåll visas inte|Insekt|
-|CELLSJAVA-43037|Teckensnittsproblem vid PDF-konvertering|Insekt|
-|CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS- och PDF-skrivare|Insekt|
+|CELLSJAVA-43037|Teckensnittsproblem vid konvertering av PDF|Insekt|
+|CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS och PDF skrivare|Insekt|
 |CELLSJAVA-43254|Teckensnittsskillnad vid konvertering av kalkylblad till bild|Insekt|
 |CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från den aktuella användarens teckensnittsmapp som standard|Insekt|
-|CELLSJAVA-43268|Excel till TIFF-rendering - några av värdena ersätts med " #" tecken|Insekt|
+|CELLSJAVA-43268|Excel till TIFF rendering - några av värdena ersätts med " #" tecken|Insekt|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
 |CELLSJAVA-43277|Problem med höjd breddförhållande|Insekt|
 |CELLSJAVA-43245|Kombinationsdiagrammet visas inte korrekt efter konvertering av Excel-fil till PDF|Insekt|
-|CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
+|CELLSJAVA-43276|Problem med radbrytning vid konvertering av XLSX till PDF|Insekt|
 |CELLSJAVA-43261|SmartMarker: när du använder group:merge med Number Format Percentage är det expanderande resultatet fel|Insekt|
-|CELLSJAVA-43265|Kan inte ladda XLSX-fil|Insekt|
+|CELLSJAVA-43265|Kan inte ladda XLSX-filen|Insekt|
 |CELLSJAVA-43270|Duplicering av innehåll (inbäddat Word) vid kopiering av arbetsblad|Insekt|
 |CELLSJAVA-43271|WaterFall Chart bevarar inte SetAsTotal Property|Insekt|
 |CELLSJAVA-43287|Att lägga till autofilter förstör arbetsboken|Insekt|

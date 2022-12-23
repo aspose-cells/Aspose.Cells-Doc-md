@@ -9,7 +9,7 @@ url: /tr/java/working-with-the-threedformat-of-shape-or-chart/
 
 Aşağıdaki ekran görüntüsü, 3 Boyutlu Şekil Biçimini ayarlamak için Microsoft Excel arayüzünü göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](working-with-the-threedformat-of-shape-or-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](working-with-the-threedformat-of-shape-or-chart_1.png)
 ## **ThreeDFormat of Shape veya Chart ile Çalışma**
  Aşağıdaki örnek kod,[kaynak excel dosyası](5472522.xlsx) ve ilk çalışma sayfasındaki ilk şekle erişir ve alt özelliklerini ayarlar.[Shape.ThreeDFormat](https://reference.aspose.com/cells/java/com.aspose.cells/shape#ThreeDFormat)özelliğine ve ardından çalışma kitabını şuraya kaydeder:[çıktı excel dosyası](5472521.xlsx).
 ## **Basit kod**

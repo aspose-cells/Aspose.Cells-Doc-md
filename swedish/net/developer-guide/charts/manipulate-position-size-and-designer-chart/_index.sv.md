@@ -36,7 +36,7 @@ Följande exempel visar hur man manipulerar det befintliga diagrammet. I det hä
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-ModifyPieChart-1.cs" >}}
 #### **Manipulera ett linjediagram i designermallen**
-det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några dataserier till det befintliga diagrammet och ändra deras linjefärger.
+I det här exemplet kommer vi att manipulera ett linjediagram. Vi kommer att lägga till några dataserier till det befintliga diagrammet och ändra deras linjefärger.
 
 
 

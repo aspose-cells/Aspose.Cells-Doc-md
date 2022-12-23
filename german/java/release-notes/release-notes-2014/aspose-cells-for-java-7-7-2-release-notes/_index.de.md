@@ -10,8 +10,8 @@ url: /de/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java wurde auf Version 7.7.2 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version etwa 20 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+ Aspose.Cells for Java wurde auf Version 7.7.2 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version etwa 20 neue nützliche Verbesserungen enthält.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -33,7 +33,7 @@ Verbesserungen
 
 Fehler
 
-(CELLSJAVA-40711) – Axis.setTickLabelSpacing() funktioniert nicht für die XLS-Version
+(CELLSJAVA-40711) – Axis.setTickLabelSpacing() funktioniert nicht für Version XLS
 (CELLSJAVA-40714) - Cell Ränder wurden auf undurchsichtigen Zellen gerendert
 (CELLSJAVA-40710) – Kleiner als gleich Berechnungsfehler
 (CELLSJAVA-40715) – Problem mit Wildcard-Parsing in der Formelberechnung
@@ -42,7 +42,7 @@ Fehler
 (CELLSJAVA-40729) – Extrahieren eines formatierten chinesischen Datumsproblems
 (CELLSJAVA-40728) - getStringValue() gibt #VALUE zurück!
 (CELLSJAVA-40722) – Die Validierung funktioniert nach der Konvertierung in das XLS-Format nicht
-(CELLSJAVA-40690) - XLSX zu PDF: Die Unterstreichung unter dem Hyperlink wird auf benachbarte Zeichenpositionen ausgedehnt
+(CELLSJAVA-40690) - XLSX bis PDF: Die Unterstreichung unter dem Hyperlink wird auf benachbarte Zeichenpositionen ausgedehnt
 
 Ausnahmen
 

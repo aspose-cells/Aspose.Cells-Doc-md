@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-18-3-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-42655|Raggruppa i campi pivot nella tabella pivot|Nuova caratteristica|
 |CELLSNET-45960|Cambia il punto da NumPad al separatore decimale (',') - Aspose.Cells.GridWeb|Nuova caratteristica|
@@ -24,18 +24,18 @@ url: /it/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45920|La sottolineatura del testo "KEY DRIVERS:" è interrotta nell'immagine di output|Insetto|
 |CELLSNET-45939|Oltre alla sottolineatura interrotta, anche il testo è disallineato, come mostrato nello screenshot fornito|Insetto|
 |CELLSNET-45890|Alcune forme non vengono renderizzate completamente in quanto mancano alcune parti|Insetto|
-|CELLSNET-45878|Il file Excel di output della nuova versione arresta in modo anomalo Microsoft Excel 2016|Insetto|
+|CELLSNET-45878|Il file Excel di output della nuova versione blocca Excel 2016 Microsoft|Insetto|
 |CELLSNET-43360|Problema di stile con il rendering da HTML a Excel|Insetto|
 |CELLSNET-45979|Il calcolo della formula CERCA.VERT non funziona correttamente|Insetto|
 |CELLSNET-45949|Cell l'allineamento del testo (con caratteri misti) viene modificato nell'immagine convertita|Insetto|
-|CELLSNET-45940|Formattazione condizionale non applicata durante la conversione di file Excel in formato file PDF|Insetto|
-|CELLSNET-45896|I bordi indesiderati appaiono intorno all'immagine quando il file Excel viene salvato in PDF|Insetto|
+|CELLSNET-45940|Formattazione condizionale non applicata durante la conversione del file Excel nel formato file PDF|Insetto|
+|CELLSNET-45896|bordi indesiderati appaiono intorno all'immagine quando il file Excel viene salvato in PDF|Insetto|
 |CELLSNET-45942|Il riferimento di cella per l'etichetta dati viene perso dopo l'apertura/salvataggio|Insetto|
 |CELLSNET-45923|L'ultima etichetta dell'asse, ad esempio il 17 giugno, non è presente nell'immagine del grafico|Insetto|
 |CELLSNET-45911|Posizione e linea errate nel rendering del grafico del rischio di mercato|Insetto|
 |CELLSNET-45908|Posizione errata nel rendering del grafico|Insetto|
 |CELLSNET-45906|Etichetta mancante nel rendering del grafico|Insetto|
-|CELLSNET-45884|Grafico Smart Art su linguetta: i bordi dei coni sono frastagliati nel formato di file PDF di output|Insetto|
+|CELLSNET-45884|Grafico Smart Art su linguetta: i bordi dei coni sono frastagliati nel formato file di output PDF|Insetto|
 |CELLSNET-45989|Le finestre di dialogo non vengono salvate correttamente nei file XLSM|Insetto|
 |CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) non funziona per i file XLS|Insetto|
 |CELLSNET-45946|Il collegamento ipertestuale con trattino nello schema si interrompe durante il salvataggio|Insetto|
@@ -53,12 +53,12 @@ url: /it/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45987|Eccezione all'apertura di un file XLSX tramite API Aspose.Cells|Eccezione|
 |CELLSNET-45951|La formula non valida genera un'eccezione all'avvio|Eccezione|
 |CELLSNET-45950|Eccezione durante il caricamento di un file ODS|Eccezione|
-|CELLSNET-45947|Eccezione: formula non valida:"=sheet3!#ref!" quando si apre un file XLSX|Eccezione|
-|CELLSNET-45938|System.IndexOutOfRangeException all'apertura di file XLSB|Eccezione|
+|CELLSNET-45947|Eccezione: formula non valida:"=sheet3!#ref!" all'apertura di un file XLSX|Eccezione|
+|CELLSNET-45938|System.IndexOutOfRangeException all'apertura dei file XLSB|Eccezione|
 |CELLSNET-45937|System.FormatException si verifica durante l'apertura del file XLSX|Eccezione|
 |CELLSNET-45903|Il caricamento di XLSX causa StackOverflowException|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà HtmlSaveOptions.ExportSimilarBorderStyle**
 Indica se esportare lo stile del bordo simile quando lo stile del bordo non è supportato dai browser. Se desideri importare il file HTML o MHT in Excel, mantieni il valore predefinito. Il valore predefinito è falso.
 #### **Aggiunge la proprietà Axis.AxisLabels**

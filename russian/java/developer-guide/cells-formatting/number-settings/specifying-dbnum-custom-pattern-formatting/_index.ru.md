@@ -6,7 +6,7 @@ url: /ru/java/specifying-dbnum-custom-pattern-formatting/
 ---
 ## **Возможные сценарии использования**
 
-Aspose.Cells поддерживает*DBNum*форматирование пользовательского шаблона. Например, если значение вашей ячейки равно 123, и вы укажете его пользовательское форматирование как [DBNum2][$-804]Общее, оно будет отображаться как 壹佰贰拾叁. Вы можете указать собственное форматирование ячейки, используя[**Cell.получить стиль()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()) а также[**Стиль.setCustom()**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)методы.
+Aspose.Cells поддерживает*DBNum*форматирование пользовательского шаблона. Например, если значение вашей ячейки равно 123, и вы укажете его пользовательское форматирование как [DBNum2][$-804]Общее, оно будет отображаться как 壹佰贰拾叁. Вы можете указать собственное форматирование ячейки, используя[**Cell.получить стиль()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle()) и[**Стиль.setCustom()**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom)методы.
 
 ## **Образец кода**
 

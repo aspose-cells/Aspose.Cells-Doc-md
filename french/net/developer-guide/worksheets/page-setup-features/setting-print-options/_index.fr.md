@@ -23,19 +23,19 @@ Ces options d'impression permettent aux utilisateurs de :
 - Erreurs de cellule d'impression.
 - Définissez l'ordre des pages.
 
- Aspose.Cells prend en charge toutes les options d'impression offertes par Microsoft Excel et les développeurs peuvent facilement configurer ces options pour les feuilles de calcul en utilisant les propriétés offertes par le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)classer. La façon dont ces propriétés sont utilisées est décrite ci-dessous plus en détail.
+ Aspose.Cells prend en charge toutes les options d'impression offertes par Microsoft Excel et les développeurs peuvent facilement configurer ces options pour les feuilles de calcul en utilisant les propriétés offertes par le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)classe. La façon dont ces propriétés sont utilisées est décrite ci-dessous plus en détail.
 
 ### **Définir la zone d'impression**
 
 Par défaut, la zone d'impression intègre toutes les zones de la feuille de calcul qui contiennent des données. Les développeurs peuvent établir une zone d'impression spécifique de la feuille de calcul.
 
- Pour sélectionner une zone d'impression spécifique, utilisez les[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classer'[**Zone d'impression**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)propriété. Attribuez une plage de cellules qui définit la zone d'impression à cette propriété.
+ Pour sélectionner une zone d'impression spécifique, utilisez les[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**Zone d'impression**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printarea)la propriété. Attribuez une plage de cellules qui définit la zone d'impression à cette propriété.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintArea-1.cs" >}}
 
 ### **Définir les titres d'impression**
 
- Aspose.Cells vous permet de désigner des en-têtes de ligne et de colonne à répéter sur toutes les pages d'une feuille de calcul imprimée. Pour ce faire, utilisez le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classer'[**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) et[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)Propriétés.
+ Aspose.Cells vous permet de désigner des en-têtes de ligne et de colonne à répéter sur toutes les pages d'une feuille de calcul imprimée. Pour ce faire, utilisez le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) classe'[**PrintTitleColumns**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlecolumns) et[**PrintTitleRows**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printtitlerows)Propriétés.
 
 Les lignes ou les colonnes qui seront répétées sont définies en passant leurs numéros de ligne ou de colonne. Par exemple, les lignes sont définies comme $1:$2 et les colonnes sont définies comme $A:$B.
 
@@ -43,7 +43,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 ### **Définir d'autres options d'impression**
 
- La[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)La classe fournit également plusieurs autres propriétés pour définir les options d'impression générales comme suit :
+ Le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)La classe fournit également plusieurs autres propriétés pour définir les options d'impression générales comme suit :
 
 - [**PrintGridlines**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printgridlines)une propriété booléenne qui définit s'il faut imprimer ou non le quadrillage.
 - [**Imprimer les en-têtes**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printheadings): une propriété booléenne qui définit s'il faut imprimer ou non les en-têtes de ligne et de colonne.
@@ -56,7 +56,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
  Les valeurs prédéfinies dans le[**ImprimerCommentairesType**](https://reference.aspose.com/cells/net/aspose.cells/printcommentstype)énumération sont énumérés ci-dessous avec leurs descriptions.
 
-|**Imprimer les types de commentaires**|**La description**|
+|**Imprimer les types de commentaires**|**Description**|
 |:- |:- |
 |Impression sur place|Indique d'imprimer les commentaires tels qu'ils sont affichés sur la feuille de calcul.|
 |ImprimerPas de commentaire|Spécifie de ne pas imprimer les commentaires.|
@@ -66,7 +66,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 
 
-|**Types d'erreurs d'impression**|**La description**|
+|**Types d'erreurs d'impression**|**Description**|
 |:- |:- |
 |ImprimerErreursVide|Spécifie de ne pas imprimer les erreurs.|
 |PrintErrorsDash|Indique d'imprimer les erreurs sous la forme "--".|
@@ -77,7 +77,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
 ### **Définir l'ordre des pages**
 
- La[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la classe fournit la[**Ordre**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit.
+ Le[**Mise en page**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) la classe fournit la[**Ordre**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/order)propriété utilisée pour ordonner l'impression de plusieurs pages de votre feuille de calcul. Il existe deux possibilités pour ordonner les pages comme suit.
 
 - **En bas puis dessus :** imprime toutes les pages vers le bas avant d'imprimer les pages vers la droite.
 - **Dessus puis vers le bas :** imprime les pages de gauche à droite avant d'imprimer les pages ci-dessous.
@@ -86,7 +86,7 @@ Les lignes ou les colonnes qui seront répétées sont définies en passant leur
 
  Les valeurs prédéfinies du[**PrintOrderType**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)énumération sont énumérés ci-dessous.
 
-|**Types de commande d'impression**|**La description**|
+|**Types de commande d'impression**|**Description**|
 |:- |:- |
 |DownPuisPlus|Représente l'ordre d'impression en bas puis en haut.|
 |OverThenDown|Représente l'ordre d'impression comme dessus puis vers le bas.|

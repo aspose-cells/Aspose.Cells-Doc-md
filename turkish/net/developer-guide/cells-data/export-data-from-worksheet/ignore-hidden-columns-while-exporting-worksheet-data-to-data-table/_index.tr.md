@@ -6,7 +6,7 @@ url: /tr/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/
 ---
 {{% alert color="primary" %}}
 
- Bazen, çalışma sayfası verilerini bir veri tablosuna aktarırken gizli sütunları yok saymak isteyebilirsiniz. ayarlayarak Aspose.Cells kullanarak elde edebilirsiniz.[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) ile**doğru** . Varsayılan olarak, değeri**yanlış** , yani ayarlamanız gerekiyor**doğru** gizli sütunları yoksaymak için.
+ Bazen, çalışma sayfası verilerini bir veri tablosuna aktarırken gizli sütunları yok saymak isteyebilirsiniz. ayarlayarak Aspose.Cells kullanarak elde edebilirsiniz.[**ExportTableOptions.PlotVisibleColumns**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblecolumns) ile**doğru** . Varsayılan olarak, değeri**YANLIŞ** , yani ayarlamanız gerekiyor**doğru** gizli sütunları yoksaymak için.
 
 {{% /alert %}}
 

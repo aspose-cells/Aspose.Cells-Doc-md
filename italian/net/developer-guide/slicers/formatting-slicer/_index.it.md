@@ -6,7 +6,7 @@ url: /it/net/formatting-slicer/
 ---
 ## **Possibili scenari di utilizzo**
 
-Puoi formattare l'affettatrice in Microsoft Excel impostando il numero di colonne o impostando il suo stile ecc. Aspose.Cells ti consente anche di farlo utilizzando il[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)e[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)proprietà.
+Puoi formattare l'affettatrice in Microsoft Excel impostando il suo numero di colonne o impostandone lo stile ecc. Aspose.Cells ti consente anche di farlo usando il[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)e[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)proprietà.
 
 ## **Affettatrice di formattazione**
 
@@ -14,6 +14,6 @@ Si prega di vedere il seguente codice, carica il file[esempio di file Excel](673
 
 ![cose da fare:immagine_alt_testo](formatting-slicer_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Slicers-FormattingSlicer.cs" >}}

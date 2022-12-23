@@ -16,7 +16,7 @@ Este artículo muestra cómo crear una página web simple usando ColdFusion y us
 
 Con Aspose.Cells, los desarrolladores pueden exportar datos, formatear hojas de cálculo con todos los detalles y en todos los niveles, importar imágenes, importar gráficos, crear gráficos, manipular gráficos, transmitir Microsoft datos de Excel, guardar en varios formatos, incluidos XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/) integrado) y muchos más.
 
- Para obtener más información sobre el producto, las funciones y la guía del programador, consulte la documentación Aspose.Cells y las funciones en línea[población](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Puedes[descargar](https://downloads.aspose.com/cells/java) y evaluarlo gratis.
+ Para obtener más información sobre el producto, las funciones y la guía del programador, consulte la documentación Aspose.Cells y las funciones en línea[población](https://github.com/aspose-cells/Aspose.Cells-for-Java) . Usted puede[descargar](https://downloads.aspose.com/cells/java) y evaluarlo gratis.
 
 ### **requisitos previos**
 
@@ -26,7 +26,7 @@ No olvide reiniciar el servidor de aplicaciones ColdFusion después de colocar n
 
 ### **Uso de Aspose.Cells for Java y ColdFusion para crear un archivo de Excel**
 
-A continuación, creamos una aplicación simple que genera un archivo de Excel Microsoft vacío, inserta algún contenido y lo guarda como un archivo XLS.
+A continuación, creamos una aplicación simple que genera un archivo Excel Microsoft vacío, inserta algún contenido y lo guarda como un archivo XLS.
 
 El siguiente es el código real (ColdFusion & Aspose.Cells for Java). Después de ejecutar el código, se genera un archivo de Excel, output.xls.
 

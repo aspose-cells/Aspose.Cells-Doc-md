@@ -6,7 +6,7 @@ url: /it/java/setting-page-options-in-php/
 ---
 ## **Aspose.Cells - Impostazione Opzioni Pagina**
 ### **Orientamento della pagina**
- Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Giava for PHP** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
+ Per applicare le impostazioni di orientamento della pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**orientamento_pagina** metodo di**impostazione della pagina** modulo.
 
 **Codice PHP**
 
@@ -46,7 +46,7 @@ url: /it/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ### **Fattore di scala**
- Per applicare il ridimensionamento utilizzando**Aspose.Cells Giava for PHP** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
+ Per applicare il ridimensionamento utilizzando**Aspose.Cells Java for PHP** , chiamata**ridimensionamento** metodo di**impostazione della pagina** modulo.
 
 **Codice PHP**
 
@@ -85,6 +85,6 @@ url: /it/java/setting-page-options-in-php/
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Impostazione opzioni pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Impostazione opzioni pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/PageSetupFeatures/SettingPageOptions.php)

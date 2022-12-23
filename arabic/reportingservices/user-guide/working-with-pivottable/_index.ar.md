@@ -64,7 +64,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  في Microsoft Excel ، من**إدراج** القائمة ، حدد**اسم** وثم**حدد**.
+1.  في Microsoft Excel ، من**إدراج** القائمة ، حدد**اسم** وثم**تعرف**.
 1. حدد اسمًا باسم "المبيعات".
  يبدأ نطاق الاسم بالخلية الأولى من عنوان الرأس وينتهي عند الخلية الأخيرة في صف بيانات الجدول كما هو موضح أدناه.
 
@@ -93,7 +93,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  انقر**إنهاء**. 
+1.  انقر**ينهي**. 
 
 ![ما يجب القيام به: image_بديل_نص](working-with-pivottable_5.png)
 

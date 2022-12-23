@@ -20,7 +20,7 @@ Aspose.Cells for Java 已更新到版本 8.1.2，我们很高兴地宣布此版�
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-40875) - 在呈现电子表格时获取字体替换警告
 
@@ -28,13 +28,13 @@ Aspose.Cells for Java 已更新到版本 8.1.2，我们很高兴地宣布此版�
 
 (CELLSJAVA-40900) - 公共 API 方法的混淆
 (CELLSJAVA-40891) - 加载完全损坏的电子表格时进程挂起
-(CELLSJAVA-40883) - 导入 CSV 时出现日期格式问题
+(CELLSJAVA-40883) - 导入时日期格式问题 CSV
 (CELLSJAVA-40872) - worksheet.getCells().importResultSet，从日期列开始的时间始终为 00:00
 
 虫子
 
 (CELLSJAVA-40866) - 转换为 HTML 不支持 SaveOptions 中的 ImageFormat
-(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN 导致单元格在生成的 HTML 中移动（跨越问题）
+(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN 导致单元格移动结果 HTML（跨越问题）
 (CELLSJAVA-40835) - 呈现的 HTML 文件中的隐藏列导出问题
 (CELLSJAVA-40879) - 创建数据范围的图像时出现问题（工作表到图像）
 (CELLSJAVA-40878) - 在将电子表格保存为 Jpeg 图像时设置垂直和水平分辨率不会生效
@@ -46,10 +46,10 @@ Aspose.Cells for Java 已更新到版本 8.1.2，我们很高兴地宣布此版�
 (CELLSJAVA-40898) - Sheet17 中的数据截断问题
 (CELLSJAVA-40886) - 重新保存 Excel 文件时系列标记损坏
 (CELLSJAVA-40885) - 图表以输出图像格式导出缺失数据点形状
-(CELLSJAVA-40869) - 公式缺少字形并且某些格式化文本在呈现的 PDF 文件中被截断
+(CELLSJAVA-40869) - 方程缺少字形并且某些格式化文本在呈现的 PDF 文件中被截断
 (CELLSJAVA-40865) - 输出 pdf 中的图像不清晰
 (CELLSJAVA-40860) - 重新保存模板 XLSX 文件时图表中的气泡属性发生变化
-(CELLSJAVA-40859) - 重新保存模板 XLSX 文件时，图表中的气泡属性发生了变化
+(CELLSJAVA-40859) - 重新保存模板 XLSX 文件时图表中的气泡属性发生变化
 (CELLSJAVA-40858) - Column100PercentStacked 或 Bar 标签属性丢失
 (CELLSJAVA-40817) - 输出 pdf 中的图像变得模糊
 (CELLSJAVA-40880) - 在运行时通过 Aspose.Cells 添加 DateTime 值时未检测到 DateTime 类型

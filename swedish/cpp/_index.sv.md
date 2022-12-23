@@ -12,7 +12,7 @@ description:  Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det m�
 
 **Välkommen till Aspose.Cells for C++**
 
-Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att behöva Office Automation eller Microsoft Excel-applikation. Aspose.Cells for C++ stöder kalkylbladsformat som MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML och andra format. Du kan också rendera bilder från kalkylblad och konvertera MS Excel-kalkylblad till PDF-format. Med API kan du också skapa, manipulera och rendera diagram och former. Dessutom är formelberäkningar en annan bra aspekt som tillhandahålls av komponenten och du kan använda den.
+Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att behöva Office Automation eller Microsoft Excel-applikation. nr Du kan också rendera bilder från kalkylblad och konvertera MS Excel-kalkylblad till PDF-format. Med API kan du också skapa, manipulera och återge diagram och former. Dessutom är formelberäkningar en annan bra aspekt som tillhandahålls av komponenten och du kan använda den.
 
 {{% /alert %}}
 

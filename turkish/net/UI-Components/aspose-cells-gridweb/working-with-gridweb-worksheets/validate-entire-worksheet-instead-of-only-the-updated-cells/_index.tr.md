@@ -9,4 +9,4 @@ GridWeb varsayılan olarak yalnızca güncellenen hücreleri doğrular ve tüm �
 ## **Yalnızca güncellenen hücreler yerine tüm çalışma sayfasını doğrulayın**
 Aşağıdaki ekran görüntüsü, acwmain.js'deki needValidateall değişkenini görüntüler. Lütfen bunu doğru olarak ayarlayın ve şimdi GridWeb yalnızca güncellenmiş hücreleri değil tüm çalışma sayfanızı doğrulayacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](validate-entire-worksheet-instead-of-only-the-updated-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](validate-entire-worksheet-instead-of-only-the-updated-cells_1.png)

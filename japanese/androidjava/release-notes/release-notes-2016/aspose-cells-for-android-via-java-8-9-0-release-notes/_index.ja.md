@@ -6,72 +6,72 @@ url: /ja/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 ---
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSJAVA-41664|条件付き書式に基づく DataBar の HTML へのエクスポート|新機能|
-|CELLSJAVA-40746|XLSX を HTML にエクスポートする際に ColorScale、DataBar、IconSet をサポート|新機能|
+|CELLSJAVA-41664|条件付き書式に基づく DataBar を HTML にエクスポートする|新機能|
+|CELLSJAVA-40746|XLSX から HTML へのエクスポート中に ColorScale、DataBar、IconSet をサポート|新機能|
 |CELLSJAVA-41820|ワークシートにはメソッド calcualteFormula(String formula, CalculationOptions options) がありません|新機能|
 |CELLSJAVA-40544|Workbook.calculateFormula のパフォーマンスのボトルネック|強化|
 |CELLSJAVA-41817|PivotField に ShowAllItems を設定しても効果がないようです|バグ|
-|CELLSJAVA-41810|文字が密集し、EMF 画像に重なっている|バグ|
+|CELLSJAVA-41810|EMF の画像でテキストが密集して重なっています|バグ|
 |CELLSJAVA-41801|EMF 画像でテキスト ラベルが重なっている|バグ|
 |CELLSJAVA-41834|ワークブックのコピー時に例外がスローされる|バグ|
 |CELLSJAVA-41819|スプレッドシートから HTML: ソース スプレッドシートからテーマをコピーした後、シェイプ内のテキストの配置が正しくない|バグ|
-|CELLSJAVA-41824|出力 PDF でグラフがレンダリングされない|バグ|
+|CELLSJAVA-41824|グラフが出力に表示されない PDF|バグ|
 |CELLSJAVA-41805|グラフの PDF に X 軸のラベルがありません|バグ|
-|CELLSJAVA-41767|グラフの PDF の X 軸ラベルの数値形式が正しくない|バグ|
-|CELLSJAVA-41640|チャートの出力 PDF/画像で長いハイフンが適切に表示されない|バグ|
-|CELLSJAVA-41604|グラフの水平グリッド線が PDF で正しく表示されない|バグ|
+|CELLSJAVA-41767|グラフの PDF の X 軸ラベルの数値形式が正しくありません|バグ|
+|CELLSJAVA-41640|長いハイフンが出力に適切に表示されない PDF/グラフの画像|バグ|
+|CELLSJAVA-41604|PDF でチャートの水平グリッド線が正しく表示されない|バグ|
 |CELLSJAVA-41832|ワークシートを画像にレンダリングする際に、いくつかのグラフ バーが欠落する|バグ|
 |CELLSJAVA-41837|Chart.toPDF(java.io.OutputStream, com.aspose.cells.PdfSaveOptions)を追加|バグ|
 |CELLSJAVA-41839|名前付き範囲内で Cells.copyRow() メソッドが使用されると、名前付き範囲が作成されます|バグ|
 |CELLSJAVA-41838|シートに autoSizeColumns を適用すると、列が適切に拡張されません|バグ|
-|CELLSJAVA-41835|スプレッドシートを PDF に保存する際の CellsException|例外|
+|CELLSJAVA-41835|スプレッドシートを PDF に保存中に CellsException が発生する|例外|
 |CELLSJAVA-41826|NaN 例外|例外|
 |CELLSJAVA-41848|グラフを画像にレンダリングする際に特定のデータ ラベルが表示されない|バグ|
 |CELLSJAVA-41850|CellsException: Cell が削除されました: D9 with MemorySetting.MEMORY_PREFERENCE|例外|
 |CELLSJAVA-41844|例外: 「形状から画像へのエラー!」ワークシートを画像にレンダリングするとき|例外|
 |CELLSJAVA-41866|テキスト オプションの凡例エントリ プロパティを設定する方法|新機能|
 |CELLSJAVA-41865|各行の水平方向の配置が異なる TextBox を作成する|新機能|
-|CELLSJAVA-41873|HTML への変換により冗長な空の行がレンダリングされる|バグ|
-|CELLSJAVA-41869|テンプレートの XLS ファイルを再保存すると、テキストの配置が変更される|バグ|
-|CELLSJAVA-41854|HTML に正しく変換されていない DataBars を含む Excel ファイル|バグ|
+|CELLSJAVA-41873|HTML に変換すると、冗長な空の行がレンダリングされます|バグ|
+|CELLSJAVA-41869|テンプレート XLS ファイルを再保存すると、テキストの配置が変更される|バグ|
+|CELLSJAVA-41854|DataBars を含む Excel ファイルが HTML に正しく変換されない|バグ|
 |CELLSJAVA-41851|Aspose.Cells で作成されたピボット グラフが Excel 2016 for MAC に表示されない|バグ|
-|CELLSJAVA-41840|Aspose.Cells リソース HTML のパスの末尾に null を追加します|バグ|
+|CELLSJAVA-41840|Aspose.Cells は、リソース HTML のパスの末尾に null を追加します|バグ|
 |CELLSJAVA-41878|LightCells API は、行の最初の列のイベントのみを生成します|バグ|
-|CELLSJAVA-41859|Cell XLS を再保存すると境界線が表示される|バグ|
-|CELLSJAVA-41888|XLS から PDF への変換中にロゴ画像が失われる|バグ|
-|CELLSJAVA-41874|レンダリングされた PDF の文字位置が XLS ファイルと異なる|バグ|
+|CELLSJAVA-41859|Cell 再保存後に境界線が表示される XLS|バグ|
+|CELLSJAVA-41888|XLS を PDF に変換中にロゴ画像が失われる|バグ|
+|CELLSJAVA-41874|レンダリングされた PDF と XLS ファイルの文字位置が異なる|バグ|
 |CELLSJAVA-41852|Linux でワークシートを EMF に変換するとテキストが重なる|バグ|
-|CELLSJAVA-41823|Excelで作成したPDFと比べて文字密度や改行が違う|バグ|
-|CELLSJAVA-41822|スプレッドシートを PDF にレンダリングしているときに、テキストがトリミングされたり重なったりする|バグ|
+|CELLSJAVA-41823|Excel生成PDFと比べると文字密度や改行が違う|バグ|
+|CELLSJAVA-41822|スプレッドシートを PDF にレンダリングしているときに、テキストがトリミングされてオーバーラップする|バグ|
 |CELLSJAVA-41856|グラフを PDF にレンダリングする際の問題|バグ|
 |CELLSJAVA-41855|Excel ファイルを開いて保存すると、傾向線が変化します|バグ|
 |CELLSJAVA-41890|ワークブックを 2 回保存すると、2 回目に保存される内容は 1 回目とは異なります|バグ|
 |CELLSJAVA-41884|Excel ファイルに保存する前に並べ替えられない改ページに関する問題|バグ|
 |CELLSJAVA-41876|Aspose.Cells API で開いて保存し、再度開いて保存するとファイルが破損する|バグ|
-|CELLSJAVA-41867|XLS ファイルを再保存した後に変更されたグラフ軸の値|バグ|
+|CELLSJAVA-41867|XLS ファイルを再保存した後にグラフ軸の値が変更されました|バグ|
 |CELLSJAVA-41861|Excel XLS ファイルの読み込み中に NullReferenceException が発生する|バグ|
 |CELLSJAVA-41298|Aspose.Cells API からワードアート図形の書式設定に関する正確な情報を取得できない|バグ|
 |CELLSJAVA-40366|埋め込まれたアイコンの問題 - 印刷されない|バグ|
 |CELLSJAVA-41883|CellsException: 不明なアドイン関数の種類: 9、Workbook.calculateFormula で|例外|
 |CELLSJAVA-41858|CellsException: Workbook.calculateFormula での Cell[0BMW CAN バス コード V0.4!R4] の計算エラー|例外|
-|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: XLS の再保存中に Workbook.save で 4|例外|
-|CELLSJAVA-41864|例外: java.lang.IllegalStateException: 無効なエンコード: XLS ファイルの再保存時に null|例外|
-|CELLSJAVA-41901|出力 PDF でバーが上に移動している|強化|
+|CELLSJAVA-41870|java.lang.ArrayIndexOutOfBoundsException: 再保存中の Workbook.save で 4 XLS|例外|
+|CELLSJAVA-41864|例外: java.lang.IllegalStateException: 無効なエンコーディング: XLS ファイルの再保存時に null|例外|
+|CELLSJAVA-41901|バーは出力 PDF で上向きに移動しています|強化|
 |CELLSJAVA-41909|ワークブックのカスタム数値の小数点およびグループ区切り記号の指定が機能しない|バグ|
 |CELLSJAVA-41895|数式の計算結果が Excel ネイティブの計算と異なる|バグ|
 |CELLSJAVA-41917|SheetRender.toImage() メソッドを使用すると、チェックボックスが正しくレンダリングされない|バグ|
 |CELLSJAVA-41903|PDF へのレンダリング中に文字の向きが異なる|バグ|
-|CELLSJAVA-41896|Excel から PDF への変換で一部の文字が欠落しているか、正しく貼り付けられない|バグ|
+|CELLSJAVA-41896|一部の文字が欠落しているか、Excel に正しく貼り付けられていない PDF 変換|バグ|
 |CELLSJAVA-41740|一部の DataBar 画像が空白です|バグ|
 |CELLSJAVA-41769|グラフのバーが PDF のセルと正しく整列していない|バグ|
 |CELLSJAVA-41905|スプレッドシートを EMF にレンダリングした後のバーの位置ずれ|バグ|
 |CELLSJAVA-41894|スプレッドシートを PDF にレンダリングする際の文字スペースの問題|バグ|
-|CELLSJAVA-41893|出力 PDF の背景画像が歪んでいるかぼやけている|バグ|
-|CELLSJAVA-41892|出力 PDF で背景画像が引き伸ばされる|バグ|
+|CELLSJAVA-41893|出力の背景画像が歪んでいるかぼやけている PDF|バグ|
+|CELLSJAVA-41892|背景画像が出力で引き伸ばされる PDF|バグ|
 |CELLSJAVA-41916|Cells.copyColumns の使用中に外部数式参照が壊れる|バグ|
 |CELLSJAVA-41915|テキスト置換後の XLSX ファイルの破損|バグ|
 |CELLSJAVA-41912|名前付き範囲を参照するスプレッドシートの removeFormula の問題|バグ|
-|CELLSJAVA-41899|FileFormatUtil.detectFileFormat で XLSX ロード形式を検出できない|バグ|
+|CELLSJAVA-41899|FileFormatUtil.detectFileFormat で XLSX ロード フォーマットを検出できない|バグ|
 |CELLSJAVA-41328|frenchCommonWords.xlsx のテキスト ブロックの損失|バグ|
 |CELLSJAVA-40307|テキストオーバーフローチェック|バグ|
 |CELLSJAVA-41919|CellsException: 2"="Stra?e zu breit",", at Workbook ctor|例外|
@@ -101,7 +101,7 @@ url: /ja/java/aspose-cells-for-android-via-java-8-9-0-release-notes/
 ### **OleObject.AutoLoad プロパティを追加します**
 親ブックが開かれたときに、埋め込みオブジェクトのホスト アプリケーションを呼び出してオブジェクト データを自動的に読み込むかどうかを指定します。
 ### **HTMLLoadOptions.SupportDivTag プロパティを追加**
-のレイアウトをサポートするかどうかを示します<div>HTML ファイルが含まれている場合のタグ<div>タグ。デフォルト値は false です。
+のレイアウトをサポートするかどうかを示します<div>HTML ファイルに含まれるタグ<div>タグ。デフォルト値は false です。
 ### **HtmlSaveOptions.ExportGridLines プロパティを追加します**
 グリッド線をエクスポートするかどうかを示します。デフォルト値は false です。
 ### **ShapeTextAlignment.TextShapeType プロパティを追加**

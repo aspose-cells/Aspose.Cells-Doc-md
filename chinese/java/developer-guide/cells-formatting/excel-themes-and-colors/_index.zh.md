@@ -10,7 +10,7 @@ url: /zh/java/excel-2007-themes-and-colors/
 
 **在 Microsoft Excel 中应用主题**
 
-![待办事项：图像_替代_文本](excel-2007-themes-and-colors_1.png)
+![待办事项：图片_替代_文本](excel-2007-themes-and-colors_1.png)
 
 {{% /alert %}}
 
@@ -36,13 +36,13 @@ Aspose.Cells API 提供自定义主题和颜色的功能。下面是一些实现
 
 **模板 CustomThemeColor.xlsx 文件**
 
-![待办事项：图像_替代_文本](excel-2007-themes-and-colors_2.png)
+![待办事项：图片_替代_文本](excel-2007-themes-and-colors_2.png)
 
 以下示例加载模板 XLSX 文件，为不同的主题颜色类型定义颜色，应用自定义颜色并保存 excel 文件。
 
 **生成的具有自定义主题颜色的文件**
 
-![待办事项：图像_替代_文本](excel-2007-themes-and-colors_3.png)
+![待办事项：图片_替代_文本](excel-2007-themes-and-colors_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomizingThemes-CustomizingThemes.java" >}}
 
@@ -54,7 +54,7 @@ Aspose.Cells API 提供自定义主题和颜色的功能。下面是一些实现
 
 **应用于工作表 D3 单元格的主题颜色** 
 
-![待办事项：图像_替代_文本](excel-2007-themes-and-colors_4.png)
+![待办事项：图片_替代_文本](excel-2007-themes-and-colors_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UseThemeColors-UseThemeColors.java" >}}
 

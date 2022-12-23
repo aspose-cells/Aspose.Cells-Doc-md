@@ -14,7 +14,7 @@ url: /zh/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 改变了什么：
 
- l 支持R/W Open Document Spreadsheet file(ODS): Cell data and style, Row/Column style, Merged Cells, Worksheet/Workbook properties, Document properties, Formula/Name.
+ l 支持读/写打开文档电子表格文件(ODS)：Cell数据和样式，行/列样式，合并Cells，工作表/工作簿属性，文档属性，公式/名称。
 
  l 支持设置共享公式。
 
@@ -42,9 +42,9 @@ url: /zh/java/aspose-cells-for-java-v2-0-1-hotfix-release-notes/
 
 |**问题编号** |**零件** |**概括** |
 |:- |:- |:- |
-|6722 |消耗臭氧层物质|读/写 ODS 文件|
+|6722 |ODS |读/写 ODS 文件|
 |7834 |Xls| Cell.getPrecedents|
-|6516 | HTML|将工作表保存为 html 格式的流。|
+|6516 |HTML |将工作表保存为 html 格式的流。|
 |7744 |Xls| R/W 加密文件：Microsoft 强加密提供程序。|
 |7745 |Xls|从 NSeries 集合中移除 ASeries。|
 |7571 | Xlsx|超链接。|

@@ -16,7 +16,7 @@ Die Seiteneinrichtungseinstellungen bieten auch mehrere Druckoptionen (auch als 
 - Seitenreihenfolge definieren
   **Druck-/Blattoptionen einstellen**
 
-Aspose.Cells unterstützt alle diese Druckoptionen und Entwickler können diese Optionen einfach für ihre gewünschten Arbeitsblätter konfigurieren, indem sie die verschiedenen Eigenschaften verwenden, die von der PageSetup-Klasse angeboten werden. Die Verwendung dieser Eigenschaften der PageSetup-Klasse wird unten ausführlicher erläutert.
+Aspose.Cells unterstützt alle diese Druckoptionen und Entwickler können diese Optionen einfach für ihre gewünschten Arbeitsblätter konfigurieren, indem sie die verschiedenen Eigenschaften verwenden, die von der PageSetup-Klasse angeboten werden. Die Verwendung dieser Eigenschaften der PageSetup-Klasse wird unten ausführlicher erörtert.
 ## **Druckbereich festlegen**
 Standardmäßig ist nur der Druckbereich ausgewählt, der den gesamten Bereich des Arbeitsblatts umfasst, der Daten enthält, aber Entwickler können auch einen bestimmten Druckbereich des Arbeitsblatts nach ihren Wünschen festlegen.
 

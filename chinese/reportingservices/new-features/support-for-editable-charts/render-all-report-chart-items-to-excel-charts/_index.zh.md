@@ -23,6 +23,6 @@ url: /zh/reportingservices/render-all-report-chart-items-to-excel-charts/
 
 **在 Excel 中编辑图表** 
 
-![待办事项：图像_替代_文本](render-all-report-chart-items-to-excel-charts_1.png)
+![待办事项：图片_替代_文本](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

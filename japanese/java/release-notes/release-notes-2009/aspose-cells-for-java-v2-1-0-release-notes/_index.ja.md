@@ -14,7 +14,7 @@ Aspose.Cells for Java v2.1.0 を発表できることをうれしく思います
 
 変更点:
 
-l Open Document Spreadsheet ファイル (ODS) の新機能を追加: ハイパーリンク、ページ設定オプション、グループ アウトライン、条件付き書式、データ検証、オートフィルター、改ページ、PrintTitleRows/Columns、図形関連オブジェクト (コメント、アーク、ボタン、チェック ボックス、コンボ ボックス) 、GroupBox、GroupShape、Label、Line、ListBox、OleObject、Oval、Picture、RadioButton、Rectangle、ScrollBar、Spinner、TextBox)、Chart。
+l Open Document Spreadsheet ファイル (ODS) に新しい機能を追加: ハイパーリンク、ページ設定オプション、グループ アウトライン、条件付き書式、データ検証、オートフィルター、改ページ、PrintTitleRows/Columns、図形関連オブジェクト (コメント、アーク、ボタン、チェック ボックス、コンボ ボックス) 、GroupBox、GroupShape、Label、Line、ListBox、OleObject、Oval、Picture、RadioButton、Rectangle、ScrollBar、Spinner、TextBox)、Chart。
 
 l MS Excel 2007 ファイル形式に新しい機能を提供します: 画像の挿入、グラフの追加。
 
@@ -28,9 +28,9 @@ l ハイパーリンク関数を計算します。
 
 l ユーザー定義の名前を削除します。
 
-Workbook/Worksheet をコピーするときに AutoFilter 属性を含めます。
+l Workbook/Worksheet をコピーするときに AutoFilter 属性を含めます。
 
-l xls2pdf 変換でのハイパーリンクのサポート。
+xls2pdf 変換でのハイパーリンクのサポート。
 
 l テンプレート ファイルで Ole オブジェクトを抽出します。
 
@@ -61,7 +61,7 @@ Aspose.Cells for Java v2.1.0 で解決された問題
 |9363|xls|水平フラグ付き SmartMarker:|
 |9364|xlsx|ユーザーの出力ストリームを閉じます|
 |9404|xls|Microsoft Jet Engine によって作成されたテンプレート ファイルの読み取り|
-|9264|CSV|CSVファイル形式のインポート/エクスポート|
+|9264|CSV|CSV ファイル形式のインポート/エクスポート|
 |9265|Xls2PDF|xls2pdfで結合されたセル|
 |9173|xlsx|Excel2007 ファイル形式の Style.isCellLocked() プロパティ|
 |9174|xls|PageSetup のヘッダー/フッターで画像のサイズを設定する|

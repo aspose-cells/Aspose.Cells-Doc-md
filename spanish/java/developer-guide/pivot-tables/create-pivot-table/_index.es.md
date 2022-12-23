@@ -15,7 +15,7 @@ url: /es/java/create-pivot-table/
 Los objetos de la tabla dinámica son:
 
 - [**campo pivote**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField): representa un campo en una tabla dinámica.
-- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) : representa una colección de todos los[**campo pivote**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objetos en la tabla dinámica.
+- [**PivotFieldCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotFieldCollection) representa una colección de todos los[**campo pivote**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotField)objetos en la tabla dinámica.
 - [**Tabla dinámica**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTable): representa una tabla dinámica.
 - [**Colección de tabla dinámica**](https://reference.aspose.com/cells/java/com.aspose.cells/PivotTableCollection): representa la colección de todos los objetos de la tabla dinámica en la hoja de cálculo.
 

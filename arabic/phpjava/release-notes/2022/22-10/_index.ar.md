@@ -14,7 +14,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-22-10-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44890|دعم استيراد ملف مع openpassword لـ GridWeb|
 |CELLSJAVA-44884| أرقام القائمة غير صحيحة بعد تحويل XLSX إلى HTML أو PDF|
-|CELLSJAVA-44883|تلف المصنف الذي يحتوي على جدول محوري بعد معالجة الجدول المحوري فيه|
+|CELLSJAVA-44883| تلف المصنف الذي يحتوي على جدول محوري بعد معالجة الجدول المحوري فيه|
 |CELLSJAVA-44879|كانت النتيجة المنسقة لـ GridWeb مختلفة عن Cell.DisplayStringValue|
 |CELLSJAVA-44327|تظهر الحدود وعدد أقل من الخطوط في شرائح دائرية بالأبيض والأسود في الرسم البياني لعرض الصورة|
 |CELLSJAVA-44853|البيانات الموجودة على زاوية المحور س ليست هي نفسها البيانات الموجودة في Excel في عرض الرسم البياني للصورة|
@@ -22,7 +22,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-22-10-release-notes/
 |CELLSJAVA-44904|مشاكل عند تقديم مخططات Excel لتحويل JPG|
 |CELLSJAVA-44850|عند استيراد ملف XLT ، لا يتم عرض النص بالكامل باستخدام أحدث العروض التوضيحية بأحدث إصدار Aspose.Cells.GridWeb مع أحدث ملفات الموارد|
 |CELLSJAVA-44857|عند استخدام إصدار Aspose.CellsGridWeb for Java v22.8 مع أحدث ملفات الموارد لفتح مستند Excel ، يختلف تأثير الخلايا عن المستند الأصلي|
-|CELLSJAVA-44903|عرض SVG لا يعمل كما هو متوقع|
+|CELLSJAVA-44903|التسليم SVG لا يعمل كما هو متوقع|
 |CELLSJAVA-44909| عندما يتم كتابة العديد من السطور بالخط العريض ، يبدو أنها تفيض إلى الأسطر الأخرى دون داع|
 |CELLSJAVA-44898|تؤدي القراءة من GZIPInputStream أحيانًا إلى ظهور خطأ زائف "الملف تالف" في 22.7 والإصدارات الأحدث|
 |CELLSJAVA-44881|استثناء "java.lang.ArrayIndexOutOfBoundsException: 15070" عند تحميل ملف XLS|

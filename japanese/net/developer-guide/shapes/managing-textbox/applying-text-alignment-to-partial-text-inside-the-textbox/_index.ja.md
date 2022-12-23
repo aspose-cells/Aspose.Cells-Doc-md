@@ -13,7 +13,7 @@ TextBox は、ドキュメントや図の表現力を向上させることがで
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "ApplyAlignmentToTextBox.cs" >}}
 
-適切な HTML テキストを使用して、TextBox 図形内の一部のテキストのテキスト配置を変更することもできます。次のサンプル コードは、TextBox 内の部分的なテキストにテキスト配置を適用します。
+また、適切な HTML テキストを使用して、TextBox 図形内の一部のテキストのテキスト配置を変更することもできます。次のサンプル コードは、TextBox 内の部分的なテキストにテキスト配置を適用します。
 
 [ソースファイル](SampleTextboxExcel2016.xlsx)
 

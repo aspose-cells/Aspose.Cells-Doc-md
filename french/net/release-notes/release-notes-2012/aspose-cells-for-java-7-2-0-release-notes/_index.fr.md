@@ -28,7 +28,7 @@ Aspose.Cells
 
 
 
- Exceptions
+ Des exceptions
 
 
 
@@ -44,7 +44,7 @@ Aspose.Cells
 
 
 - .NET Erreur de génération C++ C2686
-- Conversion d'un fichier XLS en format XLSX pour supprimer le formatage du texte
+- Conversion du fichier XLS en XLSX ignorer la mise en forme du texte
 - Copier des graphiques d'un classeur à un autre
 - Coloration des cellules corrompue après la copie de la feuille de calcul
 - Les hyperliens ne bougent pas avec les cellules triées
@@ -63,7 +63,7 @@ Aspose.Cells
 - Problème avec les cellules calculées lors de l'enregistrement au format PDF
 - Cells Le calcul est incorrect
 
- -Formatage personnalisé des valeurs de texte lors de l'exportation au format PDF
+ -Formatage personnalisé des valeurs de texte lors de l'exportation vers PDF
 
 - Problème avec la conversion d'Excel en PDF
 - Le classeur est corrompu en supprimant une feuille contenant un tableau croisé dynamique
@@ -84,13 +84,13 @@ Aspose.Cells
 - Problèmes d'enregistrement au format XLS avec l'option ClearData
 - Formatage conditionnel - Problèmes de compatibilité avec *.XLSB
 - Classeur corrompu après une simple ouverture\enregistrement
-- Excel produit un fichier XLS invalide lors de la conversion du fichier XLSX créé par Aspose.Cells
+- Excel produit un fichier XLS non valide lors de la conversion du fichier XLSX créé par Aspose.Cells
 
  -Save peut corrompre le classeur lorsque CurrentCulture n'est pas anglais
 
 
 
- \2) GrilleWeb
+ \2) Grille Web
 
 
 

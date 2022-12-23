@@ -10,7 +10,7 @@ url: /it/net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
 
 {{% /alert %}} 
 
-Abbiamo appena rilasciato Aspose.Grid v.
+ Abbiamo appena rilasciato Aspose.Grid v.
 
  Cosa è cambiato:
 
@@ -62,7 +62,7 @@ Abbiamo appena rilasciato Aspose.Grid v.
 
  Problemi risolti in Aspose.Grid 2.0.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |7942 | Griglia.Desktop| Imposta il valore dei tipi Single o float su celle visualizzate vuote.|
 |7970 | Griglia.Desktop| I bordi in basso a destra che non venivano mostrati normalmente.|

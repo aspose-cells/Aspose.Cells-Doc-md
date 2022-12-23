@@ -4,13 +4,13 @@ type: docs
 weight: 150
 url: /tr/net/managing-controls/
 ---
-## **giriiş**
+## **Giriş**
 
 Geliştiriciler, metin kutuları, onay kutuları, radyo düğmeleri, açılan kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yaylar, ovaller, döndürücüler, kaydırma çubukları, grup kutuları vb. gibi farklı çizim nesneleri ekleyebilir. tüm çizim nesneleri. Ancak, henüz desteklenmeyen birkaç çizim nesnesi veya şekli vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı elektronik tablosunda oluşturun ve ardından tasarımcı elektronik tablosunu Aspose.Cells'e aktarın. Aspose.Cells, bu çizim nesnelerini bir tasarımcı elektronik tablosundan yüklemenize ve oluşturulmuş bir dosyaya yazmanıza olanak tanır.
 
 ## **Çalışma Sayfasına Metin Kutusu Denetimi Ekleme**
 
- Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en çok satış yapılan coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells,[**Metin Kutusu Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) sınıf, koleksiyona yeni bir metin kutusu eklemek için kullanılır. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox), tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
+ Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en çok satış yapılan coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells,[**Metin Kutusu Koleksiyonu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textboxcollection) sınıf, koleksiyona yeni bir metin kutusu eklemek için kullanılır. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
 
 -  bu[**Metin Çerçevesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/textframe) özellik bir döndürür[**MsoTextÇerçevesi**](https://reference.aspose.com/cells/net/aspose.cells.drawing/msotextframe) metin kutusunun içeriğini ayarlamak için kullanılan nesne.
 -  bu[**Atama**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/placement) özellik yerleşim tipini belirtir.
@@ -45,7 +45,7 @@ Bir kullanıcıya doğru veya yanlış gibi iki seçenek arasında seçim yapmas
 1. Çalışma sayfası alanınızda, onay kutusunu ve onay kutusunun yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1. Onay kutusu yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
 1.  İçinde**Cell Bağlantı**alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -61,7 +61,7 @@ Aşağıdaki örnek, çalışma sayfasına bir onay kutusunun nasıl ekleneceği
 
 ## **Çalışma Sayfasına Radyo Düğmesi Denetimi Ekleme**
 
-Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir denetimdir. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
+Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir kontroldür. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
 
 ### **Microsoft Excel'i kullanma**
 
@@ -72,7 +72,7 @@ Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmı�
 1. Çalışma sayfasında, seçenek düğmesini ve seçenek düğmesinin yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
 1.  İçinde**Cell Bağlantı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -101,7 +101,7 @@ Veri girişini kolaylaştırmak veya girişleri tanımladığınız belirli öğ
 1. Çalışma sayfası alanınızda, birleşik giriş kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Birleşik giriş kutusu çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklatarak**Biçim Kontrolü** ve giriş aralığını belirtin.
 1.  İçinde**Cell Bağlantı** alanında, bu açılan kutunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -140,7 +140,7 @@ Liste kutusu denetimi, tekli veya çoklu öğe seçimine izin veren bir liste de
 1. Çalışma sayfası alanınızda, liste kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın.**Biçim Kontrolü** ve giriş aralığını belirtin.
 1.  İçinde**Cell Bağlantı**alanında, bu liste kutusunun bağlanması gereken hücrenin adresini belirtin ve seçim tipi (Tek, Çoklu, Genişlet) özniteliğini ayarlayın.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -167,7 +167,7 @@ Düğmeler, bazı eylemleri gerçekleştirmek için kullanışlıdır. Bazen, bi
 1.  Tıkla**Buton** alet.
 1. Çalışma sayfası alanınızda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın ve seçin.**Biçim Kontrolü**, ardından bir VBA Makrosu ve yazı tipi, hizalama, boyut, kenar boşluğu vb. ile ilgili öznitelikleri belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -186,7 +186,7 @@ Aşağıdaki örnek, çalışma sayfasına nasıl düğme ekleneceğini gösteri
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**Otomatik Şekiller** , işaret etmek**çizgiler**ve istediğiniz çizgi stilini seçin.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Otomatik Şekiller** , odaklan**çizgiler**ve istediğiniz çizgi stilini seçin.
 1. Çizgiyi çizmek için sürükleyin.
 1. Aşağıdakilerden birini veya her ikisini yapın:
  1. Çizgiyi başlangıç noktasından 15 derecelik açılarla çizmek üzere sınırlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -217,7 +217,7 @@ Aspose.Cells, çalışma sayfalarınıza dikdörtgen şekiller çizmenizi sağla
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**Dikdörtgen**.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Dikdörtgen**.
 1. Dikdörtgeni çizmek için sürükleyin.
 1. Aşağıdakilerden birini veya her ikisini yapın:
  1. Dikdörtgeni başlangıç noktasından kare çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -241,7 +241,7 @@ Aspose.Cells, çalışma sayfalarınıza yay şekilleri çizmenizi sağlar. Basi
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
 1. Yayı çizmek için sürükleyin.
 
 ### **Aspose.Cells'i kullanma**
@@ -264,7 +264,7 @@ Aspose.Cells, çalışma sayfalarında oval şekiller çizmenizi sağlar. Basit 
 
 ### **Microsoft Excel'i kullanma**
 
--  Üzerinde*Resim çizme* araç çubuğu, tıklayın*Oval*.
+-  Üzerinde*Çizim* araç çubuğu, tıklayın*Oval*.
 - Oval çizmek için sürükleyin.
 - Aşağıdakilerden birini veya her ikisini yapın:
 - Ovali başlangıç noktasından bir daire çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -297,7 +297,7 @@ Aşağıdaki örnek, çalışma sayfasına oval şekillerin nasıl ekleneceğini
 - Çalışma sayfası alanınızda, döndürücüyü tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 -  Döndürücü çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklayın ve tıklayın.*Biçim Kontrolü* ve maksimum, minimum ve artımlı değerleri belirtin.
 -  İçinde*Cell Bağlantı* alanında, bu döndürme kutusunun bağlanması gereken hücrenin adresini belirtin.
--  Tıklamak*TAMAM*.
+-  Tıklamak*Tamam*.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -323,13 +323,13 @@ Döndürme kutusu denetimine benzer şekilde çalışma sayfasındaki verileri s
 - Excel 2003 ve önceki sürümlerde kaydırma çubuğu eklemek için*Kaydırma çubuğu* üzerindeki düğme*Formlar* araç çubuğu ve ardından B2:B6 hücrelerini kaplayan ve yüksekliği sütunun genişliğinin dörtte biri kadar olan bir kaydırma çubuğu oluşturun.
 -  Excel 2007'de kaydırma çubuğu eklemek için*Geliştirici* sekme, tıklayın*Sokmak* ve ardından tıklayın*Kaydırma çubuğu* Form Kontrolleri bölümünde.
 -  Kaydırma çubuğuna sağ tıklayın ve ardından*Biçim Kontrolü*.
--  Aşağıdaki bilgileri yazın ve tıklayın*TAMAM*:
+-  Aşağıdaki bilgileri yazın ve tıklayın*Tamam*:
  - İçinde*Mevcut değer* kutu, tip 1.
- - İçinde*Minimum değer* kutusuna 1 yazın. Bu değer, kaydırma çubuğunun üst kısmını listedeki ilk öğeyle sınırlar.
+ - İçinde*En az değer* kutusuna 1 yazın. Bu değer, kaydırma çubuğunun üst kısmını listedeki ilk öğeyle sınırlar.
  - İçinde*Maksimum değer* kutusuna 20 yazın. Bu sayı, listedeki maksimum giriş sayısını belirtir.
  - İçinde*artımlı değişiklik* kutusuna 1 yazın. Bu değer, kaydırma çubuğu kontrolünün geçerli değeri kaç sayı artıracağını kontrol eder.
  - İçinde*sayfa değişikliği* kutusuna 5 yazın. Bu giriş, kaydırma kutusunun her iki tarafındaki kaydırma çubuğunun içini tıklatırsanız geçerli değerin ne kadar artırılacağını kontrol eder.
- G1 hücresine bir sayı değeri koymak için (listede hangi öğenin seçili olduğuna bağlı olarak), hücreye G1 yazın.*Cell bağlantı* kutu.
+ G1 hücresine bir sayı değeri koymak için (listede hangi öğenin seçili olduğuna bağlı olarak), hücreye G1 yazın.*Cell bağlantı* Kutu.
 - Kaydırma çubuğunun seçili olmaması için herhangi bir hücreye tıklayın.
 
 Kaydırma çubuğundaki yukarı veya aşağı kontrolünü tıklattığınızda, G1 hücresi, kaydırma çubuğunun geçerli değeri artı veya eksi kaydırma çubuğunun artımlı değişimini gösteren bir sayıya güncellenir.

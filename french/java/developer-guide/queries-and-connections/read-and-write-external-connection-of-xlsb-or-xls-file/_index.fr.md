@@ -1,16 +1,16 @@
 ﻿---
-title: Lire et écrire une connexion externe de fichier XLSB ou XLS
+title: Lire et écrire la connexion externe du fichier XLSB ou XLS
 type: docs
 weight: 80
 url: /fr/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells prend déjà en charge la connexion externe en lecture et en écriture du fichier XLSX, mais désormais, il prend également en charge cette fonctionnalité pour les fichiers XLSB et XLS. Cependant, le code est le même pour les deux types de format.
+Aspose.Cells prend déjà en charge la connexion externe en lecture et en écriture du fichier XLSX mais maintenant, il prend également en charge cette fonctionnalité pour les fichiers XLSB et XLS. Cependant, le code est le même pour les deux types de format.
 
 ## **Lire et écrire la connexion externe du fichier XLSB/XLS**
 
-L'exemple de code suivant charge l'exemple de fichier XLSB (XLS peut également être chargé) et lit sa première connexion externe qui est en fait une connexion Access DB Microsoft. Il modifie alors le[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)propriété et l'enregistre en tant que fichier XLSB de sortie. La capture d'écran montre l'effet du code sur[exemple de fichier XLSB](51740743.xlsb)et[fichier de sortie XLSB](51740742.xlsb)après son exécution. Veuillez également consulter la sortie de la console de l'exemple de code ci-dessous pour référence.
+L'exemple de code suivant charge l'exemple de fichier XLSB (XLS peut également être chargé) et lit sa première connexion externe qui est en fait une connexion Access DB Microsoft. Il modifie alors le[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)propriété et l'enregistre en tant que fichier de sortie XLSB. La capture d'écran montre l'effet du code sur[exemple de fichier XLSB](51740743.xlsb)et[fichier de sortie XLSB](51740742.xlsb)après son exécution. Veuillez également consulter la sortie de la console de l'exemple de code ci-dessous pour référence.
 
 ![tâche : image_autre_texte](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 

@@ -1,25 +1,25 @@
 ﻿---
-title: SpreadsheetML - XLSX ، XML
+title: SpreadsheetML-XLSX ، XML
 type: docs
 weight: 10
 url: /ar/net/spreadsheetml-xlsx-xml/
 ---
 ## **حول SpreadsheetML**
-SpreadsheetML هو اسم لعائلة من التنسيقات المستندة إلى XML لمستندات جداول البيانات. هناك عدة إصدارات من SpreadsheetML:
+SpreadsheetML هو اسم لمجموعة من التنسيقات المبنية على XML لوثائق جداول البيانات. هناك عدة إصدارات من SpreadsheetML:
 
 1. تم تقديم إصدار SpreadsheetML 2003 في Microsoft Word 2003. كان SpreadsheetML خطوة مهمة بحلول Microsoft نحو فتح تنسيق المستند.
 1. [Office Open XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) هو التنسيق الجديد المستند إلى XML والذي تم تقديمه في تطبيقات Office 2007 Microsoft. Office Open XML هو تنسيق حاوية للعديد من لغات الترميز القائمة على XML. SpreadsheetML version 2007 هي لغة الترميز المستخدمة بواسطة Microsoft Office Excel 2007 لتخزين مستنداته.
 1. Microsoft يقوم Excel 2010 بتخزين المستندات في SpreadsheetML الإصدار 2010 كما هو محدد في معيار OOXML المحدث.
 ## **SpreadsheetML في Aspose.Cells**
-تتوفر ثلاثة "إصدارات" من SpreadsheetML:
+تتوفر ثلاث "إصدارات" من SpreadsheetML:
 
-|**SpreadsheetML “الإصدار”**|**المعيار / المواصفات المعمول بها**|**معتمد في Aspose.Cells for .NET**|
+|**SpreadsheetML “نسخة”**|**المعيار / المواصفات المعمول بها**|**معتمد في Aspose.Cells for .NET**|
 |:- |:- |:- |
 |Microsoft Excel 2003|[Microsoft Excel 2003 XML](https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats)|نعم|
 |Microsoft Excel 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|نعم|
 |Microsoft Excel 2010|OOXML ISO / IEC DIS 29500|نعم|
 |Microsoft Excel 2013|OOXML ISO / IEC DIS 29500|نعم|
-غالبًا ما تأتي مستندات OOXML SpreadsheetML كملفات XLSX ، وهي عبارة عن حزم ZIP. بالإضافة إلى XLSX. يوفر Aspose.Cells دعمًا شاملاً لتحميل وحفظ وتحويل مستندات SpreadsheetML. هذا التنفيذ الشامل ممكن لأن Aspose.Cells تم تصميمه مع وضع بنية Microsoft في الاعتبار في مستندات Excel (ومن المعروف أن SpreadsheetML يحاكي التمثيل الداخلي لوثائق Excel Microsoft).
+غالبًا ما تأتي مستندات OOXML SpreadsheetML كملفات XLSX ، وهي عبارة عن حزم ZIP. بالإضافة إلى XLSX. يوفر Aspose.Cells دعمًا شاملاً لتحميل وحفظ وتحويل مستندات SpreadsheetML. مثل هذا التنفيذ الشامل ممكن لأن Aspose.Cells تم تصميمه مع وضع بنية Microsoft في الاعتبار لمستندات Excel (ومن المعروف أن SpreadsheetML يحاكي التمثيل الداخلي لوثائق Excel Microsoft).
 ### **OOXML مفتوح ، لماذا استخدم Aspose.Cells؟**
 صحيح أن تقنية Office Open XML تجعل من الممكن إنشاء معالجة المستندات وإنشاء التطبيقات باستخدام فئات XML فقط دون الاعتماد على مكتبات الطرف الثالث مثل Aspose.Cells. ومع ذلك ، فإننا نعتقد بشدة أنه لا يزال من المفيد جدًا استخدام Aspose.Cells عندما يكون لديك للتعامل مع مستندات OOXML ، بدلاً من العمل من خلال XML أو المكتبات الأخرى.
 

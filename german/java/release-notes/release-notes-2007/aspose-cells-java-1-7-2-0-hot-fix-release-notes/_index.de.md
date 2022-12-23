@@ -15,7 +15,7 @@ url: /de/java/aspose-cells-java-1-7-2-0-hot-fix-release-notes/
  Wir haben Aspose.Cells for Java V1.7.2 veröffentlicht! Folgende Verbesserungen und Fehlerbehebungen sind enthalten:
 
 - Unterstützt das Hinzufügen von Bildern zur Kopf-/Fußzeile der Seiteneinrichtung
- Unterstützt den Import von Seiteneinrichtung, Name, Schutz, Datenvalidierung und Dokumenteigenschaften aus der SpreadsheetML-Datei
- Unterstützt den Export von Seiteneinrichtung, Name, Schutz, Datenvalidierung und Dokumenteigenschaften in eine SpreadsheetML-Datei
+ Unterstützt den Import von Seiteneinrichtung, Name, Schutz, Datenvalidierung und Dokumenteigenschaften aus der Datei SpreadsheetML
+ Unterstützt den Export von Seiteneinrichtung, Name, Schutz, Datenvalidierung und Dokumenteigenschaften in die Datei SpreadsheetML
  Unterstützt die Berechnung weiterer integrierter Funktionen
  Behebt den Fehler beim Einstellen der automatischen Farbe der Schriftart im Diagramm.

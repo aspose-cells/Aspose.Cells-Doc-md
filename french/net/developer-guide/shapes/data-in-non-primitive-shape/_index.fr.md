@@ -10,9 +10,9 @@ Parfois, vous devez accéder aux données d'une forme qui n'est pas intégrée. 
 
 ## **Une forme non primitive**
 
- Dans Aspose.Cells, les formes non primitives sont affectées du type[**AutoShapeType.NotPrimitiveAutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Vous pouvez vérifier leur type à l'aide de la[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)propriété.
+Dans Aspose.Cells, les formes non primitives sont affectées du type[**AutoShapeType.NotPrimitiveAutoShapeType.NotPrimitive**](https://reference.aspose.com/cells/net/aspose.cells.drawing/autoshapetype) . Vous pouvez vérifier leur type à l'aide de la[**Shape.AutoShapeType**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/autoshapetype)la propriété.
 
- Accédez aux données de forme à l'aide de la[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)propriété. Il renvoie tous les chemins connectés qui composent la forme non primitive. Ces chemins sont du type[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)qui contient une liste de tous les segments qui à leur tour contiennent les points de chaque segment.
+ Accédez aux données de forme à l'aide de la[**Shape.Paths**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/paths)la propriété. Il renvoie tous les chemins connectés qui composent la forme non primitive. Ces chemins sont du type[**ShapePath**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapepath)qui contient une liste de tous les segments qui à leur tour contiennent les points de chaque segment.
 
 |**Montre un exemple de forme non primitive**|
 |:- |

@@ -8,7 +8,7 @@ keywords: c# merge and unmerge cells in a range, c# merge and unmerge cells in r
 ---
 {{% alert color="primary" %}}
 
- Puede usar Aspose.Cells para fusionar o dividir un rango de celdas. Aspose.Cells proporciona el[**Rango.Fusionar()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) y[**Rango.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) métodos para este propósito. Este artículo explica cómo fusionar un rango de celdas en una sola celda.
+ Puede usar Aspose.Cells para fusionar o dividir un rango de celdas. Aspose.Cells proporciona el[**Rango.Fusionar()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) y[**Rango.UnMerge()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/unmerge) métodos para este fin. Este artículo explica cómo fusionar un rango de celdas en una sola celda.
 
 {{% /alert %}}
 

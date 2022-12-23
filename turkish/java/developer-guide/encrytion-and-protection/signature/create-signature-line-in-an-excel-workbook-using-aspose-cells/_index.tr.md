@@ -16,6 +16,6 @@ url: /tr/java/create-signature-line-in-an-excel-workbook-using-aspose-cells/
 
  Aşağıdaki örnek kod, şunu kullanarak bir İmza Satırı ekler:[**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine)özelliği ve çalışma kitabını kaydeder. Ekran görüntüsü, çıktı çalışma kitabının Microsoft Excel'de nasıl göründüğünü gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateSignatureLine-CreateSignatureLine.java" >}}

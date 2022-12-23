@@ -24,23 +24,23 @@ url: /zh/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |CELLSJAVA-44853|x轴角度上的数据与excel图表转图片不一样|
 |CELLSJAVA-44854|y轴步长上的数据与Excel中图表转图像渲染不一样|
 |CELLSJAVA-44904|将 Excel 图表呈现为 JPG 转换时出现的问题|
-|CELLSJAVA-44850|导入XLT文件，使用最新Aspose.Cells.GridWeb版本最新资源文件的最新演示，文本显示不完整|
+|CELLSJAVA-44850|导入XLT文件，使用latest demos with latest Aspose.Cells.GridWeb version with latest resource files，文字显示不完整|
 |CELLSJAVA-44857|使用Aspose.Cells.GridWeb for Java v22.8版本最新资源文件打开Excel文档时，单元格效果与原文档不同|
 |CELLSJAVA-44903|SVG 再现未按预期工作|
 |CELLSJAVA-44909|当多行加粗时，似乎不必要地溢出到其他行|
-|CELLSJAVA-44888|“+”和“-”在转换后消失了——Excel 到 HTML 的渲染|
+|CELLSJAVA-44888|“+”和“-”在转换后消失了——Excel到HTML渲染|
 |CELLSJAVA-44775|图表中的图表标签重叠以进行图像渲染|
 |CELLSJAVA-44882|图表到图像渲染 - 其中一个标签位于圆环图内|
 |CELLSJAVA-44943|XLSX 到 PDF：图表标签未正确呈现|
-|CELLSJAVA-44928|XLS 到 PDF：图像数据不足|
-|CELLSJAVA-44910|将 Excel 转换为 HTML 会产生数千个类似的小图像|
+|CELLSJAVA-44928|XLS 至 PDF：图像数据不足|
+|CELLSJAVA-44910|将 Excel 转换为 HTML 会产生数千张类似的小图像|
 |CELLSJAVA-44944|调整表格大小会更改单元格的格式|
-|CELLSJAVA-44948|将 HTML 转换为 Excel 时，图像无法在工作表中显示|
+|CELLSJAVA-44948|HTML 转换为Excel时无法在工作表中显示图像|
 |CELLSJAVA-44970|优化阴影效果|
 |CELLSJAVA-44967|Chart getDataLabels().getText() 在 v22.6.0 及之后的版本中返回不同的值|
-|CELLSJAVA-44969|将 Excel 转换为 HTML，数据标签显示错误|
+|CELLSJAVA-44969|Excel转HTML，datalabels显示错误|
 |CELLSJAVA-44949|将 Excel 范围作为具有不同格式的图像插入 PowerPoint 幻灯片时透明度发生变化|
-|CELLSJAVA-44985|Excel 到 HTML 转换 - 图表图例不出现且绘图区域被截断|
+|CELLSJAVA-44985|Excel 到 HTML 的转换 - 图表图例不出现且绘图区域被截断|
 |CELLSJAVA-44952|DataBar.toImage 方法关于宽度的问题|
 |CELLSJAVA-44986|图片在div中时导入的图片没有对齐|
 |CELLSJAVA-44987|加载html的时候有些图片被别人覆盖了|
@@ -50,7 +50,7 @@ url: /zh/java/aspose-cells-for-android-via-java-22-12-release-notes/
 |CELLSJAVA-44999|Aspose.Cells 自定义 GlobalizationSettings 不适用于大多数数据透视表|
 |CELLSJAVA-44898|从 GZIPInputStream 读取有时会在 22.7 和更新版本中抛出虚假的“文件已损坏”错误|
 |CELLSJAVA-44881|加载 XLS 文件时出现异常“java.lang.ArrayIndexOutOfBoundsException: 15070”|
-|CELLSJAVA-44908|加载大型 XLSB 文件时出现异常“java.lang.OutOfMemoryError: Java heap space”|
+|CELLSJAVA-44908|加载大 XLSB 文件时出现异常“java.lang.OutOfMemoryError：Java 堆空间”|
 |CELLSJAVA-44929|回归：Workbook.calculateFormula() 上的“java.lang.NullPointerException”|
 |CELLSJAVA-44927|将 Excel 文件转换为 HTML 时出现异常“java.lang.IndexOutOfBoundsException：索引：5，大小：5”|
 |CELLSJAVA-44939|尝试读取 Excel 文件时出现错误“java.lang.StringIndexOutOfBoundsException：字符串索引超出范围：0”|

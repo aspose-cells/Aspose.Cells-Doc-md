@@ -7,7 +7,7 @@ url: /sv/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ## **Möjliga användningsscenarier**
 Ibland vill utvecklare hindra Excel från att inkludera*.bin* filer med skrivarinställningar i de sparade XLSX-filerna. Skrivarinställningar finns under*“[fil "root"]\xl\skrivarinställningar”*. Det här dokumentet förklarar hur du tar bort befintliga skrivarinställningar med Aspose.Cells API:er.
 ## **Ta bort befintliga skrivarinställningar för arbetsblad i Excel-fil**
-Aspose.Cells låter dig ta bort befintliga skrivarinställningar som anges för olika ark i Excel-filen. Följande exempelkod illustrerar hur du tar bort befintliga skrivarinställningar för alla kalkylblad i arbetsboken. Vänligen se den[exempel på Excel-fil](45056023.xlsx), [utdata Excel-fil](45056024.xlsx)konsolutgång samt en skärmdump som referens.
+Aspose.Cells låter dig ta bort befintliga skrivarinställningar som anges för olika ark i Excel-filen. Följande exempelkod illustrerar hur du tar bort befintliga skrivarinställningar för alla kalkylblad i arbetsboken. Vänligen se den[exempel på Excel-fil](45056023.xlsx), [utdata Excel-fil](45056024.xlsx), konsolutgång samt en skärmdump som referens.
 ## **Skärmdump**
 ![todo:image_alt_text](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **Exempelkod**

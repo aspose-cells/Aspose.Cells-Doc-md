@@ -1,5 +1,5 @@
 ﻿---
-title: Verfolgen Sie den Konvertierungsfortschritt von Excel in TIFF
+title: Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF
 type: docs
 weight: 190
 url: /de/net/track-conversion-progress-of-excel-to-tiff/
@@ -8,7 +8,7 @@ url: /de/net/track-conversion-progress-of-excel-to-tiff/
 
  Manchmal kann das Konvertieren großer Excel-Dateien einige Zeit dauern. Während dieser Zeit möchten Sie möglicherweise den Fortschritt der Dokumentkonvertierung statt nur eines Ladebildschirms anzeigen, um die Benutzerfreundlichkeit Ihrer Anwendung zu verbessern. Aspose.Cells unterstützt die Verfolgung des Dokumentenkonvertierungsprozesses durch Bereitstellung der**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** Schnittstelle. Das**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**Schnittstelle bietet**[PageStartSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**und**[PageEndSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**Methoden, die Sie in Ihrer benutzerdefinierten Klasse implementieren können. Sie können auch steuern, welche Seiten gerendert werden, wie im T*estPageSavingCallback*benutzerdefinierte Klasse.
 
-## **Verfolgen Sie den Konvertierungsfortschritt von Excel in TIFF**
+## **Verfolgen Sie den Konvertierungsfortschritt von Excel bis TIFF**
 
  Das folgende Codebeispiel lädt die[Excel-Quelldatei](95584311.xlsx) und druckt seinen Konvertierungsfortschritt in der Konsole mithilfe von*TestPageSavingCallback* benutzerdefinierte Klasse, die die implementiert**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**Schnittstelle. Die generierte Ausgabedatei ist als Referenz beigefügt.
 

@@ -10,8 +10,8 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-6-3/
 
 {{% /alert %}} 
 ## **تمت إضافة واجهات برمجة التطبيقات**
-### **دعم تحليل HTML أثناء استيراد البيانات**
-كشف هذا الإصدار من Aspose.Cells for Java API السمة ImportTableOptions.setHtmlString التي توجه API لتحليل علامات HTML أثناء استيراد البيانات إلى ورقة العمل وتعيين النتيجة المحللة كقيمة خلية. يرجى ملاحظة أن واجهات برمجة التطبيقات Aspose.Cells توفر بالفعل السمة Cell.setHtmlString لأداء هذه المهمة لخلية واحدة ، ومع ذلك ، أثناء استيراد البيانات بكميات كبيرة ، تحاول سمة ImportTableOptions.setHtmlString (عند تعيينها إلى true) تحليل جميع علامات ومجموعات HTML المدعومة النتائج التي تم تحليلها للخلايا المقابلة.
+### **دعم HTML التحليل أثناء استيراد البيانات**
+كشف هذا الإصدار من Aspose.Cells for Java API السمة ImportTableOptions.setHtmlString التي توجه API لتحليل علامات HTML أثناء استيراد البيانات إلى ورقة العمل وتعيين النتيجة المحللة كقيمة خلية. يرجى ملاحظة أن واجهات برمجة التطبيقات Aspose.Cells توفر بالفعل السمة Cell.setHtmlString لأداء هذه المهمة لخلية واحدة ، ومع ذلك ، أثناء استيراد البيانات بكميات كبيرة ، تحاول السمة ImportTableOptions.setHtmlString (عند تعيينها إلى true) تحليل جميع علامات ومجموعات HTML المدعومة النتائج التي تم تحليلها للخلايا المقابلة.
 
 هنا هو أبسط سيناريو استخدام.
 
@@ -33,7 +33,7 @@ cells.importData(iTable, 0, 0, importOptions);
 
 {{< /highlight >}}
 ### **تمت إضافة أسلوب Workbook.createBuiltinStyle**
-كشف Aspose.Cells for Java 8.6.3 طريقة Workbook.createBuiltinStyle التي يمكن استخدامها لإنشاء كائن من فئة Style يتوافق مع أحد[الأنماط المضمنة التي يوفرها تطبيق Excel](/cells/ar/java/using-built-in-styles/). يقبل أسلوب Workbook.createBuiltinStyle ثابتًا من التعداد BuiltinStyleType. يرجى ملاحظة أنه مع الإصدارات السابقة من واجهات برمجة التطبيقات Aspose.Cells ، يمكن إنجاز نفس المهمة عبر أسلوب StyleCollection.createBuiltinStyle ولكن نظرًا لأن الإصدارات الأخيرة من واجهات برمجة التطبيقات Aspose.Cells قد أزالت فئة StyleCollection ، وبالتالي يمكن اعتبار طريقة Workbook.createBuiltinStyle التي تم الكشف عنها حديثًا كنهج بديل لـ تحقيق نفس الشيء.
+ كشف Aspose.Cells for Java 8.6.3 طريقة Workbook.createBuiltinStyle التي يمكن استخدامها لإنشاء كائن من فئة Style يتوافق مع أحد[الأنماط المضمنة التي يوفرها تطبيق Excel](/cells/ar/java/using-built-in-styles/)يقبل أسلوب Workbook.createBuiltinStyle ثابتًا من التعداد BuiltinStyleType. يرجى ملاحظة أنه مع الإصدارات السابقة من واجهات برمجة التطبيقات Aspose.Cells ، يمكن إنجاز نفس المهمة عبر أسلوب StyleCollection.createBuiltinStyle ولكن نظرًا لأن الإصدارات الأخيرة من واجهات برمجة التطبيقات Aspose.Cells قد أزالت فئة StyleCollection ، وبالتالي يمكن اعتبار طريقة Workbook.createBuiltinStyle التي تم الكشف عنها حديثًا كنهج بديل لـ تحقيق نفس الشيء.
 
 فيما يلي سيناريو الاستخدام البسيط.
 

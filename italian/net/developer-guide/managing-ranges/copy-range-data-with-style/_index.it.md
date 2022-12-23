@@ -16,8 +16,8 @@ Questo esempio:
 
 1. Crea una cartella di lavoro.
 1. Riempie un numero di celle nel primo foglio di lavoro con i dati.
-1.  Crea un[**Gamma**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Crea un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style)oggetto con attributi di formattazione specificati.
+1.  Crea un[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1.  Crea un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) oggetto con attributi di formattazione specificati.
 1. Applica lo stile all'intervallo di dati.
 1. Crea un secondo intervallo di celle.
 1. Copia i dati con la formattazione dal primo intervallo al secondo intervallo.

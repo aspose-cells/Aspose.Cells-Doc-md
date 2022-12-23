@@ -15,7 +15,7 @@ Sayfa sekmeleri, Excel dosyasındaki çalışma sayfalarını temsil eder. Söz 
 
 **Sayfa sekmeleri ve sekme kaydırma düğmeleri** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-tabs-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_1.png)
 
 Geliştiriciler, Aspose.Cells'i kullanarak Excel dosyalarındaki sayfa sekmelerinin ve sekme kaydırma düğmelerinin görünürlüğünü kontrol edebilir.
 
@@ -27,11 +27,11 @@ Book1.xls dosyasının aşağıdaki şekilde sekmeler içerdiğini görebilirsin
 
 **book1.xls: Herhangi bir değişiklikten önceki Excel dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-tabs-in-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_2.png)
 
 **output.xls: Değişiklikten sonra Excel dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](display-or-hide-tabs-in-aspose-cells_3.png)
+![yapılacaklar:resim_alternatif_metin](display-or-hide-tabs-in-aspose-cells_3.png)
 
 **C#**
 

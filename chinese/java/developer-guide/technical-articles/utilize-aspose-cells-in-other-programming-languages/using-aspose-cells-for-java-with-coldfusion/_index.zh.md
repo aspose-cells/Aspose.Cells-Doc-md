@@ -14,7 +14,7 @@ url: /zh/java/using-aspose-cells-for-java-with-coldfusion/
 
 ## **Aspose.Cells：真正的产品**
 
-使用 Aspose.Cells 开发人员可以导出数据、在每个细节和每个级别格式化电子表格、导入图像、导入图表、创建图表、操作图表、流式传输 Microsoft Excel 数据，以各种格式保存，包括 XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/)集成）等等。
+使用 Aspose.Cells 开发人员可以导出数据，在每个细节和每个级别格式化电子表格，导入图像，导入图表，创建图表，操作图表，流式传输 Microsoft Excel 数据，以各种格式保存，包括 XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML ([Aspose.Pdf](https://products.aspose.com/pdf/java/)集成）等等。
 
 要了解有关产品信息、功能和程序员指南的更多信息，请参阅 Aspose.Cells 文档和在线精选[演示](https://github.com/aspose-cells/Aspose.Cells-for-Java).你可以[下载](https://downloads.aspose.com/cells/java)并免费评估。
 
@@ -32,7 +32,7 @@ url: /zh/java/using-aspose-cells-for-java-with-coldfusion/
 
 **生成的输出.xls**
 
-![待办事项：图像_替代_文本](using-aspose-cells-for-java-with-coldfusion_1.png)
+![待办事项：图片_替代_文本](using-aspose-cells-for-java-with-coldfusion_1.png)
 
 **Java**
 

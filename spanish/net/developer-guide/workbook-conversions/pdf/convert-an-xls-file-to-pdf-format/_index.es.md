@@ -1,16 +1,16 @@
 ﻿---
-title: Convertir un archivo XLS a formato PDF
+title: Convierta un archivo XLS al formato PDF
 type: docs
 weight: 30
 url: /es/net/convert-an-xls-file-to-pdf-format/
 ---
 {{% alert color="primary" %}}
 
-PDF (formato de documento portátil) representa documentos independientemente del software, hardware y sistema operativo utilizado para crear esos documentos. Un archivo PDF puede ser un documento con cualquier combinación de texto, gráficos e imágenes, independientemente del dispositivo y de la resolución. Los archivos PDF suelen estar comprimidos, por lo que ocupan menos espacio que el archivo original.
+PDF (formato de documento portátil) representa documentos independientemente del software, hardware y sistema operativo utilizado para crear esos documentos. Un archivo PDF puede ser documentos con cualquier combinación de texto, gráficos e imágenes, independientemente del dispositivo y de la resolución. Los archivos PDF suelen estar comprimidos, por lo que ocupan menos espacio que el archivo original.
 
- veces, necesita convertir un archivo de Excel Microsoft a PDF. Para ello, necesita una solución rápida, segura, precisa y fiable que le permita distribuir documentos PDF en todo el mundo. Existen numerosas herramientas de conversión que pueden realizar esta tarea. Pero debe asegurarse de que el diseño del documento de Excel original se conserve en el archivo PDF de salida. Las imágenes, el formato de los datos, las fuentes, los atributos, los colores, la configuración de configuración de la página, la orientación del texto, los bordes, los gráficos, etc. deben representarse con precisión y precisión.[Aspose.Cells](https://products.aspose.com/cells/net/) asegura una conversión de alta fidelidad.
+ A veces, necesita convertir un archivo Excel Microsoft a PDF. Para esto, necesita una solución rápida, segura, precisa y confiable que le permita distribuir documentos PDF en todo el mundo. Existen numerosas herramientas de conversión que pueden realizar esta tarea. Pero debe asegurarse de que el diseño del documento de Excel original se conserve en el archivo de salida PDF. Las imágenes, el formato de los datos, las fuentes, los atributos, los colores, la configuración de configuración de la página, la orientación del texto, los bordes, los gráficos, etc. deben representarse con precisión y precisión.[Aspose.Cells](https://products.aspose.com/cells/net/) asegura una conversión de alta fidelidad.
 
-Este documento está diseñado para proporcionar una comprensión integral de cómo un documento de Excel Microsoft (que contiene imágenes, gráficos, formato, etc.) se puede convertir a PDF. Con ese fin, se muestra cómo crear una aplicación de consola simple en Visual Studio.Net que convierte un archivo de Excel a PDF usando Aspose.Cells API. La conversión se realiza con un alto grado de precisión y exactitud.
+Este documento está diseñado para proporcionar una comprensión completa de cómo un documento de Excel Microsoft (que contiene imágenes, gráficos, formato, etc.) se puede convertir a PDF. Con ese fin, muestra cómo crear una aplicación de consola simple en Visual Studio.Net que convierte un archivo de Excel a PDF usando Aspose.Cells API. La conversión se realiza con un alto grado de precisión y exactitud.
 
 {{% /alert %}}
 
@@ -43,14 +43,14 @@ El archivo de plantilla tiene tres hojas de trabajo, incluidos gráficos e imág
 
 {{% alert color="primary" %}}
 
-Si la hoja de cálculo contiene fórmulas, es mejor llamar a Workbook.CalculateFormula() justo antes de convertir la hoja de cálculo en PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+Si la hoja de cálculo contiene fórmulas, es mejor llamar a Workbook.CalculateFormula() justo antes de representar la hoja de cálculo en PDF. Al hacerlo, se asegura que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en PDF.
 
 {{% /alert %}}
 
 ### **Resultado**
 
-cuando se ha ejecutado el código anterior, se crea un archivo PDF en la carpeta Archivos en el directorio de su aplicación.
-Las siguientes capturas de pantalla muestran las páginas PDF. Tenga en cuenta que los encabezados y pies de página también se conservan en el archivo PDF de salida.
+cuando se ejecuta el código anterior, se crea un archivo PDF en la carpeta Archivos en el directorio de su aplicación.
+Las siguientes capturas de pantalla muestran las páginas PDF. Tenga en cuenta que los encabezados y pies de página también se conservan en el archivo de salida PDF.
 
 |![todo:imagen_alternativa_texto](Convert_an_XLS_File_to_PDF_Converted1.png)|![todo:imagen_alternativa_texto](Convert_an_XLS_File_to_PDF_Converted2.png)|
 |:- |:- |

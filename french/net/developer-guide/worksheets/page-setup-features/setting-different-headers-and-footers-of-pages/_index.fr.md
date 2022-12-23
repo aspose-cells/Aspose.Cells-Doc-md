@@ -16,7 +16,7 @@ Aspose.Cells prend en charge la même fonctionnalité.
 **![Définir différents en-têtes et pieds de page](difpage.png)**
 
 1.  Cliquez sur**Mise en page > Imprimer les titres > En-tête/Pied de page**.
-1.  Vérifier**Différentes pages paires et impaires** ou**Page de sapin différente**.
+1.  Vérifier**Différentes pages paires et impaires** ou alors**Page de sapin différente**.
 1. Entrez différents en-têtes et pieds de page.
 
 ## **Définition de différents en-têtes et pieds de page avec Aspose.Cells**

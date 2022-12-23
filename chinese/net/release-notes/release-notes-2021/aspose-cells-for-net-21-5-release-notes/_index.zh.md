@@ -25,9 +25,9 @@ url: /zh/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|新工作簿挂在无效文件上|表现|
 |CELLSNET-48012|提高读取具有大范围验证的 .ods 文件的性能。|表现|
 |CELLSNET-48039|保存复制的工作簿时无限循环|表现|
-|CELLSNET-44224|艺术字水印未以输出 PDF 文件格式呈现|漏洞|
+|CELLSNET-44224|艺术字水印未在输出 PDF 文件格式中呈现|漏洞|
 |CELLSNET-47887|形状内的文字错位|漏洞|
-|CELLSNET-47920|HTML 到 Excel 的转换中丢失了一些内容|漏洞|
+|CELLSNET-47920|HTML 到 Excel 转换中遗漏了一些内容|漏洞|
 |CELLSNET-47981|将包含合并单元格的范围导出到 html 的结果不正确|漏洞|
 |CELLSNET-47985|转换为 html 时行数较少|漏洞|
 |CELLSNET-47987|将数据透视字段移动到页面部分或数据透视过滤器|漏洞|
@@ -38,10 +38,10 @@ url: /zh/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|从 Cell 中检索到的值“TRUE”不正确，而不是值“FALSE”|漏洞|
 |CELLSNET-48042|检索到的格式化单元格值在 Excel 工作表中是错误的|漏洞|
 |CELLSNET-48031|将 xlsx 文件转换为 html 时出现“形状到图像错误”|漏洞|
-|CELLSNET-48037|保存为 PDF 时图像失真|漏洞|
+|CELLSNET-48037|保存到 PDF 时图像失真|漏洞|
 |CELLSNET-47714|转换为 EMF 时，垂直轴中的文本与图表上的水平轴重叠|漏洞|
 |CELLSNET-47856|数据透视表的 XLSX 到 PDF 转换问题|漏洞|
-|CELLSNET-47986|图表到图像/PDF - 瀑布图类型的错误输出|漏洞|
+|CELLSNET-47986|Chart to Image/PDF - 瀑布图类型输出错误|漏洞|
 |CELLSNET-48010|加载 Excel 2010 XLSX 文件时出现异常|漏洞|
 |CELLSNET-48020|通过 Aspose.Cells 加载和保存 Excel 95 后删除表单控件|漏洞|
 |CELLSNET-48033|加载和保存后 Excel 文件损坏|漏洞|
@@ -56,7 +56,7 @@ url: /zh/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47980|保存 Excel 文件时出错 Aspose.Cells|例外|
 |CELLSNET-48001|调用 GetPrintingPageBreaks() 时出现无效的行索引异常|例外|
 |CELLSNET-48022|单元格的意外 Border.LineType|例外|
-|CELLSNET-48032|打开文档 ODS 文件时出现异常|例外|
+|CELLSNET-48032|打开文档ODS文件时出现异常|例外|
 |
 
 

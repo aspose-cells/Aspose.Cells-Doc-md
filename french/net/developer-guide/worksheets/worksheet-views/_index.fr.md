@@ -3,6 +3,7 @@ title: Vues de feuille de calcul
 type: docs
 weight: 40
 url: /fr/net/worksheet-views/
+description:  Cet article décrit comment utiliser C# et .NET API pour interagir avec l'aperçu du saut de page d'un classeur et de feuilles de calcul Excel. Travaillez également avec des volets fractionnés, des volets figés et un facteur de zoom.
 ---
 ## **Aperçu des sauts de page**
 
@@ -15,21 +16,21 @@ La vue normale est la vue par défaut d'une feuille de calcul. L'aperçu des sau
 
 ### **Contrôle des modes d'affichage**
 
-Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
+Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour activer les modes d'aperçu normal ou de saut de page, utilisez les[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propriété.[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) est une propriété booléenne, ce qui signifie qu'elle ne peut stocker qu'un**vrai** ou un**faux** évaluer.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour activer les modes d'aperçu normal ou de saut de page, utilisez les[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) la propriété.[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) est une propriété booléenne, ce qui signifie qu'elle ne peut stocker qu'un**vrai** ou un**faux** évaluer.
 
 #### **Activation de la vue normale**
 
- Définissez une feuille de calcul en vue normale en définissant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propriété à**faux**.
+ Définissez une feuille de calcul en vue normale en définissant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propriété à**faux**.
 
 #### **Activation de l'aperçu des sauts de page**
 
- Définissez n'importe quelle feuille de calcul sur l'aperçu des sauts de page en définissant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propriété à**vrai**Cela fait passer la feuille de calcul de la vue normale à l'aperçu des sauts de page.
+ Définissez n'importe quelle feuille de calcul sur l'aperçu des sauts de page en définissant le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) propriété à**vrai**Cela fait passer la feuille de calcul de la vue normale à l'aperçu des sauts de page.
 
  Un exemple complet est donné ci-dessous qui montre comment utiliser le[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)propriété pour activer le mode d'aperçu des sauts de page pour la première feuille de calcul d'un fichier Excel.
 
-Le fichier book1.xls est ouvert en créant une instance du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classer. La vue est commutée sur l'aperçu des sauts de page pour la première feuille de calcul en définissant le[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)propriété à**vrai**. Le fichier modifié est enregistré sous output.xls.
+Le fichier book1.xls est ouvert en créant une instance du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe. La vue est commutée sur l'aperçu des sauts de page pour la première feuille de calcul en définissant le[**EstAperçuSautPage**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)propriété à**vrai**. Le fichier modifié est enregistré sous output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
@@ -42,13 +43,13 @@ Microsoft Excel fournit une fonctionnalité qui permet aux utilisateurs de défi
 ### **Aspose.Cells et facteur de zoom**
 
 Aspose.Cells permet aux développeurs de définir le facteur de zoom de la feuille de calcul.
-Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
+Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
- Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour définir le facteur de zoom d'une feuille de calcul, utilisez la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer'[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)propriété. Le facteur de zoom est défini en attribuant une valeur numérique (entière) au[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) propriété.
+ Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour définir le facteur de zoom d'une feuille de calcul, utilisez la[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom)la propriété. Le facteur de zoom est défini en attribuant une valeur numérique (entière) au[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) la propriété.
 
 Un exemple complet est donné ci-dessous qui montre comment utiliser le[**Zoom**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/zoom) propriété pour définir le facteur de zoom de la première feuille de calcul du fichier Excel.
 
-Le fichier book1.xls est ouvert en créant une instance du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classer. Le facteur de zoom de la première feuille de calcul est défini sur 75 et le fichier modifié est enregistré sous output.xls.
+Le fichier book1.xls est ouvert en créant une instance du[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe. Le facteur de zoom de la première feuille de calcul est défini sur 75 et le fichier modifié est enregistré sous output.xls.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-ZoomFactor-1.cs" >}}
 
@@ -62,16 +63,16 @@ Figer les volets est une fonctionnalité fournie par Microsoft Excel. Le gel des
 
 Aspose.Cells permet aux développeurs d'appliquer des volets de gel aux feuilles de calcul lors de l'exécution.
 
-Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
+Aspose.Cells fournit un[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
-Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer les volets figés, appelez la classe Worksheet'[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)méthode. La[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)méthode prend les paramètres suivants :
+Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer les volets figés, appelez la classe Worksheet'[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)méthode. Le[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)méthode prend les paramètres suivants :
 
 - **Ligne**, l'index de ligne de la cellule à partir de laquelle le gel commencera.
 - **Colonne**, l'index de colonne de la cellule à partir de laquelle le gel commencera.
 - **Lignes gelées**, le nombre de lignes visibles dans le volet supérieur.
 - **Colonnes gelées**, le nombre de colonnes visibles dans le volet de gauche
 
-Le fichier book1.xls est ouvert en appelant le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructeur de la classe lors de son instanciation et quelques lignes et colonnes sont figées dans la première feuille de calcul. Le fichier modifié est enregistré sous output.xls.
+ Le fichier book1.xls est ouvert en appelant le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook)constructeur de la classe lors de son instanciation et quelques lignes et colonnes sont figées dans la première feuille de calcul. Le fichier modifié est enregistré sous output.xls.
 
  Un exemple complet est donné ci-dessous qui montre comment utiliser le[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)méthode pour figer les lignes et les colonnes (à partir de C4, représenté par la 4ème ligne et la 3ème colonne, où les lignes et les colonnes commencent à partir de l'index 0) de la première feuille de calcul du fichier Excel.
 
@@ -87,7 +88,7 @@ Les vitres fonctionnent simultanément. Si vous faites un changement dans l'un, 
 
 #### **Fractionnement des volets**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Pour implémenter des vues fractionnées, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer'[**Diviser**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Pour supprimer les volets fractionnés, utilisez le[**Supprimer le fractionnement**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)méthode.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) fournit un large éventail de propriétés et de méthodes pour gérer un fichier Excel. Pour implémenter des vues fractionnées, utilisez le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe'[**Diviser**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/split) . Pour supprimer les volets fractionnés, utilisez le[**Supprimer le fractionnement**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/removesplit)méthode.
 
 Dans l'exemple, nous utilisons un fichier de modèle simple qui est chargé, puis la fonctionnalité de définition de volets fractionnés est appliquée sur une cellule de la première feuille de calcul. Le fichier mis à jour est enregistré.
 

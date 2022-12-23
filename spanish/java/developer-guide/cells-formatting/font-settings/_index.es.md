@@ -17,7 +17,7 @@ Al igual que Microsoft Excel, Aspose.Cells también admite la configuración de 
 
 {{% /alert %}} 
 ## **Configuración de ajustes de fuente**
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación. Cada artículo en el[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) colección representa un objeto de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
+ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación. Cada artículo en el[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) colección representa un objeto de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)clase.
 
  Aspose.Cells proporciona el[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) clase'[establecerEstilo](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ), utilizado para establecer el formato de una celda. Asimismo, el objeto de la[Estilo](https://reference.aspose.com/cells/java/com.aspose.cells/Style)La clase proporciona propiedades para configurar los ajustes de fuente.
 
@@ -44,11 +44,11 @@ Este artículo muestra cómo:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **Configuración del tipo de subrayado de fuente**
- Subraya el texto con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerSubrayar](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) propiedad. Aspose.Cells ofrece varios tipos de subrayado de fuente predefinidos en el[FuenteSubrayadoTipo](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)enumeración.
+ Subraya el texto con el[Fuente](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objetos[establecerSubrayado](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) propiedad. Aspose.Cells ofrece varios tipos de subrayado de fuente predefinidos en el[FuenteSubrayadoTipo](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)enumeración.
 
 |**Tipos de subrayado de fuente**|**Descripción**|
 |:- |:- |
-|[NINGUNA](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|sin subrayar|
+|[NINGUNO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|sin subrayar|
 |[ÚNICO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Un solo subrayado|
 |[DOBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOUBLE)|Explicación doble|
 |[CONTABILIDAD](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#ACCOUNTING)|Un solo subrayado contable|
@@ -64,7 +64,7 @@ Este artículo muestra cómo:
 |[PUNTEADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED)|Subrayado punteado|
 |[DOTTED_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#DOTTED_HEAVY)|Subrayado punteado grueso|
 |[PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#HEAVY)|Subrayado grueso|
-|[OLA](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Subrayado de onda|
+|[ONDA](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVE)|Subrayado de onda|
 |[ONDULADO_DOBLE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_DOUBLE)|Subrayado de doble onda|
 |[ONDULADO_PESADO](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WAVY_HEAVY)|Subrayado de onda pesada|
 |` `[PALABRAS](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#WORDS)|Subrayar solo caracteres que no sean espacios|

@@ -10,19 +10,19 @@ Cette page contient les notes de version pour Aspose.Cells for Java 17.12.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42479|Amélioration de l'énumération LoadDataFilterOptions et suppression de l'ambiguïté|Renforcement|
 |CELLSJAVA-42460|Format CSV - D2 et D6 sont IsString mais Aspose.Cells les traite comme IsNumeric|Renforcement|
 |CELLSJAVA-42457|Lorsque XLSX est converti en PDF, certaines lignes des graphiques sont différentes|Punaise|
-|CELLSJAVA-42465|Certaines déclarations de classe CSS ne sont pas préfixées dans le HTML de sortie|Punaise|
-|CELLSJAVA-42456|Sortie HTML incohérente avec la source - Conversion d'Excel en HTML|Punaise|
+|CELLSJAVA-42465|Certaines déclarations de classe CSS ne sont pas préfixées dans la sortie HTML|Punaise|
+|CELLSJAVA-42456|HTML sortie incohérente avec la source - Conversion d'Excel en HTML|Punaise|
 |CELLSJAVA-42478|L'importation d'une valeur longue à partir de la base de données HSQL lève une exception|Punaise|
-|CELLSJAVA-42466|L'équation n'est pas rendue correctement dans le PDF de sortie|Punaise|
-|CELLSJAVA-42475|Le graphique est manquant dans le PDF de sortie|Punaise|
-|CELLSJAVA-42459|Les étiquettes de données du graphique sont manquantes dans le fichier PDF/image de sortie|Punaise|
+|CELLSJAVA-42466|L'équation n'est pas bien rendue dans la sortie PDF|Punaise|
+|CELLSJAVA-42475|Le graphique manque dans la sortie PDF|Punaise|
+|CELLSJAVA-42459|Les étiquettes de données pour le graphique sont manquantes dans la sortie PDF/image|Punaise|
 |CELLSJAVA-42453|L'image du graphique n'est pas la même Microsoft Excel|Punaise|
-|CELLSJAVA-42447|Les étiquettes de données s'affichent mal dans le format de fichier HTML de sortie|Punaise|
+|CELLSJAVA-42447|Les étiquettes de données s'affichent mal dans le format de fichier de sortie HTML|Punaise|
 |CELLSJAVA-42481|Définir le nom de la zone de liste déroulante ne fonctionne pas pour le fichier Excel source, mais s'il est réenregistré par Microsoft Excel, cela fonctionne correctement|Punaise|
 |CELLSJAVA-42476|Microsoft La feuille de calcul Excel prenant en charge les macros (.xlsm) est corrompue après l'ouverture et l'enregistrement via les API Aspose.Cells|Punaise|
 |CELLSJAVA-42470|La définition d'une cellule liée à une case à cocher entraîne l'affichage d'un message d'erreur par MS Excel lors de l'ouverture du fichier de sortie.|Punaise|
@@ -63,7 +63,7 @@ Représente la forme de l'extension Web.
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
 - [Remplir automatiquement les données du marqueur intelligent dans d'autres feuilles de calcul si les données sont trop volumineuses](/cells/fr/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Exporter la feuille de calcul CSS séparément dans le HTML de sortie](/cells/fr/java/export-worksheet-css-separately-in-output-html/)
+- [Exporter la feuille de calcul CSS séparément dans la sortie HTML](/cells/fr/java/export-worksheet-css-separately-in-output-html/)
 - [Implémenter Cell.FormulaLocal similaire à Excel VBA Range.FormulaLocal](/cells/fr/java/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Préfixer les styles d'éléments de table avec la propriété HtmlSaveOptions.TableCssId](/cells/fr/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Rendu des compléments Office lors de la conversion d'Excel en PDF](/cells/fr/java/render-office-add-ins-while-converting-excel-to-pdf/)

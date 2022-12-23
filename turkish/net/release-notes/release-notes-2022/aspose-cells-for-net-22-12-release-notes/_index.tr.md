@@ -13,11 +13,11 @@ url: /tr/net/aspose-cells-for-net-22-12-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-42315|Crtx dosyaları için destek - özel grafik şablonları uygulama|
-|CELLSNET-47895|Görüntüler Excel'de PDF/HTML oluşturmada bozuluyor|
+|CELLSNET-47895|Görüntüler Excel'de PDF/HTML oluşturmaya bozuk|
 |CELLSNET-47946|Görüntü döndürme efekti pdf/html'de doğru görüntülenmiyor|
 |CELLSNET-47947|Grafik grubundaki dikdörtgen kutu döndürme efekti pdf/html'de doğru görüntülenmiyor|
-|CELLSNET-52126|Excel dosyasını PDF'ye dönüştürdükten sonra bazı şekiller değiştirildi|
-|CELLSNET-52197|XLSX belgesini PDF'ye dönüştürürken kutular değişti|
+|CELLSNET-52126|Excel dosyası PDF'e dönüştürüldükten sonra bazı şekiller değiştirildi|
+|CELLSNET-52197|XLSX belgesi PDF'e dönüştürülürken kutular değişti|
 |CELLSNET-52330|Çizim şekilleri HTML'de iyi işlenmemiş|
 |CELLSNET-50042| Tanımlanan ad yeniden kaydedildikten sonra değiştirilir.|
 |CELLSNET-52270|YEARFRAC İşlevi doğru hesaplanmamış|
@@ -26,18 +26,18 @@ url: /tr/net/aspose-cells-for-net-22-12-release-notes/
 |CELLSNET-52325| Workbook.CalculateFormula bazı durumlarda kilitleniyor|
 |CELLSNET-52387|Cell tablolara yapılan başvurular, sütunlar silindikten sonra #REF hatalarına neden oluyor|
 |CELLSNET-52290|Grafik Ekseni doğru şekilde yakalanmıyor|
-|CELLSNET-52301|XLSX Tablosundan Resme: Özel birleşik grafik çubukları hatalı bir şekilde oluşturuldu|
-|CELLSNET-52336|Histogram grafiği, XLSX'ten HTML/PDF'ye dönüştürmede düzgün şekilde işlenmedi|
-|CELLSNET-52292|Çıktı PDF'sinde metin yanlış sayfada görüntüleniyor - Excel'den PDF'e dönüştürme|
+|CELLSNET-52301|XLSX Tablodan Resme: Özel birleşik grafik çubukları hatalı bir şekilde oluşturuldu|
+|CELLSNET-52336|XLSX'den HTML/PDF'e dönüştürmede histogram grafiği düzgün işlenmedi|
+|CELLSNET-52292|PDF çıktısında metin yanlış sayfada görüntüleniyor - Excel'den PDF'e dönüştürme|
 |CELLSNET-52367|AutofitRows, PDF dönüştürme çıktısında kırpılmış metinle sonuçlanır|
-|CELLSNET-52242|Excel'i JSON'a dönüştürürken üst-alt hiyerarşisi yanlış ve bunun tersi de geçerli|
+|CELLSNET-52242|Ebeveyn-çocuk hiyerarşisi, Excel'i JSON'e dönüştürürken yanlıştır ve bunun tersi de geçerlidir.|
 |CELLSNET-52281|Json başlığı göz ardı edilemez|
 |CELLSNET-52289|Html'yi excel'e dönüştürürken sayı biçimi kayboluyor|
-|CELLSNET-52298|XLSX yeniden kaydedilirken pivot alanı için Otomatik Sıralama seçeneği etkinleştirilir|
+|CELLSNET-52298|XLSX yeniden kaydedilirken pivot alanı için Otomatik Sıralama seçeneği etkinleştirildi|
 |CELLSNET-52299| Bir çalışma kitabını kaydettikten sonra HasRevisions özniteliği yanlış|
-|CELLSNET-52332|Sayılar, html'ye dönüştürülürken '#' veya bilimsel sayı olarak görüntülenir|
-|CELLSNET-52338| Çıktı HTML'si belirsizdir|
-|CELLSNET-52344|HTML'den JSON'a dönüştürmede köprüler eksik|
+|CELLSNET-52332|Numbers, html'ye dönüştürülürken '#' veya bilimsel sayı olarak görüntülenir|
+|CELLSNET-52338| HTML çıktısı deterministik değil|
+|CELLSNET-52344|HTML'den JSON'e dönüşümde köprüler eksik|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

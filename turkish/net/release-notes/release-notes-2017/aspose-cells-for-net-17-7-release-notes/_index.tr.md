@@ -12,7 +12,7 @@ url: /tr/net/aspose-cells-for-net-17-7-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-45437|Excel'den PDF'e dönüştürmede Rusça yerel ayardaki hataları ve Boolean değerini destekleyin|Yeni özellik|
+|CELLSNET-45437|Excel'de Rusça yerel ayarında PDF oluşturmaya kadar destek hataları ve Boolean değeri|Yeni özellik|
 |CELLSNET-45456|Sayılar dosyasından hücrelerin verilerini, formüllerini ve stillerini okuma|Yeni özellik|
 |CELLSNET-45483|Aspose.Cells.GridDesktop'ta satır dizini başlangıç değerini 0 (1 yerine) olarak değiştirme desteği|Yeni özellik|
 |CELLSNET-45434|GridWeb ViewPanel her zaman Görünmez|Yeni özellik|
@@ -24,18 +24,18 @@ url: /tr/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45388|Sayfadan Görüntüye (.jpg) oluşturmalarda ok şekli iyi işlenmez|Böcek|
 |CELLSNET-45426|Grafik verileri, Pivot Tablodaki verileri yenileyemiyor|Böcek|
 |CELLSNET-45447|Kaynak verileri içe aktardıktan sonra PivotTable eklenirken bozulan Excel dosyası|Böcek|
-|CELLSNET-45396|Excel dosyası HTML'ye dönüştürüldüğünde biçimlendirme hatası|Böcek|
+|CELLSNET-45396|Excel dosyası HTML'e dönüştürüldüğünde biçimlendirme hatası|Böcek|
 |CELLSNET-45402|Cell.DisplayStringValue orijinal değerlerle eşleşmiyor|Böcek|
 |CELLSNET-45479|Aspose.Cells 17.5 - DSA sertifikası ile yanlış Dijital imzalama|Böcek|
 |CELLSNET-45420|DefaultFont ayarı çalışmıyor|Böcek|
-|CELLSNET-45364|Çıktı PDF'sinde bazı şekiller/nesneler kesiliyor|Böcek|
+|CELLSNET-45364|PDF çıktısında bazı şekiller/nesneler kesiliyor|Böcek|
 |CELLSNET-45491|Grafiğin çıktı görüntüsünde veri etiketlerine iliştirilmiş bazı siyah bulanıklıklar belirdi|Böcek|
 |CELLSNET-45476|X ekseni etiketlerinin tarih formatı değiştirildi ve Legend girişlerinde geçersiz kılındı|Böcek|
-|CELLSNET-45471|PDF'nin 2. sayfasındaki "III.LowerQualityAboveSML" metni bozuk|Böcek|
+|CELLSNET-45471|PDF'in 2. sayfasındaki "III.LowerQualityAboveSML" metni bozuk|Böcek|
 |CELLSNET-45454|Kabarcık renkleri, aynı kod satırları kullanılsa bile farklı grafikler için biraz değiştirilir|Böcek|
-|CELLSNET-45452|Mini grafikler çıktı PDF'sinde doğru şekilde oluşturulmuyor|Böcek|
+|CELLSNET-45452|Mini grafikler, PDF çıktısında doğru şekilde oluşturulmuyor|Böcek|
 |CELLSNET-45493|ListObject'i yeniden boyutlandırmak, özel biçimlendirmeyi taşımaz|Böcek|
-|CELLSNET-45482|Görüntüleri çıkarırken ve yeniden eklerken bazı şekiller XLS dosyasında kayboluyor|Böcek|
+|CELLSNET-45482|Görüntüler ayıklanırken ve yeniden eklenirken XLS dosyasındaki bazı şekiller kayboluyor|Böcek|
 |CELLSNET-45466|Bazı ek kenarlıklar otomatik olarak ekleniyor|Böcek|
 |CELLSNET-45464|Grafiğin eksen tipi, Workbook.Combine() işleminden sonra değiştirilir.|Böcek|
 |CELLSNET-45463|Workbook.Combine() yöntemi kullanılırken satır yükseklikleri ve grafik boyutları küçülüyor|Böcek|
@@ -46,8 +46,8 @@ url: /tr/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45438|Hücre metnini 90 dereceye döndürmek, hücrenin metin hizalamasını bozar|Böcek|
 |CELLSNET-45425|GridWeb, Excel açılır girişine alan ekler|Böcek|
 |CELLSNET-42363|PivotTable'da (GridWeb) pivot alanlarının başlıklarıyla ilgili sorun|Böcek|
-|CELLSNET-45486|NullReferenceException, Excel çalışma kitabını (hücreleri birleştirerek) HTML dosya biçimine kaydederken oluştu|İstisna|
-|CELLSNET-45478|Aspose.Cells API'leri aracılığıyla bozuk bir MHTML dosyasının açılmasıyla ilgili istisna|İstisna|
+|CELLSNET-45486|Excel çalışma kitabı (birleştirilmiş hücrelere sahip) HTML dosya biçimine kaydedilirken NullReferenceException oluştu|İstisna|
+|CELLSNET-45478|Bozuk bir MHTML dosyasının Aspose.Cells API'leri aracılığıyla açılmasıyla ilgili istisna|İstisna|
 |CELLSNET-45467|Bir MHTML dosyası yüklenirken System.ArgumentOutOfRangeException' oluştu|İstisna|
 |CELLSNET-45485|Geçerli bir formül hesaplanırken istisna oluştu|İstisna|
 |CELLSNET-45433|fd1507a97b7f40fb85f9725535ecd215.xlsb açılırken istisna oluşuyor|İstisna|
@@ -65,7 +65,7 @@ Yazı tipinin doğru ayarlanmadığı karakterleri göstermek için öncelikle �
 #### **ImageOrPrintOptions.CheckWorkbookDefaultFont özelliği ekler**
 Yazı tipinin doğru ayarlanmadığı karakterleri göstermek için öncelikle çalışma kitabının varsayılan yazı tipinin kullanılıp kullanılmayacağını belirtir.
 #### **FileFormatType.Numbers, LoadFormat.Numbers ve SaveFormat.Numbers numaralandırmasını ekler**
-Apple Inc/ firmasının Numbers hesap tablosu dosya biçimini temsil eder.
+Apple Inc/ tarafından Numbers elektronik tablo dosya biçimini temsil eder.
 #### **Worksheet.AdvancedFilter() yöntemini ekler**
 Karmaşık ölçütler kullanarak verileri filtreler.
 #### **WorkbookSettings.SignificantDigits özelliğini ekler**
@@ -91,7 +91,7 @@ GridWeb kontrolünün geçerli tarayıcı penceresi boyutuyla uyumlu olmasını 
 #### **Kullanım Örnekleri**
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
-- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun](/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun](/cells/tr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [PdfSaveOptions ve ImageOrPrintOptions'ın DefaultFont özelliğini önceliğe sahip olacak şekilde ayarlayın](/cells/tr/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Karmaşık Kriterleri Karşılayan Kayıtları Görüntülemek için Microsoft Excel'in Gelişmiş Filtresini Uygulayın](/cells/tr/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Hataları ve Boole Değerini Rusça veya Başka Bir Dilde Uygulama](/cells/tr/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

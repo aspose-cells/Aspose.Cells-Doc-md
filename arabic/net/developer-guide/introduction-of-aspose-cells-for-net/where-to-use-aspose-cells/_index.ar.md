@@ -6,7 +6,7 @@ url: /ar/net/where-to-use-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-تم إنشاء Aspose.Cells لمساعدة المطورين على إنشاء وإدارة Microsoft جداول بيانات Excel برمجيًا. Aspose.Cells لا يفهم فقط جداول البيانات في Microsoft تنسيق ورقة Excel (XLS / XLSX) ولكن أيضًا العديد من تنسيقات الملفات الأخرى مثل قيم مفصولة بفواصل (CSV) وعلامة التبويب المحددة / TSV (نص) و SpreadsheetML إلخ.
+تم إنشاء Aspose.Cells لمساعدة المطورين على إنشاء وإدارة Microsoft جداول بيانات Excel برمجيًا. Aspose.Cells لا يفهم فقط جداول البيانات في Microsoft تنسيق ورقة Excel (XLS/XLSX) ولكن أيضًا العديد من تنسيقات الملفات الأخرى مثل قيم مفصولة بفواصل (CSV) ، مفصولة بعلامات جدولة / TSV (نص) ، SpreadsheetML إلخ.
 
 يوفر Aspose.Cells معظم الميزات المتوفرة في Microsoft Excel ولكن الشيء المثير هو أن Aspose.Cells يمكنه معالجة ملفات Excel ديناميكيًا ، مما يتيح للمطورين معالجة آلاف أو ملايين جداول البيانات بسرعة كبيرة.
 

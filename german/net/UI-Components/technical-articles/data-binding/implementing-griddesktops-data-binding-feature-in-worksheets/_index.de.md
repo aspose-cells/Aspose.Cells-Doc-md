@@ -73,7 +73,7 @@ So legen Sie die Spaltenüberschriften des Arbeitsblatts fest:
 ## **Anpassen der Breite und des Stils von Spalten**
 Um das Aussehen des Arbeitsblatts weiter zu verbessern, ist es möglich, die Breite und den Stil der Spalten festzulegen. Beispielsweise besteht manchmal die Spaltenüberschrift oder der Wert in der Spalte aus einer langen Anzahl von Zeichen, die nicht in die Zelle passen. Um solche Probleme zu lösen, unterstützt Aspose.Cells.GridDesktop das Ändern der Spaltenbreite.
 
- Fügen Sie den folgenden Code an die an**Arbeitsblatt binden** Taste. Die Spaltenbreiten werden entsprechend den neuen Einstellungen angepasst.
+ Fügen Sie den folgenden Code an die an**Arbeitsblatt binden** Knopf. Die Spaltenbreiten werden entsprechend den neuen Einstellungen angepasst.
 
 
 
@@ -87,7 +87,7 @@ Um das Aussehen des Arbeitsblatts weiter zu verbessern, ist es möglich, die Bre
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-Articles-DataBindingFeature-ApplyCustomStyle.cs" >}}
 
 
- Führen Sie nun die Anwendung aus und klicken Sie auf die**Arbeitsblatt binden** Taste.
+ Führen Sie nun die Anwendung aus und klicken Sie auf die**Arbeitsblatt binden** Knopf.
 ## **Zeilen hinzufügen**
 Um einem Arbeitsblatt neue Zeilen hinzuzufügen, verwenden Sie die AddRow-Methode der Worksheet-Klasse. Dadurch wird unten eine leere Zeile angehängt, und der Datenquelle wird eine neue DataRow hinzugefügt (hier wird der DataTable des DataSet eine neue DataRow hinzugefügt). Entwickler können beliebig viele Zeilen hinzufügen, indem sie die AddRow-Methode immer wieder aufrufen. Wenn eine Zeile hinzugefügt wurde, können Benutzer Werte eingeben.
 
@@ -113,7 +113,7 @@ Um schließlich alle Änderungen, die von Benutzern am Arbeitsblatt vorgenommen 
 
 
 
-1.  Fügen Sie den obigen Code hinzu**Update auf Datenbank** Taste.
+1.  Fügen Sie den obigen Code hinzu**Update auf Datenbank** Knopf.
 1. Führen Sie die Anwendung aus.
 1. Führen Sie einige Operationen an den Arbeitsblattdaten durch, fügen Sie möglicherweise neue Zeilen hinzu und bearbeiten oder entfernen Sie vorhandene Daten.
 1.  Dann klick**Update auf Datenbank** um die Änderungen in der Datenbank zu speichern.

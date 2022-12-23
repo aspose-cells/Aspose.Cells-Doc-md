@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java a été mis à jour vers la version 7.7.2 et nous sommes heureux d'annoncer que cette version apporte l'ajout d'environ 20 nouvelles améliorations utiles.
+ Aspose.Cells for Java a été mis à jour vers la version 7.7.2 et nous sommes heureux d'annoncer que cette version apporte l'ajout d'environ 20 nouvelles améliorations utiles.
 En utilisant Aspose.Cells for Java, vous pouvez travailler avec XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS et d'autres formats dans vos applications. Vous pouvez également générer, modifier, convertir, rendre et imprimer des classeurs sans utiliser Microsoft Excel.
 Consultez la documentation pour savoir comment démarrer avec Aspose.Cells for Java.
 Notez que ce téléchargement contient une version entièrement fonctionnelle du produit, mais sans jeu de licences, il fonctionnera en mode d'évaluation avec certaines limitations. Pour tester Aspose.Cells sans ces limitations d'évaluation, vous pouvez demander une licence temporaire gratuite de 30 jours.
@@ -42,9 +42,9 @@ Insectes
 (CELLSJAVA-40729) - Extraction d'un problème de date chinoise formatée
 (CELLSJAVA-40728) - getStringValue() renvoie #VALEUR !
 (CELLSJAVA-40722) - La validation ne fonctionne pas après la conversion au format XLS
-(CELLSJAVA-40690) - XLSX en PDF : le soulignement sous l'hyperlien s'étend aux positions de caractères adjacentes
+(CELLSJAVA-40690) - XLSX à PDF : le soulignement sous l'hyperlien s'étend aux positions de caractères adjacentes
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40629) - Exception lors de l'ouverture de xlsx converti en xls
 (CELLSJAVA-40630) - Exception lors de l'ouverture de xlsx converti en xls

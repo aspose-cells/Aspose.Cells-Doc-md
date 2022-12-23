@@ -157,13 +157,13 @@ workbook.save(dataDir + "AsposePivotTable.xls");
 
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/tables/createpivottable/AsposeCreatePivotTable.java)
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء الجداول المحورية والمخططات المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts).
+ لمزيد من التفاصيل ، قم بزيارة[إنشاء جداول محورية ومخططات محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts).
 
 {{% /alert %}}

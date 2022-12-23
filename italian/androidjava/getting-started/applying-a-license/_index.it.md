@@ -24,7 +24,7 @@ La licenza è un file XML di testo semplice che contiene dettagli come il nome d
 1. Crea un flusso che faccia riferimento a file.
 1. Passa il flusso (contenente il file di licenza) nel metodo SetLicense.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -52,7 +52,7 @@ Per accedere alla licenza come risorsa per nome da un file di pacchetto Android:
  Il file di licenza dovrebbe essere visibile nel file**res/grezzo** cartella.
 1. Accedi/carica la licenza dalla risorsa con il seguente esempio di codice.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

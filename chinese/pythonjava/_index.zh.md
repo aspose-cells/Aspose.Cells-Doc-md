@@ -4,7 +4,7 @@ type: docs
 weight: 70
 url: /zh/python-java/
 is_root: true
-description: Aspose.Cells for Python 支持企业日常使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。它还允许将 Excel® 文件导出为 PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
+description: Aspose.Cells for Python 支持您的企业日常使用的流行电子表格 (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) 文件格式。它还允许将 Excel® 文件导出为 PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ description: Aspose.Cells for Python 支持企业日常使用的流行电子表�
 
 **欢迎拨打Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java 使您的应用程序能够执行范围广泛的电子表格处理任务。 Aspose.Cells for Python via Java 支持您的企业每天使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。它还允许将 Excel® 文件导出为 PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
+Aspose.Cells for Python via Java 使您的应用程序能够执行范围广泛的电子表格处理任务。 Aspose.Cells for Python via Java 支持企业日常使用的流行电子表格 (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) 文件格式。它还允许将 Excel® 文件导出为 PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
 
 {{% /alert %}}
 

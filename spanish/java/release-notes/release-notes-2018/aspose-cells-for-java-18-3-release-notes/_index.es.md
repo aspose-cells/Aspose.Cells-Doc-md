@@ -17,17 +17,17 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.3.
 |CELLSJAVA-42535|El uso de flujo para importar archivos de Excel a través de GridWebBean.importExcelFile() no es válido o no existe|Mejora|
 |CELLSJAVA-42529|Cómo identificar formas de hojas de trabajo a través de DrawObjectEventHandler|Mejora|
 |CELLSJAVA-42558|No se puede acceder a los elementos de la etiqueta del eje de categoría horizontal|Mejora|
-|CELLSJAVA-42552|El HTML de salida no coincide con MS Excel|Insecto|
+|CELLSJAVA-42552|La salida HTML no coincide con MS Excel|Insecto|
 |CELLSJAVA-42536|Archivos de Excel dañados después de abrir/guardar por Aspose.Cells API|Insecto|
-|CELLSJAVA-42513|Aparecen columnas adicionales al final de cada fila en el HTML de salida para un rango|Insecto|
+|CELLSJAVA-42513|Aparecen columnas adicionales al final de cada fila en la salida HTML para un rango|Insecto|
 |CELLSJAVA-42542|El archivo de Excel está dañado y algunas celdas cambiaron después de guardar|Insecto|
 |CELLSJAVA-42524|Los errores de cálculo están presentes en la hoja oculta, a saber, "KD020"|Insecto|
 |CELLSJAVA-42514|ImportTableOptions.setInsertRows() no funciona al importar ResultSet a la hoja de trabajo|Insecto|
 |CELLSJAVA-42505|Los comentarios adjuntos a las celdas (en el archivo de plantilla) no se muestran cuando se importa el archivo de Excel a GridWeb|Insecto|
 |CELLSJAVA-42520|Coordenadas de celda inconsistentes informadas por ImageOrPrintOptions.DrawObjectEventHandler|Insecto|
-|CELLSJAVA-42518|Los bordes de las filas están desalineados en el PDF de salida|Insecto|
+|CELLSJAVA-42518|Los bordes de las filas están desalineados en la salida PDF|Insecto|
 |CELLSJAVA-42561|La escala del eje X es incorrecta en la salida PNG del gráfico de Excel|Insecto|
-|CELLSJAVA-42556|La representación del gráfico no es correcta en el PDF de salida|Insecto|
+|CELLSJAVA-42556|La representación del gráfico no es correcta en la salida PDF|Insecto|
 |CELLSJAVA-42547|El gráfico se reemplaza con una X roja al convertir XLSX a ODS|Insecto|
 |CELLSJAVA-42546|Imágenes perdidas al convertir ODS a XLSX|Insecto|
 |CELLSJAVA-42538|Las propiedades no se extraen de los archivos XLS y XLSX|Insecto|

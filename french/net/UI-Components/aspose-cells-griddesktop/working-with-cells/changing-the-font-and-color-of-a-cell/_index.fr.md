@@ -15,8 +15,8 @@ Pour modifier la police et la couleur d'une cellule à l'aide de Aspose.Cells.Gr
 -  Accédez à tout**Feuille de travail**
 -  Accéder à un**Cell** dont la police et la couleur doivent être modifiées
 -  Créer un personnalisé**Police de caractère**
--  Met le**Police de caractère** de la**Cell** au personnalisé
--  Enfin, réglez**Couleur de la police** de la**Cell** à tout désiré**Couleur**
+-  Met le**Police de caractère** du**Cell** au personnalisé
+-  Enfin, réglez**Couleur de la police** du**Cell** à tout désiré**Couleur**
 
 
 

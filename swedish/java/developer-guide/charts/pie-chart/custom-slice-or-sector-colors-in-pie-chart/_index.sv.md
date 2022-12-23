@@ -12,7 +12,7 @@ Den här artikeln förklarar hur du lägger till anpassade färger till cirkeldi
 
 Så här ställer du in den anpassade färgen för ett cirkeldiagrams enskilda segment eller sektorer:
 
-1.  Få tillgång till[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) objekt[**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1.  Få tillgång till[**Serier**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) föremål[**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
 1.  Tilldela en valfri färg med hjälp av[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)metod.
 
 Den här artikeln förklarar också hur du ställer in:

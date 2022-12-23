@@ -32,7 +32,7 @@ Los siguientes pasos describen cómo combinar celdas en la hoja de trabajo usand
 
 ### **Usando Aspose.Cells**
 
- los[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class tiene algunos métodos útiles para la tarea. Por ejemplo, el método[**unir()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) combina las celdas en una sola celda dentro de un rango específico de celdas.
+ Él[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) class tiene algunos métodos útiles para la tarea. Por ejemplo, el método[**unir()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#merge(int,%20int,%20int,%20int)) combina las celdas en una sola celda dentro de un rango específico de celdas.
 
 El siguiente resultado se genera después de ejecutar el siguiente código.
 
@@ -42,7 +42,7 @@ El siguiente resultado se genera después de ejecutar el siguiente código.
 
 #### **Ejemplo de código**
 
-El siguiente ejemplo muestra cómo fusionar celdas (C6:E7) en una hoja de cálculo.
+El siguiente ejemplo muestra cómo fusionar celdas (C6:E7) en una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-MergingCellsInWorksheet-MergingCellsInWorksheet.java" >}}
 
@@ -58,7 +58,7 @@ Los siguientes pasos describen cómo dividir celdas combinadas usando Microsoft 
 
 #### **Usando Aspose.Cells**
 
- los[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) la clase tiene un método llamado[**desfusionar()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) que divide las células en su estado original. El método separa las celdas usando la referencia de la celda en el rango de celdas combinadas.
+ Él[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) la clase tiene un método llamado[**desfusionar()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#unMerge(int,%20int,%20int,%20int)) que divide las células en su estado original. El método separa las celdas usando la referencia de la celda en el rango de celdas combinadas.
 
 #### **Ejemplo de código**
 

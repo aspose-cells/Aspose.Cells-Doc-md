@@ -29,7 +29,7 @@ Detta visar dialogrutan Skapa lista.
 
 ![todo:image_alt_text](picture2.png)
 
-Implementera List-objektet och specificera Total Row (Välj**Data**, då**Lista**, följd av**Total rad**).
+Implementera List-objektet och specificera Total Row (Välj**Data**, då**Lista**följd av**Total rad**).
 
 **Skapa ett listobjekt** 
 

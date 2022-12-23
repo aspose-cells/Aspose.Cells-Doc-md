@@ -13,7 +13,7 @@ description: comment personnaliser les paramètres d'initialisation dans le scri
  
 ### **Paramètres**
  
-|**Paramètre**|**La description**|
+|**Paramètre**|**Description**|
 |:- |:- |
 |needInitAlignmentAdjust|s'il faut faire un alignement vertical pour le contenu de la cellule lors de l'initialisation, cela prendra un certain temps pour faire le travail d'alignement, si la feuille de calcul a de grandes cellules, les performances seront médiocres, si l'utilisateur ne se soucie pas de l'alignement vertical, alors il peut le régler sur être faux, la valeur par défaut est true|
 |se concentrer à l'intérieur| s'il faut se concentrer à l'intérieur de la cellule, la valeur par défaut est true|

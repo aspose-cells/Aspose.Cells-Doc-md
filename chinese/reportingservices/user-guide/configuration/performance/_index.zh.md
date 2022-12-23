@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/reportingservices/performance/
 ---
-要提高性能，请将性能参数设置为**上**.
+要提高性能，请将性能参数设置为**在**.
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **IsAutoRowFit** ：当 Performance 的值为**离开** IsAutoRowFit 的值为**错误的**默认。当性能参数的值为**上** 值为**真的**默认。当 Performance 的值为**上**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **IsAutoRowFit** ：当 Performance 的值为**离开** IsAutoRowFit 的值为**错误的**默认。当性能参数的值为**在** 值为**真的**默认。当 Performance 的值为**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **已合并** ：当 Performance 的值为**离开** IsMerged 默认值为**错误的**.当 Performance 的值为**上**，默认值为**真的**.当 Performance 参数的值为**上**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **已合并** ：当 Performance 的值为**离开** IsMerged 默认值为**错误的**.当 Performance 的值为**在**，默认值为**真的**.当 Performance 参数的值为**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
 
 {{< highlight "java" >}}
 
@@ -89,7 +89,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **设置样式** ：当 Performance 的值为**离开**，默认值为**错误的**.当性能是**上**，默认值为**真的**.此外，当性能是**上**，子元素报告可以将点报告重置为 AutoRowFit 值。
+- **设置样式** ：当 Performance 的值为**离开**，默认值为**错误的**.当性能是**在**，默认值为**真的**.此外，当性能是**在**，子元素报告可以将点报告重置为 AutoRowFit 值。
 
 {{< highlight "java" >}}
 
@@ -114,7 +114,7 @@ url: /zh/reportingservices/performance/
 
 
 
-- **是条件格式**：当性能是**离开**，默认值为**错误的**.当性能是**上**，默认值为**真的**.此外，当性能是**上**，子元素报告可以将点报告重置为 AutoRowFit 值。当 IsSetStyle 参数值设置为**错误的** Performance 的值无效。
+- **是条件格式**：当性能是**离开**，默认值为**错误的**.当性能是**在**，默认值为**真的**.此外，当性能是**在**，子元素报告可以将点报告重置为 AutoRowFit 值。当 IsSetStyle 参数值设置为**错误的** Performance 的值无效。
 
 {{< highlight "java" >}}
 

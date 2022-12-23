@@ -7,7 +7,7 @@ url: /fr/net/filter-objects-while-loading-workbook-or-worksheet/
 ## **Scénarios d'utilisation possibles**
 Veuillez utiliser[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)propriété lors du filtrage des données du classeur. Mais si vous souhaitez filtrer les données de feuilles de calcul individuelles, vous devrez remplacer le[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)méthode. Veuillez fournir une valeur appropriée à partir du[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)énumération lors de la création ou de l'utilisation[ChargerFiltre](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
- La[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)énumération a les valeurs possibles suivantes.
+ Le[LoadDataFilterOptionsLoadDataFilterOptionsLoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)énumération a les valeurs possibles suivantes.
 
 - Tout
 - Paramètres du livre
@@ -28,7 +28,7 @@ Veuillez utiliser[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net
 - Zone fusionnée
 - Tableau croisé dynamique
 - Réglages
-- Forme
+- Façonner
 - SheetData
 - SheetSettings
 - Structure
@@ -37,7 +37,7 @@ Veuillez utiliser[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net
 - VBA
 - XmlMap
 ## **Filtrer les objets lors du chargement du classeur**
- L'exemple de code suivant montre comment filtrer les graphiques du classeur. S'il vous plaît, vérifiez le[exemple de fichier excel](5115258.xlsx) utilisé dans ce code et le[PDF de sortie](5115257.pdf)généré par celui-ci. Comme vous pouvez le voir dans le PDF de sortie, tous les graphiques ont été filtrés du classeur.
+ L'exemple de code suivant montre comment filtrer les graphiques du classeur. S'il vous plaît, vérifiez le[exemple de fichier excel](5115258.xlsx) utilisé dans ce code et le[sortie PDF](5115257.pdf)généré par celui-ci. Comme vous pouvez le voir dans la sortie PDF, tous les graphiques ont été filtrés du classeur.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **Filtrer les objets lors du chargement de la feuille de calcul**

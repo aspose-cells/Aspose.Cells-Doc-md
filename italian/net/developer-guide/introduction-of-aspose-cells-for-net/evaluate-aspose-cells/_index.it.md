@@ -6,7 +6,7 @@ url: /it/net/evaluate-aspose-cells/
 ---
 {{% alert color="primary" %}}
 
- Puoi facilmente scaricare Aspose.Cells per la valutazione dal[Galleria NuGet](https://www.nuget.org/packages/Aspose.Cells). Il download di valutazione è lo stesso del download per la versione completa: la valutazione diventa concessa in licenza quando si applica una licenza.
+ Puoi facilmente scaricare Aspose.Cells per la valutazione dal[NuGet Galleria](https://www.nuget.org/packages/Aspose.Cells). Il download di valutazione è lo stesso del download per la versione completa: la valutazione diventa concessa in licenza quando si applica una licenza.
 
 {{% /alert %}}
 

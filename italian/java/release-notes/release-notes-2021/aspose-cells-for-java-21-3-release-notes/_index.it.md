@@ -10,7 +10,7 @@ url: /it/java/aspose-cells-for-java-21-3-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43400|Supporta la funzione UNIQUE()|
 |CELLSJAVA-42863|Recupera il sottotitolo del grafico|
@@ -20,14 +20,14 @@ url: /it/java/aspose-cells-for-java-21-3-release-notes/
 |CELLSJAVA-43406|Problemi durante la conversione di HTML in Excel|
 |CELLSJAVA-43399|CalculateFormula() crea molti valori di tipo di errore #VALUE|
 |CELLSJAVA-43362|Problema di percentuale per le etichette durante la stampa dei grafici|
-|CELLSJAVA-43384|Problema relativo alle percentuali per alcune etichette durante il rendering in PDF e la stampa di grafici|
+|CELLSJAVA-43384|Problema di percentuali per alcune etichette durante il rendering su PDF e la stampa di grafici|
 |CELLSJAVA-43402|Genera l'immagine esatta del grafico dal file Excel|
 |CELLSJAVA-43408|La parte superiore del grafico viene tagliata e la linea obliqua sale|
 |CELLSJAVA-43412|CellsException nella conversione da xlsx a html|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà SignatureLine.Id.**
 

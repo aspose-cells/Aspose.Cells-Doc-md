@@ -52,17 +52,17 @@ url: /tr/net/aspose-cells-for-net-7-3-0-release-notes/
 - Cells.ExportDataTableAsString() yöntemi ve özel biçimlendirme ile ilgili bir sorun
 - Pivot Tablo ile ilgili ciddi bir sorun
 - Birden çok çalışma kitabında Workbook.CalculateFormula() yöntemini kullanma anında #VALUE verir
-- İş şekillerinin (içerdeki metin) PDF oluşturması hoş değil
-- Yazdırılan sayfa sayısına bağlı olarak XLS içindekiler tablosuyla ilgili sorun
+- PDF iş şekillerinin (iç metin) sunumu hoş değil
+- XLS ile sorun yazdırılan sayfa sayısına göre içindekiler tablosu
 
- -PDF dönüştürme, adlandırılmış alanların değerlerini kaçırıyor
+ -PDF dönüşümü, adlandırılmış alanların değerlerini kaçırıyor
 
 - Dizi formüllerinden alınan değerlerle hücrelere başvurmak çalışmıyor
 
- -Cells Biçimlendirme Sorunu
+-Cells Biçimlendirme Sorunu
 
 - Bir resme başvuran formülle ilgili sorun
-- SpreadsheetML'deki Dizi Formülleri, XLSX'e dönüştürülürken taşınmıyor
+- SpreadsheetML'deki Dizi Formülleri, XLSX'e dönüştürülürken taşınmaz
 - XLSM'de adlandırılmış aralıkları kaybetme hatası
 
 

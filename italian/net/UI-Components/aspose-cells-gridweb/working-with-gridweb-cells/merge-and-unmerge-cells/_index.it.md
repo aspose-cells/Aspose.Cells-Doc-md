@@ -14,7 +14,7 @@ Unisci più celle in un foglio di lavoro in una singola cella chiamando il metod
 
 {{% alert color="primary" %}} 
 
-Se unisci più celle e ogni cella contiene dati, dopo l'unione viene mantenuto solo il contenuto della cella in alto a sinistra nell'intervallo. I dati nelle altre celle non vengono persi. Se dividi le celle, ogni cella recupera i suoi dati.
+Se unisci più celle e ogni cella contiene dati, dopo l'unione viene mantenuto solo il contenuto della cella in alto a sinistra nell'intervallo. I dati nelle altre celle non vengono persi. Se dividi le celle, ogni cella recupera i propri dati.
 
 {{% /alert %}} 
 

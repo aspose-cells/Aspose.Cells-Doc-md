@@ -6,7 +6,7 @@ url: /es/java/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Posibles escenarios de uso**
 
-Las API Aspose.Cells brindan la posibilidad de representar las hojas de cálculo en formatos de imagen, así como convertirlas a formatos PDF y XPS. Para maximizar la fidelidad de la conversión, es necesario que las fuentes utilizadas en la hoja de cálculo estén disponibles en el directorio de fuentes predeterminado del sistema operativo. En caso de que las fuentes requeridas no estén presentes, las API Aspose.Cells intentarán sustituir las fuentes requeridas por las disponibles.
+Las API Aspose.Cells brindan la posibilidad de representar las hojas de cálculo en formatos de imagen, así como convertirlas a los formatos PDF y XPS. Para maximizar la fidelidad de la conversión, es necesario que las fuentes utilizadas en la hoja de cálculo estén disponibles en el directorio de fuentes predeterminado del sistema operativo. En caso de que las fuentes requeridas no estén presentes, las API Aspose.Cells intentarán sustituir las fuentes requeridas por las disponibles.
 
 ## **Selección de fuentes**
 
@@ -21,13 +21,13 @@ A continuación se muestra el proceso que siguen las API Aspose.Cells detrás de
 
 {{% alert color="primary" %}}
 
- Las API Aspose.Cells siempre escanean el directorio de fuentes predeterminado del sistema operativo con una excepción, es decir; cuando los argumentos de JVM**-DAspose.Cells.FontDirExc="TuFontDir"** se establecen. En ese caso, las API Aspose.Cells omitirán el escaneo del directorio de fuentes predeterminado del sistema operativo y solo buscarán la ruta como se especifica en los argumentos JVM mencionados anteriormente.
+ Las API Aspose.Cells siempre escanean el directorio de fuentes predeterminado del sistema operativo con una excepción, es decir; cuando los argumentos de JVM**-DAspose.Cells.FontDirExc="TuFontDir"**se establecen. En ese caso, las API Aspose.Cells omitirán el escaneo del directorio de fuentes predeterminado del sistema operativo y solo buscarán la ruta como se especifica en los argumentos JVM mencionados anteriormente.
 
 {{% /alert %}}
 
 ## **Establecer carpetas de fuentes personalizadas**
 
- Aspose.Cells Las API buscan en el directorio de fuentes predeterminado del sistema operativo las fuentes requeridas. En caso de que las fuentes requeridas no estén disponibles en el directorio de fuentes del sistema, las API buscan en los directorios personalizados (definidos por el usuario). los[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)class ha expuesto varias formas de establecer directorios de fuentes personalizados como se detalla a continuación.
+ Aspose.Cells Las API buscan en el directorio de fuentes predeterminado del sistema operativo las fuentes requeridas. En caso de que las fuentes requeridas no estén disponibles en el directorio de fuentes del sistema, las API buscan en los directorios personalizados (definidos por el usuario). Él[**FontConfigs**](https://reference.aspose.com/cells/java/com.aspose.cells/FontConfigs)class ha expuesto varias formas de establecer directorios de fuentes personalizados como se detalla a continuación.
 
 1. [**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)): este método es útil si solo hay una carpeta para configurar.
 1. [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean)): este método es útil cuando las fuentes residen en varias carpetas y el usuario desea configurar todas las carpetas por separado en lugar de combinar todas las fuentes en una sola carpeta.
@@ -35,7 +35,7 @@ A continuación se muestra el proceso que siguen las API Aspose.Cells detrás de
 
 {{% alert color="primary" %}}
 
- Ambas cosas[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) Los métodos aceptan un segundo parámetro de tipo booleano. Paso**verdadero**como segundo parámetro dirigirá las API Aspose.Cells para buscar las subcarpetas de los archivos de fuentes.
+ Ambos[**FontConfigs.setFontFolder**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolder(java.lang.String,%20boolean)) & [**FontConfigs.setFontFolders**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#setFontFolders(java.lang.String[],%20boolean) ) Los métodos aceptan un segundo parámetro de tipo booleano. Paso**verdadero**como segundo parámetro dirigirá las API Aspose.Cells para buscar las subcarpetas de los archivos de fuentes.
 
 {{% /alert %}}
 
@@ -53,7 +53,7 @@ Si se utiliza más de uno de los métodos mencionados anteriormente para configu
 
 ## **Mecanismo de sustitución de fuentes**
 
-Las API Aspose.Cells también brindan la capacidad de especificar la fuente sustituta para fines de representación. Este mecanismo es útil cuando una fuente requerida no está disponible en la máquina donde se debe realizar la conversión. Los usuarios pueden proporcionar una lista de nombres de fuentes como alternativa a la fuente requerida originalmente. Para lograr esto, las API Aspose.Cells han expuesto el método FontConfigs.setFontSubstitutes que acepta 2 parámetros. El primer parámetro es de tipo**Cuerda** , que debe ser el nombre de la fuente que debe sustituirse. El segundo parámetro es una matriz de tipo**Cuerda**. Los usuarios pueden proporcionar una lista de nombres de fuentes como sustitutos de la fuente original (especificada en el primer parámetro).
+Las API Aspose.Cells también brindan la capacidad de especificar la fuente sustituta para fines de representación. Este mecanismo es útil cuando una fuente requerida no está disponible en la máquina donde se debe realizar la conversión. Los usuarios pueden proporcionar una lista de nombres de fuentes como alternativa a la fuente requerida originalmente. Para lograr esto, las API Aspose.Cells han expuesto el método FontConfigs.setFontSubstitutes que acepta 2 parámetros. El primer parámetro es de tipo**Cadena** , que debe ser el nombre de la fuente que debe sustituirse. El segundo parámetro es una matriz de tipo**Cadena**. Los usuarios pueden proporcionar una lista de nombres de fuentes como sustitutos de la fuente original (especificada en el primer parámetro).
 
 Aquí hay un escenario de uso simple.
 
@@ -70,4 +70,4 @@ FontConfigs.setFontSubstitutes("Arial", new String[]{ "Times New Roman", "Calibr
 Además de los métodos mencionados anteriormente, las API Aspose.Cells también han proporcionado medios para recopilar información sobre qué fuentes y sustituciones se han establecido.
 
 1. [**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources() ): este método devuelve una matriz de tipo[**FuenteFuenteBase**](https://reference.aspose.com/cells/java/com.aspose.cells/FileFontSource)que contiene la lista de fuentes de fuentes especificadas. En caso de que no se hayan establecido fuentes, el[**FontConfigs.getFontSources**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSources()) devolverá una matriz vacía.
-1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): este método acepta un parámetro de tipo**Cuerda** permitiendo especificar el nombre de la fuente para la que se ha establecido la sustitución. En caso de que no se haya establecido ninguna sustitución para el nombre de fuente especificado, el[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) método devolverá nulo.
+1. [**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String) ): este método acepta un parámetro de tipo**Cadena** permitiendo especificar el nombre de la fuente para la que se ha establecido la sustitución. En caso de que no se haya establecido ninguna sustitución para el nombre de fuente especificado, el[**FontConfigs.getFontSubstitutes**](https://reference.aspose.com/cells/java/com.aspose.cells/fontconfigs#getFontSubstitutes(java.lang.String)) método devolverá nulo.

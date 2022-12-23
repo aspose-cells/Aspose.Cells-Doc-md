@@ -16,17 +16,17 @@ url: /zh/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44808 | Table 或 ListObject 中的公式不会随新行一起传播|强化|
 |CELLSNET-44719 |Workbook.Worksheets.ExternalLinks 不返回相同的列表|强化|
 |CELLSNET-44721 |生成的电子表格无法加载到 MS Excel 中|漏洞|
-|CELLSNET-44695 |从 HTML 加载会忽略样式块中的粗体样式|漏洞|
+|CELLSNET-44695 |从 HTML 加载忽略样式块中的粗体样式|漏洞|
 |CELLSNET-44779 |D5单元格的计算值错误|漏洞|
 |CELLSNET-44775 |Excel 到 PDF 转换 - 输出 PDF 文件格式的页数增加|漏洞|
 |CELLSNET-44771 |将 Excel 转换为 PDF 时丢失文本|漏洞|
 |CELLSNET-44733 |由于列宽较小而隐藏的文本已在图像中呈现|漏洞|
 |CELLSNET-44768 |图表标题不会动态变化|漏洞|
 |CELLSNET-44763 |在 MS Office 中使用希伯来语语言包定义的图表未正确导出到图像|漏洞|
-|CELLSNET-44730 |对齐列表在输出 PDF 中未正确显示|漏洞|
-|CELLSNET-44729 |导出为 PDF 时，Excel 中的编号列表无法正确显示|漏洞|
-|CELLSNET-44720 |输出 PDF 中的弧端是方形而不是圆形|漏洞|
-|CELLSNET-44715 |API 将饼图的切片颜色返回为无|漏洞|
+|CELLSNET-44730 |对齐列表未在输出中正确显示 PDF|漏洞|
+|CELLSNET-44729 |导出到 PDF 时，Excel 中的编号列表无法正确显示|漏洞|
+|CELLSNET-44720 |输出中的弧端是方形而不是圆形 PDF|漏洞|
+|CELLSNET-44715 | API 将饼图的切片颜色返回为无|漏洞|
 |CELLSNET-44804 |具有指向名称中包含“#”字符的另一个工作表的超链接的工作簿已损坏|漏洞|
 |CELLSNET-44791 |简单加载和保存操作后对象定位发生变化|漏洞|
 |CELLSNET-44772 |通过添加“file:///”或类似的超链接问题|漏洞|
@@ -44,7 +44,7 @@ url: /zh/net/aspose-cells-for-net-16-10-0-release-notes/
 |漏洞|
 |CELLSNET-44726 |复制/插入行导致输出 Excel 文件中出现意外边框|漏洞|
 |CELLSNET-44642 |重新保存 Excel 文件会更改默认字体|漏洞|
-|CELLSNET-44785 |打开特定文件 (XLSB) 时出现 NullReferenceException|例外|
+|CELLSNET-44785 |打开特定文件时出现 NullReferenceException (XLSB)|例外|
 |CELLSNET-44760 |初始化 SheetRender 时出现 IndexOutOfRangeException|例外|
 |CELLSNET-44765 |工作簿 ctor 的 System.ArgumentOutOfRangeException|例外|
 |CELLSNET-44757 |打开源 XLSB 文件时出现 System.NullReferenceException|例外|
@@ -54,7 +54,7 @@ url: /zh/net/aspose-cells-for-net-16-10-0-release-notes/
 
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
-|CELLSNET-44724 | Aspose.Cells.GridWeb 支持自定义函数|新功能|
+|CELLSNET-44724 |Aspose.Cells.GridWeb 支持自定义函数|新功能|
 |CELLSNET-44784 |通过从原始单元格中删除复制的值，复制操作的行为与剪切操作相同|漏洞|
 |CELLSNET-44777 |删除超链接单元格崩溃 Aspose.Cells.GridDesktop|漏洞|
 |CELLSNET-44776 |添加超链接然后通过上下文菜单编辑和删除它会使 GridDesktop 崩溃|漏洞|

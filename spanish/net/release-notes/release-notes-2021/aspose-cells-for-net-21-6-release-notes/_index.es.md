@@ -19,9 +19,9 @@ url: /es/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|Los valores de celda con formato recuperados son incorrectos en la hoja de cálculo de Excel|Mejora|
 |CELLSNET-48078|Copia profunda del libro de trabajo después del cálculo con la configuración CreateCalcChain|Mejora|
 |CELLSNET-48079| Cómo comprobar si una hoja de cálculo está vacía|Mejora|
-|CELLSNET-48135| Problema con libro protegido (con contraseña) generado por Aspose.Cells|Mejora|
-|CELLSNET-48050| cpu cuelga en libro abierto|Actuación|
-|CELLSNET-48063|Costo de tiempo cuando se llama a la API Cells.GetRowRawHeightPoint|Actuación|
+|CELLSNET-48135|Problema con libro protegido (con contraseña) generado por Aspose.Cells|Mejora|
+|CELLSNET-48050| cpu cuelga en libro abierto|Rendimiento|
+|CELLSNET-48063|Costo de tiempo cuando se llama a la API Cells.GetRowRawHeightPoint|Rendimiento|
 |CELLSNET-48046|El desplazamiento de texto de la forma es incorrecto (flecha: quad).|Insecto|
 |CELLSNET-48064|La disposición del texto de la fuente predeterminada en el cuadro de texto no es correcta|Insecto|
 |CELLSNET-48088|La parte superpuesta de la curva se corta.|Insecto|
@@ -37,14 +37,14 @@ url: /es/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48081|La imagen no se muestra en GridWeb|Insecto|
 |CELLSNET-48117|Agregar GridCell.GetValidation() para GridDesktop|Insecto|
 |CELLSNET-47627|Problemas al acceder/modificar el eje X de un gráfico de Excel usando Aspose.Cells|Insecto|
-|CELLSNET-48041| El gráfico extraído está distorsionado en la representación del gráfico a imagen/PDF|Insecto|
+|CELLSNET-48041| El gráfico extraído está distorsionado en la representación del gráfico a la imagen/PDF|Insecto|
 |CELLSNET-48049|Espaciado de eje diferente al convertir de libro de trabajo xlsx a emf|Insecto|
 |CELLSNET-48101|Los caracteres chinos se muestran como Rectagle Linux Docker|Insecto|
 |CELLSNET-48061|PowerQueries que desaparecen después del reemplazo de la consulta|Insecto|
 |CELLSNET-48065|El archivo vuelto a guardar con un valor de rango con nombre específico hace que Excel se corrompa|Insecto|
 |CELLSNET-48067|SetChartDataRange no reconoció las celdas combinadas|Insecto|
 |CELLSNET-48072|Leer el gráfico vacío obtendrá un tipo de gráfico incorrecto|Insecto|
-|CELLSNET-48133|Error generado por MS Excel al abrir el archivo XLSX de salida|Insecto|
+|CELLSNET-48133|Error generado por MS Excel al abrir el archivo de salida XLSX|Insecto|
 |CELLSNET-48045|Se lanza una excepción al convertir svg a imagen|Excepción|
 |CELLSNET-48062|Excepción generada al convertir XLS a XLSX|Excepción|
 |CELLSNET-48074|El valor no puede ser nulo al abrir el archivo de números de Apple|Excepción|

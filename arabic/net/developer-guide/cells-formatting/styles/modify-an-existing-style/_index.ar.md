@@ -22,7 +22,7 @@ url: /ar/net/modify-an-existing-style/
 
 1.  على ال**شكل** القائمة ، انقر فوق**أسلوب**.
 1.  حدد النمط الذي تريد تعديله من ملف**اسم النمط** قائمة.
-1.  انقر**تعديل**.
+1.  انقر**يُعدِّل**.
 1. حدد خيارات النمط التي تريدها باستخدام علامات التبويب في مربع الحوار تنسيق Cells.
 1.  انقر**نعم**.
 1.  تحت**يشمل النمط**، حدد ميزات النمط التي تريدها.
@@ -34,7 +34,7 @@ url: /ar/net/modify-an-existing-style/
 
 ### **إنشاء وتعديل النمط**
 
- هذا المثال ينشئ ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) كائن ، يطبقه على نطاق من الخلايا ويعدل[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)هدف. يتم تطبيق التعديلات تلقائيًا على الخلية والنطاق الذي تم تطبيق النمط عليه.
+ هذا المثال ينشئ ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) كائن ، يطبقه على نطاق من الخلايا ويعدل[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style)موضوع. يتم تطبيق التعديلات تلقائيًا على الخلية والنطاق الذي تم تطبيق النمط عليه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ModifyExistingStyle-ModifyThroughStyleObject-1.cs" >}}
 

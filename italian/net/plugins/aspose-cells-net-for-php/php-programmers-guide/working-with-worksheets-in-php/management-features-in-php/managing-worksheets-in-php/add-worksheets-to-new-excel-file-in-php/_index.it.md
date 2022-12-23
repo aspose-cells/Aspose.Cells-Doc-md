@@ -37,6 +37,6 @@ Aggiungi fogli di lavoro al nuovo file Excel
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Aggiungi fogli di lavoro al nuovo file Excel (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Aggiungi fogli di lavoro al nuovo file Excel (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/blob/master/Plugins/Aspose_Cells_NET_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets/AddingWorksheetsToNewExcelFile.php)

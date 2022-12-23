@@ -14,7 +14,7 @@ url: /ja/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-40792|ODS ファイルのピボット テーブルが作成されない|新機能|
 |CELLSJAVA-43221|XLT ファイルのロード時の例外「java.lang.NullPointerException」|強化|
-|CELLSJAVA-43222|XLS ファイルをロードするときの例外「com.aspose.cells.CellsException: 数式データが壊れている必要があります....」|強化|
+|CELLSJAVA-43222|XLS ファイルをロードするときの例外「com.aspose.cells.CellsException: 式データが壊れている必要があります....」|強化|
 |CELLSJAVA-43223|XLS ファイルのロード時の例外「java.lang.IllegalStateException: Invalid encoding: null」|強化|
 |CELLSJAVA-43226|画像のデータを取得するときの例外「java.lang.ArrayIndexOutOfBoundsException」|強化|
 |CELLSJAVA-43234|ピボット テーブルから読み取れない 2014 年より前のデータ|バグ|
@@ -23,21 +23,21 @@ url: /ja/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43219|数式参照を別のシートに追加すると、Excel ワークブックが破損する|バグ|
 |CELLSJAVA-43232|ROUNDUP 関数の問題|バグ|
 |CELLSJAVA-43243|隣接セルの数式を変更中に数式を取得できませんでした|バグ|
-|CELLSJAVA-43217|XLSX を XPS に印刷すると、背景の書式設定が失われる|バグ|
+|CELLSJAVA-43217|XLSX から XPS を印刷すると、背景の書式設定が失われます|バグ|
 |CELLSJAVA-43224|物理プリンターへの印刷中の問題|バグ|
 |CELLSJAVA-43241|Excel領域から画像を作成する際の行の高さと境界線の問題|バグ|
 |CELLSJAVA-43209|SmartMarkers の使用中に setRepeatFormulaWithSubtotal(true) が期待される結果を生成しない|バグ|
 |CELLSJAVA-43213|Aspose.Cells Office 365 のフォーム コントロールで 20.6 が正常に動作しない (バージョン 2005 ビルド 12827.20268)|バグ|
-|CELLSJAVA-43214|XLS を XLSX に変換すると、破損した XLSX ファイルが生成される|バグ|
+|CELLSJAVA-43214|XLS を XLSX に変換すると、破損した XLSX ファイルが生成されます|バグ|
 |CELLSJAVA-43216|XLS から XLSX への変換 - 形状のフォントの太さと位置が変更されます|バグ|
 |CELLSJAVA-43228|生成された XLS は保護されたビューにあります|バグ|
 |CELLSJAVA-43231|置換後の出力ファイルのエラー|バグ|
 |CELLSJAVA-43242|Head タグの外側にある style タグの 1 つ|バグ|
 |CELLSJAVA-43157|ウォーターフォール グラフの作成時に、カスタマイズされたデータ系列の色が保持されない|バグ|
-|CELLSJAVA-43240|Excel を PDF に変換するときに、図形/オブジェクトで意図しない改行が発生する|バグ|
+|CELLSJAVA-43240|Excel を PDF に変換すると、図形/オブジェクトで意図しない改行が発生する|バグ|
 |CELLSJAVA-43255|Excel から PDF への変換のパフォーマンスの問題|バグ|
 |CELLSJAVA-43250|展開されたラベル セルが SmartMarker で結合されない|バグ|
-|CELLSJAVA-43253|SmartArt でテキストを置き換えた後、OoxmlSaveOptions を使用してファイルを保存すると、XLS が XLSX に変換されます|バグ|
+|CELLSJAVA-43253|SmartArt でテキストを置き換えた後に OoxmlSaveOptions を使用してファイルを保存すると、XLS が XLSX に変換されます|バグ|
 |CELLSJAVA-43263|セルに塗りつぶしの色と条件付き書式が設定されている場合の SmartMarker の問題|バグ|
 |CELLSJAVA-43269|ピボット シートから値を取得できません|バグ|
 |CELLSJAVA-43272|幅をスケーラブルに設定すると画像が縮小する|バグ|
@@ -49,7 +49,7 @@ url: /ja/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43293|PivotTable.refreshData() 後のフィルター オプションに関する問題|バグ|
 |CELLSJAVA-43279|getStringValue() を使用して値が正しく取得されない|バグ|
 |CELLSJAVA-43291|グリッド コンテンツが表示されない|バグ|
-|CELLSJAVA-43037|PDF変換時のフォントの問題|バグ|
+|CELLSJAVA-43037|PDF 変換時のフォントの問題|バグ|
 |CELLSJAVA-43249|物理プリンター、XPS および PDF プリンター使用時の印刷の問題|バグ|
 |CELLSJAVA-43254|スプレッドシートを画像に変換する際のフォントの違い|バグ|
 |CELLSJAVA-43266|Java バージョンは、デフォルトで現在のユーザー フォント フォルダーからのフォントの読み込みをサポートしていません|バグ|
@@ -57,7 +57,7 @@ url: /ja/java/aspose-cells-for-android-via-java-20-9-release-notes/
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: ZipFile のエラー|バグ|
 |CELLSJAVA-43277|縦横比の問題|バグ|
 |CELLSJAVA-43245|Excel ファイルを PDF に変換した後、コンボ チャートが正しく表示されない|バグ|
-|CELLSJAVA-43276|XLSX から PDF への変換中の改行の問題|バグ|
+|CELLSJAVA-43276|XLSX を PDF に変換する際の改行の問題|バグ|
 |CELLSJAVA-43261|SmartMarker: group:merge を Number Format Percentage で使用すると、展開結果が正しくない|バグ|
 |CELLSJAVA-43265|XLSX ファイルを読み込めません|バグ|
 |CELLSJAVA-43270|ワークシートコピー時の内容重複（埋め込みWord）|バグ|

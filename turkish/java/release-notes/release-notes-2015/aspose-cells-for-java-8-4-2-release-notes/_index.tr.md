@@ -32,23 +32,23 @@ url: /tr/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41319) - Kaydettikten sonra Excel 2010/2013'te dilimleyici kaldırıldı
 
- (CELLSJAVA-41317) - Excel'de "Tamamı büyük harf" işleviyle oluşturulan büyük harfler PDF'de korunmuyor
+ (CELLSJAVA-41317) - Excel'de 'Tamamı büyük harf' işleviyle oluşturulan büyük harfler PDF'de korunmuyor
 
  (CELLSJAVA-41315) - Sayfa 5'teki Şekillerin Oluşturulması doğru değil
 
- (CELLSJAVA-41308) - Elektronik tabloyu PDF formatına dönüştürürken şekil konumu yanlış
+ (CELLSJAVA-41308) - Elektronik tablo PDF biçimine dönüştürülürken şekil konumu yanlış
 
- (CELLSJAVA-41282) - Çizimler içeren elektronik tabloyu PDF'ye dönüştürürken ok uçları büyütüldü
+ (CELLSJAVA-41282) - Çizimler içeren elektronik tablo PDF'e dönüştürülürken ok uçları büyütüldü
 
-(CELLSJAVA-41249) - WordArt çıktı PDF dosyasında iyi işlenmiyor
+ (CELLSJAVA-41249) - WordArt, PDF çıktı dosyasında iyi işlenmiyor
 
- (CELLSJAVA-41243) - Elektronik tablo PDF'ye dönüştürülürken şekillerdeki yatay metin dikey olarak işleniyor
+ (CELLSJAVA-41243) - Elektronik tablo PDF'e dönüştürülürken şekillerdeki yatay metin dikey işleniyor
 
- (CELLSJAVA-41242) - Elektronik tablo PDF'ye dönüştürülürken çizim karışık
+(CELLSJAVA-41242) - Elektronik tablo PDF'e dönüştürülürken çizim karışık
 
- (CELLSJAVA-41241) - Elektronik tabloyu PDF'ye dönüştürürken daire şekilleri ovallere dönüşüyor
+ (CELLSJAVA-41241) - Elektronik tablo PDF'e dönüştürülürken daire şekilleri ovallere dönüşüyor
 
- (CELLSJAVA-41233) - Excel şablonundaki çizim nesneleri ve şekiller, Aspose.Cells kullanılarak çıktı PDF'sinde iyi işlenmiyor
+ (CELLSJAVA-41233) - Excel şablonundaki çizim nesneleri ve şekiller, Aspose.Cells kullanılarak PDF çıktısında iyi işlenmiyor
 
  (CELLSJAVA-41302) - En son Aspose sürümü, önceki sürüm aracılığıyla kaydedilen dosyayı kaydedemiyor
 
@@ -62,21 +62,21 @@ url: /tr/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-41313) - Kesintisiz çizgiler Noktalı çizgiler olarak görünüyor
 
-(CELLSJAVA-41306) - Excel'den PDF'e dönüştürme sorunu - sağ taraf kesik
+ (CELLSJAVA-41306) - Excel'den PDF'e dönüştürme sorunu - sağ taraf kesik
 
- (CELLSJAVA-41316) - Çalışma kitabı kopyalanırken işlenen HTML dosyasında bazı DataLabel'ler eksik
+ (CELLSJAVA-41316) - Çalışma kitabı kopyalanırken işlenen HTML dosyasında bazı DataLabels eksik
 
- (CELLSJAVA-41314) - Grafikteki DataLabel'ler, işlenen EMF görüntüsünde gösterilmiyor
+(CELLSJAVA-41314) - Grafikteki DataLabels, işlenmiş EMF görüntüsünde gösterilmiyor
 
- (CELLSJAVA-41311) - Grafiğin EMF'ye dönüştürülürken Eksen etiketleri eksik
+ (CELLSJAVA-41311) - EMF'e dönüştürülürken Grafiğin Eksen etiketleri eksik
 
- (CELLSJAVA-41301) - Excel'de bulunan 'akıllı sanat'taki İbranice karakterler PDF sunumunda yansıtılır
+ (CELLSJAVA-41301) - Excel'de bulunan 'akıllı sanat'taki İbranice karakterler PDF yorumlamasında yansıtılır
 
  (CELLSJAVA-41300) - Aspose aracılığıyla işlendiğinde hatalı Pasta Grafik Verileri
 
  (CELLSJAVA-41285) - Çalışma Kitapları birleştirildikten sonra Grafiğin Çizim Alanının yüksekliği artıyor
 
- (CELLSJAVA-41277) - Yalnızca Pasta grafiğinin oluşturulması boş bir PDF ile sonuçlanır
+ (CELLSJAVA-41277) - Yalnızca Pasta grafiğinin oluşturulması boş bir PDF ile sonuçlanıyor
 
  (CELLSJAVA-41276) - Chart.toImage, Pasta Grafiği için boş bir resim oluşturur
 
@@ -84,13 +84,13 @@ url: /tr/java/aspose-cells-for-java-8-4-2-release-notes/
 
  (CELLSJAVA-40606) - Grafiğin işlenmiş görüntüsü doğru değil (Grafikten Resme)
 
-(CELLSJAVA-40368) - Chart.calculate(), X ve Y ekseni etiketlerini yanlış yerleştirir
+ (CELLSJAVA-40368) - Chart.calculate(), X ve Y ekseni etiketlerini yanlış yerleştirir
 
 
 ## **İstisnalar**
 
 
- (CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Dizin: 2, Boyut: 2, ctro Çalışma Kitabı'nda
+(CELLSJAVA-41310) - java.lang.IndexOutOfBoundsException: Dizin: 2, Boyut: 2, ctro Çalışma Kitabı'nda
 
  (CELLSJAVA-41307) - java.lang.ArrayIndexOutOfBoundsException: Aspose.Cells ile kaydedilen dosya yüklenirken Workbook ctor'da -1
 
@@ -118,9 +118,9 @@ url: /tr/java/aspose-cells-for-java-8-4-2-release-notes/
 
 
 
-PasteType.Default ve PasteType.DefaultExceptBorders numaralandırmalarını ekler.
+ PasteType.Default ve PasteType.DefaultExceptBorders numaralandırmalarını ekler.
 
- MS Excel'de aralığı "Tümü" ve "Kenarlıklar hariç tümü" olarak kopyalamak için kullanılır.
+MS Excel'de aralığı "Tümü" ve "Kenarlıklar hariç tümü" olarak kopyalamak için kullanılır.
 
 
 

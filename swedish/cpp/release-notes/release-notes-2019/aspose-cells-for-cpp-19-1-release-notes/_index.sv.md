@@ -13,7 +13,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells för CPP 19.1.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSCPP-187|Spara form till bildformat|Ny funktion|
-|CELLSCPP-178|Stöd TSV-format som också är känt som TabDelimited-format|Förbättring|
+|CELLSCPP-178|Stöd TSV format som också är känt som TabDelimited format|Förbättring|
 |CELLSCPP-123|Problem med stark och svag referens i formtyp|Insekt|
 |CELLSCPP-124|Ta bort cykelreferens för Shape 2007|Insekt|
 |CELLSCPP-184|Problem med statisk medlemsvariabelöversättning|Insekt|

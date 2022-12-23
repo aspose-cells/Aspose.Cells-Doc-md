@@ -10,7 +10,7 @@ url: /fr/java/aspose-cells-for-java-17-02-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42009|Prise en charge du graphique MS Excel 2016 TreeMap|Nouvelle fonctionnalité|
 |CELLSJAVA-42008|Prise en charge du graphique en cascade MS Excel 2016|Nouvelle fonctionnalité|
@@ -18,7 +18,7 @@ url: /fr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42165|Perte de données lors de la copie d'une plage avec des lignes et des colonnes masquées dans un nouveau classeur et de sa conversion en HTML|Punaise|
 |CELLSJAVA-42164|Perte de données lors de la copie d'une plage avec des lignes et des colonnes masquées dans un nouveau classeur et de sa conversion en HTML - II|Punaise|
 |CELLSJAVA-42162|Perte de données lors de la copie d'une plage avec des lignes et des colonnes masquées dans un nouveau classeur et de sa conversion en HTML - III|Punaise|
-|CELLSJAVA-40251|Enregistrer au format PDF ne conserve pas la mise en forme|Punaise|
+|CELLSJAVA-40251|Enregistrer sous PDF ne conserve pas la mise en forme|Punaise|
 |CELLSJAVA-42187|La formule Excel ne fonctionne pas et s'affiche sous la forme "#DIV/0 !"|Punaise|
 |CELLSJAVA-42184|Problème de sauvegarde simultané|Punaise|
 |CELLSJAVA-42156|Les bordures supérieure et inférieure des cellules ont disparu lors de la conversion en HTML|Punaise|
@@ -30,18 +30,18 @@ url: /fr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSNET-45106|Bogue dans l'essai d'attraper et relancer l'exception où ExceptionType est modifié|Punaise|
 |CELLSJAVA-42189|Graphique en cascade, lorsque calculate () est appelé, les couleurs de la série de graphiques sont inversées.|Punaise|
 |CELLSJAVA-42160|Un bogue d'échelle logarithmique dans Excel provoque le blocage de Aspose Cells|Punaise|
-|CELLSJAVA-42158|Les valeurs liées de l'axe vertical ont été modifiées lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-42158|Les valeurs liées de l'axe vertical ont été modifiées lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-42157|Les valeurs liées aux axes horizontal et vertical ont été modifiées lors du rendu du graphique en EMF|Punaise|
-|CELLSJAVA-42133|Hébreu - Le caractère d'espace est manquant dans le PDF|Punaise|
+|CELLSJAVA-42133|Hébreu - Le caractère d'espace est manquant dans PDF|Punaise|
 |CELLSJAVA-42107|Le graphique est supprimé verticalement lors du rendu à l'image|Punaise|
 |CELLSJAVA-42105|Les séries DataTable sont manquantes lors de l'exportation du graphique vers l'image|Punaise|
 |CELLSJAVA-42090|Soulignement manquant dans le titre lorsque le graphique est converti en image|Punaise|
 |CELLSJAVA-42086|L'image d'arrière-plan dans le graphique est incorrecte|Punaise|
-|CELLSJAVA-42084|Les étiquettes/légendes de l'axe (hébreu) de l'axe du graphique n/b de l'espace sont manquantes dans le fichier PDF de sortie|Punaise|
+|CELLSJAVA-42084|Les étiquettes/légendes de l'axe (en hébreu) du graphique n/b de l'espace sont manquantes dans le fichier de sortie PDF|Punaise|
 |CELLSJAVA-41831|Le contenu de la forme rectangulaire ne s'affiche pas lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-42095|Le graphique a été modifié lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSJAVA-42096|La formule dans le graphique a changé de position lors de la conversion de la feuille de calcul en HTML|Punaise|
-|CELLSJAVA-42169|Conversion Excel en PDF - Le texte arabe est inversé|Punaise|
+|CELLSJAVA-42169|Conversion d'Excel en PDF - le texte arabe est inversé|Punaise|
 |CELLSJAVA-42193|Le nom de la feuille devient majuscule lors de l'insertion de la formule|Punaise|
 |CELLSJAVA-42191|Appel à updateSelectedValue modifie activeSheetIndex|Punaise|
 |CELLSJAVA-42181|Vue protégée après réenregistrement d'un fichier XLS|Punaise|
@@ -55,16 +55,16 @@ url: /fr/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|La copie de feuilles dans des classeurs modifie la formule|Punaise|
 |CELLSJAVA-42154|Impossible de lire la valeur textuelle de la case à cocher|Punaise|
 |CELLSJAVA-42150|La méthode GetNames() ne renvoie pas tous les noms|Punaise|
-|CELLSJAVA-40511|Les pages du PDF généré par le Aspose.Cells sont toutes noires|Punaise|
-|CELLSJAVA-42179|NullPointerException at Workbook ctor lors du chargement d'un code HTML|Exception|
-|CELLSJAVA-42174|NullPointerException at Workbook ctor lors du chargement d'un code HTML - II|Exception|
+|CELLSJAVA-40511|Les pages du PDF généré par Aspose.Cells sont toutes noires|Punaise|
+|CELLSJAVA-42179|NullPointerException at Workbook ctor lors du chargement d'un HTML|Exception|
+|CELLSJAVA-42174|NullPointerException at Workbook ctor lors du chargement d'un HTML - II|Exception|
 |CELLSJAVA-42192|CellsException : Taille de trou non valide : elle doit être comprise entre 10 et 90|Exception|
 |CELLSJAVA-42190|Exception : "java.lang.IndexOutOfBoundsException" lors du chargement d'un format de fichier XLSX|Exception|
 |CELLSJAVA-42185|Exception - ReadElementString uniquement peut être appelée - s'est produite lors de l'ouverture du classeur|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for Java. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 ### **Ajout de la propriété HTMLLoadOptions.AutoFitColsAndRows**
-Cette version du Aspose.Cells for Java API a ajouté la propriété HTMLLoadOptions.AutoFitColsAndRows qui indique si le API doit ajuster automatiquement les colonnes et les lignes lors de l'importation du HTML dans son mode objet. La propriété de type booléen a la valeur par défaut comme false, ce qui signifie que les hauteurs et largeurs de cellule seront importées telles quelles, cependant, lorsque la propriété susmentionnée est définie sur true, le API essaie d'ajuster les largeurs de colonne et les hauteurs de ligne en fonction du contenu .
+Cette version du Aspose.Cells for Java API a ajouté la propriété HTMLLoadOptions.AutoFitColsAndRows qui indique si le API doit ajuster automatiquement les colonnes et les lignes lors de l'importation du HTML dans son mode objet. La propriété de type booléen a la valeur par défaut false, ce qui signifie que les hauteurs et largeurs de cellule seront importées telles quelles. Cependant, lorsque la propriété susmentionnée est définie sur true, le API essaie d'ajuster les largeurs de colonne et les hauteurs de ligne en fonction du contenu. .
 
 Voici le scénario d'utilisation simple de la propriété HTMLLoadOptions.AutoFitColsAndRows.
 
@@ -190,7 +190,7 @@ Font[]fonts = livre.getFonts();
 
 {{< /highlight >}}
 ### **Ajout de la propriété TxtSaveOptions.TrimLeadingBlankRowAndColumn**
-Cette révision de Aspose.Cells for Java a exposé la propriété de type booléen TrimLeadingBlankRowAndColumn pour la classe TxtSaveOptions qui indique si les premières lignes et colonnes vides doivent être coupées comme le fait Excel lors de l'exportation de données au format CSV ou délimité par des tabulations. La valeur par défaut de la propriété susmentionnée est false. Si les données de la feuille de calcul ne commencent pas à partir de la première cellule, c'est-à-dire : A1, l'application Excel supprime les premières lignes et colonnes vides lors de l'exportation des données au format CSV ou délimité par des tabulations. Toutefois, les API Aspose.Cells par défaut conservent les lignes et colonnes vides pour le même échantillon afin de conserver l'emplacement des données si les fichiers CSV ou délimités par des tabulations exportés doivent être réimportés à l'aide des API Aspose.Cells.
+Cette révision de Aspose.Cells for Java a exposé la propriété de type booléen TrimLeadingBlankRowAndColumn pour la classe TxtSaveOptions qui indique si les premières lignes et colonnes vides doivent être coupées comme le fait Excel lors de l'exportation de données vers CSV ou des formats délimités par des tabulations. La valeur par défaut de la propriété susmentionnée est false. Si les données de la feuille de calcul ne commencent pas à partir de la première cellule, c'est-à-dire : A1, l'application Excel supprime les premières lignes et colonnes vides lors de l'exportation des données vers les formats CSV ou délimités par des tabulations. Cependant, les API Aspose.Cells par défaut conservent les lignes et colonnes vides pour le même échantillon afin de conserver l'emplacement des données si les fichiers exportés CSV ou délimités par des tabulations doivent être réimportés à l'aide des API Aspose.Cells.
 
 Voici un scénario d'utilisation simple de la propriété TrimLeadingBlankRowAndColumn.
 
@@ -220,9 +220,9 @@ La propriété Shape.TextShapeType obtient ou définit le type de forme de texte
 ### **Exemples d'utilisation**
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
-1. [Ajuster automatiquement les colonnes et les lignes lors du chargement du code HTML dans le classeur](/cells/fr/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
+1. [Ajustement automatique des colonnes et des lignes lors du chargement de HTML dans le classeur](/cells/fr/java/autofit-columns-and-rows-while-loading-html-in-workbook/)
 1. [Convertir du texte en colonnes à l'aide de Aspose.Cells](/cells/fr/java/convert-text-to-columns-using-aspose-cells/)
 1. [Obtenir une liste des polices utilisées dans une feuille de calcul ou un classeur](/cells/fr/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Obtenir des avertissements lors du chargement du fichier Excel](/cells/fr/java/get-warnings-while-loading-excel-file/)
 1. [Lire et manipuler des graphiques Excel 2016](/cells/fr/java/read-and-manipulate-excel-2016-charts/)
-1. [Coupez les premières lignes et colonnes vides lors de l'exportation de feuilles de calcul au format CSV](/cells/fr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Coupez les premières lignes et colonnes vides lors de l'exportation des feuilles de calcul au format CSV](/cells/fr/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

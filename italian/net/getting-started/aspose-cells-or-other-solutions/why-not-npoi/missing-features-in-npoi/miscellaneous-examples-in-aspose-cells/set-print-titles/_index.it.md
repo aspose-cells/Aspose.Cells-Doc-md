@@ -31,7 +31,7 @@ pageSetup.PrintTitleRows= "$1:$2";
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Imposta i titoli di stampa** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Imposta i titoli di stampa** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Set.Print.Titles.Aspose.Cells.zip)
 

@@ -6,13 +6,13 @@ url: /ru/python-java/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells может открывать различные Microsoft файлы версий Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, Opening Microsoft Excel 2007/2010/2013/2016/2019 и Office 365 XLSX или зашифрованные файлы Excel.
+Aspose.Cells может открывать различные Microsoft файлы версий Excel, такие как Microsoft Excel 95/97 - 2003, SpreadsheetML, открытие Microsoft Excel 2007/2010/2013/2013/2016/2019 и Office 365 XLSX или зашифрованные файлы Excel.
 
 {{% /alert %}}
 
 ## **Открытие файлов разных версий Microsoft Excel**
 
-Приложение часто должно иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может потребоваться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и т. д. Используйте конструктор или укажите**[Рабочая книга] (https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** учебный класс'**[setFileFormat] (https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)** метод для указания формата с помощью**[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**перечисление.
+ Приложение часто должно иметь возможность открывать файлы Excel Microsoft, созданные в разных версиях, например, Microsoft Excel 95,97 или Microsoft Excel 2007/2010/2013/2016/2019 и Office 365. Вам может понадобиться загрузить файл в любом из нескольких форматов, включая XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited или TSV, CSV, ODS и так далее. Используйте конструктор или укажите**[Рабочая книга] (https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** учебный класс'**[setFileFormat] (https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)**метод для указания формата с помощью**[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**перечисление.
 	
 **[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**перечисление содержит множество предопределенных форматов файлов, некоторые из которых приведены ниже.
 
@@ -23,12 +23,12 @@ Aspose.Cells может открывать различные Microsoft файл
 |XLSX|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSX.|
 |XLSM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSM.|
 |XLTX|Представляет файл шаблона Excel 2007/2010/2013/2016/2019 и Office 365 XLTX.|
-|XLTM|Представляет XLTM-файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов.|
-|XLSB|Представляет двоичный XLSB-файл Excel 2007/2010/2013/2016/2019 и Office 365.|
+|XLTM|Представляет файл Excel 2007/2010/2013/2016/2019 и Office 365 с поддержкой макросов XLTM.|
+|XLSB|Представляет двоичный файл Excel 2007/2010/2013/2016/2019 и Office 365 XLSB.|
 |SPREADSHET_ML|Представляет файл SpreadsheetML|
-|ТСВ|Представляет файл значений, разделенных табуляцией.|
+|TSV|Представляет файл значений, разделенных табуляцией.|
 |TAB_DELIMITED|Представляет текстовый файл с разделителями табуляции|
-|ОРВ|Представляет файл ODS|
+|ODS|Представляет файл ODS|
 |HTML|Представляет файл HTML|
 |M_HTML|Представляет файл MHTML|
 
@@ -48,7 +48,7 @@ Aspose.Cells может открывать различные Microsoft файл
 
 ### **Открытие Microsoft файлов Excel 2007/2010/2013/2016/2019 и Office 365 XLSX**
 
- Чтобы открыть файл формата Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** и установите соответствующий атрибут/параметры**Параметры загрузки**class для загружаемого файла шаблона.
+Чтобы открыть формат Microsoft Excel 2007/2010/2013/2016/2019 и Office 365, то есть XLSX или XLSB, укажите путь к файлу. Вы также можете использовать**[LoadOptions](https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** и установите соответствующий атрибут/параметры**Параметры загрузки**class для загружаемого файла шаблона.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel2007Files.py" >}}
 

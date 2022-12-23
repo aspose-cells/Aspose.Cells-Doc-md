@@ -1,10 +1,10 @@
 ﻿---
-title: Actuación
+title: Rendimiento
 type: docs
 weight: 30
 url: /es/reportingservices/performance/
 ---
- Para mejorar el rendimiento, establezca el parámetro Rendimiento en**EN**.
+ Para mejorar el rendimiento, establezca el parámetro Rendimiento en**SOBRE**.
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **IsAutoRowFit** : Cuando el valor de Rendimiento es**apagado** , el valor de IsAutoRowFit es**falso**por defecto. Cuando el valor del parámetro de rendimiento es**en** , el valor es**verdadero** por defecto. Cuando el valor de Performance es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsAutoRowFit** : Cuando el valor de Rendimiento es**apagado** , el valor de IsAutoRowFit es**falso** por defecto. Cuando el valor del parámetro de rendimiento es**sobre** , el valor es**verdadero** por defecto. Cuando el valor de Rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -64,7 +64,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **Está fusionado** : Cuando el valor de Rendimiento es**apagado** , el valor predeterminado de IsMerged es**falso** . Cuando el valor de Performance es**en** , El valor predeterminado es**verdadero** . Cuando el valor del parámetro Performance es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **Está fusionado** : Cuando el valor de Rendimiento es**apagado** , el valor predeterminado de IsMerged es**falso** . Cuando el valor de Rendimiento es**sobre** , El valor predeterminado es**verdadero** . Cuando el valor del parámetro Performance es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -89,7 +89,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **IsSetStyle** : Cuando el valor de Rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**en** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
+- **IsSetStyle** : Cuando el valor de Rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**sobre** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit.
 
 {{< highlight "java" >}}
 
@@ -114,7 +114,7 @@ Los diversos parámetros de rendimiento son los siguientes:
 
 
 
-- **EsFormatoCondicional** : cuando el rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**en** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**en** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit. Cuando el valor del parámetro IsSetStyle se establece en**falso** , el valor de Rendimiento no es válido.
+- **EsFormatoCondicional** : cuando el rendimiento es**apagado** , El valor predeterminado es**falso** . Cuando el rendimiento es**sobre** , El valor predeterminado es**verdadero** . Además, cuando el rendimiento es**sobre** , un informe de subelemento puede restablecer el informe de puntos al valor AutoRowFit. Cuando el valor del parámetro IsSetStyle se establece en**falso** , el valor de Rendimiento no es válido.
 
 {{< highlight "java" >}}
 

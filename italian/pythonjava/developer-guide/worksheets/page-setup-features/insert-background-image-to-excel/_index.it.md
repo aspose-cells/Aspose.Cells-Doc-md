@@ -7,7 +7,7 @@ description: Come inserire un'immagine di sfondo in Excel utilizzando Aspose.Cel
 ---
 {{% alert color="primary" %}} 
 
-Puoi rendere un foglio di lavoro più accattivante aggiungendo un'immagine come sfondo del foglio di lavoro. Questa funzione può essere molto efficace se si dispone di una grafica aziendale speciale che aggiunge un accenno di sfondo senza oscurare i dati sul foglio. È possibile impostare l'immagine di sfondo per un foglio utilizzando l'API Aspose.Cells.
+Puoi rendere un foglio di lavoro più accattivante aggiungendo un'immagine come sfondo del foglio di lavoro. Questa funzione può essere molto efficace se si dispone di una grafica aziendale speciale che aggiunge un accenno di sfondo senza oscurare i dati sul foglio. È possibile impostare l'immagine di sfondo per un foglio utilizzando Aspose.Cells API.
 
 {{% /alert %}} 
 

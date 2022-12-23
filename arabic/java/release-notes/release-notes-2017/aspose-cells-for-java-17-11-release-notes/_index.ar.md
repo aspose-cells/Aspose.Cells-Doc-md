@@ -13,29 +13,29 @@ url: /ar/java/aspose-cells-for-java-17-11-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-42433|ImageOrPrintOptions.PageIndex و ImageOrPrintOptions.Count الخصائص المطلوبة للحصول على صورة الصفحات المطلوبة|ميزة جديدة|
-|CELLSJAVA-42427|لا يعرض تصدير خطوط الشبكة ذات الحدود خطوط الشبكة داخل الحدود في عرض Excel إلى HTML|حشرة|
-|CELLSJAVA-42438|يقوم LightCellsDataProvider بإزالة المسافات البادئة والزائدة|حشرة|
-|CELLSJAVA-42422|يتم استخدام خط غير صحيح في إخراج PDF لمخطط MS Excel|حشرة|
-|CELLSJAVA-42353|بعض الأسهم أو وسائل الشرح مفقودة في إخراج HTML|حشرة|
-|CELLSJAVA-42455|التعليق الثاني مفقود من مجموعة تعليقات ورقة العمل|حشرة|
-|CELLSJAVA-42454|يبدو أن إنشاء المصنف يتعطل عند القراءة من ملف XLSM|حشرة|
-|CELLSJAVA-42450|لا تعمل الخاصية Style.QuotePrefix لملف XLSB|حشرة|
-|CELLSJAVA-42445|يؤثر تعيين بيانات الصورة على الرسم البياني الآخر ويتم عرضها بشكل خاطئ|حشرة|
-|CELLSJAVA-42444|تعمل طريقة CheckBox.setName () في MS Excel 2016 ولكنها لا تعمل في MS Excel 2007|حشرة|
-|CELLSJAVA-42443|لم يتم تحويل مرشحات MS Excel بشكل صحيح - تحويل XLSB إلى XLSM|حشرة|
-|CELLSJAVA-42442|لا يؤدي تغيير قيمة ComboBoxActiveXControl إلى تغيير قيمة الخلية المرتبطة|حشرة|
-|CELLSJAVA-42435|Cells.setColumnWidthPixel و Cells.setRowHeightPixel لهما سلوكيات مختلفة|حشرة|
-|CELLSJAVA-42431|يؤدي توسيع نطاق الجدول إلى تغيير محتويات الخلية بشكل غير متوقع|حشرة|
+|CELLSJAVA-42427|لا يعرض تصدير خطوط الشبكة ذات الحدود خطوط الشبكة داخل الحدود في Excel إلى عرض HTML|خلل برمجي|
+|CELLSJAVA-42438|يقوم LightCellsDataProvider بإزالة المسافات البادئة والزائدة|خلل برمجي|
+|CELLSJAVA-42422|تم استخدام خط غير صحيح في إخراج PDF من مخطط MS Excel|خلل برمجي|
+|CELLSJAVA-42353|بعض الأسهم أو وسائل الشرح مفقودة في الإخراج HTML|خلل برمجي|
+|CELLSJAVA-42455|التعليق الثاني مفقود من مجموعة تعليقات ورقة العمل|خلل برمجي|
+|CELLSJAVA-42454|يبدو أن إنشاء المصنف يتعطل عند القراءة من ملف XLSM|خلل برمجي|
+|CELLSJAVA-42450|لا تعمل الخاصية Style.QuotePrefix لملف XLSB|خلل برمجي|
+|CELLSJAVA-42445|يؤثر تعيين بيانات الصورة على الرسم البياني الآخر ويتم عرضها بشكل خاطئ|خلل برمجي|
+|CELLSJAVA-42444|تعمل طريقة CheckBox.setName () في MS Excel 2016 ولكنها لا تعمل في MS Excel 2007|خلل برمجي|
+|CELLSJAVA-42443|لم يتم تحويل مرشحات MS Excel بشكل صحيح - تحويل XLSB إلى XLSM|خلل برمجي|
+|CELLSJAVA-42442|لا يؤدي تغيير قيمة ComboBoxActiveXControl إلى تغيير قيمة الخلية المرتبطة|خلل برمجي|
+|CELLSJAVA-42435|Cells.setColumnWidthPixel و Cells.setRowHeightPixel لهما سلوكيات مختلفة|خلل برمجي|
+|CELLSJAVA-42431|يؤدي توسيع نطاق الجدول إلى تغيير محتويات الخلية بشكل غير متوقع|خلل برمجي|
 |CELLSJAVA-42434|استثناء: "java.lang.NumberFormatException" عند تحميل تنسيق ملف HTML|استثناء|
 |CELLSJAVA-42448|تسبب Cells.deleteBlankRows في استثناء "java.lang.ArrayIndexOutOfBoundsException: 1937"|استثناء|
 |CELLSJAVA-42426|استثناء في سلسلة الرسائل "main" java.lang.OutOfMemoryError: تجاوز حد GC العلوية - الملف الثالث|استثناء|
 |CELLSJAVA-42425|استثناء في سلسلة الرسائل "main" java.lang.OutOfMemoryError: تجاوز حد GC العلوية - الملف II|استثناء|
 |CELLSJAVA-42424|استثناء في سلسلة الرسائل "main" java.lang.OutOfMemoryError: تجاوز حد GC العلوية - الملف الأول|استثناء|
 |CELLSJAVA-42428|ينتج Chart.toImage java.lang.ArrayIndexOutOfBoundsException|استثناء|
-|CELLSJAVA-42452|حفظ مصنف كملف PDF بعد RemoveUnusedStyles API ينتج عنه CellsException|استثناء|
+|CELLSJAVA-42452|حفظ مصنف باسم PDF بعد RemoveUnusedStyles API ينتج عن CellsException|استثناء|
 |CELLSJAVA-42440|حدث "java.lang.IllegalArgumentException: فهرس صف غير صالح"|استثناء|
-|CELLSJAVA-42439|استثناء: "java.lang.IllegalArgumentException: فهرس صف غير صالح" عند حفظ تنسيق ملف XLSX|استثناء|
-|CELLSJAVA-42437|الاستثناء: java.lang.NumberFormatException عند إعادة حفظ تنسيق ملف XLSB|استثناء|
+|CELLSJAVA-42439|استثناء: "java.lang.IllegalArgumentException: فهرس الصف غير صالح" عند حفظ تنسيق ملف XLSX|استثناء|
+|CELLSJAVA-42437|استثناء: java.lang.NumberFormatException عند إعادة حفظ تنسيق ملف XLSB|استثناء|
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
 فيما يلي قائمة بأي تغييرات تم إجراؤها على API العام مثل الأعضاء المضافين أو المعاد تسميتهم أو المحذوفون أو المهملون بالإضافة إلى أي تغيير غير متوافق مع الإصدارات السابقة تم إجراؤه على Aspose.Cells for Java. إذا كانت لديك مخاوف بشأن أي تغيير مدرج ، فيرجى رفعه في منتدى الدعم Aspose.Cells.
 ### **يضيف طريقة Shape.GetResultOfSmartArt ()**

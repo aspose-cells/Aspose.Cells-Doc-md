@@ -57,7 +57,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - TECHO
 - MATEMÁTICAS DE TECHO
 - TECHO. PRECISO
-- CÉLULA
+- CELDA
 - CARBONIZARSE
 - CHIDISTA
 - CHIINV
@@ -66,7 +66,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - CHISQ.INV.RT
 - PRUEBA CHISQ.
 - PRUEBA CHI
-- ELEGIR
+- ESCOGER
 - LIMPIO
 - CÓDIGO
 - COLUMNA
@@ -104,7 +104,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - FECHAVALO
 - PROMEDIO
 - DÍA
-- DÍAS
+- DIAS
 - DÍAS360
 - base de datos
 - DCUENTO
@@ -226,10 +226,10 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - ISPMT
 - ISREF
 - ISTEXTO
-#### **k**
+#### **K**
 - kurt
 #### **L**
-- LARGO
+- GRANDE
 - MCM
 - IZQUIERDA
 - IZQUIERDAB
@@ -246,7 +246,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - BUSCAR
 - MÁS BAJO
 #### **METRO**
-- JUEGO
+- FÓSFORO
 - MÁX.
 - MAXA
 - MAXIFS
@@ -294,14 +294,14 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - OCT2BIN
 - OCT2DIC
 - OCT2HEX
-- EXTRAÑO
+- IMPAR
 - PRECIO IMPAR
 - ODDFYIELD
 - PRECIO IMPAR
 - CAMPO EXTRAÑO
 - COMPENSAR
 - O
-#### **PAGS**
+#### **PAG**
 - PEARSON
 - PERCENTIL
 - PERCENTIL.EXC
@@ -314,7 +314,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - PAGO
 - VENENO
 - DISTR.POISSON
-- ENERGÍA
+- PODER
 - PPMT
 - PRECIO
 - PRECIODISCO
@@ -344,7 +344,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - CORRECTO
 - DERECHAB
 - ROMANO
-- REDONDO
+- RONDA
 - REDONDEAR A LA BAJA
 - REDONDEO
 - FILA
@@ -356,7 +356,7 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - SEGUNDO
 - SECUENCIA
 - SERIESUMA
-- SEÑAL
+- SIGNO
 - PECADO
 - SINH
 - SESGAR
@@ -400,10 +400,10 @@ Aspose.Cells' Formula Calculation Engine le permite configurar, leer y calcular 
 - DISTR.T
 - TEXTO
 - TEXTO UNIRSE
-- TIEMPO
+- HORA
 - VALOR DEL TIEMPO
 - TINV
-- ESTE DIA
+- HOY
 - TRANSPONER
 - TENDENCIA
 - RECORTAR

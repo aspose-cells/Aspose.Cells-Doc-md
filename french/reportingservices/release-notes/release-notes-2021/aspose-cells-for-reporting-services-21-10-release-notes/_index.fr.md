@@ -9,6 +9,6 @@ weight: 12
 Cette page contient les notes de version pour Aspose.Cells Reporting Services 21.10
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |23954 |Aspose.Cells Reporting Services prend en charge le format svg de rendu.|Nouvelle fonctionnalité|

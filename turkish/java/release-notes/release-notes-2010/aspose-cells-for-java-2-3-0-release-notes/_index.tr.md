@@ -14,12 +14,12 @@ url: /tr/java/aspose-cells-for-java-2-3-0-release-notes/
 
  Neler değişti:
 
-- Aspose.Pdf for Java kullanmadan doğrudan PDF dosyalarını kaydetmeyi destekler.
-- Grafikten Görüntüye özelliği için EMF görüntü formatı desteği içerir.
+- PDF dosyalarını Aspose.Pdf for Java kullanmadan doğrudan kaydetmeyi destekler.
+- Grafikten Görüntüye özelliği için EMF görüntü biçimi desteği içerir.
 - MS Excel 2007 şablon dosyalarından CalculationMode özniteliğini içe aktarır.
 - Çalışma Sayfasının Kopyalama işlemi geliştirildi.
 - Kopyalama Formüllerini Geliştirir.
-- ODF 1.2 ile ODS dosyalarının okunmasını geliştirir.
+- ODF 1.2 ile ODS dosyalarının okunmasını iyileştirir.
 - Degrade dolgu efekti ile Grafik okumayı geliştirir.
 - XLS şablon dosyalarının okunması optimize edilmiştir.
 - 31 düzeltme ve geliştirme.
@@ -43,10 +43,10 @@ url: /tr/java/aspose-cells-for-java-2-3-0-release-notes/
 |17174 | formül| Formül dizesini al|
 |17001 | formül| Formül ayarla|
 |16997 | xls| şekilleri kaldır|
-|17107 | ODS| Grafikleri ODS dosyalarına kaydedin|
-|17016 | xls| Hücreleri kopyala, şablon dosyasını oku|
+|17107 |ODS | Grafikleri ODS dosyalarına kaydedin|
+|17016 | xls|Hücreleri kopyala, şablon dosyasını oku|
 |17140 | xls| Şablon dosyasını oku|
-|17019 | xlsx|CalculationMode özelliğini oku|
+|17019 | xlsx| CalculationMode özelliğini oku|
 |16870 | xlsx| xlsx dosyasını kaydet|
 |16986 | xls| Dosya formatını değiştir|
 |15975 | html| Html kaydet – Performans sorunu|

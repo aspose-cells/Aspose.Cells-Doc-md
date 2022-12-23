@@ -34,17 +34,17 @@ url: /tr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27760 Adlandırılmış aralıklar olarak Destek Tablosu kaynağı
 
- 27955 PDF'ye yazdırırken veya işlerken Dinamik Yazdırma Alanını belirtin
+ 27955 PDF'e yazdırırken veya işlerken Dinamik Yazdırma Alanını belirtin
 
  Verim
 
- 28139 Excel'den PDF'e performans sorunu
+ 28139 Excel'den PDF performans sorununa
 
  27095 Workbook.CalculateFormula() yöntemiyle ilgili sorun
 
  27348 Şekiller içeren bir dosya açılırken işlem kilitleniyor
 
- 27367 Bir XLSX dosyasını açmak yavaş
+ 27367 XLSX dosyasının açılması yavaş
 
  İstisnalar
 
@@ -76,9 +76,9 @@ url: /tr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  18503 Çapraz Çizgiler PDF'de doğru şekilde gösterilmiyor
 
- 27168 Gruplandırılmış şekiller, PDF'ye kaydedilirken bozuluyor
+ 27168 Gruplandırılmış şekiller, PDF'e kaydedilirken bozuluyor
 
- 27240 Excel'den PDF'e Dönüştürme - Grafik Aralıkları Sorunu
+ 27240 Excel'den PDF'e Dönüşüm - Grafik Aralıkları Sorunu
 
  28112 Excel (XLS) dosyasını PDF olarak kaydetmek bir soruna neden oluyor
 
@@ -92,7 +92,7 @@ url: /tr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Sayfadan Görüntüye özelliğinde dışa aktarılan görüntüde madde işaretleri eksik
 
- 28413 TIFF Dönüştürmede Sütun biçimi doğru değil
+ 28413 Sütun biçimi TIFF'de Dönüşüm doğru değil
 
  27906 Akıllı İşaretleyicilerde kaçış karakteri
 
@@ -100,7 +100,7 @@ url: /tr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28269, maksimum yüksekliği aşan satırlar oluşturulurken AutoRow yükseklik sorunu
 
- 26941 XLS ve XLSX dosyaları arasında Otomatik Filtreleme sorunu
+ XLS ve XLSX dosyaları arasında 26941 Otomatik Filtre sorunu
 
  28036 Oluşturulan dosyada hücre biçimlendirme sorunu
 
@@ -120,7 +120,7 @@ url: /tr/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 ShowDefaultGridLine = false ayarı, GridWeb'in XhtmlMode'u "true" olarak ayarlandığında kullanılamaz
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Yeni özellikler
 

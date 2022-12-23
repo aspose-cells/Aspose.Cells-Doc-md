@@ -21,7 +21,7 @@ Tous les exemples de Aspose.Cells for .NET sont hébergés sur[GitHub](https://g
 - Ouvrez le fichier de solution dans Visual Studio et générez le projet.
 -  Lors de la première exécution, les dépendances seront automatiquement téléchargées via NuGet. Vous pouvez également télécharger les DLL séparément à partir de[ici](https://downloads.aspose.com/cells/net).
 - **Données** dossier dans le dossier racine de**Exemples**contient des fichiers d'entrée utilisés par les exemples CSharp. Il est obligatoire de télécharger le**Données** dossier avec le projet d'exemples.
--  Ouvert**RunExamples.cs**, tous les exemples sont appelés à partir d'ici.
+-  Ouvrir**RunExamples.cs**, tous les exemples sont appelés à partir d'ici.
 - Décommentez les exemples que vous souhaitez exécuter à partir du projet.
 ## **Aspose.Cells.GridDesktop Exemples**
 -  Aspose.Cells. Des exemples GridDesktop sont également inclus dans[Aspose.Cells GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET) référentiel et sera disponible dans le cadre du fichier ZIP téléchargeable à partir de[ici](https://github.com/aspose-cells/Aspose.Cells-for-.NET/archive/master.zip).

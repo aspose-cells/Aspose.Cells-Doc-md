@@ -8,7 +8,7 @@ url: /it/java/product-overview/
 
 ![cose da fare:immagine_alt_testo](product-overview_1.png)
 ## **Benvenuti nella documentazione Aspose.Cells**
-**Aspose.Cells** è il componente più flessibile che consente alle applicazioni Java di creare e gestire fogli di calcolo Excel senza richiedere**Microsoft Excel**da installare sul sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells non solo supporta la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma supporta anche una serie di funzionalità avanzate. Queste funzionalità avanzate rendono molto più conveniente per gli sviluppatori manipolare i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule / funzioni matematiche, dateora, finanziarie, di testo comuni e complesse, supporta la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli ecc.
+**Aspose.Cells** è il componente più flessibile che consente a Java Applications di creare e gestire fogli di calcolo Excel senza richiedere**Microsoft Excel**da installare sul sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells non solo supporta la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma supporta anche una serie di funzionalità avanzate. Queste funzionalità avanzate rendono molto più conveniente per gli sviluppatori manipolare i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule / funzioni matematiche, dateora, finanziarie, di testo comuni e complesse, supporta la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli ecc.
 
 Aspose.Cells for Java fornisce anche una soluzione Grid completa per client web; ha un controllo basato sulla GUI come segue:
 
@@ -18,19 +18,19 @@ Utilizzando Aspose.Cells.GridWeb per il controllo JAVA Grid, gli sviluppatori po
 
 {{% /alert %}} 
 ## **Descrizione del prodotto**
-Aspose.Cells può essere utilizzato con qualsiasi tipo di applicazione sia Java Web Application che Java Desktop Application. Inoltre, la libreria può essere utilizzata anche con altre soluzioni come PHP ecc. Aspose.Cells fornisce demo complete ed esempi di lavoro scritti in Java per consentire agli sviluppatori di comprendere meglio le funzionalità esposte dal componente.
+Aspose.Cells può essere utilizzato con qualsiasi tipo di applicazione sia Java Web Application o Java Desktop Application. Inoltre, la libreria può essere utilizzata anche con altre soluzioni come PHP ecc. Aspose.Cells fornisce demo complete ed esempi di lavoro scritti in Java per consentire agli sviluppatori di comprendere meglio le funzionalità esposte dal componente.
 
 Oltre a supportare funzionalità comuni come la creazione o la lettura di file Excel nativi, Aspose.Cells offre anche molte funzionalità avanzate come il salvataggio e l'apertura di file Excel da e verso flussi, l'invio di output a un browser client, l'importazione e l'esportazione di dati da un**Set di risultati** o un**Vettore**, importazione di immagini e grafici, creazione di immagini e grafici tramite API, importazione di formule da un foglio di calcolo del designer e configurazione dell'impostazione della pagina tramite API.
 
-Inoltre, ci sono anche una serie di caratteristiche uniche che gli sviluppatori possono trovare solo in Aspose.Cells come il supporto dei formati CSV e SpreadsheetML, aggiungendo la copia di un foglio di lavoro esistente (con contenuti completi, immagini e grafici ecc.) a un file, impostazione dello sfondo sfumato per i grafici tramite API, creazione di commenti, filtri automatici e interruzioni di pagina tramite API, impostazione di formule complesse, supporto della formattazione condizionale, supporto delle opzioni di protezione introdotte in Microsoft Excel XP o versioni successive, manipolazione di intervalli denominati, localizzazione delle API, supporto dell'API dei grafici personalizzati e motore di calcolo delle formule ecc.
+Inoltre, ci sono anche una serie di caratteristiche uniche che gli sviluppatori possono trovare solo in Aspose.Cells come il supporto dei formati CSV e SpreadsheetML, aggiungendo la copia di un foglio di lavoro esistente (con contenuti completi, immagini e grafici ecc.) a un file, impostazione dello sfondo sfumato per i grafici fino a API, creazione di commenti, filtri automatici e interruzioni di pagina fino a API, impostazione di formule complesse, supporto della formattazione condizionale, supporto delle opzioni di protezione introdotte in Microsoft Excel XP o versioni successive, manipolazione di intervalli denominati, localizzazione delle API, supporto del grafico personalizzato API e motore di calcolo delle formule ecc.
 ## **Caratteristiche del documento**
 - Apri file Excel normali o crittografati (Excel 95, Excel97, Excel2007/2010/2013/2016/2019, Office365) da fonti diverse
 - Apri i file Plain Numbers (creati dall'applicazione "Numbers" di Apple) da fonti diverse
-- Salva i file Excel (Excel97- Excel2007/2010/2013/2016/2019) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML ecc.)
+- Salva i file Excel (Excel97- Excel2007/2010/2013/2019) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, 07616481 ecc.
 - Converti file Excel in documento PDF
 - Converti foglio di calcolo Excel in documento XPS
-- Converti in formato file immagine con tag**(TIFF)**
--  Leggere e scrivere**Foglio di calcolo OpenDocument (ODS)** formato
+-  Converti in formato file immagine con tag**(TIFF)**
+-  Leggere e scrivere**Foglio di calcolo OpenDocument (ODS )** formato
 - Modificare le proprietà del documento dei file Excel
 ## **Caratteristiche del foglio di lavoro**
 ### **Opzioni di visualizzazione**
@@ -51,7 +51,7 @@ Inoltre, ci sono anche una serie di caratteristiche uniche che gli sviluppatori 
 ### **Caratteristiche di righe e colonne**
 - **Regola la larghezza della colonna** come richiesto
 - Ridimensiona automaticamente la larghezza e l'altezza delle celle in base al loro contenuto
-- **Inserisci o elimina** righe e colonne
+- **Inserisci o cancella** righe e colonne
 - **Nascondi o mostra** righe e colonne
 - **Raggruppa o separa** righe e colonne
 ### **Funzionalità di gestione dei dati**
@@ -64,10 +64,10 @@ Inoltre, ci sono anche una serie di caratteristiche uniche che gli sviluppatori 
 -  Impostare**Vettore** e**R1C1** formula dello stile di riferimento
 - Aggiungere diversi tipi di collegamenti ipertestuali
 - Crea o accedi a intervalli denominati
--  Applicare**convalida dei dati** e**autofiltraggio**
--  Applicare**subtotali** alle tabelle dei fogli di lavoro
+-  Fare domanda a**convalida dei dati** e**autofiltraggio**
+-  Fare domanda a**subtotali** alle tabelle dei fogli di lavoro
 ### **Funzionalità di formattazione**
--  Applicare**impostazioni del formato numerico** per le cellule
+-  Fare domanda a**impostazioni del formato numerico** per le cellule
 - Formatta la cella come una data
 -  Impostare**allineamento del testo**
 - Unisci più celle
@@ -76,8 +76,8 @@ Inoltre, ci sono anche una serie di caratteristiche uniche che gli sviluppatori 
 -  Impostare**testo ricco** in una singola cella
 -  Applicare diverso**impostazioni del bordo** sulle cellule
 -  Applicare diverso**modelli di sfondo** sulle cellule
--  Applicare**impostazioni del formato** su un foglio di lavoro, riga o colonna ecc.
--  Applicare**formattazione condizionale** sulle cellule
+-  Fare domanda a**impostazioni del formato** su un foglio di lavoro, riga o colonna ecc.
+-  Fare domanda a**formattazione condizionale** sulle cellule
 ## **Grafici e funzionalità grafiche**
 - Crea facilmente diversi tipi di grafici
 -  personalizzare**grafici** impostando le proprietà

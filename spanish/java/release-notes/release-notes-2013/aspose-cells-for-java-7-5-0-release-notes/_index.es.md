@@ -24,4 +24,4 @@ url: /es/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40481 - XLS a PDF - Problema de ancho de celda de tabla
 
-40519 - Excepción al guardar un documento XLSX
+ 40519 - Excepción al guardar un documento XLSX

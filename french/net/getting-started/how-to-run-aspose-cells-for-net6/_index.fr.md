@@ -61,7 +61,7 @@ Vous devez effectuer les opérations supplémentaires suivantes pour garantir un
 ```
 apt-get update && apt-get install -y libfontconfig1
 ```
-OU
+OU ALORS
 ```
 apk update && apk add fontconfig 
 ```

@@ -32,13 +32,13 @@ url: /it/net/aspose-cells-for-net-5-1-2-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v5.1.2.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |18841 | Grafico2Immagine| Area di stampa/grafico|
-|19065 | PDF| Conversione in PDF tramite Aspose.Cells Rimpicciolisce il testo|
-|19024 | PDF| L'aspetto grafico del PDF generato non è lo stesso di Excel|
-|19170 | PDF| Problema con Salva come PDF: PDF danneggiato|
-|19048 | SpreadML|Errore durante la conversione di Excel2003XML in XLSX|
+|19065 | PDF| Conversione da PDF a Aspose.Cells Riduce il testo|
+|19024 | PDF| L'aspetto grafico di PDF generato non è lo stesso di Excel|
+|19170 | PDF|Problema Salva con nome PDF - Corrotto PDF|
+|19048 | SpreadML| Errore durante la conversione di Excel2003XML in XLSX|
 |18848 | XL| Combina con i grafici che causano la mancata corrispondenza dell'area del tracciato|
 |18791 | XL| Problema di formattazione condizionale a partire dalla versione 4.8.1|
 |19052 | XL| Copia Excel con il gestore dell'evento del pulsante di comando|

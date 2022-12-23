@@ -36,7 +36,7 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43933) - Cell. La formule peut accepter une formule non valide et API essaie de la corriger
 
- (CELLSNET-43476) - API nécessaire pour vérifier si la licence est chargée ou non
+(CELLSNET-43476) - API nécessaire pour vérifier si la licence est chargée ou non
 
  (CELLSNET-43310) - Renommage des noms de feuille de calcul en double lors de la combinaison de classeurs
 
@@ -48,11 +48,11 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43946) - Cell.HtmlString renvoie une chaîne qui affiche la chaîne normale en indice
 
-(CELLSNET-43941) - Le graphique n'est pas généré correctement
+ (CELLSNET-43941) - Le graphique n'est pas généré correctement
 
  (CELLSNET-43936) - Affiche les clés de légende même si Chart.ChartDataTable.ShowLegendKey est défini sur false
 
- (CELLSNET-43991) - La suppression des feuilles de calcul corrompt le XLSX résultant
+ (CELLSNET-43991) - La suppression des feuilles de calcul corrompt le résultat XLSX
 
  (CELLSNET-43988) - Le mot de passe pour modifier est perdu lorsque XLSX est réenregistré avec Aspose.Cells
 
@@ -62,7 +62,7 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43982) - Le mot de passe pour modifier est converti en mot de passe pour ouvrir lorsque XLTM est réenregistré
 
- (CELLSNET-43981) - Le mot de passe pour modifier est perdu lorsque XLTM est réenregistré
+(CELLSNET-43981) - Le mot de passe pour modifier est perdu lorsque XLTM est réenregistré
 
  (CELLSNET-43980) - Le mot de passe pour modifier est converti en mot de passe pour ouvrir lorsque XLTX est réenregistré
 
@@ -70,13 +70,13 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43977) - Le mot de passe pour modifier est perdu lorsque XLTX est réenregistré avec Aspose.Cells
 
- (CELLSNET-43976) - Plusieurs tentatives d'ouverture de XLSX protégé par mot de passe
+ (CELLSNET-43976) - Plusieurs tentatives d'ouverture protégées par mot de passe XLSX
 
-(CELLSNET-43973) - Le mot de passe à modifier est perdu après avoir réenregistré XLSM
+ (CELLSNET-43973) - Le mot de passe à modifier est perdu après réenregistrement XLSM
 
- (CELLSNET-43968) - L'application Excel recommande d'ouvrir le XLSB résultant en lecture seule
+ (CELLSNET-43968) - L'application Excel recommande d'ouvrir le résultat XLSB en lecture seule
 
- (CELLSNET-43967) - Le XLT protégé par mot de passe est corrompu après une nouvelle sauvegarde
+ (CELLSNET-43967) - Le mot de passe protégé XLT est corrompu après le réenregistrement
 
  (CELLSNET-43966) - La formule ISNONTEXT renvoie la mauvaise valeur après CalculateFormula
 
@@ -86,17 +86,17 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43950) - Problèmes d'identification de protection dans Aspose.Cells
 
- (CELLSNET-43944) - La taille de l'image n'est pas correcte et change après la réinitialisation
+(CELLSNET-43944) - La taille de l'image n'est pas correcte et change après la réinitialisation
 
  (CELLSNET-43943) - Impossible de lire l'exposant du caractère de cellule
 
  (CELLSNET-43940) - Cellule incorrecte sélectionnée à l'ouverture du rapport
 
- (CELLSNET-43931) - La suppression de lignes de la plage nommée corrompt le XLSX résultant
+ (CELLSNET-43931) - La suppression de lignes de la plage nommée corrompt le résultat XLSX
 
  (CELLSNET-43928) - La valeur DocumentProperty Author est lue de manière incomplète
 
-(CELLSNET-43927) - #REF dans la formule faisant référence à listobject sur une autre feuille de calcul
+ (CELLSNET-43927) - #REF dans la formule faisant référence à listobject sur une autre feuille de calcul
 
  (CELLSNET-43891) - Problème d'opérations Workbook.VBAProject.Modules
 
@@ -104,17 +104,17 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-42120) - Valeur DisplayStringValue incorrecte dans certains scénarios
 
- (CELLSNET-42110) - L'ensemble de bordures pour les plages dans XLSX ne s'affiche pas dans le PDF
+ (CELLSNET-42110) - La bordure définie pour les plages dans XLSX ne s'affiche pas dans PDF
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
- (CELLSNET-43932) - Erreur forme-image ! lors du rendu d'une feuille de calcul au format PDF
+ (CELLSNET-43932) - Erreur forme-image ! lors du rendu d'une feuille de calcul au PDF
 
  (CELLSNET-43964) - L'obtention du style d'affichage de toutes les cellules lève IndexOutOfRangeException
 
- (CELLSNET-43926) - CellsException à Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException à Workbook.CalculateFormula
 
  (CELLSNET-43911) - CellsException à Workbook.Save
 
@@ -124,7 +124,7 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -138,13 +138,13 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Améliorations**
 
 
-(CELLSNET-43873) - L'ancien code dans l'article - Formatage d'une plage de Cells - ne fonctionne pas
+ (CELLSNET-43873) - L'ancien code dans l'article - Formatage d'une plage de Cells - ne fonctionne pas
 
 
 ## **Insectes**
 
 
- (CELLSNET-43997) - La cellule active dans la feuille n'est pas à la bonne position lors du chargement/enregistrement d'un fichier XLSX - GridWeb
+ (CELLSNET-43997) - La cellule active de la feuille n'est pas à la bonne position lors du chargement/enregistrement d'un fichier XLSX - GridWeb
 
  (CELLSNET-43993) - Erreur C2686 lors de la compilation de VS2008 C++ avec griddesktop.dll
 
@@ -154,7 +154,7 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43952) - LoadValueList API est manquant dans la classe Aspose.Cells.GridWeb.Validation
 
- (CELLSNET-43859) - Cell rempli de couleur jaune n'est pas exporté vers le fichier XLSX
+(CELLSNET-43859) - Cell rempli de couleur jaune n'est pas exporté vers le fichier XLSX
 
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -166,4 +166,4 @@ url: /fr/net/aspose-cells-for-net-8-6-1-release-notes/
 
  Ajoute enum HtmlLinkTargetType et HtmlSaveOptions.LinkTargetType.
 
- Il est utilisé pour définir le type d'attribut cible en HTML
+ Il est utilisé pour définir le type d'attribut cible dans HTML

@@ -16,7 +16,7 @@ url: /tr/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Geliştirmeler
 
-40407 - Hücrelerde döndürülmüş metni destekler
+ 40407 - Hücrelerde döndürülmüş metni destekler
 
  İstisnalar
 

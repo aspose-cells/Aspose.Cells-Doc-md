@@ -10,7 +10,7 @@ Durante la conversione di campi excel che contengono iamges e forme in file html
 1. Dove dovremmo salvare le immagini e le forme quando salviamo il file excel nel flusso html.
 1. Sostituisci il percorso predefinito con il percorso escluso.
 
- Questo articolo spiega come implementare[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interfaccia per l'impostazione del[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) proprietà. Implementando questa interfaccia, sarai in grado di salvare le risorse create durante la generazione HTML nelle tue posizioni specifiche o flussi di memoria.
+ Questo articolo spiega come implementare[IStreamProvider](https://reference.aspose.com/cells/net/aspose.cells/istreamprovider) interfaccia per l'impostazione del[HtmlSaveOptions.StreamProvider](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/streamprovider) proprietà. Implementando questa interfaccia, sarai in grado di salvare le risorse create durante la generazione di HTML nelle tue posizioni o flussi di memoria specifici.
 
 {{% /alert %}} 
 

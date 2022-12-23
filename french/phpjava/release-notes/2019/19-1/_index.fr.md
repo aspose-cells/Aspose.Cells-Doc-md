@@ -10,18 +10,18 @@ Cette page contient les notes de version pour Aspose.Cells for PHP via Java 19.1
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41026|Prise en charge d'Excel 95/5.0 (fichiers XLS)|Nouvelle fonctionnalité|
 |CELLSJAVA-42778|Exception "le style textRotation doit être compris entre 0 et 180" lors du chargement du XLSM|Renforcement|
-|CELLSJAVA-42290|Les mdashes et ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le PDF du graphique|Punaise|
+|CELLSJAVA-42290|Les mdashes et les ndashes insérés dans les zones de texte dans les graphiques ne sont pas rendus correctement dans le graphique PDF|Punaise|
 |CELLSJAVA-42750|Impossible de récupérer les éléments des champs de page dans le rapport de tableau croisé dynamique|Punaise|
-|CELLSJAVA-42783|Problème avec le texte barré dans le format de fichier HTML généré|Punaise|
-|CELLSJAVA-42784|Les données de certaines cellules (par exemple, G7, H7, etc.) ne sont pas rendues de la même manière que dans le fichier d'origine dans Excel vers la conversion HTML/image|Punaise|
+|CELLSJAVA-42783|Problème avec le texte barré dans le format de fichier généré HTML|Punaise|
+|CELLSJAVA-42784|Les données dans certaines cellules (par exemple G7, H7, etc.) ne sont pas rendues de la même manière que dans le fichier d'origine dans Excel à HTML/conversion d'image|Punaise|
 |CELLSJAVA-42797|Certains styles ne sont pas rendus dans l'entrée HTML|Punaise|
 |CELLSJAVA-42807|Le calcul de la formule/fonction "ISOWEEKNUM" n'est pas le même que celui de MS Excel|Punaise|
 |CELLSJAVA-42794|ODS à XLSX - La couleur du texte a changé|Punaise|
-|CELLSJAVA-42795|ODS vers XLSX - La police barrée n'est pas conservée correctement|Punaise|
+|CELLSJAVA-42795|ODS à XLSX - La police barrée n'est pas conservée correctement|Punaise|
 |CELLSJAVA-42796|ODS à XLSX - Les dimensions de la zone de texte ont été modifiées|Punaise|
 |CELLSJAVA-42798|ODS -> XLSX - Le lien hypertexte est fonctionnel mais affiché en texte brut|Punaise|
 |CELLSJAVA-42802|ODS à XLSX, les pourcentages sont perdus dans le graphique à barres|Punaise|

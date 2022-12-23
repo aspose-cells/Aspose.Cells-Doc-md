@@ -16,27 +16,27 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25960 Rendera kryssrutor i HTML-fil
 
- 26082 Stöd Justified Alignment i rendering av PDF-format
+ 26082 Support Justified Alignment i renderingsformatet PDF
 
  26341 Excel-till-Pdf-förbättring för Mono
 
  26342 Externa webblänkar har några konstiga tecken bifogade
 
- 25332 Förbättra olika anpassade egenskaper i XLS, XLSX/XLSM-dokument
+ 25332 Förbättra olika anpassade egenskaper i XLS, XLSX/XLSM dokument
 
  26472 Stöd STDEV.S funktion/formel
 ### **Prestanda**
- 25774 Excel-till-PDF-konvertering
+ 25774 Excel- till-PDF konvertering
 ### **Undantag**
  27076 Hantera FormatException när du öppnar en ODS-fil
 
  27063 Ogiltigt kolumnindex - Aspose.Cells.CellsException från metoden SheetRender.ToImage()
 
- 26571 Aspose.Cells kan inte öppna XLS-filen
+26571 Aspose.Cells kan inte öppna filen XLS
 
  26309 Källmatrisen var inte tillräckligt lång – undantag för att öppna Excel-fil
 
-25972 Metoden SheetRender.ToImage() kunde inte rendera vissa kalkylblad
+ 25972 Metoden SheetRender.ToImage() kunde inte rendera vissa kalkylblad
 ### **Buggar**
  26141 Återge nästan tom bild (från metoden Chart.ToImage() , streckade linjerna återges inte fint
 
@@ -48,7 +48,7 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  18878 Minska teckenstorleken samtidigt som du sparar till pdf-fil
 
- 19318 Fel text i PDF-export
+ 19318 Fel text i PDF Export
 
  24011 Spara till PDF (buggar)
 
@@ -62,19 +62,19 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  24961 Problem med filkorruption
 
- 26198 Få maximalt värde för ValueAxis i ett Excel-diagram
+26198 Få maximalt värde för ValueAxis i ett Excel-diagram
 
  26198 Ett problem med metoderna PutValue och ClearContents
 
  26544 Problem med att kopiera rader och villkorlig formatering
 
-26711 Beräknad cell har "#VALUE!" efter att ha använt Workbook.CalculateFormula()-metoden
+ 26711 Beräknad cell har "#VALUE!" efter att ha använt Workbook.CalculateFormula()-metoden
 
  26728 Få "#Value!" i de beräknade cellerna
 
  26984 Problem med formlerberäkning över kalkylblad
 
- 26308 XLSB Formula returnerar ett annat värde än XLSX formel
+ 26308 XLSB Formel returnerar ett annat värde än XLSX formel
 
  25783 Excel-fil öppnas med varning efter användning av Range.CopyValue for Tables rubrik
 
@@ -82,7 +82,7 @@ url: /sv/net/aspose-cells-for-net-5-3-3-release-notes/
 
  25879 2007 Excel-fil placerar en form med zOrderPosition 0 överst
 
- 25970 Rendera alternativ text i MS Excel 2010 XLSX-fil
+ 25970 Rendera alt-text i MS Excel 2010 XLSX-fil
 
  26013 TextBox Linked Cell returnerar null
 

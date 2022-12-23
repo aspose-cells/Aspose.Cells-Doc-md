@@ -5,7 +5,7 @@ weight: 70
 url: /ja/python-java/export-print-area-range-to/
 ---
 ## **印刷範囲の範囲を HTML にエクスポート**
-Aspose.Cells for Python via Java は、HTML への印刷領域全体ではなく、選択した範囲のセルのみのエクスポートをサポートしています。このために、API は[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly)財産。このプロパティを**真実**印刷領域のみをエクスポートします。
+Aspose.Cells for Python via Java は、HTML への印刷領域全体ではなく、選択した範囲のセルのみのエクスポートをサポートしています。[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly)財産。このプロパティを**真実**印刷領域のみをエクスポートします。
 
 次のサンプル コードは、[HtmlSaveOptions.ExportPrintAreaOnly](https://reference.aspose.com/cells/python/asposecells.api/htmlsaveoptions#ExportPrintAreaOnly)プロパティを使用して、印刷領域のみを HTML にエクスポートします。
 

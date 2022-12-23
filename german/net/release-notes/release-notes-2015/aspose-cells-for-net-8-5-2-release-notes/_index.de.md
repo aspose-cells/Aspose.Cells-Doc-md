@@ -30,13 +30,13 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43786) – Die Datei ist nach dem Aktualisieren der PivotTable in der Vorlagendatei beschädigt
 
- (CELLSNET-43594) – PivotField.IsRepeatItemLabels funktionieren nicht in der Pivot-Tabelle
+(CELLSNET-43594) – PivotField.IsRepeatItemLabels funktionieren nicht in der Pivot-Tabelle
 
  (CELLSNET-43367) – Problem mit PivotTable.Format() zum Formatieren des PivotField-Headers
 
  (CELLSNET-41618) – Einige Bilder und Formen werden nach der Konvertierung von Xls in Html nicht angezeigt
 
-(CELLSNET-43817) – CalculateFormula() endet für einige SUMIF-Excel-Formeln nie
+ (CELLSNET-43817) – CalculateFormula() endet für einige SUMIF-Excel-Formeln nie
 
  (CELLSNET-43675) – Problem bei der Berechnung der Funktion NORM.S.DIST
 
@@ -52,17 +52,17 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43806) – Der Plot/die Kurve ist für die XY-Streudiagramme nicht gleich.
 
- (CELLSNET-43805) – Umwandlung von Tabellenkalkulation in PDF: Fettschrift geht verloren
+(CELLSNET-43805) – Konvertierung der Tabelle in PDF: Fettdruck geht verloren
 
- (CELLSNET-43804) – Konvertierung von Tabellenkalkulationen in PDF: Inhalte in TextBox werden mit Einrückung gerendert
+ (CELLSNET-43804) – Konvertierung der Tabelle in PDF: Inhalt in TextBox wird mit Einrückung gerendert
 
- (CELLSNET-43779) – Inkonsistenz zwischen Diagramm und Bild für das EMF-Dateiformat
+ (CELLSNET-43779) – Diagramm-zu-Bild-Inkonsistenz für das Dateiformat EMF
 
-(CELLSNET-43772) – Der Text in der Zeichnungsform wird nicht korrekt umbrochen
+ (CELLSNET-43772) – Der Text in der Zeichnungsform wird nicht korrekt umbrochen
 
- (CELLSNET-43771) – Das Bild hat sich nach dem Rendern der Tabelle in PDF verschoben
+ (CELLSNET-43771) – Das Bild hat sich nach dem Rendern der Tabelle auf PDF verschoben
 
- (CELLSNET-43748) – TextBox-Text wird in Excel mit dem PDF-Rendering überlappt
+ (CELLSNET-43748) – TextBox-Text wird in Excel mit PDF-Rendering überlappt
 
  (CELLSNET-43820) – Eine Tabelle mit Slicern wird nach dem erneuten Speichern beschädigt
 
@@ -74,7 +74,7 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43802) – Excel-Datei wird beim Öffnen und erneuten Speichern beschädigt und lässt sich nicht in Excel 2013 öffnen
 
- (CELLSNET-43799) – Durch das erneute Speichern der Tabelle werden die Ergebnisse beschädigt und Slicer werden entfernt
+(CELLSNET-43799) – Durch das erneute Speichern der Tabelle werden die Ergebnisse beschädigt und Slicer werden entfernt
 
  (CELLSNET-43792) – Arbeitsmappen-Datenverbindung wird nach dem erneuten Speichern der Tabelle entfernt
 
@@ -84,23 +84,23 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43629) – PivotTable.RefreshData() – Objekt des Typs kann nicht umgewandelt werden
 
-(CELLSNET-43778) – System.FormatException bei Chart.ToImage, wenn das Gebietsschema des Systems Russland ist
+ (CELLSNET-43778) – System.FormatException bei Chart.ToImage, wenn das Gebietsschema des Systems Russland ist
 
  (CELLSNET-43822) – Arbeitsmappe mit Diagramm kann nicht gespeichert werden und löst Ausnahme aus
 
  (CELLSNET-43814) – Das Laden von Excel im xlsm-Format löst einen Nullreferenzfehler aus
 
- (CELLSNET-43793) – Aspose.Cells.CellsException: Elementfehler beim Laden einer XLSX-Datei überschreiben
+ (CELLSNET-43793) - Aspose.Cells.CellsException: Fehler beim Überschreiben des Elements beim Laden einer XLSX-Datei
 
  (CELLSNET-43784) – System.ArgumentException bei Workbook.Combine
 
  (CELLSNET-43783) – Ausnahme beim Rendern einer Tabelle im tabulatorgetrennten Dateiformat
 
- (CELLSNET-43828) – System.InvalidCastException beim erneuten Speichern einer XLSX-Vorlagendatei
+ (CELLSNET-43828) – System.InvalidCastException beim erneuten Speichern einer Vorlagendatei XLSX
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Neue Eigenschaften**
@@ -108,7 +108,7 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  (CELLSNET-43809) – Fügt asynchrones Callback-Ereignis für Griddesktop hinzu
 
- (CELLSNET-42316) – Die Tastenkombination Strg + Umschalt + Pfeiltasten funktioniert nicht.
+(CELLSNET-42316) – Die Tastenkombination Strg + Umschalt + Pfeiltasten funktioniert nicht.
 
  (CELLSNET-42174) – Strg + Pfeiltasten springen nicht zur Zelle mit Daten
 
@@ -132,7 +132,7 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
  Fügt die SaveOptions.MergeAreas-Eigenschaft hinzu.
 
- Es wird verwendet, um einzelne CellAreas der bedingten Formatierung und Validierung zusammenzuführen.
+Es wird verwendet, um einzelne CellAreas der bedingten Formatierung und Validierung zusammenzuführen.
 
 
 
@@ -142,7 +142,7 @@ url: /de/net/aspose-cells-for-net-8-5-2-release-notes/
 
 
 
-Fügt die Methode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) hinzu
+ Fügt die Methode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y) hinzu
 
  Rendern Sie eine bestimmte Seite von SheetRender in eine Grafik.
 
@@ -160,7 +160,7 @@ Fügt die Methode SheetRender.ToImage(int pageIndex, Graphics g, float x, float 
 
 
 
-Fügt GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate-Ereignisse hinzu.
+ Fügt GridDesktop.BeforeLoadFile/FinishLoadFile/BeforeCalculate/FinishCalculate-Ereignisse hinzu.
 
  Tritt beim unterschiedlichen Ladezustand der Arbeitsmappendatei in GridDesktop auf.
 

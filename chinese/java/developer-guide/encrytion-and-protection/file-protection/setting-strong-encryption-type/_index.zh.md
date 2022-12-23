@@ -26,7 +26,7 @@ Microsoft Excel (97-2007/2010) 使您能够加密和密码保护电子表格。�
 
    **在 Microsoft Excel 中设置加密**
 
-![待办事项：图像_替代_文本](setting-strong-encryption-type_1.png)
+![待办事项：图片_替代_文本](setting-strong-encryption-type_1.png)
 
 ## **使用 Aspose.Cells 应用加密**
 

@@ -10,7 +10,7 @@ url: /tr/
 
 **Hoşgeldiniz Aspose.Cells for .NET**
 
-Aspose.Cells for .NET, yazılım geliştiricilerin elektronik tablo dosyalarını kendi uygulamalarından oluşturmasına, okumasına, dönüştürmesine, güncellemesine ve yazdırmasına olanak tanıyan bir elektronik tablo programlama kitaplığıdır. API'ler ve GUI kontrollerinin bir kombinasyonu olan Aspose.Cells for .NET, Microsoft Excel® programlama ve dönüştürmeyi hızlandırır. Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim formatlarına dışa aktarılmasına da izin verir.
+Aspose.Cells for .NET, yazılım geliştiricilerin elektronik tablo dosyalarını kendi uygulamalarından oluşturmasına, okumasına, dönüştürmesine, güncellemesine ve yazdırmasına olanak tanıyan bir elektronik tablo programlama kitaplığıdır. API'ler ve GUI kontrollerinin bir kombinasyonu olan Aspose.Cells for .NET, Microsoft Excel® programlama ve dönüştürmeyi hızlandırır. Aspose.Cells for .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil olmak üzere popüler resim formatlarına aktarılmasına izin verir.
 
 {{% /alert %}}
 
@@ -30,11 +30,11 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Java Ürün Logosu](aspose-cells-for-java.png)**
+**![Aspose.Cells for Java Product Logo](aspose-cells-for-java.png)**
 
 **Hoşgeldiniz Aspose.Cells for Java**
 
-Aspose.Cells for Java, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+Aspose.Cells for Java, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca, Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP and SVG dahil olmak üzere popüler resim biçimlerine dışa aktarılmasına olanak tanır.
 
 {{% /alert %}}
 
@@ -55,7 +55,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for C++ Ürün Logosu](home_3.png)**
+**![Aspose.Cells for C++ Product Logo](home_3.png)**
 
 **Aspose.Cells for C++'e hoş geldiniz**
 
@@ -83,7 +83,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 **Hoşgeldiniz Aspose.Cells for Android via Java**
 
-Aspose.Cells for Android via Java, Android uygulamalarının Microsoft Excel gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Aspose.Cells for Android via Java'in nihai hedefi, Android Studio veya Android geliştirmeyi destekleyen herhangi bir IDE ile Java'de yerel Android geliştirmeyi mümkün kılan Aspose.Cells for Java'in tüm çarpıcı özelliklerini Android platformuna getirmektir. Aspose.Cells for Android via Java, yerel Android uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Android via Java, XLS, XLSX, CSV, SpreadsheetML, ODS, Sekmeyle Ayrılmış, HTML, PDF, XPS ve diğer biçimleri destekler. Aspose.Cells for Android via Java ile elektronik tablolar oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
+Aspose.Cells for Android via Java, Android uygulamalarının Microsoft Excel gerektirmeden Excel elektronik tabloları oluşturmasını ve yönetmesini sağlayan esnek bir bileşendir. Aspose.Cells for Android via Java'in nihai hedefi, Android Studio veya Android geliştirmeyi destekleyen herhangi bir IDE ile Java'de yerel Android geliştirmeyi mümkün kılan Aspose.Cells for Java'in tüm çarpıcı özelliklerini Android platformuna getirmektir. Aspose.Cells for Android via Java, yerel Android uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Android via Java, XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS ve diğer formatları destekler. Aspose.Cells for Android via Java ile elektronik tablolar oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
 
 {{% /alert %}}
 
@@ -102,11 +102,11 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Node.js via Java Ürün Logosu](home_5.png)**
+**![Aspose.Cells for Node.js via Java Product Logo](home_5.png)**
 
 **Hoşgeldiniz Aspose.Cells for Node.js via Java**
 
-Aspose.Cells for Node.js via Java, Node.js kullanarak Aspose.Cells for Java'in tüm kullanışlı özelliklerini sunar. Aspose.Cells for Node.js via Java, çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmenizi sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Node.js via Java, elektronik tablo biçimi dönüştürme, çalışma sayfalarının en ayrıntılı düzeyde biçimlendirilmesi, grafik yönetimi ve oluşturma ve güvenilir Formül Hesaplama Motorumuz sunan, ölçeklenebilir ve zengin özelliklere sahip bir API'dir. Aspose.Cells for Node.js via Java, XLS, XLSX, ODS, SpreadsheetML, CSV, Sekmeyle Ayrılmış, HTML/MHTML, PDF, XPS ve diğer formatları destekler. Aspose.Cells for Node.js via Java ile Excel belgeleri oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
+Aspose.Cells for Node.js via Java, Node.js kullanarak Aspose.Cells for Java'in tüm kullanışlı özelliklerini sunar. Aspose.Cells for Node.js via Java, çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmenizi sağlayan bir sınıf kitaplığıdır. Aspose.Cells for Node.js via Java, elektronik tablo biçimi dönüştürme, çalışma sayfalarının en ayrıntılı düzeyde biçimlendirilmesi, grafik yönetimi ve oluşturma ve güvenilir Formül Hesaplama Motorumuz sunan, ölçeklenebilir ve zengin özelliklere sahip bir API'dir. Aspose.Cells for Node.js via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. Aspose.Cells for Node.js via Java ile Excel belgeleri oluşturabilir, değiştirebilir, dönüştürebilir ve render alabilirsiniz.
 
 {{% /alert %}}
 
@@ -126,11 +126,11 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for PHP via Java Ürün Logosu](home_6.png)**
+**![Aspose.Cells for PHP via Java Product Logo](home_6.png)**
 
 **Hoşgeldiniz Aspose.Cells for PHP via Java**
 
-Aspose.Cells for PHP via Java, JavaBridge kullanarak Aspose.Cells for Java'in tüm değerli özelliklerini sağlar. Aspose.Cells for PHP via Java, çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmenizi sağlayan bir sınıf kitaplığıdır. Aspose.Cells for PHP via Java, elektronik tablo biçimi dönüştürme, çalışma sayfalarının en ayrıntılı düzeyde stillendirilmesi, grafik yönetimi ve oluşturma ve güvenilir Formül Hesaplama Motorumuz sunan, ölçeklenebilir ve zengin özelliklere sahip bir API'dir. Aspose.Cells for PHP via Java, XLS, XLSX, ODS, SpreadsheetML, CSV, Sekmeyle Ayrılmış, HTML/MHTML, PDF, XPS ve diğer formatları destekler. Aspose.Cells for PHP via Java ile Excel belgeleri oluşturabilir, değiştirebilir, dönüştürebilir ve işleyebilirsiniz.
+Aspose.Cells for PHP via Java, JavaBridge kullanarak Aspose.Cells for Java'in tüm değerli özelliklerini sağlar. Aspose.Cells for PHP via Java, çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmenizi sağlayan bir sınıf kitaplığıdır. Aspose.Cells for PHP via Java, elektronik tablo biçimi dönüştürme, çalışma sayfalarının en ayrıntılı düzeyde stillendirilmesi, grafik yönetimi ve oluşturma ve güvenilir Formül Hesaplama Motorumuz sunan, ölçeklenebilir ve zengin özelliklere sahip bir API'dir. Aspose.Cells for PHP via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. Aspose.Cells for PHP via Java ile Excel belgeleri oluşturabilir, değiştirebilir, dönüştürebilir ve render alabilirsiniz.
 
 {{% /alert %}}
 
@@ -150,11 +150,11 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via Java Ürün Logosu](home_7.png)**
+**![Aspose.Cells for Python via Java Product Logo](home_7.png)**
 
 **Hoşgeldiniz Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via Java, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+Aspose.Cells for Python via Java, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via Java, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim biçimlerine dışa aktarılmasına olanak tanır.
 
 {{% /alert %}}
 
@@ -173,7 +173,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-![Aspose.Cells for Reporting Services Ürün Logosu](aspose-cells-for-ssrs.png)
+![Aspose.Cells for Reporting Services Product Logo](aspose-cells-for-ssrs.png)
 
 **Hoşgeldiniz Aspose.Cells for Reporting Services** 
 
@@ -195,7 +195,7 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for SharePoint Ürün Logosu](sharepoint_logo.png)**
+**![Aspose.Cells for SharePoint Product Logo](sharepoint_logo.png)**
 
 **Hoşgeldiniz Aspose.Cells for SharePoint**
 
@@ -239,11 +239,11 @@ Aşağıda, görevlerinizi gerçekleştirmek için ihtiyaç duyabileceğiniz baz
 
 {{% alert color="primary" %}}
 
-**![Aspose.Cells for Python via .NET Ürün Logosu](home_8.png)**
+**![Aspose.Cells for Python via .NET Product Logo](home_8.png)**
 
 **Hoşgeldiniz Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via .NET, işletmenizin her gün kullandığı popüler e-tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler görüntü formatlarına dışa aktarılmasına da olanak tanır.
+Aspose.Cells for Python via .NET, uygulamalarınızın çok çeşitli elektronik tablo işleme görevlerini gerçekleştirmesini sağlar. Aspose.Cells for Python via .NET, işletmenizin her gün kullandığı popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) dosya biçimlerini destekler. Ayrıca Excel® dosyalarının PDF, XPS, HTML, MHTML, Düz Metin ve TIFF, JPG, PNG, BMP ve SVG gibi popüler resim biçimlerine dışa aktarılmasına olanak tanır.
 
 {{% /alert %}}
 

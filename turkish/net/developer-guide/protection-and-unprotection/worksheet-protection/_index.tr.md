@@ -17,7 +17,7 @@ Diğer kullanıcıların bir çalışma sayfasındaki verileri yanlışlıkla ve
 1.  Tıklamak**Gözden Geçir > Çalışma Sayfasını Koru**.
 1.  içine bir şifre girin**Parola kutusu**.
 1.  Seçme**izin vermek** seçenekler.
-1.  Seçme**TAMAM** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**TAMAM** Yeniden.
+1.  Seçme**Tamam** , onaylamak için parolayı yeniden girin ve ardından öğesini seçin.**Tamam** Yeniden.
 
 
 ## **.Net için Aspose.Cell Kullanarak Çalışma Sayfasını Koruyun**

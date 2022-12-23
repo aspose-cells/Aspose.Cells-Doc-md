@@ -6,10 +6,10 @@ url: /ru/sharepoint/previewing-document/
 ---
 Aspose.Cells для Share Point поддерживает предварительный просмотр документов непосредственно из SharePoint. Следующие форматы поддерживают предварительный просмотр:
 
-- XLS — Microsoft Эксель 97 — 2003
-- XLSX — офисный Open XML
+- XLS – Microsoft Excel 97 – 2003
+- XLSX — Office Open XML
 - XLSM, XLTX, XLTM — Office Open XML
-- XML — Microsoft Электронная таблица ExcelML
+- XML — Microsoft Excel SpreadsheetML
 
 **Выбор документа для предварительного просмотра** 
 

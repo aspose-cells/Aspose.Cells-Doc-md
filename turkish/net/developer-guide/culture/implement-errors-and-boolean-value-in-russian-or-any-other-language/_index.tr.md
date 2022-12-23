@@ -13,9 +13,9 @@ Microsoft Excel'i Rusça Yerel Ayar veya Dilde veya başka bir Yerel Ayar veya D
 
 ## **Hataları ve Boole Değerini Rusça veya Başka Bir Dilde Uygulama**
 
- Aşağıdaki örnek kod, Hataların ve Boolean Değerinin Rusça veya Herhangi Bir Başka Dilde nasıl uygulanacağını gösterir. lütfen kontrol ediniz[Örnek Excel Dosyası](73990159.xlsx) Bu kodda kullanılan ve[Çıktı PDF](73990160.pdf)Ekran görüntüsü, bir referans için Örnek Excel Dosyası ile Çıktı PDF'si arasındaki farkı gösterir.
+ Aşağıdaki örnek kod, Hataların ve Boolean Değerinin Rusça veya Herhangi Bir Başka Dilde nasıl uygulanacağını gösterir. lütfen kontrol ediniz[Örnek Excel Dosyası](73990159.xlsx) Bu kodda kullanılan ve[Çıkış PDF](73990160.pdf)Ekran görüntüsü, referans olması için Örnek Excel Dosyası ile Çıktı PDF arasındaki farkı gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
+![yapılacaklar:resim_alternatif_metin](implement-errors-and-boolean-value-in-russian-or-any-other-language_1.png)
 
 ## **Basit kod**
 

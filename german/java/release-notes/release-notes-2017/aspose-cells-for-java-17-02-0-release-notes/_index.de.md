@@ -18,10 +18,10 @@ url: /de/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42165|Datenverlust beim Kopieren des Bereichs mit ausgeblendeten Zeilen und Spalten in eine neue Arbeitsmappe und beim Konvertieren in HTML|Insekt|
 |CELLSJAVA-42164|Datenverlust beim Kopieren des Bereichs mit ausgeblendeten Zeilen und Spalten in eine neue Arbeitsmappe und beim Konvertieren in HTML - II|Insekt|
 |CELLSJAVA-42162|Datenverlust beim Kopieren des Bereichs mit ausgeblendeten Zeilen und Spalten in eine neue Arbeitsmappe und beim Konvertieren in HTML - III|Insekt|
-|CELLSJAVA-40251|Beim Speichern als PDF wird die Formatierung nicht beibehalten|Insekt|
+|CELLSJAVA-40251|Speichern unter PDF behält die Formatierung nicht bei|Insekt|
 |CELLSJAVA-42187|Excel-Formel funktioniert nicht und wird als "#DIV/0!"|Insekt|
 |CELLSJAVA-42184|Problem beim gleichzeitigen Speichern|Insekt|
-|CELLSJAVA-42156|Die oberen und unteren Ränder der Zellen sind während der Konvertierung in HTML verschwunden|Insekt|
+|CELLSJAVA-42156|Die oberen und unteren Ränder der Zellen sind beim Konvertieren in HTML verschwunden|Insekt|
 |CELLSJAVA-42147|Excel-Formel funktioniert nicht richtig|Insekt|
 |CELLSJAVA-42131|Die Neuberechnung einer Reihe von Formeln mit Aspose Cells APIs führt zu "#NUM!" Error|Insekt|
 |CELLSJAVA-42188|Die Demoseite für Mathematik wird im Demoprojekt GridWeb (Java) nicht korrekt geladen|Insekt|
@@ -30,23 +30,23 @@ url: /de/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSNET-45106|Fehler in try catch and re-throw-Ausnahme, bei der ExceptionType geändert wird|Insekt|
 |CELLSJAVA-42189|Wasserfalldiagramm: Beim Aufruf von compute() werden die Farben der Diagrammreihen zurückgesetzt.|Insekt|
 |CELLSJAVA-42160|Der Fehler bei der logarithmischen Skalierung in Excel führt dazu, dass Aspose Cells hängen bleibt|Insekt|
-|CELLSJAVA-42158|Die Begrenzungswerte der vertikalen Achse wurden beim Rendern der Tabelle in PDF geändert|Insekt|
-|CELLSJAVA-42157|Die horizontalen und vertikalen Achsenbegrenzungswerte wurden beim Rendern des Diagramms in EMF geändert|Insekt|
-|CELLSJAVA-42133|Hebräisch - Leerzeichen fehlt im PDF|Insekt|
+|CELLSJAVA-42158|Die Begrenzungswerte der vertikalen Achse wurden beim Rendern der Tabelle auf PDF geändert|Insekt|
+|CELLSJAVA-42157|Die horizontalen und vertikalen Achsenbegrenzungswerte wurden beim Rendern des Diagramms auf EMF geändert|Insekt|
+|CELLSJAVA-42133|Hebräisch - Leerzeichen fehlt in PDF|Insekt|
 |CELLSJAVA-42107|Das Diagramm wird beim Rendern in das Bild vertikal unterdrückt|Insekt|
 |CELLSJAVA-42105|DataTable-Reihen fehlen beim Exportieren des Diagramms in ein Bild|Insekt|
 |CELLSJAVA-42090|Fehlende Unterstreichung im Titel, wenn das Diagramm in ein Bild umgewandelt wird|Insekt|
 |CELLSJAVA-42086|Hintergrundbild im Diagramm ist falsch|Insekt|
-|CELLSJAVA-42084|Die (hebräischen) Achsenbeschriftungen/Legende des Raum-Schwarz-Weiß-Diagramms fehlt in der PDF-Ausgabedatei|Insekt|
-|CELLSJAVA-41831|Der Inhalt der rechteckigen Form wird beim Konvertieren der Tabellenkalkulation in HTML nicht gerendert|Insekt|
+|CELLSJAVA-42084|Die (hebräischen) Achsenbeschriftungen/Legende des Space-S/W-Diagramms fehlt in der Ausgabedatei PDF|Insekt|
+|CELLSJAVA-41831|Der Inhalt der rechteckigen Form wird beim Konvertieren der Tabelle in HTML nicht gerendert|Insekt|
 |CELLSJAVA-42095|Das Diagramm wurde beim Konvertieren der Tabelle in HTML geändert|Insekt|
-|CELLSJAVA-42096|Die Position der Formel im Diagramm hat sich beim Konvertieren der Tabelle in HTML geändert|Insekt|
+|CELLSJAVA-42096|Die Formel im Diagramm hat die Position geändert, während die Tabelle in HTML konvertiert wurde|Insekt|
 |CELLSJAVA-42169|Konvertierung von Excel in PDF – Arabischer Text wird umgekehrt|Insekt|
 |CELLSJAVA-42193|Blattname wird beim Einfügen von Formeln in Großbuchstaben geschrieben|Insekt|
 |CELLSJAVA-42191|Aufruf von updateSelectedValue ändert activeSheetIndex|Insekt|
 |CELLSJAVA-42181|Geschützte Ansicht nach erneutem Speichern einer XLS-Datei|Insekt|
 |CELLSJAVA-42180|Das Kopieren einer Arbeitsmappe ändert die standardHeight|Insekt|
-|CELLSJAVA-42177|Die Formel in der benutzerdefinierten Validierung fehlt, wenn die Arbeitsmappe im XLS-Format gespeichert wird|Insekt|
+|CELLSJAVA-42177|Die Formel in der benutzerdefinierten Validierung fehlt, wenn die Arbeitsmappe im Format XLS gespeichert wird|Insekt|
 |CELLSJAVA-42173|Excel muss die Datei nach dem einfachen Speichern über Aspose.Cells wiederherstellen|Insekt|
 |CELLSJAVA-42171|Die Tabelle wird beschädigt, nachdem die Schriftart für die Formen geändert wurde|Insekt|
 |CELLSJAVA-42168|Die Schriftart für einige Formen in der Sammlung kann nicht geändert werden|Insekt|
@@ -55,8 +55,8 @@ url: /de/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|Das Kopieren von Blättern zwischen Arbeitsmappen ändert die Formel|Insekt|
 |CELLSJAVA-42154|Der Textwert der CheckBox kann nicht gelesen werden|Insekt|
 |CELLSJAVA-42150|Die Methode GetNames() gibt nicht alle Namen zurück|Insekt|
-|CELLSJAVA-40511|Die Seiten des von Aspose.Cells generierten PDFs sind alle schwarz|Insekt|
-|CELLSJAVA-42179|NullPointerException beim Workbook-Ctor beim Laden eines HTML-Codes|Ausnahme|
+|CELLSJAVA-40511|Die Seiten der von Aspose.Cells generierten PDF sind alle schwarz|Insekt|
+|CELLSJAVA-42179|NullPointerException bei Workbook ctor beim Laden eines HTML|Ausnahme|
 |CELLSJAVA-42174|NullPointerException bei Workbook ctor beim Laden eines HTML - II|Ausnahme|
 |CELLSJAVA-42192|CellsException: Ungültige Lochgröße: Sie muss zwischen 10 und 90 liegen|Ausnahme|
 |CELLSJAVA-42190|Ausnahme: „java.lang.IndexOutOfBoundsException“ beim Laden eines XLSX-Dateiformats|Ausnahme|
@@ -64,7 +64,7 @@ url: /de/java/aspose-cells-for-java-17-02-0-release-notes/
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.
 ### **HTMLLoadOptions.AutoFitColsAndRows-Eigenschaft hinzugefügt**
-Diese Version von Aspose.Cells for Java API hat die Eigenschaft HTMLLoadOptions.AutoFitColsAndRows hinzugefügt, die angibt, ob API Spalten und Zeilen automatisch anpassen soll, während HTML im Objektmodus importiert wird. Die Eigenschaft Boolean type hat den Standardwert false, was bedeutet, dass die Zellenhöhen und -breiten so importiert werden, wie sie sind. Wenn die oben genannte Eigenschaft jedoch auf true gesetzt ist, versucht der API, die Spaltenbreiten und Zeilenhöhen entsprechend dem Inhalt anzupassen .
+Diese Version von Aspose.Cells for Java API hat die Eigenschaft HTMLLoadOptions.AutoFitColsAndRows hinzugefügt, die angibt, ob API Spalten und Zeilen automatisch anpassen soll, während HTML in seinem Objektmodus importiert wird. Die Eigenschaft Boolean type hat den Standardwert false, was bedeutet, dass die Zellenhöhen und -breiten so importiert werden, wie sie sind. Wenn die oben genannte Eigenschaft jedoch auf true gesetzt ist, versucht der API, die Spaltenbreiten und Zeilenhöhen entsprechend dem Inhalt anzupassen .
 
 Hier ist das einfache Verwendungsszenario der HTMLLoadOptions.AutoFitColsAndRows-Eigenschaft.
 
@@ -134,7 +134,7 @@ Workbook book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 ### **Methode Cells.textToColumns hinzugefügt**
-Die neueste Überarbeitung von Aspose.Cells for Java APIs haben die Cells.textToColumns-Methode verfügbar gemacht, um die von Excel nachzuahmen**Text in Spalten**Besonderheit. Excel bietet diese Funktion ab**Datenwerkzeuge**unter dem**Daten**Tab. Bitte beachten Sie, dass zum Aufteilen des Inhalts einer Spalte auf mehrere Spalten die Daten ein bestimmtes Trennzeichen wie ein Komma (oder ein beliebiges anderes Zeichen) enthalten sollten, auf dessen Grundlage der API versucht, den Inhalt einer Zelle auf mehrere Zellen aufzuteilen.
+Die neueste Überarbeitung von Aspose.Cells for Java APIs haben die Cells.textToColumns-Methode verfügbar gemacht, um die von Excel nachzuahmen**Text in Spalten**Merkmal. Excel bietet diese Funktion ab**Datenwerkzeuge**unter dem**Daten**Tab. Bitte beachten Sie, dass zum Aufteilen des Inhalts einer Spalte auf mehrere Spalten die Daten ein bestimmtes Trennzeichen wie ein Komma (oder ein beliebiges anderes Zeichen) enthalten sollten, auf dessen Grundlage der API versucht, den Inhalt einer Zelle auf mehrere Zellen aufzuteilen.
 
 Hier ist ein einfaches Nutzungsszenario, um die Nutzung des neu bereitgestellten API zu demonstrieren.
 
@@ -190,7 +190,7 @@ Font[]fonts = book.getFonts();
 
 {{< /highlight >}}
 ### **TxtSaveOptions.TrimLeadingBlankRowAndColumn-Eigenschaft hinzugefügt**
-Diese Überarbeitung von Aspose.Cells for Java hat die TrimLeadingBlankRowAndColumn-Eigenschaft des booleschen Typs für die TxtSaveOptions-Klasse verfügbar gemacht, die angibt, ob führende leere Zeilen und Spalten wie Excel beim Exportieren von Daten in CSV- oder tabulatorgetrennte Formate getrimmt werden sollen. Der Standardwert der oben genannten Eigenschaft ist „false“. Falls die Daten auf dem Arbeitsblatt nicht mit der ersten Zelle beginnen, d. h.: A1, entfernt die Excel-Anwendung die führenden leeren Zeilen und Spalten beim Exportieren der Daten in CSV- oder tabulatorgetrennte Formate, jedoch behalten Aspose.Cells-APIs standardmäßig bei die leeren Zeilen und Spalten für dieselbe Probe, um den Datenspeicherort beizubehalten, wenn die exportierten CSV- oder tabulatorgetrennten Dateien mithilfe von Aspose.Cells-APIs zurückimportiert werden müssen.
+Diese Überarbeitung von Aspose.Cells for Java hat die TrimLeadingBlankRowAndColumn-Eigenschaft des booleschen Typs für die TxtSaveOptions-Klasse verfügbar gemacht, die angibt, ob führende leere Zeilen und Spalten beim Exportieren von Daten in CSV- oder tabulatorgetrennte Formate wie in Excel gekürzt werden sollen. Der Standardwert der oben genannten Eigenschaft ist „false“. Falls die Daten auf dem Arbeitsblatt nicht mit der ersten Zelle beginnen, d. h.: A1, entfernt die Excel-Anwendung die führenden leeren Zeilen und Spalten, während die Daten in CSV- oder tabulatorgetrennte Formate exportiert werden, jedoch behalten Aspose.Cells-APIs standardmäßig bei die leeren Zeilen und Spalten für dieselbe Probe, um den Datenspeicherort beizubehalten, wenn die exportierten CSV- oder tabulatorgetrennten Dateien mithilfe von Aspose.Cells-APIs zurückimportiert werden müssen.
 
 Hier ist ein einfaches Verwendungsszenario der TrimLeadingBlankRowAndColumn-Eigenschaft.
 
@@ -225,4 +225,4 @@ Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Cells-Wiki-D
 1. [Rufen Sie eine Liste der Schriftarten ab, die in einer Tabelle oder Arbeitsmappe verwendet werden](/cells/de/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/)
 1. [Erhalten Sie Warnungen beim Laden einer Excel-Datei](/cells/de/java/get-warnings-while-loading-excel-file/)
 1. [Lesen und bearbeiten Sie Excel 2016-Diagramme](/cells/de/java/read-and-manipulate-excel-2016-charts/)
-1. [Trimmen Sie führende leere Zeilen und Spalten beim Exportieren von Tabellenkalkulationen in das CSV-Format](/cells/de/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)
+1. [Trimmen Sie führende leere Zeilen und Spalten beim Exportieren von Tabellenkalkulationen in das Format CSV](/cells/de/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format/)

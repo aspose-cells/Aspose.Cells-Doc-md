@@ -14,15 +14,15 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.1.
 |:- |:- |:- |
 |CELLSJAVA-41026|Compatible con Excel 95/5.0 (archivos XLS)|Nueva caracteristica|
 |CELLSJAVA-42778|Excepción "estilo textRotation debe estar entre 0 y 180" al cargar el XLSM|Mejora|
-|CELLSJAVA-42290|Mdashes y ndashes insertados en cuadros de texto en gráficos no se representan correctamente en el PDF del gráfico|Insecto|
+|CELLSJAVA-42290|Mdashes y ndashes insertados en TextBoxes en los gráficos no se representan correctamente en el gráfico PDF|Insecto|
 |CELLSJAVA-42750|No se pueden recuperar los elementos de los campos de página en el informe de tabla dinámica|Insecto|
-|CELLSJAVA-42783|Problema con texto tachado en formato de archivo HTML generado|Insecto|
-|CELLSJAVA-42784|Los datos en algunas celdas (p. ej., G7, H7, etc.) no se procesan de la misma manera que en el archivo original en la conversión de Excel a HTML/imagen|Insecto|
+|CELLSJAVA-42783|Problema con el texto tachado en el formato de archivo generado HTML|Insecto|
+|CELLSJAVA-42784|Los datos en algunas celdas (por ejemplo, G7, H7, etc.) no se representan de la misma manera que en el archivo original en Excel a HTML/conversión de imagen|Insecto|
 |CELLSJAVA-42797|Algunos estilos no se representan en la entrada HTML|Insecto|
 |CELLSJAVA-42807|El cálculo de la fórmula/función "ISOWEEKNUM" no es el mismo que el de MS Excel|Insecto|
-|CELLSJAVA-42794|ODS a XLSX: el color del texto cambió|Insecto|
+|CELLSJAVA-42794|ODS a XLSX - Color del texto cambiado|Insecto|
 |CELLSJAVA-42795|ODS a XLSX: la fuente tachada no se conserva correctamente|Insecto|
-|CELLSJAVA-42796|ODS a XLSX: las dimensiones del cuadro de texto cambiaron|Insecto|
+|CELLSJAVA-42796|ODS a XLSX: cambiaron las dimensiones del cuadro de texto|Insecto|
 |CELLSJAVA-42798|ODS -> XLSX: el hipervínculo funciona pero se muestra como texto sin formato|Insecto|
 |CELLSJAVA-42802|ODS a XLSX, los porcentajes se pierden en el gráfico de barras|Insecto|
 |CELLSJAVA-42803|El esquema "SummaryRowBelow" no se ve afectado al guardar como formato de archivo XLSB|Insecto|

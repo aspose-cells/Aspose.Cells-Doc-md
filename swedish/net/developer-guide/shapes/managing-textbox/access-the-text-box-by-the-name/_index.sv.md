@@ -6,7 +6,7 @@ url: /sv/net/access-the-text-box-by-the-name/
 ---
 ## Gå till textrutan efter namnet
 
-Tidigare nås textrutor via index från[**Arbetsblad. Textrutor**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)samling men nu kan du också komma åt textrutan med namn från denna samling. Detta är ett bekvämt och snabbt sätt att komma åt din textruta om du redan känner till dess namn.
+ Tidigare nås textrutor via index från[**Arbetsblad. Textrutor**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/textboxes)samling men nu kan du också komma åt textrutan med namn från denna samling. Detta är ett bekvämt och snabbt sätt att komma åt din textruta om du redan känner till dess namn.
 
 Följande exempelkod skapar först en textruta och tilldelar den lite text och namn. Sedan på nästa rader kommer vi åt samma textruta med dess namn och skriver ut dess text.
 

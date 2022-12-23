@@ -10,20 +10,20 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.12.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSJAVA-43047|Ajout d'un texte d'info-bulle à la cellule pour l'exportation au format HTML|Nouvelle fonctionnalité|
+|CELLSJAVA-43047|Ajout d'un texte d'info-bulle à la cellule pour l'exportation dans HTML|Nouvelle fonctionnalité|
 |CELLSJAVA-43002|Point chaud CPU inattendu dans ZipOutputStream lors de l'ouverture de XSLB|Renforcement|
 |CELLSJAVA-43008|Option pour désactiver le chargement de l'objet OLE lors de l'ouverture d'un classeur|Renforcement|
 |CELLSJAVA-42793|Objet Fontwork SmartArt perdu lors de la conversion ODS en XLSX|Punaise|
 |CELLSJAVA-43020|Graphique radial déformé après l'appel de Chart.Calcluate()|Punaise|
-|CELLSJAVA-43022|Forme à l'erreur d'image pour les fichiers XLS|Punaise|
+|CELLSJAVA-43022|Erreur de forme à image pour les fichiers XLS|Punaise|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) provoque des résultats indésirables lors de l'appel de getFormula()|Punaise|
 |CELLSJAVA-43052|Problème de validation des valeurs booléennes|Punaise|
-|CELLSJAVA-43054|Problème avec la fusion CSV dans les paramètres portugais|Punaise|
+|CELLSJAVA-43054|Problème avec CSV Fusionner dans les paramètres portugais|Punaise|
 |CELLSJAVA-43056|Cell.setFormula() ne se met pas à jour pour les liens externes|Punaise|
 |CELLSJAVA-42767|Image manquée lors de la conversion d'Excel en PDF|Punaise|
-|CELLSJAVA-42913|Objets Visio incorporés rendus incorrectement au format PDF|Punaise|
+|CELLSJAVA-42913|Objets Visio intégrés rendus incorrectement à PDF|Punaise|
 |CELLSJAVA-42883|Problème d'extraction du texte du graphique à partir du fichier au format Aspose.Cells for Java 95|Punaise|
 |CELLSJAVA-42931|Pièces jointes/Objets non extraits d'Excel95|Punaise|
 |CELLSJAVA-43051|Format d'image non conservé pour l'image|Punaise|
@@ -73,7 +73,7 @@ Obtient et définit le type de texte enveloppé d'ajustement automatique.
 ### **Ajoute la classe EmfRenderSetting**
 Ensembles pour le rendu du métafichier EMF.
 ### **Ajoute la propriété PdfSaveOptions.EmfRenderSetting**
-Définit le rendu du métafichier EMF lors du rendu en fichier PDF.
+Définit le rendu du métafichier EMF lors du rendu dans le fichier PDF.
 ### **Ajoute la méthode ShapeCollection.AddSvg()**
 Ajoute une image svg.
 ### **Ajoute la propriété WorkbookSettings.QuotePrefixToStyle**

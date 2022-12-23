@@ -34,7 +34,7 @@ Vi är glada att kunna meddela Aspose.Cells for Java v7.0.0 för användarna. De
  Förbättringar görs för Shape-to-Image-funktionen
  Förbättringar görs för diagram-till-bild-funktionen
  Förbättringar görs för ark-till-bild-funktionen
- Förbättringar görs för Excel-till-PDF-funktionen
+ Förbättringar görs för Excel-to-PDF-funktionen
  Förbättringar görs för funktionen Autopassa rader/kolumner
 
 Kända problem/begränsningar
@@ -44,9 +44,9 @@ Kända problem/begränsningar
  Det finns ett antal kända begränsningar i den här utgåvan. Det finns några funktioner som kanske inte stöds i v7.0.0 som faktiskt stöddes i de äldre versionerna:
 
 - Använder LightCells API:er
- Läser HTML-filer
+ Läser HTML filer
  Läsa/spara diagram/former för ODS-filer
- Bevara makron när du läser ODS-fil och spara makron tillbaka till ODS-fil
+ Bevara makron när du läser filen ODS och spara makron tillbaka till filen ODS
 
 
 

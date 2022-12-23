@@ -14,7 +14,7 @@ ZIP paketini Aspose.Cells for C++ adresinden de indirebilirsiniz.[indirme sayfas
 ### **Include ve lib Klasörlerini Kullanma**
 1.  İndirin/Yükleyin[son dosyalar](https://downloads.aspose.com/cells/cpp/).
 1. Klasörü üretim ortamına sıkıştırın.
-1. Aspose.Cells for C++'i kullanmak için projenizdeki "Include" ve "lib" dizinine bakın.
+1. Aspose.Cells for C++'i kullanmak için projenizdeki "Include" ve "lib" dizinine başvurun.
 
 ## **Linux'ta Aspose.Cells for C++'i yükleme**
 1.  Aşağıdaki sayfadan Aspose.Cells for C++'i indirin:[İndir Aspose.Cells for C++(Linux)](https://downloads.aspose.com/cells/cpp)

@@ -12,4 +12,4 @@ url: /tr/sharepoint/activation-and-deactivation-after-installation/
 ### **Bir site koleksiyonunda Aspose.Cells for SharePoint etkinleştiriliyor.**
 **Aspose.Cells etkinleştiriliyor** 
 
-![yapılacaklar:resim_alternatif_Metin](activation-and-deactivation-after-installation_1.png)
+![yapılacaklar:resim_alternatif_metin](activation-and-deactivation-after-installation_1.png)

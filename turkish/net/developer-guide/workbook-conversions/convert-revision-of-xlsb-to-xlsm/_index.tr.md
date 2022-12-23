@@ -1,5 +1,5 @@
 ﻿---
-title: XLSB'nin Revizyonunu XLSM'ye Dönüştür
+title: XLSB Revizyonunu XLSM olarak dönüştür
 type: docs
 weight: 290
 url: /tr/net/convert-revision-of-xlsb-to-xlsm/
@@ -8,7 +8,7 @@ url: /tr/net/convert-revision-of-xlsb-to-xlsm/
 
 Aspose.Cells artık XLSB dosyasının revizyonlarını tamamen XLSM dosyasına dönüştürmeyi destekliyor. Düzeltmeler, \xl\revisions yolu içinde bulunur. XLSB dosya uzantınızı ZIP olarak değiştirerek görüntüleyebilirsiniz. \xl\revisions yolu, .bin uzantılı dosyaları içerir.
 
-Aspose.Cells kullanarak XLSB dosyanızı XLSM dosyasına dönüştürdüğünüzde, bu .bin dosyaları, bu iki ekran görüntüsünde gösterildiği gibi başarıyla .xml dosyalarına dönüşür.
+XLSB dosyanızı Aspose.Cells kullanarak XLSM dosyasına dönüştürdüğünüzde, bu .bin dosyaları, bu iki ekran görüntüsünde gösterildiği gibi başarıyla .xml dosyalarına dönüşür.
 
 {{% /alert %}} 
 

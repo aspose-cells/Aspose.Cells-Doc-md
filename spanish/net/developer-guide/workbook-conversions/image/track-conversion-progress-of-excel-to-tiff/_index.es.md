@@ -1,14 +1,14 @@
 ﻿---
-title: Seguimiento del progreso de la conversión de Excel a TIFF
+title: Seguimiento del progreso de conversión de Excel a TIFF
 type: docs
 weight: 190
 url: /es/net/track-conversion-progress-of-excel-to-tiff/
 ---
 ## **Posibles escenarios de uso**
 
- A veces, la conversión de archivos de Excel de gran tamaño puede llevar algún tiempo. Durante este tiempo, es posible que desee mostrar el progreso de la conversión del documento en lugar de solo una pantalla de carga para mejorar la usabilidad de su aplicación. Aspose.Cells admite el proceso de conversión de documentos de seguimiento al proporcionar el**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** interfaz. los**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**interfaz proporciona**[PageStartSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**y**[Guardar fin de página] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**métodos que puede implementar en su clase personalizada. También puede controlar qué páginas se procesan como se muestra en la T*estPageSavingCallback*clase personalizada.
+ A veces, la conversión de archivos de Excel de gran tamaño puede llevar algún tiempo. Durante este tiempo, es posible que desee mostrar el progreso de la conversión del documento en lugar de solo una pantalla de carga para mejorar la usabilidad de su aplicación. Aspose.Cells admite el proceso de conversión de documentos de seguimiento al proporcionar el**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** interfaz. Él**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**interfaz proporciona**[PageStartSaving](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**y**[Guardar fin de página] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**métodos que puede implementar en su clase personalizada. También puede controlar qué páginas se procesan como se muestra en la T*estPageSavingCallback*clase personalizada.
 
-## **Seguimiento del progreso de la conversión de Excel a TIFF**
+## **Seguimiento del progreso de conversión de Excel a TIFF**
 
  El siguiente ejemplo de código carga el[archivo fuente excel](95584311.xlsx) e imprime su progreso de conversión en la consola usando el*TestPageSavingCallback* clase personalizada que implementa el**[IPageSavingCallback](https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**interfaz. El archivo de salida generado se adjunta para su referencia.
 

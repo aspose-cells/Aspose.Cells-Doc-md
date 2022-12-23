@@ -11,7 +11,7 @@ Das gleichzeitige Lesen von Zellenwerten in mehreren Threads ist eine häufige A
 
 {{% /alert %}}
 
- Um Zellenwerte in mehr als einem Thread gleichzeitig zu lesen, set[**Arbeitsblatt.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) zu**Stimmt**. Wenn Sie dies nicht tun, erhalten Sie möglicherweise die falschen Zellenwerte.
+ Um Zellenwerte in mehr als einem Thread gleichzeitig zu lesen, set[**Arbeitsblatt.Cells.MultiThreadReading**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/multithreadreading) zu**wahr**. Wenn Sie dies nicht tun, erhalten Sie möglicherweise die falschen Zellenwerte.
 
 Der folgende Code:
 

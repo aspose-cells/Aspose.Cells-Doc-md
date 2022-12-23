@@ -10,19 +10,19 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Supporto per interrompere l'esecuzione di WorkbookDesigner.process in SmarkMarker|
-|CELLSJAVA-44039|Modifica l'attributo PDF Producer dal PDF generato|
-|CELLSJAVA-43768|Problema di spazio heap Java viene osservato durante la conversione di file XLSX in PDF|
+|CELLSJAVA-44039|Modifica PDF Attributo produttore dal PDF generato|
+|CELLSJAVA-43768|Java Viene osservato un problema di spazio nell'heap durante la conversione del file XLSX in PDF|
 |CELLSJAVA-43875|Eccezione "Invalid FontUnderlineType string val" durante il caricamento del file XLSX|
-|CELLSJAVA-43876|Eccezione "java.lang.ArrayIndexOutOfBoundsException" durante il caricamento di un file XLSX|
-|CELLSJAVA-43844|Un miglioramento necessario per il formato dei numeri contabili|
-|CELLSJAVA-43953|Renderizza testo/parte specifici "Cell" e "Commento" da tradurre in giapponese nella conversione da Excel a PDF|
+|CELLSJAVA-43876|Eccezione "java.lang.ArrayIndexOutOfBoundsException" al caricamento di un file XLSX|
+|CELLSJAVA-43844| Un miglioramento necessario per il formato dei numeri contabili|
+|CELLSJAVA-43953|Renderizza testo/parte specifici "Cell" e "Commento" da tradurre in giapponese in Excel alla conversione PDF|
 |CELLSJAVA-43469|Possibile regressione: riduzione delle prestazioni di FormatConditionCollection.addArea()|
 |CELLSJAVA-43646|L'effetto ombra del testo non è reso correttamente|
 |CELLSJAVA-43760|L'orientamento del triangolo isoscele non è corretto|
-|CELLSJAVA-43786|Quando si converte il file XLS in XLSX, alcune parti relative alle forme non vengono visualizzate correttamente|
+|CELLSJAVA-43786|Durante la conversione del file XLS in XLSX, alcune parti relative alle forme non vengono visualizzate correttamente|
 |CELLSJAVA-43838|Dopo l'esecuzione di XlsToXlsx, la forma si perde|
 |CELLSJAVA-43839|Dopo l'esecuzione di XlsToXlsx, LeftBracket viene perso|
 |CELLSJAVA-43842|Dopo aver eseguito XlsToXlsx, la forma di LeftBracket è diversa dall'originale|
@@ -30,13 +30,13 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43880|Angoli arrotondati errati della casella di testo dopo la conversione da xls a xlsx|
 |CELLSJAVA-43867|L'icona del formato condizionale è diversa quando si esporta in html|
 |CELLSJAVA-43812|excelToHtml: l'offset della posizione della forma non è corretto|
-|CELLSJAVA-43871|Prisma 9 Oggetti OLE non visualizzati nel PDF di output|
+|CELLSJAVA-43871|Prisma 9 Oggetti OLE non visualizzati sull'output PDF|
 |CELLSJAVA-43883|Dimensioni della pagina visualizzate errate|
 |CELLSJAVA-43881|L'unione dei file causa la mancanza dell'impostazione del colore di sfondo dei fogli|
-|CELLSJAVA-43892|Mancano i bordi di Excel convertito in HTML|
-|CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo durante il salvataggio e il caricamento del file XLS|
+|CELLSJAVA-43892|Mancano i bordi di Excel convertiti in HTML|
+|CELLSJAVA-43935|Problema relativo alla dimensione del carattere del testo della forma durante il salvataggio e il caricamento del file XLS|
 |CELLSJAVA-43952|Problema di scadenza della licenza temporanea|
-|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java heap space"|
+|CELLSJAVA-43954|Da XLSX a PDF: l'immagine causa un'eccezione "java.lang.OutOfMemoryError: Java spazio heap"|
 |CELLSJAVA-43902|Alcuni bordi di Excel convertiti in HTML sono ridondanti|
 |CELLSJAVA-43933|Quando si esporta in HTML con un solo dato, il formato condizionale è diverso da Excel|
 |CELLSJAVA-43878| Posizione errata delle etichette dei dati del grafico a barre del cluster di Excel|
@@ -44,27 +44,27 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43934|Le etichette del grafico a torta non corrispondono a Excel dopo aver manipolato o aggiornato il grafico|
 |CELLSJAVA-43519|Le celle unite incluse in righe o colonne nascoste producono una tabella HTML irregolare|
 |CELLSJAVA-43962|L'effetto è incoerente dopo che il formato condizionale in Excel è stato convertito in HTML|
-|CELLSJAVA-43983|Regressione: ciclo infinito durante la conversione di XLSX in PDF|
-|CELLSJAVA-44029|XLSX in PDF: l'immagine non viene convertita|
+|CELLSJAVA-43983|Regressione: ciclo infinito durante la conversione da XLSX a PDF|
+|CELLSJAVA-44029|Da XLSX a PDF: l'immagine non viene convertita|
 |CELLSJAVA-44093| Problema di troncamento del testo con le forme rettangolari durante il rendering dell'immagine nelle versioni Aspose.Cells for Java più recenti|
 |CELLSJAVA-44089|DataLabels.setShadow() non è disponibile e non è uguale al metodo Series.setShadow()|
-|CELLSJAVA-44000|Lo stile Cells non è corretto in HTML quando si utilizzano contemporaneamente set di icone e altra formattazione condizionale|
+|CELLSJAVA-44000|Lo stile Cells non è corretto in HTML quando si utilizza il set di icone e altra formattazione condizionale contemporaneamente|
 |CELLSJAVA-43932|Problema con l'impostazione della posizione delle etichette dei dati per i grafici a ciambella esplosi nell'immagine di output|
 |CELLSJAVA-44094|Titolo del grafico troncato durante l'esportazione in PDF|
-|CELLSJAVA-43533|Problema di creazione da XLSX a Html in Ubuntu|
+|CELLSJAVA-43533|XLSX al problema di creazione di Html in Ubuntu|
 |CELLSJAVA-43987|Il bordo destro delle celle unite viene perso in html|
 |CELLSJAVA-44016|Problema durante la conversione del file Excel contenente l'URL dell'immagine in HTML|
-|CELLSJAVA-43787|Eccezione "IllegalArgumentException: lunghezze trattino tutte zero ..." nel rendering da Excel a HTML|
+|CELLSJAVA-43787|Eccezione "IllegalArgumentException: lunghezza trattino tutto zero ..." in Excel per il rendering HTML|
 |CELLSJAVA-43885|IllegalArgumentException durante la conversione di excel|
 |CELLSJAVA-43874|Workbook.save genera un'eccezione su un file specifico entro Aspose.Cells solo quando viene applicata la licenza Aspose|
 |CELLSJAVA-43969|Un nome con funzione CONTA.SE e riferimento esterno produce un'eccezione NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException: per la stringa di input durante il rendering del file Excel in HTML|
+|CELLSJAVA-43903|java.lang.NumberFormatException: per la stringa di input durante il rendering del file Excel su HTML|
 |CELLSJAVA-44071|com.aspose.cells.CellsException: hai inserito troppi pochi parametri per la funzione IF quando chiami Workbook.calculateFormula()|
 |CELLSJAVA-44104|NullPointerException durante l'importazione di SpreadSheetML|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo di overload Name.GetRefersTo().**
 
@@ -88,7 +88,7 @@ Restituisce un intervallo delimitato da qualsiasi combinazione di righe e colonn
 
 ### **Aggiunge la classe AxisBins.**
 
- Rappresenta i contenitori degli assi per i grafici a istogrammi.
+ Rappresenta i contenitori degli assi per i grafici a istogramma.
 
 ### **Aggiunge il metodo SheetRender.GetPageSizeInch(int pageIndex)**
 
@@ -132,7 +132,7 @@ Abbiamo modificato il modello di area per la convalida e la formattazione condiz
 
 ### **Comportamento modificato per la modifica delle aree di convalida/formattazione condizionale.**
 
-Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design dell'API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
+Per Validation e ConditionalFormatting, nelle vecchie versioni le loro aree possono essere supportate dall'oggetto CellArea ottenuto o impostato su di esse. Quindi, se l'utente modifica il valore del campo dell'oggetto CellArea, anche le aree possono essere modificate e viceversa. In realtà questo è un risultato inaspettato dal punto di vista del design API. Da questa versione, questo effetto collaterale è stato rimosso e l'utente non può più modificare le aree modificando l'oggetto CellArea.
 
 ### **Comportamento modificato per l'aggiunta della condizione di formato in FormatConditionCollection.**
 

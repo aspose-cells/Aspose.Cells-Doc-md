@@ -26,35 +26,35 @@ url: /de/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41376) – Nach dem Speichern der Arbeitsmappe wird eine Fehlermeldung angezeigt
 
- (CELLSJAVA-41412) – ListColumn.getRange gibt null zurück
+(CELLSJAVA-41412) – ListColumn.getRange gibt null zurück
 
  (CELLSJAVA-41407) – VBA-Code in .xlsb geht nach dem Speichern verloren
 
-(CELLSJAVA-41396) – Berechnungsformeln funktionieren nicht, wenn wir mehr als 65536 benannte Zellen haben
+ (CELLSJAVA-41396) – Berechnungsformeln funktionieren nicht, wenn wir mehr als 65536 benannte Zellen haben
 
  (CELLSJAVA-41389) – Durch Aktivieren von ShowTotal für ListObject wird eine leere Zeile über der Summe eingefügt
 
  (CELLSJAVA-41388) – Excel-TREND-Funktion kann nicht mit CalculateFormula berechnen
 
- (CELLSJAVA-41379) – Tab-Farben gingen nach dem erneuten Speichern des XLSB verloren
+ (CELLSJAVA-41379) – Tab-Farben gingen nach dem erneuten Speichern von XLSB verloren
 
  (CELLSJAVA-41370) – Beim Instanziieren einer Arbeitsmappe mit einem beschädigten Excel-Dokument und LoadOptions kommt es zum Aufhängen
 
  (CELLSJAVA-41411) – Seltsame Schriftartersetzung bei Upgrade auf 8.5.0 von 8.4.x
 
- (CELLSJAVA-41410) – Problem mit der Bildfarbe bei der Umwandlung von Excel in PDF
+ (CELLSJAVA-41410) – Problem mit der Bildfarbe in Excel in Umwandlung von PDF
 
- (CELLSJAVA-41406) – TextBox auf dem Diagramm wird verschoben, nachdem die Tabelle in PDF gerendert wurde
+ (CELLSJAVA-41406) – TextBox auf dem Diagramm wird verschoben, nachdem die Tabelle auf PDF gerendert wurde
 
- (CELLSJAVA-41403) – Quelle: Chemikalie wird durch Diagrammrand in PDF überschrieben
+ (CELLSJAVA-41403) – Quelle: Chemikalie wird durch Diagrammgrenze in PDF überschrieben
 
- (CELLSJAVA-41402) – Quelle: Chemikalie wird durch Diagrammrand in PNG überschrieben
+ (CELLSJAVA-41402) – Quelle: Chemikalie wird durch Diagrammgrenze in PNG überschrieben
 
  (CELLSJAVA-41387) – Datenbeschriftungen werden vom Kopfzeilenabschnitt überschrieben
 
- (CELLSJAVA-41380) – Die Konvertierung von Diagramm zu Bild/PDF exportiert das enthaltene Textfeld im Lizenzierungsmodus nicht
+(CELLSJAVA-41380) – Die Konvertierung von Diagramm zu Bild/PDF exportiert das enthaltene Textfeld im Lizenzierungsmodus nicht
 
-(CELLSJAVA-41244) – Markierungen und Pfeile sehen nicht gut aus oder sind entstellt
+ (CELLSJAVA-41244) – Markierungen und Pfeile sehen nicht gut aus oder sind entstellt
 
  (CELLSJAVA-40929) – Wörter in einem Textfeld haben keine Leerzeichen zwischen einander innerhalb der Ausgabe-PDF
 
@@ -70,7 +70,7 @@ url: /de/java/aspose-cells-for-java-8-5-1-release-notes/
 
  (CELLSJAVA-41383) - java.lang.ArrayIndexOutOfBoundsException: 42, bei Workbook.save
 
- (CELLSJAVA-41408) - CellsException: Form-zu-Bild-Fehler! beim Konvertieren von Tabellenkalkulationen in PDF
+ (CELLSJAVA-41408) - CellsException: Form-zu-Bild-Fehler! beim Konvertieren der Tabelle in PDF
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -92,7 +92,7 @@ url: /de/java/aspose-cells-for-java-8-5-1-release-notes/
 
 
 
- Fügt die Methode Cell.GetHeightOfValue() hinzu.
+Fügt die Methode Cell.GetHeightOfValue() hinzu.
 
  Es wird verwendet, um die Höhe des Werts in Pixeleinheiten zu erhalten.
 
@@ -102,4 +102,4 @@ url: /de/java/aspose-cells-for-java-8-5-1-release-notes/
 
  Notiz
 
-Da die Codebasis von Aspose.Cells for Java mit dem Code der relevanten .NET-Version übereinstimmt, sind die meisten Änderungen, Erweiterungen und Korrekturen, die in Aspose.Cells for .NET v8.5.1 enthalten sind, auch in dieser Aspose.Cells for Java v8.5.1 enthalten.
+ Da die Codebasis von Aspose.Cells for Java mit dem Code der relevanten .NET-Version übereinstimmt, sind die meisten Änderungen, Erweiterungen und Korrekturen, die in Aspose.Cells for .NET v8.5.1 enthalten sind, auch in dieser Aspose.Cells for Java v8.5.1 enthalten.

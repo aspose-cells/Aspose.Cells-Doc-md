@@ -25,7 +25,7 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 ## **将工作表添加到新的 Excel 文件**
 
-要以编程方式创建新的 Excel 文件，开发人员需要创建一个对象[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)表示 Excel 文件的类。然后开发者可以调用[**添加**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() 的方法[**工作表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection).当我们打电话[**添加**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add())方法，会自动在Excel文件中添加一个空工作表，可以通过将新添加的工作表的工作表索引传递给[**工作表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection).获得工作表引用后，开发人员可以根据自己的需求对工作表进行处理。在工作表上完成工作后，开发人员可以通过调用[**节省**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) 的方法[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)班级。
+要以编程方式创建新的 Excel 文件，开发人员需要创建一个对象[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)表示 Excel 文件的类。然后开发者可以调用[**添加**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add() 的方法[**工作表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection).当我们打电话[**添加**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#add())方法，会自动在Excel文件中添加一个空工作表，可以通过将新添加的工作表的工作表索引传递给[**工作表集合**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection).获得工作表引用后，开发人员可以根据自己的需求对工作表进行处理。在工作表上完成工作后，开发人员可以通过调用[**救球**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) 的方法[**工作簿**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)班级。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-AddingWorksheetstoNewExcelFile-AddingWorksheetstoNewExcelFile.java" >}}
 
@@ -69,5 +69,5 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 - [页面设置功能](/cells/zh/java/page-setup-features/)
 - [更新其他工作表中的引用，同时删除工作表中的空白列和行](/cells/zh/java/update-references-in-other-worksheets-while-deleting-blank-columns-and-rows-in-a-worksheet/)
 - [使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性](/cells/zh/java/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
-- [在 ODS 文件中使用背景](/cells/zh/java/working-with-background-in-ods-files/)
+- [使用 ODS 文件中的背景](/cells/zh/java/working-with-background-in-ods-files/)
 - [工作表视图](/cells/zh/java/worksheet-views/)

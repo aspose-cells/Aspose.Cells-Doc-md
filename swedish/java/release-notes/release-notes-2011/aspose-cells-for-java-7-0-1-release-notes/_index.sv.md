@@ -16,7 +16,7 @@ url: /sv/java/aspose-cells-for-java-7-0-1-release-notes/
 
  30556 Förbättra kalkylblad-till-bild-funktionen
 
- 30557 Förbättra Excel-till-PDF-konvertering
+ 30557 Förbättra konvertering från Excel till PDF
 
 30458 Lägg till nya API:er: Worksheet.calculateFormula(), Row.getFirstCell(), Row.getLastCell()
 
@@ -38,16 +38,16 @@ url: /sv/java/aspose-cells-for-java-7-0-1-release-notes/
 
  29285 Få ett undantag när du sparar PDF med fransk språk
 
- 30459 Få ett undantag när du läser XLS-fil med standardlokalen som inte har någon landskod
+ 30459 Få ett undantag när du läser filen XLS med standardlokalen som inte har någon landskod
 
  30489 Worksheet.autoFitColumn() och Chart.toImage() kan orsaka "java.awt.HeadlessException"
 
- 30587 Få ett undantag när du läser XLS-mallfil
+ 30587 Få ett undantag när du läser XLS mallfil
 
  Buggar
 
- 30103 Diagramteckensnitt har ändrats efter att XLSX-filen har sparats på nytt
+30103 Diagramteckensnitt har ändrats efter att ha sparat XLSX-filen på nytt
 
-28858 Sortering av namn gör att kontrollens länkade cell ändras
+ 28858 Sortering av namn gör att kontrollens länkade cell ändras
 
- 30486 Vertikal justering ändras i den återsparade XLSX-filen
+ 30486 Vertikal justering har ändrats i den återsparade XLSX-filen

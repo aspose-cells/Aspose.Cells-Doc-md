@@ -17,7 +17,7 @@ Bu belge, sisteminizde bileşenin hangi sürümünün kurulu olduğunu kontrol e
 ### **1) Manuel Yol**
 Java sürümüne/düzeltmesine (Aspose.Cells for Java) sahipseniz, Aspose.Cells kitaplık jar dosyasını açıp MANIFEST dosyasını not defteri ile açabilir ve değerini kontrol etmek için "Specification-Version:" dizisini aratabilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](check-version-number-of-the-component_1.png)
+![yapılacaklar:resim_alternatif_metin](check-version-number-of-the-component_1.png)
 
 
 **Figür:** Java düzeltmesinin sürüm numarası kontrol ediliyor

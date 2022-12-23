@@ -19,15 +19,15 @@ url: /zh/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47749|在 Workbook.RemoveMacro 中删除 ods 宏|强化|
 |CELLSNET-47759|设置Cell.HtmlString时支持h1标签|强化|
 |CELLSNET-47771|缺少新工作表 mc:Ignorable="x14ac xr xr2 xr3"|强化|
-|CELLSNET-47758|将复杂的 XLSM 转换为 HTML 需要花费大量时间|表现|
+|CELLSNET-47758|转换复杂的 XLSM 到 HTML 需要很多时间|表现|
 |CELLSNET-47578|将 Cells 文档转换为 HTML 时生成带有未打开的结束 SPAN 标记的无效标记|漏洞|
 |CELLSNET-47776|尝试打开 HTML 时出现 DirectoryNotFoundException|漏洞|
-|CELLSNET-47643|Excel 到 HTML 渲染中的新输出中的一些额外列|漏洞|
-|CELLSNET-47688|部分TD会导致Wingdings字体在HTML转PDF渲染时出现字体错误|漏洞|
+|CELLSNET-47643|Excel 中新输出中的一些额外列以 HTML 呈现|漏洞|
+|CELLSNET-47688|某些TD会导致Wingdings字体在HTML到PDF渲染时出现字体错误|漏洞|
 |CELLSNET-47690|将 Html 转换为 Xlsx 不考虑 html 表的样式|漏洞|
 |CELLSNET-47718|将文件导入 html 时图像对齐不正确|漏洞|
 |CELLSNET-47729|将 html 导入 excel 时图像覆盖文本|漏洞|
-|CELLSNET-47746|HTML 属性值中未编码的引号|漏洞|
+|CELLSNET-47746|HTML 属性值中的未编码引号|漏洞|
 |CELLSNET-47747|将 Excel 转换为 HTML 时的差异|漏洞|
 |CELLSNET-47763|刷新数据透视表后系列的值不正确。|漏洞|
 |CELLSNET-47731|不正确的 PPMT 公式执行结果|漏洞|
@@ -45,7 +45,7 @@ url: /zh/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNETCORE-89|删除空列会删除删除列之后的列中的注释|漏洞|
 |CELLSNET-47732|RefreshPivotData 抛出异常|例外|
 |CELLSNET-47745|导入示例文件时出现异常|例外|
-|CELLSNET-47711|打开 ODS 文件时出现异常|例外|
+|CELLSNET-47711|打开ODS文件时出现异常|例外|
 |CELLSNET-47712|尝试加载附加文档时抛出异常|例外|
 |CELLSNET-47715|无法加载 Xltx 文件|例外|
 |CELLSNET-47735|打开 XLSB 时出现异常|例外|

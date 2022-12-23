@@ -27,7 +27,7 @@ Pour configurer les attributs d'un rapport tabulaire :
 
 
 
-1.  Cliquez sur**Prochain**.
+1.  Cliquez sur**Suivant**.
 1. Sélectionnez une plage pour le rapport.
  La plage commence par la première cellule de la ligne de données du tableau et se termine à la dernière cellule de la ligne de pied de page ou, s'il n'y a pas de pied de page, à la dernière cellule des données de groupe.
  L'index des cellules de début et de fin apparaît dans le**Intervalle** champ automatiquement. Ici, la gamme comprend des cellules de D4 à H8.
@@ -39,7 +39,7 @@ Pour configurer les attributs d'un rapport tabulaire :
 
 
 
-1.  Cliquez sur**Prochain** continuer.
+1.  Cliquez sur**Suivant** continuer.
 Tous les champs du jeu de données sont répertoriés dans le panneau de gauche de la boîte de dialogue.
 1.  Sélectionnez les champs pour regrouper les données.
 
@@ -50,7 +50,7 @@ Tous les champs du jeu de données sont répertoriés dans le panneau de gauche 
 
 
 
-1.  Cliquez sur**Prochain** continuer.
+1.  Cliquez sur**Suivant** continuer.
 1.  Sélectionnez les champs pour trier les données.
 
    **Sélection des champs pour classer les données par** 
@@ -60,7 +60,7 @@ Tous les champs du jeu de données sont répertoriés dans le panneau de gauche 
 
 
 
-1.  Cliquez sur**Prochain**.
+1.  Cliquez sur**Suivant**.
 
  Un résumé du rapport s'affiche.
    **Résumé du rapport** 

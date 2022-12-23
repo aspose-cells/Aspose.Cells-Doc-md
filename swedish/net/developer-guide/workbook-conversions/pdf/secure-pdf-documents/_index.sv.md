@@ -1,14 +1,14 @@
 ﻿---
-title: Säkra PDF-dokument
+title: Säkra PDF Dokument
 type: docs
 weight: 120
 url: /sv/net/secure-pdf-documents/
 ---
 {{% alert color="primary" %}}
 
-Ibland behöver utvecklare arbeta med krypterade PDF-filer. De behöver till exempel säkra dokument med användar- och ägarlösenord så att inte vem som helst kan öppna dem, eller vill begränsa om dokumentinnehållet kan skrivas ut eller extraheras.
+Ibland måste utvecklare arbeta med krypterade PDF-filer. De behöver till exempel säkra dokument med användar- och ägarlösenord så att inte vem som helst kan öppna dem, eller vill begränsa om dokumentinnehållet kan skrivas ut eller extraheras.
 
-Den här artikeln förklarar hur du skickar in PDF-säkerhetsalternativ när du sparar kalkylblad till PDF.
+Den här artikeln förklarar hur du skickar in PDF säkerhetsalternativ när du sparar kalkylark till PDF.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ Den här artikeln förklarar hur du skickar in PDF-säkerhetsalternativ när du 
 
 {{% alert color="primary" %}}
 
- Om kalkylbladet innehåller formler är det bäst att ringa[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)precis innan du renderar den till PDF. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+ Om kalkylbladet innehåller formler är det bäst att ringa[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)precis innan den renderas till PDF. Detta säkerställer att formelberoende värden beräknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

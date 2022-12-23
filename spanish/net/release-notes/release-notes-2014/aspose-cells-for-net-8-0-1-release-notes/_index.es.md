@@ -11,7 +11,7 @@ url: /es/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET se actualizó a la versión 8.0.1 y nos complace anunciar que esta versión trae la adición de más de 30 nuevas mejoras útiles.
-Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
+Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
 La siguiente es una lista de cambios en esta versión de Aspose.Cells.
@@ -33,7 +33,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
  (CELLSNET-42525) - El rango con nombre no crece horizontalmente con marcadores inteligentes cuando se refiere a una sola celda
 
 
-## **Actuación**
+## **Rendimiento**
 
 
  (CELLSNET-42505) - CalculateFormula tarda más de 9 segundos en procesar las fórmulas
@@ -50,9 +50,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42468) - Excel encontró contenido ilegible en la hoja de cálculo después de agregar la tabla dinámica
 
- (CELLSNET-42314): muchos elementos VML (controles) no se procesan correctamente (conversión de Excel a HTML)
+ (CELLSNET-42314): muchos elementos VML (controles) no se representan correctamente (conversión de Excel a HTML)
 
-(CELLSNET-42259): los elementos de formulario VML en la conversión HTML no se procesan
+(CELLSNET-42259): los elementos del formulario VML en la conversión HTML no se procesan
 
  (CELLSNET-42180): no se mantiene el formato de texto enriquecido.
 
@@ -62,9 +62,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42543) - La imagen se vuelve borrosa al guardar en PDF
 
- (CELLSNET-42502): problema de alineación de texto en líneas de ajuste cuando XLSX se convierte a PDF
+ (CELLSNET-42502): problema de alineación de texto en las líneas de ajuste cuando XLSX se convierte en PDF
 
- (CELLSNET-42501) - El contenido no mantiene su posición cuando XLSX se convierte a PDF
+ (CELLSNET-42501) - El contenido no mantiene su posición cuando XLSX se convierte en PDF
 
  (CELLSNET-42483) - Problema de visualización y alineación horizontal
 
@@ -114,7 +114,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -122,9 +122,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 ## **Insectos**
 
 
- (CELLSNET-42522) - Problema de GridWeb: ajustar el ancho de columna no funciona en Chrome
+(CELLSNET-42522) - Problema de GridWeb: ajustar el ancho de columna no funciona en Chrome
 
-(CELLSNET-42509): las formas no se representan correctamente en gridweb
+ (CELLSNET-42509): las formas no se representan correctamente en gridweb
 
  (CELLSNET-42503): el rango es ambiguo en el espacio de nombres Aspose.cells
 

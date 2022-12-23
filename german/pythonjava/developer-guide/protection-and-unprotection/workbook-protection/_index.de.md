@@ -17,7 +17,7 @@ Aspose.Cells for Python unterstützt das Schützen und Aufheben des Schutzes der
 
 1.  Klicken**Überprüfen > Arbeitsmappe schützen**.
 1.  Geben Sie ein Passwort ein**das Feld Passwort**.
-1.  Auswählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** wieder.
+1.  Wählen**OK** , geben Sie das Passwort erneut ein, um es zu bestätigen, und wählen Sie dann aus**OK** aufs Neue.
 
 
 ## **Arbeitsmappenstruktur mit Aspose.Cell for Python schützen**

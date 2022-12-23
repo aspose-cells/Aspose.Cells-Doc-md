@@ -18,7 +18,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.9.
 |CELLSJAVA-44733|Undersök regler för ms excel för att visa cellens ram när intilliggande kolumn är dold: cellens ram har inte synkroniserats|
 |CELLSJAVA-44777|Exportera formler endast till html beroende på alternativet HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|Förbättra analys av HTML-sträng till cell|
-|CELLSJAVA-44695| Dålig konvertering till PDF från XLS med Line Callout till vänster på arket|
+|CELLSJAVA-44695| Dålig konvertering till PDF från XLS med linjetext till vänster på arket|
 |CELLSJAVA-44700|Pivottabellberäknade fält uppdateras inte vid uppdatering av datakälla|
 |CELLSJAVA-44705|Cell.getDependents() kastar undantag eller kan inte tillhandahålla alla anhöriga|
 |CELLSJAVA-44717|Problem med kantstil (linje).|
@@ -39,7 +39,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.9.
 |CELLSJAVA-44781|undersök problemet med radändring av storlek när du ändrar storlek till mycket liten höjd|
 |CELLSJAVA-44787|Nedre kant som tappades vid sista raden i arbetsboken|
 |CELLSJAVA-44761|Överdriven minnesanvändning vid konvertering av Excel-fil till HTML|
-|CELLSJAVA-44801|Excel till PDF-konvertering med Aspose.Cells for Java v22.7 orsakar förvrängda tecken|
+|CELLSJAVA-44801|Excel till PDF konvertering med Aspose.Cells for Java v22.7 orsakar förvrängda tecken|
 |CELLSJAVA-44741|Radbrytningen är inte rätt i utgången xlsx efter att ha satt html-strängen i cellen|
 |CELLSJAVA-44776|Utformning av tabellrubrikrad förlorade vid kopiering av ark|
 |CELLSJAVA-44789|Problem med teckensträngsersättning av textruta placerad i Excel-kalkylblad|
@@ -54,11 +54,11 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.9.
 |CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX från XLSX-filen öppnas med Aspose.Cells for Java|
 |CELLSJAVA-44833|Textfärg tillämpas inte på olika ord eller delar av innehållet i den utgående Excel-filen när du använder metoden Cell.setHtmlString()|
 |CELLSJAVA-44852| Ramen är felaktig när den statiska Excel-filen konverteras till HTML|
-|CELLSJAVA-44856| Excel till HTML-konvertering - Sparkline (minidiagram) visas/renderas inte|
+|CELLSJAVA-44856| Excel till HTML konvertering - Sparkline (minidiagram) visas/renderas inte|
 |CELLSJAVA-44859|Vissa HTML-formateringar fungerar inte för kalkylbladsceller i en befintlig Excel-fil|
 |CELLSJAVA-44725| Undantag "java.util.zip.ZipException: ogiltig poststorlek (förväntade 0 men fick 1053 byte)" vid konvertering av XLSX till PDF|
 |CELLSJAVA-44763|Undantag "java.lang.IllegalArgumentException: kan inte analysera argumentnummer: 1:X8" när Excel-filen laddas med "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Fel vid lagring som PDF - Undersökning krävs|
+|CELLSJAVA-44774|Fel vid lagring som PDF - Utredning krävs|
 |CELLSJAVA-44842|Undantag "java.lang.OutOfMemoryError: Java heap space" vid konvertering av en XLSX-fil till PDF|
 
 

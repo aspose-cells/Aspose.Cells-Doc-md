@@ -10,7 +10,7 @@ I Hur man skapar ett diagram gav vi en kort introduktion till de typer av diagra
 
 - Ställa in sjökortsområdet.
 - Ställa in diagramlinjer.
-- Tillämpa teman.
+- Använda teman.
 - Ställa in titlar till diagram och axlar.
 - Arbeta med rutnät.
 ### **Inställning av sjökortsområde**
@@ -51,7 +51,7 @@ Följande kodavsnitt visar hur du ställer in titlar till diagram och axlar.
 ### **Arbeta med Major Gridlines**
 Det är möjligt att anpassa utseendet på större rutnät. Dölj eller visa rutnät, eller definiera deras färg och andra inställningar. Nedan visar vi hur man döljer rutnät och hur man ändrar deras färg.
 #### **Döljer stora rutnät**
-Utvecklare kan kontrollera synligheten för större rutnät genom att ställa in[Är synlig](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) egendom av[Linje](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) invända mot**Sann** eller**falsk**.
+Utvecklare kan kontrollera synligheten för större rutnät genom att ställa in[Är synlig](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) egendom av[Linje](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) protestera mot**Sann** eller**falsk**.
 
 Följande kodavsnitt visar hur man döljer stora rutnät. Efter att ha gömt de stora rutnätslinjerna kommer ett kolumndiagram att läggas till i kalkylbladet som inte har rutnätslinjer.
 

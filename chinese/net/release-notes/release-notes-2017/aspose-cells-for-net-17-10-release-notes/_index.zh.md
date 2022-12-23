@@ -14,23 +14,23 @@ url: /zh/net/aspose-cells-for-net-17-10-release-notes/
 |:- |:- |:- |
 |CELLSNET-45695|设置图表数据表中单元格的数字格式|新功能|
 |CELLSNET-45666|获取Excel工作表的SheetId字段|新功能|
-|CELLSNET-45664|XLSB文件的读写外部连接|新功能|
+|CELLSNET-45664|读写XLSB文件的外部连接|新功能|
 |CELLSNET-45660|图纸到图像渲染 - 亚洲字体的对齐问题|强化|
 |CELLSNET-45408|转换为 PDF 时值消失或改变颜色|漏洞|
 |CELLSNET-45696|插入行时，切片器不会在工作表中向下移动|漏洞|
 |CELLSNET-45675|计算公式出错（涉及“SUMPRODUCT”和“TRANSPOSE”）|漏洞|
-|CELLSNET-45651|在呈现为 PDF 时在工作簿中使用中文字体时文本框大小发生变化|漏洞|
+|CELLSNET-45651|在渲染到 PDF 的工作簿中使用中文字体时，文本框大小发生变化|漏洞|
 |CELLSNET-45678|转换为图像时部分缺少字符|漏洞|
 |CELLSNET-45667|当我们手动更改单元格中的源值时，趋势线标签不会在 MS Excel 中更新|漏洞|
 |CELLSNET-45620|3D 图表的颜色和刻度间隔不同|漏洞|
 |CELLSNET-45397|Aspose.Cells 错误识别图表中的字体|漏洞|
 |CELLSNET-45700|Aspose.Cells 打开/保存后从文件中删除了 MS Excel 2016 加载项窗格|漏洞|
-|CELLSNET-45693|在 SpreadsheetML 到 XLSX 的转换中，工作表在输出文件中不再受到保护|漏洞|
+|CELLSNET-45693|工作表在 SpreadsheetML 到 XLSX 转换的输出文件中不再受到保护|漏洞|
 |CELLSNET-45691|重新保存时文档已损坏|漏洞|
-|CELLSNET-45690|某些单元格的样式似乎被错误地继承 - SpreadsheetML 到 XLSX 的转换|漏洞|
+|CELLSNET-45690|某些单元格的样式似乎被错误地继承 - SpreadsheetML 到 XLSX 转换|漏洞|
 |CELLSNET-45688|日期列未正确排序|漏洞|
-|CELLSNET-45687|SpreadsheetML 不携带工作表保护属性|漏洞|
-|CELLSNET-45683|SpreadsheetML AllowSort 元素在输出 XLSX 中不起作用|漏洞|
+|CELLSNET-45687|SpreadsheetML不带工作表保护属性|漏洞|
+|CELLSNET-45683|SpreadsheetML AllowSort 元素在输出中不起作用 XLSX|漏洞|
 |CELLSNET-45682|MS Excel 提示错误信息“Excel 发现不可读的内容...”|漏洞|
 |CELLSNET-45676|由于工作表名称中的不间断空格，重新保存时文档已损坏|漏洞|
 |CELLSNET-45673|适用于 SpredsheetML 的对齐样式|漏洞|

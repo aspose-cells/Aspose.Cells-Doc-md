@@ -26,7 +26,7 @@ L'immagine seguente confronta i file di origine e di output
 
  Il seguente frammento di codice modifica la direzione dell'etichetta del segno di spunta da[**RUOTA_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) a[**ORIZZONTALE**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Charts-ChangeTickLabelDirection-1.java" >}}
 

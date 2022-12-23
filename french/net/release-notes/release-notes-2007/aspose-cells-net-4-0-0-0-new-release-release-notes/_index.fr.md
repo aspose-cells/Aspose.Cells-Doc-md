@@ -19,4 +19,4 @@ url: /fr/net/aspose-cells-net-4-0-0-0-new-release-release-notes/
 - Ajout de la méthode Worksheets.SortNames pour résoudre un problème lors de l'ajout d'un grand nombre de plages nommées.
 - Ajout de nouvelles démos de graphiques
 - Correction d'un bug dans le réglage de la formule
-- Correction d'un bogue lors de l'enregistrement du fichier à diffuser au format CSV
+- Correction d'un bug lors de l'enregistrement du fichier en streaming au format CSV

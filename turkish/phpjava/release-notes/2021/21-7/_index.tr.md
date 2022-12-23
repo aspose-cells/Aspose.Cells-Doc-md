@@ -16,7 +16,7 @@ url: /tr/php-java/aspose-cells-for-php-via-java-21-7-release-notes/
 |CELLSJAVA-40452|Harici veri aralıklarını ve ayrıntılarını alın|
 |CELLSJAVA-42494|CSS bölümünde büyük miktarda kullanılmayan stil oluşturuluyor|
 |CELLSJAVA-41121|SheetRender, akış şemasını doğru şekilde oluşturmuyor|
-|CELLSJAVA-43331|XLS'den HTML'ye dönüştürme sırasında daire içinde eksik metin|
+|CELLSJAVA-43331|XLS'den HTML'e dönüştürme sırasında daire içinde eksik metin|
 |CELLSJAVA-43507|Java altında excel eklemek için svg yürütülürken, anormal şekilde çıkıyor.|
 |CELLSJAVA-41887|Pivot Tablodaki yüzde verileri HTML'de düzgün gösterilmiyor|
 |CELLSJAVA-43482|Bir HTML belgesini Çalışma Kitabına dönüştürürken üst simgeler ve alt simgeler doğru biçimlendirilmemiş|
@@ -25,10 +25,10 @@ url: /tr/php-java/aspose-cells-for-php-via-java-21-7-release-notes/
 |CELLSJAVA-43528|Oluşturma tarihi ve saati ile güncelleme tarihi çıkarılamaz|
 |CELLSJAVA-43529|BuiltInDocumentProperties çıkarılamıyor|
 |CELLSJAVA-43530|Tarih ve saat özellik sonuçları farklı|
-|CELLSJAVA-41693|Metin Kutusundaki denklem PDF'ye dönüştürülmez|
-|CELLSJAVA-43487|Excel'den PDF'e dönüştürmede çıktı PDF'sinde metin ortalanmamış|
-|CELLSJAVA-42867|Şekiller, ODS dosya biçiminde alınmaz|
-|CELLSJAVA-42895|MS Excel grafiğinin PNG çıktısında tutarsızlıklar var|
+|CELLSJAVA-41693|Metin Kutusundaki denklem PDF'e işlenmez|
+|CELLSJAVA-43487|Excel'de PDF çıktısında metin ortalanmamış, PDF'e dönüştürme|
+|CELLSJAVA-42867|Şekiller ODS dosya biçiminde alınmıyor|
+|CELLSJAVA-42895|PNG MS Excel grafiğinin çıktısında tutarsızlıklar var|
 |CELLSJAVA-43015|setPrintArea() yöntemi kullanılırken SheetRender.toImage() ile ilgili sorun|
 |CELLSJAVA-43258|Çalışma kitabı kopyalandıktan sonra grafik noktaları yazı tipi kalınlığı değişiklikleri|
 |CELLSJAVA-43436|Aspose Cells diyagramda ters y eksenini yok sayar|
@@ -49,11 +49,11 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **PivotFormatCondition.AddColumnAreaCondition(PivotField columnField) yöntemini ekler.**
 
-Sütun alanlarına PivotTable koşullu biçim sınırı ekler.
+ Sütun alanlarına PivotTable koşullu biçim sınırı ekler.
 
 ### **PivotFormatCondition.AddColumnAreaCondition(String fieldName) yöntemini ekler.**
 
-Sütun alanlarına PivotTable koşullu biçim sınırı ekler.
+ Sütun alanlarına PivotTable koşullu biçim sınırı ekler.
 
 ### **PivotFormatCondition.AddRowAreaCondition(PivotField rowField) yöntemini ekler.**
 

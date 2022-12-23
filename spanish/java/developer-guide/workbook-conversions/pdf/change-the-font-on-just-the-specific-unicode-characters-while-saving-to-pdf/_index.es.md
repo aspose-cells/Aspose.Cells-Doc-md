@@ -12,7 +12,7 @@ Cuando un carácter de este tipo aparece dentro de una palabra u oración que es
 
 Sin embargo, este es un comportamiento indeseable para algunos usuarios y solo quieren que se cambie la fuente del carácter específico en lugar de cambiar la fuente de la palabra u oración completa.
 
- Para hacer frente a este problema, Aspose.Cells proporciona[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) propiedad que se debe establecer**verdadero**de modo que solo se cambie la fuente del carácter específico que no se puede mostrar y la fuente para el resto de la palabra u oración permanezca igual.
+ Para hacer frente a este problema, Aspose.Cells proporciona[**PdfSaveOptions.setFontSubstitutionCharGranularity()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) propiedad que se debe establecer**verdadero** de modo que solo se cambie la fuente del carácter específico que no se puede mostrar y la fuente para el resto de la palabra u oración permanezca igual.
 
 {{% /alert %}}
 

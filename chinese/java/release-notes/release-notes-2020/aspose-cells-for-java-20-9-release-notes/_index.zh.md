@@ -12,26 +12,26 @@ url: /zh/java/aspose-cells-for-java-20-9-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-40792|不为 ODS 文件创建数据透视表|新功能|
+|CELLSJAVA-40792|没有为 ODS 文件创建数据透视表|新功能|
 |CELLSJAVA-43263|设置单元格填充颜色和条件格式时的 SmartMarker 问题|漏洞|
 |CELLSJAVA-43269|无法从数据透视表中获取价值|漏洞|
 |CELLSJAVA-43272|设置宽度可缩放后图像缩小|漏洞|
 |CELLSJAVA-43280|数据透视表刷新后的过滤问题|漏洞|
 |CELLSJAVA-43281|刷新数据透视表问题|漏洞|
 |CELLSJAVA-43285|刷新数据透视表后静态过滤器丢失|漏洞|
-|CELLSJAVA-43288|将文件保存到 XLSB 时，结果 XLSB 文件已损坏|漏洞|
+|CELLSJAVA-43288|将文件保存到 XLSB 时结果 XLSB 文件已损坏|漏洞|
 |CELLSJAVA-43289|刷新数据透视表后的过滤问题|漏洞|
 |CELLSJAVA-43293|PivotTable.refreshData() 之后的过滤器选项问题|漏洞|
 |CELLSJAVA-43279|使用 getStringValue() 未正确获取值|漏洞|
 |CELLSJAVA-43291|网格内容不可见|漏洞|
-|CELLSJAVA-43037|PDF转换的字体问题|漏洞|
-|CELLSJAVA-43249|使用物理打印机、XPS 和 PDF 打印机时出现打印问题|漏洞|
+|CELLSJAVA-43037|PDF 转换时的字体问题|漏洞|
+|CELLSJAVA-43249|使用物理打印机 XPS 和 PDF 打印机时出现打印问题|漏洞|
 |CELLSJAVA-43254|将电子表格转换为图像时的字体差异|漏洞|
 |CELLSJAVA-43266|Java版本默认不支持从当前用户字体文件夹加载字体|漏洞|
-|CELLSJAVA-43268|Excel 到 TIFF 渲染 - 一些值被替换为“#”字符|漏洞|
+|CELLSJAVA-43268|Excel 到 TIFF 呈现 - 一些值被替换为“#”字符|漏洞|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException：ZipFile 错误|漏洞|
 |CELLSJAVA-43277|高宽比问题|漏洞|
-|CELLSJAVA-43245|将 Excel 文件转换为 PDF 后，组合图表无法正确显示|漏洞|
+|CELLSJAVA-43245|将 Excel 文件转换为 PDF 后组合图无法正确显示|漏洞|
 |CELLSJAVA-43276|将 XLSX 转换为 PDF 时出现换行问题|漏洞|
 |CELLSJAVA-43261|SmartMarker: group:merge with Number Format Percentage 时，展开结果错误|漏洞|
 |CELLSJAVA-43265|无法加载 XLSX 文件|漏洞|
@@ -147,4 +147,4 @@ url: /zh/java/aspose-cells-for-java-20-9-release-notes/
 
 ### **添加 XlsbSaveOptions.ExportAllColumnIndexes 属性。**
 
-指示在保存 XLSB 文件时是否为所有单元格导出列索引。
+表示保存XLSB文件时是否导出所有单元格的列索引。

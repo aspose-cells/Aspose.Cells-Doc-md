@@ -9,7 +9,7 @@ url: /ru/net/what-s-new-in-aspose-cells-for-net/
 
 ## Aspose.Cells for .NET 22.12
 
-* Поддержка экспорта Excel в JSON с многоуровневой иерархической структурой.
+* Поддержка экспорта Excel в JSON с многоуровневой иерархической структурой
 
 ## Aspose.Cells for .NET 22.11
 

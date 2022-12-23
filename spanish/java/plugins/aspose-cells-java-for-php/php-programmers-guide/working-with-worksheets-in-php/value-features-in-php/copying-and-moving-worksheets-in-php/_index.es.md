@@ -6,7 +6,7 @@ url: /es/java/copying-and-moving-worksheets-in-php/
 ---
 ## **Aspose.Cells - Copiar y mover hojas de trabajo**
 ### **Copiar hojas de trabajo dentro de un libro de trabajo**
- Para copiar la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamar**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+ Para copiar la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamada**copiar_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
 
 **Código PHP**
 
@@ -27,7 +27,7 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 {{< /highlight >}}
 ### **Mover hojas de trabajo dentro de un libro de trabajo**
- Para mover la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamar**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
+ Para mover la hoja de trabajo usando**Aspose.Cells for Java en PHP** , llamada**mover_hoja de trabajo** método de**hojas de trabajo** módulo. A continuación puede ver un ejemplo de código.
 
 **Código PHP**
 

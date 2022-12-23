@@ -17,7 +17,7 @@ Dieser Artikel zeigt, wie Sie eine Konsolenanwendung in Visual Studio.Net erstel
 ### **Erstellen einer Vorlagenarbeitsmappe**
 
 1. Erstellt eine Arbeitsmappe in Microsoft Excel.
-1. Fügen Sie ein Microsoft Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte auf dem ersten Arbeitsblatt hinzu.
+1. Fügen Sie ein Microsoft-Word-Dokument, eine Excel-Arbeitsmappe und ein PDF-Dokument als OLE-Objekte auf dem ersten Arbeitsblatt hinzu.
 
 |**Vorlagendokument mit OLE-Objekten (OleFile.xls)**|
 |:- |
@@ -34,7 +34,7 @@ Alle Aspose-Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodu
 
 ### **Erstellen Sie ein Projekt**
 
-Anfang**Visual Studio.Net** und erstellen Sie eine neue Konsolenanwendung. Dieses Beispiel zeigt eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden.
+Start**Visual Studio.Net** und erstellen Sie eine neue Konsolenanwendung. Dieses Beispiel zeigt eine C#-Konsolenanwendung, aber Sie können auch VB.NET verwenden.
 
 1. Referenzen hinzufügen
  1. Fügen Sie Ihrem Projekt einen Verweis auf die Komponente Aspose.Cells hinzu, z. B. einen Verweis auf ...\Programme\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll

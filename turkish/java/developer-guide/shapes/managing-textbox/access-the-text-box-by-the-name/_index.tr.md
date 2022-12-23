@@ -6,7 +6,7 @@ url: /tr/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-Daha önce, metin kutularına dizinden erişilirdi.[Workheet.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) koleksiyonu, ancak artık bu koleksiyondan metin kutusuna ada göre de erişebilirsiniz. Bu, adını zaten biliyorsanız, metin kutunuza erişmenin kolay ve hızlı bir yoludur.
+ Daha önce, metin kutularına dizinden erişilirdi.[Workheet.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) koleksiyonu, ancak artık bu koleksiyondan metin kutusuna ada göre de erişebilirsiniz. Bu, adını zaten biliyorsanız, metin kutunuza erişmenin kolay ve hızlı bir yoludur.
 
 {{% /alert %}} 
 ## **Metin Kutusuna Ada Göre Erişin**

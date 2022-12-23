@@ -22,7 +22,7 @@ url: /ja/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
 ## **Aspose.Cells グリッド コントロール**
 Aspose.Cells グリッド コントロールは、トータル グリッド ソリューションです。 Aspose.Cells グリッド コントロールには、2 つの異なる GUI .NET コンポーネント (Aspose.Cells.GridDesktop および Aspose.Cells.GridWeb) がパッケージされています。1 つはデスクトップ アプリケーションをサポートし、もう 1 つは Web アプリケーションをサポートします。どちらのプラットフォームでも簡単に実装できるように、両方のバージョンが等しく一致しています。 Aspose.Cells.GridWeb は、Excel スプレッドシートからインポートおよびエクスポートする機能を提供します。そのため、Excel に精通している人なら誰でも (エンド ユーザーであっても)、グリッドのルック アンド フィールをデザインできます。 Aspose.Cells.GridWeb は、使いやすく機能豊富な API も提供します。これにより、開発者はグリッドのルック、フィール、および動作を完全に制御できます。製品、その機能、およびプログラマー ガイドの詳細については、機能リストの概要、Aspose.Cells.GridWeb ドキュメント、およびオンラインの機能を確認してください。[デモ](https://aspose.github.io/)
 ## **Aspose.Cells**
-**Aspose.Cells**Microsoft Excel をクライアント側またはサーバー側にインストールすることなく、Excel スプレッドシートの読み書きを可能にする Excel スプレッドシート レポート コンポーネントです。**Aspose.Cells**は、基本的なデータのエクスポート以上の機能を提供する豊富な機能を備えたコンポーネントです。と**Aspose.Cells**開発者は、データのエクスポート、あらゆる詳細およびあらゆるレベルでのスプレッドシートの書式設定、画像のインポート、グラフのインポート、グラフの作成、グラフの操作、Excel データのストリーミング、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML などのさまざまな形式での保存 ([Aspose.Pdf](https://products.aspose.com/pdf/)統合) など。**Aspose.Cells**使いやすく、豊富な機能を提供します**API**プログラマー向け。機能の膨大なリストがあります。製品、その機能、およびプログラマー ガイドの詳細については、次の概要を確認してください。**機能一覧**, **Aspose.Cells ドキュメンテーション**およびオンライン特集デモ。してもいいです[ダウンロード](https://downloads.aspose.com/cells)その評価版は無料です。
+**Aspose.Cells**Microsoft Excel をクライアント側またはサーバー側にインストールすることなく、Excel スプレッドシートの読み書きを可能にする Excel スプレッドシート レポート コンポーネントです。**Aspose.Cells**は、基本的なデータのエクスポート以上の機能を提供する豊富な機能を備えたコンポーネントです。と**Aspose.Cells**開発者は、データのエクスポート、あらゆる詳細およびあらゆるレベルでのスプレッドシートの書式設定、画像のインポート、チャートのインポート、チャートの作成、チャートの操作、Excel データのストリーミング、XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML などのさまざまなフォーマットでの保存を行うことができます ([Aspose.Pdf](https://products.aspose.com/pdf/)統合) など。**Aspose.Cells**使いやすく、豊富な機能を提供します**API**プログラマー向け。機能の膨大なリストがあります。製品、その機能、およびプログラマー ガイドの詳細については、次の概要を確認してください。**機能一覧**, **Aspose.Cells ドキュメンテーション**およびオンライン特集デモ。してもいいです[ダウンロード](https://downloads.aspose.com/cells)その評価版は無料です。
 ## **インターフェイスの設計**
 Visual Studio.Net で新しい Asp.Net Web アプリケーションの作成を開始します。
 
@@ -363,7 +363,7 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Aspose.Cells コンポーネントを使用して、Graph で書式設定されたレポート (.XLS ファイル) を作成する**
+## **Aspose.Cells コンポーネントを使用して、グラフで書式設定されたレポート (.XLS ファイル) を作成する**
 ここで、グラフを含む書式設定されたレポートをディスクに保存するためのコードを記述します。私は利用します**グリッドウェブ**の**セーブ**ボタン、**グリッドウェブ**の**保存コマンド**保存ボタンをクリックするとイベントが発生するので、処理します。ここで、私は使用します**Aspose.Cells**コンポーネントを使用して、書式設定されたレポートを MS Excel にエクスポートし、グラフを生成して出力 Excel ファイルに埋め込みます。チャート画像を挿入していません (作成者:**Aspose.Chart**コンポーネント) の API を使用して同様のチャートを作成します。**Aspose.Cells**、必要に応じて MS Excel でチャートを編集できるようにします。
 
 

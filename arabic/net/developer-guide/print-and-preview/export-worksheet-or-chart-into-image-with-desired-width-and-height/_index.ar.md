@@ -6,7 +6,7 @@ url: /ar/net/export-worksheet-or-chart-into-image-with-desired-width-and-height/
 ---
 {{% alert color="primary" %}}
 
-يمكنك استخدام Aspose.Cells لتصدير ورقة العمل أو الرسم البياني الخاص بك إلى صورة بالعرض والارتفاع المطلوبين. انها توفر، انه يوفر[**ImageOrPrintOptions.SetDesiredSize ()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize)طريقة لتعيين العرض والارتفاع المطلوبين للصورة المصدرة. يتم تحديد العرض والارتفاع بوحدة البكسل.
+ يمكنك استخدام Aspose.Cells لتصدير ورقة العمل أو الرسم البياني الخاص بك إلى صورة بالعرض والارتفاع المطلوبين. أنه يوفر[**ImageOrPrintOptions.SetDesiredSize ()**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/methods/setdesiredsize) طريقة لتعيين العرض والارتفاع المطلوبين للصورة المصدرة. يتم تحديد العرض والارتفاع بوحدة البكسل.
 
 {{% /alert %}}
 

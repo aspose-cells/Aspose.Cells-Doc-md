@@ -14,7 +14,7 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
 
  ميزات جديدة
 
-- السماح
+- يسمح
  تحويلات لملفات متعددة في وقت واحد
 - وثيقة
  معاينة داخل SharePoint
@@ -22,6 +22,6 @@ url: /ar/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
  التحسينات
 
 - أضف الدعم
- للتنسيقات الجديدة (XLSB ، MHtml ، XPS ، TIFF ، SVG ، DIF) للتحويل
+للتنسيقات الجديدة (XLSB ، MHtml ، XPS ، TIFF ، SVG ، DIF) للتحويل
 - تحسين Aspose.Cells
  for SharePoint مكون

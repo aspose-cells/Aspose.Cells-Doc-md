@@ -13,38 +13,38 @@ url: /tr/net/aspose-cells-for-net-18-9-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-42992|TextBox içindeki kısmi metne metin hizalaması uygulama|Yeni özellik|
-|CELLSNET-46308|Özel belge özelliklerini PDF'ye dışa aktarma|Yeni özellik|
+|CELLSNET-46308|Özel belge özelliklerini PDF olarak dışa aktarın|Yeni özellik|
 |CELLSNET-46301|Liste Nesnesinden/Tablodan XML yolunu al|Yeni özellik|
-|CELLSNET-46315|ODS dosyasında hisse senedi grafiğini destekleyin|Yeni özellik|
+|CELLSNET-46315|ODS dosyasındaki hisse senedi grafiğini destekleyin|Yeni özellik|
 |CELLSNET-46304|Satırdaki ilk veri hücresini almak için Row.FirstDataCell özelliğini ekleyin|Artırma|
 |CELLSNET-46298|Apache POI'ye benzer güvenli sayfa adları oluşturun|Artırma|
 |CELLSNET-46319|API'de FilterOperatorType.Contains eksik|Artırma|
 |CELLSNET-46297|Sorgu Tablosu aralığını al|Artırma|
-|CELLSNET-46294|CSV/TSV'yi Elektronik Tabloya dönüştürürken çalışma sayfasının adı kaynak dosya adıyla aynı|Artırma|
+|CELLSNET-46294|CSV/TSV'i Elektronik Tabloya dönüştürürken, çalışma sayfasının adı kaynak dosya adıyla aynı|Artırma|
 |CELLSNET-46289|Aspose.Cells imzasız Dll'leri dahil et|Artırma|
-|CELLSNET-46290|Excel'den PDF'e dönüştürmede şekiller için oluşturulan yanlış renkler|Böcek|
-|CELLSNET-46282|PDF'de işlenen oldukça küçük resimler|Böcek|
+|CELLSNET-46290|Excel'deki şekiller için PDF'e dönüştürülen yanlış renkler|Böcek|
+|CELLSNET-46282|PDF'de oluşturulan oldukça küçük resimler|Böcek|
 |CELLSNET-46328|HTML'de bozuk köprü|Böcek|
 |CELLSNET-46322|AutoFitColumns() çağrılırken sayı ve tarih değerlerindeki sorunlar|Böcek|
 |CELLSNET-46312|Pivot tablolar yüklendikten ve kaydedildikten sonra çalışmıyor|Böcek|
 |CELLSNET-46291|Özet öğeleri yenilerken ve gizlerken Pivot tablolardaki sorunlar|Böcek|
 |CELLSNET-46279|PivotTable.RefreshData 'Dizin aralığın dışında' özel durumu oluşturuyor|Böcek|
 |CELLSNET-46303|Formül düzgün hesaplanmamış|Böcek|
-|CELLSNET-46327|SVG'ye dönüştürüldüğünde adlandırılmış aralıklar, tam yazı tiplerini ve aralığı yakalamaz|Böcek|
-|CELLSNET-46313|Komut dosyası üstbilgilerinde ve altbilgilerinde Almanca anahtar kelimeler kullanıldığında çıktı PDF'sindeki sorunlar|Böcek|
+|CELLSNET-46327|SVG'e dönüştürüldüğünde adlandırılmış aralıklar, tam yazı tiplerini ve aralığı yakalamıyor|Böcek|
+|CELLSNET-46313|Komut dosyası üstbilgilerinde ve altbilgilerinde Almanca anahtar kelimeler kullanıldığında PDF çıktısındaki sorunlar|Böcek|
 |CELLSNET-46300|Tablo/Liste Nesnesi, xml verilerini elektronik tabloya aktarırken tablonun altındaki verilerle çakıştı|Böcek|
 |CELLSNET-46318|Chart.Calculate() yöntemi çağrıldıktan sonra grafikte dikey kılavuz çizgileri belirdi|Böcek|
 |CELLSNET-46287|Excel grafiğinden işlenmiş görüntülerde yatay eksen eksik|Böcek|
 |CELLSNET-46286|Kategori ekseninin dönüş açısını ayarlarken sorun|Böcek|
 |CELLSNET-46333|Uygulama GUID'i değiştirildi|Böcek|
-|CELLSNET-46332|Şifreli bir XLSX dosyasını yeniden kaydettikten sonra OLE Paketinde eksik olan depolar ve akışlar|Böcek|
+|CELLSNET-46332|Şifrelenmiş bir XLSX dosyasını yeniden kaydettikten sonra OLE Paketinde eksik olan depolar ve akışlar|Böcek|
 |CELLSNET-46325|Çalışma sayfası bir çalışma kitabından diğerine kopyalanırken kaybolan grafikler|Böcek|
 |CELLSNET-46316|Çalışma kitaplarını birleştirirken, yazı tipi ve gölgelendirme renkleri olmadan koşullu biçimlendirme uygulanır|Böcek|
-|CELLSNET-46305|PDF'de işlenen baskı alanı dışındaki metin|Böcek|
+|CELLSNET-46305|PDF'de işlenen baskı alanı dışında metin|Böcek|
 |CELLSNET-46296|Gruplandırılmış şekilleri bozan sütunları veya satırları otomatik sığdır|Böcek|
 |CELLSNET-46292|XML dosyalarındaki fark|Böcek|
-|CELLSNET-46283|ODS Excel çıktısında eksik kenarlık|Böcek|
-|CELLSNET-46331|Bir XLSX dosyasını PDF dosya biçimine dönüştürürken istisna|İstisna|
+|CELLSNET-46283|ODS Excel çıktısında kenarlık eksik|Böcek|
+|CELLSNET-46331|XLSX dosyasını PDF dosya biçimine dönüştürürken istisna|İstisna|
 |CELLSNET-46270|ArgumentOutOfRangeException, Slicer.Refresh() çağrılırken ortaya çıktı|İstisna|
 |CELLSNET-46323|Açılan değerlerden biriyle hücre değerini değiştirmeye çalışırken veri doğrulama sorunu|İstisna|
 |CELLSNET-46307|Liste nesnesinin xml veri bağlama haritasının URL'si alınırken istisna|İstisna|
@@ -77,7 +77,7 @@ Verilen yerel ayar yazı tipi stili adına göre Üstbilgi/Altbilgi için standa
 #### **PdfCustomPropertiesExport sıralaması ekler**
 CustomDocumentPropertyCollection'ın PDF dosyasına nasıl aktarılacağını belirtir.
 #### **PdfSaveOptions.CustomPropertiesExport özelliğini ekler**
-CustomDocumentPropertyCollection öğesinin PDF dosyasına dışa aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
+CustomDocumentPropertyCollection'ın PDF dosyasına aktarılma şeklini belirleyen bir değer alır veya ayarlar. Varsayılan değer Yok'tur.
 #### **XmlDataBinding sınıfını ekler**
 Xml Veri Bağlama bilgilerini temsil eder.
 #### **ListObject.XmlMap özelliğini ekler**

@@ -7,7 +7,7 @@ url: /fr/java/remove-existing-printersettings-of-worksheets-in-excel-file/
 ## **Scénarios d'utilisation possibles**
 Parfois, les développeurs veulent empêcher Excel d'inclure*.poubelle* fichiers de paramètres d'imprimante dans les fichiers XLSX enregistrés. Les fichiers de paramètres d'imprimante se trouvent sous*"[fichier "racine"]\xl\printerSettings"*. Ce document explique comment supprimer les paramètres d'imprimante existants à l'aide des API Aspose.Cells.
 ## **Supprimer les paramètres d'imprimante existants des feuilles de calcul dans le fichier Excel**
-Aspose.Cells vous permet de supprimer les paramètres d'imprimante existants spécifiés pour différentes feuilles dans le fichier Excel. L'exemple de code suivant montre comment supprimer les paramètres d'imprimante existants pour toutes les feuilles de calcul du classeur. Veuillez voir son[exemple de fichier Excel](45056023.xlsx), [fichier Excel de sortie](45056024.xlsx)la sortie de la console ainsi qu'une capture d'écran pour référence.
+Aspose.Cells vous permet de supprimer les paramètres d'imprimante existants spécifiés pour différentes feuilles dans le fichier Excel. L'exemple de code suivant montre comment supprimer les paramètres d'imprimante existants pour toutes les feuilles de calcul du classeur. Veuillez voir son[exemple de fichier Excel](45056023.xlsx), [fichier Excel de sortie](45056024.xlsx), la sortie de la console ainsi qu'une capture d'écran pour référence.
 ## **Capture d'écran**
 ![tâche : image_autre_texte](remove-existing-printersettings-of-worksheets-in-excel-file_1.png)
 ## **Exemple de code**

@@ -46,7 +46,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Imposta il fattore di zoom del foglio di lavoro** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Imposta il fattore di zoom del foglio di lavoro** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_Vs_NPOI_HWPF_and_XWPF_v1.2/Zoom.Factor.zip)
 

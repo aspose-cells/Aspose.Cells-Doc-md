@@ -13,6 +13,6 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Reporting Services 2
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSRS-575|Aktualisiert Version Aspose.Cells auf 21.3.|Aufgabe|
-|CELLSRS-576|Unterstützung für exportiertes SVG.|Neue Funktion|
+|CELLSRS-576|Unterstützung für exportierte SVG.|Neue Funktion|
 
 

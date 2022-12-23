@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-43938) - 支持将 VBA 证书导出到文件或流
@@ -62,7 +62,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **虫子**
 
 
-(CELLSNET-44164) - 保存到流时 HTML 结构不完整
+(CELLSNET-44164) - 保存到流时结构不完整 HTML
 
 (CELLSNET-44147) - 刷新数据透视表生成损坏的 excel 文件
 
@@ -70,11 +70,11 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44139) - 同一单元格在调用 CalculateFormula() 方法前后的不同值
 
-(CELLSNET-44135) - Excel 文件在生成 PDF 之前未正确（完全）计算（关于图表）
+(CELLSNET-44135) - Excel 文件在 PDF 生成之前未正确（完全）计算（关于图表）
 
-(CELLSNET-44138) - Cell 阴影与边界重叠导致边界变细
+ (CELLSNET-44138) - Cell 阴影与边界重叠导致边界变薄
 
-(CELLSNET-44136) - Excel 在打印预览中显示一页，其中 Aspose.Cells 呈现为 PDF 页面
+(CELLSNET-44136) - Excel 在打印预览中显示一页，其中 Aspose.Cells 呈现为 PDF 页
 
 (CELLSNET-44122) - 工作表中的图像呈现与原始模板 Excel 文件不同
 
@@ -82,11 +82,11 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44171) - 范围之间的 CopyData 不能水平工作，但垂直工作正常
 
-(CELLSNET-44153) - XLSB 到 XLSM 无法正常工作并生成损坏的文件
+(CELLSNET-44153) - XLSB 到 XLSM 不能正常工作并产生损坏的文件
 
 (CELLSNET-44149) - OleObjects 在从 XLSB 转换为 XLSM 后被删除
 
-(CELLSNET-44146) - 条件格式结果未在 PDF 中正确呈现
+(CELLSNET-44146) - 条件格式结果在 PDF 中未正确呈现
 
 (CELLSNET-44144) - 添加自定义属性会删除工作表内容
 
@@ -106,7 +106,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44089) - PivotTable.CalculateData 出现 System.IndexOutOfRangeException
 
- (CELLSNET-44064) - CalculateFormula 在源 xlsm 上抛出异常
+(CELLSNET-44064) - CalculateFormula 在源 xlsm 上抛出异常
 
 (CELLSNET-44055) - Aspose.Cell. 由于内存首选项设置导致 pdf 转换导致的异常
 
@@ -114,7 +114,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 
 (CELLSNET-44145) - WorkbookMetadata ctor 中的 System.NullReferenceException
 
- (CELLSNET-44143) - 加载 XLSX 时 Workbook ctor 出现异常
+ (CELLSNET-44143) - 加载 XLSX 时工作簿 ctor 出现异常
 
 (CELLSNET-44142) - 使用 XLS 创建工作簿实例时出现 IndexOutOfBoundsException
 
@@ -128,7 +128,7 @@ url: /zh/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **虫子**
 
 
-(CELLSNET-44151) - 从 GridWeb 单元格中删除内容时未触发 JavaScript
+ (CELLSNET-44151) - 从 GridWeb 单元格中删除内容时未触发 JavaScript
 
  (CELLSNET-44113) - 标题行文本也出现在过滤器值中
 

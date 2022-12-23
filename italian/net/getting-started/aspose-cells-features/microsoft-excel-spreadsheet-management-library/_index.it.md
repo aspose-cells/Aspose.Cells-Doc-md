@@ -1,17 +1,17 @@
 ﻿---
-title: Libreria per la gestione dei fogli di calcolo di Microsoft Excel
+title: Microsoft Libreria gestione fogli di calcolo Excel
 type: docs
 weight: 20
 url: /it/net/microsoft-excel-spreadsheet-management-library/
 ---
-## **Aspose.Cells – Libreria gestione fogli di calcolo Microsoft Excel**
+## **Aspose.Cells – Microsoft Libreria Gestione Fogli Excel**
 ### **Caratteristiche del documento**
 - Apri file Microsft Excel semplici o crittografati (Excel97 - Excel2007/2010/2013) da fonti diverse.
-- Salva i file Excel (Excel 97 - Excel2007/2010/2013) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, TSV, HTML ecc.)
+- Salva i file Excel (Excel 97 - Excel2007/2010/2013) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, 0761734481, Tab Delimited, XLSB, CSV, 0761734481, Tab Delimited, XLSB, CSV, 0761734481, Tab Delimited, 0816183)
 - Converti file Excel in documento PDF.
 - Converti foglio di calcolo Excel in documento XPS.
 - Converti in formato file immagine con tag (TIFF).
-- Leggere e scrivere in formato OpenDocument Spreadsheet (ODS).
+- Leggi e scrivi il formato OpenDocument Spreadsheet (ODS).
 - Modificare le proprietà del documento dei file Excel.
 ### **Caratteristiche del foglio di lavoro**
 #### **Opzioni di visualizzazione**
@@ -66,7 +66,7 @@ url: /it/net/microsoft-excel-spreadsheet-management-library/
 - Crea facilmente diversi tipi di grafici.
 - Personalizza i grafici impostando le loro diverse proprietà.
 - Imposta dinamicamente i dati per i grafici.
-- Aggiungi grafici personalizzati ai fogli di lavoro utilizzando l'API.
+- Aggiungi grafici personalizzati ai fogli di lavoro utilizzando API.
 - Aggiungi immagini ai fogli di lavoro in fase di esecuzione.
 - Crea e aggiungi commenti alle celle.
 - Converti grafico in file immagine.
@@ -80,5 +80,5 @@ url: /it/net/microsoft-excel-spreadsheet-management-library/
 - Crea e manipola tabelle pivot.
 - Manipola il codice VBA o le macro.
 ### **Piattaforme supportate**
-- Applicazione Windows desktop
+- Desktop Windows Applicazione
 - Applicazione Web aziendale

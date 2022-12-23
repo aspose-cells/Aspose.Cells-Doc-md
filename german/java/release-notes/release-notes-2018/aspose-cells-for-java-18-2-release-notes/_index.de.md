@@ -17,7 +17,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.2.
 |CELLSJAVA-42497|Blatt1-Formen gehen verloren und Sterne in Blatt2 werden abgerundet|Insekt|
 |CELLSJAVA-42512|Ungültige Codierung – Beim Laden der Excel-Datei tritt eine Ausnahme auf|Insekt|
 |CELLSJAVA-42507|Makro- und Dialogblätter werden als normale Arbeitsblätter erkannt|Insekt|
-|CELLSJAVA-42503|MS Excel erlaubt kein erneutes Speichern der XLS-Datei|Insekt|
+|CELLSJAVA-42503|MS Excel lässt das erneute Speichern der Datei XLS nicht zu|Insekt|
 |CELLSJAVA-42502|Aspose.Cells filtert Daten nicht richtig, stattdessen werden alle Zeilen ausgeblendet|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.

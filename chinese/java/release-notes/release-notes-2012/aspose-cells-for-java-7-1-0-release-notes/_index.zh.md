@@ -30,6 +30,6 @@ url: /zh/java/aspose-cells-for-java-7-1-0-release-notes/
 
 -Cell.getStringValue() 为 double 类型给出了错误的值
 
- 保存为PDF时，图形右侧部分文字被截断，部分图片丢失
+ 保存为PDF时，形状右侧部分文字被截断，部分图片丢失
 
- 保存为 ODS 文件格式时数字格式丢失
+-保存为ODS文件格式时数字格式丢失

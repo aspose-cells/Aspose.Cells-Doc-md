@@ -38,4 +38,4 @@ url: /es/reportingservices/mapping-query-parameters-to-report-parameters/
 
 ![todo:imagen_alternativa_texto](mapping-query-parameters-to-report-parameters_4.png)
 
-1.  Hacer clic**Cerca**.
+1.  Hacer clic**Cerrar**.

@@ -11,4 +11,4 @@ Esta página contiene notas de la versión para Aspose.Cells Reporting Services 
 ## **Lista completa de problemas y mejoras cubiertas en esta versión**
 |**IDENTIFICACIÓN**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|24992 |Admite exportar formato PDF.|Nueva caracteristica|
+|24992 |Admite formato de exportación PDF.|Nueva caracteristica|

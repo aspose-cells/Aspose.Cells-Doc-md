@@ -16,7 +16,7 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  Nuevas características
 
- 30970 Acceder a las propiedades del documento de un archivo XLS cifrado
+ 30970 Acceso a las propiedades del documento de un archivo cifrado XLS
 
  Mejoras
 
@@ -30,7 +30,7 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30548 Se produjo StackOverflowException al abrir ciertos archivos
 
- 30609 El constructor del libro de trabajo arroja NullReferenceException
+30609 El constructor del libro de trabajo arroja NullReferenceException
 
  30989 Excepción: archivo Excel2007Xlsx no válido
 
@@ -38,17 +38,17 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  29663 Conversión de Excel a PDF (problema de elementos faltantes)
 
-29692 Problema en la conversión de Excel a PDF
+ 29692 Problema en la conversión de Excel a PDF
 
  29840 Problema con la versión 6.0.1.3 (sobre Gráficos)
 
  30102 Problema con la imagen del gráfico con respecto a las etiquetas de datos y las barras de error
 
- 30270 Problema de impresión: los números se muestran como "#######"
+ 30270 Problema de impresión: Numbers se muestra como "#######"
 
  30533 Problema con la función DeleteRange
 
- Problema 30603 EMF frente a PNG
+ 30603 EMF frente a PNG Problema
 
  30729 Problema de ajuste al convertir XLS a PDF
 
@@ -64,7 +64,7 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  30918 Problemas de imagen al guardar en formato XLS
 
- 30949 Cell el contenido se divide a la mitad de una palabra al convertir XLS a PDF
+30949 Cell el contenido se divide a la mitad de una palabra al convertir XLS a PDF
 
  30980 Cargar y actualizar XLSM y luego guardar provoca ERRORES
 
@@ -74,7 +74,7 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31005 Valores negativos entre paréntesis
 
-31068 Al guardar el archivo se bloquea después de usar el método DeleteRange en algunos casos
+ 31068 Al guardar el archivo se bloquea después de usar el método DeleteRange en algunos casos
 
  31078 Actualizar tabla dinámica: no se ordena correctamente
 
@@ -100,4 +100,4 @@ url: /es/net/aspose-cells-for-net-7-0-2-release-notes/
 
  31053 El parámetro no es una excepción válida en GridDesktop
 
- 31071 Representación incorrecta del documento a través del método GridDesktop.ImportExcelFile
+31071 Representación incorrecta del documento a través del método GridDesktop.ImportExcelFile

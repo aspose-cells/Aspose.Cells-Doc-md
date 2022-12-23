@@ -18,7 +18,7 @@ Följande exempel Microsoft Excel-fil används med exempelkoden nedan för att t
 
 ![todo:image_alt_text](verify-that-cell-value-satisfies-data-validation-rules_1.png)
 
- Följande exempelkod illustrerar hur[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metod fungerar. Först anger den värdet 3 i C1. Eftersom detta inte uppfyller regeln för datavalidering,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) returnerar metoden**Falsk** . Sedan anger den värdet 15 i C1. Eftersom detta värde uppfyller datavalideringsregeln,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) returnerar metoden**Sann** . På samma sätt återkommer den**Falsk** för värde 30.
+ Följande exempelkod illustrerar hur[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metod fungerar. Först anger den värdet 3 i C1. Eftersom detta inte uppfyller regeln för datavalidering,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metod returnerar**Falsk** . Sedan anger den värdet 15 i C1. Eftersom detta värde uppfyller datavalideringsregeln,[**cell.getValidationValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getValidationValue() ) metod returnerar**Sann** . På samma sätt återkommer den**Falsk** för värde 30.
 
 ## Java-kod för att verifiera om ett Cell-värde uppfyller reglerna för datavalidering
 

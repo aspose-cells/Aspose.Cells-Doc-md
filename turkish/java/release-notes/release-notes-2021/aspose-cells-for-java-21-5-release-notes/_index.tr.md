@@ -13,7 +13,7 @@ url: /tr/java/aspose-cells-for-java-21-5-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43452|Excel işlevi kullanan Japon takvimi doğru okunmuyor|
-|CELLSJAVA-43420| Döndürülen metin, HTML olarak kaydedildiğinde yanlış hizalanmış|
+|CELLSJAVA-43420| HTML olarak kaydedildiğinde döndürülen metin yanlış hizalanmış|
 |CELLSJAVA-43450|Pivot tablo yenileme sorunu|
 |CELLSJAVA-43444|Regresyon: getLastSavedUniversalTime yanlış tarih döndürür|
 |CELLSJAVA-43446|Cells Değişiklikleri İzleme İstisnası|
@@ -21,7 +21,7 @@ url: /tr/java/aspose-cells-for-java-21-5-release-notes/
 |CELLSJAVA-43457|Kopyalanan çalışma kitabını kaydederken sonsuz döngü|
 |CELLSJAVA-43442|GridWeb bahar demosunda başlık bağlantılarına tıklandığında veri sıralama ile ilgili sorun|
 |CELLSJAVA-43443|GridWeb Java'de düzenleme moduyla ilgili sorun|
-|CELLSJAVA-43455|EmbedStandardWindowsFonts ayarı false olarak ayarlanırken ASCII olmayan karakterler için yazı tipleri PDF'ye gömülmez|
+|CELLSJAVA-43455|EmbedStandardWindowsFonts false olarak ayarlanırken ASCII olmayan karakterler için yazı tipleri PDF'de gömülü değildir|
 |CELLSJAVA-43449|Grafik öğelerinin yazı tipi ailesi "Calibri"den "Aktiv Grotesk"e değiştirilemiyor|
 |CELLSJAVA-43454|X Ekseni etiketleri kesilir|
 |CELLSJAVA-43445|Regresyon: .numbers dosyaları için eksik satır verileri|

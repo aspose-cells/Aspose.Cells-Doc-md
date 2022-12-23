@@ -6,7 +6,7 @@ url: /it/java/display-or-hide-tabs-in-ruby/
 ---
 ## **Aspose.Cells - Mostra o nascondi schede**
 ### **Nascondere le schede**
- Per nascondere le schede utilizzando**Aspose.Cells Java per Ruby** , chiamata**displayhidetabs** modulo.
+ Per nascondere le schede utilizzando**Aspose.Cells Java per Rubino** , chiamata**displayhidetabs** modulo.
 
 **Codice Rubino**
 
@@ -42,6 +42,6 @@ workbook.getSettings().setSowTabs(true)
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Nascondi o mostra o nascondi schede (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Nascondi o mostra o nascondi schede (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/displayhidetabs.rb)

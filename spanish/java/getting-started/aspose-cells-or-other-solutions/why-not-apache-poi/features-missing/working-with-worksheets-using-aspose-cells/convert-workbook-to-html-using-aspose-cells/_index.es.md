@@ -1,11 +1,11 @@
 ﻿---
-title: Convierta el libro de trabajo a HTML usando Aspose.Cells
+title: Convierta Workbook a HTML usando Aspose.Cells
 type: docs
 weight: 20
 url: /es/java/convert-workbook-to-html-using-aspose-cells/
 ---
 ## **Aspose.Cells - Convertir libro de trabajo a HTML**
- Las API Aspose.Cells brindan soporte para exportar hojas de cálculo a formato HTML. Para este propósito,**Aspose.Cells** usa el**HtmlSaveOptions** clase que permite a los desarrolladores controlar varios aspectos del HTML de salida.
+ Las API Aspose.Cells brindan soporte para exportar hojas de cálculo al formato HTML. Para este propósito,**Aspose.Cells** usa el**HtmlSaveOptions** clase que permite a los desarrolladores controlar varios aspectos de la salida HTML.
 
 **Java**
 
@@ -32,6 +32,6 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Convertir archivos de Excel a HTML](/cells/es/java/converting-workbook-to-different-formats/).
+ Para más detalles, visite[Conversión de archivos de Excel a HTML](/cells/es/java/converting-workbook-to-different-formats/).
 
 {{% /alert %}}

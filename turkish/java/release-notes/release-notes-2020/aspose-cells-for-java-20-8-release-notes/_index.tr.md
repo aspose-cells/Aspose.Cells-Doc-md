@@ -14,10 +14,10 @@ url: /tr/java/aspose-cells-for-java-20-8-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-43242|Head etiketinin dışında bulunan stil etiketlerinden biri|Böcek|
 |CELLSJAVA-43157|Şelale grafiği oluşturulurken özelleştirilmiş veri serisi rengi korunmaz|Böcek|
-|CELLSJAVA-43240|Excel'i PDF'ye dönüştürürken şekillerde/nesnelerde istenmeyen satır sonları|Böcek|
-|CELLSJAVA-43255|Excel'den PDF'e dönüştürmede performans sorunu|Böcek|
+|CELLSJAVA-43240|Excel'i PDF'e dönüştürürken şekillerde/nesnelerde istenmeyen satır sonları|Böcek|
+|CELLSJAVA-43255|Excel'de PDF'e dönüştürmede performans sorunu|Böcek|
 |CELLSJAVA-43250|Genişletilmiş etiket hücreleri SmartMarker'da birleştirilmez|Böcek|
-|CELLSJAVA-43253|SmartArt'ta metni değiştirdikten sonra dosyayı OoxmlSaveOptions kullanarak kaydetmek, XLS'yi XLSX'e dönüştürür|Böcek|
+|CELLSJAVA-43253|SmartArt'ta metni değiştirdikten sonra dosyayı OoxmlSaveOptions kullanarak kaydetmek, XLS'i XLSX'e dönüştürür|Böcek|
 CELLSJAVA-43170|CellsException on measureFormula yöntemi|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

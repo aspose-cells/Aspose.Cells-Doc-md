@@ -13,45 +13,45 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 21.12
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43994|Stöd för att avbryta exekveringen av WorkbookDesigner.process i SmarkMarker|
-|CELLSJAVA-44039|Ändra PDF Producer-attribut från den genererade PDF-filen|
-|CELLSJAVA-43768|Java Heap Space Problem observeras vid konvertering av XLSX-fil till PDF|
+|CELLSJAVA-44039|Ändra PDF Producer-attribut från den genererade PDF|
+|CELLSJAVA-43768|Java Heap Space-problem observeras vid konvertering av XLSX-fil till PDF|
 |CELLSJAVA-43875|Undantag "Ogiltig FontUnderlineType string val" vid laddning av XLSX-filen|
 |CELLSJAVA-43876|Undantag "java.lang.ArrayIndexOutOfBoundsException" vid inläsning av en XLSX-fil|
-|CELLSJAVA-43844|En förbättring som behövs för bokföringsnummerformat|
-|CELLSJAVA-43953|Återge specifik text/del "Cell" och "Kommentar" för att översättas till japanska i Excel till PDF-konvertering|
+|CELLSJAVA-43844| En förbättring som behövs för bokföringsnummerformat|
+|CELLSJAVA-43953|Återge specifik text/del "Cell" och "Kommentar" för att översättas till japanska i Excel till PDF konvertering|
 |CELLSJAVA-43469|Möjlig regression: Prestandaförsämring av FormatConditionCollection.addArea()|
 |CELLSJAVA-43646|Skuggeffekten av texten återges inte korrekt|
 |CELLSJAVA-43760|Likbent triangelorientering är felaktig|
-|CELLSJAVA-43786|När du konverterar XLS-fil till XLSX, renderas vissa delar angående former inte korrekt|
+|CELLSJAVA-43786|När du konverterar XLS-filen till XLSX, renderas vissa delar angående former inte korrekt|
 |CELLSJAVA-43838|Efter exekvering av XlsToXlsx försvinner AutoShape|
 |CELLSJAVA-43839|Efter exekvering av XlsToXlsx är den vänstra hakparentesen förlorad|
 |CELLSJAVA-43842|Efter att ha kört XlsToXlsx skiljer sig formen på LeftBracket från originalet|
-|CELLSJAVA-43848|Excel till PDF-konvertering - vissa WordArt-tecken lindas inte på samma sätt som i Excel-fil|
+|CELLSJAVA-43848|Omvandling av Excel till PDF - vissa WordArt-tecken lindas inte på samma sätt som i Excel-fil|
 |CELLSJAVA-43880|Felaktiga rundade hörn i textrutan efter konvertering av xls till xlsx|
 |CELLSJAVA-43867|Ikonen för villkorligt format skiljer sig vid export till html|
 |CELLSJAVA-43812|excelToHtml: Formpositionsförskjutningen är felaktig|
-|CELLSJAVA-43871|Prism 9 OLE-objekt visas inte på utdata-PDF|
+|CELLSJAVA-43871|Prism 9 OLE-objekt visas inte på utgång PDF|
 |CELLSJAVA-43883|Felaktiga renderade sidstorlekar|
 |CELLSJAVA-43881|Sammanfogning av filer gör att bakgrundsfärgsinställningen för arken saknas|
 |CELLSJAVA-43892|Kanter för Excel som konverterats till HTML saknas|
-|CELLSJAVA-43935|Forma text teckensnittsstorlek när du sparar och laddar XLS-fil|
+|CELLSJAVA-43935|Forma text teckensnittsstorlek när du sparar och laddar XLS-filen|
 |CELLSJAVA-43952|Tillfällig licens Utgångsfråga|
 |CELLSJAVA-43954|XLSX till PDF: Bilden orsakar ett undantag "java.lang.OutOfMemoryError: Java heap space"|
-|CELLSJAVA-43902|Vissa kanter i Excel som konverterats till HTML är överflödiga|
+|CELLSJAVA-43902|Vissa gränser i Excel konverterade till HTML är överflödiga|
 |CELLSJAVA-43933|När du exporterar till HTML med endast en data skiljer sig det villkorliga formatet från Excel|
 |CELLSJAVA-43878| Felaktig placering av Excel-klusterstapeldiagramdataetiketter|
-|CELLSJAVA-43895|Linjeform och andra diagramformer renderas inte korrekt när XLS konverteras till XLSX|
+|CELLSJAVA-43895|Linjeform och andra diagramformer renderas inte korrekt vid konvertering av XLS till XLSX|
 |CELLSJAVA-43934|Cirkeldiagrametiketterna matchade inte med Excel efter manipulering eller uppdatering av diagram|
-|CELLSJAVA-43519|Sammanslagna celler som ingår i dolda rader eller kolumner ger en ojämn HTML-tabell|
+|CELLSJAVA-43519|Sammanslagna celler som ingår i dolda rader eller kolumner ger en ojämn HTML tabell|
 |CELLSJAVA-43962|Effekten är inkonsekvent efter att det villkorliga formatet i excel har konverterats till HTML|
 |CELLSJAVA-43983|Regression: Oändlig loop vid konvertering av XLSX till PDF|
-|CELLSJAVA-44029|XLSX till PDF: Bilden konverteras inte|
+|CELLSJAVA-44029|XLSX till PDF: Bilden har inte konverterats|
 |CELLSJAVA-44093| Problem med textavkortning med rektangelformer vid rendering till bild i nyare Aspose.Cells for Java versioner|
 |CELLSJAVA-44089|DataLabels.setShadow() är inte tillgänglig och den är inte lika med metoden Series.setShadow()|
-|CELLSJAVA-44000|Cells stil är felaktig i HTML när man använder ikonuppsättning och annan villkorlig formatering samtidigt|
+|CELLSJAVA-44000|Cells-stilen är felaktig i HTML när ikonuppsättning och annan villkorlig formatering används samtidigt|
 |CELLSJAVA-43932|Problem med att ställa in dataetiketternas position för exploderade munkdiagram i utdatabilden|
 |CELLSJAVA-44094|Diagramtitel trunkeras vid export till PDF|
-|CELLSJAVA-43533|Problem med att skapa XLSX till HTML i Ubuntu|
+|CELLSJAVA-43533|XLSX till Html-skapande problem i Ubuntu|
 |CELLSJAVA-43987|Den högra kanten av sammanslagna celler går förlorad i html|
 |CELLSJAVA-44016|Problem vid konvertering av Excel-filen som innehåller bildens URL till HTML|
 |CELLSJAVA-43787|Undantag "IllegalArgumentException: bindestreck längder alla noll ..." i Excel till HTML-rendering|

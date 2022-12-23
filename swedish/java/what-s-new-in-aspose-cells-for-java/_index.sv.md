@@ -8,7 +8,7 @@ url: /sv/java/what-s-new-in-aspose-cells-for-java/
 Den här sidan beskriver de mest intressanta nya Aspose.Cells-funktionerna som introducerats i de senaste utgåvorna.
 
 ## Aspose.Cells for Java 22.12
-* Stöd för att exportera Excel till JSON med hierarkistruktur i flera lager
+* Stöd för att exportera Excel till JSON med flerskiktad hierarkistruktur
 
 ## Aspose.Cells for Java 22.11
 
@@ -80,6 +80,6 @@ Stöd för att läsa så mycket data som möjligt från skadad xls-fil
 
 * Stöd för beräkning av XLookup formel/funktion.
 * Integrera att spara json och bilder till att spara arbetsboken.
-* Förbättra prestanda samtidigt som du konverterar Excel till HTML.
+* Förbättra prestandan när du konverterar Excel till HTML.
 
 

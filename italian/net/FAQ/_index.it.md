@@ -10,8 +10,8 @@ A volte, gli utenti affrontano System.StackOverFlowException sul metodo Workbook
 
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
-## **Problema di spessore delle linee durante il rendering di Excel in PDF**
- volte, quando il file Excel viene convertito in PDF, lo spessore delle linee è diverso nel PDF di output. Questo problema non è causato da Aspose.Cells. È causato da**Adobe Reader** quando le sue impostazioni**"Linea liscia arte"** e**"Migliora le linee sottili"** sono controllati. Deselezionando queste opzioni verrà visualizzato il PDF corretto.
+## **Problema di spessore delle linee durante il rendering di Excel a PDF**
+ volte, quando il file Excel viene convertito in PDF, lo spessore delle linee è diverso nell'output PDF. Questo problema non è causato da Aspose.Cells. È causato da**Adobe Reader** quando le sue impostazioni**"Linea liscia arte"** e**"Migliora le linee sottili"** sono controllati. Deselezionando queste opzioni verrà visualizzato PDF bene.
 
  Se controlla**"Linea liscia arte"** e**"Migliora le linee sottili"**, lo spessore delle linee è diverso. Guarda i seguenti passaggi come è fatto:
 

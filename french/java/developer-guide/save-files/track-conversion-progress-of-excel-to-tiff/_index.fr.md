@@ -1,16 +1,16 @@
 ﻿---
-title: Suivre la progression de la conversion d'Excel en TIFF
+title: Suivre la progression de la conversion d'Excel vers TIFF
 type: docs
 weight: 140
 url: /fr/java/track-conversion-progress-of-excel-to-tiff/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Parfois, la conversion de gros fichiers Excel peut prendre un certain temps. Pendant ce temps, vous souhaiterez peut-être afficher la progression de la conversion du document au lieu d'un simple écran de chargement pour améliorer la convivialité de votre application. Aspose.Cells prend en charge le processus de conversion de documents de suivi en fournissant le**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. La**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**l'interface fournit**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**et**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** méthodes que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme indiqué dans le*TestTiffPageSavingCallback*classe personnalisée.
+Parfois, la conversion de gros fichiers Excel peut prendre un certain temps. Pendant ce temps, vous souhaiterez peut-être afficher la progression de la conversion du document au lieu d'un simple écran de chargement pour améliorer la convivialité de votre application. Aspose.Cells prend en charge le processus de conversion de documents de suivi en fournissant le**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. Le**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**l'interface fournit**[PageStartSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving(com.aspose.cells.PageStartSavingArgs))**et**[PageEndSaving](https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving(com.aspose.cells.PageEndSavingArgs))** méthodes que vous pouvez implémenter dans votre classe personnalisée. Vous pouvez également contrôler quelles pages sont rendues comme indiqué dans le*TestTiffPageSavingCallback*classe personnalisée.
 
-## **Suivre la progression de la conversion d'Excel en TIFF**
+## **Suivre la progression de la conversion d'Excel vers TIFF**
 
-L'exemple de code suivant charge le[fichier excel source](sampleUseWorkbookRenderForImageConversion.xlsx)et imprime sa progression de conversion dans la console en utilisant le*TestTiffPageSavingCallback*classe personnalisée qui implémente**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. Le fichier de sortie généré est joint pour votre référence.
+L'exemple de code suivant charge le[fichier excel source](sampleUseWorkbookRenderForImageConversion.xlsx) et imprime sa progression de conversion dans la console en utilisant le*TestTiffPageSavingCallback*classe personnalisée qui implémente**[IPageSavingCallback](https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**interface. Le fichier de sortie généré est joint pour votre référence.
 
 [Fichier de sortie](DocumentConversionProgressForTiff_out.tiff)
 

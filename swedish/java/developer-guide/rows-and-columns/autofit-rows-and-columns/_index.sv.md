@@ -70,6 +70,6 @@ Signaturerna för ovannämnda metoder är följande:
 ## **Viktigt att veta**
 {{% alert color="primary" %}} 
 
- Om en cell slås samman är*AutoFit* metoder kommer inte att tillämpas, vilket är samma beteende som i Microsoft Excel. Dessutom, om texten i en cell är radbruten,[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*AutoFit*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
+ Om en cell slås samman är*Autopassning* metoder kommer inte att tillämpas, vilket är samma beteende som i Microsoft Excel. Dessutom, om texten i en cell är radbruten,[autoFitColumn](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) metod kommer inte heller att tillämpas. En annan sak du behöver veta är att*Autopassning*metoder är tidskrävande. Så du bör anropa dessa metoder så sällan som möjligt för att säkerställa effektiviteten i din applikation.
 
 {{% /alert %}}

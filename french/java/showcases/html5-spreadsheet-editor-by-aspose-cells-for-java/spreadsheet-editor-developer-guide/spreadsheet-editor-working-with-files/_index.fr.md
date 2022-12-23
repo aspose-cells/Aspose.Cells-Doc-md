@@ -30,7 +30,7 @@ HTML5 Spreadsheet Editor peut ouvrir des fichiers dans les formats suivants :
 - XLSM
 - XLSB
 - XLTX
-- TableurML
+- SpreadsheetML
 - SVC
 - OuvrirDocument
 ### **Ouvrir les fichiers locaux**
@@ -40,7 +40,7 @@ Pour télécharger un fichier depuis un ordinateur local :
 1.  Cliquez sur**Ouvrir à partir de l'ordinateur** pour ouvrir la boîte de dialogue Parcourir.
 1. Accédez à l'emplacement de fichier souhaité.
 1. Cliquez sur le fichier souhaité pour le sélectionner.
-1.  Cliquez sur**Ouvert**.
+1.  Cliquez sur**Ouvrir**.
 
 Le fichier sera ouvert dans l'éditeur.
 
@@ -86,7 +86,7 @@ Le fichier sera ouvert dans l'éditeur.
 
 **Chargement et déchargement**
 
- La méthode***LoaderService.fromInputStream*** lit le***Flux d'entrée*** fourni par fileUpload***composant*** créer une instance de***com.aspose.cells.Workbook*** classer. Cette instance est conservée en mémoire tant que l'utilisateur continue d'afficher ou de modifier la feuille de calcul dans le navigateur Web. Lorsque l'utilisateur quitte l'éditeur ou ferme le navigateur, les instances inutilisées sont automatiquement déchargées de la mémoire pour garder le serveur propre.
+ La méthode***LoaderService.fromInputStream*** lit le***Flux d'entrée*** fourni par fileUpload***composant*** créer une instance de***com.aspose.cells.Workbook***classe. Cette instance est conservée en mémoire tant que l'utilisateur continue d'afficher ou de modifier la feuille de calcul dans le navigateur Web. Lorsque l'utilisateur quitte l'éditeur ou ferme le navigateur, les instances inutilisées sont automatiquement déchargées de la mémoire pour garder le serveur propre.
 
 
 
@@ -278,9 +278,9 @@ Votre fichier sélectionné sera ouvert à partir de Dropbox.
 
 **Comment ça fonctionne?**
 
- La**Ouvrir depuis Dropbox** bouton utilise**Sélecteur JavaScript Dropbox API**pour ouvrir la boîte de dialogue Sélecteur de Dropbox. Le sélecteur fournit l'URL du fichier sélectionné, qui est capturé par la fonction de rappel et renvoyé au serveur. Le serveur crée une instance de feuille de calcul à partir de l'URL, initialise certains éléments d'entretien et renvoie les mises à jour DOM au navigateur. Le navigateur affiche et actualise le code HTML et l'utilisateur est prêt à modifier le document chargé.
+ Le**Ouvrir depuis Dropbox** bouton utilise**Sélecteur JavaScript Dropbox API** pour ouvrir la boîte de dialogue Sélecteur de Dropbox. Le sélecteur fournit l'URL du fichier sélectionné, qui est capturé par la fonction de rappel et renvoyé au serveur. Le serveur crée une instance de feuille de calcul à partir de l'URL, initialise certains éléments d'entretien et renvoie les mises à jour DOM au navigateur. Le navigateur affiche et actualise le HTML et l'utilisateur est prêt à modifier le document chargé.
 ### **Ouvrir à partir de l'URL**
- Les fichiers peuvent être ouverts directement à partir d'URL. Cela permet à l'utilisateur de modifier n'importe quel fichier accessible au public sur Internet. Pour ouvrir le fichier ajouter**?url=emplacement** paramètre avec la valeur de votre choix**emplacement** lors du chargement de l'éditeur. Par exemple:
+ Les fichiers peuvent être ouverts directement à partir d'URL. Cela permet à l'utilisateur de modifier n'importe quel fichier accessible au public sur Internet. Pour ouvrir le fichier ajouter**?url=emplacement** paramètre avec la valeur de votre choix**lieu** lors du chargement de l'éditeur. Par exemple:
 
 {{< highlight "java" >}}
 
@@ -298,11 +298,11 @@ Votre fichier sélectionné sera ouvert à partir de Dropbox.
 
 **Mise en cache**
 
- La mise en cache se produit juste après le chargement de la feuille de calcul. La**LoaderService** appels**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** et**LoaderService.buildRowHeightCache**un par un pour mettre en cache le contenu de la feuille de calcul et maintenir toutes les opérations rapides et fluides.
+ La mise en cache se produit juste après le chargement de la feuille de calcul. Le**LoaderService** appels**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** et**LoaderService.buildRowHeightCache** un par un pour mettre en cache le contenu de la feuille de calcul et maintenir toutes les opérations rapides et fluides.
 
 **Mises à jour DOM**
 
-Lorsque la feuille de calcul est prête côté serveur, les composants JSF sont utilisés pour générer un nouveau HTML et envoyer des mises à jour DOM à l'utilisateur qui sont rendues par le navigateur Web.
+Lorsque la feuille de calcul est prête côté serveur, les composants JSF sont utilisés pour générer de nouveaux HTML et envoyer les mises à jour DOM à l'utilisateur qui sont rendues par le navigateur Web.
 
 
 
@@ -517,11 +517,11 @@ L'éditeur fermera la feuille de calcul ouverte, le cas échéant, et en ouvrira
 
 **Mise en cache**
 
- La mise en cache se produit juste après le chargement de la feuille de calcul. La**LoaderService** appels**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** et**LoaderService.buildRowHeightCache**un par un pour mettre en cache le contenu de la feuille de calcul et maintenir toutes les opérations rapides et fluides.
+ La mise en cache se produit juste après le chargement de la feuille de calcul. Le**LoaderService** appels**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** et**LoaderService.buildRowHeightCache** un par un pour mettre en cache le contenu de la feuille de calcul et maintenir toutes les opérations rapides et fluides.
 
 **Mises à jour DOM**
 
-Lorsque la feuille de calcul est prête côté serveur, les composants JSF sont utilisés pour générer un nouveau HTML et envoyer des mises à jour DOM à l'utilisateur qui sont rendues par le navigateur Web.
+Lorsque la feuille de calcul est prête côté serveur, les composants JSF sont utilisés pour générer de nouveaux HTML et envoyer les mises à jour DOM à l'utilisateur qui sont rendues par le navigateur Web.
 
 
 
@@ -704,8 +704,8 @@ Le fichier modifié sera exporté pour téléchargement. Les formats suivants so
 - Excel XLSM
 - Excel XLSB
 - Excel XLTX
-- Excel XLMC
-- TableurML
+- Excel XLTM
+- SpreadsheetML
 - Format de document portable (PDF)
 - Feuille de calcul OpenDocument (ODS)
 

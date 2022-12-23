@@ -16,6 +16,6 @@ Aspose.Cells consente di spostare la prima riga verso il basso quando si inseris
 
 ![cose da fare:immagine_alt_testo](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.java" >}}

@@ -11,7 +11,7 @@ url: /sv/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Vi är
-glad att meddela Aspose.Cells for Java v7.3.1 för användarna!
+ glad att meddela Aspose.Cells for Java v7.3.1 för användarna!
 
  Nya egenskaper
 
@@ -37,13 +37,13 @@ nu, så vi har införlivat dessa nya funktioner/förbättringar i versionen Java
 
  Förbättringar
 
--Tillfälliga teckensnittsfiler skapas mer än en gång när du sparar till PDF
+ -Tillfälliga teckensnittsfiler skapas mer än en gång när du sparar till PDF
 
  -Datum i sidhuvud/sidfot har inte formaterats i enlighet med arbetsbokens lokalinställningar
 
 - Supportnew option: Aspose.Cells.Disable=SunFontManager istället för java.awt.headlessför JVM-krasch av Open JDK
 
- -Exportera automatiska former för HTML-fil
+ -Exportera automatiska former för filen HTML
 
  Undantag
 
@@ -59,18 +59,18 @@ nu, så vi har införlivat dessa nya funktioner/förbättringar i versionen Java
 
  Buggar
 
- -Överlappande text och missade rutnät för att spara PDF
+ -Överlappad text och missade rutnät för att spara PDF
 
- -Extra ramar visades när du sparade om
+-Extra ramar visades när du sparade om
 
  mallfil som XLS-fil
 
  -Läsning av namn med referens "!$A$1" orsakade ett undantag
 
- -PDF-generering misslyckades med specifika diagramdata
+ -PDF generering misslyckades med specifika diagramdata
 
  -Formlerna är felaktiga efter att ha infogat intervall
 
- -Den genererade PDF-filen från Excel-arbetsboken hade fler sidor
+ -Den genererade PDF från Excel-arbetsboken hade fler sidor
 
- Diagrametiketter blev feljusterade och överlappade när kalkylbladet hanterades
+ - Diagrametiketter blev feljusterade och överlappade när kalkylbladet hanterades

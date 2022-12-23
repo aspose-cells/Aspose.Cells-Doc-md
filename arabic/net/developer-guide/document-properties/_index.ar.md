@@ -21,14 +21,14 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 ## **إدارة خصائص الوثيقة باستخدام Microsoft Excel**
 
- Microsoft يسمح لك Excel بإدارة خصائص الوثيقة لملفات Excel بطريقة WYSIWYG. يرجى اتباع الخطوات التالية لفتح ملف**الخصائص** الحوار في Excel 2016.
+ Microsoft يسمح لك Excel بإدارة خصائص الوثيقة لملفات Excel بطريقة WYSIWYG. يرجى اتباع الخطوات التالية لفتح ملف**ملكيات** الحوار في Excel 2016.
 
 1.  من**ملف** القائمة ، حدد**معلومات**.
 
 |**اختيار قائمة المعلومات**|
 |:- |
 |![ما يجب القيام به: image_بديل_نص](managing-document-properties_1.png)|
-1.  انقر فوق**الخصائص** العنوان وحدد "خصائص متقدمة".
+1.  انقر فوق**ملكيات**العنوان وحدد "خصائص متقدمة".
 
 |**النقر فوق تحديد الخصائص المتقدمة**|
 |:- |
@@ -46,7 +46,7 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 {{% alert color="primary" %}}
 
- Aspose.Cells for .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تحويل الوثيقة إلى PDF ، يتم ملء Aspose.Cells for .NET**طلب** حقل بقيمة "Aspose.Cells" و**منتج PDF** حقل بالقيمة ، على سبيل المثال "Aspose.Cells v17.9".
+ Aspose.Cells for .NET يكتب مباشرة المعلومات حول API ورقم الإصدار في وثائق المخرجات. على سبيل المثال ، عند تقديم المستند إلى PDF ، يتم تعبئة Aspose.Cells for .NET**تطبيق** حقل بقيمة "Aspose.Cells" و**PDF منتج** حقل بالقيمة ، على سبيل المثال "Aspose.Cells v17.9".
 
 يرجى ملاحظة أنه لا يمكنك توجيه Aspose.Cells for .NET لتغيير أو إزالة هذه المعلومات من مستندات الإخراج.
 
@@ -54,7 +54,7 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 ### **الوصول إلى خصائص المستند**
 
- تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)صف دراسي.
+تدعم واجهات برمجة التطبيقات Aspose.Cells كلا نوعي خصائص المستند المضمنة والمخصصة. Aspose.Cells '[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل class ملف Excel ، ومثل ملف Excel ، فإن ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمكن أن تحتوي الفئة على أوراق عمل متعددة ، يمثل كل منها ملف[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class بينما يتم تمثيل مجموعة أوراق العمل بواسطة[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)صف دراسي.
 
  استخدم ال[**ورقة العمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)للوصول إلى خصائص مستند الملف كما هو موضح أدناه.
 
@@ -83,8 +83,8 @@ description: إدارة خصائص المستندات لملفات جداول ا
 |:- |:- |:- |
 |قيمة منطقية|نوع بيانات الخاصية منطقي|ToBool|
 |تاريخ|نوع بيانات الخاصية هو DateTime. لاحظ أن Microsoft يخزن Excel فقط<br>جزء التاريخ ، لا يمكن تخزين أي وقت في خاصية مخصصة من هذا النوع|ToDateTime|
-|يطفو|نوع بيانات الخاصية هو مزدوج|للمضاعفة|
-|رقم|نوع بيانات الخاصية هو Int32|ToInt|
+|تطفو|نوع بيانات الخاصية هو مزدوج|للمضاعفة|
+|عدد|نوع بيانات الخاصية هو Int32|ToInt|
 |سلسلة|نوع بيانات الخاصية هو String|إلى سلسلة|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AccessingValueOfDocumentProperties.cs" >}}
@@ -95,13 +95,13 @@ description: إدارة خصائص المستندات لملفات جداول ا
 
 ### **إضافة خصائص مخصصة**
 
- كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) طريقة ل[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class لإضافة خصائص مخصصة إلى المجموعة. ال[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) أسلوب إضافة الخاصية إلى ملف Excel وإرجاع مرجع لخاصية المستند الجديدة كملف[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)هدف.
+ كشفت واجهات برمجة التطبيقات Aspose.Cells ملف[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) طريقة ل[**CustomDocumentPropertyCollection**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection) class لإضافة خصائص مخصصة إلى المجموعة. ال[**يضيف**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/add/index) أسلوب إضافة الخاصية إلى ملف Excel وإرجاع مرجع لخاصية المستند الجديدة كملف[**Aspose.Cells.Properties.DocumentProperty**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)موضوع.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-AddingDocumentProperties.cs" >}}
 
 ### **تكوين خاصية مخصصة "ارتباط بالمحتوى"**
 
- لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.AddLinkToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/addlinktocontent) طريقة واسم الملكية والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.SLinkedToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/islinkedtocontent) منشأه. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)صف دراسي.
+ لإنشاء خاصية مخصصة مرتبطة بمحتوى نطاق معين ، قم باستدعاء[**CustomDocumentPropertyCollection.AddLinkToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/customdocumentpropertycollection/methods/addlinktocontent) طريقة واسم الملكية والمصدر. يمكنك التحقق مما إذا كانت الخاصية قد تم تكوينها على أنها مرتبطة بالمحتوى باستخدام[**DocumentProperty.SLinkedToContent**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/islinkedtocontent) خاصية. علاوة على ذلك ، من الممكن أيضًا الحصول على نطاق المصدر باستخدام[**مصدر**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty/properties/source) ممتلكات[**وثيقة الملكية**](https://reference.aspose.com/cells/net/aspose.cells.properties/documentproperty)صف دراسي.
 
  نستخدم ملف إكسل Microsoft قالب بسيط في المثال. يحتوي المصنف على نطاق مسمى محدد يسمى**MyRange** الذي يشير إلى قيمة الخلية.
 

@@ -14,7 +14,7 @@ url: /sv/net/aspose-cells-net-4-1-1-0-hot-fix-release-notes/
 
  Vi har släppt Aspose.Cells for .NET v4.1.1!
 
-- Förbättrade WebForm-demonstrationer
+- Förbättrade WebForm-demos
 - F0007: NPV-funktion som stöds i formelberäkningsmotorn
 - F0009: Stöds för att läsa textrutor i mallfiler
 - F0015: Stöd BIFF7-kryptering i vissa skyddade filer

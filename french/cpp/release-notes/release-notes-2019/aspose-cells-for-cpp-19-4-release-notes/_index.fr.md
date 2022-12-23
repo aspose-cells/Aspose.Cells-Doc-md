@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 19.4.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-209|Prise en charge de la bibliothèque 64 bits (x64) dans nuget en mode débogage|Nouvelle fonctionnalité|
 |CELLSCPP-210|Exception lors de l'appel de CalculateFormula()|Punaise|

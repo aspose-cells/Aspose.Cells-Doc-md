@@ -225,7 +225,7 @@ Aspose.Cells API を使用すると、スプレッドシートからテーマ関
 ### **プロパティ DrawObject.ImageBytes が追加されました**
 Aspose.Cells for Java 8.4.0 では、Chart または Shape から画像データを取得する DrawObject.ImageBytes プロパティが公開されました。
 ### **プロパティ HtmlSaveOptions.ExportBogusRowData が追加されました**
-Aspose.Cells for Java 8.4.0 では {HtmlSaveOptions.ExportBogusRowData}} プロパティが提供されました。ブール型プロパティは、スプレッドシートを HTML 形式にエクスポートする際に API が偽の最下行データを挿入するかどうかを決定します。
+Aspose.Cells for Java 8.4.0 では {HtmlSaveOptions.ExportBogusRowData}} プロパティが提供されました。ブール型プロパティは、スプレッドシートを HTML 形式にエクスポートする際に、API が偽の最下行データを挿入するかどうかを決定します。
 
 {{% alert color="primary" %}} 
 
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **プロパティ HtmlSaveOptions.CellCssPrefix が追加されました**
-新しく追加されたプロパティ HtmlSaveOptions.CellCssPrefix を使用すると、スプレッドシートを HTML 形式にエクスポートするときに CSS ファイルのプレフィックスを設定できます。
+新しく追加されたプロパティ HtmlSaveOptions.CellCssPrefix を使用すると、スプレッドシートを HTML 形式でエクスポートするときに、CSS ファイルのプレフィックスを設定できます。
 
 {{% alert color="primary" %}} 
 

@@ -99,7 +99,7 @@ Nu har projektet laddats i IDE, men du kanske vill ändra vyn till Project så a
 
 ![todo:image_alt_text](aspose-cells-for-android-via-java-installation_9.png)
 
-Därefter lägger vi till Aspose.Cells for Android via Java Jar till projektet. Det finns 2 viktiga steg som beskrivs nedan.
+Därefter lägger vi till Aspose.Cells for Android via Java Jar till projektet. Det finns två viktiga steg som beskrivs nedan.
 
 -  Kopiera Aspose.Cells for Android via Java burken manuellt till**\app\libs** mapp.
 - Lägg till Aspose.Cells for Android via Java Jar som bibliotek till modulen som visas nedan.

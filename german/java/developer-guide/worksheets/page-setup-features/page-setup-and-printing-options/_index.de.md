@@ -43,14 +43,14 @@ Erstellen Sie zunächst ein einfaches Arbeitsblatt in Microsoft Excel. Wenden Si
 1. Laden Sie Aspose.Cells herunter und installieren Sie es:
    1. [Download](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
  1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 1. Erstellen Sie ein Projekt.
- Erstellen Sie entweder ein Projekt mit einem Java-Editor, z. B. Eclipse, oder erstellen Sie ein einfaches Programm mit einem Texteditor.
+Erstellen Sie entweder ein Projekt mit einem Java-Editor, z. B. Eclipse, oder erstellen Sie ein einfaches Programm mit einem Texteditor.
 1. Fügen Sie einen Klassenpfad hinzu.
 1. Extrahieren Sie Aspose.Cells.jar und dom4j_1.6.1.jar aus Aspose.Cells.zip.
  1. Legen Sie den Klassenpfad des Projekts in Eclipse fest:
  1. Wählen Sie Ihr Projekt in Eclipse aus und klicken Sie dann auf**Projekt** gefolgt von**Eigenschaften**.
- 1. Wählen**Java Erstellungspfad**links neben dem Dialog.
+ 1. Wählen**Java Erstellungspfad** links neben dem Dialog.
  1. Wählen Sie die Registerkarte Bibliotheken, klicken Sie auf**JARs hinzufügen** oder**Fügen Sie externe JARs hinzu** um Aspose.Cells.jar und dom4j_1.6.1.jar auszuwählen und sie den Erstellungspfaden hinzuzufügen.
  Oder Sie können es zur Laufzeit an einer DOS-Eingabeaufforderung in Windows festlegen:
 

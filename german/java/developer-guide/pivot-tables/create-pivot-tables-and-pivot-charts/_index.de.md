@@ -30,7 +30,7 @@ Aspose.Cells stellt einen speziellen Satz von Klassen bereit, die zum Erstellen 
 1. Laden Sie Aspose.Cells.Zip herunter und installieren Sie es:
    1. [Herunterladen Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
  1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 1. Erstellen Sie ein Projekt
  1. Sie können entweder ein Projekt mit einem Java-Editor erstellen, z. B. Eclipse, oder ein einfaches Programm mit einem NotePad erstellen.
 1. Klassenpfad hinzufügen:
@@ -95,7 +95,7 @@ Aspose.Cells hat von jahrelanger Forschung, Design und sorgfältiger Abstimmung 
 
 {{% /alert %}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Benutzerdefinierte Sortierung in der Pivot-Tabelle](/cells/de/java/custom-sorting-in-pivot-table/)
 - [Pivot-Tabelle formatieren](/cells/de/java/formatting-pivot-table/)

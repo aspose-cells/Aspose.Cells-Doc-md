@@ -11,7 +11,7 @@ Das gleichzeitige Lesen von Zellenwerten in mehreren Threads ist eine häufige A
 
 {{% /alert %}}
 
- Um Zellenwerte in mehr als einem Thread gleichzeitig zu lesen, set[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading) zu**Stimmt**Wenn Sie dies nicht tun, erhalten Sie möglicherweise die falschen Zellenwerte. Bitte beachten Sie, dass einige Funktionen wie das Formatieren von Zellenwerten für mehrere Threads nicht unterstützt werden. MultiThreadReading ermöglicht Ihnen also nur den Zugriff auf die Originaldaten der Zelle. Wenn Sie in einer Umgebung mit mehreren Threads versuchen, den formatierten Wert der Zelle abzurufen, z. B. durch Cell.getStringValue() für numerische Werte, erhalten Sie möglicherweise ein unerwartetes Ergebnis oder eine Ausnahme.
+ Um Zellenwerte in mehr als einem Thread gleichzeitig zu lesen, set[**Worksheet.getCells().setMultiThreadReading()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MultiThreadReading) zu**wahr**Wenn Sie dies nicht tun, erhalten Sie möglicherweise die falschen Zellenwerte. Bitte beachten Sie, dass einige Funktionen wie das Formatieren von Zellenwerten für mehrere Threads nicht unterstützt werden. MultiThreadReading ermöglicht Ihnen also nur den Zugriff auf die Originaldaten der Zelle. Wenn Sie in einer Umgebung mit mehreren Threads versuchen, den formatierten Wert der Zelle abzurufen, z. B. durch Cell.getStringValue() für numerische Werte, erhalten Sie möglicherweise ein unerwartetes Ergebnis oder eine Ausnahme.
 
 Der folgende Code:
 

@@ -12,7 +12,7 @@ url: /fr/net/check-password-to-modify-using-aspose-cells/
 
 ## **Vérifier le mot de passe à modifier dans Microsoft Excel**
 
-Vous pouvez attribuer**Mot de passe pour ouvrir** et**Mot de passe à modifier** lors de la création de vos classeurs dans Microsoft Excel. Veuillez consulter cette capture d'écran qui montre l'interface Microsoft fournie par Excel pour spécifier ces mots de passe.
+ Vous pouvez attribuer**Mot de passe pour ouvrir** et**Mot de passe à modifier** lors de la création de vos classeurs dans Microsoft Excel. Veuillez consulter cette capture d'écran qui montre l'interface Microsoft fournie par Excel pour spécifier ces mots de passe.
 
 |![tâche : image_autre_texte](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |

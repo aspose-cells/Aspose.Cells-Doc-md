@@ -38,13 +38,13 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 ## **البق**
 
 
- (CELLSJAVA-41366) - جدول بيانات تالف بعد فتح وحفظ ملف XLSX النموذجي
+ (CELLSJAVA-41366) - تلف جدول البيانات بعد فتح وحفظ ملف القالب XLSX
 
-(CELLSJAVA-41355) - التحويل إلى HTML يلحق سلسلة # في نهاية قيم العمود
+ (CELLSJAVA-41355) - التحويل إلى HTML يلحق سلسلة # في نهاية قيم العمود
 
- (CELLSJAVA-41354) - لا يتم عرض الأرقام في مربعات النص بالداخل
+(CELLSJAVA-41354) - لا يتم عرض Numbers في مربعات النص بالداخل
 
- (CELLSJAVA-41353) - لا يتطابق موضع / محاذاة الفنون الذكية في ملف PDF مع ملف Excel المصدر
+ (CELLSJAVA-41353) - لا يتطابق موضع / محاذاة الفنون الذكية في PDF مع ملف Excel المصدر
 
  (CELLSJAVA-41343) - خلاصة القول أطول بكثير من الأصل في ملف القالب
 
@@ -62,13 +62,13 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41326) - فقد نص في ملف القالب
 
- (CELLSJAVA-41304) - التحويلات الفاشلة من XLS إلى PDF باستخدام واجهات برمجة تطبيقات Aspose.Cells
+ (CELLSJAVA-41304) - التحويلات الفاشلة من XLS إلى PDF مع Aspose.Cells APIs
 
-(CELLSJAVA-41206) - تحويل ملف Excel يحتوي على ارتباطات تشعبية إلى HTML - لا تعمل الارتباطات التشعبية المشار إليها Cell
+(CELLSJAVA-41206) - تحويل ملف Excel الذي يحتوي على ارتباطات تشعبية إلى HTML - لا يعمل Cell الارتباطات التشعبية المشار إليها
 
  (CELLSJAVA-40483) - مشكلة في تنسيق شكل / كائن سهم - عرض Excel إلى PDF
 
- (CELLSJAVA-41372) - لا يتم عرض مخطط جانت في تنسيق ملف PDF الناتج
+ (CELLSJAVA-41372) - لم يتم تقديم مخطط جانت في تنسيق ملف الإخراج PDF
 
  (CELLSJAVA-41363) - مشكلة مع القيم المرجعة للمعلمات في حساب الوظيفة المخصصة
 
@@ -82,33 +82,33 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41369) - مشكلة مع عوامل التصفية التلقائية في الصيغ
 
- (CELLSJAVA-41348) - لا يعمل التنسيق الشرطي بتنسيق الأرقام مع XLS
+ (CELLSJAVA-41348) - التنسيق الشرطي بتنسيق الأرقام لا يعمل مع XLS
 
- (CELLSJAVA-41347) - يقوم Style.isDateTime بإرجاع خطأ لخلية منسقة كتاريخ
+(CELLSJAVA-41347) - يقوم Style.isDateTime بإرجاع خطأ لخلية منسقة كتاريخ
 
-(CELLSJAVA-41338) - يظهر الحد الأيسر عندما لا يكون لخلية بها عمود مخفي مجاور
+ (CELLSJAVA-41338) - يظهر الحد الأيسر عندما لا يكون لخلية بها عمود مخفي مجاور
 
  (CELLSJAVA-41331) - لا يتم تحديث الصيغ بشكل صحيح بعد إدراج الصفوف
 
- (CELLSJAVA-41330) - منطقة الطباعة الديناميكية مكسورة عند الحفظ بتنسيق / طباعة PDF
+ (CELLSJAVA-41330) - منطقة الطباعة الديناميكية مكسورة عند الحفظ باسم / طباعة PDF
 
- (CELLSJAVA-41365) - بعض الأحرف العبرية في مربع النص مفقودة في ملف PDF الناتج
+ (CELLSJAVA-41365) - بعض الأحرف العبرية في مربع النص مفقودة في ملف الإخراج PDF
 
- (CELLSJAVA-41346) - يتم تعتيم محور القيمة وتسميات محور الفئة في المخطط (تحويل Excel إلى PDF)
+ (CELLSJAVA-41346) - تم تعتيم محور القيمة وتسميات محور الفئة في المخطط (تحويل Excel إلى PDF)
 
  (CELLSJAVA-41312) - النص كبير جدًا ويتمدد خارج الهامش
 
  (CELLSJAVA-41305) - تتداخل أحرف النص الغامق مع بعضها أثناء تحويل ورقة العمل إلى صورة
 
- (CELLSJAVA-40916) - يتم تقديم النص خارج فاصل الصفحة في PDF كنص ملفوف
+ (CELLSJAVA-40916) - يتم تقديم النص الموجود خارج فاصل الصفحة في PDF كنص ملفوف
 
- (CELLSJAVA-40791) - مشكلة تتعلق بفاصل الصفحة وعرض الخطوط والهوامش في عرض Excel إلى PDF
+ (CELLSJAVA-40791) - مشكلة تتعلق بفاصل الصفحة وعرض الخطوط والهوامش في Excel لعرض PDF
 
- (CELLSJAVA-40605) - Aspose.Cells: يظهر النص المقطوع في الخلية الأصلية بالكامل عند التحويل إلى PDF
+(CELLSJAVA-40605) - Aspose.Cells: يظهر النص المقطوع في الخلية الأصلية بالكامل عند التحويل إلى PDF
 
-(CELLSJAVA-40479) - عرض مشكلة تخطيط الصفحة (RTL)
+ (CELLSJAVA-40479) - عرض مشكلة تخطيط الصفحة (RTL)
 
- (CELLSJAVA-40448) - التذييل خاطئ في ملف PDF الذي تم إنشاؤه
+ (CELLSJAVA-40448) - تعطل التذييل في الملف PDF الذي تم إنشاؤه
 
  (CELLSJAVA-41359) - تظهر نقطة صغيرة في وسط المخطط الدائري أثناء حفظها في الصورة
 
@@ -130,7 +130,7 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 
  (CELLSJAVA-41361) - java.lang.NumberFormatException: لسلسلة الإدخال: "0،00" في Workbook ctor
 
- (CELLSJAVA-41344) - java.lang.NullPointerException في Cells. ابحث
+(CELLSJAVA-41344) - java.lang.NullPointerException في Cells. ابحث
 
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
@@ -146,7 +146,7 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
-يضيف خاصية SheetRender.PageScale.
+ يضيف خاصية SheetRender.PageScale.
 
  يتم استخدامه للحصول على مقياس صفحة محسوب للورقة.
 
@@ -177,13 +177,13 @@ url: /ar/java/aspose-cells-for-java-8-5-0-release-notes/
 
 
 
- يضيف الطرق: RefifiedArea.GetValues () ، RefifiedArea.GetValue (int rowOffset ، int colOffset)
+يضيف الطرق: RefifiedArea.GetValues () ، RefifiedArea.GetValue (int rowOffset ، int colOffset)
 
  السماح للمستخدم بجلب البيانات من مرجع.
 
 
 
-التغييرات لمعلمات ICustomFunction.CalculateCustomFunction (سلسلة functionName ، ArrayList paramsList ، ArrayList ContextObjects)
+ التغييرات لمعلمات ICustomFunction.CalculateCustomFunction (سلسلة functionName ، ArrayList paramsList ، ArrayList ContextObjects)
 
  نضيف الآن كائن RefifiedArea إلى "paramsList" بدلاً من القيمة أو مصفوفة القيمة للمنطقة المشار إليها عندما تكون المعلمة المقابلة مرجعًا أو تكون نتيجتها المحسوبة مرجعًا. ونقوم بإزالة RefifiedAreaCollection من ContextObjexts.
 

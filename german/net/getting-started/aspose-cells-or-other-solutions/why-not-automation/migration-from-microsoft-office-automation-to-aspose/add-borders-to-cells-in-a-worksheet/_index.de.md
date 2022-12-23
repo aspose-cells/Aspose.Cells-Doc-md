@@ -22,8 +22,8 @@ Führen Sie die folgenden Schritte aus, um Rahmen zu Zellen in einer Tabelle hin
  1. Fügen Sie Text zu den Zellen hinzu, denen Sie Rahmen hinzufügen möchten.
 1. Grenzen hinzufügen:
  1. Definieren Sie einen Bereich.
- 1. Wenden Sie einen Rahmenstil auf den Bereich an.
-Wiederholen Sie dies für jeden Bereich und jeden Rahmenstil, den Sie festlegen möchten. Dieses Beispiel wendet Haarlinien, dünne, mittlere und dicke Linien an.
+1. Wenden Sie einen Rahmenstil auf den Bereich an.
+ Wiederholen Sie dies für jeden Bereich und jeden Rahmenstil, den Sie festlegen möchten. Dieses Beispiel wendet Haarlinien, dünne, mittlere und dicke Linien an.
 1. Fertig:
  1. Passen Sie die Spalte, in der sich die Zellen befinden, automatisch an den Text an.
  1. Speichern Sie das Dokument.

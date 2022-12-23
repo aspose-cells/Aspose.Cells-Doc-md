@@ -11,7 +11,7 @@ url: /zh/java/java-security-invalidkeyexception/
 ## **解决方案**
 解决方法其实很简单，详见下文。
 
-1. 下载 Java 加密扩展 (JCE) 无限强度管辖策略文件。
+1. 下载 Java 加密扩展 (JCE) 无限强度管辖政策文件。
 1. 从下载的存档中提取 JAR 文件并将它们放在 ${java.home}/jre/lib/security/ 目录中。
 1. 重新运行程序。
 ## **下载链接**

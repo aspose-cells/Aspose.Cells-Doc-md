@@ -4,7 +4,7 @@ type: docs
 weight: 5
 url: /fr/java/supported-font-formats/
 ---
-|**Format**|**La description**|
+|**Format**|**Description**|
 |:- |:- |:- |:- |
 |**TTF**|Polices TrueType|
 |**TTC**|Collection TrueType|

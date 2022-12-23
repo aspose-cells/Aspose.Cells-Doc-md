@@ -7,13 +7,13 @@ url: /it/java/chart-rendering/
 ---
 ## **Creazione di grafici**
 
- Aspose.Cells Le API supportano la creazione di una verità di grafici Excel come dettagliato nell'argomento[Creazione e personalizzazione di grafici Excel](/cells/it/java/creating-and-customizing-charts/)Per dimostrare l'utilizzo delle API Aspose.Cells per il rendering dei grafici in formato immagine e PDF, creeremo un grafico di tipo Colonna come da seguente frammento.
+ Aspose.Cells Le API supportano la creazione di una verità di grafici Excel come dettagliato nell'argomento[Creazione e personalizzazione di grafici Excel](/cells/it/java/creating-and-customizing-charts/). Per dimostrare l'utilizzo delle API Aspose.Cells per il rendering dei grafici in formato immagine e PDF, creeremo un grafico di tipo Colonna come da seguente frammento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-CreateChart-CreateChart.java" >}}
 
 ## **Grafici di rendering**
 
- Aspose.Cells Le API supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Al fine di fornire supporto per il rendering, il[**Grafico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)classe ha esposto[**immaginare**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) metodi con una verità di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
+ Le API Aspose.Cells supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Al fine di fornire supporto per il rendering, il[**Grafico**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)classe ha esposto[**immaginare**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toImage(java.io.OutputStream,%20com.aspose.cells.ImageOrPrintOptions)) & [**toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) metodi con una verità di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
 
 ### **Rendering di grafici in immagini**
 
@@ -25,9 +25,9 @@ url: /it/java/chart-rendering/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ChartRendering-ChartRendering.java" >}}
 
-### **Rendering del grafico in PDF**
+### **Grafico di rendering a PDF**
 
- Per eseguire il rendering del grafico in formato PDF, le API Aspose.Cells hanno esposto il file[**Grafico.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) con la possibilità di archiviare il PDF risultante nel percorso del disco o in un'istanza di OutputStream.
+ Per eseguire il rendering del grafico nel formato PDF, le API Aspose.Cells hanno esposto il[**Grafico.toPdf**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#toPdf(java.io.OutputStream)) con la possibilità di memorizzare il risultante PDF sul percorso del disco o un'istanza di OutputStream.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-chartsRenderChartsToPdf-RenderChartsToPdf.java" >}}
 
@@ -121,12 +121,12 @@ url: /it/java/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati in immagine o PDF, potresti ritrovarti con immagini di dimensioni 0 o PDF vuoto.
+Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati su image o PDF, potresti ritrovarti con immagini di dimensione 0 o PDF vuoto.
 
 {{% /alert %}}
 
 
 ## **Argomenti avanzati**
-- [Conversione del grafico in immagine in formato SVG](/cells/it/java/converting-chart-to-image-in-svg-format/)
+- [Conversione del grafico in immagine nel formato SVG](/cells/it/java/converting-chart-to-image-in-svg-format/)
 - [Crea grafico PDF con dimensione pagina desiderata](/cells/it/java/create-chart-pdf-with-desired-page-size/)
-- [Esporta il grafico in SVG con l'attributo viewBox](/cells/it/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Esporta grafico a SVG con l'attributo viewBox](/cells/it/java/export-chart-to-svg-with-viewbox-attribute/)

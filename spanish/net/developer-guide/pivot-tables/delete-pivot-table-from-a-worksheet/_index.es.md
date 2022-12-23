@@ -1,5 +1,5 @@
 ﻿---
-title: Eliminar tabla dinámica de una hoja de trabajo
+title: Eliminar tabla dinámica de una hoja de cálculo
 type: docs
 weight: 60
 url: /es/net/delete-pivot-table-from-a-worksheet/

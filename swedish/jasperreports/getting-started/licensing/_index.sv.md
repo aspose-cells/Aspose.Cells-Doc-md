@@ -75,7 +75,7 @@ Denna metod är tillämplig för användning med JasperServer.
 
 ## **Verifiera att licensen fungerar**
 
-Exportera valfri rapport till XLS-format och kontrollera om rapporten innehåller ett utvärderingsmeddelande. Om det inte finns något utvärderingsmeddelande, fungerar licensen korrekt.
+Exportera valfri rapport till formatet XLS och kontrollera om rapporten innehåller ett utvärderingsmeddelande. Om det inte finns något utvärderingsmeddelande, fungerar licensen korrekt.
 
 **Aspose.Cells for JasperReports injicerar ett utvärderingsark i utvärderingsläge** 
 

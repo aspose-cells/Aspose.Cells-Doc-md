@@ -8,7 +8,7 @@ url: /de/sharepoint/preview-multiple-documents/
 
  So zeigen Sie alle Dateien in einem Ordner in der Vorschau an:
 
-1.  Auswählen**Vorschaudokument mit Aspose.Cells** in der ECB für Ihren gewünschten Ordner, während Sie im übergeordneten Ordner bleiben.
+1.  Wählen**Vorschaudokument mit Aspose.Cells** in der ECB für Ihren gewünschten Ordner, während Sie im übergeordneten Ordner bleiben.
 
 So zeigen Sie mehrere Dateien in einem Ordner in der Vorschau an:
 

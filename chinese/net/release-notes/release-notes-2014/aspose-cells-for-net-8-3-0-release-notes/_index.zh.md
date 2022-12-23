@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-43112) - 获取图表内趋势线方程的文本
 
@@ -28,13 +28,13 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-41756) - XLS 到 HTML 转换中的图像问题
 
-(CELLSNET-41755) - XLS 中的图像到 PDF 的转换问题
+(CELLSNET-41755) - XLS 到 PDF 转换中的图像问题
 
 (CELLSNET-43111) - 将单元格值添加到 XLSB 删除预设
 
-(CELLSNET-43110) - 由 XLSB 输出中的数据透视字段（双）引起的错误“Excel 发现不可读的内容”
+(CELLSNET-43110) - 错误“Excel 发现不可读的内容”由 XLSB 输出中的数据透视字段（双）引起
 
-(CELLSNET-43109) - 由 XLSX 输出中的数据透视字段（双）引起的错误“Excel 发现不可读的内容”
+(CELLSNET-43109) - XLSX 输出中的数据透视字段（双）导致错误“Excel 发现不可读的内容”
 
 (CELLSNET-43095) - 图形正在移动其位置
 
@@ -44,15 +44,15 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-42871) - 1 个单元格中有 2 个超链接的问题
 
-(CELLSNET-42797) - 文本框在保存到 XPS 时失去对齐
+(CELLSNET-42797) - 文本框失去对齐方式被保存到 XPS
 
-(CELLSNET-42796) - 文本框在保存为 PDF 时失去对齐
+(CELLSNET-42796) - 文本框失去对齐方式被保存到 PDF
 
 (CELLSNET-42199) - Excel Diagram 未正确导出
 
 (CELLSNET-40902) - 渲染到图像时，Excel 文本框的大小调整不正确
 
-(CELLSNET-43138) - 在将 SpreadsheetML 转换为 PDF 格式时，红色文本呈现为黑色
+(CELLSNET-43138) - 在将 SpreadsheetML 格式转换为 PDF 格式时，红色文本呈现为黑色
 
 (CELLSNET-43133) - 打印多份副本问题
 
@@ -84,7 +84,7 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-41690) - 数字签名正在失去其透明度
 
-(CELLSNET-43152) - 打开和保存 XLSB 文件使其损坏
+(CELLSNET-43152) - 打开并保存 XLSB 文件使其损坏
 
 (CELLSNET-43143) - 将工作簿与名为 R# 的工作表组合会产生损坏的工作簿
 
@@ -108,9 +108,9 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 (CELLSNET-43094) - 地板公式计算不正确
 
-(CELLSNET-43091) - 在将 ODS 转换为 XLSX 格式时图表的布局发生了变化
+(CELLSNET-43091) - 在将 ODS 格式转换为 XLSX 格式时图表的布局发生了变化
 
-(CELLSNET-43087) - ODS 到 XLSX 的转换产生损坏的电子表格
+(CELLSNET-43087) - ODS 到 XLSX 的转换会产生损坏的电子表格
 
 (CELLSNET-43080) - 将 Excel 另存为 Html：条件格式不起作用
 
@@ -142,7 +142,7 @@ url: /zh/net/aspose-cells-for-net-8-3-0-release-notes/
 
 ### **其他改进和变化**
 
-### **新的功能**
+### **新功能**
 
 (CELLSNET-43106) - 通过代码更改水平滚动条相对于 Tabbar 的位置
 

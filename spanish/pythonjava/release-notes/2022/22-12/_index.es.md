@@ -13,21 +13,21 @@ url: /es/python-java/aspose-cells-for-python-via-java-22-12-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-43645|El atributo de "formato 3D" del rectángulo no se representa correctamente|
-|CELLSJAVA-44936|Establecer la configuración de DPI de la imagen del gráfico (PNG)|
+|CELLSJAVA-44936|Establecer imagen de gráfico (PNG) Configuración de DPI|
 |CELLSJAVA-44937|Establecer la configuración de DPI de la imagen del gráfico (JPG)|
-|CELLSJAVA-44998|Las comillas dobles causan que el estilo en línea falle en HTML|
+|CELLSJAVA-44998|Las comillas dobles causaron un error en el estilo en línea en HTML|
 |CELLSJAVA-44970|Optimizar el efecto de sombra|
 |CELLSJAVA-44967|Gráfico getDataLabels().getText() que devuelve un valor diferente en v22.6.0 y versiones posteriores|
 |CELLSJAVA-44969|Convierta Excel a HTML, las etiquetas de datos muestran errores|
 |CELLSJAVA-44949|La transparencia cambió al insertar el rango de Excel como imagen con formato diferente en la diapositiva PowerPoint|
 |CELLSJAVA-44985|Conversión de Excel a HTML: la leyenda del gráfico no aparece y el área de trazado se trunca|
 |CELLSJAVA-44952|Problema con el método DataBar.toImage con respecto al ancho|
-|CELLSJAVA-44986|Las imágenes importadas no están alineadas en una línea cuando las imágenes están en Div.|
+|CELLSJAVA-44986| Las imágenes importadas no están alineadas en una línea cuando las imágenes están en Div.|
 |CELLSJAVA-44987|Algunas imágenes están tapadas por otras al cargar html|
 |CELLSJAVA-44988|El texto no se gira al cargar html|
 |CELLSJAVA-44989|La configuración de fuente en div se pierde al cargar html|
 |CELLSJAVA-44997|Datos y formatos perdidos en la conversión de HTML a Excel|
-|CELLSJAVA-44999| Aspose.Cells La configuración de globalización personalizada no funciona para la mayoría de la tabla dinámica|
+|CELLSJAVA-44999|Aspose.Cells La configuración de globalización personalizada no funciona para la mayoría de la tabla dinámica|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

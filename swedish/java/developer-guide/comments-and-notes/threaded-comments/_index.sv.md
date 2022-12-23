@@ -96,6 +96,6 @@ Följande exempel visar hur du tar bort kommentarer i kolumn A1 genom att ladda[
 
 {{% alert color="primary" %}} 
 
- Observera att genom att ta bort kommentar med Aspose.Cells tas författaren inte bort automatiskt. Om du också behöver ta bort författaren, använd[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) metod som visas i exemplet ovan.
+ Observera att genom att ta bort kommentar med Aspose.Cells tas författaren inte bort automatiskt. Om du också behöver ta bort författaren, använd[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)metod som visas i exemplet ovan.
 
 {{% /alert %}}

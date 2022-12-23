@@ -10,7 +10,7 @@ Aspose.Cells.GridJs は .NET 標準ライブラリで、スプレッドシート
 
 Aspose.Cells.GridJs は、一般的なスプレッドシート (XLS、XLSX、XLSM、XLSB、CSV、SpreadsheetML、ODS) ファイル形式のインポートをサポートしています。
 
-また、Excel ファイルを PDF や HTML などにエクスポートすることもできます。以下は、GridJs の Web アプリケーションを開発するための基本的なプロセスの手順です。
+また、Excel ファイルを PDF、HTML などにエクスポートすることもできます。以下は、GridJs の Web アプリケーションを開発するための基本的なプロセスの手順です。
 
 - GridCacheForStream を実装して、キャッシュ ストレージ用の独自のビジネス ロジックを記述します。
 - スプレッドシート ファイルから json を取得するコントローラー アクションを設定します。 GridJsWorkbook.ImportExcelFile および GridJsWorkbook.ExportToJson API を使用できます。GridJs はスプレッド ファイルを自動的にキャッシュに保存します。

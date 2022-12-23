@@ -103,7 +103,7 @@ Aspose.Cells for .NET, hangi kaynakların ve ikamelerin ayarlandığı hakkında
 
 {{% /alert %}} 
 ### **IFilePathProvider Arayüzü & HtmlSaveOptions.FilePathProvider özelliği eklendi**
-Aspose.Cells for .NET 8.9.1, çalışma sayfalarını ayrı HTML dosyalarına dışa aktarmak için IFilePathProvider'ın alınmasına/ayarlanmasına izin verir. Bu yeni API'ler, bir çalışma sayfasındaki köprülerin başka bir çalışma sayfasındaki bir konuma işaret ettiği ve uygulama gereksiniminin her çalışma sayfasını ayrı bir HTML dosyasına dönüştürmek olduğu senaryolarda yardımcı olur. IFilePathProvider'ı uygulamak, sonuçta ortaya çıkan ayrı bir HTML dosyasında bir konuma işaret ediyor olsalar da yukarıda belirtilen köprülerin bozulmadan kalmasına izin verir.
+Aspose.Cells for .NET 8.9.1, çalışma sayfalarını ayrı HTML dosyalarına dışa aktarmak için IFilePathProvider'ın alınmasına/ayarlanmasına izin verir. Bu yeni API'ler, bir çalışma sayfasındaki köprülerin başka bir çalışma sayfasındaki bir konuma işaret ettiği ve uygulama gereksiniminin her çalışma sayfasını ayrı HTML dosyasına dönüştürmek olduğu senaryolarda yardımcı olur. IFilePathProvider'ı uygulamak, ayrı bir sonuçtaki HTML dosyasında bir konumu işaret ediyor olsalar da, yukarıda belirtilen köprülerin bozulmadan kalmasına izin verir.
 
 HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağıdadır.
 
@@ -115,7 +115,7 @@ HtmlSaveOptions.FilePathProvider özelliğinin basit kullanım senaryosu aşağ�
 
 var book = new Workbook(dir + "sample.xlsx");
 
-// Her Çalışma Sayfasını HTML dosyasını ayırmak için kaydedin
+// HTML dosyasını ayırmak için her Çalışma Sayfasını kaydedin
 
  için (int ben = 0; ben< book.Worksheets.Count; i++)
 

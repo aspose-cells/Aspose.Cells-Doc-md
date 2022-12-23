@@ -12,22 +12,22 @@ url: /de/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44701 | API verbirgt die Zeile mit dem DIV-Tag im Stil display:none| Erweiterung|
 |CELLSNET-44700 | API importiert nicht den Inhalt zwischen den DIV-Tags mit dem Stil display:block| Erweiterung|
 |CELLSNET-44699 | API importiert keine Inhalte zwischen den DIV-Tags von HTML| Erweiterung|
-|CELLSNET-44304 |PivotTable.GetCellByDisplayName gibt für alles über dem 256. Feld null zurück| Erweiterung|
+|CELLSNET-44304 | PivotTable.GetCellByDisplayName gibt für alles über dem 256. Feld null zurück| Erweiterung|
 |CELLSNET-44808 | Formel in Table oder ListObject wird nicht mit neuen Zeilen weitergegeben| Erweiterung|
 |CELLSNET-44719 | Workbook.Worksheets.ExternalLinks gibt nicht dieselbe Liste zurück| Erweiterung|
 |CELLSNET-44721 | Die resultierende Tabelle kann nicht in MS Excel geladen werden| Insekt|
-|CELLSNET-44695 | Das Laden aus HTML ignoriert den fetten Stil aus dem Stilblock| Insekt|
+|CELLSNET-44695 | Laden von HTML ignoriert Fettschrift aus dem Stilblock| Insekt|
 |CELLSNET-44779 | Berechneter Wert von Zelle D5 ist falsch| Insekt|
-|CELLSNET-44775 | Konvertierung von Excel in PDF - Anzahl der Seiten im Ausgabe-PDF-Dateiformat erhöht| Insekt|
+|CELLSNET-44775 | Konvertierung von Excel in PDF - Anzahl der Seiten im Ausgabedateiformat PDF erhöht| Insekt|
 |CELLSNET-44771 | Textverlust beim Konvertieren von Excel in PDF| Insekt|
 |CELLSNET-44733 | Ausgeblendeter Text aufgrund geringerer Spaltenbreite wurde im Bild gerendert| Insekt|
-|CELLSNET-44768 | Der Diagrammtitel ändert sich nicht dynamisch| Insekt|
+|CELLSNET-44768 |Der Diagrammtitel ändert sich nicht dynamisch| Insekt|
 |CELLSNET-44763 | Diagramm, das mit dem hebräischen Sprachpaket in MS Office definiert wurde, wird nicht korrekt in das Bild exportiert| Insekt|
-|CELLSNET-44730 | Die ausgerichtete Liste wird in der Ausgabe-PDF nicht richtig angezeigt| Insekt|
-|CELLSNET-44729 | Nummerierte Listen in Excel werden beim Exportieren in PDF nicht richtig angezeigt| Insekt|
-|CELLSNET-44720 | Bogenenden sind im Ausgabe-PDF quadratisch und nicht rund| Insekt|
+|CELLSNET-44730 | Die gerechtfertigte Liste wird in der Ausgabe PDF nicht richtig angezeigt| Insekt|
+|CELLSNET-44729 | Nummerierte Listen in Excel werden beim Exportieren nach PDF nicht richtig angezeigt| Insekt|
+|CELLSNET-44720 | Bogenenden sind in der Ausgabe PDF quadratisch und nicht rund| Insekt|
 |CELLSNET-44715 | API gibt die Segmentfarbe des Kreisdiagramms als Keine zurück| Insekt|
-|CELLSNET-44804 |Eine Arbeitsmappe mit einem Hyperlink zu einem anderen Arbeitsblatt, dessen Name das Zeichen „#“ enthält, wird beschädigt| Insekt|
+|CELLSNET-44804 | Eine Arbeitsmappe mit einem Hyperlink zu einem anderen Arbeitsblatt, dessen Name das Zeichen „#“ enthält, wird beschädigt| Insekt|
 |CELLSNET-44791 | Die Objektpositionierung ändert sich nach dem einfachen Laden und Speichern| Insekt|
 |CELLSNET-44772 | Problem mit Hyperlinks durch Hinzufügen von „file:///“ oder ähnlichem| Insekt|
 |CELLSNET-44769 | Die bedingte Formatierung wird beschädigt, wenn die Arbeitsmappe von Aspose.Cells-APIs verarbeitet wird| Insekt|
@@ -35,31 +35,31 @@ url: /de/net/aspose-cells-for-net-16-10-0-release-notes/
 |CELLSNET-44759 | Einem neuen Kommentar kann kein Hyperlink hinzugefügt werden| Insekt|
 |CELLSNET-44758 | Zu einem vorhandenen Kommentar kann kein Hyperlink hinzugefügt werden| Insekt|
 |CELLSNET-44756 | Textfeld nach dem Speichern der Arbeitsmappe gelöscht| Insekt|
-|CELLSNET-44755 | Excel stürzt nach dem Kopieren eines Bereichs/einer Spalte in ein anderes Arbeitsblatt ab| Insekt|
+|CELLSNET-44755 |Excel stürzt nach dem Kopieren eines Bereichs/einer Spalte in ein anderes Arbeitsblatt ab| Insekt|
 |CELLSNET-44754 | Aspose.Cells erhält beim Abrufen von Formeln der Zellen kein einfaches Anführungszeichen| Insekt|
 |CELLSNET-44751 | Die Tabelle wird nach dem einfachen Öffnen und Speichern beschädigt| Insekt|
 |CELLSNET-44743 | Das Hinzufügen eines Hyperlinks innerhalb des Zellenkommentars funktioniert nicht| Insekt|
 |CELLSNET-44735 | Problem beim Aktualisieren des externen Links mit Sonderzeichen| Insekt|
 |CELLSNET-44731 |# NAME-Fehler für dynamisch eingefügte PERCENTILE.INC-Funktion
 | Insekt|
-|CELLSNET-44726 |Das Kopieren/Einfügen von Zeilen führte zu unerwarteten Rändern in der Excel-Ausgabedatei| Insekt|
+|CELLSNET-44726 | Das Kopieren/Einfügen von Zeilen führte zu unerwarteten Rändern in der Excel-Ausgabedatei| Insekt|
 |CELLSNET-44642 | Durch das erneute Speichern der Excel-Datei wird die Standardschriftart geändert| Insekt|
 |CELLSNET-44785 | NullReferenceException beim Öffnen einer bestimmten Datei (XLSB)| Ausnahme|
 |CELLSNET-44760 | IndexOutOfRangeException beim Initialisieren von SheetRender| Ausnahme|
 |CELLSNET-44765 | System.ArgumentOutOfRangeException bei Workbook ctor| Ausnahme|
-|CELLSNET-44757 | System.NullReferenceException beim Öffnen der XLSB-Quelldatei| Ausnahme|
+|CELLSNET-44757 | System.NullReferenceException beim Öffnen der Quelldatei XLSB| Ausnahme|
 |CELLSNET-44750 | Ausnahme: "Ungültiger Spaltenindex." beim Rendern eines Arbeitsblatts in eine Bilddatei| Ausnahme|
 |CELLSNET-44742 | System.FormatException: Die Eingabezeichenfolge hatte bei Workbook ctor kein korrektes Format| Ausnahme|
 ### **2) Aspose.Cells Grid-Suite**
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44724 | Unterstützung benutzerdefinierter Funktionen in Aspose.Cells.GridWeb| Neue Funktion|
+|CELLSNET-44724 |Unterstützung benutzerdefinierter Funktionen in Aspose.Cells.GridWeb| Neue Funktion|
 |CELLSNET-44784 | Der Kopiervorgang verhält sich wie der Ausschneidevorgang, indem der kopierte Wert aus der ursprünglichen Zelle entfernt wird| Insekt|
 |CELLSNET-44777 | Beim Löschen einer Hyperlink-Zelle stürzt Aspose.Cells.GridDesktop ab| Insekt|
 |CELLSNET-44776 | Das Hinzufügen eines Hyperlinks und das anschließende Bearbeiten und Entfernen über das Kontextmenü führt zum Absturz von GridDesktop| Insekt|
 |CELLSNET-44774 | Falsche Formel verursacht Anwendungsabsturz - Aspose.Cells.GridDesktop| Insekt|
-|CELLSNET-44748 |GridDesktop stürzte ab, als wir anfingen, Formeln direkt in die Formelleiste zu schreiben| Insekt|
+|CELLSNET-44748 | GridDesktop stürzte ab, als wir anfingen, Formeln direkt in die Formelleiste zu schreiben| Insekt|
 |CELLSNET-44739 | Aspose.Cells kann die eingebettete Lizenz finden, Aspose.Cells.GridDesktop jedoch nicht| Insekt|
 |CELLSNET-44738 | AutoFilter für Zeilen kann nicht aktiviert werden| Insekt|
 |CELLSNET-44753 | GridDesktop hängt beim Laden eines fehlerhaften Tabellenkalkulations-ML| Insekt|

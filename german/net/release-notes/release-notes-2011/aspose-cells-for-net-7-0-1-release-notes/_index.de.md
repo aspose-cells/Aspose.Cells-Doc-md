@@ -16,7 +16,7 @@ url: /de/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Neue Eigenschaften
 
-29512 Fügen Sie eine neue überladene Methode hinzu: Cell.SetStyle(Stilstil, Bool ExplicitFlag)
+ 29512 Fügen Sie eine neue überladene Methode hinzu: Cell.SetStyle(Stilstil, Bool ExplicitFlag)
 
  Verbesserungen
 
@@ -48,13 +48,13 @@ url: /de/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30303 Problem beim Kopieren von Arbeitsblättern
 
- 30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' AutoFitRow-Funktion
+30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' AutoFitRow-Funktion
 
  29841 Problem mit Kreisdiagramm
 
  30154 Problem mit Diagrammdatenbeschriftungen
 
-30153 Makros sind in der XLSM-Ausgabedatei deaktiviert
+ 30153 Makros sind in der Ausgabedatei XLSM deaktiviert
 
  30332 Problem mit der Skalierung der Diagrammachse
 

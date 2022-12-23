@@ -36,4 +36,4 @@ Bir işlev veya formül eklemek için:
 
 1. Seçmek için bir hücreye tıklayın.
 1.  Tıklamak**İşlev Ekle** üstteki düğme.
-1.  adresindeki talimatları izleyin.**İşlev Ekle**diyalog
+1.  adresindeki talimatları izleyin.**İşlev Ekle** diyalog

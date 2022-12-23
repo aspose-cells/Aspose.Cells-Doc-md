@@ -5,7 +5,7 @@ weight: 100
 url: /it/java/create-different-cell-types-in-apache-poi-and-aspose-cells/
 ---
 ## **Aspose.Cells - Crea diversi tipi Cell**
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -59,7 +59,7 @@ cell.setStyle(style);
 
 {{< /highlight >}}
 ## **Apache POI SS (HSSF + XSSF) - Crea diversi tipi Cell**
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -93,6 +93,6 @@ row.createCell(5).setCellType(Cell.CELL_TYPE_ERROR);
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli, visita[Impostazione dei formati di visualizzazione di numeri e date](/cells/it/java/data-formatting/).
+ Per maggiori dettagli, visita[Impostazione dei formati di visualizzazione di Numbers e delle date](/cells/it/java/data-formatting/).
 
 {{% /alert %}}

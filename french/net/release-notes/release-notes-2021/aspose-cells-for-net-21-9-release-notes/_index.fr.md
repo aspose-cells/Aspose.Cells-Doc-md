@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-9-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-48134|Prise en charge du rendu Box & Whisker Excel 2016 Graphique à l'image|Nouvelle fonctionnalité|
 |CELLSNET-48683|Supprimer le tableau croisé dynamique tout en conservant les données|Renforcement|
@@ -37,19 +37,19 @@ url: /fr/net/aspose-cells-for-net-21-9-release-notes/
 |CELLSNET-49049|La police est déformée lors de la conversion de la feuille en image Emf avec l'option EmfOnly|Punaise|
 |CELLSNET-48049|Espacement des axes différent lors de la conversion du classeur xlsx en emf|Punaise|
 |CELLSNET-48509|Le graphique n'apparaît parfois pas en fonction de la position de la légende|Punaise|
-|CELLSNET-48580| Entrée Miss Legend dans le SVG de sortie du graphique Excel|Punaise|
+|CELLSNET-48580| Entrée Miss Legend dans la sortie SVG du graphique Excel|Punaise|
 |CELLSNET-48696|Erreur lors de la modification de la couleur de l'étiquette de données|Punaise|
-|CELLSNET-48698|Problème de couleur du graphique lors de l'exportation au format PDF|Punaise|
+|CELLSNET-48698|Problème de couleur de graphique lors de l'exportation en PDF|Punaise|
 |CELLSNET-48797|La valeur moyenne du marqueur est une erreur lors de la lecture à partir de xlsx|Punaise|
 |CELLSNET-48455|Problème de hauteur de ligne d'ajustement automatique|Punaise|
 |CELLSNET-48473|La colonne AutoFit ne fonctionne pas correctement|Punaise|
 |CELLSNET-48605|Ajouter du code VBA au classeur produit des résultats corrompus|Punaise|
 |CELLSNET-48644|Lignes et filigrane manquants lors de la conversion de XLSX en HTML par sauts de page|Punaise|
 |CELLSNET-48669|La plage nommée du fichier .ods est lue comme Table .|Punaise|
-|CELLSNET-48718|Se tromper de nom d'objet intégré|Punaise|
+|CELLSNET-48718|Se tromper de nom d'objet incorporé|Punaise|
 |CELLSNET-48966| Après avoir copié la plage de cellules, les formules sont perdues|Punaise|
 |CELLSNET-49055| Les colonnes AutoFit pour la cellule fusionnée ne fonctionnent pas|Punaise|
-|CELLSNET-49100|Certaines cellules manquent de lignes de grille lors de l'exportation au format HTML|Punaise|
+|CELLSNET-49100|Certaines cellules manquent de lignes de grille lors de l'exportation vers HTML|Punaise|
 |CELLSNETCORE-149|La copie des styles après la copie des valeurs efface les valeurs des cellules au format Excel 97|Punaise|
 |CELLSNETCORE-152|Les données d'image EMF ne peuvent pas être lues à partir du fichier XLS|Punaise|
 |CELLSNET-48444|Erreur de paramètre non valide lors de la conversion de xlsb en fichier xls|Exception|
@@ -72,7 +72,7 @@ Obtient et définit la stratégie formatée pour l'ajustement automatique.
 
 ### **Ajoute la propriété MsoFormatPicture.Transparency.**
 
-Renvoie ou définit le degré de transparence de la zone sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).
+ Renvoie ou définit le degré de transparence de la zone sous la forme d'une valeur comprise entre 0,0 (opaque) et 1,0 (clair).
 
 ### **Ajoute des méthodes PivotTableCollection.Remove() surchargées.**
 
@@ -80,5 +80,5 @@ Supprime le tableau croisé dynamique spécifié et vérifie si conserver les do
 
 ### **Ajoute la propriété ImageOrPrintOptions.IsOptimized.**
 
- Indique si optimiser les éléments de sortie. La valeur par défaut est faux. Actuellement, seules les lignes de bordure sont optimisées lorsque cette propriété est définie sur true.
+ Indique si optimiser les éléments de sortie. La valeur par défaut est false. Actuellement, seules les lignes de bordure sont optimisées lorsque cette propriété est définie sur true.
 

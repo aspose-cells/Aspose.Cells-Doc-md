@@ -13,7 +13,7 @@ url: /ar/java/calculate-the-width-and-height-of-the-cell-value-in-unit-of-pixels
 
 {{% /alert %}} 
 ## **احسب العرض والارتفاع لقيمة Cell بوحدة البكسل**
- يشرح الكود التالي استخدام[Cell.getWidthOfValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) )  و[Cell.getHeightOfValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) طُرق.
+ يشرح الكود التالي استخدام[Cell.getWidthOfValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getWidthOfValue\(\) )  و[Cell.getHeightOfValue ()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getHeightOfValue\(\)) أساليب.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculateWidthAndHeightOfCell-CalculateWidthAndHeightOfCell.java" >}}
 

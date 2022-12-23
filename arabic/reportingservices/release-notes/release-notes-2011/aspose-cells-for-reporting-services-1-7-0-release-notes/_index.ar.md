@@ -16,7 +16,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services يدعم المصمم إنشاء قالب مصفوفة في Excel.
 - يدعم التنسيق الشرطي لعناصر تقرير المصفوفة والجدول.
-- يضيف عنصر تقرير tablix التقديم فقط لتنسيقات CSV و TXT في SQL Server 2008 Reporting Services.
+- يضيف عنصر تقرير tablix التقديم للتنسيقات CSV و TXT فقط في SQL Server 2008 Reporting Services.
 
  ما الذي تغير؟
 
@@ -34,7 +34,7 @@ url: /ar/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 
 
-|**معرف الإصدار** |**مكون** |**ملخص** |
+|**معرف الإصدار** |**عنصر** |**ملخص** |
 |:- |:- |:- |
 |22987 | مكون الخادم| مشكلة ترميز تصدير SSRS CSV|
 |17208 | مكون الخادم| تصدير تقرير خدمة التقرير إلى خطأ MS Excel 2007|

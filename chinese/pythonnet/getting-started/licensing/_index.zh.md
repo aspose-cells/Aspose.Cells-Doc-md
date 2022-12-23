@@ -20,7 +20,7 @@ url: /zh/python-net/licensing/
 运行程序时，您只能通过 .Net 库使用 Aspose.Cells Python 打开 100 个 Excel 文件。如果您的应用程序超过此数量，将抛出异常。
 
 
-此外，带有评估水印的工作表将始终在使用 Aspose.Cells Python 通过库生成的 excel 文件中显示为活动工作表。只有在授权版本中，您可以将活动工作表设置为其他工作表。在 Aspose.Cells Python via 输出的 PDF 或图像文件中，评估水印将粘贴在文档/图像的顶部。
+此外，带有评估水印的工作表将始终在使用 Aspose.Cells Python 通过库生成的 excel 文件中显示为活动工作表。只有在授权版本中，您可以将活动工作表设置为其他工作表。在 PDF 或 Aspose.Cells Python via 的输出图像文件中，评估水印将粘贴在文档/图像的顶部。
 
 {{% alert color="primary" %}}
 

@@ -14,7 +14,7 @@ url: /ja/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|計算フィールドによるピボットフィールドの並べ替えをサポート|
 |CELLSJAVA-44811|pdf/xps へのエクスポート中に出力するシートを指定するサポート|
-|CELLSJAVA-44194|Excel から PDF へのレンダリングで描画形状がレンダリングされない|
+|CELLSJAVA-44194|描画形状が Excel で PDF レンダリングにレンダリングされない|
 |CELLSJAVA-44733|隣接する列が非表示のときにセルの境界線を表示するための ms Excel のルールを調査する: セルの境界線が同期されていない|
 |CELLSJAVA-44777|HtmlSaveOptions.Exportformula オプションに応じて、数式のみを html にエクスポートします|
 |CELLSJAVA-44791|セルへの HTML 文字列の解析を強化する|
@@ -24,7 +24,7 @@ url: /ja/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44717|ボーダー (ライン) スタイルの問題|
 |CELLSJAVA-44707|境界線が表示されない|
 |CELLSJAVA-44670|出力 HTML の数式に関する問題 - Excel から HTML への変換|
-|CELLSJAVA-44202|HTML にエクスポートする場合、チャートの凡例が MS Excel と同じではありません|
+|CELLSJAVA-44202|HTML にエクスポートすると、グラフの凡例が MS Excel とは異なる|
 |CELLSJAVA-44591|ラベルのテキストの回転が、グラフの出力イメージで Excel と一致しない|
 |CELLSJAVA-44655|負の値を含むツリーマップ チャートを表示できず、実行が継続する|
 |CELLSJAVA-44686|Title.IsAutoText が true の場合、チャート (2016) のタイトル テキストが正しくありません|
@@ -38,12 +38,12 @@ url: /ja/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44773|非表示の列を含む Excel ドキュメントを GridWeb で開くと、データがめちゃくちゃになる (Java)|
 |CELLSJAVA-44781|非常に小さな高さにサイズ変更する場合の行のサイズ変更の問題を調査します|
 |CELLSJAVA-44787|ブックの最後の行で失われた下罫線|
-|CELLSJAVA-44761|Excel ファイルを HTML に変換する際の過剰なメモリ使用量|
-|CELLSJAVA-44801|Aspose.Cells for Java v22.7 を使用した Excel から PDF への変換で文字化けが発生する|
+|CELLSJAVA-44761|Excel ファイルを HTML に変換するとメモリが過剰に使用される|
+|CELLSJAVA-44801|Aspose.Cells for Java v22.7 を使用して Excel を PDF に変換すると文字化けが発生する|
 |CELLSJAVA-44741|HTML文字列をセルに設定した後、出力xlsxで改行が正しくない|
 |CELLSJAVA-44776|シートのコピー時にテーブル ヘッダー行のスタイルが失われる|
 |CELLSJAVA-44789|Excel スプレッドシートに配置されたテキスト ボックスの文字列置換に関する問題|
-|CELLSJAVA-44792|ワークブックを HTML 形式にエンドレス保存する (2892)|
+|CELLSJAVA-44792|ワークブックを HTML 形式でエンドレス保存する (2892)|
 |CELLSJAVA-44864|ワークブックを同時に読み込むと、偽の「ファイルが破損しています」というエラーがスローされる|
 |CELLSJAVA-44327|グラフから画像へのレンダリングで、白黒のパイ スライスに表示される境界線と少ない線|
 |CELLSJAVA-44591|ラベルのテキストの回転が、グラフの出力イメージで Excel と一致しない|
@@ -51,12 +51,12 @@ url: /ja/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44860|一部の結合領域で、セル テキストの表示が Excel と同じではありません|
 |CELLSJAVA-44832|PDFへの変換時にExcelのように1ページではなく複数ページが出力される|
 |CELLSJAVA-44812|グラフのプロット エリアを縮小できません|
-|CELLSJAVA-44831|Aspose.Cells for Java によって XLSX ファイルから変換された DOCX を開くと、MS Word で「Word で読み取り不能なコンテンツが見つかりました...」というエラーが表示される|
+|CELLSJAVA-44831|Aspose.Cells for Java によって XLSX ファイルから変換された DOCX ファイルを開くと、MS Word で「Word で読み取り不能なコンテンツが見つかりました...」というエラーが表示される|
 |CELLSJAVA-44833|Cell.setHtmlString() メソッドを使用すると、出力 Excel ファイル内の異なる単語またはコンテンツの一部にテキストの色が適用されない|
 |CELLSJAVA-44852|静的な Excel ファイルを HTML に変換すると境界線が正しくない|
 |CELLSJAVA-44856|Excel から HTML への変換 - スパークライン (ミニ チャート) が表示/レンダリングされない|
 |CELLSJAVA-44859|既存の Excel ファイルのワークシート セルで一部の HTML 形式が機能しない|
-|CELLSJAVA-44725|XLSX から PDF への変換中の例外「java.util.zip.ZipException: 無効なエントリ サイズ (予期される 0 が 1053 バイト)」|
+|CELLSJAVA-44725|XLSX を PDF に変換する際の例外「java.util.zip.ZipException: 無効なエントリ サイズ (予期される 0 ですが、1053 バイトを取得しました)」|
 |CELLSJAVA-44763|"org.apache.commons.io.input.AutoCloseInputStream" を使用して Excel ファイルをロードすると、例外 "java.lang.IllegalArgumentException: 引数番号を解析できません: 1:X8" が発生する|
 |CELLSJAVA-44774|PDF として保存する際のエラー - 調査が必要です|
 |CELLSJAVA-44842|XLSX ファイルを PDF に変換するときの例外「java.lang.OutOfMemoryError: Java ヒープ領域」|

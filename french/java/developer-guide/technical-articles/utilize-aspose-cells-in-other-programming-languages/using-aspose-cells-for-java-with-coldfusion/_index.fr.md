@@ -66,7 +66,7 @@ Voici le code réel (ColdFusion & Aspose.Cells for Java). Après l'exécution du
 
 {{< /highlight >}}
 
-## **Sommaire**
+## **Résumé**
 
 {{% alert color="primary" %}}
 

@@ -12,9 +12,9 @@ description: Excel dosyası dijital imza, doğrulama. Bir çalışma kitabının
 
 {{% /alert %}}
 
-## **giriiş**
+## **Giriş**
 
- Dijital imza eklemek için Dijital İmza iletişim kutusunu kullanın. Dijital İmza iletişim kutusunda geçerli sertifikalar listelenir. Sertifikaları görüntülemek ve kullanmak istediğinizi seçmek için Dijital İmza iletişim kutusunu kullanabilirsiniz. Bir çalışma kitabının dijital imzası varsa, imzanın adı**Sertifika Adı** alan. Eğer tıklarsanız**Kaldırmak** Dijital İmza iletişim kutusundaki düğme, Microsoft Excel dijital imzayı da kaldırır.
+ Dijital imza eklemek için Dijital İmza iletişim kutusunu kullanın. Dijital İmza iletişim kutusunda geçerli sertifikalar listelenir. Sertifikaları görüntülemek ve kullanmak istediğinizi seçmek için Dijital İmza iletişim kutusunu kullanabilirsiniz. Bir çalışma kitabının dijital imzası varsa, imzanın adı**Sertifika Adı** tarla. Eğer tıklarsanız**Kaldırmak** Dijital İmza iletişim kutusundaki düğme, Microsoft Excel dijital imzayı da kaldırır.
 
 Aspose.Cells şunları sağlar:[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)işi gerçekleştirmek için ad alanı (dijital imzaları atayın ve doğrulayın). Ad alanı, dijital imzaları eklemek ve doğrulamak için bazı yararlı özelliklere sahiptir.
 

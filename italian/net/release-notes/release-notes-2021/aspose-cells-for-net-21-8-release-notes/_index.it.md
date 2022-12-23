@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-8-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-48470|Supporta il ridimensionamento delle pagine del foglio di lavoro durante l'esportazione di file in HTML|Nuova caratteristica|
 |CELLSNET-41286|Supporta mappe XML|Nuova caratteristica|
@@ -21,16 +21,16 @@ url: /it/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-46412|La licenza non funziona nella versione di rilascio dell'applicazione MVC quando viene distribuita sul server IIS|Aumento|
 |CELLSNET-47888|SmartMarker appropriati necessari per ottenere l'output desiderato|Aumento|
 |CELLSNET-48452|Supporta la lettura dei file dei numeri di forma immagine 09.|Aumento|
-|CELLSNET-48372|Aspetta salva in html per il file XLSB|Prestazione|
+|CELLSNET-48372|Aspetta, salva in html per il file XLSB|Prestazione|
 |CELLSNET-48091|L'oggetto con rotazione è distorto.|Insetto|
 |CELLSNET-48173|Sposta i testi nelle forme del diagramma|Insetto|
 |CELLSNET-48241|La posizione del testo nella forma del pentagono è errata|Insetto|
 |CELLSNET-48247|La freccia di flessione scompare durante la conversione in pdf.|Insetto|
 |CELLSNET-48363|La posizione del rich text viene calcolata ripetutamente, provocando lo spostamento del testo verso l'alto.|Insetto|
-|CELLSNET-47839|Shape to image Errore durante il salvataggio di XLSX in PDF|Insetto|
+|CELLSNET-47839|Shape to image Errore durante il salvataggio da XLSX a PDF|Insetto|
 |CELLSNET-48312|Problema con il livello di zoom nell'output html.|Insetto|
 |CELLSNET-48329|Problema di allineamento dell'immagine durante l'esportazione dell'intervallo in HTML|Insetto|
-|CELLSNET-48333| Le colonne della tabella nell'intervallo con l'allineamento in basso vengono combinate nell'HTML convertito|Insetto|
+|CELLSNET-48333| Le colonne della tabella nell'intervallo con allineamento in basso vengono combinate in HTML convertito|Insetto|
 |CELLSNET-48365| I filtri dei dati creati dai campi base della tabella pivot non funzionano|Insetto|
 |CELLSNET-48359|Le macro vengono rimosse dopo la migrazione da XLS a XLSM|Insetto|
 |CELLSNET-48448|L'origine dati del grafico con intervallo denominato non viene analizzata correttamente|Insetto|
@@ -52,15 +52,15 @@ url: /it/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48477|Il metodo PivotTable.CalculateData genera un'eccezione|Eccezione|
 |CELLSNET-48395|Shape to image genera un'eccezione nell'ambiente docker per il file Display.xlsx|Eccezione|
 |CELLSNET-48367|Eccezione generata quando PlotArea width è 0|Eccezione|
-|CELLSNET-48172|"Errore da forma a immagine" durante la conversione di file Excel in PDF|Eccezione|
+|CELLSNET-48172|"Errore da forma a immagine" durante la conversione del file Excel in PDF|Eccezione|
 |CELLSNET-48490|"Operazioni matematiche risultano in abbondanza." eccezione quando si apre il file XLS|Eccezione|
 |CELLSNET-48545|Eccezione sollevata durante la chiamata a Shape.UpdateSelectedValue()|Eccezione|
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la classe AbstractInterruptMonitor.**
 

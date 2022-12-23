@@ -10,7 +10,7 @@ url: /ru/net/export-excel-to-html-with-gridlines/
 
 {{% /alert %}} 
 ## **Экспорт Excel в HTML с помощью GridLines**
- Следующий пример кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет ее в формате HTML после установки[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) к**истинный**.
+Следующий пример кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет ее в формате HTML после установки[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/exportgridlines) к**истинный**.
 
 
 

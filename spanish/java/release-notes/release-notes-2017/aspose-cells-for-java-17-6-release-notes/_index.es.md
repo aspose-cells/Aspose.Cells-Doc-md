@@ -14,9 +14,9 @@ url: /es/java/aspose-cells-for-java-17-6-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42315|Agregue el cliente JS API para el evento AjaxCallFinished - GridWeb (JAVA)|Nueva caracteristica|
 |CELLSJAVA-42194|Agrupar filas en la hoja de trabajo - GridWeb (JAVA)|Nueva caracteristica|
-|CELLSJAVA-42308|La tabla dinámica es incorrecta (faltan filas, los encabezados de los campos dinámicos se imprimen dos veces, la fecha se convierte en valores numéricos, etc.) en la representación de Excel a HTML|Insecto|
+|CELLSJAVA-42308|La tabla dinámica es incorrecta (filas faltantes, encabezados de campo dinámico impresos dos veces, fecha convertida a valores numéricos, etc.) en Excel para la representación HTML|Insecto|
 |CELLSJAVA-42298|Caracteres adicionales presentes en la salida HTML del archivo de Excel|Insecto|
-|CELLSJAVA-42277|La imagen no se muestra en el HTML de salida cuando HtmlSaveOptions.setExportHiddenWorksheet se establece en falso|Insecto|
+|CELLSJAVA-42277|La imagen no se muestra en la salida HTML cuando HtmlSaveOptions.setExportHiddenWorksheet se establece en falso|Insecto|
 |CELLSJAVA-42259|HTML no se pudo convertir a un archivo de Excel correctamente|Insecto|
 |CELLSJAVA-42256|Problema con la representación de la tabla HTML en Excel|Insecto|
 |CELLSJAVA-42319|Problema con el cálculo del área de impresión al especificar fórmulas|Insecto|
@@ -25,21 +25,21 @@ url: /es/java/aspose-cells-for-java-17-6-release-notes/
 |CELLSJAVA-42320|El gráfico no se actualiza si existe en una hoja separada|Insecto|
 |CELLSJAVA-42295|El valor Cell se agrega al principio cuando hacemos clic en una celda existente (que tiene algún valor)|Insecto|
 |CELLSJAVA-42325|Cuando XLSX se guarda como PDF, las palabras se reflejan|Insecto|
-|CELLSJAVA-42299|Caracteres adicionales presentes en el PDF de salida/imagen del archivo de Excel|Insecto|
+|CELLSJAVA-42299|Caracteres adicionales presentes en la salida PDF/imagen del archivo de Excel|Insecto|
 |CELLSJAVA-42301|Faltan barras en la salida PDF del gráfico de barras|Insecto|
-|CELLSJAVA-42293|La imagen del gráfico es incorrecta en el HTML de salida|Insecto|
-|CELLSJAVA-42292|La imagen del gráfico es incorrecta en el HTML de salida|Insecto|
+|CELLSJAVA-42293|La imagen del gráfico es incorrecta en la salida HTML|Insecto|
+|CELLSJAVA-42292|La imagen del gráfico es incorrecta en la salida HTML|Insecto|
 |CELLSJAVA-42270|Falta contenido cuando el gráfico de Excel se convierte a PDF|Insecto|
-|CELLSJAVA-42258|El PDF del gráfico tiene un formato de fecha incorrecto en las etiquetas del eje x|Insecto|
-|CELLSJAVA-42252|Escala incorrecta del eje Y en el PDF de salida|Insecto|
+|CELLSJAVA-42258|El gráfico PDF tiene un formato de fecha incorrecto en las etiquetas del eje x|Insecto|
+|CELLSJAVA-42252|Escala incorrecta del eje Y en la salida PDF|Insecto|
 |CELLSJAVA-42245|El estilo/formato es incorrecto cuando se guarda en HTML|Insecto|
 |CELLSJAVA-42316|La opción de comprimir imágenes no se conserva al abrir y guardar el archivo de Excel|Insecto|
 |CELLSJAVA-42306|El color de fondo de las celdas en File2 se cambia al abrir y guardar Workbook|Insecto|
 |CELLSJAVA-42305|El color de fondo de las celdas en File1 se cambia al abrir y guardar Workbook|Insecto|
 |CELLSJAVA-42303|La celda de fórmula de Excel se convierte en una celda que no es de fórmula al configurar el texto para la forma|Insecto|
 |CELLSJAVA-42284|Workbook.getFonts() muestra una fuente adicional después de recargar la misma hoja de cálculo|Insecto|
-|CELLSJAVA-42307|Excepción: "El índice de la fila no debe estar dentro del informe dinámico" ocurrió al procesar en formato de archivo HTML|Excepción|
-|CELLSJAVA-42285|Excepción: "El índice de fila no puede ser negativo" si existe una tabla dinámica en la hoja de trabajo para convertirla al formato de archivo HTML|Excepción|
+|CELLSJAVA-42307|Excepción: "El índice de la fila no debe estar dentro del informe dinámico" ocurrió al procesar el formato de archivo HTML|Excepción|
+|CELLSJAVA-42285|Excepción: "El índice de fila no puede ser negativo" ocurrió si existe una tabla dinámica en la hoja de cálculo para convertirla al formato de archivo HTML|Excepción|
 |CELLSJAVA-42318|Se lanza una excepción al intentar abrir Workbook|Excepción|
 |CELLSJAVA-42311|Excepción: "java.lang.NullPointerException" al abrir un archivo ODS a través de las API Aspose.Cells|Excepción|
 |CELLSJAVA-42302|NullPointerException al crear una instancia de libro de trabajo desde el archivo de origen de Excel|Excepción|

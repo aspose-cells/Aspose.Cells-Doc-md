@@ -14,7 +14,7 @@ Aşağıdaki grafik örnek kod ile oluşturulmuştur.
 
 ## Örnek kodun yürütülmesinden sonraki çıktı grafiğini gösteren resim
 
-![yapılacaklar:resim_alternatif_Metin](set-picture-as-background-fill-in-the-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](set-picture-as-background-fill-in-the-chart_1.png)
 
 ## Java kodu, tabloyu arka plan dolgusu olarak ayarlamak için
 

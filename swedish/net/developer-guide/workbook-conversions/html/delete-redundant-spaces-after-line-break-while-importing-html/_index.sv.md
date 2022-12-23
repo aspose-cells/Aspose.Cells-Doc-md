@@ -1,12 +1,12 @@
 ﻿---
-title: Ta bort redundanta blanksteg efter radbrytning när du importerar HTML
+title: Ta bort redundanta blanksteg efter radbrytning vid import av HTML
 type: docs
 weight: 20
 url: /sv/net/delete-redundant-spaces-after-line-break-while-importing/
 ---
 {{% alert color="primary" %}}
 
- Snälla använd[**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) egendom och ställ in den**Sann** för att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen. Som standard är den här egenskapen**falsk** och redundanta utrymmen bevaras i utdata Excel-filer.
+ Snälla använd[**HTMLLoadOptions.DeleteRedundantSpaces**](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/deleteredundantspaces) egendom och ställ in den**Sann** för att ta bort alla redundanta mellanslag som kommer efter radbrytningstaggen. Som standard är den här egenskapen**falsk**och redundanta utrymmen bevaras i utdata Excel-filer.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ url: /sv/net/delete-redundant-spaces-after-line-break-while-importing/
 
 ![todo:image_alt_text](delete-redundant-spaces-after-line-break-while-importing-html_1.png)
 
-## Ta bort redundanta blanksteg efter radbrytning när du importerar HTML
+## Ta bort redundanta blanksteg efter radbrytning vid import av HTML
 
 ### Programmeringsexempel
 

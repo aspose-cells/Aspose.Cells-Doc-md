@@ -10,50 +10,50 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42423|Annuler le calcul de longue durée de la méthode Workbook.calculateFormula|Nouvelle fonctionnalité|
 |CELLSJAVA-42414|Obtenir le champ SheetId de la feuille de calcul MS Excel|Nouvelle fonctionnalité|
 |CELLSJAVA-42433|Propriétés ImageOrPrintOptions.PageIndex et ImageOrPrintOptions.Count nécessaires pour obtenir l'image des pages souhaitées|Nouvelle fonctionnalité|
-|CELLSJAVA-42402|Bon HTML nécessaire pour le HTML joint|Renforcement|
+|CELLSJAVA-42402|Bon HTML nécessaire pour le HTML ci-joint|Renforcement|
 |CELLSJAVA-42372|La position des tirets longs n'est pas la même que Microsoft Excel|Renforcement|
 |CELLSJAVA-42479|Amélioration de l'énumération LoadDataFilterOptions et suppression de l'ambiguïté|Renforcement|
 |CELLSJAVA-42460|Format CSV - D2 et D6 sont IsString mais Aspose.Cells les traite comme IsNumeric|Renforcement|
 |CELLSJAVA-42399|Les points des flèches ne sont pas clairs dans le Pdf de sortie|Punaise|
-|CELLSJAVA-42419|Le texte est tronqué dans le HTML de sortie|Punaise|
+|CELLSJAVA-42419|Le texte est tronqué dans la sortie HTML|Punaise|
 |CELLSJAVA-42418|La couleur de la bordure ne correspond pas à celle de MS Excel dans la sortie HTML|Punaise|
 |CELLSJAVA-42417|La couleur d'arrière-plan ne correspond pas à celle de Ms Excel dans la sortie HTML|Punaise|
 |CELLSJAVA-42385|callback IFilePathProvider n'est jamais appelé, puis le fichier HTML a 'null' dans le chemin|Punaise|
 |CELLSJAVA-42412|Les étiquettes de l'axe des valeurs sont manquantes lors de la conversion d'Excel en PDF|Punaise|
 |CELLSJAVA-42408|Problème de chevauchement de texte après le rendu de la feuille de calcul en image|Punaise|
 |CELLSJAVA-42420|Annulation et problème de mémoire insuffisante en raison de la grande plage de données du graphique|Punaise|
-|CELLSJAVA-42415|Le graphique de sortie n'est pas comme le graphique d'origine dans le HTML de sortie|Punaise|
-|CELLSJAVA-42410|La zone de graphique, les étiquettes, les légendes, etc. sont rendues de manière incorrecte dans les fichiers PDF et PNG de sortie|Punaise|
+|CELLSJAVA-42415|Le graphique de sortie n'est pas comme le graphique d'origine dans la sortie HTML|Punaise|
+|CELLSJAVA-42410|La zone de graphique, les étiquettes, les légendes, etc. sont rendues de manière incorrecte dans la sortie PDF et PNG|Punaise|
 |CELLSJAVA-42409|La zone de graphique n'est pas rendue correctement dans les sorties PDF et PNG du graphique MS Excel|Punaise|
 |CELLSJAVA-41046|La séquence de légende du graphique a changé lors du rendu de la feuille de calcul au format PDF|Punaise|
 |CELLSJAVA-40416|Les couleurs et le style du graphique sont perdus|Punaise|
-|CELLSJAVA-42427|L'exportation de quadrillages avec des bordures n'affiche pas les quadrillages à l'intérieur de la bordure dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42427|L'exportation de quadrillages avec des bordures n'affiche pas les quadrillages à l'intérieur de la bordure dans Excel vers le rendu HTML|Punaise|
 |CELLSJAVA-42438|LightCellsDataProvider supprime les espaces de début et de fin|Punaise|
 |CELLSJAVA-42422|Une police incorrecte est utilisée dans la sortie PDF du graphique MS Excel|Punaise|
-|CELLSJAVA-42353|Certaines flèches ou légendes manquent dans le HTML de sortie|Punaise|
+|CELLSJAVA-42353|Certaines flèches ou légendes manquent dans la sortie HTML|Punaise|
 |CELLSJAVA-42455|Le 2e commentaire est manquant dans la collection de commentaires de la feuille de calcul|Punaise|
-|CELLSJAVA-42454|La création de classeur semble se bloquer lors de la lecture à partir d'un fichier XLSM|Punaise|
+|CELLSJAVA-42454|La création du classeur semble se bloquer lors de la lecture d'un fichier XLSM|Punaise|
 |CELLSJAVA-42450|La propriété Style.QuotePrefix ne fonctionne pas pour le fichier XLSB|Punaise|
 |CELLSJAVA-42445|Le réglage des données d'image affecte l'autre graphique et il s'affiche mal|Punaise|
 |CELLSJAVA-42444|La méthode CheckBox.setName() fonctionne dans MS Excel 2016 mais ne fonctionne pas dans MS Excel 2007|Punaise|
-|CELLSJAVA-42443|Les filtres MS Excel ne sont pas convertis correctement - Conversion XLSB en XLSM|Punaise|
+|CELLSJAVA-42443|Les filtres MS Excel ne sont pas convertis correctement - conversion XLSB à XLSM|Punaise|
 |CELLSJAVA-42442|La modification de la valeur de ComboBoxActiveXControl ne modifie pas la valeur de la cellule liée|Punaise|
 |CELLSJAVA-42435|Cells.setColumnWidthPixel et Cells.setRowHeightPixel ont des comportements différents|Punaise|
 |CELLSJAVA-42431|L'extension de la plage de la table modifie de manière inattendue le contenu des cellules|Punaise|
 |CELLSJAVA-42457|Lorsque XLSX est converti en PDF, certaines lignes des graphiques sont différentes|Punaise|
-|CELLSJAVA-42465|Certaines déclarations de classe CSS ne sont pas préfixées dans le HTML de sortie|Punaise|
-|CELLSJAVA-42456|Sortie HTML incohérente avec la source - Conversion d'Excel en HTML|Punaise|
+|CELLSJAVA-42465|Certaines déclarations de classe CSS ne sont pas préfixées dans la sortie HTML|Punaise|
+|CELLSJAVA-42456|HTML sortie incohérente avec la source - Conversion d'Excel en HTML|Punaise|
 |CELLSJAVA-42478|L'importation d'une valeur longue à partir de la base de données HSQL lève une exception|Punaise|
-|CELLSJAVA-42466|L'équation n'est pas rendue correctement dans le PDF de sortie|Punaise|
-|CELLSJAVA-42475|Le graphique est manquant dans le PDF de sortie|Punaise|
-|CELLSJAVA-42459|Les étiquettes de données du graphique sont manquantes dans le fichier PDF/image de sortie|Punaise|
+|CELLSJAVA-42466|L'équation n'est pas bien rendue dans la sortie PDF|Punaise|
+|CELLSJAVA-42475|Le graphique manque dans la sortie PDF|Punaise|
+|CELLSJAVA-42459|Les étiquettes de données pour le graphique sont manquantes dans la sortie PDF/image|Punaise|
 |CELLSJAVA-42453|L'image du graphique n'est pas la même Microsoft Excel|Punaise|
-|CELLSJAVA-42447|Les étiquettes de données s'affichent mal dans le format de fichier HTML de sortie|Punaise|
+|CELLSJAVA-42447|Les étiquettes de données s'affichent mal dans le format de fichier de sortie HTML|Punaise|
 |CELLSJAVA-42481|Définir le nom de la zone de liste déroulante ne fonctionne pas pour le fichier Excel source, mais s'il est réenregistré par Microsoft Excel, cela fonctionne correctement|Punaise|
 |CELLSJAVA-42476|Microsoft La feuille de calcul Excel prenant en charge les macros (.xlsm) est corrompue après l'ouverture et l'enregistrement via les API Aspose.Cells|Punaise|
 |CELLSJAVA-42470|La définition d'une cellule liée à une case à cocher entraîne l'affichage d'un message d'erreur par MS Excel lors de l'ouverture du fichier de sortie.|Punaise|
@@ -64,7 +64,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42425|Exception dans le thread "main" java.lang.OutOfMemoryError : Limite de temps système GC dépassée - Fichier II|Exception|
 |CELLSJAVA-42424|Exception dans le thread "main" java.lang.OutOfMemoryError : Limite de temps système GC dépassée - Fichier I|Exception|
 |CELLSJAVA-42428|Chart.toImage donne java.lang.ArrayIndexOutOfBoundsException|Exception|
-|CELLSJAVA-42452|L'enregistrement d'un classeur au format PDF après que RemoveUnusedStyles API produit une CellsException|Exception|
+|CELLSJAVA-42452|L'enregistrement d'un classeur sous PDF après que RemoveUnusedStyles API produit une CellsException|Exception|
 |CELLSJAVA-42440|"java.lang.IllegalArgumentException : index de ligne non valide" s'est produit|Exception|
 |CELLSJAVA-42439|Exception : "java.lang.IllegalArgumentException : index de ligne non valide"|Exception|
 |CELLSJAVA-42437|Exception : java.lang.NumberFormatException lors de la ré-enregistrement d'un format de fichier XLSB|Exception|
@@ -73,7 +73,7 @@ Vous trouverez ci-dessous une liste de toutes les modifications apportées au pu
 ### **Ajoute la méthode AbstractCalculationMonitor.Interrupt(string)**
 Permet aux utilisateurs d'interrompre la progression des calculs de formules.
 ### **Ajoute l'énumération HtmlCrossType.MSExport**
-Affiche la chaîne comme MS Excel exportant du HTML.
+Affiche la chaîne comme MS Excel exportant HTML.
 ### **Ajoute la propriété Worksheet.TabId**
 Obtient l'identifiant interne de la feuille.
 ### **Ajoute l'énumération OLEDBCommandType.None**

@@ -14,7 +14,7 @@ url: /es/net/aspose-cells-for-net-19-1-release-notes/
 |:- |:- |:- |
 |CELLSNET-46429|Agregar tabla dinámica con la opción Mostrar páginas de filtro de informe|Nueva caracteristica|
 |CELLSNET-46014|Admite el manejo de contenido de celda desbordado mientras se guarda como PDF e imagen|Nueva caracteristica|
-|CELLSNET-46490|Soporta archivos Excel95/5.0 XLS|Nueva caracteristica|
+|CELLSNET-46490|Admite archivos Excel95/5.0 XLS|Nueva caracteristica|
 |CELLSNET-46500|Ordenar por color de fondo de celda|Nueva caracteristica|
 |CELLSNET-46544|Detectar si el archivo MHT generado es una hoja de trabajo o no|Nueva caracteristica|
 |CELLSNET-46538|Cuando XLSX se guarda como PDF o TIFF, falta la parte inferior del texto|Insecto|
@@ -25,9 +25,9 @@ url: /es/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46531|Cambiar el nombre de ListColumns corrompe el libro de trabajo (cuando hay una tabla dinámica)|Insecto|
 |CELLSNET-46511|TIFF creado con páginas en blanco adicionales|Insecto|
 |CELLSNET-46522|Aplicar configuraciones regionales para imprimir encabezados de configuración|Insecto|
-|CELLSNET-46529|Falta la imagen después de la conversión de XLSX a PDF|Insecto|
-|CELLSNET-46451|Problema al representar el archivo de plantilla en formato de archivo PDF|Insecto|
-|CELLSNET-46518|Problema de diseño (algunas etiquetas de eje están en dos líneas) al representar el archivo de plantilla en formato de archivo PDF|Insecto|
+|CELLSNET-46529|Falta la imagen después de la conversión XLSX a PDF|Insecto|
+|CELLSNET-46451|Problema al renderizar el archivo de plantilla al formato de archivo PDF|Insecto|
+|CELLSNET-46518|Problema de diseño (algunas etiquetas de eje están en dos líneas) al representar el archivo de plantilla en el formato de archivo PDF|Insecto|
 |CELLSNET-46113|El formato de archivo no es compatible con la excepción del documento XLS|Insecto|
 |CELLSNET-46504|Problema de ruta de enlaces|Insecto|
 |CELLSNET-46506|Diferencia con el método ImportObjectArray|Insecto|

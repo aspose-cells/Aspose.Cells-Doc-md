@@ -11,11 +11,11 @@ url: /tr/java/aspose-cells-for-java-7-3-4-release-notes/
 {{% /alert %}} 
 
 Biz
- Aspose.Cells for Java v7.3.4'ü duyurmaktan mutluluk duyuyoruz!
+Aspose.Cells for Java v7.3.4'ü duyurmaktan mutluluk duyuyoruz!
 
  Yeni özellikler
 
-- Sayfadan Görüntüye özelliğinde TIFF biçimi desteği
+- Sheet-to-Image özelliğinde TIFF biçimi desteği
 
  Geliştirmeler
 
@@ -23,7 +23,7 @@ Biz
 
  İstisnalar
 
-- Excel'i PDF'ye dönüştürürken Bellek Yetersiz istisnası
+- Excel'i PDF'e dönüştürürken Bellek Yetersiz istisnası
 - Koşullu formül olarak "+100" ayarlamak bir istisnaya neden oldu
 - İstisna: Formülleri hesaplarken “StackOverflowError”
 - Workbook.copy() çağrıldığında "IllegalArgumentException" atılıyor

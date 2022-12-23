@@ -31,13 +31,13 @@ url: /ru/java/creating-and-customizing-charts/
 - [**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), одна точка в ряду на диаграмме.
 - [**ChartPointCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPointCollection), коллекция, содержащая все точки одной серии.
 - [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , коллекция[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)объекты.
--  DataLabels, DataLabels для указанного[**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**линия тренда**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), так далее.
+-  DataLabels, DataLabels для указанного[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**линия тренда**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), и т.д.
 - [**ЗаполнитьФормат**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), формат заливки для фигуры.
 - [**Пол**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), пол трехмерной диаграммы.
 - [**Легенда**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), легенда диаграммы.
 - [**Линия**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), линия графика.
-- [**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , коллекция[**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)объекты.
-- [**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), представляет один ряд данных на диаграмме.
+- [**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , коллекция[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)объекты.
+- [**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), представляет один ряд данных на диаграмме.
 - [**TickLabels**](https://reference.aspose.com/cells/java/com.aspose.cells/TickLabels), метки делений, связанные с делениями на оси диаграммы.
 - [**Заголовок**](https://reference.aspose.com/cells/java/com.aspose.cells/Title), название диаграммы или оси.
 - [**линия тренда**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), линия тренда на графике.
@@ -87,7 +87,7 @@ url: /ru/java/creating-and-customizing-charts/
 |ScatterConnectedByCurvesWithoutDataMarker|Представляет точечную диаграмму, соединенную кривыми, без маркеров данных.|
 |ScatterConnectedByLinesWithDataMarker|Представляет точечную диаграмму, соединенную линиями, с маркерами данных.|
 |ScatterConnectedByLinesWithoutDataMarker|Представляет точечную диаграмму, соединенную линиями, без маркеров данных.|
-|Область|Представляет диаграмму областей|
+|Площадь|Представляет диаграмму областей|
 |ПлощадьСложенный|Представляет составную диаграмму с областями|
 |Area100PercentStacked|Представляет 100% диаграмму областей с накоплением|
 |Площадь3D|Представляет трехмерную диаграмму с областями|
@@ -129,7 +129,7 @@ url: /ru/java/creating-and-customizing-charts/
 
 1.  Добавьте некоторые данные в ячейки листа с помощью[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) объекты[**установить значение**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)метод.
  Это будет использоваться в качестве источника данных для диаграммы.
-1.  Добавьте диаграмму на лист, вызвав метод[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) коллекция[*добавлять*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ), инкапсулированный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)объект.
+1.  Добавьте диаграмму на лист, вызвав метод[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) коллекция[*Добавлять*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) ), инкапсулированный в[**Рабочий лист**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)объект.
 1.  Укажите тип диаграммы с помощью[**Тип диаграммы**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)перечисление.
  Например, в примере используется[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)значение в качестве типа диаграммы.
 1.  Доступ к новым[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) объект из[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)коллекции, передав ее индекс.
@@ -176,7 +176,7 @@ url: /ru/java/creating-and-customizing-charts/
 
 Разработчики могут создавать собственные диаграммы во время выполнения, используя Aspose.Cells простой API.
 
- Диаграмма состоит из ряда данных. Каждый ряд данных в Aspose.Cells представлен[**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) объект, тогда как[**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) объект представляет собой совокупность[**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)объекты. При создании пользовательской диаграммы разработчики могут свободно использовать различные типы диаграмм для разных рядов данных (собранных в[**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)объект).
+ Диаграмма состоит из ряда данных. Каждый ряд данных в Aspose.Cells представлен[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) объект, тогда как[**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) объект представляет собой совокупность[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)объекты. При создании пользовательской диаграммы разработчики могут свободно использовать различные типы диаграмм для разных рядов данных (собранных в[**СерияКоллекция**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)объект).
 
 {{% alert color="primary" %}}
 

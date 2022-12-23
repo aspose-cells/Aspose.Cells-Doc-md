@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 19.1.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-187|Enregistrer la forme au format image|Nouvelle fonctionnalité|
 |CELLSCPP-178|Prend en charge le format TSV, également connu sous le nom de format TabDelimited|Amélioration|

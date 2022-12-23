@@ -14,7 +14,7 @@ url: /it/java/get-warnings-while-loading-excel-file/
 
 ![cose da fare:immagine_alt_testo](get-warnings-while-loading-excel-file_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-WarningCallback-WarningCallback.java" >}}
 

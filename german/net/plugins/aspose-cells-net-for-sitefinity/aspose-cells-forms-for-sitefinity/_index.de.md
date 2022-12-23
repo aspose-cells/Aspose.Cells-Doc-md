@@ -24,7 +24,7 @@ Diese erste Version des Moduls ist mit den folgenden Funktionen angereichert, um
 - Passen Sie Spalten automatisch an die Inhaltslänge an und wenden Sie die Formatierung der Kopfspalte als fetten Text an
 - Exportieren Sie Daten in Microsoft Excel-Dokumente (.xls, .xlsx und .xlsb)
 - Exportieren von Daten in ein tabulatorgetrenntes Textdokument (*.txt)
-- Daten nach CSV exportieren (kommagetrennt) (*.csv)
+- Daten exportieren nach CSV (kommagetrennt) (*.csv)
 - Exportieren von Daten in eine OpenDocument-Tabelle (*.ods)
 - Option zur Auswahl des gewünschten Ausgabeformats vor dem Export.
 - Das exportierte Dokument wird automatisch zum Herunterladen an den Browser gesendet.
@@ -72,7 +72,7 @@ Die Seite Grundeinstellungen wird angezeigt.
  Das Widget-Registrierungsformular wird angezeigt.
 1.  Füllen Sie die Formularfelder wie folgt aus:
  1. Stellen Sie sicher**Ermöglicht** ist ausgewählt.
- 1. Im**Steuern Sie den CLR-Typ oder den virtuellen Pfad** aufstellen.
+ 1. Im**Steuern Sie den CLR-Typ oder den virtuellen Pfad** Gebiet.
  1. Hinzufügen**~/Addons/Aspose.SiteFinity.FormBuilder.ToExcel/Edit.ascx**
  1. Hinzufügen**Name**, **Titel** und**Beschreibung** folgendermaßen:
          1. Aspose  **Seitenname**(wie Bearbeiten, Anzeigen, Exportieren) für SiteFinity-Benutzer
@@ -80,7 +80,7 @@ Die Seite Grundeinstellungen wird angezeigt.
          1. **Seitenname** Form Builder & Exporter für Sitefinity.
  1. Alle anderen Felder können Sie unverändert lassen.
  1. Wenn Sie fertig sind, klicken Sie auf**Änderungen speichern**.
- 1. Das Widget wird in der Toolbox registriert und kann in Sitefinity verwendet werden. (**Sehen** **unten Bild**)
+ 1. Das Widget wird in der Toolbox registriert und kann in Sitefinity verwendet werden. (**Sehen** **unter Bild**)
 
 |<p>![todo: Bild_alt_Text](picture1.png)</p><p></p>|
 |:- |
@@ -93,7 +93,7 @@ Nachdem Sie das Add-On Aspose.Cells Dynamic Forms Builder für Sitefinity-Benutz
 
 1. Stellen Sie sicher, dass Sie mit einem Konto auf Administratorebene bei Sitefinity angemeldet sind.
 1. Navigieren Sie zu der Seite, auf der Sie das Plugin hinzufügen möchten. Stellen Sie sicher, dass die Seite im Bearbeitungsmodus geöffnet ist.
-1.  Von dem**Ziehen Sie Widgets** Menü auf der rechten Seite, wählen Sie Aspose Formular bearbeiten/anzeigen/exportieren und ziehen Sie es an die gewünschte Position. (**Sehen** **unten Bild** )
+1.  Von dem**Ziehen Sie Widgets** Menü auf der rechten Seite, wählen Sie Aspose Formular bearbeiten/anzeigen/exportieren und ziehen Sie es an die gewünschte Position. (**Sehen** **unter Bild** )
 
 |<p>![todo: Bild_alt_Text](aspose-cells-forms-for-sitefinity_2)</p><p></p>|
 |:- |
@@ -110,7 +110,7 @@ Um Evaluierungsmeldungen und Funktionseinschränkungen zu entfernen, sollte eine
 
 #### **Einstellungen für dynamische Formulare**
 
-1.  Stellen Sie sicher, dass Sie angemeldet sind. Klicken Sie auf das Seitenmenü. Klicken Sie auf die erste Zeile**Aussicht** Optionsschaltfläche in der Nähe**Aktionsspalte.**  
+1.  Stellen Sie sicher, dass Sie angemeldet sind. Klicken Sie auf das Seitenmenü. Klicken Sie auf die erste Zeile**Sicht** Optionsschaltfläche in der Nähe**Aktionsspalte.**  
 1.  Klicken**Bearbeiten** Schaltfläche in der Nähe des Optionsetiketts verfügbar.
 1.  Es gibt einige vordefinierte Felder, die Sie durch einfaches Anklicken bearbeiten/ausblenden können**Bearbeiten** im Raster.
 1. Sie können neue Felder beliebigen Typs erstellen/löschen/aktualisieren**(TextBox, MultiLineTextBox, RadioButton, Checkboxes, DropdownList, Titel, Erfolgsmeldung)**
@@ -118,26 +118,26 @@ Um Evaluierungsmeldungen und Funktionseinschränkungen zu entfernen, sollte eine
 #### **Dynamisches Senden des Formulars**
 
 1. Füllen Sie die Felder aus.
-1.  Klicken**Einreichen** Schaltfläche zum Speichern von Daten.
-1.  Jeder**Einreichen** Klicken Sie auf die Schaltfläche, um den neuen Datensatz in Excel zu speichern.
+1.  Klicken**einreichen** Schaltfläche zum Speichern von Daten.
+1.  Jeder**einreichen** Klicken Sie auf die Schaltfläche, um den neuen Datensatz in Excel zu speichern.
 
 #### **Gespeicherte Daten exportieren**
 
 1. Stellen Sie sicher, dass Sie angemeldet sind, gehen Sie zum Seitenmenü und klicken Sie auf die Optionsschaltfläche für die Ansicht in der ersten Zeile in der Nähe der Aktionsspalte
 1.  Maus über**Symbol „Exportieren“.** und klicken**darauf**Die Exportseite wird geöffnet
-1.  Auswählen**Exporttyp**
-1.  Klicken**Daten exportieren**
+1.  Wählen**Exporttyp**
+1.  Klicken**Export von Daten**
 1. Die exportierte Datendatei gemäß dem Exporttyp wird zum Herunterladen/Öffnen angezeigt
 
 Sie haben Aspose Sitefinity Export Users erfolgreich zu Excel hinzugefügt.
 
 ### **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=La5WMCvafR0) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=La5WMCvafR0) unten, um das Modul in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 

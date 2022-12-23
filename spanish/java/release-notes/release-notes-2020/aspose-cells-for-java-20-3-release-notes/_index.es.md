@@ -15,9 +15,9 @@ url: /es/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43137|Light Cells API: procesamiento de hojas en un orden específico|Nueva caracteristica|
 |CELLSJAVA-43135|Eliminar ActiveXControl de la forma de imagen|Nueva caracteristica|
 |CELLSJAVA-43141|Agregar propiedad ThreadedComment.CreatedTime|Nueva caracteristica|
-|CELLSJAVA-42068|El GIF en la hoja de trabajo es incorrecto cuando el libro de trabajo se convierte en HTML|Insecto|
+|CELLSJAVA-42068|GIF en la hoja de trabajo es incorrecto cuando el libro de trabajo se convierte en HTML|Insecto|
 |CELLSJAVA-43127|La tabla dinámica de Excel no se actualiza automáticamente cuando el archivo se abre por primera vez|Insecto|
-|CELLSJAVA-43129|El texto chino está distorsionado en la conversión de HTML a XLS|Insecto|
+|CELLSJAVA-43129|El texto chino está distorsionado en la conversión HTML a XLS|Insecto|
 |CELLSJAVA-43139|Los gráficos en la hoja no se actualizan al representar la hoja de trabajo en la imagen|Insecto|
 |CELLSJAVA-43148|Error de posición de la etiqueta del gráfico|Insecto|
 |CELLSJAVA-43124|En la conversión a PDF, se cortan dos columnas de la tabla|Insecto|
@@ -25,7 +25,7 @@ url: /es/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43132|Faltan etiquetas de datos en algunos gráficos al exportar el gráfico a la imagen|Insecto|
 |CELLSJAVA-43143|Después de WorkbookDesigner.process, la salida del gráfico es nula en HTML|Insecto|
 |CELLSJAVA-43098|Reemplazar un objeto incrustado con una imagen no funciona para el formato de archivo XLS|Insecto|
-|CELLSJAVA-43122|Un problema con el orden de los comentarios encadenados después de la importación al formato de archivo XLSX de Office365|Insecto|
+|CELLSJAVA-43122|Un problema con el orden de los comentarios encadenados después de la importación al formato de archivo Office365 XLSX|Insecto|
 |CELLSJAVA-43134|El valor de cadena de una celda está vacío en Apple Numbers'09|Insecto|
 |CELLSJAVA-43144|Propiedad IsItalic detectada de manera diferente a MS Excel (Java)|Insecto|
 |CELLSJAVA-43140|IllegalArgumentException al llamar a computeFormula()|Excepción|
@@ -45,7 +45,7 @@ Elimina datos ActiveX de la forma.
 ### **Agrega la propiedad ThreadedComment.CreatedTime.**
 Obtiene y establece la hora de creación de los comentarios encadenados.
 ### **Agrega la propiedad Worksheet.UniqueId.**
-Obtiene y establece la identificación única de la hoja de trabajo.
+Obtiene y establece la identificación única de la hoja de cálculo.
 ### **Agrega la enumeración IconSetType.ColorSmilies3 e IconSetType.Smilies3.**
 Representa los formatos condicionales del conjunto de iconos de 3smiles. Solo para archivos .ods.s
 ### **Agrega la enumeración TimePeriodType.LastYear,TimePeriodType.NextYear y ThisYear.**

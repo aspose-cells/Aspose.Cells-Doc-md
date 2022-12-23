@@ -20,7 +20,7 @@ Pour implémenter le chiffrement de fichiers dans Microsoft Excel (par exemple 2
 
 1.  Du**Outils** menu, sélectionnez**Choix**.
 1.  Sélectionnez le**Sécurité** languette.
-1.  Entrez une valeur pour le**Mot de passe pour ouvrir** champ.
+1.  Entrez une valeur pour le**Mot de passe pour ouvrir** domaine.
 1.  Cliquez sur**Avancé**.
 1. Choisissez le type de cryptage et confirmez le mot de passe.
 

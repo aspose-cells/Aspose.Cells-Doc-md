@@ -28,7 +28,7 @@ url: /sv/java/aspose-cells-for-java-8-5-2-release-notes/
 ## **Förbättringar**
 
 
- (CELLSJAVA-41373) - Felaktig överensstämmelse i justeringsinställningar efter att ha sparat Excel-fil till HTML-filformat
+ (CELLSJAVA-41373) - Felaktig överensstämmelse i justeringsinställningar efter att ha sparat Excel-fil i filformatet HTML
 
 
 ## **Buggar**
@@ -40,11 +40,11 @@ url: /sv/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) - Alternativet Sammanfoga och centrera har valts även om det har en enda cell
 
- (CELLSJAVA-41429) - Lotus-kompatibilitetsinställningar för inmatning av övergångsformel ändras efter att kalkylarket har sparats på nytt
+(CELLSJAVA-41429) - Lotus-kompatibilitetsinställningar för inmatning av övergångsformel ändras efter att kalkylarket har sparats på nytt
 
  (CELLSJAVA-41427) - För många validering Cells Korrumperar XLS-filen
 
-(CELLSJAVA-41424) - Att använda anpassad funktion via ICustomFunction-gränssnittet beräknar inte korrekt värde
+ (CELLSJAVA-41424) - Att använda anpassad funktion via ICustomFunction-gränssnittet beräknar inte korrekt värde
 
  (CELLSJAVA-41423) - Fel layout vid rendering av PDF från en ODS-fil
 
@@ -52,7 +52,7 @@ url: /sv/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells håller kvar miljontals celler för alltid
 
- (CELLSJAVA-41395) - ODS till HTML-konvertering - Textstilsproblem
+ (CELLSJAVA-41395) - ODS till HTML Konvertering - Problem med textstil
 
  (CELLSJAVA-41426) - Cell diagram med x-axel skalas inte korrekt vid konvertering till pdf
 
@@ -74,7 +74,7 @@ url: /sv/java/aspose-cells-for-java-8-5-2-release-notes/
 
  Lägger till egenskapen SaveOptions.MergeAreas.
 
- Den används för att slå samman individuella CellAreas för villkorlig formatering och validering.
+Den används för att slå samman individuella CellAreas för villkorlig formatering och validering.
 
 
 
@@ -84,7 +84,7 @@ url: /sv/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-Lägger till metoden SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+ Lägger till metoden SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 
  Gör en viss sida i SheetRender till en grafik.
 

@@ -14,6 +14,6 @@ url: /it/net/specify-document-version-of-the-excel-file-using-builtin-document-p
 
 ![cose da fare:immagine_alt_testo](specify-document-version-of-the-excel-file-using-builtin-document-properties_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SpecifyDocumentVersionOfExcelFile.cs" >}}

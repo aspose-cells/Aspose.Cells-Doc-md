@@ -12,8 +12,8 @@ Aspose.Cells for Python via Java يدعم تحويل ملف Json (JavaScript Obj
 
 {{% /alert %}}
 
-## **تحويل JSON إلى Excel Workbook**
- لا داعي للتساؤل عن كيفية تحويل ملف JSON إلى ملف Excel ، لأن مكتبة Aspose.Cells for Python via Java لديها أفضل قرار. يوفر Aspose.Cells for Python via Java API دعمًا لتحويل تنسيق JSON إلى جداول بيانات. يمكنك استخدام[**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions) فئة لتحديد إعدادات إضافية لاستيراد JSON إلى المصنف.
+## **تحويل JSON إلى مصنف Excel**
+ لا داعي للتساؤل عن كيفية تحويل JSON إلى ملف Excel ، لأن مكتبة Aspose.Cells for Python via Java لديها القرار الأفضل. يوفر Aspose.Cells for Python via Java API دعمًا لتحويل تنسيق JSON إلى جداول بيانات. يمكنك استخدام[**JsonLoadOptions**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonLoadOptions) فئة لتحديد إعدادات إضافية لاستيراد JSON إلى المصنف.
 
 يوضح مثال التعليمات البرمجية التالي استيراد JSON إلى Excel Workbook. يرجى الاطلاع على الكود للتحويل[مصدر الملف](sample.json) إلى الملف الذي تم إنشاؤه بواسطة الكود كمرجع.
 

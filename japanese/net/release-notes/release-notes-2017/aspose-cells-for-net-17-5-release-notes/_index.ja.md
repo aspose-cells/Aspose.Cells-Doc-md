@@ -18,10 +18,10 @@ url: /ja/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45327|HTML セルのデータの DataTable へのエクスポートをサポート|新機能|
 |CELLSNET-45316|ASP.NET セッション状態モードが SQL Server の場合の GridWeb の動作をサポートします。|新機能|
 |CELLSNET-45350|画像レンダリング中の OutOfMemory エラー|パフォーマンス|
-|CELLSNET-45341|フィルタを使用して XLS を SpreadsheetML に変換すると、出力ファイルが破損する|パフォーマンス|
-|CELLSNET-45217|Excel を PDF に保存すると画像が回転します|バグ|
+|CELLSNET-45341|フィルターを使用して XLS を SpreadsheetML に変換すると、出力ファイルが破損する|パフォーマンス|
+|CELLSNET-45217|Excel を PDF に保存すると、画像が回転します|バグ|
 |CELLSNET-45306|css プレフィックスを使用して HTML に保存するとスタイルが正しくない|バグ|
-|CELLSNET-45304|出力 HTML で縦方向に回転したテキストのテキスト配置が間違っている|バグ|
+|CELLSNET-45304|垂直に回転したテキストのテキスト配置が出力で間違っている HTML|バグ|
 |CELLSNET-45299|HTML として保存するとテキストがセルに収まらない|バグ|
 |CELLSNET-45288|HTML ファイルのロード中に例外が発生しました|バグ|
 |CELLSNET-45274|ピボット テーブルのデータが正しく更新されない|バグ|
@@ -36,9 +36,9 @@ url: /ja/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45322|Cells.ImportDataTable メソッドが変更されました|バグ|
 |CELLSNET-45314|CopyOptions.ExtendToAdjacentRange プロパティが機能しない|バグ|
 |CELLSNET-45312|最終的な Excel ファイルは元の Excel ファイルとは異なります|バグ|
-|CELLSNET-45303|XLSX から XLS ファイル形式に再保存すると、図形 (長方形、線など) が結合されなくなりました|バグ|
+|CELLSNET-45303|XLSX から XLS ファイル形式に再保存すると、形状 (長方形、線など) が結合されなくなりました。|バグ|
 |CELLSNET-45301|Excelファイルを開いて保存すると位置合わせがおかしくなる|バグ|
-|CELLSNET-45297|新しいバージョンで XLSM ファイルを開いて保存すると破損する|バグ|
+|CELLSNET-45297|XLSM ファイルを開いて新しいバージョンで保存すると破損する|バグ|
 |CELLSNET-45296|ブックからすべてのコメントを削除すると、Excel で開くときにエラーが発生する|バグ|
 |CELLSNET-45308|円グラフの「その他」を翻訳|バグ|
 |CELLSNET-45298|結合されたグラフで凡例のエントリが正しく非表示にならない|バグ|
@@ -65,12 +65,12 @@ PDFA-1a と互換性のある PDF 形式を表します。
 #### **使用例**
 Aspose.Cells Wiki ドキュメントに追加されたヘルプ トピックのリストを確認してください。
 
-- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換する](/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Excel ファイルを PDFA-1a と互換性のある PDF 形式に変換します](/cells/ja/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [ページ設定の設定をソース ワークシートからコピー先ワークシートにコピーする](/cells/ja/net/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
 - [レンダリング用ワークシートのカスタム用紙サイズの実装](/cells/ja/net/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Excel ファイルのワークシートの既存の PrinterSettings を削除する](/cells/ja/net/remove-existing-printersettings-of-worksheets-in-excel-file/)
 - [Cells データ テーブル行を挿入するときに最初の行を下にシフトする](/cells/ja/net/shift-first-row-down-when-inserting-cells-data-table-rows/)
-- [Cells の HTML 文字列値を DataTable にエクスポートします](/cells/ja/net/export-html-string-value-of-the-cells-to-the-datatable/)
+- [HTML Cells の文字列値を DataTable にエクスポートします](/cells/ja/net/export-html-string-value-of-the-cells-to-the-datatable/)
 - [ASP.NET セッション状態モードが SQL Server の場合の GridWeb の動作](/cells/ja/net/working-of-gridweb-when-asp-net-session-state-mode-is-sql-server/)
 - [さまざまな GridWeb モードを有効にする](/cells/ja/net/enable-different-gridweb-modes/)
 

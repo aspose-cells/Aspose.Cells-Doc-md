@@ -14,7 +14,7 @@ Aspose.Cells.GridDesktop kullanarak bir hücreye yorum eklemek için lütfen aş
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Yorum** yorumun ekleneceği hücreyi (adını veya satır ve sütun numarasını kullanarak) belirterek çalışma sayfasına ekleyin.
+-  Eklemek**Yorum Yap** yorumun ekleneceği hücreyi (adını veya satır ve sütun numarasını kullanarak) belirterek çalışma sayfasına ekleyin.
 
  Aşağıdaki kod, şuraya yorum ekleyecektir:**b2** ve**b4** çalışma sayfasının hücreleri.
 
@@ -23,7 +23,7 @@ Aspose.Cells.GridDesktop kullanarak bir hücreye yorum eklemek için lütfen aş
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AddingComments.cs" >}}
 
 
-**Yorumlar** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Ekle** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Ekle** özel ihtiyaçlarına göre yöntem.
+**Yorumlar** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Eklemek** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Eklemek** özel ihtiyaçlarına göre yöntem.
 ## **Yorumlara Erişim**
 Çalışma sayfasındaki mevcut bir yoruma erişmek ve üzerinde değişiklik yapmak için geliştiriciler, çalışma sayfasından yoruma erişebilir.**Yorumlar** koleksiyonu**Çalışma kağıdı** yorumun eklendiği hücreyi belirterek (hücre adını veya satır ve sütun numarası cinsinden konumunu kullanarak). Yoruma erişildikten sonra, geliştiriciler çalışma zamanında Metnini değiştirebilir.
 

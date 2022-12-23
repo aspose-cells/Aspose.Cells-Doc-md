@@ -14,7 +14,7 @@ url: /fr/net/merge-files/
 
 {{% alert color="primary" %}}
 
- La[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) prend uniquement en charge la fusion de données, de styles, de mise en forme et de formules. Les objets tels que les graphiques, les images, les commentaires ou d'autres objets peuvent ne pas être fusionnés à l'aide de cette méthode. De plus, un fichier en cache est utilisé pour stocker des données temporaires pour le processus.
+ Le[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) prend uniquement en charge la fusion de données, de styles, de mise en forme et de formules. Les objets tels que les graphiques, les images, les commentaires ou d'autres objets peuvent ne pas être fusionnés à l'aide de cette méthode. De plus, un fichier en cache est utilisé pour stocker des données temporaires pour le processus.
 
 {{% /alert %}}
 

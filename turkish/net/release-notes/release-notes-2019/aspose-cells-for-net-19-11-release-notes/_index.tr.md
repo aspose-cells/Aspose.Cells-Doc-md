@@ -15,13 +15,13 @@ url: /tr/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-44956|Seçilen aralıkları gizleme ve Pivot Tablonun görüntülenen sonuçlarını sıralama desteği|Yeni özellik|
 |CELLSNET-46852|Veri kaynağı XLS dosyasındaki bir sorgu tablosu olan okuma ve yazma tablosunu destekler.|Yeni özellik|
 |CELLSNET-46967|Girinti boyutunu piksel biriminde alma desteği|Yeni özellik|
-|CELLSNET-46973|Oluşturulan XLS dosyasında çalışmayan Excel formülü|Artırma|
+|CELLSNET-46973|Oluşturulan XLS dosyasında Excel formülü çalışmıyor|Artırma|
 |CELLSNET-46981|Workbook.ImportXml ve Workbook.ExportXml için bellek akışıyla okuma/yazma desteği|Artırma|
-|CELLSNET-46905|XLS dosyasına kaydedilen bağlantı kaynağı için değişiklik yok|Artırma|
+|CELLSNET-46905|XLS dosyasında kayıtlı bağlantı kaynağı için değişiklik yok|Artırma|
 |CELLSNET-46898|3B modelin arka planı maviye döner|Böcek|
 |CELLSNET-46314|"Değeri genel toplamın %'si olarak göster" ile Pivot Tablo yenilenirken sorunlar|Böcek|
-|CELLSNET-46789|CalculateData yöntemi, PDF biçiminde düzgün çalışmıyor|Böcek|
-|CELLSNET-46955|HTML'den Excel'e dosya, "Öğe zaten eklendi" istisnasını yükseltir|Böcek|
+|CELLSNET-46789|CalculateData yöntemi, PDF biçimiyle doğru çalışmıyor|Böcek|
+|CELLSNET-46955|HTML Excel dosyasına "Öğe zaten eklendi" istisnasını yükseltir|Böcek|
 |CELLSNET-46987|Hücrelere başvururken formül hesaplanamıyor|Böcek|
 |CELLSNET-46968|Dolaylı formül MS Excel'de düzgün çalışmıyor|Böcek|
 |CELLSNET-46991|XLSX dosyası bozuk.|Böcek|
@@ -36,7 +36,7 @@ url: /tr/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46965|Boş bir otomatik metin başlığına sahip boş bir grafikte Chart.Calculate() öğesinin çağrılması hata veriyor|Böcek|
 |CELLSNET-46971|Yeni kopyalanan sayfa, tüm gizli sütunları gizlemiyor ve ayrıca sütun genişliğini sıfırlıyor|Böcek|
 |CELLSNET-46972|Excel dosyasının şifresi çözüldüğünde grafik başlıklarından virgül kaldırıldı|Böcek|
-|CELLSNET-46912|XLSX'i HTML'ye dönüştürürken StackOverflowException oluştu|İstisna|
+|CELLSNET-46912|XLSX'i HTML'e dönüştürürken StackOverflowException oluştu|İstisna|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 #### **Yöntemleri ekler: Validation.AddArea(CellArea,bool,bool),AddAreas(CellArea[], bool, bool),RemoveAreas(CellArea[])**
@@ -46,7 +46,7 @@ Bir XML dosya akışını çalışma kitabına aktarır.
 #### **Workbook.ExportXml(string mapName, Stream stream) yöntemini ekler.**
 XML verilerini bir akışa aktarın.
 #### **HtmlSaveOptions.ExportArea özelliğini ekler**
-Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar. Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır. Dosya HTML'ye kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
+Geçerli etkin Çalışma Sayfasının dışa aktarılan CellArea'sını Alır veya Ayarlar. Bu özniteliği ayarlarsanız, geçerli etkin Çalışma Sayfasının yazdırma alanı çıkarılacaktır. Dosya HTML'e kaydedilirken yalnızca belirtilen alan dışa aktarılacaktır.
 #### **Sınıfları ekler: DataMashup,PowerQueryFormula,PowerQueryFormulaCollection,PowerQueryFormulaItem ve PowerQueryFormulaItemCollection**
 DataMashup'ta bilgi alır.
 #### **DBConnection.SeverCommand özelliğini ekler.**

@@ -16,7 +16,7 @@ Kodu çalıştırdıktan sonra çıktı dosyası soluk kırmızı bir WordArt fi
 
 **çıktı dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](picture1.png)
+![yapılacaklar:resim_alternatif_metin](picture1.png)
 
 **C#**
 

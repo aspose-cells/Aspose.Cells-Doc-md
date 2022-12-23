@@ -5,7 +5,7 @@ weight: 210
 url: /fr/net/working-with-the-reflection-effect-of-shape-or-chart/
 ---
 ## **Scénarios d'utilisation possibles**
- Aspose.Cells fournit le[Forme.Réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) propriété avec[Effet de réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) classe pour travailler avec l'effet de réflexion de la forme ou du graphique. La[Effet de réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
+ Aspose.Cells fournit le[Forme.Réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/reflection) propriété avec[Effet de réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect) classe pour travailler avec l'effet de réflexion de la forme ou du graphique. Le[Effet de réflexion](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect)La classe contient les propriétés suivantes qui peuvent être définies pour obtenir différents résultats selon les exigences de l'application.
 
 - [Se brouiller](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
 - [Direction](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/direction)

@@ -12,9 +12,9 @@ Sabemos que todas las hojas de cálculo pueden contener datos que básicamente s
 
 ## **Accediendo al Cells**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de cálculo.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook)la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de trabajo.
 
- Nosotros podemos usar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección para acceder a las celdas de una hoja de cálculo. Aspose.Cells proporciona tres enfoques básicos para acceder a las celdas en una hoja de cálculo:
+ Nosotros podemos usar[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección para acceder a las celdas de una hoja de trabajo. Aspose.Cells proporciona tres enfoques básicos para acceder a las celdas en una hoja de trabajo:
 
 1. Usando el nombre de la celda.
 1. Usando el índice de fila y columna de una celda.

@@ -16,7 +16,7 @@ Mini grafiği Microsoft Excel'de diğer hücrelere kopyalamak için:
 1.  Seçme**Verileri Düzenle** dan**küçük resim** bölümü**Tasarım** sekme.
 1.  Seçme**Grup Konumunu ve Verilerini Düzenle**.
 1. Veri aralığını ve konumu belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 Aspose.Cells, mini grafik grubunun veri aralığını ve konumunu belirtmek için SparklineCollection.Add(dataRange, row, column) yöntemini sağlar. Aşağıdaki örnek kod, yukarıdaki ekran görüntüsünde gösterildiği gibi kaynak Excel dosyasını yükler, ardından ilk mini grafik grubuna erişir ve mini grafik grubuna veri aralıkları ve konumlar ekler. Son olarak, yukarıdaki ekran görüntüsünde de gösterilen çıktı Excel dosyasını diske yazar.
 

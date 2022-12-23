@@ -10,7 +10,7 @@ url: /sv/java/aspose-cells-java-for-ruby/
 RJB är ett bryggprogram som ansluter mellan Ruby och Java med Java Native Interface. Rake + Rjb är det kraftfullare och mer användbara byggverktyget än både Maven och Ant. Du kan testa din Java affärslogikklass själv med Rjbs mock. Det hjälper till att migrera Struts modellobjekt till din RoR-applikation. Men se upp med buildSwing-applikationen, Ruby (och Rjb) anser inte att JVM:s inbyggda trådar hanterar...
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java är en prisbelönt Excel-kalkylbladskomponent som gör det möjligt för Java-utvecklare att bädda in förmågan att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML), HTML, ODS, PDF, ODS, PDF och bildfilformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF och bildfilsformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
 Aspose.Cells for Java är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 ### **Aspose.Cells Java för Ruby**
@@ -49,7 +49,7 @@ Det är väldigt enkelt och lätt att installera Aspose.cells Java för Ruby gem
 
 {{< /highlight >}}
 
-1.  Och sedan avrätta
+1. Och sedan avrätta
 
 {{< highlight "java" >}}
 
@@ -117,7 +117,7 @@ Du kan få den senaste källkoden från en av följande platser:
       - [Konvertera Excel-filer till HTML i Ruby](/cells/sv/java/converting-excel-files-to-html-in-ruby/)
       - [Konvertera Excel till PDF-filer i Ruby](/cells/sv/java/converting-excel-to-pdf-files-in-ruby/)
       - [Konvertera HTML-filer till Excel-kalkylblad i Ruby](/cells/sv/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
-      - [Konvertera till MHTML-filer i Ruby](/cells/sv/java/converting-to-mhtml-files-in-ruby/)
+      - [Konvertera till MHTML filer i Ruby](/cells/sv/java/converting-to-mhtml-files-in-ruby/)
       - [Konvertera arbetsblad till bild i Ruby](/cells/sv/java/converting-worksheet-to-image-in-ruby/)
       - [Konvertera arbetsblad till SVG i Ruby](/cells/sv/java/converting-worksheet-to-svg-in-ruby/)
       - [Kryptera Excel-filer i Ruby](/cells/sv/java/encrypting-excel-files-in-ruby/)

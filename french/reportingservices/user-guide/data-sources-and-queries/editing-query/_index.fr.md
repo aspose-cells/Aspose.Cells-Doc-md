@@ -34,6 +34,6 @@ Pour modifier une requête dans Aspose.Cells.Report.Designer :
 
 1.  De Microsoft Requêtes**Dossier** menu, sélectionnez**Retour à Aspose.Cells.Report.Designer** 
 
-   **Revenir au concepteur de rapports** 
+   **Revenir au concepteur de rapport** 
 
 ![tâche : image_autre_texte](editing-query_4.png)

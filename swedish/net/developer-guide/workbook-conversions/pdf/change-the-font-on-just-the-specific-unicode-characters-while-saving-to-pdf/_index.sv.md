@@ -1,5 +1,5 @@
 ﻿---
-title: Ändra teckensnittet på bara de specifika Unicode-tecken medan du sparar till PDF
+title: Ändra teckensnittet på bara de specifika Unicode-tecken samtidigt som du sparar till PDF
 type: docs
 weight: 260
 url: /sv/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/

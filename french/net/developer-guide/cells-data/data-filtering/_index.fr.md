@@ -19,7 +19,7 @@ Le filtrage automatique est le moyen le plus rapide de sélectionner uniquement 
 Pour activer la fonction de filtre automatique dans Microsoft Excel :
 
 1. Cliquez sur la ligne d'en-tête dans une feuille de calcul.
-1.  Du**Données** menu, sélectionnez**Filtre** et alors**Filtre automatique**.
+1.  Du**Données** menu, sélectionnez**Filtre** et puis**Filtre automatique**.
 
 Lorsque vous appliquez un filtre automatique à une feuille de calcul, des commutateurs de filtre (flèches noires) apparaissent à droite des en-têtes de colonne.
 
@@ -27,7 +27,7 @@ Lorsque vous appliquez un filtre automatique à une feuille de calcul, des commu
 
 Certaines des options de filtre automatique sont :
 
-|**Choix**|**La description**|
+|**Choix**|**Description**|
 |:- |:- |
 |Tout|Afficher tous les éléments de la liste une fois.|
 |Personnalisé|Personnalisez les critères de filtre comme contient/ne contient pas|
@@ -82,7 +82,7 @@ Parfois, des filtres dynamiques sont nécessaires en fonction de la date, comme 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
 
-##### **Numéro**
+##### **Nombre**
 
 Des filtres personnalisés peuvent être appliqués à l'aide de Aspose.Cells, comme la sélection de cellules dont le nombre se situe dans une plage donnée. L'exemple suivant montre l'utilisation de la fonction Custom() pour filtrer les nombres. Des exemples de fichiers sont donnés ci-dessous.
 

@@ -10,7 +10,7 @@ url: /tr/net/filtering-data/
 
  Kullanabilirsiniz**Otomatik Filtreyi Etkinleştir** Boole özniteliği**RowFilterSettings** GridDesktop denetimi için Otomatik Filtre özelliğini etkinleştirmek için sınıf. Sınıfın kullanabileceğiniz başka bazı özellikleri vardır, örneğin**Üst bilgi satırı** , **Satırı Başlat** ve**EndRow**başlık, başlangıç ve bitiş satır dizinlerini belirtmek için. bu**kriterler** özelliği, özel filtreleme ölçütlerini ayarlamak için kullanılır. Sınıfın ayrıca adında bir yöntemi vardır.**Filtre Satırları** verilen kriterlere göre filtrelenmiş satırları almak için.
 
- RowFilter'daki "içerir" tipi arama (büyük/küçük harfe duyarsız) özniteliği GridDesktop tarafından da desteklenir. Kullanabilirsin**Olguyu Yoksay** mülkiyet**Izgara Sütunu** ihtiyacınıza yönelik büyük/küçük harf duyarlılığı özniteliğini belirtmek için class. adlı bir özelliği de kullanabilirsiniz.**IsStartWithCriteria** nın-nin**Izgara Sütunu** RowFilter'ın bir sütunda StartWith ölçütünü kullanıp kullanmadığını belirtmek için sınıf; özelliğin varsayılan değeri false olarak ayarlanmıştır.
+ RowFilter'daki "içerir" tipi arama (büyük/küçük harfe duyarsız) özniteliği GridDesktop tarafından da desteklenir. Kullanabilirsin**Olguyu Yoksay** mülkiyet**Izgara Sütunu** ihtiyacınıza yönelik büyük/küçük harf duyarlılığı özniteliğini belirtmek için class. adlı bir özelliği de kullanabilirsiniz.**IsStartWithCriteria** ile ilgili**Izgara Sütunu** RowFilter'ın bir sütunda StartWith ölçütünü kullanıp kullanmadığını belirtmek için sınıf; özelliğin varsayılan değeri false olarak ayarlanmıştır.
 
 {{% /alert %}} 
 ## **Verileri Filtreleme**

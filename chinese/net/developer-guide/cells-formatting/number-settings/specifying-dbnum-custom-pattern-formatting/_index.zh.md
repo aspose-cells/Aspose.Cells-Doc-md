@@ -10,6 +10,6 @@ Aspose.Cells 支持*数据库编号*自定义模式格式。例如，如果您�
 
 ## **示例代码**
 
-以下示例代码说明了如何指定*数据库编号*自定义模式格式。请检查其[输出PDF](43352081.pdf)寻求更多帮助。
+以下示例代码说明了如何指定*数据库编号*自定义模式格式。请检查其[输出 PDF](43352081.pdf)寻求更多帮助。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingDBNumCustomPatternFormatting.cs" >}}

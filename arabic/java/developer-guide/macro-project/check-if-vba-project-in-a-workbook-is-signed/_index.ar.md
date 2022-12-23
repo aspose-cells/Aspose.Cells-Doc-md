@@ -12,7 +12,7 @@ url: /ar/java/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **تحقق مما إذا كان مشروع VBA في مصنف تم توقيعه**
 
- تقوم الكود التالي بتحميل المصنف والتحقق مما إذا كان مشروع VBA الخاص به قد تم توقيعه باستخدام[**Workbook.getVbaProject (). isSigned ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned)منشأه. سوف يعود الممتلكات**حقيقي** إذا تم التوقيع على المشروع وإلا فإنه سيعود**خاطئة**.
+ تقوم الكود التالي بتحميل المصنف والتحقق مما إذا كان مشروع VBA الخاص به قد تم توقيعه باستخدام[**Workbook.getVbaProject (). isSigned ()**](https://reference.aspose.com/cells/java/com.aspose.cells/vbaproject#IsSigned) خاصية. سوف يعود الممتلكات**حقيقي** إذا تم التوقيع على المشروع وإلا فإنه سيعود**خاطئة**.
 
 ## عينة من الرموز
 

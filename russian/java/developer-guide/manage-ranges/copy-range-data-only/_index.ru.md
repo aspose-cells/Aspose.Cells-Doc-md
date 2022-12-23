@@ -6,7 +6,7 @@ url: /ru/java/copy-range-data-only/
 ---
 {{% alert color="primary" %}} 
 
-Иногда вам нужно скопировать данные из одного диапазона ячеек в другой, копируя только данные, а не форматирование. Aspose.Cells предлагает эту функцию, предоставляя[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) метод.
+ Иногда вам нужно скопировать данные из одного диапазона ячеек в другой, копируя только данные, а не форматирование. Aspose.Cells предлагает эту функцию, предоставляя[Range.copyData](https://reference.aspose.com/cells/java/com.aspose.cells/range#copyData\(com.aspose.cells.Range\)) метод.
 
 {{% /alert %}} 
 ## **Копировать только данные диапазона**

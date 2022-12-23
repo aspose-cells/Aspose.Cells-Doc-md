@@ -6,7 +6,7 @@ url: /it/net/use-error-checking-options/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel consente agli utenti di definire opzioni e regole per il controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
+Microsoft Excel consente agli utenti di definire opzioni e regole di controllo degli errori. Gli utenti vedono spesso i controlli degli errori durante la creazione di formule, un piccolo triangolo nell'angolo in alto a destra di una cella evidenzia quando c'è un problema con una cella. Excel fornisce informazioni che aiutano gli utenti a correggere problemi comuni.
 
 {{% /alert %}}
 
@@ -16,19 +16,19 @@ Gli errori che indicano che la formula non può restituire un risultato, come la
 
 L'errore può essere risolto utilizzando le opzioni o essere ignorato. Ignorare un errore significa che quell'errore non verrà visualizzato in ulteriori controlli degli errori.
 
-Aspose.Cells fornisce funzionalità di opzione di controllo degli errori. Il[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class gestisce diversi tipi di controlli degli errori, ad esempio numeri memorizzati come testo, errori di calcolo delle formule ed errori di convalida. Utilizzare il[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumerazione per impostare il controllo degli errori desiderato.
+ Aspose.Cells fornisce funzionalità di opzione di controllo degli errori. Il[**ErrorCheckOption**](https://reference.aspose.com/cells/net/aspose.cells/errorcheckoption) class gestisce diversi tipi di controlli degli errori, ad esempio numeri memorizzati come testo, errori di calcolo delle formule ed errori di convalida. Usa il[**ErrorCheckType**](https://reference.aspose.com/cells/net/aspose.cells/errorchecktype)enumerazione per impostare il controllo degli errori desiderato.
 
-## **Numeri memorizzati come testo**
+## **Numbers Memorizzato come testo**
 
-Occasionalmente, i numeri potrebbero essere formattati e archiviati nelle celle come testo. Ciò può causare problemi con i calcoli o produrre ordinamenti confusi. I numeri formattati come testo sono allineati a sinistra anziché a destra nella cella. Se una formula che dovrebbe eseguire un'operazione matematica sulle celle non restituisce un valore, controlla l'allineamento nelle celle a cui fa riferimento la formula: alcune o tutte le celle potrebbero essere numeri formattati come testo.
+Occasionalmente, i numeri potrebbero essere formattati e archiviati nelle celle come testo. Ciò può causare problemi con i calcoli o produrre ordinamenti confusi. Numbers formattati come testo sono allineati a sinistra anziché a destra nella cella. Se una formula che dovrebbe eseguire un'operazione matematica sulle celle non restituisce un valore, controlla l'allineamento nelle celle a cui fa riferimento la formula: alcune o tutte le celle potrebbero essere numeri formattati come testo.
 
 È possibile utilizzare le opzioni di controllo degli errori per convertire rapidamente i numeri memorizzati come testo in numeri reali. In Microsoft Excel 2003:
 
-1.  Sul**Strumenti** menu, fare clic**Opzioni**.
+1.  Sul**Utensili** menu, fare clic**Opzioni**.
 1. Selezionare la scheda Controllo errori.
    **Numero memorizzato come testo** l'opzione è selezionata per impostazione predefinita.
 1. Disattivalo.
 
-Il codice di esempio seguente mostra come disabilitare i numeri archiviati come opzione di controllo degli errori di testo per un foglio di lavoro nel file XLS modello utilizzando le API Aspose.Cells.
+Il codice di esempio seguente mostra come disabilitare i numeri archiviati come opzione di controllo degli errori di testo per un foglio di lavoro nel file modello XLS usando le API Aspose.Cells.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ErrorCheckingOptions-1.cs" >}}

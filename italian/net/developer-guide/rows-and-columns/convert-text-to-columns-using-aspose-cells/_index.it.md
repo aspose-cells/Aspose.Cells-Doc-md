@@ -6,7 +6,7 @@ url: /it/net/convert-text-to-columns-using-aspose-cells/
 ---
 ## **Possibili scenari di utilizzo**
 
-Puoi convertire il testo in colonne utilizzando Microsoft Excel. Questa funzione è disponibile da*Strumenti dati* sotto il*Dati* scheda. Per suddividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale Microsoft Excel suddivide il contenuto di una cella in più celle. Aspose.Cells fornisce anche questa funzione tramite[**Foglio di lavoro.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)metodo.
+Puoi convertire il tuo testo in colonne usando Microsoft Excel. Questa funzione è disponibile da*Strumenti dati* sotto il*Dati* scheda. Per suddividere il contenuto di una colonna in più colonne, i dati devono contenere un delimitatore specifico come una virgola (o qualsiasi altro carattere) in base al quale Microsoft Excel suddivide il contenuto di una cella in più celle. Aspose.Cells fornisce anche questa funzione tramite[**Foglio di lavoro.Cells.TextToColumns()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/texttocolumns)metodo.
 
 ## **Converti testo in colonne usando Aspose.Cells**
 
@@ -14,6 +14,6 @@ Puoi convertire il testo in colonne utilizzando Microsoft Excel. Questa funzione
 
 ![cose da fare:immagine_alt_testo](convert-text-to-columns-using-aspose-cells_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-ConvertTextToColumns.cs" >}}

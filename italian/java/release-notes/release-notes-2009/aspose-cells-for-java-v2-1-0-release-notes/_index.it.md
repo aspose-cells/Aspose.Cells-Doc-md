@@ -28,9 +28,9 @@ l Funzione Calcola collegamento ipertestuale.
 
 l Elimina nomi definiti dall'utente.
 
-Includi gli attributi del filtro automatico durante la copia della cartella di lavoro/foglio di lavoro.
+l Includi gli attributi del filtro automatico durante la copia della cartella di lavoro/foglio di lavoro.
 
-l Supporto per collegamenti ipertestuali nella conversione xls2pdf.
+Supporto per collegamenti ipertestuali nella conversione xls2pdf.
 
 l Estrai Ole Objects nel file modello.
 
@@ -40,7 +40,7 @@ l 48 correzioni e altri miglioramenti.
 
 Problemi risolti in Aspose.Cells for Java v2.1.0
 
-|**ID problema**|**Componente**|**Riepilogo**|
+|**ID problema**|**Componente**|**Sommario**|
 |:- |:- |:- |
 |9771|xls|Indirizzo del collegamento ipertestuale|
 |9770|xls|file modello che contengono dati MSODrawing di grandi dimensioni|
@@ -61,7 +61,7 @@ Problemi risolti in Aspose.Cells for Java v2.1.0
 |9363|xls|SmartMarker con bandierina orizzontale:|
 |9364|xlsx|chiude il flusso di output dell'utente|
 |9404|xls|file modello di lettura creato da Microsoft Jet Engine|
-|9264|CSV|importazione/esportazione in formato file CSV|
+|9264|CSV|importazione/esportazione formato file CSV|
 |9265|Xls2Pdf|celle unite in xls2pdf|
 |9173|xlsx|Proprietà Style.isCellLocked() per il formato di file Excel2007|
 |9174|xls|impostare la dimensione dell'immagine in Header/Footer di PageSetup|

@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-40792|La tabella pivot non viene creata per il file ODS|Nuova caratteristica|
 |CELLSJAVA-43221|Eccezione "java.lang.NullPointerException" durante il caricamento del file XLT|Aumento|
@@ -23,14 +23,14 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43219|L'aggiunta del riferimento alla formula a fogli diversi risulta in una cartella di lavoro di Excel danneggiata|Insetto|
 |CELLSJAVA-43232|Problema con la funzione ROUNDUP|Insetto|
 |CELLSJAVA-43243|Impossibile recuperare la formula durante la modifica della formula della cella adiacente|Insetto|
-|CELLSJAVA-43217|La stampa da XLSX a XPS perde la formattazione in background|Insetto|
+|CELLSJAVA-43217|La stampa da XLSX a XPS perde la formattazione dello sfondo|Insetto|
 |CELLSJAVA-43224|Problema durante la stampa su una stampante fisica|Insetto|
 |CELLSJAVA-43241|Problema con l'altezza della linea e il bordo durante la creazione dell'immagine dall'area di Excel|Insetto|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) non genera i risultati previsti durante l'utilizzo di SmartMarkers|Insetto|
 |CELLSJAVA-43213|Aspose.Cells 20.6 non funziona correttamente con i controlli dei moduli in Office 365 (versione 2005 Build 12827.20268)|Insetto|
-|CELLSJAVA-43214|Quando si traduce XLS in XLSX produce un file XLSX rotto|Insetto|
-|CELLSJAVA-43216|Conversione da XLS a XLSX: l'audacia e il posizionamento dei caratteri vengono modificati per la forma|Insetto|
-|CELLSJAVA-43228|L'XLS generato è in visualizzazione protetta|Insetto|
+|CELLSJAVA-43214|Durante la traduzione da XLS a XLSX produce un file XLSX danneggiato|Insetto|
+|CELLSJAVA-43216|Conversione da XLS a XLSX: l'audacia e il posizionamento del carattere vengono modificati per la forma|Insetto|
+|CELLSJAVA-43228|Generato XLS è in visualizzazione protetta|Insetto|
 |CELLSJAVA-43231|Errore nel file di output dopo le sostituzioni|Insetto|
 |CELLSJAVA-43242|Uno dei tag di stile trovati al di fuori del tag Head|Insetto|
 |CELLSJAVA-43157|Il colore delle serie di dati personalizzate non viene mantenuto durante la creazione di un grafico a cascata|Insetto|
@@ -49,15 +49,15 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43293|Problema con le opzioni di filtro dopo PivotTable.refreshData()|Insetto|
 |CELLSJAVA-43279|I valori non vengono recuperati correttamente utilizzando getStringValue()|Insetto|
 |CELLSJAVA-43291|contenuto della griglia non visualizzato|Insetto|
-|CELLSJAVA-43037|Problema di carattere nella conversione PDF|Insetto|
-|CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, XPS e stampante PDF|Insetto|
+|CELLSJAVA-43037|Problema di carattere sulla conversione PDF|Insetto|
+|CELLSJAVA-43249|Problemi di stampa durante l'utilizzo di stampanti fisiche, stampante XPS e PDF|Insetto|
 |CELLSJAVA-43254|Differenza di carattere durante la conversione del foglio di calcolo in immagine|Insetto|
-|CELLSJAVA-43266|Per impostazione predefinita, la versione Java non supporta il caricamento dei caratteri dalla cartella dei caratteri dell'utente corrente|Insetto|
+|CELLSJAVA-43266|La versione Java non supporta il caricamento del carattere dalla cartella dei caratteri dell'utente corrente per impostazione predefinita|Insetto|
 |CELLSJAVA-43268|Rendering da Excel a TIFF: alcuni valori vengono sostituiti con caratteri "#".|Insetto|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: errore per ZipFile|Insetto|
 |CELLSJAVA-43277|Problema con il rapporto tra altezza e larghezza|Insetto|
 |CELLSJAVA-43245|Il grafico combinato non viene visualizzato correttamente dopo la conversione del file Excel in PDF|Insetto|
-|CELLSJAVA-43276|Problemi di interruzione di riga durante la conversione di XLSX in PDF|Insetto|
+|CELLSJAVA-43276|Problemi di interruzione di riga durante la conversione da XLSX a PDF|Insetto|
 |CELLSJAVA-43261|SmartMarker: quando si utilizza group:merge con Number Format Percentage, il risultato dell'espansione è errato|Insetto|
 |CELLSJAVA-43265|Impossibile caricare il file XLSX|Insetto|
 |CELLSJAVA-43270|Duplicazione del contenuto (Word incorporato) durante la copia del foglio di lavoro|Insetto|
@@ -71,9 +71,9 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43170|CellsException sul metodocalcFormula|Eccezione|
 |CELLSJAVA-43267|Eccezione "java.lang.NullPointerException" durante il calcolo della tabella pivot nel foglio|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Contrassegna l'interfaccia ICustomFunction come obsoleta.**
 
@@ -157,7 +157,7 @@ Rappresenta i parametri della formula di query avanzata.
 
 ### **Aggiunge la proprietà AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di**Motore di calcolo astratto** modificato il calcolo di alcune funzioni integrate, l'utente deve sovrascrivere questa proprietà per renderla come**VERO** da**20.9**.
+Per considerazioni relative alle prestazioni e alla comodità dell'utente, aggiungiamo questa proprietà e impostiamo il suo valore predefinito su false in modo che l'utente possa concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di**Motore di calcolo astratto** modificato il calcolo di alcune funzioni integrate, l'utente deve sovrascrivere questa proprietà per renderla come**VERO** a partire dal**20.9**.
 
 ### **Aggiunge la proprietà TxtLoadOptions.HasTextQualifier**
 

@@ -15,10 +15,10 @@ url: /ja/net/aspose-cells-for-net-8-7-2-release-notes/
 |CELLSNET-44260 |Workbook 内の既存の OleObjects に OleObject.ImageData を設定する|強化|
 |CELLSNET-44027 |GridWeb で IE10 と IE11 をサポート|強化|
 |CELLSNET-44305 |ワークブック コンストラクターがファイルの読み込み時にハングする|パフォーマンス|
-|CELLSNET-44262 |Aspose.Cells 生成された Excel ファイルによって生成された SVG チャート画像が間違っている|バグ|
+|CELLSNET-44262 |SVG グラフ画像が間違っている Aspose.Cells 生成された Excel ファイルによって生成された|バグ|
 |CELLSNET-44221 |ファイルを開いて更新した後、ファイルが破損している|バグ|
-|CELLSNET-44075 |図形の描画が正しくレンダリングされない - Excel から PDF への変換|バグ|
-|CELLSNET-44208 |スプレッドシートを PDF にレンダリングする際に TextBox 内のテキストがミラーリングされる|バグ|
+|CELLSNET-44075 |図形の描画が正常にレンダリングされない - Excel から PDF への変換|バグ|
+|CELLSNET-44208 |スプレッドシートを PDF にレンダリングする際に、TextBox 内のテキストがミラーリングされる|バグ|
 |CELLSNET-44298 |ICustomFunction は、HYPERLINK をネイティブの Excel 関数の代わりにカスタム関数として解決しようとします。|バグ|
 |CELLSNET-44268 |上に移動していない画像に関する Cells.DeleteRange の問題|バグ|
 |CELLSNET-44256 |Aspose.Cells 数式計算エンジンによる数式の計算に関する問題|バグ|
@@ -31,14 +31,14 @@ url: /ja/net/aspose-cells-for-net-8-7-2-release-notes/
 |CELLSNET-44229 |Chart を使用してスプレッドシートを再保存すると、DataLabel の塗りつぶし形式が Solid Fill から No Fill に変更される|バグ|
 |CELLSNET-44228 |Chart でスプレッドシートを再保存した後、DataLabel のフォントが Calibri から Arial に変更される|バグ|
 |CELLSNET-44018 |Chart2Image 機能は、表示サイズが 150% に設定されている場合、1 つの隅に小さなグラフを含む大きな画像を生成します|バグ|
-|CELLSNET-44227 |ChartをPNGにレンダリングする際のTextBoxのテキスト間の望ましくないスペース|バグ|
+|CELLSNET-44227 |Chart を PNG にレンダリングする際の TextBox のテキスト間の不要なスペース|バグ|
 |CELLSNET-44306 |シートをコピーした後、GetRangeByName が null を返す|バグ|
 |CELLSNET-44299 |スプレッドシートの画像が PDF 形式にレンダリングされない|バグ|
 |CELLSNET-44294 |Excel の [保存] ボタンをクリックすると、修復の警告が表示されます|バグ|
 |CELLSNET-44292 |サンプル アプリケーションが新しいバージョンで破損したファイルを生成する|バグ|
 |CELLSNET-44281 |このプログラムの署名が破損しているか無効です。IE 11 で Aspose.Cells MSI をダウンロード中にエラーが発生しました|バグ|
 |CELLSNET-44261 |totalsRowFormula のテーブル構造化参照が更新されない|バグ|
-|CELLSNET-44259 |XLS は、スプレッドシートにマクロがないマクロを有効にするためのセキュリティ警告を表示します|バグ|
+|CELLSNET-44259 |XLS は、スプレッドシートにマクロがない場合にマクロを有効にするためのセキュリティ警告を示しています|バグ|
 |CELLSNET-44258 |ppt の代わりに pdf を埋め込むと、ソース アプリケーション エラーを開始できません|バグ|
 |CELLSNET-44253 |ODS 出力で画像が生成されない|バグ|
 |CELLSNET-44174 |PDF に保存するか範囲に変換すると、表の左右の境界線が失われる|バグ|

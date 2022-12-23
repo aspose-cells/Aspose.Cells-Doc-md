@@ -19,7 +19,7 @@ url: /ar/net/insert-a-linked-picture-from-web-address/
 
 ## **باستخدام Aspose.Cells for .NET**
 
- Aspose.Cells for .NET يدعم إضافة صورة مرتبطة باستخدام[**ShapeCollection.AddLinkedPicture (int upperLeftRow ، int upperLeftColumn ، int heightPixels ، int widthPixels ، string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) . تقوم الطريقة بإرجاع ملف[**صورة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)هدف.
+ Aspose.Cells for .NET يدعم إضافة صورة مرتبطة باستخدام[**ShapeCollection.AddLinkedPicture (int upperLeftRow ، int upperLeftColumn ، int heightPixels ، int widthPixels ، string sourceFullName)**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlinkedpicture) . تقوم الطريقة بإرجاع ملف[**صورة**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picture)موضوع.
 
 يوضح المثال التالي كيفية إضافة صورة مرتبطة من عنوان ويب إلى ورقة عمل.
 

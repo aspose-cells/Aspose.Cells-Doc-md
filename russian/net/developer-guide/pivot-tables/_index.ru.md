@@ -23,7 +23,7 @@ Aspose.Cells предоставляет специальный набор кла
 
 1. Добавьте данные на лист с помощью[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) объекты[**путвалуе**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/putvalue/index) метод.
  Эти данные будут использоваться в качестве источника данных сводной таблицы.
-1.  Добавьте сводную таблицу на рабочий лист, вызвав метод[**сводные таблицы**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) коллекция[**добавлять**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)метод, который инкапсулирован в объект Worksheet.
+1.  Добавьте сводную таблицу на рабочий лист, вызвав метод[**сводные таблицы**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection) коллекция[**Добавлять**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection/methods/add/index)метод, который инкапсулирован в объект Worksheet.
 1.  Доступ к новым[**сводная таблица**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable) объект из[**сводные таблицы**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottablecollection)коллекции путем передачи индекса сводной таблицы.
 1.  Используйте любой из[**сводная таблица**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable)объекты (описанные выше) для управления сводной таблицей.
 

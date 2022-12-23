@@ -10,8 +10,8 @@ url: /tr/java/aspose-cells-for-java-7-7-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java, 7.7.2 sürümüne güncellendi ve bu sürümün yaklaşık 20 yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+ Aspose.Cells for Java, 7.7.2 sürümüne güncellendi ve bu sürümün yaklaşık 20 yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -42,7 +42,7 @@ Hatalar
 (CELLSJAVA-40729) - Biçimlendirilmiş Çince Tarih sorunu ayıklanıyor
 (CELLSJAVA-40728) - getStringValue(), #DEĞER döndürür!
 (CELLSJAVA-40722) - XLS biçimine dönüştürüldükten sonra doğrulama çalışmıyor
-(CELLSJAVA-40690) - XLSX'ten PDF'e: Köprünün altındaki alt çizgi, bitişik karakter konumlarına yayılıyor
+(CELLSJAVA-40690) - XLSX - PDF: Köprünün altındaki alt çizgi, bitişik karakter konumlarına yayılıyor
 
 İstisnalar
 

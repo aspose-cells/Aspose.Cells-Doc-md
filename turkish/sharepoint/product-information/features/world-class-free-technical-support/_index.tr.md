@@ -22,8 +22,8 @@ Aspose, doğrudan ürünlerin geliştiricileri tarafından sağlanan ücretsiz v
 
 #### **Daha fazla desteğe mi ihtiyacınız var?**
 
- Aspose tüm kullanıcılara ücretsiz destek sunuyor. Kendi sorunlarına öncelik verilmesini isteyen veya ürün geliştirme yol haritamızı etkilemek isteyen şirketler için,[gelişmiş destek seçenekleri](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) Öncelikli Destek ve Kurumsal Destek gibi.
+Aspose tüm kullanıcılara ücretsiz destek sunuyor. Kendi sorunlarına öncelik verilmesini isteyen veya ürün geliştirme yol haritamızı etkilemek isteyen şirketler için,[gelişmiş destek seçenekleri](https://helpdesk.aspose.com/kb/faq/2-Developer-Business-Support-Key-Benefits-Conditions) Öncelikli Destek ve Kurumsal Destek gibi.
 
 **Aspose.Support Forumlarında çok fazla aktivite var.**
 
-![yapılacaklar:resim_alternatif_Metin](world-class-free-technical-support_1.png)
+![yapılacaklar:resim_alternatif_metin](world-class-free-technical-support_1.png)

@@ -1,20 +1,20 @@
 ﻿---
-title: Konvertieren Sie CSV in JSON
+title: Wandeln Sie CSV in JSON um
 type: docs
 weight: 170
 url: /de/java/convert-csv-to-json/
 ---
-## **Konvertieren Sie CSV in JSON**
+## **Wandeln Sie CSV in JSON um**
 
-Aspose.Cells unterstützt die Konvertierung von CSV in JSON. Dafür sorgt die API[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen. Das[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)-Klasse bietet die Optionen zum Exportieren des Bereichs nach JSON. Das[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)Klasse hat die folgenden Eigenschaften.
+Aspose.Cells unterstützt die Umwandlung von CSV in JSON. Dafür sorgt die API[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen. Das[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)Klasse bietet die Optionen für den Exportbereich bis JSON. Die[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)Klasse hat die folgenden Eigenschaften.
 
-- [**AlsString exportieren**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString)Dies exportiert den Zeichenfolgenwert der Zellen in JSON.
+- [**AlsString exportieren**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): Dies exportiert den Zeichenfolgenwert der Zellen nach JSON.
 - [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): Gibt an, ob der Bereich eine Kopfzeile enthält.
 - [**Einzug**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): Gibt den Einzug an.
 
-Das[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)-Klasse exportiert die JSON-Datei mithilfe der mit der festgelegten Exportoptionen[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)Klasse.
+Das[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Die Klasse exportiert die JSON unter Verwendung der mit der eingestellten Exportoptionen[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)Klasse.
 
-Das folgende Codebeispiel veranschaulicht die Verwendung von[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen zum Laden der[Quell-CSV-Datei](SampleCsv.csv)und druckt die[JSON](SampleJson_out.csv) Ausgabe in der Konsole.
+Das folgende Codebeispiel veranschaulicht die Verwendung von[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)und[**JsonUtility**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)Klassen zum Laden der[Quelldatei CSV](SampleCsv.csv)und druckt die[JSON](SampleJson_out.csv) Ausgabe in der Konsole.
 
 ### **Beispielcode**
 

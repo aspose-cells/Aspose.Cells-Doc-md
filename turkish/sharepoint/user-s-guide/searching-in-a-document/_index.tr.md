@@ -15,9 +15,9 @@ Birkaç dosyayı aynı anda aramak için:
 
 **Belgeleri arama** 
 
-![yapılacaklar:resim_alternatif_Metin](searching-in-a-document_1.png)
+![yapılacaklar:resim_alternatif_metin](searching-in-a-document_1.png)
 
 Aşağıdaki seçenekler mevcuttur:
 
-- **Bul Seçenekleri**Hücrelerde formül arayarak veya belirli bir ifade içeren formüller bularak aramanıza odaklanın.
+- **Bul Seçenekleri**: Hücrelerde formül arayarak veya belirli bir ifade içeren formüller bularak aramanıza odaklanın.
 - **Harfe duyarlı**: Büyük/küçük harfe duyarlı seçeneği seçildiğinde, arama, küçük ve büyük harfler dahil olmak üzere karakterleri tam olarak eşleştirir.

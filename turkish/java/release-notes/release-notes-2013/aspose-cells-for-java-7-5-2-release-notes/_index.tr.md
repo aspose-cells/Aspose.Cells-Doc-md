@@ -20,4 +20,4 @@ url: /tr/java/aspose-cells-for-java-7-5-2-release-notes/
 
  Hatalar
 
- 40553 - Excel'i PDF'ye dönüştürmek, Grafikleri JDK1.7.0_21 ile oluşturmuyor
+ 40553 - Excel'i PDF'e dönüştürmek JDK1.7.0_21 ile Grafikleri oluşturmuyor

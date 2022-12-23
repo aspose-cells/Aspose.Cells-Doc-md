@@ -15,10 +15,10 @@ Aspose.Cells es un componente flexible que permite que las aplicaciones de Andro
 {{% /alert %}} 
 ## **Características del documento**
 - Abra archivos de Excel sin formato o cifrados (Excel97 - Excel2007 y versiones posteriores) de diferentes fuentes
-- Guarde archivos de Excel (Excel97 - Excel2007 y versiones posteriores) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML, etc.)
+- Guarde archivos de Excel (Excel97 - Excel2007 y versiones posteriores) en diferentes formatos (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, delimitado por tabuladores, HTML, etc.)
 - Convertir archivo de Excel a documento PDF
-- Convierta una hoja de cálculo de Excel en un documento XPS
-- Leer y escribir formato de hoja de cálculo OpenDocument (ODS)
+- Convierta la hoja de cálculo de Excel en el documento XPS
+- Formato de hoja de cálculo OpenDocument de lectura y escritura (ODS)
 - Modificar las propiedades del documento de los archivos de Excel
 ## **Características de la hoja de trabajo**
 ## **Opciones de pantalla**
@@ -48,27 +48,27 @@ Aspose.Cells es un componente flexible que permite que las aplicaciones de Andro
 - Recuperar datos de celdas según sus tipos de datos
 - **Exportar datos de celdas a Array**
 - Buscar o buscar datos específicos en celdas
--  Establecer**Fórmulas con funciones integradas o complementarias**
+-  Colocar**Fórmulas con funciones integradas o complementarias**
 - Agregar diferentes tipos de hipervínculos
 - Crear o acceder a rangos con nombre
--  Aplicar**Validación de datos** y**Filtrado automático**
--  Aplicar**subtotales** a las tablas de la hoja de trabajo
+-  Solicitar**Validación de datos** y**Filtrado automático**
+-  Solicitar**subtotales** a las tablas de la hoja de trabajo
 ## **Funciones de formato**
--  Aplicar**Configuración de formato de número** para el Cells
+-  Solicitar**Configuración de formato de número** para el Cells
 - Formato Cell como fecha
--  Establecer**Alineación del texto**
+-  Colocar**Alineación del texto**
 - Combinar múltiples Cells en uno solo
 - Aplicar diferentes tipos de**Configuración de fuentes** para el Cells
 - Aplique diferentes colores a Cells, fuentes, líneas de cuadrícula, objetos gráficos, etc.
--  Establecer**Texto rico** en un solo Cell
+-  Colocar**Texto rico** en un solo Cell
 -  Aplicar diferentes**Configuración de borde** el Cells
 -  Aplicar diferentes**Patrones de fondo** el Cells
--  Aplicar**Configuración de formato** en una hoja de trabajo, fila o columna, etc.
--  Aplicar**Formato condicional** el Cells
+-  Solicitar**Configuración de formato** en una hoja de trabajo, fila o columna, etc.
+-  Solicitar**Formato condicional** el Cells
 ## **Funciones de gráficos y gráficos**
 - Crea diferentes tipos de gráficos fácilmente
 -  personalizar**Gráficos** estableciendo sus diferentes propiedades
--  Establecer**Datos para los gráficos** dinamicamente
+-  Colocar**Datos para los gráficos** dinamicamente
 -  Agregar**Gráficos personalizados** a hojas de trabajo usando API
 -  Agregar**Fotos** a hojas de trabajo en tiempo de ejecución
 -  Crear y Agregar**Comentarios** a las células
@@ -76,5 +76,5 @@ Aspose.Cells es un componente flexible que permite que las aplicaciones de Andro
 - Convertir hoja de trabajo en archivo de imagen
 ## **Funciones avanzadas**
 -  Soporta**Cálculos de fórmula** utilizando un robusto motor de cálculo de fórmulas
--  Cambio**Datos de origen de una tabla dinámica** en tiempo de ejecución
+-  Cambiar**Datos de origen de una tabla dinámica** en tiempo de ejecución
 - Crear y manipular tablas dinámicas

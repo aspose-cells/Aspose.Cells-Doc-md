@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /sv/net/columns-containing-strongly-typed-data/
 ---
- Vi vet att ett kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt skrivna (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTable** metod av klassen Cells.**ExportDataTable** metod använder följande parametrar för att exportera kalkylbladsdata som**Datatabell** objekt:**Radnummer** , representerar radnumret för den första cellen varifrån data kommer att exporteras
+Vi vet att ett kalkylblad lagrar data som en sekvens av rader och kolumner. Om alla värden i kolumnerna i ett kalkylblad är starkt skrivna (det betyder att alla värden i en kolumn måste ha samma datatyp) kan vi exportera kalkylbladets innehåll genom att anropa**ExportDataTable** metod av klassen Cells.**ExportDataTable** metod använder följande parametrar för att exportera kalkylbladsdata som**Datatabell** objekt:**Radnummer** , representerar radnumret för den första cellen varifrån data kommer att exporteras
 
 - **Kolumnnummer** , representerar kolumnnumret för den första cellen varifrån data kommer att exporteras
 - **Antal rader** , representerar antalet rader som ska exporteras

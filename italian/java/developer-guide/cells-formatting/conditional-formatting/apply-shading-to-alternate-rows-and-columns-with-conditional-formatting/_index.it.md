@@ -6,7 +6,7 @@ url: /it/java/apply-shading-to-alternate-rows-and-columns-with-conditional-forma
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells Le API forniscono i mezzi per aggiungere e manipolare regole di formattazione condizionale per[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) oggetto. Queste regole possono essere adattate in diversi modi per ottenere la formattazione desiderata in base a condizioni o regole. Questo articolo dimostrerà l'uso dell'API Aspose.Cells for Java per applicare l'ombreggiatura a righe e colonne alternate con l'aiuto delle regole di formattazione condizionale e delle funzioni integrate di Excel.
+ Aspose.Cells Le API forniscono i mezzi per aggiungere e manipolare regole di formattazione condizionale per[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) oggetto. Queste regole possono essere adattate in diversi modi per ottenere la formattazione desiderata in base a condizioni o regole. Questo articolo dimostrerà l'uso di Aspose.Cells for Java API per applicare l'ombreggiatura a righe e colonne alternate con l'aiuto delle regole di formattazione condizionale e delle funzioni integrate di Excel.
 
 {{% /alert %}} 
 ## **Applicare l'ombreggiatura a righe e colonne alternative utilizzando la formattazione condizionale**
@@ -16,7 +16,7 @@ Questo articolo utilizza le funzioni integrate di Excel come RIGA, COLONNA e MOD
 - **COLONNA()**La funzione restituisce il numero di colonna di un riferimento di cella. Se il riferimento viene omesso, si presuppone che il riferimento sia l'indirizzo della cella in cui è stata inserita la funzione COLONNA.
 - **MOD()** La funzione restituisce il resto dopo che un numero è stato diviso per un divisore, dove il primo parametro della funzione è il valore numerico di cui si desidera trovare il resto e il secondo parametro è il numero utilizzato per dividere nel parametro numero. Se il divisore è 0, restituirà #DIV/0! errore.
 
-Cominciamo a scrivere del codice per raggiungere l'obiettivo con l'aiuto dell'API Aspose.Cells for Java.
+Cominciamo a scrivere del codice per raggiungere l'obiettivo con l'aiuto di Aspose.Cells for Java API.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ApplyShadingToAlternateRowsAndColumns-ApplyShadingToAlternateRowsAndColumns.java" >}}
 

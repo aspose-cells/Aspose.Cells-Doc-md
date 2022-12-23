@@ -14,7 +14,7 @@ url: /sv/python-java/aspose-cells-for-python-via-java-22-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|Stöd sortering av PivotField via beräknat fält|
 |CELLSJAVA-44733|Undersök regler för ms excel för att visa cellens ram när intilliggande kolumn är dold: cellens ram har inte synkroniserats|
-|CELLSJAVA-44695| Dålig konvertering till PDF från XLS med Line Callout till vänster på arket|
+|CELLSJAVA-44695| Dålig konvertering till PDF från XLS med linjetext till vänster på arket|
 |CELLSJAVA-44700|Pivottabellberäknade fält uppdateras inte vid uppdatering av datakälla|
 |CELLSJAVA-44705|Cell.getDependents() kastar undantag eller kan inte tillhandahålla alla anhöriga|
 |CELLSJAVA-44717|Problem med kantstil (linje).|

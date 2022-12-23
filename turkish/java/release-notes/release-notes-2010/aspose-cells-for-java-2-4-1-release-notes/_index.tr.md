@@ -10,7 +10,7 @@ url: /tr/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java v2.4.1'i duyurmaktan mutluluk duyuyoruz!
+Aspose.Cells for Java v2.4.1'i duyurmaktan mutluluk duyuyoruz!
 
  Neler değişti:
 
@@ -38,8 +38,8 @@ url: /tr/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | Xlsx| Excel2007 dosyasını okuyun|
 |19596 | Xl'ler| Cells.getMaxDataColumn()|
 |19641 | Xl'ler| Hata kontrol seçenekleri|
-|19696 | Çizelge| Excel2003 dosyası için Grafiği Kaydet|
-|19822 | Çizelge|ChartFrames için Title/DataLabels gibi bağlantılı hücreler|
+|19696 | Çizelge|Excel2003 dosyası için Grafiği Kaydet|
+|19822 | Çizelge| ChartFrames için Title/DataLabels gibi bağlantılı hücreler|
 |19823 | html| Cell sınırlar|
 |19832 | Chart2Image| StackedBar grafiğini kullanan WaterFall Grafiği|
 |19894 | Xl'ler| Şeklin boyutunu al, Stili oku|

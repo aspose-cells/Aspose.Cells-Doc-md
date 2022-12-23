@@ -20,23 +20,23 @@ url: /es/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45957|Admite mantener el gráfico de mapa en el archivo de plantilla|Mejora|
 |CELLSNET-45941|El control ActiveX se convierte en una imagen al copiar una hoja de un libro de trabajo a otro libro de trabajo|Mejora|
 |CELLSNET-45928|Validación de datos: GridWeb debería mostrar un cuadro de diálogo con un mensaje de error|Mejora|
-|CELLSNET-45935|Workbook.CalculateFormula se bloquea infinitamente al establecer un valor específico para la celda|Actuación|
+|CELLSNET-45935|Workbook.CalculateFormula se bloquea infinitamente al establecer un valor específico para la celda|Rendimiento|
 |CELLSNET-45920|El subrayado del texto "CONTROLADORES CLAVE:" está roto en la imagen de salida|Insecto|
 |CELLSNET-45939|Además del subrayado roto, el texto también está desalineado como se muestra en la captura de pantalla provista|Insecto|
 |CELLSNET-45890|Algunas formas no se renderizan completamente porque faltan algunas partes|Insecto|
 |CELLSNET-45878|El archivo de Excel de salida de la nueva versión bloquea el Microsoft Excel 2016|Insecto|
-|CELLSNET-43360|Problema de estilo con la representación de HTML a Excel|Insecto|
+|CELLSNET-43360|Problema de estilo con HTML para la representación de Excel|Insecto|
 |CELLSNET-45979|El cálculo de la fórmula BUSCARV no funciona correctamente|Insecto|
 |CELLSNET-45949|Cell la alineación del texto (con fuentes mixtas) se cambia en la imagen convertida|Insecto|
-|CELLSNET-45940|El formato condicional no se aplica al convertir un archivo de Excel a formato de archivo PDF|Insecto|
+|CELLSNET-45940|El formato condicional no se aplica al convertir el archivo de Excel al formato de archivo PDF|Insecto|
 |CELLSNET-45896|Aparecen bordes no deseados alrededor de la imagen cuando el archivo de Excel se guarda en PDF|Insecto|
 |CELLSNET-45942|La referencia de celda para la etiqueta de datos se pierde después de abrir/guardar|Insecto|
 |CELLSNET-45923|Falta la etiqueta del último eje, es decir, el 17 de junio, en la imagen del gráfico|Insecto|
 |CELLSNET-45911|Mala posición y línea en la representación del gráfico de Riesgo de Mercado|Insecto|
 |CELLSNET-45908|Mala posición en la representación del gráfico|Insecto|
 |CELLSNET-45906|Etiqueta faltante en la representación del gráfico|Insecto|
-|CELLSNET-45884|Gráfico Smart Art en la pestaña: los bordes de los conos están irregulares en el formato de archivo PDF de salida|Insecto|
-|CELLSNET-45989|Los diálogos no se guardan correctamente en archivos XLSM|Insecto|
+|CELLSNET-45884|Gráfico Smart Art en la pestaña: los bordes de los conos están irregulares en el formato de archivo de salida PDF|Insecto|
+|CELLSNET-45989|Los diálogos no se guardan correctamente en los archivos XLSM|Insecto|
 |CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) no funciona para archivos XLS|Insecto|
 |CELLSNET-45946|El hipervínculo con guión en el esquema se rompe al guardar|Insecto|
 |CELLSNET-45944|El método ConvertToRange () rompe los nombres en el Administrador de nombres|Insecto|

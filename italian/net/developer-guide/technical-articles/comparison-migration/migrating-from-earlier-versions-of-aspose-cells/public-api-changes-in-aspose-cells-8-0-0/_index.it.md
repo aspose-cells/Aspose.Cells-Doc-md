@@ -1,5 +1,5 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.0.0
+title: Pubblico API Modifiche Aspose.Cells 8.0.0
 type: docs
 weight: 10
 url: /it/net/public-api-changes-in-aspose-cells-8-0-0/
@@ -123,9 +123,9 @@ RowCollection non eredita più CollectionBase perché non è presente alcun ogge
 
 {{% /alert %}}
 ## **Cell.StringValue Comportamento modificato**
- Nelle versioni precedenti, modello speciale_è stato ignorato durante la formattazione dei valori delle celle, dove il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali_ e* per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato di cella personalizzato "_(\$* #,##0.00_)" utilizzato per rappresentare il valore 123 ha prodotto il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento dell'applicazione Excel durante la copia della cella in testo o esportare in CSV.
+ Nelle versioni precedenti, modello speciale_è stato ignorato durante la formattazione dei valori delle celle, dove il carattere speciale * produceva sempre un carattere nel risultato formattato. Da questa versione, abbiamo cambiato la logica per gestire i caratteri speciali_ e* per rendere il risultato formattato uguale a quello dell'applicazione Excel. Ad esempio, il formato di cella personalizzato "_(\$* #,##0.00_)" utilizzato per rappresentare il valore 123 ha prodotto il risultato come "$ 123.00". Con le nuove versioni, Cell.StringValue conterrà il risultato come "$123.00" che è lo stesso comportamento dell'applicazione Excel durante la copia della cella al testo o esportare a CSV.
 ## **Aggiunto CreatedTime a PdfSaveOptions**
-Ora gli utenti possono ottenere o impostare l'ora di creazione del PDF durante il salvataggio del foglio di calcolo in PDF durante l'utilizzo della classe PdfSaveOptions.
+Ora gli utenti possono ottenere o impostare l'ora di creazione PDF durante il salvataggio del foglio di calcolo su PDF durante l'utilizzo della classe PdfSaveOptions.
 ## **Aggiunto ShowFormulas al foglio di lavoro**
 D'ora in poi, gli utenti possono utilizzare la proprietà booleana ShowFormulas offerta da Worksheet per cambiare la visualizzazione dalla formula al valore di un determinato foglio di lavoro.
 ## **Aggiunto Ooxml a FileFormatType**

@@ -12,6 +12,6 @@ url: /ru/net/specifying-sort-warning-while-sorting-data/
 
 ## **Образец кода**
 
- Следующий пример кода иллюстрирует использование[**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)собственности, как было объяснено ранее. Пожалуйста, проверьте его[образец файла Excel](43352075.xlsx) а также[выходной файл Excel](43352076.xlsx) для получения дополнительной помощи.
+ Следующий пример кода иллюстрирует использование[**DataSorter.SortAsNumber**](https://reference.aspose.com/cells/net/aspose.cells/datasorter/properties/sortasnumber)собственности, как было объяснено ранее. Пожалуйста, проверьте его[образец файла Excel](43352075.xlsx) и[выходной файл Excel](43352076.xlsx) для получения дополнительной помощи.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-SpecifyingSortWarningWhileSortingData.cs" >}}

@@ -6,7 +6,7 @@ url: /it/java/check-if-vba-project-is-protected-and-locked-for-viewing/
 ---
 ## **Possibili scenari di utilizzo**
 Aspose.Cells consente di verificare se il progetto VBA (Visual Basic for Applications) del file Excel è protetto e bloccato per la visualizzazione.
-## **Codice di esempio**
+## **Codice d'esempio**
  Il codice di esempio seguente carica il file[esempio di file Excel](43352066.xlsm) e controlla se il progetto VBA (Visual Basic for Applications) del file Excel è protetto e bloccato per la visualizzazione. Si prega di consultare anche l'output della console per un riferimento.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-WorkbookVBAProject-CheckifVBAProjectisProtectedandLockedforViewing.java" >}}

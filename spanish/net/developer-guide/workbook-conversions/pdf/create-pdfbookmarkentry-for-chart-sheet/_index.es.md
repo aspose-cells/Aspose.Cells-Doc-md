@@ -17,7 +17,7 @@ Anteriormente, Aspose.Cells crearía[**PdfMarcadorEntrada**](https://reference.a
 - Marcador-III
 - Marcador-IV-Gráfico2
 
-La siguiente captura de pantalla muestra la[PDF de salida](61767757.pdf) generado por el código de muestra para una referencia.
+La siguiente captura de pantalla muestra la[salida PDF](61767757.pdf)generado por el código de muestra para una referencia.
 
 ![todo:imagen_alternativa_texto](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

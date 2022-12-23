@@ -10,11 +10,11 @@ Microsoft Excel fournit une bonne fonctionnalité pour dimensionner automatiquem
 
 {{% /alert %}} 
 ## **Ajustement automatique**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[Des feuilles de calcul](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe contient un[Feuilles de travail](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#Worksheets)collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
- Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Cet article examine l'utilisation de[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe pour ajuster automatiquement les lignes ou les colonnes.
+ Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) La classe fournit un large éventail de propriétés et de méthodes pour gérer une feuille de calcul. Cet article examine l'utilisation de[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe pour ajuster automatiquement les lignes ou les colonnes.
 ### **Ligne d'ajustement automatique - Simple**
- L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer'[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\) ) méthode. La[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) prend un index de ligne (de la ligne à redimensionner) comme paramètre.
+ L'approche la plus simple pour dimensionner automatiquement la largeur et la hauteur d'une ligne consiste à appeler le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe'[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\) ) méthode. Le[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int\)) prend un index de ligne (de la ligne à redimensionner) comme paramètre.
 
 
 
@@ -26,13 +26,13 @@ Microsoft Excel fournit une bonne fonctionnalité pour dimensionner automatiquem
 - **Index de la première colonne**, l'index de la première colonne de la ligne.
 - **Index de la dernière colonne**, l'index de la dernière colonne de la ligne.
 
- La[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) vérifie le contenu de toutes les colonnes de la ligne, puis ajuste automatiquement la ligne.
+ Le[autoFitRow](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitRow\(int,%20int,%20int\)) vérifie le contenu de toutes les colonnes de la ligne, puis ajuste automatiquement la ligne.
 
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-AutoFitRowsinaRangeofCells-AutoFitRowsinaRangeofCells.java" >}}
 ### **Colonne d'ajustement automatique - Simple**
- Le moyen le plus simple de redimensionner automatiquement la largeur et la hauteur d'une colonne est d'appeler le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer'[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) méthode. La[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)prend l'index de colonne (de la colonne sur le point d'être redimensionnée) comme paramètre.
+ Le moyen le plus simple de redimensionner automatiquement la largeur et la hauteur d'une colonne est d'appeler le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe'[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\) ) méthode. Le[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int\)prend l'index de colonne (de la colonne sur le point d'être redimensionnée) comme paramètre.
 
 
 
@@ -44,7 +44,7 @@ Microsoft Excel fournit une bonne fonctionnalité pour dimensionner automatiquem
 - **Index de la première ligne**, représente l'indice de la première ligne de la colonne
 - **Index de la dernière ligne**, représente l'indice de la dernière ligne de la colonne
 
- La[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) vérifie le contenu de toutes les lignes de la colonne, puis ajuste automatiquement la colonne.
+ Le[AjusterAutoColonne](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#autoFitColumn\(int,%20int,%20int\)) vérifie le contenu de toutes les lignes de la colonne, puis ajuste automatiquement la colonne.
 
 
 

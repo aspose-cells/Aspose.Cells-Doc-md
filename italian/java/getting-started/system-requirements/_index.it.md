@@ -11,7 +11,7 @@ Aspose.Cells for Java non richiede l'installazione di Microsoft Excel, poiché A
 {{% /alert %}} 
 ## **Sistemi operativi supportati**
 Aspose.Cells for Java supporta qualsiasi sistema operativo che esegue il runtime Java incluso, ma non limitato a:
-### **finestre**
+### **Windows**
 - Microsoft Windows 2000 (x64, x86)
 - Microsoft Windows XP (x64, x86)
 - Microsoft Windows Server 2003 (x64, x86)

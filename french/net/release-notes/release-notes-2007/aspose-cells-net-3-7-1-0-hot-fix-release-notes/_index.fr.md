@@ -19,7 +19,7 @@ url: /fr/net/aspose-cells-net-3-7-1-0-hot-fix-release-notes/
 - Prise en charge du paramètre GapWidth du graphique
 - Prise en charge du chargement des hyperliens dans spreadsheetML
 - Diminution de la taille du fichier de sortie
-- Traitement optimisé des fichiers CSV
+- Traitement optimisé du fichier CSV
 - Correction d'un bug dans la configuration de la ligne lisse du graphique
 
 

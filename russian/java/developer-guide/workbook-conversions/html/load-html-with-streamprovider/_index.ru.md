@@ -14,7 +14,7 @@ url: /ru/java/convert-html-to-excel-with-streamprovider/
 
 {{% /alert %}} 
 
- Это основной код, показывающий использование[**Хтмллоадоптионс. StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
+Это основной код, показывающий использование[**Хтмллоадоптионс. StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#StreamProvider)
 
 
 

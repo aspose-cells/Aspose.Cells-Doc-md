@@ -11,7 +11,7 @@ Cette page contient les notes de version pour Aspose.Cells for Python via .NET 2
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSPYTHONNET-79|Prise en charge de la version MacOS|
 |CELLSNET-42037|Le filtre de chronologie du tableau croisé dynamique disparaît après le chargement du document Excel et la mise à jour|
@@ -29,21 +29,21 @@ Cette page contient les notes de version pour Aspose.Cells for Python via .NET 2
 |CELLSNET-52078|Style.SetPatternColor(BackgroundType,Color,Color) ne prend pas effet|
 |CELLSNET-52105|LightCellsDataHandler.StartSheet(Worksheet) ne peut pas ignorer la feuille lors du renvoi de false pour le fichier de modèle xlsb|
 |CELLSNET-46764|Titre du graphique manquant lors de la conversion en pdf|
-|CELLSNET-52049|XLSX en PDF : Texte mal formaté|
-|CELLSNET-52073|Problème concernant la police Arial Tur dans le rendu Excel vers PDF|
+|CELLSNET-52049|XLSX à PDF : Texte mal formaté|
+|CELLSNET-52073|Problème concernant la police Arial Tur dans Excel au rendu PDF|
 |CELLSNET-52083|Certaines cellules avec le format de numéro comptable sont rendues sous la forme #####.|
 |CELLSNET-52091|Lorsque vous définissez le contenu de la feuille de calcul en noir et blanc, il est toujours imprimé en couleur et les bordures s'affichent inutilement|
 |CELLSNET-51972|La feuille de calcul contenant des objets bouton n'est pas reconnue correctement lors de la copie de la feuille|
 |CELLSNET-51973| Tableau HTML en feuille Excel non converti correctement|
-|CELLSNET-52001|Réenregistrer un fichier corrompu généré par un fichier XLSX|
+|CELLSNET-52001|Réenregistrer un fichier corrompu généré par le fichier XLSX|
 |CELLSNET-52015|Impossible de charger la formule de requête de puissance à partir du fichier Excel|
 |CELLSNET-52054| Corruption de style après l'enregistrement et la réouverture d'un classeur généré par Aspose.Cells|
 |CELLSNET-52056| Problème de duplication de lien hypertexte|
 |CELLSNET-52071| Conversion Excel vers XML - Les noms d'éléments ne sont pas échappés|
-|CELLSNET-52074|HTML vers XLSX : contenu de cellule manquant|
+|CELLSNET-52074|HTML à XLSX : contenu de cellule manquant|
 |CELLSNET-52084|La position du texte "Northwind Traders" est incorrecte (la valeur de retrait à gauche n'est pas interprétée correctement).|
 |CELLSNET-52063|PivotTable.CalculateData a causé NullReferenceException|
 |CELLSNET-51986|Le calcul du classeur deux fois avec la chaîne de calcul activée a provoqué une exception|
-|CELLSNET-52081|L'ouverture d'un fichier XLSX dont les styles ont été supprimés génère une exception|
+|CELLSNET-52081|L'ouverture du fichier XLSX dont les styles ont été supprimés génère une exception|
 |CELLSNET-52044|Exception levée lors de l'import de la fiche client dans GridWeb|
 |CELLSNET-52002|Une exception est levée lors de la tentative d'ouverture d'un document non protégé avec un mot de passe|

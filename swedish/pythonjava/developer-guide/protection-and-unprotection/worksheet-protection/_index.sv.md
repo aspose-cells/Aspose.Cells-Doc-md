@@ -17,7 +17,7 @@ För att förhindra att andra användare av misstag eller avsiktligt ändrar, fl
 1.  Klick**Granska > Skydda arbetsblad**.
 1.  Ange ett lösenord i**rutan Lösenord**.
 1.  Välj**tillåta** alternativ.
-1.  Välj**OK** , ange lösenordet igen för att bekräfta det och välj sedan**OK** om igen.
+1.  Välj**OK** , ange lösenordet igen för att bekräfta det och välj sedan**OK** igen.
 
 
 ## **Skydda arbetsblad med Aspose.Cell for Python**

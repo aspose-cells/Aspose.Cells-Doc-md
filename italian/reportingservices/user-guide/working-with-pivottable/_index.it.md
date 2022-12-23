@@ -64,7 +64,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 
 
 
-1.  In Microsoft Excel, dal file**Inserire** menù, selezionare**Nome** poi**Definire**.
+1.  In Microsoft Excel, dal**Inserire** menù, selezionare**Nome** e poi**Definire**.
 1. Definire un nome come "vendite".
  L'intervallo del nome inizia con la prima cella del titolo dell'intestazione e termina con l'ultima cella della riga di dati della tabella, come mostrato di seguito.
 
@@ -77,7 +77,7 @@ GROUP BY  DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.
 1. Crea un nuovo foglio per la tabella pivot.
 1.  Dal**Dati** menù, selezionare**Rapporto tabella pivot e grafico pivot** per aggiungere una tabella pivot.
  Viene visualizzata una finestra di dialogo.
-1.  Selezionare**Elenco o database di Microsoft Office Excel** come fonte di dati e**tabella pivot** come tipo di rapporto.
+1.  Selezionare**Microsoft Elenco o database di Office Excel** come fonte di dati e**tabella pivot** come tipo di rapporto.
 1.  Clic**Prossimo** continuare.
 
 ![cose da fare:immagine_alt_testo](working-with-pivottable_3.png)

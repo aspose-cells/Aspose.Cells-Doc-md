@@ -17,10 +17,10 @@ url: /ja/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43452|Excel関数を使用した和暦が正しく読み取れない|
 |CELLSJAVA-43466|CellsException: OD のインポート中に ZipFile でエラーが発生しました|
 |CELLSJAVA-43403|HTML として保存すると、テキストの配置が左にシフトする|
-|CELLSJAVA-43421|HTML を Excel に変換するときに、エスケープ文字と改行文字が正しくレンダリングされない|
-|CELLSJAVA-43427|データ バーを使用した条件付き書式は、HTML エクスポートで値を表示します|
-|CELLSJAVA-43428|会計形式と 6 ポイント フォントを組み合わせると、HTML の数字が歪む|
-|CELLSJAVA-43429|垂直方向のテキスト配置のテキストが HTML で消える|
+|CELLSJAVA-43421|HTML を Excel に変換すると、エスケープ文字と改行文字が正しくレンダリングされない|
+|CELLSJAVA-43427|HTML エクスポートでデータ バーを使用した条件付き書式で値を表示|
+|CELLSJAVA-43428|HTML の数字を 6 ポイント フォントと組み合わせた会計形式|
+|CELLSJAVA-43429|HTML で垂直方向のテキスト配置のテキストが消える|
 |CELLSJAVA-43407|ファイルの保存後に Excel の数式がスキップまたは変更される|
 |CELLSJAVA-43419|カスタム数値形式が PDF で正しく表示されない|
 |CELLSJAVA-43374|添付の Excel ファイルを PDF に変換する際にチャート ラベルが繰り返される|
@@ -50,13 +50,13 @@ url: /ja/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43491|データ テーブルを使用した数式の値が正しく抽出されない|
 |CELLSJAVA-43498|数値のフォーマットされた結果が zh_CN ロケールで正しくない|
 |CELLSJAVA-43451|Excel ファイルの内容が正しく表示されず、ChangeStyle (Spring) のデモが正しく動作しない|
-|CELLSJAVA-43484|Excel から PDF へのレンダリングでコンテンツ レイアウトに一貫性がない|
-|CELLSJAVA-43465|Excel から PDF への変換中にいくつかのグラフが欠落している|
-|CELLSJAVA-43468|Excel から PDF へのレンダリングにおける直線の方程式に関する問題|
+|CELLSJAVA-43484|Excel のコンテンツ レイアウトが PDF レンダリングに一貫性がない|
+|CELLSJAVA-43465|Excel を PDF に変換する際に、いくつかの一連のグラフが欠落している|
+|CELLSJAVA-43468|PDF レンダリングへの Excel の直線の方程式に関する問題|
 |CELLSJAVA-43432|XLS ファイル形式を再保存するとグラフの内容が一致しない|
 |CELLSJAVA-43475|回帰: 行でラップされたセルが切り取られる|
-|CELLSJAVA-43478|回帰: NUMBERS から PDF へ、大量のデータが欠落|
-|CELLSJAVA-43485|リグレッション: ODS から PDF をレンダリングするときの余分なコンテンツ|
+|CELLSJAVA-43478|回帰: NUMBERS から PDF まで、多くのデータが欠落しています|
+|CELLSJAVA-43485|リグレッション: ODS から PDF をレンダリングする際の余分なコンテンツ|
 |CELLSJAVA-43492|XML (SpreadsheetML) ファイルを変換すると、出力 XLS および XLSX の「名前定義」の非表示設定が削除される|
 |CELLSJAVA-43417|大きなファイルから XLSX を開くときに発生する例外|
 |CELLSJAVA-43431|最新バージョン 21.3 で Cells.deleteColumn() を呼び出すと、java.lang.NullPointerException が発生しますが、21.2 では機能します。|
@@ -65,7 +65,7 @@ url: /ja/java/aspose-cells-for-android-via-java-21-6-release-notes/
 |CELLSJAVA-43447| GridWebでカスタムスタイルファイルを使用すると例外「java.lang.NullPointerException」が発生する|
 |CELLSJAVA-43439|ワークブックの読み込み時に NegativeArraySizeException が発生する|
 |CELLSJAVA-43453|Workbook.save メソッドの NullPointerException|
-|CELLSJAVA-43486|HTML ドキュメントを Workbook に変換するときの NullPointerException|
+|CELLSJAVA-43486|HTML ドキュメントをワークブックに変換するときの NullPointerException|
 
 ## **Public API および下位互換性のない変更**
 

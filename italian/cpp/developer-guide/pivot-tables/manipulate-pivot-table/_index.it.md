@@ -10,7 +10,7 @@ Oltre a creare nuove tabelle pivot, puoi manipolare le tabelle pivot nuove ed es
  Il codice di esempio seguente carica il file[file excel di esempio](23167013.xlsx) e accede alla tabella pivot esistente all'interno del suo primo foglio di lavoro. Cambia il valore della cella B3 che si trova all'interno dell'intervallo di origine della tabella pivot e quindi aggiorna la tabella pivot. Prima di aggiornare la tabella pivot, accede al valore della cella della tabella pivot H8 che è 15 e dopo aver aggiornato la tabella pivot, il suo valore cambia in 6. Si prega di vedere il[file excel di output](23167014.xlsx)generato con questo codice e lo screenshot che mostra l'effetto del codice di esempio sul file excel di esempio. Si prega di vedere anche l'output della console di seguito che mostra il valore della cella della tabella pivot H8 prima e dopo l'aggiornamento della tabella pivot.
 
 ![cose da fare:immagine_alt_testo](manipulate-pivot-table_1.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-PivotTables-ManipulatePivotTable.cpp" >}}
 ## **Uscita console**
  Di seguito è riportato l'output della console del codice di esempio precedente quando eseguito con il file fornito[file excel di esempio](23167013.xlsx).

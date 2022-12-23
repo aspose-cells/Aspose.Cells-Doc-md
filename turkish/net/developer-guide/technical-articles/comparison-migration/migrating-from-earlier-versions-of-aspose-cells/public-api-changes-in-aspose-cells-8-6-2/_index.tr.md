@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **Yöntem Chart.ToPdf Eklendi**
- Aspose.Cells for .NET 8.6.2, Chart.ToPdf yöntemini kullanıma sundu.[Grafik şeklini doğrudan PDF formatına dönüştürün](/cells/tr/net/convert-an-excel-chart-to-image/). Bahsedilen yöntem şu anda sonuçtaki dosyayı diskte depolamak için dosya yolu konumu olarak string türünde bir parametre kabul etmektedir.
+ Aspose.Cells for .NET 8.6.2, Chart.ToPdf yöntemini kullanıma sundu.[Grafik şeklini doğrudan PDF biçimine dönüştürün](/cells/tr/net/convert-an-excel-chart-to-image/). Bahsedilen yöntem şu anda sonuçtaki dosyayı diskte depolamak için dosya yolu konumu olarak string türünde bir parametre kabul etmektedir.
 
 Basit kullanım senaryosu aşağıdadır.
 

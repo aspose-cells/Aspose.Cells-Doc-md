@@ -17,8 +17,8 @@ url: /tr/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|Veri filtreleri ve sayfalama özellikleri için gereken geliştirmeler - Aspose.Cells.GridWeb (Java)|Artırma|
 |CELLSJAVA-41616|SaveCustomStyleFile, GridWeb'de yok (Java)|Artırma|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() (genel) statik işlev olmamalıdır|Artırma|
-|CELLSJAVA-42327|Excel'de bazı şekiller bozuluyor ve PDF oluşturmaya dönüştürülüyor|Böcek|
-|CELLSJAVA-42290|Grafiklerdeki Metin Kutularına eklenen kısa çizgiler ve kısa çizgiler, grafiğin PDF'sinde düzgün şekilde oluşturulmuyor|Böcek|
+|CELLSJAVA-42327|Bazı şekiller bozuk ve Excel'de PDF işleme olarak değiştirildi|Böcek|
+|CELLSJAVA-42290|Grafiklerdeki Metin Kutularına eklenen kısa çizgiler ve kısa çizgiler, grafiğin PDF'inde düzgün şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42338|ÇOKETOPLA formüllerini kullanırken yanlış sonuçlar|Böcek|
 |CELLSJAVA-42337|Aspose.Cells, Hesaplamalar çalışma sayfasının B4 hücresinin değerini hesaplayamıyor|Böcek|
 |CELLSJAVA-42330|Konuları kullanarak Excel'den PDF veya PDF/A'ya dönüştürürken garip sonuç|Böcek|
@@ -39,7 +39,7 @@ Yazı tipinin doğru ayarlanmadığı karakterleri göstermek için öncelikle �
 ### **ImageOrPrintOptions.CheckWorkbookDefaultFont özelliği ekler**
 Yazı tipinin doğru ayarlanmadığı karakterleri göstermek için öncelikle çalışma kitabının varsayılan yazı tipinin kullanılıp kullanılmayacağını belirtir.
 ### **FileFormatType.Numbers, LoadFormat.Numbers ve SaveFormat.Numbers numaralandırmasını ekler**
-Apple Inc/ firmasının Numbers hesap tablosu dosya biçimini temsil eder.
+Apple Inc/ tarafından Numbers elektronik tablo dosya biçimini temsil eder.
 ### **Worksheet.AdvancedFilter() yöntemini ekler**
 Karmaşık ölçütler kullanarak verileri filtreler.
 ### **WorkbookSettings.SignificantDigits özelliğini ekler**
@@ -65,7 +65,7 @@ GridWeb kontrolünün geçerli tarayıcı penceresi boyutuyla uyumlu olmasını 
 ### **Kullanım Örnekleri**
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
-- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun](/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun](/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [PdfSaveOptions ve ImageOrPrintOptions'ın DefaultFont özelliğini önceliğe sahip olacak şekilde ayarlayın](/cells/tr/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Microsoft Veritabanı ResultSet Nesnesinden Çalışma Sayfasına Veri Aktarın](/cells/tr/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Karmaşık Kriterleri Karşılayan Kayıtları Görüntülemek için Microsoft Excel'in Gelişmiş Filtresini Uygulayın](/cells/tr/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

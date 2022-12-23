@@ -14,9 +14,9 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44317|Der Text in diesem xlsx ist verstümmelt|
 |CELLSJAVA-44271|Bei der Konvertierung von Excel nach PDF verschiebt sich die Ausgabeposition im Vergleich zur manuellen Konvertierung|
-|CELLSJAVA-44197|Beim Konvertieren von XLSX in PDF wird die Zeitachsenform (Fenster) der Pivot-Tabelle nicht angezeigt|
+|CELLSJAVA-44197|Beim Konvertieren von XLSX in PDF wird die Pivot-Tabellen-Zeitachsenform (Fenster) nicht angezeigt|
 |CELLSJAVA-44267|Arbeitsmappe, die eine Pivot-Tabelle enthält, wird beschädigt|
-|CELLSJAVA-44114|XLSX in PDF: Daten im wissenschaftlichen Zahlenformat aus der XLSX-Datei stimmen nicht mit den Daten in der PDF-Ausgabedatei überein|
+|CELLSJAVA-44114|XLSX bis PDF: Daten im wissenschaftlichen Zahlenformat aus der Datei XLSX stimmen nicht mit den Daten in der Ausgabedatei PDF überein|
 |CELLSJAVA-44293|Die erneut gespeicherte Excel-Datei muss beim Öffnen in MS Excel wiederhergestellt werden|
 |CELLSJAVA-43194|Bilder werden falsch angezeigt|
 |CELLSJAVA-44243|Die Speicherdatei der GridWeb Spring Demo ist in jdk1.8 fehlgeschlagen|
@@ -25,14 +25,14 @@ url: /de/nodejs-java/aspose-cells-for-node-js-via-java-22-2-release-notes/
 |CELLSJAVA-44229|Die Formel geht verloren, wenn der td-Inhalt von einem div-Tag umschlossen wird|
 |CELLSJAVA-44247|Einzeiliger Text wird beim Konvertieren in PDF umgebrochen|
 |CELLSJAVA-44175| Problem mit überlappenden Donut-Diagrammbeschriftungen|
-|CELLSJAVA-44192| Der Elementname der Kategorieachse im Diagramm wird bei der Konvertierung von Excel in PDF abgeschnitten|
-|CELLSJAVA-44233|Endlosschleife beim Konvertieren von XLSX-Dateien|
+|CELLSJAVA-44192|Der Elementname der Kategorieachse im Diagramm wird in Excel auf die Konvertierung PDF abgeschnitten|
+|CELLSJAVA-44233|Endlosschleife beim Konvertieren der XLSX-Datei|
 |CELLSJAVA-44263|Das Festlegen der Richtung des Diagrammbeschriftungstexts auf vertikal wird nicht wirksam|
 |CELLSJAVA-44268| Ausnahme "java.lang.NullPointerException" bei der Chart.toPdf-Methode|
 |CELLSJAVA-44302|Die Textrichtung der Koordinatenachse ist falsch, nachdem die Excel-Datei in HTML konvertiert wurde|
 |CELLSJAVA-44314|Falsche Diagrammkategorie-Achsenbeschriftungen beim Diagramm-zu-Bild-Rendering|
 |CELLSJAVA-44274|Wird das SVG-Format zum Lesen oder Rendern in PDF unterstützt|
-|CELLSJAVA-44311|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern in das HTML-Dateiformat|
+|CELLSJAVA-44311|Ausnahme „java.lang.OutOfMemoryError: Java Heap Space“ beim Rendern in das Dateiformat HTML|
 |CELLSJAVA-44285|Ausnahme „java.lang.ClassCastException: com.aspose.cells.n2f kann nicht in com.aspose.cells.o90 umgewandelt werden“ beim Aufruf von Workbook.calculateFormula()|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

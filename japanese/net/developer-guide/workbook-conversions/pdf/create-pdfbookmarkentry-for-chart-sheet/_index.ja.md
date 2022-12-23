@@ -17,7 +17,7 @@ url: /ja/net/create-pdfbookmarkentry-for-chart-sheet/
 - しおりⅢ
 - ブックマーク-IV-チャート2
 
-次のスクリーンショットは、[PDF出力](61767757.pdf)参照用のサンプル コードによって生成されます。
+次のスクリーンショットは、[出力 PDF](61767757.pdf)参照用のサンプル コードによって生成されます。
 
 ![todo:画像_代替_文章](create-pdfbookmarkentry-for-chart-sheet_1.png)
 

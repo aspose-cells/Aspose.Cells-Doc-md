@@ -1,14 +1,14 @@
 ﻿---
-title: HTML kullanarak Cell Değerini ayarlayarak Madde İşaretlerini Görüntüle
+title: Cell Değerini HTML kullanarak ayarlayarak Madde İşaretlerini Görüntüle
 type: docs
 weight: 130
 url: /tr/net/display-bullets-by-setting-cell-value-using/
-description: HTML kullanarak Excel'e madde işaretleri ekleyin Cells ve kullanımı kolay Aspose.Cells for .NET API.
+description: HTML ve kullanımı kolay Aspose.Cells for .NET API'i kullanarak Excel Cells'e madde işaretleri ekleyin.
 keywords: add bullets in excel, add bullets in excel c#, display bullets in excel, display bullets in excel c#, add bullets in excel with html, add bullets in excel with html c#, display bullets in excel with html, display bullets in excel with html c#, display bullets in excel using html, add bullets in excel using html
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells, HTML koduyla madde işaretlerinin gösterilmesini destekler. Bu makale, HTML kullanarak hücre değerini ayarlayarak madde işaretlerinin nasıl görüntüleneceğini açıklayacaktır. Kullanacağız[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) hücre değerini HTML'mizle ayarlamak için özellik.
+Aspose.Cells, HTML koduyla madde işaretlerini göstermeyi destekler. Bu makale, HTML kullanarak hücre değerini ayarlayarak madde işaretlerinin nasıl görüntüleneceğini açıklayacaktır.[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) HTML ile hücre değerini ayarlama özelliği.
 
 {{% /alert %}}
 
@@ -22,4 +22,4 @@ Aşağıdaki kod, hücre değerini ayarlamak için HTML kodunu kullanır. Bir ke
 
 Aşağıdaki ekran görüntüsü, yukarıdaki örnek kodun çıktısını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](display-bullets-by-setting-cell-value-using-html_1.png)
+![yapılacaklar:resim_alternatif_metin](display-bullets-by-setting-cell-value-using-html_1.png)

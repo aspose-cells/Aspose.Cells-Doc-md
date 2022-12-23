@@ -40,11 +40,11 @@ url: /it/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) - L'opzione Unisci e centra è stata selezionata anche se ha una singola cella
 
- (CELLSJAVA-41429) - Le impostazioni di compatibilità Lotus per l'immissione della formula di transizione vengono modificate dopo aver salvato nuovamente il foglio di calcolo
+(CELLSJAVA-41429) - Le impostazioni di compatibilità Lotus per l'immissione della formula di transizione vengono modificate dopo aver salvato nuovamente il foglio di calcolo
 
- (CELLSJAVA-41427) - Troppe convalide Cells danneggia il file XLS
+ (CELLSJAVA-41427) - Troppe convalide Cells danneggiano il file XLS
 
-(CELLSJAVA-41424) - L'utilizzo della funzione personalizzata tramite l'interfaccia ICustomFunction non calcola il valore corretto
+ (CELLSJAVA-41424) - L'utilizzo della funzione personalizzata tramite l'interfaccia ICustomFunction non calcola il valore corretto
 
  (CELLSJAVA-41423) - Layout errato durante il rendering di PDF da un file ODS
 
@@ -52,7 +52,7 @@ url: /it/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells trattiene milioni di celle per sempre
 
- (CELLSJAVA-41395) - Conversione da ODS a HTML - Problemi di stile del testo
+ (CELLSJAVA-41395) - Conversione da ODS a HTML - Problemi relativi allo stile del testo
 
  (CELLSJAVA-41426) - Cell grafico con asse x non ridimensionato correttamente durante la conversione in pdf
 
@@ -63,10 +63,10 @@ url: /it/java/aspose-cells-for-java-8-5-2-release-notes/
  (CELLSJAVA-41387) - Le etichette dei dati vengono sovrascritte dalla sezione dell'intestazione
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -74,7 +74,7 @@ url: /it/java/aspose-cells-for-java-8-5-2-release-notes/
 
  Aggiunge la proprietà SaveOptions.MergeAreas.
 
- Viene utilizzato per unire singole CellArea della formattazione e della convalida condizionale.
+Viene utilizzato per unire singole CellArea della formattazione e della convalida condizionale.
 
 
 
@@ -84,7 +84,7 @@ url: /it/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-Aggiunge il metodo SheetRender.ToImage(int pageIndex, Graphics g, float x, float y).
+ Aggiunge il metodo SheetRender.ToImage(int pageIndex, Graphics g, float x, float y).
 
  Renderizza determinate pagine di SheetRender in una grafica.
 

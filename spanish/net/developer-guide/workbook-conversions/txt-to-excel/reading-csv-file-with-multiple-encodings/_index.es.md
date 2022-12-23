@@ -1,16 +1,16 @@
 ﻿---
-title: Lectura de archivos CSV con múltiples codificaciones
+title: Lectura del archivo CSV con múltiples codificaciones
 type: docs
 weight: 200
 url: /es/net/reading-csv-file-with-multiple-encodings/
 ---
 {{% alert color="primary" %}}
 
-A veces, su archivo CSV contiene múltiples codificaciones (Unicode, ANSI, UTF8, UTF7, etc.). Aspose.Cells le permite cargar dichos archivos CSV y convertirlos a otros formatos, por ejemplo, PDF o XLSX.
+veces, su archivo CSV contiene múltiples codificaciones (Unicode, ANSI, UTF8, UTF7, etc.). Aspose.Cells le permite cargar dichos archivos CSV y convertirlos a otros formatos, por ejemplo, PDF o XLSX.
 
 {{% /alert %}}
 
- Aspose.Cells proporciona el[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded)propiedad, que debe establecer en**verdadero** para cargar correctamente su archivo CSV con múltiples codificaciones.
+ Aspose.Cells proporciona el[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) propiedad, que debe establecer en**verdadero** para cargar correctamente su archivo CSV con múltiples codificaciones.
 
  La siguiente captura de pantalla muestra un archivo CSV de muestra que contiene dos líneas. La primera línea está en**ANSI** codificación y la segunda línea está en**Unicode** codificación
 
@@ -18,7 +18,7 @@ A veces, su archivo CSV contiene múltiples codificaciones (Unicode, ANSI, UTF8,
 |:- |
 |![todo:imagen_alternativa_texto](reading-csv-file-with-multiple-encodings_1.png)|
 
- La siguiente captura de pantalla muestra el archivo XLSX convertido a partir del archivo CSV anterior sin configurar el[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) propiedad a**verdadero**. Como puede ver, el texto Unicode no se convirtió correctamente.
+ La siguiente captura de pantalla muestra el archivo XLSX convertido del archivo CSV anterior sin configurar el[**TxtLoadOptions.IsMultiEncoded**](https://reference.aspose.com/cells/net/aspose.cells/txtloadoptions/properties/ismultiencoded) propiedad a**verdadero**. Como puede ver, el texto Unicode no se convirtió correctamente.
 
 |**Archivo de salida 1: no se realizaron adaptaciones para la codificación múltiple**|
 |:- |
@@ -36,4 +36,4 @@ A continuación se muestra el código de muestra que convierte correctamente el 
 
 ## Artículos relacionados
 
-- [Abrir archivos CSV](/cells/es/net/opening-files-with-different-formats/#opening-csv-files)
+- [Apertura de archivos CSV](/cells/es/net/opening-files-with-different-formats/#opening-csv-files)

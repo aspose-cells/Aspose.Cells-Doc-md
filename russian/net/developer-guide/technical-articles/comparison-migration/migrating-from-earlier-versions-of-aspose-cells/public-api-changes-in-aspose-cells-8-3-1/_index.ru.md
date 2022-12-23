@@ -80,7 +80,7 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Отображение диапазона Cell в виде меток данных](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) Чтобы получить больше информации.
+ Пожалуйста, проверьте статью[Отображение диапазона Cell в виде меток данных](http://aspose.com/docs/display/cellsnet/Showing+Cell+Range+as+the+Data+Labels) для дополнительной информации.
 
 {{% /alert %}} 
 
@@ -159,7 +159,7 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Доступ к таблице из Cell и добавление значений внутри нее с использованием смещений строк и столбцов](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) Чтобы получить больше информации.
+ Пожалуйста, проверьте статью[Доступ к таблице из Cell и добавление значений внутри нее с использованием смещений строк и столбцов](http://aspose.com/docs/display/cellsnet/Accessing+Table+from+Cell+and+Adding+Values+inside+it+using+Row+and+Column+Offsets) для дополнительной информации.
 
 {{% /alert %}} 
 
@@ -235,7 +235,7 @@ m_workbook.Save("ODF1.1.ods", options)
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Сохраните файл ODS в спецификациях ODF 1.1 и 1.2.](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) Чтобы получить больше информации.
+ Пожалуйста, проверьте статью[Сохраните файл ODS в спецификациях ODF 1.1 и 1.2.](http://aspose.com/docs/display/cellsnet/Save+ODS+file+in+ODF+1.1+and+1.2+Specifications) для дополнительной информации.
 
 {{% /alert %}} 
 
@@ -244,8 +244,8 @@ m_workbook.Save("ODF1.1.ods", options)
 
 1. Выберите ячейку, содержащую вашу спарклайн.
 1.  Выбирать**Редактировать данные из спарклайна** раздел внутри**Дизайн** вкладка
-1.  Выбирать**Изменить местоположение и данные группы**.
-1. Указать**Диапазон данных** & **Расположение**.
+1.  выберите**Изменить местоположение и данные группы**.
+1.  Указать**Диапазон данных** & **Место расположения**.
 
  Следующий пример кода загружает исходную электронную таблицу, обращается к первой группе спарклайнов и добавляет новые диапазоны данных и местоположения для группы спарклайнов.
 
@@ -317,6 +317,6 @@ m_workbook.Save("output.xlsx")
 
 {{% alert color="primary" %}} 
 
- Пожалуйста, проверьте статью[Скопируйте спарклайн, указав диапазон данных и расположение группы спарклайнов](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) Чтобы получить больше информации.
+ Пожалуйста, проверьте статью[Скопируйте спарклайн, указав диапазон данных и расположение группы спарклайнов](http://aspose.com/docs/display/cellsnet/Copy+Sparkline+by+Specifying+Data+Range+and+Location+of+Sparkline+Group) для дополнительной информации.
 
 {{% /alert %}}

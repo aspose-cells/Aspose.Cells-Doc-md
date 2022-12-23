@@ -6,7 +6,7 @@ url: /ar/net/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells يقوم بتصدير البرامج النصية للإطار وخصائص الوثيقة أثناء تحويل مصنف إلى HTML. يقدم الإصدار 8.6.0 من Aspose.Cells for .NET خيارًا يسمح لك اختياريًا بتعطيل تصدير البرامج النصية للإطار وخصائص المستند. الرجاء استخدام الخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties لتعطيل التصدير.
+يقوم Aspose.Cells بتصدير البرامج النصية للإطار وخصائص الوثيقة أثناء تحويل مصنف إلى HTML. يقدم الإصدار 8.6.0 من Aspose.Cells for .NET خيارًا يتيح لك تعطيل تصدير البرامج النصية للإطار وخصائص الوثيقة اختياريًا. الرجاء استخدام الخاصية HtmlSaveOptions.ExportFrameScriptsAndProperties لتعطيل التصدير.
 
 {{% /alert %}}
 

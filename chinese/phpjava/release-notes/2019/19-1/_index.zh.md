@@ -12,17 +12,17 @@ url: /zh/php-java/aspose-cells-for-php-via-java-19-1-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-41026|支持 Excel 95/5.0（XLS 文件）|新功能|
+|CELLSJAVA-41026|支持 Excel 95/5.0（XLS 个文件）|新功能|
 |CELLSJAVA-42778|加载 XLSM 时出现异常“style textRotation must be between 0 and 180”|强化|
-|CELLSJAVA-42290|插入到图表中文本框的中破折号在图表的 PDF 中未正确呈现|漏洞|
+|CELLSJAVA-42290|插入图表中文本框的中破折号在图表的 PDF 中未正确呈现|漏洞|
 |CELLSJAVA-42750|无法在数据透视表中检索页面字段的项目|漏洞|
-|CELLSJAVA-42783|生成的 HTML 文件格式中删除线文本的问题|漏洞|
-|CELLSJAVA-42784|某些单元格（例如 G7、H7 等）中的数据在 Excel 到 HTML/图像转换中的呈现方式与原始文件中的呈现方式不同|漏洞|
-|CELLSJAVA-42797|某些样式未在 HTML 输入中呈现|漏洞|
+|CELLSJAVA-42783|生成的 HTML 文件格式中的删除线文本存在问题|漏洞|
+|CELLSJAVA-42784|某些单元格（例如 G7、H7 等）中的数据呈现方式与 Excel 中原始文件中的方式不同 HTML/图像转换|漏洞|
+|CELLSJAVA-42797|HTML input 部分样式未呈现|漏洞|
 |CELLSJAVA-42807|公式/函数“ISOWEEKNUM”计算与 MS Excel 不同|漏洞|
-|CELLSJAVA-42794|ODS 到 XLSX - 文本颜色已更改|漏洞|
-|CELLSJAVA-42795|ODS 到 XLSX - 删除线字体未正确保留|漏洞|
-|CELLSJAVA-42796|ODS 到 XLSX - 文本框尺寸已更改|漏洞|
+|CELLSJAVA-42794|ODS 至 XLSX - 文本颜色已更改|漏洞|
+|CELLSJAVA-42795|ODS 至 XLSX - 删除线字体未正确保留|漏洞|
+|CELLSJAVA-42796|ODS 至 XLSX - 文本框尺寸已更改|漏洞|
 |CELLSJAVA-42798|ODS -> XLSX - 超链接有效但显示为纯文本|漏洞|
 |CELLSJAVA-42802|ODS 到 XLSX，百分比在条形图中丢失|漏洞|
 |CELLSJAVA-42803|保存为 XLSB 文件格式时大纲“SummaryRowBelow”不受影响|漏洞|

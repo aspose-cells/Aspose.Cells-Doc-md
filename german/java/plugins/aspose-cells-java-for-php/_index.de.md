@@ -10,7 +10,7 @@ Die PHP/Java Bridge ist eine Implementierung eines Streamings auf XML-Basis[Netz
 
  Lesen Sie mehr unter[sourceforge.net](http://php-java-bridge.sourceforge.net/pjb/)
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java ist eine preisgekrönte Excel-Tabellenkalkulationskomponente, mit der Java Entwickler die Möglichkeit zum Lesen, Schreiben und Bearbeiten von Excel®-Tabellen (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF einbetten können und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
 
 Aspose.Cells for Java ist eine ausgereifte, skalierbare und funktionsreiche Komponente, die viele Funktionen bietet, die weit über die einfachen Datenexportmöglichkeiten anderer Anbieter hinausgehen. Mit Aspose.Cells for Java können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail formatieren, Bilder importieren, Diagramme erstellen, komplexe Formeln anwenden und berechnen, Excel®-Daten streamen, in verschiedenen Formaten speichern und vieles mehr – all dies ohne Microsoft Excel® oder Microsoft Büroautomation.
 ### **Aspose.Cells Java for PHP**
@@ -32,7 +32,7 @@ Aspose.Cells for Java ist eine ausgereifte, skalierbare und funktionsreiche Komp
       - [Konvertieren von Excel in PDF-Dateien in PHP](/cells/de/java/converting-excel-to-pdf-files-in-php/)
       - [Konvertieren in MHTML-Dateien in PHP](/cells/de/java/converting-to-mhtml-files-in-php/)
       - [Arbeitsblatt in Bild in PHP konvertieren](/cells/de/java/converting-worksheet-to-image-in-php/)
-      - [Konvertieren von Arbeitsblättern in SVG in PHP](/cells/de/java/converting-worksheet-to-svg-in-php/)
+      - [Konvertieren des Arbeitsblatts in SVG in PHP](/cells/de/java/converting-worksheet-to-svg-in-php/)
       - [Dokumenteigenschaften in PHP verwalten](/cells/de/java/managing-document-properties-in-php/)
   - [Arbeiten mit Zeilen und Spalten in PHP](/cells/de/java/working-with-rows-and-columns-in-php/)
     - [Anpassen der Zeilenhöhe und Spaltenbreite in PHP](/cells/de/java/adjusting-row-height-and-column-width-in-php/)
@@ -170,7 +170,7 @@ Bitte befolgen Sie die folgenden einfachen Schritte, um PHP/Java Bridge auf der 
 
  \10. Starten Sie den Apache Tomcat-Dienst neu und beginnen Sie mit der Verwendung von Beispielen.
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.

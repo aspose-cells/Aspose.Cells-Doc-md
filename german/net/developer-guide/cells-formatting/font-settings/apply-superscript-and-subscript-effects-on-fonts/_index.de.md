@@ -14,7 +14,7 @@ Aspose.Cells bietet die Funktionalität, hochgestellte (Text über der Grundlini
 
 ## **Arbeiten mit hochgestellten und tiefgestellten Zeichen**
 
- Wenden Sie den hochgestellten Effekt an, indem Sie die[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) Objekt[**IstHochgestellt**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) Eigentum zu**Stimmt** . Um Tiefstellung anzuwenden, legen Sie fest[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) Objekt[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) Eigentum zu**Stimmt**.
+ Wenden Sie den hochgestellten Effekt an, indem Sie die[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) Objekt[**IstHochgestellt**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issuperscript) Eigentum zu**wahr** . Um Tiefstellung anzuwenden, legen Sie fest[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/font) Objekt[**IsSubscript**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/issubscript) Eigentum zu**wahr**.
 
 Die folgenden Codebeispiele zeigen, wie Sie Hoch- und Tiefstellung auf Text anwenden.
 

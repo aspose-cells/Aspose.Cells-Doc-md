@@ -18,4 +18,4 @@ Verbesserungen
 
 
 
-`   `Es wurden Verbesserungen für das Rendern von Formen in der PDF-Konvertierung vorgenommen
+`   `Verbesserungen wurden für das Rendern von Formen in der Konvertierung PDF vorgenommen

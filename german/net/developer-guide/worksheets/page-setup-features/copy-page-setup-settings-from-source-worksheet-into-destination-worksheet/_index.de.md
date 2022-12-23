@@ -6,7 +6,7 @@ url: /de/net/copy-page-setup-settings-from-source-worksheet-into-destination-wor
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Wenn Sie einer Arbeitsmappe ein neues Blatt hinzufügen, enthält es den Standardwert*Seiteneinrichtungseinstellungen*. Es kann vorkommen, dass Sie die Einstellungen übertragen müssen ([**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)von einem Arbeitsblatt zu einem anderen Arbeitsblatt. In diesem Dokument wird erläutert, wie Sie Seiteneinrichtungseinstellungen mithilfe von Aspose.Cells-APIs von einem Arbeitsblatt in ein anderes kopieren.
+ Wenn Sie einer Arbeitsmappe ein neues Blatt hinzufügen, enthält es den Standardwert*Seiteneinrichtungseinstellungen*. Es kann vorkommen, dass Sie die Einstellungen übertragen müssen ([**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) von einem Arbeitsblatt zu einem anderen Arbeitsblatt. In diesem Dokument wird erläutert, wie Sie Seiteneinrichtungseinstellungen mithilfe von Aspose.Cells-APIs von einem Arbeitsblatt in ein anderes kopieren.
 
 ## **Seiteneinrichtungseinstellungen aus dem Quellarbeitsblatt in das Zielarbeitsblatt kopieren**
 

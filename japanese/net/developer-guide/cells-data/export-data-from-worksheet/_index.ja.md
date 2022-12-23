@@ -17,19 +17,19 @@ _フォーマット_: **エクセル**
 - [C# Excel から DataTable にエクスポート](#csharp-export-to-datatable-from-excel)
 
 _フォーマット_: **XLS**
-- [C# XLS から DataTable](#csharp-xls-to-datatable)
+- [C# XLS データテーブルへ](#csharp-xls-to-datatable)
 - [C# XLS を DataTable に変換](#csharp-convert-xls-to-datatable)
 - [C# XLS を DataTable にインポート](#csharp-import-xls-to-datatable)
-- [C# XLS から DataTable へのエクスポート](#csharp-export-to-datatable-from-xls)
+- [C# XLS から DataTable にエクスポート](#csharp-export-to-datatable-from-xls)
 
 _フォーマット_: **XLSX**
-- [C# XLSX から DataTable](#csharp-xlsx-to-datatable)
+- [C# XLSX データテーブルへ](#csharp-xlsx-to-datatable)
 - [C# XLSX を DataTable に変換](#csharp-convert-xlsx-to-datatable)
 - [C# XLSX を DataTable にインポート](#csharp-import-xlsx-to-datatable)
-- [C# XLSX から DataTable へのエクスポート](#csharp-export-to-datatable-from-xlsx)
+- [C# XLSX から DataTable にエクスポート](#csharp-export-to-datatable-from-xlsx)
 
 _フォーマット_: **ODS**
-- [C# ODS から DataTable](#csharp-ods-to-datatable)
+- [C# ODS データテーブルへ](#csharp-ods-to-datatable)
 - [C# ODS を DataTable に変換](#csharp-convert-ods-to-datatable)
 - [C# ODS を DataTable にインポート](#csharp-import-ods-to-datatable)
 - [C# ODS から DataTable にエクスポート](#csharp-export-to-datatable-from-ods)
@@ -63,18 +63,18 @@ _フォーマット_: **ODS**
 _手順: データを DataTable にエクスポートする_
 
 - <a name="csharp-excel-to-datatable" id="csharp-excel-to-datatable"><strong><em>手順:</em> C# の Excel から DataTable へ</strong></a>
-  - <a name="csharp-xls-to-datatable" id="csharp-xls-to-datatable"><strong><em>手順:</em>C# の XLS から DataTable</strong></a>
-  - <a name="csharp-xlsx-to-datatable" id="csharp-xlsx-to-datatable"><strong><em>手順:</em> C# の XLSX から DataTable へ</strong></a>
-  - <a name="csharp-ods-to-datatable" id="csharp-ods-to-datatable"><strong><em>手順:</em>C# の ODS から DataTable</strong></a>
-- <a name="csharp-convert-excel-to-datatable" id="csharp-convert-excel-to-datatable"><strong><em>手順:</em> C# で Excel を DataTable に変換する</strong></a>
-  - <a name="csharp-convert-xls-to-datatable" id="csharp-convert-xls-to-datatable"><strong><em>手順:</em>C# で XLS を DataTable に変換します</strong></a>
-  - <a name="csharp-convert-xlsx-to-datatable" id="csharp-convert-xlsx-to-datatable"><strong><em>手順:</em>C# で XLSX を DataTable に変換します</strong></a>
+  - <a name="csharp-xls-to-datatable" id="csharp-xls-to-datatable"><strong><em>手順:</em>XLS から C# の DataTable へ</strong></a>
+  - <a name="csharp-xlsx-to-datatable" id="csharp-xlsx-to-datatable"><strong><em>手順:</em>XLSX から C# の DataTable へ</strong></a>
+  - <a name="csharp-ods-to-datatable" id="csharp-ods-to-datatable"><strong><em>手順:</em>ODS から C# の DataTable へ</strong></a>
+- <a name="csharp-convert-excel-to-datatable" id="csharp-convert-excel-to-datatable"><strong><em>手順:</em>C# で Excel を DataTable に変換する</strong></a>
+  - <a name="csharp-convert-xls-to-datatable" id="csharp-convert-xls-to-datatable"><strong><em>手順:</em>XLS を C# の DataTable に変換します</strong></a>
+  - <a name="csharp-convert-xlsx-to-datatable" id="csharp-convert-xlsx-to-datatable"><strong><em>手順:</em>XLSX を C# の DataTable に変換します</strong></a>
   - <a name="csharp-convert-ods-to-datatable" id="csharp-convert-ods-to-datatable"><strong><em>手順:</em>ODS を C# の DataTable に変換します</strong></a>
 - <a name="csharp-import-excel-to-datatable" id="csharp-import-excel-to-datatable"><strong><em>手順:</em>Excel を C# の DataTable にインポートする</strong></a>
-  - <a name="csharp-import-xls-to-datatable" id="csharp-import-xls-to-datatable"><strong><em>手順:</em>XLS を C# の DataTable にインポート</strong></a>
-  - <a name="csharp-import-xlsx-to-datatable" id="csharp-import-xlsx-to-datatable"><strong><em>手順:</em>XLSX を C# の DataTable にインポートする</strong></a>
-  - <a name="csharp-import-ods-to-datatable" id="csharp-import-ods-to-datatable"><strong><em>手順:</em>ODS を C# の DataTable にインポートします</strong></a>
-- <a name="csharp-export-to-datatable-from-excel" id="csharp-export-to-datatable-from-excel"><strong><em>手順:</em>C# の Excel から DataTable にエクスポート</strong></a>
+  - <a name="csharp-import-xls-to-datatable" id="csharp-import-xls-to-datatable"><strong><em>手順:</em>C# の DataTable に XLS をインポートします。</strong></a>
+  - <a name="csharp-import-xlsx-to-datatable" id="csharp-import-xlsx-to-datatable"><strong><em>手順:</em>C# の DataTable に XLSX をインポートします。</strong></a>
+  - <a name="csharp-import-ods-to-datatable" id="csharp-import-ods-to-datatable"><strong><em>手順:</em>C# の DataTable に ODS をインポートします。</strong></a>
+- <a name="csharp-export-to-datatable-from-excel" id="csharp-export-to-datatable-from-excel"><strong><em>手順:</em> C# の Excel から DataTable にエクスポート</strong></a>
   - <a name="csharp-export-to-datatable-from-xls" id="csharp-export-to-datatable-from-xls"><strong><em>手順:</em>C# の XLS から DataTable にエクスポート</strong></a>
   - <a name="csharp-export-to-datatable-from-xlsx" id="csharp-export-to-datatable-from-xlsx"><strong><em>手順:</em>C# の XLSX から DataTable にエクスポート</strong></a>
   - <a name="csharp-export-to-datatable-from-ods" id="csharp-export-to-datatable-from-ods"><strong><em>手順:</em>C# の ODS から DataTable にエクスポート</strong></a>
@@ -103,7 +103,7 @@ _コードステップ:_
 
 ## **先行トピック**
 - [書式設定なしで Excel データを DataTable にエクスポートする](/cells/ja/net/export-excel-data-to-datatable-without-any-formatting/)
-- [Cells の HTML 文字列値を DataTable にエクスポートします](/cells/ja/net/export-html-string-value-of-the-cells-to-the-datatable/)
+- [HTML Cells の文字列値を DataTable にエクスポートします](/cells/ja/net/export-html-string-value-of-the-cells-to-the-datatable/)
 - [ワークシートからの可視行データのエクスポート](/cells/ja/net/export-visible-rows-data-from-worksheet/)
 - [ワークシート データをデータ テーブルにエクスポートする際に非表示の列を無視する](/cells/ja/net/ignore-hidden-columns-while-exporting-worksheet-data-to-data-table/)
 - [ワークシート データのエクスポート中に重複する列の名前を自動的に変更する](/cells/ja/net/rename-duplicate-columns-automatically-while-exporting-worksheet-data/)

@@ -12,4 +12,4 @@ url: /zh/sharepoint/activation-and-deactivation-after-installation/
 ### **在网站集上激活 Aspose.Cells for SharePoint。**
 **激活 Aspose.Cells** 
 
-![待办事项：图像_替代_文本](activation-and-deactivation-after-installation_1.png)
+![待办事项：图片_替代_文本](activation-and-deactivation-after-installation_1.png)

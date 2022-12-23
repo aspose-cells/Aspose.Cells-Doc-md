@@ -26,7 +26,7 @@ No puede nombrar una celda mientras está cambiando el contenido de la celda.
 ### **Usando Aspose.Cells**
 Aquí, usamos el Aspose.Cells API para hacer la tarea.
 
- Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. los[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)recopilación.
+ Aspose.Cells proporciona una clase,[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la clase contiene un[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) que permite el acceso a cada hoja de trabajo en un archivo de Excel. Una hoja de trabajo está representada por el[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) clase. Él[Hoja de cálculo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) la clase proporciona un[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)recopilación.
 
  Es posible crear un rango con nombre llamando al sobrecargado[crearRango](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\) ) método de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) recopilación. Una versión típica de la[crearRango](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(java.lang.String,%20java.lang.String\)) método toma los siguientes parámetros:
 
@@ -39,7 +39,7 @@ El siguiente ejemplo muestra cómo crear un rango de celdas con nombre que se ex
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-CreateNamedRangeofCells-CreateNamedRangeofCells.java" >}}
 #### **Acceso a todos los rangos con nombre en una hoja de cálculo**
- Llama a[obtenerRangosNombrados](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) método de la[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) para obtener todos los rangos con nombre en una hoja de cálculo. los[obtenerRangosNombrados](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) devuelve una matriz de todos los rangos con nombre en el[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
+ Llama a[obtenerRangosNombrados](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) método de la[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) para obtener todos los rangos con nombre en una hoja de cálculo. Él[obtenerRangosNombrados](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#getNamedRanges\(\) ) devuelve una matriz de todos los rangos con nombre en el[Colección de hojas de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection).
 
 El siguiente ejemplo muestra cómo acceder a todos los rangos con nombre en un libro de trabajo.
 
@@ -60,7 +60,7 @@ El siguiente ejemplo muestra cómo ingresar algunos valores en las celdas de un 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-IdentifyCellsinNamedRange-IdentifyCellsinNamedRange.java" >}}
 #### **Ingrese datos en el Cells en el rango con nombre**
-Usando Aspose.Cells, puede insertar datos en las celdas individuales de un rango. Suponga que tiene un rango de celdas con nombre, es decir, H1:J4. Entonces, la matriz haría 4 * 3 = 12 celdas y las celdas de rango individuales se organizan secuencialmente. Aspose.Cells le proporciona algunas propiedades útiles de la clase [Rango](https://reference.aspose.com/cells/java/com.aspose.cells/range) para acceder a las celdas individuales del rango. Puede usar las siguientes propiedades para identificar las celdas en el rango:
+Usando Aspose.Cells, puede insertar datos en las celdas individuales de un rango. Suponga que tiene un rango de celdas con nombre, es decir, H1: J4. Entonces, la matriz haría 4 * 3 = 12 celdas y las celdas de rango individuales se organizan secuencialmente. Aspose.Cells le proporciona algunas propiedades útiles de la clase [Rango](https://reference.aspose.com/cells/java/com.aspose.cells/range) para acceder a las celdas individuales del rango. Puede usar las siguientes propiedades para identificar las celdas en el rango:
 
 - [obtenerPrimeraFila](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstRow)devuelve el índice de la primera fila en el rango con nombre.
 - [getFirstColumn](https://reference.aspose.com/cells/java/com.aspose.cells/range#FirstColumn)devuelve el índice de la primera columna en el rango con nombre.
@@ -75,7 +75,7 @@ El siguiente ejemplo muestra cómo establecer un color de relleno sólido (color
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-FormatRanges1-FormatRanges1.java" >}}
 #### **Rangos de formato... Adición de bordes a un rango con nombre**
- Es posible agregar bordes a un rango de celdas en lugar de a una sola celda. los[Rango](https://reference.aspose.com/cells/java/com.aspose.cells/range) objeto proporciona un[establecerEsquemaFronteras](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)método que toma los siguientes parámetros para agregar un borde al rango de celdas:
+ Es posible agregar bordes a un rango de celdas en lugar de a una sola celda. Él[Rango](https://reference.aspose.com/cells/java/com.aspose.cells/range) objeto proporciona un[establecerEsquemaFronteras](https://reference.aspose.com/cells/java/com.aspose.cells/range#setOutlineBorders\(int,%20com.aspose.cells.Color\)método que toma los siguientes parámetros para agregar un borde al rango de celdas:
 
 -  borderStyle: el tipo de borde, seleccionado de la[Tipo de borde de celda](https://reference.aspose.com/cells/java/com.aspose.cells/CellBorderType)enumeración.
 -  borderColor: el color de la línea del borde, seleccionado de la[Color](https://reference.aspose.com/cells/java/com.aspose.cells/Color) enumeración.
@@ -95,7 +95,7 @@ El siguiente ejemplo muestra cómo aplicar estilos a las celdas de un rango.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-ConvertCellsAddresstoRangeorCellArea-ConvertCellsAddresstoRangeorCellArea.java" >}}
 #### **Eliminar un rango con nombre**
- Aspose.Cells proporciona el[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\) ) para borrar el nombre del rango. Para borrar el contenido del rango, use[Cells.ClearRango()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) método.
+ Aspose.Cells proporciona el[NameCollection.RemoveAt()](https://reference.aspose.com/cells/java/com.aspose.cells/namecollection#removeAt\(int\) ) para borrar el nombre del rango. Para borrar el contenido del rango, utilice[Cells.ClearRango()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#clearRange\(com.aspose.cells.CellArea\)) método.
 El siguiente ejemplo muestra cómo eliminar un rango con nombre con su contenido.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-RemoveANamedRange-RemoveANamedRange.java" >}}

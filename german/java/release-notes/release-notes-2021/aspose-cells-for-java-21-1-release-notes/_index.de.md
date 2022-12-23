@@ -13,7 +13,7 @@ url: /de/java/aspose-cells-for-java-21-1-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-43375|Überprüfen Sie das Excel-VBA-Passwort|
-|CELLSJAVA-43371|XLSX-zu-PDF-Konvertierung hängt|
+|CELLSJAVA-43371|XLSX bis PDF Konvertierung hängt|
 |CELLSJAVA-43353|Verschiedene Diagramme auf Excel zu pdf|
 |CELLSJAVA-43377|Probleme mit der Bildplatzierung beim Konvertieren von Excel in HTML|
 |CELLSJAVA-43381|Berechnungsfehler der DAYS-Funktion|

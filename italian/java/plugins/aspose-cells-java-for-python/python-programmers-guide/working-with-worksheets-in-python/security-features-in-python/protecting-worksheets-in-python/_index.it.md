@@ -1,13 +1,13 @@
 ﻿---
-title: Proteggere i fogli di lavoro in Python
+title: Protezione dei fogli di lavoro in Python
 type: docs
 weight: 10
 url: /it/java/protecting-worksheets-in-python/
 ---
 ## **Aspose.Cells - Fogli protettivi**
- Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Giava for Python** , chiamata**proteggi_foglio di lavoro** metodo di**protezione** modulo.
+ Per proteggere il foglio di lavoro utilizzando**Aspose.Cells Java for Python** , chiamata**proteggi_foglio di lavoro** metodo di**protezione** modulo.
 
-**Codice Pitone**
+**Python Cod**
 
 {{< highlight "java" >}}
 
@@ -45,6 +45,6 @@ print "Sheet protected successfully."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Protezione dei fogli di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Protezione dei fogli di lavoro (Aspose.Cells)** da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Python-v1.0)

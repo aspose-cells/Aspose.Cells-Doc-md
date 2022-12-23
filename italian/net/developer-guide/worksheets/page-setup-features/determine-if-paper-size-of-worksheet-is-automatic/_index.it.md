@@ -15,11 +15,11 @@ Il codice di esempio fornito di seguito carica i seguenti due file Excel
 - [samplePageSetupIsAutomaticPaperSize-False.xlsx](48496681.xlsx)
 - [samplePageSetupIsAutomaticPaperSize-True.xlsx](48496682.xlsx)
 
-scopri se il formato carta del loro primo foglio di lavoro è automatico o meno. In Microsoft Excel, puoi verificare se il formato carta è automatico o meno tramite la finestra Imposta pagina come mostrato in questa schermata.
+e scopri se il formato carta del loro primo foglio di lavoro è automatico o meno. In Microsoft Excel, puoi verificare se il formato carta è automatico o meno tramite la finestra Imposta pagina come mostrato in questa schermata.
 
 ![cose da fare:immagine_alt_testo](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-DetermineIfPaperSizeOfWorksheetIsAutomatic.cs" >}}
 

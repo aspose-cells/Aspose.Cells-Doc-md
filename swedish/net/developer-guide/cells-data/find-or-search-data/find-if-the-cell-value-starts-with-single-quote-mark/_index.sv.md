@@ -10,6 +10,6 @@ url: /sv/net/find-if-the-cell-value-starts-with-single-quote-mark/
 
 {{% /alert %}}
 
- Följande exempelkod förklarar att strängar som sample och 'sample inte kan särskiljas med[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) fast egendom. Därför måste vi använda[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)egendom för att särskilja dem.
+Följande exempelkod förklarar att strängar som sample och 'sample inte kan särskiljas med[**Cell.StringValue**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/stringvalue) fast egendom. Därför måste vi använda[**Style.CitatPrefix**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/quoteprefix)egendom för att särskilja dem.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FindIfCellValueStartsWithSingleQuote-FindIfCellValueStartsWithSingleQuote.cs" >}}

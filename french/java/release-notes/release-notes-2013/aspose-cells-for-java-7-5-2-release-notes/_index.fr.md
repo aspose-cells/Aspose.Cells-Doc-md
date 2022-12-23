@@ -16,8 +16,8 @@ url: /fr/java/aspose-cells-for-java-7-5-2-release-notes/
 
  40589 - Ajouter des jeux d'icônes (mise en forme conditionnelle)
 
- Exceptions
+ Des exceptions
 
  Insectes
 
- 40553 - Le rendu d'Excel au format PDF ne rend pas les graphiques avec JDK1.7.0_21
+ 40553 - Le rendu d'Excel en PDF ne rend pas les graphiques avec JDK1.7.0_21

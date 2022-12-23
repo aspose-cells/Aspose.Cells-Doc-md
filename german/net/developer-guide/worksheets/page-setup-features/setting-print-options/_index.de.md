@@ -82,7 +82,7 @@ Die Zeilen oder Spalten, die wiederholt werden, werden durch die Übergabe ihrer
 - **Runter dann rüber:** druckt alle Seiten nach unten, bevor Seiten nach rechts gedruckt werden.
 - **Über dann nach unten:** druckt Seiten von links nach rechts, bevor die folgenden Seiten gedruckt werden.
 
- Aspose.Cells liefert eine Aufzählung,[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)die alle vordefinierten Auftragstypen enthält.
+ Aspose.Cells liefert eine Aufzählung,[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)die alle vordefinierten Auftragsarten enthält.
 
  Die vordefinierten Werte der[**Druckauftragstyp**](https://reference.aspose.com/cells/net/aspose.cells/printordertype)Aufzählung sind unten aufgeführt.
 

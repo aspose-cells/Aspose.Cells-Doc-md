@@ -28,7 +28,7 @@ url: /es/java/aspose-cells-for-java-8-5-2-release-notes/
 ## **Mejoras**
 
 
- (CELLSJAVA-41373): discrepancia en la configuración de alineación después de guardar el archivo de Excel en formato de archivo HTML
+ (CELLSJAVA-41373): discrepancia en la configuración de alineación después de guardar el archivo de Excel en el formato de archivo HTML
 
 
 ## **Insectos**
@@ -40,19 +40,19 @@ url: /es/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430): se seleccionó la opción Fusionar y centrar incluso si tiene una sola celda
 
- (CELLSJAVA-41429): la configuración de compatibilidad de Lotus para la entrada de la fórmula de transición se cambia después de volver a guardar la hoja de cálculo.
+(CELLSJAVA-41429): la configuración de compatibilidad de Lotus para la entrada de la fórmula de transición se cambia después de volver a guardar la hoja de cálculo.
 
- (CELLSJAVA-41427) - Demasiadas validaciones Cells dañan el archivo XLS
+ (CELLSJAVA-41427) - Demasiadas validaciones Cells corrompen el archivo XLS
 
-(CELLSJAVA-41424): el uso de la función personalizada a través de la interfaz ICustomFunction no calcula el valor correcto
+ (CELLSJAVA-41424): el uso de la función personalizada a través de la interfaz ICustomFunction no calcula el valor correcto
 
- (CELLSJAVA-41423): diseño incorrecto al procesar PDF desde un archivo ODS
+ (CELLSJAVA-41423): diseño incorrecto al representar PDF desde un archivo ODS
 
  (CELLSJAVA-41422) - Cells. CopyRows con formato condicional en las celdas provoca un aumento del tamaño del archivo y problemas de rendimiento
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells retiene millones de celdas para siempre
 
- (CELLSJAVA-41395) - Conversión de ODS a HTML - Problemas de estilo de texto
+ (CELLSJAVA-41395) - Conversión ODS a HTML - Problemas de estilo de texto
 
  (CELLSJAVA-41426) - Cell el gráfico con el eje x no se escala correctamente al convertir a pdf
 
@@ -74,7 +74,7 @@ url: /es/java/aspose-cells-for-java-8-5-2-release-notes/
 
  Agrega la propiedad SaveOptions.MergeAreas.
 
- Se utiliza para fusionar CellAreas individuales del formato y la validación condicionales.
+Se utiliza para fusionar CellAreas individuales del formato y la validación condicionales.
 
 
 
@@ -84,7 +84,7 @@ url: /es/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-Añade el método SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+ Añade el método SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 
  Renderizar cierta página de SheetRender a un gráfico.
 

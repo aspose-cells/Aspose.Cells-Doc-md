@@ -6,7 +6,7 @@ url: /it/java/merge-files/
 ---
 ## **introduzione**
 
- Aspose.Cells offre diversi modi per unire i file. Per file semplici con dati, formattazione e formule, il file[**Cartella di lavoro.combina()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) ) può essere utilizzato per combinare più cartelle di lavoro e il metodo[**Foglio di lavoro.copia(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)può essere utilizzato per copiare i fogli di lavoro in una nuova cartella di lavoro. Questi metodi sono facili da usare ed efficaci, ma se hai molti file da unire, potresti scoprire che richiedono molte risorse di sistema. Per evitare ciò, utilizzare il metodo statico CellsHelper.mergeFiles, un modo più efficiente per unire più file.
+ Aspose.Cells offre diversi modi per unire i file. Per file semplici con dati, formattazione e formule, il file[**Cartella di lavoro.combina()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) può essere utilizzato per combinare più cartelle di lavoro e il metodo[**Foglio di lavoro.copia(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) può essere utilizzato per copiare i fogli di lavoro in una nuova cartella di lavoro. Questi metodi sono facili da usare ed efficaci, ma se hai molti file da unire, potresti scoprire che richiedono molte risorse di sistema. Per evitare ciò, utilizzare il metodo statico CellsHelper.mergeFiles, un modo più efficiente per unire più file.
 
 ## **Unisci file utilizzando Aspose.Cells**
 

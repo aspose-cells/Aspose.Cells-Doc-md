@@ -16,10 +16,10 @@ Datavalidering är möjligheten att sätta regler för data som skrivs in på et
 
 Microsoft Excel stöder ett antal olika typer av datavalidering. Varje typ används för att styra vilken typ av data som matas in i en cell eller cellintervall. Nedan illustrerar kodavsnitt hur man validerar det:
 
-- Tal är hela, det vill säga att de inte har en decimaldel.
+- Numbers är hela, det vill säga att de inte har en decimaldel.
 - Decimaltal följer rätt struktur. Kodexemplet definierar att ett cellområde ska ha två decimaler.
 - Värden är begränsade till en lista med värden. Listvalidering definierar en separat lista med värden som kan tillämpas på en cell eller cellintervall.
-- Datum faller inom ett specifikt intervall.
+- Datum faller inom ett visst intervall.
 - En tid ligger inom ett specifikt intervall.
 - En text är inom en given teckenlängd.
 
@@ -34,7 +34,7 @@ Så här skapar du valideringar med Microsoft Excel:
 ### **Datavalidering med Aspose.Cells**
 
 Datavalidering är en kraftfull funktion för att validera informationen som skrivs in i kalkylblad. Med datavalidering kan utvecklare ge användarna en lista med valmöjligheter, begränsa datainmatningar till en specifik typ eller storlek, etc.
- I Aspose.Cells, vardera[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass har en[**Valideringar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations)egendom som representerar en samling av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation) objekt. För att ställa in validering, ställ in några av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation)klassegenskaper enligt följande:
+ I Aspose.Cells, vardera[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass har en[**Valideringar**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/validations)egendom som representerar en samling av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation) föremål. För att ställa in validering, ställ in några av[**Godkännande**](https://reference.aspose.com/cells/net/aspose.cells/validation)klassegenskaper enligt följande:
 
 - Typ – representerar valideringstypen, som kan specificeras genom att använda ett av de fördefinierade värdena i[**ValidationType**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)uppräkning.
 -  Operatör – representerar den operatör som ska användas i valideringen, som kan specificeras genom att använda ett av de fördefinierade värdena i[**Operatörstyp**](https://reference.aspose.com/cells/net/aspose.cells/operatortype)uppräkning.
@@ -100,7 +100,7 @@ När datavalideringar implementeras kan valideringen kontrolleras genom att till
 
 ## **Kontrollera om validering i cellen är rullgardinsmenyn**
 
- Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) egenskapen kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. En provfil för testning kan laddas ner från följande länk:
+ Som vi har sett finns det många typer av valideringar som kan implementeras inom en cell. Om du vill kontrollera om validering är rullgardinsmeny eller inte,[**Validation.InCellDropDown**](https://reference.aspose.com/cells/net/aspose.cells/validation/properties/incelldropdown) egenskap kan användas för att testa detta. Följande exempelkod visar användningen av den här egenskapen. En provfil för testning kan laddas ner från följande länk:
 
 [sampleValidation.xlsx](79527947.xlsx)
 
@@ -122,6 +122,6 @@ Käll- och utdata Excel-filerna bifogas som referens.
 
 
 ## **Förhandsämnen**
-- [Få Cell Validering i ODS-filer](/cells/sv/net/get-cell-validation-in-ods-files/)
+- [Få Cell Validering i ODS filer](/cells/sv/net/get-cell-validation-in-ods-files/)
 - [Få validering tillämpad på en Cell](/cells/sv/net/get-validation-applied-on-a-cell/)
 - [Verifiera att Cell-värdet uppfyller reglerna för datavalidering](/cells/sv/net/verify-that-cell-value-satisfies-data-validation-rules/)

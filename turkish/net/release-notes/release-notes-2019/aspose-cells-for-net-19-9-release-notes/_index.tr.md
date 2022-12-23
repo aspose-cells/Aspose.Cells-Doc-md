@@ -19,9 +19,9 @@ url: /tr/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46883|PivotTable'lar, akıllı işaretçileri işledikten sonra birden çok seçim seçeneğini korumaz|Böcek|
 |CELLSNET-46874|Formülden türetilmeyen ve hücrelerdeki değerleri almak için F2'ye basmayı gerektiren değerler|Böcek|
 |CELLSNET-46904|DataTable'dan veri içe aktarılırken köprüler kayboluyor|Böcek|
-|CELLSNET-46875|PDF dönüştürme sırasında içerik sayfadan taşar|Böcek|
+|CELLSNET-46875|PDF dönüştürme sırasında sayfadan içerik taşması|Böcek|
 |CELLSNET-46865|Açtıktan ve kaydettikten sonra bir nesne değiştirilir|Böcek|
-|CELLSNET-46866|Drawing.TextBox'ın yazı tipini ve yazı tipi boyutunu ayarlamak ODS'de çalışmıyor|Böcek|
+|CELLSNET-46866|Drawing.TextBox'ın yazı tipini ve yazı tipi boyutunu ayarlama ODS'de çalışmıyor|Böcek|
 |CELLSNET-46867|XLSX yeniden kaydedilirken kaybolan onay kutuları|Böcek|
 |CELLSNET-46873|Ref! formül uygulanmamış olarak gösteriliyor|Böcek|
 |CELLSNET-46876|OLE nesne bağlantısına XLS dosyasından erişilemiyor|Böcek|
@@ -31,7 +31,7 @@ url: /tr/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46887|Dosyayı MS Excel'de açıp Kaydettikten sonra koşullu biçimlendirme korunmaz.|Böcek|
 |CELLSNET-46891|OleObject'in degrade dolgusu, FillType.Solid olarak okunur|Böcek|
 |CELLSNET-46894|Excel dosyasını kaydederken sayfa sekmesi ayarını işaretlenmemiş olarak göster|Böcek|
-|CELLSNET-46906|Aspose.Cells, bir XLSX dosyasını açarken kilitlendi|Böcek|
+|CELLSNET-46906|Aspose.Cells, XLSX dosyasını açarken kilitlendi|Böcek|
 |CELLSNET-46909|OLE Nesnesinin biçimlendirmesi, Excel dosyasını açıp kaydettikten sonra değişti|Böcek|
 |CELLSNET-46857|Özet tablodaki filtre bağlantıları, özet tabloları yeniledikten sonra kaydetme sırasında ayarları kaybeder|Böcek|
 |CELLSNET-46862|Dilimleyicideki "Veri içermeyen öğeleri gizle" ayarı, pivot tablolar yenilendikten sonra kayboluyor|Böcek|

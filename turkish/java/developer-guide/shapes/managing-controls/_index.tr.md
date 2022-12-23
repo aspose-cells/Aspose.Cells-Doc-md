@@ -4,13 +4,13 @@ type: docs
 weight: 120
 url: /tr/java/managing-controls/
 ---
-## **giriiş**
+## **Giriş**
 
 Geliştiriciler, metin kutuları, onay kutuları, radyo düğmeleri, açılan kutular, etiketler, düğmeler, çizgiler, dikdörtgenler, yaylar, ovaller, döndürücüler, kaydırma çubukları, grup kutuları vb. gibi farklı çizim nesneleri ekleyebilir. tüm çizim nesneleri. Ancak, henüz desteklenmeyen birkaç çizim nesnesi veya şekli vardır. Bu çizim nesnelerini Microsoft Excel kullanarak bir tasarımcı elektronik tablosunda oluşturun ve ardından tasarımcı elektronik tablosunu Aspose.Cells'e aktarın. Aspose.Cells, bu çizim nesnelerini bir tasarımcı elektronik tablosundan yüklemenize ve oluşturulmuş bir dosyaya yazmanıza olanak tanır.
 
 ## **Çalışma Sayfasına Metin Kutusu Denetimi Ekleme**
 
-Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya satışların en yüksek olduğu coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells, koleksiyona yeni bir metin kutusu eklemek için kullanılan TextBoxes sınıfını sağlar. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
+ Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya satışların en yüksek olduğu coğrafi bölgeyi vb. belirtmek için metin ekleyin. Aspose.Cells, koleksiyona yeni bir metin kutusu eklemek için kullanılan TextBoxes sınıfını sağlar. Başka bir sınıf var,[**Metin kutusu**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)tüm ayar türlerini tanımlamak için kullanılan bir metin kutusunu temsil eder. Bazı önemli üyeleri vardır:
 
 -  bu[**getTextÇerçevesi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) yöntem bir döndürür[**MsoTextÇerçevesi**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) metin kutusunun içeriğini ayarlamak için kullanılan nesne.
 -  bu[**yerleşimi ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) method yerleştirme tipini belirtir.
@@ -18,7 +18,7 @@ Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanm
 -  bu[**köprü ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) yöntemi, metin kutusu için bir köprü ekler.
 -  bu[**Doldurma Biçimi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) mülkiyet iadeleri[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) metin kutusu için dolgu formatını ayarlamak için kullanılan nesne.
 -  bu[**Çizgi Biçimi**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) özellik döndürür[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) genellikle metin kutusu satırının stilini ve ağırlığını belirlemek için kullanılan nesne.
--  bu[**Metin ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)method, metin kutusu için giriş metnini belirtir.
+-  bu[**Metin ayarla**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) method, metin kutusu için giriş metnini belirtir.
 
 Aşağıdaki örnek, çalışma kitabının ilk çalışma sayfasında iki metin kutusu oluşturur. İlk metin kutusu, farklı biçim ayarlarıyla iyi bir şekilde döşenmiştir. İkincisi basit bir tanesidir.
 
@@ -26,7 +26,7 @@ Aşağıdaki çıktı, kod yürütülerek oluşturulur:
 
 **Çalışma sayfasında iki metin kutusu oluşturulur** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_1.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingTextBoxControl-1.java" >}}
 
@@ -51,7 +51,7 @@ Bir kullanıcıya doğru veya yanlış gibi iki seçenek arasında seçim yapmas
 1. Çalışma sayfası alanınızda, onay kutusunu ve onay kutusunun yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1. Onay kutusu yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
 1.  İçinde**Cell Bağlantı**alanında, bu onay kutusunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -65,13 +65,13 @@ Aşağıdaki örnek, çalışma sayfasına bir onay kutusunun nasıl ekleneceği
 
 **Çalışma sayfasına bir CheckBox eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_2.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingCheckBoxControl-1.java" >}}
 
 ## **Çalışma Sayfasına RadioButton Kontrolü Ekleme**
 
-Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir denetimdir. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
+Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmış bir kontroldür. Kullanıcı yuvarlak kutuyu seçerek kararını verir. Bir radyo düğmesine, her zaman olmasa da genellikle başkaları eşlik eder. Bu tür radyo düğmeleri bir grup olarak görünür ve davranır. Kullanıcı bunlardan sadece birini seçerek hangi butonun geçerli olduğuna karar verir. Kullanıcı bir düğmeyi tıkladığında, doldurulur. Gruptaki bir düğme seçildiğinde, aynı grubun düğmeleri boştur.
 
 ### **Microsoft Excel'i kullanma**
 
@@ -82,7 +82,7 @@ Bir radyo düğmesi veya bir seçenek düğmesi, yuvarlak bir kutudan yapılmı�
 1. Çalışma sayfasında, seçenek düğmesini ve seçenek düğmesinin yanındaki etiketi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1. Radyo düğmesi çalışma sayfasına yerleştirildikten sonra, fare imlecini etiket alanına getirin ve etiketi değiştirin.
 1.  İçinde**Cell Bağlantı** alanında, bu radyo düğmesinin bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -98,7 +98,7 @@ Aşağıdaki örnek, bir çalışma sayfasına radyo düğmelerinin nasıl eklen
 
 **Çalışma sayfasına bazı Radyo Düğmeleri eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_3.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRadioButtonControl-1.java" >}}
 
@@ -115,7 +115,7 @@ Veri girişini kolaylaştırmak veya girişleri tanımladığınız belirli öğ
 1. Çalışma sayfası alanınızda, birleşik giriş kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Birleşik giriş kutusu çalışma sayfasına yerleştirildikten sonra, kontrolü sağ tıklatarak**Biçim Kontrolü** ve giriş aralığını belirtin.
 1.  İçinde**Cell Bağlantı** alanında, bu açılan kutunun bağlanması gereken hücrenin adresini belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -130,7 +130,7 @@ Aşağıdaki örnek, çalışma sayfasına birleşik giriş kutusunun nasıl ekl
 
 **Çalışma sayfasına açılan kutu eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_4.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingComboBoxControl-1.java" >}}
 
@@ -145,7 +145,7 @@ Aşağıdaki örnek, çalışma sayfasına nasıl etiket ekleneceğini gösterir
 
 **Çalışma sayfasına bir etiket eklenir**
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_5.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLabelControl-1.java" >}}
 
@@ -162,7 +162,7 @@ Liste kutusu denetimi, tekli veya çoklu öğe seçimine izin veren bir liste de
 1. Çalışma sayfası alanınızda, liste kutusunu tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın.**Biçim Kontrolü** ve giriş aralığını belirtin.
 1.  İçinde**Cell Bağlantı**alanında, bu liste kutusunun bağlanması gereken hücrenin adresini belirtin ve seçim tipi (Tek, Çoklu, Genişlet) özniteliğini ayarlayın.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -177,7 +177,7 @@ Aşağıdaki örnek, çalışma sayfasına bir liste kutusunun nasıl ekleneceğ
 
 **Çalışma sayfasına bir liste kutusu eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_6.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_6.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingListBoxControl-1.java" >}}
 
@@ -193,7 +193,7 @@ Düğmeler, bazı eylemleri gerçekleştirmek için kullanışlıdır. Bazen, bi
 1.  Tıkla**Buton** alet.
 1. Çalışma sayfası alanınızda, düğmeyi tutacak dikdörtgeni tanımlamak için tıklayın ve sürükleyin.
 1.  Liste kutusu çalışma sayfasına yerleştirildikten sonra, kontrole sağ tıklayın ve seçin.**Biçim Kontrolü**, ardından bir VBA Makrosu ve yazı tipi, hizalama, boyut, kenar boşluğu vb. ile ilgili öznitelikleri belirtin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ### **Aspose.Cells'i kullanma**
 
@@ -207,7 +207,7 @@ Aşağıdaki örnek, çalışma sayfasına nasıl düğme ekleneceğini gösteri
 
 **Çalışma sayfasına bir düğme eklendi**
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_7.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_7.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingButtonControl-1.java" >}}
 
@@ -217,7 +217,7 @@ Aspose.Cells, çalışma sayfalarınıza otomatik şekiller çizmenizi sağlar. 
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**Otomatik Şekiller** , işaret etmek**çizgiler**ve istediğiniz çizgi stilini seçin.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Otomatik Şekiller** , odaklan**çizgiler**ve istediğiniz çizgi stilini seçin.
 1. Çizgiyi çizmek için sürükleyin.
 1. Aşağıdakilerden birini veya her ikisini yapın:
  1. Çizgiyi başlangıç noktasından 15 derecelik açılarla çizmek üzere sınırlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -234,7 +234,7 @@ Aşağıdaki örnek, çalışma sayfasına nasıl satır ekleneceğini gösterir
 
 **Çalışma sayfasına birkaç satır eklenir** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_8.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_8.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingLineControl-1.java" >}}
 
@@ -246,7 +246,7 @@ Aşağıdaki örnek, bir satıra ok ucunun nasıl ekleneceğini gösterir. Kod y
 
 **Çalışma sayfasına ok başlı bir satır eklenir** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_9.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_9.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganArrowHead.java" >}}
 
@@ -256,7 +256,7 @@ Aspose.Cells, çalışma sayfalarınıza dikdörtgen şekiller çizmenizi sağla
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**Dikdörtgen**.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Dikdörtgen**.
 1. Dikdörtgeni çizmek için sürükleyin.
 1. Aşağıdakilerden birini veya her ikisini yapın:
  1. Dikdörtgeni başlangıç noktasından kare çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -274,7 +274,7 @@ Aşağıdaki örnek, çalışma sayfasına bir dikdörtgenin nasıl ekleneceğin
 
 **Çalışma sayfasına bir dikdörtgen eklenir** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_10.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_10.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingRectangleControl-1.java" >}}
 
@@ -284,7 +284,7 @@ Aspose.Cells, çalışma sayfalarınıza yay şekilleri çizmenizi sağlar. Basi
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**ark** içinde**Otomatik Şekiller**.
 1. Yayı çizmek için sürükleyin.
 
 ### **Aspose.Cells'i kullanma**
@@ -299,7 +299,7 @@ Aşağıdaki örnek, çalışma sayfasına yay şekillerinin nasıl ekleneceğin
 
 **Çalışma sayfasına iki yay şekli eklenir** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_11.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_11.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddingArcControl-1.java" >}}
 
@@ -309,7 +309,7 @@ Aspose.Cells, çalışma sayfalarında oval şekiller çizmenizi sağlar. Basit 
 
 ### **Microsoft Excel'i kullanma**
 
-1.  Üzerinde**Resim çizme** araç çubuğu, tıklayın**Oval** .
+1.  Üzerinde**Çizim** araç çubuğu, tıklayın**Oval** .
 1. Oval çizmek için sürükleyin.
 1. Aşağıdakilerden birini veya her ikisini yapın:
  1. Ovali başlangıç noktasından bir daire çizmeye zorlamak için sürüklerken SHIFT tuşunu basılı tutun.
@@ -327,7 +327,7 @@ Aşağıdaki örnek, çalışma sayfasına oval şekillerin nasıl ekleneceğini
 
 **Çalışma sayfasına iki oval şekil eklendi** 
 
-![yapılacaklar:resim_alternatif_Metin](managing-controls_12.png)
+![yapılacaklar:resim_alternatif_metin](managing-controls_12.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-controls-AddinganOvalControl-1.java" >}}
 

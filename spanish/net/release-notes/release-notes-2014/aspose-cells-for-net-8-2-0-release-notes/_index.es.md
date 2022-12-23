@@ -29,10 +29,10 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
  (CELLSNET-42862) - Función de Excel 2013 no admitida - Días
 
 
-## **Actuación**
+## **Rendimiento**
 
 
-(CELLSNET-42876) - Aspose.Cells se bloquea en el método Workbook.Save()
+ (CELLSNET-42876) - Aspose.Cells se bloquea en el método Workbook.Save()
 
  (CELLSNET-42840): el archivo de Excel grande se daña cuando se agregan más de 45 000 filas
 
@@ -42,13 +42,13 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42866) - Falta el texto vertical en la hoja de cálculo en el PDF resultante
 
- (CELLSNET-42835): el texto no está alineado en el lado de la forma cuando XLS se representa en PDF.
+ (CELLSNET-42835): el texto no está alineado en el lado de la forma cuando XLS se representa en PDF
 
  (CELLSNET-42787) - La imagen renderizada no está clara en el pdf de salida
 
  (CELLSNET-42526) - Los objetos de flecha no se colocan correctamente en el pdf de salida
 
- (CELLSNET-42322): la eliminación de filas y la actualización de la tabla dinámica bloquea el archivo de salida
+(CELLSNET-42322): la eliminación de filas y la actualización de la tabla dinámica bloquea el archivo de salida
 
  (CELLSNET-42827) - Problema con valores de lectura de subprocesos múltiples de celdas en la hoja de cálculo
 
@@ -60,7 +60,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42833) - Forma superpuesta al texto en el PDF resultante
 
-(CELLSNET-42829) - Las casillas de verificación no están alineadas correctamente en el PDF resultante
+ (CELLSNET-42829) - Las casillas de verificación no están alineadas correctamente en el PDF resultante
 
  (CELLSNET-42776) - La calidad de imagen ha disminuido al guardar hojas de cálculo en PDF
 
@@ -72,31 +72,31 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42831) - La forma ha cambiado en el PDF resultante
 
- (CELLSNET-42830): cambio en la dirección de la flecha en el PDF resultante
+(CELLSNET-42830) - Cambio en la dirección de la flecha en la resultante PDF
 
- (CELLSNET-42828): el PDF resultante tiene una forma recortada con una parte de la cruz que no se muestra
+ (CELLSNET-42828) - El resultado PDF tiene una forma recortada con una parte de la cruz que no se muestra
 
  (CELLSNET-42798): la imagen del gráfico de burbujas no se crea correctamente (Gráfico a imagen)
 
- (CELLSNET-42920): guardar un archivo XLSM de Excel crea un error de contenido ilegible
+ (CELLSNET-42920): guardar un archivo de Excel XLSM genera un error de contenido ilegible
 
- (CELLSNET-42909): las líneas directrices se ocultan al volver a guardar el archivo XLSX de la plantilla.
+ (CELLSNET-42909): las líneas directrices se ocultan al volver a guardar el archivo de plantilla XLSX
 
  (CELLSNET-42908): la posición de la celda final cambia de E9 a F9
 
  (CELLSNET-42907) - Aspose.Cells eliminó los filtros de período de tiempo
 
-(CELLSNET-42904): problema de DeleteRange con la recopilación de hipervínculos
+ (CELLSNET-42904): problema de DeleteRange con la recopilación de hipervínculos
 
  (CELLSNET-42900) - Se pierden las propiedades integradas y personalizadas del documento
 
  (CELLSNET-42899) - Name.GetRange devuelve un valor nulo en lugar del rango real
 
- (CELLSNET-42897): valor incorrecto calculado para la fórmula COUNTIF durante la representación en PDF
+ (CELLSNET-42897): se calculó un valor incorrecto para la fórmula COUNTIF durante la representación en PDF
 
  (CELLSNET-42889) - Workbook.CalculateFormula no calculó correctamente los valores
 
- (CELLSNET-42874) - Worksheet.Copy no conserva el gráfico correctamente
+(CELLSNET-42874) - Worksheet.Copy no conserva el gráfico correctamente
 
  (CELLSNET-42872): valores incorrectos al leer el gráfico de líneas del libro de trabajo
 
@@ -114,7 +114,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 ## **Excepciones**
 
 
-(CELLSNET-41952) - "Excepción de falta de memoria" al guardar el libro de trabajo como PDF
+ (CELLSNET-41952) - "Excepción de falta de memoria" al guardar el libro de trabajo como PDF
 
  (CELLSNET-42891) - CellsException: ¡Este encabezado o pie de página aún no es compatible!
 
@@ -124,7 +124,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -134,7 +134,7 @@ Tenga en cuenta que esta descarga contiene una versión completamente funcional 
 
  (CELLSNET-42895): Page.IsPostBack siempre es falso dentro de GridWeb.
 
- (CELLSNET-42881) - GridWeb muestra la misma imagen en todas las hojas de trabajo web
+(CELLSNET-42881) - GridWeb muestra la misma imagen en todas las hojas de trabajo web
 
 
 ## **Excepciones**

@@ -19,7 +19,7 @@ url: /sv/java/aspose-cells-for-java-21-8-release-notes/
 |CELLSJAVA-43557|Felaktig färg när du sparar som html|
 |CELLSJAVA-43567|Regression: MDURATION-formeln har inte beräknats korrekt|
 |CELLSJAVA-43583|Power operator "^" fungerar inte för formelberäkningar|
-|CELLSJAVA-43549|Bild saknas i utdata-PDF|
+|CELLSJAVA-43549|Bild saknas i utgången PDF|
 |CELLSJAVA-43566|Standardteckensnitt på MacOS Big Sur|
 |CELLSJAVA-42579|Axeletiketter visas inte korrekt - Högerjustering saknas när Excel sparas till Pdf|
 |CELLSJAVA-43554|Text i diagramdatatabellen visas inte i utdatabilden|

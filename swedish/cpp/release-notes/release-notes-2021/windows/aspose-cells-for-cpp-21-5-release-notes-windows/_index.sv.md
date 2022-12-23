@@ -14,5 +14,5 @@ Den här sidan innehåller utgåvor för Aspose.Cells for C++ 21.5 för Windows.
 |:- |:- |:- |
 |CELLSCPP-274| Fixa konvertera till pdf-problem|Insekt|
 |CELLSCPP-276| Stöd SHA256-verifiering för licenssignatur|Ny funktion|
-|CELLSCPP-277| Stöd PDF/A-1a-kompatibilitet - IPdfSaveOptions|Ny funktion|
+|CELLSCPP-277| Stöd PDF/A-1a-överensstämmelse - IPdfSaveOptions|Ny funktion|
 |CELLSCPP-279| Konverterad PDF är inte bra formaterad|Insekt|

@@ -15,7 +15,7 @@ url: /ja/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-438|ワークシートの行と列をグループ化する|新機能|
 |CELLSPORTINGC-439|テーブル/リスト オブジェクトをワークシートに追加する|新機能|
 |CELLSPORTINGC-426|Aspose.Cells for C++ API のライセンスの問題|バグ|
-|CELLSPORTINGC-425|XLS ファイルの保存のパフォーマンスを最適化する|改善|
+|CELLSPORTINGC-425|XLS ファイルの保存のパフォーマンスを最適化|改善|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for C++ に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 #### **ICell::SetStyle メソッドの名前を ICell::SetIStyle に変更**

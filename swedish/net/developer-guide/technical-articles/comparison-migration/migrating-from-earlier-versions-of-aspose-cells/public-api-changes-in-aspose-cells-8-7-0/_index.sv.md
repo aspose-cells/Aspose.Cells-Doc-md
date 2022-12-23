@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Property TxtLoadOptions.HasFormula Added**
- Aspose.Cells for .NET 8.7.0 har tillhandahållit support till[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsade vanliga data](/cells/sv/net/load-or-import-csv-file-with-formulas/). Den nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
+ Aspose.Cells for .NET 8.7.0 har tillhandahållit support till[identifiera och analysera formlerna medan du laddar CSV/TXT-filer med avgränsad vanlig data](/cells/sv/net/load-or-import-csv-file-with-formulas/). Den nyligen exponerade egenskapen TxtLoadOptions.HasFormula när den är satt till true dirigerar API att tolka formlerna från den indataavgränsade filen och ställa in dem på relevanta celler utan att kräva ytterligare bearbetning.
 
 Följande är det enkla användningsscenariot.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Egenskap DataLabels.IsResizeShapeToFitText tillagd**
- En annan användbar funktion som Aspose.Cells for .NET 8.7.0 har exponerat är egenskapen DataLabels.IsResizeShapeToFitText som kan aktivera[Ändra storlek på form för att passa text](/cells/sv/net/resize-chart-s-data-label-shape-to-fit-text/) funktion i Excel-applikationen för diagrammets dataetiketter.
+ En annan användbar funktion som Aspose.Cells for .NET 8.7.0 har exponerat är egenskapen DataLabels.IsResizeShapeToFitText som kan aktivera[Ändra storlek på form för att passa text](/cells/sv/net/resize-chart-s-data-label-shape-to-fit-text/)funktion i Excel-applikationen för diagrammets dataetiketter.
 
 Följande är det enkla användningsscenariot.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Egenskap PdfSaveOptions.OptimizationType tillagd**
-Aspose.Cells for .NET 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att[välj önskad optimeringsalgoritm medan du exporterar kalkylblad till PDF-format](/cells/sv/net/save-excel-into-pdf-with-standard-or-minimum-size/). Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
+Aspose.Cells for .NET 8.7.0 har exponerat egenskapen PdfSaveOptions.OptimizationType tillsammans med PdfOptimizationType-uppräkningen för att underlätta för användarna att[välj önskad optimeringsalgoritm när du exporterar kalkylblad till formatet PDF](/cells/sv/net/save-excel-into-pdf-with-standard-or-minimum-size/). Det finns två möjliga värden för egenskapen PdfSaveOptions.OptimizationType enligt beskrivningen nedan.
 
 1. PdfOptimizationType.MinimumSize: Kvaliteten äventyras för den resulterande filstorleken.
 1. PdfOptimizationType.Standard: Kvaliteten äventyras inte så den resulterande filstorleken blir stor.

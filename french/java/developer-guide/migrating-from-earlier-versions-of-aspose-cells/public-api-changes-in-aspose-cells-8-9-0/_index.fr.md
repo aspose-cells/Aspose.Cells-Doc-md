@@ -43,7 +43,7 @@ book.save(dir + "output.html", options);
 
 {{< /highlight >}}
 ### **Ajout de la propriété ImageOrPrintOptions.DefaultFont**
-Aspose.Cells for Java 8.9.0 permet de définir le nom de police par défaut pour la classe ImageOrPrintOptions en exposant la propriété DefaultFont. Ladite propriété peut être utilisée lorsque les caractères Unicode de la feuille de calcul ne sont pas définis avec la police correcte dans le style de cellule. Par conséquent, ces caractères peuvent apparaître sous forme de blocs dans les images résultantes.
+ Aspose.Cells for Java 8.9.0 permet de définir le nom de police par défaut pour la classe ImageOrPrintOptions en exposant la propriété DefaultFont. Ladite propriété peut être utilisée lorsque les caractères Unicode de la feuille de calcul ne sont pas définis avec la police correcte dans le style de cellule. Par conséquent, ces caractères peuvent apparaître sous forme de blocs dans les images résultantes.
 
 {{% alert color="primary" %}} 
 

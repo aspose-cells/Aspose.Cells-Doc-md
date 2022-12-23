@@ -20,7 +20,7 @@ Les limites sont indiquées ci-dessous :
  Lors de l'exécution de votre programme, vous ne pouvez ouvrir que 100 fichiers Excel en utilisant Aspose.Cells Python via la bibliothèque .Net. Si votre application dépasse ce nombre, une exception sera levée.
 
 
-De plus, une feuille de calcul avec un filigrane d'évaluation s'affichera toujours comme feuille de calcul active dans le fichier Excel généré en utilisant Aspose.Cells Python via la bibliothèque. Uniquement dans la version sous licence, vous pouvez définir la feuille de calcul active sur d'autres feuilles de calcul. Dans le fichier PDF ou image de sortie par Aspose.Cells Python via, un filigrane d'évaluation serait collé en haut du document/image.
+De plus, une feuille de calcul avec un filigrane d'évaluation s'affichera toujours comme feuille de calcul active dans le fichier Excel généré en utilisant Aspose.Cells Python via la bibliothèque. Uniquement dans la version sous licence, vous pouvez définir la feuille de calcul active sur d'autres feuilles de calcul. Dans la sortie PDF ou le fichier image par Aspose.Cells Python via, un filigrane d'évaluation serait collé en haut du document/image.
 
 {{% alert color="primary" %}}
 

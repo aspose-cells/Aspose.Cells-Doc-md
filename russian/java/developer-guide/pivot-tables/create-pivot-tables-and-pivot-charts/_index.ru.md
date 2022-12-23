@@ -12,7 +12,7 @@ keywords: excel create pivot table java, excel create pivot chart java, excel cr
 
 Сводная диаграмма — это интерактивное графическое представление данных в сводной таблице. Сводные диаграммы были представлены в Excel 2000. Использование сводных диаграмм еще больше упрощает понимание данных, поскольку сводная таблица автоматически создает промежуточные итоги и итоги.
 
- Aspose.Cells опоры[сводные таблицы](/cells/ru/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table) а также[сводные диаграммы](/cells/ru/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
+ Aspose.Cells опоры[сводные таблицы](/cells/ru/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-table) и[сводные диаграммы](/cells/ru/java/create-pivot-tables-and-pivot-charts/#creating-a-pivot-chart-based-on-the-pivot-table).
 
 {{% /alert %}}
 

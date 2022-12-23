@@ -17,11 +17,11 @@ url: /es/java/aspose-cells-for-java-17-7-release-notes/
 |CELLSJAVA-42329|Mejoras necesarias para filtros de datos y funciones de paginación: Aspose.Cells. GridWeb (Java)|Mejora|
 |CELLSJAVA-41616|SaveCustomStyleFile no está presente en GridWeb (Java)|Mejora|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() no debe ser una función estática (global)|Mejora|
-|CELLSJAVA-42327|Algunas formas están distorsionadas y cambiadas en la representación de Excel a PDF|Insecto|
-|CELLSJAVA-42290|Mdashes y ndashes insertados en cuadros de texto en gráficos no se representan correctamente en el PDF del gráfico|Insecto|
+|CELLSJAVA-42327|Algunas formas están distorsionadas y cambiadas en Excel a la representación PDF|Insecto|
+|CELLSJAVA-42290|Mdashes y ndashes insertados en TextBoxes en los gráficos no se representan correctamente en el gráfico PDF|Insecto|
 |CELLSJAVA-42338|Resultados incorrectos al usar fórmulas SUMIFS|Insecto|
 |CELLSJAVA-42337|Aspose.Cells no puede calcular el valor de la celda B4 de la hoja de cálculo|Insecto|
-|CELLSJAVA-42330|Resultado extraño al convertir de Excel a PDF o PDF/A usando hilos|Insecto|
+|CELLSJAVA-42330|Resultado extraño al convertir de Excel a PDF o PDF/A usando subprocesos|Insecto|
 |CELLSJAVA-42331|Los cambios en el campo del autor del comentario no se conservan|Insecto|
 |CELLSJAVA-42328|Conjunto de iconos incorrecto devuelto|Insecto|
 |CELLSJAVA-42324|Falta el fondo del gráfico después de configurar los datos de una imagen|Insecto|
@@ -65,7 +65,7 @@ Hace que el control GridWeb sea compatible con el tamaño actual de la ventana d
 ### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-- [Lea la hoja de cálculo de números desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Establezca la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para que tenga prioridad](/cells/es/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Importar datos desde Microsoft Acceder al objeto ResultSet de la base de datos a la hoja de trabajo](/cells/es/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplen criterios complejos](/cells/es/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

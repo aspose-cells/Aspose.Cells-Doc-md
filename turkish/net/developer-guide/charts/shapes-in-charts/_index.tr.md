@@ -18,8 +18,8 @@ Aspose.Cells, grafiklere bile etiket eklemenize ve değiştirmenize olanak tanı
 bu[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**AddLabelInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addlabelinchart), bir grafiğe etiket denetimi eklemek için kullanılır. Yöntem için kullanılan parametrelerin listesi aşağıdadır:
 
 - **tepe** – grafik alanının 1/4000'lik birimlerinde sol üst köşeden etiketin dikey ofseti.
-- **ayrıldı** – grafik alanının 1/4000'lik birimlerinde sol üst köşeden etiketin dikey ofseti.
-- **yükseklik** – grafik alanının 1/4000 birimi cinsinden etiketin yüksekliği.
+- **sol** – grafik alanının 1/4000'lik birimlerinde sol üst köşeden etiketin dikey ofseti.
+- **boy uzunluğu** – grafik alanının 1/4000 birimi cinsinden etiketin yüksekliği.
 - **Genişlik** – grafik alanının 1/4000'lik birimleri cinsinden etiket genişliği.
 
  Yöntem döndürür[**Aspose.Cells.Drawing.Label**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label)nesne. bu[**Etiket**](https://reference.aspose.com/cells/net/aspose.cells.drawing/label) class grafikte bir etiketi temsil eder. Bazı önemli üyeleri vardır:
@@ -36,8 +36,8 @@ Aşağıdaki örnek, grafiğe nasıl etiket ekleneceğini gösterir. Örnek bir 
  Bir rapordaki önemli bilgileri vurgulamanın bir yolu, bir metin kutusu kullanmaktır. Örneğin, şirket adını vurgulamak veya en yüksek satışa sahip coğrafi bölgeyi belirtmek için metin girin. bu[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**AddTextBoxInChart**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addtextboxinchart)bir grafiğe bir metin kutusu denetimi eklemek için kullanılır. Yöntem için kullanılan parametre listesi aşağıdadır:
 
 - **tepe** – grafik alanının 1/4000 biriminde metin kutusunun sol üst köşeden dikey uzaklığı.
-- **ayrıldı** – grafik alanının 1/4000 biriminde metin kutusunun sol üst köşeden dikey uzaklığı.
-- **yükseklik**– grafik alanının 1/4000'lik birimlerinde metin kutusunun yüksekliği.
+- **sol** – grafik alanının 1/4000 biriminde metin kutusunun sol üst köşeden dikey uzaklığı.
+- **boy uzunluğu**– grafik alanının 1/4000'lik birimlerinde metin kutusunun yüksekliği.
 - **Genişlik** – grafik alanının 1/4000'lik birimleri cinsinden metin kutusunun genişliği.
 
  Yöntem döndürür[**Aspose.Cells.Drawing.TextBox**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox) nesne. bu[**Metin kutusu**](https://reference.aspose.com/cells/net/aspose.cells.drawing/textbox)class, grafikte bir metin kutusunu temsil eder.
@@ -53,7 +53,7 @@ Aspose.Cells, bir grafiğe resim eklemenizi sağlar. Örneğin, bir grafiği vey
  bu[**Aspose.Cells.Drawing.ShapeCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection) sınıf adlı bir yöntem sağlar[**Grafikte Resim Ekle**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/addpictureinchart)grafiğe bir resim nesnesi eklemek için kullanılır. Yöntem için kullanılan parametre listesi aşağıdadır:
 
 - **tepe**– tablo alanının 1/4000 biriminde resmin sol üst köşeden dikey kayması.
-- **ayrıldı**– tablo alanının 1/4000 biriminde resmin sol üst köşeden dikey kayması.
+- **sol**– tablo alanının 1/4000 biriminde resmin sol üst köşeden dikey kayması.
 - **aktarım** – görüntü verilerini içeren bir akış nesnesi.
 - **genişlikÖlçeği** – görüntü genişliği ölçeği, bir yüzde değeri.
 - **yükseklikÖlçek** – görüntü yüksekliği ölçeği, bir yüzde değeri.
@@ -70,7 +70,7 @@ Aşağıdaki örnek, grafiğe nasıl resim ekleneceğini gösterir. Örnek, önc
 
 Aşağıdaki resimde, çıktı dosyasında onay kutusu bulunan grafik sayfası gösterilmektedir.
 
-![yapılacaklar:resim_alternatif_Metin](controls-in-charts_1.jpg)
+![yapılacaklar:resim_alternatif_metin](controls-in-charts_1.jpg)
 
  bu[çıktı dosyası](101089316.xlsx)aşağıdaki kod parçacığı tarafından oluşturulan referans için eklenmiştir.
 

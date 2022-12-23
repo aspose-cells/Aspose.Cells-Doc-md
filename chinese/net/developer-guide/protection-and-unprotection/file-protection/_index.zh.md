@@ -42,7 +42,7 @@ Aspose.Cells 允许您使用所需的加密类型加密和密码保护 Microsoft
 
 
 ## **推进主题**
-- [加密和解密 ODS 文件](/cells/zh/net/encrypt-and-decrypt-ods-files/)
+- [加密和解密 ODS 个文件](/cells/zh/net/encrypt-and-decrypt-ods-files/)
 - [设置强加密类型](/cells/zh/net/setting-strong-encryption-type/)
 - [写保护工作簿时指定作者](/cells/zh/net/specify-author-while-write-protecting-workbook/)
 - [验证加密文件的密码](/cells/zh/net/verify-password-of-encrypted-excel-and-ods-files/)

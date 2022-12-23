@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-12-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-49680|Supporta la conversione di Excel in script SQL.|Nuova caratteristica|
 |CELLSNET-49717|Supporta la conversione di Excel in dati xml|Nuova caratteristica|
@@ -28,11 +28,11 @@ url: /it/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49817|Il testo non è allineato al centro con il carattere "Credit Suisse Type Light" durante il rendering in Emf|Insetto|
 |CELLSNET-49864|Parole che appaiono in ordine inverso per il testo da destra a sinistra nel rendering da XLSX a PDF|Insetto|
 |CELLSNET-49873|Xlsx in pdf: l'interruzione di pagina è diversa rispetto al pdf generato da Excel|Insetto|
-|CELLSNET-49922|I caratteri non si adattano a una pagina e la posizione di stampa viene modificata nel rendering da Excel a PDF|Insetto|
-|CELLSNET-49998|Impossibile visualizzare file XLS specifici con markup HTML|Insetto|
+|CELLSNET-49922|I caratteri non si adattano a una pagina e la posizione di stampa viene modificata in Excel per il rendering PDF|Insetto|
+|CELLSNET-49998|Impossibile visualizzare il file XLS specifico con markup HTML|Insetto|
 |CELLSNET-49742|Differenze in chart1.xml dopo il salvataggio|Insetto|
-|CELLSNET-49875|Segni di graduazione sovrapposti da XLSX a EMF|Insetto|
-|CELLSNET-49904|Dal grafico alle date PNG non convertite correttamente|Insetto|
+|CELLSNET-49875|XLSX a EMF segni di graduazione sovrapposti|Insetto|
+|CELLSNET-49904|Grafico a PNG date non convertite correttamente|Insetto|
 |CELLSNET-49905|Regressione: problema durante la conversione del grafico in PNG|Insetto|
 |CELLSNET-49969|Errore di overflow durante il salvataggio del documento XLS in XLSX/XSLM|Insetto|
 |CELLSNET-49760|L'area unita viene visualizzata in modo errato durante la conversione in html.|Insetto|
@@ -40,7 +40,7 @@ url: /it/net/aspose-cells-for-net-21-12-release-notes/
 |CELLSNET-49850|Immagine: il parametro FitToCell non funziona nei marcatori intelligenti dell'immagine|Insetto|
 |CELLSNET-49870|L'intestazione si allarga quando si combinano più fogli nei fogli di calcolo Excel|Insetto|
 |CELLSNET-49898|Mostra il bordo delle celle mentre adatta le immagini alle celle utilizzando i marcatori intelligenti|Insetto|
-|CELLSNET-49924|File XLSX generati da Aspose che si aprono con errore|Insetto|
+|CELLSNET-49924|File Aspose generati XLSX che si aprono con errore|Insetto|
 |CELLSNETCORE-301|L'aggiunta del foglio di lavoro non riesce quando il collegamento ipertestuale ha un indirizzo nullo|Insetto|
 |CELLSNET-49812|Eccezione quando si apre il file ODS|Eccezione|
 |CELLSNET-49876|Eccezione durante il nuovo salvataggio di un file XLSX|Eccezione|
@@ -48,9 +48,9 @@ url: /it/net/aspose-cells-for-net-21-12-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Ulteriori vincoli per l'aggiunta di aree per la convalida.**
 

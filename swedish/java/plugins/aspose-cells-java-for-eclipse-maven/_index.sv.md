@@ -10,7 +10,7 @@ Eclipse IDE är en berömd Java Integrated Development Environment (IDE). IDE ä
 
 Eclipse IDE kan utökas med ytterligare programvarukomponenter. Eclipse kallar dessa programvarukomponenter Plug-ins. Flera Open Source-projekt och företag har utökat Eclipse IDE eller skapat fristående applikationer (Eclipse RCP) ovanpå Eclipse-ramverket.
 ### **Aspose.Cells for Java**
-[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)är en prisbelönt Excel-kalkylbladskomponent som tillåter Java-utvecklare att bädda in möjligheten att läsa, skriva och manipulera Excel®-kalkylblad (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF och bild filformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
+[Aspose.Cells for Java ](http://goo.gl/gtvhlQ)is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image filformat till sina egna Java-applikationer utan att behöva förlita sig på Microsoft Excel®.
 
 [Aspose.Cells for Java](http://goo.gl/gtvhlQ)är en mogen, skalbar och funktionsrik komponent som erbjuder många funktioner som är långt utöver andra leverantörers enkla dataexporteringsmöjligheter. Med Aspose.Cells for Java kan utvecklare exportera data, formatera kalkylblad till den mest detaljerade nivån, importera bilder, skapa diagram, tillämpa och beräkna komplexa formler, strömma Excel®-data, spara i olika format och mycket mer - allt detta utan att behöva Microsoft Excel® eller Microsoft Office Automation.
 ### **Aspose.Cells Java för Eclipse (Maven)**

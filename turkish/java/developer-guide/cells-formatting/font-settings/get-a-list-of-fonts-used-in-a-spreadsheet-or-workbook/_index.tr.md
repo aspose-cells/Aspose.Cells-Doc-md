@@ -6,7 +6,7 @@ url: /tr/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
 ## **Olası Kullanım Senaryoları**
 
- İşleme amacıyla çalışma kitabınızda kullanılan yazı tiplerini bilmek genellikle gereklidir. Çalışma kitabınızı PDF'ye veya görüntüye dönüştürdüğünüzde, Aspose.Cells, gerekli tüm yazı tiplerinin sisteminizde yüklü olmasını veya bilgisayarınızda mevcut olmasını gerektirir.**yazı dizini**Aspose.Cells gerekli yazı tipini bulamazsa, onu sisteminizde veya yazı tipi dizininizde bulunan ve gerçek yazı tipinizi değiştirebilecek başka bir uygun yazı tipiyle değiştirmeye çalışır. Bu, yalnızca PDF veya görüntülerin istenmeyen şekilde oluşturulmasına neden olmakla kalmaz, aynı zamanda uygun yazı tiplerini bulmak için işlem süresini de alır.
+ İşleme amacıyla çalışma kitabınızda kullanılan yazı tiplerini bilmek genellikle gereklidir. Çalışma kitabınızı PDF veya görüntüye dönüştürdüğünüzde, Aspose.Cells, gerekli tüm yazı tiplerinin sisteminizde yüklü olmasını veya bilgisayarınızda mevcut olmasını gerektirir.**yazı dizini**Aspose.Cells gerekli yazı tipini bulamazsa, onu sisteminizde veya yazı tipi dizininizde bulunan ve gerçek yazı tipinizi değiştirebilecek başka bir uygun yazı tipiyle değiştirmeye çalışır. Bu sadece PDF veya resimlerin istenmeyen bir şekilde oluşturulmasına neden olmakla kalmaz, aynı zamanda uygun yazı tiplerini bulmak için işlem süresi alır.
 
 Bu tür durumlarla başa çıkabilmek için, çalışma kitabınızda hangi yazı tiplerinin kullanıldığını bilmeli, ardından Windows ortamında bu yazı tiplerini sisteminize yüklemeli veya Windows veya Linux ortamında yazı tipleri dizininize yerleştirmelisiniz.
 
@@ -14,9 +14,9 @@ Bu tür durumlarla başa çıkabilmek için, çalışma kitabınızda hangi yaz�
 
 ## **Elektronik Tablo veya Çalışma Kitabında kullanılan Yazı Tiplerinin Listesini Alın**
 
- Aşağıdaki örnek kod, kaynak excel dosyasını yükler ve içinde kullanılan yazı tiplerinin listesini alır. Gösterim amacıyla bazı sahte yazı tiplerinin eklendiği bir sahte çalışma sayfasına sahiptir. Kod, çalışma kitabının içindeki tüm yazı tiplerini yazdırdığında, bu sahte yazı tiplerini de yazdırır. Aşağıdaki ekran görüntüsü[örnek excel dosyası](sampleGetFonts.xlsx)ve sahte yazı tiplerinin nasıl listelendiği.
+Aşağıdaki örnek kod, kaynak excel dosyasını yükler ve içinde kullanılan yazı tiplerinin listesini alır. Gösterim amacıyla bazı sahte yazı tiplerinin eklendiği bir sahte çalışma sayfasına sahiptir. Kod, çalışma kitabının içindeki tüm yazı tiplerini yazdırdığında, bu sahte yazı tiplerini de yazdırır. Aşağıdaki ekran görüntüsü[örnek excel dosyası](sampleGetFonts.xlsx) ve sahte yazı tiplerinin nasıl listelendiği.
 
-![yapılacaklar:resim_alternatif_Metin](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
+![yapılacaklar:resim_alternatif_metin](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
 ## **Basit kod**
 

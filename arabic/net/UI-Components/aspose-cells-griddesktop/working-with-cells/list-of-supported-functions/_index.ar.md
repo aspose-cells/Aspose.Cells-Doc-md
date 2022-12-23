@@ -32,7 +32,7 @@ url: /ar/net/list-of-supported-functions/
 - البحث ، ثابت
 - يسار ، لين ، أقل
 - منتصف
-- مباراة
+- تطابق
 - استبدال ، REPT ، يمين
 - البحث والاستبدال
 - T ، TEXT ، TRIM
@@ -44,7 +44,7 @@ url: /ar/net/list-of-supported-functions/
 ### **وظائف التاريخ والوقت**
 - ساعة
 - دقيقة ، شهر
-- حاليا
+- الآن
 - ثانيا
 - الوقت اليوم
 - WEEKDAY
@@ -93,7 +93,7 @@ url: /ar/net/list-of-supported-functions/
 - ISREF
 - ن
 - غير متوفر
-- يكتب
+- اكتب
 - كونتبلانك
 - كبير
 - ماكسا
@@ -103,7 +103,7 @@ url: /ar/net/list-of-supported-functions/
 - النسبة المئوية
 - بيرسينترانك
 - مرتبة
-- يختار
+- أختر
 - هلوكوب
 - SMALL (مدعوم في Aspose.Cells.GridWeb فقط)
 

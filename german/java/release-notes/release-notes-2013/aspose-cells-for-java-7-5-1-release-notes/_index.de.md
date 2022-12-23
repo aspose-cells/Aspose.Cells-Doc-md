@@ -20,7 +20,7 @@ url: /de/java/aspose-cells-for-java-7-5-1-release-notes/
 
  40545 – Die Excel-Datei kann nicht geöffnet werden
 
- 40549 – Diagramm fehlt in der PDF-Ausgabe
+ 40549 - Diagramm fehlt in PDF-Ausgabe
 
  Fehler
 

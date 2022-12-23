@@ -25,7 +25,7 @@ url: /de/net/aspose-cells-for-net-4-9-0-release-notes/
 - Enthält ICustomTypeDesciptor als Datenquelle für intelligente Markierungen
 - Externe verknüpfte Quelldaten in der Diagramm-zu-Bild-Funktion werden unterstützt
 - MS Excel 2007 externe Seiteneinrichtungsoptionen in der XLS-Datei werden unterstützt
-- Gibt den HTML-Inhalt als Zellwert oder Kommentarnotiz an
+- Gibt den Inhalt HTML als Zellwert oder Kommentarnotiz an
 - 112 Fehlerbehebungen und andere Verbesserungen.
 
  (Hinweis: Die Klasse Aspose.Cells.Charts wurde in die Klasse Aspose.Cells.ChartCollection umbenannt.)
@@ -42,7 +42,7 @@ url: /de/net/aspose-cells-for-net-4-9-0-release-notes/
  Was hat sich in Aspose.Cells.GridDesktop geändert:
 
 - Stellt die Datumsformate „MM/TT/JJJJ“ und „M/T/JJJJ“ mit dem Dialogfeld „Format Cells“ ein
-- Importiert das CSV-Dateiformat
+- Importiert das Dateiformat CSV
 - Unterstützt Formeln: LOOKUP, MATCH
 - 3 Korrekturen und andere Verbesserungen.
 

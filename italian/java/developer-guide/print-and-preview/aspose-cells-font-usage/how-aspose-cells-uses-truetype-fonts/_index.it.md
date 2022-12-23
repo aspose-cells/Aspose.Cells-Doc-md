@@ -6,9 +6,9 @@ url: /it/java/how-aspose-cells-uses-truetype-fonts/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells richiede i caratteri TrueType durante il rendering di fogli di calcolo in formati come PDF, XPS e immagini.
+Aspose.Cells richiede caratteri TrueType durante il rendering di fogli di calcolo in formati quali PDF, XPS e immagini.
 
-Quando Aspose.Cells esegue il rendering di un foglio di calcolo, richiede l'accesso ai caratteri TrueType utilizzati nel foglio di calcolo. Questa è una pratica normale durante la generazione di PDF, XPS e immagini e garantisce che il documento o l'immagine convertiti appaia identico per qualsiasi visualizzatore.
+Quando Aspose.Cells esegue il rendering di un foglio di calcolo, richiede l'accesso ai caratteri TrueType utilizzati nel foglio di calcolo. Questa è una pratica normale durante PDF, XPS e la generazione di immagini e garantisce che il documento o l'immagine convertiti appaia identico per qualsiasi visualizzatore.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Aspose.Cells tenta di trovare automaticamente i font TrueType nel file system. L
 
 ### **Tipici problemi e soluzioni relativi ai caratteri**
 
-Questa tabella elenca alcuni dei problemi che potresti riscontrare durante il rendering di fogli di calcolo in PDF utilizzando Aspose.Cells e le relative soluzioni.
+Questa tabella elenca alcuni dei problemi che potresti riscontrare durante il rendering dei fogli di calcolo in PDF utilizzando Aspose.Cells e le relative soluzioni.
 
 {{% alert color="primary" %}}
 
@@ -41,7 +41,7 @@ Questa tabella elenca alcuni dei problemi che potresti riscontrare durante il re
 
 |**Problema** |**Motivo** |**Soluzione** |
 |:- |:- |:- |
-| Il layout e i caratteri nel documento renderizzato sono diversi dall'originale.| Stai utilizzando Aspose.Cells su Linux o Mac OS dove i font TureType non sono presenti per impostazione predefinita, quindi Aspose.Cells non può individuare i font sul tuo computer.|Copia i file di font TrueType da un computer Windows o installa un pacchetto di font TrueType. Utilizzare il metodo factory FontConfigs.setFontFolder per specificare la posizione dei file dei font.|
+| Il layout e i caratteri nel documento renderizzato sono diversi dall'originale.| Stai utilizzando Aspose.Cells su Linux o Mac OS dove i font TureType non sono presenti per impostazione predefinita, quindi Aspose.Cells non può individuare i font sul tuo computer.|Copia i file di font TrueType da una macchina Windows o installa un pacchetto di font TrueType. Utilizzare il metodo factory FontConfigs.setFontFolder per specificare la posizione dei file dei caratteri.|
 
 {{% alert color="primary" %}}
 

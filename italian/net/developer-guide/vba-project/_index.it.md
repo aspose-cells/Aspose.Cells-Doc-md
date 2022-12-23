@@ -13,7 +13,7 @@ description: Aggiungi modulo VBA e modifica VBA o macro con la libreria Aspose.C
 
 {{% /alert %}}
 
-Il seguente codice di esempio crea una nuova cartella di lavoro e aggiunge un nuovo modulo VBA e codice macro e salva l'output nel formato XLSM. Una volta, aprirai il file XLSM di output in Microsoft Excel e fai clic su**Sviluppatore > Visual Basic** comandi di menu, vedrai un modulo chiamato "TestModule" e al suo interno vedrai il seguente codice macro.
+Il seguente codice di esempio crea una nuova cartella di lavoro e aggiunge un nuovo modulo VBA e codice macro e salva l'output nel formato XLSM. Una volta, aprirai il file di output XLSM in Microsoft Excel e fai clic sul**Sviluppatore > Visual Basic** comandi di menu, vedrai un modulo chiamato "TestModule" e al suo interno vedrai il seguente codice macro.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-Ecco il codice di esempio per generare il file XLSM di output con il modulo VBA e il codice macro.
+Ecco il codice di esempio per generare il file di output XLSM con il modulo VBA e il codice macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

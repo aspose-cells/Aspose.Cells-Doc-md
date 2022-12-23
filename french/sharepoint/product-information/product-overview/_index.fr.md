@@ -15,21 +15,21 @@ Aspose.Cells for SharePoint est une solution flexible prenant en charge la conve
 Vous pouvez convertir plusieurs formats de documents, tels que :
 
 - PDF - Document portable Adobe
-- XLS-MS Excel 97~2003
+- XLS - MS Excel 97~2003
 - XLSX - Office XML ouvert
 - XLSM - Office Open XML pour les macros activé
 - TXT - Texte brut
-- XML - Microsoft Tableur ExcelML
+- XML - Microsoft Excel SpreadsheetML
 - ODS - Feuille de calcul OpenDocument
 - CSV - Valeurs séparées par des virgules
 - XLSB - Excel binaire 2007
-- MHTML - HTML d'extension de messagerie Internet polyvalente
+- MHTML - Extension de messagerie Internet polyvalente HTML
 - XPS - Spécification papier XML
-- TIFF - Format de fichier d'image balisé
+- TIFF - Format de fichier image balisé
 - SVG - Graphiques vectoriels évolutifs
-- DIF - Format d'échange de dessins
+- DIF - Format d'échange de dessin
 
-Aspose.Cells for SharePoint est conçu pour être utilisé avec les produits suivants :
+Aspose.Cells for SharePoint est conçu pour être utilisé avec les produits suivants :
 
 - Windows SharePoint Services 3.0 (WSS)
 - Microsoft Norme Office SharePoint Server 2007 (MOSS)
@@ -43,7 +43,7 @@ Aspose.Cells for SharePoint est conçu pour être utilisé avec les produits sui
 
 Il n'y a pas d'exigences système supplémentaires au-delà des produits ci-dessus.
 
- Cette documentation décrit les[Caractéristiques](/cells/fr/sharepoint/features/), [installation](/cells/fr/sharepoint/install-aspose-cells-for-sharepoint/), [évaluation](/cells/fr/sharepoint/evaluate-aspose-cells/), [licence](/cells/fr/sharepoint/license-aspose-cells-for-sharepoint/), cas d'utilisation courants et paramètres de Aspose.Cells for SharePoint.
+ Cette documentation décrit les[caractéristiques](/cells/fr/sharepoint/features/), [installation](/cells/fr/sharepoint/install-aspose-cells-for-sharepoint/), [évaluation](/cells/fr/sharepoint/evaluate-aspose-cells/), [licence](/cells/fr/sharepoint/license-aspose-cells-for-sharepoint/), cas d'utilisation courants et paramètres de Aspose.Cells for SharePoint.
 
 **Utilisez Aspose.Cells for SharePoint de la bibliothèque de documents de SharePoint pour convertir des documents**
 

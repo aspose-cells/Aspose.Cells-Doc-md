@@ -114,17 +114,17 @@ Aspose.Cells は、動的オブジェクトをデータソースとして操作�
 
 からデータをインポートするには*グリッドビュー*コントロール、呼び出し[**ImportGridView**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/importgridview)の方法[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)コレクション。
 
-Aspose.Cells を使用すると、データをスプレッドシートにインポートする際に HTML 形式の値を尊重できます。データのインポート中に HTML 解析が有効になっている場合、Aspose.Cells は HTML を対応するセル形式に変換します。
+Aspose.Cells を使用すると、データをスプレッドシートにインポートする際に HTML 形式の値を尊重できます。データのインポート中に HTML の解析が有効になっている場合、Aspose.Cells は HTML を対応するセルの書式設定に変換します。
 
 ## **HTML 形式のデータのインポート**
 
-Aspose.Cells は[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)外部データ ソースからデータをインポートするための非常に便利なメソッドを提供するクラスです。この記事では、データのインポート中に HTML 形式のテキストを解析し、HTML を形式設定されたセル値に変換する方法を示します。
+Aspose.Cells は[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)外部データ ソースからデータをインポートするための非常に便利なメソッドを提供するクラスです。この記事では、データのインポート中に HTML の書式設定されたテキストを解析し、HTML を書式設定されたセル値に変換する方法を示します。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportHtmlFormattedData-1.cs" >}}
 
 ## **JSON からのデータのインポート**
 
-Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) JSON を処理するためのクラス。[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスには[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)JSON データをインポートするメソッド。 Aspose.Cells も提供しています[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)JSON レイアウトのオプションを表すクラス。の[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)メソッドが受け入れる[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)パラメータとして。の[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスは、次のプロパティを提供します。
+Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility) JSON を処理するためのクラス。[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)クラスには[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)JSON データのインポート方法。 Aspose.Cells も提供しています[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)JSON レイアウトのオプションを表すクラス。の[**ImportData**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility/methods/importdata)メソッドが受け入れる[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)パラメータとして。の[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions)クラスは、次のプロパティを提供します。
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/arrayastable): 配列内をテーブルとして処理するかどうかを示します。
 - [**ConvertNumericOrDate**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/convertnumericordate): JSON の文字列を数値または日付に変換するかどうかを示す値を取得または設定します。
@@ -135,7 +135,7 @@ Aspose.Cells は[**Jsonユーティリティ**](https://reference.aspose.com/cel
 - [**NumberFormat**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/numberformat): 数値の形式を取得および設定します。
 - [**タイトルスタイル**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions/properties/titlestyle)タイトルのスタイルを取得および設定します。
 
-以下のサンプル コードは、[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)と[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) JSON データをインポートするためのクラス。
+以下のサンプル コードは、[**Jsonユーティリティ**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonutility)と[**JsonLayoutOptions**](https://reference.aspose.com/cells/net/aspose.cells.utility/jsonlayoutoptions) JSON データをインポートするクラス。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Importing-ImportingFromJson-1.cs" >}}
 

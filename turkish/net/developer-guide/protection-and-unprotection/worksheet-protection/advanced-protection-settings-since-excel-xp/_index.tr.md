@@ -10,7 +10,7 @@ Excel 2002 veya XP'nin piyasaya sürülmesinden bu yana Microsoft, birçok geli�
 
 {{% /alert %}}
 
-## **giriiş**
+## **Giriş**
 
 Bu koruma ayarları, kullanıcıların şunları yapmasına izin verir veya kısıtlar:
 
@@ -27,7 +27,7 @@ Aspose.Cells, Excel XP veya sonraki sürümleri tarafından sunulan tüm gelişm
 
 Excel XP'de bulunan koruma ayarlarını görüntülemek için:
 
-1.  itibaren**Aletler** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**. Bir diyalog görüntülenecektir.
+1.  itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**. Bir diyalog görüntülenecektir.
 
 Excel 2016'da bulunan koruma ayarlarını görüntülemek için
 
@@ -60,8 +60,8 @@ Kullanıcıların hücreleri düzenlemesini kısıtlamak istiyorsanız, herhangi
 
 |**Excel XP'de hücreleri kilitlemek için iletişim kutusu**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](advanced-protection-settings-since-excel-xp_1.png)|
+|![yapılacaklar:resim_alternatif_metin](advanced-protection-settings-since-excel-xp_1.png)|
 
-Aspose.Cells API kullanarak da hücreleri kilitlemek mümkündür. Her hücre alabilir[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Boole özelliği içeren biçimlendirme,[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Yı kur[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) mülkiyet**doğru** veya**yanlış** hücreyi kilitlemek veya kilidini açmak için
+Aspose.Cells API kullanarak da hücreleri kilitlemek mümkündür. Her hücre alabilir[**stil**](https://reference.aspose.com/cells/net/aspose.cells/style) Boole özelliği içeren biçimlendirme,[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . Yı kur[**Kilitli**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) mülkiyet**doğru** veya**YANLIŞ** hücreyi kilitlemek veya kilidini açmak için
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

@@ -245,7 +245,7 @@ m_workbook.Save("ODF1.1.ods", options)
 1. Sélectionnez la cellule contenant votre Sparkline.
 1.  Sélectionner**Modifier les données du Sparkline** section à l'intérieur du**Concevoir** languette
 1.  Choisir**Modifier l'emplacement et les données du groupe**.
-1. Spécifier**Plage de données** & **Emplacement**.
+1.  Spécifier**Plage de données** & **Lieu**.
 
  L'exemple de code suivant charge la feuille de calcul source, accède au premier groupe de graphiques sparkline et ajoute de nouvelles plages de données et de nouveaux emplacements pour le groupe de graphiques sparkline.
 

@@ -13,20 +13,20 @@ url: /es/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44954|El formato de fracciones dio un resultado con formato incorrecto|Mejora|
 |CELLSNET-44944|Realice el mecanismo de sustitución de fuentes según el comportamiento predeterminado de .NET|Mejora|
 |CELLSNET-44935|API no puede ubicar fuentes predeterminadas en Linux bajo Mono|Mejora|
-|CELLSNET-44899|Bajo rendimiento al calcular las fórmulas por segunda vez|Actuación|
-|CELLSNET-44967|Consideraciones de rendimiento para el método NameCollection.Remove|Actuación|
-|CELLSNET-44964|Aspose.Cells se cuelga cuando se usa CalculateFormula() en Workbook.|Actuación|
-|CELLSNET-44819|No se puede guardar el archivo fuente de Excel en HTML y se agota el tiempo de espera|Actuación|
+|CELLSNET-44899|Bajo rendimiento al calcular las fórmulas por segunda vez|Rendimiento|
+|CELLSNET-44967|Consideraciones de rendimiento para el método NameCollection.Remove|Rendimiento|
+|CELLSNET-44964|Aspose.Cells se cuelga cuando se usa CalculateFormula() en Workbook.|Rendimiento|
+|CELLSNET-44819|No se puede guardar el archivo Excel de origen en HTML y se agota el tiempo de espera|Rendimiento|
 |CELLSNET-44960|El formato de la tabla dinámica se pierde al convertir la hoja de cálculo al formato de archivo PDF|Insecto|
-|CELLSNET-44951|Los datos de fila se extravían al representar la hoja de cálculo en PDF después de actualizar la tabla dinámica|Insecto|
-|CELLSNET-44950|Cell falta el sombreado al representar la hoja de cálculo en PDF después de actualizar la tabla dinámica|Insecto|
+|CELLSNET-44951|Los datos de la fila se extravían al representar la hoja de cálculo en PDF después de actualizar la tabla dinámica|Insecto|
+|CELLSNET-44950|Falta el sombreado Cell al representar la hoja de cálculo en PDF después de actualizar la tabla dinámica|Insecto|
 |CELLSNET-44949|Faltan columnas en blanco al representar la hoja de cálculo en PDF después de actualizar la tabla dinámica|Insecto|
-|CELLSNET-44930|Falta una columna en la tabla dinámica después de actualizar y convertir a PDF|Insecto|
+|CELLSNET-44930|Falta la columna en la tabla dinámica después de actualizar y convertir a PDF|Insecto|
 |CELLSNET-44929|Faltan datos en la tabla dinámica después de actualizar y convertir a PDF|Insecto|
 |CELLSNET-44908|La hoja de cálculo que contiene segmentaciones se corrompe después de una simple operación de volver a guardar|Insecto|
 |CELLSNET-44206|Llamar a RefreshData en la tabla dinámica corrompe la hoja de cálculo resultante|Insecto|
-|CELLSNET-44184|La actualización de tablas dinámicas y gráficos genera un archivo XLSX corrupto|Insecto|
-|CELLSNET-44974|Cell el sombreado está desordenado al actualizar la tabla dinámica y renderizar a PDF|Insecto|
+|CELLSNET-44184|La actualización de tablas dinámicas y gráficos genera un archivo corrupto XLSX|Insecto|
+|CELLSNET-44974|El sombreado Cell está desordenado al actualizar la tabla dinámica y renderizar a PDF|Insecto|
 |CELLSNET-44972|Cell Se aplicó sombreado a la celda incorrecta al actualizar la tabla dinámica y renderizar a PDF|Insecto|
 |CELLSNET-44963|Guardar en PDF crea bordes adicionales para las filas|Insecto|
 |CELLSNET-44927|Tipo de datos considerado como DateTime si el formato personalizado contiene Magenta|Insecto|
@@ -38,14 +38,14 @@ url: /es/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44933|Exportación de gráficos de Excel a SVG|Insecto|
 |CELLSNET-44914|El margen en el lado derecho es más grande que en MS Excel cuando se imprime o se guarda como PDF|Insecto|
 |CELLSNET-44931|Guardar en PDF crea una página en blanco adicional.|Insecto|
-|CELLSNET-44926|La imagen PNG del gráfico no coincide con el gráfico de MS-Excel|Insecto|
+|CELLSNET-44926|PNG la imagen del gráfico no coincide con el gráfico de MS-Excel|Insecto|
 |CELLSNET-44912|El tiempo utilizado para convertir XLS a XLSX es alto|Insecto|
-|CELLSNET-44905|La exportación de PDF muestra 0 en gráficos de pila|Insecto|
-|CELLSNET-44902|Problema con la serie de datos del gráfico en la representación de Excel a PDF|Insecto|
+|CELLSNET-44905|PDF exportar muestra 0 en gráficos de pila|Insecto|
+|CELLSNET-44902|Problema con la serie de datos del gráfico en Excel para la representación PDF|Insecto|
 |CELLSNET-44897|La imagen del gráfico con título Vida no es correcta|Insecto|
 |CELLSNET-44890|Valor y porcentaje de la etiqueta de datos de la serie que muestran VALOR y PORCENTAJE después de volver a guardar|Insecto|
-|CELLSNET-44883|El eje X (tabla de datos) no es el mismo en el archivo PDF renderizado|Insecto|
-|CELLSNET-44833|Representación incorrecta de líneas al convertir una hoja de cálculo a PDF|Insecto|
+|CELLSNET-44883|El eje X (Tabla de datos) no es el mismo en el archivo renderizado PDF|Insecto|
+|CELLSNET-44833|Representación incorrecta de líneas al convertir la hoja de cálculo a PDF|Insecto|
 |CELLSNET-44831|API muestra una leyenda adicional con SheetRender cuando ImageOrPrintOptions.OnlyArea se establece en falso|Insecto|
 |CELLSNET-44803|Falta la parte apilada de datos del gráfico en el gráfico de salida después de usar el método Chart.Calculate()|Insecto|
 |CELLSNET-44979|Aspose está habilitando la opción de división en los paneles congelados mientras lo guarda en formato XLSB|Insecto|
@@ -67,7 +67,7 @@ url: /es/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44734|El área visible de GridWeb cambia cuando se deja la celda con TAB o la tecla Intro|Insecto|
 |CELLSNET-44907|CellsException debido a un salto de línea dentro de la celda que abarca varias filas|Excepción|
 |CELLSNET-44893|Aspose.Cell ArithmeticException al llamar a Chart.ToImage a través de una DLL de C++ compatible con CLR|Excepción|
-|CELLSNET-44876|CellsException: error de forma a imagen, al convertir una hoja de cálculo a PDF|Excepción|
+|CELLSNET-44876|CellsException: error de forma a imagen, al convertir la hoja de cálculo a PDF|Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for .NET. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega las propiedades BuiltInDocumentPropertyCollection.ScaleCrop y BuiltInDocumentPropertyCollection.LinksUpToDate.**

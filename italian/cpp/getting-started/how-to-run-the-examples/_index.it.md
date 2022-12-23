@@ -13,7 +13,7 @@ Assicurati di soddisfare i seguenti requisiti prima di scaricare ed eseguire gli
 
 -  Puoi clonare il repository utilizzando il tuo client GitHub preferito o scaricare il file ZIP da[qui](https://github.com/aspose-cells/Aspose.Cells-for-C/archive/master.zip).
 -  Estrai il contenuto del file ZIP in qualsiasi cartella sul tuo computer. Tutti gli esempi si trovano in**Esempi** cartella.
-- Apri il file della soluzione in Visual Studio e crea il progetto.
+- Apri il file della soluzione in Visual Studio e compila il progetto.
 - **Dati** folder nella cartella principale di**Esempi** contiene file di input. E' obbligatorio scaricare il**Dati** cartella insieme al progetto di esempio.
 - Apri main.cpp, tutti gli esempi vengono richiamati da qui.
 - Rimuovere il commento dagli esempi che si desidera eseguire dall'interno del progetto.

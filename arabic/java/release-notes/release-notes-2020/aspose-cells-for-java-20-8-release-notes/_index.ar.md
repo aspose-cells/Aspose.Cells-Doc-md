@@ -12,12 +12,12 @@ url: /ar/java/aspose-cells-for-java-20-8-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-43242|تم العثور على علامة نمط خارج علامة الرأس|حشرة|
-|CELLSJAVA-43157|لا يتم الاحتفاظ بلون سلسلة البيانات المخصصة عند إنشاء مخطط انحداري|حشرة|
-|CELLSJAVA-43240|فواصل الأسطر غير المقصودة في الأشكال / الكائنات عند تحويل Excel إلى PDF|حشرة|
-|CELLSJAVA-43255|مشكلة في الأداء على تحويل Excel إلى PDF|حشرة|
-|CELLSJAVA-43250|لا يتم دمج خلايا التسمية الموسعة في SmartMarker|حشرة|
-|CELLSJAVA-43253|يؤدي حفظ الملف باستخدام OoxmlSaveOptions بعد استبدال النص في SmartArt إلى تحويل XLS إلى XLSX|حشرة|
+|CELLSJAVA-43242|تم العثور على علامة نمط خارج علامة الرأس|خلل برمجي|
+|CELLSJAVA-43157|لا يتم الاحتفاظ بلون سلسلة البيانات المخصصة عند إنشاء مخطط انحداري|خلل برمجي|
+|CELLSJAVA-43240|فواصل الأسطر غير المقصودة في الأشكال / الكائنات عند تحويل Excel إلى PDF|خلل برمجي|
+|CELLSJAVA-43255|مشكلة في الأداء في Excel لتحويل PDF|خلل برمجي|
+|CELLSJAVA-43250|لا يتم دمج خلايا التسمية الموسعة في SmartMarker|خلل برمجي|
+|CELLSJAVA-43253|يؤدي حفظ الملف باستخدام OoxmlSaveOptions بعد استبدال النص في SmartArt إلى تحويل XLS إلى XLSX|خلل برمجي|
 CELLSJAVA-43170 | CellsException على طريقة calculateFormula | استثناء |
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**
@@ -30,19 +30,19 @@ CELLSJAVA-43170 | CellsException على طريقة calculateFormula | استثن
 
 ### **وضع علامة CalculationOptions.CustomFunction على أنه خاصية قديمة.**
 
- يرجى استخدام**الخلاصةحساب المحرك** بدلاً من**وظيفة ICustom** بواسطة CalculationOptions.CustomEngine property.
+ الرجاء استخدام**الخلاصةحساب المحرك** بدلاً من**وظيفة ICustom** بواسطة CalculationOptions.CustomEngine property.
 
 ### **مصنف العلامات.**
 
- يرجى استخدام**Workbook.CalculateFormula (خيارات الحساب)** في حين أن.
+ الرجاء استخدام**Workbook.CalculateFormula (خيارات الحساب)** بدلاً من.
 
 ### **وضع علامات على ورقة العمل .CalculateFormula (منطقي ، منطقي ، وظيفة ICustomFunction) عفا عليها الزمن.**
 
- يرجى استخدام**Worksheet.CalculateFormula (CalculationOptions، Bool)** طريقة بدلا من ذلك.
+ الرجاء استخدام**Worksheet.CalculateFormula (CalculationOptions، Bool)** طريقة بدلا من ذلك.
 
 ### **علامات Cell.حسب (منطقي ، وظيفة ICustomFunction) على أنها قديمة.**
 
- يرجى استخدام**Cell.حساب (خيارات الحساب)** طريقة بدلا من ذلك.
+ الرجاء استخدام**Cell.حساب (خيارات الحساب)** طريقة بدلا من ذلك.
 
 ### **يضيف فئة DocxSaveOptions و SaveFormat.Docx enum**
 

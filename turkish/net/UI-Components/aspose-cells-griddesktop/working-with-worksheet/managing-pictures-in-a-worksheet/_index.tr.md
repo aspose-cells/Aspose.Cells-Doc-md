@@ -14,9 +14,9 @@ Aspose.Cells.GridDesktop kullanarak bir hücreye köprü eklemek için lütfen a
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Resim** resmin dosya yolunu ve resmin ekleneceği hücre adını belirterek çalışma sayfasına
+-  Eklemek**Resim** resmin dosya yolunu ve resmin ekleneceği hücre adını belirterek çalışma sayfasına
 
-**resimler** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Ekle** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Ekle** özel ihtiyaçlarına göre yöntem. Bu aşırı yüklenmiş sürümlerini kullanarak**Ekle** yöntemiyle, dosyadan, akıştan veya**resim** nesne.
+**resimler** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Eklemek** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Eklemek** özel ihtiyaçlarına göre yöntem. Bu aşırı yüklenmiş sürümlerini kullanarak**Eklemek** yöntemiyle, dosyadan, akıştan veya**resim** nesne.
 
 Çalışma sayfalarına resim eklemek için örnek kod aşağıdadır.
 

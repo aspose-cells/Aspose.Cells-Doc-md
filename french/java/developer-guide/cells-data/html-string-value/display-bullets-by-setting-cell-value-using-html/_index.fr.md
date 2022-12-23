@@ -1,5 +1,5 @@
 ﻿---
-title: Afficher les puces en définissant la valeur Cell en utilisant HTML
+title: Afficher les puces en définissant la valeur Cell à l'aide de HTML
 type: docs
 weight: 120
 url: /fr/java/display-bullets-by-setting-cell-value-using/
@@ -8,11 +8,11 @@ keywords: add bullets in excel, add bullets in excel java, display bullets in ex
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells prend désormais en charge l'affichage des puces avec du code HTML. Cet article explique comment afficher les puces en définissant la valeur de la cellule à l'aide de HTML. Nous utiliserons[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) propriété pour définir la valeur de la cellule avec notre code HTML.
+ Aspose.Cells prend désormais en charge l'affichage des puces avec le code HTML. Cet article explique comment afficher les puces en définissant la valeur de la cellule à l'aide de HTML. Nous utiliserons[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) propriété pour définir la valeur de la cellule avec notre HTML.
 
 {{% /alert %}}
 
-## **Afficher les puces en définissant la valeur Cell en utilisant HTML**
+## **Afficher les puces en définissant la valeur Cell à l'aide de HTML**
 
 Le code suivant utilise le code HTML pour définir la valeur de la cellule. Une fois que vous exécuterez ce code, vous obtiendrez la sortie comme indiqué dans l'image ci-dessous.
 
@@ -26,4 +26,4 @@ La capture d'écran suivante montre la sortie de l'exemple de code ci-dessus.
 
 ## Articles Liés
 
-- [Ajout de texte enrichi HTML dans le Cell](/cells/fr/java/adding-html-rich-text-inside-the-cell/)
+- [Ajout de texte enrichi HTML à l'intérieur du Cell](/cells/fr/java/adding-html-rich-text-inside-the-cell/)

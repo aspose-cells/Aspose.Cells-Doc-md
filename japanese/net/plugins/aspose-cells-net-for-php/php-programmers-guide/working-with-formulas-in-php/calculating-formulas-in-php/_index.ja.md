@@ -7,7 +7,7 @@ url: /ja/net/calculating-formulas-in-php/
 ## **数式の計算**
 数式の計算
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

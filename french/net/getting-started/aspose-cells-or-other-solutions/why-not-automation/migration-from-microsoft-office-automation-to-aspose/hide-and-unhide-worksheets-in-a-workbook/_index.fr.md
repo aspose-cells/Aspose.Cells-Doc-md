@@ -27,7 +27,7 @@ Les étapes pour masquer une feuille de calcul sont :
 
  Les exemples de code ci-dessous montrent d'abord comment masquer une feuille de calcul. Les premiers échantillons montrent le processus avec[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) , en utilisant C# ou Visual Basic, par rapport à l'utilisation[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/), en utilisant à nouveau C# ou Visual Basics.
 
- Le deuxième ensemble d'exemples de code montre la ligne utilisée pour afficher la feuille de calcul dans[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) ou[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/).
+ Le deuxième ensemble d'exemples de code montre la ligne utilisée pour afficher la feuille de calcul dans[VSTO](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/) ou alors[Aspose.Cells](/cells/fr/net/hide-and-unhide-worksheets-in-a-workbook/).
 
 ## **Masquer des feuilles de calcul**
 

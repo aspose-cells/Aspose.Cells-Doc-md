@@ -16,7 +16,7 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 **Controllo della visibilità dei fogli di lavoro:**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel.[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection)che consente di accedere a ciascun foglio di lavoro nel file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel.[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) che consente di accedere a ciascun foglio di lavoro nel file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class fornisce un'ampia gamma di proprietà e metodi per gestire un foglio di lavoro. Tuttavia, per controllare la visibilità di un foglio di lavoro, gli sviluppatori possono utilizzare[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsVisible) metodo del[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe.
 
@@ -44,7 +44,7 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 **Foglio di lavoro - Dopo aver eseguito il codice di esempio:**
 
-**Libro1.xls** il file viene aperto utilizzando il file[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe e poi il primo foglio di lavoro del**Libro1.xls** il file viene nascosto. Il file modificato viene salvato come**uscita.xls**file la cui vista pittorica è mostrata di seguito:
+**Libro1.xls** il file viene aperto utilizzando il file[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe e poi il primo foglio di lavoro del**Libro1.xls** il file viene nascosto. Il file modificato viene salvato come**uscita.xls** file la cui vista pittorica è mostrata di seguito:
 
 ![cose da fare:immagine_alt_testo](show-and-hide-elements_2.png)
 
@@ -56,12 +56,12 @@ Aspose.Cells consente all'utente di mostrare e nascondere elementi di una cartel
 
 ## **Mostra o nascondi le schede**
 
-Se osservi attentamente la parte inferiore di un file Microsoft Excel, vedrai una serie di controlli. Questi includono:
+Se osservi attentamente la parte inferiore di un file Excel Microsoft, vedrai una serie di controlli. Questi includono:
 
 - Schede dei fogli.
 - Pulsanti di scorrimento delle schede.
 
-Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Pertanto, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
+Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su qualsiasi scheda per passare a quel foglio di lavoro. Maggiore è il numero di fogli di lavoro nella cartella di lavoro, maggiore sarà il numero di schede dei fogli. Se il file Excel ha un buon numero di fogli di lavoro, hai bisogno di pulsanti per navigare attraverso di essi. Quindi, Microsoft Excel fornisce pulsanti di scorrimento delle schede per scorrere le schede del foglio.
 
 **Schede dei fogli e pulsanti di scorrimento delle schede**
 
@@ -70,11 +70,11 @@ Le schede dei fogli rappresentano i fogli di lavoro nel file Excel. Fare clic su
 Utilizzando Aspose.Cells, gli sviluppatori possono controllare la visibilità delle schede dei fogli e dei pulsanti di scorrimento delle schede nei file Excel.
 
 **Controllo della visibilità delle schede:**
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel.
 
 ### **Nascondere le schede**
 
- Nascondere le schede in un file Excel impostando il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe'[**getSettings().setShowTabs(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) metodo.
+ Nascondere le schede in un file Excel impostando il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) classe'[**getSettings().setShowTabs(falso)**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#ShowTabs) metodo.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HideTabs-1.java" >}}
 
@@ -106,19 +106,19 @@ Tutti i fogli di lavoro in un file Excel sono composti da celle disposte in righ
 
 **Controllo della visibilità dei fogli di lavoro:**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook), che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro in un file Excel.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. La classe Worksheet fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per controllare la visibilità delle intestazioni di righe e colonne, utilizzare la classe Foglio di lavoro'[**setRowColumnHeadersVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo.
 
 ### **Nascondere le intestazioni di riga/colonna**
 
- Nascondi le intestazioni di righe e colonne utilizzando il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo.
+ Nascondi le intestazioni di righe e colonne utilizzando il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(falso)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo.
 
 ### **Rendere visibili le intestazioni di riga/colonna**
 
  Rendi visibili le intestazioni di righe e colonne utilizzando il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(true)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo.
 
- Di seguito viene fornito un esempio completo che dimostra come utilizzare il file[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(false)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo per nascondere le intestazioni di riga e colonna del primo foglio di lavoro di un file Excel.
+ Di seguito viene fornito un esempio completo che dimostra come utilizzare il file[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setRowColumnHeadersVisible(falso)**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsRowColumnHeadersVisible) metodo per nascondere le intestazioni di riga e colonna del primo foglio di lavoro di un file Excel.
 
 Lo screenshot seguente mostra che Book1.xls contiene tre fogli di lavoro: Sheet1, Sheet2 e Sheet3. Ogni foglio di lavoro mostra le intestazioni di riga e colonna.
 
@@ -173,13 +173,13 @@ Lo screenshot seguente mostra il file Book1.xls contenente entrambe le barre di 
 
 ## **Mostra e nascondi le linee della griglia**
 
-Tutti i fogli di lavoro di Microsoft Excel hanno una griglia per impostazione predefinita. Aiutano a delineare le celle, in modo che sia facile inserire dati in celle particolari. Le linee della griglia ci consentono di visualizzare un foglio di lavoro come una raccolta di celle, in cui ogni cella è facilmente identificabile.
+Tutti i fogli di lavoro Excel Microsoft hanno una griglia per impostazione predefinita. Aiutano a delineare le celle, in modo che sia facile inserire dati in celle particolari. Le linee della griglia ci consentono di visualizzare un foglio di lavoro come una raccolta di celle, in cui ogni cella è facilmente identificabile.
 
 Aspose.Cells consente inoltre di controllare la visibilità delle linee della griglia.
 
 ### **Controllo della visibilità delle linee della griglia**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) che consente l'accesso a ciascun foglio di lavoro nel file.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) che consente l'accesso a ciascun foglio di lavoro nel file.
 
  Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) fornisce un'ampia gamma di proprietà e metodi per la gestione dei fogli di lavoro. Per controllare la visibilità delle linee della griglia, utilizzare il file[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe'[**setGridlinesVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsGridlinesVisible) metodo.
 

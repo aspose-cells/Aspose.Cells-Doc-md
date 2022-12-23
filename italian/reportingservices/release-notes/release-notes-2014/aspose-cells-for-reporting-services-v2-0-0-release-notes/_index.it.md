@@ -37,7 +37,7 @@ Aspose.Cells for Reporting Services Ottimizzazione Report Designer.
 - ` `(SSRS-40131) La larghezza delle colonne non è racchiusa nei casi per il renderer Aspose Solo dati
 - ` `(SSRS-40130) Problemi di formattazione della valuta
 - ` `(SSRS-40129) L'interruzione di pagina condizionale non funziona nei renderer Aspose
-- ` `(SSRS-40128) Esportazione SSRS in XLSX che riduce le intestazioni di colonna
+- ` `(SSRS-40128) Esporta SSRS in XLSX riducendo le intestazioni di colonna
 - ` `(SSRS-40127) Aspose Uscita report solo dati - Pagina2 non controllata tramite la configurazione per l'intestazione del report
 - ` `(SSRS-40126) L'output della prima colonna del report viene unito in due colonne Excel
 - ` `(SSRS-40125) Problemi di formattazione della valuta con Excel ed Excel solo dati

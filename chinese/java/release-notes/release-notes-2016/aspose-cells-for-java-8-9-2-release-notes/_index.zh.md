@@ -11,20 +11,20 @@ url: /zh/java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-41925|最近的 API 修订版增加了计算时间|新功能|
 |CELLSJAVA-40958|需要用户可配置的字体替换机制|新功能|
 |CELLSJAVA-41936|源 Excel 文件的 Workbook.calculateFormula() 方法永远不会终止|强化|
-|CELLSJAVA-41928|使用 IStreamProvider 将电子表格呈现为 HTML 时无法捕获图像资源|漏洞|
-|CELLSJAVA-41841|将复选框呈现为 HTML 的问题|漏洞|
+|CELLSJAVA-41928|使用 IStreamProvider 将电子表格渲染到 HTML 时无法捕获图像资源|漏洞|
+|CELLSJAVA-41841|将复选框呈现为 HTML 时出现问题|漏洞|
 |CELLSJAVA-41932|日期格式值的 getDisplayStringValue() 问题|漏洞|
-|CELLSJAVA-41930|使用 Light Cells API 处理 XLS 文件，始终处理第一张工作表的第一个单元格|漏洞|
+|CELLSJAVA-41930|使用 Light Cells API 处理一个 XLS 文件，第一个工作表的第一个单元格总是被处理|漏洞|
 |CELLSJAVA-41931|将电子表格呈现为 PDF 时，垂直文本的字符间距和分隔符不正确|漏洞|
 |CELLSJAVA-41709|CentOS 上的列宽与 Windows 上的不同|漏洞|
 |CELLSJAVA-41933|将电子表格呈现为 PDF 时图表比例发生了变化|漏洞|
-|CELLSJAVA-41934|将 Excel 文件渲染为 PDF 时出现对齐问题|漏洞|
-|CELLSJAVA-41935|将电子表格呈现为 PDF 时，图例条目的格式受到干扰|漏洞|
+|CELLSJAVA-41934|将 Excel 文件渲染到 PDF 时出现对齐问题|漏洞|
+|CELLSJAVA-41935|在将电子表格呈现为 PDF 时，图例条目的格式受到干扰|漏洞|
 |CELLSJAVA-41943|横轴标签没有完全渲染，即；所有标签都缺少渲染图像中的某些内容。|漏洞|
 |CELLSJAVA-41940|公式计算和保存后文件损坏|漏洞|
 |CELLSJAVA-41952|计算结果不正确|漏洞|
 |CELLSJAVA-41941|数组公式计算不正确|漏洞|
-|CELLSJAVA-41937|输出 HTML 中缺少 Excel 文件中的某些值 - XLS 到 HTML 的转换|漏洞|
+|CELLSJAVA-41937|输出 HTML - XLS 到 HTML 的转换中缺少 Excel 文件中的某些值|漏洞|
 |CELLSJAVA-41927|异常：保存为 HTML 文件格式时出现“java.lang.OutOfMemoryError”|例外|
 |CELLSJAVA-41945|CellsException：计算 TREND 函数时在 Workbook.CalculateFormula 处计算 Cell[0Sheet1!E5] 时出错|例外|
 |CELLSJAVA-41946|打开 excel 文件导致 java.lang.NumberFormatException：对于输入字符串：“80000020”|例外|

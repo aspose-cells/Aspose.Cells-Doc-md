@@ -5,7 +5,7 @@ weight: 40
 url: /fr/java/converting-to-mhtml-files-in-php/
 ---
 ## **Aspose.Cells - Conversion en fichiers MHTML**
-Pour convertir une feuille de calcul en fichier MHTML à l'aide de Aspose.Cells for Java en PHP, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
+Pour convertir la feuille de calcul en fichier MHTML à l'aide de Aspose.Cells for Java en PHP, appelez simplement la feuille de calcul_à_méthode mhtml() du module Convertisseur.
 
 **Code PHP**
 

@@ -10,7 +10,7 @@ Aspose.Cells 可用于将 ConsolidationFunction 应用于数据透视表的数�
 
 Aspose.Cells提供[**整合功能**](https://reference.aspose.com/cells/net/aspose.cells/consolidationfunction)支持以下合并功能的枚举。
 
-- 整合函数.平均
+- 合并函数.平均
 - ConsolidationFunction.Count
 - ConsolidationFunction.CountNums 函数
 - ConsolidationFunction.DistinctCount
@@ -25,7 +25,7 @@ Aspose.Cells提供[**整合功能**](https://reference.aspose.com/cells/net/aspo
 
 ### **将 ConsolidationFunction 应用于数据透视表的数据字段**
 
-以下代码适用**平均**合并功能到第一个数据字段（或值字段）和**非重复计数**合并功能到第二个数据字段（或值字段）。
+以下代码适用**平均的**合并功能到第一个数据字段（或值字段）和**非重复计数**合并功能到第二个数据字段（或值字段）。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-ConsolidationFunctions-1.cs" >}}
 

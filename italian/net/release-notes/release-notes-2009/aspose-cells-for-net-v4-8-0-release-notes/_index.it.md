@@ -42,23 +42,23 @@ url: /it/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v4.8.0.0
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |8741 | Grafico2Immagine| Problemi con Chart2Image|
 |8749 | Grafico2Immagine| Grafici non visualizzati in Excel PDF|
 |9712 | Grafico2Immagine| Supporta la forma raggruppata all'immagine|
 |9766 | Grafico2Immagine| Ottenere zero valori|
-|8738 | CSV| Caricamento di un file csv non riuscito|
-|8737 | CSV| L'apertura del file csv sembra scrivere sulla console|
-|8984 | HTML| Prestazioni lente durante il salvataggio della cartella di lavoro come HTML|
+|8738 |CSV | Caricamento di un file csv non riuscito|
+|8737 |CSV | L'apertura del file csv sembra scrivere sulla console|
+|8984 |HTML | Prestazioni lente durante il salvataggio della cartella di lavoro come HTML|
 |7915 | PDF| Il problema della conversione delle celle in pdf|
 |8669 | PDF| Problema di conversione da Excel a PDF|
 |8672 | PDF| Differenza nell'output durante la generazione di file Excel in file Pdf|
-|8678 | PDF| Cells In PDF, l'immagine a piè di pagina è sfocata|
+|8678 | PDF| Da Cells a PDF, l'immagine a piè di pagina è sfocata|
 |8749 | PDF| Grafici non visualizzati in Excel PDF|
-|8986 | PDF| Conversione da Excel a PDF|
-|8988 | PDF|salvare la cartella di lavoro come PDF rotto|
-|9608 | PDF| Problema di conversione XLS (lunghezza negativa?)|
+|8986 | PDF|Conversione da Excel a PDF|
+|8988 | PDF| salvataggio della cartella di lavoro come PDF rotto|
+|9608 | PDF| XLS problema di conversione (lunghezza negativa?)|
 |9609 | PDF| Salva in FileFormatType.Pdf con implementazione multithread|
 |9670 | PDF| Excel2PDF con problema di forma raggruppata|
 |9761 | PDF| Errore durante il salvataggio come Aspose.Pdf.xml|
@@ -77,9 +77,9 @@ url: /it/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | SpreadML| Un errore di apertura e salvataggio del file|
 |9610 | SpreadML| Le colonne nascoste perdono le informazioni sulla larghezza|
 |7916 | XL| Aggiorna Blocca riquadri durante l'inserimento/eliminazione di righe/colonne|
-|8588 | XL| Problema con il calcolo delle formule di matrice|
+|8588 | XL|Problema con il calcolo delle formule di matrice|
 |8590 | XL| Copiare fogli|
-|8604 | XL|Problema con la copia delle righe.|
+|8604 | XL| Problema con la copia delle righe.|
 |8668 | XL| Problema con il gruppo di marcatori intelligenti con unione|
 |8673 | XL| Bug con SOMMA.SE e formula di calcolo|
 |8676 | XL| Etichette dati del grafico a torta|
@@ -100,9 +100,9 @@ url: /it/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | XL| Prestazioni AutoFitColumns estremamente lente|
 |9266 | XL| La formula non è calcolata|
 |9267 | XL| Elenco a discesa Convalida condizionale|
-|9293 | XL| CalculateFormula non calcolerà|
+|9293 | XL|CalculateFormula non calcolerà|
 |9488 | XL| Il problema dell'apertura del file xls.|
-|9501 | XL|DeleteRows non elimina le immagini incorporate|
+|9501 | XL| DeleteRows non elimina le immagini incorporate|
 |9545 | XL| SetDataSource() genera un errore|
 |9546 | XL| Colore errato dei numeri|
 |9672 | XL| Calcola l'errore della funzione di ricerca|
@@ -122,9 +122,9 @@ url: /it/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | XL| Righe subtotale marcatore intelligente - Formula dinamica testo statico|
 |10153 | XL| AutoFitRows() quando la colonna è nascosta|
 |10158 | XL| Ottenere grafico per nome|
-|8587 | XL| Ordina immagini / forme|
+|8587 | XL|Ordina immagini / forme|
 |9062 | XL| ExportDataTable Problemi di overflow/underflow|
-|9707 | XL|Area di stampa non aggiornata durante l'eliminazione di colonne/righe|
+|9707 | XL| Area di stampa non aggiornata durante l'eliminazione di colonne/righe|
 |10038 | XL| SubTotale - SummaryBelowData|
 |10041 | XL| Trova la stringa con distinzione tra maiuscole e minuscole.|
 |8419 | Xlsx| Impossibile leggere il file xlsx|

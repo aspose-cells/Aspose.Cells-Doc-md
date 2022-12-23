@@ -14,19 +14,19 @@ url: /es/net/aspose-cells-for-net-22-2-release-notes/
 |:- |:- |:- |
 |CELLSNET-50332| Extraiga todas las NameCollections de una hoja de trabajo en particular|
 |CELLSNET-50353|Agregue la propiedad StandardHeightInch en la clase Cells|
-|CELLSNET-50152| Varios formatos y otros problemas de representación de formas en archivos PDF y HTML de Excel|
-|CELLSNET-50300|Algunas formas no se representan correctamente en la conversión de Excel a PDF|
+|CELLSNET-50152| Varios formatos y otros problemas de representación de formas en PDF y HTML del archivo de Excel|
+|CELLSNET-50300|Algunas formas no se representan correctamente en Excel para la conversión PDF|
 |CELLSNET-50301|Valor no válido para referencia externa en el campo Fuente de datos de la tabla dinámica|
-|CELLSNET-50241|Regresión: la conversión de CSV a PDF no funciona|
+|CELLSNET-50241|Regresión: CSV a PDF la conversión no funciona|
 |CELLSNET-50268|Matriz CellsArea vacía devuelta para archivos CSV/TSV|
-|CELLSNET-50269|Idioma finlandés: a los números con formato de porcentaje les falta el espacio antes del símbolo de porcentaje|
+|CELLSNET-50269|Idioma finlandés - Numbers con formato de Porcentaje falta el espacio antes del símbolo de porcentaje|
 |CELLSNET-50333|Aspose.cell no se pudieron recopilar los registros de revisión del libro de trabajo|
-|CELLSNET-50239|Falta una página después de convertir un archivo de Excel a PDF|
+|CELLSNET-50239|Falta la página después de la conversión de un archivo de Excel a PDF|
 |CELLSNET-50255|Cell el tipo es incorrecto después de exportar a html y volver a cargar el html exportado|
 |CELLSNET-50266|Problema de seguridad de subprocesos Chart.ToImage()|
 |CELLSNET-50302|Regresión: la conversión a números HTML no se representa correctamente|
 |CELLSNET-50328|Cell el fondo se vuelve negro después de convertir a pdf|
-|CELLSNET-50225|La leyenda del gráfico se revierte al guardar Excel en PDF|
+|CELLSNET-50225| La leyenda del gráfico se revierte al guardar Excel en PDF|
 |CELLSNET-50247|Al insertar filas en la hoja, las series de los gráficos pierden sus XVvalores|
 |CELLSNET-50295|Chart.SetChartDataRange(area, false) no reconoce las celdas combinadas|
 |CELLSNET-50308|Rango a PNG: la salida no es la esperada|
@@ -38,7 +38,7 @@ url: /es/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50270|Cadena de entrada no tiene el formato correcto. excepción al abrir el archivo XLS|
 |CELLSNET-50271|El formato de este archivo no es compatible o no especifica un formato correcto. excepción al abrir el archivo XLS|
 |CELLSNET-50293|ExportXml con XML Map lanza "NullReferenceException" para otro archivo complejo|
-|CELLSNET-50352|NullReferenceException al convertir un archivo XLSM a XLS|
+|CELLSNET-50352|NullReferenceException al convertir el archivo XLSM a XLS|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

@@ -34,13 +34,13 @@ Tous les composants Aspose, une fois installés, fonctionnent en mode d'évaluat
 
 ### **Créer un projet**
 
-Commencer**Visual Studio.Net** et créer une nouvelle application console. Cet exemple montre une application console C#, mais vous pouvez également utiliser VB.NET.
+Démarrer**Visual Studio.Net** et créer une nouvelle application console. Cet exemple montre une application console C#, mais vous pouvez également utiliser VB.NET.
 
 1. Ajouter des références
  1. Ajoutez une référence au composant Aspose.Cells à votre projet, par exemple ajoutez une référence à ...\Program Files\Aspose\Aspose.Cells\Bin\Net1.0\Aspose.Cells.dll
 
 ### **Extraire des objets OLE**
 
-Le code ci-dessous effectue le travail réel de recherche et d'extraction d'objets OLE. Les objets OLE (fichiers DOC, XLS et PDF) sont enregistrés sur disque.
+Le code ci-dessous effectue le travail réel de recherche et d'extraction d'objets OLE. Les objets OLE (fichiers DOC, XLS et PDF) sont enregistrés sur le disque.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ExtractOLEObjects-1.cs" >}}

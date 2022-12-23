@@ -14,7 +14,7 @@ url: /es/jasperreports/aspose-cells-for-jasperreports-1-0-1-release-notes/
 
 Qué hay de nuevo:
 
-- Los tamaños de fuente se ajustan adecuadamente para pegar caracteres en formato Microsoft Excel similar a los caracteres en formato PDF.
+- Los tamaños de fuente se ajustan adecuadamente para pegar caracteres en formato Excel Microsoft similar a los caracteres en formato PDF.
 -  Las etiquetas de los ejes (de los gráficos) en formato de fecha se representan correctamente y en consecuencia.
 - Se admiten los efectos de relleno degradado para las áreas, incluido el fondo del gráfico (área del gráfico, área de trazado, etc.), el fondo de la leyenda, las barras y las burbujas, etc.
 

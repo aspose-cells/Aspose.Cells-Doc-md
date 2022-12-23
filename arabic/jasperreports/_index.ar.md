@@ -7,11 +7,11 @@ is_root: true
 ---
 {{% alert color="primary" %}}
 
-**! [todo: image_alt_text] (jasperreports_logo.png)**
+**![todo:image_alt_text](jasperreports_logo.png)**
 
 **مرحبا بكم في Aspose.Cells for JasperReports**
 
- Aspose.Cells for JasperReports هي مكتبة تعمل كبديل ل[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library)مصدر Excel أصلي Microsoft ، مرفق ببعض التحسينات الرائعة. إنه يلغي التبعية على مكتبة POI ، ويستخدم Aspose.Cells for Java على النهاية الخلفية لتصدير التقارير بتنسيقات Microsoft Excel (XLS ، XLSX).
+ Aspose.Cells for JasperReports هي مكتبة تعمل كبديل ل[جاسبر ريبورتس](https://community.jaspersoft.com/project/jasperreports-library)مصدر Excel أصلي Microsoft ، مرفق ببعض التحسينات الرائعة. يقوم بإزالة التبعية على مكتبة POI ، ويستخدم Aspose.Cells for Java على النهاية الخلفية لتصدير التقارير بتنسيقات Excel Microsoft (XLS ، XLSX).
 
 {{% /alert %}}
 

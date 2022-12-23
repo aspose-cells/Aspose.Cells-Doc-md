@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/list-of-supported-functions/
 ---
-## **giriiş**
+## **Giriş**
 Aspose.Cells Grid Controls tarafından desteklenen birçok yerleşik işlev vardır. Bu işlevler aşağıdaki kategorilere aittir:
 
 - **Matematik Fonksiyonları** , çok sayıda matematiksel hesaplamada kullanılabilecek çok sayıda işlev sağlar

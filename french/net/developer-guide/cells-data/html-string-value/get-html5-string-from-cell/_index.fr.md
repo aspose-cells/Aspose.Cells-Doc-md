@@ -6,11 +6,11 @@ url: /fr/net/get-html5-string-from-cell/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Aspose.Cells renvoie la chaîne HTML de la cellule à l'aide de la[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) méthode qui accepte un paramètre booléen. Si vous passez**faux**en tant que paramètre, il renverra Normal HTML mais si vous passez**vrai** en tant que paramètre, il renverra la chaîne HTML5.
+Aspose.Cells renvoie la chaîne HTML de la cellule à l'aide de la[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring) méthode qui accepte un paramètre booléen. Si vous passez**faux** en paramètre, il renverra Normal HTML mais si vous passez**vrai** en tant que paramètre, il renverra la chaîne HTML5.
 
 ## **Obtenir la chaîne HTML5 de Cell**
 
-L'exemple de code suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Il obtient ensuite la chaîne HTML normal et HTML5 de la cellule A1 à l'aide de la[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)méthode et les imprime sur la console.
+L'exemple de code suivant crée un objet classeur et ajoute du texte dans la cellule A1 de la première feuille de calcul. Il obtient ensuite la chaîne Normal HTML et HTML5 de la cellule A1 à l'aide de la[**GetHtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/gethtmlstring)méthode et les imprime sur la console.
 
 ## **Exemple de code**
 

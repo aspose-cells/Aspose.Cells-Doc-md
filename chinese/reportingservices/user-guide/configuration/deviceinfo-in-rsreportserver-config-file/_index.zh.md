@@ -16,4 +16,4 @@ url: /zh/reportingservices/deviceinfo-in-rsreportserver-config-file/
 - **NoOutPutGroupForSimpleOutPut**: **错误的**默认。该值仅支持 Excel 2007 XLSX（仅限数据）扩展。
 - **NoDoGroupPageForSimpleOutPut**: **真的**默认。该值仅支持 Excel 2007 XLSX（仅限数据）扩展。
 - **NoDoPageForSimpleOutPut**: **真的**默认。该值仅支持 Excel 2007 XLSX（仅限数据）扩展。
-- **字段分隔符**设置字段分隔符。该值支持 CSV 和 TXT 扩展名。
+- **字段分隔符**设置字段分隔符。该值支持 CSV 和 TXT 扩展。

@@ -7,7 +7,7 @@ url: /ja/net/encrypting-files-in-php/
 ## **Aspose.Cells - Excel ファイルの暗号化**
 Microsoft Excel ファイルの暗号化
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

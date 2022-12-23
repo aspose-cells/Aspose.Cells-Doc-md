@@ -12,7 +12,7 @@ url: /es/net/aspose-cells-for-net-17-7-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSNET-45437|Errores de soporte y valor booleano en la configuración regional rusa en la representación de Excel a PDF|Nueva caracteristica|
+|CELLSNET-45437|Errores de soporte y valor booleano en la configuración regional rusa en Excel para la representación PDF|Nueva caracteristica|
 |CELLSNET-45456|Lectura de datos, fórmulas y estilo de celdas del archivo de números|Nueva caracteristica|
 |CELLSNET-45483|Soporte para cambiar el valor inicial del índice de fila a 0 (en lugar de 1) en Aspose.Cells.GridDesktop|Nueva caracteristica|
 |CELLSNET-45434|GridWeb ViewPanel no siempre es visible|Nueva caracteristica|
@@ -20,7 +20,7 @@ url: /es/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45490|Lanza un error o una excepción cuando se asigna un nombre incorrecto a la propiedad ListObject.DisplayName|Mejora|
 |CELLSNET-45470|Fuente de enlace Fuente de datos frente a Fuente de datos original frente a Excel => Datos => Editar enlaces|Mejora|
 |CELLSNET-45439|Se necesita el método GridDesktop.GetVersion() para verificar el número de versión de GridDesktop en tiempo de ejecución|Mejora|
-|CELLSNET-45457|La aplicación se atasca al intentar obtener la propiedad de la imagen|Actuación|
+|CELLSNET-45457|La aplicación se atasca al intentar obtener la propiedad de la imagen|Rendimiento|
 |CELLSNET-45388|La forma de la flecha no se representa correctamente en las representaciones de hoja a imagen (.jpg)|Insecto|
 |CELLSNET-45426|Los datos del gráfico no pueden actualizar los datos de la tabla dinámica|Insecto|
 |CELLSNET-45447|Archivo de Excel dañado al agregar una tabla dinámica después de importar datos de origen|Insecto|
@@ -28,12 +28,12 @@ url: /es/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45402|Cell.DisplayStringValue no coincide con los valores originales|Insecto|
 |CELLSNET-45479|Aspose.Cells 17.5 - Firma digital incorrecta con certificado DSA|Insecto|
 |CELLSNET-45420|La configuración de fuente predeterminada no funciona|Insecto|
-|CELLSNET-45364|Algunas formas/objetos se cortan en el PDF de salida|Insecto|
+|CELLSNET-45364|Algunas formas/objetos se cortan en la salida PDF|Insecto|
 |CELLSNET-45491|Apareció algo borroso negro adjunto a las etiquetas de datos en la imagen de salida del gráfico|Insecto|
 |CELLSNET-45476|El formato de fecha de las etiquetas del eje X se cambia y se anula en las entradas de Leyenda|Insecto|
-|CELLSNET-45471|El texto "III.LowerQualityAboveSML" en la segunda página del PDF está roto|Insecto|
+|CELLSNET-45471|El texto "III.LowerQualityAboveSML" en la segunda página de PDF está roto|Insecto|
 |CELLSNET-45454|Los colores de las burbujas se cambian un poco para diferentes gráficos incluso usando las mismas líneas de código|Insecto|
-|CELLSNET-45452|Los minigráficos no se representan correctamente en el PDF de salida|Insecto|
+|CELLSNET-45452|Los minigráficos no se representan correctamente en la salida PDF|Insecto|
 |CELLSNET-45493|Al cambiar el tamaño de ListObject, no se transfiere el formato personalizado|Insecto|
 |CELLSNET-45482|Algunas formas se pierden en el archivo XLS al extraer y volver a insertar imágenes|Insecto|
 |CELLSNET-45466|Algunos bordes adicionales se agregan automáticamente|Insecto|
@@ -46,7 +46,7 @@ url: /es/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45438|Rotar el texto de la celda a 90 grados estropea la alineación del texto de la celda|Insecto|
 |CELLSNET-45425|GridWeb agrega espacio a la entrada desplegable de Excel|Insecto|
 |CELLSNET-42363|Problema con los títulos de los campos dinámicos en la tabla dinámica (GridWeb)|Insecto|
-|CELLSNET-45486|Se produjo NullReferenceException al guardar el libro de Excel (con celdas combinadas) en formato de archivo HTML|Excepción|
+|CELLSNET-45486|Se produjo NullReferenceException al guardar el libro de Excel (con celdas combinadas) en el formato de archivo HTML|Excepción|
 |CELLSNET-45478|Excepción al abrir un archivo MHTML dañado a través de las API Aspose.Cells|Excepción|
 |CELLSNET-45467|System.ArgumentOutOfRangeException' ocurrió al cargar un archivo MHTML|Excepción|
 |CELLSNET-45485|Ocurrió una excepción al calcular una fórmula válida|Excepción|
@@ -91,7 +91,7 @@ Hace que el control GridWeb sea compatible con el tamaño actual de la ventana d
 #### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-- [Lea la hoja de cálculo de números desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lea la hoja de cálculo Numbers desarrollada por Apple Inc. usando Aspose.Cells](/cells/es/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Establezca la propiedad DefaultFont de PdfSaveOptions e ImageOrPrintOptions para que tenga prioridad](/cells/es/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Aplicar filtro avanzado de Microsoft Excel para mostrar registros que cumplen criterios complejos](/cells/es/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementar errores y valor booleano en ruso o cualquier otro idioma](/cells/es/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

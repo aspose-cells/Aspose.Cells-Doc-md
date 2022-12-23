@@ -15,7 +15,7 @@ Aspose.Cells fournit la même fonctionnalité que Microsoft Excel pour l'ajout d
 
 {{% /alert %}}
 
- Les exemples de code suivants montrent comment créer des plages de noms délimitées par des classeurs et des feuilles de calcul à l'aide de la propriété[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) classer.
+ Les exemples de code suivants montrent comment créer des plages de noms délimitées par des classeurs et des feuilles de calcul à l'aide de la propriété[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) classe.
 
 ## **Ajout d'une plage nommée avec l'étendue du classeur**
 

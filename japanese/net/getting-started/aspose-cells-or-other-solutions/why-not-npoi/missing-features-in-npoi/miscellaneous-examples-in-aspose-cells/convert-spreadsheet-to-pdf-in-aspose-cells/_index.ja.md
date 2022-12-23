@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells でスプレッドシートを PDF に変換
+title: スプレッドシートを Aspose.Cells の PDF に変換します
 type: docs
 weight: 10
 url: /ja/net/convert-spreadsheet-to-pdf-in-aspose-cells/

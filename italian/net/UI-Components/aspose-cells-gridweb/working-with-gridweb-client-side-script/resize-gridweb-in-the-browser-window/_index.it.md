@@ -10,7 +10,7 @@ url: /it/net/resize-gridweb-in-the-browser-window/
 Il codice seguente verificherà se viene eseguita un'azione di ridimensionamento ogni 100 millisecondi. Quando non ci sono più azioni di ridimensionamento, pensa che l'operazione di ridimensionamento sia terminata. Utilizziamo un file modello di esempio che viene importato in GridWeb. Usiamo il codice lato client per ridimensionare il GridWeb. Lo screenshot mostra che GridWeb si ridimensiona di conseguenza durante il ridimensionamento della finestra del browser.
 
 ![cose da fare:immagine_alt_testo](resize-gridweb-in-the-browser-window_1.png)
-### **Codice di esempio**
+### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-ResizeGridWebUsingResizeMethod" >}}
 
 
@@ -18,5 +18,5 @@ Il codice seguente verificherà se viene eseguita un'azione di ridimensionamento
 Il codice seguente renderà il controllo GridWeb ridimensionabile nella finestra del browser. Ad esempio, puoi utilizzare l'handle in basso a destra per personalizzare la sua dimensione di GridWeb nella finestra. Utilizziamo lo stesso file modello importato prima in GridWeb. Utilizziamo script jquery per rendere ridimensionabile GridWeb. Lo screenshot mostra che GridWeb è stato ridimensionato utilizzando la sua maniglia in basso a destra nella finestra del browser.
 
 ![cose da fare:immagine_alt_testo](resize-gridweb-in-the-browser-window_2.png)
-### **Codice di esempio**
+### **Codice d'esempio**
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-WorkingWithGridWebClientSideScript-MakingGridWebResizableUsingResizablejQueryUiFeature" >}}

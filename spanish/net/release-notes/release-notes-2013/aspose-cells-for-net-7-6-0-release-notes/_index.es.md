@@ -18,19 +18,19 @@ url: /es/net/aspose-cells-for-net-7-6-0-release-notes/
 
  Colección ShapePath, etc.)
 
- Actuación
+ Rendimiento
 
  Excepciones
 
  42003 - Problema con la actualización de tablas dinámicas
 
- 42050 - Excepción de celdas:
+42050 - Excepción de celdas:
 
  41956 - Excepción al abrir el archivo de plantilla
 
  Insectos
 
- 41570 - Problema de conversión de Excel a PDF en árabe
+ 41570 - Excel a PDF Problema de conversión al árabe
 
  41983 - Las tablas dinámicas en los archivos XLS provocan corrupción
 
@@ -40,7 +40,7 @@ url: /es/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 - Problema de cálculo de fórmula
 
-41997 - Problema de visualización de fuentes japonesas
+ 41997 - Problema de visualización de fuentes japonesas
 
  \2) Aspose.Cells.GridWeb
 

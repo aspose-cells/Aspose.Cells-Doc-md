@@ -14,7 +14,7 @@ description: 通过 Aspose.Cells 了解如何创建时间线。
 
 请参阅以下示例代码。它加载了[示例 Excel 文件](input.xlsx)包含数据透视表。然后它根据第一个基本数据透视字段创建时间线。最后，它将工作簿保存在[输出 XLSX](output.xlsx)格式。以下屏幕截图显示了 Aspose.Cells 在输出 Excel 文件中创建的时间线。
 
-![待办事项：图像_替代_文本](create-timeline-to-a-pivot-table_1.png)
+![待办事项：图片_替代_文本](create-timeline-to-a-pivot-table_1.png)
 
 ### **示例代码**
 

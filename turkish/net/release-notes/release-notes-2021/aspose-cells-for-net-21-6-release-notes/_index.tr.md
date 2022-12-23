@@ -19,7 +19,7 @@ url: /tr/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|Alınan biçimlendirilmiş hücre değerleri Excel çalışma sayfasında yanlış|Artırma|
 |CELLSNET-48078|CreateCalcChain ayarıyla yapılan hesaplamadan sonra Çalışma Kitabının derin kopyası|Artırma|
 |CELLSNET-48079| Bir çalışma sayfasının boş olup olmadığı nasıl kontrol edilir|Artırma|
-|CELLSNET-48135| Aspose.Cells tarafından oluşturulan korumalı çalışma kitabı (şifreli) ile ilgili sorun|Artırma|
+|CELLSNET-48135|Aspose.Cells tarafından oluşturulan korumalı çalışma kitabı (şifreli) ile ilgili sorun|Artırma|
 |CELLSNET-48050| cpu açık çalışma kitabında asılı kalıyor|Verim|
 |CELLSNET-48063|API Cells.GetRowRawHeightPoint çağrıldığında maliyet maliyeti|Verim|
 |CELLSNET-48046|Şeklin metin ofseti yanlış(ok:dörtlü).|Böcek|
@@ -29,7 +29,7 @@ url: /tr/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48060|Özel stillerle RemoveUnusedStyles işlevi kullanılırken hata oluştu|Böcek|
 |CELLSNET-48080|PivotTable, PivotTable oluştururken sütun adı olarak "值" veya "Değerler"i kullanamaz|Böcek|
 |CELLSNET-48085| Gizli sütun başlığı oluşturuldu|Böcek|
-|CELLSNET-48105|Excel'i HTML'ye dönüştürürken metin kutusu yerleşimi değiştirildi|Böcek|
+|CELLSNET-48105|Excel HTML'e dönüştürülürken metin kutusu yerleşimi değiştirildi|Böcek|
 |CELLSNET-48048| XLSX'i yorumlarla birlikte PDF biçiminde kaydederken istisna|Böcek|
 |CELLSNET-48082|ImportCustomObjects kullanarak 30'dan fazla satır eklemek bozuk dosya oluşturuyor|Böcek|
 |CELLSNET-48086|Adlandırılmış aralık 21.5'te düzgün şekilde oluşturulmadı, ancak 21.4'te çalıştı|Böcek|
@@ -44,9 +44,9 @@ url: /tr/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48065|Belirli bir adlandırılmış aralık değerine sahip yeniden kaydedilen dosya, Excel'in bozulmasına neden olur|Böcek|
 |CELLSNET-48067|SetChartDataRange birleştirilmiş hücreleri tanımadı|Böcek|
 |CELLSNET-48072|Boş grafiği oku, yanlış bir grafik türü alacak|Böcek|
-|CELLSNET-48133|Çıktı XLSX dosyasını açarken MS Excel tarafından ortaya çıkan hata|Böcek|
+|CELLSNET-48133|XLSX çıktı dosyasını açarken MS Excel tarafından ortaya çıkan hata|Böcek|
 |CELLSNET-48045|Svg'yi resme dönüştürürken bir İstisna atılıyor|İstisna|
-|CELLSNET-48062|XLS'yi XLSX'e dönüştürürken istisna ortaya çıktı|İstisna|
+|CELLSNET-48062|XLS, XLSX'e dönüştürülürken istisna oluştu|İstisna|
 |CELLSNET-48074|Apple numaraları dosyası açılırken değer boş olamaz|İstisna|
 |
 

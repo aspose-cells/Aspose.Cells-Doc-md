@@ -5,15 +5,15 @@ weight: 50
 url: /tr/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/
 ---
 ## **Olası Kullanım Senaryoları**
- Aspose.Cells API'ler şu bilgileri açığa çıkardı:[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) kullanıcının bir e-tabloda Alt Toplamlar için özel etiketler kullanmak istediği senaryolarla başa çıkmak için sınıf. Ayrıca,[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)sınıf aynı zamanda değiştirmek için de kullanılabilir.**Başka** çalışma sayfasını veya grafiği işlerken Pasta grafiği için etiket.
+ Aspose.Cells API'ler şu bilgileri açığa çıkardı:[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) kullanıcının bir e-tabloda Alt Toplamlar için özel etiketler kullanmak istediği senaryolarla başa çıkmak için sınıf. Ayrıca,[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıf aynı zamanda değiştirmek için de kullanılabilir.**Diğer** çalışma sayfasını veya grafiği işlerken Pasta grafiği için etiket.
 ## **GlobalizationSettings Sınıfına Giriş**
- bu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class şu anda, Alt Toplamlar için istenen etiketleri almak veya alt toplamlar için özel metin oluşturmak üzere özel bir sınıfta geçersiz kılınabilen aşağıdaki 3 yöntemi sunmaktadır.**Başka** Pasta grafiğin etiketi.
+ bu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) class şu anda, Alt Toplamlar için istenen etiketleri almak veya alt toplamlar için özel metin oluşturmak üzere özel bir sınıfta geçersiz kılınabilen aşağıdaki 3 yöntemi sunmaktadır.**Diğer** Pasta grafiğin etiketi.
 
 1. [GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)): Fonksiyonun toplam adını alır.
 1. [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)): Fonksiyonun genel toplam adını alır.
 1. [GlobalizationSettings.getOtherName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getOtherName\(\)): Pasta grafikler için "Diğer" etiketlerinin adını alır.
 ### **Ara Toplamlar için Özel Etiketler**
- bu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings) sınıfı geçersiz kılarak Ara Toplam etiketlerini özelleştirmek için kullanılabilir.[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) yöntemler aşağıda gösterildiği gibi.
+ bu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings)sınıfı geçersiz kılarak Ara Toplam etiketlerini özelleştirmek için kullanılabilir.[GlobalizationSettings.getTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getTotalName\(int\)) & [GlobalizationSettings.getGrandTotalName](https://reference.aspose.com/cells/java/com.aspose.cells/globalizationsettings#getGrandTotalName\(int\)) yöntemler aşağıda gösterildiği gibi.
 
 
 
@@ -46,6 +46,6 @@ url: /tr/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-o
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CustomTextforOtherLabelofPieChart-CustomTextforOtherLabelofPieChart.java" >}}
 
 
- Aşağıdaki, makinenin yerel ayarı Fransa olarak ayarlandığında ortaya çıkan görüntüdür. Gördüğünüz gibi "Diğer" etiketi, içinde tanımlandığı gibi "Yazar" olarak çevrilmiştir.*Özel ayarlar*sınıf.
+Aşağıdaki, makinenin yerel ayarı Fransa olarak ayarlandığında ortaya çıkan görüntüdür. Gördüğünüz gibi "Diğer" etiketi, içinde tanımlandığı gibi "Yazar" olarak çevrilmiştir.*Özel ayarlar*sınıf.
 
-![yapılacaklar:resim_alternatif_Metin](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)
+![yapılacaklar:resim_alternatif_metin](using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart_1.png)

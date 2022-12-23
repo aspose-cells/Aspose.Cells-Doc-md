@@ -1,22 +1,22 @@
 ﻿---
-title: Leggere e scrivere connessione esterna di file XLS e XLSB
+title: Leggere e scrivere la connessione esterna dei file XLS e XLSB
 type: docs
 weight: 80
 url: /it/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells supporta già la lettura e la scrittura della connessione esterna del file XLSX ma ora supporta anche questa funzione per i file XLSB e XLS. Tuttavia, il codice è lo stesso per tutti i tipi di formati.
+Aspose.Cells supporta già la lettura e la scrittura della connessione esterna del file XLSX ma ora supporta anche questa funzione per il file XLSB e XLS. Tuttavia, il codice è lo stesso per tutti i tipi di formato.
 
 ## **Leggere e scrivere la connessione esterna del file XLS/XLSB**
 
- Il seguente codice di esempio carica il file XLSB di esempio (è possibile caricare anche XLS) e legge la sua prima connessione esterna che è effettivamente una connessione DB di Microsoft Access. Quindi modifica il file[**DBConnection.Nome**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) proprietà e lo salva come file XLS/XLSB di output. Lo screenshot mostra l'effetto del codice su[file XLSB di esempio](51740722.xlsb) e[file XLSB di output](51740723.xlsb) dopo la sua esecuzione. Si prega di consultare anche l'output della console del codice di esempio fornito di seguito per un riferimento.
+ Il seguente codice di esempio carica il file di esempio XLSB (è possibile caricare anche XLS) e legge la sua prima connessione esterna che è effettivamente una connessione DB di accesso Microsoft. Quindi modifica il file[**DBConnection.Nome**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) property e lo salva come output XLS/XLSB file. Lo screenshot mostra l'effetto del codice su[file di esempio XLSB](51740722.xlsb) e[output XLSB file](51740723.xlsb) dopo la sua esecuzione. Si prega di consultare anche l'output della console del codice di esempio fornito di seguito per un riferimento.
 
 ![cose da fare:immagine_alt_testo](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
-Il seguente codice funzionerà sia per i file XLSB che XLS caricando e salvando i file con l'estensione appropriata.
+Il seguente codice funzionerà per entrambi i file XLSB e XLS caricando e salvando i file con l'estensione appropriata.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 

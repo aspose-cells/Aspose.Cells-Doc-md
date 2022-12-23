@@ -7,7 +7,7 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 ---
 {{% alert color="primary" %}}
 
-**Aspose.Cells**consente agli sviluppatori di creare file Excel da zero utilizzando la sua API flessibile. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file. In questo argomento tratteremo tutti quei possibili modi che possono essere adottati dagli sviluppatori per salvare i propri file.
+**Aspose.Cells** consente agli sviluppatori di creare file Excel da zero utilizzando il suo flessibile API. Una volta creati i file Excel, dovrai anche salvare la tua cartella di lavoro (file). Aspose.Cells fornisce una varietà di modi per salvare questi file. In questo argomento tratteremo tutti quei possibili modi che possono essere adottati dagli sviluppatori per salvare i propri file.
 
 {{% /alert %}}
 
@@ -21,13 +21,13 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 |**Tipi di formati di file**|**Descrizione**|
 |:- |:- |
-|[**AUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)|L'API tenta di rilevare il formato appropriato dall'estensione file specificata nel primo parametro al metodo di salvataggio|
+|[**AUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#AUTO)|API tenta di rilevare il formato appropriato dall'estensione file specificata nel primo parametro al metodo di salvataggio|
 |[**CSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#CSV)|Rappresenta un file CSV|
 |[**XLSX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSX)|Rappresenta un file Office Open XML SpreadsheetML|
 |[**XLSM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSM)|Rappresenta il file XLSM basato su XML|
 |[**XLTX**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTX)|Rappresenta un file modello di Excel|
-|[**XL™**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Rappresenta un file modello abilitato per le macro di Excel|
-|[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Rappresenta un file XLAM di Excel|
+|[**XLTM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLTM)|Rappresenta un file modello abilitato per le macro di Excel|
+|[**XLAM**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLAM)|Rappresenta un file Excel XLAM|
 |[**TSV**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TSV)|Rappresenta un file di valori separati da tabulazioni|
 |[**TAB_DELIMITED**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TAB_DELIMITED)|Rappresenta un file di testo delimitato da tabulazioni|
 |[**HTML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#HTML)|Rappresenta uno o più file HTML|
@@ -35,15 +35,15 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 |[**ODS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#ODS)|Rappresenta un file OpenDocument Spreadsheet|
 |[**EXCEL_97_TO_2003**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#EXCEL_97_TO_2003)|Rappresenta un file XLS che è il formato predefinito per le revisioni di Excel da 1997 a 2003|
 |[**FOGLIO DI CALCOLO_ML**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SPREADSHEET_ML)|Rappresenta un file SpreadSheetML|
-|[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Rappresenta un file XLSB binario di Excel 2007|
+|[**XLSB**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XLSB)|Rappresenta un file binario XLSB di Excel 2007|
 |[**SCONOSCIUTO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#UNKNOWN)|Rappresenta un formato non riconosciuto, non può essere salvato.|
 |[**PDF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#PDF)|Rappresenta un documento PDF|
 |[**XPS**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#XPS)|Rappresenta un file XML Paper Specification (XPS).|
-|[**TIPO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|Rappresenta un file TIFF (Tagged Image File Format).|
-|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|Rappresenta un file SVG (Scalable Vector Graphics) basato su XML|
+|[**TIFF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#TIFF)|Rappresenta un file Tagged Image File Format (TIFF).|
+|[**SVG**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#SVG)|Rappresenta un file Scalable Vector Graphics (SVG) basato su XML|
 |[**DIF**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#DIF)|Rappresenta il formato di interscambio dati.|
 |[**NUMERI**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#NUMBERS)|Rappresenta un file di numeri.|
-|[**RITARDO**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|Rappresenta un documento markdown.|
+|[**MARKDOWN**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)|Rappresenta un documento markdown.|
 **Normalmente, ci sono due modi per salvare i file Excel come segue:**
 
 1. **Salvataggio del file in una posizione**
@@ -51,7 +51,7 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 ## **Salvataggio del file in una posizione**
 
- Se gli sviluppatori devono salvare i propri file in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando il[**SalvaFormato**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) enumerazione) mentre si chiama il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) metodo di[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)oggetto.
+Se gli sviluppatori devono salvare i propri file in una posizione di archiviazione, possono semplicemente specificare il nome del file (con il relativo percorso di archiviazione completo) e il formato del file desiderato (utilizzando il[**SalvaFormato**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) enumerazione) mentre si chiama il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) metodo di[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)oggetto.
 
 **Esempio:**
 
@@ -61,11 +61,11 @@ url: /it/java/saving-excel-files-to-csv-pdf-and-other-formats/
 
 A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavoro in formato testo. Per i formati di testo (ad esempio TXT, TabDelim, CSV ecc.), per impostazione predefinita sia Microsoft Excel che Aspose.Cells salvano solo il contenuto del foglio di lavoro attivo.
 
-L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo di Microsoft Excel o OpenOffice (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
+L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo Excel o OpenOffice Microsoft (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
 
-Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro in formato TXT.
+Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro nel formato TXT.
 
- Puoi modificare lo stesso esempio per salvare il tuo file in formato CSV. Per impostazione predefinita,[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) è una virgola, quindi non specificare un separatore se si salva in formato CSV.
+È possibile modificare lo stesso esempio per salvare il file in CSV. Per impostazione predefinita,[**TxtSaveOptions.Separator**](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#Separator) è una virgola, quindi non specificare un separatore se si salva nel formato CSV.
 
 **Esempio:**
 
@@ -79,7 +79,7 @@ I file di testo contengono dati del foglio di calcolo senza formattazione. Il fi
 
 ## **Salvataggio di file in un flusso**
 
- Se gli sviluppatori devono salvare i propri file in un file**Flusso** quindi dovrebbero creare un file**FileOutputStream** oggetto e quindi salvare il file in quello**Flusso** oggetto chiamando il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) metodo di[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)oggetto. Gli sviluppatori possono anche specificare il formato di file desiderato (utilizzando l'estensione[**SalvaFormato**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) enumerazione) mentre si chiama il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) metodo.
+ Se gli sviluppatori devono salvare i propri file in un file**Flusso** quindi dovrebbero creare un file**FileOutputStream** oggetto e quindi salvare il file in quello**Flusso** oggetto chiamando il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions) ) metodo di[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) oggetto. Gli sviluppatori possono anche specificare il formato di file desiderato (utilizzando l'estensione[**SalvaFormato**](https://reference.aspose.com/cells/java/com.aspose.cells/SaveFormat) enumerazione) mentre si chiama il[**Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.io.OutputStream,%20com.aspose.cells.SaveOptions)) metodo.
 
 **Esempio:**
 
@@ -87,27 +87,27 @@ I file di testo contengono dati del foglio di calcolo senza formattazione. Il fi
 
 ## **Salvataggio del file in un altro formato**
 
-### **File XLS**
+### **XLS Fascicoli**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSFile-SaveXLSFile.java" >}}
 
-### **File XLSX**
+### **XLSX Fascicoli**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveXLSXFile-SaveXLSXFile.java" >}}
 
-### **File PDF**
+### **PDF Fascicoli**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-SaveInPdfFormat-SaveInPdfFormat.java" >}}
 
 #### **Imposta l'opzione ContentCopyForAccessibility**
 
- Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class, è possibile ottenere o impostare il PDF[**Accessibilità Estrai contenuto**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent) opzione per controllare l'accesso al contenuto nel PDF convertito. Significa che consente al software di lettura dello schermo di utilizzare il testo all'interno del file PDF per leggere il file PDF. Puoi disabilitarlo applicando una password di modifica dei permessi e deselezionando i due elementi nello screenshot[qui](71630877.png).
+ Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) classe, puoi ottenere o impostare lo PDF[**Accessibilità Estrai contenuto**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsecurityoptions#AccessibilityExtractContent)opzione per controllare l'accesso al contenuto nel PDF convertito. Significa che consente al software di lettura dello schermo di utilizzare il testo all'interno del file PDF per leggere il file PDF. Puoi disabilitarlo applicando una password di modifica dei permessi e deselezionando i due elementi nello screenshot[qui](71630877.png).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ContentCopyForAccessibilityOption.java" >}}
 
-#### **Esporta le proprietà personalizzate in PDF**
+#### **Esporta proprietà personalizzate in PDF**
 
-Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class, è possibile esportare le proprietà personalizzate nella cartella di lavoro di origine nel PDF.[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport)enumeratore viene fornito per specificare il modo in cui le proprietà vengono esportate. Queste proprietà possono essere osservate in Adobe Acrobat Reader facendo clic su File e quindi sull'opzione proprietà come mostrato nell'immagine seguente. È possibile scaricare il file modello "sourceWithCustProps.xlsx".[qui](sourceWithCustProps.xlsx)per il test e l'output è disponibile il file PDF "outSourceWithCustProps".[qui](outSourceWithCustProps.pdf)per analisi.
+Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfSaveOptions) class, è possibile esportare le proprietà personalizzate nella cartella di lavoro di origine nel file PDF.[**PdfCustomPropertiesExport**](https://reference.aspose.com/cells/java/com.aspose.cells/PdfCustomPropertiesExport) enumeratore viene fornito per specificare il modo in cui le proprietà vengono esportate. Queste proprietà possono essere osservate in Adobe Acrobat Reader facendo clic su File e quindi sull'opzione proprietà come mostrato nell'immagine seguente. È possibile scaricare il file modello "sourceWithCustProps.xlsx".[qui](sourceWithCustProps.xlsx)per il test e l'output PDF è disponibile il file "outSourceWithCustProps"[qui](outSourceWithCustProps.pdf)per analisi.
 
 ![cose da fare:immagine_alt_testo](saving-excel-files-to-csv-pdf-and-other-formats_1.png)
 
@@ -115,7 +115,7 @@ Con il[**PdfSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.ce
 
 ## **Converti la cartella di lavoro di Excel in Markdown**
 
-L'API Aspose.Cells fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) metodo. Puoi anche usare[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
+Il Aspose.Cells API fornisce supporto per l'esportazione di fogli di calcolo in formato Markdown. Per esportare il foglio di lavoro attivo in Markdown, passare[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)come secondo parametro di[**Cartella di lavoro.Salva**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#save(java.lang.String,%20int)) metodo. Puoi anche usare[**MarkdownSaveOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/MarkdownSaveOptions)class per specificare impostazioni aggiuntive per l'esportazione del foglio di lavoro in Markdown.
 
 L'esempio di codice seguente illustra l'esportazione del foglio di lavoro attivo in Markdown utilizzando[**SaveFormat.Markdown**](https://reference.aspose.com/cells/java/com.aspose.cells/saveformat#MARKDOWN)membro di enumerazione. Si prega di consultare il[output file Markdown](Book1.txt)generato dal codice per riferimento.
 

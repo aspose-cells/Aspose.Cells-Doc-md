@@ -18,7 +18,7 @@ In Beispielen verwendete Indizes beginnen bei 0.
 
 Das Hinzufügen von Bildern zu einer Tabelle ist sehr einfach. Es dauert nur ein paar Zeilen Code.
 
- Einfach anrufen[**hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) Methode der[**Bilder**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) Sammlung (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Objekt). Das[**hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-Methode nimmt die folgenden Parameter an:
+ Einfach anrufen[**addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) Methode der[**Bilder**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) Sammlung (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) Objekt). Das[**addieren**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String))-Methode nimmt die folgenden Parameter an:
 
 - **Zeilenindex oben links**, der Index der oberen linken Zeile.
 - **Spaltenindex oben links**, der Index der oberen linken Spalte.

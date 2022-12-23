@@ -56,7 +56,7 @@ Veuillez accueillir une nouvelle version de Aspose.Cells for Reporting Services 
 
 (SSRS-40186) Rapport d'analyse d'impact d'article - Un arrière-plan de couleur grise apparaît dans la première colonne.
 
-(SSRS-40185) Rapport d'analyse d'impact d'article - L'espace en haut du rapport, entre le titre et le tableau est supérieur et les espaces entre les deux en-têtes supérieurs sont réduits.
+(SSRS-40185) Rapport d'analyse d'impact d'élément - L'espace en haut du rapport, entre le titre et le tableau est supérieur et les espaces entre les deux en-têtes supérieurs sont inférieurs.
 
 (SSRS-40184) Rapport d'index d'intégrité - Le rapport n'est pas exporté dans XLSX, ce qui donne l'erreur : « Une erreur s'est produite lors de l'exportation du rapport.
 

@@ -24,7 +24,7 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 ### **Insectos**
 
-(CELLSNET-43744) - La tabla dinámica no se actualiza al guardar en PDF
+(CELLSNET-43744) - La tabla dinámica no se actualiza cuando se guarda en PDF
 
 (CELLSNET-43735): se pierde la opción Filas con bandas de la tabla dinámica
 
@@ -46,7 +46,7 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-43753) - Aspose.Cells renderiza 2 páginas
 
-(CELLSNET-43731): el texto se corta al representar la hoja de trabajo en una imagen EMF
+(CELLSNET-43731) - El texto se corta al representar la hoja de trabajo en la imagen EMF
 
 (CELLSNET-43756): la imagen del gráfico no contiene los mismos valores que el eje x del gráfico de Excel
 
@@ -54,13 +54,13 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-43726): la combinación de libros de trabajo cambia el estilo del gráfico
 
-(CELLSNET-43700) - El color de la imagen se ve diferente después de convertirla a PDF
+(CELLSNET-43700) - El color de la imagen se ve diferente después de convertir a PDF
 
 (CELLSNET-43199) - Los contenidos y las formas cambian cuando Excel se guarda en PDF
 
 (CELLSNET-43767) - Excel muestra Vista protegida en la hoja de cálculo guardada Aspose.Cells
 
-(CELLSNET-43762) - Cell.GetPrecedents() no devuelve el nombre correcto de la hoja de trabajo
+(CELLSNET-43762) - Cell.GetPrecedents() no devuelve el nombre correcto de la hoja de cálculo
 
 (CELLSNET-43761): cambia el color de fondo de las celdas con formato condicional
 

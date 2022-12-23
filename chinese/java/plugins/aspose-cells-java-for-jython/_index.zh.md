@@ -19,7 +19,7 @@ Jython 是 Python 的 Java 实现，它结合了表达能力和清晰度。 Jyth
 Aspose.Cells for Java 是一个高级类库 for Java，使您能够直接在 Java 中执行大量文档处理任务
 应用程序。
 
-Aspose.Cells for Java 支持处理 Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF 和所有图像格式。使用 Aspose.Cells 您可以
+Aspose.Cells for Java 支持处理 Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF 等所有图片格式。使用 Aspose.Cells 您可以
 无需使用 Microsoft Cells 即可生成、修改和转换文档。
 
 ### **Aspose.Cells Java 对于 Jython**

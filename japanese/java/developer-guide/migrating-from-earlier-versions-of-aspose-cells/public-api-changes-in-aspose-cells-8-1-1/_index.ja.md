@@ -11,7 +11,7 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-1-1/
 {{% /alert %}} 
 ## **追加されたプロパティと機能**
 ### **HtmlSaveOptions.PresentationPreference プロパティを追加しました**
-HtmlSaveOptions クラスには、スプレッドシートを HTML または MHTML にエクスポートするときに、結果をより適切なレイアウトでレンダリングするために使用できる PresentationPreference プロパティの getter/setter が公開されています。デフォルト値は false です。一方、true に設定すると、Aspose.Cells API はワークシートの内容をより適切なプレゼンテーションでエクスポートします。
+HtmlSaveOptions クラスには、スプレッドシートを HTML または MHTML にエクスポートするときに、より良いレイアウトで結果をレンダリングするために使用できる PresentationPreference プロパティの getter/setter が公開されています。デフォルト値は false です。一方、true に設定すると、Aspose.Cells API はワークシートの内容をより適切なプレゼンテーションでエクスポートします。
 
 {{% alert color="primary" %}} 
 

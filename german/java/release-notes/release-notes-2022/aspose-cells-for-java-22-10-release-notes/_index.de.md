@@ -13,8 +13,8 @@ url: /de/java/aspose-cells-for-java-22-10-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-44890|Unterstützungsimportdatei mit openpassword für GridWeb|
-|CELLSJAVA-44884| Listennummern sind nach der XLSX-zu-HTML- oder PDF-Konvertierung falsch|
-|CELLSJAVA-44883|Die Arbeitsmappe, die die Pivot-Tabelle enthält, wird nach der Verarbeitung der darin enthaltenen Pivot-Tabelle beschädigt|
+|CELLSJAVA-44884| Listennummern sind nach der Konvertierung von XLSX in HTML oder PDF falsch|
+|CELLSJAVA-44883| Die Arbeitsmappe, die die Pivot-Tabelle enthält, wird nach der Verarbeitung der darin enthaltenen Pivot-Tabelle beschädigt|
 |CELLSJAVA-44879|Das formatierte Ergebnis für GridWeb war anders als Cell.DisplayStringValue|
 |CELLSJAVA-44327|Rahmen und weniger Linien, die in schwarzen und weißen Tortenstücken in der Diagramm-zu-Bild-Wiedergabe angezeigt werden|
 |CELLSJAVA-44853|Die Daten zum X-Achsenwinkel sind nicht die gleichen wie in Excel in der Diagramm-zu-Bild-Wiedergabe|
@@ -22,7 +22,7 @@ url: /de/java/aspose-cells-for-java-22-10-release-notes/
 |CELLSJAVA-44904|Probleme beim Rendern von Excel-Diagrammen in die JPG-Konvertierung|
 |CELLSJAVA-44850|Beim Importieren einer XLT-Datei wird der Text nicht vollständig angezeigt, wenn die neuesten Demos mit der neuesten Aspose.Cells.GridWeb-Version mit den neuesten Ressourcendateien verwendet werden|
 |CELLSJAVA-44857|Wenn Sie die Version Aspose.Cells.GridWeb for Java v22.8 mit den neuesten Ressourcendateien zum Öffnen eines Excel-Dokuments verwenden, unterscheidet sich die Wirkung der Zellen vom Originaldokument|
-|CELLSJAVA-44903|SVG-Wiedergabe funktioniert nicht wie erwartet|
+|CELLSJAVA-44903|SVG Wiedergabe funktioniert nicht wie erwartet|
 |CELLSJAVA-44909| Wenn mehrere Zeilen fett gedruckt sind, scheint es, als würden sie unnötigerweise in die anderen Zeilen überlaufen|
 |CELLSJAVA-44898|Das Lesen aus GZIPInputStream löst manchmal den falschen Fehler „Datei ist beschädigt“ in 22.7 und neueren Versionen aus|
 |CELLSJAVA-44881|Ausnahme „java.lang.ArrayIndexOutOfBoundsException: 15070“ beim Laden einer XLS-Datei|

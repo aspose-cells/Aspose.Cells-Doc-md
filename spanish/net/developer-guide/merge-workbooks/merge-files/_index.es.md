@@ -14,7 +14,7 @@ url: /es/net/merge-files/
 
 {{% alert color="primary" %}}
 
- los[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) El método solo admite la combinación de datos, estilos, formato y fórmulas. Es posible que los objetos como gráficos, imágenes, comentarios u otros objetos no se combinen con este método. Además, se utiliza un archivo en caché para almacenar datos temporales para el proceso.
+ Él[**CellsHelper.MergeFiles**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/methods/mergefiles) El método solo admite la combinación de datos, estilos, formato y fórmulas. Es posible que los objetos como gráficos, imágenes, comentarios u otros objetos no se combinen con este método. Además, se utiliza un archivo en caché para almacenar datos temporales para el proceso.
 
 {{% /alert %}}
 

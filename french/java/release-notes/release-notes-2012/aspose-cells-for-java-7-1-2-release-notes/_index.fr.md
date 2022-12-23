@@ -22,7 +22,7 @@ Nous sommes
 - Des améliorations sont apportées aux méthodes autoFitColumns()
 - Performances pour la fonctionnalité Feuille à image avec quadrillage activé
 
- Exceptions
+ Des exceptions
 
 - NullPointerException s'est produite lors de l'appel de la méthode Cell.getDisplayStyle()
 

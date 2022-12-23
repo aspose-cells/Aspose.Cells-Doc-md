@@ -10,9 +10,9 @@ Cet article explique comment appliquer le sous-total aux données et changer la 
 
  Vous pouvez appliquer le sous-total aux données à l'aide de[**Feuille de travail.Cells.Sous-total()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) méthode. Il prend les paramètres suivants.
 
-- **ZoneCellule** - La plage sur laquelle appliquer le sous-total
+- **ZoneCellule** La plage sur laquelle appliquer le sous-total
 - **Par groupe** - Le champ à regrouper, sous la forme d'un décalage d'entier de base zéro
-- **Fonction** - La fonction de sous-total.
+- **Une fonction** - La fonction de sous-total.
 - **TotalListe** - Un tableau de décalages de champ de base zéro, indiquant les champs auxquels les sous-totaux sont ajoutés.
 - **Remplacer** - Indique si remplacer les sous-totaux actuels
 - **Sauts de page** - Indique si ajouter un saut de page entre les groupes

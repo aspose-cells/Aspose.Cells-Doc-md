@@ -20,7 +20,7 @@ url: /ar/net/setting-page-options/
 
 ### **اتجاه الصفحة**
 
- يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**توجيه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) منشأه. ال[**توجيه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)التعداد ، المدرجة أدناه.
+يمكن ضبط اتجاه الصفحة على عمودي أو أفقي باستخدام امتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**اتجاه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) خاصية. ال[**اتجاه**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**PageOrientationType**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)التعداد ، المدرجة أدناه.
 
 |**أنواع اتجاه الصفحة**|**وصف**|
 |:- |:- |
@@ -31,7 +31,7 @@ url: /ar/net/setting-page-options/
 
 ### **عامل التحجيم**
 
- من الممكن تصغير حجم ورقة العمل أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)منشأه.
+ من الممكن تصغير حجم ورقة العمل أو تكبيره عن طريق ضبط عامل التحجيم بامتداد[**PageSetup.Zoom**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/zoom)خاصية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-ScalingFactor-1.cs" >}}
 
@@ -49,7 +49,7 @@ url: /ar/net/setting-page-options/
 
 ### **حجم الورق**
 
- عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) منشأه. ال[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)التعداد ، المدرجة أدناه.
+ عيّن حجم الورق الذي ستتم طباعة أوراق العمل عليه باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) خاصية. ال[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) تقبل الخاصية إحدى القيم المحددة مسبقًا في ملف[**حجم الورق**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)التعداد ، المدرجة أدناه.
 
 |**أنواع أحجام الورق**|**وصف**|
 |:- |:- |
@@ -178,12 +178,12 @@ url: /ar/net/setting-page-options/
 
 ### **جودة الطباعة**
 
- اضبط جودة طباعة أوراق العمل التي ستتم طباعتها بامتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**جودة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)منشأه. وحدة قياس جودة الطباعة هي Dots Per Inches (DPI).
+ اضبط جودة طباعة أوراق العمل التي ستتم طباعتها بامتداد[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**جودة الطباعة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/printquality)خاصية. وحدة قياس جودة الطباعة هي Dots Per Inches (DPI).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetPrintQuality-1.cs" >}}
 
 ### **رقم الصفحة الأولى**
 
- ابدأ ترقيم صفحات ورقة العمل باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) منشأه. ال[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)تحدد الخاصية رقم الصفحة في صفحة ورقة العمل الأولى ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
+ ابدأ ترقيم صفحات ورقة العمل باستخدام ملف[**اعداد الصفحة**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) صف دراسي'[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber) خاصية. ال[**FirstPageNumber**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/firstpagenumber)تحدد الخاصية رقم الصفحة في صفحة ورقة العمل الأولى ويتم ترقيم الصفحات التالية بترتيب تصاعدي.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-SetFirstPageNumber-1.cs" >}}

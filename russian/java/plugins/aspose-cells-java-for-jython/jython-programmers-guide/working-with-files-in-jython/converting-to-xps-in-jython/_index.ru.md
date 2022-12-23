@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /ru/java/converting-to-xps-in-jython/
 ---
-## **Aspose.Cells - Преобразование в XPS**
+## **Aspose.Cells - преобразование в XPS**
  Для добавления документов с помощью**Aspose.Cells Java для Jython**. Здесь вы можете увидеть пример кода.
 
 **Код Jython**

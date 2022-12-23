@@ -13,7 +13,7 @@ url: /ar/net/detect-hyperlink-type/
 - البريد الإلكتروني: البريد الإلكتروني
 - CellReference: ارتباط بالخلية أو النطاق المسمى.
 
- للتحقق من نوع الارتباط التشعبي ، يجب أن يكون ملف[**ارتباط تشعبي**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) فئة توفر أ[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) مع نوع إرجاع[**نوع الهدف**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). يوضح مقتطف الشفرة التالي استخدام ملف[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)الملكية باستخدام هذا[ملف اكسل المصدر](94896195.xlsx).
+للتحقق من نوع الارتباط التشعبي ، يجب أن يكون ملف[**ارتباط تشعبي**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) فئة توفر أ[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) مع نوع إرجاع[**نوع الهدف**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). يوضح مقتطف الشفرة التالي استخدام ملف[**نوع الرابط**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)الملكية باستخدام هذا[ملف اكسل المصدر](94896195.xlsx).
 
 ### مصدر الرمز
 

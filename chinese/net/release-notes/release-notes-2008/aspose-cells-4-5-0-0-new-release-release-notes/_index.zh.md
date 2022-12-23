@@ -15,7 +15,7 @@ url: /zh/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `将工作表转换为图像。
-- ` `支持将 Excel 文件转换为 HTML 文件格式。
+- ` `支持将Excel文件转换为HTML文件格式。
 - ` `支持数据从左到右排序。
 
 
@@ -27,7 +27,7 @@ url: /zh/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` `公式计算引擎支持更多功能
 - ` ` 在自动过滤器中支持更多自定义过滤器。
 - ` `增强的 Excel2007 Xlsx 支持
-- ` ` 增强的 SpreadsheetML 支持
+- ` `增强 SpreadsheetML 支持
 - ` `增强的xls2Pdf转换
 - ` `增强图表2图像转换。
 - ` `增强智能标记

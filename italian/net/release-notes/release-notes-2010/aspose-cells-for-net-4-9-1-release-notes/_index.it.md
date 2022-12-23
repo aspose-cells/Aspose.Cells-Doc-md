@@ -45,22 +45,22 @@ url: /it/net/aspose-cells-for-net-4-9-1-release-notes/
 
 
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |13526 | Grafico2Immagine| Problema con il metodo Chart ToImage|
 |14888 | Grafico2Immagine| Problema di posizionamento PlotArea con Chart.ToImage|
-|16011 | CSV| Leggi CSV con newline|
+|16011 |CSV | Leggi CSV con newline|
 |14183 | PDF| Intestazione/piè di pagina non allineati con i margini della pagina|
 |14501 | PDF| Errore durante la conversione del file excel in pdf|
 |15741 | PDF| Griglia non visualizzata|
 |15910 | PDF| Collegamento mancante tra segnalibro e pagina|
 |16207 | PDF|Errore durante il salvataggio del file PDF|
 |16260 | PDF| Conversione di vari tipi di file in tif|
-|16328 | PDF| Problema di conversione da XLS a PDF|
+|16328 | PDF| Conversione da XLS a PDF Problema|
 |16377 | PDF| Parte del testo nelle celle sta scomparendo|
-|16402 | PDF| Problema di conversione da XLS a PDF|
+|16402 | PDF| Conversione da XLS a PDF Problema|
 |16472 | PDF| Problemi di formattazione|
-|16499 | PDF| PDF che non incorpora i caratteri|
+|16499 | PDF| PDF non incorpora i caratteri|
 |13606 | Foglio di lavoro2Immagine| Alcune differenze nel file Excel stampato/salvato|
 |16236 | Foglio di lavoro2Immagine| Il problema di sheet2imagebypage|
 |15981 | XL| Problema relativo al calcolo della formula|

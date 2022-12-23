@@ -6,7 +6,7 @@ url: /de/net/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber auch die vorhandene Formatierung beibehalten. Aspose.Cells ermöglicht Ihnen dies mit der[**StyleFlag.Alignments**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) Eigentum. Wenn Sie es einstellen**Stimmt** , Ausrichtungsänderungen finden sonst nicht statt. Bitte beachten Sie,[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) Objekt wird als Parameter an übergeben[**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)Methode, die die Formatierung tatsächlich auf einen Bereich von Zellen anwendet.
+Manchmal möchten Sie die Ausrichtung mehrerer Zellen ändern, aber auch die vorhandene Formatierung beibehalten. Aspose.Cells ermöglicht Ihnen dies mit der[**StyleFlag.Alignments**](https://reference.aspose.com/cells/net/aspose.cells/styleflag/properties/alignments) Eigentum. Wenn Sie es einstellen**wahr** , Ausrichtungsänderungen finden sonst nicht statt. Bitte beachten Sie,[**StyleFlag**](https://reference.aspose.com/cells/net/aspose.cells/styleflag) Objekt wird als Parameter an übergeben[**Range.ApplyStyle()**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/applystyle)Methode, die die Formatierung tatsächlich auf einen Bereich von Zellen anwendet.
 
 ## **Ändern Sie die Cells-Ausrichtung und behalten Sie die vorhandene Formatierung bei**
 

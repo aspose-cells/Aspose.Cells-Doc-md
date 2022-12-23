@@ -22,7 +22,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Nya egenskaper**
 
 
- (CELLSNET-43905) - Stöd för att ändra HTML-hyperlänkens målattribut till "_blank"
+ (CELLSNET-43905) - Stöd för att ändra HTML hyperlänkens målattribut till "_blank"
 
  (CELLSNET-43885) - Möjlighet att hämta ConnectionString för ExternalConnection av typen WebQuery
 
@@ -36,7 +36,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43933) - Cell.Formel kan acceptera en ogiltig formel och API försöker korrigera den
 
- (CELLSNET-43476) - API behövs för att kontrollera om licensen är laddad eller inte
+(CELLSNET-43476) - API behövs för att kontrollera om licensen är laddad eller inte
 
  (CELLSNET-43310) - Byta namn på dubbla kalkylbladsnamn vid kombination av arbetsböcker
 
@@ -48,13 +48,13 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43946) - Cell.HtmlString returnerar en sträng som återger den normala strängen som nedsänkt
 
-(CELLSNET-43941) - Diagram genereras inte korrekt
+ (CELLSNET-43941) - Diagram genereras inte korrekt
 
  (CELLSNET-43936) - Visar förklaringsnycklar även om Chart.ChartDataTable.ShowLegendKey är inställt på false
 
  (CELLSNET-43991) - Att ta bort kalkylbladen förstör den resulterande XLSX
 
- (CELLSNET-43988) - Lösenord att ändra försvinner när XLSX åter sparas med Aspose.Cells
+ (CELLSNET-43988) - Lösenord att ändra går förlorat när XLSX sparas på nytt med Aspose.Cells
 
  (CELLSNET-43984) - Lösenord att ändra konverterar till lösenord för att öppna när XLSM sparas på nytt
 
@@ -62,7 +62,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43982) - Lösenord att ändra konverterar till lösenord för att öppna när XLTM sparas på nytt
 
- (CELLSNET-43981) - Lösenord att ändra försvinner när XLTM sparas på nytt
+(CELLSNET-43981) - Lösenord att ändra försvinner när XLTM sparas på nytt
 
  (CELLSNET-43980) - Lösenord att ändra konverterar till lösenord för att öppna när XLTX sparas på nytt
 
@@ -72,9 +72,9 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43976) - Flera försök att öppna lösenordsskyddad XLSX
 
-(CELLSNET-43973) - Lösenordet att ändra försvinner efter att XLSM har sparats på nytt
+ (CELLSNET-43973) - Lösenord att ändra försvinner efter att XLSM har sparats på nytt
 
- (CELLSNET-43968) - Excel-applikationen rekommenderar att den resulterande XLSB öppnas i skrivskyddad
+ (CELLSNET-43968) - Excel-programmet rekommenderar att du öppnar den resulterande XLSB i skrivskyddad
 
  (CELLSNET-43967) - Lösenordsskyddad XLT blir skadad efter återlagring
 
@@ -86,7 +86,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43950) - Skyddsidentifieringsproblem i Aspose.Cells
 
- (CELLSNET-43944) - Bildstorleken är inte korrekt och ändras efter återställning
+(CELLSNET-43944) - Bildstorleken är inte korrekt och ändras efter återställning
 
  (CELLSNET-43943) - Kan inte läsa upphöjd från celltecken
 
@@ -96,7 +96,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43928) - DocumentProperty Author-värdet har lästs ofullständigt
 
-(CELLSNET-43927) - #REF i formel som refererar till listobjekt på annat kalkylblad
+ (CELLSNET-43927) - #REF i formel som refererar till listobjekt på annat kalkylblad
 
  (CELLSNET-43891) - Problem med Workbook.VBAProject.Modules operationer
 
@@ -104,27 +104,27 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-42120) - DisplayStringValue-värdet är felaktigt i vissa scenarier
 
- (CELLSNET-42110) - Gränsuppsättning för intervall i XLSX visas inte i PDF
+ (CELLSNET-42110) - Kantuppsättning för intervall i XLSX visas inte i PDF
 
 
 ## **Undantag**
 
 
- (CELLSNET-43932) - Form till bild Fel! medan du renderar ett kalkylblad till PDF
+ (CELLSNET-43932) - Form till bild Fel! medan du renderar ett kalkylark till PDF
 
  (CELLSNET-43964) - Att få visningsstil för alla celler kastar IndexOutOfRangeException
 
- (CELLSNET-43926) - CellsException at Workbook.CalculateFormula
+(CELLSNET-43926) - CellsException at Workbook.CalculateFormula
 
  (CELLSNET-43911) - CellsException vid Workbook.Save
 
  (CELLSNET-43930) - GetNamedRanges()-metoden kastar Domain First Chance Exception
 
- (CELLSNET-43918) - Undantag för att öppna mallen XLSX-fil
+ (CELLSNET-43918) - Undantag för att öppna mallen XLSX filen
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -138,7 +138,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 ## **Förbättringar**
 
 
-(CELLSNET-43873) - Gammal kod i - Formatera ett intervall på Cells - artikeln fungerar inte
+ (CELLSNET-43873) - Gammal kod i - Formatera ett intervall på Cells - artikeln fungerar inte
 
 
 ## **Buggar**
@@ -154,7 +154,7 @@ url: /sv/net/aspose-cells-for-net-8-6-1-release-notes/
 
  (CELLSNET-43952) - LoadValueList API saknas i klassen Aspose.Cells.GridWeb.Validation
 
- (CELLSNET-43859) - Cell fylld med gul färg exporteras inte till XLSX-fil
+(CELLSNET-43859) - Cell fylld med gul färg exporteras inte till filen XLSX
 
 
 ## **Offentlig API och bakåtinkompatibla ändringar**

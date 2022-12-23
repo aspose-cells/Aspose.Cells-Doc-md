@@ -6,14 +6,14 @@ url: /it/net/save-excel-into-pdf-with-standard-or-minimum-size/
 ---
 {{% alert color="primary" %}} 
 
- Per impostazione predefinita, Aspose.Cells salva Excel in PDF con dimensioni standard. Tuttavia, puoi anche salvarlo con Dimensione minima usando il file[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype) proprietà. Accetta i seguenti valori
+ Per impostazione predefinita, Aspose.Cells salva Excel in PDF con dimensione Standard. Tuttavia, puoi anche salvarlo con Dimensione minima usando il file[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype) proprietà. Accetta i seguenti valori
 
 - PdfOptimizationType.Standard
 - PdfOptimizationType.MinimumSize
 
 {{% /alert %}} 
 ## **Salva Excel in PDF con dimensione standard o minima utilizzando Aspose.Cells**
- Il seguente codice di esempio mostra come salvare Excel in PDF con dimensioni standard o minime utilizzando[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)proprietà.
+ Il seguente codice di esempio mostra come salvare Excel in PDF con la dimensione standard o minima utilizzando[PdfSaveOptions.OptimizationType](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)proprietà.
 
 
 

@@ -6,7 +6,7 @@ url: /it/java/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
 ## **Possibili scenari di utilizzo**
 
- Spesso è necessario conoscere i caratteri utilizzati nella cartella di lavoro a scopo di rendering. Quando converti la cartella di lavoro in PDF o immagine, Aspose.Cells richiede che tutti i caratteri necessari siano installati sul tuo sistema o presenti nel tuo**directory dei caratteri**Se Aspose.Cells non è in grado di trovare il font necessario, prova a sostituirlo con un altro font adatto che è presente sul tuo sistema o nella directory dei font e può sostituire il tuo font effettivo. Ciò non solo comporta il rendering indesiderato di PDF o immagini, ma richiede anche tempo di elaborazione per trovare i caratteri adatti.
+ Spesso è necessario conoscere i caratteri utilizzati nella cartella di lavoro a scopo di rendering. Quando converti la tua cartella di lavoro in PDF o immagine, allora Aspose.Cells richiede che tutti i caratteri necessari siano installati sul tuo sistema o presenti nel tuo**directory dei caratteri**Se Aspose.Cells non è in grado di trovare il font necessario, prova a sostituirlo con un altro font adatto che è presente sul tuo sistema o nella directory dei font e può sostituire il tuo font effettivo. Ciò non solo comporta il rendering indesiderato di PDF o immagini, ma richiede anche tempo di elaborazione per trovare caratteri adatti.
 
 Per far fronte a tali casi, dovresti sapere quali caratteri vengono utilizzati dalla tua cartella di lavoro, quindi installarli sul tuo sistema in caso di ambiente Windows o inserirli nella directory dei caratteri in caso di ambiente Windows o Linux.
 
@@ -14,11 +14,11 @@ Per far fronte a tali casi, dovresti sapere quali caratteri vengono utilizzati d
 
 ## **Ottieni un elenco di caratteri utilizzati in un foglio di calcolo o in una cartella di lavoro**
 
- Il seguente codice di esempio carica il file Excel di origine e recupera l'elenco dei caratteri utilizzati al suo interno. Ha un foglio di lavoro fittizio che ha alcuni caratteri fittizi aggiunti a scopo illustrativo. Quando il codice stampa tutti i caratteri all'interno della cartella di lavoro, stampa anche quei caratteri fittizi. Lo screenshot seguente mostra il[file excel di esempio](sampleGetFonts.xlsx) come sono elencati i caratteri fittizi.
+Il seguente codice di esempio carica il file Excel di origine e recupera l'elenco dei caratteri utilizzati al suo interno. Ha un foglio di lavoro fittizio che ha alcuni caratteri fittizi aggiunti a scopo illustrativo. Quando il codice stampa tutti i caratteri all'interno della cartella di lavoro, stampa anche quei caratteri fittizi. Lo screenshot seguente mostra il[file excel di esempio](sampleGetFonts.xlsx) e come sono elencati i caratteri fittizi.
 
 ![cose da fare:immagine_alt_testo](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-GetFontsUsedinWorkbook-GetFontsUsedinWorkbook.java" >}}
 

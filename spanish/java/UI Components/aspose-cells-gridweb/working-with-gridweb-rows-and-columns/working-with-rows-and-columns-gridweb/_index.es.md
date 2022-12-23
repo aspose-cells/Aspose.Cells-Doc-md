@@ -118,7 +118,7 @@ Para personalizar el encabezado o título de una columna:
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-rowsandcolumns-CustomizingColumnHeader-CustomizingColumnHeader.jsp" >}}
 ## **Congelar y descongelar filas y columnas**
-Este tema explica cómo congelar y descongelar filas y columnas. La congelación de columnas o filas permite a los usuarios mantener visibles los encabezados de las columnas o los títulos de las filas mientras se desplazan a otras partes de la hoja de trabajo. Esta característica es muy útil cuando se trabaja con hojas de cálculo que contienen grandes volúmenes de datos. Cuando los usuarios se desplazan solo los datos se desplazan hacia abajo y los encabezados permanecen en su lugar, lo que facilita la lectura de la fecha. La característica de congelar paneles solo es compatible con Internet Explorer 6.0 o superior.
+Este tema explica cómo congelar y descongelar filas y columnas. La congelación de columnas o filas permite a los usuarios mantener visibles los encabezados de las columnas o los títulos de las filas mientras se desplazan a otras partes de la hoja de cálculo. Esta característica es muy útil cuando se trabaja con hojas de cálculo que contienen grandes volúmenes de datos. Cuando los usuarios se desplazan solo los datos se desplazan hacia abajo y los encabezados permanecen en su lugar, lo que facilita la lectura de la fecha. La característica de congelar paneles solo es compatible con Internet Explorer 6.0 o superior.
 ### **Congelación de filas y columnas**
 Para congelar un número específico de filas y columnas:
 

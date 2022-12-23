@@ -15,7 +15,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.10.
 |CELLSJAVA-41814|Admite la clasificación de datos personalizados para el área específica en el informe de tabla dinámica|Nueva caracteristica|
 |CELLSJAVA-42988|Problema de rendimiento con la fórmula de cálculo ()|Mejora|
 |CELLSJAVA-41103|La coloración y el formato de los datos de la tabla dinámica no se representan correctamente|Insecto|
-|CELLSJAVA-43007|El PDF no se genera como se esperaba|Insecto|
+|CELLSJAVA-43007|PDF no se genera como se esperaba|Insecto|
 |CELLSJAVA-43025|Cell.getStyle.getCustom devuelve un formato incorrecto para la configuración regional alemana|Insecto|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException al cargar el archivo de Excel|Excepción|
 

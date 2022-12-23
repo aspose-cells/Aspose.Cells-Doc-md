@@ -8,7 +8,7 @@ url: /zh/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/
 
 *工作表.SheetId*财产是在里面找到的*文档格式.OpenXml.电子表格*命名空间并且是 OpenXml 的一部分。可以在里面看到这个属性和它的值*工作簿.xml*如以下屏幕截图所示。 Aspose.Cells 提供等效的属性[**工作表.TabId**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/tabid).
 
-![待办事项：图像_替代_文本](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](utilize-sheet-sheetid-property-of-openxml-using-aspose-cells_1.png)
 
 ## **使用 Aspose.Cells 利用 OpenXml 的 Sheet.SheetId 属性**
 

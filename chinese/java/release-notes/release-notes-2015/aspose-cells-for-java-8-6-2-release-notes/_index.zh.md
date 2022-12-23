@@ -19,7 +19,7 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSJAVA-41144) - 能够从 StyleCollection 中删除 Style
@@ -30,7 +30,7 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41554) - 从 HTML 转换为 EXCEL 格式时缺少图像
 
-(CELLSJAVA-41549) - 通过 Aspose.Cells v8.6.1 保存后，XLSB 在 Excel 2010 中损坏
+(CELLSJAVA-41549) - Aspose.Cells v8.6.1 保存后 XLSB 在 Excel 2010 中损坏
 
 (CELLSJAVA-41530) - 经典数据透视表布局设置在重新保存模板 XLSB 文件时丢失
 
@@ -38,7 +38,7 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41546) - Workbook.calculateFormula 方法无限期卡住
 
-(CELLSJAVA-41544) - 从“XML 电子表格 2003”转换为 XLSX 时出现日文日期格式问题
+(CELLSJAVA-41544) - 从“XML Spreadsheet 2003”转换为 XLSX 时出现日语日期格式问题
 
 (CELLSJAVA-41543) - 俄语字母的 CODE() 函数问题
 
@@ -48,21 +48,21 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41567) - Excel 中的 webdings 字体问题到 PDF 渲染
 
-(CELLSJAVA-41559) - 保存为 PDF 会生成不正确的色阶颜色
+(CELLSJAVA-41559) - 保存到 PDF 会生成不正确的色阶颜色
 
-(CELLSJAVA-41556) - 打印 Aspose.Cells 生成的 PDF 在一定程度上改变了嵌入的条码
+(CELLSJAVA-41556) - 打印生成的 Aspose.Cells PDF 在某种程度上改变了嵌入的条码
 
 (CELLSJAVA-41552) - 旋转文本值的宽度和高度似乎不正确
 
-(CELLSJAVA-41578) - 在执行 chart.toPdf(fileName) 方法后不会立即生成 PDF 图表
+(CELLSJAVA-41578) - 在执行 chart.toPdf(fileName) 方法后，并未生成 PDF 的图表
 
 (CELLSJAVA-41574) - Y 轴和图例之间的间距问题
 
-(CELLSJAVA-41557) - 将图表呈现为 PDF 时，轴标签刻度线之间的差异从 10 更改为 20
+(CELLSJAVA-41557) - 在将图表呈现为 PDF 时，轴标签刻度线之间的差异从 10 更改为 20
 
-(CELLSJAVA-41553) - 图表颜色显示 PDF 输出的重大变化
+ (CELLSJAVA-41553) - 图表颜色显示 PDF 输出的重大转变
 
-(CELLSJAVA-41539) - 将电子表格呈现为 PDF 时垂直轴范围与源图表不匹配
+(CELLSJAVA-41539) - 在将电子表格呈现为 PDF 时，垂直轴范围与源图表不匹配
 
 (CELLSJAVA-41536) - 根据 MS Excel 2010/2013，关于图表中系列线形状的问题
 
@@ -70,9 +70,9 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41520) - 图表图像从顶部和右侧被剪切
 
-(CELLSJAVA-41509) - 将图表呈现为 PDF 时图表边框出现问题
+(CELLSJAVA-41509) - 将图表渲染到 PDF 时图表边框出现问题
 
-(CELLSJAVA-41505) - 将图表呈现为 PDF 时右边框和底边框被修剪
+(CELLSJAVA-41505) - 在将图表呈现为 PDF 时，右侧和底部边框被修剪
 
 (CELLSJAVA-41560) - 如何获取工作表的默认颜色
 
@@ -86,7 +86,7 @@ url: /zh/java/aspose-cells-for-java-8-6-2-release-notes/
 
 (CELLSJAVA-41550) - Workbook.combine 中的 java.lang.NullPointerException
 
-(CELLSJAVA-41564) - NullPointerExceptions 调用 com.aspose.cells.Row
+ (CELLSJAVA-41564) - NullPointerExceptions 调用 com.aspose.cells.Row
 
 
 

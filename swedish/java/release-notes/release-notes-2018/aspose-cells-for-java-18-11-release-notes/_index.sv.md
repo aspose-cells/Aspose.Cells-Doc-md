@@ -15,7 +15,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.11.
 |CELLSJAVA-42738|Fel räkning av valideringsvärden läses från XLSX|Förbättring|
 |CELLSJAVA-42734|Problem samtidigt som på varandra följande avgränsare behandlas som distinkta|Förbättring|
 |CELLSJAVA-42739|Aspose.Cells.GridWeb (Java) kraschar när den används samtidigt i en miljö med flera användare|Insekt|
-|CELLSJAVA-42737|Diagramlinje saknas i XLSX->PNG-konvertering|Insekt|
+|CELLSJAVA-42737|Diagramlinje saknas i XLSX->PNG konvertering|Insekt|
 |CELLSJAVA-42735|Problem med metoden getActualChartSize|Insekt|
 |CELLSJAVA-40861|SmartArt kopierar inte när arbetsboken kopieras|Insekt|
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -31,7 +31,7 @@ Representerar beräkningsdata för en cell som beräknas.
 ### **Lägger till metoden AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**
 Ger en metod för användare att samla in och bearbeta cirkulära referenser.
 ### **Lägger till egenskapen TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
-Tillåter användaren att välja om konsekutiva avgränsare ska tas som en när CSV-fil importeras.
+Tillåter användaren att välja om konsekutiva avgränsare ska tas som en vid import av CSV-fil.
 ### **Lägger till metoden FormatCondition.SetFormulas(strängformel1, strängformel2, bool ärR1C1, bool ärLokal)**
 Ger ett effektivt och bekvämt sätt för användaren att ställa in formler för FormatCondition.
 ### **Lägger till metoden Validation.GetListValue(int row, int column).**

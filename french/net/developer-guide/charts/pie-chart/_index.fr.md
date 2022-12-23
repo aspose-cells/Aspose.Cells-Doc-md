@@ -7,7 +7,7 @@ url: /fr/net/creating-pie-chart-with-leader-lines/
 ---
 {{% alert color="primary" %}}
 
- Cet article explique comment créer un graphique à secteurs avec des lignes de repère à partir de zéro tout en utilisant Aspose.Cells for .NET API. Dans Excel, l'option "Afficher les lignes de repère" est définie par défaut. Ainsi, lorsque vous créez un graphique à secteurs dans Excel, les lignes de repère sont affichées. Cependant, lors de la création d'un graphique similaire avec les API Aspose.Cells, vous devez définir explicitement le[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) propriété.
+ Cet article explique comment créer un graphique à secteurs avec des lignes de repère à partir de zéro tout en utilisant Aspose.Cells for .NET API. Dans Excel, l'option "Afficher les lignes de repère" est définie par défaut. Ainsi, lorsque vous créez un graphique à secteurs dans Excel, les lignes de repère sont affichées. Cependant, lors de la création d'un graphique similaire avec les API Aspose.Cells, vous devez définir explicitement le[**Series.HasLeaderLines**](https://reference.aspose.com/cells/net/aspose.cells.charts/series/properties/hasleaderlines) la propriété.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Enfin, le code suivant enregistre le graphique au format image et le classeur au
 
 ## **Sujets avancés**
 - [Couleurs de tranche ou de secteur personnalisées dans le graphique à secteurs](/cells/fr/net/custom-slice-or-sector-colors-in-pie-chart/)
-- [Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteur](/cells/fr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
+- [Rechercher si les points de données se trouvent dans le deuxième secteur ou barre sur un secteur de secteur ou une barre de graphique en secteurs](/cells/fr/net/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-or-bar-of-pie-chart/)
 
 ## Articles Liés
 

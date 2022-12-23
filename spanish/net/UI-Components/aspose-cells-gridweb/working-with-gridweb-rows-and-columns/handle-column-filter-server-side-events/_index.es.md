@@ -1,5 +1,5 @@
 ﻿---
-title: Manejar eventos secundarios del servidor de filtro de columna
+title: Manejar eventos secundarios del servidor de filtro de columnas
 type: docs
 weight: 90
 url: /es/net/handle-column-filter-server-side-events/

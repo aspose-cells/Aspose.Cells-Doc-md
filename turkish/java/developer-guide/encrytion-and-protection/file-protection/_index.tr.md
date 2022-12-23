@@ -14,15 +14,15 @@ Microsoft Excel (97 - 365 ), elektronik tablolarınızı şifrelemenizi / parola
 
 MS Excel'de (örn. MS Excel 2003), dosya şifreleme ayarlarını uygulamak için şunları deneyebilirsiniz:
 
--  itibaren**Aletler** menü, seç**Seçenekler** ve ardından**Güvenlik** sekme.
+-  itibaren**Araçlar** menü, seç**Seçenekler** ve ardından**Güvenlik** sekme.
 -  Giriş**açmak için şifre** ve tıklayın**Gelişmiş** buton.
 - Şifreleme türünü seçin ve parolayı onaylayın.
 
-![yapılacaklar:resim_alternatif_Metin](encrypting-excel-files_1.png)
+![yapılacaklar:resim_alternatif_metin](encrypting-excel-files_1.png)
 
 **Şekil: Seçenekler iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_Metin](encrypting-excel-files_2.png)
+![yapılacaklar:resim_alternatif_metin](encrypting-excel-files_2.png)
 
 **Şekil: Şifreleme Türü iletişim kutusu**
 

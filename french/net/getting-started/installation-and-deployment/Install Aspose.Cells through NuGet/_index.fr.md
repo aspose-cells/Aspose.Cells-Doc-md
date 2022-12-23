@@ -30,18 +30,18 @@ Vous pouvez suivre les étapes ci-dessous pour référencer le composant Aspose.
 Pour utiliser Aspose.Cells dans une application, ajoutez-y une référence. Pour ajouter une référence à l'aide de Visual Studio :
 
 1.  Dans le**Explorateur de solution**, développez le nœud du projet auquel vous souhaitez ajouter une référence.
-1.  Faites un clic droit sur le**Références** nœud pour le projet et sélectionnez**Ajouter une référence** du menu.
+1.  Faites un clic droit sur le**Les références** nœud pour le projet et sélectionnez**Ajouter une référence** du menu.
 1.  Dans le**Ajouter une référence** boîte de dialogue, sélectionnez l'onglet .NET (sélectionné par défaut). Si vous avez effectué l'installation à l'aide du programme d'installation MSI, Aspose.Cells apparaîtra dans le volet supérieur.
 1.  Sélectionnez-le et cliquez**Sélectionner**.
 
 Si vous avez téléchargé ou décompressé uniquement la DLL :
 
 1.  Localisez le fichier Aspose.Cells.dll à l'aide du**Parcourir** bouton. Aspose.Cells devrait apparaître dans le**Composants sélectionnés** volet de la boîte de dialogue.
-1.  Cliquez sur**D'ACCORD** . La référence Aspose.Cells figure sous le**Références** noeud du projet.
+1.  Cliquez sur**D'ACCORD** . La référence Aspose.Cells figure sous le**Les références** noeud du projet.
 ### **Référencement du composant à partir d'un projet de profil client VS.NET 2010**
 Si le framework cible de votre projet est .NET Framework 3.5/4 Client Profile, utilisez le fichier de composant Aspose.Cells.dll situé dans le dossier net_ClientProfile de votre répertoire d'installation. Par exemple:
 
--  Dans**Explorateur de solution** de VS.NET 2010 pour votre projet, faites un clic droit**Références** et sélectionnez**Ajouter une référence**.
+-  Dans**Explorateur de solution** de VS.NET 2010 pour votre projet, faites un clic droit**Les références** et sélectionnez**Ajouter une référence**.
 -  Sélectionnez le**Parcourir** dans la boîte de dialogue et cliquez sur la liste déroulante Rechercher.
 - Recherchez et sélectionnez le fichier de composant Aspose.Cells.dll dans votre répertoire d'installation, par exemple : .../Program Files/Aspose/Aspose.Cells for .NET/Bin/net_ClientProfile/ **(Assurez-vous que vous avez installé le produit à l'aide du programme d'installation MSI sur votre machine .)**
 -  Cliquez sur**D'ACCORD** pour fermer la boîte de dialogue
@@ -55,7 +55,7 @@ Si le framework cible de votre projet VS.NET 2010 est ".NET Framework 4" ou autr
 Pour utiliser un contrôle de grille dans votre application, ajoutez-y une référence. Pour référencer un contrôle de grille dans Visual Studio, procédez comme suit :
 
 -  Dans**Explorateur de solution**, développez le nœud du projet auquel vous souhaitez ajouter une référence.
--  Faites un clic droit sur le**Références** nœud pour le projet et sélectionnez**Ajouter une référence** du menu.
+-  Faites un clic droit sur le**Les références** nœud pour le projet et sélectionnez**Ajouter une référence** du menu.
 -  Dans le**Ajouter une référence** boîte de dialogue, sélectionnez la**onglet .NET** (sélectionné par défaut). Si vous avez utilisé le programme d'installation MSI pour installer Aspose.Cells for .NET, Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb apparaissent dans le volet supérieur.
 -  Sélectionnez-les et cliquez**Sélectionner**.
 - Les références Aspose.Cells.GridDesktop et Aspose.Cells.GridWeb apparaissent sous le nœud Références du projet.
@@ -67,7 +67,7 @@ Si vous avez téléchargé et décompressé uniquement la DLL :
 ## **Désinstallation Aspose.Cells for .NET**
 Si vous avez utilisé le programme d'installation MSI pour déployer Aspose.Cells for .NET, suivez ces étapes pour supprimer complètement le composant et les contrôles, les démos et documentations associées :
 
--  Du**Commencer** menu, sélectionnez**Réglages** , suivie par**Panneau de commande**.
+-  Du**Démarrer** menu, sélectionnez**Réglages** , suivie par**Panneau de commande**.
 -  Cliquez sur**Ajouter/supprimer des programmes**.
 - Sélectionnez Aspose.Cells for .NET (version).
 -  Cliquez sur**Modifier/Supprimer** pour supprimer Aspose.Cells.

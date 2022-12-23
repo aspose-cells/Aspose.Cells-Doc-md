@@ -175,7 +175,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 **كيف تعمل؟**
 
- ال**احذف صف** يتم التعامل مع الزر بواسطة وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteRow**:
+ ال**احذف صف** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteRow**:
 #### **WorksheetView.deleteRow**
 {{< highlight "java" >}}
 
@@ -215,7 +215,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 **كيف تعمل؟**
 
- ال**حذف العمود** يتم التعامل مع الزر بواسطة وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteColumn**:
+ ال**حذف العمود** يتم التعامل مع الزر من خلال وحدة برامج JSF الخلفية**WorksheetView** باستخدام الطريقة**WorksheetView.deleteColumn**:
 #### **WorksheetView.deleteColumn**
 {{< highlight "java" >}}
 
@@ -247,7 +247,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 1. انقر فوق أي خلية داخل العمود.
 1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**عرض العمود** زر للفتح**عرض العمود**الحوار.
+1.  انقر**عرض العمود** زر للفتح**عرض العمود** الحوار.
 1. أدخل قيمة جديدة في مربع الحوار.
 1.  انقر**قريب**.
 
@@ -259,7 +259,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 
 1. انقر فوق أي خلية داخل الصف.
 1.  التبديل إلى**علامة التبويب تنسيق**.
-1.  انقر**ارتفاع الصف** زر للفتح**ارتفاع الصف**الحوار.
+1.  انقر**ارتفاع الصف** زر للفتح**ارتفاع الصف** الحوار.
 1. أدخل قيمة جديدة في مربع الحوار.
 1.  انقر**قريب**.
 
@@ -315,7 +315,7 @@ url: /ar/java/spreadsheet-editor-working-with-rows-and-columns/
 1. انقر فوق الخلية حيث تريد الجديد.
 1.  التبديل إلى**إدراج علامة التبويب**.
 1.  انقر**Cell** زر.
-1.  يختار**إزاحة Cells لليمين** أو**إزاحة Cells للأسفل** زر.
+1.  أختر**إزاحة Cells لليمين** أو**إزاحة Cells للأسفل** زر.
 
 سيضيف المحرر خلية جديدة في الموقع المحدد. سيتم تحويل الخلايا المجاورة تلقائيًا إما أفقيًا أو رأسيًا لإنشاء مساحة للخلايا الجديدة.
 

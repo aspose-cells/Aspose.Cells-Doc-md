@@ -16,8 +16,8 @@ url: /fr/net/aspose-cells-for-net-5-0-0-release-notes/
 
 - Comprend la prise en charge du format de fichier MS Excel 2007 XLSB.
  Fournit la fonction spéciale Copier et Coller.
- Prend en charge le tri des marqueurs intelligents.
-37 améliorations et correctifs.
+Prend en charge le tri des marqueurs intelligents.
+ 37 améliorations et correctifs.
 
  Ce qui a changé dans Aspose.Cells.GridWeb :
 

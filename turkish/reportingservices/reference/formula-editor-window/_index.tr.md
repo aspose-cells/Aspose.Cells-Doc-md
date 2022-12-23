@@ -25,7 +25,7 @@ Microsoft Excel hücresindeki bir formülü düzenlemek için:
 
 **Formülü Düzenle iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](formula-editor-window_1.png)
+![yapılacaklar:resim_alternatif_metin](formula-editor-window_1.png)
 
 Formülü Düzenle iletişim kutusu, aşağıda açıklanan bölümlere ayrılmıştır.
 #### **Düzenleme Alanı**
@@ -39,7 +39,7 @@ Formül alanı, her biri bir formül oluşturmak için kullanılan bilgileri lis
 #### **Kontroller**
 İletişim kutusunun çeşitli denetimleri vardır:
 
-|**Düğme Adı** |**Tanım** |
+|**Düğme Adı** |**Açıklama** |
 |:- |:- |
 | Geri alma| Bir işlemi geri alır.|
 | Yapıştırmak| Formül alanında listelenen bileşenlerden oluşan bir karakter dizisini düzenleme alanına yapıştırır.|

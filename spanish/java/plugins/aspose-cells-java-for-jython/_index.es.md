@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 ## **Apoyar, Extender y Contribuir**
 
-### **Apoyo**
+### **Soporte**
 
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 

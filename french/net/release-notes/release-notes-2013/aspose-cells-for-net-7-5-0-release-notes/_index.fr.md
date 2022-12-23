@@ -22,13 +22,13 @@ url: /fr/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Insectes
 
- 41748 - Classeur enregistré en tant que XLSX corrompu
+ 41748 - Classeur enregistré sous XLSX corrompu
 
  41710 - Un caractère devient un point d'interrogation
 
- 41614 - Le PDF n'affiche pas les éléments filtrés
+ 41614 - PDF n'affiche pas les éléments filtrés
 
-41695 - La légende du graphique est dans la mauvaise position
+ 41695 - La légende du graphique est dans la mauvaise position
 
 41632 - La légende du graphique ne peut pas être alignée au centre 41745 - Certaines fonctions de copier/coller sont cassées
 
@@ -44,6 +44,6 @@ url: /fr/net/aspose-cells-for-net-7-5-0-release-notes/
 
  Insectes
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
  Insectes

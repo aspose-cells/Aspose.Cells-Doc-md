@@ -4,7 +4,7 @@ type: docs
 weight: 25
 url: /tr/java/delete-ranges-from-Excel/
 ---
-## **giriiş**
+## **Giriş**
 
 Excel'de bir aralık seçebilir, ardından onu silebilir ve diğer verileri sola veya yukarı kaydırabilirsiniz.
 

@@ -65,7 +65,7 @@ workbook.Save(output);
 |加载时刷新|如果在打开文件时应刷新此连接，则为真；否则为真。否则，假的。|
 |保存数据|如果要保存通过连接获取的用于填充表的外部数据，则为真<br>与工作簿；否则，假的。|
 |保存密码|如果要将密码保存为连接字符串的一部分，则为真；否则为真。否则，假。|
-|源文件|当外部数据源是基于文件的时使用。当连接到这样的数据时<br>source 失败，电子表格应用程序尝试直接连接到该文件。或许<br>以 URI 或系统特定的文件路径表示法表示。|
+|源文件|当外部数据源是基于文件的时使用。当连接到这样的数据时<br>source 失败，电子表格应用程序尝试直接连接到该文件。也许<br>以 URI 或系统特定的文件路径表示法表示。|
 |SSOId|用于中间体之间身份验证的单点登录 (SSO) 标识符<br>spreadsheetML 服务器和外部数据源。|
 |类型|指定数据源类型。|
 
@@ -116,7 +116,7 @@ workbook.Save(output);
 ### **能够为电子表格和图表导出设置所需的图像尺寸**
 Aspose.Cells for .NET 8.4.1 公开了 ImageOrPrintOptions.SetDesiredSize 方法以在将电子表格和图表导出到图像时设置结果图像的尺寸。 ImageOrPrintOptions.SetDesiredSize 方法接受两个整数类型参数，其中第一个是所需的宽度，第二个是所需的高度。
 
-以下代码片段显示了如何在将工作表导出为 PNG 时设置所需的尺寸。
+以下代码片段显示了如何在将工作表导出到 PNG 时设置所需的尺寸。
 
 **C#**
 
@@ -157,8 +157,8 @@ renderer.ToImage(0, "output.png");
 {{% /alert %}} 
 
 
-### **将注释呈现为 PDF**
-随着 v8.4.1 的发布，Aspose.Cells API 提供了 PageSetup.PrintComments 属性和 PrintCommentsType 枚举，以便在将电子表格转换为 PDF 格式时方便地呈现评论。 PrintCommentsType 枚举具有以下常量。
+### **将评论呈现给 PDF**
+随着v8.4.1的发布，Aspose.Cells API 提供了PageSetup.PrintComments属性& PrintCommentsType枚举，以便在将电子表格转换为PDF格式时方便注释的呈现。 PrintCommentsType 枚举具有以下常量。
 
 - PrintCommentsType.PrintNoComments：不呈现评论。
 - PrintCommentsType.PrintInPlace：注释将在放置它们的地方呈现。

@@ -10,7 +10,7 @@ url: /ar/java/data-in-non-primitive-shape/
 
 ## **شكل غير بدائي**
 
- في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . يمكنك التحقق من نوعها باستخدام ملف[**Shape.getAutoShapeType ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)طريقة.
+في Aspose.Cells ، يتم تخصيص النوع للأشكال غير البدائية[**نوع تلقائي**](https://reference.aspose.com/cells/java/com.aspose.cells/autoshapetype#NOT_PRIMITIVE) . يمكنك التحقق من نوعها باستخدام ملف[**Shape.getAutoShapeType ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#AutoShapeType)طريقة.
 
  قم بالوصول إلى بيانات الشكل باستخدام ملف[**Shape.getPaths ()**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#Paths)طريقة. تقوم بإرجاع جميع المسارات المتصلة التي تشكل الشكل غير البدائي. هذه المسارات من النوع ShapePath الذي يحتوي على قائمة بجميع المقاطع التي بدورها تحتوي على النقاط في كل مقطع.
 

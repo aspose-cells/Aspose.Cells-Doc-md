@@ -44,13 +44,13 @@ Vi är
 - Kopiering av fil med Aspose Cells kräver reparationsarbete
 - Tänker att en Excel 97 XLS-fil är ett Word-dokument
 
- -Export till PDF-diagram skiljer sig från Excel-versionen
+ -Export till PDF diagram skiljer sig från Excel-versionen
 
-- Export till PDF-diagram skiljer sig från Excel-version -2
+- Export till PDF diagram skiljer sig från Excel version -2
 
 -Extra linjer är inbäddade i diagrammen
 
-- Text omgiven av citattecken alternativ i CSV-fil
+- Text omgiven av citattecken i filen CSV
 - Anpassade egenskaper skadade med radbrytning
 - MS Excel-beräkningar slutförs inte innan dokumentet har sparats
 - Formeln fungerar inte bra

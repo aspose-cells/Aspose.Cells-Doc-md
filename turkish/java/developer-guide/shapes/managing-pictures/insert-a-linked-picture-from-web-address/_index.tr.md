@@ -18,15 +18,15 @@ Microsoft Excel'de (örneğin 2007):
 
 1.  Tıkla**Sokmak** menü ve seçin**Resim**.
 
-![yapılacaklar:resim_alternatif_Metin](insert-a-linked-picture-from-web-address_1.png)
+![yapılacaklar:resim_alternatif_metin](insert-a-linked-picture-from-web-address_1.png)
 
 1.  Resim Ekle iletişim kutusunda resmin web adresini belirtin.
 
-![yapılacaklar:resim_alternatif_Metin](insert-a-linked-picture-from-web-address_2.png)
+![yapılacaklar:resim_alternatif_metin](insert-a-linked-picture-from-web-address_2.png)
 
 Resim eklenir.
 
-![yapılacaklar:resim_alternatif_Metin](insert-a-linked-picture-from-web-address_3.png)
+![yapılacaklar:resim_alternatif_metin](insert-a-linked-picture-from-web-address_3.png)
 
 ### **Aspose.Cells for Java'i kullanma**
 
@@ -40,6 +40,6 @@ Kodu çalıştırdıktan sonra, oluşturulan Excel dosyası ilk çalışma sayfa
 
 **çıktı dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](insert-a-linked-picture-from-web-address_4.png)
+![yapılacaklar:resim_alternatif_metin](insert-a-linked-picture-from-web-address_4.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-InsertLinkedPicturefromWebAddress-InsertLinkedPicturefromWebAddress.java" >}}

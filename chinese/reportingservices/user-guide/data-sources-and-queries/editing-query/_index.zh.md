@@ -9,7 +9,7 @@ url: /zh/reportingservices/editing-query/
 1. 打开 Microsoft Excel。
 1. 点击**构建数据集**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图像_替代_文本](editing-query_1.png)
+![待办事项：图片_替代_文本](editing-query_1.png)
 
 ).
 
@@ -18,7 +18,7 @@ url: /zh/reportingservices/editing-query/
 
    **选择数据集** 
 
-![待办事项：图像_替代_文本](editing-query_2.png)
+![待办事项：图片_替代_文本](editing-query_2.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/reportingservices/editing-query/
 
    **在 Microsoft 查询中编辑查询** 
 
-![待办事项：图像_替代_文本](editing-query_3.png)
+![待办事项：图片_替代_文本](editing-query_3.png)
 
 
 
@@ -36,4 +36,4 @@ url: /zh/reportingservices/editing-query/
 
    **返回报表设计器** 
 
-![待办事项：图像_替代_文本](editing-query_4.png)
+![待办事项：图片_替代_文本](editing-query_4.png)

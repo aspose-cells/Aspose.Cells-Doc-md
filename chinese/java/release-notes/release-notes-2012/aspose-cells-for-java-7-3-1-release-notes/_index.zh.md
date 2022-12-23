@@ -13,7 +13,7 @@ url: /zh/java/aspose-cells-for-java-7-3-1-release-notes/
 我们是
 很高兴为用户宣布 Aspose.Cells for Java v7.3.1！
 
-新的功能
+新功能
 
  - 解析页面设置页眉/页脚中的脚本
 
@@ -37,7 +37,7 @@ url: /zh/java/aspose-cells-for-java-7-3-1-release-notes/
 
 增强功能
 
- 保存为 PDF 时多次创建临时字体文件
+ -保存到PDF时多次创建临时字体文件
 
 -页眉/页脚中的日期未根据工作簿的区域设置进行相应格式化
 
@@ -47,9 +47,9 @@ url: /zh/java/aspose-cells-for-java-7-3-1-release-notes/
 
 例外情况
 
-- 异常：保存为 PDF 时出现“形状到图像错误”
+- 异常：保存到 PDF 时出现“Shape to Image Error”
 
- - 保存为 PDF 时形状到图像问题
+ - 保存到 PDF 时形状到图像问题
 
 - Chart.calculate() 方法的“NullPointerException”
 
@@ -59,18 +59,18 @@ url: /zh/java/aspose-cells-for-java-7-3-1-release-notes/
 
 虫子
 
- - 保存 PDF 时重叠的文本和遗漏的网格线
+ -重叠文本和遗漏网格线以保存 PDF
 
 -重新保存时显示额外的边框
 
-模板文件作为 XLS 文件
+模板文件为 XLS 文件
 
  读取带有引用“!$A$1”的名称导致异常
 
- 特定图表数据的 PDF 生成失败
+-PDF 生成特定图表数据失败
 
 -插入范围后公式不正确
 
--从Excel工作簿生成的PDF页数更多
+-从Excel工作簿生成的PDF页数较多
 
 -图表标签在处理工作表时变得错位和重叠

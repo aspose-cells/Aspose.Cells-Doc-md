@@ -14,14 +14,14 @@ url: /ja/java/aspose-cells-for-java-18-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42715|数式が MS Excel ファイルと同じように取得されない|バグ|
 |CELLSJAVA-42711|PDF のグラフが Excel テンプレートから生成されない|バグ|
-|CELLSJAVA-42710|Excel から PDF への変換で、グラフの凡例項目のテキストが重複する|バグ|
+|CELLSJAVA-42710|Excel のグラフの凡例項目テキストを PDF 変換に複製する|バグ|
 |CELLSJAVA-42706|PDF 出力にグラフ ラベルが表示されない|バグ|
 |CELLSJAVA-42700|チャート データを変更した後、ウォーターフォール チャートが正しく表示されない|バグ|
 |CELLSJAVA-42717|Cells.deleteRow が正しく動作しない|バグ|
 |CELLSJAVA-42716|境界線スタイルに対して間違った値が取得されました|バグ|
 |CELLSJAVA-42709|結合されたセルに対して間違った下罫線スタイルが返される|バグ|
 |CELLSJAVA-42705|オートフィルタを設定した後、ファイルの読み込み中に MS Excel でエラーが発生する|バグ|
-|CELLSJAVA-42703|ODS から PDF への変換中にチャートが表示されない|バグ|
+|CELLSJAVA-42703|ODS から PDF への変換中にグラフが表示されない|バグ|
 |CELLSJAVA-42702|ワークシートのセル スタイルを読み取った後に灰色の境界線が表示される|バグ|
 |CELLSJAVA-42699|PasteType.VALUES_と_NUMBER_FORMATS が正常に動作していません|バグ|
 |CELLSJAVA-42646|例外: Name.getRefersTo() での「FormulaBuild Unknown formula token0」|例外|

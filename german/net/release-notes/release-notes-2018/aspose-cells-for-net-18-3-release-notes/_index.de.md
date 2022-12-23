@@ -15,7 +15,7 @@ url: /de/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-42655|Gruppieren Sie Pivot-Felder in der Pivot-Tabelle|Neue Funktion|
 |CELLSNET-45960|Ändern Sie den Punkt von NumPad in ein Dezimaltrennzeichen (',') - Aspose.Cells.GridWeb|Neue Funktion|
 |CELLSNET-45966|Ursache der Ausnahme während der Rückwärtskonvertierung von HTML in Cells|Erweiterung|
-|CELLSNET-45976|Fehler beim Öffnen der ODS-Datei aufgrund möglicherweise unterschiedlicher Frameworks mit unterschiedlicher Genauigkeit für Float-Werte|Erweiterung|
+|CELLSNET-45976|Fehler beim Öffnen der Datei ODS aufgrund möglicherweise unterschiedlicher Frameworks mit unterschiedlicher Genauigkeit für Float-Werte|Erweiterung|
 |CELLSNET-45981|Fügen Sie dem StyleFlag eine Eigenschaft hinzu, die auf „false“ gesetzt werden soll, um den QuotePrefix-Wert nicht zu überschreiben|Erweiterung|
 |CELLSNET-45957|Unterstützen Sie das Beibehalten des Kartendiagramms in der Vorlagendatei|Erweiterung|
 |CELLSNET-45941|Das ActiveX-Steuerelement wird zum Bild, wenn ein Blatt von einer Arbeitsmappe in eine andere Arbeitsmappe kopiert wird|Erweiterung|
@@ -25,17 +25,17 @@ url: /de/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45939|Neben der unterbrochenen Unterstreichung ist der Text auch falsch ausgerichtet, wie im bereitgestellten Screenshot gezeigt|Insekt|
 |CELLSNET-45890|Einige Formen werden nicht vollständig gerendert, da einige Teile fehlen|Insekt|
 |CELLSNET-45878|Excel-Ausgabedatei der neuen Version stürzt Excel 2016 Microsoft ab|Insekt|
-|CELLSNET-43360|Stilproblem beim Rendern von HTML in Excel|Insekt|
+|CELLSNET-43360|Stilproblem mit HTML zum Excel-Rendering|Insekt|
 |CELLSNET-45979|Die SVERWEIS-Formelberechnung funktioniert nicht richtig|Insekt|
 |CELLSNET-45949|Cell Die Textausrichtung (mit gemischten Schriftarten) wurde im konvertierten Bild geändert|Insekt|
-|CELLSNET-45940|Beim Konvertieren einer Excel-Datei in das PDF-Dateiformat wurde keine bedingte Formatierung angewendet|Insekt|
-|CELLSNET-45896|Unerwünschte Ränder erscheinen um das Bild herum, wenn eine Excel-Datei als PDF gespeichert wird|Insekt|
+|CELLSNET-45940|Bedingte Formatierung wird beim Konvertieren der Excel-Datei in das Dateiformat PDF nicht angewendet|Insekt|
+|CELLSNET-45896|Unerwünschte Ränder erscheinen um das Bild herum, wenn eine Excel-Datei unter PDF gespeichert wird|Insekt|
 |CELLSNET-45942|Der Zellbezug für die Datenbeschriftung geht nach dem Öffnen/Speichern verloren|Insekt|
 |CELLSNET-45923|Die letzte Achsenbeschriftung, dh der 17. Juni, fehlt im Diagrammbild|Insekt|
 |CELLSNET-45911|Schlechte Position und Linie in der Darstellung des Marktrisikodiagramms|Insekt|
 |CELLSNET-45908|Schlechte Position beim Rendern von Diagrammen|Insekt|
-|CELLSNET-45906|Fehlende Beschriftung in der Diagrammdarstellung|Insekt|
-|CELLSNET-45884|Smart Art-Diagramm auf Registerkarte – Kegelkanten sind im Ausgabe-PDF-Dateiformat gezackt|Insekt|
+|CELLSNET-45906|Fehlende Beschriftung in der Diagrammwiedergabe|Insekt|
+|CELLSNET-45884|Smart Art-Diagramm auf der Registerkarte – Kegelkanten sind im Ausgabedateiformat PDF gezackt|Insekt|
 |CELLSNET-45989|Dialoge werden in XLSM-Dateien nicht korrekt gespeichert|Insekt|
 |CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) funktioniert nicht für XLS-Dateien|Insekt|
 |CELLSNET-45946|Hyperlink mit Bindestrich im Schema bricht beim Speichern ab|Insekt|
@@ -55,7 +55,7 @@ url: /de/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45950|Ausnahme beim Laden einer ODS-Datei|Ausnahme|
 |CELLSNET-45947|Ausnahme: Ungültige Formel:"=sheet3!#ref!" beim Öffnen einer XLSX-Datei|Ausnahme|
 |CELLSNET-45938|System.IndexOutOfRangeException beim Öffnen von XLSB-Dateien|Ausnahme|
-|CELLSNET-45937|System.FormatException tritt beim Öffnen der XLSX-Datei auf|Ausnahme|
+|CELLSNET-45937|System.FormatException tritt beim Öffnen der Datei XLSX auf|Ausnahme|
 |CELLSNET-45903|Das Laden von XLSX verursacht StackOverflowException|Ausnahme|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.

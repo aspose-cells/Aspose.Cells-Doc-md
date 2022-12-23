@@ -12,7 +12,7 @@ Parfois, il est judicieux de masquer certaines lignes ou colonnes dans une feuil
 
 ## **Contrôle de la visibilité des lignes et des colonnes**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet aux développeurs d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection qui représente toutes les cellules de la feuille de calcul. La[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul. Quelques-uns d'entre eux sont discutés ci-dessous.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) qui permet aux développeurs d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) collection qui représente toutes les cellules de la feuille de calcul. Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)collection propose plusieurs méthodes de gestion des lignes ou des colonnes dans une feuille de calcul. Quelques-uns d'entre eux sont discutés ci-dessous.
 
 ### **Masquer des lignes et des colonnes**
 
@@ -49,6 +49,6 @@ Lorsque vous rendez visible une colonne masquée, si vous devez la restaurer à 
 
 {{% alert color="primary" %}}
 
- Il est également possible d'utiliser le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) classer'[**Afficher les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) et[**Afficher les colonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)méthodes pour rendre plusieurs lignes et colonnes visibles.
+ Il est également possible d'utiliser le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) classe'[**Afficher les lignes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhiderows) et[**Afficher les colonnes**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/unhidecolumns)méthodes pour rendre plusieurs lignes et colonnes visibles.
 
 {{% /alert %}}

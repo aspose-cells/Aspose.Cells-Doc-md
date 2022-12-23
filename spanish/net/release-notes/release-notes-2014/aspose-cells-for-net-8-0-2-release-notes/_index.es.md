@@ -11,7 +11,7 @@ url: /es/net/aspose-cells-for-net-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET se ha actualizado a la versión 8.0.2 y nos complace anunciar que esta versión trae la adición de más de 30 nuevas mejoras útiles.
-Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
+Usando Aspose.Cells for .NET puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede ver, generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for .NET.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
 La siguiente es una lista de cambios en esta versión de Aspose.Cells.
@@ -27,20 +27,20 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
  (CELLSNET-42585) - Cambiar la dirección del texto del comentario
 
 
-## **Actuación**
+## **Rendimiento**
 
 
- (CELLSNET-42278) - System.OutOfMemoryException al guardar XLSX en PDF donde XLSX tiene muchas celdas en blanco con formato
+ (CELLSNET-42278) - System.OutOfMemoryException al guardar XLSX a PDF donde XLSX tiene muchas celdas en blanco con formato
 
 
 ## **Insectos**
 
 
- (CELLSNET-42524) - Función CalculateTextSize de los problemas del objeto Shape
+(CELLSNET-42524) - Función CalculateTextSize de los problemas del objeto Shape
 
  (CELLSNET-42401) - CalculateTextSize() no devuelve la altura correcta
 
-(CELLSNET-42235) - Problema con el ajuste de tamaño automático de TextBox
+ (CELLSNET-42235) - Problema con el ajuste de tamaño automático de TextBox
 
  (CELLSNET-42104) - CalculateTextSize no devuelve la altura correcta
 
@@ -48,23 +48,23 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42562) - Las fórmulas no funcionan con moneda extranjera
 
- (CELLSNET-42269): el formato de la tabla dinámica en el XPS de salida no es correcto
+ (CELLSNET-42269): el formato de la tabla dinámica en la salida XPS no es correcto
 
- (CELLSNET-42597): AutoFitRows hace que el texto ajustado se oculte en el PDF resultante.
+ (CELLSNET-42597): AutoFitRows hace que el texto ajustado se oculte en el PDF resultante
 
  (CELLSNET-42615): SheetRender no representa el superíndice correctamente
 
  (CELLSNET-42594) - La justificación de texto vertical no funciona correctamente en SheetRender
 
- (CELLSNET-42580) - Guardar archivo de Excel en PDF ignora la configuración de color en el encabezado
+ (CELLSNET-42580): guardar el archivo de Excel en PDF ignora la configuración de color en el encabezado
 
- (CELLSNET-42579): problema de salto de página al renderizar a PDF
+ (CELLSNET-42579): problema de salto de página al procesar en PDF
 
- (CELLSNET-42498) - El borde se copia a la página siguiente al convertir XLSX a PDF
+(CELLSNET-42498) - El borde se copia a la página siguiente al convertir XLSX a PDF
 
  (CELLSNET-42495): la representación de PDF contiene líneas no deseadas en las páginas 2 y 3
 
-(CELLSNET-42567) - El gráfico desaparece cuando se convierte a PDF
+ (CELLSNET-42567) - El gráfico desaparece cuando se convierte a PDF
 
  (CELLSNET-42527) - El gráfico de líneas y el gráfico de barras en el mismo gráfico no están en la posición correcta
 
@@ -78,9 +78,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-42586) - La alineación del texto de los comentarios cuando se configura a la derecha no funciona
 
- (CELLSNET-42582) - Excel encontró un error de contenido ilegible al abrir Aspose.Cells XLSM convertido de XLSB
+ (CELLSNET-42582) - Excel encontró un error de contenido ilegible al abrir Aspose.Cells convertido XLSM de XLSB
 
- (CELLSNET-42581) - ArgumentOutOfRangeException - al abrir el archivo Excel XLSX
+(CELLSNET-42581) - ArgumentOutOfRangeException - al abrir el archivo de Excel XLSX
 
  (CELLSNET-42570) - Cell Las fórmulas en los marcadores inteligentes no se expanden
 
@@ -90,7 +90,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 ## **Excepciones**
 
 
-(CELLSNET-42576) - Excepción de referencia nula al guardar el xls como pdf
+ (CELLSNET-42576) - Excepción de referencia nula al guardar el xls como pdf
 
  (CELLSNET-42628): System.NullReferenceException al cargar una hoja de cálculo MHTML
 
@@ -104,7 +104,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -118,7 +118,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-40531): problema de fórmula al cargar el archivo de plantilla en GridWeb
 
- (CELLSNET-42571): no se conserva el formato de número en la columna H dentro de GridWeb.
+(CELLSNET-42571): no se conserva el formato de número en la columna H dentro de GridWeb.
 
  (CELLSNET-42553) - Lista de objetos/formato de tablas/estilo perdido al importar un archivo de Excel a GridWeb
 
@@ -134,7 +134,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
-Agrega la propiedad Shape.TextDirection
+ Agrega la propiedad Shape.TextDirection
 
  Obtiene/Establece la dirección del flujo de texto para la Forma.
 

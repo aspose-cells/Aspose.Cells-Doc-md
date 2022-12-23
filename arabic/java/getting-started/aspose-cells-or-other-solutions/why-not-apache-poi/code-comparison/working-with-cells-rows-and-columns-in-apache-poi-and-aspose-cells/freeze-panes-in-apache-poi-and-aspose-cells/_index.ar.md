@@ -10,7 +10,7 @@ Aspose.Cells يوفر فصل دراسي ،[دفتر العمل](http://docs.aspo
 يتم تمثيل ورقة العمل بواسطة[ورقة عمل](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)صف دراسي. توفر فئة ورقة العمل نطاقًا واسعًا من الخصائص والأساليب لإدارة أوراق العمل. لتكوين أجزاء التجميد ، قم باستدعاء أسلوب التجميد لفئة ورقة العمل. تأخذ طريقة FreezePanes المعلمات التالية:
 
 - **صف**، فهرس صف الخلية الذي سيبدأ التجميد منه.
-- **عمودي**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
+- **عمود**، فهرس العمود الخاص بالخلية التي سيبدأ التجميد منها.
 - **صفوف مجمدة**، عدد الصفوف المرئية في الجزء العلوي.
 - **أعمدة مجمدة**، عدد الأعمدة المرئية في الجزء الأيمن
 
@@ -43,7 +43,7 @@ sheet2.createFreezePane( 2, 0, 2, 0 );
 sheet3.createFreezePane( 2, 2 );
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0)
 ## **تنزيل نموذج التعليمات البرمجية**
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/ src / main / java / com / aspose / خلية / أمثلة / featurescomparison / cellrowscolumns / freezepanes)

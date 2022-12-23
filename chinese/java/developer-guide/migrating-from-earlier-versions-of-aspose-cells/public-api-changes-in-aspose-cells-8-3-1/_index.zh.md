@@ -49,7 +49,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请检查文章[显示 Cell 范围作为数据标签](/cells/zh/java/showing-cell-range-as-the-data-labels/)了解更多信息。
+请检查文章[显示 Cell 范围作为数据标签](/cells/zh/java/showing-cell-range-as-the-data-labels/)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -92,7 +92,7 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请检查文章[从 Cell 访问表并使用行和列偏移量在其中添加值](/cells/zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)了解更多信息。
+请检查文章[从 Cell 访问表并使用行和列偏移量在其中添加值](/cells/zh/java/accessing-table-from-cell-and-adding-values-inside-it-using-row-and-column-offsets/)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -135,7 +135,7 @@ workbook.save("ODF1.1.ods", options);
 
 {{% alert color="primary" %}} 
 
-请检查文章[以 ODF 1.1 和 1.2 规范保存 ODS 文件](/cells/zh/java/save-ods-file-in-odf-1-1-and-1-2-specifications/)了解更多信息。
+请检查文章[在 ODF 1.1 和 1.2 规范中保存 ODS 文件](/cells/zh/java/save-ods-file-in-odf-1-1-and-1-2-specifications/)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -183,6 +183,6 @@ workbook.save("output.xlsx");
 
 {{% alert color="primary" %}} 
 
-请检查文章[通过指定迷你图组的数据范围和位置来复制迷你图](/cells/zh/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)了解更多信息。
+请检查文章[通过指定迷你图组的数据范围和位置来复制迷你图](/cells/zh/java/copy-sparkline-by-specifying-data-range-and-location-of-sparkline-group/)想要查询更多的信息。
 
 {{% /alert %}}

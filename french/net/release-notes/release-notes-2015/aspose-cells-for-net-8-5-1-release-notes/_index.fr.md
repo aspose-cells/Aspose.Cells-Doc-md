@@ -24,7 +24,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 ### **Insectes**
 
-(CELLSNET-43744) - Le tableau croisé dynamique ne s'actualise pas lors de l'enregistrement au format PDF
+(CELLSNET-43744) - Le tableau croisé dynamique ne s'actualise pas lors de l'enregistrement dans PDF
 
 (CELLSNET-43735) - L'option Lignes groupées du tableau croisé dynamique est perdue
 
@@ -56,7 +56,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-43700) - La couleur de l'image est différente après la conversion en PDF
 
-(CELLSNET-43199) - Le contenu et les formes changent lorsque Excel est enregistré au format PDF
+(CELLSNET-43199) - Le contenu et les formes changent lorsque Excel est enregistré dans PDF
 
 (CELLSNET-43767) - Excel affiche la vue protégée sur la feuille de calcul enregistrée Aspose.Cells
 
@@ -72,7 +72,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-43727) - La combinaison de classeurs provoque l'avertissement "Impossible de modifier un tableau croisé dynamique en mode de modification de groupe" d'Excel
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSNET-43768) - Erreur de zone inconnue lors de la copie d'une feuille de calcul à partir d'un autre classeur
 
@@ -104,7 +104,7 @@ Voici une liste des améliorations et des modifications apportées à cette vers
 
 (CELLSNET-43774) - Nouveau mode GridDesktop : les bordures ne s'affichent pas correctement dans les cellules fusionnées
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSNET-43670) - System.ArgumentException à GridDesktop.ImportExcelFile
 

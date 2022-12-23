@@ -3,6 +3,7 @@ title: Visa och dölj rutnätslinjer och radkolumnrubriker
 type: docs
 weight: 30
 url: /sv/net/show-and-hide-gridlines-and-row-column-headers/
+description: Den här artikeln innehåller exempelkod för att använda biblioteket C# API eller .NET för att programmatiskt dölja eller visa rutnätslinjer, rad- och kolumnrubriker i ett Excel-kalkylblad.
 ---
 {{% alert color="primary" %}}
 

@@ -10,7 +10,7 @@ A volte, è necessario recuperare set di icone utilizzati nella formattazione co
 
 {{% /alert %}} 
 
-L'esempio di codice seguente mostra come leggere i set di icone usati per la formattazione condizionale. Con la semplice API di Aspose.Cell, i dati dell'immagine del set di icone vengono salvati come immagine.
+L'esempio di codice seguente mostra come leggere i set di icone usati per la formattazione condizionale. Con il semplice API di Aspose.Cell, i dati dell'immagine del set di icone vengono salvati come immagine.
 
 
 

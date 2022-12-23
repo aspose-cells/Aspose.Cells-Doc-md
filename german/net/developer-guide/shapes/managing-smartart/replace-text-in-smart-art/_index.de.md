@@ -6,7 +6,7 @@ url: /de/net/replace-text-in-smart-art/
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Intelligente Kunst ist eines der Hauptobjekte in einer Arbeitsmappe. Oft muss der Text in Smart Art aktualisiert werden. Aspose.Cells stellen diese Funktion per Einstellung zur Verfügung[**Form.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) Eigentum.
+Intelligente Kunst ist eines der Hauptobjekte in einer Arbeitsmappe. Oft muss der Text in Smart Art aktualisiert werden. Aspose.Cells stellen diese Funktion per Einstellung zur Verfügung[**Form.Text**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/text) Eigentum.
 
 Die Beispielquelldatei kann unter folgendem Link heruntergeladen werden:
 

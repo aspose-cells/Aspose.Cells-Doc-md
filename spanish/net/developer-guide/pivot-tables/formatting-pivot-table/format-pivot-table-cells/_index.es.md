@@ -6,7 +6,7 @@ url: /es/net/format-pivot-table-cells/
 ---
 {{% alert color="primary" %}}
 
- A veces, desea dar formato a las celdas de la tabla dinámica. Por ejemplo, desea aplicar el color de fondo a las celdas de la tabla dinámica. Aspose.Cells proporciona dos métodos[**Tabla dinámica.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) y[**Tabla dinámica.Formato()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), que puede utilizar para este propósito.
+ A veces, desea dar formato a las celdas de la tabla dinámica. Por ejemplo, desea aplicar el color de fondo a las celdas de la tabla dinámica. Aspose.Cells proporciona dos métodos[**Tabla dinámica.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) y[**Tabla dinámica.Formato()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), que puede utilizar para este fin.
 
 [**Tabla dinámica.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) aplica el estilo a toda la tabla dinámica mientras[**Tabla dinámica.Formato()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) aplica el estilo a una sola celda de la tabla dinámica.
 

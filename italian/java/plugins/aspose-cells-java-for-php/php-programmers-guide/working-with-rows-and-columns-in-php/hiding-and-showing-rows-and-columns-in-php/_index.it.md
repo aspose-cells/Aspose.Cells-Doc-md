@@ -44,7 +44,7 @@ Gli sviluppatori possono nascondere una riga o una colonna chiamando rispettivam
 
 {{< /highlight >}}
 ### **Visualizzazione di righe e colonne**
-Gli sviluppatori possono scoprire qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della raccolta Cells. Entrambi i metodi accettano due parametri:
+Gli sviluppatori possono visualizzare qualsiasi riga o colonna nascosta chiamando rispettivamente i metodi UnhideRow e UnhideColumn della raccolta Cells. Entrambi i metodi accettano due parametri:
 
 - **Indice riga o colonna**- l'indice di una riga o di una colonna utilizzato per mostrare la riga o la colonna specifica.
 - **Altezza riga o larghezza colonna**- l'altezza della riga o la larghezza della colonna assegnata alla riga o alla colonna dopo che è stata mostrata.
@@ -85,6 +85,6 @@ Gli sviluppatori possono scoprire qualsiasi riga o colonna nascosta chiamando ri
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Controllo della visibilità di righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+ Scaricamento**Controllo della visibilità di righe e colonne (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithRowsAndColumns/RowsAndColumns.php)

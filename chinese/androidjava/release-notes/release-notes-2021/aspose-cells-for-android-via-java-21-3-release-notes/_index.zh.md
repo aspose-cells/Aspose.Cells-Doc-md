@@ -16,15 +16,15 @@ url: /zh/java/aspose-cells-for-android-via-java-21-3-release-notes/
 |CELLSJAVA-43400|支持 UNIQUE() 函数|
 |CELLSJAVA-42863|获取图表子标题|
 |CELLSJAVA-43401|支持所有JDK统一日本纪元格式化结果|
-|CELLSJAVA-43398|在 ODS 到 HTML 的转换中，条件格式未正确呈现|
-|CELLSJAVA-43371|XLSX 到 PDF 的转换挂起|
+|CELLSJAVA-43398|条件格式在 ODS 到 HTML 的转换中未正确呈现|
+|CELLSJAVA-43371|XLSX 到 PDF 转换挂起|
 |CELLSJAVA-43353|excel 上的不同图表到 pdf|
 |CELLSJAVA-43377|将 Excel 转换为 Html 时出现图像放置问题|
 |CELLSJAVA-43381|DAYS函数计算错误|
 |CELLSJAVA-43342|组合图表无法在 excel 到 pdf 中正确显示|
 |CELLSJAVA-43354|百分比未显示在小直方图中|
 |CELLSJAVA-40264|保存为 EXCEL 时表单控件或 ActiveX 控件出错_97_TO_2003|
-|CELLSJAVA-43372|将 ODS 转换为 XLSX 时创建损坏的文件|
+|CELLSJAVA-43372|将 ODS 转换为 XLSX 时创建了损坏的文件|
 |CELLSJAVA-43378|克隆工作簿后显示为空白从 true 变为 false|
 |CELLSJAVA-43382|复制会产生损坏的工作簿|
 |CELLSJAVA-43364|将标记中包含图像的图表保存到图像时出现问题|
@@ -34,12 +34,12 @@ url: /zh/java/aspose-cells-for-android-via-java-21-3-release-notes/
 |CELLSJAVA-43406|将 HTML 转换为 Excel 时出现问题|
 |CELLSJAVA-43399|CalculateFormula() 创建大量错误类型值 #VALUE|
 |CELLSJAVA-43362|打印图表时标签的百分比问题|
-|CELLSJAVA-43384|渲染为 PDF 和打印图表时某些标签的百分比问题|
+|CELLSJAVA-43384|渲染到 PDF 和打印图表时某些标签的百分比问题|
 |CELLSJAVA-43402|从 Excel 文件生成精确的图表图像|
 |CELLSJAVA-43408|图表顶部被切断，斜线上升|
-|CELLSJAVA-43379|将工作簿另存为 HTML 时出现异常|
-|CELLSJAVA-43376|加载 XLSX 文件时出现异常“java.lang.ClassCastException：int 到字节转换溢出。int 值：144”|
-|CELLSJAVA-43387|将单张纸导出为 HTML 会引发异常|
+|CELLSJAVA-43379|将工作簿保存为 HTML 时引发异常|
+|CELLSJAVA-43376|加载 XLSX 文件时出现异常“java.lang.ClassCastException：溢出到字节转换。int 值：144”|
+|CELLSJAVA-43387|将单张纸导出到 HTML 会引发异常|
 |CELLSJAVA-43412|xlsx 到 html 转换中的 CellsException|
 
 ## **公共 API 和向后不兼容的更改**

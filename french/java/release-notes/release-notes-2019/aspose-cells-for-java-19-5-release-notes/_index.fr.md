@@ -10,11 +10,11 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.5.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42857|Mauvaise valeur affichée pour les formes dans le PDF exporté|Punaise|
-|CELLSJAVA-42890|L'image est opaque et non transparente après conversion - Rendu Excel vers HTML|Punaise|
-|CELLSJAVA-42893|Le graphique est manquant dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42890|L'image est opaque et non transparente après conversion - Excel vers le rendu HTML|Punaise|
+|CELLSJAVA-42893|Le graphique est manquant dans Excel pour le rendu HTML|Punaise|
 |CELLSJAVA-42899|Problème Excel vers HTML|Punaise|
 |CELLSJAVA-42903|Problème de rendu Excel vers HTML sur CentOS|Punaise|
 |CELLSJAVA-42882|Impossible d'extraire les données d'un fichier MS Excel 95 XLS|Punaise|
@@ -23,9 +23,9 @@ Cette page contient les notes de version pour Aspose.Cells for Java 19.5.
 |CELLSJAVA-42909|Problème avec la fonction DATEVALUE|Punaise|
 |CELLSJAVA-42910|Problème avec la fonction RECHERCHEV lorsqu'un caractère est présent dans la chaîne|Punaise|
 |CELLSJAVA-42911|Problème lors de l'utilisation de la fonction TEXT pour les dates|Punaise|
-|CELLSJAVA-42896|La conversion en PDF retourne les numéros de téléphone|Punaise|
+|CELLSJAVA-42896|La conversion en PDF transforme les numéros de téléphone|Punaise|
 |CELLSJAVA-42900|La conversion en PDF modifie l'ordre du texte|Punaise|
-|CELLSJAVA-42881|Exception "java.lang.IllegalStateException : Encodage non valide : null " lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
+|CELLSJAVA-42881|Exception "java.lang.IllegalStateException : Encodage invalide : null " lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
 |CELLSJAVA-42884|Exception "java.lang.ArrayIndexOutOfBoundsException" lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -37,8 +37,8 @@ Représente le fichier de graphique intégré.
 ### **Ajoute les propriétés ImportTableOptions.CheckMergedCells**
 Indique si la vérification des cellules fusionnées lors de l'importation de données.
 ### **Ajoute ODSCellFieldCollection, les classes ODSCellField et l'énumération ODSCellFieldType**
-Représente le champ cellulaire de l'ODS.
+Représente le champ de cellule de ODS.
 ### **Ajoute les propriétés Cells.ODSCellFields**
-Obtient la liste des champs de cellule d'ODS.
+Obtient la liste des champs de cellule de ODS.
 ### **Ajoute la classe ODSPageBackground et la propriété PageSetup.ODSPageBackground**
-Représente l'arrière-plan d'ODS.
+Représente l'arrière-plan de ODS.

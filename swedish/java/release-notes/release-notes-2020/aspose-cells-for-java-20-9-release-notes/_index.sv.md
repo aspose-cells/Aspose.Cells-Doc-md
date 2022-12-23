@@ -12,29 +12,29 @@ url: /sv/java/aspose-cells-for-java-20-9-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-40792|Pivottabell skapas inte för ODS-fil|Ny funktion|
+|CELLSJAVA-40792|Pivottabellen skapas inte för ODS-filen|Ny funktion|
 |CELLSJAVA-43263|SmartMarker-problem när en cell är inställd på fyllningsfärg och villkorlig formatering|Insekt|
 |CELLSJAVA-43269|Kan inte få värde från pivotark|Insekt|
 |CELLSJAVA-43272|Bilden krymper efter inställning av skalbar bredd|Insekt|
 |CELLSJAVA-43280|Filterproblem efter uppdateringen av pivottabellen|Insekt|
 |CELLSJAVA-43281|Uppdatera pivottabellproblem|Insekt|
 |CELLSJAVA-43285|Statiska filter går förlorade efter uppdatering av pivottabellen|Insekt|
-|CELLSJAVA-43288|Resultatet XLSB-fil är korrupt när filen sparas till XLSB|Insekt|
+|CELLSJAVA-43288|Resultatet XLSB filen är korrupt när filen sparas till XLSB|Insekt|
 |CELLSJAVA-43289|Filterproblem efter uppdatering av pivottabellen|Insekt|
 |CELLSJAVA-43293|Problem med filteralternativ efter PivotTable.refreshData()|Insekt|
 |CELLSJAVA-43279|Värden hämtas inte korrekt med getStringValue()|Insekt|
 |CELLSJAVA-43291|Rutnätsinnehåll är inte synligt|Insekt|
-|CELLSJAVA-43037|Teckensnittsproblem vid PDF-konvertering|Insekt|
-|CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS- och PDF-skrivare|Insekt|
+|CELLSJAVA-43037|Teckensnittsproblem vid konvertering av PDF|Insekt|
+|CELLSJAVA-43249|Utskriftsproblem när du använder fysiska skrivare, XPS och PDF skrivare|Insekt|
 |CELLSJAVA-43254|Teckensnittsskillnad vid konvertering av kalkylblad till bild|Insekt|
 |CELLSJAVA-43266|Java-versionen stöder inte inläsning av teckensnitt från den aktuella användarens teckensnittsmapp som standard|Insekt|
-|CELLSJAVA-43268|Excel till TIFF-rendering - några av värdena ersätts med " #" tecken|Insekt|
+|CELLSJAVA-43268|Excel till TIFF rendering - några av värdena ersätts med " #" tecken|Insekt|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: Fel för ZipFile|Insekt|
 |CELLSJAVA-43277|Problem med höjd breddförhållande|Insekt|
 |CELLSJAVA-43245|Kombinationsdiagrammet visas inte korrekt efter konvertering av Excel-fil till PDF|Insekt|
-|CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
+|CELLSJAVA-43276|Problem med radbrytning vid konvertering av XLSX till PDF|Insekt|
 |CELLSJAVA-43261|SmartMarker: när du använder group:merge med Number Format Percentage är det expanderande resultatet fel|Insekt|
-|CELLSJAVA-43265|Kan inte ladda XLSX-fil|Insekt|
+|CELLSJAVA-43265|Kan inte ladda XLSX-filen|Insekt|
 |CELLSJAVA-43270|Duplicering av innehåll (inbäddat Word) vid kopiering av arbetsblad|Insekt|
 |CELLSJAVA-43271|WaterFall Chart bevarar inte SetAsTotal Property|Insekt|
 |CELLSJAVA-43287|Att lägga till autofilter förstör arbetsboken|Insekt|
@@ -47,7 +47,7 @@ Följande är en lista över alla ändringar som gjorts för allmänheten API, s
 
 ### **Lägger till egenskapen AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-För prestanda och användarens bekvämlighetsskäl lägger vi till den här egenskapen och gör dess standardvärde som falskt så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av AbstractCalculationEngine ändrade vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den till**Sann** från**20.9**.
+ För prestanda och användarens bekvämlighetsskäl lägger vi till den här egenskapen och gör dess standardvärde som falskt så att användaren kan koncentrera sig på de funktioner som inte har stöds av den inbyggda motorn. Om användarens befintliga implementering av AbstractCalculationEngine ändrade vissa inbyggda funktioners beräkning, bör användaren åsidosätta denna egenskap för att göra den till**Sann** från**20.9**.
 
 ### **Lägger till egenskapen TxtLoadOptions.HasTextQualifier**
 

@@ -8,7 +8,7 @@ url: /es/java/changing-the-layout-of-pivot-table/
 
  Microsoft Excel le permite cambiar el diseño de la tabla dinámica usando*Herramientas de tabla dinámica > Diseño > Informe* Comandos del menú de diseño. Puede cambiar el diseño en estas tres formas
 
-- Mostrar en forma compacta
+- Mostrar en formato compacto
 - Mostrar en forma de esquema
 - Mostrar en forma tabular
 
@@ -18,6 +18,6 @@ url: /es/java/changing-the-layout-of-pivot-table/
 
 ## **Ejemplo**
 
- El siguiente código de ejemplo muestra primero la tabla dinámica en**Forma compacta** , luego muestra la tabla dinámica en**Formulario de esquema**y, por último, muestra la tabla dinámica en**Forma de tabla**.
+ El siguiente código de ejemplo muestra primero la tabla dinámica en**Forma compacta** , luego muestra la tabla dinámica en**Formulario de esquema** y, por último, muestra la tabla dinámica en**Forma de tabla**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangingLayoutofPivotTable-ChangingLayoutofPivotTable.java" >}}

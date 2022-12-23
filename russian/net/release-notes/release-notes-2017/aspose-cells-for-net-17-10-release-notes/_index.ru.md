@@ -19,7 +19,7 @@ url: /ru/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45408|Значение исчезает или меняет цвет при преобразовании в PDF|Ошибка|
 |CELLSNET-45696|Слайсер не перемещается вниз по листу при вставке строк|Ошибка|
 |CELLSNET-45675|Ошибка вычисления формул (с участием "СУММПРОИЗВ" и "ТРАНСП")|Ошибка|
-|CELLSNET-45651|Размер TextBox изменяется при использовании китайского шрифта в книге при рендеринге в PDF|Ошибка|
+|CELLSNET-45651|Размер TextBox изменяется при использовании китайского шрифта в книге при рендеринге на PDF.|Ошибка|
 |CELLSNET-45678|Частично отсутствуют символы при преобразовании в изображение|Ошибка|
 |CELLSNET-45667|Метки линии тренда не обновляются в MS Excel, когда мы вручную меняем исходное значение в ячейках|Ошибка|
 |CELLSNET-45620|Цвет и интервал между шкалами отличаются для трехмерной диаграммы.|Ошибка|
@@ -27,10 +27,10 @@ url: /ru/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45700|Панель надстроек MS Excel 2016 удалена из файла после открытия/сохранения Aspose.Cells|Ошибка|
 |CELLSNET-45693|Рабочий лист больше не защищен в выходном файле при преобразовании SpreadsheetML в XLSX|Ошибка|
 |CELLSNET-45691|Документ поврежден при повторном сохранении|Ошибка|
-|CELLSNET-45690|Стили переносятся неправильно для некоторых ячеек — преобразование SpreadsheetML в XLSX|Ошибка|
+|CELLSNET-45690|Кажется, что стили переносятся неправильно для некоторых ячеек - преобразование SpreadsheetML в XLSX|Ошибка|
 |CELLSNET-45688|Столбец даты не отсортирован правильно|Ошибка|
-|CELLSNET-45687|Свойства защиты рабочих листов не переносятся из SpreadsheetML|Ошибка|
-|CELLSNET-45683|Элемент SpreadsheetML AllowSort не работает в выходном формате XLSX|Ошибка|
+|CELLSNET-45687|Свойства защиты рабочих листов не перенесены из SpreadsheetML|Ошибка|
+|CELLSNET-45683|SpreadsheetML Элемент AllowSort не работает в выводе XLSX|Ошибка|
 |CELLSNET-45682|MS Excel выдает сообщение об ошибке «Excel обнаружил нечитаемое содержимое…».|Ошибка|
 |CELLSNET-45676|Документ поврежден при повторном сохранении из-за неразрывного пробела в имени листа|Ошибка|
 |CELLSNET-45673|Применение стиля выравнивания для SpredsheetML|Ошибка|
@@ -45,7 +45,7 @@ url: /ru/net/aspose-cells-for-net-17-10-release-notes/
 #### **Добавляет метод AbstractCalculationMonitor.Interrupt(string)**
 Позволяет пользователям прерывать ход вычисления формулы.
 #### **Добавляет перечисление HtmlCrossType.MSExport**
-Отображает строку, аналогичную экспорту HTML из MS Excel.
+Отображает строку, аналогичную экспорту MS Excel HTML.
 #### **Добавляет свойство Worksheet.TabId**
 Получает внутренний идентификатор листа.
 #### **Добавляет перечисление OLEDBCommandType.None**
@@ -65,4 +65,4 @@ url: /ru/net/aspose-cells-for-net-17-10-release-notes/
 - [Используйте свойство Sheet.SheetId OpenXml, используя Aspose.Cells](/cells/ru/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Чтение и запись внешнего соединения файла XLSB](/cells/ru/net/read-and-write-external-connection-of-xls-and-xlsb-files/)
 - [Прервать или отменить расчет формулы рабочей книги](/cells/ru/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [Укажите, как пересекать строку в выходном HTML с помощью HtmlCrossType.](/cells/ru/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+- [Укажите, как пересекать строку в выводе HTML с помощью HtmlCrossType.](/cells/ru/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

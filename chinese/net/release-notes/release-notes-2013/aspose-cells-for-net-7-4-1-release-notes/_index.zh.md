@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-7-4-1-release-notes/
 
 \1) Aspose.Cells 
 
-新的功能
+新功能
 
 增强功能
 
@@ -24,7 +24,7 @@ url: /zh/net/aspose-cells-for-net-7-4-1-release-notes/
 
 41401 - 查找隐藏行 - 设置加载项公式
 
-41382 - 导出为 PDF - 格式不正确
+41382 - 导出到 PDF - 格式不正确
 
 41431 - 异常：“索引超出范围”
 
@@ -36,7 +36,7 @@ url: /zh/net/aspose-cells-for-net-7-4-1-release-notes/
 
 41409 - 刷新数据透视表时出现问题
 
-41411 - 将 XLSX 保存为 HTML - 格式错误
+41411 - 将 XLSX 保存到 HTML - 格式错误
 
 41406 - DATEDIF 公式/函数问题
 
@@ -54,7 +54,7 @@ url: /zh/net/aspose-cells-for-net-7-4-1-release-notes/
 
  Aspose.Cells.网格网
 
-新的功能
+新功能
 
 41422 - Excel 的显示公式功能
 

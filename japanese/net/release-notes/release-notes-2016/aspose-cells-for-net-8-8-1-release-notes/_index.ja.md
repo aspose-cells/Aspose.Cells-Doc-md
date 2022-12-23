@@ -13,19 +13,19 @@ url: /ja/net/aspose-cells-for-net-8-8-1-release-notes/
 |CELLSNET-44413 |WorkbookSettings.IsDefaultEncrypted のデフォルト値を false にする|強化|
 |CELLSNET-44392 |Aspose.Cells.xml が「.\Bin\net4.0」フォルダーにありません|強化|
 |CELLSNET-44291 |コードを最適化して、非表示の空の列と行をより効率的にします|強化|
-|CELLSNET-44417 |API は、破損および感染したスプレッドシートを PDF に変換しているときにハングします|パフォーマンス|
+|CELLSNET-44417 |破損および感染したスプレッドシートを PDF に変換しているときに API がハングする|パフォーマンス|
 |CELLSNET-44088 |条件付き書式ルールのアイコンが HTML にレンダリングされない|バグ|
-|CELLSNET-44263 |HTML を XLSX としてインポート中に書式設定が失われる|バグ|
+|CELLSNET-44263 |HTML を XLSX としてインポート中にフォーマットが失われる|バグ|
 |CELLSNET-44427 |ISO 8601 形式の日付が日付ではなく文字列として扱われる|バグ|
-|CELLSNET-44414 |Excel から PDF への変換中の大きな画像に関する問題|バグ|
+|CELLSNET-44414 |Excel から PDF への変換中の大きな画像の問題|バグ|
 |CELLSNET-44341 |セル内の中国語と英語の単語に対して AutoFitMergedCells オプションをオンにして AutoFitRows を使用すると、行の高さが正しくない|バグ|
-|CELLSNET-44309 |出力 PDF で括弧が回転して表示されない (Excel から PDF への変換)|バグ|
+|CELLSNET-44309 |出力 PDF で丸括弧が表示されない (Excel から PDF への変換)|バグ|
 |CELLSNET-44302 | SheetRender.ToImage がセルの境界線をレンダリングしない|バグ|
-|CELLSNET-43237 |スプレッドシートを PDF に変換すると、垂直記号が正しくレンダリングされない|バグ|
-|CELLSNET-41907 |変換された PDF ファイルで一部の縦書きテキストが正しく表示されない|バグ|
+|CELLSNET-43237 |スプレッドシートを PDF に変換すると、垂直記号が正しく表示されない|バグ|
+|CELLSNET-41907 |変換された PDF ファイルで、一部の縦書きテキストがまだ正しく表示されない|バグ|
 |CELLSNET-44405 |50% に設定されているにもかかわらず、チャート イメージの「あなたの組織」シリーズが 0% になっている|バグ|
 |CELLSNET-44404 |Worksheet.Copy メソッドがチャートを正しくコピーしていない|バグ|
-|CELLSNET-44398 |グラフの EMF レンダリングが新しいバージョンで正しく機能しない|バグ|
+|CELLSNET-44398 |EMF 新しいバージョンではグラフのレンダリングが正しく機能しません|バグ|
 |CELLSNET-44397 |チャートから画像へのレンダリング - テキスト (データ ラベル) が元のチャートよりも太字になります|バグ|
 |CELLSNET-44387 |Chart.ToImage を使用して生成された画像が正しくない|バグ|
 |CELLSNET-44365 |aspose.cells を使用して画像として生成された特定のグラフのデータ系列ラベルの一部が欠落している|バグ|
@@ -48,7 +48,7 @@ url: /ja/net/aspose-cells-for-net-8-8-1-release-notes/
 |**鍵** |**概要** |**カテゴリー** |
 |:- |:- |:- |
 |CELLSNET-42313 |Excel ファイルでのデータ検証の読み取りをサポート - Aspose.Cells.GridDesktop|新機能|
-|CELLSNET-44267 |GridWeb コントロールでスクロール中に EnableAsync 属性を設定すると遅延読み込みの問題が発生する|強化|
+|CELLSNET-44267 | GridWeb コントロールでスクロール中に EnableAsync 属性を設定すると遅延読み込みの問題が発生する|強化|
 |CELLSNET-41793 |セル結合後に下矢印が正しく機能しない|強化|
 |CELLSNET-44424 |GridWeb でハイライトの選択が正しくない|バグ|
 |CELLSNET-44364 |GridWebでセルをクリックするとセルの書式が変わる|バグ|
@@ -73,4 +73,4 @@ url: /ja/net/aspose-cells-for-net-8-8-1-release-notes/
 #### **GridCell.RemoveValidation() メソッドを追加します。**
 グリッド セルから検証オブジェクトを削除します。
 #### **Chart.ToPdf(System.IO.Stream stream) メソッドを追加。**
-保存チャートをストリームとして PDF に追加します。
+PDF に保存チャートをストリームとして追加します。

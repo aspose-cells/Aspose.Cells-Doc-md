@@ -34,7 +34,7 @@ print "Worksheet 1 is now hidden, please check the output document."
 
 {{< /highlight >}}
 ### **Affichage d'une feuille de calcul**
-Les développeurs peuvent rendre une feuille de calcul visible en définissant le*setVisible(* *vrai* *)*méthode de la**Feuille de travail**classer.
+Les développeurs peuvent rendre une feuille de calcul visible en définissant le*setVisible(* *vrai* *)*méthode de la**Feuille de travail**classe.
 
 **Code Python**
 

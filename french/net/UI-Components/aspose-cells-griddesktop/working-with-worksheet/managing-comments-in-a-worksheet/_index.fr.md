@@ -31,7 +31,7 @@ Pour accéder à un commentaire existant dans la feuille de calcul et le modifie
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingComments-AccessingComments.cs" >}}
 ## **Suppression de commentaires**
- Pour supprimer un commentaire existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Retirer** commentaire de la**commentaires** collecte de la**Feuille de travail** en spécifiant la cellule (en utilisant son nom ou son numéro de ligne et de colonne) contenant le commentaire.
+ Pour supprimer un commentaire existant, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Supprimer** commentaire de la**commentaires** collecte de la**Feuille de travail** en spécifiant la cellule (en utilisant son nom ou son numéro de ligne et de colonne) contenant le commentaire.
 
 
 

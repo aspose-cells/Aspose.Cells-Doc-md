@@ -30,7 +30,7 @@ Come puoi vedere nel primo Pdf, il carattere dell'intera frase è cambiato da Ti
 |**Secondo file Pdf**|
 |:- |
 |![cose da fare:immagine_alt_testo](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_2.png)|
-### **Codice di esempio**
+### **Codice d'esempio**
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-RenderingAndPrinting-ChangeFontUnicodeCharacterToPdf-ChangeFontUnicodeCharacterWhileSavingToPdf.cs" >}}

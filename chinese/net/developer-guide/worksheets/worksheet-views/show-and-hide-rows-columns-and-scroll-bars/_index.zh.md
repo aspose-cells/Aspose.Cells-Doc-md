@@ -3,6 +3,7 @@ title: 显示和隐藏行列和滚动条
 type: docs
 weight: 20
 url: /zh/net/show-and-hide-rows-columns-and-scroll-bars/
+description: 本文演示如何使用 C# 语言和 .NET API 或库以编程方式显示和隐藏 Excel 工作表行和列。可以调整滚动条的可见性，可以隐藏多行和多列。
 ---
 {{% alert color="primary" %}}
 
@@ -58,15 +59,15 @@ Microsoft Excel 还提供水平和垂直滚动条，以便用户可以滚动浏�
 
 ### **控制滚动条的可见性**
 
-Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制滚动条的可见性，请使用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)特性。[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**真的**或者**错误的**值。
+Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)表示一个 Excel 文件。这[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)类提供了广泛的属性和方法来管理 Excel 文件。要控制滚动条的可见性，请使用[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)特性。[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)和[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)是布尔属性，这意味着这些属性只能存储**真的**要么**错误的**值。
 
 #### **使滚动条可见**
 
-通过设置滚动条可见[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)或者[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)财产给**真的**.
+通过设置滚动条可见[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)要么[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)财产给**真的**.
 
 #### **隐藏滚动条**
 
-通过设置隐藏滚动条[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)或者[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)财产给**错误的**.
+通过设置隐藏滚动条[**工作簿**](https://reference.aspose.com/cells/net/aspose.cells/workbook)班级'[**工作簿设置.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible)要么[**工作簿设置.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)财产给**错误的**.
 
 **示例代码**
 

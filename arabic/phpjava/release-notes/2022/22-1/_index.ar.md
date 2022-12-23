@@ -24,7 +24,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 |CELLSJAVA-44122|عند تصدير HTML ، تختلف تسميات البيانات عن تلك الموجودة في Excel|
 |CELLSJAVA-41949| يتم عرض المحتوى بشكل مختلف عند حفظ المصنف بتنسيقات XLSX و HTML|
 |CELLSJAVA-44207|عند التصدير إلى HTML ، يصبح ارتفاع الصف أعلى|
-|CELLSJAVA-44233|حلقة لا نهائية عند تحويل ملف XLSX|
+|CELLSJAVA-44233|حلقة لانهائية عند تحويل ملف XLSX|
 |CELLSJAVA-44234|مشكلة نفاد الذاكرة لملف data.xls|
 |CELLSJAVA-44246|استثناء "فهرس النهاية غير صالح" لملف فارغ|
 |CELLSJAVA-44258| استثناء مؤشر فارغ للملف|
@@ -51,7 +51,7 @@ url: /ar/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 
 ### **إضافة خاصية TxtLoadOptions.ExtendToNextSheet.**
 
-يدعم استيراد بيانات CSV / TSV إلى أوراق عمل متعددة إذا تجاوز عدد الصفوف أو عدد أعمدة البيانات حد ms excel.
+يدعم استيراد بيانات CSV/TSV إلى أوراق عمل متعددة إذا تجاوز عدد الصفوف أو عدد أعمدة البيانات حد ms excel.
 
 ### **يضيف طريقة ExternalLinkCollection.Clear ().**
 

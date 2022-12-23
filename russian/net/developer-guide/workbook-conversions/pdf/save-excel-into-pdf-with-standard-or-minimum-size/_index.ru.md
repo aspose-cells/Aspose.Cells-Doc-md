@@ -1,12 +1,12 @@
 ﻿---
-title: Сохранить Excel в PDF со стандартным или минимальным размером
+title: Сохраните Excel в PDF со стандартным или минимальным размером
 type: docs
 weight: 340
 url: /ru/net/save-excel-into-pdf-with-standard-or-minimum-size/
 ---
 {{% alert color="primary" %}} 
 
- По умолчанию Aspose.Cells сохраняет Excel в PDF стандартного размера. Однако вы также можете сохранить его с минимальным размером, используя кнопку[PdfSaveOptions.ОптимизацияТип](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype) имущество. Он принимает следующие значения
+ По умолчанию Aspose.Cells сохраняет Excel в PDF со стандартным размером. Однако вы также можете сохранить его с минимальным размером, используя кнопку[PdfSaveOptions.ОптимизацияТип](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype) имущество. Он принимает следующие значения
 
 - PdfOptimizationType.Standard
 - PdfOptimizationType.MinimumSize

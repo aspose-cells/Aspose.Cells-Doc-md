@@ -103,7 +103,7 @@ Le Aspose.Cells for Java a également fourni des moyens de recueillir des inform
 
 {{% /alert %}} 
 ### **Ajout de l'interface IFilePathProvider et de la propriété HtmlSaveOptions.FilePathProvider**
-Aspose.Cells for Java 8.9.1 permet d'obtenir/définir IFilePathProvider pour exporter des feuilles de calcul vers des fichiers HTML séparés. Ces nouvelles API sont utiles dans les scénarios où les liens hypertexte d'une feuille de calcul pointent vers un emplacement dans une autre feuille de calcul, où l'exigence de l'application est de rendre chaque feuille de calcul dans un fichier HTML séparé. L'implémentation de IFilePathProvider permet de conserver intacts les hyperliens susmentionnés, qu'ils pointent vers un emplacement dans un fichier HTML résultant distinct.
+Aspose.Cells for Java 8.9.1 permet d'obtenir/de définir IFilePathProvider pour exporter des feuilles de calcul vers des fichiers HTML séparés. Ces nouvelles API sont utiles dans les scénarios où les liens hypertexte d'une feuille de calcul pointent vers un emplacement dans une autre feuille de calcul, où l'exigence de l'application est de rendre chaque feuille de calcul pour séparer le fichier HTML. L'implémentation de IFilePathProvider permet de conserver intacts les hyperliens susmentionnés, qu'ils pointent vers un emplacement dans un fichier HTML distinct.
 
 Voici le scénario d'utilisation simple de la propriété HtmlSaveOptions.FilePathProvider.
 
@@ -115,7 +115,7 @@ Voici le scénario d'utilisation simple de la propriété HtmlSaveOptions.FilePa
 
 Workbook book = new Workbook(dir + "sample.xlsx");
 
-// Enregistrer chaque feuille de calcul dans un fichier HTML séparé
+// Enregistrez chaque feuille de travail pour séparer le fichier HTML
 
  pour (int je = 0; je< book.getWorksheets().getCount(); i++)
 

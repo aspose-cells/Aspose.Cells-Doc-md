@@ -24,7 +24,7 @@ url: /tr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29632 Sayfa adı özel karakterler içerdiğinde özel durum oluştur
 
- 29153 HTML çıktısında Koşullu Biçimlendirmeyi Destekler
+ 29153 HTML çıkışında Koşullu Biçimlendirmeyi Destekler
 
  Verim
 
@@ -50,7 +50,7 @@ url: /tr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  Hatalar
 
- 29413 DataRow değerleri değişti
+29413 DataRow değerleri değişti
 
  29599 Görüntüye 3B Çubuklar içeren Grafik sorunu
 
@@ -58,7 +58,7 @@ url: /tr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29765 Radar Tablosundan Görüntüye sorunu
 
-29777 VLookup çalışmıyor
+ 29777 VLookup çalışmıyor
 
  29408 Pivot tabloya hesaplanmış öğe ekle
 
@@ -94,7 +94,7 @@ url: /tr/net/aspose-cells-for-net-7-0-0-release-notes/
 
  29381 Excel dosyasından değerler içeren formülleri içe aktarın
 
- 29381 Excel dosyasını tüm formülleri hesaplamadan akıştan içe aktar
+29381 Excel dosyasını tüm formülleri hesaplamadan akıştan içe aktar
 
  Hatalar
 

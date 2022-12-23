@@ -36,4 +36,4 @@ Så här infogar du en funktion eller formel:
 
 1. Klicka på en cell för att markera den.
 1.  Klick**Infoga funktion** knappen på toppen.
-1.  Följ instruktionerna på**Infoga funktion**dialog.
+1.  Följ instruktionerna på**Infoga funktion** dialog.

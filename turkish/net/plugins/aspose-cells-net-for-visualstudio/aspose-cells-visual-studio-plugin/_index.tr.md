@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/net/aspose-cells-visual-studio-plugin/
 ---
-## **giriiş**
+## **Giriş**
 
 Microsoft Visual Studio, Microsoft'den tümleşik bir geliştirme ortamıdır (IDE). Microsoft Windows için bilgisayar programlarının yanı sıra web siteleri, web uygulamaları ve web servisleri geliştirmek için kullanılır. Visual Studio, Windows API, Windows Forms, Windows Presentation Foundation, Windows Store ve Microsoft Silverlight gibi Microsoft yazılım geliştirme platformlarını kullanır. Hem yerel kod hem de yönetilen kod üretebilir.
 
@@ -12,12 +12,12 @@ Microsoft Visual Studio, Microsoft'den tümleşik bir geliştirme ortamıdır (I
 
 Aspose.Cells for .NET, .NET uygulamalarının sunucuda Microsoft Excel® yüklenmesini gerektirmeden Excel® elektronik tabloları oluşturmasını, değiştirmesini, dönüştürmesini, işlemesini ve yazdırmasını sağlayan en esnek bileşen grubunu sağlar.
 
-Aspose.Cells for .NET, tüm önemli Microsoft Excel'i ve XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Sekmeyle Ayrılmış, SpreadsheetML ve PDF, vb. dahil olmak üzere diğer dosya biçimlerini destekler.
+Aspose.Cells for .NET Tüm ana Microsoft Excel ve diğer dosya formatlarını destekler 07613481, XLSX, 07613481, XLTX/XLTM, rebiM31, 07331, 0761, 0731, 076181, 076131ited, 076181, 076131ited
  hakkında daha fazla ayrıntı için[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Aspose.Cells for .NET Örneklerini Visual Studio kullanarak keşfedin**
 
- Aspose Visual Studio Eklentisi -**Keşfet Aspose.Cells for .NET Örnekler** Aspose.Cells for .NET API örneklerini hızla indirmek ve keşfetmek için harika bir araçtır. Visual Studio'dan çıkmak zorunda kalmadan en son örnek projeleri sorunsuz bir şekilde seçmek, indirmek ve açmak için çok basit bir seçenek sunarak çok fazla zaman ve çaba tasarrufu sağlar.
+Aspose Visual Studio Eklentisi -**Keşfet Aspose.Cells for .NET Örnekler** Aspose.Cells for .NET API örneklerini hızla indirmek ve keşfetmek için harika bir araçtır. Visual Studio'dan çıkmak zorunda kalmadan en son örnek projeleri sorunsuz bir şekilde seçmek, indirmek ve açmak için çok basit bir seçenek sunarak çok fazla zaman ve çaba tasarrufu sağlar.
 
 Bu sürüm aşağıdaki özellikleri sağlar:
 
@@ -29,7 +29,7 @@ Bu sürüm aşağıdaki özellikleri sağlar:
 - Seçilen bir proje, çalıştırmaya ve keşfetmeye hazır bir ortam sağlamak için gerekli tüm referanslar ayarlanmış olarak Visual Studio'da otomatik olarak açılır.
 -  En son API kitaplıklarını otomatik olarak indirir.**NuGet** ve örnekler**GitHub**.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_1)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_1)
 
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 
@@ -54,7 +54,7 @@ Aspose Visual Studio Plugin kurulumu çok basit ve kolaydır, lütfen bu basit a
 
 Kurulum tamamlandıktan sonra bir başarı iletişim kutusu alacaksınız.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_2)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_2)
 
 **Not:** Lütfen değişikliklerin etkili olması için Visual Studio'yu yeniden başlattığınızdan emin olun.
 
@@ -63,21 +63,21 @@ Kurulum tamamlandıktan sonra bir başarı iletişim kutusu alacaksınız.
 Kurulduktan sonra etkileşimli eklentiyi aşağıda açıklandığı gibi kolayca başlatabilir ve kullanabilirsiniz:
 **1.** Eklentiyi seçerek açın**Dosya > Aspose** bunu takiben**Yeni Aspose.Cells Örnek Proje** Visual Studio'da.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_3)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_3)
 
 **2.**Eklentiyi ilk açtığınızda, aşağıda gösterildiği gibi API seçim iletişim kutusunu görürsünüz. En son API ve kitaplıklarının indirilmesi birkaç dakika sürecektir.**NuGet** ve en son örnekler kaynak kodu**GitHub**.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_4)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_4)
 
 **3.** Örnekleri Görüntülemek İçin Bir API Seçin iletişim kutusunda, örnek projelerin oluşturulacağı konumu seçin veya değiştirin ve ayrıca örnek proje türünü şu şekilde seçin veya değiştirin:**C#** veya**VB.NET** ve tıklayın**Devam et** örnek projeyi Visual Studio'da açmak için.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_1)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_1)
 
 **4.** Proje türü seçimine göre Yeni Örnek projeler**C#** veya**VB.NET** Visual Studio'da.
 
 |**C# Örnekler** |**VB.NET Örnekler** |
 |:- |:- |
-|![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_6)|![yapılacaklar:resim_alternatif_Metin](aspose-cells-visual-studio-plugin_7)|
+|![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_6)|![yapılacaklar:resim_alternatif_metin](aspose-cells-visual-studio-plugin_7)|
 
 ## **Video Demosu**
 
@@ -85,7 +85,7 @@ Kurulduktan sonra etkileşimli eklentiyi aşağıda açıklandığı gibi kolayc
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 
-### **Destek**
+### **Destek olmak**
 
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 

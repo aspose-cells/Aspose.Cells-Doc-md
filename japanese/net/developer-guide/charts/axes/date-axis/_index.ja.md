@@ -11,7 +11,7 @@ url: /ja/net/date-axis/
 ## **日付軸を Microsoft Excel のように処理する**
 新しい Excel ファイルを作成し、グラフの値を最初のワークシートに入れる次のサンプル コードを参照してください。
 次に、チャートを追加し、[**軸**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis) 
-に[**タイムスケール**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/)次に、基本単位を [日] に設定します。
+に[**タイムスケール**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/)次に、基本単位を [日数] に設定します。
 
 ![todo:画像_代替_文章](excel.png)
 ## **サンプルコード**

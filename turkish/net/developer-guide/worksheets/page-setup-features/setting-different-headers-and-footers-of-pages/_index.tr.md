@@ -16,7 +16,7 @@ Aspose.Cells aynı özelliği destekler.
 **![Farklı Üstbilgileri ve Altbilgileri Ayarlama](difpage.png)**
 
 1.  Tıklamak**sayfa Düzeni > Başlıkları Yazdır > Üst Bilgi/Alt Bilgi**.
-1.  Kontrol**Farklı Tek ve Çift Sayfalar** veya**Farklı köknar sayfası**.
+1.  Kontrol etmek**Farklı Tek ve Çift Sayfalar** veya**Farklı köknar sayfası**.
 1. Farklı üst bilgiler ve alt bilgiler girin.
 
 ## **Aspose.Cells ile Farklı Üstbilgiler ve Altbilgiler Ayarlama**

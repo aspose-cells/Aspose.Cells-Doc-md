@@ -10,7 +10,7 @@ url: /ru/java/copy-range-data-with-style/
 
 {{% /alert %}} 
 ## **Копировать данные диапазона со стилем**
-Aspose.Cells предоставляет ряд классов и методов для работы с диапазонами, например,[создатьдиапазон()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [СтильФлаг](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [применить стиль ()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), так далее.
+Aspose.Cells предоставляет ряд классов и методов для работы с диапазонами, например,[создатьдиапазон()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange\(int,%20int,%20boolean\)), [СтильФлаг](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag), [применить стиль ()](https://reference.aspose.com/cells/java/com.aspose.cells/cells#applyStyle\(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag\)), и т.д.
 
 Этот пример:
 

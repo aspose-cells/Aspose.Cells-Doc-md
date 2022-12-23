@@ -12,13 +12,13 @@ Bazen boş bir resminiz olur ve formül çubuğunda bir hücre referansı ayarla
 
 ## Cell Referansına Göre Resim Ekleme
 
-Aspose.Cells, bir çalışma sayfası hücresinin içeriğinin görüntü şeklinde görüntülenmesini destekler. Resmi, görüntülemek istediğiniz verileri içeren hücreye bağlayabilirsiniz. Hücre veya hücre aralığı grafik nesnesine bağlı olduğundan, verilerde yapılan değişiklikler otomatik olarak grafik nesnesinde görünür. çağırarak çalışma sayfasına bir resim ekleyin.[**resim Ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream) ) yöntemi[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesne). kullanarak hücre aralığını belirtin.[**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) yöntemi[**Resim**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)nesne.
+ Aspose.Cells, bir çalışma sayfası hücresinin içeriğinin görüntü şeklinde görüntülenmesini destekler. Resmi, görüntülemek istediğiniz verileri içeren hücreye bağlayabilirsiniz. Hücre veya hücre aralığı grafik nesnesine bağlı olduğundan, verilerde yapılan değişiklikler otomatik olarak grafik nesnesinde görünür. çağırarak çalışma sayfasına bir resim ekleyin.[**resim Ekle**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection#addPicture(int,%20int,%20int,%20int,%20java.io.InputStream) ) yöntemi[**Şekil Koleksiyonu**](https://reference.aspose.com/cells/java/com.aspose.cells/ShapeCollection) koleksiyon (kapsüllenmiş[**Çalışma kağıdı**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) nesne). kullanarak hücre aralığını belirtin.[**setFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#Formula) yöntemi[**Resim**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)nesne.
 
 Aşağıda, aşağıdaki kodun oluşturduğu dosyanın ekran görüntüsü verilmiştir.
 
 **Hücre referansına dayalı bir resim ekleme**
 
-![yapılacaklar:resim_alternatif_Metin](insert-a-picture-based-on-cell-reference_1.png)
+![yapılacaklar:resim_alternatif_metin](insert-a-picture-based-on-cell-reference_1.png)
 
 ## Basit kod
 

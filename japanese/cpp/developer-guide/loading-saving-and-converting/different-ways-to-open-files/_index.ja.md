@@ -7,7 +7,7 @@ url: /ja/cpp/different-ways-to-open-files/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells を使用すると、ファイルを開いてデータを取得したり、デザイナー テンプレートを使用して開発プロセスを高速化したりすることができます。 Aspose.Cells は、Microsoft Excel スプレッドシート (XLS、XLSX、XLSM、XLSB)、CSV、またはタブ区切りファイルなど、さまざまなファイルを開くことができます。
+Aspose.Cells を使用すると、ファイルを開いてデータを取得したり、デザイナー テンプレートを使用して開発プロセスを高速化したりすることができます。 Aspose.Cells は、Microsoft Excel スプレッドシート (XLS、XLSX、XLSM、XLSB)、CSV または TabDelimited ファイルなど、さまざまなファイルを開くことができます。
 
 {{% /alert %}} 
 ## **パス経由でファイルを開く**

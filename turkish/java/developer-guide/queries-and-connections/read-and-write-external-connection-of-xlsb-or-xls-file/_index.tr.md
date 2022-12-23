@@ -6,13 +6,13 @@ url: /tr/java/read-and-write-external-connection-of-xlsb-or-xls-file/
 ---
 ## **Olası Kullanım Senaryoları**
 
-Aspose.Cells halihazırda XLSX dosyasının harici bağlantısını okuma ve yazma özelliğini desteklemektedir, ancak şimdi bu özelliği XLSB ve XLS dosyası için de desteklemektedir. Ancak, kod her iki biçim türü için de aynıdır.
+Aspose.Cells zaten XLSX dosyasının harici bağlantısını okuma ve yazma özelliğini destekliyor, ancak şimdi bu özelliği XLSB ve XLS dosyası için de destekliyor. Ancak, kod her iki biçim türü için de aynıdır.
 
 ## **XLSB/XLS dosyasının Harici Bağlantısını Okuma ve Yazma**
 
-Aşağıdaki örnek kod, örnek XLSB(XLS de yüklenebilir) dosyasını yükler ve aslında bir Microsoft Access DB Bağlantısı olan ilk Harici Bağlantısını okur. Daha sonra değiştirir[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)özelliğinden yararlanır ve onu çıktı XLSB dosyası olarak kaydeder. Ekran görüntüsü, kodun etkisini gösterir.[örnek XLSB dosyası](51740743.xlsb)ve[çıktı XLSB dosyası](51740742.xlsb)infazından sonra. Lütfen referans için aşağıda verilen örnek kodun konsol çıktısına da bakın.
+Aşağıdaki örnek kod, örnek XLSB(XLS de yüklenebilir) dosyasını yükler ve aslında bir Microsoft Access DB Bağlantısı olan ilk Harici Bağlantısını okur. Daha sonra değiştirir[**DBConnection.Name**](https://reference.aspose.com/cells/java/com.aspose.cells/dbconnection#Name)özelliği ve XLSB çıktı dosyası olarak kaydeder. Ekran görüntüsü, kodun etkisini gösterir.[örnek XLSB dosyası](51740743.xlsb)ve[çıktı XLSB dosyası](51740742.xlsb)infazından sonra. Lütfen referans için aşağıda verilen örnek kodun konsol çıktısına da bakın.
 
-![yapılacaklar:resim_alternatif_Metin](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
+![yapılacaklar:resim_alternatif_metin](read-and-write-external-connection-of-xlsb-or-xls-file_1.png)
 
 ## **Basit kod**
 

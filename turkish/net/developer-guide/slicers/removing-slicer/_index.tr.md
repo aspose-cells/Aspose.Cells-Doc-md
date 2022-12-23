@@ -12,7 +12,7 @@ url: /tr/net/removing-slicer/
 
 Aşağıdaki örnek kod,[örnek excel dosyası](67338478.xlsx)mevcut bir dilimleyici içerir. Dilimleyicilere erişir ve ardından onu kaldırır. Son olarak, çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338477.xlsx). Aşağıdaki ekran görüntüsü, örnek kodun yürütülmesinden sonra kaldırılacak olan dilimleyiciyi göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](removing-slicer_1.png)
+![yapılacaklar:resim_alternatif_metin](removing-slicer_1.png)
 
 ## **Basit kod**
 

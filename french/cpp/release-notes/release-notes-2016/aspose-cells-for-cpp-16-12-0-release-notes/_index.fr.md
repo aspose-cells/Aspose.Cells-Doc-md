@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSPORTINGC-432|Appliquer la mise en forme conditionnelle aux cellules|Nouvelle fonctionnalité|
 |CELLSPORTINGC-433|Propriétés de document personnalisées en lecture/écriture|Nouvelle fonctionnalité|

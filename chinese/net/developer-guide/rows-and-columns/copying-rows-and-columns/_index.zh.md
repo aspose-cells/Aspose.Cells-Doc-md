@@ -84,7 +84,7 @@ Aspose.Cells 提供了[**复制列**](https://reference.aspose.com/cells/net/asp
 
 ## **复制多列**
 
-如同[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)方法，Aspose.Cells API 还提供了[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)方法以便将多个源列复制到新位置。
+相近[**Cells.CopyRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copyrows/index)方法，Aspose.Cells API 还提供了[**Cells.CopyColumns**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/copycolumns/index)方法以便将多个源列复制到新位置。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRowsColumns-CopyingMultipleColumns-1.cs" >}}
 

@@ -13,17 +13,17 @@ url: /es/java/aspose-cells-for-java-20-1-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSJAVA-41325|El método Cell.getValidation devuelve nulo para ODS|Nueva caracteristica|
-|CELLSJAVA-43074|XLSX a PDF, diferencia en la salida de PDF cuando se usa Oracle JDK vs Open JDK|Mejora|
+|CELLSJAVA-43074|XLSX a PDF, diferencia en la salida PDF cuando se usa Oracle JDK frente a Open JDK|Mejora|
 |CELLSJAVA-43083|La opacidad no se aplica a los gráficos de columnas|Insecto|
 |CELLSJAVA-41879|%of, %of Row, %of ParentRowTotal, %ParentTotal, etc. no funcionan en la salida dinámica de Excel|Insecto|
-|CELLSJAVA-43062|El color de fondo predeterminado de Cell es incorrecto en el HTML de salida|Insecto|
+|CELLSJAVA-43062|El color de fondo predeterminado de Cell es incorrecto en la salida HTML|Insecto|
 |CELLSJAVA-43063|La salida de SheetRender.toImage() es incorrecta|Insecto|
 |CELLSJAVA-43070|calculeFormula() no calcula el valor|Insecto|
 |CELLSJAVA-43086|El estilo de formato porcentual se aplica incorrectamente en la configuración regional noruega|Insecto|
 |CELLSJAVA-43082|Fuente más pequeña representada en cada primera fila de la tabla|Insecto|
-|CELLSJAVA-41360|Cells con fórmulas se muestran dentro del PDF mientras que no se muestran dentro del ODS|Insecto|
-|CELLSJAVA-42786|ODS a XLSX: el gráfico de líneas pierde entradas de líneas y leyendas|Insecto|
-|CELLSJAVA-42788|ODS a XLSX: el círculo se convierte en cuadrado|Insecto|
+|CELLSJAVA-41360|Cells con fórmulas se muestran dentro de PDF mientras que no se muestran dentro de ODS|Insecto|
+|CELLSJAVA-42786|ODS a XLSX - el gráfico de líneas pierde entradas de líneas y leyendas|Insecto|
+|CELLSJAVA-42788|ODS a XLSX - el círculo se convierte en cuadrado|Insecto|
 |CELLSJAVA-43073|No se puede acceder a la información de DataMashup en el libro de trabajo|Insecto|
 |CELLSJAVA-43092|No se puede procesar el archivo de Excel|Insecto|
 
@@ -38,7 +38,7 @@ Obtiene la definición de la fórmula de consulta de energía.
 ### **Agrega la propiedad DBConnection.PowerQueryFormula.**
 Obtiene la definición de la fórmula de consulta de potencia.
 ### **Agrega la propiedad HtmlSaveOptions.ExportHeadings.**
-Indica si se exportan encabezados al guardar el archivo en HTML. El valor predeterminado es falso. Si desea importar el archivo HTML a Excel, mantenga el valor predeterminado.
+Indica si exportar encabezados al guardar el archivo a HTML. El valor predeterminado es falso. Si desea importar el archivo HTML a Excel, mantenga el valor predeterminado.
 ### **Agrega la clase XAdESType**
 Tipo de Firma Electrónica Avanzada XML (XAdES).
 ### **Agrega la propiedad DigitalSignature.XAdESType**

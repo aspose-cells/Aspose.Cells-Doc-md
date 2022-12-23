@@ -16,13 +16,13 @@ Aspose.Cells, size grafik işareti etiket yönünü kullanarak değiştirme olan
 
 Aşağıdaki görüntü, kaynak ve çıktı dosyalarını karşılaştırır
 
-### **Kaynak dosya görüntüsü**
+### **Kaynak dosya resmi**
 
-![yapılacaklar:resim_alternatif_Metin](change-tick-label-direction_1.jpg)
+![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_1.jpg)
 
 ### **Çıktı dosyası görüntüsü**
 
-![yapılacaklar:resim_alternatif_Metin](change-tick-label-direction_2.jpg)
+![yapılacaklar:resim_alternatif_metin](change-tick-label-direction_2.jpg)
 
  Aşağıdaki kod parçacığı, onay etiketi yönünü şundan değiştirir:[**DÖNDÜR_90**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#ROTATE_90) ile[**YATAY**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL).
 

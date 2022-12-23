@@ -15,12 +15,12 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.12.
 |CELLSJAVA-43047|Lägger till verktygstipstext i cellen för export i HTML|Ny funktion|
 |CELLSJAVA-43002|Oväntad CPU-hotspot i ZipOutputStream när XSLB öppnas|Förbättring|
 |CELLSJAVA-43008|Möjlighet att inaktivera laddning av OLE-objekt när du öppnar en arbetsbok|Förbättring|
-|CELLSJAVA-42793|Fontwork SmartArt-objekt förlorade under ODS till XLSX-konvertering|Insekt|
+|CELLSJAVA-42793|Fontwork SmartArt-objekt förlorades under konverteringen ODS till XLSX|Insekt|
 |CELLSJAVA-43020|Radiell graf förvrängd efter anrop av Chart.Calcluate()|Insekt|
 |CELLSJAVA-43022|Form till bild-fel för XLS-filer|Insekt|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) orsakar oönskade resultat när getFormula() anropas|Insekt|
 |CELLSJAVA-43052|Valideringsproblem för booleska värden|Insekt|
-|CELLSJAVA-43054|Problem med CSV Merge i portugisiska inställningar|Insekt|
+|CELLSJAVA-43054|Problem med CSV Sammanfoga i portugisiska inställningar|Insekt|
 |CELLSJAVA-43056|Cell.setFormula() uppdateras inte för externa länkar|Insekt|
 |CELLSJAVA-42767|Bild missade under konvertering av Excel till PDF|Insekt|
 |CELLSJAVA-42913|Inbäddade Visio objekt renderade felaktigt till PDF|Insekt|
@@ -30,7 +30,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.12.
 |CELLSJAVA-43057|Problem med att lägga till rubrikbild på första sidan i utdata Excel|Insekt|
 |CELLSJAVA-43069|MS Excel ger ett reparationsmeddelande när den återsparade filen öppnas med Aspose.Cells|Insekt|
 |CELLSJAVA-43060|Undantag "java.lang.NullPointerException" på Workbook.save efter att ha ställt in extern datakälla som tom|Undantag|
-|CELLSJAVA-42923|Undantag vid laddning av XLS-dokument|Undantag|
+|CELLSJAVA-42923|Undantag vid laddning av XLS Dokument|Undantag|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
@@ -71,9 +71,9 @@ Stöder detektering av .OTP-filformatet.
 ### **Lägger till AutoFitterOptions.AutoFitWrappedTextType-egenskapen och AutoFitWrappedTextType-enum.**
 Hämtar och ställer in typen av automatisk anpassning av inslagen text.
 ### **Lägger till klassen EmfRenderSetting**
-Uppsättningar för att rendera EMF-metafil.
+Uppsättningar för rendering av EMF metafil.
 ### **Lägger till egenskapen PdfSaveOptions.EmfRenderSetting**
-Uppsättningar för att rendera EMF-metafil under rendering till PDF-fil.
+Uppsättningar för att rendera EMF metafil medan rendering till PDF fil.
 ### **Lägger till metoden ShapeCollection.AddSvg().**
 Lägger till svg-bild.
 ### **Lägger till WorkbookSettings.QuotePrefixToStyle-egenskapen**

@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-4-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-43596) - 将新模块添加到工作表 VbaProject
@@ -34,11 +34,11 @@ url: /zh/net/aspose-cells-for-net-8-4-2-release-notes/
 
 (CELLSNET-43639) - 水印显示不正确
 
-(CELLSNET-43645) - 无法将嵌入式 OLE 对象从 XLSX 保存到 HTML
+(CELLSNET-43645) - 无法将嵌入的 OLE 对象从 XLSX 保存到 HTML
 
  (CELLSNET-43613) - 自定义字体不适用于 SheetRender
 
- (CELLSNET-43573) - 转换为 PDF 时列移动到下一页
+ (CELLSNET-43573) - 列在转换为 PDF 时移动到下一页
 
 (CELLSNET-43571) - 通过 Aspose.Cells 生成的 PDF 中的分页符不正确
 
@@ -80,7 +80,7 @@ url: /zh/net/aspose-cells-for-net-8-4-2-release-notes/
 
 (CELLSNET-43585) - 将电子表格转换为 PDF 时出现 Aspose.Cells.CellsException
 
- (CELLSNET-43609) - 将 Excel 文件呈现为 PDF 文件格式时出现异常
+(CELLSNET-43609) - 将 Excel 文件呈现为 PDF 文件格式时出现异常
 
 (CELLSNET-43583) - SheetRender.ToImage 方法上的 GDI 错误
 
@@ -104,7 +104,7 @@ url: /zh/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43570) - ListObject.ConvertToRange 在表上抛出 NullReferenceException
 
- (CELLSNET-43564) - 保存回 XLSB 文件时出现 NullReferenceException
+ (CELLSNET-43564) - 保存 XLSB 文件时出现 NullReferenceException
 
 
 
@@ -116,7 +116,7 @@ url: /zh/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **虫子**
 
 
- (CELLSNET-43610) - SaveCommand 事件未触发
+(CELLSNET-43610) - SaveCommand 事件未触发
 
 (CELLSNET-43551) - IE8 无法正常使用荷兰-比利时自定义格式
 

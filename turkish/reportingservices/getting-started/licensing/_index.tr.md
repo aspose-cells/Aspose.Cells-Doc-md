@@ -38,11 +38,11 @@ Lisans dosyasının doğru yüklenip yüklenmediğini test etmek için herhangi 
 
 **Değerlendirme modunda oluşturulmuş bir dosya. İkinci çalışma sayfasını not edin.** 
 
-![yapılacaklar:resim_alternatif_Metin](licensing_1.png)
+![yapılacaklar:resim_alternatif_metin](licensing_1.png)
 
 **Tam lisansla oluşturulmuş bir dosya** 
 
-![yapılacaklar:resim_alternatif_Metin](licensing_2.png)
+![yapılacaklar:resim_alternatif_metin](licensing_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -52,4 +52,4 @@ Lisans dosyasında herhangi bir sorun varsa, oluşturulan raporda hata mesajı �
 
 **Lisans sorununu gösteren hata mesajı** 
 
-![yapılacaklar:resim_alternatif_Metin](licensing_3.png)
+![yapılacaklar:resim_alternatif_metin](licensing_3.png)

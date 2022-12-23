@@ -63,4 +63,4 @@ Wir können jetzt auf das Aspose.Cells.GridDesktop-Steuerelement in der .cs-Date
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-UsingGridDesktopInWpf-MainWindow.xaml-UsingGridDesktopInWpf.cs" >}}
 ## **Bauen und ausführen**
- Erstellen Sie nun die Anwendung und führen Sie sie aus**F5** oder**Anfang** Schaltfläche auf der Benutzeroberfläche von Visual Studio.
+ Erstellen Sie nun die Anwendung und führen Sie sie aus**F5** oder**Start** Schaltfläche auf der Benutzeroberfläche von Visual Studio.

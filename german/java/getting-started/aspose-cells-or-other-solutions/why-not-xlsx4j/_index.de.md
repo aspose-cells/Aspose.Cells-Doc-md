@@ -18,14 +18,14 @@ Sie müssen sich die Zeit nehmen, JAXB und die Open XML-Dateistruktur zu versteh
 
  Lesen Sie mehr unter[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java ist eine preisgekrönte Excel-Tabellenkalkulationskomponente, mit der Java Entwickler die Möglichkeit zum Lesen, Schreiben und Bearbeiten von Excel®-Tabellen (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF einbetten können und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF und Bilddateiformate in ihre eigenen Java Anwendungen, ohne sich auf Microsoft Excel® verlassen zu müssen.
 
 Aspose.Cells for Java ist eine ausgereifte, skalierbare und funktionsreiche Komponente, die viele Funktionen bietet, die weit über die einfachen Datenexportmöglichkeiten anderer Anbieter hinausgehen. Mit Aspose.Cells for Java können Entwickler Daten exportieren, Tabellenkalkulationen bis ins kleinste Detail formatieren, Bilder importieren, Diagramme erstellen, komplexe Formeln anwenden und berechnen, Excel®-Daten streamen, in verschiedenen Formaten speichern und vieles mehr – all dies ohne Microsoft Excel® oder Microsoft Büroautomation.
 
  Lesen Sie mehr unter[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **Warum nicht xlsx4j**
-xlsx4j kann nur Microsoft Open XML Excel xlsx-Dateien analysieren und speichern, Aspose.Cells for Java kann alle Excel-Dateiformate verarbeiten (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) und unterstützt verschiedene Dateiformatkonvertierungen.
+xlsx4j only can parsing and saving Microsoft Open XML Excel xlsx files,Aspose.Cells for Java can process all Excel file formats(XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) and supports various file format conversions.
 
 ## **Aspose.Cells Java für xlsx4j**
 Projekt Aspose.Cells für xlsx4j zeigt, wie verschiedene Aufgaben mit Aspose.Cells Java APIs im Vergleich zu xlsx4j durchgeführt werden können. Das Projekt deckt auch die Funktionen ab, die nur in Aspose.Cells-APIs, aber nicht in xlsx4j für den Umgang mit Tabellenkalkulationen verfügbar sind.
@@ -90,7 +90,7 @@ Die folgenden Versionen von Laufbeispielen stehen auf allen unten genannten Soci
 
 **Notiz:**Bitte verwenden Sie die verfügbare neueste Version der Aspose API.
 ## **Unterstützen, erweitern und beitragen**
-### **Die Unterstützung**
+### **Unterstützung**
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 
 Aus diesem Grund bieten wir kostenlosen Support an. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.
@@ -137,5 +137,5 @@ Dieser Abschnitt enthält die folgenden Themen
     - [Zusammengeführte Cells in xlsx4j erkennen](/cells/de/java/detect-merged-cells-in-xlsx4j/)
     - [Bildlaufleisten von Arbeitsmappen in xlsx4j anzeigen und ausblenden](/cells/de/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
     - [Anzeigen und Ausblenden von Registerkarten der Arbeitsmappe in xlsx4j](/cells/de/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-    - [Speichern Sie jedes Arbeitsblatt in einem anderen PDF in xlsx4j](/cells/de/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+    - [Speichern Sie jedes Arbeitsblatt unter einem anderen PDF in xlsx4j](/cells/de/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Legen Sie die Farbe des Arbeitsblatt-Tabs in xlsx4j fest](/cells/de/java/set-worksheet-tab-color-in-xlsx4j/)

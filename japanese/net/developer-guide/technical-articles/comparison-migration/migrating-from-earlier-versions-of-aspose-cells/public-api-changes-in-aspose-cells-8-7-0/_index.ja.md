@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **プロパティ TxtLoadOptions.HasFormula が追加されました**
-Aspose.Cells for .NET 8.7.0 は[区切られたプレーンデータを含む CSV/TXT ファイルを読み込みながら、数式を識別して解析します](/cells/ja/net/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
+Aspose.Cells for .NET 8.7.0 は[区切られたプレーンデータを含むCSV/TXTファイルをロードしながら、式を識別して解析します](/cells/ja/net/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
 
 以下は、簡単な使用シナリオです。
 

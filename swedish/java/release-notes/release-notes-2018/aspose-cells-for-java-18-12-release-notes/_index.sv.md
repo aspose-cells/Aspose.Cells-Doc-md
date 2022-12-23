@@ -15,7 +15,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.12.
 |CELLSJAVA-42745|Får inte anslutningspunkter eftersom dess returnerade typ är 'zo[]'|Ny funktion|
 |CELLSJAVA-42662|Ge möjlighet att exportera intervall som HTML|Ny funktion|
 |CELLSJAVA-42746|Datafält saknas när XLSX konverteras till HTML|Ny funktion|
-|CELLSJAVA-42747|Värdet existerar fortfarande när XLSX konverteras till HTML-filformat|Ny funktion|
+|CELLSJAVA-42747|Värdet finns fortfarande när XLSX konverteras till HTML filformat|Ny funktion|
 |CELLSJAVA-42748|LightCells API kan inte ladda en stor fil|Förbättring|
 |CELLSJAVA-42727|Textformatering saknas i HTML-utdata från MS Excel-intervallet|Insekt|
 |CELLSJAVA-42744|Ikonuppsättningar blir feljusterade när XLSX konverteras till HTML|Insekt|
@@ -23,14 +23,14 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.12.
 |CELLSJAVA-42753|Ett problem hittades i Named Range|Insekt|
 |CELLSJAVA-42764|Validering returnerar alltid sant för 'getInCellDropDown()'-metoden|Insekt|
 |CELLSJAVA-42768|Fel kultur anpassat format returneras för olika platser (Tyskland, franska, Italien och Spanien)|Insekt|
-|CELLSJAVA-42758|Excel till PDF-konvertering - problem med rendering av mätdiagram|Insekt|
-|CELLSJAVA-42761|PDF-återgivning kastar OutOfMemoryError-undantaget|Insekt|
+|CELLSJAVA-42758|Omvandling av Excel till PDF - Problem med återgivning av mätdiagram|Insekt|
+|CELLSJAVA-42761|PDF återgivning ger OutOfMemoryError-undantaget|Insekt|
 |CELLSJAVA-42759|CellsException vid konvertering av filer|Undantag|
-|CELLSJAVA-42755|Undantag "NullPointerException" när XLSX-fil(er) instansieras|Undantag|
+|CELLSJAVA-42755|Undantag "NullPointerException" vid instansiering av XLSX-fil(er)|Undantag|
 |CELLSJAVA-42762|NumberFormatException under bearbetning av filer|Undantag|
-|CELLSJAVA-42774|NullPointerException när en CSV laddas|Undantag|
-|CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till PDF-filformat|Undantag|
-|CELLSJAVA-42754|"IllegalStateException: Ogiltig kodning: null" när ett XLS-filformat instansieras|Undantag|
+|CELLSJAVA-42774|NullPointerException när du laddar en CSV|Undantag|
+|CELLSJAVA-42765|Undantag "com.aspose.cells.CellsException" när en Excel-fil renderas till filformatet PDF|Undantag|
+|CELLSJAVA-42754|"IllegalStateException: Ogiltig kodning: null" vid instansiering av ett XLS filformat|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 ### **Lägger till egenskapen HtmlSaveOptions.ExportSingleTab**

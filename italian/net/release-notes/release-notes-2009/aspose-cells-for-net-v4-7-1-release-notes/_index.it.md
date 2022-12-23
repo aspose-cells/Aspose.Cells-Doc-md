@@ -28,26 +28,26 @@ url: /it/net/aspose-cells-for-net-v4-7-1-release-notes/
 
 Problemi risolti in Aspose.Cells 4.7.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |7729 | Grafico2Immagine| L'immagine del grafico non assomiglia all'oggetto del grafico sottostante|
 |7938 | Grafici2Immagine| Segno di percentuale non visualizzato nel grafico a torta|
 |7981 | Grafici2Immagine| Grafico esportato incasinato|
-|8114 | Grafici2Immagine| Salvataggio della cartella di lavoro con grafico in HTML non funzionante|
+|8114 | Grafici2Immagine| Salvataggio della cartella di lavoro con grafico in HTML interrotto|
 |8119 | Grafici2Immagine| Utilizzo di FillFormat.Pattern|
 |8223 | Grafici2Immagine| Il titolo della categoria X-Axis non viene visualizzato|
-|8113 | HTML| Html interrotto nel nome del foglio di lavoro contenente uno spazio|
-|8420 | HTML| Problema relativo al formato di esportazione HTML|
+|8113 |HTML | Html interrotto nel nome del foglio di lavoro contenente uno spazio|
+|8420 |HTML | HTML problema formato di esportazione|
 |7718 | PDF| Supporta il collegamento ipertestuale nella conversione diretta delle celle in pdf|
 |7723 | PDF| Problemi di carattere con la conversione di Aspose.Cells in PDF|
-|7726 | PDF| Cells 4.7.0 il salvataggio nel flusso PDF non funziona|
+|7726 | PDF| Cells 4.7.0 il salvataggio nello stream PDF non funziona|
 |7727 | PDF| Il file pdf è troppo grande|
 |7730 | PDF| La chiave è già stata aggiunta all'eccezione del dizionario|
-|7838 | PDF| Da Excel a PDF produce file pdf corrotti|
+|7838 | PDF| Excel a PDF produce un file pdf corrotto|
 |7978 | PDF| Alcuni Aspose.Cells salvano i problemi|
 |7980 | PDF| Differenze di output|
 |7728 | SpreadML| Indice fuori intervallo|
-|8116 | SpreadML| SpreadsheetML errato quando un foglio viene eliminato|
+|8116 | SpreadML| Errato SpreadsheetML quando un foglio viene eliminato|
 |8118 | SpreadML| Errore quando esiste una PRINT_AREA|
 |7381 | XL| Metodo EndCellinRow per excel2007|
 |7722 | XL| Copiare le convalide nell'intervallo di copia.|

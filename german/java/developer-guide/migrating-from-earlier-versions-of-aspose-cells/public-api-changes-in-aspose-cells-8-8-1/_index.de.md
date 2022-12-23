@@ -61,8 +61,8 @@ options.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
-### **Diagramm direkt in PDF konvertieren**
-Aspose.Cells APIs haben bereits die Möglichkeit bereitgestellt, Diagramme unter Verwendung der Chart.toPdf-Methode in PDF zu rendern. Mit dieser Version hat API eine weitere überladene Version der genannten Methode verfügbar gemacht, die eine Instanz von OutputStream akzeptieren könnte, sodass die Benutzer das PDF des Diagramms in einer Instanz von ByteArrayOutputStream speichern können.
+### **Konvertieren Sie das Diagramm direkt in PDF**
+Aspose.Cells-APIs haben bereits die Möglichkeit bereitgestellt, Diagramme in PDF zu rendern, während die Chart.toPdf-Methode verwendet wird. Mit dieser Version hat API eine weitere überladene Version der genannten Methode bereitgestellt, die eine Instanz von OutputStream akzeptieren könnte, sodass Benutzer PDF des Diagramms in einer Instanz von ByteArrayOutputStream speichern können.
 
 Es folgt das einfache Nutzungsszenario.
 

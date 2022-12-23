@@ -19,19 +19,19 @@ url: /tr/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50920|Excel'den Tiff'e dönüştürme sorunu|
 |CELLSNET-50820| JSON dizesini Excel'e aktarma sorunu|
 |CELLSNET-50853|Dilimleyiciler filtresi, Aspose.Cells API'leri tarafından yeniden kaydedildikten sonra kayboluyor|
-|CELLSNET-50960|Aspose.Cells tarafından bir XLSM dosyası (bir pivot tablo içeren) yeniden kaydedilirken çalışma kitabı bozuldu|
+|CELLSNET-50960|XLSM dosyasını (bir pivot tablo içeren) Aspose.Cells tarafından yeniden kaydederken çalışma kitabı bozuldu|
 |CELLSNET-50648|DIV/0 hatası, NPER işlevi hesaplanırken NUM hatasına dönüştürülür|
 |CELLSNET-50694|Excel sayfalarında yorumlar bulunduğunda, DeleteBlankColumns(seçenekler) ile ilgili sorun|
 |CELLSNET-50730|INDEX işlevi dizisi form hesaplama hatası|
 |CELLSNET-50781|MS Excel'deki gibi hesaplanmayan formül|
 |CELLSNET-50861| Cells için içerir.Find(), Tilde karakterleriyle çalışmaz|
 |CELLSNET-50879|Cell'in hesaplanan değeri, dinamik dizi formülleri "hesapla" parametresi için gerçek değerle yenilenirken güncellenmedi|
-|CELLSNET-50992|ODS'ye kaydedildikten sonra özel belge özellikleri için tarih saat değeri değiştirildi|
+|CELLSNET-50992|ODS olarak kaydedildikten sonra özel belge özellikleri için tarih saat değeri değiştirildi|
 |CELLSNET-50953|GridDesktop'ta klavye kopyalama/yapıştırmayı devre dışı bırak|
-|CELLSNET-50771| Yazı tipi, Excel'den PDF'e dönüştürme sırasında kalınlaşıyor|
+|CELLSNET-50771| Yazı tipi, Excel'den PDF'e dönüşüm sırasında kalınlaşır|
 |CELLSNET-50924|Cell html'ye dönüştürüldükten sonra arka plan kayboldu|
-|CELLSNET-50951|Excel'i HTML'ye dönüştürme, sorunlarla sonuçlanır|
-|CELLSNET-50962| Büyük çalışma kitabı için PdfSaveOptions.OnePagePerSheet seçeneğiyle Kaydetme işlemini kesintiye uğratma sorunu|
+|CELLSNET-50951|Excel'i HTML'e dönüştürme, sorunlarla sonuçlanır|
+|CELLSNET-50962|Büyük çalışma kitabı için PdfSaveOptions.OnePagePerSheet seçeneğiyle Kaydetme işlemini kesintiye uğratma sorunu|
 |CELLSNET-50997|Noktalı hücre kutusu ana hatları, kutunun sağ tarafında yükseklik açısından kırılıyor|
 |CELLSNET-50865|Grafikten Görüntüye - doğru şekilde oluşturulmadı|
 |CELLSNET-50952|XLS'den XLSX'e dönüştürme, koşullu biçimlerin iki renkli gradyanını değiştirir|

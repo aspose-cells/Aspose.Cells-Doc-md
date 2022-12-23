@@ -13,20 +13,20 @@ Bu sayfa Aspose.Cells for Java 17.12 için sürüm notları içerir.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42479|İyileştirilmiş LoadDataFilterOptions numaralandırma ve belirsizlik kaldırıldı|Artırma|
-|CELLSJAVA-42460|CSV Biçimi - D2 ve D6, IsString'dir ancak Aspose.Cells, bunları IsNumeric olarak kabul eder|Artırma|
-|CELLSJAVA-42457|XLSX PDF'ye dönüştürüldüğünde, grafiklerdeki bazı satırlar farklı|Böcek|
-|CELLSJAVA-42465|Bazı CSS sınıf bildirimleri çıktı HTML'sinde ön ekli değildir|Böcek|
-|CELLSJAVA-42456|HTML çıktısı kaynakla tutarsız - Excel'den HTML'ye dönüştürme|Böcek|
+|CELLSJAVA-42460|CSV Format - D2 ve D6, IsString'dir ancak Aspose.Cells, bunları IsNumeric olarak kabul eder|Artırma|
+|CELLSJAVA-42457|XLSX, PDF'e dönüştürüldüğünde, grafiklerdeki bazı satırlar farklı|Böcek|
+|CELLSJAVA-42465|Bazı CSS sınıfı bildirimlerinin önüne HTML çıkışı eklenmemiştir.|Böcek|
+|CELLSJAVA-42456|HTML çıktısı kaynakla tutarsız - Excel'den HTML'e dönüştürme|Böcek|
 |CELLSJAVA-42478|HSQL DB'den uzun değer almak bir istisna oluşturuyor|Böcek|
-|CELLSJAVA-42466|Denklem, çıktı PDF'sinde iyi işlenmemiş|Böcek|
-|CELLSJAVA-42475|Çıktı PDF'sinde grafik eksik|Böcek|
-|CELLSJAVA-42459|Çıktı PDF'sinde/resminde grafiğin veri etiketleri eksik|Böcek|
+|CELLSJAVA-42466|Denklem, PDF çıktısında düzgün işlenmedi|Böcek|
+|CELLSJAVA-42475|PDF çıktısında grafik eksik|Böcek|
+|CELLSJAVA-42459|PDF/resim çıktısında grafiğin veri etiketleri eksik|Böcek|
 |CELLSJAVA-42453|Grafik görüntüsü aynı değil Microsoft Excel|Böcek|
-|CELLSJAVA-42447|Veri etiketleri, çıktı HTML dosyası biçiminde yanlış görüntüleniyor|Böcek|
+|CELLSJAVA-42447|Veri etiketleri çıktı HTML dosya biçiminde yanlış görüntüleniyor|Böcek|
 |CELLSJAVA-42481|Açılan kutu adını ayarla, kaynak Excel dosyası için çalışmaz ancak Microsoft Excel tarafından yeniden kaydedilirse sorunsuz çalışır|Böcek|
 |CELLSJAVA-42476|Microsoft Excel Makro Etkin Çalışma Sayfası (.xlsm), Aspose.Cells API'leri aracılığıyla açılıp kaydedildikten sonra bozuluyor|Böcek|
 |CELLSJAVA-42470|Bir Onay Kutusu bağlantılı hücrenin ayarlanması, MS Excel'in çıktı dosyasını içine açarken bir hata mesajı istemesine neden olur|Böcek|
-|CELLSJAVA-42462|XLSB dosyasını okumak, NullPointerException'ı atar|İstisna|
+|CELLSJAVA-42462|XLSB dosyasının okunması NullPointerException hatası veriyor|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
 ### **HtmlSaveOptions.TableCssId özelliğini ekler**
@@ -63,7 +63,7 @@ Web uzantısı şeklini temsil eder.
 Lütfen Aspose.Cells Wiki belgelerine eklenen yardım konularının listesini kontrol edin:
 
 - [Veriler Çok Büyükse Akıllı İşaretleyici Verilerini Diğer Çalışma Sayfalarına Otomatik Olarak Doldur](/cells/tr/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Çalışma Sayfası CSS'sini Çıktı HTML'sinde Ayrı Olarak Dışa Aktarın](/cells/tr/java/export-worksheet-css-separately-in-output-html/)
+- [Çalışma Sayfası CSS'sini Çıktı HTML'de Ayrı Olarak Dışa Aktar](/cells/tr/java/export-worksheet-css-separately-in-output-html/)
 - [Cell.FormulaLocal'ı Excel VBA Range.FormulaLocal'a benzer şekilde uygulayın](/cells/tr/java/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Tablo Elemanları Stillerini HtmlSaveOptions.TableCssId özelliğine sahip Önek](/cells/tr/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Excel'i PDF'ye dönüştürürken Office Eklentilerini İşleyin](/cells/tr/java/render-office-add-ins-while-converting-excel-to-pdf/)

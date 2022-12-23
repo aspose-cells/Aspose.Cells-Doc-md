@@ -6,7 +6,7 @@ url: /de/java/specify-the-language-of-the-excel-file-using-builtin-document-prop
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Sie können die ändern*Sprache*der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann auswählen*Eigenschaften > Details*und dann Bearbeiten der*Sprache*aufstellen. Bitte verwende[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
+Sie können die ändern*Sprache*der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann auswählen*Eigenschaften > Details*und dann Bearbeiten der*Sprache*Gebiet. Bitte verwende[**BuiltInDocumentPropertyCollection.Language**](https://reference.aspose.com/cells/java/com.aspose.cells/builtindocumentpropertycollection#Language)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
 
 ## **Geben Sie die Sprache der Excel-Datei mithilfe der integrierten Dokumenteigenschaften an**
 

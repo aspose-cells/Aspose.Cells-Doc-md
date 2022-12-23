@@ -10,7 +10,7 @@ Manchmal müssen Sie die Breite und Höhe des Papierformats kennen, da es in der
 
 ## **Holen Sie sich die Papierbreite und -höhe der Seiteneinrichtung des Arbeitsblatts**
 
- Der folgende Beispielcode erläutert die Verwendung von[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) Eigenschaften. Es ändert zunächst die Papiergröße auf*A2*und findet dann die Breite und Höhe des Papiers und ändert es dann in*A3*, *A4*, *Brief*und findet jeweils die Breite und Höhe des Papiers.
+ Der folgende Beispielcode erläutert die Verwendung von[**PageSetup.PaperWidth**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperwidth) und[**PageSetup.PaperHeight**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/paperheight) Eigenschaften. Es ändert zunächst die Papiergröße auf*A2*und findet dann die Breite und Höhe des Papiers und ändert es dann in*A3*, *A4*, *Buchstabe*und findet jeweils die Breite und Höhe des Papiers.
 
 ### **Beispielcode**
 

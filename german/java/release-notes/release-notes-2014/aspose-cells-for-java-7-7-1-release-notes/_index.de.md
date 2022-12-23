@@ -10,8 +10,8 @@ url: /de/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java wurde auf Version 7.7.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 20 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for Java können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Aspose.Cells for Java wurde auf Version 7.7.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 20 neue nützliche Verbesserungen enthält.
+Mit Aspose.Cells for Java können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können auch Arbeitsmappen generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for Java beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells for Java.
@@ -43,13 +43,13 @@ Andere Verbesserungen und Änderungen
 Fehler
 
 (CELLSJAVA-40700) - Negativer Wert wird nach Berechnung positiv
-(CELLSJAVA-40668) – Header-Inhalt wird in der PDF-Ausgabedatei verzerrt
-(CELLSJAVA-40695) - XLSX zu PDF: Ergebnis hat keine linken und rechten Ränder
+(CELLSJAVA-40668) – Header-Inhalt wird in der Ausgabedatei PDF verzerrt
+(CELLSJAVA-40695) - XLSX bis PDF: Ergebnis hat keine linken und rechten Ränder
 (CELLSJAVA-40698) – Problem mit PivotTable (ändern Sie den Filter auf einen anderen Wert oder eine andere Bezeichnung)
 (CELLSJAVA-40671) – Cell.getDisplayStyle() gibt nicht die richtige Farbe für die Top 10 der bedingten Formatierung zurück
 (CELLSJAVA-40655) – Die Textausrichtung in der Form wird von der Mitte nach links geändert
-(CELLSJAVA-40572) – Für das leere Blatt wurde ein Lesezeichen erstellt, obwohl das Blatt selbst nicht in der Ausgabe-PDF vorhanden war
-(CELLSJAVA-40548) – Charter-Header fehlt, nachdem xlsx in PDF-Datei gespeichert wurde
+(CELLSJAVA-40572) – Für das leere Blatt wurde ein Lesezeichen erstellt, obwohl das Blatt selbst nicht in der Ausgabe PDF vorhanden war
+(CELLSJAVA-40548) – Charter-Header fehlt, nachdem xlsx in der Datei PDF gespeichert wurde
 (CELLSJAVA-40564) – Datenverlust, wenn Excel-Datei in PDF konvertiert wird
 (CELLSJAVA-40702) – Die Pivot-Tabelle wird nicht richtig aktualisiert
 (CELLSJAVA-40704) - Wertänderungen nach Berechnung in xlsb-Datei

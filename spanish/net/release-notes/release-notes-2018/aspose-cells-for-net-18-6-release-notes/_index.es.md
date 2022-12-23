@@ -13,7 +13,7 @@ url: /es/net/aspose-cells-for-net-18-6-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSNET-46159|Renderizar forma de Slicer a formato de imagen|Nueva caracteristica|
-|CELLSNET-46179|Actualizar Slicer en formatos de archivo XLSB y XLSX|Nueva caracteristica|
+|CELLSNET-46179|Actualice Slicer en los formatos de archivo XLSB y XLSX|Nueva caracteristica|
 |CELLSNET-46167|Crear Slicer en formatos de archivo XLSB y XLSX|Nueva caracteristica|
 |CELLSNET-44455|Cree o actualice Slicer en Excel 2013 usando Aspose.Cells|Nueva caracteristica|
 |CELLSNET-46130|Agregue API para obtener y configurar CustomXmlPart ID|Nueva caracteristica|
@@ -22,37 +22,37 @@ url: /es/net/aspose-cells-for-net-18-6-release-notes/
 |CELLSNET-46178|Admite el formato DateTimeOffset al importar objetos personalizados|Mejora|
 |CELLSNET-46171|La definición de GroupShape es engañosa|Mejora|
 |CELLSNET-46152|Se agregaron métodos relevantes en Aspose.Cells API para GetRangeAddess(), GetCellCount(), GetEntireAddress() y GetOffset()|Mejora|
-|CELLSNET-46122|Convierta arte inteligente de formato de archivo XLSX a XLS|Mejora|
-|CELLSNET-46121|Convierta arte inteligente de formato de archivo XLS a XLSX|Mejora|
+|CELLSNET-46122|Convierta arte inteligente del formato de archivo XLSX a XLS|Mejora|
+|CELLSNET-46121|Convierta arte inteligente del formato de archivo XLS a XLSX|Mejora|
 |CELLSNET-45961|Las herramientas de tinta desaparecieron al convertir a PDF|Mejora|
 |CELLSNET-45160|Partes de la imagen en la hoja de cálculo se representan en diferentes colores al convertir la hoja de trabajo en imagen|Mejora|
-|CELLSNET-43592|Ink Objects no se procesa al convertir una hoja de cálculo a formato PDF|Mejora|
+|CELLSNET-43592|Ink Objects no se procesa al convertir la hoja de cálculo al formato PDF|Mejora|
 |CELLSNET-45891|Faltan algunas formas y otras están dispersas (desposicionadas): conversión de Excel a HTML|Insecto|
-|CELLSNET-46112|Cuando la ubicación de llamada de Issue4.xlsx se convierte a PDF, el formato no es bueno|Insecto|
+|CELLSNET-46112|Cuando la ubicación de llamada de Issue4.xlsx se convirtió a PDF, el formato no es bueno|Insecto|
 |CELLSNET-45212|Imagen más grande desplazada al convertir un XLSM a PDF|Insecto|
-|CELLSNET-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en la representación de Excel a HTML|Insecto|
+|CELLSNET-42636|Algunas formas de dibujo se desplazan o representan incorrectamente en Excel para la representación HTML|Insecto|
 |CELLSNET-42627|No se pueden extraer imágenes de arte inteligente correctamente|Insecto|
-|CELLSNET-42618|La forma se desplaza para cubrir los datos en la representación de Excel a HTML|Insecto|
+|CELLSNET-42618|La forma se desplaza para cubrir los datos en Excel a la representación HTML|Insecto|
 |CELLSNET-46146|Todos los datos de filas y columnas anteriores permanecen en la tabla dinámica después del filtrado|Insecto|
-|CELLSNET-46127|El HTML de salida es bueno en Chrome pero incorrecto en IE o Edge|Insecto|
-|CELLSNET-45005|Filas importadas a una sola celda al importar formato de archivo HTML|Insecto|
+|CELLSNET-46127|La salida HTML es buena en Chrome pero incorrecta en IE o Edge|Insecto|
+|CELLSNET-45005|Filas importadas a una sola celda al importar el formato de archivo HTML|Insecto|
 |CELLSNET-45004|Cell valor truncado al importar HTML|Insecto|
 |CELLSNET-46162|Las comillas simples desaparecen de la fórmula al abrir el archivo|Insecto|
 |CELLSNET-46069|Las fórmulas (que contienen una fuente de datos vinculada en otros libros de trabajo) no se calculan bien|Insecto|
 |CELLSNET-46142|La barra de pestañas se oculta cuando el usuario cambia de pestaña porque la altura de la cuadrícula crece|Insecto|
 |CELLSNET-46177|Imprimir desde Aspose.Cells difiere de Excel|Insecto|
-|CELLSNET-46176|La salida de PDF ignora todos los saltos de página dentro de un archivo de MS Excel|Insecto|
-|CELLSNET-46153|El color de la forma cambia cuando se convierte a formato de archivo PDF|Insecto|
+|CELLSNET-46176|La salida PDF ignora todos los saltos de página dentro de un archivo de MS Excel|Insecto|
+|CELLSNET-46153|El color de la forma cambia cuando se convierte al formato de archivo PDF|Insecto|
 |CELLSNET-46126|El documento de Excel se desliza mientras se guarda como PDF|Insecto|
-|CELLSNET-46125|Mezcla de página 1 y página 2 en el PDF de salida|Insecto|
+|CELLSNET-46125|Mezcla de pagina 1 y pagina 2 en la salida PDF|Insecto|
 |CELLSNET-46114|Una sola palabra se divide en dos líneas en la imagen de salida Aspose.Cells'|Insecto|
 |CELLSNET-45766|No se puede cargar el archivo ODS protegido con contraseña|Insecto|
-|CELLSNET-46164|El gráfico de Pareto no se muestra en el archivo de MS Excel, pero se muestra algo bien en PDF|Insecto|
+|CELLSNET-46164|El diagrama de Pareto no se muestra en el archivo de MS Excel, pero se muestra algo bien en PDF|Insecto|
 |CELLSNET-46155|La etiqueta del eje horizontal del gráfico está dañada|Insecto|
 |CELLSNET-46150|Guardar el archivo XLT como XLS después de borrar la serie de datos del gráfico genera una advertencia roja de "Vista protegida"|Insecto|
 |CELLSNET-46140|La marca de agua funciona bien con las hojas de cálculo, pero no aparece nada en los gráficos|Insecto|
 |CELLSNET-46129|Las marcas del eje Y en la imagen del gráfico no coinciden con MS-Excel|Insecto|
-|CELLSNET-46100|CellsException - System.OutOfMemoryException al convertir un archivo de Excel a PDF|Insecto|
+|CELLSNET-46100|CellsException: System.OutOfMemoryException al convertir un archivo de Excel a PDF|Insecto|
 |CELLSNET-46082|Los colores de la leyenda del gráfico circular cambian después de guardar en PDF y no coinciden con los sectores del gráfico circular|Insecto|
 |CELLSNET-46072|Guardar un archivo XLT/XLTX como XLS/XLSX genera una advertencia roja de "Vista protegida"|Insecto|
 |CELLSNET-46166|Los hipervínculos están dañados cuando se hace referencia a una hoja con caracteres especiales en su nombre|Insecto|
@@ -88,7 +88,7 @@ Mejora para el rango de procesamiento.
 #### **Agrega la enumeración ColorDepth y la propiedad ImageOrPrintOptions.TiffColorDepth**
 Obtiene o establece la profundidad de bits para que se aplique solo al guardar páginas en formato Tiff.
 #### **Sobrecarga el método WorkbookRender.ToImage()**
-Representa el libro de trabajo en imagen por el índice de la página.
+Representa el libro de trabajo en una imagen por el índice de la página.
 #### **Agrega el método Legend.LegendEntriesLabels()**
 Obtiene las etiquetas de las entradas de la leyenda después de llamar al método Chart.Calculate().
 #### **Añade el método CustomFilter.SetCriteria(FilterOperatorType filterOperator, criterio de objeto)**

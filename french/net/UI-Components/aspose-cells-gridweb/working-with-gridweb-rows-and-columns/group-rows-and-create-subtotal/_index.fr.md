@@ -69,7 +69,7 @@ sheet.Cells.GroupRows(4, 6);
 
 {{< /highlight >}}
 ### **Processus interne : comment fonctionne le contrôle ?**
-Chaque ligne de la feuille a un numéro de contour. La valeur par défaut du numéro de contour est zéro. Chaque fois que vous regroupez les lignes, le numéro de plan est augmenté de 1. Vous pouvez obtenir le numéro de plan en appelant la méthode GridWorksheet.Cells.GetRowOutlineLevel().
+Chaque ligne de la feuille a un numéro de plan. La valeur par défaut du numéro de contour est zéro. Chaque fois que vous regroupez les lignes, le numéro de plan est augmenté de 1. Vous pouvez obtenir le numéro de plan en appelant la méthode GridWorksheet.Cells.GetRowOutlineLevel().
 ## **Dissocier les lignes**
 Aspose.Cells.GridWeb vous permet de dissocier des lignes groupées.
 
@@ -125,7 +125,7 @@ La fonctionnalité de sous-total du contrôle peut regrouper les lignes de la fe
 {{< /highlight >}}
 ### **Liste des paramètres**
 
-|**Non.**|**Le nom du paramètre**|**La description**|
+|**Non.**|**Le nom du paramètre**|**Description**|
 |:- |:- |:- |
 |1|nom_colonneRowIndex|Index de ligne de la ligne du nom de colonne.|
 |2|dataRows|Le nombre de lignes de données.|
@@ -135,9 +135,9 @@ La fonctionnalité de sous-total du contrôle peut regrouper les lignes de la fe
 ### **Liste des fonctions récapitulatives**
 Il existe plusieurs types de fonctions récapitulatives prises en charge par l'énumération {[SubtotalFunction}} :
 
-|**Non.**|**Nom de la fonction**|**La description**|
+|**Non.**|**Nom de la fonction**|**Description**|
 |:- |:- |:- |
-|1|MOYEN|Calcule la moyenne des valeurs.|
+|1|MOYENNE|Calcule la moyenne des valeurs.|
 |2|COMPTER|Compte les valeurs numériques dans les cellules.|
 |3|COUNTA|Compte les données non numériques dans les cellules.|
 |4|MAX|Calcule la plus grande valeur.|
@@ -180,7 +180,7 @@ Syntaxe : SOUS-TOTAL(num_fonction, réf1, réf2, ...)
 
 function_num est un nombre spécifiant le type de la fonction utilisée dans le calcul du sous-total.
 
-|**1**|**MOYEN**|
+|**1**|**MOYENNE**|
 |:- |:- |
 |2|COMPTER|
 |3|COUNTA|

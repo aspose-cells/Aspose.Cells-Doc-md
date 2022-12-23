@@ -75,7 +75,7 @@ Diese Methode gilt für die Verwendung mit JasperServer.
 
 ## **Überprüfen Sie, ob die Lizenz funktioniert**
 
-Exportieren Sie einen beliebigen Bericht in das XLS-Format und prüfen Sie, ob der Bericht eine Bewertungsmeldung enthält. Wenn keine Evaluierungsmeldung angezeigt wird, funktioniert die Lizenz ordnungsgemäß.
+Exportieren Sie einen beliebigen Bericht in das Format XLS und prüfen Sie, ob der Bericht eine Bewertungsmeldung enthält. Wenn keine Evaluierungsmeldung angezeigt wird, funktioniert die Lizenz ordnungsgemäß.
 
 **Aspose.Cells for JasperReports fügt ein Bewertungsarbeitsblatt im Bewertungsmodus ein** 
 

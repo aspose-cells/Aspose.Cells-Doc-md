@@ -12,15 +12,15 @@ url: /zh/java/aspose-cells-for-java-22-11-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSJAVA-44888|“+”和“-”在转换后消失了——Excel 到 HTML 的渲染|
+|CELLSJAVA-44888|“+”和“-”在转换后消失了——Excel到HTML渲染|
 |CELLSJAVA-44775|图表中的图表标签重叠以进行图像渲染|
 |CELLSJAVA-44882|图表到图像渲染 - 其中一个标签位于圆环图内|
 |CELLSJAVA-44943|XLSX 到 PDF：图表标签未正确呈现|
-|CELLSJAVA-44928|XLS 到 PDF：图像数据不足|
-|CELLSJAVA-44910|将 Excel 转换为 HTML 会产生数千个类似的小图像|
+|CELLSJAVA-44928|XLS 至 PDF：图像数据不足|
+|CELLSJAVA-44910|将 Excel 转换为 HTML 会产生数千张类似的小图像|
 |CELLSJAVA-44944|调整表格大小会更改单元格的格式|
-|CELLSJAVA-44948|将 HTML 转换为 Excel 时，图像无法在工作表中显示|
-|CELLSJAVA-44908|加载大型 XLSB 文件时出现异常“java.lang.OutOfMemoryError: Java heap space”|
+|CELLSJAVA-44948|HTML 转换为Excel时无法在工作表中显示图像|
+|CELLSJAVA-44908|加载大 XLSB 文件时出现异常“java.lang.OutOfMemoryError：Java 堆空间”|
 |CELLSJAVA-44929|回归：Workbook.calculateFormula() 上的“java.lang.NullPointerException”|
 |CELLSJAVA-44927|将 Excel 文件转换为 HTML 时出现异常“java.lang.IndexOutOfBoundsException：索引：5，大小：5”|
 |CELLSJAVA-44939|尝试读取 Excel 文件时出现错误“java.lang.StringIndexOutOfBoundsException：字符串索引超出范围：0”|

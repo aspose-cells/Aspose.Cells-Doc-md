@@ -9,7 +9,7 @@ url: /it/net/digitally-sign-a-vba-code-project-with-certificate/
  Puoi firmare digitalmente il tuo progetto di codice VBA usando Aspose.Cells con il suo[**Cartella di lavoro.VbaProject.Sign()**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/methods/sign)metodo. Segui questi passaggi per verificare se il tuo file excel è firmato digitalmente con un certificato.
 
 -  Clic**Visual Basic** dal**Sviluppatore** scheda da aprire**IDE di Visual Basic per applicazioni**
--  Clic**Strumenti** > **Firme digitali...** di**IDE di Visual Basic per applicazioni**
+-  Clic**Utensili** > **Firme digitali...** di**IDE di Visual Basic per applicazioni**
 
  e mostrerà il**Modulo firma digitale** mostrando se il documento è firmato digitalmente con un certificato o meno.
 

@@ -13,6 +13,6 @@ Bu sayfa, Linux için Aspose.Cells for C++ 22.6 sürüm notlarını içerir.
 Linux için Aspose.Cells for C++ 22.6 sürümünü duyurmaktan mutluluk duyuyoruz.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSCPP-759| SHA512Yönetilen sınıfı destekler|Destek|
-|CELLSCPP-812| Özellikleri .Net sürümüyle senkronize edin|Destek|
+|CELLSCPP-759| SHA512Yönetilen sınıfı destekler|Destek olmak|
+|CELLSCPP-812| Özellikleri .Net sürümüyle senkronize edin|Destek olmak|
 

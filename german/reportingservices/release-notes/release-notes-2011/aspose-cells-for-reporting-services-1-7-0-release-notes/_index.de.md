@@ -16,7 +16,7 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services Designer unterstützt die Erstellung von Matrixvorlagen in Excel.
 - Unterstützt die bedingte Formatierung für Tabellen- und Matrixberichtselemente.
-- Fügt das Rendern von Tablix-Berichtselementen nur für CSV- und TXT-Formate in SQL Server 2008 Reporting Services hinzu.
+- Fügt das Rendern von Tablix-Berichtselementen nur für die Formate CSV und TXT in SQL Server 2008 Reporting Services hinzu.
 
  Was hat sich geändert?
 
@@ -36,7 +36,7 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
-|22987 | Serverkomponente| Problem mit der SSRS-CSV-Exportcodierung|
+|22987 | Serverkomponente| SSRS CSV Problem mit der Exportcodierung|
 |17208 | Serverkomponente| Export Report Service Report nach MS Excel 2007 Fehler|
 |18133 | Klient und Server| Spaltengruppen in Aspose.Cells.ReportingServices|
 |20251 | Serverkomponente| Reporting Services-Erweiterung|

@@ -8,13 +8,13 @@ url: /es/java/aspose-cells-java-for-python/
 
 JPype es un esfuerzo para permitir que los programas de Python tengan acceso completo a las bibliotecas de clases de Java. Esto no se logra mediante la reimplementación de Python, como lo ha hecho Jython/JPython, sino mediante la interfaz a nivel nativo en ambas máquinas virtuales.
 
- Lee mas en[readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
+ Lea mas en[readthedocs.org](https://jpype.readthedocs.io/en/latest/userguide.html)
 
 ## **Aspose.Cells for Java**
 
 Aspose.Cells for Java es una biblioteca de clase avanzada for Java que le permite realizar una gran variedad de tareas de procesamiento de documentos directamente dentro de sus aplicaciones Java.
 
-Aspose.Cells for Java admite el procesamiento de Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (valores separados por comas), TSV (valores separados por tabuladores), TabDelimited (archivo de texto delimitado por tabuladores), Html, MHtml, ODS ( OpenDocument Spreadsheet), SpreadsheetML y Numbers (el documento es creado por la aplicación "Numbers" de Apple). Con Aspose.Cells puede generar, modificar y convertir documentos sin usar Microsoft Excel.
+Aspose.Cells for Java supports processing Excel (XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM), CSV (Comma Separated Value), TSV (Tab-separated values), TabDelimited (Tab delimited text file), Html, MHtml, ODS ( OpenDocument Spreadsheet), SpreadsheetML y Numbers (el documento es creado por la aplicación "Numbers" de Apple). Con Aspose.Cells puede generar, modificar y convertir documentos sin usar Microsoft Excel.
 
 ## **Aspose.Cells Java para Jython**
 

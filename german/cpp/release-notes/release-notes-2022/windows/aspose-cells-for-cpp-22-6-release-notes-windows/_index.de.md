@@ -12,5 +12,5 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.6.0 für Wind
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-759| Unterstützt SHA512Managed-Klasse|Die Unterstützung|
-|CELLSCPP-812| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-759| Unterstützt SHA512Managed-Klasse|Unterstützung|
+|CELLSCPP-812| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|

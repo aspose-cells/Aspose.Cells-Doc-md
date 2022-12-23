@@ -60,7 +60,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 
 
 
-- Componente de servidor: los campos se fusionan cuando se representan como XLSX
+- Componente del servidor: los campos se fusionan cuando se representan como XLSX
 - Componente del servidor: problemas de exportación por Aspose.Cells for Reporting Services
 - Componente del servidor: la columna oculta es visible después de renderizar
 - Componente del servidor: faltan los encabezados del grupo de columnas
@@ -73,6 +73,6 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-1-8-0-release-not
 - Componente del servidor: problema de fórmula dinámica y pies de página de tabla
 - ServerComponent: genere un archivo XLSX en lugar de CSV si un usuario selecciona el tipo de exportación CSV
 - ServerComponent: no se puede exportar un informe de tabulación cruzada a MS Excel 2007
-- Componente del servidor: problema de codificación de exportación CSV
+- Componente del servidor - CSV Problema de codificación de exportación
 
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Documents PDF sécurisés
+title: Documents sécurisés PDF
 type: docs
 weight: 260
 url: /fr/java/secure-pdf-documents/
@@ -8,9 +8,9 @@ keywords: secure pdf documents java, secure pdf documents, excel to secure pdf, 
 ---
 {{% alert color="primary" %}}
 
-Parfois, les développeurs doivent travailler avec des fichiers PDF cryptés. Par exemple, ils doivent sécuriser les documents avec des mots de passe d'utilisateur et de propriétaire afin que n'importe qui ne puisse pas les ouvrir, ou souhaitent restreindre l'impression ou l'extraction du contenu du document.
+Parfois, les développeurs doivent travailler avec des fichiers cryptés PDF. Par exemple, ils doivent sécuriser les documents avec des mots de passe d'utilisateur et de propriétaire afin que n'importe qui ne puisse pas les ouvrir, ou souhaitent restreindre l'impression ou l'extraction du contenu du document.
 
-Cet article explique comment transmettre les options de sécurité PDF lors de l'enregistrement de feuilles de calcul au format PDF.
+Cet article explique comment transmettre les options de sécurité PDF lors de l'enregistrement de feuilles de calcul dans PDF.
 
 {{% /alert %}} 
 
@@ -20,6 +20,6 @@ Cet article explique comment transmettre les options de sécurité PDF lors de l
 
 {{% alert color="primary" %}}
 
- Si la feuille de calcul contient des formules, il est préférable d'appeler[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) juste avant de le rendre au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si la feuille de calcul contient des formules, il est préférable d'appeler[**Workbook.calculateFormula()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) juste avant de le rendre à PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}

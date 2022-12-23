@@ -26,7 +26,7 @@ Die ersten Schritte sind für alle Beispiele gleich.
 1. Laden Sie Aspose.Cells herunter und installieren Sie es:
    1. [Herunterladen Aspose.Cells for .NET](https://downloads.aspose.com/cells/net).
  1. Installieren Sie es auf Ihrem Entwicklungscomputer.
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 1. Erstellen Sie ein Projekt:
  1. Starten Sie Visual Studio.Net.
  1. Erstellen Sie eine neue Konsolenanwendung.

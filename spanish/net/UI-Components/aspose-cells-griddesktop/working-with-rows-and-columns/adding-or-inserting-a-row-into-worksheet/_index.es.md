@@ -12,9 +12,9 @@ Similar a uno de nuestros temas anteriores, este tema describe la característic
 ## **Agregar una fila a la hoja de trabajo**
 Para agregar una nueva fila a la hoja de trabajo, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Agregar**Fila** hacia**Hoja de cálculo**
+-  Agregar**Fila** al**Hoja de cálculo**
 
 
 
@@ -22,9 +22,9 @@ Para agregar una nueva fila a la hoja de trabajo, siga los pasos a continuación
 ## **Insertar una fila en la hoja de trabajo**
 Para insertar una nueva fila en la hoja de trabajo en una posición específica, siga los pasos a continuación:
 
--  Agregue el control Aspose.Cells.GridDesktop a su**Forma**
+-  Agregue el control Aspose.Cells.GridDesktop a su**Formulario**
 -  Accede a cualquier deseado**Hoja de cálculo**
--  Insertar**Fila** dentro**Hoja de cálculo**(en una posición específica especificando el índice de la fila donde insertarlo)
+-  Insertar**Fila** en**Hoja de cálculo**(en una posición específica especificando el índice de la fila donde insertarlo)
 
 {{< highlight "java" >}}
 

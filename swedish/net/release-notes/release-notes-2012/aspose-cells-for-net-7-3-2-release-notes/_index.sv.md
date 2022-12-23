@@ -63,7 +63,7 @@ url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 
  -Spara XLSX-fil med Scatter-plot möjliggör extra alternativ
 
--DataLabels.ShowBubbleSize-problem med XLSX-filformat
+ -DataLabels.ShowBubbleSize-problem med filformatet XLSX
 
  -Excel cirkeldiagrams titel renderas inte korrekt till bildfilen
 
@@ -71,7 +71,7 @@ url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 
 - Tyska språkfråga angående villkorlig formatering
 - Tomma sidor efter konvertering till PDF
-- Problem med sidhuvud/sidfot i PDF-fil
+- Problem med sidhuvud/sidfot i filen PDF
 - Förlorade utrymmen vid rendering av Excel-intervall till bild
 - Språk/regionalt problem - problem med villkorlig formatering med SheetRender
 - Anpassat nummerformateringsproblem med negativt tal
@@ -79,9 +79,9 @@ url: /sv/net/aspose-cells-for-net-7-3-2-release-notes/
 - Problem med att spara arbetsbok med beräknade medlemmar i en pivottabell
 - Formel- och språkfrågor i samband med SheetRender (XPS)
 - Undersummor beräknas i felaktig ordning (smarta markörer)
-- Problem med Excels XLSB-filstorlek - plocklistan försvinner
+- Excels XLSB filstorleksproblem - plocklistan försvinner
 
- -Shape to image-fel när du sparar PDF med Aspose Cells
+-Shape to image-fel när du sparar PDF med Aspose Cells
 
 - Efter konvertering till PDF är filen skadad
 

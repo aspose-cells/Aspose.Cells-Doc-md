@@ -16,29 +16,29 @@ url: /es/net/aspose-cells-for-net-19-8-release-notes/
 |CELLSNET-46813|Compatibilidad con la extracción de archivos .MOL integrados en OLE|Nueva caracteristica|
 |CELLSNET-46822|Detectar la diferencia entre hipervínculos internos y externos|Nueva caracteristica|
 |CELLSNET-42334|Aspose.Cells. Compatibilidad GridWeb con MVC|Mejora|
-|CELLSNET-46804|Mejore el rendimiento para calcular matrices grandes con valores dobles|Actuación|
-|CELLSNET-46856|El documento no se guarda cuando se guarda más de 10 veces|Actuación|
-|CELLSNET-46827|Falta contenido en la conversión de XLSX a ODS|Insecto|
-|CELLSNET-46833|Las formas están distorsionadas en la conversión de Excel a PDF|Insecto|
-|CELLSNET-46835|Las formas de dibujo no se representan correctamente en la representación de Excel a PDF|Insecto|
-|CELLSNET-46848|Problema con el texto en árabe en la representación de Excel a PDF|Insecto|
+|CELLSNET-46804|Mejore el rendimiento para calcular matrices grandes con valores dobles|Rendimiento|
+|CELLSNET-46856|El documento no se guarda cuando se guarda más de 10 veces|Rendimiento|
+|CELLSNET-46827|Falta contenido en la conversión XLSX a ODS|Insecto|
+|CELLSNET-46833|Las formas están distorsionadas en Excel a la conversión PDF|Insecto|
+|CELLSNET-46835|Las formas de dibujo no se representan correctamente en Excel para la representación PDF|Insecto|
+|CELLSNET-46848|Problema con el texto en árabe en Excel para la representación PDF|Insecto|
 |CELLSNET-44973|No se puede establecer el color de relleno de las celdas de la tabla dinámica|Insecto|
 |CELLSNET-46818|No todos los estilos se exportan al guardar en HTML|Insecto|
 |CELLSNET-46824|La tabla dinámica se corrompió después de que se actualizaron los datos de la fuente dinámica|Insecto|
 |CELLSNET-46820|Problemas de datos de agrupación de marcadores inteligentes|Insecto|
 |CELLSNET-46840|Problema con el método Workbook.RemoveUnusedStyles|Insecto|
-|CELLSNET-46853|Algunas columnas se representan en color rojo en la representación de Excel a PDF|Insecto|
+|CELLSNET-46853|Algunas columnas se representan en color rojo en Excel para la representación PDF|Insecto|
 |CELLSNET-46829|El objeto DBConnection no proporciona valor para DBConnection.ConnectionInfo|Insecto|
 |CELLSNET-46830|Leer y escribir en Consultas|Insecto|
-|CELLSNET-46841|Abriendo un archivo XLS específico con errores Aspose|Insecto|
+|CELLSNET-46841|Abriendo archivo XLS específico con errores Aspose|Insecto|
 |CELLSNET-46845|Problemas en el comportamiento de ImportTableOptions.InsertRows|Insecto|
 |CELLSNET-46846|Archivo de Excel dañado después de volver a guardar|Insecto|
 |CELLSNET-46849|Problema con las conexiones de datos externos|Insecto|
 |CELLSNET-46850|La agrupación de datos no se conserva al usar Cells.DeleteRange()|Insecto|
 |CELLSNET-46855|InsertRows divide incorrectamente las filas agrupadas|Insecto|
-|CELLSNET-46858|La conversión de XLSX a ODS cambia la fuente del texto en el libro de texto|Insecto|
+|CELLSNET-46858|XLSX a ODS la conversión cambia la fuente del texto en el libro de texto|Insecto|
 |CELLSNET-46859|La vista previa de impresión no muestra el cuadro de texto en el archivo ODS convertido de XLSX|Insecto|
-|CELLSNET-46723|Se lanza una excepción al obtener una imagen de SheetRender para un archivo ODS cifrado|Excepción|
+|CELLSNET-46723|Se lanza una excepción al obtener la imagen de SheetRender para el archivo ODS cifrado|Excepción|
 |CELLSNET-46842|Calcular gráficos en un Excel con un número> int.MaxValue genera un error|Excepción|
 |CELLSNET-46828|"IndexOutOfRangeException" cuando se usa un marcador inteligente con una tabla dinámica y se guarda el libro de trabajo|Excepción|
 |CELLSNET-46814|Excepción "El índice estaba fuera de los límites de la matriz" al convertir XLSX a PDF|Excepción|

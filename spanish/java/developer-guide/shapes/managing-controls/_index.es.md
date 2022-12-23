@@ -10,15 +10,15 @@ Los desarrolladores pueden agregar diferentes objetos de dibujo, como cuadros de
 
 ## **Agregar control de cuadro de texto a la hoja de trabajo**
 
-Una forma de resaltar la información importante en un informe es utilizar un cuadro de texto. Por ejemplo, agregue texto para resaltar el nombre de la empresa o para indicar la región geográfica con las ventas más altas, etc. Aspose.Cells proporciona la clase TextBoxes, que se usa para agregar un nuevo cuadro de texto a la colección. Hay otra clase,[**Caja de texto**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), que representa un cuadro de texto utilizado para definir todo tipo de configuraciones. Tiene algunos miembros importantes:
+ Una forma de resaltar la información importante en un informe es utilizar un cuadro de texto. Por ejemplo, agregue texto para resaltar el nombre de la empresa o para indicar la región geográfica con las ventas más altas, etc. Aspose.Cells proporciona la clase TextBoxes, que se usa para agregar un nuevo cuadro de texto a la colección. Hay otra clase,[**Caja de texto**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)que representa un cuadro de texto utilizado para definir todo tipo de configuraciones. Tiene algunos miembros importantes:
 
--  los[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) método devuelve un[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) objeto utilizado para ajustar el contenido del cuadro de texto.
--  los[**establecerColocación**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) El método especifica el tipo de ubicación.
--  los[**establecer fuente**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) El método especifica los atributos de la fuente.
--  los[**añadir hipervínculo**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) agrega un hipervínculo para el cuadro de texto.
--  los[**Formato de relleno**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) devoluciones de propiedad[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) objeto utilizado para establecer el formato de relleno para el cuadro de texto.
--  los[**formato de línea**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) propiedad devuelve el[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) objeto generalmente utilizado para el estilo y el peso de la línea del cuadro de texto.
--  los[**establecerTexto**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)El método especifica el texto de entrada para el cuadro de texto.
+-  Él[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) método devuelve un[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) objeto utilizado para ajustar el contenido del cuadro de texto.
+-  Él[**establecerColocación**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) El método especifica el tipo de ubicación.
+-  Él[**establecer fuente**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Font) El método especifica los atributos de la fuente.
+-  Él[**añadir hipervínculo**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String)) agrega un hipervínculo para el cuadro de texto.
+-  Él[**Formato de relleno**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) devoluciones de propiedad[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) objeto utilizado para establecer el formato de relleno para el cuadro de texto.
+-  Él[**formato de línea**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) propiedad devuelve el[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) objeto generalmente utilizado para el estilo y el peso de la línea del cuadro de texto.
+-  Él[**establecerTexto**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) El método especifica el texto de entrada para el cuadro de texto.
 
 El siguiente ejemplo crea dos cuadros de texto en la primera hoja de trabajo del libro. El primer cuadro de texto está bien equipado con diferentes configuraciones de formato. La segunda es sencilla.
 
@@ -50,16 +50,16 @@ Para colocar un control de casilla de verificación en su hoja de trabajo, siga 
 1.  Haga clic en el**casilla de verificación** en la barra de herramientas Formularios.
 1. En el área de su hoja de trabajo, haga clic y arrastre para definir el rectángulo que contendrá la casilla de verificación y la etiqueta al lado de la casilla de verificación.
 1. Una vez que se coloca la casilla de verificación, mueva el cursor del mouse al área de la etiqueta y cambie la etiqueta.
-1.  En el**Cell Enlace**campo, especifique la dirección de la celda a la que debe vincularse esta casilla de verificación.
-1.  Haga clic en**OK**.
+1.  En el**Cell enlace**campo, especifique la dirección de la celda a la que debe vincularse esta casilla de verificación.
+1.  Haga clic en**DE ACUERDO**.
 
 ### **Usando Aspose.Cells**
 
  Aspose.Cells proporciona el[**Colección CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/checkboxcollection) class, que se utiliza para agregar una nueva casilla de verificación a la colección. Hay otra clase,[**Aspose.Cells.Drawing.CheckBox**](https://reference.aspose.com/cells/java/com.aspose.cells/CheckBox), que representa una casilla de verificación. Tiene algunos miembros importantes:
 
--  los[**establecerCeldaEnlazada**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) El método especifica una celda que está vinculada a la casilla de verificación.
--  los[**establecerTexto**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) El método especifica la cadena de texto asociada con la casilla de verificación. Es la etiqueta de la casilla de verificación.
--  los[**valor ajustado**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) El método especifica si la casilla de verificación está marcada o no.
+-  Él[**establecerCeldaEnlazada**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#LinkedCell) El método especifica una celda que está vinculada a la casilla de verificación.
+-  Él[**establecerTexto**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Text) El método especifica la cadena de texto asociada con la casilla de verificación. Es la etiqueta de la casilla de verificación.
+-  Él[**valor ajustado**](https://reference.aspose.com/cells/java/com.aspose.cells/checkbox#Value) El método especifica si la casilla de verificación está marcada o no.
 
 El siguiente ejemplo muestra cómo agregar una casilla de verificación a la hoja de trabajo. El siguiente resultado se genera después de ejecutar el código.
 
@@ -81,12 +81,12 @@ Para colocar un control Botón de radio en su hoja de trabajo, siga estos pasos:
 1.  Haga clic en el**Botón de opción** herramienta.
 1. En la hoja de trabajo, haga clic y arrastre para definir el rectángulo que contendrá el botón de opción y la etiqueta al lado del botón de opción.
 1. Una vez que el botón de radio se coloca en la hoja de trabajo, mueva el cursor del mouse al área de la etiqueta y cambie la etiqueta.
-1.  En el**Cell Enlace** campo, especifique la dirección de la celda a la que debe vincularse este botón de opción.
-1.  Hacer clic**OK**.
+1.  En el**Cell enlace** campo, especifique la dirección de la celda a la que debe vincularse este botón de opción.
+1.  Hacer clic**DE ACUERDO**.
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape que se puede usar para agregar un control de botón de radio a una hoja de trabajo. El método puede devolver un objeto RadioButton. La clase RadioButton representa un botón de opción. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape que se puede usar para agregar un control de botón de radio a una hoja de trabajo. El método puede devolver un objeto RadioButton. La clase RadioButton representa un botón de opción. Tiene algunos miembros importantes:
 
 - El método setLinkedCell especifica una celda que está vinculada al botón de opción.
 - El método setText especifica la cadena de texto asociada con el botón de opción. Es la etiqueta del botón de opción.
@@ -94,7 +94,7 @@ Para colocar un control Botón de radio en su hoja de trabajo, siga estos pasos:
 - El método setFillFormat especifica el formato de relleno del botón de opción.
 - El método setLineFormat especifica los estilos de formato de línea del botón de opción.
 
-El siguiente ejemplo muestra cómo agregar botones de opción a una hoja de cálculo. El ejemplo agrega tres botones de radio que representan grupos de edad. El siguiente resultado se generaría después de ejecutar el código.
+El siguiente ejemplo muestra cómo agregar botones de radio a una hoja de cálculo. El ejemplo agrega tres botones de radio que representan grupos de edad. El siguiente resultado se generaría después de ejecutar el código.
 
 **Algunos botones de radio se agregan en la hoja de trabajo** 
 
@@ -108,25 +108,25 @@ Para facilitar la entrada de datos, o para limitar las entradas a ciertos elemen
 
 ### **Usando Microsoft Excel**
 
-Para colocar un control de cuadro combinado en su hoja de cálculo, siga estos pasos:
+Para colocar un control de cuadro combinado en su hoja de trabajo, siga estos pasos:
 
 1.  Asegúrate que**formularios** se muestra la barra de herramientas.
 1.  Haga clic en el**Caja combo** herramienta.
 1. En el área de su hoja de trabajo, haga clic y arrastre para definir el rectángulo que contendrá el cuadro combinado.
 1.  Una vez que el cuadro combinado se coloca en la hoja de cálculo, haga clic con el botón derecho en el control para hacer clic en**Control de formato** y especifique el rango de entrada.
-1.  En el**Cell Enlace** campo, especifique la dirección de la celda a la que debe vincularse este cuadro combinado.
-1.  Haga clic en**OK**.
+1.  En el**Cell enlace** campo, especifique la dirección de la celda a la que debe vincularse este cuadro combinado.
+1.  Haga clic en**DE ACUERDO**.
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se puede usar para agregar un control de cuadro combinado a la hoja de cálculo. El método puede devolver el objeto ComboBox. La clase ComboBox representa un cuadro combinado. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se puede usar para agregar un control de cuadro combinado a la hoja de cálculo. El método puede devolver el objeto ComboBox. La clase ComboBox representa un cuadro combinado. Tiene algunos miembros importantes:
 
 - El método setLinkedCell especifica una celda que está vinculada al cuadro combinado.
 - El método setInputRange especifica el rango de celdas de la hoja de cálculo que se usa para llenar el cuadro combinado.
 - El método setDropDownLines especifica el número de líneas de lista que se muestran en la parte desplegable de un cuadro combinado.
 - El método setShadow indica si el cuadro combinado tiene sombreado 3D.
 
-El siguiente ejemplo muestra cómo agregar un cuadro combinado a la hoja de cálculo. El siguiente resultado se genera al ejecutar el código.
+El siguiente ejemplo muestra cómo agregar un cuadro combinado a la hoja de trabajo. El siguiente resultado se genera al ejecutar el código.
 
 **Se agrega un cuadro combinado en la hoja de trabajo** 
 
@@ -136,7 +136,7 @@ El siguiente ejemplo muestra cómo agregar un cuadro combinado a la hoja de cál
 
 ## **Adición de control de etiquetas a una hoja de trabajo**
 
- Las etiquetas son un medio para dar a los usuarios información sobre el contenido de una hoja de cálculo. Aspose.Cells permite agregar y manipular etiquetas en una hoja de trabajo. los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se usa para agregar un control de etiqueta a la hoja de trabajo. El método devuelve un objeto Label. La clase Label representa una etiqueta en la hoja de trabajo. Tiene algunos miembros importantes:
+ Las etiquetas son un medio para dar a los usuarios información sobre el contenido de una hoja de cálculo. Aspose.Cells permite agregar y manipular etiquetas en una hoja de trabajo. Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se usa para agregar un control de etiqueta a la hoja de trabajo. El método devuelve un objeto Label. La clase Label representa una etiqueta en la hoja de trabajo. Tiene algunos miembros importantes:
 
 - El método setText especifica la cadena de título de una etiqueta.
 - El método setPlacement especifica PlacementType, la forma en que la etiqueta se adjunta a las celdas de la hoja de trabajo.
@@ -161,19 +161,19 @@ Para colocar un control de cuadro de lista en una hoja de cálculo:
 1.  Haga clic en el**Cuadro de lista** herramienta.
 1. En el área de su hoja de trabajo, haga clic y arrastre para definir el rectángulo que contendrá el cuadro de lista.
 1.  Una vez que el cuadro de lista se coloca en la hoja de trabajo, haga clic con el botón derecho en el control para hacer clic en**Control de formato** y especifique el rango de entrada.
-1.  En el**Cell Enlace**campo, especifique la dirección de la celda a la que se debe vincular este cuadro de lista y establezca el atributo de tipo de selección (Único, Múltiple, Extender)
-1.  Hacer clic**OK**.
+1.  En el**Cell enlace**campo, especifique la dirección de la celda a la que se debe vincular este cuadro de lista y establezca el atributo de tipo de selección (Único, Múltiple, Extender)
+1.  Hacer clic**DE ACUERDO**.
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método denominado addShape, que se utiliza para agregar un control de cuadro de lista a una hoja de trabajo. El método devuelve un objeto ListBox. La clase ListBox representa un cuadro de lista. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método denominado addShape, que se utiliza para agregar un control de cuadro de lista a una hoja de cálculo. El método devuelve un objeto ListBox. La clase ListBox representa un cuadro de lista. Tiene algunos miembros importantes:
 
 - El método setLinkedCell especifica una celda que está vinculada al cuadro de lista.
 - El método setInputRange especifica el rango de celdas de la hoja de cálculo que se usa para llenar el cuadro de lista.
 - El método setSelectionType especifica el modo de selección del cuadro de lista.
 - El método setShadow indica si el cuadro de lista tiene sombreado 3D.
 
-El siguiente ejemplo muestra cómo agregar un cuadro de lista a la hoja de trabajo. El siguiente resultado se genera al ejecutar el código.
+El siguiente ejemplo muestra cómo agregar un cuadro de lista a la hoja de cálculo. El siguiente resultado se genera al ejecutar el código.
 
 **Se agrega un cuadro de lista en la hoja de trabajo.** 
 
@@ -187,23 +187,23 @@ Los botones son útiles para realizar algunas acciones. A veces, es útil asigna
 
 ### **Usando Microsoft Excel**
 
-Para colocar un control de botón en su hoja de cálculo:
+Para colocar un control de botón en su hoja de trabajo:
 
 1.  Asegúrate que**formularios** se muestra la barra de herramientas.
 1.  Haga clic en el**Botón** herramienta.
 1. En el área de su hoja de trabajo, haga clic y arrastre para definir el rectángulo que contendrá el botón.
 1.  Una vez que el cuadro de lista se coloca en la hoja de trabajo, haga clic derecho en el control y seleccione**Control de formato**, luego especifique una macro de VBA y los atributos relacionados con la fuente, la alineación, el tamaño, el margen, etc.
-1.  Haga clic en**OK**.
+1.  Haga clic en**DE ACUERDO**.
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar un control de botón a la hoja de trabajo. El método puede devolver un objeto Button. La clase Button representa un botón. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar un control de botón a la hoja de trabajo. El método puede devolver un objeto Button. La clase Button representa un botón. Tiene algunos miembros importantes:
 
 - El método setText especifica el título del botón.
 - El método setPlacement especifica PlacementType, la forma en que el botón se adjunta a las celdas de la hoja de trabajo.
 - El método addHyperlink agrega un hipervínculo para el control de botón. Al hacer clic en el botón se navegará a la URL relacionada.
 
-El siguiente ejemplo muestra cómo agregar un botón a la hoja de trabajo. El siguiente resultado se genera al ejecutar el código
+El siguiente ejemplo muestra cómo agregar un botón a la hoja de cálculo. El siguiente resultado se genera al ejecutar el código
 
 **Se agrega un botón en la hoja de trabajo.**
 
@@ -225,12 +225,12 @@ Aspose.Cells le permite dibujar autoformas en sus hojas de trabajo. Puede crear 
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se usa para agregar una forma de línea a la hoja de cálculo. El método puede devolver un objeto LineShape. La clase LineShape representa una línea. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection)class proporciona un método llamado addShape, que se usa para agregar una forma de línea a la hoja de trabajo. El método puede devolver un objeto LineShape. La clase LineShape representa una línea. Tiene algunos miembros importantes:
 
 - El método setDashStyle especifica el formato de una línea.
-- El método setPlacement especifica PlacementType, la forma en que la línea se adjunta a las celdas de la hoja de cálculo.
+- El método setPlacement especifica PlacementType, la forma en que la línea se adjunta a las celdas de la hoja de trabajo.
 
-El siguiente ejemplo muestra cómo agregar líneas a la hoja de cálculo. Crea tres líneas con diferentes estilos. El siguiente resultado se genera después de ejecutar el código.
+El siguiente ejemplo muestra cómo agregar líneas a la hoja de trabajo. Crea tres líneas con diferentes estilos. El siguiente resultado se genera después de ejecutar el código.
 
 **Se agregan algunas líneas en la hoja de trabajo.** 
 
@@ -264,7 +264,7 @@ Aspose.Cells le permite dibujar formas rectangulares en sus hojas de trabajo. Pu
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma de rectángulo a una hoja de cálculo. El método puede devolver un objeto RectangleShape. La clase RectangleShape representa un rectángulo. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma de rectángulo a una hoja de trabajo. El método puede devolver un objeto RectangleShape. La clase RectangleShape representa un rectángulo. Tiene algunos miembros importantes:
 
 - El método setLineFormat especifica los atributos de formato de línea de un rectángulo.
 - El método setPlacement especifica PlacementType, la forma en que el rectángulo se adjunta a las celdas de la hoja de cálculo.
@@ -289,7 +289,7 @@ Aspose.Cells le permite dibujar formas de arco en sus hojas de trabajo. Puede cr
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma de arco a la hoja de trabajo. El método puede devolver un objeto ArcShape. La clase ArcShape representa un arco. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma de arco a la hoja de trabajo. El método puede devolver un objeto ArcShape. La clase ArcShape representa un arco. Tiene algunos miembros importantes:
 
 - El método setLineFormat especifica los atributos de formato de línea de una forma de arco.
 - El método setPlacement especifica PlacementType, la forma en que el arco se adjunta a las celdas de la hoja de trabajo.
@@ -317,13 +317,13 @@ Aspose.Cells le permite dibujar formas ovaladas en hojas de trabajo. Cree formas
 
 ### **Usando Aspose.Cells**
 
- los[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma ovalada a una hoja de cálculo. El método puede devolver un objeto Oval. La clase Oval representa una forma ovalada. Tiene algunos miembros importantes:
+ Él[**ShapeCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/shapecollection) class proporciona un método llamado addShape, que se usa para agregar una forma ovalada a una hoja de trabajo. El método puede devolver un objeto Oval. La clase Oval representa una forma ovalada. Tiene algunos miembros importantes:
 
 - El método setLineFormat especifica los atributos de formato de línea de una forma ovalada.
--  El método setPlacement especifica el**Tipo de ubicación** , la forma en que el óvalo se une a las celdas de la hoja de cálculo.
+-  El método setPlacement especifica el**Tipo de ubicación** , la forma en que el óvalo se une a las celdas de la hoja de trabajo.
 - La propiedad FillFormat especifica los estilos de formato de relleno de la forma.
 
-El siguiente ejemplo muestra cómo agregar formas ovaladas a la hoja de cálculo. El ejemplo crea dos formas ovaladas: una es un óvalo relleno y la otra es un círculo simple. El siguiente resultado se genera al ejecutar el código.
+El siguiente ejemplo muestra cómo agregar formas ovaladas a la hoja de trabajo. El ejemplo crea dos formas ovaladas: una es un óvalo relleno y la otra es un círculo simple. El siguiente resultado se genera al ejecutar el código.
 
 **Se agregan dos formas ovaladas en la hoja de trabajo.** 
 

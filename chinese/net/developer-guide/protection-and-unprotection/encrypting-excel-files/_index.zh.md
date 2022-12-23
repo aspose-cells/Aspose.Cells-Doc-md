@@ -40,9 +40,9 @@ Aspose.Cells 允许您使用所需的加密类型加密和密码保护 Microsoft
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-VerifyPassword-1.cs" >}}
 
-## **使用 Aspose.Cells 加密/解密 ODS 文件**
+## **用 Aspose.Cells 加密/解密 ODS 文件**
 
-Aspose.Cells 允许加密和解密 ODS 文件。解密的ODS文件可以在Excel和OpenOffice中打开，但是加密的ODS文件只有在提供密码后才能用OpenOffice打开。 Excel 无法打开加密的 ODS 文件，并可能引发警告消息。与其他文件类型不同，加密选项不适用于 ODS 文件。要加密 ODS 文件，加载文件并设置[**工作簿设置.密码**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)在保存之前将值设置为实际密码。输出的加密 ODS 文件只能在 OpenOffice 中打开。
+Aspose.Cells 允许加密和解密 ODS 文件。解密后的ODS文件在Excel和OpenOffice中都可以打开，而加密后的ODS文件只有在提供密码后才能用OpenOffice打开。 Excel 无法打开加密的 ODS 文件，可能会引发警告消息。与其他文件类型不同，加密选项不适用于 ODS 文件。要加密 ODS 文件，加载文件并设置[**工作簿设置.密码**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/password)在保存之前将值设置为实际密码。输出的加密文件ODS只能在OpenOffice中打开。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Utility-EncryptingODSFiles-1.cs" >}}
 

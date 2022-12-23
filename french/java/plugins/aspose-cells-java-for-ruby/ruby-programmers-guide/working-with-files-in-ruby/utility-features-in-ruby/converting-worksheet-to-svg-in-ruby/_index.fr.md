@@ -1,11 +1,11 @@
 ﻿---
-title: Conversion d'une feuille de calcul en SVG dans Ruby
+title: Conversion de la feuille de calcul en SVG en Ruby
 type: docs
 weight: 70
 url: /fr/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells - Conversion de la feuille de calcul en SVG**
-Pour convertir une feuille de calcul en SVG en utilisant Aspose.Cells for Java dans Ruby, appelez simplement la feuille de calcul_à_Méthode svg() du module Converter.
+## **Aspose.Cells - Conversion de la feuille de travail en SVG**
+Pour convertir la feuille de calcul en SVG en utilisant Aspose.Cells for Java dans Ruby, appelez simplement la feuille de calcul_à_Méthode svg() du module Converter.
 
 **Code rubis**
 

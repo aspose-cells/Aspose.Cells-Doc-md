@@ -7,7 +7,7 @@ url: /ja/java/hello-world/
 ## **Aspose.Cells - Hello World**
 PHP で Aspose.Cells for Java を使用してスプレッドシート ドキュメントに何かを書き込むには、HelloWorld モジュールを呼び出すだけです。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "ruby" >}}
 

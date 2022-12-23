@@ -6,7 +6,7 @@ url: /fr/net/adding-2-color-scale-and-3-color-scale-conditional-formattings/
 ---
 {{% alert color="primary" %}}
 
-**Échelle à 2 couleurs** et**Échelle de 3 couleurs** Les mises en forme conditionnelles sont ajoutées de la même manière, sauf qu'elles diffèrent par[**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale) propriété. Cette propriété est**faux** pour Échelle 2 couleurs et**vrai** pour les mises en forme conditionnelles d'échelle de 3 couleurs.
+**Échelle à 2 couleurs** et**Échelle de 3 couleurs** Les mises en forme conditionnelles sont ajoutées de la même manière, sauf qu'elles diffèrent par[**FormatCondition.ColorScale.Is3ColorScale**](https://reference.aspose.com/cells/net/aspose.cells/colorscale/properties/is3colorscale) la propriété. Cette propriété est**faux** pour Échelle 2 couleurs et**vrai** pour les mises en forme conditionnelles d'échelle de 3 couleurs.
 
 {{% /alert %}}
 

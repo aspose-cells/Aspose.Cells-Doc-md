@@ -16,7 +16,7 @@ url: /zh/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43338|将 Excel 文件转换为 PDF 时输出差异|
 |CELLSJAVA-43346|在数据透视表页面过滤器中添加超过 12 个字段时，输出文件已损坏|
 |CELLSJAVA-43351|转换为 pdf 时标题表的背景颜色不正确|
-|CELLSJAVA-43358|HTML 到 Excel 转换时缺少文本|
+|CELLSJAVA-43358|HTML 到 Excel 转换时文本丢失|
 |CELLSJAVA-43341|使用 LightCellsDataProvider 导出 CSV 时额外的空列|
 |CELLSJAVA-43352|转换为 PDF 的 Excel 文件会产生大量数字的问题|
 |CELLSJAVA-43339|将源文件转换为 pdf 时图像错位|
@@ -24,11 +24,11 @@ url: /zh/java/aspose-cells-for-java-20-12-release-notes/
 |CELLSJAVA-43336|图表图例条目呈现得太靠左|
 |CELLSJAVA-43356|当介于 2 个值之间时，不考虑图表上的空值/间隙|
 |CELLSJAVA-43344|当前用户名显示为最后评论的作者|
-|CELLSJAVA-43349|不维护从 XML 到 XLS/XLSX 转换的隐藏行|
+|CELLSJAVA-43349|不维护隐藏行从 XML 到 XLS/XLSX 的转换|
 |CELLSJAVA-43361|xls 到 xlsx 转换时的单元格颜色不正确|
 |CELLSJAVA-43366|SetAsTotal 属性不更新|
 |CELLSJAVA-43348|XLSB 到 PDF 转换：CellsException：-2147483648|
-|CELLSJAVA-43343|将文件导出为没有形状选定项目的 PDF 时出现异常|
+|CELLSJAVA-43343|将文件导出到 PDF 时出现异常，该文件没有形状的选定项目|
 
 ## **公共 API 和向后不兼容的更改**
 

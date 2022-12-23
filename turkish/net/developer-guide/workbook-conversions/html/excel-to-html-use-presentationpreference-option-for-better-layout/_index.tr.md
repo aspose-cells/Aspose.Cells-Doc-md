@@ -1,5 +1,5 @@
 ﻿---
-title: Excel'den HTML'ye - Daha İyi Düzen için PresentationPreference Seçeneğini Kullanın
+title: Excel'den HTML'e - Daha İyi Düzen için PresentationPreference Seçeneğini Kullanın
 type: docs
 weight: 220
 url: /tr/net/excel-to-html-use-presentationpreference-option-for-better-layout/

@@ -32,31 +32,31 @@ url: /es/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41680) - API representa el nombre del mes ruso de manera diferente antes y después de llamar al método de cálculo de fórmula
 
- (CELLSJAVA-41673) - Aspose.Cells no lee nada de la hoja de Excel en el archivo de plantilla
+(CELLSJAVA-41673) - Aspose.Cells no lee nada de la hoja de Excel en el archivo de plantilla
 
 
 ## **Insectos**
 
 
- (CELLSJAVA-41685): las imágenes de los gráficos tienen un tamaño de 0 KB al convertir la hoja de cálculo a HTML
+ (CELLSJAVA-41685): las imágenes de gráficos tienen un tamaño de 0 KB al convertir la hoja de cálculo a HTML
 
  (CELLSJAVA-41684): falta la imagen del gráfico en HTML
 
- (CELLSJAVA-41676) - La salida HTML produce resultados impredecibles
+ (CELLSJAVA-41676) - HTML La salida produce resultados impredecibles
 
  (CELLSJAVA-41665): la imagen en la hoja de cálculo no se exporta a HTML
 
  (CELLSJAVA-41632): problema de alineación de fechas al convertir de EXCEL a HTML y volver a EXCEL
 
-(CELLSJAVA-41603): aparece un color de fondo incorrecto para las celdas al exportar un rango de celdas a html
+ (CELLSJAVA-41603): aparece un color de fondo incorrecto para las celdas al exportar un rango de celdas a html
 
  (CELLSJAVA-41337): la conversión a HTML genera un archivo HTML muy grande
 
- (CELLSJAVA-41705): el color del texto no se representa correctamente en HTML de tablas de Excel
+ (CELLSJAVA-41705): el color del texto no se representa correctamente en HTML de las tablas de Excel
 
  (CELLSJAVA-41647): el hipervínculo en un ListObject que apunta a un rango se rompe cuando la hoja de cálculo se convierte a HTML
 
- (CELLSJAVA-41659): la aplicación de un estilo con nombre en una celda no se refleja en la sección Estilos de la interfaz de Excel.
+(CELLSJAVA-41659): la aplicación de un estilo con nombre en una celda no se refleja en la sección Estilos de la interfaz de Excel.
 
  (CELLSJAVA-41602) - El método Cell.calculate() no funciona correctamente para una celda específica
 
@@ -70,53 +70,53 @@ url: /es/java/aspose-cells-for-java-8-7-0-release-notes/
 
  (CELLSJAVA-41662): falta el borde al renderizar DataBar en la imagen
 
-(CELLSJAVA-41548) - DataBar a imagen: el tamaño de DataBar en la imagen no corresponde a Excel
+ (CELLSJAVA-41548) - DataBar a imagen: el tamaño de DataBar en la imagen no corresponde a Excel
 
  (CELLSJAVA-41250): la hoja no se representa correctamente con SheetRender.toImage()
 
  (CELLSJAVA-41701): los valores de altura del área de trazado y Y del área de trazado son diferentes después de volver a cargar el gráfico desde la hoja de cálculo
 
- (CELLSJAVA-41699) - Conversión de gráfico a imagen: la imagen del gráfico no se representa correctamente porque los tamaños de barra se muestran de manera diferente
+(CELLSJAVA-41699) - Conversión de gráfico a imagen: la imagen del gráfico no se representa correctamente porque los tamaños de barra se muestran de manera diferente
 
- (CELLSJAVA-41689): el antialiasing no parece tener efecto para el relleno de la serie del gráfico mientras se exporta a HTML.
+ (CELLSJAVA-41689) - Anti-Aliasing no parece tener efecto para el relleno de serie del gráfico mientras se exporta a HTML
 
 (CELLSJAVA-41686) - RenderingHints.VALUE_TEXTO_ ANTIALIAS_GASP no tiene efecto al convertir la hoja de cálculo a HTML
 
- (CELLSJAVA-41678) - Se muestran colores incorrectos en el PDF del gráfico
+ (CELLSJAVA-41678): se muestran colores incorrectos en el gráfico PDF
 
- (CELLSJAVA-41669): todas las barras aparecen debajo de la regla de valor 0 en el PDF del gráfico
+ (CELLSJAVA-41669): todas las barras aparecen debajo de la regla de valor 0 en el gráfico PDF
 
- (CELLSJAVA-41667): los gráficos de barras agrupadas no se muestran en el formato de archivo PDF de salida
+ (CELLSJAVA-41667): los gráficos de barras agrupadas no se muestran en el formato de archivo de salida PDF
 
-(CELLSJAVA-41660) - El grosor de los ejes X e Y aumentó en el PDF del gráfico
+ (CELLSJAVA-41660): el grosor del eje X y el eje Y aumenta en el gráfico PDF
 
  (CELLSJAVA-41657): el gráfico de burbujas no se muestra correctamente al convertirlo en una imagen
 
  (CELLSJAVA-41656): el valor de la serie del gráfico se muestra en un ángulo
 
- (CELLSJAVA-41646): la sección inferior del eje X en el PDF del gráfico se está recortando
+(CELLSJAVA-41646): la sección inferior del eje X en Chart's PDF se está recortando
 
- (CELLSJAVA-41644): las etiquetas de los ejes se muestran inclinadas al representar el gráfico en PDF.
+ (CELLSJAVA-41644): las etiquetas de los ejes se muestran inclinadas al representar el gráfico en PDF
 
  (CELLSJAVA-41628): la alineación del encabezado no es precisa en el gráfico a PDF
 
- (CELLSJAVA-41623): faltan algunas barras de series de datos en el PDF de Chart usando Chart.toPdf
+ (CELLSJAVA-41623): faltan algunas barras de series de datos en Chart's PDF usando Chart.toPdf
 
  (CELLSJAVA-41468) - Problema de calidad del gráfico: el suavizado no se aplica sin sombra
 
- (CELLSJAVA-41445): el gráfico de burbujas no tiene un efecto de suavizado en el formato de archivo HTML representado.
+ (CELLSJAVA-41445): el gráfico de burbujas no tiene un efecto de suavizado en el formato de archivo renderizado HTML
 
-(CELLSJAVA-41306) - Problema de conversión de Excel a PDF - lado derecho cortado
+ (CELLSJAVA-41306) - Problema de conversión de Excel a PDF - lado derecho cortado
 
- (CELLSJAVA-41697): aparece un color de fuente incorrecto para tablas y rangos en el formato HTML/Imagen/PDF generado
+ (CELLSJAVA-41697): aparece un color de fuente incorrecto para tablas y rangos en el formato generado HTML/Image/PDF
 
-(CELLSJAVA-41679): Worksheet.getProtection().getPasswordHash() devuelve 0 después de volver a proteger mediante código de macro
+ (CELLSJAVA-41679): Worksheet.getProtection().getPasswordHash() devuelve 0 después de volver a proteger mediante código de macro
 
  (CELLSJAVA-41675) - La imagen no es transparente en el pdf de salida
 
- (CELLSJAVA-41671): representación incorrecta de los colores Cell con formato condicional en el PDF resultante
+ (CELLSJAVA-41671) - Representación incorrecta de colores Cell con formato condicional en la resultante PDF
 
- (CELLSJAVA-41663): guardar los datos de la imagen del icono del formato condicional en los resultados del archivo en una imagen en blanco
+(CELLSJAVA-41663): guardar los datos de la imagen del icono del formato condicional en los resultados del archivo en una imagen en blanco
 
  (CELLSJAVA-41661) - El proceso se atasca al cargar y convertir a un archivo xlsx desde xml
 
@@ -130,7 +130,7 @@ url: /es/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -160,7 +160,7 @@ url: /es/java/aspose-cells-for-java-8-7-0-release-notes/
 
 
 
-Elimina la propiedad obsoleta Workbook.SaveOptions.
+ Elimina la propiedad obsoleta Workbook.SaveOptions.
 
  Use el método Workbook.Save(Stream,SaveOptions) o Workbook.Save(string,SaveOptions) en su lugar.
 
@@ -172,7 +172,7 @@ Elimina la propiedad obsoleta Workbook.SaveOptions.
 
 
 
- Agrega la propiedad Proptection.IsProtectedWithPassword.
+Agrega la propiedad Proptection.IsProtectedWithPassword.
 
  Indica si la hoja de trabajo está protegida con contraseña.
 

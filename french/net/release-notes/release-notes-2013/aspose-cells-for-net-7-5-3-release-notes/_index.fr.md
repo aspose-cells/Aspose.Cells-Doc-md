@@ -20,10 +20,10 @@ url: /fr/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 41931 - CellsException calculant SUBSTITUTE
- fonction
+ une fonction
 
 
 
@@ -31,7 +31,7 @@ url: /fr/net/aspose-cells-for-net-7-5-3-release-notes/
 
  41884 - L'image TIF de sortie n'est pas correcte
 
- 41865 - Problème(s) de conversion d'Excel en MHTML
+ 41865 - Conversion d'Excel en numéro(s) MHTML
 
 41914 - Fichiers corrompus lors de la fusion de classeurs
 
@@ -50,7 +50,7 @@ url: /fr/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

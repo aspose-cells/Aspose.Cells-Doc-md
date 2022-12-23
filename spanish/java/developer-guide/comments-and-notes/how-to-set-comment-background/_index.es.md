@@ -9,7 +9,7 @@ keywords: add inset picture iamge color comment background excel
 ---
 {{% alert color="primary" %}}
 
-Los comentarios se agregan a las celdas para registrar comentarios, desde los detalles de cómo funciona una fórmula, de dónde proviene un valor o las preguntas de los revisores. Los comentarios juegan un papel extremadamente importante cuando varias personas discuten o revisan el mismo documento en diferentes momentos. ¿Cómo distinguir los comentarios de diferentes personas? Sí, podemos establecer un color de fondo diferente para cada comentario. Pero cuando necesitamos procesar muchos documentos y muchos comentarios, hacerlo manualmente es un desastre. Afortunadamente[**Aspose.Cells**](https://products.aspose.com/cells/java/) proporciona un API que le permite hacer esto en código.
+ Los comentarios se agregan a las celdas para registrar comentarios, desde los detalles de cómo funciona una fórmula, de dónde proviene un valor o las preguntas de los revisores. Los comentarios juegan un papel extremadamente importante cuando varias personas discuten o revisan el mismo documento en diferentes momentos. ¿Cómo distinguir los comentarios de diferentes personas? Sí, podemos establecer un color de fondo diferente para cada comentario. Pero cuando necesitamos procesar muchos documentos y muchos comentarios, hacerlo manualmente es un desastre. Afortunadamente[**Aspose.Cells**](https://products.aspose.com/cells/java/) proporciona un API que le permite hacer esto en código.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Cuando no necesite el color de fondo predeterminado para los comentarios, es pos
 
  El siguiente código le guiará cómo utilizar[**Aspose.Cells**](https://products.aspose.com/cells/java/) para agregar su color de fondo favorito a los comentarios de su elección.
 
- Aquí hemos preparado un[archivo de muestra](exmaple.xlsx)para usted. Este archivo se usa para inicializar el objeto Workbook en el código a continuación.
+ Aquí hemos preparado un[archivo de muestra](exmaple.xlsx) para usted. Este archivo se usa para inicializar el objeto Workbook en el código a continuación.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToChangeCommentBackgroundColor.java" >}}
 

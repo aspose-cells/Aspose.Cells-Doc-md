@@ -12,8 +12,8 @@ keywords: Importing json without office 2013, office 2016, office 2019 and offic
 
 {{% /alert %}}
 
-## **تحويل JSON إلى Excel Workbook**
-لا داعي للتساؤل عن كيفية تحويل JSON إلى ملف Excel ، لأن مكتبة Apose.Cells for .NET لديها أفضل قرار. يوفر Aspose.Cells API دعمًا لتحويل تنسيق JSON إلى جداول بيانات. يمكنك استخدام[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) فئة لتحديد إعدادات إضافية لاستيراد JSON إلى المصنف.
+## **تحويل JSON إلى مصنف Excel**
+ لا داعي للتساؤل عن كيفية تحويل JSON إلى ملف Excel ، لأن مكتبة Apose.Cells for .NET لديها أفضل قرار. يوفر Aspose.Cells API دعمًا لتحويل تنسيق JSON إلى جداول بيانات. يمكنك استخدام[**JsonLoadOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonLoadOptions) فئة لتحديد إعدادات إضافية لاستيراد JSON إلى المصنف.
 
  يوضح مثال التعليمات البرمجية التالي استيراد JSON إلى Excel Workbook. يرجى الاطلاع على الكود للتحويل[مصدر الملف](sample.json) إلى ملف xlsx الذي تم إنشاؤه بواسطة الكود للرجوع إليه.
 
@@ -23,6 +23,6 @@ keywords: Importing json without office 2013, office 2016, office 2019 and offic
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-JSON-to-Excel-New2.cs" >}}
 
-يوضح مثال التعليمات البرمجية التالي استيراد سلسلة JSON إلى Excel Workbook. يمكنك أيضًا تحديد موقع التخطيط عند استيراد JSON. يرجى الاطلاع على الكود لتحويل سلسلة JSON إلى ملف xlsx الذي تم إنشاؤه بواسطة الكود كمرجع.
+يوضح المثال التالي من التعليمات البرمجية استيراد سلسلة JSON إلى Excel Workbook. يمكنك أيضًا تحديد موقع التخطيط عند استيراد JSON. الرجاء مراجعة الكود لتحويل سلسلة JSON إلى ملف xlsx الذي تم إنشاؤه بواسطة الرمز كمرجع.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Convert-JSON-String-to-Excel.cs" >}}

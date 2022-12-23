@@ -13,10 +13,10 @@ url: /ru/java/aspose-cells-for-java-17-11-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSJAVA-42433|Свойства ImageOrPrintOptions.PageIndex и ImageOrPrintOptions.Count, необходимые для получения изображения нужных страниц.|Новая особенность|
-|CELLSJAVA-42427|Экспорт линий сетки с границами не отображает линии сетки внутри границы в рендеринге Excel в HTML|Ошибка|
+|CELLSJAVA-42427|Экспорт линий сетки с границами не отображает линии сетки внутри границы в Excel для рендеринга HTML|Ошибка|
 |CELLSJAVA-42438|LightCellsDataProvider удаляет начальные и конечные пробелы|Ошибка|
-|CELLSJAVA-42422|Неправильный шрифт используется в формате PDF для диаграммы MS Excel.|Ошибка|
-|CELLSJAVA-42353|В выходном HTML-коде отсутствуют некоторые стрелки или выноски.|Ошибка|
+|CELLSJAVA-42422|В выводе PDF диаграммы MS Excel используется неправильный шрифт.|Ошибка|
+|CELLSJAVA-42353|В выводе HTML отсутствуют некоторые стрелки или выноски.|Ошибка|
 |CELLSJAVA-42455|2-й комментарий отсутствует в коллекции комментариев рабочего листа|Ошибка|
 |CELLSJAVA-42454|Создание книги зависает при чтении из файла XLSM|Ошибка|
 |CELLSJAVA-42450|Свойство Style.QuotePrefix не работает для файла XLSB|Ошибка|
@@ -32,9 +32,9 @@ url: /ru/java/aspose-cells-for-java-17-11-release-notes/
 |CELLSJAVA-42425|Исключение в потоке «основной» java.lang.OutOfMemoryError: превышен лимит накладных расходов GC — файл II|Исключение|
 |CELLSJAVA-42424|Исключение в потоке «основной» java.lang.OutOfMemoryError: превышен лимит накладных расходов GC — файл I|Исключение|
 |CELLSJAVA-42428|Chart.toImage приводит к java.lang.ArrayIndexOutOfBoundsException|Исключение|
-|CELLSJAVA-42452|Сохранение книги в формате PDF после RemoveUnusedStyles API создает CellsException|Исключение|
+|CELLSJAVA-42452|Сохранение книги как PDF после RemoveUnusedStyles API приводит к CellsException|Исключение|
 |CELLSJAVA-42440|«java.lang.IllegalArgumentException: недопустимый индекс строки»|Исключение|
-|CELLSJAVA-42439|Исключение: «java.lang.IllegalArgumentException: недопустимый индекс строки» при сохранении файла формата XLSX|Исключение|
+|CELLSJAVA-42439|Исключение: «java.lang.IllegalArgumentException: неверный индекс строки» при сохранении формата файла XLSX|Исключение|
 |CELLSJAVA-42437|Исключение: java.lang.NumberFormatException при повторном сохранении формата файла XLSB.|Исключение|
 ## **Public API и обратно несовместимые изменения**
 Ниже приведен список любых изменений, внесенных в общедоступный номер API, таких как добавленные, переименованные, удаленные или устаревшие члены, а также любые несовместимые с предыдущими изменениями, внесенные в номер Aspose.Cells for Java. Если у вас есть сомнения по поводу каких-либо перечисленных изменений, сообщите об этом на форум поддержки Aspose.Cells.

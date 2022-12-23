@@ -13,12 +13,12 @@ url: /ja/php-java/aspose-cells-for-php-via-java-21-11-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-43844|会計番号のフォーマットに必要な拡張|
-|CELLSJAVA-43953|ExcelからPDFへの変換で特定のテキスト/部分「Cell」と「コメント」を日本語に翻訳する|
+|CELLSJAVA-43953|特定のテキスト/部分「Cell」とExcelで日本語に翻訳する「コメント」をPDF変換にレンダリング|
 |CELLSJAVA-43935|XLS ファイルの保存および読み込み中のシェイプ テキストのフォント サイズの問題|
 |CELLSJAVA-43952|仮免許の期限切れ問題|
-|CELLSJAVA-43954|XLSX から PDF: 画像で例外「java.lang.OutOfMemoryError: Java heap space」が発生する|
+|CELLSJAVA-43954|XLSX から PDF: イメージにより例外 "java.lang.OutOfMemoryError: Java heap space" が発生する|
 |CELLSJAVA-43902|HTML に変換された Excel の一部の境界線が冗長です|
-|CELLSJAVA-43933|1つのデータのみでHTMLにエクスポートする場合、Excelとは条件付き書式が異なります|
+|CELLSJAVA-43933|1データのみでHTMLにエクスポートすると条件付き書式がExcelと異なる|
 |CELLSJAVA-43878|Excel クラスター棒グラフのデータ ラベルの位置が正しくない|
 |CELLSJAVA-43895|XLS を XLSX に変換すると、線の形やその他のグラフの形が正しくレンダリングされない|
 |CELLSJAVA-43932|出力イメージで展開されたドーナツ グラフのデータ ラベルの位置を設定する際の問題|

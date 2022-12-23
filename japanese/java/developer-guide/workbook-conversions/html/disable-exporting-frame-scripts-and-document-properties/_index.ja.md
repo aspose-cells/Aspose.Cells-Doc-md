@@ -6,7 +6,7 @@ url: /ja/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells は、ワークブックを HTML に変換する際に、フレーム スクリプトとドキュメント プロパティをエクスポートします。 Aspose.Cells for Java の 8.6.0 バージョンでは、オプションでフレーム スクリプトとドキュメント プロパティのエクスポートを無効にできるオプションが導入されています。をご利用ください[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties)エクスポートを無効にするプロパティ。
+Aspose.Cells は、ワークブックを HTML に変換する際に、フレーム スクリプトとドキュメント プロパティをエクスポートします。をご利用ください[HtmlSaveOptions.setExportFrameScriptsAndProperties()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties)エクスポートを無効にするプロパティ。
 
 {{% /alert %}} 
 ## **フレーム スクリプトとドキュメント プロパティのエクスポートを無効にする**

@@ -7,18 +7,18 @@ url: /sv/sharepoint/supported-file-formats/
 |**Formatera**|**Beskrivning**|**Ladda**|**Spara**|
 |:- |:- |:- |:- |
 |[XLS](https://docs.fileformat.com/spreadsheet/xls/)|Excel 95/5.0 - 2003 arbetsbok.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML-arbetsbok eller mallfil, med eller utan makron.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|Office Open XML SpreadsheetML Arbetsbok eller mallfil, med eller utan makron.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSB](https://docs.fileformat.com/spreadsheet/xlsb/)|Excel binär arbetsbok.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLSM](https://docs.fileformat.com/spreadsheet/xlsm/)|Excel-makroaktiverad arbetsbok.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTX](https://docs.fileformat.com/spreadsheet/xltx/)|Excel-mall.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XLTM](https://docs.fileformat.com/spreadsheet/xltm/)|Excel-makroaktiverad mall.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XML](https://docs.fileformat.com/web/xml/)|Extensible Markup Language|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV-fil (Comma Separated Value).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV-fil (Tab-separated values).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TabDelimited|Tabbavgränsad textfil, samma som TSV-fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Text](https://docs.fileformat.com/word-processing/txt/)|Avgränsad vanlig textfil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[HTML](https://docs.fileformat.com/web/html/)|HTML-format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML-fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[CSV](https://docs.fileformat.com/spreadsheet/csv/)|CSV (kommaseparerat värde) fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[TSV](https://docs.fileformat.com/spreadsheet/tsv/)|TSV (tabavgränsade värden) fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TabDelimited|Tabbavgränsad textfil, samma som filen TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[TXT](https://docs.fileformat.com/word-processing/txt/)|Avgränsad vanlig textfil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[HTML](https://docs.fileformat.com/web/html/)|HTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML fil.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[ODS](https://docs.fileformat.com/spreadsheet/ods/)|ODS (OpenDocument Spreadsheet).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[PDF](https://docs.fileformat.com/pdf/)|Adobe Portable Document Format.||{{< emoticons/tick >}}|
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|XML Paper Specification Format.||{{< emoticons/tick >}}|

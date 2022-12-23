@@ -14,7 +14,7 @@ description: Archivo de Excel firma digital, verificación. Para proteger la aut
 
 ## **Introducción**
 
- Utilice el cuadro de diálogo Firma digital para adjuntar una firma digital. El cuadro de diálogo Firma digital enumera los certificados válidos. Puede usar el cuadro de diálogo Firma digital para ver los certificados y seleccionar el que desea usar. Si un libro de trabajo tiene una firma digital, el nombre de la firma aparece en el**Nombre del certificado** campo. Si hace clic en el**Remover** en el cuadro de diálogo Firma digital, Microsoft Excel también elimina la firma digital.
+ Utilice el cuadro de diálogo Firma digital para adjuntar una firma digital. El cuadro de diálogo Firma digital enumera los certificados válidos. Puede usar el cuadro de diálogo Firma digital para ver los certificados y seleccionar el que desea usar. Si un libro de trabajo tiene una firma digital, el nombre de la firma aparece en el**Nombre del certificado** campo. Si hace clic en el**Eliminar** en el cuadro de diálogo Firma digital, Microsoft Excel también elimina la firma digital.
 
 Aspose.Cells proporciona el[**Aspose.Cells.DigitalSignatures**](https://reference.aspose.com/cells/net/aspose.cells.digitalsignatures/digitalsignature)espacio de nombres para realizar el trabajo (asignar y validar firmas digitales). El espacio de nombres tiene algunas características útiles para agregar y validar firmas digitales.
 

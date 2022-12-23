@@ -16,10 +16,10 @@ Aspose.Cells提供[**数据透视表.GetCellByDisplayName()**](https://reference
 
 |**数据透视表 - 之前**|
 |:- |
-|![待办事项：图像_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
+|![待办事项：图片_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_1.png)|
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-PivotTablesAndPivotCharts-GetCellByDisplayName-GetCellObjectByDisplayName.cs" >}}
 
 |**数据透视表 - 之后**|
 |:- |
-|![待办事项：图像_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|
+|![待办事项：图片_替代_文本](get-the-cell-object-by-displayname-of-pivotfield-of-pivottable_2.png)|

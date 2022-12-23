@@ -16,7 +16,7 @@ Microsoft Excel被各行各业的企业和个人广泛使用。电子表格应�
 
 VSTO 允许 Microsoft Office 文档执行包装在 .NET 程序集中的代码。它用于开发使用 Microsoft Office 文件和功能的应用程序。开发人员多年来一直在应用程序中使用 ASP、Office Web 组件和 COM 互操作。 Microsoft 增强了 VSTO 以开发和部署应用程序并改进内存管理。但是，问题仍然存在：VSTO 是否设计为比当今可用的其他方法更易于使用和更可靠？开发人员希望使用在改进的性能、安全性、可扩展性、稳定性、可靠性或功能方面不会让他们失望的解决方案。
 
-[Aspose](http://www.aspose.com/)提供了一系列 .NET、Java、Cloud 和 Android API。 Aspose API包括Aspose.Cells、Aspose.Words、Aspose.Pdf、Aspose.Slides等产品，API帮助[开发人员打开、修改、生成、保存、合并和转换各种格式的文档，包括 XLS、XLSX、DOC、DOCX、HTML、PDF、PPT。
+[Aspose](http://www.aspose.com/)提供了一系列 .NET、Java、Cloud 和 Android API。 Aspose API包括Aspose.Cells、Aspose.Words、Aspose.Pdf、Aspose.Slides等产品，API帮助[开发人员打开、修改、生成、保存、合并和转换各种格式的文档，包括XLS、XLSX、DOC、DOCX、HTML、PDF、PPT。
 
 在本文中，我们将 VSTO 与 Aspose.Cells for .NET 进行比较。
 
@@ -40,7 +40,7 @@ VSTO 提供的功能取决于你安装的 VSTO 和 Visual Studio 产品的组合
 
 Aspose.Cells 提供了管理 Microsoft Office Excel 文件所需的一切，还有很多很多。 API 以最少的工作量为开发人员提供了出色的结果。 Aspose.Cells 提供了许多强大、省时的功能。 API 为所有类型的电子表格管理活动提供易于使用的 API，几乎涵盖了 Microsoft Excel 提供的所有功能。为 VSTO 列出的所有任务都可以通过 Aspose.Cells 轻松执行。
 
-Aspose.Cells 还支持多种高级功能，包括支持智能标记，从多个数据源、对象和 Excel 文件导入和导出数据，支持 COM 客户端（ASP 客户端）与组件的互操作性，将 Excel 文件转换为 PDF 格式，将 Excel 图表和工作表保存为图像文件。
+Aspose.Cells 还支持几个高级功能，包括支持智能标记，从多个数据源、对象和 Excel 文件导入和导出数据，支持 COM 客户端（ASP 客户端）与组件的互操作性，将 Excel 文件转换为 PDF 格式，将 Excel 图表和工作表保存为图像文件。
 
 ### **安全**
 
@@ -77,7 +77,7 @@ VSTO 有一长串先决条件：
 - 以下一个或多个版本的 Visual Studio Tools for Office：
  - Microsoft 用于 Microsoft 办公系统的 Visual Studio 2005 工具
  Microsoft Visual Studio 2005 Tools for the 2007 Microsoft Office System
- Visual Studio 2008 专业版
+ - Visual Studio 2008 专业版
  Visual Studio 2008 团队套件版
  Microsoft Office 一个版本：
  - Microsoft Office 专业版 2003 SP1

@@ -40,19 +40,19 @@ url: /fr/java/aspose-cells-for-java-8-5-2-release-notes/
 
  (CELLSJAVA-41430) - L'option Fusionner et centrer a été sélectionnée même si elle n'a qu'une seule cellule
 
- (CELLSJAVA-41429) - Les paramètres de compatibilité Lotus pour la saisie de formule de transition sont modifiés après le réenregistrement de la feuille de calcul
+(CELLSJAVA-41429) - Les paramètres de compatibilité Lotus pour la saisie de formule de transition sont modifiés après le réenregistrement de la feuille de calcul
 
- (CELLSJAVA-41427) - Trop de validations Cells corrompt le fichier XLS
+ (CELLSJAVA-41427) - Trop de validation Cells corrompt le fichier XLS
 
-(CELLSJAVA-41424) - L'utilisation de la fonction personnalisée via l'interface ICustomFunction ne calcule pas la valeur correcte
+ (CELLSJAVA-41424) - L'utilisation de la fonction personnalisée via l'interface ICustomFunction ne calcule pas la valeur correcte
 
- (CELLSJAVA-41423) - Mise en page incorrecte lors du rendu d'un PDF à partir d'un fichier ODS
+ (CELLSJAVA-41423) - Mise en page incorrecte lors du rendu de PDF à partir d'un fichier ODS
 
  (CELLSJAVA-41422) - Cells.copyRows avec une mise en forme conditionnelle dans les cellules entraîne une augmentation de la taille du fichier et un problème de performances
 
  (CELLSJAVA-41419) - OutOfMemoryError, Aspose.Cells conserve des millions de cellules pour toujours
 
- (CELLSJAVA-41395) - Conversion ODS en HTML - Problèmes de style de texte
+ (CELLSJAVA-41395) - Conversion de ODS à HTML - Problèmes de style de texte
 
  (CELLSJAVA-41426) - Le graphique Cell avec l'axe des x n'est pas mis à l'échelle correctement lors de la conversion en pdf
 
@@ -74,7 +74,7 @@ url: /fr/java/aspose-cells-for-java-8-5-2-release-notes/
 
  Ajoute la propriété SaveOptions.MergeAreas.
 
- Il est utilisé pour fusionner des CellAreas individuelles de la mise en forme et de la validation conditionnelles.
+Il est utilisé pour fusionner des CellAreas individuelles de la mise en forme et de la validation conditionnelles.
 
 
 
@@ -84,7 +84,7 @@ url: /fr/java/aspose-cells-for-java-8-5-2-release-notes/
 
 
 
-Ajoute la méthode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
+ Ajoute la méthode SheetRender.ToImage(int pageIndex, Graphics g, float x, float y)
 
  Rendre certaines pages de SheetRender en Graphics.
 

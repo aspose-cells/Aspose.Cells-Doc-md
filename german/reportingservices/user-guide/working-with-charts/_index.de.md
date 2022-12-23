@@ -66,7 +66,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-1.  Klicken**Hinzufügen**. 
+1.  Klicken**Addieren**. 
 
 ![todo: Bild_alt_Text](working-with-charts_4.png)
 
@@ -81,7 +81,7 @@ GROUP BY DATEPART(yy,SOH.OrderDate), 'Q'+DATENAME(qq,SOH.OrderDate)
 
 
 
-1.  Klicken**Hinzufügen** um eine weitere Serie hinzuzufügen.
+1.  Klicken**Addieren** um eine weitere Serie hinzuzufügen.
  Im Beispiel haben wir die Verkaufsserie hinzugefügt.
 1. Setzen Sie den Wert von Series2 (Sales series) auf das zweite Datenfeld der Tabelle.
 Im Beispiel ist es „CompanySales!$D$3:$D$3“. Das erste $D$3 ist der erste Zeilenindex von „Sales“ und das zweite $D$3 ist ein Platzhalter für den letzten Zeilenindex von „Sales“ und wird beim Rendern durch den echten Zeilenindex der Tabellendaten ersetzt.

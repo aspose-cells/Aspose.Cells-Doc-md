@@ -15,7 +15,7 @@ url: /tr/net/aspose-cells-for-net-5-2-0-release-notes/
  Aspose.Cells'de neler değişti:
 
 - XLSX dosyalarında Dijital İmzaların imzalanmasını ve doğrulanmasını destekler.
- XLS ve XLSX dosyalarında R/W Pivot Tablolarını destekler.
+ XLS ve XLSX dosyalarındaki R/W Pivot Tablolarını destekler.
 Pivot Tablo verilerini hücrelere göre hesaplar.
  31 geliştirme ve düzeltme.
 

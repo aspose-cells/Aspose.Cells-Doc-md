@@ -16,7 +16,7 @@ För närvarande stöder Aspose.Cells.GridDesktop att lägga till tre typer av c
 - **Kryssruta**
 - **Kombinationsrutan**
 
-Alla dessa kontroller är härledda från en abstrakt klass,**CellControl**. Varje arbetsblad innehåller en samling av**Kontroller**Nya cellkontroller kan läggas till och befintliga kan nås med detta**Kontroller**insamling enkelt.
+Alla dessa kontroller är härledda från en abstrakt klass,**CellControl**Varje arbetsblad innehåller en samling av**Kontroller**. Nya cellkontroller kan läggas till och befintliga kan nås med detta**Kontroller**insamling enkelt.
 
 **VIKTIG:**Om du vill lägga till cellkontroller till alla celler i en kolumn istället för att lägga till en efter en kan du referera till[Hantera Cell kontroller i kolumner.](/cells/sv/net/adding-cell-controls-in-worksheets/)
 ### **Lägga till knapp**

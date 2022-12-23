@@ -19,7 +19,7 @@ Jython は Python の Java 実装であり、表現力と明快さを兼ね備�
 Aspose.Cells for Java は高度なクラス ライブラリ for Java であり、Java 内でさまざまなドキュメント処理タスクを直接実行できます。
 アプリケーション。
 
-Aspose.Cells for Java は、Cells (DOC、DOCX、OOXML、RTF) HTML、OpenDocument、PDF、EPUB、XPS、SWF、およびすべての画像形式の処理をサポートします。 Aspose.Cellsでできます
+Aspose.Cells for Java は、Cells (DOC、DOCX、OOXML、RTF) HTML、OpenDocument、PDF、EPUB、XPS、SWF およびすべての画像形式の処理をサポートします。 Aspose.Cellsでできます
 Microsoft Cells を使用せずにドキュメントを生成、変更、および変換します。
 
 ### **Aspose.Cells Jython の場合は Java**

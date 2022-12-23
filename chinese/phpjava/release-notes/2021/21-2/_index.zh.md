@@ -16,7 +16,7 @@ url: /zh/php-java/aspose-cells-for-php-via-java-21-2-release-notes/
 |CELLSJAVA-43364|将标记中包含图像的图表保存到图像时出现问题|
 |CELLSJAVA-43389|保存为 XLSB 文件格式时工作簿/工作表密码保护设置丢失|
 |CELLSJAVA-43392|复制工作表会产生损坏的工作簿|
-|CELLSJAVA-43387|将单张纸导出为 HTML 会引发异常|
+|CELLSJAVA-43387|将单张纸导出到 HTML 会引发异常|
 
 ## **公共 API 和向后不兼容的更改**
 

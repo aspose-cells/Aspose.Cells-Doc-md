@@ -6,7 +6,7 @@ url: /ar/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- يمكنك تعيين تعليق الجدول أو قائمة كائن داخل ورقة العمل باستخدام[**ListObject.Comment**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/comment)منشأه. سيكون التعليق مرئيًا داخل ملف xl / table / tableName.xml.
+ يمكنك تعيين تعليق الجدول أو قائمة كائن داخل ورقة العمل باستخدام[**ListObject.Comment**](https://reference.aspose.com/cells/net/aspose.cells.tables/listobject/properties/comment)خاصية. سيكون التعليق مرئيًا داخل ملف xl / table / tableName.xml.
 
 {{% /alert %}}
 

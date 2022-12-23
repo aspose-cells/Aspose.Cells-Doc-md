@@ -148,7 +148,7 @@ worksheet.getCells().get("A1").putValue(worksheet.getCells().get("A1").getValue(
 workbook.save(dir + "UsingICustomFunction.xls");
 
 {{< /highlight >}}
-## **Visión general**
+## **Descripción general**
 Las API Aspose.Cells simplemente colocan el objeto ReferedArea en "paramsList" cuando el parámetro correspondiente es una referencia o su resultado calculado es una referencia. Si necesita la referencia en sí, puede usar ReferedArea directamente. Si necesita obtener el valor de una sola celda de la referencia correspondiente a la posición de la fórmula, puede usar el método ReferedArea.getValue(rowOffset, int colOffset). Si necesita una matriz de valores de celda para toda el área, puede usar el método ReferedArea.getValues.
 
 Como las API Aspose.Cells brindan el área referida en "paramsList", la colección ReferredAreaCollection en "contextObjects" ya no será necesaria (en versiones anteriores, no siempre podía proporcionar un mapa uno a uno a los parámetros de la función personalizada), por lo tanto, ha sido eliminado de los "contextObjects".

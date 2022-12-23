@@ -14,7 +14,7 @@ url: /zh/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 
 **卸载 Aspose.Cells** 
 
-![待办事项：图像_替代_文本](uninstalling-aspose-cells-for-sharepoint_1.png)
+![待办事项：图片_替代_文本](uninstalling-aspose-cells-for-sharepoint_1.png)
 
 
 
@@ -23,6 +23,6 @@ url: /zh/sharepoint/uninstalling-aspose-cells-for-sharepoint/
 
 请注意，运行**修理**选项不会在网站集上重新激活 Aspose.Cells for SharePoint。相反，必须在重新部署后手动激活该功能**修理**选项。
 
-卸载使用**消除**选项然后重新安装可能更方便，因为它允许您在安装过程中选择目标 Web 应用程序和网站集。
+卸载使用**去掉**选项然后重新安装可能更方便，因为它允许您在安装过程中选择目标 Web 应用程序和网站集。
 
 {{% /alert %}}

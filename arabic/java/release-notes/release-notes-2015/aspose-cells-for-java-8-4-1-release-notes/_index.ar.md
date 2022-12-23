@@ -28,15 +28,15 @@ url: /ar/java/aspose-cells-for-java-8-4-1-release-notes/
 
 ### **البق**
 
-(CELLSJAVA-41229) - Aspose.Cells لا ينشئ ملف HTMs و CSS فرديًا للأوراق في Excel إلى تحويل HTML
+(CELLSJAVA-41229) - Aspose.Cells لا يقوم بإنشاء ملف HTMs و CSS فردي للأوراق في Excel لتحويل HTML
 
 (CELLSJAVA-41170) - يعرض SheetRender.toImage الصورة مع تسميات "(فارغة)" على المحور x للمخطط
 
 (CELLSJAVA-41270) - مشكلة مع Cells.insertRange () حيث لا يتم إزاحة المنطقة المدمجة بشكل جيد
 
-(CELLSJAVA-41240) - يتم قطع النص الموجود بخط Arial من الأعلى أثناء تحويل جدول البيانات إلى PDF
+(CELLSJAVA-41240) - يتم اقتطاع النص الموجود بخط Arial من الأعلى أثناء تحويل جدول البيانات إلى PDF
 
-(CELLSJAVA-41238) - ورق_أ_2 لا يعمل كما هو متوقع عند الحفظ بتنسيق PDF
+(CELLSJAVA-41238) - ورق_أ_2 لا يعمل كما هو متوقع عند الحفظ كـ PDF
 
 (CELLSJAVA-41217) - عندما تحتوي بيانات فئة السلسلة على فاصلة ، لا تظهر وسيلة إيضاح الرسم البياني PIE بشكل صحيح
 
@@ -48,17 +48,17 @@ url: /ar/java/aspose-cells-for-java-8-4-1-release-notes/
 
 (CELLSJAVA-41259) - يؤدي تعيين Name.setRefersTo وإعادة حساب الصيغ إلى قيمة غير صحيحة أثناء تحويل جدول البيانات إلى HTML
 
-(CELLSJAVA-41258) - تحميل وحفظ XLSX باستخدام Aspose.Cells يجعل جدول البيانات الناتج تالفًا
+(CELLSJAVA-41258) - تحميل وحفظ XLSX مع Aspose.Cells يجعل جدول البيانات الناتج تالفًا
 
 (CELLSJAVA-41255) - يتحول الزر المخصص إلى صورة ويختفي التسمية التوضيحية في الإخراج XLSX
 
-(CELLSJAVA-41254) - Microsoft يتعطل Excel عند فتح ملف XLSX الناتج
+(CELLSJAVA-41254) - Microsoft يتعطل Excel عند فتح ملف الإخراج XLSX
 
 (CELLSJAVA-41253) - تختفي القائمة المنسدلة في ملف الإخراج XLSX
 
 ### **استثناءات**
 
-(CELLSJAVA-41266) - حدث java.lang.NumberFormatException عند فتح ملف XLSX النموذجي
+(CELLSJAVA-41266) - حدث java.lang.NumberFormatException عند فتح ملف القالب XLSX
 
 (CELLSJAVA-41248) - استثناء مؤشر فارغ عند فتح ملف XLSX المصدر
 
@@ -100,7 +100,7 @@ Obsoletes Workbook.ValidateFormula.
 
 إضافة خاصية ImageOrPrintOptions.SVGFitToViewPort.
 
-يشير إلى ما إذا كانت صورة SVG التي تم إنشاؤها مناسبة لعرض المنفذ.
+الإشارة إلى ما إذا كانت الصورة SVG التي تم إنشاؤها مناسبة لعرض المنفذ.
 
 يضيف طريقة ImageOrPrintOptions.SetDesiredSize.
 

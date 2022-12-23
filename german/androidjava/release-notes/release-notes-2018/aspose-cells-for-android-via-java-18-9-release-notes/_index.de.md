@@ -13,33 +13,33 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42680|Pivot-Tabellen-Menüband deaktivieren|Neue Funktion|
-|CELLSJAVA-42568|Arbeitsmappe und Arbeitsblatt in ODS-Datei schützen|Neue Funktion|
+|CELLSJAVA-42568|Schützen Sie die Arbeitsmappe und das Arbeitsblatt in der Datei ODS|Neue Funktion|
 |CELLSJAVA-42668|Unterstützung mehrerer Werte bei Verwendung des Klassenstils (Verknüpft mit: CELLSJAVA-42635)|Erweiterung|
 |CELLSJAVA-42627|Smart Art-Bilder können nicht korrekt extrahiert werden – Form-zu-Bild-Konvertierung (CELLSJAVA-42619)|Erweiterung|
-|CELLSJAVA-42677|Unterbrechungsproblem beim Speichern der XLSX-Datei|Erweiterung|
+|CELLSJAVA-42677|Unterbrechungsproblem beim Speichern des XLSX-Dateiprozesses|Erweiterung|
 |CELLSJAVA-42687|Hyperlink funktioniert nicht, wenn von einem anderen Blatt aus darauf verwiesen wird|Erweiterung|
-|CELLSJAVA-42672|Das ausgegebene PDF-Dokument ist zu groß|Insekt|
+|CELLSJAVA-42672|Das Ausgabedokument PDF ist zu groß|Insekt|
 |CELLSJAVA-42671|Problem mit Hyperlinks beim Anzeigen der Excel-Ausgabedatei in der japanischen Version von MS Excel|Insekt|
 |CELLSJAVA-42667|Erhalten von '#NUM!' für eine Zelle mit IRR-Funktion|Insekt|
 |CELLSJAVA-42658|Arbeitsmappen mit XL4-Makros (XLSM) werden nach dem Speichern beschädigt|Insekt|
 |CELLSJAVA-42656|AlternativeText gibt den Wert des Kommentars Text zurück|Insekt|
-|CELLSJAVA-42635|HTML zu XLS - CSS-Stil ignoriert|Insekt|
-|CELLSJAVA-41176|Falsche Ausrichtung beim Rendern der Tabelle in das PDF-Format|Insekt|
-|CELLSJAVA-42676|Tabellendaten wurden beim Konvertieren vom HTML- in das MS Excel-Dateiformat in die falsche Zeile und Spalte verschoben|Insekt|
+|CELLSJAVA-42635|HTML bis XLS – CSS-Stil ignoriert|Insekt|
+|CELLSJAVA-41176|Falsche Ausrichtung beim Rendern der Tabelle im Format PDF|Insekt|
+|CELLSJAVA-42676|Tabellendaten wurden beim Konvertieren von HTML in das MS Excel-Dateiformat in die falsche Zeile und Spalte verschoben|Insekt|
 |CELLSJAVA-41670|Die Bildposition des Diagramms ist in Chrome und Firefox beim Konvertieren in HTML falsch|Insekt|
-|CELLSJAVA-41245|Das Slicer-Steuerelement wird beim Konvertieren einer Excel-Datei in das HTML-Dateiformat nicht gerendert|Insekt|
+|CELLSJAVA-41245|Die Slicer-Steuerung wird beim Konvertieren einer Excel-Datei in das Dateiformat HTML nicht gerendert|Insekt|
 |CELLSJAVA-42684|Die vertikale Linie in der Mitte des Diagramms wird im gerenderten Bild nicht richtig gezeichnet|Insekt|
-|CELLSJAVA-42682|Verlaufsfarbe für negative Blasen wird in der PDF-Ausgabe nicht angewendet|Insekt|
+|CELLSJAVA-42682|Die Verlaufsfarbe für negative Blasen wird in der PDF-Ausgabe nicht angewendet|Insekt|
 |CELLSJAVA-42681|Der Titel der Diagrammkategorie wird im Bild nicht richtig angezeigt|Insekt|
 |CELLSJAVA-42695|Falscher Rahmenstil für verbundene Zelle zurückgegeben|Insekt|
 |CELLSJAVA-42694|Wasserzeichen aus Excel-Datei lesen|Insekt|
 |CELLSJAVA-42686|Eigenschaftskommentar enthält unnötigen Text|Insekt|
 |CELLSJAVA-42685|Eigenschaft "Revisionsnummer" nicht korrekt überprüft|Insekt|
-|CELLSJAVA-41485|Makros in der ODS-Datei bleiben im generierten ODS-Dateiformat nicht erhalten|Insekt|
+|CELLSJAVA-41485|Makros in der Datei ODS werden im generierten Dateiformat ODS nicht beibehalten|Insekt|
 |CELLSJAVA-42715|Formeln werden nicht wie in Excel-Dateien abgerufen|Insekt|
-|CELLSJAVA-42711|Diagramm in PDF wird nicht aus der Excel-Vorlage generiert|Insekt|
-|CELLSJAVA-42710|Doppelter Legendenelementtext im Diagramm bei der Excel-in-PDF-Konvertierung|Insekt|
-|CELLSJAVA-42706|Die PDF-Ausgabe zeigt keine Diagrammbeschriftung an|Insekt|
+|CELLSJAVA-42711|Das Diagramm in PDF wird nicht aus der Excel-Vorlage generiert|Insekt|
+|CELLSJAVA-42710|Doppelter Legendenelementtext im Diagramm in Excel in PDF-Konvertierung|Insekt|
+|CELLSJAVA-42706|PDF Ausgabe zeigt keine Diagrammbeschriftung|Insekt|
 |CELLSJAVA-42700|Das Wasserfalldiagramm wird nach dem Ändern der Diagrammdaten nicht richtig gerendert|Insekt|
 |CELLSJAVA-42717|Cells.deleteRow funktioniert nicht korrekt|Insekt|
 |CELLSJAVA-42716|Falscher Wert für Rahmenstil abgerufen|Insekt|
@@ -54,9 +54,9 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Android via Java 18.
 |CELLSJAVA-42669|Ausnahme "java.lang.NullPointerException" beim Berechnen von Formeln in der Arbeitsmappe|Ausnahme|
 |CELLSJAVA-42663|Chart.calculate() löst IndexOutOfBoundsException aus|Ausnahme|
 |CELLSJAVA-42655|Ausnahme: "Ungültige Kodierung: null" beim Laden einer XLS-Datei - II|Ausnahme|
-|CELLSJAVA-42675|NumberFormatException beim Laden der HTML-Datei in die Arbeitsmappe ausgelöst|Ausnahme|
+|CELLSJAVA-42675|NumberFormatException beim Laden der Datei HTML in die Arbeitsmappe ausgelöst|Ausnahme|
 |CELLSJAVA-42689|Beim Aufrufen von CalculateFormula wurde eine NullPointerException-Ausnahme ausgelöst|Ausnahme|
-|CELLSJAVA-42678|Ausnahme beim Rendern des Arbeitsblatts im PNG-Dateiformat|Ausnahme|
+|CELLSJAVA-42678|Ausnahme beim Rendern des Arbeitsblatts im Dateiformat PNG|Ausnahme|
 |CELLSJAVA-42411|Fehler in Cell: E22-Ungültige Formel - Ausnahme beim Öffnen einer MS Excel-Datei|Ausnahme|
 |CELLSJAVA-42691|NegativeArraySizeException beim Konvertieren von XLSX in HTML|Ausnahme|
 
@@ -158,11 +158,11 @@ Ruft den standardmäßigen englischen Schriftstilnamen (regulär, fett, kursiv) 
 
 ### **Fügt PdfCustomPropertiesExport-Aufzählung hinzu**
 
-Gibt an, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird.
+Gibt an, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird.
 
 ### **Fügt die PdfSaveOptions.CustomPropertiesExport-Eigenschaft hinzu**
 
-Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird. Der Standardwert ist „Keine“.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird. Der Standardwert ist „Keine“.
 
 ### **Fügt die Klasse XmlDataBinding hinzu**
 

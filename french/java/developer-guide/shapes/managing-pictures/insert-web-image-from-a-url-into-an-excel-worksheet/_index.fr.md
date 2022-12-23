@@ -6,7 +6,7 @@ url: /fr/java/insert-web-image-from-a-url-into-an-excel-worksheet/
 ---
 {{% alert color="primary" %}}
 
- Cet article montre comment vous pouvez insérer une image Web directement dans un[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet). L'extrait de code fourni ci-dessous utilise les espaces de noms java.net et java.io avec com.aspose.cells pour obtenir le résultat souhaité.
+ Cet article montre comment vous pouvez insérer une image Web directement dans un[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)L'extrait de code fourni ci-dessous utilise les espaces de noms java.net et java.io avec com.aspose.cells pour obtenir le résultat souhaité.
 
 {{% /alert %}}
 

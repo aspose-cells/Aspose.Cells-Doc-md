@@ -14,7 +14,7 @@ url: /ja/cpp/aspose-cells-for-cpp-16-11-0-release-notes/
 
 |**鍵** |**概要** |**カテゴリー** |
 |:- |:- |:- |
-|CELLSPORTINGC-417|XLS、OOXML ファイル形式を開く/保存する|新機能|
+|CELLSPORTINGC-417|開く/保存する XLS、OOXML ファイル形式|新機能|
 |CELLSPORTINGC-418|ワークシートのセルにスタイルと書式を設定する|新機能|
 |CELLSPORTINGC-419|セルにデータ検証を適用する|新機能|
 |CELLSPORTINGC-420|オートフィルターを使用してデータをフィルター処理する|新機能|

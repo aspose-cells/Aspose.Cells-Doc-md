@@ -6,7 +6,7 @@ url: /es/java/change-tick-label-direction/
 ---
 ## **Cambiar la dirección de la etiqueta de marca**
 
-Aspose.Cells le brinda la posibilidad de cambiar la dirección de la etiqueta del tick del gráfico mediante el[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) propiedad. los[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)propiedad acepta la[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) valor de enumeración. los[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)enumeración proporciona los siguientes miembros
+Aspose.Cells le brinda la posibilidad de cambiar la dirección de la etiqueta del tick del gráfico mediante el[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) propiedad. Él[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)propiedad acepta la[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) valor de enumeración. Él[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)enumeración proporciona los siguientes miembros
 
 - [**HORIZONTAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**VERTICAL**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)

@@ -18,14 +18,14 @@ Manchmal müssen Sie die Kompatibilitätsprüfung für eine bestimmte Tabelle de
 
 So deaktivieren Sie die Kompatibilitätsprüfung in Microsoft Excel (z. B. Microsoft Excel 2007/2010):
 
--  (Excel 2007) Klicken Sie auf die Office-Schaltfläche**Vorbereiten** , dann**Führen Sie die Kompatibilitätsprüfung aus** , und löschen Sie dann die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
+-  (Excel 2007) Klicken Sie auf die Office-Schaltfläche**Bereiten** , dann**Führen Sie die Kompatibilitätsprüfung aus** , und löschen Sie dann die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
 -  (Excel 2010 & 2013) Klicken Sie auf der Registerkarte Datei auf**Die Info** , dann**Auf Probleme prüfen** , klicken**Kompatibilität prüfen** , und löschen Sie schließlich die**Überprüfen Sie die Kompatibilität, wenn Sie diese Arbeitsmappe speichern** Möglichkeit.
 
 ## **Verwenden von Aspose.Cells-APIs**
 
  Stellen Sie die ein[**WorkbookSettings.CheckComptilibility**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) Eigentum zu**FALSCH** um die Kompatibilitätsprüfung von Microsoft Excel zu deaktivieren.
 
-Angenommen, wir haben eine XLS-Vorlagendatei. Wenn ein Benutzer es in MS Excel 2007/2010/2013 speichert oder erneut speichert, wird das Dialogfeld Kompatibilitätsprüfung angezeigt, wie im folgenden Screenshot gezeigt.
+Angenommen, wir haben eine Vorlagendatei XLS. Wenn ein Benutzer es in MS Excel 2007/2010/2013 speichert oder erneut speichert, wird das Dialogfeld Kompatibilitätsprüfung angezeigt, wie im folgenden Screenshot gezeigt.
 
 ![todo: Bild_alt_Text](disable-compatibility-checker-in-excel_1.png)
 

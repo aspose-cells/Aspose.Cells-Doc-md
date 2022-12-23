@@ -37,6 +37,6 @@ Add 方法的许多重载版本都可用。例如，使用上面的重载版本�
 
 {{% alert color="primary" %}} 
 
-重要提示：Microsoft Excel (97-2003 XLS) 支持最多包含 65,536 行和 256 列的 Excel 工作表。 Aspose.Cells.GridDesktop 遵循相同的标准。在 Aspose.Cells.GridDesktop 控件中，开发人员可以添加或插入行数和列数超过标准限制的工作表，但当他们尝试将 Grid 数据保存到 Excel 文件时，将抛出异常。这意味着只有包含在 65,536 行和 256 列中的数据可以使用 Aspose.Cells.GridDesktop 保存到 Excel XLS 文件，如果您使用 XLSX（MS Excel 2007/2010）文件格式，则没有此限制。
+重要提示：Microsoft Excel (97-2003 XLS) 支持最多包含 65,536 行和 256 列的 Excel 工作表。 Aspose.Cells.GridDesktop 遵循相同的标准。在 Aspose.Cells.GridDesktop 控件中，开发人员可以添加或插入行数和列数超过标准限制的工作表，但当他们尝试将 Grid 数据保存到 Excel 文件时，将抛出异常。这意味着只有包含在 65,536 行和 256 列中的数据可以使用 Aspose.Cells.GridDesktop 保存到 Excel XLS 文件，如果您使用 XLSX (MS Excel 2007/2010) 文件格式，则没有此限制。
 
 {{% /alert %}}

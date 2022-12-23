@@ -23,7 +23,7 @@ Aspose.Cells for .NET 8.8.0 hat die folgenden neuen Eigenschaften verfügbar gem
 
 {{% /alert %}} 
 ### **HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.8.0 hat die HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt, um die Konvertierung langer numerischer Werte in Exponentialschreibweise beim Importieren von HTML-Dateien zu steuern. Standardmäßig wird jeder Wert mit mehr als 15 Ziffern in die Exponentialschreibweise konvertiert, wenn die Daten aus einer HTML-Zeichenfolge oder -Datei importiert werden. Jetzt können die Benutzer dieses Verhalten jedoch mithilfe der HTMLLoadOptions.KeepPrecision-Eigenschaft steuern. Wenn die besagte Eigenschaft auf „true“ gesetzt ist, werden die Werte so importiert, wie sie in der Quelle sind.
+Aspose.Cells for .NET 8.8.0 hat die HTMLLoadOptions.KeepPrecision-Eigenschaft hinzugefügt, um die Konvertierung langer numerischer Werte in Exponentialschreibweise beim Importieren von HTML-Dateien zu steuern. Standardmäßig wird jeder Wert, der länger als 15 Ziffern ist, in die Exponentialschreibweise konvertiert, wenn die Daten aus einer HTML-Zeichenfolge oder -Datei importiert werden. Jetzt können die Benutzer dieses Verhalten jedoch mithilfe der HTMLLoadOptions.KeepPrecision-Eigenschaft steuern. Wenn die besagte Eigenschaft auf „true“ gesetzt ist, werden die Werte so importiert, wie sie in der Quelle sind.
 
 {{% alert color="primary" %}} 
 
@@ -77,7 +77,7 @@ workbook.Save(dir + "output.xlsx");
 
 
 ### **HTMLLoadOptions.DeleteRedundantSpaces-Eigenschaft hinzugefügt**
-Aspose.Cells for .NET 8.8.0 hat die Eigenschaft HTMLLoadOptions.DeleteRedundantSpaces verfügbar gemacht, um die zusätzlichen Leerzeichen nach dem Zeilenumbruch-Tag (<br>-Tag) beim Importieren der Daten aus der HTML-Zeichenfolge oder -Datei. Die Eigenschaft „HTMLLoadOptions.DeleteRedundantSpaces“ hat den Standardwert „false“, was bedeutet, dass alle zusätzlichen Leerzeichen beibehalten und in das Workbook-Objekt importiert werden. Wenn sie jedoch auf „true“ gesetzt ist, löscht API alle überflüssigen Leerzeichen nach dem Zeilenumbruch-Tag.
+Aspose.Cells for .NET 8.8.0 hat die Eigenschaft HTMLLoadOptions.DeleteRedundantSpaces verfügbar gemacht, um die zusätzlichen Leerzeichen nach dem Zeilenumbruch-Tag (<br>Tag) beim Importieren der Daten aus der Zeichenfolge oder Datei HTML. Die Eigenschaft „HTMLLoadOptions.DeleteRedundantSpaces“ hat den Standardwert „false“, was bedeutet, dass alle zusätzlichen Leerzeichen beibehalten und in das Workbook-Objekt importiert werden. Wenn sie jedoch auf „true“ gesetzt ist, löscht API alle überflüssigen Leerzeichen nach dem Zeilenumbruch-Tag.
 
 {{% alert color="primary" %}} 
 

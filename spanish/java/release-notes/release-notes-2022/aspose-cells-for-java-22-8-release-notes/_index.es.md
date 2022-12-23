@@ -22,14 +22,14 @@ url: /es/java/aspose-cells-for-java-22-8-release-notes/
 |CELLSJAVA-44773|Los datos se desordenan al abrir un documento de Excel con columnas ocultas en GridWeb (Java)|
 |CELLSJAVA-44781|investigar el problema de cambio de tamaño de fila cuando se cambia el tamaño a muy poca altura|
 |CELLSJAVA-44787|Borde inferior perdido en la última fila del libro|
-|CELLSJAVA-44761|Uso excesivo de memoria en la conversión de archivos de Excel a HTML|
+|CELLSJAVA-44761|Uso excesivo de memoria al convertir un archivo de Excel a HTML|
 |CELLSJAVA-44801|La conversión de Excel a PDF usando Aspose.Cells for Java v22.7 provoca caracteres ilegibles|
 |CELLSJAVA-44741|El salto de línea no es correcto en la salida xlsx después de establecer la cadena html en la celda|
 |CELLSJAVA-44776|El estilo de la fila del encabezado de la tabla se perdió al copiar la hoja|
 |CELLSJAVA-44789|Problema con el reemplazo de la cadena de caracteres del cuadro de texto colocado en la hoja de cálculo de Excel|
-|CELLSJAVA-44792| Guardar libro de trabajo sin fin en formato HTML (2892)|
+|CELLSJAVA-44792| Libro de trabajo para guardar sin fin en formato HTML (2892)|
 |CELLSJAVA-44763|Excepción "java.lang.IllegalArgumentException: no se puede analizar el número de argumento: 1:X8" al cargar el archivo de Excel usando "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Error al guardar como PDF: se requiere investigación|
+|CELLSJAVA-44774|Error al guardar como PDF - Se requiere investigación|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

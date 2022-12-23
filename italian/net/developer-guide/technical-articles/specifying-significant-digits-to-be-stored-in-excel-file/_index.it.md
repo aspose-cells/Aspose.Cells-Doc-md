@@ -10,10 +10,10 @@ Per impostazione predefinita, Aspose.Cells memorizza 17 cifre significative di v
 
 ## **Specifica delle cifre significative da memorizzare nel file Excel**
 
- Il seguente codice di esempio impone a Aspose.Cells di utilizzare 15 cifre significative durante l'archiviazione di valori doppi all'interno del file Excel. Si prega di controllare[file excel di output](22774105.xlsx) . Cambia la sua estensione in .zip e decomprimilo e vedrai che solo 15 cifre significative sono memorizzate all'interno del file excel. Lo screenshot seguente spiega l'effetto di[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)proprietà sul file excel di output.
+ Il seguente codice di esempio impone a Aspose.Cells di utilizzare 15 cifre significative durante l'archiviazione di valori double all'interno del file Excel. Si prega di controllare[file excel di output](22774105.xlsx) . Cambia la sua estensione in .zip e decomprimilo e vedrai che solo 15 cifre significative sono memorizzate all'interno del file excel. Lo screenshot seguente spiega l'effetto di[**CellsHelper.SignificantDigits**](https://reference.aspose.com/cells/net/aspose.cells/cellshelper/properties/significantdigits)proprietà sul file excel di output.
 
 ![cose da fare:immagine_alt_testo](specifying-significant-digits-to-be-stored-in-excel-file_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelperClass-SignificantDigits.cs" >}}

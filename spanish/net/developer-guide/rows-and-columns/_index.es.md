@@ -15,20 +15,20 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 
 ### **Ajuste de altura de fila**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de cálculo.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Colección de hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection)que permite el acceso a cada hoja de trabajo en el archivo de Excel. Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la clase proporciona un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección que representa todas las celdas de la hoja de trabajo.
 
- los[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección proporciona varios métodos para administrar filas o columnas en una hoja de cálculo. Algunos de estos se discuten a continuación con más detalle.
+ Él[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección proporciona varios métodos para administrar filas o columnas en una hoja de trabajo. Algunos de estos se discuten a continuación con más detalle.
 
 ### **Establecer la altura de una fila**
 
- Es posible establecer la altura de una sola fila llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección[**EstablecerRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) método. los[**EstablecerRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)El método toma los siguientes parámetros de la siguiente manera:
+ Es posible establecer la altura de una sola fila llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección[**EstablecerRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight) método. Él[**EstablecerRowHeight**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setrowheight)El método toma los siguientes parámetros de la siguiente manera:
 
 - **Índice de fila**, el índice de la fila cuya altura está cambiando.
 - **Altura de la fila**, el alto de fila que se aplicará en la fila.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-HeightAndWidth-SettingHeightOfRow-1.cs" >}}
 
-### **Establecer la altura de todas las filas en una hoja de trabajo**
+### **Establecer la altura de todas las filas en una hoja de cálculo**
 
  Si los desarrolladores necesitan establecer la misma altura de fila para todas las filas de la hoja de cálculo, pueden hacerlo mediante el[**Altura estándar**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/standardheight) propiedad de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)recopilación.
 
@@ -40,7 +40,7 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 
 ### **Establecer el ancho de una columna**
 
- Establezca el ancho de una columna llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección[**Establecer ancho de columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) método. los[**Establecer ancho de columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)método toma los siguientes parámetros:
+ Establezca el ancho de una columna llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) colección[**Establecer ancho de columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth) método. Él[**Establecer ancho de columna**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidth)método toma los siguientes parámetros:
 
 - **índice de columna**, el índice de la columna cuyo ancho está cambiando.
 - **Ancho de columna**, el ancho de columna deseado.
@@ -49,7 +49,7 @@ Cuando trabaje con hojas de cálculo y agregue datos a filas o columnas, es posi
 
 ### **Configuración del ancho de columna en píxeles**
 
-Establezca el ancho de una columna llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección[**EstablecerColumnaAnchoPíxel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)método. los[**EstablecerColumnaAnchoPíxel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)método toma los siguientes parámetros:
+Establezca el ancho de una columna llamando al[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)colección[**EstablecerColumnaAnchoPíxel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)método. Él[**EstablecerColumnaAnchoPíxel**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/setcolumnwidthpixel)método toma los siguientes parámetros:
 
 - **índice de columna**, el índice de la columna cuyo ancho está cambiando.
 - **Ancho de columna**el ancho de columna deseado en píxeles.

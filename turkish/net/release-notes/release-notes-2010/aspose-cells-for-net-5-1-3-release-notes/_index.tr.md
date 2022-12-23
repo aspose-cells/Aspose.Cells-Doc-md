@@ -54,19 +54,19 @@ url: /tr/net/aspose-cells-for-net-5-1-3-release-notes/
 |19411 | IzgaraMasaüstü| DÜŞEYARA işlevi, çift veya int değeri kullanmayı desteklemez|
 |19721 | html| Excel belgesini HTML olarak kaydetmek çok uzun sürüyor|
 |17485 | Pdf| Eksik Logo ve Bulanık / Açık Metin|
-|18114 | Pdf| PDF Dönüştürme sorunu|
-|19237 | Pdf|Excel'den yazdırma ve PDF'ye Çıktı Alma arasındaki fark|
-|19392 | Pdf| Görüntü genişliği PDF'ye dönüştürülürken küçüldü|
-|19409 | Pdf| PDF görünümü ve hissi XLSX'ten farklıdır|
+|18114 | Pdf| PDF Dönüşüm sorunu|
+|19237 | Pdf|Excel'den yazdırma ve PDF'e Çıktı Alma arasındaki fark|
+|19392 | Pdf| Görüntü genişliği, PDF'e dönüştürülürken küçüldü|
+|19409 | Pdf| PDF görünüm ve his XLSX'den farklıdır|
 |19420 | Pdf| Tarih formatı|
-|19425 | Pdf| PDF'ye dönüştürüldüğünde dosya boyutu = 0|
-|19546 | Pdf| Bu dosyayı PDF'ye dönüştür|
-|19651 | Pdf| Geçersiz pdf biçimi hatası nedeniyle Excel Dosyası PDF'ye dönüştürülemiyor|
+|19425 | Pdf| Dosya boyutu = 0, PDF'e dönüştürüldüğünde|
+|19546 | Pdf| Bu dosyayı PDF'e dönüştürün|
+|19651 | Pdf| Geçersiz pdf biçimi hatası nedeniyle Excel Dosyası PDF'e dönüştürülemiyor|
 |19873 | Pdf| Metin tablodan çıkıyor ve tamamen yazdırılamıyor|
-|19430 | Pivot tablo| PivotTable'ları bozuk 2003 XLS|
+|19430 | Pivot tablo| 2003 XLS PivotTable'lar bozuk|
 |19542 | Pivot tablo| DataBordyRange doğru alanı döndürmüyor|
-|19852 | Pivot tablo| Pivot tablo, XLSX dosyalarında hatalara neden olur, ancak XLS'de düzgün çalışır|
-|19942 | YayılmışML| ad alanı nitelikleriyle SpreadsheetML belge açma sorunu|
+|19852 | Pivot tablo| Pivot tablo XLSX dosyalarında hatalara neden oluyor ancak XLS'de sorunsuz çalışıyor|
+|19942 | YayılmışML| SpreadsheetML ad alanı öznitelikleriyle belge açma sorunu|
 |19052 | Xl'ler| Komut düğmesi olay işleyicisine sahip Excel'i kopyalayın|
 |19238 | Xl'ler| getPrecedents bir sütun 164 döndürür|
 |19541 | Xl'ler| Adlandırılmış Aralık Dizisi Formülünde Hata|
@@ -76,8 +76,8 @@ url: /tr/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | Xl'ler| Parolalar ve Excel 2003 ile ilgili sorun|
 |19901 | Xl'ler| GridWeb'de DİZİN VE ARAMA FORMÜLLERİ sorunu.|
 |19911 | Xl'ler| Bireysel veri noktası etiketi biçimlerinin kaybedilmesi|
-|19931 | Xl'ler| Cell'e Köprü ekleme sorunu|
-|19934 | Xl'ler|ImportTwoDimensionArray bazı hücreleri geçersiz kılıyor gibi görünüyor|
+|19931 | Xl'ler|Cell'e Köprü ekleme sorunu|
+|19934 | Xl'ler| ImportTwoDimensionArray bazı hücreleri geçersiz kılıyor gibi görünüyor|
 |19250 | Xlsx| Excel Okunamayan içerik hatası iletişim kutusu bulundu|
 |19334 | Xlsx| Grafik içeren Excel çalışma kitabı açılamıyor|
 |19341 | Xlsx| Virgül karakterli çalışma sayfalarıyla ilgili sorunlar|

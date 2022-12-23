@@ -77,7 +77,7 @@ System.out.println(settings.getRepairLoad());
 {{< /highlight >}}
 
 ### **Egenskapen TxtLoadOptions.KeepExactFormat har lagts till**
-Egenskapen KeepExactFormat har lagts till i klassen TxtLoadOptions som anger om den exakta formateringen ska behållas för cellvärdet när sträng/text konverteras till siffror eller DateTime. Den här egenskapen har lagts till för att matcha beteendet hos MS Excel-applikationen för att ladda DateTime eller numeriska värden från CSV-filer. För att simulera MS Excels beteende, ställ in egenskapen KeepExactFormat på false, medan standardvärdet är sant så att cellvärdet formateras som strängen i CSV-filen.
+Egenskapen KeepExactFormat har lagts till i klassen TxtLoadOptions som anger om den exakta formateringen ska behållas för cellvärdet när sträng/text konverteras till siffror eller DateTime. Den här egenskapen har lagts till för att matcha beteendet hos MS Excel-applikationen för att ladda DateTime eller numeriska värden från CSV-filer. För att simulera MS Excels beteende ställer du in egenskapen KeepExactFormat på false, medan standardvärdet är sant så att cellvärdet formateras som strängen i filen CSV.
 
 **Java**
 
@@ -91,7 +91,7 @@ Workbook book = new Workbook("sample.csv", options);
 
 {{< /highlight >}}
 
-### **Egenskap Shape.Id tillagd**
+### **Property Shape.Id tillagd**
 V8.3.0 har lagt till getter/setter för egenskapen Shape.Id för att unikt identifiera varje formobjekt i ett givet kalkylblad. Den här nya egenskapen hjälper också till att unikt identifiera diagramobjekt i ett kalkylblad som visas nedan.
 
 **Java**

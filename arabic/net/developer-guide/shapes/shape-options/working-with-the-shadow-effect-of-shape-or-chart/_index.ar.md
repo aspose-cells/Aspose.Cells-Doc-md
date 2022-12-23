@@ -10,7 +10,7 @@ url: /ar/net/working-with-the-shadow-effect-of-shape-or-chart/
 - [زاوية](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/angle)
 - [طمس](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/blur)
 - [اللون](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/color)
-- [مسافه: بعد](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
+- [مسافة](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/distance)
 - [النوع المسبق](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/presettype)
 - [بحجم](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
 - [الشفافية](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/transparency)

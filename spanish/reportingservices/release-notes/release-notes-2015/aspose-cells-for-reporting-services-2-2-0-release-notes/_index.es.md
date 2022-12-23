@@ -22,7 +22,7 @@ Dé la bienvenida a una nueva versión de Aspose.Cells for Reporting Services V2
 
 (SSRS-40204) La exportación desde SSRS tarda mucho y devuelve un error
 
-(SSRS-40202) Error de exportación a Excel: ya existe el mismo nombre de hoja de cálculo
+(SSRS-40202) Error de exportación a Excel: ya existe el mismo nombre de hoja de trabajo
 
 (SSRS-40201) Después de configurar HisOption como 2, al hacer clic en la celda se ignora el parámetro rs:Format al abrir el hipervínculo en el navegador
 
@@ -58,7 +58,7 @@ Dé la bienvenida a una nueva versión de Aspose.Cells for Reporting Services V2
 
 (SSRS-40185) Informe de análisis de impacto de elementos: el espacio en la parte superior del informe, entre el título y la tabla es mayor y los espacios entre los dos encabezados en la parte superior son menores.
 
-(SSRS-40184) Informe del índice de integridad: el informe no se exporta en XLSX y genera el error: "Se produjo un error al exportar el informe".
+(SSRS-40184) Informe de índice de integridad: el informe no se exporta en XLSX y genera el error: "Se produjo un error al exportar el informe".
 
 (SSRS-40183) Informe del tablero: en el cuarto cuadrante hay mucho espacio entre el texto y las categorías de mejora, mantenimiento y supervisión.
 
@@ -88,7 +88,7 @@ Dé la bienvenida a una nueva versión de Aspose.Cells for Reporting Services V2
 
 (SSRS-40169) Conjunto de filas agrupadas visibles ocultas en el archivo de Excel exportado (XLSX)
 
-(SSRS-40168) Las agrupaciones de filas se pierden en el formato de archivo XLSX representado
+(SSRS-40168) Las agrupaciones de filas se pierden en el formato de archivo representado XLSX
 
 (SSRS-40167) Se produce una excepción: formato de imagen desconocido: el parámetro no es válido.
 

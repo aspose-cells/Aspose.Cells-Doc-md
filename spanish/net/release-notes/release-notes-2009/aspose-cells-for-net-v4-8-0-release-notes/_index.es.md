@@ -22,7 +22,7 @@ url: /es/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Mejore el rendimiento de la función de ajuste automático de filas/columnas
 
- l Agregar formas de WordArt al archivo XLS
+ l Agregue formas de WordArt al archivo XLS
 
  Leer efectos de relleno degradado para el gráfico
 
@@ -48,17 +48,17 @@ url: /es/net/aspose-cells-for-net-v4-8-0-release-notes/
 |8749 | Gráfico2Imagen| Gráficos que no se muestran en Excel PDF|
 |9712 | Gráfico2Imagen| Admite forma agrupada a imagen|
 |9766 | Gráfico2Imagen| Obtener valores cero|
-|8738 | CSV| Error al cargar un archivo csv|
-|8737 | CSV| Abrir el archivo csv parece escribir en la consola|
-|8984 | HTML| Rendimiento lento al guardar el libro de trabajo como HTML|
+|8738 |CSV | Error al cargar un archivo csv|
+|8737 |CSV | Abrir el archivo csv parece escribir en la consola|
+|8984 |HTML | Rendimiento lento al guardar el libro de trabajo como HTML|
 |7915 | pdf| El problema de convertir celdas a pdf.|
 |8669 | pdf| Problema de conversión de Excel a PDF|
 |8672 | pdf| Diferencia en la salida al generar un archivo de Excel a un archivo Pdf|
-|8678 | pdf| Cells A PDF, la imagen de pie de página está borrosa|
+|8678 | pdf| Cells a PDF, la imagen de pie de página está borrosa|
 |8749 | pdf| Gráficos que no se muestran en Excel PDF|
-|8986 | pdf| Convertir de Excel a PDF|
-|8988 | pdf|guardar el libro de trabajo como PDF roto|
-|9608 | pdf| Problema de conversión XLS (¿longitud negativa?)|
+|8986 | pdf|Conversión de Excel a PDF|
+|8988 | pdf| guardando el libro de trabajo como PDF roto|
+|9608 | pdf| XLS problema de conversión (¿longitud negativa?)|
 |9609 | pdf| Guardar en FileFormatType.Pdf con implementación multiproceso|
 |9670 | pdf| Excel2PDF con problema de forma agrupada|
 |9761 | pdf| Error al guardar como Aspose.Pdf.xml|
@@ -77,9 +77,9 @@ url: /es/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | SpreadML| Un error al abrir y guardar el archivo.|
 |9610 | SpreadML| Ocultar columnas pierde su información de ancho|
 |7916 | xls| Actualice los paneles Congelados al insertar/eliminar filas/columnas|
-|8588 | xls| Problema con el cálculo de fórmulas de matriz|
+|8588 | xls|Problema con el cálculo de fórmulas de matriz|
 |8590 | xls| Copia de hojas|
-|8604 | xls|Problema con la copia de filas.|
+|8604 | xls| Problema con la copia de filas.|
 |8668 | xls| Problema con el grupo de marcadores inteligentes con combinación|
 |8673 | xls| Error con SUMIF y fórmula de cálculo|
 |8676 | xls| Etiquetas de datos del gráfico circular|
@@ -100,9 +100,9 @@ url: /es/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | xls| Rendimiento extremadamente lento de AutoFitColumns|
 |9266 | xls| No se calcula la formula|
 |9267 | xls| Lista desplegable de validación condicional|
-|9293 | xls| CalculateFormula no calculará|
+|9293 | xls|CalculateFormula no calculará|
 |9488 | xls| El problema de abrir el archivo xls.|
-|9501 | xls|DeleteRows no elimina imágenes incrustadas|
+|9501 | xls| DeleteRows no elimina imágenes incrustadas|
 |9545 | xls| SetDataSource() arroja un error|
 |9546 | xls| Color incorrecto de los números.|
 |9672 | xls| Calcular el error de la función de búsqueda|
@@ -122,9 +122,9 @@ url: /es/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | xls| Filas de subtotal de marcador inteligente - Fórmula dinámica de texto estático|
 |10153 | xls| AutoFitRows() cuando la columna está oculta|
 |10158 | xls| Obtener gráfico por nombre|
-|8587 | xls| Pedir imágenes/formas|
+|8587 | xls|Pedir imágenes/formas|
 |9062 | xls| Problemas de desbordamiento / subdesbordamiento de ExportDataTable|
-|9707 | xls|El área de impresión no se actualiza al eliminar columnas/filas|
+|9707 | xls| El área de impresión no se actualiza al eliminar columnas/filas|
 |10038 | xls| Subtotal - Resumen por debajo de los datos|
 |10041 | xls| Encuentra cadena sensible a mayúsculas y minúsculas.|
 |8419 | xlsx| No se puede leer el archivo xlsx|

@@ -16,7 +16,7 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **ميزات جديدة**
 
 
-(CELLSNET-43362) - دعم لحذف PivotTable من ورقة العمل
+ (CELLSNET-43362) - دعم لحذف PivotTable من ورقة العمل
 
  (CELLSNET-43279) - لا تظهر خصائص نوع المحتوى بتنسيق XLS
 
@@ -26,13 +26,13 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **التحسينات**
 
 
- (CELLSNET-43368) - تخصيص توليد CSS مع حفظ Excel إلى HTML
+ (CELLSNET-43368) - تخصيص توليد CSS مع حفظ Excel في HTML
 
  (CELLSNET-43361) - لا يمكن الاحتفاظ بتنسيق الأرقام Cell بعد ImportTwoDimensionArray
 
- (CELLSNET-43454) - Aspose.Pdf لا يتحقق من صحة إخراج PDF / A-1B
+ (CELLSNET-43454) - Aspose.Pdf لا يتحقق من صحة الإخراج PDF / A-1B
 
- (CELLSNET-43452) - لم يتم التحقق من توافق PDFA1B لملف PDF الناتج
+ (CELLSNET-43452) - لم يتم التحقق من توافق PDFA1B للمخرج PDF
 
  (CELLSNET-42646) - يعمل Workbook RefreshChartCache مع الإعدادات الإقليمية وإعدادات اللغة
 
@@ -44,15 +44,15 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 ## **أداء**
 
 
- (CELLSNET-43438) - يقوم جدول بيانات HTML بإنشاء ملف HTML بسعة 1 جيجابايت
+ (CELLSNET-43438) - يقوم جدول البيانات إلى HTML بإنشاء ملف بحجم 1 جيجابايت HTML
 
- (CELLSNET-43399) - مشكلة في الأداء مع طريقة CalculateFormula ()
+(CELLSNET-43399) - مشكلة في الأداء مع طريقة CalculateFormula ()
 
 
 ## **البق**
 
 
-(CELLSNET-43460) - لون الخلفية: rgba (0 ، 0 ، 0 ، 0) ؛ يجعل لون الخلفية أسود
+ (CELLSNET-43460) - لون الخلفية: rgba (0 ، 0 ، 0 ، 0) ؛ يجعل لون الخلفية أسود
 
  (CELLSNET-43403) - يختفي العمود الأول عند المحور الثاني
 
@@ -68,19 +68,19 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43331) - تلف ملف Excel بعد إنشاء جدول محوري
 
- (CELLSNET-43328) - موضع الصور خاطئ في ملف PDF الناتج
+ (CELLSNET-43328) - موضع الصور خطأ في الإخراج PDF
 
  (CELLSNET-43322) - ظهرت الأزرار في PivotChart عند إعادة حفظ الملف
 
  (CELLSNET-42919) - خطأ "وجد Excel أنه غير قابل للقراءة ..." بعد تحديث البيانات المحورية
 
- (CELLSNET-43451) - مشكلة في المحاذاة أثناء تحويل ورقة العمل إلى صورة
+(CELLSNET-43451) - مشكلة في المحاذاة أثناء تحويل ورقة العمل إلى صورة
 
-(CELLSNET-43414) - الفجوة بين الرأس والجسم مختلفة
+ (CELLSNET-43414) - الفجوة بين الرأس والجسم مختلفة
 
  (CELLSNET-43411) - لا يمكن أن يقبل الإصدار الأحدث أقل من 96 نقطة في البوصة
 
- (CELLSNET-43410) - تباعد غير صحيح مع كل بيئة. خط جديد في إخراج PDF
+ (CELLSNET-43410) - تباعد غير صحيح مع كل بيئة. خط جديد في الإخراج PDF
 
  (CELLSNET-43348) - سمة FitToPagesTall و FitToPagesWide لا تعمل كما هو متوقع
 
@@ -90,17 +90,17 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43375) - تم تقديم عنوان المخطط بشكل غير صحيح أثناء تحويل المخطط إلى صورة
 
- (CELLSNET-43352) - يتضاعف حجم PDF عند تحويله من XLSX
+ (CELLSNET-43352) - يتضاعف حجم PDF عندما يتم تحويله من XLSX
 
- (CELLSNET-43351) - مشكلة وسيلة إيضاح الرسم البياني أثناء تحويل XLSX إلى PDF
+ (CELLSNET-43351) - إصدار وسيلة إيضاح الرسم البياني أثناء تحويل XLSX إلى PDF
 
- (CELLSNET-43350) - مشكلة محور التخطيط أثناء تحويل XLSX إلى PDF
+ (CELLSNET-43350) - إصدار محور التخطيط أثناء التحويل XLSX إلى PDF
 
- (CELLSNET-43349) - مشكلة بيانية أثناء تحويل XLSX إلى PDF
+(CELLSNET-43349) - مشكلة بيانية أثناء التحويل XLSX إلى PDF
 
  (CELLSNET-43347) - لا يتم نسخ ظل سلسلة التخطيط أثناء نسخ المصنف
 
-(CELLSNET-43339) - لا يتم تقديم المخططات بشكل صحيح في ملف PDF الناتج
+ (CELLSNET-43339) - لا يتم تقديم المخططات بشكل صحيح في الإخراج PDF
 
  (CELLSNET-42573) - تسميات المخططات الدائرية متداخلة
 
@@ -116,17 +116,17 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43456) - يتغير لون خط WordArt بعد تحميل وحفظ xls
 
- (CELLSNET-43441) - التحويل من XLSX إلى XLSB ينتج عنه جدول بيانات تالف
+ (CELLSNET-43441) - التحويل من XLSX إلى XLSB ينتج جدول بيانات تالف
 
  (CELLSNET-43434) - لا يمكن فتح Docm أو Dotx في xls
 
  (CELLSNET-43432) - توقف العلامات الذكية عن دمج البيانات بعد عدد X من الصفوف
 
- (CELLSNET-43426) - دمج أوراق العمل فواصل الفاصلة العليا
+(CELLSNET-43426) - دمج أوراق العمل فواصل الفاصلة العليا
 
  (CELLSNET-43424) - لم يتم حساب صيغة البحث بشكل صحيح
 
-(CELLSNET-43423) - يصبح PageSetup.IsHFAlignMargins صحيحًا تلقائيًا في ملف Excel الناتج
+ (CELLSNET-43423) - يصبح PageSetup.IsHFAlignMargins صحيحًا تلقائيًا في ملف Excel الناتج
 
  (CELLSNET-43419) - تم فقد الارتباطات التشعبية التي لا تحتوي على عناوين فرعية
 
@@ -146,9 +146,9 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43338) - يؤدي إدخال أعمدة في جدول إلى ظهور تحذير غير قابل للقراءة
 
- (CELLSNET-43336) - مشكلة في تقديم التنسيق الشرطي - Excel إلى HTML
+(CELLSNET-43336) - مشكلة في تقديم التنسيق الشرطي - Excel إلى HTML
 
-(CELLSNET-43335) - مشكلة في تقديم التنسيق الشرطي - Excel إلى PDF
+ (CELLSNET-43335) - مشكلة في تقديم التنسيق الشرطي - Excel إلى PDF
 
  (CELLSNET-43333) - لا تعمل معلمة Insert Rows بشكل جيد في طريقة Cells.
 
@@ -174,15 +174,15 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  (CELLSNET-43393) - الفهرس خارج الاستثناء المقيد على Cell.PutValue
 
- (CELLSNET-43427) - System.OverflowException عند فتح ملف Excel
+(CELLSNET-43427) - System.OverflowException عند فتح ملف Excel
 
-(CELLSNET-43356) - يحدث خطأ في التنسيق عند ضبط الإعداد الإقليمي على الفرنسية
+ (CELLSNET-43356) - يحدث خطأ في التنسيق عند ضبط الإعداد الإقليمي على الفرنسية
 
  (CELLSNET-43353) - System.NullReferenceException at Workbook.Combine
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -230,7 +230,7 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
-يضيف أسلوب PivotTable.ShowInTabularForm ()
+ يضيف أسلوب PivotTable.ShowInTabularForm ()
 
  تخطيطات PivotTable في شكل جدولي.
 
@@ -248,7 +248,7 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
 
 
- يضيف Aspose.Cells.Vba namespace و VbaPorject و VbaModuleCollection و VbaModule.
+يضيف Aspose.Cells.Vba namespace و VbaPorject و VbaModuleCollection و VbaModule.
 
  يتم استخدامها لقراءة وتعديل مشروع VBA في الملف.
 
@@ -256,13 +256,13 @@ url: /ar/net/aspose-cells-for-net-8-4-0-release-notes/
 
  إضافة خاصية Border.ThemeColor.
 
- الحصول على لون النسق للحدود وتعيينه.
+الحصول على لون النسق للحدود وتعيينه.
 
 
 
  يضيف فئة TxtLoadStyleStrategy وخاصية TxtLoadOptions.LoadStyleStrategy.
 
-يشير إلى إستراتيجية تطبيق النمط على القيم التي تم تحليلها عند تحويل قيمة السلسلة إلى رقم أو تاريخ ووقت.
+ يشير إلى إستراتيجية تطبيق النمط على القيم التي تم تحليلها عند تحويل قيمة السلسلة إلى رقم أو تاريخ ووقت.
 
 
 

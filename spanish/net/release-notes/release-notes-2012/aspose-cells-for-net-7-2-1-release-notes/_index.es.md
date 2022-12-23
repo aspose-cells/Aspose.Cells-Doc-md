@@ -20,10 +20,10 @@ url: /es/net/aspose-cells-for-net-7-2-1-release-notes/
 
  Mejoras
 
-- Las líneas de las formas se archivan incorrectamente después de convertirlas a PDF
-- La macro desapareció después de guardar un archivo XLSM en formato XLS
+- Las líneas de formas se archivan incorrectamente después de convertirlas a PDF
+- Macro desapareció después de guardar un archivo XLSM en formato XLS
 - Las opciones del cuadro de lista se superponen entre sí
-- Aspose.Cells corrompe el archivo XLSM después de llamar al método Workbook.Save()
+- Aspose.Cells corrompiendo el archivo XLSM después de llamar al método Workbook.Save()
 - El componente destruye las propiedades del nodo CalcPr del XML del libro de trabajo
 - Quieres poner una cadena de más de 32K
 - Sintaxis de marcadores inteligentes para el índice de columna
@@ -57,7 +57,7 @@ url: /es/net/aspose-cells-for-net-7-2-1-release-notes/
 - Diferencias en la apariencia del gráfico entre MS Excel y PDF
 - Conversión de Excel 97-2003 a PDF
 
- -Aspose.Cells archivo XLSM corrupto después de llamar a Guardar dos veces
+ -Aspose.Cells corrompiendo el archivo XLSM después de llamar a Guardar dos veces
 
 - Marcadores en un problema de nivel
 
@@ -71,12 +71,12 @@ url: /es/net/aspose-cells-for-net-7-2-1-release-notes/
 - El gráfico copiado gira las etiquetas de la unidad de visualización 90 grados
 - Error de cálculo con un libro de trabajo
 - Realización de cálculos de subtotales en columnas agrupadas
-- Los problemas para la conversión de PDF con respecto a las formas de dibujo
+- Los problemas para la conversión PDF con respecto a las formas de dibujo
 
  - Problema de rangos con nombre
 
 - Aspose.Cells corrupción de archivos de Excel que contienen tablas dinámicas
-- Problemas de conversión de XLSX a PDF
+- XLSX a PDF problemas de conversión
 
  -Aspose.Cells maneja el valor de fecha incorrectamente
 

@@ -11,7 +11,7 @@ Görüntüleri yönetmek için akıllı işaretleyici parametreleri.
 - **Resim:Hücreye Sığdır** - Görüntüyü hücrenin satır yüksekliğine ve sütun genişliğine otomatik olarak sığdırın.
 - **Resim:ÖlçekN** - Yüksekliği ve genişliği yüzde N olarak ölçeklendirin.
 - **Resim:Genişlik:Nin&Yükseklik:Nin** - Görüntüyü N inç yüksekliğinde ve N inç genişliğinde oluşturun. ayrıca yapabilirsin
- Sol ve Üst konumları (puan olarak) ayırın.
+ Sol ve Üst konumları (puan olarak) belirtin.
 
 {{< highlight "csharp" >}}
 

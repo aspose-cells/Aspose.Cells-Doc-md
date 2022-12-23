@@ -38,11 +38,11 @@ url: /zh/reportingservices/licensing/
 
 **在评估模式下创建的文件。注意第二个工作表。** 
 
-![待办事项：图像_替代_文本](licensing_1.png)
+![待办事项：图片_替代_文本](licensing_1.png)
 
 **使用完整许可证创建的文件** 
 
-![待办事项：图像_替代_文本](licensing_2.png)
+![待办事项：图片_替代_文本](licensing_2.png)
 
 {{% alert color="primary" %}} 
 
@@ -52,4 +52,4 @@ url: /zh/reportingservices/licensing/
 
 **指示许可问题的错误消息** 
 
-![待办事项：图像_替代_文本](licensing_3.png)
+![待办事项：图片_替代_文本](licensing_3.png)

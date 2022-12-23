@@ -10,8 +10,8 @@ Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.6.0
 
 {{% /alert %}} 
 ## **APIs hinzugefügt**
-### **Unterstützung für den Zieltyp HTML-Link**
-Diese Version von Aspose.Cells for Java API hat eine Aufzählung namens HtmlLinkTargetType zusammen mit einer neuen Eigenschaft HtmlSaveOptions.LinkTargetType verfügbar gemacht, die zusammen dies ermöglicht[Legen Sie den Zieltyp für die Links in der Tabelle während der Konvertierung in das HTML-Format fest](/cells/de/java/change-the-html-link-target-type/). Die möglichen Werte der HtmlLinkTargetType-Enumeration lauten wie folgt, wobei der Standardwert SELF ist.
+### **Unterstützung für HTML Linkzieltyp**
+ Diese Version von Aspose.Cells for Java API hat eine Aufzählung namens HtmlLinkTargetType zusammen mit einer neuen Eigenschaft HtmlSaveOptions.LinkTargetType verfügbar gemacht, die zusammen dies ermöglicht[Stellen Sie den Zieltyp für die Links in der Tabelle während der Konvertierung in das Format HTML ein](/cells/de/java/change-the-html-link-target-type/). Die möglichen Werte der HtmlLinkTargetType-Enumeration lauten wie folgt, wobei der Standardwert SELF ist.
 
 1. HtmlLinkTargetType.BLANK: Öffnet das verlinkte Dokument/die verlinkte Seite in einem neuen Fenster oder Tab.
 1. HtmlLinkTargetType.PARENT: Öffnet das verlinkte Dokument/die verlinkte Seite im übergeordneten Frame.
@@ -91,7 +91,7 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Methode Cell.setCharacters Hinzugefügt**
- Dazu kann die Methode Cell.setCharacters verwendet werden[Aktualisieren Sie die Teile des Rich-Texts](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) eines bestimmten Cell-Objekts. Die Methode Cell.getCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**erhalten** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
+ Dazu kann die Methode Cell.setCharacters verwendet werden[Aktualisieren Sie die Teile des Rich-Texts](/cells/de/java/access-and-update-the-portions-of-rich-text-of-cell/) eines bestimmten Cell-Objekts. Die Methode Cell.getCharacters muss verwendet werden, um auf die Teile des Textes zuzugreifen, und dann können Änderungen mit der Methode Cell.setCharacters vorgenommen werden, während die**bekommen** -Methode gibt ein Array von FontSetting-Objekten zurück, die manipuliert werden können, um verschiedene Eigenschaften Schriftartname, Schriftfarbe, Fettschrift usw. festzulegen**einstellen** -Methode verwendet werden, um die Änderungen anzuwenden.
 
 Es folgt das einfache Nutzungsszenario.
 
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Eigenschaft VbaProject.isSigned Hinzugefügt**
- Aspose.Cells for Java 8.6.1 hat die VbaProject.isSigned-Eigenschaft verfügbar gemacht, die verwendet werden kann[Testen Sie, ob ein VbaProject in einer Arbeitsmappe signiert ist oder nicht](/cells/de/java/check-if-vba-project-in-a-workbook-is-signed/). Die Eigenschaft vom Typ Boolean gibt „true“ zurück, wenn das Projekt signiert ist.
+ Aspose.Cells for Java 8.6.1 hat die VbaProject.isSigned-Eigenschaft verfügbar gemacht, die verwendet werden kann[Testen Sie, ob ein VbaProject in einer Arbeitsmappe signiert ist oder nicht](/cells/de/java/check-if-vba-project-in-a-workbook-is-signed/)Die Eigenschaft vom Typ Boolean gibt „true“ zurück, wenn das Projekt signiert ist.
 
 Es folgt das einfache Nutzungsszenario.
 

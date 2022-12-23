@@ -22,6 +22,6 @@ url: /sv/sharepoint/aspose-cells-for-sharepoint-3-0-0-release-notes/
  Förbättringar
 
 - Lägg till stöd
- för nya format (XLSB, MHtml, XPS, TIFF, SVG, DIF) för konvertering
+för nya format (XLSB, MHtml, XPS, TIFF, SVG, DIF) för konvertering
 - Optimera Aspose.Cells
  for SharePoint komponent

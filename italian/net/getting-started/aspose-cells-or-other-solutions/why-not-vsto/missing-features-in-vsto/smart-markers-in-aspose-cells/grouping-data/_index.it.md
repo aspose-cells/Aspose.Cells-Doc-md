@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /it/net/grouping-data/
 ---
-In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record.
+In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ogni gruppo di record.
 
 I marcatori intelligenti Aspose.Cells consentono di raggruppare i dati per campo/i e posizionare righe di riepilogo tra set di dati o gruppi di dati. Ad esempio, se si raggruppano i dati per Customers.CustomerID, è possibile aggiungere un record di riepilogo ogni volta che il gruppo cambia.
 
@@ -21,7 +21,7 @@ Supportiamo tre tipi di gruppo tra cui puoi scegliere.
 
 Se hai più parametri, separali con una virgola, ma senza spazio: parametroA,parametroB,parametroC
 ### **Esempio**
-Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Microsoft Access Northwind.mdb ed estrae i dati dalla tabella denominata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo marcatori intelligenti in varie celle nei fogli di lavoro. I marcatori vengono elaborati per riempire i fogli di lavoro. I dati vengono inseriti e organizzati da un campo di gruppo.
+Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Northwind.mdb Microsoft Access ed estrae i dati dalla tabella denominata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo marcatori intelligenti in varie celle nei fogli di lavoro. I marcatori vengono elaborati per riempire i fogli di lavoro. I dati vengono inseriti e organizzati da un campo di gruppo.
 
 Il file designer ha due fogli di lavoro. Nel primo inseriamo marcatori intelligenti con parametri di raggruppamento come mostrato nello screenshot qui sotto. Vengono posizionati tre marcatori intelligenti (con parametri di raggruppamento):
 &=Dettagli ordine.ID ordine(gruppo:unione,salta:1),

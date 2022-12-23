@@ -33,8 +33,8 @@ Wir sind
 
 - Cells.importCustomObjects() mit dem angegebenen DateTime-Format funktioniert nicht
 - Falscher Diagrammtyp des Streudiagramms
-- Doppelter Wert verliert Genauigkeit beim Lesen aus der CSV-Vorlagendatei
+- Doppelter Wert verliert Präzision beim Lesen aus der Vorlagendatei CSV
 - Die Diagrammreihe wurde beim Konvertieren in ein Bild auf den Kopf gestellt
-- Die erneut gespeicherte XLSX-Datei verursacht den Fehler „Excel hat nicht lesbaren Inhalt gefunden…“.
+- Die erneut gespeicherte Datei XLSX verursacht den Fehler „Excel hat nicht lesbaren Inhalt gefunden…“.
 - Gespeicherte Pivot-Tabelle verursachte "ProtectionView", wenn sie in MS Excel geöffnet wurde
 - Verwenden der Listenvalidierung durch Aspose.Cellscreates einer XLS-Datei, die nach dem Ändern des Listentrennzeichens des Systems nicht funktioniert

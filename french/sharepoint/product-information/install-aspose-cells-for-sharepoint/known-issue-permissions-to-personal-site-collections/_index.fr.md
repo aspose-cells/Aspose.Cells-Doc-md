@@ -18,7 +18,7 @@ Pour éviter ce problème, accordez aux administrateurs du portail l'autorisatio
 1.  Choisir**Politique pour les applications Web** sous le**Sécurité des applications** groupe.
 1.  Assurez-vous de sélectionner la bonne application Web pour votre « Mon site » dans la**Application Web** liste à droite.
 1.  Sélectionner**Ajouter des utilisateurs** en haut à gauche.
-1.  Choisir**Toutes les zones** par défaut sur le**Ajouter des utilisateurs** écran et cliquez**Prochain**.
+1.  Choisir**Toutes les zones** par défaut sur le**Ajouter des utilisateurs** écran et cliquez**Suivant**.
 1. Ajoutez le ou les utilisateurs appropriés ou le groupe Active Directory que vous souhaitez contrôler sur votre application Web « Mon site ».
 1.  Sélectionnez le niveau de contrôle.
 

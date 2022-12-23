@@ -10,22 +10,22 @@ url: /fr/net/aspose-cells-for-net-18-12-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-46479|Le nom de l'onglet n'est pas disponible lorsque le classeur à feuille unique est converti en HTML|Nouvelle fonctionnalité|
 |CELLSNET-46503|Contrôler le chargement des données VBA à l'aide de LoadDataFilterOptions|Nouvelle fonctionnalité|
-|CELLSNET-42414|Modifications suivies perdues lors de la conversion de XLSB en XLSM et de XLS en XLSM|Renforcement|
-|CELLSNET-46090|Le texte a légèrement bougé après avoir dissocié la forme lors de l'enregistrement d'un XLS dans XLSX|Renforcement|
+|CELLSNET-42414|Modifications suivies perdues lors de la conversion de XLSB à XLSM et XLS à XLSM|Renforcement|
+|CELLSNET-46090|Le texte a légèrement bougé après avoir dissocié la forme lors de l'enregistrement d'un XLS à XLSX|Renforcement|
 |CELLSNET-46439|Optimisation des performances de la mémoire : libérer le flux d'origine après le chargement du classeur|Performance|
 |CELLSNET-46371|Le quadrillage n'est pas affiché dans certaines feuilles lors de la conversion XLSX->HTML->XLSX|Punaise|
-|CELLSNET-46447|Mises en forme perdues dans le rendu HTML vers XLS|Punaise|
+|CELLSNET-46447|Formatages perdus dans le rendu HTML à XLS|Punaise|
 |CELLSNET-46494|Conversion MHT en XLSX - problème de contenu de cellule|Punaise|
 |CELLSNET-46468|MS Excel affiche une erreur lors de l'ouverture du fichier de sortie|Punaise|
 |CELLSNET-46487|La formule de paramètres régionaux non anglais ne fonctionne pas|Punaise|
 |CELLSNET-46489|La suppression d'une ligne avec un index et la lecture de la ligne avec le même index renvoie Cell.ValuType : IsNull|Punaise|
-|CELLSNET-46406|Impossible d'ouvrir le document ODS protégé par mot de passe|Punaise|
-|CELLSNET-46466|Le texte inférieur sous le code-barres est manquant dans le rendu MS Excel vers PDF|Punaise|
-|CELLSNET-46470|L'image est manquante après le rendu en sortie TIFF|Punaise|
+|CELLSNET-46406|Impossible d'ouvrir le document protégé par mot de passe ODS|Punaise|
+|CELLSNET-46466|Le texte du bas sous le code à barres est manquant dans MS Excel pour le rendu PDF|Punaise|
+|CELLSNET-46470|L'image est manquante après le rendu vers la sortie TIFF|Punaise|
 |CELLSNET-46499|Les images ne sont pas rendues correctement lorsqu'elles sont converties d'Excel en PDF|Punaise|
 |CELLSNET-46443|Du texte supplémentaire est apparu dans l'image rendue à partir du graphique MS Excel|Punaise|
 |CELLSNET-46450|L'image rendue à partir du graphique MS Excel a plus d'unités d'axe que le graphique d'origine|Punaise|
@@ -34,7 +34,7 @@ url: /fr/net/aspose-cells-for-net-18-12-release-notes/
 |CELLSNET-46471|Impossible de définir le marqueur de couleur LineWithDataMarkers au format de fichier XLS|Punaise|
 |CELLSNET-42729|Le texte est déplacé lorsque les graphiques SmartArt sont rendus au format de fichier HTML|Punaise|
 |CELLSNET-46462|Texte répété lors du remplacement de la balise par du texte|Punaise|
-|CELLSNET-46483|Erreur après la conversion d'un document avec Custom UI xml de XLSB en XLSM|Punaise|
+|CELLSNET-46483|Erreur après la conversion du document avec Custom UI XML de XLSB à XLSM|Punaise|
 |CELLSNET-46495|Problèmes rencontrés lors de la conversion du graphique en image|Punaise|
 |CELLSNET-46486|Exception levée lors de la conversion de XLS en PDF|Exception|
 |CELLSNET-46472|PivotTable.GetChildren() lève l'exception "Nom Cell non valide"|Exception|
@@ -64,7 +64,7 @@ Utilisez plutôt la propriété FindOptions.SearchBackward, la valeur true de ce
 #### **Supprime les méthodes obsolètes Cells.FindString, FindStringStartsWith, FindStringEndsWith, FindStringContains et FindNumber**
 Utilisez plutôt la méthode Cells.Find (object,Cell,FindOptions). Pour obtenir les mêmes résultats avec les méthodes FindNumber, FindString, veuillez définir FindOptions.ValueTypeSensitive sur true.
 #### **Supprime la méthode obsolète Cells.ImportGridView(System.Web.UI.WebControls.GridView,int ,int , bool ,bool ,bool )**
-Utilisez la méthode Cells.ImportGridView (System.Web.UI.WebControls.GridView gridView,int firstRow,int firstColumn,ImportTableOptions options). Au lieu.
+Utilisez la méthode Cells.ImportGridView (System.Web.UI.WebControls.GridView gridView,int firstRow,int firstColumn,ImportTableOptions options). au lieu.
 #### **Supprime la propriété obsolète Cells.Start**
 Utilisez plutôt la propriété Cells.FirstCell.
 #### **Supprime la propriété obsolète Cells.End**
@@ -75,7 +75,7 @@ Utilisez la méthode Cells.GetEnumerator() pour itérer toutes les cellules de c
 Utilisez plutôt la méthode Cells.ImportData (DataTable,int,int,ImportTableOptions).
 #### **Supprime les méthodes Cells.ImportDataReader() obsolètes**
 Utilisez plutôt la méthode Cells.ImportData (IDataReader, int, int,ImportTableOptions).
-#### **Supprime la propriété Shape.Rotation obsolète**
+#### **Supprime la propriété obsolète Shape.Rotation**
 Utilisez plutôt la propriété Shape.RotationAngle.
 #### **Supprime la propriété Validation.AreaList obsolète**
 Utilisez plutôt la propriété Validation.Areas.

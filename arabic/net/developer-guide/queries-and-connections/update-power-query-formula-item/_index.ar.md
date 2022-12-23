@@ -10,7 +10,7 @@ url: /ar/net/update-power-query-formula-item/
 
 ## **تحديث عنصر صيغة Power Query**
 
- يوفر Aspose.Cells API القدرة على تحديث عناصر صيغ Power Query. يوضح مقتطف التعليمات البرمجية التالي تحديث موقع ملف مصدر البيانات في ملف Excel باستخدام ملحق[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)منشأه. ملفات المصدر والمخرجات المرفقة للرجوع اليها.
+ يوفر Aspose.Cells API القدرة على تحديث عناصر صيغ Power Query. يوضح مقتطف التعليمات البرمجية التالي تحديث موقع ملف مصدر البيانات في ملف Excel باستخدام ملحق[**PowerQueryFormulaItem.Value**](https://reference.aspose.com/cells/net/aspose.cells.querytables/powerqueryformulaitem/properties/value)خاصية. ملفات المصدر والمخرجات المرفقة للرجوع اليها.
 
 - [ملف المصدر 1](106364953.xlsx)
 - [ملف المصدر 2](106364954.xlsx)

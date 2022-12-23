@@ -21,7 +21,7 @@ Cette liste n'inclut pas les événements hérités par Aspose.Cells.GridWeb de 
 
 {{% /alert %}} 
 
-|**Événements** |**La description** |
+|**Événements** |**Description** |
 |:- |:- |
 | CellCommand| Se produit lorsque le lien hypertexte de commande d'une cellule est cliqué. Lorsque cet événement est déclenché, son paramètre e.Argument fournit le nom de la commande.|
 | DoubleClicCellule| Se produit lorsque la cellule est double-cliquée.|
@@ -37,10 +37,10 @@ Cette liste n'inclut pas les événements hérités par Aspose.Cells.GridWeb de 
 | Suppression de ligne| Se produit lorsqu'un utilisateur essaie de supprimer une ligne d'une feuille de calcul à l'aide du menu côté client.|
 | LigneDoubleClic|Se produit lorsque l'en-tête de ligne est double-cliqué.|
 | LigneInsérée| Se produit lorsqu'un utilisateur insère une ligne dans une feuille de calcul à l'aide du menu côté client.|
-| Enregistrer la commande| Se produit lorsque le**sauvegarder** bouton est cliqué.|
+| Enregistrer la commande| Se produit lorsque le**Sauver** bouton est cliqué.|
 | SheetDataUpdated| Se produit lorsque le contrôle a chargé les données publiées et mis à jour les données de la feuille de calcul.|
 | SheetTabClick| Se produit lorsqu'un onglet de feuille est cliqué.|
-| SoumettreCommande| Se produit lorsque le**Soumettre** bouton est cliqué.|
+| SoumettreCommande| Se produit lorsque le**Nous faire parvenir** bouton est cliqué.|
 | Annuler la commande| Se produit lorsque le**annuler** bouton est cliqué.|
 | AjaxAppelTerminé| Se déclenche lorsque la mise à jour AJAX du contrôle est terminée. (EnableAJAX doit être défini sur true).|
 | CellModifiedOnAjax| Se déclenche lorsque la cellule est modifiée dans un appel AJAX.|
@@ -74,12 +74,12 @@ Pour effectuer une opération spécifique lors du déclenchement d'un événemen
 
 1. Ajoutez du code pour effectuer une action dans le gestionnaire d'événements.
 
- Ici, une seule ligne de code qui enregistre le contenu de la grille dans un fichier Excel lorsque le**sauvegarder** bouton est cliqué a été ajouté.
+ Ici, une seule ligne de code qui enregistre le contenu de la grille dans un fichier Excel lorsque le**Sauver** bouton est cliqué a été ajouté.
 
 Pour obtenir plus d'informations, déplacez le curseur ci-dessus pour voir du code, puis vous découvrirez que Visual Studio est suffisamment intelligent pour ajouter un gestionnaire d'événements à l'événement SaveCommand de GridWeb.
 ### **Étape 3 : Lancer votre application**
 1. Créez et exécutez l'application.
-1.  Cliquez sur**sauvegarder**.
+1.  Cliquez sur**Sauver**.
 
  Le contenu de la grille est enregistré dans un fichier Excel.
 

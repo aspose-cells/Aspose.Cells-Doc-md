@@ -23,11 +23,11 @@ url: /zh/net/hide-and-unhide-worksheets-in-a-workbook/
 1. 隐藏工作表。
 1. 保存文件。
 
-至[取消隐藏](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)再次打开工作表，只需打开隐藏工作表的可见性即可。
+到[取消隐藏](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)再次打开工作表，只需打开隐藏工作表的可见性即可。
 
 下面的代码示例首先展示了如何隐藏工作表。第一个样本显示了这个过程[VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)，与使用 C# 或 Visual Basic 相比[Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)再次使用 C# 或 Visual Basics。
 
-第二组代码示例显示了用于取消隐藏工作表的行[VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)或者[Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/).
+第二组代码示例显示了用于取消隐藏工作表的行[VSTO](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/)要么[Aspose.Cells](/cells/zh/net/hide-and-unhide-worksheets-in-a-workbook/).
 
 ## **隐藏工作表**
 

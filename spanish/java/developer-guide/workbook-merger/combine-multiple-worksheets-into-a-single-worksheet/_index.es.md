@@ -14,7 +14,7 @@ A veces, necesita combinar varias hojas de trabajo en una sola hoja de trabajo. 
 
 ## **Combinar hojas de trabajo**
 
- El siguiente ejemplo utiliza el[**Rango.copia()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) para copiar todas las hojas de trabajo de origen en una sola hoja dentro de un libro de trabajo de destino.
+ El siguiente ejemplo utiliza el[**Rango.copia()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)para copiar todas las hojas de trabajo de origen en una sola hoja dentro de un libro de trabajo de destino.
 
 ### **Libro de trabajo de origen**
 

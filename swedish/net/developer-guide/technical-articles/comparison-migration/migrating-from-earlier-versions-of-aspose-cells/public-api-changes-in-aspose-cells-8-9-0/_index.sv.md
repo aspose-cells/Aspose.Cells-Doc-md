@@ -11,11 +11,11 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.8
 {{% /alert %}} 
 ## **Lade till API:er**
 ### **Lagt till egenskapen HtmlSaveOptions.DefaultFontName**
-Aspose.Cells for .NET 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till HTML-format. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells for .NET API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
+Aspose.Cells for .NET 8.9.0 har exponerat egenskapen DefaultFontName för klassen HtmlSaveOptions som gör det möjligt att ange standardteckensnittsnamnet samtidigt som kalkylblad renderas till formatet HTML. Standardteckensnittet kommer endast att användas när stiltypsnittet inte finns. Standardvärdet för egenskapen HtmlSaveOptions.DefaultFontName är null, vilket betyder att Aspose.Cells for .NET API kommer att använda det universella teckensnittet som har samma familj som det ursprungliga teckensnittet.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs artikeln om[Ställa in standardteckensnitt för att rendera kalkylblad till HTML-format](/cells/sv/net/set-default-font-while-rendering-spreadsheet-to/).
+ För mer information om den här funktionen, läs artikeln om[Ställ in standardteckensnitt för rendering av kalkylblad till HTML-format](/cells/sv/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

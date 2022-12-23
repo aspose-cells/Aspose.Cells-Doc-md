@@ -1,12 +1,12 @@
 ﻿---
-title: Rufen Sie DrawObject und Bound beim Rendern in PDF mithilfe der DrawObjectEventHandler-Klasse ab
+title: Holen Sie sich DrawObject und Bound beim Rendern auf PDF mithilfe der DrawObjectEventHandler-Klasse
 type: docs
 weight: 60
 url: /de/java/get-drawobject-and-bound-while-rendering-to-pdf-using-drawobjecteventhandler-class/
 ---
 ## **Mögliche Nutzungsszenarien**
 
-Aspose.Cells stellt eine abstrakte Klasse bereit[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) das hat ein[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) Methode. Der Benutzer kann implementieren[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)und nutze die[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float))-Methode, um die[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)und**Gebunden**beim Rendern von Excel in PDF oder Bild. Hier ist eine kurze Beschreibung der Parameter der[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) Methode.
+Aspose.Cells stellt eine abstrakte Klasse bereit[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler) das hat ein[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) Methode. Der Benutzer kann implementieren[**DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObjectEventHandler)und nutze die[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float))-Methode, um die[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)und**Gebunden**beim Rendern von Excel auf PDF oder Image. Hier ist eine kurze Beschreibung der Parameter der[**zeichnen()**](https://reference.aspose.com/cells/java/com.aspose.cells/drawobjecteventhandler#draw(com.aspose.cells.DrawObject,%20float,%20float,%20float,%20float)) Methode.
 
 -  drawObject:[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject)wird beim Rendern initialisiert und zurückgegeben
 
@@ -22,7 +22,7 @@ Wenn Sie eine Excel-Datei in PDF rendern, können Sie sie verwenden[**DrawObject
 
 ## **Holen Sie sich DrawObject und Bound beim Rendern in PDF mit der Klasse DrawObjectEventHandler**
 
-Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](64716843.xlsx)und speichert es als[PDF ausgeben](64716842.pdf). Beim Rendern in PDF verwendet es[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)Eigentum und erfasst die[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) und**Gebunden** bestehender Zellen und Objekte, zB Bilder usw. Wenn der drawObject-Typ Cell ist, werden Bound und StringValue ausgegeben. Und wenn der drawObject-Typ Image ist, gibt es seinen Bound- und Shape-Namen aus. Weitere Hilfe finden Sie in der Konsolenausgabe des unten angegebenen Beispielcodes.
+Bitte sehen Sie sich den folgenden Beispielcode an. Es lädt die[Beispiel-Excel-Datei](64716843.xlsx)und speichert es als[Ausgang PDF](64716842.pdf). Beim Rendern auf PDF wird es verwendet[**PdfSaveOptions.DrawObjectEventHandler**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#DrawObjectEventHandler)Eigentum und erfasst die[**DrawObject**](https://reference.aspose.com/cells/java/com.aspose.cells/DrawObject) und**Gebunden**bestehender Zellen und Objekte, zB Bilder usw. Wenn der drawObject-Typ Cell ist, werden Bound und StringValue ausgegeben. Und wenn der drawObject-Typ Image ist, gibt es seinen Bound- und Shape-Namen aus. Weitere Hilfe finden Sie in der Konsolenausgabe des unten angegebenen Beispielcodes.
 
 ## **Beispielcode**
 

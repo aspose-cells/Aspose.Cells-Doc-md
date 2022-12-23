@@ -22,31 +22,31 @@ url: /zh/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50038|折叠和展开多级组的不同行为|强化|
 |CELLSNET-50041|BMP 图像文件不显示在页眉/页脚中|强化|
 |CELLSNET-50108|XLS 到 PDF：转换因内存不足而停止|表现|
-|CELLSNET-50128|行距变窄——Excel转PDF|漏洞|
+|CELLSNET-50128|行距变窄——Excel到PDF的转换|漏洞|
 |CELLSNET-50086|Cell 转换为 PDF 后颜色消失|漏洞|
 |CELLSNET-49996|MemoryPreference 模式下单元格的富文本值可能会丢失|漏洞|
 |CELLSNET-50042|单元格的名称在录制过程中被更改|漏洞|
 |CELLSNET-50055|如果父工作表有撇号，本地范围名称属性 FullText 不会转义|漏洞|
 |CELLSNET-50154|GridWeb 无法从 .csv 文件的缓存中加载/保存|漏洞|
 |CELLSNET-50063|打印 Excel 文件呈现两页而不是一页|漏洞|
-|CELLSNET-50094|工作表内容在 Excel 到 PDF 的转换中未正确呈现|漏洞|
+|CELLSNET-50094|工作表内容在 Excel 中未正确呈现为 PDF 转换|漏洞|
 |CELLSNET-50129|打印位置随着页面的移动而上升 - Excel 到 PDF 的转换|漏洞|
 |CELLSNET-50131|缺少字符 - Excel 到 PDF 的转换|漏洞|
 |CELLSNET-49578|Aspose.Cells 从图表中计算出错误的最大/最小值|漏洞|
 |CELLSNET-50087|更改系列类型后输出图表显示不正确|漏洞|
 |CELLSNET-50197|瀑布图中的图例无法删除或隐藏|漏洞|
 |CELLSNET-50065|关于折叠和展开多级行组的不同行为|漏洞|
-|CELLSNET-50137|XLSX 到 HTML 脚本中未声明的变量“节点”|漏洞|
+|CELLSNET-50137|XLSX 到 HTML 脚本中未声明的变量“node”|漏洞|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine 不适用于自动拟合列|漏洞|
 |CELLSNET-50165|保存文件后拼音指南字体发生变化|漏洞|
 |CELLSNET-50208|另存为 Html 时部分文本丢失|漏洞|
 |CELLSNET-50095|打开 XSLB 文件时出现异常|例外|
 |CELLSNET-50096|删除空列时发生 StackOverflowException|例外|
-|CELLSNET-50071|转换为 HTML 异常“不支持的功能：CUBESET”|例外|
+|CELLSNET-50071|转换为 HTML 异常“Unsupported function: CUBESET”|例外|
 |CELLSNET-50097|通过 Aspose.Cells 打开 XSLX 文件时出现异常|例外|
 |CELLSNET-50133|比较 FillFormat 时出现 NullReferenceException|例外|
 |CELLSNET-50138|打开 XLSB 文件时出现异常|例外|
-|CELLSNET-50016|图表 EMF 不正确的轴值|回归|
+|CELLSNET-50016|图表到 EMF 不正确的轴值|回归|
 |
 
 
@@ -72,7 +72,7 @@ url: /zh/net/aspose-cells-for-net-22-1-release-notes/
 
 ### **添加 TxtLoadOptions.ExtendToNextSheet 属性。**
 
-如果数据的行数或列数超过 ms excel 的限制，支持将 CSV/TSV 数据导入多个工作表。
+支持将CSV/TSV数据导入多个工作表，如果数据的行数或列数超过ms excel的限制。
 
 ### **添加 ExternalLinkCollection.Clear() 方法。**
 

@@ -18,7 +18,7 @@ url: /zh/net/managing-cell-controls-in-worksheets/
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingCellControls-AccessCheckbox.cs" >}}
 ## **删除 Cell 控件**
-要删除现有的单元格控件，开发人员可以简单地访问所需的工作表，然后**消除**从细胞控制**控件**的集合**工作表**通过指定包含单元格控件的单元格（使用其名称或行号和列号）。
+要删除现有的单元格控件，开发人员可以简单地访问所需的工作表，然后**去掉**从细胞控制**控件**的集合**工作表**通过指定包含单元格控件的单元格（使用其名称或行号和列号）。
 
 
 

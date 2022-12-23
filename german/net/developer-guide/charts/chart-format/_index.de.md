@@ -51,7 +51,7 @@ Das folgende Code-Snippet zeigt, wie Titel für Diagramme und Achsen festgelegt 
 ### **Arbeiten mit großen Gitternetzlinien**
 Es ist möglich, das Aussehen der Hauptrasterlinien anzupassen. Blenden Sie Rasterlinien ein oder aus oder definieren Sie deren Farbe und andere Einstellungen. Im Folgenden zeigen wir, wie Gitternetzlinien ausgeblendet und ihre Farbe geändert werden.
 #### **Ausblenden wichtiger Gitternetzlinien**
-Entwickler können die Sichtbarkeit wichtiger Gitternetzlinien steuern, indem sie die[Ist sichtbar](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) Eigentum der[Linie](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) widersprechen**Stimmt** oder**FALSCH**.
+Entwickler können die Sichtbarkeit wichtiger Gitternetzlinien steuern, indem sie die[Ist sichtbar](https://reference.aspose.com/cells/net/aspose.cells.drawing/line/properties/isvisible) Eigentum der[Linie](https://reference.aspose.com/cells/net/aspose.cells.drawing/line) widersprechen**wahr** oder**FALSCH**.
 
 Das folgende Code-Snippet zeigt, wie wichtige Gitternetzlinien ausgeblendet werden. Nach dem Ausblenden der Hauptgitterlinien wird dem Arbeitsblatt ein Säulendiagramm hinzugefügt, das keine Gitterlinien enthält.
 

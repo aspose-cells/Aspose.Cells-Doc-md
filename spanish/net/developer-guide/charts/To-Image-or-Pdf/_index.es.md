@@ -7,11 +7,11 @@ url: /es/net/chart-rendering/
 ---
 ## **Representación de gráficos**
 
- Aspose.Cells Soporte de API para convertir los gráficos de Excel a imágenes y formatos PDF sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, el[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la clase ha expuesto[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**A PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)métodos con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
+ Aspose.Cells Compatibilidad con API para convertir los gráficos de Excel en imágenes y PDF formatos sin necesidad de herramientas o aplicaciones adicionales. Para proporcionar soporte de renderizado, el[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) la clase ha expuesto[**A la imagen**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**A PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)métodos con una gran cantidad de sobrecargas para adaptarse mejor a los requisitos de la aplicación.
 
 ### **Representación de gráficos en imágenes**
 
- los[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**A PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) El método tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)método como sigue.
+ Él[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**A PDF**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index) El método tiene una gran cantidad de sobrecargas para admitir renderizado simple y avanzado. Si el requisito de la aplicación es representar el gráfico en sus dimensiones predeterminadas, le sugerimos que utilice el[**Chart.ToImage**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index)método como sigue.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImage.cs" >}}
 
@@ -19,9 +19,9 @@ url: /es/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Gráfico de renderizado a PDF**
+### **Tabla de renderizado al PDF**
 
- Para representar el gráfico en formato PDF, las API Aspose.Cells han expuesto el[**Gráfico.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)método con la capacidad de almacenar el PDF resultante en la ruta del disco o Stream.
+ Para representar el gráfico en el formato PDF, las API Aspose.Cells han expuesto el[**Gráfico.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)método con la capacidad de almacenar el PDF resultante en la ruta del disco o Stream.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -62,7 +62,7 @@ url: /es/net/chart-rendering/
 ||DispersiónConectadoPorCurvasSinMarcador de datos|**Y**|
 ||ScatterConnectedByLinesWithDataMarker|**Y**|
 ||ScatterConnectedByLinesWithoutDataMarker|**Y**|
-|**Área**|Área|**Y**|
+|**Zona**|Zona|**Y**|
 ||Área apilada|**Y**|
 ||Área100PorcentajeApilado|**Y**|
 ||Área3D|**Y**|
@@ -79,7 +79,7 @@ url: /es/net/chart-rendering/
 ||SuperficieContornoEstructura metálica|norte|
 |**Burbuja**|Burbuja|**Y**|
 ||Burbuja3D|norte|
-|**Valores**|InventarioAltoBajoCerrar|**Y**|
+|**Existencias**|InventarioAltoBajoCerrar|**Y**|
 ||InventarioAbiertoAltoBajoCerrar|**Y**|
 ||InventarioVolumenAltoBajoCerrar|**Y**|
 ||StockVolumenAbiertoAltoBajoCerrar|**Y**|
@@ -115,7 +115,7 @@ url: /es/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-En caso de que intente representar los tipos de gráficos no admitidos en imágenes o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
+En caso de que intente representar los tipos de gráficos no admitidos en una imagen o PDF, puede terminar con imágenes de tamaño 0 o PDF en blanco.
 
 {{% /alert %}}
 

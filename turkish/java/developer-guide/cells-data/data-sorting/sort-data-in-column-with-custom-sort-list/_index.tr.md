@@ -12,7 +12,7 @@ url: /tr/java/sort-data-in-column-with-custom-sort-list/
 
 Aşağıdaki örnek kod, verileri özel sıralama listesiyle sıralamak için DataSorter.AddKey(int key, SortOrder order, String[]customList) yönteminin nasıl kullanılacağını açıklar. Lütfen bkz[örnek excel dosyası](50528359.xlsx)Bu kodda kullanılan ve[çıktı excel dosyası](50528358.xlsx)onun tarafından oluşturulur. Aşağıdaki ekran görüntüsü, örnek Excel dosyasındaki kodun yürütme üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](sort-data-in-column-with-custom-sort-list_1.png)
+![yapılacaklar:resim_alternatif_metin](sort-data-in-column-with-custom-sort-list_1.png)
 
 ## **Basit kod**
 

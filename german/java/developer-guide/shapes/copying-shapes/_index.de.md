@@ -48,7 +48,7 @@ Kopieren Sie nun das Bild im Arbeitsblatt „Bild“ in das letzte Arbeitsblatt 
 1. [Herunterladen Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
 1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
 
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 
 #### **Schritt 3: Erstellen Sie ein Projekt**
 

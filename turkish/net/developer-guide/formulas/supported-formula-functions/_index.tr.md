@@ -160,7 +160,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |ERF|
 |ERFC|
 |HATA.TİPİ|
-|BİLE|
+|HATTA|
 |BİRE BİR AYNI|
 |tecrübe|
 |ÜSTELDAĞ|
@@ -273,7 +273,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 |:- |:- |
 |BÜYÜK|
 |LCM|
-|AYRILDI|
+|SOL|
 |SOLTB|
 |UZUNLUK|
 |LENB|
@@ -343,7 +343,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ###### **Ö**
 |**İşlev**|**Özet**|
 |:- |:- |
-|Ekim2BIN|
+|Ekim2BİN|
 |EKİM2DEC|
 |Ekim2HEX|
 |GARİP|
@@ -415,10 +415,10 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 ###### **S**
 |**İşlev**|**Özet**|
 |:- |:- |
-|ARAMA|
+|ARA|
 |ARA|
 |İKİNCİ|
-|SEKANS|
+|SIRA|
 |SERİ TOPLAM|
 |ÇARŞAF|
 |ÇARŞAFLAR|

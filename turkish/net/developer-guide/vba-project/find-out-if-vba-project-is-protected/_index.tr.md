@@ -10,7 +10,7 @@ url: /tr/net/find-out-if-vba-project-is-protected/
 
 ## **Basit kod**
 
- Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve ardından VBA projesinin korunup korunmadığını kontrol eder. Daha sonra VBA projesini korur ve yine VBA projesinin korunup korunmadığını kontrol eder. Lütfen referans için konsol çıktısına bakın. Koruma öncesi,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) İadeler**yanlış** ancak korumadan sonra geri döner**doğru**.
+Aşağıdaki örnek kod, bir çalışma kitabı oluşturur ve ardından VBA projesinin korunup korunmadığını kontrol eder. Daha sonra VBA projesini korur ve yine VBA projesinin korunup korunmadığını kontrol eder. Lütfen referans için konsol çıktısına bakın. Koruma öncesi,[**VbaProject.IsProtected**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/isprotected) İadeler**YANLIŞ** ancak korumadan sonra geri döner**doğru**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-WorkbookVBAProject-FindoutifVBAProjectisProtected.cs" >}}
 

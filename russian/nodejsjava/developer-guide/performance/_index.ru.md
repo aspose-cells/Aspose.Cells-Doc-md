@@ -1,5 +1,5 @@
 ﻿---
-title: Производительность
+title: Спектакль
 type: docs
 weight: 20
 url: /ru/nodejs-java/performance/

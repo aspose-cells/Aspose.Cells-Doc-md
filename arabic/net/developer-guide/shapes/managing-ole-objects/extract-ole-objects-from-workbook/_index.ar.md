@@ -17,7 +17,7 @@ url: /ar/net/extract-ole-objects-from-workbook/
 ### **إنشاء قالب مصنف**
 
 1. إنشاء مصنف في Microsoft Excel.
-1. قم بإضافة مستند Word Microsoft ، ومصنف Excel ، ووثيقة PDF ككائنات OLE في ورقة العمل الأولى.
+1. قم بإضافة مستند Word Microsoft ومصنف Excel ومستند PDF ككائنات OLE في ورقة العمل الأولى.
 
 |**مستند قالب به كائنات OLE (OleFile.xls)**|
 |:- |

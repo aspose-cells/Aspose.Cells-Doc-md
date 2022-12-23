@@ -16,8 +16,8 @@ url: /es/java/aspose-cells-for-java-17-3-0-release-notes/
 |CELLSJAVA-42204|Los bordes punteados de la hoja de cálculo no se han representado en HTML|Insecto|
 |CELLSJAVA-42198|El cálculo de la fórmula es incorrecto con el archivo de Excel generado Aspose.Cells|Insecto|
 |CELLSJAVA-42156|Los bordes superior e inferior de las celdas desaparecen al convertir a HTML|Insecto|
-|CELLSJAVA-42208|Los comentarios (al final) se cortan verticalmente cuando se generan en PDF a través de Aspose.Cells|Insecto|
-|CELLSJAVA-42206|Las líneas de guiones de la serie para los gráficos no se representan correctamente en el PDF de salida|Insecto|
+|CELLSJAVA-42208|Los comentarios (al final) se cortan verticalmente cuando se generan PDF a través de Aspose.Cells|Insecto|
+|CELLSJAVA-42206|Las líneas de guiones de la serie para los gráficos no se representan correctamente en la salida PDF|Insecto|
 |CELLSJAVA-42167 |Las etiquetas del eje de categoría se muestran en dos líneas después de convertir el gráfico en imagen|Insecto|
 |CELLSJAVA-42199|Gráfico de cascada, la línea de la barra total y la barra justo antes de que falte|Insecto|
 |CELLSJAVA-42201|Subtarea: las etiquetas del eje de categoría se muestran en dos líneas después de convertir el gráfico en imagen|Insecto|
@@ -42,7 +42,7 @@ Usando la versión reciente 17.3.0 o superior, los desarrolladores pueden person
 1. **Agrega el método GlobalizationSettings.getEmptyDataName()** - Recibe el nombre de la etiqueta "(en blanco)" en la tabla dinámica.
 1. **Agrega el método GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType)** - Recibe el nombre de tipo "PivotFieldSubtotalType" en la tabla dinámica.
 
-Este ejemplo de código explica cómo personalizar la configuración de globalización de una tabla dinámica. Crea una clase CustomPivotTableGlobalizationSettings derivada de una clase base GlobalizationSettings y anula todos sus métodos necesarios. Estos métodos devuelven el texto personalizado para Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values. Luego asigna el objeto de esta clase a la propiedad Workbook.GlobalizationSettings. El código carga el archivo Excel de origen que contiene la tabla dinámica, actualiza y calcula sus datos y los guarda como un archivo PDF de salida. Los desarrolladores también pueden guardar el libro de trabajo en cualquier formato compatible.
+Este ejemplo de código explica cómo personalizar la configuración de globalización de una tabla dinámica. Crea una clase CustomPivotTableGlobalizationSettings derivada de una clase base GlobalizationSettings y anula todos sus métodos necesarios. Estos métodos devuelven el texto personalizado para Pivot Total, Sub Total, Grand Total, All Items, Multiple Items, Column Labels, Row Labels, Blank Values. Luego asigna el objeto de esta clase a la propiedad Workbook.GlobalizationSettings. El código carga el archivo fuente de Excel que contiene la tabla dinámica, actualiza y calcula sus datos y los guarda como un archivo de salida PDF. Los desarrolladores también pueden guardar el libro de trabajo en cualquier formato admitido.
 
 **Java**
 

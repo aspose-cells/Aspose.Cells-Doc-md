@@ -20,7 +20,7 @@ Aspose.Cells tiene un motor de cálculo de fórmula integrado. No solo puede vol
 
 {{% alert color="primary" %}}
 
- los**Fórmula** propiedad y**EstablecerFórmula(...)** métodos de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)trabajo en clase de manera diferente a la**Calcular** métodos de la[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook), [**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) y[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clases los**Fórmula** propiedad y**EstablecerFórmula(...)** los métodos simplemente agregan la fórmula a una celda pero no calculan el resultado en tiempo de ejecución. Para obtener el resultado de las fórmulas, llame al**Calcular** métodos.
+ Él**Fórmula** propiedad y**EstablecerFórmula(...)** métodos de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)trabajo en clase de manera diferente a la**Calcular** métodos de la[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook), [**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) y[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) clases Él**Fórmula** propiedad y**EstablecerFórmula(...)** los métodos simplemente agregan la fórmula a una celda pero no calculan el resultado en tiempo de ejecución. Para obtener el resultado de las fórmulas, llame al**Calcular** métodos.
 
 {{% /alert %}}
 
@@ -30,7 +30,7 @@ Aspose.Cells tiene un motor de cálculo de fórmula integrado. Además de calcul
 
 A veces, necesita calcular los resultados de la fórmula directamente sin agregarlos a una hoja de cálculo. Los valores de las celdas utilizadas en la fórmula ya existen en una hoja de cálculo y todo lo que necesita es encontrar el resultado de esos valores en función de alguna fórmula de Excel Microsoft sin agregar la fórmula en una hoja de cálculo.
 
- Puede utilizar las API del motor de cálculo de fórmulas Aspose.Cells para[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) a[**calcular**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) los resultados de dichas fórmulas sin agregarlas a la hoja de cálculo:
+ Puede utilizar las API del motor de cálculo de fórmulas Aspose.Cells para[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) a[**calcular**](https://reference.aspose.com/cells/net/aspose.cells.worksheet/calculateformula/methods/3) los resultados de dichas fórmulas sin agregarlas a la hoja de trabajo:
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formulas-DirectCalculationFormula-1.cs" >}}
 

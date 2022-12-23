@@ -20,7 +20,7 @@ url: /sv/java/aspose-cells-for-java-7-5-1-release-notes/
 
  40545 - Kan inte öppna Excel-filen
 
- 40549 - Diagram saknas i PDF-utdata
+ 40549 - Diagram saknas i PDF Output
 
  Buggar
 

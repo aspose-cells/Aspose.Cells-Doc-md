@@ -12,7 +12,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Reporting Servi
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSRS-584 | Mejora del renderizado Png/Emf.| Mejora|
-|CELLSRS-588 |Procesamiento de Tiff de mejora.| Mejora|
+|CELLSRS-584 |Mejora del renderizado Png/Emf.| Mejora|
+|CELLSRS-588 | Procesamiento de Tiff de mejora.| Mejora|
 
 

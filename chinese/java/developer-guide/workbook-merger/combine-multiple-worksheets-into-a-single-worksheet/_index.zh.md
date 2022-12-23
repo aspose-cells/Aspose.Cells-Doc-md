@@ -14,7 +14,7 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 ## **合并工作表**
 
-下面的示例使用[**范围.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) 方法将所有源工作表复制到目标工作簿内的单个工作表中。
+下面的示例使用[**范围.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)方法将所有源工作表复制到目标工作簿内的单个工作表中。
 
 ### **源工作簿**
 
@@ -22,15 +22,15 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 **工作表 1**
 
-![待办事项：图像_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
+![待办事项：图片_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_1.jpg)
 
 **工作表 2**
 
-![待办事项：图像_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
+![待办事项：图片_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_2.jpg)
 
 **工作表 3**
 
-![待办事项：图像_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
+![待办事项：图片_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_3.jpg)
 
 ### **输出工作簿**
 
@@ -38,7 +38,7 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 **输出工作表现在包含所有 3 个源工作表的数据**
 
-![待办事项：图像_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
+![待办事项：图片_替代_文本](combine-multiple-worksheets-into-a-single-worksheet_4.jpg)
 
 ## **下载源工作簿和输出工作簿**
 

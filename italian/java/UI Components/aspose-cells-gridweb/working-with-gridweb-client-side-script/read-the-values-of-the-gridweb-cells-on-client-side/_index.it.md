@@ -17,7 +17,7 @@ Il codice di esempio seguente recupera tutte le celle e ne stampa il nome, il va
 ![cose da fare:immagine_alt_testo](read-the-values-of-the-gridweb-cells-on-client-side_1.png)
 
 
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< highlight "java" >}}
 
  <%@page language="java" contentType="text/html; charset=UTF-8" import="com.aspose.gridweb.*"  pageEncoding="UTF-8"%>

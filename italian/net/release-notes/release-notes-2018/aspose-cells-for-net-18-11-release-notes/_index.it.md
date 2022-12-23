@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-18-11-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-46377|Controlla se una cella ha una formula circolare|Nuova caratteristica|
 |CELLSNET-46399|Si è verificata un'eccezione durante la chiamata a PivotTable.RefreshData()|Nuova caratteristica|
@@ -20,24 +20,24 @@ url: /it/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46117|La posizione del testo cambia leggermente separando la forma|Aumento|
 |CELLSNET-46400|Si blocca durante la chiamata a PivotTable.RefreshData|Prestazione|
 |CELLSNET-46441|Cell.GetDisplayStyle() si blocca per una cella|Prestazione|
-|CELLSNET-46423|Problemi di formattazione durante la conversione di XLSX in PDF|Insetto|
+|CELLSNET-46423|Problemi di formattazione durante la conversione da XLSX a PDF|Insetto|
 |CELLSNET-46410|Il formato della tabella pivot viene incasinato dopo l'aggiornamento|Insetto|
-|CELLSNET-46404|Elaborazione dei diagrammi allo stesso modo delle immagini durante il salvataggio dell'HTML|Insetto|
-|CELLSNET-46388|Il file è corrotto dopo aver caricato e salvato nuovamente un formato di file XLSX|Insetto|
+|CELLSNET-46404|Elaborazione dei diagrammi allo stesso modo delle immagini durante il salvataggio di HTML|Insetto|
+|CELLSNET-46388|Il file è danneggiato dopo aver caricato e salvato nuovamente un formato di file XLSX|Insetto|
 |CELLSNET-46387|Tabella pivot per l'ordinamento dei problemi|Insetto|
-|CELLSNET-46366|Mancano bordi e colori di sfondo durante la conversione dell'HTML in XLSX|Insetto|
+|CELLSNET-46366|Mancano bordi e colori di sfondo durante la conversione da HTML a XLSX|Insetto|
 |CELLSNET-46365|Fogli di stile CSS di riferimento ignorati durante l'apertura di HTML|Insetto|
 |CELLSNET-46431|Il risultato della formula VLookup è diverso dal risultato di MS Excel|Insetto|
 |CELLSNET-46430|La formula dell'array non funziona dopo Workbook.Combine nella conversione da XLSX a XLSB|Insetto|
 |CELLSNET-46428|Name.RefersTo non recupera il valore corretto|Insetto|
 |CELLSNET-46413|La creazione di XLSX con la formattazione condizionale produce un file danneggiato|Insetto|
 |CELLSNET-46403|La formula di matrice non funziona dopo Workbook.Combine per salvare nel formato di file XLSB|Insetto|
-|CELLSNET-46396|La cartella di lavoro salvata come SVG è danneggiata poiché in realtà è un file TIFF|Insetto|
-|CELLSNET-46420|Grafico in PDF che riceve problemi di picco|Insetto|
-|CELLSNET-46411|Si blocca durante la conversione di XLSX in PDF|Insetto|
+|CELLSNET-46396|La cartella di lavoro salvata come SVG è danneggiata poiché in realtà è il file TIFF|Insetto|
+|CELLSNET-46420|Grafico in PDF che riceve un problema di picco|Insetto|
+|CELLSNET-46411|Si blocca durante la conversione da XLSX a PDF|Insetto|
 |CELLSNET-46408|Gli indicatori di dati non sono presenti nell'immagine del grafico di output dal file MS Excel|Insetto|
-|CELLSNET-46393|Etichette degli assi disallineate dopo la conversione del grafico MS Excel nel formato immagine PNG|Insetto|
-|CELLSNET-46359|Variazione della dimensione del carattere per le etichette nel grafico nel file SVG di output|Insetto|
+|CELLSNET-46393|Etichette degli assi non allineate dopo la conversione del grafico MS Excel nel formato immagine PNG|Insetto|
+|CELLSNET-46359|Variazione della dimensione del carattere per le etichette nel grafico nel file di output SVG|Insetto|
 |CELLSNET-46433|La formattazione condizionale viene eliminata durante l'eliminazione dell'intervallo denominato|Insetto|
 |CELLSNET-46427|MS Excel segnala un problema dopo l'apertura/salvataggio con Aspose.Cells|Insetto|
 |CELLSNET-46421|La proprietà CreatedTime del documento cambia dopo essere stata salvata nello stream|Insetto|
@@ -48,10 +48,10 @@ url: /it/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46397|Il titolo del grafico viene perso durante la conversione da XLS a XLSM|Insetto|
 |CELLSNET-46401|ArgumentException mentre si lavora con il file HTML generato|Eccezione|
 |CELLSNET-46426|Eccezione durante la chiamata di AutoFitColumns()|Eccezione|
-|CELLSNET-46415|Eccezione CellsException durante il salvataggio quando ParsingFormulaOnOpen è false|Eccezione|
+|CELLSNET-46415|Eccezione CellsException durante il salvataggio quando ParsingFormulaOnOpen è falso|Eccezione|
 |CELLSNET-46422|Eccezione durante l'elaborazione di smart tag|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge la proprietà PivotTable.RefreshedByWho**
 Ottiene il nome dell'utente che ha aggiornato la tabella pivot l'ultima volta.
 #### **Aggiunge la proprietà PivotTable.RefreshDate**

@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-21-10-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-49192| Problema con il recupero di intervalli (RefersTo) con una funzione offset|Nuova caratteristica|
 |CELLSNET-49132|Apri i file con la tabella HTML all'interno come file XLS|Nuova caratteristica|
@@ -18,19 +18,19 @@ url: /it/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49015|Aggiorna collegamento ipertestuale(Foglio1!A1) quando si modifica il nome del foglio di lavoro.|Aumento|
 |CELLSNET-49021|La formattazione condizionale di ods viene persa in MS Excel se il tipo è "Contiene testo"|Aumento|
 |CELLSNET-49280|Supporta l'intervallo di riempimento automatico con il tipo di riempimento|Aumento|
-|CELLSNET-49413|Rimuovi le forme invisibili durante il rendering dell'HTML|Aumento|
+|CELLSNET-49413|Rimuovi forme invisibili durante il rendering HTML|Aumento|
 |CELLSNETCORE-135|L'applicazione si interrompe durante il calcolo di file di grandi dimensioni e UDF|Prestazione|
-|CELLSNET-49124|Pulsanti di opzione sfocati durante la conversione di XLSM in HTML|Insetto|
+|CELLSNET-49124|Pulsanti radio sfocati durante la conversione da XLSM a HTML|Insetto|
 |CELLSNET-49115|Calcolo errato degli operatori nella formula quando gli operandi sono intervalli|Insetto|
 |CELLSNETCORE-132|Grafico distorto creato in Html convertito|Insetto|
 |CELLSNETCORE-141|Testo mancante, allineamento errato del testo e percentuali mancanti nel grafico|Insetto|
 |CELLSNET-49067|Problema con il recupero e l'impostazione del colore della scheda in GridDesktop|Insetto|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode non funziona|Insetto|
 |CELLSNET-49118|Problema con l'importazione XML|Insetto|
-|CELLSNET-49195|La conversione da XLSX a HTML non conserva la sequenza di caratteri invisibili|Insetto|
-|CELLSNET-49245|L'immagine si sposta in file XLS specifici durante il rendering in HTML|Insetto|
-|CELLSNET-49246|L'immagine non è visibile durante la conversione di un file XLSX specifico in HTML|Insetto|
-|CELLSNET-49334| Problema con il testo del carattere nel campo del piè di pagina per il rendering di Excel|Insetto|
+|CELLSNET-49195|La conversione da XLSX a HTML non mantiene la sequenza di caratteri invisibili|Insetto|
+|CELLSNET-49245|L'immagine si sposta in specifici file XLS se renderizzata in HTML|Insetto|
+|CELLSNET-49246|L'immagine non è visibile durante la conversione di un file specifico XLSX in HTML|Insetto|
+|CELLSNET-49334|Problema con il testo del carattere nel campo del piè di pagina per il rendering di Excel|Insetto|
 |CELLSNET-49393|Impossibile importare correttamente il file XML nel file modello|Insetto|
 |CELLSNETCORE-226|Spazi bianchi non necessari resi durante la conversione da Excel a EMF|Insetto|
 |CELLSNET-49091|Il nodo "strCache" mancante in un XML|Insetto|
@@ -46,7 +46,7 @@ url: /it/net/aspose-cells-for-net-21-10-release-notes/
 |CELLSNET-49244|La formattazione condizionale dell'icona viene persa durante il salvataggio come html|Insetto|
 |CELLSNET-49328|Errore durante la copia dei fogli di lavoro|Insetto|
 |CELLSNET-49365|Il testo viene ritagliato nell'output della stampante dopo la chiamata a AutoFitRows|Insetto|
-|CELLSNET-49366|Problema con i campi di input di convalida dei dati Cell in formato XLSB|Insetto|
+|CELLSNET-49366|Problema con i campi di input della convalida dei dati Cell nel formato XLSB|Insetto|
 |CELLSNETCORE-269|Nella tabella HTML viene aggiunta una riga errata con un'altezza elevata|Insetto|
 |CELLSNETCORE-270|Problemi con HtmlString Font quando Excel è stato salvato come HTML una volta|Insetto|
 |CELLSNET-49375|Problema durante l'aggiornamento della tabella pivot dopo l'aggiunta di dati|Insetto|
@@ -57,9 +57,9 @@ url: /it/net/aspose-cells-for-net-21-10-release-notes/
 |
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo di overload Name.GetRefersTo().**
 
@@ -83,7 +83,7 @@ Restituisce un intervallo delimitato da qualsiasi combinazione di righe e colonn
 
 ### **Aggiunge la classe AxisBins.**
 
- Rappresenta i contenitori degli assi per i grafici a istogrammi.
+ Rappresenta i contenitori degli assi per i grafici a istogramma.
 
 ### **Metodo obsoleto SheetRender.GetPageSize(int pageIndex)**
 

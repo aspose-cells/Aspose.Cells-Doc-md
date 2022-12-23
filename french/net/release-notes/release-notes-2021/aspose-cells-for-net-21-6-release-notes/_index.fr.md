@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-21-6-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-48104|Obtenir la valeur de SlicerCacheItem dans la collection Slicer.SlicerCache.SlicerCacheItems|Nouvelle fonctionnalité|
 |CELLSNET-48121|Prise en charge du style personnalisé de Slicer dans Xlsb|Nouvelle fonctionnalité|
@@ -19,7 +19,7 @@ url: /fr/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|Les valeurs de cellule formatées récupérées sont incorrectes dans la feuille de calcul Excel|Renforcement|
 |CELLSNET-48078|Copie complète du classeur après calcul avec le paramètre CreateCalcChain|Renforcement|
 |CELLSNET-48079| Comment vérifier si une feuille de calcul est vide|Renforcement|
-|CELLSNET-48135| Problème avec le classeur protégé (avec un mot de passe) généré par Aspose.Cells|Renforcement|
+|CELLSNET-48135|Problème avec le classeur protégé (avec un mot de passe) généré par Aspose.Cells|Renforcement|
 |CELLSNET-48050| le processeur se bloque sur un classeur ouvert|Performance|
 |CELLSNET-48063|Coût du temps lors de l'appel de l'API Cells.GetRowRawHeightPoint|Performance|
 |CELLSNET-48046|Le décalage du texte de la forme est incorrect (flèche : carré).|Punaise|
@@ -30,14 +30,14 @@ url: /fr/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48080|Le tableau croisé dynamique ne peut pas utiliser "值" ou "Valeurs" comme nom de colonne lors de la création du tableau croisé dynamique|Punaise|
 |CELLSNET-48085| L'en-tête de colonne masqué est rendu|Punaise|
 |CELLSNET-48105|Le placement de la zone de texte est modifié lors de la conversion d'Excel en HTML|Punaise|
-|CELLSNET-48048| Exception lors de l'enregistrement de XLSX avec commentaires au format PDF|Punaise|
+|CELLSNET-48048| Exception lors de l'enregistrement de XLSX avec des commentaires au format PDF|Punaise|
 |CELLSNET-48082|L'ajout de lignes de plus de 30 à l'aide de ImportCustomObjects génère un fichier corrompu|Punaise|
 |CELLSNET-48086|La plage nommée n'est pas correctement créée en 21.5 mais fonctionnait en 21.4|Punaise|
 |CELLSNET-48118|Prise en charge de l'actualisation des formules de tableau dynamique en fonction de la plage renversée mise à jour|Punaise|
 |CELLSNET-48081|L'image n'est pas affichée dans GridWeb|Punaise|
 |CELLSNET-48117|Ajouter GridCell.GetValidation() pour GridDesktop|Punaise|
 |CELLSNET-47627|Problèmes lors de l'accès/de la modification de l'axe X d'un graphique Excel à l'aide de Aspose.Cells|Punaise|
-|CELLSNET-48041| Le graphique extrait est déformé dans le rendu graphique en image/PDF|Punaise|
+|CELLSNET-48041| Le graphique extrait est déformé dans le graphique au rendu image/PDF|Punaise|
 |CELLSNET-48049|Espacement des axes différent lors de la conversion du classeur xlsx en emf|Punaise|
 |CELLSNET-48101|Les caractères chinois s'affichent en tant que Rectagle Linux Docker|Punaise|
 |CELLSNET-48061|PowerQueries disparaissant après le remplacement de la requête|Punaise|

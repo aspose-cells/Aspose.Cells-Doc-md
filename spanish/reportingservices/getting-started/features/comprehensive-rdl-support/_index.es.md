@@ -23,4 +23,4 @@ Aspose.Cells for Reporting Services es totalmente compatible con la especificaci
 - Rectángulos, líneas
 - Subinformes
 - Tablix
-- Medir
+- Indicador

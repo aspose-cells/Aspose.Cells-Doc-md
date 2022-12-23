@@ -21,7 +21,7 @@ url: /tr/java/aspose-cells-for-java-and-php/
 
  php.ini dosyasındaki java.class.path'e aspose.cells.jar'ı eklemeyi unutmayın.
 
- PHP sarmalayıcı sınıfları, ClassFactory'de createXXX() imzasıyla karşılık gelen Java sınıfı için PHP sınıfları oluşturmak için bazı statik yöntemler sağlar. Yapıcılar aşırı yüklenirse, ClassFactory'deki karşılık gelen tüm yöntemler create+seri numarası+sınıf adı olarak tanımlanır, örneğin: ((createXXX()}}, create1XXX(args...), create2XXX(args...), ve benzeri.
+ PHP sarmalayıcı sınıfları, ClassFactory'de createXXX() imzasıyla karşılık gelen Java sınıfı için PHP sınıfları oluşturmak için bazı statik yöntemler sağlar. Yapıcılar aşırı yüklenirse, ClassFactory'deki karşılık gelen tüm yöntemler create+seri numarası+sınıf adı olarak tanımlanır, örneğin: ((createXXX()}}, create1XXX(args...), create2XXX(args...), ve bunun gibi.
 
 Tüm sabitler PHP'de ClassName+" "+SabitAd olarak tanımlanır, örneğin BorderLineType.NONE, PHP'de BorderLineType NONE olarak tanımlanır.
 

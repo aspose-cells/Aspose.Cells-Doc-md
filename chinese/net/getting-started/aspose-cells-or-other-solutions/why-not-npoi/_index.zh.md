@@ -14,7 +14,7 @@ NPOI（POI Java项目的NET版本）是一个开源项目，可以帮助你读�
 
 **XSSF**是 POI 项目的 Excel 2007 OOXML (.xlsx) 文件格式的纯 Java 实现。
 
-HSSF 和 XSSF 提供了读取电子表格的方法来创建、修改、读取和写入 XLS 电子表格。他们提供：
+HSSF 和 XSSF 提供了读取电子表格的方法创建、修改、读取和写入 XLS 电子表格。他们提供：
 
 - 为有特殊需要的人提供的低层结构
 - 用于高效只读访问的事件模型 API
@@ -28,7 +28,7 @@ Aspose.Cells是一个非常好用的文档处理库，对所有Microsoft Excel�
 
 ## 为什么不NPOI
 
-值得注意的是，有些任务可以用Aspose.Cells完成，但不能用NPOI完成。例如，如果你需要将Excel文件转换成Pdf、JSON和图片，那么你不能只使用NPOI，你还需要Microsoft Excel 365或其他工具。
+值得注意的是，有些任务可以用Aspose.Cells完成，但不能用NPOI完成。比如你需要将Excel文件转成Pdf，JSON和图片，那么你不能只使用NPOI，还需要Microsoft Excel 365或者其他工具。
 
 您可以将 NPOI 与 Aspose.Cells 进行比较为此，我们建议您熟悉 NPOI 项目（HSSF 和 XSSF）的 Aspose.Cells——它展示了使用 Aspose.Cells for .NET API 与 NPOI 相比如何完成不同的任务。该项目还涵盖了处理文本文档的功能，这些功能仅在 Aspose.Cells 中可用，但在 NPOI 中不可用。
 
@@ -56,7 +56,7 @@ Aspose 组件具有高度可扩展性和闪电般的速度。它们是真正的 
 
 Aspose 组件提供了管理 Office 文件所需的一切，以及更多其他功能。它们的设计理念是让开发人员以最少的工作量取得最大的成果。
 
- Aspose 组件提供许多强大的省时功能。例如，[Aspose.Cells](https://products.aspose.com/cells/net/)提供允许开发人员将 JSON 导入 Excel 文件的功能。值得注意的是，Aspose 系列中的每个组件都提供了自己的一组独特而强大的功能。
+Aspose 组件提供许多强大的省时功能。例如，[Aspose.Cells](https://products.aspose.com/cells/net/)提供允许开发人员将 JSON 导入 Excel 文件的功能。值得注意的是，Aspose 系列中的每个组件都提供了自己的一套独特而强大的功能。
 
 ## 也可以看看
 

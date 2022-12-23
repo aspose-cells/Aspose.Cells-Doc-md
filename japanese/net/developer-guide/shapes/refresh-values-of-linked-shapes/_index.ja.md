@@ -12,11 +12,11 @@ url: /ja/net/refresh-values-of-linked-shapes/
 
 ## 例
 
-次のスクリーンショットは、以下のサンプル コードで使用されるソース Excel ファイルを示しています。セル A1 から E4 にリンクされたリンクされた画像があります。セル B4 の値を Aspose.Cells に変更して呼び出します。[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)写真の値を更新して PDF 形式で保存する方法。
+次のスクリーンショットは、以下のサンプル コードで使用されるソース Excel ファイルを示しています。セル A1 から E4 にリンクされたリンクされた画像があります。セル B4 の値を Aspose.Cells に変更して呼び出します。[**Worksheet.Shapes.UpdateSelectedValue()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shapecollection/methods/updateselectedvalue)写真の値を更新し、PDF 形式で保存するメソッド。
 
 ![todo:画像_代替_文章](refresh-values-of-linked-shapes_1.jpg)
 
-ダウンロードできます[ソースの Excel ファイル](95584291.xlsx)そしてその[PDF出力](95584292.pdf)指定されたリンクから。
+ダウンロードできます[ソースの Excel ファイル](95584291.xlsx)そしてその[出力 PDF](95584292.pdf)指定されたリンクから。
 
 ### C# リンクされた図形の値を更新するコード
 

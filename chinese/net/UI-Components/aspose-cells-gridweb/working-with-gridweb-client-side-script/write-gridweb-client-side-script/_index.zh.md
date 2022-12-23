@@ -48,11 +48,11 @@ Aspose.Cells.GridWeb 提供了两个专门为支持客户端脚本而创建的�
 ### **客户端脚本函数**
 Aspose.Cells.GridWeb 还公开了专门用于客户端脚本的功能。这些函数可以在 JavaScript 函数中使用，以获得对 Aspose.Cells.GridWeb 的更多控制。这些客户端功能包括以下内容：
 
-|**功能**|**描述**|
+|**职能**|**描述**|
 |:- |:- |
 |更新数据（布尔取消编辑）|在将其发布到服务器之前更新 Aspose.Cells.GridWeb 的所有客户端数据。如果 cancelEdit 参数为真，那么 GridWeb 将丢弃所有用户输入。|
 |验证所有（）|用于检查用户输入中是否存在任何验证错误。如果有错误，函数返回 false，否则返回 true。|
-|提交（字符串参数，布尔取消编辑）|调用此函数向服务器回发或提交数据。此函数执行更新数据和验证用户输入这两项任务。此函数还可以在服务器端触发命令事件。使用 arg 参数传递您的命令。例如：SAVE 命令用于单击**节省**GridWeb 控件命令栏上的按钮和 CCMD:MYCOMMAND 命令触发 CustomCommand 事件。|
+|提交（字符串参数，布尔取消编辑）|调用此函数向服务器回发或提交数据。此函数执行更新数据和验证用户输入这两项任务。此函数还可以在服务器端触发命令事件。使用 arg 参数传递您的命令。例如：SAVE 命令用于单击**救球**GridWeb 控件命令栏上的按钮和 CCMD:MYCOMMAND 命令触发 CustomCommand 事件。|
 |setActiveCell（整数行，整数列）|用于激活特定的单元格。|
 |setCellValue（整数行，整数列，字符串值）|用于将值放入使用其行号和列号指定的任何单元格。|
 |getCellValue（整数行，整数列）|返回任何指定单元格的值。|
@@ -72,19 +72,19 @@ Aspose.Cells.GridWeb 还公开了专门用于客户端脚本的功能。这些�
 
 **添加到 C1 单元格的验证** 
 
-![待办事项：图像_替代_文本](write-gridweb-client-side-script_1.png)
+![待办事项：图片_替代_文本](write-gridweb-client-side-script_1.png)
 
-添加无效值并单击**节省**.发生验证错误并执行 ValidationErrorFunction。
+添加无效值并单击**救球**.发生验证错误并执行 ValidationErrorFunction。
 
 **验证错误时调用的 ValidationErrorFunction** 
 
-![待办事项：图像_替代_文本](write-gridweb-client-side-script_2.png)
+![待办事项：图片_替代_文本](write-gridweb-client-side-script_2.png)
 
-在您输入有效值之前，不会向服务器提交任何数据。输入有效值并单击**节省**ConfirmFunction 被执行。
+在您输入有效值之前，不会向服务器提交任何数据。输入有效值并单击**救球**ConfirmFunction 被执行。
 
 **在将 GridWeb 数据提交到服务器之前调用 ConfirmFunction** 
 
-![待办事项：图像_替代_文本](write-gridweb-client-side-script_3.png)
+![待办事项：图片_替代_文本](write-gridweb-client-side-script_3.png)
 
 
 

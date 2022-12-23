@@ -8,7 +8,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells for Java kan arbeta självständigt för att konvertera ett kalkylblad till PDF: Aspose.PDF API:er krävs inte för konverteringen.
+Aspose.Cells stöder konvertering av XLS-filer som innehåller bilder och diagram till PDF-dokument. Aspose.Cells for Java kan arbeta oberoende för att konvertera ett kalkylblad till PDF: Aspose.PDF API:er krävs inte för konverteringen.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Processen kan göras i minnet eftersom processen inte är beroende av temporära
 
 {{% alert color="primary" %}}
 
- Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula())-metoden precis innan rendering till PDF. Genom att göra det säkerställs att formelberoende värden beräknas om och att de korrekta värdena återges i PDF-filen.
+ Om kalkylarket innehåller formler är det bäst att anropa[**Workbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()-metoden precis innan rendering till PDF. Om du gör det säkerställer du att formelberoende värden räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}
 

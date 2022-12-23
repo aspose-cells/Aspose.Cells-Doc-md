@@ -12,9 +12,9 @@ description: Aspose.Cells ile nasıl zaman çizelgesi oluşturacağınızı öğ
 
 ## **Pivot Tablo için Zaman Çizelgesi Oluşturma**
 
- Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](input.xlsx) pivot tabloyu içerir. Ardından, ilk temel pivot alanına dayalı olarak zaman çizelgesini oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıktı XLSX](output.xlsx) biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan zaman çizelgesini gösterir.
+ Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](input.xlsx) pivot tabloyu içerir. Ardından, ilk temel pivot alanına dayalı olarak zaman çizelgesini oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](output.xlsx) biçim. Aşağıdaki ekran görüntüsü, çıktı Excel dosyasında Aspose.Cells tarafından oluşturulan zaman çizelgesini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](create-timeline-to-a-pivot-table_1.png)
+![yapılacaklar:resim_alternatif_metin](create-timeline-to-a-pivot-table_1.png)
 
 ### **Basit kod**
 

@@ -44,7 +44,7 @@ Aspose.Cells
 
 
 - .NET C++ Derleme Hatası C2686
-- XLS dosyasını XLSX'e dönüştürme metin biçimlendirmesini at
+- XLS dosyası XLSX atılacak metin biçimlendirmesine dönüştürülüyor
 - Grafikleri bir çalışma kitabından diğerine kopyalama
 - Çalışma sayfası kopyalandıktan sonra bozuk hücre renklendirmesi
 - Sıralanmış hücrelerle hareket etmeyen köprüler
@@ -52,7 +52,7 @@ Aspose.Cells
 - Worksheet.Copy() geçersiz formüller için değerleri kopyalamaz
 - Hücrelere özel stil uygulama sorunu
 - ListBox seçim değişikliklerini tanımıyor
-- XLSM dosyası Office 2010 ile açılırken Grafik Başlığı kayboluyor
+- Office 2010 ile XLSM dosyasını açarken Grafik Başlığı kayboluyor
 
  -Bir Excel dosyasını bir resme dönüştürürken hatalar.
 
@@ -63,9 +63,9 @@ Aspose.Cells
 - PDF biçiminde kaydederken hesaplanan hücrelerle ilgili sorun
 - Cells Hesap yanlış
 
- -PDF'ye dışa aktarırken metin değerlerinin özel biçimlendirmesi
+ -PDF'e dışa aktarırken metin değerlerinin özel biçimlendirmesi
 
-- Excel'den PDF'e Dönüştürmeyle İlgili Sorun
+- Excel ile PDF'e Dönüştürme Sorunu
 - Pivot tablosu olan bir sayfa kaldırıldığında çalışma kitabı bozuluyor
 - Tasarımcı kullanılarak bozulan PivotTable için Veri Kaynağı Olarak Tablolar
 - Pivot Tabloya alan eklerken bozulma

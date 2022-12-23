@@ -1,5 +1,5 @@
 ﻿---
-title: تحويل CSV و TSV و TXT إلى Excel
+title: قم بتحويل CSV و TSV و TXT إلى Excel
 type: docs
 weight: 30
 url: /ar/net/convert-csv-tsv-and-txt-to-excel/
@@ -11,15 +11,15 @@ url: /ar/net/convert-csv-tsv-and-txt-to-excel/
 {{% /alert %}}
 
 
-## **فتح ملفات CSV**
+## **فتح CSV الملفات**
 
 تحتوي ملفات القيم المفصولة بفواصل (CSV) على سجلات حيث يتم فصل القيم بفاصلات. يتم تخزين البيانات كجدول حيث يتم فصل كل عمود عن طريق الفاصلة ويتم اقتباسها بحرف اقتباس مزدوج. إذا احتوت قيمة الحقل على علامة اقتباس مزدوجة ، يتم تخطيها بزوج من علامات الاقتباس المزدوجة. يمكنك أيضًا استخدام Microsoft Excel لتصدير بيانات جدول البيانات إلى CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFiles-1.cs" >}}
 
-## **فتح ملفات CSV واستبدال الأحرف غير الصالحة**
+## **فتح CSV الملفات واستبدال الحروف غير الصالحة**
 
-في Excel ، عند فتح ملف CSV بأحرف خاصة ، يتم استبدال الأحرف تلقائيًا. يتم القيام بنفس الشيء عن طريق Aspose.Cells API وهو موضح في مثال الكود الموضح أدناه.
+في Excel ، عند فتح ملف CSV بأحرف خاصة ، يتم استبدال الأحرف تلقائيًا. يتم القيام بنفس الشيء بواسطة Aspose.Cells API والذي هو موضح في مثال الكود الموضح أدناه.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-OpeningCSVFilesAndReplacingInvalidCharacters-1.cs" >}}
 
@@ -55,6 +55,6 @@ url: /ar/net/convert-csv-tsv-and-txt-to-excel/
 
 
 ## **موضوعات مسبقة**
-- [تحميل أو استيراد ملف CSV مع الصيغ](/cells/ar/net/load-or-import-csv-file-with-formulas/)
-- [قراءة ملف CSV بترميزات متعددة](/cells/ar/net/reading-csv-file-with-multiple-encodings/)
+- [قم بتحميل أو استيراد ملف CSV باستخدام الصيغ](/cells/ar/net/load-or-import-csv-file-with-formulas/)
+- [قراءة CSV ملف ذو ترميزات متعددة](/cells/ar/net/reading-csv-file-with-multiple-encodings/)
 

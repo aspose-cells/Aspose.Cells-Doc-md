@@ -30,7 +30,7 @@ url: /it/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 - Problema con l'aggiornamento delle tabelle pivot
+ 41891 - Problema con l'aggiornamento delle tabelle pivot
 
  41868 - Problema con la formula DSUM
 
@@ -50,7 +50,7 @@ url: /it/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

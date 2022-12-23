@@ -10,7 +10,7 @@ Es ist möglich, Formeln anstelle von berechneten Werten in Microsoft Excel mit 
 
 {{% /alert %}} 
 
-Aspose.Cells bietet eine[**Arbeitsblatt.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) Eigentum. Stellen Sie dies ein**Stimmt**um Microsoft Excel so einzustellen, dass Formeln angezeigt werden.
+Aspose.Cells bietet eine[**Arbeitsblatt.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) Eigentum. Stellen Sie dies ein**wahr**um Microsoft Excel so einzustellen, dass Formeln angezeigt werden.
 
 Das folgende Bild zeigt das Arbeitsblatt mit einer Formel in Zelle A3: =Sum(A1:A2).
 
@@ -18,7 +18,7 @@ Das folgende Bild zeigt das Arbeitsblatt mit einer Formel in Zelle A3: =Sum(A1:A
 
 ![todo: Bild_alt_Text](show-formulas-instead-of-values-in-a-worksheet_1.png)
 
- Das folgende Bild zeigt die Formel anstelle des berechneten Werts, aktiviert durch die Einstellung von[**Arbeitsblatt.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) Eigentum zu**Stimmt** mit Aspose.Cells.
+ Das folgende Bild zeigt die Formel anstelle des berechneten Werts, aktiviert durch die Einstellung von[**Arbeitsblatt.setShowFormulas()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#ShowFormulas) Eigentum zu**wahr** mit Aspose.Cells.
 
 **Das Arbeitsblatt zeigt jetzt die Formel anstelle des berechneten Werts**
 

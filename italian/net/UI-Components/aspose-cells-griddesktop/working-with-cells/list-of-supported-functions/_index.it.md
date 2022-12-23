@@ -32,13 +32,13 @@ Ci sono molte funzioni integrate supportate da Aspose.Cells Grid Controls. Quest
 - TROVA, FISSO
 - SINISTRA,LEN,INFERIORE
 - MEDIO
-- INCONTRO
+- PARTITA
 - SOSTITUIRE, RESTARE, DESTRA
 - CERCA, SOSTITUISCE
 - T,TESTO,RITAGLIO
 - SUPERIORE
 - VALORE
-- CONSULTARE
+- CERCARE
 - CERCA.VERT
 - WIDECHAR
 ### **Funzioni di data e ora**
@@ -102,7 +102,7 @@ Ci sono molte funzioni integrate supportate da Aspose.Cells Grid Controls. Quest
 - MODALITÀ
 - PERCENTILE
 - PERCENTUALE
-- RANGO
+- CLASSIFICA
 - SCEGLIERE
 - CERCA ORI
 - PICCOLO (Supportato solo in Aspose.Cells.GridWeb)

@@ -14,10 +14,10 @@ Aşağıdaki örnek kod bir çalışma kitabı oluşturur, ilk çalışma sayfas
 
  Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Kurye Yeni*.
 
-![yapılacaklar:resim_alternatif_Metin](set-default-font-while-rendering-spreadsheet-to-images_1.png)
+![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_1.png)
 
  Bu, ayarlandıktan sonraki çıktı görüntüsüdür.[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#DefaultFont) mülkiyet*Times New Roman*.
 
-![yapılacaklar:resim_alternatif_Metin](set-default-font-while-rendering-spreadsheet-to-images_2.png)
+![yapılacaklar:resim_alternatif_metin](set-default-font-while-rendering-spreadsheet-to-images_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-files-utility-SetDefaultFontWhileRenderingSpreadsheetToImages-.java" >}}

@@ -32,5 +32,5 @@ Biz
 - Metin Kutusundaki içerikler doğru şekilde oluşturulmamış
 - ROUND işlevi, 922337.20'den büyük bir değeri yuvarlayamaz
 - Grafik, ODStemplate dosyasından doğru okunmadı
-- Özel Sayı biçimi: "dd.MM.yyyy", ODS dosyası için doğru şekilde kaydedilmedi
+- Özel Sayı biçimi: "dd.MM.yyyy", ODS dosyası için doğru kaydedilmedi
 - LineShape, oluşturulan PDF belgesinde kısalır

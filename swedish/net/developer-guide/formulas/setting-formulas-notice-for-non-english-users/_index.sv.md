@@ -9,7 +9,7 @@ url: /sv/net/setting-formulas-notice-for-non-english-users/
  Aspose.Cells stöder de flesta formlerna/funktionerna som ingår i Microsoft Excel. Utvecklare kan använda dessa formler med antingen API eller[designerkalkylblad](/cells/sv/net/what-is-a-designer-spreadsheet/)Aspose.Cells stöder en stor uppsättning matematiska formler, strängar, booleska formler, datum/tid, statistik, databas, uppslagsformler och referensformler. Formlerna ska specificeras med engelsk (US) stil.
 
 {{% /alert %}} 
-## **Meddelande för icke-engelska användare**
+## **Meddelande för icke engelska användare**
 Det finns två tips som icke-engelska användare måste följa när de skapar formler med Aspose.Cells:
 
 1. Formler måste anges på engelska. Använd till exempel det engelska "=SUM()" inte det tyska "=SUMME()".

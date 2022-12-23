@@ -27,12 +27,12 @@ Aspose.Cells for .NET 产品涵盖了大部分流行的开发环境和部署平�
 |**特征**|**描述**|**.NET**|**.NET 标准 2.0** |
 |:- |:- |:- |:- |
 |高质量的转化|在几种流行的文档格式之间快速可靠地转换。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel 工作簿 (XLS)|您可以找到的最快、最完整的 XLS 格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|电子表格 ML（XLSX、XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。此外，该组件支持<br>所有主要的 Excel 2007、2010 和 2013 文件格式，例如 XLSX、XLTX、XLSM、XLTM 等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|逗号分隔值 (CSV)|全面支持CSV格式，与多种应用交互。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|硅通孔|以 TSV 文件格式加载和保存文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel 工作簿 (XLS)|您可以找到最快、最完整的 XLS 格式实现。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML（XLSX，XML）| Aspose.Cells 支持 OOXML、Flat OPC 以及 Excel 2003 XML。此外，该组件支持<br>所有主要的 Excel 2007、2010 和 2013 文件格式，例如 XLSX、XLTX、XLSM、XLTM 等。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|逗号分隔值 (CSV)|全面支持CSV格式与多种应用交互。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|以 TSV 文件格式加载和保存文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|另存为 HTML 可用。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument-ODS](/cells/zh/net/opendocument-ods/)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[打开文档 - ODS](/cells/zh/net/opendocument-ods/)|Aspose.Cells 可以加载和保存 OpenDocument 电子表格 (.ods) 格式的文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |转换为 PDF 文件|将任何电子表格高保真地转换为 PDF。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |制表符分隔|以制表符分隔的文件格式加载和保存文档。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |纯文本 (TXT)|通过以纯文本格式保存轻松提取文本。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

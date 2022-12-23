@@ -18,15 +18,15 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         <ul>
             <li><a href="/cells/fr/net/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Création d'un nouveau classeur</a></li>
         </ul>
-        <p>Ouvert</p>
+        <p>Ouvrir</p>
         <ul>
             <li><a href="/cells/fr/net/different-ways-to-open-files/">Différentes façons d'ouvrir des fichiers</a></li>
             <li><a href="/cells/fr/net/opening-different-microsoft-excel-versions-files/">Ouverture de différents fichiers de versions Excel Microsoft</a></li>
             <li><a href="/cells/fr/net/opening-files-with-different-formats/">Ouverture de fichiers avec différents formats</a></li>
             <li><a href="/cells/fr/net/get-warnings-while-loading-excel-file/">Obtenir des avertissements lors du chargement du fichier Excel</a></li>
-            <li><a href="/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lire la feuille de calcul des nombres Développé par Apple Inc. en utilisant Aspose.Cells</a></li>
+            <li><a href="/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lire la feuille de calcul Numbers développée par Apple Inc. en utilisant Aspose.Cells</a></li>
         </ul>
-        <p>sauvegarder</p>
+        <p>Sauver</p>
         <ul>
             <li><a href="/cells/fr/net/different-ways-to-save-files/">Différentes façons d'enregistrer des fichiers</a></li>
             <li><a href="/cells/fr/net/encrypting-excel-files/">Chiffrement des fichiers Excel</a></li>
@@ -41,8 +41,8 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         <p>Rendu et conversion</p>
         <ul>
             <li><a href="/cells/fr/net/convert-workbook-to-different-formats/">Convertir le classeur en différents formats</a></li>
-            <li><a href="/cells/fr/net/convert-excel-workbook-to-pdf/">Convertir un classeur Excel en PDF</a></li>
-            <li><a href="/cells/fr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convertir un fichier Excel au format PDF compatible avec PDFA-1a</a></li>
+            <li><a href="/cells/fr/net/convert-excel-workbook-to-pdf/">Convertir le classeur Excel en PDF</a></li>
+            <li><a href="/cells/fr/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convertir le fichier Excel au format PDF compatible avec PDFA-1a</a></li>
             <li><a href="/cells/fr/net/convert-excel-to-image/">Convertir le classeur en différents formats d'image</a></li>
             <li><a href="/cells/fr/net/track-document-conversion-progress/">Suivre la progression de la conversion des documents</a></li>
             <li><a href="/cells/fr/net/convert-excel-to-html/">Convertir Excel en HTML</a></li>
@@ -63,12 +63,12 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         <ul>
 		 <li><a href="/cells/fr/net/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de calcul</a></li>
 		 <li><a href="/cells/fr/net/add-and-retrieve-data/">Ajouter et récupérer des données</a></li>
-		 <li><a href="/cells/fr/net/manage-worksheets/">Des feuilles de calcul</a></li>
+		 <li><a href="/cells/fr/net/manage-worksheets/">Feuilles de travail</a></li>
 		 <li><a href="/cells/fr/net/rows-and-columns/">Lignes et colonnes</a></li>
         </ul>
         <p><a href="/cells/fr/net/cells-formatting/">Style</a></p>
         <ul>
-		 <li><a href="/cells/fr/net/cells-number-settings/">Numéro</a></li>
+		 <li><a href="/cells/fr/net/cells-number-settings/">Nombre</a></li>
 		 <li><a href="/cells/fr/net/cells-alignment-settings/">Alignement</a></li>
 		 <li><a href="/cells/fr/net/cells-font-settings/">Police de caractère</a></li>
 		 <li><a href="/cells/fr/net/cells-border-settings/">Frontière</a></li>
@@ -119,13 +119,13 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/fr/net/managing-pictures/">Image</a></p>
+        <p><a href="/cells/fr/net/managing-pictures/">Photo</a></p>
         <ul>
             <li><a href="/cells/fr/net/insert-a-linked-picture-from-web-address/">Insérer une image liée à partir d'une adresse Web</a></li>
             <li><a href="/cells/fr/net/insert-a-picture-based-on-cell-reference/">Insérer une image basée sur la référence Cell</a></li>
             <li><a href="/cells/fr/net/managing-pictures/#adding-pictures">Insérer une image dans Aspose.Cells</a></li>
         </ul>
-        <p><a href="/cells/fr/net/insert-shapes/">Forme</a></p>    
+        <p><a href="/cells/fr/net/insert-shapes/">Façonner</a></p>    
         <ul>
             <li><a href="/cells/fr/net/insert-shapes/#inserting-a-line-to-worksheet">Insertion d'une ligne dans la feuille de calcul</a></li>
             <li><a href="/cells/fr/net/insert-shapes/#inserting-a-line-arrow-to-worksheet">Insertion d'une flèche de ligne dans la feuille de calcul</a></li>
@@ -295,7 +295,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Présenter</p>
+        <p>Contour</p>
         <ul>
 		<li><a href="/cells/fr/net/creating-subtotals/">Création de sous-totaux</a></li>
         </ul>
@@ -314,7 +314,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
             <li><a href="/cells/fr/net/change-text-direction-of-the-comment/">Changer la direction du texte du commentaire</a></li>
             <li><a href="/cells/fr/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Définir le commentaire de la table ou de l'objet de liste dans la feuille de calcul</a></li>
             <li><a href="/cells/fr/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Définir les marges de commentaire ou de forme à l'intérieur de la feuille de calcul</a></li>
-            <li><a href="/cells/fr/net/disable-downlevel-revealed-comments-while-saving-to/">Désactiver les commentaires révélés de niveau inférieur lors de l'enregistrement au format HTML</a></li>
+            <li><a href="/cells/fr/net/disable-downlevel-revealed-comments-while-saving-to/">Désactiver les commentaires de niveau inférieur révélés lors de l'enregistrement au HTML</a></li>
             <li><a href="/cells/fr/net/threaded-comments/">Commentaires filetés</a></li>
         </ul>
     </div>
@@ -345,7 +345,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         <ul>
          <li><a href="/cells/fr/net/worksheet-views/#page-break-preview">Aperçu des sauts de page</a></li>
         </ul>
-        <p>Spectacle</p>
+        <p>Montrer</p>
          <ul>
 		<li><a href="/cells/fr/net/show-and-hide-gridlines-and-row-column-headers/">Afficher le quadrillage et l'en-tête</a></li>
         </ul>
@@ -355,7 +355,7 @@ Ce guide du développeur fournit des informations sur l'utilisation de Aspose.Ce
         <ul>
          <li><a href="/cells/fr/net/worksheet-views/#zoom-factor">Zoom</a></li>
         </ul>
-        <p>Fenêtre</p>
+        <p>La fenêtre</p>
         <ul>
         <li><a href="/cells/fr/net/working-with-freeze-panes/">Figer les volets</a></li>
         <li><a href="/cells/fr/net/split-cells-in-worksheet/">Fractionner Cells dans la feuille de calcul</a></li>

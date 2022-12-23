@@ -28,7 +28,7 @@ url: /es/net/aspose-cells-for-net-7-4-2-release-notes/
 
  41440 - Problema de línea punteada - Hoja a imagen
 
- 41470 - Con respecto a la conversión de un libro de trabajo a un archivo PDF
+ 41470 - Con respecto a convertir Workbook-to-PDF archivo
 
  41442 - Función ToTiff: problemas de alineación de números
 
@@ -44,7 +44,7 @@ url: /es/net/aspose-cells-for-net-7-4-2-release-notes/
 
  Nuevas características
 
- 41459 - Uso de GridWeb en JavaScript
+41459 - Uso de GridWeb en JavaScript
 
  Insectos
 

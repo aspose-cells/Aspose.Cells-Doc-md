@@ -12,6 +12,6 @@ url: /ru/net/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **Проверьте, подписан ли проект VBA в рабочей книге C#**
 
- Следующий код загружает книгу и проверяет, подписан ли ее проект VBA с помощью[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)имущество. Имущество вернется**истинный** если проект подписан иначе он вернется**ЛОЖЬ**.
+ Следующий код загружает книгу и проверяет, подписан ли ее проект VBA с помощью[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) имущество. Имущество вернется**истинный** если проект подписан иначе он вернется**ЛОЖЬ**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}

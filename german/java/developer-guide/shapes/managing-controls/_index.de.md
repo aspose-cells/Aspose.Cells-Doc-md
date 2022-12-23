@@ -10,7 +10,7 @@ Entwickler können verschiedene Zeichnungsobjekte wie Textfelder, Kontrollkästc
 
 ## **TextBox-Steuerelement zum Arbeitsblatt hinzufügen**
 
-Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, ist die Verwendung eines Textfelds. Fügen Sie beispielsweise Text hinzu, um den Firmennamen hervorzuheben oder die geografische Region mit den höchsten Umsätzen usw. anzugeben. Aspose.Cells stellt die TextBoxes-Klasse bereit, die zum Hinzufügen eines neuen Textfelds zur Sammlung verwendet wird. Es gibt eine andere Klasse,[**Textfeld**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox), das ein Textfeld darstellt, das zum Definieren aller Arten von Einstellungen verwendet wird. Es hat einige wichtige Mitglieder:
+ Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, ist die Verwendung eines Textfelds. Fügen Sie beispielsweise Text hinzu, um den Firmennamen hervorzuheben oder die geografische Region mit den höchsten Umsätzen usw. anzugeben. Aspose.Cells stellt die TextBoxes-Klasse bereit, die zum Hinzufügen eines neuen Textfelds zur Sammlung verwendet wird. Es gibt eine andere Klasse,[**Textfeld**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox)das ein Textfeld darstellt, das zum Definieren aller Arten von Einstellungen verwendet wird. Es hat einige wichtige Mitglieder:
 
 -  Das[**getTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#TextFrame) Methode gibt a zurück[**MsoTextFrame**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoTextFrame) Objekt zum Anpassen des Inhalts des Textfelds.
 -  Das[**setPlacement**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Placement) Methode gibt den Platzierungstyp an.
@@ -18,7 +18,7 @@ Eine Möglichkeit, wichtige Informationen in einem Bericht hervorzuheben, ist di
 -  Das[**Hyperlink hinzufügen**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#addHyperlink(java.lang.String))-Methode fügt einen Hyperlink für das Textfeld hinzu.
 -  Das[**Füllformat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#FillFormat) Eigenschaft Renditen[**MsoFillFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoFillFormat) Objekt, mit dem das Füllformat für das Textfeld festgelegt wird.
 -  Das[**Zeilenformat**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#LineFormat) Eigenschaft gibt die zurück[**MsoLineFormat**](https://reference.aspose.com/cells/java/com.aspose.cells/MsoLineFormat) Objekt, das normalerweise zum Stil und Gewicht der Textfeldlinie verwendet wird.
--  Das[**Text setzen**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text)-Methode gibt den Eingabetext für das Textfeld an.
+-  Das[**Text setzen**](https://reference.aspose.com/cells/java/com.aspose.cells/textbox#Text) -Methode gibt den Eingabetext für das Textfeld an.
 
 Im folgenden Beispiel werden zwei Textfelder im ersten Arbeitsblatt der Arbeitsmappe erstellt. Das erste Textfeld ist mit verschiedenen Formateinstellungen gut ausgestattet. Die zweite ist eine einfache.
 
@@ -50,7 +50,7 @@ Gehen Sie folgendermaßen vor, um ein Kontrollkästchen-Steuerelement in Ihr Arb
 1.  Drücke den**Kontrollkästchen aktivieren** Werkzeug auf der Symbolleiste Formulare.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Kontrollkästchen und die Beschriftung neben dem Kontrollkästchen enthält.
 1. Sobald das Kontrollkästchen platziert ist, bewegen Sie den Mauszeiger in den Beschriftungsbereich und ändern Sie die Beschriftung.
-1.  In dem**Cell Verbindung**geben Sie die Adresse der Zelle an, mit der dieses Kontrollkästchen verknüpft werden soll.
+1.  Im**Cell Verbindung**geben Sie die Adresse der Zelle an, mit der dieses Kontrollkästchen verknüpft werden soll.
 1.  Klicke auf**OK**.
 
 ### **Mit Aspose.Cells**
@@ -81,7 +81,7 @@ Führen Sie die folgenden Schritte aus, um ein Optionsfeld-Steuerelement in Ihre
 1.  Drücke den**Optionsschaltfläche** Werkzeug.
 1. Klicken und ziehen Sie im Arbeitsblatt, um das Rechteck zu definieren, das die Optionsschaltfläche und die Beschriftung neben der Optionsschaltfläche enthält.
 1. Sobald das Optionsfeld im Arbeitsblatt platziert ist, bewegen Sie den Mauszeiger in den Beschriftungsbereich und ändern Sie die Beschriftung.
-1.  In dem**Cell Verbindung** Geben Sie im Feld die Adresse der Zelle an, mit der dieses Optionsfeld verknüpft werden soll.
+1.  Im**Cell Verbindung** Geben Sie im Feld die Adresse der Zelle an, mit der dieses Optionsfeld verknüpft werden soll.
 1.  Klicken**OK**.
 
 ### **Mit Aspose.Cells**
@@ -111,10 +111,10 @@ Um die Dateneingabe zu vereinfachen oder Einträge auf bestimmte von Ihnen defin
 Führen Sie die folgenden Schritte aus, um ein Kombinationsfeld-Steuerelement in Ihrem Arbeitsblatt zu platzieren:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Kombinationsfeld** Werkzeug.
+1.  Klicke auf das**Kombinationsfeld** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Kombinationsfeld enthält.
 1.  Sobald das Kombinationsfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement, um es anzuklicken**Formatsteuerung** und geben Sie den Eingangsbereich an.
-1.  In dem**Cell Verbindung** geben Sie die Adresse der Zelle an, mit der dieses Kombinationsfeld verknüpft werden soll.
+1.  Im**Cell Verbindung** geben Sie die Adresse der Zelle an, mit der dieses Kombinationsfeld verknüpft werden soll.
 1.  Klicke auf**OK**.
 
 ### **Mit Aspose.Cells**
@@ -158,10 +158,10 @@ Ein Listenfeld-Steuerelement erstellt ein Listensteuerelement, das die Auswahl e
 So platzieren Sie ein Listenfeld-Steuerelement in einem Arbeitsblatt:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Listenfeld** Werkzeug.
+1.  Klicke auf das**Listenfeld** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das das Listenfeld enthält.
 1.  Sobald das Listenfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement, um es anzuklicken**Formatsteuerung** und geben Sie den Eingangsbereich an.
-1.  In dem**Cell Verbindung**Geben Sie die Adresse der Zelle an, mit der dieses Listenfeld verknüpft werden soll, und legen Sie das Attribut Auswahltyp (Einzeln, Mehrfach, Erweitern) fest
+1.  Im**Cell Verbindung**Geben Sie die Adresse der Zelle an, mit der dieses Listenfeld verknüpft werden soll, und legen Sie das Attribut Auswahltyp (Einzeln, Mehrfach, Erweitern) fest
 1.  Klicken**OK**.
 
 ### **Mit Aspose.Cells**
@@ -190,7 +190,7 @@ Schaltflächen sind nützlich, um einige Aktionen auszuführen. Manchmal ist es 
 So platzieren Sie ein Schaltflächen-Steuerelement in Ihrem Arbeitsblatt:
 
 1.  Stellen Sie sicher, dass**Formen** Symbolleiste wird angezeigt.
-1.  Klick auf das**Taste** Werkzeug.
+1.  Klicke auf das**Knopf** Werkzeug.
 1. Klicken und ziehen Sie in Ihrem Arbeitsblattbereich, um das Rechteck zu definieren, das die Schaltfläche halten wird.
 1.  Sobald das Listenfeld im Arbeitsblatt platziert ist, klicken Sie mit der rechten Maustaste auf das Steuerelement und wählen Sie es aus**Formatsteuerung**, geben Sie dann ein VBA-Makro und Attribute für Schriftart, Ausrichtung, Größe, Rand usw. an.
 1.  Klicke auf**OK**.

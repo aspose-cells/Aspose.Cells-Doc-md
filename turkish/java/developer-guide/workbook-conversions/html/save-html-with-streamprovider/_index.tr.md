@@ -10,7 +10,7 @@ Resim ve şekiller içeren excel alanlarını html dosyalarına dönüştürürk
 1. Excel dosyasını html akışına kaydederken resimleri ve şekilleri nereye kaydetmeliyiz.
 1. Varsayılan yolu, özel yol ile değiştirin.
 
- Bu makalede, nasıl uygulanacağı açıklanmaktadır[**IStream Sağlayıcı**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) ayarlamak için arayüz[**HtmlSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#StreamProvider) Emlak. Bu arayüzü uygulayarak, HTML oluşturma sırasında oluşturulan kaynakları belirli konumlarınıza veya bellek akışlarınıza kaydedebileceksiniz.
+ Bu makalede, nasıl uygulanacağı açıklanmaktadır[**IStream Sağlayıcı**](https://reference.aspose.com/cells/java/com.aspose.cells/IStreamProvider) ayarlamak için arayüz[**HtmlSaveOptions.StreamProvider**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#StreamProvider) Emlak. Bu arabirimi uygulayarak, HTML üretimi sırasında oluşturulan kaynakları belirli konumlarınıza veya bellek akışlarınıza kaydedebileceksiniz.
 
 {{% /alert %}}
 

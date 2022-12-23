@@ -17,26 +17,26 @@ url: /ja/java/aspose-cells-for-java-18-3-release-notes/
 |CELLSJAVA-42535|ストリームを使用して GridWebBean.importExcelFile() 経由で Excel ファイルをインポートすることは無効であるか、存在しません|強化|
 |CELLSJAVA-42529|DrawObjectEventHandler を介してワークシートの形状を識別する方法|強化|
 |CELLSJAVA-42558|水平項目軸のラベル アイテムにアクセスできません|強化|
-|CELLSJAVA-42552|出力 HTML が MS Excel と一致しない|バグ|
+|CELLSJAVA-42552|出力 HTML が MS Excel と一致しません|バグ|
 |CELLSJAVA-42536|Aspose.Cells API で開いたり保存した後に Excel ファイルが破損する|バグ|
-|CELLSJAVA-42513|範囲の出力 HTML の各行の最後に余分な列が来る|バグ|
+|CELLSJAVA-42513|範囲の出力HTMLの各行の最後に余分な列が来ています|バグ|
 |CELLSJAVA-42542|Excel ファイルが破損しており、保存後に一部のセルが変更されている|バグ|
 |CELLSJAVA-42524|非表示のシート「KD020」に計算エラーがあります|バグ|
 |CELLSJAVA-42514|ResultSet をワークシートにインポートしているときに ImportTableOptions.setInsertRows() が機能しない|バグ|
 |CELLSJAVA-42505|Excel ファイルを GridWeb にインポートすると、セル (テンプレート ファイル内) に添付されたコメントが表示されない|バグ|
 |CELLSJAVA-42520|ImageOrPrintOptions.DrawObjectEventHandler によって報告された矛盾したセル座標|バグ|
-|CELLSJAVA-42518|出力 PDF で行の境界がずれている|バグ|
-|CELLSJAVA-42561|Excel Chart の PNG 出力で X 軸の目盛りが正しくない|バグ|
+|CELLSJAVA-42518|行の境界線が出力でずれている PDF|バグ|
+|CELLSJAVA-42561|Excel チャートの PNG 出力で X 軸の目盛りが正しくない|バグ|
 |CELLSJAVA-42556|出力 PDF でチャートのレンダリングが正しくない|バグ|
-|CELLSJAVA-42547|XLSX を ODS に変換すると、チャートが赤い X に置き換えられる|バグ|
+|CELLSJAVA-42547|XLSX を ODS に変換すると、チャートが赤い X に置き換えられます|バグ|
 |CELLSJAVA-42546|ODS を XLSX に変換すると画像が失われる|バグ|
 |CELLSJAVA-42538|プロパティが XLS および XLSX ファイルから抽出されない|バグ|
-|CELLSJAVA-42534|XLS を XLSB に保存すると allowEditRanges が削除される|バグ|
+|CELLSJAVA-42534|XLS を XLSB に保存すると、allowEditRanges が削除されます|バグ|
 |CELLSJAVA-42532|WorkbookSetting.StreamProvider を使用して外部リソースを制御します - 動作します for .NET が動作しません for Java|バグ|
 |CELLSJAVA-42525|データをワークシートにインポートする際に数式フィールドを指定する - 機能する for .NET が機能しない for Java|バグ|
 |CELLSJAVA-42521|埋め込まれたファイル名 (タイトル) の漢字がメモ帳でうまく表示されない|バグ|
 |CELLSJAVA-42533|SmartArt 図形テキストの抽出時に例外 "NullPointerException" が発生しました|例外|
-|CELLSJAVA-42545|ODS ファイルのロード時の例外「コンテンツが単純または空の場合にのみ ReadElementString を呼び出すことができました」|例外|
+|CELLSJAVA-42545|ODS ファイルのロード時の例外「ReadElementString は、コンテンツが単純または空の場合にのみ呼び出すことができました」|例外|
 |CELLSJAVA-42526|セル B4 のエラー - 無効な数式 - 数式の設定で例外が発生しました|例外|
 |CELLSJAVA-42522|Aspose.Cells 経由でファイルを開くと ArrayIndexOutOfBoundsException が発生する|例外|
 |CELLSJAVA-42517|ODS ファイルのロード時の例外「com.aspose.cells.CellsException: Invalid formula:」|例外|

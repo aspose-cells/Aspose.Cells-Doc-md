@@ -111,7 +111,7 @@ objBook.SaveCopyAs("e:\\test2\\vsto_autofilter.xlsx");
 
 **VSTO ile uygulanan otomatik filtre** 
 
-![yapılacaklar:resim_alternatif_Metin](auto-filter-data_1.png)
+![yapılacaklar:resim_alternatif_metin](auto-filter-data_1.png)
 
 ### **Aspose.Cells for .NET ile Verileri Otomatik Filtreleme**
 
@@ -171,4 +171,4 @@ objBook.Save("e:\\test2\\aspose-cells_autofilter.xlsx");
 
 **Aspose.Cells for .NET ile uygulanan otomatik filtre** 
 
-![yapılacaklar:resim_alternatif_Metin](auto-filter-data_2.png)
+![yapılacaklar:resim_alternatif_metin](auto-filter-data_2.png)

@@ -10,7 +10,7 @@ url: /es/java/aspose-cells-for-java-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for Java se actualizó a la versión 7.7.1 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
+Aspose.Cells for Java se actualizó a la versión 7.7.1 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
 Usando Aspose.Cells for Java puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for Java.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
@@ -43,17 +43,17 @@ Otras mejoras y cambios
 Insectos
 
 (CELLSJAVA-40700) - El valor negativo se convierte en positivo después del cálculo
-(CELLSJAVA-40668): el contenido del encabezado se distorsiona en el archivo PDF de salida.
+(CELLSJAVA-40668): el contenido del encabezado se distorsiona en el archivo de salida PDF
 (CELLSJAVA-40695) - XLSX a PDF: el resultado no tiene márgenes izquierdo y derecho
 (CELLSJAVA-40698): problema con la tabla dinámica (cambiar el filtro a otro valor o etiqueta)
 (CELLSJAVA-40671) - Cell.getDisplayStyle() no devuelve el color correcto para el formato condicional Top 10
 (CELLSJAVA-40655): la alineación del texto en forma cambia de centro a izquierda
-(CELLSJAVA-40572): se creó un marcador para la hoja en blanco aunque la hoja en sí no estaba presente en el PDF de salida.
-(CELLSJAVA-40548): falta el encabezado de la carta después de guardar xlsx en un archivo PDF
+(CELLSJAVA-40572): se creó un marcador para la hoja en blanco aunque la hoja en sí no estaba presente en la salida PDF
+(CELLSJAVA-40548): falta el encabezado de la carta después de que xlsx se guardó en el archivo PDF
 (CELLSJAVA-40564) - Pérdida de datos cuando el archivo de Excel se convierte a pdf
 (CELLSJAVA-40702): la tabla dinámica no se actualiza correctamente
 (CELLSJAVA-40704): el valor cambia después del cálculo en el archivo xlsb
-(CELLSJAVA-40701): pérdida de datos y alineación incorrecta de etiquetas cuando Excel se convierte a PDF
+(CELLSJAVA-40701): pérdida de datos y alineación de etiquetas incorrecta cuando Excel se convierte a PDF
 (CELLSJAVA-40518): la imagen en las filas de encabezado solo aparece en la primera página en PDF
 (CELLSJAVA-40239) - Procesamiento de fórmula incorrecto
 (CELLSJAVA-40703) - La forma no era transparente en el pdf de salida

@@ -52,7 +52,7 @@ Una vez descargado, siga estos pasos para instalar este paquete en su sitio web 
 1.  Iniciar sesión en el Umbraco**Desarrollador** sección, por ejemplo `http://www.myblog.com/umbraco/`
 1.  Desde el árbol, expanda el**Paquetes** carpeta.
 1.  Desde aquí hay dos formas de instalar un paquete: seleccione**Instalar paquete local** o navegar por el**Repositorio de paquetes de Umbraco.**
-1. si instalas**paquete local**, no descomprima el paquete, cargue el archivo comprimido en Umbraco.
+1. si instalas**paquete local**, no descomprima el paquete, cargue el archivo zip en Umbraco.
 1. Siga las instrucciones en pantalla.
 
 **Nota:** Es posible que obtenga un error de "Longitud máxima de solicitud excedida" durante la instalación. Puede solucionar este problema fácilmente actualizando el valor 'maxRequestLength' en su archivo Umbraco web.config.
@@ -79,7 +79,7 @@ Una vez que haya instalado la macro, es realmente simple comenzar a usarla en su
 
 ## **Apoyar, Extender y Contribuir**
 
-### **Apoyo**
+### **Soporte**
 
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
@@ -108,5 +108,5 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abierto**por ejemplo, Aspose.UmbracoMemberExportToExcel.sln**

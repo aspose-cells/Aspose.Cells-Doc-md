@@ -15,11 +15,11 @@ url: /it/java/aspose-cells-java-1-6-0-0-new-release-release-notes/
  Abbiamo rilasciato Aspose.Cells for Java V1.6.0! Sono inclusi i seguenti miglioramenti e correzioni:
 
 - Supporta Smart Marker Designer
- Supporta l'inserimento di immagini in formato EMF/WMF
+ Supporta l'inserimento dell'immagine in formato EMF/WMF
  Supporta l'impostazione di linee morbide nel grafico
- Aggiunge il metodo Area.setVisible() per nascondere/scoprire l'area
+Aggiunge il metodo Area.setVisible() per nascondere/scoprire l'area
  Aggiorna le demo
-Corregge il bug del metodo Cells.clearContent()
+ Corregge il bug del metodo Cells.clearContent()
  Altri miglioramenti e correzioni dalla v1.5
 
  Per alcuni motivi esterni, alcuni nomi di classi sono stati rinominati in bean:

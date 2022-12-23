@@ -27,25 +27,25 @@ Aspose.Cells for .NET 製品は、一般的な開発環境と展開プラット�
 |**特徴**|**説明**|**.NET**|**.NET 標準 2.0** |
 |:- |:- |:- |:- |
 |高品質の変換|いくつかの一般的なドキュメント形式間で迅速かつ確実に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft エクセルブック（XLS）|最速かつ最も完全な XLS 形式の実装です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、コンポーネントはサポートします<br>XLSX、XLTX、XLSM、XLTM など、Excel 2007、2010、2013 のすべての主要なファイル形式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft エクセルブック (XLS)|あなたが見つけることができる最速かつ最も完全な XLS フォーマットの実装。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX、XML)| Aspose.Cells は、OOXML、Flat OPC、および Excel 2003 XML をサポートしています。さらに、コンポーネントはサポートします<br>XLSX、XLTX、XLSM、XLTM など、すべての主要な Excel 2007、2010、2013 ファイル形式。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |カンマ区切り値 (CSV)|さまざまなアプリケーションと対話するための CSV 形式の包括的なサポート。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TSV|ドキュメントをTSVファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|HTML|HTMLとして保存が可能です。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument - ODS](/cells/ja/net/opendocument-ods/)|Aspose.Cells は、ドキュメントを OpenDocument スプレッドシート (.ods) 形式で読み込んで保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|PDFファイルへの変換|スプレッドシートを高忠実度で PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|ドキュメントを TSV ファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|HTML|HTMLとして保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[オープンドキュメント - ODS](/cells/ja/net/opendocument-ods/)|Aspose.Cells は、ドキュメントを OpenDocument スプレッドシート (.ods) 形式で読み込んで保存できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|PDF ファイルへの変換|スプレッドシートを忠実度の高い PDF に変換します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |タブ区切り|ドキュメントをタブ区切りファイル形式で読み込んで保存します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|プレーンテキスト (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|平文 (TXT)|プレーンテキスト形式で保存することにより、テキストを簡単に抽出できます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[XPS ドキュメント](/cells/ja/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Excel スプレッドシートを XPS ドキュメントに変換する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[ワークシートを画像に、ワークシートをページごとに画像に変換する](/cells/ja/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|スプレッドシートは、任意の圧縮タイプで Tagged Image File Format (TIFF) にエクスポートすることもできます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[ワークシートを画像に、ワークシートをページごとに画像に変換する](/cells/ja/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|スプレッドシートは、任意の圧縮タイプでタグ付き画像ファイル形式 (TIFF) にエクスポートすることもできます。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **レンダリングと印刷**
 Aspose.Cells for .NET は、スプレッドシート ページの忠実度の高いレンダリングを提供するようになりました。
 
 |**特徴**|**.NET**|**.NET 標準 2.0** |
 |:- |:- |:- |
 |ドキュメントを Microsoft Excel® に忠実にページにレイアウトします (Microsoft Excel® とまったく同じように)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ワークシート ページをラスター イメージ (TIFF、マルチページ TIFF、PNG、JPEG、BMP) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|スプレッドシート ページをベクトル イメージ (EMF) にレンダリングします。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ワークシート ページをラスター イメージにレンダリングします (TIFF、マルチページ TIFF、PNG、JPEG、BMP)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|スプレッドシート ページをベクター イメージにレンダリングします (EMF)。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |イメージの解像度、品質、圧縮、およびその他のオプションを指定します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |.NET 印刷インフラストラクチャを使用してスプレッドシートを印刷します。このコンポーネントには、Microsoft Excel の印刷プレビューに示されているように、ワークシートを印刷する組み込みの print メソッドがあります。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |レンダリングまたは印刷する前に、ページ番号およびその他のフィールドを更新します。|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -81,7 +81,7 @@ Aspose.Cells for .NET は、100 を超えるパブリック クラスで構成�
 |リスト オブジェクトの作成/Microsoft Excel テーブル|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |小計の作成|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |フォーム コントロールおよびその他の描画図形/オブジェクトを挿入する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|ピボット テーブルとピボット チャートを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|ピボット テーブルとピボット グラフを作成する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |アドイン、VBA、マクロを保持または削除する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |名前付き範囲を操作する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |転置オプションを実装する|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

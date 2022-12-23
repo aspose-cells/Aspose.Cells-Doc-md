@@ -21,9 +21,9 @@ url: /tr/java/developer-guide/
         <ul>
             <li><a href="/cells/tr/java/opening-files-with-different-formats/">Farklı Biçimlerdeki Dosyaları Açma</a></li>
             <li><a href="/cells/tr/java/get-warnings-while-loading-excel-file/">Excel Dosyasını Yüklerken Uyarılar Alın</a></li>
-            <li><a href="/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Elektronik Tablosunu Okuyun</a></li>
+            <li><a href="/cells/tr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Apple Inc. tarafından Aspose.Cells kullanılarak geliştirilen Numbers Hesap Tablosunu Okuyun</a></li>
         </ul>
-        <p>Kaydetmek</p>
+        <p>Kayıt etmek</p>
         <ul>
             <li><a href="/cells/tr/java/different-ways-to-save-files/">Dosyaları Kaydetmenin Farklı Yolları</a></li>
             <li><a href="/cells/tr/java/encrypting-excel-files/">Excel Dosyalarını Şifreleme</a></li>
@@ -39,13 +39,13 @@ url: /tr/java/developer-guide/
         <p>İhracat</p>
         <ul>
             <li><a href="/cells/tr/java/converting-workbook-to-different-formats/">Çalışma Kitabını Farklı Biçimlere Dönüştür</a></li>
-            <li><a href="/cells/tr/java/convert-excel-workbook-to-pdf/">Excel Çalışma Kitabını PDF'ye Dönüştür</a></li>
-            <li><a href="/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel dosyasını PDFA-1a ile uyumlu PDF formatına dönüştürün</a></li>
+            <li><a href="/cells/tr/java/convert-excel-workbook-to-pdf/">Excel Çalışma Kitabını PDF'e Dönüştür</a></li>
+            <li><a href="/cells/tr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Excel dosyasını PDFA-1a ile uyumlu PDF biçimine dönüştürün</a></li>
             <li><a href="/cells/tr/java/converting-worksheet-to-different-image-formats/">Çalışma Sayfasını Farklı Görüntü Formatlarına Dönüştürme</a></li>
             <li><a href="/cells/tr/java/track-document-conversion-progress/">Belge Dönüştürme İlerlemesini İzleme</a></li>
-            <li><a href="/cells/tr/java/convert-excel-to-html-with-tooltip/">Araç ipucu ile Excel'i HTML'ye dönüştürün</a></li>
-            <li><a href="/cells/tr/java/convert-json-to-csv/">JSON'u CSV'ye dönüştür</a></li>
-            <li><a href="/cells/tr/java/convert-csv-to-json/">CSV'yi JSON'a dönüştür</a></li>
+            <li><a href="/cells/tr/java/convert-excel-to-html-with-tooltip/">Araç ipucu ile Excel'i HTML'e dönüştürün</a></li>
+            <li><a href="/cells/tr/java/convert-json-to-csv/">JSON'i CSV'e dönüştür</a></li>
+            <li><a href="/cells/tr/java/convert-csv-to-json/">CSV'i JSON'e dönüştür</a></li>
         </ul>
         <p>Seçenekler</p>
         <ul>
@@ -311,7 +311,7 @@ url: /tr/java/developer-guide/
             <li><a href="/cells/tr/java/how-to-change-the-comment-font-color/">Yorum Yazı Tipi Rengi nasıl değiştirilir?</a></li>
             <li><a href="/cells/tr/java/change-text-direction-of-the-comment/">Yorumun Metin Yönünü Değiştirme</a></li>            
             <li><a href="/cells/tr/java/set-margins-of-comment-or-shape-inside-the-worksheet/">Çalışma Sayfasında Yorum veya Şeklin Kenar Boşluklarını Ayarlama</a></li>
-            <li><a href="/cells/tr/java/disable-downlevel-revealed-comments-while-saving-to-html/">HTML'ye kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın</a></li>
+            <li><a href="/cells/tr/java/disable-downlevel-revealed-comments-while-saving-to-html/">HTML'e kaydederken Alt Seviye Açığa Çıkan Yorumları devre dışı bırakın</a></li>
             <li><a href="/cells/tr/java/threaded-comments/">Zincirleme Yorumlar</a></li>
         </ul>
     </div>
@@ -325,7 +325,7 @@ url: /tr/java/developer-guide/
     <div class="col-md-6">
         <p>Değişiklikler</p>
         <ul>
-         <li><a href="/cells/tr/java/convert-revision-of-xlsb-to-xlsm/">XLSB'nin Revizyonunu XLSM'ye Dönüştür</a></li>
+         <li><a href="/cells/tr/java/convert-revision-of-xlsb-to-xlsm/">XLSB Revizyonunu XLSM olarak dönüştür</a></li>
         </ul>
     </div>
 </div>

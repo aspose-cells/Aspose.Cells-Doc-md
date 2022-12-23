@@ -43,7 +43,7 @@ url: /zh/net/aspose-cells-for-net-7-4-0-release-notes/
 - 数据透视表的刷新和计算数据问题
 - HLOOKUPwith INDIRECT 公式错误
 - 使用 Excel 2013 保存的文件取消保护工作表失败
-- 导出为 PDF 时页脚的页码问题
+- 导出到 PDF 时页脚的页码问题
 - 将工作簿保存到流时未正确应用 AcceptAllRevisions
 
  -保存时呈现损坏的复选框
@@ -62,7 +62,7 @@ url: /zh/net/aspose-cells-for-net-7-4-0-release-notes/
 
 
 
-新的功能
+新功能
 
 41269 - 带有下拉列表的 LoadExcel 文件 – 列表数据验证。
 

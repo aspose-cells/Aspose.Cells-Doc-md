@@ -16,7 +16,7 @@ url: /ja/php-java/aspose-cells-for-php-via-java-21-2-release-notes/
 |CELLSJAVA-43364|マーカーに画像があるチャートを画像に保存する際の問題|
 |CELLSJAVA-43389|XLSB ファイル形式で保存すると、ワークブック/ワークシートのパスワード保護設定が失われる|
 |CELLSJAVA-43392|シートをコピーするとワークブックが破損する|
-|CELLSJAVA-43387|単一シートを HTML にエクスポートすると例外が発生する|
+|CELLSJAVA-43387|1 つのシートを HTML にエクスポートすると例外が発生する|
 
 ## **Public API および下位互換性のない変更**
 

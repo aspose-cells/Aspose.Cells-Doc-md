@@ -13,20 +13,20 @@ url: /tr/java/aspose-cells-for-java-17-3-0-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42205|Formülü uzun dize hazır bilgiyle ayarlamak, bozuk Excel dosyasıyla sonuçlanır|Artırma|
-|CELLSJAVA-42204|E-tablodaki noktalı kenarlıklar HTML'ye dönüştürülmedi|Böcek|
+|CELLSJAVA-42204|E-tablodaki noktalı kenarlıklar HTML olarak oluşturulmadı|Böcek|
 |CELLSJAVA-42198|Aspose.Cells oluşturulan Excel dosyasında formül hesaplaması yanlış|Böcek|
-|CELLSJAVA-42156|HTML'ye dönüştürülürken hücrelerin üst ve alt kenarlıkları kayboldu|Böcek|
-|CELLSJAVA-42208|Aspose.Cells aracılığıyla PDF oluşturulduğunda yorumlar (sonda) dikey olarak kesilir|Böcek|
-|CELLSJAVA-42206|Grafikler için seri çizgi çizgileri, çıktı PDF'sinde doğru şekilde oluşturulmuyor|Böcek|
+|CELLSJAVA-42156|HTML'e dönüştürülürken hücrelerin üst ve alt kenarları kayboldu|Böcek|
+|CELLSJAVA-42208|Yorumlar (sonda), PDF aracılığıyla Aspose.Cells oluşturulduğunda dikey olarak kesilir|Böcek|
+|CELLSJAVA-42206|Grafikler için seri kesik çizgiler, PDF çıktısında doğru şekilde oluşturulmuyor|Böcek|
 |CELLSJAVA-42167 |Grafiği resme dönüştürdükten sonra iki satırda görüntülenen kategori ekseni etiketleri|Böcek|
 |CELLSJAVA-42199|Şelale grafiği, toplam çubuğundaki çizgi ve eksik olandan hemen önceki çubuk|Böcek|
 |CELLSJAVA-42201|Alt görev - Grafiği resme dönüştürdükten sonra iki satırda görüntülenen kategori ekseni etiketleri|Böcek|
 |CELLSJAVA-42155|Dışa aktarılan grafiğin, Excel'dekinden farklı x ekseni etiketleri var|Böcek|
 |CELLSJAVA-42128|Kaynak Excel dosyasını açarken ve kaydederken grafik yanlış|Böcek|
-|CELLSJAVA-42203|Yazı tipi, yalnızca XLSM'yi yükleyip yeniden kaydettikten sonra değiştirildi|Böcek|
+|CELLSJAVA-42203|XLSM dosyasını yükleyip yeniden kaydettikten sonra yazı tipi değiştirildi|Böcek|
 |CELLSJAVA-42196|Ortaya çıkan dosyanın biçimlendirmesi, yeniden kaydedilen dosyada karışık|Böcek|
 |CELLSJAVA-42195|Şelale tablosu, Total serisi yanlış görünüyor|Böcek|
-|CELLSJAVA-42181|Bir XLS dosyasını yeniden kaydettikten sonra korumalı görünüm|Böcek|
+|CELLSJAVA-42181|XLS dosyasını yeniden kaydettikten sonra korumalı görünüm|Böcek|
 |CELLSJAVA-42045|Radar grafiği görüntüsü oluşturulmadı|Böcek|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
@@ -42,7 +42,7 @@ Geliştiriciler, son 17.3.0 veya sonraki sürümü kullanarak bir Excel dosyası
 1. **GlobalizationSettings.getEmptyDataName() yöntemini ekler** - PivotTable'da "(boş)" etiketinin adını alır.
 1. **GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType) yöntemini ekler** - PivotTable'da "PivotFieldSubtotalType" türünün adını alır.
 
-Bu kod örneği, bir pivot tablonun genelleştirme ayarlarının nasıl özelleştirileceğini ayrıntılı olarak açıklar. GlobalizationSettings temel sınıfından türetilen bir CustomPivotTableGlobalizationSettings sınıfı oluşturur ve gerekli tüm yöntemleri geçersiz kılar. Bu yöntemler, Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler için özelleştirilmiş metni döndürür. Daha sonra bu sınıfın nesnesini Workbook.GlobalizationSettings özelliğine atar. Kod, pivot tabloyu içeren kaynak excel dosyasını yükler, verilerini yeniler ve hesaplar ve bunu bir çıktı PDF dosyası olarak kaydeder. Geliştiriciler ayrıca çalışma kitabını desteklenen herhangi bir biçimde kaydedebilir.
+Bu kod örneği, bir pivot tablonun genelleştirme ayarlarının nasıl özelleştirileceğini ayrıntılı olarak açıklar. GlobalizationSettings temel sınıfından türetilen bir CustomPivotTableGlobalizationSettings sınıfı oluşturur ve gerekli tüm yöntemleri geçersiz kılar. Bu yöntemler, Özet Toplam, Alt Toplam, Genel Toplam, Tüm Öğeler, Birden Çok Öğe, Sütun Etiketleri, Satır Etiketleri, Boş Değerler için özelleştirilmiş metni döndürür. Daha sonra bu sınıfın nesnesini Workbook.GlobalizationSettings özelliğine atar. Kod, pivot tabloyu içeren kaynak excel dosyasını yükler, verilerini yeniler ve hesaplar ve bir çıktı PDF dosyası olarak kaydeder. Geliştiriciler ayrıca çalışma kitabını desteklenen herhangi bir biçimde kaydedebilir.
 
 **Java**
 

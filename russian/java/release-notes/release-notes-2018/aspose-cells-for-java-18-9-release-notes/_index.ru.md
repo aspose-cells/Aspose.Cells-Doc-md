@@ -13,9 +13,9 @@ url: /ru/java/aspose-cells-for-java-18-9-release-notes/
 |**Ключ**|**Резюме**|**Категория**|
 |:- |:- |:- |
 |CELLSJAVA-42715|Формулы не извлекаются так же, как в файле MS Excel.|Ошибка|
-|CELLSJAVA-42711|Диаграмма в формате PDF не создается из шаблона Excel|Ошибка|
-|CELLSJAVA-42710|Дублирование текста элемента легенды на диаграмме при преобразовании Excel в PDF|Ошибка|
-|CELLSJAVA-42706|Вывод PDF не показывает метку диаграммы|Ошибка|
+|CELLSJAVA-42711|Диаграмма в PDF не создается из шаблона Excel|Ошибка|
+|CELLSJAVA-42710|Дублировать текст элемента легенды на диаграмме в Excel для преобразования PDF|Ошибка|
+|CELLSJAVA-42706|Выход PDF не показывает метку диаграммы|Ошибка|
 |CELLSJAVA-42700|Диаграмма водопада не отображается должным образом после изменения данных диаграммы|Ошибка|
 |CELLSJAVA-42717|Cells.deleteRow работает некорректно|Ошибка|
 |CELLSJAVA-42716|Для стиля границы получено неверное значение|Ошибка|
@@ -23,7 +23,7 @@ url: /ru/java/aspose-cells-for-java-18-9-release-notes/
 |CELLSJAVA-42705|MS Excel вызывает ошибку при загрузке файла после установки автофильтра|Ошибка|
 |CELLSJAVA-42703|Диаграмма не отображается при преобразовании ODS в PDF|Ошибка|
 |CELLSJAVA-42702|Серые границы появляются после чтения стиля ячейки на листе|Ошибка|
-|CELLSJAVA-42699|PasteType.VALUES_А ТАКЖЕ_NUMBER_FORMATS не работает нормально|Ошибка|
+|CELLSJAVA-42699|PasteType.VALUES_И_NUMBER_FORMATS не работает нормально|Ошибка|
 |CELLSJAVA-42646|Исключение: «FormulaBuild Неизвестная формула token0» на Name.getRefersTo()|Исключение|
 |CELLSJAVA-42707|Метод Chart.calculate вызывает OutOfMemoryError|Исключение|
 
@@ -57,7 +57,7 @@ url: /ru/java/aspose-cells-for-java-18-9-release-notes/
 
 ### **Добавляет свойство Series.LayoutProperties и класс SeriesLayoutProperties.**
 
-Представляет свойства макета ряда.
+Представляет свойства макета серии.
 
 ### **Добавляет свойство TickLabels.IsAutomaticRotation**
 

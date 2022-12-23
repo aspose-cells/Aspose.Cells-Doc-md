@@ -20,7 +20,7 @@ Aspose.Cells dispose d'un moteur de calcul de formule intégré. Non seulement i
 
 {{% alert color="primary" %}}
 
- La**Formule** propriété et**DéfinirFormule(...)** méthodes de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)le travail en classe différemment du**Calculer** méthodes de la[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook), [**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) et[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Des classes. La**Formule** propriété et**DéfinirFormule(...)** Les méthodes ajoutent simplement la formule à une cellule mais ne calculent pas le résultat lors de l'exécution. Pour obtenir le résultat des formules, veuillez appeler**Calculer** méthodes.
+ Le**Formule** propriété et**DéfinirFormule(...)** méthodes de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)le travail en classe différemment du**Calculer** méthodes de la[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook), [**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) et[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) Des classes. Le**Formule** propriété et**DéfinirFormule(...)** Les méthodes ajoutent simplement la formule à une cellule mais ne calculent pas le résultat lors de l'exécution. Pour obtenir le résultat des formules, veuillez appeler**Calculer** méthodes.
 
 {{% /alert %}}
 

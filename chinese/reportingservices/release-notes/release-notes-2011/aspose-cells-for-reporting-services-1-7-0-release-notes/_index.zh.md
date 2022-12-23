@@ -16,7 +16,7 @@ url: /zh/reportingservices/aspose-cells-for-reporting-services-1-7-0-release-not
 
 - Aspose.Cells for Reporting Services 设计师支持在Excel中创建矩阵模板。
 - 支持表格和矩阵报告项的条件格式。
-- 在 SQL Server 2008 Reporting Services 中添加仅为 CSV 和 TXT 格式呈现的 Tablix 报表项。
+- 为 SQL Server 2008 Reporting Services 中的 CSV 和 TXT 格式添加渲染 tablix 报表项。
 
 有什么变化？
 

@@ -10,7 +10,7 @@ url: /ru/java/using-icustomfunction-feature/
 
 Интерфейс ICustomFunction позволяет добавлять пользовательские функции расчета формулы для расширения основного механизма расчета Aspose.Cells для удовлетворения определенных требований. Эта функция полезна для определения пользовательских (определяемых пользователем) функций в файле шаблона или в коде, где пользовательскую функцию можно реализовать и оценить с помощью Aspose.Cells API, как и любую другую функцию Excel по умолчанию Microsoft.
 
- Обратите внимание, этот интерфейс был заменен на[АннотацияРасчетДвигатель](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) и будут удалены в будущем. Некоторые технические статьи/примеры по новому номеру API:[здесь](/cells/ru/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) а также[здесь](/cells/ru/java/returning-a-range-of-values-using-abstractcalculationengine/)
+ Обратите внимание, этот интерфейс был заменен на[АннотацияРасчетДвигатель](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine) и будут удалены в будущем. Некоторые технические статьи/примеры по новому номеру API:[здесь](/cells/ru/java/implement-custom-calculation-engine-to-extend-the-default-calculation-engine-of-aspose-cells/) и[здесь](/cells/ru/java/returning-a-range-of-values-using-abstractcalculationengine/)
 
 {{% /alert %}} {{% alert color="primary" %}} 
 

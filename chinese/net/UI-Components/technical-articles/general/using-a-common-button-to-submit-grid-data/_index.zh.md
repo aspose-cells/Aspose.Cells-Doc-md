@@ -6,13 +6,13 @@ url: /zh/net/using-a-common-button-to-submit-grid-data/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb提供了一些内置的命令按钮，如**提交**和**节省**.使用这些按钮执行相关任务。
+Aspose.Cells.GridWeb提供了一些内置的命令按钮，如**提交**和**救球**.使用这些按钮执行相关任务。
 
-本文展示了如何将数据提交到服务器，而不仅仅是通过点击 GridWeb 的内置**节省**命令按钮，但通过单击一个常见的 ASP.NET 按钮（Web 控件）。本文的目的是展示 Aspose.Cells.GridWeb 的灵活性。此外，本文还使用了 Aspose.Cells.GridWeb 公开的特殊功能，用于客户端脚本。
+本文展示了如何将数据提交到服务器，而不仅仅是通过点击 GridWeb 的内置**救球**命令按钮，但通过单击一个常见的 ASP.NET 按钮（Web 控件）。本文的目的是展示 Aspose.Cells.GridWeb 的灵活性。此外，本文还使用了 Aspose.Cells.GridWeb 公开的特殊功能，用于客户端脚本。
 
 {{% /alert %}} 
 ## **使用 ASP.NET 按钮提交网格数据**
-Aspose.Cells.GridWeb提供了三个内置按钮（**提交**, **节省**和**撤消** ).在 GridWeb 中编辑后，用户可以单击**提交**或者**节省**选项卡栏中的按钮让 GridWeb 向服务器提交数据。如果用户单击工作表选项卡，GridWeb 控件将执行与内置命令按钮相同的任务。 Aspose.Cells.GridWeb 也支持将此功能添加到一个常见的ASP.NET Button 控件中，但您需要在应用程序中添加一些额外的代码。
+Aspose.Cells.GridWeb提供了三个内置按钮（**提交**, **救球**和**撤消** ).在 GridWeb 中编辑后，用户可以单击**提交**要么**救球**选项卡栏中的按钮让 GridWeb 向服务器提交数据。如果用户单击工作表选项卡，GridWeb 控件将执行与内置命令按钮相同的任务。 Aspose.Cells.GridWeb 也支持将此功能添加到一个常见的ASP.NET Button 控件中，但您需要在应用程序中添加一些额外的代码。
 ### **1. 创建测试应用**
 打开 Visual Studio.NET IDE 并创建一个新的 ASP.NET Web 应用程序项目。创建应用程序后，默认的 WebForm1.aspx 页面将添加到您的项目中。将 GridWeb 控件从您的工具箱拖放到 Web 窗体。如果您在工具箱中找不到 GridWeb 控件，请参阅此页面：[将 Aspose.Cells 网格控件与 Visual Studio 集成 .NET](/cells/zh/net/integrate-aspose-cells-grid-controls-with-visual-studio-net/)以了解更多信息。将 GridWeb 控件添加到您的 Web 窗体后，还将工具箱中的 Button Web 控件添加到您的 Web 窗体。
 ### **2. 添加代码到 Page_Load 事件**

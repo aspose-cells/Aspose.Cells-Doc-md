@@ -45,20 +45,20 @@ url: /fr/net/aspose-cells-for-net-4-9-1-release-notes/
 
 
 
-|**ID du problème** |**Composant** |**Sommaire** |
+|**ID du problème** |**Composant** |**Résumé** |
 |:- |:- |:- |
 |13526 | Graphique2Image| Problème avec la méthode Chart ToImage|
 |14888 | Graphique2Image| Problème de positionnement de PlotArea avec Chart.ToImage|
-|16011 | CSV| Lire le CSV avec une nouvelle ligne|
+|16011 |CSV | Lire CSV avec retour à la ligne|
 |14183 | PDF| L'en-tête/le pied de page ne s'aligne pas sur les marges de la page|
 |14501 | PDF| Erreur lors de la conversion du fichier excel en pdf|
 |15741 | PDF| Le quadrillage ne s'affiche pas|
 |15910 | PDF| Lien manquant entre le signet et la page|
 |16207 | PDF|Erreur lors de l'enregistrement du fichier PDF|
 |16260 | PDF| Conversion de divers types de fichiers en tif|
-|16328 | PDF| Problème de conversion XLS en PDF|
+|16328 | PDF| Problème de conversion XLS à PDF|
 |16377 | PDF| Certains textes dans les cellules disparaissent|
-|16402 | PDF| Problème de conversion XLS en PDF|
+|16402 | PDF| Problème de conversion XLS à PDF|
 |16472 | PDF| Problèmes de formatage|
 |16499 | PDF| PDF n'incorporant pas de polices|
 |13606 | Feuille de calcul2Image| Quelques différences dans le fichier Excel imprimé/enregistré|

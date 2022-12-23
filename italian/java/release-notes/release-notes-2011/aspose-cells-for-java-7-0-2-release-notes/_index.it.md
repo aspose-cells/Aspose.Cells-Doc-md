@@ -14,13 +14,13 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Caratteristiche generali / Miglioramenti
 
- Supporta LightCellsDataProvider per il salvataggio di file XLSX
+ Supporta LightCellsDataProvider per salvare i file XLSX
 
  Supporta la versione J2SE7.0
 
  Sono stati apportati miglioramenti alla funzione Foglio-immagine
 
- Sono stati apportati miglioramenti per la funzionalità da Excel a PDF
+ Sono stati apportati miglioramenti per la funzionalità Excel-to-PDF
 
 
 
@@ -38,13 +38,13 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30673 - Supporta la funzione di ordinamento dei dati negli Smart Marker
 
- 30809 - Includi più tipi di condizioni di formato (per la funzione di formattazione condizionale) durante il salvataggio del file XLS
+ 30809 - Includi più tipi di condizioni di formato (per la funzione Formattazione condizionale) durante il salvataggio del file XLS
 
- 31192 - Supporta il tipo di crittografia: RC4, Microsoft Enhanced Cryptographic Provider 1.0 a 128 bit
+31192 - Supporta il tipo di crittografia: RC4, Microsoft Provider crittografico avanzato 1.0 128 bit
 
  Eccezioni
 
-30733 - Ottenere un'eccezione quando si utilizzano valori scientifici per la formula di convalida
+ 30733 - Ottenere un'eccezione quando si utilizzano valori scientifici per la formula di convalida
 
  30748 - La lettura del file modello Excel2007 crittografato causa un'eccezione
 
@@ -54,7 +54,7 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  Insetti
 
- 30616 - Immagine persa nella funzione da XLS a PDF
+ 30616 - Immagine persa nella funzione XLS-to-PDF
 
  30695 - Asse X/Y perso nella funzione Grafico a immagine
 
@@ -62,7 +62,7 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30697 - L'immagine è stata creata in modo errato per il grafico a piramide
 
- 30776 - Un file PDF non valido è stato generato dalla funzione XLS in PDF
+ 30776 - Il file PDF non valido è stato generato dalla funzione XLS-to-PDF
 
  28545 - Il valore di Cell non è stato reso correttamente con la proprietà "shrink to fit"
 
@@ -70,15 +70,15 @@ url: /it/java/aspose-cells-for-java-7-0-2-release-notes/
 
  30911 - TextBox.setHtmlText() non ha analizzato correttamente il rich text
 
- 30479 - È stata aggiunta una parentesi aggiuntiva per il valore della cella nel file PDF generato
+30479 - Aggiunta ulteriore parentesi per il valore della cella nel file PDF generato
 
  30899 - Il valore ridimensionato dell'immagine appena aggiunta è stato modificato nel file XLS salvato
 
-30972 - Il contenuto della casella di testo non è stato visualizzato correttamente nel file PDF
+ 30972 - Il contenuto della casella di testo non è stato visualizzato correttamente nel file PDF
 
  31050 - Cell.getStringValue() non ha fornito il doppio valore corretto
 
- 31007 - Le formule sono state visualizzate come "#NAME" nel file XLS generato
+ 31007 - Le formule sono state mostrate come "#NAME" nel file XLS generato
 
  31194 - La formula MROUND non è stata calcolata correttamente
 

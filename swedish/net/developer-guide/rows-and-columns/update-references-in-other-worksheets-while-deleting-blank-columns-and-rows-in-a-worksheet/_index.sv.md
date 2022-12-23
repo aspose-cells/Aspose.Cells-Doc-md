@@ -6,7 +6,7 @@ url: /sv/net/update-references-in-other-worksheets-while-deleting-blank-columns-
 ---
 {{% alert color="primary" %}}
 
-När du tar bort tomma kolumner och rader i ett kalkylblad blir dess referenser i andra kalkylblad ogiltiga. Om du vill undvika detta beteende och vill att referenserna till det aktuella kalkylbladet i andra kalkylblad också uppdateras, använd då[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) egenskap och ställ in den på**Sann**.
+När du tar bort tomma kolumner och rader i ett kalkylblad blir dess referenser i andra kalkylblad ogiltiga. Om du vill undvika detta beteende och vill att referenserna till det aktuella kalkylbladet i andra kalkylblad också uppdateras, använd då[**DeleteOptions.UpdateReference**](https://reference.aspose.com/cells/net/aspose.cells/deleteoptions/properties/updatereference) egendom och ställ in den på**Sann**.
 
 {{% /alert %}}
 

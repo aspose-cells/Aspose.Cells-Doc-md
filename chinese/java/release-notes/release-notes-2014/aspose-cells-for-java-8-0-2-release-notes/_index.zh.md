@@ -22,13 +22,13 @@ Aspose.Cells for Java 已更新到版本 8.0.2，我们很高兴地宣布此版�
 增强功能
 
 (CELLSJAVA-40788) - 支持形状属性的自定义主题
-(CELLSJAVA-40803) - 在将电子表格导出为 HTML 时为图像设置渲染提示
+(CELLSJAVA-40803) - 在将电子表格导出到 HTML 时为图像设置渲染提示
 
 虫子
 
 (CELLSJAVA-40793) - 范围不是指正确的区域
 (CELLSJAVA-40768) - WorkbookRender.toPrinter() 方法不打印图片
-(CELLSJAVA-40669) - 将 XLTX 呈现为 PDF 时出现 Pivot Column Grand 问题
+(CELLSJAVA-40669) - 呈现 XLTX 到 PDF 时出现 Pivot Column Grand 问题
 (CELLSJAVA-40801) - 呈现的 PDF 文件中的 Cell 对齐问题
 (CELLSJAVA-40406) - 将具有大量列的 Excel 文件转换为 PDF 文件
 (CELLSJAVA-40794) - AutoFitColumns 在使用不同的字体设置时不工作

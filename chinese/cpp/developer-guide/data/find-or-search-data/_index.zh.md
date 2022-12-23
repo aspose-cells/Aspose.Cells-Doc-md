@@ -17,7 +17,7 @@ url: /zh/cpp/find-or-search-data/
 
 以下示例代码说明了使用上述方法的用法[示例 excel 文件](21266434.xlsx)如这个屏幕截图所示。
 
-![待办事项：图像_替代_文本](find-or-search-data_1.png)
+![待办事项：图片_替代_文本](find-or-search-data_1.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "Examples-CellsCPP-Data-FindOrSearchData.cpp" >}}
 ## **控制台输出**

@@ -8,7 +8,7 @@ url: /ja/net/add-worksheets-to-existing-excel-file-in-php/
 
 ワークシートを既存の Excel ファイルに追加する
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

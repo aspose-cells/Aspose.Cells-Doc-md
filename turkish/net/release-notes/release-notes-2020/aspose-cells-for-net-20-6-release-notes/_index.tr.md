@@ -15,12 +15,12 @@ url: /tr/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47353|GridWeb'de oturum bilgisi için geçici dosya depolama desteği|Artırma|
 |CELLSNET-47388|GridWeb SessionMode.File, farklı sayfa/sekme için önbellek dosyasını depolar|Artırma|
 |CELLSNET-46062|Harita Efsanesi, Asya ve Latin Karakterleri nedeniyle düzgün şekilde oluşturulmuyor|Artırma|
-|CELLSNET-47373|Çalışma kitabını PDF MemoryStream'e kaydetmek 2 dakikadan fazla sürer|Artırma|
+|CELLSNET-47373|Çalışma kitabının PDF MemoryStream'e kaydedilmesi 2 dakikadan uzun sürüyor|Artırma|
 |CELLSNET-43418|Bitişik olmayan bir aralığı kopyalayıp yapıştırın (yalnızca veri)|Artırma|
 |CELLSNET-47315|Dosya zip64'e kaydedildiğinde açılamadı|Artırma|
 |CELLSNET-47384|Resim/şekil yükleme performansını iyileştirin|Verim|
 |CELLSNET-47382|HTML'den Excel'e dönüştürme biçimlendirmeyi kaybediyor|Böcek|
-|CELLSNET-47390|HTML'den ODS'ye dönüştürmede bazı kelimelerin rengi yanlış|Böcek|
+|CELLSNET-47390|HTML - ODS oluşturmada bazı kelimelerin rengi yanlış|Böcek|
 |CELLSNET-47385|Cells.InsertCutCells, aralık kesişimi olan çalışma kitaplarında son veriyor|Böcek|
 |CELLSNET-47389|HLOOKUP hesaplaması doğru değil|Böcek|
 |CELLSNET-47352|Metne tıkladıktan sonra metin kayboluyor|Böcek|
@@ -35,7 +35,7 @@ url: /tr/net/aspose-cells-for-net-20-6-release-notes/
 |CELLSNET-47371|Sayfadaki pivot tablo(lar)ın yenilenmesiyle ilgili istisna|İstisna|
 |CELLSNET-47377|Worksheet.RefreshPivotTables() istisna oluşturur|İstisna|
 |CELLSNET-47393|Aspose.Cells.CellsException: Döngüsel referanslar|İstisna|
-|CELLSNET-47365|Bir XLSX dosyası yüklenirken istisna|İstisna|
+|CELLSNET-47365|XLSX dosyası yüklenirken istisna|İstisna|
 |CELLSNET-47381|Picture.Data özelliği bir ArgumentOutOfRange istisnası atar|İstisna|
 |CELLSNET-47374|19.10'dan 20.5'e Yükseltme Yaparken RemoveACell'de Büyük Değişiklik|gerileme|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

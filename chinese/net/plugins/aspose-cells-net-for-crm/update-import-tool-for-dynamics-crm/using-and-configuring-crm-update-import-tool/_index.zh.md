@@ -6,15 +6,15 @@ url: /zh/net/using-and-configuring-crm-update-import-tool/
 ---
 以下是我们使用该工具需要遵循的屏幕截图步骤：
 
-![待办事项：图像_替代_文本](using-and-configuring-crm-update-import-tool_1)
+![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_1)
 
 - 要创建与 CRM 的连接，请单击登录到 CRM 并添加您的 CRM 组织信息
 
-![待办事项：图像_替代_文本](using-and-configuring-crm-update-import-tool_2)
+![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_2)
 
 - 建立连接后，选择实体并选择所需属性的列表。
 
-![待办事项：图像_替代_文本](using-and-configuring-crm-update-import-tool_3)
+![待办事项：图片_替代_文本](using-and-configuring-crm-update-import-tool_3)
 
 - **从 CRM 获取：**单击此处以在网格中显示来自 CRM 的数据
 - **导出到 Excel：**单击此处通过提供文件将数据从 CRM 导出到 Excel 文件。

@@ -15,7 +15,7 @@ Aspose.Cells for .NET 8.9.0 ha expuesto la propiedad DefaultFontName para la cla
 
 {{% alert color="primary" %}} 
 
- Para obtener más detalles sobre esta función, consulte el artículo sobre[Configuración de la fuente predeterminada para representar hojas de cálculo en formato HTML](/cells/es/net/set-default-font-while-rendering-spreadsheet-to/).
+ Para obtener más detalles sobre esta función, consulte el artículo sobre[Configuración de la fuente predeterminada para la representación de hojas de cálculo en el formato HTML](/cells/es/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

@@ -20,7 +20,7 @@ url: /ar/net/accessing-cells-of-a-worksheet/
 1. استخدام فهرس صف وعمود الخلية.
 1.  باستخدام فهرس الخلية في ملف[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells)مجموعة
 
-**مهم:**لقد ذكرنا أن الطريقة الثالثة هي الأسرع والأول هي الأبطأ. فرق الأداء بين الأساليب صغير جدًا ، لذا لا تقلق بشأن تدهور الأداء ، أيًا كان الأسلوب الذي تستخدمه.
+**الأهمية:**لقد ذكرنا أن الطريقة الثالثة هي الأسرع والأول هي الأبطأ. فرق الأداء بين الأساليب صغير جدًا ، لذا لا تقلق بشأن تدهور الأداء ، أيًا كان الأسلوب الذي تستخدمه.
 
 ### **باستخدام Cell الاسم**
 
@@ -50,6 +50,6 @@ url: /ar/net/accessing-cells-of-a-worksheet/
 
 Aspose.Cells يسمح للمطورين بالوصول إلى أقصى نطاق عرض لورقة العمل. يكون نطاق العرض الأقصى - نطاق الخلايا بين الخلية الأولى والأخيرة مع المحتوى - مفيدًا عندما تحتاج إلى نسخ أو تحديد أو عرض المحتويات الكاملة لورقة العمل في صورة.
 
- يمكنك الوصول إلى أقصى نطاق عرض لورقة العمل باستخدام[**ورقة العمل Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . يوضح نموذج التعليمات البرمجية التالي كيفية الوصول إلى ملف[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)منشأه.
+ يمكنك الوصول إلى أقصى نطاق عرض لورقة العمل باستخدام[**ورقة العمل Cells.MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange) . يوضح نموذج التعليمات البرمجية التالي كيفية الوصول إلى ملف[**MaxDisplayRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/properties/maxdisplayrange)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-AccessingCells-AccessingMaximumDisplayRangeofWorksheet-1.cs" >}}

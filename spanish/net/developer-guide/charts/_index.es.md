@@ -4,7 +4,7 @@ linktitle: Gráficos
 type: docs
 weight: 130
 url: /es/net/creating-charts/
-description: Cree un gráfico en CSharp para archivos Excel y ODS.
+description: Cree un gráfico en CSharp para Excel y archivos ODS.
 keywords: create a chart, make a graph 
 ---
 {{% alert color="primary" %}}
@@ -25,13 +25,13 @@ Antes de crear gráficos, es importante comprender algunos conceptos básicos qu
 
 #### **Objetos de gráficos**
 
-Aspose.Cells proporciona un conjunto especial de clases en el[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) espacio de nombres utilizado para crear los gráficos admitidos por Aspose.Cells. Estas clases se utilizan para crear**graficando objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
+Aspose.Cells proporciona un conjunto especial de clases en el[**Aspose.Cells.Charts**](https://reference.aspose.com/cells/net/aspose.cells.charts) espacio de nombres utilizado para crear los gráficos admitidos por Aspose.Cells. Estas clases se utilizan para crear**graficar objetos**, que actúan como bloques de creación de gráficos. Los objetos gráficos se enumeran a continuación:
 
-- Serie, una única serie de datos en un gráfico.
+- Serie, una sola serie de datos en un gráfico.
 - Axis, el eje de un gráfico.
 - Gráfico, un solo gráfico de Excel.
 - ChartArea, el área del gráfico en la hoja de cálculo.
-- ChartDataTable, una tabla de datos de gráficos.
+- ChartDataTable, una tabla de datos de gráfico.
 - ChartFrame, el objeto de marco en un gráfico.
 - ChartPoint, un solo punto en una serie en un gráfico.
 - ChartPointCollection, una colección que contiene todos los puntos de una serie.
@@ -52,7 +52,7 @@ Aspose.Cells proporciona un conjunto especial de clases en el[**Aspose.Cells.Cha
 
 Como se mencionó anteriormente, todos los objetos de gráficos son instancias de sus respectivas clases y proporcionan propiedades y métodos específicos para realizar tareas específicas. Use objetos de gráficos para crear gráficos.
 
-Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) recopilación. Cada artículo en el[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) colección representa un[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objeto. A[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)El objeto encapsula todos los demás objetos de gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo usar algunos objetos gráficos básicos para crear un gráfico simple.
+Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) recopilación. Cada artículo en el[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/charts) colección representa un[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objeto. A[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)El objeto encapsula todos los demás objetos de gráficos necesarios para personalizar la apariencia del gráfico. La siguiente sección muestra cómo usar algunos objetos gráficos básicos para crear un gráfico simple.
 
 ### **Crear gráfico usando Aspose.Cells**
 
@@ -63,8 +63,8 @@ Agregue cualquier tipo de gráfico a una hoja de trabajo usando el[**Gráficos**
 1.  Agregue un gráfico a la hoja de trabajo llamando al[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection) colección[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection/methods/add) método, encapsulado en el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)objeto.
 1.  Especifique el tipo de gráfico con el[**Tipo de gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)enumeración.
  Por ejemplo, el siguiente ejemplo utiliza el[**ChartType.Pirámide**](https://reference.aspose.com/cells/net/aspose.cells.charts/charttype)value como el tipo de gráfico.
-1.  Accede al nuevo[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objeto de la[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)colección pasando su índice.
-1.  Utilice cualquiera de los objetos de gráficos encapsulados en el[**Cuadro**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objeto para gestionar el gráfico.
+1.  Accede al nuevo[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) objeto de la[**Gráficos**](https://reference.aspose.com/cells/net/aspose.cells.charts/chartcollection)colección pasando su índice.
+1.  Utilice cualquiera de los objetos de gráficos encapsulados en el[**Gráfico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart)objeto para gestionar el gráfico.
  El siguiente ejemplo utiliza el[**SerieColección**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)objeto de gráfico para especificar la fuente de datos del gráfico.
 
 Al agregar datos de origen al gráfico, el origen de datos puede ser un rango de celdas (como "A1:C3"), una secuencia de celdas no contiguas (como "A1, A3, A5") o una secuencia de valores (como "1,2,3").
@@ -108,7 +108,7 @@ Los tipos de gráficos predefinidos son:
 |DispersiónConectadoPorCurvasSinMarcador de datos|Representa el gráfico de dispersión conectado por curvas, sin marcadores de datos|
 |ScatterConnectedByLinesWithDataMarker|Representa el gráfico de dispersión conectado por líneas, con marcadores de datos|
 |ScatterConnectedByLinesWithoutDataMarker|Representa el gráfico de dispersión conectado por líneas, sin marcadores de datos|
-|Área|Representa el gráfico de área|
+|Zona|Representa el gráfico de área|
 |Área apilada|Representa el gráfico de áreas apiladas|
 |Área100PorcentajeApilado|Representa un gráfico de áreas apiladas al 100 %|
 |Área3D|Representa el gráfico de área 3D|
@@ -154,7 +154,7 @@ Cuando asigna un rango de celdas como fuente de datos, solo puede establecer el 
 
 #### **Gráfico piramidal**
 
-Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de cálculo.
+Cuando se ejecuta el código de ejemplo, se agrega un gráfico piramidal a la hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreatePyramidChart-1.cs" >}}
 

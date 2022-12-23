@@ -6,7 +6,7 @@ url: /it/java/managing-worksheets-in-php/
 ---
 ## **Aspose.Cells - Gestione fogli di lavoro**
 ### **Aggiunta di fogli di lavoro a un nuovo file Excel**
-Per aggiungere un foglio di lavoro a un nuovo file Excel utilizzando**Aspose.Cells Giava for PHP** , chiama semplicemente**add_worksheet** metodo di**Gestione dei fogli di lavoro** modulo.
+ Per aggiungere un foglio di lavoro a un nuovo file Excel utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**add_worksheet** metodo di**Gestione dei fogli di lavoro** modulo.
 
 **Codice PHP**
 
@@ -34,7 +34,7 @@ $workbook->save($dataDir . "book.out.xls");
 
 {{< /highlight >}}
 ### **Rimozione di fogli di lavoro utilizzando il nome del foglio**
- Per rimuovere il foglio di lavoro per nome del foglio utilizzando**Aspose.Cells Giava for PHP** , chiama semplicemente**remove_worksheet_by_name** metodo di**Gestione dei fogli di lavoro** modulo.
+ Per rimuovere il foglio di lavoro per nome del foglio utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**remove_worksheet_by_name** metodo di**Gestione dei fogli di lavoro** modulo.
 
 **Codice PHP**
 
@@ -62,7 +62,7 @@ $fstream->close();
 
 {{< /highlight >}}
 ### **Rimozione di fogli di lavoro utilizzando l'indice dei fogli**
- Per rimuovere il foglio di lavoro dall'indice del foglio utilizzando**Aspose.Cells Giava for PHP** , chiama semplicemente**remove_worksheet_by_index** metodo di**Gestione dei fogli di lavoro** modulo.
+ Per rimuovere il foglio di lavoro dall'indice del foglio utilizzando**Aspose.Cells Java for PHP** , chiama semplicemente**remove_worksheet_by_index** metodo di**Gestione dei fogli di lavoro** modulo.
 
 **Codice PHP**
 
@@ -90,6 +90,6 @@ $fstream->close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Gestione fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Gestione fogli di lavoro (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ManagementFeatures/ManagingWorksheets)

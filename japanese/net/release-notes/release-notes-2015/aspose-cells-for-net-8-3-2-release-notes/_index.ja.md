@@ -40,7 +40,7 @@ url: /ja/net/aspose-cells-for-net-8-3-2-release-notes/
 ## **機能強化**
 
 
-(CELLSNET-43144) - 要素のコンテンツのみを含む各シートの HTML をレンダリングする
+(CELLSNET-43144) - 要素のコンテンツのみを含む各シートの HTML をレンダリングします
 
 (CELLSNET-43282) - CSV ファイルを Excel XLSX ファイルにインポートする
 
@@ -66,19 +66,19 @@ url: /ja/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43271) - スプレッドシートを開いて保存すると破損する
 
-(CELLSNET-43266) - 出力 PDF で 2 番目のワークシートが正しくレンダリングされない
+(CELLSNET-43266) - 出力で 2 番目のワークシートが正しくレンダリングされない PDF
 
-(CELLSNET-43262) - IStreamProvider のメソッドが呼び出されない
+ (CELLSNET-43262) - IStreamProvider のメソッドが呼び出されない
 
 (CELLSNET-43248) - XLSB ファイルを再保存すると、スライサーのピボットテーブル接続が削除される
 
 (CELLSNET-43215) - PivotItem.Move の使用中に PivotItem が指定された場所に移動しない
 
-(CELLSNET-43205) - 出力 HTML で一部のグラフィック要素が正しく配置されない
+(CELLSNET-43205) - 出力で一部のグラフィック要素が正しく配置されない HTML
 
-(CELLSNET-43204) - 出力 PDF で一部のグラフィック要素が正しく配置されない
+ (CELLSNET-43204) - 出力で一部のグラフィック要素が正しく配置されない PDF
 
-(CELLSNET-43051) - レンダリングされた HTML ファイル形式で、チャートのデータ ポイントが画像の下に表示される
+ (CELLSNET-43051) - レンダリングされた HTML ファイル形式では、チャート データ ポイントが画像の下に表示されます
 
 (CELLSNET-42878) - ピボット テーブルの背景色が黒に設定されている
 
@@ -108,13 +108,13 @@ url: /ja/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43255) - チャート画像が正しくレンダリングされない
 
-(CELLSNET-43212) - Excel と PDF でのリッチ テキスト データラベルのレンダリングの違い
+(CELLSNET-43212) - Excel と PDF でレンダリングされるリッチ テキスト データラベルの違い
 
 (CELLSNET-43210) - ピボット チャートにフィールド ボタンがない
 
 (CELLSNET-43046) - Chart.ToImage が CultureInfo に準拠した日付形式をレンダリングしない
 
-(CELLSNET-42993) - PDF へのレンダリング時にグラフ データ ラベルが表示されない
+(CELLSNET-42993) - PDF にレンダリングすると、グラフ データ ラベルが表示されない
 
 (CELLSNET-42893) - SheetRender.ToImage がチャートを正しくレンダリングしない
 
@@ -168,7 +168,7 @@ url: /ja/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43319) - XLA ファイルを開く際の System.ArgumentOutOfRangeException
 
-(CELLSNET-43292) - 空のチャート シートでワークブックを保存すると例外が発生する
+ (CELLSNET-43292) - 空のチャート シートでワークブックを保存すると例外が発生する
 
 (CELLSNET-43278) - スパークラインを含む Excel ドキュメントの読み込みエラー
 
@@ -178,7 +178,7 @@ url: /ja/net/aspose-cells-for-net-8-3-2-release-notes/
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**
@@ -218,7 +218,7 @@ WorkbookSettings.NumberDecimalSeparator、NumberGroupSeparator プロパティ�
 
 
 
- WorkbookSettings.CheckWriteProtectedPassword() メソッドを追加
+WorkbookSettings.CheckWriteProtectedPassword() メソッドを追加
 
 パスワードが正しい書き込み禁止パスワードかどうかをチェックします。
 
@@ -296,7 +296,7 @@ SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount
 
 
 
-WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを追加
+ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) メソッドを追加
 
 ワークブックをプリンターにレンダリングします。
 
@@ -346,7 +346,7 @@ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCo
 
 
 
- WorkbookSettings の廃止された ReCalcOnOpen、Language、Encoding、および ConvertNumericData プロパティを削除します。
+WorkbookSettings の廃止された ReCalcOnOpen、Language、Encoding、および ConvertNumericData プロパティを削除します。
 
 
 
@@ -366,7 +366,7 @@ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCo
 
 
 
-HtmlSaveOptions の廃止された DisplayHTMLCrossString と ExportChartImageFormat を削除します。
+ HtmlSaveOptions の廃止された DisplayHTMLCrossString と ExportChartImageFormat を削除します。
 
 
 

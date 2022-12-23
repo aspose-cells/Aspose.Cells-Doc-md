@@ -6,7 +6,7 @@ url: /ru/java/export-chart-to-svg-with-viewbox-attribute/
 ---
  По умолчанию, когда диаграмма экспортируется в формат SVG,**видбокс** атрибут не включен в его XML. Тем не менее, Aspose.Cells обеспечивает[**ImageOrPrintOptions.setSVGFitToViewPort()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#SVGFitToViewPort) свойство, которое при установке на**истинный** экспортирует диаграмму в SVG с атрибутом viewBox.
 
- Если вы откроете SVG диаграммы в блокноте, вы найдете**видбокс** аналогичный этому атрибут.
+ Если вы откроете график SVG в блокноте, вы найдете**видбокс**аналогичный этому атрибут.
 
 {{< highlight "java" >}}
 

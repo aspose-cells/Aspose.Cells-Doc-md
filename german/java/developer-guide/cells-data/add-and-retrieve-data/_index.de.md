@@ -6,7 +6,7 @@ url: /de/java/add-and-retrieve-data/
 ---
 {{% alert color="primary" %}} 
 
- Im[Zugriff auf Cells eines Arbeitsblatts](/cells/de/java/accessing-cells-of-a-worksheet/)haben wir grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt besprochen. Dieser Artikel verwendet einen dieser Ansätze, um Zellen verschiedene Datentypen hinzuzufügen.
+ In[Zugriff auf Cells eines Arbeitsblatts](/cells/de/java/accessing-cells-of-a-worksheet/)haben wir grundlegende Ansätze für den Zugriff auf Zellen in einem Arbeitsblatt besprochen. Dieser Artikel verwendet einen dieser Ansätze, um Zellen verschiedene Datentypen hinzuzufügen.
 
 {{% /alert %}} 
 ## **Hinzufügen von Daten zu Cells**

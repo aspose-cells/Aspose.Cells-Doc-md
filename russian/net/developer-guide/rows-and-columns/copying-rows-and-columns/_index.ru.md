@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /ru/net/copying-rows-and-columns/
 ---
-## **Введение**
+## **Вступление**
 
 Иногда вам нужно скопировать строки и столбцы на листе, не копируя весь лист. С помощью Aspose.Cells можно копировать строки и столбцы внутри или между книгами.
 При копировании строки (или столбца) содержащиеся в ней данные, включая формулы (с обновленными ссылками), а также значения, комментарии, форматирование, скрытые ячейки, изображения и другие объекты чертежа также копируются.
@@ -28,7 +28,7 @@ url: /ru/net/copying-rows-and-columns/
 1.  На вкладке Главная щелкните**Копировать**.
 1.  Щелкните первую ячейку в области, где вы хотите**вставить** что ты скопировал.
 1.  На вкладке Главная щелкните стрелку рядом с**Вставить** , а затем выберите**Вставить** Специальный.
-1.  Выберите**опции** ты хочешь.
+1.  Выберите**параметры** ты хочешь.
 
 ## **Использование Aspose.Cells**
 
@@ -91,7 +91,7 @@ url: /ru/net/copying-rows-and-columns/
 
 ## **Вставка строк/столбцов с параметрами вставки**
 
- Aspose.Cells теперь обеспечивает[**Параметры вставки**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) при использовании функций[**КопиРовс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) а также[**КопиКолонкс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Это позволяет установить соответствующий параметр вставки, аналогичный Excel.
+ Aspose.Cells теперь обеспечивает[**Параметры вставки**](https://reference.aspose.com/cells/net/aspose.cells/pasteoptions) при использовании функций[**КопиРовс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copyrows/methods/2) и[**КопиКолонкс**](https://reference.aspose.com/cells/net/aspose.cells.cells/copycolumns/methods/1). Это позволяет установить соответствующий параметр вставки, аналогичный Excel.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Copying-PastingRowsColumnsWithPasteOptions-1.cs" >}}
 

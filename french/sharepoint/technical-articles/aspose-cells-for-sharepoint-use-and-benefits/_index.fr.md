@@ -29,7 +29,7 @@ La liste suivante met en évidence quelques avantages de l'utilisation du Aspose
 -  Aspose.Cells for SharePoint prend en charge[plusieurs formats d'entrée et de sortie](/cells/fr/sharepoint/multiple-format-support/).
 - Aspose.Cells for SharePoint expose un public API pour les développeurs qui ont besoin de développer leurs propres solutions SharePoint.
 ### **Conversion de documents Excel Microsoft avec Aspose.Cells for SharePoint**
- Une fois Aspose.Cells for SharePoint installé sur le serveur SharePoint, l'option**Convertir avec Aspose.Cells.SharePoint** est disponible dans le menu contextuel :
+ Une fois Aspose.Cells for SharePoint installé sur le serveur SharePoint, l'option**Convertir avec Aspose.Cells.SharePoint** est disponible dans le menu contextuel :
 
 **Trouver l'option Convertir avec...** 
 
@@ -42,7 +42,7 @@ Pour convertir un document Excel Microsoft de votre bibliothèque de documents S
 
 
 1. Sélectionnez le format de sortie.
-Ici, vous pouvez également modifier le nom du fichier de sortie et le dossier de destination.
+ Ici, vous pouvez également modifier le nom du fichier de sortie et le dossier de destination.
 1.  Cliquez sur**Convertir**. 
 
    **Sélection du format de sortie** 
@@ -55,17 +55,17 @@ Ici, vous pouvez également modifier le nom du fichier de sortie et le dossier d
 
 
 
-1.  Cliquez sur**Revenir** pour revenir à la bibliothèque de documents.
+1.  Cliquez sur**Retour** pour revenir à la bibliothèque de documents.
 1.  Le document converti est répertorié dans la bibliothèque de documents SharePoint.
 
    **Le fichier converti est répertorié dans la bibliothèque de documents** 
 
 
-### **Sommaire**
+### **Résumé**
 {{% alert color="primary" %}} 
 
 L'installation et l'utilisation de Aspose.Cells for SharePoint sont faciles. Il ajoute non seulement une fonctionnalité pour convertir les fichiers Excel Microsoft directement sur le serveur SharePoint, mais élimine également le besoin d'installer Excel Microsoft sur les machines clientes. De plus, les développeurs peuvent utiliser le API public de Aspose.Cells for SharePoint pour développer leurs propres solutions SharePoint.
 
- En d'autres termes, il est bénéfique pour les administrateurs de site for SharePoint, les développeurs et les utilisateurs finaux.
+En d'autres termes, il est bénéfique pour les administrateurs de site for SharePoint, les développeurs et les utilisateurs finaux.
 
 {{% /alert %}}

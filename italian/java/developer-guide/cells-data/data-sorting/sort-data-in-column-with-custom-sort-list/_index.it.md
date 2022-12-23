@@ -14,6 +14,6 @@ Il codice di esempio seguente spiega come usare il metodo DataSorter.AddKey(int 
 
 ![cose da fare:immagine_alt_testo](sort-data-in-column-with-custom-sort-list_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SortDataInColumnWithCustomSortList.java" >}}

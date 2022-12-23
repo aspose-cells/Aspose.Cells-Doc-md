@@ -14,7 +14,7 @@ Aspose.Cells for Python via Java يدعم تحويل مصنف إلى ملف Json
 
 ## **تحويل مصنف Excel إلى JSON**
 
- لا داعي للتساؤل عن كيفية تحويل Excel Workbook إلى JSON ، لأن مكتبة Aspose.Cells for Python via Java لديها القرار الأفضل. يوفر Aspose.Cells for Python via Java API دعمًا لتحويل جداول البيانات إلى تنسيق JSON. لتصدير المصنف إلى JSON ، قم بتمرير[**SaveFormat.JSON**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat) كمعامل ثاني لـ[**مصنف**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\) ) طريقة. يمكنك أيضًا استخدام ملفات[**خيارات JsonSave**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonSaveOptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى JSON.
+لا داعي للتساؤل عن كيفية تحويل Excel Workbook إلى JSON ، لأن مكتبة Aspose.Cells for Python via Java لديها القرار الأفضل. يوفر Aspose.Cells for Python via Java API دعمًا لتحويل جداول البيانات إلى تنسيق JSON. لتصدير المصنف إلى JSON ، قم بتمرير[**حفظ تنسيق JSON**](https://reference.aspose.com/cells/python-java/asposecells.api/saveformat) كمعامل ثاني لـ[**مصنف**](https://reference.aspose.com/cells/python-java/asposecells.api/workbook#save\(java.lang.String,%20int\) ) طريقة. يمكنك أيضًا استخدام ملفات[**خيارات JsonSave**](https://reference.aspose.com/cells/python-java/asposecells.api/JsonSaveOptions) فئة لتحديد إعدادات إضافية لتصدير ورقة العمل إلى JSON.
 
  يوضح مثال التعليمات البرمجية التالي تصدير مصنف Excel إلى Json. يرجى الاطلاع على الكود للتحويل[مصدر الملف](sample.xlsx) إلى ملف Json الذي تم إنشاؤه بواسطة الكود كمرجع.
 

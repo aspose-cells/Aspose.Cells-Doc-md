@@ -24,5 +24,5 @@ Pour exécuter les démos Aspose.Cells for JasperReports, procédez comme suit 
 1.  Changer le répertoire courant en**\<InstallDir>\demo\hsqldb** et exécutez la ligne de commande suivante :
    **fourmi runServer**
 1.  Changez le répertoire actuel pour l'une des démos Aspose.Cells for JasperReports, par exemple**\<InstallDir>\demo\samples\ac.charts** et exécutez les commandes suivantes dans la ligne de commande :
-   **test de fourmi** - de produire des fichiers de rapport à l'aide de l'exportateur XLS Aspose.
+   **test de fourmi** - de produire des fichiers de rapport à l'aide de l'exportateur Aspose XLS.
 1.  Ouvrez l'un des documents résultants pour afficher, par exemple**\<InstallDir>\demo\samples\ac.charts\build\reports\AreaChartReport.xls** dans Microsoft Excel ou une autre application.

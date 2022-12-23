@@ -6,7 +6,7 @@ url: /de/net/create-dynamic-charts/
 ---
 {{% alert color="primary" %}}
 
-Dynamische (oder interaktive) Diagramme können sich ändern, wenn Sie den Datenbereich ändern. Mit anderen Worten, die dynamischen Diagramme können Änderungen automatisch widerspiegeln, wenn die Datenquelle geändert wird. Um die Änderung der Datenquelle auszulösen, kann man die Filteroption von Excel-Tabellen verwenden oder ein Steuerelement wie ComboBox oder Dropdown-Liste verwenden.
+Dynamische (oder interaktive) Diagramme können sich ändern, wenn Sie den Datenumfang ändern. Mit anderen Worten, die dynamischen Diagramme können Änderungen automatisch widerspiegeln, wenn die Datenquelle geändert wird. Um die Änderung der Datenquelle auszulösen, kann man die Filteroption von Excel-Tabellen verwenden oder ein Steuerelement wie ComboBox oder Dropdown-Liste verwenden.
 
 Dieser Artikel demonstriert die Verwendung von Aspose.Cells for .NET-APIs zum Erstellen dynamischer Diagramme mit beiden oben genannten Ansätzen.
 

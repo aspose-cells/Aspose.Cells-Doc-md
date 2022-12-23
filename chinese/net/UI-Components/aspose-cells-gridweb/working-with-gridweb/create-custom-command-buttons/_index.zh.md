@@ -6,7 +6,7 @@ url: /zh/net/create-custom-command-buttons/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells.GridWeb 包含特殊按钮，如**提交**, **节省**和**撤消**.所有这些按钮都为 Aspose.Cells.GridWeb 执行特定任务。
+Aspose.Cells.GridWeb 包含特殊按钮，如**提交**, **救球**和**撤消**.所有这些按钮都为 Aspose.Cells.GridWeb 执行特定任务。
 还可以添加执行自定义任务的自定义按钮。本主题说明如何使用此功能。
 
 {{% /alert %}} 
@@ -31,7 +31,7 @@ Aspose.Cells.GridWeb 包含特殊按钮，如**提交**, **节省**和**撤消**
 
 **添加到 GridWeb 控件的自定义命令按钮** 
 
-![待办事项：图像_替代_文本](create-custom-command-buttons_1.png)
+![待办事项：图片_替代_文本](create-custom-command-buttons_1.png)
 
 
 
@@ -45,7 +45,7 @@ Aspose.Cells.GridWeb 包含特殊按钮，如**提交**, **节省**和**撤消**
 
 **单击自定义命令按钮时添加到 A1 单元格的文本** 
 
-![待办事项：图像_替代_文本](create-custom-command-buttons_2.png)
+![待办事项：图片_替代_文本](create-custom-command-buttons_2.png)
 
 
 

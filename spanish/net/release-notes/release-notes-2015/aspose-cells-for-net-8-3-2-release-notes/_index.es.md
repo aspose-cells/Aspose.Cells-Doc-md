@@ -40,9 +40,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 ## **Mejoras**
 
 
- (CELLSNET-43144): renderizar HTML para cada hoja con el contenido del elemento únicamente
+ (CELLSNET-43144) - Procesar HTML para cada hoja con el contenido del elemento únicamente
 
- (CELLSNET-43282) - Importación de un archivo CSV a un archivo XLSX de Excel
+ (CELLSNET-43282) - Importación de un archivo CSV a un archivo de Excel XLSX
 
  (CELLSNET-43251) - Aspose.Cells no aumenta el alto de fila correspondiente
 
@@ -55,7 +55,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
  (CELLSNET-43260): capacidad para recuperar información de la línea de firma de una hoja de cálculo
 
 
-## **Actuación**
+## **Rendimiento**
 
 
  (CELLSNET-43236): la carga de una hoja de cálculo utiliza la mayor parte de la memoria del sistema
@@ -66,19 +66,19 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 (CELLSNET-43271) - Al abrir y guardar la hoja de cálculo, se corrompe
 
- (CELLSNET-43266) - La segunda hoja de trabajo no se representa correctamente en el PDF de salida
+ (CELLSNET-43266) - La segunda hoja de trabajo no se representa correctamente en la salida PDF
 
  (CELLSNET-43262) - No se llama a los métodos de IStreamProvider
 
- (CELLSNET-43248): se eliminaron las conexiones de la tabla dinámica para la segmentación al volver a guardar un archivo XLSB.
+ (CELLSNET-43248): se eliminaron las conexiones de la tabla dinámica para la segmentación al volver a guardar un archivo XLSB
 
  (CELLSNET-43215) - PivotItem no se mueve a la ubicación especificada mientras se usa PivotItem.Move
 
- (CELLSNET-43205): algunos elementos gráficos están fuera de lugar en el HTML de salida
+ (CELLSNET-43205): algunos elementos gráficos están fuera de lugar en la salida HTML
 
- (CELLSNET-43204): algunos elementos gráficos están fuera de lugar en el PDF de salida
+ (CELLSNET-43204): algunos elementos gráficos están fuera de lugar en la salida PDF
 
- (CELLSNET-43051): los puntos de datos del gráfico aparecen debajo de la imagen en el formato de archivo HTML representado.
+ (CELLSNET-43051): los puntos de datos del gráfico aparecen debajo de la imagen en el formato de archivo renderizado HTML
 
  (CELLSNET-42878): el color de fondo de la tabla dinámica está configurado en negro
 
@@ -86,11 +86,11 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-43306) - Aspose.Cells no convierte la línea punteada en línea recta
 
- (CELLSNET-43288) - Las imágenes no se procesan al convertir una hoja de cálculo a PDF
+(CELLSNET-43288) - Las imágenes no se procesan al convertir la hoja de cálculo a PDF
 
-(CELLSNET-43263) - Problema en la representación de la imagen
+ (CELLSNET-43263) - Problema en la representación de la imagen
 
- (CELLSNET-43245): el diseño se reduce y los bordes se vuelven más gruesos en el PDF de salida
+ (CELLSNET-43245): el diseño se reduce y los bordes se vuelven más gruesos en la salida PDF
 
  (CELLSNET-42973) - Problema de alineación del pie de página
 
@@ -102,7 +102,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-43273) - Las líneas de cuadrícula principales del eje vertical (valor) ya no se pueden seleccionar
 
- (CELLSNET-43272): la rotación de imágenes no se usa en el formato de archivo PDF renderizado.
+ (CELLSNET-43272) - La rotación de imágenes no se usa en el formato de archivo renderizado PDF
 
  (CELLSNET-43267) - El texto hebreo está invertido en el gráfico
 
@@ -112,9 +112,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-43210) - Faltan botones de campo en el gráfico dinámico
 
- (CELLSNET-43046) - Chart.ToImage no presenta el formato de fecha conforme a CultureInfo
+(CELLSNET-43046) - Chart.ToImage no presenta el formato de fecha conforme a CultureInfo
 
-(CELLSNET-42993): las etiquetas de datos de gráfico no se muestran al renderizar a PDF
+ (CELLSNET-42993): las etiquetas de datos de gráfico no se muestran cuando se representa en PDF
 
  (CELLSNET-42893): SheetRender.ToImage no representa el gráfico correctamente
 
@@ -136,13 +136,13 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-43280) - Configuración del tipo de ubicación de CommentShape en "Mover"
 
- (CELLSNET-43275): documento de Excel abierto al bloquear la vista protegida
+(CELLSNET-43275): documento de Excel abierto al bloquear la vista protegida
 
-(CELLSNET-43270): la configuración del zoom para la hoja de trabajo de tipo gráfico no tiene efecto
+ (CELLSNET-43270): la configuración del zoom para la hoja de trabajo de tipo gráfico no tiene efecto
 
  (CELLSNET-43269) - UpdateLinkedDataSource no está recuperando datos nuevos del libro de trabajo externo
 
- (CELLSNET-43265): problema de conversión de SpreadsheetML con el signo de libra Ansi
+ (CELLSNET-43265): problema de conversión del signo de libra Ansi SpreadsheetML
 
  (CELLSNET-43264): aplicación de bordes a las celdas
 
@@ -166,9 +166,9 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  (CELLSNET-43323): excepción en el método Workbook.CalculateFormula()
 
- (CELLSNET-43319): System.ArgumentOutOfRangeException al abrir un archivo XLA
+(CELLSNET-43319): System.ArgumentOutOfRangeException al abrir un archivo XLA
 
-(CELLSNET-43292): excepción al guardar el libro de trabajo con una hoja de gráfico vacía
+ (CELLSNET-43292): excepción al guardar el libro de trabajo con una hoja de gráficos vacía
 
  (CELLSNET-43278): error al cargar el documento de Excel con Sparklines
 
@@ -178,7 +178,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -218,7 +218,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
 
 
- Agrega el método WorkbookSettings.CheckWriteProtectedPassword()
+Agrega el método WorkbookSettings.CheckWriteProtectedPassword()
 
  Comprueba si la contraseña es correcta contraseña protegida contra escritura.
 
@@ -244,7 +244,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  Agrega el método PivotItem.Move(int count, bool isSameParent).
 
- Mueve el elemento hacia arriba o hacia abajo.
+Mueve el elemento hacia arriba o hacia abajo.
 
 
 
@@ -256,7 +256,7 @@ La siguiente es una lista de cambios en esta versión de Aspose.Cells.
 
  Agrega el método Workbook.GetNamedStyle(nombre de cadena).
 
-Obtiene el estilo con nombre en el grupo de estilos del libro de trabajo por nombre.
+ Obtiene el estilo con nombre en el grupo de estilos del libro de trabajo por nombre.
 
 
 
@@ -296,7 +296,7 @@ Obtiene el estilo con nombre en el grupo de estilos del libro de trabajo por nom
 
 
 
-Agrega el método WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Agrega el método WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 
  Renderiza el libro de trabajo a la impresora.
 
@@ -322,11 +322,11 @@ Agrega el método WorkbookRender.ToPrinter(string PrinterName, int PrintPageInde
 
  Obsoleta el método PivotItem.Move(int count).
 
- Usando el método PivotItem.Move(int count, bool isSameParent) en su lugar.
+Usando el método PivotItem.Move(int count, bool isSameParent) en su lugar.
 
 
 
-Elimina todos los métodos Open() y Save() obsoletos de Workbook.
+ Elimina todos los métodos Open() y Save() obsoletos de Workbook.
 
 
 
@@ -346,7 +346,7 @@ Elimina todos los métodos Open() y Save() obsoletos de Workbook.
 
 
 
- Elimina las propiedades obsoletas ReCalcOnOpen, Language, Encoding y ConvertNumericData de WorkbookSettings.
+Elimina las propiedades obsoletas ReCalcOnOpen, Language, Encoding y ConvertNumericData de WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ Elimina todos los métodos Open() y Save() obsoletos de Workbook.
 
 
 
-Elimina DisplayHTMLCrossString obsoletos y ExportChartImageFormat de HtmlSaveOptions.
+ Elimina DisplayHTMLCrossString obsoletos y ExportChartImageFormat de HtmlSaveOptions.
 
 
 

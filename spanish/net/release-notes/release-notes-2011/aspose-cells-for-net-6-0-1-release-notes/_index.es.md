@@ -18,7 +18,7 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28590 Comprobación de presencia de contraseña
 
- Actuación
+ Rendimiento
 
  28414 La impresión de la hoja de trabajo lleva mucho tiempo
 
@@ -40,7 +40,7 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28399 La función ROUND por Aspose.Cells da un valor diferente al de MS Excel
 
- 28523 La fórmula INDIRECTA no funciona cuando se genera en formato XLSB
+ 28523 Fórmula INDIRECTA no funciona cuando se genera en formato XLSB
 
  28624 #Referencia recursiva! El resultado se obtiene de la fórmula.
 
@@ -48,9 +48,9 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28781 Error de fórmula cuando se usa el nombre de la hoja con paréntesis
 
- 28571 Celdas desplazadas en HTML
+ 28571 Células desplazadas en HTML
 
- 24963 Imagen renderizada con fondos transparentes en salida PDF
+ 24963 Imagen renderizada con fondos transparentes en la salida PDF
 
  28697 Problema de marca de agua al convertir a PDF
 
@@ -62,21 +62,21 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28930 El texto de las celdas se trunca al convertir a PDF
 
- 29184 Las imágenes recortadas ya no permanecen recortadas al convertirlas a PDF
+ 29184 Las imágenes recortadas ya no permanecen recortadas cuando se convierten a PDF
 
  28352 Tabla dinámica: se creó una columna de resumen adicional
 
- 28751 Actualizar la funcionalidad de la tabla dinámica
+28751 Actualizar la funcionalidad de la tabla dinámica
 
- 28489 Problema al convertir un archivo XLSX vacío a TIFF
+ 28489 Problema al convertir el archivo vacío XLSX a TIFF
 
-29058 Problema de renderizado
+ 29058 Problema de renderizado
 
  28929 Obtener mapa de bits o tamaño de papel de SheetRender API error
 
  24912 Guardar XLSB con filtros de datos agrega un rango con nombre no válido
 
- 28782 Problema de generación de XLSB cuando la hoja de trabajo contiene validación de datos
+ 28782 XLSB problema de generación cuando la hoja de trabajo contiene validación de datos
 
  28714 Un problema con el formato de archivo XLSB
 
@@ -96,12 +96,12 @@ url: /es/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Insectos**
  29289 Procesar problema de barra de desplazamiento vertical al filtrar filas
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 ### **Nuevas características**
- 26751 Importar gráficos y formas desde un archivo de Excel
+26751 Importar gráficos y formas desde un archivo de Excel
 ### **Mejoras**
  28964 Exportar más de 256 columnas a archivos de Excel 2007
 
-26751 Representar imágenes de forma con formato EMF en lugar de formato JPEG
+ 26751 Representar imágenes de forma con formato EMF en lugar de formato JPEG
 ### **Insectos**
  28808 Medir ancho de cuerda

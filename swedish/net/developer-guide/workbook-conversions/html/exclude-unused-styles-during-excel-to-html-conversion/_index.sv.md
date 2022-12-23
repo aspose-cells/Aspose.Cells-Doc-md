@@ -1,18 +1,18 @@
 ﻿---
-title: Uteslut oanvända stilar under konvertering av Excel till HTML
+title: Uteslut oanvända formatmallar under konvertering av Excel till HTML
 type: docs
 weight: 30
 url: /sv/net/exclude-unused-styles-during-excel-to-html-conversion/
 ---
 ## **Möjliga användningsscenarier**
 
-Microsoft Excel-filen kan innehålla många oanvända stilar. När du exporterar Excel-filen till HTML-format, exporteras även dessa oanvända stilar. Detta kan öka storleken på HTML. Du kan utesluta oanvända stilar under konverteringen av Excel-fil till HTML med hjälp av[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) fast egendom. När du ställer in den**Sann**alla oanvända stilar exkluderas från utdata-HTML. Följande skärmdump visar ett exempel på en oanvänd stil i utdata-HTML.
+Microsoft Excel-filen kan innehålla många oanvända stilar. När du exporterar Excel-filen till HTML-formatet exporteras även dessa oanvända stilar. Detta kan öka storleken på HTML. Du kan utesluta oanvända stilar under konverteringen av Excel-filen till HTML med hjälp av[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) fast egendom. När du ställer in den**Sann**, alla oanvända stilar exkluderas från utgången HTML. Följande skärmdump visar ett exempel på oanvänd stil i utgången HTML.
 
 ![todo:image_alt_text](exclude-unused-styles-during-excel-to-html-conversion_1.png)
 
-## **Uteslut oanvända stilar under konvertering av Excel till HTML**
+## **Uteslut oanvända formatmallar under konvertering av Excel till HTML**
 
-Följande exempelkod skapar en arbetsbok och skapar även en oanvänd namngiven stil. Sedan[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) är satt till**Sann** , kommer denna oanvända namngivna stil inte att exporteras till[mata ut HTML](61767778.zip) . Men om du ställer in det på**falsk**, då kommer denna oanvända stil att finnas i utdata-HTML som du sedan kan se i HTML-uppmärkning som visas i skärmdumpen ovan.
+Följande exempelkod skapar en arbetsbok och skapar även en oanvänd namngiven stil. Sedan[**HtmlSaveOptions.ExcludeUnusedStyles**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/excludeunusedstyles) är satt till**Sann** , kommer denna oanvända namngivna stil inte att exporteras till[utgång HTML](61767778.zip) . Men om du ställer in det på**falsk**, då kommer denna oanvända stil att finnas i utgången HTML som du sedan kan se i HTML-markeringen som visas i skärmdumpen ovan.
 
 ## **Exempelkod**
 

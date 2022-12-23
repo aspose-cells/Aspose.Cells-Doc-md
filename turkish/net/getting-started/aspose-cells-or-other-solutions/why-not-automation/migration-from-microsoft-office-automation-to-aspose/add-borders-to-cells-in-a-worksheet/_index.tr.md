@@ -22,8 +22,8 @@ Elektronik tablodaki hücrelere kenarlık eklemek için aşağıdaki adımları 
  1. Kenarlık ekleyeceğiniz hücrelere metin ekleyin.
 1. Kenarlık ekle:
  1. Bir aralık tanımlayın.
- 1. Aralığa bir kenarlık stili uygulayın.
-Ayarlamak istediğiniz her aralık ve her kenarlık stili için tekrarlayın. Bu örnek, saç çizgileri, ince, orta ve kalın çizgiler için geçerlidir.
+1. Aralığa bir kenarlık stili uygulayın.
+ Ayarlamak istediğiniz her aralık ve her kenarlık stili için tekrarlayın. Bu örnek, saç çizgileri, ince, orta ve kalın çizgiler için geçerlidir.
 1. Bitiş:
  1. Metni düzgün bir şekilde sığdırmak için hücrelerin bulunduğu sütunu otomatik sığdırın.
  1. Belgeyi kaydedin.
@@ -32,7 +32,7 @@ Ayarlamak istediğiniz her aralık ve her kenarlık stili için tekrarlayın. Bu
 
 Kod, ilk sayfada her biri farklı kenarlığa sahip birkaç hücre içeren bir Excel dosyası oluşturur:
 
-![yapılacaklar:resim_alternatif_Metin](add-borders-to-cells-in-a-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](add-borders-to-cells-in-a-worksheet_1.png)
 
 **Cells, kenarlık uygulanmış.**
 

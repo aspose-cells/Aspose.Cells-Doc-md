@@ -14,6 +14,6 @@ Aspose.Cells consente di filtrare o rimuovere i nomi definiti presenti all'inter
 
 ![cose da fare:immagine_alt_testo](filter-defined-names-while-loading-workbook_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Workbook-FilterDefinedNamesWhileLoadingWorkbook.cs" >}}

@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /tr/net/grouping-and-ungrouping-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 
 Bir Microsoft Excel dosyasında, tek bir fare tıklamasıyla ayrıntı düzeylerini göstermenize ve gizlemenize olanak tanıyan veriler için bir ana hat oluşturabilirsiniz.
 
@@ -12,7 +12,7 @@ Bir Microsoft Excel dosyasında, tek bir fare tıklamasıyla ayrıntı düzeyler
 
 |**Satırları ve Sütunları Gruplandırma.**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](grouping-and-ungrouping-rows-and-columns_1.png)|
+|![yapılacaklar:resim_alternatif_metin](grouping-and-ungrouping-rows-and-columns_1.png)|
 
 ## **Satır ve Sütunların Grup Yönetimi**
 
@@ -41,13 +41,13 @@ Microsoft Excel, aşağıdakileri görüntülemek için grup ayarlarını yapıl
 
 ### **Ayrıntı Altına Özet Satırları**
 
- Ayarlayarak özet satırlarının ayrıntıların altında görüntülenip görüntülenmediğini kontrol etmek mümkündür.[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf'[**ÖzetSatırAşağıda**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) mülkiyet**doğru** veya**yanlış**.
+ Ayarlayarak özet satırlarının ayrıntıların altında görüntülenip görüntülenmediğini kontrol etmek mümkündür.[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf'[**ÖzetSatırAşağıda**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summaryrowbelow) mülkiyet**doğru** veya**YANLIŞ**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowBelow-1.cs" >}}
 
 ### **Ayrıntı Sağındaki Özet Sütunları**
 
- Geliştiriciler ayrıca, ayrıntının sağında özet sütunlarının görüntülenmesini ayarlayarak kontrol edebilir.[**ÖzetSütunuSağ**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) mülkiyet[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf**doğru** veya**yanlış**.
+ Geliştiriciler ayrıca, ayrıntının sağında özet sütunlarının görüntülenmesini ayarlayarak kontrol edebilir.[**ÖzetSütunuSağ**](https://reference.aspose.com/cells/net/aspose.cells/outline/properties/summarycolumnright) mülkiyet[**Anahat**](https://reference.aspose.com/cells/net/aspose.cells/outline) sınıf**doğru** veya**YANLIŞ**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-RowsColumns-Grouping-SummaryRowRight-1.cs" >}}
 

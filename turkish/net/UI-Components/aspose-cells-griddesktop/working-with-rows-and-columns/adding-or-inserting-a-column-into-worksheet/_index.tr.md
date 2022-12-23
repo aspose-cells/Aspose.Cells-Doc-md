@@ -14,7 +14,7 @@ Bu konuda, Aspose.Cells.GridDesktop'un API'ini kullanarak çalışma zamanında 
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Kolon** için**Çalışma kağıdı**
+-  Eklemek**Kolon** için**Çalışma kağıdı**
 
 
 

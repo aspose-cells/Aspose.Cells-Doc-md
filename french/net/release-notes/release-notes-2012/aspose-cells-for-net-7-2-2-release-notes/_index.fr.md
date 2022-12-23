@@ -24,9 +24,9 @@ Nous sommes
 - Désactiver le vérificateur de compatibilité dans MS Excel
 - Implémentation/interprétation incorrecte pour ouvrir un format de fichier incorrect
 
- Exceptions
+ Des exceptions
 
-- NullReferenceException lors de l'ouverture/sauvegarde d'un fichier XLSX
+- NullReferenceException lors de l'ouverture/de l'enregistrement d'un fichier XLSX
 - Exception : il y a trop de formats dans la feuille de calcul
 
  -Opération arithmétique a donné lieu à un trop-plein
@@ -42,7 +42,7 @@ Nous sommes
  -#Référence récursive ! Erreur
 
 - La copie du fichier à l'aide de Aspose Cells nécessite des travaux de réparation
-- Considérer un fichier Excel 97 XLS comme un document Word
+- Penser qu'un fichier Excel 97 XLS est un document Word
 
  -L'exportation vers le graphique PDF est différente de la version Excel
 

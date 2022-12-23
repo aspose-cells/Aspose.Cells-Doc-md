@@ -19,7 +19,7 @@ Le filtrage automatique est le moyen le plus rapide de sélectionner uniquement 
 Pour activer la fonction de filtre automatique dans Microsoft Excel :
 
 1. Cliquez sur la ligne d'en-tête dans une feuille de calcul.
-1. Du**Données**menu, sélectionnez**Filtre**et alors**Filtre automatique**.
+1. Du**Données**menu, sélectionnez**Filtre**et puis**Filtre automatique**.
 
 Lorsque vous appliquez un filtre automatique à une feuille de calcul, des commutateurs de filtre (flèches noires) apparaissent à droite des en-têtes de colonne.
 
@@ -27,7 +27,7 @@ Lorsque vous appliquez un filtre automatique à une feuille de calcul, des commu
 
 Certaines des options de filtre automatique sont :
 
-|**Choix**|**La description**|
+|**Choix**|**Description**|
 |:- |:- |
 |Tout|Afficher tous les éléments de la liste une fois.|
 |Personnalisé|Personnalisez les critères de filtre comme contient/ne contient pas|
@@ -40,9 +40,9 @@ Les utilisateurs filtrent manuellement leurs données de feuille de calcul dans 
 
 ### **Filtre automatique avec Aspose.Cells**
 
-Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)qui représente un fichier Excel. La[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
+Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)qui représente un fichier Excel. Le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)classe contient un[**WorksheetCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)qui permet d'accéder à chaque feuille de calcul dans le fichier Excel.
 
-Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classer. La[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour créer un filtre automatique, utilisez le[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classer. La[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)la propriété est un objet de la[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)classe, qui fournit la[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)propriété pour spécifier la plage de cellules qui composent une ligne d'en-tête. Un filtre automatique est appliqué à la plage de cellules qui correspond à la ligne d'en-tête.
+Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)La classe fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour créer un filtre automatique, utilisez le[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)propriété de la[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Le[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)la propriété est un objet de la[**Filtre automatique**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)classe, qui fournit la[**Intervalle**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)propriété pour spécifier la plage de cellules qui composent une ligne d'en-tête. Un filtre automatique est appliqué à la plage de cellules qui correspond à la ligne d'en-tête.
 
 Dans chaque feuille de calcul, vous ne pouvez spécifier qu'une seule plage de filtres. Ceci est limité par Microsoft Excel. Pour un filtrage de données personnalisé, utilisez le[**AutoFilter.Custom**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) méthode.
 
@@ -65,7 +65,7 @@ Aspose.Cells fournit une fonction[**addFillColorFilter**](https://reference.aspo
 
 ##### **Date**
 
-Différents types de filtres de date peuvent être implémentés comme le filtrage de toutes les lignes ayant des dates en janvier 2018. L'exemple de code suivant illustre ce filtre en utilisant[**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)) fonction. Les fichiers suivants peuvent être utilisés pour tester cette fonctionnalité.
+Différents types de filtres de date peuvent être implémentés comme le filtrage de toutes les lignes ayant des dates en janvier 2018. L'exemple de code suivant illustre ce filtre en utilisant[**addDateFilter**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#addDateFilter(int,%20int,%20int,%20int,%20int,%20int,%20int,%20int)) une fonction. Les fichiers suivants peuvent être utilisés pour tester cette fonctionnalité.
 
 1. [Date.xlsx](72417317.xlsx)
 1. [FilteredDate.xlsx](72417318.xlsx)
@@ -81,7 +81,7 @@ Parfois, des filtres dynamiques sont nécessaires en fonction d'une date, comme 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterDynamicFilter.java" >}}
 
-##### **Numéro**
+##### **Nombre**
 
 Des filtres personnalisés peuvent être appliqués à l'aide de Aspose.Cells, comme la sélection de cellules dont le nombre se situe dans une plage donnée. L'exemple suivant montre l'utilisation de[**Douane()**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) fonction pour filtrer les nombres. Des exemples de fichiers peuvent être téléchargés à partir des liens suivants.
 

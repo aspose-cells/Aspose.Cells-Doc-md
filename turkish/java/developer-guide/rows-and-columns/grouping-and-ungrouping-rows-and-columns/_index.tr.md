@@ -4,14 +4,14 @@ type: docs
 weight: 40
 url: /tr/java/grouping-and-ungrouping-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Bir Microsoft Excel dosyasında, tek bir fare tıklamasıyla ayrıntı düzeylerini göstermenize ve gizlemenize olanak tanıyan veriler için bir ana hat oluşturabilirsiniz.
 
  Tıkla**Anahat Sembolleri**, 1,2,3, + ve - yalnızca bir çalışma sayfasındaki bölümler için özetler veya başlıklar sağlayan satırları veya sütunları hızlı bir şekilde görüntülemek için veya aşağıdaki şekilde gösterildiği gibi ayrıntıları tek bir özet veya başlık altında görmek için sembolleri kullanabilirsiniz. :
 
  Satırların ve sütunların gruplandırılması
 
-![yapılacaklar:resim_alternatif_Metin](grouping-and-ungrouping-rows-and-columns_1.png)
+![yapılacaklar:resim_alternatif_metin](grouping-and-ungrouping-rows-and-columns_1.png)
 ## **Satırlar ve Sütunların Grup Yönetimi**
  Aspose.Cells bir sınıf sağlar,[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) bu bir Microsoft Excel dosyasını temsil eder. bu[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) sınıf bir içerir[çalışma sayfaları](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon. Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) sınıf bir sağlar[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells)çalışma sayfasındaki tüm hücreleri temsil eden koleksiyon.
 
@@ -34,7 +34,7 @@ Microsoft Excel ayrıca aşağıdakileri görüntülemek için grup ayarlarını
 
 **Grup ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](grouping-and-ungrouping-rows-and-columns_2.png)
+![yapılacaklar:resim_alternatif_metin](grouping-and-ungrouping-rows-and-columns_2.png)
 
 Worksheet sınıfının Outline özelliğini kullanarak bu grup ayarlarını yapılandırmak mümkündür.
 ### **Detayın Altındaki Özet Satırları**

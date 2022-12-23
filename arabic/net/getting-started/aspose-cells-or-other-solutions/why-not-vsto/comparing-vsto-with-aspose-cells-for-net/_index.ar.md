@@ -24,7 +24,7 @@ url: /ar/net/comparing-vsto-with-aspose-cells-for-net/
 
 -  تفحص ال[وثائق Aspose.Cells](https://docs.aspose.com/cells/net/).
 -  انظر كيف يعمل في[عروض توضيحية عبر الإنترنت](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
--  حاول:[تحميل](https://downloads.aspose.com/cells/net) نسخة تقييم مجانية.
+-  حاول:[تحميل](https://downloads.aspose.com/cells/net)نسخة تقييم مجانية.
 
 تقارن هذه المقالة VSTO و Aspose.Cells في جوانب مختلفة تتعلق بـ Microsoft Excel. القائمة ليست كاملة ولكنها تمثل بعض القضايا التي يجب على صانعي القرار فهمها قبل اتخاذ قرار نهائي قبل اعتماد نهج.
 
@@ -77,7 +77,7 @@ url: /ar/net/comparing-vsto-with-aspose-cells-for-net/
 - إصدار واحد أو أكثر من الإصدارات التالية من Visual Studio Tools for Office:
  - Microsoft أدوات Visual Studio 2005 لنظام المكتب Microsoft
  - Microsoft أدوات Visual Studio 2005 لنظام المكتب 2007 Microsoft
- Visual Studio 2008 Professional Edition
+ - Visual Studio 2008 Professional Edition
  - Visual Studio 2008 Team Suite Edition
  - نسخة واحدة من Microsoft Office:
  - Microsoft أوفيس بروفيشنال 2003 SP1

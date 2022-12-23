@@ -14,7 +14,7 @@ Pour ajouter un lien hypertexte vers une cellule à l'aide de Aspose.Cells.GridD
 
 -  Ajoutez le contrôle Aspose.Cells.GridDesktop à votre**Formulaire**
 -  Accédez à tout**Feuille de travail**
--  Ajouter**Image** à la feuille de calcul en spécifiant le chemin du fichier de l'image et le nom de la cellule où l'image sera insérée
+-  Ajouter**Photo** à la feuille de calcul en spécifiant le chemin du fichier de l'image et le nom de la cellule où l'image sera insérée
 
 **Des photos** collecte dans le**Feuille de travail** l'objet fournit une surcharge**Ajouter** méthode. Les développeurs peuvent utiliser n'importe quelle version surchargée de**Ajouter** méthode en fonction de leurs besoins spécifiques. L'utilisation de ces versions surchargées de**Ajouter** méthode, il est possible d'ajouter une image à partir d'un fichier, d'un flux ou**Image** objet.
 
@@ -32,7 +32,7 @@ Vous trouverez ci-dessous l'exemple de code permettant d'accéder aux images d'u
 
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples.GridDesktop-CSharp-GridDesktop.Examples-WorkingWithWorksheet-ManagingPictures-AccessAndModifyPicture.cs" >}}
 ## **Suppression d'images**
- Pour supprimer une image existante, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Retirer** image de la**Des photos** collecte de la**Feuille de travail** en spécifiant la cellule (en utilisant son nom ou son numéro de ligne et de colonne) qui contient l'image.
+ Pour supprimer une image existante, les développeurs peuvent simplement accéder à une feuille de calcul souhaitée, puis**Supprimer** image de la**Des photos** collecte de la**Feuille de travail** en spécifiant la cellule (en utilisant son nom ou son numéro de ligne et de colonne) qui contient l'image.
 
 Dans le code ci-dessous, il est montré comment supprimer des images de la feuille de calcul.
 

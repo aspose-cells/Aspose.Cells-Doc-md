@@ -28,7 +28,7 @@ Aspose.Cells fornisce un insieme speciale di classi utilizzate per creare tabell
 1. Scarica e installa Aspose.Cells:
    1. [Scarica Aspose.Cells](https://downloads.aspose.com/cells/net).
  1. Installalo sul tuo computer di sviluppo.
- Tutto[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti. Per lavorare con il componente nella sua piena capacità è necessario disporre di una licenza valida.
+ Tutti[Aspose](http://www.aspose.com/) i componenti, una volta installati, funzionano in modalità di valutazione. La modalità di valutazione non ha limiti di tempo e si limita a inserire filigrane nei documenti prodotti. Per lavorare con il componente nella sua piena capacità è necessario disporre di una licenza valida.
 1. Crea un progetto:
  1. Avviare Visual Studio.Net.
  1. Creare una nuova applicazione console.

@@ -13,14 +13,14 @@ url: /ja/java/aspose-cells-for-java-17-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSJAVA-42479|LoadDataFilterOptions 列挙の改善とあいまいさの除去|強化|
-|CELLSJAVA-42460|CSV 形式 - D2 と D6 は IsString ですが、Aspose.Cells は IsNumeric として扱います|強化|
-|CELLSJAVA-42457|XLSX を PDF に変換すると、グラフの一部の線が異なります|バグ|
-|CELLSJAVA-42465|一部の CSS クラス宣言は、出力 HTML でプレフィックスが付けられません。|バグ|
-|CELLSJAVA-42456|ソースと一致しない HTML 出力 - Excel から HTML への変換|バグ|
+|CELLSJAVA-42460|CSV フォーマット - D2 と D6 は IsString ですが、Aspose.Cells は IsNumeric として扱います|強化|
+|CELLSJAVA-42457|XLSX を PDF に変換すると、チャートの一部の線が異なります|バグ|
+|CELLSJAVA-42465|一部の CSS クラス宣言は、出力 HTML でプレフィックスが付けられていません|バグ|
+|CELLSJAVA-42456|HTML の出力がソースと一致しない - Excel から HTML への変換|バグ|
 |CELLSJAVA-42478|HSQL DB から long 値をインポートすると例外がスローされる|バグ|
-|CELLSJAVA-42466|出力 PDF で数式が正しく表示されない|バグ|
-|CELLSJAVA-42475|出力 PDF にグラフがありません|バグ|
-|CELLSJAVA-42459|出力 PDF/画像にグラフのデータラベルがありません|バグ|
+|CELLSJAVA-42466|数式が出力でうまく表示されない PDF|バグ|
+|CELLSJAVA-42475|出力 PDF にチャートがありません|バグ|
+|CELLSJAVA-42459|グラフのデータラベルが出力 PDF/image にありません|バグ|
 |CELLSJAVA-42453|グラフ画像が似ていない Microsoft エクセル|バグ|
 |CELLSJAVA-42447|出力 HTML ファイル形式でデータラベルが正しく表示されない|バグ|
 |CELLSJAVA-42481|コンボ ボックス名の設定は元の Excel ファイルでは機能しませんが、Microsoft Excel で再保存すると正常に機能します|バグ|

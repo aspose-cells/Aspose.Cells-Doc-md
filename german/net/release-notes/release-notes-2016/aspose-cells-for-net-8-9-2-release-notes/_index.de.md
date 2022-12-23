@@ -8,36 +8,36 @@ url: /de/net/aspose-cells-for-net-8-9-2-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSNET-44274 |Unterstützung des TTE-Schrifttyps beim Rendern von Tabellenkalkulationen in PDF| Neue Funktion|
-|CELLSNET-42277 | Verwenden Sie private Zeichen beim PDF-Rendering| Erweiterung|
-|CELLSNET-44630 | Zahlenformatierung (DateTime) geht beim Importieren von Daten aus DataGrid verloren (.NET)| Erweiterung|
+|CELLSNET-44274 | Unterstützung des TTE-Schrifttyps beim Rendern von Tabellenkalkulationen in PDF| Neue Funktion|
+|CELLSNET-42277 | Verwenden Sie private Zeichen beim Rendern von PDF| Erweiterung|
+|CELLSNET-44630 | Numbers Formatierung (DateTime) geht beim Importieren von Daten aus DataGrid verloren (.NET)| Erweiterung|
 |CELLSNET-44626 | Das mit CopyRows kopierte Diagramm verweist weiterhin auf das Quellarbeitsblatt im Diagrammdatenbereich| Erweiterung|
 |CELLSNET-44619 | Konvertieren Sie die Datumszeichenfolge in das Datumsformat| Erweiterung|
-|CELLSNET-44625 | Colspan as 2 erhöht die HTML-Lade- und Konvertierungszeit drastisch| Leistung|
-|CELLSNET-44338 | Leistungsabfall beim Rendern von Tabellenkalkulationen in PDF| Leistung|
-|CELLSNET-44610 | Das Attribut „Fett“ geht beim Konvertieren von HTML in XLSX verloren| Insekt|
-|CELLSNET-44609 | Die Richtung des Inhalts wird beim Konvertieren von HTML in XLSX geändert| Insekt|
-|CELLSNET-44608 | Beim Konvertieren von HTML in XLSX fehlen Rahmen| Insekt|
-|CELLSNET-44607 | Cell Schattierung fehlt beim Konvertieren von HTML in XLSX| Insekt|
-|CELLSNET-44606 | Beim Konvertieren von HTML in XLSX fehlen Inhalte| Insekt|
-|CELLSNET-44605 | Unsachgemäße Konvertierung von HTML in XLSX| Insekt|
-|CELLSNET-44579 | MHTML zu XLS/XLSX kommt als leeres Dokument zurück| Insekt|
+|CELLSNET-44625 | Colspan as 2 erhöht die Lade- und Konvertierungszeit von HTML drastisch| Leistung|
+|CELLSNET-44338 | Leistungsabfall beim Rendern von Tabellenkalkulationen auf PDF| Leistung|
+|CELLSNET-44610 | Das Fett-Attribut geht beim Konvertieren von HTML in XLSX verloren| Insekt|
+|CELLSNET-44609 | Die Richtung des Inhalts wird geändert, während HTML in XLSX konvertiert wird| Insekt|
+|CELLSNET-44608 | Beim Umwandeln von HTML in XLSX fehlen Grenzen| Insekt|
+|CELLSNET-44607 | Cell-Schattierung fehlt beim Konvertieren von HTML in XLSX| Insekt|
+|CELLSNET-44606 | Beim Umwandeln von HTML in XLSX fehlen Inhalte| Insekt|
+|CELLSNET-44605 |Falsche Umwandlung von HTML in XLSX| Insekt|
+|CELLSNET-44579 | MHTML bis XLS/XLSX kommt als leeres Dokument zurück| Insekt|
 |CELLSNET-44572 | Problem mit Hyperlinks, die auf ein Arbeitsblatt im selben Dokument verweisen| Insekt|
 |CELLSNET-44617 | SumProduct-Formel wird nicht korrekt berechnet| Insekt|
-|CELLSNET-44604 |Fehlender Text nach Umwandlung von XLS in Pdf/A| Insekt|
-|CELLSNET-44603 | Vertikales Ausrichtungsproblem mit Zelleninhalt, der den oberen Rand berührt, während Tabellenkalkulationen in PDF gerendert werden| Insekt|
-|CELLSNET-44602 | Problem mit der horizontalen Ausrichtung bei Werten mit vorangestelltem $-Zeichen beim Rendern von Tabellenkalkulationen in PDF| Insekt|
-|CELLSNET-42715 | Verlorene Schriftarten im PDF| Insekt|
+|CELLSNET-44604 | Fehlender Text nach Konvertierung von XLS in Pdf/A| Insekt|
+|CELLSNET-44603 | Vertikales Ausrichtungsproblem mit Zelleninhalt, der den oberen Rand berührt, während Tabellen auf PDF gerendert werden| Insekt|
+|CELLSNET-44602 | Problem mit der horizontalen Ausrichtung mit Werten, denen ein $-Zeichen vorangestellt ist, während Tabellenkalkulationen auf PDF gerendert werden| Insekt|
+|CELLSNET-42715 | Verlorene Schriftarten in der PDF| Insekt|
 |CELLSNET-44637 | Das Ergebnis von CalculateTextSize ist immer die Standardhöhe, wenn Text in einer TextBox neue Zeilen enthält| Insekt|
-|CELLSNET-44635 | Diagramm ist in der Datei sample2.xlsx nicht korrekt (Konvertierung von Excel in PDF)| Insekt|
+|CELLSNET-44635 | Diagramm ist in sample2.xlsx nicht korrekt (Konvertierung von Excel in PDF)| Insekt|
 |CELLSNET-44634 | Datentabellen sind in sample2.xlsx nicht korrekt (Konvertierung von Excel in PDF)| Insekt|
 |CELLSNET-44633 | Datentabellen sind in sample1.xlsx nicht korrekt (Konvertierung von Excel in PDF)| Insekt|
-|CELLSNET-44623 | Geänderte Radardiagrammmarkierungen werden nicht richtig in PDF konvertiert| Insekt|
-|CELLSNET-44601 | Beschriftungen der horizontalen Achse fehlen beim Rendern von Diagramm zu Bild| Insekt|
-|CELLSNET-44570 | Problem mit der Formatierung der WordArt-Form in der gerenderten PDF-Datei| Insekt|
+|CELLSNET-44623 | Geänderte Radarkartenmarkierung wird nicht richtig in PDF konvertiert| Insekt|
+|CELLSNET-44601 |Beschriftungen der horizontalen Achse fehlen beim Rendern von Diagramm zu Bild| Insekt|
+|CELLSNET-44570 | Problem mit der Formatierung der WordArt-Form in der gerenderten Datei PDF| Insekt|
 |CELLSNET-44655 | Die Ausrichtung funktioniert nicht innerhalb einer TextBox| Insekt|
 |CELLSNET-44646 | Die Datei ist beschädigt (wobei der Hyperlink zu normalem Text wird), nachdem sie von Aspose.Cells-APIs verarbeitet wurde| Insekt|
-|CELLSNET-44639 |Das erneute Einbetten der Präsentationsfolie in XLS führt bei einem Doppelklick zur Präsentationsansicht| Insekt|
+|CELLSNET-44639 | Das erneute Einbetten der Präsentationsfolie in XLS führt beim Doppelklick zur Präsentationsansicht| Insekt|
 |CELLSNET-44631 | Excel-Fehler "Die Quellanwendung für dieses Objekt kann nicht gestartet werden" nach dem erneuten Einfügen des OleObject vom Bitmap-Typ| Insekt|
 |CELLSNET-44629 | Die Formel führt nach dem Kopieren der Zeilen und dem Berechnen von Formeln zu einem #REF-Fehler| Insekt|
 |CELLSNET-44624 | Datumsformat wird beim Speichern als SpreadsheetML-Datei nicht beibehalten| Insekt|
@@ -46,17 +46,17 @@ url: /de/net/aspose-cells-for-net-8-9-2-release-notes/
 |CELLSNET-44611 | Das erneute Speichern einer Tabelle mit benutzerdefiniertem Design verursacht einen Fehler im Open XML SDK| Insekt|
 |CELLSNET-44649 | Benutzerdefinierte Berechnungs-Engine bewirkt, dass die Berechnung nur einmal erfolgt| Insekt|
 |CELLSNET-44663 | Fehler beim Öffnen einer XLSB-Datei| Insekt|
-|CELLSNET-44657 | Konvertierung von HTML nach XLSX in der resultierenden Tabelle| Insekt|
-|CELLSNET-44648 | Beim Konvertieren von HTML in XLSX fehlen Inhalte| Insekt|
-|CELLSNET-44647 | Beim Konvertieren von HTML in XLSX fehlt der Stil| Insekt|
+|CELLSNET-44657 | Umwandlung von HTML in XLSX in der resultierenden Tabelle| Insekt|
+|CELLSNET-44648 | Beim Umwandeln von HTML in XLSX fehlen Inhalte| Insekt|
+|CELLSNET-44647 | Stil fehlt beim Konvertieren von HTML in XLSX| Insekt|
 |CELLSNET-44671 | Es ist unmöglich, eine TextBox vollständig transparent zu machen| Insekt|
 |CELLSNET-44662 | Die Methode Chart.Calculate() bringt das Diagramm durcheinander| Insekt|
-|CELLSNET-44665 | Serie fehlt beim Rendern des Diagramms in das Bild| Insekt|
+|CELLSNET-44665 |Serie fehlt beim Rendern des Diagramms in das Bild| Insekt|
 |CELLSNET-44674 | Mehrdeutige Kommentare für die veralteten Shape.LineFormat- und FillFormat-Eigenschaften| Insekt|
 |CELLSNET-44670 | Das Standardverhalten beim Hinzufügen von TextBox zum Arbeitsblatt hat sich geändert| Insekt|
 |CELLSNET-44661 | Geändertes OLELink-Dokument (in Excel importierte Word-Tabelle) zeigt nach Update-Links immer noch alte Werte an| Insekt|
 |CELLSNET-44659 | Farben werden nach dem Laden und Speichern einer XLS-Datei geändert| Insekt|
-|CELLSNET-44584 | System.FormatException ist beim Importieren einer HTML-Datei aufgetreten| Ausnahme|
+|CELLSNET-44584 |System.FormatException ist beim Importieren einer HTML-Datei aufgetreten| Ausnahme|
 |CELLSNET-44643 | Beim Öffnen der Datei wird eine Ausnahme ausgelöst| Ausnahme|
 |CELLSNET-44612 | CellsException: Fehler in Cell: O93-Ungültige Formel beim Laden von XLSM, die mit Aspose.Cells gespeichert wurde| Ausnahme|
 |CELLSNET-44600 | System.ArgumentException bei Workbook.Save| Ausnahme|
@@ -65,12 +65,12 @@ url: /de/net/aspose-cells-for-net-8-9-2-release-notes/
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
 |CELLSNET-41833 | Problem bei Verwendung des Zahlenformats „Prozent2“.| Neue Funktion|
-|CELLSNET-44592 |Eine vertikale Bildlaufleiste wird für den Container angezeigt, wenn die Höhe des GridWeb auf 100 % eingestellt ist| Insekt|
+|CELLSNET-44592 | Eine vertikale Bildlaufleiste wird für den Container angezeigt, wenn die Höhe des GridWeb auf 100 % eingestellt ist| Insekt|
 |CELLSNET-44576 | Der Cursor bewegt sich nicht, wenn ShowCellEditBox auf true gesetzt ist| Insekt|
 |CELLSNET-44575 | Zweites Mal Zellen zusammenführen funktioniert nicht| Insekt|
 |CELLSNET-44555 | Problem beim Festlegen des Werts einer Zelle mit Prozentformat| Insekt|
 |CELLSNET-44652 | GridDesktop hat keine Evaluierungseinschränkungen, wenn es in einer WPF-Anwendung verwendet wird| Insekt|
-|CELLSNET-44676 |Implementieren oder fügen Sie einen Kommentar in der Datei acwmain.js hinzu, um die Versionsnummer zu erfahren| Insekt|
+|CELLSNET-44676 | Implementieren oder fügen Sie einen Kommentar in der Datei acwmain.js hinzu, um die Versionsnummer zu erfahren| Insekt|
 |CELLSNET-44656 | Eine zusätzliche leere Zelle wird rechts neben der ersten leeren Zelle in der Einfügezeile eingefügt| Insekt|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for .NET vorgenommen wurden das Aspose.Cells Support-Forum.

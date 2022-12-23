@@ -9,6 +9,6 @@ weight: 15
 Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 22.7
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|32718 |Supporto al renderer XML.| Nuova caratteristica|
+|32718 |Supporto al renderer XML.|Nuova caratteristica|

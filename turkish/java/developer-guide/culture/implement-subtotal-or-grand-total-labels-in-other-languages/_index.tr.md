@@ -5,7 +5,7 @@ weight: 40
 url: /tr/java/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Olası Kullanım Senaryoları**
- Bazen Çince, Japonca, Arapça, Hintçe gibi İngilizce dışındaki dillerde ara toplam ve genel toplam etiketlerini göstermek istersiniz. Aspose.Cells, bunu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) sınıf ve[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) Emlak. Lütfen nasıl kullanılacağı hakkında bu makaleye bakın.[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)sınıf
+Bazen Çince, Japonca, Arapça, Hintçe gibi İngilizce dışındaki dillerde ara toplam ve genel toplam etiketlerini göstermek istersiniz. Aspose.Cells, bunu[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings) sınıf ve[WorkbookSettings.GlobalizationSettings](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#GlobalizationSettings) Emlak. Lütfen nasıl kullanılacağı hakkında bu makaleye bakın.[KüreselleşmeAyarları](https://reference.aspose.com/cells/java/com.aspose.cells/GlobalizationSettings)sınıf
 
 - [Özel Ara Toplam Etiketleri ve Pasta Grafiğinin Diğer Etiketi için GlobalizationSettings Sınıfını Kullanma](/cells/tr/java/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 ## **Diğer dillerde Alt Toplam veya Genel Toplam etiketlerini uygulama**

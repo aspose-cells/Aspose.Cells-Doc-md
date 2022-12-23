@@ -13,10 +13,10 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-2-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-44317|Bu xlsx dosyasındaki metin bozuk|
-|CELLSJAVA-44271|Excel'i PDF'ye dönüştürürken, manuel dönüştürme durumuna kıyasla çıktı konumu kayar|
-|CELLSJAVA-44197|XLSX'i PDF'ye dönüştürürken, pivot tablo zaman çizelgesi şekli (pencere) görüntülenmiyor|
+|CELLSJAVA-44271|Excel'i PDF'e dönüştürürken, manuel dönüştürme durumuna kıyasla çıktı konumu kayar|
+|CELLSJAVA-44197|XLSX'i PDF'e dönüştürürken, pivot tablo zaman çizelgesi şekli (pencere) görüntülenmiyor|
 |CELLSJAVA-44267|Pivot tablo içeren çalışma kitabı bozuluyor|
-|CELLSJAVA-44114|XLSX'ten PDF'e: XLSX dosyasındaki Bilimsel sayı biçimindeki veriler, çıktı PDF dosyasındaki verilerle eşleşmiyor|
+|CELLSJAVA-44114|XLSX - PDF: XLSX dosyasındaki Bilimsel sayı biçimindeki veriler, PDF çıktı dosyasındaki verilerle eşleşmiyor|
 |CELLSJAVA-44293|Yeniden kaydedilen Excel dosyasının, MS Excel'de açılırken kurtarılması gerekiyor|
 |CELLSJAVA-43194|Resimler yanlış gösteriliyor|
 |CELLSJAVA-44243|GridWeb bahar demo kaydetme dosyası jdk1.8'de başarısız oldu|
@@ -25,13 +25,13 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-2-release-notes/
 |CELLSJAVA-44229|td içeriği div etiketiyle sarıldığında formül kaybolur|
 |CELLSJAVA-44247|PDF'ye dönüştürülürken tek satırlık metin kaydırılıyor|
 |CELLSJAVA-44175| Çakışan Halka Grafik Etiketleri ile ilgili sorun|
-|CELLSJAVA-44192| Grafikteki kategori ekseni öğe adı, Excel'den PDF'ye dönüştürmede kesiliyor|
+|CELLSJAVA-44192|Grafikteki kategori ekseni öğe adı Excel'de kesilerek PDF'e dönüştürülür|
 |CELLSJAVA-44233|XLSX dosyasını dönüştürürken sonsuz döngü|
 |CELLSJAVA-44263|Grafik etiketi metninin yönünün dikey olarak ayarlanması etkili olmuyor|
 |CELLSJAVA-44268| Chart.toPdf yönteminde "java.lang.NullPointerException" istisnası|
-|CELLSJAVA-44302|Excel dosyası HTML'ye dönüştürüldükten sonra koordinat ekseninin metin yönü yanlış|
+|CELLSJAVA-44302|Excel dosyası HTML'e dönüştürüldükten sonra koordinat ekseninin metin yönü yanlış|
 |CELLSJAVA-44314|Grafikten görüntüye dönüştürmede yanlış grafik kategorisi eksen etiketleri|
-|CELLSJAVA-44274|SVG formatı, PDF'yi okumak veya oluşturmak için destekleniyor mu?|
+|CELLSJAVA-44274|SVG biçimi, PDF'i okumak veya işlemek için destekleniyor mu?|
 |CELLSJAVA-44311|HTML dosya biçimine dönüştürülürken "java.lang.OutOfMemoryError: Java öbek alanı" istisnası|
 |CELLSJAVA-44285|Workbook.calculateFormula() çağrılırken "java.lang.ClassCastException: com.aspose.cells.n2f, com.aspose.cells.o90'a aktarılamaz" istisnası|
 

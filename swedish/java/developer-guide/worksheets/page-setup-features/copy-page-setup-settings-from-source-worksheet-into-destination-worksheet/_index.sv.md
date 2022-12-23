@@ -6,7 +6,7 @@ url: /sv/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 ---
 ## **Möjliga användningsscenarier**
 
-När du lägger till ett nytt ark i en arbetsbok innehåller det standardinställningarna för sidinställningar. Det kan finnas tillfällen då du behöver överföra inställningarna ([**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)från ett kalkylblad till ett annat kalkylblad. Det här dokumentet förklarar hur du kopierar inställningar för sidinställningar från ett kalkylblad till ett annat med hjälp av Aspose.Cells API:er.
+När du lägger till ett nytt ark i en arbetsbok innehåller det standardinställningarna för sidinställningar. Det kan finnas tillfällen då du behöver överföra inställningarna ([**Utskriftsformat**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) från ett kalkylblad till ett annat kalkylblad. Det här dokumentet förklarar hur du kopierar inställningar för sidinställningar från ett kalkylblad till ett annat med hjälp av Aspose.Cells API:er.
 
 ## **Kopiera inställningar för sidinställningar från källarbetsbladet till målarbetsbladet**
 

@@ -19,7 +19,7 @@ url: /de/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48042|Abgerufene formatierte Zellenwerte sind im Excel-Arbeitsblatt falsch|Erweiterung|
 |CELLSNET-48078|Tiefe Kopie der Arbeitsmappe nach der Berechnung mit der Einstellung CreateCalcChain|Erweiterung|
 |CELLSNET-48079| So überprüfen Sie, ob ein Arbeitsblatt leer ist|Erweiterung|
-|CELLSNET-48135| Problem mit geschützter Arbeitsmappe (mit Passwort), generiert von Aspose.Cells|Erweiterung|
+|CELLSNET-48135|Problem mit geschützter Arbeitsmappe (mit Passwort), generiert von Aspose.Cells|Erweiterung|
 |CELLSNET-48050| CPU hängt an geöffneter Arbeitsmappe|Leistung|
 |CELLSNET-48063|Zeitkosten beim Aufruf der API Cells.GetRowRawHeightPoint|Leistung|
 |CELLSNET-48046|Der Textversatz der Form ist falsch (Pfeil: Quad).|Insekt|
@@ -29,7 +29,7 @@ url: /de/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48060|Fehler bei der Verwendung der RemoveUnusedStyles-Funktion mit benutzerdefinierten Stilen|Insekt|
 |CELLSNET-48080|PivotTable kann beim Erstellen von PivotTables nicht „值“ oder „Values“ als Spaltennamen verwenden|Insekt|
 |CELLSNET-48085| Ausgeblendete Spaltenüberschrift wird gerendert|Insekt|
-|CELLSNET-48105|Die Textfeldplatzierung wird beim Konvertieren von Excel in HTML geändert|Insekt|
+|CELLSNET-48105|Die Platzierung des Textfelds wird beim Konvertieren von Excel in HTML geändert|Insekt|
 |CELLSNET-48048| Ausnahme beim Speichern von XLSX mit Kommentaren im PDF-Format|Insekt|
 |CELLSNET-48082|Das Hinzufügen von mehr als 30 Zeilen mit ImportCustomObjects generiert eine beschädigte Datei|Insekt|
 |CELLSNET-48086|Benannter Bereich wurde in 21.5 nicht richtig erstellt, funktionierte aber in 21.4|Insekt|
@@ -44,9 +44,9 @@ url: /de/net/aspose-cells-for-net-21-6-release-notes/
 |CELLSNET-48065|Eine erneut gespeicherte Datei mit einem bestimmten benannten Bereichswert führt zu einer Beschädigung von Excel|Insekt|
 |CELLSNET-48067|SetChartDataRange hat verbundene Zellen nicht erkannt|Insekt|
 |CELLSNET-48072|Beim Lesen eines leeren Diagramms wird ein falscher Diagrammtyp angezeigt|Insekt|
-|CELLSNET-48133|Von MS Excel ausgelöster Fehler beim Öffnen der XLSX-Ausgabedatei|Insekt|
+|CELLSNET-48133|Von MS Excel ausgelöster Fehler beim Öffnen der Ausgabedatei XLSX|Insekt|
 |CELLSNET-48045|Beim Konvertieren von SVG in ein Bild wird eine Ausnahme ausgelöst|Ausnahme|
-|CELLSNET-48062|Beim Konvertieren von XLS in XLSX wurde eine Ausnahme ausgelöst|Ausnahme|
+|CELLSNET-48062|Ausnahme beim Konvertieren von XLS in XLSX ausgelöst|Ausnahme|
 |CELLSNET-48074|Der Wert darf beim Öffnen der Apple-Zahlendatei nicht null sein|Ausnahme|
 |
 

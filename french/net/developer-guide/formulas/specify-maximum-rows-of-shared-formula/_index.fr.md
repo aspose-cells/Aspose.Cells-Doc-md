@@ -12,7 +12,7 @@ Le nombre maximum de lignes par défaut de la formule partagée est de 64. Il pe
 
 ## **Spécifier le nombre maximal de lignes de formule partagée**
 
-L'exemple de code suivant explique l'utilisation de[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) propriété. Il définit le nombre maximal de lignes de la formule partagée sur 5 et ajoute la formule partagée dans la cellule D1 pour 100 lignes et enregistre dans[fichier Excel de sortie](61767856.xlsx). Si vous extrayez le contenu du fichier Excel de sortie et vérifiez le*feuille1.xml*, vous verrez la formule partagée se diviser toutes les 5 lignes, comme indiqué dans la capture d'écran ci-dessus.
+L'exemple de code suivant explique l'utilisation du[**Workbook.Settings.MaxRowsOfSharedFormula**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrowsofsharedformula) la propriété. Il définit le nombre maximal de lignes de la formule partagée sur 5 et ajoute la formule partagée dans la cellule D1 pour 100 lignes et enregistre dans[fichier Excel de sortie](61767856.xlsx). Si vous extrayez le contenu du fichier Excel de sortie et vérifiez le*feuille1.xml*, vous verrez la formule partagée se diviser toutes les 5 lignes, comme indiqué dans la capture d'écran ci-dessus.
 
 ## **Exemple de code**
 

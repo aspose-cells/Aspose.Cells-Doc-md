@@ -14,7 +14,7 @@ url: /de/net/aspose-cells-for-net-5-3-1-release-notes/
 
  Was hat sich in Aspose.Cells geändert:
 
-- Unterstützt die Wiedergabe von arabischem Text bei der PDF-Konvertierung.
+- Unterstützt die Wiedergabe von arabischem Text in der PDF-Konvertierung.
  17 Verbesserungen und Korrekturen.
 
  Was hat sich in Aspose.Cells.GridWeb geändert:

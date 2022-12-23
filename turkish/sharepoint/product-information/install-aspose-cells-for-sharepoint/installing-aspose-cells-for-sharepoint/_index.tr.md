@@ -38,7 +38,7 @@ Kurulum programı aşağıdaki eylemleri gerçekleştirir:
 
    **Sistem kontrolü** 
 
-![yapılacaklar:resim_alternatif_Metin](installing-aspose-cells-for-sharepoint_1.png)
+![yapılacaklar:resim_alternatif_metin](installing-aspose-cells-for-sharepoint_1.png)
 
 
 
@@ -47,7 +47,7 @@ Kurulum programı aşağıdaki eylemleri gerçekleştirir:
 
    **EULA** 
 
-![yapılacaklar:resim_alternatif_Metin](installing-aspose-cells-for-sharepoint_2.png)
+![yapılacaklar:resim_alternatif_metin](installing-aspose-cells-for-sharepoint_2.png)
 
 
 
@@ -56,7 +56,7 @@ Kurulum programı aşağıdaki eylemleri gerçekleştirir:
 
    **Dağıtım hedefleri** 
 
-![yapılacaklar:resim_alternatif_Metin](installing-aspose-cells-for-sharepoint_3.png)
+![yapılacaklar:resim_alternatif_metin](installing-aspose-cells-for-sharepoint_3.png)
 
 
 
@@ -65,7 +65,7 @@ Kurulum programı aşağıdaki eylemleri gerçekleştirir:
 
    **Çalışan kurulum** 
 
-![yapılacaklar:resim_alternatif_Metin](installing-aspose-cells-for-sharepoint_4.png)
+![yapılacaklar:resim_alternatif_metin](installing-aspose-cells-for-sharepoint_4.png)
 
 
 
@@ -75,4 +75,4 @@ Kurulum programı aşağıdaki eylemleri gerçekleştirir:
 
    **Kurulum tamamlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](installing-aspose-cells-for-sharepoint_5.png)
+![yapılacaklar:resim_alternatif_metin](installing-aspose-cells-for-sharepoint_5.png)

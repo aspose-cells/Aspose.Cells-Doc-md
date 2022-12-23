@@ -29,7 +29,7 @@ Neue Eigenschaften
 
 Verbesserungen
 
-(CELLSJAVA-41145) – Intelligente Generierung von CSS beim Exportieren von Tabellenkalkulationen in HTML
+(CELLSJAVA-41145) – Intelligente Generierung von CSS beim Exportieren von Tabellenkalkulationen nach HTML
 (CELLSJAVA-41177) - Cell.setHtmlString funktioniert nicht bei Verwendung von "<s><span style="color:#ff00ff;">S2</span></s>"
 (CELLSJAVA-41162) – Fügen Sie Standard-Schriftartenverzeichnisse für Mac und Linux in der Schriftarten-Suchliste hinzu
 
@@ -39,14 +39,14 @@ Leistung
 
 Fehler
 
-(CELLSJAVA-41165) – PivotChart wird nach dem Aktualisieren der Quelldaten und dem Rendern der Tabelle in PDF nicht aktualisiert
-(CELLSJAVA-41156) – Chart.refreshPivotData bewirkt, dass die Daten in der Diagrammachse in Zahlen konvertiert werden, während die Tabelle in PDF konvertiert wird
-(CELLSJAVA-41154) – Beim Einfügen des Bereichs mit PasteType.ALL wird eine zusätzliche Zeile in der HTML-Ausgabe angezeigt
+(CELLSJAVA-41165) – PivotChart wird nach dem Aktualisieren der Quelldaten und dem Rendern der Tabelle auf PDF nicht aktualisiert
+(CELLSJAVA-41156) – Chart.refreshPivotData bewirkt, dass die Daten auf der Diagrammachse in Zahlen konvertiert werden, während die Tabelle in PDF konvertiert wird
+(CELLSJAVA-41154) – Beim Einfügen des Bereichs mit PasteType.ALL wird in der Ausgabe von HTML eine zusätzliche Zeile angezeigt
 (CELLSJAVA-41151) – Seltsames Verhalten in Bezug auf die Formatierung im PivotTable-Ausgabebericht, wenn die Codezeile verwendet und nicht verwendet wird, die dem Abrufen des Zeilenbereichs entspricht
-(CELLSJAVA-41150) – FormatCondition wird in Bezug auf das Numbers-Format beim Rendern in das HTML-Dateiformat nicht unterstützt
+(CELLSJAVA-41150) – FormatCondition wird in Bezug auf das Numbers-Format nicht unterstützt, wenn in das HTML-Dateiformat gerendert wird
 (CELLSJAVA-41146) – Falsche Darstellung des Rahmens beim Konvertieren der Tabelle in HTML
 (CELLSJAVA-41134) – XLSB2007TestNewS.xlsb wird nicht geladen und erhöht den Speicherverbrauch weiter
-(CELLSJAVA-41129) – Zusätzliche Zeilen werden angezeigt, wenn Ausgabe-HTML in Chrome angezeigt wird
+(CELLSJAVA-41129) – Zusätzliche Zeilen werden angezeigt, wenn die Ausgabe HTML in Chrome angezeigt wird
 (CELLSJAVA-41122) - Öffnen und Sparen von Financial_Aussage_Eingang_Bericht_Withdata.xlsb macht es beschädigt
 (CELLSJAVA-41098) – Pivot-Tabelle aktualisieren entfernt die Formatierung der Pivot-Tabelle beim Konvertieren in PDF
 (CELLSJAVA-41157) – MemorySetting.MEMORY_PREFERENCE bewirkt, dass XLS beschädigt wird
@@ -54,11 +54,11 @@ Fehler
 (CELLSJAVA-41148) – Excel hat unlesbaren Inhalt gefunden... Fehler beim Öffnen und Speichern der Arbeitsmappe
 (CELLSJAVA-41141) – Cell wird nicht mit der ListObject.putCellValue()-Methode festgelegt
 (CELLSJAVA-41140) – Die Erweiterungstabelle kopiert keine Formel in neue Zeilen
-(CELLSJAVA-41166) – XPS Viewer kann Aspose.Cells generiertes XPS nicht öffnen
-(CELLSJAVA-41163) – Der SVG-Export erstellt eine ungültige Datei
-(CELLSJAVA-41153) – Shape.toImage speichert das Bild für andere Formen als Chart im BMP-Format und nicht im SVG-Format
+(CELLSJAVA-41166) - XPS Viewer kann Aspose.Cells nicht öffnen generiert XPS
+(CELLSJAVA-41163) – SVG Export erstellt ungültige Datei
+(CELLSJAVA-41153) – Shape.toImage speichert das Bild im Format BMP und nicht im Format SVG für andere Formen als Diagramm
 (CELLSJAVA-41137) – Problem beim Festlegen der Zellbereichswerte von DataLabels
-(CELLSJAVA-41128) – Diagramme werden beim erneuten Speichern der XLSX-Datei nicht korrekt gerendert
+(CELLSJAVA-41128) – Diagramme werden beim erneuten Speichern der Datei XLSX nicht korrekt gerendert
 (CELLSJAVA-41125) – Das Diagrammbild weist ein Rauschen auf, wenn es mit geringerer Auflösung konvertiert wird
 (CELLSJAVA-40928) – Chinesischer Text in Diagrammkategorietiteln wird nicht korrekt wiedergegeben
 (CELLSJAVA-41158) – Problem mit der Formatierung von Daten im PivotTable-Bericht
@@ -68,7 +68,7 @@ Fehler
 Ausnahmen
 
 (CELLSJAVA-41164) - java.lang.NullPointerException bei Cells.find
-(CELLSJAVA-41131) – „Speichern in PDF“ bleibt hängen und Speicherprobleme mit der Quell-XLSB-Datei
+(CELLSJAVA-41131) – Speichern unter PDF bleibt hängen und Speicherproblem mit der Quelldatei XLSB
 
 Öffentliche API und rückwärts inkompatible Änderungen
 
@@ -77,7 +77,7 @@ Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen A
  Fügt die Eigenschaften WorkbookSettings.NumberDecimalSeparator und NumberGroupSeparator hinzu
  Ruft die zum Formatieren/Parsen numerischer Werte verwendeten Trennzeichen ab bzw. legt sie fest.
 
- Fügt die Methode WorkbookSettings.CheckWriteProtectedPassword() hinzu
+Fügt die Methode WorkbookSettings.CheckWriteProtectedPassword() hinzu
  Überprüft, ob das Passwort das richtige schreibgeschützte Passwort ist.
 
  Fügt die Picture.SignatureLine-Eigenschaft und die SignatureLine-Klasse hinzu.
@@ -116,7 +116,7 @@ Ruft die Anzahl der zu speichernden Seiten ab oder legt diese fest.
  Fügt die Methode SheetRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) hinzu
 Rendert das Arbeitsblatt auf dem Drucker.
 
-Fügt die Methode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) hinzu
+ Fügt die Methode WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) hinzu
 Rendert die Arbeitsmappe auf dem Drucker.
 
  Fügt PdfSaveOptions.IsFontSubstitutionCharGranularity-Eigenschaften hinzu
@@ -137,7 +137,7 @@ Benutzer sollten Workbook.CreateStyle() anstelle von StyleCollection.Add() verwe
  Veraltet PivotItem.Move(int count)-Methode.
 Verwenden Sie stattdessen die Methode PivotItem.Move(int count, bool isSameParent).
 
-Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
+ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
  Löscht die veraltete Methode Workbook.SetOleSize().
 
@@ -147,7 +147,7 @@ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
  Löscht veraltete Open()- und Save()-Methoden von WorkbookDesigner.
 
- Löscht veraltete ReCalcOnOpen-, Language-, Encoding- und ConvertNumericData-Eigenschaften von WorkbookSettings.
+Löscht veraltete ReCalcOnOpen-, Language-, Encoding- und ConvertNumericData-Eigenschaften von WorkbookSettings.
 
  Löscht die veralteten Eigenschaften HidePivotFieldList,EnableHTTPCompression,IsMinimized,IsHidden,SheetTabBarWidth von WorksheetCollection.
 
@@ -157,7 +157,7 @@ Löscht alle veralteten Open()- und Save()-Methoden von Workbook.
 
  Löscht veraltete HPageBreaks und VPageBreaks von Worksheet.
 
-Löscht veraltete DisplayHTMLCrossString und ExportChartImageFormat von HtmlSaveOptions.
+ Löscht veraltete DisplayHTMLCrossString und ExportChartImageFormat von HtmlSaveOptions.
 
  Löscht die veraltete Eigenschaft ExpCellNameToXLSX von SaveOptions.
 

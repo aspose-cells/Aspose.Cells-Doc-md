@@ -1,5 +1,5 @@
 ﻿---
-title: تحويل ملفات HTML إلى جداول بيانات Excel بلغة Ruby
+title: تحويل ملفات HTML إلى جداول بيانات إكسل بلغة روبي
 type: docs
 weight: 40
 url: /ar/java/converting-html-files-to-excel-spreadsheets-in-ruby/
@@ -38,7 +38,7 @@ url: /ar/java/converting-html-files-to-excel-spreadsheets-in-ruby/
 end
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 تحميل**تحويل ملفات HTML إلى جداول بيانات Excel (Aspose.Cells)**من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

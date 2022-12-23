@@ -19,12 +19,12 @@ Aspose.Cells for Java v7.1.1 を発表させていただきます!
 
 機能強化
 
-- OutputStream に直接レンダリングして、LightCells API で XLSX に保存する
+- OutputStream に直接レンダリングして LightCells API で XLSX に保存する
 
 例外
 
 - Cell.setHtmlString() メソッドが NullPointerException をスローする
-- XLSX テンプレート ファイルを読み取ると NullPointerException がスローされる
+- Readingan XLSX テンプレート ファイルが NullPointerException をスローする
 
 バグ
 

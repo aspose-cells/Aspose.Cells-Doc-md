@@ -21,24 +21,24 @@ url: /it/java/aspose-cells-for-java-2-4-3-release-notes/
 - Corregge alcuni bug interni di lettura/salvataggio dei file ODS.
 - Corregge alcuni bug interni di lettura/salvataggio di file Excel 97-2003.
 - È stato apportato un miglioramento per la funzione Grafico a immagine.
-- È stato apportato un miglioramento per la funzione Direct Excel to PDF.
+- Il miglioramento è stato apportato per Direct Excel alla funzione PDF.
 - 14 correzioni e miglioramenti.
 
  Problemi risolti in Aspose.Cells for Java 2.4.3
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |20887 | Xlsx| Colore del tema utilizzato dalle celle|
-|20913 | ODS| Leggi il filtro automatico|
+|20913 |ODS | Leggi il filtro automatico|
 |21073 | XL| Copia celle|
 |21164 | XL| Leggi il file Excel2003|
 |21155 | Xls2Pdf| Rendering di forme/caratteri cinesi|
 |21283 | XL| Intestazione/piè di pagina diversi per le pagine prima/pari/dispari|
 |21480 | Xlsx| Leggi gli stili|
-|21481 | ODS| Intero riferimento riga/colonna come "B:B" o "1:1"|
+|21481 |ODS | Intero riferimento riga/colonna come "B:B" o "1:1"|
 |20635 | Grafico| Controlla l'origine dati non valida|
 |21580 | XL| Filtro automatico|
-|21679 | ODS| Leggi il file modello|
+|21679 |ODS | Leggi il file modello|
 |21703 | XL| Formattazione dei numeri|
 |21686 | XL| Leggi le proprietà del documento|
 |21622 | html| Esporta grafico/forme come immagine|

@@ -281,7 +281,7 @@ private static void InsertText(string docName, string text)
 }
 
 {{< /highlight >}}
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/AsposeCellsVsOpenXMLv1.1)
 - [Sourceforge](https://sourceforge.net/projects/asposeopenxml/files/Aspose.Cells%20Vs%20OpenXML/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\).zip/download)
 - [Bit hink](https://bitbucket.org/asposemarketplace/aspose-for-openxml/downloads/Insert%20text%20into%20a%20cell%20\(Aspose.Cells\).blixtlås)

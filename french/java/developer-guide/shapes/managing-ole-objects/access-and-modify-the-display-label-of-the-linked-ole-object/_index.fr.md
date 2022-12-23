@@ -6,7 +6,7 @@ url: /fr/java/access-and-modify-the-display-label-of-the-linked-ole-object/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Microsoft Excel vous permet de modifier l'étiquette d'affichage de l'objet Ole comme indiqué dans la capture d'écran suivante. Vous pouvez également accéder ou modifier l'étiquette d'affichage de l'objet Ole à l'aide des API Aspose.Cells avec le[**OleObject.LabelOleObject.Label**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#Label)propriété.
+Microsoft Excel vous permet de modifier l'étiquette d'affichage de l'objet Ole comme indiqué dans la capture d'écran suivante. Vous pouvez également accéder ou modifier l'étiquette d'affichage de l'objet Ole à l'aide des API Aspose.Cells avec le[**OleObject.LabelOleObject.Label**](https://reference.aspose.com/cells/java/com.aspose.cells/oleobject#Label)la propriété.
 
 ![tâche : image_autre_texte](access-and-modify-the-display-label-of-the-linked-ole-object_1.png)
 

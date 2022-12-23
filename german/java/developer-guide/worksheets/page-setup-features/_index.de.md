@@ -20,12 +20,12 @@ Die Worksheet-Klasse stellt die PageSetup-Eigenschaft bereit, die zum Festlegen 
 
 ### **Seitenausrichtung**
 
- Die Seitenausrichtung kann mithilfe von auf Hoch- oder Querformat eingestellt werden[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode. Das[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode nimmt die[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) Aufzählung als Parameter. Die Mitglieder der[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType)Aufzählung sind unten aufgeführt.
+Die Seitenausrichtung kann mithilfe von auf Hoch- oder Querformat eingestellt werden[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Klasse'[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode. Das[**setOrientation(PageOrientationType)**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#Orientation) Methode nimmt die[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) Aufzählung als Parameter. Die Mitglieder der[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/java/com.aspose.cells/PageOrientationType) Aufzählung sind unten aufgeführt.
 
 |**Seitenausrichtungstypen**|**Beschreibung**|
 |:- |:- |
 |[**LANDSCHAFT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#LANDSCAPE)|Landschaftsorientierung|
-|[**PORTRÄT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Hochkant|
+|[**PORTRÄT**](https://reference.aspose.com/cells/java/com.aspose.cells/pageorientationtype#PORTRAIT)|Hochformat|
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageOrientation-PageOrientation.java" >}}
 
@@ -113,7 +113,7 @@ Aspose.Cells unterstützt die Seiteneinrichtungsoptionen von Microsoft Excel vol
 
 ![todo: Bild_alt_Text](page-setup-features_2.png)
 
- Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)das stellt eine Microsoft Excel-Datei dar. Die Workbook-Klasse enthält die Worksheets-Auflistung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
+ Aspose.Cells bietet eine Klasse,[**Arbeitsmappe**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) das stellt eine Microsoft Excel-Datei dar. Die Workbook-Klasse enthält die Worksheets-Auflistung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht. Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) Klasse.
 
  Die Worksheet-Klasse stellt die PageSetup-Eigenschaft bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet wird. Das PageSetup-Attribut ist ein Objekt der[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) -Klasse, die es ermöglicht, verschiedene Seitenlayoutoptionen für ein gedrucktes Arbeitsblatt festzulegen. Die PageSetup-Klasse stellt verschiedene Eigenschaften und Methoden bereit, die zum Festlegen von Seiteneinrichtungsoptionen verwendet werden.
 
@@ -136,7 +136,7 @@ Aspose.Cells unterstützt die Seiteneinrichtungsoptionen von Microsoft Excel vol
 
 ### **Kopf- und Fußzeilenränder**
 
-Kopf- und Fußzeilenränder mit einstellen[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Mitglieder wie z[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) und[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
+ Kopf- und Fußzeilenränder mit einstellen[**Seiteneinrichtung**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup) Mitglieder wie z[**setHeaderMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#HeaderMargin) und[**setFooterMargin**](https://reference.aspose.com/cells/java/com.aspose.cells/pagesetup#FooterMargin).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-HeaderAndFooterMargins-HeaderAndFooterMargins.java" >}}
 

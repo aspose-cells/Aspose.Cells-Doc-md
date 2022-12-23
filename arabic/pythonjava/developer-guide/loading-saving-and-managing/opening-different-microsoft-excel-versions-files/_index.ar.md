@@ -12,7 +12,7 @@ url: /ar/python-java/opening-different-microsoft-excel-versions-files/
 
 ## **فتح ملفات مختلفة من إصدارات إكسل Microsoft**
 
-غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي تنسيق من عدة تنسيقات ، بما في ذلك XLS و XLSX و XLSM و XLSB و SpreadsheetML و TabDelimited أو TSV و CSV و ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** صف دراسي'**[setFileFormat] (https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)** طريقة لتحديد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**تعداد.
+ غالبًا ما يجب أن يكون التطبيق قادرًا على فتح ملفات Excel Microsoft التي تم إنشاؤها في إصدارات مختلفة ، على سبيل المثال ، Microsoft Excel 95،97 أو Microsoft Excel 2007/2010/2013/2016/2019 و Office 365. قد تحتاج إلى تحميل ملف بأي من التنسيقات المتعددة ، بما في ذلك XLS ، XLSX ، XLSM ، XLSB ، SpreadsheetML ، TabDelimited أو TSV ، CSV ، ODS وما إلى ذلك. استخدم المنشئ أو حدد**[مصنف] (https://reference.aspose.com/cells/python-java/asposecells.api/Workbook)** صف دراسي'**[setFileFormat] (https://reference.aspose.com/cells/python-java/asposecells.api/workbook#FileFormat)**طريقة لتحديد التنسيق باستخدام**[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**تعداد.
 	
  ال**[FileFormatType] (https://reference.aspose.com/cells/python-java/asposecells.api/FileFormatType)**يحتوي التعداد على العديد من تنسيقات الملفات المحددة مسبقًا والتي يرد بعضها أدناه.
 
@@ -20,16 +20,16 @@ url: /ar/python-java/opening-different-microsoft-excel-versions-files/
 |:- |:- |
 |CSV|يمثل ملف CSV|
 |اكسل_97_TO_2003|يمثل ملف Excel 97 - 2003|
-|XLSX|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSX|
-|XLSM|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 XLSM|
-|XLTX|يمثل ملف Excel 2007/2010/2013/2016/2019 وقالب Office 365 XLTX|
-|XLTM|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف XLTM ممكّن للماكرو في Office 365|
-|XLSB|يمثل ملف Excel 2007/2010/2013/2016/2019 وملف Office 365 الثنائي XLSB|
+|XLSX|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSX|
+|XLSM|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 XLSM|
+|XLTX|يمثل ملف Excel 2007/2010/2013/2016/2019 ونموذج Office 365 XLTX|
+|XLTM|يمثل ملف XLTM ممكّن للماكرو في Excel 2007/2010/2013/2016/2019 و Office 365|
+|XLSB|يمثل ملف Excel 2007/2010/2013/2016/2019 و Office 365 ثنائي XLSB|
 |SPREADSHEET_ML|يمثل ملف SpreadsheetML|
-|ملف TSV|يمثل ملف قيم مفصولة بعلامات جدولة|
+|TSV|يمثل ملف قيم مفصولة بعلامات جدولة|
 |علامة التبويب محدد|يمثل ملفًا نصيًا محددًا بعلامات جدولة|
-|المواد المستنفدة للأوزون|يمثل ملف ODS|
-|لغة البرمجة|يمثل ملف HTML|
+|ODS|يمثل ملف ODS|
+|HTML|يمثل ملف HTML|
 |M_HTML|يمثل ملف MHTML|
 
 ### **فتح Microsoft ملفات Excel 95 / 5.0**
@@ -48,7 +48,7 @@ url: /ar/python-java/opening-different-microsoft-excel-versions-files/
 
 ### **فتح Microsoft Excel 2007/2010/2013/2016/2019 وملفات Office 365 XLSX**
 
- لفتح تنسيق Microsoft Excel 2007/2010/2013/2016/2019 وتنسيق Office 365 ، أي XLSX أو XLSB ، حدد مسار الملف. تستطيع ايضا استخذام**[LoadOptions] (https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** وقم بتعيين السمة / الخيارات ذات الصلة لـ**LoadOptions**فئة ملف القالب المراد تحميله.
+لفتح تنسيق Microsoft Excel 2007/2010/2013/2016/2019 وتنسيق Office 365 ، أي XLSX أو XLSB ، حدد مسار الملف. تستطيع ايضا استخذام**[LoadOptions] (https://reference.aspose.com/cells/python-java/asposecells.api/LoadOptions)** وقم بتعيين السمة / الخيارات ذات الصلة لـ**LoadOptions**فئة ملف القالب المراد تحميله.
 
 {{< gist "aspose-cells-gists" "32e50c6aabc547111966569f3fd39694" "OpenExcel2007Files.py" >}}
 

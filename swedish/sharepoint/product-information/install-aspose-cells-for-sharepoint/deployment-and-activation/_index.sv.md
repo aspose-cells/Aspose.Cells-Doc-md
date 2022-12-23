@@ -6,7 +6,7 @@ url: /sv/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[Installerar Aspose.Cells for SharePoint](/cells/sv/sharepoint/installing-aspose-cells-for-sharepoint/)vägleder dig genom installationsprocessen. Den här artikeln förklarar hur installationsprocessen distribueras och aktiveras.
+[Installerar Aspose.Cells for SharePoint](/cells/sv/sharepoint/installing-aspose-cells-for-sharepoint/) vägleder dig genom installationsprocessen. Den här artikeln förklarar hur installationsprocessen distribueras och aktiveras.
 
 {{% /alert %}} 
 ### **Spridning**

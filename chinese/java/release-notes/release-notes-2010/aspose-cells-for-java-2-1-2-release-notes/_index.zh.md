@@ -30,10 +30,10 @@ url: /zh/java/aspose-cells-for-java-2-1-2-release-notes/
 增强读取大型 Excel 2007 文件的性能。
 提高 LightCells API 对大型 Excel 2007 文件的性能。
 增强了文档属性的读取操作。
-导入 CSV 文件操作得到增强。
+增强了导入 CSV 文件操作。
  67 个修复和改进。
 
- Aspose.Cells for Java 2.1.2 中已解决的问题
+Aspose.Cells for Java 2.1.2 中已解决的问题
 
 
 
@@ -48,7 +48,7 @@ url: /zh/java/aspose-cells-for-java-2-1-2-release-notes/
 |11928 |xls|读取模板文件|
 |11943 |电子表格ML|读取 OWC 生成的特殊文件|
 |11973 |电子表格ML|读取 OWC 生成的特殊文件|
-|12006 |CSV文件|读取 csv 文件|
+|12006 |CSV |读取 csv 文件|
 |12032 |公式引擎|COUNTIF公式|
 |12034 |xls|自动调整列|
 |12056 |公式引擎|中频公式|
@@ -76,7 +76,7 @@ url: /zh/java/aspose-cells-for-java-2-1-2-release-notes/
 |12622 |xlsx|阅读共享公式|
 |12625 |xlsx|阅读图表|
 |12667 |xls|日期时间值|
-|12684 |CSV文件|读号|
+|12684 |CSV |读号|
 |12717 |xls|使用 Mac OS 的图片|
 |12727 |xls|读取文档属性|
 |12750 |xls|获取形状的超链接|

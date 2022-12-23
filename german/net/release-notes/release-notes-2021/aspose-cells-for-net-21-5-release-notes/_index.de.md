@@ -25,9 +25,9 @@ url: /de/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|Neue Arbeitsmappe hängt an ungültiger Datei|Leistung|
 |CELLSNET-48012|Verbessern Sie die Leistung beim Lesen von .ods-Dateien mit einer großen Auswahl an Validierungen.|Leistung|
 |CELLSNET-48039|Endlosschleife beim Speichern der kopierten Arbeitsmappe|Leistung|
-|CELLSNET-44224|Das WordArt-Wasserzeichen wird im Ausgabe-PDF-Dateiformat nicht gerendert|Insekt|
+|CELLSNET-44224|Das WordArt-Wasserzeichen wird im Ausgabedateiformat PDF nicht gerendert|Insekt|
 |CELLSNET-47887|Text innerhalb der Form ist falsch platziert|Insekt|
-|CELLSNET-47920|Einige Inhalte werden bei der HTML-zu-Excel-Konvertierung übersehen|Insekt|
+|CELLSNET-47920|Bei der Konvertierung von HTML in Excel fehlen einige Inhalte|Insekt|
 |CELLSNET-47981|Das Ergebnis des Bereichsexports mit verbundenen Zellen in HTML ist falsch|Insekt|
 |CELLSNET-47985|Weniger Zeilen beim Konvertieren in HTML|Insekt|
 |CELLSNET-47987|Verschieben Sie das Pivot-Feld in den Seitenabschnitt oder Pivot-Filter|Insekt|
@@ -38,25 +38,25 @@ url: /de/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47118|Falscher Wert 'TRUE' von Cell statt Wert 'FALSE' abgerufen|Insekt|
 |CELLSNET-48042|Abgerufene formatierte Zellenwerte sind im Excel-Arbeitsblatt falsch|Insekt|
 |CELLSNET-48031|Beim Konvertieren einer xlsx-Datei in html wird „Form-zu-Bild-Fehler“ ausgegeben|Insekt|
-|CELLSNET-48037|Beim Speichern im PDF-Format ist das Bild verzerrt|Insekt|
-|CELLSNET-47714|Text auf der vertikalen Achse überlappt bei der Konvertierung in EMF die horizontale Achse im Diagramm|Insekt|
-|CELLSNET-47856|XLSX-zu-PDF-Konvertierungsproblem mit Pivot-Tabellen|Insekt|
-|CELLSNET-47986|Diagramm zu Bild/PDF - falsche Ausgabe mit Wasserfall-Diagrammtyp|Insekt|
-|CELLSNET-48010|Ausnahme beim Laden von Excel 2010 XLSX-Dateien|Insekt|
+|CELLSNET-48037|Beim Speichern auf PDF ist das Bild verzerrt|Insekt|
+|CELLSNET-47714|Text auf der vertikalen Achse überlappt die horizontale Achse im Diagramm, wenn er in EMF konvertiert wird|Insekt|
+|CELLSNET-47856|XLSX bis PDF Konvertierungsproblem mit Pivot-Tabellen|Insekt|
+|CELLSNET-47986|Chart to Image/PDF - falsche Ausgabe mit Wasserfall-Charttyp|Insekt|
+|CELLSNET-48010|Ausnahme beim Laden einer Excel 2010 XLSX-Datei|Insekt|
 |CELLSNET-48020|Formularsteuerelemente werden nach Load & Save Excel 95 über Aspose.Cells gelöscht|Insekt|
 |CELLSNET-48033|Excel-Datei nach dem Laden und Speichern beschädigt|Insekt|
-|CELLSNET-47957| Beim Konvertieren einer Excel-Datei in das PDF-Dateiformat wird „Form-zu-Bild-Fehler“ ausgegeben|Ausnahme|
+|CELLSNET-47957| Beim Konvertieren einer Excel-Datei in das Dateiformat PDF wird „Shape to image Error“ ausgegeben|Ausnahme|
 |CELLSNET-48027|Ungültige Parameterausnahme beim Konvertieren einer Form in ein Bild|Ausnahme|
 |CELLSNET-48029|"Shape-to-Image-Fehler" wird ausgelöst|Ausnahme|
 |CELLSNET-48017|Ausnahme "Eingabezeichenfolge hatte kein korrektes Format" beim Importieren einer HTML-Datei|Ausnahme|
 |CELLSNET-48034|Ungültige Schriftgröße in Mht-Datei.|Ausnahme|
 |CELLSNET-47977|Ausnahme beim Parsen der Formel '[96]Cost Sheet'!$D$6|Ausnahme|
 |CELLSNET-47979|Objektverweis-Ausnahme bei der Save-Methode|Ausnahme|
-|CELLSNET-48040|Ausnahme beim Konvertieren von XLSB in XLSX|Ausnahme|
+|CELLSNET-48040|Beim Konvertieren von XLSB in XLSX wird eine Ausnahme ausgelöst|Ausnahme|
 |CELLSNET-47980|Beim Speichern einer Excel-Datei bis Aspose.Cells ist ein Fehler aufgetreten|Ausnahme|
 |CELLSNET-48001|Ungültige Zeilenindex-Ausnahme beim Aufrufen von GetPrintingPageBreaks()|Ausnahme|
 |CELLSNET-48022|Unerwarteter Border.LineType einer Zelle|Ausnahme|
-|CELLSNET-48032|Ausnahme beim Öffnen der Dokument-ODS-Datei|Ausnahme|
+|CELLSNET-48032|Ausnahme beim Öffnen der Dokumentdatei ODS|Ausnahme|
 |
 
 
@@ -143,7 +143,7 @@ Verwenden Sie stattdessen die Aufzählung DataBarNegativeColorTypeColor.
  
 Verwenden Sie stattdessen die Enumeration DynamicFilterType.Feburay.
 
-### **Veraltet FileFormatType.BMP-Enumeration und fügt FileFormatType.Bmp-Enumeration hinzu.**
+### **Veraltet die Aufzählung FileFormatType.BMP und fügt die Aufzählung FileFormatType.Bmp hinzu.**
 
  
 Verwenden Sie stattdessen die Aufzählung FileFormatType.Bmp.
@@ -158,7 +158,7 @@ Verwenden Sie stattdessen die Aufzählung FileFormatType.Bmp.
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Tsv.
 
-### **Veraltet FileFormatType.FODS-Enumeration und fügt FileFormatType.Fods-Enumeration hinzu.**
+### **Veraltet die Aufzählung FileFormatType.FODS und fügt die Aufzählung FileFormatType.Fods hinzu.**
 
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Fods.
 
@@ -208,7 +208,7 @@ Verwenden Sie stattdessen die Enumeration FileFormatType.MsEquation.
  Verwenden Sie stattdessen FileFormatType.Ott enum.
 
 
-### **Veraltet FileFormatType.SVG-Enumeration und fügt FileFormatType.Svg-Enumeration hinzu.**
+### **Veraltet die Aufzählung FileFormatType.SVG und fügt die Aufzählung FileFormatType.Svg hinzu.**
 
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Svg.
@@ -218,7 +218,7 @@ Verwenden Sie stattdessen die Enumeration FileFormatType.MsEquation.
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Sxc.
 
-### **Veraltet FileFormatType.TIFF-Aufzählung und fügt FileFormatType.Tiff-Aufzählung hinzu.**
+### **Veraltet FileFormatType.TIFF-Enumeration und fügt FileFormatType.Tiff-Enumeration hinzu.**
 
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Tiff.
@@ -239,7 +239,7 @@ Verwenden Sie stattdessen die Enumeration FileFormatType.MsEquation.
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Xml.
 
-### **Veraltet FileFormatType.XPS-Enumeration und fügt FileFormatType.XPS-Enumeration hinzu.**
+### **Veraltet FileFormatType.XPS-Enumeration und fügt FileFormatType.Xps-Enumeration hinzu.**
 
  
  Verwenden Sie stattdessen die Aufzählung FileFormatType.Xps.
@@ -247,9 +247,9 @@ Verwenden Sie stattdessen die Enumeration FileFormatType.MsEquation.
 ### **Veraltet FileFormatType.Excel2003XML-Enumeration und fügt FileFormatType.SpreadsheetML-Enumeration hinzu.**
 
  
- Verwenden Sie stattdessen die Aufzählung FileFormatType.SpreadsheetML.
+ Verwenden Sie stattdessen FileFormatType.SpreadsheetML enum.
 
-### **Veraltet die Aufzählung SaveFormat.XPS und fügt die Aufzählung SaveFormat.XPS hinzu.**
+### **Veraltet SaveFormat.XPS-Enumeration und fügt SaveFormat.Xps-Enumeration hinzu.**
 
  
  Verwenden Sie stattdessen die Aufzählung SaveFormat.Xps.
@@ -258,16 +258,16 @@ Verwenden Sie stattdessen die Enumeration FileFormatType.MsEquation.
 
  Verwenden Sie stattdessen die Aufzählung SaveFormat.Tsv.
 
-### **Veraltet SaveFormat.TIFF-Aufzählung und fügt SaveFormat.Tiff-Aufzählung hinzu.**
+### **Veraltet die Aufzählung SaveFormat.TIFF und fügt die Aufzählung SaveFormat.Tiff hinzu.**
 
  
 Verwenden Sie stattdessen die Aufzählung SaveFormat.Tiff.
 
-### **Veraltet die Aufzählung SaveFormat.SXC und fügt die Aufzählung SaveFormat.Sxc hinzu.**
+### **Veraltet SaveFormat.SXC-Enumeration und fügt SaveFormat.Sxc-Enumeration hinzu.**
 
 Verwenden Sie stattdessen die Aufzählung SaveFormat.Sxc.
 
-### **Veraltet SaveFormat.SVG-Aufzählung und fügt SaveFormat.Svg-Aufzählung hinzu.**
+### **Veraltet SaveFormat.SVG-Enumeration und fügt SaveFormat.Svg-Enumeration hinzu.**
 
  
 Verwenden Sie stattdessen die Aufzählung SaveFormat.Svg.
@@ -295,7 +295,7 @@ Verwenden Sie stattdessen die Aufzählung SaveFormat.Svg.
 ### **Veraltet LoadFormat.TSV-Enumeration und fügt LoadFormat.Tsv-Enumeration hinzu.**
 
  
-Verwenden Sie stattdessen die Aufzählung LoadFormat.Tsv.
+ Verwenden Sie stattdessen die Aufzählung LoadFormat.Tsv.
 
 ### **Veraltet LoadFormat.ODS-Enumeration und fügt LoadFormat.Ods-Enumeration hinzu.**
 

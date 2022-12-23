@@ -19,7 +19,7 @@ url: /ja/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47070|オプションを使用した Find() と同様の置換関数での正規表現のサポート|新機能|
 |CELLSNET-46998|XAdES 署名のサポート|新機能|
 |CELLSNET-40174|チャートタイプのシートにCheckBoxを挿入する|新機能|
-|CELLSNET-43089|ODS を XLSX に変換する際の条件付き書式のサポート|新機能|
+|CELLSNET-43089|ODS を XLSX に変換する際の条件付き書式設定のサポート|新機能|
 |CELLSNET-43090|ODS を XLSX 形式に変換する際のデータ検証のサポート|新機能|
 |CELLSNET-47064|.xlsx ファイルのグラフの形状をサポートします。|強化|
 |CELLSNET-47065|DataConnections から PowerQuery を取得する|強化|
@@ -27,11 +27,11 @@ url: /ja/net/aspose-cells-for-net-20-1-release-notes/
 |CELLSNET-47008|特定の角度でチャートの画像をレンダリングする際の問題|バグ|
 |CELLSNET-47063|フォントがインストールされていない場合に Excel をプリンターにレンダリングする問題|バグ|
 |CELLSNET-44237|ピボットテーブルの DataField の降順|バグ|
-|CELLSNET-47002|計算値は「#REF!」と表示されます。結果のPDFで|バグ|
-|CELLSNET-47050|最初のページの一部のフィールドが出力 PDF に表示されない|バグ|
+|CELLSNET-47002|計算値は「#REF!」と表示されます。結果 PDF|バグ|
+|CELLSNET-47050|最初のページの一部のフィールドが出力に表示されない PDF|バグ|
 |CELLSNET-40733|Office .ods ファイルを開く - 条件付き書式が保持されない|バグ|
 |CELLSNET-47039|ODS ファイルの XY 散布図が正しくレンダリングされない|バグ|
-|CELLSNET-47040|ODS ファイルのネット チャートが正しく表示されない|バグ|
+|CELLSNET-47040|ODS ファイルのネット チャートが正しくレンダリングされない|バグ|
 |CELLSNET-47060|ods ファイルのタイトルのカスタム XY をサポート|バグ|
 |CELLSNET-47072|Excelと比較した場合のAspose.Cellsで取得したリンクパスの違い|バグ|
 |CELLSNET-47087|Aspose.Cells for .NET さんが保存した Excel ファイルの印刷時に問題が発生しました|バグ|

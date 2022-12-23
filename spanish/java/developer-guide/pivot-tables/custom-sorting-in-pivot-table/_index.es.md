@@ -13,6 +13,6 @@ El archivo fuente de muestra y los archivos de salida se pueden descargar desde 
 
 [Archivo de Excel de salida](95584328.xlsx)
 
-[Archivo PDF de salida](95584329.pdf)
+[Salida PDF Archivo](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

@@ -14,7 +14,7 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 ## **Объединение листов**
 
- В приведенном ниже образце используется[**Диапазон.копировать()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) для копирования всех исходных листов на один лист в целевой книге.
+ В приведенном ниже образце используется[**Диапазон.копировать()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)для копирования всех исходных листов на один лист в целевой книге.
 
 ### **Исходная рабочая книга**
 

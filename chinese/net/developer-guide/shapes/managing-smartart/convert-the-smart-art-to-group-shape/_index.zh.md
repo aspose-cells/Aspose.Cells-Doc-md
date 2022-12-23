@@ -12,7 +12,7 @@ url: /zh/net/convert-the-smart-art-to-group-shape/
 
 下面的示例代码加载[示例 Excel 文件](55541793.xlsx)包含智能艺术形状，如此屏幕截图所示。然后它将智能艺术形状转换为组形状并打印 Shape.IsGroup 属性。请查看下面给出的示例代码的控制台输出。
 
-![待办事项：图像_替代_文本](convert-the-smart-art-to-group-shape_1.png)
+![待办事项：图片_替代_文本](convert-the-smart-art-to-group-shape_1.png)
 
 ## **示例代码**
 

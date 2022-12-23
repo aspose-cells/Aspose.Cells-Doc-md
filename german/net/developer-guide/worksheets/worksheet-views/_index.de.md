@@ -3,6 +3,7 @@ title: Arbeitsblattansichten
 type: docs
 weight: 40
 url: /de/net/worksheet-views/
+description:  In diesem Artikel wird beschrieben, wie Sie C# und .NET API verwenden, um mit der Seitenumbruchvorschau einer Excel-Arbeitsmappe und Arbeitsblättern zu interagieren. Arbeiten Sie auch mit geteilten Fenstern, eingefrorenen Fenstern und Zoomfaktor.
 ---
 ## **Seitenumbruchvorschau**
 
@@ -17,7 +18,7 @@ Die Normalansicht ist die Standardansicht eines Arbeitsblatts. Die Seitenumbruch
 
 Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse, die eine Microsoft Excel-Datei darstellt. Das[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse enthält a[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)Sammlung, die den Zugriff auf jedes Arbeitsblatt in einer Excel-Datei ermöglicht.
 
- Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Vorschaumodi Normal oder Seitenumbruch zu aktivieren, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ist eine boolesche Eigenschaft, was bedeutet, dass sie nur a speichern kann**Stimmt** oder ein**FALSCH** Wert.
+ Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Um die Vorschaumodi Normal oder Seitenumbruch zu aktivieren, verwenden Sie die[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum.[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) ist eine boolesche Eigenschaft, was bedeutet, dass sie nur a speichern kann**wahr** oder ein**FALSCH** Wert.
 
 #### **Normalansicht aktivieren**
 
@@ -25,11 +26,11 @@ Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/ne
 
 #### **Seitenumbruchvorschau aktivieren**
 
- Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau ein, indem Sie das einstellen[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum zu**Stimmt**Dadurch wird das Arbeitsblatt von der normalen Ansicht auf die Seitenumbruchvorschau umgeschaltet.
+ Stellen Sie ein beliebiges Arbeitsblatt auf Seitenumbruchvorschau ein, indem Sie das einstellen[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Klasse[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Eigentum zu**wahr**Dadurch wird das Arbeitsblatt von der normalen Ansicht auf die Seitenumbruchvorschau umgeschaltet.
 
  Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von demonstriert[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)-Eigenschaft, um den Vorschaumodus für den Seitenumbruch für das erste Arbeitsblatt einer Excel-Datei zu aktivieren.
 
-Die Datei book1.xls wird geöffnet, indem eine Instanz der erstellt wird[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse. Durch Setzen von wird die Ansicht auf Seitenumbruchvorschau für das erste Arbeitsblatt umgeschaltet[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)Eigentum zu**Stimmt**. Die geänderte Datei wird als output.xls gespeichert.
+Die Datei book1.xls wird geöffnet, indem eine Instanz der erstellt wird[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Klasse. Durch Setzen von wird die Ansicht auf Seitenumbruchvorschau für das erste Arbeitsblatt umgeschaltet[**IsPageBreakPreview**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview)Eigentum zu**wahr**. Die geänderte Datei wird als output.xls gespeichert.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-PageBreakPreview-1.cs" >}}
 
@@ -66,12 +67,12 @@ Aspose.Cells bietet eine[**Arbeitsmappe**](https://reference.aspose.com/cells/ne
 
 Ein Arbeitsblatt wird durch dargestellt[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)Klasse. Das[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) -Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Rufen Sie zum Konfigurieren von Einfrierfenstern die Worksheet-Klasse auf.[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Methode. Das[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Die Methode nimmt die folgenden Parameter an:
 
-- **Die Zeile**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
+- **Reihe**, der Zeilenindex der Zelle, bei der das Einfrieren beginnt.
 - **Spalte**, der Spaltenindex der Zelle, ab der das Einfrieren beginnt.
 - **Gefrorene Reihen**, die Anzahl der sichtbaren Zeilen im oberen Bereich.
 - **Gefrorene Säulen**, die Anzahl der sichtbaren Spalten im linken Bereich
 
-Die Datei book1.xls wird durch Aufrufen der geöffnet[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klassenkonstruktor beim Instanziieren und einige Zeilen und Spalten werden im ersten Arbeitsblatt eingefroren. Die geänderte Datei wird als output.xls gespeichert.
+ Die Datei book1.xls wird durch Aufrufen der geöffnet[**Arbeitsmappe**](https://reference.aspose.com/cells/net/aspose.cells/workbook)Klassenkonstruktor beim Instanziieren und einige Zeilen und Spalten werden im ersten Arbeitsblatt eingefroren. Die geänderte Datei wird als output.xls gespeichert.
 
  Nachfolgend finden Sie ein vollständiges Beispiel, das die Verwendung von zeigt[**FreezePanes**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Methode zum Einfrieren von Zeilen und Spalten (beginnend bei C4, dargestellt durch die 4. Zeile und 3. Spalte, wobei die Zeilen und Spalten mit dem Index 0 beginnen) des ersten Arbeitsblatts der Excel-Datei.
 

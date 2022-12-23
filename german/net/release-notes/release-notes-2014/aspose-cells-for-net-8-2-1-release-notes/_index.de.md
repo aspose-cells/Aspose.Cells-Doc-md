@@ -11,7 +11,7 @@ url: /de/net/aspose-cells-for-net-8-2-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET wurde auf Version 8.2.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 30 neue nützliche Verbesserungen enthält.
-Unter Aspose.Cells for .NET können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for .NET können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for .NET beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
  Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells.
@@ -32,9 +32,9 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 ## **Fehler**
 
 
- (CELLSNET-42941) – Erzeugt einen nicht lesbaren Inhaltsfehler in der XLSM-Datei
+ (CELLSNET-42941) – Erzeugt einen nicht lesbaren Inhaltsfehler in der Datei XLSM
 
-(CELLSNET-42933) – Zeilenbeschriftungen können nicht vermieden werden, wenn Pivot mit Aspose erstellt wird
+ (CELLSNET-42933) – Zeilenbeschriftungen können nicht vermieden werden, wenn Pivot mit Aspose erstellt wird
 
  (CELLSNET-42857) – Datei wird beim Öffnen und Speichern beschädigt
 
@@ -42,7 +42,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42815) – Das diagonale Textfeld wird horizontal angezeigt, wenn die Tabelle in HTML konvertiert wird
 
- (CELLSNET-42676) – Die Dicke der Pfeillinien des Visio-Diagramms ist in der Ausgabe-PDF falsch
+(CELLSNET-42676) – Die Dicke der Pfeillinien des Visio-Diagramms ist in der Ausgabe-PDF falsch
 
  (CELLSNET-41568) – Excel zu Bild mit gedrehter Form wird nicht korrekt gerendert
 
@@ -50,15 +50,15 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42802) – Grafikwiedergabeproblem beim Konvertieren von Xls in PDF
 
- (CELLSNET-42980) – Falscher Seitenumbruch beim Rendern der Tabelle in PDF
+ (CELLSNET-42980) – Falscher Seitenumbruch beim Rendern der Tabelle auf PDF
 
- (CELLSNET-42979) – Unerwünschte Randerweiterung beim Rendern der Tabelle in PDF
+ (CELLSNET-42979) – Unerwünschte Erweiterung des Rahmens beim Rendern der Tabelle auf PDF
 
  (CELLSNET-42970) – Die Additionsoperation in der Excel-Fußzeile funktioniert nicht beim PDF-Rendering
 
  (CELLSNET-42936) - Drucken auf beiden Seiten des Blatts
 
-(CELLSNET-42938) – Hyperlinks für die Formen gehen im gerenderten PDF-Dateiformat verloren
+ (CELLSNET-42938) – Hyperlinks für die Formen gehen im gerenderten PDF-Dateiformat verloren
 
  (CELLSNET-42966) – Unlesbarer Inhalt nach dem Öffnen und Speichern der xlsx-Datei
 
@@ -66,15 +66,15 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42946) – Der Wert der Zelle L45 ist nach der Berechnungsformel falsch
 
- (CELLSNET-42943) – Excel-Einschränkung in Bezug auf die Anzahl der Hyperlinks in Aspose.Cells
+(CELLSNET-42943) – Excel-Einschränkung in Bezug auf die Anzahl der Hyperlinks in Aspose.Cells
 
  (CELLSNET-42934) – Falsche Messwerte für Streudiagrammtyp und Namensbereichsreferenzen
 
- (CELLSNET-42926) – Fußzeile beim Konvertieren aus einem SpreadsheetML-Dokument nicht korrekt
+ (CELLSNET-42926) – Fußzeile nicht korrekt beim Konvertieren von SpreadsheetML-Dokument
 
  (CELLSNET-42837) - Datentabelle mit Legendenschlüssel von Chatt anzeigen
 
- (CELLSNET-41129) – Das Logo ist in der PDF-Ausgabedatei verschwunden
+ (CELLSNET-41129) – Logo in der Ausgabedatei PDF verschwunden
 
  (CELLSNET-42986) – Beim Einfügen von Zeilen in Tabellen wurde eine falsche Formel in Zellen kopiert
 
@@ -82,9 +82,9 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42802) - Kuchen, Krapfen. Formel berechnen
 
- (CELLSNET-42940) - Hyperlink im PDF von XLS
+ (CELLSNET-42940) - Hyperlink in PDF von XLS
 
-(CELLSNET-42738) – Die geglättete Linie im Streudiagramm enthält Schleifen
+ (CELLSNET-42738) – Die geglättete Linie im Streudiagramm enthält Schleifen
 
  (CELLSNET-42739) – Das Streudiagrammbild zeigt falsche Rastermarkierungen auf der X-Achse
 
@@ -94,7 +94,7 @@ Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produk
 
  (CELLSNET-42929) – IndexOutOfRangeException bei PivotTable.CalculateData ausgelöst
 
- (CELLSNET-42213) – Konvertieren einer XLS-Datei, die eine Form mit einem Verlaufshintergrund enthält, in PDF
+(CELLSNET-42213) – Konvertieren einer XLS-Datei, die eine Form mit einem Verlaufshintergrund enthält, in PDF
 
  (CELLSNET-42962) – Ausnahme bei Workbook.RemoveExternalLinks()
 

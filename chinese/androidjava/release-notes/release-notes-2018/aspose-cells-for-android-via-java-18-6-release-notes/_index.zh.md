@@ -18,7 +18,7 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42625|MS Excel 功能“监视窗口”的实现|新功能|
 |CELLSJAVA-42612|无法从齿轮类型 SmartArt 中提取文本|新功能|
 |CELLSJAVA-42572|公式不应包含超过 8192 个字符|强化|
-|CELLSJAVA-42569|无法访问 XLS 中图表的水平分类轴标签项目|强化|
+|CELLSJAVA-42569|无法访问 XLS 中图表的水平分类轴标签项|强化|
 |CELLSJAVA-42580|获取/设置语言文档属性|强化|
 |CELLSJAVA-42565|前景色 vs 背景色 vs 填充色 - 使用带有两个参数的单一方法|强化|
 |CELLSJAVA-42528|"\<Font>" 不是有效的 HTML5 和自关闭标签，网络浏览器会歪曲其内容|强化|
@@ -27,10 +27,10 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42646|异常：Name.getRefersTo() 上的“FormulaBuild Unknown formula token 0”|强化|
 |CELLSJAVA-42645|异常：Cell.getFormula() 上的“FormulaBuild More than one token in stack...”|强化|
 |CELLSJAVA-42516|Aspose.Cells 接受并更正一个无效的公式|强化|
-|CELLSJAVA-42551|输出 PDF 中的某些形状不正确|漏洞|
-|CELLSJAVA-42578|将 Excel 保存为 HTML 时条件格式丢失|漏洞|
+|CELLSJAVA-42551|输出中的某些形状不正确 PDF|漏洞|
+|CELLSJAVA-42578|将 Excel 保存到 HTML 时条件格式丢失|漏洞|
 |CELLSJAVA-42571|输出 HTML 与 MS-Excel 不匹配|漏洞|
-|CELLSJAVA-42553|导出为 HTML 后指向命名区域的链接是错误的|漏洞|
+|CELLSJAVA-42553|导出到 HTML 后指向命名区域的链接是错误的|漏洞|
 |CELLSJAVA-42530|数据透视表和相应的图表没有正确的日期格式|漏洞|
 |CELLSJAVA-42527|图表在 x 轴上有很多值，并且值相互重叠|漏洞|
 |CELLSJAVA-42581|Aspose.Cells 返回单元格 A2 的错误值|漏洞|
@@ -50,27 +50,27 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42598|模板文件中未提取属性|漏洞|
 |CELLSJAVA-42589|将 HTML 添加到单元格时出现 NullPointerException|漏洞|
 |CELLSJAVA-41414|重新保存 XLSX 文件时，线条从图表中消失|漏洞|
-|CELLSJAVA-42636|某些绘图形状在 Excel 到 HTML 呈现中被置换或错误呈现|漏洞|
+|CELLSJAVA-42636|某些绘图形状在 Excel 中被置换或错误渲染为 HTML 渲染|漏洞|
 |CELLSJAVA-42627|CELLSJAVA-42619 无法正确提取 Smart Art 图像|漏洞|
 |CELLSJAVA-42618|形状被置换以覆盖 Excel 中的数据以 HTML 呈现|漏洞|
 |CELLSJAVA-42628|公式计算错误，例如生成#DIV/0！错误|漏洞|
-|CELLSJAVA-42615|Cell A3 格式在输出 HTML 中不正确|漏洞|
+|CELLSJAVA-42615|Cell 输出中的 A3 格式不正确 HTML|漏洞|
 |CELLSJAVA-42621|从 Excel 文件生成 PDF 文件时性能不佳|漏洞|
 |CELLSJAVA-42620|XLSX 到 TIFF - NoClassDefFoundError 异常|漏洞|
 |CELLSJAVA-42599|Excel 文件转换为 Pdf 时图像丢失|漏洞|
 |CELLSJAVA-42630|Chart.calculate 方法导致 OutOfMemoryError|漏洞|
 |CELLSJAVA-42623|将 Excel 文件渲染为 PDF 文件格式时内存增加|漏洞|
 |CELLSJAVA-42592|由于 characters() 方法，图表标题上的字体大小发生了变化|漏洞|
-|CELLSJAVA-41860|重新保存 XLS 时改变了阴影效果|漏洞|
+|CELLSJAVA-41860|重新保存时更改阴影效果 XLS|漏洞|
 |CELLSJAVA-42654|Excel 到 PDF 的转换 - 转换永远不会完成|漏洞|
 |CELLSJAVA-42647|无法获取或设置评论形状的替代文本|漏洞|
-|CELLSJAVA-42644|Aspose.Cells 在将 Spreadsheet ML 文件 (xml) 转换为带有自闭合样式标签的 PDF 时挂起|漏洞|
+|CELLSJAVA-42644|Aspose.Cells 在将电子表格 ML 文件 (xml) 转换为具有自闭合样式标记的 PDF 时挂起|漏洞|
 |CELLSJAVA-42632|无法为 SmartArt 形状设置替代文本|漏洞|
 |CELLSJAVA-42631|getFirstVisibleRow() 和 getFirstVisibleColumn() 返回无效索引|漏洞|
 |CELLSJAVA-42624|带有编码符号（例如“%5c”）的超链接在重新保存后解码|漏洞|
 |CELLSJAVA-42563|对 XLSX 文件进行数字签名时出现异常“java.lang.NullPointerException”|例外|
 |CELLSJAVA-42602|在轻量级模式下合并单元格时出现异常“IndexOutOfBoundsException”|例外|
-|CELLSJAVA-42610|加载 XLS 文件时出现异常“java.lang.IllegalStateException：无效编码：null”|例外|
+|CELLSJAVA-42610|加载 XLS 文件时出现异常“java.lang.IllegalStateException: Invalid encoding: null”|例外|
 |CELLSJAVA-42608|打开 Excel 文件时发生 ArrayIndexOutOfBoundsException|例外|
 |CELLSJAVA-42596|打开 Excel 文件时出现“java.lang.ArrayIndexOutOfBoundsException”|例外|
 |CELLSJAVA-42595|打开 Excel 文件时出现“java.io.IOException: File is corrupted”|例外|
@@ -87,11 +87,11 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **为 HtmlCrossType 枚举添加新项目“CrossHideRight”**
 
-显示 HTML 交叉字符串并在文本重叠时隐藏正确的字符串。
+显示 HTML 交叉字符串并在文本重叠时隐藏右侧字符串。
 
 ### **为 LoadFormat、SaveFormat 和 FileFormatType 枚举添加新项目“TSV”**
 
-代表一个TSV(Tab-separated values)文件，同“TabDelimited”。
+表示一个TSV（制表符分隔值）文件，与“TabDelimited”相同。
 
 ### **添加枚举 ImageType**
 
@@ -115,7 +115,7 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **添加重载 Cell.GetHtmlString(System.Boolean) 方法**
 
-获取此单元格中包含数据和某些格式的 HTML 字符串。
+获取包含此单元格中的数据和某些格式的 HTML 字符串。
 
 ### **添加 BuiltInDocumentPropertyCollection.Language 属性**
 
@@ -191,7 +191,7 @@ url: /zh/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **添加 CellWatchCollection 和 CellWatch 类，添加 Worksheet.CellWatches 属性**
 
-在“监视窗口”中添加 Cell 监视项目。
+在“监视窗口”中添加 Cell 监视项。
 
 ### **添加 CustomXmlShape 类和 MsoDrawingType.CustomXml 枚举**
 

@@ -6,7 +6,7 @@ url: /es/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells - Gestión de saltos de página**
 ### **Adición de saltos de página**
- Para agregar saltos de página usando**Aspose.Cells Java for PHP** , llamar**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para agregar saltos de página usando**Aspose.Cells Java for PHP** , llamada**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **Código PHP**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Borrar todos los saltos de página**
- Para borrar todos los saltos de página usando**Aspose.Cells Java for PHP** , llamar**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para borrar todos los saltos de página usando**Aspose.Cells Java for PHP** , llamada**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **Código PHP**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Eliminación de un salto de página específico**
- Para eliminar un salto de página específico usando**Aspose.Cells Java for PHP** , llamar**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para eliminar un salto de página específico usando**Aspose.Cells Java for PHP** , llamada**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **Código PHP**
 

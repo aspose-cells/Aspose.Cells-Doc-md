@@ -13,7 +13,7 @@ url: /de/net/detect-hyperlink-type/
 - Email Email
 - CellReference: Link zu Zelle oder benanntem Bereich.
 
- Um die Art des Hyperlinks zu überprüfen, muss die[**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) Klasse bietet a[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) Eigenschaft mit einem Rückgabetyp von[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Das folgende Code-Snippet demonstriert die Verwendung von[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Eigenschaft, indem Sie diese verwenden[Excel-Quelldatei](94896195.xlsx).
+Um die Art des Hyperlinks zu überprüfen, muss die[**Hyperlinks**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) Klasse bietet a[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) Eigenschaft mit einem Rückgabetyp von[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Das folgende Code-Snippet demonstriert die Verwendung von[**LinkType**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Eigenschaft, indem Sie diese verwenden[Excel-Quelldatei](94896195.xlsx).
 
 ### Quellcode
 

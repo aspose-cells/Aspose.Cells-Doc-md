@@ -25,7 +25,7 @@ Para deshabilitar el Comprobador de compatibilidad en Microsoft Excel (por ejemp
 
  Selecciona el[**WorkbookSettings.Comprobar la compatibilidad**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#CheckComptiliblity) propiedad a**Falso** para deshabilitar Microsoft Comprobador de compatibilidad de Excel.
 
-Supongamos que tenemos un archivo XLS de plantilla. Cuando un usuario lo guarda o vuelve a guardar en MS Excel 2007/2010/2013, se muestra el cuadro de diálogo Comprobador de compatibilidad, como se muestra en la siguiente captura de pantalla.
+Supongamos que tenemos un archivo de plantilla XLS. Cuando un usuario lo guarda o vuelve a guardar en MS Excel 2007/2010/2013, se muestra el cuadro de diálogo Comprobador de compatibilidad, como se muestra en la siguiente captura de pantalla.
 
 ![todo:imagen_alternativa_texto](disable-compatibility-checker-in-excel_1.png)
 

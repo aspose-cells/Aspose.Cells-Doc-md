@@ -12,6 +12,6 @@ url: /zh/net/disable-pivot-table-ribbons/
 
 ## **使用 PivotTable.EnableWizard 禁用数据透视表功能区**
 
-以下代码通过从工作表访问数据透视表然后设置来演示此功能[**启用向导**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard)至**错误的**.可以从这里下载示例数据透视表文件[关联](pivot_table_test.xlsx).
+以下代码通过从工作表访问数据透视表然后设置来演示此功能[**启用向导**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/enablewizard)到**错误的**.可以从这里下载示例数据透视表文件[关联](pivot_table_test.xlsx).
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "PivotTables-DisablePivotTableRibbon.cs" >}}

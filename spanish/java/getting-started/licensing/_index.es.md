@@ -8,7 +8,7 @@ url: /es/java/licensing/
 
  Puede descargar una versión de evaluación de**Aspose.Cells** for Java desde[su pagina de descarga](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells) @ Maven repos. La versión de evaluación proporciona absolutamente las mismas capacidades que la versión con licencia del producto. Además, la versión de evaluación simplemente obtiene la licencia cuando compra una licencia y agrega un par de líneas de código para aplicar la licencia.
 
- Una vez que esté satisfecho con su evaluación de**Aspose.Cells** , puedes[comprar una licencia](https://purchase.aspose.com)en el sitio web Aspose. Familiarícese con los diferentes tipos de suscripción que se ofrecen. Si tiene alguna pregunta, no dude en ponerse en contacto con el equipo de ventas Aspose.
+ Una vez que esté satisfecho con su evaluación de**Aspose.Cells** , usted puede[comprar una licencia](https://purchase.aspose.com)en el sitio web Aspose. Familiarícese con los diferentes tipos de suscripción que se ofrecen. Si tiene alguna pregunta, no dude en ponerse en contacto con el equipo de ventas Aspose.
 
 Cada licencia Aspose incluye una suscripción de un año para actualizaciones gratuitas a cualquier nueva versión o corrección que surja durante este tiempo. El soporte técnico es gratuito e ilimitado y se proporciona tanto a usuarios con licencia como a usuarios de evaluación.
 

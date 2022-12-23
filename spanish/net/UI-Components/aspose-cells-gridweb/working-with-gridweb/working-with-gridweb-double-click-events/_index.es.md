@@ -20,7 +20,7 @@ Todos los tipos de eventos de doble clic se pueden habilitar en el lado del clie
 
 {{% alert color="primary" %}} 
 
-De forma predeterminada, la propiedad EnableDoubleClickEvent se establece en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar dichos eventos, primero habilite la característica.
+De forma predeterminada, la propiedad EnableDoubleClickEvent se establece en falso. Esto significa que los eventos de doble clic no están habilitados de forma predeterminada. Para implementar dichos eventos, primero habilite la función.
 
 {{% /alert %}} 
 

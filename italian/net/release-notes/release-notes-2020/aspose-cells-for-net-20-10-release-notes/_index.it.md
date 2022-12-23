@@ -10,10 +10,10 @@ url: /it/net/aspose-cells-for-net-20-10-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47625|Verifica la password per i file crittografati|Nuova caratteristica|
-|CELLSNET-47601|Renderizza righe e colonne extra in HTML senza disturbare formule/riferimenti per assomigliare all'output con MS Excel|Nuova caratteristica|
+|CELLSNET-47601|Renderizza riga e colonna extra in HTML senza disturbare formule/riferimenti per assomigliare all'output con MS Excel|Nuova caratteristica|
 |CELLSNET-47619|Aspose Grafico SetChartDataRange Problema|Aumento|
 |CELLSNET-47632|Struttura e differenza di ordine in OLE dell'input e dell'output dopo il salvataggio del file|Aumento|
 |CELLSNET-47644|Diverse connessioni esterne recuperate rispetto a MS Excel|Aumento|
@@ -25,9 +25,9 @@ url: /it/net/aspose-cells-for-net-20-10-release-notes/
 |CELLSNETCORE-83|Il file Excel non è stato visualizzato correttamente in GridWeb|Insetto|
 |CELLSNETCORE-86|Problema di visualizzazione della forma in GridWeb|Insetto|
 |CELLSNET-47597|Le aree di riempimento sono molto diverse rispetto al file sorgente|Insetto|
-|CELLSNET-47614|Alcuni simboli mancano nel PDF di output nel rendering da Excel a PDF|Insetto|
-|CELLSNET-47636|Conversione da Excel a PDF: il risultato passa sulla pagina con orientamento orizzontale|Insetto|
-|CELLSNET-47637|Conversione del problema da Excel a PDF con Calibri Light|Insetto|
+|CELLSNET-47614|Alcuni simboli mancano nell'output PDF in Excel per il rendering PDF|Insetto|
+|CELLSNET-47636|Conversione da Excel a PDF: il risultato va oltre la pagina con orientamento orizzontale|Insetto|
+|CELLSNET-47637|Conversione di Excel nel problema PDF con Calibri Light|Insetto|
 |CELLSNET-42982|Le dimensioni e il layout del grafico sono stati modificati dopo Workbook.Combine|Insetto|
 |CELLSNET-47594|Opzione per ottenere informazioni PlotBy e OnAction simili a MS Excel|Insetto|
 |CELLSNET-47595|Il grafico non è stato mantenuto correttamente nel file Excel durante il caricamento e il salvataggio|Insetto|
@@ -46,23 +46,23 @@ url: /it/net/aspose-cells-for-net-20-10-release-notes/
 |CELLSNET-47544|Mancano le immagini e la posizione del testo era errata durante il rendering di Excel in Linux|Insetto|
 |CELLSNET-47571|La conversione HTML da XLS entra in un ciclo di conversione continuo|Insetto|
 |CELLSNET-47583|PivotTable.TableRange2 fornisce un valore errato per la tabella pivot|Insetto|
-|CELLSNET-47584|Aspose.Cells La conversione da HTML a Excel non mostrava immagini|Insetto|
+|CELLSNET-47584|Aspose.Cells HTML alla conversione di Excel non ha mostrato immagini|Insetto|
 |CELLSNET-47609|Diagram non viene mostrato in html quando il foglio non ha altro contenuto|Insetto|
 |CELLSNET-47633|La tabella pivot con le date non si aggiorna correttamente|Insetto|
 |CELLSNET-47635|L'affettatrice su un tavolo diverso genera un file danneggiato|Insetto|
-|CELLSNET-47620|Da forma a immagine Errore durante il salvataggio in PDF|Eccezione|
-|CELLSNET-47608|NullReferenceException durante il caricamento di XLSX|Eccezione|
+|CELLSNET-47620|Shape to image Errore durante il salvataggio in PDF|Eccezione|
+|CELLSNET-47608|NullReferenceException al caricamento di XLSX|Eccezione|
 |CELLSNET-47624|System.ArgumentException durante il caricamento del file crittografato in XLAM|Eccezione|
 |CELLSNET-47630|L'argomento specificato non rientrava nell'intervallo di eccezioni di valori validi durante l'eliminazione della colonna|Eccezione|
-|CELLSNET-47649|L'eccezione viene sollevata durante la lettura di DBConnection.PowerQueryFormula dal file XLSX|Eccezione|
+|CELLSNET-47649|L'eccezione viene generata durante la lettura di DBConnection.PowerQueryFormula dal file XLSX|Eccezione|
 |CELLSNET-47655|CellsException durante la conversione da Excel a PDF|Eccezione|
-|CELLSNETCORE-80|Impossibile trasmettere l'eccezione dell'oggetto durante la conversione di XLSB in XLSM|Eccezione|
+|CELLSNETCORE-80|Impossibile trasmettere l'eccezione dell'oggetto durante la conversione da XLSB a XLSM|Eccezione|
 |CELLSNET-47593|Eccezione quando si tenta di aprire un particolare HTM|Eccezione|
-|CELLSNET-47656|Errore da forma a immagine durante la conversione di XLSB in PDF|Eccezione|
+|CELLSNET-47656|Errore da forma a immagine durante la conversione da XLSB a PDF|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge ExceptionType.Permission enum**
 

@@ -14,7 +14,7 @@ Aspose.Cells.GridDesktop kullanarak bir sütuna özel bir stil uygulamak için l
 
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 -  Erişim**Kolon** uygulamak istediğimiz**stil**
--  Almak**stil** arasında**Kolon**
+-  Elde etmek**stil** arasında**Kolon**
 -  Ayarlamak**stil** özel ihtiyaçlarınıza göre özellikler
 -  Son olarak ayarla**stil** arasında**Kolon** güncellenen ile
 
@@ -28,7 +28,7 @@ Aspose.Cells.GridDesktop kullanarak bir satıra özel bir stil uygulamak için l
 
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 -  Erişim**Sıra** uygulamak istediğimiz**stil**
--  Almak**stil** arasında**Sıra**
+-  Elde etmek**stil** arasında**Sıra**
 -  Ayarlamak**stil** özel ihtiyaçlarınıza göre özellikler
 -  Son olarak ayarla**stil** arasında**Sıra** güncellenen ile
 

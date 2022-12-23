@@ -15,7 +15,7 @@ Aspose.Cells är en flexibel komponent som gör det möjligt för Android-applik
 {{% /alert %}} 
 ## **Dokumentfunktioner**
 - Öppna vanliga eller krypterade Excel-filer (Excel97 - Excel2007 och senare versioner) från olika källor
-- Spara Excel-filer (Excel97 - Excel2007 och senare versioner) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML etc.)
+- Spara Excel-filer (Excel97 - Excel2007 och senare versioner) i olika format (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, XLSB, XLSB, 076164018, 716163481, 3016 4816 etc.
 - Konvertera Excel-fil till PDF-dokument
 - Konvertera Excel-kalkylblad till XPS-dokument
 - Läs och skriv OpenDocument Spreadsheet-format (ODS).

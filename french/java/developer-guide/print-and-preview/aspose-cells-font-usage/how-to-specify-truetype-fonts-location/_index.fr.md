@@ -65,7 +65,7 @@ System.setProperty("Aspose.Cells.FontDirExc", "FontDirSet");
 
 {{% alert color="primary" %}}
 
-Veuillez noter ce qui suit :
+Veuillez noter ce qui suit :
 
 - La déclaration ci-dessus doit figurer au début de votre candidature.
 - L'utilisation de l'approche ci-dessus ne nécessite pas la définition du répertoire de polices à l'aide de l'une des méthodes FontConfigs décrites ci-dessus.

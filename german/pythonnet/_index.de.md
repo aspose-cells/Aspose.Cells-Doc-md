@@ -4,7 +4,7 @@ type: docs
 weight: 110
 url: /de/python-net/
 is_root: true
-description: Aspose.Cells for Python unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Ihr Unternehmen täglich verwendet. Es ermöglicht auch den Export von Excel®-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text und gängige Bildformate wie TIFF, JPG, PNG, BMP und SVG.
+description: Aspose.Cells for Python unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Sie täglich im Unternehmen verwenden. Es ermöglicht auch den Export von Excel®-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Nur-Text und gängige Bildformate, einschließlich TIFF, JPG, PNG, BMP und SVG.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +12,7 @@ description: Aspose.Cells for Python unterstützt die gängigen Dateiformate fü
 
 **Willkommen unter Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET ermöglicht es Ihren Anwendungen, eine Vielzahl von Aufgaben der Tabellenkalkulation auszuführen. Aspose.Cells for Python via .NET unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Ihr Unternehmen täglich verwendet. Es ermöglicht auch den Export von Excel®-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text und gängige Bildformate wie TIFF, JPG, PNG, BMP und SVG.
+Aspose.Cells for Python via .NET ermöglicht es Ihren Anwendungen, eine Vielzahl von Aufgaben der Tabellenkalkulation auszuführen. Aspose.Cells for Python via .NET unterstützt die gängigen Dateiformate für Tabellenkalkulationen (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS), die Ihr Unternehmen täglich verwendet. Es ermöglicht auch den Export von Excel®-Dateien in PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Nur-Text und gängige Bildformate, einschließlich TIFF, JPG, PNG, BMP und SVG.
 
 {{% /alert %}}
 

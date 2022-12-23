@@ -21,7 +21,7 @@ url: /ar/java/aspose-cells-for-java-and-php/
 
  لا تنس إضافة aspose.cells.jar إلى java.class.path في ملف php.ini.
 
- توفر فئات المجمّع PHP بعض الطرق الثابتة لإنشاء فئات PHP لفئة Java المقابلة ، في ClassFactory مع التوقيع createXXX (). إذا تم تحميل المُنشئات بشكل زائد ، يتم تعريف جميع الطرق المقابلة في ClassFactory على أنها إنشاء + الرقم التسلسلي + اسم الفئة ، على سبيل المثال: ((createXXX ()}} ، create1XXX (args ...) ، create2XXX (args ...) ، وهلم جرا.
+ توفر فئات المجمّع PHP بعض الطرق الثابتة لإنشاء فئات PHP لفئة Java المقابلة ، في ClassFactory مع التوقيع createXXX (). إذا تم تحميل المُنشئات بشكل زائد ، يتم تعريف جميع الطرق المقابلة في ClassFactory على أنها إنشاء + الرقم التسلسلي + اسم الفئة ، على سبيل المثال: ((createXXX ()}} ، create1XXX (args ...) ، create2XXX (args ...) ، وهكذا.
 
 يتم تعريف جميع الثوابت في PHP على أنها ClassName + "" + ConstantName ، على سبيل المثال ، BorderLineType.NONE يتم تعريفها على أنها BorderLineType NONE في PHP.
 

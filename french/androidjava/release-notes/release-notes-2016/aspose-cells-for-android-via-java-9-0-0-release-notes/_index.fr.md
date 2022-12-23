@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /fr/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-41925|Le temps de calcul a augmenté avec les récentes révisions API|Nouvelle fonctionnalité|
 |CELLSJAVA-40958|Un mécanisme de substitution de polices configurable par l'utilisateur est requis|Nouvelle fonctionnalité|
@@ -12,28 +12,28 @@ url: /fr/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41947|Capacité à détecter si un DataPoint est en Pie ou Bar|Nouvelle fonctionnalité|
 |CELLSJAVA-41936|La méthode Workbook.calculateFormula() ne se termine jamais pour le fichier Excel source|Renforcement|
 |CELLSJAVA-41827|La feuille de calcul prend plus de 3 minutes pour calculer les formules par la méthode Workbook.calculateFormula()|Renforcement|
-|CELLSJAVA-41928|Impossible d'attraper la ressource d'image lors du rendu de la feuille de calcul au format HTML avec IStreamProvider|Punaise|
-|CELLSJAVA-41841|Problème avec le rendu des cases à cocher en HTML|Punaise|
+|CELLSJAVA-41928|Impossible d'attraper la ressource d'image lors du rendu de la feuille de calcul en HTML avec IStreamProvider|Punaise|
+|CELLSJAVA-41841|Problème avec le rendu des cases à cocher au HTML|Punaise|
 |CELLSJAVA-41932|Problème avec getDisplayStringValue() pour les valeurs au format Date|Punaise|
 |CELLSJAVA-41930|En utilisant les API Light Cells pour traiter un fichier XLS, la première cellule de la première feuille est toujours traitée|Punaise|
-|CELLSJAVA-41931|L'espacement des caractères et la rupture ne sont pas corrects pour le texte vertical lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-41931|L'espacement des caractères et la rupture ne sont pas corrects pour le texte vertical lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-41709|Les largeurs de colonne sont différentes sur CentOS que sur Windows|Punaise|
-|CELLSJAVA-41933|L'échelle du graphique s'est déplacée lors du rendu de la feuille de calcul au format PDF|Punaise|
-|CELLSJAVA-41934|Problème d'alignement lors du rendu d'un fichier Excel au format PDF|Punaise|
-|CELLSJAVA-41935|Le formatage des entrées de légende est perturbé lors du rendu de la feuille de calcul au format PDF|Punaise|
+|CELLSJAVA-41933|L'échelle du graphique s'est déplacée lors du rendu de la feuille de calcul vers PDF|Punaise|
+|CELLSJAVA-41934|Problème d'alignement lors du rendu d'un fichier Excel au PDF|Punaise|
+|CELLSJAVA-41935|Le formatage des entrées de légende est perturbé lors du rendu de la feuille de calcul en PDF|Punaise|
 |CELLSJAVA-41943|Les étiquettes d'axe horizontal n'ont pas été rendues complètement, c'est-à-dire ; toutes les étiquettes manquent de contenu dans l'image rendue.|Punaise|
 |CELLSJAVA-41940|Le fichier est corrompu après le calcul de la formule et l'enregistrement|Punaise|
 |CELLSJAVA-41952|Le résultat du calcul n'est pas correct|Punaise|
 |CELLSJAVA-41941|La formule matricielle n'est pas calculée correctement|Punaise|
-|CELLSJAVA-41937|Certaines valeurs du fichier Excel sont manquantes dans la sortie HTML - Conversion XLS vers HTML|Punaise|
-|CELLSJAVA-41969|Cell l'ombrage est manquant lors de la conversion de HTML en XLSX|Punaise|
-|CELLSJAVA-41955|Le classeur en HTML affiche '#' dans les cellules|Punaise|
-|CELLSJAVA-41942|Bordures, trames de cellule et images manquantes - Rendu HTML vers Excel|Punaise|
-|CELLSJAVA-41967|Cells manquant dans le PDF lorsque plusieurs zones d'impression sont définies dans une seule feuille|Punaise|
+|CELLSJAVA-41937|Certaines valeurs du fichier Excel sont manquantes dans la sortie HTML - XLS à HTML conversion|Punaise|
+|CELLSJAVA-41969|L'ombrage Cell est manquant lors de la conversion de HTML en XLSX|Punaise|
+|CELLSJAVA-41955|Le classeur à HTML affiche '#' dans les cellules|Punaise|
+|CELLSJAVA-41942|Bordures, trames de cellule et images manquantes - HTML vers le rendu Excel|Punaise|
+|CELLSJAVA-41967|Cells manquant dans PDF lorsque plusieurs zones d'impression sont définies sur une seule feuille|Punaise|
 |CELLSJAVA-41958|La légende de droite est tronquée dans l'image du graphique|Punaise|
-|CELLSJAVA-41953|Texte mal placé dans le diagramme après conversion au format HTML|Punaise|
+|CELLSJAVA-41953|Texte mal placé sur le diagramme après conversion au format HTML|Punaise|
 |CELLSJAVA-41948|Le graphique est modifié lors de la conversion de la feuille de calcul en HTML|Punaise|
-|CELLSJAVA-41981|Position incorrecte de la ligne verticale dans le PDF du graphique|Punaise|
+|CELLSJAVA-41981|Position incorrecte de la ligne verticale dans le graphique PDF|Punaise|
 |CELLSJAVA-41964|L'ajustement automatique ne tient pas compte du niveau d'indentation|Punaise|
 |CELLSJAVA-40260|Modification du texte d'un WordArt existant dans un fichier Excel|Punaise|
 |CELLSJAVA-41927|Exception : "java.lang.OutOfMemoryError" lors de l'enregistrement au format de fichier HTML|Exception|
@@ -51,7 +51,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 ### **Ajoute la propriété CopyOptions.ReferToDestinationSheet et la méthode Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions)**
 Lorsque vous copiez la plage et que le graphique fait référence à la feuille source, False signifie que la source de données du graphique copié ne sera pas modifiée. True signifie que la source de données du graphique copié fait référence à la feuille de destination.
 ### **Ajoute la propriété HtmlSaveOptions.FilePathProvider**
-Obtient ou définit le IFilePathProvider pour l'exportation de Worksheet au format HTML séparément.
+Obtient ou définit le IFilePathProvider pour exporter la feuille de calcul vers HTML séparément.
 ### **Ajoute l'interface IFilePathProvider**
 Représente le fournisseur de chemin de fichier exporté.
 ### **Ajoute la classe FontConfigs**

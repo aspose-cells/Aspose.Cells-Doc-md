@@ -6,7 +6,7 @@ url: /de/java/saving-files-in-ruby/
 ---
 ## **Aspose.Cells – Speichern von Dateien**
 ### **Datei an einem Ort speichern**
- Wenn Entwickler ihre Dateien mit speichern müssen**Aspose.Cells Java für Rubin** zu einem Speicherort, dann können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (mithilfe der**Dateiformattyp**Aufzählung) beim Aufrufen der**sparen**Methode von**Arbeitsmappe**Objekt.
+ Wenn Entwickler ihre Dateien mit speichern müssen**Aspose.Cells Java für Rubin** zu einem Speicherort, dann können sie einfach den Dateinamen (mit vollständigem Speicherpfad) und das gewünschte Dateiformat (mithilfe der**Dateiformattyp**Aufzählung) beim Aufrufen der**speichern**Methode von**Arbeitsmappe**Objekt.
 
 **Ruby-Code**
 

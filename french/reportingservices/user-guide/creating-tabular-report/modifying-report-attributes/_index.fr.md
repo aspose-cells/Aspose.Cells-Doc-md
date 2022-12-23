@@ -31,4 +31,4 @@ Les rapports disponibles sont répertoriés dans le panneau de gauche.
 
 
 
-1.  Cliquez sur**Commettre** pour finir.
+1.  Cliquez sur**S'engager** pour finir.

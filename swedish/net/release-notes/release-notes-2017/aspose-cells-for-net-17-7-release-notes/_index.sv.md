@@ -28,12 +28,12 @@ url: /sv/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45402|Cell.DisplayStringValue matchar inte de ursprungliga värdena|Insekt|
 |CELLSNET-45479|Aspose.Cells 17.5 - Felaktig digital signering med DSA-certifikat|Insekt|
 |CELLSNET-45420|Standardfontinställningen fungerar inte|Insekt|
-|CELLSNET-45364|Vissa former/objekt klipps ut i PDF-filen|Insekt|
+|CELLSNET-45364|Vissa former/objekt skärs i utgången PDF|Insekt|
 |CELLSNET-45491|Något svart oskärpa som fästs på dataetiketterna dök upp i utdatabilden av diagrammet|Insekt|
 |CELLSNET-45476|Datumformatet för X-axeletiketterna ändras och åsidosätts i teckenförklaringsposter|Insekt|
-|CELLSNET-45471|Texten "III.LowerQualityAboveSML" på andra sidan av PDF-filen är trasig|Insekt|
+|CELLSNET-45471|Texten "III.LowerQualityAboveSML" på 2:a sidan av PDF är trasig|Insekt|
 |CELLSNET-45454|Bubblans färger ändras lite för olika diagram även med samma kodrader|Insekt|
-|CELLSNET-45452|Sparklines renderas inte korrekt i utdata-PDF-filen|Insekt|
+|CELLSNET-45452|Sparklines renderas inte korrekt i utgången PDF|Insekt|
 |CELLSNET-45493|Ändra storlek på ListObject får inte anpassad formatering överförd|Insekt|
 |CELLSNET-45482|Vissa former går förlorade i XLS-filen när bilder extraheras och infogas igen|Insekt|
 |CELLSNET-45466|Vissa ytterligare ramar läggs till automatiskt|Insekt|
@@ -46,7 +46,7 @@ url: /sv/net/aspose-cells-for-net-17-7-release-notes/
 |CELLSNET-45438|Att rotera texten i cellen till 90 grader förstör cellens textjustering|Insekt|
 |CELLSNET-45425|GridWeb lägger till utrymme i rullgardinsmenyn i Excel|Insekt|
 |CELLSNET-42363|Problem med pivotfältens bildtexter i pivottabell (GridWeb)|Insekt|
-|CELLSNET-45486|NullReferenceException inträffade när Excel-arbetsboken (med sammanslagna celler) sparades till HTML-filformat|Undantag|
+|CELLSNET-45486|NullReferenceException inträffade när Excel-arbetsboken (med sammanslagna celler) sparades till filformatet HTML|Undantag|
 |CELLSNET-45478|Undantag för att öppna en skadad MHTML-fil via Aspose.Cells API:er|Undantag|
 |CELLSNET-45467|System.ArgumentOutOfRangeException' inträffade när en MHTML-fil laddades|Undantag|
 |CELLSNET-45485|Undantag inträffade vid beräkning av en giltig formel|Undantag|
@@ -65,7 +65,7 @@ Indikerar om man ska försöka använda arbetsbokens standardteckensnitt först 
 #### **Lägger till egenskapen ImageOrPrintOptions.CheckWorkbookDefaultFont**
 Indikerar om man ska försöka använda arbetsbokens standardteckensnitt först för att visa tecknen vilket teckensnitt som inte är korrekt inställt.
 #### **Lägger till FileFormatType.Numbers, LoadFormat.Numbers och SaveFormat.Numbers enum**
-Representerar Numbers-kalkylarksfilformatet av Apple Inc/.
+Representerar kalkylarksfilformatet Numbers av Apple Inc/.
 #### **Lägger till metoden Worksheet.AdvancedFilter().**
 Filtrerar data med hjälp av komplexa kriterier.
 #### **Lägger till egenskapen WorkbookSettings.SignificantDigits**
@@ -91,7 +91,7 @@ Gör att GridWeb-kontrollen är kompatibel med aktuell webbläsarfönsterstorlek
 #### **Användningsexempel**
 Kontrollera listan med hjälpämnen som lagts till i Aspose.Cells Wiki-dokument:
 
-- [Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Läs Numbers Kalkylblad Utvecklat av Apple Inc. med Aspose.Cells](/cells/sv/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Ställ in egenskapen DefaultFont för PdfSaveOptions och ImageOrPrintOptions att ha prioritet](/cells/sv/net/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Använd avancerat filter av Microsoft Excel för att visa poster som uppfyller komplexa kriterier](/cells/sv/net/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Implementera fel och booleskt värde på ryska eller något annat språk](/cells/sv/net/implement-errors-and-boolean-value-in-russian-or-any-other-language/)

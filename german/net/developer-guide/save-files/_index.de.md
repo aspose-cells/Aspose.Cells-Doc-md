@@ -23,27 +23,27 @@ Aspose.Cells ermöglicht das Erstellen und Speichern von Dateien. In diesem Arti
 |Excel97To2003|Stellt eine Excel 97-2003-Datei dar|
 |XLSX|Stellt eine Excel 2007 XLSX-Datei dar|
 |XLSM|Stellt eine Excel 2007 XLSM-Datei dar|
-|Xltx|Stellt eine Excel 2007-Vorlagen-XLTX-Datei dar|
-|Xltm|Stellt eine XLTM-Datei mit Excel 2007-Makros dar|
-|XLSB|Stellt eine binäre Excel 2007-XLSB-Datei dar|
+|Xltx|Stellt eine Excel 2007-Vorlagendatei XLTX dar|
+|Xltm|Stellt eine Excel 2007-Makro-fähige XLTM-Datei dar|
+|XLSB|Stellt eine Excel 2007-Binärdatei XLSB dar|
 |SpreadsheetML|Stellt eine Tabellenkalkulations-XML-Datei dar|
 |TSV|Stellt eine tabulatorgetrennte Wertedatei dar|
-|Tabulatorgetrennt|Stellt eine tabulatorgetrennte Textdatei dar|
+|TabDelimited|Stellt eine tabulatorgetrennte Textdatei dar|
 |ODS|Stellt eine ODS-Datei dar|
-|HTML|Repräsentiert HTML-Datei(en)|
+|HTML|Repräsentiert HTML Datei(en)|
 |HTML|Stellt eine MHTML-Datei(en) dar|
 |Pdf|Stellt eine PDF-Datei dar|
 |XPS|Stellt ein XPS-Dokument dar|
-|TIFF|Repräsentiert das Tagged Image File Format (TIFF)|
+|TIFF|Repräsentiert das getaggte Bilddateiformat (TIFF)|
 
 ## **Speichern von Dateien in verschiedenen Formaten**
 
- Um Dateien an einem Speicherort zu speichern, geben Sie den Dateinamen (komplett mit Speicherpfad) und das gewünschte Dateiformat (aus der**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)**Aufzählung) beim Aufrufen der**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Objekt**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode.
+Um Dateien an einem Speicherort zu speichern, geben Sie den Dateinamen (komplett mit Speicherpfad) und das gewünschte Dateiformat (aus der**[SaveFormat](https://reference.aspose.com/cells/net/aspose.cells/saveformat)** Aufzählung) beim Aufrufen der**[Arbeitsmappe](https://reference.aspose.com/cells/net/aspose.cells/workbook)** Objekt**[Speichern](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**Methode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
 ## **Arbeitsmappe als pdf speichern**
-Portable Document Format (PDF) ist ein Dokumenttyp, der von Adobe in den 1990er Jahren erstellt wurde. Der Zweck dieses Dateiformats bestand darin, einen Standard für die Darstellung von Dokumenten und anderem Referenzmaterial in einem Format einzuführen, das unabhängig von Anwendungssoftware, Hardware und Betriebssystem ist. Das PDF-Dateiformat kann Informationen wie Text, Bilder, Hyperlinks, Formularfelder, Rich Media, digitale Signaturen, Anhänge, Metadaten, Geodaten und 3D-Objekte enthalten, die Teil des Quelldokuments werden können.
+Portable Document Format (PDF) ist ein Dokumenttyp, der von Adobe in den 1990er Jahren erstellt wurde. Der Zweck dieses Dateiformats bestand darin, einen Standard für die Darstellung von Dokumenten und anderem Referenzmaterial in einem Format einzuführen, das unabhängig von Anwendungssoftware, Hardware und Betriebssystem ist. Das Dateiformat PDF kann Informationen wie Text, Bilder, Hyperlinks, Formularfelder, Rich Media, digitale Signaturen, Anhänge, Metadaten, Geodaten und 3D-Objekte enthalten, die Teil des Quelldokuments werden können.
 
 Der folgende Code zeigt, wie man die Arbeitsmappe als PDF-Datei mit Aspose.Cells speichert:
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Save-As-Pdf.cs" >}}
@@ -52,11 +52,11 @@ Der folgende Code zeigt, wie man die Arbeitsmappe als PDF-Datei mit Aspose.Cells
 
 Manchmal möchten Sie eine Arbeitsmappe mit mehreren Arbeitsblättern in das Textformat konvertieren oder speichern. Bei Textformaten (z. B. TXT, TabDelim, CSV usw.) speichern sowohl Microsoft Excel als auch Aspose.Cells standardmäßig nur den Inhalt des aktiven Arbeitsblatts.
 
-Im folgenden Codebeispiel wird erläutert, wie eine gesamte Arbeitsmappe im Textformat gespeichert wird. Laden Sie die Quellarbeitsmappe, bei der es sich um eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Arbeitsblättern handeln kann.
+Im folgenden Codebeispiel wird erläutert, wie eine gesamte Arbeitsmappe im Textformat gespeichert wird. Laden Sie die Quellarbeitsmappe, die eine beliebige Microsoft Excel- oder OpenOffice-Tabellendatei sein kann (also XLS, XLSX, XLSM, XLSB, ODS usw.) mit einer beliebigen Anzahl von Arbeitsblättern.
 
-Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das TXT-Format.
+Wenn der Code ausgeführt wird, konvertiert er die Daten aller Blätter in der Arbeitsmappe in das Format TXT.
 
- Sie können dasselbe Beispiel ändern, um Ihre Datei im CSV-Format zu speichern. Standardmäßig,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**ist ein Komma, also geben Sie beim Speichern im CSV-Format kein Trennzeichen an.
+Sie können dasselbe Beispiel ändern, um Ihre Datei unter CSV zu speichern.**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**ist ein Komma, geben Sie also kein Trennzeichen an, wenn Sie im Format CSV speichern.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -73,18 +73,18 @@ Textdateien enthalten Tabellenkalkulationsdaten ohne Formatierung. Die Datei ist
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
 ## **Speichern von Dateien als Html- und Mht-Dateien**
-Aspose.Cells kann einfach eine Excel-Datei, JSON, CSV oder andere Dateien speichern, die von Aspose.Cells als .html- und .mht-Dateien geladen werden können.
+Aspose.Cells kann einfach eine Excel-Datei speichern, JSON, CSV oder andere Dateien, die von Aspose.Cells als .html- und .mht-Dateien geladen werden können.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
  
 
 ## **Speichern als OpenOffice (ODS, SXC, FODS, OTS)**
-Wir können die Dateien im offenen Office-Format speichern: ODS, SXC, FODS, OTS usw.
+Wir können die Dateien im Open-Offce-Format speichern: ODS, SXC, FODS, OTS usw.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 ## **Excel-Datei als JSON oder XML speichern**
 
-JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. JSON-Dateien werden mit der Erweiterung .json gespeichert. JSON erfordert weniger Formatierung und ist eine gute Alternative für XML. JSON ist von JavaScript abgeleitet, aber ein sprachunabhängiges Datenformat. Das Generieren und Parsen von JSON wird von vielen modernen Programmiersprachen unterstützt. application/json ist der Medientyp, der für JSON verwendet wird.
+JSON (JavaScript Object Notation) ist ein offenes Standarddateiformat zum Teilen von Daten, das menschenlesbaren Text zum Speichern und Übertragen von Daten verwendet. JSON-Dateien werden mit der Erweiterung .json gespeichert. JSON erfordert weniger Formatierung und ist eine gute Alternative für XML. JSON ist von JavaScript abgeleitet, aber ein sprachunabhängiges Datenformat. Die Generierung und Analyse von JSON wird von vielen modernen Programmiersprachen unterstützt. application/json ist der Medientyp, der für JSON verwendet wird.
 
 Aspose.Cells unterstützt das Speichern von Dateien in JSON oder XML.
 

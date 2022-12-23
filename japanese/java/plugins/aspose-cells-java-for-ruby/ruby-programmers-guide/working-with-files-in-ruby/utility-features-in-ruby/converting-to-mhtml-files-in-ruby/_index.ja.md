@@ -1,5 +1,5 @@
 ﻿---
-title: Ruby での MHTML ファイルへの変換
+title: Ruby で MHTML ファイルに変換する
 type: docs
 weight: 50
 url: /ja/java/converting-to-mhtml-files-in-ruby/

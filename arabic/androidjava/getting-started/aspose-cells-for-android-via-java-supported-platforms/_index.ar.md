@@ -8,4 +8,4 @@ Aspose.Cells for Android via Java مكتوب بالكامل في Java ، ويع�
 
 - Aspose.Cells for Android via Java مكتبة جرة.
 - أمثلة المشاريع.
-- Aspose.Cells توثيق بصيغة HTML.
+- Aspose.Cells توثيق بتنسيق HTML.

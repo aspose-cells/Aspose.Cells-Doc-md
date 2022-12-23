@@ -6,7 +6,7 @@ url: /ru/net/format-pivot-table-cells/
 ---
 {{% alert color="primary" %}}
 
- Иногда вам нужно отформатировать ячейки сводной таблицы. Например, вы хотите применить цвет фона к ячейкам сводной таблицы. Aspose.Cells предоставляет два метода[**Сводная таблица.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) а также[**Сводная таблица.Формат()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), который вы можете использовать для этой цели.
+ Иногда вам нужно отформатировать ячейки сводной таблицы. Например, вы хотите применить цвет фона к ячейкам сводной таблицы. Aspose.Cells предоставляет два метода[**Сводная таблица.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) и[**Сводная таблица.Формат()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format), который вы можете использовать для этой цели.
 
 [**Сводная таблица.FormatAll()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/formatall) применяет стиль ко всей сводной таблице, а[**Сводная таблица.Формат()**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/methods/format) применяет стиль к одной ячейке сводной таблицы.
 

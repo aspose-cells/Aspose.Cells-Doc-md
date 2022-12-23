@@ -9,5 +9,5 @@ url: /de/java/utility-features-in-python/
 - [Konvertieren von Excel in PDF-Dateien in Python](/cells/de/java/converting-excel-to-pdf-files-in-python/)
 - [Konvertieren in MHTML-Dateien in Python](/cells/de/java/converting-to-mhtml-files-in-python/)
 - [Arbeitsblatt in Bild umwandeln in Python](/cells/de/java/converting-worksheet-to-image-in-python/)
-- [Arbeitsblatt in SVG konvertieren in Python](/cells/de/java/converting-worksheet-to-svg-in-python/)
+- [Konvertieren des Arbeitsblatts in SVG in Python](/cells/de/java/converting-worksheet-to-svg-in-python/)
 - [Dokumenteigenschaften verwalten in Python](/cells/de/java/managing-document-properties-in-python/)

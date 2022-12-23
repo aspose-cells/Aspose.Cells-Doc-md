@@ -15,13 +15,13 @@ url: /zh/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-41365|在 PdfSaveOptions 中支持 PDF/A-1a 合规性|新功能|
 |CELLSNET-45347|删除 Excel 文件中的现有 PrinterSettings|新功能|
 |CELLSNET-45340|为工作表实施自定义页面大小选项|新功能|
-|CELLSNET-45327|支持将 HTML 单元格的数据导出到 DataTable|新功能|
+|CELLSNET-45327|支持将HTML单元格的数据导出到DataTable|新功能|
 |CELLSNET-45316|ASP.NET Session state mode为SQL Server时支持GridWeb工作|新功能|
 |CELLSNET-45350|图像渲染期间出现 OutOfMemory 错误|表现|
 |CELLSNET-45341|将 XLS 转换为具有过滤器的 SpreadsheetML 会损坏输出文件|表现|
-|CELLSNET-45217|将 Excel 保存为 PDF 会旋转图像|漏洞|
+|CELLSNET-45217|将 Excel 保存到 PDF 旋转图像|漏洞|
 |CELLSNET-45306|使用 css 前缀保存到 HTML 时样式错误|漏洞|
-|CELLSNET-45304|输出 HTML 中垂直旋转文本的文本对齐错误|漏洞|
+|CELLSNET-45304|输出中垂直旋转文本的文本对齐错误 HTML|漏洞|
 |CELLSNET-45299|另存为 HTML 时文本不适合单元格|漏洞|
 |CELLSNET-45288|加载 HTML 文件时发生异常|漏洞|
 |CELLSNET-45274|数据透视表数据未正确刷新|漏洞|
@@ -29,14 +29,14 @@ url: /zh/net/aspose-cells-for-net-17-5-release-notes/
 |CELLSNET-45333|计算工作簿公式后，单元格 M114 和 N114 中的值不正确|漏洞|
 |CELLSNET-45318|工作簿计算方法无法计算XIRR公式|漏洞|
 |CELLSNET-45310|当会话状态超出进程时，多个用户在 GridWeb 中面临问题|漏洞|
-|CELLSNET-45324|将 Excel 文件渲染为 PDF 时，字符的位置未居中对齐|漏洞|
-|CELLSNET-45339|MS Excel 无法打开从 ODS 转换为 XML (SpreadsheetML) 的文件|漏洞|
+|CELLSNET-45324|将 Excel 文件呈现为 PDF 时，字符的位置未居中对齐|漏洞|
+|CELLSNET-45339|从 ODS 转换为 XML (SpreadsheetML) 文件未被 MS Excel 打开|漏洞|
 |CELLSNET-45326|Cell.HtmlString 没有正确高亮嵌套字体颜色|漏洞|
 |CELLSNET-45325|插入新行后数据验证最终变得奇怪|漏洞|
 |CELLSNET-45322|Cells.ImportDataTable 方法已更改|漏洞|
 |CELLSNET-45314|CopyOptions.ExtendToAdjacentRange 属性不起作用|漏洞|
 |CELLSNET-45312|最终 Excel 文件与原始 Excel 文件不同|漏洞|
-|CELLSNET-45303|当从 XLSX 文件格式重新保存为 XLS 文件格式时，形状（矩形、线条等）不再绑定|漏洞|
+|CELLSNET-45303|从 XLSX 文件格式重新保存为 XLS 文件格式时，形状（矩形、线条等）不再绑定|漏洞|
 |CELLSNET-45301|打开和保存Excel文件使对齐错误|漏洞|
 |CELLSNET-45297|使用较新版本打开和保存 XLSM 文件会损坏它|漏洞|
 |CELLSNET-45296|从工作簿中删除所有注释会导致在 Excel 中打开时出错|漏洞|

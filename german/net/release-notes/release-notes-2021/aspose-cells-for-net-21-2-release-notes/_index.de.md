@@ -21,14 +21,14 @@ url: /de/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNETCORE-98|Laden von xlsb-Ergebnissen mit OOM-Ausnahme|Leistung|
 |CELLSNET-47805|Falsche Position einiger Polylinien beim Speichern von .html-Dateien.|Insekt|
 |CELLSNET-47810|Pfeilposition ist falsch|Insekt|
-|CELLSNET-43717|Die Pivot-Feldsortierung wird nicht in PDF gerendert|Insekt|
+|CELLSNET-43717|Die Pivot-Feldsortierung wird nicht auf PDF gerendert|Insekt|
 |CELLSNET-43751|Die Zeilenbeschriftungssortierung geht nach dem Verweisen auf PivotTable verloren|Insekt|
 |CELLSNET-47777|Formatierungsfehler in konvertiertem HTML|Insekt|
 |CELLSNET-47824|Problem mit der PPMT-Formel, die ein falsches Ergebnis liefert|Insekt|
 |CELLSNET-47847| Falsche Formelreferenz nach dem Löschen von Zeilen|Insekt|
 |CELLSNET-47818|Shape.ToImage rendert keinen Text in der Docker-Umgebung|Insekt|
-|CELLSNET-47820|Ränder fehlen in Aspose EMF/OfficeCompatibleEMF konvertiert von XLSX|Insekt|
-|CELLSNET-47844| Falsche Konvertierung einer doppelt unterstrichenen Zelle im Buchhaltungsformat beim Speichern in PDF|Insekt|
+|CELLSNET-47820|Grenzen fehlen in Aspose EMF/OfficeCompatibleEMF konvertiert von XLSX|Insekt|
+|CELLSNET-47844| Falsche Konvertierung einer doppelt unterstrichenen Zelle im Abrechnungsformat beim Speichern in PDF|Insekt|
 |CELLSNET-47819|Datenbeschriftungen werden beim Speichern nicht richtig angezeigt|Insekt|
 |CELLSNET-47821|Datenbeschriftungen nicht korrekt|Insekt|
 |CELLSNET-47813| Seltsames Verhalten (und Unterschiede) mit Treemap-Diagramm (und anderen erweiterten Diagrammen)|Insekt|
@@ -38,7 +38,7 @@ url: /de/net/aspose-cells-for-net-21-2-release-notes/
 |CELLSNET-47838|Die Farbpalette des nativen Diagramms wird nicht beibehalten|Insekt|
 |CELLSNET-47845| Ränder wurden nach dem Einfügen mit dem Einfügetyp „DefaultExceptBorders“ unerwartet entfernt|Insekt|
 |CELLSNET-47848|Problem mit der AutoFilter-Entfernung von ListObject oder dem Add Filter Button-Flag dafür|Insekt|
-|CELLSNET-47840|Beim Öffnen einer Excel-Datei, die aus einem HTML-Code generiert wurde, wurde eine Ausnahme ausgelöst|Ausnahme|
+|CELLSNET-47840|Beim Öffnen einer Excel-Datei, die von HTML generiert wurde, wurde eine Ausnahme ausgelöst|Ausnahme|
 |CELLSNET-47841|StackOverflowException mit xlsx-Datei|Ausnahme|
 |CELLSNET-47854|Cells.Find löst eine Ausnahme aus, wenn die Datei über einen Stream geöffnet ist|Ausnahme|
 |CELLSNET-47825| Aspose.Cells 21.01 Ausnahme beim Öffnen des Dokuments|Ausnahme|

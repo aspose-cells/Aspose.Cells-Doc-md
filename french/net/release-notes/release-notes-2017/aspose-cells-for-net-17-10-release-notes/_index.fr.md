@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-17-10-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45695|Définir le format numérique des cellules dans le tableau de données du graphique|Nouvelle fonctionnalité|
 |CELLSNET-45666|Obtenir le champ SheetId de la feuille de calcul Excel|Nouvelle fonctionnalité|
@@ -19,18 +19,18 @@ url: /fr/net/aspose-cells-for-net-17-10-release-notes/
 |CELLSNET-45408|La valeur disparaît ou change de couleur lors de la conversion en PDF|Punaise|
 |CELLSNET-45696|Le segment ne descend pas dans la feuille lors de l'insertion de lignes|Punaise|
 |CELLSNET-45675|Erreur lors du calcul des formules (impliquant "SOMMEPROD" et "TRANSPOSE")|Punaise|
-|CELLSNET-45651|La taille de la zone de texte change lors de l'utilisation de la police chinoise dans le classeur lors du rendu au format PDF|Punaise|
+|CELLSNET-45651|La taille de la zone de texte change lors de l'utilisation de la police chinoise dans le classeur lors du rendu en PDF|Punaise|
 |CELLSNET-45678|Caractères partiellement manquants lors de la conversion en image|Punaise|
 |CELLSNET-45667|Les étiquettes de la ligne de tendance ne sont pas mises à jour dans MS Excel lorsque nous modifions manuellement la valeur source dans les cellules|Punaise|
 |CELLSNET-45620|La couleur et l'intervalle entre les échelles sont différents pour le graphique 3D|Punaise|
 |CELLSNET-45397|Aspose.Cells reconnaît les polices dans le tableau de manière incorrecte|Punaise|
 |CELLSNET-45700|Volet de complément MS Excel 2016 supprimé du fichier après ouverture/enregistrement par Aspose.Cells|Punaise|
-|CELLSNET-45693|La feuille de calcul n'est plus protégée dans le fichier de sortie lors de la conversion de SpreadsheetML en XLSX|Punaise|
+|CELLSNET-45693|La feuille de calcul n'est plus protégée dans le fichier de sortie lors de la conversion SpreadsheetML en XLSX|Punaise|
 |CELLSNET-45691|Le document est corrompu lors de sa ré-enregistrement|Punaise|
-|CELLSNET-45690|Les styles semblent être reportés à tort pour certaines cellules - Conversion de SpreadsheetML en XLSX|Punaise|
+|CELLSNET-45690|Les styles semblent être reportés à tort pour certaines cellules - conversion SpreadsheetML à XLSX|Punaise|
 |CELLSNET-45688|La colonne de date n'est pas triée correctement|Punaise|
-|CELLSNET-45687|Les propriétés de protection des feuilles de calcul ne sont pas transmises à partir de SpreadsheetML|Punaise|
-|CELLSNET-45683|L'élément SpreadsheetML AllowSort ne fonctionne pas dans la sortie XLSX|Punaise|
+|CELLSNET-45687|Les propriétés de protection des feuilles de calcul ne sont pas portées à partir du SpreadsheetML|Punaise|
+|CELLSNET-45683|SpreadsheetML L'élément AllowSort ne fonctionne pas dans la sortie XLSX|Punaise|
 |CELLSNET-45682|MS Excel affiche un message d'erreur "Excel a trouvé du contenu illisible...."|Punaise|
 |CELLSNET-45676|Le document est corrompu lors de la ré-enregistrement en raison d'un espace insécable dans le nom de la feuille de calcul|Punaise|
 |CELLSNET-45673|Style d'alignement appliqué à SpredsheetML|Punaise|
@@ -45,7 +45,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 #### **Ajoute la méthode AbstractCalculationMonitor.Interrupt(string)**
 Permet aux utilisateurs d'interrompre la progression des calculs de formules.
 #### **Ajoute l'énumération HtmlCrossType.MSExport**
-Affiche la chaîne comme MS Excel exportant du HTML.
+Affiche la chaîne comme MS Excel exportant HTML.
 #### **Ajoute la propriété Worksheet.TabId**
 Obtient l'identifiant interne de la feuille.
 #### **Ajoute l'énumération OLEDBCommandType.None**
@@ -65,4 +65,4 @@ Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wi
 - [Utiliser la propriété Sheet.SheetId d'OpenXml en utilisant Aspose.Cells](/cells/fr/net/utilize-sheet-sheetid-property-of-openxml-using-aspose-cells/)
 - [Lire et écrire la connexion externe du fichier XLSB](/cells/fr/net/read-and-write-external-connection-of-xls-and-xlsb-files/)
 - [Interrompre ou annuler le calcul de la formule du classeur](/cells/fr/net/interrupt-or-cancel-the-formula-calculation-of-workbook/)
-- [Spécifiez comment croiser la chaîne dans le HTML de sortie à l'aide de HtmlCrossType](/cells/fr/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)
+- [Spécifiez comment croiser la chaîne dans la sortie HTML à l'aide de HtmlCrossType](/cells/fr/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/)

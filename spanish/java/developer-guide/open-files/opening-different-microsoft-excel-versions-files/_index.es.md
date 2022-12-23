@@ -6,29 +6,29 @@ url: /es/java/opening-different-microsoft-excel-versions-files/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells puede abrir un rango de diferentes Microsoft archivos de versiones de Excel, como Microsoft Excel 95/97 - 2003, SpreadsheetML, apertura Microsoft Excel 2007/2010/2013/2016/2019 y Office 365 XLSX o archivos de Excel cifrados.
+Aspose.Cells puede abrir un rango de diferentes versiones de archivos de Excel Microsoft, como Microsoft Excel 95/97 - 2003, SpreadsheetML, apertura Microsoft Excel 2007/2010/2013/2016/2019 y Office 365 XLSX o archivos de Excel cifrados.
 
 {{% /alert %}}
 
 ## **Abrir archivos de diferentes versiones de Excel Microsoft**
 
- Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Use el constructor, o use el**[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** clase'**[setFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat)** método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**enumeración.
+ Una aplicación a menudo tiene que poder abrir Microsoft archivos de Excel creados en diferentes versiones, por ejemplo, Microsoft Excel 95,97 o Microsoft Excel 2007/2010/2013/2016/2019 y Office 365. Es posible que deba cargar un archivo en cualquiera de varios formatos, incluidos XLS, XLSX, XLSM, XLSB, SpreadsheetML, TabDelimited o TSV, CSV, ODS, etc. Use el constructor, o use el**[Libro de trabajo](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)** clase'**[setFileFormat](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#FileFormat)**método para especificar el formato usando el**[Tipo de formato de archivo] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**enumeración.
 
- los**[Tipo de formato de archivo] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**La enumeración contiene muchos formatos de archivo predefinidos, algunos de los cuales se indican a continuación.
+ Él**[Tipo de formato de archivo] (https://reference.aspose.com/cells/java/com.aspose.cells/FileFormatType)**La enumeración contiene muchos formatos de archivo predefinidos, algunos de los cuales se indican a continuación.
 
 |**Tipos de formato de archivo**|**Descripción**|
 |:- |:- |
 |CSV|Representa un archivo CSV|
 |SOBRESALIR_97_TO_2003|Representa un archivo Excel 97 - 2003|
-|XLSX|Representa un archivo Excel 2007/2010/2013/2016/2019 y Office 365 XLSX|
-|XLSM|Representa un archivo Excel 2007/2010/2013/2016/2019 y Office 365 XLSM|
-|XLTX|Representa un archivo XLTX de plantilla de Excel 2007/2010/2013/2016/2019 y Office 365|
+|XLSX|Representa un archivo de Excel 2007/2010/2013/2016/2019 y Office 365 XLSX|
+|XLSM|Representa un archivo de Excel 2007/2010/2013/2016/2019 y Office 365 XLSM|
+|XLTX|Representa un archivo de plantilla XLTX de Excel 2007/2010/2013/2016/2019 y Office 365|
 |XLTM|Representa un archivo XLTM habilitado para macros de Excel 2007/2010/2013/2016/2019 y Office 365|
-|XLSB|Representa un archivo XLSB binario de Excel 2007/2010/2013/2016/2019 y Office 365|
+|XLSB|Representa un archivo binario XLSB de Excel 2007/2010/2013/2016/2019 y Office 365|
 |HOJA DE CALCULO_ML|Representa un archivo SpreadsheetML|
 |TSV|Representa un archivo de valores separados por tabulaciones|
 |DELIMITADO POR TABULACIONES|Representa un archivo de texto delimitado por tabulaciones|
-|SAO|Representa un archivo ODS|
+|ODS|Representa un archivo ODS|
 |HTML|Representa un archivo HTML|
 |M_HTML|Representa un archivo MHTML|
 
@@ -46,9 +46,9 @@ Para abrir un archivo Microsoft Excel 95/5.0, utilice**[Opciones de carga](https
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel97-2003Files.java" >}}
 
-### **Apertura Microsoft Archivos Excel 2007/2010/2013/2016/2019 y Office 365 XLSX**
+### **Apertura Microsoft Excel 2007/2010/2013/2016/2019 y Office 365 XLSX Archivos**
 
- Para abrir un formato Microsoft Excel 2007/2010/2013/2016/2019 y Office 365, es decir, XLSX o XLSB, especifique la ruta del archivo. También puedes usar**[Opciones de carga](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** y establezca los atributos/opciones relacionados del**Opciones de carga**class para que se cargue el archivo de plantilla.
+Para abrir un formato Microsoft Excel 2007/2010/2013/2016/2019 y Office 365, es decir, XLSX o XLSB, especifique la ruta del archivo. También puedes usar**[Opciones de carga](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)** y establezca los atributos/opciones relacionados del**Opciones de carga**class para que se cargue el archivo de plantilla.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "OpenExcel2007Files.java" >}}
 

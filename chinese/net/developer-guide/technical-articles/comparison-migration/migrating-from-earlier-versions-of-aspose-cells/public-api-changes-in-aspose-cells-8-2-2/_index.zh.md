@@ -15,7 +15,7 @@ url: /zh/net/public-api-changes-in-aspose-cells-8-2-2/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取创建电子表格的应用程序版本](/cells/zh/net/get-the-version-number-of-the-application-that-created-the-excel-document/)了解更多信息。
+请查看详细文章[获取创建电子表格的应用程序版本](/cells/zh/net/get-the-version-number-of-the-application-that-created-the-excel-document/)想要查询更多的信息。
 
 {{% /alert %}} 
 
@@ -37,7 +37,7 @@ Console.WriteLine(properties.Version);
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[获取图表的工作表](/cells/zh/net/get-worksheet-of-the-chart/)了解更多信息。
+请查看详细文章[获取图表的工作表](/cells/zh/net/get-worksheet-of-the-chart/)想要查询更多的信息。
 
 {{% /alert %}} 
 

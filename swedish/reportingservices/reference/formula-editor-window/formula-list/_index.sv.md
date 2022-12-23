@@ -8,9 +8,9 @@ url: /sv/reportingservices/formula-list/
 
 |**Ange namn** |**Formelnamn**|**Beskrivning**|
 |:- |:- |:- |
-| Globala fält| ExecutionTime|Datum och tid då rapporten började köras.|
+| Globala fält| ExecutionTime| Datum och tid då rapporten började köras.|
 || ReportServerUrl| URL:en till rapportservern som rapporten körs på.|
-|| Rapportnamn| Namnet på rapporten som den är lagrad i rapportserverns databas.|
+|| Rapportnamn|Namnet på rapporten som den är lagrad i rapportserverns databas.|
 || Rapportmapp| Den fullständiga sökvägen till mappen som innehåller rapporten. Detta inkluderar inte rapportserverns URL.|
 | Användare| Användar ID| ID för användaren som kör rapporten.|
 || Språk| Språk-ID för användaren som kör rapporten.|

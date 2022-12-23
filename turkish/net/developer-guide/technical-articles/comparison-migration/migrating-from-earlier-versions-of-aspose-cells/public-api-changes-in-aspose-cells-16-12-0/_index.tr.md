@@ -171,7 +171,7 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 
 
 ### **FontConfigs.PreferSystemFontSubstitutes Özelliği Eklendi**
-Aspose.Cells 16.12.0, FontConfigs sınıfı için PreferSystemFontSubstitutes özelliğini kullanıma sundu. FontConfigs.PreferSystemFontSubstitutes özelliği Boolean türündedir ve gerekli bir yazı tipinin olmaması ve belirli bir yazı tipi için herhangi bir ikamenin tanımlanmaması durumunda API'in önce sistemin yazı tipi değiştirme mekanizmasını kullanıp kullanmayacağını gösterir. FontConfigs.PreferSystemFontSubstitutes özelliğinin varsayılan değeri yanlıştır.
+Aspose.Cells 16.12.0, FontConfigs sınıfı için PreferSystemFontSubstitutes özelliğini kullanıma sundu. FontConfigs.PreferSystemFontSubstitutes özelliği Boolean türündedir ve gerekli bir yazı tipinin olmaması ve belirli bir yazı tipi için herhangi bir ikamenin tanımlanmaması durumunda API'in önce sistemin yazı tipi değiştirme mekanizmasını kullanıp kullanmayacağını belirtir. FontConfigs.PreferSystemFontSubstitutes özelliğinin varsayılan değeri yanlıştır.
 ### **BuiltInDocumentPropertyCollection.ScaleCrop Özelliği eklendi**
 Aspose.Cells 16.12.0, ScaleCrop özelliğini BuiltInDocumentPropertyCollection sınıfına ekledi. ScaleCrop, belge küçük resminin görüntüleme modunu belirtir. Bu öğenin true olarak ayarlanması, belge küçük resminin ekrana göre ölçeklenmesini sağlarken, false olarak ayarlanması, ekrana uyan bölümü göstermek için belge küçük resminin kırpılmasını sağlar.
 ### **BuiltInDocumentPropertyCollection.LinksUpToDate Özelliği eklendi**

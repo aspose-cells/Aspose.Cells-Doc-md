@@ -12,7 +12,7 @@ url: /zh/jasperreports/licensing/
 
 订单付款后，可从订单页面下载许可证。许可证是一个明文、数字签名的 XML 文件。许可证包含客户名称、购买的产品和许可证类型等信息。不要修改许可证文件的内容：这样做会使许可证失效。
 
-有两种申请许可证的方法：
+有两种申请许可证的方式：
 
 - [调用setLicense](/cells/zh/jasperreports/licensing/#call-setlicense)
 - [在 applicationContext.xml 中设置导出器参数](/cells/zh/jasperreports/licensing/#set-the-licensefile-exporter-parameter-in-applicationcontextxml)
@@ -79,8 +79,8 @@ license.setLicense(fstream);
 
 **Aspose.Cells for JasperReports 在评估模式下注入评估工作表** 
 
-![待办事项：图像_替代_文本](licensing_1.png)
+![待办事项：图片_替代_文本](licensing_1.png)
 
 **如果许可证有效，则没有评估工作表** 
 
-![待办事项：图像_替代_文本](licensing_2.png)
+![待办事项：图片_替代_文本](licensing_2.png)

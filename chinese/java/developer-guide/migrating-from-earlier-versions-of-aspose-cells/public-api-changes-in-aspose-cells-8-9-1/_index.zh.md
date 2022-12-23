@@ -103,7 +103,7 @@ Aspose.Cells for Java 还提供了收集有关已设置的源和替换信息的�
 
 {{% /alert %}} 
 ### **添加了 IFilePathProvider 接口和 HtmlSaveOptions.FilePathProvider 属性**
-Aspose.Cells for Java 8.9.1 允许获取/设置 IFilePathProvider 以将工作表导出到单独的 HTML 文件。这些新的 API 在一个工作表中的超链接指向另一个工作表中的位置的情况下很有用，在这种情况下，应用程序要求将每个工作表呈现为单独的 HTML 文件。实施 IFilePathProvider 允许保持上述超链接的完整性，而不管它们指向单独的结果 HTML 文件中的位置这一事实。
+Aspose.Cells for Java 8.9.1 允许获取/设置 IFilePathProvider 以将工作表导出到单独的 HTML 文件。这些新的 API 在一个工作表中的超链接指向另一个工作表中的位置的情况下很有用，在这种情况下，应用程序要求将每个工作表呈现为单独的 HTML 文件。实施 IFilePathProvider 允许保持上述超链接完好无损，而不管它们指向单独的结果 HTML 文件中的位置这一事实。
 
 以下是 HtmlSaveOptions.FilePathProvider 属性的简单使用场景。
 

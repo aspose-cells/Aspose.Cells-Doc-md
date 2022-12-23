@@ -14,7 +14,7 @@ url: /ar/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 ## Aspose.Cells for Reporting Services  22.9
 
-* تقديم الدعم لتقديم تنسيق SXC.
+* دعم تقديم تنسيق SXC.
 
 ## Aspose.Cells for Reporting Services  22.8
 
@@ -30,7 +30,7 @@ url: /ar/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 ## Aspose.Cells for Reporting Services  22.5
 
- * تحسين عرض XPS و Tiff.
+ * تحسين التصيير XPS و Tiff.
 
 ## Aspose.Cells for Reporting Services  22.4
 

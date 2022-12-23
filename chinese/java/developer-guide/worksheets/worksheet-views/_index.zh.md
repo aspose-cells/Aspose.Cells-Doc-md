@@ -26,13 +26,13 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 
 **Book1.xls：修改前的工作表** 
 
-![待办事项：图像_替代_文本](worksheet-views_1.png)
+![待办事项：图片_替代_文本](worksheet-views_1.png)
 
 Book1.xls 打开[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，模式切换为第一个工作表的分页预览。修改后的文件保存为 output.xls。
 
 **Ouput.xls：修改后的工作表** 
 
-![待办事项：图像_替代_文本](worksheet-views_2.png)
+![待办事项：图片_替代_文本](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
 ## **缩放系数**
@@ -40,7 +40,7 @@ Microsoft Excel 提供了一项功能，允许用户设置工作表的缩放或�
 
 **使用 Microsoft Excel 设置缩放系数** 
 
-![待办事项：图像_替代_文本](worksheet-views_3.png)
+![待办事项：图片_替代_文本](worksheet-views_3.png)
 
 Aspose.Cells 还允许开发人员设置工作表缩放系数。
 ### **控制缩放系数**
@@ -54,13 +54,13 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 
 **Book1.xls：修改前的工作表** 
 
-![待办事项：图像_替代_文本](worksheet-views_4.png)
+![待办事项：图片_替代_文本](worksheet-views_4.png)
 
  Book1.xls 文件用[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，第一个工作表的缩放系数设置为75。修改后的文件保存为output.xls。
 
 **Output.xls：修改后的工作表** 
 
-![待办事项：图像_替代_文本](worksheet-views_5.png)
+![待办事项：图片_替代_文本](worksheet-views_5.png)
 
 
 
@@ -70,7 +70,7 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 
 **在 Microsoft Excel 中使用冻结窗格** 
 
-![待办事项：图像_替代_文本](worksheet-views_6.png)
+![待办事项：图片_替代_文本](worksheet-views_6.png)
 
 Aspose.Cells 还允许开发人员在运行时将冻结窗格应用于工作表。
 
@@ -92,13 +92,13 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 
 **Book1.xls：任何修改前的工作表视图** 
 
-![待办事项：图像_替代_文本](worksheet-views_7.png)
+![待办事项：图片_替代_文本](worksheet-views_7.png)
 
  Book1.xls 文件用[工作簿](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)类，然后在第一个工作表上冻结了几行和几列。修改后的文件保存为 output.xls。
 
 **Outlook.xls：修改后的工作表视图** 
 
-![待办事项：图像_替代_文本](worksheet-views_8.png)
+![待办事项：图片_替代_文本](worksheet-views_8.png)
 ## **拆分窗格**
 如果您需要拆分屏幕以在同一工作表中获得两个不同的视图，请拆分窗格。 Microsoft Excel 提供了一项非常方便的功能，允许您查看工作表的多个副本，并且能够独立滚动浏览工作表的每个窗格：拆分窗格。
 
@@ -119,7 +119,7 @@ Aspose.Cells提供了[工作簿](https://reference.aspose.com/cells/java/com.asp
 
 **在输出文件中拆分窗格** 
 
-![待办事项：图像_替代_文本](worksheet-views_9.png)
+![待办事项：图片_替代_文本](worksheet-views_9.png)
 #### **删除窗格**
 开发人员可以使用[工作表](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)班级'[删除拆分](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)） 方法。
 

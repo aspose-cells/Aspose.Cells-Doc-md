@@ -14,5 +14,5 @@ url: /tr/sharepoint/aspose-cells-for-sharepoint-1-0-0-release-notes/
 
  Ne var ne yok:
 
--  MS Excel giriş biçimleri desteği: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
--  Çıktı biçimleri için destek: XLS, XLSX, CSV, HTML, ODS, PDF, SpreadsheetML, TXT.
+- MS Excel giriş biçimleri desteği: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
+-  Çıkış biçimleri desteği: XLS, XLSX, CSV, HTML, ODS, PDF, SpreadsheetML, TXT.

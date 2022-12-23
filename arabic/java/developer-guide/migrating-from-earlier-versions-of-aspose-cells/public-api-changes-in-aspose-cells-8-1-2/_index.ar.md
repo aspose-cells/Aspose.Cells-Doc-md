@@ -10,7 +10,7 @@ url: /ar/java/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% /alert %}} 
 ## **تمت إضافة دعم للتحذير في حالة حدوث استبدال للخط**
-مع Aspose.Cells for Java 8.1.2 ، تمت إضافة الفئتين WarningInfo و WarningType وواجهة IWarningCallback و SaveOptions.WarningCallback و ImageOrPrintOptions.WarningCallback للسماح للمطورين بتلقي تحذيرات عند حدوث استبدال الخط عند تحويل جداول البيانات إلى تنسيقات XPS و PDF.
+مع Aspose.Cells for Java 8.1.2 ، تمت إضافة الفئتين WarningInfo و WarningType وواجهة IWarningCallback و SaveOptions.WarningCallback و ImageOrPrintOptions.WarningCallback للسماح للمطورين بتلقي تحذيرات عند حدوث استبدال الخط عند تحويل جداول البيانات إلى صور و PDF.
 
 {{% alert color="primary" %}} 
 

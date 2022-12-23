@@ -14,23 +14,23 @@ url: /de/java/aspose-cells-for-java-21-8-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42494|Eine große Menge nicht verwendeter Stile wird im CSS-Abschnitt generiert|
 |CELLSJAVA-43576|Grafische Textwerte werden beim Konvertieren von XLSX in PDF nicht angezeigt|
-|CELLSJAVA-43483|Text nach einem „br“-Tag innerhalb eines „em“-Tags wird beim Konvertieren eines HTML-Dokuments in eine Arbeitsmappe nicht hervorgehoben|
+|CELLSJAVA-43483|Text nach einem „br“-Tag innerhalb eines „em“-Tags wird nicht hervorgehoben, wenn ein HTML-Dokument in eine Arbeitsmappe konvertiert wird|
 |CELLSJAVA-43526|IllegalArgumentException: Ungültiger Spaltenindex|
 |CELLSJAVA-43557|Falsche Farbe beim Speichern als HTML|
 |CELLSJAVA-43567|Regression: MDURATION-Formel nicht richtig berechnet|
 |CELLSJAVA-43583|Der Potenzoperator "^" funktioniert nicht für Formelberechnungen|
-|CELLSJAVA-43549|Bild fehlt in der Ausgabe-PDF|
+|CELLSJAVA-43549|Bild fehlt in der Ausgabe PDF|
 |CELLSJAVA-43566|Standardschriftarten auf MacOS Big Sur|
 |CELLSJAVA-42579|Achsenbeschriftungen werden nicht korrekt angezeigt - Rechtsbündigkeit fehlt beim Speichern von Excel als PDF|
 |CELLSJAVA-43554|Der Text der Diagrammdatentabelle wird im Ausgabebild nicht angezeigt|
-|CELLSJAVA-43556|XLSX zu PDF: Unvollständiger Diagrammtitel|
+|CELLSJAVA-43556|XLSX bis PDF: Unvollständiger Diagrammtitel|
 |CELLSJAVA-40051|Apple iWork-Unterstützung|
-|CELLSJAVA-43119|Konvertierung in PDF - Nicht unterstütztes Dateiformat Number3.5 seit 2014|
+|CELLSJAVA-43119|Umstellung auf PDF - Nicht unterstütztes Dateiformat Number3.5 seit 2014|
 |CELLSJAVA-43538|Diagramm ohne Daten führt dazu, dass XLSX nach dem Speichern mit Aspose Cells beschädigt wird|
 |CELLSJAVA-43547|AutoFitRow ändert die Standardhöhe des Arbeitsblatts|
 |CELLSJAVA-43591|Fehler beim Öffnen der Datei in MS Excel gespeichert von Aspose.Cells|
 |CELLSJAVA-43523|CellsException zum Lesen des Makronamens der Form: Ungültige Formel|
-|CELLSJAVA-43565|"java.lang.ClassCastException" beim Lesen der XLSB-Datei mit LightCells|
+|CELLSJAVA-43565|"java.lang.ClassCastException" beim Lesen der Datei XLSB mit LightCells|
 |CELLSJAVA-43546|NullPointerException beim Extrahieren des Seriennamens des Diagramms|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**

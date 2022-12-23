@@ -14,8 +14,8 @@ url: /zh/cpp/aspose-cells-for-cpp-16-12-0-release-notes/
 |CELLSPORTINGC-437|在电子表格中添加和操作数据透视表|新功能|
 |CELLSPORTINGC-438|对工作表中的行和列进行分组|新功能|
 |CELLSPORTINGC-439|将表/列表对象添加到工作表|新功能|
-|CELLSPORTINGC-426|Aspose.Cells for C++ API 的许可证问题|漏洞|
-|CELLSPORTINGC-425|优化保存 XLS 文件的性能|改进|
+|CELLSPORTINGC-426|Aspose.Cells for C++ API 的许可问题|漏洞|
+|CELLSPORTINGC-425|优化保存XLS文件的性能|改进|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for C++ 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **将 ICell::SetStyle 方法重命名为 ICell::SetIStyle**

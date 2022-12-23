@@ -1,5 +1,5 @@
 ﻿---
-title: Återge en PDF-sida per Excel-arbetsblad - Excel till PDF-konvertering
+title: Rendera en PDF sida per Excel-arbetsblad - Excel till PDF konvertering
 type: docs
 weight: 100
 url: /sv/net/render-one-pdf-page-per-excel-worksheet-excel-to-pdf-conversion/
@@ -18,10 +18,10 @@ Se följande exempelkod som konverterar en Excel-fil med flera kalkylblad till P
 
 {{% alert color="primary" %}} 
 
- Om[OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) alternativet är inställt på**Sann**, kommer allt arkinnehåll att renderas till en PDF-sida.
+ Om[OnePagePerSheet](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/onepagepersheet) alternativet är inställt på**Sann**, kommer allt arkinnehåll att återges till en PDF sida.
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Om ditt kalkylblad innehåller formler är det bäst att ringa[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)precis innan du renderar kalkylarket till PDF. Detta säkerställer att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF-filen.
+Om ditt kalkylblad innehåller formler är det bäst att ringa[Workbook.CalculateFormula()](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)precis innan kalkylarket renderas till PDF. Detta säkerställer att de formelberoende värdena räknas om och att de korrekta värdena återges i PDF.
 
 {{% /alert %}}

@@ -8,7 +8,7 @@ url: /de/java/how-aspose-cells-uses-truetype-fonts/
 
 Aspose.Cells erfordert TrueType-Schriftarten beim Rendern von Tabellenkalkulationen in Formate wie PDF, XPS und Bilder.
 
-Wenn Aspose.Cells eine Tabellenkalkulation rendert, benötigt es Zugriff auf die TrueType-Schriftarten, die in der Tabellenkalkulation verwendet werden. Dies ist eine normale Vorgehensweise bei der PDF-, XPS- und Bildgenerierung und stellt sicher, dass das konvertierte Dokument oder Bild für jeden Betrachter identisch erscheint.
+Wenn Aspose.Cells eine Tabellenkalkulation rendert, benötigt es Zugriff auf die TrueType-Schriftarten, die in der Tabellenkalkulation verwendet werden. Dies ist eine normale Vorgehensweise während der PDF, XPS und der Bilderzeugung und stellt sicher, dass das konvertierte Dokument oder Bild für jeden Betrachter identisch erscheint.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Aspose.Cells versucht, TrueType-Schriftarten automatisch im Dateisystem zu finde
 
 ### **Typische schriftbezogene Probleme und Lösungen**
 
-In dieser Tabelle sind einige der Probleme aufgeführt, die beim Rendern von Tabellenkalkulationen in PDF mit Aspose.Cells auftreten können, sowie deren Lösungen.
+In dieser Tabelle sind einige der Probleme aufgelistet, die beim Rendern von Tabellenkalkulationen in PDF mit Aspose.Cells auftreten können, sowie deren Lösungen.
 
 {{% alert color="primary" %}}
 

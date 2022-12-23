@@ -36,18 +36,18 @@ Problemas resueltos en Aspose.Cells 4.7.1
 |8114 | Charts2Image| Guardar libro de trabajo con gráfico en HTML roto|
 |8119 | Charts2Image| Uso de FillFormat.Pattern|
 |8223 | Charts2Image| El título del eje X de la categoría no se muestra|
-|8113 | HTML| Html roto en el nombre de la hoja de trabajo que contiene un espacio|
-|8420 | HTML| Problema de formato de exportación HTML|
+|8113 |HTML | Html roto en el nombre de la hoja de trabajo que contiene un espacio|
+|8420 |HTML | HTML problema de formato de exportación|
 |7718 | pdf| Admite hipervínculos en la conversión directa de celdas a pdf|
-|7723 | pdf| Problemas de fuente con Aspose.Cells al convertir a PDF|
-|7726 | pdf| Cells 4.7.0 guardar en flujo de PDF no funciona|
+|7723 | pdf| Problemas de fuente con Aspose.Cells convirtiéndose a PDF|
+|7726 | pdf| Cells 4.7.0 guardar en PDF flujo no funciona|
 |7727 | pdf| El archivo PDF es demasiado grande|
 |7730 | pdf| La clave ya se ha agregado a la excepción del diccionario|
-|7838 | pdf| Excel to PDF produce un archivo pdf corrupto|
+|7838 | pdf| Excel a PDF produce un archivo pdf corrupto|
 |7978 | pdf| Algunos Aspose.Cells guardan problemas|
 |7980 | pdf| Diferencias en la salida|
 |7728 | SpreadML| Índice fuera de rango|
-|8116 | SpreadML| Bad SpreadsheetML cuando se elimina una hoja|
+|8116 | SpreadML| Incorrecto SpreadsheetML cuando se elimina una hoja|
 |8118 | SpreadML| Error cuando existe PRINT_AREA|
 |7381 | xls| Método EndCellinRow para excel2007|
 |7722 | xls| Copie las validaciones en el rango de copia.|

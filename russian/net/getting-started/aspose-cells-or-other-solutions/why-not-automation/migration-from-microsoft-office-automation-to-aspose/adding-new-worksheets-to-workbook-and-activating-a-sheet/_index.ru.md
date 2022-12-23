@@ -10,7 +10,7 @@ url: /ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/
 
 Точно так же вам может потребоваться, чтобы определенный рабочий лист был активен и просматривался первым при открытии файла в Microsoft Excel. «Активный лист» — это лист, над которым вы работаете в книге. Имя на вкладке активного листа по умолчанию выделено полужирным шрифтом.
 
- Добавление рабочих листов и установка активного листа — это обычные и простые задачи, которые разработчики должны уметь выполнять. В этой статье мы выполняем эти задачи, используя[ВСТО](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) а также[Aspose.Cells for .NET](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
+ Добавление рабочих листов и установка активного листа — это обычные и простые задачи, которые разработчики должны уметь выполнять. В этой статье мы выполняем эти задачи, используя[ВСТО](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/) и[Aspose.Cells for .NET](/cells/ru/net/adding-new-worksheets-to-workbook-and-activating-a-sheet/).
 
 {{% /alert %}} 
 ## **Добавление рабочих листов и активация листа**

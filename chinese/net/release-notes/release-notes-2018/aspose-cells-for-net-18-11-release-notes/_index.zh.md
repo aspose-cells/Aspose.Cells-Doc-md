@@ -13,7 +13,7 @@ url: /zh/net/aspose-cells-for-net-18-11-release-notes/
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
 |CELLSNET-46377|检查单元格是否有循环公式|新功能|
-|CELLSNET-46399|调用 PivotTable.RefreshData() 时出现异常|新功能|
+|CELLSNET-46399|调用 PivotTable.RefreshData() 时发生异常|新功能|
 |CELLSNET-46394|获取类似于 Interop.Excel 的数据透视表刷新日期|新功能|
 |CELLSNET-46261|替换 SmartArt 中的文本不起作用|新功能|
 |CELLSNET-46435|GetValidationValue 为大数返回错误值|强化|
@@ -22,19 +22,19 @@ url: /zh/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46441|Cell.GetDisplayStyle() 挂起一个单元格|表现|
 |CELLSNET-46423|将 XLSX 转换为 PDF 时出现格式问题|漏洞|
 |CELLSNET-46410|刷新后数据透视表格式变得混乱|漏洞|
-|CELLSNET-46404|保存 HTML 时以与图像相同的方式处理图表|漏洞|
+|CELLSNET-46404|保存时以与图像相同的方式处理图表 HTML|漏洞|
 |CELLSNET-46388|加载并重新保存 XLSX 文件格式后文件已损坏|漏洞|
 |CELLSNET-46387|数据透视表排序问题|漏洞|
 |CELLSNET-46366|将 HTML 转换为 XLSX 时缺少边框和背景颜色|漏洞|
-|CELLSNET-46365|打开 HTML 时忽略引用的 CSS 样式表|漏洞|
+|CELLSNET-46365|打开时忽略引用的 CSS 样式表 HTML|漏洞|
 |CELLSNET-46431|VLookup 公式结果与 MS Excel 结果不同|漏洞|
-|CELLSNET-46430|在 XLSX 到 XLSB 转换中的 Workbook.Combine 后，数组公式不起作用|漏洞|
+|CELLSNET-46430|数组公式在 Workbook.Combine XLSX 到 XLSB 转换后不起作用|漏洞|
 |CELLSNET-46428|Name.RefersTo 未检索到正确的值|漏洞|
 |CELLSNET-46413|使用条件格式创建 XLSX 会产生损坏的文件|漏洞|
-|CELLSNET-46403|数组公式在 Workbook.Combine 保存为 XLSB 文件格式后不起作用|漏洞|
+|CELLSNET-46403|数组公式在 Workbook.Combine 后不起作用以保存为 XLSB 文件格式|漏洞|
 |CELLSNET-46396|保存为 SVG 的工作簿已损坏，因为它实际上是 TIFF 文件|漏洞|
 |CELLSNET-46420|PDF 中的图表出现尖峰问题|漏洞|
-|CELLSNET-46411|它在将 XLSX 转换为 PDF 时挂起|漏洞|
+|CELLSNET-46411|将 XLSX 转换为 PDF 时挂起|漏洞|
 |CELLSNET-46408|MS Excel 文件的输出图表图像中缺少数据标记|漏洞|
 |CELLSNET-46393|将 MS Excel 图表转换为 PNG 图像格式后轴标签未对齐|漏洞|
 |CELLSNET-46359|输出 SVG 文件中图表中标签字体大小的变化|漏洞|
@@ -44,7 +44,7 @@ url: /zh/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46417|换行文本不能与文本上方的空行一起工作|漏洞|
 |CELLSNET-46416|加载和保存 XLSX 文件时图表数据丢失|漏洞|
 |CELLSNET-46409|从 XML 转换后下拉列表的问题|漏洞|
-|CELLSNET-46407|加载 XLSM 文件格式时，工作簿的初始化时间过长|漏洞|
+|CELLSNET-46407|加载 XLSM 文件格式时工作簿的初始化时间过长|漏洞|
 |CELLSNET-46397|将 XLS 转换为 XLSM 时图形标题丢失|漏洞|
 |CELLSNET-46401|使用生成的 HTML 文件时出现 ArgumentException|例外|
 |CELLSNET-46426|调用 AutoFitColumns() 时出现异常|例外|

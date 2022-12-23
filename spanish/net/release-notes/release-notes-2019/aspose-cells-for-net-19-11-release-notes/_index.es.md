@@ -17,11 +17,11 @@ url: /es/net/aspose-cells-for-net-19-11-release-notes/
 |CELLSNET-46967|Soporte para obtener el tamaño de la sangría en unidades de píxeles|Nueva caracteristica|
 |CELLSNET-46973|La fórmula de Excel no funciona en el archivo XLS generado|Mejora|
 |CELLSNET-46981|Soporte para leer/escribir con flujo de memoria para Workbook.ImportXml y Workbook.ExportXml|Mejora|
-|CELLSNET-46905|No hay cambios para la fuente del enlace guardados en el archivo XLS|Mejora|
+|CELLSNET-46905|No se guardaron cambios para la fuente del enlace en el archivo XLS|Mejora|
 |CELLSNET-46898|El fondo del modelo 3D se vuelve azul.|Insecto|
 |CELLSNET-46314|Problemas al actualizar la tabla dinámica con "Mostrar valor como % del total general"|Insecto|
-|CELLSNET-46789|El método CalculateData no funciona correctamente con formato PDF|Insecto|
-|CELLSNET-46955|El archivo HTML a Excel genera la excepción "El artículo ya se ha agregado"|Insecto|
+|CELLSNET-46789|El método CalculateData no funciona correctamente con el formato PDF|Insecto|
+|CELLSNET-46955|HTML al archivo de Excel genera la excepción "El artículo ya se ha agregado"|Insecto|
 |CELLSNET-46987|No se puede calcular la fórmula al hacer referencia a las celdas|Insecto|
 |CELLSNET-46968|La fórmula indirecta no funciona correctamente en MS Excel|Insecto|
 |CELLSNET-46991|El archivo XLSX está dañado.|Insecto|

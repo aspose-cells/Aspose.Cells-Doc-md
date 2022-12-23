@@ -14,7 +14,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[呈现电子表格时获取字体替换警告](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File)了解更多信息。
+请查看详细文章[呈现电子表格时获取字体替换警告](http://aspose.com/docs/display/cellsjava/Get+Warnings+for+Font+Substitution+while+Rendering+Excel+File)想要查询更多的信息。
 
 {{% /alert %}}
 ## **删除了过时的 PdfSaveOptions.ChartImageType 属性**

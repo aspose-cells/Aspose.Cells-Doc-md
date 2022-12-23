@@ -37,7 +37,7 @@ Hier verwenden wir die Aspose.Cells API, um die Aufgabe zu erledigen.
 - Name der oberen linken Zelle, der Name der oberen linken Zelle im Bereich.
 - Name der unteren rechten Zelle, der Name der unteren rechten Zelle im Bereich.
 
- Wenn der[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) -Methode aufgerufen wird, gibt sie den neu erstellten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Benutze das[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, um den benannten Bereich zu konfigurieren. Legen Sie beispielsweise den Namen des Bereichs mithilfe von fest[**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) Eigentum. Das folgende Beispiel zeigt, wie Sie einen benannten Zellbereich erstellen, der sich über B4:G14 erstreckt.
+ Wenn die[**Bereich erstellen**](https://reference.aspose.com/cells/net/aspose.cells.cells/createrange/methods/3) -Methode aufgerufen wird, gibt sie den neu erstellten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Benutze das[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Objekt, um den benannten Bereich zu konfigurieren. Legen Sie beispielsweise den Namen des Bereichs mithilfe von fest[**Name**](https://reference.aspose.com/cells/net/aspose.cells/range/properties/name) Eigentum. Das folgende Beispiel zeigt, wie Sie einen benannten Zellbereich erstellen, der sich über B4:G14 erstreckt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-CreateNamedRangeofCells-1.cs" >}}
 
@@ -85,13 +85,13 @@ Das folgende Beispiel zeigt, wie einige Werte in die Zellen eines bestimmten Ber
 
 #### **Greifen Sie auf einen bestimmten benannten Bereich zu**
 
- Ruf den[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode, um einen Bereich mit dem angegebenen Namen abzurufen. Ein typisches[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode nimmt den Namen des benannten Bereichs und gibt den angegebenen benannten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Das folgende Beispiel zeigt, wie auf einen angegebenen Bereich über seinen Namen zugegriffen wird.
+ Ruf den ... an[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode, um einen Bereich mit dem angegebenen Namen abzurufen. Ein typisches[**GetRangeByName**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getrangebyname) -Methode nimmt den Namen des benannten Bereichs und gibt den angegebenen benannten Bereich als Instanz von zurück[**Bereich**](https://reference.aspose.com/cells/net/aspose.cells/range) Klasse. Das folgende Beispiel zeigt, wie auf einen angegebenen Bereich über seinen Namen zugegriffen wird.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-NamedRanges-AccessSpecificNamedRange-1.cs" >}}
 
 #### **Greifen Sie auf alle benannten Bereiche in einer Tabelle zu**
 
- Ruf den[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode, um alle benannten Bereiche in einer Tabelle abzurufen. Das[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode gibt ein Array aller Namensbereiche in der zurück[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung.
+ Ruf den ... an[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode, um alle benannten Bereiche in einer Tabelle abzurufen. Das[**GetNamedRanges**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection/methods/getnamedranges) -Methode gibt ein Array aller Namensbereiche in der zurück[**Arbeitsblätter**](https://reference.aspose.com/cells/net/aspose.cells/worksheetcollection) Sammlung.
 
 Das folgende Beispiel zeigt, wie auf alle benannten Bereiche in einer Arbeitsmappe zugegriffen wird.
 

@@ -26,7 +26,7 @@ Cela inclut les fonctionnalités abondantes suivantes de Aspose.Cells par rappor
   - [Afficher et masquer les onglets du classeur à l'aide de Aspose.Cells](/cells/fr/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
   - [Crypter le classeur à l'aide de Aspose.Cells](/cells/fr/java/encrypt-workbook-using-aspose-cells/)
   - [Lire le fichier CSV avec plusieurs encodages](/cells/fr/java/read-csv-file-with-multiple-encodings/)
-  - [Enregistrez chaque feuille de calcul dans un PDF différent en utilisant Aspose.Cells](/cells/fr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+  - [Enregistrez chaque feuille de calcul dans différents PDF en utilisant Aspose.Cells](/cells/fr/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
   - [Définir la couleur de l'onglet de la feuille de calcul dans Aspose.Cells](/cells/fr/java/set-worksheet-tab-color-in-aspose-cells/)
 - [Travailler avec des graphiques dans Aspose.Cells](/cells/fr/java/working-with-charts-in-aspose-cells/)
   - [Ajouter un filigrane Word Art au graphique](/cells/fr/java/add-word-art-watermark-to-chart/)
@@ -36,6 +36,6 @@ Cela inclut les fonctionnalités abondantes suivantes de Aspose.Cells par rappor
 - [Divers Exemples de Aspose.Cells](/cells/fr/java/miscellaneous-examples-of-aspose-cells/)
   - [Définir les titres d'impression](/cells/fr/java/set-print-titles/)
   - [Impression de classeurs à l'aide de Aspose.Cells](/cells/fr/java/printing-workbooks-using-aspose-cells/)
-  - [Convertir une feuille de calcul en PDF en utilisant Aspose.Cells](/cells/fr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+  - [Convertir la feuille de calcul en PDF en utilisant Aspose.Cells](/cells/fr/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Noter:** De nombreux autres exemples seront bientôt disponibles.

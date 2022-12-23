@@ -23,16 +23,16 @@ url: /ja/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45048|結果の PDF ファイルは PDFA1B に準拠していません|強化|
 |CELLSNET-45099|Waterfall および TreeMap チャート、Series.getValues() は値をディスプレイとして表示する必要があります|強化|
 |CELLSNET-45026|CalculateFormula() メソッドが戻るのに時間がかかりすぎる|パフォーマンス|
-|CELLSNET-45071|CellsException: Workbook を TIFF に変換中にメモリ不足が発生しました|パフォーマンス|
+|CELLSNET-45071|CellsException: Workbook を TIFF に変換中にメモリ不足になりました|パフォーマンス|
 |CELLSNET-45067|PDF への変換に時間がかかりすぎる|パフォーマンス|
 |CELLSNET-45105|CultureInfo がフランス語の場合、HTML の読み込みに失敗する|バグ|
 |CELLSNET-45089|HTML から Excel: Excel ファイルが破損しています|バグ|
 |CELLSNET-45072|XLS のワードアートが HTML でレンダリングされない|バグ|
 |CELLSNET-45053|特定の HTML タグが考慮されず、一部のコンテンツが欠落しています|バグ|
 |CELLSNET-45039|HTML を Excel にレンダリングするときに混合スタイル ルールが考慮されない|バグ|
-|CELLSNET-45036|HTML をインポートして XLSX に変換するときに、タグの後のコンテンツがトリミングされます。|バグ|
+|CELLSNET-45036|HTML をインポートして XLSX に変換する際に、タグの後のコンテンツがトリミングされる|バグ|
 |CELLSNET-45035|一部が STRONG タグで囲まれている場合、セルの内容全体が太字になります|バグ|
-|CELLSNET-45033|Cell HTML のインポート中にコンテンツがトリミングされる|バグ|
+|CELLSNET-45033|Cell インポート中にコンテンツがトリミングされる HTML|バグ|
 |CELLSNET-44336|Html を XLSX に正しく変換できません|バグ|
 |CELLSNET-45096|CalculateFormula() が呼び出された後、数式の結果が間違っている|バグ|
 |CELLSNET-45093|SUMPRODUCT 関数が機能しない|バグ|
@@ -41,13 +41,13 @@ url: /ja/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45130|Excel エクスポート PDF と Aspose.Cells を PDF として保存すると、結果が異なる|バグ|
 |CELLSNET-45095|スプレッドシートの画像が PDF にレンダリングされていません|バグ|
 |CELLSNET-45075|スプレッドシートのハイパーリンクが PDF にエクスポートされない|バグ|
-|CELLSNET-45074|Excel から PDF へのレンダリングでの書式設定の問題|バグ|
-|CELLSNET-45070|Mono でスプレッドシートを PDF に変換する際に 3D 円グラフがレンダリングされない|バグ|
-|CELLSNET-41283|Excel と Aspose.Cells から保存すると PDF が異なる|バグ|
+|CELLSNET-45074|Excel での PDF レンダリングへの書式設定の問題|バグ|
+|CELLSNET-45070|スプレッドシートを Mono で PDF に変換しているときに、3D 円グラフがレンダリングされない|バグ|
+|CELLSNET-41283|Excelから保存するとPDFとAspose.Cellsが違う|バグ|
 |CELLSNET-41196|ToTiff 関数の問題 - 余分な列が表示される|バグ|
 |CELLSNET-41195|ToTiff 関数の問題 - データの損失|バグ|
 |CELLSNET-45097|Workbook.Copy の後、グラフのラベルの書式設定が失われる|バグ|
-|CELLSNET-45084|スプレッドシートを PDF に変換中にグラフの値が異なる|バグ|
+|CELLSNET-45084|スプレッドシートを PDF に変換する際にグラフの値が異なる|バグ|
 |CELLSNET-45082|ソースExcelファイルを読み込んで保存した後、タブChart9のチャートが変化する|バグ|
 |CELLSNET-45066|スプレッドシートを PDF に変換する際に、図形が水平方向に圧縮されます|バグ|
 |CELLSNET-45064|スプレッドシートを PDF に変換する際に軸ラベルがレンダリングされない|バグ|
@@ -59,23 +59,23 @@ url: /ja/net/aspose-cells-for-net-17-02-0-release-notes/
 |CELLSNET-45107|ワークブックの結合中にチャートを結合すると、テキスト ボックスが表示されない|バグ|
 |CELLSNET-45104|LinkSource の変更により、二重のエントリが作成される|バグ|
 |CELLSNET-45101|既存の境界線のスタイルを変更してもうまくいかないようです|バグ|
-|CELLSNET-45094|XLS の読み込みと保存後にテキストの位置が変更される|バグ|
+|CELLSNET-45094|XLS 読み込んで保存するとテキストの位置が変わる|バグ|
 |CELLSNET-45090|フッターを追加した後、マルチタブの並べ替え順序が保存されない|バグ|
 |CELLSNET-45086|Excel ファイルを再保存した後に表示される余分なチェックボックスと「チェック ボックス」テキスト|バグ|
 |CELLSNET-45065|単純な読み込みと保存操作で追加された不要なセルの境界線|バグ|
 |CELLSNET-45052|ファイルの読み込みと保存後にテキストの位置が変更される|バグ|
 |CELLSNET-44835|WebWorksheet.CreateSubtotal メソッドでの System.NotImplementedException|例外|
 |CELLSNET-45068|Excel ファイルのロード時に例外がスローされる|例外|
-|CELLSNET-45112|Pictures.Clear()を呼び出してXLS保存すると、System.ArgumentOutOfRangeExceptionが発生する|例外|
-|CELLSNET-45111|XLS保存時にSystem.ArgumentOutOfRangeExceptionが発生|例外|
-|CELLSNET-45108|XLSB の Workbook ctor での System.NullReferenceException|例外|
+|CELLSNET-45112|Pictures.Clear() を呼び出して、XLS を保存すると、System.ArgumentOutOfRangeException が発生します。|例外|
+|CELLSNET-45111|XLS を保存すると、System.ArgumentOutOfRangeException が発生します。|例外|
+|CELLSNET-45108|XLSB のブック ctor での System.NullReferenceException|例外|
 |CELLSNET-45103|Range.MoveTo() は例外をスローします|例外|
 |CELLSNET-45088|スプレッドシートを PDF ファイル形式にレンダリングするときの例外|例外|
-|CELLSNET-45080|HTML ファイル形式の読み込み時の例外|例外|
+|CELLSNET-45080|HTML ファイル形式をロードするときの例外|例外|
 ### **Public API および下位互換性のない変更**
 以下は、Aspose.Cells for .NET に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。
 #### **HTMLLoadOptions.AutoFitColsAndRows プロパティを追加**
-Aspose.Cells for .NET API のこのリリースでは、HTMLLoadOptions.AutoFitColsAndRows プロパティが追加されました。これは、オブジェクト モードで HTML をインポートする際に、API が列と行を自動調整する必要があるかどうかを示します。 Boolean 型のプロパティはデフォルト値が false で、セルの高さと幅がそのままインポートされることを意味しますが、前述のプロパティが true に設定されている場合、API は内容に応じて列の幅と行の高さを調整しようとします。 .
+Aspose.Cells for .NET API のこのリリースでは、オブジェクト モードで HTML をインポートするときに、API が列と行を自動調整するかどうかを示す HTMLLoadOptions.AutoFitColsAndRows プロパティが追加されました。 Boolean 型のプロパティはデフォルト値が false で、セルの高さと幅がそのままインポートされることを意味しますが、前述のプロパティが true に設定されている場合、API は内容に応じて列の幅と行の高さを調整しようとします。 .
 
 HTMLLoadOptions.AutoFitColsAndRows プロパティの簡単な使用シナリオを次に示します。
 
@@ -145,7 +145,7 @@ var book = new Workbook(dir + "sample.xlsx", options);
 
 {{< /highlight >}}
 #### **Cells.TextToColumns メソッドを追加**
-Aspose.Cells for .NET API の最新リビジョンは、Excel の**テキストから列へ**特徴。 Excel からこの機能が提供されます。**データツール**下**データ**タブ。列の内容を複数の列に分割するには、API がセルの内容を複数のセルに分割しようとすることに基づいて、データにコンマ (またはその他の文字) などの特定の区切り文字を含める必要があることに注意してください。
+Aspose.Cells for .NET API の最新リビジョンは、Excel の**テキストから列へ**特徴。 Excel からこの機能が提供されます。**データ ツール**下**データ**タブ。列の内容を複数の列に分割するには、API がセルの内容を複数のセルに分割しようとすることに基づいて、データにコンマ (またはその他の文字) などの特定の区切り文字を含める必要があることに注意してください。
 
 以下は、新しく公開された API の使用方法を示す簡単な使用シナリオです。
 
@@ -199,7 +199,7 @@ foreach (Aspose.Cells.Font font in fonts)
 
 {{< /highlight >}}
 #### **TxtSaveOptions.TrimLeadingBlankRowAndColumn プロパティを追加**
-このリビジョン Aspose.Cells for .NET では、TxtSaveOptions クラスの Boolean 型の TrimLeadingBlankRowAndColumn プロパティが公開されています。このプロパティは、データを CSV またはタブ区切り形式にエクスポートする際に、Excel のように先頭の空白行と列をトリミングする必要があるかどうかを示します。前述のプロパティのデフォルト値は false です。ワークシートのデータが最初のセル (A1) から始まらない場合、Excel アプリケーションは、データを CSV またはタブ区切り形式にエクスポートする際に先頭の空白の行と列を削除しますが、Aspose.Cells API はデフォルトで保持されます。エクスポートされた CSV またはタブ区切りファイルを Aspose.Cells API を使用してインポートし直す必要がある場合にデータの場所を保持するために、同じサンプルの空白の行と列。
+このリビジョン Aspose.Cells for .NET では、データを CSV またはタブ区切り形式にエクスポートする際に Excel のように先頭の空白行と列をトリミングする必要があるかどうかを示す TxtSaveOptions クラスのブール型 TrimLeadingBlankRowAndColumn プロパティが公開されています。前述のプロパティのデフォルト値は false です。ワークシートのデータが最初のセル (A1) から始まらない場合、Excel アプリケーションは、データを CSV またはタブ区切り形式にエクスポートする際に先頭の空白の行と列を削除しますが、Aspose.Cells API はデフォルトで保持されます。エクスポートされた CSV またはタブ区切りファイルを Aspose.Cells API を使用してインポートし直す必要がある場合にデータの場所を保持するために、同じサンプルの空白の行と列。
 
 TrimLeadingBlankRowAndColumn プロパティの簡単な使用シナリオを次に示します。
 

@@ -10,7 +10,7 @@ url: /sv/
 
 **Välkommen till Aspose.Cells for .NET**
 
-Aspose.Cells for .NET är ett kalkylarksprogrammeringsbibliotek som gör det möjligt för programutvecklare att skapa, läsa, konvertera, uppdatera och skriva ut kalkylbladsfiler från sina egna applikationer. En kombination av API:er och GUI-kontroller, Aspose.Cells for .NET snabbar upp Microsoft Excel®-programmering och konvertering. Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+Aspose.Cells for .NET är ett kalkylarksprogrammeringsbibliotek som gör det möjligt för programutvecklare att skapa, läsa, konvertera, uppdatera och skriva ut kalkylbladsfiler från sina egna applikationer. En kombination av API:er och GUI-kontroller, Aspose.Cells for .NET snabbar upp Microsoft Excel®-programmering och konvertering. Aspose.Cells for .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
 
 {{% /alert %}}
 
@@ -34,7 +34,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for Java**
 
-Aspose.Cells for Java är ett klassbibliotek som gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Den tillåter också export av Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+Aspose.Cells for Java är ett klassbibliotek som gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for C++**
 
-Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att behöva Office Automation eller Microsoft Excel-applikation. Aspose.Cells for C++ stöder kalkylbladsformat som MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB, etc.), Open Office XML och andra format. Du kan också rendera bilder från kalkylblad och konvertera MS Excel-kalkylblad till PDF-format. Med API kan du också skapa, manipulera och rendera diagram och former. Dessutom är formelberäkningar en annan bra aspekt som tillhandahålls av komponenten och du kan använda den.
+Aspose.Cells for C++ är ett inbyggt C++-bibliotek som gör det möjligt för C++-utvecklare att skapa, manipulera och konvertera kalkylblad programmatiskt utan att behöva Office Automation eller Microsoft Excel-applikation. nr Du kan också rendera bilder från kalkylblad och konvertera MS Excel-kalkylblad till PDF-format. Med API kan du också skapa, manipulera och återge diagram och former. Dessutom är formelberäkningar en annan bra aspekt som tillhandahålls av komponenten och du kan använda den.
 
 {{% /alert %}}
 
@@ -106,7 +106,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for Node.js via Java**
 
-Aspose.Cells for Node.js via Java presenterar alla användbara funktioner i Aspose.Cells for Java med Node.js. Aspose.Cells for Node.js via Java är ett klassbibliotek som gör att du kan utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Node.js via Java är en skalbar och funktionsrik API som erbjuder konvertering av kalkylbladsformat, styling av kalkylblad till den mest detaljerade nivån, diagramhantering och rendering och vår pålitliga formelberäkningsmotor. Aspose.Cells for Node.js via Java stöder XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS och andra format. Med Aspose.Cells for Node.js via Java kan du generera, modifiera, konvertera och rendera Excel-dokument.
+Aspose.Cells for Node.js via Java presenterar alla användbara funktioner i Aspose.Cells for Java med Node.js. Aspose.Cells for Node.js via Java är ett klassbibliotek som gör att du kan utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Node.js via Java är en skalbar och funktionsrik API som erbjuder konvertering av kalkylbladsformat, styling av kalkylblad till den mest detaljerade nivån, diagramhantering och rendering och vår pålitliga formelberäkningsmotor. Aspose.Cells for Node.js via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. Med Aspose.Cells for Node.js via Java kan du generera, modifiera, konvertera och rendera Excel-dokument.
 
 {{% /alert %}}
 
@@ -130,7 +130,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for PHP via Java**
 
-Aspose.Cells for PHP via Java tillhandahåller alla värdefulla funktioner i Aspose.Cells for Java med JavaBridge. Aspose.Cells for PHP via Java är ett klassbibliotek som gör att du kan utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for PHP via Java är en skalbar och funktionsrik API som erbjuder konvertering av kalkylbladsformat, styling av kalkylblad till den mest detaljerade nivån, diagramhantering och rendering och vår pålitliga formelberäkningsmotor. Aspose.Cells for PHP via Java stöder XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS och andra format. Med Aspose.Cells for PHP via Java kan du generera, modifiera, konvertera och rendera Excel-dokument.
+Aspose.Cells for PHP via Java tillhandahåller alla värdefulla funktioner i Aspose.Cells for Java med JavaBridge. Aspose.Cells for PHP via Java är ett klassbibliotek som gör att du kan utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for PHP via Java är en skalbar och funktionsrik API som erbjuder konvertering av kalkylbladsformat, styling av kalkylblad till den mest detaljerade nivån, diagramhantering och rendering och vår pålitliga formelberäkningsmotor. Aspose.Cells for PHP via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. Med Aspose.Cells for PHP via Java kan du generera, modifiera, konvertera och rendera Excel-dokument.
 
 {{% /alert %}}
 
@@ -154,7 +154,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Python via Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det gör det också möjligt att exportera Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+Aspose.Cells for Python via Java gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Python via Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det gör det också möjligt att exportera Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, 0481113 och 481113 och.
 
 {{% /alert %}}
 
@@ -243,7 +243,7 @@ Följande är länkarna till några användbara resurser som du kan behöva för
 
 **Välkommen till Aspose.Cells for Python via .NET**
 
-Aspose.Cells for Python via .NET gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Python via .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det gör det också möjligt att exportera Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+Aspose.Cells for Python via .NET gör det möjligt för dina applikationer att utföra ett stort antal kalkylbladsbearbetningsuppgifter. Aspose.Cells for Python via .NET stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det gör det också möjligt att exportera Excel®-filer till PDF, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, 0481113 och 481113 och.
 
 {{% /alert %}}
 

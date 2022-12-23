@@ -25,7 +25,7 @@ Fehler
 
 (CELLSJAVA-41084) – Diagrammbalken für die negativen Werte verlieren Farbe, wenn die Tabelle von Aspose.Cells gespeichert wird
 (CELLSJAVA-41082) – Fehler beim Berechnen von Zellen – Ausnahme beim Berechnen der Formel
-(CELLSJAVA-41070) – HTML-zu-XLS-Problem – formatierte Zahl wird als leer gerendert
+(CELLSJAVA-41070) - Ausgabe von HTML bis XLS - formatierte Nummer wird als leer dargestellt
 (CELLSJAVA-41034) – Textfeldtext ist nicht im Diagrammbild enthalten
 (CELLSJAVA-41083) – Die Excel-Funktion NOW() funktioniert nicht in der russischen Einstellung
 (CELLSJAVA-41062) – Color.getBlack().equals(Color.getEmpty()) gibt „true“ zurück. Es sollte false zurückgeben
@@ -36,24 +36,24 @@ Fehler
 (CELLSJAVA-41060) – Das Ändern der Farbpalette der Arbeitsmappe beim Speichern von XLSX in XLS führt dazu, dass MS Excel die resultierende Tabelle in der geschützten Ansicht öffnet
 (CELLSJAVA-41059) – Änderung der Reihenfolge der Regeln für die bedingte Formatierung beim Speichern von XLSX in XLS mit Palettenänderung
 (CELLSJAVA-41057) - Kursverluste für bestimmte benannte Bereiche
-(CELLSJAVA-41056) – Die Methode Cells.copyRows() kopiert keine Sparklines im XLSX-Dateiformat
+(CELLSJAVA-41056) – Die Methode Cells.copyRows() kopiert keine Sparklines im Dateiformat XLSX
 (CELLSJAVA-41055) – Textformatierungsproblem beim Lesen der Stile der Zellen
 (CELLSJAVA-41049) – #VALUE erhalten! Fehler bei Verwendung der RATE-Funktion
 (CELLSJAVA-41038) – Ausgeblendete Serien innerhalb der Legende erscheinen nach dem Kopieren des Arbeitsblatts wieder.
 (CELLSJAVA-41036) – Diagrammachsenschritte brachen zusammen, als die Arbeitsmappe erneut gespeichert wurde
-(CELLSJAVA-41054) – Eingefügtes Bild kopieren, das im PDF nicht gerendert wird
-(CELLSJAVA-41044) - Aspose.Cells generiertes PDF besteht den PDF/A-1b-Konformitätstest nicht
+(CELLSJAVA-41054) – Kopieren Sie das eingefügte Bild, das in PDF nicht gerendert wird
+(CELLSJAVA-41044) - Aspose.Cells generiert PDF besteht den PDF/A-1b Konformitätstest nicht
 (CELLSJAVA-41015) - Aspose.Cells Das generierte PD/A-1b-Dokument besteht die Preflight-Validierung nicht
-(CELLSJAVA-40951) – Das PDF-Dokument ist beschädigt und kann nach der Konvertierung aus einer Excel-Vorlagendatei nicht in Acrobat Reader geöffnet werden
+(CELLSJAVA-40951) - PDF Dokument ist defekt und kann nach der Konvertierung aus einer Excel-Vorlagendatei nicht in Acrobat Reader geöffnet werden
 (CELLSJAVA-40725) - Cliparts erscheinen nicht im PDF-Format
 (CELLSJAVA-40692) – Konformität PDF/A-1b mit Adobe Preflight fehlgeschlagen
 (CELLSJAVA-41086) – Benutzerdefinierte Diagrammreihennamen sind leer
 (CELLSJAVA-41065) - Diagrammtitel sind durcheinander
-(CELLSJAVA-41047) – Der Datenseparator des gestapelten Säulendiagramms weist eine unterschiedliche Dicke auf, während die Tabelle in das PDF-Format gerendert wird
-(CELLSJAVA-41045) – Spalten des Diagramms überlappen sich mit der unteren Achse, während die Tabelle in das PDF-Format gerendert wird
+(CELLSJAVA-41047) – Der Datenseparator des gestapelten Säulendiagramms hat eine unterschiedliche Dicke, während die Tabelle im Format PDF gerendert wird
+(CELLSJAVA-41045) – Spalten des Diagramms überlappen sich mit der unteren Achse, während die Tabelle im Format PDF gerendert wird
 (CELLSJAVA-40989) – Das Balkendiagramm hat zusätzliche vertikale Linien rechts neben den Balken, wenn es als PDF gerendert wird
-(CELLSJAVA-40988) – Die Datenbeschriftung des Diagramms wird in der gerenderten PDF-Datei abgeschnitten
-(CELLSJAVA-40987) – Achsenbeschriftungen und Legende des Diagramms überlappen sich im gerenderten PDF
+(CELLSJAVA-40988) – Die Datenbeschriftung des Diagramms ist im gerenderten PDF abgeschnitten
+(CELLSJAVA-40987) – Achsenbeschriftungen und Legende des Diagramms überlappen sich in der gerenderten PDF
 (CELLSJAVA-40945) – Textfelder gehen aus dem Diagramm verloren
 
 Ausnahmen
@@ -67,7 +67,7 @@ Andere Verbesserungen und Änderungen
 Neue Eigenschaften
 
 (CELLSJAVA-41074) – Exportieren Sie Daten aus GridWeb in eine Excel-Datei oder XML-Datei – GridWeb für JAVA
-(CELLSJAVA-41078) – Unterstützung für den Export von SpreadsheetML-Dateien (.xml) – GridWeb (JAVA)
+(CELLSJAVA-41078) – Unterstützung für den Export der SpreadsheetML-Datei (.xml) – GridWeb (JAVA)
 
 Fehler
 

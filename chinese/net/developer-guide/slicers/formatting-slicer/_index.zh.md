@@ -12,7 +12,7 @@ url: /zh/net/formatting-slicer/
 
 请看下面的代码，它加载了[示例 Excel 文件](67338473.xlsx)包含一个切片器。它访问切片器并设置其列数和样式类型并将其另存为[输出Excel文件](67338474.xlsx).屏幕截图显示了切片器在执行示例代码后的样子。
 
-![待办事项：图像_替代_文本](formatting-slicer_1.png)
+![待办事项：图片_替代_文本](formatting-slicer_1.png)
 
 ## **示例代码**
 

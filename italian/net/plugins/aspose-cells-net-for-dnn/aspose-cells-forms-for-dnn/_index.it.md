@@ -5,7 +5,7 @@ weight: 40
 url: /it/net/aspose-cells-forms-for-dnn/
 ---
 ## **introduzione**
-Aspose.Cells Il modulo Dynamic Forms for DNN consente agli utenti di generare questionari e sondaggi dinamici, salvare l'input dell'utente in un foglio di calcolo Excel ed esportare i risultati in foglio di calcolo Excel, testo, CSV e OpenDocument utilizzando Aspose.Cells. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells for .NET.
+Aspose.Cells Il modulo Dynamic Forms for DNN consente agli utenti di generare questionari e sondaggi dinamici, salvare l'input dell'utente in un foglio di calcolo Excel ed esportare i risultati in Excel, testo, CSV e foglio di calcolo OpenDocument utilizzando Aspose.Cells. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells for .NET.
 ### **Caratteristiche del modulo**
 Questa prima versione del modulo è arricchita con le seguenti funzionalità per rendere il processo di costruzione ed esportazione dei moduli semplice e facile da usare
 
@@ -16,9 +16,9 @@ Questa prima versione del modulo è arricchita con le seguenti funzionalità per
 - Consenti di aggiungere/aggiornare etichette per ogni campo
 - Consenti di mostrare/nascondere i campi del modulo
 - Adatta automaticamente le colonne alla lunghezza del contenuto e applica la formattazione della colonna di intestazione come testo in grassetto
-- Esporta dati in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
+- Esporta dati in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
 - Esporta dati in un documento di testo delimitato da tabulazioni (*.txt)
-- Esporta dati in CSV (delimitato da virgola) (*.csv)
+- Esporta dati a CSV (delimitato da virgola) (*.csv)
 - Esporta dati in un foglio di calcolo OpenDocument (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione.
 - Il documento esportato viene inviato automaticamente al browser per il download.
@@ -95,10 +95,10 @@ Fin dai primi giorni di Aspose, sapevamo che solo dare ai nostri clienti buoni p
 
 Per questo offriamo assistenza gratuita. Chiunque utilizzi il nostro prodotto, sia che lo abbia acquistato o che stia utilizzando una valutazione, merita la nostra piena attenzione e rispetto.
 
-È possibile registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
+Puoi registrare eventuali problemi o suggerimenti relativi a Aspose.Cells .NET per i moduli DNN utilizzando una delle seguenti piattaforme
 - [ Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/issues)
 ### **Estendi e contribuisci**
-Aspose Il modulo .NET Dynamic Forms Builder per DNN è open source e il relativo codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ed estendere la funzionalità secondo i propri requisiti.
+Aspose .NET Il modulo Dynamic Forms Builder per DNN è un open source e il loro codice sorgente è disponibile sui principali siti Web di social coding elencati di seguito. Gli sviluppatori sono incoraggiati a scaricare il codice sorgente ed estendere la funzionalità secondo i propri requisiti.
 #### **Codice sorgente**
 È possibile ottenere il codice sorgente più recente da una delle seguenti posizioni
 

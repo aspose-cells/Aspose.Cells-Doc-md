@@ -6,7 +6,7 @@ url: /tr/java/code-comparison-for-common-features-in-aspose-cells-and-apache-poi
 ---
 Elektronik tablo işleme kitaplıkları arayan geliştiricilerin, piyasada bulunan kitaplıklar tarafından sağlanan özellikleri gözden geçirmesi gerekebilir. Temel olarak, bir seçenek belirlenirken birkaç faktör dikkate alınır:
 
-- Özellikler
+- Özellikleri
 - Kütüphaneyi kullanmak için gereken çabalar
 - Verim
 
@@ -17,7 +17,7 @@ Bu bölüm aşağıdaki Kod Karşılaştırma Örneklerini içerir:
 - [Apache POI ve Aspose.Cells'de Çalışma Sayfalarıyla Çalışma](/cells/tr/java/working-with-worksheets-in-apache-poi-and-aspose-cells/)
   - [Yeni Çalışma Sayfası Oluştur](/cells/tr/java/create-new-worksheet/)
   - [Çalışma Sayfasına Görüntü Ekle](/cells/tr/java/add-images-in-worksheet/)
-  - [Çalışma Sayfasını CSV'ye Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
+  - [Çalışma Sayfasını CSV'e Dönüştür](/cells/tr/java/convert-worksheet-to-csv/)
   - [Çalışma Kitabı İçinde Sayfayı Kopyala](/cells/tr/java/copy-sheet-within-workbook/)
   - [Çalışma Kitabında Sayfaları Yeniden Sırala](/cells/tr/java/re-order-sheets-within-workbook/)
   - [Üstbilgi ve Altbilgiler](/cells/tr/java/header-and-footers/)

@@ -6,7 +6,7 @@ url: /sv/java/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Möjliga användningsscenarier**
 
-Aspose.Cells API:er ger möjlighet att rendera kalkylbladen i bildformat samt konvertera dem till PDF- och XPS-format. För att maximera omvandlingstroheten är det nödvändigt att teckensnitten som används i kalkylarket är tillgängliga i operativsystemets standardtypsnittskatalog. Om de nödvändiga typsnitten inte finns kommer API:erna Aspose.Cells att försöka ersätta de nödvändiga typsnitten med de tillgängliga.
+Aspose.Cells API:er ger möjlighet att rendera kalkylbladen i bildformat samt konvertera dem till PDF och XPS format. För att maximera omvandlingstroheten är det nödvändigt att teckensnitten som används i kalkylarket är tillgängliga i operativsystemets standardtypsnittskatalog. Om de nödvändiga typsnitten inte finns kommer API:erna Aspose.Cells att försöka ersätta de nödvändiga typsnitten med de tillgängliga.
 
 ## **Val av teckensnitt**
 
@@ -21,7 +21,7 @@ Nedan är processen som Aspose.Cells API:er följer bakom scenen.
 
 {{% alert color="primary" %}}
 
- Aspose.Cells API:erna skannar alltid operativsystemets standardfontkatalog med ett undantag, det vill säga; när JVM argumenterar**-DAspose.Cells.FontDirExc="YourFontDir"** är inställda. I så fall kommer API:erna Aspose.Cells att hoppa över att skanna operativsystemets standardteckensnittskatalog och endast söka efter sökvägen som specificeras i de tidigare nämnda JVM-argumenten.
+ Aspose.Cells API:erna skannar alltid operativsystemets standardfontkatalog med ett undantag, det vill säga; när JVM argumenterar**-DAspose.Cells.FontDirExc="YourFontDir"**är inställda. I så fall kommer API:erna Aspose.Cells att hoppa över att skanna operativsystemets standardteckensnittskatalog och endast söka efter sökvägen som specificeras i de tidigare nämnda JVM-argumenten.
 
 {{% /alert %}}
 

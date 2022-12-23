@@ -22,7 +22,7 @@ Llame a la función de JavaScript ReadGridWebCells() como se muestra en el códi
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Articles-ReadCellsClientSide-ReadGridWebCells.aspx" >}}
 ## **Salida de consola**
-Esta es la salida de la consola del código de ejemplo anterior.
+Esta es la salida de la consola del código de muestra anterior.
 
 {{< highlight "java" >}}
 

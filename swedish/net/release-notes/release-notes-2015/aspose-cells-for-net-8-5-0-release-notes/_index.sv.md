@@ -40,7 +40,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **Buggar**
 
 
- (CELLSNET-43702) - Kalkylblad skadat efter att ha öppnat och sparat mallen XLSX-fil
+ (CELLSNET-43702) - Kalkylblad skadat efter att ha öppnat och sparat mallen XLSX filen
 
  (CELLSNET-43669) - Att lägga till mer än 14 fält i pivottabellens rapportfilter orsakar fel
 
@@ -50,13 +50,13 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43705) - Datumformatet är annorlunda i utdata-pdf
 
- (CELLSNET-43658) - Fel vid beräkning av cellundantag uppstår vid beräkningsformel
+(CELLSNET-43658) - Fel vid beräkning av cellundantag uppstår vid beräkningsformel
 
-(CELLSNET-43329) - Beräkna formel med SUMIF ger ett annat resultat än Excel
+ (CELLSNET-43329) - Beräkna formel med SUMIF ger ett annat resultat än Excel
 
  (CELLSNET-42598) - Problem i formelberäkning
 
- (CELLSNET-43715) - Cell Mönsterfyllning - PDF-konvertering ger stora filer
+ (CELLSNET-43715) - Cell Mönsterfyllning - PDF konvertering ger stora filer
 
  (CELLSNET-43694) - Textjustering förloras när kalkylark renderas till bild
 
@@ -68,17 +68,17 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43676) - Utdata PDF har inte korrekt antal sidor
 
- (CELLSNET-43672) - Dålig bildkvalitet vid rendering av kalkylblad till PNG
+ (CELLSNET-43672) - Dålig bildkvalitet vid rendering av arbetsblad till PNG
 
  (CELLSNET-43661) - Texten trunkeras när kalkylbladet renderas till PDF
 
  (CELLSNET-43644) - Texten återges inte korrekt
 
- (CELLSNET-43600) - Excel-filen är inte korrekt renderad
+(CELLSNET-43600) - Excel-filen är inte korrekt renderad
 
  (CELLSNET-43593) - Text är ovanför linjen och andra formateringsproblem i Excel till PDF
 
-(CELLSNET-43481) - Cells med hebreiska ord har förlorat RTL-konsistensen
+ (CELLSNET-43481) - Cells med hebreiska ord har förlorat RTL-konsistensen
 
  (CELLSNET-43457) - Arabisk valutasymbol är på fel sida
 
@@ -88,7 +88,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43102) - Skillnad i teckensnittsavstånd
 
- (CELLSNET-42832) - Texten utanför sidbrytningen renderas i PDF som radbruten text
+ (CELLSNET-42832) - Texten utanför sidbrytningen återges i PDF som radbruten text
 
  (CELLSNET-42751) - Text överskrider cellen och skärs av
 
@@ -98,41 +98,41 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-42696) - Karaktärer som rör vid varandra efter konvertering
 
- (CELLSNET-42542) - Sammanfogad och skev text skärs bort medan XLSX konverteras till PDF
+ (CELLSNET-42542) - Sammanfogad och skev text skärs bort när XLSX konverteras till PDF
 
  (CELLSNET-42537) - Understryka överlappningar med dubbel bottenkant
 
- (CELLSNET-42474) - Teckenstorlek ändrad efter konvertering till PDF
+(CELLSNET-42474) - Teckenstorlek ändrad efter konvertering till PDF
 
  (CELLSNET-42260) - Jämförelse av PDF genererad med Aspose.Cells med MS Excel
 
-(CELLSNET-41519) - Sidorna ställs inte i rad när man konverterar XLSX-fil till PDF
+ (CELLSNET-41519) - Sidorna ställs inte i rad när XLSX-filen konverteras till PDF
 
  (CELLSNET-43683) - Aspose 8.4.2 läser diagramegenskaper felaktigt och byts ut
 
- (CELLSNET-43680) - Förklaringsfärg saknas i PDF-utdatafilen i Excel till PDF-konvertering
+ (CELLSNET-43680) - Förklaringsfärg saknas i utdatafilen PDF i Excel till PDF konvertering
 
- (CELLSNET-43679) - Diagrammets horisontella x-axelskalning saknas i det renderade PDF-filformatet
+ (CELLSNET-43679) - Diagrammets horisontella x-axelskalning saknas i det renderade filformatet PDF
 
  (CELLSNET-43677) - Det går inte att ställa in kategoriaxel till en textaxel
 
- (CELLSNET-43668) - 3D-cirkeldiagram renderas inte bra i Excel till PDF-konvertering
+ (CELLSNET-43668) - 3D-cirkeldiagram renderas inte bra i Excel till PDF konvertering
 
  (CELLSNET-43657) - Diagram genereras felaktigt efter att ha sparats med OoxmlSaveOptions.RefreshChartCache = true
 
  (CELLSNET-43648) - Bild från cellreferens trunkeras när du använder SheetRender.ToImage
 
- (CELLSNET-42922) - Ledarlinjer är dolda vid rendering till PDF-filformat
+(CELLSNET-42922) - Ledarlinjer är dolda vid rendering till PDF filformat
 
- (CELLSNET-42376) - Text skärs bort från TextBox medan XLSX renderas till PDF
+ (CELLSNET-42376) - Text är avskuren från TextBox medan den renderar XLSX till PDF
 
- (CELLSNET-42369) - PDF-filen återges inte korrekt
+ (CELLSNET-42369) - PDF inte korrekt återgiven
 
-(CELLSNET-43714) - Custom Ribbon tas bort när XLSM-filen bearbetas
+ (CELLSNET-43714) - Custom Ribbon tas bort när XLSM-filen bearbetas
 
  (CELLSNET-43711) - Nyinfogad bild i kalkylbladet sträcks ut vertikalt
 
- (CELLSNET-43665) - Att spara XLS i XLSX tog bort TextBoxes från kalkylbladet
+ (CELLSNET-43665) - Spara XLS i XLSX tog bort textrutorna från kalkylbladet
 
  (CELLSNET-43664) - Eurosymbolen ändras till dollartecken när den sparas som ODS
 
@@ -142,13 +142,13 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
  (CELLSNET-43649) - IsEncrypted är falskt för .xlsx men sant för .xls
 
-(CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
+ (CELLSNET-43641) - Problem med beräkningsformler när iterativ beräkning aktiveras
 
  (CELLSNET-43618) - Värdet hämtas inte bra av Aspose.Cells API:er
 
  (CELLSNET-42995) - Workbook.HasRevisions är sant men det har inga revisioner
 
- (CELLSNET-41753) - Excel hittade oläsbart innehåll i ToolExample_Revised.xlsm
+(CELLSNET-41753) - Excel hittade oläsbart innehåll i ToolExample_Revised.xlsm
 
 
 ## **Undantag**
@@ -158,7 +158,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -172,7 +172,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 ## **Buggar**
 
 
-(CELLSNET-43688) - Radhöjden för vissa sammanslagna celler är inte korrekt när filen laddas in i GridDesktop-kontrollen
+ (CELLSNET-43688) - Radhöjden för vissa sammanslagna celler är inte korrekt när filen laddas in i GridDesktop-kontrollen
 
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
@@ -188,7 +188,7 @@ url: /sv/net/aspose-cells-for-net-8-5-0-release-notes/
 
 
 
-Lägger till egenskapen SheetRender.PageScale.
+ Lägger till egenskapen SheetRender.PageScale.
 
  Det används för att få beräknad sidskala på arket.
 
@@ -219,13 +219,13 @@ Lägger till metoder för att beräkna formler med CalculationOptions: Cell.Calc
 
 
 
- Lägger till metoder: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
+Lägger till metoder: ReferredArea.GetValues(),ReferredArea.GetValue(int rowOffset, int colOffset)
 
  Tillåt användaren att hämta data från en referens.
 
 
 
-Ändringar för parametrar för ICustomFunction.CalculateCustomFunction(strängfunktionsnamn, ArrayList paramsList, ArrayList contextObjects)
+ Ändringar för parametrar för ICustomFunction.CalculateCustomFunction(strängfunktionsnamn, ArrayList paramsList, ArrayList contextObjects)
 
  Nu lägger vi till ReferredArea-objektet i "paramsList" istället för värdet eller värdematrisen för det refererade området när motsvarande parameter är en referens eller dess beräknade resultat är referens. Och vi tar bort ReferredAreaCollection från contextObjexts.
 

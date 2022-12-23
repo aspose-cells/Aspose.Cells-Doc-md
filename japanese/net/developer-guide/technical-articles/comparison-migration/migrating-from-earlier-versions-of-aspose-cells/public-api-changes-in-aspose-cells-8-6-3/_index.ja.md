@@ -11,7 +11,7 @@ url: /ja/net/public-api-changes-in-aspose-cells-8-6-3/
 {{% /alert %}} 
 ## **追加された API**
 ### **データのインポート中の HTML 解析のサポート**
-Aspose.Cells for .NET API のこのリリースでは、ImportTableOptions.IsHtmlString プロパティが公開されています。このプロパティは、API がワークシートにデータをインポートする際に HTML タグを解析し、解析結果をセル値として設定するように指示します。 Aspose.Cells API は、1 つのセルに対してこのタスクを実行するために Cell.HtmlString を既に提供していますが、DataTable などからデータを一括でインポートしている間、ImportTableOptions.IsHtmlString プロパティ (true に設定されている場合) は、サポートされているすべてのHTML タグを付け、解析結果を対応するセルに設定します。
+Aspose.Cells for .NET API のこのリリースでは、ImportTableOptions.IsHtmlString プロパティが公開されています。このプロパティは、API がワークシートにデータをインポートする際に HTML タグを解析し、解析結果をセル値として設定するように指示します。 Aspose.Cells API は、単一セルに対してこのタスクを実行するために Cell.HtmlString を既に提供していますが、DataTable などからデータを一括でインポートしている間、ImportTableOptions.IsHtmlString プロパティ (true に設定されている場合) は、サポートされているすべてのHTML タグを付けて、解析結果を対応するセルに設定します。
 
 これが最も単純な使用シナリオです。
 

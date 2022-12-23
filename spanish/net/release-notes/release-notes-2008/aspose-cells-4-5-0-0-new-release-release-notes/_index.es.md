@@ -15,7 +15,7 @@ url: /es/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `Convertir hoja de trabajo en imagen.
-- ` `Soporte para convertir archivos de Excel a formato de archivo HTML.
+- ` ` Soporte para convertir archivos de Excel al formato de archivo HTML.
 - ` `Soporte para ordenar los datos de izquierda a derecha.
 
 
@@ -27,7 +27,7 @@ url: /es/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` ` Admite más funciones en el motor de cálculo de fórmulas
 - ` ` Se admiten más filtros personalizados en el filtro automático.
 - ` ` Compatibilidad mejorada con Excel2007 Xlsx
-- ` ` Compatibilidad mejorada con SpreadsheetML
+- ` `Soporte SpreadsheetML mejorado
 - ` `Conversión xls2Pdf mejorada
 - ` `Gráficos mejorados2Conversión de imágenes.
 - ` `Marcador inteligente mejorado

@@ -19,7 +19,7 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 - 将每个导出的文档保存在服务器上的可配置磁盘路径的选项
 - 启用分页时导出当前页面或所有页面的选项
 
-![待办事项：图像_替代_文本](visual-studio-export-gridview-to-excel-control_1.png)
+![待办事项：图片_替代_文本](visual-studio-export-gridview-to-excel-control_1.png)
 
 此控件允许您以以下不同的文件格式导出 GridView。
 
@@ -72,14 +72,14 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 
 当您在左侧工具箱中打开 aspx 或 ascx 控件时，您将在常规选项卡下看到 ExportGridViewToWord
 
-![待办事项：图像_替代_文本](visual-studio-export-gridview-to-excel-control_2.png)
+![待办事项：图片_替代_文本](visual-studio-export-gridview-to-excel-control_2.png)
 ## **使用**
 安装后，很容易在您的 ASP.NET 应用程序中开始使用此控件
 
 |**对于.NET framework 4.0及以上** |**对于 .NET 框架 2.0 及以上** |** |
 |:- |:- |:- |
 |对于在 Visual Studio 2010 及以上版本中运行在 .NET framework 4.0 及以上版本的应用程序，你应该看到**ExportGridViewToExcel**控制在**Aspose**工具栏中的选项卡，如下所示。您可以简单地将此控件拖放到您的 ASP.NET 页面、控件或母版页上，就像任何其他 .NET 控件一样，然后开始使用。|为了在任何 visual studio 版本的 .NET 2.0 中运行的应用程序中使用此控件，请确保已按照 上的说明将 ExportGridViewToExcel 添加到工具箱[8.1.2.1 下载安装]()在标题下**对于 Visual Studio 2005、2008 和 Express 版本** <br>你应该看到**ExportGridViewToExcel**控制在**一般的**工具栏中的选项卡，如下所示。您可以简单地将此控件拖放到您的 ASP.NET 页面、控件或母版页上，就像任何其他 .NET 控件一样，然后开始使用。||
-|<p>![待办事项：图像_替代_文本](picture2.png)</p><p></p>|<p>![待办事项：图像_替代_文本](picture3.png)</p><p></p>||
+|<p>![待办事项：图片_替代_文本](picture2.png)</p><p></p>|<p>![待办事项：图片_替代_文本](picture3.png)</p><p></p>||
 ### **手动添加ExportGridViewToExcel控件**
 如果您在使用上述使用 Visual Studio 工具箱的方法时遇到任何问题，您可以手动将此控件添加到运行在任何大于 2.0 的 .NET 框架上的 ASP.NET 应用程序
 
@@ -103,7 +103,7 @@ url: /zh/net/visual-studio-export-gridview-to-excel-control/
 ### **常见问题**
 使用此控件时可能遇到的常见问题
 
-|**#** |**问题** |**回答** |
+|**#** |**题** |**回答** |
 |:- |:- |:- |
 |1 |我在工具箱中看不到 ExportGridViewToExcel 控件|<p>**Visual Studio 2010 及更高版本** </p><p>1. 确保您已使用下载包中的 VSIX 扩展文件安装此控件。要验证，请转到工具 -> 扩展和更新。在 Installed 下，您应该看到“Aspose Export Export GridView To Excel Control”。如果看不到，请尝试重新安装</p><p>2.确保您的Web应用程序运行在.NET框架4.0或更高版本，对于.NET框架的较低版本请检查上述替代方法。<br>   **旧版本的 Visual Studio**</p><p>3. 确保您已按照上述说明手动将此控件添加到您的工具箱。</p>|
 |2 |运行应用程序时出现“访问被拒绝”错误|<p>1. 如果您在生产中遇到此问题，请确保将 Aspose.Excel.dll 和 Aspose.Excel.GridViewExport.dll 复制到您的 bin 文件夹中。</p><p>2. 如果您使用的是 Visual Studio，请确保以管理员身份运行它，即使您已经以管理员身份登录也是如此。</p>|

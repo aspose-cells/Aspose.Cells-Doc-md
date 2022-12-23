@@ -14,8 +14,8 @@ OLE (Object Linking and Embedding) est le cadre de Microsoft pour une technologi
 
 Aspose.Cells prend en charge l'ajout, l'extraction et la manipulation d'objets OLE dans les feuilles de calcul. Pour cette raison, Aspose.Cells a le[**OleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) classe, utilisée pour ajouter un nouvel objet OLE à la liste de collection. Une autre classe,[**OleObject**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), représente un objet OLE. Il compte quelques membres importants :
 
--  La[**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propriété spécifie les données d'image (icône) de type tableau d'octets. L'image s'affichera pour montrer l'objet OLE dans la feuille de calcul.
--  La[**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propriété spécifie les données de l'objet sous la forme d'un tableau d'octets. Ces données seront affichées dans son programme associé lorsque vous double-cliquez sur l'icône de l'objet OLE.
+-  Le[**ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propriété spécifie les données d'image (icône) de type tableau d'octets. L'image s'affichera pour montrer l'objet OLE dans la feuille de calcul.
+-  Le[**ObjectData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propriété spécifie les données de l'objet sous la forme d'un tableau d'octets. Ces données seront affichées dans son programme associé lorsque vous double-cliquez sur l'icône de l'objet OLE.
 
 L'exemple suivant montre comment ajouter un ou plusieurs objets OLE dans une feuille de calcul.
 

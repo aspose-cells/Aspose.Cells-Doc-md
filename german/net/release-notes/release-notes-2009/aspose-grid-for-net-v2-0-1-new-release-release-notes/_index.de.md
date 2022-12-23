@@ -10,7 +10,7 @@ url: /de/net/aspose-grid-for-net-v2-0-1-new-release-release-notes/
 
 {{% /alert %}} 
 
-Wir haben gerade Aspose.Grid v veröffentlicht.
+ Wir haben gerade Aspose.Grid v veröffentlicht.
 
  Was hat sich geändert:
 

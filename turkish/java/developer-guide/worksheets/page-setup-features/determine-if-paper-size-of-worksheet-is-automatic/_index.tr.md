@@ -17,7 +17,7 @@ Aşağıda verilen örnek kod, aşağıdaki iki Excel dosyasını yükler
 
 ve ilk çalışma sayfasının kağıt boyutunun otomatik olup olmadığını öğrenin. Microsoft Excel'de, kağıt boyutunun otomatik olup olmadığını bu ekran görüntüsünde gösterildiği gibi Sayfa Yapısı penceresinden kontrol edebilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](determine-if-paper-size-of-worksheet-is-automatic_1.png)
+![yapılacaklar:resim_alternatif_metin](determine-if-paper-size-of-worksheet-is-automatic_1.png)
 
 ## **Basit kod**
 

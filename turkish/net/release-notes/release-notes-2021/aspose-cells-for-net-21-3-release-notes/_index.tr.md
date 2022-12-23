@@ -28,15 +28,15 @@ url: /tr/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47875| MS Excel'in Aspose.Cells aracılığıyla yeniden kaydettikten sonra dosyayı onarması gerekiyor|Böcek|
 |CELLSNET-47829| Dairesel referanslar ve yinelemeler uygulanırken formül hesaplama sonuçları farklı|Böcek|
 |CELLSNET-47865|Aspose.Cells, tarihi Japonca biçiminde yanlış bir şekilde gösteriyor|Böcek|
-|CELLSNET-47872|MS Excel, Aspose.Cells tarafından yeniden kaydedilmiş bir XLTM dosyasını açarken bir hata mesajı veriyor|Böcek|
+|CELLSNET-47872|MS Excel, Aspose.Cells tarafından yeniden kaydedilmiş bir XLTM dosyasını açarken bir hata mesajı ister|Böcek|
 |CELLSNET-47897|ASP.NET uygulamasına yüklendiğinde liste öğesi seçimi çalışmıyor|Böcek|
-|CELLSNET-47862|Excel Accounting Altı Çizili, PDF'ye dışa aktarılırken kesiliyor|Böcek|
+|CELLSNET-47862|Excel Accounting Altı Çizili, PDF'e dışa aktarılırken kesiliyor|Böcek|
 |CELLSNET-47881|XML dosyasını çalışma kitabına aktarırken/eşlerken sütun genişliği beklenenden daha küçük|Böcek|
 |CELLSNET-47804|Grafik açıklama metni düzgün görüntülenmiyor|Böcek|
 |CELLSNET-47834|Grafiklerdeki Chart.Calculate(), grafik biçimlendirmesini değiştirir|Böcek|
-|CELLSNET-47856|Pivot tablolarla XLSX'ten PDF'e dönüştürme sorunu|Böcek|
+|CELLSNET-47856|Pivot tablolarla XLSX'den PDF'e dönüştürme sorunu|Böcek|
 |CELLSNET-41275|Diğer sayfalara atıfta bulunan grafikler görüntülenmiyor|Böcek|
-|CELLSNET-42847|Grafik, ODS dosyası yeniden kaydedilirken kayboluyor|Böcek|
+|CELLSNET-42847|ODS dosyası yeniden kaydedilirken grafik kayboluyor|Böcek|
 |CELLSNET-47861|Sıra yüksekliği hesaplamasındaki fark|Böcek|
 |CELLSNET-47876|Otomatik sığdırma satırları ve standart yükseklik, birleştirilmiş hücreler için düzgün çalışmıyor|Böcek|
 |CELLSNET-47903|Bir tabloya sütun eklemek, çalışma kitabının bozulmasına neden olur|Böcek|
@@ -46,10 +46,10 @@ url: /tr/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47913|Shape.UpdateSelectedValue() hatalı şekil güncellemesine neden oluyor|Böcek|
 |CELLSNET-47866|Html yüklerken istisna|İstisna|
 |CELLSNET-47882|Html'yi excel dosyasına aktarırken ortaya çıkan istisna|İstisna|
-|CELLSNET-47863|Hücreye HTML etiketleri eklemek System.FormatException hatası veriyor|İstisna|
-|CELLSNET-47868|Office 2000 XLS dosyasını açarken geçersiz son satır dizini istisnası|İstisna|
+|CELLSNET-47863|Hücreye HTML etiketlerinin eklenmesi System.FormatException hatası veriyor|İstisna|
+|CELLSNET-47868|Office 2000 XLS dosyasını açarken geçersiz bitiş satırı dizini istisnası|İstisna|
 |CELLSNET-47869|Cells İstisna ile Çalışma Kitabı Yükleme Hatası|İstisna|
-|CELLSNET-47870|XLS dosyası yüklenirken ortaya çıkan istisna|İstisna|
+|CELLSNET-47870|XLS dosyası yüklenirken istisna oluştu|İstisna|
 |
 
 

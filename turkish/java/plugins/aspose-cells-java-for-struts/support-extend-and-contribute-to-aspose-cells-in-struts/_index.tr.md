@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/java/support-extend-and-contribute-to-aspose-cells-in-struts/
 ---
-## **Destek**
+## **Destek olmak**
 - Bilinen / bildirilen sorunları (kullanıcılar veya QA ekibi tarafından) uygulamada görmek isterseniz.
 - Veya uygulamada bulduğunuz herhangi bir sorunu bildirmek istiyorsunuz
 - Herhangi bir iyileştirme öneriniz varsa veya herhangi bir özellik isteğinde bulunmak isterseniz

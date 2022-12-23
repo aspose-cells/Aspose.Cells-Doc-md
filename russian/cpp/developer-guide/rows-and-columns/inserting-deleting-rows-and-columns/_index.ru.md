@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /ru/cpp/inserting-deleting-rows-and-columns/
 ---
-## **Введение**
+## **Вступление**
 Независимо от того, создаете ли вы новый рабочий лист с нуля или работаете с существующим рабочим листом, нам может потребоваться добавить дополнительные строки или столбцы для размещения большего количества данных. И наоборот, нам также может понадобиться удалить строки или столбцы из указанных позиций на листе. Чтобы выполнить эти требования, Aspose.Cells предоставляет очень простой набор классов и методов, обсуждаемых ниже.
 ### **Управление строками и столбцами**
  Aspose.Cells предоставляет класс,[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) , представляющий файл Excel Microsoft.[IWorkbook](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook) класс содержит[IWorksheets](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection) коллекция, которая обеспечивает доступ к каждому рабочему листу в файле Excel. Рабочий лист представлен[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) учебный класс.[рабочий лист](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet) класс предоставляет[ICells](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_cell)коллекция, представляющая все ячейки рабочего листа.

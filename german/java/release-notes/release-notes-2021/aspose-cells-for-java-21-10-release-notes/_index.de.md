@@ -12,24 +12,24 @@ url: /de/java/aspose-cells-for-java-21-10-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-43768|Java Beim Konvertieren von XLSX-Dateien in PDF wird ein Heap-Speicherproblem beobachtet|
-|CELLSJAVA-43875|Ausnahme "Invalid FontUnderlineType string val" beim Laden der XLSX-Datei|
-|CELLSJAVA-43876|Ausnahme „java.lang.ArrayIndexOutOfBoundsException“ beim Laden einer XLSX-Datei|
+|CELLSJAVA-43768|Java Heap-Speicherproblem wird beim Konvertieren der Datei XLSX in PDF beobachtet|
+|CELLSJAVA-43875|Ausnahme "Invalid FontUnderlineType string val" beim Laden der Datei XLSX|
+|CELLSJAVA-43876|Ausnahme "java.lang.ArrayIndexOutOfBoundsException" beim Laden einer XLSX-Datei|
 |CELLSJAVA-43646|Der Schatteneffekt des Textes wird nicht korrekt wiedergegeben|
 |CELLSJAVA-43760|Die Ausrichtung des gleichschenkligen Dreiecks ist falsch|
-|CELLSJAVA-43786|Beim Konvertieren von XLS-Dateien in XLSX werden einige Teile in Bezug auf Formen nicht korrekt gerendert|
+|CELLSJAVA-43786|Beim Konvertieren der Datei XLS in XLSX werden einige Teile in Bezug auf Formen nicht korrekt gerendert|
 |CELLSJAVA-43838|Nach dem Ausführen von XlsToXlsx geht die AutoForm verloren|
 |CELLSJAVA-43839|Nach dem Ausführen von XlsToXlsx geht die LeftBracket verloren|
 |CELLSJAVA-43842|Nach dem Ausführen von XlsToXlsx unterscheidet sich die Form von LeftBracket vom Original|
-|CELLSJAVA-43848|Excel-zu-PDF-Konvertierung - einige WordArt-Zeichen werden nicht auf die gleiche Weise wie in Excel-Dateien umbrochen|
+|CELLSJAVA-43848|Konvertierung von Excel in PDF – einige WordArt-Zeichen werden nicht auf die gleiche Weise umbrochen wie in einer Excel-Datei|
 |CELLSJAVA-43880|Falsche abgerundete Ecken des Textfelds nach der Konvertierung von xls in xlsx|
 |CELLSJAVA-43867|Das Symbol für das bedingte Format unterscheidet sich beim Export nach HTML|
 |CELLSJAVA-43812|excelToHtml: Der Positionsversatz der Form ist falsch|
-|CELLSJAVA-43871|Prism 9 OLE-Objekte werden in der PDF-Ausgabe nicht angezeigt|
+|CELLSJAVA-43871|Prism 9 OLE-Objekte werden nicht in Ausgabe PDF angezeigt|
 |CELLSJAVA-43883|Falsche Größe der gerenderten Seite|
 |CELLSJAVA-43881|Beim Zusammenführen von Dateien fehlt die Einstellung der Hintergrundfarbe der Blätter|
 |CELLSJAVA-43892|In HTML konvertierte Excel-Rahmen fehlen|
-|CELLSJAVA-43787|Ausnahme „IllegalArgumentException: Dash lengths all zero …“ in Excel to HTML Rendering|
+|CELLSJAVA-43787|Ausnahme "IllegalArgumentException: Bindestrichlängen alle Null ..." in Excel auf HTML-Rendering|
 |CELLSJAVA-43885|IllegalArgumentException beim Konvertieren von Excel|
 |CELLSJAVA-43874|Workbook.save löst nur dann eine Ausnahme für eine bestimmte Datei von Aspose.Cells aus, wenn die Aspose-Lizenz angewendet wird|
 

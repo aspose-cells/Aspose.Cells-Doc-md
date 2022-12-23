@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /it/java/developer-guide/
 ---
-## Utilizzo delle API Java Aspose.Cells.
+## Utilizzo delle API Aspose.Cells Java.
 {{< tabs tabTotal="8" tabID="1" tabName1="File" tabName2="Home" tabName3="Insert" tabName4="Page Layout" tabName5="Formulas" tabName6="Data" tabName7="Review" tabName8="View" tabName9="Developer" >}}
 {{< tab tabNum="1" >}}
 <div class="row">
@@ -21,7 +21,7 @@ url: /it/java/developer-guide/
         <ul>
             <li><a href="/cells/it/java/opening-files-with-different-formats/">Apertura di file con formati diversi</a></li>
             <li><a href="/cells/it/java/get-warnings-while-loading-excel-file/">Ricevi avvisi durante il caricamento del file Excel</a></li>
-            <li><a href="/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Leggi il foglio di calcolo dei numeri sviluppato da Apple Inc. utilizzando Aspose.Cells</a></li>
+            <li><a href="/cells/it/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Leggi Numbers Foglio di calcolo Sviluppato da Apple Inc. utilizzando Aspose.Cells</a></li>
         </ul>
         <p>Salva</p>
         <ul>
@@ -40,7 +40,7 @@ url: /it/java/developer-guide/
         <ul>
             <li><a href="/cells/it/java/converting-workbook-to-different-formats/">Converti la cartella di lavoro in diversi formati</a></li>
             <li><a href="/cells/it/java/convert-excel-workbook-to-pdf/">Converti la cartella di lavoro di Excel in PDF</a></li>
-            <li><a href="/cells/it/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Converti file Excel in formato PDF compatibile con PDFA-1a</a></li>
+            <li><a href="/cells/it/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Converti il file Excel nel formato PDF compatibile con PDFA-1a</a></li>
             <li><a href="/cells/it/java/converting-worksheet-to-different-image-formats/">Conversione del foglio di lavoro in diversi formati di immagine</a></li>
             <li><a href="/cells/it/java/track-document-conversion-progress/">Tieni traccia dell'avanzamento della conversione del documento</a></li>
             <li><a href="/cells/it/java/convert-excel-to-html-with-tooltip/">Converti Excel in HTML con tooltip</a></li>
@@ -69,7 +69,7 @@ url: /it/java/developer-guide/
 		 <li><a href="/cells/it/java/data-formatting/">Numero</a></li>
 		 <li><a href="/cells/it/java/dealing-with-font-settings/">Allineamento</a></li>
 		 <li><a href="/cells/it/java/fonts/">Font</a></li>
-		 <li><a href="/cells/it/java/cells-formatting/#adding-borders-to-cells">Confine</a></li>
+		 <li><a href="/cells/it/java/cells-formatting/#adding-borders-to-cells">Frontiera</a></li>
 		 <li><a href="/cells/it/java/cells-formatting/#colors-and-background-patterns">Riempire</a></li>
 		 <li><a href="/cells/it/java/dealing-with-font-settings/">Gestione delle impostazioni dei caratteri</a></li>
 		 <li><a href="/cells/it/java/change-cells-alignment-and-keep-existing-formatting/">Modificare l'allineamento Cells e mantenere la formattazione esistente</a></li>
@@ -91,7 +91,7 @@ url: /it/java/developer-guide/
 		 <p>Filtro</p>
         <ul>
 		 <li><a href="/cells/it/java/data-filtering/">Filtraggio dei dati</a></li>
-         <li><a href="/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi</a></li>
+         <li><a href="/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/">Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi</a></li>
 		 <li><a href="/cells/it/java/get-all-hidden-rows-indices-after-refreshing-autofilter/">Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico</a></li>
         </ul>
         <p>Trova e seleziona</p>
@@ -337,7 +337,7 @@ url: /it/java/developer-guide/
         <ul>
          <li><a href="/cells/it/java/worksheet-views/#page-break-preview">Anteprima interruzione di pagina</a></li>
         </ul>
-        <p>Mostrare</p>
+        <p>Spettacolo</p>
          <ul>
 		<li><a href="/cells/it/java/show-and-hide-elements/">Mostra e nascondi elementi</a></li>
         </ul>

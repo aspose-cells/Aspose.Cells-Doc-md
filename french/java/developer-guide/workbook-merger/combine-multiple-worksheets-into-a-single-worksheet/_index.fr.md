@@ -14,7 +14,7 @@ Parfois, vous devez combiner plusieurs feuilles de calcul en une seule feuille d
 
 ## **Combiner des feuilles de travail**
 
- L'exemple ci-dessous utilise le[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) pour copier toutes les feuilles de calcul source dans une seule feuille à l'intérieur d'un classeur de destination.
+ L'exemple ci-dessous utilise le[**Range.copy()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)pour copier toutes les feuilles de calcul source dans une seule feuille à l'intérieur d'un classeur de destination.
 
 ### **Classeur source**
 

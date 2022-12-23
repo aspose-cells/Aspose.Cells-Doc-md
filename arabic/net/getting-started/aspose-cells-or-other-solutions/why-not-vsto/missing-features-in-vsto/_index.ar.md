@@ -26,7 +26,7 @@ url: /ar/net/missing-features-in-vsto/
     - [الاستيراد من ArrayList](/cells/ar/net/importing-from-arraylist/)
     - [الاستيراد من كائنات مخصصة](/cells/ar/net/importing-from-custom-objects/)
     - [الاستيراد من DataTable](/cells/ar/net/importing-from-datatable/)
-- [حفظ المصنف إلى نص أو تنسيق CSV في Aspose.Cells](/cells/ar/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [احفظ المصنف إلى نص أو تنسيق CSV في Aspose.Cells](/cells/ar/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [العلامات الذكية في Aspose.Cells](/cells/ar/net/smart-markers-in-aspose-cells/)
   - [تجميع البيانات](/cells/ar/net/grouping-data/)
   - [علامات الصورة](/cells/ar/net/image-markers/)

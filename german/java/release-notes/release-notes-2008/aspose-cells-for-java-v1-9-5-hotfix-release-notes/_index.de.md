@@ -12,7 +12,7 @@ url: /de/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  Sehr geehrte Kunden,
 
- Wir haben Aspose.Cells for Java V1.9.5 veröffentlicht!
+ Wir haben Aspose.Cells for Java V1.9.5 freigegeben!
 
  *Was gibt's Neues?
 
@@ -20,8 +20,8 @@ url: /de/java/aspose-cells-for-java-v1-9-5-hotfix-release-notes/
 
  *Was wurde verbessert?
 
-- Die Konvertierung von Excel in PDF wurde verbessert* Beim Speichern der Arbeitsmappe im Excel2003-Dateiformat schneidet Aspose.Cells automatisch die Zellen aus, deren Spalte oder Zeile das Limit von 65536 Zeilen und 256 Spalten überschreitet.* Wenn keine Codierung angegeben ist, wird beim Lesen der CSV-Datei versucht, die Standardcodierung des Systems abzurufen und zu verwenden
+- Die Konvertierung von Excel in PDF wurde verbessert* Beim Speichern der Arbeitsmappe im Excel2003-Dateiformat schneidet Aspose.Cells automatisch die Zellen aus, deren Spalte oder Zeile das Limit von 65536 Zeilen und 256 Spalten überschreitet.* Wenn keine Codierung angegeben ist, wird beim Lesen der Datei CSV versucht, die Standardcodierung des Systems abzurufen und zu verwenden
 
  *Was ist behoben?
 
-- Einige Fehler bei der Berechnung von Formeln behoben* Einige Fehler beim Lesen der Vorlagendatei wurden behoben*Ein Fehler beim Abrufen der Bildskalierung wurde behoben* Fehler beim Speichern von NamedStyle behoben* Es wurde ein Fehler behoben, bei dem die Grenzlinie von Kommentaren sichtbar gemacht wurde* Ein Fehler beim Festlegen des Zellenrands wurde behoben* Fehler in der HYPERLINK-Formel behoben* Fehler beim Speichern von Namen behoben* Fehler beim Speichern von Arbeitsmappen mit geschützter Struktur behoben* Es wurde ein Fehler im Text des Objekts „Set Name“ behoben* Fehler beim Abrufen des Zeichenfolgenwerts verbundener Zellen behoben* Fehler bei der Verarbeitung von SmartMarker für WorkbookDesigner behoben
+- Einige Fehler bei der Berechnung von Formeln behoben*Einige Fehler beim Lesen der Vorlagendatei wurden behoben* Ein Fehler beim Abrufen der Bildskalierung wurde behoben* Fehler beim Speichern von NamedStyle behoben* Es wurde ein Fehler behoben, bei dem die Grenzlinie von Kommentaren sichtbar gemacht wurde* Ein Fehler beim Festlegen des Zellenrands wurde behoben* Fehler in der HYPERLINK-Formel behoben* Fehler beim Speichern von Namen behoben* Fehler beim Speichern von Arbeitsmappen mit geschützter Struktur behoben* Es wurde ein Fehler im Text des Objekts „Set Name“ behoben* Fehler beim Abrufen des Zeichenfolgenwerts verbundener Zellen behoben* Fehler bei der Verarbeitung von SmartMarker für WorkbookDesigner behoben

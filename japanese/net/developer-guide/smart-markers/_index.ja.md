@@ -191,7 +191,7 @@ Aspose.Cells は、ネストされたオブジェクトとしてジェネリッ�
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
 ## **Smart Markers の HTML プロパティの使用**
-次のサンプル コードでは、スマート マーカーの HTML プロパティの使用について説明します。処理されると、HTML のため、「Hello World」の「World」が太字で表示されます。<b>鬼ごっこ。
+次のサンプル コードでは、スマート マーカーの HTML プロパティの使用について説明します。処理されると、HTML のため、"Hello World" の "World" が太字で表示されます。<b>鬼ごっこ。
 
 
 

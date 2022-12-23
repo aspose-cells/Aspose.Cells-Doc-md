@@ -3,6 +3,7 @@ title: 在工作表中显示公式而不是值
 type: docs
 weight: 20
 url: /zh/net/show-formulas-instead-of-values-in-a-worksheet/
+description: 本文提供了使用 C# API 或 .NET 库以编程方式显示 Excel 工作表或电子表格中的公式而不是值的示例代码。
 ---
 {{% alert color="primary" %}}
 

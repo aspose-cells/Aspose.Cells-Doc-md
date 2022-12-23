@@ -6,7 +6,7 @@ url: /ar/reportingservices/more-excel-file-formats-export/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services يسمح لك بتسليم تقارير Excel Microsoft الأصلية من خلال Microsoft SQL Server 2005 و 2008 Reporting Services. بخلاف العارض المضمن للتقارير المستندة إلى Excel Microsoft ، يوفر Aspose.Cells for Reporting Services مجموعة ميزات موسعة تقوم بتحويل تقارير RDL إلى: Excel 97-2003 ثنائي تنسيق XLS ، CSV ، SpreadsheetML ، Excel 2007 XLSX ، Excel 2007 XLSM ، Excel 2007 XLSB ، تنسيق HTML و ODS.
+Aspose.Cells for Reporting Services يسمح لك بتسليم تقارير Excel Microsoft الأصلية من خلال Microsoft SQL Server 2005 و 2008 Reporting Services. بخلاف العارض المضمن لـ Microsoft التقارير المستندة إلى Excel ، يوفر Aspose.Cells for Reporting Services مجموعة ميزات موسعة تقوم بتحويل تقارير RDL إلى: تنسيق Excel 97-2003 ثنائي CSV ، CSV ، SpreadsheetML ، Excel 2007 XLSX ، Excel 2007 XLSM ، XLSB تنسيق HTML و ODS.
 
 {{% /alert %}} 
 
@@ -16,6 +16,6 @@ Aspose.Cells for Reporting Services يدعم تنسيقات ملفات أكثر 
 
 ![ما يجب القيام به: image_بديل_نص](more-excel-file-formats-export_1.png)
 
-**يتم إنشاء نموذج تقرير XLS للجدول المحوري باستخدام Aspose.Cells for Reporting Services** 
+**يتم إنشاء نموذج تقرير جدول محوري XLS باستخدام Aspose.Cells for Reporting Services** 
 
 ![ما يجب القيام به: image_بديل_نص](more-excel-file-formats-export_2.png)

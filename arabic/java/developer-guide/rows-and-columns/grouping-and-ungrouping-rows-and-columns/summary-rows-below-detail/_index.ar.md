@@ -10,15 +10,15 @@ url: /ar/java/applying-subtotal-and-changing-direction-of-outline-summary-rows-b
 
  يمكنك تطبيق Subtotal على البيانات باستخدام[**ورقة العمل Cells. المجموع الفرعي ()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) طريقة. يأخذ المعلمات التالية.
 
-- **CellArea** - النطاق المطلوب تطبيق الإجمالي الفرعي عليه
+- **CellArea** النطاق المطلوب تطبيق الإجمالي الفرعي عليه
 - **مجموعة من** - الحقل المطلوب التجميع حسبه ، كإزاحة عدد صحيح قائم على الصفر
-- **دور** - دالة المجموع الفرعي.
+- **وظيفة** - دالة المجموع الفرعي.
 - **TotalList** - مصفوفة من إزاحات المجال الصفرية ، تشير إلى الحقول التي تضاف إليها المجاميع الفرعية.
 - **يحل محل** - يشير إلى ما إذا كان سيتم استبدال المجاميع الفرعية الحالية
 - **فواصل الصفحة** - يشير إلى ما إذا كان سيتم إضافة فاصل صفحة بين المجموعات
 - **ملخص البيانات أدناه** - يشير إلى ما إذا كان يجب إضافة ملخص أدناه البيانات.
 
- أيضًا ، يمكنك التحكم في اتجاه المخطط التفصيلي**صفوف التلخيص أدناه التفاصيل** كما هو موضح في لقطة الشاشة التالية باستخدام[**Worksheet.getOutline (). SummaryRowBelow**](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) منشأه. يمكنك فتح هذا الإعداد في Microsoft Excel باستخدام**البيانات> المخطط التفصيلي> الإعدادات**
+ أيضًا ، يمكنك التحكم في اتجاه المخطط التفصيلي**صفوف التلخيص أدناه التفاصيل** كما هو موضح في لقطة الشاشة التالية باستخدام[**Worksheet.getOutline (). SummaryRowBelow**](https://reference.aspose.com/cells/java/com.aspose.cells/outline#SummaryRowBelow) خاصية. يمكنك فتح هذا الإعداد في Microsoft Excel باستخدام**البيانات> المخطط التفصيلي> الإعدادات**
 
 ![ما يجب القيام به: image_بديل_نص](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 

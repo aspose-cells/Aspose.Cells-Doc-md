@@ -20,10 +20,10 @@ url: /de/net/aspose-cells-for-net-7-2-1-release-notes/
 
  Verbesserungen
 
-- Die Linien von Shapes werden nach der Konvertierung in PDF falsch abgelegt
-- Makro verschwand nach dem Speichern einer XLSM-Datei im XLS-Format
+- Die Zeilen von Shapes werden nach der Konvertierung in PDF falsch abgelegt
+- Das Makro verschwand nach dem Speichern einer XLSM-Datei im XLS-Format
 - Listbox-Optionen überlappen sich
-- Aspose.Cells Beschädigung der XLSM-Datei nach Aufruf der Workbook.Save()-Methode
+- Aspose.Cells beschädigt die Datei XLSM nach dem Aufrufen der Methode Workbook.Save()
 - Die Komponente zerstört Eigenschaften des CalcPr-Knotens des Arbeitsmappen-XML
 - Sie möchten eine Zeichenfolge einfügen, die länger als 32 KB ist
 - Smart Markers-Syntax für den Spaltenindex
@@ -35,7 +35,7 @@ url: /de/net/aspose-cells-for-net-7-2-1-release-notes/
 
 - GetNamedRanges()-Methode löst nicht unterstützte Funktion aus
 - Ausnahme: Ungültiger IMEModeType-Zeichenfolgenwert
-- Ausnahme beim Laden einer XLSX-Tabelle aus SharePoint
+- Ausnahme beim Laden einer XLSX-Tabelle von SharePoint
 - GetNamedRanges()-Methode, die eine NullReferenceException auslöst
 - Ausnahme beim Initialisieren mit .xlsm-Eingabedatei
 - Fehler beim Öffnen eines Dokuments mit komplexen Formeln
@@ -54,10 +54,10 @@ url: /de/net/aspose-cells-for-net-7-2-1-release-notes/
  -Probleme mit DataTable in Diagrammen beim Konvertieren in ein Bild
 
 - Problem mit DataTable in MS Excel-Diagrammen
-- Unterschiede in der Darstellung von Diagrammen zwischen MS Excel und PDF
+- Unterschiede im Aussehen des Diagramms zwischen MS Excel und PDF
 - Konvertieren von Excel 97-2003 in PDF
 
- -Aspose.Cells Beschädigte XLSM-Datei nach zweimaligem Aufruf von Save
+ -Aspose.Cells Datei XLSM wird beschädigt, nachdem Save zweimal aufgerufen wurde
 
 - Lesezeichen auf einer Ebene ausgeben
 
@@ -71,12 +71,12 @@ url: /de/net/aspose-cells-for-net-7-2-1-release-notes/
 - Durch das kopierte Diagramm werden die Beschriftungen der Anzeigeeinheit um 90 Grad gedreht
 - Rechenfehler bei einer Arbeitsmappe
 - Durchführen von Zwischensummenberechnungen für gruppierte Spalten
-- Die Probleme bei der PDF-Konvertierung in Bezug auf das Zeichnen von Formen
+- Die Probleme für die PDF-Konvertierung in Bezug auf das Zeichnen von Formen
 
  - Problem mit benannten Bereichen
 
 - Aspose.Cells beschädigt Excel-Dateien, die Pivot-Tabellen enthalten
-- Probleme bei der Konvertierung von XLSX in PDF
+- XLSX bis PDF Konvertierungsprobleme
 
  -Aspose.Cells behandelt den Datumswert falsch
 
@@ -86,7 +86,7 @@ url: /de/net/aspose-cells-for-net-7-2-1-release-notes/
 
  -Problem in der entsprechenden XML-Datei gefunden
 
-- Der Formname wurde nach dem Speichern der XLSM-Datei in einer neuen Arbeitsmappe geändert
+- Der Formname wurde nach dem Speichern der Datei XLSM in einer neuen Arbeitsmappe geändert
 - Fehler mit VLookup-Formel mit Platzhaltern (z. B. „*“)
 
 

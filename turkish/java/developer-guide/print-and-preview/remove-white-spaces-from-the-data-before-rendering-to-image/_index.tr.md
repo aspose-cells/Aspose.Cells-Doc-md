@@ -10,7 +10,7 @@ Bazen uygulamalarda veya web sayfalarında çalışma sayfası görüntüleri su
 
 {{% /alert %}}
 
- bu[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)class, bir çalışma sayfasını, örneğin görüntü formatı, sayfalandırılmış sayfalar vb. belirtilen herhangi bir özniteliğe sahip bir görüntü dosyasına dönüştürebilir. BMP, GIF, JPG, TIFF ve EMF dahil olmak üzere çeşitli görüntü biçimleri desteklenir.
+ bu[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender)class, bir çalışma sayfasını, örneğin görüntü formatı, sayfalandırılmış sayfalar vb. belirtilen özniteliklere sahip bir görüntü dosyasına dönüştürebilir. BMP, GIF, JPG, TIFF ve EMF dahil olmak üzere çeşitli görüntü biçimleri desteklenir.
 
  Sayfadan görüntüye özelliğini kullandığınızda, çıktı görüntüsünün çevresinde varsayılan olarak beyaz/boş alan, yani bir kenarlık bulunur. Bunu kaldırabilirsiniz. Kaynak çalışma sayfası için üst, sol, alt ve sağ sayfa kurulum kenar boşluklarını 0 olarak ayarlayın ve[**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions)nitelikleri buna göre.
 

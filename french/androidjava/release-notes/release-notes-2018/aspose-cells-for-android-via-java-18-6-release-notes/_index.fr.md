@@ -10,15 +10,15 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42523|Utiliser la version conforme FIPS de Bouncy Castle dans les API Aspose.Cells|Nouvelle fonctionnalité|
-|CELLSJAVA-42550|La conversion simultanée en PDF tandis que chaque classeur a son propre ensemble de polices privé (exclusif)|Nouvelle fonctionnalité|
+|CELLSJAVA-42550|La conversion simultanée en PDF alors que chaque classeur a son propre jeu de polices privé (exclusif)|Nouvelle fonctionnalité|
 |CELLSJAVA-42339|Implémenter le tri de données personnalisé dans le rapport de tableau croisé dynamique via les API Aspose.Cells|Nouvelle fonctionnalité|
 |CELLSJAVA-42625|L'implémentation de la fonctionnalité MS Excel 'Watch Window'|Nouvelle fonctionnalité|
 |CELLSJAVA-42612|Impossible d'extraire le texte du type d'engrenage SmartArt|Nouvelle fonctionnalité|
 |CELLSJAVA-42572|La formule ne doit pas contenir plus de 8192 caractères|Renforcement|
-|CELLSJAVA-42569|Impossible d'accéder aux éléments d'étiquettes de l'axe des catégories horizontales du graphique dans XLS|Renforcement|
+|CELLSJAVA-42569|Impossible d'accéder aux éléments des étiquettes de l'axe des catégories horizontales du graphique dans XLS|Renforcement|
 |CELLSJAVA-42580|Obtenir/définir la propriété du document Language|Renforcement|
 |CELLSJAVA-42565|Couleur de premier plan vs couleur d'arrière-plan vs couleur de remplissage - Utilisez une seule méthode qui prend deux arguments|Renforcement|
 |CELLSJAVA-42528|"\<Font>" n'est pas une balise HTML5 valide et à fermeture automatique, et les navigateurs Web déforment son contenu|Renforcement|
@@ -27,10 +27,10 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42646|Exception : "FormulaBuild Jeton de formule inconnu 0" sur Name.getRefersTo()|Renforcement|
 |CELLSJAVA-42645|Exception : "FormulaBuild Plus d'un jeton dans la pile...." sur Cell.getFormula()|Renforcement|
 |CELLSJAVA-42516|Aspose.Cells accepte et corrige une formule invalide|Renforcement|
-|CELLSJAVA-42551|Certaines formes ne sont pas correctes dans le PDF de sortie|Punaise|
-|CELLSJAVA-42578|La mise en forme conditionnelle est perdue lors de l'enregistrement d'Excel au format HTML|Punaise|
-|CELLSJAVA-42571|Le HTML de sortie ne correspond pas à MS-Excel|Punaise|
-|CELLSJAVA-42553|Les liens vers la zone nommée sont erronés après l'exportation au format HTML|Punaise|
+|CELLSJAVA-42551|Certaines formes ne sont pas correctes dans la sortie PDF|Punaise|
+|CELLSJAVA-42578|La mise en forme conditionnelle est perdue lors de l'enregistrement d'Excel sous HTML|Punaise|
+|CELLSJAVA-42571|La sortie HTML ne correspond pas à MS-Excel|Punaise|
+|CELLSJAVA-42553|Les liens vers la zone nommée sont erronés après l'exportation vers HTML|Punaise|
 |CELLSJAVA-42530|Les tableaux croisés dynamiques et les graphiques correspondants n'ont pas le format de date correct|Punaise|
 |CELLSJAVA-42527|Le graphique comporte de nombreuses valeurs sur l'axe des x et les valeurs se chevauchent|Punaise|
 |CELLSJAVA-42581|Aspose.Cells renvoie la mauvaise valeur de la cellule A2|Punaise|
@@ -50,21 +50,21 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42598|Les propriétés ne sont pas extraites dans le fichier modèle|Punaise|
 |CELLSJAVA-42589|NullPointerException lors de l'ajout de HTML à une cellule|Punaise|
 |CELLSJAVA-41414|Les lignes ont disparu du graphique lorsque le fichier XLSX est réenregistré|Punaise|
-|CELLSJAVA-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel vers le rendu HTML|Punaise|
+|CELLSJAVA-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel au rendu HTML|Punaise|
 |CELLSJAVA-42627|CELLSJAVA-42619 Impossible d'extraire correctement les images Smart Art|Punaise|
-|CELLSJAVA-42618|La forme est déplacée pour couvrir les données dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42618|La forme est déplacée pour couvrir les données dans Excel au rendu HTML|Punaise|
 |CELLSJAVA-42628|Le calcul des formules est erroné, par exemple, il génère #DIV/0 ! les erreurs|Punaise|
-|CELLSJAVA-42615|Cell Le format A3 n'est pas correct dans le HTML de sortie|Punaise|
-|CELLSJAVA-42621|Mauvaises performances lors de la génération d'un fichier PDF à partir d'un fichier Excel|Punaise|
-|CELLSJAVA-42620|XLSX vers TIFF - exception NoClassDefFoundError|Punaise|
+|CELLSJAVA-42615|Cell Le format A3 n'est pas correct dans la sortie HTML|Punaise|
+|CELLSJAVA-42621|Mauvaises performances lors de la génération du fichier PDF à partir d'un fichier Excel|Punaise|
+|CELLSJAVA-42620|XLSX à TIFF - exception NoClassDefFoundError|Punaise|
 |CELLSJAVA-42599|Les images sont perdues lorsque le fichier Excel est converti en Pdf|Punaise|
 |CELLSJAVA-42630|La méthode Chart.calculate provoque OutOfMemoryError|Punaise|
 |CELLSJAVA-42623|La mémoire augmente dans le rendu du fichier Excel au format de fichier PDF|Punaise|
 |CELLSJAVA-42592|La taille de la police a changé sur le titre du graphique en raison de la méthode characters()|Punaise|
-|CELLSJAVA-41860|L'effet d'ombre est modifié lors de la ré-enregistrement de XLS|Punaise|
-|CELLSJAVA-42654|Conversion Excel en PDF - la conversion ne se termine jamais|Punaise|
+|CELLSJAVA-41860|L'effet d'ombre est modifié lors de la ré-enregistrement XLS|Punaise|
+|CELLSJAVA-42654|Conversion d'Excel en PDF - la conversion ne se termine jamais|Punaise|
 |CELLSJAVA-42647|Impossible d'obtenir ou de définir un texte alternatif pour la forme de commentaire|Punaise|
-|CELLSJAVA-42644|Aspose.Cells se bloque lors de la conversion d'un fichier Spreadsheet ML (xml) en PDF avec une balise Styles à fermeture automatique|Punaise|
+|CELLSJAVA-42644|Aspose.Cells se bloque lors de la conversion d'un fichier Spreadsheet ML (xml) en PDF avec la balise Styles à fermeture automatique|Punaise|
 |CELLSJAVA-42632|Impossible de définir un texte alternatif pour la forme SmartArt|Punaise|
 |CELLSJAVA-42631|getFirstVisibleRow() et getFirstVisibleColumn() renvoyant des indices invalides|Punaise|
 |CELLSJAVA-42624|Les hyperliens avec des symboles codés (tels que "% 5c") sont décodés après réenregistrement|Punaise|
@@ -91,7 +91,7 @@ Affiche la chaîne croisée HTML et masque la chaîne de droite lorsque le texte
 
 ### **Ajoute un nouvel élément "TSV" pour les énumérations LoadFormat, SaveFormat et FileFormatType**
 
-Représente un fichier TSV (valeurs séparées par des tabulations), identique à "TabDelimited".
+Représente un fichier TSV (valeurs séparées par des tabulations), identique au fichier "TabDelimited".
 
 ### **Ajoute enum ImageType**
 

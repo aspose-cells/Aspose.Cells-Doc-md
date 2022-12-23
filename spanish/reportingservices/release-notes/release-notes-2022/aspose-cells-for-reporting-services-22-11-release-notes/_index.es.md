@@ -13,4 +13,4 @@ Esta página contiene notas de la versión para Aspose.Cells Reporting Services 
 
 |**IDENTIFICACIÓN**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|35094 | Exportar a CSV (ACCSV): problemas de codificación|
+|35094 | Exportar a CSV (ACCSV) - problemas de codificación|

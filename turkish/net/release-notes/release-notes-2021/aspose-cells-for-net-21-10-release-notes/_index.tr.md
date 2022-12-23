@@ -13,41 +13,41 @@ url: /tr/net/aspose-cells-for-net-21-10-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-49192| Ofset işleviyle Aralıkları (RefersTo) alma sorunu|Yeni özellik|
-|CELLSNET-49132|İçinde HTML tablosu olan dosyaları XLS dosyaları olarak aç|Yeni özellik|
+|CELLSNET-49132|İçinde HTML tablosu bulunan dosyaları XLS dosyaları olarak aç|Yeni özellik|
 |CELLSNET-49173|Destek Range.CurrentRegion Özellik|Yeni özellik|
 |CELLSNET-49015|Çalışma sayfasının adını değiştirirken köprüyü(Sayfa1!A1) güncelleyin.|Artırma|
 |CELLSNET-49021|Tip "Metin İçerir" ise MS Excel'de od'ların koşullu biçimlendirmesi kayboluyor|Artırma|
 |CELLSNET-49280|Doldurma türüyle otomatik doldurma aralığını destekleyin|Artırma|
-|CELLSNET-49413|HTML oluştururken görünmeyen şekilleri kaldırın|Artırma|
+|CELLSNET-49413|Oluşturma sırasında görünmeyen şekilleri kaldırın HTML|Artırma|
 |CELLSNETCORE-135|Büyük dosyalar ve UDF'ler hesaplanırken uygulama duruyor|Verim|
-|CELLSNET-49124|XLSM'yi HTML'ye dönüştürürken bulanık radyo düğmeleri|Böcek|
+|CELLSNET-49124|XLSM'i HTML'e dönüştürürken bulanık radyo düğmeleri|Böcek|
 |CELLSNET-49115|İşlenenler aralık olduğunda formüldeki işleçlerin yanlış hesaplanması|Böcek|
 |CELLSNETCORE-132|Dönüştürülmüş Html'de oluşturulan bozuk grafik|Böcek|
 |CELLSNETCORE-141|Grafikte eksik metin, yanlış metin hizalaması ve eksik yüzdeler|Böcek|
 |CELLSNET-49067|GridDesktop'ta Sekme rengini al ve ayarla ile ilgili sorun|Böcek|
 |CELLSNET-49069|Aspose.Cells.GridWeb SessionMode çalışmıyor|Böcek|
 |CELLSNET-49118|Xml içe aktarmayla ilgili sorun|Böcek|
-|CELLSNET-49195|XLSX'ten HTML'ye dönüştürme, görünmez karakterlerin sırasını korumaz|Böcek|
-|CELLSNET-49245|HTML'ye dönüştürüldüğünde belirli XLS dosyalarında görüntü kayması|Böcek|
-|CELLSNET-49246|Belirli XLSX dosyasını HTML'ye dönüştürürken resim görünmüyor|Böcek|
-|CELLSNET-49334| Excel oluşturma için alt bilgi alanındaki yazı tipi metniyle ilgili sorun|Böcek|
+|CELLSNET-49195|XLSX'den HTML'e dönüştürme, görünmez karakterlerin sırasını korumaz|Böcek|
+|CELLSNET-49245|HTML olarak işlendiğinde belirli XLS dosyalarında görüntü kayması|Böcek|
+|CELLSNET-49246|Belirli XLSX dosyasını HTML'e dönüştürürken görüntü görünmüyor|Böcek|
+|CELLSNET-49334|Excel oluşturma için alt bilgi alanındaki yazı tipi metniyle ilgili sorun|Böcek|
 |CELLSNET-49393|XML dosyası, şablon dosyasına başarıyla içe aktarılamıyor|Böcek|
-|CELLSNETCORE-226|Excel'den EMF'ye dönüştürme sırasında oluşturulan gereksiz boşluk|Böcek|
+|CELLSNETCORE-226|Excel'den EMF'e dönüştürme sırasında işlenen gereksiz boşluk|Böcek|
 |CELLSNET-49091|Bir XML'de eksik olan "strCache" düğümü|Böcek|
 |CELLSNET-49161|Doğru Değer ekseni onay etiketinin yazı tipi adları artık kopyalanamıyor|Böcek|
 |CELLSNET-49191|Veri etiketinde yüzde değerleri gösterilemiyor|Böcek|
 |CELLSNET-49305|Grafikteki bazı Veri Etiketleri eksik|Böcek|
 |CELLSNET-49374|Grafik satırı, Chart.ToImage işleviyle Excel'dekinden farklıdır|Böcek|
-|CELLSNET-48613|Seçilen aralığın dışında kalan bir kaynak HTML'ye aktarılmamalıdır|Böcek|
+|CELLSNET-48613|Seçilen aralığın dışında kalan bir kaynak HTML'e aktarılmamalıdır.|Böcek|
 |CELLSNET-49027|Belge sayfası renginde ve düzeninde bozulma|Böcek|
 |CELLSNET-49145|DataMashup bilgileri Excel dosyasından alınmadı|Böcek|
 |CELLSNET-49146|Excel dosyasındaki filigran doğru şekilde oluşturulamıyor ve görüntülenemiyor|Böcek|
-|CELLSNET-49239|XLSM'den XLS'ye dönüştürürken görüntülere gölge efekti uygulanıyor|Böcek|
+|CELLSNET-49239|XLSM'den XLS'e dönüştürürken resimlere gölge efekti uygulanıyor|Böcek|
 |CELLSNET-49244|Html olarak kaydederken simge koşullu biçimlendirme kayboluyor|Böcek|
 |CELLSNET-49328|Çalışma sayfalarını kopyalarken hata|Böcek|
 |CELLSNET-49365|Metin, AutoFitRows çağrısından sonra yazıcı çıktısında kırpılıyor|Böcek|
-|CELLSNET-49366|XLSB biçimindeki Cell veri doğrulama giriş alanlarıyla ilgili sorun|Böcek|
-|CELLSNETCORE-269|Büyük yüksekliğe sahip yanlış satır HTML tablosuna eklendi|Böcek|
+|CELLSNET-49366|Cell biçimindeki Cell veri doğrulama giriş alanlarıyla ilgili sorun|Böcek|
+|CELLSNETCORE-269|HTML tablosuna yüksekliğe sahip yanlış satır eklendi|Böcek|
 |CELLSNETCORE-270|Excel bir kez HTML olarak kaydedildiğinde HtmlString Yazı Tipi ile ilgili sorunlar|Böcek|
 |CELLSNET-49375|Veri ekledikten sonra Pivot tabloyu yenilerken sorun|Böcek|
 |CELLSNET-49194|Excel dosyasını yüklerken istisna|İstisna|

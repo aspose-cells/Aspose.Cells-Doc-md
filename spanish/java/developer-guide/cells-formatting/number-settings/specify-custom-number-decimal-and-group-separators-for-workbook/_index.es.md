@@ -16,7 +16,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 ## **Especificación de separadores personalizados usando Microsoft Excel**
 
-1.  Abierto**Opciones** en el**Expediente** pestaña.
+1.  Abierto**Opciones** en el**Archivo** pestaña.
 1. Abre el**Avanzado** pestaña.
 1.  Cambie la configuración en el**Opciones de edición** sección.
 
@@ -26,7 +26,7 @@ La siguiente captura de pantalla muestra la**Opciones Avanzadas de Excel** y res
 
 ## **Especificación de separadores personalizados mediante Aspose.Cells**
 
- El siguiente código de ejemplo ilustra cómo especificar los separadores personalizados mediante Aspose.Cells API. Especifica los separadores decimales y de grupo de números personalizados como punto y espacio respectivamente. entonces el numero**123,456.789** se mostrará como**123 456.789** como se muestra en la captura de pantalla que muestra el PDF de salida generado por el código.
+ El siguiente código de ejemplo ilustra cómo especificar los separadores personalizados mediante Aspose.Cells API. Especifica los separadores decimales y de grupo de números personalizados como punto y espacio respectivamente. entonces el numero**123,456.789** se mostrará como**123 456.789** como se muestra en la captura de pantalla que muestra la salida PDF generada por el código.
 
 ![todo:imagen_alternativa_texto](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 

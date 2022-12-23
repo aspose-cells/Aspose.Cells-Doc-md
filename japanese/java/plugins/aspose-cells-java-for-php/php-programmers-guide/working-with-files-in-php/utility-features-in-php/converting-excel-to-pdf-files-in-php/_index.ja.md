@@ -4,10 +4,10 @@ type: docs
 weight: 30
 url: /ja/java/converting-excel-to-pdf-files-in-php/
 ---
-## **Aspose.Cells - Excel から PDF ファイルへの変換**
+## **Aspose.Cells - Excel を PDF ファイルに変換する**
 PHP で Aspose.Cells for Java を使用して Excel を Pdf ファイルに変換するには、Excel を呼び出すだけです。_に_Converter モジュールの pdf() メソッド。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

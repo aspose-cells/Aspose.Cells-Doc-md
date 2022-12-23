@@ -29,4 +29,4 @@ Das folgende Code-Snippet zeigt, wie Titel für Diagramme und Achsen festgelegt 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-SettingChartsAppearance-SettingTitlesAxes-1.cs" >}}
 
 ## **Themen vorantreiben**
-- [Lesen Sie den Diagrammuntertitel aus der ODS-Datei](/cells/de/net/read-chart-subtitle-from-ods-file/)
+- [Lesen Sie den Diagrammuntertitel aus der Datei ODS](/cells/de/net/read-chart-subtitle-from-ods-file/)

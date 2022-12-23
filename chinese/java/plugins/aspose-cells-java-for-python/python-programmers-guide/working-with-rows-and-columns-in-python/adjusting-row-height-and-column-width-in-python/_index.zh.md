@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/java/adjusting-row-height-and-column-width-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, row height python, column width python, Excel pytho
-description: 使用 Python Excel API 在 Python 中创建 Excel 文件。在没有 MS Office 的情况下在 Python 应用程序中调整 XLSX 或 XLS 中的行高和列宽。
+description: 使用 Python Excel API 在 Python 中创建 Excel 文件。在没有 MS Office 的情况下在 XLSX 或 XLS 中调整行高和列宽。
 ---
 ## **Excel电子表格Python——调整行高列宽**
 ### **设置行高**

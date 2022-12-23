@@ -10,22 +10,22 @@ url: /fr/java/aspose-cells-for-java-20-6-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43186|Calculer le total général pour chaque ligne avec colonne développée|Renforcement|
 |CELLSJAVA-43191|Fournir des moyens de gérer les scénarios lors de la spécification de types de police incorrects|Renforcement|
 |CELLSJAVA-43187|Exception lors du chargement d'un fichier XLS "Microsoft Excel 5.0 / 95 Workbook"|Renforcement|
-|CELLSJAVA-43180|Conversion HTML vers Excel créant une sortie de feuille de calcul noire|Punaise|
+|CELLSJAVA-43180|Conversion HTML en Excel créant une sortie de feuille de calcul noire|Punaise|
 |CELLSJAVA-43181|La différence de hauteur de ligne lors de la conversion d'Excel en HTML|Punaise|
 |CELLSJAVA-43188|Le style de couleur d'arrière-plan n'est pas conservé lors de la conversion HTML vers Excel|Punaise|
 |CELLSJAVA-43196|Un nombre différent de modules VBA détectés en utilisant Aspose.Cells for Java 20.4 et 20.5|Punaise|
 |CELLSJAVA-43202|Ressources non libérées à la fin de la création du classeur|Punaise|
 |CELLSJAVA-43203|Impossible de traiter certaines listes de validation Excel basées sur les plages nommées avec des noms Unicode|Punaise|
-|CELLSJAVA-43185|La qualité JPEG est toujours de 75 sur setImageResample sous Linux|Punaise|
+|CELLSJAVA-43185|JPEG la qualité est toujours de 75 sur setImageResample sous Linux|Punaise|
 |CELLSJAVA-43192|Charger le dossier de polices /System/Library/Fonts sur macOS par défaut|Punaise|
 |CELLSJAVA-43157|La couleur des séries de données personnalisées n'est pas conservée lors de la création d'un graphique en cascade|Punaise|
 |CELLSJAVA-43175|Un problème avec le nom de la série de graphiques lors du référencement du classeur à d'autres classeurs|Punaise|
-|CELLSJAVA-43201|Exception "java.util.EmptyStackException" lors de l'enregistrement au format HTML|Exception|
+|CELLSJAVA-43201|Exception "java.util.EmptyStackException" lors de l'enregistrement dans HTML|Exception|
 |CELLSJAVA-43204|NegativeArraySizeException se produit lors de l'utilisation de Cell.getDisplayStringValue()|Exception|
 |CELLSJAVA-43189|Exception levée lors du chargement du fichier XLS|Exception|
 |CELLSJAVA-43193|NullPointerException s'est produite lors du chargement de certains fichiers XLSX|Exception|

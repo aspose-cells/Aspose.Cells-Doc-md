@@ -12,7 +12,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [مسح Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **اختيار Cell**
@@ -97,7 +97,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
 1. انقر فوق الخلية التي تريد حذفها.
 1.  التبديل إلى**علامة التبويب تنسيق**.
 1.  انقر**حذف Cell** زر.
-1.  يختار**تحول Cells لأعلى** أو**إزاحة Cells لليسار** زر.
+1.  أختر**تحول Cells لأعلى** أو**إزاحة Cells لليسار** زر.
 
 سيقوم المحرر بحذف الخلية المحددة. سيتم نقل الخلايا المجاورة تلقائيًا إما أفقيًا أو رأسيًا لضبط المساحة.
 
@@ -147,7 +147,7 @@ url: /ar/java/spreadsheet-editor-working-with-cells/
 1. انقر فوق الخلية التي تريد مسحها.
 1.  التبديل إلى**علامة التبويب تنسيق**.
 1.  انقر**مسح Cell** زر.
-1.  يختار**التنسيقات**, **محتويات** أو**كلاهما** اختيار.
+1.  أختر**التنسيقات**, **محتويات** أو**كلاهما** اختيار.
 
 سيقوم المحرر بمسح الخلية المحددة.
 

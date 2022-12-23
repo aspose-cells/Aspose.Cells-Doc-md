@@ -12,11 +12,11 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.9.
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-42990|Las filas ocultas se muestran al convertir un archivo de Excel a HTML cuando existe Autofiltro|Insecto|
+|CELLSJAVA-42990|Las filas ocultas se muestran al convertir el archivo de Excel a HTML cuando existe el Autofiltro|Insecto|
 |CELLSJAVA-42997|CalculateFormula() falla con cadenas de fórmulas grandes|Insecto|
 |CELLSJAVA-43000|CalculateFormula() corrompe el archivo de Excel|Insecto|
-|CELLSJAVA-42987|Problemas de formato al convertir archivos de Excel a PDF|Insecto|
-|CELLSJAVA-42986|Superposición de texto después de convertir un archivo XLSX chino a PDF|Insecto|
+|CELLSJAVA-42987|Problemas de formato al convertir un archivo de Excel a PDF|Insecto|
+|CELLSJAVA-42986|Superposición de texto después de convertir el archivo chino XLSX a PDF|Insecto|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen (falso) no funciona para las versiones más nuevas de Excel|Insecto|
 |CELLSJAVA-42996|Las etiquetas de datos basadas en fórmulas no se representan correctamente en PDF|Insecto|
 |CELLSJAVA-42992|Excepción generada al convertir XLSM a imagen|Excepción|

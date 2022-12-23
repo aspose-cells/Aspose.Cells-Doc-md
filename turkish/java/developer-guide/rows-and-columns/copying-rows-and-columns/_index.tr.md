@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /tr/java/copying-rows-and-columns/
 ---
-## **giriiş**
+## **Giriş**
 Bazen, tüm çalışma sayfasını kopyalamadan çalışma sayfasındaki satırları ve sütunları kopyalamanız gerekir. Aspose.Cells ile çalışma kitaplarının içinde veya arasında satır ve sütun kopyalamak mümkündür.
 
 Bir satır (veya sütun) kopyalandığında, güncellenmiş referanslara sahip formüller ve değerler, yorumlar, biçimlendirme, gizli hücreler, resimler ve diğer çizim nesneleri de dahil olmak üzere içerdiği veriler de kopyalanır.
@@ -42,7 +42,7 @@ Aşağıdaki kod çalıştırıldığında aşağıdaki çıktı üretilir.
 
 **Satır, en yüksek düzeyde kesinlik ve doğrulukla kopyalanır** 
 
-![yapılacaklar:resim_alternatif_Metin](copying-rows-and-columns_1.png)
+![yapılacaklar:resim_alternatif_metin](copying-rows-and-columns_1.png)
 
 {{% alert color="primary" %}} 
 
@@ -59,13 +59,13 @@ Microsoft Excel'de olduğu gibi, satırları kopyalarken ilgili resimleri, çize
 
 Aşağıda, 3 satır veri içeren giriş e-tablosunun bir anlık görüntüsü bulunurken, aşağıda verilen kod parçacığı, 3 satırın tümünü 7. sıradan başlayarak yeni bir konuma kopyalar.
 
-![yapılacaklar:resim_alternatif_Metin](copy-rows-and-columns_3.png)
+![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_3.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyingMultipleRows-CopyingMultipleRows.java" >}}
 
 İşte yukarıdaki kod parçacığını yürüttükten sonra ortaya çıkan elektronik tablo görünümü.
 
-![yapılacaklar:resim_alternatif_Metin](copy-rows-and-columns_4.png)
+![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_4.png)
 
 ## **Tek Sütunu Kopyalama**
 
@@ -83,7 +83,7 @@ Bu örnek, bir çalışma sayfasındaki bir sütunu kopyalar ve başka bir çal�
 
 **Bir sütun bir çalışma kitabından diğerine kopyalanır** 
 
-![yapılacaklar:resim_alternatif_Metin](copying-rows-and-columns_2.png)
+![yapılacaklar:resim_alternatif_metin](copying-rows-and-columns_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-rows_cloumns-CopyingColumns-CopyingColumns.java" >}}
 
@@ -95,9 +95,9 @@ Bu örnek, bir çalışma sayfasındaki bir sütunu kopyalar ve başka bir çal�
 
 Kaynak ve sonuçtaki e-tabloların Excel'de nasıl göründüğü aşağıda açıklanmıştır.
 
-![yapılacaklar:resim_alternatif_Metin](copy-rows-and-columns_7.png)
+![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_7.png)
 
-![yapılacaklar:resim_alternatif_Metin](copy-rows-and-columns_8.png)
+![yapılacaklar:resim_alternatif_metin](copy-rows-and-columns_8.png)
 
 
 ## **Yapıştırma Seçenekleriyle Satırları/Sütunları Yapıştırma**

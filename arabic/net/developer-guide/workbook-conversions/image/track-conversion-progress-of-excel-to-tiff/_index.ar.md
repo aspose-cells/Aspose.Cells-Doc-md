@@ -1,5 +1,5 @@
 ﻿---
-title: تتبع تقدم التحويل من Excel إلى TIFF
+title: تتبع تقدم تحويل Excel إلى TIFF
 type: docs
 weight: 190
 url: /ar/net/track-conversion-progress-of-excel-to-tiff/
@@ -8,7 +8,7 @@ url: /ar/net/track-conversion-progress-of-excel-to-tiff/
 
  في بعض الأحيان ، قد يستغرق تحويل ملفات Excel الكبيرة بعض الوقت. خلال هذا الوقت ، قد ترغب في إظهار تقدم تحويل المستند بدلاً من مجرد شاشة تحميل لتحسين إمكانية استخدام التطبيق الخاص بك. Aspose.Cells يدعم تتبع عملية تحويل الوثيقة من خلال توفير**[IPageSavingCallback] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)** واجهه المستخدم. ال**[IPageSavingCallback] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**يوفر واجهة**[PageStartSaving] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pagestartsaving)**و**[PageEndSaving] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback/methods/pageendsaving)**الطرق التي يمكنك تنفيذها في فئتك المخصصة. يمكنك أيضًا التحكم في الصفحات التي يتم عرضها كما هو موضح في حرف T.*estPageSavingCallback*فئة مخصصة.
 
-## **تتبع تقدم التحويل من Excel إلى TIFF**
+## **تتبع تقدم تحويل Excel إلى TIFF**
 
  نموذج التعليمات البرمجية التالي بتحميل[ملف اكسل المصدر](95584311.xlsx) ويطبع تقدم التحويل في وحدة التحكم باستخدام ملف*TestPageSavingCallback* فئة مخصصة تنفذ**[IPageSavingCallback] (https://reference.aspose.com/cells/net/aspose.cells.rendering/ipagesavingcallback)**واجهه المستخدم. يتم إرفاق ملف الإخراج الذي تم إنشاؤه للرجوع إليه.
 

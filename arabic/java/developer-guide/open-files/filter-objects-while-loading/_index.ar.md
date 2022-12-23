@@ -5,7 +5,7 @@ weight: 1060
 url: /ar/java/filter-objects-while-loading-workbook-or-worksheet/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
- يرجى استخدام[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) الخاصية أثناء تصفية البيانات من المصنف. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية ، فسيتعين عليك تجاوز[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) طريقة. يرجى تقديم القيمة المناسبة من[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) التعداد أثناء الإنشاء أو العمل مع[LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
+ الرجاء استخدام[LoadOptions.LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadoptions#LoadFilter) الخاصية أثناء تصفية البيانات من المصنف. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية ، فسيتعين عليك تجاوز[LoadFilter.startSheet](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#startSheet\(com.aspose.cells.Worksheet\) ) طريقة. يرجى تقديم القيمة المناسبة من[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions) التعداد أثناء الإنشاء أو العمل مع[LoadFilter](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter).
 
  ال[LoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadDataFilterOptions)التعداد له القيم التالية.
 
@@ -30,7 +30,7 @@ url: /ar/java/filter-objects-while-loading-workbook-or-worksheet/
 - [SHEET_SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_SETTINGS)
 - [SHEET_DATA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHEET_DATA)
 - [BOOK_SETTINGS](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#BOOK_SETTINGS)
-- [الإعدادات](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
+- [إعدادات](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SETTINGS)
 - [XML_MAP](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#XML_MAP)
 - [بنية](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STRUCTURE)
 - [خصائص المستند](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#DOCUMENT_PROPERTIES)
@@ -38,7 +38,7 @@ url: /ar/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [نمط](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **تصفية الكائنات أثناء تحميل المصنف**
- يوضح نموذج التعليمات البرمجية التالي كيفية تصفية المخططات من المصنف. رجاء تاكد من[نموذج ملف اكسل](5472489.xlsx) المستخدمة في هذا الرمز و[إخراج PDF](5472488.pdf)ولدت به. كما ترى في ملف PDF الناتج ، تمت تصفية جميع المخططات من المصنف.
+ يوضح نموذج التعليمات البرمجية التالي كيفية تصفية المخططات من المصنف. رجاء تاكد من[نموذج ملف اكسل](5472489.xlsx) المستخدمة في هذا الرمز و[الإخراج PDF](5472488.pdf)ولدت به. كما ترى في الإخراج PDF ، تمت تصفية كافة المخططات من المصنف.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **تصفية الكائنات أثناء تحميل ورقة العمل**

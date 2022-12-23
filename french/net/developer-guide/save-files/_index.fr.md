@@ -13,32 +13,32 @@ Aspose.Cells permet de créer et de sauvegarder des fichiers. Cet article expliq
 
 ## **Différentes façons d'enregistrer des fichiers**
 
- Aspose.Cells fournit le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** qui représente un fichier Excel Microsoft et fournit les propriétés et les méthodes nécessaires pour travailler avec des fichiers Excel. La**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** la classe fournit la**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode utilisée pour enregistrer les fichiers Excel. La**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**La méthode a de nombreuses surcharges qui sont utilisées pour enregistrer des fichiers de différentes manières.
+ Aspose.Cells fournit le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** qui représente un fichier Excel Microsoft et fournit les propriétés et les méthodes nécessaires pour travailler avec des fichiers Excel. Le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** la classe fournit la**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode utilisée pour enregistrer les fichiers Excel. Le**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**La méthode a de nombreuses surcharges qui sont utilisées pour enregistrer des fichiers de différentes manières.
 
  Le format de fichier dans lequel le fichier est enregistré est déterminé par le**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**énumération
 
-|**Types de formats de fichiers**|**La description**|
+|**Types de formats de fichiers**|**Description**|
 |:- |:- |
 |CSV|Représente un fichier CSV|
 |Excel97To2003|Représente un fichier Excel 97 - 2003|
 |Xlsx|Représente un fichier Excel 2007 XLSX|
 |Xlsm|Représente un fichier Excel 2007 XLSM|
-|XLTX|Représente un fichier XLTX de modèle Excel 2007|
+|XLTX|Représente un fichier de modèle Excel 2007 XLTX|
 |Xltm|Représente un fichier Excel 2007 prenant en charge les macros XLTM|
-|Xlsb|Représente un fichier XLSB binaire Excel 2007|
-|TableurML|Représente un fichier XML de feuille de calcul|
-|VST|Représente un fichier de valeurs séparées par des tabulations|
-|Onglet délimité|Représente un fichier texte délimité par des tabulations|
-|SAO|Représente un fichier ODS|
-|HTML|Représente le(s) fichier(s) HTML|
+|Xlsb|Représente un fichier Excel 2007 binaire XLSB|
+|SpreadsheetML|Représente un fichier XML de feuille de calcul|
+|TSV|Représente un fichier de valeurs séparées par des tabulations|
+|TabDelimited|Représente un fichier texte délimité par des tabulations|
+|ODS|Représente un fichier ODS|
+|HTML|Représente HTML fichier(s)|
 |MHtml|Représente un ou plusieurs fichiers MHTML|
 |PDF|Représente un fichier PDF|
 |XPS|Représente un document XPS|
-|TIFF|Représente le format de fichier d'image balisé (TIFF)|
+|TIFF|Représente le format de fichier image balisé (TIFF)|
 
 ## **Enregistrement du fichier sous différents formats**
 
- Pour enregistrer des fichiers dans un emplacement de stockage, spécifiez le nom du fichier (complet avec le chemin de stockage) et le format de fichier souhaité (à partir du**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)**énumération) lors de l'appel du**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
+Pour enregistrer des fichiers dans un emplacement de stockage, spécifiez le nom du fichier (complet avec le chemin de stockage) et le format de fichier souhaité (à partir du**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** énumération) lors de l'appel du**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoSomeLocation-1.cs" >}}
 
@@ -52,11 +52,11 @@ Les codes suivants montrent comment enregistrer le classeur en tant que fichier 
 
 Parfois, vous souhaitez convertir ou enregistrer un classeur avec plusieurs feuilles de calcul au format texte. Pour les formats de texte (par exemple TXT, TabDelim, CSV, etc.), par défaut, Microsoft Excel et Aspose.Cells enregistrent uniquement le contenu de la feuille de calcul active.
 
-L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Excel ou OpenOffice Microsoft (c'est-à-dire XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul.
+L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Excel ou OpenOffice Microsoft (donc XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul.
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT.
 
- Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**est une virgule, donc ne spécifiez pas de séparateur si vous enregistrez au format CSV.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au CSV. Par défaut,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**est une virgule, donc ne spécifiez pas de séparateur si vous enregistrez au format CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 
@@ -68,12 +68,12 @@ Les fichiers texte contiennent des données de feuille de calcul sans formatage.
 
 ## **Enregistrement d'un fichier dans un flux**
 
- Pour enregistrer des fichiers dans un flux, créez un*MemoryStream* ou*FileStream* objet et enregistrez le fichier dans cet objet de flux en appelant le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode. Spécifiez le format de fichier souhaité à l'aide de la**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** énumération lors de l'appel du**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
+ Pour enregistrer des fichiers dans un flux, créez un*MemoryStream* ou alors*FileStream* objet et enregistrez le fichier dans cet objet de flux en appelant le**[Cahier](https://reference.aspose.com/cells/net/aspose.cells/workbook)** objets**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)** méthode. Spécifiez le format de fichier souhaité à l'aide de la**[Enregistrer le format] (https://reference.aspose.com/cells/net/aspose.cells/saveformat)** énumération lors de l'appel du**[Enregistrer] (https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/save/index)**méthode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SavingFiletoStream-1.cs" >}}
 
 ## **Enregistrement de fichiers en tant que fichiers Html et Mht**
-Aspose.Cells peut simplement enregistrer un fichier Excel, JSON, CSV ou d'autres fichiers qui pourraient être chargés par Aspose.Cells en tant que fichiers .html et .mht.
+Aspose.Cells peut simplement enregistrer un fichier Excel JSON, CSV ou d'autres fichiers qui pourraient être chargés par Aspose.Cells en tant que fichiers .html et .mht.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-MHTML.cs" >}}
  
 
@@ -82,9 +82,9 @@ Nous pouvons enregistrer les fichiers au format open office : ODS, SXC, FODS, OT
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
-## **Enregistrement du fichier Excel au format JSON ou XML**
+## **Enregistrement du fichier Excel sous JSON ou XML**
 
-JSON (JavaScript Object Notation) est un format de fichier standard ouvert pour le partage de données qui utilise du texte lisible par l'homme pour stocker et transmettre des données. Les fichiers JSON sont stockés avec l'extension .json. JSON nécessite moins de formatage et constitue une bonne alternative au XML. JSON est dérivé de JavaScript mais est un format de données indépendant du langage. La génération et l'analyse de JSON sont prises en charge par de nombreux langages de programmation modernes. application/json est le type de média utilisé pour JSON.
+JSON (JavaScript Object Notation) est un format de fichier standard ouvert pour le partage de données qui utilise du texte lisible par l'homme pour stocker et transmettre des données. Les fichiers JSON sont stockés avec l'extension .json. JSON nécessite moins de formatage et constitue une bonne alternative au XML. JSON est dérivé de JavaScript mais est un format de données indépendant de la langue. La génération et l'analyse de JSON sont prises en charge par de nombreux langages de programmation modernes. application/json est le type de média utilisé pour JSON.
 
 Aspose.Cells prend en charge l'enregistrement de fichiers au format JSON ou XML.
 

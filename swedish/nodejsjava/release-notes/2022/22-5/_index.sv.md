@@ -21,11 +21,11 @@ url: /sv/nodejs-java/aspose-cells-for-node-js-via-java-22-5-release-notes/
 |CELLSJAVA-44501| sök nästa nummer efter filen duohangduolie.zip|
 |CELLSJAVA-44529|implementera sökning efter freezepan|
 |CELLSJAVA-44530|undersöka frågan om setactivecell fungerar inte ibland|
-|CELLSJAVA-44534|Grafik i utskriftsområdet exporteras inte i Excel till HTML-konvertering|
+|CELLSJAVA-44534|Grafik i utskriftsområdet exporteras inte i Excel till HTML konvertering|
 |CELLSJAVA-44539|Diagrammet flyttas åt höger vid konvertering till html med utskriftsområde|
-|CELLSJAVA-44568|Flerradstexter går förlorade förutom den första raden i HTML till XLS-konvertering|
+|CELLSJAVA-44568|Textning med flera rader försvinner förutom den första raden i konverteringen HTML till XLS|
 |CELLSJAVA-44512|Diagram saknas vid export av diagram till svg i html|
-|CELLSJAVA-44556|Problem med datavisning i datatabellen efter att koordinataxeln är inställd på logaritmisk skala - Excel till HTML/PDF-konvertering|
+|CELLSJAVA-44556|Problem med datavisning i datatabellen efter att koordinataxeln är inställd på logaritmisk skala - Excel till HTML/PDF konvertering|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

@@ -6,7 +6,7 @@ url: /ar/net/specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان تريد عرض نص بخط لغة الشرق الأقصى ، مثل اليابانية ، والصينية ، والتايلاندية ، إلخ. يوفر لك Aspose.Cells[**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname)الخاصية التي يمكن استخدامها لتحديد اسم الخط للغة الشرق الأقصى. إلى جانب ذلك ، يمكنك أيضًا تحديد اسم الخط اللاتيني باستخدام[**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname)منشأه.
+في بعض الأحيان تريد عرض نص بخط لغة الشرق الأقصى ، مثل اليابانية ، والصينية ، والتايلاندية ، إلخ. يوفر لك Aspose.Cells[**TextOptions.FarEastName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/fareastname)الخاصية التي يمكن استخدامها لتحديد اسم الخط للغة الشرق الأقصى. إلى جانب ذلك ، يمكنك أيضًا تحديد اسم الخط اللاتيني باستخدام[**TextOptions.LatinName**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/latinname)خاصية.
 
 ## **حدد الشرق الأقصى والاسم اللاتيني للخط في خيارات النص للشكل**
 

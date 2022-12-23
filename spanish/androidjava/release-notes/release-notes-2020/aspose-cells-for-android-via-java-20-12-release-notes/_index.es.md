@@ -15,11 +15,11 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43322|Se requiere la propiedad Shape.getWorksheet()|Nueva caracteristica|
 |CELLSJAVA-43367|Admite el cálculo de la función ISFORMULA|
 |CELLSJAVA-43191|Proporcionar medios para manejar escenarios al especificar tipos de fuente incorrectos|Mejora|
-|CELLSJAVA-40913|La dirección de la flecha ha cambiado en el PDF resultante|Insecto|
+|CELLSJAVA-40913|La dirección de la flecha ha cambiado en la resultante PDF|Insecto|
 |CELLSJAVA-43282|Refresh pivot no funciona y corrompe el archivo de salida|Insecto|
 |CELLSJAVA-43286|Aspose.Cells entra en conflicto con la configuración de HtmlHiddenRowDisplayType.REMOVE|Insecto|
 |CELLSJAVA-43302|Problema al obtener el valor Cells|Insecto|
-|CELLSJAVA-43308|Conversión de HTML a excel con la propiedad wrapText|Insecto|
+|CELLSJAVA-43308|HTML para conversión de excel con propiedad wrapText|Insecto|
 |CELLSJAVA-43318|Cell problema de valor después de actualizar la tabla dinámica|Insecto|
 |CELLSJAVA-43299|Problema al obtener el valor Cell|Insecto|
 |CELLSJAVA-43284|Gráfico no impreso al usar Aspose.Cells para una impresora física en particular|Insecto|
@@ -27,41 +27,41 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43274|Diferencia en el color del contorno de la barra del gráfico|Insecto|
 |CELLSJAVA-43276|Problemas de salto de línea al convertir XLSX a PDF|Insecto|
 |CELLSJAVA-43278|El tachado en Excel no se muestra en el archivo PDF|Insecto|
-|CELLSJAVA-43304|Faltan algunas etiquetas de datos del gráfico en el PDF de salida|Insecto|
+|CELLSJAVA-43304|Faltan algunas etiquetas de datos del gráfico en la salida PDF|Insecto|
 |CELLSJAVA-43311|Las etiquetas del eje X del gráfico son verticales en lugar de diagonales cuando se convierten en imagen|Insecto|
 |CELLSJAVA-40992|Problema con la posición del texto del gráfico al volver a guardar un archivo de Excel|Insecto|
 |CELLSJAVA-43294|El tema de color de formato condicional no funciona correctamente|Insecto|
 |CELLSJAVA-43307|Problema de cambio de tamaño con objeto OLE incrustado al copiar la hoja de trabajo|Insecto|
 |CELLSJAVA-43319|Problema de obtener el valor de la celda con la fórmula|Insecto|
 |CELLSJAVA-43330|Problema después de volver a guardar el archivo XLSB: archivo dañado|Insecto|
-|CELLSJAVA-43333|Posicionamiento incorrecto de las imágenes y el texto al representar Excel como HTML|Insecto|
+|CELLSJAVA-43333|Posicionamiento incorrecto de imágenes y texto al renderizar Excel como HTML|Insecto|
 |CELLSJAVA-43321|Problema de Autofiltro: se muestran filas en blanco|Insecto|
 |CELLSJAVA-43335|Se produjo un interbloqueo al calcular fórmulas en el libro de trabajo|Insecto|
 |CELLSJAVA-43313|La etiqueta del gráfico cambia de posición cuando se imprime|Insecto|
 |CELLSJAVA-43314|Línea 0/100 % no impresa para gráficos circulares 100 %|Insecto|
 |CELLSJAVA-43316| Varios problemas al imprimir gráficos|Insecto|
-|CELLSJAVA-40582|El texto de arte inteligente no se procesa correctamente en PDF/imagen|Insecto|
+|CELLSJAVA-40582|El texto de arte inteligente no se representa correctamente en PDF/imagen|Insecto|
 |CELLSJAVA-41639|Los anchos de columna no se conservan al convertir del formato "XML Spreadsheet 2003" al formato XLSX|Insecto|
-|CELLSJAVA-43315|La conversión de XLS a XLSX hace que el archivo se corrompa y da el error "Forma a imagen" al convertir la salida XLSX a PDF|Insecto|
+|CELLSJAVA-43315|La conversión de XLS a XLSX corrompe el archivo y da el error "Forma a imagen" al convertir la salida XLSX a PDF|Insecto|
 |CELLSJAVA-43334|Problema de autofiltro en la tabla|Insecto|
 |CELLSJAVA-43338|Diferencia en la salida al convertir un archivo de Excel a PDF|
 |CELLSJAVA-43346|El archivo de salida está dañado al agregar más de 12 campos en los filtros de la página de la tabla dinámica|
 |CELLSJAVA-43351|El color de fondo de la tabla de encabezado no es correcto al convertir a pdf|
-|CELLSJAVA-43358|Falta texto durante la conversión de HTML a Excel|
+|CELLSJAVA-43358|Falta texto durante la conversión HTML a Excel|
 |CELLSJAVA-43341|Columnas extra vacías al exportar CSV con LightCellsDataProvider|
 |CELLSJAVA-43352|El archivo de Excel convertido a PDF produce un problema de grandes números|
 |CELLSJAVA-43339|La imagen está fuera de lugar al convertir el archivo fuente a pdf|
-|CELLSJAVA-43340|Faltan contenidos en la conversión de XLS a PDF|
+|CELLSJAVA-43340|Faltan contenidos en la conversión XLS a PDF|
 |CELLSJAVA-43336| Las entradas de la leyenda del gráfico se muestran demasiado a la izquierda|
 |CELLSJAVA-43356|Los valores vacíos/los espacios en un gráfico no se respetan entre 2 valores|
 |CELLSJAVA-43344|El nombre de usuario actual se muestra como autor del último comentario|
-|CELLSJAVA-43349|Las filas ocultas no se mantienen desde la conversión de XML a XLS/XLSX|
+|CELLSJAVA-43349|Las filas ocultas no se mantienen de la conversión XML a XLS/XLSX|
 |CELLSJAVA-43361|Color de celda incorrecto en la conversión de xls a xlsx|
 |CELLSJAVA-43366|La propiedad SetAsTotal no se actualiza|
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException al actualizar la tabla dinámica|Excepción|
 |CELLSJAVA-43298|Aspose.Cells 20.8: Excepción al guardar en PDF.|Excepción|
-|CELLSJAVA-43348|Conversión de XLSB a PDF: CellsException: -2147483648|
-|CELLSJAVA-43343|Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
+|CELLSJAVA-43348|XLSB a PDF conversión: CellsException: -2147483648|
+|CELLSJAVA-43343| Excepción al exportar un archivo a PDF que no tiene un elemento seleccionado para una forma|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 
@@ -171,7 +171,7 @@ por favor, mantenga el valor predeterminado.
 ### **Agrega la propiedad LoadOptions.AutoFilter**
 
 Indica si se filtran automáticamente los datos al cargar los archivos.
-A veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
+veces, aunque se establece el filtro automático, las filas correspondientes no se ocultan en el archivo. Ahora solo funciona para el archivo SpreadSheetML.
 
 ### **Agrega la propiedad WorkbookSettings.Author**
 

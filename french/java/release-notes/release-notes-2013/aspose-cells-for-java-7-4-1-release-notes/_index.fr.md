@@ -16,9 +16,9 @@ url: /fr/java/aspose-cells-for-java-7-4-1-release-notes/
 
  Améliorations
 
-40407 - Prise en charge du texte pivoté dans les cellules
+ 40407 - Prise en charge du texte pivoté dans les cellules
 
- Exceptions
+ Des exceptions
 
  40436 - CellsException : type de validation non valide
 

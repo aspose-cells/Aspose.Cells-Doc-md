@@ -12,12 +12,12 @@ Diese Seite fasst die Funktionen von Aspose.Cells for Python via .NET zusammen.
 
 {{% /alert %}} 
 ## **Dateiformate und Konvertierungen**
-- XLS, SpreadsheetML (XLSX, XML), XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tabulatorgetrennt, Plain Text (TXT) und gängige Bildformate einschließlich TIFF , JPG, PNG, BMP und SVG.
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF , JPG, PNG, BMP und SVG.
 ## **Rendern und Drucken**
 - Tabellenkalkulation in Vektorgrafiken rendern (EMF)
-- Rendern Sie Arbeitsblätter in Rasterbilder (Multipage TIFF, GIF)
-- Rendern Sie Arbeitsblätter in Rasterbilder (PNG, JPEG usw.)
-- Rendern Sie Tabellenkalkulationen mit hoher Wiedergabetreue in PDF
+- Arbeitsblätter in Rasterbilder rendern (Multipage TIFF, GIF)
+- Arbeitsblätter in Rasterbilder rendern (PNG, JPEG usw.)
+- Rendern Sie die Tabelle mit hoher Wiedergabetreue auf PDF
 ## **Inhaltsfunktionen für Tabellenkalkulationen**
 - Kopieren oder verschieben Sie Arbeitsblätter innerhalb oder zwischen Arbeitsmappen
 - Fügen Sie Bilder ein, erstellen Sie herkömmliche und benutzerdefinierte Diagramme und legen Sie mit API einen Verlaufshintergrund für Diagramme fest

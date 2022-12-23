@@ -35,7 +35,7 @@ url: /ar/java/apply-conditional-formatting-in-worksheets/
  لتعيين مسار الفصل باستخدام Eclipse ، يرجى اتباع الخطوات التالية:
 1. قم باستخراج Aspose.Cells.jar و dom4j_1.6.1.jar من Aspose.Cells.zip.
  1. قم بتعيين مسار الفصل للمشروع في Eclipse:
- 1. حدد مشروعك في Eclipse ثم حدد**الخصائص** من**مشروع** قائمة.
+ 1. حدد مشروعك في Eclipse ثم حدد**ملكيات** من**مشروع** قائمة.
  1. حدد "Java Build Path" على يسار مربع الحوار.
  1. على**مكتبات** علامة التبويب ، حدد**أضف الجرار** أو**إضافة JARs خارجية** لاختيار Aspose.Cells.jar و dom4j_1.6.1.jar وإضافتهم إلى مسارات البناء.
  1. اكتب تطبيقًا لاستدعاء واجهات برمجة التطبيقات لمكونات Aspose.
@@ -52,7 +52,7 @@ url: /ar/java/apply-conditional-formatting-in-worksheets/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingOnCellValue-ApplyConditionalFormattingOnCellValue.java" >}}
 
-عند تنفيذ الكود أعلاه ، يتم تطبيق التنسيق الشرطي على الخلية "A1" في ورقة العمل الأولى من ملف الإخراج (output.xls). يعتمد التنسيق الشرطي المطبق على A1 على قيمة الخلية. إذا كانت قيمة الخلية A1 بين 50 و 100 ، يكون لون الخلفية أحمر بسبب التنسيق الشرطي المطبق. يرجى الاطلاع على لقطات الشاشة التالية لملف XLS الذي تم إنشاؤه.
+عند تنفيذ الكود أعلاه ، يتم تطبيق التنسيق الشرطي على الخلية "A1" في ورقة العمل الأولى من ملف الإخراج (output.xls). يعتمد التنسيق الشرطي المطبق على A1 على قيمة الخلية. إذا كانت قيمة الخلية A1 بين 50 و 100 ، يكون لون الخلفية أحمر بسبب التنسيق الشرطي المطبق. يرجى الاطلاع على لقطات الشاشة التالية للملف XLS الذي تم إنشاؤه.
 
 **إخراج ملف Excel بقيمة A1 أقل من 50**
 
@@ -69,7 +69,7 @@ url: /ar/java/apply-conditional-formatting-in-worksheets/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ConditionalFormattingBasedOnFormula-ConditionalFormattingBasedOnFormula.java" >}}
 
-عند تنفيذ الكود أعلاه ، يتم تطبيق التنسيق الشرطي على الخلية "B3" في ورقة العمل الأولى لملف الإخراج (output.xls). يعتمد التنسيق الشرطي المطبق على الصيغة التي تحسب قيمة "B3" كمجموع B1 & B2. يرجى الاطلاع على لقطات الشاشة التالية لملف XLS الذي تم إنشاؤه.
+عند تنفيذ الكود أعلاه ، يتم تطبيق التنسيق الشرطي على الخلية "B3" في ورقة العمل الأولى لملف الإخراج (output.xls). يعتمد التنسيق الشرطي المطبق على الصيغة التي تحسب قيمة "B3" كمجموع B1 & B2. يرجى الاطلاع على لقطات الشاشة التالية للملف XLS الذي تم إنشاؤه.
 
 **إخراج ملف Excel بقيمة B3 أقل من 100**
 

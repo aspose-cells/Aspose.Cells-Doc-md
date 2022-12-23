@@ -45,10 +45,10 @@ column.SetFontColor(Color.Blue);
 {{< /highlight >}}
 ## **Schriftart und Farbe einer Zeile ändern**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Zugriff a**Die Zeile** dessen Schriftart und Farbe geändert werden soll
+-  Zugriff a**Reihe** dessen Schriftart und Farbe geändert werden soll
 -  Erstellen Sie eine angepasste**Schriftart**
--  Stellen Sie die ein**Schriftart** des**Die Zeile** zum Maßgeschneiderten
--  Endlich einstellen**Schriftfarbe** des**Die Zeile** zu jedem gewünschten**Farbe**
+-  Stellen Sie die ein**Schriftart** des**Reihe** zum Maßgeschneiderten
+-  Endlich einstellen**Schriftfarbe** des**Reihe** zu jedem gewünschten**Farbe**
 
 
 

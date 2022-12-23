@@ -9,7 +9,7 @@ Aspose.Cells für SharePoint unterstützt die Vorschau von Dokumenten direkt aus
 - XLS – Microsoft Excel 97 - 2003
 - XLSX – Office Open XML
 - XLSM, XLTX, XLTM – Office Open XML
-- XML – Microsoft Excel-TabellenkalkulationML
+- XML – Microsoft Excel SpreadsheetML
 
 **Auswählen eines Dokuments für die Vorschau** 
 

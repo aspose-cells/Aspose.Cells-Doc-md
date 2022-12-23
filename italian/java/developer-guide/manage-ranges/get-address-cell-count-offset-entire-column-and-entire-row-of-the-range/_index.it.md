@@ -6,7 +6,7 @@ url: /it/java/get-address-cell-count-offset-entire-column-and-entire-row-of-the-
 ---
 ## **Possibili scenari di utilizzo**
 
- Aspose.Cells fornisce il[**Gamma**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)oggetto che ha vari metodi di utilità che facilitano all'utente di lavorare facilmente con gli intervalli di Excel. Questo articolo illustra l'utilizzo dei seguenti metodi o proprietà di[**Gamma**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)oggetto.
+ Aspose.Cells fornisce il[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)oggetto che ha vari metodi di utilità che facilitano all'utente di lavorare facilmente con gli intervalli di Excel. Questo articolo illustra l'utilizzo dei seguenti metodi o proprietà di[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)oggetto.
 
 - **Indirizzo**
 
@@ -32,7 +32,7 @@ Ottiene un oggetto Range che rappresenta l'intera riga (o le righe) che contiene
 
 Il seguente codice di esempio illustra l'utilizzo dei metodi e delle proprietà come discusso in precedenza. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.java" >}}
 

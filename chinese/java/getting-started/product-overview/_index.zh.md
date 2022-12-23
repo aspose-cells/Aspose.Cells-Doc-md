@@ -6,7 +6,7 @@ url: /zh/java/product-overview/
 ---
 {{% alert color="primary" %}} 
 
-![待办事项：图像_替代_文本](product-overview_1.png)
+![待办事项：图片_替代_文本](product-overview_1.png)
 ## **欢迎使用 Aspose.Cells 文档**
 **Aspose.Cells**是最灵活的组件，它使 Java 应用程序能够创建和管理 Excel 电子表格，而无需**Microsoft Excel**安装在系统上。与其他供应商的同类产品不同，Aspose.Cells 不仅支持电子表格生成和其他基本的文件格式设置功能，还支持许多高级功能。这些高级功能使开发人员可以更方便地处理电子表格内容、单元格格式和文件保护。 Aspose.Cells 还允许从不同的数据源将数据导入电子表格，添加常见和复杂的数学、日期时间、财务、文本公式/函数，支持图表、图片、评论、绘图对象和控件等操作。
 
@@ -22,11 +22,11 @@ Aspose.Cells 可用于任何类型的应用程序，无论是 Java Web 应用程
 
 除了支持创建或读取本机 Excel 文件等常见功能外，Aspose.Cells 还提供许多高级功能，例如在流中保存和打开 Excel 文件、将输出发送到客户端浏览器、从**结果集**或一个**大批**，导入图像和图表，通过 API 创建图像和图表，从设计器电子表格导入公式并通过 API 配置页面设置。
 
-此外，还有一些开发人员只能在 Aspose.Cells 中找到的独特功能，例如支持 CSV 和 SpreadsheetML 格式，将现有工作表（包含完整内容、图像和图表等）的副本添加到文件中，通过 API 为图表设置渐变背景，通过 API 创建注释、自动筛选和分页符，设置复杂公式，支持条件格式，支持 Microsoft Excel XP 或更高版本中引入的保护选项，操作命名范围，定位 API，支持自定义图表 API和公式计算引擎等。
+此外，还有一些开发者只能在Aspose.Cells中找到的独特功能，例如支持CSV和SpreadsheetML格式，将现有工作表（包括完整内容、图像和图表等）的副本添加到文件中，通过 API 为图表设置渐变背景，通过 API 创建注释，自动筛选和分页符，设置复杂公式，支持条件格式，支持 Microsoft Excel XP 或更高版本中引入的保护选项，操作命名范围，定位 API，支持自定义图表 API和公式计算引擎等。
 ## **文件特征**
 - 从不同来源打开普通或加密的 Excel 文件（Excel 95、Excel97、Excel2007/2010/2013/2016/2019、Office365）
-- 从不同来源打开纯数字文件（由 Apple 的“Numbers”应用程序创建）
-- 以不同格式（XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、Tab Delimited/TSV、HTML 等）保存 Excel 文件 (Excel97- Excel2007/2010/2013/2016/2019)
+- 从不同来源打开 Plain Numbers 文件（由 Apple 的“Numbers”应用程序创建）
+- Save Excel files (Excel97- Excel2007/2010/2013/2016/2019) in different formats (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited/TSV, HTML etc.)
 - 将 Excel 文件转换为 PDF 文档
 - 将 Excel 电子表格转换为 XPS 文档
 - 转换为标记图像文件格式**(TIFF)**

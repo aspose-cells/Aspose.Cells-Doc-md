@@ -36,19 +36,19 @@ Herhangi bir kaynak çalışma kitabını kullanabilirsiniz. Bu resimler sadece 
 
 **Grafikler çalışma kitabının ilk çalışma sayfası - yığılmış** 
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_1.jpg)
 
 **Grafikler çalışma kitabının ikinci çalışma sayfası - satır** 
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_2.jpg)
 
 **Resim çalışma kitabının ilk çalışma sayfası - resim** 
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_3.jpg)
 
 **Birleştirilmiş çalışma kitabındaki üç çalışma sayfasının tümü - yığın, çizgi, resim** 
 
-![yapılacaklar:resim_alternatif_Metin](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
+![yapılacaklar:resim_alternatif_metin](combine-multiple-workbooks-into-a-single-workbook_4.jpg)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CombineMultipleWorkbooksSingleWorkbook-1.cs" >}}
 

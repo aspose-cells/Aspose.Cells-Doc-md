@@ -6,7 +6,7 @@ url: /tr/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[Kurulum Aspose.Cells for SharePoint](/cells/tr/sharepoint/installing-aspose-cells-for-sharepoint/)kurulum sürecinde size yol gösterir. Bu makalede, yükleme işleminin ne dağıtıldığı ve etkinleştirildiği açıklanmaktadır.
+[Kurulum Aspose.Cells for SharePoint](/cells/tr/sharepoint/installing-aspose-cells-for-sharepoint/) kurulum sürecinde size yol gösterir. Bu makalede, yükleme işleminin ne dağıtıldığı ve etkinleştirildiği açıklanmaktadır.
 
 {{% /alert %}} 
 ### **dağıtım**

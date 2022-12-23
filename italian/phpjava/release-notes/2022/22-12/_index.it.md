@@ -10,28 +10,28 @@ url: /it/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43645|L'attributo "formato 3D" del rettangolo non viene visualizzato correttamente|
-|CELLSJAVA-44936|Imposta le impostazioni DPI dell'immagine del grafico (PNG).|
+|CELLSJAVA-44936|Imposta immagine grafico (PNG) Impostazioni DPI|
 |CELLSJAVA-44937|Imposta le impostazioni DPI dell'immagine del grafico (JPG).|
 |CELLSJAVA-44998|Le virgolette doppie che causano lo stile in linea non sono riuscite in HTML|
 |CELLSJAVA-44970|Ottimizza l'effetto ombra|
 |CELLSJAVA-44967|Grafico getDataLabels().getText() che restituisce un valore diverso nella versione 22.6.0 e successive|
 |CELLSJAVA-44969|Converti Excel in HTML, le etichette dati visualizzano errori|
-|CELLSJAVA-44949|La trasparenza è cambiata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva di PowerPoint|
+|CELLSJAVA-44949|Trasparenza modificata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva PowerPoint|
 |CELLSJAVA-44985|Conversione da Excel a HTML: la legenda del grafico non viene visualizzata e l'area del tracciato viene troncata|
 |CELLSJAVA-44952|Problema con il metodo DataBar.toImage relativo alla larghezza|
-|CELLSJAVA-44986|Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
+|CELLSJAVA-44986| Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
 |CELLSJAVA-44987|Alcune immagini sono coperte da altre durante il caricamento dell'html|
 |CELLSJAVA-44988|Il testo non viene ruotato durante il caricamento di html|
 |CELLSJAVA-44989|Le impostazioni dei caratteri in div vengono perse durante il caricamento di html|
 |CELLSJAVA-44997|Dati e formattazioni persi nella conversione da HTML a Excel|
-|CELLSJAVA-44999| Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
+|CELLSJAVA-44999|Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge enum JsonExportHyperlinkType**
 

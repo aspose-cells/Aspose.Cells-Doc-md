@@ -25,8 +25,8 @@ Detta inkluderar följande rikliga funktioner i Aspose.Cells jämfört med Apach
   - [Visa och dölj rullningslister för arbetsböcker](/cells/sv/java/display-and-hide-scrollbars-of-workbooks/)
   - [Visa och dölj flikar i arbetsboken med Aspose.Cells](/cells/sv/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
   - [Kryptera arbetsbok med Aspose.Cells](/cells/sv/java/encrypt-workbook-using-aspose-cells/)
-  - [Läs CSV-fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
-  - [Spara varje kalkylblad till olika PDF-filer med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+  - [Läs CSV Fil med flera kodningar](/cells/sv/java/read-csv-file-with-multiple-encodings/)
+  - [Spara varje kalkylblad till olika PDF med Aspose.Cells](/cells/sv/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
   - [Ställ in kalkylbladsflikfärg i Aspose.Cells](/cells/sv/java/set-worksheet-tab-color-in-aspose-cells/)
 - [Arbeta med diagram i Aspose.Cells](/cells/sv/java/working-with-charts-in-aspose-cells/)
   - [Lägg till Word Art Watermark till diagrammet](/cells/sv/java/add-word-art-watermark-to-chart/)
@@ -36,6 +36,6 @@ Detta inkluderar följande rikliga funktioner i Aspose.Cells jämfört med Apach
 - [Diverse exempel på Aspose.Cells](/cells/sv/java/miscellaneous-examples-of-aspose-cells/)
   - [Ställ in utskriftsrubriker](/cells/sv/java/set-print-titles/)
   - [Skriva ut arbetsböcker med Aspose.Cells](/cells/sv/java/printing-workbooks-using-aspose-cells/)
-  - [Konvertera kalkylblad till PDF med Aspose.Cells](/cells/sv/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
+  - [Konvertera kalkylark till PDF med Aspose.Cells](/cells/sv/java/convert-spreadsheet-to-pdf-using-aspose-cells/)
 
 **Notera:** Många fler exempel är ännu inte tillgängliga snart.

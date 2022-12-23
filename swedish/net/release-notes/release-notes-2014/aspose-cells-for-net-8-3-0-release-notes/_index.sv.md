@@ -26,15 +26,15 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 ### **Buggar**
 
-(CELLSNET-41756) - Problem med bilder i XLS till HTML-konvertering
+(CELLSNET-41756) - Problem med bilder i XLS till HTML konvertering
 
-(CELLSNET-41755) - Problem med bilder i XLS till PDF-konvertering
+(CELLSNET-41755) - Problem med bilder i XLS till PDF konvertering
 
-(CELLSNET-43111) - Att lägga till cellvärden till XLSB tar bort förinställningar
+(CELLSNET-43111) - Lägga till cellvärden till XLSB ta bort förinställningar
 
-(CELLSNET-43110) - Felet "Excel hittade oläsbart innehåll" orsakat av pivotfält (dubbel) i XLSB-utgång
+(CELLSNET-43110) - Felet "Excel hittade oläsbart innehåll" orsakat av pivotfält (dubbel) i XLSB-utgången
 
-(CELLSNET-43109) - Felet "Excel hittade oläsbart innehåll" orsakat av pivotfält (dubbel) i XLSX-utgång
+(CELLSNET-43109) - Felet "Excel hittade oläsbart innehåll" orsakat av pivotfält (dubbel) i XLSX-utgången
 
 (CELLSNET-43095) - Grafen ändrar sin plats
 
@@ -44,15 +44,15 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-42871) - Problem med 2 hyperlänkar i 1 cell
 
-(CELLSNET-42797) - Textrutor tappar rättfärdiga justeringar som sparas till XPS
+(CELLSNET-42797) - Textrutor förloras för att justering ska sparas till XPS
 
-(CELLSNET-42796) - Textrutor tappar rättfärdiga justeringar som sparas till PDF
+(CELLSNET-42796) - Textrutor förloras för att justering ska sparas till PDF
 
 (CELLSNET-42199) - Excel Diagram exporteras inte korrekt
 
 (CELLSNET-40902) - Excel-textrutan har ändrats fel vid rendering till bild
 
-(CELLSNET-43138) - Röd text renderas i svart när SpreadsheetML konverteras till PDF-format
+(CELLSNET-43138) - Röd text renderas i svart när formatet SpreadsheetML till PDF konverteras
 
 (CELLSNET-43133) - Utgåva för utskrift av flera kopior
 
@@ -64,7 +64,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-42402) - Överensstämmelse PDF/A-1b misslyckades med Adobe X Pro Preflight
 
-(CELLSNET-41906) - PDF/A-validering misslyckas och andra teckensnittsrelaterade problem
+(CELLSNET-41906) - PDF/A Validering misslyckas och andra teckensnittsrelaterade problem
 
 (CELLSNET-41832) - PDF/A skapad med Aspose Cells misslyckade verifieringar
 
@@ -80,17 +80,17 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-42988) - Kartaxeletiketter ändras när källfilen öppnas och sparas på nytt
 
-(CELLSNET-42945) - Sjökortsförklaringsposition är inte vald för XLS-format
+(CELLSNET-42945) - Sjökortsförklaringsposition har inte valts för formatet XLS
 
 (CELLSNET-41690) - Den digitala signaturen tappar sin transparens
 
-(CELLSNET-43152) - Att öppna och spara XLSB-filen gör den korrupt
+(CELLSNET-43152) - Att öppna och spara filen XLSB gör den korrupt
 
 (CELLSNET-43143) - Att kombinera arbetsböcker med kalkylblad som heter R# producerar skadade arbetsböcker
 
 (CELLSNET-43139) - Aspose.Cells beräknar felaktigt TEXT-funktionen
 
-(CELLSNET-43131) - Inställning av transparent färg på bilden fungerar för XLSX-format
+(CELLSNET-43131) - Att ställa in transparent färg på bilden fungerar för formatet XLSX
 
 (CELLSNET-43128) - Teckenuppsättningsproblem med hebreiska teckensnitt
 
@@ -108,13 +108,13 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-43094) - Golvformeln är inte korrekt beräknad
 
-(CELLSNET-43091) - Diagrammets layout har ändrats vid konvertering av ODS till XLSX-format
+(CELLSNET-43091) - Diagrammets layout har ändrats vid konvertering av ODS till XLSX format
 
-(CELLSNET-43087) - ODS till XLSX-konvertering ger skadat kalkylblad
+(CELLSNET-43087) - ODS till XLSX konvertering producerar skadat kalkylark
 
 (CELLSNET-43080) - Spara Excel som HTML: Villkorlig formatering fungerar inte
 
-(CELLSNET-42969) - Villkorlig formatering bevaras inte vid konvertering av kalkylblad till PDF
+(CELLSNET-42969) - Villkorlig formatering bevaras inte vid konvertering av kalkylark till PDF
 
 (CELLSNET-42356) - Att kombinera arbetsböcker bevarar inte ritobjektegenskaper i kalkylbladen/kalkylbladen
 
@@ -124,7 +124,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-43119) - Form till bild-fel vid konvertering av Excel-fil till PDF
 
-(CELLSNET-43078) - Ett fel uppstod när CSV-filen laddades
+(CELLSNET-43078) - Fel uppstod när filen CSV laddades
 
 (CELLSNET-43155) - CellsException: "Ogiltigt radstilsindex, radindex:32" i Workbook ctor
 
@@ -132,11 +132,11 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 (CELLSNET-43147) - CellsException: "Ogiltigt cellnamn" vid metoden WorksheetCollection.GetNamedRanges
 
-(CELLSNET-43113) - NullReferenceException vid öppning av XLSX-arbetsbok
+(CELLSNET-43113) - NullReferenceException vid öppning av XLSX arbetsbok
 
 (CELLSNET-43107) - System.OverflowException: Värdet var antingen för stort eller för litet för en Int32, på Workbook ctor
 
-(CELLSNET-43085) - System.ArgumentOutOfRangeException när ODS-fil laddas
+(CELLSNET-43085) - System.ArgumentOutOfRangeException när ODS-filen laddas
 
 ## 2) Aspose.Cells Grid Suite
 

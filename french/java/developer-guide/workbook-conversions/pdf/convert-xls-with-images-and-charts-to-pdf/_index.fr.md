@@ -1,5 +1,5 @@
 ﻿---
-title: Convertir XLS avec des images et des graphiques en PDF
+title: Convertir XLS avec images et graphiques en PDF
 type: docs
 weight: 230
 url: /fr/java/convert-xls-with-images-and-charts-to-pdf/
@@ -8,7 +8,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells prend en charge la conversion de fichiers XLS contenant des images et des graphiques en documents PDF. Aspose.Cells for Java peuvent travailler indépendamment pour convertir une feuille de calcul en PDF : Aspose.PDF Les API ne sont pas nécessaires pour la conversion.
+Aspose.Cells prend en charge la conversion de fichiers XLS contenant des images et des graphiques en documents PDF. Aspose.Cells for Java peuvent travailler indépendamment pour convertir une feuille de calcul en PDF : Aspose.PDF Les API ne sont pas nécessaires pour la conversion.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Le processus peut être effectué en mémoire car le processus ne dépend pas de
 
 {{% alert color="primary" %}}
 
- Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) juste avant le rendu au format PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
+ Si la feuille de calcul contient des formules, il est préférable d'appeler le[**Workbook.calculateFormulaWorkbook.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()juste avant le rendu en PDF. Cela garantit que les valeurs dépendantes de la formule sont recalculées et que les valeurs correctes sont rendues dans le PDF.
 
 {{% /alert %}}
 
@@ -24,5 +24,5 @@ Le processus peut être effectué en mémoire car le processus ne dépend pas de
 
 ## Articles Liés
 
-- [Convertir un fichier Excel au format PDF compatible avec PDFA-1a](/cells/fr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Convertir le fichier Excel au format PDF compatible avec PDFA-1a](/cells/fr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Rendu graphique](/cells/fr/java/chart-rendering/)

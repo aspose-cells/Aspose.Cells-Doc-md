@@ -11,7 +11,7 @@ url: /zh/net/custom-row-and-custom-column-caption-of-griddesktop-worksheet/
 
 
 
-![待办事项：图像_替代_文本](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
+![待办事项：图片_替代_文本](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithRowsandColumns-Form_CustomRowAndCustomColumnCaptionOfGridDesktopWorksheet.cs" >}}

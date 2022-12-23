@@ -18,14 +18,14 @@ xlsx4j 是一个开源 (ASLv2) Java 库，用于创建和操作 Microsoft Open X
 
 阅读更多[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java 是屡获殊荣的 Excel 电子表格组件，允许 Java 开发人员嵌入读取、编写和操作 Excel® 电子表格（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）、HTML、MHTML、PDF 的功能和图像文件格式导入到自己的 Java 应用程序中，而无需依赖 Microsoft Excel®。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF和图像文件格式导入自己的 Java 应用程序，而无需依赖 Microsoft Excel®。
 
 Aspose.Cells for Java 是一个成熟、可扩展且功能丰富的组件，它提供的许多功能远远超出其他供应商的简单数据导出功能。使用 Aspose.Cells for Java 开发人员可以导出数据、将电子表格格式化为最精细的级别、导入图像、创建图表、应用和计算复杂公式、流式传输 Excel® 数据、以各种格式保存等等 - 所有这些都不需要 Microsoft Excel®或 Microsoft 办公自动化。
 
 阅读更多[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **为什么不是 xlsx4j**
-xlsx4j只能解析和保存 Microsoft 打开XML Excel xlsx文件，Aspose.Cells for Java 可以处理所有Excel文件格式（XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS）并支持各种文件格式转换。
+XLSX4J仅能解析和保存Microsoft打开XML Excel XLSX文件，Aspose.Cells for Java可以处理所有Excel文件格式（XLS，XLSX
 
 ## **Aspose.Cells Java 用于 xlsx4j**
 xlsx4j 的项目 Aspose.Cells 显示了与 xlsx4j 相比如何使用 Aspose.Cells Java API 执行不同的任务。该项目还涵盖了仅在 Aspose.Cells API 中可用但在 xlsx4j 中不可用的用于处理电子表格的功能。

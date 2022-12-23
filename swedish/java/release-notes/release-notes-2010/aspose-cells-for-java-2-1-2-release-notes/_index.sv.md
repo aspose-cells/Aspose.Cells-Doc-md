@@ -16,8 +16,8 @@ url: /sv/java/aspose-cells-for-java-2-1-2-release-notes/
 
 - Ger diagram-till-bild-funktion.
  Importerar RichText från SpreadSheetML mallfil.
-Stöder export av namnobjekt med externa referenser för SpreadSheetML-fil.
- Exporterar bilder i PageSetup för Excel 2007-filer.
+ Stöder export av namnobjekt med externa referenser för SpreadSheetML-fil.
+Exporterar bilder i PageSetup för Excel 2007-filer.
  Importerar TextBox-kontroller från Excel 2007-filer.
  Ger stöd för att ställa in postgräns vid import av data från ResultSet for Smart Markers.
  Ställer in positionen för en form till mitten av ett givet område.
@@ -30,10 +30,10 @@ Stöder export av namnobjekt med externa referenser för SpreadSheetML-fil.
  Förbättrar prestandan för att läsa stora Excel 2007-filer.
  Ökar prestanda för LightCells API för stora Excel 2007-filer.
  Läsoperationen för ett dokuments egenskaper förbättras.
-Att importera CSV-filer förbättras.
+ Operationen för att importera CSV-filer förbättras.
  67 korrigeringar och förbättringar.
 
- Problem lösta i Aspose.Cells for Java 2.1.2
+Problem lösta i Aspose.Cells for Java 2.1.2
 
 
 
@@ -48,7 +48,7 @@ Att importera CSV-filer förbättras.
 |11928 | xls| Läs mallfilen|
 |11943 | SpreadSheetML| Läs specialfil genererad av OWC|
 |11973 | SpreadSheetML| Läs specialfil genererad av OWC|
-|12006 | CSV| Läs csv-fil|
+|12006 |CSV | Läs csv-fil|
 |12032 | FormulaEngine| COUNTIF formel|
 |12034 | xls| Autopassa kolumner|
 |12056 | FormulaEngine| IF formel|
@@ -72,11 +72,11 @@ Att importera CSV-filer förbättras.
 |12493 | xlsx| Läs Villkorlig formatering|
 |12498 | Diagram| ChartPoints och LegendEntries-samling|
 |12575 | Diagram| PlotAreas storlek|
-|12576 | Diagram|ErrorBar|
+|12576 | Diagram| ErrorBar|
 |12622 | xlsx| Läs delad formel|
 |12625 | xlsx| Läs diagrammet|
 |12667 | xls| Datum och tid värde|
-|12684 | CSV| Läs nummer|
+|12684 |CSV |Läs nummer|
 |12717 | xls| Bild med Mac OS|
 |12727 | xls| Läs dokumentegenskaper|
 |12750 | xls| Få hyperlänk av form|

@@ -28,7 +28,7 @@ Nuevas características
 (CELLSJAVA-40749): obtención de índices de fila/columna inicial y de fila/columna final para una página de hoja de trabajo
 (CELLSJAVA-40744): compatibilidad con la función Mostrar fórmulas de MS Excel
 (CELLSJAVA-40423) - Aspose.Cells y Maven dependencias
-(CELLSJAVA-40770) - Establecer la hora de creación en el PDF generado
+(CELLSJAVA-40770): establezca la hora de creación en el PDF generado
 
 Mejoras
 
@@ -38,20 +38,20 @@ Mejoras
 
 Insectos
 
-(CELLSJAVA-40738): setExportActiveWorksheetOnly cambia la alineación de la tabla en HTML
+(CELLSJAVA-40738) - setExportActiveWorksheetOnly cambia la alineación de la tabla en HTML
 (CELLSJAVA-40747): la imagen de fondo no se copia en el libro de trabajo de destino al llamar a Workbook.copy
 (CELLSJAVA-40276): el texto dentro de una imagen parece reflejarse al guardar un libro de Excel como PDF
 (CELLSJAVA-40573) - Algunas palabras se separan al guardar en PDF
 (CELLSJAVA-40743): el filtro automático de tablas no funciona en formato xls pero funciona bien en formato xlsx
-(CELLSJAVA-40750): cuando se exporta a HTML, las celdas cubiertas por una imagen pierden el color de fondo.
+(CELLSJAVA-40750): cuando se exporta a HTML, las celdas cubiertas por la imagen pierden el color de fondo
 (CELLSJAVA-40748): la ruta de la imagen de fondo no es correcta
 (CELLSJAVA-40731): problema de texto vertical
-(CELLSJAVA-40737): problema de formato de formas/controles en la conversión de Excel a PDF
-(CELLSJAVA-40742): envoltura incorrecta de las etiquetas de Axis al convertir XLSX a PDF
-(CELLSJAVA-40757): las columnas de fecha y hora se leen incorrectamente de CSV con configuración regional europea
-(CELLSJAVA-40282): salida de imagen duplicada al transformar una hoja de cálculo de Excel en PDF
+(CELLSJAVA-40737) - Problema de formato de formas/controles en Excel a conversión PDF
+(CELLSJAVA-40742): envoltorio incorrecto de las etiquetas Axis al convertir XLSX a PDF
+(CELLSJAVA-40757): las columnas DateTime se leen incorrectamente desde CSV con configuración regional europea
+(CELLSJAVA-40282): salida de imagen reflejada al transformar una hoja de cálculo de Excel en PDF
 (CELLSJAVA-40585) - Aspose.Cells: el gráfico de trazado sigma incrustado no se representa correctamente en PDF/imágenes
-(CELLSJAVA-40742): envoltura incorrecta de las etiquetas de Axis al convertir XLSX a PDF
+(CELLSJAVA-40742): envoltorio incorrecto de las etiquetas Axis al convertir XLSX a PDF
 (CELLSJAVA-40758) - Los datos no son correctos en el pdf de salida
 (CELLSJAVA-40762) - Problema Cell.getDependents(true) - Cells de otras hojas que no deberían estar en la lista
 (CELLSJAVA-40756) - CellsException: nulo en Workbook.calculateFormula (falso)
@@ -84,10 +84,10 @@ Agrega la propiedad PdfSaveOptions.CreatedTime
 Obtiene y establece la hora de generación del documento pdf.
 
 Agrega la enumeración FileFormatType.Ooxml
-Representa un archivo xml abierto de Office encriptado (como XLSX, DOCX, PPTX, etc.).
+Representa un archivo xml abierto de oficina encriptado (como XLSX, DOCX, PPTX, etc.).
 
 Agrega la propiedad LoadOptions.MemorySetting y la propiedad WorkbookSettings.MemorySetting
-partir de esta versión, proporcionamos la opción de uso de memoria para el usuario para tener en cuenta el rendimiento. La opción predeterminada MemorySetting.NORMAL se aplica a todas las versiones. Para algunas situaciones, como la creación de un libro de trabajo con un gran conjunto de datos para las celdas, la opción MemorySetting.MEMORY_PREFERENCE puede optimizar el uso de la memoria y disminuir el costo de la memoria para la aplicación del usuario. Sin embargo, esta opción puede degradar el rendimiento en algunos casos especiales, como el acceso a celdas de forma aleatoria y repetida.
+A partir de esta versión, proporcionamos la opción de uso de memoria para el usuario para tener en cuenta el rendimiento. La opción predeterminada MemorySetting.NORMAL se aplica a todas las versiones. Para algunas situaciones, como la creación de un libro de trabajo con un gran conjunto de datos para las celdas, la opción MemorySetting.MEMORY_PREFERENCE puede optimizar el uso de la memoria y disminuir el costo de la memoria para la aplicación del usuario. Sin embargo, esta opción puede degradar el rendimiento en algunos casos especiales, como el acceso a celdas de forma aleatoria y repetida.
 
 Obsoleta la propiedad SeriesCollection.SecondCatergoryData y agrega la propiedad SeriesCollection.SecondCategoryData
 Utiliza SeriesCollection.SecondCategoryData para reemplazar SeriesCollection.SecondCatergoryData.

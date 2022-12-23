@@ -10,7 +10,7 @@ url: /ja/java/create-slicer-to-excel-table/
 
 ## **Excel テーブルへのスライサーの作成**
 
-以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
+以下のサンプルコードをご覧ください。それは[サンプル Excel ファイル](sampleCreateSlicerToExcelTable.xlsx)テーブルが含まれています。次に、最初の列に基づいてスライサーを作成します。最後に、ワークブックを[出力 XLSX](outputCreateSlicerToExcelTable.xlsx)フォーマット。
 
 ## **サンプルコード**
 

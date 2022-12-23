@@ -5,7 +5,7 @@ weight: 20
 url: /it/net/umbraco-database-data-exporter-to-excel/
 ---
 ## **introduzione**
-Aspose .NET Database Data Exporter to Excel per Umbraco Module consente agli utenti di esportare i dati direttamente da tabelle di database locali o remoti, viste e query personalizzate in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells. Questa versione iniziale del modulo è arricchita con le seguenti fantastiche funzionalità per rendere il processo di esportazione semplice e facile da usare
+Aspose .NET Database Data Exporter to Excel for Umbraco Module consente agli utenti di esportare i dati direttamente da tabelle di database locali o remote, viste e tramite query personalizzate in Microsoft Excel o OpenOffice Spreadsheet. Questo modulo dimostra la potente funzionalità di creazione di fogli di calcolo fornita da Aspose.Cells. Questa versione iniziale del modulo è arricchita con le seguenti fantastiche funzionalità per rendere il processo di esportazione semplice e facile da usare
 ### **Caratteristiche del modulo**
 Questa versione iniziale del componente aggiuntivo ha le seguenti caratteristiche:
 
@@ -18,9 +18,9 @@ Questa versione iniziale del componente aggiuntivo ha le seguenti caratteristich
 - Consenti di saltare la stringa più di 32k nelle celle Excel (LoadOptions)
 - Applicare la formattazione della colonna di intestazione come testo in grassetto
 - Consenti utilizzo come origine dati (tabella, viste, query personalizzata)
-- Esporta dati in documenti Microsoft Excel (.xls, .xlsx e .xlsb)
+- Esporta dati in documenti Excel Microsoft (.xls, .xlsx e .xlsb)
 - Esporta dati in un documento di testo delimitato da tabulazioni (*.txt)
-- Esporta dati in CSV (delimitato da virgola) (*.csv)
+- Esporta dati a CSV (delimitato da virgola) (*.csv)
 - Esporta dati in un foglio di calcolo OpenDocument (*.ods)
 - Opzione per selezionare il formato di output desiderato prima dell'esportazione.
 - Il documento esportato viene inviato automaticamente al browser per il download.
@@ -50,7 +50,7 @@ Puoi scaricare Aspose .NET Cells Database Data Exporter in Excel per il modulo U
 Una volta scaricato, segui questi passaggi per installare questo pacchetto nel tuo sito Web Umbraco:
 
 1.  Accedi all'Umbraco**Sviluppatore** sezione, ad esempio `http://www.myblog.com/umbraco`
-1.  Dall'albero, espandi il file**Pacchi** cartella.
+1.  Dall'albero, espandi il file**Pacchetti** cartella.
 1.  Da qui ci sono due modi per installare un pacchetto: select**Installa il pacchetto locale** oppure sfoglia il**Repository dei pacchetti Umbraco.**
 1. Se installi**pacchetto locale**, non decomprimere il pacco ma caricare lo zip in Umbraco.
 1. Segui le istruzioni sullo schermo.
@@ -65,13 +65,13 @@ Dopo aver installato Aspose .NET Database Data Exporter in Excel per il modulo U
 1.  Espandi il**Modelli** node e selezionare il modello a cui si desidera aggiungere, ad esempio Textpage.
 1. Selezionare la posizione nel modello selezionato in cui si desidera esportare il pulsante da aggiungere. Di solito potresti volerlo aggiungere in alto a destra nella pagina o in fondo alla pagina.
 1.  Clic**Inserisci macro** sul nastro superiore.
-1.  Da**Scegli una macro** (Aspose .NET Database Data Exporter to Excel for Umbraco), selezionare la macro Aspose .NET Database Data Exporter to Excel for Umbraco installata di recente e fare clic su**OK**.
+1.  A partire dal**Scegli una macro** (Aspose .NET Database Data Exporter to Excel for Umbraco), selezionare la macro Aspose .NET Database Data Exporter to Excel for Umbraco installata di recente e fare clic su**OK**.
 
  Si prega di controllare lo screenshot qui sotto per i dettagli.
 
 ![cose da fare:immagine_alt_testo](umbraco-database-data-exporter-to-excel_2)
 
-Hai aggiunto con successo il modulo Aspose .NET Database Data Exporter a Excel alla tua pagina.
+Hai aggiunto con successo il modulo Aspose .NET Database Data Exporter to Excel alla tua pagina.
 
 ![cose da fare:immagine_alt_testo](umbraco-database-data-exporter-to-excel_1)
 

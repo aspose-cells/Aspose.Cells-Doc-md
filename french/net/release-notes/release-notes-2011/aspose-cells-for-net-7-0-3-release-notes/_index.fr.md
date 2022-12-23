@@ -18,9 +18,9 @@ Aspose.Cells
 
  24953 Prise en charge de la mise en forme conditionnelle avancée de MS Excel dans le fichier PDF généré
 
- 30020 Prise en charge Cell Dégradé de couleur qui n'est pas défini correctement lors de la conversion en document PDF
+ 30020 Prise en charge du dégradé Cell Couleur mal définie lors de la conversion en document PDF
 
-40010 Décochez les étiquettes de catégorie à plusieurs niveaux lors du formatage de l'axe du graphique
+ 40010 Décochez les étiquettes de catégorie à plusieurs niveaux lors du formatage de l'axe du graphique
 
  Améliorations
 
@@ -36,7 +36,7 @@ Aspose.Cells
 
 
 
- Exceptions
+ Des exceptions
 
  31331 Une erreur s'est produite lors de l'ouverture du fichier XLS
 
@@ -46,13 +46,13 @@ Aspose.Cells
 
  40060 Type de pinceau non valide lors de la conversion du classeur Excel en XPS
 
- 40061 StackOverflow lors de l'appel de la méthode WorksheetCollection.GetNamedRanges()
+40061 StackOverflow lors de l'appel de la méthode WorksheetCollection.GetNamedRanges()
 
  Performance
 
- 31266 XLS en PDF ou XPS prend tellement de temps
+ 31266 XLS à PDF ou XPS prend tellement de temps
 
- 40053 Les performances d'Excel vers PDF diminuent à mesure que le nombre de feuilles de calcul augmente
+ 40053 Excel vers PDF Les performances diminuent à mesure que le nombre de feuilles de calcul augmente
 
  Insectes
 
@@ -60,7 +60,7 @@ Aspose.Cells
 
  30224 Les images des graphiques ne correspondent pas aux graphiques d'Excel
 
-30651 Cell.SetStyle(style style, bool explicitFlag) ne fonctionne pas comme prévu
+ 30651 Cell.SetStyle(style style, bool explicitFlag) ne fonctionne pas comme prévu
 
  31334 BuiltInDocumentProperties.HyperlinkBase ne peut pas être lu ou défini
 
@@ -80,7 +80,7 @@ Aspose.Cells
 
  40057 Les références des formules matricielles ne sont pas mises à jour lors de la suppression d'une ligne ou d'une colonne
 
- 40065 Problème de bigInt négatif
+40065 Problème de bigInt négatif
 
  40073 Aspose.Cells Problème de paramètres Smart Markers
 
@@ -96,7 +96,7 @@ Aspose.Cells
 
  Nouvelles fonctionnalités
 
-29869 Prise en charge de la mise en forme conditionnelle (seuls les styles Excel 2003 sont pris en charge (actuellement))
+ 29869 Prise en charge de la mise en forme conditionnelle (seuls les styles Excel 2003 sont pris en charge (actuellement))
 
  Insectes
 

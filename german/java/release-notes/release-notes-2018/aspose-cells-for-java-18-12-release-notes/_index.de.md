@@ -15,21 +15,21 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.12.
 |CELLSJAVA-42745|Ruft keine Verbindungspunkte ab, da der zurückgegebene Typ „zo[]“ ist.|Neue Funktion|
 |CELLSJAVA-42662|Bieten Sie die Möglichkeit, den Bereich als HTML zu exportieren|Neue Funktion|
 |CELLSJAVA-42746|Datenbalken fehlen, wenn XLSX in HTML konvertiert wird|Neue Funktion|
-|CELLSJAVA-42747|Der Wert ist noch vorhanden, wenn XLSX in das HTML-Dateiformat konvertiert wird|Neue Funktion|
+|CELLSJAVA-42747|Der Wert ist noch vorhanden, wenn XLSX in das Dateiformat HTML konvertiert wird|Neue Funktion|
 |CELLSJAVA-42748|LightCells API kann eine riesige Datei nicht laden|Erweiterung|
-|CELLSJAVA-42727|In der HTML-Ausgabe des MS-Excel-Bereichs fehlt die Textformatierung|Insekt|
+|CELLSJAVA-42727|In der HTML-Ausgabe des MS Excel-Bereichs fehlt die Textformatierung|Insekt|
 |CELLSJAVA-42744|Symbolsätze werden falsch ausgerichtet, wenn XLSX in HTML konvertiert wird|Insekt|
-|CELLSJAVA-42772|Das Exportieren benannter Bereichsdaten wird nicht korrekt in HTML gerendert (Java)|Insekt|
+|CELLSJAVA-42772|Das Exportieren benannter Bereichsdaten wird nicht korrekt in HTML (Java) gerendert|Insekt|
 |CELLSJAVA-42753|Ein Problem in Named Range gefunden|Insekt|
 |CELLSJAVA-42764|Die Validierung gibt für die Methode „getInCellDropDown()“ immer „true“ zurück|Insekt|
 |CELLSJAVA-42768|Für verschiedene Gebietsschemas (Deutschland, Frankreich, Italien und Spanien) wird ein falsches benutzerdefiniertes Kulturformat zurückgegeben|Insekt|
-|CELLSJAVA-42758|Excel-in-PDF-Konvertierung – Problem beim Rendern von Messuhrdiagrammen|Insekt|
-|CELLSJAVA-42761|Die PDF-Wiedergabe löst eine OutOfMemoryError-Ausnahme aus|Insekt|
+|CELLSJAVA-42758|Konvertierung von Excel in PDF – Problem beim Rendern von Messuhrdiagrammen|Insekt|
+|CELLSJAVA-42761|PDF Wiedergabe löst OutOfMemoryError-Ausnahme aus|Insekt|
 |CELLSJAVA-42759|CellsException beim Konvertieren von Dateien|Ausnahme|
 |CELLSJAVA-42755|Ausnahme "NullPointerException" beim Instanziieren der XLSX-Datei(en)|Ausnahme|
 |CELLSJAVA-42762|NumberFormatException beim Verarbeiten von Dateien|Ausnahme|
-|CELLSJAVA-42774|NullPointerException beim Laden einer CSV|Ausnahme|
-|CELLSJAVA-42765|Ausnahme "com.aspose.cells.CellsException" beim Rendern einer Excel-Datei in das PDF-Dateiformat|Ausnahme|
+|CELLSJAVA-42774|NullPointerException beim Laden eines CSV|Ausnahme|
+|CELLSJAVA-42765|Ausnahme „com.aspose.cells.CellsException“ beim Rendern einer Excel-Datei in das Dateiformat PDF|Ausnahme|
 |CELLSJAVA-42754|"IllegalStateException: Ungültige Codierung: null" beim Instanziieren eines XLS-Dateiformats|Ausnahme|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for Java vorgenommen wurden das Aspose.Cells Support-Forum.

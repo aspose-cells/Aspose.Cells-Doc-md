@@ -11,7 +11,7 @@ url: /zh/java/update-activex-combobox-control/
 ## **更新 ActiveX ComboBox 控件**
 下面的截图展示了示例代码对[示例 excel 文件](5473374.xlsx).如您所见，ActiveX ComboBox 值已更新为“This is combo box control”。
 
-![待办事项：图像_替代_文本](update-activex-combobox-control_1.png)
+![待办事项：图片_替代_文本](update-activex-combobox-control_1.png)
 ## **示例代码**
 以下示例代码更新了存在于[示例 excel 文件](5473374.xlsx).
 

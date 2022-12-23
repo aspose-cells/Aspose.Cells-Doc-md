@@ -27,4 +27,4 @@ Bir Aspose.Cells rapor şablonu, aşağıdaki rapor öğesi türlerinden herhang
 1. **Raporu yayınla**.
  Yukarıdaki adımlardan sonra, rapor yayınlanmaya hazırdır. Kullanıcılar, raporun hangi klasörde yayınlanacağını belirleyebilir. Gerekirse, raporun veri kaynağı olarak Rapor Sunucusunda paylaşılan bir veri kaynağı atayabilirsiniz.
 1. **Önizleme raporu**.
-Rapor Sunucusunda önizleme için bir rapor seçerken, hangi dosya formatına dışa aktarılacağını (örneğin Microsoft Excel 97-2003 ikili XLS formatı, SpreadsheetML veya Microsoft Excel 2007 XLSX formatı) ve oluşturulan herhangi bir girdi raporu parametresini belirtmeniz istenir. rapor tasarımı sırasında. Bundan sonra rapor, Reporting Services tarafından sağlanan verilerle doldurulur.
+Rapor Sunucusunda önizleme için bir rapor seçerken, hangi dosya formatına (örneğin Microsoft Excel 97-2003 ikili XLS formatı, SpreadsheetML veya Microsoft Excel 2007 XLSX formatı) ve oluşturulan herhangi bir girdi raporu parametresini belirtmeniz istenir. rapor tasarımı sırasında. Bundan sonra rapor, Reporting Services tarafından sağlanan verilerle doldurulur.

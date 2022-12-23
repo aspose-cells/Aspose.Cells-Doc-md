@@ -19,12 +19,12 @@ url: /ru/java/aspose-cells-for-java-7-1-1-release-notes/
 
  Улучшения
 
-- Сохранение в формате XLSX с помощью LightCells API путем прямого рендеринга в OutputStream
+- Сохранение в XLSX с помощью LightCells API путем прямого рендеринга в OutputStream
 
  Исключения
 
 - Cell. Метод setHtmlString() выдает исключение NullPointerException
-- Чтение файла шаблона XLSX вызывает исключение NullPointerException
+- Файл шаблона Readingan XLSX выдает NullPointerException
 
  Ошибки
 

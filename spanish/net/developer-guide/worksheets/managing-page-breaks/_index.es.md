@@ -19,13 +19,13 @@ En el resto de la discusión, describiremos cómo puede agregar saltos de págin
 
 ## **Saltos de página**
 
-Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+Aspose.Cells proporciona un[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) clase que representa un archivo de Excel. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
- Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. los[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos utilizados para administrar una hoja de trabajo.
+ Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. Él[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)La clase proporciona una amplia gama de propiedades y métodos utilizados para administrar una hoja de trabajo.
 
  Para agregar los saltos de página, utilice el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase'[**Saltos de página horizontales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)propiedades.
 
- los[**Saltos de página horizontales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Las propiedades son colecciones que pueden contener varios saltos de página. Cada colección contiene varios métodos para administrar los saltos de página horizontales y verticales.
+ Él[**Saltos de página horizontales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/horizontalpagebreaks) y[**Saltos de página verticales**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/verticalpagebreaks)Las propiedades son colecciones que pueden contener varios saltos de página. Cada colección contiene varios métodos para administrar los saltos de página horizontales y verticales.
 
 ### **Adición de saltos de página**
 

@@ -8,19 +8,19 @@ url: /tr/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
-|CELLSNET-44376 | HTML'den içe aktarırken uzun sayısal değerlerin üstel gösterime dönüştürülmesini yasaklama yeteneği sağlayın|Yeni özellik|
+|CELLSNET-44376 |HTML'den içe aktarırken uzun sayısal değerlerin üstel gösterime dönüştürülmesini yasaklama yeteneği sağlayın|Yeni özellik|
 |CELLSNET-44360 | Hücrede önde gelen tek tırnak işaretini algılama|Yeni özellik|
 |CELLSNET-44356 | Bir ExternalConnection için hedef veya çıkış hücresi adresini alın|Yeni özellik|
 |CELLSNET-44340 | İstemci tarafı doğrulamasının yerelleştirilmesi (Almanca) desteği|Yeni özellik|
-|CELLSNET-44345 | WordArt için Formül, XLS'yi XLSB'ye dönüştürürken bağımsız değişken değişikliğine tepki vermiyor| Artırma|
-|CELLSNET-44342 | İşlem, tek sayfa elektronik tabloyu PDF'ye dönüştürmek için %100 CPU kullanımıyla askıda kalıyor gibi görünüyor| Verim|
-|CELLSNET-44324 | Veriler yeniden doldurulduktan ve Özet Tablo yenilendikten sonra XLSM bozuluyor| Böcek|
-|CELLSNET-44312 |HTML içe aktarılırken ve e-tabloya dışa aktarılırken satır sonları kayboluyor| Böcek|
+|CELLSNET-44345 | WordArt için formül, XLS'i XLSB'e dönüştürürken bağımsız değişken değişikliğine tepki vermiyor| Artırma|
+|CELLSNET-44342 | Tek sayfa elektronik tabloyu PDF'e dönüştürmek için işlem %100 CPU kullanımıyla askıda kalıyor gibi görünüyor| Verim|
+|CELLSNET-44324 | XLSM, verileri yeniden doldurup Pivot Tabloyu yeniledikten sonra bozuluyor| Böcek|
+|CELLSNET-44312 | HTML'i içe aktarırken ve e-tabloya dışa aktarırken satır sonları kayboluyor| Böcek|
 |CELLSNET-44311 | HTML içe aktarılırken ve e-tabloya dışa aktarılırken kenarlıklar kayboluyor| Böcek|
 |CELLSNET-44286 | Sample1.xlsx açıldıktan ve yenilendikten sonra bozuluyor| Böcek|
 |CELLSNET-44375 | Hedef (CSV) dosyasıyla yanlış kodlama| Böcek|
-|CELLSNET-44368 | Excel'i PDF'ye dönüştürürken milyon sayıda biçimlendirme sorunu| Böcek|
-|CELLSNET-44347 | API, OnePagePerSheet'in true olarak ayarlanmasından bağımsız olarak bir çalışma sayfası için iki PDF sayfası oluşturur| Böcek|
+|CELLSNET-44368 | Excel'i PDF'e dönüştürürken milyon sayı biçimlendirme sorunu| Böcek|
+|CELLSNET-44347 |API, OnePagePerSheet'in true olarak ayarlanmasına bakılmaksızın bir çalışma sayfası için iki PDF sayfası oluşturur| Böcek|
 |CELLSNET-44335 | E-tablo oluşturulurken metin kırpılıyor| Böcek|
 |CELLSNET-44382 | Grafik, çıktı Excel dosyasında doğru şekilde oluşturulmadı| Böcek|
 |CELLSNET-44373 | Oluşturulan görüntüde madde işaretli liste (şekil) ile hizalama sorunu| Böcek|
@@ -29,12 +29,12 @@ url: /tr/net/aspose-cells-for-net-8-8-0-release-notes/
 |CELLSNET-44372 | Gömülü belgeler içeren Excel dosyası kaydedilirken bozuluyor| Böcek|
 |CELLSNET-44369 |# Ref! adlandırılmış hücrelere referanslar içeren hücreleri bir çalışma kitabından diğerine kopyaladıktan sonra
 | Böcek|
-|CELLSNET-44359 |Parolayı korumalı bir elektronik tablodan kaldırmak, katıştırılmış nesne adını değiştirir| Böcek|
-|CELLSNET-44348 | Sayı, HTML'yi elektronik tablo biçimine dönüştürürken yuvarlanır| Böcek|
+|CELLSNET-44359 | Parolayı korumalı bir elektronik tablodan kaldırmak, katıştırılmış nesne adını değiştirir| Böcek|
+|CELLSNET-44348 | HTML elektronik tablo biçimine dönüştürülürken sayı yuvarlanır| Böcek|
 |CELLSNET-44330 | Nesne referansı, bir Excel dosyasını açarken istisna ayarlanmadı| İstisna|
 |CELLSNET-44323 | Nesne başvurusu, PivotTable.RefreshData'da bir nesne örneğine ayarlanmadı| İstisna|
-|CELLSNET-44355 | Dizin, Excel'i PDF'ye dönüştürürken dizi istisnasının sınırlarının dışındaydı| İstisna|
-|CELLSNET-44354 | Şekilden görüntüye Excel'i PDF'ye dönüştürme hatası| İstisna|
+|CELLSNET-44355 |Dizin, Excel'i PDF'e dönüştürürken dizi istisnasının sınırlarının dışındaydı| İstisna|
+|CELLSNET-44354 | Şekilden görüntüye Excel'i PDF'e dönüştürme hatası| İstisna|
 |CELLSNET-44380 | Aspose.Cells API'leri aracılığıyla belirli bir Excel dosyası yüklenirken "geçersiz formül"| İstisna|
 |CELLSNET-44370 | Excel dosyasını açarken "Üstbilgi Altbilgi görüntüsünün geçersiz bölüm kimliği"| İstisna|
 |CELLSNET-44357 | System.ArgumentException: Öğe, Workbook ctor'da zaten eklendi| İstisna|
@@ -46,7 +46,7 @@ url: /tr/net/aspose-cells-for-net-8-8-0-release-notes/
 |CELLSNET-44339 | 500 Dahili Hata: GridWeb Kullanıcı Arayüzüne geçersiz formül ekleyerek "Cell'de Hata: Geçersiz Formül"| İstisna|
 |CELLSNET-44326 | Bir hücreye tıklamak biçimlendirilmiş metni HTML kaynağına değiştirir| Böcek|
 |CELLSNET-44325 | GridWeb, veri doğrulama Listesinin/açılır menüsünün içeriğini değiştirir| Böcek|
-|CELLSNET-44321 |Bağlam menüsü, içinden satırlar veya sütunlar eklendiğinde büyür| Böcek|
+|CELLSNET-44321 | Bağlam menüsü, içinden satırlar veya sütunlar eklendiğinde büyür| Böcek|
 |CELLSNET-44320 | Bağlam menüsünden satır ve sütun ekleme çalışmıyor| Böcek|
 ### **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for .NET numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

@@ -33,7 +33,7 @@ Dieser Ansatz funktioniert genauso wie der erste Ansatz.
 
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-UsingRowAndColumnIndexOfCell-UsingRowAndColumnIndexOfCell.java" >}}
-### **In Verbindung stehende Artikel**
+### **Zum Thema passende Artikel**
 {{% alert color="primary" %}} 
 
 - [Benannte Bereiche](/cells/de/java/named-ranges/)

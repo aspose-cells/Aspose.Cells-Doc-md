@@ -37,7 +37,7 @@ Aspose.Cells for C++ erbjuder ett brett utbud av funktioner för att skapa, konv
 - Hyperlänk
 - AutoFilter
 - Utskriftsformat
-- Läsa, skriva och beräkna formler
+- Läsa, skriva och räkna formler
 - Gruppera rader och kolumner
 - Pivottabell
 - Tabell

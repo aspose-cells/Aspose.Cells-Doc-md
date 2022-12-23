@@ -16,19 +16,19 @@ url: /ar/java/aspose-cells-for-java-21-7-release-notes/
 |CELLSJAVA-40452|احصل على نطاقات وتفاصيل البيانات الخارجية|
 |CELLSJAVA-42494|يتم إنشاء كمية كبيرة من الأنماط غير المستخدمة في قسم CSS|
 |CELLSJAVA-41121|لا يعرض SheetRender المخطط الانسيابي بشكل صحيح|
-|CELLSJAVA-43331|نص مفقود في الدائرة أثناء تحويل XLS إلى HTML|
+|CELLSJAVA-43331|نص مفقود في الدائرة أثناء التحويل XLS إلى HTML|
 |CELLSJAVA-43507|عند تنفيذ svg لإدراج ملف Excel تحت جافا ، فإنه يخرج بشكل غير طبيعي.|
 |CELLSJAVA-41887|لا تظهر بيانات النسبة المئوية من Pivot Table بشكل صحيح في HTML|
 |CELLSJAVA-43482|لم يتم تنسيق النصوص المرتفعة والمنخفضة بشكل صحيح عند تحويل مستند HTML إلى مصنف|
 |CELLSJAVA-43501|تمت قراءة قيمة غير صحيحة باستخدام دالة getStringValue ()|
-|CELLSJAVA-43515|قضية صيغة MDURATION|
+|CELLSJAVA-43515|مشكلة صيغة MDURATION|
 |CELLSJAVA-43528|لا يمكن استخراج تاريخ ووقت الإنشاء وتاريخ التحديث|
 |CELLSJAVA-43529|تعذر استخراج خصائص BuiltInDocumentProperties|
 |CELLSJAVA-43530|نتائج خصائص التاريخ والوقت مختلفة|
-|CELLSJAVA-41693|لا يتم تحويل المعادلة في TextBox إلى PDF|
-|CELLSJAVA-43487|لم يتم توسيط النص في ملف PDF الناتج في تحويل Excel إلى PDF|
-|CELLSJAVA-42867|لا يتم استرجاع الأشكال في تنسيق ملف ODS|
-|CELLSJAVA-42895|يحتوي إخراج PNG من مخطط MS Excel على تناقضات|
+|CELLSJAVA-41693|لا يتم عرض المعادلة في TextBox على PDF|
+|CELLSJAVA-43487|لم يتم توسيط النص في الإخراج PDF في Excel لتحويل PDF|
+|CELLSJAVA-42867|لا يتم استرداد الأشكال بتنسيق ملف ODS|
+|CELLSJAVA-42895|PNG إخراج مخطط MS Excel به اختلافات|
 |CELLSJAVA-43015|مشكلة في SheetRender.toImage () أثناء استخدام طريقة setPrintArea ()|
 |CELLSJAVA-43258|مخطط نقاط الخط الغامق يتغير بعد نسخ المصنف|
 |CELLSJAVA-43436|Aspose Cells يتجاهل المحور y المقلوب في الرسم التخطيطي|
@@ -49,11 +49,11 @@ url: /ar/java/aspose-cells-for-java-21-7-release-notes/
 
 ### **يضيف طريقة PivotFormatCondition.AddColumnAreaCondition (حقل عمود PivotField).**
 
-يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
+ يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
 
 ### **يضيف طريقة PivotFormatCondition.AddColumnAreaCondition (String fieldName).**
 
-يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
+ يضيف حد تنسيق PivotTable الشرطي في حقول الأعمدة.
 
 ### **يضيف طريقة PivotFormatCondition.AddRowAreaCondition (PivotField rowField).**
 

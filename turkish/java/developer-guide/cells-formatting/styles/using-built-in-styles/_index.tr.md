@@ -66,6 +66,6 @@ Aspose.Cells, elektronik tablo belgesindeki bir hücreyi biçimlendirmek için �
 
 Aşağıdaki kod, yerleşik stillerin nasıl kullanılacağını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](using-built-in-styles_1.png)
+![yapılacaklar:resim_alternatif_metin](using-built-in-styles_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-UsingBuiltinStyles-UsingBuiltinStyles.java" >}}

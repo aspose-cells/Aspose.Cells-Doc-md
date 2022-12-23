@@ -7,7 +7,7 @@ url: /es/java/auto-fit-row-and-column/
 ## **Aspose.Cells - Fila y columna de ajuste automático**
 El enfoque más sencillo para cambiar automáticamente el tamaño del ancho y el alto de una fila es llamar al método Worksheet.autoFitRow. El método autoFitRow toma un índice de fila (de la fila a redimensionar) como parámetro.
 
-**Tenga en cuenta:** Si desea autoajustar filas y columnas en hojas de cálculo de Excel usando Java, visite[Autoajustar filas y columnas](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
+**Tenga en cuenta:**Si desea autoajustar filas y columnas en hojas de cálculo de Excel usando Java, visite[Autoajustar filas y columnas](https://docs.aspose.com/cells/java/autofit-rows-and-columns/).
 
 **Java**
 

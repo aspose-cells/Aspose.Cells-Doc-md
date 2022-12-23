@@ -10,7 +10,7 @@ Sie können mit Aspose.Cells ein Bild eines Arbeitsblatts erstellen. Manchmal m�
 
 {{% /alert %}}
 
- Um ein Bild eines Bereichs aufzunehmen, stellen Sie den Druckbereich auf den gewünschten Bereich und dann alle Ränder auf 0 ein. Auch einstellen[**ImageOrPrintOptions.setOnePagePerSheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OnePagePerSheet) zu**Stimmt**.
+ Um ein Bild eines Bereichs aufzunehmen, stellen Sie den Druckbereich auf den gewünschten Bereich und dann alle Ränder auf 0 ein. Auch einstellen[**ImageOrPrintOptions.setOnePagePerSheet()**](https://reference.aspose.com/cells/java/com.aspose.cells/imageorprintoptions#OnePagePerSheet) zu**wahr**.
 
 Der folgende Code erstellt ein Bild des Bereichs E8:H10. Unten sehen Sie einen Screenshot der Quellarbeitsmappe, die im Code verwendet wird. Sie können den Code mit jeder Arbeitsmappe ausprobieren.
 

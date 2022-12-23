@@ -261,7 +261,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Schritt 5: Ausführen der Anwendung**
- Führen Sie die Anwendung aus, indem Sie entweder drücken**Strg+F5** oder klicken Sie auf die**Anfang** Taste in VS.NET. Das Webformular wird in einem neuen Browserfenster geöffnet.
+ Führen Sie die Anwendung aus, indem Sie entweder drücken**Strg+F5** oder klicken Sie auf die**Start** Taste in VS.NET. Das Webformular wird in einem neuen Browserfenster geöffnet.
 
 **Arbeitsblatt mit einer benutzerdefinierten Sammlung gebunden** 
 
@@ -285,7 +285,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 
 
-Nachdem Sie Änderungen an den Daten vorgenommen haben, klicken Sie auf**Speichern** oder**Einreichen** um Ihre Änderungen zu speichern.
+Nachdem Sie Änderungen an den Daten vorgenommen haben, klicken Sie auf**Speichern** oder**einreichen** um Ihre Änderungen zu speichern.
 
 **Speichern Sie die Änderungen, indem Sie auf die Schaltfläche Speichern klicken** 
 

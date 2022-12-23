@@ -10,10 +10,10 @@ url: /fr/php-java/aspose-cells-for-php-via-java-21-10-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-43768|Java Un problème d'espace de tas est observé lors de la conversion du fichier XLSX en PDF|
-|CELLSJAVA-43875|Exception "valeur de chaîne FontUnderlineType non valide" lors du chargement du fichier XLSX|
+|CELLSJAVA-43875|Exception "Valeur de chaîne FontUnderlineType non valide" lors du chargement du fichier XLSX|
 |CELLSJAVA-43876|Exception "java.lang.ArrayIndexOutOfBoundsException" lors du chargement d'un fichier XLSX|
 |CELLSJAVA-43646|L'effet d'ombre du texte n'est pas rendu correctement|
 |CELLSJAVA-43760|L'orientation du triangle isocèle est incorrecte|
@@ -21,15 +21,15 @@ url: /fr/php-java/aspose-cells-for-php-via-java-21-10-release-notes/
 |CELLSJAVA-43838|Après l'exécution de XlsToXlsx, la forme automatique est perdue|
 |CELLSJAVA-43839|Après avoir exécuté XlsToXlsx, le LeftBracket est perdu|
 |CELLSJAVA-43842|Après avoir exécuté XlsToXlsx, la forme de LeftBracket est différente de l'original|
-|CELLSJAVA-43848|Conversion Excel en PDF - certains caractères WordArt ne sont pas enveloppés de la même manière que dans le fichier Excel|
+|CELLSJAVA-43848|Conversion d'Excel en PDF - certains caractères WordArt ne sont pas enveloppés de la même manière que dans le fichier Excel|
 |CELLSJAVA-43880|Coins arrondis incorrects de la zone de texte après la conversion de xls en xlsx|
 |CELLSJAVA-43867|L'icône de format conditionnel est différente lors de l'exportation au format HTML|
 |CELLSJAVA-43812|excelToHtml : le décalage de la position de la forme est incorrect|
-|CELLSJAVA-43871|Objets Prism 9 OLE non affichés sur le PDF de sortie|
+|CELLSJAVA-43871|Objets Prism 9 OLE non affichés en sortie PDF|
 |CELLSJAVA-43883|Tailles de page renderred incorrectes|
 |CELLSJAVA-43881|La fusion de fichiers entraîne l'absence du paramètre de couleur d'arrière-plan des feuilles|
 |CELLSJAVA-43892|Les bordures d'Excel converties en HTML sont manquantes|
-|CELLSJAVA-43787|Exception "IllegalArgumentException : les longueurs de tiret sont toutes nulles ..." dans le rendu Excel vers HTML|
+|CELLSJAVA-43787|Exception "IllegalArgumentException : les longueurs de tiret sont toutes nulles ..." dans Excel pour le rendu HTML|
 |CELLSJAVA-43885|IllegalArgumentException lors de la conversion d'Excel|
 |CELLSJAVA-43874|Workbook.save lève une exception sur un fichier spécifique par Aspose.Cells uniquement lorsque la licence Aspose est appliquée|
 

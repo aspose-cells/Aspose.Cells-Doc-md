@@ -12,7 +12,7 @@ url: /fr/java/aspose-cells-for-java-7-5-0-release-notes/
 
  Améliorations
 
- Exceptions
+ Des exceptions
 
  40530 - CellsException : Erreur de forme à image !
 
@@ -22,6 +22,6 @@ url: /fr/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40490 - Problème de perspective du graphique 3D
 
- 40481 - XLS vers PDF - Problème de largeur de cellule de tableau
+ 40481 - XLS à PDF - Problème de largeur de cellule de tableau
 
-40519 - Exception lors de l'enregistrement d'un document XLSX
+ 40519 - Exception lors de l'enregistrement d'un document XLSX

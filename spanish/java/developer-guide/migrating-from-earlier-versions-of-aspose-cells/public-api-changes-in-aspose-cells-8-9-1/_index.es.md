@@ -115,7 +115,7 @@ El siguiente es el escenario de uso simple de la propiedad HtmlSaveOptions.FileP
 
 Libro de trabajo book = new Workbook(dir + "sample.xlsx");
 
-//Guardar cada hoja de trabajo en un archivo HTML separado
+//Guardar cada hoja de trabajo para separar el archivo HTML
 
  para (int i = 0; i< book.getWorksheets().getCount(); i++)
 
@@ -177,7 +177,7 @@ Libro de trabajo book = new Workbook(dir + "sample.xlsx");
 
 {{% /alert %}} 
 ### **Se agregó la propiedad CopyOptions.ReferToDestinationSheet y la sobrecarga para el método Cells.copyRows**
-Aspose.Cells for Java API ha expuesto la propiedad de tipo booleano CopyOptions.ReferToDestinationSheet junto con una sobrecarga del método Cells.copyRows para facilitar la operación de copia de filas cuando las filas que se copiarán también contienen un gráfico y su fuente de datos. Los desarrolladores pueden hacer uso de estas nuevas API para apuntar la fuente de datos del gráfico a las hojas de trabajo de origen o de destino.
+Aspose.Cells for Java API ha expuesto la propiedad de tipo booleano CopyOptions.ReferToDestinationSheet junto con una sobrecarga del método Cells.copyRows para facilitar la operación de copia de filas cuando las filas que se copiarán también contienen un gráfico y su origen de datos. Los desarrolladores pueden hacer uso de estas nuevas API para apuntar la fuente de datos del gráfico a las hojas de trabajo de origen o de destino.
 
 El siguiente es el escenario de uso simple.
 

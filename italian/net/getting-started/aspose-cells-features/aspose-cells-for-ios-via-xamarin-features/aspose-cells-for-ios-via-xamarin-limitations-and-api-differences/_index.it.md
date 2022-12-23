@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Cells per iOS tramite limitazioni Xamarin e differenze API
+title: Aspose.Cells per iOS tramite Xamarin Limitazioni e API Differenze
 type: docs
 weight: 10
 url: /it/net/aspose-cells-for-ios-via-xamarin-limitations-and-api-differences/
@@ -22,10 +22,10 @@ Tieni presente che Aspose.Cells per iOS tramite Xamarin viene sempre compilato u
 - Implementazione delle opzioni di trasposizione - Non supportato.
 - Creazione di grafici personalizzati: non supportata.
 - Aggiunta, conservazione o estrazione di oggetti OLE dai fogli di calcolo - Non supportato.
-- Implementazione delle sparkline di Microsoft Excel 2010 - Non supportata.
+- Implementazione delle sparkline di Excel 2010 Microsoft - Non supportata.
 - Crittografia dei file: non supportata.
-## Differenze nell'API pubblica (spazio dei nomi).
-In Aspose.Cells per iOS tramite Xamarin, viene usato lo spazio dei nomi Aspose.Cells.Drawing anziché System.Drawing nell'API .NET. L'elenco degli oggetti interessati è il seguente:
+## Pubblico API (spazio dei nomi) differenze
+In Aspose.Cells per iOS tramite Xamarin, viene utilizzato lo spazio dei nomi Aspose.Cells.Drawing anziché System.Drawing in .NET API. L'elenco degli oggetti interessati è il seguente:
 
 - Aspose.Cells.Drawing.Color
 - Aspose.Cells.Drawing.ColorConverter

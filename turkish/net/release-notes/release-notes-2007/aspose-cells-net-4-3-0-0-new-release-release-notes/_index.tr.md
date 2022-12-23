@@ -10,7 +10,7 @@ url: /tr/net/aspose-cells-net-4-3-0-0-new-release-release-notes/
 
 {{% /alert %}}
 
-giriiş
+Giriş
 
 Bu sürüm, v4.2'den bu yana yeni özellikler, özellik geliştirmeleri ve hata düzeltmeleri içerir. Daha ayrıntılı bilgi için lütfen aşağıdaki açıklamayı kontrol edin.
 

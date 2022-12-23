@@ -54,7 +54,7 @@ url: /tr/net/aspose-cells-for-net-7-3-1-release-notes/
 - Çözüm arıyorum Aspose.Cells
 - İstisna: "Dizin aralık dışındaydı"
 - Loadingworkbook atıyor: 'Giriş dizesi doğru biçimde değildi'
-- Şekilden görüntüye Excel'den PDF'e özelliğinde Hata
+- Şekil Hatası Excel'de PDF özelliğine
 
 
 
@@ -69,7 +69,7 @@ url: /tr/net/aspose-cells-for-net-7-3-1-release-notes/
 
  - Kaydedilmiş Sekmeyle Ayrılmış dosyadaki alıntılar
 
-- CSV okuma/yazma, bazı girdiler için "gidiş-dönüş" yapmıyor
+- CSV okuma/yazma bazı girişler için "gidiş-dönüş" yapmıyor
 
  -StringValue yanlış bir değer döndürür
 
@@ -87,17 +87,17 @@ url: /tr/net/aspose-cells-for-net-7-3-1-release-notes/
 
  -TRIM işlevi hesaplama sorunları
 
-- Çıktıda gizli sütunu gösteren HTML olarak kaydet
+- HTML olarak kaydet, çıktıda gizli sütunu gösterir
 - Kaydetme biçimlendirmeyi temizler
-- HTML çıktısında grafikler
-- HTML biçimlendirme sorunları (ekstra kenarlıklarla ilgili)
+- HTML çıkışındaki grafikler
+- HTML biçimlendirme sorunları (ek kenarlıklarla ilgili)
 
  -SheetRender'ın XPS ve özel sayı biçimi sorunu
 
  -PDF olarak kaydet biçimlendirmeyi korumaz
 
-- Excel ve PDF çıktılarında XLSX biçimlendirmesiyle ilgili sorunlar
-- Excel'in PDF'ye dönüştürülen pivot tablosu doğru değil
+- Excel'de XLSX biçimlendirmesi ve PDF çıktılarıyla ilgili sorunlar
+- Excel'in PDF olarak işlenen pivot tablosu doğru değil
 - PDF'deki özel yazı tipleri
 - Cell'in Dikey Hizalama oluşturma sorunu
 - En sağ uçta metin eksik
@@ -105,7 +105,7 @@ url: /tr/net/aspose-cells-for-net-7-3-1-release-notes/
 - PivotTable'daki Toplam Satırda biçimlendirmeyle ilgili sorun
 - Mac-Os 2k11 için Office, bir Excel dosyasını açtıktan sonra çöküyor
 
- -Bu kod neden başarısız oluyor?
+-Bu kod neden başarısız oluyor?
 
 - PivotTable'ın hesaplanan alanı değişiyor
 - Hesaplanan Üyelerle Çalışma Kitabını kaydetme sorunu

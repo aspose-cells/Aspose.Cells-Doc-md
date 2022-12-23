@@ -11,7 +11,7 @@ Dieses Dokument beschreibt Änderungen der Aspose.Cells API von Version 8.1.0 au
 {{% /alert %}} 
 ## **Eigenschaften und Funktionen hinzugefügt**
 ### **HtmlSaveOptions.PresentationPreference-Eigenschaft hinzugefügt**
-Die HtmlSaveOptions-Klasse hat Getter/Setter für die PresentationPreference-Eigenschaft verfügbar gemacht, die verwendet werden können, um die Ergebnisse beim Exportieren von Tabellenkalkulationen in HTML oder MHTML mit einem besseren Layout zu rendern. Der Standardwert ist falsch. Wenn dagegen Aspose.Cells API auf true gesetzt ist, werden die Arbeitsblattinhalte mit besserer Darstellung exportiert.
+Die HtmlSaveOptions-Klasse hat Getter/Setter für die PresentationPreference-Eigenschaft verfügbar gemacht, die verwendet werden können, um die Ergebnisse beim Exportieren von Tabellenkalkulationen nach HTML oder MHTML mit einem besseren Layout wiederzugeben. Der Standardwert ist „false“. Wenn dagegen Aspose.Cells API auf true gesetzt ist, werden die Arbeitsblattinhalte mit besserer Darstellung exportiert.
 
 {{% alert color="primary" %}} 
 

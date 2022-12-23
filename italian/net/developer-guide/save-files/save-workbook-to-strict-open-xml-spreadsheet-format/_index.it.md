@@ -14,6 +14,6 @@ Il codice di esempio seguente crea una cartella di lavoro e imposta il valore di
 
 ![cose da fare:immagine_alt_testo](save-workbook-to-strict-open-xml-spreadsheet-format_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "LoadingSavingConvertingAndManaging-SaveWorkbookToStrictOpenXMLSpreadsheetFormat.cs" >}}

@@ -16,37 +16,37 @@ url: /tr/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47549|GridWeb için yorum eklemek/kaldırmak için istemci api|Yeni özellik|
 |CELLSNET-47555|Grafik, PDF olarak kaydederken #N/A'nın boş hücreler olarak ele alınmasına izin vermiyor|Artırma|
 |CELLSNET-47579|Kaiti yazı tipi düzgün şekilde oluşturulmadı|Artırma|
-|CELLSNET-47154|Sorgu tabloları ODS dosyasından yüklenmez|Artırma|
+|CELLSNET-47154|Sorgu tabloları ODS dosyasından yüklenmiyor|Artırma|
 |CELLSNET-47556|Çalışma sayfasını dondurmak ve bölmek için geliştirme|Artırma|
 |CELLSNET-47570|Çalışma kitaplarını birleştirirken/kopyalarken makrolar kaldırılmalıdır|Artırma|
 |CELLSNET-47543|Koşullu biçimlendirmenin uygulandığı Akıllı İşaretleyicilerle ilgili sorun|Böcek|
-|CELLSNET-47561|Özel biçimli para birimi HTML'de hücrenin dışında gösterilir|Böcek|
-|CELLSNET-47562|Dışa aktarılan ızgara çizgileri ayarlarıyla boş sayfayı HTML'ye kaydetme|Böcek|
-|CELLSNET-47569|Pivot Tablo, XLSX'ten PDF'e dönüştürme işleminden sonra düzgün şekilde gösterilmiyor|Böcek|
+|CELLSNET-47561|Özel biçime sahip para birimi, HTML'de hücrenin dışında gösterilir|Böcek|
+|CELLSNET-47562|HTML'e dışa aktarılan ızgara çizgileri ayarlarıyla boş sayfa kaydediliyor|Böcek|
+|CELLSNET-47569|Pivot Tablo, XLSX'den PDF'e dönüşümden sonra düzgün şekilde gösterilmiyor|Böcek|
 |CELLSNET-47475|CalculateFormula() MS Excel'den farklı hesaplar|Böcek|
 |CELLSNET-47531|Var olmayan adları içeren formüller `WorkbookName`!Name olarak görünür.|Böcek|
-|CELLSNET-47545|Özel negatif sayı, PDF'ye yanlış işlendi|Böcek|
+|CELLSNET-47545|Özel negatif sayı, PDF olarak yanlış işlendi|Böcek|
 |CELLSNET-47548|Çift tırnaklı metin dosyası içe aktarma sorunu|Böcek|
-|CELLSNET-47558|Özel negatif sayılar (İsviçre bölgesi kullanılarak) PDF'ye yanlış işlendi|Böcek|
+|CELLSNET-47558|Özel negatif sayılar (İsviçre bölgesi kullanılarak) PDF olarak yanlış oluşturuldu|Böcek|
 |CELLSNET-47075|Excel'in SyncScrollingSideBySide özelliği gibi iki ızgaranın kaydırmasını senkronize etmeniz gerekiyor.|Böcek|
 |CELLSNET-47559|Sayfa salt okunur olarak ayarlandığında klavye ok tuşlarını kullanarak hücreler seçilemiyor|Böcek|
-|CELLSNET-47360|Excel dosyasındaki grafikteki şeffaf işaret noktaları çıktı PDF'sinde bozuluyor|Böcek|
+|CELLSNET-47360|Excel dosyasındaki grafikteki saydam işaret noktaları çıktıda bozuluyor PDF|Böcek|
 |CELLSNET-47565|Ön plan alt bilgi resmi arka plana dönüşür|Böcek|
-|CELLSNET-46502|XLSX'ten TIFF'e dönüştürme kara kutuyla sonuçlanır|Böcek|
+|CELLSNET-46502|XLSX'den TIFF'e dönüştürme bir kara kutuyla sonuçlanır|Böcek|
 |CELLSNET-46821|Çalışma sayfası TIFF'e dönüştürülüyor - Görüntü karartılmış|Böcek|
 |CELLSNET-47458|PDF dosyasına dönüştürüldükten sonra şekil bozulması|Böcek|
-|CELLSNET-47551|Excel grafiğini PDF'ye dönüştürürken X ekseni doğru değil|Böcek|
+|CELLSNET-47551|Excel grafiği PDF'e dönüştürülürken X ekseni doğru değil|Böcek|
 |CELLSNET-47546| Boş satırların/sütunların silinmesi Excel belgesini bozar|Böcek|
 |CELLSNET-47552|Yanlış PowerQueryFormula.FormulaDefinition|Böcek|
 |CELLSNET-47573|Shift kullanılarak istenen biçimlendirme üretilemiyor|Böcek|
-|CELLSNET-47574|XLS'den HTML'ye boş dosya üretir|Böcek|
+|CELLSNET-47574|XLS - HTML boş dosya üretir|Böcek|
 |CELLSNET-47581|MaxColumn, InsertCutCells() çağrıldıktan sonra XFD Sütunu olarak ayarlandı|Böcek|
 |CELLSNET-47586|Şelale grafiği içeren çalışma kitabı, kopyalandıktan sonra Excel 2016 kullanılarak açılamıyor|Böcek|
 |CELLSNET-47547|Tablo için dilimleyici eklenirken istisna oluştu|İstisna|
-|CELLSNET-47553|Bir XLS dosyasını XLSX'e kaydederken istisna|İstisna|
-|CELLSNET-47563|Bir XLS dosya formatı yüklenirken "Dosya bozuk" istisnası|İstisna|
+|CELLSNET-47553|XLS dosyasını XLSX'e kaydederken istisna|İstisna|
+|CELLSNET-47563|XLS dosya biçimi yüklenirken "Dosya bozuk" istisnası|İstisna|
 |CELLSNET-47580|excel dönüştürülürken ArgumentOutOfRangeException|İstisna|
-|CELLSNET-47592|Belirli XLSX'i XLS'ye dönüştürürken istisna|İstisna|
+|CELLSNET-47592|Belirli XLSX'i XLS'e dönüştürürken istisna|İstisna|
 |CELLSNET-47557|Çalışma kitaplarını birleştirirken bazı özellikler eksik|gerileme|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -55,7 +55,7 @@ Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, k
 
 ### **AbstractCalculationEngine.ProcessBuiltInFunctions özelliğini ekler**
 
-Performans ve kullanıcının rahatlığı için bu özelliği ekledik ve varsayılan değerini şu şekilde yaptık:**yanlış** böylece kullanıcı yerleşik motor tarafından desteklenmeyen işlevlere konsantre olabilir. Kullanıcının mevcut uygulaması ise**SoyutHesaplamaMotoru** bazı yerleşik işlevlerin hesaplamasını değiştirdi, kullanıcı bu özelliği geçersiz kılmak için geçersiz kılmalı**doğru** itibaren**20.9**.
+ Performans ve kullanıcının rahatlığı için bu özelliği ekledik ve varsayılan değerini şu şekilde yaptık:**YANLIŞ** böylece kullanıcı yerleşik motor tarafından desteklenmeyen işlevlere konsantre olabilir. Kullanıcının mevcut uygulaması ise**SoyutHesaplamaMotoru** bazı yerleşik işlevlerin hesaplamasını değiştirdi, kullanıcı bu özelliği geçersiz kılmak için geçersiz kılmalı**doğru** itibaren**20.9**.
 
 ### **TxtLoadOptions.HasTextQualifier özelliğini ekler**
 
@@ -127,7 +127,7 @@ Belirtilen dilimleyicinin genişliğini piksel cinsinden alır veya ayarlar.
 
 ### **FilterColumn.IsDropdownVisible özelliğini ekler.**
 
-Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını belirtir.
+Bu sütun için Otomatik Filtre düğmesinin görünür olup olmadığını gösterir.
 
 ### **Eski Filter.Visibledropdown özelliği.**
 

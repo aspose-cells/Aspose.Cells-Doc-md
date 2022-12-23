@@ -17,18 +17,18 @@ url: /sv/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45348|Supporttabell som datakälla för diagrammet|Ny funktion|
 |CELLSNET-45317|Ta bort äldre Web.config-inställningar för Aspose.Cells.GridWeb som force script_path och forcepath|Ny funktion|
 |CELLSNET-45370|Undantagsmeddelandet är fel - antalet hyperlänkar får inte vara större än 66530|Förbättring|
-|CELLSNET-45391|Excel-sidfoten i utdata-PDF-filen är inte kursiv - den ska vara Arial 9 och kursiv|Förbättring|
+|CELLSNET-45391|Excel-sidfoten i utgången PDF är inte kursiv - den ska vara Arial 9 och kursiv|Förbättring|
 |CELLSNET-45328|Kopiera inställningarna för PageSetup från det befintliga kalkylbladet|Förbättring|
 |CELLSNET-45345|En del av underordnade etiketter klipps ut och flyttas till en lägre rad|Insekt|
-|CELLSNET-45344|Sänkt text förskjuts en bit åt höger - Excel till PDF-rendering|Insekt|
+|CELLSNET-45344|Sänkt text förskjuts en aning åt höger - Excel till PDF Rendering|Insekt|
 |CELLSNET-44595|Utdata Excel-fil är inte bra när du konverterar en HTML-fil till Excel-filformat|Insekt|
-|CELLSNET-44596|Utdata Excel-fil är inte bra när du konverterar en HTML-fil till Excel-filformat - I|Insekt|
+|CELLSNET-44596|Utdata Excel-fil är inte bra när du konverterar en HTML-fil till Excel-filformat - jag|Insekt|
 |CELLSNET-45409|Undantag efter flera laddningar och lagring av en XLS-fil|Insekt|
 |CELLSNET-45411|Ladda filter orsakar krasch när en Excel-fil laddas|Insekt|
 |CELLSNET-45405|Att använda IFERROR med NPER kan inte bearbetas korrekt|Insekt|
 |CELLSNET-45414|Utdata PDF bör ha en sida istället för två sidor|Insekt|
 |CELLSNET-45399|Bilden renderas felaktigt när en cell har ett arabiskt valutanamn|Insekt|
-|CELLSNET-45389|Formen på parentes är felaktig i utdata-PDF/bild|Insekt|
+|CELLSNET-45389|Formen på parenteser renderas fel i utdata PDF/bild|Insekt|
 |CELLSNET-45376|Aspose.Cells sparad PDF är inte som MS Excel sparad PDF|Insekt|
 |CELLSNET-45400|Sparklines visas inte korrekt när de renderas som bild|Insekt|
 |CELLSNET-45372|Felaktiga förklaringsobjektfärger när BankActionRatPie-diagram konverteras till bild|Insekt|
@@ -45,16 +45,16 @@ url: /sv/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45401|Datavalideringsproblem - Värde1 innehåller ett "?"|Insekt|
 |CELLSNET-45393|Cells.DeleteBlankColumns() tar bort inbäddade objekt i kalkylbladet|Insekt|
 |CELLSNET-45392|Refererar till en kolumn med en rubrik som börjar med hash-tecken ('#') men utan "@"-tecken|Insekt|
-|CELLSNET-45385|Att öppna och spara XLSB-filen skadar den|Insekt|
+|CELLSNET-45385|Att öppna och spara filen XLSB förstör den|Insekt|
 |CELLSNET-45384|Oväntad rad infogas efter Smart Makers i kapslad lista|Insekt|
 |CELLSNET-45383|Hash char ("#") i tabellrubrikerna och hänvisar till det i en annan cell|Insekt|
 |CELLSNET-45382|Mellanslag i slutet av tabellrubriker och hänvisar till det i en annan cell|Insekt|
 |CELLSNET-45381|Cell.GetValidationValue returnerar felaktigt värde vid användning av anpassad datavalideringsformel|Insekt|
 |CELLSNET-45378|Hyperlänk i 3:e kalkylbladet identifieras inte|Insekt|
-|CELLSNET-45375|Undantag för att öppna mallen XLS-fil via Aspose.Cells API:er|Insekt|
+|CELLSNET-45375|Undantag för att öppna mallen XLS-filen via Aspose.Cells API:er|Insekt|
 |CELLSNET-45373|När du lägger till rader nära ett ListObject som innehåller formler, dupliceras dessa formler felaktigt uppåt|Insekt|
 |CELLSNET-45369|Textformatet ändrades (mellanrummet ökade) efter att ha laddat och sparat XLS|Insekt|
-|CELLSNET-45368|PrintObject-egenskapen för kommandoknappar är inställd på true efter att en XLSM-fil har laddats in och sparats|Insekt|
+|CELLSNET-45368|PrintObject-egenskapen för kommandoknappar är inställd på true efter att ha laddat och sparat en XLSM-fil|Insekt|
 |CELLSNET-45365|Cellformateringen förlorade efter rendering till PDF-format|Insekt|
 |CELLSNET-45361|XLSX-filen är skadad efter att ha ändrat bakgrundsbild av ett diagram|Insekt|
 |CELLSNET-45360|Att infoga intervall utökar också storleken på diagrammet ovan|Insekt|
@@ -64,7 +64,7 @@ url: /sv/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45222|Dölj alla grupper av I. 100 kalkylblad skapar ett tomt utrymme under den 64:e raden|Insekt|
 |CELLSNET-45221|Om du rullar ner kontrollkalkylbladet blir GridWeb tom|Insekt|
 |CELLSNET-45181|Vertikal rullningslist försvinner efter att raderna utökats|Insekt|
-|CELLSNET-45407|Undantag: "Inmatningssträngen var inte i korrekt format" när ett XLSX-filformat laddas|Undantag|
+|CELLSNET-45407|Undantag: "Inmatningssträngen var inte i rätt format" när ett XLSX filformat laddades|Undantag|
 |CELLSNET-45386|Undantag vid kopiering av ett ark med en textruta|Undantag|
 |CELLSNET-45379|Undantag inträffade när Excel-filen öppnades|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**

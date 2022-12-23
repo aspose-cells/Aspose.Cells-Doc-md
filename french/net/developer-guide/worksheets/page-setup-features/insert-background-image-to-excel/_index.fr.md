@@ -30,5 +30,5 @@ Le code ci-dessous définit une image d'arrière-plan à l'aide d'une image d'un
 
 ## Articles Liés
 
-- [Utilisation de l'arrière-plan dans les fichiers ODS](/cells/fr/net/working-with-background-in-ods-files/)
+- [Travailler avec l'arrière-plan dans les fichiers ODS](/cells/fr/net/working-with-background-in-ods-files/)
 

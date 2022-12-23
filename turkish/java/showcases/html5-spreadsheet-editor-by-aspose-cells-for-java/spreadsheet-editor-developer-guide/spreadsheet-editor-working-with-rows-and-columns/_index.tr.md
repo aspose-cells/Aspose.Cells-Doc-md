@@ -32,7 +32,7 @@ Yeni bir satır eklemek için:
 
 Düzenleyici, seçilen konuma yeni bir satır ekleyecektir.
 
-![yapılacaklar:resim_alternatif_Metin](jjsornm.png)
+![yapılacaklar:resim_alternatif_metin](jjsornm.png)
 
 **Nasıl çalışır?**
 
@@ -106,7 +106,7 @@ Yeni bir sütun eklemek için:
 
 Düzenleyici, seçilen konuma yeni bir sütun ekleyecektir.
 
-![yapılacaklar:resim_alternatif_Metin](jjsornm.png)
+![yapılacaklar:resim_alternatif_metin](jjsornm.png)
 
 **Nasıl çalışır?**
 
@@ -171,7 +171,7 @@ Bir satırı silmek için:
 
 Düzenleyici, seçilen hücreyi içeren satırı siler.
 
-![yapılacaklar:resim_alternatif_Metin](jjsornm.png)
+![yapılacaklar:resim_alternatif_metin](jjsornm.png)
 
 **Nasıl çalışır?**
 
@@ -211,7 +211,7 @@ Bir sütunu silmek için:
 
 Düzenleyici, seçilen hücreyi içeren sütunu siler.
 
-![yapılacaklar:resim_alternatif_Metin](jjsornm.png)
+![yapılacaklar:resim_alternatif_metin](jjsornm.png)
 
 **Nasıl çalışır?**
 
@@ -247,9 +247,9 @@ Bir sütunun genişliğini değiştirmek için:
 
 1. Sütunun içindeki herhangi bir hücreye tıklayın.
 1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Sütun genişliği** açmak için düğme**Sütun genişliği**diyalog
+1.  Tıklamak**Sütun genişliği** açmak için düğme**Sütun genişliği** diyalog
 1. İletişim kutusuna yeni bir değer girin.
-1.  Tıklamak**Kapat**.
+1.  Tıklamak**Kapalı**.
 
 Düzenleyici, sütunun genişliğini değiştirecektir.
 
@@ -259,9 +259,9 @@ Bir satırın yüksekliğini değiştirmek için:
 
 1. Satır içindeki herhangi bir hücreye tıklayın.
 1.  Çevirmek**Biçim sekmesi**.
-1.  Tıklamak**Satır yüksekliği** açmak için düğme**Satır yüksekliği**diyalog
+1.  Tıklamak**Satır yüksekliği** açmak için düğme**Satır yüksekliği** diyalog
 1. İletişim kutusuna yeni bir değer girin.
-1.  Tıklamak**Kapat**.
+1.  Tıklamak**Kapalı**.
 
 Editör satırın yüksekliğini değiştirir.
 

@@ -15,7 +15,7 @@ url: /sv/java/aspose-cells-for-java-20-8-release-notes/
 |CELLSJAVA-43242|En av stiltaggen som finns utanför Head-taggen|Insekt|
 |CELLSJAVA-43157|Anpassad dataseriefärg bevaras inte när du skapar ett vattenfallsdiagram|Insekt|
 |CELLSJAVA-43240|Oavsiktliga radbrytningar i former/objekt vid konvertering av Excel till PDF|Insekt|
-|CELLSJAVA-43255|Prestandaproblem vid konvertering av Excel till PDF|Insekt|
+|CELLSJAVA-43255|Prestandaproblem på Excel till PDF konvertering|Insekt|
 |CELLSJAVA-43250|Utökade etikettceller slås inte samman i SmartMarker|Insekt|
 |CELLSJAVA-43253|Att spara filen med OoxmlSaveOptions efter att ha ersatt text i SmartArt konverterar XLS till XLSX|Insekt|
 CELLSJAVA-43170|CellUndantag på calculateFormel-metod|Undantag|

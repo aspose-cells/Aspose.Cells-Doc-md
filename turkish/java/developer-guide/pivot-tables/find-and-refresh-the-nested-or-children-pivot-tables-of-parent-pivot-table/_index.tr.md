@@ -12,7 +12,7 @@ Bazen bir pivot tablo, veri kaynağı olarak başka bir pivot tablo kullanır, b
 
 Aşağıdaki örnek kod,[örnek excel dosyası](61767766.xlsx)üç pivot tablo içerir. Alttaki iki pivot tablo, bu ekran görüntüsünde gösterildiği gibi yukarıdaki pivot tablonun çocuklarıdır. Kod, şunu kullanarak alt pivot tabloyu bulur:[**PivotTable.getChildren()**](https://reference.aspose.com/cells/java/com.aspose.cells/pivottable#getChildren()) yöntemini kullanır ve ardından bunları birer birer yeniler.
 
-![yapılacaklar:resim_alternatif_Metin](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
+![yapılacaklar:resim_alternatif_metin](find-and-refresh-the-nested-or-children-pivot-tables-of-parent-pivot-table_1.png)
 
 ## **Basit kod**
 

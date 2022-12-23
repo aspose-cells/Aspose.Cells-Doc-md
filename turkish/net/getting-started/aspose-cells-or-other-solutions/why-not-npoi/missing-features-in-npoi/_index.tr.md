@@ -15,14 +15,14 @@ Bu, NPOI ile karşılaştırıldığında Aspose.Cells'in aşağıdaki zengin ö
   - [Cells'de Değer Bulun](/cells/tr/net/find-value-in-cells/)
   - [Aspose.Cells'de Formül Hesaplama Motoru](/cells/tr/net/formula-calculation-engine-in-aspose-cells/)
 - [Aspose.Cells'deki Çeşitli Örnekler](/cells/tr/net/miscellaneous-examples-in-aspose-cells/)
-  - [Elektronik Tabloyu Aspose.Cells'de PDF'ye Dönüştür](/cells/tr/net/convert-spreadsheet-to-pdf-in-aspose-cells/)
+  - [Elektronik Tabloyu Aspose.Cells'de PDF'e Dönüştür](/cells/tr/net/convert-spreadsheet-to-pdf-in-aspose-cells/)
   - [Aspose.Cells'de Çalışma Kitaplarını Yazdırma](/cells/tr/net/printing-workbooks-in-aspose-cells/)
   - [Baskı Başlıklarını Ayarla](/cells/tr/net/set-print-titles/)
 - [Aspose.Cells'de Grafiklerle Çalışma](/cells/tr/net/working-with-charts-in-aspose-cells/)
   - [Grafiği Görüntülere Dönüştür](/cells/tr/net/convert-chart-to-images/)
   - [Grafik Oluştur](/cells/tr/net/create-charts/)
 - [Aspose.Cells'de Çalışma Sayfalarıyla Çalışma](/cells/tr/net/working-with-worksheets-in-aspose-cells/)
-  - [Her Çalışma Sayfasını Farklı PDF'ye Kaydet](/cells/tr/net/save-each-worksheet-to-different-pdf/)
+  - [Her Çalışma Sayfasını Farklı PDF'e Kaydet](/cells/tr/net/save-each-worksheet-to-different-pdf/)
   - [Aspose.Cells'de Çalışma Sayfası Sekme Rengini Ayarla](/cells/tr/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **Not:** Daha pek çok örnek yakında kullanıma sunulacaktır.

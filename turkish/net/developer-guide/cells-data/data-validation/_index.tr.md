@@ -16,7 +16,7 @@ Veri doğrulama, bir çalışma sayfasına girilen verilerle ilgili kuralları b
 
 Microsoft Excel, bir dizi farklı veri doğrulama türünü destekler. Her tür, bir hücreye veya hücre aralığına ne tür verilerin girildiğini kontrol etmek için kullanılır. Aşağıda, kod parçacıkları şunun nasıl doğrulanacağını göstermektedir:
 
-- Sayılar tamdır, yani ondalık kısmı yoktur.
+- Numbers tamdır, yani ondalık kısmı yoktur.
 - Ondalık sayılar doğru yapıyı takip eder. Kod örneği, bir hücre aralığının iki ondalık boşluğa sahip olması gerektiğini tanımlar.
 - Değerler, bir değerler listesiyle sınırlıdır. Liste doğrulama, bir hücreye veya hücre aralığına uygulanabilen ayrı bir değer listesi tanımlar.
 - Tarihler belirli bir aralığa giriyor.
@@ -47,7 +47,7 @@ Veri doğrulama, çalışma sayfalarına girilen bilgileri doğrulamak için gü
 
  bu[**Doğrulama Türü**](https://reference.aspose.com/cells/net/aspose.cells/validationtype)numaralandırma aşağıdaki üyelere sahiptir:
 
-|**Üye adı**|**Tanım**|
+|**Üye adı**|**Açıklama**|
 |:- |:- |
 |Herhangi bir değer|Herhangi bir türden bir değeri belirtir.|
 |Bütün sayı|Tam sayılar için doğrulama türünü belirtir.|
@@ -108,7 +108,7 @@ Veri doğrulamaları uygulandığında, hücrelere farklı değerler atanarak do
 
 ## **CellArea'yı mevcut Doğrulamaya ekleyin**
 
- Eklemek isteyebileceğiniz durumlar olabilir.[**hücre alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)mevcut[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation). eklediğinizde[**hücre alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) kullanarak[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells, yeni alanın zaten var olup olmadığını görmek için tüm mevcut alanları kontrol eder. Dosyada çok sayıda doğrulama varsa, bu bir performans isabeti alır. Bunun üstesinden gelmek için API,[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yöntem. bu*checkKavşak* parametresi, belirli bir alanın mevcut doğrulama alanlarıyla kesişiminin kontrol edilip edilmeyeceğini belirtir. ayarlanıyor**yanlış** diğer alanların kontrolünü devre dışı bırakacaktır. bu*checkEdge* parametre uygulanan alanların kontrol edilip edilmeyeceğini belirtir. Yeni alan sol üst alan olursa dahili ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz bu parametreyi şu şekilde ayarlayabilirsiniz:**yanlış**.
+ Eklemek isteyebileceğiniz durumlar olabilir.[**hücre alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)mevcut[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation). eklediğinizde[**hücre alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea) kullanarak[**Validation.AddArea(CellArea cellArea)**](https://reference.aspose.com/cells/net/aspose.cells/validation/methods/addarea), Aspose.Cells, yeni alanın zaten var olup olmadığını görmek için tüm mevcut alanları kontrol eder. Dosyada çok sayıda doğrulama varsa, bu bir performans isabeti alır. Bunun üstesinden gelmek için API,[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yöntem. bu*checkKavşak* parametresi, belirli bir alanın mevcut doğrulama alanlarıyla kesişiminin kontrol edilip edilmeyeceğini belirtir. ayarlanıyor**YANLIŞ** diğer alanların kontrolünü devre dışı bırakacaktır. bu*checkEdge* parametre uygulanan alanların kontrol edilip edilmeyeceğini belirtir. Yeni alan sol üst alan olursa dahili ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz bu parametreyi şu şekilde ayarlayabilirsiniz:**YANLIŞ**.
 
 Aşağıdaki kod parçacığı,[**Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)**](https://reference.aspose.com/cells/net/aspose.cells.validation/addarea/methods/1) yeni ekleme yöntemi[**hücre alanı**](https://reference.aspose.com/cells/net/aspose.cells/cellarea)mevcut[**Doğrulama**](https://reference.aspose.com/cells/net/aspose.cells/validation).
 

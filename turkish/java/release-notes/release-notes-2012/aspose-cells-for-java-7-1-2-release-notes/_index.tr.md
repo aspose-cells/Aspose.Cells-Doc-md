@@ -29,5 +29,5 @@ Biz
  Hatalar
 
 - Dağılım tablosu için maksimum değer düzgün bir şekilde kuşatılamaz
-- Oluşturulan PDF dosyasında şekillerdeki metin kayboldu veya şekiller aralığının dışına taşındı
+- Şekillerdeki metin, oluşturulan PDF dosyasında kayboldu veya şekiller aralığının dışına taşındı
 - Grafikte Tarih Etiketleri için seri adı gösterilmedi

@@ -21,7 +21,7 @@ url: /ja/java/aspose-cells-for-java-8-4-0-release-notes/
 
 機能強化
 
-(CELLSJAVA-41169) - 生成された HTML ファイルで偽の null 属性を削除する
+(CELLSJAVA-41169) - 生成された HTML ファイルの偽の null 属性を削除します
 (CELLSJAVA-41179) - 和暦のサポート
 
 バグ
@@ -32,7 +32,7 @@ url: /ja/java/aspose-cells-for-java-8-4-0-release-notes/
 (CELLSJAVA-41167) - ピボット テーブルを更新すると破損したワークブックが生成される
 (CELLSJAVA-41232) - バグ - 数式に数字 + e で終わる定義済みの名前が含まれています
 (CELLSJAVA-41215) - Aspose.Cells で生成された EMF が異なるビューアーで異なる方法でレンダリングされる
-(CELLSJAVA-41196) - ワークシートとセル値を追加した後、XLSB が破損する
+(CELLSJAVA-41196) - ワークシートとセル値を追加すると、XLSB が破損する
 (CELLSJAVA-41227) - API は Arial フォントを Liberation フォントに置き換えることはできません
 (CELLSJAVA-41224) - Excel を PDF にレンダリングする際の画像変換エラー
 (CELLSJAVA-41223) - エクスポートされた PDF ファイルの署名が失敗する
@@ -82,7 +82,7 @@ CSS 名のプレフィックスを取得および設定します。デフォル�
  PivotTable.ShowInOutlineForm() メソッドを追加
 ピボットテーブルをアウトライン形式でレイアウトします。
 
-PivotTable.ShowInTabularForm() メソッドを追加
+ PivotTable.ShowInTabularForm() メソッドを追加
 ピボットテーブルを表形式でレイアウトします。
 
  PivotTableCollection.Remove(PivotTable pivotTable) メソッドを追加

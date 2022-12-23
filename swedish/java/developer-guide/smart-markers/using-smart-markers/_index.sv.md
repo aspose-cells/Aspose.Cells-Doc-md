@@ -154,9 +154,9 @@ Aspose.Cells stöder nu även användning av en generisk lista som ett kapslat o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-Person-Person.java" >}}
 
-## **Använder HTML-egenskapen för Smart Markers**
+## **Använder HTML egendom för Smart Markers**
 
-Följande exempelkod förklarar användningen av HTML-egenskapen för Smart Markers. När det kommer att bearbetas kommer det att visa "World" i "Hello World" som fetstil på grund av HTML \<b>märka.
+Följande exempelkod förklarar användningen av egenskapen HTML för Smart Markers. När det kommer att bearbetas kommer det att visa "World" i "Hello World" som fetstil på grund av HTML \<b> märka.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-SmartMarkers-UsingHTMLProperty-UsingHTMLProperty.java" >}}
 

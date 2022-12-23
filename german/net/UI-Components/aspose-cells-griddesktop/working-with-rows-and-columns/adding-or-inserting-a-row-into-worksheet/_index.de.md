@@ -14,7 +14,7 @@ Um dem Arbeitsblatt eine neue Zeile hinzuzufügen, führen Sie bitte die folgend
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Die Zeile** zum**Arbeitsblatt**
+-  Addieren**Reihe** zum**Arbeitsblatt**
 
 
 
@@ -24,7 +24,7 @@ Um eine neue Zeile an einer bestimmten Position in das Arbeitsblatt einzufügen,
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Einfügung**Die Zeile** hinein**Arbeitsblatt**(an einer bestimmten Position durch Angabe des Index der Zeile, wo es eingefügt werden soll)
+-  Einfügung**Reihe** hinein**Arbeitsblatt**(an einer bestimmten Position durch Angabe des Index der Zeile, wo es eingefügt werden soll)
 
 {{< highlight "java" >}}
 

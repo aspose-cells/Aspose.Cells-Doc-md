@@ -4,7 +4,7 @@ type: docs
 weight: 120
 url: /it/java/recognise-self-closing-tags/
 ---
-L'HTML può avere una varietà di formattazioni di tag per tag vuoti come \<td>\</td> o \<td/>. Aspose.Cells ora supporta entrambi questi formati mentre prima supportava solo \<td>\</td>come i tag. Questa funzione può essere testata convertendo il file HTML di esempio allegato in un file Excel. Il file HTML di esempio e i file di output possono essere scaricati dai seguenti collegamenti per il test.
+HTML può avere una varietà di tag formattati per tag vuoti come \<td>\</td> o \<td/>. Aspose.Cells ora supporta entrambi questi formati mentre prima supportava solo \<td>\</td>come i tag. Questa funzione può essere testata convertendo il file di esempio HTML allegato in un file Excel. Il file di esempio HTML e i file di output possono essere scaricati dai seguenti collegamenti per il test.
 
 [sampleSelfClosingTags.html](74776600)
 

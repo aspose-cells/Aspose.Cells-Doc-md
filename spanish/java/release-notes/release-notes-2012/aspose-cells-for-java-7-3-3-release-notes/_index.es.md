@@ -20,7 +20,7 @@ Estamos
 
  Mejoras
 
-- Agregue comillas a los valores de celdas vacías al exportar un CSV con
+- Agregue comillas a los valores de las celdas vacías al exportar un CSV con
 
  opción
 
@@ -36,6 +36,6 @@ Estamos
 - Los nombres de las series de gráficos se pierden si se borra CellCollection
 - Mostrar espacios en blanco como espacios/ceros no funciona para archivos XLSX
 - El formato de la etiqueta de datos para los gráficos no está bien
-- El subrayado de la fuente desapareció en el archivo PDF renderizado
+- El subrayado de la fuente desapareció en el archivo renderizado PDF
 - La configuración de estilos de fuente no surtió efecto para XLSX en modo LightCells
 - Parte del pie de página se perdió al guardar en PDF

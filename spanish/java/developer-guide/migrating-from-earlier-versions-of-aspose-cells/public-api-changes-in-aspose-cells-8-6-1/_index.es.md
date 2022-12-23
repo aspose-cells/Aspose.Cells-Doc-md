@@ -11,7 +11,7 @@ Este documento describe los cambios al Aspose.Cells API de la versión 8.6.0 a l
 {{% /alert %}} 
 ## **API añadidas**
 ### **Compatibilidad con el tipo de destino de enlace HTML**
-Esta versión de Aspose.Cells for Java API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión a formato HTML](/cells/es/java/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es SELF.
+ Esta versión de Aspose.Cells for Java API ha expuesto una enumeración llamada HtmlLinkTargetType junto con una nueva propiedad HtmlSaveOptions.LinkTargetType que juntos permiten[establezca el tipo de destino para los enlaces en la hoja de cálculo durante la conversión al formato HTML](/cells/es/java/change-the-html-link-target-type/). Los valores posibles de la enumeración HtmlLinkTargetType son los siguientes, donde el valor predeterminado es SELF.
 
 1. HtmlLinkTargetType.BLANK: abre el documento o la página vinculados en una nueva ventana o pestaña.
 1. HtmlLinkTargetType.PARENT: abre el documento o la página vinculados en el marco principal.
@@ -91,7 +91,7 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Método Cell.setCaracteres agregados**
- El método Cell.setCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/java/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.getCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.setCharacters mientras que el**obtener** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**establecer** El método se puede utilizar para aplicar los cambios.
+ El método Cell.setCharacters se puede utilizar para[actualizar las partes del texto enriquecido](/cells/es/java/access-and-update-the-portions-of-rich-text-of-cell/) de un objeto Cell dado. El método Cell.getCharacters se debe usar para acceder a las partes del texto y luego se pueden hacer enmiendas usando el método Cell.setCharacters mientras que el**conseguir** El método devuelve una matriz de objetos FontSetting que se pueden manipular para establecer varias propiedades: nombre de fuente, color de fuente, negrita, etc.**colocar** El método se puede utilizar para aplicar los cambios.
 
 El siguiente es el escenario de uso simple.
 
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Propiedad VbaProject.isSigned agregado**
- Aspose.Cells for Java 8.6.1 ha expuesto la propiedad VbaProject.isSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/java/check-if-vba-project-in-a-workbook-is-signed/). La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
+ Aspose.Cells for Java 8.6.1 ha expuesto la propiedad VbaProject.isSigned que se puede utilizar para[probar si un VbaProject en un libro de trabajo está firmado o no](/cells/es/java/check-if-vba-project-in-a-workbook-is-signed/)La propiedad de tipo booleano devuelve verdadero si el proyecto está firmado.
 
 El siguiente es el escenario de uso simple.
 

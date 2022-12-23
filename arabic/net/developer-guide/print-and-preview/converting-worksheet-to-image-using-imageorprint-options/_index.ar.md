@@ -6,13 +6,13 @@ url: /ar/net/converting-worksheet-to-image-using-imageorprint-options/
 ---
 {{% alert color="primary" %}}
 
-تم تصميم هذا المستند لتوفير فهم تفصيلي لكيفية تحويل ورقة العمل إلى ملف صورة وتطبيق خيارات مختلفة للصورة والطباعة ، وخيارات مثل الدقة وضغط TIFF وتنسيق الصورة وجودة الصفحة.
+تم تصميم هذا المستند لتوفير فهم تفصيلي لكيفية تحويل ورقة العمل إلى ملف صورة وتطبيق خيارات مختلفة للصورة والطباعة ، وخيارات مثل الدقة ، وضغط TIFF ، وتنسيق الصورة وجودة الصفحة.
 
 {{% /alert %}}
 
 ## **حفظ أوراق العمل في الصور - مناهج مختلفة**
 
-في بعض الأحيان ، قد تحتاج إلى تقديم أوراق العمل الخاصة بك كتمثيل تصويري. أنت بحاجة إلى تقديم صور ورقة العمل في تطبيقاتك أو صفحات الويب الخاصة بك. قد تحتاج إلى إدراج الصور في مستند Word أو ملف PDF أو عرض تقديمي PowerPoint أو استخدامها في سيناريو آخر. ما عليك سوى عرض ورقة العمل كصورة بحيث يمكنك استخدامها في مكان آخر. يدعم Aspose.Cells تحويل أوراق العمل في ملفات Excel إلى صور. أيضًا ، يدعم Aspose.Cells تعيين خيارات مختلفة مثل تنسيق الصورة ودقة الوضوح (الرأسية والأفقية) وجودة الصورة وخيارات الصورة والطباعة الأخرى.
+في بعض الأحيان ، قد تحتاج إلى تقديم أوراق العمل الخاصة بك كتمثيل تصويري. أنت بحاجة إلى تقديم صور ورقة العمل في تطبيقاتك أو صفحات الويب الخاصة بك. قد تحتاج إلى إدراج الصور في مستند Word أو ملف PDF أو عرض تقديمي PowerPoint أو استخدامها في سيناريو آخر. ما عليك سوى عرض ورقة العمل كصورة بحيث يمكنك استخدامها في مكان آخر. يدعم Aspose.Cells تحويل أوراق العمل في ملفات Excel إلى صور. كما يدعم Aspose.Cells تعيين خيارات مختلفة مثل تنسيق الصورة ودقة الوضوح (الرأسية والأفقية) وجودة الصورة وخيارات الصورة والطباعة الأخرى.
 
 يمكنك تجربة أتمتة Office ولكن أتمتة Office لها عيوبها الخاصة. هناك العديد من الأسباب والمشكلات المعنية: على سبيل المثال ، الأمان والاستقرار وقابلية التوسع والسرعة والسعر والميزات. باختصار ، هناك العديد من الأسباب ، أهمها أن Microsoft يوصون بشدة ضد أتمتة المكاتب من حلول البرمجيات.
 
@@ -20,7 +20,7 @@ url: /ar/net/converting-worksheet-to-image-using-imageorprint-options/
 
  تحتاج إلى الاستيراد[**Aspose.Cells.Rendering**](https://reference.aspose.com/cells/net/aspose.cells.rendering)إلى برنامجك / مشروعك. لديها عدة فئات قيمة ، على سبيل المثال ،[**عرض الورقة**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender), [**خيارات ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions), [**عرض المصنف**](https://reference.aspose.com/cells/net/aspose.cells.rendering/workbookrender)إلخ.
 
-ال[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) تمثل class ورقة عمل لعرض الصور لورقة العمل ، فهي تحتوي على ملف[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)الطريقة التي يمكنها تحويل ورقة عمل مباشرة إلى ملف (ملفات) صورة محددة بالسمات أو الخيارات التي تريدها. يمكنه إرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف صورة على القرص / الدفق. هناك العديد من تنسيقات الصور المدعومة ، مثل BMP و PNG و GIFF و JPEG و TIFF و EMF وما إلى ذلك.
+ال[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender) تمثل class ورقة عمل لعرض الصور لورقة العمل ، فهي تحتوي على ملف[**ToImage**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender/methods/toimage/index)الطريقة التي يمكنها تحويل ورقة عمل مباشرة إلى ملف (ملفات) صورة محددة بالسمات أو الخيارات التي تريدها. يمكنه إرجاع كائن System.Drawing.Bitmap ويمكنك حفظ ملف صورة على القرص / الدفق. هناك العديد من تنسيقات الصور المدعومة ، على سبيل المثال BMP ، PNG ، GIFF ، JPEG ، TIFF ، EMF وما إلى ذلك.
 
 ## **استخدام Aspose.Cells لتحويل ورقة العمل إلى صورة باستخدام خيارات ImageOrPrint.**
 

@@ -46,14 +46,14 @@ url: /zh/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47231|使用较新版本渲染时图表图像上缺少标签|漏洞|
 |CELLSNET-47116|将 sample.xlsx 转换为 .xls 时数据丢失|漏洞|
 |CELLSNET-47325|调用 TextBox.Characters() 会在 HtmlText 中产生额外的标签|漏洞|
-|CELLSNET-47326|将 ODS 工作簿另存为 PDF 或 HTML 时超链接样式丢失|漏洞|
-|CELLSNET-47327|重新保存或渲染 ODS 文件时超链接文本丢失|漏洞|
+|CELLSNET-47326|将 ODS 工作簿另存为 PDF 或 HTML 时，超链接样式丢失|漏洞|
+|CELLSNET-47327|重新保存或呈现 ODS 文件时超链接文本丢失|漏洞|
 |CELLSNET-47332|设置 TextParagraph 属性会导致文本多行重叠|漏洞|
 |CELLSNET-47339|Cell 保存后格式丢失/内容丢失|漏洞|
-|CELLSNET-47348|加载和保存后 ODS 文件中的日期格式发生了变化|漏洞|
+|CELLSNET-47348|加载并保存后 ODS 文件中的日期格式已更改|漏洞|
 |CELLSNET-47290|尝试打开特定 HTML 文件时出现异常|例外|
 |CELLSNET-47305|RANDBETWEEN() 引发异常 ArgumentOutOfRangeException|例外|
-|CELLSNET-47351|保存为 PDF 时导致 StackOverflowException 的条件格式|例外|
+|CELLSNET-47351|保存到 PDF 时导致 StackOverflowException 的条件格式|例外|
 |CELLSNET-47319|带有链接 SVG 图片的 Excel 文件出现 NullReferenceException|例外|
 |CELLSNET-47359|加载 XLSX 文件时出现异常|例外|
 ### **公共 API 和向后不兼容的更改**

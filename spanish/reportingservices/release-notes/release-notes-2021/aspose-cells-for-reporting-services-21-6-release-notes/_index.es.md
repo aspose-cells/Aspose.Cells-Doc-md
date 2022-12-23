@@ -13,6 +13,6 @@ Esta página contiene notas de la versión para Aspose.Cells for Reporting Servi
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSRS-532 | El valor de los delimitadores en Aspose.Cells.ReportingServices.xml parece ser incorrecto.| Insecto|
-|CELLSRS-579 | Soporte para exportar informes en formato EMF.|Nueva caracteristica|
+|CELLSRS-579 | Soporte para exportar informe en formato EMF.|Nueva caracteristica|
 
 

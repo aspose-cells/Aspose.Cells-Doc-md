@@ -16,7 +16,7 @@ Die Aspose.Cells for C++ unterstützt Tabellenkalkulationsformate wie Excel 97-2
 
 {{% /alert %}}
 
-## **Vorteile**
+## **Leistungen**
 
 Die Verwendung von Aspose.Cells for C++ in Ihren Anwendungen bietet Ihnen die folgenden Vorteile:
 

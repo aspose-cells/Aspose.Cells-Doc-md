@@ -6,7 +6,7 @@ url: /ar/net/create-textbox-in-which-each-line-is-having-different-horizontal-al
 ---
 {{% alert color="primary" %}}
 
-يمكنك ضبط المحاذاة الأفقية لنص الفقرة الخاصة بك باستخدام[**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) منشأه.
+يمكنك ضبط المحاذاة الأفقية لنص الفقرة الخاصة بك باستخدام[**TextParagraph.AlignmentType**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textparagraph/properties/alignmenttype) خاصية.
 
 {{% /alert %}}
 

@@ -10,7 +10,7 @@ url: /ru/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook
 
 {{% /alert %}} 
 
- Следующий пример кода иллюстрирует использование[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) имущество. Пожалуйста, загрузите[Aspose Логотип](5115218.png) используется внутри входного HTML и[выходной файл excel](5115220.xlsx) генерируется кодом.
+ Следующий пример кода иллюстрирует использование[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag) имущество. Пожалуйста, загрузите[Aspose Логотип](5115218.png) используется внутри ввода HTML и[выходной файл excel](5115220.xlsx) генерируется кодом.
 
 
 

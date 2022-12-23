@@ -10,6 +10,6 @@ Aspose.Cells for Reporting Services Tasarımcı, Microsoft Excel 2007 ve 2010 ö
 
 **Aspose.Cells, Microsoft Excel'in en son sürümünü destekler** 
 
-![yapılacaklar:resim_alternatif_Metin](support-for-microsoft-excel-2007-or-2010-custom-ui_1.png)
+![yapılacaklar:resim_alternatif_metin](support-for-microsoft-excel-2007-or-2010-custom-ui_1.png)
 
 {{% /alert %}}

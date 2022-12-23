@@ -8,7 +8,7 @@ url: /ar/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 عند إنشاء مصنف بمجموعات بيانات كبيرة ، أو قراءة ملف إكسل Microsoft كبير ، فإن الحجم الإجمالي لذاكرة الوصول العشوائي التي ستستغرقها العملية دائمًا ما يكون مصدر قلق. هناك تدابير يمكن تكييفها لمواجهة التحدي. يوفر Aspose.Cells بعض الخيارات ذات الصلة ومكالمات API لخفض وتقليل وتحسين استخدام الذاكرة. أيضًا ، يمكن أن يساعد العملية على العمل بكفاءة أكبر وتشغيل أسرع.
 
- استخدم ال[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting) خيار لتحسين استخدام الذاكرة لبيانات الخلايا وتقليل التكلفة الإجمالية للذاكرة. عند إنشاء مجموعة بيانات كبيرة للخلايا ، يمكنها توفير قدر معين من الذاكرة مقارنة باستخدام الإعداد الافتراضي ([**إعداد الذاكرة**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
+ استخدم ال[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)خيار لتحسين استخدام الذاكرة لبيانات الخلايا وتقليل التكلفة الإجمالية للذاكرة. عند إنشاء مجموعة بيانات كبيرة للخلايا ، يمكنها توفير قدر معين من الذاكرة مقارنة باستخدام الإعداد الافتراضي ([**إعداد الذاكرة**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)).
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ url: /ar/net/optimizing-memory-usage-while-working-with-big-files-having-large-d
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-OptimizingMemoryUsage-WritingLargeExcelFiles-1.cs" >}}
 
-## **حذر**
+## **الحذر**
 
  الخيار الافتراضي ،[**إعداد الذاكرة**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)يتم تطبيقه على جميع الإصدارات. بالنسبة لبعض المواقف ، مثل إنشاء مصنف بمجموعة بيانات كبيرة للخلايا ، فإن ملف[**MemorySetting.MemoryPreference**](https://reference.aspose.com/cells/net/aspose.cells/memorysetting)الخيار قد يحسن استخدام الذاكرة ويقلل من تكلفة الذاكرة للتطبيق. ومع ذلك ، قد يؤدي هذا الخيار إلى تدهور الأداء في بعض الحالات الخاصة مثل المتابعة.
 

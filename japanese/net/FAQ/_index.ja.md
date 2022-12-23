@@ -11,7 +11,7 @@ Workbook.CalculateFormula メソッドで System.StackOverFlowException が発�
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "Examples.GridWeb-CSharp-Controllers-GridWebFAQController-FixStackOverflowException.cs" >}}
 ## **Excel を PDF にレンダリングする際の線の太さの問題**
-Excel ファイルを PDF に変換すると、出力された PDF の線の太さが異なる場合があります。この問題は Aspose.Cells が原因ではありません。**アドビリーダー**その設定時に**「滑らかな線画」**と**「細い線を強調」**チェックされます。これらのオプションをオフにすると、PDF が正常に表示されます。
+Excel ファイルを PDF に変換すると、出力 PDF の線の太さが異なる場合があります。この問題は Aspose.Cells が原因ではありません。**アドビリーダー**その設定時に**「滑らかな線画」**と**「細い線を強調」**チェックされます。これらのオプションをオフにすると、PDF が表示されます。
 
 チェックする場合**「滑らかな線画」**と**「細い線を強調」**、線の太さが違います。次の手順を参照してください。
 

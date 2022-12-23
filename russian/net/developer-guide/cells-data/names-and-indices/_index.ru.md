@@ -42,7 +42,7 @@ Aspose.Cells предоставляет метод CellsHelper.CellNameToIndex, 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-CellsHelper-CreateSafeSheetNames.cs" >}}
 
-Выход:
+Вывод:
 
 это имя, которое является cre
 

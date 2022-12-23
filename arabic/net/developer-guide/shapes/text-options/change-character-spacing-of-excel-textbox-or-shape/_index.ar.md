@@ -6,7 +6,7 @@ url: /ar/net/change-character-spacing-of-excel-textbox-or-shape/
 ---
 {{% alert color="primary" %}}
 
- يمكنك تغيير تباعد الأحرف في مربع نص أو شكل Excel باستخدام ملف[**FontSetting.TextOptions.Spacing**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/spacing) منشأه.
+ يمكنك تغيير تباعد الأحرف في مربع نص أو شكل Excel باستخدام ملف[**FontSetting.TextOptions.Spacing**](https://reference.aspose.com/cells/net/aspose.cells.drawing.texts/textoptions/properties/spacing) خاصية.
 
 {{% /alert %}}
 

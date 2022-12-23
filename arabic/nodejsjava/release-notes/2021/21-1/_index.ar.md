@@ -13,7 +13,7 @@ url: /ar/nodejs-java/aspose-cells-for-node-js-via-java-21-1-release-notes/
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
 |CELLSJAVA-43375|تحقق من كلمة مرور Excel VBA|
-|CELLSJAVA-43371|توقف تحويل XLSX إلى PDF|
+|CELLSJAVA-43371|XLSX إلى PDF توقف التحويل|
 |CELLSJAVA-43353|مخططات مختلفة على Excel لقوات الدفاع الشعبي|
 |CELLSJAVA-43377|مشاكل وضع الصور أثناء تحويل Excel إلى Html|
 |CELLSJAVA-43381|خطأ في حساب دالة DAYS|
@@ -22,7 +22,7 @@ url: /ar/nodejs-java/aspose-cells-for-node-js-via-java-21-1-release-notes/
 |CELLSJAVA-40264|خطأ في عناصر تحكم النموذج أو عناصر تحكم ActiveX عند الحفظ كـ EXCEL_97_TO_2003|
 |CELLSJAVA-43372|تم إنشاء ملف تالف أثناء تحويل ODS إلى XLSX|
 |CELLSJAVA-43378|يتغير العرض على أنه فارغ من صواب إلى خطأ بعد استنساخ المصنف|
-|CELLSJAVA-43379|تم رفع الاستثناء أثناء حفظ المصنف بتنسيق HTML|
+|CELLSJAVA-43379|تم رفع الاستثناء أثناء حفظ المصنف كـ HTML|
 |CELLSJAVA-43376|استثناء "java.lang.ClassCastException: تجاوز في تحويل int إلى بايت. قيمة int: 144" عند تحميل ملف XLSX|
 
 ## **API العام والتغييرات غير المتوافقة مع الإصدارات السابقة**

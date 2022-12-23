@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /it/java/copy-sheet-within-workbook/
 ---
-## **Microsoft Excel: spostamento o copia di fogli all'interno della cartella di lavoro**
+## **Microsoft Excel - Spostamento o copia di fogli all'interno della cartella di lavoro**
 Di seguito sono riportati i passaggi necessari per copiare e spostare i fogli di lavoro all'interno o tra le cartelle di lavoro.
 
 1. Per spostare o copiare fogli all'interno o tra cartelle di lavoro, aprire la cartella di lavoro che riceverà i fogli.
@@ -25,7 +25,7 @@ L'esempio seguente mostra come copiare un foglio di lavoro esistente all'interno
 
 Copiare fogli utilizzando Aspose.Cells
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -51,7 +51,7 @@ Workbook.cloneSheet() viene utilizzato per copiare i fogli con la cartella di la
 
 Copia i fogli utilizzando Apache POI SS
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

@@ -1,12 +1,12 @@
 ﻿---
-title: IFilePathProvider インターフェイスを介して、エクスポートされたワークシートの HTML ファイル パスを提供します
+title: エクスポートされたワークシート HTML ファイル パスを IFilePathProvider インターフェイス経由で提供します
 type: docs
 weight: 870
 url: /ja/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **考えられる使用シナリオ**
-複数のシートを含む Excel ファイルがあり、各シートを個別の HTML ファイルにエクスポートするとします。シートに他のシートへのリンクがある場合、それらのリンクはエクスポートされた HTML で壊れます。この問題に対処するために、Aspose.Cells が提供します。[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)壊れたリンクを修正するために実装できるインターフェース。
-## **IFilePathProvider インターフェイスを介して、エクスポートされたワークシートの HTML ファイル パスを提供します**
+複数のシートを含む Excel ファイルがあり、各シートを個別の HTML ファイルにエクスポートするとします。シートのいずれかに他のシートへのリンクがある場合、それらのリンクはエクスポートされた HTML で壊れます。この問題に対処するために、Aspose.Cells は[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)壊れたリンクを修正するために実装できるインターフェース。
+## **エクスポートされたワークシート HTML ファイル パスを IFilePathProvider インターフェイス経由で提供します**
 をダウンロードしてください[サンプルエクセルファイル](5473417.zip)次のコードとそのエクスポートされた HTML ファイルで使用されます。これらのファイルはすべて*温度*ディレクトリ。あなたはそれを抽出する必要があります*子：*ドライブ。それからそれはなるでしょう*C:\Temp*ディレクトリ。次に、*Sheet1.html*ファイルをブラウザーで開き、その中の 2 つのリンクをクリックします。これらのリンクは、*C:\Temp\OtherSheets*ディレクトリ。
 
 {{< highlight "java" >}}
@@ -25,7 +25,7 @@ file:///C:/Temp/OtherSheets/Sheet3.html#RANGE!A1
 
 ![todo:画像_代替_文章](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **サンプルコード**
-ご注意ください*C:\Temp*ディレクトリは、説明のみを目的としています。選択した場所の任意のディレクトリを使用できます[サンプルエクセルファイル](5473414.xlsx)その中で、提供されたサンプル コードを実行します。次に作成します*その他のシート*ディレクトリ内のサブディレクトリを作成し、その中の 2 番目と 3 番目のワークシート HTML をエクスポートします。を変更してください*dirPath*提供されたコード内の変数で、実行前に選択したディレクトリを参照します。
+ご注意ください*C:\Temp*ディレクトリは、説明のみを目的としています。選択した場所の任意のディレクトリを使用できます[サンプルエクセルファイル](5473414.xlsx)その中で、提供されたサンプル コードを実行します。次に作成します*その他のシート*ディレクトリ内のサブディレクトリを開き、その中に 2 番目と 3 番目のワークシート HTML をエクスポートします。を変更してください*dirPath*提供されたコード内の変数で、実行前に選択したディレクトリを参照します。
 
 {{% alert color="primary" %}} 
 

@@ -14,7 +14,7 @@ url: /ar/net/cells-alignment-settings/
 
 - محاذاة النص (أفقيًا وعموديًا)
 - المسافة الفارغة.
-- توجيه.
+- اتجاه.
 - التحكم بالنص.
 - اتجاه النص.
 
@@ -30,11 +30,11 @@ url: /ar/net/cells-alignment-settings/
 
 |**أنواع محاذاة النص**|**وصف**|
 |:- |:- |
-|الأسفل|يمثل محاذاة النص السفلي|
+|قاع|يمثل محاذاة النص السفلي|
 |مركز|يمثل مركز محاذاة النص|
 |CenterAcross|يمثل المركز عبر محاذاة النص|
 |وزعت|يمثل محاذاة النص الموزع|
-|يملأ|يمثل محاذاة النص التعبئة|
+|ملء|يمثل محاذاة النص التعبئة|
 |عام|يمثل محاذاة نص عامة|
 |يبرر|التمثيلات تضبط محاذاة النص|
 |اليسار|يمثل محاذاة النص الأيسر|
@@ -45,7 +45,7 @@ url: /ar/net/cells-alignment-settings/
 
 {{% alert color="primary" %}}
 
- يمكنك أيضًا تطبيق إعداد الضبط الموزع باستخدام امتداد[**الأسلوب. يبرره ويوزع**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) منشأه.
+ يمكنك أيضًا تطبيق إعداد الضبط الموزع باستخدام امتداد[**الأسلوب. يبرره ويوزع**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/isjustifydistributed) خاصية.
 
 {{% /alert %}}
 
@@ -63,13 +63,13 @@ url: /ar/net/cells-alignment-settings/
 
 #### **المسافة الفارغة**
 
- من الممكن تعيين مستوى المسافة البادئة للنص في خلية بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**مستوى المسافة البادئة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)منشأه.
+ من الممكن تعيين مستوى المسافة البادئة للنص في خلية بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**مستوى المسافة البادئة**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
-#### **توجيه**
+#### **اتجاه**
 
- عيّن اتجاه (تدوير) النص في خلية بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**زاوية الدوران**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)منشأه.
+ عيّن اتجاه (تدوير) النص في خلية بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**زاوية الدوران**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
@@ -79,13 +79,13 @@ url: /ar/net/cells-alignment-settings/
 
 ##### **التفاف النص**
 
- يسهل التفاف النص في خلية القراءة: يتم ضبط ارتفاع الخلية لاحتواء النص بالكامل ، بدلاً من قطعه أو امتداده إلى الخلايا المجاورة. قم بتعيين التفاف النص أو إيقاف تشغيله بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)منشأه.
+ يسهل التفاف النص في خلية القراءة: يتم ضبط ارتفاع الخلية لاحتواء النص بالكامل ، بدلاً من قطعه أو امتداده إلى الخلايا المجاورة. قم بتعيين التفاف النص أو إيقاف تشغيله بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)خاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
 ##### **تقلص لتناسب**
 
- يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) الملكية ل**حقيقي**.
+ يتمثل أحد خيارات التفاف النص في حقل في تقليص حجم النص ليلائم أبعاد الخلية. يتم ذلك عن طريق تحديد ملف[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) ملكية ل**حقيقي**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
@@ -100,17 +100,17 @@ url: /ar/net/cells-alignment-settings/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-AddOn-Merging-MergingCellsInWorksheet.-1.cs" >}}
 
- الطريقة الأخرى هي استدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) طريقة لإنشاء نطاق من الخلايا المراد دمجها. ال[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) تأخذ الطريقة نفس مجموعة المعلمات مثل تلك الخاصة بـ[**دمج**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) الطريقة التي تمت مناقشتها أعلاه وإرجاع أ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) هدف. ال[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) يوفر الكائن أيضًا ملف[**دمج**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) الأسلوب الذي يدمج النطاق المحدد في[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range)هدف.
+ الطريقة الأخرى هي استدعاء[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) المجموعة[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) طريقة لإنشاء نطاق من الخلايا المراد دمجها. ال[**CreateRange**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/createrange/index) تأخذ الطريقة نفس مجموعة المعلمات مثل تلك الخاصة بـ[**دمج**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/merge/index) الطريقة التي تمت مناقشتها أعلاه وإرجاع أ[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) موضوع. ال[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range) يوفر الكائن أيضًا ملف[**دمج**](https://reference.aspose.com/cells/net/aspose.cells/range/methods/merge) الأسلوب الذي يدمج النطاق المحدد في[**نطاق**](https://reference.aspose.com/cells/net/aspose.cells/range)موضوع.
 
 ##### **اتجاه النص**
 
 من الممكن ضبط ترتيب قراءة النص في الخلايا. ترتيب القراءة هو الترتيب المرئي الذي يتم به عرض الأحرف والكلمات وما إلى ذلك. على سبيل المثال ، اللغة الإنجليزية هي لغة من اليسار إلى اليمين بينما اللغة العربية هي لغة من اليمين إلى اليسار.
 
- يتم تعيين ترتيب القراءة مع[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**اتجاه النص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) منشأه. يوفر Aspose.Cells أنواع اتجاهات النص المحددة مسبقًا في ملف[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)تعداد.
+ يتم تعيين ترتيب القراءة بامتداد[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) أشياء[**اتجاه النص**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) خاصية. يوفر Aspose.Cells أنواع اتجاهات النص المحددة مسبقًا في ملف[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)تعداد.
 
 |**أنواع اتجاه النص**|**وصف**|
 |:- |:- |
-|سياق|ترتيب القراءة المتوافق مع لغة أول حرف تم إدخاله|
+|سياق الكلام|ترتيب القراءة المتوافق مع لغة أول حرف تم إدخاله|
 |من اليسار إلى اليمين|ترتيب القراءة من اليسار إلى اليمين|
 |من اليمين الى اليسار|ترتيب القراءة من اليمين إلى اليسار|
 

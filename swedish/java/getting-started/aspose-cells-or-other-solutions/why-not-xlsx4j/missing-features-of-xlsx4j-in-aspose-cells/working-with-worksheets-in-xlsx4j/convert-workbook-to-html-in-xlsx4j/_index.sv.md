@@ -5,7 +5,7 @@ weight: 10
 url: /sv/java/convert-workbook-to-html-in-xlsx4j/
 ---
 ## **Aspose.Cells - Konvertera arbetsbok till HTML**
- API:erna Aspose.Cells ger stöd för export av kalkylblad till HTML-format. För det här syftet,**Aspose.Cells** använder**HtmlSaveOptions** klass som tillåter utvecklare att kontrollera flera aspekter av utdata-HTML.
+ API:erna Aspose.Cells ger stöd för export av kalkylblad till formatet HTML. För detta ändamål,**Aspose.Cells** använder**HtmlSaveOptions** klass som tillåter utvecklare att kontrollera flera aspekter av utdata HTML.
 
 **Java**
 
@@ -26,7 +26,7 @@ book.save(dataDir + "AsposeHTMLSpreadsheet.html", save);
 {{< /highlight >}}
 ## **Ladda ner Running Code**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Xlsx4j-v1.0.0)
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java/com/aspose/cells/examples/asposefeatures/worksheets/converttohtml/AsposeConvertToHTML.java)
 
 {{% alert color="primary" %}} 

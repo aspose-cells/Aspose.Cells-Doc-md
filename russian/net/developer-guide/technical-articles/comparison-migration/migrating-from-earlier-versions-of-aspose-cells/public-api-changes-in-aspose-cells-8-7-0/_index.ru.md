@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Добавлено свойство TxtLoadOptions.HasFormula**
- Aspose.Cells for .NET 8.7.0 предоставил поддержку[определять и анализировать формулы при загрузке файлов CSV/TXT, содержащих простые данные с разделителями](/cells/ru/net/load-or-import-csv-file-with-formulas/). Недавно открытое свойство TxtLoadOptions.HasFormula, если для него задано значение true, указывает API анализировать формулы из входного файла с разделителями и устанавливать их в соответствующие ячейки без дополнительной обработки.
+ Aspose.Cells for .NET 8.7.0 предоставил поддержку[идентифицировать и анализировать формулы при загрузке файлов CSV/TXT, содержащих простые данные с разделителями](/cells/ru/net/load-or-import-csv-file-with-formulas/). Недавно открытое свойство TxtLoadOptions.HasFormula, если для него задано значение true, указывает API анализировать формулы из входного файла с разделителями и устанавливать их в соответствующие ячейки без дополнительной обработки.
 
 Ниже приведен простой сценарий использования.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Добавлено свойство DataLabels.IsResizeShapeToFitText**
- Еще одна полезная функция, представленная в версии Aspose.Cells for .NET 8.7.0, — это свойство DataLabels.IsResizeShapeToFitText, которое позволяет[Изменение размера фигуры в соответствии с текстом](/cells/ru/net/resize-chart-s-data-label-shape-to-fit-text/) функция приложения Excel для меток данных диаграммы.
+ Еще одна полезная функция, представленная в версии Aspose.Cells for .NET 8.7.0, — это свойство DataLabels.IsResizeShapeToFitText, которое позволяет[Изменение размера фигуры в соответствии с текстом](/cells/ru/net/resize-chart-s-data-label-shape-to-fit-text/)функция приложения Excel для меток данных диаграммы.
 
 Ниже приведен простой сценарий использования.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Добавлено свойство PdfSaveOptions.OptimizationType.**
-Aspose.Cells for .NET 8.7.0 предоставило свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить пользователям[выбрать нужный алгоритм оптимизации при экспорте электронных таблиц в формат PDF](/cells/ru/net/save-excel-into-pdf-with-standard-or-minimum-size/). Существует 2 возможных значения свойства PdfSaveOptions.OptimizationType, как описано ниже.
+Aspose.Cells for .NET 8.7.0 предоставило свойство PdfSaveOptions.OptimizationType вместе с перечислением PdfOptimizationType, чтобы облегчить пользователям[выбрать нужный алгоритм оптимизации при экспорте таблиц в формат PDF](/cells/ru/net/save-excel-into-pdf-with-standard-or-minimum-size/). Существует 2 возможных значения свойства PdfSaveOptions.OptimizationType, как описано ниже.
 
 1. PdfOptimizationType.MinimumSize: Качество скомпрометировано из-за результирующего размера файла.
 1. PdfOptimizationType.Standard: качество не страдает, поэтому результирующий размер файла будет большим.

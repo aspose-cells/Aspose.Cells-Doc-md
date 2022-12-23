@@ -24,22 +24,22 @@ url: /zh/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop 不应滚动到最后一列|强化|
 |CELLSNET-45577|GridDesktop 不应滚动到最后一行|强化|
 |CELLSNET-45633|使用具有大量要计算的函数的自定义函数时的 GetRanges 性能问题|表现|
-|CELLSNET-45592|某些绘图元素在 Excel 到 PDF 渲染中的位置错误|漏洞|
-|CELLSNET-45575|输出 PDF 中缺少框上的灰色背景|漏洞|
-|CELLSNET-45516|Excel中分散/分散的形状文本转PDF渲染|漏洞|
+|CELLSNET-45592|某些绘图元素在 Excel 中的位置错误到 PDF 渲染|漏洞|
+|CELLSNET-45575|输出中缺少框上的灰色背景 PDF|漏洞|
+|CELLSNET-45516|形状文本分散/分散在Excel中以PDF呈现|漏洞|
 |CELLSNET-45415|Sheet to Image 渲染忽略带有单元格引用的 TextBox 中的亚洲字体|漏洞|
 |CELLSNET-45315|Sheet to Image 渲染中缺少形状的某些文本（标签）|漏洞|
 |CELLSNET-45655|提供一个选项来控制是否保持数字精度格式|漏洞|
-|CELLSNET-45630|“222.xlsx”的 HTML 输出不正确|漏洞|
+|CELLSNET-45630|HTML “222.xlsx”的输出不正确|漏洞|
 |CELLSNET-45621|保存为 HTML 文件格式时创建了两个图像资源而不是一个|漏洞|
 |CELLSNET-45597|数字列的“数字存储为文本”|漏洞|
 |CELLSNET-45558|当 MHtml 文件以 XLS 扩展名保存时，MS Excel 在打开 XLS 文件时显示错误|漏洞|
 |CELLSNET-45557|将文件另存为 XLS 后格式丢失|漏洞|
-|CELLSNET-45556|将文件另存为 XLS 后图像丢失|漏洞|
-|CELLSNET-45538|将 MHtml 文件保存为 XLS 或 MHT 时，图像丢失和格式被删除|漏洞|
+|CELLSNET-45556|将文件保存为 XLS 后图像丢失|漏洞|
+|CELLSNET-45538|将 MHtml 文件保存到 XLS 或 MHT 时，图像丢失和格式被删除|漏洞|
 |CELLSNET-45584|使用 PageSetup.GetCommands() 时无限循环|漏洞|
-|CELLSNET-45637|三个连字符“---”在输出 PDF 中呈现为空白区域|漏洞|
-|CELLSNET-45612|Excel 到 PDF 转换中的浮线（单下划线、双下划线）问题|漏洞|
+|CELLSNET-45637|三个连字符“---”在输出 PDF 中呈现为空格|漏洞|
+|CELLSNET-45612|Excel 中浮线（单下划线、双下划线）到 PDF 转换的问题|漏洞|
 |CELLSNET-45608|当 ImageOrPrintOptions.OnlyArea = true 时，数据会损坏|漏洞|
 |CELLSNET-45605|转换为图像时部分缺少字符|漏洞|
 |CELLSNET-45571|默认灰色单元格边框转换为虚线|漏洞|
@@ -49,13 +49,13 @@ url: /zh/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45587|雷达图的输出 PDF 中的比例增加|漏洞|
 |CELLSNET-45573|图表图像没有三位数|漏洞|
 |CELLSNET-45569|无法通过 Aspose.Cells 从图表渲染图像|漏洞|
-|CELLSNET-45563|将线图与源 Excel 进行比较时图表 PDF 不正确|漏洞|
+|CELLSNET-45563|将线图与源 Excel 进行比较时图表不正确 PDF|漏洞|
 |CELLSNET-45561|从 Sample.xlsm 工作表 SampleCharts 生成的图像不正确|漏洞|
 |CELLSNET-45441|图表图例在转换为图像时呈现在错误的位置|漏洞|
 |CELLSNET-45643|OLE 对象在打开和编辑 OLE 对象文件后更改大小|漏洞|
 |CELLSNET-45639|SpreadsheetML - 列上的隐藏属性不起作用|漏洞|
 |CELLSNET-45638|在工作表中插入列会导致损坏的输出 Excel 文件|漏洞|
-|CELLSNET-45636|SpreadsheetML - 行上的隐藏属性无法正常工作|漏洞|
+|CELLSNET-45636|SpreadsheetML - 行上的隐藏属性工作不正常|漏洞|
 |CELLSNET-45624|保存自定义日期属性会导致写入错误的时间|漏洞|
 |CELLSNET-45617|加载和保存 XLS 文件后列宽发生变化|漏洞|
 |CELLSNET-45616|重新加载和重新保存后，圆图和柱形图发生了巨大变化|漏洞|
@@ -72,7 +72,7 @@ url: /zh/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45635|输入字符串的格式不正确 - 打开 MS Excel 文件时出现异常|例外|
 |CELLSNET-45589|项目已添加。字典中的键：'Sheet1' 正在添加的键：'Sheet1'|例外|
 |CELLSNET-45647|在 GridWeb 中打开“BUDGET RH 3_1.xlsm”出现异常|例外|
-|CELLSNET-45646|将 XLSM 文件导入 GridWeb 时出现异常|例外|
+|CELLSNET-45646|XLSM 文件导入GridWeb时出现异常|例外|
 ### **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for .NET 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 #### **添加 HTMLLoadOptions.LoadStyleStrategy 属性**
@@ -111,7 +111,7 @@ url: /zh/net/aspose-cells-for-net-17-9-release-notes/
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
 - [添加带有命名目标的 PDF 书签](/cells/zh/net/add-pdf-bookmarks-with-named-destinations/)
-- [在呈现为 PDF 时控制 MS Excel 工作簿中外部资源的加载](/cells/zh/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [渲染到 PDF 时控制 MS Excel 工作簿中外部资源的加载](/cells/zh/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [将 VBA 宏 UserForm DesignerStorage 从模板复制到目标工作簿](/cells/zh/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [创建删除和获取 GridCell 注释](/cells/zh/net/create-remove-and-get-gridcell-comments/)
 - [在工作表内发送形状前面或后面](/cells/zh/net/send-shape-front-or-back-inside-the-worksheet/)

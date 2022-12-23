@@ -12,7 +12,7 @@ url: /es/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-44194|La forma del dibujo no se representa en la representación de Excel a PDF|
+|CELLSJAVA-44194|La forma del dibujo no se representa en Excel para la representación PDF|
 |CELLSJAVA-44864|La carga simultánea de libros de trabajo arroja errores falsos de "El archivo está dañado"|
 |CELLSJAVA-44327|Se muestran bordes y menos líneas en sectores circulares en blanco y negro en el gráfico para la representación de imágenes|
 |CELLSJAVA-44591|La rotación de texto de las etiquetas no coincide con Excel en la imagen de salida del gráfico|
@@ -20,7 +20,7 @@ url: /es/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 |CELLSJAVA-44860|la visualización del texto de la celda no es la misma que en Excel en algunas áreas combinadas|
 |CELLSJAVA-44832|Se imprimen varias páginas en lugar de una página como en Excel al convertir a pdf|
 |CELLSJAVA-44812|No se puede disminuir el área de trazado del gráfico|
-|CELLSJAVA-44831|MS Word muestra el error "Word encontró contenido ilegible en..." al abrir el archivo DOCX convertido desde XLSX por Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word muestra el error "Word encontró contenido ilegible en..." al abrir el archivo convertido DOCX desde XLSX por Aspose.Cells for Java|
 |CELLSJAVA-44833|El color del texto no se aplica a diferentes palabras o parte del contenido en el archivo de salida de Excel cuando se usa el método Cell.setHtmlString()|
 |CELLSJAVA-44852| El borde es incorrecto cuando el archivo de Excel estático se convierte a HTML|
 |CELLSJAVA-44856| Conversión de Excel a HTML: Sparkline (minigráfico) no se muestra/renderiza|

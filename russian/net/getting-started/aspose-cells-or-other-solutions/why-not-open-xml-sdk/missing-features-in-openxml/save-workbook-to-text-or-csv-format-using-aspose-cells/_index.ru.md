@@ -1,5 +1,5 @@
 ﻿---
-title: Сохранить книгу в текстовом формате или формате CSV, используя Aspose.Cells
+title: Сохранить книгу в текст или формат CSV, используя Aspose.Cells
 type: docs
 weight: 80
 url: /ru/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
@@ -24,7 +24,7 @@ string FilePath = @"..\..\..\Sample Files\";
 
 string FileName = FilePath + "Сохранить книгу в текстовом формате или формате CSV.xlsx";
 
-string destFileName = FilePath + "Сохранить книгу в текстовом формате или формате CSV.txt";
+string destFileName = FilePath + "Сохранить книгу в текст или формат CSV.txt";
 
 //Загружаем исходную книгу
 

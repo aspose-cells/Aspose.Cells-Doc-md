@@ -12,17 +12,17 @@ url: /tr/php-java/aspose-cells-for-php-via-java-22-11-release-notes/
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-44888|"+" ve "-" dönüşümden sonra kayboldu - Excel'den HTML'ye dönüştürme|
+|CELLSJAVA-44888|"+" ve "-" dönüştürüldükten sonra kayboldu - Excel'den HTML oluşturmaya|
 |CELLSJAVA-44775|Grafikten görüntü işlemeye grafikte çakışan grafik etiketleri|
 |CELLSJAVA-44882|Grafikten görüntüye oluşturma - Etiketlerden biri halka grafiğin içindedir|
-|CELLSJAVA-44943|XLSX'ten PDF'e: Grafik etiketleri doğru şekilde oluşturulmadı|
-|CELLSJAVA-44928|XLS'den PDF'e: Bir resim için yetersiz veri|
-|CELLSJAVA-44910|Excel'i HTML'ye dönüştürme, binlerce benzer küçük resimle sonuçlanır|
+|CELLSJAVA-44943|XLSX - PDF: Grafik etiketleri doğru şekilde oluşturulmadı|
+|CELLSJAVA-44928|XLS ila PDF: Bir görüntü için yetersiz veri|
+|CELLSJAVA-44910|Excel'i HTML'e dönüştürün, binlerce benzer küçük resim elde edin|
 |CELLSJAVA-44944|Tabloları yeniden boyutlandırmak hücrelerin biçimlendirmesini değiştirir|
-|CELLSJAVA-44948| HTML'yi Excel'e dönüştürürken resimler sayfada görüntülenemez|
+|CELLSJAVA-44948| HTML Excel'e dönüştürülürken resimler sayfada görüntülenemiyor|
 |CELLSJAVA-44908|Büyük XLSB dosyaları yüklenirken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
 |CELLSJAVA-44929|Regresyon: Workbook.calculateFormula() üzerinde "java.lang.NullPointerException"|
-|CELLSJAVA-44927|Excel dosyasını HTML'ye dönüştürürken "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" istisnası|
+|CELLSJAVA-44927|Excel dosyasını HTML'e dönüştürürken "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" istisnası|
 |CELLSJAVA-44939|Bir Excel dosyasını okumaya çalışırken "java.lang.StringIndexOutOfBoundsException: Dize dizini aralığın dışında: 0" hatası|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

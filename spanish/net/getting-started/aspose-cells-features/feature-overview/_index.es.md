@@ -1,5 +1,5 @@
 ﻿---
-title: Resumen de características
+title: Resumen de funciones
 type: docs
 weight: 10
 url: /es/net/feature-overview/
@@ -27,25 +27,25 @@ Muchos clientes de todo el mundo confían en las funciones completas de importac
 |**Rasgo**|**Descripción**|**.NET**|**.NET Estándar 2.0** |
 |:- |:- |:- |:- |
 |Conversiones de alta calidad|Convierta de forma rápida y confiable entre varios formatos de documentos populares.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Libro de Excel (XLS)|La implementación de formato XLS más rápida y completa que puedas encontrar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Hoja de cálculo ML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Además, el componente soporta<br>todos los principales formatos de archivo de Excel 2007, 2010 y 2013, por ejemplo, XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Libro de Excel (XLS)|La implementación del formato XLS más rápida y completa que puedas encontrar.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells admite OOXML, Flat OPC y también Excel 2003 XML. Además, el componente soporta<br>todos los principales formatos de archivo de Excel 2007, 2010 y 2013, por ejemplo, XLSX, XLTX, XLSM, XLTM, etc.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Valor separado por comas (CSV)|Soporte integral del formato CSV para interactuar con una variedad de aplicaciones.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|TSV|Cargue y guarde documentos en formato de archivo TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|TSV|Cargue y guarde documentos en el formato de archivo TSV.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|Guardar como HTML está disponible.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument-ODS](/cells/es/net/opendocument-ods/)|Aspose.Cells puede cargar y guardar documentos en formato de hoja de cálculo OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Convertir a archivos PDF|Convierta cualquier hoja de cálculo a PDF con alta fidelidad.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Delimitado por tabulaciones|Cargue y guarde documentos en el formato de archivo delimitado por tabulaciones.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Documento abierto - ODS](/cells/es/net/opendocument-ods/)|Aspose.Cells puede cargar y guardar documentos en formato de hoja de cálculo OpenDocument (.ods).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Conversión a archivos PDF|Convierta cualquier hoja de cálculo a PDF con alta fidelidad.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Delimitado por tabulaciones|Cargue y guarde documentos en el formato de archivo delimitado por tabuladores.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Texto sin formato (TXT)|Extraiga texto fácilmente guardándolo en formato de texto sin formato.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[documento XPS](/cells/es/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Convierta una hoja de cálculo de Excel en un documento XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Conversión de hoja de trabajo a imagen y hoja de trabajo a imagen por página](/cells/es/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Las hojas de cálculo también se pueden exportar a formato de archivo de imagen etiquetada (TIFF) con cualquier tipo de compresión deseado.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XPS documento](/cells/es/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Convierta la hoja de cálculo de Excel en el documento XPS|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Conversión de hoja de trabajo a imagen y hoja de trabajo a imagen por página](/cells/es/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Las hojas de cálculo también se pueden exportar al formato de archivo de imagen etiquetada (TIFF) con cualquier tipo de compresión deseado.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Renderizado e Impresión**
 Aspose.Cells for .NET ahora ofrece representación de alta fidelidad de páginas de hojas de cálculo.
 
 |**Rasgo**|**.NET**|**.NET Estándar 2.0** |
 |:- |:- |:- |
 |Diseñe el documento en páginas con alta fidelidad a Microsoft Excel® (exactamente como lo haría Microsoft Excel®).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Renderice páginas de hojas de trabajo en imágenes rasterizadas (TIFF, TIFF de varias páginas, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Renderice páginas de hojas de cálculo en imágenes vectoriales (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Renderice páginas de la hoja de trabajo en imágenes de trama (TIFF, multipágina TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Transforme páginas de hojas de cálculo en imágenes vectoriales (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Especifique la resolución, la calidad, la compresión y otras opciones de la imagen.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Imprima hojas de cálculo utilizando la infraestructura de impresión .NET. El componente tiene un método de impresión incorporado para imprimir las hojas de trabajo como se muestra en la vista previa de impresión de Excel Microsoft.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Actualice los números de página y otros campos antes de renderizar o imprimir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -11,7 +11,7 @@ Ibland måste du hitta ett enkelt sätt för cellerna som innehåller formler. D
 Aspose.Cells.GridWeb tillhandahåller den funktion som kallas Visa formler i Microsoft Excel.
 
 {{% /alert %}} 
-## **Använda funktionen Visa formler**
+## **Använder Visa formler-funktionen**
 Allt du behöver för att använda en genväg "CTRL + ~" för att visa alla formler i kalkylbladet.
 
 Till exempel laddar vi in en mallfil i GridWeb som har formler i C-kolumnen, här är koden vi helt enkelt använde för att ladda filen.

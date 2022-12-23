@@ -55,7 +55,7 @@ Här är några av de viktigaste egenskaperna som exponeras av klassen {Aspose.C
 |Referenser|Anger den autentiseringsmetod som ska användas när anslutningen upprättas (eller återupprättas).|
 |Är Raderad|Indikerar om den associerade arbetsboksanslutningen har tagits bort. sant om<br>anslutningen har tagits bort; annars falskt.|
 |Är ny| Sant om anslutningen inte har uppdaterats för första gången; annars falskt. Detta<br>tillstånd kan inträffa när användaren sparar filen innan en fråga har slutat återkomma.|
-|Håll vid liv|Sant när kalkylprogrammet ska anstränga sig för att behålla anslutningen<br> öppna. När det är falskt bör applikationen stänga anslutningen efter att ha hämtat<br>information.|
+|Håll vid liv|Sant när kalkylprogrammet ska anstränga sig för att behålla anslutningen<br> öppen. När det är falskt bör applikationen stänga anslutningen efter att ha hämtat<br>information.|
 |namn|Anger namnet på anslutningen. Varje anslutning måste ha ett unikt namn.|
 |OdcFile| Anger den fullständiga sökvägen till den externa anslutningsfilen från vilken anslutningen kom<br> skapas. Om en anslutning misslyckas under ett försök att uppdatera data, och reconnectionMethod=1,<br> då försöker kalkylarket igen med information från den externa anslutningsfilen<br>istället för det anslutningsobjekt som är inbäddat i arbetsboken.|
 |OnlyUseConnectionFile| Anger om kalkylbladsapplikationen alltid och bara ska använda<br> anslutningsinformation i den externa anslutningsfilen som anges av odcFile-attributet<br> när anslutningen uppdateras. Om falskt, då kalkylarksapplikationen<br>bör följa proceduren som anges av attributet reconnectionMethod|
@@ -158,7 +158,7 @@ Samma egenskap kan också användas för att konvertera diagram till bilder.
 
 
 ### **Återge kommentarer till PDF**
-Med lanseringen av v8.4.1 har Aspose.Cells API tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta renderingen av kommentarer samtidigt som kalkylblad konverteras till PDF-format. PrintCommentsType-uppräkningen har följande konstanter.
+Med lanseringen av v8.4.1 har Aspose.Cells API tillhandahållit egenskapen PageSetup.PrintComments & PrintCommentsType för att underlätta återgivningen av kommentarer samtidigt som kalkylblad konverteras till formatet PDF. PrintCommentsType-uppräkningen har följande konstanter.
 
 - PrintCommentsType.PrintNoComments: Kommentarer ska inte återges.
 - PrintCommentsType.PrintInPlace: Kommentarer ska återges där de är placerade.
@@ -260,7 +260,7 @@ else
 
 
 ### **Lagt till egenskapen ImageOrPrintOptions.SVGFitToViewPort**
-Aspose.Cells for .NET 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för SVG-filformatet medan kalkylblad eller diagram exporteras till SVG-format. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML för SVG-filen som genereras utan att ställa in ovannämnda egenskap inte att inkludera viewBox-attributet.
+Aspose.Cells for .NET 8.4.1 har exponerat egenskapen SVGFitToViewPort för klassen ImageOrPrintOptions som kan användas för att aktivera viewBox-attributet för filformatet SVG medan kalkylblad eller diagram exporteras till formatet SVG. Standardvärdet för den här egenskapen är falskt, därför kommer bas-XML-filen för SVG som genereras utan att ange ovannämnda egenskap inte att inkludera viewBox-attributet.
 
 Följande exempelkod visar användningen av egenskapen ImageOrPrintOptions.SVGFitToViewPort.
 

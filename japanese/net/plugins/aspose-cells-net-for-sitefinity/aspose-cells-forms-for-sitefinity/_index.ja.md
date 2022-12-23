@@ -6,7 +6,7 @@ url: /ja/net/aspose-cells-forms-for-sitefinity/
 ---
 ## **序章**
 
-Aspose.Cells Sitefinity モジュールの動的フォームにより、ユーザーは動的なアンケートと調査を生成し、ユーザー入力を Excel スプレッドシートに保存し、Aspose.Cells を使用して結果を Excel、テキスト、CSV、および OpenDocument スプレッドシートにエクスポートできます。
+Aspose.Cells Sitefinity モジュールの動的フォームにより、ユーザーは動的なアンケートと調査を生成し、ユーザー入力を Excel スプレッドシートに保存し、結果を Excel、テキスト、CSV、および Aspose.Cells を使用して OpenDocument スプレッドシートにエクスポートできます。
 
 |<p>![todo:画像_代替_文章](aspose-cells-forms-for-sitefinity_1)</p><p></p>|
 |:- |

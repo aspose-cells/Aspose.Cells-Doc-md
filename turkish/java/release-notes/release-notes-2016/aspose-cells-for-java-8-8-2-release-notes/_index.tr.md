@@ -9,7 +9,7 @@ url: /tr/java/aspose-cells-for-java-8-8-2-release-notes/
 |**Anahtar** |**Özet** |**Kategori** |
 |:- |:- |:- |
 |CELLSJAVA-41848 | Grafikten resme işlenirken belirli veri etiketleri eksik| Böcek|
-|CELLSJAVA-41850 |CellsException: Cell kaldırıldı: MemorySetting.MEMORY_PREFERENCE ile D9| İstisna|
+|CELLSJAVA-41850 | CellsException: Cell kaldırıldı: MemorySetting.MEMORY_PREFERENCE ile D9| İstisna|
 |CELLSJAVA-41844 | İstisna: "Şekilden görüntüye Hata !" bir çalışma sayfasını resme dönüştürürken| İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.

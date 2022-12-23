@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-20-8-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-47524|Prise en charge des segments dans les tableaux Excel|Nouvelle fonctionnalité|
 |CELLSNET-47512|Client API pour le réglage direct de la police pour GridWeb|Nouvelle fonctionnalité|
@@ -19,9 +19,9 @@ url: /fr/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-43975|Prise en charge des types de polices OTF avec les API Aspose.Cells à des fins de rendu|Nouvelle fonctionnalité|
 |CELLSNET-47445|Tableau croisé dynamique non affiché lorsqu'il est enregistré en tant que fichier ODS|Nouvelle fonctionnalité|
 |CELLSNET-47495|Prise en charge de la conversion du classeur en PPTX dont les diapositives sont des images.|Nouvelle fonctionnalité|
-|CELLSNET-47499|Sipport convertit le classeur en DOCX dont les pages sont des images.|Nouvelle fonctionnalité|
+|CELLSNET-47499|Sipport convertit le classeur en DOCX, quelles pages sont des images.|Nouvelle fonctionnalité|
 |CELLSNET-47538|Tableau de support pour le fichier .ods.|Nouvelle fonctionnalité|
-|CELLSNET-47515|La conversion XLSX en HTML prend plusieurs minutes lors de l'utilisation de Aspose.Cells|Renforcement|
+|CELLSNET-47515|La conversion de XLSX à HTML prend un certain nombre de minutes lors de l'utilisation de Aspose.Cells|Renforcement|
 |CELLSNET-47483|Exception "La longueur maximale du nom de la police est de 31" lors du chargement d'un XLS|Renforcement|
 |CELLSNET-47489|Provision pour modifier PowerQueryFormulaParameters|Renforcement|
 |CELLSNET-47387|Calculer la formule sur de grandes données Excel de plus de 140 000 lignes ne fonctionne pas|Performance|
@@ -30,17 +30,17 @@ url: /fr/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47493|Problème de conversion de XLSX en HTML|Punaise|
 |CELLSNET-47501|Certains espaces de formatage de nombres positifs à droite manquent dans la sortie|Punaise|
 |CELLSNET-47503|Des champs sont manquants lors de la conversion de XLSX en HTML|Punaise|
-|CELLSNET-47516|Prise en charge de l'arrière-plan dégradé linéaire lors de l'exportation de fichiers au format HTML ou MHT|Punaise|
+|CELLSNET-47516|Prend en charge l'arrière-plan dégradé linéaire lors de l'exportation de fichiers vers HTML ou MHT|Punaise|
 |CELLSNET-47521|Message d'erreur lors de l'ouverture du fichier de sortie après avoir réenregistré un XLSX|Punaise|
 |CELLSNET-47475|CalculateFormula() calcule différemment de MS Excel|Punaise|
 |CELLSNET-47504|Conversion de format incorrecte dans Excel en rendu HTML|Punaise|
-|CELLSNET-47464|Une ligne est formée en haut du document lors de la conversion Excel en PDF|Punaise|
+|CELLSNET-47464|Une ligne est formée en haut du document dans Excel pour la conversion PDF|Punaise|
 |CELLSNET-47481|Étiquette manquante lors de la conversion de la feuille de calcul en images|Punaise|
 |CELLSNET-47497|L'alignement du texte Excel sur EMF n'est pas cohérent|Punaise|
 |CELLSNET-47522|Aspose Les images rendues ont des écarts plus importants entre les colonnes par rapport au copier-coller manuel|Punaise|
-|CELLSNET-47533|Les images du fichier Excel ne sont pas rendues au format PDF|Punaise|
-|CELLSNET-47484|Problèmes de conversion XLSX vers HTML avec des graphiques et des caractères Unicode de largeur nulle|Punaise|
-|CELLSNET-47509|XLS vers PDF : l'axe X du graphique a une mise à l'échelle incorrecte|Punaise|
+|CELLSNET-47533|Les images du fichier Excel ne sont pas rendues à PDF|Punaise|
+|CELLSNET-47484|Problèmes de conversion de XLSX à HTML avec des graphiques et des caractères Unicode de largeur nulle|Punaise|
+|CELLSNET-47509|XLS à PDF : l'axe X du graphique a une mise à l'échelle incorrecte|Punaise|
 |CELLSNET-47520|Cells.InsertRange entraîne la perte du titre du graphique|Punaise|
 |CELLSNET-47485|RelativeToOriginalPictureSize = false ne fonctionne pas|Punaise|
 |CELLSNET-47507|Regroupement de fusion Smart Marker à partir de données JSON|Punaise|
@@ -48,10 +48,10 @@ url: /fr/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNETCORE-74|La position de la forme a changé lors du chargement et de l'enregistrement du fichier XLS|Punaise|
 |CELLSNETCORE-75|Le cadre de texte devient plus petit après le chargement et l'enregistrement du fichier XLS|Punaise|
 |CELLSNETCORE-76|La police change lors du chargement et de l'enregistrement du fichier XLS|Punaise|
-|CELLSNET-47487|Forme à l'image Erreur lors de la conversion de XLSB en PDF|Exception|
-|CELLSNET-47490|La conversion de fichiers XLSX avec des éléments cachés en HTML lève des exceptions|Exception|
+|CELLSNET-47487|Forme en image Erreur lors de la conversion de XLSB en PDF|Exception|
+|CELLSNET-47490|La conversion des fichiers XLSX avec des éléments cachés en HTML lève des exceptions|Exception|
 |CELLSNET-47526|Une exception est levée si le champ pivot est un champ de données.|Exception|
-|CELLSNET-47529|Exception lors de la conversion HTML aller-retour complet avec un fichier spécifique|Exception|
+|CELLSNET-47529|Exception lors de la conversion aller-retour complète HTML avec un fichier spécifique|Exception|
 |CELLSNET-47496|Exception lors de la conversion du graphique en image|Exception|
 |CELLSNET-47488|Exception "La valeur de zoom doit être comprise entre 10 et 400" lors de l'ouverture du fichier ODS|Exception|
 |CELLSNET-47491|FormatException levée lors de la conversion de certains fichiers XLSX stricts en HTML|Exception|
@@ -61,7 +61,7 @@ url: /fr/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47510|Une exception a été levée sur la méthode Save après RemoveExternalLinks|Exception|
 |CELLSNET-47525|L'enregistrement d'un classeur génère une exception après avoir effacé les commentaires|Exception|
 |CELLSNET-47528|FormatException lors du chargement d'un fichier XLSX|Exception|
-|CELLSNET-47530|Exception "Le niveau d'indentation doit être compris entre 0 et 250" lors du rendu d'un fichier Excel au format PDF|Exception|
+|CELLSNET-47530|Exception "Le niveau d'indentation doit être compris entre 0 et 250" lors du rendu d'un fichier Excel vers PDF|Exception|
 |CELLSNET-47541|Exception "Nom de cellule invalide" lors du chargement d'un fichier XLSX|Exception|
 
 ### **Public API et modifications incompatibles avec les versions antérieures**

@@ -10,7 +10,7 @@ Bu makale, ara toplamın verilere nasıl uygulanacağını ve Ayrıntı altında
 
  Alt Toplam'ı kullanarak verilere uygulayabilirsiniz.[**Worksheet.Cells.Ara toplam()**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index) yöntem. Aşağıdaki parametreleri alır.
 
-- **hücre alanı** - Ara toplamın uygulanacağı aralık
+- **hücre alanı** Ara toplamın uygulanacağı aralık
 - **Gruplandıran** - Sıfır tabanlı bir tamsayı ofseti olarak gruplandırılacak alan
 - **İşlev** - Alt toplam işlevi.
 - **Toplam Liste** - Ara toplamların eklendiği alanları gösteren sıfır tabanlı alan ofsetleri dizisi.
@@ -20,7 +20,7 @@ Bu makale, ara toplamın verilere nasıl uygulanacağını ve Ayrıntı altında
 
  Ayrıca, Anahat yönünü de kontrol edebilirsiniz.**Detayın altındaki özet satırları** Worksheet.Outline.SummaryRowBelow özelliği kullanılarak aşağıdaki ekran görüntüsünde gösterildiği gibi. Bu ayarı kullanarak Microsoft Excel'de açabilirsiniz.**Veri > Anahat > Ayarlar**
 
-![yapılacaklar:resim_alternatif_Metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
+![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_1.png)
 
 {{% /alert %}}
 
@@ -28,11 +28,11 @@ Bu makale, ara toplamın verilere nasıl uygulanacağını ve Ayrıntı altında
 
 Aşağıdaki ekran görüntüsü, aşağıdaki örnek kodda kullanılan ve A ve B sütunlarında bazı veriler içeren kaynak Excel dosyasını göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
+![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_2.png)
 
 Aşağıdaki ekran görüntüsü, örnek kod tarafından oluşturulan çıktı Excel dosyasını gösterir. Görüldüğü gibi A2:B11 aralığına ara toplam uygulanmış ve ana hatların yönü detayın altında özet satırları şeklindedir.
 
-![yapılacaklar:resim_alternatif_Metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
+![yapılacaklar:resim_alternatif_metin](applying-subtotal-and-changing-direction-of-outline-summary-rows-below-detail_3.png)
 
 ## C# ara toplamı uygulamak ve ana hat özet satırlarının yönünü değiştirmek için kod
 

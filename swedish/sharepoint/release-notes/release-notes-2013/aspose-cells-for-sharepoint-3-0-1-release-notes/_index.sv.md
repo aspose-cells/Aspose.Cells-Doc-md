@@ -16,7 +16,7 @@ url: /sv/sharepoint/aspose-cells-for-sharepoint-3-0-1-release-notes/
 
  SHAREPOINT-40018- Sök i dokumentet på SharePoint
 
-SHAREPOINT-40015- Lägg till Aspose.Cells for SharePoint verktygsfält for SharePoint 2010
+ SHAREPOINT-40015- Lägg till Aspose.Cells for SharePoint verktygsfält for SharePoint 2010
 
 
 

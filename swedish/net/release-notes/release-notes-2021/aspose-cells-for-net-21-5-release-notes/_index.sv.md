@@ -25,9 +25,9 @@ url: /sv/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47982|Ny arbetsbok hänger på ogiltig fil|Prestanda|
 |CELLSNET-48012|Förbättra prestanda för läsning av .ods-filer med ett stort antal valideringar.|Prestanda|
 |CELLSNET-48039|Oändlig slinga när kopierad arbetsbok sparas|Prestanda|
-|CELLSNET-44224|WordArt vattenstämpel återges inte i PDF-filformatet|Insekt|
+|CELLSNET-44224|WordArt vattenstämpel återges inte i utdatafilformatet PDF|Insekt|
 |CELLSNET-47887|Text inuti formen är felplacerad|Insekt|
-|CELLSNET-47920|En del innehåll saknas i HTML till Excel-konvertering|Insekt|
+|CELLSNET-47920|En del innehåll saknas i konverteringen HTML till Excel|Insekt|
 |CELLSNET-47981|Resultatet av att exportera intervall med sammanslagna celler till html är felaktigt|Insekt|
 |CELLSNET-47985|Mindre antal rader vid konvertering till html|Insekt|
 |CELLSNET-47987|Flytta pivotfältet till sidavsnittet eller pivotfilter|Insekt|
@@ -40,12 +40,12 @@ url: /sv/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-48031|"Shape to image Error" ökar när xlsx-fil konverteras till html|Insekt|
 |CELLSNET-48037|Bilden förvrängs när du sparar till PDF|Insekt|
 |CELLSNET-47714|Text i vertikal axel överlappar horisontell axel på diagrammet vid konvertering till EMF|Insekt|
-|CELLSNET-47856|XLSX till PDF-konverteringsproblem med pivottabeller|Insekt|
+|CELLSNET-47856|XLSX till PDF konverteringsproblem med pivottabeller|Insekt|
 |CELLSNET-47986|Diagram till bild/PDF - fel utdata med vattenfallsdiagramtyp|Insekt|
-|CELLSNET-48010|Undantag vid laddning av en Excel 2010 XLSX-filer|Insekt|
+|CELLSNET-48010|Undantag vid laddning av Excel 2010 XLSX-filer|Insekt|
 |CELLSNET-48020|Formulärkontroller raderas efter Ladda och spara Excel 95 via Aspose.Cells|Insekt|
 |CELLSNET-48033|Excel-fil skadad efter att ha laddats och sparats|Insekt|
-|CELLSNET-47957| "Shape to image Error" ökar när en Excel-fil konverteras till PDF-filformat|Undantag|
+|CELLSNET-47957| "Shape to image Error" uppstår när en Excel-fil konverteras till PDF filformat|Undantag|
 |CELLSNET-48027|Ogiltigt parameterundantag vid konvertering av form till bild|Undantag|
 |CELLSNET-48029|"Shape to image Error" höjs|Undantag|
 |CELLSNET-48017|Undantaget "Inmatningssträngen var inte i korrekt format" vid import av html-fil|Undantag|
@@ -56,7 +56,7 @@ url: /sv/net/aspose-cells-for-net-21-5-release-notes/
 |CELLSNET-47980|Ett fel uppstod när en Excel-fil sparades med Aspose.Cells|Undantag|
 |CELLSNET-48001|Ogiltigt radindexundantag vid anrop av GetPrintingPageBreaks()|Undantag|
 |CELLSNET-48022|Oväntad Border.LineTyp av en cell|Undantag|
-|CELLSNET-48032|Undantag när dokument ODS-fil är öppen|Undantag|
+|CELLSNET-48032|Undantag när dokument ODS är öppet|Undantag|
 |
 
 
@@ -292,10 +292,10 @@ Använd SaveFormat.Svg enum istället.
  
  Använd LoadFormat.Csv enum istället.
 
-### **Föråldrar LoadFormat.TSV enum och lägger till LoadFormat.Tsv enum.**
+### **Föråldrade LoadFormat.TSV enum och lägger till LoadFormat.Tsv enum.**
 
  
-Använd LoadFormat.Tsv enum istället.
+ Använd LoadFormat.Tsv enum istället.
 
 ### **Föråldrar LoadFormat.ODS enum och lägger till LoadFormat.Ods enum.**
 
@@ -306,7 +306,7 @@ Använd LoadFormat.Tsv enum istället.
  
  Använd LoadFormat.Sxc enum istället.
 
-### **Föråldrar LoadFormat.FODS enum och lägger till LoadFormat.Fods enum.**
+### **Föråldrade LoadFormat.FODS enum och lägger till LoadFormat.Fods enum.**
 
  
  Använd LoadFormat.Fods enum istället.

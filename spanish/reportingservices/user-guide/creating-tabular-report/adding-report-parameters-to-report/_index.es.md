@@ -49,7 +49,7 @@ Para agregar parámetros de informe a los informes:
 
 
 
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
  La celda seleccionada contiene un marcador de parámetros de informe.
 
    **Un parámetro de informe insertado en la celda.** 

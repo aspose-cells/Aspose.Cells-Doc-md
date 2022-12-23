@@ -9,6 +9,6 @@ weight: 16
 Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Services 22.6
 {{% /alert %}} 
 ## **Elenco completo dei problemi e dei miglioramenti trattati in questa versione**
-|**ID**|**Riepilogo**|**Categoria**|
+|**ID**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |31929 |Miglioramento per renderer del report sul formato html.| Miglioramento|

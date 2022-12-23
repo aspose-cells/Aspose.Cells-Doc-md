@@ -29,11 +29,11 @@ Diese Seite enthält Versionshinweise für Aspose.Cells für CPP 18.4.
 |CELLSCPP-89|Testfall im Charts/EnumTypes-Verzeichnis übersetzen und debuggen|Neue Funktion|
 |CELLSCPP-91|Testfall in Finds übersetzen|Neue Funktion|
 |CELLSCPP-96|Testfall im Verzeichnis Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts übersetzen und debuggen|Neue Funktion|
-|CELLSCPP-97|Debuggen und beheben Sie Probleme in Bezug auf das Rendern von XLSX/XLS in PDF|Neue Funktion|
+|CELLSCPP-97|Debuggen und beheben Sie Probleme in Bezug auf das Rendern von XLSX/XLS bis PDF|Neue Funktion|
 |CELLSCPP-98|Testfall im LightCells-Verzeichnis übersetzen und debuggen|Neue Funktion|
-|CELLSCPP-100|Testfall im Merges/OpenSaves/PageSetups/PDF-Verzeichnis übersetzen und debuggen|Neue Funktion|
+|CELLSCPP-100|Testfall im Verzeichnis Merges/OpenSaves/PageSetups/PDF übersetzen und debuggen|Neue Funktion|
 |CELLSCPP-101|Testfall im PivotTables-Verzeichnis übersetzen und debuggen|Neue Funktion|
-|CELLSCPP-102|Diagramme werden beim Öffnen/Speichern eines XLSX-Dateiformats nicht analysiert (beibehalten).|Neue Funktion|
+|CELLSCPP-102|Diagramme werden nicht geparst (beibehalten), wenn ein XLSX-Dateiformat geöffnet/gespeichert wird|Neue Funktion|
 |CELLSCPP-103|Testfall im Shapes-Verzeichnis übersetzen und debuggen|Neue Funktion|
 |CELLSCPP-105|Testfall im XlsxTest-Verzeichnis übersetzen und debuggen|Neue Funktion|
 |CELLSCPP-108|Öffnen Sie Dateien und prüfen Sie diagrammbezogene Probleme|Neue Funktion|

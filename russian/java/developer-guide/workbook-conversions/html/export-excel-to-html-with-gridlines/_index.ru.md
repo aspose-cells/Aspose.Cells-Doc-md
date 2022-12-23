@@ -10,9 +10,9 @@ url: /ru/java/export-excel-to-html-with-gridlines/
 
 {{% /alert %}} 
 ## **Экспорт Excel в HTML с помощью GridLines**
- Следующий пример кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет ее в формате HTML после установки[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) к**истинный**.
+Следующий пример кода создает книгу и заполняет ее лист некоторыми значениями, а затем сохраняет ее в формате HTML после установки[HtmlSaveOptions.ExportGridLines](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportGridLines) к**истинный**.
 
-На следующем снимке экрана показан выходной HTML-код, сгенерированный с помощью этого примера кода. Как видите, он также отображает линии сетки в выходном HTML.
+На следующем снимке экрана показан вывод HTML, созданный с помощью этого примера кода. Как видите, он также отображает линии сетки в выводе HTML.
 
 ![дело:изображение_альтернативный_текст](export-excel-to-html-with-gridlines_1.png)
 

@@ -16,7 +16,7 @@ url: /tr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Yeni özellikler
 
-29512 Yeni bir aşırı yüklenmiş yöntem ekleyin: Cell.SetStyle(Stil stili, bool explagFlag)
+ 29512 Yeni bir aşırı yüklenmiş yöntem ekleyin: Cell.SetStyle(Stil stili, bool explagFlag)
 
  Geliştirmeler
 
@@ -24,7 +24,7 @@ url: /tr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  Verim
 
- 30177 Bir ODS dosyasından bir PDF dosyası oluşturulurken Yığın Taşması İstisnası
+ Bir ODS dosyasından PDF dosyası oluşturulurken 30177 Yığın Taşması İstisnası
 
  30045 Aspose.Cells dosyayı açarken takılıyor
 
@@ -48,17 +48,17 @@ url: /tr/net/aspose-cells-for-net-7-0-1-release-notes/
 
  30303 Çalışma Sayfalarını kopyalamada sorun
 
- 30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' AutoFitRow özelliği
+30035 MS Excel (Format->AutoFit Row Height) VS Aspose.Cells' AutoFitRow özelliği
 
  29841 Pasta grafiğiyle ilgili sorun
 
  30154 Grafik veri etiketleriyle ilgili sorun
 
-30153 Çıktı XLSM dosyasında makrolar devre dışı bırakıldı
+ 30153 XLSM çıktı dosyasında makrolar devre dışı bırakıldı
 
  30332 Grafik ekseni ölçeğinin değişmesiyle ilgili sorun
 
- 30308 XLSX'teki İkincil Eksen Kaydedildiğinde kayboldu
+ XLSX'deki 30308 İkincil Eksen Kaydedildiğinde kaybedildi
 
  \2) Izgara Masaüstü
 

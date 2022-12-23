@@ -16,30 +16,30 @@ Bu sayfa Aspose.Cells for Android via Java 21.3 için sürüm notları içerir.
 |CELLSJAVA-43400|UNIQUE() işlevini destekleyin|
 |CELLSJAVA-42863|Grafiğin alt başlığını getir|
 |CELLSJAVA-43401|Tüm JDK'lar için Japon dönemi için birleşik biçimlendirme sonucunu destekleyin|
-|CELLSJAVA-43398|Koşullu biçimlendirme, ODS'den HTML'ye dönüştürmede düzgün şekilde işlenmez|
-|CELLSJAVA-43371|XLSX'ten PDF'e dönüştürme askıda kalıyor|
+|CELLSJAVA-43398|ODS'den HTML'e dönüştürmede koşullu biçimlendirme düzgün işlenmez|
+|CELLSJAVA-43371|XLSX - PDF dönüştürme kilitleniyor|
 |CELLSJAVA-43353|Excel'den pdf'ye farklı diyagramlar|
 |CELLSJAVA-43377|Excel'i Html'ye dönüştürürken görüntü yerleştirme sorunları|
 |CELLSJAVA-43381|DAYS işlevi hesaplama hatası|
 |CELLSJAVA-43342|Birleşik grafik excel'den pdf'ye doğru görüntülenemiyor|
 |CELLSJAVA-43354|Küçük histogramlarda yüzdeler gösterilmedi|
 |CELLSJAVA-40264|EXCEL olarak kaydederken form kontrollerinde veya ActiveX kontrollerinde hata_97_TO_2003|
-|CELLSJAVA-43372|ODS'yi XLSX'e dönüştürürken bozuk dosya oluşturuldu|
+|CELLSJAVA-43372|ODS, XLSX'e dönüştürülürken bozuk dosya oluşturuldu|
 |CELLSJAVA-43378|Çalışma kitabını klonladıktan sonra boş olarak görüntüle doğrudan yanlışa değişir|
 |CELLSJAVA-43382|Kopya bozuk çalışma kitabı üretir|
 |CELLSJAVA-43364|İşaretçide resim bulunan grafiği resme kaydederken sorun|
 |CELLSJAVA-43389|XLSB dosya biçimi olarak kaydederken Çalışma Kitabı/Çalışma Sayfası Parola Koruması ayarları kayboldu|
-|CELLSJAVA-43392|Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
+|CELLSJAVA-43392| Sayfayı kopyalamak bozuk çalışma kitabı üretiyor|
 |CELLSJAVA-43388|Çalışma kitabı kopyalandıktan sonra çıktı dosyası bozuk|
-|CELLSJAVA-43406|HTML'yi Excel'e dönüştürürken sorunlar|
+|CELLSJAVA-43406|HTML'i Excel'e dönüştürürken sorunlar|
 |CELLSJAVA-43399|CalculateFormula() çok sayıda hata türü değeri oluşturuyor #VALUE|
 |CELLSJAVA-43362|Grafikleri yazdırırken etiketler için yüzde sorunu|
-|CELLSJAVA-43384|PDF'ye dönüştürürken ve grafikleri yazdırırken bazı etiketler için yüzde sorunu|
+|CELLSJAVA-43384|PDF'e dönüştürülürken ve çizelgeler yazdırılırken bazı etiketler için yüzdeler sorunu|
 |CELLSJAVA-43402|Excel dosyasından tam grafik görüntüsü oluşturun|
 |CELLSJAVA-43408|Grafiğin üstü kesilir ve eğimli çizgi yukarı çıkar|
 |CELLSJAVA-43379|Çalışma kitabı HTML olarak kaydedilirken özel durum oluştu|
 |CELLSJAVA-43376|Bir XLSX dosyası yüklenirken "java.lang.ClassCastException: int'den byte'a dönüştürmede taşma. int değeri: 144" istisnası|
-|CELLSJAVA-43387|Tek sayfayı HTML'ye dışa aktarmak İstisna'yı yükseltir|
+|CELLSJAVA-43387|Tek sayfanın HTML'e dışa aktarılması İstisna'yı yükseltir|
 |CELLSJAVA-43412|xlsx'ten html'ye dönüştürmede CellsException|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

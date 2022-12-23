@@ -38,9 +38,9 @@ url: /zh/net/aspose-cells-for-net-7-3-3-release-notes/
 - 设置渐变色问题
 - 保存 MHT 文件，读取 Aspose.Cells 是一个问题
 - 某些条件格式未正确呈现
-- 具有混合大小字体的 PDF 中的错误文本定位
-- 从 Excel 文件导出为 PDF 会更改公式
-- 工作表和 PDF 呈现问题
+- PDF 中混合大小字体的错误文本定位
+- 从 Excel 文件导出到 PDF 会更改公式
+- 工作表和 PDF 渲染问题
 - 自动调整列的问题
 - 数据透视表主题问题
 - 数据透视表的刷新失败

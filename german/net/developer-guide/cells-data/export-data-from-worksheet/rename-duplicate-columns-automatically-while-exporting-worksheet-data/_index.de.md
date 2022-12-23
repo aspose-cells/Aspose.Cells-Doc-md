@@ -10,7 +10,7 @@ Manchmal hat der Benutzer beim Exportieren von Daten aus dem Arbeitsblatt in die
 
 ## **Benennen Sie doppelte Spalten beim Exportieren von Arbeitsblattdaten automatisch um**
 
- Der folgende Beispielcode fügt einige Daten in den ersten drei Spalten des Arbeitsblatts hinzu, aber alle Spalten haben denselben Namen, dh*Personen* . Dann exportiert es die Daten aus dem Arbeitsblatt in die Datentabelle durch Angabe[**Strategie umbenennen**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Briefstrategie. Anschließend werden die Spaltennamen der von Aspose.Cells generierten Datentabelle gedruckt. Der folgende Screenshot zeigt die Datentabelle mit exportierten Daten im Visualizer. Wie Sie sehen können, wurden doppelte Spalten in PeopleA, PeopleB usw. umbenannt.
+ Der folgende Beispielcode fügt einige Daten in den ersten drei Spalten des Arbeitsblatts hinzu, aber alle Spalten haben denselben Namen, dh*Menschen* . Dann exportiert es die Daten aus dem Arbeitsblatt in die Datentabelle durch Angabe[**Strategie umbenennen**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Briefstrategie. Anschließend werden die Spaltennamen der von Aspose.Cells generierten Datentabelle gedruckt. Der folgende Screenshot zeigt die Datentabelle mit exportierten Daten im Visualizer. Wie Sie sehen können, wurden doppelte Spalten in PeopleA, PeopleB usw. umbenannt.
 
 ![todo: Bild_alt_Text](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.0.1
+title: Pubblico API Modifiche Aspose.Cells 8.0.1
 type: docs
 weight: 20
 url: /it/net/public-api-changes-in-aspose-cells-8-0-1/

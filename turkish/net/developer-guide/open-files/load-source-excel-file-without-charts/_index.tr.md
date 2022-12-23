@@ -12,6 +12,6 @@ url: /tr/net/load-source-excel-file-without-charts/
 
 ## **Elektronik Tabloyu Grafikler Olmadan Yükle**
 
-Aşağıdaki örnek kod, örnek excel dosyasını grafikler olmadan yükler ve çıktı PDF formatında kaydeder.
+Aşağıdaki örnek kod, örnek excel dosyasını grafikler olmadan yükler ve PDF çıktı biçiminde kaydeder.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

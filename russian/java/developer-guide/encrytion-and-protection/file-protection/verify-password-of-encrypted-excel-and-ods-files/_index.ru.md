@@ -11,7 +11,7 @@ description: Проверьте пароль зашифрованных файл
 
 ## **Проверьте пароль зашифрованного файла**
 
- Чтобы проверить пароль зашифрованного файла, Aspose.Cells for Java предоставляет[**Подтвердите пароль**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) метод. Методы принимают два параметра: файловый поток и пароль, который необходимо проверить.
+ Чтобы проверить пароль зашифрованного файла, Aspose.Cells for Java предоставляет[**Подтвердите пароль**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)метод. Методы принимают два параметра: файловый поток и пароль, который необходимо проверить.
  Следующий фрагмент кода демонстрирует использование[**Подтвердите пароль**](https://reference.aspose.com/cells/java/com.aspose.cells/fileformatutil#verifyPassword(java.io.InputStream,%20java.lang.String)) для проверки правильности предоставленного пароля.
 
 ### **Образец кода:**

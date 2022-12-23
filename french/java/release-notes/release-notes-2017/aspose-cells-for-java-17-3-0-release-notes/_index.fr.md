@@ -10,14 +10,14 @@ url: /fr/java/aspose-cells-for-java-17-3-0-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42205|La définition d'une formule avec des résultats littéraux de chaîne longue dans un fichier Excel corrompu|Renforcement|
-|CELLSJAVA-42204|Les bordures en pointillés de la feuille de calcul n'ont pas été rendues au format HTML|Punaise|
+|CELLSJAVA-42204|Les bordures en pointillés de la feuille de calcul n'ont pas été rendues à HTML|Punaise|
 |CELLSJAVA-42198|Le calcul de la formule est erroné avec le fichier Excel généré par Aspose.Cells|Punaise|
 |CELLSJAVA-42156|Les bordures supérieure et inférieure des cellules ont disparu lors de la conversion en HTML|Punaise|
 |CELLSJAVA-42208|Les commentaires (à la fin) sont coupés verticalement lorsqu'ils sont générés PDF via Aspose.Cells|Punaise|
-|CELLSJAVA-42206|Les lignes pointillées des séries pour les graphiques ne sont pas rendues correctement dans le PDF de sortie|Punaise|
+|CELLSJAVA-42206|Les lignes de tirets des séries pour les graphiques ne sont pas rendues correctement dans la sortie PDF|Punaise|
 |CELLSJAVA-42167 |Étiquettes de l'axe des catégories affichées sur deux lignes après la conversion du graphique en image|Punaise|
 |CELLSJAVA-42199|Graphique en cascade, la ligne de la barre totale et la barre juste avant qu'elle ne soit manquante|Punaise|
 |CELLSJAVA-42201|Sous-tâche - Étiquettes de l'axe des catégories affichées sur deux lignes après la conversion du graphique en image|Punaise|
@@ -42,7 +42,7 @@ Voici une liste de toutes les modifications apportées au public API, telles que
 1. **Ajoute la méthode GlobalizationSettings.getEmptyDataName()** - Il obtient le nom de l'étiquette "(vide)" dans le tableau croisé dynamique.
 1. **Ajoute la méthode GlobalizationSettings.getSubTotalName(PivotFieldSubtotalType subTotalType)** - Il obtient le nom du type "PivotFieldSubtotalType" dans le tableau croisé dynamique.
 
-Cet exemple de code explique comment personnaliser les paramètres de globalisation d'un tableau croisé dynamique. Il crée une classe CustomPivotTableGlobalizationSettings dérivée d'une classe de base GlobalizationSettings et remplace toutes ses méthodes nécessaires. Ces méthodes renvoient le texte personnalisé pour le total croisé dynamique, le sous-total, le total général, tous les éléments, plusieurs éléments, les étiquettes de colonne, les étiquettes de ligne, les valeurs vides. Ensuite, il affecte l'objet de cette classe à la propriété Workbook.GlobalizationSettings. Le code charge le fichier Excel source qui contient le tableau croisé dynamique, actualise et calcule ses données et l'enregistre en tant que fichier PDF de sortie. Les développeurs peuvent également enregistrer le classeur dans n'importe quel format pris en charge.
+Cet exemple de code explique comment personnaliser les paramètres de globalisation d'un tableau croisé dynamique. Il crée une classe CustomPivotTableGlobalizationSettings dérivée d'une classe de base GlobalizationSettings et remplace toutes ses méthodes nécessaires. Ces méthodes renvoient le texte personnalisé pour le total croisé dynamique, le sous-total, le total général, tous les éléments, plusieurs éléments, les étiquettes de colonne, les étiquettes de ligne, les valeurs vides. Ensuite, il affecte l'objet de cette classe à la propriété Workbook.GlobalizationSettings. Le code charge le fichier Excel source qui contient le tableau croisé dynamique, actualise et calcule ses données et l'enregistre en tant que fichier de sortie PDF. Les développeurs peuvent également enregistrer le classeur dans n'importe quel format pris en charge.
 
 **Java**
 

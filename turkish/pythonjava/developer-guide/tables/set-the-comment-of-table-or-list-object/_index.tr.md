@@ -9,7 +9,7 @@ Aspose.Cells for Python via Java, Liste Nesnesinin yorumunun eklenmesini destekl
 
 Aşağıdaki ekran görüntüsü, kırmızı dikdörtgen içinde örnek kod tarafından oluşturulan yorumu göstermektedir.
 
-![yapılacaklar:resim_alternatif_Metin](setting-list-object-comment.png)
+![yapılacaklar:resim_alternatif_metin](setting-list-object-comment.png)
 
 Aşağıdaki örnek kod,[kaynak excel dosyası](source.xlsx), çalışma sayfasındaki ilk tablonun veya liste nesnesinin açıklamasını ayarlar
 

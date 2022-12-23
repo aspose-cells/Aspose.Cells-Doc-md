@@ -22,7 +22,7 @@ url: /tr/net/aspose-cells-for-net-v4-8-0-release-notes/
 
  l Satırları/Sütunları Otomatik Sığdır özelliğinin performansını artırın
 
- l WordArt şekillerini XLS dosyasına ekleyin
+ l XLS dosyasına WordArt şekilleri ekleyin
 
  Grafik için Degrade Dolgu efektlerini okuyun
 
@@ -45,19 +45,19 @@ url: /tr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |
 |8741 | Chart2Image| Chart2Image sorunları|
-|8749 | Chart2Image| Grafikler Excel PDF'de görüntülenmiyor|
+|8749 | Chart2Image| Grafikler Excel'de görüntülenmiyor PDF|
 |9712 | Chart2Image| Görüntüye gruplandırılmış şekli destekler|
 |9766 | Chart2Image| Sıfır değerleri alma|
-|8738 | CSV'ler| Bir csv dosyası yüklenemedi|
-|8737 | CSV'ler| CSV dosyasını açmak konsola yazıyor gibi görünüyor|
-|8984 | HTML| Çalışma kitabını HTML olarak kaydederken yavaş performans|
+|8738 |CSV | Bir csv dosyası yüklenemedi|
+|8737 |CSV | CSV dosyasını açmak konsola yazıyor gibi görünüyor|
+|8984 |HTML | Çalışma kitabını HTML olarak kaydederken yavaş performans|
 |7915 | Pdf| Hücreleri pdf'ye dönüştürme sorunu|
-|8669 | Pdf| Excel'den PDF'e Dönüştürme Sorunu|
+|8669 | Pdf| Excel'den PDF'e Dönüşüm Sorunu|
 |8672 | Pdf| Excel dosyasını PDF dosyasına dönüştürürken çıktıdaki fark|
-|8678 | Pdf| Cells PDF'ye, altbilgi görüntüsü bulanık|
-|8749 | Pdf| Grafikler Excel PDF'de görüntülenmiyor|
-|8986 | Pdf| Excel'den PDF'ye dönüştürme|
-|8988 | Pdf|çalışma kitabını bozuk PDF olarak kaydetme|
+|8678 | Pdf| Cells PDF'e, altbilgi görüntüsü bulanık|
+|8749 | Pdf| Grafikler Excel'de görüntülenmiyor PDF|
+|8986 | Pdf|Excel'den PDF'e dönüştürme|
+|8988 | Pdf| çalışma kitabını PDF bozuk olarak kaydetme|
 |9608 | Pdf| XLS dönüştürme sorunu (negatif uzunluk?)|
 |9609 | Pdf| Çok iş parçacıklı uygulamayla FileFormatType.Pdf dosyasına kaydedin|
 |9670 | Pdf| gruplandırılmış şekil sorunu ile Excel2PDF|
@@ -77,9 +77,9 @@ url: /tr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9138 | YayılmışML| Dosyayı açma ve kaydetme hatası|
 |9610 | YayılmışML| Sütunları gizle, genişlik bilgilerini kaybeder|
 |7916 | Xl'ler| Satırları/sütunları eklerken/silerken Dondur bölmelerini güncelleyin|
-|8588 | Xl'ler| Dizi Formüllerini Hesaplama Problemi|
+|8588 | Xl'ler|Dizi Formüllerini Hesaplama Problemi|
 |8590 | Xl'ler| Sayfaları kopyalama|
-|8604 | Xl'ler|Satırları kopyalamayla ilgili sorun.|
+|8604 | Xl'ler| Satırları kopyalamayla ilgili sorun.|
 |8668 | Xl'ler| Birleştirme özellikli akıllı işaretçiler grubuyla ilgili sorun|
 |8673 | Xl'ler| SUMIF ve hesaplama formülü ile ilgili hata|
 |8676 | Xl'ler| Pasta grafiğin veri etiketleri|
@@ -100,9 +100,9 @@ url: /tr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |9192 | Xl'ler| Son derece yavaş AutoFitColumns performansı|
 |9266 | Xl'ler| Formül hesaplanmadı|
 |9267 | Xl'ler| Koşullu Doğrulama Açılır Listesi|
-|9293 | Xl'ler| CalculateFormula hesaplama yapmaz|
+|9293 | Xl'ler|CalculateFormula hesaplama yapmaz|
 |9488 | Xl'ler| xls dosyasını açma sorunu.|
-|9501 | Xl'ler|DeleteRows gömülü görüntüleri silmez|
+|9501 | Xl'ler| DeleteRows gömülü görüntüleri silmez|
 |9545 | Xl'ler| SetDataSource() hata veriyor|
 |9546 | Xl'ler| Sayıların yanlış rengi|
 |9672 | Xl'ler| Arama işlevi hatasını hesapla|
@@ -122,9 +122,9 @@ url: /tr/net/aspose-cells-for-net-v4-8-0-release-notes/
 |10137 | Xl'ler| Akıllı İşaretçi Ara Toplam Satırları - Statik Metin Dinamik Formül|
 |10153 | Xl'ler| Sütun gizlendiğinde AutoFitRows()|
 |10158 | Xl'ler| İsme göre grafik alma|
-|8587 | Xl'ler| Resimleri / Şekilleri Sipariş Edin|
+|8587 | Xl'ler|Resimleri / Şekilleri Sipariş Edin|
 |9062 | Xl'ler| ExportDataTable Taşması / Eksikliği Sorunları|
-|9707 | Xl'ler|Sütunlar/satırlar silinirken yazdırma alanı güncellenmiyor|
+|9707 | Xl'ler| Sütunlar/satırlar silinirken yazdırma alanı güncellenmiyor|
 |10038 | Xl'ler| Alt Toplam - SummaryBelowData|
 |10041 | Xl'ler| Dize büyük/küçük harfe duyarlı bulun.|
 |8419 | Xlsx| xlsx dosyası okunamıyor|

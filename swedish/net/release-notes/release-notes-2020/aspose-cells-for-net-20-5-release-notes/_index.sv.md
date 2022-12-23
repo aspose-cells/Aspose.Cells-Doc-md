@@ -19,7 +19,7 @@ url: /sv/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47243|Vänta på getdisplaystyle för ett kalkylblad med rader 65536|Prestanda|
 |CELLSNET-47044|Datumformateringsproblem i de första kolumncellerna i pivottabellen|Insekt|
 |CELLSNET-47301|Rader/kolumner döljs genom att exportera pivottabellen till en bild efter beräkning|Insekt|
-|CELLSNET-47308|Få egenskaper saknas i utdata-HTML efter inställning av Cell.HtmlString|Insekt|
+|CELLSNET-47308|Få egenskaper saknas i utdata HTML efter inställning av Cell.HtmlString|Insekt|
 |CELLSNET-47343|Rubriker saknas vid konvertering av utskriftsområdet till HTML|Insekt|
 |CELLSNET-47344|Hela kalkylbladet exporteras när endast utskriftsområdet förväntas|Insekt|
 |CELLSNET-47322|Fel värde beräknat av Aspose.Cells vid användning av OFFSET-funktionen|Insekt|
@@ -41,16 +41,16 @@ url: /sv/net/aspose-cells-for-net-20-5-release-notes/
 |CELLSNET-47299|CellsException under konvertering av Excel till PDF|Insekt|
 |CELLSNET-47320|Importera XML till cell får fel värde|Insekt|
 |CELLSNET-47321|Import av XML skadar utdatafilen|Insekt|
-|CELLSNET-47324|Ikonfel i Excel till PDF-konvertering|Insekt|
+|CELLSNET-47324|Ikonfel i Excel till PDF konvertering|Insekt|
 |CELLSNET-46149|Problem med textjustering i diagrambilden|Insekt|
 |CELLSNET-47231|En etikett saknas på diagrambilden vid rendering med den nyare versionen|Insekt|
 |CELLSNET-47116|Data går förlorad när sample.xlsx konverteras till .xls|Insekt|
 |CELLSNET-47325|Att anropa TextBox.Characters() orsakar ytterligare taggar i HtmlText|Insekt|
-|CELLSNET-47326|Style of HyperLinks går förlorad när du sparar ODS-arbetsbok som PDF eller HTML|Insekt|
-|CELLSNET-47327|Text från hyperlänkar går förlorad när en ODS-fil åter sparas eller renderas|Insekt|
+|CELLSNET-47326|Typ av hyperlänkar går förlorad när ODS arbetsbok sparas som PDF eller HTML|Insekt|
+|CELLSNET-47327|Text av hyperlänkar går förlorad när du sparar eller renderar en ODS-fil|Insekt|
 |CELLSNET-47332|Att ställa in egenskaper för TextParagraph resulterar i flera överlappande textrader|Insekt|
 |CELLSNET-47339|Cell format försvinner/innehåll saknas efter att ha sparats|Insekt|
-|CELLSNET-47348|Datumformatet har ändrats i ODS-filen efter att den laddats och sparats|Insekt|
+|CELLSNET-47348|Datumformatet har ändrats i filen ODS efter att ha laddats in och sparats|Insekt|
 |CELLSNET-47290|Undantag när man försöker öppna en viss HTML-fil|Undantag|
 |CELLSNET-47305|RANDBETWEEN() väcker undantag ArgumentOutOfRangeException|Undantag|
 |CELLSNET-47351|Villkorlig formatering som orsakar StackOverflowException när du sparar till PDF|Undantag|

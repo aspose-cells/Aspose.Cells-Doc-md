@@ -1,12 +1,12 @@
 ﻿---
-title: إعادة تشكيل الصور المضافة - تحويل Excel إلى PDF
+title: إعادة أخذ عينات الصور المضافة - من Excel إلى تحويل PDF
 type: docs
 weight: 150
 url: /ar/net/resampling-added-images-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-أثناء العمل مع ملفات Excel Microsoft الكبيرة التي تحتوي على الكثير من الصور ، قد تحتاج إلى ضغط الصور التي تمت إضافتها لتقليل حجم ملف PDF الناتج وتحسين أداء التحويل الكلي. يدعم Aspose.Cells إعادة تشكيل الصور المضافة لتقليل حجم ملف PDF الناتج وتحسين الأداء إلى حد ما.
+أثناء العمل مع ملفات Excel Microsoft الكبيرة التي تحتوي على الكثير من الصور ، قد تحتاج إلى ضغط الصور التي تمت إضافتها لتقليل حجم ملف الإخراج PDF وتحسين أداء التحويل الكلي. يدعم Aspose.Cells إعادة تشكيل الصور المضافة لتقليل حجم ملف الإخراج PDF وتحسين الأداء إلى حد ما.
 
 {{% /alert %}}
 
@@ -16,10 +16,10 @@ url: /ar/net/resampling-added-images-excel-to-pdf-conversion/
 
 {{% alert color="primary" %}}
 
- باستخدام ملف[**SetImageResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)يقلل الخيار من حجم ملف PDF الناتج ولكنه قد يؤثر على جودة الصورة قليلاً.
+ باستخدام ملف[**SetImageResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)يقوم الخيار بتصغير حجم الإخراج PDF ولكنه قد يؤثر على جودة الصورة قليلاً.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[**المصنف .CalculateFormula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) مباشرة قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في ملف PDF.
+إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل الاتصال[**المصنف .CalculateFormula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)مباشرة قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

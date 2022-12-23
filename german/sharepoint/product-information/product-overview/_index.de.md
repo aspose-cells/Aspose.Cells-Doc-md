@@ -14,19 +14,19 @@ Aspose.Cells for SharePoint ist eine flexible Lösung zur Unterstützung der Tab
 
 Sie können mehrere Dokumentformate konvertieren, wie z. B.:
 
-- PDF - Portables Dokument von Adobe
-- XLS-MS Excel 97~2003
+- PDF – Tragbares Dokument von Adobe
+- XLS – MS Excel 97~2003
 - XLSX – Office Open XML
 - XLSM – Office Open XML für Makros aktiviert
-- TXT - Einfacher Text
-- XML - Microsoft Excel-TabellenkalkulationML
-- ODS - OpenDocument-Tabellenkalkulation
+- TXT - Klartext
+- XML - Microsoft Excel SpreadsheetML
+- ODS – OpenDocument-Tabellenkalkulation
 - CSV - Kommagetrennte Werte
 - XLSB - Excel-Binärdatei 2007
 - MHtml - Mehrzweck-Internet-Mail-Erweiterung HTML
-- XPS - XML-Papierspezifikation
-- TIFF - Tagged Image File Format
-- SVG - Skalierbare Vektorgrafiken
+- XPS – XML-Papierspezifikation
+- TIFF – Markiertes Bilddateiformat
+- SVG – Skalierbare Vektorgrafiken
 - DIF - Zeichnungsaustauschformat
 
 Aspose.Cells for SharePoint ist für die Verwendung mit folgenden Produkten vorgesehen:

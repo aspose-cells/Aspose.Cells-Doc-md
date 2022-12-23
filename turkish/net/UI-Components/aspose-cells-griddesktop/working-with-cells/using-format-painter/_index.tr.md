@@ -15,7 +15,7 @@ Biçim ressamı, MS Excel'in Aspose.Cells.GridDesktop'ta uyarlanmış özelliği
 - **Biçim Boyacısını Bir Kez Kullanmak**
 - **Format Boyacısını Her Zaman Kullanmak**
 ### **Biçim Boyacısını Bir Kez Kullanmak**
- Geliştiriciler, odaklanmış bir hücrenin biçimlendirme ayarlarını tek bir hücreye uygulamak için yalnızca bir kez biçim ressamı özelliğini kullanmak isterlerse, bunu çağırarak yapabilirler.**StartFormatPainter** yöntem ve geçen bir**yanlış** buna değer. Bu**yanlış** değer, format ressamının resim yapmasını sonsuza kadar yasaklayacaktır.
+ Geliştiriciler, odaklanmış bir hücrenin biçimlendirme ayarlarını tek bir hücreye uygulamak için yalnızca bir kez biçim ressamı özelliğini kullanmak isterlerse, bunu çağırarak yapabilirler.**StartFormatPainter** yöntem ve geçen bir**YANLIŞ** buna değer. Bu**YANLIŞ** değer, format ressamının resim yapmasını sonsuza kadar yasaklayacaktır.
 
 
 

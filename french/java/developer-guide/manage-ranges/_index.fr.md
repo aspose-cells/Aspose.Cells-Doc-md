@@ -15,7 +15,7 @@ Voici comment créer une plage, mettre une valeur, définir un style et effectue
 
 ## **Gestion des gammes à l'aide de Aspose.Cells**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) le recueil.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) le recueil.
 
 ### **Créer une plage**
 

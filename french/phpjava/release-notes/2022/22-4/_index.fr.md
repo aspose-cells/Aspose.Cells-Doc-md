@@ -10,11 +10,11 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44415|Des milliers d'appels getResourceAsAStream entraînent une charge élevée du processeur et une consommation de mémoire lors de la génération de rapports|
 |CELLSJAVA-44490|ajouter GridWorkbookSetting pour GridWeb|
-|CELLSJAVA-44455|Lors de la conversion d'un fichier XLSX en PDF, la date dans le tableau croisé dynamique devient un numéro de série|
+|CELLSJAVA-44455|Lors de la conversion du fichier XLSX en PDF, la date dans le tableau croisé dynamique devient un numéro de série|
 |CELLSJAVA-44370|Le fichier Excel est corrompu lorsqu'il est ouvert et enregistré avec Aspose.Cells|
 |CELLSJAVA-44381|Problème de mise en forme des conditions lors de la suppression de la ligne ou de la colonne|
 |CELLSJAVA-44442|Ouvrir et enregistrer avec Aspose.Cells corrompt le classeur|
@@ -24,8 +24,8 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |CELLSJAVA-44464|problème supplémentaire 1, la couleur d'arrière-plan de la colonne A n'est pas la même que dans Excel pour yscl.xls à la feuille 4|
 |CELLSJAVA-44466| problème supplémentaire 3, setCalculateFormula sur false ne fonctionne pas|
 |CELLSJAVA-44496|Inclure la balise/l'élément de légende pour le tableau lors du chargement du code HTML|
-|CELLSJAVA-44429|L'effet du graphique Excel dans Excel est différent de celui en HTML|
-|CELLSJAVA-44414| Unicode dans JSON cassera les XLSX et CSV générés|
+|CELLSJAVA-44429|L'effet du graphique Excel dans Excel est différent de celui de HTML|
+|CELLSJAVA-44414| Unicode dans JSON cassera généré XLSX et CSV|
 |CELLSJAVA-44404|Exception "java.lang.IllegalArgumentException : index de colonne non valide" lors du chargement d'un fichier XLSX dans GridWeb|
 
 ## **Public API et modifications incompatibles avec les versions antérieures**

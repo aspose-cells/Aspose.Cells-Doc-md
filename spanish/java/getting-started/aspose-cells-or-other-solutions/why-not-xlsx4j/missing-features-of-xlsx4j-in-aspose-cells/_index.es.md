@@ -19,7 +19,7 @@ Esto incluye las siguientes características abundantes de Aspose.Cells en compa
   - [Ordenar datos en xlsx4j](/cells/es/java/sort-data-in-xlsx4j/)
   - [Seguimiento de precedentes y dependientes en xlsx4j](/cells/es/java/tracing-precedents-and-dependents-in-xlsx4j/)
 - [Varios ejemplos de xlsx4j](/cells/es/java/miscellaneous-examples-for-xlsx4j/)
-  - [Convertir hoja de cálculo a PDF en xlsx4j](/cells/es/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
+  - [Convierta la hoja de cálculo a PDF en xlsx4j](/cells/es/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
   - [Crear tabla dinámica en xlsx4j](/cells/es/java/create-pivot-table-in-xlsx4j/)
   - [Imprimir libros de trabajo en xlsx4j](/cells/es/java/printing-workbooks-in-xlsx4j/)
   - [Establecer títulos de impresión en xlsx4j](/cells/es/java/set-print-titles-in-xlsx4j/)
@@ -28,11 +28,11 @@ Esto incluye las siguientes características abundantes de Aspose.Cells en compa
   - [Crear gráficos en xlsx4j](/cells/es/java/create-charts-in-xlsx4j/)
   - [Crear gráficos dinámicos en xlsx4j](/cells/es/java/create-pivot-charts-in-xlsx4j/)
 - [Trabajar con hojas de trabajo en xlsx4j](/cells/es/java/working-with-worksheets-in-xlsx4j/)
-  - [Convertir libro de trabajo a HTML en xlsx4j](/cells/es/java/convert-workbook-to-html-in-xlsx4j/)
+  - [Convierta el libro de trabajo a HTML en xlsx4j](/cells/es/java/convert-workbook-to-html-in-xlsx4j/)
   - [Detectar combinado Cells en xlsx4j](/cells/es/java/detect-merged-cells-in-xlsx4j/)
   - [Mostrar y ocultar barras de desplazamiento de libros de trabajo en xlsx4j](/cells/es/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
   - [Mostrar y ocultar pestañas del libro de trabajo en xlsx4j](/cells/es/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-  - [Guarde cada hoja de trabajo en un PDF diferente en xlsx4j](/cells/es/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+  - [Guarde cada hoja de trabajo en diferentes PDF en xlsx4j](/cells/es/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
   - [Establecer el color de la pestaña de la hoja de trabajo en xlsx4j](/cells/es/java/set-worksheet-tab-color-in-xlsx4j/)
 
 **Nota:** Muchos más ejemplos aún estarán disponibles pronto.

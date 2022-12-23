@@ -12,7 +12,7 @@ Aspose.Cells vous permet d'exporter une feuille de calcul à partir d'un classeu
 ## **Conversion d'une feuille de calcul en image**
 Les feuilles de calcul contiennent des données que vous souhaitez analyser. Par exemple, une feuille de calcul peut contenir des paramètres, des totaux, des pourcentages, des exceptions et des calculs.
 
-En tant que développeur, vous devrez peut-être présenter des feuilles de calcul sous forme d'images. Par exemple, vous devrez peut-être utiliser l'image d'une feuille de calcul dans une application ou une page Web. Vous voudrez peut-être insérer une image dans un document Word Microsoft, un fichier PDF, une présentation PowerPoint ou un autre type de document. En termes simples, vous voulez qu'une feuille de calcul soit rendue sous forme d'image afin que vous puissiez l'utiliser ailleurs.
+En tant que développeur, vous devrez peut-être présenter des feuilles de calcul sous forme d'images. Par exemple, vous devrez peut-être utiliser l'image d'une feuille de calcul dans une application ou une page Web. Vous pouvez insérer une image dans un document Word Microsoft, un fichier PDF, une présentation PowerPoint ou un autre type de document. En termes simples, vous voulez qu'une feuille de calcul soit rendue sous forme d'image afin que vous puissiez l'utiliser ailleurs.
 
 Aspose.Cells prend en charge la conversion des feuilles de calcul Excel en images. Pour utiliser cette fonction, vous devez importer le[Aspose.Cells.Rendering](https://reference.aspose.com/cells/cpp/namespace/aspose.cells.rendering)namespace à votre programme ou projet. Il a plusieurs classes utiles pour le rendu et l'impression, par exemple,[ISheetRender](https://reference.aspose.com/cells/cpp/class/aspose.cells.rendering.i_sheet_render), [IImageOrPrintOptionsIImageOrPrintOptions](https://reference.aspose.com/cells/cpp/class/aspose.cells.rendering.i_image_or_print_options)et d'autres.
 
@@ -24,10 +24,10 @@ L'extrait de code suivant montre comment convertir une feuille de calcul dans un
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
 ### **Format TIFF**
- Veuillez consulter l'exemple de code suivant, son[exemple de fichier Excel](67338402.xlsx) , et le[sortie image TIFF](67338419.zip).
+ Veuillez consulter l'exemple de code suivant, son[exemple de fichier Excel](67338402.xlsx) , et le[sortie TIFF image](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
-## **Conversion d'une feuille de calcul en SVG**
+## **Conversion de la feuille de calcul en SVG**
 SVG signifie Scalable Vector Graphics. SVG est une spécification basée sur les normes XML pour les graphiques vectoriels bidimensionnels. Il s'agit d'un standard ouvert développé par le World Wide Web Consortium (W3C) depuis 1999.
 
 Aspose.Cells for C++ est capable de convertir des feuilles de calcul en image SVG depuis la version 18.5.0.
@@ -36,6 +36,6 @@ Pour utiliser cette fonctionnalité, importez l'espace de noms `Aspose.Cells.Ren
 
 La classe `Aspose.Cells.Rendering.IImageOrPrintOptions` spécifie que la feuille de calcul sera enregistrée au format SVG. L'extrait de code suivant montre comment convertir une feuille de calcul dans un fichier Excel en un fichier image SVG
 
- Veuillez consulter l'exemple de code suivant, son[exemple de fichier Excel](67338402.xlsx) , et le[sortie Images SVG](67338403.zip).
+ Veuillez consulter l'exemple de code suivant, son[exemple de fichier Excel](67338402.xlsx) , et le[sortie SVG Images](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}

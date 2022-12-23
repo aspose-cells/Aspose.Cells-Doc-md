@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/net/aspose-cells-for-net-16-12-0-release-notes/
 ---
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-41702|Charger des feuilles de calcul spécifiques dans le classeur (pour MS Excel 2007/2010)|Nouvelle fonctionnalité|
 |CELLSNET-44943|Prise en charge du format de fichier OTS|Nouvelle fonctionnalité|
@@ -16,35 +16,35 @@ url: /fr/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44899|Faible performance lors du calcul des formules pour la deuxième fois|Performance|
 |CELLSNET-44967|Considérations relatives aux performances pour la méthode NameCollection.Remove|Performance|
 |CELLSNET-44964|Aspose.Cells se bloque lorsque CalculateFormula() est utilisé sur Workbook.|Performance|
-|CELLSNET-44819|Impossible d'enregistrer le fichier Excel source au format HTML et le délai expire|Performance|
+|CELLSNET-44819|Impossible d'enregistrer le fichier Excel source dans HTML et le délai expire|Performance|
 |CELLSNET-44960|Le formatage du tableau croisé dynamique est perdu lors de la conversion de la feuille de calcul au format de fichier PDF|Punaise|
-|CELLSNET-44951|Les données de ligne sont mal placées lors du rendu de la feuille de calcul au format PDF après l'actualisation du tableau croisé dynamique|Punaise|
-|CELLSNET-44950|Cell l'ombrage est manquant lors du rendu de la feuille de calcul au format PDF après l'actualisation du tableau croisé dynamique|Punaise|
-|CELLSNET-44949|Des colonnes vides sont manquantes lors du rendu de la feuille de calcul au format PDF après l'actualisation du tableau croisé dynamique|Punaise|
+|CELLSNET-44951|Les données de ligne sont mal placées lors du rendu de la feuille de calcul en PDF après l'actualisation du tableau croisé dynamique|Punaise|
+|CELLSNET-44950|L'ombrage Cell est manquant lors du rendu de la feuille de calcul en PDF après l'actualisation du tableau croisé dynamique|Punaise|
+|CELLSNET-44949|Des colonnes vides sont manquantes lors du rendu de la feuille de calcul en PDF après l'actualisation du tableau croisé dynamique|Punaise|
 |CELLSNET-44930|La colonne est manquante dans le tableau croisé dynamique après l'actualisation et la conversion en PDF|Punaise|
 |CELLSNET-44929|Les données sont manquantes dans le tableau croisé dynamique après l'actualisation et la conversion en PDF|Punaise|
 |CELLSNET-44908|La feuille de calcul contenant des trancheurs est corrompue après une simple opération de réenregistrement|Punaise|
 |CELLSNET-44206|L'appel de RefreshData sur le tableau croisé dynamique corrompt la feuille de calcul résultante|Punaise|
 |CELLSNET-44184|L'actualisation des tableaux croisés dynamiques et des graphiques génère un fichier XLSX corrompu|Punaise|
-|CELLSNET-44974|Cell l'ombrage est gâché lors de l'actualisation du tableau croisé dynamique et du rendu au format PDF|Punaise|
-|CELLSNET-44972|Cell Ombrage appliqué à la mauvaise cellule lors de l'actualisation du tableau croisé dynamique et du rendu au format PDF|Punaise|
-|CELLSNET-44963|Enregistrer au format PDF crée des bordures supplémentaires pour les lignes|Punaise|
+|CELLSNET-44974|Cell l'ombrage est foiré lors de l'actualisation du tableau croisé dynamique et du rendu en PDF|Punaise|
+|CELLSNET-44972|Cell Ombrage appliqué à la mauvaise cellule lors de l'actualisation du tableau croisé dynamique et du rendu en PDF|Punaise|
+|CELLSNET-44963|Enregistrer au PDF crée des bordures supplémentaires pour les lignes|Punaise|
 |CELLSNET-44927|Type de données considéré comme DateTime si le format personnalisé contient Magenta|Punaise|
 |CELLSNET-44921|La hauteur de ligne a été modifiée après une simple opération de réenregistrement|Punaise|
 |CELLSNET-44916|La méthode Workbook.CalculateFormula() calcule la valeur de la cellule B8 à tort|Punaise|
-|CELLSNET-44910|Un caractère supplémentaire 4 apparaît lors de la conversion d'un format de fichier ODS au format PDF|Punaise|
+|CELLSNET-44910|Un caractère supplémentaire 4 apparaît lors de la conversion d'un format de fichier ODS en PDF|Punaise|
 |CELLSNET-44958|La substitution de police ne se produit pas avec FontConfigs.PreferSystemFontSubstitutes défini sur true|Punaise|
-|CELLSNET-44937|Rendu Excel vers PDF - Certains mots sont coupés en deux dans la zone fusionnée|Punaise|
+|CELLSNET-44937|Excel vers le rendu PDF - Certains mots sont coupés en deux dans la zone fusionnée|Punaise|
 |CELLSNET-44933|Exportation de graphiques Excel vers SVG|Punaise|
-|CELLSNET-44914|La marge sur le côté droit est plus grande que dans MS Excel lorsqu'elle est imprimée ou enregistrée au format PDF|Punaise|
-|CELLSNET-44931|Enregistrer au format PDF crée une page vierge supplémentaire.|Punaise|
-|CELLSNET-44926|L'image PNG du graphique ne correspond pas au graphique MS-Excel|Punaise|
+|CELLSNET-44914|La marge sur le côté droit est plus grande que dans MS Excel lorsqu'elle est imprimée ou enregistrée sous PDF|Punaise|
+|CELLSNET-44931|Enregistrer au PDF crée une page vierge supplémentaire.|Punaise|
+|CELLSNET-44926|PNG l'image du graphique ne correspond pas au graphique MS-Excel|Punaise|
 |CELLSNET-44912|Le temps utilisé pour convertir XLS en XLSX est élevé|Punaise|
-|CELLSNET-44905|L'exportation PDF affiche 0 sur les graphiques en pile|Punaise|
-|CELLSNET-44902|Problème avec la série de données du graphique dans le rendu Excel vers PDF|Punaise|
+|CELLSNET-44905|PDF l'exportation affiche 0 sur les graphiques en pile|Punaise|
+|CELLSNET-44902|Problème avec la série de données du graphique dans Excel jusqu'au rendu PDF|Punaise|
 |CELLSNET-44897|Image du graphique avec le titre La vie n'est pas correcte|Punaise|
 |CELLSNET-44890|Valeur et pourcentage DataLabel de la série indiquant VALUE et PERCENTAGE après un réenregistrement simple|Punaise|
-|CELLSNET-44883|L'axe X (tableau de données) n'est pas le même dans le fichier PDF rendu|Punaise|
+|CELLSNET-44883|L'axe X (tableau de données) n'est pas le même dans le fichier rendu PDF|Punaise|
 |CELLSNET-44833|Rendu incorrect des lignes lors de la conversion de la feuille de calcul en PDF|Punaise|
 |CELLSNET-44831|API rend une légende supplémentaire avec SheetRender lorsque ImageOrPrintOptions.OnlyArea est défini sur false|Punaise|
 |CELLSNET-44803|La partie empilée des données du graphique est manquante dans le graphique de sortie après l'utilisation de la méthode Chart.Calculate()|Punaise|
@@ -67,7 +67,7 @@ url: /fr/net/aspose-cells-for-net-16-12-0-release-notes/
 |CELLSNET-44734|La zone visible de GridWeb change lorsque la cellule est laissée via la touche TAB ou Entrée|Punaise|
 |CELLSNET-44907|CellsException due à un saut de ligne à l'intérieur d'une cellule s'étendant sur plusieurs lignes|Exception|
 |CELLSNET-44893|Aspose.Cell ArithmeticException lors de l'appel de Chart.ToImage via une DLL C++ compatible CLR|Exception|
-|CELLSNET-44876|CellsException : erreur entre la forme et l'image lors de la conversion d'une feuille de calcul en PDF|Exception|
+|CELLSNET-44876|CellsException : Erreur de forme en image lors de la conversion de la feuille de calcul en PDF|Exception|
 ### **Public API et modifications incompatibles avec les versions antérieures**
 Voici une liste de toutes les modifications apportées au public API, telles que les membres ajoutés, renommés, supprimés ou obsolètes, ainsi que toute modification non rétrocompatible apportée à Aspose.Cells for .NET. Si vous avez des inquiétudes concernant l'un des changements répertoriés, veuillez le signaler sur le forum d'assistance Aspose.Cells.
 #### **Ajoute les propriétés BuiltInDocumentPropertyCollection.ScaleCrop et BuiltInDocumentPropertyCollection.LinksUpToDate.**

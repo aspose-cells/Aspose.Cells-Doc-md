@@ -15,11 +15,11 @@ url: /ja/java/aspose-cells-for-java-19-2-release-notes/
 |CELLSJAVA-42827|MS Excel に似た InsertOptions で行を挿入|新機能|
 |CELLSJAVA-42712|Aspose.Cells for Java の JavaDocs を強化|強化|
 |CELLSJAVA-42823|FontUnderlineType.WORDS を使用すると例外がスローされる|強化|
-|CELLSJAVA-42826|XLSX から HTML への変換中に条件付き書式が省略されたデータ|バグ|
+|CELLSJAVA-42826|XLSXからHTMLへの変換時に条件付き書式を省略したデータ|バグ|
 |CELLSJAVA-42815|定義された名前に複雑な参照を追加すると、MS Excel ワークブックが破損する|バグ|
 |CELLSJAVA-42822|Cell.getValidationValue は、指定された値に対して間違った値を返します|バグ|
 |CELLSJAVA-42829|別の名前に置き換えられた共有数式内のカスタム関数名|バグ|
-|CELLSJAVA-42824|Excel から PDF/A への変換で、軸のタイトルが表示されず、その他の書式設定が正しくない|バグ|
+|CELLSJAVA-42824|PDF/A 変換への Excel のグラフの軸タイトルが見つからず、その他の書式設定が間違っている|バグ|
 |CELLSJAVA-42814|PNG 出力の矢印が Excel グラフの矢印と一致しない|バグ|
 |CELLSJAVA-42777|自動調整行操作の使用中に間違った行の高さが変更されました|バグ|
 |CELLSJAVA-42813|ワークブック設定 "ReCalculateOnOpen" が保持されない|バグ|
@@ -27,7 +27,7 @@ url: /ja/java/aspose-cells-for-java-19-2-release-notes/
 |CELLSJAVA-42817|テキスト ボックスの背景色が予期せず変更される|バグ|
 |CELLSJAVA-42821|Range の最初の行を削除すると、Range が間違って更新される|バグ|
 |CELLSJAVA-42828|Cell.setHtmlString を使用すると、テキストの最後に新しい行が追加されます|バグ|
-|CELLSJAVA-42820|XLSX ファイル形式をロードするときの例外「無効な IMEModeType 文字列 val」|例外|
+|CELLSJAVA-42820|XLSX ファイル形式のロード時の例外「無効な IMEModeType 文字列 val」|例外|
 Public API および下位互換性のない変更
 
 以下は、Aspose.Cells for Java に対して行われた下位互換性のない変更と同様に、追加、名前変更、削除、または廃止されたメンバーなど、パブリック API に対して行われた変更のリストです。リストされている変更について懸念がある場合は、 Aspose.Cells サポート フォーラム。

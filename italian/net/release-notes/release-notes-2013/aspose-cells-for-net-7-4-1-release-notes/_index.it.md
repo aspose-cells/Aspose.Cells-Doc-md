@@ -36,7 +36,7 @@ url: /it/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41409 - Problema con l'aggiornamento della tabella pivot
 
- 41411 - Salva XLSX in HTML - errore di formattazione
+41411 - Salva da XLSX a HTML - errore di formattazione
 
  41406 - Problema di formula/funzione DATEDIF
 
@@ -44,11 +44,11 @@ url: /it/net/aspose-cells-for-net-7-4-1-release-notes/
 
  41309 - Immagine Creata in modo diverso da PC a PC
 
- 41415 - Problemi con l'apertura di un file XLSX
+ 41415 - Problema con l'apertura di un file XLSX
 
  41427 - Excel non completa il caricamento - File Excel 2013
 
-41400 - Valore del foglio di lavoro/modifiche di input al salvataggio
+ 41400 - Valore del foglio di lavoro/modifiche di input al salvataggio
 
 2 
 

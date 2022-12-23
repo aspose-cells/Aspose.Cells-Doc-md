@@ -12,7 +12,7 @@ url: /zh/java/get-warnings-while-loading-excel-file/
 
 以下示例代码解释了如何在加载 excel 文件时获取警告。代码加载[示例 excel 文件](sampleDuplicateDefinedName.xlsx)哪个抛出**[DuplicateDefinedName](https://reference.aspose.com/cells/java/com.aspose.cells/warningtype#DUPLICATE_DEFINED_NAME)**加载警告。这个警告然后被捕获**[IWarningCallback.Warning()](https://reference.aspose.com/cells/java/com.aspose.cells/iwarningcallback#warning(com.aspose.cells.WarningInfo))**在控制台上打印警告消息的方法。然后代码将工作簿另存为[输出excel文件](outputDuplicateDefinedName.xlsx).如果您在 Microsoft Excel 中打开示例 excel 文件，它也会向您显示此屏幕截图所示的警告。另请检查下面给出的代码的控制台输出以获得更多理解。
 
-![待办事项：图像_替代_文本](get-warnings-while-loading-excel-file_1.png)
+![待办事项：图片_替代_文本](get-warnings-while-loading-excel-file_1.png)
 
 ## **示例代码**
 

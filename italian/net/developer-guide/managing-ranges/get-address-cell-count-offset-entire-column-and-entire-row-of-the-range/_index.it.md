@@ -28,7 +28,7 @@ Ottiene un oggetto Range che rappresenta l'intera colonna (o le colonne) che con
 Ottiene un oggetto Range che rappresenta l'intera riga (o le righe) che contiene l'intervallo specificato.
 ## **Ottieni indirizzo, Cell Conteggio, offset, intera colonna e intera riga dell'intervallo**
 Il seguente codice di esempio illustra l'utilizzo dei metodi e delle proprietà come discusso in precedenza. Si prega di consultare l'output della console del codice fornito di seguito per un riferimento.
-## ` `**Codice di esempio**
+## ` `**Codice d'esempio**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Data-GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.cs" >}}
 ## **Uscita console**
 {{< highlight "java" >}}

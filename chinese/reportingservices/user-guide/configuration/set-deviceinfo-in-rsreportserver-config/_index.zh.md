@@ -25,4 +25,4 @@ url: /zh/reportingservices/set-deviceinfo-in-rsreportserver-config/
 - **NoDoPageForSimpleOutPut** 
 默认值是true。该值仅支持 Excel2007Xlsx(Data Only) 扩展。
 - **字段分隔符** 
-它设置字段分隔符。该值支持 CSV 和 TXT 扩展名。
+它设置字段分隔符。该值支持 CSV 和 TXT 扩展。

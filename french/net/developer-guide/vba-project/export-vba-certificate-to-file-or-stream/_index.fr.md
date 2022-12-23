@@ -6,7 +6,7 @@ url: /fr/net/export-vba-certificate-to-file-or-stream/
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells vous permet d'exporter le certificat numérique VBA vers un flux tel qu'un fichier ou un flux de mémoire. Vous pouvez accéder aux données brutes du certificat numérique VBA en utilisant le[**Workbook.VbaProject.CertRawDataWorkbook.VbaProject.CertRawData**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/certrawdata) propriété.
+ Aspose.Cells vous permet d'exporter le certificat numérique VBA vers un flux tel qu'un fichier ou un flux de mémoire. Vous pouvez accéder aux données brutes du certificat numérique VBA en utilisant le[**Workbook.VbaProject.CertRawDataWorkbook.VbaProject.CertRawData**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/certrawdata) la propriété.
 
 {{% /alert %}}
 

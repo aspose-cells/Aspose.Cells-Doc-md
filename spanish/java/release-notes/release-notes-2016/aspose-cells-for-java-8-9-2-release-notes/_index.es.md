@@ -12,19 +12,19 @@ url: /es/java/aspose-cells-for-java-8-9-2-release-notes/
 |CELLSJAVA-40958|Se requiere un mecanismo de sustitución de fuentes configurable por el usuario|Nueva caracteristica|
 |CELLSJAVA-41936|El método Workbook.calculateFormula() nunca termina para el archivo de origen de Excel|Mejora|
 |CELLSJAVA-41928|No se puede capturar el recurso de la imagen al representar la hoja de cálculo en HTML con IStreamProvider|Insecto|
-|CELLSJAVA-41841|Problema con la representación de casillas de verificación en HTML|Insecto|
+|CELLSJAVA-41841|Problema con la representación de CheckBoxes a HTML|Insecto|
 |CELLSJAVA-41932|Problema con getDisplayStringValue() para valores con formato de fecha|Insecto|
-|CELLSJAVA-41930|Usando las API Light Cells para procesar un archivo XLS, siempre se procesa la primera celda de la primera hoja|Insecto|
-|CELLSJAVA-41931|El espaciado entre caracteres y el salto no son correctos para el texto vertical al representar la hoja de cálculo en PDF|Insecto|
+|CELLSJAVA-41930|Al usar las API Light Cells para procesar un archivo XLS, siempre se procesa la primera celda de la primera hoja|Insecto|
+|CELLSJAVA-41931|El espacio entre caracteres y el salto no son correctos para el texto vertical al representar la hoja de cálculo en PDF|Insecto|
 |CELLSJAVA-41709|Los anchos de columna son diferentes en CentOS que en Windows|Insecto|
-|CELLSJAVA-41933|La escala del gráfico ha cambiado al representar la hoja de cálculo en PDF|Insecto|
+|CELLSJAVA-41933|La escala del gráfico se ha desplazado al renderizar la hoja de cálculo a PDF|Insecto|
 |CELLSJAVA-41934|Problema de alineación al renderizar un archivo de Excel a PDF|Insecto|
 |CELLSJAVA-41935|El formato de las entradas de la leyenda se altera al representar la hoja de cálculo en PDF|Insecto|
 |CELLSJAVA-41943|Las etiquetas del eje horizontal no se han renderizado completamente, es decir; a todas las etiquetas les falta algo de contenido en la imagen renderizada.|Insecto|
 |CELLSJAVA-41940|El archivo está dañado después de calcular la fórmula y guardar|Insecto|
 |CELLSJAVA-41952|El resultado del cálculo no es correcto|Insecto|
 |CELLSJAVA-41941|La fórmula de matriz no se calcula correctamente|Insecto|
-|CELLSJAVA-41937|Faltan algunos valores del archivo de Excel en el HTML de salida: conversión de XLS a HTML|Insecto|
+|CELLSJAVA-41937|Faltan algunos valores del archivo de Excel en la conversión de salida HTML - XLS a HTML|Insecto|
 |CELLSJAVA-41927|Excepción: "java.lang.OutOfMemoryError" al guardar en formato de archivo HTML|Excepción|
 |CELLSJAVA-41945|CellsException: error al calcular Cell[0Sheet1!E5] en Workbook.CalculateFormula al calcular la función TENDENCIA|Excepción|
 |CELLSJAVA-41946|Abrir un archivo de Excel provoca java.lang.NumberFormatException: para la cadena de entrada: "80000020"|Excepción|

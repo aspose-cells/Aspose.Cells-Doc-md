@@ -6,7 +6,7 @@ url: /it/net/prevent-exporting-hidden-worksheet-contents-on-saving-to/
 ---
 {{% alert color="primary" %}}
 
-Puoi salvare le cartelle di lavoro di Excel in HTML. Tuttavia, se la cartella di lavoro contiene fogli di lavoro nascosti, Aspose.Cells per impostazione predefinita esporta il contenuto del foglio di lavoro nascosto nell'output HTML (_ files) directory che contiene file come fogli di lavoro, immagini, tabstrip.htm, stylesheet.css, ecc. A volte, l'esportazione del contenuto dei fogli di lavoro nascosti in questo modo non è appropriata. Ad esempio, se il foglio di lavoro nascosto contiene immagini che non devono essere esportate nel file_cartella dei file.
+È possibile salvare le cartelle di lavoro di Excel in HTML. Tuttavia, se la cartella di lavoro contiene fogli di lavoro nascosti, Aspose.Cells per impostazione predefinita esporta il contenuto del foglio di lavoro nascosto nell'output HTML (_ files) directory che contiene file come fogli di lavoro, immagini, tabstrip.htm, stylesheet.css, ecc. A volte, l'esportazione del contenuto dei fogli di lavoro nascosti in questo modo non è appropriata. Ad esempio, se il foglio di lavoro nascosto contiene immagini che non devono essere esportate nel file_cartella dei file.
 
 {{% /alert %}}
 

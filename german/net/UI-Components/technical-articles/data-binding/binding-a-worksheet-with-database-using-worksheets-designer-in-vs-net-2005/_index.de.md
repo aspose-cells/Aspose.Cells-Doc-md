@@ -71,9 +71,9 @@ Jetzt wird das Projekt erstellt
 
 ### **XHTML- und HTML-Modi**
 
-**Aspose.Cells.GridWeb** unterstützt vollständig den XHTML-Modus, der seit dem standardmäßig in VS.Net 2005 implementiert ist**XhtmlMode** Eigentum der**GridWeb** Steuerung eingestellt ist**WAHR** standardmäßig, wenn Sie das Steuerelement auf der Webseite platzieren. Wenn Sie jedoch den HTML-Modus für das Steuerelement in VS.Net 2005 implementieren möchten, können Sie dies ganz einfach tun. Sie müssen die ändern**<!DOCTYPE>** Tag ein bisschen im Quellcode der Webseite und setze das**XhtmlMode** Eigentum der**GridWeb** Kontrolle zu**FALSCH** .
+**Aspose.Cells.GridWeb** unterstützt vollständig den XHTML-Modus, der seit dem standardmäßig in VS.Net 2005 implementiert ist**XhtmlMode** Eigentum der**GridWeb** Steuerung eingestellt ist**Wahr** standardmäßig, wenn Sie das Steuerelement auf der Webseite platzieren. Aber wenn Sie den HTML-Modus für die Steuerung in VS.Net 2005 implementieren möchten, können Sie dies ganz einfach tun. Sie müssen die ändern**<!DOCTYPE>** Tag ein bisschen im Quellcode der Webseite und setze das**XhtmlMode** Eigentum der**GridWeb** Kontrolle zu**FALSCH** .
 
-#### **In diesem Thema verwenden wir den HTML-Modus für das Steuerelement. Befolgen Sie daher die folgenden Schritte**
+#### **In diesem Thema verwenden wir den HTML-Modus für die Steuerung. Befolgen Sie daher die folgenden Schritte**
 
 ##### **1. Wechseln Sie zur Quellansicht der Webseite und suchen Sie das folgende <!DOCTYPE>-Tag im Quellcode.**
 
@@ -167,7 +167,7 @@ Das Fenster „Komponenten-Designer“ wird wie folgt angezeigt.
 
 **Figur:** oleDbConnection1-Objekt
 
- Jetzt ist es an der Zeit, sich mit der Datenbank zu verbinden. Wir können es einfach tun, indem wir verwenden**Server-Explorer** in Visual Studio.NET 2005. Einfach auswählen**Datenverbindung** in**Server-Explorer** und Rechtsklick. Vor Ihnen erscheint ein Kontextmenü. Auswählen**Verbindung hinzufügen...**Option aus dem Menü, wie unten in der Abbildung gezeigt:
+ Jetzt ist es an der Zeit, sich mit der Datenbank zu verbinden. Wir können es einfach tun, indem wir verwenden**Server-Explorer** in Visual Studio.NET 2005. Einfach auswählen**Datenverbindung** in**Server-Explorer** und Rechtsklick. Vor Ihnen erscheint ein Kontextmenü. Wählen**Verbindung hinzufügen...**Option aus dem Menü, wie unten in der Abbildung gezeigt:
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_19.png)
 
@@ -212,7 +212,7 @@ Sie können die Verbindung durchsuchen, um die Tabelle und ihre Felder zu überp
 
 **Figur:** Konfigurationsassistent für Datenadapter
 
- Nach dem Anklicken**Nächste** klicken Sie auf die Schaltfläche**Abfrage Ersteller** um die hinzuzufügen**Produkte** Tabelle, wählen Sie Alle Spalten und klicken Sie auf**OK** Taste.
+ Nach dem Anklicken**Nächste** klicken Sie auf die Schaltfläche**Abfrage Ersteller** um die hinzuzufügen**Produkte** Tabelle, wählen Sie Alle Spalten und klicken Sie auf**OK** Knopf.
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_26.png)
 
@@ -236,7 +236,7 @@ Sie können die Verbindung durchsuchen, um die Tabelle und ihre Felder zu überp
 
 ##### **Schritt 5: DataSet generieren**
 
- Da wir Datenbankverbindungs- und Datenadapterobjekte erstellt haben, brauchen wir dennoch etwas, wo wir Daten speichern können, nachdem wir uns mit der Datenbank verbunden haben. EIN**Datensatz**Objekt kann Daten genau speichern und wir können sie auch einfach mit VS.NET 2005 IDE generieren. Wählen Sie dazu aus**oleDbDataAdaper1** und Rechtsklick. Ein Kontextmenü mit einigen Optionen wird angezeigt. Auswählen**Generieren** **Datensatz...** Option aus dem Menü, wie unten in der Abbildung gezeigt.
+ Da wir Datenbankverbindungs- und Datenadapterobjekte erstellt haben, brauchen wir dennoch etwas, wo wir Daten speichern können, nachdem wir uns mit der Datenbank verbunden haben. EIN**Datensatz**Objekt kann Daten genau speichern und wir können sie auch einfach mit VS.NET 2005 IDE generieren. Wählen Sie dazu aus**oleDbDataAdaper1** und Rechtsklick. Ein Kontextmenü mit einigen Optionen wird angezeigt. Wählen**Generieren** **Datensatz...** Option aus dem Menü, wie unten in der Abbildung gezeigt.
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_30.png)
 
@@ -268,13 +268,13 @@ Bestimmter Code wird automatisch in der .cs-dateibezogenen Verbindung, dem Daten
 
 **Figur:** Auswählen**Arbeitsblatt-Designer...** Option aus dem Menü
 
- Danach**Editor für Arbeitsblattsammlungen** Dialog (auch genannt**Arbeitsblatt-Designer** ) geöffnet wird, können Sie mehrere Eigenschaften sehen, die konfiguriert werden können, um die**Blatt1** mit jeder Tabelle in der Datenbank. Lassen Sie uns auswählen**Datenquelle** Eigentum. Schreiben**Datensatz11** darin (das wir im vorherigen Schritt generiert und zum Designerfenster hinzugefügt haben). Dann klicken Sie auf**Datenmitglied** Eigentum. Schreiben**Produkte** als Tabellenname hier, wie unten in der Abbildung gezeigt:
+ Nachdem**Editor für Arbeitsblattsammlungen** Dialog (auch genannt**Arbeitsblatt-Designer** ) geöffnet wird, können Sie mehrere Eigenschaften sehen, die konfiguriert werden können, um die**Blatt1** mit jeder Tabelle in der Datenbank. Lassen Sie uns auswählen**Datenquelle** Eigentum. Schreiben**Datensatz11** darin (das wir im vorherigen Schritt generiert und zum Designerfenster hinzugefügt haben). Dann klicken Sie auf**Datenmitglied** Eigentum. Schreiben**Produkte** als Tabellenname hier, wie unten in der Abbildung gezeigt:
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_35.png)
 
 **Figur:** Einstellung**Datenquelle** und**Datenmitglied** Eigenschaften
 
- Jetzt können Sie konfigurieren**BindenSpalten** Eigentum. Nachdem Sie darauf geklickt haben, können Sie jetzt die Bindungsspalten hinzufügen und festlegen**Bildbeschriftung** , **Datenfeld** (Sollte gleich sein**Produkte** Tabellenfelder) und andere Eigenschaften. Sie können die einstellen**Wird automatisch erstellt** zu**Stimmt** und bewerben**Validierung** und setze die**NumberType**aus verschiedenen Feldern für Ihre Anforderungen.
+ Jetzt können Sie konfigurieren**BindenSpalten** Eigentum. Nachdem Sie darauf geklickt haben, können Sie jetzt die Bindungsspalten hinzufügen und festlegen**Bildbeschriftung** , **Datenfeld** (Sollte gleich sein**Produkte** Tabellenfelder) und andere Eigenschaften. Sie können die einstellen**Wird automatisch erstellt** zu**wahr** und bewerben**Validierung** und setze die**NumberType**aus verschiedenen Feldern für Ihre Anforderungen.
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_36.png)
 
@@ -478,7 +478,7 @@ End Sub
 
 ##### **Schritt 8: Ausführen Ihrer Anwendung**
 
- Schließlich können wir unsere Anwendung kompilieren und ausführen, indem wir entweder drücken**Strg+F5** oder klicken**Anfang** Taste. Im Debugging-Dialogfeld können Sie die entsprechende Debugging-Option angeben und klicken**OK** Taste wie unten in der Abbildung gezeigt.
+ Schließlich können wir unsere Anwendung kompilieren und ausführen, indem wir entweder drücken**Strg+F5** oder klicken**Start** Knopf. Im Debugging-Dialogfeld können Sie die entsprechende Debugging-Option angeben und klicken**OK** Taste wie unten in der Abbildung gezeigt.
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_42.png)
 
@@ -510,7 +510,7 @@ Aspose.Cells. GridWeb erstellt automatisch geeignete Validierungsregeln für all
 
 **Figur:** Auswählen**Zeile löschen** Option aus dem Menü
 
- Nach der Auswahl**Zeile löschen** aus dem Menü wird die Zeile aus dem gelöscht**GridWeb** . Jetzt klicken**sparen** Knopf der**GridWeb** um diesen Datensatz in der ursprünglichen Datenbanktabelle zu löschen.
+ Nach der Auswahl**Zeile löschen** aus dem Menü wird die Zeile aus dem gelöscht**GridWeb** . Jetzt klicken**speichern** Knopf der**GridWeb** um diesen Datensatz in der ursprünglichen Datenbanktabelle zu löschen.
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_46.png)
 
@@ -546,7 +546,7 @@ Nach der Auswahl wird dem Blatt am Ende der Zeilen eine neue Zeile hinzugefügt*
 
 ![todo: Bild_alt_Text](binding-a-worksheet-with-database-using-worksheets-designer-in-vs-net-2005_51.png)
 
-**Figur:** Änderungen an Datenbanktabelle speichern durch Anklicken**Speichern** Taste
+**Figur:** Änderungen an Datenbanktabelle speichern durch Anklicken**Speichern** Knopf
 
 {{% alert color="primary" %}}   {{% /alert %}}
 

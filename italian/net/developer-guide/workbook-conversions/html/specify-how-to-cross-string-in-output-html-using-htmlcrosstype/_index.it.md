@@ -1,5 +1,5 @@
 ﻿---
-title: Specificare come incrociare la stringa nell'HTML di output utilizzando HtmlCrossType
+title: Specificare come incrociare la stringa nell'output HTML usando HtmlCrossType
 type: docs
 weight: 140
 url: /it/net/specify-how-to-cross-string-in-output-html-using-htmlcrosstype/
@@ -16,12 +16,12 @@ Quando la cella contiene testo o stringa ma è più grande della larghezza della
 
 - **HtmlCrossType.FitToCell**: Visualizza solo la stringa all'interno della larghezza della cella.
 
-## **Specificare come incrociare la stringa nell'HTML di output utilizzando HtmlCrossType**
+## **Specificare come incrociare la stringa nell'output HTML usando HtmlCrossType**
 
- Il codice di esempio seguente carica il file[esempio di file Excel](51740732.xlsx) e lo salva in formato HTML specificando diverso[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) Si prega di scaricare il[HTML di output](51740734.zip) generato con questo codice. Il file Excel di esempio contiene l'immagine bordata di colore rosso come mostrato in questo screenshot che mostra l'effetto del[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) valori sull'output HTML.
+ Il codice di esempio seguente carica il file[esempio di file Excel](51740732.xlsx) e lo salva nel formato HTML specificando diverso[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) . Si prega di scaricare il[HTML di output](51740734.zip) generato con questo codice. Il file Excel di esempio contiene l'immagine bordata di colore rosso come mostrato in questo screenshot che mostra l'effetto del[**HtmlCrossType**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype) valori sull'uscita HTML.
 
 ![cose da fare:immagine_alt_testo](specify-how-to-cross-string-in-output-html-using-htmlcrosstype_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-LoadingSavingConvertingAndManaging-SpecifyHtmlCrossTypeInOutputHTML.cs" >}}

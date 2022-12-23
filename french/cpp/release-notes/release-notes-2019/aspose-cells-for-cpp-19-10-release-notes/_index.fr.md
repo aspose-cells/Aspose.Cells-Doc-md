@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells pour CPP 19.10.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-215|Résoudre le problème des conflits|Nouvelle fonctionnalité|
 |CELLSCPP-216|Prise en charge de la version de package indépendante|Nouvelle fonctionnalité|

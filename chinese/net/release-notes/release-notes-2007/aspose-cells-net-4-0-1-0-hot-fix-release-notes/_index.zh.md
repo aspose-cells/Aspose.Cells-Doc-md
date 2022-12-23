@@ -17,5 +17,5 @@ url: /zh/net/aspose-cells-net-4-0-1-0-hot-fix-release-notes/
 - 添加了新的图表演示
 - 修复了 InsertRows/DeleteRows 方法中的错误
 - 修复了加载/保存 SpreadsheetML 文件的错误
-- 修复了加载单元格中包含单个句点 (.) 的 CSV 文件时的错误
+- 修复了加载单元格中包含单个句点 (.) 的 CSV 文件的错误
 - 修复了 xls2pdf 功能中的错误

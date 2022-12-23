@@ -213,7 +213,7 @@ System.out.println(sr.getPageScale());
 1. CellValueFormatStrategy.CELL_STYLE: Solo formateado con el formato original de la celda.
 1. CellValueFormatStrategy.DISPLAY_STYLE: formateado con el estilo mostrado de la celda.
 1. CellValueFormatStrategy.NONE: Sin formato.
-### **Método Cell.getStringValue agregado**
+### **Método Cell.getStringValue añadido**
 Para usar la enumeración CellValueFormatStrategy, v8.5.0 ha expuesto el método Cell.getStringValue que podría aceptar un parámetro de tipo CellValueFormatStrategy y devuelve el valor que depende de la opción especificada.
 
 El siguiente fragmento de código muestra cómo usar el método Cells.getStringValue recién expuesto.

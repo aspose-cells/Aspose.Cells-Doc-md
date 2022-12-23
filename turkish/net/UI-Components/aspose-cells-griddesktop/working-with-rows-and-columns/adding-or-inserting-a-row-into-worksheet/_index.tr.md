@@ -14,7 +14,7 @@ url: /tr/net/adding-or-inserting-a-row-into-worksheet/
 
 -  Aspose.Cells.GridDesktop kontrolünü ekleyin.**Biçim**
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
--  Ekle**Sıra** için**Çalışma kağıdı**
+-  Eklemek**Sıra** için**Çalışma kağıdı**
 
 
 

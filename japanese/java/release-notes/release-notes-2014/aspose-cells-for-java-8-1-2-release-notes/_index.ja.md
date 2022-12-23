@@ -11,7 +11,7 @@ url: /ja/java/aspose-cells-for-java-8-1-2-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for Java がバージョン 8.1.2 に更新されました。このリリースでは、20 を超える新しい便利な改善が追加されたことをお知らせいたします。
-Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for Java を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for Java の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells for Java での変更点のリストです。
@@ -28,17 +28,17 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 
 (CELLSJAVA-40900) - public API メソッドの難読化
 (CELLSJAVA-40891) - 完全に破損したスプレッドシートのロード中にプロセスがハングする
-(CELLSJAVA-40883) - CSV インポート時の日付形式の問題
+(CELLSJAVA-40883) - インポート中の日付形式の問題 CSV
 (CELLSJAVA-40872) - worksheet.getCells().importResultSet、日付列からの時間は常に 00:00 です
 
 バグ
 
-(CELLSJAVA-40866) - HTML への変換で、SaveOptions の ImageFormat が考慮されない
-(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN により、結果の HTML でセルがシフトする (スパン問題)
+(CELLSJAVA-40866) - HTML に変換すると、SaveOptions の ImageFormat が考慮されない
+(CELLSJAVA-40854) - HtmlHiddenRowDisplayType.HIDDEN により、結果としてセルがシフトする HTML (スパン問題)
 (CELLSJAVA-40835) - レンダリングされた HTML ファイルでの非表示の列のエクスポートの問題
 (CELLSJAVA-40879) - データ範囲の画像作成の問題 (Sheet to Image)
 (CELLSJAVA-40878) - スプレッドシートを JPEG 画像に保存する際に垂直および水平解像度を設定しても有効にならない
-(CELLSJAVA-40877) - Excel から PDF - Aspose Cells 8.xx でレンダリングされる画質が悪い
+(CELLSJAVA-40877) - Excel to PDF - Aspose Cells 8.xx でレンダリングされる画質が悪い
 (CELLSJAVA-40910) - PdfSaveOptions.setImageType(ImageFormat.getPng()) を使用して PDF をレンダリングすると画像が失われる
 (CELLSJAVA-40907) - テンプレートの Excel ファイルを HTML として保存すると、グラフにデータ ポイント マーカーが表示されない
 (CELLSJAVA-40904) - 一部のチャートが HTML ファイル形式に正しくレンダリングされない
@@ -46,10 +46,10 @@ Aspose.Cells for Java を使用すると、アプリケーションで XLS、Spr
 (CELLSJAVA-40898) - Sheet17 のデータ切り捨ての問題
 (CELLSJAVA-40886) - Excel ファイルを再保存すると、シリーズ マークが壊れる
 (CELLSJAVA-40885) - グラフのエクスポートで、出力画像形式のデータ ポイントの形状が欠落している
-(CELLSJAVA-40869) - 数式にグリフがなく、レンダリングされた PDF ファイルで特定の書式設定されたテキストが切り捨てられる
+(CELLSJAVA-40869) - 数式にグリフがなく、レンダリングされた PDF ファイルで特定のフォーマットされたテキストが切り捨てられる
 (CELLSJAVA-40865) - 出力 pdf で画像が鮮明でない
-(CELLSJAVA-40860) - テンプレート XLSX ファイルを再保存すると、チャートのバブル プロパティが変更される
-(CELLSJAVA-40859) - テンプレート XLSX ファイルを再保存すると、チャート内のバブル プロパティが変更される
+(CELLSJAVA-40860) - テンプレート XLSX ファイルを再保存すると、グラフのバブル プロパティが変更される
+(CELLSJAVA-40859) - テンプレート XLSX ファイルを再保存すると、グラフのバブル プロパティが変更される
 (CELLSJAVA-40858) - Column100PercentStacked または Bar ラベル プロパティが失われました
 (CELLSJAVA-40817) - 出力 PDF の画像がぼやける
 (CELLSJAVA-40880) - 実行時に Aspose.Cells 経由で DateTime 値を追加すると、DateTime タイプが検出されない

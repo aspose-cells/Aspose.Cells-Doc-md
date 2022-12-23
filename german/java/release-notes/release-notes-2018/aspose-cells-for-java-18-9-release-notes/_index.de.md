@@ -13,9 +13,9 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.9.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42715|Formeln werden nicht wie in MS Excel-Dateien abgerufen|Insekt|
-|CELLSJAVA-42711|Diagramm in PDF wird nicht aus der Excel-Vorlage generiert|Insekt|
-|CELLSJAVA-42710|Doppelter Legendenelementtext im Diagramm bei der Excel-in-PDF-Konvertierung|Insekt|
-|CELLSJAVA-42706|Die PDF-Ausgabe zeigt keine Diagrammbeschriftung an|Insekt|
+|CELLSJAVA-42711|Das Diagramm in PDF wird nicht aus der Excel-Vorlage generiert|Insekt|
+|CELLSJAVA-42710|Doppelter Legendenelementtext im Diagramm in Excel in PDF-Konvertierung|Insekt|
+|CELLSJAVA-42706|PDF Ausgabe zeigt keine Diagrammbeschriftung|Insekt|
 |CELLSJAVA-42700|Das Wasserfalldiagramm wird nach dem Ändern der Diagrammdaten nicht richtig gerendert|Insekt|
 |CELLSJAVA-42717|Cells.deleteRow funktioniert nicht korrekt|Insekt|
 |CELLSJAVA-42716|Falscher Wert für Rahmenstil abgerufen|Insekt|
@@ -77,11 +77,11 @@ Ruft den standardmäßigen englischen Schriftstilnamen (regulär, fett, kursiv) 
 
 ### **Fügt PdfCustomPropertiesExport-Aufzählung hinzu**
 
-Gibt an, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird.
+Gibt an, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird.
 
 ### **Fügt die PdfSaveOptions.CustomPropertiesExport-Eigenschaft hinzu**
 
-Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird. Der Standardwert ist „Keine“.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird. Der Standardwert ist „Keine“.
 
 ### **Fügt die Klasse XmlDataBinding hinzu**
 

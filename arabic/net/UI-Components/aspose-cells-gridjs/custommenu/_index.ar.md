@@ -10,7 +10,7 @@ keywords: custom menu items, context menu
 لدينا بعض عناصر قائمة السياق ، على سبيل المثال إدراج / حذف صف / عمود وما إلى ذلك
 ومع ذلك ، إذا كان المستخدم يريد تخصيص عناصر قائمة السياق.
 نحن ندعم عناصر قائمة السياق المحددة في خيارات التحميل.
-فمثلا:
+على سبيل المثال:
 ```javascript
         const onMyActionClick1 = (sheet) => {
             console.log('my action clicked1' +  sheet.data.name)

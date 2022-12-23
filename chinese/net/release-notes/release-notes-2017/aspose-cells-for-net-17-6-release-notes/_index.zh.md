@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-17-6-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSNET-45356|引用 HTML 中的所有属性值|新功能|
+|CELLSNET-45356|引用HTML中的所有属性值|新功能|
 |CELLSNET-45394|支持Office 365新功能|新功能|
 |CELLSNET-45348|支持Table作为图表的数据源|新功能|
 |CELLSNET-45317|删除 Aspose.Cells.GridWeb 的旧 Web.config 设置，例如 force script_path 和 forcepath|新功能|
@@ -20,16 +20,16 @@ url: /zh/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45391|输出 PDF 中的 Excel 页脚不是斜体 - 它应该是 Arial 9 和斜体|强化|
 |CELLSNET-45328|从现有工作表复制 PageSetup 设置|强化|
 |CELLSNET-45345|部分下标标签被剪切并移动到下一行|漏洞|
-|CELLSNET-45344|下标文本向右移动了一点 - Excel 到 PDF 的渲染|漏洞|
-|CELLSNET-44595|将 HTML 文件转换为 Excel 文件格式时输出 Excel 文件不好|漏洞|
-|CELLSNET-44596|将 HTML 文件转换为 Excel 文件格式时输出 Excel 文件不好 - 我|漏洞|
-|CELLSNET-45409|多次加载和保存 XLS 文件后抛出异常|漏洞|
+|CELLSNET-45344|下标文本向右移动了一点 - Excel 到 PDF 渲染|漏洞|
+|CELLSNET-44595|将 HTML 文件转换为 Excel 文件格式时，输出 Excel 文件不好|漏洞|
+|CELLSNET-44596|将 HTML 文件转换为 Excel 文件格式时，输出 Excel 文件不好 - I|漏洞|
+|CELLSNET-45409|XLS 文件多次加载保存后抛出异常|漏洞|
 |CELLSNET-45411|加载 Excel 文件时加载筛选器导致崩溃|漏洞|
 |CELLSNET-45405|将 IFERROR 与 NPER 一起使用无法正确处理|漏洞|
 |CELLSNET-45414|输出 PDF 应该有一页而不是两页|漏洞|
 |CELLSNET-45399|当单元格具有阿拉伯货币名称时图像呈现不正确|漏洞|
-|CELLSNET-45389|括号的形状在输出 PDF/图像中呈现错误|漏洞|
-|CELLSNET-45376|Aspose.Cells 保存的 PDF 不像 MS Excel 保存的 PDF|漏洞|
+|CELLSNET-45389|括号的形状在输出 PDF/image 中呈现错误|漏洞|
+|CELLSNET-45376|Aspose.Cells 保存 PDF 不像 MS Excel 保存 PDF|漏洞|
 |CELLSNET-45400|渲染为图像时迷你图显示不正确|漏洞|
 |CELLSNET-45372|BankActionRatPie 图表转换为图像时图例项目颜色不正确|漏洞|
 |CELLSNET-45371|TotalActionRatPie 图表转换为图像时图例项目颜色不正确|漏洞|
@@ -53,10 +53,10 @@ url: /zh/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45378|未识别第 3 个工作表中的超链接|漏洞|
 |CELLSNET-45375|通过 Aspose.Cells API 打开模板 XLS 文件时出现异常|漏洞|
 |CELLSNET-45373|在包含公式的 ListObject 附近添加行时，这些公式会错误地向上复制|漏洞|
-|CELLSNET-45369|加载和保存 XLS 后文本格式发生变化（间距增加）|漏洞|
+|CELLSNET-45369|加载并保存 XLS 后文本格式发生变化（间距增加）|漏洞|
 |CELLSNET-45368|命令按钮的 PrintObject 属性在加载和保存 XLSM 文件后设置为 true|漏洞|
-|CELLSNET-45365|呈现为 PDF 格式后单元格格式丢失|漏洞|
-|CELLSNET-45361|XLSX 文件在更改图表的背景图像后损坏|漏洞|
+|CELLSNET-45365|渲染为 PDF 格式后单元格格式丢失|漏洞|
+|CELLSNET-45361|XLSX 更改图表背景图像后文件损坏|漏洞|
 |CELLSNET-45360|插入范围也会扩展上面图表的大小|漏洞|
 |CELLSNET-45343|ListObject.ConvertToRange 打破总计行中的公式|漏洞|
 |CELLSNET-45320|某些功能不工作|漏洞|

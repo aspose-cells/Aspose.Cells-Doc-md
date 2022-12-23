@@ -10,7 +10,7 @@ Per ruotare il testo in una cella di un foglio di lavoro, procedi come segue:
 1. Aggiungi testo di esempio.
 1. Formatta il testo: ruota, aggiungi il colore di sfondo.
 1. Salva il file.
- Gli esempi di codice che seguono mostrano come eseguire questi passaggi prima in VSTO, usando C#, quindi in Aspose.Cells, sempre usando C#.
+ Gli esempi di codice che seguono mostrano come eseguire questi passaggi prima in VSTO, utilizzando C#, quindi in Aspose.Cells, sempre utilizzando C#.
 ## **VSTO**
 {{< highlight "csharp" >}}
 

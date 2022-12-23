@@ -14,7 +14,7 @@ url: /es/java/update-references-in-other-worksheets-while-deleting-blank-columns
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-management-Updatereferencesinotherworksheetswhiledeletingblankcolumnsandrowsinworksheet-1.java" >}}
 ## **Salida de consola**
-Esta es la salida de la consola del código de ejemplo anterior cuando[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) la propiedad se ha establecido como**verdadero**.
+Esta es la salida de la consola del código de muestra anterior cuando[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) la propiedad se ha establecido como**verdadero**.
 
 {{< highlight "java" >}}
 
@@ -37,7 +37,7 @@ Cell Value: 4
 
 {{< /highlight >}}
 
-Esta es la salida de la consola del código de ejemplo anterior cuando[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
+Esta es la salida de la consola del código de muestra anterior cuando[DeleteOptions.UpdateReference](https://reference.aspose.com/cells/java/com.aspose.cells/deleteoptions#UpdateReference) la propiedad se ha establecido como**falso**. Como puede ver, la fórmula en la celda E3 de la segunda hoja de trabajo no se actualiza y su valor de celda ahora es 0 en lugar de 4, lo cual no es válido.
 
 {{< highlight "java" >}}
 

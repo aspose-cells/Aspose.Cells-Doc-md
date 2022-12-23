@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for JasperReports 18.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42742|Conflit entre deux pots (Aspose.Cells for Java et Aspose.Cells for JasperReports)|Amélioration|
 ### **Public API et modifications incompatibles avec les versions antérieures**

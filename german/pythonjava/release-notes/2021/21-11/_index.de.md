@@ -12,21 +12,21 @@ url: /de/python-java/aspose-cells-for-python-via-java-21-11-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSJAVA-43844|Eine Erweiterung, die für das Format der Buchhaltungszahlen benötigt wird|
-|CELLSJAVA-43953|Rendern Sie den spezifischen Text/Teil „Cell“ und „Kommentar“, der ins Japanische übersetzt werden soll, in der Excel-zu-PDF-Konvertierung|
-|CELLSJAVA-43935|Problem mit der Schriftgröße des Formtexts beim Speichern und Laden der XLS-Datei|
+|CELLSJAVA-43844| Eine Erweiterung, die für das Format der Buchhaltungszahlen benötigt wird|
+|CELLSJAVA-43953|Rendern Sie den spezifischen Text/Teil „Cell“ und „Kommentar“, der ins Japanische übersetzt werden soll, in Excel in die PDF-Konvertierung|
+|CELLSJAVA-43935|Problem mit der Schriftgröße des Formtexts beim Speichern und Laden der Datei XLS|
 |CELLSJAVA-43952|Problem mit dem Ablauf der temporären Lizenz|
-|CELLSJAVA-43954|XLSX zu PDF: Bild verursacht eine Ausnahme "java.lang.OutOfMemoryError: Java heap space"|
-|CELLSJAVA-43902|Einige Rahmen von Excel, die in HTML konvertiert wurden, sind überflüssig|
-|CELLSJAVA-43933|Beim Exportieren in HTML mit nur einem Datum unterscheidet sich das bedingte Format von Excel|
+|CELLSJAVA-43954|XLSX bis PDF: Bild verursacht eine Ausnahme "java.lang.OutOfMemoryError: Java heap space"|
+|CELLSJAVA-43902|Einige Grenzen von Excel, die in HTML konvertiert wurden, sind überflüssig|
+|CELLSJAVA-43933|Beim Exportieren nach HTML mit nur einem Datum unterscheidet sich das bedingte Format von Excel|
 |CELLSJAVA-43878| Falsche Position der Excel-Cluster-Balkendiagramm-Datenbeschriftungen|
-|CELLSJAVA-43895|Linienformen und andere Diagrammformen werden beim Konvertieren von XLS in XLSX nicht korrekt gerendert|
+|CELLSJAVA-43895|Linienform und andere Diagrammformen werden beim Konvertieren von XLS in XLSX nicht korrekt gerendert|
 |CELLSJAVA-43932|Problem beim Festlegen der Position von Datenbeschriftungen für explodierte Donut-Diagramme im Ausgabebild|
 |CELLSJAVA-43934|Die Beschriftungen des Kreisdiagramms stimmen nach dem Bearbeiten oder Aktualisieren des Diagramms nicht mit Excel überein|
-|CELLSJAVA-43519|Verbundene Zellen in ausgeblendeten Zeilen oder Spalten erzeugen eine ungleichmäßige HTML-Tabelle|
+|CELLSJAVA-43519|Verbundene Zellen, die in ausgeblendeten Zeilen oder Spalten enthalten sind, erzeugen eine ungleichmäßige HTML-Tabelle|
 |CELLSJAVA-43962|Der Effekt ist inkonsistent, nachdem das bedingte Format in Excel in HTML konvertiert wurde|
 |CELLSJAVA-43969|Ein Name mit COUNTIF-Funktion und externer Referenz erzeugt eine NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException: Für die Eingabezeichenfolge beim Rendern einer Excel-Datei in HTML|
+|CELLSJAVA-43903|java.lang.NumberFormatException: Für die Eingabezeichenfolge beim Rendern der Excel-Datei auf HTML|
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
 

@@ -31,7 +31,7 @@ url: /fr/net/aspose-cells-for-net-7-4-0-release-notes/
 
 
 
- Exceptions
+ Des exceptions
 
 - Exception à l'ouverture d'un fichier Open XML
 
@@ -43,7 +43,7 @@ url: /fr/net/aspose-cells-for-net-7-4-0-release-notes/
 - Problème d'actualisation et de calcul des données du tableau croisé dynamique
 - HLOOKUPavec le bogue des formules INDIRECT
 - Déprotéger la feuille de calcul échoue pour les fichiers enregistrés avec Excel 2013
-- Problème de numéro de page du pied de page lors de l'exportation au format PDF
+- Problème de numéro de page de pied de page lors de l'exportation vers PDF
 - AcceptAllRevisions n'est pas appliqué correctement lors de l'enregistrement du classeur dans les flux
 
  - Cases à cocher corrompues rendues lors de la sauvegarde
@@ -78,19 +78,19 @@ url: /fr/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Insectes
 
- 41279 - La liste de menu de validation de GridWeb échouera sur les éléments de menu qui contiennent le signe dollar - "$"
+41279 - La liste de menu de validation de GridWeb échouera sur les éléments de menu qui contiennent le signe dollar - "$"
 
  41280- La liste du menu de validation de GridWeb est actualisée après la mise à jour de la valeur de la cellule référencée
 
  41294 - GridWeb ne fonctionnera pas sur FireFox pour les fichiers contenant des cellules avec liste de validation
 
-41308 - Lors de la modification d'une valeur de cellule, appuyez sur la touche Entrée pour perdre le saut de ligne d'origine dans IE
+ 41308 - Lors de la modification d'une valeur de cellule, appuyez sur la touche Entrée pour perdre le saut de ligne d'origine dans IE
 
 - Problème de copier-coller dans la grille Web qui ne fonctionne pas pour Chrome, FireFox, etc.
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

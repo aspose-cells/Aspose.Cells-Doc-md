@@ -10,7 +10,7 @@ description: Administre imágenes, oleobject, formas en archivos de Excel.
 
 A veces, necesita insertar algunas formas necesarias en la hoja de trabajo. Es posible que deba insertar la misma forma en diferentes posiciones de la hoja de trabajo. O necesita insertar formas por lotes en la hoja de trabajo.
 
- ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/) soporta todas estas operaciones.
+ ¡No te preocupes![Aspose.Cells](https://products.aspose.com/cells/)soporta todas estas operaciones.
 
 {{% /alert %}}
 
@@ -26,12 +26,12 @@ Las formas en Excel se dividen principalmente en los siguientes tipos:
 - **estrellas y pancartas**
 - **Rótulos**
 
-Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
+ Este documento guía seleccionará una o dos formas de cada tipo para hacer muestras. A través de estos ejemplos, aprenderá a usar[Aspose.Cells](https://products.aspose.com/cells/) para insertar la forma especificada en la hoja de cálculo.
 
 ## **Adición de imágenes en la hoja de cálculo de Excel en C#**
 
 Agregar imágenes a una hoja de cálculo es muy fácil. Solo se necesitan unas pocas líneas de código:
- Simplemente llame al[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metodo de la[**Fotos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objeto). los[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)método toma los siguientes parámetros:
+ Simplemente llame al[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) metodo de la[**Fotos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) objeto). Él[**Agregar**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)método toma los siguientes parámetros:
 
 - **Índice de la fila superior izquierda**, el índice de la fila superior izquierda.
 - **Índice de la columna superior izquierda**, el índice de la columna superior izquierda.
@@ -44,8 +44,8 @@ Agregar imágenes a una hoja de cálculo es muy fácil. Solo se necesitan unas p
 
 Aspose.Cells admite agregar, extraer y manipular objetos OLE en hojas de trabajo. Por esta razón, Aspose.Cells tiene la[**OleObjectCollectionOleObjectCollection**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobjectcollection) clase, utilizada para agregar un nuevo objeto OLE a la lista de recopilación. Otra clase,[**Objeto OLE**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject), representa un objeto OLE. Tiene algunos miembros importantes:
 
--  los[**Datos de imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propiedad especifica los datos de la imagen (icono) del tipo de matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de trabajo.
--  los[**ObjetoDatos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propiedad especifica los datos del objeto en forma de una matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando haga doble clic en el icono Objeto OLE.
+-  Él[**Datos de imagen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/imagedata)La propiedad especifica los datos de la imagen (icono) del tipo de matriz de bytes. La imagen se mostrará para mostrar el objeto OLE en la hoja de trabajo.
+-  Él[**ObjetoDatos**](https://reference.aspose.com/cells/net/aspose.cells.drawing/oleobject/properties/objectdata)La propiedad especifica los datos del objeto en forma de una matriz de bytes. Estos datos se mostrarán en su programa relacionado cuando haga doble clic en el icono Objeto OLE.
 
 El siguiente ejemplo muestra cómo agregar objetos OLE a una hoja de cálculo.
 
@@ -82,7 +82,7 @@ Puede usar el siguiente método para insertar una línea en la hoja de cálculo.
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una línea en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar una línea en una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Line.cs" >}}
 
@@ -94,7 +94,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar una flecha de línea en la hoja de cálculo de Excel en C#**
 
- La forma de flecha de línea pertenece a la**Líneas**categoría. Es un caso especial de línea.
+ La forma de flecha de línea pertenece a la**Líneas** categoría. Es un caso especial de línea.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -176,7 +176,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Insertar un cubo en una hoja de cálculo de Excel en C#**
 
- La forma de cubo pertenece a la**Formas básicas** categoría.
+La forma de cubo pertenece a la**Formas básicas** categoría.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -206,7 +206,7 @@ Puede usar el siguiente método para insertar un cubo en la hoja de cálculo.
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar un cubo en una hoja de cálculo.
+El siguiente ejemplo muestra cómo insertar un cubo en una hoja de trabajo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-Cube.cs" >}}
 
@@ -272,7 +272,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de trabajo.
+Puede usar el siguiente método para insertar un signo de multiplicación en la hoja de cálculo.
 
 {{% alert color="primary" %}}
 
@@ -302,7 +302,7 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 
 ## **Inserción de un multidocumento a la hoja de cálculo de Excel en C#**
 
-La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
+ La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
 
 ***En Microsoft Excel (por ejemplo 2007):***
 
@@ -314,7 +314,7 @@ La forma de multidocumento pertenece a la**diagramas de flujo** categoría.
 
 ***Usando Aspose.Cells***
 
-Puede usar el siguiente método para insertar un multidocumento en la hoja de cálculo.
+Puede usar el siguiente método para insertar un multidocumento en la hoja de trabajo.
 
 {{% alert color="primary" %}}
 
@@ -374,7 +374,7 @@ Puede usar el siguiente método para insertar una estrella de cinco puntas en la
 
 {{% /alert %}}
 
-El siguiente ejemplo muestra cómo insertar una estrella de cinco puntas en una hoja de trabajo.
+El siguiente ejemplo muestra cómo insertar una estrella de cinco puntas en una hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-InsertShapesToWorksheetInAsposeCells-FivePointedStar.cs" >}}
 
@@ -440,6 +440,6 @@ Ejecute el código anterior, obtendrá los siguientes resultados:
 - [Actualizar valores de formas vinculadas](/cells/es/net/refresh-values-of-linked-shapes/)
 - [Enviar forma al frente o al reverso dentro de la hoja de trabajo](/cells/es/net/send-shape-front-or-back-inside-the-worksheet/)
 - [Administrar opciones de forma](/cells/es/net/managing-shape-options/)
-- [Administrar opciones de texto de formas](/cells/es/net/managing-shape-text-options/)
+- [Administrar opciones de texto de forma](/cells/es/net/managing-shape-text-options/)
 - [Extensiones web: complementos de Office](/cells/es/net/web-extensions-office-add-ins/)
 

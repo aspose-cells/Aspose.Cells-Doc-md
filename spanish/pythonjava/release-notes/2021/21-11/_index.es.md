@@ -12,9 +12,9 @@ url: /es/python-java/aspose-cells-for-python-via-java-21-11-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-43844|Se necesita una mejora para el formato de números de contabilidad|
-|CELLSJAVA-43953|Procesar texto/parte específico "Cell" y "Comentario" para traducir al japonés en la conversión de Excel a PDF|
-|CELLSJAVA-43935|Problema de tamaño de fuente de texto de forma al guardar y cargar archivos XLS|
+|CELLSJAVA-43844| Se necesita una mejora para el formato de números de contabilidad|
+|CELLSJAVA-43953|Procesar texto/parte específico "Cell" y "Comentario" para traducir al japonés en Excel a PDF conversión|
+|CELLSJAVA-43935|Problema de tamaño de fuente de texto de forma al guardar y cargar el archivo XLS|
 |CELLSJAVA-43952|Problema de caducidad de la licencia temporal|
 |CELLSJAVA-43954|XLSX a PDF: la imagen provoca una excepción "java.lang.OutOfMemoryError: Java heap space"|
 |CELLSJAVA-43902|Algunos bordes de Excel convertidos a HTML son redundantes|
@@ -26,7 +26,7 @@ url: /es/python-java/aspose-cells-for-python-via-java-21-11-release-notes/
 |CELLSJAVA-43519|Las celdas combinadas incluidas en filas o columnas ocultas producen una tabla HTML desigual|
 |CELLSJAVA-43962|El efecto es inconsistente después de que el formato condicional en Excel se convierte a HTML|
 |CELLSJAVA-43969|Un nombre con función COUNTIF y referencia externa produce una NullPointerException|
-|CELLSJAVA-43903|java.lang.NumberFormatException: para la cadena de entrada al representar un archivo de Excel en HTML|
+|CELLSJAVA-43903|java.lang.NumberFormatException: para la cadena de entrada al representar el archivo de Excel en HTML|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

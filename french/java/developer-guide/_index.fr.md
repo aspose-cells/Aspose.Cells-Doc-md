@@ -17,13 +17,13 @@ url: /fr/java/developer-guide/
         <ul>
             <li><a href="/cells/fr/java/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Création d'un nouveau classeur</a></li>
         </ul>
-        <p>Ouvert</p>
+        <p>Ouvrir</p>
         <ul>
             <li><a href="/cells/fr/java/opening-files-with-different-formats/">Ouverture de fichiers avec différents formats</a></li>
             <li><a href="/cells/fr/java/get-warnings-while-loading-excel-file/">Obtenir des avertissements lors du chargement du fichier Excel</a></li>
-            <li><a href="/cells/fr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lire la feuille de calcul des nombres Développé par Apple Inc. en utilisant Aspose.Cells</a></li>
+            <li><a href="/cells/fr/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Lire la feuille de calcul Numbers développée par Apple Inc. en utilisant Aspose.Cells</a></li>
         </ul>
-        <p>sauvegarder</p>
+        <p>Sauver</p>
         <ul>
             <li><a href="/cells/fr/java/different-ways-to-save-files/">Différentes façons d'enregistrer des fichiers</a></li>
             <li><a href="/cells/fr/java/encrypting-excel-files/">Chiffrement des fichiers Excel</a></li>
@@ -39,11 +39,11 @@ url: /fr/java/developer-guide/
         <p>Exporter</p>
         <ul>
             <li><a href="/cells/fr/java/converting-workbook-to-different-formats/">Convertir le classeur en différents formats</a></li>
-            <li><a href="/cells/fr/java/convert-excel-workbook-to-pdf/">Convertir un classeur Excel en PDF</a></li>
-            <li><a href="/cells/fr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convertir un fichier Excel au format PDF compatible avec PDFA-1a</a></li>
+            <li><a href="/cells/fr/java/convert-excel-workbook-to-pdf/">Convertir le classeur Excel en PDF</a></li>
+            <li><a href="/cells/fr/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Convertir le fichier Excel au format PDF compatible avec PDFA-1a</a></li>
             <li><a href="/cells/fr/java/converting-worksheet-to-different-image-formats/">Conversion d'une feuille de calcul en différents formats d'image</a></li>
             <li><a href="/cells/fr/java/track-document-conversion-progress/">Suivre la progression de la conversion des documents</a></li>
-            <li><a href="/cells/fr/java/convert-excel-to-html-with-tooltip/">Convertir Excel en HTML avec une info-bulle</a></li>
+            <li><a href="/cells/fr/java/convert-excel-to-html-with-tooltip/">Convertir Excel en HTML avec info-bulle</a></li>
             <li><a href="/cells/fr/java/convert-json-to-csv/">Convertir JSON en CSV</a></li>
             <li><a href="/cells/fr/java/convert-csv-to-json/">Convertir CSV en JSON</a></li>
         </ul>
@@ -61,12 +61,12 @@ url: /fr/java/developer-guide/
         <ul>
 		 <li><a href="/cells/fr/java/accessing-cells-of-a-worksheet/">Accéder au Cells d'une feuille de calcul</a></li>
 		 <li><a href="/cells/fr/java/add-and-retrieve-data/">Ajouter et récupérer des données</a></li>
-		 <li><a href="/cells/fr/java/worksheets/">Des feuilles de calcul</a></li>
+		 <li><a href="/cells/fr/java/worksheets/">Feuilles de travail</a></li>
 		 <li><a href="/cells/fr/java/rows-and-columns/">Lignes et colonnes</a></li>
         </ul>
         <p>Style</p>
         <ul>
-		 <li><a href="/cells/fr/java/data-formatting/">Numéro</a></li>
+		 <li><a href="/cells/fr/java/data-formatting/">Nombre</a></li>
 		 <li><a href="/cells/fr/java/dealing-with-font-settings/">Alignement</a></li>
 		 <li><a href="/cells/fr/java/fonts/">Police de caractère</a></li>
 		 <li><a href="/cells/fr/java/cells-formatting/#adding-borders-to-cells">Frontière</a></li>
@@ -121,13 +121,13 @@ url: /fr/java/developer-guide/
         </ul>
         <ul>
         </ul>
-        <p><a href="/cells/fr/java/managing-pictures">Image</a></p>
+        <p><a href="/cells/fr/java/managing-pictures">Photo</a></p>
         <ul>
             <li><a href="/cells/fr/java/insert-a-linked-picture-from-web-address/">Insérer une image liée à partir d'une adresse Web</a></li>
             <li><a href="/cells/fr/java/insert-a-picture-based-on-cell-reference/">Insérer une image basée sur la référence Cell</a></li>
             <li><a href="/cells/fr/java/managing-pictures/#adding-pictures">Insérer une image dans Aspose.Cells</a></li>
         </ul>
-        <p><a href="/cells/fr/java/managing-charts-and-shapes/">Forme</a></p>
+        <p><a href="/cells/fr/java/managing-charts-and-shapes/">Façonner</a></p>
         <ul>
             <li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-to-worksheet">Insertion d'une ligne dans la feuille de calcul</a></li>
             <li><a href="/cells/fr/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-line-arrow-to-worksheet">Insertion d'une flèche de ligne dans la feuille de calcul</a></li>
@@ -295,7 +295,7 @@ url: /fr/java/developer-guide/
         </ul>
     </div>
     <div class="col-md-6">
-        <p>Présenter</p>
+        <p>Contour</p>
         <ul>
 		<li><a href="/cells/fr/java/creating-subtotals/">Création de sous-totaux</a></li>
         </ul>
@@ -311,7 +311,7 @@ url: /fr/java/developer-guide/
             <li><a href="/cells/fr/java/how-to-change-the-comment-font-color/">Comment changer la couleur de la police des commentaires</a></li>
             <li><a href="/cells/fr/java/change-text-direction-of-the-comment/">Changer la direction du texte du commentaire</a></li>            
             <li><a href="/cells/fr/java/set-margins-of-comment-or-shape-inside-the-worksheet/">Définir les marges de commentaire ou de forme à l'intérieur de la feuille de calcul</a></li>
-            <li><a href="/cells/fr/java/disable-downlevel-revealed-comments-while-saving-to-html/">Désactiver les commentaires révélés de niveau inférieur lors de l'enregistrement au format HTML</a></li>
+            <li><a href="/cells/fr/java/disable-downlevel-revealed-comments-while-saving-to-html/">Désactiver les commentaires de niveau inférieur révélés lors de l'enregistrement au HTML</a></li>
             <li><a href="/cells/fr/java/threaded-comments/">Commentaires filetés</a></li>
         </ul>
     </div>
@@ -337,7 +337,7 @@ url: /fr/java/developer-guide/
         <ul>
          <li><a href="/cells/fr/java/worksheet-views/#page-break-preview">Aperçu des sauts de page</a></li>
         </ul>
-        <p>Spectacle</p>
+        <p>Montrer</p>
          <ul>
 		<li><a href="/cells/fr/java/show-and-hide-elements/">Afficher et masquer les éléments</a></li>
         </ul>
@@ -347,7 +347,7 @@ url: /fr/java/developer-guide/
         <ul>
          <li><a href="/cells/fr/java/worksheet-views/#zoom-factor">Zoom</a></li>
         </ul>
-        <p>Fenêtre</p>
+        <p>La fenêtre</p>
         <ul>
         <li><a href="/cells/fr/java/worksheet-views/#freeze-panes">Figer les volets</a></li>
         <li><a href="/cells/fr/java/worksheet-views/#applying-and-removing-split-panes">Appliquer et supprimer des volets fractionnés</a></li>

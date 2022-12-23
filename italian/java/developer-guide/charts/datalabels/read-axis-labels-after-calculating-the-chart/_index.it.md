@@ -12,7 +12,7 @@ Puoi leggere le etichette degli assi del tuo grafico dopo aver calcolato i suoi 
 
 Vedere il seguente codice di esempio che carica il file[esempio di file Excel](64716829.xlsx)legge le etichette dell'asse delle categorie del grafico nel primo foglio di lavoro. Quindi stampa i valori delle etichette degli assi sulla console. Si prega di consultare l'output della console del codice di esempio fornito di seguito per un riferimento.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Charts-ReadAxisLabelsAfterCalculatingTheChart.java" >}}
 

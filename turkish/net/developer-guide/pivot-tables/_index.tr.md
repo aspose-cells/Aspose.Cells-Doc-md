@@ -51,6 +51,6 @@ Veri kaynağı olarak bir hücre aralığı atarken, aralık sol üstten sağ al
 - [Özet Tablo ve Kaynak Veriler](/cells/tr/net/pivot-table-and-source-data/)
 - [Pivot Tablo Verileri Gizle ve Sırala](/cells/tr/net/pivot-table-hide-and-sort-data/)
 - [Hesaplanan Öğelere Sahip Pivot Tabloyu Yenileyin ve Hesaplayın](/cells/tr/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [Pivot Tabloyu ODS dosyasına kaydet](/cells/tr/net/save-pivot-table-in-ods-file/)
+- [Pivot Tabloyu ODS dosyasına kaydedin](/cells/tr/net/save-pivot-table-in-ods-file/)
 - [Rapor filtre sayfaları seçeneğini göster](/cells/tr/net/show-report-filter-pages-option/)
 - [Pivot Tabloda DataField'in veri görüntüleme biçimleriyle çalışma](/cells/tr/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

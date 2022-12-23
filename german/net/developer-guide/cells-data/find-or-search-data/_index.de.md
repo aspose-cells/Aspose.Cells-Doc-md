@@ -14,7 +14,7 @@ Microsoft Excel ermöglicht es Benutzern, Zellen in einem Arbeitsblatt zu finden
 
 ### **Mit Microsoft Excel**
 
-Microsoft Excel ermöglicht es Benutzern, Zellen in einem Arbeitsblatt zu finden, das bestimmte Daten enthält. Wenn Sie auswählen**Bearbeiten** von dem**Finden** Menü in Microsoft Excel, sehen Sie einen Dialog, in dem Sie den Suchwert angeben können.
+ Microsoft Excel ermöglicht es Benutzern, Zellen in einem Arbeitsblatt zu finden, das bestimmte Daten enthält. Wenn Sie auswählen**Bearbeiten** von dem**Finden** Menü in Microsoft Excel, sehen Sie einen Dialog, in dem Sie den Suchwert angeben können.
 
 Hier suchen wir nach dem Wert „Oranges“. Aspose.Cells ermöglicht es Entwicklern auch, Zellen im Arbeitsblatt zu finden, die bestimmte Werte enthalten.
 
@@ -54,7 +54,7 @@ Die folgenden Beispiele verwenden Arbeitsblattdaten zum Üben von Suchmethoden:
 
  Es ist möglich, bestimmte String-Werte zu finden, indem Sie diese aufrufen[**Finden**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) Methode gefunden in der[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) Sammlung mit diversen[**FindOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- Präzisiere das[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) und[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)Eigenschaften. Der folgende Beispielcode veranschaulicht, wie diese Eigenschaften verwendet werden, um Zellen mit einer unterschiedlichen Anzahl von Zeichenfolgen zu finden**Anfang** oder bei der**Center** oder bei der**Ende** der Zeichenfolge der Zelle.
+ Präzisiere das[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) und[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) Eigenschaften. Der folgende Beispielcode veranschaulicht, wie diese Eigenschaften verwendet werden, um Zellen mit einer unterschiedlichen Anzahl von Zeichenfolgen zu finden**Anfang** oder bei der**Center** oder bei der**Ende** der Zeichenfolge der Zelle.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

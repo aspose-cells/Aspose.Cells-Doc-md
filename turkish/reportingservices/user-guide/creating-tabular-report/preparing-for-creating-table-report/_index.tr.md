@@ -105,25 +105,25 @@ ON E.ContactID = C.ContactID  ORDER BY    C.LastName, C.FirstName
 1.  Üç rapor parametresi oluşturun: ReportYear, ReportMonth ve EmpID.
  1. ReportYear parametresi için geçerli değerler şunlardır:
 
-![yapılacaklar:resim_alternatif_Metin](preparing-for-creating-table-report_1.png)
+![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_1.png)
 
 
 
 
 1. ReportMonth parametresi için geçerli değerler:
 
-![yapılacaklar:resim_alternatif_Metin](preparing-for-creating-table-report_2.png)
+![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_2.png)
 
 
 
 
 1.  EmpID parametresi için geçerli değerler şunlardır:
 
-![yapılacaklar:resim_alternatif_Metin](preparing-for-creating-table-report_3.png)
+![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_3.png)
 
 
 
 
 1.  Veri kümesi parametrelerini aşağıdaki gibi rapor parametreleriyle eşleyin:
 
-![yapılacaklar:resim_alternatif_Metin](preparing-for-creating-table-report_4.png)
+![yapılacaklar:resim_alternatif_metin](preparing-for-creating-table-report_4.png)

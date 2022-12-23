@@ -7,7 +7,7 @@ url: /it/net/chart-rendering/
 ---
 ## **Grafici di rendering**
 
- Aspose.Cells Le API supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Al fine di fornire supporto per il rendering, il[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) classe ha esposto[**Immaginare**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)metodi con una verità di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
+ Le API Aspose.Cells supportano la conversione dei grafici Excel in immagini e formati PDF senza richiedere strumenti o applicazioni aggiuntivi. Al fine di fornire supporto per il rendering, il[**Grafico**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart) classe ha esposto[**Immaginare**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/toimage/index) & [**ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)metodi con una verità di sovraccarichi per soddisfare al meglio i requisiti dell'applicazione.
 
 ### **Rendering di grafici in immagini**
 
@@ -19,9 +19,9 @@ url: /it/net/chart-rendering/
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToImageWithAdvancedOptions.cs" >}}
 
-### **Rendering del grafico in PDF**
+### **Grafico di rendering a PDF**
 
- Per eseguire il rendering del grafico in formato PDF, le API Aspose.Cells hanno esposto il file[**Grafico.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)metodo con la possibilità di archiviare il PDF risultante sul percorso del disco o Stream.
+ Per eseguire il rendering del grafico nel formato PDF, le API Aspose.Cells hanno esposto il[**Grafico.ToPdf**](https://reference.aspose.com/cells/net/aspose.cells.charts/chart/methods/topdf/index)metodo con la possibilità di memorizzare il risultante PDF sul percorso del disco o Stream.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ChartRendering-ChartRenderingChartToPDF.cs" >}}
 
@@ -115,7 +115,7 @@ url: /it/net/chart-rendering/
 
 {{% alert color="primary" %}}
 
-Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati in immagine o PDF, potresti ritrovarti con immagini di dimensioni 0 o PDF vuoto.
+Nel caso in cui provi a eseguire il rendering dei tipi di grafico non supportati su image o PDF, potresti ritrovarti con immagini di dimensione 0 o PDF vuoto.
 
 {{% /alert %}}
 

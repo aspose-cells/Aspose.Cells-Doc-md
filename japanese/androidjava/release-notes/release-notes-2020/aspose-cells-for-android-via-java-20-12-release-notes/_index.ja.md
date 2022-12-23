@@ -15,43 +15,43 @@ url: /ja/java/aspose-cells-for-android-via-java-20-12-release-notes/
 |CELLSJAVA-43322|Shape.getWorksheet() プロパティが必要です|新機能|
 |CELLSJAVA-43367|ISFORMULA関数の計算をサポート|
 |CELLSJAVA-43191|不適切なフォント タイプを指定した場合のシナリオを処理する手段を提供する|強化|
-|CELLSJAVA-40913|結果の PDF で矢印の方向が変更されました|バグ|
+|CELLSJAVA-40913|結果PDFで矢印の向きが変わりました|バグ|
 |CELLSJAVA-43282|リフレッシュ ピボットが機能せず、出力ファイルが破損する|バグ|
 |CELLSJAVA-43286|Aspose.Cells は HtmlHiddenRowDisplayType.REMOVE 設定と競合します|バグ|
 |CELLSJAVA-43302|Cells 値の取得に関する問題|バグ|
-|CELLSJAVA-43308|wrapText プロパティを使用した HTML から Excel への変換|バグ|
+|CELLSJAVA-43308|HTML を wrapText プロパティで Excel に変換|バグ|
 |CELLSJAVA-43318|Cell ピボット テーブルの更新後の値の問題|バグ|
 |CELLSJAVA-43299|Cell 値の取得に関する問題|バグ|
 |CELLSJAVA-43284|特定の物理プリンターで Aspose.Cells を使用するとチャートが印刷されない|バグ|
 |CELLSJAVA-43273|凡例項目のテキストが出力画像で切り取られる|バグ|
 |CELLSJAVA-43274|チャートバーのアウトライン色の違い|バグ|
-|CELLSJAVA-43276|XLSX から PDF への変換中の改行の問題|バグ|
+|CELLSJAVA-43276|XLSX を PDF に変換する際の改行の問題|バグ|
 |CELLSJAVA-43278|Excel の取り消し線が PDF ファイルに表示されない|バグ|
-|CELLSJAVA-43304|グラフの一部のデータラベルが出力 PDF にありません|バグ|
+|CELLSJAVA-43304|グラフの一部のデータラベルが出力にありません PDF|バグ|
 |CELLSJAVA-43311|画像に変換すると、グラフの X 軸のラベルが対角線ではなく垂直になる|バグ|
 |CELLSJAVA-40992|Excel ファイルを再保存するときのチャート テキストの位置に関する問題|バグ|
 |CELLSJAVA-43294|条件付き書式のカラー テーマが正しく機能しない|バグ|
 |CELLSJAVA-43307|ワークシートをコピーするときの埋め込み OLE オブジェクトのサイズ変更の問題|バグ|
 |CELLSJAVA-43319|数式でセル値を取得する問題|バグ|
-|CELLSJAVA-43330|XLSB ファイルを再保存した後の問題 - ファイルの破損|バグ|
-|CELLSJAVA-43333|Excel を HTML としてレンダリングするときの画像とテキストの配置が正しくない|バグ|
+|CELLSJAVA-43330|XLSB ファイルを再保存した後の問題 - 破損したファイル|バグ|
+|CELLSJAVA-43333|Excel を HTML としてレンダリングすると、画像とテキストの位置が正しくない|バグ|
 |CELLSJAVA-43321|AutoFilter の問題 - 空白行が表示される|バグ|
 |CELLSJAVA-43335|ワークブックで数式を計算中にデッドロックが発生しました|バグ|
 |CELLSJAVA-43313|印刷時にチャートラベルの位置が変わる|バグ|
 |CELLSJAVA-43314|100% 円グラフで 0/100% 線が印刷されない|バグ|
 |CELLSJAVA-43316|チャート印刷時のさまざまな問題|バグ|
-|CELLSJAVA-40582|スマート アート テキストが PDF/画像に正しくレンダリングされない|バグ|
+|CELLSJAVA-40582|スマート アート テキストが PDF/image に正しくレンダリングされない|バグ|
 |CELLSJAVA-41639|「XML スプレッドシート 2003」形式から XLSX 形式に変換すると、列幅が保持されない|バグ|
-|CELLSJAVA-43315|XLS を XLSX に変換するとファイルが破損し、出力 XLSX を PDF に変換すると「Shape to Image」エラーが発生する|バグ|
+|CELLSJAVA-43315|XLS を XLSX に変換すると、ファイルが破損し、出力 XLSX を PDF に変換する際に「Shape to Image」エラーが発生する|バグ|
 |CELLSJAVA-43334|テーブルの問題のオートフィルター|バグ|
 |CELLSJAVA-43338|ExcelファイルをPDFに変換する際の出力の違い|
 |CELLSJAVA-43346|ピボット テーブルのページ フィルタに 12 個を超えるフィールドを追加すると、出力ファイルが破損する|
 |CELLSJAVA-43351|PDF への変換中にヘッダー テーブルの背景色が正しくない|
 |CELLSJAVA-43358|HTML から Excel への変換中にテキストが見つからない|
-|CELLSJAVA-43341|LightCellsDataProvider で CSV をエクスポートする際の余分な空の列|
+|CELLSJAVA-43341|LightCellsDataProvider を使用して CSV をエクスポートする際の余分な空の列|
 |CELLSJAVA-43352|Excel ファイルを PDF に変換すると、大きな数値の問題が発生する|
 |CELLSJAVA-43339|ソースファイルを pdf に変換する際に画像の位置がずれてしまう|
-|CELLSJAVA-43340|XLS から PDF への変換でコンテンツが欠落している|
+|CELLSJAVA-43340|XLS から PDF への変換で内容が欠落している|
 |CELLSJAVA-43336|グラフの凡例のエントリが左に大きく表示される|
 |CELLSJAVA-43356|つの値の間にある場合、グラフの空の値/ギャップは考慮されません|
 |CELLSJAVA-43344|現在のユーザー名は、最後のコメントの作成者として表示されます|
@@ -59,9 +59,9 @@ url: /ja/java/aspose-cells-for-android-via-java-20-12-release-notes/
 |CELLSJAVA-43361|xls から xlsx への変換でセルの色が正しくない|
 |CELLSJAVA-43366|SetAsTotal プロパティが更新されない|
 |CELLSJAVA-43296|ピボット テーブルの更新中に ArrayIndexOutOfBoundsException が発生する|例外|
-|CELLSJAVA-43298|Aspose.Cells 20.8: PDF に保存すると例外が発生します。|例外|
+|CELLSJAVA-43298|Aspose.Cells 20.8: PDF に保存すると例外が発生する。|例外|
 |CELLSJAVA-43348|XLSB から PDF への変換: CellsException: -2147483648|
-|CELLSJAVA-43343|形状の項目が選択されていないファイルを PDF にエクスポートするときの例外|
+|CELLSJAVA-43343|形状の選択されたアイテムを持たないファイルを PDF にエクスポートするときの例外|
 
 ## **Public API および下位互換性のない変更**
 

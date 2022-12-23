@@ -103,7 +103,7 @@ Aspose.Cells for Java は、どのソースと代替が設定されているか�
 
 {{% /alert %}} 
 ### **IFilePathProvider インターフェイスと HtmlSaveOptions.FilePathProvider プロパティを追加**
-Aspose.Cells for Java 8.9.1 では、ワークシートを別の HTML ファイルにエクスポートするための IFilePathProvider を取得/設定できます。これらの新しい API は、あるワークシートのハイパーリンクが別のワークシート内の場所を指しているシナリオで役立ちます。アプリケーションの要件は、各ワークシートを個別の HTML ファイルにレンダリングすることです。 IFilePathProvider を実装すると、別の結果の HTML ファイル内の場所を指しているという事実に関係なく、前述のハイパーリンクをそのまま維持できます。
+Aspose.Cells for Java 8.9.1 では、ワークシートを個別の HTML ファイルにエクスポートするための IFilePathProvider を取得/設定できます。これらの新しい API は、あるワークシートのハイパーリンクが別のワークシート内の場所を指しているシナリオで役立ちます。アプリケーションの要件は、各ワークシートを個別の HTML ファイルにレンダリングすることです。 IFilePathProvider を実装すると、別の結果の HTML ファイル内の場所を指しているという事実に関係なく、前述のハイパーリンクをそのまま維持できます。
 
 以下は、HtmlSaveOptions.FilePathProvider プロパティの簡単な使用シナリオです。
 
@@ -115,7 +115,7 @@ Aspose.Cells for Java 8.9.1 では、ワークシートを別の HTML ファイ�
 
 Workbook book = new Workbook(dir + "sample.xlsx");
 
-// 各ワークシートを個別の HTML ファイルに保存します
+//各ワークシートを個別の HTML ファイルに保存します
 
 for (int i = 0; i< book.getWorksheets().getCount(); i++)
 

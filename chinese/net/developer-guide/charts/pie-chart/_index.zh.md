@@ -27,7 +27,7 @@ url: /zh/net/creating-pie-chart-with-leader-lines/
 
 |**结果饼图**|
 |:- |
-|![待办事项：图像_替代_文本](creating-pie-chart-with-leader-lines_1.png)|
+|![待办事项：图片_替代_文本](creating-pie-chart-with-leader-lines_1.png)|
 
 ## **推进主题**
 - [饼图中的自定义切片或扇区颜色](/cells/zh/net/custom-slice-or-sector-colors-in-pie-chart/)

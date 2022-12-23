@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /fr/net/copy-worksheet/
 ---
-## **Aspose.Cells - Copier la feuille de calcul**
+## **Aspose.Cells - Copier la feuille de travail**
 **C#**
 
 {{< highlight "cs" >}}

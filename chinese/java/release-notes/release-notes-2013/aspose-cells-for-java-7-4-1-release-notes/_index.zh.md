@@ -10,7 +10,7 @@ url: /zh/java/aspose-cells-for-java-7-4-1-release-notes/
 
 {{% /alert %}} 
 
-新的功能
+新功能
 
 40247 - 分配和验证数字签名
 

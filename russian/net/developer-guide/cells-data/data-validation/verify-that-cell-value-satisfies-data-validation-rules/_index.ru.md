@@ -11,7 +11,7 @@ Microsoft Excel позволяет пользователям добавлять
 Иногда необходимо проверить, удовлетворяет ли значение правилам проверки данных, применяемым к ячейке программно. Например, в приведенном выше случае запись должна завершиться ошибкой.
 
 {{% /alert %}} 
-## **Введение**
+## **Вступление**
  Aspose.Cells обеспечивает[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) метод для проверки значений ячеек программно. Если значение в ячейке не удовлетворяет правилу проверки данных, примененному к этой ячейке, возвращается**ЛОЖЬ** , еще**Истинный**.
 
  В следующем примере кода показано, как[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) метод работает. Сначала он вводит значение 3 в C1. Поскольку это не удовлетворяет правилу проверки данных,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) метод возвращает**ЛОЖЬ** . Затем он вводит значение 15 в C1. Поскольку это значение удовлетворяет правилу проверки данных,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) метод возвращает**Истинный** . Точно так же возвращается**ЛОЖЬ** на значение 30.
@@ -19,7 +19,7 @@ Microsoft Excel позволяет пользователям добавлять
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-DataValidationRules-1.cs" >}}
-### **Выход**
+### **Вывод**
 {{< highlight "java" >}}
 
  Is 3 a Valid Value for this Cell: False

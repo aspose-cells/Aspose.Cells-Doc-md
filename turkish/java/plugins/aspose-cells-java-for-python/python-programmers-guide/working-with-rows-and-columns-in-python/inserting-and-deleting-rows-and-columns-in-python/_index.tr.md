@@ -4,16 +4,16 @@ type: docs
 weight: 60
 url: /tr/java/inserting-and-deleting-rows-and-columns-in-python/
 keywords: create XLSX in Python, create XLS in Python, XLS python, XLSX python, XLT python, XLTX python, insert row python, insert column python, Excel pytho
-description: Python Excel API'i kullanarak Python'de Excel elektronik tabloları oluşturun. MS Office olmadan Python uygulamalarınızda XLSX veya XLS'den satır ekleyin veya silin.
+description: Python'de Excel elektronik tabloları oluşturmak için Python Excel API'i kullanın. MS Office olmadan Python uygulamalarınızda XLSX veya XLS'den satır ekleyin veya silin.
 ---
 ## **Python'de Excel Elektronik Tabloları Oluşturun - Satırları/Sütunları Yönetme**
 ### **Satır Ekleme**
 Cells koleksiyonunun insertRows yöntemini çağırarak herhangi bir konuma satır ekleyin. insertRows yöntemi, ilk argüman olarak yeni satırın ekleneceği satırın indeksini, ikinci argüman olarak eklenecek satır sayısını alır. Aşağıdaki adımlar:
 
-- XLS veya XLSX çalışma kitabını yükleyin
+- XLS veya XLSX çalışma kitabını yükle
 - Çalışma sayfasına erişin
 - satırı ekle
-- XLS veya XLSX çalışma kitabı olarak kaydet
+- XLS veya XLSX çalışma kitabı olarak kaydedin
 
 **Python Kod**
 

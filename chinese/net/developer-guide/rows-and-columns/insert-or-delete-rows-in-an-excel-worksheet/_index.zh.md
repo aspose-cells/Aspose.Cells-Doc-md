@@ -14,7 +14,7 @@ keywords: c# insert or delete rows in excel worksheet, c# insert or delete rows 
 
  Aspose.Cells 提供了两种插入和删除行的方法：[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index).这些方法针对性能进行了优化，可以非常快速地完成工作。
 
-要插入或删除多行，我们建议您始终使用[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)方法而不是使用[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)或者[**删除行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)循环中的方法。
+要插入或删除多行，我们建议您始终使用[**Cells.InsertRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrows/index)和[**Cells.DeleteRows**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterows/index)方法而不是使用[**Cells.InsertRow**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/insertrow)要么[**删除行**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/deleterow)循环中的方法。
 
 Aspose.Cells 与 Microsoft Excel 的工作方式相同。添加行或列时，工作表内容会向下和向右移动。删除行或列时，工作表内容会向上或向左移动。添加或删除行时，其他工作表和单元格中的任何引用都会更新。
 

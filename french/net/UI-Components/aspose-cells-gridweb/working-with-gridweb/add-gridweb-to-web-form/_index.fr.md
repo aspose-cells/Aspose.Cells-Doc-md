@@ -89,7 +89,7 @@ Le chemin est toujours lié au répertoire du projet. Vous ne devez pas utiliser
 
 {{% /alert %}}
 ### **Étape 5 : Exécution de l'application Web**
- Exécutez l'application en appuyant sur Ctrl+F5 ou en cliquant sur le**Commencer** bouton.
+ Exécutez l'application en appuyant sur Ctrl+F5 ou en cliquant sur le**Démarrer** bouton.
 
  Lorsque l'application s'exécute dans un navigateur, la page WebForm1.aspx s'affiche, contenant désormais un contrôle Aspose.Cells.GridWeb vide. Ajoutez des valeurs aux cellules en cliquant dessus. Il est également possible d'effectuer d'autres tâches comme modifier la hauteur d'une ligne ou la largeur d'une colonne, copier (Ctrl+C) ou couper (Ctrl+X) des données de cellule dans le presse-papiers et coller (Ctrl+V) des données dans la cellule . Pour effectuer plus d'opérations, cliquez avec le bouton droit sur le contrôle pour voir la liste complète des options.
 

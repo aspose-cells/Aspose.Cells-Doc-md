@@ -84,6 +84,6 @@ Workbook workbook = new Workbook(myDir + "spreadsheet.html", loadOptions);
 
 {{% /alert %}}
 ## **Добавлено свойство ImageOptions в класс HtmlSaveOptions.**
-Свойство ImageOptions добавлено в класс HtmlSaveOptions. Предоставление свойства ImageOptions позволило разработчикам устанавливать предпочтения для изображений, встроенных в HTML, при экспорте электронных таблиц.
+Свойство ImageOptions добавлено в класс HtmlSaveOptions. Предоставление свойства ImageOptions позволило разработчикам установить предпочтения для изображений, встроенных в HTML, при экспорте электронных таблиц.
 ## **Устаревшее свойство HtmlSaveOptions.ExportChartImageFormat**
 HtmlSaveOptions.ExportChartImageFormat помечен как устаревший, начиная с Aspose.Cells for .NET 8.0.2. Вместо этого рекомендуется использовать HtmlSaveOptions.ImageOptions для настроек формата изображения при экспорте электронных таблиц в формат HTML.

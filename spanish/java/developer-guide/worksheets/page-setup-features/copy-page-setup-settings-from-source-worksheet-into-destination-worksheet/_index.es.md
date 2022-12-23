@@ -6,7 +6,7 @@ url: /es/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 ---
 ## **Posibles escenarios de uso**
 
-Cuando agrega una hoja nueva a un libro de trabajo, contiene la configuración de configuración de página predeterminada. Puede haber ocasiones en las que necesite transferir la configuración ([**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)de una hoja de trabajo a otra hoja de trabajo. Este documento explica cómo copiar la configuración de Configuración de página de una hoja de trabajo a otra utilizando las API Aspose.Cells.
+Cuando agrega una hoja nueva a un libro de trabajo, contiene la configuración de configuración de página predeterminada. Puede haber ocasiones en las que necesite transferir la configuración ([**Configuración de página**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) de una hoja de trabajo a otra hoja de trabajo. Este documento explica cómo copiar la configuración de Configuración de página de una hoja de trabajo a otra utilizando las API Aspose.Cells.
 
 ## **Copie la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino**
 

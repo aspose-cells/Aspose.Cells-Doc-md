@@ -18,7 +18,7 @@ url: /es/net/sitefinity-export-users-to-excel/
 - [Uso y demostración de video](#SitefinityExportUserstoExcel-UsingandVideoDemo) 
   - [Usando](#SitefinityExportUserstoExcel-Using)
   - [Vídeo de demostración](#SitefinityExportUserstoExcel-VideoDemo)
-- [Apoyo](#SitefinityExportUserstoExcel-Support)
+- [Soporte](#SitefinityExportUserstoExcel-Support)
 - [Extender y contribuir](#SitefinityExportUserstoExcel-ExtendandContribute)
 ## **Introducción**
 Aspose .NET Exportar usuarios a Excel para el módulo SiteFinity permite a los desarrolladores exportar usuarios de SiteFinity a Microsoft Excel u OpenOffice Spreadsheet. Este módulo demuestra la potente función de creación de hojas de cálculo proporcionada por Aspose.Cells.
@@ -46,7 +46,7 @@ Necesita tener instalado lo siguiente para abrir y extender el código fuente
 Siga estos sencillos pasos para empezar
 
 1. Descarga/clona el código fuente.
-1.  Abra Visual Studio 2010 y elija**Expediente** > **Proyecto abierto**
+1.  Abra Visual Studio 2010 y elija**Archivo** > **Proyecto abierto**
 1.  Busque el código fuente más reciente que haya descargado y abra el**.sln** expediente.
 ## **Instalación y uso**
 ### **Descargando**
@@ -66,11 +66,11 @@ Extraiga el archivo ZIP descargado. Necesitará FTP o acceso directo a la carpet
 **Paso 2: Registre el complemento Aspose Sitefinity Content Export en Sitefinity**
 
 1. Inicie sesión en su Sitefinity CMS con un '**Administrador** ' cuenta. Se puede acceder a la página de inicio de sesión<http://www.mywebsite.com/sitefinity>
-1.  Hacer clic**Administración** y entonces**Ajustes**.
+1.  Hacer clic**Administración** y luego**Ajustes**.
 Aparece la página Configuración básica.
 1.  Haga clic en el**Avanzado** Enlace.
  Aparece la página Configuración.
-1.  En el panel izquierdo, haga clic en**Cajas de herramientas** seguido por**Cajas de herramientas** , después**Controles de página**, **Secciones** y**ContentToolboxSection** , después**Instrumentos.**
+1.  En el panel izquierdo, haga clic en**Cajas de herramientas** seguido por**Cajas de herramientas** , después**Controles de página**, **Secciones** y**ContentToolboxSection** , después**Herramientas.**
 1.  Hacer clic**Crear nuevo**.
  Aparece el formulario de registro del widget.
 1.  Rellene los campos del formulario de la siguiente manera:
@@ -97,7 +97,7 @@ Después de haber instalado y configurado el complemento Aspose Sitefinity Expor
 Ha agregado con éxito Aspose Usuarios de exportación de Sitefinity a Excel.
 ### **Vídeo de demostración**
  por favor, compruebe[el video](https://www.youtube.com/watch?v=O1524u-Pom4) a continuación para ver el módulo en acción.
-## **Apoyo**
+## **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.

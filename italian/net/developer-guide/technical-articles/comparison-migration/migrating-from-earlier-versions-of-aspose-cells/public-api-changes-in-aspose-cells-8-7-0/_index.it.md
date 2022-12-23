@@ -1,17 +1,17 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.7.0
+title: Pubblico API Modifiche Aspose.Cells 8.7.0
 type: docs
 weight: 230
 url: /it/net/public-api-changes-in-aspose-cells-8-7-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.3 alla 8.7.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per la firma digitale, il rilevamento e l'estrazione del progetto VBA**
-Questa versione di Aspose.Cells for .NET ha esposto alcune nuove proprietà e metodi per aiutare gli utenti in attività come la firma digitale di un progetto VBA, rilevando se un progetto VBA è firmato e valido. Inoltre, la nuova API consente di estrarre il certificato come dati grezzi dal progetto VBA firmato digitalmente in Workbook.
+Questa versione di Aspose.Cells for .NET ha esposto alcune nuove proprietà e metodi per aiutare gli utenti in attività come la firma digitale di un progetto VBA, rilevando se un progetto VBA è firmato e valido. Inoltre, il nuovo API consente di estrarre il certificato come dati grezzi dal progetto VBA firmato digitalmente in Workbook.
 ###### **Firma digitalmente progetto VBA**
  Aspose.Cells for .NET 8.7.0 ha esposto il metodo VbaProject.Sign che può essere utilizzato per[firmare digitalmente il progetto VBA in una cartella di lavoro](/cells/it/net/digitally-sign-a-vba-code-project-with-certificate/). Detto metodo accetta un'istanza della classe DigitalSignature che risiede nel namespace Aspose.Cells.DigitalSignatures.
 
@@ -77,7 +77,7 @@ else
 
 
 ###### **Estrazione della Firma Digitale dal Progetto VBA**
-Questa revisione dell'API ha anche esposto la proprietà VbaProject.CertRawData che consente di[estrarre i dati grezzi del certificato digitale dal progetto VBA](/cells/it/net/export-vba-certificate-to-file-or-stream/). La proprietà VbaProject.CertRawData è di tipo byte array, che conterrà i dati grezzi del certificato se il progetto VBA è firmato digitalmente, altrimenti tale proprietà sarà nulla.
+Questa revisione della API ha esposto anche la proprietà VbaProject.CertRawData che permette di[estrarre i dati grezzi del certificato digitale dal progetto VBA](/cells/it/net/export-vba-certificate-to-file-or-stream/). La proprietà VbaProject.CertRawData è di tipo byte array, che conterrà i dati grezzi del certificato se il progetto VBA è firmato digitalmente, altrimenti tale proprietà sarà nulla.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -101,7 +101,7 @@ var cert = vbaProject.CertRawData;
 
 
 ###### **Convalida la Firma Digitale del Progetto VBA**
- Un'altra aggiunta all'API pubblica è la proprietà VbaProject.IsValidSigned che potrebbe essere utile[convalidare la firma digitale del progetto VBA](/cells/it/net/check-if-digital-signature-of-vba-code-is-valid/). La suddetta proprietà restituisce true se la firma digitale è valida e false se la firma non è valida.
+ Un'altra aggiunta al pubblico API è la proprietà VbaProject.IsValidSigned che potrebbe essere utile in[convalidare la firma digitale del progetto VBA](/cells/it/net/check-if-digital-signature-of-vba-code-is-valid/). La suddetta proprietà restituisce true se la firma digitale è valida e false se la firma non è valida.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -181,7 +181,7 @@ else
 
 
 ### **Proprietà Protection.IsProtectedWithPassword aggiunto**
- Questa versione dell'API Aspose.Cells for .NET ha anche esposto la proprietà Protection.IsProtectedWithPassword che può essere utile in[rilevare se un foglio di lavoro è protetto da password o meno](/cells/it/net/detect-if-worksheet-is-password-protected/).
+ Questa versione di Aspose.Cells for .NET API ha esposto anche la proprietà Protection.IsProtectedWithPassword che può essere utile in[rilevare se un foglio di lavoro è protetto da password o meno](/cells/it/net/detect-if-worksheet-is-password-protected/).
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -275,7 +275,7 @@ formatCondition.ColorScale.Is3ColorScale = false;
 
 
 ### **Proprietà TxtLoadOptions.HasFormula aggiunto**
- Aspose.Cells for .NET 8.7.0 ha fornito supporto a[identificare e analizzare le formule durante il caricamento di file CSV/TXT con dati semplici delimitati](/cells/it/net/load-or-import-csv-file-with-formulas/). La proprietà TxtLoadOptions.HasFormula appena esposta quando impostata su true indica all'API di analizzare le formule dal file delimitato di input e di impostarle sulle celle pertinenti senza richiedere alcuna elaborazione aggiuntiva.
+ Aspose.Cells for .NET 8.7.0 ha fornito supporto a[identificare e analizzare le formule durante il caricamento di file CSV/TXT con dati semplici delimitati](/cells/it/net/load-or-import-csv-file-with-formulas/). La proprietà TxtLoadOptions.HasFormula appena esposta quando impostata su true indica a API di analizzare le formule dal file delimitato di input e di impostarle sulle celle pertinenti senza richiedere alcuna elaborazione aggiuntiva.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Proprietà DataLabels.IsResizeShapeToFitText Aggiunta**
- Un'altra caratteristica utile che Aspose.Cells for .NET 8.7.0 ha esposto è la proprietà DataLabels.IsResizeShapeToFitText che può abilitare il[Ridimensiona la forma per adattarla al testo](/cells/it/net/resize-chart-s-data-label-shape-to-fit-text/) funzionalità dell'applicazione Excel per le etichette dei dati del grafico.
+ Un'altra caratteristica utile che Aspose.Cells for .NET 8.7.0 ha esposto è la proprietà DataLabels.IsResizeShapeToFitText che può abilitare il[Ridimensiona la forma per adattarla al testo](/cells/it/net/resize-chart-s-data-label-shape-to-fit-text/)funzionalità dell'applicazione Excel per le etichette dei dati del grafico.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Proprietà PdfSaveOptions.OptimizationType aggiunta**
-Aspose.Cells for .NET 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare agli utenti[scegli l'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli di calcolo in formato PDF](/cells/it/net/save-excel-into-pdf-with-standard-or-minimum-size/). Esistono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come descritto di seguito.
+Aspose.Cells for .NET 8.7.0 ha esposto la proprietà PdfSaveOptions.OptimizationType insieme all'enumerazione PdfOptimizationType per facilitare agli utenti[scegli l'algoritmo di ottimizzazione desiderato durante l'esportazione dei fogli di calcolo nel formato PDF](/cells/it/net/save-excel-into-pdf-with-standard-or-minimum-size/). Esistono 2 valori possibili per la proprietà PdfSaveOptions.OptimizationType come descritto di seguito.
 
 1. PdfOptimizationType.MinimumSize: la qualità è compromessa per la dimensione del file risultante.
 1. PdfOptimizationType.Standard: la qualità non è compromessa quindi la dimensione del file risultante sarà grande.
@@ -379,4 +379,4 @@ book.Save(outFilePath, pdfSaveOptions);
 {{< /highlight >}}
 ## **API rimosse**
 ### **Proprietà Workbook.SaveOptions Rimosso**
-La proprietà Workbook.SaveOptions è stata contrassegnata come obsoleta qualche tempo fa. Con questa release è stato completamente rimosso dall'API pubblica pertanto si consiglia di utilizzare in alternativa il metodo Workbook.Save(Stream, SaveOptions) o Workbook.Save(string, SaveOptions).
+La proprietà Workbook.SaveOptions è stata contrassegnata come obsoleta qualche tempo fa. Con questa release è stato completamente rimosso dal pubblico API pertanto si consiglia di utilizzare in alternativa il metodo Workbook.Save(Stream, SaveOptions) o Workbook.Save(string, SaveOptions).

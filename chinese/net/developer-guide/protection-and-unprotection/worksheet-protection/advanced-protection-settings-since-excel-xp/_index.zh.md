@@ -60,8 +60,8 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 |**在 Excel XP 中锁定单元格的对话框**|
 |:- |
-|![待办事项：图像_替代_文本](advanced-protection-settings-since-excel-xp_1.png)|
+|![待办事项：图片_替代_文本](advanced-protection-settings-since-excel-xp_1.png)|
 
-也可以使用 Aspose.Cells API 锁定单元格。每个细胞都能得到[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)包含布尔属性的格式，[**被锁住了**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked).设置[**被锁住了**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)财产给**真的**或者**错误的**锁定或解锁单元格。
+也可以使用 Aspose.Cells API 锁定单元格。每个细胞都能得到[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)包含布尔属性的格式，[**被锁住了**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked).设置[**被锁住了**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked)财产给**真的**要么**错误的**锁定或解锁单元格。
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

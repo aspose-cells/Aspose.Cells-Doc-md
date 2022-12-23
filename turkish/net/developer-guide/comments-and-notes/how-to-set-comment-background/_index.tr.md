@@ -9,7 +9,7 @@ keywords: add inset picture iamge color comment background excel
 ---
 {{% alert color="primary" %}}
 
-Bir formülün nasıl çalıştığına, bir değerin nereden geldiğine veya gözden geçirenlerin sorularına kadar her şeyi, yorumları kaydetmek için hücrelere yorumlar eklenir. Birden fazla kişi aynı belgeyi farklı zamanlarda tartıştığında veya incelediğinde yorumlar son derece önemli bir rol oynar. Farklı insanların yorumları nasıl ayırt edilir? Evet, her yorum için farklı bir arka plan rengi belirleyebiliyoruz. Ancak çok sayıda belgeyi ve çok sayıda yorumu işlememiz gerektiğinde, bunu manuel olarak yapmak bir felakettir. Neyse ki[**Aspose.Cells**](https://products.aspose.com/cells/net/) bunu kodda yapmanıza izin veren bir API sağlar.
+ Bir formülün nasıl çalıştığına, bir değerin nereden geldiğine veya gözden geçirenlerin sorularına kadar her şeyi, yorumları kaydetmek için hücrelere yorumlar eklenir. Birden fazla kişi aynı belgeyi farklı zamanlarda tartıştığında veya incelediğinde yorumlar son derece önemli bir rol oynar. Farklı insanların yorumları nasıl ayırt edilir? Evet, her yorum için farklı bir arka plan rengi belirleyebiliyoruz. Ancak çok sayıda belgeyi ve çok sayıda yorumu işlememiz gerektiğinde, bunu manuel olarak yapmak bir felakettir. Neyse ki[**Aspose.Cells**](https://products.aspose.com/cells/net/) bunu kodda yapmanıza izin veren bir API sağlar.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Yorumlar için varsayılan arka plan rengine ihtiyacınız olmadığında, onu i
 
  Aşağıdaki kod, nasıl kullanılacağı konusunda size rehberlik edecektir.[**Aspose.Cells**](https://products.aspose.com/cells/net/) kendi seçtiğiniz yorumlara favori arka plan renginizi eklemek için.
 
- Burada bir hazırladık[örnek dosya](exmaple.xlsx)sizin için.Bu dosya, aşağıdaki kodda Çalışma Kitabı nesnesini başlatmak için kullanılır.
+ Burada bir hazırladık[örnek dosya](exmaple.xlsx) sizin için.Bu dosya, aşağıdaki kodda Çalışma Kitabı nesnesini başlatmak için kullanılır.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-HowToSetCommentBackground.cs" >}}
 

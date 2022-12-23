@@ -11,7 +11,7 @@ Mit Aspose.Cells können Sie verschiedene Optionen für Pivot-Tabellen festlegen
 So finden und setzen Sie diese Option in Microsoft Excel:
 
 1. Wählen Sie eine Pivot-Tabelle aus und klicken Sie mit der rechten Maustaste darauf.
-1.  Auswählen**PivotTable-Optionen**.
+1.  Wählen**PivotTable-Optionen**.
 1.  Wähle aus**Layout & Format** Tab.
 1.  Wähle aus**Für leere Zellen anzeigen** Option und geben Sie eine Zeichenfolge an.
 

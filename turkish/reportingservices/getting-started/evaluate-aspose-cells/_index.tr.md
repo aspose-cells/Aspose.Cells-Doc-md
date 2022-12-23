@@ -12,13 +12,13 @@ url: /tr/reportingservices/evaluate-aspose-cells/
 
 Aspose.Cells for Reporting Services değerlendirme sürümü (belirtilen bir lisans olmadan), bir dereceye kadar tam olmasa da ürün işlevselliği sağlar. Bir sınırlama, herhangi bir elektronik tablo belgesini açarken / kaydederken her zaman değerlendirme filigranı içeren fazladan bir çalışma sayfası enjekte etmesidir.
 
-![yapılacaklar:resim_alternatif_Metin](evaluate-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_1.png)
 
 **Figür:** Aspose.Cells bileşeni tarafından oluşturulan Demo Tablosu
 
 Çalışma kitabına fazladan bir değerlendirme filigranı çalışma sayfası ekleyecektir.
 
-![yapılacaklar:resim_alternatif_Metin](evaluate-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](evaluate-aspose-cells_2.png)
 
 **Figür:** Değerlendirme Uyarısı – Fazladan Bir Çalışma Sayfası
 

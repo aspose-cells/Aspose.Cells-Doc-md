@@ -16,7 +16,7 @@ Parfois, vous avez une forme liée dans votre fichier Excel qui est liée à une
 
 ![tâche : image_autre_texte](refresh-values-of-linked-shapes_1.jpg)
 
-Vous pouvez télécharger le[fichier Excel source](95584291.xlsx) et le[PDF de sortie](95584292.pdf) à partir des liens donnés.
+Vous pouvez télécharger le[fichier Excel source](95584291.xlsx) et le[sortie PDF](95584292.pdf) à partir des liens donnés.
 
 ### Code C# pour actualiser les valeurs des formes liées
 

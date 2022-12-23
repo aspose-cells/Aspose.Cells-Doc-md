@@ -14,11 +14,11 @@ url: /ja/java/aspose-cells-for-java-17-6-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42315|AjaxCallFinished イベントに JS クライアント API を追加 - GridWeb (JAVA)|新機能|
 |CELLSJAVA-42194|ワークシートの行をグループ化する - GridWeb (JAVA)|新機能|
-|CELLSJAVA-42308|Excel から HTML へのレンダリングでピボットテーブルが正しくない (行が欠落している、ピボット フィールド ヘッダーが 2 回印刷されている、日付が数値に変換されているなど)。|バグ|
+|CELLSJAVA-42308|Excel で HTML レンダリングのピボットテーブルが正しくない (行が欠落している、ピボット フィールド ヘッダーが 2 回印刷されている、日付が数値に変換されているなど)。|バグ|
 |CELLSJAVA-42298|Excel ファイルの HTML 出力に含まれる余分な文字|バグ|
 |CELLSJAVA-42277|HtmlSaveOptions.setExportHiddenWorksheet が false に設定されている場合、出力 HTML に画像が表示されない|バグ|
-|CELLSJAVA-42259|HTML を Excel ファイルに正しく変換できませんでした|バグ|
-|CELLSJAVA-42256|HTML テーブルから Excel へのレンダリングの問題|バグ|
+|CELLSJAVA-42259|HTML Excelファイルに正しく変換できませんでした|バグ|
+|CELLSJAVA-42256|HTML テーブルから Excel へのレンダリングに関する問題|バグ|
 |CELLSJAVA-42319|式を指定するときの印刷領域の計算に関する問題|バグ|
 |CELLSJAVA-42273|列ヘッダー ヒントの設定機能が GridWeb (JAVA) で機能しない|バグ|
 |CELLSJAVA-42269|GridWorksheet.setColumnHeaderToolTip() が GridWeb (JAVA) で機能しない|バグ|
@@ -27,12 +27,12 @@ url: /ja/java/aspose-cells-for-java-17-6-release-notes/
 |CELLSJAVA-42325|XLSX を PDF として保存すると、単語がミラーリングされます|バグ|
 |CELLSJAVA-42299|出力 PDF/Excel ファイルの画像に余分な文字が存在する|バグ|
 |CELLSJAVA-42301|棒グラフの PDF 出力に棒がありません|バグ|
-|CELLSJAVA-42293|出力 HTML のチャート画像が間違っている|バグ|
-|CELLSJAVA-42292|出力 HTML でグラフの画像が正しくない|バグ|
+|CELLSJAVA-42293|出力のチャート画像が間違っている HTML|バグ|
+|CELLSJAVA-42292|出力 HTML のチャートの画像が正しくありません|バグ|
 |CELLSJAVA-42270|Excel チャートを PDF に変換するとコンテンツが欠落する|バグ|
 |CELLSJAVA-42258|グラフの PDF の x 軸ラベルの日付形式が正しくありません|バグ|
-|CELLSJAVA-42252|出力 PDF の Y 軸スケーリングが正しくない|バグ|
-|CELLSJAVA-42245|HTML に保存するときのスタイル/フォーマットが間違っている|バグ|
+|CELLSJAVA-42252|出力の Y 軸スケーリングが正しくない PDF|バグ|
+|CELLSJAVA-42245|HTML に保存すると、スタイル/フォーマットが正しくありません|バグ|
 |CELLSJAVA-42316|Excel ファイルを開いて保存すると、画像を圧縮するオプションが保持されない|バグ|
 |CELLSJAVA-42306|ワークブックを開いて保存すると、File2 のセルの背景色が変更される|バグ|
 |CELLSJAVA-42305|Workbook を開いて保存すると、File1 のセルの背景色が変更される|バグ|

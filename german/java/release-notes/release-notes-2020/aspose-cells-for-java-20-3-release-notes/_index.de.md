@@ -17,15 +17,15 @@ url: /de/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43141|Fügen Sie die ThreadedComment.CreatedTime-Eigenschaft hinzu|Neue Funktion|
 |CELLSJAVA-42068|GIF im Arbeitsblatt ist falsch, wenn die Arbeitsmappe in HTML konvertiert wird|Insekt|
 |CELLSJAVA-43127|Die Excel-Pivot-Tabelle wird nicht automatisch aktualisiert, wenn die Datei zum ersten Mal geöffnet wird|Insekt|
-|CELLSJAVA-43129|Chinesischer Text wird bei der HTML-zu-XLS-Konvertierung verstümmelt|Insekt|
+|CELLSJAVA-43129|Chinesischer Text wird bei der Konvertierung von HTML in XLS verstümmelt|Insekt|
 |CELLSJAVA-43139|Die Diagramme im Blatt werden beim Rendern des Arbeitsblatts in ein Bild nicht aktualisiert|Insekt|
 |CELLSJAVA-43148|Positionsfehler der Diagrammbeschriftung|Insekt|
-|CELLSJAVA-43124|Bei der Konvertierung nach PDF werden zwei Spalten der Tabelle abgeschnitten|Insekt|
-|CELLSJAVA-43091|Datenbeschriftungen im Donuts-Diagramm werden in der PDF-Datei überlappt|Insekt|
+|CELLSJAVA-43124|Bei der Umstellung auf PDF werden zwei Spalten der Tabelle abgeschnitten|Insekt|
+|CELLSJAVA-43091|Datenbeschriftungen im Donuts-Diagramm werden in der Datei PDF überlappt|Insekt|
 |CELLSJAVA-43132|Datenbeschriftungen fehlen in einigen Diagrammen beim Exportieren des Diagramms in ein Bild|Insekt|
-|CELLSJAVA-43143|Nach WorkbookDesigner.process gibt Chart null in HTML aus|Insekt|
-|CELLSJAVA-43098|Das Ersetzen eines eingebetteten Objekts durch ein Bild funktioniert nicht für das XLS-Dateiformat|Insekt|
-|CELLSJAVA-43122|Ein Problem mit der Reihenfolge von Thread-Kommentaren nach dem Import in das Office365-XLSX-Dateiformat|Insekt|
+|CELLSJAVA-43143|Nach WorkbookDesigner.process, Chart-Ausgabe null in HTML|Insekt|
+|CELLSJAVA-43098|Das Ersetzen eines eingebetteten Objekts durch ein Bild funktioniert nicht für das Dateiformat XLS|Insekt|
+|CELLSJAVA-43122|Ein Problem mit der Reihenfolge von Thread-Kommentaren nach dem Import in das Office365 XLSX-Dateiformat|Insekt|
 |CELLSJAVA-43134|Der Zeichenfolgenwert einer Zelle ist in Apple Numbers'09 leer|Insekt|
 |CELLSJAVA-43144|IsItalic-Eigenschaft anders erkannt als MS Excel (Java)|Insekt|
 |CELLSJAVA-43140|IllegalArgumentException beim Aufruf von computeFormula()|Ausnahme|

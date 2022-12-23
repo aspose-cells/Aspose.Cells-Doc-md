@@ -22,7 +22,7 @@ L'esempio seguente spiega l'utilizzo delle API di cui sopra, carica la cartella 
 ## **Manipolazione di grafici Designer**
 A volte è necessario manipolare o modificare i grafici nei file modello del designer. Aspose.Cells supporta completamente la manipolazione dei contenuti e degli elementi del grafico del designer. I dati, i contenuti del grafico, l'immagine di sfondo e le formattazioni possono essere preservati con precisione.
 ### **Manipolazione di grafici Designer nei file modello**
-Per manipolare i grafici del designer nei file modello, utilizza l'API relativa al grafico. Ad esempio, è possibile utilizzare la proprietà Worksheet.Charts per ottenere la raccolta di grafici esistente nel file modello.
+Per manipolare i grafici del designer nei file modello, utilizzare il grafico correlato API. Ad esempio, è possibile utilizzare la proprietà Worksheet.Charts per ottenere la raccolta di grafici esistente nel file modello.
 #### **Creazione di un grafico**
 L'esempio seguente mostra come creare un grafico a piramide. Manipoleremo questo grafico in seguito.
 

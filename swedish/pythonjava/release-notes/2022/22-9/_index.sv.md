@@ -23,7 +23,7 @@ url: /sv/python-java/aspose-cells-for-python-via-java-22-9-release-notes/
 |CELLSJAVA-44831|MS Word visar ett felmeddelande "Word hittade oläsbart innehåll i..." när den konverterade DOCX från XLSX-filen öppnas med Aspose.Cells for Java|
 |CELLSJAVA-44833|Textfärg tillämpas inte på olika ord eller delar av innehållet i den utgående Excel-filen när du använder metoden Cell.setHtmlString()|
 |CELLSJAVA-44852| Ramen är felaktig när den statiska Excel-filen konverteras till HTML|
-|CELLSJAVA-44856| Excel till HTML-konvertering - Sparkline (minidiagram) visas/renderas inte|
+|CELLSJAVA-44856| Excel till HTML konvertering - Sparkline (minidiagram) visas/renderas inte|
 |CELLSJAVA-44859|Vissa HTML-formateringar fungerar inte för kalkylbladsceller i en befintlig Excel-fil|
 |CELLSJAVA-44842|Undantag "java.lang.OutOfMemoryError: Java heap space" vid konvertering av en XLSX-fil till PDF|
 

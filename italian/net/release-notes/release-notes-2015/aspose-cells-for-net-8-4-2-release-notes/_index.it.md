@@ -34,7 +34,7 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43639) - Le filigrane non vengono visualizzate correttamente
 
- (CELLSNET-43645) - Impossibile salvare l'oggetto OLE incorporato da XLSX all'HTML
+ (CELLSNET-43645) - Impossibile salvare l'oggetto OLE incorporato da XLSX a HTML
 
  (CELLSNET-43613) - Il carattere personalizzato non funziona con SheetRender
 
@@ -52,9 +52,9 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43502) - Le linee principali della griglia scompaiono e la legenda della serie viene visualizzata al centro
 
- (CELLSNET-41716) - Le etichette dell'asse X non vengono visualizzate correttamente
+(CELLSNET-41716) - Le etichette dell'asse X non vengono visualizzate correttamente
 
-(CELLSNET-43641) - Problema con il calcolo delle formule quando si abilita il calcolo iterativo
+ (CELLSNET-43641) - Problema con il calcolo delle formule quando si abilita il calcolo iterativo
 
  (CELLSNET-43637) - Risultati della formula errati per la funzione PERCENT.RANGO
 
@@ -80,9 +80,9 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43585) - Aspose.Cells.CellsException durante la conversione del foglio di calcolo in PDF
 
- (CELLSNET-43609) - Eccezione nel rendering di un file Excel in formato file PDF
+(CELLSNET-43609) - Eccezione nel rendering di un file Excel nel formato file PDF
 
-(CELLSNET-43583) - Errore GDI nel metodo SheetRender.ToImage
+ (CELLSNET-43583) - Errore GDI nel metodo SheetRender.ToImage
 
  (CELLSNET-43565) - CellsException al salvataggio di xlsx in pdf
 
@@ -108,7 +108,7 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -116,15 +116,15 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Insetti**
 
 
- (CELLSNET-43610) - L'evento SaveCommand non viene attivato
+(CELLSNET-43610) - L'evento SaveCommand non viene attivato
 
-(CELLSNET-43551) - IE8 non funziona correttamente con il formato personalizzato olandese-belga
-
-
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+ (CELLSNET-43551) - IE8 non funziona correttamente con il formato personalizzato olandese-belga
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+
+
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -140,8 +140,8 @@ url: /it/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-Aggiunge le enumerazioni PasteType.Default e PasteType.DefaultExceptBorders.
+ Aggiunge le enumerazioni PasteType.Default e PasteType.DefaultExceptBorders.
 
- Viene utilizzato per copiare l'intervallo come "Tutto" e "Tutto tranne i bordi" in MS Excel.
+Viene utilizzato per copiare l'intervallo come "Tutto" e "Tutto tranne i bordi" in MS Excel.
 
 

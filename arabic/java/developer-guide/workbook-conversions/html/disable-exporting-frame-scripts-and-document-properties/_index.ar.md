@@ -6,7 +6,7 @@ url: /ar/java/disable-exporting-frame-scripts-and-document-properties/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells يقوم بتصدير البرامج النصية للإطار وخصائص الوثيقة أثناء تحويل مصنف إلى HTML. يقدم الإصدار 8.6.0 من Aspose.Cells for Java خيارًا يتيح لك تعطيل تصدير البرامج النصية للإطار وخصائص المستند اختياريًا. الرجاء استخدام[HtmlSaveOptions.setExportFrameScriptsAndProperties ()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) خاصية لتعطيل التصدير.
+ يقوم Aspose.Cells بتصدير البرامج النصية للإطار وخصائص الوثيقة أثناء تحويل مصنف إلى HTML. يقدم الإصدار 8.6.0 من Aspose.Cells for Java خيارًا يتيح لك تعطيل تصدير البرامج النصية للإطار وخصائص الوثيقة اختياريًا. الرجاء استخدام[HtmlSaveOptions.setExportFrameScriptsAndProperties ()](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportFrameScriptsAndProperties) خاصية لتعطيل التصدير.
 
 {{% /alert %}} 
 ## **تعطيل تصدير البرامج النصية للإطار وخصائص المستند**

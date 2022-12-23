@@ -53,7 +53,7 @@ Aspose.Cells for Reporting Services Rapportdesigneroptimering.
 - ` `(SSRS-40114) Horisontellt rapportformat
 - ` `(SSRS-40112) Infoga extra blad på exporterad arbetsbok
 - ` `(SSRS-40111) Fel vid export av rapport
-- ` `(SSRS-40109) Excel 2007 XLSX-renderingsproblem
+- ` `(SSRS-40109) Excel 2007 XLSX renderingsproblem
 - ` `(SSRS-40108) Excel hittade oläsbart innehåll
 - ` `(SSRS-40107) Tabell genereras inte som Tablix i RDL
 - ` `(SSRS-40106) Fel: Objektreferens är inte inställd på en instans av ett objekt

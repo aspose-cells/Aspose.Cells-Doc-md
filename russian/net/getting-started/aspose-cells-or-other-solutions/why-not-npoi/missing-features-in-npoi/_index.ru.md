@@ -15,7 +15,7 @@ url: /ru/net/missing-features-in-npoi/
   - [Найти значение в Cells](/cells/ru/net/find-value-in-cells/)
   - [Механизм вычисления формулы в Aspose.Cells](/cells/ru/net/formula-calculation-engine-in-aspose-cells/)
 - [Разные примеры в Aspose.Cells](/cells/ru/net/miscellaneous-examples-in-aspose-cells/)
-  - [Преобразование электронной таблицы в PDF по номеру Aspose.Cells](/cells/ru/net/convert-spreadsheet-to-pdf-in-aspose-cells/)
+  - [Преобразование электронной таблицы в PDF в Aspose.Cells](/cells/ru/net/convert-spreadsheet-to-pdf-in-aspose-cells/)
   - [Печать рабочих тетрадей в Aspose.Cells](/cells/ru/net/printing-workbooks-in-aspose-cells/)
   - [Установить заголовки для печати](/cells/ru/net/set-print-titles/)
 - [Работа с диаграммами в Aspose.Cells](/cells/ru/net/working-with-charts-in-aspose-cells/)

@@ -24,15 +24,15 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28405 SheetRender.ToImage() si blocca senza eccezioni o errori
 ### **Eccezioni**
- 28780 L'API SheetRender genera "L'identificatore di formato non è valido." eccezione
+ 28780 SheetRender API restituisce "L'identificatore di formato non è valido." eccezione
 
- 28961 Riferimento oggetto Errore durante la conversione in PDF
+ 28961 Errore riferimento oggetto durante la conversione in PDF
 
  29163 L'array di destinazione non era abbastanza lungo
 
  28924 Impossibile far funzionare correttamente Worksheet.Validations
 
- 28867 Parametro non valido nella conversione da Excel a TIFF
+ 28867 Parametro non valido nella conversione di Excel in TIFF
 ### **Insetti**
  29129 Legenda/Dati Le etichette sono in grassetto sui grafici durante la generazione delle immagini
 
@@ -40,7 +40,7 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28399 La funzione ROUND di Aspose.Cells fornisce un valore diverso da MS Excel
 
- 28523 La formula INDIRETTA non funziona se generata in formato XLSB
+ 28523 La formula INDIRETTA non funziona se generata nel formato XLSB
 
  28624 Riferimento #ricorsivo! Il risultato è ottenuto dalla formula
 
@@ -52,7 +52,7 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
  24963 Immagine renderizzata con sfondi trasparenti nell'output PDF
 
- 28697 Problema relativo alla filigrana durante la conversione in PDF
+ 28697 Problema di filigrana durante la conversione in PDF
 
  28610 Il gruppo di oggetti scompare durante la conversione di Excel in PDF
 
@@ -66,21 +66,21 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 
  28352 Tabella pivot: colonna di riepilogo aggiuntiva creata
 
- 28751 Aggiorna la funzionalità della tabella pivot
+28751 Aggiorna la funzionalità della tabella pivot
 
- 28489 Problema durante la conversione di un file XLSX vuoto in TIFF
+ 28489 Problema durante la conversione del file vuoto XLSX in TIFF
 
-29058 Problema di rendering
+ 29058 Problema di rendering
 
- 28929 Bug relativo all'ottenimento di bitmap o formato carta da SheetRender API
+ 28929 Ottenere bitmap o formato carta da SheetRender API bug
 
  24912 Il salvataggio di XLSB con i filtri di dati aggiunge un intervallo denominato non valido
 
- 28782 Problema di generazione di XLSB quando il foglio di lavoro contiene la convalida dei dati
+ 28782 XLSB problema di generazione quando il foglio di lavoro contiene la convalida dei dati
 
  28714 Un problema con il formato file XLSB
 
- 28659 Cartella di lavoro danneggiata per il formato XLSM
+ 28659 Corruzione della cartella di lavoro per il formato XLSM
 
  28690 L'importazione di una cartella di lavoro causa problemi di formattazione del bordo
 
@@ -96,12 +96,12 @@ url: /it/net/aspose-cells-for-net-6-0-1-release-notes/
 ### **Insetti**
  29289 Problema di rendering della barra di scorrimento verticale durante il filtraggio delle righe
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 ### **Nuove caratteristiche**
- 26751 Importa grafici e forme da file Excel
+26751 Importa grafici e forme da file Excel
 ### **Miglioramenti**
  28964 Esporta più di 256 colonne in file Excel 2007
 
-26751 Eseguire il rendering delle immagini delle forme con il formato EMF invece del formato JPEG
+ 26751 Rendering delle immagini delle forme con il formato EMF invece del formato JPEG
 ### **Insetti**
  28808 Misura la larghezza della corda

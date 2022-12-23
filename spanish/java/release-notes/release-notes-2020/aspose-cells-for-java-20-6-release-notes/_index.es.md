@@ -15,13 +15,13 @@ url: /es/java/aspose-cells-for-java-20-6-release-notes/
 |CELLSJAVA-43186|Calcule el total general para cada fila con columna expandida|Mejora|
 |CELLSJAVA-43191|Proporcionar medios para manejar escenarios al especificar tipos de fuente incorrectos|Mejora|
 |CELLSJAVA-43187|Excepción al cargar archivos XLS "Microsoft Excel 5.0/95 Workbook"|Mejora|
-|CELLSJAVA-43180|Conversión de HTML a Excel creando salida de hoja de cálculo negra|Insecto|
+|CELLSJAVA-43180|HTML a conversión de Excel creando salida de hoja de cálculo negra|Insecto|
 |CELLSJAVA-43181|La diferencia en la altura de la fila al convertir Excel a HTML|Insecto|
-|CELLSJAVA-43188|El estilo de color de fondo no se conserva durante la conversión de HTML a Excel|Insecto|
+|CELLSJAVA-43188|El estilo de color de fondo no se conserva durante la conversión HTML para sobresalir|Insecto|
 |CELLSJAVA-43196|Un número diferente de módulos VBA detectados usando Aspose.Cells for Java 20.4 y 20.5|Insecto|
 |CELLSJAVA-43202|Recursos no liberados al finalizar la creación del libro de trabajo|Insecto|
 |CELLSJAVA-43203|No se pueden procesar algunas listas de validación de Excel basadas en rangos con nombre con nombres Unicode|Insecto|
-|CELLSJAVA-43185|La calidad JPEG siempre es 75 en setImageResample en Linux|Insecto|
+|CELLSJAVA-43185|JPEG la calidad siempre es 75 en setImageResample en Linux|Insecto|
 |CELLSJAVA-43192|Cargue la carpeta de fuentes /Sistema/Biblioteca/Fuentes en macOS de forma predeterminada|Insecto|
 |CELLSJAVA-43157|El color de la serie de datos personalizados no se conserva al crear un gráfico de cascada|Insecto|
 |CELLSJAVA-43175|Un problema con el nombre de la serie de gráficos al hacer referencia a un libro de trabajo a otros libros de trabajo|Insecto|

@@ -50,7 +50,7 @@ url: /ar/java/threaded-comments/
 
 ![ما يجب القيام به: image_بديل_نص](threaded-comments_1.jpg)
 ### **قراءة التعليقات المترابطة باستخدام Aspose.Cells**
-يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك التكرار على امتداد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)لعرض التعليقات.
+يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك التكرار على امتداد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)لعرض التعليقات.
 
 يوضح المثال التالي قراءة التعليقات من العمود A1 بتحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). يرجى الاطلاع على إخراج وحدة التحكم التي تم إنشاؤها بواسطة الرمز كمرجع.
 #### **عينة من الرموز**
@@ -60,7 +60,7 @@ url: /ar/java/threaded-comments/
 
 المؤلف: Aspose اختبار
 ### **قراءة وقت الإنشاء للتعليقات المترابطة**
-يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك التكرار على امتداد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)واستخدم[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)منشأه.
+يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك التكرار على امتداد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)واستخدم[ThreadedComment.CreatedTime](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcomment#CreatedTime)خاصية.
 
 يوضح المثال التالي قراءة الوقت الذي تم إنشاؤه للتعليقات المترابطة عن طريق تحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). يرجى الاطلاع على إخراج وحدة التحكم التي تم إنشاؤها بواسطة الرمز كمرجع.
 #### **عينة من الرموز**
@@ -73,11 +73,11 @@ url: /ar/java/threaded-comments/
 وقت الإنشاء: 2019-05-15T12: 46: 23
 ## **تحرير التعليقات المترابطة**
 ### **تحرير تعليق مترابطة مع Excel**
-لتحرير تعليق مترابط في Excel ، انقر فوق**يحرر**رابط التعليق كما هو موضح في الصورة التالية.
+لتحرير تعليق مترابط في Excel ، انقر فوق**تعديل**رابط التعليق كما هو موضح في الصورة التالية.
 
 ![ما يجب القيام به: image_بديل_نص](threaded-comments_7.jpg)
 ### **تحرير التعليقات المترابطة باستخدام Aspose.Cells**
-يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك تحديث التعليق المطلوب في[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)وحفظ المصنف.
+يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)) لاسترداد التعليقات المترابطة للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#getThreadedComments\(java.lang.String\)أسلوب يقبل اسم العمود كمعامل ويعيد[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection). يمكنك تحديث التعليق المطلوب في[مجموعة التعليقات المترابطة](https://reference.aspose.com/cells/java/com.aspose.cells/ThreadedCommentCollection)وحفظ المصنف.
 
 يوضح المثال التالي تحرير أول تعليق مترابط في العمود A1 عن طريق تحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). الرجاء مراجعة[إخراج ملف Excel](EditThreadedComments.xlsx)التي تم إنشاؤها بواسطة الكود الذي يظهر التعليق المحدث للرجوع إليه.
 #### **عينة من الرموز**
@@ -90,12 +90,12 @@ url: /ar/java/threaded-comments/
 ### **إزالة التعليقات المترابطة باستخدام Aspose.Cells**
 يوفر Aspose.Cells[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) طريقة لإزالة التعليقات للعمود المحدد.[التعليقات](https://reference.aspose.com/cells/java/com.aspose.cells/commentcollection#removeAt\(int\)) تقبل طريقة اسم العمود حيث تقوم معلمة بإزالة التعليقات الموجودة في هذا العمود.
 
-يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). الرجاء مراجعة[إخراج ملف Excel](ThreadedCommentsSample_Out.xlsx)التي تم إنشاؤها بواسطة رمز كمرجع.
+يوضح المثال التالي إزالة التعليقات في العمود A1 بتحميل ملف[نموذج لملف Excel](ThreadedCommentsSample.xlsx). الرجاء مراجعة[إخراج ملف Excel](ThreadedCommentsSample_Out.xlsx)تم إنشاؤها بواسطة رمز كمرجع.
 #### **عينة من الرموز**
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "RemoveThreadedComments-1.java" >}}
 
 {{% alert color="primary" %}} 
 
- يرجى ملاحظة أنه بإزالة التعليق بالرقم Aspose.Cells ، لا تتم إزالة المؤلف تلقائيًا. إذا كنت بحاجة إلى إزالة المؤلف أيضًا ، فيرجى استخدام امتداد[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)) الطريقة كما هو موضح في المثال أعلاه.
+ يرجى ملاحظة أنه بإزالة التعليق بالرقم Aspose.Cells ، لا تتم إزالة المؤلف تلقائيًا. إذا كنت بحاجة إلى إزالة المؤلف أيضًا ، فيرجى استخدام امتداد[ThreadedCommentAuthorCollection.removeAt](https://reference.aspose.com/cells/java/com.aspose.cells/threadedcommentauthorcollection#removeAt\(int\)الطريقة كما هو موضح في المثال أعلاه.
 
 {{% /alert %}}

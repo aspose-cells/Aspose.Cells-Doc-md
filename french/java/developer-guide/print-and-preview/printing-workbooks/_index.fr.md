@@ -22,7 +22,7 @@ Après avoir fini de créer votre feuille de calcul, vous souhaiterez probableme
 
 ## Impression de classeurs à l'aide de Aspose.Cells
 
- Aspose.Cells for Java fournit un[**versImprimante**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String) ) méthode de la[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) classer. En utilisant le[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)), vous pouvez fournir le nom de l'imprimante ainsi que le nom du travail d'impression.
+ Aspose.Cells for Java fournit un[**versImprimante**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String) ) méthode de la[**FeuilleRendu**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender) classe. En utilisant le[**SheetRender.toPrinter**](https://reference.aspose.com/cells/java/com.aspose.cells/sheetrender#toPrinter(java.lang.String)), vous pouvez fournir le nom de l'imprimante ainsi que le nom du travail d'impression.
 
 ## Exemple de code
 

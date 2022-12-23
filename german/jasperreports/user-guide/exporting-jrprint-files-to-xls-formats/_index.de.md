@@ -6,7 +6,7 @@ url: /de/jasperreports/exporting-jrprint-files-to-xls-formats/
 ---
 {{% alert color="primary" %}} 
 
- Aspose.Cells for JasperReports bietet eine Klasse namens ACXlsExporter zum Exportieren von Berichten in XLS-Dateien. Es nimmt eine .jrprint-Datei oder ein JasperPrint-Objekt als Eingabe und exportiert es in eine XLS-Datei.
+ Aspose.Cells for JasperReports stellt eine Klasse namens ACXlsExporter zum Exportieren von Berichten in XLS-Dateien bereit. Es nimmt eine .jrprint-Datei oder ein JasperPrint-Objekt als Eingabe und exportiert es in eine XLS-Datei.
 
 {{% /alert %}} 
 

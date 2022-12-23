@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.6.
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42339|Implementa l'ordinamento dei dati personalizzato nel rapporto della tabella pivot tramite le API Aspose.Cells|Nuova caratteristica|
 |CELLSJAVA-42625|L'implementazione della funzione MS Excel 'Watch Window'|Nuova caratteristica|
@@ -18,33 +18,33 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.6.
 |CELLSJAVA-42646|Eccezione: "FormulaBuild](/p token0 formula sconosciuta" su Name.getRefersTo()|Aumento|
 |CELLSJAVA-42645|Eccezione: "FormulaBuild Più di un token nello stack..." su Cell.getFormula()|Aumento|
 |CELLSJAVA-42516|Aspose.Cells accetta e corregge una formula non valida|Aumento|
-|CELLSJAVA-42636|Alcune forme di disegno vengono spostate o visualizzate in modo errato nel rendering da Excel a HTML|Insetto|
+|CELLSJAVA-42636|Alcune forme di disegno vengono spostate o visualizzate in modo errato in Excel al rendering HTML|Insetto|
 |CELLSJAVA-42627|CELLSJAVA-42619 - Impossibile estrarre correttamente le immagini Smart Art|Insetto|
-|CELLSJAVA-42618|La forma viene spostata per coprire i dati nel rendering da Excel a HTML|Insetto|
+|CELLSJAVA-42618|La forma viene spostata per coprire i dati in Excel al rendering HTML|Insetto|
 |CELLSJAVA-42628|Il calcolo delle formule è errato, ad esempio genera #DIV/0! errori|Insetto|
-|CELLSJAVA-42615|Cell Il formato A3 non è corretto nell'HTML di output|Insetto|
-|CELLSJAVA-42621|Scarse prestazioni durante la generazione di file PDF da un file MS Excel|Insetto|
-|CELLSJAVA-42620|Da XLSX a TIFF - eccezione NoClassDefFoundError|Insetto|
+|CELLSJAVA-42615|Cell Il formato A3 non è corretto nell'output HTML|Insetto|
+|CELLSJAVA-42621|Scarse prestazioni durante la generazione del file PDF da un file MS Excel|Insetto|
+|CELLSJAVA-42620|da XLSX a TIFF - eccezione NoClassDefFoundError|Insetto|
 |CELLSJAVA-42599|Le immagini vengono perse quando il file Excel viene convertito in PDF|Insetto|
 |CELLSJAVA-42630|Il metodo Chart.calculate causa OutOfMemoryError|Insetto|
-|CELLSJAVA-42623|La memoria aumenta nel rendering di file Excel in formato file PDF|Insetto|
+|CELLSJAVA-42623|La memoria aumenta nel rendering del file Excel nel formato file PDF|Insetto|
 |CELLSJAVA-42592|La dimensione del carattere è cambiata nel titolo del grafico a causa del metodo characters()|Insetto|
 |CELLSJAVA-41860|L'effetto ombra viene modificato durante il nuovo salvataggio di XLS|Insetto|
 |CELLSJAVA-42654|Conversione da Excel a PDF: la conversione non viene mai completata|Insetto|
 |CELLSJAVA-42647|Impossibile ottenere o impostare un testo alternativo per la forma del commento|Insetto|
-|CELLSJAVA-42644|Aspose.Cells si blocca durante la conversione di un file ml di foglio di calcolo (xml) in PDF con tag Styles a chiusura automatica|Insetto|
+|CELLSJAVA-42644|Aspose.Cells si blocca durante la conversione di un file ml (xml) di un foglio di calcolo in PDF con tag Styles a chiusura automatica|Insetto|
 |CELLSJAVA-42632|Impossibile impostare un testo alternativo per la forma SmartArt|Insetto|
 |CELLSJAVA-42631|getFirstVisibleRow() e getFirstVisibleColumn() restituiscono indici non validi|Insetto|
-|CELLSJAVA-42624|I collegamenti ipertestuali con simboli codificati (come "%5c") vengono decodificati dopo il nuovo salvataggio|Insetto|
+|CELLSJAVA-42624|collegamenti ipertestuali con simboli codificati (come "%5c") vengono decodificati dopo il nuovo salvataggio|Insetto|
 |CELLSJAVA-42638|Cell.getDisplayStringValue() genera java.lang.NullPointerException|Eccezione|
 |CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException si è verificata durante il caricamento di un file XLS|Eccezione|
 |CELLSJAVA-42650|Eccezione: "Codifica non valida: null" durante il caricamento di un file XLS|Eccezione|
 |CELLSJAVA-42649|Eccezione: "Il conteggio di HPageBreaks non può essere maggiore di 1024" durante il caricamento di un file XLS|Eccezione|
 |CELLSJAVA-42648|Eccezione: "Impossibile leggere i dati dell'immagine" su Picture.getData()|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge le classi Slicer, SlicerCollection, SlicerCache, SlicerCacheItem e SlicerCacheItemCollection**
 

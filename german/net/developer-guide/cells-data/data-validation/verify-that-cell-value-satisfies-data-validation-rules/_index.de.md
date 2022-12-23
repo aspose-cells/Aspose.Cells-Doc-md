@@ -12,9 +12,9 @@ Manchmal muss überprüft werden, ob ein Wert die Datenüberprüfungsregeln erf�
 
 {{% /alert %}} 
 ## **Einführung**
- Aspose.Cells bietet die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zum programmgesteuerten Validieren von Zellwerten. Wenn der Wert in einer Zelle die auf diese Zelle angewendete Datenvalidierungsregel nicht erfüllt, wird er zurückgegeben**FALSCH** , anders**WAHR**.
+ Aspose.Cells bietet die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zum programmgesteuerten Validieren von Zellwerten. Wenn der Wert in einer Zelle die auf diese Zelle angewendete Datenvalidierungsregel nicht erfüllt, wird er zurückgegeben**FALSCH** , anders**Wahr**.
 
- Der folgende Beispielcode veranschaulicht, wie die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode funktioniert. Zuerst trägt er den Wert 3 in C1 ein. Da dies die Datenvalidierungsregel nicht erfüllt, wird die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zurück**FALSCH** . Dann trägt er den Wert 15 in C1 ein. Da dieser Wert die Datenvalidierungsregel erfüllt, wird die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zurück**WAHR** . Ebenso kehrt es zurück**FALSCH** für Wert 30.
+ Der folgende Beispielcode veranschaulicht, wie die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode funktioniert. Zuerst trägt er den Wert 3 in C1 ein. Da dies die Datenvalidierungsregel nicht erfüllt, wird die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zurück**FALSCH** . Dann trägt er den Wert 15 in C1 ein. Da dieser Wert die Datenvalidierungsregel erfüllt, wird die[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) Methode zurück**Wahr** . Ebenso kehrt es zurück**FALSCH** für Wert 30.
 
 
 

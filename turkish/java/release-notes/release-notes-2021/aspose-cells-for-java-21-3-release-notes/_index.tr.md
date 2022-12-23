@@ -15,12 +15,12 @@ url: /tr/java/aspose-cells-for-java-21-3-release-notes/
 |CELLSJAVA-43400|UNIQUE() işlevini destekleyin|
 |CELLSJAVA-42863|Grafiğin alt başlığını getir|
 |CELLSJAVA-43401|Tüm JDK'lar için Japon dönemi için birleşik biçimlendirme sonucunu destekleyin|
-|CELLSJAVA-43398|Koşullu biçimlendirme, ODS'den HTML'ye dönüştürmede düzgün şekilde işlenmez|
+|CELLSJAVA-43398|ODS'den HTML'e dönüştürmede koşullu biçimlendirme düzgün işlenmez|
 |CELLSJAVA-43388|Çalışma kitabı kopyalandıktan sonra çıktı dosyası bozuk|
-|CELLSJAVA-43406|HTML'yi Excel'e dönüştürürken sorunlar|
+|CELLSJAVA-43406|HTML'i Excel'e dönüştürürken sorunlar|
 |CELLSJAVA-43399|CalculateFormula() çok sayıda hata türü değeri oluşturuyor #VALUE|
 |CELLSJAVA-43362|Grafikleri yazdırırken etiketler için yüzde sorunu|
-|CELLSJAVA-43384|PDF'ye dönüştürürken ve grafikleri yazdırırken bazı etiketler için yüzde sorunu|
+|CELLSJAVA-43384|PDF'e dönüştürülürken ve çizelgeler yazdırılırken bazı etiketler için yüzdeler sorunu|
 |CELLSJAVA-43402|Excel dosyasından tam grafik görüntüsü oluşturun|
 |CELLSJAVA-43408|Grafiğin üstü kesilir ve eğimli çizgi yukarı çıkar|
 |CELLSJAVA-43412|xlsx'ten html'ye dönüştürmede CellsException|

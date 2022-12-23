@@ -15,7 +15,7 @@ url: /tr/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50880|Kullanıcının rahatlığı için verileri ICellsDataTable'a dönüştürmek için yeni apis|
 |CELLSNET-51140|.numbers veri depolama 5.0 desteği|
 |CELLSNET-51144|Numbers13 resimlerini okuma desteği|
-|CELLSNET-51230|CellRange için stil belirleme desteği|
+|CELLSNET-51230| CellRange için stil belirleme desteği|
 |CELLSNET-50996|ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32) aşırı yüklenmiş yöntemi ekleyin|
 |CELLSNET-51184| Aralık basit bir hücreyse dizi değerini içe aktarmayı destekler|
 |CELLSNET-51215|Tablo formüllerini xlsb'ye kaydetme desteği|
@@ -23,26 +23,26 @@ url: /tr/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50954|Çalışma kitabını yükledikten sonra CheckBox'ın yanlış UpperLeftRow'u|
 |CELLSNET-51153| Yinelenen onay kutuları|
 |CELLSNET-51158|Şekiller ve metin kutuları gibi nesneler üzerine yazılan karakterler Linux'ta bozuk|
-|CELLSNET-51180|XLSM'ye dönüştürülen Pivot tablolu XLS dosyası bozuk ve veri bağlantı ayrıntıları silindi|
+|CELLSNET-51180|XLSM'e dönüştürülen Pivot tablolu XLS dosyası bozuk ve veri bağlantı ayrıntıları silindi|
 |CELLSNET-50598|FİLTRE işlevli dinamik formül yenilenemez ve doğru hesaplanamaz|
 |CELLSNET-51069|Cell.Calculate(), çalışma kitabı için hesaplama zinciri etkinleştirildiğinde formül bağımlılıklarını güncellemez|
 |CELLSNET-51186| Aspose.Cells' formül hesaplama motorunda TAVAN işleviyle ilgili sorun|
 |CELLSNET-51192|TARİH işlevi #SAYI olarak hesaplandı! 1/0/1900 için|
-|CELLSNET-51195|Veri Tabloları içeren bir XLSB dosyasının XLSM formatına dönüştürülmesi, Veri Tablosunun silinmesine neden oldu|
+|CELLSNET-51195|Veri Tabloları içeren bir XLSB dosyasının XLSM biçimine dönüştürülmesi, Veri Tablosunun silinmesine neden oldu|
 |CELLSNET-51235|Çok uzun formüllere sahip bazı hücreler Aspose.Cells tarafından hesaplanmıyor|
 |CELLSNET-51268|0'ı yanlış işleyen COUNTIFS formülüyle ilgili sorun|
 |CELLSNET-51041|Html yüklenirken Çince karakterler bozuluyor|
 |CELLSNET-51072|Tarih alanıyla ImportXml sorunu|
 |CELLSNET-51081|Kayıtlı html çalışma kitabına yeniden yüklendikten sonra özel biçim değiştirildi|
-|CELLSNET-51092|Linux'ta işlenmiş SVG'de/görüntüde üstü çizili yazı tipi çalışmıyor|
+|CELLSNET-51092|Linux'ta işlenmiş SVG/görüntüde üstü çizili yazı tipi çalışmıyor|
 |CELLSNET-51120|Xml Haritasına bağlı xml verilerini dışa aktarırken istisna atıyor|
 |CELLSNET-51197|Boole alanıyla ImportXml sorunu|
-|CELLSNET-50854|XLSX'ten PDF'e: Çubuk grafikler doğru şekilde oluşturulmadı|
+|CELLSNET-50854|XLSX ila PDF: Çubuk grafikler doğru şekilde oluşturulmadı|
 |CELLSNET-50983|X ekseni etiketleri yanlış|
 |CELLSNET-50998| Son x ekseni parametresi görüntülenmiyor|
 |CELLSNET-50999|Grafik etiketleri kutuya sığmıyor - kutu çok büyük|
 |CELLSNET-51000|Yatay yerine dikey olarak hizalanmış grafik etiketi|
-|CELLSNET-51043| Çalışma kitabını PDF'ye kaydederken seri adlarının hatalı çıktısı|
+|CELLSNET-51043| Çalışma kitabını PDF'e kaydederken seri adlarının hatalı çıktısı|
 |CELLSNET-51159| PDF kaydedilirken Chart.Title.IsVisible=false ile ilgili hatalar|
 |CELLSNET-51211| Excel Grafiği'nden Görüntü oluştururken eksik sayılar|
 |CELLSNET-49105|Kaydedilen .ods dosyası, dosya liste doğrulaması içerdiğinde bozulur|

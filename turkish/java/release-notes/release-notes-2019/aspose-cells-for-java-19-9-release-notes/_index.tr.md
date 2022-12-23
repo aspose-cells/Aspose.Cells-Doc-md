@@ -12,16 +12,16 @@ Bu sayfa Aspose.Cells for Java 19.9 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42990|AutoFilter mevcut olduğunda Excel dosyası HTML'ye dönüştürülürken gizli satırlar görüntüleniyor|Böcek|
+|CELLSJAVA-42990|AutoFilter mevcut olduğunda Excel dosyası HTML'e dönüştürülürken gizli satırlar görüntüleniyor|Böcek|
 |CELLSJAVA-42997|CalculateFormula() büyük formül dizeleriyle başarısız oluyor|Böcek|
 |CELLSJAVA-43000|CalculateFormula() Excel dosyasını bozar|Böcek|
-|CELLSJAVA-42987|Excel dosyasını PDF'ye dönüştürürken biçimlendirme sorunları|Böcek|
-|CELLSJAVA-42986|Çince XLSX dosyasını PDF'ye dönüştürdükten sonra metin çakışıyor|Böcek|
+|CELLSJAVA-42987|Excel dosyasını PDF'e dönüştürürken biçimlendirme sorunları|Böcek|
+|CELLSJAVA-42986|Çince XLSX dosyasını PDF'e dönüştürdükten sonra metin çakışıyor|Böcek|
 |CELLSJAVA-43012|Workbook.setRecalculateOnOpen(yanlış) daha yeni Excel sürümleri için çalışmıyor|Böcek|
-|CELLSJAVA-42996|Formüllere dayalı veri etiketleri PDF'de doğru şekilde oluşturulmuyor|Böcek|
-|CELLSJAVA-42992|XLSM görüntüye dönüştürülürken istisna ortaya çıktı|İstisna|
-|CELLSJAVA-42991|macOS'ta Excel'i PDF'ye dönüştürürken "Sütun genişliği 0 ile 255 arasında olmalıdır" istisnası|İstisna|
-|CELLSJAVA-43004|Java.lang.NumberFormatException İstisnası: Giriş dizesi için: Excel'i HTML'ye dönüştürürken "0.0"|İstisna|
+|CELLSJAVA-42996|Formüllere dayalı veri etiketleri, PDF'de doğru şekilde oluşturulmuyor|Böcek|
+|CELLSJAVA-42992|XLSM görüntüye dönüştürülürken istisna oluştu|İstisna|
+|CELLSJAVA-42991|macOS'ta Excel'i PDF'e dönüştürürken "Sütun genişliği 0 ile 255 arasında olmalıdır" istisnası|İstisna|
+|CELLSJAVA-43004|Java.lang.NumberFormatException İstisnası: Giriş dizesi için: Excel'i HTML'e dönüştürürken "0.0"|İstisna|
 |CELLSJAVA-43010|deleteBlankColumns() yürütülürken IllegalArgumentException|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

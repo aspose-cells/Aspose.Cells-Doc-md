@@ -14,13 +14,13 @@ Microsoft Excel permet aux utilisateurs de rechercher des cellules dans une feui
 
 ### **Utilisation d'Excel Microsoft**
 
-Microsoft Excel permet aux utilisateurs de rechercher des cellules dans une feuille de calcul contenant des données spécifiées. Si vous sélectionnez**Éditer** du**Trouver** menu dans Microsoft Excel, vous verrez une boîte de dialogue dans laquelle vous pouvez spécifier la valeur de recherche.
+ Microsoft Excel permet aux utilisateurs de rechercher des cellules dans une feuille de calcul contenant des données spécifiées. Si vous sélectionnez**Éditer** du**Trouver** menu dans Microsoft Excel, vous verrez une boîte de dialogue dans laquelle vous pouvez spécifier la valeur de recherche.
 
 Ici, nous recherchons la valeur "Oranges". Aspose.Cells permet également aux développeurs de rechercher des cellules dans la feuille de calcul contenant des valeurs spécifiées.
 
 ### **En utilisant Aspose.Cells**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection qui représente toutes les cellules de la feuille de calcul. La[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fournit plusieurs méthodes pour rechercher des cellules dans une feuille de calcul contenant des données spécifiées par l'utilisateur. Quelques-unes de ces méthodes sont décrites ci-dessous plus en détail.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans le fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection qui représente toutes les cellules de la feuille de calcul. Le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fournit plusieurs méthodes pour rechercher des cellules dans une feuille de calcul contenant des données spécifiées par l'utilisateur. Quelques-unes de ces méthodes sont décrites ci-dessous plus en détail.
 
 {{% alert color="primary" %}}
 
@@ -54,7 +54,7 @@ Les exemples ci-dessous utilisent des données de feuille de calcul pour s'entra
 
  Il est possible de trouver des valeurs de chaîne spécifiées en appelant le même[**Trouver**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/find/index) méthode trouvée dans le[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection avec divers[**RechercherOptions**](https://reference.aspose.com/cells/net/aspose.cells/findoptions).
 
- Spécifie le[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) et[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype)Propriétés. L'exemple de code suivant illustre comment utiliser ces propriétés pour rechercher des cellules avec un nombre différent de chaînes à la**début** ou à la**centre** ou à la**fin** de la chaîne de la cellule.
+ Spécifie le[**FindOptions.LookInType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookintype) et[**FindOptions.LookAtType**](https://reference.aspose.com/cells/net/aspose.cells/findoptions/properties/lookattype) Propriétés. L'exemple de code suivant illustre comment utiliser ces propriétés pour rechercher des cellules avec un nombre différent de chaînes à la**début** ou à la**centre** ou à la**fin** de la chaîne de la cellule.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Handling-Find-FindingCellsContainingStringValueOrNumber-1.cs" >}}
 

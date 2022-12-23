@@ -6,7 +6,7 @@ url: /fr/net/create-shared-workbook-with-aspose-cells/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Microsoft Excel vous permet de partager le classeur comme indiqué dans la capture d'écran suivante. Lorsque vous partagez le classeur, plusieurs utilisateurs peuvent modifier le classeur sur le réseau. Aspose.Cells vous permet de créer un classeur partagé avec[**Classeur.Paramètres.Partagé**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)propriété.
+Microsoft Excel vous permet de partager le classeur comme indiqué dans la capture d'écran suivante. Lorsque vous partagez le classeur, plusieurs utilisateurs peuvent modifier le classeur sur le réseau. Aspose.Cells vous permet de créer un classeur partagé avec[**Classeur.Paramètres.Partagé**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/shared)la propriété.
 
 ![tâche : image_autre_texte](create-shared-workbook-with-aspose-cells_1.png)
 

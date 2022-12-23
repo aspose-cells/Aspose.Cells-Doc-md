@@ -13,7 +13,7 @@ Insérez une ligne à n'importe quel emplacement en appelant la méthode insertR
 - Charger le classeur XLS ou XLSX
 - Accéder à la feuille de travail
 - Insérer la ligne
-- Enregistrer en tant que classeur XLS ou XLSX
+- Enregistrer sous le classeur XLS ou XLSX
 
 **Code Python**
 

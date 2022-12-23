@@ -10,6 +10,6 @@ url: /tr/net/verify-password-used-to-protect-the-worksheet/
 
 {{% /alert %}}
 
- bu[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) yöntem döndürür**doğru**belirtilen parola, verilen çalışma sayfasını korumak için kullanılan parolayla eşleşirse ve**yanlış** belirtilen parola eşleşmiyorsa. Aşağıdaki kod parçası,[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) ile birlikte yöntem[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword)özelliği parola korumasını algılar ve parolayı doğrular.
+ bu[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) yöntem döndürür**doğru**belirtilen parola, verilen çalışma sayfasını korumak için kullanılan parolayla eşleşirse ve**YANLIŞ** belirtilen parola eşleşmiyorsa. Aşağıdaki kod parçası,[**Protection.VerifyPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/methods/verifypassword) ile birlikte yöntem[**Protection.IsProtectedWithPassword**](https://reference.aspose.com/cells/net/aspose.cells/protection/properties/isprotectedwithpassword)özelliği parola korumasını algılar ve parolayı doğrular.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-VerifyPasswordUsedToProtectWorksheets-VerifyPasswordUsedToProtectWorksheets.cs" >}}

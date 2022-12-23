@@ -6,7 +6,7 @@ url: /ar/net/remove-unused-styles-inside-the-workbook/
 ---
 {{% alert color="primary" %}}
 
-لا تشغل الأنماط غير المستخدمة في ملف Excel مساحة فحسب ، بل تتسبب أيضًا في حدوث مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF و HTML وما إلى ذلك.[**المصنف .RemoveUnusedStyles ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) لإزالة كافة الأنماط غير المستخدمة داخل المصنف.
+لا تشغل الأنماط غير المستخدمة في ملف Excel مساحة فحسب ، بل تتسبب أيضًا في حدوث مشكلات في الأداء أثناء التحويل إلى تنسيقات مختلفة مثل PDF ، HTML ، إلخ.[**المصنف .RemoveUnusedStyles ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/removeunusedstyles) لإزالة كافة الأنماط غير المستخدمة داخل المصنف.
 
 {{% /alert %}}
 

@@ -20,7 +20,7 @@ url: /fr/net/aspose-cells-for-net-7-5-2-release-notes/
 
  41849 - L'effacement des zones de texte ne fonctionne pas
 
- Exceptions
+ Des exceptions
 
 41843 - Exception : "
 
@@ -30,7 +30,7 @@ url: /fr/net/aspose-cells-for-net-7-5-2-release-notes/
 
 41904 - 
 
-41891 - Problème d'actualisation des tableaux croisés dynamiques
+ 41891 - Problème d'actualisation des tableaux croisés dynamiques
 
  41868 - Problème de formule DSUM
 
@@ -50,7 +50,7 @@ url: /fr/net/aspose-cells-for-net-7-5-2-release-notes/
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

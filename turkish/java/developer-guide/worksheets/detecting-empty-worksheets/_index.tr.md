@@ -5,7 +5,7 @@ weight: 710
 url: /tr/java/detecting-empty-worksheets/
 ---
 ## **Doldurulmuş olup olmadığını kontrol edin Cells**
-Çalışma sayfalarında, bir değerin basit (metin, sayısal, tarih/saat) veya bir formül veya formül tabanlı bir değer olabileceği değerlerle doldurulmuş bir veya daha fazla hücre olabilir. Böyle bir durumda verilen bir çalışma sayfasının boş olup olmadığını anlamak kolaydır. Kontrol etmemiz gereken tek şey[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow) veya[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)özellikleri. Yukarıda belirtilen özellikler sıfır veya pozitif değerler döndürürse, bu, bir veya daha fazla hücrenin doldurulduğu anlamına gelir, ancak bu özelliklerden herhangi biri -1 döndürürse, bu, verilen çalışma sayfasında hiçbir hücrenin doldurulmadığını gösterir.
+Çalışma sayfalarında, bir değerin basit (metin, sayısal, tarih/saat) veya bir formül veya formül tabanlı bir değer olabileceği değerlerle doldurulmuş bir veya daha fazla hücre olabilir. Böyle bir durumda verilen bir çalışma sayfasının boş olup olmadığını anlamak kolaydır. Kontrol etmemiz gereken tek şey[Cells.MaxDataRow](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataRow) veya[Cells.MaxDataColumn](https://reference.aspose.com/cells/java/com.aspose.cells/cells#MaxDataColumn)özellikler. Yukarıda belirtilen özellikler sıfır veya pozitif değerler döndürürse, bu, bir veya daha fazla hücrenin doldurulduğu anlamına gelir, ancak bu özelliklerden herhangi biri -1 döndürürse, bu, verilen çalışma sayfasında hiçbir hücrenin doldurulmadığını gösterir.
 
 {{% alert color="primary" %}} 
 

@@ -37,7 +37,7 @@ metadata.Save(filePath);
 
 
 ### **Propriété HtmlSaveOptions.ExportFrameScriptsAndProperties ajoutée**
-Aspose.Cells for .NET 8.6.0 a exposé la propriété HtmlSaveOptions.ExportFrameScriptsAndProperties qui peut être utilisée pour influencer la création de scripts supplémentaires lors de la conversion des feuilles de calcul au format HTML. Avec les paramètres par défaut, les API Aspose.Cells exportent la feuille de calcul au format HTML pendant que l'application Excel effectue l'exportation, c'est-à-dire ; le code HTML résultant contient les cadres et les commentaires conditionnels, qui détectent le type de navigateur et ajustent la mise en page en conséquence. La valeur par défaut de la propriété HtmlSaveOptions.ExportFrameScriptsAndProperties est true, c'est-à-dire ; l'exportation se fait selon les normes Excel. Cependant, si la propriété est définie sur false, le API ne sera pas[générer les scripts liés aux cadres et aux commentaires conditionnels](/cells/fr/net/disable-exporting-frame-scripts-and-document-properties/). Dans ce cas, le code HTML résultant peut être visualisé correctement dans n'importe quel navigateur, mais il ne peut pas être réimporté à l'aide des API Aspose.Cells.
+Aspose.Cells for .NET 8.6.0 a exposé la propriété HtmlSaveOptions.ExportFrameScriptsAndProperties qui peut être utilisée pour influencer la création de scripts supplémentaires lors de la conversion des feuilles de calcul au format HTML. Avec les paramètres par défaut, les API Aspose.Cells exportent la feuille de calcul au format HTML lorsque l'application Excel effectue l'exportation, c'est-à-dire ; le HTML résultant contient les cadres et les commentaires conditionnels, qui détectent le type de navigateur et ajustent la mise en page en conséquence. La valeur par défaut de la propriété HtmlSaveOptions.ExportFrameScriptsAndProperties est true, c'est-à-dire ; l'exportation se fait selon les normes Excel. Cependant, si la propriété est définie sur false, le API ne sera pas[générer les scripts liés aux cadres et aux commentaires conditionnels](/cells/fr/net/disable-exporting-frame-scripts-and-document-properties/). Dans ce cas, le HTML résultant peut être visualisé correctement dans n'importe quel navigateur, cependant, il ne peut pas être réimporté à l'aide des API Aspose.Cells.
 
 Voici le scénario d'utilisation simple.
 
@@ -63,7 +63,7 @@ book.Save("output.html", options);
 
 
 ### **Propriété Shape.MarcoName ajoutée**
- Aspose.Cells for .NET 8.6.0 a exposé la propriété Shape.MarcoName qui peut être utilisée pour[affecter n'importe quel module VBA à un contrôle de formulaire](/cells/fr/net/assign-macro-to-form-control/) un tel bouton afin de fournir l'interaction. La propriété est de type chaîne, elle peut donc accepter le nom du module et l'attribuer au contrôle.
+Aspose.Cells for .NET 8.6.0 a exposé la propriété Shape.MarcoName qui peut être utilisée pour[affecter n'importe quel module VBA à un contrôle de formulaire](/cells/fr/net/assign-macro-to-form-control/) un tel bouton afin de fournir l'interaction. La propriété est de type chaîne, elle peut donc accepter le nom du module et l'attribuer au contrôle.
 
 Voici le scénario d'utilisation simple.
 

@@ -12,18 +12,18 @@ description: لماذا لا Apache POI SS - HSSF و XSSF.
 
 
 ## **Apache POI SS - HSSF و XSSF**
-**HSSF** هو تطبيق POI Project النقي Java لتنسيق ملف Excel '97 (-2007).
+**HSSF**هو تطبيق POI Project النقي Java لتنسيق ملف Excel '97 (-2007).
 **XSSF** هو تطبيق POI Project النقي Java لتنسيق ملف Excel 2007 OOXML (.xlsx).
 
-يوفر HSSF و XSSF طرقًا لقراءة جداول البيانات وإنشاء جداول بيانات XLS وتعديلها وقراءتها وكتابتها. انهم يقدموا:
+يوفر HSSF و XSSF طرقًا لقراءة جداول البيانات وإنشاء وتعديل وقراءة وكتابة جداول بيانات XLS. انهم يقدموا:
 
 - هياكل منخفضة المستوى لذوي الاحتياجات الخاصة
 - واجهة برمجة تطبيقات نموذجية للوصول الفعال للقراءة فقط
-- واجهة برمجة تطبيقات نموذج مستخدم كاملة لإنشاء ملفات XLS وقراءتها وتعديلها
+- واجهة مستخدم نموذجية كاملة لإنشاء ملفات XLS وقراءتها وتعديلها
 
  اقراء المزيد على[poi.apache.org](http://poi.apache.org/components/spreadsheet/index.html)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java هو مكون جداول بيانات Excel حائز على جوائز يسمح لمطوري Java بتضمين القدرة على قراءة جداول بيانات Excel® وكتابتها ومعالجتها (XLS و XLSX و XLSM و XLSB و XLTX و SpreadsheetML و CSV و ODS) و HTML و MHTML و PDF وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
+Aspose.Cells for Java هو أحد مكونات جداول بيانات Excel الحائز على جوائز والذي يسمح لمطوري Java بتضمين القدرة على قراءة وكتابة ومعالجة جداول بيانات Excel® (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، 07618310481 ، 0761910481 ، SpreadsheetML ، 076191481) وتنسيقات ملفات الصور في تطبيقات Java الخاصة بهم دون الحاجة إلى الاعتماد على Microsoft Excel®.
 
 Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني بالميزات يقدم العديد من الوظائف التي تفوق بكثير قدرات تصدير البيانات البسيطة للبائعين الآخرين. مع Aspose.Cells for Java يمكن للمطورين تصدير البيانات وتنسيق جداول البيانات إلى المستوى الأكثر دقة واستيراد الصور وإنشاء المخططات وتطبيق وحساب الصيغ المعقدة ودفق بيانات Excel® وحفظها بتنسيقات مختلفة وغير ذلك الكثير - كل هذا دون الحاجة إلى Microsoft Excel® أو Microsoft أتمتة المكاتب.
 
@@ -41,7 +41,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 
  يكتشف[الملحق مع أمثلة التعليمات البرمجية المصدر لميزات Aspose.Cells for Java بالمقارنة مع POI](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells_Java_for_Apache_POI_SS-v1.0.0).
 
-يستخدم هذا البرنامج المساعد الإصدار التقييمي Aspose.Cells. عندما تكون سعيدًا بتقييمك ، يمكنك شراء ترخيص من[Aspose موقع الكتروني](https://purchase.aspose.com/buy) . لإزالة رسالة التقييم وقيود الميزات ، يجب عليك تطبيق ترخيص منتج. بعد شراء المنتج ، ستتلقى ملف ترخيص. يرجى اتباع التعليمات الموجودة في["الترخيص والاشتراك"](/cells/ar/java/licensing/) مقالة للقيام بذلك.
+ يستخدم هذا البرنامج المساعد الإصدار التقييمي Aspose.Cells. عندما تكون سعيدًا بتقييمك ، يمكنك شراء ترخيص من[Aspose موقع الكتروني](https://purchase.aspose.com/buy) . لإزالة رسالة التقييم وقيود الميزات ، يجب عليك تطبيق ترخيص منتج. بعد شراء المنتج ، ستتلقى ملف ترخيص. يرجى اتباع التعليمات الموجودة في["الترخيص والاشتراك"](/cells/ar/java/licensing/) مقالة للقيام بذلك.
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ Aspose.Cells for Java هو مكون ناضج وقابل للتطوير وغني 
 
 توفر مكونات Aspose كل ما تحتاجه لإدارة ملفات Office ، بالإضافة إلى الكثير والكثير. تم تصميمها وفقًا لفلسفة السماح للمطورين بتحقيق أفضل النتائج بأقل قدر من العمل.
 
- توفر مكونات Aspose العديد من الوظائف القوية لتوفير الوقت. فمثلا،[Aspose.Cells](https://products.aspose.com/cells/java/) يقدم ميزة تسمح للمطورين باستيراد JSON إلى ملفات Excel. من الجدير بالذكر أن كل مكون في عائلة Aspose يقدم مجموعة خاصة به من الميزات الفريدة والقوية.
+توفر مكونات Aspose العديد من الوظائف القوية لتوفير الوقت. على سبيل المثال،[Aspose.Cells](https://products.aspose.com/cells/java/) يقدم ميزة تسمح للمطورين باستيراد JSON إلى ملفات Excel. من الجدير بالذكر أن كل مكون في عائلة Aspose يقدم مجموعة خاصة به من الميزات الفريدة والقوية.
 
 ## **الدعم والتوسيع والمساهمة**
 ### **الدعم**
@@ -83,14 +83,14 @@ Aspose.Cells Java لـ Apache POI (HSSF + XSSF) مفتوح المصدر وكود
 1.  افتح Eclipse واختر**ملف** > **يستورد...**
 1. يختار**عام** > **المشاريع الحالية في مساحة العمل**.
 1. اذهب الى**حدد الدليل الجذر**من أحدث كود مصدر قمت بتنزيله.
-1. انقر**إنهاء**لاستيراد المشروع الذي تم تنزيله بنجاح.
+1. انقر**ينهي**لاستيراد المشروع الذي تم تنزيله بنجاح.
 #### **NetBeans IDE**
 1. تنزيل / استنساخ الكود المصدري.
 1. افتح NetBeans واختر**ملف** > **مشروع جديد...**
 1.  في**اختر المشروع** علامة التبويب: تحديد**Java** > **Java مشروع بالمصادر الموجودة**.
 1.  في**اسم وموقع** علامة التبويب: قدم ما تريده**اسم المشروع** و**ملف المشروع**.
 1.  في**المصادر الموجودة** علامة التبويب: انقر فوق**أضف المجلد...** وتصفح لتحديد الدليل الجذر لأحدث كود مصدر قمت بتنزيله.
-1.  انقر**إنهاء** لإنشاء المشروع الذي تم تنزيله بنجاح.
+1.  انقر**ينهي** لإنشاء المشروع الذي تم تنزيله بنجاح.
 ## **أمثلة على التعليمات البرمجية النموذجية**
 يتضمن هذا القسم المواضيع التالية
 
@@ -145,11 +145,11 @@ Aspose.Cells Java لـ Apache POI (HSSF + XSSF) مفتوح المصدر وكود
     - [عرض وإخفاء أشرطة التمرير من المصنفات](/cells/ar/java/display-and-hide-scrollbars-of-workbooks/)
     - [عرض وإخفاء علامات تبويب المصنف باستخدام Aspose.Cells](/cells/ar/java/display-and-hide-tabs-of-workbook-using-aspose-cells/)
     - [تشفير المصنف باستخدام Aspose.Cells](/cells/ar/java/encrypt-workbook-using-aspose-cells/)
-    - [قراءة ملف CSV بترميزات متعددة](/cells/ar/java/read-csv-file-with-multiple-encodings/)
-    - [احفظ كل ورقة عمل إلى PDF مختلف باستخدام Aspose.Cells](/cells/ar/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
+    - [اقرأ CSV ملف ذو ترميزات متعددة](/cells/ar/java/read-csv-file-with-multiple-encodings/)
+    - [احفظ كل ورقة عمل مختلفة PDF باستخدام Aspose.Cells](/cells/ar/java/save-each-worksheet-to-different-pdf-using-aspose-cells/)
     - [قم بتعيين لون علامة تبويب ورقة العمل في Aspose.Cells](/cells/ar/java/set-worksheet-tab-color-in-aspose-cells/)
   - [العمل مع المخططات في Aspose.Cells](/cells/ar/java/working-with-charts-in-aspose-cells/)
-    - [إضافة علامة مائية Word Art إلى مخطط](/cells/ar/java/add-word-art-watermark-to-chart/)
+    - [إضافة علامة مائية Word Art إلى التخطيط](/cells/ar/java/add-word-art-watermark-to-chart/)
     - [تغيير موضع المخطط وحجمه](/cells/ar/java/change-chart-position-and-size/)
     - [تحويل الرسم البياني إلى صور باستخدام Aspose.Cells](/cells/ar/java/convert-chart-to-images-using-aspose-cells/)
     - [قم بإنشاء مخططات محورية باستخدام Aspose.Cells](/cells/ar/java/create-pivot-charts-using-aspose-cells/)

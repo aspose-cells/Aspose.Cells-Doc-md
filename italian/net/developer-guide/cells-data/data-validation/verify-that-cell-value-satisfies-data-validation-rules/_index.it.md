@@ -6,7 +6,7 @@ url: /it/net/verify-that-cell-value-satisfies-data-validation-rules/
 ---
 {{% alert color="primary" %}} 
 
-Microsoft Excel consente agli utenti di aggiungere regole di convalida dei dati alle celle. Ad esempio, una convalida decimale specifica che è possibile immettere solo numeri compresi tra 10 e 20. Se un utente inserisce un numero diverso. Microsoft Excel mostra un messaggio di errore e richiede loro di inserire un numero nell'intervallo corretto. Se copi e incolli un numero, ad esempio 3, nella cella, Excel non esegue un controllo di convalida o mostra un messaggio di errore.
+Microsoft Excel consente agli utenti di aggiungere regole di convalida dei dati alle celle. Ad esempio, una convalida decimale specifica che è possibile immettere solo numeri compresi tra 10 e 20. Se un utente inserisce un numero diverso. Microsoft Excel mostra un messaggio di errore e richiede di inserire un numero nell'intervallo corretto. Se copi e incolli un numero, ad esempio 3, nella cella, Excel non esegue un controllo di convalida o mostra un messaggio di errore.
 
 volte, è necessario verificare se un valore soddisfa le regole di convalida dei dati applicate alla cella a livello di codice. Nel caso precedente, ad esempio, la voce dovrebbe fallire.
 

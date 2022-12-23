@@ -12,33 +12,33 @@ url: /sv/net/aspose-cells-for-net-18-12-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-46479|Flikens namn är inte tillgängligt när en arbetsbok för ett ark konverteras till HTML|Ny funktion|
+|CELLSNET-46479|Flikens namn är inte tillgängligt när arbetsboken för ett ark konverteras till HTML|Ny funktion|
 |CELLSNET-46503|Styr laddning av VBA-data med LoadDataFilterOptions|Ny funktion|
 |CELLSNET-42414|Spårade ändringar förlorade under konvertering från XLSB till XLSM och XLS till XLSM|Förbättring|
-|CELLSNET-46090|Texten flyttades lite efter att ha delat upp formen när du sparade en XLS till XLSX|Förbättring|
+|CELLSNET-46090|Texten har flyttats lite efter att ha delat upp formen när du sparade en XLS till XLSX|Förbättring|
 |CELLSNET-46439|Optimering för minnesprestanda: släpp originalströmmen efter att arbetsboken har laddats|Prestanda|
-|CELLSNET-46371|Rutnätslinjer visas inte i vissa ark vid konvertering av XLSX->HTML->XLSX|Insekt|
-|CELLSNET-46447|Formatteringar förlorade i HTML till XLS-rendering|Insekt|
-|CELLSNET-46494|MHT till XLSX-konvertering - problem med cellinnehåll|Insekt|
+|CELLSNET-46371|Rutnätslinjer visas inte i vissa ark vid konvertering XLSX->HTML->XLSX|Insekt|
+|CELLSNET-46447|Formatering förlorade i renderingen HTML till XLS|Insekt|
+|CELLSNET-46494|MHT till XLSX konvertering - problem med cellinnehåll|Insekt|
 |CELLSNET-46468|MS Excel ger ett felmeddelande när utdatafilen öppnas|Insekt|
 |CELLSNET-46487|Icke-engelsk språkformel fungerar inte|Insekt|
 |CELLSNET-46489|Att radera en rad med ett index och läsa raden med samma index returnerar Cell.ValuType: IsNull|Insekt|
-|CELLSNET-46406|Det gick inte att öppna lösenordsskyddat ODS-dokument|Insekt|
+|CELLSNET-46406|Det går inte att öppna lösenordsskyddat ODS dokument|Insekt|
 |CELLSNET-46466|Nedre text under streckkoden saknas i MS Excel till PDF-rendering|Insekt|
-|CELLSNET-46470|Bilden saknas efter återgivning till TIFF-utdata|Insekt|
+|CELLSNET-46470|Bilden saknas efter återgivning till TIFF-utgång|Insekt|
 |CELLSNET-46499|Bilder renderas inte korrekt när de konverteras från Excel till PDF|Insekt|
 |CELLSNET-46443|Extra text dök upp i bilden från MS Excel-diagrammet|Insekt|
 |CELLSNET-46450|Den renderade bilden från MS Excel-diagrammet har fler axelenheter än originaldiagrammet|Insekt|
-|CELLSNET-46451|Problem vid rendering av mallfilen (som innehåller diagrammet) till PDF-filformat|Insekt|
+|CELLSNET-46451|Problem vid rendering av mallfilen (som innehåller diagrammet) till filformatet PDF|Insekt|
 |CELLSNET-46454|Förklaringsordning renderad annorlunda än Excel-diagram i session 0 jämfört med session 1|Insekt|
-|CELLSNET-46471|Det går inte att ställa in färgmarkör LineWithDataMarkers i XLS-filformat|Insekt|
-|CELLSNET-42729|Text förskjuts när SmartArt-diagram renderas som HTML-filformat|Insekt|
+|CELLSNET-46471|Det går inte att ställa in färgmarkör LineWithDataMarkers i filformatet XLS|Insekt|
+|CELLSNET-42729|Text förskjuts när SmartArt-diagram renderas som HTML filformat|Insekt|
 |CELLSNET-46462|Text upprepas medan taggen ersätts med text|Insekt|
-|CELLSNET-46483|Fel efter konvertering av dokument med Custom UI xml från XLSB till XLSM|Insekt|
+|CELLSNET-46483|Fel efter konvertering av dokument med anpassat användargränssnitt xml från XLSB till XLSM|Insekt|
 |CELLSNET-46495|Problem upptäckta vid konvertering av diagram till bild|Insekt|
-|CELLSNET-46486|Undantag uppstod vid konvertering av XLS till PDF|Undantag|
+|CELLSNET-46486|Undantag höjdes vid konvertering av XLS till PDF|Undantag|
 |CELLSNET-46472|PivotTable.GetChildren() tar upp undantaget "Invalid Cell Name"|Undantag|
-|CELLSNET-46452|Undantag "NullReferenceException" när du laddar ett XLSB-filformat|Undantag|
+|CELLSNET-46452|Undantag "NullReferenceException" när du laddar ett XLSB filformat|Undantag|
 |CELLSNET-46456|ArgumentUndantag vid inläsning av arbetsbok|Undantag|
 |CELLSNET-46460|Undantag vid åtkomst till TextBox.HtmlText från XLS|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**

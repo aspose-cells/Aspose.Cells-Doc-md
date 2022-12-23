@@ -11,7 +11,7 @@ url: /ar/net/get-equation-text-of-chart-trendline/
 
 {{% /alert %}}
 
- تُظهر لقطة الشاشة التالية المخطط الذي يحتوي على خط اتجاه ويظهر نص المعادلة باللون الأحمر. سنقوم باسترداد هذا النص باستخدام[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)الخاصية في نموذج التعليمات البرمجية التالي.
+تُظهر لقطة الشاشة التالية المخطط الذي يحتوي على خط اتجاه ويظهر نص المعادلة باللون الأحمر. سنقوم باسترداد هذا النص باستخدام[**Trendline.DataLabels.Text**](https://reference.aspose.com/cells/net/aspose.cells.charts/datalabels/properties/text)الخاصية في نموذج التعليمات البرمجية التالي.
 
 ![ما يجب القيام به: image_بديل_نص](get-equation-text-of-chart-trendline_1.png)
 

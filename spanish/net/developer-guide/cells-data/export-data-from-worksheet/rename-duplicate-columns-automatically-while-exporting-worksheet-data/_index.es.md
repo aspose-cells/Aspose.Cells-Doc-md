@@ -10,7 +10,7 @@ url: /es/net/rename-duplicate-columns-automatically-while-exporting-worksheet-da
 
 ## **Cambie el nombre de las columnas duplicadas automáticamente al exportar datos de la hoja de trabajo**
 
- El siguiente código de ejemplo agrega algunos datos en las tres primeras columnas de la hoja de trabajo, pero todas las columnas tienen el mismo nombre, es decir*Gente* . Luego exporta los datos de la hoja de trabajo a la tabla de datos especificando[**RenombrarEstrategia**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Estrategia de cartas. Luego imprime los nombres de las columnas de la tabla de datos generada por Aspose.Cells. La siguiente captura de pantalla muestra la tabla de datos con los datos exportados en el visualizador. Como puede ver, las columnas duplicadas se han renombrado como PeopleA, PeopleB, etc.
+ El siguiente código de ejemplo agrega algunos datos en las tres primeras columnas de la hoja de trabajo, pero todas las columnas tienen el mismo nombre, es decir*Personas* . Luego exporta los datos de la hoja de trabajo a la tabla de datos especificando[**RenombrarEstrategia**](https://reference.aspose.com/cells/net/aspose.cells/renamestrategy).Estrategia de cartas. Luego imprime los nombres de las columnas de la tabla de datos generada por Aspose.Cells. La siguiente captura de pantalla muestra la tabla de datos con los datos exportados en el visualizador. Como puede ver, las columnas duplicadas se han renombrado como PeopleA, PeopleB, etc.
 
 ![todo:imagen_alternativa_texto](rename-duplicate-columns-automatically-while-exporting-worksheet-data_1.png)
 
@@ -20,7 +20,7 @@ url: /es/net/rename-duplicate-columns-automatically-while-exporting-worksheet-da
 
 ## **Salida de consola**
 
-Aquí está la salida de la consola del código de muestra anterior como referencia.
+Aquí está la salida de la consola del código de ejemplo anterior como referencia.
 
 {{< highlight "java" >}}
 

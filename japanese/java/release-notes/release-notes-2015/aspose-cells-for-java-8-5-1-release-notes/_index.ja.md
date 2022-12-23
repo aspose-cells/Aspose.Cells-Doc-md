@@ -22,7 +22,7 @@ url: /ja/java/aspose-cells-for-java-8-5-1-release-notes/
 ## **バグ**
 
 
-(CELLSJAVA-41378) - 生成された HTML で特定のセルの配置が保持されない
+(CELLSJAVA-41378) - 特定のセルの配置が、生成された HTML で保持されない
 
 (CELLSJAVA-41376) - ワークブックの保存後にエラー メッセージが表示される
 
@@ -42,17 +42,17 @@ url: /ja/java/aspose-cells-for-java-8-5-1-release-notes/
 
 (CELLSJAVA-41411) - 8.4.x から 8.5.0 にアップグレードすると、奇妙なフォント置換が発生する
 
-(CELLSJAVA-41410) - Excel から PDF への変換での画像の色の問題
+(CELLSJAVA-41410) - Excel の画像の色の問題を PDF に変換
 
-(CELLSJAVA-41406) - スプレッドシートを PDF にレンダリングした後、グラフの TextBox が移動します
+(CELLSJAVA-41406) - スプレッドシートを PDF にレンダリングした後、グラフのテキスト ボックスが移動する
 
-(CELLSJAVA-41403) - 出典: 化学物質は PDF のチャートの境界線で上書きされます
+(CELLSJAVA-41403) - ソース: 化学物質は PDF のチャートの境界線によって上書きされます
 
-(CELLSJAVA-41402) - 出典: 化学物質は PNG のチャート境界線で上書きされます
+(CELLSJAVA-41402) - ソース: 化学物質は PNG のチャートの境界線によって上書きされます
 
 (CELLSJAVA-41387) - データ ラベルがヘッダー セクションによって上書きされている
 
-(CELLSJAVA-41380) - チャートから画像/PDF への変換で、含まれているテキスト ボックスがライセンス モードでエクスポートされない
+(CELLSJAVA-41380) - Chart to Image/PDF 変換で、ライセンス モードで含まれているテキスト ボックスがエクスポートされない
 
 (CELLSJAVA-41244) - マーカーと矢印が正しく表示されない、または変形する
 
@@ -92,7 +92,7 @@ url: /ja/java/aspose-cells-for-java-8-5-1-release-notes/
 
 
 
- Cell.GetHeightOfValue() メソッドを追加します。
+Cell.GetHeightOfValue() メソッドを追加します。
 
 値の高さをピクセル単位で取得するために使用されます。
 
@@ -102,4 +102,4 @@ url: /ja/java/aspose-cells-for-java-8-5-1-release-notes/
 
 ノート
 
-Aspose.Cells for Java のコード ベースは関連する .NET バージョンのコードと一致するため、Aspose.Cells for .NET v8.5.1 に含まれるほとんどの変更、機能強化、および修正は、この Aspose.Cells for Java v8.5.1 にも含まれています。
+ Aspose.Cells for Java のコード ベースは関連する .NET バージョンのコードと一致するため、Aspose.Cells for .NET v8.5.1 に含まれるほとんどの変更、機能強化、および修正は、この Aspose.Cells for Java v8.5.1 にも含まれています。

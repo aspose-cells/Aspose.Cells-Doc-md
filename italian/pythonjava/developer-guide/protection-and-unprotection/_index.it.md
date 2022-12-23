@@ -18,4 +18,4 @@ Per impedire ad altri di accedere ai dati nei file Excel, proteggere il file Exc
 Per impedire ad altri utenti di visualizzare fogli di lavoro nascosti, aggiungere, spostare, eliminare o nascondere fogli di lavoro e rinominarli, è possibile proteggere la struttura della cartella di lavoro di Excel con una password.
 
 ## [**Proteggi e rimuovi protezione foglio di lavoro**](/cells/it/python-java/protect-and-unprotect-worksheet/)
- Per impedire ad altri utenti di modificare, spostare o eliminare accidentalmente o deliberatamente i dati in un foglio di lavoro, è possibile bloccare le celle nel foglio di lavoro di Excel e quindi proteggere il foglio con una password.
+Per impedire ad altri utenti di modificare, spostare o eliminare accidentalmente o deliberatamente i dati in un foglio di lavoro, è possibile bloccare le celle nel foglio di lavoro di Excel e quindi proteggere il foglio con una password.

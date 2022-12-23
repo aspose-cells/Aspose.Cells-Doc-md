@@ -52,7 +52,7 @@ Hier sind einige der wichtigsten Eigenschaften, die von der Klasse {ExternalConn
 | ConnectionId| Gibt den eindeutigen Bezeichner dieser Verbindung an.|
 | Referenzen| Gibt die Authentifizierungsmethode an, die beim Herstellen (oder Wiederherstellen) der Verbindung verwendet werden soll.|
 | Ist gelöscht|Gibt an, ob die zugehörige Arbeitsmappenverbindung gelöscht wurde. wahr, wenn die<br> Verbindung wurde gelöscht; andernfalls falsch.|
-| Ist neu| True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde; andernfalls falsch. Dies<br> Zustand kann auftreten, wenn der Benutzer die Datei speichert, bevor eine Abfrage die Rückgabe beendet hat.|
+| Ist neu| True, wenn die Verbindung nicht zum ersten Mal aktualisiert wurde; andernfalls falsch. Diese<br> Zustand kann auftreten, wenn der Benutzer die Datei speichert, bevor eine Abfrage die Rückgabe beendet hat.|
 | Bleib am Leben|True, wenn das Tabellenkalkulationsprogramm Anstrengungen unternehmen soll, um die Verbindung aufrechtzuerhalten<br> offen. Bei „false“ sollte die Anwendung die Verbindung nach dem Abrufen von schließen<br> Information.|
 | Name| Gibt den Namen der Verbindung an. Jede Verbindung muss einen eindeutigen Namen haben.|
 | OdcDatei| Gibt den vollständigen Pfad zur externen Verbindungsdatei an, von der diese Verbindung stammt<br> erstellt. Wenn eine Verbindung beim Versuch, Daten zu aktualisieren, fehlschlägt und reconnectionMethod=1,<br> dann versucht die Tabellenkalkulationsanwendung erneut, Informationen aus der externen Verbindungsdatei zu verwenden<br> anstelle des in die Arbeitsmappe eingebetteten Verbindungsobjekts.|
@@ -113,7 +113,7 @@ workbook.save(output);
 ### **Möglichkeit, die gewünschten Bildabmessungen für den Export von Tabellenkalkulationen und Diagrammen festzulegen**
 Aspose.Cells for Java 8.4.1 hat die ImageOrPrintOptions.setDesiredSize-Methode verfügbar gemacht, um die Abmessungen des resultierenden Bildes festzulegen, während Tabellenkalkulationen und Diagramme in Bilder exportiert werden. Die Methode ImageOrPrintOptions.setDesiredSize akzeptiert zwei ganzzahlige Parameter, wobei der erste die gewünschte Breite und der zweite die gewünschte Höhe ist.
 
-Das folgende Code-Snippet zeigt, wie Sie die gewünschten Abmessungen beim Exportieren des Arbeitsblatts in PNG festlegen.
+Das folgende Code-Snippet zeigt, wie Sie die gewünschten Abmessungen beim Exportieren des Arbeitsblatts auf PNG festlegen.
 
 **Java**
 
@@ -151,12 +151,12 @@ renderer.toImage(0, "output.png");
 
 {{% /alert %}} 
 
-### **Rendern von Kommentaren in PDF**
+### **Rendern von Kommentaren zu PDF**
  Mit der Veröffentlichung von v8.4.1 hat Aspose.Cells API die PageSetup.PrintComments-Eigenschaft und die PrintCommentsType-Enumeration bereitgestellt, um das Rendern von Kommentaren beim Konvertieren von Tabellenkalkulationen in das PDF-Format zu erleichtern. Die PrintCommentsType-Enumeration hat die folgenden Konstanten.
 
 - PrintCommentsType.PRINT_NEIN_KOMMENTARE: Kommentare dürfen nicht wiedergegeben werden.
 - PrintCommentsType.PRINT_IN_PLACE: Kommentare sollen dort gerendert werden, wo sie platziert sind.
-- PrintCommentsType.PRINT_BLECH_ENDE: Kommentare sollen am Ende des Arbeitsblatts ausgegeben werden.
+- PrintCommentsType.PRINT_BLATT_ENDE: Kommentare sollen am Ende des Arbeitsblatts ausgegeben werden.
 
 Der folgende Beispielcode veranschaulicht die Verwendung der PageSetup.PrintComments-Eigenschaft zum Rendern der Kommentare unter Verwendung aller möglichen PrintCommentsType-Enumerationswerte.
 

@@ -12,7 +12,7 @@ url: /sv/net/aspose-cells-for-net-20-2-release-notes/
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSNET-47113|Röravgränsad / CSV till JSON-konvertering|Ny funktion|
+|CELLSNET-47113|Röravgränsad / CSV till JSON konvertering|Ny funktion|
 |CELLSNET-47141|Länken mellan pivottabellen och den externa anslutningen|Ny funktion|
 |CELLSNET-47135|Aspose.Cells anser inte TEXTJOIN() avancerad formel/funktion som formel|Förbättring|
 |CELLSNET-47126|Aspose.Cells tar bort "volatileDependencies.xml" från filen med RTD-formler medan XLSX-filen uppdateras|Förbättring|
@@ -27,23 +27,23 @@ url: /sv/net/aspose-cells-for-net-20-2-release-notes/
 |CELLSNET-47138|GridDesktop tar lång tid att ladda stora filer|Insekt|
 |CELLSNET-47043|Det går inte att välja en cell för skyddat ark i GridDesktop|Insekt|
 |CELLSNET-47117|Aspose.Cells 20.1 XAdES-typ är inte definierad vid läsning av tidigare signerade filer med XAdES-signaturer|Insekt|
-|CELLSNET-47081|Återge diagram till PDF|Insekt|
+|CELLSNET-47081|Återgivningsdiagram till PDF|Insekt|
 |CELLSNET-47085|Diagrammet återges inte korrekt när axeletiketternas textriktning är "Stack"|Insekt|
 |CELLSNET-47112|Konverteringen av diagram till bild misslyckas|Insekt|
 |CELLSNET-47133|Inkonsekvens vid export till PDF|Insekt|
 |CELLSNET-47107|Villkorligt formateringsobjekt ger felaktiga resultat för attributet IsAboveAverage|Insekt|
 |CELLSNET-47114|Arbetsbok RemoveExternalLinks resulterar i ett trasigt dokument|Insekt|
-|CELLSNET-47139|ODS-fil med formel för extern länk visar extra arbetsblad|Insekt|
-|CELLSNET-47145|Namngivna intervall försvinner efter att ODS-filen har öppnats och sparats|Insekt|
+|CELLSNET-47139|ODS fil med extern länkformel visar extra arbetsblad|Insekt|
+|CELLSNET-47145|Namngivna intervall försvinner efter att ha öppnat och sparat ODS-filen|Insekt|
 |CELLSNET-47146|Filen öppnas inte|Insekt|
 |CELLSNET-47147|Problem med arkkodnamn|Insekt|
-|CELLSNET-47153|ODS-graferna ändras efter lagring|Insekt|
+|CELLSNET-47153|ODS grafer ändras efter spara|Insekt|
 |CELLSNET-47157|Fel antal externa länkar|Insekt|
 |CELLSNET-47164|IsItalic-egenskapen upptäcktes annorlunda än MS Excel|Insekt|
 |CELLSNET-47169|CategoryType.CategoryScale är inte inställd i ParetoLine-diagrammet|Insekt|
 |CELLSNET-47122|Undantag "Indexa utanför intervallet" vid uppdatering av pivottabeller|Undantag|
 |CELLSNET-47156|IndexOutOfRangeException vid åtkomst till ExternalLink.IsReferred eller IsVisible|Undantag|
-|CELLSNET-47140|Undantag när ODS laddas in i GridDesktop|Undantag|
+|CELLSNET-47140|Undantag vid inläsning av ODS i GridDesktop|Undantag|
 |CELLSNET-47105|Undantag vid import av XML-data där en kolumn i tabellen inte är mappad|Undantag|
 |CELLSNET-47170|Undantag "Ogiltig cast från 'DateTime' to 'Double'" när du sparar en Excel-fil till PDF|Undantag|
 |CELLSNET-47152|Arbetsblad.Cells.EndCellInRow ger fel för filen|Undantag|

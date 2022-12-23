@@ -1,12 +1,12 @@
 ﻿---
-title: Özellikler
+title: Özellikleri
 type: docs
 weight: 10
 url: /tr/net/grid-features/
 ---
  Aşağıdaki tablo, mevcut özellikleri özetlemektedir.**Aspose.Cells.GridDesktop**  , **Aspose.Cells.GridWeb** ve**Aspose.Cells.GridJs** Aspose.Cells for .NET tarafından sağlanan kontroller.
 
-|**Özellikler**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
+|**Özellikleri**|**Aspose.Cells.GridDesktop**|**Aspose.Cells.GridWeb**|**Aspose.Cells.GridJs**|
 |:- |:- |:- |:- |
 |**Genel**||||
 | Tamamı C# ile yazılmıştır.|**X**|**X**|**X**|
@@ -19,7 +19,7 @@ url: /tr/net/grid-features/
 |**Belgeler**||||
 | Microsoft Yardım 2|**X**|**X**|**X**|
 | HTML Yardımı|**X**|**X**|**X**|
-| HTML formatında Çevrimiçi Programcı Kılavuzu|**X**|**X**|**X**|
+| HTML biçiminde Çevrimiçi Programcı Kılavuzu|**X**|**X**|**X**|
 |**Tam Özellikli Demolar**||||
 | Visual Basic.NET|**X**|**X**||
 |C# |**X**|**X**|**X**|

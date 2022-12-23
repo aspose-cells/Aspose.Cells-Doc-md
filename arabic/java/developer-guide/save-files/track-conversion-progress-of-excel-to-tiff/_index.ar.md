@@ -1,5 +1,5 @@
 ﻿---
-title: تتبع تقدم التحويل من Excel إلى TIFF
+title: تتبع تقدم تحويل Excel إلى TIFF
 type: docs
 weight: 140
 url: /ar/java/track-conversion-progress-of-excel-to-tiff/
@@ -8,9 +8,9 @@ url: /ar/java/track-conversion-progress-of-excel-to-tiff/
 
 في بعض الأحيان ، قد يستغرق تحويل ملفات Excel الكبيرة بعض الوقت. خلال هذا الوقت ، قد ترغب في إظهار تقدم تحويل المستند بدلاً من مجرد شاشة تحميل لتحسين إمكانية استخدام التطبيق الخاص بك. Aspose.Cells يدعم تتبع عملية تحويل الوثيقة من خلال توفير**[IPageSavingCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**واجهه المستخدم. ال**[IPageSavingCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**يوفر واجهة**[PageStartSaving] (https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageStartSaving (com.aspose.cells.PageStartSavingArgs))**و**[PageEndSaving] (https://reference.aspose.com/cells/java/com.aspose.cells/ipagesavingcallback#pageEndSaving (com.aspose.cells.PageEndSavingArgs))** الطرق التي يمكنك تنفيذها في فئتك المخصصة. يمكنك أيضًا التحكم في الصفحات التي يتم عرضها كما هو موضح في ملف*TestTiffPageSavingCallback*فئة مخصصة.
 
-## **تتبع تقدم التحويل من Excel إلى TIFF**
+## **تتبع تقدم تحويل Excel إلى TIFF**
 
-نموذج التعليمات البرمجية التالي بتحميل[ملف اكسل المصدر](sampleUseWorkbookRenderForImageConversion.xlsx)ويطبع تقدم التحويل في وحدة التحكم باستخدام ملف*TestTiffPageSavingCallback*فئة مخصصة تنفذ**[IPageSavingCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**واجهه المستخدم. يتم إرفاق ملف الإخراج الذي تم إنشاؤه للرجوع إليه.
+نموذج التعليمات البرمجية التالي بتحميل[ملف اكسل المصدر](sampleUseWorkbookRenderForImageConversion.xlsx) ويطبع تقدم التحويل في وحدة التحكم باستخدام ملف*TestTiffPageSavingCallback*فئة مخصصة تنفذ**[IPageSavingCallback] (https://reference.aspose.com/cells/java/com.aspose.cells/IPageSavingCallback)**واجهه المستخدم. يتم إرفاق ملف الإخراج الذي تم إنشاؤه للرجوع إليه.
 
 [ملف إلاخراج](DocumentConversionProgressForTiff_out.tiff)
 

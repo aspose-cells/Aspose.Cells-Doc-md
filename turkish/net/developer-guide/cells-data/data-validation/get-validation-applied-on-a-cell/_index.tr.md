@@ -8,7 +8,7 @@ keywords: apply cell validation in excel with c#, apply validation on a cell in 
 ---
 {{% alert color="primary" %}}
 
- Bir hücreye uygulanan doğrulamayı almak için Aspose.Cells'i kullanabilirsiniz. Aspose.Cells sağlar[**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) Bu amaç için yöntem. Hücrede geçerli bir doğrulama yoksa, null değerini döndürür.
+Bir hücreye uygulanan doğrulamayı almak için Aspose.Cells'i kullanabilirsiniz. Aspose.Cells sağlar[**Cell.GetValidation()**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidation) Bu amaç için yöntem. Hücrede geçerli bir doğrulama yoksa, null değerini döndürür.
 
  Benzer şekilde, kullanabilirsiniz[**Worksheet.Validations.GetValidationInCell**](https://reference.aspose.com/cells/net/aspose.cells/validationcollection/methods/getvalidationincell) Satır ve sütun indekslerini sağlayarak bir hücreye uygulanan doğrulamayı elde etme yöntemi.
 

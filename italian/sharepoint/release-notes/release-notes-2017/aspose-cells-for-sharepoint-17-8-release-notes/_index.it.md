@@ -10,7 +10,7 @@ url: /it/sharepoint/aspose-cells-for-sharepoint-17-8-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSSP-61|Aggiungi piè di pagina a più file|Nuova caratteristica|
 |CELLSSP-60|Aspose.Cells for SharePoint 2016 Menu multifunzione disabilitato|Insetto|

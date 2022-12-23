@@ -16,9 +16,9 @@ Aspose.Cells.GridDesktop kullanarak bir hücreye köprü eklemek için lütfen a
 -  İstediğiniz herhangi birine erişin**Çalışma kağıdı**
 -  İstenilen erişim**Cell** köprülenecek çalışma sayfasında
 - Köprülenecek hücreye bir miktar değer ekleyin
--  Ekle**köprü** köprünün uygulanacağı hücre adını belirterek çalışma sayfasına
+-  Eklemek**köprü** köprünün uygulanacağı hücre adını belirterek çalışma sayfasına
 
-**köprüler** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Ekle** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Ekle** özel ihtiyaçlarına göre yöntem.
+**köprüler** koleksiyonunda**Çalışma kağıdı** nesne aşırı yükleme sağlar**Eklemek** yöntem. Geliştiriciler, herhangi bir aşırı yüklenmiş sürümünü kullanabilir**Eklemek** özel ihtiyaçlarına göre yöntem.
 
  Aşağıdaki kod, bir köprü ekleyecektir**B2** ve**C3** çalışma sayfasının hücreleri.
 

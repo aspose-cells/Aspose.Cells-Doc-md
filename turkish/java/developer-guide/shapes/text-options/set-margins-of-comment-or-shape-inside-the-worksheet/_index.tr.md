@@ -12,7 +12,7 @@ url: /tr/java/set-margins-of-comment-or-shape-inside-the-worksheet/
 
  Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](61767867.xlsx) iki şekil içerir. Kod, şekillere tek tek erişir ve üst, sol, alt ve sağ kenar boşluklarını ayarlar. Lütfen bkz[çıktı excel dosyası](61767866.xlsx) kod tarafından oluşturulan ve kodun çıktı Excel dosyası üzerindeki etkisini gösteren ekran görüntüsü.
 
-![yapılacaklar:resim_alternatif_Metin](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](set-margins-of-comment-or-shape-inside-the-worksheet_1.png)
 
 ## **Basit kod**
 

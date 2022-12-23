@@ -6,7 +6,7 @@ url: /tr/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 ---
 ## **Olası Kullanım Senaryoları**
 
-Çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan Sayfa Yapısı ayarlarını içerir. Ayarları aktarmanız gereken zamanlar olabilir ([**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)bir çalışma sayfasından başka bir çalışma sayfasına. Bu belge, Aspose.Cells API'leri kullanılarak Sayfa Yapısı ayarlarının bir çalışma sayfasından diğerine nasıl kopyalanacağını açıklar.
+Çalışma kitabına yeni bir sayfa eklediğinizde, varsayılan Sayfa Yapısı ayarlarını içerir. Ayarları aktarmanız gereken zamanlar olabilir ([**Sayfa ayarı**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) bir çalışma sayfasından başka bir çalışma sayfasına. Bu belge, Aspose.Cells API'leri kullanılarak Sayfa Yapısı ayarlarının bir çalışma sayfasından diğerine nasıl kopyalanacağını açıklar.
 
 ## **Sayfa Yapısı Ayarlarını Kaynak Çalışma Sayfasından Hedef Çalışma Sayfasına Kopyalayın**
 

@@ -23,13 +23,13 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-8-release-notes/
 |CELLSJAVA-44781|undersök problemet med radändring av storlek när du ändrar storlek till mycket liten höjd|
 |CELLSJAVA-44787|Nedre kant som tappades vid sista raden i arbetsboken|
 |CELLSJAVA-44761|Överdriven minnesanvändning vid konvertering av Excel-fil till HTML|
-|CELLSJAVA-44801|Excel till PDF-konvertering med Aspose.Cells for Java v22.7 orsakar förvrängda tecken|
+|CELLSJAVA-44801|Excel till PDF konvertering med Aspose.Cells for Java v22.7 orsakar förvrängda tecken|
 |CELLSJAVA-44741|Radbrytningen är inte rätt i utgången xlsx efter att ha satt html-strängen i cellen|
 |CELLSJAVA-44776|Utformning av tabellrubrikrad förlorade vid kopiering av ark|
 |CELLSJAVA-44789|Problem med teckensträngsersättning av textruta placerad i Excel-kalkylblad|
 |CELLSJAVA-44792| Oändligt sparande arbetsbok till HTML-format (2892)|
 |CELLSJAVA-44763|Undantag "java.lang.IllegalArgumentException: kan inte analysera argumentnummer: 1:X8" när Excel-filen laddas med "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Fel vid lagring som PDF - Undersökning krävs|
+|CELLSJAVA-44774|Fel vid lagring som PDF - Utredning krävs|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

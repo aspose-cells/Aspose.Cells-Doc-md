@@ -15,18 +15,18 @@ url: /ja/java/aspose-cells-for-java-20-3-release-notes/
 |CELLSJAVA-43137|光 Cells API: 特定の順序でシートを処理する|新機能|
 |CELLSJAVA-43135|ピクチャ シェイプから ActiveXControl を削除する|新機能|
 |CELLSJAVA-43141|ThreadedComment.CreatedTime プロパティを追加|新機能|
-|CELLSJAVA-42068|ワークブックを HTML に変換すると、ワークシートの GIF が正しくない|バグ|
+|CELLSJAVA-42068|ワークブックを HTML に変換すると、ワークシートの GIF が間違っている|バグ|
 |CELLSJAVA-43127|ファイルを最初に開いたときに、Excel のピボット テーブルが自動的に更新されない|バグ|
 |CELLSJAVA-43129|HTML から XLS への変換で中国語のテキストが文字化けする|バグ|
 |CELLSJAVA-43139|ワークシートを画像にレンダリングするときに、シート内のグラフが更新されない|バグ|
 |CELLSJAVA-43148|チャートラベル位置エラー|バグ|
 |CELLSJAVA-43124|PDF に変換すると、テーブルから 2 つの列が切り取られます|バグ|
-|CELLSJAVA-43091|ドーナツ グラフのデータ ラベルが PDF ファイルで重なっている|バグ|
+|CELLSJAVA-43091|ドーナツ グラフのデータ ラベルが PDF ファイルで重複している|バグ|
 |CELLSJAVA-43132|グラフを画像にエクスポートする際に、一部のグラフからデータ ラベルが欠落する|バグ|
 |CELLSJAVA-43143|WorkbookDesigner.process の後、Chart は HTML で null を出力します|バグ|
-|CELLSJAVA-43098|XLS ファイル形式では、埋め込みオブジェクトを画像に置き換えることができません|バグ|
+|CELLSJAVA-43098|XLS ファイル形式では、埋め込みオブジェクトを画像に置き換えることができない|バグ|
 |CELLSJAVA-43122|Office365 XLSX ファイル形式にインポートした後のスレッド コメントの順序に関する問題|バグ|
-|CELLSJAVA-43134|Apple Numbers'09 でセルの文字列値が空になる|バグ|
+|CELLSJAVA-43134|Apple Numbers'09 でセルの文字列値が空です|バグ|
 |CELLSJAVA-43144|MS Excel とは異なる IsItalic プロパティの検出 (Java)|バグ|
 |CELLSJAVA-43140|calculateFormula() の呼び出し中に IllegalArgumentException が発生する|例外|
 |CELLSJAVA-43110|PDF への変換 - java.lang.NullPointerException|例外|

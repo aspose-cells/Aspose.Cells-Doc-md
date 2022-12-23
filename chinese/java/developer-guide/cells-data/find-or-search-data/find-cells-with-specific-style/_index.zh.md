@@ -37,12 +37,12 @@ keywords: find cells with specific style, find cells with specific style excel, 
 
 ### 截图
 
-![待办事项：图像_替代_文本](find-cells-with-specific-style_1.png)
+![待办事项：图片_替代_文本](find-cells-with-specific-style_1.png)
 
 **数字：**包含具有样式的单元格的源文件
 
 这是由以下代码生成的输出文件。可以看到所有和of cell样式相同的cell**A1**有一个文本“找到”
 
-![待办事项：图像_替代_文本](find-cells-with-specific-style_2.png)
+![待办事项：图片_替代_文本](find-cells-with-specific-style_2.png)
 
 **数字：**搜索后包含找到的单元格的输出文件**A1**风格

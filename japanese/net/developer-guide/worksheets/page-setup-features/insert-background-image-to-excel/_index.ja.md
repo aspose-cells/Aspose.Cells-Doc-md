@@ -30,5 +30,5 @@ Microsoft Excel でシートの背景画像を設定するには (例: Microsoft
 
 ## 関連記事
 
-- [ODS ファイルで背景を操作する](/cells/ja/net/working-with-background-in-ods-files/)
+- [ODS ファイルの背景の操作](/cells/ja/net/working-with-background-in-ods-files/)
 

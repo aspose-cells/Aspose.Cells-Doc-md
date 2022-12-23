@@ -10,10 +10,10 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41325|Il metodo Cell.getValidation restituisce null per ODS|Nuova caratteristica|
-|CELLSJAVA-43137|Light Cells API: elaborazione di fogli in un ordine specifico|Nuova caratteristica|
+|CELLSJAVA-43137|Light Cells API: elaborazione fogli in un ordine specifico|Nuova caratteristica|
 |CELLSJAVA-43135|Rimuovi ActiveXControl dalla forma dell'immagine|Nuova caratteristica|
 |CELLSJAVA-43141|Aggiungere la proprietà ThreadedComment.CreatedTime|Nuova caratteristica|
 |CELLSJAVA-43074|Da XLSX a PDF, differenza nell'output PDF quando si utilizza Oracle JDK rispetto a Open JDK|Aumento|
@@ -29,32 +29,32 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43070|calcolaFormula() non calcola il valore|Insetto|
 |CELLSJAVA-43086|Lo stile di formato percentuale viene applicato in modo non corretto nelle impostazioni internazionali norvegesi|Insetto|
 |CELLSJAVA-43082|Carattere più piccolo reso in ogni prima riga della tabella|Insetto|
-|CELLSJAVA-41360|Cells con le formule vengono visualizzate all'interno del PDF mentre non vengono visualizzate all'interno dell'ODS|Insetto|
-|CELLSJAVA-42786|Da ODS a XLSX: il grafico a linee perde le righe e le voci delle legende|Insetto|
-|CELLSJAVA-42788|Da ODS a XLSX: il cerchio diventa quadrato|Insetto|
+|CELLSJAVA-41360|Cells con formule sono visualizzate all'interno di PDF mentre non sono visualizzate all'interno di ODS|Insetto|
+|CELLSJAVA-42786|Da ODS a XLSX - il grafico a linee perde le righe e le legende|Insetto|
+|CELLSJAVA-42788|ODS a XLSX - il cerchio diventa quadrato|Insetto|
 |CELLSJAVA-43073|Informazioni DataMashup non accessibili nella cartella di lavoro|Insetto|
 |CELLSJAVA-43092|Impossibile elaborare il file Excel|Insetto|
-|CELLSJAVA-43077|Eccezione "Tipo di immagine imprevisto" sollevata durante il rendering del foglio di lavoro in HTML|Insetto|
+|CELLSJAVA-43077|Eccezione "Tipo di immagine imprevisto" sollevata durante il rendering del foglio di lavoro su HTML|Insetto|
 |CELLSJAVA-43096|Il programma si blocca durante la conversione del file Excel in HTML|Insetto|
 |CELLSJAVA-43107|Conversione in PDF - com.aspose.cells.CellsException: Shape to image Error!|Insetto|
 |CELLSJAVA-43108|Conversione in PDF - com.aspose.cells.CellsException|Insetto|
-|CELLSJAVA-43088|Il grafico a radar non viene visualizzato nel file di output nella conversione da XLSX a PDF|Insetto|
+|CELLSJAVA-43088|Il grafico radar non viene visualizzato nel file di output nella conversione da XLSX a PDF|Insetto|
 |CELLSJAVA-43099|L'immagine del foglio di lavoro non viene visualizzata correttamente|Insetto|
 |CELLSJAVA-43093|Il controllo ActiveX non viene rilevato nel formato di file XLS|Insetto|
 |CELLSJAVA-43104|Problemi con getShowTabs e setShowTabs|Insetto|
 |CELLSJAVA-43121|OOM sta cercando di ottenere il numero di pagine in XLS|Insetto|
 |CELLSJAVA-43125|Gli oggetti Form e ActiveX vengono duplicati|Insetto|
-|CELLSJAVA-42068|La GIF nel foglio di lavoro è errata quando la cartella di lavoro viene convertita in HTML|Insetto|
+|CELLSJAVA-42068|GIF nel foglio di lavoro è errato quando la cartella di lavoro viene convertita in HTML|Insetto|
 |CELLSJAVA-43127|La tabella pivot di Excel non viene aggiornata automaticamente quando il file viene aperto per la prima volta|Insetto|
 |CELLSJAVA-43129|Il testo cinese è confuso nella conversione da HTML a XLS|Insetto|
-|CELLSJAVA-43139|I grafici nel foglio non vengono aggiornati durante il rendering del foglio di lavoro nell'immagine|Insetto|
+|CELLSJAVA-43139|grafici nel foglio non vengono aggiornati durante il rendering del foglio di lavoro nell'immagine|Insetto|
 |CELLSJAVA-43148|Errore di posizione dell'etichetta del grafico|Insetto|
-|CELLSJAVA-43124|Durante la conversione in PDF, due colonne vengono tagliate dalla tabella|Insetto|
-|CELLSJAVA-43091|Le etichette dei dati sul grafico a ciambelle sono sovrapposte nel file PDF|Insetto|
+|CELLSJAVA-43124|Alla conversione in PDF due colonne vengono tagliate dalla tabella|Insetto|
+|CELLSJAVA-43091|Le etichette dei dati nel grafico Donuts sono sovrapposte nel file PDF|Insetto|
 |CELLSJAVA-43132|Etichette dati mancanti in alcuni grafici durante l'esportazione del grafico in un'immagine|Insetto|
 |CELLSJAVA-43143|Dopo WorkbookDesigner.process, l'output del grafico è nullo in HTML|Insetto|
-|CELLSJAVA-43098|La sostituzione dell'oggetto incorporato con un'immagine non funziona per il formato di file XLS|Insetto|
-|CELLSJAVA-43122|Problema con l'ordine dei commenti in thread dopo l'importazione nel formato file XLSX di Office365|Insetto|
+|CELLSJAVA-43098|La sostituzione dell'oggetto incorporato con un'immagine non funziona per il formato file XLS|Insetto|
+|CELLSJAVA-43122|Problema con l'ordine dei commenti in thread dopo l'importazione nel formato di file Office365 XLSX|Insetto|
 |CELLSJAVA-43134|Il valore stringa di una cella è vuoto in Apple Numbers'09|Insetto|
 |CELLSJAVA-43144|Proprietà IsItalic rilevata in modo diverso rispetto a MS Excel (Java)|Insetto|
 |CELLSJAVA-43094|Eccezione durante il caricamento di un formato di file XLSX|Eccezione|
@@ -70,8 +70,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43120|java.lang.NumberFormatException durante la conversione della cartella di lavoro in PDF|Eccezione|
 |CELLSJAVA-43140|IllegalArgumentException durante la chiamata acalcFormula()|Eccezione|
 |CELLSJAVA-43110|Conversione in PDF - java.lang.NullPointerException|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà ReplaceOptions.RegexKey.**
 Indica se la chiave cercata è regex. Se vero, la chiave cercata (da sostituire parte) verrà considerata come regex specificata dall'utente.
 ### **Elimina il metodo ValidationCollection.Add(Aspose.Cells.Validation) obsoleto.**
@@ -87,7 +87,7 @@ Tipo di firma elettronica avanzata XML (XAdES).
 ### **Aggiunge la proprietà DigitalSignature.XAdESTType**
 Ottiene e imposta il tipo di firma elettronica avanzata XML (XAdES). Il valore predefinito è Nessuno (XAdES è disattivato).
 ### **Aggiunge la proprietà FormulaParseOptions.Parse.**
- Indica se analizzare la formula durante l'impostazione di un'espressione di formula nella cella. L'impostazione predefinita è**VERO** . Se**falso**l'espressione della formula di input verrà mantenuta così com'è per la cella finché l'utente non chiama altri metodi per analizzarli o i dati della formula analizzati sono richiesti da altre operazioni come il calcolo delle formule.
+ Indica se analizzare la formula durante l'impostazione di un'espressione di formula nella cella. L'impostazione predefinita è**VERO** . Se**falso**, l'espressione della formula di input verrà mantenuta così com'è per la cella finché l'utente non chiama altri metodi per analizzarli o i dati della formula analizzati sono richiesti da altre operazioni come il calcolo delle formule.
 ### **Aggiunge il metodo Workbook.ParseFormulas(bool ignoreError).**
 Analizza tutte le formule che non sono state analizzate quando sono state caricate o impostate su una cella.
 ### **Aggiunge la proprietà PivotTable.ExternalConnectionDataSource.**

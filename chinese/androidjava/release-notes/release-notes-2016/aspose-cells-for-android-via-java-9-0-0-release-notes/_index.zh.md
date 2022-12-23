@@ -12,27 +12,27 @@ url: /zh/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 |CELLSJAVA-41947|能够检测 DataPoint 是在 Pie 还是 Bar 中|新功能|
 |CELLSJAVA-41936|源 Excel 文件的 Workbook.calculateFormula() 方法永远不会终止|强化|
 |CELLSJAVA-41827|Spreadsheet通过Workbook.calculateFormula()方法计算公式需要3分钟以上|强化|
-|CELLSJAVA-41928|使用 IStreamProvider 将电子表格呈现为 HTML 时无法捕获图像资源|漏洞|
-|CELLSJAVA-41841|将复选框呈现为 HTML 的问题|漏洞|
+|CELLSJAVA-41928|使用 IStreamProvider 将电子表格渲染到 HTML 时无法捕获图像资源|漏洞|
+|CELLSJAVA-41841|将复选框渲染到 HTML 时出现问题|漏洞|
 |CELLSJAVA-41932|日期格式值的 getDisplayStringValue() 问题|漏洞|
-|CELLSJAVA-41930|使用 Light Cells API 处理 XLS 文件，始终处理第一张工作表的第一个单元格|漏洞|
+|CELLSJAVA-41930|使用 Light Cells API 处理一个 XLS 文件，第一个工作表的第一个单元格总是被处理|漏洞|
 |CELLSJAVA-41931|将电子表格呈现为 PDF 时，垂直文本的字符间距和分隔符不正确|漏洞|
 |CELLSJAVA-41709|CentOS 上的列宽与 Windows 上的不同|漏洞|
 |CELLSJAVA-41933|将电子表格呈现为 PDF 时图表比例发生了变化|漏洞|
-|CELLSJAVA-41934|将 Excel 文件渲染为 PDF 时出现对齐问题|漏洞|
-|CELLSJAVA-41935|将电子表格呈现为 PDF 时，图例条目的格式受到干扰|漏洞|
+|CELLSJAVA-41934|将 Excel 文件渲染到 PDF 时出现对齐问题|漏洞|
+|CELLSJAVA-41935|在将电子表格呈现为 PDF 时，图例条目的格式受到干扰|漏洞|
 |CELLSJAVA-41943|横轴标签没有完全渲染，即；所有标签都缺少渲染图像中的某些内容。|漏洞|
 |CELLSJAVA-41940|公式计算和保存后文件损坏|漏洞|
 |CELLSJAVA-41952|计算结果不正确|漏洞|
 |CELLSJAVA-41941|数组公式计算不正确|漏洞|
-|CELLSJAVA-41937|输出 HTML 中缺少 Excel 文件中的某些值 - XLS 到 HTML 的转换|漏洞|
-|CELLSJAVA-41969|Cell 将 HTML 转换为 XLSX 时缺少底纹|漏洞|
-|CELLSJAVA-41955|HTML 工作簿在单元格中显示“#”|漏洞|
-|CELLSJAVA-41942|缺少边框、单元格阴影和图像 - HTML 到 Excel 呈现|漏洞|
-|CELLSJAVA-41967|Cells 在单张纸中定义多个打印区域时在 PDF 中丢失|漏洞|
+|CELLSJAVA-41937|输出 HTML - XLS 到 HTML 的转换中缺少 Excel 文件中的某些值|漏洞|
+|CELLSJAVA-41969|Cell 将 HTML 转换为 XLSX 时缺少阴影|漏洞|
+|CELLSJAVA-41955|HTML 的工作簿在单元格中显示“#”|漏洞|
+|CELLSJAVA-41942|缺少边框、单元格阴影和图像 - HTML 到 Excel 渲染|漏洞|
+|CELLSJAVA-41967|Cells 在一张纸中定义多个打印区域时在 PDF 中丢失|漏洞|
 |CELLSJAVA-41958|右侧图例在图表图像中被截断|漏洞|
 |CELLSJAVA-41953|转换为 HTML 格式后图表中的文本错位|漏洞|
-|CELLSJAVA-41948|将电子表格转换为 HTML 时图表发生变化|漏洞|
+|CELLSJAVA-41948|将电子表格转换为 HTML 时更改图表|漏洞|
 |CELLSJAVA-41981|图表 PDF 中垂直线的位置不正确|漏洞|
 |CELLSJAVA-41964|Autofit 不考虑缩进级别|漏洞|
 |CELLSJAVA-40260|更改 Excel 文件中现有艺术字的文本|漏洞|
@@ -51,7 +51,7 @@ url: /zh/java/aspose-cells-for-android-via-java-9-0-0-release-notes/
 ### **添加 CopyOptions.ReferToDestinationSheet 属性和 Cells.CopyRows(Cells sourceCells, int sourceRowIndex, int destinationRowIndex, int rowNumber, CopyOptions copyOptions) 方法**
 复制范围且图表引用源工作表时，False表示复制图表的数据源不会改变。 True 表示复制图表的数据源引用目标工作表。
 ### **添加 HtmlSaveOptions.FilePathProvider 属性**
-获取或设置 IFilePathProvider，用于将 Worksheet 单独导出为 HTML。
+分别获取或设置导出Worksheet到HTML的IFilePathProvider。
 ### **添加 IFilePathProvider 接口**
 表示导出的文件路径提供程序。
 ### **添加 FontConfigs 类**

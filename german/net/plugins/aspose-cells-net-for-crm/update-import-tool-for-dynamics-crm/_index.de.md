@@ -14,7 +14,7 @@ url: /de/net/update-import-tool-for-dynamics-crm/
 - [Installieren oder Deinstallieren](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
   - [Lizenz anwenden](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
 - [Verwenden](#UpdateImportToolforDynamicsCRM-Using)
-- [Die Unterstützung](#UpdateImportToolforDynamicsCRM-Support)
+- [Unterstützung](#UpdateImportToolforDynamicsCRM-Support)
 - [Erweitern und beitragen](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Einführung**
 Das Aspose Update Import Tool ist ein Open-Source-Add-On zur Verwendung in Microsoft Dynamic CRM. Dieses Add-On ist in der Lage, Daten aus CRM automatisch in Aspose.Cells-Tabellen zu aktualisieren und/oder zu exportieren. Wir müssen nichts manuell tun und dieses Add-On installieren und unsere Arbeit einfacher und schneller machen.
@@ -68,8 +68,8 @@ Fügen Sie den folgenden Code in das Formular ein, indem Sie den Pfad zur Lizenz
 
 {{< /highlight >}}
 ## **Verwenden**
- Einfaches Konfigurieren und Verwenden des Aspose .NET Update-Import-Tools für Dynamics CRM, indem Sie den Anweisungen folgen[hier](/cells/de/net/using-and-configuring-crm-update-import-tool/).
-## **Die Unterstützung**
+ Einfaches Konfigurieren und Verwenden des Aspose .NET Update-Import-Tools für Dynamics CRM, indem Sie den Anweisungen folgen[Hier](/cells/de/net/using-and-configuring-crm-update-import-tool/).
+## **Unterstützung**
 Wir bieten kostenlosen Support. Jeder, der unser Produkt verwendet, ob er es gekauft hat oder eine Bewertung verwendet, verdient unsere volle Aufmerksamkeit und unseren Respekt.
 
 Sie können alle Probleme oder Vorschläge im Zusammenhang mit Aspose .Net Update Import Tool über eine der folgenden Plattformen protokollieren:
@@ -77,4 +77,4 @@ Sie können alle Probleme oder Vorschläge im Zusammenhang mit Aspose .Net Updat
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/wiki/Aspose-.NET-Update-Import-Tool)
 ## **Erweitern und beitragen**
 Dieses Add-On ist Open Source. Das Szenario, das wir erstellt und das Problem gelöst haben, kann vom Endbenutzer abweichen. Sie können den neuesten Quellcode herunterladen und entsprechend Ihren geschäftlichen Anforderungen aktualisieren.
- Bitte finden Sie den neuesten Quellcode und das Codebeispiel[hier](/cells/de/net/extend-and-contribute-to-crm-update-import-tool/).
+ Bitte finden Sie den neuesten Quellcode und das Codebeispiel[Hier](/cells/de/net/extend-and-contribute-to-crm-update-import-tool/).

@@ -26,7 +26,7 @@ Skapa först ett enkelt kalkylblad i Microsoft Excel. Använd sedan sidinställn
 
 1. Skapa ett kalkylblad med lite data i Microsoft Excel:
  1. Öppna en ny arbetsbok i Microsoft Excel.
- 1. Lägg till några data.
+ 1. Lägg till lite data.
  Nedan finns en skärmdump av filen.
 
       **Indatafil**
@@ -45,12 +45,12 @@ Skapa först ett enkelt kalkylblad i Microsoft Excel. Använd sedan sidinställn
  1. Packa upp det på din utvecklingsdator.
  Allt[Aspose](http://www.aspose.com/) komponenter, när de är installerade, fungerar i utvärderingsläge. Utvärderingsläget har ingen tidsbegränsning och det injicerar bara vattenstämplar i producerade dokument.
 1. Skapa ett projekt.
- Skapa antingen ett projekt med en Java-redigerare, till exempel Eclipse, eller skapa ett enkelt program med en textredigerare.
+Skapa antingen ett projekt med en Java-redigerare, till exempel Eclipse, eller skapa ett enkelt program med en textredigerare.
 1. Lägg till en klasssökväg.
 1. Extrahera Aspose.Cells.jar och dom4j_1.6.1.jar från Aspose.Cells.zip.
  1. Ställ in klassvägen för projektet i Eclipse:
  1. Välj ditt projekt i Eclipse och klicka sedan**Projekt** följd av**Egenskaper**.
- 1. Välj**Java Byggväg**till vänster om dialogrutan.
+ 1. Välj**Java Byggväg** till vänster om dialogrutan.
  1. Välj fliken Bibliotek, klicka på**Lägg till JAR** eller**Lägg till externa JAR** för att välja Aspose.Cells.jar och dom4j_1.6.1.jar och lägga till dem i byggvägarna.
  Eller så kan du ställa in den vid körning vid en DOS-prompt i Windows:
 

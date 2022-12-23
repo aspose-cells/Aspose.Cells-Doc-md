@@ -1,18 +1,18 @@
 ﻿---
-title: CSV'yi JSON'a dönüştür
+title: CSV'i JSON'e dönüştür
 type: docs
 weight: 170
 url: /tr/java/convert-csv-to-json/
 ---
-## **CSV'yi JSON'a dönüştür**
+## **CSV'i JSON'e dönüştür**
 
-Aspose.Cells, CSV'nin JSON'a dönüştürülmesini destekler. Bunun için API şunları sağlar:[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)ve[**Json Yardımcı Programı**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)sınıflar. bu[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class, aralığı JSON'a dışa aktarma seçeneklerini sağlar. bu[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)sınıf aşağıdaki özelliklere sahiptir.
+Aspose.Cells, CSV'in JSON'e dönüştürülmesini destekler. Bunun için API şunları sağlar:[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)ve[**Json Yardımcı Programı**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)sınıflar. bu[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)class, aralığı JSON'e dışa aktarma seçeneklerini sağlar.[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)sınıf aşağıdaki özelliklere sahiptir.
 
-- [**ExportAsString**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString)Bu, hücrelerin dize değerini JSON'a aktarır.
+- [**ExportAsString**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#ExportAsString): Bu, hücrelerin dize değerini JSON olarak dışa aktarır.
 - [**HasHeaderRow**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#HasHeaderRow): Bu, aralığın bir başlık satırı içerip içermediğini gösterir.
 - [**Girinti**](https://reference.aspose.com/cells/java/com.aspose.cells/exportrangetojsonoptions#Indent): Girintiyi gösterir.
 
-bu[**Json Yardımcı Programı**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)class ile ayarlanan dışa aktarma seçeneklerini kullanarak JSON'u dışa aktarır.[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)sınıf.
+bu[**Json Yardımcı Programı**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)class ile ayarlanan dışa aktarma seçeneklerini kullanarak JSON'i dışa aktarır.[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)sınıf.
 
 Aşağıdaki kod örneği, kullanımını gösterir[**ExportRangeToJsonOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/ExportRangeToJsonOptions)ve[**Json Yardımcı Programı**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)yüklemek için sınıflar[kaynak CSV dosyası](SampleCsv.csv)ve yazdırır[JSON](SampleJson_out.csv) konsolda çıktı.
 

@@ -20,7 +20,7 @@ url: /zh/net/formatting-pivot-table/
 
 Microsoft Excel 提供了许多不同的预设报告格式。 Aspose.Cells 也支持这些格式化选项。要访问它们：
 
-1. 放[**数据透视表.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat)至**真的**.
+1. 放[**数据透视表.IsAutoFormat**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottable/properties/isautoformat)到**真的**.
 1. 从[**数据透视表自动格式类型**](https://reference.aspose.com/cells/net/aspose.cells.pivot/pivottableautoformattype)枚举。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-PivotTable-SettingAutoFormat-1.cs" >}}

@@ -36,7 +36,7 @@ Geschützte Arbeitsblätter verstecken oder schützen sensible Daten nicht und u
 
 |**Schutztypen**|**Beschreibung**|
 |:- |:- |
-|Alle|Der Benutzer kann nichts auf diesem Arbeitsblatt ändern|
+|Alles|Der Benutzer kann auf diesem Arbeitsblatt nichts ändern|
 |Inhalt|Der Benutzer kann keine Daten in dieses Arbeitsblatt eingeben|
 |Objekte|Der Benutzer kann Zeichnungsobjekte nicht ändern|
 |Szenarien|Der Benutzer kann gespeicherte Szenarien nicht ändern|
@@ -72,7 +72,7 @@ Die folgenden Punkte beschreiben, wie Sie mit MS Excel einige Zellen sperren. Di
  Wenn die**Cells** Befehl nicht verfügbar ist, können Teile des Arbeitsblatts bereits gesperrt sein. Auf der**Werkzeug** Menü, zeigen Sie auf**Schutz** , und klicken Sie dann auf**Blattschutz aufheben**.
 1.  Wählen Sie nur die Zellen aus, die Sie sperren möchten, und wiederholen Sie Schritt 2, aber wählen Sie diesmal die aus**Gesperrt** Kontrollkästchen.
 1.  Auf der**Werkzeug** Menü, zeigen Sie auf**Schutz** , klicken**Schutzblatt** und dann klicken**OK**.
-1.  In dem**Schutzblatt** Im Dialogfeld haben Sie die Möglichkeit, ein Kennwort anzugeben und die Elemente auszuwählen, die Benutzer ändern können sollen.
+1.  Im**Schutzblatt** Im Dialogfeld haben Sie die Möglichkeit, ein Kennwort anzugeben und die Elemente auszuwählen, die Benutzer ändern können sollen.
 
 ### **Schützen Sie einige Cells im Arbeitsblatt mit Aspose Cells**
 

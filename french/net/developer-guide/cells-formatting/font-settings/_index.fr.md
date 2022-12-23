@@ -12,13 +12,13 @@ L'apparence d'un texte peut être contrôlée en modifiant les paramètres de po
 
 ## **Configuration des paramètres de police**
 
- Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. La[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Des feuilles de calcul**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classer. La[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classer.
+ Aspose.Cells fournit une classe,[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) qui représente un fichier Excel Microsoft. Le[**Cahier**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe contient un[**Feuilles de travail**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) collection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Le[**Feuille de travail**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe offre une[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) le recueil. Chaque élément de la[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) collection représente un objet de la[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell)classe.
 
- Aspose.Cells fournit le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classer'[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) méthodes utilisées pour obtenir et définir le style de formatage d'une cellule. La[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)La classe fournit des propriétés pour configurer les paramètres de police.
+ Aspose.Cells fournit le[**Cell**](https://reference.aspose.com/cells/net/aspose.cells/cell) classe'[**ObtenirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getstyle) et[**DéfinirStyle**](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/setstyle) méthodes utilisées pour obtenir et définir le style de formatage d'une cellule. Le[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style)La classe fournit des propriétés pour configurer les paramètres de police.
 
 ### **Définition du nom de la police**
 
- Les développeurs peuvent appliquer n'importe quelle police au texte à l'intérieur d'une cellule en utilisant le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objets[Nom](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)propriété.
+ Les développeurs peuvent appliquer n'importe quelle police au texte à l'intérieur d'une cellule en utilisant le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objets[Nom](https://reference.aspose.com/cells/net/aspose.cells/font/properties/name)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontName-1.cs" >}}
 
@@ -30,13 +30,13 @@ L'apparence d'un texte peut être contrôlée en modifiant les paramètres de po
 
 ### **Définition de la taille de la police**
 
-Définissez la taille de la police avec le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)objets[**Taille**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)propriété.
+Définissez la taille de la police avec le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)objets[**Taille**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/size)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontSize-SetFontSize.cs" >}}
 
 ### **Définition de la couleur de la police**
 
-Utilisez le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objets[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)propriété pour définir la couleur de la police. Sélectionnez n'importe quelle couleur dans l'énumération des couleurs (qui fait partie du cadre .NET) et attribuez-la au[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)propriété.
+Utilisez le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font) objets[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)propriété pour définir la couleur de la police. Sélectionnez n'importe quelle couleur dans l'énumération des couleurs (qui fait partie du cadre .NET) et attribuez-la au[**Couleur**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/color)la propriété.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-DealingWithFontSettings-SettingFontColor-SetFontColor.cs" >}}
 
@@ -44,7 +44,7 @@ Utilisez le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/
 
 Utilisez le[**Style.Font**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)objets[**Souligner**](https://reference.aspose.com/cells/net/aspose.cells/font/properties/underline)propriété pour souligner le texte. Aspose.Cells offre divers types de soulignement de police prédéfinis dans le[**FontUnderlineType**](https://reference.aspose.com/cells/net/aspose.cells/fontunderlinetype) énumération.
 
-|**Types de soulignement de police**|**La description**|
+|**Types de soulignement de police**|**Description**|
 |:- |:- |
 |Comptabilité|Un soulignement comptable unique|
 |Double|Double soulignement|

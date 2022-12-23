@@ -10,12 +10,12 @@ Die Konfiguration umfasst zwei Abschnitte und 8 Arten von Seiteneinrichtungseige
 - **Index** stellt den Arbeitsblattindex der exportierten Excel-Datei dar.
 - **FitToPagesTall** stellt die Anzahl der Seiten dar, auf die das Arbeitsblatt beim Drucken skaliert wird.
 - **FitToPagesWide** stellt die Anzahl der Seiten dar, auf die das Arbeitsblatt beim Drucken skaliert wird.
-- **Fußzeilenrand**stellt den Abstand vom unteren Rand der Seite zur Fußzeile in der Einheit Zentimeter dar.
+- **Fußzeilenrand** stellt den Abstand vom unteren Rand der Seite zur Fußzeile in der Einheit Zentimeter dar.
 - **Kopfzeilenrand** stellt den Abstand vom oberen Rand der Seite zur Kopfzeile in der Einheit Zentimeter dar.
 - **Linker Rand** stellt die Größe des linken Randes in Zentimetern dar.
 - **Rechter Rand** stellt die Größe des rechten Randes in Zentimetern dar.
 - **Oberer Rand** stellt die Größe des oberen Rands in der Einheit Zentimeter dar.
-- **Unterer Rand** stellt die Größe des unteren Randes in Zentimetern dar.
+- **Unterer Rand**stellt die Größe des unteren Randes in Zentimetern dar.
 
 PageSetup-Konfigurationsbeispiel:
 

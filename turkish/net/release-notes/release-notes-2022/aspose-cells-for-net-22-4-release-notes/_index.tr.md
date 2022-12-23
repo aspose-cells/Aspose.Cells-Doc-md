@@ -20,36 +20,36 @@ url: /tr/net/aspose-cells-for-net-22-4-release-notes/
 |CELLSNET-50751|Aralığı kopyalarken PasteType.ValuesAndFormats'ı destekleyin.|
 |CELLSNET-50620|Xls'yi pdf'ye dönüştürürken, metin kutusundaki metin boş satır boyutu doğru şekilde oluşturulmuyor|
 |CELLSNET-50684|ODS dosyasından OLE eklerini çıkarmayla ilgili sorun|
-|CELLSNET-50712|WordArt efektleri ve şekilleri, Excel'den PDF'e dönüştürmede düzgün şekilde işlenmez|
-|CELLSNET-50714|XLSB dosyası, Aspose.Cells API'leri tarafından açılırken ve kaydedilirken bozuk|
-|CELLSNET-50778|Çıkış PDF'sindeki pivot tablo için dikey çizgiler eksik|
+|CELLSNET-50712|WordArt efektleri ve şekilleri, Excel'de PDF'e dönüştürme işleminde düzgün şekilde işlenmez|
+|CELLSNET-50714|XLSB dosyası, Aspose.Cells API'leri tarafından açılıp kaydedilirken bozuk|
+|CELLSNET-50778|PDF çıktısındaki pivot tablo için dikey çizgiler eksik|
 |CELLSNET-50517|Satırları ekledikten/sildikten sonra koşullu biçimlendirme formülünde yanlış başvuru|
 |CELLSNET-50622|Özel stile sahip boş satır/sütun başlığı csv'ye aktarılmaz|
 |CELLSNET-50645|Workbook.CalculateFormula yöntemiyle hatalı sonuçlar|
 |CELLSNET-50695|Name.RefersTo/R1C1RefersTo, tek hücre adresine başvururken değişti|
 |CELLSNET-50553| GridDesktop'ta sütun stili tam sütuna uygulanmaz|
 |CELLSNET-50641|Parola korumalı bir dosyanın boş parola ("") ile Aspose.Cells.GridDesktop içine açılmasıyla ilgili sorun|
-|CELLSNET-50672| FailLoadFile olayı ekle|
+|CELLSNET-50672|FailLoadFile olayı ekle|
 |CELLSNET-50815| çift tıklama düzenleme hücre değeri davranışı doğru değil|
-|CELLSNET-50594|XLSX'i HTML'ye dönüştürürken metin giriş alanlarının arkasına gizlenir|
+|CELLSNET-50594|XLSX'i HTML'e dönüştürürken metin giriş alanlarının arkasına gizlenir|
 |CELLSNET-50665|PDF'ye dönüştürürken CreatedTime ayarlandıktan sonra PDF/A-1b doğrulaması başarısız oldu|
-|CELLSNET-50701|Eklenen görüntünün parlaklığı ve kontrastı, Excel'de PDF'ye dönüştürmede sıfırlanır|
-|CELLSNET-50834|Tablonun Excel'den HTML'ye dönüştürmedeki birleştirilmiş hücreleriyle ilgili sorun|
-|CELLSNET-50595|XLSX'ten SVG'ye: Tablodaki farklılıklar|
-|CELLSNET-50596|Çıktı XLSX dosyasında eksen birimleri değiştirilmez|
-|CELLSNET-50740|XLSX'ten JPG'ye: grafiklerde metin sağ tarafa kaydırıldı|
-|CELLSNET-50309|Aralıktan PNG'ye: çıktı beklendiği gibi değil|
+|CELLSNET-50701|Eklenen görüntünün parlaklığı ve kontrastı Excel'de PDF dönüşümüne sıfırlanır|
+|CELLSNET-50834|Excel'de tablonun birleştirilmiş hücreleri ile HTML dönüşümü sorunu|
+|CELLSNET-50595|XLSX - SVG: Tablodaki farklılıklar|
+|CELLSNET-50596|Eksen birimleri XLSX çıktı dosyasında değiştirilmiyor|
+|CELLSNET-50740|XLSX'den JPG'ye: grafiklerde metin sağ tarafa kaydırıldı|
+|CELLSNET-50309|PNG aralığı: çıktı beklendiği gibi değil|
 |CELLSNET-50610|RecalculateBeforeSave daha yeni sürümde her zaman yanlıştır|
-|CELLSNET-50611|Excel'den PDF'e dönüştürmede Boole değeriyle ilgili sorun|
+|CELLSNET-50611|Excel'de PDF oluşturmaya yönelik Boole değeriyle ilgili sorun|
 |CELLSNET-50706| İkinci seferde SaveToStream() ile kaydedildiğinde dosya boyutu birçok kez azaltıldı|
-|CELLSNET-50749|Yalnızca yorumların bulunduğu sütunları silmek için DeleteBlankColumns(options) yöntemi|
+|CELLSNET-50749| Yalnızca yorumların bulunduğu sütunları silmek için DeleteBlankColumns(options) yöntemi|
 |CELLSNET-50759|Çalışma kitabının kaydedilmemiş bir çalışma kitabına harici bağlantıları olduğunda formüller doğru kaydedilmiyor|
 |CELLSNET-50776|İç içe geçmiş nesneler için veri kaynağı olarak System.Dynamic.ExpandoObject türünde genel bir liste kullanıldığında akıllı işaretçiler işlenmez|
 |CELLSNET-50779| XLS -> XLSX -> XLS dönüştürülürken gömülü nesnelerle ilgili olası veri kaybı|
 |CELLSNET-50821|Range.AutoFill ile ilgili sorun - aralık alanı kesişirse veriler otomatik olarak doldurulmaz|
 |CELLSNET-50777|PutValue yöntemi, System.StackOverflowException'ı Avustralya bölgesel biçiminde atar|
-|CELLSNET-50275|ODS'yi HTML'ye dönüştürürken "Nesne başvurusu bir nesnenin örneğine ayarlanmadı" istisnası|
-|CELLSNET-50713|Bir XLSB dosyası yüklenirken System.NullReferenceException|
+|CELLSNET-50275|ODS'den HTML'e işlenirken "Nesne başvurusu bir nesnenin örneğine ayarlanmadı" istisnası|
+|CELLSNET-50713|XLSB dosyası yüklenirken System.NullReferenceException|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

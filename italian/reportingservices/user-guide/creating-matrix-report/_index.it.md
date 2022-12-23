@@ -16,10 +16,10 @@ In un modello di report Aspose.Cells, una matrice è composta da angoli, gruppi 
 
 ![cose da fare:immagine_alt_testo](creating-matrix-report_1.png)
 
-- **Angolo della matrice**situato nell'angolo in alto a sinistra o nell'angolo in alto a destra per i layout da destra a sinistra (RTL). Quest'area viene creata automaticamente quando si aggiungono gruppi di righe e gruppi di colonne a un'area dati matrice. In quest'area è possibile unire celle elemento del report casella di testo incorporata.
-- **Area dei gruppi di colonne della matrice**: situato nell'angolo in alto a destra (angolo in alto a sinistra per il layout RTL). Quest'area viene creata automaticamente quando si aggiunge un gruppo di colonne. Le celle in quest'area rappresentano i membri della gerarchia dei gruppi di colonne e visualizzano i valori di istanza del gruppo di colonne. Nella figura, le celle che visualizzano OrderYear sono un gruppo di colonne nidificato e la cella che visualizza OrderQtr è un gruppo di colonne adiacente.
+- **Angolo della matrice**: situato nell'angolo in alto a sinistra o nell'angolo in alto a destra per i layout da destra a sinistra (RTL). Quest'area viene creata automaticamente quando si aggiungono gruppi di righe e gruppi di colonne a un'area dati matrice. In quest'area è possibile unire celle elemento del report casella di testo incorporata.
+- **Area dei gruppi di colonne della matrice**situato nell'angolo in alto a destra (angolo in alto a sinistra per il layout RTL). Quest'area viene creata automaticamente quando si aggiunge un gruppo di colonne. Le celle in quest'area rappresentano i membri della gerarchia dei gruppi di colonne e visualizzano i valori di istanza del gruppo di colonne. Nella figura, le celle che visualizzano OrderYear sono un gruppo di colonne nidificato e la cella che visualizza OrderQtr è un gruppo di colonne adiacente.
 - **Area dei gruppi di righe della matrice**: situato nell'angolo in basso a sinistra (in basso a destra per il layout RTL). Quest'area viene creata automaticamente quando si aggiunge un gruppo di righe. Le celle in quest'area rappresentano i membri della gerarchia dei gruppi di righe e visualizzano i valori di istanza del gruppo di righe. Nella figura, queste celle sono gruppi di righe annidati.
-- **Area dei dati della matrice**: situato nell'angolo in basso a destra (in basso a sinistra per il layout RTL). I dati della matrice visualizzano i dettagli ei dati raggruppati. In questo esempio vengono utilizzati solo dati aggregati. Per impostazione predefinita, le celle in una riga o colonna di gruppo che contengono espressioni semplici che non includono una funzione di aggregazione restituiscono il primo valore nel gruppo. Nella figura, le celle visualizzano i totali aggregati per i totali di riga per tutti gli ordini cliente.
+- **Area dei dati della matrice**situato nell'angolo in basso a destra (in basso a sinistra per il layout RTL). I dati della matrice visualizzano i dettagli ei dati raggruppati. In questo esempio vengono utilizzati solo dati aggregati. Per impostazione predefinita, le celle in una riga o colonna di gruppo che contengono espressioni semplici che non includono una funzione di aggregazione restituiscono il primo valore nel gruppo. Nella figura, le celle visualizzano i totali aggregati per i totali di riga per tutti gli ordini cliente.
 #### **Creazione di un modello di matrice**
  Prima di creare un report matrice, creare le origini dati, i set di dati e i parametri del report (facoltativo). (Seguire le istruzioni in[Origini dati e query](/cells/it/reportingservices/data-sources-and-queries/) se hai bisogno di assistenza.) Nell'esempio viene utilizzato il database di esempio AdventureWorks fornito con SQL Server Reporting Services 2008.
 
@@ -28,7 +28,7 @@ Per creare una nuova matrice:
 1. Apri Microsoft Excel.
 1.  Clic**Apri rapporto** per aprire un file RDL Report che contiene le origini dati, i set di dati e i parametri del report creati in precedenza.
 Una volta che il file è stato aperto correttamente, tutte le sue informazioni sono disponibili per l'uso, ad esempio, i suoi set di dati sono elencati nel file**Set di dati** elenco.
-1.  Apri un foglio di lavoro di Microsoft Excel e seleziona un set di dati.
+1.  Aprire un foglio di lavoro Excel Microsoft e selezionare un set di dati.
 
 ![cose da fare:immagine_alt_testo](creating-matrix-report_2.png)
 

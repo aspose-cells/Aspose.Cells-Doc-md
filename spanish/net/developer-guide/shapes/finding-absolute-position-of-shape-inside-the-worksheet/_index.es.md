@@ -6,7 +6,7 @@ url: /es/net/finding-absolute-position-of-shape-inside-the-worksheet/
 ---
 {{% alert color="primary" %}}
 
- A veces, necesita saber la posición absoluta de una forma en una hoja de cálculo. Aspose.Cells proporciona el[**Forma.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) y[**Forma.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) propiedades para este fin. Estas propiedades devuelven la posición absoluta de la forma dentro de la hoja de cálculo en píxeles.
+ A veces, necesita saber la posición absoluta de una forma en una hoja de trabajo. Aspose.Cells proporciona el[**Forma.LeftToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/lefttocorner) y[**Forma.TopToCorner**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/toptocorner) propiedades para este fin. Estas propiedades devuelven la posición absoluta de la forma dentro de la hoja de cálculo en píxeles.
 
 {{% /alert %}}
 

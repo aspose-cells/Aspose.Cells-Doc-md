@@ -16,16 +16,16 @@ xlsx4j es una biblioteca de código abierto (ASLv2) Java para crear y manipular 
 Es similar al SDK OpenXML de Microsoft, pero for Java. docx4j usa JAXB para crear la representación de objetos en memoria.
 Deberá tomarse el tiempo para comprender JAXB y la estructura de archivos Open XML.
 
- Lee mas en[docx4java.org](https://www.docx4java.org/trac/docx4j)
+ Lea mas en[docx4java.org](https://www.docx4java.org/trac/docx4j)
 ## **Aspose.Cells for Java**
-Aspose.Cells for Java es un componente de hoja de cálculo de Excel galardonado que permite a los desarrolladores de Java integrar la capacidad de leer, escribir y manipular hojas de cálculo de Excel® (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF y formatos de archivo de imagen en sus propias Java aplicaciones sin necesidad de depender de Microsoft Excel®.
 
 Aspose.Cells for Java es un componente maduro, escalable y rico en características que ofrece muchas funciones que van mucho más allá de las capacidades simples de exportación de datos de otros proveedores. Con Aspose.Cells for Java, los desarrolladores pueden exportar datos, formatear hojas de cálculo al nivel más granular, importar imágenes, crear gráficos, aplicar y calcular fórmulas complejas, transmitir datos de Excel®, guardar en varios formatos y mucho más, todo esto sin necesidad de Microsoft Excel® o Microsoft Ofimática.
 
- Lee mas en[aspose.com](https://products.aspose.com/cells/java/)
+ Lea mas en[aspose.com](https://products.aspose.com/cells/java/)
 
 ## **¿Por qué no xlsx4j?**
-xlsx4j solo puede analizar y guardar archivos Microsoft Open XML Excel xlsx, Aspose.Cells for Java puede procesar todos los formatos de archivo de Excel (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) y admite varias conversiones de formato de archivo.
+xlsx4j only can parsing and saving Microsoft Open XML Excel xlsx files,Aspose.Cells for Java can process all Excel file formats(XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS) and supports various file format conversions.
 
 ## **Aspose.Cells Java para xlsx4j**
 El proyecto Aspose.Cells para xlsx4j muestra cómo se pueden realizar diferentes tareas utilizando las API Aspose.Cells Java en comparación con xlsx4j. El proyecto también cubre las funciones que solo están disponibles en las API Aspose.Cells pero no en xlsx4j para manejar hojas de cálculo.
@@ -90,7 +90,7 @@ Las siguientes versiones de ejemplos en ejecución están disponibles para desca
 
 **Nota:**Utilice la última versión disponible del Aspose API.
 ## **Apoyar, Extender y Contribuir**
-### **Apoyo**
+### **Soporte**
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
 Es por eso que ofrecemos soporte gratuito. Cualquiera que use nuestro producto, ya sea que lo haya comprado o esté usando una evaluación, merece toda nuestra atención y respeto.
@@ -124,7 +124,7 @@ Esta sección incluye los siguientes temas
     - [Ordenar datos en xlsx4j](/cells/es/java/sort-data-in-xlsx4j/)
     - [Seguimiento de precedentes y dependientes en xlsx4j](/cells/es/java/tracing-precedents-and-dependents-in-xlsx4j/)
   - [Varios ejemplos de xlsx4j](/cells/es/java/miscellaneous-examples-for-xlsx4j/)
-    - [Convertir hoja de cálculo a PDF en xlsx4j](/cells/es/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
+    - [Convierta la hoja de cálculo a PDF en xlsx4j](/cells/es/java/convert-spreadsheet-to-pdf-in-xlsx4j/)
     - [Crear tabla dinámica en xlsx4j](/cells/es/java/create-pivot-table-in-xlsx4j/)
     - [Imprimir libros de trabajo en xlsx4j](/cells/es/java/printing-workbooks-in-xlsx4j/)
     - [Establecer títulos de impresión en xlsx4j](/cells/es/java/set-print-titles-in-xlsx4j/)
@@ -133,9 +133,9 @@ Esta sección incluye los siguientes temas
     - [Crear gráficos en xlsx4j](/cells/es/java/create-charts-in-xlsx4j/)
     - [Crear gráficos dinámicos en xlsx4j](/cells/es/java/create-pivot-charts-in-xlsx4j/)
   - [Trabajar con hojas de trabajo en xlsx4j](/cells/es/java/working-with-worksheets-in-xlsx4j/)
-    - [Convertir libro de trabajo a HTML en xlsx4j](/cells/es/java/convert-workbook-to-html-in-xlsx4j/)
+    - [Convierta el libro de trabajo a HTML en xlsx4j](/cells/es/java/convert-workbook-to-html-in-xlsx4j/)
     - [Detectar combinado Cells en xlsx4j](/cells/es/java/detect-merged-cells-in-xlsx4j/)
     - [Mostrar y ocultar barras de desplazamiento de libros de trabajo en xlsx4j](/cells/es/java/display-and-hide-scrollbars-of-workbooks-in-xlsx4j/)
     - [Mostrar y ocultar pestañas del libro de trabajo en xlsx4j](/cells/es/java/display-and-hide-tabs-of-workbook-in-xlsx4j/)
-    - [Guarde cada hoja de trabajo en un PDF diferente en xlsx4j](/cells/es/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
+    - [Guarde cada hoja de trabajo en diferentes PDF en xlsx4j](/cells/es/java/save-each-worksheet-to-different-pdf-in-xlsx4j/)
     - [Establecer el color de la pestaña de la hoja de trabajo en xlsx4j](/cells/es/java/set-worksheet-tab-color-in-xlsx4j/)

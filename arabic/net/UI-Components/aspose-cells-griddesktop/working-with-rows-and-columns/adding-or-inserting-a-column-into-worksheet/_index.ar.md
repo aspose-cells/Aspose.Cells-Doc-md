@@ -14,7 +14,7 @@ url: /ar/net/adding-or-inserting-a-column-into-worksheet/
 
 -  أضف Aspose.Cells.GridDesktop control إلى ملف**استمارة**
 -  الوصول إلى أي ملفات**ورقة عمل**
--  يضيف**عمودي** الى**ورقة عمل**
+-  يضيف**عمود** الى**ورقة عمل**
 
 
 
@@ -24,7 +24,7 @@ url: /ar/net/adding-or-inserting-a-column-into-worksheet/
 
 -  أضف Aspose.Cells.GridDesktop control إلى ملف**استمارة**
 -  الوصول إلى أي ملفات**ورقة عمل**
--  إدراج**عمودي** داخل**ورقة عمل** (في موضع معين عن طريق تحديد فهرس العمود حيث يتم إدراجه)
+-  إدراج**عمود** داخل**ورقة عمل** (في موضع معين عن طريق تحديد فهرس العمود حيث يتم إدراجه)
 
 {{< highlight "java" >}}
 

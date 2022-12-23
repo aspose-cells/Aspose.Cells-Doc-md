@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /tr/net/umbraco-export-members-to-excel/
 ---
-## **giriiş**
+## **Giriş**
 
  Üyeleri Excel'e Aktar, üyeleri Umbraco CMS'nizden bir Excel'e ve OpenDocument Elektronik Tablosuna aktarmanıza izin veren bir Umbraco Eklentisidir.[Aspose.Cells](https://products.aspose.com/cells/net/) . adlı yeni bir düğüm**Üyeleri Excel'e Aktar**kurulumdan sonra Umbraco arka ucundaki Üyeler ağacının altında belirir ve burada dışa aktarılacak üyeleri kolayca seçebilir ve üyeleri seçilen çıktı belgesi biçiminde almak için çıktı biçimini alabilirsiniz.
 
@@ -14,7 +14,7 @@ Eklentinin bu ilk sürümü aşağıdaki özelliklere sahiptir:
 
 - Üyeleri Microsoft Excel Belgelerine (.xls, .xlsx ve .xlsb) dışa aktarın
 - Üyeleri Sekmeyle ayrılmış metin belgesine (.txt) dışa aktar
-- Üyeleri CSV'ye (Virgülle ayrılmış) (*.csv) dışa aktar
+- Üyeleri CSV (Virgülle ayrılmış) (*.csv) olarak dışa aktar
 - Üyeleri OpenDocument Elektronik Tablosuna (*.ods) aktarın
 - Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği
 - Tüm veya seçili üyeleri seçili çıktı belgesi biçimine aktarma seçeneği.
@@ -50,10 +50,10 @@ Modül, tüm sürümlerinde desteklenir
 İndirdikten sonra, bu paketi Umbraco web sitenize yüklemek için lütfen şu adımları izleyin:
 
 1.  Umbraco'da oturum açın**Geliştirici** bölüm, örneğin `http://www.myblog.com/umbraco/`
-1.  ağaçtan genişletin**Paketler** dosya.
+1.  ağaçtan genişletin**Paketler** Klasör.
 1.  Buradan bir paketi kurmanın iki yolu vardır: seçin**Yerel paketi kurun** veya göz atın**Umbraco Paket Deposu.**
 1. eğer kurarsan**yerel paket**, paketi açmayın ama zip'i Umbraco'ya yükleyin.
-1. Ekrandaki talimatlari takip edin.
+1. Ekrandaki yönergeleri takip edin.
 
 **Not:** Yükleme sırasında 'Maksimum istek uzunluğu aşıldı' hatası alabilirsiniz. Umbraco web.config dosyanızdaki 'maxRequestLength' değerini güncelleyerek bu sorunu kolayca çözebilirsiniz.
 
@@ -79,7 +79,7 @@ Makroyu yükledikten sonra web sitenizde kullanmaya başlamak gerçekten çok ba
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 
-### **Destek**
+### **Destek olmak**
 
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 

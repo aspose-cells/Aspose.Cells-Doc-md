@@ -28,17 +28,17 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 ## **البق**
 
 
- (CELLSJAVA-41554) - صورة مفقودة عند التحويل من تنسيق HTML إلى تنسيق EXCEL
+ (CELLSJAVA-41554) - صورة مفقودة عند التحويل من HTML إلى تنسيق EXCEL
 
- (CELLSJAVA-41549) - XLSB تالف في Excel 2010 بعد الحفظ بواسطة Aspose.Cells v8.6.1
+(CELLSJAVA-41549) - XLSB تالف في Excel 2010 بعد الحفظ بواسطة Aspose.Cells v8.6.1
 
- (CELLSJAVA-41530) - فقد إعداد تخطيط PivotTable الكلاسيكي عند إعادة حفظ ملف XLSB للقالب
+ (CELLSJAVA-41530) - فقد إعداد تخطيط PivotTable الكلاسيكي عند إعادة حفظ ملف القالب XLSB
 
  (CELLSJAVA-41558) - متوسط التنسيقات الشرطية الحصول على صيغ مضافة
 
  (CELLSJAVA-41546) - Workbook.calculateFormula تتعطل طرق الصيغة لفترة غير محددة
 
-(CELLSJAVA-41544) - مشكلة تنسيق التاريخ الياباني عند التحويل من "XML Spreadsheet 2003" إلى XLSX
+ (CELLSJAVA-41544) - مشكلة تنسيق التاريخ الياباني عند التحويل من "XML Spreadsheet 2003" إلى XLSX
 
  (CELLSJAVA-41543) - إصدار مع وظيفة CODE () للأحرف الروسية
 
@@ -46,23 +46,23 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41538) - تؤدي إعادة حفظ جدول البيانات إلى إزالة بعض الخصائص من الورقة 1.xml لعلامة controlPr
 
- (CELLSJAVA-41567) - مشكلة بخط webdings في عروض Excel إلى PDF
+ (CELLSJAVA-41567) - مشكلة مع خط webdings في Excel إلى عروض PDF
 
- (CELLSJAVA-41559) - يؤدي الحفظ في PDF إلى إنشاء ألوان تدرج ألوان غير صحيحة
+ (CELLSJAVA-41559) - يؤدي الحفظ إلى PDF إلى إنشاء ألوان تدرج ألوان غير صحيحة
 
- (CELLSJAVA-41556) - تؤدي طباعة ملف PDF Aspose.Cells الذي تم إنشاؤه إلى تغيير الرمز الشريطي المضمن إلى حد ما
+ (CELLSJAVA-41556) - تؤدي طباعة Aspose.Cells المُنشأ PDF إلى تغيير الرمز الشريطي المضمن إلى حد ما
 
- (CELLSJAVA-41552) - يبدو أن عرض وارتفاع قيمة النص المستدير غير صحيحين
+(CELLSJAVA-41552) - يبدو أن عرض وارتفاع قيمة النص المستدير غير صحيحين
 
- (CELLSJAVA-41578) - لا يتم إنشاء الرسم البياني إلى PDF بعد تنفيذ طريقة chart.toPdf (اسم الملف)
+ (CELLSJAVA-41578) - لم يتم إنشاء الرسم البياني إلى PDF بعد تنفيذ طريقة chart.toPdf (اسم الملف)
 
  (CELLSJAVA-41574) - مشكلة التباعد بين المحور Y والأساطير
 
  (CELLSJAVA-41557) - تم تغيير الفرق بين علامات تحديد تسمية المحور من 10 إلى 20 أثناء عرض المخطط إلى PDF
 
-(CELLSJAVA-41553) - تُظهر ألوان الرسم البياني تحولًا كبيرًا في إخراج PDF
+ (CELLSJAVA-41553) - تظهر ألوان الرسم البياني تحولًا كبيرًا في إخراج PDF
 
- (CELLSJAVA-41539) - لا يتطابق نطاق المحور الرأسي مع المخطط المصدر أثناء تقديم جدول البيانات إلى PDF
+ (CELLSJAVA-41539) - لا يتطابق نطاق المحور الرأسي مع مخطط المصدر أثناء تقديم جدول البيانات إلى PDF
 
  (CELLSJAVA-41536) - مشكلة تتعلق بأشكال خط السلسلة في المخطط وفقًا لـ MS Excel 2010/2013
 
@@ -70,9 +70,9 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41520) - يتم قطع صورة المخطط من الجانبين العلوي والأيمن
 
- (CELLSJAVA-41509) - مشاكل حدود المخطط أثناء عرض المخطط على PDF
+ (CELLSJAVA-41509) - مشاكل حدود المخطط أثناء تقديم المخطط إلى PDF
 
- (CELLSJAVA-41505) - يتم قطع الحدود اليمنى والسفلى أثناء عرض المخطط على PDF
+(CELLSJAVA-41505) - يتم قطع الحدود اليمنى والسفلى أثناء عرض المخطط إلى PDF
 
  (CELLSJAVA-41560) - كيفية الحصول على اللون الافتراضي لورقة العمل
 
@@ -86,11 +86,11 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41550) - java.lang.NullPointerException في Workbook.combine
 
-(CELLSJAVA-41564) - استدعاء NullPointerExceptions com.aspose.cells.Row
+ (CELLSJAVA-41564) - استدعاء NullPointerExceptions com.aspose.cells.Row
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -132,7 +132,7 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 
 
 
- يضيف حدث AjaxCallFinished في GridWeb
+يضيف حدث AjaxCallFinished في GridWeb
 
  حرائق عند انتهاء تحديث ajax لعنصر التحكم. (يجب ضبط EnableAJAX على true).
 
@@ -148,4 +148,4 @@ url: /ar/java/aspose-cells-for-java-8-6-2-release-notes/
 
  ملحوظة
 
-نظرًا لأن قاعدة الكود Aspose.Cells for Java تطابق رمز إصدار .NET ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.6.2 مدرجة أيضًا في Aspose.Cells for Java v8.6.2.
+ نظرًا لأن قاعدة الكود Aspose.Cells for Java تطابق رمز إصدار .NET ذي الصلة ، فإن معظم التغييرات والتحسينات والإصلاحات المضمنة في Aspose.Cells for .NET v8.6.2 مدرجة أيضًا في Aspose.Cells for Java v8.6.2.

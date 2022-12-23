@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /sv/java/
 is_root: true
-description: Aspose.Cells for Java är ett klassbibliotek som stöder att skapa, uppdatera och spara Excel-filer. Och Aspose.Cells for Java stöder även konvertering av filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, Plain Text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+description: Aspose.Cells for Java är ett klassbibliotek som stöder att skapa, uppdatera och spara Excel-filer. Och Aspose.Cells for Java stöder även konvertering av filer till PDF, DOCX, PPTX, JSON,XPS, HTML, 304153481, PPTX, JSON.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: Aspose.Cells for Java är ett klassbibliotek som stöder att skapa,
 
  kombination med API:er och GUI-kontroller snabbar Aspose.Cells for Java upp Microsoft Excel®-programmering och konvertering.
 
-Aspose.Cells for Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, JSON, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP och SVG.
+Aspose.Cells for Java stöder de populära kalkylarksfilformaten (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) som ditt företag använder varje dag. Det tillåter också export av Excel-filer till PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML, vanlig text och populära bildformat inklusive TIFF, JPG, PNG, BMP and SVG.
 
 
 {{% /alert %}}

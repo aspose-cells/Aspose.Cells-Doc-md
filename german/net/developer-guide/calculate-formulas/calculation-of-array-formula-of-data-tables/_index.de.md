@@ -10,12 +10,12 @@ url: /de/net/calculation-of-array-formula-of-data-tables/
 
 {{% /alert %}}
 
-Im folgenden Beispielcode haben wir die[Excel-Quelldatei](5115535.xlsx) . Wenn Sie den Wert von Zelle B1 auf 100 ändern, werden die Werte der Datentabelle, die mit gelber Farbe gefüllt sind, zu 120, wie in den folgenden Bildern gezeigt. Der Beispielcode generiert die[PDF ausgeben](5115538.pdf).
+Im folgenden Beispielcode haben wir die[Excel-Quelldatei](5115535.xlsx) . Wenn Sie den Wert von Zelle B1 auf 100 ändern, werden die Werte der Datentabelle, die mit gelber Farbe gefüllt sind, zu 120, wie in den folgenden Bildern gezeigt. Der Beispielcode generiert die[Ausgang PDF](5115538.pdf).
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_1.png)
 
 ![todo: Bild_alt_Text](calculation-of-array-formula-of-data-tables_2.png)
 
- Hier ist der Beispielcode, der zum Generieren der[PDF ausgeben](5115538.pdf) von dem[Excel-Quelldatei](5115535.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
+ Hier ist der Beispielcode, der zum Generieren der[Ausgang PDF](5115538.pdf) von dem[Excel-Quelldatei](5115535.xlsx). Bitte lesen Sie die Kommentare für weitere Informationen.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-CalculationOfArrayFormula-CalculateArrayFormula.cs" >}}

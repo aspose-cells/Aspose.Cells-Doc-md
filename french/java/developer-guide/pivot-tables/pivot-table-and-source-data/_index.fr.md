@@ -16,7 +16,7 @@ Il arrive parfois que vous souhaitiez créer des rapports Excel Microsoft avec d
 ![tâche : image_autre_texte](pivot-table-and-source-data_1.png)
 
 1. Création d'un tableau croisé dynamique basé sur cette plage nommée.
- 1. Dans Microsoft Excel, choisissez**Données** , alors**Tableau croisé dynamique** et**Rapport de graphique croisé dynamique**.
+ 1. Dans Microsoft Excel, choisissez**Données** , ensuite**Tableau croisé dynamique** et**Rapport de graphique croisé dynamique**.
  1. Créez un tableau croisé dynamique basé sur la plage nommée créée à la première étape.
 
       **Création d'un tableau croisé dynamique basé sur la plage nommée, DataSource** 

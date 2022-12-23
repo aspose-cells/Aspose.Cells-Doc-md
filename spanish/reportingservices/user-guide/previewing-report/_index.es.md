@@ -29,6 +29,6 @@ en la barra de herramientas Aspose.Cells.Report.Designer.
 
 ![todo:imagen_alternativa_texto](previewing-report_3.png)
 
-1.  En el cuadro de diálogo, ingrese los parámetros del informe y seleccione el formato de archivo de exportación. Haga clic en el**OK** botón para exportar el informe.
+1.  En el cuadro de diálogo, ingrese los parámetros del informe y seleccione el formato de archivo de exportación. Haga clic en el**DE ACUERDO** botón para exportar el informe.
 
 ![todo:imagen_alternativa_texto](previewing-report_4.png)

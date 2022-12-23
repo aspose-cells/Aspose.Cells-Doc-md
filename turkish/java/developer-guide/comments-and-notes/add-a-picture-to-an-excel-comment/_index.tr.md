@@ -19,12 +19,12 @@ Microsoft Excel 2007 ile, bir hücre yorumuna arka plan olarak bir görüntüye 
 1. Açıklamayı içeren hücreye sağ tıklayın.
 1.  Seçmek**Yorumları Göster/Gizle** ve yorumdaki tüm metni temizleyin.
 1. Seçmek için yorumun kenarlığına tıklayın.
-1.  Seçmek**Biçim** , sonra**Yorum**.
-1. Renkler ve Çizgiler sekmesinde,**Renk**.
+1.  Seçmek**Biçim** , o zamanlar**Yorum Yap**.
+1.  Renkler ve Çizgiler sekmesinde,**Renk**.
 1.  Tıklamak**Dolgu Efektleri**.
 1.  Resim sekmesinde,**Resim Seç**.
 1. Resmi bulun ve seçin
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 
 ## Aspose.Cells ile Excel Yorumuna resim ekleyin
 
@@ -36,7 +36,7 @@ Kodu çalıştırdıktan sonra A1, arka plan resmi olan bir yoruma sahip olur.
 
 **çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](add-a-picture-to-an-excel-comment_1.png)
+![yapılacaklar:resim_alternatif_metin](add-a-picture-to-an-excel-comment_1.png)
 
 ## Basit kod
 

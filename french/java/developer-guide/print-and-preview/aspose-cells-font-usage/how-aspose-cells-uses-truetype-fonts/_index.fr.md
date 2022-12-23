@@ -6,9 +6,9 @@ url: /fr/java/how-aspose-cells-uses-truetype-fonts/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells nécessite des polices TrueType lors du rendu des feuilles de calcul dans des formats tels que PDF, XPS et images.
+Aspose.Cells nécessite des polices TrueType lors du rendu des feuilles de calcul dans des formats tels que PDF, XPS et des images.
 
-Lorsque Aspose.Cells rend une feuille de calcul, il nécessite l'accès aux polices TrueType utilisées dans la feuille de calcul. Il s'agit d'une pratique normale lors de la génération de PDF, XPS et d'images et garantit que le document ou l'image converti apparaît identique pour n'importe quel visualiseur.
+Lorsque Aspose.Cells rend une feuille de calcul, il nécessite l'accès aux polices TrueType utilisées dans la feuille de calcul. Il s'agit d'une pratique normale lors de la génération de PDF, XPS et d'image et garantit que le document ou l'image converti apparaît identique pour n'importe quel spectateur.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Aspose.Cells tente de trouver automatiquement les polices TrueType sur le systè
 
 ### **Problèmes typiques liés aux polices et solutions**
 
-Ce tableau répertorie certains des problèmes que vous pouvez rencontrer lors du rendu de feuilles de calcul au format PDF à l'aide de Aspose.Cells et leurs solutions.
+Ce tableau répertorie certains des problèmes que vous pouvez rencontrer lors du rendu des feuilles de calcul vers PDF à l'aide de Aspose.Cells et leurs solutions.
 
 {{% alert color="primary" %}}
 

@@ -10,11 +10,11 @@ Scalable Vector Graphics (SVG) es un formato de imagen vectorial basado en XML p
 
 Las imágenes SVG y sus comportamientos se definen en archivos de texto XML. Esto significa que se pueden buscar, indexar, generar scripts y comprimir. Como archivos XML, las imágenes SVG se pueden crear y editar con cualquier editor de texto, pero se crean más a menudo con software de dibujo.
 
-Aspose.Cells puede guardar gráficos en imágenes en varios formatos como BMP, JPEG, PNG, GIF, SVG, etc. Este artículo explica cómo guardar un gráfico en formato SVG.
+Aspose.Cells puede guardar el gráfico en imágenes en varios formatos como BMP, JPEG, PNG, GIF, SVG, etc. Este artículo explica cómo guardar un gráfico en formato SVG.
 
 {{% /alert %}} 
 
-El siguiente código de ejemplo explica cómo usar Aspose.Cells para convertir un gráfico en una imagen en formato SVG. El código carga el archivo fuente Microsoft de Excel y luego guarda el primer gráfico que se encuentra en la primera hoja de trabajo en SVG.
+El siguiente código de ejemplo explica cómo usar Aspose.Cells para convertir un gráfico en una imagen de formato SVG. El código carga el archivo Excel de origen Microsoft y luego guarda el primer gráfico que se encuentra en la primera hoja de trabajo en SVG.
 
 
 

@@ -14,6 +14,6 @@ Il seguente codice di esempio spiega l'utilizzo di[**Shape.ToFrontOrBack()**](ht
 
 ![cose da fare:immagine_alt_testo](send-shape-front-or-back-inside-the-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-SendShapeFrontOrBackInWorksheet.java" >}}

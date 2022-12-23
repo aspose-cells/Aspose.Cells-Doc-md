@@ -50,7 +50,7 @@ Aspose.Cells يدعم كل إعدادات الحماية المتقدمة.
 
 {{% alert color="primary" %}}
 
- من فضلك لا تتصل ب[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) الطريقة عند استخدام[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)منشأه. أيضًا ، احفظ الملف بتنسيق Excel97To2003 أو Xlsx لأن إعدادات الحماية المتقدمة مدعومة فقط بواسطة Excel XP والإصدارات الأحدث.
+ من فضلك لا تتصل ب[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي'[**يحمي**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/protect/index) الطريقة عند استخدام[**حماية**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/protection)خاصية. أيضًا ، احفظ الملف بتنسيق Excel97To2003 أو Xlsx لأن إعدادات الحماية المتقدمة مدعومة فقط بواسطة Excel XP والإصدارات الأحدث.
 
 {{% /alert %}}
 
@@ -62,6 +62,6 @@ Aspose.Cells يدعم كل إعدادات الحماية المتقدمة.
 |:- |
 |![ما يجب القيام به: image_بديل_نص](advanced-protection-settings-since-excel-xp_1.png)|
 
-من الممكن قفل الخلايا باستخدام Aspose.Cells API أيضًا. يمكن أن تحصل كل خلية[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) التنسيق الذي يحتوي على خاصية منطقية ،[**مقفل**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . تعيين[**مقفل**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) الملكية ل**حقيقي** أو**خاطئة** لقفل أو إلغاء قفل الخلية.
+من الممكن قفل الخلايا باستخدام Aspose.Cells API أيضًا. يمكن أن تحصل كل خلية[**أسلوب**](https://reference.aspose.com/cells/net/aspose.cells/style) التنسيق الذي يحتوي على خاصية منطقية ،[**مقفل**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) . تعيين[**مقفل**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/islocked) ملكية ل**حقيقي** أو**خاطئة** لقفل أو إلغاء قفل الخلية.
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-Security-LockCell-1.cs" >}}

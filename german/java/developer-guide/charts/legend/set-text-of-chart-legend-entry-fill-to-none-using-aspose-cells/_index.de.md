@@ -6,7 +6,7 @@ url: /de/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
- Wenn Sie den Text der Legendeneintragsfüllung des Diagramms auf „Keine“ setzen möchten, sodass er nicht in der Diagrammlegende angezeigt werden soll, dann stellen Sie bitte das ein[LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#IsTextNoFill) zu**Stimmt**.
+ Wenn Sie den Text der Legendeneintragsfüllung des Diagramms auf „Keine“ setzen möchten, sodass er nicht in der Diagrammlegende angezeigt werden soll, dann stellen Sie bitte das ein[LegendEntry.IsTextNoFill](https://reference.aspose.com/cells/java/com.aspose.cells/legendentry#IsTextNoFill) zu**wahr**.
 
 {{% /alert %}} 
 ## **Setzen Sie den Text der Eintragsfüllung der Diagrammlegende mit Aspose.Cells auf „Keine“.**

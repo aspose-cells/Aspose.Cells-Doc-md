@@ -23,28 +23,28 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43002|Punto caliente inesperado de la CPU en ZipOutputStream al abrir XSLB|Mejora|
 |CELLSJAVA-43008|Opción para deshabilitar la carga de objetos OLE al abrir un libro de trabajo|Mejora|
 |CELLSJAVA-43019|El gráfico radial no se representa correctamente en HTML|Insecto|
-|CELLSJAVA-43027|Después de la representación en PNG, la escala del eje es diferente.|Insecto|
+|CELLSJAVA-43027|Después de la interpretación a PNG, la escala del eje es diferente.|Insecto|
 |CELLSJAVA-42474|La tabla dinámica no se actualiza y se daña después de actualizar los datos de origen|Insecto|
 |CELLSJAVA-43033|La conversión a PDF no termina.|Insecto|
 |CELLSJAVA-43034|Se recupera una salida de formato de fecha rusa (personalizada) no válida|Insecto|
 |CELLSJAVA-43040|LoadFilter no considera la hoja requerida|Insecto|
-|CELLSJAVA-43035|Los bordes se pierden al convertir un archivo de Excel a EMF|Insecto|
+|CELLSJAVA-43035|Los bordes se pierden al convertir el archivo de Excel a EMF|Insecto|
 |CELLSJAVA-43016|Recuento de páginas no válido de SheetRender|Insecto|
 |CELLSJAVA-43026|Después de representar el gráfico en la imagen, las etiquetas de datos cambian de estilo y los valores no son los mismos|Insecto|
 |CELLSJAVA-43038|Los hipervínculos no se exportan con Cell.setHtmlString()|Insecto|
 |CELLSJAVA-43039|Cell.setHtmlString() no muestra ciertas etiquetas/scripts HTML para exportar a Excel|Insecto|
 |CELLSJAVA-41103|La coloración y el formato de los datos de la tabla dinámica no se representan correctamente|Insecto|
-|CELLSJAVA-43007|El PDF no se genera como se esperaba|Insecto|
+|CELLSJAVA-43007|PDF no se genera como se esperaba|Insecto|
 |CELLSJAVA-43025|Cell.getStyle.getCustom devuelve un formato incorrecto para la configuración regional alemana|Insecto|
-|CELLSJAVA-42793|Objeto Fontwork SmartArt perdido durante la conversión de ODS a XLSX|Insecto|
+|CELLSJAVA-42793|Objeto Fontwork SmartArt perdido durante la conversión ODS a XLSX|Insecto|
 |CELLSJAVA-43020|Gráfico radial distorsionado después de llamar a Chart.Calcluate()|Insecto|
 |CELLSJAVA-43022|Error de forma a imagen para archivos XLS|Insecto|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) provoca resultados no deseados al llamar a getFormula()|Insecto|
 |CELLSJAVA-43052|Problema de validación para valores booleanos|Insecto|
-|CELLSJAVA-43054|Problema con CSV Merge en la configuración portuguesa|Insecto|
+|CELLSJAVA-43054|Problema con CSV Fusionar en la configuración portuguesa|Insecto|
 |CELLSJAVA-43056|Cell.setFormula() no se actualiza para enlaces externos|Insecto|
 |CELLSJAVA-42767|Imagen perdida durante la conversión de Excel a PDF|Insecto|
-|CELLSJAVA-42913|Visio objetos incrustados representados incorrectamente en PDF|Insecto|
+|CELLSJAVA-42913|Objetos Visio incrustados representados incorrectamente en PDF|Insecto|
 |CELLSJAVA-42883|Problema al extraer el texto del gráfico del archivo de formato Aspose.Cells for Java 95|Insecto|
 |CELLSJAVA-42931|Adjuntos/Objetos no obtenidos de Excel95|Insecto|
 |CELLSJAVA-43051|Relación de aspecto no mantenida para la imagen|Insecto|
@@ -52,7 +52,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-43069|MS Excel da un mensaje de reparación al abrir el archivo guardado nuevamente por Aspose.Cells|Insecto|
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException al cargar el archivo de Excel|Excepción|
 |CELLSJAVA-43060|Excepción "java.lang.NullPointerException" en Workbook.save después de configurar la fuente de datos externa como vacía|Excepción|
-|CELLSJAVA-42923|Excepciones al cargar documentos XLS|Excepción|
+|CELLSJAVA-42923|Excepciones al cargar el documento XLS|Excepción|
 ## **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Android via Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 ### **Agrega el método Cells.RemoveDuplicates()**
@@ -124,9 +124,9 @@ Admite la detección del formato de archivo .OTP.
 ### **Agrega la propiedad AutoFitterOptions.AutoFitWrappedTextType y la enumeración AutoFitWrappedTextType.**
 Obtiene y establece el tipo de texto ajustado automáticamente.
 ### **Agrega la clase EmfRenderSetting**
-Conjuntos para renderizar metarchivos EMF.
+Conjuntos para representar el metarchivo EMF.
 ### **Agrega la propiedad PdfSaveOptions.EmfRenderSetting**
-Conjuntos para renderizar el metarchivo EMF mientras se renderiza en un archivo PDF.
+Conjuntos para renderizar el metarchivo EMF mientras se renderiza en el archivo PDF.
 ### **Agrega el método ShapeCollection.AddSvg()**
 Agrega imagen svg.
 ### **Agrega la propiedad WorkbookSettings.QuotePrefixToStyle**

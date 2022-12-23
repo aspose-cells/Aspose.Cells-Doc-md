@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-22-1-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-50082|Prise en charge du retour des index d'origine des lignes/colonnes triées pour la fonction sort()|Nouvelle fonctionnalité|
 |CELLSNET-50088|Prise en charge de la définition du nom du travail d'impression avec PrinterSettings lors du rendu vers l'imprimante|Nouvelle fonctionnalité|
@@ -20,23 +20,23 @@ url: /fr/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50072|Fonction non prise en charge : CUBESET|Renforcement|
 |CELLSNET-50017|Comment ajouter une bulle à côté du titre du graphique et du texte de l'axe du graphique|Renforcement|
 |CELLSNET-50038| Comportement différent concernant la réduction et l'expansion des groupes à plusieurs niveaux|Renforcement|
-|CELLSNET-50041| Les fichiers image BMP ne s'affichent pas dans l'en-tête/le pied de page|Renforcement|
-|CELLSNET-50108|XLS en PDF : blocage de la conversion avec mémoire insuffisante|Performance|
+|CELLSNET-50041| BMP les fichiers image ne s'affichent pas dans l'en-tête/le pied de page|Renforcement|
+|CELLSNET-50108|XLS à PDF : blocages de conversion avec mémoire insuffisante|Performance|
 |CELLSNET-50128|L'espacement des lignes devient plus étroit - Conversion d'Excel en PDF|Punaise|
-|CELLSNET-50086|Cell les couleurs disparaissent après la conversion en PDF|Punaise|
+|CELLSNET-50086|Les couleurs Cell disparaissent après conversion en PDF|Punaise|
 |CELLSNET-49996|Les valeurs de texte enrichi des cellules peuvent être perdues avec le mode MemoryPreference|Punaise|
 |CELLSNET-50042| Le nom des cellules est modifié pendant l'enregistrement|Punaise|
 |CELLSNET-50055|La propriété de nom de plage locale FullText n'est pas échappée si la feuille de calcul parente a une apostrophe|Punaise|
 |CELLSNET-50154|GridWeb ne parvient pas à charger/enregistrer à partir du cache pour le fichier .csv|Punaise|
 |CELLSNET-50063|L'impression d'un fichier Excel rend deux pages au lieu d'une page|Punaise|
-|CELLSNET-50094|Le contenu de la feuille de calcul n'est pas rendu correctement lors de la conversion d'Excel en PDF|Punaise|
-|CELLSNET-50129|La position d'impression augmente au fur et à mesure que la page est suivie - Conversion Excel en PDF|Punaise|
-|CELLSNET-50131|Les caractères sont manquants - Conversion Excel en PDF|Punaise|
+|CELLSNET-50094|Le contenu de la feuille de calcul n'est pas rendu correctement dans Excel vers la conversion PDF|Punaise|
+|CELLSNET-50129|La position d'impression augmente au fur et à mesure que la page est suivie - Conversion d'Excel en PDF|Punaise|
+|CELLSNET-50131|Les caractères sont manquants - Conversion d'Excel en PDF|Punaise|
 |CELLSNET-49578| Mauvaise valeur max/min calculée à partir des graphiques par Aspose.Cells|Punaise|
 |CELLSNET-50087|Le graphique de sortie ne s'affiche pas correctement après la modification du type de série|Punaise|
 |CELLSNET-50197|La légende dans le graphique en cascade ne peut pas être supprimée ou masquée|Punaise|
 |CELLSNET-50065|Comportement différent concernant la réduction et le développement des groupes de lignes à plusieurs niveaux|Punaise|
-|CELLSNET-50137|Variable XLSX vers HTML non déclarée "nœud" dans le script|Punaise|
+|CELLSNET-50137|XLSX à HTML variable non déclarée "noeud" dans le script|Punaise|
 |CELLSNET-50157|AutoFitMergedCellsType.EachLine ne fonctionne pas pour les colonnes d'ajustement automatique|Punaise|
 |CELLSNET-50165|La police du guide phonétique est modifiée après l'enregistrement du fichier|Punaise|
 |CELLSNET-50208|Certains textes sont perdus lors de l'enregistrement au format Html|Punaise|
@@ -45,8 +45,8 @@ url: /fr/net/aspose-cells-for-net-22-1-release-notes/
 |CELLSNET-50071|Conversion en exception HTML "Fonction non prise en charge : CUBESET"|Exception|
 |CELLSNET-50097|Exception à l'ouverture du fichier XSLX via Aspose.Cells|Exception|
 |CELLSNET-50133|NullReferenceException lors de la comparaison de FillFormat|Exception|
-|CELLSNET-50138|Exception à l'ouverture d'un fichier XLSB|Exception|
-|CELLSNET-50016|Graphique aux valeurs d'axe incorrectes EMF|Régression|
+|CELLSNET-50138|Exception à l'ouverture d'un dossier XLSB|Exception|
+|CELLSNET-50016|Graphique vers EMF valeurs d'axe incorrectes|Régression|
 |
 
 

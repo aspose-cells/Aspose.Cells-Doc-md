@@ -1,18 +1,18 @@
 ﻿---
-title: Araç ipucu ile Excel'i HTML'ye dönüştürün
+title: Araç ipucu ile Excel'i HTML'e dönüştürün
 type: docs
 weight: 150
 url: /tr/java/convert-excel-to-html-with-tooltip/
 ---
-## **Araç ipucu ile Excel'i HTML'ye dönüştürün**
+## **Araç ipucu ile Excel'i HTML'e dönüştürün**
 
-Metnin oluşturulan HTML'de kesildiği ve metnin tamamını hover olayında bir araç ipucu olarak görüntülemek istediğiniz durumlar olabilir. Aspose.Cells bunu sağlayarak destekler**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**Emlak. ayarlamak**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**mülkiyet**doğru**oluşturulan HTML'de tam metni bir araç ipucu olarak ekleyecektir.
+Oluşturulan HTML'de metnin kesildiği ve tüm metni hover olayında bir araç ipucu olarak görüntülemek istediğiniz durumlar olabilir. Aspose.Cells bunu sağlayarak destekler**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**Emlak. ayarlamak**[HtmlSaveOptions.AddTooltipText](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#AddTooltipText)**mülkiyet**doğru**oluşturulan HTML'de tam metni bir araç ipucu olarak ekleyecektir.
 
 Aşağıdaki resimde, oluşturulan HTML dosyasındaki araç ipucu gösterilmektedir.
 
-![yapılacaklar:resim_alternatif_Metin](convert-excel-to-html-with-tooltip_1.jpg)
+![yapılacaklar:resim_alternatif_metin](convert-excel-to-html-with-tooltip_1.jpg)
 
-Aşağıdaki kod örneği,[kaynak excel dosyası](AddTooltipToHtmlSample.xlsx)ve oluşturur[çıkış HTML dosyası](AddTooltipToHtmlSample_out.zip)araç ipucu ile.
+Aşağıdaki kod örneği,[kaynak excel dosyası](AddTooltipToHtmlSample.xlsx)ve oluşturur[çıktı HTML dosyası](AddTooltipToHtmlSample_out.zip)araç ipucu ile.
 
 ## Basit kod
 

@@ -9,11 +9,11 @@ Aspose.Cells, Microsoft Excel 2013 veya önceki sürümlerde bulunmayan Microsof
 ## **Excel 2016 Grafiklerini Okuyun ve İşleyin**
  Aşağıdaki örnek kod,[kaynak excel dosyası](22774101.xlsx)ilk çalışma sayfasında Excel 2016 grafiklerini içeren. Tüm çizelgeleri tek tek okur ve grafiğin türüne göre başlığını değiştirir. Aşağıdaki ekran görüntüsü, kodun yürütülmesinden önce kaynak excel dosyasını gösterir. Gördüğünüz gibi, grafik başlığı tüm grafikler için aynıdır.
 
-![yapılacaklar:resim_alternatif_Metin](read-and-manipulate-excel-2016-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](read-and-manipulate-excel-2016-charts_1.png)
 
 Aşağıdaki ekran görüntüsü[çıktı excel dosyası](22774104.xlsx) kodun yürütülmesinden sonra. Gördüğünüz gibi grafik başlığı, grafik türüne göre değiştirilir.
 
-![yapılacaklar:resim_alternatif_Metin](read-and-manipulate-excel-2016-charts_2.png)
+![yapılacaklar:resim_alternatif_metin](read-and-manipulate-excel-2016-charts_2.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManageChartsAndShapes-ReadAndManipulateExcel2016Charts.cs" >}}
 ## **Konsol Çıkışı**

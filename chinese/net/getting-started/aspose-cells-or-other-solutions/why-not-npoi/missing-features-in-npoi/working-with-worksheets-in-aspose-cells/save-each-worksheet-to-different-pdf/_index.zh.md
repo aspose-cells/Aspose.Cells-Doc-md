@@ -4,8 +4,8 @@ type: docs
 weight: 10
 url: /zh/net/save-each-worksheet-to-different-pdf/
 ---
-## **Aspose.Cells - 将每个工作表保存为不同的 PDF**
-Aspose.Cells 支持将 XLS 文件（包含图像、图表等）转换为 PDF 文档。 Aspose.Cells for .NET可以独立工作，将电子表格转换为Pdf文档，您不再需要使用Aspose.Pdf for .NET进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
+## **Aspose.Cells - 将每个工作表保存到不同的 PDF**
+Aspose.Cells 支持将 XLS 文件（包含图像、图表等）转换为 PDF 文档。 Aspose.Cells for .NET 可以独立工作将电子表格转换为Pdf文档，您不再需要使用Aspose.Pdf for .NET进行转换。转换也不需要创建/使用任何临时文件，因为整个过程可以在内存中完成。
 
 **C#**
 

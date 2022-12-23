@@ -6,7 +6,7 @@ url: /fr/net/read-color-of-shape-s-glow-effect/
 ---
 ## Scénarios d'utilisation possibles
 
- Si vous voulez lire la couleur de l'effet de lueur de n'importe quelle forme, veuillez utiliser le[**Forme.Glow.Color**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)propriété. Il vous aidera à trouver les différentes propriétés relatives à la couleur de l'effet lumineux de la forme.
+ Si vous voulez lire la couleur de l'effet de lueur de n'importe quelle forme, veuillez utiliser le[**Forme.Glow.Color**](https://reference.aspose.com/cells/net/aspose.cells.drawing/gloweffect/properties/color)la propriété. Il vous aidera à trouver les différentes propriétés relatives à la couleur de l'effet lumineux de la forme.
 
 ## Lire la couleur de l'effet lumineux de la forme
 

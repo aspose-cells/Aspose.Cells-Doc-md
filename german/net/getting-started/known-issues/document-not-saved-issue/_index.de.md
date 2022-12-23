@@ -4,7 +4,7 @@ type: docs
 weight: 40
 url: /de/net/document-not-saved-issue/
 ---
-## **Ausgabe**
+## **Problem**
 Ich habe ein seltsames Problem mit einer Tabelle, die ich mit Ihrer Steuerung erstellt habe. Es wird in Excel problemlos geöffnet und bearbeitet, aber wenn ich versuche, ein Speichern oder Speichern unter durchzuführen, erhalte ich die Meldung „Dokument nicht gespeichert“.
 ### **Problemzusammenfassung**
  Dies ist ein Excel-Fehler:

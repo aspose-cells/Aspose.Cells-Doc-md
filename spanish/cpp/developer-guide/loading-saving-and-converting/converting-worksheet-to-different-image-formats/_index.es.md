@@ -19,23 +19,23 @@ Aspose.Cells admite la conversión de hojas de cálculo de Excel en imágenes. P
 La clase `Aspose.Cells.Rendering.ISheetRender` representa una hoja de trabajo para representar como imágenes. Tiene un método sobrecargado,[A la imagen](https://reference.aspose.com/cells/cpp/class/aspose.cells.rendering.i_sheet_render#ae508827a76d0c353ab0890024ec363c5), que puede convertir una hoja de trabajo en archivo(s) de imagen con diferentes atributos u opciones. Se admiten varios formatos de imagen, por ejemplo, BMP, PNG, GIF, JPG, JPEG, TIFF, EMF.
 
 El siguiente fragmento de código muestra cómo convertir una hoja de cálculo de un archivo de Excel en un archivo de imagen.
-### **Formato PNG**
- Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[Imágenes PNG de salida](67338401.zip).
+### **PNG Formato**
+ Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[Salida PNG Imágenes](67338401.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_PNG.cpp" >}}
-### **Formato TIFF**
- Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[Imagen TIFF de salida](67338419.zip).
+### **TIFF Formato**
+ Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[Salida TIFF Imagen](67338419.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_TIFF.cpp" >}}
-## **Convertir hoja de trabajo a SVG**
-SVG significa Gráficos vectoriales escalables. SVG es una especificación basada en estándares XML para gráficos vectoriales bidimensionales. Es un estándar abierto que ha sido desarrollado por el World Wide Web Consortium (W3C) desde 1999.
+## **Conversión de hoja de trabajo a SVG**
+SVG significa gráficos vectoriales escalables. SVG es una especificación basada en estándares XML para gráficos vectoriales bidimensionales. Es un estándar abierto que ha sido desarrollado por el World Wide Web Consortium (W3C) desde 1999.
 
-Aspose.Cells for C++ ha podido convertir hojas de trabajo a imágenes SVG desde la versión 18.5.0.
+Aspose.Cells for C++ ha podido convertir hojas de trabajo a SVG imagen desde la versión 18.5.0.
 
 Para usar esta función, importe el espacio de nombres `Aspose.Cells.Rendering` a su programa o proyecto. Tiene varias clases valiosas para renderizar e imprimir, por ejemplo, `ISheetRender`, `IImageOrPrintOptions` y otras.
 
 La clase `Aspose.Cells.Rendering.IImageOrPrintOptions` especifica que la hoja de trabajo se guardará en formato SVG. El siguiente fragmento de código muestra cómo convertir una hoja de trabajo en un archivo de Excel a un archivo de imagen SVG
 
- Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[salida de imágenes SVG](67338403.zip).
+ Consulte el siguiente código de ejemplo, su[ejemplo de archivo de Excel](67338402.xlsx) , y el[Salida SVG Imágenes](67338403.zip).
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "LoadingSavingAndConverting-ConvertingWorksheetToImage_SVG.cpp" >}}

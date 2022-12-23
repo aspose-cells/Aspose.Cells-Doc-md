@@ -9,7 +9,7 @@ Potrebbe essere necessario impostare la descrizione comando per la colonna perso
 ## **Impostazione della punta dell'intestazione della colonna**
 Di seguito viene fornito un esempio completo per dimostrare come modificare le didascalie delle colonne e applicare il testo del suggerimento. Dopo aver eseguito il codice di esempio, il testo della descrizione comando verrebbe visualizzato quando si posiziona il cursore del mouse sull'intestazione della colonna specificata.
 
-## **Codice di esempio**
+## **Codice d'esempio**
 Ecco il codice di esempio del file**prova.jsp** file.
 
 {{< highlight "java" >}}

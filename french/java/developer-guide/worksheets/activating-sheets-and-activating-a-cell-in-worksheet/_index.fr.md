@@ -31,6 +31,6 @@ L'exemple suivant montre comment activer une feuille de calcul et y rendre une c
 
 {{% alert color="primary" %}}
 
- Dans**évaluation** mode, c'est-à-dire; sans définir de licence valide, la feuille de calcul active sera toujours celle contenant le filigrane d'évaluation. Ce comportement ne peut être annulé qu'en définissant la licence au démarrage de l'application.
+ Dans**évaluation**mode, c'est-à-dire; sans définir de licence valide, la feuille de calcul active sera toujours celle contenant le filigrane d'évaluation. Ce comportement ne peut être annulé qu'en définissant la licence au démarrage de l'application.
 
 {{% /alert %}}

@@ -14,7 +14,7 @@ Aspose.Cells prend en charge la conversion d'un fichier Json (JavaScript Object 
 
 ## **Convertir JSON en classeur Excel**
 
- Pas besoin de se demander comment convertir un fichier JSON en fichier Excel, car la bibliothèque Aspose.Cells Java a la meilleure décision. Le Aspose.Cells Java API prend en charge la conversion du format JSON en feuilles de calcul. Vous pouvez utiliser[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) class pour spécifier des paramètres supplémentaires pour l'importation de JSON dans Workbook.
+ Pas besoin de se demander comment convertir JSON en fichier Excel, car la bibliothèque Aspose.Cells Java a la meilleure décision. Le Aspose.Cells Java API prend en charge la conversion du format JSON en feuilles de calcul. Vous pouvez utiliser[**JsonLoadOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLoadOptions) class pour spécifier des paramètres supplémentaires pour l'importation de JSON dans Workbook.
 
 L'exemple de code suivant illustre l'importation de JSON dans Excel Workbook. S'il vous plaît voir le code pour convertir[fichier source](sample.json) au fichier xlsx généré par le code pour référence.
 
@@ -24,6 +24,6 @@ L'exemple de code suivant illustre l'importation de JSON dans Excel Workbook. S'
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-to-Excel2.java" >}}
 
-L'exemple de code suivant illustre l'importation d'une chaîne JSON dans Excel Workbook. Vous pouvez également spécifier l'emplacement de la mise en page lors de l'importation de JSON. Veuillez consulter le code pour convertir la chaîne JSON en fichier xlsx généré par le code pour référence.
+L'exemple de code suivant illustre l'importation de la chaîne JSON dans le classeur Excel. Vous pouvez également spécifier l'emplacement de la mise en page lors de l'importation de JSON. Veuillez consulter le code pour convertir la chaîne JSON en fichier xlsx généré par le code pour référence.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Convert-JSON-String-to-Excel.java" >}}

@@ -10,11 +10,11 @@ A volte, vuoi convertire o salvare una cartella di lavoro con più fogli di lavo
 
 {{% /alert %}} 
 
-L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo di Microsoft Excel o OpenOffice (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
+L'esempio di codice seguente spiega come salvare un'intera cartella di lavoro in formato testo. Carica la cartella di lavoro di origine che potrebbe essere qualsiasi file di foglio di calcolo Excel o OpenOffice Microsoft (quindi XLS, XLSX, XLSM, XLSB, ODS e così via) con qualsiasi numero di fogli di lavoro.
 
-Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro in formato TXT.
+Quando il codice viene eseguito, converte i dati di tutti i fogli nella cartella di lavoro nel formato TXT.
 
-Puoi modificare lo stesso esempio per salvare il tuo file in formato CSV. Per impostazione predefinita, TxtSaveOptions.Separator è una virgola, quindi non specificare un separatore se si salva in formato CSV.
+È possibile modificare lo stesso esempio per salvare il file in CSV. Per impostazione predefinita, TxtSaveOptions.Separator è una virgola, quindi non specificare un separatore se si salva nel formato CSV.
 
 **C#**
 
@@ -22,9 +22,9 @@ Puoi modificare lo stesso esempio per salvare il tuo file in formato CSV. Per im
 
 string FilePath = @"..\..\..\File di esempio\";
 
-string FileName = FilePath + "Salva cartella di lavoro in formato testo o CSV.xlsx";
+string FileName = FilePath + "Salva cartella di lavoro in testo o CSV Format.xlsx";
 
-string destFileName = FilePath + "Salva cartella di lavoro in formato testo o CSV.txt";
+string destFileName = FilePath + "Salva cartella di lavoro in testo o CSV Format.txt";
 
 //Carica la cartella di lavoro di origine
 

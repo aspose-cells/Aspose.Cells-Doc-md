@@ -4,15 +4,15 @@ type: docs
 weight: 70
 url: /ar/python-java/
 is_root: true
-description: Aspose.Cells for Python يدعم جداول البيانات الشائعة (XLS ، XLSX ، XLSM ، XLSB ، XLTX ، XLTM ، CSV ، SpreadsheetML ، ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+description: Aspose.Cells for Python يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي يستخدمها عملك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML ، والنص العادي وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
 ---
 {{% alert color="primary" %}}
 
-**! [todo: image_alt_text] (home_1)**
+**![todo:image_alt_text](home_1)**
 
 **مرحبا بكم في Aspose.Cells for Python via Java**
 
-Aspose.Cells for Python via Java يمكّن تطبيقاتك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Python via Java يدعم جداول البيانات الشائعة (تنسيقات ملفات XLS و XLSX و XLSM و XLSB و XLTX و XLTM و CSV و SpreadsheetML و ODS) التي تستخدمها شركتك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF و DOCX و PPTX و JSON و XPS و HTML و MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
+Aspose.Cells for Python via Java يمكّن تطبيقاتك من أداء مجموعة كبيرة من مهام معالجة جداول البيانات. Aspose.Cells for Python via Java يدعم تنسيقات ملفات جداول البيانات الشائعة (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) التي تستخدمها شركتك كل يوم. كما يسمح بتصدير ملفات Excel® إلى PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML و Plain Text وتنسيقات الصور الشائعة بما في ذلك TIFF و JPG و PNG و BMP و SVG.
 
 {{% /alert %}}
 

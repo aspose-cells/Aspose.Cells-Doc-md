@@ -12,13 +12,13 @@ url: /zh/net/aspose-cells-for-net-7-1-2-release-notes/
 
 我们很高兴地宣布 Aspose.Cells for .NET v7.1.2!1) Aspose.Cells
 
-新的功能
+新功能
 
- ` `-支持 XLS 文件中的表格-自定义功能区 XML40452-支持 Workbook.ContentTypePropertiesEnhancements
+ ` `- XLS 文件中的支持表 - 自定义功能区 XML40452 - 支持 Workbook.ContentTypePropertiesEnhancements
 
- ` `- IF() 公式返回“0”而不是“#N/A” - FirstPageNumber 属性有问题 - 文档转换为 PDF 时布局已更改 - “PivotField”中缺少属性“DragData” - 更改数据透视表上的数据源. - 数据透视表问题 - 将工作流程图/形状转换为图像性能
+` `- IF() 公式返回“0”而不是“#N/A” - FirstPageNumber 属性有问题 - 当文档转换为 PDF 时布局发生变化 - “PivotField”中缺少属性“DragData” - 更改数据透视表上的数据源. - 数据透视表问题 - 将工作流程图/形状转换为图像性能
 
-` `- Worksheet.RemoveFormulas - 性能问题 - Pdf 生成 => OutOfMemoryException - 将 Excel 转换为 PDF 时内存使用过多 - 保存为 PDF 使用 3GB 用于 10MB Excel 文件 - 打开工作簿需要太长时间才能打开异常
+` `- Worksheet.RemoveFormulas - 性能问题 - Pdf 生成 => OutOfMemoryException - 将 Excel 转换为 PDF 时内存使用过多 - 保存到 PDF 使用 3GB 用于 10MB Excel 文件 - 打开工作簿需要很长时间才能打开异常
 
 ` ` - 如果从其他工作簿复制工作表，则保存操作期间出现 NullReference 异常 - Workbook.CalculateFormula() 方法崩溃 - RowSpan 属性引发异常 - 初始化 fileBugs 时发生 ArgumentOutOfRangeException
 
@@ -26,4 +26,4 @@ url: /zh/net/aspose-cells-for-net-7-1-2-release-notes/
 
 虫子
 
-` ` - XLSX 文件的图形值错误显示 - GridDesktop 工作表中的 SUM() 问题 - GridDesktop.ImportExcelFile() 抛出异常 - 索引超出数组范围 - GridDestop 关于公式单元格的问题 - Griddesktop.ImportExcelFile()抛出 OutOfMemoryException
+` `- XLSX 文件的图表值错误显示 - GridDesktop 工作表中的 SUM() 问题 - GridDesktop.ImportExcelFile() 抛出异常 - 索引超出数组范围 - GridDestop 关于公式单元格的问题 - Griddesktop.ImportExcelFile()抛出 OutOfMemoryException

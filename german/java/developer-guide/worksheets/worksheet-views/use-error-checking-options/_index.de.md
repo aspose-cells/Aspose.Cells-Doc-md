@@ -15,8 +15,8 @@ Fehler, die dazu führen, dass die Formel kein Ergebnis zurückgeben kann – wi
 Der Fehler kann mit den Optionen behoben oder ignoriert werden. Das Ignorieren eines Fehlers bedeutet, dass dieser Fehler bei weiteren Fehlerprüfungen nicht angezeigt wird.
 
 Aspose.Cells bietet Optionen zur Fehlerprüfung. Die ErrorCheckOptions-Klasse verwaltet verschiedene Arten von Fehlerprüfungen, beispielsweise als Text gespeicherte Zahlen, Formelberechnungsfehler und Validierungsfehler. Verwenden Sie die ErrorCheckType-Enumeration, um die gewünschte Fehlerprüfung festzulegen.
-## **Als Text gespeicherte Zahlen**
-Gelegentlich können Zahlen formatiert und in Zellen als Text gespeichert werden. Dies kann zu Berechnungsproblemen oder verwirrenden Sortierreihenfolgen führen. Als Text formatierte Zahlen werden in der Zelle linksbündig statt rechtsbündig ausgerichtet. Wenn eine Formel, die eine mathematische Operation an Zellen ausführen soll, keinen Wert zurückgibt, überprüfen Sie die Ausrichtung in den Zellen, auf die sich die Formel bezieht – einige oder alle dieser Zellen könnten Zahlen sein, die als Text formatiert sind.
+## **Numbers Als Text gespeichert**
+Gelegentlich können Zahlen formatiert und in Zellen als Text gespeichert werden. Dies kann zu Berechnungsproblemen oder verwirrenden Sortierreihenfolgen führen. Numbers, die als Text formatiert sind, werden in der Zelle linksbündig statt rechtsbündig ausgerichtet. Wenn eine Formel, die eine mathematische Operation an Zellen ausführen soll, keinen Wert zurückgibt, überprüfen Sie die Ausrichtung in den Zellen, auf die sich die Formel bezieht – einige oder alle dieser Zellen könnten Zahlen sein, die als Text formatiert sind.
 
 Sie können die Fehlerprüfungsoptionen verwenden, um als Text gespeicherte Zahlen schnell in reelle Zahlen umzuwandeln. In Microsoft Excel 2003:
 
@@ -28,7 +28,7 @@ Sie können die Fehlerprüfungsoptionen verwenden, um als Text gespeicherte Zahl
 
 ![todo: Bild_alt_Text](use-error-checking-options_1.png)
 
- Der folgende Beispielcode zeigt, wie die als Textfehlerprüfungsoption für ein Arbeitsblatt in der Vorlagen-XLS-Datei gespeicherten Zahlen mithilfe der Aspose.Cells-APIs deaktiviert werden.
+ Der folgende Beispielcode zeigt, wie die als Textfehlerprüfungsoption für ein Arbeitsblatt in der Vorlagendatei XLS gespeicherten Zahlen mithilfe der Aspose.Cells-APIs deaktiviert werden.
 
 **Java**
 

@@ -12,7 +12,7 @@ Aspose.Cells sağlar[**XmlMapCollection.Add()**](https://reference.aspose.com/ce
 
  Aşağıdaki örnek kod, şunu kullanarak çalışma kitabının içine XML Eşlemesi ekler:[**XmlMapCollection.Add()**](https://reference.aspose.com/cells/java/com.aspose.cells/xmlmapcollection#add(java.lang.Object) ) yöntemini kullanır ve şu şekilde kaydeder:[çıktı excel dosyası](5472533.xlsx) . Ekran görüntüsü, şu adresten içe aktarılan XML Eşlemesini gösterir:[örnek.xml](5472532.xml) çıktı excel dosyasının içinde.
 
-![yapılacaklar:resim_alternatif_Metin](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
+![yapılacaklar:resim_alternatif_metin](add-xml-map-inside-the-workbook-using-xmlmapcollection-add-method_1.png)
 
 ## **Basit kod**
 

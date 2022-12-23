@@ -10,7 +10,7 @@ url: /ar/net/specify-author-while-write-protecting-workbook/
 
 ## **حدد المؤلف أثناء كتابة حماية المصنف**
 
-يشرح نموذج التعليمات البرمجية التالي استخدام[**المصنف ، الإعدادات ، الكتابة ، الحماية ، المؤلف**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)منشأه. يقوم الكود بإنشاء مصنف فارغ ، والكتابة تحميه بكلمة مرور ، ويحدد اسم المؤلف ويحفظه[إخراج ملف Excel](67338582.xlsx). توضح لقطة الشاشة التالية تأثير نموذج التعليمات البرمجية على ملف Excel الناتج للرجوع إليه.
+يشرح نموذج التعليمات البرمجية التالي استخدام[**المصنف ، الإعدادات ، الكتابة ، الحماية ، المؤلف**](https://reference.aspose.com/cells/net/aspose.cells/writeprotection/properties/author)خاصية. يقوم الكود بإنشاء مصنف فارغ ، والكتابة تحميه بكلمة مرور ، ويحدد اسم المؤلف ويحفظه[إخراج ملف Excel](67338582.xlsx). توضح لقطة الشاشة التالية تأثير نموذج التعليمات البرمجية على ملف Excel الناتج للرجوع إليه.
 
 ![ما يجب القيام به: image_بديل_نص](specify-author-while-write-protecting-workbook_1.png)
 

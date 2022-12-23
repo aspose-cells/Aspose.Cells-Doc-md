@@ -22,15 +22,15 @@ Linux için Aspose.Cells for C++ 20.7 sürümünü duyurmaktan mutluluk duyuyoru
 |CELLSCPP-12|Elektronik tablolarda PivotTable'ları ekleyin ve değiştirin|Yeni özellik|
 |CELLSCPP-13|Çalışma sayfasındaki satırları ve sütunları gruplandırma|Yeni özellik|
 |CELLSCPP-14|Çalışma sayfasına Tablo/Liste Nesnesi Ekleme|Yeni özellik|
-|CELLSCPP-20|XLS, OOXML dosya formatlarını Aç/Kaydet|Yeni özellik|
+|CELLSCPP-20|Aç/Kaydet XLS, OOXML dosya biçimleri|Yeni özellik|
 |CELLSCPP-21|Stilleri ve Biçimlendirmeyi çalışma sayfası hücrelerine ayarla|Yeni özellik|
 |CELLSCPP-22|Hücrelere veri doğrulama uygula|Yeni özellik|
 |CELLSCPP-23|Verileri ve Formülleri hücrelere ayarla|Yeni özellik|
 |CELLSCPP-24|Sayfa Yapısı seçeneklerini uygula|Yeni özellik|
 |CELLSCPP-25|Otomatik Filtre kullanarak verileri filtreleme|Yeni özellik|
-|CELLSCPP-35|XLSM dosya biçimini Oku / Yaz|Yeni özellik|
-|CELLSCPP-36|CSV dosya biçimini Oku / Yaz|Yeni özellik|
-|CELLSCPP-37|XLSB dosya formatını Oku / Yaz|Yeni özellik|
+|CELLSCPP-35|Okuma / Yazma XLSM dosya formatı|Yeni özellik|
+|CELLSCPP-36|Okuma / Yazma CSV dosya formatı|Yeni özellik|
+|CELLSCPP-37|Okuma / Yazma XLSB dosya formatı|Yeni özellik|
 |CELLSCPP-38|Adlandırılmış Aralıklar oluşturun ve değiştirin|Yeni özellik|
 |CELLSCPP-39|Okuma / Yazma Sekmesiyle Ayrılmış dosya biçimi|Yeni özellik|
 |CELLSCPP-41|Excel dosyasındaki/dosyalarındaki formülleri hesaplayın|Yeni özellik|

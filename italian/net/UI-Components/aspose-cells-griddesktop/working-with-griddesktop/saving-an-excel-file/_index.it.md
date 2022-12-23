@@ -37,6 +37,6 @@ IMPORTANTE: un punto importante da discutere è che il controllo Aspose.Cells.Gr
 
 {{% alert color="primary" %}} 
 
-IMPORTANTE: Microsoft Excel supporta i fogli Excel che possono contenere 65.536 righe e 256 colonne al massimo. Anche Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, gli sviluppatori possono creare più righe e colonne rispetto al limite standard, ma quando si salvano i dati della griglia in un file Excel, verrà generata un'eccezione. Significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file Excel utilizzando Aspose.Cells.GridDesktop.
+IMPORTANTE: Microsoft Excel supporta I fogli Excel possono contenere 65.536 righe e 256 colonne max. Anche Aspose.Cells.GridDesktop segue gli stessi standard. Nel controllo Aspose.Cells.GridDesktop, gli sviluppatori possono creare più righe e colonne rispetto al limite standard, ma quando si salvano i dati della griglia in un file Excel, verrà generata un'eccezione. Significa che solo i dati contenuti nelle 65.536 righe e 256 colonne possono essere salvati in un file Excel utilizzando Aspose.Cells.GridDesktop.
 
 {{% /alert %}}

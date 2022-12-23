@@ -21,12 +21,12 @@ Estamos
 
 - Cells.findString()/find() admite la búsqueda de RegExand en un rango específico
 - Soporte Imagen.setTitle()/getTitle()
-- Guarde los gráficos de MS Excel en el archivo ODS
-- Hacer que el archivo XLS creado Aspose.Cells sea compatible con POI
+- Guardar gráficos de MS Excel en el archivo ODS
+- Hacer Aspose.Cells creado XLS archivo compatible con POI
 
  Excepciones
 
-- La lectura del archivo XLSX produce: "java.lang.ClassCastException:org.dom4j.Namespace"
+- Leer el archivo XLSX produce: “java.lang.ClassCastException:org.dom4j.Namespace”
 
  Insectos
 

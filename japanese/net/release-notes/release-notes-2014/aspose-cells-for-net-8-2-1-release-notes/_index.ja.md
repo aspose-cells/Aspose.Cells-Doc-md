@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-2-1-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET がバージョン 8.2.1 に更新されました。このリリースで 30 を超える新しい便利な改善が追加されたことをお知らせいたします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -70,19 +70,19 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42934) - 誤った読み方の散布図タイプと名前範囲参照
 
-(CELLSNET-42926) - SpreadsheetML ドキュメントから変換するときにフッターが正しくない
+(CELLSNET-42926) - SpreadsheetML ドキュメントから変換するとフッターが正しくない
 
 (CELLSNET-42837) - チャットの凡例キーを含むデータ テーブルを表示する
 
-(CELLSNET-41129) ・出力PDFファイルでロゴが消える
+(CELLSNET-41129) - 出力 PDF ファイルでロゴが消えた
 
-(CELLSNET-42986) - テーブルに行を挿入するときにセルに誤った数式がコピーされる
+(CELLSNET-42986) - テーブルに行を挿入するときにセルに誤った式がコピーされる
 
 (CELLSNET-42974) - Aspose.Cells 外部データを含むスプレッドシートの破損
 
 (CELLSNET-42802) - パイ、ドーナツ。計算式
 
-(CELLSNET-42940) - XLS の PDF 内のハイパーリンク
+(CELLSNET-42940) - XLS の PDF のハイパーリンク
 
 (CELLSNET-42738) - 散布図の平滑化された線にループが含まれる
 

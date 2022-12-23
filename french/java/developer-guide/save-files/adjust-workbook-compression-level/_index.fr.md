@@ -6,7 +6,7 @@ url: /fr/java/adjust-workbook-compression-level/
 ---
 ## **Ajuster le niveau de compression du classeur**
 
-Les développeurs peuvent ajuster le niveau de compression du classeur lorsqu'ils travaillent avec des classeurs plus volumineux. Les développeurs peuvent donner la priorité aux tailles de fichiers plus petites par rapport au temps de traitement ou vice versa. Aspose.Cells fournit**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)**énumération que vous pouvez utiliser pour définir le niveau de compression du classeur. La**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** L'énumération fournit les membres suivants.
+Les développeurs peuvent ajuster le niveau de compression du classeur lorsqu'ils travaillent avec des classeurs plus volumineux. Les développeurs peuvent donner la priorité aux tailles de fichiers plus petites par rapport au temps de traitement ou vice versa. Aspose.Cells fournit**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)**énumération que vous pouvez utiliser pour définir le niveau de compression du classeur. Le**[OoxmlCompressionType](https://reference.aspose.com/cells/java/com.aspose.cells/OoxmlCompressionType)** L'énumération fournit les membres suivants.
 
 - **[LEVEL_1](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_1)**: La compression la plus rapide mais la moins efficace.
 - **[LEVEL_2](https://reference.aspose.com/cells/java/com.aspose.cells/ooxmlcompressiontype#LEVEL_2)**: Un peu plus lent, mais mieux, que le niveau 1.

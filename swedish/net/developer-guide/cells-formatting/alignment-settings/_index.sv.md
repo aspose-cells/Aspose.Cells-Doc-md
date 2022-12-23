@@ -38,7 +38,7 @@ Alla dessa justeringsinställningar stöds fullt ut av Aspose.Cells och diskuter
 |Allmän|Representerar allmän textjustering|
 |Rättfärdiga|Representerar justera textjustering|
 |Vänster|Representerar vänster textjustering|
-|Höger|Representerar höger textjustering|
+|Rätt|Representerar höger textjustering|
 |Topp|Representerar topptextjustering|
 |JustifiedLow|Justerar texten med en justerad kashida-längd för arabisk text.|
 |ThaiDistribuerat|Distribuerar thailändsk text speciellt, eftersom varje tecken behandlas som ett ord.|
@@ -51,25 +51,25 @@ Alla dessa justeringsinställningar stöds fullt ut av Aspose.Cells och diskuter
 
 #### **Horisontell linjering**
 
- Använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Horisontell linjering**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)egenskap för att justera texten horisontellt.
+ Använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Horisontell linjering**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/horizontalalignment)egenskap för att justera texten horisontellt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentHorizontal-1.cs" >}}
 
 #### **Vertikal inriktning**
 
- I likhet med horisontell justering, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Vertical Alignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment)egenskap för att justera texten vertikalt.
+ I likhet med horisontell justering, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Vertical Alignment**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/verticalalignment)egenskap för att justera texten vertikalt.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-TextAlignmentVertical-1.cs" >}}
 
 #### **Indrag**
 
- Det är möjligt att ställa in indragsnivån för texten i en cell med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**IndentLevel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)fast egendom.
+ Det är möjligt att ställa in indragsnivån för texten i en cell med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**IndentLevel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/indentlevel)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Indentation-1.cs" >}}
 
 #### **Orientering**
 
- Ställ in orienteringen (rotationen) för texten i en cell med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Rotations vinkel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)fast egendom.
+ Ställ in orienteringen (rotationen) för texten i en cell med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Rotations vinkel**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/rotationangle)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-Orientation-1.cs" >}}
 
@@ -79,13 +79,13 @@ Följande avsnitt diskuterar hur man kontrollerar text genom att ställa in text
 
 ##### **Radbrytande text**
 
- Radbrytning av text i en cell gör det lättare att läsa: cellens höjd justeras för att passa all text, istället för att klippa av den eller spilla över i intilliggande celler. Slå på eller av textbrytning med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)fast egendom.
+ Radbrytning av text i en cell gör det lättare att läsa: cellens höjd justeras för att passa all text, istället för att klippa av den eller spilla över i intilliggande celler. Slå på eller av textbrytning med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped)fast egendom.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-LineBreakTextWrapping-WrapText-1.cs" >}}
 
 ##### **Krymper för att passa**
 
- Ett alternativ för att radbryta text i ett fält är att krympa textstorleken så att den passar en cells dimensioner. Detta görs genom att ställa in[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) egendom till**Sann**.
+ Ett alternativ för att radbryta text i ett fält är att krympa textstorleken så att den passar en cells dimensioner. Detta görs genom att ställa in[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**IsTextWrapped**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/istextwrapped) egendom till**Sann**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-ConfiguringAlignmentSettings-ShrinkingToFit-1.cs" >}}
 
@@ -106,7 +106,7 @@ Följande avsnitt diskuterar hur man kontrollerar text genom att ställa in text
 
 Det är möjligt att ställa in läsordningen för text i celler. Läsordningen är den visuella ordning i vilken tecken, ord etc. visas. Till exempel är engelska ett språk från vänster till höger medan arabiska är ett språk från höger till vänster.
 
- Läsordningen ställs in med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) fast egendom. Aspose.Cells tillhandahåller fördefinierade textriktningstyper i[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)uppräkning.
+ Läsordningen ställs in med[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**TextDirection**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/textdirection) fast egendom. Aspose.Cells tillhandahåller fördefinierade textriktningstyper i[**TextDirectionType**](https://reference.aspose.com/cells/net/aspose.cells/textdirectiontype)uppräkning.
 
 |**Textriktningstyper**|**Beskrivning**|
 |:- |:- |

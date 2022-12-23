@@ -50,7 +50,7 @@ url: /it/net/aspose-cells-for-net-7-3-2-release-notes/
 
 - L'intervallo di fogli nella formula è stato modificato dopo che i fogli sono stati riordinati
 - Altezza della riga errata utilizzando AutoFitRows con l'opzione IsTextWrapped attivata
-- Proteggi la cartella di lavoro con ProtectionType.Windows
+- Proteggi cartella di lavoro con ProtectionType.Windows
 - Problema con l'impostazione dello zoom nell'anteprima dell'interruzione di pagina
 - Tabella: funzione Converti in intervallo
 - File danneggiato con la nuova versione Aspose.Cells
@@ -63,7 +63,7 @@ url: /it/net/aspose-cells-for-net-7-3-2-release-notes/
 
  -Il salvataggio del file XLSX con il grafico a dispersione consente opzioni extra
 
--DataLabels.ShowBubbleSize problema con il formato di file XLSX
+ -DataLabels.ShowBubbleSize problema con il formato di file XLSX
 
  -Il titolo del grafico a torta di Excel non viene visualizzato correttamente nel file immagine
 
@@ -81,7 +81,7 @@ url: /it/net/aspose-cells-for-net-7-3-2-release-notes/
 - I totali parziali sono calcolati in un ordine errato (marcatori intelligenti)
 - Dimensione del file XLSB di Excel Problema: l'elenco di selezione scompare
 
- -Errore di forma nell'immagine durante il salvataggio del PDF utilizzando Aspose Cells
+-Errore di forma nell'immagine durante il salvataggio di PDF utilizzando Aspose Cells
 
 - Dopo la conversione in PDF, il file è danneggiato
 

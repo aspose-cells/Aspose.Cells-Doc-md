@@ -10,7 +10,7 @@ url: /ar/net/set-picture-as-background-fill-in-the-chart/
 
 {{% /alert %}}
 
-لتحقيق ذلك ، يوفر Aspose.Cells الامتداد[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) منشأه. يوضح نموذج التعليمات البرمجية التالي استخدام[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) لتعيين صورة كخلفية لتعبئة الرسم البياني.
+لتحقيق ذلك ، يوفر Aspose.Cells الامتداد[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) خاصية. يوضح نموذج التعليمات البرمجية التالي استخدام[**Chart.PlotArea.Area.FillFormat.ImageData**](https://reference.aspose.com/cells/net/aspose.cells.drawing/fillformat/properties/imagedata) لتعيين صورة كخلفية لتعبئة الرسم البياني.
 
 ## C# كود لضبط الصورة كخلفية لتعبئة الرسم البياني
 

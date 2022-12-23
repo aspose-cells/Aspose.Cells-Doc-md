@@ -6,7 +6,7 @@ url: /es/java/determine-which-axis-exists-in-the-chart/
 ---
 {{% alert color="primary" %}}
 
-A veces, el usuario necesita saber si existe un eje en particular en el gráfico. Por ejemplo, quiere saber si existe un eje de valor secundario dentro del gráfico o no. Algunos gráficos como Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. no tienen un eje.
+A veces, el usuario necesita saber si existe un eje en particular en el Gráfico. Por ejemplo, quiere saber si existe un eje de valor secundario dentro del gráfico o no. Algunos gráficos como Pie, PieExploded, PiePie, PieBar, Pie3D, Pie3DExploded, Doughnut, DoughnutExploded, etc. no tienen un eje.
 
  Aspose.Cells proporciona[**Chart.hasAxis(int axisType, boolean isPrimary)**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#hasAxis(int,%20boolean)) para determinar si el gráfico tiene un eje en particular o no.
 

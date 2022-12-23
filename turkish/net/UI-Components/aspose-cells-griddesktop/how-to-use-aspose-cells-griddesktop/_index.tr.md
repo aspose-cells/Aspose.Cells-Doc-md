@@ -29,7 +29,7 @@ Yukarıdaki adımları gerçekleştirdikten sonra boş formda bir pencere uygula
 ### **Uygulamayı Çalıştır**
  Son olarak, basarak uygulamayı çalıştırın**Ctrl+F5** veya**Başlama** buton. Uygulama çalıştığında boş bir Aspose.Cells.GridDesktop denetimi içeren bir form görüyoruz. Artık hücrelere tıklayarak değerler ekleyebilirsiniz. Aşağıdaki ekran görüntüsü, uygulamanızın sonunda nasıl görüneceğini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](how-to-use-aspose-cells-griddesktop_1.png)
+![yapılacaklar:resim_alternatif_metin](how-to-use-aspose-cells-griddesktop_1.png)
 
 Kontrole sadece değer eklemek değil, aynı zamanda bir satırın yüksekliğini veya bir sütunun genişliğini değiştirmek, hücre verilerini kopyalamak (Ctrl+C) veya kesmek (Ctrl+X) gibi diğer görevleri de gerçekleştirmek mümkündür. (Ctrl+V) verilerini hücreye yapıştırma vb. Daha fazla işlem gerçekleştirmek için, bağlam menüsünü görmek için kontrolü sağ tıklayın.
 

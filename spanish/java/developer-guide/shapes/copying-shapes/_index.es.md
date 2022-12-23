@@ -6,7 +6,7 @@ url: /es/java/copy-shapes-between-worksheets/
 ---
 {{% alert color="primary" %}}
 
-veces, necesita copiar diferentes imágenes, gráficos y otros objetos de dibujo en diferentes hojas de trabajo según sus requisitos. Aspose.Cells admite la copia de formas entre hojas de trabajo. Los gráficos, imágenes y otros objetos se copian con el mayor grado de precisión.
+A veces, necesita copiar diferentes imágenes, gráficos y otros objetos de dibujo en diferentes hojas de trabajo según sus requisitos. Aspose.Cells admite la copia de formas entre hojas de trabajo. Los gráficos, imágenes y otros objetos se copian con el mayor grado de precisión.
 
 Puede probar la automatización de oficinas, pero eso tiene sus propios inconvenientes. Hay varias razones y problemas involucrados: por ejemplo, seguridad, estabilidad, escalabilidad, velocidad, precio y características. En resumen, hay muchas razones, siendo la principal que Microsoft recomienda enfáticamente contra la automatización de Office de las soluciones de software.
 
@@ -61,7 +61,7 @@ Para establecer una ruta de clase usando Eclipse, realice los siguientes pasos:
 1. Extraiga Aspose.Cells.jar y dom4j_1.6.1.jar de Aspose.Cells.zip.
 1. Establezca el classpath del proyecto en Eclipse:
 1. Seleccione su proyecto en Eclipse y luego haga clic en los menús Proyecto-Propiedades.
-1. Seleccione "Java Ruta de compilación" en el lado izquierdo de la ventana emergente, luego seleccione la pestaña "Bibliotecas", haga clic en "Agregar JAR" o "Agregar JAR externos" para seleccionar Aspose.Cells.jar y dom4j_1.6.1.jar y agregarlos a la compilación caminos.
+1. Seleccione "Java Ruta de compilación" en el lado izquierdo de la ventana emergente, luego seleccione la pestaña "Bibliotecas", haga clic en "Agregar JAR" o "Agregar JAR externos" para seleccionar Aspose.Cells.jar y dom4j_1.6.1.jar y agregarlos a la compilación rutas.
 1. Escriba una aplicación para invocar las API de los componentes de Aspose.
 
 O puede configurarlo en tiempo de ejecución en el indicador de DOS en Windows. Por ejemplo:
@@ -70,7 +70,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 
 #### **Paso 5: Copiar una imagen de una hoja de trabajo a otra**
 
-continuación se muestra el código para realizar la tarea. Copia una imagen de la hoja de trabajo denominada "Imagen" a la hoja de trabajo "Resultado".
+A continuación se muestra el código para realizar la tarea. Copia una imagen de la hoja de trabajo denominada "Imagen" a la hoja de trabajo "Resultado".
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CopyPicturefromOneWorksheetToAnother-CopyPicturefromOneWorksheetToAnother.java" >}}
 

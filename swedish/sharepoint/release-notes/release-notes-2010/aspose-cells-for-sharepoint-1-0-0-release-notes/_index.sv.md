@@ -14,5 +14,5 @@ url: /sv/sharepoint/aspose-cells-for-sharepoint-1-0-0-release-notes/
 
  Vad är nytt:
 
--  Stöd för MS Excel-inmatningsformat: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
+- Stöd för MS Excel-inmatningsformat: XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
 -  Stöd för utdataformat: XLS, XLSX, CSV, HTML, ODS, PDF, SpreadsheetML, TXT.

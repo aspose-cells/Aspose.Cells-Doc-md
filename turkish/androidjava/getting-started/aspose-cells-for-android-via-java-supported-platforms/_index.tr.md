@@ -8,4 +8,4 @@ Aspose.Cells for Android via Java tamamen Java'de yazılmıştır, yalnızca sta
 
 - Aspose.Cells for Android via Java kavanoz kitaplığı.
 - Örnek projeler.
-- Aspose.Cells HTML biçiminde belgeler.
+- Aspose.Cells HTML formatında belgeler.

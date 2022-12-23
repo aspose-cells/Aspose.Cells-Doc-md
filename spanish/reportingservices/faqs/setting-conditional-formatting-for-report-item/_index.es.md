@@ -17,7 +17,7 @@ Para establecer el formato condicional para los elementos del informe:
 
 1.  Seleccione la celda I6 y agregue formato condicional a esta celda para el elemento del informe de la tabla.
  1. Formatee las celdas que tienen menos de 1000 con relleno rojo claro con texto rojo oscuro.
- 1. Formatee las celdas mayores de 1000 con relleno amarillo claro con texto amarillo oscuro.
+1. Formatee las celdas mayores de 1000 con relleno amarillo claro con texto amarillo oscuro.
 1.  Establezca más formato condicional para una celda.
 
 ![todo:imagen_alternativa_texto](setting-conditional-formatting-for-report-item_2.png)
@@ -37,7 +37,7 @@ Para establecer el formato condicional para los elementos del informe:
 
 
 
-1. Agregue formato condicional para esta celda para el elemento de informe de matriz o el elemento de informe de cuadro de texto.
+1.  Agregue formato condicional para esta celda para el elemento de informe de matriz o el elemento de informe de cuadro de texto.
 
 ![todo:imagen_alternativa_texto](setting-conditional-formatting-for-report-item_5.png)
 

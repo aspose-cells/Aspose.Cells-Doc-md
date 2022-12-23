@@ -3,6 +3,7 @@ title: Kılavuz Çizgilerini ve Satır Sütun Başlıklarını Gösterme ve Gizl
 type: docs
 weight: 30
 url: /tr/net/show-and-hide-gridlines-and-row-column-headers/
+description: Bu makale, bir Excel çalışma sayfasının kılavuz çizgilerini, satır ve sütun başlıklarını programlı olarak gizlemek veya göstermek için C# API veya .NET Kitaplığının kullanımına ilişkin örnek kod sağlar.
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +17,7 @@ Tüm Excel çalışma sayfalarında varsayılan olarak kılavuz çizgileri bulun
 
 ### **Kılavuz Çizgilerin Görünürlüğünü Kontrol Etme**
 
-Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook), bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)geliştiricilerin Excel dosyasındaki her çalışma sayfasına erişmesine izin veren koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kılavuz çizgilerinin görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Emlak.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış** değer.
+Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook), bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)geliştiricilerin Excel dosyasındaki her çalışma sayfasına erişmesine izin veren koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Kılavuz çizgilerinin görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) Emlak.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ** değer.
 
 #### **Kılavuz Çizgilerini Görünür Hale Getirme**
 
@@ -24,7 +25,7 @@ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspo
 
 #### **Kılavuz Çizgilerini Gizleme**
 
- ayarlayarak kılavuz çizgilerini gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) mülkiyet**yanlış**.
+ ayarlayarak kılavuz çizgilerini gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible) mülkiyet**YANLIŞ**.
 
  kullanımını gösteren tam bir örnek aşağıda verilmiştir.[**Izgara Çizgileri Görünür mü**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isgridlinesvisible)özelliği, bir excel dosyasını (book1.xls) açarak, ilk çalışma sayfasındaki kılavuz çizgilerini gizleyerek ve değiştirilen dosyayı output.xls olarak kaydederek.
 
@@ -36,7 +37,7 @@ Bir Excel dosyasındaki tüm çalışma sayfaları, satırlar ve sütunlar halin
 
 ### **Çalışma Sayfalarının Görünürlüğünü Kontrol Etme**
 
-Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook), bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)geliştiricilerin Excel dosyasındaki her çalışma sayfasına erişmesine izin veren koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Satır ve sütun başlıklarının görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) Emlak.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**yanlış**değer.
+Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook), bu bir Microsoft Excel dosyasını temsil eder. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)geliştiricilerin Excel dosyasındaki her çalışma sayfasına erişmesine izin veren koleksiyon. Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet)sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, bir çalışma sayfasını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Satır ve sütun başlıklarının görünürlüğünü kontrol etmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) Emlak.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya**YANLIŞ**değer.
 
 #### **Satır/Sütun Başlıklarını Görünür Hale Getirme**
 
@@ -44,7 +45,7 @@ Aspose.Cells bir sınıf sağlar,[**Çalışma kitabı**](https://reference.aspo
 
 #### **Satır/Sütun Başlıklarını Gizleme**
 
- ayarlayarak satır ve sütun başlıklarını gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) mülkiyet**yanlış**.
+ ayarlayarak satır ve sütun başlıklarını gizleyin.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible) mülkiyet**YANLIŞ**.
 
 nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[**IsRowColumnHeadersVisible**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isrowcolumnheadersvisible)özelliği, bir excel dosyasını (book1.xls) açarak, ilk çalışma sayfasındaki satır ve sütun başlıklarını gizleyerek ve değiştirilen dosyayı output.xls olarak kaydederek.
 

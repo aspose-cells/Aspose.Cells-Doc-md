@@ -6,7 +6,7 @@ url: /ar/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[تركيب Aspose.Cells for SharePoint](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint/)يرشدك خلال عملية التثبيت. تشرح هذه المقالة ما يتم نشر عملية التثبيت وتنشيطها.
+[تركيب Aspose.Cells for SharePoint](/cells/ar/sharepoint/installing-aspose-cells-for-sharepoint/) يرشدك خلال عملية التثبيت. تشرح هذه المقالة ما يتم نشر عملية التثبيت وتنشيطها.
 
 {{% /alert %}} 
 ### **تعيين**

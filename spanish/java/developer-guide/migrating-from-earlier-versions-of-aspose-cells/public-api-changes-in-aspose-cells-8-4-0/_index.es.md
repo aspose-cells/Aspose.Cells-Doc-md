@@ -225,7 +225,7 @@ Aspose.Cells Las API permiten extraer datos relacionados con el tema de las hoja
 ### **Propiedad DrawObject.ImageBytes agregada**
 Aspose.Cells for Java 8.4.0 ha expuesto la propiedad DrawObject.ImageBytes para obtener los datos de imagen de Chart o Shape.
 ### **Propiedad HtmlSaveOptions.ExportBogusRowData agregado**
- Aspose.Cells for Java 8.4.0 ha proporcionado la propiedad {HtmlSaveOptions.ExportBogusRowData}}. La propiedad de tipo booleano determina si API inyectará datos falsos en la fila inferior al exportar la hoja de cálculo a formato HTML.
+ Aspose.Cells for Java 8.4.0 ha proporcionado la propiedad {HtmlSaveOptions.ExportBogusRowData}}. La propiedad de tipo booleano determina si API inyectará datos falsos en la fila inferior al exportar la hoja de cálculo al formato HTML.
 
 {{% alert color="primary" %}} 
 
@@ -257,7 +257,7 @@ workbook.save("output.xlsx");
 
 {{< /highlight >}}
 ### **Propiedad HtmlSaveOptions.CellCssPrefix agregado**
-La propiedad recién agregada HtmlSaveOptions.CellCssPrefix permite establecer el prefijo para los archivos CSS al exportar hojas de cálculo a formato HTML.
+La propiedad recién agregada HtmlSaveOptions.CellCssPrefix permite establecer el prefijo para los archivos CSS al exportar hojas de cálculo al formato HTML.
 
 {{% alert color="primary" %}} 
 

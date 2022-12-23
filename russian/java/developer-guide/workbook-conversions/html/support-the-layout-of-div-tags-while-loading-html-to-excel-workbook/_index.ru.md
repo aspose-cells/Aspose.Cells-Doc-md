@@ -10,6 +10,6 @@ url: /ru/java/support-the-layout-of-div-tags-while-loading-html-to-excel-workboo
 
 {{% /alert %}} 
 ## **Поддержка макета тегов DIV при загрузке HTML в книгу Excel**
- Следующий пример кода иллюстрирует использование[Хтмллоадоптионс. Суппортдивтаг](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag) имущество. Пожалуйста, загрузите[Aspose Логотип](5473442.png) используется внутри входного HTML и[выходной файл excel](5473439.xlsx) генерируется кодом.
+ Следующий пример кода иллюстрирует использование[Хтмллоадоптионс. Суппортдивтаг](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#SupportDivTag) имущество. Пожалуйста, загрузите[Aspose Логотип](5473442.png) используется внутри ввода HTML и[выходной файл excel](5473439.xlsx) генерируется кодом.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-SupportthelayoutofDIVtags-1.java" >}}

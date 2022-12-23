@@ -20,8 +20,8 @@ Les API Aspose.Cells prennent en charge la plupart des fonctions standard et la 
 
 Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calculer les résultats des formules et fonctions suivantes.
 
-###### **UN**
-|**Fonction**|**Sommaire**|
+###### **UNE**
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |abdos|
 |ACCRINT|
@@ -41,13 +41,13 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |ATAN2|
 |ATANH|
 |AVEDEV|
-|MOYEN|
 |MOYENNE|
-|MOYENNESI|
+|MOYENNE|
+|MOYENNE SI|
 |MOYENNE SI|
 
 ###### **B**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |BESSELI|
 |BESSELJ|
@@ -69,7 +69,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |BITXOR|
 
 ###### **C**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |PLAFOND|
 |PLAFOND.MATH|
@@ -84,7 +84,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |CHISQ.INV.RT|
 |CHISQ.TEST|
 |CHOISIR|
-|NETTOYER|
+|FAIRE LE MÉNAGE|
 |CODE|
 |COLONNE|
 |COLONNES|
@@ -117,14 +117,14 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |CUPRINC|
 
 ###### **RÉ**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |DATE|
 |DATESI|
 |DATEVALUE|
 |MOYENNE|
 |JOURNÉE|
-|JOURNÉES|
+|JOURS|
 |JOURS360|
 |BD|
 |DCOUNT|
@@ -152,7 +152,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |DVARP|
 
 ###### **E**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |EDATE|
 |EFFET|
@@ -166,7 +166,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |EXPONDISTE|
 
 ###### **F**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |FAIT|
 |FAITDOUBLE|
@@ -182,17 +182,17 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |PÊCHEUR|
 |PÊCHEUR|
 |FIXÉ|
-|SOL|
+|ÉTAGE|
 |PLANCHER.MATH|
-|PRÉVOIR|
+|LES PRÉVISIONS|
 |PRÉVISION.LINÉAIRE|
 |FORMULETEXTE|
-|LA FRÉQUENCE|
+|FRÉQUENCE|
 |VF|
 |FVSHORAIRE|
 
 ###### **G**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |DIST.GAMMA|
 |GAMMADISTE|
@@ -206,7 +206,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |CROISSANCE|
 
 ###### **H**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |HARMEAN|
 |HEX2BIN|
@@ -219,7 +219,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |LOI.HYPGEOMD|
 
 ###### **JE**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |SI|
 |SIERREUR|
@@ -264,16 +264,16 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |ISPMT|
 
 ###### **K**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |KURT|
 
 ###### **L**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
-|GRAND|
+|GRANDE|
 |LCM|
-|LA GAUCHE|
+|GAUCHE|
 |GAUCHETB|
 |LEN|
 |LENB|
@@ -290,9 +290,9 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |PLUS BAS|
 
 ###### **M**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
-|MATCH|
+|RENCONTRE|
 |MAX|
 |MAXA|
 |MAXIFS|
@@ -317,7 +317,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |MULTINOMIAL|
 
 ###### **N**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |N|
 |N / A|
@@ -335,13 +335,13 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |NORM.S.INV|
 |NORMSINV|
 |NE PAS|
-|À PRÉSENT|
+|MAINTENANT|
 |NPER|
 |VAN|
 |NUMBERVALUE|
 
 ###### **O**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |OCT2BIN|
 |OCT2DEC|
@@ -352,10 +352,10 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |ODDLPRICE|
 |CHAMP ÉTRANGE|
 |DÉCALAGE|
-|OU|
+|OU ALORS|
 
 ###### **P**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |PEARSON|
 |CENTILE.EXC|
@@ -380,7 +380,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |PV|
 
 ###### **Q**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |QUARTILE|
 |QUARTILE.EXC|
@@ -388,7 +388,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |QUOTIENT|
 
 ###### **R**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |RADIANS|
 |RAND|
@@ -397,15 +397,15 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |RANG.MOY|
 |RANG.EQ|
 |RANG|
-|ÉVALUER|
-|REÇU|
+|FRÉQUENCE|
+|A REÇU|
 |REMPLACER|
 |REMPLACEB|
 |REPT|
 |DROIT|
 |DROITEB|
 |ROMAIN|
-|TOUR|
+|ROND|
 |ARRONDIR VERS LE BAS|
 |ARRONDISSEMENT|
 |LIGNE|
@@ -413,16 +413,16 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |RSQ|
 
 ###### **S**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
-|CHERCHER|
+|RECHERCHER|
 |RECHERCHEB|
 |DEUXIÈME|
 |SÉQUENCE|
 |SOMME DE LA SÉRIE|
 |FEUILLE|
 |DES DRAPS|
-|PANCARTE|
+|SIGNE|
 |PÉCHÉ|
 |SINH|
 |FAUSSER|
@@ -451,11 +451,11 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |SUMX2MY2|
 |SUMX2PY2|
 |SUMXMY2|
-|CHANGER|
+|INTERRUPTEUR|
 |SYD|
 
 ###### **C**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |J|
 |BRONZER|
@@ -484,7 +484,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |TAPER|
 
 ###### **U**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |UNICHAR|
 |UNICODE|
@@ -492,7 +492,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |PLUS HAUT|
 
 ###### **V**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |ÉVALUER|
 |VAR|
@@ -505,7 +505,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |RECHERCHEV|
 
 ###### **F**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |JOUR DE LA SEMAINE|
 |NUMERO DE SEMAINE|
@@ -515,14 +515,14 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |WORKDAY.INTL|
 
 ###### **X**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |XIRR|
 |XRECHERCHE|
 |XNPV|
 
 ###### **O**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |AN|
 |ANNEEFRAC|
@@ -531,7 +531,7 @@ Aspose.Cells' Formula Calculation Engine vous permet de définir, lire et calcul
 |YIELDMAT|
 
 ###### **Z**
-|**Fonction**|**Sommaire**|
+|**Une fonction**|**Résumé**|
 |:- |:- |
 |Z.TEST|
 |ZTEST|

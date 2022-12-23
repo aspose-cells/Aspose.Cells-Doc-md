@@ -12,7 +12,7 @@ url: /fr/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [Effacer un Cell](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **Sélection d'un Cell**
@@ -97,13 +97,13 @@ Pour supprimer une cellule :
 1. Cliquez sur une cellule que vous souhaitez supprimer.
 1.  Basculer vers**Onglet Format**.
 1.  Cliquez sur**Supprimer Cell** bouton.
-1.  Choisir**Maj Cells vers le haut** ou**Maj Cells Gauche** bouton.
+1.  Choisir**Maj Cells vers le haut** ou alors**Maj Cells Gauche** bouton.
 
 L'éditeur supprimera la cellule sélectionnée. Les cellules adjacentes seront automatiquement décalées horizontalement ou verticalement pour ajuster l'espace.
 
 **Comment ça fonctionne?**
 
- La**Maj Cells vers le haut** et**Maj Cells Gauche** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+ Le**Maj Cells vers le haut** et**Maj Cells Gauche** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.removeCellShiftUp**
 {{< highlight "java" >}}
 
@@ -147,13 +147,13 @@ Pour vider une cellule :
 1. Cliquez sur une cellule que vous souhaitez effacer.
 1.  Basculer vers**Onglet Format**.
 1.  Cliquez sur**Clair Cell** bouton.
-1.  Choisir**Formats**, **Contenu** ou**Tous les deux** option.
+1.  Choisir**Formats**, **Contenu** ou alors**Tous les deux** option.
 
 L'éditeur effacera la cellule sélectionnée.
 
 **Comment ça fonctionne?**
 
- La**Formats**, **Contenu** et**Tous les deux** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
+ Le**Formats**, **Contenu** et**Tous les deux** sont gérés par le bean backend JSF**Feuille de calcul**. Le code source des méthodes respectives est le suivant :
 #### **WorksheetView.clearCurrentCellFormatting**
 {{< highlight "java" >}}
 

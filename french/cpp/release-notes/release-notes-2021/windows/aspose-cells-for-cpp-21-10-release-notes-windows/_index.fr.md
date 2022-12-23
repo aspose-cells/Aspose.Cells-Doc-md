@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 21.10 pour Wi
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-478| Mise à niveau du module boost pour Windows|Amélioration|
 |CELLSCPP-483| Module boost de mise à niveau pour Linux|Amélioration|

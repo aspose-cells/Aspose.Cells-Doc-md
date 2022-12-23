@@ -22,7 +22,7 @@ Aspose.Cells for .NET 已更新到版本 8.1.2，我们很高兴地宣布此版�
 ## **表现**
 
 
- (CELLSNET-42820) - FileFormatUtil.DetectFileFormat 在检测损坏的电子表格时使用所有系统的可用内存
+(CELLSNET-42820) - FileFormatUtil.DetectFileFormat 在检测损坏的电子表格时使用所有系统的可用内存
 
 
 ## **虫子**
@@ -30,7 +30,7 @@ Aspose.Cells for .NET 已更新到版本 8.1.2，我们很高兴地宣布此版�
 
 (CELLSNET-42801) - 将数据透视表转换为 PDF 时数据丢失
 
-(CELLSNET-42800) - 将数据透视表转换为 PDF 时缺少总标题
+(CELLSNET-42800) - 当数据透视表转换为 PDF 时缺少总标题
 
 (CELLSNET-42799) - Cell 数据透视表转换为 PDF 时的合并问题
 
@@ -40,7 +40,7 @@ Aspose.Cells for .NET 已更新到版本 8.1.2，我们很高兴地宣布此版�
 
 (CELLSNET-42438) - 当过滤行并将电子表格转换为 HTML 时，合并的单元格内容消失
 
-(CELLSNET-42353) - Aspose.Cells 在将 XLS 转换为 PDF 时生成双倍厚度的箭头
+(CELLSNET-42353) - Aspose.Cells 在将 XLS 转换为 PDF 时产生双倍厚度的箭头
 
 (CELLSNET-42747) - 打印结果未正确居中并且最后一行丢失
 

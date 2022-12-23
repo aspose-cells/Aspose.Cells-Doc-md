@@ -33,22 +33,22 @@ Aspose.Cells 4.7.1 で解決された問題
 |7729 |Chart2Image|グラフ イメージが基になるグラフ オブジェクトのように見えない|
 |7938 |Charts2Image|円グラフにパーセント記号が表示されない|
 |7981 |Charts2Image|エクスポートされたチャートがめちゃくちゃ|
-|8114 |Charts2Image|破損した HTML でグラフを含むワークブックを保存する|
+|8114 |Charts2Image|HTML の破損したグラフを含むワークブックを保存する|
 |8119 |Charts2Image|FillFormat.Pattern の使用|
 |8223 |Charts2Image|カテゴリ X 軸のタイトルが表示されない|
-|8113 | HTML|スペースを含むワークシート名で壊れた HTML|
-|8420 | HTML| HTML エクスポート形式の問題|
+|8113 |HTML |スペースを含むワークシート名で壊れた HTML|
+|8420 |HTML | HTML エクスポート形式の問題|
 |7718 | PDF|セルを pdf に直接変換するハイパーリンクをサポート|
 |7723 | PDF|Aspose.Cells を PDF に変換する際のフォントの問題|
 |7726 | PDF|Cells 4.7.0 PDF ストリームへの保存が機能しない|
 |7727 | PDF|Pdf ファイルが大きすぎます|
 |7730 | PDF|キーはすでにディクショナリ例外に追加されています|
-|7838 | PDF|Excel to PDF で破損した PDF ファイルが生成される|
+|7838 | PDF|Excel を PDF にすると破損した PDF ファイルが生成される|
 |7978 | PDF|いくつかの Aspose.Cells 保存の問題|
 |7980 | PDF|出力の違い|
 |7728 | SpreadML|範囲外のインデックス|
-|8116 | SpreadML|シートが削除されたときの SpreadsheetML の不具合|
-|8118 | SpreadML|PRINT_AREA が存在する場合のエラー|
+|8116 | SpreadML|シートが削除されたときの悪い SpreadsheetML|
+|8118 | SpreadML| PRINT_AREA が存在する場合のエラー|
 |7381 |xls|Excel2007 のメソッド EndCellinRow|
 |7722 |xls|コピー範囲の検証をコピーします。|
 |7731 |xls|現在の言語が指定された日付数値形式|

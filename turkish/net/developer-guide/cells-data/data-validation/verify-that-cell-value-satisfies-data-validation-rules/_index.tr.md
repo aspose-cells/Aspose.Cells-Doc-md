@@ -11,10 +11,10 @@ Microsoft Excel, kullanıcıların hücrelere veri doğrulama kuralları eklemes
 Bazen, bir değerin hücreye programlı olarak uygulanan veri doğrulama kurallarını karşılayıp karşılamadığını doğrulamak gerekir. Örneğin yukarıdaki durumda, giriş başarısız olmalıdır.
 
 {{% /alert %}} 
-## **giriiş**
- Aspose.Cells şunları sağlar:[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) hücre değerlerini programlı olarak doğrulama yöntemi. Bir hücredeki değer, o hücreye uygulanan veri doğrulama kuralını karşılamıyorsa,**Yanlış** , başka**Doğru**.
+## **Giriş**
+ Aspose.Cells şunları sağlar:[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) hücre değerlerini programlı olarak doğrulama yöntemi. Bir hücredeki değer, o hücreye uygulanan veri doğrulama kuralını karşılamıyorsa,**YANLIŞ** , Başka**Doğru**.
 
- Aşağıdaki örnek kod,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem çalışır. İlk önce C1'e 3 değerini girer. Bu, veri doğrulama kuralını karşılamadığından,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem döndürür**Yanlış** . Daha sonra C1'e 15 değerini girer. Bu değer, veri doğrulama kuralını karşıladığından,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem döndürür**Doğru** . Benzer şekilde, geri döner**Yanlış** 30 değeri için.
+ Aşağıdaki örnek kod,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem çalışır. İlk önce C1'e 3 değerini girer. Bu, veri doğrulama kuralını karşılamadığından,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem döndürür**YANLIŞ** . Daha sonra C1'e 15 değerini girer. Bu değer, veri doğrulama kuralını karşıladığından,[Cell.GetValidationValue()](https://reference.aspose.com/cells/net/aspose.cells/cell/methods/getvalidationvalue) yöntem döndürür**Doğru** . Benzer şekilde, geri döner**YANLIŞ** 30 değeri için.
 
 
 

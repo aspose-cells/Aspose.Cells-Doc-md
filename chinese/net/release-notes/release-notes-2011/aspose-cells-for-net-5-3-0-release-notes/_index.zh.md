@@ -15,7 +15,7 @@ url: /zh/net/aspose-cells-for-net-5-3-0-release-notes/
  Aspose.Cells 中发生了什么变化：
 
 - 图表到图像功能得到增强。
-增强了 Excel 到 PDF 的功能。
+ Excel-to-PDF 功能得到增强。
  R/W ODS 文件功能得到增强。
 增强了自动调整行功能。
  63 项改进和修复。

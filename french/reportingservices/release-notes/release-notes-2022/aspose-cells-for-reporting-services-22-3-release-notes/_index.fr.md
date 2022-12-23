@@ -9,7 +9,7 @@ weight: 19
 Cette page contient les notes de version pour Aspose.Cells for Reporting Services 22.3
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |28841 |Prise en charge du rendu au format Docx.|Nouvelle fonctionnalité|
 |28842 |Améliorer le rendu de texte.| Amélioration|

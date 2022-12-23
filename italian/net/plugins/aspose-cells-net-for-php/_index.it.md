@@ -23,13 +23,13 @@ url: /it/net/aspose-cells-net-for-php/
 **Di seguito le piattaforme supportate:**
 
 - PHP 5.3 o superiore
-- Sistema operativo Windows
+- Windows OS
 
 ### **Scarica e configura**
 
 #### **Scarica le librerie richieste**
 
-Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per l'esecuzione di Aspose.Cells Java for PHP esempi.
+Scarica le librerie richieste menzionate di seguito. Questi sono i requisiti per l'esecuzione degli esempi Aspose.Cells Java for PHP.
 
 - [Scarica i file Aspose.Cells for .NET (DLL o MSI) dalla sezione download](https://downloads.aspose.com/cells/net)
 - [Scarica Aspose.Cells for .NET interoperabilità dll](https://downloads.aspose.com/cells/net)
@@ -50,7 +50,7 @@ Le seguenti versioni di esempi in esecuzione sono disponibili per il download su
 
   - [Aspose.Cells .NET for PHP](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose_Cells_NET_for_PHP)
 
-#### **Come configurare il codice sorgente su piattaforma Windows**
+#### **Come configurare il codice sorgente sulla piattaforma Windows**
 
 Si prega di seguire questi semplici passaggi per aprire ed estendere il codice sorgente durante l'utilizzo:
 
@@ -150,7 +150,7 @@ Questa sezione include i seguenti argomenti
       - [Salvataggio di file in PHP](/cells/it/net/saving-files-in-php/)
     - [Funzionalità di utilità in PHP](/cells/it/net/utility-features-in-php/)
       - [Crittografia dei file in PHP](/cells/it/net/encrypting-files-in-php/)
-      - [Conversione da Excel a PDF in PHP](/cells/it/net/excel-to-pdf-conversion-in-php/)
+      - [Da Excel a PDF Conversione in PHP](/cells/it/net/excel-to-pdf-conversion-in-php/)
       - [Gestione delle proprietà del documento in PHP](/cells/it/net/managing-document-properties-in-php/)
       - [Conversione da foglio di lavoro a immagine in PHP](/cells/it/net/worksheet-to-image-conversion-in-php/)
   - [Lavorare con le formule in PHP](/cells/it/net/working-with-formulas-in-php/)

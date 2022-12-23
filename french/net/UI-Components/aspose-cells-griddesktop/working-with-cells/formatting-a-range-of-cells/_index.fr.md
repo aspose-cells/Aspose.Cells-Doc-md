@@ -10,7 +10,7 @@ Cette rubrique appartient également à la série de rubriques liées à l'appli
 
 {{% /alert %}} 
 ## **Définition de la police et du style d'une plage de Cells**
- Avant de parler des paramètres de mise en forme (dont nous avons déjà beaucoup parlé dans nos rubriques précédentes), nous devons savoir comment créer une plage de cellules. Eh bien, nous pouvons créer une plage de cellules en utilisant**CellRange** classe dont le constructeur prend certains paramètres pour spécifier la plage de cellules. Nous pouvons spécifier la plage de cellules en utilisant le**Des noms** ou**Indices de lignes et de colonnes** de cellules de début et de fin.
+ Avant de parler des paramètres de mise en forme (dont nous avons déjà beaucoup parlé dans nos rubriques précédentes), nous devons savoir comment créer une plage de cellules. Eh bien, nous pouvons créer une plage de cellules en utilisant**CellRange** classe dont le constructeur prend certains paramètres pour spécifier la plage de cellules. Nous pouvons spécifier la plage de cellules en utilisant le**Des noms** ou alors**Indices de lignes et de colonnes** de cellules de début et de fin.
 
  Une fois que nous avons créé un**CellRange** objet alors nous pouvons utiliser les versions surchargées de**DéfinirStyle**, **Définir la police** & **Définir la couleur de la police** méthodes de feuille de travail qui peuvent prendre un**CellRange** objet pour appliquer les paramètres de mise en forme sur la plage de cellules spécifiée.
 

@@ -6,7 +6,7 @@ url: /es/java/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}} 
 
-Es posible eliminar todas las filas y columnas en blanco de una hoja de cálculo. Esto es útil, por ejemplo, cuando genera un archivo PDF a partir de un archivo de Excel Microsoft y desea convertir solo filas y columnas que contienen datos.
+Es posible eliminar todas las filas y columnas en blanco de una hoja de trabajo. Esto es útil, por ejemplo, cuando genera un archivo PDF a partir de un archivo de Excel Microsoft y desea convertir solo filas y columnas que contienen datos.
 
 Utilice los siguientes métodos Aspose.Cells para eliminar filas y columnas vacías:
 

@@ -33,7 +33,7 @@ Bu sayfa [ Aspose.Cells for Reporting Services 1.4.3|https://downloads.aspose.co
 |**Sorun Kimliği** |**Bileşen** |**Özet** |
 |:- |:- |:- |
 |11837 | render| Aspose.Cells.ReportingServices tarafından desteklenen özellikler|
-|11563 | render| SSRS aboneliği XLS sorunu olarak dosya sistemine kaydediliyor|
+|11563 | render| XLS sorunu olarak dosya sistemine kaydetme SSRS aboneliği|
 |11085 | render| Aspose.Cells 64Bit Sorunları|
 |11090 | render| Programatik Satırlar|
 |10710 | render| .xls'ye dışa aktarmayı bildir|

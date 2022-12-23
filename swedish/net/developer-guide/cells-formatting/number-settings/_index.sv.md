@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /sv/net/cells-number-settings/
 ---
-## **Ställa in visningsformat för siffror och datum**
+## **Ställa in visningsformat för Numbers och datum**
 
 En mycket stark egenskap hos Microsoft Excel är att den tillåter användare att ställa in visningsformat för numeriska värden och datum. Vi vet att numeriska data kan användas för att representera olika värden inklusive decimal-, valuta-, procent-, bråk- eller redovisningsvärden, etc. Alla dessa numeriska värden visas i olika format beroende på vilken typ av information den representerar. På samma sätt finns det många format där ett datum eller en tid kan visas.
 Aspose.Cells stöder denna funktion och låter utvecklare ställa in valfritt visningsformat för ett nummer eller datum.
@@ -78,7 +78,7 @@ Så här ställer du in visningsformat i Microsoft Excel:
 
 ### **Använda anpassade nummerformat**
 
-För att definiera din egen anpassade formatsträng för att ställa in visningsformatet, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) objekt[**Beställnings**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)fast egendom. Detta tillvägagångssätt är inte lika snabbt som att använda förinställda format men det är mer flexibelt.
+För att definiera din egen anpassade formatsträng för att ställa in visningsformatet, använd[**Stil**](https://reference.aspose.com/cells/net/aspose.cells/style) föremål[**Beställnings**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/custom)fast egendom. Detta tillvägagångssätt är inte lika snabbt som att använda förinställda format men det är mer flexibelt.
 
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Formatting-SettingDisplayFormats-UsingCustomNumber-1.cs" >}}

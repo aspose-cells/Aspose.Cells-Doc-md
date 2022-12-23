@@ -21,7 +21,7 @@ url: /ja/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47893|署名欄を画像に変換します。|強化|
 |CELLSNET-47899|ワークブックをコピーするときの QueryTable のコピーをサポートします。|強化|
 |CELLSNET-47842|大きなピボット テーブルを更新するとパフォーマンスが低下する|パフォーマンス|
-|CELLSNET-42846|ODS ファイルを再保存すると方程式が失われる|バグ|
+|CELLSNET-42846|ODS ファイルを再保存すると数式が失われる|バグ|
 |CELLSNET-47794|矢印の形状のサイズと位置が正しくありません|バグ|
 |CELLSNET-46469|Chart.RefreshPivotData() は軸の数値形式を削除します|バグ|
 |CELLSNET-47871|印刷領域をレンダリングするときの見出しの誤り|バグ|
@@ -36,7 +36,7 @@ url: /ja/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47834|チャートの Chart.Calculate() はチャートのフォーマットを変更します|バグ|
 |CELLSNET-47856|ピボット テーブルでの XLSX から PDF への変換の問題|バグ|
 |CELLSNET-41275|他のシートを参照するチャートは表示されません|バグ|
-|CELLSNET-42847|ODS ファイルを再保存するとチャートが失われる|バグ|
+|CELLSNET-42847|ODS ファイルを再保存するとグラフが失われる|バグ|
 |CELLSNET-47861|行の高さの計算の違い|バグ|
 |CELLSNET-47876|結合されたセルで行の自動調整と標準の高さが正しく機能しない|バグ|
 |CELLSNET-47903|テーブルに列を挿入するとブックが破損する|バグ|
@@ -49,7 +49,7 @@ url: /ja/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47863|セルに HTML タグを追加すると System.FormatException がスローされる|例外|
 |CELLSNET-47868|Office 2000 XLS ファイルを開く際の無効な最終行インデックス例外|例外|
 |CELLSNET-47869|Cells 例外によるワークブックのロード失敗|例外|
-|CELLSNET-47870|XLS ファイルの読み込み中に例外が発生しました|例外|
+|CELLSNET-47870|XLS ファイルの読み込み中に発生した例外|例外|
 |
 
 

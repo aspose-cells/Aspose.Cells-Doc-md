@@ -6,7 +6,7 @@ url: /it/cpp/creating-and-customizing-charts/
 ---
 ## **Possibili scenari di utilizzo**
 
-Un grafico è una visualizzazione visiva di informazioni. Aspose.Cells consente agli sviluppatori di visualizzare le informazioni nei grafici proprio come fa Microsoft Excel. La presentazione delle informazioni nei grafici è sempre utile ai decisori per prendere decisioni rapide e tempestive. È più facile vedere rapidamente confronti, modelli e tendenze nei dati con grafici piuttosto che numeri grezzi. La creazione di grafici in fase di esecuzione, basati sui dati in un foglio di calcolo, è una delle funzionalità utili di Aspose.Cells. Aspose.Cells supporta la creazione di grafici standard e personalizzati. Di seguito, mostreremo alcuni esempi con file di esempio su come creare alcuni tipi di grafici MS-Excel comuni utilizzando l'API Aspose.Cells.
+Un grafico è una visualizzazione visiva di informazioni. Aspose.Cells consente agli sviluppatori di visualizzare le informazioni nei grafici proprio come fa Microsoft Excel. La presentazione delle informazioni nei grafici è sempre utile ai decisori per prendere decisioni rapide e tempestive. È più facile vedere rapidamente confronti, modelli e tendenze nei dati con grafici piuttosto che numeri grezzi. La creazione di grafici in fase di esecuzione, basati sui dati in un foglio di calcolo, è una delle funzionalità utili di Aspose.Cells. Aspose.Cells supporta la creazione di grafici standard e personalizzati. Di seguito, mostreremo alcuni esempi con file di esempio su come creare alcuni tipi di grafici MS-Excel comuni utilizzando Aspose.Cells API.
 
 ## **Grafico a piramide**
 

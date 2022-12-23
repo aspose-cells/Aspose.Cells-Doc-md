@@ -47,7 +47,7 @@ export LIBRARY_PATH="$LIBRARY_PATH:/Library/Frameworks/Python.framework/Versions
 {{< /highlight >}}
 ## **Creación de la aplicación Hello World**
 
--  Crear un archivo llamado**CreandoHelloWorldFile.py** y use el siguiente código de ejemplo:
+-  Crear un archivo llamado**CreandoHelloWorldFile.py** y use el siguiente código de muestra:
 
 {{< gist "aspose-cells-gists" "7bb30376b4d40cdfd596286870fb9752" "CreatingHelloWorldFile.py" >}}
 

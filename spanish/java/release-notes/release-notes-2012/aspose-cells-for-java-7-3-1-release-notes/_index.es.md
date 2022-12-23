@@ -11,7 +11,7 @@ url: /es/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Estamos
-feliz de anunciar Aspose.Cells for Java v7.3.1 para los usuarios!
+ feliz de anunciar Aspose.Cells for Java v7.3.1 para los usuarios!
 
  Nuevas características
 
@@ -37,13 +37,13 @@ ahora, hemos incorporado estas nuevas características/mejoras en la versión Ja
 
  Mejoras
 
--Los archivos de fuentes temporales se crean más de una vez al guardar en PDF
+ -Los archivos de fuentes temporales se crean más de una vez al guardar en PDF
 
  -La fecha en el encabezado/pie de página no se ha formateado de acuerdo con la configuración local del libro de trabajo
 
 - Compatibilidad con la nueva opción: Aspose.Cells.Disable=SunFontManager en lugar de java.awt.headlesspara el bloqueo de JVM de Open JDK
 
- -Exportar formas automáticas para archivo HTML
+ -Exportar formas automáticas para el archivo HTML
 
  Excepciones
 
@@ -53,24 +53,24 @@ ahora, hemos incorporado estas nuevas características/mejoras en la versión Ja
 
 - “NullPointerException” para el método Chart.calculate()
 
- -Guardar XLS como PDF causó una excepción
+ -Guardar XLS como PDF provocó una excepción
 
- -Guardar XLS como PDF causó una Excepción II
+ -Guardar XLS como PDF provocó una Excepción II
 
  Insectos
 
  -Texto superpuesto y líneas de cuadrícula perdidas para guardar PDF
 
- -Se mostraron bordes adicionales al volver a guardar
+-Se mostraron bordes adicionales al volver a guardar
 
  archivo de plantilla como archivo XLS
 
  -Leer Nombre con referencia "!$A$1" provocó una excepción
 
- -La generación de PDF falló con datos de gráficos específicos
+ -PDF generación fallida con datos de gráficos específicos
 
  -Las fórmulas son incorrectas después de insertar el rango
 
- -El PDF generado desde el libro de Excel tenía más páginas
+ -El PDF generado del libro de Excel tenía más páginas
 
--Las etiquetas de los gráficos se desalinearon y se superpusieron al hacer frente a la hoja de trabajo
+ -Las etiquetas de los gráficos se desalinearon y se superpusieron al hacer frente a la hoja de trabajo

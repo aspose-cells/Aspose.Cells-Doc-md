@@ -22,14 +22,14 @@ url: /tr/python-java/aspose-cells-for-python-via-java-22-8-release-notes/
 |CELLSJAVA-44773|Gizli sütunları olan bir Excel belgesi GridWeb'e açılırken veriler karışıyor (Java)|
 |CELLSJAVA-44781|çok az yüksekliğe yeniden boyutlandırıldığında satır yeniden boyutlandırma sorununu araştırın|
 |CELLSJAVA-44787|Çalışma kitabındaki son satırda alt kenarlık kayboldu|
-|CELLSJAVA-44761|Excel dosyasının HTML'ye dönüştürülmesinde aşırı bellek kullanımı|
-|CELLSJAVA-44801|Aspose.Cells for Java v22.7 kullanılarak Excel'den PDF'e dönüştürme, bozuk karakterlere neden oluyor|
+|CELLSJAVA-44761|Excel dosyasının HTML'e dönüştürülmesinde aşırı bellek kullanımı|
+|CELLSJAVA-44801|Aspose.Cells for Java v22.7 kullanılarak Excel'den PDF'e dönüştürme bozuk karakterlere neden oluyor|
 |CELLSJAVA-44741|Html dizesini hücreye ayarladıktan sonra xlsx çıktısında satır sonu doğru değil|
 |CELLSJAVA-44776|Sayfa kopyalanırken tablo başlığı satırı stili kayboldu|
 |CELLSJAVA-44789|Excel elektronik tablosuna yerleştirilen metin kutusunun karakter dizesinin değiştirilmesiyle ilgili sorun|
-|CELLSJAVA-44792| Çalışma kitabını HTML biçimine sonsuz kaydetme (2892)|
+|CELLSJAVA-44792| Çalışma kitabını HTML biçimine (2892) sonsuz kaydetme|
 |CELLSJAVA-44763|"Java.lang.IllegalArgumentException: "org.apache.commons.io.input.AutoCloseInputStream" kullanılarak Excel dosyasını yüklerken bağımsız değişken numarası: 1:X8" ayrıştırılamıyor|
-|CELLSJAVA-44774|PDF olarak kaydederken hata oluştu - İnceleme gerekli|
+|CELLSJAVA-44774|PDF olarak kaydedilirken hata oluştu - İnceleme gerekli|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 

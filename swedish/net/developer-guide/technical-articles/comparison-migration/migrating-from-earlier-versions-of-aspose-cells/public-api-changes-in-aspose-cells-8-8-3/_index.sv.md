@@ -164,11 +164,11 @@ oleObject.AutoLoad = true;
 
 
 ### **Tillagd HTMLLoadOptions.SupportDivTag-egenskap**
-Aspose.Cells for .NET 8.8.3 har exponerat HTMLLoadOptions.SupportDivTag-egenskapen som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i objektmodellen Aspose.Cells. Boolesk typegenskap har standardvärdet false.
+Aspose.Cells for .NET 8.8.3 har avslöjat egenskapen HTMLLoadOptions.SupportDivTag som gör det möjligt att analysera DIV-taggar inbäddade i TD-taggar medan HTML-filer/snippet laddas i Aspose.Cells-objektmodellen. Boolesk typegenskap har standardvärdet false.
 
 {{% alert color="primary" %}} 
 
- För mer information om den här funktionen, läs den detaljerade artikeln om[Stöd inre DIV-taggar när du laddar HTML](/cells/sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+ För mer information om den här funktionen, läs den detaljerade artikeln om[Stöd inre DIV-taggar under laddning HTML](/cells/sv/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -276,7 +276,7 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **Tillagd HtmlSaveOptions.ExportGridLines Property**
-Aspose.Cells for .NET 8.8.3 har avslöjat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna samtidigt som kalkylblad exporteras till HTML-format. Egenskapen boolesk typ har standardvärdet false, men när den är inställd på true, återger API rutnätslinjerna för det tillgängliga dataintervallet i HTML-format.
+Aspose.Cells for .NET 8.8.3 har exponerat egenskapen HtmlSaveOptions.ExportGridLines som gör det möjligt att rendera rutnätslinjerna medan kalkylblad exporteras till formatet HTML. Egenskapen av typen Boolean har standardvärdet false, men när den är inställd på true, återger API rutnätslinjerna för det tillgängliga dataintervallet i formatet HTML.
 
 {{% alert color="primary" %}} 
 

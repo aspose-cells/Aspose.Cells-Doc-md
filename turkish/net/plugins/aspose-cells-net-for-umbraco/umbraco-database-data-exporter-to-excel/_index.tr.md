@@ -4,7 +4,7 @@ type: docs
 weight: 20
 url: /tr/net/umbraco-database-data-exporter-to-excel/
 ---
-## **giriiş**
+## **Giriş**
 Aspose .NET Umbraco Modülü için Veritabanı Verilerini Excel'e Aktarıcı, kullanıcıların verileri doğrudan yerel veya uzak veritabanı tablolarından, görünümlerinden ve özel sorgu yoluyla Microsoft Excel veya OpenOffice Elektronik Tablosuna aktarmalarına olanak tanır. Bu modül, Aspose.Cells tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini göstermektedir. Modülün bu ilk sürümü, Dışa Aktarma işlemini basit ve kullanımı kolay hale getirmek için aşağıdaki harika özelliklerle zenginleştirilmiştir.
 ### **Modül Özellikleri**
 Eklentinin bu ilk sürümü aşağıdaki özelliklere sahiptir:
@@ -20,14 +20,14 @@ Eklentinin bu ilk sürümü aşağıdaki özelliklere sahiptir:
 - Veri Kaynağı olarak kullanılmasına izin ver (Tablo, Görünümler, Özel Sorgu)
 - Verileri Microsoft Excel Belgelerine Aktar (.xls, .xlsx ve .xlsb)
 - Verileri Sekmeyle ayrılmış metin belgesine (*.txt) Aktar
-- Verileri CSV'ye Aktar (Virgülle ayrılmış) (*.csv)
+- Verileri CSV'e (Virgülle ayrılmış) (*.csv) Aktar
 - Verileri OpenDocument Elektronik Tablosuna Aktarın (*.ods)
 - Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
 - Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir.
 
 .
 
-![yapılacaklar:resim_alternatif_Metin](umbraco-database-data-exporter-to-excel_1)
+![yapılacaklar:resim_alternatif_metin](umbraco-database-data-exporter-to-excel_1)
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 ### **sistem gereksinimleri**
 Aspose .NET Database Data Exporter to Excel for Umbraco modülünü kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
@@ -50,10 +50,10 @@ Umbraco modülü için Aspose .NET Cells Database Data Exporter to Excel'i aşa�
 İndirdikten sonra, bu paketi Umbraco web sitenize yüklemek için lütfen şu adımları izleyin:
 
 1.  Umbraco'da oturum açın**Geliştirici** bölüm, örneğin `http://www.myblog.com/umbraco`
-1.  ağaçtan genişletin**Paketler** dosya.
+1.  ağaçtan genişletin**Paketler** Klasör.
 1.  Buradan bir paketi kurmanın iki yolu vardır: seçin**Yerel paketi kurun** veya göz atın**Umbraco Paket Deposu.**
 1. eğer kurarsan**yerel paket**, paketi açmayın ama zip'i Umbraco'ya yükleyin.
-1. Ekrandaki talimatlari takip edin.
+1. Ekrandaki yönergeleri takip edin.
 
 **Not:** Yükleme sırasında 'Maksimum istek uzunluğu aşıldı' hatası alabilirsiniz. Umbraco web.config dosyanızdaki 'maxRequestLength' değerini güncelleyerek bu sorunu kolayca çözebilirsiniz.
 <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" />
@@ -65,15 +65,15 @@ Aspose .NET Database Data Exporter to Excel for Umbraco modülünü yükledikten
 1.  Genişletin**Şablonlar** düğümüne gidin ve eklemek istediğiniz şablonu seçin, örneğin Metin Sayfası.
 1. Seçilen şablonda dışa aktarma düğmesinin eklenmesini istediğiniz konumu seçin. Genellikle sayfanın sağ üstüne veya sayfanın altına eklemek isteyebilirsiniz.
 1.  Tıklamak**Makro Ekle** üst şeritte.
-1.  İtibaren**Bir makro seçin** (Aspose .NET Database Data Exporter to Excel for Umbraco), en son yüklenen Aspose .NET Database Data Exporter to Excel for Umbraco makrosunu seçin ve tıklayın**TAMAM**.
+1.  İtibaren**Bir makro seçin** (Aspose .NET Database Data Exporter to Excel for Umbraco), en son yüklenen Aspose .NET Database Data Exporter to Excel for Umbraco makrosunu seçin ve tıklayın**Tamam**.
 
  Ayrıntılar için lütfen aşağıdaki ekran görüntüsünü kontrol edin.
 
-![yapılacaklar:resim_alternatif_Metin](umbraco-database-data-exporter-to-excel_2)
+![yapılacaklar:resim_alternatif_metin](umbraco-database-data-exporter-to-excel_2)
 
 Aspose .NET Database Data Exporter to Excel modülünü sayfanıza başarıyla eklediniz.
 
-![yapılacaklar:resim_alternatif_Metin](umbraco-database-data-exporter-to-excel_1)
+![yapılacaklar:resim_alternatif_metin](umbraco-database-data-exporter-to-excel_1)
 
 1. Önceden doldurulmuş MS SQL Server Bağlantı Dizesi Girin veya Kullanın
 1. Seletec Veri Kaynağı Türü (Tablo, Görünüm, Özel Sorgu)
@@ -84,7 +84,7 @@ Aspose .NET Database Data Exporter to Excel modülünü sayfanıza başarıyla e
 ## **Video Demosu**
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=MkfKyeLTauE) modülü çalışırken görmek için aşağıdaki
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

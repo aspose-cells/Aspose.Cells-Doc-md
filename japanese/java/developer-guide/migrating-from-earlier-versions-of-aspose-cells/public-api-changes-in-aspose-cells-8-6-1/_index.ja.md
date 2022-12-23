@@ -11,7 +11,7 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-6-1/
 {{% /alert %}} 
 ## **追加された API**
 ### **HTML リンク ターゲット タイプのサポート**
-Aspose.Cells for Java API のこのリリースでは、HtmlLinkTargetType という列挙型が、新しいプロパティ HtmlSaveOptions.LinkTargetType とともに公開されました。[HTML 形式への変換中にスプレッドシートのリンクのターゲット タイプを設定する](/cells/ja/java/change-the-html-link-target-type/)HtmlLinkTargetType 列挙の可能な値は次のとおりです。デフォルト値は SELF です。
+Aspose.Cells for Java API のこのリリースでは、HtmlLinkTargetType という列挙型が、新しいプロパティ HtmlSaveOptions.LinkTargetType とともに公開されました。[HTML 形式への変換中に、スプレッドシート内のリンクのターゲット タイプを設定します](/cells/ja/java/change-the-html-link-target-type/)HtmlLinkTargetType 列挙の可能な値は次のとおりです。デフォルト値は SELF です。
 
 1. HtmlLinkTargetType.BLANK: リンクされたドキュメント/ページを新しいウィンドウまたはタブで開きます。
 1. HtmlLinkTargetType.PARENT: リンクされたドキュメント/ページを親フレームで開きます。

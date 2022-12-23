@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /zh/net/
 is_root: true
-description: C# 编写的功能强大且快速的电子表格编程库。它支持流行的 Excel（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、SpreadsheetML、CSV）、OpenOffice（ODS）、HTML 和 JSON 文件格式，并允许将 Excel 文件导出到PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
+description: A powerful and fast Speadsheet programming library written in C#. It supports the popular Excel (XLS, XLSX, XLSM, XLSB, XLTX, XLTM,SpreadsheetML,CSV), OpenOffice(ODS),HTML and JSON file formats and allows exporting Excel files to PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、纯文本和流行的图像格式，包括 TIFF, JPG, PNG, BMP and SVG。
 ---
 {{% alert color="primary" %}}
 
@@ -16,7 +16,7 @@ description: C# 编写的功能强大且快速的电子表格编程库。它支�
 
 结合 API 和 GUI 控件，Aspose.Cells for .NET 加速 Microsoft Excel® 编程和转换。
 
-Aspose.Cells for .NET 支持企业日常使用的流行电子表格（XLS、XLSX、XLSM、XLSB、XLTX、XLTM、CSV、SpreadsheetML、ODS）文件格式。它还允许将 Excel 文件导出为 PDF、DOCX、PPTX、JSON、XPS、HTML、MHTML、JSON，纯文本和流行的图像格式，包括 TIFF、JPG、PNG、BMP 和 SVG。
+Aspose.Cells for .NET 支持您的企业日常使用的流行电子表格 (XLS, XLSX, XLSM, XLSB, XLTX, XLTM, CSV, SpreadsheetML, ODS) 文件格式。它还允许将 Excel 文件导出为 PDF, DOCX, PPTX, JSON, XPS, HTML, MHTML、JSON，纯文本和流行的图像格式，包括 TIFF, JPG, PNG, BMP and SVG。
 
 
 {{% /alert %}}

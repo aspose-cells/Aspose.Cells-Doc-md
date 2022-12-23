@@ -14,45 +14,45 @@ Bu sayfa Aspose.Cells for Android via Java 22.12 için sürüm notları içerir.
 |:- |:- |:- |
 |CELLSJAVA-44890|GridWeb için openpassword ile içe aktarma dosyasını destekler|
 |CELLSJAVA-43645|Dikdörtgenin "3-D-format" özelliği doğru şekilde oluşturulmadı|
-|CELLSJAVA-44936|Grafik görüntüsü (PNG) DPI ayarlarını belirleyin|
+|CELLSJAVA-44936|Tablo görüntüsü (PNG) DPI ayarlarını ayarla|
 |CELLSJAVA-44937|Grafik görüntüsü (JPG) DPI ayarlarını belirleyin|
-|CELLSJAVA-44998|Satır içi stilin HTML'de başarısız olmasına neden olan çift alıntı|
-|CELLSJAVA-44884| XLSX'ten HTML'ye veya PDF'ye dönüştürmeden sonra liste numaraları yanlış|
-|CELLSJAVA-44883|Pivot tablo içeren çalışma kitabı, içinde pivot tablo işlendikten sonra bozuluyor|
+|CELLSJAVA-44998|Satır içi stiline neden olan çift alıntı HTML'de başarısız oldu|
+|CELLSJAVA-44884| XLSX'den HTML'e veya PDF'e dönüşümden sonra liste numaraları yanlış|
+|CELLSJAVA-44883| Pivot tablo içeren çalışma kitabı, içinde pivot tablo işlendikten sonra bozuluyor|
 |CELLSJAVA-44879|GridWeb için biçimlendirilmiş sonuç Cell.DisplayStringValue'dan farklıydı.|
 |CELLSJAVA-44327|Grafikten görüntüye dönüştürmede siyah beyaz pasta dilimlerinde gösterilen kenarlıklar ve daha az çizgi|
-|CELLSJAVA-44853|X ekseni açısındaki veriler, grafikten görüntüye dönüştürmede Excel ile aynı değil|
+|CELLSJAVA-44853|ekseni açısındaki veriler, grafikten görüntüye dönüştürmede Excel ile aynı değil|
 |CELLSJAVA-44854|Y ekseni adımındaki veriler, tablodan görüntüye dönüştürmede Excel ile aynı değil|
 |CELLSJAVA-44904|Excel grafiklerini JPG dönüştürmeye dönüştürürken yaşanan sorunlar|
 |CELLSJAVA-44850|Bir XLT dosyasını içe aktarırken, en son kaynak dosyalarıyla en son Aspose.Cells.GridWeb sürümüyle en son demolar kullanılarak metin tam olarak görüntülenmiyor|
 |CELLSJAVA-44857|Bir Excel belgesini açmak için en son kaynak dosyalarla Aspose.Cells.GridWeb for Java v22.8 sürümünü kullanırken, hücrelerin etkisi orijinal belgeden farklı|
 |CELLSJAVA-44903|SVG yorumlama beklendiği gibi çalışmıyor|
 |CELLSJAVA-44909| Birden fazla satır kalın yapıldığında diğer satırlara gereksiz yere taşıyormuş gibi görünüyor.|
-|CELLSJAVA-44888|"+" ve "-" dönüşümden sonra kayboldu - Excel'den HTML'ye dönüştürme|
+|CELLSJAVA-44888|"+" ve "-" dönüştürüldükten sonra kayboldu - Excel'den HTML oluşturmaya|
 |CELLSJAVA-44775|Grafikten görüntü işlemeye grafikte çakışan grafik etiketleri|
 |CELLSJAVA-44882|Grafikten görüntüye oluşturma - Etiketlerden biri halka grafiğin içindedir|
-|CELLSJAVA-44943|XLSX'ten PDF'e: Grafik etiketleri doğru şekilde oluşturulmadı|
-|CELLSJAVA-44928|XLS'den PDF'e: Bir resim için yetersiz veri|
-|CELLSJAVA-44910|Excel'i HTML'ye dönüştürme, binlerce benzer küçük resimle sonuçlanır|
+|CELLSJAVA-44943|XLSX - PDF: Grafik etiketleri doğru şekilde oluşturulmadı|
+|CELLSJAVA-44928|XLS ila PDF: Bir görüntü için yetersiz veri|
+|CELLSJAVA-44910|Excel'i HTML'e dönüştürün, binlerce benzer küçük resim elde edin|
 |CELLSJAVA-44944|Tabloları yeniden boyutlandırmak hücrelerin biçimlendirmesini değiştirir|
-|CELLSJAVA-44948| HTML'yi Excel'e dönüştürürken resimler sayfada görüntülenemez|
+|CELLSJAVA-44948| HTML Excel'e dönüştürülürken resimler sayfada görüntülenemiyor|
 |CELLSJAVA-44970|Gölge efektini optimize edin|
 |CELLSJAVA-44967|v22.6.0 ve sonraki sürümlerde farklı değer döndüren getDataLabels().getText() grafiği|
-|CELLSJAVA-44969|Excel'i HTML'ye dönüştürün, veri etiketleri hataları gösteriyor|
+|CELLSJAVA-44969|Excel'i HTML'e dönüştürün, veri etiketleri hataları gösteriyor|
 |CELLSJAVA-44949|PowerPoint slayda Excel aralığını farklı formatta resim olarak eklerken şeffaflık değişti|
-|CELLSJAVA-44985|Excel'den HTML'ye dönüştürme - grafik açıklaması görünmüyor ve çizim alanı kesiliyor|
+|CELLSJAVA-44985|Excel'den HTML'e dönüştürme - grafik açıklaması görünmüyor ve çizim alanı kesiliyor|
 |CELLSJAVA-44952|Genişliğe ilişkin DataBar.toImage yöntemiyle ilgili sorun|
-|CELLSJAVA-44986|Görüntüler Div'deyken içe aktarılan resimler bir satırda hizalanmıyor|
+|CELLSJAVA-44986| Görüntüler Div'deyken içe aktarılan resimler bir satırda hizalanmıyor|
 |CELLSJAVA-44987|Html yüklenirken bazı resimler başkaları tarafından kapsanıyor|
 |CELLSJAVA-44988|Html yüklenirken metin döndürülmez|
 |CELLSJAVA-44989|Html yüklenirken div'deki yazı tipi ayarları kayboluyor|
-|CELLSJAVA-44997|HTML'den Excel'e dönüştürmede kaybolan veriler ve biçimlendirmeler|
-|CELLSJAVA-44999| Aspose.Cells Özel GlobalizationSettings, pivot tablonun çoğu için çalışmıyor|
+|CELLSJAVA-44997|HTML'de Excel'e dönüştürme işleminde kaybolan veriler ve biçimlendirmeler|
+|CELLSJAVA-44999|Aspose.Cells Özel GlobalizationSettings, pivot tablonun çoğu için çalışmıyor|
 |CELLSJAVA-44898|GZIPInputStream'den okuma bazen 22.7 ve daha yeni sürümlerde sahte "Dosya bozuk" hatası veriyor|
-|CELLSJAVA-44881|Bir XLS dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException: 15070" istisnası|
+|CELLSJAVA-44881|XLS dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException: 15070" istisnası|
 |CELLSJAVA-44908|Büyük XLSB dosyaları yüklenirken "java.lang.OutOfMemoryError: Java yığın alanı" istisnası|
 |CELLSJAVA-44929|Regresyon: Workbook.calculateFormula() üzerinde "java.lang.NullPointerException"|
-|CELLSJAVA-44927|Excel dosyasını HTML'ye dönüştürürken "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" istisnası|
+|CELLSJAVA-44927|Excel dosyasını HTML'e dönüştürürken "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" istisnası|
 |CELLSJAVA-44939|Bir Excel dosyasını okumaya çalışırken "java.lang.StringIndexOutOfBoundsException: Dize dizini aralığın dışında: 0" hatası|
 
 

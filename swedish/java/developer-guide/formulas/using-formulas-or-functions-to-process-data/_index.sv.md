@@ -47,7 +47,7 @@ En av Microsoft Excels övertygande egenskaper är dess förmåga att bearbeta d
 
  Aspose.Cells tillhandahåller funktioner för att registrera tilläggsfunktioner med hjälp av[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)). Efteråt när vi satt[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn, utdata Excel-filen innehåller det beräknade värdet från AddIn-funktionen.
 
-Efter det ska XLAM-filen laddas ner för registrering av tilläggsfunktionen i nedanstående exempelkod. På samma sätt kan utdatafilen "test_udf.xlsx" laddas ner för att kontrollera utdata.
+Efter XLAM ska filen laddas ner för registrering av tilläggsfunktionen i nedanstående exempelkod. På samma sätt kan utdatafilen "test_udf.xlsx" laddas ner för att kontrollera utdata.
 
 [TestUDF.xlam](TestUDF.xlam)
 
@@ -67,8 +67,8 @@ Vissa Microsoft Excel-funktioner returnerar matriser med värden. För att berä
 
  Det är möjligt att tillämpa en matrisformel på en cell genom att anropa[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) klass'[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int) ) metod. De[**setArrayFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setArrayFormula(java.lang.String,%20int,%20int)) metod tar följande parametrar:
 
-- **Matrisformel**, matrisformeln.
-- **Antal rader**antalet rader som ska fyllas i resultatet av matrisformeln.
+- **Matrisformel**matrisformeln.
+- **Antal rader**, antalet rader som ska fyllas i resultatet av matrisformeln.
 - **Antal kolumner**, antalet kolumner som ska fyllas i resultatet av matrisformeln.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-formulas-ProcessDataUsingArrayFunction-1.java" >}}

@@ -12,7 +12,7 @@ url: /ar/java/custom-slice-or-sector-colors-in-pie-chart/
 
 لتعيين اللون المخصص للشرائح أو القطاعات الفردية للمخطط الدائري:
 
-1.  الوصول إلى[**سلسلة**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) أشياء[**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1.  الوصول إلى[**مسلسل**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) أشياء[**تشارت بوينت**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
 1.  قم بتعيين لون من اختيارك باستخدام[**ChartPoint.getArea (). setForegroundColor ()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)طريقة.
 
 تشرح هذه المقالة أيضًا كيفية التعيين:

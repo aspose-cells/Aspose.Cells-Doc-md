@@ -6,11 +6,11 @@ url: /it/net/system-requirements/
 ---
 {{% alert color="primary" %}} 
 
-I componenti Aspose.Cells for .NET non richiedono l'installazione di Microsoft Excel né lato client né lato server.
+I componenti Aspose.Cells for .NET non richiedono l'installazione di Microsoft Excel né sul lato client né sul lato server.
 
 {{% /alert %}} 
 ## **Sistemi operativi supportati**
-### **finestre**
+### **Windows**
 - Microsoft Windows 2000 (x64, x86)
 - Microsoft Windows XP (x64, x86)
 - Microsoft Windows Server 2003 (x64, x86)
@@ -23,38 +23,38 @@ I componenti Aspose.Cells for .NET non richiedono l'installazione di Microsoft E
 - Microsoft Windows 8 (x64, x86)
 - Microsoft Windows 10 (x64, x86)
 - Microsoft Windows 11
-- Windows Azure
+- Windows Azzurro
 ### **Linux**
 - Linux (Ubuntu, openSUSE, CentOS, Debian, Alpine e altri)
 ### **Mac**
 - Mac OS X, macOS High Sierra, ecc.
-## **Versioni di .NET Framework supportate**
+## **.NET Versioni del framework supportate**
 Aspose.Cells for .NET supporta i framework .NET e Mono come segue:
-### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
-### **Standard .NET**
+### **.NET Quadri**
+- .NET Quadro 2.0
+- .NET Quadro 3.0
+- .NET Quadro 3.5
+- .NET Quadro 4.0
+- .NET Quadro 4.5
+- .NET Quadro 4.5.1
+- .NET Quadro 4.5.2
+- .NET Quadro 4.6
+- .NET Quadro 4.6.1
+- .NET Quadro 4.6.2
+- .NET Quadro 4.7.1
+- .NET Quadro 4.7.2
+- .NET Quadro 4.8
+- .NET Quadro 4.8.1
+### **.NET Normale**
 - .NET Standard 2.0 (.NET Core 2.1/3.1).
 - .NET 5.0
 - .NET 6.0
 - .NET 7.0
-#### **I pacchetti nuget a cui fa riferimento Aspose.Cells per .NET Standard**
+#### **I pacchetti nuget referenziati da Aspose.Cells Per .NET Standard**
 - System.Drawing.Common, 4.7.0.
 - System.Text.Encoding.CodePages, 4.7.0.
 - System.Security.Cryptography.Pkcs, 6.0.1.
-### **Quadro Mono**
+### **Mono Quadro**
 - Mono 1.2 o più recente.
 ## **Ambienti di sviluppo**
 È possibile utilizzare Aspose.Cells for .NET per sviluppare applicazioni in qualsiasi ambiente di sviluppo destinato alla piattaforma .NET, ma i seguenti ambienti sono esplicitamente supportati:
@@ -71,7 +71,7 @@ Aspose.Cells for .NET supporta i framework .NET e Mono come segue:
 
 {{% alert color="primary" %}} 
 
-Per utilizzare Aspose.Cells, non è necessario che la macchina abbia Microsoft Excel installato poiché la libreria stessa è un motore di gestione dei fogli di calcolo. Tuttavia, per visualizzare il file excel generato dal componente, è necessario che sul computer sia installato almeno Microsoft Excel Viewer.
+Per utilizzare Aspose.Cells, la macchina non ha bisogno di avere Microsoft Excel installato per la libreria stessa è un motore di gestione dei fogli di calcolo. Tuttavia, per visualizzare il file excel generato dal componente, è necessario che sul proprio computer sia installato almeno Microsoft Excel Viewer.
 
 {{% /alert %}} 
 ## **Aspose.Cells Grid Suite Requisiti di sistema**
@@ -88,21 +88,21 @@ Per utilizzare questi due controlli, la macchina per eseguire Aspose.Cells.GridD
 
 {{% /alert %}} 
 ### **Aspose.Cells.GridDesktop**
-#### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
+#### **.NET Quadro**
+- .NET Quadro 2.0
+- .NET Quadro 3.0
+- .NET Quadro 3.5
+- .NET Quadro 4.0
+- .NET Quadro 4.5
+- .NET Quadro 4.5.1
+- .NET Quadro 4.5.2
+- .NET Quadro 4.6
+- .NET Quadro 4.6.1
+- .NET Quadro 4.6.2
+- .NET Quadro 4.7.1
+- .NET Quadro 4.7.2
+- .NET Quadro 4.8
+- .NET Quadro 4.8.1
 
 #### **Strumenti di sviluppo**
 - Microsoft Visual Studio 2005
@@ -120,26 +120,26 @@ Per utilizzare questi due controlli, la macchina per eseguire Aspose.Cells.GridD
 - Microsoft Windows Server 2008
 - Microsoft Windows Server 2012
 - Microsoft Windows Vista
-- Microsoft Windows 7,
-- MicrosoftFinestre 8, 8.1
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11
 ### **Aspose.Cells.GridWeb**
-#### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.0
-- .NET Framework 3.5
-- .NET Framework 4.0
-- .NET Framework 4.5
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6
-- .NET Framework 4.6.1
-- .NET Framework 4.6.2
-- .NET Framework 4.7.1
-- .NET Framework 4.7.2
-- .NET Framework 4.8
-- .NET Framework 4.8.1
+#### **.NET Quadro**
+- .NET Quadro 2.0
+- .NET Quadro 3.0
+- .NET Quadro 3.5
+- .NET Quadro 4.0
+- .NET Quadro 4.5
+- .NET Quadro 4.5.1
+- .NET Quadro 4.5.2
+- .NET Quadro 4.6
+- .NET Quadro 4.6.1
+- .NET Quadro 4.6.2
+- .NET Quadro 4.7.1
+- .NET Quadro 4.7.2
+- .NET Quadro 4.8
+- .NET Quadro 4.8.1
 #### **Strumenti di sviluppo**
 - Microsoft Visual Studio 2005
 - Microsoft Visual Studio 2008
@@ -155,7 +155,7 @@ Per utilizzare questi due controlli, la macchina per eseguire Aspose.Cells.GridD
 - Internet Explorer 5.5 o superiore
 - Browser Mozilla (inclusi Firefox, Netscape Browser, ecc.)
 - Opera (consigliato Internet Explorer 6.0)
-- Google Chrome
+- Google Cromo
 #### **Sistema operativo**
 - Microsoft Windows 2000
 - Microsoft Windows XP
@@ -163,7 +163,7 @@ Per utilizzare questi due controlli, la macchina per eseguire Aspose.Cells.GridD
 - Microsoft Windows Server 2008
 - Microsoft Windows Server 2012
 - Microsoft Windows Vista
-- Microsoft Windows 7,
-- MicrosoftFinestre 8, 8.1
+- Microsoft Windows 7, 
+- Microsoft Windows 8, 8.1
 - Microsoft Windows 10
 - Microsoft Windows 11

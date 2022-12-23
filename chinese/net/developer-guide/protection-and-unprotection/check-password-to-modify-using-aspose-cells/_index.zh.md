@@ -14,7 +14,7 @@ url: /zh/net/check-password-to-modify-using-aspose-cells/
 
 你可以分配**打开密码**和**修改密码**在 Microsoft Excel 中创建工作簿时。请查看此屏幕截图，其中显示了 Microsoft Excel 提供的用于指定这些密码的界面。
 
-|![待办事项：图像_替代_文本](check-password-to-modify-using-aspose-cells_1.png)|
+|![待办事项：图片_替代_文本](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |
 
 ## **使用 Aspose.Cells 检查修改密码**

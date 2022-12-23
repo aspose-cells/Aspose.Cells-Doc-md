@@ -16,7 +16,7 @@ url: /ru/java/setting-shared-formula/
 
 {{% /alert %}} 
 
- Aspose.Cells позволяет указать формулу с помощью[Cell.Formula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) имущество, в частности[Cell.setFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) а также[Cell.getFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula).
+ Aspose.Cells позволяет указать формулу с помощью[Cell.Formula](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) имущество, в частности[Cell.setFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) и[Cell.getFormula()](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula).
 
 Есть два варианта добавления формул в другие ячейки (B3, B4, B5 и т. д.) в столбце.
 

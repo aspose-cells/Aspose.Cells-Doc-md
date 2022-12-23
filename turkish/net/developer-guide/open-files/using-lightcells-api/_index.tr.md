@@ -18,9 +18,9 @@ Aspose.Cells, belleğe eksiksiz bir veri modeli bloğu oluşturmadan (Cell kolek
 
 Her iki prosedürde de bir Cell nesnesi işlenir ve sonra atılır, Çalışma Kitabı nesnesi koleksiyonu tutmaz. Bu nedenle, bu modda, aksi takdirde çok fazla bellek kullanacak olan büyük bir veri kümesine sahip Microsoft Excel dosyasını içe ve dışa aktarırken bellek kaydedilir.
 
-LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlese de (aslında bellekteki tüm hücreleri yüklemez, bir hücreyi işler ve sonra onu atar), XLSX dosyaları için belleği XLS dosyalarından daha etkili bir şekilde kaydeder çünkü iki biçimin farklı veri modelleri ve yapıları.
+LightCells API, XLSX ve XLS dosyaları için hücreleri aynı şekilde işlese de (aslında hafızadaki tüm hücreleri yüklemez, bir hücreyi işler ve sonra onu atar), XLSX dosyaları için hafızayı XLS dosyalarına göre daha etkili bir şekilde kaydeder. iki biçimin farklı veri modelleri ve yapıları.
 
- Yine de,**XLS dosyaları için** , daha fazla bellek kazanmak için geliştiriciler, Kaydetme işlemi sırasında oluşturulan geçici verileri kaydetmek için geçici bir konum belirtebilir. yaygın olarak,**XLSX dosyasını kaydetmek için LightCells API kullanmak %50 veya daha fazla bellek tasarrufu sağlayabilir** ortak yolu kullanmaktansa,**XLS'yi kaydetmek, yaklaşık %20-40 bellek tasarrufu sağlayabilir**.
+ Yine de,**XLS dosyaları için** , daha fazla bellek kazanmak için geliştiriciler, Kaydetme işlemi sırasında oluşturulan geçici verileri kaydetmek için geçici bir konum belirtebilir. yaygın olarak,**XLSX dosyasını kaydetmek için LightCells API kullanmak %50 veya daha fazla bellek tasarrufu sağlayabilir** ortak yolu kullanmaktansa,**XLS'i kaydetmek, yaklaşık %20-40 bellek tasarrufu sağlayabilir**.
 ## Büyük Bir Excel Dosyası Yazmak
 Aspose.Cells, programınızda uygulanması gereken LightCellsDataProvider adlı bir arabirim sağlar. Arayüz, büyük elektronik tablo dosyalarını hafif modda kaydetmek için veri sağlayıcıyı temsil eder.
 

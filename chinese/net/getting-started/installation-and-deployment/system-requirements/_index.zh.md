@@ -26,7 +26,7 @@ Aspose.Cells for .NET 组件不需要在客户端或服务器端安装 Microsoft
 - Windows 蔚蓝
 ### **Linux**
 - Linux（Ubuntu、openSUSE、CentOS、Debian、Alpine 等）
-### **苹果电脑**
+### **苹果**
 - Mac OS X、macOS High Sierra 等。
 ## **.NET 支持的框架版本**
 Aspose.Cells for .NET支持.NET和Mono框架如下：

@@ -10,7 +10,7 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-17-8-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSSP-61|Ajouter un pied de page à plusieurs fichiers|Nouvelle fonctionnalité|
 |CELLSSP-60|Aspose.Cells for SharePoint 2016 Menu ruban désactivé|Punaise|

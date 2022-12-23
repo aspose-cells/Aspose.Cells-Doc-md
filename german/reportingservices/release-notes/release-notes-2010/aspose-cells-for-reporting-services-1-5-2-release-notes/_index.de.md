@@ -26,11 +26,11 @@ url: /de/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
-|16478 | Serverkomponente| Problem in der Kopfzeile des Matrixberichts nach dem Export in eine XLSX-Datei|
+|16478 | Serverkomponente| Problem in der Kopfzeile des Matrixberichts nach dem Export in die Datei XLSX|
 |16170 | Serverkomponente| Aspose.Cells for Reporting Services - Verschiedene Probleme|
-|16248 | Serverkomponente| XLSX-Export funktioniert nicht richtig|
+|16248 | Serverkomponente| XLSX Export funktioniert nicht richtig|
 |16239 | Serverkomponente| Dropdown-Optionen im Report Viewer umbenennen|
 |16202 | Serverkomponente| Funktioniert nicht richtig beim Export nach Excel 2007|
 |16169 | Serverkomponente| Unterstützung für SSRS-Renderingerweiterungen im integrierten SharePoint-Modus?|
-|15972 | Serverkomponente| Kopfzeilen von Matrixtabellen kommen nach dem Export in eine XLSX-Datei nicht|
+|15972 | Serverkomponente| Kopfzeilen von Matrixtabellen kommen nach dem Export in die Datei XLSX nicht|
 

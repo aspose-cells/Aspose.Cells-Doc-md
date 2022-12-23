@@ -16,6 +16,6 @@ url: /de/net/aspose-cells-net-4-0-1-0-hot-fix-release-notes/
 
 - Neue Chart-Demos hinzugefügt
 - Fehler in der InsertRows/DeleteRows-Methode behoben
-- Fehler beim Laden/Speichern der SpreadsheetML-Datei behoben
-- Fehler beim Laden einer CSV-Datei behoben, die einen einzelnen Punkt (.) in einer Zelle enthält
+- Fehler beim Laden/Speichern der Datei SpreadsheetML behoben
+- Fehler beim Laden der Datei CSV behoben, die einen einzelnen Punkt (.) in einer Zelle enthält
 - Fehler in xls2pdf-Funktion behoben

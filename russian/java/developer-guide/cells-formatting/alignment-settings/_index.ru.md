@@ -22,7 +22,7 @@ url: /ru/java/cells-alignment-settings/
 
 ## **Настройки выравнивания в Aspose.Cells**
 
- Aspose.Cells предоставляет[**GetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) а также[**SetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) методы для[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class, которые используются для получения и установки форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/style)Класс предоставляет полезные свойства для настройки параметров выравнивания.
+ Aspose.Cells предоставляет[**GetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#getStyle) и[**SetStyle**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle) методы для[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class, которые используются для получения и установки форматирования ячейки.[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/style)Класс предоставляет полезные свойства для настройки параметров выравнивания.
 
  Выберите любой тип выравнивания текста с помощью[**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) перечисление. Предопределенные типы выравнивания текста в[**TextAlignmentType**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype)перечисление:
 
@@ -36,8 +36,8 @@ url: /ru/java/cells-alignment-settings/
 |Общий|Представляет общее выравнивание текста|
 |Оправдывать|Представляет выравнивание текста по ширине|
 |Оставил|Представляет выравнивание текста по левому краю|
-|Верно|Представляет выравнивание текста по правому краю|
-|верхний|Представляет выравнивание текста по верхнему краю|
+|Правильно|Представляет выравнивание текста по правому краю|
+|Вершина|Представляет выравнивание текста по верхнему краю|
 |JustifiedLow|Выравнивает текст по скорректированной длине кашиды для арабского текста.|
 |ТайскийРаспределенный|Особенно распространен тайский текст, потому что каждый символ рассматривается как слово.|
 

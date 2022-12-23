@@ -4,7 +4,7 @@ type: docs
 weight: 70
 url: /tr/java/aspose-cells-java-for-jython/
 ---
-## **giriiş**
+## **Giriş**
 
 ### **Jython nedir?**
 
@@ -19,7 +19,7 @@ Jython, ifade gücünü netlikle birleştiren, Python'in Java uygulamasıdır. J
 Aspose.Cells for Java, doğrudan Java içinde çok çeşitli belge işleme görevlerini gerçekleştirmenizi sağlayan gelişmiş bir sınıf kitaplığıdır for Java
 uygulamalar.
 
-Aspose.Cells for Java, Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF ve tüm resim formatlarının işlenmesini destekler. Aspose.Cells ile yapabilirsiniz
+Aspose.Cells for Java, Cells (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, SWF ve tüm görüntü biçimlerinin işlenmesini destekler. Aspose.Cells ile yapabilirsiniz
 Microsoft Cells kullanmadan belgeler oluşturun, değiştirin ve dönüştürün.
 
 ### **Jython için Aspose.Cells Java**
@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
 
-### **Destek**
+### **Destek olmak**
 
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 

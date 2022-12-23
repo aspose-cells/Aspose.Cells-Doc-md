@@ -5,7 +5,7 @@ weight: 10
 url: /fr/net/convert-charts-to-images/
 ---
 **Graphiques**sont visuellement attrayants et permettent aux utilisateurs de voir facilement des comparaisons, des modèles et des tendances dans les données. Par exemple, plutôt que d'avoir à analyser plusieurs colonnes de numéros de feuille de calcul, vous pouvez voir en un coup d'œil si les ventes baissent ou augmentent au cours des périodes trimestrielles, ou comment les ventes réelles se comparent aux ventes prévues. Parfois, vous devez présenter le graphique dans vos applications ou pages web. Vous devrez peut-être l'insérer dans un document Word, un fichier PDF, une présentation Power Point ou dans un autre scénario. Vous voulez simplement que le graphique soit rendu sous forme d'image, afin que vous puissiez le coller facilement dans vos applications. Une image vaut la peine. Fréquemment, dans le cadre du travail, on doit présenter des informations statistiques et graphiques d'une manière facile à comprendre et à maintenir. Vous pouvez essayer la bureautique, mais la bureautique a ses propres inconvénients. Il y a plusieurs raisons et problèmes impliqués : par exemple, la sécurité, la stabilité, l'évolutivité/la vitesse, le prix, les fonctionnalités, etc. Automatisation côté serveur d'Office. Il existe une autre option que vous pouvez utiliser pour convertir un graphique Excel en image à l'aide de**Aspose.Cells**.
-## **Conversion d'un graphique en EMF**
+## **Conversion du graphique en EMF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -64,7 +64,7 @@ chart.ToImage(MyDir + "Chart to EMF Image.Emf", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Conversion d'un graphique en BMP**
+## **Conversion du graphique en BMP**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -122,7 +122,7 @@ chart.NSeries.Add("A1:B3", true);
 chart.ToImage(MyDir + "Chart to BMP Image.Bmp", System.Drawing.Imaging.ImageFormat.Bmp);
 
 {{< /highlight >}}
-## **Conversion d'un graphique en JPEG**
+## **Conversion du graphique en JPEG**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -181,7 +181,7 @@ chart.ToImage(MyDir + "Chart to JPEG Image.Jpeg", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Conversion d'un graphique en PNG**
+## **Conversion du graphique en PNG**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -240,7 +240,7 @@ chart.ToImage(MyDir + "Chart to PNG Image.Png", System.Drawing.Imaging.ImageForm
 
 
 {{< /highlight >}}
-## **Conversion d'un graphique en TIFF**
+## **Conversion du graphique en TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object
@@ -299,7 +299,7 @@ chart.ToImage(MyDir + "Chart to Tiff Image.Tiff", System.Drawing.Imaging.ImageFo
 
 
 {{< /highlight >}}
-## **Conversion d'un graphique en TIFF multipage**
+## **Conversion d'un graphique en plusieurs pages TIFF**
 {{< highlight "csharp" >}}
 
  //Instantiating a Workbook object

@@ -27,16 +27,16 @@ Aspose.Cells para for .NET ahora también incluye Aspose.Cells para iOS a travé
 |CELLSNET-45803|El formato XLS debe coincidir con MS Excel 2016|Mejora|
 |CELLSNET-45842|FontSettings se sobrescriben entre sí, mientras que MS Excel mantiene ambos|Mejora|
 |CELLSNET-45653|El filtrado en GridDesktop no funciona correctamente o como Microsoft Excel|Mejora|
-|CELLSNET-45763|El texto de la forma se gira en la conversión de Excel a PDF|Insecto|
+|CELLSNET-45763|El texto de la forma se gira en Excel a la conversión PDF|Insecto|
 |CELLSNET-45669|Los caracteres se superponen al convertir a Imagen|Insecto|
 |CELLSNET-45841|El archivo XLSB relacionado con Power Pivot se corrompe al abrirlo y volver a guardarlo|Insecto|
-|CELLSNET-45819|Los bordes no se muestran al exportar de HTML a Excel|Insecto|
+|CELLSNET-45819|Los bordes no se muestran cuando se exporta desde HTML a Excel|Insecto|
 |CELLSNET-45807|Las líneas de cuadrícula no aparecen cuando la propiedad HtmlSaveOptions.ExportActiveWorksheetOnly se establece en verdadero|Insecto|
 |CELLSNET-45788|Soporte para exportar la hoja de estilo separada para un documento de una sola pestaña|Insecto|
 |CELLSNET-45826|Las propiedades de la imagen (Título y Asunto) se pierden después de convertir XLSX a PDF|Insecto|
 |CELLSNET-45811|Renderizar Excel corta el borde derecho con algo de pérdida de datos|Insecto|
 |CELLSNET-45808|La conversión de Excel a PDF corta la palabra con apóstrofes cuando se usa el lenguaje RTL|Insecto|
-|CELLSNET-45840|El gráfico se estira después de guardarlo en formato XLS - "evento de pasar el mouse - incrustado.xls"|Insecto|
+|CELLSNET-45840|El gráfico se estira después de guardarlo en el formato XLS - "evento de pasar el mouse - incrustado.xls"|Insecto|
 |CELLSNET-45815|Chart.Calculate se bloquea cuando QAR_symbol se establece como "丿.兀".|Insecto|
 |CELLSNET-45765|Los gráficos no se pudieron exportar cuando el formato personalizado usa el formato "mm"|Insecto|
 |CELLSNET-45756|La hoja que tiene un gráfico muestra los cambios cuando el archivo de Excel se abre y se vuelve a guardar|Insecto|
@@ -55,7 +55,7 @@ Aspose.Cells para for .NET ahora también incluye Aspose.Cells para iOS a travé
 |CELLSNET-45827|ImportCustomObjects no importa nombres de campo cuando el recuento de la lista es cero|Insecto|
 |CELLSNET-45816|Error de fórmula no válida al abrir el archivo|Insecto|
 |CELLSNET-45814|La alineación vertical no se aplica al rango de celdas|Insecto|
-|CELLSNET-45812|La ruta absoluta cambia a la ruta relativa al volver a guardar un archivo XLSX|Insecto|
+|CELLSNET-45812|La ruta absoluta cambia a ruta relativa al volver a guardar un archivo XLSX|Insecto|
 |CELLSNET-45810|RGB(255, 0, 0) no es un valor válido para Int32 en la asignación de HtmlString|Insecto|
 |CELLSNET-44690|Volver a guardar el XLS estira el gráfico verticalmente|Insecto|
 |CELLSNET-44621|Conversión de XLSB a XLSM: el archivo resultante no contiene xl\queryTables\queryTable1|Insecto|

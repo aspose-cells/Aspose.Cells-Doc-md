@@ -13,7 +13,7 @@ url: /it/java/find-if-data-points-are-in-the-second-pie-or-bar-on-a-pie-of-pie-o
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindDataPoints-FindDataPoints.java" >}}
 ## **Uscita console**
- Si prega di vedere il seguente output della console generato dopo l'esecuzione del codice di esempio precedente con il file[file excel di esempio](5473373.xlsx) . Se[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) è**falso** , il punto dati si trova all'interno della torta o se lo è**VERO**il punto dati si trova all'interno della barra.
+ Si prega di vedere il seguente output della console generato dopo l'esecuzione del codice di esempio precedente con il file[file excel di esempio](5473373.xlsx) . Se[IsInSecondaryPlot](https://reference.aspose.com/cells/java/com.aspose.cells/chartpoint#IsInSecondaryPlot) è**falso** , il punto dati si trova all'interno della torta o se lo è**VERO**, il punto dati si trova all'interno della barra.
 
 {{< highlight "java" >}}
 

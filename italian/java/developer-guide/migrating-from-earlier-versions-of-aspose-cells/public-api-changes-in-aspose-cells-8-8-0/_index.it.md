@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.8.0
+title: Pubblico API Modifiche Aspose.Cells 8.8.0
 type: docs
 weight: 270
 url: /it/java/public-api-changes-in-aspose-cells-8-8-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.7.2 alla 8.8.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.7.2 alla 8.8.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -23,7 +23,7 @@ Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.7.2
 
 {{% /alert %}} 
 ### **Aggiunta proprietà HTMLLoadOptions.KeepPrecision**
-Aspose.Cells for Java 8.8.0 ha aggiunto la proprietà HTMLLoadOptions.KeepPrecision per controllare la conversione di valori numerici lunghi in notazione esponenziale durante l'importazione di file HTML. Per impostazione predefinita, qualsiasi valore più lungo di 15 cifre viene convertito in notazione esponenziale se i dati vengono importati da stringhe o file HTML. Tuttavia, ora gli utenti possono controllare questo comportamento con l'aiuto della proprietà HTMLLoadOptions.KeepPrecision. Se la suddetta proprietà è impostata su true, i valori verranno importati così come sono nell'origine.
+Aspose.Cells for Java 8.8.0 ha aggiunto la proprietà HTMLLoadOptions.KeepPrecision per controllare la conversione di valori numerici lunghi in notazione esponenziale durante l'importazione di file HTML. Per impostazione predefinita, qualsiasi valore più lungo di 15 cifre viene convertito in notazione esponenziale se i dati vengono importati dalla stringa o dal file HTML. Tuttavia, ora gli utenti possono controllare questo comportamento con l'aiuto della proprietà HTMLLoadOptions.KeepPrecision. Se la suddetta proprietà è impostata su true, i valori verranno importati così come sono nell'origine.
 
 {{% alert color="primary" %}} 
 
@@ -33,7 +33,7 @@ Aspose.Cells for Java 8.8.0 ha aggiunto la proprietà HTMLLoadOptions.KeepPrecis
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -81,17 +81,17 @@ workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **Aggiunta proprietà HTMLLoadOptions.DeleteRedundantSpaces**
-Aspose.Cells for Java 8.8.0 ha esposto la proprietà HTMLLoadOptions.DeleteRedundantSpaces per mantenere o eliminare gli spazi extra dopo il tag di interruzione di riga (<br>Tag) durante l'importazione dei dati dalla stringa o dal file HTML. La proprietà HTMLLoadOptions.DeleteRedundantSpaces ha il valore predefinito false, il che significa che tutti gli spazi extra verranno conservati e importati nell'oggetto Workbook, tuttavia, se impostata su true, l'API eliminerà tutti gli spazi ridondanti che seguono il tag di interruzione di riga.
+Aspose.Cells for Java 8.8.0 ha esposto la proprietà HTMLLoadOptions.DeleteRedundantSpaces per mantenere o eliminare gli spazi extra dopo il tag di interruzione di riga (<br>Tag) durante l'importazione dei dati dalla stringa o dal file HTML. La proprietà HTMLLoadOptions.DeleteRedundantSpaces ha il valore predefinito false, il che significa che tutti gli spazi extra verranno conservati e importati nell'oggetto Workbook, tuttavia, se impostata su true, API eliminerà tutti gli spazi ridondanti che seguono il tag di interruzione di riga.
 
 {{% alert color="primary" %}} 
 
- Per maggiori dettagli su questa funzione, consultare l'articolo dettagliato su[Elimina gli spazi ridondanti dall'HTML](/cells/it/java/delete-redundant-spaces-after-line-break-while-importing/)
+ Per maggiori dettagli su questa funzione, consultare l'articolo dettagliato su[Elimina gli spazi ridondanti da HTML](/cells/it/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 
  Lo scenario di utilizzo semplice è il seguente.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 
@@ -165,7 +165,7 @@ workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".x
 
  Lo scenario di utilizzo semplice è il seguente.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

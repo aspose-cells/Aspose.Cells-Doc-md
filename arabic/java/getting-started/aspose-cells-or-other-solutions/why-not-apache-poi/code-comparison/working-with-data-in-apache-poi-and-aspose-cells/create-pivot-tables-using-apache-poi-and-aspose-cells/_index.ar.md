@@ -186,7 +186,7 @@ pivotTable.addColumnLabel(DataConsolidateFunction.AVERAGE, 2);
 pivotTable.addReportFilter(3);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تنزيل أمثلة تشغيل لـ**قم بإنشاء جداول محورية باستخدام Apache POI و Aspose.Cells** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-Java/releases/tag/Aspose.Cells-Java-vs-POI-SS-v1.5)
@@ -197,6 +197,6 @@ pivotTable.addReportFilter(3);
 
 {{% alert color="primary" %}} 
 
- لمزيد من التفاصيل ، قم بزيارة[إنشاء الجداول المحورية والمخططات المحورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
+ لمزيد من التفاصيل ، قم بزيارة[إنشاء جداول محورية ومخططات محورية](/cells/ar/java/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}

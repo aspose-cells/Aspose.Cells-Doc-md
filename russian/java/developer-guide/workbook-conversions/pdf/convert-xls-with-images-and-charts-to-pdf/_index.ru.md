@@ -8,7 +8,7 @@ keywords: excel to pdf java, convert excel to pdf, convert excel to pdf java, co
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells поддерживает преобразование файлов XLS, содержащих изображения и диаграммы, в документы PDF. Aspose.Cells for Java может работать независимо для преобразования электронной таблицы в PDF: Aspose.PDF API для преобразования не требуются.
+Aspose.Cells поддерживает преобразование XLS файлов, содержащих изображения и диаграммы, в PDF документов. Aspose.Cells for Java может работать независимо, чтобы преобразовать электронную таблицу в PDF: Aspose.PDF Для преобразования не требуются API.
 
 {{% /alert %}}
 
@@ -16,7 +16,7 @@ Aspose.Cells поддерживает преобразование файлов 
 
 {{% alert color="primary" %}}
 
- Если электронная таблица содержит формулы, лучше вызвать[**Рабочая книга.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()) непосредственно перед рендерингом в PDF. Это гарантирует, что значения, зависящие от формулы, будут пересчитаны, а в PDF-файле отобразятся правильные значения.
+ Если электронная таблица содержит формулы, лучше вызвать[**Рабочая книга.calculateFormula**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#calculateFormula()непосредственно перед рендерингом в PDF. Это гарантирует, что значения, зависящие от формулы, пересчитываются, а правильные значения отображаются в PDF.
 
 {{% /alert %}}
 
@@ -24,5 +24,5 @@ Aspose.Cells поддерживает преобразование файлов 
 
 ## Статьи по Теме
 
-- [Преобразование файла Excel в формат PDF, совместимый с PDFA-1a](/cells/ru/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Преобразование файла Excel в формат PDF, совместимый с PDFA-1a.](/cells/ru/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Отображение диаграммы](/cells/ru/java/chart-rendering/)

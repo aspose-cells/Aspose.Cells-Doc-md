@@ -4,7 +4,7 @@ type: docs
 weight: 50
 url: /ja/python-java/recognize-self-closing-tags/
 ---
-HTML には、\ のような空のタグのさまざまなタグ形式を含めることができます<td>\</td>また \<td/>Aspose.Cells は、これらの両方の形式をサポートしています。この機能は、添付のサンプル HTML ファイルを Excel ファイルに変換することでテストできます。サンプルの HTML ファイルと出力ファイルは、テスト用に次のリンクからダウンロードできます。
+HTML は、\ のような空のタグに対してさまざまなタグ形式を設定できます<td>\</td>また \<td/>Aspose.Cells は、これらの両方の形式をサポートしています。この機能は、添付のサンプル HTML ファイルを Excel ファイルに変換することでテストできます。サンプル HTML ファイルと出力ファイルは、テスト用に次のリンクからダウンロードできます。
 
 [ソースファイル](sampleSelfClosingTags.zip)
 

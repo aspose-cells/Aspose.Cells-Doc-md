@@ -1,6 +1,6 @@
 ﻿---
-title: Преобразование Excel в CSV, TSV и Txt
-linktitle: Сохранить как CSV, TSV и Txt
+title: Преобразование Excel в CSV,TSV и Txt
+linktitle: Сохранить как CSV,TSV и Txt
 type: docs
 weight: 40
 url: /ru/net/convert-excel-to-csv-tsv-and-txt/
@@ -19,7 +19,7 @@ Aspose.Cells позволяет конвертировать файлы excel, o
 
 Когда код выполняется, он преобразует данные всех листов книги в формат TXT.
 
- Вы можете изменить тот же пример, чтобы сохранить файл в формате CSV. По умолчанию,**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**является запятой, поэтому не указывайте разделитель при сохранении в формате CSV.
+Вы можете изменить тот же пример, чтобы сохранить файл по адресу CSV. По умолчанию**[TxtSaveOptions.Separator](https://reference.aspose.com/cells/net/aspose.cells/txtsaveoptions/properties/separator)**является запятой, поэтому не указывайте разделитель при сохранении в формате CSV.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-SaveWorkbookToTextCSVFormat-1.cs" >}}
 

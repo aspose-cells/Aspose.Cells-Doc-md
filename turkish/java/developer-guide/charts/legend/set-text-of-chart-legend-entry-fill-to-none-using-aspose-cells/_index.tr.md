@@ -14,6 +14,6 @@ url: /tr/java/set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells/
 
 Aşağıdaki ekran görüntüsü, bu kodun etkisini vurgulamaktadır.[örnek excel dosyası](5473437.xlsx).
 
-![yapılacaklar:resim_alternatif_Metin](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](set-text-of-chart-legend-entry-fill-to-none-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-Settextofchartlegend-Settextofchartlegend.java" >}}

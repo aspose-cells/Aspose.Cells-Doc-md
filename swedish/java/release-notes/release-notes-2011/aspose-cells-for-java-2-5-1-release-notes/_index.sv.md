@@ -22,7 +22,7 @@ url: /sv/java/aspose-cells-for-java-2-5-1-release-notes/
 
  · Fixar buggar med att läsa/spara Excel 2007-filer.
 
- · Fixar buggar för att läsa/spara ODS-filer.
+ · Fixar buggar med att läsa/spara ODS-filer.
 
  · Fixar buggar med att läsa/spara Excel 97-2003-filer.
 
@@ -48,7 +48,7 @@ url: /sv/java/aspose-cells-for-java-2-5-1-release-notes/
 |22971 | Xls|Få/ställ in formens absoluta position|
 |22947 | Odds| Läs formler 2|
 |22950 | Xls| Ställ in formler|
-|22998 | Xls| Läs XLS-filer|
+|22998 | Xls| Läs XLS filer|
 |22286 | Xls| Avbrottsbart bibliotek|
 |23070 | Xlsx| Spara pivottabeller|
 |23048 | Xlsx| Läs mallfilen|
@@ -58,6 +58,6 @@ url: /sv/java/aspose-cells-for-java-2-5-1-release-notes/
 |23649 | Xls| Läs villkorlig formatering|
 |23600 | Xlsx| Spara diagram 2|
 |23658 | Chart2Image| Chart2Image-problem|
-|23721 | Xls2 pdf| Layoutproblem för den genererade PDF-filen|
+|23721 | Xls2 pdf| Layoutproblem för den genererade PDF|
 |23687 | Xlsx| Spara diagrammets sekundära axel|
 

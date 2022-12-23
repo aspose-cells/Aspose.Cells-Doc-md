@@ -6,17 +6,17 @@ url: /sv/net/read-and-write-external-connection-of-xls-and-xlsb-files/
 ---
 ## **Möjliga användningsscenarier**
 
-Aspose.Cells stöder redan läs och skriv extern anslutning av XLSX-fil men nu stöder den även denna funktion för XLSB- och XLS-filer. Koden är dock densamma för alla typer av format.
+Aspose.Cells stöder redan läs och skriv extern anslutning av filen XLSX men nu stöder den även den här funktionen för filen XLSB och XLS. Koden är dock densamma för alla typer av format.
 
-## **Läs och skriv extern anslutning av XLS/XLSB-fil**
+## **Läs och skriv extern anslutning av XLS/XLSB fil**
 
- Följande exempelkod laddar XLSB-exemplet (XLS kan också laddas) och läser dess första externa anslutning som egentligen är en Microsoft Access DB-anslutning. Den modifierar sedan[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) egenskap och sparar den som output XLS/XLSB-fil. Skärmdumpen visar effekten av kod på[exempel på XLSB-fil](51740722.xlsb) och[output XLSB-fil](51740723.xlsb) efter dess utförande. Se även konsolutgången för exempelkoden nedan för en referens.
+ Följande exempelkod laddar exempelfilen XLSB (XLS kan också laddas) och läser dess första externa anslutning som faktiskt är en Microsoft Access DB-anslutning. Den ändrar sedan[**DBConnection.Name**](https://reference.aspose.com/cells/net/aspose.cells.externalconnections/externalconnection/properties/name) egenskap och sparar den som utdatafil XLS/XLSB. Skärmdumpen visar effekten av kod på[exempel XLSB fil](51740722.xlsb) och[utgång XLSB fil](51740723.xlsb) efter dess utförande. Se även konsolutgången för exempelkoden nedan för en referens.
 
 ![todo:image_alt_text](read-and-write-external-connection-of-xls-and-xlsb-files_1.png)
 
 ## **Exempelkod**
 
-Följande kod ska fungera för både XLSB- och XLS-filer genom att ladda och spara filer med rätt tillägg.
+Följande kod ska fungera för både XLSB och XLS filer genom att ladda och spara filer med rätt tillägg.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Workbook-ReadAndWriteExternalConnectionOfXLSBFile.cs" >}}
 

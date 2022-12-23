@@ -5,7 +5,7 @@ weight: 80
 url: /tr/reportingservices/
 is_root: true
 ---
-![yapılacaklar:resim_alternatif_Metin](home_1)
+![yapılacaklar:resim_alternatif_metin](home_1)
 
 **Hoşgeldiniz Aspose.Cells for Reporting Services**
 

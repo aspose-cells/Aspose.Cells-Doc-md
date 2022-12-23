@@ -11,7 +11,7 @@ Dieses Dokument beschreibt die Änderungen an Aspose.Cells API von Version 8.6.3
 {{% /alert %}} 
 ## **APIs hinzugefügt**
 ### **Unterstützung für PDF-Optimierung**
- Aspose.Cells APIs bieten bereits die Funktion zum Konvertieren von Tabellenkalkulationen in PDF. Mit dieser Version von API können Benutzer jetzt[Optimieren Sie die resultierende PDF-Größe](/cells/de/java/save-excel-into-pdf-with-standard-or-minimum-size/)auch. Aspose.Cells for Java 8.7.0 hat die PdfSaveOptions.OptimizationType-Eigenschaft zusammen mit der PdfOptimizationType-Enumeration verfügbar gemacht, um Benutzern die Auswahl des gewünschten Optimierungsalgorithmus beim Exportieren von Tabellenkalkulationen in das PDF-Format zu erleichtern. Es gibt 2 mögliche Werte für die PdfSaveOptions.OptimizationType-Eigenschaft, wie unten beschrieben.
+ Aspose.Cells-APIs bieten bereits die Funktion zum Konvertieren von Tabellenkalkulationen in PDF. Mit dieser Version von API können Benutzer jetzt[Optimieren Sie die resultierende PDF-Größe](/cells/de/java/save-excel-into-pdf-with-standard-or-minimum-size/)sowie. Aspose.Cells for Java 8.7.0 hat die PdfSaveOptions.OptimizationType-Eigenschaft zusammen mit der PdfOptimizationType-Enumeration verfügbar gemacht, um Benutzern die Auswahl des gewünschten Optimierungsalgorithmus zu erleichtern, während sie Tabellenkalkulationen in das PDF-Format exportieren. Es gibt 2 mögliche Werte für die PdfSaveOptions.OptimizationType-Eigenschaft, wie unten beschrieben.
 
 1. PdfOptimizationType.MINIMUM_SIZE: Die Qualität der resultierenden Dateigröße ist beeinträchtigt.
 1. PdfOptimizationType.STANDARD: Die Qualität wird nicht beeinträchtigt, sodass die resultierende Dateigröße groß sein wird.
@@ -161,7 +161,7 @@ else
 }
 
 {{< /highlight >}}
-### **Eigenschaft ColorScale.Is3ColorScale hinzugefügt**
+### **Eigenschaft ColorScale.Is3ColorScale Hinzugefügt**
  Aspose.Cells for Java 8.7.0 hat die ColorScale.Is3ColorScale-Eigenschaft bereitgestellt, die verwendet werden kann[bedingtes Format 2-Farbskala erstellen](/cells/de/java/adding-2-color-scale-and-3-color-scale-conditional-formattings/). Die genannte Eigenschaft ist vom Typ Boolean mit dem Standardwert „true“, was bedeutet, dass das bedingte Format standardmäßig eine 3-Farbskala ist. Wenn Sie jedoch die Eigenschaft ColorScale.Is3ColorScale auf „false“ setzen, wird ein bedingtes Format „2-Farbskala“ generiert.
 
 Es folgt das einfache Nutzungsszenario.
@@ -211,7 +211,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 //Set other necessary properties
 
 {{< /highlight >}}
-### **Eigenschaft TxtLoadOptions.HasFormula hinzugefügt**
+### **Eigenschaft TxtLoadOptions.HasFormula Hinzugefügt**
  Aspose.Cells for Java 8.7.0 hat Unterstützung für bereitgestellt[Identifizieren und parsen Sie die Formeln beim Laden von CSV/TXT-Dateien mit getrennten Klardaten](/cells/de/java/load-or-import-csv-file-with-formulas/). Die neu verfügbar gemachte TxtLoadOptions.HasFormula-Eigenschaft weist, wenn sie auf „true“ gesetzt ist, den API an, die Formeln aus der Eingabedatei mit Trennzeichen zu analysieren und sie auf relevante Zellen festzulegen, ohne dass eine zusätzliche Verarbeitung erforderlich ist.
 
 Es folgt das einfache Nutzungsszenario.
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Eigenschaft DataLabels.ResizeShapeToFitText Hinzugefügt**
- Eine weitere nützliche Funktion, die Aspose.Cells for Java 8.7.0 verfügbar gemacht hat, ist die DataLabels.ResizeShapeToFitText-Eigenschaft, die die aktivieren kann[Passen Sie die Größe der Form an den Text an](/cells/de/java/resize-chart-s-data-label-shape-to-fit-text/) Funktion der Excel-Anwendung für die Datenbeschriftungen des Diagramms.
+ Eine weitere nützliche Funktion, die Aspose.Cells for Java 8.7.0 verfügbar gemacht hat, ist die DataLabels.ResizeShapeToFitText-Eigenschaft, die die aktivieren kann[Passen Sie die Größe der Form an den Text an](/cells/de/java/resize-chart-s-data-label-shape-to-fit-text/)Funktion der Excel-Anwendung für die Datenbeschriftungen des Diagramms.
 
 Es folgt das einfache Nutzungsszenario.
 

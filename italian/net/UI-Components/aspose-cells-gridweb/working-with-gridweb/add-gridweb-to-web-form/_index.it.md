@@ -22,7 +22,7 @@ Creare innanzitutto un progetto di applicazione Web in cui utilizzare il control
 
 Viene visualizzata una finestra di dialogo Nuovo progetto.
 
-1.  Selezionare**Applicazione Web ASP.NET** per la lingua desiderata.
+1.  Selezionare**ASP.NET Applicazione web** per la lingua desiderata.
 
 ![cose da fare:immagine_alt_testo](add-gridweb-to-web-form_2.png)
 

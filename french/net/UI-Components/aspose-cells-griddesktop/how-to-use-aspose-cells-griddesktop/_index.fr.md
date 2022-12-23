@@ -27,7 +27,7 @@ Après avoir effectué les étapes ci-dessus, une application de fenêtre sera c
 ### **Ajout du contrôle GridDesktop au formulaire**
  Faites glisser et déposez le contrôle Aspose.Cells.GridDesktop de la boîte à outils vers le formulaire. Après cela, un contrôle apparaîtra sur le formulaire où vous pourrez effectuer plusieurs actions dessus comme**redimensionner**, **changer ses propriétés**, **etc**.
 ### **Exécutez l'application**
- Enfin, lancez l'application en appuyant sur**Ctrl+F5** ou en cliquant sur le**Commencer** bouton. Lorsque l'application s'exécute, nous voyons un formulaire contenant un contrôle Aspose.Cells.GridDesktop vide. Vous pouvez maintenant ajouter des valeurs aux cellules en cliquant dessus. La capture d'écran suivante montre à quoi ressemblera finalement votre application.
+ Enfin, lancez l'application en appuyant sur**Ctrl+F5** ou en cliquant sur le**Démarrer** bouton. Lorsque l'application s'exécute, nous voyons un formulaire contenant un contrôle Aspose.Cells.GridDesktop vide. Vous pouvez maintenant ajouter des valeurs aux cellules en cliquant dessus. La capture d'écran suivante montre à quoi ressemblera finalement votre application.
 
 ![tâche : image_autre_texte](how-to-use-aspose-cells-griddesktop_1.png)
 

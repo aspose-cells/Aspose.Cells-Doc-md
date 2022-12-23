@@ -32,8 +32,8 @@ Wenn Zeilen oder Spalten hinzugefügt werden, wird der Inhalt im Arbeitsblatt na
 ## **Zeile mit Formatierung einfügen**
 Um eine Zeile mit Formatierungsoptionen einzufügen, verwenden Sie die[Zeilen einfügen](https://reference.aspose.com/cells/java/com.aspose.cells/cells#insertRows\(int,%20int,%20com.aspose.cells.InsertOptions\)) Überlastung, die dauert[Einfügeoptionen](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)als Parameter. Stellen Sie die ein[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/insertoptions#CopyFormatType)Eigentum von[Einfügeoptionen](https://reference.aspose.com/cells/java/com.aspose.cells/InsertOptions)Klasse mit[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Aufzählung. Das[CopyFormatType](https://reference.aspose.com/cells/java/com.aspose.cells/CopyFormatType)Die Aufzählung hat drei Mitglieder, wie unten aufgeführt.
 
-- [GLEICH_WIE_OBEN](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)Formatiert die Zeile genauso wie die obige Zeile.
-- [GLEICH_WIE_UNTER](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Formatiert die Zeile genauso wie die untere Zeile.
+- [GLEICH_ALS_OBEN](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_ABOVE)Formatiert die Zeile genauso wie die obige Zeile.
+- [GLEICH_ALS_UNTER](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#SAME_AS_BELOW): Formatiert die Zeile genauso wie die untere Zeile.
 - [KLAR](https://reference.aspose.com/cells/java/com.aspose.cells/copyformattype#CLEAR): Löscht die Formatierung.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-RowsAndColumns-InsertingARowWithFormatting-1.java" >}}

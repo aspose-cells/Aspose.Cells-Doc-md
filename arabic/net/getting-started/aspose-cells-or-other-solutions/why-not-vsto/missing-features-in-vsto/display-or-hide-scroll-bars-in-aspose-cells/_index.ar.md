@@ -15,7 +15,7 @@ url: /ar/net/display-or-hide-scroll-bars-in-aspose-cells/
 
 {{% /alert %}}
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**إعدادات المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) صف دراسي'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الخصائص.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**إعدادات المصنف**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings) صف دراسي'[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الخصائص.[**IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
 
 يوجد أدناه رمز كامل يفتح ملف Excel ، book1.xls ، ويخفي شريطي التمرير ثم يحفظ الملف المعدل كـ output.xls.
 
@@ -61,7 +61,7 @@ fstream.Close();
 
 {{< /highlight >}}
 
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20VSTO%20Spreadsheets/Aspose.Cells%20Features%20missing%20in%20VSTO/Display%20or%20Hide%20Scroll%20Bars)
 

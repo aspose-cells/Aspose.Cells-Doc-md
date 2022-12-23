@@ -20,39 +20,39 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-43112) - Obtenir le texte de l'équation de la ligne de tendance à l'intérieur du graphique
 
-(CELLSNET-42303) - Conversion d'un graphique en image au format SVG
+(CELLSNET-42303) - Conversion du graphique en image au format SVG
 
 (CELLSNET-43158) - Prise en charge de la définition de la propriété de classeur AutoRecover
 
 ### **Insectes**
 
-(CELLSNET-41756) - Problème avec les images dans la conversion XLS en HTML
+(CELLSNET-41756) - Problème avec les images dans la conversion XLS à HTML
 
-(CELLSNET-41755) - Problème avec les images lors de la conversion XLS en PDF
+(CELLSNET-41755) - Problème avec les images dans la conversion XLS à PDF
 
-(CELLSNET-43111) - L'ajout de valeurs de cellule au XLSB supprime les préréglages
+(CELLSNET-43111) - Ajout de valeurs de cellule aux préréglages de suppression XLSB
 
-(CELLSNET-43110) - Erreur « Excel a trouvé du contenu illisible » causée par un champ pivot (double) dans la sortie XLSB
+(CELLSNET-43110) - Erreur "Excel a trouvé du contenu illisible" causée par un champ pivot (double) dans la sortie XLSB
 
 (CELLSNET-43109) - Erreur "Excel a trouvé du contenu illisible" causée par un champ pivot (double) dans la sortie XLSX
 
 (CELLSNET-43095) - Le graphique change d'emplacement
 
-(CELLSNET-43053) - Erreurs lors de l'affichage du code HTML dans Chrome et Safari
+(CELLSNET-43053) - Erreurs lors de l'affichage de HTML dans Chrome et Safari
 
 (CELLSNET-42984) - La luminosité de l'image est perdue lors du rendu de l'image à partir d'Excel
 
 (CELLSNET-42871) - Problème avec 2 hyperliens dans 1 cellule
 
-(CELLSNET-42797) - Les zones de texte perdent l'alignement justifié en cours d'enregistrement dans XPS
+(CELLSNET-42797) - Les zones de texte perdent l'alignement justifié en cours d'enregistrement sur XPS
 
-(CELLSNET-42796) - Les zones de texte perdent l'alignement justifié en cours d'enregistrement au format PDF
+(CELLSNET-42796) - Les zones de texte perdent l'alignement justifié en cours d'enregistrement sur PDF
 
 (CELLSNET-42199) - Excel Diagram n'exporte pas correctement
 
 (CELLSNET-40902) - La zone de texte Excel est redimensionnée de manière incorrecte lors du rendu en image
 
-(CELLSNET-43138) - Le texte rouge est rendu en noir lors de la conversion de SpreadsheetML au format PDF
+(CELLSNET-43138) - Le texte rouge est rendu en noir lors de la conversion du format SpreadsheetML au format PDF
 
 (CELLSNET-43133) - Problème d'impression de plusieurs exemplaires
 
@@ -64,7 +64,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-42402) - La conformité PDF/A-1b a échoué avec Adobe X Pro Preflight
 
-(CELLSNET-41906) - Échec de la validation PDF/A et autres problèmes liés aux polices
+(CELLSNET-41906) - PDF/A Échec de la validation et autres problèmes liés aux polices
 
 (CELLSNET-41832) - PDF/A créé avec Aspose Cells échec des vérifications
 
@@ -74,7 +74,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-43052) - Chart.Calculate ne fonctionne pas correctement
 
-(CELLSNET-43040) - Le graphique linéaire est rendu vide lorsqu'il est enregistré au format PNG à l'aide de Chart.ToImage
+(CELLSNET-43040) - Le graphique linéaire est rendu vide lorsqu'il est enregistré dans PNG à l'aide de Chart.ToImage
 
 (CELLSNET-43039) - Les étiquettes de données du graphique sont mal placées.
 
@@ -108,17 +108,17 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-43094) - La formule de plancher n'est pas calculée correctement
 
-(CELLSNET-43091) - La disposition du graphique a changé lors de la conversion d'ODS au format XLSX
+(CELLSNET-43091) - La mise en page du graphique a changé lors de la conversion du format ODS au format XLSX
 
-(CELLSNET-43087) - La conversion ODS en XLSX produit une feuille de calcul corrompue
+(CELLSNET-43087) - La conversion de ODS à XLSX produit une feuille de calcul corrompue
 
 (CELLSNET-43080) - Enregistrer Excel au format HTML : la mise en forme conditionnelle ne fonctionne pas
 
-(CELLSNET-42969) - La mise en forme conditionnelle n'est pas conservée lors de la conversion d'une feuille de calcul en PDF
+(CELLSNET-42969) - La mise en forme conditionnelle n'est pas conservée lors de la conversion de la feuille de calcul en PDF
 
 (CELLSNET-42356) - La combinaison de classeurs ne conserve pas les propriétés des objets de dessin dans la ou les feuilles de calcul
 
-### **Exceptions**
+### **Des exceptions**
 
 (CELLSNET-43142) - System.OverflowException à l'ouverture du fichier Excel
 
@@ -132,7 +132,7 @@ Voici une liste des modifications apportées à cette version de Aspose.Cells.
 
 (CELLSNET-43147) - CellsException : "Nom de cellule non valide" dans la méthode WorksheetCollection.GetNamedRanges
 
-(CELLSNET-43113) - NullReferenceException lors de l'ouverture du classeur XLSX
+(CELLSNET-43113) - NullReferenceException à l'ouverture du classeur XLSX
 
 (CELLSNET-43107) - System.OverflowException : la valeur était trop grande ou trop petite pour un Int32, au niveau du classeur
 

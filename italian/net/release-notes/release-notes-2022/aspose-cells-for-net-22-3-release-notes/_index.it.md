@@ -10,41 +10,41 @@ url: /it/net/aspose-cells-for-net-22-3-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-50375|Supporta l'ordinamento di PivotField tramite i valori nella riga/colonna selezionata|
 |CELLSNET-50559|Supporto per ottenere le foglie della cella in modo ricorsivo|
 |CELLSNET-50512|Supporto per ricalcolare le celle che fanno riferimento al nome definito quando il nome definito viene modificato e la catena di calcolo è abilitata|
 |CELLSNET-50403|Aggiungere SaveFormat.Ots e SaveFormat.Xlt|
-|CELLSNET-50422|Supporta l'impostazione all'interno dei confini|
+|CELLSNET-50422|Supporta l'impostazione all'interno dei bordi|
 |CELLSNET-50342|Tabella pivot non ordinata all'aggiornamento|
 |CELLSNET-50451|L'eliminazione del foglio di lavoro comporta l'eliminazione dei filtri dei dati|
 |CELLSNET-50462|Regressione: dopo aver copiato l'intervallo di celle, le formule vengono perse|
 |CELLSNET-50545| I campi formattati in modo condizionale non sono colorati con il colore giusto|
 |CELLSNET-50565|Le formule non sono state calcolate correttamente|
-|CELLSNET-50309|Intervallo a PNG: output non come previsto|
-|CELLSNET-50334|Regressione: da XLS a PDF: intestazione non resa correttamente|
-|CELLSNET-50367|La conversione di .XLSX in PDF richiede molto tempo e produce pagine extra|
+|CELLSNET-50309|Intervallo fino a PNG: output non come previsto|
+|CELLSNET-50334|Regressione: da XLS a PDF: intestazione non visualizzata correttamente|
+|CELLSNET-50367|La conversione da .XLSX a PDF richiede molto tempo e produce pagine extra|
 |CELLSNET-50401|I valori numerici oi numeri seguiti da voci non sono visibili nel pdf risultante|
 |CELLSNET-50478|Workbook.ExportXml restituisce solo la prima riga dei dati della tabella|
 |CELLSNET-50507|Xml Import mostra le colonne precedentemente nascoste nel modello|
 |CELLSNET-50554|Il contenuto non viene visualizzato correttamente nella conversione da Excel a PDF|
 |CELLSNET-50316|I testi a capo non funzionano sui grafici durante la generazione di PDF|
-|CELLSNET-50411|Le etichette dell'asse orizzontale del grafico non vengono visualizzate correttamente nel PDF di output|
+|CELLSNET-50411|Le etichette dell'asse orizzontale del grafico non vengono visualizzate correttamente nell'output PDF|
 |CELLSNET-50341|Problema con Comprimi ed espandi gruppi a più livelli|
-|CELLSNET-50368| Conversione da ODS a PDF errata|
-|CELLSNET-50377|La formattazione "Testo" personalizzata non viene applicata al file XLS|
+|CELLSNET-50368|Conversione da ODS a PDF errata|
+|CELLSNET-50377|La formattazione personalizzata "Testo" non viene applicata nel file XLS|
 |CELLSNET-50380| La proprietà ImportTableOptions.IsHtmlString non restituisce correttamente i collegamenti|
-|CELLSNET-50418|Carica HTML nella cartella di lavoro non funziona|
-|CELLSNET-50494|Problema con il colore per le celle formattate in modo condizionale nel file XLSX di output|
+|CELLSNET-50418|Carica HTML nella cartella di lavoro non funzionante|
+|CELLSNET-50494|Problema con il colore per le celle formattate in modo condizionale nel file di output XLSX|
 |CELLSNET-50563|Problema durante l'impostazione della licenza incorporata su Produci singolo file nell'applicazione .NET 6.0|
 |CELLSNET-50585|Nessuna barra in avanti ma barre all'indietro per collegamenti esterni con URL|
-|CELLSNET-50390| System.ArgumentException: il numero di riga o il numero di colonna non può essere zero durante l'importazione di dati JSON come tabella|
+|CELLSNET-50390| System.ArgumentException: il numero di riga o il numero di colonna non può essere zero durante l'importazione dei dati JSON come tabella|
 |CELLSNET-50555| ArgumentOutOfRangeException durante il tentativo di ottenere la formula di una cella|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Modifica il valore predefinito di HtmlSaveOptions.ExcludeUnusedStyles.**
 

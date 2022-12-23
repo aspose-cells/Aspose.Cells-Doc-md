@@ -10,38 +10,38 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-41814|Supporta l'ordinamento personalizzato dei dati per l'area specifica nel rapporto di tabella pivot|Nuova caratteristica|
 |CELLSJAVA-43032|Aggiungere Validation.addArea (CellArea cellArea, boolean skipArea) o Validation.setAreas() metodo/overload alle API|Nuova caratteristica|
 |CELLSJAVA-42851|Ottieni i dettagli della connessione ODATA|Nuova caratteristica|
 |CELLSJAVA-43047|Aggiunta del testo del suggerimento alla cella per l'esportazione in HTML|Nuova caratteristica|
 |CELLSJAVA-42988|Problema di prestazioni con calcolaFormula()|Aumento|
-|CELLSJAVA-43018|Esporta l'intervallo dell'area di stampa in HTML senza modificare implicitamente alcuni stati della stessa cartella di lavoro|Aumento|
+|CELLSJAVA-43018|Esporta l'intervallo dell'area di stampa in HTML senza modificare implicitamente lo stato della stessa cartella di lavoro|Aumento|
 |CELLSJAVA-43041|Cells.importCSV genera un'eccezione "il valore della stringa non può superare i 255 caratteri"|Aumento|
 |CELLSJAVA-43043|Cells.removeDuplicates richiede più tempo per set di dati di grandi dimensioni|Aumento|
 |CELLSJAVA-43002|Hot spot CPU imprevisto in ZipOutputStream all'apertura di XSLB|Aumento|
 |CELLSJAVA-43008|Opzione per disabilitare il caricamento dell'oggetto OLE durante l'apertura di una cartella di lavoro|Aumento|
-|CELLSJAVA-43019|Grafico radiale non visualizzato correttamente in HTML|Insetto|
-|CELLSJAVA-43027|Dopo il rendering in PNG, il ridimensionamento dell'asse è diverso.|Insetto|
+|CELLSJAVA-43019|Grafico radiale non reso correttamente a HTML|Insetto|
+|CELLSJAVA-43027|Dopo la restituzione a PNG, la scala dell'asse è diversa.|Insetto|
 |CELLSJAVA-42474|La tabella pivot non viene aggiornata e danneggiata dopo l'aggiornamento dei dati di origine|Insetto|
-|CELLSJAVA-43033|La conversione in PDF non finisce.|Insetto|
+|CELLSJAVA-43033|La conversione allo PDF non finisce.|Insetto|
 |CELLSJAVA-43034|Viene recuperato un output in formato di data russo (personalizzato) non valido|Insetto|
 |CELLSJAVA-43040|LoadFilter non considera il foglio richiesto|Insetto|
 |CELLSJAVA-43035|I bordi vengono persi durante la conversione del file Excel in EMF|Insetto|
 |CELLSJAVA-43016|Conteggio pagine non valido da SheetRender|Insetto|
 |CELLSJAVA-43026|Dopo aver eseguito il rendering del grafico sull'immagine, le etichette dei dati cambiano stile e i valori non sono gli stessi|Insetto|
-|CELLSJAVA-43038|I collegamenti ipertestuali non vengono esportati utilizzando Cell.setHtmlString()|Insetto|
+|CELLSJAVA-43038|collegamenti ipertestuali non vengono esportati utilizzando Cell.setHtmlString()|Insetto|
 |CELLSJAVA-43039|Cell.setHtmlString() non esegue il rendering di determinati tag/script HTML nell'esportazione in Excel|Insetto|
 |CELLSJAVA-41103|La colorazione e la formattazione dei dati della tabella pivot non vengono visualizzate correttamente|Insetto|
-|CELLSJAVA-43007|Il PDF non viene generato come previsto|Insetto|
+|CELLSJAVA-43007|PDF non viene generato come previsto|Insetto|
 |CELLSJAVA-43025|Cell.getStyle.getCustom restituisce un formato errato per la locale tedesca|Insetto|
 |CELLSJAVA-42793|Oggetto Fontwork SmartArt perso durante la conversione da ODS a XLSX|Insetto|
 |CELLSJAVA-43020|Grafico radiale distorto dopo aver chiamato Chart.Calcluate()|Insetto|
 |CELLSJAVA-43022|Errore da forma a immagine per i file XLS|Insetto|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) provoca risultati indesiderati durante la chiamata a getFormula()|Insetto|
 |CELLSJAVA-43052|Problema di convalida per i valori booleani|Insetto|
-|CELLSJAVA-43054|Problema con CSV Merge nelle impostazioni portoghesi|Insetto|
+|CELLSJAVA-43054|Problema con CSV Unisci nelle impostazioni portoghesi|Insetto|
 |CELLSJAVA-43056|Cell.setFormula() non si aggiorna per i collegamenti esterni|Insetto|
 |CELLSJAVA-42767|Immagine persa durante la conversione da Excel a PDF|Insetto|
 |CELLSJAVA-42913|Oggetti Visio incorporati visualizzati in modo errato in PDF|Insetto|
@@ -53,8 +53,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-43013|ArrayIndexOutOfBoundsException durante il caricamento del file Excel|Eccezione|
 |CELLSJAVA-43060|Eccezione "java.lang.NullPointerException" su Workbook.save dopo aver impostato l'origine dati esterna come vuota|Eccezione|
 |CELLSJAVA-42923|Eccezioni durante il caricamento del documento XLS|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 ### **Aggiunge il metodo Cells.RemoveDuplicates()**
 Rimuove i dati duplicati dell'intervallo.
 ### **Aggiunge la proprietà OleObject.FullObjectBin**
@@ -126,7 +126,7 @@ Ottiene e imposta il tipo di testo a capo con adattamento automatico.
 ### **Aggiunge la classe EmfRenderSetting**
 Imposta per il rendering del metafile EMF.
 ### **Aggiunge la proprietà PdfSaveOptions.EmfRenderSetting**
-Imposta per il rendering del metafile EMF durante il rendering in un file PDF.
+Imposta il rendering del metafile EMF durante il rendering nel file PDF.
 ### **Aggiunge il metodo ShapeCollection.AddSvg()**
 Aggiunge un'immagine svg.
 ### **Aggiunge la proprietà WorkbookSettings.QuotePrefixToStyle**

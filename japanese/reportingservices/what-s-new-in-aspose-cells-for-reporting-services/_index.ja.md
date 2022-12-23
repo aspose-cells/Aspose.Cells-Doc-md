@@ -18,7 +18,7 @@ url: /ja/reportingservices/what-s-new-in-aspose-cells-for-reporting-services/
 
 ## Aspose.Cells for Reporting Services  22.8
 
-* XLTX フォーマットのレンダリングをサポート。
+* XLTX 形式のレンダリングをサポート。
 
 ## Aspose.Cells for Reporting Services  22.7
 

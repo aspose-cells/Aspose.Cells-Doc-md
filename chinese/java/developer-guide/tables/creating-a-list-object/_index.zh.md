@@ -27,19 +27,19 @@ Aspose.Cells 支持创建和管理列表。
 
 **选择用于创建列表对象的数据范围** 
 
-![待办事项：图像_替代_文本](creating-a-list-object_1.png)
+![待办事项：图片_替代_文本](creating-a-list-object_1.png)
 
 这将显示“创建列表”对话框。
 
 **创建列表对话框** 
 
-![待办事项：图像_替代_文本](creating-a-list-object_2.png)
+![待办事项：图片_替代_文本](creating-a-list-object_2.png)
 
 实施列表对象并指定总行（选择**数据**， 然后**列表**， 其次是**总行数**).
 
 **创建列表对象** 
 
-![待办事项：图像_替代_文本](creating-a-list-object_3.png)
+![待办事项：图片_替代_文本](creating-a-list-object_3.png)
 
 ## **使用 Using Aspose.Cells API 创建表**
 

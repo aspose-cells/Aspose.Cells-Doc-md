@@ -13,17 +13,17 @@ url: /zh/net/aspose-cells-for-net-17-8-release-notes/
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
 |CELLSNET-45357 |在导出到 HTML 期间禁用下层显示类型的条件注释的选项|新功能|
-|CELLSNET-45330 |另存为图像、HTML 或 PDF 时呈现注释|新功能|
+|CELLSNET-45330 |另存为图片时呈现评论，HTML 或 PDF|新功能|
 |CELLSNET-45014 |从office 2013开始支持图表的style.xml|新功能|
 |CELLSNET-45501 |在设计时和运行时将 GridDesktop 的默认样式设置为类似于 Aspose.Cells.Workbook.DefaultStyle|新功能|
 |CELLSNET-44243 |在 GridDesktop 组件上使用 Tab 导航时跳过锁定的单元格|新功能|
 |CELLSNET-45517 |添加对共享 xlsx 文件的支持|强化|
 |CELLSNET-45554 |Cell 服务端更新评论后同步或更新客户端评论|强化|
 |CELLSNET-45530 |MS Excel 会消耗更多内存（大约 2GB）来打开输出文件|表现|
-|CELLSNET-45531 |输出 PDF 中形状文本的位置错误 - Excel 到 PDF 的转换|漏洞|
+|CELLSNET-45531 |形状文本的位置在输出中是错误的 PDF - Excel 到 PDF 的转换|漏洞|
 |CELLSNET-45507 |输出 Pdf 中的图表未正确呈现|漏洞|
 |CELLSNET-45477 |在 Sheet 中渲染形状到图像转换的问题|漏洞|
-|CELLSNET-45473 |通过 Aspose.Cells API 将 XLS 文件另存为 HTML 时出现文本对齐问题|漏洞|
+|CELLSNET-45473 |通过 Aspose.Cells API 将 XLS 文件保存为 HTML 时出现文本对齐问题|漏洞|
 |CELLSNET-45536 |将 Excel 工作表渲染为图像时文本被剪切|漏洞|
 |CELLSNET-45524 |在 Sheet 中渲染形状到图像转换时出现冗余线|漏洞|
 |CELLSNET-45522 |Cells 到 PDF - 当页脚文本包含时，页脚不换行|漏洞|
@@ -38,10 +38,10 @@ url: /zh/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45570 |Excel 文件在通过 Aspose.Cells API 打开并重新保存后由于数据验证范围而损坏|漏洞|
 |CELLSNET-45560 |调用 RemoveMacro() 方法后 Excel 中显示错误消息 Microsoft|漏洞|
 |CELLSNET-45555 |Cells.GroupRows isHidden 属性在嵌套组中显示不正确|漏洞|
-|CELLSNET-45552 |打开和重新保存 XLSX 文件时，链接图像在图表内重复|漏洞|
-|CELLSNET-45549 |输出 XLS 文件在打开和保存源 XLS 文件时损坏|漏洞|
-|CELLSNET-45548 |SpreadsheetML AllowFilter 元素在输出 XLSX 中不起作用|漏洞|
-|CELLSNET-45546 |打开和保存 ODS 文件时丢失单元格数据|漏洞|
+|CELLSNET-45552 |打开并重新保存 XLSX 文件时，链接图像在图表内重复|漏洞|
+|CELLSNET-45549 |打开和保存源 Xls 文件时输出 XLS 文件损坏|漏洞|
+|CELLSNET-45548 |SpreadsheetML AllowFilter 元素在输出中不起作用 XLSX|漏洞|
+|CELLSNET-45546 |打开和保存 ODS 文件时缺少单元格数据|漏洞|
 |CELLSNET-45544 |移动范围时，公式仅引用范围的第一个单元格|漏洞|
 |CELLSNET-45543 |移动条件格式的单元格会删除格式|漏洞|
 |CELLSNET-45541 |space.xlsx 中的 H7 - 空格不显示|漏洞|
@@ -49,9 +49,9 @@ url: /zh/net/aspose-cells-for-net-17-8-release-notes/
 |CELLSNET-45534 |Workbook.Unprotect 方法即使密码错误也能正常工作|漏洞|
 |CELLSNET-45532 |允许公式无效的整数数据验证|漏洞|
 |CELLSNET-45529 |ListObject.Resize 更改格式并设置过滤器|漏洞|
-|CELLSNET-45520 |评论字段未从 SpreadsheetML 正确打开|漏洞|
+|CELLSNET-45520 |SpreadsheetML 评论区未正确打开|漏洞|
 |CELLSNET-45518 |输出 Excel 文件中的数据验证不起作用|漏洞|
-|CELLSNET-45509 |嵌入的对象/图像在 Excel 到 PDF 的转换中不呈现|漏洞|
+|CELLSNET-45509 |嵌入对象/图像未在 Excel 中呈现为 PDF 转换|漏洞|
 |CELLSNET-45505 |提取和重新插入图像时，某些形状在 XLS 文件中被置换|漏洞|
 |CELLSNET-45504 |输出 xlsx 文件中缺少前导引号字符|漏洞|
 |CELLSNET-45502 |工作簿复制为 Excel 2016/2007 生成损坏的文件|漏洞|
@@ -89,7 +89,7 @@ url: /zh/net/aspose-cells-for-net-17-8-release-notes/
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
 - [将数字签名添加到已签名的 Excel 文件](/cells/zh/net/add-digital-signature-to-an-already-signed-excel-file/)
-- [保存为 HTML 时禁用下层显示评论](/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/)
+- [保存到 HTML 时禁用下层显示评论](/cells/zh/net/disable-downlevel-revealed-comments-while-saving-to/)
 - [将 Excel 文件保存为 Html 时导出注释](/cells/zh/net/export-comments-while-saving-excel-file-to/)
 - [无内容打印时输出空白页](/cells/zh/net/output-blank-page-when-there-is-nothing-to-print/)
 - [使用 CustomImplementationFactory 创建内存流的自定义实现](/cells/zh/net/using-customimplementationfactory-to-create-custom-implementation-of-memory-stream/)

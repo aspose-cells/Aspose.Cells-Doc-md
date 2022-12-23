@@ -3,10 +3,10 @@ title: Überprüfen Sie das Passwort verschlüsselter Dateien
 type: docs
 weight: 10
 url: /de/net/verify-password-of-encrypted-excel-and-ods-files/
-description: Überprüfen Sie das Passwort von verschlüsselten Excel- (xlsx, xlsb, xls, xlsm) und Open Office (ODS)-Dateien mit CShape-Codes.
+description: Überprüfen Sie das Passwort verschlüsselter Excel- (xlsx, xlsb, xls, xlsm) und Open Office-Dateien (ODS) mithilfe von CShape-Codes.
 ---
 {{% alert color="primary" %}}
-Wenn Excel- (xlsx, xlsb, xls, xlsm) und Open Office (ODS)-Dateien mit einem Passwort gesperrt sind, unterstützt Aspose eine einfache Passwortüberprüfung, ohne spezifische Daten der Dateien zu analysieren.
+Wenn Excel- (xlsx, xlsb, xls, xlsm) und Open Office-Dateien (ODS) mit einem Passwort gesperrt sind, unterstützt Aspose eine einfache Passwortüberprüfung, ohne bestimmte Daten der Dateien zu analysieren.
 {{% /alert %}}
 
 ## **Überprüfen Sie das Passwort der verschlüsselten Datei**

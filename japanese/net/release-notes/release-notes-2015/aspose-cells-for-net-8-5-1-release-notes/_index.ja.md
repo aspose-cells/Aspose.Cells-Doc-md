@@ -24,7 +24,7 @@ url: /ja/net/aspose-cells-for-net-8-5-1-release-notes/
 
 ### **バグ**
 
-(CELLSNET-43744) - PDF に保存するときにピボットテーブルが更新されない
+(CELLSNET-43744) - PDF に保存するとピボットテーブルが更新されない
 
 (CELLSNET-43735) - ピボット テーブルのバンド行オプションが失われました
 
@@ -46,7 +46,7 @@ url: /ja/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43753) - Aspose.Cells は 2 ページをレンダリングします
 
-(CELLSNET-43731) - ワークシートを EMF 画像にレンダリング中にテキストが途切れる
+(CELLSNET-43731) - ワークシートを EMF 画像にレンダリングしているときに、テキストが途切れる
 
 (CELLSNET-43756) - チャート画像に、Excel チャートの x 軸と同じ値が含まれていない
 
@@ -56,7 +56,7 @@ url: /ja/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43700) - PDF に変換した後、画像の色が異なって見える
 
-(CELLSNET-43199) - Excel を PDF に保存すると、コンテンツと形状がずれます
+(CELLSNET-43199) - Excel を PDF に保存すると、コンテンツと形状が移動する
 
 (CELLSNET-43767) - Excel は、Aspose.Cells 保存されたスプレッドシートで保護されたビューを表示します
 
@@ -68,7 +68,7 @@ url: /ja/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43742) - ワークブックの保護動作に一貫性がない
 
-(CELLSNET-43734) - XLSM から XLS への変換後に Excel でファイルを開くことができない
+(CELLSNET-43734) - XLSM から XLS に変換した後、Excel でファイルを開くことができない
 
 (CELLSNET-43727) - ワークブックを結合すると、Excel の「グループ編集モードではピボットテーブルを編集できません」という警告が表示される
 
@@ -76,7 +76,7 @@ url: /ja/net/aspose-cells-for-net-8-5-1-release-notes/
 
 (CELLSNET-43768) - 他のワークブックからワークシートをコピー中に不明な領域エラーが発生する
 
-(CELLSNET-43716) - PDF への変換時の形状から画像へのエラー
+(CELLSNET-43716) - PDF への変換時にシェイプからイメージへのエラーが発生する
 
 (CELLSNET-43764) - Strict OpenXML として保存されたスプレッドシートのワークブック ctor での NullReferenceException
 

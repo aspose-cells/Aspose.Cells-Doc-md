@@ -6,18 +6,18 @@ url: /it/net/configuring-fonts-for-rendering-spreadsheets/
 ---
 ## **Possibili scenari di utilizzo**
 
-Aspose.Cells Le API forniscono la possibilità di eseguire il rendering dei fogli di calcolo in formati immagine e di convertirli in formati PDF e XPS. Per massimizzare la fedeltà della conversione, è necessario che i caratteri utilizzati nel foglio di calcolo siano disponibili nella directory dei caratteri predefinita del sistema operativo. Nel caso in cui i font richiesti non siano presenti allora le API Aspose.Cells cercheranno di sostituire i font richiesti con quelli disponibili.
+Le API Aspose.Cells forniscono la possibilità di eseguire il rendering dei fogli di calcolo in formati immagine e di convertirli nei formati PDF e XPS. Per massimizzare la fedeltà della conversione, è necessario che i caratteri utilizzati nel foglio di calcolo siano disponibili nella directory dei caratteri predefinita del sistema operativo. Nel caso in cui i font richiesti non siano presenti allora le API Aspose.Cells cercheranno di sostituire i font richiesti con quelli disponibili.
 
 ## **Selezione dei caratteri**
 
 Di seguito è riportato il processo che le API Aspose.Cells seguono dietro le quinte.
 
-1. L'API tenta di trovare i caratteri nel file system corrispondenti al nome esatto del carattere utilizzato nel foglio di calcolo.
-1.  Se l'API non riesce a trovare i caratteri con lo stesso identico nome, tenta di utilizzare il carattere predefinito specificato in Cartella di lavoro**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** proprietà.
-1.  Se l'API non è in grado di individuare il carattere definito sotto la cartella di lavoro**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** proprietà, tenta di utilizzare il carattere specificato in**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** o**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** proprietà.
-1. Se l'API non è in grado di individuare il carattere definito in**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** o**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** proprietà, tenta di utilizzare il carattere specificato in**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** proprietà.
-1. Se l'API non è in grado di individuare il carattere definito in**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** proprietà, tenta di selezionare i caratteri più adatti tra tutti i caratteri disponibili.
-1. Infine, se l'API non riesce a trovare alcun carattere nel file system, esegue il rendering del foglio di calcolo utilizzando Arial.
+1. Lo API tenta di trovare i caratteri sul file system corrispondenti al nome esatto del carattere utilizzato nel foglio di calcolo.
+1.  Se API non riesce a trovare i caratteri con lo stesso identico nome, tenta di utilizzare il carattere predefinito specificato in Cartella di lavoro**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** proprietà.
+1.  Se API non è in grado di individuare il carattere definito sotto la cartella di lavoro**[DefaultStyle.Font](https://reference.aspose.com/cells/net/aspose.cells/style/properties/font)** proprietà, tenta di utilizzare il carattere specificato in**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** o**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** proprietà.
+1.  Se API non è in grado di individuare il carattere definito in**[PdfSaveOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/defaultfont)** o**[ImageOrPrintOptions.DefaultFont](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/defaultfont)** proprietà, tenta di utilizzare il carattere specificato in**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** proprietà.
+1.  Se API non è in grado di individuare il carattere definito in**[FontConfigs.DefaultFontName](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/properties/defaultfontname)** proprietà, tenta di selezionare i caratteri più adatti tra tutti i caratteri disponibili.
+1. Infine, se API non riesce a trovare alcun carattere nel file system, esegue il rendering del foglio di calcolo utilizzando Arial.
 
 ## **Imposta cartelle di caratteri personalizzati**
 
@@ -57,7 +57,7 @@ Ecco un semplice scenario di utilizzo.
 
 Oltre ai metodi sopra menzionati, le API Aspose.Cells hanno anche fornito mezzi per raccogliere informazioni su quali fonti e sostituzioni sono state impostate.
 
-1. **[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)** Il metodo restituisce un array di tipo**[FontSourceBase](https://reference.aspose.com/cells/net/aspose.cells/fontsourcebase)** contenente l'elenco delle fonti di font specificate. Nel caso in cui non siano state impostate fonti, il file**[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)**metodo restituirà un array vuoto.
+1. **[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)** Il metodo restituisce un array di tipo**[FontSourceBase](https://reference.aspose.com/cells/net/aspose.cells/fontsourcebase)**contenente l'elenco delle fonti di font specificate. Nel caso in cui non siano state impostate fonti, il file**[FontConfigs.GetFontSources](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsources)**metodo restituirà un array vuoto.
 1. **[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)** Il metodo accetta un parametro di tipo**corda** permettendo di specificare il nome del carattere per il quale è stata impostata la sostituzione. Nel caso in cui non sia stata impostata alcuna sostituzione per il nome del carattere specificato, il file**[FontConfigs.GetFontSubstitutes](https://reference.aspose.com/cells/net/aspose.cells/fontconfigs/methods/getfontsubstitutes)**il metodo restituirà null.
 
 ## **Argomenti avanzati**

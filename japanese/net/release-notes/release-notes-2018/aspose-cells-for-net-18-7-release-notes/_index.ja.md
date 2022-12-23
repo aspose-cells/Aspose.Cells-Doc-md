@@ -12,7 +12,7 @@ url: /ja/net/aspose-cells-for-net-18-7-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-46046|出力 PDF で丸い画像が正方形の画像になる|新機能|
+|CELLSNET-46046|丸い画像が出力で正方形の画像になる PDF|新機能|
 |CELLSNET-43538|ピボット テーブル スライサーのサポート|新機能|
 |CELLSNET-41946|スライサーとピボット テーブルを処理する|新機能|
 |CELLSNET-46163|ODS ファイルの暗号化と復号化をサポート|新機能|
@@ -20,7 +20,7 @@ url: /ja/net/aspose-cells-for-net-18-7-release-notes/
 |CELLSNET-46185|WorkbookSettings.MaxRow および WorkbookSettings.MaxColumn プロパティを追加します|新機能|
 |CELLSNET-46205|Author を更新するための WriteProtection.Author プロパティを追加します。|強化|
 |CELLSNET-41946|ロードおよび保存後にピボット テーブル フィルタが機能しない|バグ|
-|CELLSNET-45921|Excel から PDF へのレンダリングで円が正方形になる|バグ|
+|CELLSNET-45921|Excel で円が正方形になり、PDF レンダリング|バグ|
 |CELLSNET-46217|#NUM!」 「FV(NPER())」式内で評価エラーが発生する|バグ|
 |CELLSNET-46214|XLS ファイルのロード時の例外「無効な BIFF8 ファイル」|バグ|
 |CELLSNET-46212|XLSX ファイルのロード時の例外|バグ|
@@ -29,9 +29,9 @@ url: /ja/net/aspose-cells-for-net-18-7-release-notes/
 |CELLSNET-46187|二重下線の長さが正しくありません - Excel から PDF への変換|バグ|
 |CELLSNET-46213|XLSB への保存中に OLE オブジェクトが破損する|バグ|
 |CELLSNET-46210|HtmlNote プロパティを使用したコメントの作成が機能しない|バグ|
-|CELLSNET-46198|XLSX から PDF への変換中に空白の PDF が作成される|バグ|
+|CELLSNET-46198|XLSX を PDF に変換する際に空白の PDF が作成される|バグ|
 |CELLSNET-46196|ワークブックを結合すると、出力ファイルでグラフの高さが変更されます|バグ|
-|CELLSNET-46195|添付された XLSX を PDF に変換すると例外が発生する|バグ|
+|CELLSNET-46195|添付の XLSX を PDF に変換すると例外が発生する|バグ|
 |CELLSNET-46192|dde を含む XLSX ファイルを XLS に変換すると、保護されたビューでプロンプトが表示されます|バグ|
 |CELLSNET-46180|ListObject/Table のサイズを変更する際のフォーマットの問題|バグ|
 |CELLSNET-46216|XLS ファイルのロード中に例外が発生しました|例外|

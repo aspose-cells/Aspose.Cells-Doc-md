@@ -13,7 +13,7 @@ description: VBA-Modul hinzufügen und VBA oder Makro mit Aspose.Cells-Bibliothe
 
 {{% /alert %}}
 
-Der folgende Beispielcode erstellt eine neue Arbeitsmappe, fügt ein neues VBA-Modul und Makrocode hinzu und speichert die Ausgabe im XLSM-Format. Einmal öffnen Sie die XLSM-Ausgabedatei in Microsoft Excel und klicken auf die**Entwickler > Visual Basic** Menübefehle sehen Sie ein Modul namens "TestModule" und darin sehen Sie den folgenden Makrocode.
+Der folgende Beispielcode erstellt eine neue Arbeitsmappe, fügt ein neues VBA-Modul und einen neuen Makrocode hinzu und speichert die Ausgabe im Format XLSM. Einmal öffnen Sie die Ausgabedatei XLSM in Microsoft Excel und klicken auf die**Entwickler > Visual Basic** Menübefehle sehen Sie ein Modul namens "TestModule" und darin sehen Sie den folgenden Makrocode.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-Hier ist der Beispielcode zum Generieren der XLSM-Ausgabedatei mit VBA-Modul und Makrocode.
+Hier ist der Beispielcode zum Generieren der Ausgabedatei XLSM mit VBA-Modul und Makrocode.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

@@ -33,7 +33,7 @@ url: /ja/net/missing-features-in-openxml/
   - [グラフを画像に変換する](/cells/ja/net/convert-charts-to-images/)
   - [スプレッドシートを印刷する](/cells/ja/net/print-spreadsheets/)
   - [画像の解像度、品質、圧縮、その他のオプションを指定する](/cells/ja/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Aspose.Cells を使用して、ワークブックをテキストまたは CSV 形式で保存します。](/cells/ja/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [ワークブックをテキストに保存するか、Aspose.Cells を使用して CSV 形式に保存します](/cells/ja/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Aspose.Cells の数式で外部リンクを設定する](/cells/ja/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Aspose.Cellsでワークブックの数式計算モードを設定する](/cells/ja/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Aspose.Cells に共有数式を設定する](/cells/ja/net/setting-shared-formula-in-aspose-cells/)

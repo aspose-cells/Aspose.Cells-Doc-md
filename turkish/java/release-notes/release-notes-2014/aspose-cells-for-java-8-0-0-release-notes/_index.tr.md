@@ -11,7 +11,7 @@ url: /tr/java/aspose-cells-for-java-8-0-0-release-notes/
 {{% /alert %}}
 
 Aspose.Cells for Java, 8.0.0 sürümüne güncellendi ve bu sürümün 30'dan fazla yeni yararlı iyileştirme eklediğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for Java'i kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+Aspose.Cells for Java kullanarak uygulamalarınızda XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca Microsoft Excel'i kullanmadan çalışma kitaplarını oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for Java ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
 Aspose.Cells for Java'in bu sürümündeki değişikliklerin listesi aşağıdadır.
@@ -40,24 +40,24 @@ Hatalar
 
 (CELLSJAVA-40738) - HTML'de setExportActiveWorksheetOnly tablonun hizalamasını değiştir
 (CELLSJAVA-40747) - Workbook.copy çağrılırken arka plan resmi hedef çalışma kitabına kopyalanmıyor
-(CELLSJAVA-40276) - Excel çalışma kitabını PDF olarak kaydederken görüntünün içindeki metin Yansıtılmış gibi görünüyor
-(CELLSJAVA-40573) - PDF'ye kaydederken bazı kelimeler ayrılıyor
+(CELLSJAVA-40276) - Bir excel çalışma kitabını PDF olarak kaydederken görüntünün içindeki metin Yansıtılmış gibi görünüyor
+(CELLSJAVA-40573) - PDF'e kaydederken bazı kelimeler ayrılıyor
 (CELLSJAVA-40743) - Tablo otomatik filtresi xls biçiminde çalışmıyor ancak xlsx biçiminde iyi çalışıyor
-(CELLSJAVA-40750) - HTML'ye dışa aktarıldığında, görüntünün kapsadığı hücreler arka plan rengini kaybediyor
+(CELLSJAVA-40750) - HTML'e dışa aktarıldığında, görüntünün kapsadığı hücreler arka plan rengini kaybediyor
 (CELLSJAVA-40748) - Arka plan resmi yolu doğru değil
 (CELLSJAVA-40731) - Dikey metin sorunu
-(CELLSJAVA-40737) - Excel'deki şekillerin/kontrollerin biçimlendirme sorunu, PDF'ye dönüştürme
-(CELLSJAVA-40742) - XLSX'i PDF'ye dönüştürürken Eksen Etiketlerinin yanlış sarılması
+(CELLSJAVA-40737) - Excel'deki şekillerin/kontrollerin biçimlendirme sorunu PDF'e dönüştürme
+(CELLSJAVA-40742) - XLSX'i PDF'e dönüştürürken Eksen Etiketlerinin yanlış sarılması
 (CELLSJAVA-40757) - DateTime sütunları, Avrupa yerel ayarıyla CSV'den yanlış okundu
-(CELLSJAVA-40282) - Bir excel çalışma sayfasını PDF'ye dönüştürürken görüntü çıktısı ikizlendi
-(CELLSJAVA-40585) - Aspose.Cells: katıştırılmış sigma çizim grafiği, PDF/resimlere doğru şekilde işlenmedi
-(CELLSJAVA-40742) - XLSX'i PDF'ye dönüştürürken Eksen Etiketlerinin yanlış sarılması
+(CELLSJAVA-40282) - Excel çalışma sayfası PDF'e dönüştürülürken görüntü çıktısı ikizlendi
+(CELLSJAVA-40585) - Aspose.Cells: katıştırılmış sigma grafiği grafiği, PDF/images'e doğru şekilde işlenmedi
+(CELLSJAVA-40742) - XLSX'i PDF'e dönüştürürken Eksen Etiketlerinin yanlış sarılması
 (CELLSJAVA-40758) - pdf çıktısındaki veriler doğru değil
 (CELLSJAVA-40762) - Cell.getDependents(true) sorunu - Cells listede olmaması gereken diğer sayfalardan
 (CELLSJAVA-40756) - CellsException: Workbook.calculateFormula'da boş(yanlış)
 (CELLSJAVA-40748) - Arka plan resmi yolu doğru değil
 (CELLSJAVA-40754) - Hatalı arka plan rengiyle Şekilleri html'ye aktar
-(CELLSJAVA-40766) - HTML'ye XLSX: HTML'de Boş değerler üreten hideColumn ile ilgili sorun
+(CELLSJAVA-40766) - XLSX - HTML: HTML'de null değerler üreten hideColumn ile ilgili sorun
 (CELLSJAVA-40769) - Yeniden hesaplama hücresinin formülü
 
 (CELLSJAVA-40771) - Gizli satır ve satır yüksekliği sorunu
@@ -84,7 +84,7 @@ PdfSaveOptions.CreatedTime özelliğini ekler
 Pdf belgesi oluşturma zamanını alır ve ayarlar.
 
 FileFormatType.Ooxml sıralamasını ekler
-Şifrelenmiş ofis açık xml dosyasını (XLSX, DOCX, PPTX, vb.) temsil eder.
+Şifreli ofis açık xml dosyasını temsil eder (XLSX, DOCX, PPTX, vb. gibi).
 
 LoadOptions.MemorySetting özelliği ve WorkbookSettings.MemorySetting özelliği ekler
 Bu sürümden, performans değerlendirmesi için kullanıcıya bellek kullanım seçeneği sunuyoruz. Tüm sürümler için varsayılan MemorySetting.NORMAL seçeneği uygulanır. Hücreler için büyük veri kümesi içeren çalışma kitabı oluşturmak gibi bazı durumlarda, MemorySetting.MEMORY_PREFERENCE seçeneği bellek kullanımını optimize edebilir ve kullanıcının uygulaması için bellek maliyetini azaltabilir. Ancak bu seçenek, hücrelere rasgele ve tekrar tekrar erişim gibi bazı özel durumlarda performansı düşürebilir.

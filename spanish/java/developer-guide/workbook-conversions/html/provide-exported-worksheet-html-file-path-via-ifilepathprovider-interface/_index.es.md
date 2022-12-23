@@ -1,13 +1,13 @@
 ﻿---
-title: Proporcione la ruta del archivo HTML de la hoja de trabajo exportada a través de la interfaz IFilePathProvider
+title: Proporcione la hoja de trabajo exportada HTML ruta del archivo a través de la interfaz IFilePathProvider
 type: docs
 weight: 870
 url: /es/java/provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface/
 ---
 ## **Posibles escenarios de uso**
- Supongamos que tiene un archivo de Excel con varias hojas y desea exportar cada hoja a un archivo HTML individual. Si alguna de sus hojas tiene enlaces a otras hojas, esos enlaces se romperán en el HTML exportado. Para hacer frente a este problema, Aspose.Cells proporciona[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interfaz que puede implementar para reparar los enlaces rotos.
-## **Proporcione la ruta del archivo HTML de la hoja de trabajo exportada a través de la interfaz IFilePathProvider**
- Por favor descarga el[ejemplo de archivo de Excel](5473417.zip) utilizado en el siguiente código y sus archivos HTML exportados. Todos estos archivos están dentro del*Temperatura* directorio. Deberías extraerlo en*C:* conducir. Entonces se convertirá*C:\Temp*directorio. Luego abrirás el*Hoja1.html* archivo en el navegador y haga clic en los dos enlaces dentro de él. Estos enlaces se refieren a estas dos hojas de trabajo HTML exportadas que están dentro del*C:\Temp\Otras hojas*directorio.
+ Supongamos que tiene un archivo de Excel con varias hojas y desea exportar cada hoja a un archivo HTML individual. Si alguna de sus hojas tiene enlaces a otras hojas, esos enlaces se romperán en el HTML exportado. Para solucionar este problema, Aspose.Cells proporciona[IFilePathProvider](https://reference.aspose.com/cells/java/com.aspose.cells/IFilePathProvider)interfaz que puede implementar para reparar los enlaces rotos.
+## **Proporcione la hoja de trabajo exportada HTML ruta del archivo a través de la interfaz IFilePathProvider**
+ Por favor descarga el[ejemplo de archivo de Excel](5473417.zip) utilizado en el código siguiente y sus archivos HTML exportados. Todos estos archivos están dentro del*Temperatura* directorio. Deberías extraerlo en*C:* conducir. Entonces se convertirá*C:\Temp* directorio. Luego abrirás el*Hoja1.html* archivo en el navegador y haga clic en los dos enlaces dentro de él. Estos enlaces se refieren a estas dos hojas de trabajo HTML exportadas que están dentro del*C:\Temp\Otras hojas*directorio.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ La siguiente captura de pantalla muestra cómo el*C:\Temp\Hoja1.html*y sus enlac
 
 ![todo:imagen_alternativa_texto](provide-exported-worksheet-html-file-path-via-ifilepathprovider-interface_2.png)
 ## **Código de muestra**
- tenga en cuenta*C:\Temp* El directorio es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5473414.xlsx) dentro de allí y ejecute el código de muestra proporcionado. Entonces creará*Otras hojas* subdirectorio dentro de su directorio y exporte la segunda y tercera hojas de trabajo HTML dentro de él. Por favor cambie el*dirPath*variable dentro del código provisto y remítalo al directorio de su elección antes de la ejecución.
+ tenga en cuenta*C:\Temp* El directorio es solo para fines ilustrativos. Puede utilizar cualquier directorio de su elección y lugar[ejemplo de archivo de Excel](5473414.xlsx) dentro de allí y ejecute el código de muestra provisto. Entonces creará*Otras hojas* subdirectorio dentro de su directorio y exporte la segunda y tercera hoja de trabajo HTML dentro de él. Por favor cambie el*dirPath*variable dentro del código provisto y remítalo al directorio de su elección antes de la ejecución.
 
 {{% alert color="primary" %}} 
 

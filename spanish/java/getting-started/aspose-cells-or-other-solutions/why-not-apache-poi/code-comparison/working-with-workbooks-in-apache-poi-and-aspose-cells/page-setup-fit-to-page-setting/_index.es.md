@@ -5,7 +5,7 @@ weight: 30
 url: /es/java/page-setup-fit-to-page-setting/
 ---
 ## **Aspose.Cells - Configurar página - Ajustar a configuración de página**
-Para ajustar el contenido de la hoja de trabajo a un número específico de páginas, use el[Configuración de página](/cells/es/java/page-setup-fit-to-page-setting/)métodos setFitToPagesTall y setFitToPagesWide de la clase. Estos métodos también se utilizan para escalar hojas de trabajo.
+Para ajustar el contenido de la hoja de trabajo a un número específico de páginas, use el[Configuración de página](/cells/es/java/page-setup-fit-to-page-setting/)métodos setFitToPagesTall y setFitToPagesWide de la clase. Estos métodos también se utilizan para escalar hojas de cálculo.
 
 **Java**
 

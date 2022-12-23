@@ -15,7 +15,7 @@ url: /it/java/aspose-cells-for-java-2-2-1-release-notes/
  Cosa è cambiato:
 
 -  Include il supporto per la formattazione condizionale avanzata fornita da MS Excel 2007
--  Supporta record estesi di formattazione condizionale salvati da MS Excel 2007 per file XLS
+-  Supporta record estesi di formattazione condizionale salvati da MS Excel 2007 per il file XLS
 - Mantiene le formule non supportate durante la lettura dei file MS Excel 2007
 -  Legge le immagini dall'intestazione/piè di pagina nel file modello MS Excel 2007
 -  Sono stati apportati miglioramenti per la lettura dei file modello
@@ -23,7 +23,7 @@ url: /it/java/aspose-cells-for-java-2-2-1-release-notes/
 
  Problemi risolti in Aspose.Cells for Java 2.2.1
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |16369 | xls| Salva il file xls|
 |16358 | xls| Salva le condizioni del formato|
@@ -35,7 +35,7 @@ url: /it/java/aspose-cells-for-java-2-2-1-release-notes/
 |16180 | Grafico| Crea un grafico con NamedRange come origine dati|
 |16003 | Grafico2Immagine| Voce della legenda mancante nell'immagine del grafico|
 |16659 | Grafico2Immagine| Problemi con le etichette delle percentuali|
-|16150 | Grafico2Immagine| Modello di colore errato nell'immagine|
+|16150 | Grafico2Immagine| Modello di colore sbagliato nell'immagine|
 |16261 | formula| Leggi le formule dal file modello|
 |16386 | xls| Leggi i file modello|
 |15585 | xls| Salva nuovamente i file modello|

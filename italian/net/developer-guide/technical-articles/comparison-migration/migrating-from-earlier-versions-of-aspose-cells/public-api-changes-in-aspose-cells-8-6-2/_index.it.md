@@ -1,17 +1,17 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.6.2
+title: Pubblico API Modifiche Aspose.Cells 8.6.2
 type: docs
 weight: 210
 url: /it/net/public-api-changes-in-aspose-cells-8-6-2/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.6.1 alla 8.6.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.6.1 alla 8.6.2 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte, ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per la richiamata con marcatori intelligenti**
- Questa versione dell'API Aspose.Cells for .NET ha esposto la proprietà WorkbookDesigner.CallBack e l'interfaccia ISmartMarkerCallBack che insieme consentono di[ricevere le notifiche relative al riferimento di cella e/o al marcatore intelligente in fase di elaborazione](/cells/it/net/getting-notifications-while-merging-data-with-smart-markers/). La parte di codice seguente illustra l'utilizzo dell'interfaccia ISmartMarkerCallBack per definire una nuova classe che gestisce la richiamata per il metodo WorkbookDesigner.Process.
+ Questa versione di Aspose.Cells for .NET API ha esposto la proprietà WorkbookDesigner.CallBack e l'interfaccia ISmartMarkerCallBack che insieme consentono di[ricevere le notifiche relative al riferimento di cella e/o al marcatore intelligente in fase di elaborazione](/cells/it/net/getting-notifications-while-merging-data-with-smart-markers/). La parte di codice seguente illustra l'utilizzo dell'interfaccia ISmartMarkerCallBack per definire una nuova classe che gestisce la richiamata per il metodo WorkbookDesigner.Process.
 
 **C#**
 
@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **Metodo Chart.ToPdf Aggiunto**
- Aspose.Cells for .NET 8.6.2 ha esposto il metodo Chart.ToPdf che può essere utilizzato per[rendere direttamente la forma del grafico in formato PDF](/cells/it/net/convert-an-excel-chart-to-image/). Il suddetto metodo attualmente accetta un parametro di tipo stringa come posizione del percorso del file per archiviare il file risultante su disco.
+ Aspose.Cells for .NET 8.6.2 ha esposto il metodo Chart.ToPdf che può essere utilizzato per[eseguire direttamente il rendering della forma del grafico nel formato PDF](/cells/it/net/convert-an-excel-chart-to-image/). Il suddetto metodo attualmente accetta un parametro di tipo stringa come posizione del percorso del file per archiviare il file risultante su disco.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 

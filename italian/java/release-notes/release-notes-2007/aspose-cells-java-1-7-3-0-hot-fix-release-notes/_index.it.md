@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Cells Java 1.7.3.0 Hot Fix Note sulla versione
+title: Aspose.Cells Java 1.7.3.0 Note sulla versione dell'hotfix
 type: docs
 weight: 80
 url: /it/java/aspose-cells-java-1-7-3-0-hot-fix-release-notes/
 ---
 {{% alert color="primary" %}} 
 
- Questa pagina contiene le note di rilascio per[Aspose.Cells Correzione rapida Java 1.7.3.0](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.3.0-hot-fix/)
+ Questa pagina contiene le note di rilascio per[Aspose.Cells Java 1.7.3.0 Correzione rapida](https://downloads.aspose.com/cells/java/new-releases/aspose.cells-java-1.7.3.0-hot-fix/)
 
 {{% /alert %}} 
 
@@ -21,4 +21,4 @@ url: /it/java/aspose-cells-java-1-7-3-0-hot-fix-release-notes/
  Supporta il calcolo delle formule con JDK1.4.
  Corregge un bug del metodo License.setLicense().
  Risolve un bug nell'impostazione del formato numerico personalizzato.
- Risolve un bug di rimozione di un foglio di lavoro dalla cartella di lavoro.
+Risolve un bug di rimozione di un foglio di lavoro dalla cartella di lavoro.

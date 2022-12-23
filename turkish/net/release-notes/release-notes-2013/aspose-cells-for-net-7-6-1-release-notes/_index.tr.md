@@ -22,7 +22,7 @@ url: /tr/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 - Akıllı İşaretçiler sorunu olan PivotTable
 
- 41528 - PDF çıktısında biçimlendirme sorunları
+ 41528 - PDF çıktısındaki biçimlendirme sorunları
 
  \2) Aspose.Cells.GridWeb
 

@@ -5,7 +5,7 @@ weight: 20
 url: /fr/net/find-value-in-cells/
 ---
 ## **Aspose.Cells - Trouver la valeur dans Cells**
-Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer**et alors**Trouver**ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD**pour le rechercher. Excel met en évidence les champs correspondants.
+Dans Microsoft Excel, les utilisateurs peuvent rechercher des cellules contenant des données spécifiques. Par exemple, en cliquant**Éditer**et puis**Trouver**ouvre la boîte de dialogue Rechercher. Les utilisateurs entrent une valeur et cliquent**D'ACCORD**pour le chercher. Excel met en évidence les champs correspondants.
 
 **C#**
 

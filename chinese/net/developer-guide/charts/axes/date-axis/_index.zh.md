@@ -11,8 +11,8 @@ url: /zh/net/date-axis/
 ## **像 Microsoft Excel 一样处理日期轴**
 请查看以下创建新 Excel 文件并将图表值放入第一个工作表的示例代码。
 然后我们添加一个图表并设置图表的类型[**轴**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis) 
-至[**时标**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/)然后将基本单位设置为天。
+到[**时标**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/)然后将基本单位设置为天。
 
-![待办事项：图像_替代_文本](excel.png)
+![待办事项：图片_替代_文本](excel.png)
 ## **示例代码**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}

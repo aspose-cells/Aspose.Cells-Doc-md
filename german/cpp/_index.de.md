@@ -12,7 +12,7 @@ description:  Aspose.Cells for C++ ist eine native C++-Bibliothek, die es C++-En
 
 **Willkommen bei der Aspose.Cells for C++**
 
-Aspose.Cells for C++ ist eine native C++-Bibliothek, die es C++-Entwicklern ermöglicht, Tabellenkalkulationen programmgesteuert zu erstellen, zu manipulieren und zu konvertieren, ohne dass eine Office-Automatisierung oder Microsoft Excel-Anwendung erforderlich ist. Aspose.Cells for C++ unterstützt Tabellenformate wie MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB usw.), Open Office XML und andere Formate. Sie können auch Bilder aus Arbeitsblättern rendern und MS Excel-Tabellen in das PDF-Format konvertieren. Mit API können Sie auch Diagramme und Formen erstellen, manipulieren und rendern. Darüber hinaus sind Formelberechnungen ein weiterer guter Aspekt, den die Komponente bietet, und Sie können sie nutzen.
+Aspose.Cells for C++ ist eine native C++-Bibliothek, die es C++-Entwicklern ermöglicht, Tabellenkalkulationen programmgesteuert zu erstellen, zu manipulieren und zu konvertieren, ohne dass eine Office-Automatisierung oder Microsoft Excel-Anwendung erforderlich ist. Aspose.Cells for C++ unterstützt Tabellenkalkulationsformate wie MS Excel 97-2003 (XLS), MS Excel 2007-2013/2016 (XLSX, XLSM, XLSB usw.), Open Office XML und andere Formate. Sie können auch Bilder aus Arbeitsblättern rendern und MS Excel-Tabellen in das PDF-Format konvertieren. Mit dem API können Sie auch Diagramme und Formen erstellen, manipulieren und rendern. Darüber hinaus sind Formelberechnungen ein weiterer guter Aspekt, den die Komponente bietet, und Sie können sie nutzen.
 
 {{% /alert %}}
 

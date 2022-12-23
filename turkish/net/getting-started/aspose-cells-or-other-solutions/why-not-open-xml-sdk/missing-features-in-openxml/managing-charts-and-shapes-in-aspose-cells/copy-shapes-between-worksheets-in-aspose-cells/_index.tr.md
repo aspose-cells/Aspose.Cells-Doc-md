@@ -44,7 +44,7 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-**Not:** Birden çok şekli kopyalama hakkında daha fazla ayrıntı için şu adresi ziyaret etmeniz gerekir:[burada](/cells/tr/net/copy-shapes-between-worksheets/)
+**Not:** Birden çok şekli kopyalama hakkında daha fazla ayrıntı için şu adresi ziyaret etmeniz gerekir:[Burada](/cells/tr/net/copy-shapes-between-worksheets/)
 ## **Örnek Kodu İndir**
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Copy%20Shapes%20between%20Worksheets)
 ## **Çalışan Örneği İndirin**

@@ -137,7 +137,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 - ERF
 - ERFC
 - HATA.TİPİ
-- BİLE
+- HATTA
 - BİRE BİR AYNI
 - tecrübe
 - ÜSTELDAĞ
@@ -231,7 +231,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 #### **L**
 - BÜYÜK
 - LCM
-- AYRILDI
+- SOL
 - SOLTB
 - UZUNLUK
 - LENB
@@ -291,7 +291,7 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 - NBD
 - SAYI DEĞERİ
 #### **Ö**
-- Ekim2BIN
+- Ekim2BİN
 - EKİM2DEC
 - Ekim2HEX
 - GARİP
@@ -351,10 +351,10 @@ Aspose.Cells' Formül Hesaplama Motoru, aşağıdaki formülleri ve işlevleri a
 - SATIRLAR
 - RSQ
 #### **S**
-- ARAMA
+- ARA
 - ARA
 - İKİNCİ
-- SEKANS
+- SIRA
 - SERİ TOPLAM
 - İŞARET
 - GÜNAH

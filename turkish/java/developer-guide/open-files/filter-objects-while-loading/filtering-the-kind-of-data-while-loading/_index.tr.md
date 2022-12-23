@@ -14,10 +14,10 @@ Aşağıdaki örnek kod, çalışma kitabını bilgisayardan yüklerken yalnızc
 
 Aşağıdaki ekran görüntüsü[şablon dosyası](5472556.xlsx) içeriği ve ayrıca Kırmızı renkli ve Sarı arka plandaki verilerin yüklenmeyeceğini açıklar çünkü[LoadOptions.getLoadFilter().setLoadDataFilterOptions](https://reference.aspose.com/cells/java/com.aspose.cells/loadfilter#LoadDataFilterOptions)özellik ayarlandı[LoadDataFilterOptions.SHAPE](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#SHAPE).
 
-![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
+![yapılacaklar:resim_alternatif_metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-Aşağıdaki ekran görüntüsü[çıktı PDF](5472554.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
+Aşağıdaki ekran görüntüsü[çıkış PDF](5472554.pdf) verilen linkten indirebilirsiniz. Burada kırmızı renkteki ve Sarı arka plandaki verilerin mevcut olmadığını ancak tüm şekillerin orada olduğunu görebilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
+![yapılacaklar:resim_alternatif_metin](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-TechnicalArticles-FilterDataWhileLoadingWorkbook-1.java" >}}

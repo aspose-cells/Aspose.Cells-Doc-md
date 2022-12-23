@@ -3,7 +3,7 @@ title: Vérifier le mot de passe des fichiers cryptés
 type: docs
 weight: 10
 url: /fr/net/verify-password-of-encrypted-excel-and-ods-files/
-description: Vérifiez le mot de passe des fichiers Excel chiffrés (xlsx, xlsb, xls, xlsm) et Open Office (ODS) à l'aide des codes CShape.
+description: Vérifiez le mot de passe des fichiers chiffrés Excel (xlsx, xlsb, xls, xlsm) et Open office (ODS) à l'aide des codes CShape.
 ---
 {{% alert color="primary" %}}
 Si les fichiers Excel (xlsx, xlsb, xls, xlsm) et Open office (ODS) sont verrouillés avec un mot de passe, Aspose prend en charge la vérification simple du mot de passe sans analyser les données spécifiques des fichiers.

@@ -10,13 +10,13 @@ url: /it/net/aspose-cells-for-net-20-9-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47567|Supporto per ottenere/impostare le proprietà della forma dell'affettatrice|Nuova caratteristica|
 |CELLSNET-47549|API client per aggiungere/rimuovere commenti per GridWeb|Nuova caratteristica|
-|CELLSNET-47555|Il grafico non consente di trattare #N/D come celle vuote durante il salvataggio come PDF|Aumento|
+|CELLSNET-47555|Il grafico non consente di trattare #N/D come celle vuote quando si salva come PDF|Aumento|
 |CELLSNET-47579|Il carattere Kaiti non è reso correttamente|Aumento|
-|CELLSNET-47154|Le tabelle delle query non vengono caricate dal file ODS|Aumento|
+|CELLSNET-47154|Le tabelle di query non vengono caricate dal file ODS|Aumento|
 |CELLSNET-47556|Miglioramento per il congelamento e la divisione del foglio di lavoro|Aumento|
 |CELLSNET-47570|Le macro dovrebbero essere rimosse quando si combinano/copiano le cartelle di lavoro|Aumento|
 |CELLSNET-47543|Problema con i marcatori intelligenti con formattazione condizionale applicata|Insetto|
@@ -25,16 +25,16 @@ url: /it/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47569|La tabella pivot non viene visualizzata correttamente dopo la conversione da XLSX a PDF|Insetto|
 |CELLSNET-47475|CalculateFormula() calcola in modo diverso rispetto a MS Excel|Insetto|
 |CELLSNET-47531|Le formule contenenti nomi che non esistono vengono visualizzate come `WorkbookName`!Nome|Insetto|
-|CELLSNET-47545|Numero negativo personalizzato reso in modo errato nel PDF|Insetto|
+|CELLSNET-47545|Numero negativo personalizzato reso erroneamente in PDF|Insetto|
 |CELLSNET-47548|Problema con l'importazione di file di testo con virgolette doppie|Insetto|
-|CELLSNET-47558|Numeri negativi personalizzati (utilizzando la regione Svizzera) visualizzati in modo errato nel PDF|Insetto|
+|CELLSNET-47558|Numeri negativi personalizzati (utilizzando la regione Svizzera) resi in modo errato a PDF|Insetto|
 |CELLSNET-47075|È necessario sincronizzare lo scorrimento di due griglie proprio come SyncScrollingSideBySide di Excel.|Insetto|
 |CELLSNET-47559|Impossibile selezionare le celle utilizzando i tasti freccia della tastiera quando il foglio è impostato come di sola lettura|Insetto|
-|CELLSNET-47360|I punti indicatori trasparenti nel grafico nel file Excel vengono distorti nel PDF di output|Insetto|
+|CELLSNET-47360|I punti indicatori trasparenti nel grafico nel file Excel vengono distorti nell'output PDF|Insetto|
 |CELLSNET-47565|L'immagine del piè di pagina in primo piano diventa sfondo|Insetto|
 |CELLSNET-46502|La conversione da XLSX a TIFF produce una scatola nera|Insetto|
-|CELLSNET-46821|Conversione del foglio di lavoro in TIFF: l'immagine è oscurata|Insetto|
-|CELLSNET-47458|Distorsione della forma dopo la conversione in file PDF|Insetto|
+|CELLSNET-46821|Conversione del foglio di lavoro in TIFF - L'immagine è oscurata|Insetto|
+|CELLSNET-47458|Distorsione della forma dopo la conversione nel file PDF|Insetto|
 |CELLSNET-47551|Asse X non corretto durante la conversione del grafico Excel in PDF|Insetto|
 |CELLSNET-47546| Elimina righe/colonne vuote corrompe il documento Excel|Insetto|
 |CELLSNET-47552|PowerQueryFormula.FormulaDefinition errata|Insetto|
@@ -46,16 +46,16 @@ url: /it/net/aspose-cells-for-net-20-9-release-notes/
 |CELLSNET-47553|Eccezione durante il salvataggio di un file XLS in XLSX|Eccezione|
 |CELLSNET-47563|Eccezione "File danneggiato" durante il caricamento di un formato di file XLS|Eccezione|
 |CELLSNET-47580|ArgumentOutOfRangeException durante la conversione di Excel|Eccezione|
-|CELLSNET-47592|Eccezione durante la conversione di particolari XLSX in XLS|Eccezione|
+|CELLSNET-47592|Eccezione durante la conversione di un particolare XLSX in XLS|Eccezione|
 |CELLSNET-47557|Alcune proprietà mancano quando si combinano le cartelle di lavoro|Regressione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 ### **Aggiunge la proprietà AbstractCalculationEngine.ProcessBuiltInFunctions**
 
-Per motivi di prestazioni e comodità dell'utente, abbiamo aggiunto questa proprietà e impostato il suo valore predefinito come**falso** così l'utente può concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di**Motore di calcolo astratto** modificato il calcolo di alcune funzioni integrate, l'utente deve sovrascrivere questa proprietà per renderla come**VERO** da**20.9**.
+ Per motivi di prestazioni e comodità dell'utente, abbiamo aggiunto questa proprietà e impostato il suo valore predefinito come**falso** così l'utente può concentrarsi su quelle funzioni che non sono state supportate dal motore integrato. Se l'implementazione esistente dell'utente di**Motore di calcolo astratto** modificato il calcolo di alcune funzioni integrate, l'utente deve sovrascrivere questa proprietà per renderla come**VERO** a partire dal**20.9**.
 
 ### **Aggiunge la proprietà TxtLoadOptions.HasTextQualifier**
 

@@ -6,7 +6,7 @@ url: /tr/java/copy-range-style-only/
 ---
 {{% alert color="primary" %}} 
 
-[Yalnızca Aralık Verilerini Kopyala](/cells/tr/java/copy-range-data-only/) ve[Aralık Verilerini Tarzla Kopyala](/cells/tr/java/copy-range-data-with-style/) biçimlendirmeli veya biçimlendirmesiz verilerin bir aralıktan diğerine nasıl kopyalanacağını açıkladı. Yalnızca aralığın biçimlendirmesini kopyalamak da mümkündür. Bu makale nasıl olduğunu gösterir.
+[Yalnızca Aralık Verilerini Kopyala](/cells/tr/java/copy-range-data-only/) ve[Aralık Verilerini Tarzla Kopyala](/cells/tr/java/copy-range-data-with-style/)biçimlendirmeli veya biçimlendirmesiz verilerin bir aralıktan diğerine nasıl kopyalanacağını açıkladı. Yalnızca aralığın biçimlendirmesini kopyalamak da mümkündür. Bu makale nasıl olduğunu gösterir.
 
 {{% /alert %}} 
 ## **Yalnızca Aralık Stilini Kopyala**

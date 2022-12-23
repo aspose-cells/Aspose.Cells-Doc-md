@@ -6,7 +6,7 @@ url: /fr/net/get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook/
 ---
 ## **Scénarios d'utilisation possibles**
 
-Il est souvent nécessaire de connaître les polices utilisées dans votre classeur à des fins de rendu. Lorsque vous convertissez votre classeur en PDF ou en image, Aspose.Cells nécessite que toutes les polices nécessaires soient installées sur votre système ou présentes dans votre**répertoire des polices**Si Aspose.Cells ne parvient pas à trouver la police nécessaire, il essaie de la remplacer par une autre police appropriée présente sur votre système ou dans votre répertoire de polices et peut remplacer votre police actuelle. Cela entraîne non seulement un rendu indésirable des PDF ou des images, mais prend également du temps de traitement pour trouver les polices appropriées.
+Il est souvent nécessaire de connaître les polices utilisées dans votre classeur à des fins de rendu. Lorsque vous convertissez votre classeur en PDF ou en image, Aspose.Cells nécessite que toutes les polices nécessaires soient installées sur votre système ou présentes dans votre**répertoire des polices**Si Aspose.Cells ne parvient pas à trouver la police nécessaire, il essaie de la remplacer par une autre police appropriée présente sur votre système ou dans votre répertoire de polices et peut remplacer votre police actuelle. Cela entraîne non seulement le rendu indésirable de PDF ou d'images, mais prend également du temps de traitement pour trouver les polices appropriées.
 
 Pour faire face à de tels cas, vous devez savoir quelles polices sont utilisées par votre classeur, puis installez ces polices sur votre système dans le cas d'un environnement Windows ou placez-les dans votre répertoire de polices dans le cas d'un environnement Windows ou Linux.
 
@@ -14,7 +14,7 @@ Pour faire face à de tels cas, vous devez savoir quelles polices sont utilisée
 
 ## **Obtenir une liste des polices utilisées dans une feuille de calcul ou un classeur**
 
- L'exemple de code suivant charge le fichier Excel source et récupère la liste des polices utilisées à l'intérieur. Il contient une feuille de calcul factice dans laquelle des polices factices ont été ajoutées à des fins d'illustration. Lorsque le code imprime toutes les polices à l'intérieur du classeur, il imprime également ces polices factices. La capture d'écran suivante montre le[exemple de fichier excel](25395211.xlsx)et comment les polices factices sont répertoriées.
+ L'exemple de code suivant charge le fichier Excel source et récupère la liste des polices utilisées à l'intérieur. Il contient une feuille de calcul factice dans laquelle des polices factices ont été ajoutées à des fins d'illustration. Lorsque le code imprime toutes les polices à l'intérieur du classeur, il imprime également ces polices factices. La capture d'écran suivante montre le[exemple de fichier excel](25395211.xlsx) et comment les polices factices sont répertoriées.
 
 ![tâche : image_autre_texte](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 

@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for C++ 22.4.2 per W
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSCPP-766| licenseUrl e iconUrl sono deprecati|Insetti|
 |CELLSCPP-767| Risolto il problema charValue per le perdite di memoria|Insetti|

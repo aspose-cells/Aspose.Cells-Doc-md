@@ -12,9 +12,9 @@ url: /zh/net/use-custom-xml-parts-in-aspose-cells/
 
 下面的示例代码使用了[**工作簿.ContentTypeProperties.Add()**](https://reference.aspose.com/cells/net/aspose.cells.properties/contenttypepropertycollection/methods/add/index)方法并添加**图书目录 XML**它的名字是**书店**.下图显示了这段代码的结果。如您所见，Book Catalog XML 添加到 BookStore 节点中，这是该属性的名称。
 
-![待办事项：图像_替代_文本](use-custom-xml-parts-in-aspose-cells_1.png)
+![待办事项：图片_替代_文本](use-custom-xml-parts-in-aspose-cells_1.png)
 
-![待办事项：图像_替代_文本](use-custom-xml-parts-in-aspose-cells_2.png)
+![待办事项：图片_替代_文本](use-custom-xml-parts-in-aspose-cells_2.png)
 
 ## C# 使用自定义 XML 部件的代码
 

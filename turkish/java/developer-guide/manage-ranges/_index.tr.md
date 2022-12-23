@@ -5,7 +5,7 @@ type: docs
 weight: 75
 url: /tr/java/managing-ranges/
 ---
-## **giriiş**
+## **Giriş**
 
 Excel'de, fare kutusu seçimiyle birden çok hücre seçebilirsiniz, seçilen hücreler kümesine "Aralık" adı verilir.
 

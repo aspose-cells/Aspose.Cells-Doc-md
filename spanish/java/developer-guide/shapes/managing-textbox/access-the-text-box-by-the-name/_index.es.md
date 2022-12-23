@@ -6,7 +6,7 @@ url: /es/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-Anteriormente, se accede a los cuadros de texto por índice desde el[Hoja de trabajo.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) colección pero ahora también puede acceder al cuadro de texto por nombre de esta colección. Esta es una forma conveniente y rápida de acceder a su cuadro de texto si ya conoce su nombre.
+ Anteriormente, se accede a los cuadros de texto por índice desde el[Hoja de trabajo.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) colección pero ahora también puede acceder al cuadro de texto por nombre de esta colección. Esta es una forma conveniente y rápida de acceder a su cuadro de texto si ya conoce su nombre.
 
 {{% /alert %}} 
 ## **Acceda al cuadro de texto por el nombre**

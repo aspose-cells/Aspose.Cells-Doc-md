@@ -14,7 +14,7 @@ För att hantera sådana fall bör du veta vilka typsnitt som används av din ar
 
 ## **Få en lista över teckensnitt som används i ett kalkylblad eller en arbetsbok**
 
- Följande exempelkod laddar källexcelfilen och hämtar listan över teckensnitt som används i den. Den har ett dummy-arbetsblad som har några dummy-teckensnitt som lagts till för illustrationsändamål. När koden skriver ut alla teckensnitt i arbetsboken, skriver den också ut dessa dummy-teckensnitt. Följande skärmdump visar[exempel på excel-fil](25395211.xlsx)och hur dummy-teckensnitten är listade.
+ Följande exempelkod laddar källexcelfilen och hämtar listan över teckensnitt som används i den. Den har ett dummy-arbetsblad som har några dummy-teckensnitt som lagts till för illustrationsändamål. När koden skriver ut alla teckensnitt i arbetsboken, skriver den också ut dessa dummy-teckensnitt. Följande skärmdump visar[exempel på excel-fil](25395211.xlsx) och hur dummy-teckensnitten är listade.
 
 ![todo:image_alt_text](get-a-list-of-fonts-used-in-a-spreadsheet-or-workbook_1.png)
 

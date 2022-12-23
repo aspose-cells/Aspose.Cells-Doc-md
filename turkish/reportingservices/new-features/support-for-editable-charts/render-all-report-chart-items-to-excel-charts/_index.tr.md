@@ -23,6 +23,6 @@ Bir rapordaki tüm grafik öğelerini düzenlenebilir Excel grafikleri olarak i�
 
 **Excel'de grafikleri düzenleme** 
 
-![yapılacaklar:resim_alternatif_Metin](render-all-report-chart-items-to-excel-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](render-all-report-chart-items-to-excel-charts_1.png)
 
 {{% /alert %}}

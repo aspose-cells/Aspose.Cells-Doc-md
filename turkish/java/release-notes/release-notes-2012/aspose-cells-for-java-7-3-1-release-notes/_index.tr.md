@@ -11,7 +11,7 @@ url: /tr/java/aspose-cells-for-java-7-3-1-release-notes/
 {{% /alert %}} 
 
 Biz
-Aspose.Cells for Java v7.3.1'i kullanıcılar için duyurmaktan mutluluk duyuyoruz!
+ Aspose.Cells for Java v7.3.1'i kullanıcılar için duyurmaktan mutluluk duyuyoruz!
 
  Yeni özellikler
 
@@ -37,7 +37,7 @@ orijinal olarak .NET kullanıcıları adına eklenir. Java versiyonumuzdan beri
 
  Geliştirmeler
 
--PDF'ye kaydederken geçici yazı tipi dosyaları birden fazla oluşturulur
+ -Geçici font dosyaları PDF'e kaydedilirken birden fazla oluşturuluyor
 
  -Üstbilgi/Altbilgideki tarih, Çalışma Kitabının yerel ayarlarına göre biçimlendirilmemiş
 
@@ -47,21 +47,21 @@ orijinal olarak .NET kullanıcıları adına eklenir. Java versiyonumuzdan beri
 
  İstisnalar
 
-- İstisna: PDF'ye kaydederken "Şekilden Görüntüye Hata"
+- İstisna: PDF'e kaydederken "Şekilden Görüntüye Hata"
 
- -PDF'ye kaydederken Şekilden Görüntüye sorunu
+ -PDF'e kaydederken Şekilden Görüntüye sorunu
 
 - Chart.calculate() yöntemi için “NullPointerException”
 
- -XLS'yi PDF olarak kaydetmek bir İstisnaya neden oldu
+ -XLS'in PDF olarak kaydedilmesi bir İstisnaya neden oldu
 
- -XLS'yi PDF olarak kaydetmek bir İstisna II'ye neden oldu
+ -XLS'in PDF olarak kaydedilmesi, bir İstisna II'ye neden oldu
 
  Hatalar
 
- -PDF'yi kaydetmek için örtüşen metin ve kaçırılan kılavuz çizgileri
+ - PDF'i kaydetmek için örtüşen metin ve kaçırılan kılavuz çizgileri
 
- -Yeniden kaydederken ekstra kenarlıklar gösterildi
+-Yeniden kaydederken ekstra kenarlıklar gösterildi
 
  XLS dosyası olarak şablon dosyası
 
@@ -71,6 +71,6 @@ orijinal olarak .NET kullanıcıları adına eklenir. Java versiyonumuzdan beri
 
  -Aralık girildikten sonra formüller yanlış
 
- -Excel çalışma kitabından oluşturulan PDF daha fazla sayıda sayfaya sahipti
+ -Excel'den oluşturulan PDF çalışma kitabının sayfa sayısı daha fazlaydı
 
--Çalışma sayfasının üstesinden gelirken grafik etiketleri yanlış hizalandı ve üst üste bindi
+ -Çalışma sayfasının üstesinden gelirken grafik etiketleri yanlış hizalandı ve üst üste bindi

@@ -26,7 +26,7 @@ Cette section contient les sujets suivants :
     - [Importation depuis ArrayList](/cells/fr/net/importing-from-arraylist/)
     - [Importation à partir d'objets personnalisés](/cells/fr/net/importing-from-custom-objects/)
     - [Importation depuis DataTable](/cells/fr/net/importing-from-datatable/)
-- [Enregistrer le classeur au format texte ou CSV au Aspose.Cells](/cells/fr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
+- [Enregistrer le classeur au format texte ou CSV dans Aspose.Cells](/cells/fr/net/save-workbook-to-text-or-csv-format-in-aspose-cells/)
 - [Marqueurs intelligents dans Aspose.Cells](/cells/fr/net/smart-markers-in-aspose-cells/)
   - [Regroupement de données](/cells/fr/net/grouping-data/)
   - [Marqueurs d'images](/cells/fr/net/image-markers/)

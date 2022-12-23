@@ -10,31 +10,31 @@ url: /es/net/aspose-cells-for-net-8-8-1-release-notes/
 |:- |:- |:- |
 |CELLSNET-41817 | Configuración del efecto de texto en Desplazamiento en forma de rectángulo| Nueva caracteristica|
 |CELLSNET-44407 | El grosor del borde se reduce durante el renderizado cuando el área de impresión pasa a través de las celdas que comparten el borde| Mejora|
-|CELLSNET-44413 | Haga que el valor predeterminado de WorkbookSettings.IsDefaultEncrypted sea falso| Mejora|
+|CELLSNET-44413 |Haga que el valor predeterminado de WorkbookSettings.IsDefaultEncrypted sea falso| Mejora|
 |CELLSNET-44392 | Falta Aspose.Cells.xml en la carpeta ".\Bin\net4.0"| Mejora|
 |CELLSNET-44291 | Optimice el código para hacer que las columnas y filas vacías ocultas sean más eficientes| Mejora|
-|CELLSNET-44417 | API se bloquea al convertir una hoja de cálculo corrupta e infectada a PDF| Actuación|
-|CELLSNET-44088 | Los íconos para las reglas de formato condicional no se procesan en HTML| Insecto|
-|CELLSNET-44263 | El formato se pierde al importar HTML como XLSX| Insecto|
+|CELLSNET-44417 | API se bloquea al convertir una hoja de cálculo corrupta e infectada a PDF| Rendimiento|
+|CELLSNET-44088 | Los iconos de las reglas de formato condicional no se muestran en HTML| Insecto|
+|CELLSNET-44263 | Se pierde el formato al importar HTML como XLSX| Insecto|
 |CELLSNET-44427 | Las fechas en formato ISO 8601 se tratan como cadenas en lugar de fechas| Insecto|
 |CELLSNET-44414 | Problema con imágenes grandes durante la conversión de Excel a PDF| Insecto|
 |CELLSNET-44341 | Altos de fila incorrectos usando AutoFitRows con la opción AutoFitMergedCells activada para palabras en chino e inglés en las celdas| Insecto|
-|CELLSNET-44309 |Los paréntesis no se muestran girados en el PDF de salida (conversión de Excel a PDF)| Insecto|
+|CELLSNET-44309 | Los paréntesis no se muestran girados en la salida PDF (conversión de Excel a PDF)| Insecto|
 |CELLSNET-44302 | SheetRender.ToImage no representa el borde de las celdas| Insecto|
 |CELLSNET-43237 | Los símbolos verticales no se representan correctamente al convertir hojas de cálculo a PDF| Insecto|
-|CELLSNET-41907 | Parte del texto vertical aún no se puede mostrar correctamente en el archivo PDF convertido| Insecto|
+|CELLSNET-41907 |Parte del texto vertical todavía no se puede mostrar correctamente en el archivo PDF convertido| Insecto|
 |CELLSNET-44405 | La imagen del gráfico tiene la serie "Su organización" al 0 % aunque está configurada al 50 %| Insecto|
 |CELLSNET-44404 | El método Worksheet.Copy no está copiando los gráficos correctamente| Insecto|
-|CELLSNET-44398 | La representación EMF del gráfico no funciona correctamente en la versión más reciente| Insecto|
+|CELLSNET-44398 | EMF la representación del gráfico no funciona correctamente en la versión más reciente| Insecto|
 |CELLSNET-44397 | Representación de gráfico a imagen: el texto (etiquetas de datos) está más en negrita que en el gráfico original| Insecto|
 |CELLSNET-44387 | La imagen generada usando Chart.ToImage es incorrecta| Insecto|
 |CELLSNET-44365 | Falta parte de la etiqueta de la serie de datos para un gráfico específico generado como imagen usando aspose.cells| Insecto|
 |CELLSNET-44426 |Establecer ImportOptions.ConvertNumericData = true da como resultado valores con '<' or '> no se muestran los dígitos| Insecto|
 |CELLSNET-44408 | Problema con las entradas de lista/desplegable de validación de datos que contienen una coma| Insecto|
-|CELLSNET-44403 |La marca de agua de fondo se elimina al guardar XLS en XLSX| Insecto|
+|CELLSNET-44403 | La marca de agua de fondo se elimina al guardar XLS a XLSX| Insecto|
 |CELLSNET-44402 | ExternalLink devolvió DataSource incorrecto con ruta extendida| Insecto|
 |CELLSNET-44394 | La agrupación de marcadores inteligentes está rota en la versión más reciente| Insecto|
-|CELLSNET-44390 | Problema con el atributo de grupo de los marcadores inteligentes: no se procesan todos los datos| Insecto|
+|CELLSNET-44390 |Problema con el atributo de grupo de los marcadores inteligentes: no se procesan todos los datos| Insecto|
 |CELLSNET-44388 | Las celdas con nombre en diferentes hojas de trabajo corrompen el libro de trabajo| Insecto|
 |CELLSNET-44379 | Las etiquetas de los gráficos desaparecen después de volver a guardar la hoja de cálculo| Insecto|
 |CELLSNET-44329 | Diferentes tamaños de página de archivos PDF guardados para celdas seleccionadas o no seleccionadas en el archivo de Excel| Insecto|
@@ -48,10 +48,10 @@ url: /es/net/aspose-cells-for-net-8-8-1-release-notes/
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 |CELLSNET-42313 | Admite lectura de Validación de datos en archivo de Excel - Aspose.Cells.GridDesktop| Nueva caracteristica|
-|CELLSNET-44267 |Problema con la carga diferida al configurar el atributo EnableAsync mientras se desplaza en el control GridWeb| Mejora|
+|CELLSNET-44267 | Problema con la carga diferida al configurar el atributo EnableAsync mientras se desplaza en el control GridWeb| Mejora|
 |CELLSNET-41793 | La flecha hacia abajo no funciona correctamente después de la combinación de celdas| Mejora|
 |CELLSNET-44424 | Seleccionar resaltado no es correcto en GridWeb| Insecto|
-|CELLSNET-44364 | El formato de los cambios de celda después de hacer clic en la celda en GridWeb| Insecto|
+|CELLSNET-44364 |El formato de los cambios de celda después de hacer clic en la celda en GridWeb| Insecto|
 |CELLSNET-44343 | GridDesktop no muestra el menú desplegable al cargar la hoja de cálculo| Insecto|
 |CELLSNET-44409 | Excepción al importar un archivo de Excel a GridWeb| Excepción|
 ### **Public API y cambios incompatibles con versiones anteriores**
@@ -73,4 +73,4 @@ Crea un objeto de validación para una celda de cuadrícula.
 #### **Agrega el método GridCell.RemoveValidation().**
 Elimina el objeto de validación de una celda de cuadrícula.
 #### **Agrega el método Chart.ToPdf(System.IO.Stream stream).**
-Agrega el gráfico de ahorro a PDF como una secuencia.
+Agrega un gráfico de ahorro a PDF como una secuencia.

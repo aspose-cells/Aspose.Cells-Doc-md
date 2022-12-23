@@ -25,7 +25,7 @@ url: /ar/java/controls-in-charts/
  تقوم الطريقة بإرجاع كائن من[**مُلصَق**](https://reference.aspose.com/cells/java/com.aspose.cells/Label) الطبقة ، حيث[**مُلصَق**](https://reference.aspose.com/cells/java/com.aspose.cells/Label)فئة تمثل تسمية في الرسم البياني. لديها بعض الأعضاء المهمين كما هو مفصل أدناه:
 
 - [**نص**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Text)تحدد الخاصية سلسلة التسمية التوضيحية الخاصة بالتسمية.
-- [**يملأ**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) تحدد الخاصية سمات لون التعبئة.
+- [**ملء**](https://reference.aspose.com/cells/java/com.aspose.cells/label#Fill) تحدد الخاصية سمات لون التعبئة.
 
 يوضح المثال التالي كيفية إضافة تسمية إلى المخطط. يستخدم المثال ملف مصمم يحتوي على مخطط بداخله. نستخدم هذا الملف لإدراج تسمية في الرسم البياني.
 

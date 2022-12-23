@@ -16,10 +16,10 @@ Manchmal müssen Sie die Zellen mit einem bestimmten Stil finden. Dieser Artikel
 
 Dies sind die Schritte, die zum Suchen von Zellen mit bestimmten Stilen in MS Excel erforderlich sind.
 
-1.  Auswählen**Suchen & auswählen** in dem**Startseite**.
-1.  Auswählen**Finden**.
+1.  Wählen**Suchen & auswählen** in dem**Startseite**.
+1.  Wählen**Finden**.
 1.  Klicken**Optionen**wenn erweiterte Optionen nicht sichtbar sind.
-1.  Auswählen**Wählen Sie das Format aus Cell...** von dem**Format** Dropdown-Liste.
+1.  Wählen**Wählen Sie das Format aus Cell...** von dem**Format** Dropdown-Liste.
 1. Wählen Sie die Zelle mit dem Stil aus, den Sie durchsuchen möchten.
 1.  Klicken**Finde alle** , um alle Zellen mit ähnlichem Stil wie die ausgewählte Zelle zu finden.
 

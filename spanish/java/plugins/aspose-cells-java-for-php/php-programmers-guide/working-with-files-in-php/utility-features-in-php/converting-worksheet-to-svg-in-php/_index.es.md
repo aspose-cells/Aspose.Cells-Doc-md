@@ -1,10 +1,10 @@
 ﻿---
-title: Convertir hoja de trabajo a SVG en PHP
+title: Conversión de hoja de trabajo a SVG en PHP
 type: docs
 weight: 60
 url: /es/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - Conversión de hoja de trabajo a SVG**
+## **Aspose.Cells - Hoja de trabajo de conversión a SVG**
 Para convertir la hoja de trabajo a SVG usando Aspose.Cells for Java en PHP, simplemente invoque la hoja de trabajo_a_Método svg() del módulo Converter.
 
 **Código PHP**

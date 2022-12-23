@@ -3,6 +3,7 @@ title: إظهار وإخفاء أعمدة الصفوف وأشرطة التمري
 type: docs
 weight: 20
 url: /ar/net/show-and-hide-rows-columns-and-scroll-bars/
+description: توضح هذه المقالة كيفية عرض وإخفاء صفوف وأعمدة ورقة عمل Excel برمجيًا باستخدام اللغة C# واللغة .NET API أو المكتبة. يمكن ضبط رؤية أشرطة التمرير ، ويمكن إخفاء العديد من الصفوف والأعمدة.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +13,7 @@ url: /ar/net/show-and-hide-rows-columns-and-scroll-bars/
 
 ## **إظهار وإخفاء الصفوف والأعمدة**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح للمطورين بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة تمثل جميع الخلايا في ورقة العمل. ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. يتم مناقشة القليل من هذه أدناه.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) ، يمثل ملف Excel Microsoft. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) فئة تحتوي على[**أوراق عمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) مجموعة تسمح للمطورين بالوصول إلى كل ورقة عمل في ملف Excel. يتم تمثيل ورقة العمل بواسطة[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) صف دراسي. ال[**ورقة عمل**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) فئة توفر أ[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) مجموعة تمثل جميع الخلايا في ورقة العمل. ال[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)توفر المجموعة عدة طرق لإدارة الصفوف أو الأعمدة في ورقة العمل. تمت مناقشة القليل من هذه أدناه.
 
 ### **إظهار الصفوف والأعمدة**
 
@@ -58,15 +59,15 @@ url: /ar/net/show-and-hide-rows-columns-and-scroll-bars/
 
 ### **التحكم في رؤية أشرطة التمرير**
 
- Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)الخصائص.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
+ Aspose.Cells يوفر فصل دراسي ،[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook)يمثل ملف Excel. ال[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) توفر class مجموعة كبيرة من الخصائص والأساليب لإدارة ملف Excel. للتحكم في رؤية أشرطة التمرير ، استخدم ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الخصائص.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) و[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) هي خصائص منطقية ، مما يعني أن هذه الخصائص يمكن تخزينها فقط**حقيقي** أو**خاطئة** القيم.
 
 #### **جعل أشرطة التمرير مرئية**
 
- اجعل أشرطة التمرير مرئية من خلال ضبط ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الملكية ل**حقيقي**.
+ اجعل أشرطة التمرير مرئية من خلال ضبط ملف[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) ملكية ل**حقيقي**.
 
 #### **إخفاء أشرطة التمرير**
 
- إخفاء أشرطة التمرير عن طريق ضبط[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) الملكية ل**خاطئة**.
+ إخفاء أشرطة التمرير عن طريق ضبط[**دفتر العمل**](https://reference.aspose.com/cells/net/aspose.cells/workbook) صف دراسي'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) أو[**WorkbookSettings.SHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) ملكية ل**خاطئة**.
 
 **عينة من الرموز**
 

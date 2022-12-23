@@ -29,7 +29,7 @@ Microsoft Excel, kullanıcıların emsalleri ve bağımlıları izlemesine olana
  Formül Denetimi iletişim kutusu görüntülenir.
    **Formül Denetimi iletişim kutusu** 
 
-![yapılacaklar:resim_alternatif_Metin](tracing-precedents-and-dependents-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](tracing-precedents-and-dependents-in-aspose-cells_1.png)
 
 1. Emsalleri İzleyin:
 1. Emsal hücreleri bulmak istediğiniz formülü içeren hücreyi seçin.
@@ -45,7 +45,7 @@ Aşağıdaki örnekte, Book1.xls adlı bir şablon excel dosyası kullanılmış
 
 **Giriş e-tablosu** 
 
-![yapılacaklar:resim_alternatif_Metin](tracing-precedents-and-dependents-in-aspose-cells_2.png)
+![yapılacaklar:resim_alternatif_metin](tracing-precedents-and-dependents-in-aspose-cells_2.png)
 
 Aspose.Cells, Cell sınıfının bir hücrenin emsallerini izlemek için kullanılan GetPrecedents yöntemini sağlar. Bir ReferredAreaCollection döndürür. Yukarıda görebileceğiniz gibi, Book1.xls'de B7 hücresi "=SUM(A1:A3)" formülünü içerir. Yani A1:A3 hücreleri, B7 hücresinin öncül hücreleridir. Aşağıdaki örnek, Book1.xls şablon dosyasını kullanan emsalleri izleme özelliğini göstermektedir.
 

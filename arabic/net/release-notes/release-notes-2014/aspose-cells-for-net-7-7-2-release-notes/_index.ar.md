@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-7-7-2-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for .NET إلى الإصدار 7.7.2 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 50 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -32,7 +32,7 @@ url: /ar/net/aspose-cells-for-net-7-7-2-release-notes/
 
  (CELLSNET-42299) - دعم B3 (13.9 × 19.7 بوصة) PaperSizeType
 
-(CELLSNET-42370) - تطبيق إعداد ضبط محاذاة النص الموزع
+ (CELLSNET-42370) - تطبيق إعداد ضبط محاذاة النص الموزع
 
  (CELLSNET-42312) - إعداد استرداد إزالة المعلومات الشخصية
 
@@ -40,61 +40,61 @@ url: /ar/net/aspose-cells-for-net-7-7-2-release-notes/
 ## **البق**
 
 
- (CELLSNET-42349) - التحويل غير الصحيح من HTML إلى XLSX
+ (CELLSNET-42349) - تحويل غير صحيح من HTML إلى XLSX
 
- (CELLSNET-42346) - يؤدي الحفظ بتنسيق HTML إلى إنشاء عدد كبير جدًا من علامات br
+ (CELLSNET-42346) - يؤدي الحفظ باسم HTML إلى إنشاء العديد من علامات br
 
- (CELLSNET-42323) - لا يعكس ملف PDF الناتج المخطط في ملف Excel
+ (CELLSNET-42323) - الإخراج PDF لا يعكس المخطط في ملف Excel
 
- (CELLSNET-42301) - فشل إخراج PDF في حساب قيم الحقول المحسوبة في Pivot Table
+(CELLSNET-42301) - فشل الإخراج PDF في حساب قيم الحقول المحسوبة في Pivot Table
 
  (CELLSNET-42300) - مشكلة عرض Pivot Table أثناء التحويل من XLS إلى XLSM
 
- (CELLSNET-42285) - تظهر الأرقام ذات تنسيق الأرقام العامة مع الكسور
+ (CELLSNET-42285) - Numbers مع عام حيث يظهر تنسيق الأرقام الخاص به مع الكسور
 
  (CELLSNET-42272) - تلف ملف Xlsx مع مجموعات أيقونات التنسيق الشرطي بعد الفتح وإعادة الحفظ
 
- (CELLSNET-42271) - تُفقد ميزات التنسيق الشرطي مثل الرموز والمقاطع وتدرج الألوان في ملف XLSB الناتج
+ (CELLSNET-42271) - تُفقد ميزات التنسيق الشرطي مثل الرموز والمقاطع وتدرج الألوان في ملف الإخراج XLSB
 
- (CELLSNET-42261) - مشكلة في الحفظ بتنسيق HTML والأعمدة المخفية عند دمج الخلايا كرؤوس
+ (CELLSNET-42261) - مشكلة في حفظ كـ HTML والأعمدة المخفية عند دمج الخلايا كرؤوس
 
-(CELLSNET-42163) - يتم فقد التنسيق الشرطي عند فتح الملف وإعادة حفظه
+ (CELLSNET-42163) - يتم فقد التنسيق الشرطي عند فتح الملف وإعادة حفظه
 
  (CELLSNET-42147) - Aspose Cells 7.6.0 - مشكلة في تحميل وحفظ ملفات XLSB مع Pivot بالداخل
 
  (CELLSNET-42008) - خاصية عمود البدء PivotTable.DataBodyRange غير صحيحة
 
- (CELLSNET-40847) - حدثت مشكلة أثناء حفظ ورقة MS Excel بتنسيق HTML
+(CELLSNET-40847) - حدثت مشكلة أثناء حفظ ورقة MS Excel كـ HTML
 
- (CELLSNET-40161) - Excel إلى HTML - لا توجد فواصل أسطر
+ (CELLSNET-40161) - Excel إلى HTML - بدون فواصل أسطر
 
- (CELLSNET-42336) - تنسيق الشهر في الجدول المحوري غير صحيح في ملف PDF الناتج
+ (CELLSNET-42336) - تنسيق الشهر في الجدول المحوري غير صحيح في الإخراج PDF
 
- (CELLSNET-42335) - اقتطاع PivotTable عند تحويل XLSX إلى PDF
+ (CELLSNET-42335) - يتم اقتطاع PivotTable عند تحويل XLSX إلى PDF
 
  (CELLSNET-42347) - مشكلة في تنسيق النص - تم قطع الحرف y في كلمة city
 
- (CELLSNET-42344) - يختلف حد الرأس من حيث السُمك عبر الصفحات المختلفة أثناء تحويل XLSX إلى PDF
+ (CELLSNET-42344) - يختلف حد الرأس في السمك عبر الصفحات المختلفة أثناء التحويل XLSX إلى PDF
 
- (CELLSNET-42342) - تسطير الفواصل أثناء تحويل XLSX إلى PDF
+ (CELLSNET-42342) - فواصل التسطير أثناء التحويل XLSX إلى PDF
 
  (CELLSNET-42304) - محاذاة مجموعة الرموز في تصدير PDF
 
- (CELLSNET-42298) - ضبط PaperSizeType على PaperA6 يؤدي إلى عرض PDF بحجم PaperA4
+ (CELLSNET-42298) - ضبط PaperSizeType على PaperA6 يجعل PDF بحجم PaperA4
 
-(CELLSNET-42289) - CHAR (151) لا يعمل بشكل صحيح في PDF
+ (CELLSNET-42289) - CHAR (151) لا يعمل بشكل صحيح في PDF
 
  (CELLSNET-41950) - Aspose.Cells سلوك غريب جدًا على IIS 7.5 مع عملية AutoFit
 
  (CELLSNET-41937) - لا تعمل طباعة التعليقات في ملفات Excel
 
- (CELLSNET-42297) - مخطط مفقود في HTML
+(CELLSNET-42297) - مخطط مفقود في HTML
 
- (CELLSNET-42296) - الرسم البياني مفقود في PDF
+ (CELLSNET-42296) - مخطط مفقود في PDF
 
- (CELLSNET-41743) - مشكلة في الشكل في XLSX لتحويل الصورة
+ (CELLSNET-41743) - مشكلة الشكل في XLSX لتحويل الصورة
 
- (CELLSNET-40467) - حفظ ملف XLS كـ XLSM ، ثم العودة إلى XLS ، يعدل المخطط في الملف
+ (CELLSNET-40467) - حفظ ملف XLS كـ XLSM ، ثم العودة إلى XLS ، يقوم بتعديل المخطط في الملف
 
  (CELLSNET-42332) - تم تغيير الأحرف إلى الأحرف الكبيرة بعد المصنف.
 
@@ -108,11 +108,11 @@ url: /ar/net/aspose-cells-for-net-7-7-2-release-notes/
 
  (CELLSNET-42284) - لم يتم حل صيغة VLOOKUP بواسطة Aspose.Cells
 
-(CELLSNET-42283) - دعم تنسيق MS Excel XLT
+ (CELLSNET-42283) - دعم تنسيق MS Excel XLT
 
  (CELLSNET-42282) - تحميل ملف Excel - إعادة تعيين خيارات عرض المستعرض
 
- (CELLSNET-42276) - الأنماط (الأنماط الأصلية) التي لم يتم نسخها عند استخدام أسلوب Workbook.Copy ()
+(CELLSNET-42276) - الأنماط (الأنماط الأصلية) التي لم يتم نسخها عند استخدام أسلوب Workbook.Copy ()
 
 
 ## **استثناءات**
@@ -146,13 +146,13 @@ url: /ar/net/aspose-cells-for-net-7-7-2-release-notes/
 
 
 
-إضافة خاصية WorkbookSettings.RemovePersonalInformation
+ إضافة خاصية WorkbookSettings.RemovePersonalInformation
 
  يشير إلى إمكانية إزالة المعلومات الشخصية من المصنف المحدد.
 
 
 
- عفا عليها الزمن الخاصية WorksheetCollection.HidePivotFieldList.
+عفا عليها الزمن الخاصية WorksheetCollection.HidePivotFieldList.
 
  الرجاء استخدام خاصية WorkbookSettings.HidePivotFieldList.
 

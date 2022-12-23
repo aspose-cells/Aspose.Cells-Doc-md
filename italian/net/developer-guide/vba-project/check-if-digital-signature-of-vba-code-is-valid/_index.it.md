@@ -10,7 +10,7 @@ url: /it/net/check-if-digital-signature-of-vba-code-is-valid/
 
 {{% /alert %}}
 
-## **Verifica se la firma digitale del codice VBA è valida in C#**
+## **Controlla se la firma digitale del codice VBA è valida in C#**
 
  Il codice seguente illustra l'utilizzo di questa proprietà utilizzando il[file excel di esempio](5115030.xlsm)che puoi scaricare dal link fornito. Lo stesso file excel ha una firma valida ma quando modifichiamo il suo codice VBA e salviamo la cartella di lavoro e quindi ricontrolliamo, scopriamo che la sua firma non è più valida.
 

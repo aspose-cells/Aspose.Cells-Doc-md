@@ -22,7 +22,7 @@ cell.putValue("This is text.");
 
 {{< /highlight >}}
 
-正如你看到的**AB1000000**是 XLSX 文件中相当远的单元格。但是，那*WaitForWhileAndThenInterrupt()*方法在 10 秒后中断转换，程序结束/终止。请使用以下代码来执行示例代码。
+如你所见**AB1000000**是 XLSX 文件中相当远的单元格。然而*WaitForWhileAndThenInterrupt()*方法在 10 秒后中断转换，程序结束/终止。请使用以下代码来执行示例代码。
 
 {{< highlight "java" >}}
 

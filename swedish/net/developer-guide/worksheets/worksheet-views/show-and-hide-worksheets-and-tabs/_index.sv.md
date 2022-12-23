@@ -3,6 +3,7 @@ title: Visa och dölj arbetsblad och flikar
 type: docs
 weight: 10
 url: /sv/net/show-and-hide-worksheets-and-tabs/
+description: Den här artikeln innehåller exempelkod för att använda biblioteket C# API eller .NET för att programmatiskt visa och dölja ett Excel-kalkylblad. Dessutom, hur du visar och döljer Excel-arbetsboksflikar.
 ---
 {{% alert color="primary" %}}
 
@@ -24,7 +25,7 @@ Aspose.Cells låter användaren visa och dölja delar av en arbetsbok inklusive 
 
 ### **Dölja ett arbetsblad**
 
- Dölj ett kalkylblad genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass'[**Är synlig**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) egendom till**falsk**.
+Dölj ett kalkylblad genom att ställa in[**Arbetsblad**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) klass'[**Är synlig**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/isvisible) egendom till**falsk**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Worksheets-Display-HideUnhideWorksheet-1.cs" >}}
 

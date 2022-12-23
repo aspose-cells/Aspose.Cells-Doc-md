@@ -21,7 +21,7 @@ url: /zh/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-40251|另存为 PDF 不保留格式|漏洞|
 |CELLSJAVA-42187|Excel 公式无效并显示为“#DIV/0!”|漏洞|
 |CELLSJAVA-42184|并发保存问题|漏洞|
-|CELLSJAVA-42156|转换为 HTML 时，单元格的顶部和底部边框消失了|漏洞|
+|CELLSJAVA-42156|转换为 HTML 时单元格的顶部和底部边框消失|漏洞|
 |CELLSJAVA-42147|Excel 公式无法正常工作|漏洞|
 |CELLSJAVA-42131|使用 Aspose Cells API 重新计算多个公式会导致“#NUM!”错误|漏洞|
 |CELLSJAVA-42188|在 GridWeb (Java) 演示项目中无法正确加载数学演示页面|漏洞|
@@ -31,7 +31,7 @@ url: /zh/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42189|瀑布图，当调用 calculate() 时，图表系列颜色将恢复。|漏洞|
 |CELLSJAVA-42160|Excel 中的对数刻度错误导致 Aspose Cells 挂起|漏洞|
 |CELLSJAVA-42158|将电子表格呈现为 PDF 时垂直轴绑定值已更改|漏洞|
-|CELLSJAVA-42157|将图表呈现为 EMF 时水平和垂直轴边界值发生变化|漏洞|
+|CELLSJAVA-42157|将图表呈现为 EMF 时，水平轴和垂直轴的边界值已更改|漏洞|
 |CELLSJAVA-42133|希伯来语 - PDF 中缺少空格字符|漏洞|
 |CELLSJAVA-42107|渲染到图像时图表被垂直抑制|漏洞|
 |CELLSJAVA-42105|将图表导出到图像时缺少 DataTable 系列|漏洞|
@@ -55,7 +55,7 @@ url: /zh/java/aspose-cells-for-java-17-02-0-release-notes/
 |CELLSJAVA-42161|跨工作簿复制工作表会更改公式|漏洞|
 |CELLSJAVA-42154|无法读取复选框的文本值|漏洞|
 |CELLSJAVA-42150|GetNames() 方法未返回所有名称|漏洞|
-|CELLSJAVA-40511|Aspose.Cells生成的PDF页面全黑|漏洞|
+|CELLSJAVA-40511|Aspose.Cells生成的PDF的页面全黑|漏洞|
 |CELLSJAVA-42179|加载 HTML 时 Workbook ctor 出现 NullPointerException|例外|
 |CELLSJAVA-42174|加载 HTML 时 Workbook ctor 出现 NullPointerException - II|例外|
 |CELLSJAVA-42192|CellsException：无效的孔大小：它必须在 10 到 90 之间|例外|
@@ -190,7 +190,7 @@ Aspose.Cells for Java 17.02.0 公开了 Workbook 类的 getFonts 方法。 Workb
 
 {{< /highlight >}}
 ### **添加了 TxtSaveOptions.TrimLeadingBlankRowAndColumn 属性**
-此版本的 Aspose.Cells for Java 公开了 TxtSaveOptions 类的布尔类型 TrimLeadingBlankRowAndColumn 属性，指示在将数据导出为 CSV 或制表符分隔格式时是否应像 Excel 那样修剪前导空白行和列。上述属性的默认值为 false。如果工作表上的数据不是从第一个单元格开始，即：A1，Excel 应用程序会在将数据导出为 CSV 或制表符分隔格式时删除前导空白行和列，但是，默认情况下 Aspose.Cells API，保留如果必须使用 Aspose.Cells API 将导出的 CSV 或制表符分隔的文件导入回同一样本的空白行和列，以便保留数据位置。
+此版本的 Aspose.Cells for Java 公开了 TxtSaveOptions 类的布尔类型 TrimLeadingBlankRowAndColumn 属性，该属性指示在将数据导出为 CSV 或制表符分隔格式时是否应像 Excel 那样修剪前导空白行和列。上述属性的默认值为 false。如果工作表上的数据不是从第一个单元格开始的，即：A1，Excel 应用程序在将数据导出为 CSV 或制表符分隔格式时删除前导空白行和列，但是，Aspose.Cells API 默认保留如果必须使用 Aspose.Cells API 将导出的 CSV 或制表符分隔的文件导回，则同一样本的空白行和列将保留数据位置。
 
 下面是 TrimLeadingBlankRowAndColumn 属性的简单使用场景。
 

@@ -14,8 +14,8 @@ url: /ja/net/aspose-cells-for-net-18-3-release-notes/
 |:- |:- |:- |
 |CELLSNET-42655|ピボット テーブルのグループ ピボット フィールド|新機能|
 |CELLSNET-45960|ドットを NumPad から小数点記号 (',') に変更 - Aspose.Cells.GridWeb|新機能|
-|CELLSNET-45966|HTML から Cells への後方変換中の例外の原因|強化|
-|CELLSNET-45976|フレームワークが異なる可能性があるため、ODS ファイルを開くときにエラーが発生し、float 値の精度が異なる|強化|
+|CELLSNET-45966|後方 HTML から Cells への変換中の例外の原因|強化|
+|CELLSNET-45976|フレームワークが異なると float 値の精度が異なる可能性があるため、ODS ファイルを開くときにエラーが発生する|強化|
 |CELLSNET-45981|QuotePrefix 値を上書きしないように、プロパティを StyleFlag に追加して false に設定します|強化|
 |CELLSNET-45957|テンプレートファイルにマップチャートを保持することをサポート|強化|
 |CELLSNET-45941|あるワークブックから別のワークブックにシートをコピーすると、ActiveX コントロールが画像になります|強化|
@@ -25,7 +25,7 @@ url: /ja/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45939|提供されたスクリーンショットに示すように、下線が壊れているだけでなく、テキストもずれています。|バグ|
 |CELLSNET-45890|いくつかのパーツが欠落しているため、一部の形状は完全にはレンダリングされません|バグ|
 |CELLSNET-45878|新しいバージョンの Excel ファイルを出力すると、Microsoft Excel 2016 がクラッシュする|バグ|
-|CELLSNET-43360|HTML から Excel へのレンダリングのスタイルの問題|バグ|
+|CELLSNET-43360|HTML から Excel へのレンダリングでのスタイルの問題|バグ|
 |CELLSNET-45979|VLOOKUPS 式の計算が正しく機能しない|バグ|
 |CELLSNET-45949|Cell 変換された画像でテキストの配置 (フォントが混在) が変更されます|バグ|
 |CELLSNET-45940|Excel ファイルを PDF ファイル形式に変換する際に条件付き書式が適用されない|バグ|
@@ -35,9 +35,9 @@ url: /ja/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45911|マーケット リスク チャートのレンダリングでの不適切な位置と線|バグ|
 |CELLSNET-45908|チャート レンダリングでの不適切な位置|バグ|
 |CELLSNET-45906|チャートのレンダリングにラベルがありません|バグ|
-|CELLSNET-45884|タブのスマート アート チャート - 出力 PDF ファイル形式でコーンのエッジがギザギザになる|バグ|
+|CELLSNET-45884|タブの Smart Art チャート - 出力 PDF ファイル形式でコーンのエッジがギザギザになる|バグ|
 |CELLSNET-45989|ダイアログが XLSM ファイルに正しく保存されない|バグ|
-|CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) は XLS ファイルでは機能しません|バグ|
+|CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) が XLS ファイルに対して機能しない|バグ|
 |CELLSNET-45946|スキームにハイフンを含むハイパーリンクが保存中に壊れる|バグ|
 |CELLSNET-45944|ConvertToRange() メソッドが Name Manager の Names を壊す|バグ|
 |CELLSNET-45905|出力ワークブック、つまり「_function plot 2D.xlsx」を 2 回開こうとすると Excel がハングする|バグ|
@@ -53,8 +53,8 @@ url: /ja/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45987|Aspose.Cells API 経由で XLSX ファイルを開く際の例外|例外|
 |CELLSNET-45951|無効な式は開始時に例外をスローします|例外|
 |CELLSNET-45950|ODS ファイルのロード時の例外|例外|
-|CELLSNET-45947|例外: 無効な式:"=sheet3!#ref!" XLSXファイルを開くとき|例外|
-|CELLSNET-45938|XLSB ファイルを開く際の System.IndexOutOfRangeException|例外|
+|CELLSNET-45947|例外: 無効な式:"=sheet3!#ref!" XLSX ファイルを開くとき|例外|
+|CELLSNET-45938|XLSB ファイルを開くと System.IndexOutOfRangeException が発生する|例外|
 |CELLSNET-45937|XLSX ファイルを開くときに System.FormatException が発生する|例外|
 |CELLSNET-45903|XLSX をロードすると StackOverflowException が発生する|例外|
 ### **Public API および下位互換性のない変更**

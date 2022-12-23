@@ -10,7 +10,7 @@ url: /sv/java/aspose-cells-for-java-2-4-1-release-notes/
 
 {{% /alert %}} 
 
- Vi är glada att meddela Aspose.Cells for Java v2.4.1!
+Vi är glada att meddela Aspose.Cells for Java v2.4.1!
 
  Vad har ändrats:
 
@@ -38,8 +38,8 @@ url: /sv/java/aspose-cells-for-java-2-4-1-release-notes/
 |19543 | Xlsx| Läs Excel2007-filen|
 |19596 | Xls| Cells.getMaxDataColumn()|
 |19641 | Xls| Felkontrollalternativ|
-|19696 | Diagram| Spara diagram för excel2003-fil|
-|19822 | Diagram|Länkade celler för ChartFrames som Title/DataLabels|
+|19696 | Diagram|Spara diagram för excel2003-fil|
+|19822 | Diagram| Länkade celler för ChartFrames som Title/DataLabels|
 |19823 | Html| Cell gränser|
 |19832 | Chart2Image| Vattenfallsdiagram med StackedBar-diagram|
 |19894 | Xls| Få formens storlek, Läs stil|

@@ -13,25 +13,25 @@ url: /de/net/aspose-cells-for-net-18-9-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSNET-42992|Anwenden der Textausrichtung auf Teiltext innerhalb der TextBox|Neue Funktion|
-|CELLSNET-46308|Exportieren Sie benutzerdefinierte Dokumenteigenschaften in PDF|Neue Funktion|
+|CELLSNET-46308|Exportieren Sie benutzerdefinierte Dokumenteigenschaften nach PDF|Neue Funktion|
 |CELLSNET-46301|Holen Sie sich den XML-Pfad aus List Object/Table|Neue Funktion|
-|CELLSNET-46315|Aktiendiagramm in ODS-Datei unterstützen|Neue Funktion|
+|CELLSNET-46315|Support-Aktiendiagramm in der Datei ODS|Neue Funktion|
 |CELLSNET-46304|Fügen Sie die Row.FirstDataCell-Eigenschaft hinzu, um die erste Datenzelle in der Zeile abzurufen|Erweiterung|
 |CELLSNET-46298|Erstellen Sie Safe-Sheet-Namen ähnlich wie bei Apache POI|Erweiterung|
 |CELLSNET-46319|FilterOperatorType.Contains missing from API|Erweiterung|
 |CELLSNET-46297|Bereich der Abfragetabelle abrufen|Erweiterung|
-|CELLSNET-46294|Benennen Sie das Arbeitsblatt beim Konvertieren von CSV/TSV in eine Tabelle genauso wie die Quelldatei|Erweiterung|
+|CELLSNET-46294|Benennen Sie das Arbeitsblatt mit dem Namen der Quelldatei, während Sie CSV/TSV in eine Tabelle konvertieren|Erweiterung|
 |CELLSNET-46289|Schließen Sie unsignierte Dlls von Aspose.Cells ein|Erweiterung|
-|CELLSNET-46290|Falsche Farben für Formen bei der Konvertierung von Excel in PDF gerendert|Insekt|
-|CELLSNET-46282|Ziemlich kleine Bilder, die in PDF gerendert werden|Insekt|
+|CELLSNET-46290|Falsche Farben für Formen in Excel zur Konvertierung PDF gerendert|Insekt|
+|CELLSNET-46282|Ziemlich kleine Bilder, die in PDF gerendert wurden|Insekt|
 |CELLSNET-46328|Fehlerhafter Hyperlink in HTML|Insekt|
 |CELLSNET-46322|Probleme mit Zahlen- und Datumswerten beim Aufrufen von AutoFitColumns()|Insekt|
 |CELLSNET-46312|Pivot-Tabellen funktionieren nach dem Laden und Speichern nicht|Insekt|
 |CELLSNET-46291|Probleme in Pivot-Tabellen beim Aktualisieren und Ausblenden von Pivot-Elementen|Insekt|
 |CELLSNET-46279|PivotTable.RefreshData löst die Ausnahme „Index außerhalb des gültigen Bereichs“ aus|Insekt|
 |CELLSNET-46303|Formel nicht richtig berechnet|Insekt|
-|CELLSNET-46327|Benannte Bereiche bei der Konvertierung in SVG, die nicht die genauen Schriftarten und Abstände erfassen|Insekt|
-|CELLSNET-46313|Probleme in der PDF-Ausgabe, wenn deutsche Schlüsselwörter in Skript-Kopf- und Fußzeilen verwendet werden|Insekt|
+|CELLSNET-46327|Benannte Bereiche, wenn sie in SVG konvertiert werden, erfassen nicht die genauen Schriftarten und Abstände|Insekt|
+|CELLSNET-46313|Probleme in Ausgabe PDF bei Verwendung deutscher Schlüsselwörter in Skript-Kopf- und Fußzeilen|Insekt|
 |CELLSNET-46300|Das Tabellen-/Listenobjekt überlappte die Daten unterhalb der Tabelle, wenn XML-Daten in die Tabelle importiert wurden|Insekt|
 |CELLSNET-46318|Nach dem Aufrufen der Methode Chart.Calculate() wurden vertikale Gitterlinien im Diagramm angezeigt|Insekt|
 |CELLSNET-46287|Die horizontale Achse fehlt in gerenderten Bildern aus Excel-Diagrammen|Insekt|
@@ -43,7 +43,7 @@ url: /de/net/aspose-cells-for-net-18-9-release-notes/
 |CELLSNET-46305|Vergriffener Textbereich in PDF gerendert|Insekt|
 |CELLSNET-46296|Spalten oder Zeilen automatisch anpassen, die die gruppierten Formen stören|Insekt|
 |CELLSNET-46292|Unterschied in XML-Dateien|Insekt|
-|CELLSNET-46283|Fehlender Rand in der ODS-Excel-Ausgabe|Insekt|
+|CELLSNET-46283|Fehlender Rahmen in ODS Excel-Ausgabe|Insekt|
 |CELLSNET-46331|Ausnahme beim Konvertieren einer XLSX-Datei in das PDF-Dateiformat|Ausnahme|
 |CELLSNET-46270|ArgumentOutOfRangeException beim Aufrufen von Slicer.Refresh() ausgelöst|Ausnahme|
 |CELLSNET-46323|Datenvalidierungsproblem beim Versuch, den Zellenwert mit einem der Dropdown-Werte zu ändern|Ausnahme|
@@ -75,9 +75,9 @@ Ruft den Anzeigestil der Zelle ab.
 #### **Fügt die Methode GlobalizationSettings.GetStandardHeaderFooterFontStyleName(string localFontStyleName) hinzu**
 Ruft den standardmäßigen englischen Schriftstilnamen (regulär, fett, kursiv) für die Kopf-/Fußzeile gemäß dem angegebenen Gebietsschema-Schriftstilnamen ab.
 #### **Fügt PdfCustomPropertiesExport-Aufzählung hinzu**
-Gibt an, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird.
+Gibt an, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird.
 #### **Fügt die PdfSaveOptions.CustomPropertiesExport-Eigenschaft hinzu**
-Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in eine PDF-Datei exportiert wird. Der Standardwert ist „Keine“.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, wie CustomDocumentPropertyCollection in die Datei PDF exportiert wird. Der Standardwert ist „Keine“.
 #### **Fügt die Klasse XmlDataBinding hinzu**
 Stellt XML-Datenbindungsinformationen dar.
 #### **Fügt die ListObject.XmlMap-Eigenschaft hinzu**

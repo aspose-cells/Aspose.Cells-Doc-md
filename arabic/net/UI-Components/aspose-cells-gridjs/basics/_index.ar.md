@@ -8,9 +8,9 @@ url: /ar/net/aspose-cells-gridjs/basics/
 
  Aspose.Cells.GridJs هي مكتبة قياسية .NET تتيح للمستخدمين تطوير تطبيق ويب لعرض / تحرير جدول البيانات بسرعة وسهولة.
 
-Aspose.Cells.GridJs يدعم استيراد تنسيقات ملفات جداول البيانات الشائعة (XLS و XLSX و XLSM و XLSB و CSV و SpreadsheetML و ODS).
+Aspose.Cells.GridJs يدعم استيراد تنسيقات الملفات الشائعة (XLS ، XLSX ، XLSM ، XLSB ، CSV ، SpreadsheetML ، ODS).
 
-كما يسمح بتصدير ملفات Excel إلى PDF و HTML. وما إلى ذلك. فيما يلي خطوات العملية الأساسية لتطوير تطبيق ويب لـ GridJs.
+كما يسمح بتصدير ملفات Excel إلى PDF ، HTML. فيما يلي خطوات العملية الأساسية لتطوير تطبيق ويب لـ GridJs.
 
 - قم بتنفيذ GridCacheForStream لكتابة منطق الأعمال الخاص بك لتخزين ذاكرة التخزين المؤقت.
 - قم بإعداد إجراء تحكم للحصول على json من ملف جدول البيانات. يمكنك استخدام GridJsWorkbook.ImportExcelFile و GridJsWorkbook.ExportToJson APIs ، ستقوم GridJs تلقائيًا بتخزين ملف الانتشار في ذاكرة التخزين المؤقت.

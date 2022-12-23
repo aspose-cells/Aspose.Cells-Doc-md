@@ -21,7 +21,7 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.6.
 |CELLSJAVA-44611|Förbättring för att läsa tomma celler från xlsx-fil|
 |CELLSJAVA-44616|Ursprungliga inställningar för villkorlig formatering i destinationsområdet bör tas bort vid kopiering av intervall|
 |CELLSJAVA-44658|Stöd BouncyCastle v1.71|
-|CELLSJAVA-44455|När du konverterar XLSX-fil till PDF blir datumet i pivottabellen ett serienummer|
+|CELLSJAVA-44455|När du konverterar filen XLSX till PDF blir datumet i pivottabellen ett serienummer|
 |CELLSJAVA-44370|Excel-filen blir korrupt när den öppnas och sparas med Aspose.Cells|
 |CELLSJAVA-44381|Problem med villkorsformatering när raden eller kolumnen tas bort|
 |CELLSJAVA-44442|Att öppna och spara med Aspose.Cells förstör arbetsboken|
@@ -32,18 +32,18 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.6.
 |CELLSJAVA-44466| ytterligare problem 3, setCalculateFormula till false fungerar inte|
 |CELLSJAVA-44496|Inkludera rubriktaggen/elementet för tabellen när du laddar html|
 |CELLSJAVA-44429|Effekten av Excel-diagram i excel skiljer sig från den i HTML|
-|CELLSJAVA-44414| Unicode i JSON kommer att bryta genererad XLSX och CSV|
+|CELLSJAVA-44414| Unicode i JSON kommer att bryta genererade XLSX och CSV|
 |CELLSJAVA-44481|Problem med metoden ThreadedComment.setCreatedTime().|
 |CELLSJAVA-44483|Sortering fungerar inte efter gruppering av raderna|
 |CELLSJAVA-44522|Dubbelt värde till sträng ger tailing noll vilket är felaktigt när man jämför med ms excels resultat|
 |CELLSJAVA-44501| sök nästa nummer efter filen duohangduolie.zip|
 |CELLSJAVA-44529|implementera sökning efter freezepan|
 |CELLSJAVA-44530|undersöka frågan om setactivecell fungerar inte ibland|
-|CELLSJAVA-44534|Grafik i utskriftsområdet exporteras inte i Excel till HTML-konvertering|
+|CELLSJAVA-44534|Grafik i utskriftsområdet exporteras inte i Excel till HTML konvertering|
 |CELLSJAVA-44539|Diagrammet flyttas åt höger vid konvertering till html med utskriftsområde|
-|CELLSJAVA-44568|Flerradstexter går förlorade förutom den första raden i HTML till XLS-konvertering|
+|CELLSJAVA-44568|Textning med flera rader försvinner förutom den första raden i konverteringen HTML till XLS|
 |CELLSJAVA-44512|Diagram saknas vid export av diagram till svg i html|
-|CELLSJAVA-44556|Problem med datavisning i datatabellen efter att koordinataxeln är inställd på logaritmisk skala - Excel till HTML/PDF-konvertering|
+|CELLSJAVA-44556|Problem med datavisning i datatabellen efter att koordinataxeln är inställd på logaritmisk skala - Excel till HTML/PDF konvertering|
 |CELLSJAVA-44628|Hur man behåller procentformat för vissa pivotrader när man expanderar noddata för en pivotkolumn/-fält|
 |CELLSJAVA-44483|Sortering fungerar inte efter gruppering av raderna|
 |CELLSJAVA-44609|Långsam kopiering med villkorlig formatering med nyare version|
@@ -55,9 +55,9 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 22.6.
 |CELLSJAVA-44660|Problem med datajustering när du laddar XLS till Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problem när du laddar et-filen till Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|Titeln på axeln i diagrammet roteras i utdatabilden - Konvertering av diagram till bild|
-|CELLSJAVA-44615|Grå linje ritad i utdatabilden från XLS-fil|
-|CELLSJAVA-44665|Laddar ODS-filen hänger sig|
-|CELLSJAVA-44404|Undantag "java.lang.IllegalArgumentException: Ogiltigt kolumnindex" när en XLSX-fil laddas in i GridWeb|
+|CELLSJAVA-44615|Grå linje ritad i utdatabilden från filen XLS|
+|CELLSJAVA-44665|Laddar ODS filen hänger sig|
+|CELLSJAVA-44404|Undantag "java.lang.IllegalArgumentException: Ogiltigt kolumnindex" vid inläsning av en XLSX-fil i GridWeb|
 |CELLSJAVA-44651|Felet "Inte ett numeriskt värde" vid konvertering av Excel-ark till HTML/PDF|
 
 

@@ -1,13 +1,13 @@
 ﻿---
-title: Converti la cartella di lavoro in HTML usando Aspose.Cells
+title: Converti cartella di lavoro in HTML utilizzando Aspose.Cells
 type: docs
 weight: 20
 url: /it/java/convert-workbook-to-html-using-aspose-cells/
 ---
 ## **Aspose.Cells - Converti la cartella di lavoro in HTML**
- Le API Aspose.Cells forniscono supporto per l'esportazione di fogli di calcolo in formato HTML. Per questo scopo,**Aspose.Cells** utilizza il**HtmlSaveOptions** class che consente agli sviluppatori di controllare diversi aspetti dell'output HTML.
+ Le API Aspose.Cells forniscono supporto per l'esportazione di fogli di calcolo nel formato HTML. Per questo scopo,**Aspose.Cells** utilizza il**HtmlSaveOptions** class che consente agli sviluppatori di controllare diversi aspetti dell'output HTML.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

@@ -29,11 +29,11 @@ Insectes
 
 (CELLSJAVA-40848) - Les couleurs d'arrière-plan de mise en forme conditionnelle ne sont pas rendues dans le pdf
 (CELLSJAVA-40852) - La définition de la transparence d'ImageOrPrintOptions rend le PNG avec un arrière-plan noir
-(CELLSJAVA-40855) - XLSX en PDF : CellsHelper.setFontDir ne semble pas sélectionner les polices
+(CELLSJAVA-40855) - XLSX à PDF : CellsHelper.setFontDir ne semble pas sélectionner les polices
 (CELLSJAVA-40862) - Cell.getType() détecte le nombre comme date/heure
 (CELLSJAVA-40863) - Prise en charge des formats localisés dans les formules
 
-Exceptions
+Des exceptions
 
 (CELLSJAVA-40840) - Erreur lors de la réouverture du classeur via le flux
 

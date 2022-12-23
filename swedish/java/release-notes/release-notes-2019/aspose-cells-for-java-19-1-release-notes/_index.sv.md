@@ -12,22 +12,22 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 19.1.
 
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-41026|Stöd för Excel 95/5.0 (XLS-filer)|Ny funktion|
+|CELLSJAVA-41026|Stöd för Excel 95/5.0 (XLS filer)|Ny funktion|
 |CELLSJAVA-42778|Undantag "stil textRotation måste vara mellan 0 och 180" när XLSM laddas|Förbättring|
 |CELLSJAVA-42290|Mdash och ndash infogade i textrutor i diagram renderas inte korrekt i diagrammets PDF|Insekt|
 |CELLSJAVA-42750|Det gick inte att hämta sidfältens objekt i pivottabellsrapporten|Insekt|
-|CELLSJAVA-42783|Problem med genomstruken text i genererat HTML-filformat|Insekt|
+|CELLSJAVA-42783|Problem med genomstruken text i genererat HTML filformat|Insekt|
 |CELLSJAVA-42784|Data i vissa celler (t.ex. G7, H7, etc.) renderas inte på samma sätt som i originalfilen i Excel till HTML/bildkonvertering|Insekt|
-|CELLSJAVA-42797|Vissa stilar återges inte i HTML-inmatning|Insekt|
+|CELLSJAVA-42797|Vissa stilar återges inte i HTML-ingången|Insekt|
 |CELLSJAVA-42807|Formel/funktion "ISOWEEKNUM"-beräkning är inte detsamma som MS Excel|Insekt|
 |CELLSJAVA-42794|ODS till XLSX - Textfärg ändrad|Insekt|
-|CELLSJAVA-42795|ODS till XLSX - Teckensnittet genomstrukits inte korrekt bevarat|Insekt|
-|CELLSJAVA-42796|ODS till XLSX - Textrutans dimensioner ändrade|Insekt|
+|CELLSJAVA-42795|ODS till XLSX - Genomstruket teckensnitt har inte bevarats korrekt|Insekt|
+|CELLSJAVA-42796|ODS till XLSX - Textrutans mått har ändrats|Insekt|
 |CELLSJAVA-42798|ODS -> XLSX - Hyperlänk är funktionell men visas som vanlig text|Insekt|
-|CELLSJAVA-42802|ODS till XLSX, procentandelar går förlorade i stapeldiagrammet|Insekt|
-|CELLSJAVA-42803|Outline "SummaryRowBelow" påverkas inte när du sparar som XLSB-filformat|Insekt|
+|CELLSJAVA-42802|ODS till XLSX, procentandelar går förlorade i stapeldiagram|Insekt|
+|CELLSJAVA-42803|Outline "SummaryRowBelow" påverkas inte när du sparar som XLSB filformat|Insekt|
 |CELLSJAVA-42757|CellsException vid konvertering av filer|Undantag|
-|CELLSJAVA-42799|Undantag "java.lang.ArrayIndexOutOfBoundsException: -32768" när ett XLSX-filformat laddas|Undantag|
+|CELLSJAVA-42799|Undantag "java.lang.ArrayIndexOutOfBoundsException: -32768" vid laddning av ett XLSX filformat|Undantag|
 |CELLSJAVA-42800|ArrayIndexOutOfBoundsException när en arbetsbok laddas|Undantag|
 ## **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for Java. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
@@ -46,7 +46,7 @@ Får alla nycklar till datasorteraren.
 ### **Lägger till SortOnType enum**
 Representerar typen av sorterad data.
 ### **Lägger till klass ODSLoadOptions**
-Representerar alternativen för att ladda ODS-fil.
+Representerar alternativen för att ladda ODS-filen.
 ### **Lägger till egenskapen HTMLLoadOptions.ProgId**
 Hämtar program-id för att skapa filen. används endast för MHT-filer.
 ### **Lägger till egenskapen PdfSaveOptions.TextCrossType**

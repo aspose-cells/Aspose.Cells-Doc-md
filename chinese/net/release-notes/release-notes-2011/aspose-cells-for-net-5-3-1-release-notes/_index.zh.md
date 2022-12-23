@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-5-3-1-release-notes/
 
  Aspose.Cells 中发生了什么变化：
 
-- 支持 PDF 转换中的阿拉伯文本渲染。
+- 在 PDF 转换中支持阿拉伯文本呈现。
  17 项改进和修复。
 
  Aspose.Cells.GridWeb 发生了什么变化：

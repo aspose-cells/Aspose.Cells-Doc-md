@@ -1,20 +1,20 @@
 ﻿---
-title: Enregistrer le classeur au format texte ou CSV en utilisant Aspose.Cells
+title: Enregistrer le classeur au format texte ou CSV à l'aide de Aspose.Cells
 type: docs
 weight: 80
 url: /fr/net/save-workbook-to-text-or-csv-format-using-aspose-cells/
 ---
 {{% alert color="primary" %}} 
 
-Parfois, vous souhaitez convertir ou enregistrer un classeur avec plusieurs feuilles de calcul au format texte. Pour les formats de texte (par exemple TXT, TabDelim, CSV, etc.), par défaut, Microsoft Excel et Aspose.Cells enregistrent uniquement le contenu de la feuille de calcul active.
+Parfois, vous souhaitez convertir ou enregistrer un classeur avec plusieurs feuilles de calcul au format texte. Pour les formats de texte (par exemple TXT, TabDelim, CSV etc.), par défaut, Microsoft Excel et Aspose.Cells enregistrent uniquement le contenu de la feuille de calcul active.
 
 {{% /alert %}} 
 
-L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Excel ou OpenOffice Microsoft (c'est-à-dire XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul.
+L'exemple de code suivant explique comment enregistrer un classeur entier au format texte. Chargez le classeur source qui peut être n'importe quel fichier de feuille de calcul Excel ou OpenOffice Microsoft (donc XLS, XLSX, XLSM, XLSB, ODS, etc.) avec n'importe quel nombre de feuilles de calcul.
 
 Lorsque le code est exécuté, il convertit les données de toutes les feuilles du classeur au format TXT.
 
-Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, TxtSaveOptions.Separator est une virgule, donc ne spécifiez pas de séparateur si vous enregistrez au format CSV.
+Vous pouvez modifier le même exemple pour enregistrer votre fichier au format CSV. Par défaut, TxtSaveOptions.Separator est une virgule, ne spécifiez donc pas de séparateur si vous enregistrez au format CSV.
 
 **C#**
 
@@ -22,9 +22,9 @@ Vous pouvez modifier le même exemple pour enregistrer votre fichier au format C
 
 chaîne FilePath = @"..\..\..\Sample Files\" ;
 
-string FileName = FilePath + "Enregistrer le classeur au format texte ou CSV.xlsx" ;
+string FileName = FilePath + "Enregistrer le classeur au format texte ou CSV Format.xlsx" ;
 
-string destFileName = FilePath + "Enregistrer le classeur au format texte ou CSV.txt" ;
+string destFileName = FilePath + "Enregistrer le classeur au format texte ou CSV Format.txt" ;
 
 // Chargez votre classeur source
 

@@ -17,6 +17,6 @@ SQL Server Reporting Services 2008 rapor tanımı dosyasındaki bazı grafik tü
 - Range-BoxPlot
 - Şekil-Huni
 
- Microsoft Excel'de eşdeğer seçeneklere sahip olmayan grafik öğelerini işlerken, Aspose.Cells bunları görüntülere verir.
+Microsoft Excel'de eşdeğer seçeneklere sahip olmayan grafik öğelerini işlerken, Aspose.Cells bunları görüntülere verir.
 
 {{% /alert %}}

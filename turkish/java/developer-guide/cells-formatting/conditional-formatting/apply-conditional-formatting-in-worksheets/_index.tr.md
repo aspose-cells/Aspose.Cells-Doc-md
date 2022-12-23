@@ -35,7 +35,7 @@ Bu makale aşağıdaki görevlerde çalışır:
  Eclipse kullanarak bir Sınıf Yolu ayarlamak için lütfen aşağıdaki adımları gerçekleştirin:
 1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
  1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve ardından**Özellikleri** dan**proje** Menü.
+ 1. Eclipse'de projenizi seçin ve ardından**Özellikler** dan**Proje** Menü.
  1. İletişim kutusunun solundaki "Java Derleme Yolu"nu seçin.
  1. üzerinde**kütüphaneler** sekme, seç**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
  1. Aspose'in bileşenlerinin API'lerini çağırmak için uygulama yazın.
@@ -56,11 +56,11 @@ Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk ça
 
 **A1 değeri 50'den küçük olan Excel dosyası çıktısı**
 
-![yapılacaklar:resim_alternatif_Metin](apply-conditional-formatting-in-worksheets_1.png)
+![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_1.png)
 
 **50 ile 100 arasında A1 ile çıktı Excel dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](apply-conditional-formatting-in-worksheets_2.png)
+![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_2.png)
 
 ### **Görev 2: Bir Formüle Dayalı Koşullu Biçimlendirmeyi Uygulamak için Aspose.Cells'i Kullanma**
 
@@ -73,11 +73,11 @@ Yukarıdaki kod yürütüldüğünde, çıktı dosyasının (output.xls) ilk ça
 
 **B3 değeri 100'den az olan Excel dosyası çıktısı**
 
-![yapılacaklar:resim_alternatif_Metin](apply-conditional-formatting-in-worksheets_3.png)
+![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_3.png)
 
 **B3 değeri 100'den büyük olan Excel dosyasının çıktısını alın**
 
-![yapılacaklar:resim_alternatif_Metin](apply-conditional-formatting-in-worksheets_4.png)
+![yapılacaklar:resim_alternatif_metin](apply-conditional-formatting-in-worksheets_4.png)
 
 ### **Çözüm**
 

@@ -6,7 +6,7 @@ url: /zh/java/how-to-install-truetype-fonts-on-linux/
 ---
 {{% alert color="primary" %}}
 
-最可能的情况是您正在使用 Aspose.Cells 将电子表格转换为 PDF。如果您在基于非 Windows 的操作系统（例如 Linux）上执行此操作，则本主题说明如何确保 Aspose.Cells 以最佳保真度呈现您的电子表格。
+最可能的情况是您使用 Aspose.Cells 将电子表格转换为 PDF。如果您在基于非 Windows 的操作系统（例如 Linux）上执行此操作，则本主题说明如何确保 Aspose.Cells 以最佳保真度呈现您的电子表格。
 
 为确保由 Aspose.Cells 转换的电子表格尽可能接近原始电子表格，您可能需要在 Linux 系统上安装“Windows 字体”或“TrueType 字体”，因为最常用的 TrueType 字体未预装默认情况下是 Linux 发行版。
 

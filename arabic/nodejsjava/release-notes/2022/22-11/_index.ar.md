@@ -12,15 +12,15 @@ url: /ar/nodejs-java/aspose-cells-for-node-js-via-java-22-11-release-notes/
 
 |**مفتاح**|**ملخص**|**فئة**|
 |:- |:- |:- |
-|CELLSJAVA-44888|اختفت "+" و "-" بعد التحويل - تحويل Excel إلى HTML|
+|CELLSJAVA-44888|اختفت "+" و "-" بعد التحويل - Excel إلى عرض HTML|
 |CELLSJAVA-44775|تتداخل تسميات المخطط في الرسم البياني مع عرض الصورة|
 |CELLSJAVA-44882|عرض الرسم البياني للصورة - توجد إحدى التسميات داخل المخطط الدائري المجوف|
-|CELLSJAVA-44943|XLSX إلى PDF: لم يتم عرض ملصقات المخططات بشكل صحيح|
-|CELLSJAVA-44928|XLS إلى PDF: بيانات غير كافية للصورة|
-|CELLSJAVA-44910|ينتج عن تحويل Excel إلى HTML آلاف الصور الصغيرة المتشابهة|
+|CELLSJAVA-44943|XLSX إلى PDF: لم يتم تقديم عناوين المخططات بشكل صحيح|
+|CELLSJAVA-44928|XLS إلى PDF: بيانات غير كافية لصورة|
+|CELLSJAVA-44910|تحويل Excel إلى HTML ينتج عنه آلاف الصور الصغيرة المتشابهة|
 |CELLSJAVA-44944|يؤدي تغيير حجم الجداول إلى تغيير تنسيق الخلايا|
 |CELLSJAVA-44948| لا يمكن عرض الصور في الورقة عند تحويل HTML إلى Excel|
-|CELLSJAVA-44908|استثناء "java.lang.OutOfMemoryError: Java مساحة الكومة" عند تحميل ملفات XLSB كبيرة|
+|CELLSJAVA-44908|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تحميل ملفات XLSB كبيرة|
 |CELLSJAVA-44929|الانحدار: "java.lang.NullPointerException" على Workbook.calculateFormula ()|
 |CELLSJAVA-44927|استثناء "java.lang.IndexOutOfBoundsException: الفهرس: 5 ، الحجم: 5" عند تحويل ملف Excel إلى HTML|
 |CELLSJAVA-44939|خطأ "java.lang.StringIndexOutOfBoundsException: فهرس السلسلة خارج النطاق: 0" أثناء محاولة قراءة ملف Excel|

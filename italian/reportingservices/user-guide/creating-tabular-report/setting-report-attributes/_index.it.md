@@ -30,7 +30,7 @@ Per impostare gli attributi di un rapporto tabella:
 1.  Clic**Prossimo**.
 1. Seleziona un intervallo per il rapporto.
  L'intervallo inizia con la prima cella nella riga dei dati della tabella e termina con l'ultima cella della riga del piè di pagina o, se non sono presenti piè di pagina, l'ultima cella dei dati del gruppo.
- L'indice delle celle di inizio e di fine appare nel file**Gamma** campo automaticamente. Qui, la gamma comprende celle da D4 a H8.
+ L'indice delle celle di inizio e di fine appare nel file**Allineare** campo automaticamente. Qui, la gamma comprende celle da D4 a H8.
 
    **Definizione dell'intervallo di report** 
 

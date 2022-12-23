@@ -149,7 +149,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - FATTO DOPPIO
 - FDIST
 - FILTRO
-- TROVA
+- TROVARE
 - TROVADB
 - FINV
 - PESCATORE
@@ -243,10 +243,10 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - LOGINV
 - DISTRIB.LOGNORM
 - DISTRIB.LOGNORM
-- CONSULTARE
+- CERCARE
 - MINORE
 #### **M**
-- INCONTRO
+- PARTITA
 - MASSIMO
 - MAXA
 - MAXIF
@@ -314,7 +314,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - PMT
 - POISSON
 - POISSON.DIST
-- POTENZA
+- ENERGIA
 - PPMT
 - PREZZO
 - PREZZODISC
@@ -333,7 +333,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - CASO
 - RANDBETWEEN
 - CASUALE
-- RANGO
+- CLASSIFICA
 - RANK.AVG
 - RANK.EQ
 - VOTA
@@ -344,7 +344,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - GIUSTO
 - DESTRAB
 - ROMANO
-- IL GIRO
+- TONDO
 - ARROTONDAMENTO
 - ARROTONDARE
 - RIGA
@@ -352,7 +352,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - RSQ
 #### **S**
 - RICERCA
-- CERCAB
+- CERCA B
 - SECONDO
 - SEQUENZA
 - SERIESUM
@@ -428,7 +428,7 @@ Aspose.Cells' Formula Calculation Engine consente di impostare, leggere e calcol
 - VARPA
 - VDB
 - CERCA.VERT
-#### **W**
+#### **C**
 - GIORNO SETTIMANALE
 - SETTIMANA NUM
 - WEIBULL

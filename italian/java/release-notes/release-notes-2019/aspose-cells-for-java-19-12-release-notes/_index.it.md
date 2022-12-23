@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.12.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-43047|Aggiunta del testo del suggerimento alla cella per l'esportazione in HTML|Nuova caratteristica|
 |CELLSJAVA-43002|Hot spot CPU imprevisto in ZipOutputStream all'apertura di XSLB|Aumento|
@@ -20,7 +20,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.12.
 |CELLSJAVA-43022|Errore da forma a immagine per i file XLS|Insetto|
 |CELLSJAVA-43046|LoadOptions.setParsingFormulaOnOpen(false) provoca risultati indesiderati durante la chiamata a getFormula()|Insetto|
 |CELLSJAVA-43052|Problema di convalida per i valori booleani|Insetto|
-|CELLSJAVA-43054|Problema con CSV Merge nelle impostazioni portoghesi|Insetto|
+|CELLSJAVA-43054|Problema con CSV Unisci nelle impostazioni portoghesi|Insetto|
 |CELLSJAVA-43056|Cell.setFormula() non si aggiorna per i collegamenti esterni|Insetto|
 |CELLSJAVA-42767|Immagine persa durante la conversione da Excel a PDF|Insetto|
 |CELLSJAVA-42913|Oggetti Visio incorporati visualizzati in modo errato in PDF|Insetto|
@@ -32,8 +32,8 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.12.
 |CELLSJAVA-43060|Eccezione "java.lang.NullPointerException" su Workbook.save dopo aver impostato l'origine dati esterna come vuota|Eccezione|
 |CELLSJAVA-42923|Eccezioni durante il caricamento del documento XLS|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Elimina la proprietà DataLabels.BaseField obsoleta**
 Utilizzare invece PivotField.BaseFieldIndex.
 ### **Elimina la proprietà DataLabels.BaseItem obsoleta**
@@ -73,7 +73,7 @@ Ottiene e imposta il tipo di testo a capo con adattamento automatico.
 ### **Aggiunge la classe EmfRenderSetting**
 Imposta per il rendering del metafile EMF.
 ### **Aggiunge la proprietà PdfSaveOptions.EmfRenderSetting**
-Imposta per il rendering del metafile EMF durante il rendering in un file PDF.
+Imposta il rendering del metafile EMF durante il rendering nel file PDF.
 ### **Aggiunge il metodo ShapeCollection.AddSvg()**
 Aggiunge un'immagine svg.
 ### **Aggiunge la proprietà WorkbookSettings.QuotePrefixToStyle**

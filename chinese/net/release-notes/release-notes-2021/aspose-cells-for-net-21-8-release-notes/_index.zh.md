@@ -12,7 +12,7 @@ url: /zh/net/aspose-cells-for-net-21-8-release-notes/
 
 |**钥匙**|**概括**|**类别**|
 |:- |:- |:- |
-|CELLSNET-48470|支持在将文件导出为 HTML 时缩放工作表页面|新功能|
+|CELLSNET-48470|导出文件时支持工作表页面缩放 HTML|新功能|
 |CELLSNET-41286|支持 XML 映射|新功能|
 |CELLSNET-45255|支持 Apple 的 .numbers？文件格式|新功能|
 |CELLSNET-47737|支持读取最新的 Apples .numbers 文件格式|新功能|
@@ -21,18 +21,18 @@ url: /zh/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-46412|当部署在 IIS 服务器上时，许可证在 MVC 应用程序的发布版本中不起作用|强化|
 |CELLSNET-47888|实现所需输出所需的适当 SmartMarkers|强化|
 |CELLSNET-48452|支持读取图像格式编号09 文件。|强化|
-|CELLSNET-48372|挂起保存到 html 的 XLSB 文件|表现|
+|CELLSNET-48372|继续保存到 XLSB 文件的 html|表现|
 |CELLSNET-48091|旋转的物体变形。|漏洞|
 |CELLSNET-48173|移动图表形状中的文本|漏洞|
 |CELLSNET-48241|五边形中的文字位置错误|漏洞|
 |CELLSNET-48247|转换为 pdf 时弯曲箭头消失。|漏洞|
 |CELLSNET-48363|重复计算富文本的位置，导致文本上移。|漏洞|
-|CELLSNET-47839|将 XLSX 保存为 PDF 时出现形状到图像错误|漏洞|
+|CELLSNET-47839|形状到图像保存 XLSX 到 PDF 时出错|漏洞|
 |CELLSNET-48312|输出 html 中的缩放级别有问题。|漏洞|
-|CELLSNET-48329|将范围导出为 HTML 时出现图片对齐问题|漏洞|
+|CELLSNET-48329|将范围导出到 HTML 时出现图片对齐问题|漏洞|
 |CELLSNET-48333|底部对齐范围内的表格列在转换后的 HTML 中合并|漏洞|
 |CELLSNET-48365|从数据透视表基域创建的切片器不起作用|漏洞|
-|CELLSNET-48359|从 XLS 迁移到 XLSM 后删除宏|漏洞|
+|CELLSNET-48359|从 XLS 迁移到 XLSM 后宏被删除|漏洞|
 |CELLSNET-48448|具有命名范围的图表数据源未正确解析|漏洞|
 |CELLSNET-47369|生成的 EMF 图像中图表点缺失和形状被挤压|漏洞|
 |CELLSNET-48497|将单元格链接到 XmlMap 后生成的 xlsx 文件被破坏|漏洞|
@@ -47,7 +47,7 @@ url: /zh/net/aspose-cells-for-net-21-8-release-notes/
 |CELLSNET-48460|更换后 PowerQueries 丢失|漏洞|
 |CELLSNET-48478|未加载 XML 文件内容|漏洞|
 |CELLSNET-48492|100% Stacked Bar 以及主要单位和次要单位的问题|漏洞|
-|CELLSNET-48504|转换 XLSX 时列索引无效|漏洞|
+|CELLSNET-48504|转换时列索引无效 XLSX|漏洞|
 |CELLSNET-48512|清除自动筛选器无法正常工作|漏洞|
 |CELLSNET-48477|PivotTable.CalculateData 方法抛出异常|例外|
 |CELLSNET-48395|形状到图像在文件 Display.xlsx 的 docker 环境中引发异常|例外|

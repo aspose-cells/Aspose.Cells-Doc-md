@@ -26,16 +26,16 @@ Bu hizalama ayarlarının tümü Aspose.Cells tarafından tam olarak desteklenme
 
  kullanarak herhangi bir metin hizalama türünü seçin.[**Metin Hizalama Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype) numaralandırma. Ön tanımlı metin hizalama türleri[**Metin Hizalama Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/textalignmenttype)numaralandırma şunlardır:
 
-|**Metin Hizalama Türleri**|**Tanım**|
+|**Metin Hizalama Türleri**|**Açıklama**|
 |:- |:- |
-|Alt|Alt metin hizalamasını temsil eder|
+|Alt kısım|Alt metin hizalamasını temsil eder|
 |merkez|Merkez metin hizalamasını temsil eder|
 |Merkez Boyunca|Metin hizalaması boyunca merkezi temsil eder|
 |dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
 |Doldurmak|Dolgu metni hizalamasını temsil eder|
 |Genel|Genel metin hizalamasını temsil eder|
 |Savunmak|Yaslanmış metin hizalamasını temsil eder|
-|Ayrıldı|Sola metin hizalamasını temsil eder|
+|Sol|Sola metin hizalamasını temsil eder|
 |Doğru|Doğru metin hizalamasını temsil eder|
 |Tepe|Üst metin hizalamasını temsil eder|
 |GerekçelendirilmişDüşük|Metni, Arapça metin için ayarlanmış bir kashida uzunluğuyla hizalar.|
@@ -96,7 +96,7 @@ Hücrelerdeki metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, k
 
  Okuma sırası ile ayarlanır[**Metin yönü**](https://reference.aspose.com/cells/java/com.aspose.cells/style#TextDirection) Emlak. Aspose.Cells, önceden tanımlanmış metin yönü türleri sağlar.[**Metin Yönü Türü**](https://reference.aspose.com/cells/java/com.aspose.cells/TextDirection)numaralandırma.
 
-|**Metin Yönü Türleri**|**Tanım**|
+|**Metin Yönü Türleri**|**Açıklama**|
 |:- |:- |
 |Bağlam|İlk girilen karakterin diliyle tutarlı okuma sırası|
 |Soldan sağa|Soldan sağa okuma sırası|

@@ -34,7 +34,7 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43900) – Hyperlink.TextToDisplay wird nicht aktualisiert
 
- (CELLSNET-43892) – Die XLSX-Dokumentgröße nimmt mit jedem Speichern zu
+ (CELLSNET-43892) - XLSX Die Dokumentgröße nimmt mit jedem Speichern zu
 
  (CELLSNET-43869) - Aspose.Cells kann im Medium Trust nicht ausgeführt werden
 
@@ -42,19 +42,19 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Fehler**
 
 
- (CELLSNET-43884) – Wingdings-Symbole werden beim Konvertieren bestimmter Tabellenkalkulationen in HTML nicht korrekt gerendert
+(CELLSNET-43884) – Wingdings-Symbole werden beim Konvertieren bestimmter Tabellenkalkulationen in HTML nicht korrekt gerendert
 
  (CELLSNET-43877) – Excel repariert immer die resultierende Tabelle, nachdem die PivotTable hinzugefügt wurde
 
- (CELLSNET-43831) – HTML zu Excel – CSS-Stil ignoriert
+ (CELLSNET-43831) - HTML an Excel - CSS-Stil ignoriert
 
-(CELLSNET-43750) – Diagrammänderungen in der resultierenden Tabelle nach dem Aktualisieren des Diagramms
+ (CELLSNET-43750) – Diagrammänderungen in der resultierenden Tabelle nach dem Aktualisieren des Diagramms
 
  (CELLSNET-43843) – Workbook.CalculateFormula kehrt nie zurück
 
  (CELLSNET-43842) - Aspose.Cells Zeileneinfügefehler
 
- (CELLSNET-43879) – Zeichen wurden überlappt und in ######## in Excel zur PDF-Wiedergabe konvertiert
+ (CELLSNET-43879) – Zeichen wurden überlappt und in Excel in PDF-Rendering in ######## konvertiert
 
  (CELLSNET-43854) – Hochgestellte und tiefgestellte Zeichen wurden beim Generieren von Bildern zu stark nach oben verschoben
 
@@ -64,15 +64,15 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-42380) – SmartArt-Boxen werden in Schwarz geliefert.
 
- (CELLSNET-42377) – SmartArt-Layoutüberschrift überlappt mit Unterstreichung unter Bildüberschrift.
+(CELLSNET-42377) – SmartArt-Layoutüberschrift überlappt mit Unterstreichung unter Bildüberschrift.
 
- (CELLSNET-41493) – Text wird in der generierten PDF-Datei abgeschnitten/umbrochen
+ (CELLSNET-41493) – Text wird im generierten PDF abgeschnitten/umbrochen
 
  (CELLSNET-41398) – Das Tabellenkalkulationsdokument erzeugt beim Konvertieren mehrere Dokumente
 
  (CELLSNET-43894) – OLE-Link ObjectSourceFullName konnte nicht aktualisiert werden
 
-(CELLSNET-43882) – PageSetup.Zoom hat sich nach dem Öffnen und Speichern der Arbeitsmappe geändert
+ (CELLSNET-43882) – PageSetup.Zoom hat sich nach dem Öffnen und Speichern der Arbeitsmappe geändert
 
  (CELLSNET-43881) – Einige Zellformeln gehen verloren, wenn eine Zeile kopiert wird
 
@@ -86,7 +86,7 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 
  (CELLSNET-43836) – Range.CopyData funktioniert, aber Range.Copy funktioniert nicht
 
- (CELLSNET-43830) – Das Hinzufügen von mehr als 2084 Zeichen in einem Hyperlink beschädigt die XLSX-Ausgabedatei
+(CELLSNET-43830) – Das Hinzufügen von mehr als 2084 Zeichen in einem Hyperlink beschädigt die XLSX-Ausgabedatei
 
  (CELLSNET-43829) – Excel-Funktion rendert mit #NAME? Fehler auf Blatt 1
 
@@ -94,25 +94,25 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 ## **Ausnahmen**
 
 
- (CELLSNET-43866) – CellsException beim Rendern einer Tabelle in PDF
+ (CELLSNET-43866) – CellsException beim Rendern einer Tabelle auf PDF
 
  (CELLSNET-43847) – Beim Versuch, RefreshPivotTables aufzurufen, tritt eine Ausnahme auf
 
  (CELLSNET-43852) – CellsException bei Workbook.CalculateFormula
 
-(CELLSNET-43893) – CellsException beim Rendern einer Tabelle im PDF-Format
+ (CELLSNET-43893) – CellsException beim Rendern einer Tabelle im Format PDF
 
  (CELLSNET-42108) – CellsException: Parameter ist nicht gültig: beim Konvertieren von XLS in PDF
 
  (CELLSNET-43835) – System.OutOfMemoryException beim Konvertieren einer XLS-Datei in das PDF-Dateiformat
 
- (CELLSNET-43865) – ArgumentException beim Rendern der Tabelle in PDF und HTML
+ (CELLSNET-43865) – ArgumentException beim Rendern der Tabelle auf PDF und HTML
 
  (CELLSNET-43862) – NullReferenceException bei Workbook.Save
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -132,7 +132,7 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Fügt WorkbookMetadata-Namespace und -Klassen hinzu.
 
- Es wird verwendet, um Metadaten der Datei zu lesen und zu speichern.
+Es wird verwendet, um Metadaten der Datei zu lesen und zu speichern.
 
 
 
@@ -150,6 +150,6 @@ url: /de/net/aspose-cells-for-net-8-6-0-release-notes/
 
  Fügt die OoxmlSaveOptions.UpdateZoom-Eigenschaft hinzu
 
-Es wird verwendet, um PageSetup.Zoom zu aktualisieren, wenn die Eigenschaften PageSetup.FitToPagesWide und PageSetup.FitToPagesTall steuern, wie das Arbeitsblatt skaliert wird.
+ Es wird verwendet, um PageSetup.Zoom zu aktualisieren, wenn die Eigenschaften PageSetup.FitToPagesWide und PageSetup.FitToPagesTall steuern, wie das Arbeitsblatt skaliert wird.
 
 

@@ -12,12 +12,12 @@ Microsoft Visual Studio ist eine integrierte Entwicklungsumgebung (IDE) von Micr
 
 Aspose.Cells for .NET bietet die flexibelste Gruppe von Komponenten, mit denen .NET Anwendungen Excel®-Tabellen erstellen, ändern, konvertieren, rendern und drucken können, ohne dass Microsoft Excel® auf dem Server installiert sein muss.
 
-Aspose.Cells for .NET unterstützt alle wichtigen Microsoft Excel- und andere Dateiformate, einschließlich XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tabulatorgetrennt, SpreadsheetML und PDF usw.
+Aspose.Cells for .NET supports all the major Microsoft Excel and other file formats including XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML and PDF, etc.
  Weitere Informationen zu[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Entdecken Sie Aspose.Cells for .NET Beispiele mit Visual Studio**
 
- Aspose Visual Studio-Plugin -**Entdecken Sie Aspose.Cells for .NET Beispiele** ist ein großartiges Tool zum schnellen Herunterladen und Erkunden von Aspose.Cells for .NET API Beispielen. Es spart viel Zeit und Mühe, indem es eine sehr einfache Möglichkeit bietet, die neuesten Beispielprojekte nahtlos auszuwählen, herunterzuladen und zu öffnen, ohne Ihr Visual Studio verlassen zu müssen.
+Aspose Visual Studio-Plugin -**Entdecken Sie Aspose.Cells for .NET Beispiele** ist ein großartiges Tool zum schnellen Herunterladen und Erkunden von Aspose.Cells for .NET API Beispielen. Es spart viel Zeit und Mühe, indem es eine sehr einfache Möglichkeit bietet, die neuesten Beispielprojekte nahtlos auszuwählen, herunterzuladen und zu öffnen, ohne Ihr Visual Studio verlassen zu müssen.
 
 Diese Version bietet die folgenden Funktionen:
 
@@ -81,11 +81,11 @@ Nach der Installation können Sie das interaktive Plugin wie unten beschrieben e
 
 ## **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=AZ0VxT2Ppg0) unten, um das Modul in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=AZ0VxT2Ppg0) unten, um das Modul in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 Von den ersten Tagen der Aspose wussten wir, dass es nicht ausreichen würde, unseren Kunden nur gute Produkte zu geben. Wir mussten auch einen guten Service bieten. Wir sind selbst Entwickler und verstehen, wie frustrierend es ist, wenn ein technisches Problem oder eine Macke in der Software Sie daran hindert, das zu tun, was Sie tun müssen. Wir sind hier, um Probleme zu lösen, nicht um sie zu erschaffen.
 

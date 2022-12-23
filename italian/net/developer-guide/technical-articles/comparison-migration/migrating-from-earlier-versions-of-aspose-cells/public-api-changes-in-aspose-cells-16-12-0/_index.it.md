@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 16.12.0
+title: Pubblico API Modifiche Aspose.Cells 16.12.0
 type: docs
 weight: 360
 url: /it/net/public-api-changes-in-aspose-cells-16-12-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -171,7 +171,7 @@ Debug.Assert(fileFormatInfo.FileFormatType == FileFormatType.OTS);
 
 
 ### **Aggiunta proprietà FontConfigs.PreferSystemFontSubstitutes**
-Aspose.Cells 16.12.0 ha esposto la proprietà PreferSystemFontSubstitutes per la classe FontConfigs. La proprietà FontConfigs.PreferSystemFontSubstitutes è di tipo Boolean, indicando se l'API deve utilizzare prima il meccanismo di sostituzione dei caratteri del sistema, nel caso in cui un carattere richiesto non sia presente e non sia stata definita alcuna sostituzione per il carattere specifico. Il valore predefinito della proprietà FontConfigs.PreferSystemFontSubstitutes è false.
+Aspose.Cells 16.12.0 ha esposto la proprietà PreferSystemFontSubstitutes per la classe FontConfigs. La proprietà FontConfigs.PreferSystemFontSubstitutes è di tipo Boolean, indicando se API deve utilizzare prima il meccanismo di sostituzione dei caratteri del sistema, nel caso in cui un carattere richiesto non sia presente e non sia stata definita alcuna sostituzione per il carattere particolare. Il valore predefinito della proprietà FontConfigs.PreferSystemFontSubstitutes è false.
 ### **Aggiunta la proprietà BuiltInDocumentPropertyCollection.ScaleCrop**
 Aspose.Cells 16.12.0 ha aggiunto la proprietà ScaleCrop alla classe BuiltInDocumentPropertyCollection. ScaleCrop indica la modalità di visualizzazione della miniatura del documento. L'impostazione di questo elemento su true abilita il ridimensionamento della miniatura del documento come per la visualizzazione, mentre impostandolo su false abilita il ritaglio della miniatura del documento per mostrare la sezione che si adatta alla visualizzazione.
 ### **Aggiunta la proprietà BuiltInDocumentPropertyCollection.LinksUpToDate**

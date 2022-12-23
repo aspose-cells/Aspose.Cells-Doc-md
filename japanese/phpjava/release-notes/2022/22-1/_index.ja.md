@@ -21,10 +21,10 @@ url: /ja/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 |CELLSJAVA-44130|データ ラベルのテキストは、出力グラフ イメージで折り返されます。|
 |CELLSJAVA-44204|csv のページネーションの問題|
 |CELLSJAVA-43934|グラフを操作または更新した後、円グラフのラベルが Excel と一致しない|
-|CELLSJAVA-44122|HTML をエクスポートすると、データ ラベルが Excel のデータ ラベルとは異なります|
+|CELLSJAVA-44122|HTML をエクスポートすると、データ ラベルが Excel のものとは異なります|
 |CELLSJAVA-41949|ワークブックを XLSX および HTML 形式で保存すると、コンテンツのレンダリングが異なる|
-|CELLSJAVA-44207|HTMLに書き出すと行の高さが高くなる|
-|CELLSJAVA-44233|XLSXファイル変換時の無限ループ|
+|CELLSJAVA-44207|HTMLにエクスポートすると行の高さが高くなる|
+|CELLSJAVA-44233|XLSX ファイル変換時の無限ループ|
 |CELLSJAVA-44234|ファイル data.xls のメモリ不足の問題|
 |CELLSJAVA-44246|空のファイルの「無効な endrow インデックス」例外|
 |CELLSJAVA-44258|ファイルのヌルポインタ例外|
@@ -51,7 +51,7 @@ url: /ja/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 
 ### **TxtLoadOptions.ExtendToNextSheet プロパティを追加します。**
 
-データの行数または列数が ms Excel の制限を超えた場合に、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
+データの行数または列数が ms Excel の制限を超える場合、CSV/TSV データを複数のワークシートにインポートすることをサポートします。
 
 ### **ExternalLinkCollection.Clear() メソッドを追加します。**
 

@@ -6,9 +6,9 @@ url: /it/java/sort-data-in-xlsx4j/
 ---
 ## **Aspose.Cells - Ordina dati**
 Per ordinare i dati nel foglio di calcolo utilizzando Aspose.Cells, è sufficiente richiamare il metodo DataSorter.sorter() dopo aver impostato alcune proprietà facili da impostare dell'area della cella.
-Il codice Java è menzionato di seguito:
+Java si riporta di seguito:
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

@@ -10,7 +10,7 @@ url: /tr/java/create-slicer-to-excel-table/
 
 ## **Excel Tablosuna Dilimleyici Oluşturma**
 
- Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](sampleCreateSlicerToExcelTable.xlsx) içeren bir tablodur. Ardından, ilk sütuna göre dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıktı XLSX](outputCreateSlicerToExcelTable.xlsx) biçim.
+ Lütfen aşağıdaki örnek koda bakın. o yükler[örnek excel dosyası](sampleCreateSlicerToExcelTable.xlsx) içeren bir tablodur. Ardından, ilk sütuna göre dilimleyiciyi oluşturur. Son olarak, çalışma kitabını şuraya kaydeder:[çıkış XLSX](outputCreateSlicerToExcelTable.xlsx) biçim.
 
 ## **Basit kod**
 

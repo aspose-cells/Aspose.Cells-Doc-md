@@ -12,6 +12,6 @@ Il file di output generato dal codice di esempio è allegato per riferimento.
 
 [File di uscita](WorkingWithContentTypeProperties_out.xlsx)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-WorkingWithContentTypeProperties-1.java" >}}

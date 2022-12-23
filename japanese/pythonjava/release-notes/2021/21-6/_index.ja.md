@@ -21,15 +21,15 @@ url: /ja/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 |CELLSJAVA-43491|データ テーブルを使用した数式の値が正しく抽出されない|
 |CELLSJAVA-43498|数値のフォーマットされた結果が zh_CN ロケールで正しくない|
 |CELLSJAVA-43451|Excel ファイルの内容が正しく表示されず、ChangeStyle (Spring) のデモが正しく動作しない|
-|CELLSJAVA-43484|Excel から PDF へのレンダリングでコンテンツ レイアウトに一貫性がない|
-|CELLSJAVA-43465|Excel から PDF への変換中にいくつかのグラフが欠落している|
-|CELLSJAVA-43468|Excel から PDF へのレンダリングにおける直線の方程式に関する問題|
+|CELLSJAVA-43484|Excel のコンテンツ レイアウトが PDF レンダリングに一貫性がない|
+|CELLSJAVA-43465|Excel を PDF に変換する際に、いくつかの一連のグラフが欠落している|
+|CELLSJAVA-43468|PDF レンダリングへの Excel の直線の方程式に関する問題|
 |CELLSJAVA-43432|XLS ファイル形式を再保存するとグラフの内容が一致しない|
 |CELLSJAVA-43475|回帰: 行でラップされたセルが切り取られる|
-|CELLSJAVA-43478|回帰: NUMBERS から PDF へ、大量のデータが欠落|
-|CELLSJAVA-43485|リグレッション: ODS から PDF をレンダリングするときの余分なコンテンツ|
+|CELLSJAVA-43478|回帰: NUMBERS から PDF まで、多くのデータが欠落しています|
+|CELLSJAVA-43485|リグレッション: ODS から PDF をレンダリングする際の余分なコンテンツ|
 |CELLSJAVA-43492|XML (SpreadsheetML) ファイルを変換すると、出力 XLS および XLSX の「名前定義」の非表示設定が削除される|
-|CELLSJAVA-43486|HTML ドキュメントを Workbook に変換するときの NullPointerException|
+|CELLSJAVA-43486|HTML ドキュメントをワークブックに変換するときの NullPointerException|
 
 ## **Public API および下位互換性のない変更**
 

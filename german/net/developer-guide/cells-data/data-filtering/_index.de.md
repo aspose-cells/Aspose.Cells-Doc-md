@@ -29,7 +29,7 @@ Einige der Autofilter-Optionen sind:
 
 |**Optionen**|**Beschreibung**|
 |:- |:- |
-|Alle|Alle Elemente in der Liste einmal anzeigen.|
+|Alles|Alle Elemente in der Liste einmal anzeigen.|
 |Brauch|Passen Sie Filterkriterien wie enthält/enthält nicht an|
 |Nach Farbe filtern|Filter basierend auf gefüllter Farbe|
 |Datumsfilter|Filtert Zeilen basierend auf verschiedenen Kriterien nach Datum|
@@ -43,7 +43,7 @@ Benutzer filtern ihre Arbeitsblattdaten in Microsoft Excel mithilfe dieser Optio
 
 Aspose.Cells stellt eine Klasse Workbook bereit, die eine Excel-Datei darstellt. Die Workbook-Klasse enthält eine Worksheets-Auflistung, die den Zugriff auf jedes Arbeitsblatt in der Excel-Datei ermöglicht.
 
-Ein Arbeitsblatt wird durch die Worksheet-Klasse repräsentiert. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Verwenden Sie zum Erstellen eines Autofilters die AutoFilter-Eigenschaft der Worksheet-Klasse. Die AutoFilter-Eigenschaft ist ein Objekt der AutoFilter-Klasse, die die Range-Eigenschaft bereitstellt, um den Zellbereich anzugeben, aus dem eine Überschriftenzeile besteht. Ein Autofilter wird auf den Zellenbereich angewendet, der die Überschriftenzeile darstellt.
+Ein Arbeitsblatt wird durch die Worksheet-Klasse dargestellt. Die Worksheet-Klasse bietet eine Vielzahl von Eigenschaften und Methoden zum Verwalten von Arbeitsblättern. Verwenden Sie zum Erstellen eines Autofilters die AutoFilter-Eigenschaft der Worksheet-Klasse. Die AutoFilter-Eigenschaft ist ein Objekt der AutoFilter-Klasse, die die Range-Eigenschaft bereitstellt, um den Zellbereich anzugeben, aus dem eine Überschriftenzeile besteht. Ein Autofilter wird auf den Zellenbereich angewendet, der die Überschriftenzeile darstellt.
 
 In jedem Arbeitsblatt können Sie nur einen Filterbereich angeben. Dies wird durch Microsoft Excel begrenzt. Verwenden Sie für die benutzerdefinierte Datenfilterung die AutoFilter.Custom-Methode.
 
@@ -82,7 +82,7 @@ Manchmal sind dynamische Filter basierend auf dem Datum erforderlich, wie alle Z
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-Processing-Filtering-AutofilterDynamicFilter-1.cs" >}}
 
-##### **Nummer**
+##### **Anzahl**
 
 Benutzerdefinierte Filter können mit Aspose.Cells angewendet werden, z. B. das Auswählen von Zellen mit einer Nummer zwischen einem bestimmten Bereich. Das folgende Beispiel zeigt die Verwendung der Custom()-Funktion zum Filtern von Zahlen. Beispieldateien sind unten angegeben.
 

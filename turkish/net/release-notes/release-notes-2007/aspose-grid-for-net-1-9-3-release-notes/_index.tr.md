@@ -12,7 +12,7 @@ url: /tr/net/aspose-grid-for-net-1-9-3-release-notes/
 
  Değerli Müşterilerimiz, Aspose.Grid v1.9.3 sürümünü yayınladık!
 
- giriiş
+ Giriş
  Bu yeni sürüm, v1.9.2'den bu yana tüm yeni özellikleri ve düzeltmeleri içerir
 
  Ne var ne yok?

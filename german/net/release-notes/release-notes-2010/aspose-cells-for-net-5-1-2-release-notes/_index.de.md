@@ -35,10 +35,10 @@ url: /de/net/aspose-cells-for-net-5-1-2-release-notes/
 |**Problem-ID** |**Komponente** |**Zusammenfassung** |
 |:- |:- |:- |
 |18841 | Diagramm2Bild| Bereich/Diagramm drucken|
-|19065 | Pdf| Konvertierung in PDF über Aspose.Cells Verkleinert den Text|
-|19024 | Pdf| Das Aussehen und Verhalten des generierten PDF ist nicht dasselbe wie in Excel|
-|19170 | Pdf| SaveAs PDF-Problem – Beschädigtes PDF|
-|19048 | SpreadML|Fehler beim Konvertieren von Excel2003XML in XLSX|
+|19065 | Pdf| Umwandlung in PDF bis Aspose.Cells Verkleinert den Text|
+|19024 | Pdf| Look and Feel des generierten PDF ist nicht dasselbe wie Excel|
+|19170 | Pdf|SaveAs PDF Problem – Beschädigte PDF|
+|19048 | SpreadML| Fehler beim Konvertieren von Excel2003XML in XLSX|
 |18848 | XLs| Kombinieren Sie mit Diagrammen, was zu einer Nichtübereinstimmung des Diagrammbereichs führt|
 |18791 | XLs| Problem mit bedingter Formatierung ab Version 4.8.1|
 |19052 | XLs| Kopieren Sie Excel mit Ereignishandler für die Befehlsschaltfläche|

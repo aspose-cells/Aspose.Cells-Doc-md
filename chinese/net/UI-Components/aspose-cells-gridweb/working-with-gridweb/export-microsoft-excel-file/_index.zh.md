@@ -37,15 +37,15 @@ url: /zh/net/export-microsoft-excel-file/
 
 {{% /alert %}} 
 
-上面的代码片段可以以多种方式使用。一种常见的方法是添加一个按钮，单击该按钮可将网格内容保存到 Excel 文件中。 Aspose.Cells.GridWeb 提供了一种更简单的任务方法。 Aspose.Cells.GridWeb 有一个名为 SaveCommand 的事件。上面的代码片段可以添加到 SaveCommand 事件的事件处理程序中，它允许用户通过单击 Aspose.Cells.GridWeb 的内置**节省**按钮。
+上面的代码片段可以以多种方式使用。一种常见的方法是添加一个按钮，单击该按钮可将网格内容保存到 Excel 文件中。 Aspose.Cells.GridWeb 提供了一种更简单的任务方法。 Aspose.Cells.GridWeb 有一个名为 SaveCommand 的事件。上面的代码片段可以添加到 SaveCommand 事件的事件处理程序中，它允许用户通过单击 Aspose.Cells.GridWeb 的内置**救球**按钮。
 
 **GridWeb 的 SaveCommand 事件** 
 
-![待办事项：图像_替代_文本](export-microsoft-excel-file_1.jpg)
+![待办事项：图片_替代_文本](export-microsoft-excel-file_1.jpg)
 
 **通过单击 GridWeb 的内置保存按钮将网格内容保存到 Excel** 
 
-![待办事项：图像_替代_文本](export-microsoft-excel-file_2.png)
+![待办事项：图片_替代_文本](export-microsoft-excel-file_2.png)
 
 {{% alert color="primary" %}} 
 

@@ -14,7 +14,7 @@ Bir tablo raporunun niteliklerini ayarlamak için:
 
 1.  Tıklamak**Özniteliği Ayarla**Aspose.Cells.Report.Designer araç çubuğunda (
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_1.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_1.png)
 
 ).
 
@@ -22,7 +22,7 @@ Bir tablo raporunun niteliklerini ayarlamak için:
 
    **Rapor adının ayarlanması** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_2.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_2.png)
 
 
 
@@ -34,7 +34,7 @@ Bir tablo raporunun niteliklerini ayarlamak için:
 
    **Rapor aralığını tanımlama** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_3.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_3.png)
 
 
 
@@ -45,7 +45,7 @@ Veri kümesinin tüm alanları, iletişim kutusunun sol panelinde listelenir.
 
    **Verileri gruplandırmak için alanları seçme** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_4.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_4.png)
 
 
 
@@ -55,7 +55,7 @@ Veri kümesinin tüm alanları, iletişim kutusunun sol panelinde listelenir.
 
    **Verileri şuna göre sıralamak için alanları seçme:** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_5.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_5.png)
 
 
 
@@ -65,6 +65,6 @@ Veri kümesinin tüm alanları, iletişim kutusunun sol panelinde listelenir.
  Raporun bir özeti görüntülenir.
    **Rapor özeti** 
 
-![yapılacaklar:resim_alternatif_Metin](setting-report-attributes_6.png)
+![yapılacaklar:resim_alternatif_metin](setting-report-attributes_6.png)
 
 1.  Tıklamak**Bitiş**.

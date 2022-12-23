@@ -6,7 +6,7 @@ url: /fr/java/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Vous pouvez utiliser Aspose.Cells pour définir la propriété AutoRecover du classeur. La valeur par défaut de cette propriété est**vrai** . Lorsque vous le réglez**faux**sur un classeur, Microsoft Excel désactive la récupération automatique (enregistrement automatique) sur ce fichier Excel.
+Vous pouvez utiliser Aspose.Cells pour définir la propriété AutoRecover du classeur. La valeur par défaut de cette propriété est**vrai** . Lorsque vous le réglez**faux** sur un classeur, Microsoft Excel désactive la récupération automatique (enregistrement automatique) sur ce fichier Excel.
 
  Aspose.Cells fournit[**Classeur.getSettings().setAutoRecover()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbooksettings#AutoRecover) propriété pour activer ou désactiver cette option.
 

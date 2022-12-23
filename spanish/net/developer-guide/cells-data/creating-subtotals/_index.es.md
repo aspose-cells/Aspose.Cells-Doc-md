@@ -20,7 +20,7 @@ Para agregar subtotales en Microsoft Excel:
 
 ## **Usando el Aspose.Cells API**
 
- Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. los[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
+ Aspose.Cells proporciona una clase,[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , que representa un archivo de Excel Microsoft. Él[**Libro de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la clase contiene un[**Hojas de trabajo**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)colección que permite el acceso a cada hoja de trabajo en el archivo de Excel.
 
  Una hoja de trabajo está representada por el[**Hoja de cálculo**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) clase. La clase proporciona una amplia gama de propiedades y métodos para administrar hojas de trabajo y otros objetos. Cada hoja de trabajo consta de un[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) recopilación. Para agregar subtotales a una hoja de trabajo, use el[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/cells) clase'[**Total parcial**](https://reference.aspose.com/cells/net/aspose.cells/cells/methods/subtotal/index)método. Proporcione valores de parámetros al método para especificar cómo se debe calcular y colocar el subtotal.
 

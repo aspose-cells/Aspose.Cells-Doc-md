@@ -98,7 +98,7 @@ url: /ru/java/protect-and-unprotect-worksheet/
 
 ### **Защитить строку на листе**
 
- Aspose.Cells позволяет легко заблокировать любую строку на листе. Здесь мы можем использовать[**применить стиль ()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) метод[**Строка**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) класс, чтобы применить стиль к определенной строке на листе. Этот метод принимает два аргумента:[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объект и[**СтильФлаг**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, в которой есть все элементы, связанные с применяемым форматированием.
+ Aspose.Cells позволяет легко заблокировать любую строку на листе. Здесь мы можем использовать[**применить стиль ()**](https://reference.aspose.com/cells/java/com.aspose.cells/row#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) метод[**Строка**](https://reference.aspose.com/cells/java/com.aspose.cells/Row) класс, чтобы применить стиль к определенной строке на листе. Этот метод принимает два аргумента:[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объект и[**СтильФлаг**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, в которой есть все элементы, связанные с примененным форматированием.
 
 В следующем примере показано, как защитить строку на листе. Он сначала разблокирует все ячейки на листе, а затем заблокирует первую строку в нем. Наконец, он защищает рабочий лист. Строка/столбец имеет стиль API, который дополнительно содержит метод setCellLocked. Вы можете заблокировать или разблокировать строку/столбец, используя структуру StyleFlag.
 
@@ -106,7 +106,7 @@ url: /ru/java/protect-and-unprotect-worksheet/
 
 ### **Защитить столбец на листе**
 
- Aspose.Cells позволяет легко заблокировать любой столбец на листе. Здесь мы можем использовать[**применить стиль ()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) метод[**Столбец**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) класс, чтобы применить стиль к определенному столбцу на листе. Этот метод принимает два аргумента:[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объект и[**СтильФлаг**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, в которой есть все элементы, связанные с применяемым форматированием.
+ Aspose.Cells позволяет легко заблокировать любой столбец на листе. Здесь мы можем использовать[**применить стиль ()**](https://reference.aspose.com/cells/java/com.aspose.cells/column#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag) ) метод[**Столбец**](https://reference.aspose.com/cells/java/com.aspose.cells/Column) класс, чтобы применить стиль к определенному столбцу на листе. Этот метод принимает два аргумента:[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объект и[**СтильФлаг**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) struct, в которой есть все элементы, связанные с примененным форматированием.
 
 В следующем примере показано, как защитить столбец на листе. Сначала он разблокирует все ячейки на листе, а затем заблокирует первый столбец в нем. Наконец, он защищает рабочий лист. Строка/столбец имеет стиль API, который дополнительно содержит набор заблокированных методов. Вы можете заблокировать или разблокировать строку/столбец, используя структуру StyleFlag.
 
@@ -114,7 +114,7 @@ url: /ru/java/protect-and-unprotect-worksheet/
 
 ## **Снять защиту листа**
 
-[Защита рабочих листов](/cells/ru/java/protect-and-unprotect-worksheet/#protect-worksheets) а также[Дополнительные параметры защиты начиная с Excel XP](/cells/ru/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) обсудили различные подходы к защите рабочих листов. Что делать, если разработчику необходимо снять защиту с защищенного рабочего листа во время выполнения, чтобы можно было внести некоторые изменения в файл? Это легко сделать по номеру Aspose.Cells.
+[Защита рабочих листов](/cells/ru/java/protect-and-unprotect-worksheet/#protect-worksheets) и[Дополнительные параметры защиты начиная с Excel XP](/cells/ru/java/protect-and-unprotect-worksheet/#advanced-protection-settings-since-excel-xp) обсудили различные подходы к защите рабочих листов. Что делать, если разработчику необходимо снять защиту с защищенного рабочего листа во время выполнения, чтобы можно было внести некоторые изменения в файл? Это легко сделать по номеру Aspose.Cells.
 
 ### **Использование Microsoft Excel**
 
@@ -190,7 +190,7 @@ Aspose.Cells поддерживают все расширенные настро
 
 {{% alert color="primary" %}}
 
-Сохраните файл в формате EXCEL97TO2003 или XLSX, поскольку эти дополнительные параметры защиты поддерживаются только в MS Excel XP и более поздних версиях.
+Сохраните файл в формате EXCEL97TO2003 или XLSX, так как эти дополнительные параметры защиты поддерживаются только в MS Excel XP и более поздних версиях.
 
 {{% /alert %}}
 

@@ -12,9 +12,9 @@ Microsoft Excel admite dos sistemas de fechas: el sistema de fechas de 1900 (el 
 
 Para implementar el sistema de fecha 1904 en Microsoft Excel (por ejemplo, Microsoft Excel 2003):
 
-1.  Desde el**Instrumentos** menú, seleccione**Opciones** y seleccione el**Cálculo** pestaña.
+1.  Desde el**Herramientas** menú, seleccione**Opciones** y seleccione el**Cálculo** pestaña.
 1.  Selecciona el**sistema de fecha de 1904** opción.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
 
 |**Selección del sistema de fecha de 1904 en Microsoft Excel**|
 |:- |

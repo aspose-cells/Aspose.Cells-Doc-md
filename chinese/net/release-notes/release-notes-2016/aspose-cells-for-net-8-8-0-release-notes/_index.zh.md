@@ -8,19 +8,19 @@ url: /zh/net/aspose-cells-for-net-8-8-0-release-notes/
 
 |**钥匙** |**概括** |**类别** |
 |:- |:- |:- |
-|CELLSNET-44376 |提供在从 HTML 导入时禁止将长数值转换为指数表示法的功能|新功能|
+|CELLSNET-44376 |提供从 HTML 导入时禁止将长数值转换为指数表示法的功能|新功能|
 |CELLSNET-44360 |检测单元格中的前导单引号|新功能|
 |CELLSNET-44356 |获取 ExternalConnection 的目标或输出单元格地址|新功能|
 |CELLSNET-44340 |支持客户端验证的本地化（德语）|新功能|
 |CELLSNET-44345 |将 XLS 转换为 XLSB 时，艺术字的公式不会对参数更改做出反应|强化|
 |CELLSNET-44342 |将单页电子表格转换为 PDF 时，进程似乎挂起 100% CPU 使用率|表现|
-|CELLSNET-44324 |XLSM 在重新填充数据并刷新数据透视表后损坏|漏洞|
-|CELLSNET-44312 |导入 HTML 和导出到电子表格时换行符丢失|漏洞|
+|CELLSNET-44324 |XLSM 重新填充数据并刷新数据透视表后损坏|漏洞|
+|CELLSNET-44312 |导入 HTML 并导出到电子表格时换行符丢失|漏洞|
 |CELLSNET-44311 |导入 HTML 和导出到电子表格时边框丢失|漏洞|
 |CELLSNET-44286 |Sample1.xlsx 在打开和刷新后损坏|漏洞|
 |CELLSNET-44375 |目标 (CSV) 文件的编码不正确|漏洞|
 |CELLSNET-44368 |将 Excel 转换为 PDF 时出现百万数字格式问题|漏洞|
-|CELLSNET-44347 |API 为一个工作表呈现两个 PDF 页面，而不管将 OnePagePerSheet 设置为 true|漏洞|
+|CELLSNET-44347 |API 为一个工作表呈现两个 PDF 页，而不管将 OnePagePerSheet 设置为 true|漏洞|
 |CELLSNET-44335 |渲染电子表格时文本被修剪|漏洞|
 |CELLSNET-44382 |图表未在输出 Excel 文件中正确生成|漏洞|
 |CELLSNET-44373 |渲染图像中项目符号列表（形状）的对齐问题|漏洞|
@@ -30,11 +30,11 @@ url: /zh/net/aspose-cells-for-net-8-8-0-release-notes/
 |CELLSNET-44369 |# 参考！将包含对命名单元格的引用的单元格从一个工作簿复制到另一个工作簿后
 |漏洞|
 |CELLSNET-44359 |从受保护的电子表格中删除密码会更改嵌入的对象名称|漏洞|
-|CELLSNET-44348 |将 HTML 转换为电子表格格式时，数字会四舍五入|漏洞|
+|CELLSNET-44348 |将 HTML 转换为电子表格格式时，数字四舍五入|漏洞|
 |CELLSNET-44330 |打开 Excel 文件时对象引用未设置异常|例外|
 |CELLSNET-44323 |对象引用未设置为 PivotTable.RefreshData 中的对象实例|例外|
 |CELLSNET-44355 |将 Excel 转换为 PDF 时索引超出数组异常范围|例外|
-|CELLSNET-44354 |形状到图像将 Excel 转换为 PDF 时出错|例外|
+|CELLSNET-44354 |将 Excel 转换为图像时出现形状到图像错误 PDF|例外|
 |CELLSNET-44380 |通过 Aspose.Cells API 加载特定 Excel 文件时出现“无效公式”|例外|
 |CELLSNET-44370 |打开 Excel 文件时出现“页眉页脚图像的无效 sectionId”|例外|
 |CELLSNET-44357 | System.ArgumentException：已在工作簿构造函数中添加项目|例外|
@@ -44,7 +44,7 @@ url: /zh/net/aspose-cells-for-net-8-8-0-release-notes/
 |:- |:- |:- |
 |CELLSNET-44350 |为 GridWeb 添加会话超时警报|新功能|
 |CELLSNET-44339 |500 内部错误：“Cell 中的错误：无效的公式”通过在 GridWeb UI 中插入无效的公式|例外|
-|CELLSNET-44326 |单击单元格会将格式化文本更改为其 HTML 源代码|漏洞|
+|CELLSNET-44326 |单击单元格会将格式化文本更改为其 HTML 来源|漏洞|
 |CELLSNET-44325 |GridWeb 更改数据验证 List/dropdown 的内容|漏洞|
 |CELLSNET-44321 |当通过它添加行或列时，上下文菜单会长大|漏洞|
 |CELLSNET-44320 |通过上下文菜单添加行和列不起作用|漏洞|

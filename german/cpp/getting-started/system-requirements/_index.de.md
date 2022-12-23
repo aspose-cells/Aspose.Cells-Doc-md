@@ -44,7 +44,7 @@ Sie können Aspose.Cells for C++ verwenden, wenn Sie Anwendungen für Windows od
 
 ### Linux
 
-Aspose.Cells for C++ kann verwendet werden, um Anwendungen in der Entwicklungsumgebung zu entwickeln, die C++11 oder höher unterstützen, aber die folgenden Compiler und Tools werden explizit unterstützt:
+Aspose.Cells for C++ kann verwendet werden, um Anwendungen in der Entwicklungsumgebung zu entwickeln, die C++11 oder höher unterstützen, aber die folgenden Compiler und Tools werden ausdrücklich unterstützt:
 
 <table>  
 	<tr>

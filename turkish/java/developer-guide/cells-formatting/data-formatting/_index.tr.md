@@ -48,7 +48,7 @@ Bu yaklaşım, uygulamalarınızın verimliliğini büyük ölçüde artırabili
 
 **Degrade Dolgu Efektlerini Uygulama** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_1.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_1.png)
 
 
 
@@ -64,7 +64,7 @@ Hücreleri biçimlendirmek için Microsoft Excel'i kullanan herkes, Microsoft Ex
 
 **Microsoft Excel'deki hizalama ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_2.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_2.png)
 
 Yukarıdaki şekilde görebileceğiniz gibi, farklı hizalama seçenekleri vardır:
 
@@ -84,16 +84,16 @@ Aspose.Cells, setStyle yöntemini sağlar.[Cell](https://reference.aspose.com/ce
 
 TextAlignmentType numaralandırmasını kullanarak herhangi bir metin hizalama türünü seçin. TextAlignmentType numaralandırmasındaki önceden tanımlanmış metin hizalama türleri şunlardır:
 
-|**Metin Hizalama Türleri**|**Tanım**|
+|**Metin Hizalama Türleri**|**Açıklama**|
 |:- |:- |
-|Alt|Alt metin hizalamasını temsil eder|
+|Alt kısım|Alt metin hizalamasını temsil eder|
 |merkez|Merkez metin hizalamasını temsil eder|
 |Merkez Boyunca|Metin hizalaması boyunca merkezi temsil eder|
 |dağıtılmış|Dağıtılmış metin hizalamasını temsil eder|
 |Doldurmak|Dolgu metni hizalamasını temsil eder|
 |Genel|Genel metin hizalamasını temsil eder|
 |Savunmak|Yaslanmış metin hizalamasını temsil eder|
-|Ayrıldı|Sola metin hizalamasını temsil eder|
+|Sol|Sola metin hizalamasını temsil eder|
 |Doğru|Doğru metin hizalamasını temsil eder|
 |Tepe|Üst metin hizalamasını temsil eder|
 {{% alert color="primary" %}} 
@@ -108,7 +108,7 @@ Aşağıdaki çıktı, aşağıdaki örnek kodu çalıştırarak elde edilir:
 
 **Metni yatay olarak hizalama** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_3.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_3.png)
 
 
 
@@ -126,7 +126,7 @@ VerticalAlignment merkeze ayarlandığında aşağıdaki çıktı elde edilir.
 
 **Metni dikey olarak hizalama** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_4.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_4.png)
 
 
 
@@ -144,7 +144,7 @@ IndentLevel 2 olarak ayarlandığında aşağıdaki çıktı elde edilir.
 
 **Girinti seviyesi 2'ye ayarlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_5.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_5.png)
 
 
 
@@ -162,7 +162,7 @@ Dönme açısı 25 olarak ayarlandığında aşağıdaki çıkış elde edilir.
 
 **Dönüş açısı 25 olarak ayarlandı** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_6.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_6.png)
 
 
 
@@ -184,7 +184,7 @@ Metin kaydırma etkinleştirildiğinde aşağıdaki çıktı elde edilir.
 
 **Hücrenin içine sarılmış metin** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_7.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_7.png)
 
 
 
@@ -202,7 +202,7 @@ Metin hücreye sığacak şekilde küçültüldüğünde aşağıdaki çıktı e
 
 **Metin, hücrenin sınırları içine sığacak şekilde küçültüldü** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_8.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_8.png)
 
 
 
@@ -220,7 +220,7 @@ Microsoft Excel gibi, Aspose.Cells de birkaç hücrenin tek hücrede birleştiri
 
 **Büyük bir hücre oluşturmak için üç hücre birleştirildi** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_9.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_9.png)
 
  Kullan[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) koleksiyonun Hücreleri birleştirmek için Merge yöntemi. Merge yöntemi aşağıdaki parametreleri alır:
 
@@ -243,7 +243,7 @@ Hücrelerdeki metnin okuma sırasını ayarlamak mümkündür. Okuma sırası, k
 
  Okuma sırası ile ayarlanır[stil](https://reference.aspose.com/cells/java/com.aspose.cells/style) nesnenin TextDirection özelliği. Aspose.Cells, TextDirectionType numaralandırmasında önceden tanımlanmış metin yönü türleri sağlar.
 
-|**Metin Yönü Türleri**|**Tanım**|
+|**Metin Yönü Türleri**|**Açıklama**|
 |:- |:- |
 |Bağlam|İlk girilen karakterin diliyle tutarlı okuma sırası|
 |Soldan sağa|Soldan sağa okuma sırası|
@@ -264,7 +264,7 @@ Metnin okuma sırası sağdan sola doğru ayarlanırsa aşağıdaki çıktı eld
 
 **Metin okuma sırasını sağdan sola ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_10.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_10.png)
 ## **Cell'de Seçili Karakterleri Biçimlendirme**
 [Yazı Tipi Ayarlarıyla Başa Çıkma](/cells/tr/java/dealing-with-font-settings/)hücrelerin nasıl biçimlendirileceğini, ancak yalnızca tüm hücrelerin içeriğinin nasıl biçimlendirileceğini açıkladı. Yalnızca seçili karakterleri biçimlendirmek isterseniz ne olur?
 
@@ -281,7 +281,7 @@ Cell sınıfı, bir hücrede bir dizi karakter seçmek için aşağıdaki parame
 
 **Seçilen karakterleri biçimlendirme** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_11.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_11.png)
 
 
 
@@ -297,7 +297,7 @@ Cell sınıfı, bir hücrede bir dizi karakter seçmek için aşağıdaki parame
 
 {{% alert color="primary" %}} 
 
- Eğer ilgileniyorsanız[[hücre] içindeki Zengin Metnin bir bölümünü biçimlendirme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) , Cell.getCharacters & Cell.setCharacters yöntemlerini kullanmayı düşünün. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**almak** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**Ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
+ Eğer ilgileniyorsanız[[hücre] içindeki Zengin Metnin bir bölümünü biçimlendirme](/cells/tr/java/access-and-update-the-portions-of-rich-text-of-cell/) , Cell.getCharacters & Cell.setCharacters yöntemlerini kullanmayı düşünün. Cell.getCharacters metodu ile metnin bölümlerine ulaşılır ve sonrasında Cell.setCharacters metodu ile değişiklikler yapılabilir.**elde etmek** yöntemi, yazı tipi adı, yazı tipi rengi, kalınlık vb. çeşitli özellikleri ayarlamak için kullanılabilecek bir FontSetting nesneleri dizisi döndürür ve**ayarlamak** Yöntem, değişiklikleri uygulamak için kullanılabilir.
 
 {{% /alert %}} 
 ## **Sayfaları Etkinleştirme ve Cell Etkinleştirme veya Çalışma Sayfasında Cells Aralık Seçme**
@@ -313,7 +313,7 @@ Aşağıdaki örnek, bir çalışma sayfasının nasıl etkinleştirileceğini v
 
 **B2 hücresini aktif hücre olarak ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](data-formatting_12.png)
+![yapılacaklar:resim_alternatif_metin](data-formatting_12.png)
 
 
 
@@ -382,7 +382,7 @@ Cells koleksiyonu, bir Sütun koleksiyonu sağlar. Columns koleksiyonundaki her 
 
 
 
-#### **Satırlar ve Sütunlar İçin Sayıların ve Tarihlerin Görüntüleme Biçimini Ayarlama**
+#### **Satırlar ve Sütunlar için Numbers ve Tarihlerin Görüntüleme Biçimini Ayarlama**
 Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görüntülenme biçimini ayarlamaksa, süreç aşağı yukarı yukarıda tartışılanla aynıdır, ancak metin içerikleri için parametreler ayarlamak yerine, sayılar için biçimlendirmeyi ayarlıyor olacaksınız. ve Style.Number veya Style.Custom kullanarak tarihler. Lütfen unutmayın, Style.Number özelliği tamsayı türündedir ve yerleşik sayı ve tarih biçimlerini ifade eder, oysa Style.Custom özelliği dize türündedir ve geçerli kalıpları kabul eder.
 
 
@@ -399,6 +399,6 @@ Gereksinim, tam bir satır veya sütun için sayıların ve tarihlerin görünt�
 
 {{% alert color="primary" %}} 
 
- Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Sayıların ve [Tarihlerin] Görüntü Biçimlerini Ayarlama](/cells/tr/java/data-formatting/).
+ Lütfen adresindeki ayrıntılı makaleyi kontrol edin.[Numbers ve [Tarihler] Ekran Formatlarını Ayarlama](/cells/tr/java/data-formatting/).
 
 {{% /alert %}}

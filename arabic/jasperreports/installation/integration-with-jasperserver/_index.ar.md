@@ -81,7 +81,7 @@ url: /ar/jasperreports/integration-with-jasperserver/
 
 
 
-1.  انسخ جميع صور GIF من ملف**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى*<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ images* مجلد.
+1.  انسخ جميع الصور GIF من ملف**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى*<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ images* مجلد.
 1.  انسخ ال**aspose.cells.jasperreports.jar** ملف من**\ ليب** مجلد في**aspose.cells.jasperreports.zip** الى**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ lib \.** مجلد.
 1.  أضف الأسطر التالية إلى ملف**<InstallDir> \ apache-tomcat \ webapps \ jasperserver \ WEB-INF \ applicationContext.xml** ملف.
  (قد تحتوي هذه الوحدة على إعدادات تكوين مختلفة تهدف إلى تكوين التصدير. على سبيل المثال ، يمكنك استخدام ميزة تعيين خط JasperReports أو تحديد موقع ملف ترخيص Aspose.Cells for JasperReports.)

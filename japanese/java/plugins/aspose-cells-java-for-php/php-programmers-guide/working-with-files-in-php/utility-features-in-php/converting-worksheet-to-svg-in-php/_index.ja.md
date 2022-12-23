@@ -1,13 +1,13 @@
 ﻿---
-title: PHP でワークシートを SVG に変換する
+title: PHPでワークシートをSVGに変換する
 type: docs
 weight: 60
 url: /ja/java/converting-worksheet-to-svg-in-php/
 ---
-## **Aspose.Cells - ワークシートを SVG に変換する**
+## **Aspose.Cells - ワークシートを SVG に変換中**
 PHP で Aspose.Cells for Java を使用してワークシートを SVG に変換するには、ワークシートを呼び出すだけです。_に_Converter モジュールの svg() メソッド。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -55,6 +55,6 @@ for($i=0; $i < $sheetCount; $i++)
 
 {{< /highlight >}}
 ## **実行中のコードをダウンロード**
-ダウンロード**ワークシートを SVG に変換する (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
+ダウンロード**ワークシートを SVG に変換中 (Aspose.Cells)**以下のソーシャルコーディングサイトのいずれかから：
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithFiles/UtilityFeatures/ConvertingWorksheetToSVG.php)

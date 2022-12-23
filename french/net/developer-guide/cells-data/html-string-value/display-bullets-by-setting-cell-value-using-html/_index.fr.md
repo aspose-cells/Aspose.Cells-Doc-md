@@ -1,5 +1,5 @@
 ﻿---
-title: Afficher les puces en définissant la valeur Cell en utilisant HTML
+title: Afficher les puces en définissant la valeur Cell à l'aide de HTML
 type: docs
 weight: 130
 url: /fr/net/display-bullets-by-setting-cell-value-using/
@@ -8,7 +8,7 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells prend en charge l'affichage des puces avec du code HTML. Cet article explique comment afficher les puces en définissant la valeur de la cellule à l'aide de HTML. Nous utiliserons[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) propriété pour définir la valeur de la cellule avec notre code HTML.
+Aspose.Cells prend en charge l'affichage des puces avec le code HTML. Cet article explique comment afficher les puces en définissant la valeur de la cellule à l'aide de HTML. Nous utiliserons[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) propriété pour définir la valeur de la cellule avec notre HTML.
 
 {{% /alert %}}
 

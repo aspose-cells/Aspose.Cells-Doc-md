@@ -24,7 +24,7 @@ Bir tasarımcı elektronik tablosu, Microsoft Excel kullanılarak oluşturulan v
 
 **Tasarımcı e-tablosu**
 
-![yapılacaklar:resim_alternatif_Metin](what-is-a-designer-spreadsheet_1.png)
+![yapılacaklar:resim_alternatif_metin](what-is-a-designer-spreadsheet_1.png)
 
 ### **Bu nasıl kullanılır?**
 
@@ -32,6 +32,6 @@ Bir tasarımcı elektronik tablosu, Microsoft Excel kullanılarak oluşturulan v
 
 ### **Akıllı İşaretleyiciler**
 
- Ek olarak, Aspose.Cells, eklemenizi sağlar[akıllı işaretleyiciler](/cells/tr/python-net/smart-markers/)tasarımcı e-tablosuna. Akıllı işaretçiler çalışma zamanında WorkbookDesigner sınıfının Process yöntemi kullanılarak işlenir. Bu, daha az kod yazmanıza ve yine de harika sonuçlar almanıza yardımcı olabilir.
+ Ek olarak, Aspose.Cells, eklemenizi sağlar[akıllı işaretleyiciler](/cells/tr/python-net/smart-markers/) tasarımcı e-tablosuna. Akıllı işaretçiler çalışma zamanında WorkbookDesigner sınıfının Process yöntemi kullanılarak işlenir. Bu, daha az kod yazmanıza ve yine de harika sonuçlar almanıza yardımcı olabilir.
 
 [Akıllı işaretleyiciler hakkında daha fazla bilgi edinin](/cells/tr/python-net/smart-markers/).

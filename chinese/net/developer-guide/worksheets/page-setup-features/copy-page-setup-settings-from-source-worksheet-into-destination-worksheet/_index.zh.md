@@ -6,7 +6,7 @@ url: /zh/net/copy-page-setup-settings-from-source-worksheet-into-destination-wor
 ---
 ## **可能的使用场景**
 
-当您将新工作表添加到工作簿时，它包含默认值*页面设置设置*.有时您可能需要传输设置（[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)从一个工作表到另一个工作表。本文档说明如何使用 Aspose.Cells API 将页面设置设置从一个工作表复制到另一个工作表。
+当您将新工作表添加到工作簿时，它包含默认值*页面设置设置*.有时您可能需要传输设置（[**页面设置**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) 从一个工作表到另一个工作表。本文档说明如何使用 Aspose.Cells API 将页面设置设置从一个工作表复制到另一个工作表。
 
 ## **将源工作表中的页面设置设置复制到目标工作表**
 

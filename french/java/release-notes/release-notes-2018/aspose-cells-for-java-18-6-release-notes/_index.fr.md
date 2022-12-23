@@ -10,7 +10,7 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.6.
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42339|Implémenter le tri de données personnalisé dans le rapport de tableau croisé dynamique via les API Aspose.Cells|Nouvelle fonctionnalité|
 |CELLSJAVA-42625|L'implémentation de la fonctionnalité MS Excel 'Watch Window'|Nouvelle fonctionnalité|
@@ -18,21 +18,21 @@ Cette page contient les notes de version pour Aspose.Cells for Java 18.6.
 |CELLSJAVA-42646|Exception : "FormulaBuild](/p Jeton de formule inconnu0" sur Name.getRefersTo()|Renforcement|
 |CELLSJAVA-42645|Exception : "FormulaBuild Plus d'un jeton dans la pile...." sur Cell.getFormula()|Renforcement|
 |CELLSJAVA-42516|Aspose.Cells accepte et corrige une formule invalide|Renforcement|
-|CELLSJAVA-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel vers le rendu HTML|Punaise|
+|CELLSJAVA-42636|Certaines formes de dessin sont déplacées ou mal rendues dans Excel au rendu HTML|Punaise|
 |CELLSJAVA-42627|CELLSJAVA-42619 - Impossible d'extraire correctement les images Smart Art|Punaise|
-|CELLSJAVA-42618|La forme est déplacée pour couvrir les données dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42618|La forme est déplacée pour couvrir les données dans Excel au rendu HTML|Punaise|
 |CELLSJAVA-42628|Le calcul des formules est erroné, par exemple, il génère #DIV/0 ! les erreurs|Punaise|
-|CELLSJAVA-42615|Cell Le format A3 n'est pas correct dans le HTML de sortie|Punaise|
-|CELLSJAVA-42621|Mauvaises performances lors de la génération d'un fichier PDF à partir d'un fichier MS Excel|Punaise|
-|CELLSJAVA-42620|XLSX vers TIFF - exception NoClassDefFoundError|Punaise|
+|CELLSJAVA-42615|Cell Le format A3 n'est pas correct dans la sortie HTML|Punaise|
+|CELLSJAVA-42621|Mauvaises performances lors de la génération du fichier PDF à partir d'un fichier MS Excel|Punaise|
+|CELLSJAVA-42620|XLSX à TIFF - exception NoClassDefFoundError|Punaise|
 |CELLSJAVA-42599|Les images sont perdues lorsque le fichier Excel est converti en PDF|Punaise|
 |CELLSJAVA-42630|La méthode Chart.calculate provoque OutOfMemoryError|Punaise|
 |CELLSJAVA-42623|La mémoire augmente dans le rendu du fichier Excel au format de fichier PDF|Punaise|
 |CELLSJAVA-42592|La taille de la police a changé sur le titre du graphique en raison de la méthode characters()|Punaise|
-|CELLSJAVA-41860|L'effet d'ombre est modifié lors de la ré-enregistrement de XLS|Punaise|
-|CELLSJAVA-42654|Conversion Excel en PDF - la conversion ne se termine jamais|Punaise|
+|CELLSJAVA-41860|L'effet d'ombre est modifié lors de la ré-enregistrement XLS|Punaise|
+|CELLSJAVA-42654|Conversion d'Excel en PDF - la conversion ne se termine jamais|Punaise|
 |CELLSJAVA-42647|Impossible d'obtenir ou de définir un texte alternatif pour la forme de commentaire|Punaise|
-|CELLSJAVA-42644|Aspose.Cells se bloque lors de la conversion d'un fichier ml de feuille de calcul (xml) en PDF avec une balise Styles à fermeture automatique|Punaise|
+|CELLSJAVA-42644|Aspose.Cells se bloque lors de la conversion d'un fichier ml de feuille de calcul (xml) en PDF avec la balise Styles à fermeture automatique|Punaise|
 |CELLSJAVA-42632|Impossible de définir un texte alternatif pour la forme SmartArt|Punaise|
 |CELLSJAVA-42631|getFirstVisibleRow() et getFirstVisibleColumn() renvoyant des indices invalides|Punaise|
 |CELLSJAVA-42624|Les hyperliens avec des symboles codés (tels que "% 5c") sont décodés après réenregistrement|Punaise|

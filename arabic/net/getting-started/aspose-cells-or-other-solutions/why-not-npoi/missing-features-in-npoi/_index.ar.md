@@ -22,7 +22,7 @@ url: /ar/net/missing-features-in-npoi/
   - [تحويل الرسم البياني إلى صور](/cells/ar/net/convert-chart-to-images/)
   - [إنشاء الرسوم البيانية](/cells/ar/net/create-charts/)
 - [العمل مع أوراق العمل في Aspose.Cells](/cells/ar/net/working-with-worksheets-in-aspose-cells/)
-  - [احفظ كل ورقة عمل في ملف PDF مختلف](/cells/ar/net/save-each-worksheet-to-different-pdf/)
+  - [احفظ كل ورقة عمل في PDF مختلف](/cells/ar/net/save-each-worksheet-to-different-pdf/)
   - [قم بتعيين لون علامة تبويب ورقة العمل في Aspose.Cells](/cells/ar/net/set-worksheet-tab-color-in-aspose-cells/)
 
 **ملحوظة:** العديد من الأمثلة ليست متاحة بعد قريبًا.

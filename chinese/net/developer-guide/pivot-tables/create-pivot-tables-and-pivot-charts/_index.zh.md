@@ -10,7 +10,7 @@ url: /zh/net/create-pivot-tables-and-pivot-charts/
 
 数据透视图是数据透视表中数据的交互式图形表示。数据透视图是在 Excel 2000 中引入的。使用数据透视图可以更轻松地理解数据，因为数据透视表会自动创建小计和总计。
 
- Aspose.Cells 支持[数据透视表](/cells/zh/net/create-pivot-tables-and-pivot-charts/)和[数据透视表](/cells/zh/net/create-pivot-tables-and-pivot-charts/).
+ Aspose.Cells 支持[数据透视表](/cells/zh/net/create-pivot-tables-and-pivot-charts/)和[数据透视图](/cells/zh/net/create-pivot-tables-and-pivot-charts/).
 
 {{% /alert %}}
 

@@ -12,7 +12,7 @@ url: /ru/java/custom-slice-or-sector-colors-in-pie-chart/
 
 Чтобы установить пользовательский цвет для отдельных сегментов или секторов круговой диаграммы:
 
-1.  Доступ к[**Серии**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) объекты[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
+1.  Доступ к[**Ряд**](https://reference.aspose.com/cells/java/com.aspose.cells/Series) объекты[**Диаграмма**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint).
 1.  Назначьте цвет по вашему выбору с помощью[**ChartPoint.getArea().setForegroundColor()**](https://reference.aspose.com/cells/java/com.aspose.cells/area#ForegroundColor)метод.
 
 В этой статье также объясняется, как установить:

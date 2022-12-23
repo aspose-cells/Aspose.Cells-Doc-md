@@ -16,6 +16,6 @@ Aspose.Cells也提供了这个功能，并暴露了[**Picture.setSignatureLine()
 
 以下示例代码使用[**Picture.setSignatureLine()**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#SignatureLine)属性并保存工作簿。屏幕截图显示了输出工作簿在 Microsoft Excel 中的样子。
 
-![待办事项：图像_替代_文本](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
+![待办事项：图片_替代_文本](create-signature-line-in-an-excel-workbook-using-aspose-cells_1.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateSignatureLine-CreateSignatureLine.java" >}}

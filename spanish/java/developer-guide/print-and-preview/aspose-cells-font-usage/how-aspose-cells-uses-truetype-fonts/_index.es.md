@@ -8,7 +8,7 @@ url: /es/java/how-aspose-cells-uses-truetype-fonts/
 
 Aspose.Cells requiere fuentes TrueType al representar hojas de cálculo en formatos como PDF, XPS e imágenes.
 
-Cuando Aspose.Cells representa una hoja de cálculo, requiere acceso a las fuentes TrueType utilizadas en la hoja de cálculo. Esta es una práctica normal durante la generación de PDF, XPS e imágenes y garantiza que el documento o la imagen convertidos parezcan idénticos para cualquier espectador.
+Cuando Aspose.Cells representa una hoja de cálculo, requiere acceso a las fuentes TrueType utilizadas en la hoja de cálculo. Esta es una práctica normal durante PDF, XPS y la generación de imágenes y garantiza que el documento o la imagen convertidos parezcan idénticos para cualquier espectador.
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Aspose.Cells intenta encontrar fuentes TrueType en el sistema de archivos autom�
 
 ### **Problemas típicos relacionados con fuentes y soluciones**
 
-Esta tabla enumera algunos de los problemas que puede encontrar al convertir hojas de cálculo en PDF utilizando Aspose.Cells y sus soluciones.
+Esta tabla enumera algunos de los problemas que puede encontrar al procesar hojas de cálculo en PDF usando Aspose.Cells y sus soluciones.
 
 {{% alert color="primary" %}}
 

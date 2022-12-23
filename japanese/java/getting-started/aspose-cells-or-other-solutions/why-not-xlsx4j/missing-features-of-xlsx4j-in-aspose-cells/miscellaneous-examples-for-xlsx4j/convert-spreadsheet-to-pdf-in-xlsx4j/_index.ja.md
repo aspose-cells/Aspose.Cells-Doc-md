@@ -1,5 +1,5 @@
 ﻿---
-title: スプレッドシートをxlsx4jでPDFに変換
+title: xlsx4j でスプレッドシートを PDF に変換する
 type: docs
 weight: 10
 url: /ja/java/convert-spreadsheet-to-pdf-in-xlsx4j/

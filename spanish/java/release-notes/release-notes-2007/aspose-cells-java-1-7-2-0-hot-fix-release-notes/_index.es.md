@@ -16,6 +16,6 @@ url: /es/java/aspose-cells-java-1-7-2-0-hot-fix-release-notes/
 
 - Admite agregar una imagen al encabezado/pie de página de la configuración de la página
  Admite la importación de configuración de página, nombre, protección, validación de datos y propiedades del documento desde el archivo SpreadsheetML
- Admite exportar configuración de página, nombre, protección, validación de datos y propiedades del documento a un archivo de hoja de cálculo ML
+ Admite exportar configuración de página, nombre, protección, validación de datos y propiedades del documento al archivo SpreadsheetML
  Admite calcular más funciones integradas
  Corrige el error de establecer el color automático de la fuente en el gráfico.

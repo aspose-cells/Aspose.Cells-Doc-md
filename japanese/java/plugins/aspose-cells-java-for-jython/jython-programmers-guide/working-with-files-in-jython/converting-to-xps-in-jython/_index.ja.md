@@ -1,10 +1,10 @@
 ﻿---
-title: Jython での XPS への変換
+title: Jython で XPS に変換する
 type: docs
 weight: 30
 url: /ja/java/converting-to-xps-in-jython/
 ---
-## **Aspose.Cells - XPS への変換**
+## **Aspose.Cells - XPS に変換中**
 を使用してドキュメントを追加するには**Aspose.Cells Jython の場合は Java**.ここでサンプルコードを見ることができます。
 
 **Jython コード**

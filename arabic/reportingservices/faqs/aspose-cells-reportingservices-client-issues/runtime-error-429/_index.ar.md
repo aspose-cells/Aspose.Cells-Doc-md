@@ -16,7 +16,7 @@ url: /ar/reportingservices/runtime-error-429/
 
 1. قم بتشغيل cmd.exe كمسؤول.
 1. cd $ (مجلد تثبيت Aspose.Cells for Reporting Services).
-1.  نفذ - اعدم**regasm.exe** للتسجيل**Aspose.Cells.ReportingServices.Client.dll** يدويا.
+1.  ينفذ**regasm.exe** للتسجيل**Aspose.Cells.ReportingServices.Client.dll** يدويا.
 
 {{< highlight "java" >}}
 
@@ -24,7 +24,7 @@ url: /ar/reportingservices/runtime-error-429/
 
 {{< /highlight >}}
 
- يرجى التحقق من بيئة التشغيل لنظامك. فمثلا:
+ يرجى التحقق من بيئة التشغيل لنظامك. على سبيل المثال:
 
 -  إذا كان Microsoft Office الخاص بك هو x64 ، فقم بتشغيل الأمر
 

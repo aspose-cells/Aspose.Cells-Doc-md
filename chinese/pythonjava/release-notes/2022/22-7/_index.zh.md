@@ -20,7 +20,7 @@ url: /zh/python-java/aspose-cells-for-python-via-java-22-7-release-notes/
 |CELLSJAVA-44717|边框（线）样式问题|
 |CELLSJAVA-44707|边框线不显示|
 |CELLSJAVA-44670|输出 HTML 中的公式问题 - Excel 到 HTML 的转换|
-|CELLSJAVA-44202|导出为 HTML 时，图表中的图例与 MS Excel 不一样|
+|CELLSJAVA-44202|导出到HTML时，图表中的图例与MS Excel不一样|
 |CELLSJAVA-44591|标签的文本旋转与图表输出图像中的 Excel 不匹配|
 |CELLSJAVA-44655|无法显示具有负值的 Treemap 图表导致执行继续运行|
 |CELLSJAVA-44686|当 Title.IsAutoText 为真时，图表 (2016) 的标题文本不正确|

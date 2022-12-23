@@ -6,7 +6,7 @@ url: /de/net/specify-document-version-of-the-excel-file-using-builtin-document-p
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Sie können die ändern**Versionsnummer** der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann Eigenschaften > Details auswählen und dann die bearbeiten**Versionsnummer** aufstellen. Bitte verwende[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
+ Sie können die ändern**Versionsnummer** der Excel-Datei, indem Sie mit der rechten Maustaste auf die Datei klicken und dann Eigenschaften > Details auswählen und dann die bearbeiten**Versionsnummer** Gebiet. Bitte verwende[**BuiltInDocumentPropertyCollection.DocumentVersion**](https://reference.aspose.com/cells/net/aspose.cells.properties/builtindocumentpropertycollection/properties/documentversion)-Eigenschaft, um sie programmgesteuert mithilfe von Aspose.Cells-APIs zu ändern.
 
 ## **Geben Sie die Dokumentversion der Excel-Datei mithilfe der integrierten Dokumenteigenschaften an**
 

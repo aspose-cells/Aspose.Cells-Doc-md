@@ -24,13 +24,13 @@ url: /it/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 
  Problemi risolti in Aspose.Cells for Reporting Services 1.5.2.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
-|16478 | Componente server| Problema nella riga di intestazione del report matrice dopo l'esportazione nel file XLSX|
+|16478 | Componente server| Problema nella riga di intestazione del rapporto matrice dopo l'esportazione nel file XLSX|
 |16170 | Componente server| Aspose.Cells for Reporting Services - Problemi vari|
-|16248 | Componente server| L'esportazione XLSX non funziona correttamente|
+|16248 | Componente server| XLSX l'esportazione non funziona correttamente|
 |16239 | Componente server| Ridenominazione delle opzioni a discesa nel Visualizzatore report|
 |16202 | Componente server| Non funziona correttamente durante l'esportazione in Excel 2007|
 |16169 | Componente server| Supporto per le estensioni di rendering SSRS in modalità integrata SharePoint?|
-|15972 | Componente server| Le intestazioni della tabella Matrix non arrivano dopo l'esportazione nel file XLSX|
+|15972 | Componente server| Le intestazioni della tabella della matrice non arrivano dopo l'esportazione nel file XLSX|
 

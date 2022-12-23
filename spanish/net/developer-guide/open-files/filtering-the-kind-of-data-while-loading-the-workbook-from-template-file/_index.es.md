@@ -10,11 +10,11 @@ url: /es/net/filtering-the-kind-of-data-while-loading-the-workbook-from-template
 
 {{% /alert %}}
 
-El siguiente código de ejemplo carga solo objetos de forma mientras carga el libro de trabajo desde el[archivo de plantilla](5115552.xlsx) que se puede descargar desde el enlace dado. La siguiente captura de pantalla muestra la[archivo de plantilla](5115552.xlsx) contenido y también explica que los datos en color rojo y fondo amarillo no se cargarán porque[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)la propiedad se ha establecido en[**LoadDataFilterOptions.Forma**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
+El siguiente código de ejemplo carga solo objetos de forma mientras carga el libro de trabajo desde el[archivo de plantilla](5115552.xlsx) que se puede descargar desde el enlace dado. La siguiente captura de pantalla muestra la[archivo de plantilla](5115552.xlsx)contenido y también explica que los datos en color rojo y fondo amarillo no se cargarán porque[**LoadOptions.LoadFilter**](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)la propiedad se ha establecido en[**LoadDataFilterOptions.Forma**](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)
 
 ![todo:imagen_alternativa_texto](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_1.png)
 
-La siguiente captura de pantalla muestra la[PDF de salida](5115555.pdf) que se puede descargar desde el enlace dado. Aquí puede ver que los datos en color rojo y fondo amarillo no están presentes, pero todas las formas están ahí.
+La siguiente captura de pantalla muestra la[salida PDF](5115555.pdf) que se puede descargar desde el enlace dado. Aquí puede ver que los datos en color rojo y fondo amarillo no están presentes, pero todas las formas están ahí.
 
 ![todo:imagen_alternativa_texto](filtering-the-kind-of-data-while-loading-the-workbook-from-template-file_2.png)
 

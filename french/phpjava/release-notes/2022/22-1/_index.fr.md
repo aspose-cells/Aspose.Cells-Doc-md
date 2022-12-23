@@ -10,7 +10,7 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-44162|Support pour supprimer le lien externe sans supprimer les formules|
 |CELLSJAVA-44214|Prise en charge de l'ajustement automatique des lignes pour GridWeb|
@@ -21,9 +21,9 @@ url: /fr/php-java/aspose-cells-for-php-via-java-22-1-release-notes/
 |CELLSJAVA-44130|Le texte des étiquettes de données s'enroule dans l'image du graphique de sortie|
 |CELLSJAVA-44204|problème de pagination pour csv|
 |CELLSJAVA-43934|Les étiquettes du graphique à secteurs ne correspondent pas à Excel après la manipulation ou la mise à jour du graphique|
-|CELLSJAVA-44122|Lors de l'exportation HTML, les étiquettes de données sont différentes de celles d'Excel|
+|CELLSJAVA-44122|Lors de l'export HTML, les étiquettes de données sont différentes de celle d'Excel|
 |CELLSJAVA-41949| Le contenu s'affiche différemment lors de l'enregistrement du classeur aux formats XLSX et HTML|
-|CELLSJAVA-44207|Lors de l'exportation au format HTML, la hauteur de ligne devient plus élevée|
+|CELLSJAVA-44207|Lors de l'exportation vers HTML, la hauteur de ligne devient plus élevée|
 |CELLSJAVA-44233|Boucle infinie lors de la conversion du fichier XLSX|
 |CELLSJAVA-44234|Problème de mémoire insuffisante pour le fichier data.xls|
 |CELLSJAVA-44246|Exception "Invalid endrow index" pour un fichier vide|

@@ -7,7 +7,7 @@ url: /tr/net/show-report-filter-pages-option/
 ## **Rapor filtre sayfaları seçeneğini göster**
 Excel, özet tablolar oluşturmayı, rapor filtreleri eklemeyi ve "Rapor Filtresi Sayfalarını Göster" seçeneğini etkinleştirmeyi destekler. Aspose.Cells ayrıca, oluşturulan pivot tabloda "Rapor Filtre Sayfalarını Göster" seçeneğini etkinleştirmek için bu özelliği destekler. Excel'de "Rapor Filtre Sayfalarını Göster" seçeneğini gösteren ekran aşağıdadır.
 
-![yapılacaklar:resim_alternatif_Metin](show-report-filter-pages-option_1.png)
+![yapılacaklar:resim_alternatif_metin](show-report-filter-pages-option_1.png)
 
 Örnek kodu test etmek için örnek kaynak dosyası ve çıktı dosyaları buradan indirilebilir:
 

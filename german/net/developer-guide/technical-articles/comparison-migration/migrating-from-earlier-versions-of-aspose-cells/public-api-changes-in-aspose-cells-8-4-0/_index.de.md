@@ -177,7 +177,7 @@ Aspose.Cells for .NET 8.4.0 hat die TxtLoadStyleStrategy-Klasse und die TxtLoadO
 Mit der Veröffentlichung von v8.4.0 hat der Aspose.Cells API die DataBar.ToImage-Methode bereitgestellt, um die bedingt formatierten DataBars im Bildformat zu speichern. Die Methode {DataBar.ToImage}} akzeptiert zwei Parameter, wie unten beschrieben.
 
 - Der erste Parameter ist vom Typ Aspose.Cells.Cell, auf den bedingte Formatierung angewendet wurde.
-- Der zweite Parameter ist vom Typ Aspose.Cells.Rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes festzulegen.
+- Der zweite Parameter ist vom Typ Aspose.Cells.Rendering.ImageOrPrintOptions, um verschiedene Parameter des resultierenden Bildes einzustellen.
 
 Der folgende Beispielcode veranschaulicht die Verwendung der DataBar.ToImage-Methode zum Rendern des DataBar im Bildformat.
 
@@ -261,7 +261,7 @@ workbook.Save("output.xlsx");
 
 
 ### **Eigenschaft HtmlSaveOptions.CellCssPrefix Hinzugefügt**
-Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfixes für die CSS-Dateien beim Exportieren von Tabellenkalkulationen in das HTML-Format.
+Die neu hinzugefügte Eigenschaft HtmlSaveOptions.CellCssPrefix ermöglicht das Festlegen des Präfixes für die CSS-Dateien beim Exportieren von Tabellenkalkulationen in das Format HTML.
 
 {{% alert color="primary" %}} 
 

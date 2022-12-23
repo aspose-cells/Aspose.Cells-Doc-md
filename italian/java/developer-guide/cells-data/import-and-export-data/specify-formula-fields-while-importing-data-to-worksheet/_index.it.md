@@ -14,6 +14,6 @@ url: /it/java/specify-formula-fields-while-importing-data-to-worksheet/
 
 ![cose da fare:immagine_alt_testo](specify-formula-fields-while-importing-data-to-worksheet_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Data-SpecifyFormulaFieldsWhileImportingDataToWorksheet.java" >}}

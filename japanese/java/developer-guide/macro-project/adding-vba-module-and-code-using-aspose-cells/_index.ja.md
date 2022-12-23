@@ -12,7 +12,7 @@ Aspose.Cells を使用すると、Aspose.Cells を使用して新しい VBA モ�
 
 ## **Aspose.Cells を使用して VBA モジュールとコードを追加する**
 
-次のサンプル コードは、新しいワークブックを作成し、新しい VBA モジュールとマクロ コードを追加して、出力を XLSM 形式で保存します。一度、出力された XLSM ファイルを Microsoft Excel で開き、**開発者 > Visual Basic**メニュー コマンドを実行すると、"TestModule" という名前のモジュールが表示され、その中に次のマクロ コードが表示されます。
+次のサンプル コードは、新しいワークブックを作成し、新しい VBA モジュールとマクロ コードを追加して、出力を XLSM 形式で保存します。一度、出力 XLSM ファイルを Microsoft Excel で開き、**開発者 > Visual Basic**メニュー コマンドを実行すると、"TestModule" という名前のモジュールが表示され、その中に次のマクロ コードが表示されます。
 
 {{< highlight "java" >}}
 
@@ -26,6 +26,6 @@ End Sub
 
 ## サンプルコード
 
-以下は、VBA モジュールとマクロ コードを使用して出力 XLSM ファイルを生成するサンプル コードです。
+VBA モジュールとマクロ コードを使用して出力 XLSM ファイルを生成するサンプル コードを次に示します。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

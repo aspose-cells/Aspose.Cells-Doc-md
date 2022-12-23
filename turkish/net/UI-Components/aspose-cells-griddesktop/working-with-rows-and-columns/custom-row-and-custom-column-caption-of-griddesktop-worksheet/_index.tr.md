@@ -11,7 +11,7 @@ Aşağıdaki örnek kod, ICustomRowCaption ve ICustomColumnCaption arabirimlerin
 
 
 
-![yapılacaklar:resim_alternatif_Metin](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](custom-row-and-custom-column-caption-of-griddesktop-worksheet_1.png)
 
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithRowsandColumns-Form_CustomRowAndCustomColumnCaptionOfGridDesktopWorksheet.cs" >}}

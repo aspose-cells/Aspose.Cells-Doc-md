@@ -6,7 +6,7 @@ url: /ru/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Возможные сценарии использования**
 
- Aspose.Cells API-интерфейсы раскрыли[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)класс, чтобы иметь дело со сценариями, когда пользователь хочет использовать настраиваемые метки для промежуточных итогов в электронной таблице. Более того,[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)класс также может быть использован для изменения**Другой** метка для круговой диаграммы при отображении рабочего листа или диаграммы.
+ Aspose.Cells API-интерфейсы раскрыли[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)класс, чтобы иметь дело со сценариями, когда пользователь хочет использовать настраиваемые метки для промежуточных итогов в электронной таблице. Более того,[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) класс также может быть использован для изменения**Другой** метка для круговой диаграммы при отображении рабочего листа или диаграммы.
 
 ## **Введение в класс GlobalizationSettings**
 
@@ -18,7 +18,7 @@ url: /ru/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Пользовательские метки для промежуточных итогов**
 
-[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) можно использовать для настройки меток промежуточных итогов путем переопределения[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)методы, как показано выше.
+[**Настройки глобализации**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)можно использовать для настройки меток промежуточных итогов путем переопределения[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)методы, как показано выше.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 

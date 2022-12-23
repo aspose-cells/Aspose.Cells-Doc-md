@@ -1,5 +1,5 @@
 ﻿---
-title: Fenêtre de l'éditeur de formules
+title: Fenêtre de l'éditeur de formule
 type: docs
 weight: 20
 url: /fr/reportingservices/formula-editor-window/
@@ -19,7 +19,7 @@ Pour modifier une formule dans une cellule Excel Microsoft :
 1.  Sélectionnez une catégorie (utilisateur, paramètres, champs, etc.) dans la**Champs de rapport** liste (la liste de gauche).
 1.  Sélectionnez le type dans le**Les fonctions** liste (au milieu).
 1.  Sélectionnez une option dans la**Les opérateurs** liste (la liste de droite).
-1.  Cliquez sur**Insérer**pour ajouter l'expression au**Éditer** Région.
+1.  Cliquez sur**Insérer**pour ajouter l'expression au**Éditer** surface.
 1.  Cliquez sur**Insérer** lorsque l'expression est complète.
  La formule est insérée dans la cellule.
 
@@ -29,7 +29,7 @@ Pour modifier une formule dans une cellule Excel Microsoft :
 
 La boîte de dialogue Modifier la formule est divisée en sections, décrites ci-dessous.
 #### **Modifier la zone**
- Il s'agit de la zone dans laquelle vous créez ou modifiez une formule. Créez une formule en double-cliquant sur l'un des composants répertoriés dans la**Champs de rapport**, **Les fonctions** ou**Les opérateurs** listes. Lorsque vous choisissez un composant, la syntaxe requise est également insérée. Vous pouvez également saisir manuellement une formule.
+ Il s'agit de la zone dans laquelle vous créez ou modifiez une formule. Créez une formule en double-cliquant sur l'un des composants répertoriés dans la**Champs de rapport**, **Les fonctions** ou alors**Les opérateurs** listes. Lorsque vous choisissez un composant, la syntaxe requise est également insérée. Vous pouvez également saisir manuellement une formule.
 #### **Zone de formule**
 La zone de formule contient trois sections, chacune répertoriant les informations utilisées pour créer une formule.
 
@@ -39,12 +39,12 @@ La zone de formule contient trois sections, chacune répertoriant les informatio
 #### **Les contrôles**
 La boîte de dialogue comporte plusieurs contrôles :
 
-|**Nom du bouton** |**La description** |
+|**Nom du bouton** |**Description** |
 |:- |:- |
 | annuler| Annule une action.|
 | Pâte| Colle une chaîne de caractères composée des composants répertoriés dans la zone de formule dans la zone d'édition.|
 | Insérer| Prend la valeur dans la zone d'édition et l'insère sous forme de formule dans une cellule.|
-| Sortir| Ferme l'Editeur de formule.|
+| Sortir| Ferme l'Editeur de formules.|
 {{% alert color="primary" %}} 
 
 Rubriques connexes:

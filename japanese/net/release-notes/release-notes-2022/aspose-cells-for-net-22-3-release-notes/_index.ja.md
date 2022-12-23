@@ -22,7 +22,7 @@ url: /ja/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50462|回帰: セルの範囲をコピーした後、数式が失われます|
 |CELLSNET-50545|条件付きで書式設定されたフィールドが正しい色で表示されない|
 |CELLSNET-50565|数式が正しく計算されませんでした|
-|CELLSNET-50309|PNG までの範囲: 出力が期待どおりにならない|
+|CELLSNET-50309|PNG までの範囲: 出力が期待どおりではありません|
 |CELLSNET-50334|リグレッション: XLS から PDF: ヘッダーが正しくレンダリングされない|
 |CELLSNET-50367|.XLSX から PDF への変換には時間がかかり、余分なページが生成されます|
 |CELLSNET-50401|数値または数値の後に行項目が続く結果の PDF に表示されない|
@@ -30,13 +30,13 @@ url: /ja/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50507|Xml インポートは、テンプレートで以前に非表示にした列を再表示します|
 |CELLSNET-50554|Excel から PDF への変換でコンテンツが正しく表示されない|
 |CELLSNET-50316|PDF の生成時に、ラップされたテキストがグラフで機能しない|
-|CELLSNET-50411|グラフの横軸ラベルが出力 PDF で正しくレンダリングされない|
+|CELLSNET-50411|グラフの横軸ラベルが出力で正しく表示されない PDF|
 |CELLSNET-50341|複数レベルのグループの折りたたみと展開に関する問題|
-|CELLSNET-50368|ODS から PDF への変換が正しくない|
-|CELLSNET-50377|カスタムの「テキスト」書式が XLS ファイルに適用されない|
+|CELLSNET-50368|ODS から PDF への変換が正しくありません|
+|CELLSNET-50377|XLS ファイルにカスタムの「テキスト」書式が適用されない|
 |CELLSNET-50380|ImportTableOptions.IsHtmlString プロパティがリンクを正しく出力しない|
 |CELLSNET-50418|ワークブックに HTML をロードできない|
-|CELLSNET-50494|出力 XLSX ファイル内の条件付きで書式設定されたセルの色に関する問題|
+|CELLSNET-50494|出力 XLSX ファイルの条件付きで書式設定されたセルの色に関する問題|
 |CELLSNET-50563|.NET 6.0 アプリケーションで埋め込みライセンスを単一ファイルを生成するように設定する際の問題|
 |CELLSNET-50585|URL を含む外部リンクにはスラッシュは使用しないがバック スラッシュを使用する|
 |CELLSNET-50390|System.ArgumentException: JSON データをテーブルとしてインポートする場合、行番号または列番号をゼロにすることはできません|

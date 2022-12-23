@@ -10,7 +10,7 @@ Hay diferentes números de filas y columnas compatibles con los formatos de Exce
 
 ## **Encuentre filas y columnas máximas compatibles con los formatos XLS y XLSX**
 
-El siguiente código de ejemplo crea un libro de trabajo primero en formato XLS y luego en formato XLSX. Después de la creación, imprime los valores de[**Libro de trabajo.Configuración.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y[**Libro de trabajo.Configuración.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)propiedades. Consulte la salida de la consola del código que se proporciona a continuación para su referencia.
+El siguiente código de ejemplo crea el libro de trabajo primero en formato XLS y luego en formato XLSX. Después de la creación, imprime los valores de[**Libro de trabajo.Configuración.MaxRow**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxrow) y[**Libro de trabajo.Configuración.MaxColumn**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/maxcolumn)propiedades. Consulte la salida de la consola del código que se proporciona a continuación para su referencia.
 
 ## **Código de muestra**
 

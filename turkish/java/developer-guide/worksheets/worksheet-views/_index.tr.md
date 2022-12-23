@@ -16,7 +16,7 @@ Normal görünüm, çalışma sayfasının varsayılan görünümüdür. Sayfa s
 
  Bir çalışma sayfası şununla temsil edilir:[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf. bu[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)yöntem.
 #### **Normal Görünümü Etkinleştirme**
-kullanarak herhangi bir çalışma sayfasını normal görünüme ayarlayın.[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf ve geçiş**yanlış** parametre olarak.
+kullanarak herhangi bir çalışma sayfasını normal görünüme ayarlayın.[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview) yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf ve geçiş**YANLIŞ** parametre olarak.
 #### **Sayfa Sonu Önizlemesini Etkinleştirme**
 kullanarak herhangi bir çalışma sayfasını sayfa sonu önizlemesine ayarlayın.[setPageBreakÖnizleme](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#IsPageBreakPreview)yöntemi[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf ve geçiş**doğru**parametre olarak.
 
@@ -26,13 +26,13 @@ Aşağıdaki ekran görüntüsünde Book1.xls dosyasının Normal Görünümde o
 
 **Book1.xls: Değişiklikten önceki çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_1.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_1.png)
 
  Book1.xls ile açılır[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve mod, ilk çalışma sayfası için sayfa sonu önizlemesine geçer. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Çıktı.xls: değişiklikten sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_2.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-worksheets-PageBreakPreview-PageBreakPreview.java" >}}
 ## **Yakınlaştırma Faktörü**
@@ -40,7 +40,7 @@ Microsoft Excel, kullanıcıların bir çalışma sayfasının yakınlaştırma 
 
 **Microsoft Excel kullanarak Yakınlaştırma Faktörünü Ayarlama** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_3.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_3.png)
 
 Aspose.Cells, geliştiricilerin çalışma sayfası yakınlaştırma faktörünü ayarlamasına da olanak tanır.
 ### **Yakınlaştırma Faktörünü Kontrol Etme**
@@ -54,13 +54,13 @@ Aşağıdaki ekran görüntüsünde Book1.xls dosyasını varsayılan görünüm
 
 **Book1.xls: değişiklikten önceki çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_4.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_4.png)
 
  Book1.xls dosyası şu şekilde açılır:[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve ilk çalışma sayfasının yakınlaştırma faktörü 75 olarak ayarlanır. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Output.xls: değişiklikten sonra çalışma sayfası** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_5.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_5.png)
 
 
 
@@ -70,7 +70,7 @@ Bölmeleri dondur, Microsoft Excel tarafından sağlanan bir özelliktir. Bölme
 
 **Microsoft Excel'de donma bölmelerini kullanma** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_6.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_6.png)
 
 Aspose.Cells, geliştiricilerin çalışma zamanında çalışma sayfalarına bölmeleri dondurma uygulamasına da izin verir.
 
@@ -92,13 +92,13 @@ Aşağıdaki ekran görüntüsünde, Book1.xls dosyasını donma bölmeleri olma
 
 **Book1.xls: herhangi bir değişiklikten önce çalışma sayfası görünümü** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_7.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_7.png)
 
  Book1.xls dosyası şu şekilde açılır:[Çalışma kitabı](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)class ve ardından ilk çalışma sayfasında birkaç satır ve sütun dondurulur. Değiştirilen dosya output.xls olarak kaydedilir.
 
 **Outlook.xls: değişiklikten sonra çalışma sayfası görünümü** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_8.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_8.png)
 ## **Bölme Bölmeleri**
 Aynı çalışma sayfasında iki farklı görünüm elde etmek için ekranı bölmeniz gerekiyorsa bölmeleri ayırın. Microsoft Excel, çalışma sayfanızın birden fazla kopyasını görüntülemenize ve çalışma sayfanızın her bölmesinde bağımsız olarak kaydırmanıza izin veren çok kullanışlı bir özellik sunar: bölünmüş bölmeler.
 
@@ -119,7 +119,7 @@ Yukarıdaki kodu çalıştırdıktan sonra, oluşturulan dosya bölünmüş bir 
 
 **Çıkış dosyasındaki bölünmüş bölmeler** 
 
-![yapılacaklar:resim_alternatif_Metin](worksheet-views_9.png)
+![yapılacaklar:resim_alternatif_metin](worksheet-views_9.png)
 #### **Bölmeleri Kaldırma**
  Geliştiriciler, bölünmüş bölmeleri kullanarak kaldırabilir[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) sınıf'[kaldırSplit](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#removeSplit\(\)) yöntem.
 

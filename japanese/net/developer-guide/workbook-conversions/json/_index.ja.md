@@ -10,7 +10,7 @@ Aspose.Cells は、ワークブックを Json (JavaScript Object Notation) フ�
 
 {{% /alert %}}
 
-## **Excel ワークブックを JSON に変換する**
+## **Excel ワークブックを JSON に変換**
 
 Aspose.Cells API は、スプレッドシートを JSON 形式に変換するためのサポートを提供します。ワークブックを JSON にエクスポートするには、次を渡します。[**SaveFormat.Json**](https://reference.aspose.com/cells/net/aspose.cells/saveformat)の 2 番目のパラメータとして[**Workbook.Save**](https://reference.aspose.com/cells/net/aspose.cells.workbook/save/methods/3)方法。使用することもできます[**JsonSaveOptions**](https://reference.aspose.com/cells/net/aspose.cells/JsonSaveoptions)クラスを使用して、ワークシートを JSON にエクスポートするための追加設定を指定します。
 
@@ -19,7 +19,7 @@ Aspose.Cells API は、スプレッドシートを JSON 形式に変換するた
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-JSON.cs" >}}
 
 ## **先行トピック**
-- [CSV を JSON に変換する](/cells/ja/net/convert-csv-to-json/)
-- [Excel から JSON への変換](/cells/ja/net/convert-excel-to-json/)
-- [JSON を CSV に変換する](/cells/ja/net/convert-json-to-csv/)
-- [JSON から Excel への変換](/cells/ja/net/convert-json-to-excel/)
+- [CSV を JSON に変換](/cells/ja/net/convert-csv-to-json/)
+- [Convert-Excel-to-JSON](/cells/ja/net/convert-excel-to-json/)
+- [JSON を CSV に変換](/cells/ja/net/convert-json-to-csv/)
+- [Convert-JSON-to-Excel](/cells/ja/net/convert-json-to-excel/)

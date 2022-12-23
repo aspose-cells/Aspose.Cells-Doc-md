@@ -31,11 +31,11 @@ url: /es/net/list-of-supported-number-formats/
 |15 | Fecha| d-mmm-aaa|
 |16 | Fecha| d-mmm|
 |17 | Fecha| mmm-aaa|
-|18 | Tiempo| h:mm AM/PM|
-|19 | Tiempo| h:mm:ss AM/PM|
-|20 | Tiempo| mmm|
-|21 | Tiempo| h: mm: ss|
-|22 | Tiempo| m/d/aa h:mm|
+|18 | Hora| h:mm AM/PM|
+|19 | Hora| h:mm:ss AM/PM|
+|20 | Hora| mmm|
+|21 | Hora| h: mm: ss|
+|22 | Hora| m/d/aa h:mm|
 |37 | Divisa|# ,##0;-#,##0
 |
 |38 | Divisa|# ,##0;-#,##0
@@ -48,9 +48,9 @@ url: /es/net/list-of-supported-number-formats/
 |42 | Contabilidad|_ $* #,##0_ ;_ $* "_ ;_ @_ |
 |43 | Contabilidad|_ * #,##0.00_ ;_ * "??_ ;_ @_ |
 |44 | Contabilidad|_ $* #,##0.00_ ;_ $* "??_ ;_ @_ |
-|45 | Tiempo| mm: ss|
-|46 | Tiempo| h :mm:ss|
-|47 | Tiempo| mm:ss.0|
+|45 | Hora| mm: ss|
+|46 | Hora| h :mm:ss|
+|47 | Hora| mm:ss.0|
 |48 | Científico|## 0.0E+00
 |
 |49 | Texto|@ |

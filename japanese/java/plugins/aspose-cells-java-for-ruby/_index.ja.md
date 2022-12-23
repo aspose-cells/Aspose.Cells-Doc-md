@@ -10,7 +10,7 @@ url: /ja/java/aspose-cells-java-for-ruby/
 RJB は Ruby と Java を Java Native Interface で接続するブリッジプログラムです。 Rake + Rjb は、Maven や Ant よりも強力で便利なビルド ツールです。 Java ビジネス ロジック クラス自体を Rjb のモックでテストできます。 Struts のモデル オブジェクトを RoR アプリケーションに移行するのに役立ちます。ただし、buildSwing アプリケーションには注意してください。Ruby (および Rjb) は、JVM のネイティブ スレッド処理を考慮していません。
 
 ### **Aspose.Cells for Java**
-Aspose.Cells for Java は受賞歴のある Excel スプレッドシート コンポーネントで、Java 開発者は Excel® スプレッドシート (XLS、XLSX、XLSM、XLSB、XLTX、SpreadsheetML、CSV、ODS)、HTML、MHTML、PDF の読み取り、書き込み、および操作機能を組み込むことができます。 Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
+Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF Microsoft Excel® に依存する必要なく、画像ファイル形式を独自の Java アプリケーションに変換できます。
 
 Aspose.Cells for Java は、成熟したスケーラブルで機能豊富なコンポーネントであり、他のベンダーの単純なデータ エクスポート機能をはるかに超える多くの機能を提供します。 Aspose.Cells for Java を使用すると、開発者は、データのエクスポート、スプレッドシートの最も細かいレベルへの書式設定、画像のインポート、グラフの作成、複雑な数式の適用と計算、Excel® データのストリーミング、さまざまな形式での保存など、すべて Microsoft Excel® を必要とせずに実行できます。または Microsoft オフィス オートメーション。
 ### **Aspose.Cells Ruby の場合は Java**
@@ -114,12 +114,12 @@ Ruby の Aspose.Cells Java はオープン ソースであり、そのソース 
       - [Ruby でファイルを保存する](/cells/ja/java/saving-files-in-ruby/)
     - [Ruby のユーティリティ機能](/cells/ja/java/utility-features-in-ruby/)
       - [Ruby でチャートを画像に変換する](/cells/ja/java/converting-chart-to-image-in-ruby/)
-      - [Ruby で Excel ファイルを HTML に変換する](/cells/ja/java/converting-excel-files-to-html-in-ruby/)
-      - [Ruby で Excel を PDF ファイルに変換する](/cells/ja/java/converting-excel-to-pdf-files-in-ruby/)
-      - [Ruby で HTML ファイルを Excel スプレッドシートに変換する](/cells/ja/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
-      - [Ruby での MHTML ファイルへの変換](/cells/ja/java/converting-to-mhtml-files-in-ruby/)
+      - [RubyでExcelファイルをHTMLに変換する](/cells/ja/java/converting-excel-files-to-html-in-ruby/)
+      - [RubyでExcelをPDFファイルに変換する](/cells/ja/java/converting-excel-to-pdf-files-in-ruby/)
+      - [RubyでHTMLファイルをExcelスプレッドシートに変換する](/cells/ja/java/converting-html-files-to-excel-spreadsheets-in-ruby/)
+      - [Ruby で MHTML ファイルに変換する](/cells/ja/java/converting-to-mhtml-files-in-ruby/)
       - [Rubyでワークシートを画像に変換する](/cells/ja/java/converting-worksheet-to-image-in-ruby/)
-      - [ワークシートを Ruby で SVG に変換する](/cells/ja/java/converting-worksheet-to-svg-in-ruby/)
+      - [RubyでワークシートをSVGに変換する](/cells/ja/java/converting-worksheet-to-svg-in-ruby/)
       - [Ruby での Excel ファイルの暗号化](/cells/ja/java/encrypting-excel-files-in-ruby/)
       - [Ruby でのドキュメント プロパティの管理](/cells/ja/java/managing-document-properties-in-ruby/)
   - [Ruby でのワークシートの操作](/cells/ja/java/working-with-worksheets-in-ruby/)

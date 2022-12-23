@@ -39,6 +39,6 @@ puts "Apply encryption, please check the output file."
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Crittografia file Excel (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Crittografia file Excel (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/encrypt.rb)

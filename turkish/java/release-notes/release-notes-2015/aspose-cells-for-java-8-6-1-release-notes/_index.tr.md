@@ -24,29 +24,29 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41528) - XLSB, Aspose.Cells ile yeniden kaydedildikten sonra bozuluyor
 
- (CELLSJAVA-41499) - Cell referans köprüleri sonuç HTML'sinde çalışmıyor
+(CELLSJAVA-41499) - Cell referans köprüleri sonuç HTML'de çalışmıyor
 
  (CELLSJAVA-41487) - Adlandırılmış aralık formülünün hesaplanması #NAME ile sonuçlanır?
 
-(CELLSJAVA-41518) - Acrobat Reader, bir sayfa işlenirken bir hata olduğunu gösteriyor. Aspose.Cells oluşturulan PDF yüklenirken bu belgeyi okurken bir sorun oluştu (135) hatası
+ (CELLSJAVA-41518) - Acrobat Reader, bir sayfa işlenirken bir hata olduğunu gösteriyor. Bu belgeyi okurken bir sorun oluştu (135) hatası, Aspose.Cells yüklenirken PDF oluşturuldu
 
- (CELLSJAVA-41515) - Tabloyu PDF'ye dönüştürürken Veri Etiketi, Veri Noktasıyla örtüşüyor
+ (CELLSJAVA-41515) - Tablo PDF'e dönüştürülürken Veri Etiketi Veri Noktasıyla örtüşüyor
 
  (CELLSJAVA-41513) - Aspose.Cells, grafiği olan excel dosyasını pdf'ye dönüştüremiyor
 
- (CELLSJAVA-41504) - Y ekseni değeri, PDF dosya biçimine dönüştürülürken işlenen grafik görüntüsünde eksik
+ (CELLSJAVA-41504) - PDF dosya biçimine dönüştürülürken işlenen grafik görüntüsünde Y ekseni değeri eksik
 
- (CELLSJAVA-41501) - Grafikteki X Ekseni değerleri, çıktı PDF/resiminde uygun değil
+ (CELLSJAVA-41501) - Grafikteki X Ekseni değerleri PDF/ çıktısında uygun değil resim
 
- (CELLSJAVA-41500) - Çıktı PDF/Görüntü dosyasında birkaç yerde grafik kenarlığı kırılıyor
+ (CELLSJAVA-41500) - PDF/Görüntü dosyası çıktısında birkaç yerde grafik sınırı bozuluyor
 
- (CELLSJAVA-41494) - Excel grafiğinin PDF/Görüntü çıktısında sözcükler birleştirilmiş gibi görünüyor
+ (CELLSJAVA-41494) - Excel tablosunun PDF/Görüntü çıktısında sözcükler birleştirilmiş görünüyor
 
- (CELLSJAVA-41493) - Excel grafiğinin PDF/Görüntü çıktısında uzun tireler uygun şekilde görüntülenmiyor
+(CELLSJAVA-41493) - Excel tablosunun PDF/Resim çıktısında uzun tireler uygun şekilde görüntülenmiyor
 
  (CELLSJAVA-41484) - Puanlardan daha az Harita Puanı döndürüldü
 
-(CELLSJAVA-41475) - XLSX'i XLS'ye dönüştürürken Grafiğin Eksen Bağlantılı Kaynak özelliği sıfırlandı
+ (CELLSJAVA-41475) - Grafiğin Axis Linked Source özelliği, XLSX'i XLS'e dönüştürürken sıfırlandı
 
  (CELLSJAVA-41541) - XML Elektronik Tablo 2003'ü diğer biçimlere dönüştürürken Yazı Tipi Boyutu korunmuyor
 
@@ -64,11 +64,11 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41502) - Yanlış RadioButon yüksekliği döndürüldü
 
- (CELLSJAVA-41488) - E-tablo XLS olarak kaydedildiğinde açılan doğrulama birden fazla bölgeye uygulanmıyor
+(CELLSJAVA-41488) - E-tablo XLS olarak kaydedildiğinde açılan doğrulama birden fazla bölgeye uygulanmıyor
 
- (CELLSJAVA-41483) - Makro kodu değişimi, kiril adları içeriyorsa bir XLS dosyasını ezer
+ (CELLSJAVA-41483) - Kiril adları içeriyorsa, makro kodu değişimi bir XLS dosyasını ezer
 
-(CELLSJAVA-41461) - Görüntü %125'e ayarlıyken yeniden kaydetmeden sonra sütun genişlikleri değişiyor
+ (CELLSJAVA-41461) - Görüntü %125'e ayarlıyken yeniden kaydetmeden sonra sütun genişlikleri değişiyor
 
  (CELLSJAVA-41454) - Elektronik tablo yeniden kaydedildikten sonra xl/drawings/vmlDrawing.vml dosyasının içeriği değişti
 
@@ -78,7 +78,7 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41435) - PDF'de P ve Q sütununun altındaki bazı ekstra biçimlendirilmiş hücreler
 
- (CELLSJAVA-41434) - Çıktı PDF'sinde Excel'de olmayan biçimlendirme uygulanmış
+ (CELLSJAVA-41434) - PDF çıktısında Excel'de olmayan biçimlendirme uygulanmış
 
  (CELLSJAVA-41350) - Hücrenin yazı tipini veya hücredeki metnin bir bölümünü değiştirmek etkili olmuyor
 
@@ -86,7 +86,7 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 ## **İstisnalar**
 
 
- (CELLSJAVA-41529) - İstisna: Bir XLSB dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException" oluştu
+(CELLSJAVA-41529) - İstisna: XLSB dosyası yüklenirken "java.lang.ArrayIndexOutOfBoundsException" oluştu
 
  (CELLSJAVA-41511) - İstisna: java.lang.NumberFormatException: Giriş dizesi için: Excel belgelerini birleştirirken "Sonsuz"
 
@@ -94,7 +94,7 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -116,6 +116,6 @@ url: /tr/java/aspose-cells-for-java-8-6-1-release-notes/
 
  Enum HtmlLinkTargetType ve HtmlSaveOptions.LinkTargetType ekler.
 
- HTML'de hedef niteliğin türünü ayarlamak için kullanılır
+ HTML'de hedef özelliğin türünü ayarlamak için kullanılır.
 
  bu Aspose.Cells for Java v8.6.1 de dahildir.

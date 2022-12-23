@@ -19,7 +19,7 @@ Estamos
 
  Mejoras
 
-- Guardar en XLSX con LightCells API al renderizar directamente a OutputStream
+- Guardando en XLSX con LightCells API al renderizar directamente a OutputStream
 
  Excepciones
 

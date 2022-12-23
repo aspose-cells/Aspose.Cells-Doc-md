@@ -6,7 +6,7 @@ url: /de/net/implement-subtotal-or-grand-total-labels-in-other-languages/
 ---
 ## **Mögliche Nutzungsszenarien**
 
- Manchmal möchten Sie Zwischensummen- und Gesamtsummenbeschriftungen in nicht-englischen Sprachen wie Chinesisch, Japanisch, Arabisch, Hindi usw. anzeigen. Aspose.Cells ermöglicht Ihnen dies mit der[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse und[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) Eigentum. Bitte lesen Sie diesen Artikel zur Verwendung von[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse
+Manchmal möchten Sie Zwischensummen- und Gesamtsummenbeschriftungen in nicht-englischen Sprachen wie Chinesisch, Japanisch, Arabisch, Hindi usw. anzeigen. Aspose.Cells ermöglicht Ihnen dies mit der[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse und[**Workbook.GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/globalizationsettings) Eigentum. Bitte lesen Sie diesen Artikel zur Verwendung von[**Globalisierungseinstellungen**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)Klasse
 
 - [Verwenden der GlobalizationSettings-Klasse für benutzerdefinierte Zwischensummenbeschriftungen und andere Beschriftungen von Kreisdiagrammen](/cells/de/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-other-label-of-pie-chart/)
 

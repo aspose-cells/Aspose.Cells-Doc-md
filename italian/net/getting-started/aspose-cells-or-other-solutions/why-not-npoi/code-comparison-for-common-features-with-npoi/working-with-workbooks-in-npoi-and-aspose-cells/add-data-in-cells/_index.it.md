@@ -5,7 +5,7 @@ weight: 10
 url: /it/net/add-data-in-cells/
 ---
 ## **Aspose.Cells - Aggiungi dati in Cells**
-Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Microsoft Excel. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce una raccolta Cells. Ogni elemento nella raccolta Cells rappresenta un oggetto della classe Cell.
+Aspose.Cells fornisce una classe, Workbook, che rappresenta un file Excel Microsoft. La classe Workbook contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. La classe Worksheet fornisce una raccolta Cells. Ogni elemento nella raccolta Cells rappresenta un oggetto della classe Cell.
 
 **C#**
 
@@ -78,7 +78,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Aggiungi dati in Cells** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Aggiungi dati in Cells** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Add.Data.In.Cells.Aspose.Cells.zip)
 

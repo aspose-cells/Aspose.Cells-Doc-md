@@ -10,7 +10,7 @@ Dieses Dokument beschreibt Änderungen an Aspose.Cells API von Version 8.1.1 zu 
 
 {{% /alert %}} 
 ## **Unterstützung für Warnung hinzugefügt, wenn Schriftersetzung auftritt**
-Mit Aspose.Cells for .NET 8.1.2 wurden die WarningInfo-, WarningType-Klassen, die IWarningCallback-Schnittstelle und die SaveOptions.WarningCallback-, ImageOrPrintOptions.WarningCallback-Eigenschaften hinzugefügt, um es dem Benutzer zu erleichtern, eine Warnung zu erhalten, wenn beim Konvertieren von Tabellenkalkulationen in Bilder oder im PDF-Format eine Schriftartersetzung auftritt.
+Mit Aspose.Cells for .NET 8.1.2 wurden die WarningInfo-, WarningType-Klassen, die IWarningCallback-Schnittstelle und die SaveOptions.WarningCallback-, ImageOrPrintOptions.WarningCallback-Eigenschaften hinzugefügt, um es dem Benutzer zu erleichtern, eine Warnung zu erhalten, wenn beim Konvertieren von Tabellenkalkulationen in Bilder oder in das PDF-Format eine Schriftartersetzung auftritt.
 
 {{% alert color="primary" %}} 
 

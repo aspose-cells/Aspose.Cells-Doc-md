@@ -7,14 +7,14 @@ url: /ar/reportingservices/working-with-table-hide-attributes/
 1.  في Microsoft Excel ، انقر فوق**تعديل السمة** على شريط الأوامر Aspose.Cells.
 يظهر مربع الحوار "تعديل التقرير".
 1. حدد عنصر تقرير الجدول.
-1.  انقر على**يخفي** التبويب.
+1.  انقر على**إخفاء** التبويب.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-table-hide-attributes_1.png)
 
 
 
 
-1.  انقر**تعديل** لجعل علامة التبويب قابلة للتعديل.
+1.  انقر**يُعدِّل** لجعل علامة التبويب قابلة للتعديل.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-table-hide-attributes_2.png)
 
@@ -47,7 +47,7 @@ url: /ar/reportingservices/working-with-table-hide-attributes/
 
 
 
-1.  انقر**ارتكب** لإضافة معلومات الإخفاء إلى ذاكرة التخزين المؤقت للتقرير.
+1.  انقر**يقترف** لإضافة معلومات الإخفاء إلى ذاكرة التخزين المؤقت للتقرير.
 1.  انقر**قريب** لإغلاق الحوار.
 
 ![ما يجب القيام به: image_بديل_نص](working-with-table-hide-attributes_6.png)

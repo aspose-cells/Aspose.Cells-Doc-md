@@ -21,16 +21,16 @@ Vi är
 
 - Cells.findString()/find() stöder för att söka RegExand i ett specifikt intervall
 - Stöd Picture.setTitle()/getTitle()
-- Spara MS Excel-diagram i ODS-fil
-- Gör Aspose.Cells skapad XLS-fil kompatibel med POI
+- Spara MS Excel-diagram i filen ODS
+- Gör Aspose.Cells skapad XLS filkompatibel med POI
 
  Undantag
 
-- Läsning av XLSX-fil ger: "java.lang.ClassCastException:org.dom4j.Namespace"
+- Läsning av XLSX-filen ger: "java.lang.ClassCastException:org.dom4j.Namespace"
 
  Buggar
 
-- Sparad XLSX-fil ger fel: "Datamaj har gått förlorad"
-- Formaterat nummer var felaktigt i den genererade PDF-filen (tusen grupptecken gick förlorade)
+- Sparad XLSX fil ger fel: "Datamaj har gått förlorad"
+- Formaterat nummer var felaktigt i den genererade PDF (tusen grupptecken gick förlorade)
 - Stapeldiagrammet visades inte i den genererade PDF-filen för JDK6-versionen
 - Referenser uppdateras inte när sortimentet utökas

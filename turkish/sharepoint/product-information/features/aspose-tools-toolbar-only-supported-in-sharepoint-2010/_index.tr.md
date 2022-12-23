@@ -14,4 +14,4 @@ Aspose.Cells for SharePoint, bazı değerli seçenekler ve komutlar içeren bir 
 
 **Aspose.Cells araç çubuğu**
 
-![yapılacaklar:resim_alternatif_Metin](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)
+![yapılacaklar:resim_alternatif_metin](aspose-tools-toolbar-only-supported-in-sharepoint-2010_1.png)

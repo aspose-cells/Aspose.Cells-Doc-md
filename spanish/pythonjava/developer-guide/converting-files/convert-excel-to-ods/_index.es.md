@@ -5,9 +5,9 @@ weight: 40
 url: /es/python-java/convert-excel-to-ods/
 ---
 ## **Convertir Excel a ODS**
-Los archivos ODS son creados por el programa Calc, que forma parte de Apache OpenOffice Suite. Los archivos ODS almacenan datos que se organizan en filas y columnas y se formatean utilizando el estándar basado en XML OASIS OpenDocument.
+Los archivos ODS son creados por el programa Calc, que forma parte de Apache OpenOffice Suite. Los archivos ODS almacenan datos organizados en filas y columnas y están formateados utilizando el estándar basado en XML OASIS OpenDocument.
 
-Aspose.Cells for Python via Java admite archivos ODS en funcionamiento. Los siguientes ejemplos demuestran cómo convertir Excel en un archivo ODS.
+Aspose.Cells for Python via Java admite archivos de trabajo ODS. Los siguientes ejemplos muestran cómo convertir Excel a un archivo ODS.
 ### **Conversión Directa**
 La forma más sencilla de convertir un archivo de Excel a ODS es cargar el libro de trabajo y guardarlo pasando[GuardarFormato.ODS](https://reference.aspose.com/cells/python/asposecells.api/saveformat#ODS) como segundo parámetro de la[Workbook.save](https://reference.aspose.com/cells/python/asposecells.api/workbook#save\(java.lang.String,%20int\)) método.
 

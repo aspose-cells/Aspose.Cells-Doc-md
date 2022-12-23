@@ -26,7 +26,7 @@ url: /sv/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 
 |**Utfärdande ID** |**Komponent** |**Sammanfattning** |
 |:- |:- |:- |
-|16478 | Serverkomponent| Problem i rubrikraden i matrisrapporten efter export i XLSX-fil|
+|16478 | Serverkomponent| Problem i rubrikraden i matrisrapporten efter export i filen XLSX|
 |16170 | Serverkomponent| Aspose.Cells for Reporting Services - Diverse frågor|
 |16248 | Serverkomponent| XLSX export fungerar inte korrekt|
 |16239 | Serverkomponent| Byt namn på rullgardinsalternativ i rapportvisaren|

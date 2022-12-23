@@ -25,7 +25,7 @@ El siguiente ejemplo muestra cómo agregar un objeto OLE a una hoja de trabajo.
 
 El siguiente ejemplo muestra cómo extraer objetos OLE en un libro de trabajo. El ejemplo obtiene diferentes objetos OLE de un archivo XLS existente y guarda diferentes archivos (DOC, XLS, PPT, PDF, etc.) según el tipo de formato de archivo del objeto OLE.
 
-Aquí está la captura de pantalla del archivo XLS de plantilla, tiene diferentes objetos OLE incrustados en la primera hoja de trabajo.
+Aquí está la captura de pantalla del archivo de plantilla XLS, tiene diferentes objetos OLE incrustados en la primera hoja de trabajo.
 
 **El archivo de plantilla contiene cuatro objetos OLE** 
 

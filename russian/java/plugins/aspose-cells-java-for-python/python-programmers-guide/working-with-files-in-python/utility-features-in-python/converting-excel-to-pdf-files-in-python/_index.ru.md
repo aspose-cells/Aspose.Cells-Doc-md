@@ -1,5 +1,5 @@
 ﻿---
-title: Преобразование файлов Excel в PDF по номеру Python
+title: Преобразование Excel в файлы PDF в Python
 type: docs
 weight: 20
 url: /ru/java/converting-excel-to-pdf-files-in-python/

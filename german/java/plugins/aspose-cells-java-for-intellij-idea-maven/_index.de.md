@@ -77,12 +77,12 @@ Zum Herunterladen von IntelliJ IDEA
 -  Das Plugin kann direkt von heruntergeladen werden[Hosting-URL des JetBrains-Plugins](https://goo.gl/R4pysl) - im IntelliJ IDEA Plugin-Repository
  und höher können mit der IDE-Option installiert werden:
  - Gehe zu**Datei** > **Einstellungen**...>**Plugins**
- - Auswählen "**Plugin von Datenträger installieren"**
+ - Wählen "**Plugin von Datenträger installieren"**
 - Oder es kann mithilfe der IDE-Optionen direkt installiert werden (ohne manuellen Download von der JetBrains-Plug-in-Hosting-URL):
  - Gehe zu**Datei** > **Einstellungen**...>**Plugins**
- - Auswählen**"Repositories durchsuchen"**
+ - Wählen**"Repositories durchsuchen"**
  - Geben Sie in das Suchfeld ein: "Aspose"
- - Auswählen "**Aspose Cells Java für IntelliJ IDEA Maven**" Plugin zu installieren.
+ - Wählen "**Aspose Cells Java für IntelliJ IDEA Maven**" Plugin zu installieren.
 
 ## **Installieren**
 
@@ -94,11 +94,11 @@ Zum Herunterladen von IntelliJ IDEA
 
 ## **Video-Demo**
 
- Bitte prüfen[das Video](https://www.youtube.com/watch?v=8sHoB5Isq-A) unten, um Aspose.Cells Maven Project Wizard und Aspose.Cells Example Wizard in Aktion zu sehen.
+ Bitte prüfe[das Video](https://www.youtube.com/watch?v=8sHoB5Isq-A) unten, um Aspose.Cells Maven Project Wizard und Aspose.Cells Example Wizard in Aktion zu sehen.
 
 ## **Unterstützen, erweitern und beitragen**
 
-### **Die Unterstützung**
+### **Unterstützung**
 
 - Wenn Sie bekannte / gemeldete Probleme (von den Benutzern oder dem QA-Team) im Plugin sehen möchten.
 - Oder Sie möchten ein Problem melden, das Sie im Plugin gefunden haben

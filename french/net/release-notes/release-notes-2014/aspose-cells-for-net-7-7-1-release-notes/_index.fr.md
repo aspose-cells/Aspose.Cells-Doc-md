@@ -34,7 +34,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42116) - Calculer les valeurs Min et Max pour le formatage conditionnel DataBars
 
-(CELLSNET-40910) - Lire de gros fichiers MS Excel en mode cellules lumineuses - (LightCells API)
+ (CELLSNET-40910) - Lire de gros fichiers MS Excel en mode cellules lumineuses - (LightCells API)
 
  (CELLSNET-42230) - Rendu des barres de données de mise en forme conditionnelle avec des valeurs négatives dans la fonctionnalité Feuille vers image
 
@@ -48,7 +48,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 ## **Améliorations**
 
 
- (CELLSNET-42247) - La mise en forme conditionnelle sur le tableau croisé dynamique est perdue lors du traitement avec Aspose.Cells
+(CELLSNET-42247) - La mise en forme conditionnelle sur le tableau croisé dynamique est perdue lors du traitement avec Aspose.Cells
 
  (CELLSNET-42228) - L'intégration d'un fichier DOC dans un format XSLX ne démarre pas MS Word pour charger le DOC intégré
 
@@ -58,7 +58,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 ## **Insectes**
 
 
- (CELLSNET-42220) - Problème de rendu de la forme de la flèche dans le fichier PDF de sortie
+ (CELLSNET-42220) - Problème de rendu de la forme de flèche dans le fichier de sortie PDF
 
  (CELLSNET-42139) - Cell.GetDisplayStyle() ne fonctionne pas pour les mises en forme conditionnelles TOP 10 % et BOTTOM 10 %
 
@@ -66,7 +66,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42249) - Aspose.Cells corrompt le fichier XLSB
 
-(CELLSNET-42217) - MS Excel affiche le message "Contenu illisible"
+ (CELLSNET-42217) - MS Excel affiche le message "Contenu illisible"
 
  (CELLSNET-42184) - Unicode/Double octet/JPN - Problèmes de conversion HTML
 
@@ -76,7 +76,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-41363) - Problème PivotField - État incorrect "Répéter les étiquettes d'élément" (*.xlsb)
 
- (CELLSNET-41362) - Problème PivotField - État 'IsCalculatedField' incorrect (*.xlsb)
+(CELLSNET-41362) - Problème PivotField - État 'IsCalculatedField' incorrect (*.xlsb)
 
  (CELLSNET-41361) - Problème PivotField - État incorrect des champs de tri (*.xlsb)
 
@@ -88,7 +88,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-41343) - Tableau croisé dynamique - État "Nombre d'éléments à conserver par champ" incorrect (*.xlsb)
 
-(CELLSNET-41342) - Tableau croisé dynamique - Valeur manquante pour le champ 'RowHeaderCaption' (*.xlsb)
+ (CELLSNET-41342) - Tableau croisé dynamique - Valeur manquante pour le champ 'RowHeaderCaption' (*.xlsb)
 
  (CELLSNET-41341) - Tableau croisé dynamique - Valeur manquante de la source de données pour les tableaux croisés dynamiques avec plusieurs plages de consolidation (*.xlsb)
 
@@ -96,7 +96,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-41339) - État incorrect des « en-têtes de ligne/colonne » (*.xlsb)
 
- (CELLSNET-41338) - Tableau croisé dynamique - État "Utiliser les listes personnalisées lors du tri" incorrect (*.xlsb)
+(CELLSNET-41338) - Tableau croisé dynamique - État "Utiliser les listes personnalisées lors du tri" incorrect (*.xlsb)
 
  (CELLSNET-41337) - Tableau croisé dynamique - Valeur 'AutoFormat' incorrecte (*.xlsb)
 
@@ -108,37 +108,37 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-41331) - Tableau croisé dynamique - État du total général incorrect pour la ligne/colonne (*.xlsb)
 
-(CELLSNET-41330) - Tableau croisé dynamique - État "Autoriser plusieurs filtres par champ" incorrect (*.xlsb)
+ (CELLSNET-41330) - Tableau croisé dynamique - État "Autoriser plusieurs filtres par champ" incorrect (*.xlsb)
 
  (CELLSNET-41329) - Tableau croisé dynamique - État incorrect "Afficher la ligne des valeurs" (*.xlsb)
 
  (CELLSNET-42232) - Les cellules multilignes sont tronquées lorsqu'elles sont transformées en images (feuille à image)
 
- (CELLSNET-42231) - Exporter au format PDF - Le texte multiligne est coupé et se chevauche dans les cellules
+ (CELLSNET-42231) - Exporter vers PDF - Le texte multiligne est coupé et se chevauche dans les cellules
 
- (CELLSNET-42227) - XLSX en PDF : le résultat n'a pas de marges gauche et droite
+(CELLSNET-42227) - XLSX à PDF : le résultat n'a pas de marges gauche et droite
 
  (CELLSNET-42158) - Problème avec les barres de données ayant une valeur négative dans le formatage conditionnel
 
  (CELLSNET-41964) - Rendre uniquement la troisième page en tiff sans suivre la séquence ne fonctionne pas
 
- (CELLSNET-41847) - Problème de perte de données et d'alignement incorrect des étiquettes lors de la conversion du fichier Excel au format PDF
+ (CELLSNET-41847) - Problème de perte de données et d'alignement incorrect des étiquettes lorsque le fichier Excel est converti au format PDF
 
- (CELLSNET-42112) - Problème de formatage de la génération PDF avec les données
+ (CELLSNET-42112) - Problème de formatage de génération PDF avec les données
 
  (CELLSNET-42266) - Les lignes de titre apparaissent deux fois sur la première page du pdf de sortie
 
  (CELLSNET-42097) - Génération PDF - Problème de formatage des données
 
-(CELLSNET-41435) - L'alignement vertical des cellules n'est pas conservé lors du rendu d'une image Excel en PNG pour les cellules au format conditionnel
+ (CELLSNET-41435) - L'alignement vertical des cellules n'est pas conservé lors du rendu d'Excel en image PNG pour les cellules au format conditionnel
 
  (CELLSNET-42267) - Impossible d'obtenir l'image d'un graphique
 
- (CELLSNET-42221) - Problème de rendu de la flèche dans le format de fichier HTML de sortie
+ (CELLSNET-42221) - Problème de rendu de la flèche dans le format de fichier de sortie HTML
 
  (CELLSNET-41892) - Régression de la qualité de SheetRender.ToImage avec des transparences
 
- (CELLSNET-41834) - Bogue possible dans la transparence d'un histogramme
+(CELLSNET-41834) - Bogue possible dans la transparence d'un histogramme
 
  (CELLSNET-41438) - Problèmes de fonction ToTiff pour le rendu des graphiques (étendu)
 
@@ -154,7 +154,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42239) - Problème de chevauchement des styles
 
-(CELLSNET-42238) - La cellule liée n'est pas mise à jour à partir de la liste déroulante
+ (CELLSNET-42238) - La cellule liée n'est pas mise à jour à partir de la liste déroulante
 
  (CELLSNET-42236) - La hauteur des images change même si leur hauteur est fixe dans les balises SmartMarker
 
@@ -162,11 +162,11 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42135) - L'évaluation de la mise en forme conditionnelle est incorrecte
 
- (CELLSNET-42119) - L'ensemble d'icônes de mise en forme conditionnelle ne renvoie pas les bonnes icônes
+(CELLSNET-42119) - L'ensemble d'icônes de mise en forme conditionnelle ne renvoie pas les bonnes icônes
 
  (CELLSNET-42113) - L'image devient plus courte lorsque la méthode Worksheet.AutoFitRows() est appelée
 
- (CELLSNET-41918) - Aspose Cells corrompt les classeurs XLSB contenant des objets intégrés
+ (CELLSNET-41918) - Aspose Cells corrompt les classeurs XLSB contenant des objets incorporés
 
  (CELLSNET-41852) - Les quatre cellules A1-D1 diffèrent par "0 VS vide"
 
@@ -176,7 +176,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-41636) - La mise en forme conditionnelle n'est pas conservée après l'enregistrement d'un fichier XLSX
 
-(CELLSNET-41595) - La fonctionnalité de ligne de signature est perdue lors de l'enregistrement du classeur avec Aspose Cells
+ (CELLSNET-41595) - La fonctionnalité de ligne de signature est perdue lors de l'enregistrement du classeur avec Aspose Cells
 
  (CELLSNET-41355) - Le formatage des caractères XLSX ne fonctionne pas
 
@@ -186,7 +186,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-40789) - Formatage perdu lors de l'enregistrement du classeur
 
- (CELLSNET-40527) - Le style de bordure et l'arrière-plan changent lors de la conversion d'une feuille de calcul XML au format de fichier XLSX
+(CELLSNET-40527) - Le style de bordure et l'arrière-plan changent lors de la conversion d'une feuille de calcul XML au format de fichier XLSX
 
  (CELLSNET-40321) - La propriété "PageSetup.FirstPageNumber" n'est pas utilisée pour l'impression ou le rendu au format PDF
 
@@ -195,20 +195,20 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  (CELLSNET-40120) - Les résultats de la formule dans Aspose diffèrent des résultats dans MS Excel
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42253) - Erreur lors du chargement d'un fichier Excel spécifique
 
  (CELLSNET-42234) - Problème de chargement d'un fichier HTML
 
-(CELLSNET-42257) - Une erreur générique s'est produite dans GDI+ lors de la conversion de XLSX en PDF
+ (CELLSNET-42257) - Une erreur générique s'est produite dans GDI+, lors de la conversion de XLSX en PDF
 
  (CELLSNET-41299) - Besoin d'améliorations pour l'exception de fichier non valide
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -232,7 +232,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  Prise en charge abandonnée for .NET Framework 1.1
 
- À partir de cette version, Aspose.Cells n'est plus distribué avec une DLL à utiliser dans .NET Framework 1.1. La prise en charge de cette version du framework a été abandonnée afin de faciliter les fonctionnalités et les correctifs car il est difficile d'ajouter certaines fonctionnalités à cette ancienne version du framework.
+À partir de cette version, Aspose.Cells n'est plus distribué avec une DLL à utiliser dans .NET Framework 1.1. La prise en charge de cette version du framework a été abandonnée afin de faciliter les fonctionnalités et les correctifs car il est difficile d'ajouter certaines fonctionnalités à cette ancienne version du framework.
 
 
 
@@ -254,7 +254,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  Ajoute la propriété FindOptions.Style
 
-Prend en charge la recherche de cellules par formatage.
+ Prend en charge la recherche de cellules par formatage.
 
 
 
@@ -272,7 +272,7 @@ Prend en charge la recherche de cellules par formatage.
 
  Ajoute une méthode Clear() à PivotFieldCollection
 
- Il est utilisé pour supprimer tous les champs pivots de la liste.
+Il est utilisé pour supprimer tous les champs pivots de la liste.
 
 
 

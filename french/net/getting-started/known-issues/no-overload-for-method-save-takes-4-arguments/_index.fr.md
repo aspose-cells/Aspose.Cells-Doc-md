@@ -20,6 +20,6 @@ url: /fr/net/no-overload-for-method-save-takes-4-arguments/
 
  Lorsque vous utilisez notre produit dans une application Web, veuillez utiliser le fichier Aspose.Cells.dll du**NET 2.0**dossier dans le répertoire "/bin". Pour votre information, la dll dans**.NET 3.5 Profil client** Le répertoire est utilisé uniquement pour l'application console avec le profil client Net Frame comme infrastructure cible de VS.NET. Veuillez vérifier votre projet, il est possible que votre projet fasse référence à cette dll.
 
-### **Références**
+### **Les références**
 
 <https://forum.aspose.com/t/overload-for-method-save-of-workbook-takes-4-arguments-involving-response-object/121465/1>

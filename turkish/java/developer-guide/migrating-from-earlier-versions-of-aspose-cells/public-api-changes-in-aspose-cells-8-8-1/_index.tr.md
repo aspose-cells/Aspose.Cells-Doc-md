@@ -61,8 +61,8 @@ options.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 Workbook book = new Workbook(filePath, options);
 
 {{< /highlight >}}
-### **Grafiği Doğrudan PDF'ye Dönüştürün**
-Aspose.Cells API'ler, Chart.toPdf yöntemini kullanırken çizelgeleri PDF'ye dönüştürme olanağını zaten sağlamıştır. Bu sürümle birlikte API, söz konusu yöntemin bir OutputStream örneğini kabul edebilen başka bir aşırı yüklenmiş sürümünü ortaya çıkardı ve kullanıcıların grafiğin PDF'sini ByteArrayOutputStream örneğine kaydetmesine izin verdi.
+### **Grafiği Doğrudan PDF'e Dönüştür**
+Aspose.Cells API'ler, tesisin Chart.toPdf yöntemini kullanırken PDF'e grafik oluşturmasını zaten sağlamıştır. Bu sürümle birlikte API, söz konusu yöntemin bir OutputStream örneğini kabul edebilen başka bir aşırı yüklenmiş sürümünü ortaya çıkardı ve kullanıcıların grafiğin PDF'ini bir ByteArrayOutputStream örneğine kaydetmesine izin verdi.
 
 Basit kullanım senaryosu aşağıdadır.
 

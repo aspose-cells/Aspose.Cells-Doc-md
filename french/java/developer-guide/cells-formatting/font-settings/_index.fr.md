@@ -17,9 +17,9 @@ Tout comme Microsoft Excel, Aspose.Cells prend également en charge la configura
 
 {{% /alert %}} 
 ## **Configuration des paramètres de police**
- Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. La[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classer. La[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) le recueil. Chaque élément de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classer.
+ Aspose.Cells fournit une classe,[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) qui représente un fichier Excel Microsoft. Le[Cahier](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook) classe contient un[WorksheetCollection](https://reference.aspose.com/cells/java/com.aspose.cells/WorksheetCollection) qui permet d'accéder à chaque feuille de calcul dans un fichier Excel. Une feuille de calcul est représentée par le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)classe. Le[Feuille de travail](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) la classe offre une[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) le recueil. Chaque élément de la[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/Cells) collection représente un objet de la[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe.
 
- Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classer'[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ), utilisée pour définir la mise en forme d'une cellule. Aussi, l'objet de la[Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)La classe fournit des propriétés pour configurer les paramètres de police.
+ Aspose.Cells fournit le[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe'[setStyle](https://reference.aspose.com/cells/java/com.aspose.cells/cell#setStyle\(com.aspose.cells.Style\) ), utilisée pour définir la mise en forme d'une cellule. Aussi, l'objet de la[Style](https://reference.aspose.com/cells/java/com.aspose.cells/Style)La classe fournit des propriétés pour configurer les paramètres de police.
 
 Cet article montre comment :
 
@@ -32,7 +32,7 @@ Cet article montre comment :
 - [Définir le texte en indice](/cells/fr/java/dealing-with-font-settings/).
 - [Mettre le texte en exposant](/cells/fr/java/dealing-with-font-settings/).
 ### **Définition du nom de la police**
- Appliquer une police spécifique au texte des cellules à l'aide de la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)propriété.
+ Appliquer une police spécifique au texte des cellules à l'aide de la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setName](https://reference.aspose.com/cells/java/com.aspose.cells/font#Name)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingFontName-SettingFontName.java" >}}
 ### **Définition du style de police en gras**
@@ -40,13 +40,13 @@ Cet article montre comment :
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-SettingFontStyle-1.java" >}}
 ### **Définition de la taille de la police**
- Définissez la taille de la police à l'aide de la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)propriété.
+ Définissez la taille de la police à l'aide de la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setSize](https://reference.aspose.com/cells/java/com.aspose.cells/font#Size)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontSize-SetFontSize.java" >}}
 ### **Définition du type de soulignement de la police**
- Souligner le texte avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) propriété. Aspose.Cells offre divers types de soulignement de police prédéfinis dans le[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)énumération.
+ Souligner le texte avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setUnderline](https://reference.aspose.com/cells/java/com.aspose.cells/font#Underline) la propriété. Aspose.Cells offre divers types de soulignement de police prédéfinis dans le[FontUnderlineType](https://reference.aspose.com/cells/java/com.aspose.cells/FontUnderlineType)énumération.
 
-|**Types de soulignement de police**|**La description**|
+|**Types de soulignement de police**|**Description**|
 |:- |:- |
 |[RIEN](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#NONE)|Pas de soulignement|
 |[CÉLIBATAIRE](https://reference.aspose.com/cells/java/com.aspose.cells/fontunderlinetype#SINGLE)|Un seul soulignement|
@@ -73,28 +73,28 @@ Cet article montre comment :
 
 
 ### **Définition de la couleur de la police**
- Définissez la couleur de la police avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) propriété. Sélectionnez n'importe quelle couleur dans la[Couleur](https://reference.aspose.com/cells/java/com.aspose.cells/Color) énumération et affecter la couleur sélectionnée à la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
+ Définissez la couleur de la police avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color) la propriété. Sélectionnez n'importe quelle couleur dans la[Couleur](https://reference.aspose.com/cells/java/com.aspose.cells/Color) énumération et affecter la couleur sélectionnée à la[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setColor](https://reference.aspose.com/cells/java/com.aspose.cells/font#Color).
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetFontColor-SetFontColor.java" >}}
 
 
 
 ### **Définition de l'effet barré sur le texte**
- Texte barré avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)propriété.
+ Texte barré avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setStrikeout](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsStrikeout)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SettingStrikeOutEffect-SettingStrikeOutEffect.java" >}}
 
 
 
 ### **Définition de l'indice**
- Mettre le texte en exposant en utilisant le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setIndice](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)propriété.
+ Mettre le texte en exposant en utilisant le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setIndice](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSubscript)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSubscript-SetSubscript.java" >}}
 
 
 
 ### **Définition de l'exposant**
- Appliquer un exposant au texte avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setExposant](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)propriété.
+ Appliquer un exposant au texte avec le[Police de caractère](https://reference.aspose.com/cells/java/com.aspose.cells/Font) objets[setExposant](https://reference.aspose.com/cells/java/com.aspose.cells/font#IsSuperscript)la propriété.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-SetSuperscript-SetSuperscript.java" >}}
 

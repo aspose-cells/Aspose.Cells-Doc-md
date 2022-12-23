@@ -24,14 +24,14 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Python via .NET 22.8.
 |CELLSNET-51435|Nya kalkylbladsrelationer läggs till när en XLSB-arbetsbok konverteras till XLSM|
 |CELLSNET-51545|Arbetsbok med MS Excel 5.0-dialogblad kunde inte laddas av Aspose.Cells|
 |CELLSNET-51546|Diagram dupliceras efter att ha öppnats och sparats med Aspose-celler och sedan visas i Excel|
-|CELLSNET-51550|Länkar i namngivna intervall tas bort i XLS till XLSM-konvertering|
-|CELLSNET-51551|Filer blev skadade och extern länk ändrades till DDE-länk när XLS-filer konverterades till XLSM|
-|CELLSNET-51558|Konvertering av XLS-filer med länk av typen xlAlternateStartup till XLSM matar ut skadade filer|
+|CELLSNET-51550|Länkar i namngivna intervall tas bort i konverteringen XLS till XLSM|
+|CELLSNET-51551|Filer blev skadade och extern länk ändrades till DDE-länk vid konvertering av XLS-filer till XLSM|
+|CELLSNET-51558|Att konvertera XLS-filer med länken xlAlternateStartup-typ till XLSM matar ut skadade filer|
 |CELLSNET-51564|Duplicera data av smart markör|
 |CELLSNET-51574|En textruta med två kolumner i den återges med en kolumn endast när en XLSX-fil sparas på nytt|
-|CELLSNET-51580|En extern länk av typen xlPathMissing ändras till normal externLinkPath-typ i XLS till XLSM-konvertering|
+|CELLSNET-51580|En extern länk av typen xlPathMissing ändras till normal externLinkPath-typ i konverteringen XLS till XLSM|
 |CELLSNET-51599|Mycket långa namn för bildtypsresurser samtidigt som de sparas som HTML|
 |CELLSNET-51627|Specifik XLSM-fil kan inte laddas|
 |CELLSNET-51632|RibbonXml fungerar inte|
-|CELLSNET-51696|Att konvertera XLS till XLSM ändrar egenskapen "Spara lösenord" som dataanslutningsdefinition|
-|CELLSNET-51559|Konvertera en XLSB-fil till XLSM med undantag "startIndex kan inte vara större än längden på strängen"|
+|CELLSNET-51696|Att konvertera XLS till XLSM ändrar egenskapen "Spara lösenord" dataanslutningsdefinition|
+|CELLSNET-51559|Konvertera en XLSB-fil till XLSM med undantag "startIndex kan inte vara större än strängens längd"|

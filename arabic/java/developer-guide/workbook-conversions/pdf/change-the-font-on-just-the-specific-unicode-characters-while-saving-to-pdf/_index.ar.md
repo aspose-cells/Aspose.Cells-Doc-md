@@ -12,13 +12,13 @@ url: /ar/java/change-the-font-on-just-the-specific-unicode-characters-while-savi
 
 ومع ذلك ، يعد هذا سلوكًا غير مرغوب فيه لبعض المستخدمين ويريدون فقط تغيير خط الحرف المحدد بدلاً من تغيير خط الكلمة أو الجملة بأكملها.
 
- للتعامل مع هذه المشكلة ، يوفر Aspose.Cells[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) الخاصية التي يجب تعيينها**حقيقي**بحيث يتم تغيير خط الحرف المحدد غير القابل للعرض فقط ويظل خط بقية الكلمة أو الجملة كما هو.
+ للتعامل مع هذه المشكلة ، يوفر Aspose.Cells[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) الخاصية التي يجب تعيينها**حقيقي** بحيث يتم تغيير خط الحرف المحدد غير القابل للعرض فقط ويظل خط بقية الكلمة أو الجملة كما هو.
 
 {{% /alert %}}
 
 ## **مثال**
 
- تقارن لقطة الشاشة التالية بين ملفي PDF الناتج اللذين تم إنشاؤهما بواسطة نموذج التعليمات البرمجية أدناه. تم إنشاء واحد بدون تحديد[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) الخاصية والآخر تم إنشاؤه بعد تعيين[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) الملكية ل**حقيقي**. كما ترى في ملف PDF الأول ، تم تغيير خط الجملة بأكملها من Times New Roman إلى Arial Unicode MS بسبب واصلة غير فاصلة. أثناء وجودك في ملف PDF الثاني ، تم تغيير خط Non-Breaking Hyphen فقط.
+ تقارن لقطة الشاشة التالية بين ملفي PDF الناتج اللذين تم إنشاؤهما بواسطة نموذج التعليمات البرمجية أدناه. تم إنشاء واحد بدون تحديد[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) الخاصية والآخر تم إنشاؤه بعد تعيين[**PdfSaveOptions.setFontSubstitutionCharGranularity ()**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IsFontSubstitutionCharGranularity) ملكية ل**حقيقي**. كما ترى في أول PDF ، تم تغيير خط الجملة بأكملها من Times New Roman إلى Arial Unicode MS بسبب واصلة غير فاصلة. بينما في PDF الثاني ، تم تغيير خط Non-Breaking Hyphen فقط.
 
 ![ما يجب القيام به: image_بديل_نص](change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf_1.png)
 

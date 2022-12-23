@@ -76,7 +76,7 @@ use aspose\cells\Workbook;
 {{< /highlight >}}
 
 
-### **Örnek**
+### **Örnek vermek**
 
 **Aspose.Cells for Java**
 

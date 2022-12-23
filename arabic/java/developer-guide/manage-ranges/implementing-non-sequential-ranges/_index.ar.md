@@ -4,7 +4,7 @@ type: docs
 weight: 1200
 url: /ar/java/implementing-non-sequential-ranges/
 ---
- عادة،[النطاقات المسماة](/cells/ar/java/named-ranges/) مستطيلة مع خلايا متصلة ومجاورة لبعضها البعض. لكن في بعض الأحيان ، قد تحتاج إلى استخدام نطاق خلايا غير متسلسل لا تكون فيه الخلايا متجاورة. يدعم Aspose.Cells تكوين نطاق مسمى بخانات غير متجاورة. لهذا ، يوفر API الامتداد[**الاسم**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) منشأه.
+ عادة،[النطاقات المسماة](/cells/ar/java/named-ranges/) مستطيلة مع خلايا متصلة ومجاورة لبعضها البعض. لكن في بعض الأحيان ، قد تحتاج إلى استخدام نطاق خلايا غير متسلسل لا تكون فيه الخلايا متجاورة. يدعم Aspose.Cells تكوين نطاق مسمى بخانات غير متجاورة. لهذا ، يوفر API الامتداد[**الاسم**](https://reference.aspose.com/cells/java/com.aspose.cells/name#RefersTo) خاصية.
 
 ## Java كود لتنفيذ نطاقات غير متسلسلة
 

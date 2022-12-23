@@ -32,7 +32,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 ## **Performance**
 
 
-(CELLSNET-42876) - Aspose.Cells se bloque sur la méthode Workbook.Save()
+ (CELLSNET-42876) - Aspose.Cells se bloque sur la méthode Workbook.Save()
 
  (CELLSNET-42840) - Un gros fichier Excel est corrompu lorsque plus de 45 000 lignes sont ajoutées
 
@@ -40,41 +40,41 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 ## **Insectes**
 
 
- (CELLSNET-42866) - Le texte vertical de la feuille de calcul est manquant dans le PDF résultant
+ (CELLSNET-42866) - Le texte vertical dans la feuille de calcul est manquant dans le résultat PDF
 
- (CELLSNET-42835) - Le texte n'est pas aligné sur le côté de la forme lorsque XLS est rendu au format PDF
+ (CELLSNET-42835) - Le texte n'est pas aligné sur le côté de la forme lorsque XLS est rendu à PDF
 
  (CELLSNET-42787) - L'image rendue n'est pas claire dans le pdf de sortie
 
  (CELLSNET-42526) - Les objets fléchés ne sont pas positionnés correctement dans le pdf de sortie
 
- (CELLSNET-42322) - La suppression de lignes et l'actualisation du tableau croisé dynamique bloquent le fichier de sortie
+(CELLSNET-42322) - La suppression de lignes et l'actualisation du tableau croisé dynamique bloquent le fichier de sortie
 
  (CELLSNET-42827) - Problème avec les valeurs de lecture multithread des cellules dans la feuille de calcul
 
- (CELLSNET-42898) - Problème avec le pied de page stylé lorsque la feuille de calcul est rendue au format PDF
+ (CELLSNET-42898) - Problème avec le pied de page stylisé lorsque la feuille de calcul est rendue sous la forme PDF
 
  (CELLSNET-42880) - Le nombre de pages enregistrées par Aspose.Cells PDF est de 3.
 
  (CELLSNET-42841) - Image Tiff couvrant 4 pages au lieu de 2
 
- (CELLSNET-42833) - Forme chevauchant le texte dans le PDF résultant
+ (CELLSNET-42833) - Forme chevauchant le texte dans le résultat PDF
 
-(CELLSNET-42829) - Les cases à cocher ne sont pas correctement alignées dans le PDF résultant
+ (CELLSNET-42829) - Les cases à cocher ne sont pas correctement alignées dans le résultat PDF
 
- (CELLSNET-42776) - La qualité de l'image a diminué lors de l'enregistrement des feuilles de calcul au format PDF
+ (CELLSNET-42776) - La qualité de l'image a diminué lors de l'enregistrement des feuilles de calcul au PDF
 
  (CELLSNET-42620) - Le caractère e dans le graphique n'est pas rempli de couleur noire
 
  (CELLSNET-42856) - #REF ! erreur dans la référence de la source de données du graphique
 
- (CELLSNET-42847) - Le graphique est perdu lors de la réenregistrement du fichier ODS
+ (CELLSNET-42847) - Le graphique est perdu lors du réenregistrement du fichier ODS
 
- (CELLSNET-42831) - La forme a changé dans le PDF résultant
+ (CELLSNET-42831) - La forme a changé dans le résultat PDF
 
- (CELLSNET-42830) - Changement de direction de la flèche dans le PDF résultant
+(CELLSNET-42830) - Changement de direction de la flèche dans la résultante PDF
 
- (CELLSNET-42828) - Le PDF obtenu a une forme rognée avec une partie de la croix non illustrée
+ (CELLSNET-42828) - Le résultat PDF a une forme taillée avec une partie de la croix non représentée
 
  (CELLSNET-42798) - L'image du graphique à bulles n'est pas créée correctement (graphique à image)
 
@@ -86,17 +86,17 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42907) - Aspose.Cells a supprimé les filtres de période
 
-(CELLSNET-42904) - Problème DeleteRange avec la collection Hyperlinks
+ (CELLSNET-42904) - Problème DeleteRange avec la collection Hyperlinks
 
  (CELLSNET-42900) - Les propriétés de document intégrées et personnalisées sont perdues
 
  (CELLSNET-42899) - Name.GetRange renvoie null au lieu de la plage réelle
 
- (CELLSNET-42897) - Valeur incorrecte calculée pour la formule COUNTIF lors du rendu au format PDF
+ (CELLSNET-42897) - Valeur incorrecte calculée pour la formule COUNTIF lors du rendu en PDF
 
  (CELLSNET-42889) - Les valeurs n'ont pas été calculées correctement par Workbook.CalculateFormula
 
- (CELLSNET-42874) - Worksheet.Copy ne conserve pas correctement le graphique
+(CELLSNET-42874) - Worksheet.Copy ne conserve pas correctement le graphique
 
  (CELLSNET-42872) - Valeurs incorrectes lors de la lecture du graphique en courbes à partir du classeur
 
@@ -111,10 +111,10 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
  (CELLSNET-42755) - Les étiquettes de graphique ont changé de position/disposition
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
-(CELLSNET-41952) - "Exception de mémoire insuffisante" lors de l'enregistrement du classeur au format PDF
+ (CELLSNET-41952) - "Exception de mémoire insuffisante" lors de l'enregistrement du classeur sous le numéro PDF
 
  (CELLSNET-42891) - CellsException : un tel en-tête ou pied de page n'est pas encore pris en charge !
 
@@ -124,7 +124,7 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
 
 
-\2) Suite de grille Aspose.Cells
+ \2) Suite de grille Aspose.Cells
 
 
 ## **Autres améliorations et modifications**
@@ -134,10 +134,10 @@ Notez que ce téléchargement contient une version entièrement fonctionnelle du
 
  (CELLSNET-42895) - Page.IsPostBack est toujours faux à l'intérieur du GridWeb
 
- (CELLSNET-42881) - GridWeb affiche la même image dans toutes les feuilles de calcul Web
+(CELLSNET-42881) - GridWeb affiche la même image dans toutes les feuilles de calcul Web
 
 
-## **Exceptions**
+## **Des exceptions**
 
 
  (CELLSNET-42879) - Exception lors de l'enregistrement d'Excel avec une image dans GridWeb

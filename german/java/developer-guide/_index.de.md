@@ -21,7 +21,7 @@ url: /de/java/developer-guide/
         <ul>
             <li><a href="/cells/de/java/opening-files-with-different-formats/">Öffnen von Dateien mit unterschiedlichen Formaten</a></li>
             <li><a href="/cells/de/java/get-warnings-while-loading-excel-file/">Erhalten Sie Warnungen beim Laden einer Excel-Datei</a></li>
-            <li><a href="/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Entwickelt von Apple Inc. mit Aspose.Cells</a></li>
+            <li><a href="/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells</a></li>
         </ul>
         <p>Speichern</p>
         <ul>
@@ -39,13 +39,13 @@ url: /de/java/developer-guide/
         <p>Export</p>
         <ul>
             <li><a href="/cells/de/java/converting-workbook-to-different-formats/">Arbeitsmappe in verschiedene Formate konvertieren</a></li>
-            <li><a href="/cells/de/java/convert-excel-workbook-to-pdf/">Excel-Arbeitsmappe in PDF konvertieren</a></li>
-            <li><a href="/cells/de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Konvertieren Sie Excel-Dateien in das mit PDFA-1a kompatible PDF-Format</a></li>
+            <li><a href="/cells/de/java/convert-excel-workbook-to-pdf/">Konvertieren Sie die Excel-Arbeitsmappe in PDF</a></li>
+            <li><a href="/cells/de/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Konvertieren Sie die Excel-Datei in das mit PDFA-1a kompatible PDF-Format</a></li>
             <li><a href="/cells/de/java/converting-worksheet-to-different-image-formats/">Konvertieren von Arbeitsblättern in verschiedene Bildformate</a></li>
             <li><a href="/cells/de/java/track-document-conversion-progress/">Verfolgen Sie den Fortschritt der Dokumentenkonvertierung</a></li>
             <li><a href="/cells/de/java/convert-excel-to-html-with-tooltip/">Konvertieren Sie Excel in HTML mit Tooltip</a></li>
-            <li><a href="/cells/de/java/convert-json-to-csv/">Konvertieren Sie JSON in CSV</a></li>
-            <li><a href="/cells/de/java/convert-csv-to-json/">Konvertieren Sie CSV in JSON</a></li>
+            <li><a href="/cells/de/java/convert-json-to-csv/">Wandeln Sie JSON in CSV um</a></li>
+            <li><a href="/cells/de/java/convert-csv-to-json/">Wandeln Sie CSV in JSON um</a></li>
         </ul>
         <p>Optionen</p>
         <ul>
@@ -66,7 +66,7 @@ url: /de/java/developer-guide/
         </ul>
         <p>Stil</p>
         <ul>
-		 <li><a href="/cells/de/java/data-formatting/">Nummer</a></li>
+		 <li><a href="/cells/de/java/data-formatting/">Anzahl</a></li>
 		 <li><a href="/cells/de/java/dealing-with-font-settings/">Ausrichtung</a></li>
 		 <li><a href="/cells/de/java/fonts/">Schriftart</a></li>
 		 <li><a href="/cells/de/java/cells-formatting/#adding-borders-to-cells">Grenze</a></li>
@@ -145,7 +145,7 @@ url: /de/java/developer-guide/
             <li><a href="/cells/de/java/add-image-hyperlinks/">Fügen Sie Bild-Hyperlinks hinzu</a></li>
             <li><a href="/cells/de/java/editing-hyperlinks-of-worksheet/">Bearbeiten von Hyperlinks des Arbeitsblatts</a></li>
         </ul>
-        <p>Kommentare</p>
+        <p>Bemerkungen</p>
         <ul>
             <li><a href="/cells/de/java/how-to-change-the-comment-font-color/">So ändern Sie die Schriftfarbe für Kommentare</a></li>
             <li><a href="/cells/de/java/change-text-direction-of-the-comment/">Textrichtung des Kommentars ändern</a></li>
@@ -305,13 +305,13 @@ url: /de/java/developer-guide/
 {{< tab tabNum="7" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Kommentare</p>
+        <p>Bemerkungen</p>
         <ul>
             <li><a href="/cells/de/java/add-a-picture-to-an-excel-comment/">Fügen Sie einem Excel-Kommentar ein Bild hinzu</a></li>
             <li><a href="/cells/de/java/how-to-change-the-comment-font-color/">So ändern Sie die Schriftfarbe für Kommentare</a></li>
             <li><a href="/cells/de/java/change-text-direction-of-the-comment/">Textrichtung des Kommentars ändern</a></li>            
             <li><a href="/cells/de/java/set-margins-of-comment-or-shape-inside-the-worksheet/">Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest</a></li>
-            <li><a href="/cells/de/java/disable-downlevel-revealed-comments-while-saving-to-html/">Deaktivieren Sie aufgedeckte Kommentare auf niedrigerer Ebene beim Speichern in HTML</a></li>
+            <li><a href="/cells/de/java/disable-downlevel-revealed-comments-while-saving-to-html/">Deaktivieren Sie aufgedeckte Kommentare auf niedrigerem Niveau, während Sie unter HTML speichern</a></li>
             <li><a href="/cells/de/java/threaded-comments/">Verkettete Kommentare</a></li>
         </ul>
     </div>
@@ -337,7 +337,7 @@ url: /de/java/developer-guide/
         <ul>
          <li><a href="/cells/de/java/worksheet-views/#page-break-preview">Seitenumbruchvorschau</a></li>
         </ul>
-        <p>Zeigen</p>
+        <p>Show</p>
          <ul>
 		<li><a href="/cells/de/java/show-and-hide-elements/">Elemente ein- und ausblenden</a></li>
         </ul>

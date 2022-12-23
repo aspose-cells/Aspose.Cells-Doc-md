@@ -6,11 +6,11 @@ url: /it/net/fit-all-worksheet-columns-on-single-pdf-page/
 ---
 {{% alert color="primary" %}}
 
- volte si desidera generare un file PDF che si adatti a tutte le colonne di un foglio di lavoro su una pagina. Il[**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) property fornisce questa funzionalità in un modo molto facile da usare. Calcoli complessi come l'altezza e la larghezza del PDF di output vengono gestiti internamente e si basano sui dati nel foglio di lavoro.
+ A volte si desidera generare un file PDF che si adatti a tutte le colonne di un foglio di lavoro su una pagina. Il[**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet) property fornisce questa funzionalità in un modo molto facile da usare. Calcoli complessi come l'altezza e la larghezza dell'output PDF vengono gestiti internamente e si basano sui dati nel foglio di lavoro.
 
 {{% /alert %}}
 
-## **Adatta le colonne del foglio di lavoro a una singola pagina PDF**
+## **Adatta colonne foglio di lavoro su singola pagina PDF**
 
 [**PdfSaveOptions.AllColumnsInOnePagePerSheet**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/allcolumnsinonepagepersheet)garantisce che tutte le colonne in un foglio di lavoro vengano visualizzate in una singola pagina PDF, sebbene le righe possano espandersi in più pagine a seconda dei dati nel foglio di lavoro.
 
@@ -24,6 +24,6 @@ Quando un determinato foglio di lavoro ha molte colonne, il file PDF sottoposto 
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Se il tuo foglio di calcolo contiene formule, è meglio chiamare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) appena prima di eseguire il rendering del foglio di calcolo in formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati nel PDF.
+Se il tuo foglio di calcolo contiene formule, è meglio chiamare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)appena prima di eseguire il rendering del foglio di calcolo nel formato PDF. In questo modo si assicurerà che i valori dipendenti dalla formula vengano ricalcolati e che i valori corretti vengano visualizzati in PDF.
 
 {{% /alert %}}

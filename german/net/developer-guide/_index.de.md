@@ -24,7 +24,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
             <li><a href="/cells/de/net/opening-different-microsoft-excel-versions-files/">Öffnen verschiedener Microsoft Excel-Versionsdateien</a></li>
             <li><a href="/cells/de/net/opening-files-with-different-formats/">Öffnen von Dateien mit unterschiedlichen Formaten</a></li>
             <li><a href="/cells/de/net/get-warnings-while-loading-excel-file/">Erhalten Sie Warnungen beim Laden einer Excel-Datei</a></li>
-            <li><a href="/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Entwickelt von Apple Inc. mit Aspose.Cells</a></li>
+            <li><a href="/cells/de/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells</a></li>
         </ul>
         <p>Speichern</p>
         <ul>
@@ -41,13 +41,13 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
         <p>Rendering und Konvertierung</p>
         <ul>
             <li><a href="/cells/de/net/convert-workbook-to-different-formats/">Arbeitsmappe in verschiedene Formate konvertieren</a></li>
-            <li><a href="/cells/de/net/convert-excel-workbook-to-pdf/">Excel-Arbeitsmappe in PDF konvertieren</a></li>
-            <li><a href="/cells/de/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Konvertieren Sie Excel-Dateien in das mit PDFA-1a kompatible PDF-Format</a></li>
+            <li><a href="/cells/de/net/convert-excel-workbook-to-pdf/">Konvertieren Sie die Excel-Arbeitsmappe in PDF</a></li>
+            <li><a href="/cells/de/net/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/">Konvertieren Sie die Excel-Datei in das mit PDFA-1a kompatible PDF-Format</a></li>
             <li><a href="/cells/de/net/convert-excel-to-image/">Arbeitsmappe in verschiedene Bildformate konvertieren</a></li>
             <li><a href="/cells/de/net/track-document-conversion-progress/">Verfolgen Sie den Fortschritt der Dokumentenkonvertierung</a></li>
             <li><a href="/cells/de/net/convert-excel-to-html/">Konvertieren Sie Excel in HTML</a></li>
-            <li><a href="/cells/de/net/convert-json-to-csv/">Konvertieren Sie JSON in CSV</a></li>
-            <li><a href="/cells/de/net/convert-csv-to-json/">Konvertieren Sie CSV in JSON</a></li>
+            <li><a href="/cells/de/net/convert-json-to-csv/">Wandeln Sie JSON in CSV um</a></li>
+            <li><a href="/cells/de/net/convert-csv-to-json/">Wandeln Sie CSV in JSON um</a></li>
         </ul>
         <p>Optionen</p>
         <ul>
@@ -68,7 +68,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
         </ul>
         <p><a href="/cells/de/net/cells-formatting/">Stil</a></p>
         <ul>
-		 <li><a href="/cells/de/net/cells-number-settings/">Nummer</a></li>
+		 <li><a href="/cells/de/net/cells-number-settings/">Anzahl</a></li>
 		 <li><a href="/cells/de/net/cells-alignment-settings/">Ausrichtung</a></li>
 		 <li><a href="/cells/de/net/cells-font-settings/">Schriftart</a></li>
 		 <li><a href="/cells/de/net/cells-border-settings/">Grenze</a></li>
@@ -145,7 +145,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
         <ul>
             <li><a href="/cells/de/net/working-with-hyperlinks-to-link-data/">Arbeiten mit Hyperlinks zum Verknüpfen von Daten</a></li>
         </ul>
-        <p>Kommentare</p>
+        <p>Bemerkungen</p>
         <ul>
             <li><a href="/cells/de/net/add-comment-in-worksheet/">Kommentar im Arbeitsblatt hinzufügen</a></li>
             <li><a href="/cells/de/net/how-to-change-the-comment-font-color/">So ändern Sie die Schriftfarbe für Kommentare</a></li>
@@ -305,7 +305,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
 {{< tab tabNum="7" >}}
 <div class="row">
     <div class="col-md-6">
-        <p>Kommentare</p>
+        <p>Bemerkungen</p>
         <ul>
             <li><a href="/cells/de/net/add-comment-in-worksheet/">Kommentar im Arbeitsblatt hinzufügen</a></li>
             <li><a href="/cells/de/net/manage-comments-in-worksheet/">Verwalten von Kommentaren in einem Arbeitsblatt</a></li>
@@ -314,7 +314,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
             <li><a href="/cells/de/net/change-text-direction-of-the-comment/">Textrichtung des Kommentars ändern</a></li>
             <li><a href="/cells/de/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/">Legen Sie den Kommentar des Tabellen- oder Listenobjekts im Arbeitsblatt fest</a></li>
             <li><a href="/cells/de/net/set-margins-of-comment-or-shape-inside-the-worksheet/">Legen Sie die Ränder des Kommentars oder der Form innerhalb des Arbeitsblatts fest</a></li>
-            <li><a href="/cells/de/net/disable-downlevel-revealed-comments-while-saving-to/">Deaktivieren Sie aufgedeckte Kommentare auf niedrigerer Ebene beim Speichern in HTML</a></li>
+            <li><a href="/cells/de/net/disable-downlevel-revealed-comments-while-saving-to/">Deaktivieren Sie aufgedeckte Kommentare auf niedrigerem Niveau, während Sie unter HTML speichern</a></li>
             <li><a href="/cells/de/net/threaded-comments/">Verkettete Kommentare</a></li>
         </ul>
     </div>
@@ -345,7 +345,7 @@ Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Cells
         <ul>
          <li><a href="/cells/de/net/worksheet-views/#page-break-preview">Seitenumbruchvorschau</a></li>
         </ul>
-        <p>Zeigen</p>
+        <p>Show</p>
          <ul>
 		<li><a href="/cells/de/net/show-and-hide-gridlines-and-row-column-headers/">Gitternetzlinien und Überschrift anzeigen</a></li>
         </ul>

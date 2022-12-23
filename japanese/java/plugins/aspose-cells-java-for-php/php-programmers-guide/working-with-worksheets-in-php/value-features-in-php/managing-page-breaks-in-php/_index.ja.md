@@ -8,7 +8,7 @@ url: /ja/java/managing-page-breaks-in-php/
 ### **改ページの追加**
 を使用して改ページを追加するには**Aspose.Cells Java for PHP**、 電話**add_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -32,7 +32,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 ### **すべての改ページのクリア**
 を使用してすべての改ページをクリアするには**Aspose.Cells Java for PHP**、 電話**clear_all_page_breaks**方法**改ページ**モジュール。以下にコード例を示します。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 
@@ -48,7 +48,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 ### **特定の改ページの削除**
 を使用して特定の改ページを削除するには**Aspose.Cells Java for PHP**、 電話**remove_page_break**方法**改ページ**モジュール。以下にコード例を示します。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

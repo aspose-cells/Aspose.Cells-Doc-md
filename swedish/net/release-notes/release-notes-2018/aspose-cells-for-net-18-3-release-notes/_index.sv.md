@@ -14,7 +14,7 @@ url: /sv/net/aspose-cells-for-net-18-3-release-notes/
 |:- |:- |:- |
 |CELLSNET-42655|Gruppera pivotfält i pivottabellen|Ny funktion|
 |CELLSNET-45960|Ändra punkten från NumPad till decimalavgränsare (',') - Aspose.Cells.GridWeb|Ny funktion|
-|CELLSNET-45966|Orsak till undantag under bakåtriktad HTML-till-Cells-konvertering|Förbättring|
+|CELLSNET-45966|Orsak till undantag vid bakåtkonvertering från HTML till Cells|Förbättring|
 |CELLSNET-45976|Fel vid öppning av ODS-fil på grund av att möjligen olika ramverk håller olika precision för flytvärden|Förbättring|
 |CELLSNET-45981|Lägg till egenskapen i StyleFlag för att ställas in på false för att inte åsidosätta QuotePrefix-värdet|Förbättring|
 |CELLSNET-45957|Stöd att behålla kartdiagrammet i mallfilen|Förbättring|
@@ -28,14 +28,14 @@ url: /sv/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-43360|Stilproblem med HTML till Excel-rendering|Insekt|
 |CELLSNET-45979|VLOOKUPS formelberäkning fungerar inte korrekt|Insekt|
 |CELLSNET-45949|Cell textjustering (med blandade teckensnitt) ändras i den konverterade bilden|Insekt|
-|CELLSNET-45940|Villkorlig formatering tillämpas inte vid konvertering av Excel-fil till PDF-filformat|Insekt|
+|CELLSNET-45940|Villkorlig formatering tillämpas inte vid konvertering av Excel-fil till filformatet PDF|Insekt|
 |CELLSNET-45896|Oönskade kanter visas runt bilden när Excel-filen sparas till PDF|Insekt|
 |CELLSNET-45942|Cellreferensen för dataetiketten försvinner efter öppning/spara|Insekt|
 |CELLSNET-45923|Sista axeletikett, dvs. 17 juni, saknas i diagrambilden|Insekt|
 |CELLSNET-45911|Dålig position och linje i återgivningen av marknadsriskdiagram|Insekt|
 |CELLSNET-45908|Dålig position i diagramrenderingen|Insekt|
 |CELLSNET-45906|Saknar etikett i diagramrendering|Insekt|
-|CELLSNET-45884|Smart Art-diagram på flik - konernas kanter är ojämna i PDF-filformatet|Insekt|
+|CELLSNET-45884|Smart Art-diagram på flik - konernas kanter är taggiga i utdatafilformatet PDF|Insekt|
 |CELLSNET-45989|Dialogrutor sparas inte korrekt i XLSM-filer|Insekt|
 |CELLSNET-45977|Worksheet.Protect(ProtectionType.Objects) fungerar inte för XLS-filer|Insekt|
 |CELLSNET-45946|Hyperlänk med bindestreck i schemaavbrott under spara|Insekt|
@@ -55,12 +55,12 @@ url: /sv/net/aspose-cells-for-net-18-3-release-notes/
 |CELLSNET-45950|Undantag vid laddning av en ODS-fil|Undantag|
 |CELLSNET-45947|Undantag: Ogiltig formel:"=ark3!#ref!" när du öppnar en XLSX-fil|Undantag|
 |CELLSNET-45938|System.IndexOutOfRangeException vid öppning av XLSB-filer|Undantag|
-|CELLSNET-45937|System.FormatException inträffar när XLSX-fil öppnas|Undantag|
+|CELLSNET-45937|System.FormatException inträffar när XLSX-filen öppnas|Undantag|
 |CELLSNET-45903|Att ladda XLSX orsakar StackOverflowException|Undantag|
 ### **Offentlig API och bakåtinkompatibla ändringar**
 Följande är en lista över alla ändringar som gjorts för allmänheten API, såsom tillagda, bytt namn, borttagna eller utfasade medlemmar samt alla icke-bakåtkompatibla ändringar som gjorts till Aspose.Cells for .NET. Om du har frågor om någon ändring som anges, vänligen ta upp den på supportforumet Aspose.Cells.
 #### **Lägger till egenskapen HtmlSaveOptions.ExportSimilarBorderStyle**
-Anger om liknande kantstil exporteras när kantstilen inte stöds av webbläsare. Om du vill importera HTML- eller MHT-filen till Excel, behåll standardvärdet. Standardvärdet är falskt.
+Anger om liknande kantstil exporteras när kantstilen inte stöds av webbläsare. Om du vill importera filen HTML eller MHT till Excel, behåll standardvärdet. Standardvärdet är falskt.
 #### **Lägger till egenskapen Axis.AxisLabels**
 Hämtar beteckningarna för axeln efter anrop av metoden Chart.Calculate().
 #### **Lägger till ny enumtyp: GridValidationType.CustomServerFunction**

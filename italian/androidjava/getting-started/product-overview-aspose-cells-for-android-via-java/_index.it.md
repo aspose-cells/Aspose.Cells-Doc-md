@@ -10,15 +10,15 @@ url: /it/java/product-overview-aspose-cells-for-android-via-java/
 
 Benvenuti nella documentazione Aspose.Cells for Android via Java!
 
-Aspose.Cells è un componente flessibile che consente alle applicazioni Android di creare e gestire fogli di calcolo Excel senza richiedere l'installazione di Microsoft Excel nel sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells non solo supporta la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma anche una serie di funzionalità avanzate. Queste funzionalità avanzate consentono agli sviluppatori di manipolare facilmente i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule e funzioni matematiche, di data e ora, finanziarie o di testo comuni e complesse. Supporta inoltre la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli.
+Aspose.Cells è un componente flessibile che consente alle applicazioni Android di creare e gestire fogli di calcolo Excel senza richiedere l'installazione di Microsoft Excel nel sistema. A differenza di prodotti simili di altri fornitori, Aspose.Cells supporta non solo la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma anche una serie di funzionalità avanzate. Queste funzionalità avanzate consentono agli sviluppatori di manipolare facilmente i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungere formule e funzioni matematiche, di data e ora, finanziarie o di testo comuni e complesse. Supporta inoltre la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli.
 
 {{% /alert %}} 
 ## **Caratteristiche del documento**
 - Apri file Excel semplici o crittografati (Excel97 - Excel2007 e versioni successive) da fonti diverse
-- Salva i file Excel (Excel97 - Excel2007 e versioni successive) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Delimitato da tabulazioni, HTML ecc.)
+- Salva i file Excel (Excel97 - Excel2007 e versioni successive) in diversi formati (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited, HTML ecc.)
 - Converti file Excel in documento PDF
 - Converti foglio di calcolo Excel in documento XPS
-- Leggere e scrivere in formato OpenDocument Spreadsheet (ODS).
+- Leggi e scrivi il formato OpenDocument Spreadsheet (ODS).
 - Modificare le proprietà del documento dei file Excel
 ## **Caratteristiche del foglio di lavoro**
 ## **Opzioni di visualizzazione**
@@ -51,10 +51,10 @@ Aspose.Cells è un componente flessibile che consente alle applicazioni Android 
 -  Impostare**Formule con funzioni integrate o aggiuntive**
 - Aggiungi diversi tipi di collegamenti ipertestuali
 - Crea o accedi a intervalli denominati
--  Applicare**Convalida dei dati** e**Filtro automatico**
--  Applicare**Subtotali** alle tabelle del foglio di lavoro
+-  Fare domanda a**Convalida dei dati** e**Filtro automatico**
+-  Fare domanda a**Subtotali** alle tabelle del foglio di lavoro
 ## **Funzionalità di formattazione**
--  Applicare**Impostazioni del formato numerico** per lo Cells
+-  Fare domanda a**Impostazioni del formato numerico** per lo Cells
 - Formatta Cell come data
 -  Impostare**Allineamento del testo**
 - Unisci più Cells in uno solo
@@ -63,13 +63,13 @@ Aspose.Cells è un componente flessibile che consente alle applicazioni Android 
 -  Impostare**Testo ricco** in un Unico Cell
 -  Applicare diverso**Impostazioni del bordo** allo Cells
 -  Applicare diverso**Modelli di sfondo** allo Cells
--  Applicare**Impostazioni formato** su un foglio di lavoro, una riga o una colonna ecc.
--  Applicare**Formattazione condizionale** allo Cells
+-  Fare domanda a**Impostazioni formato** su un foglio di lavoro, una riga o una colonna ecc.
+-  Fare domanda a**Formattazione condizionale** allo Cells
 ## **Grafici e funzionalità grafiche**
 - Crea facilmente diversi tipi di grafici
 -  personalizzare**Grafici** impostando le loro diverse proprietà
 -  Impostare**Dati per i grafici** dinamicamente
--  Aggiungere**Grafici personalizzati** ai fogli di lavoro utilizzando l'API
+-  Aggiungere**Grafici personalizzati** ai fogli di lavoro utilizzando API
 -  Aggiungere**Immagini** ai fogli di lavoro in fase di esecuzione
 -  Crea e aggiungi**Commenti** alle cellule
 - Converti grafico in file immagine

@@ -30,23 +30,23 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44150) - XML Haritaları ile çalışabilme
 
- (CELLSNET-43992) - Excel Geliştirici sekmesinden yapıldığı gibi XML Eşleme İçe Aktarma işlevini destekler
+(CELLSNET-43992) - Excel Geliştirici sekmesinden yapıldığı gibi XML Eşleme İçe Aktarma işlevini destekler
 
 
 ## **Geliştirmeler**
 
 
- (CELLSNET-43878) - Dönüştürme sırasında VBA dijital işareti kayboluyor (XLSM'den XLS'ye)
+ (CELLSNET-43878) - Dönüştürme sırasında VBA dijital işareti kayboluyor (XLSM - XLS)
 
  (CELLSNET-43160) - VBA Projesi, xls'yi xlsm dosya biçimi olarak kaydederken dijital imzayı kaybediyor
 
  (CELLSNET-44169) - Validation.Value1 dizi sırası, Excel'de gösterilenden farklı
 
-(CELLSNET-44168) - 2 Renkli Ölçekli koşullu biçimlendirme oluşturulamıyor
+ (CELLSNET-44168) - 2 Renkli Ölçekli koşullu biçimlendirme oluşturulamıyor
 
  (CELLSNET-44167) - ISOWEEKNUM MS Excel 2013 işlevini destekler
 
- (CELLSNET-44166) - Dönüştürme sırasında VBA dijital işareti kayboluyor (XLSB'den XLSM'ye)
+ (CELLSNET-44166) - Dönüştürme sırasında VBA dijital işareti kayboluyor (XLSB - XLSM)
 
 
 ## **Verim**
@@ -64,7 +64,7 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44164) - Akışa kaydederken eksik HTML yapısı
 
- (CELLSNET-44147) - Pivot tablonun yenilenmesi bozuk excel dosyası oluşturuyor
+(CELLSNET-44147) - Pivot tablonun yenilenmesi bozuk excel dosyası oluşturuyor
 
  (CELLSNET-44022) - Workbook.Copy pivot tablolar için biçimlendirmeyi korumaz
 
@@ -72,19 +72,19 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44135) - Excel dosyası, PDF oluşturmadan önce düzgün (tamamen) hesaplanmamış (Grafiklerle ilgili olarak)
 
-(CELLSNET-44138) - Cell gölgelendirme, kenarlığın incelmesine neden olarak kenarlıkla örtüşüyor
+ (CELLSNET-44138) - Cell gölgelendirme, kenarlığın incelmesine neden olarak kenarlıkla örtüşüyor
 
- (CELLSNET-44136) - Excel, baskı önizlemede Aspose.Cells'in PDF sayfalarına dönüştürüldüğü bir sayfa gösteriyor
+ (CELLSNET-44136) - Excel, baskı önizlemede Aspose.Cells'in PDF sayfaya dönüştürüldüğü bir sayfa gösteriyor
 
  (CELLSNET-44122) - Sayfalardaki resimler, orijinal şablon Excel dosyasına göre işlenmez
 
- (CELLSNET-43587) - Cell Alan, elektronik tabloyu PDF'ye dönüştürürken Cell Kenarlığıyla örtüşüyor
+ (CELLSNET-43587) - Cell Alan, elektronik tabloyu PDF'e dönüştürürken Cell Sınırı ile örtüşüyor
 
  (CELLSNET-44171) - Aralıklar arasında CopyData yatay olarak çalışmıyor ancak dikey olarak iyi çalışıyor
 
- (CELLSNET-44153) - XLSB'den XLSM'ye doğru çalışmıyor ve bozuk dosya üretiyor
+(CELLSNET-44153) - XLSB - XLSM düzgün çalışmıyor ve bozuk dosya üretiyor
 
- (CELLSNET-44149) - OleObjects, XLSB'den XLSM'ye dönüştürüldükten sonra kaldırılıyor
+ (CELLSNET-44149) - OleObjects, XLSB'den XLSM'e dönüştürüldükten sonra kaldırılıyor
 
  (CELLSNET-44146) - Koşullu Biçimlendirme sonuçları PDF'de düzgün şekilde oluşturulmuyor
 
@@ -92,9 +92,9 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44141) - Kaynak excel dosyası yeniden kaydedilirken grafik birincil kategori ekseni yanlış oluyor
 
-(CELLSNET-44160) - Yatay eksen, ilk dosyadan farklı etiketlerle değiştirildi
+ (CELLSNET-44160) - Yatay eksen, ilk dosyadan farklı etiketlerle değiştirildi
 
- (CELLSNET-44157) - Şablon XLSX dosyasını açıp yeniden kaydettikten sonra özel grafiğin birincil x ekseni değişti
+ (CELLSNET-44157) - Özel grafiğin birincil x ekseni, şablon XLSX dosyasını açıp yeniden kaydettikten sonra değişti
 
  (CELLSNET-43910) - Resmin Çalışma Sayfasından çıkarılması ve Belge dosyasına eklenmesi onu eksik hale getiriyor
 
@@ -106,11 +106,11 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
  (CELLSNET-44089) - PivotTable.CalculateData'da System.IndexOutOfRangeException
 
- (CELLSNET-44064) - CalculateFormula xlsm kaynağında istisna oluşturuyor
+(CELLSNET-44064) - CalculateFormula xlsm kaynağında istisna oluşturuyor
 
  (CELLSNET-44055) - Aspose.Cell.Bellek tercihi ayarı nedeniyle pdf dönüştürmeden kaynaklanan istisna
 
- (CELLSNET-44179) - Bir HTML dosyası yüklenirken istisna (XSLT'den oluşturulmuş)
+ (CELLSNET-44179) - HTML dosyası yüklenirken istisna (XSLT'den oluşturulmuş)
 
  (CELLSNET-44145) - WorkbookMetadata ctor'da System.NullReferenceException
 
@@ -120,7 +120,7 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -128,7 +128,7 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 ## **Hatalar**
 
 
-(CELLSNET-44151) - GridWeb hücresinden içerik silinirken JavaScript tetiklenmiyor
+ (CELLSNET-44151) - GridWeb hücresinden içerik silinirken JavaScript tetiklenmiyor
 
  (CELLSNET-44113) - Başlık satırı metni, Filtre değerleri içinde de görünür
 
@@ -152,7 +152,7 @@ url: /tr/net/aspose-cells-for-net-8-7-0-release-notes/
 
 
 
-Eski Workbook.SaveOptions özelliğini siler.
+ Eski Workbook.SaveOptions özelliğini siler.
 
  Bunun yerine Workbook.Save(Stream,SaveOptions) veya Workbook.Save(string,SaveOptions) yöntemini kullanın.
 
@@ -164,7 +164,7 @@ Eski Workbook.SaveOptions özelliğini siler.
 
 
 
- Proptection.IsProtectedWithPassword özelliğini ekler.
+Proptection.IsProtectedWithPassword özelliğini ekler.
 
  Çalışma sayfasının parola ile korunup korunmadığını gösterir.
 

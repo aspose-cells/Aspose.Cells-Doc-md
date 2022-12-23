@@ -11,7 +11,7 @@ url: /de/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET wurde auf Version 8.0.1 aktualisiert und wir freuen uns, ankündigen zu können, dass diese Version über 30 neue nützliche Verbesserungen enthält.
-Mit Aspose.Cells for .NET können Sie in Ihren Anwendungen mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
+Mit Aspose.Cells for .NET können Sie mit XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS und anderen Formaten in Ihren Anwendungen arbeiten. Sie können Arbeitsmappen auch anzeigen, generieren, ändern, konvertieren, rendern und drucken, ohne Microsoft Excel zu verwenden.
 Besuchen Sie die Dokumentation, um zu erfahren, wie Sie mit Aspose.Cells for .NET beginnen.
 Beachten Sie, dass dieser Download eine voll funktionsfähige Version des Produkts enthält, jedoch ohne Lizenzsatz im Evaluierungsmodus mit einigen Einschränkungen ausgeführt werden kann. Um Aspose.Cells ohne diese Evaluierungseinschränkungen zu testen, können Sie eine kostenlose temporäre 30-Tage-Lizenz anfordern.
 Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.Cells.
@@ -44,15 +44,15 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-42533) – Die Ausgabedatei stürzte in MS Excel ab, nachdem die Pivot-Filterung hinzugefügt wurde
 
- (CELLSNET-42516) – Der ausgeblendete Kommentar wird beim Exportieren in HTML angezeigt
+ (CELLSNET-42516) – Der versteckte Kommentar wird angezeigt, wenn er nach HTML exportiert wird
 
- (CELLSNET-42470) – Excel fand eine Meldung über nicht lesbaren Inhalt auf Aspose.Cells generierte XLSX
+ (CELLSNET-42470) – Excel hat die Meldung „Aspose.Cells hat nicht lesbaren Inhalt gefunden“ generiert XLSX
 
  (CELLSNET-42468) – Excel hat unlesbare Inhalte in der Tabelle gefunden, nachdem die PivotTable hinzugefügt wurde
 
- (CELLSNET-42314) – Viele VML-Elemente (Steuerelemente) werden nicht richtig gerendert (Excel-zu-HTML-Konvertierung)
+ (CELLSNET-42314) – Viele VML-Elemente (Steuerelemente) werden nicht richtig gerendert (Konvertierung von Excel in HTML)
 
-(CELLSNET-42259) – VML-Formularelemente in der HTML-Konvertierung werden nicht gerendert
+(CELLSNET-42259) – VML-Formularelemente in HTML-Konvertierung werden nicht gerendert
 
  (CELLSNET-42180) – Rich-Text-Formatierung wird nicht beibehalten.
 
@@ -60,9 +60,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
  (CELLSNET-42551) – Leerzeichen zwischen Wörtern gehen in der PDF-Ausgabe verloren
 
- (CELLSNET-42543) – Das Bild wird beim Speichern als PDF verschwommen
+ (CELLSNET-42543) – Das Bild wird beim Speichern unter PDF verschwommen
 
- (CELLSNET-42502) – Problem mit der Textausrichtung beim Umbrechen von Zeilen, wenn XLSX in PDF konvertiert wird
+ (CELLSNET-42502) – Problem mit der Textausrichtung beim Zeilenumbruch, wenn XLSX in PDF konvertiert wird
 
  (CELLSNET-42501) – Inhalte behalten ihre Position nicht bei, wenn XLSX in PDF konvertiert wird
 
@@ -114,7 +114,7 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -122,9 +122,9 @@ Im Folgenden finden Sie eine Liste der Änderungen in dieser Version von Aspose.
 ## **Fehler**
 
 
- (CELLSNET-42522) – GridWeb-Problem: Spaltenbreite anpassen funktioniert nicht in Chrome
+(CELLSNET-42522) – GridWeb-Problem: Spaltenbreite anpassen funktioniert nicht in Chrome
 
-(CELLSNET-42509) – Formen werden in Gridweb nicht richtig gerendert
+ (CELLSNET-42509) – Formen werden in Gridweb nicht richtig gerendert
 
  (CELLSNET-42503) – Der Bereich ist im Namespace Aspose.cells nicht eindeutig
 

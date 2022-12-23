@@ -19,7 +19,7 @@ GetSheetInfo(文件名);
 
 公共静态无效 GetSheetInfo（字符串文件名）
 
-{  // 以只读方式打开文件。  使用 (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;  For each sheet,显示sheet信息.  foreach(E sheet in sheets)  {  foreach(A attr in sheet.GetAttributes())  {  Console.WriteLine("{0}: {1}" ，atter.localname，attr.value）; _ x000d_} _} __}  {{< /highlight >}}_x0003481 ## 000 __00 _000 _000 _10.11 pramest y.andy x.11 pr Files\";  string FileName = FilePath + "获取工作表信息.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
+{  // 以只读方式打开文件。  使用 (SpreadsheetDocument mySpreadsheet = SpreadsheetDocument.Open(fileName, false))  {  S sheets = mySpreadsheet.WorkbookPart.Workbook.Sheets;  For each sheet,显示sheet信息.  foreach(E sheet in sheets)  {  foreach(A attr in sheet.GetAttributes())  {  Console.WriteLine("{0}: {1}" ，atter.localname，attr.value）; _ x000d_} _} _}  {{< /highlight >}}_x0003481 ## 000 __00 _000 _000 _1_000/11 ** em x.11 pr Files\";  string FileName = FilePath + "获取工作表信息.xlsx";  GetSheetInfo(FileName);  Console.ReadKey();  }
 
 私有静态无效 GetSheetInfo（字符串文件名）
 

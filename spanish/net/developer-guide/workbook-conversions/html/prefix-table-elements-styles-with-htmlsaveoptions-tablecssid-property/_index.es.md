@@ -22,13 +22,13 @@ etc.
 
 {{< /highlight >}}
 
- La siguiente captura de pantalla muestra el efecto de usar[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)propiedad en HTML de salida.
+ La siguiente captura de pantalla muestra el efecto de usar[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid)propiedad en salida HTML.
 
 ![todo:imagen_alternativa_texto](prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property_1.png)
 
 ## **Estilos de elementos de tabla de prefijo con la propiedad HtmlSaveOptions.TableCssId**
 
- El siguiente código de ejemplo demuestra cómo hacer uso de[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) propiedad. Por favor, checa el[HTML de salida](60489790.zip) generado por el código para una referencia.
+ El siguiente código de ejemplo demuestra cómo hacer uso de[**HtmlSaveOptions.TableCssId**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/tablecssid) propiedad. Por favor, checa el[salida HTML](60489790.zip) generado por el código para una referencia.
 
 ## **Código de muestra**
 

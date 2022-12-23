@@ -9,7 +9,7 @@ url: /tr/cpp/precedents-and-dependents/
 Karmaşık finansal çalışma sayfaları, özellikle işbirliği içinde geliştirilenler, en utanç verici hataları gizleyebilir. Formüllerin doğruluğunu kontrol etmek ve bir hatanın kaynağını bulmak, formül emsal hücreler ve bağımlı hücreler kullandığında zor olabilir.
 
 {{% /alert %}} 
-## **giriiş**
+## **Giriş**
 - **emsal hücreler** başka bir hücredeki bir formül tarafından başvurulan hücrelerdir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, B5 hücresi D10 hücresinin emsalidir.
 - **Bağımlı hücreler** diğer hücrelere başvuran formüller içerir. Örneğin, D10 hücresi =B5 formülünü içeriyorsa, D10 hücresi B5 hücresine bağımlıdır.
 

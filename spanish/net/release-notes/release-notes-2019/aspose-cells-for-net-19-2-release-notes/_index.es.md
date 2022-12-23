@@ -14,18 +14,18 @@ url: /es/net/aspose-cells-for-net-19-2-release-notes/
 |:- |:- |:- |
 |CELLSNET-46582|Compatibilidad con la propiedad Range.Hyperlinks|Nueva caracteristica|
 |CELLSNET-46534|Int32 puede ser pequeño para el atributo Cells.count|Mejora|
-|CELLSNET-46552|Diferenciar XLSX encriptado de PPTX encriptado y DOCX encriptado|Mejora|
+|CELLSNET-46552|Diferencie XLSX encriptado de PPTX encriptado y DOCX encriptado|Mejora|
 |CELLSNET-46568|Cuadro de configuración Estilo de gráfico de bigotes|Mejora|
 |CELLSNET-46573|Reemplace los caracteres no válidos con símbolos adecuados como corchetes|Mejora|
 |CELLSNET-46581|Abrir/guardar elimina el texto alternativo de la tabla|Mejora|
-|CELLSNET-46584|Problema de rendimiento con las API Aspose.Cells|Actuación|
+|CELLSNET-46584|Problema de rendimiento con las API Aspose.Cells|Rendimiento|
 |CELLSNET-46556|El texto de TextBox está cortado|Insecto|
-|CELLSNET-46565|Los pictogramas no son visibles en el PDF de salida en la representación de Excel a PDF|Insecto|
+|CELLSNET-46565|Los pictogramas no son visibles en la salida PDF en Excel a la representación PDF|Insecto|
 |CELLSNET-46477|El formato condicional en la tabla dinámica no funciona en una hoja copiada|Insecto|
-|CELLSNET-46547|Falta contenido de la conversión de HTML a Excel|Insecto|
-|CELLSNET-46566|Archivo XLSX dañado después de guardar con Aspose.Cells API|Insecto|
+|CELLSNET-46547|Falta contenido de HTML a conversión de Excel|Insecto|
+|CELLSNET-46566|XLSX archivo dañado después de guardar con Aspose.Cells API|Insecto|
 |CELLSNET-46572|XLSB está dañado al agregar más de 1 campo de datos, mientras que XLSX funciona bien|Insecto|
-|CELLSNET-46548|Problema NumberValue al convertir XLSX a formato de archivo PDF|Insecto|
+|CELLSNET-46548|Problema con NumberValue al convertir el formato de archivo XLSX a PDF|Insecto|
 |CELLSNET-46557|Valor de celda incorrecto calculado por el motor de cálculo de fórmula Aspose.Cells|Insecto|
 |CELLSNET-46578|Worksheet.AutoFitColumns() no ajusta completamente las columnas|Insecto|
 |CELLSNET-46550|Etiquetas de texto en mal estado al convertir el gráfico de MS Excel en imágenes|Insecto|

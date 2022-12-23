@@ -16,7 +16,7 @@ Hay momentos en los que desea crear Microsoft informes de Excel con tablas diná
 ![todo:imagen_alternativa_texto](pivot-table-and-source-data_1.png)
 
 1. Creación de una tabla dinámica basada en este rango con nombre.
- 1. En Microsoft Excel, seleccione**Datos** , después**Tabla dinámica** y**Informe de gráfico dinámico**.
+ 1. En Microsoft Excel, elija**Datos** , después**Tabla dinámica** y**Informe de gráfico dinámico**.
  1. Cree una tabla dinámica basada en el rango con nombre creado en el primer paso.
 
       **Creación de una tabla dinámica basada en el rango con nombre, DataSource** 

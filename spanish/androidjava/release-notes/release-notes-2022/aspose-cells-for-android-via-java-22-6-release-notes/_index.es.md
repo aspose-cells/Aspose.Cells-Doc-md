@@ -21,7 +21,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44611|Mejora para leer celdas en blanco del archivo xlsx|
 |CELLSJAVA-44616|La configuración original de formato condicional en el rango de destino debe eliminarse al copiar el rango|
 |CELLSJAVA-44658|Soporte Castillo hinchable v1.71|
-|CELLSJAVA-44455|Al convertir un archivo XLSX a PDF, la fecha en la tabla dinámica se convierte en un número de serie|
+|CELLSJAVA-44455|Al convertir el archivo XLSX a PDF, la fecha en la tabla dinámica se convierte en un número de serie|
 |CELLSJAVA-44370|El archivo de Excel se corrompe cuando se abre y se guarda con Aspose.Cells|
 |CELLSJAVA-44381|Problema de formato de condición al eliminar la fila o columna|
 |CELLSJAVA-44442|Abrir y guardar con Aspose.Cells corrompe el libro de trabajo|
@@ -32,16 +32,16 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44466| problema adicional 3, setCalculateFormula a falso no funciona|
 |CELLSJAVA-44496|Incluya la etiqueta/elemento de título para la tabla al cargar html|
 |CELLSJAVA-44429|El efecto del gráfico de Excel en Excel es diferente al de HTML|
-|CELLSJAVA-44414| Unicode en JSON romperá XLSX y CSV generados|
+|CELLSJAVA-44414| Unicode en JSON romperá generado XLSX y CSV|
 |CELLSJAVA-44481|Problema con el método ThreadedComment.setCreatedTime()|
 |CELLSJAVA-44483|Ordenar no funciona después de agrupar las filas|
 |CELLSJAVA-44522|El valor doble de la cadena da un cero final, lo cual es incorrecto cuando se compara con el resultado de MS Excel.|
 |CELLSJAVA-44501| busque el siguiente número para el archivo duohangduolie.zip|
 |CELLSJAVA-44529|implementar la búsqueda de freezepane|
 |CELLSJAVA-44530|investigar el problema de setactivecell no funciona a veces|
-|CELLSJAVA-44534|Gráfico en el área de impresión no exportado en conversión de Excel a HTML|
+|CELLSJAVA-44534|Gráfico en área de impresión no exportado en Excel a conversión HTML|
 |CELLSJAVA-44539|El gráfico se desplaza a la derecha al convertir a html con área de impresión|
-|CELLSJAVA-44568|Los subtítulos de varias líneas se pierden excepto la primera línea en la conversión de HTML a XLS|
+|CELLSJAVA-44568|Los subtítulos de varias líneas se pierden excepto la primera línea en la conversión HTML a XLS|
 |CELLSJAVA-44512|Falta el gráfico al exportar el gráfico a svg en html|
 |CELLSJAVA-44556|Problema con la visualización de datos en la tabla de datos después de que el eje de coordenadas se establece en escala logarítmica: conversión de Excel a HTML/PDF|
 |CELLSJAVA-44628|Cómo conservar el formato de porcentaje de ciertas filas dinámicas al expandir los datos del nodo de una columna/campo dinámico|
@@ -52,13 +52,13 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44646|Borrar contenido en la hoja copiada arroja NullPointerException|
 |CELLSJAVA-44656|Cells.getMaxDataColumn devuelve un valor diferente (incorrecto) en 22.5|
 |CELLSJAVA-44650|La página del documento de Excel está desordenada cuando se carga en Aspose.Cells.GridWeb(Java)|
-|CELLSJAVA-44660|Problema con la alineación de datos al cargar el XLS en Aspose.Cells.GridWeb (Java)|
+|CELLSJAVA-44660|Problema con la alineación de datos al cargar XLS en Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44661|Problema al cargar el archivo et en Aspose.Cells.GridWeb (Java)|
 |CELLSJAVA-44584|El título del eje en el gráfico se rota en la imagen de salida - Conversión de gráfico a imagen|
 |CELLSJAVA-44615|Línea gris dibujada en la imagen de salida del archivo XLS|
-|CELLSJAVA-44665|La carga del archivo ODS se bloquea|
+|CELLSJAVA-44665|La carga del archivo ODS se cuelga|
 |CELLSJAVA-44404|Excepción "java.lang.IllegalArgumentException: índice de columna no válido" al cargar un archivo XLSX en GridWeb|
-|CELLSJAVA-44651|Error "No es un valor numérico" al convertir una hoja de Excel a HTML/PDF|
+|CELLSJAVA-44651|Error "No es un valor numérico" al convertir la hoja de Excel a HTML/PDF|
 
 
 ## **Public API y cambios incompatibles con versiones anteriores**
@@ -159,7 +159,7 @@ Representa el tipo de advertencia es la limitación de Excel.
 
 ### **Añade el método ShapeGuideCollection.Add(string name, double val).**
 
-Añade una guía de forma.
+Añade una guía de formas.
 
 ### **Agrega la clase CellsDataTableFactory**
 

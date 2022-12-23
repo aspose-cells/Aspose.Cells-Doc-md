@@ -10,7 +10,7 @@ url: /de/java/assign-macro-code-to-form-control/
 
 {{% /alert %}} 
 ## **Makrocode der Formularsteuerung mit Aspose.Cells zuweisen**
-Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einem Formular einen Makrocode zu und speichert die Ausgabe im XLSM-Format. Sobald Sie die XLSM-Ausgabedatei in Microsoft Excel öffnen, sehen Sie den folgenden Makrocode.
+Der folgende Beispielcode erstellt eine neue Arbeitsmappe, weist einem Formularbutton einen Makrocode zu und speichert die Ausgabe im Format XLSM. Sobald Sie die Ausgabedatei XLSM in Microsoft Excel öffnen, sehen Sie den folgenden Makrocode.
 
 {{< highlight "java" >}}
 
@@ -22,6 +22,6 @@ End Sub
 
 {{< /highlight >}}
 
-Hier ist ein Beispielcode zum Generieren der XLSM-Ausgabedatei mit Makrocode.
+Hier ist ein Beispielcode zum Generieren der Ausgabedatei XLSM mit Makrocode.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}

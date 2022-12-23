@@ -12,12 +12,12 @@ description: Aspose.Cells for Python via .NET 特徴
 
 {{% /alert %}} 
 ## **ファイル形式と変換**
-- XLS、SpreadsheetML (XLSX、XML)、XLSB、XLSM、DOCX、PPTX、JSON、カンマ区切り値 (CSV)、HTML、OpenDocument スプレッドシート (ODS)、PDF、タブ区切り、プレーン テキスト (TXT)、および TIFF を含む一般的な画像形式、JPG、PNG、BMP、および SVG。
+- XLS, SpreadsheetML (XLSX, XML),XLSB, XLSM, DOCX, PPTX, JSON, Comma Separated Value (CSV), HTML, OpenDocument Spreadsheet (ODS), PDF, Tab Delimited, Plain Text (TXT) and popular image formats including TIFF 、JPG、PNG、BMP、および SVG。
 ## **レンダリングと印刷**
-- スプレッドシートをベクター画像 (EMF) にレンダリングする
+- スプレッドシートをベクター画像にレンダリング (EMF)
 - ワークシートをラスター イメージにレンダリング (マルチページ TIFF、GIF)
-- ワークシートをラスター イメージ (PNG、JPEG など) にレンダリングします。
-- スプレッドシートを高忠実度で PDF にレンダリング
+- ワークシートをラスター イメージにレンダリングします (PNG、JPEG など)。
+- 高忠実度でスプレッドシートを PDF にレンダリング
 ## **スプレッドシートのコンテンツ機能**
 - ワークブック内またはワークブック間でワークシートをコピーまたは移動する
 - API を使用して、画像を挿入し、従来のグラフとカスタム グラフを作成し、グラフのグラデーション背景を設定します。
@@ -41,7 +41,7 @@ description: Aspose.Cells for Python via .NET 特徴
 - リスト オブジェクトの作成/Microsoft Excel テーブル
 - 小計の作成
 - フォーム コントロールおよびその他の描画図形/オブジェクトを挿入する
-- ピボット テーブルとピボット チャートを作成する
+- ピボット テーブルとピボット グラフを作成する
 - アドイン、VBA、マクロを保持または削除する
 - 名前付き範囲を操作する
 - スプレッドシートから OLE オブジェクトを追加、保存、または抽出します。

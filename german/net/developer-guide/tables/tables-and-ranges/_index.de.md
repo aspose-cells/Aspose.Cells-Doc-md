@@ -14,7 +14,7 @@ Aspose.Cells unterstützt diese Funktion von Microsoft Excel für Tabellen und L
  Verwenden Sie die**In Bereich umwandeln** Funktion zum schnellen Konvertieren einer Tabelle in einen Bereich, ohne die Formatierung zu verlieren. In Microsoft Excel 2007/2010:
 
 1. Klicken Sie auf eine beliebige Stelle in der Tabelle, um sicherzustellen, dass sich die aktive Zelle in einer Tabellenspalte befindet.
-1.  Auf der**Entwurf** Registerkarte, in der**Werkzeug** Gruppe, klicken**In Bereich umwandeln**.
+1.  Auf der**Design** Registerkarte, in der**Werkzeug** Gruppe, klicken**In Bereich umwandeln**.
 
 ## **Mit Aspose.Cells**
 

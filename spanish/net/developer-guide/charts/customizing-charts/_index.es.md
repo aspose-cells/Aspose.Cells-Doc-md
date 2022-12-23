@@ -14,7 +14,7 @@ Los desarrolladores pueden crear gráficos personalizados en tiempo de ejecució
 
  Un gráfico se compone de una serie de datos. Cada serie de datos en Aspose.Cells está representada por un[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series) objeto mientras que[**SerieColección**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection) objeto sirve como una colección de[**Serie**](https://reference.aspose.com/cells/net/aspose.cells.charts/series)objetos. Al crear un gráfico personalizado, los desarrolladores tienen la libertad de usar diferentes tipos de gráficos para diferentes series de datos (recopilados en el[**SerieColección**](https://reference.aspose.com/cells/net/aspose.cells.charts/seriescollection)objeto).
 
-El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de trabajo.
+El siguiente código de ejemplo muestra cómo crear gráficos personalizados. En este ejemplo, vamos a utilizar un gráfico de columnas para la primera serie de datos y un gráfico de líneas para la segunda serie. El resultado es que agregamos un gráfico de columnas, combinado con un gráfico de líneas, a la hoja de cálculo.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Charts-ManipulateChart-HowToCreateCustomChart-1.cs" >}}
 

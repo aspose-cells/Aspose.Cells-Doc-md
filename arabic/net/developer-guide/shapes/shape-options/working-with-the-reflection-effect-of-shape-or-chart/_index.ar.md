@@ -9,7 +9,7 @@ url: /ar/net/working-with-the-reflection-effect-of-shape-or-chart/
 
 - [طمس](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/blur)
 - [اتجاه](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/direction)
-- [مسافه: بعد](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
+- [مسافة](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/distance)
 - [تتلاشى](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/fadedirection)
 - [RotWithShape](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/rotwithshape)
 - [بحجم](https://reference.aspose.com/cells/net/aspose.cells.drawing/reflectioneffect/properties/size)

@@ -9,7 +9,7 @@ url: /zh/net/find-griddesktop-version-at-runtime/
 ## **在运行时查找 GridDesktop 版本**
 以下示例代码在运行时查找 GridDesktop 版本。截图展示了该示例代码的执行结果，供参考。
 
-![待办事项：图像_替代_文本](find-griddesktop-version-at-runtime_1.png)
+![待办事项：图片_替代_文本](find-griddesktop-version-at-runtime_1.png)
 
 ## **示例代码**
 {{< gist "aspose-cells-gists" "e204d6243cc67d7d255d51c9b85b2c64" "Examples-GridDesktop-CSharp-WorkingWithGridDesktop-Form_FindGridDesktopVersionAtRunTime.cs" >}}

@@ -12,7 +12,7 @@ Bazen metni Uzak Doğu yazı tipinde görüntülemek istersiniz, örneğin Japon
 
  Aşağıdaki örnek kod, bir metin kutusu oluşturur ve içine biraz Japonca metin ekler. Daha sonra metnin Latin ve Uzak Doğu yazı tipi adlarını belirtir ve çalışma kitabını şu şekilde kaydeder:[çıktı excel dosyası](67338274.xlsx). Aşağıdaki ekran görüntüsü, Microsoft Excel'deki çıktı metin kutusunun Latin ve Uzak Doğu yazı tipi adlarını gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
+![yapılacaklar:resim_alternatif_metin](specify-the-far-east-and-latin-name-of-the-font-in-text-options-of-shape_1.png)
 
 ## **Basit kod**
 

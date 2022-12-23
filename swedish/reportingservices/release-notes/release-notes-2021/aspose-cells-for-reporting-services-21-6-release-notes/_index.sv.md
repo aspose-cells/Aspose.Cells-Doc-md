@@ -13,6 +13,6 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Reporting Services 21.
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSRS-532 | Avgränsningsvärde i Aspose.Cells.ReportingServices.xml verkar vara felaktigt.| Insekt|
-|CELLSRS-579 | Stöd för att exportera EMF-formatrapport.|Ny funktion|
+|CELLSRS-579 | Stöd för att exportera EMF formatrapport.|Ny funktion|
 
 

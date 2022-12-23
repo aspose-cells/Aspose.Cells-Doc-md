@@ -19,12 +19,12 @@ url: /ja/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45888|Worksheets.ExternalLinks 内に DDE リンクが存在しない|強化|
 |CELLSNET-45893|Aspose.Cells.GridWeb は、テキストの折り返しが有効になっている場合、Microsoft Excel のようなテキストを入力しません。|強化|
 |CELLSNET-45833|図形から画像への変換で画像のプロパティ (タイトルと件名) が失われる|バグ|
-|CELLSNET-45822|Excel を PDF に変換する際のラベルの反転文字|バグ|
+|CELLSNET-45822|Excel を PDF に変換すると、ラベルの文字が反転する|バグ|
 |CELLSNET-45776|MHtml ファイルを Excel ファイル形式で保存すると、一部の列のデータが完全に展開/表示されない|バグ|
-|CELLSNET-44829|出力 HTML が Microsoft Excel と一致しません|バグ|
+|CELLSNET-44829|出力 HTML は Microsoft Excel と一致しません|バグ|
 |CELLSNET-44319|更新時にピボット テーブル フィルターの値が保持されない|バグ|
 |CELLSNET-45887|＃価値！' ArrayFormula の計算エラー|バグ|
-|CELLSNET-45883|3D 円グラフ - 出力 PDF で適切にレンダリングされない|バグ|
+|CELLSNET-45883|3D 円グラフ - 出力で適切にレンダリングされない PDF|バグ|
 |CELLSNET-45881|入力 Excel ファイルを開いて保存すると、MS Excel で赤い保護されたビューの警告が表示される|バグ|
 |CELLSNET-45880|軸ラベルの一部は、グラフの 2 行目に表示されます|バグ|
 |CELLSNET-45864|Aspose.Cells から変換された EMF は正確ではありません|バグ|
@@ -34,7 +34,7 @@ url: /ja/net/aspose-cells-for-net-18-2-release-notes/
 |CELLSNET-45865|列名に使用されている特殊文字が機能しない - スマート マーカーの問題|バグ|
 |CELLSNET-45858|リンク元の変更がドロップダウンの内容に影響を与えている|バグ|
 |CELLSNET-45857|あるワークブックから別のワークブックにシートをコピーするとファイルが破損する|バグ|
-|CELLSNET-45901|PDF にレンダリングするとテキストボックスの配置が失われる|バグ|
+|CELLSNET-45901|PDF にレンダリングすると、テキストボックスの配置が失われる|バグ|
 |CELLSNET-45875|Cell 値が失われ、x 軸ラベルの一部が 2 行目にレンダリングされます|バグ|
 |CELLSNET-45873|GridWeb でのラジオ ボタンのグループに対する対話型コントロールの実装|バグ|
 |CELLSNET-45902|Aspose.Cells.GridWeb で移動またはクリックすると、ワークシートのサイズが大きくなり、応答しなくなります。|バグ|

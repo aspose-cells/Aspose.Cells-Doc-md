@@ -12,13 +12,13 @@ url: /zh/reportingservices/evaluate-aspose-cells/
 
 评估版 Aspose.Cells for Reporting Services（未指定许可证）提供的产品功能在某种程度上虽然不完整。一个限制是它总是在打开/保存任何电子表格文档时注入带有评估水印的额外工作表。
 
-![待办事项：图像_替代_文本](evaluate-aspose-cells_1.png)
+![待办事项：图片_替代_文本](evaluate-aspose-cells_1.png)
 
 **数字：**由 Aspose.Cells 组件创建的演示电子表格
 
 它将向工作簿中注入一个额外的评估水印工作表。
 
-![待办事项：图像_替代_文本](evaluate-aspose-cells_2.png)
+![待办事项：图片_替代_文本](evaluate-aspose-cells_2.png)
 
 **数字：**评估警告——额外的工作表
 

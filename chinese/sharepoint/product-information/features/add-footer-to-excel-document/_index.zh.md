@@ -6,4 +6,4 @@ url: /zh/sharepoint/add-footer-to-excel-document/
 ---
 Aspose.Cells for SharePoint 支持在Excel电子表格中添加页脚。
 
-![待办事项：图像_替代_文本](add-footer-to-excel-document_1.png)
+![待办事项：图片_替代_文本](add-footer-to-excel-document_1.png)

@@ -11,7 +11,7 @@ Quando devi confrontare quale prodotto è il migliore per la tua soluzione, ci s
 Se stai cercando una libreria di formati di file più veloce, più semplice e più leggera per elaborare i file, allora potresti voler confrontare Aspose.Cells for .NET e VSTO. Quindi noterai che in realtà questi prodotti non competono, ma risolvono attività utente leggermente diverse.
 
 # **Cos'è VSTO?**
-VSTO, o Visual Studio Tools for Office, o Microsoft Visual Studio Tools fa parte della suite di strumenti Visual Studio .NET di Microsoft e supporta Microsoft .NET Framework. Viene utilizzato dagli sviluppatori per scrivere codice che collega le applicazioni Microsoft Office Word, Excel e Outlook. Gli sviluppatori che utilizzano VSTO possono utilizzare i linguaggi C# o Visual Basic. È un'alternativa a Visual Basic for Applications o VBA.
+VSTO, o Visual Studio Tools for Office, o Microsoft Visual Studio Tools fa parte della suite di strumenti Visual Studio .NET di Microsoft e supporta il Framework Microsoft .NET. Viene utilizzato dagli sviluppatori per scrivere codice che collega Microsoft Office Word, Excel e applicazioni Outlook. Gli sviluppatori che utilizzano VSTO possono utilizzare i linguaggi C# o Visual Basic. È un'alternativa a Visual Basic for Applications o VBA.
 
 # **Aspose.Cells per .Net**
 Aspose.Cells for .NET fornisce il gruppo di componenti più flessibile che consente all'applicazione .NET di creare e gestire fogli di calcolo Excel senza richiedere l'installazione di Microsoft Excel sul server. Aspose.Cells è uno dei componenti principali per tutti i tipi di manipolazione dei formati Excel. A differenza di prodotti simili di altri fornitori, Aspose.Cells non solo supporta la generazione di fogli di calcolo e altre funzionalità di base per la formattazione dei file, ma supporta anche una serie di funzionalità avanzate. Queste funzionalità avanzate rendono molto più conveniente per gli sviluppatori manipolare i contenuti dei fogli di calcolo, la formattazione delle celle e la protezione dei file. Aspose.Cells consente inoltre di importare dati in fogli di calcolo da diverse fonti di dati, aggiungendo formule / funzioni matematiche, dateora, finanziarie, di testo comuni e complesse, supporta la manipolazione di grafici, immagini, commenti, oggetti di disegno e controlli ecc.
@@ -20,7 +20,7 @@ Aspose.Cells for .NET fornisce il gruppo di componenti più flessibile che conse
 
 Se devi completare alcune attività non standard o impopolari relative ai documenti, VSTO può aiutarti a implementare tale soluzione. In altre parole, VSTO può essere utilizzato per estendere le funzionalità di Microsoft Office in base alle specifiche del problema.
 
-Se le tue attività relative ai documenti sono popolari, è molto probabile che Aspose.Cells ti fornisca un'API per creare una soluzione efficace e rapida. Vale la pena notare che con Aspose.Cells puoi gestire alcune situazioni piuttosto complicate e complesse perché fornisce strumenti davvero potenti e completi. In questo modo risparmi tempo e non reinventi la ruota.
+Se le tue attività relative ai documenti sono popolari, è molto probabile che Aspose.Cells ti fornisca uno API per creare una soluzione efficace e rapida. Vale la pena notare che con Aspose.Cells puoi gestire alcune situazioni piuttosto complicate e complesse perché fornisce strumenti davvero potenti e completi. In questo modo risparmi tempo e non reinventi la ruota.
 
 {{% alert color="primary" %}}
 
@@ -34,7 +34,7 @@ Aspose.Cells è accuratamente testato e impacchettato in una singola DLL senza r
 
 ## Scalabilità e velocità
 
-Aspose sono altamente scalabili e velocissimi. Sono una vera soluzione .NET e funzionano in modo impeccabile su un singolo server che alimenta una singola applicazione o su una Web farm con bilanciamento del carico che alimenta un'applicazione aziendale.
+Aspose sono altamente scalabili e velocissimi. Sono una vera soluzione .NET e funzionano in modo impeccabile su un singolo server che alimenta una singola applicazione o su una web farm con bilanciamento del carico che alimenta un'applicazione aziendale.
 
 ## Caratteristiche
 

@@ -28,7 +28,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-1-5-2-release-not
 |:- |:- |:- |
 |16478 | Componente de servidor| Problema en la fila de encabezado del informe de matriz después de la exportación en el archivo XLSX|
 |16170 | Componente de servidor| Aspose.Cells for Reporting Services - Varias ediciones|
-|16248 | Componente de servidor| La exportación XLSX no funciona correctamente|
+|16248 | Componente de servidor| XLSX la exportación no funciona correctamente|
 |16239 | Componente de servidor| Cambiar el nombre de las opciones desplegables en el Visor de informes|
 |16202 | Componente de servidor| No funciona correctamente al exportar a excel 2007|
 |16169 | Componente de servidor| ¿Compatibilidad con las extensiones de representación de SSRS en el modo integrado de SharePoint?|

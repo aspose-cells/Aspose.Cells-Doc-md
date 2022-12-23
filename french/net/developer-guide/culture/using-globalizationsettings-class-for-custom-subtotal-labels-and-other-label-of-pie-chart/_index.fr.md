@@ -6,11 +6,11 @@ url: /fr/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 ---
 ## **Scénarios d'utilisation possibles**
 
- Aspose.Cells Les API ont exposé le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe afin de gérer les scénarios dans lesquels l'utilisateur souhaite utiliser des étiquettes personnalisées pour les sous-totaux dans une feuille de calcul. De plus, le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)la classe peut également être utilisée pour modifier la**Autre** étiquette pour le graphique à secteurs lors du rendu de la feuille de calcul ou du graphique.
+ Aspose.Cells Les API ont exposé le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)classe afin de gérer les scénarios dans lesquels l'utilisateur souhaite utiliser des étiquettes personnalisées pour les sous-totaux dans une feuille de calcul. De plus, le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) la classe peut également être utilisée pour modifier la**Autre** étiquette pour le graphique à secteurs lors du rendu de la feuille de calcul ou du graphique.
 
 ## **Introduction à la classe GlobalizationSettings**
 
- La[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) propose actuellement les 3 méthodes suivantes qui peuvent être remplacées dans une classe personnalisée pour obtenir les étiquettes souhaitées pour les sous-totaux ou pour afficher le texte personnalisé pour le**Autre** étiquette d'un graphique à secteurs.
+ Le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) propose actuellement les 3 méthodes suivantes qui peuvent être remplacées dans une classe personnalisée pour obtenir les étiquettes souhaitées pour les sous-totaux ou pour afficher le texte personnalisé pour le**Autre** étiquette d'un graphique à secteurs.
 
 1. [**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname): Obtient le nom total de la fonction.
 1. [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname): Obtient le nom du total général de la fonction.
@@ -18,7 +18,7 @@ url: /fr/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 ### **Étiquettes personnalisées pour les sous-totaux**
 
- La[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) peut être utilisée pour personnaliser les étiquettes de sous-total en remplaçant la[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)méthodes comme démontré ci-dessus.
+ Le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)peut être utilisée pour personnaliser les étiquettes de sous-total en remplaçant la[**GlobalizationSettings.GetTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/gettotalname) & [**GlobalizationSettings.GetGrandTotalName**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getgrandtotalname)méthodes comme démontré ci-dessus.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomLabelsSubtotals-GlobalizationSettings.cs" >}}
 
@@ -28,13 +28,13 @@ url: /fr/net/using-globalizationsettings-class-for-custom-subtotal-labels-and-ot
 
 {{% alert color="primary" %}}
 
- La[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)la classe ne fonctionne que pour ajouter de nouveaux sous-totaux. Si une feuille de calcul contient déjà des sous-totaux, leurs libellés ne peuvent pas être modifiés.
+ Le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings)la classe ne fonctionne que pour ajouter de nouveaux sous-totaux. Si une feuille de calcul contient déjà des sous-totaux, leurs libellés ne peuvent pas être modifiés.
 
 {{% /alert %}}
 
 ### **Texte personnalisé pour une autre étiquette de graphique à secteurs**
 
- La[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) offres de cours[**ObtenirAutreNom**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)méthode qui est utile pour donner une valeur personnalisée à l'étiquette "Autre" des graphiques à secteurs. L'extrait de code suivant définit une classe personnalisée et remplace le[**ObtenirAutreNom**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)méthode pour obtenir une étiquette personnalisée basée sur l'identifiant de culture du système.
+ Le[**GlobalizationSettings**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings) offres de cours[**ObtenirAutreNom**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)méthode qui est utile pour donner une valeur personnalisée à l'étiquette "Autre" des graphiques à secteurs. L'extrait de code suivant définit une classe personnalisée et remplace le[**ObtenirAutreNom**](https://reference.aspose.com/cells/net/aspose.cells/globalizationsettings/methods/getothername)méthode pour obtenir une étiquette personnalisée basée sur l'identifiant de culture du système.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CustomTextForLabels-GlobalizationSettings.cs" >}}
 

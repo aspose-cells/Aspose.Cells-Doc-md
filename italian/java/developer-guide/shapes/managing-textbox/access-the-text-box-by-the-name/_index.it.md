@@ -6,7 +6,7 @@ url: /it/java/access-the-text-box-by-the-name/
 ---
 {{% alert color="primary" %}} 
 
-In precedenza, si accedeva alle caselle di testo tramite l'indice dal file[Foglio di lavoro.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) raccolta ma ora puoi anche accedere alla casella di testo per nome da questa raccolta. Questo è un modo comodo e veloce per accedere alla tua casella di testo se ne conosci già il nome.
+ In precedenza, si accedeva alle caselle di testo tramite l'indice dal file[Foglio di lavoro.getTextBoxes()](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#TextBoxes) raccolta ma ora puoi anche accedere alla casella di testo per nome da questa raccolta. Questo è un modo comodo e veloce per accedere alla tua casella di testo se ne conosci già il nome.
 
 {{% /alert %}} 
 ## **Accedi alla casella di testo per nome**

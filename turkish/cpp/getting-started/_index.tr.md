@@ -15,11 +15,11 @@ Bu sayfa size Aspose Cells for C++'i nasıl kuracağınızı ve Hello World uygu
 
 ### **Aspose Cells ila NuGet'i yükleyin**
 
-NuGet Aspose.Cells for C++ indirip kurmanın en kolay yolu.
+ NuGet Aspose.Cells for C++ indirip kurmanın en kolay yolu.
 1. Bir Microsoft Visual Studio projesi for C++ oluşturun.
 2. "Aspose.Cells.h" başlık dosyasını ekleyin.
 3. Microsoft Visual Studio ve NuGet paket yöneticisini açın.
- 4. İstediğiniz Aspose.Cells for C++'i bulmak için "aspose.cells.cpp" araması yapın.
+4. İstediğiniz Aspose.Cells for C++'i bulmak için "aspose.cells.cpp" araması yapın.
 5. "Yükle"ye tıklayın, Aspose.Cells for C++ indirilecek ve projenizde referans gösterilecektir.
 
 **![Aspose Cells ila NuGet'i yükleyin](InstallThroughNuget.png)**

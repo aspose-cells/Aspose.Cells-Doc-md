@@ -18,7 +18,7 @@ Cette liste n'inclut pas les événements hérités par Aspose.Cells.GridDesktop
 
 {{% /alert %}} 
 
-|**Événements**|**La description**|
+|**Événements**|**Description**|
 |:- |:- |
 |AvantCalculer|Se produit avant la formule de calcul dans le classeur.|
 |AvantChargerFichier|Se produit avant le chargement du classeur à partir du fichier.|
@@ -46,13 +46,13 @@ Pour effectuer une opération spécifique lorsqu'un événement spécifique est 
 
 **Étape 1 : Sélection d'un événement de Aspose.Cells.GridDesktop Control**
 
-1. Dans Visual Studio, sélectionnez le contrôle Aspose.Cells.GridDesktop et ouvrez son**Propriétés**dialogue.
+1. Dans Visual Studio, sélectionnez le contrôle Aspose.Cells.GridDesktop et ouvrez son**Propriétés** dialogue.
 1.  Clique le**Événements** languette.
 1.  Sélectionnez un événement. (pour cet exemple, le**CellClick** l'événement est sélectionné).
 
 **Étape 2 : Création d'un gestionnaire d'événements**
 
-1.  Double-cliquez sur un événement sélectionné dans le**Propriétés**dialogue.
+1.  Double-cliquez sur un événement sélectionné dans le**Propriétés** dialogue.
 1. Lorsque l'événement est double-cliqué, un gestionnaire d'événements est créé par Visual Studio.NET. Voici le code généré par le concepteur qui montre qu'un événement est créé pour le GridControl Control.
 
 

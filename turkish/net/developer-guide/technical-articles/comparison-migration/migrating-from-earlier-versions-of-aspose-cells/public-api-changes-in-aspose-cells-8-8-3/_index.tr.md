@@ -164,11 +164,11 @@ oleObject.AutoLoad = true;
 
 
 ### **HTMLLoadOptions.SupportDivTag Özelliği eklendi**
-Aspose.Cells for .NET 8.8.3, Aspose.Cells nesne modelinde HTML dosyaları/snippet'i yüklerken TD etiketlerine gömülü DIV etiketlerinin ayrıştırılmasına izin veren HTMLLoadOptions.SupportDivTag özelliğini kullanıma sundu. Boole tipi özelliğinin varsayılan değeri false'tur.
+Aspose.Cells for .NET 8.8.3, Aspose.Cells nesne modelinde HTML dosya/snippet yüklerken TD etiketlerine gömülü DIV etiketlerinin ayrıştırılmasına izin veren HTMLLoadOptions.SupportDivTag özelliğini kullanıma sundu. Boole tipi özelliğinin varsayılan değeri false'tur.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[HTML Yüklerken İç DIV Etiketlerini Destekleyin](/cells/tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
+ Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Yükleme Sırasında Dahili DIV Etiketlerini Destekleyin HTML](/cells/tr/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/).
 
 {{% /alert %}} 
 
@@ -276,11 +276,11 @@ using (var stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(export_h
 
 
 ### **HtmlSaveOptions.ExportGridLines Özelliği Eklendi**
-Aspose.Cells for .NET 8.8.3, elektronik tabloyu HTML formatına dışa aktarırken ızgara çizgilerini oluşturmaya izin veren HtmlSaveOptions.ExportGridLines özelliğini ortaya çıkardı. Boole türü özelliğinin varsayılan değeri false'tur, ancak true olarak ayarlandığında API, kullanılabilir veri aralığı için ızgara çizgilerini HTML biçiminde işler.
+Aspose.Cells for .NET 8.8.3, elektronik tabloyu HTML formatına dışa aktarırken ızgara çizgilerini oluşturmaya izin veren HtmlSaveOptions.ExportGridLines özelliğini ortaya çıkardı. Boole türü özelliğinin varsayılan değeri false'tur, ancak true olarak ayarlandığında API, kullanılabilir veri aralığı için kılavuz çizgilerini HTML biçiminde işler.
 
 {{% alert color="primary" %}} 
 
- Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Izgara Çizgilerini HTML'ye Dönüştür](/cells/tr/net/export-excel-to-html-with-gridlines/).
+ Bu özellikle ilgili daha fazla ayrıntı için, lütfen adresindeki ayrıntılı makaleyi inceleyin.[Izgara Çizgilerini HTML'e Dönüştür](/cells/tr/net/export-excel-to-html-with-gridlines/).
 
 {{% /alert %}} 
 

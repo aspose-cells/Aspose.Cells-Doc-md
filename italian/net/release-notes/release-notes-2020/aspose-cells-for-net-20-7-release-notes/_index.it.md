@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-20-7-release-notes/
 
 {{% /alert %}}
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-47432|Aggiunto il supporto per i criteri FilterString()|Nuova caratteristica|
 |CELLSNET-47410|Tipo di foglio errato restituito per Foglio macro internazionale|Nuova caratteristica|
@@ -24,7 +24,7 @@ url: /it/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47394|La legenda del grafico contenente le date ha un formato diverso nell'output PDF|Insetto|
 |CELLSNET-47400|Formato condizionale diverso da quello impostato in Excel|Insetto|
 |CELLSNET-47402|Tabelle pivot non aggiornate|Insetto|
-|CELLSNET-47404|caratteri cinesi sono illeggibili durante il caricamento del file .mht.|Insetto|
+|CELLSNET-47404|I caratteri cinesi sono illeggibili durante il caricamento del file .mht.|Insetto|
 |CELLSNET-47411|Impossibile creare una copia di XLSB|Insetto|
 |CELLSNET-47427|Il contenuto viene spostato durante l'esportazione in HTML|Insetto|
 |CELLSNET-47471|I formati CellAreas di Conditional non sono corretti dopo l'aggiornamento e il calcolo della tabella pivot|Insetto|
@@ -34,12 +34,12 @@ url: /it/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47443|I filtri automatici non funzionano correttamente in Aspose.Cells.GridDesktop|Insetto|
 |CELLSNET-47460|La stampa di GridWeb su Firefox recente (versioni: 77 e 78) non funziona|Insetto|
 |CELLSNET-47461|La selezione di più celle in GridWeb non funziona sulle ultime versioni di Firefox|Insetto|
-|CELLSNET-47417|L'altezza della cella è insufficiente nel rendering da Excel a PDF|Insetto|
-|CELLSNET-47437|Il PDF convertito da XLS genera un errore in Acrobat Reader|Insetto|
+|CELLSNET-47417|L'altezza della cella è insufficiente in Excel per il rendering PDF|Insetto|
+|CELLSNET-47437|PDF convertito da XLS genera un errore in Acrobat Reader|Insetto|
 |CELLSNET-47423|Le etichette dell'asse dei valori e dell'asse delle categorie nei grafici non vengono visualizzate nella conversione da Excel a PDF|Insetto|
 |CELLSNET-47429|Il grafico Sunburst con colore di riempimento personalizzato e nessuna etichetta dati genera un errore nel metodo ToImage|Insetto|
-|CELLSNET-47438|Colore del grafico a dispersione Conversione da Excel a PDF|Insetto|
-|CELLSNET-47401|valori della tabella sono cambiati dopo l'eliminazione delle righe|Insetto|
+|CELLSNET-47438|Colore del grafico a dispersione Da Excel a PDF conversione|Insetto|
+|CELLSNET-47401|I valori della tabella sono cambiati dopo l'eliminazione delle righe|Insetto|
 |CELLSNET-47407|I file uniti sono danneggiati.|Insetto|
 |CELLSNET-47412|Tipo di grafico errato restituito per alcuni grafici|Insetto|
 |CELLSNET-47413|Titolo del grafico mancante per alcuni grafici|Insetto|
@@ -58,10 +58,10 @@ url: /it/net/aspose-cells-for-net-20-7-release-notes/
 |CELLSNET-47477|Produttori intelligenti FieldName ha un punto|Insetto|
 |CELLSNET-47439|Eccezione di riferimento null durante l'applicazione dello stile|Eccezione|
 |CELLSNET-47446|Indice della riga iniziale non valido durante la rimozione del foglio di lavoro|Eccezioni|
-|CELLSNET-47466|NullReferenceException durante il caricamento di XLSX|Eccezioni|
+|CELLSNET-47466|NullReferenceException al caricamento di XLSX|Eccezioni|
 |CELLSNET-47476|Riferimento oggetto non impostato su un'istanza di un'eccezione oggetto durante il caricamento di XLSX|Eccezioni|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo Cells.RemoveDuplicates().**
 Metodo sovraccarico di Cells.RemoveDuplicates(...) per comodità dell'utente per rimuovere le righe duplicate nell'intero foglio.
 #### **Aggiunge la proprietà TickLabels.DisplayNumberFormat.**

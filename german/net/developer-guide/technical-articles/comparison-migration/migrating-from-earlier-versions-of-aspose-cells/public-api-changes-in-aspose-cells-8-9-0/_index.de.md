@@ -15,7 +15,7 @@ Aspose.Cells for .NET 8.9.0 hat die DefaultFontName-Eigenschaft für die HtmlSav
 
 {{% alert color="primary" %}} 
 
- Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Festlegen der Standardschriftart zum Rendern von Tabellenkalkulationen im HTML-Format](/cells/de/net/set-default-font-while-rendering-spreadsheet-to/).
+ Weitere Einzelheiten zu dieser Funktion finden Sie im Artikel auf[Festlegen der Standardschriftart zum Rendern von Tabellenkalkulationen auf das Format HTML](/cells/de/net/set-default-font-while-rendering-spreadsheet-to/).
 
 {{% /alert %}} 
 

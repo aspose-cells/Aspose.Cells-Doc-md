@@ -8,7 +8,7 @@ url: /ru/net/protecting-and-unprotecting-workbooks/
 
 Чтобы предотвратить случайное или преднамеренное изменение, перемещение или удаление рабочих листов кем-либо, вы можете защитить элементы рабочей книги паролем или без него. Чтобы защитить структуру книги, чтобы листы в книге нельзя было перемещать, удалять, скрывать, отображать или переименовывать, а новые листы нельзя было вставлять, укажите ProtectionType как Structure.
 
- Чтобы защитить Windows, чтобы они были одинакового размера и положения при каждом открытии книги, укажите ProtectionType как Windows. В этой статье мы покажем, как[защищать](/cells/ru/net/protecting-and-unprotecting-workbooks/) а также[снять защиту](/cells/ru/net/protecting-and-unprotecting-workbooks/) книги с использованием VSTO и Aspose.Cells for .NET, чтобы вы могли сравнить два метода.
+ Чтобы защитить Windows, чтобы они были одинакового размера и положения при каждом открытии книги, укажите ProtectionType как Windows. В этой статье мы покажем, как[защищать](/cells/ru/net/protecting-and-unprotecting-workbooks/) и[снять защиту](/cells/ru/net/protecting-and-unprotecting-workbooks/) книги с использованием VSTO и Aspose.Cells for .NET, чтобы вы могли сравнить два метода.
 
 Aspose.Cells работает независимо от Microsoft Office Automation и разработан, чтобы быть простым в использовании и создавать аккуратный код.
 

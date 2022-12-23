@@ -8,7 +8,7 @@ keywords: open xlsx files, open html files, read fods files, read ods files, rea
 ---
 {{% alert color="primary" %}}
 
- Utilizzando Aspose.Cells è possibile aprire file con diversi formati.**Aspose.Cells** può aprire una gamma di formati di file come fogli di calcolo Microsoft Excel (XLS, XLSX, XLSM, XLSB), SpreadsheetML, file con valori separati da virgola (CSV), delimitati da tabulazioni o con valori separati da tabulazioni (TSV) ecc.
+ Utilizzando Aspose.Cells è possibile aprire file con diversi formati.**Aspose.Cells** può aprire una gamma di formati di file come fogli di calcolo Excel Microsoft (XLS, XLSX, XLSM, XLSB), SpreadsheetML, file con valori separati da virgola (CSV), delimitati da tabulazioni o separati da tabulazioni (TSV) ecc.
 
 Se hai bisogno di conoscere tutti i formati di file supportati, fai riferimento alle seguenti pagine:
 [Formati di file supportati](https://docs.aspose.com/cells/cpp/supported-file-formats/)
@@ -17,29 +17,29 @@ Se hai bisogno di conoscere tutti i formati di file supportati, fai riferimento 
 
 ## **Apertura di file con formati diversi**
 
-Aspose.Cells consente agli sviluppatori di aprire file di fogli di calcolo con diversi formati come SpreadsheetML, valori separati da virgola (CSV), valori delimitati da tabulazioni o separati da tabulazioni (TSV), file ODS. Per aprire tali file, gli sviluppatori possono utilizzare la stessa metodologia utilizzata per aprire file di diverse versioni di Microsoft Excel.
+Aspose.Cells consente agli sviluppatori di aprire file di fogli di calcolo con diversi formati come SpreadsheetML, valori separati da virgola (CSV), valori delimitati da tabulazioni o separati da tabulazioni (TSV), ODS file. Per aprire tali file, gli sviluppatori possono utilizzare la stessa metodologia utilizzata per aprire file di diverse versioni di Excel Microsoft.
 
-### **Apertura di file SpreadsheetML**
+### **Apertura file SpreadsheetML**
 
-file SpreadsheetML sono rappresentazioni XML di fogli di calcolo che includono tutte le informazioni su di esso, come formattazione, formule ecc. Da Microsoft Excel XP, a Microsoft Excel viene aggiunta un'opzione di esportazione XML che esporta i fogli di calcolo in file SpreadsheetML.
+I file SpreadsheetML sono rappresentazioni XML di fogli di calcolo che includono tutte le informazioni su di esso, come formattazione, formule ecc. A partire da Microsoft Excel XP, viene aggiunta un'opzione di esportazione XML a Microsoft Excel che esporta i fogli di calcolo in file SpreadsheetML.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenSpreadsheetMLFile.cpp" >}}
 
-### **Apertura di file HTML**
+### **Apertura file HTML**
 
-Aspose.Cells consente di aprire il file HTML nell'oggetto cartella di lavoro. Il file HTML dovrebbe essere orientato a Microsoft Excel, ovvero MS-Excel dovrebbe essere in grado di aprirlo.
+Aspose.Cells consente di aprire il file HTML nell'oggetto cartella di lavoro. Il file HTML dovrebbe essere Microsoft orientato a Excel, ovvero MS-Excel dovrebbe essere in grado di aprirlo.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenHTMLFile.cpp" >}}
 
-### **Apertura di file CSV**
+### **Apertura file CSV**
 
-I file CSV (Comma Separated Values) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in formato CSV.
+file Comma Separated Values (CSV) contengono record in cui i valori sono separati da virgole. I dati vengono archiviati come una tabella in cui ogni colonna è separata dal carattere virgola e quotata dal carattere virgoletta doppia. Se un valore di campo contiene un carattere di doppia virgoletta, viene preceduto da una coppia di caratteri di doppia virgoletta. Puoi anche utilizzare Microsoft Excel per esportare i dati del foglio di calcolo in CSV.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFile.cpp" >}}
 
 #### **Apertura di file CSV e sostituzione di caratteri non validi**
 
-In Excel, quando viene aperto un file CSV con caratteri speciali, i caratteri vengono automaticamente sostituiti. Lo stesso viene fatto dall'API Aspose.Cells che è dimostrato nell'esempio di codice fornito di seguito.
+In Excel, quando viene aperto il file CSV con caratteri speciali, i caratteri vengono sostituiti automaticamente. Lo stesso viene fatto da Aspose.Cells API che è dimostrato nell'esempio di codice fornito di seguito.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenCSVFileAndReplaceInvalidCharacters.cpp" >}}
 
@@ -69,13 +69,13 @@ Il file con valori separati da tabulazioni (TSV) contiene i dati del foglio di c
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenTSVFile.cpp" >}}
 
-### **Apertura di file SXC**
+### **Apertura file SXC**
 
 StarOffice Calc è simile a Microsoft Excel e supporta formule, grafici, funzioni e macro. I fogli di calcolo creati con questo software vengono salvati con l'estensione SXC. Il file SXC viene utilizzato anche per i file del foglio di calcolo di OpenOffice.org Calc. Aspose.Cells può leggere i file SXC come dimostrato dal seguente esempio di codice.
 
 {{< gist "aspose-cells-gists" "6f7d9819d85793c3a3b5d040af42e1a9" "OpenSXCFile.cpp" >}}
 
-### **Apertura di file FODS**
+### **Apertura file FODS**
 
 Il file FODS è un foglio di calcolo salvato in OpenDocument XML senza alcuna compressione. Aspose.Cells può leggere i file FODS come dimostrato dal seguente esempio di codice.
 

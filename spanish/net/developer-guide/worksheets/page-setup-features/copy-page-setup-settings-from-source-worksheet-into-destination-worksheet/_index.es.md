@@ -6,7 +6,7 @@ url: /es/net/copy-page-setup-settings-from-source-worksheet-into-destination-wor
 ---
 ## **Posibles escenarios de uso**
 
- Cuando agrega una nueva hoja a un libro de trabajo, contiene el valor predeterminado*Configuración de configuración de página*. Puede haber ocasiones en las que necesite transferir la configuración ([**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)de una hoja de trabajo a otra hoja de trabajo. Este documento explica cómo copiar la configuración de Configuración de página de una hoja de trabajo a otra utilizando las API Aspose.Cells.
+ Cuando agrega una nueva hoja a un libro de trabajo, contiene el valor predeterminado*Configuración de configuración de página*. Puede haber ocasiones en las que necesite transferir la configuración ([**Configuración de página**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup)) de una hoja de trabajo a otra hoja de trabajo. Este documento explica cómo copiar la configuración de Configuración de página de una hoja de trabajo a otra utilizando las API Aspose.Cells.
 
 ## **Copie la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino**
 

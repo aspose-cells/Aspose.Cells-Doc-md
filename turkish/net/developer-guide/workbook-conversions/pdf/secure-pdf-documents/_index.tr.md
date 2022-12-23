@@ -1,5 +1,5 @@
 ﻿---
-title: Güvenli PDF Belgeleri
+title: Güvenli PDF Belgeler
 type: docs
 weight: 120
 url: /tr/net/secure-pdf-documents/
@@ -8,7 +8,7 @@ url: /tr/net/secure-pdf-documents/
 
 Bazen geliştiricilerin şifrelenmiş PDF dosyalarıyla çalışması gerekir. Örneğin, belgeleri yalnızca herkesin açamaması veya belge içeriğinin yazdırılıp çıkarılamayacağını veya ayıklanabileceğini kısıtlamak istememesi için kullanıcı ve sahip parolalarıyla güvenceye almaları gerekir.
 
-Bu makalede, elektronik tabloları PDF'ye kaydederken PDF güvenlik seçeneklerinin nasıl aktarılacağı açıklanmaktadır.
+Bu makalede, elektronik tabloları PDF'e kaydederken PDF güvenlik seçeneklerinin nasıl geçileceği açıklanmaktadır.
 
 {{% /alert %}}
 
@@ -18,6 +18,6 @@ Bu makalede, elektronik tabloları PDF'ye kaydederken PDF güvenlik seçenekleri
 
 {{% alert color="primary" %}}
 
- Elektronik tablo formüller içeriyorsa, aramak en iyisidir[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)PDF'ye dönüştürmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve doğru değerlerin PDF'de işlenmesini sağlar.
+ Elektronik tablo formüller içeriyorsa, aramak en iyisidir[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)PDF'e dönüştürülmeden hemen önce. Bu, formüle bağlı değerlerin yeniden hesaplanmasını ve PDF'de doğru değerlerin oluşturulmasını sağlar.
 
 {{% /alert %}}

@@ -21,12 +21,12 @@ url: /zh/python-java/aspose-cells-for-python-via-java-21-6-release-notes/
 |CELLSJAVA-43491|使用数据表的公式值无法正确提取|
 |CELLSJAVA-43498|zh_CN 语言环境的数值格式化结果不正确|
 |CELLSJAVA-43451|Excel 文件内容显示不正确，ChangeStyle (spring) demo 运行不正常|
-|CELLSJAVA-43484|Excel 到 PDF 呈现中的内容布局不一致|
+|CELLSJAVA-43484|内容布局在 Excel 中呈现不一致 PDF|
 |CELLSJAVA-43465|将 Excel 转换为 PDF 时缺少几个图表系列|
 |CELLSJAVA-43468|Excel 中的直线方程问题到 PDF 渲染|
 |CELLSJAVA-43432|重新保存 XLS 文件格式时图表内容不匹配|
 |CELLSJAVA-43475|回归：线包裹的细胞被切断|
-|CELLSJAVA-43478|回归：数字到 PDF，缺少大量数据|
+|CELLSJAVA-43478|回归：NUMBERS 到 PDF，缺少大量数据|
 |CELLSJAVA-43485|回归：从 ODS 渲染 PDF 时的额外内容|
 |CELLSJAVA-43492|转换 XML (SpreadsheetML) 文件会删除输出 XLS 和 XLSX 中“名称定义”中的隐藏设置|
 |CELLSJAVA-43486|将 HTML 文档转换为工作簿时出现 NullPointerException|

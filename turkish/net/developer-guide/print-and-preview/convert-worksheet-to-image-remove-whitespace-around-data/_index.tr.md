@@ -12,7 +12,7 @@ Bazen uygulamalarda veya web sayfalarında çalışma sayfası görüntüleri su
 
 ## **Verilerin etrafındaki Boşlukları Kaldır**
 
- bu[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API, bir çalışma sayfasını, örneğin görüntü formatı, sayfalandırılmış sayfalar vb. belirtilen özniteliklere sahip bir görüntü dosyasına dönüştürür. BMP, GIF, JPG, TIFF ve EMF dahil olmak üzere çeşitli görüntü biçimleri desteklenir.
+ bu[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API, bir çalışma sayfasını, örneğin görüntü formatı, sayfalandırılmış sayfalar vb. belirtilen niteliklere sahip bir görüntü dosyasına dönüştürür. BMP, GIF, JPG, TIFF ve EMF dahil olmak üzere çeşitli görüntü biçimleri desteklenir.
 
  Sayfadan görüntüye özelliğini kullandığınızda, çıktı görüntüsünün çevresinde varsayılan olarak bir boşluk, yani bir kenarlık bulunur. Kaynak çalışma sayfası için üst, alt, sol ve sağ sayfa kurulum kenar boşluklarını 0'a ayarlayarak bunu kaldırabilirsiniz.[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)nitelikleri buna göre.
 

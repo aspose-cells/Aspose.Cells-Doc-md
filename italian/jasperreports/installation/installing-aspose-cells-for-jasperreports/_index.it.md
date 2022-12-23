@@ -8,7 +8,7 @@ url: /it/jasperreports/installing-aspose-cells-for-jasperreports/
 
 L'esempio seguente mostra il codice tipico necessario per esportare un report in un file XLS utilizzando Aspose.Cells for JasperReports. Altri esempi possono essere trovati nei report demo inclusi nell'archivio del prodotto.
 
-**Giava**
+**Java**
 
 {{< highlight "csharp" >}}
 

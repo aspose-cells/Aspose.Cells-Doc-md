@@ -22,7 +22,7 @@ Nous rencontrons différents composants de feuille de calcul sur le marché aujo
 
 Aspose.Cells for Java est un composant flexible qui permet aux applications Java de créer et de gérer des feuilles de calcul Excel sans Microsoft Excel installé sur le système (client ou serveur). Contrairement aux produits similaires d'autres fournisseurs, Aspose.Cells for Java prend en charge non seulement la génération de feuilles de calcul et les fonctionnalités de formatage de fichiers de base, mais également un certain nombre de fonctionnalités avancées. Ces fonctionnalités avancées permettent aux développeurs de manipuler facilement le contenu des feuilles de calcul, le formatage des cellules et les options de protection des fichiers.
 
-Aspose.Cells for Java peut également importer des données dans des feuilles de calcul à partir de différentes sources de données, ajouter des formules et des fonctions mathématiques, date/heure, financières, textuelles communes et complexes, importer des images (tous les principaux formats sont pris en charge, y compris BMP, GIF, JPG, PNG, WMF, EMF et plus encore), créer des commentaires, créer des objets de dessin et des contrôles, et effectuer une gamme d'autres tâches.
+Aspose.Cells for Java peut également importer des données dans des feuilles de calcul à partir de différentes sources de données, ajouter des formules et des fonctions mathématiques, date/heure, financières, textuelles courantes et complexes, importer des images (tous les principaux formats sont pris en charge, y compris BMP, GIF, JPG, PNG, WMF, EMF et plus encore), créer des commentaires, créer des objets de dessin et des contrôles, et effectuer une gamme d'autres tâches.
 
 Aspose.Cells for Java prend également en charge les compléments, VBA et les macros.
 
@@ -64,7 +64,7 @@ JExcelAPI est un Java API utilisé pour lire, écrire et modifier des feuilles d
 
 Au moment de la rédaction, il a un ensemble limité de fonctionnalités. Il prend en charge : la lecture et l'écriture du fichier Excel natif Microsoft (Excel97-2003) au format de fichier XLS uniquement. Il a un support de calcul de formule limité. Il peut manipuler les polices, prendre en charge le formatage des nombres et des dates, modifier les feuilles de calcul existantes, les paramètres régionaux, préserver les graphiques (mais ne permet pas aux développeurs de créer ou de manipuler des graphiques), insérer des images, etc.
 
-#### **Prise en charge limitée des cartes**
+#### **Prise en charge limitée des graphiques**
 
 JExcelApi a un support limité pour les graphiques : il ne prend pas en charge la création et la manipulation de graphiques. Lors de la copie d'une feuille de calcul contenant un graphique, le graphique est écrit dans la feuille de calcul générée (tant que la feuille contenant le graphique contient d'autres données en plus du graphique). Toutes les informations d'image sont conservées lors de la copie de fichiers Excel, cependant, lors de l'ajout d'une image à une feuille de calcul, seules les images au format PNG sont prises en charge.
 
@@ -84,9 +84,9 @@ Il y a aussi quelques obstacles supplémentaires : le API ne prend pas en charg
 
 ### **POI-HSSF**
 
-HSSF est le composant de POI qui lit et écrit des feuilles de calcul Excel. Il dispose d'un ensemble étendu de fonctionnalités par rapport à JExcelAPI, notamment la lecture et l'écriture d'un fichier Excel natif Microsoft (Excel97-2003 - le format de fichier XLSX OOXML n'est pas encore pris en charge), le formatage des cellules (formats de nombres, polices, couleurs, bordures, alignements, etc.) , fusionner des cellules, options de mise en page, importer des images, des formes, des plages nommées, créer des commentaires, des en-têtes et des pieds de page, des hyperliens, ajuster automatiquement les lignes et les colonnes, etc.
+HSSF est le composant de POI qui lit et écrit des feuilles de calcul Excel. Il dispose d'un ensemble étendu de fonctionnalités par rapport à JExcelAPI, y compris la lecture et l'écriture d'un fichier Excel natif Microsoft (le format de fichier Excel97-2003 - XLSX OOXML n'est pas encore pris en charge), le formatage des cellules (formats de nombres, polices, couleurs, bordures, alignements, etc.) , fusionner des cellules, options de mise en page, importer des images, des formes, des plages nommées, créer des commentaires, des en-têtes et des pieds de page, des hyperliens, ajuster automatiquement les lignes et les colonnes, etc.
 
-#### **Prise en charge limitée des cartes**
+#### **Prise en charge limitée des graphiques**
 
 Il existe quelques limitations connues pour le POI-HSSF API. Par exemple, vous ne pouvez actuellement pas créer de graphiques. Vous pouvez cependant créer un graphique dans Excel, modifier les valeurs des données du graphique à l'aide de HSSF et écrire une nouvelle feuille de calcul. Un autre est le support des tableaux croisés dynamiques, la génération de tableaux croisés dynamiques n'est pas possible.
 
@@ -105,9 +105,9 @@ Le tableau suivant tente de fournir un aperçu des fonctionnalités sur la faço
 |**Caractéristique** |**JExcelAPI** |**HSSF de POI** |**Aspose.Cells for Java** |
 |:- |:- |:- |:- |
 |**Formats de fichiers**||||
-| Lire et écrire des formats de fichiers (XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML et HTML)| Partiellement pris en charge| Partiellement pris en charge| Prise en charge|
+| Formats de fichiers en lecture et en écriture (XLS, XLT, XLSX, CSV, SpreadsheetML, Tab Delimited, TXT, XML et HTML)| Partiellement pris en charge| Partiellement pris en charge| Prise en charge|
 | Ouvrir le fichier et enregistrer dans un flux||| Prise en charge|
-| Convertir un fichier Excel en document PDF||| Prise en charge|
+| Convertir le fichier Excel en document PDF||| Prise en charge|
 | Fichiers protégés par mot de passe|| Prise en charge| Prise en charge|
 | Manipuler le contenu de la feuille de calcul||||
 | Modifier les propriétés de document des fichiers Excel||| Prise en charge|

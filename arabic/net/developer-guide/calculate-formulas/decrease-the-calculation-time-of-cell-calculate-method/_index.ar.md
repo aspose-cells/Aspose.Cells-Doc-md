@@ -10,7 +10,7 @@ url: /ar/net/decrease-the-calculation-time-of-cell-calculate-method/
 
 ## **إنقاص وقت الحساب لـ Cell.Calculate () طريقة**
 
- يوضح نموذج التعليمات البرمجية التالي استخدام[**خيارات الحساب**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) منشأه. يرجى تنفيذ هذا الرمز مع المعطى[نموذج ملف اكسل](5113710.xlsx) وتحقق من إخراج وحدة التحكم الخاصة به. ستجد أن تعيين الخاصية العودية إلى**خاطئة**قلل من وقت الحساب بشكل كبير. يرجى أيضًا قراءة التعليقات من أجل فهم أفضل لهذه الخاصية.
+ يوضح نموذج التعليمات البرمجية التالي استخدام[**خيارات الحساب**](https://reference.aspose.com/cells/net/aspose.cells/calculationoptions/properties/recursive) خاصية. يرجى تنفيذ هذا الرمز مع المعطى[نموذج ملف اكسل](5113710.xlsx) وتحقق من إخراج وحدة التحكم الخاصة به. ستجد أن تعيين الخاصية العودية إلى**خاطئة**قلل من وقت الحساب بشكل كبير. يرجى أيضًا قراءة التعليقات من أجل فهم أفضل لهذه الخاصية.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-WorkingWithCalculationEngine-DecreaseCalculationTime-1.cs" >}}
 

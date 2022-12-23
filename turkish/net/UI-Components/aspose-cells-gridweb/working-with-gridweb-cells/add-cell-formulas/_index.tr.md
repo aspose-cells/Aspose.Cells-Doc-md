@@ -27,7 +27,7 @@ Dinamik olarak bir formül eklemek için, Aspose.Cells.GridWeb, **=** işareti k
 
 **B3 hücresine eklenen ancak GridWeb tarafından hesaplanmayan formül** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-formulas_1.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-formulas_1.png)
 
 Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz hesaplanmadığını görebilirsiniz. Tüm formülleri hesaplamak için, formülleri aşağıda gösterildiği gibi çalışma sayfalarına ekledikten sonra GridWeb denetiminin GridWorksheetCollection'ın CalculateFormula yöntemini çağırın.
 
@@ -41,13 +41,13 @@ Yukarıdaki ekran görüntüsünde, B3'e bir formül eklendiğini ancak henüz h
 
 **GridWeb'in Gönder düğmesini tıklatmak** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-formulas_2.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-formulas_2.png)
 
-**ÖNEMLİ** : Bir kullanıcı**Kaydetmek** veya**Geri alma** düğmeleri veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
+**ÖNEMLİ** : Bir kullanıcı**Kayıt etmek** veya**Geri alma** düğmeleri veya sayfa sekmeleri, tüm formüller GridWeb tarafından otomatik olarak hesaplanır.
 
 **Hesaplamadan sonra formül sonucu** 
 
-![yapılacaklar:resim_alternatif_Metin](add-cell-formulas_3.png)
+![yapılacaklar:resim_alternatif_metin](add-cell-formulas_3.png)
 
 {{% /alert %}} 
 ### **Diğer Çalışma Sayfalarından Cells'e Referans Verme**

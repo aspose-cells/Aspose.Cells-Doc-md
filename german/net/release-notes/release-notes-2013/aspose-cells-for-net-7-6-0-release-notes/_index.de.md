@@ -24,7 +24,7 @@ url: /de/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42003 – Problem beim Aktualisieren von PivotTables
 
- 42050 - CellsException:
+42050 - CellsException:
 
  41956 – Ausnahme beim Öffnen der Vorlagendatei
 
@@ -40,7 +40,7 @@ url: /de/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 – Problem mit der Formelberechnung
 
-41997 – Anzeigeproblem bei japanischen Schriftarten
+ 41997 – Anzeigeproblem bei japanischen Schriftarten
 
  \2) Aspose.Cells.GridWeb
 

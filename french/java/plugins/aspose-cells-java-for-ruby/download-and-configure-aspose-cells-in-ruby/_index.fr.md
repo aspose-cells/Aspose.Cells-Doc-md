@@ -25,7 +25,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
 
 {{< /highlight >}}
 
-1.  Et puis exécuter
+1. Et puis exécuter
 
 {{< highlight "java" >}}
 
@@ -33,7 +33,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
 
 {{< /highlight >}}
 
-**OU**
+**OU ALORS**
 
 1.  Exécutez la commande suivante.
 
@@ -42,7 +42,7 @@ Il est très simple et facile d'installer Aspose.cells Java pour Ruby gem, veuil
  $ gem install aspose-cellsjava
 
 {{< /highlight >}}
-## **Utilisant**
+## **En utilisant**
 Incluez les fichiers requis pour travailler avec l'exemple helloworld.
 
 {{< highlight "java" >}}

@@ -13,15 +13,15 @@ url: /de/java/aspose-cells-for-java-17-7-release-notes/
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
 |CELLSJAVA-42322|Unterstützt erweiterte Filter (MS Excel)-Funktion, um Datensätze anzuzeigen, die komplexe Kriterien erfüllen|Neue Funktion|
-|CELLSJAVA-42336|ResultSet importiert Null anstelle des Nullwerts in die XLSX-Datei|Erweiterung|
+|CELLSJAVA-42336|ResultSet importiert Null anstelle des Nullwerts in die Datei XLSX|Erweiterung|
 |CELLSJAVA-42329|Erforderliche Erweiterungen für Datenfilter und Paging-Funktionen – Aspose.Cells.GridWeb (Java)|Erweiterung|
 |CELLSJAVA-41616|SaveCustomStyleFile ist in GridWeb nicht vorhanden (Java)|Erweiterung|
 |CELLSJAVA-42321|CellsHelper.setSignificantDigits() sollte keine (globale) statische Funktion sein|Erweiterung|
 |CELLSJAVA-42327|Einige Formen sind verzerrt und in Excel in PDF-Rendering geändert|Insekt|
-|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Gedankenstriche werden in der PDF-Datei des Diagramms nicht richtig gerendert|Insekt|
+|CELLSJAVA-42290|In TextBoxen in Diagrammen eingefügte Striche und Striche werden in Diagramm PDF nicht richtig gerendert|Insekt|
 |CELLSJAVA-42338|Falsche Ergebnisse bei Verwendung von SUMIFS-Formeln|Insekt|
 |CELLSJAVA-42337|Aspose.Cells kann den Wert der Zelle B4 des Arbeitsblatts "Berechnungen" nicht berechnen|Insekt|
-|CELLSJAVA-42330|Seltsames Ergebnis beim Konvertieren von Excel nach PDF oder PDF/A mit Threads|Insekt|
+|CELLSJAVA-42330|Seltsames Ergebnis bei der Konvertierung von Excel nach PDF oder PDF/A mit Threads|Insekt|
 |CELLSJAVA-42331|Änderungen am Kommentarautorenfeld werden nicht beibehalten|Insekt|
 |CELLSJAVA-42328|Falsches IconSet zurückgegeben|Insekt|
 |CELLSJAVA-42324|Der Hintergrund des Diagramms fehlt, nachdem die Daten eines Bildes eingestellt wurden|Insekt|
@@ -65,7 +65,7 @@ Macht das GridWeb-Steuerelement mit der aktuellen Browserfenstergröße kompatib
 ### **Anwendungsbeispiele**
 Bitte überprüfen Sie die Liste der Hilfethemen, die in den Aspose.Cells-Wiki-Dokumenten hinzugefügt wurden:
 
-- [Read Numbers Spreadsheet Entwickelt von Apple Inc. mit Aspose.Cells](/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Read Numbers Spreadsheet Entwickelt von Apple Inc. unter Verwendung von Aspose.Cells](/cells/de/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Setzen Sie die DefaultFont-Eigenschaft von PdfSaveOptions und ImageOrPrintOptions auf Priorität](/cells/de/java/set-defaultfont-property-of-pdfsaveoptions-and-imageorprintoptions-to-have-priority/)
 - [Importieren Sie Daten aus dem ResultSet-Objekt der Access-Datenbank Microsoft in das Arbeitsblatt](/cells/de/java/import-data-from-microsoft-access-database-resultset-object-to-the-worksheet/)
 - [Wenden Sie den erweiterten Filter von Microsoft Excel an, um Datensätze anzuzeigen, die komplexe Kriterien erfüllen](/cells/de/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)

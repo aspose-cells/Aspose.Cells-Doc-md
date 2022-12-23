@@ -12,7 +12,7 @@ url: /ar/java/adding-vba-module-and-code-using-aspose-cells/
 
 ## **إضافة وحدة VBA والكود باستخدام Aspose.Cells**
 
-ينشئ نموذج التعليمات البرمجية التالي مصنفًا جديدًا ويضيف وحدة VBA النمطية الجديدة ورمز الماكرو ويحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف XLSM الناتج في Microsoft Excel والنقر فوق ملف**المطور> Visual Basic** أوامر القائمة ، سترى وحدة تسمى "TestModule" وداخلها ، سترى رمز الماكرو التالي.
+ينشئ نموذج التعليمات البرمجية التالي مصنفًا جديدًا ويضيف وحدة VBA النمطية الجديدة ورمز الماكرو ويحفظ الإخراج بتنسيق XLSM. بمجرد فتح ملف الإخراج XLSM في Microsoft Excel والنقر فوق**المطور> Visual Basic** أوامر القائمة ، سترى وحدة تسمى "TestModule" وداخلها ، سترى رمز الماكرو التالي.
 
 {{< highlight "java" >}}
 
@@ -26,6 +26,6 @@ End Sub
 
 ## عينة من الرموز
 
-فيما يلي نموذج تعليمة برمجية لإنشاء ملف XLSM الناتج باستخدام وحدة VBA وكود الماكرو.
+فيما يلي نموذج التعليمات البرمجية لإنشاء ملف الإخراج XLSM باستخدام وحدة VBA وكود الماكرو.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AddVBAModuleAndCode-AddVBAModuleAndCode.java" >}}

@@ -12,7 +12,7 @@ url: /es/net/check-password-to-modify-using-aspose-cells/
 
 ## **Consultar Contraseña a modificar en Microsoft Excel**
 
-Puedes asignar**Contraseña para abrir** y**Contraseña para modificar** mientras crea sus libros de trabajo en Microsoft Excel. Consulte esta captura de pantalla que muestra la interfaz Microsoft que proporciona Excel para especificar estas contraseñas.
+ Puedes asignar**Contraseña para abrir** y**Contraseña para modificar** mientras crea sus libros de trabajo en Microsoft Excel. Consulte esta captura de pantalla que muestra la interfaz Microsoft que proporciona Excel para especificar estas contraseñas.
 
 |![todo:imagen_alternativa_texto](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |

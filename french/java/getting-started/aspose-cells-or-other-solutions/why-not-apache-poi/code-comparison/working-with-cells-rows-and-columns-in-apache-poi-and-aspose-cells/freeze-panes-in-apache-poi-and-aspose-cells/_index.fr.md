@@ -7,7 +7,7 @@ url: /fr/java/freeze-panes-in-apache-poi-and-aspose-cells/
 ## **Aspose.Cells - Figer les volets**
 Aspose.Cells fournit une classe,[Cahier](http://docs.aspose.com:8082/docs/display/cellsjava/Workbook)qui représente un fichier Excel Microsoft. La classe Workbook contient une WorksheetCollection qui permet d'accéder à chaque feuille de calcul dans un fichier Excel.
 
-Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classer. La classe Worksheet fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer les volets de gel, appelez la méthode freezePanes de la classe Worksheet. La méthode FreezePanes prend les paramètres suivants :
+Une feuille de calcul est représentée par le[Feuille de travail](http://docs.aspose.com:8082/docs/display/cellsjava/Worksheet)classe. La classe Worksheet fournit un large éventail de propriétés et de méthodes pour gérer les feuilles de calcul. Pour configurer les volets de gel, appelez la méthode freezePanes de la classe Worksheet. La méthode FreezePanes prend les paramètres suivants :
 
 - **Ligne**, l'index de ligne de la cellule à partir de laquelle le gel commencera.
 - **Colonne**, l'index de colonne de la cellule à partir de laquelle le gel commencera.

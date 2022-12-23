@@ -121,9 +121,9 @@ RowCollection ya no hereda CollectionBase porque no hay ningún objeto Row en su
 
 {{% /alert %}}
 ## **Cell. Cambio de comportamiento de StringValue**
- En versiones anteriores, patrón especial_se ignoró al formatear los valores de las celdas, donde el carácter especial * siempre producía un carácter en el resultado formateado. A partir de esta versión, hemos cambiado la lógica para manejar caracteres especiales._ y* para que el resultado formateado sea el mismo que el de la aplicación Excel. Por ejemplo, el formato de celda personalizado "_(\$* #,##0.00_)" utilizado para representar el valor 123 produjo el resultado como "$ 123,00". Con las nuevas versiones, Cell.StringValue contendrá el resultado como "$123,00", que es el mismo comportamiento que muestra la aplicación Excel al copiar la celda para enviar mensajes de texto o exportar a CSV.
+ En versiones anteriores, patrón especial_se ignoró al formatear los valores de las celdas, donde el carácter especial * siempre producía un carácter en el resultado formateado. A partir de esta versión, hemos cambiado la lógica para manejar caracteres especiales._ y* para que el resultado formateado sea el mismo que el de la aplicación Excel. Por ejemplo, el formato de celda personalizado "_(\$* #,##0.00_)" utilizado para representar el valor 123 produjo el resultado como "$ 123,00". Con las nuevas versiones, Cell.StringValue contendrá el resultado como "$123,00", que es el mismo comportamiento que muestra la aplicación Excel al copiar la celda para enviar mensajes de texto o exportar al CSV.
 ## **Se agregó CreatedTime a PdfSaveOptions**
-Ahora los usuarios pueden obtener o establecer el tiempo de creación de PDF mientras guardan la hoja de cálculo en PDF mientras usan la clase PdfSaveOptions.
+Ahora los usuarios pueden obtener o configurar el tiempo de creación PDF mientras guardan la hoja de cálculo en PDF mientras usan la clase PdfSaveOptions.
 ## **Se agregaron ShowFormulas a la hoja de trabajo**
 De ahora en adelante, los usuarios pueden usar la propiedad booleana ShowFormulas que ofrece Worksheet para cambiar la vista entre la fórmula y el valor de una hoja de cálculo determinada.
 ## **Se agregó Ooxml a FileFormatType**

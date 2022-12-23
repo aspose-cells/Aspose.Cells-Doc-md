@@ -8,9 +8,9 @@ url: /it/java/how-to-specify-truetype-fonts-location/
 
 Questo articolo descrive:
 
-1. [Dove l'API Aspose.Cells cerca i font TrueType](/cells/it/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
-1. [Come specificare in modo esplicito una cartella di caratteri TrueType per l'API Aspose.Cells](/cells/it/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
-1. [Come limitare l'API Aspose.Cells all'utilizzo di una sola posizione dei caratteri TrueType](/cells/it/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
+1. [Dove Aspose.Cells API cerca i font TrueType](/cells/it/java/how-to-specify-truetype-fonts-location/#where-asposecells-looks-for-truetype-fonts-on-windows).
+1. [Come specificare esplicitamente una cartella di font TrueType per Aspose.Cells API](/cells/it/java/how-to-specify-truetype-fonts-location/#how-to-explicitly-specify-a-font-folder).
+1. [Come limitare Aspose.Cells API per utilizzare solo una posizione dei caratteri TrueType](/cells/it/java/how-to-specify-truetype-fonts-location/#how-to-restrict-the-asposecells-to-use-only-one-font-folder).
 
 {{% /alert %}}
 
@@ -22,7 +22,7 @@ Questo articolo descrive:
 
 ### **Dove Aspose.Cells cerca i caratteri TrueType su Linux**
 
-Per impostazione predefinita, l'API Aspose.Cells cerca i caratteri in tutte le seguenti posizioni, sebbene distribuzioni Linux diverse memorizzino i caratteri in cartelle diverse.
+Per impostazione predefinita, Aspose.Cells API cerca i caratteri in tutte le seguenti posizioni, sebbene distribuzioni Linux diverse memorizzino i caratteri in cartelle diverse.
 
 1. /usr/share/fonts
 1. /usr/local/share/fonts
@@ -47,13 +47,13 @@ Quando specifichi la cartella dei caratteri utilizzando uno dei metodi sopra men
 
 {{% /alert %}} {{% alert color="primary" %}}
 
-L'impostazione della cartella dei caratteri utilizzando uno dei metodi sopra indicati non garantisce che l'API Aspose.Cells non cercherà i caratteri nelle posizioni predefinite come la cartella dei caratteri del sistema.
+L'impostazione della cartella dei caratteri utilizzando uno dei metodi di cui sopra non garantisce che Aspose.Cells API non cercherà i caratteri nelle posizioni predefinite come la cartella dei caratteri del sistema.
 
 {{% /alert %}}
 
 ### **Come limitare lo Aspose.Cells all'uso di una sola cartella di caratteri**
 
- A partire da Aspose.Cells for Java 8.1.0, impostando gli argomenti JVM come**-DAspose.Cells.FontDirExc="DirFont**assicurerà che l'API Aspose.Cells utilizzerà solo la posizione dei caratteri specificata.
+ A partire da Aspose.Cells for Java 8.1.0, impostando gli argomenti JVM come**-DAspose.Cells.FontDirExc="DirFont**assicurerà che Aspose.Cells API utilizzerà solo la posizione dei caratteri specificata.
 
 Impostare gli argomenti specificati utilizzando il metodo System.setProperty come mostrato di seguito.
 

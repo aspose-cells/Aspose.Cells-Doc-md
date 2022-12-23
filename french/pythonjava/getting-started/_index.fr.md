@@ -8,7 +8,7 @@ keywords: python, excel, instal
 description: Configuration Aspose.Cells for Python via Java et directives d'installation.
 ---
 ## **Configuration requise**
-Aspose.Cells for Python via Java est indépendant de la plate-forme API et peut être utilisé sur n'importe quelle plate-forme (Windows, Linux et MacOS) où[Python](https://www.python.org/downloads/) est installé. La machine doit disposer des versions Java 8 ou supérieures avant de configurer l'installation.
+ Aspose.Cells for Python via Java est indépendant de la plate-forme API et peut être utilisé sur n'importe quelle plate-forme (Windows, Linux et MacOS) où[Python](https://www.python.org/downloads/) est installé. La machine doit disposer des versions Java 8 ou supérieures avant de configurer l'installation.
 
 ## **Version Python**
 - Python 3.5 ou supérieur

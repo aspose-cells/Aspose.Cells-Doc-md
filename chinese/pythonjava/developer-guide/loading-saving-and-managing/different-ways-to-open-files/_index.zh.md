@@ -30,7 +30,7 @@ url: /zh/python-java/different-ways-to-open-files/
 
 {{% alert color="primary" %}}
 
-Aspose.Cells 尝试打开非原生Excel文件或其他文件格式（例如PPT/PPTX、DOC/DOCX等）会抛出异常。
+Aspose.Cells尝试打开非原生Excel文件或其他文件格式（例如PPT/PPTX、DOC/DOCX等）会抛出异常。
 
 {{% /alert %}} {{% alert color="primary" %}}
 

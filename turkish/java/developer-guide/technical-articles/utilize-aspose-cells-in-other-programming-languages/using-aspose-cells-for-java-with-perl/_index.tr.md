@@ -16,7 +16,7 @@ Aspose.Cells for Java, Perl ile kullanılabilen saf bir Java bileşenidir. Bile�
 - Aspose.Cells for Java.
 - Java - Perl uzantısı.
 - Java Aspose.Cells for Java ve Java-Perl uzantısının gereksinimlerini karşılayan çalışma zamanı.
-### **Kılavuz**
+### **Rehberlik etmek**
  Perl'de bir Java API'i aramak için, önce Perl için Java-Perl uzantısını kurmanız gerekir. (Bu makalenin amaçları doğrultusunda, Perl'in düzgün bir şekilde kurulduğunu ve ayarlandığını varsayıyoruz.) Java-Perl uzantısını adresinden edinebilirsiniz.[Metzzo/Java-4.7/](https://metacpan.org/release/METZZO/Java-4.7)
 
  Bu belgenin sonunda, Aspose.Cells for Java'i çağıran bir Perl betiği örneği bulunmaktadır. Çalıştırmak için aşağıdaki adımları izleyin:

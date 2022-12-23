@@ -10,7 +10,7 @@ Den här artikeln kommer att förklara hur du tillämpar delsumma på data och �
 
  Du kan tillämpa delsumma på data med hjälp av[**Arbetsblad.Cells.subtotal()**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#subtotal(com.aspose.cells.CellArea,%20int,%20int,%20int[])) metod. Den kräver följande parametrar.
 
-- **CellArea** - Intervallet att tillämpa delsumma på
+- **CellArea** Intervallet att tillämpa delsumma på
 - **Grupp av** - Fältet att gruppera efter, som en nollbaserad heltalsoffset
 - **Fungera** - Deltotalfunktionen.
 - **Totallista** - En matris med nollbaserade fältförskjutningar, som indikerar de fält till vilka delsummorna läggs till.

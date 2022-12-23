@@ -6,7 +6,7 @@ url: /ru/jasperreports/feature-tour/
 ---
 ###### **Этот раздел включает следующие темы:**
 - [Обзор функций](/cells/ru/jasperreports/feature-overview/)
-- [Экспорт XLS или XLSX](/cells/ru/jasperreports/xls-or-xlsx-export/)
+- [XLS или XLSX Экспорт](/cells/ru/jasperreports/xls-or-xlsx-export/)
 - [Высокая точность дизайна отчета](/cells/ru/jasperreports/high-fidelity-to-the-report-design/)
 - [Простое и легкое развертывание](/cells/ru/jasperreports/easy-and-lightweight-deployment/)
 - [Простое и доступное лицензирование](/cells/ru/jasperreports/simple-and-affordable-licensing/)

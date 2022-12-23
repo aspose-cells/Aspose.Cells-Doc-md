@@ -81,5 +81,5 @@ Di seguito è riportato il confronto del codice dell'applicazione dello stile a 
  myWorkbook.Save(fileName);
 
 {{< /highlight >}}
-## **Scarica**
+## **Scaricamento**
 - [Git Hub](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Cells1.1/ApplyStylesToRanges.Aspose.Cells.zip)

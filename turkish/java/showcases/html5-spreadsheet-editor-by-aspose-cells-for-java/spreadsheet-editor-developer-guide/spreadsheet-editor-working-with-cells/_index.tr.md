@@ -12,7 +12,7 @@ url: /tr/java/spreadsheet-editor-working-with-cells/
  - WorksheetView.removeCellShiftUp
  - WorksheetView.removeCellShiftLeft
 - [Cell'i temizle](#SpreadsheetEditor-WorkingwithCells-ClearaCell) 
- - WorksheetView.clearCurrentCellFormatting
+ WorksheetView.clearCurrentCellFormatting
  - WorksheetView.clearCurrentCellContents
  - WorksheetView.clearCurrentCell
 ### **Cell seçilmesi**
@@ -147,13 +147,13 @@ Bir hücreyi temizlemek için:
 1. Temizlemek istediğiniz bir hücreye tıklayın.
 1.  Çevirmek**Biçim sekmesi**.
 1.  Tıklamak**Temizle Cell** buton.
-1.  Seçmek**formatlar**, **İçindekiler** veya**İkisi birden** seçenek.
+1.  Seçmek**formatlar**, **İçindekiler** veya**Her ikisi de** seçenek.
 
 Düzenleyici seçilen hücreyi temizleyecektir.
 
 **Nasıl çalışır?**
 
- bu**formatlar**, **İçindekiler** ve**İkisi birden** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
+ bu**formatlar**, **İçindekiler** ve**Her ikisi de** JSF arka uç çekirdeği tarafından işlenir**Çalışma Sayfası Görünümü**. İlgili yöntemlerin kaynak kodu aşağıdaki gibidir:
 #### **WorksheetView.clearCurrentCellBiçimlendirme**
 {{< highlight "java" >}}
 

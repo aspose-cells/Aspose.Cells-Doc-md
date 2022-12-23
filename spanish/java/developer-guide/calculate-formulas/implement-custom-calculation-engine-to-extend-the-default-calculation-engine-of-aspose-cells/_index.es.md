@@ -8,7 +8,7 @@ url: /es/java/implement-custom-calculation-engine-to-extend-the-default-calculat
 
 Aspose.Cells tiene un potente motor de cálculo que puede calcular casi todas las fórmulas de Excel Microsoft. A pesar de ello, también te permite ampliar el motor de cálculo predeterminado lo que te proporciona mayor potencia y flexibilidad.
 
-Las siguientes propiedades y clases se utilizan para implementar esta característica.
+Las siguientes propiedades y clases se utilizan para implementar esta función.
 
 - [CalculationOptions.CustomEngine](https://reference.aspose.com/cells/java/com.aspose.cells/calculationoptions#CustomEngine)
 - [ResumenCálculoMotor](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)

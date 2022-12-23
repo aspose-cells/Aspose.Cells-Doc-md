@@ -27,7 +27,7 @@ Estamos
  Excepciones
 
 - NullReferenceException al abrir/guardar un archivo XLSX
-- Excepción: Hay demasiados formatos en la hoja de trabajo
+- Excepción: hay demasiados formatos en la hoja de trabajo
 
  -La operación aritmetica resulto en un desbordamiento
 
@@ -42,11 +42,11 @@ Estamos
  -#Referencia recursiva! Error
 
 - Copiar archivo usando Aspose Cells requiere trabajo de reparación
-- Pensando que un archivo XLS de Excel 97 es un documento de Word
+- Pensando que un archivo de Excel 97 XLS es un documento de Word
 
- -El gráfico de exportación a PDF es diferente de la versión de Excel
+ -La exportación al gráfico PDF es diferente de la versión de Excel
 
-- Exportar a gráfico PDF es diferente de la versión de Excel -2
+- Exportar al gráfico PDF es diferente de la versión de Excel -2
 
 -Las líneas adicionales están incrustadas en los gráficos
 
@@ -68,7 +68,7 @@ Estamos
 - Valor
  de la función SumIf() no se muestra en GridWeb
 ### **40638 - GridWeb - no**
- mostrando espacios en blanco
+ mostrando espacio en blanco
 ### **40724**
 - Error de validación de GridWeb: los números de fila no están alineados con el real
  filas

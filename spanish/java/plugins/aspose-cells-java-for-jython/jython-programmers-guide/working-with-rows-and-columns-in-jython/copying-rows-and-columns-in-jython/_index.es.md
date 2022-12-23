@@ -17,7 +17,7 @@ desde com.aspose.cells libro de trabajo de importación
 
 clase filas y columnas:
 
- definitivamente__en eso__(uno mismo):
+ definitivamente__en eso__(ser):
 
 
 
@@ -25,7 +25,7 @@ clase filas y columnas:
 
 
 
- # Copiando filas
+ # Copiando Filas
 
  self.copiar_filas()
 

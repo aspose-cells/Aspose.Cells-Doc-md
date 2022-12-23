@@ -17,9 +17,9 @@ Aşağıdaki örnek kod,[örnek excel dosyası](61767772.xlsx)hangi dört yaprak
 - Yer İşareti-III
 - Bookmark-IV-Chart2
 
-Aşağıdaki ekran görüntüsü[çıktı PDF](61767771.pdf)referans için örnek kod tarafından oluşturulur.
+Aşağıdaki ekran görüntüsü[çıkış PDF](61767771.pdf)referans için örnek kod tarafından oluşturulur.
 
-![yapılacaklar:resim_alternatif_Metin](create-pdfbookmarkentry-for-chart-sheet_1.png)
+![yapılacaklar:resim_alternatif_metin](create-pdfbookmarkentry-for-chart-sheet_1.png)
 
 ## **Basit kod**
 

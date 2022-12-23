@@ -31,7 +31,7 @@ url: /es/net/aspose-cells-for-net-7-5-3-release-notes/
 
  41884 - La imagen TIF de salida no es correcta
 
- 41865 - Problemas de conversión de Excel a MHTML
+ 41865 - Conversión de problemas de Excel a MHTML
 
 41914 - Archivos dañados al fusionar libros de trabajo
 
@@ -50,7 +50,7 @@ url: /es/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 
 
 

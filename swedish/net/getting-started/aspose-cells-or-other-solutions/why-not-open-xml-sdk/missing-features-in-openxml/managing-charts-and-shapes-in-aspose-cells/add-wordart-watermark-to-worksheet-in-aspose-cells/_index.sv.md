@@ -66,7 +66,7 @@ workbook.Save(FileName);
 
 {{< /highlight >}}
 
-## **Ladda ner exempelkod**
+## **Ladda ner provkod**
 
 - [Github](https://github.com/aspose-cells/Aspose.Cells-for-.NET/tree/master/Plugins/Aspose.Cells%20Vs%20OpenXML%20Spreadsheets/OpenXML%20Missing%20Features/Add%20WordArt%20Watermark)
 

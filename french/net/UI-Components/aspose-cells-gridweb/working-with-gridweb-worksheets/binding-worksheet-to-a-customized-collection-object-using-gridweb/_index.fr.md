@@ -261,7 +261,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 {{< /highlight >}}
 ### **Étape 5 : Exécution de l'application**
- Exécutez l'application en appuyant sur**Ctrl+F5** ou en cliquant sur le**Commencer** bouton dans VS.NET. Le formulaire Web s'ouvre dans une nouvelle fenêtre de navigateur.
+ Exécutez l'application en appuyant sur**Ctrl+F5** ou en cliquant sur le**Démarrer** bouton dans VS.NET. Le formulaire Web s'ouvre dans une nouvelle fenêtre de navigateur.
 
 **Feuille de calcul liée à une collection personnalisée** 
 
@@ -285,7 +285,7 @@ private void GridWeb1_InitializeNewBindRow(GridWorksheet sender, object bindObje
 
 
 
-Après avoir modifié les données, cliquez sur**sauvegarder** ou**Soumettre** pour enregistrer vos modifications.
+Après avoir modifié les données, cliquez sur**Sauver** ou alors**Nous faire parvenir** pour enregistrer vos modifications.
 
 **Enregistrement des modifications en cliquant sur le bouton Enregistrer** 
 

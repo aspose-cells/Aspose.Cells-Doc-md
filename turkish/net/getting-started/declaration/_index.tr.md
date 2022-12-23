@@ -19,7 +19,7 @@ Aspose.Cells for .NET'i Medium Trust düzeyinde veya paylaşılan sunucu ortamı
 
 - Lisans dosyasını kodunuzda ayarlamak için, lisans dosyasını akışlara aldıktan sonra bunun yerine License.SetLicense(Stream) yöntemini çağırmanız daha iyi olur.
 - Yazı tiplerinin dizini (izinle erişilebilen) ayarlanmalıdır. Sunucudaki dosyaya erişmenin bir yolu yoksa, lütfen uygulamanıza gerekli yazı tipi dosyalarını ekleyin.
-- Kısmi güven modunda, Şekilden EMF'ye dönüştürme desteklenmez, bu nedenle dışa aktarılan görüntü türünü (şekiller için) başka bir görüntü formatına ayarlayın.
+- Kısmi güven modunda, Şekilden EMF'e dönüştürme desteklenmez, bu nedenle dışa aktarılan görüntü türünü (şekiller için) başka bir görüntü formatına ayarlayın.
 
 Orta Güven modunda Aspose.Cells for .NET'in nasıl kullanılacağını/çalıştırılacağını gösteren aşağıdaki örneğe bakın.
 

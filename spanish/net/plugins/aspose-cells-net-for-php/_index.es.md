@@ -119,7 +119,7 @@ y ejecuta el comando de instalación
 
 ### **Apoyar Extender y Contribuir**
 
-#### **Apoyo**
+#### **Soporte**
 
 Desde los primeros días de Aspose, sabíamos que solo dar buenos productos a nuestros clientes no sería suficiente. También necesitábamos brindar un buen servicio. Nosotros mismos somos desarrolladores y entendemos lo frustrante que es cuando un problema técnico o una peculiaridad en el software le impiden hacer lo que debe hacer. Estamos aquí para resolver problemas, no para crearlos.
 
@@ -150,7 +150,7 @@ Esta sección incluye los siguientes temas
       - [Guardar archivos en PHP](/cells/es/net/saving-files-in-php/)
     - [Funciones de utilidad en PHP](/cells/es/net/utility-features-in-php/)
       - [Cifrado de archivos en PHP](/cells/es/net/encrypting-files-in-php/)
-      - [Conversión de Excel a PDF en PHP](/cells/es/net/excel-to-pdf-conversion-in-php/)
+      - [Excel a PDF Conversión en PHP](/cells/es/net/excel-to-pdf-conversion-in-php/)
       - [Gestión de propiedades de documentos en PHP](/cells/es/net/managing-document-properties-in-php/)
       - [Conversión de hoja de trabajo a imagen en PHP](/cells/es/net/worksheet-to-image-conversion-in-php/)
   - [Trabajar con fórmulas en PHP](/cells/es/net/working-with-formulas-in-php/)

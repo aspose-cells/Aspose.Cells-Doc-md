@@ -41,7 +41,7 @@ Microsoft Excel permite a los usuarios rastrear precedentes y dependientes.
 ### **Rastreando precedentes**
 Aspose.Cells facilita la obtención de celdas precedentes. No solo puede recuperar celdas que proporcionan datos a los precedentes de una fórmula simple, sino que también puede encontrar celdas que proporcionan datos a los precedentes de una fórmula compleja con rangos con nombre.
 
-En el siguiente ejemplo, se utiliza un archivo de plantilla de Excel, Book1.xls. La hoja de cálculo tiene datos y fórmulas en la primera hoja de cálculo.
+En el siguiente ejemplo, se utiliza un archivo de plantilla de Excel, Book1.xls. La hoja de cálculo tiene datos y fórmulas en la primera hoja de trabajo.
 
 **La hoja de cálculo de entrada** 
 

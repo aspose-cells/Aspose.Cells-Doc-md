@@ -13,7 +13,7 @@ Det är två frågor som vi hör oftast här på Aspose:
 1. **Kräver dina produkter att Microsoft Office är installerat för att de ska kunna köras?** 
  Det enkla svaret är nej. Aspose komponenter är helt oberoende och är inte anslutna till, inte heller auktoriserade, sponsrade eller på annat sätt godkända av Microsoft Corporation.
 1. **Varför ska vi använda Aspose-produkter istället för att använda Microsoft Office-automation?**
-Det kortaste svaret vi kan ge är att det finns många anledningar, där den främsta är att Microsoft själva starkt rekommenderar Office-automatisering från mjukvarulösningar:[Överväganden för automatisering av Office på serversidan](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
+ Det kortaste svaret vi kan ge är att det finns många anledningar, där den främsta är att Microsoft själva starkt rekommenderar Office-automatisering från mjukvarulösningar:[Överväganden för automatisering av Office på serversidan](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
 
 Det finns flera anledningar till varför Aspose komponenter är ett bättre alternativ till automation. Några av de viktigaste skälen är:
 

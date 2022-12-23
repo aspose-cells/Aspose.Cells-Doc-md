@@ -16,7 +16,7 @@ url: /zh/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
-新的功能
+新功能
 
 
 
@@ -41,7 +41,7 @@ url: /zh/net/aspose-cells-for-net-7-5-3-release-notes/
 
 
 
-新的功能
+新功能
 
 
 ## **虫子**

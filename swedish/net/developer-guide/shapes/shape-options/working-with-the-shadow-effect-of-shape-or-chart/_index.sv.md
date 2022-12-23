@@ -15,7 +15,7 @@ url: /sv/net/working-with-the-shadow-effect-of-shape-or-chart/
 - [Storlek](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/size)
 - [Genomskinlighet](https://reference.aspose.com/cells/net/aspose.cells.drawing/shadoweffect/properties/transparency)
 ## **Arbeta med skuggeffekten av form eller diagram**
- Följande exempelkod laddar[källkod excel-fil](5115425.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)egenskapen och sparar sedan arbetsboken i[output excel-fil](5115411.xlsx).
+ Följande exempelkod laddar[source excel-fil](5115425.xlsx) och kommer åt den första formen i det första kalkylbladet och ställer in underegenskaperna för[Shape.ShadowEffect](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/properties/shadoweffect)egenskapen och sparar sedan arbetsboken i[output excel-fil](5115411.xlsx).
 
 
 

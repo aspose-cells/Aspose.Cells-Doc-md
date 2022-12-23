@@ -77,7 +77,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-17-1-0/
 
 
 ### **تمت إضافة خاصية CellsHelper.SignificantDigits**
-كشف Aspose.Cells 17.1.0 خاصية SignificantDigits من فئة CellsHelper والتي تسمح بالحصول على أو تعيين عدد الأرقام المعنوية للقيم الرقمية في جدول بيانات. القيمة الافتراضية للخاصية CellsHelper.SignificantDigits هي 17 في حين أنها قابلة للتطبيق فقط إذا كان يجب تخزين النتيجة في تنسيق ملف XLSX.
+كشف Aspose.Cells 17.1.0 خاصية SignificantDigits من فئة CellsHelper والتي تسمح بالحصول على أو تعيين عدد الأرقام المعنوية للقيم الرقمية في جدول بيانات. القيمة الافتراضية للخاصية CellsHelper.SignificantDigits هي 17 في حين أنها قابلة للتطبيق فقط إذا كان لابد من تخزين النتيجة في تنسيق ملف XLSX.
 
 فيما يلي سيناريو بسيط لتوضيح استخدام خاصية CellsHelper.SignificantDigits.
 

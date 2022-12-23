@@ -150,7 +150,7 @@ Aspose.Cells .NET for PHP مفتوح المصدر وكود المصدر الخا
       - [حفظ الملفات في PHP](/cells/ar/net/saving-files-in-php/)
     - [ميزات المنفعة في PHP](/cells/ar/net/utility-features-in-php/)
       - [تشفير الملفات في PHP](/cells/ar/net/encrypting-files-in-php/)
-      - [Excel لتحويل PDF في PHP](/cells/ar/net/excel-to-pdf-conversion-in-php/)
+      - [Excel إلى PDF التحويل في PHP](/cells/ar/net/excel-to-pdf-conversion-in-php/)
       - [إدارة خصائص الوثيقة في PHP](/cells/ar/net/managing-document-properties-in-php/)
       - [ورقة العمل لتحويل الصورة في PHP](/cells/ar/net/worksheet-to-image-conversion-in-php/)
   - [العمل مع الصيغ في PHP](/cells/ar/net/working-with-formulas-in-php/)

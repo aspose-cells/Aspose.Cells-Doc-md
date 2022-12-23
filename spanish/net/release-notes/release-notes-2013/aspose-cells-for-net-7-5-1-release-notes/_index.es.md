@@ -14,11 +14,11 @@ url: /es/net/aspose-cells-for-net-7-5-1-release-notes/
 
  Nuevas características
 
- 41522 - Escenarios de análisis en la conversión de XLS a XLSM
+ 41522 - Escenarios de análisis en la conversión XLS a XLSM
 
- Actuación
+ Rendimiento
 
- 41526 - La conversión de XLSX a PDF se cuelga
+ 41526 - XLSX a PDF la conversión se cuelga
 
  Excepciones
 
@@ -30,7 +30,7 @@ url: /es/net/aspose-cells-for-net-7-5-1-release-notes/
 
  41685 - Problemas con el tamaño automático del cuadro de texto
 
- 41751 - Fórmula(s) de matriz perdida(s) al guardar
+41751 - Fórmula(s) de matriz perdida(s) al guardar
 
  41787 - El archivo está dañado al guardar
 

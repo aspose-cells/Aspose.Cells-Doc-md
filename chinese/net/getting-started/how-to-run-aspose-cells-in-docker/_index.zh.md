@@ -25,9 +25,9 @@ url: /zh/net/how-to-run-aspose-cells-in-docker/
 要创建 Hello World 程序，请按照以下步骤操作：
 1. 安装 Docker 后，确保它使用 Linux 容器（默认）。如有必要，从 Docker 桌面菜单中选择切换到 Linux 容器选项。
 1. 在 Visual Studio 中，创建一个 .NET Core 控制台应用程序。<br>
-![待办事项：图像_替代_文本](create-a-new-project.png)<br>
+![待办事项：图片_替代_文本](create-a-new-project.png)<br>
 1. 从 NuGet 安装最新的 Aspose.Cells 版本。System.Drawing.Common 和 System.Text.Encoding.CodePages 将作为 Aspose.Cells 的依赖项安装。<br>
-![待办事项：图像_替代_文本](nuget-aspose-cells.png)<br>
+![待办事项：图片_替代_文本](nuget-aspose-cells.png)<br>
 1. 由于应用程序将在 Linux 上运行，因此必须安装适当的本机 Linux 资产。从 dotnet core sdk 3.1 基础映像开始并安装 libgdiplus libc6-dev。
 1. 添加所有必需的依赖项后，编写一个简单的程序来创建一个“Hello World！”工作簿并将其保存为所有支持的保存格式：<br>
 **.NET**<br>

@@ -10,8 +10,8 @@ Det här dokumentet beskriver ändringarna av Aspose.Cells API från version 8.6
 
 {{% /alert %}} 
 ## **Lade till API:er**
-### **Stöd för HTML-länkmåltyp**
-Den här utgåvan av Aspose.Cells for .NET API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet vid konvertering till HTML-format](/cells/sv/net/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är Self.
+### **Stöd för HTML Länkmåltyp**
+ Den här utgåvan av Aspose.Cells for .NET API har avslöjat en uppräkning nämligen HtmlLinkTargetType tillsammans med en ny egenskap HtmlSaveOptions.LinkTargetType som tillsammans tillåter att[ställ in måltypen för länkarna i kalkylbladet medan du konverterar till formatet HTML](/cells/sv/net/change-the-html-link-target-type/). De möjliga värdena för HtmlLinkTargetType-uppräkningen följer där standardvärdet är Self.
 
 1. HtmlLinkTargetType.Blank: Öppnar det länkade dokumentet/sidan i ett nytt fönster eller flik.
 1. HtmlLinkTargetType.Parent: Öppnar det länkade dokumentet/sidan i den överordnade ramen.
@@ -132,7 +132,7 @@ cell.SetCharacters(settings);
 
 
 ### **Egenskapen VbaProject.IsSigned tillagd**
- Aspose.Cells for .NET 8.6.1 har exponerat egenskapen VbaProject.IsSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/net/check-if-vba-project-in-a-workbook-is-signed/). Boolesk typ egenskap returnerar true om projektet är signerat.
+ Aspose.Cells for .NET 8.6.1 har exponerat egenskapen VbaProject.IsSigned som kan användas för att[testa om ett VbaProject i en arbetsbok är signerat eller inte](/cells/sv/net/check-if-vba-project-in-a-workbook-is-signed/)Boolesk typ egenskap returnerar true om projektet är signerat.
 
 Följande är det enkla användningsscenariot.
 

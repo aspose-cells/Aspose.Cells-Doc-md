@@ -14,7 +14,7 @@ url: /es/java/aspose-cells-for-java-v2-1-0-release-notes/
 
 Qué ha cambiado:
 
-l Agregue nuevas características para el archivo de hoja de cálculo de documento abierto (ODS): hipervínculo, opciones de configuración de página, esquema de grupo, formato condicional, validación de datos, filtro automático, salto de página, filas/columnas de título impreso, objetos relacionados con formas (comentario, arco, botón, casilla de verificación, cuadro combinado , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
+l Agregue nuevas características para el archivo de hoja de cálculo de documento abierto (ODS): Hipervínculo, Opciones de configuración de página, Esquema de grupo, Formato condicional, Validación de datos, Autofiltro, Salto de página, Imprimir filas/columnas de título, Objetos relacionados con formas (Comentario, Arco, Botón, Casilla de verificación, ComboBox , GroupBox, GroupShape, Label, Line, ListBox, OleObject, Oval, Picture, RadioButton, Rectangle, ScrollBar, Spinner, TextBox), Chart.
 
 l Proporcione nuevas funciones para el formato de archivo MS Excel 2007: Insertar imágenes, Agregar gráficos.
 
@@ -28,9 +28,9 @@ l Calcular la función de hipervínculo.
 
 l Eliminar nombres definidos por el usuario.
 
-Incluir atributos de Autofiltro al copiar Libro/Hoja de trabajo.
+l Incluir atributos de Autofiltro al copiar Libro/Hoja de trabajo.
 
-l Compatibilidad con hipervínculos en la conversión xls2pdf.
+Compatibilidad con hipervínculos en la conversión xls2pdf.
 
 l Extraiga Ole Objects en el archivo de plantilla.
 
@@ -53,7 +53,7 @@ Problemas resueltos en Aspose.Cells for Java v2.1.0
 |9498|xls|leer archivos de plantilla que contienen registros BIFF7 y BIFF8|
 |9616|xls|Configurar página.Imprimir_Títulos/Imprimir_Áreas|
 |9499|xls|combinar células|
-|9500|cuadro|Eje de gráfico|
+|9500|gráfico|Eje de gráfico|
 |7919|xls|Función SUBTOTALES|
 |7953|xls2pdf|hipervínculos para xls2pdf|
 |9343|xls|Worksheet.unFreezePanes/freezePanes|

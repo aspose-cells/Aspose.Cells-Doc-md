@@ -34,6 +34,6 @@ Avec Aspose.Cells, il est simple d'ouvrir, d'enregistrer et de gérer des fichie
 - [Ouverture de différents fichiers de versions Excel Microsoft](/cells/fr/net/opening-different-microsoft-excel-versions-files/)
 - [Ouverture de fichiers avec différents formats](/cells/fr/net/opening-files-with-different-formats/)
 - [Optimisation de l'utilisation de la mémoire lors de l'utilisation de fichiers volumineux contenant de grands ensembles de données](/cells/fr/net/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Lire la feuille de calcul des nombres Développé par Apple Inc. en utilisant Aspose.Cells](/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [Lire la feuille de calcul Numbers développée par Apple Inc. en utilisant Aspose.Cells](/cells/fr/net/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
 - [Arrêtez la conversion ou le chargement à l'aide d'InterruptMonitor lorsque cela prend trop de temps](/cells/fr/net/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [Utilisation de LightCells API](/cells/fr/net/using-lightcells-api/)

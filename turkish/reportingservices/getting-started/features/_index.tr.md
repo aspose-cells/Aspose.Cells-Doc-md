@@ -1,5 +1,5 @@
 ﻿---
-title: Özellikler
+title: Özellikleri
 type: docs
 weight: 30
 url: /tr/reportingservices/features/

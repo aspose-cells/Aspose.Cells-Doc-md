@@ -34,23 +34,23 @@ url: /es/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43475) - La vista de datos de la tabla dinámica en HTML no se correlaciona
 
- (CELLSNET-43474): la tabla dinámica no se actualiza durante la representación en HTML
+ (CELLSNET-43474) - La tabla dinámica no se actualiza mientras se procesa en HTML
 
  (CELLSNET-43473) - Cambio de selecciones de filtro de informe
 
- (CELLSNET-43450): representación incorrecta de HTML al convertir una hoja de cálculo a HTML
+ (CELLSNET-43450): representación incorrecta de HTML al convertir la hoja de cálculo a HTML
 
- (CELLSNET-43428): las celdas de la tabla dinámica en los encabezados de grupo tienen estilos incorrectos
+(CELLSNET-43428): las celdas de la tabla dinámica en los encabezados de grupo tienen estilos incorrectos
 
-(CELLSNET-43422): la eliminación de la hoja de origen provoca una excepción al guardar
+ (CELLSNET-43422): la eliminación de la hoja de origen provoca una excepción al guardar
 
  (CELLSNET-43417): el orden de clasificación de los puntos de datos de la serie de PivotChart es incorrecto
 
- (CELLSNET-43413) - Conversión incorrecta de archivo HTML a PDF
+ (CELLSNET-43413) - Conversión incorrecta del archivo HTML a PDF
 
- (CELLSNET-43340) - Volver a guardar la hoja de cálculo XLS corrompe el resultado
+ (CELLSNET-43340) - Volver a guardar la hoja de cálculo XLS hace que el resultado se corrompa
 
- (CELLSNET-43545) - La fecha se superpone con el texto del pie de página izquierdo en el formato de archivo PDF representado
+ (CELLSNET-43545): la fecha se superpone con el texto del pie de página izquierdo en el formato de archivo PDF representado
 
  (CELLSNET-43543) - El borde de celda doble no se imprime correctamente para la última celda
 
@@ -58,15 +58,15 @@ url: /es/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43516) - Aspose no imprime la página vacía
 
- (CELLSNET-43508) - Hoja de cálculo a PDF genera un PDF en blanco
+ (CELLSNET-43508): la hoja de cálculo para PDF genera un PDF en blanco
 
- (CELLSNET-43507) - Los píxeles se deterioraron un poco para la imagen en el archivo PDF de salida
+ (CELLSNET-43507) - Los píxeles se deterioraron un poco para la imagen en el archivo de salida PDF
 
  (CELLSNET-43481) - Cells que tenía fechas y/o números con palabras hebreas
 
- (CELLSNET-43479): el logotipo con sangría incorrecta
+(CELLSNET-43479): el logotipo con sangría incorrecta
 
-(CELLSNET-43478) - Dos puntos al final de la última palabra en la primera línea se interrumpieron
+ (CELLSNET-43478) - Dos puntos al final de la última palabra en la primera línea se interrumpieron
 
  (CELLSNET-43477) - Los espacios entre las palabras hebreas desaparecieron al triturar la oración en una sola palabra
 
@@ -110,7 +110,7 @@ url: /es/net/aspose-cells-for-net-8-4-1-release-notes/
 
 (CELLSNET-43527) - El filtro desplegable no se puede seleccionar después de cargar y guardar
 
- (CELLSNET-43518) - Cargar y guardar el XLSM hace que el resultado se corrompa
+ (CELLSNET-43518) - Cargar y guardar el XLSM corrompe el resultado
 
  (CELLSNET-43515) - La fórmula que implica la celda de rango con nombre no se lee correctamente
 
@@ -136,7 +136,7 @@ url: /es/net/aspose-cells-for-net-8-4-1-release-notes/
 
 
 
-\2) Aspose.Cells Suite de cuadrícula
+ \2) Aspose.Cells Suite de cuadrícula
 
 
 ## **Otras mejoras y cambios**
@@ -150,7 +150,7 @@ url: /es/net/aspose-cells-for-net-8-4-1-release-notes/
 
  (CELLSNET-43497) - GridDesktop no puede encontrar la licencia de recursos integrados
 
-(CELLSNET-42509): las formas no se representan correctamente en gridweb
+ (CELLSNET-42509): las formas no se representan correctamente en gridweb
 
  (CELLSNET-42559): mover hojas de trabajo en GridDesktop
 

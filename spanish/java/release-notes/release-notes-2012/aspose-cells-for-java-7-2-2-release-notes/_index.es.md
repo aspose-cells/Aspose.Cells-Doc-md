@@ -35,6 +35,6 @@ Estamos
 - Gráfico incorrecto Tipo de gráfico de dispersión
 - El valor doble pierde precisión al leer del archivo de plantilla CSV
 - Serie de gráficos volteada al revés al convertirla en una imagen
-- El archivo XLSX vuelto a guardar provoca el error "Excelfound ilegible content..."
+- El archivo XLSX que se volvió a guardar provoca el error "Excelfound ilegible content..."
 - La tabla dinámica guardada causó "ProtectionView" cuando se abrió en MS Excel
-- Uso de la validación de listas por Aspose.Cellscreates un archivo XLS que no funciona después de cambiar el separador de listas del sistema
+- Usando la validación de la lista por Aspose.Cellscreates un archivo XLS que no funciona después de cambiar el separador de listas del sistema

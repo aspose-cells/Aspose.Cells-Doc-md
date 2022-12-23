@@ -24,10 +24,10 @@ url: /sv/net/aspose-cells-for-net-5-1-1-release-notes/
 |18024 | Chart2Image| Problem med diagramtick-etikettformat vid konvertering till PDF|
 |18028 | Chart2Image| Diagram_Överlappande problem|
 |18458 | Chart2Image| Problem med trunkerad dataetikett|
-|18652 | Pdf| Ogiltigt Cell Namn vid lagring i PDF-format|
+|18652 | Pdf| Ogiltigt Cell namn vid lagring i PDF-format|
 |18034 | Shape2Image| Layout och design av det första arket försvinner och texten överlappar varandra|
 |18687 | Arbetsblad 2 Bild| ToImage kastar undantag|
-|18473 | Xls|Office 2010 har upptäckt ett problem med XLS-filen|
+|18473 | Xls|Office 2010 har upptäckt ett problem med filen XLS|
 |18489 | Xls| Problem med att spara som XLS|
 |18534 | Xls| Problem med offsetkombinationer|
 |18755 | Xls| CalculateFormula på min fil ger fel|

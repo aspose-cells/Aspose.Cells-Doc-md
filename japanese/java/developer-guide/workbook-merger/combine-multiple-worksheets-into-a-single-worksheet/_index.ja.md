@@ -14,7 +14,7 @@ keywords: combine multiple worksheets into one, combine multiple worksheets into
 
 ## **ワークシートの結合**
 
-以下のサンプルでは、[**範囲.コピー()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)) メソッドを使用して、すべてのソース ワークシートをコピー先ワークブック内の 1 つのシートにコピーします。
+以下のサンプルでは、[**範囲.コピー()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#copy(com.aspose.cells.Range)メソッドを使用して、すべてのソース ワークシートをコピー先ワークブック内の 1 つのシートにコピーします。
 
 ### **ソース ワークブック**
 

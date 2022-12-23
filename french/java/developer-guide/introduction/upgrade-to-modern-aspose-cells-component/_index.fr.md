@@ -16,8 +16,8 @@ Parfois, les utilisateurs précédents (par exemple, les utilisateurs Aspose.Exc
 
 Certaines API (classes, struct, énumérations, etc.) sont ajoutées en fonction de certaines fonctionnalités avancées que nous proposons désormais, les classes précédentes (avec leurs membres) sont conservées et optimisées mais quelques classes sont renommées, certains membres supplémentaires (propriétés, méthodes, etc. .) sont également inclus pour les classes avec très peu d'exclus.
 ## **Voici la liste des classes qui sont renommées :**
-1. **Exceller** la classe est remplacée par**Cahier** classer.
-1. **ExcelDesigner** la classe est remplacée par**WorkbookDesigner** classer.
-1. **ExcelHelper** la classe est remplacée par**CellsHelper** classer.
+1. **Exceller** la classe est remplacée par**Cahier** classe.
+1. **ExcelDesigner** la classe est remplacée par**WorkbookDesigner** classe.
+1. **ExcelHelper** la classe est remplacée par**CellsHelper** classe.
 
  Pour plus de référence, veuillez consulter nos démos en vedette :<https://github.com/aspose-cells/Aspose.Cells-for-Java>

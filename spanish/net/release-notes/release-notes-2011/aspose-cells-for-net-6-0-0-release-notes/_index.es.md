@@ -16,7 +16,7 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  Nuevas características
 
- 13872 Exportar a archivo XPS
+ 13872 Exportar al archivo XPS
 
  28363 Crear archivos XLSX protegidos contra escritura
 
@@ -34,17 +34,17 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27760 Fuente de tabla de soporte como rangos con nombre
 
- 27955 Especificar área de impresión dinámica al imprimir o renderizar a PDF
+ 27955 Especifique el área de impresión dinámica al imprimir o renderizar a PDF
 
- Actuación
+ Rendimiento
 
- 28139 Problema de rendimiento de Excel a PDF
+ 28139 Excel a PDF problema de rendimiento
 
  27095 Problema con el método Workbook.CalculateFormula()
 
  27348 El proceso se bloquea al abrir un archivo que contiene formas
 
- 27367 La apertura de un archivo XLSX es lenta
+ 27367 Abrir un archivo XLSX es lento
 
  Excepciones
 
@@ -52,7 +52,7 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27382 La imagen rota hace que Aspose.Cells se bloquee
 
-27998 Excepción lanzada al abrir un archivo XLSX legítimo
+27998 Excepción lanzada al abrir el archivo legítimo XLSX
 
  28318 Se produjo una excepción al guardar un libro de trabajo XLS en formato XLSM
 
@@ -78,9 +78,9 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27168 Las formas agrupadas se distorsionan al guardar en PDF
 
- 27240 Conversión de Excel a PDF - Problema de rangos de gráficos
+ 27240 Conversión de Excel a PDF - Problema de rangos de gráfico
 
- 28112 Guardar archivo de Excel (XLS) como PDF da como resultado un problema
+ 28112 Guardar el archivo de Excel (XLS) como PDF genera un problema
 
  27061 Advertencia de vista protegida en MS Excel 2010
 
@@ -92,7 +92,7 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 Faltan viñetas en la imagen exportada en la función Hoja a imagen
 
- 28413 El formato de la columna en la conversión TIFF no es correcto
+ 28413 El formato de la columna en TIFF La conversión no es correcta
 
  27906 Carácter de escape en marcadores inteligentes
 
@@ -100,7 +100,7 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28269 Problema de altura de AutoRow al crear filas que exceden la altura máxima
 
- 26941 Problema de autofiltro entre archivos XLS y XLSX
+ 26941 Problema de autofiltro entre los archivos XLS y XLSX
 
  28036 Problema con formato de celda en archivo generado
 
@@ -120,7 +120,7 @@ url: /es/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 La configuración ShowDefaultGridLine = false no está disponible cuando GridWeb's XhtmlMode está configurado en "true"
 
- \3) Aspose.Cells.GridEscritorio
+\3) Aspose.Cells.GridEscritorio
 
  Nuevas características
 

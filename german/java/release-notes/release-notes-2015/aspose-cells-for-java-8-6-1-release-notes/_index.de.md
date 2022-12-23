@@ -22,31 +22,31 @@ url: /de/java/aspose-cells-for-java-8-6-1-release-notes/
 ## **Fehler**
 
 
- (CELLSJAVA-41528) – XLSB wird nach dem erneuten Speichern mit Aspose.Cells beschädigt
+ (CELLSJAVA-41528) - XLSB wird nach dem erneuten Speichern mit Aspose.Cells beschädigt
 
- (CELLSJAVA-41499) - Cell Referenz-Hyperlinks funktionieren nicht im resultierenden HTML
+(CELLSJAVA-41499) - Cell-Referenz-Hyperlinks funktionieren nicht im Ergebnis HTML
 
  (CELLSJAVA-41487) – Die Berechnung der benannten Bereichsformel führt zu #NAME?
 
-(CELLSJAVA-41518) – Acrobat Reader zeigt an, dass beim Verarbeiten einer Seite ein Fehler aufgetreten ist. Beim Lesen dieses Dokumentfehlers (135) ist beim Laden der generierten PDF-Datei Aspose.Cells ein Problem aufgetreten
+ (CELLSJAVA-41518) – Acrobat Reader zeigt an, dass beim Verarbeiten einer Seite ein Fehler aufgetreten ist. Beim Lesen dieses Dokuments (135) ist ein Problem aufgetreten, während beim Laden von Aspose.Cells PDF generiert wurde
 
- (CELLSJAVA-41515) – Die Datenbeschriftung überlappt den Datenpunkt, während das Diagramm in PDF gerendert wird
+ (CELLSJAVA-41515) – Die Datenbeschriftung überlappt den Datenpunkt, während das Diagramm auf PDF gerendert wird
 
  (CELLSJAVA-41513) - Aspose.Cells kann die Excel-Datei mit einem Diagramm nicht in eine PDF-Datei konvertieren
 
- (CELLSJAVA-41504) – Beim Konvertieren in das PDF-Dateiformat fehlt der Y-Achsenwert im gerenderten Diagrammbild
+ (CELLSJAVA-41504) – Beim Konvertieren in das Dateiformat PDF fehlt der Wert der Y-Achse im gerenderten Diagrammbild
 
- (CELLSJAVA-41501) – X-Achsenwerte im Diagramm sind im ausgegebenen PDF/Bild ungeeignet
+ (CELLSJAVA-41501) – X-Achsenwerte im Diagramm sind in der Ausgabe PDF/image ungeeignet
 
- (CELLSJAVA-41500) – Der Diagrammrand bricht an einigen Stellen in der ausgegebenen PDF-/Bilddatei
+ (CELLSJAVA-41500) – Der Diagrammrand bricht an einigen Stellen in der Ausgabedatei PDF/Image
 
- (CELLSJAVA-41494) – Wörter scheinen in der PDF-/Bildausgabe des Excel-Diagramms verkettet zu sein
+ (CELLSJAVA-41494) – Wörter scheinen in PDF/Bildausgabe des Excel-Diagramms verkettet zu sein
 
- (CELLSJAVA-41493) – Lange Bindestriche werden in der PDF-/Bildausgabe von Excel-Diagrammen nicht richtig angezeigt
+(CELLSJAVA-41493) – Lange Bindestriche werden in der PDF/Image-Ausgabe des Excel-Diagramms nicht richtig angezeigt
 
  (CELLSJAVA-41484) – Es werden weniger Diagrammpunkte als Punkte zurückgegeben
 
-(CELLSJAVA-41475) – Die Eigenschaft Axis Linked Source des Diagramms wird zurückgesetzt, während XLSX in XLS konvertiert wird
+ (CELLSJAVA-41475) – Die Eigenschaft Axis Linked Source des Diagramms wird zurückgesetzt, während XLSX in XLS konvertiert wird
 
  (CELLSJAVA-41541) – Die Schriftgröße wird beim Konvertieren von XML Spreadsheet 2003 in andere Formate nicht beibehalten
 
@@ -64,21 +64,21 @@ url: /de/java/aspose-cells-for-java-8-6-1-release-notes/
 
  (CELLSJAVA-41502) – Falsche RadioButton-Höhe wird zurückgegeben
 
- (CELLSJAVA-41488) – Dropdown-Validierung wird nicht auf mehr als eine Region angewendet, wenn die Tabelle als XLS gespeichert wird
+(CELLSJAVA-41488) – Dropdown-Validierung wird nicht auf mehr als eine Region angewendet, wenn die Tabelle als XLS gespeichert wird
 
  (CELLSJAVA-41483) – Die Makrocode-Ersetzung zerstört eine XLS-Datei, wenn sie kyrillische Namen enthält
 
-(CELLSJAVA-41461) – Die Spaltenbreite ändert sich nach dem erneuten Speichern, wenn die Anzeige auf 125 % eingestellt ist
+ (CELLSJAVA-41461) – Die Spaltenbreite ändert sich nach dem erneuten Speichern, wenn die Anzeige auf 125 % eingestellt ist
 
  (CELLSJAVA-41454) – Der Inhalt der Datei xl/drawings/vmlDrawing.vml wurde nach dem erneuten Speichern der Tabelle geändert
 
  (CELLSJAVA-41440) – Problem mit der horizontalen Ausrichtung beim Laden einer Datei
 
- (CELLSJAVA-41436) – Einige zusätzliche formatierte Zellen in Spalte W der PDF-Datei
+ (CELLSJAVA-41436) – Einige zusätzliche formatierte Zellen in Spalte W der Datei PDF
 
- (CELLSJAVA-41435) – Einige extra formatierte Zellen unten in Spalte P und Q im PDF
+ (CELLSJAVA-41435) – Einige extra formatierte Zellen unten in Spalte P und Q in PDF
 
- (CELLSJAVA-41434) – Auf die Ausgabe-PDF wurde eine Formatierung angewendet, die in Excel nicht vorhanden ist
+ (CELLSJAVA-41434) – Ausgabe PDF hat eine Formatierung angewendet, die in Excel nicht vorhanden ist
 
  (CELLSJAVA-41350) – Das Ändern der Schriftart der Zelle oder eines Teils des Textes in einer Zelle wird nicht wirksam
 
@@ -86,7 +86,7 @@ url: /de/java/aspose-cells-for-java-8-6-1-release-notes/
 ## **Ausnahmen**
 
 
- (CELLSJAVA-41529) – Ausnahme: „java.lang.ArrayIndexOutOfBoundsException“ trat beim Laden einer XLSB-Datei auf
+(CELLSJAVA-41529) – Ausnahme: „java.lang.ArrayIndexOutOfBoundsException“ trat beim Laden einer XLSB-Datei auf
 
  (CELLSJAVA-41511) - Ausnahme: java.lang.NumberFormatException: Für Eingabestring: "Infinity" beim Zusammenführen von Excel-Dokumenten
 
@@ -94,7 +94,7 @@ url: /de/java/aspose-cells-for-java-8-6-1-release-notes/
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**

@@ -12,7 +12,7 @@ url: /tr/net/send-shape-front-or-back-inside-the-worksheet/
 
  Aşağıdaki örnek kod, kullanımını açıklar[**Shape.ToFrontOrBack()**](https://reference.aspose.com/cells/net/aspose.cells.drawing/shape/methods/tofrontorback) yöntem. Lütfen bkz[örnek excel dosyası](50528330.xlsx) kodun içinde kullanılır ve[çıktı excel dosyası](50528331.xlsx) onun tarafından oluşturulur. Ekran görüntüsü, örnek Excel dosyasındaki kodun yürütme üzerindeki etkisini gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](send-shape-front-or-back-inside-the-worksheet_1.png)
+![yapılacaklar:resim_alternatif_metin](send-shape-front-or-back-inside-the-worksheet_1.png)
 
 ## **Basit kod**
 

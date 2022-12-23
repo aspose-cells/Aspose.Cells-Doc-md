@@ -5,7 +5,7 @@ weight: 20
 url: /tr/net/excel-to-pdf-conversion-in-php/
 ---
 ## **Aspose.Cells - Excel'den PDF'e Dönüştürme**
-Microsoft Excel Dosyasını PDF'ye Dönüştür
+Microsoft Excel Dosyasını PDF'e Dönüştür
 
 **PHP Kodu**
 

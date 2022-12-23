@@ -6,7 +6,7 @@ url: /it/net/export-visible-rows-data-from-worksheet/
 ---
 {{% alert color="primary" %}}
 
- È possibile esportare i dati dai fogli di lavoro nelle tabelle di dati utilizzando Aspose.Cells. A volte si desidera esportare solo i dati delle righe visibili. Aspose.Cells fornisce un modo per raggiungere questo obiettivo. Utilizzare il[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) per specificare che si desidera esportare solo i dati delle righe visibili.
+ È possibile esportare i dati dai fogli di lavoro nelle tabelle di dati utilizzando Aspose.Cells. A volte si desidera esportare solo i dati delle righe visibili. Aspose.Cells fornisce un modo per raggiungere questo obiettivo. Usa il[**ExportTableOptions.PlotVisibleRows**](https://reference.aspose.com/cells/net/aspose.cells/exporttableoptions/properties/plotvisiblerows) per specificare che si desidera esportare solo i dati delle righe visibili.
 
 {{% /alert %}}
 

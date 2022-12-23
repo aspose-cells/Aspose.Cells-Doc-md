@@ -6,7 +6,7 @@ url: /ja/cpp/chart-rendering/
 ---
 ## **チャートの作成**
 
-Aspose.Cells API は、トピックで詳述されているように、Excel チャートの真正性を作成することをサポートします[Excel チャートの作成とカスタマイズ](/cells/ja/cpp/creating-and-customizing-charts/)Aspose.Cells API を使用してチャートを画像および PDF 形式でレンダリングする方法を示すために、次のスニペットに従って列タイプのチャートを作成します。
+Aspose.Cells API は、トピックで詳述されているように、Excel チャートの真正性を作成することをサポートします[Excel チャートの作成とカスタマイズ](/cells/ja/cpp/creating-and-customizing-charts/)Aspose.Cells API を使用して画像と PDF 形式でグラフをレンダリングする方法を示すために、次のスニペットに従って列タイプのグラフを作成します。
 
 {{< highlight "cpp" >}}
 
@@ -48,7 +48,7 @@ Aspose.Cells API は、トピックで詳述されているように、Excel チ
 
 ## **チャートのレンダリング**
 
-Aspose.Cells API は、追加のツールやアプリケーションを必要とせずに、Excel チャートを画像や PDF 形式に変換することをサポートしています。レンダリング サポートを提供するために、Chart クラスは、アプリケーションの要件に最適なオーバーロードの真偽を使用して ToImage および ToPdf メソッドを公開しました。
+Aspose.Cells API は、Excel チャートを画像や PDF 形式に変換することをサポートしており、追加のツールやアプリケーションは必要ありません。レンダリング サポートを提供するために、Chart クラスは、アプリケーションの要件に最適なオーバーロードの真偽を使用して ToImage および ToPdf メソッドを公開しました。
 
 ### **グラフを画像にレンダリングする**
 
@@ -70,9 +70,9 @@ chart->ToImage(outputChartImage, Aspose::Cells::System::Drawing::Imaging::ImageF
 
 {{< /highlight >}}
 
-### **グラフを PDF にレンダリング**
+### **PDF へのレンダリング チャート**
 
-グラフを PDF 形式にレンダリングするために、Aspose.Cells API は、結果の PDF をディスク パスまたはストリームに保存する機能を備えた Chart.ToPdf メソッドを公開しました。
+チャートを PDF 形式でレンダリングするために、Aspose.Cells API は、結果の PDF をディスク パスまたはストリームに格納する機能を備えた Chart.ToPdf メソッドを公開しました。
 
 {{< highlight "cpp" >}}
 

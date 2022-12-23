@@ -6,10 +6,10 @@ url: /it/sharepoint/previewing-document/
 ---
 Aspose.Cells per Share Point supporta l'anteprima dei documenti direttamente da SharePoint. I seguenti formati supportano l'anteprima:
 
-- XLS-Microsoft Excel 97 - 2003
-- XLSX: Office Open XML
-- XLSM, XLTX, XLTM: Office Open XML
-- XML – Foglio di calcolo Microsoft ExcelML
+- XLS – Microsoft Excel 97 - 2003
+- XLSX – Ufficio OpenXML
+- XLSM, XLTX, XLTM – Office Open XML
+- XML – Microsoft Excel SpreadsheetML
 
 **Selezione di un documento da visualizzare in anteprima** 
 

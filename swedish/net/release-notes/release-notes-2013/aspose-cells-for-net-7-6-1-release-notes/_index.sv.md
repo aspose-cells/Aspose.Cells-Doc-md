@@ -22,7 +22,7 @@ url: /sv/net/aspose-cells-for-net-7-6-1-release-notes/
 
  41354 - Pivottabell med problem med smarta markörer
 
- 41528 - Formateringsproblem i utdata-PDF
+ 41528 - Formateringsproblem i utdata PDF
 
  \2) Aspose.Cells.GridWeb
 

@@ -6,7 +6,7 @@ url: /ja/java/export-print-area-range-to-html/
 ---
 ## 考えられる使用シナリオ
 
-これは、シート全体ではなく、印刷領域、つまり選択した範囲のセルのみを HTML にエクスポートする必要があるという非常に一般的なシナリオです。この機能は既に PDF レンダリングで利用できますが、HTML でもこのタスクを実行できるようになりました。まず、ワークシートのページ設定オブジェクトで印刷範囲を設定します。後で使用する[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)選択した範囲のみをエクスポートするプロパティ。
+これは、HTML にシート全体ではなく、印刷領域、つまり選択した範囲のセルのみをエクスポートする必要がある非常に一般的なシナリオです。この機能は、PDF レンダリングで既に利用可能ですが、HTML に対してもこのタスクを実行できるようになりました。まず、ワークシートのページ設定オブジェクトで印刷範囲を設定します。後で使用する[**HtmlSaveOptions.ExportPrintAreaOnly**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#ExportPrintAreaOnly)選択した範囲のみをエクスポートするプロパティ。
 
 ## Java 印刷領域範囲を HTML にエクスポートするコード
 

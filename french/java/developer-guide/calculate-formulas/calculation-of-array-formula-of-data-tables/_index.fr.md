@@ -14,10 +14,10 @@ Vous pouvez créer un tableau de données dans Microsoft Excel à l'aide de Donn
 
 ![tâche : image_autre_texte](calculation-of-array-formula-of-data-tables_1.png)
 
- Si vous modifiez la valeur de la cellule B1 à 100, les valeurs de la table de données remplies de couleur jaune deviendront 120. L'exemple de code génère le[PDF de sortie](5472577.pdf) qui affiche 120 comme valeurs dans le tableau de données, comme indiqué dans cette image.
+ Si vous modifiez la valeur de la cellule B1 à 100, les valeurs de la table de données remplies de couleur jaune deviendront 120. L'exemple de code génère le[sortie PDF](5472577.pdf) qui affiche 120 comme valeurs dans le tableau de données, comme indiqué dans cette image.
 
 ![tâche : image_autre_texte](calculation-of-array-formula-of-data-tables_2.png)
 
- Voici l'exemple de code utilisé pour générer le[PDF de sortie](5472577.pdf) du[fichier excel source](5472579.xlsx). Veuillez lire les commentaires pour plus d'informations.
+ Voici l'exemple de code utilisé pour générer le[sortie PDF](5472577.pdf) du[fichier excel source](5472579.xlsx). Veuillez lire les commentaires pour plus d'informations.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CalculationOfArrayFormula-CalculationOfArrayFormula.java" >}}

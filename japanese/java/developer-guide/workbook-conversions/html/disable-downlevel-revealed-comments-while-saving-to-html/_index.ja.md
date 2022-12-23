@@ -1,5 +1,5 @@
 ﻿---
-title: HTML への保存中にダウンレベルの公開されたコメントを無効にする
+title: HTML に保存する際にダウンレベルの公開コメントを無効にする
 type: docs
 weight: 20
 url: /ja/java/disable-downlevel-revealed-comments-while-saving-to-html/
@@ -12,9 +12,9 @@ Excel ファイルを HTML に保存すると、Aspose.Cells でダウンレベ�
 
 Aspose.Cells を設定すると、これらのダウンレベルの公開コメントを削除できます。[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)プロパティへ**真実**.
 
-## **HTML への保存中にダウンレベルの公開されたコメントを無効にする**
+## **HTML に保存する際にダウンレベルの公開コメントを無効にする**
 
-次のサンプル コードは、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)財産。スクリーンショットは、このプロパティが に設定されていない場合の効果を示しています。**真実**.をダウンロードしてください[サンプル Excel ファイル](50528267.xlsx)このコードと[出力HTML](50528266.zip)参照用にそれによって生成されたファイル。
+次のサンプル コードは、[**HtmlSaveOptions.DisableDownlevelRevealedComments**](https://reference.aspose.com/cells/java/com.aspose.cells/htmlsaveoptions#DisableDownlevelRevealedComments)財産。スクリーンショットは、このプロパティが に設定されていない場合の効果を示しています。**真実**.をダウンロードしてください[サンプル Excel ファイル](50528267.xlsx)このコードと[出力 HTML](50528266.zip)参照用にそれによって生成されたファイル。
 
 ![todo:画像_代替_文章](disable-downlevel-revealed-comments-while-saving-to-html_1.png)
 

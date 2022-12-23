@@ -16,6 +16,6 @@ Il seguente codice di esempio illustra come spostare la prima riga verso il bass
 
 ![cose da fare:immagine_alt_testo](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Data-ShiftFirstRowDownWhenInsertingCellsDataTableRows.cs" >}}

@@ -32,7 +32,7 @@ De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid 
 - TROUVER, FIXE
 - GAUCHE, LEN, INFÉRIEUR
 - MILIEU
-- MATCH
+- RENCONTRE
 - REMPLACER, REPT, DROIT
 - RECHERCHER, SUBSTITUER
 - T, TEXTE, COUPE
@@ -44,7 +44,7 @@ De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid 
 ### **Fonctions de date et d'heure**
 - HEURE
 - MINUTES, MOIS
-- À PRÉSENT
+- MAINTENANT
 - DEUXIÈME
 - HEURE, AUJOURD'HUI
 - JOUR DE LA SEMAINE
@@ -53,7 +53,7 @@ De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid 
 - FAUX
 - SI
 - NE PAS
-- OU
+- OU ALORS
 - vrai
 ### **Nouvelles fonctions**
 - MIN
@@ -66,7 +66,7 @@ De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid 
 - INDIRECT
 - ISERR
 - ESTNUMÉRO
-- NETTOYER
+- FAIRE LE MÉNAGE
 - RMB
 - FAITDOUBLE
 - PGCD
@@ -95,7 +95,7 @@ De nombreuses fonctions intégrées sont prises en charge par Aspose.Cells Grid 
 - N / A
 - TAPER
 - COMPTEVIDE
-- GRAND
+- GRANDE
 - MAXA
 - MINE
 - MOYENNE

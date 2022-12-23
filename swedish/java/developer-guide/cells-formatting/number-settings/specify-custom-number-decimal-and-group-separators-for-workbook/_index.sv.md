@@ -16,7 +16,7 @@ keywords: specify custom decimal separator excel, specify custom decimal separat
 
 ## **Ange anpassade avgränsare med Microsoft Excel**
 
-1.  Öppna**alternativ** i**Fil** flik.
+1.  Öppen**alternativ** i**Fil** flik.
 1. Öppna**Avancerad** flik.
 1.  Ändra inställningarna i**Redigeringsalternativ** sektion.
 
@@ -26,7 +26,7 @@ Följande skärmdump visar**Avancerade Excel-alternativ** och markerar avsnittet
 
 ## **Ange anpassade avskiljare med Aspose.Cells**
 
- Följande exempelkod illustrerar hur man anger anpassade avgränsare med Aspose.Cells API. Den anger anpassade nummerdecimaler och gruppseparatorer som punkt respektive mellanslag. Alltså numret**123,456.789** kommer att visas som**123 456.789** som visas i skärmdumpen som visar utdata-PDF som genereras av koden.
+ Följande exempelkod illustrerar hur man anger anpassade avgränsare med Aspose.Cells API. Den anger anpassade nummerdecimaler och gruppseparatorer som punkt respektive mellanslag. Alltså numret**123,456.789** kommer att visas som**123 456.789** som visas i skärmdumpen som visar utdata PDF som genereras av koden.
 
 ![todo:image_alt_text](specify-custom-number-decimal-and-group-separators-for-workbook_2.png)
 

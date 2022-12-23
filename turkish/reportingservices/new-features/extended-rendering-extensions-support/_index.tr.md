@@ -6,6 +6,6 @@ url: /tr/reportingservices/extended-rendering-extensions-support/
 ---
 {{% alert color="primary" %}} 
 
-Aspose.Cells for Reporting Services, XLSM ve HTML biçimlerinin yanı sıra Microsoft Excel elektronik tablo biçimlerine (XLS, XLSX, XLSB) ve ODS, SpreadsheetML, CSV ve TXT gibi diğer biçimlere aktarımı destekler.
+ Aspose.Cells for Reporting Services, XLSM ve HTML formatlarına ve XLS'e ihracat destekler ve XLS, XLS, XLSX, 07617481, 0761, 0761, 0761, 0761, 0761, 0761, 0761, 0761, 0761, 0761, 0761, diğer formatlar,
 
 {{% /alert %}}

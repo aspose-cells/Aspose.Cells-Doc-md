@@ -47,7 +47,7 @@ Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfac
 
 ### **Enumeratore di colonne**
 
-È possibile accedere all'enumeratore di colonne durante l'utilizzo di[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metodo. Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfaccia IEnumerator per[**Raccolta di colonne**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
+ È possibile accedere all'enumeratore di colonne durante l'utilizzo di[**ColumnCollection.GetEnumerator**](https://reference.aspose.com/cells/net/aspose.cells/columncollection) metodo. Nell'esempio di codice seguente viene illustrata l'implementazione dell'interfaccia IEnumerator per[**Raccolta di colonne**](https://reference.aspose.com/cells/net/aspose.cells/columncollection).
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingRowsColumnsCells-HowAndWhereToUseEnumerators-ColumnEnumerator.cs" >}}
 
@@ -77,6 +77,6 @@ Come puoi osservare, entrambi gli approcci sopra menzionati utilizzano una logic
 
 Sulla base dei fatti sopra menzionati, i seguenti sono i possibili scenari in cui dovrebbero essere utilizzati gli enumeratori.
 
-1. È richiesto l'accesso in sola lettura della raccolta di celle, ovvero; il requisito è quello di ispezionare solo le cellule.
+1. È richiesto l'accesso in sola lettura della raccolta di celle, ovvero; il requisito è quello di ispezionare solo le celle.
 1. Un gran numero di celle deve essere attraversato.
 1. Solo celle/righe/colonne inizializzate da attraversare.

@@ -10,11 +10,11 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-40792|Le tableau croisé dynamique n'est pas créé pour le fichier ODS|Nouvelle fonctionnalité|
 |CELLSJAVA-43221|Exception "java.lang.NullPointerException" lors du chargement du fichier XLT|Renforcement|
-|CELLSJAVA-43222|Exception "com.aspose.cells.CellsException : les données de la formule auraient dû être corrompues...." lors du chargement d'un fichier XLS|Renforcement|
+|CELLSJAVA-43222|Exception "com.aspose.cells.CellsException : les données de formule auraient dû être corrompues...." lors du chargement d'un fichier XLS|Renforcement|
 |CELLSJAVA-43223|Exception "java.lang.IllegalStateException : Encodage invalide : null" lors du chargement d'un fichier XLS|Renforcement|
 |CELLSJAVA-43226|Exception "java.lang.ArrayIndexOutOfBoundsException" lors de la récupération des données de l'image|Renforcement|
 |CELLSJAVA-43234|Données avant 2014 non lues à partir du tableau croisé dynamique|Punaise|
@@ -23,13 +23,13 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43219|Ajout d'une référence de formule à différents résultats de feuille dans un classeur Excel corrompu|Punaise|
 |CELLSJAVA-43232|Problème de fonction ROUNDUP|Punaise|
 |CELLSJAVA-43243|La formule n'a pas pu être récupérée lors de la modification de la formule de la cellule voisine|Punaise|
-|CELLSJAVA-43217|L'impression XLSX vers XPS perd le formatage en arrière-plan|Punaise|
+|CELLSJAVA-43217|L'impression de XLSX à XPS perd le formatage d'arrière-plan|Punaise|
 |CELLSJAVA-43224|Problème lors de l'impression sur une imprimante physique|Punaise|
 |CELLSJAVA-43241|Problème avec la hauteur de ligne et la bordure lors de la création d'une image à partir de la zone Excel|Punaise|
 |CELLSJAVA-43209|setRepeatFormulaWithSubtotal(true) ne génère pas les résultats attendus lors de l'utilisation de SmartMarkers|Punaise|
 |CELLSJAVA-43213|Aspose.Cells 20.6 ne fonctionne pas correctement avec les contrôles de formulaire sur Office 365 (version 2005 Build 12827.20268)|Punaise|
 |CELLSJAVA-43214|Lors de la traduction de XLS en XLSX, il produit un fichier XLSX cassé|Punaise|
-|CELLSJAVA-43216|Conversion XLS en XLSX - l'audace et le positionnement de la police sont modifiés pour la forme|Punaise|
+|CELLSJAVA-43216|Conversion de XLS à XLSX - la mise en gras et le positionnement de la police sont modifiés pour la forme|Punaise|
 |CELLSJAVA-43228|Le XLS généré est en vue protégée|Punaise|
 |CELLSJAVA-43231|Erreur dans le fichier de sortie après les remplacements|Punaise|
 |CELLSJAVA-43242|Une des balises de style trouvées en dehors de la balise Head|Punaise|
@@ -44,16 +44,16 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43280|Problème de filtre après l'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43281|Problème d'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43285|Les filtres statiques sont perdus après l'actualisation du tableau croisé dynamique|Punaise|
-|CELLSJAVA-43288|Le fichier XLSB résultant est corrompu lors de l'enregistrement du fichier dans XLSB|Punaise|
+|CELLSJAVA-43288|Le fichier XLSB résultant est corrompu lors de l'enregistrement du fichier sous XLSB|Punaise|
 |CELLSJAVA-43289|Problème de filtre après l'actualisation du tableau croisé dynamique|Punaise|
 |CELLSJAVA-43293|Problème avec les options de filtre après PivotTable.refreshData()|Punaise|
 |CELLSJAVA-43279|Les valeurs ne sont pas récupérées correctement à l'aide de getStringValue()|Punaise|
 |CELLSJAVA-43291|le contenu de la grille ne s'affiche pas|Punaise|
 |CELLSJAVA-43037|Problème de police lors de la conversion PDF|Punaise|
-|CELLSJAVA-43249|Problèmes d'impression lors de l'utilisation d'imprimantes physiques, d'imprimantes XPS et PDF|Punaise|
+|CELLSJAVA-43249|Problèmes d'impression lors de l'utilisation d'imprimantes physiques, imprimantes XPS et PDF|Punaise|
 |CELLSJAVA-43254|Différence de police lors de la conversion d'une feuille de calcul en image|Punaise|
 |CELLSJAVA-43266|La version Java ne prend pas en charge le chargement de la police à partir du dossier de polices de l'utilisateur actuel par défaut|Punaise|
-|CELLSJAVA-43268|Rendu Excel vers TIFF - certaines valeurs sont remplacées par des caractères "#"|Punaise|
+|CELLSJAVA-43268|Excel vers le rendu TIFF - certaines valeurs sont remplacées par des caractères "#"|Punaise|
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException : Erreur pour ZipFile|Punaise|
 |CELLSJAVA-43277|Problème avec le rapport hauteur largeur|Punaise|
 |CELLSJAVA-43245|Le graphique combiné ne s'affiche pas correctement après la conversion du fichier Excel en PDF|Punaise|
@@ -67,7 +67,7 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-43225|Exception "java.lang.NullPointerException" lors de la récupération de la valeur de chaîne de la cellule|Exception|
 |CELLSJAVA-43229|Exception lors du chargement du fichier XLSM avec l'option setKeepUnparsedData(false)|Exception|
 |CELLSJAVA-43238|Le calcul échoue avec NPE (java.lang.NullPointerException)|Exception|
-|CELLSJAVA-43199|Exception "java.lang.NegativeArraySizeException" lors de l'enregistrement au format HTML|Exception|
+|CELLSJAVA-43199|Exception "java.lang.NegativeArraySizeException" lors de l'enregistrement dans HTML|Exception|
 |CELLSJAVA-43170|CellsException sur la méthode calculateFormula|Exception|
 |CELLSJAVA-43267|Exception "java.lang.NullPointerException" lors du calcul du tableau croisé dynamique dans la feuille|Exception|
 
@@ -77,11 +77,11 @@ Vous trouverez ci-dessous une liste de toutes les modifications apportées au pu
 
 ### **Marque l'interface ICustomFunction comme obsolète.**
 
-Cette interface est parfois source d'ambiguïté et d'incompréhension pour les utilisateurs. L'utilisateur doit utiliser AbstractCalculationEngine à la place, qui fournit des API plus pratiques et plus flexibles pour manipuler les fonctions personnalisées.
+Cette interface est parfois source d'ambiguïté et d'incompréhension pour les utilisateurs. L'utilisateur doit utiliser AbstractCalculationEngine à la place, qui fournit des API plus pratiques et plus flexibles pour manipuler des fonctions personnalisées.
 
 ### **Marque la propriété CalculationOptions.CustomFunction comme obsolète.**
 
- Veuillez utiliser**RésuméCalculMoteur** à la place de**ICustomFunction** par**CalculationOptions.CustomEngine** propriété.
+ Veuillez utiliser**RésuméCalculMoteur** à la place de**ICustomFunction** par**CalculationOptions.CustomEngine** la propriété.
 
 ### **Marque la méthode Workbook.CalculateFormula(bool, ICustomFunction) comme obsolète.**
 
@@ -233,7 +233,7 @@ Indique si le bouton Filtre automatique de cette colonne est visible.
 
 ### **Obsolète la propriété Filter.Visibledropdown.**
 
- Utilisation**FilterColumn.IsDropdownVisible** Au lieu.
+ Utilisation**FilterColumn.IsDropdownVisible** au lieu.
 
 ### **Ajoute la propriété CopyOptions.KeepMacros.**
 
@@ -257,4 +257,4 @@ Représente les axes croisés à la valeur minimale.
 
 ### **Ajoute la propriété XlsbSaveOptions.ExportAllColumnIndexes.**
 
-Indique si les index de colonne sont exportés pour toutes les cellules lors de l'enregistrement des fichiers XLSB.
+Indique si les index de colonne d'exportation pour toutes les cellules lors de l'enregistrement des fichiers XLSB.

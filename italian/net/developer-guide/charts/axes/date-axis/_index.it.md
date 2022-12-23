@@ -14,5 +14,5 @@ Per impostazione predefinita, Aspose.cells determina le unità di base per l'ass
  a[**Scala temporale**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/) e quindi imposta le unità di base su Giorni.
 
 ![cose da fare:immagine_alt_testo](excel.png)
-## **Codice di esempio**
+## **Codice d'esempio**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}

@@ -55,4 +55,4 @@ Viene visualizzata la finestra di dialogo Modifica rapporto.
 
 
 
-1. Salva e pubblica il rapporto.
+1. Salva e pubblica il report.

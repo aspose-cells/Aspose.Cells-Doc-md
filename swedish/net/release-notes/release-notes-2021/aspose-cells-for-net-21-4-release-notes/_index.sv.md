@@ -13,24 +13,24 @@ url: /sv/net/aspose-cells-for-net-21-4-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSNET-47891|Stöd för att få visningsstil med cacheaktivering|Ny funktion|
-|CELLSNET-47922|Rendera data med cellkoordinater i Excel till HTML-konvertering|Förbättring|
+|CELLSNET-47922|Återge data med cellkoordinater i Excel till HTML konvertering|Förbättring|
 |CELLSNET-47924|Implementera Crypto med BouncyCastles API|Förbättring|
 |CELLSNET-47951|Stöd XML-kartor av XSD|Förbättring|
 |CELLSNET-47206|Gruppera data med horisontella smarta markörer och kapslad datakälla|Förbättring|
 |CELLSNET-47888|Lämpliga SmartMarkers krävs för att uppnå önskad effekt|Förbättring|
 |CELLSNET-47918|Hopfällbara rader tillsammans med smarta markörer|Förbättring|
 |CELLSNET-47953|Stöd för att lägga till .webp-bild till .xlsx-filer.|Förbättring|
-|CELLSNET-47916|HTML-stiltagg förbrukar 4 Gb minne och kraschar när den laddas in i arbetsboken|Prestanda|
+|CELLSNET-47916|HTML stiltagg förbrukar 4 Gb minne och kraschar när den laddas in i arbetsboken|Prestanda|
 |CELLSNET-46869|WordArts och former renderas inte korrekt i PDF|Insekt|
 |CELLSNET-47890|Linjer kommer att glida under Pdf-konvertering|Insekt|
-|CELLSNET-47858|Former renderas inte korrekt i HTML och PDF|Insekt|
+|CELLSNET-47858|Former återges inte korrekt i HTML och PDF|Insekt|
 |CELLSNET-47907|Diagrammets placering ändras när Excel konverteras till HTML|Insekt|
-|CELLSNET-47856|XLSX till PDF-konverteringsproblem med pivottabeller|Insekt|
+|CELLSNET-47856|XLSX till PDF konverteringsproblem med pivottabeller|Insekt|
 |CELLSNET-47846|GridWeb-implementering inkompatibel med de senaste DevExpress-komponenterna|Insekt|
 |CELLSNET-47923|Felaktig sidlayoutvy för arbetsbok med ett annat standardteckensnitt än Calibri|Insekt|
-|CELLSNET-47965| Excel till PDF-konvertering - blandade dokumentsidor|Insekt|
-|CELLSNET-46161|Sned text visas inte korrekt i PDF-filen|Insekt|
-|CELLSNET-47917|Cirkeldiagrametiketter trasslat i PDF genererade från Excel-kalkylblad|Insekt|
+|CELLSNET-47965| Excel till PDF Konvertering - Dokumentsidor blandas ihop|Insekt|
+|CELLSNET-46161|Sned text visas inte korrekt i utgången PDF|Insekt|
+|CELLSNET-47917|Cirkeldiagram-etiketter trasslat i PDF Genererade från Excel-kalkylblad|Insekt|
 |CELLSNET-47919|Fel maxvärde extraherat från diagram|Insekt|
 |CELLSNET-46363|Kapslad struktur importeras inte korrekt till XLSX|Insekt|
 |CELLSNET-47838|Inbyggd diagramfärgpalett bevaras inte|Insekt|
@@ -43,7 +43,7 @@ url: /sv/net/aspose-cells-for-net-21-4-release-notes/
 |CELLSNET-47940|Ett undantag görs när en speciell mht-fil öppnas.|Undantag|
 |CELLSNET-47944|Null Undantag vid konvertering av skivform till bild|Undantag|
 |CELLSNET-47932|Null Undantag vid laddning av en speciell xlsx-fil med konstig formel.|Undantag|
-|CELLSNET-47963|Parametern är inte ett giltigt undantag när intervall renderas till PNG|Undantag|
+|CELLSNET-47963|Parametern är inte ett giltigt undantag när intervallet renderas till PNG|Undantag|
 |CELLSNET-47967|Overflow-fel när en XLS-fil sparades|Undantag|
 |CELLSNET-47921|Null Undantag när en speciell xlsx-fil laddas|Undantag|
 |CELLSNET-47945|Null Undantag när en speciell html-fil laddas|Undantag|

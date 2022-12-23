@@ -4,8 +4,8 @@ type: docs
 weight: 30
 url: /de/java/convert-spreadsheet-to-pdf-using-aspose-cells/
 ---
-## **Aspose.Cells – Tabellenkalkulation in PDF konvertieren**
-PDF-Dokumente werden häufig als Standardformat für den Austausch von Dokumenten zwischen Organisationen, Regierungssektoren und Einzelpersonen verwendet. Softwareentwickler werden oft gebeten, eine Möglichkeit zu finden, Microsoft Excel-Dateien einfach in PDF-Dokumente umzuwandeln. Aspose.Cells unterstützt diese Funktionen.
+## **Aspose.Cells - Konvertieren Sie die Tabelle in PDF**
+PDF-Dokumente werden häufig als Standardformat für den Austausch von Dokumenten zwischen Organisationen, Regierungssektoren und Einzelpersonen verwendet. Softwareentwickler werden oft gebeten, eine Möglichkeit zu finden, Microsoft-Excel-Dateien einfach in PDF-Dokumente umzuwandeln. Aspose.Cells unterstützt diese Funktionen.
 
 **Java**
 

@@ -20,9 +20,9 @@ Sayfa yapısı seçenekleri Aspose.Cells'de tam olarak desteklenir. Bu makale, A
 
 ### **Sayfa yönlendirmesi**
 
- Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Emlak. bu[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)numaralandırma, aşağıda listelenmiştir.
+Sayfa yönlendirmesi kullanılarak dikey veya yatay olarak ayarlanabilir.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Emlak. bu[**Oryantasyon**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**Sayfa Yönlendirme Türü**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)numaralandırma, aşağıda listelenmiştir.
 
-|**Sayfa Yönlendirme Türleri**|**Tanım**|
+|**Sayfa Yönlendirme Türleri**|**Açıklama**|
 |:- |:- |
 |Manzara|Yatay yönlendirme|
 |Vesika|Dikey yönlendirme|
@@ -37,7 +37,7 @@ Sayfa yapısı seçenekleri Aspose.Cells'de tam olarak desteklenir. Bu makale, A
 
 ### **Sayfalara Sığdır Seçenekleri**
 
- Çalışma sayfasının içeriğini belirli sayıda sayfaya sığdırmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)özellikleri. Bu özellikler, çalışma sayfalarını ölçeklendirmek için de kullanılır.
+ Çalışma sayfasının içeriğini belirli sayıda sayfaya sığdırmak için[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Sayfalara SığdırUzun**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopagestall) ve[**Sayfalara SığdırGeniş**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/fittopageswide)özellikler. Bu özellikler, çalışma sayfalarını ölçeklendirmek için de kullanılır.
 
 {{% alert color="primary" %}}
 
@@ -51,7 +51,7 @@ Sayfa yapısı seçenekleri Aspose.Cells'de tam olarak desteklenir. Bu makale, A
 
  kullanarak çalışma sayfalarının yazdırılacağı kağıt boyutunu ayarlayın.[**Sayfa ayarı**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) sınıf'[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) Emlak. bu[**Kağıt boyutu**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/papersize) özelliği, önceden tanımlanmış değerlerden birini kabul eder.[**KağıtBoyutuTürü**](https://reference.aspose.com/cells/net/aspose.cells/papersizetype)numaralandırma, aşağıda listelenmiştir.
 
-|**Kağıt Boyutu Türleri**|**Tanım**|
+|**Kağıt Boyutu Türleri**|**Açıklama**|
 |:- |:- |
 |KağıtMektup|Harf (8-1/2 inç x 11 inç)|
 |KağıtMektupKüçük|Küçük Harf (8-1/2 inç x 11 inç)|

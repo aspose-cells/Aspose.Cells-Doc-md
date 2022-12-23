@@ -25,7 +25,7 @@ Aspose.Cells for Java, aşağıdaki Java sürümlerini destekler:
 
 ### **Aspose Cells for Java'i Maven Deposundan yükleyin**
 
-Maven Aspose.Cells for Java indirip kurmanın en kolay yolu.
+ Maven Aspose.Cells for Java indirip kurmanın en kolay yolu.
 
 1.  Maven pom.xml dosyanızda Aspose Maven Depo yapılandırmasını/konumunu belirtin.
  2. Pom.xml dosyanızda Aspose.Cells for Java API bağımlılığını tanımlayın.

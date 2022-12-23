@@ -1,19 +1,19 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 16.12.0
+title: Pubblico API Modifiche Aspose.Cells 16.12.0
 type: docs
 weight: 10
 url: /it/cpp/public-api-changes-in-aspose-cells-16-12-0/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 16.11.0 alla 16.12.0 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
 ### **Supporto per tabelle pivot**
 La seconda versione di Aspose.Cells for C++ supporta la creazione e la manipolazione delle tabelle pivot. Aspose.Cells for C++ fornisce la classe IPivotTable che rappresenta un oggetto tabella pivot mentre IPivotTableCollection rappresenta una raccolta di tabelle pivot. È possibile accedere a IPivotTableCollection tramite l'oggetto IWorksheet e aggiungere una nuova tabella pivot alla raccolta durante l'utilizzo del metodo IPivotTableCollection.Add.
 
- Il seguente frammento di codice dimostra quanto sia semplice utilizzare l'API Aspose.Cells for C++ per[creare tabelle pivot da zero](/cells/it/cpp/create-pivot-table/).
+ Il seguente frammento di codice dimostra quanto sia semplice utilizzare Aspose.Cells for C++ API per[creare tabelle pivot da zero](/cells/it/cpp/create-pivot-table/).
 
 **C++**
 
@@ -85,9 +85,9 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 
-Oltre a creare nuove tabelle pivot, le API Aspose.Cells for C++ supportano anche la manipolazione delle tabelle pivot esistenti. L'API attualmente supporta la modifica dei dati nell'intervallo di origine della tabella pivot e quindi l'aggiornamento. Una volta che la tabella pivot è stata manipolata come desiderato, è consigliabile utilizzare i metodi IPivotTable.RefreshData e IPivotTable.CalculateData per aggiornare la tabella pivot rispetto all'origine dati aggiornata.
+Oltre a creare nuove tabelle pivot, le API Aspose.Cells for C++ supportano anche la manipolazione delle tabelle pivot esistenti. Lo API attualmente supporta la modifica dei dati nell'intervallo di origine della tabella pivot e quindi l'aggiornamento. Una volta che la tabella pivot è stata manipolata come desiderato, è consigliabile utilizzare i metodi IPivotTable.RefreshData e IPivotTable.CalculateData per aggiornare la tabella pivot rispetto all'origine dati aggiornata.
 
-Il seguente frammento di codice utilizza l'API Aspose.Cells for C++ per[manipolare una tabella pivot esistente](/cells/it/cpp/manipulate-pivot-table/).
+Il seguente frammento di codice utilizza Aspose.Cells for C++ API per[manipolare una tabella pivot esistente](/cells/it/cpp/manipulate-pivot-table/).
 
 **C++**
 
@@ -336,7 +336,7 @@ wb->Save(outputPath);
 
 {{< /highlight >}}
 ### **Supporto per il raggruppamento di righe e colonne**
- Aspose.Cells for C++ L'API può essere utilizzata per raggruppare righe e colonne mentre si utilizza la classe ICells che è fondamentalmente la raccolta di tutte le celle in un determinato foglio di lavoro. La classe ICells offre i metodi GroupRows e GroupColumns per[raggruppare righe e colonne](/cells/it/cpp/group-rows-and-columns-of-worksheet/) rispettivamente.
+ Aspose.Cells for C++ API può essere utilizzato per raggruppare righe e colonne mentre si utilizza la classe ICells che è fondamentalmente la raccolta di tutte le celle in un determinato foglio di lavoro. La classe ICells offre i metodi GroupRows e GroupColumns per[raggruppare righe e colonne](/cells/it/cpp/group-rows-and-columns-of-worksheet/) rispettivamente.
 
 Il frammento di codice seguente illustra il semplice scenario di utilizzo di entrambi i metodi sopra menzionati.
 

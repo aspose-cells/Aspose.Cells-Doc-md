@@ -15,7 +15,7 @@ Microsoft Excel (97 - 365 ) vous permet de chiffrer/protéger par mot de passe v
 Dans MS Excel (par exemple MS Excel 2003), pour implémenter les paramètres de cryptage des fichiers, vous pouvez essayer :
 
 -  Du**Outils** menu, sélectionnez**Choix** , puis sélectionnez le**Sécurité** languette.
--  Saisir**Mot de passe pour ouvrir** et cliquez sur le**Avancé** bouton.
+-  Contribution**Mot de passe pour ouvrir** et cliquez sur le**Avancé** bouton.
 - Choisissez le type de cryptage et confirmez le mot de passe.
 
 ![tâche : image_autre_texte](encrypting-excel-files_1.png)

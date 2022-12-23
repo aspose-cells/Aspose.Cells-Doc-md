@@ -6,7 +6,7 @@ url: /ar/java/change-tick-label-direction/
 ---
 ## **تغيير اتجاه تسمية التجزئة**
 
-يوفر لك Aspose.Cells القدرة على تغيير اتجاه تسمية علامة التجزئة على الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) منشأه. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)يقبل العقار[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) قيمة العد. ال[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)يوفر التعداد الأعضاء التالية
+يوفر لك Aspose.Cells القدرة على تغيير اتجاه تسمية علامة التجزئة على الرسم البياني باستخدام[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType) خاصية. ال[**TickLabels.DirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ticklabels#DirectionType)يقبل العقار[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType) قيمة العد. ال[**ChartTextDirectionType**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartTextDirectionType)يوفر التعداد الأعضاء التالية
 
 - [**عرضي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#HORIZONTAL)
 - [**عمودي**](https://reference.aspose.com/cells/java/com.aspose.cells/charttextdirectiontype#VERTICAL)

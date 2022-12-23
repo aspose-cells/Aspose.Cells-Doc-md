@@ -27,7 +27,7 @@ Son olarak, aşağıdaki kod grafiği resim formatında ve çalışma kitabını
 
 |**Sonuç Pasta Grafiği**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](creating-pie-chart-with-leader-lines_1.png)|
+|![yapılacaklar:resim_alternatif_metin](creating-pie-chart-with-leader-lines_1.png)|
 
 ## **ileri konular**
 - [Pasta Grafikte Özel Dilim veya Sektör Renkleri](/cells/tr/net/custom-slice-or-sector-colors-in-pie-chart/)

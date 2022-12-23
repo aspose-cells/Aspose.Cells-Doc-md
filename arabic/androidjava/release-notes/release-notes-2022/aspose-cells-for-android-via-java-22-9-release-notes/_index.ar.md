@@ -14,16 +14,16 @@ url: /ar/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44721|دعم الفرز PivotField عبر الحقل المحسوب|
 |CELLSJAVA-44811|دعم لتحديد الأوراق لإخراجها أثناء التصدير إلى pdf / xps|
-|CELLSJAVA-44194|لا يتم تقديم شكل الرسم في عرض Excel إلى PDF|
+|CELLSJAVA-44194|لا يتم تقديم شكل الرسم في Excel إلى عرض PDF|
 |CELLSJAVA-44733|تحقق من قواعد ms excel لعرض حدود الخلية عندما يكون العمود المجاور مخفيًا: لم تتم مزامنة حدود الخلية|
 |CELLSJAVA-44777|تصدير الصيغ إلى html فقط بالاعتماد على خيار HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|تحسين تحليل سلسلة html إلى خلية|
-|CELLSJAVA-44695| التحويل السيئ إلى PDF من XLS مع وسيلة شرح خطية على يسار الورقة|
+|CELLSJAVA-44695| تحويل غير صالح إلى PDF من XLS مع وسيلة شرح خطية على يسار الورقة|
 |CELLSJAVA-44700|لا يتم تحديث الحقول المحسوبة في الجدول المحوري عند تحديث مصدر البيانات|
 |CELLSJAVA-44705|يطرح Cell.getDependents () استثناء أو لا يمكنه توفير جميع المعالين|
 |CELLSJAVA-44717|مشكلة في نمط الحدود (الخط)|
 |CELLSJAVA-44707| لا يتم عرض خط الحدود|
-|CELLSJAVA-44670| مشكلة في الصيغ في HTML الناتج - تحويل Excel إلى HTML|
+|CELLSJAVA-44670| مشكلة في الصيغ في الإخراج HTML - تحويل Excel إلى HTML|
 |CELLSJAVA-44202|عند التصدير إلى HTML ، فإن وسيلة الإيضاح في المخطط ليست هي نفسها MS Excel|
 |CELLSJAVA-44591|لا يتطابق استدارة نص التسميات مع Excel في صورة الإخراج للمخطط|
 |CELLSJAVA-44655|تعذر عرض مخطط Treemap بقيمة سالبة مما يؤدي إلى استمرار تشغيل التنفيذ|
@@ -38,12 +38,12 @@ url: /ar/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44773|يتم إفساد البيانات عند فتح مستند Excel بأعمدة مخفية في GridWeb (Java)|
 |CELLSJAVA-44781|التحقيق في مشكلة تغيير حجم الصف عند تغيير الحجم إلى ارتفاع صغير جدًا|
 |CELLSJAVA-44787|تم فقد الحد السفلي في الصف الأخير في المصنف|
-|CELLSJAVA-44761|الاستخدام المفرط للذاكرة عند تحويل ملف Excel إلى HTML|
-|CELLSJAVA-44801|تحويل Excel إلى PDF باستخدام Aspose.Cells for Java v22.7 يؤدي إلى أحرف مشوشة|
+|CELLSJAVA-44761|استخدام مفرط للذاكرة عند تحويل ملف Excel إلى HTML|
+|CELLSJAVA-44801|تحويل Excel إلى PDF باستخدام Aspose.Cells for Java v22.7 يتسبب في أحرف مشوشة|
 |CELLSJAVA-44741|فاصل الأسطر غير صحيح في الإخراج xlsx بعد تعيين سلسلة html في الخلية|
 |CELLSJAVA-44776|فقد تصميم صف رأس الجدول عند نسخ الورقة|
 |CELLSJAVA-44789|مشكلة تتعلق باستبدال سلسلة الأحرف لمربع نص تم وضعه في جدول بيانات Excel|
-|CELLSJAVA-44792| حفظ مصنف لا نهائي بتنسيق HTML (2892)|
+|CELLSJAVA-44792| مصنف حفظ لا نهاية له بتنسيق HTML (2892)|
 |CELLSJAVA-44864|يؤدي التحميل المتزامن للمصنفات إلى ظهور أخطاء زائفة "الملف تالف"|
 |CELLSJAVA-44327|تظهر الحدود وعدد أقل من الخطوط في شرائح دائرية بالأبيض والأسود في الرسم البياني لعرض الصورة|
 |CELLSJAVA-44591|لا يتطابق استدارة نص التسميات مع Excel في صورة الإخراج للمخطط|
@@ -51,14 +51,14 @@ url: /ar/java/aspose-cells-for-android-via-java-22-9-release-notes/
 |CELLSJAVA-44860|يختلف عرض نص الخلية كما هو الحال في Excel في بعض المناطق المدمجة|
 |CELLSJAVA-44832|يتم إخراج صفحات متعددة بدلاً من صفحة واحدة كما في Excel أثناء التحويل إلى pdf|
 |CELLSJAVA-44812|غير قادر على إنقاص منطقة الرسم للمخطط|
-|CELLSJAVA-44831|يطالب MS Word بالخطأ "وجد Word محتوى غير قابل للقراءة في ..." عند فتح DOCX المحول من ملف XLSX بواسطة Aspose.Cells for Java|
+|CELLSJAVA-44831|يطالب MS Word بالخطأ "وجد Word محتوى غير قابل للقراءة في ..." عند فتح الملف DOCX المحول من XLSX بواسطة Aspose.Cells for Java|
 |CELLSJAVA-44833|لا يتم تطبيق لون النص على كلمات مختلفة أو جزء من المحتويات في ملف Excel الناتج عند استخدام أسلوب Cell.setHtmlString ()|
 |CELLSJAVA-44852| الحد غير صحيح عند تحويل ملف Excel الثابت إلى HTML|
-|CELLSJAVA-44856| تحويل Excel إلى HTML - لا يتم عرض / عرض خط المؤشر (مخطط صغير)|
+|CELLSJAVA-44856| تحويل Excel إلى HTML - لا يتم عرض / تقديم خط المؤشر (مخطط صغير)|
 |CELLSJAVA-44859|لا تعمل بعض تنسيقات Html مع خلايا ورقة العمل في ملف Excel موجود|
-|CELLSJAVA-44725| استثناء "java.util.zip.ZipException: حجم إدخال غير صالح (متوقع 0 ولكنه يحتوي على 1053 بايت)" أثناء تحويل XLSX إلى PDF|
+|CELLSJAVA-44725| استثناء "java.util.zip.ZipException: حجم إدخال غير صالح (متوقع 0 ولكنه حصل على 1053 بايت)" أثناء تحويل XLSX إلى PDF|
 |CELLSJAVA-44763|استثناء "java.lang.IllegalArgumentException: لا يمكن تحليل رقم الوسيطة: 1: X8" عند تحميل ملف Excel باستخدام "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|خطأ عند الحفظ بتنسيق PDF - التحقيق مطلوب|
+|CELLSJAVA-44774|خطأ عند الحفظ كـ PDF - التحقيق مطلوب|
 |CELLSJAVA-44842|استثناء "java.lang.OutOfMemoryError: Java heap space" عند تحويل ملف XLSX إلى PDF|
 
 

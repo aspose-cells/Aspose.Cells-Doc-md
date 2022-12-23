@@ -311,7 +311,7 @@ book.Save(outFilePath);
 
 
 ### **Propiedad DataLabels.IsResizeShapeToFitText agregado**
- Otra característica útil que ha expuesto Aspose.Cells for .NET 8.7.0 es la propiedad DataLabels.IsResizeShapeToFitText que puede habilitar la[Cambiar el tamaño de la forma para que se ajuste al texto](/cells/es/net/resize-chart-s-data-label-shape-to-fit-text/) característica de la aplicación Excel para las etiquetas de datos del gráfico.
+ Otra característica útil que ha expuesto Aspose.Cells for .NET 8.7.0 es la propiedad DataLabels.IsResizeShapeToFitText que puede habilitar la[Cambiar el tamaño de la forma para que se ajuste al texto](/cells/es/net/resize-chart-s-data-label-shape-to-fit-text/)característica de la aplicación Excel para las etiquetas de datos del gráfico.
 
 El siguiente es el escenario de uso simple.
 
@@ -347,7 +347,7 @@ chart.Calculate();
 
 
 ### **Propiedad PdfSaveOptions.OptimizationType agregado**
-Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios[elija el algoritmo de optimización deseado mientras exporta hojas de cálculo a formato PDF](/cells/es/net/save-excel-into-pdf-with-standard-or-minimum-size/). Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación.
+Aspose.Cells for .NET 8.7.0 ha expuesto la propiedad PdfSaveOptions.OptimizationType junto con la enumeración PdfOptimizationType para facilitar a los usuarios[elija el algoritmo de optimización deseado mientras exporta hojas de cálculo al formato PDF](/cells/es/net/save-excel-into-pdf-with-standard-or-minimum-size/). Hay 2 valores posibles para la propiedad PdfSaveOptions.OptimizationType como se detalla a continuación.
 
 1. PdfOptimizationType.MinimumSize: la calidad se ve comprometida por el tamaño del archivo resultante.
 1. PdfOptimizationType.Standard: la calidad no se ve comprometida, por lo que el tamaño del archivo resultante será grande.

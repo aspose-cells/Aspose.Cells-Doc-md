@@ -6,7 +6,7 @@ url: /it/java/determine-if-shape-is-smart-art-shape/
 ---
 ## **Possibili scenari di utilizzo**
 
-Le Smart Art Shapes sono forme speciali in Microsoft Excel che consentono di creare automaticamente diagrammi complessi. Puoi scoprire se la forma è una forma artistica intelligente o una forma normale utilizzando[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)proprietà.
+Le Smart Art Shapes sono forme speciali in Microsoft Excel che consentono di creare automaticamente diagrammi complessi. Puoi scoprire se la forma è una forma artistica intelligente o una forma normale usando[**Shape.IsSmartArt**](https://reference.aspose.com/cells/java/com.aspose.cells/shape#IsSmartArt)proprietà.
 
 ## **Determina se Shape è Smart Art Shape**
 
@@ -14,7 +14,7 @@ Il codice di esempio seguente carica il file[esempio di file Excel](55541805.xls
 
 ![cose da fare:immagine_alt_testo](determine-if-shape-is-smart-art-shape_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-DrawingObjects-DetermineIfShapeIsSmartArtShape.java" >}}
 

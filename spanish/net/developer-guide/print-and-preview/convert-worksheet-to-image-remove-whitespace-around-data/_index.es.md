@@ -12,7 +12,7 @@ veces, necesita presentar imágenes de hojas de trabajo en aplicaciones o págin
 
 ## **Eliminar espacios en blanco alrededor de los datos**
 
- los[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API convierte una hoja de trabajo en un archivo de imagen con cualquier atributo especificado, por ejemplo, formato de imagen, hojas paginadas, etc. Se admiten varios formatos de imagen, incluidos BMP, GIF, JPG, TIFF y EMF.
+ Él[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API convierte una hoja de trabajo en un archivo de imagen con cualquier atributo especificado, por ejemplo, formato de imagen, hojas paginadas, etc. Se admiten varios formatos de imagen, incluidos BMP, GIF, JPG, TIFF y EMF.
 
  Cuando utiliza la función de hoja a imagen, la imagen de salida tiene un espacio en blanco, es decir, un borde, alrededor de forma predeterminada. Puede eliminar esto configurando los márgenes de configuración de página superior, inferior, izquierda y derecha para la hoja de trabajo de origen en 0 y especifique[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)atributos en consecuencia.
 

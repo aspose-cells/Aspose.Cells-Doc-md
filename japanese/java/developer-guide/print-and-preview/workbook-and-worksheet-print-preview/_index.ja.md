@@ -6,7 +6,7 @@ url: /ja/java/workbook-and-worksheet-print-preview/
 ---
 ## **利用シーン**
 
-数百万ページの Excel ファイルを PDF や画像に変換する必要がある場合があります。このようなファイルの処理には、多くの時間とリソースが消費されます。このような場合、ワークブックとワークシートの印刷プレビュー機能が役立つことがあります。このようなファイルを変換する前に、ユーザーは総ページ数を確認してから、ファイルを変換するかどうかを決定できます。この記事では、[**ワークブック印刷プレビュー**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)と[**シート印刷プレビュー**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)総ページ数を調べるためのクラス。
+数百万ページの Excel ファイルを PDF または画像に変換する必要がある場合があります。このようなファイルの処理には、多くの時間とリソースが消費されます。このような場合、ワークブックとワークシートの印刷プレビュー機能が役立つことがあります。このようなファイルを変換する前に、ユーザーは総ページ数を確認してから、ファイルを変換するかどうかを決定できます。この記事では、[**ワークブック印刷プレビュー**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookPrintingPreview)と[**シート印刷プレビュー**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetPrintingPreview)総ページ数を調べるためのクラス。
 
 ## **ワークブックとワークシートの印刷プレビュー**
 

@@ -27,7 +27,7 @@ url: /it/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Prestazione
 
-- Impiccato durante il salvataggio in formato PDF
+- Impiccato durante il salvataggio nel formato PDF
 
 
 
@@ -43,7 +43,7 @@ url: /it/net/aspose-cells-for-net-7-4-0-release-notes/
 - Problema di aggiornamento e calcolo dei dati della tabella pivot
 - CERCA.ORIZZ con bug delle formule INDIRETTE
 - Il foglio di lavoro non protetto non riesce per i file salvati con Excel 2013
-- Problema del numero di pagina del piè di pagina nell'esportazione in PDF
+- Problema del numero di pagina del piè di pagina nell'esportazione a PDF
 - AcceptAllRevisions non viene applicato correttamente durante il salvataggio della cartella di lavoro nei flussi
 
  -Caselle di controllo danneggiate rese al salvataggio
@@ -78,19 +78,19 @@ url: /it/net/aspose-cells-for-net-7-4-0-release-notes/
 
  Insetti
 
- 41279 - L'elenco dei menu di convalida di GridWeb fallirà sulle voci di menu che contengono il simbolo del dollaro -"$"
+41279 - L'elenco dei menu di convalida di GridWeb fallirà sulle voci di menu che contengono il simbolo del dollaro -"$"
 
  41280- L'elenco del menu di convalida di GridWeb viene aggiornato dopo l'aggiornamento del valore della cella di riferimento
 
  41294 - GridWeb non funzionerà su FireFox per i file che contengono celle con elenco di convalida
 
-41308 - Durante la modifica di un valore di cella, premendo il tasto Invio si perderà l'interruzione di riga originale in IE
+ 41308 - Durante la modifica di un valore di cella, premendo il tasto Invio si perderà l'interruzione di riga originale in IE
 
 - Problema di copia-incolla nella griglia Web che non funziona per Chrome, FireFox ecc.
 
 
 
- \3) Aspose.Cells.GridDesktop
+\3) Aspose.Cells.GridDesktop
 
 
 

@@ -13,7 +13,7 @@ url: /tr/net/detect-hyperlink-type/
 - E-posta: E-posta
 - CellReference: Hücreye veya adlandırılmış aralığa bağlantı.
 
- Köprü tipini kontrol etmek için,[**köprü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) sınıf bir sağlar[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) dönüş türüne sahip özellik[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Aşağıdaki kod parçacığı,[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Bunu kullanarak mülkiyet[kaynak excel dosyası](94896195.xlsx).
+Köprü tipini kontrol etmek için,[**köprü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink) sınıf bir sağlar[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype) dönüş türüne sahip özellik[**TargetModeType**](https://reference.aspose.com/cells/net/aspose.cells/targetmodetype). Aşağıdaki kod parçacığı,[**Bağlantı Türü**](https://reference.aspose.com/cells/net/aspose.cells/hyperlink/properties/linktype)Bunu kullanarak mülkiyet[kaynak excel dosyası](94896195.xlsx).
 
 ### Kaynak kodu
 

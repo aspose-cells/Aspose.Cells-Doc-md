@@ -14,7 +14,7 @@ Aspose.Cells 允许您在将表格插入工作表时将第一行向下移动。�
 
 ## **截屏**
 
-![待办事项：图像_替代_文本](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
+![待办事项：图片_替代_文本](shift-first-row-down-when-inserting-cells-data-table-rows_1.png)
 
 ## **示例代码**
 

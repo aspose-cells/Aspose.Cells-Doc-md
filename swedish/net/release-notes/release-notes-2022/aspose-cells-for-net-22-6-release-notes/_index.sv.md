@@ -15,7 +15,7 @@ url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50880|Nytt api för att konvertera data till ICellsDataTable för användarens bekvämlighet|
 |CELLSNET-51140|Stöd datalagring 5.0 av .numbers|
 |CELLSNET-51144|Stöd för att läsa bilder av Numbers13|
-|CELLSNET-51230|Stöd för att ställa in stil för CellRange|
+|CELLSNET-51230| Stöd för att ställa in stil för CellRange|
 |CELLSNET-50996|Lägg till ChartCollection.Add (ChartType, String, Boolean, Int32, Int32, Int32, Int32) överbelastad metod|
 |CELLSNET-51184| Stöd import av matrisvärde om intervallet är en enkel cell|
 |CELLSNET-51215|Stöd för att spara tabellformler till xlsb|
@@ -23,12 +23,12 @@ url: /sv/net/aspose-cells-for-net-22-6-release-notes/
 |CELLSNET-50954|Fel UpperLeftRow i CheckBox efter att arbetsboken lästs in|
 |CELLSNET-51153| Dubbletter av kryssrutor|
 |CELLSNET-51158|Tecken skrivna på objekt som former och textrutor är förvrängda i Linux|
-|CELLSNET-51180|XLS-fil med pivottabell konverterad till XLSM är skadad och dataanslutningsdetaljer har raderats|
+|CELLSNET-51180|XLS-filen med pivottabellen konverterad till XLSM är skadad och dataanslutningsdetaljer har raderats|
 |CELLSNET-50598|Dynamisk formel med FILTER-funktion kan inte uppdateras och beräknas korrekt|
 |CELLSNET-51069|Cell.Calculate() uppdaterar inte formelberoenden när beräkningskedjan är aktiverad för arbetsboken|
 |CELLSNET-51186| Problem med CEILING-funktionen i Aspose.Cells' formelberäkningsmotor|
 |CELLSNET-51192|DATE-funktionen beräknades som #NUM! för 1/0/1900|
-|CELLSNET-51195|Konvertering av en XLSB-fil med Data Tables till XLSM-format resulterade i radering av Data Table|
+|CELLSNET-51195|Konvertering av en XLSB-fil med datatabeller till XLSM-format resulterade i radering av datatabell|
 |CELLSNET-51235|Vissa celler med mycket långa formler beräknas inte av Aspose.Cells|
 |CELLSNET-51268|Problem med att COUNTIFS-formeln behandlar 0 felaktigt|
 |CELLSNET-51041|Kinesiska tecken är skadade när html laddas|

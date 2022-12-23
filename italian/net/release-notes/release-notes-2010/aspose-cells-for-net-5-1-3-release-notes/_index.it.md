@@ -14,7 +14,7 @@ url: /it/net/aspose-cells-for-net-5-1-3-release-notes/
 
  Cosa è cambiato in Aspose.Cells:
 
--  Migliora le prestazioni di salvataggio dei file PDF.
+-  Migliora le prestazioni del salvataggio dei file PDF.
 -  39 miglioramenti e correzioni.
 
  Cosa è cambiato in Aspose.Cells.GridWeb:
@@ -41,7 +41,7 @@ url: /it/net/aspose-cells-for-net-5-1-3-release-notes/
 
  Problemi risolti in Aspose.Cells for .NET v5.1.3.
 
-|**ID problema** |**Componente** |**Riepilogo** |
+|**ID problema** |**Componente** |**Sommario** |
 |:- |:- |:- |
 |19532 | GrigliaWeb| I valori percentuali immessi vengono trattati come valore stringa.|
 |19584 | GrigliaWeb| WebWorksheets.AddCopy() non riesce a copiare le formule.|
@@ -54,19 +54,19 @@ url: /it/net/aspose-cells-for-net-5-1-3-release-notes/
 |19411 | GrigliaDesktop| La funzione CERCA.VERT non supporta l'utilizzo di valori double o int|
 |19721 | HTML| Il salvataggio del documento Excel come HTML richiede molto tempo|
 |17485 | PDF| Logo mancante e testo sfocato/chiaro|
-|18114 | PDF| Problema di conversione PDF|
-|19237 | PDF|Differenza nella stampa da Excel e nell'output in PDF|
-|19392 | PDF| Larghezza dell'immagine ridotta nella conversione in PDF|
-|19409 | PDF| L'aspetto del PDF differisce da XLSX|
+|18114 | PDF| PDF Problema di conversione|
+|19237 | PDF|Differenza nella stampa da Excel e nell'output a PDF|
+|19392 | PDF| Larghezza dell'immagine ridotta nella conversione a PDF|
+|19409 | PDF| L'aspetto e la sensazione di PDF differiscono da XLSX|
 |19420 | PDF| Formato data|
-|19425 | PDF| Filesize = 0 quando convertito in PDF|
+|19425 | PDF| Filesize = 0 se convertito in PDF|
 |19546 | PDF| Converti questo file in PDF|
-|19651 | PDF| Il file Excel non può essere convertito in PDF a causa di un errore di formato PDF non valido|
+|19651 | PDF| Il file Excel non può essere convertito in PDF a causa di un errore di formato pdf non valido|
 |19873 | PDF| Il testo esce dalla tabella e non viene stampato completamente|
-|19430 | Tabella pivot| XLS 2003 con tabelle pivot danneggiate|
+|19430 | Tabella pivot| 2003 XLS con tabelle pivot danneggiate|
 |19542 | Tabella pivot| DataBordyRange non restituisce l'area corretta|
-|19852 | Tabella pivot| La tabella pivot causa errori nei file XLSX ma funziona correttamente in XLS|
-|19942 | SpreadML| Problema di apertura del documento SpreadsheetML con gli attributi dello spazio dei nomi|
+|19852 | Tabella pivot| La tabella pivot causa errori nei file XLSX ma funziona correttamente nei file XLS|
+|19942 | SpreadML| SpreadsheetML problema di apertura del documento con gli attributi dello spazio dei nomi|
 |19052 | XL| Copia Excel con il gestore dell'evento del pulsante di comando|
 |19238 | XL| getPrecedents restituisce una colonna 164|
 |19541 | XL| Errore sulla formula matrice di intervallo denominato|
@@ -76,8 +76,8 @@ url: /it/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | XL| Problema con password ed Excel 2003|
 |19901 | XL| INDICE E FORMULE DI RICERCA problema in GridWeb.|
 |19911 | XL| Perdita dei singoli formati di etichette dei punti dati|
-|19931 | XL| Problema nell'aggiunta del collegamento ipertestuale a Cell|
-|19934 | XL|ImportTwoDimensionArray sembra invalidare alcune celle|
+|19931 | XL|Problema nell'aggiunta del collegamento ipertestuale a Cell|
+|19934 | XL| ImportTwoDimensionArray sembra invalidare alcune celle|
 |19250 | Xlsx| Finestra di dialogo di errore di contenuto illeggibile trovata in Excel|
 |19334 | Xlsx| Impossibile aprire la cartella di lavoro di Excel contenente il grafico|
 |19341 | Xlsx| Problemi con fogli di lavoro con carattere virgola|

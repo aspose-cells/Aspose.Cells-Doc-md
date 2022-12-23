@@ -1,5 +1,5 @@
 ﻿---
-title: Inserción y eliminación de comentarios Cell en una hoja de cálculo
+title: Inserción y eliminación de comentarios Cell en una hoja de trabajo
 type: docs
 weight: 30
 url: /es/net/inserting-and-removing-cell-comments-in-a-worksheet/

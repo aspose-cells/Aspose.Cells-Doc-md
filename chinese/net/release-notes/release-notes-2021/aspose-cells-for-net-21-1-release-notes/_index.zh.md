@@ -16,14 +16,14 @@ url: /zh/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNET-40624|如何使用 aspose 切换行/列数据系列|新功能|
 |CELLSNET-42195|将控件从 xlsm 转换为 xls|新功能|
 |CELLSNET-47806|获取图表的数据源范围。|新功能|
-|CELLSNET-47756|SmartArt 形状在 Excel 到 PDF 的转换中呈现不佳|漏洞|
+|CELLSNET-47756|SmartArt 形状在 Excel 到 PDF 转换中呈现不佳|漏洞|
 |CELLSNET-47391|形状在 excel 到 pdf 的转换中定位不正确|漏洞|
 |CELLSNET-47766|箭头图不完整|漏洞|
-|CELLSNET-47653|Diagram 块在转换为 HTML 时移动|漏洞|
+|CELLSNET-47653|转换为 HTML 时移动 Diagram 块|漏洞|
 |CELLSNET-47720|将 XLSX 转换为 HTML 时无效的 CSS 和 HTML 标记|漏洞|
-|CELLSNET-47746|HTML 属性值中未编码的引号|漏洞|
+|CELLSNET-47746|HTML 属性值中的未编码引号|漏洞|
 |CELLSNET-47792|将 html 导入 excel 时图像覆盖文本|漏洞|
-|CELLSNET-47797|XLSM 文件以 HTML 格式呈现时链接错误|漏洞|
+|CELLSNET-47797|在 HTML 中呈现 XLSM 文件时出现错误链接|漏洞|
 |CELLSNET-47807|带有嵌套 A 元素的无效 HTML 标记|漏洞|
 |CELLSNET-47778|IRR 计算结果为#NUM|漏洞|
 |CELLSNET-47814|GridDesktop 滚动条未隐藏|漏洞|
@@ -32,7 +32,7 @@ url: /zh/net/aspose-cells-for-net-21-1-release-notes/
 |CELLSNET-47787|将图表从一个工作簿复制到另一个工作簿时 XErrorBars 消失|漏洞|
 |CELLSNET-43907|将 XLS 转换为 PDF 时不呈现艺术字|漏洞|
 |CELLSNET-47780|将两个范围设置为图表数据源的问题|漏洞|
-|CELLSNET-47781|环绕文本不适用于 ODS 文件|漏洞|
+|CELLSNET-47781|换行文本不适用于 ODS 文件|漏洞|
 |CELLSNETCORE-94|数据透视表按天分组在刷新时增加|漏洞|
 |CELLSNETCORE-77|在 Azure 上将 XLSX 转换为 PDF 时出错|漏洞|
 |CELLSNETCORE-90|在 Excel 工作表中插入附件时出现问题|漏洞|

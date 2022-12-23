@@ -18,7 +18,7 @@ url: /ar/net/aspose-cells-for-net-6-0-0-release-notes/
 
  13872 تصدير إلى ملف XPS
 
- 28363 قم بإنشاء ملفات XLSX محمية ضد الكتابة
+ 28363 إنشاء ملفات XLSX محمية ضد الكتابة
 
  التحسينات
 
@@ -38,7 +38,7 @@ url: /ar/net/aspose-cells-for-net-6-0-0-release-notes/
 
  أداء
 
- 28139 مشكلة أداء Excel إلى PDF
+ 28139 Excel إلى PDF مشكلة في الأداء
 
  27095 مشكلة مع طريقة Workbook.CalculateFormula ()
 
@@ -74,13 +74,13 @@ url: /ar/net/aspose-cells-for-net-6-0-0-release-notes/
 
  28024 احصل على نطاقات وجداول مُسمَّاة
 
- 18503 خطوط قطرية لا تظهر بشكل صحيح في PDF
+ لا تظهر خطوط 18503 القطرية بشكل صحيح في PDF
 
  27168 يتم تشويه الأشكال المجمعة عند الحفظ في PDF
 
- 27240 تحويل Excel إلى PDF - إصدار نطاقات التخطيط
+ 27240 Excel إلى PDF التحويل - مشكلة نطاقات التخطيط
 
- 28112 ينتج عن حفظ ملف Excel (XLS) كملف PDF مشكلة
+ 28112 يؤدي حفظ ملف Excel (XLS) كـ PDF إلى حدوث مشكلة
 
  27061 تحذير العرض المحمي في MS Excel 2010
 
@@ -92,11 +92,11 @@ url: /ar/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27951 رموز نقطية مفقودة في الصورة المصدرة في خاصية ورقة إلى صورة
 
- 28413 نسق العمود في تحويل TIFF غير صحيح
+ 28413 تنسيق العمود في TIFF التحويل غير صحيح
 
  27906 شخصية هروب في العلامات الذكية
 
- 27342 مشكلة تتعلق بفتح ملف SpreadsheetML
+ 27342 إصدار فتح ملف SpreadsheetML
 
  28269 مشكلة ارتفاع AutoRow أثناء تكوين الصفوف التي تتجاوز الحد الأقصى للارتفاع
 
@@ -120,7 +120,7 @@ url: /ar/net/aspose-cells-for-net-6-0-0-release-notes/
 
  27799 إعداد ShowDefaultGridLine = خطأ غير متاح عند ضبط XhtmlMode الخاص بـ GridWeb على "true"
 
- \ 3) Aspose.Cells.GridDesktop
+ 3) Aspose.Cells.GridDesktop
 
  ميزات جديدة
 

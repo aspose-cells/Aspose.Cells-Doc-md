@@ -19,10 +19,10 @@ url: /zh/net/aspose-cells-for-net-19-9-release-notes/
 |CELLSNET-46883|数据透视表在处理智能标记后不保留多个选择选项|漏洞|
 |CELLSNET-46874|值不是从公式派生的，需要按 F2 以获取单元格中的值|漏洞|
 |CELLSNET-46904|从 DataTable 导入数据时超链接丢失|漏洞|
-|CELLSNET-46875|PDF转换过程中内容溢出页面|漏洞|
+|CELLSNET-46875|PDF 转换过程中内容从页面溢出|漏洞|
 |CELLSNET-46865|打开并保存后更改对象|漏洞|
 |CELLSNET-46866|设置 Drawing.TextBox 的字体和字体大小在 ODS 中不起作用|漏洞|
-|CELLSNET-46867|重新保存 XLSX 时复选框丢失|漏洞|
+|CELLSNET-46867|重新保存时复选框丢失 XLSX|漏洞|
 |CELLSNET-46873|参考！显示为未应用公式|漏洞|
 |CELLSNET-46876|无法从 XLS 文件访问 OLE 对象链接|漏洞|
 |CELLSNET-46881|分组和取消分组不隐藏边框|漏洞|

@@ -11,7 +11,7 @@ url: /sv/net/aspose-cells-for-net-7-7-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET har uppdaterats till version 7.7.2 och vi är glada att kunna meddela att denna utgåva kommer med över 50 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, 807.3s andra applikationer och 807.3s andra applikationer och 807.3. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -32,7 +32,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42299) - Stöd B3 (13,9 x 19,7 tum) PaperSizeType
 
-(CELLSNET-42370) - Använd inställningen Justera distribuerad textjustering
+ (CELLSNET-42370) - Använd inställningen Justera distribuerad textjustering
 
  (CELLSNET-42312) - Hämta inställningen RemovePersonalInformation
 
@@ -44,31 +44,31 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42346) - Spara som HTML skapar för många br-taggar
 
- (CELLSNET-42323) - Utdata-PDF-filen återspeglar inte diagrammet i Excel-filen
+ (CELLSNET-42323) - Utdata PDF återspeglar inte diagrammet i Excel-filen
 
- (CELLSNET-42301) - Output PDF misslyckas med att beräkna värdena för beräknade fält i pivottabellen
+(CELLSNET-42301) - Utdata PDF kan inte beräkna värdena för beräknade fält i pivottabellen
 
  (CELLSNET-42300) - Problem med pivottabellvisning vid konvertering från XLS till XLSM
 
- (CELLSNET-42285) - Tal med General som talformat visas med bråk
+ (CELLSNET-42285) - Numbers med General som nummerformat visas med bråk
 
  (CELLSNET-42272) - Xlsx-fil med ikonuppsättningar för villkorlig formatering blir skadad efter att ha öppnats och sparats på nytt
 
- (CELLSNET-42271) - Villkorliga formateringsfunktioner som ikoner, skivor och färggradient går förlorade i XLSB-filen
+ (CELLSNET-42271) - Villkorliga formateringsfunktioner som ikoner, skivor och färggradient går förlorade i utdatafilen XLSB
 
  (CELLSNET-42261) - Problem med att spara som HTML och dolda kolumner när de har slagit samman celler som rubriker
 
-(CELLSNET-42163) - Villkorlig formatering går förlorad när filen öppnas och sparas på nytt
+ (CELLSNET-42163) - Villkorlig formatering går förlorad när filen öppnas och sparas på nytt
 
  (CELLSNET-42147) - Aspose Cells 7.6.0 - Problem med att ladda och spara XLSB-filer med Pivot inuti
 
  (CELLSNET-42008) - PivotTable.DataBodyRange startkolumnegenskapen är felaktig
 
- (CELLSNET-40847) - Problem med att spara MS Excel-ark som HTML
+(CELLSNET-40847) - Problem med att spara MS Excel-ark som HTML
 
  (CELLSNET-40161) - Excel till HTML - inga radbrytningar
 
- (CELLSNET-42336) - Månadsformatet i pivottabellen är fel i utdata-PDF
+ (CELLSNET-42336) - Månadsformat i pivottabellen är fel i utdata PDF
 
  (CELLSNET-42335) - Pivottabell trunkeras när XLSX konverteras till PDF
 
@@ -78,21 +78,21 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42342) - Stryk under streck vid konvertering av XLSX till PDF
 
- (CELLSNET-42304) - Ikonuppsättningsjustering i PDF-export
+ (CELLSNET-42304) - Ikonuppsättningsjustering i PDF export
 
- (CELLSNET-42298) - Om du ställer in PaperSizeType till PaperA6 återges PDF-filen i PaperA4-storlek
+ (CELLSNET-42298) - Om du ställer in PaperSizeType till PaperA6 återges PDF i PaperA4-storlek
 
-(CELLSNET-42289) - CHAR(151) fungerar inte korrekt i PDF
+ (CELLSNET-42289) - CHAR(151) fungerar inte korrekt i PDF
 
  (CELLSNET-41950) - Aspose.Cells mycket konstigt beteende på IIS 7.5 med AutoFit-operation
 
  (CELLSNET-41937) - Utskrift av kommentarer i Excel-filer fungerar inte
 
- (CELLSNET-42297) - Diagram saknas i HTML
+(CELLSNET-42297) - Saknat diagram i HTML
 
- (CELLSNET-42296) - Diagram saknas i PDF:en
+ (CELLSNET-42296) - Saknat diagram i PDF
 
- (CELLSNET-41743) - Problem med form i XLSX till bildkonvertering
+ (CELLSNET-41743) - Problem med formen i XLSX till bildkonvertering
 
  (CELLSNET-40467) - Om du sparar en XLS-fil som XLSM och sedan tillbaka till XLS, ändras diagrammet i filen
 
@@ -108,11 +108,11 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42284) - VLOOKUP-formeln löses inte av Aspose.Cells
 
-(CELLSNET-42283) - Stöd för MS Excel XLT-format
+ (CELLSNET-42283) - MS Excel XLT-formatstöd
 
  (CELLSNET-42282) - Laddar Excel-fil - Webbläsarens visningsalternativ återställs
 
- (CELLSNET-42276) - Stilar (överordnade stilar) kopierades inte när du använder metoden Workbook.Copy()
+(CELLSNET-42276) - Stilar (överordnade stilar) kopierades inte när du använder metoden Workbook.Copy()
 
 
 ## **Undantag**
@@ -146,13 +146,13 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
-Lägger till egenskapen WorkbookSettings.RemovePersonalInformation
+ Lägger till egenskapen WorkbookSettings.RemovePersonalInformation
 
  Anger om personlig information kan tas bort från den angivna arbetsboken.
 
 
 
- Obsoletes WorksheetCollection.HidePivotFieldList-egenskapen.
+Obsoletes WorksheetCollection.HidePivotFieldList-egenskapen.
 
  Använd egenskapen WorkbookSettings.HidePivotFieldList.
 

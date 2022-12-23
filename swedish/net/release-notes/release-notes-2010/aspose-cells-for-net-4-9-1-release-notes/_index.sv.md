@@ -49,16 +49,16 @@ url: /sv/net/aspose-cells-for-net-4-9-1-release-notes/
 |:- |:- |:- |
 |13526 | Chart2Image| Problem med metoden Chart ToImage|
 |14888 | Chart2Image| PlotArea positioneringsproblem med Chart.ToImage|
-|16011 | CSV| Läs CSV med ny rad|
+|16011 |CSV | Läs CSV med nylinje|
 |14183 | Pdf| Sidhuvud/sidfot är inte i linje med sidmarginalerna|
 |14501 | Pdf| Fel vid konvertering av excel-filen till pdf|
 |15741 | Pdf| Rutnätslinjer visas inte|
 |15910 | Pdf| Saknar länk mellan bokmärke och sida|
-|16207 | Pdf|Det gick inte att spara PDF-filen|
+|16207 | Pdf|Fel när filen PDF skulle sparas|
 |16260 | Pdf| Konvertera olika filtyper till tif|
-|16328 | Pdf| XLS till PDF-konverteringsproblem|
+|16328 | Pdf| XLS till PDF konverteringsproblem|
 |16377 | Pdf| En del text i cellerna försvinner|
-|16402 | Pdf| XLS till PDF-konverteringsproblem|
+|16402 | Pdf| XLS till PDF konverteringsproblem|
 |16472 | Pdf| Formateringsproblem|
 |16499 | Pdf| PDF bäddar inte in teckensnitt|
 |13606 | Arbetsblad 2 Bild| Vissa skillnader i den utskrivna/sparade Excel-filen|

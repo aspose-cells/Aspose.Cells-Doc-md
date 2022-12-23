@@ -10,11 +10,11 @@ url: /it/net/query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery
 
 ## **Query Cell Aree mappate su XML Map Path utilizzando il metodo Worksheet.XmlMapQuery**
 
- Lo screenshot seguente mostra Microsoft Excel che visualizza la mappa XML all'interno del file[esempio di file Excel](55541790.xlsx) utilizzato nel codice. Il codice interroga due volte la mappa XML e stampa l'elenco delle aree delle celle restituite da[**Foglio di lavoro.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery)metodo sulla console come mostrato di seguito.
+ Lo screenshot seguente mostra l'Excel Microsoft che mostra la mappa XML all'interno del file[esempio di file Excel](55541790.xlsx) utilizzato nel codice. Il codice interroga due volte la mappa XML e stampa l'elenco delle aree delle celle restituite da[**Foglio di lavoro.XmlMapQuery()**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/xmlmapquery)metodo sulla console come mostrato di seguito.
 
 ![cose da fare:immagine_alt_testo](query-cell-areas-mapped-to-xml-map-path-using-worksheet-xmlmapquery-method_1.png)
 
-### **Codice di esempio**
+### **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-XmlMaps-QueryCellAreasMappedToXmlMapPath.cs" >}}
 

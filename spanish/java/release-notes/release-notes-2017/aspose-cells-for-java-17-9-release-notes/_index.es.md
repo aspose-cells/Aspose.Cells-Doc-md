@@ -12,25 +12,25 @@ url: /es/java/aspose-cells-for-java-17-9-release-notes/
 
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
-|CELLSJAVA-42391|Cell el ancho que se muestra en el PDF resultante no es el mismo que en el archivo de Excel cuando se usa la función "Mostrar fórmula"|Nueva caracteristica|
-|CELLSJAVA-42379|Implementar destino con nombre al renderizar a salida PDF (consulta de marcador)|Nueva caracteristica|
+|CELLSJAVA-42391|El ancho Cell que se muestra en el resultado PDF no es el mismo que en el archivo de Excel cuando se usa la función "Mostrar fórmula"|Nueva caracteristica|
+|CELLSJAVA-42379|Implementar el destino con nombre cuando se representa en la salida PDF (consulta de marcador)|Nueva caracteristica|
 |CELLSJAVA-42401|Tiene que enumerar todas las formas para establecer el orden Z de la forma correctamente|Mejora|
 |CELLSJAVA-42368|Establecer el nombre del control ActiveX (ListBox)|Mejora|
-|CELLSJAVA-42369|La salida HTML del documento de Excel contiene valores hash en lugar de valores reales|Insecto|
-|CELLSJAVA-42366|Guardar "2.2 CompleteEmail.html" en formato XLSX genera un archivo corrupto|Insecto|
+|CELLSJAVA-42369|HTML la salida del documento de Excel contiene valores hash en lugar de valores reales|Insecto|
+|CELLSJAVA-42366|Guardar "2.2 CompleteEmail.html" en el formato XLSX genera un archivo corrupto|Insecto|
 |CELLSJAVA-42365|Cargar "2.1 CompleteEmail.html" en el objeto Workbook genera una NullPointerException|Insecto|
 |CELLSJAVA-42381|El cálculo del libro de trabajo es incorrecto para la fórmula de búsqueda de Excel|Insecto|
 |CELLSJAVA-42380|La fórmula de matriz en la hoja se calcula de manera diferente a través de Aspose.Cells|Insecto|
-|CELLSJAVA-42370|Hipervínculos y contenido PDF incorrectos|Insecto|
+|CELLSJAVA-42370|Hipervínculos incorrectos y contenido PDF|Insecto|
 |CELLSJAVA-42395|Representación: la imagen del gráfico no es correcta|Insecto|
-|CELLSJAVA-42393|Faltan las etiquetas del eje de categoría al convertir Excel a PDF|Insecto|
+|CELLSJAVA-42393|Faltan las etiquetas del eje de categorías al convertir Excel a PDF|Insecto|
 |CELLSJAVA-42384|El color de las barras negativas no es correcto cuando Excel se convierte a PDF|Insecto|
 |CELLSJAVA-42378|El color de la barra cambió al convertir Excel a PDF al usar setCrossAt()|Insecto|
 |CELLSJAVA-42377|El valor de las unidades principales del eje en el gráfico se devuelve de forma incorrecta|Insecto|
-|CELLSJAVA-42364|Las etiquetas de datos del rango de celdas no aparecen cuando se exportan a PDF|Insecto|
+|CELLSJAVA-42364|Las etiquetas de datos del rango de celdas no llegan cuando se exportan a PDF|Insecto|
 |CELLSJAVA-42359|Faltan etiquetas de datos para una serie que tiene valores de barra como 100|Insecto|
-|CELLSJAVA-42314|El gráfico está en blanco en el PNG de salida|Insecto|
-|CELLSJAVA-42313|El gráfico está en blanco en el PDF de salida|Insecto|
+|CELLSJAVA-42314|El gráfico está en blanco en la salida PNG|Insecto|
+|CELLSJAVA-42313|El gráfico está en blanco en la salida PDF|Insecto|
 |CELLSJAVA-42374|Referencias de caracteres analizadas incorrectamente por Aspose Cells|Insecto|
 |CELLSJAVA-42373|Copiar el libro de trabajo y luego guardar corrompe el archivo de salida de Excel|Insecto|
 |CELLSJAVA-42392|Excepción "com.aspose.cells.CellsException: ¡contenido de Excel desconocido!" al crear una instancia de un archivo de Excel encriptado|Excepción|
@@ -71,7 +71,7 @@ Obtiene y establece el almacenamiento del diseñador del proyecto de VBA.
 ### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-- [Agregar marcadores de PDF con destinos con nombre](/cells/es/java/add-pdf-bookmarks-with-named-destinations/)
+- [Agregar PDF Marcadores con destinos con nombre](/cells/es/java/add-pdf-bookmarks-with-named-destinations/)
 - [Controle la carga de recursos externos en el libro de trabajo de MS Excel mientras se procesa en PDF](/cells/es/java/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Copie VBA Macro UserForm DesignerStorage de la plantilla al libro de trabajo de destino](/cells/es/java/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Crear quitar y obtener comentarios de GridCell](/cells/es/java/create-remove-and-get-gridcell-comments/)

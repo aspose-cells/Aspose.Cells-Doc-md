@@ -14,7 +14,7 @@ url: /ru/java/aspose-cells-for-java-22-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44415|Тысячи вызовов getResourceAsAStream вызывают высокую нагрузку на ЦП и потребление памяти во время создания отчета.|
 |CELLSJAVA-44490|добавить GridWorkbookSetting для GridWeb|
-|CELLSJAVA-44455|При преобразовании файла XLSX в PDF дата в сводной таблице становится порядковым номером.|
+|CELLSJAVA-44455|При преобразовании файла XLSX в PDF дата в сводной таблице становится порядковым номером|
 |CELLSJAVA-44370|Файл Excel повреждается при открытии и сохранении с кодом Aspose.Cells.|
 |CELLSJAVA-44381|Проблема форматирования условия при удалении строки или столбца|
 |CELLSJAVA-44442|Открытие и сохранение с помощью Aspose.Cells повреждает книгу|
@@ -24,8 +24,8 @@ url: /ru/java/aspose-cells-for-java-22-4-release-notes/
 |CELLSJAVA-44464|дополнительная проблема 1, столбец Цвет фона не такой, как в excel для yscl.xls на листе 4|
 |CELLSJAVA-44466| дополнительная проблема 3, setCalculateFormula в false не работает|
 |CELLSJAVA-44496|Включить тег/элемент заголовка для таблицы при загрузке html|
-|CELLSJAVA-44429|Эффект диаграммы Excel в Excel отличается от эффекта в HTML|
-|CELLSJAVA-44414| Юникод в JSON нарушит сгенерированные XLSX и CSV|
+|CELLSJAVA-44429|Эффект диаграммы Excel в Excel отличается от эффекта в HTML.|
+|CELLSJAVA-44414| Юникод в JSON сломает сгенерированные XLSX и CSV|
 |CELLSJAVA-44404|Исключение «java.lang.IllegalArgumentException: недопустимый индекс столбца» при загрузке файла XLSX в GridWeb|
 
 ## **Public API и обратно несовместимые изменения**

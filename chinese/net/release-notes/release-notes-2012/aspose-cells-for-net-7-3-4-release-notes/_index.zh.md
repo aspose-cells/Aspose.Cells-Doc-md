@@ -18,7 +18,7 @@ url: /zh/net/aspose-cells-for-net-7-3-4-release-notes/
 
 
 
-新的功能
+新功能
 
 - 支持 Open Office 3D 图表
 - 计算两列之间小计行的加权平均值（SmartMarkers）
@@ -70,11 +70,11 @@ url: /zh/net/aspose-cells-for-net-7-3-4-release-notes/
 - 自定义 XML 部件问题
 - 此文件保存后已损坏
 
--将 XLS 转换为 XLSX 并返回会创建错误的 XLS 文件
+-将 XLS 转换为 XLSX 并返回创建一个错误的 XLS 文件
 
 -Converting XLS to XLSX creates a bad document
 
-- 将 MS Excel 文件呈现为 PDF 文档时出现有关内容的问题
+- 将 MS Excel 文件呈现为 PDF 文档存在有关内容的问题
 
 
 

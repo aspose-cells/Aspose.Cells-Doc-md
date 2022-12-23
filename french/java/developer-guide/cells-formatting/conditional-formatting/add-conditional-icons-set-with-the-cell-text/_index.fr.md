@@ -10,7 +10,7 @@ Parfois, vous souhaitez ajouter des icônes conditionnelles à côté du texte d
 
 {{% /alert %}} 
 
-Voici un exemple qui crée un fichier XLSX à partir de zéro, en ajoutant des icônes conditionnelles aux cellules contenant du texte sans appliquer de mise en forme conditionnelle.
+Voici un exemple qui crée un fichier XLSX à partir de rien, en ajoutant des icônes conditionnelles aux cellules contenant du texte sans appliquer de mise en forme conditionnelle.
 
 Lorsque le code est exécuté, les images du jeu d'icônes conditionnel sont ajoutées dans la zone de cellule "B2: C4" comme indiqué ci-dessous.
 

@@ -10,8 +10,8 @@ url: /ru/java/public-api-changes-in-aspose-cells-8-6-1/
 
 {{% /alert %}} 
 ## **Добавлены API**
-### **Поддержка целевого типа ссылки HTML**
-В этом выпуске Aspose.Cells for Java API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/java/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значение по умолчанию — SELF.
+### **Поддержка HTML Тип цели ссылки**
+ В этом выпуске Aspose.Cells for Java API представлено перечисление, а именно HtmlLinkTargetType вместе с новым свойством HtmlSaveOptions.LinkTargetType, которое вместе позволяет[установить целевой тип для ссылок в электронной таблице при преобразовании в формат HTML](/cells/ru/java/change-the-html-link-target-type/). Ниже приведены возможные значения перечисления HtmlLinkTargetType, где значение по умолчанию — SELF.
 
 1. HtmlLinkTargetType.BLANK: открывает связанный документ/страницу в новом окне или вкладке.
 1. HtmlLinkTargetType.PARENT: открывает связанный документ/страницу в родительском фрейме.
@@ -91,7 +91,7 @@ ranges.add(cells.createRange("A1:B4"));
 
 {{< /highlight >}}
 ### **Добавлен метод Cell.setCharacters**
- Метод Cell.setCharacters можно использовать для[обновить части форматированного текста](/cells/ru/java/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.getCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.setCharacters, тогда как метод**получить** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**установлен** можно использовать для применения изменений.
+ Метод Cell.setCharacters можно использовать для[обновить части форматированного текста](/cells/ru/java/access-and-update-the-portions-of-rich-text-of-cell/) данного объекта Cell. Метод Cell.getCharacters должен использоваться для доступа к частям текста, а затем можно вносить поправки с помощью метода Cell.setCharacters, тогда как метод**получать** Метод возвращает массив объектов FontSetting, которыми можно манипулировать, чтобы установить различные свойства: имя шрифта, цвет шрифта, жирность и т. д.**установлен** можно использовать для применения изменений.
 
 Ниже приведен простой сценарий использования.
 
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Добавлено свойство VbaProject.isSigned**
- Aspose.Cells for Java 8.6.1 предоставил свойство VbaProject.isSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/java/check-if-vba-project-in-a-workbook-is-signed/). Свойство логического типа возвращает true, если проект подписан.
+ Aspose.Cells for Java 8.6.1 предоставил свойство VbaProject.isSigned, которое можно использовать для[проверить, подписан ли VbaProject в рабочей книге или нет](/cells/ru/java/check-if-vba-project-in-a-workbook-is-signed/)Свойство логического типа возвращает true, если проект подписан.
 
 Ниже приведен простой сценарий использования.
 

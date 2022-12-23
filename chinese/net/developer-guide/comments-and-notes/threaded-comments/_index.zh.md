@@ -8,13 +8,13 @@ url: /zh/net/threaded-comments/
 
 MS Excel 365 提供了添加线程注释的功能。这些评论作为对话，可用于讨论。评论现在带有一个回复框，允许进行线程对话。旧注释在 Excel 365 中称为注释。下面的屏幕截图显示了在 Excel 中打开时线程注释的显示方式。
 
-![待办事项：图像_替代_文本](threaded-comments_1.jpg)
+![待办事项：图片_替代_文本](threaded-comments_1.jpg)
 
 线程注释在旧版本的 Excel 中显示如下。以下图像是在 Excel 2016 中打开示例文件拍摄的。
 
-![待办事项：图像_替代_文本](threaded-comments_2.jpg)
+![待办事项：图片_替代_文本](threaded-comments_2.jpg)
 
-![待办事项：图像_替代_文本](threaded-comments_3.jpg)
+![待办事项：图片_替代_文本](threaded-comments_3.jpg)
 
 Aspose.Cells 还提供了管理线程评论的功能。
 
@@ -28,12 +28,12 @@ Aspose.Cells 还提供了管理线程评论的功能。
  - 点击**审查**标签
  点击**新评论**按钮
  这将打开一个对话框以在活动单元格中输入评论。
-  - ![待办事项：图像_替代_文本](threaded-comments_4.jpg)
+  - ![待办事项：图片_替代_文本](threaded-comments_4.jpg)
 - 方法二
  右键单击要插入评论的单元格。
  点击**新评论**选项。
  这将打开一个对话框以在活动单元格中输入评论。
-  - ![待办事项：图像_替代_文本](threaded-comments_5)
+  - ![待办事项：图片_替代_文本](threaded-comments_5)
 
 ### **使用 Aspose.Cells 添加主题评论**
 
@@ -55,7 +55,7 @@ Aspose.Cells提供[**Comments.AddThreadedComment**](https://reference.aspose.com
 
 要在 Excel 中阅读线程注释，只需将鼠标悬停在包含注释的单元格上即可查看注释。评论视图将如下图所示。
 
-![待办事项：图像_替代_文本](threaded-comments_1.jpg)
+![待办事项：图片_替代_文本](threaded-comments_1.jpg)
 
 ### **使用 Aspose.Cells 阅读线程评论**
 
@@ -97,7 +97,7 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 要在 Excel 中编辑线程注释，请单击**编辑**评论上的链接，如下图所示。
 
-![待办事项：图像_替代_文本](threaded-comments_7.jpg)
+![待办事项：图片_替代_文本](threaded-comments_7.jpg)
 
 ### **使用 Aspose.Cells 编辑线程评论**
 
@@ -115,7 +115,7 @@ Aspose.Cells提供[**Comments.GetThreadedComments**](https://reference.aspose.co
 
 要在 Excel 中删除线程注释，请右键单击包含注释的单元格，然后单击**删除评论**选项如下图所示。
 
-![待办事项：图像_替代_文本](threaded-comments_8.jpg)
+![待办事项：图片_替代_文本](threaded-comments_8.jpg)
 
 ### **使用 Aspose.Cells 删除线程评论**
 

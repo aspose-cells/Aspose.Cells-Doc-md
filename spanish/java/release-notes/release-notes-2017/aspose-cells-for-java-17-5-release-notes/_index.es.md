@@ -15,13 +15,13 @@ url: /es/java/aspose-cells-for-java-17-5-release-notes/
 |CELLSJAVA-41130|Cambiar el idioma de las palabras predefinidas para Pivot Table|Mejora|
 |CELLSJAVA-42272|Opciones para incrustar el hipervínculo en una celda de Excel|Mejora|
 |CELLSJAVA-42283|NullPointerException ocurre cuando el filtro existe fuera del rango con nombre|Insecto|
-|CELLSJAVA-42282|Al copiar una hoja de trabajo, se muestran las filas filtradas en el archivo HTML de salida|Insecto|
-|CELLSJAVA-42276|Los contenidos se muestran de manera diferente (falta algo de texto) en navegadores que no son IE (por ejemplo, Google Chrome) - Representación de Excel a HTML|Insecto|
+|CELLSJAVA-42282|Al copiar una hoja de cálculo, se muestran las filas filtradas en el archivo de salida HTML|Insecto|
+|CELLSJAVA-42276|Los contenidos se muestran de manera diferente (falta algo de texto) en los navegadores que no son IE (por ejemplo, Google Chrome) - Representación de Excel a HTML|Insecto|
 |CELLSJAVA-42247|El formato condicional se pierde al actualizar la tabla dinámica en la hoja de cálculo|Insecto|
 |CELLSJAVA-42257|El estilo de formato condicional está roto|Insecto|
 |CELLSJAVA-42202|La fórmula de Excel no funciona correctamente: se muestra como 6 en lugar de 0|Insecto|
-|CELLSJAVA-42286|Guardar un archivo XLS con gráficos usa el 100 % de la CPU|Insecto|
-|CELLSJAVA-42251|El título está oculto por las etiquetas de tendencia en el PDF de salida|Insecto|
+|CELLSJAVA-42286|Guardar el archivo XLS con gráficos usa el 100 % de la CPU|Insecto|
+|CELLSJAVA-42251|El título está oculto por las etiquetas de tendencia en la salida PDF|Insecto|
 |CELLSJAVA-42284|Workbook.getFonts() muestra fuentes adicionales después de recargar la misma hoja de cálculo|Insecto|
 |CELLSJAVA-42281|Fusionar/Copiar en hojas de Excel: los espacios al principio de las celdas no se conservan|Insecto|
 |CELLSJAVA-42280|Cadena no válida en el archivo: se produce un error al abrir un archivo de Excel|Insecto|
@@ -29,7 +29,7 @@ url: /es/java/aspose-cells-for-java-17-5-release-notes/
 |CELLSJAVA-42271|Worksheet.autoFitColumns() no funciona bien con las celdas que tienen saltos de línea|Insecto|
 |CELLSJAVA-42266|Ordenar el archivo de Excel que contiene comentarios corrompe el archivo de salida de Excel|Insecto|
 |CELLSJAVA-42265|La clasificación de los comentarios provoca el error "Excel encontró contenido ilegible..." al abrir el archivo de salida en MS Excel|Insecto|
-|CELLSJAVA-42264|Problemas de subíndices y superíndices en el archivo ODS de OpenOffice al convertir a HTML o PDF|Insecto|
+|CELLSJAVA-42264|Problemas de subíndices y superíndices en el archivo OpenOffice ODS al convertir a HTML o PDF|Insecto|
 |CELLSJAVA-42268|Excepción: "java.lang.NullPointerException" al representar un gráfico en una imagen|Excepción|
 |CELLSJAVA-42278|Excepción: "java.lang.IndexOutOfBoundsException: Índice: 12, Tamaño: 12" al guardar en formato de archivo HTML|Excepción|
 |CELLSJAVA-42274|Excepción: "java.lang.StringIndexOutOfBoundsException: índice de cadena fuera de rango: 0" al cargar un archivo XLSX|Excepción|
@@ -54,7 +54,7 @@ Representa el formato PDF compatible con PDFA-1a.
 ### **Ejemplos de uso**
 Consulte la lista de temas de ayuda agregados en los documentos Wiki Aspose.Cells:
 
-- [Convierta un archivo de Excel a formato PDF compatible con PDFA-1a](/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
+- [Convierta el archivo de Excel al formato PDF compatible con PDFA-1a](/cells/es/java/convert-excel-file-to-pdf-format-compatible-with-pdfa-1a/)
 - [Copie la configuración de configuración de página de la hoja de trabajo de origen a la hoja de trabajo de destino](/cells/es/java/copy-page-setup-settings-from-source-worksheet-into-destination-worksheet/)
 - [Implementar el tamaño de papel personalizado de la hoja de trabajo para la representación](/cells/es/java/implement-custom-paper-size-of-worksheet-for-rendering/)
 - [Eliminar la configuración de impresora existente de las hojas de trabajo en el archivo de Excel](/cells/es/java/remove-existing-printersettings-of-worksheets-in-excel-file/)

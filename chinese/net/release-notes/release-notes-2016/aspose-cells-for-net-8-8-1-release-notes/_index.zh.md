@@ -14,24 +14,24 @@ url: /zh/net/aspose-cells-for-net-8-8-1-release-notes/
 |CELLSNET-44392 | Aspose.Cells.xml 在“.\Bin\net4.0”文件夹中丢失|强化|
 |CELLSNET-44291 |优化代码，让隐藏的空列和行更加高效|强化|
 |CELLSNET-44417 |API 在将损坏和受感染的电子表格转换为 PDF 时挂起|表现|
-|CELLSNET-44088 |条件格式规则的图标不会呈现为 HTML|漏洞|
+|CELLSNET-44088 |条件格式规则的图标不呈现为 HTML|漏洞|
 |CELLSNET-44263 |将 HTML 导入为 XLSX 时格式丢失|漏洞|
 |CELLSNET-44427 |ISO 8601 格式日期被视为字符串而不是日期|漏洞|
-|CELLSNET-44414 |从 Excel 转换为 PDF 时出现大图像问题|漏洞|
+|CELLSNET-44414 |从 Excel 到 PDF 的转换过程中出现大图像问题|漏洞|
 |CELLSNET-44341 |错误的行高使用 AutoFitRows with AutoFitMergedCells option on for Chinese and English words in the cells|漏洞|
-|CELLSNET-44309 |输出 PDF 中未旋转的括号（Excel 到 PDF 的转换）|漏洞|
+|CELLSNET-44309 |括号未显示在输出 PDF 中旋转（Excel 到 PDF 转换）|漏洞|
 |CELLSNET-44302 | SheetRender.ToImage 不渲染单元格边框|漏洞|
 |CELLSNET-43237 |将电子表格转换为 PDF 时，垂直符号未正确呈现|漏洞|
-|CELLSNET-41907 |一些垂直文本在转换后的 PDF 文件中仍然无法正常显示|漏洞|
+|CELLSNET-41907 |转换后的PDF文件中，部分竖排文字仍无法正常显示|漏洞|
 |CELLSNET-44405 |图表图像的“您的组织”系列为 0%，即使它设置为 50%|漏洞|
 |CELLSNET-44404 | Worksheet.Copy 方法未正确复制图表|漏洞|
-|CELLSNET-44398 |图表的 EMF 渲染在较新版本中无法正常工作|漏洞|
+|CELLSNET-44398 |EMF 图表渲染在较新版本中无法正常工作|漏洞|
 |CELLSNET-44397 |图表到图像渲染 - 文本（数据标签）比原始图表更粗|漏洞|
 |CELLSNET-44387 |使用 Chart.ToImage 生成的图像不正确|漏洞|
 |CELLSNET-44365 |使用 aspose.cells 作为图像生成的特定图表缺少部分数据系列标签|漏洞|
 |CELLSNET-44426 |设置 ImportOptions.ConvertNumericData = true 导致值带有 '<' or '>数字不显示|漏洞|
 |CELLSNET-44408 |数据验证下拉/列表条目包含逗号的问题|漏洞|
-|CELLSNET-44403 |将 XLS 保存为 XLSX 时删除了背景水印|漏洞|
+|CELLSNET-44403 |保存XLS到XLSX时去除背景水印|漏洞|
 |CELLSNET-44402 |ExternalLink 返回带有扩展路径的错误数据源|漏洞|
 |CELLSNET-44394 |智能标记分组在较新版本中被破坏|漏洞|
 |CELLSNET-44390 |智能标记的组属性问题 - 未处理所有数据|漏洞|

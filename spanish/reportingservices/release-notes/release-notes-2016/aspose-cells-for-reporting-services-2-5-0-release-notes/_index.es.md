@@ -14,7 +14,7 @@ url: /es/reportingservices/aspose-cells-for-reporting-services-2-5-0-release-not
 |SSRS-40236 | Migración del servidor de informes a SQL Server 2016| Insecto|
 |SSRS-40234 | Los hipervínculos se corrompieron al exportar al formato XLSX| Insecto|
 |SSRS-40233 | MS Excel muestra el mensaje de error "Excel encontró contenido ilegible" al abrir el archivo XLSX exportado en él| Insecto|
-|SSRS-40232 | Problema de salto de página| Insecto|
-|SSRS-40230 |Grupos inesperados y estilos de celda agregados en el archivo de salida de Excel| Insecto|
+|SSRS-40232 |Problema de salto de página| Insecto|
+|SSRS-40230 | Grupos inesperados y estilos de celda agregados en el archivo de salida de Excel| Insecto|
 |SSRS-40226 | Servicios de representación para SSRS: error en la publicación del informe| Insecto|
 

@@ -1,5 +1,5 @@
 ﻿---
-title: Визуализация дополнительных символов Unicode в выходном PDF по Aspose.Cells
+title: Визуализация дополнительных символов Unicode в выводе PDF по Aspose.Cells
 type: docs
 weight: 350
 url: /ru/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cells/
@@ -15,7 +15,7 @@ url: /ru/net/render-unicode-supplementary-characters-in-output-pdf-by-aspose-cel
 
 {{% /alert %}}
 
-## Визуализация дополнительных символов Unicode в выходном PDF по Aspose.Cells
+## Визуализация дополнительных символов Unicode в выводе PDF по Aspose.Cells
 
  На следующем снимке экрана показано, как Aspose.Cells визуализировал[исходный файл excel](5115563.xlsx) в[вывод PDF](5115564.pdf). Как вы можете видеть, все три дополнительных символа Unicode были отображены точно так же, как это было сделано Microsoft Excel.
 

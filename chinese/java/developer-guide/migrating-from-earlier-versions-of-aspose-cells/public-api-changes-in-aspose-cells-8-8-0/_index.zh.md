@@ -23,7 +23,7 @@ Aspose.Cells for Java 8.8.0 公开了以下新属性，这些属性有助于检�
 
 {{% /alert %}} 
 ### **添加了 HTMLLoadOptions.KeepPrecision 属性**
-Aspose.Cells for Java 8.8.0 添加了 HTMLLoadOptions.KeepPrecision 属性，以便在导入 HTML 文件时控制长数值到指数表示法的转换。默认情况下，如果数据是从 HTML 字符串或文件导入的，任何超过 15 位的值都会转换为指数表示法。但是，现在用户可以借助 HTMLLoadOptions.KeepPrecision 属性来控制此行为。如果上述属性设置为 true，则这些值将按它们在源中的原样导入。
+Aspose.Cells for Java 8.8.0 添加了 HTMLLoadOptions.KeepPrecision 属性，以控制在导入 HTML 文件时将长数值转换为指数表示法。默认情况下，如果数据是从 HTML 字符串或文件导入的，任何超过 15 位的值都会转换为指数表示法。但是，现在用户可以借助 HTMLLoadOptions.KeepPrecision 属性来控制此行为。如果上述属性设置为 true，则这些值将按它们在源中的原样导入。
 
 {{% alert color="primary" %}} 
 
@@ -81,11 +81,11 @@ workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 {{< /highlight >}}
 ### **添加了 HTMLLoadOptions.DeleteRedundantSpaces 属性**
-Aspose.Cells for Java 8.8.0 公开了 HTMLLoadOptions.DeleteRedundantSpaces 属性，以便保留或删除换行标记后的额外空格 (<br>标记），同时从 HTML 字符串或文件导入数据。 HTMLLoadOptions.DeleteRedundantSpaces 属性的默认值为 false，这意味着所有额外的空格都将被保留并导入到 Workbook 对象中，但是，当设置为 true 时，API 将删除换行符标记之后的所有冗余空格。
+Aspose.Cells for Java 8.8.0 公开了 HTMLLoadOptions.DeleteRedundantSpaces 属性，以便保留或删除换行标记后的额外空格 (<br>标签），同时从 HTML 字符串或文件导入数据。 HTMLLoadOptions.DeleteRedundantSpaces 属性的默认值为 false，这意味着所有额外的空格都将被保留并导入到 Workbook 对象中，但是，当设置为 true 时，API 将删除换行标记之后的所有冗余空格。
 
 {{% alert color="primary" %}} 
 
-有关此功能的更多详细信息，请查看详细文章[从 HTML 中删除冗余空格](/cells/zh/java/delete-redundant-spaces-after-line-break-while-importing/)
+有关此功能的更多详细信息，请查看详细文章[从 HTML 中删除冗余空间](/cells/zh/java/delete-redundant-spaces-after-line-break-while-importing/)
 
 {{% /alert %}} 
 

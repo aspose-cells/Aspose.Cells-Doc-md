@@ -16,7 +16,7 @@ Para copiar un minigráfico a otras celdas en Microsoft Excel:
 1.  Seleccione**Editar datos** desde el**Minigráfico** sección de la**Diseño** pestaña.
 1.  Seleccione**Editar ubicación y datos del grupo**.
 1. Especifique el rango de datos y la ubicación.
-1.  Hacer clic**OK**.
+1.  Hacer clic**DE ACUERDO**.
 
 Aspose.Cells proporciona el método SparklineCollection.Add(dataRange, fila, columna) para especificar el rango de datos y la ubicación de un grupo de minigráficos. El siguiente código de ejemplo carga el archivo de origen de Excel como se muestra en la captura de pantalla anterior, luego accede al primer grupo de minigráficos y agrega rangos de datos y ubicaciones en el grupo de minigráficos. Finalmente, escribe el archivo de salida de Excel en el disco que también se muestra en la captura de pantalla anterior.
 

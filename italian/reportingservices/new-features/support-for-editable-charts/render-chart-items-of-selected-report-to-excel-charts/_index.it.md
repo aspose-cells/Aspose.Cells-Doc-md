@@ -6,9 +6,9 @@ url: /it/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 ---
 {{% alert color="primary" %}} 
 
-Per eseguire il rendering degli elementi del grafico nei grafici di Microsoft Excel:
+Per eseguire il rendering degli elementi del grafico nei grafici Excel Microsoft:
 
-1.  Apri il**Aspose.Cells.ReportingServices.xml** file.
+1. Apri il**Aspose.Cells.ReportingServices.xml** file.
 1.  Modificare i parametri di configurazione nel file**Aspose.Cells.ReportingServices.xml** file.
 1. Aggiungi le informazioni di configurazione del rapporto desiderato.
 

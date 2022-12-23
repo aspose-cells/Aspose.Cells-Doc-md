@@ -13,6 +13,6 @@ Bu sayfa Aspose.Cells for Reporting Services 21.3 için sürüm notları içerir
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSRS-575|Aspose.Cells sürümünü 21.3'e yükseltir.|Görev|
-|CELLSRS-576|Dışa aktarılan SVG desteği.|Yeni özellik|
+|CELLSRS-576|SVG'e dışa aktarma desteği.|Yeni özellik|
 
 

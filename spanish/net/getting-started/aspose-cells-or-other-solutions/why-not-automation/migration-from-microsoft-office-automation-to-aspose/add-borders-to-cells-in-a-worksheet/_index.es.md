@@ -22,8 +22,8 @@ Para agregar bordes a las celdas de una hoja de cálculo, siga los siguientes pa
  1. Agregue texto a las celdas a las que agregará bordes.
 1. Añadir bordes:
  1. Defina un rango.
- 1. Aplique un estilo de borde al rango.
-Repita para cada rango y cada estilo de borde que desee establecer. Este ejemplo aplica líneas finas, finas, medianas y gruesas.
+1. Aplique un estilo de borde al rango.
+ Repita para cada rango y cada estilo de borde que desee establecer. Este ejemplo aplica líneas finas, finas, medianas y gruesas.
 1. Finalizar:
  1. Ajuste automáticamente la columna en la que se encuentran las celdas para que el texto se ajuste perfectamente.
  1. Guarde el documento.

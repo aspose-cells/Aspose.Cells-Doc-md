@@ -20,11 +20,11 @@ url: /zh/java/add-wordart-watermark-to-chart/
 
 **输入文件**
 
-![待办事项：图像_替代_文本](add-wordart-watermark-to-chart_1.png)
+![待办事项：图片_替代_文本](add-wordart-watermark-to-chart_1.png)
 
 **输出文件**
 
-![待办事项：图像_替代_文本](add-wordart-watermark-to-chart_2.png)
+![待办事项：图片_替代_文本](add-wordart-watermark-to-chart_2.png)
 
 ### Java 向图表添加艺术字水印的代码
 

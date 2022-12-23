@@ -14,7 +14,7 @@ url: /tr/net/aspose-cells-for-net-5-2-2-release-notes/
 
  Aspose.Cells'de neler değişti:
 
-- Tablo stilini PDF dosya formatına aktarmayı destekler.
+- Tablo stilini PDF dosya biçimine aktarmayı destekler.
  R/W ODS dosyalarını geliştirir.
  27 geliştirme ve düzeltme.
 

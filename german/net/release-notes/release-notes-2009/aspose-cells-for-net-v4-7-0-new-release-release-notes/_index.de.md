@@ -37,41 +37,41 @@ In Aspose.Cells 4.7.0 behobene Probleme
 |7340 | Pdf| Problem beim Konvertieren einiger Excel-Dateien in PDF|
 |7507 | Pdf| Ein xls2pdf-Fehler|
 |7652 | Pdf| Workbook.Save gibt einen Fehler aus|
-|7447 | Pdf| Fehler beim Speichern der Arbeitsmappe als PDF|
+|7447 | Pdf| Fehler beim Speichern der Arbeitsmappe unter PDF|
 |6944 | PivotTable| AutoSortField wirkt sich nicht aus.|
 |6900 | SpreadML| Beim Exportieren nach SpreadML wird eine Ausnahme ausgelöst|
-|6865 | XLS|Konvertiert den Wert der Zeitzeichenfolge in DateTime|
-|6867 | XLS|Der Smart Marker ist derselbe wie [table].[column]|
-|7007 | XLS| Formeln mit benannten Bereichen|
-|7016 | XLS| Ausrufezeichen im Arbeitsblattnamen verursachen einen Fehler in Formeln|
-|7063 | XLS| Fehler beim Speichern der Arbeitsmappe|
-|7084 | XLS| Ein Formelproblem einfügen|
-|7121 | XLS| AutoFitRow macht Zeilen nicht groß genug, wenn Zeilenumbruch aktiviert ist|
-|7201 | XLS| Bedingte Formatierung|
-|7335 | XLS| AutoFitColumns funktioniert nicht|
-|7336 | XLS| Verschieben einer Form|
-|7337 | XLS| ArgumentOutOfRange-Ausnahme beim Extrahieren von Bildern|
-|7338 | XLS| Das Problem der letzten Zelle|
-|7346 | XLS| System.NullReferenceException mit SheetToImage|
-|7366 | XLS| In einigen Fällen trat ein Fehler bei der Verwendung der Methode Cells.InsertRange auf|
-|7367 | XLS| Externe Links in Formeln|
-|7443 | XLS| Unterstützt globale benannte Bereiche|
-|7446 | XLS| Bewältigung des Namens der Form|
-|7448 | XLS| Ein Problem mit den bedingten Formaten|
-|7505 | XLS| Ungültige Formel-Ausnahme|
-|7506 | XLS| Verbessern Sie die Leistung der Methode Cells.DeleteBlankRows|
-|7507 | XLS| Fehler beim Öffnen einiger spezieller XLS-Dateien|
-|7549 | XLS| Eine Erweiterung der Methode Cells.InsertColumns|
-|7555 | XLS| Fehler beim Aufrufen von workbook.Save|
-|7613 | XLS|Beschädigte Tabelle nach dem Kopieren|
-|6909 | XLS| Verbessern Sie die Leistung beim Löschen von Zeilen|
-|7202 | XLS| Fehler bei der Formatierung der Rich-Text-Ausgabe|
-|7450 | XLS| Problem mit Workbook.Open()|
-|7468 | XLS| Verschiedene Spalten als DataTable|
-|7650 | XLS| Erweitern Sie die Methode Cells.ImportTwoDimensionalObjects|
-|6856 | XLSX| OleObject konnte nach dem Konvertieren von XLSX in XLS nicht geöffnet werden|
-|6983 | XLSX| Fehler beim Verschwinden der digitalen Signatur|
-|7175 | XLSX| Workbook.Open löst eine Ausnahme aus|
-|7185 | XLSX| InCellDropDown funktioniert nicht|
-|7564 | XLSX| Benannter Bereich als Datenquelle von PivotTable|
-|7617 | XLSX| Eine Pivot-Tabelle ist in einer Excel 2007-Datei verloren gegangen|
+|6865 |XLS |Konvertiert den Wert der Zeitzeichenfolge in DateTime|
+|6867 |XLS |Der Smart Marker ist derselbe wie [table].[column]|
+|7007 |XLS | Formeln mit benannten Bereichen|
+|7016 |XLS | Ausrufezeichen im Arbeitsblattnamen verursachen einen Fehler in Formeln|
+|7063 |XLS | Fehler beim Speichern der Arbeitsmappe|
+|7084 |XLS | Ein Formelproblem einfügen|
+|7121 |XLS | AutoFitRow macht Zeilen nicht groß genug, wenn Zeilenumbruch aktiviert ist|
+|7201 |XLS | Bedingte Formatierung|
+|7335 |XLS | AutoFitColumns funktioniert nicht|
+|7336 |XLS | Verschieben einer Form|
+|7337 |XLS | ArgumentOutOfRange-Ausnahme beim Extrahieren von Bildern|
+|7338 |XLS | Das Problem der letzten Zelle|
+|7346 |XLS | System.NullReferenceException mit SheetToImage|
+|7366 |XLS | In einigen Fällen trat ein Fehler bei der Verwendung der Methode Cells.InsertRange auf|
+|7367 |XLS | Externe Links in Formeln|
+|7443 |XLS | Unterstützt globale benannte Bereiche|
+|7446 |XLS | Bewältigung des Namens der Form|
+|7448 |XLS | Ein Problem mit den bedingten Formaten|
+|7505 |XLS | Ungültige Formel-Ausnahme|
+|7506 |XLS | Verbessern Sie die Leistung der Methode Cells.DeleteBlankRows|
+|7507 |XLS | Fehler beim Öffnen einiger spezieller XLS-Dateien|
+|7549 |XLS | Eine Erweiterung der Methode Cells.InsertColumns|
+|7555 |XLS | Fehler beim Aufrufen von workbook.Save|
+|7613 |XLS |Beschädigte Tabelle nach dem Kopieren|
+|6909 |XLS | Verbessern Sie die Leistung beim Löschen von Zeilen|
+|7202 |XLS | Fehler bei der Formatierung der Rich-Text-Ausgabe|
+|7450 |XLS | Problem mit Workbook.Open()|
+|7468 |XLS | Verschiedene Spalten als DataTable|
+|7650 |XLS | Erweitern Sie die Methode Cells.ImportTwoDimensionalObjects|
+|6856 |XLSX | OleObject konnte nach dem Konvertieren von XLSX in XLS nicht geöffnet werden|
+|6983 |XLSX | Fehler beim Verschwinden der digitalen Signatur|
+|7175 |XLSX | Workbook.Open löst eine Ausnahme aus|
+|7185 |XLSX | InCellDropDown funktioniert nicht|
+|7564 |XLSX | Benannter Bereich als Datenquelle von PivotTable|
+|7617 |XLSX | Eine Pivot-Tabelle ist in einer Excel 2007-Datei verloren gegangen|

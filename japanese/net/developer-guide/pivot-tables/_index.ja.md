@@ -51,6 +51,6 @@ Aspose.Cells は、[**Aspose.Cells.Pivot**](https://reference.aspose.com/cells/n
 - [ピボット テーブルとソース データ](/cells/ja/net/pivot-table-and-source-data/)
 - [ピボット テーブルのデータの非表示と並べ替え](/cells/ja/net/pivot-table-hide-and-sort-data/)
 - [計算項目を含むピボット テーブルの更新と計算](/cells/ja/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [ピボット テーブルを ODS ファイルに保存する](/cells/ja/net/save-pivot-table-in-ods-file/)
+- [ピボットテーブルを ODS ファイルに保存](/cells/ja/net/save-pivot-table-in-ods-file/)
 - [レポート フィルター ページの表示オプション](/cells/ja/net/show-report-filter-pages-option/)
 - [ピボット テーブルでの DataField のデータ表示形式の操作](/cells/ja/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

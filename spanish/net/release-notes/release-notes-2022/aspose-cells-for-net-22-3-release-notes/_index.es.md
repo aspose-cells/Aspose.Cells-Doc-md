@@ -28,15 +28,15 @@ url: /es/net/aspose-cells-for-net-22-3-release-notes/
 |CELLSNET-50401|Los valores numéricos o números seguidos de elementos de línea no son visibles en el pdf resultante|
 |CELLSNET-50478|Workbook.ExportXml devuelve solo la primera fila de datos de la tabla|
 |CELLSNET-50507|La importación de Xml muestra las columnas previamente ocultas en la plantilla|
-|CELLSNET-50554|El contenido no se procesa correctamente en la conversión de Excel a PDF|
+|CELLSNET-50554|El contenido no se representa correctamente en la conversión de Excel a PDF|
 |CELLSNET-50316|Los textos envueltos no funcionan en gráficos al generar PDF|
-|CELLSNET-50411|Las etiquetas del eje horizontal del gráfico no se representan correctamente en el PDF de salida|
+|CELLSNET-50411|Las etiquetas del eje horizontal del gráfico no se representan correctamente en la salida PDF|
 |CELLSNET-50341|Problema con contraer y expandir grupos de varios niveles|
-|CELLSNET-50368| Conversión de ODS a PDF incorrecta|
+|CELLSNET-50368|ODS a PDF conversión incorrecta|
 |CELLSNET-50377|El formato de "Texto" personalizado no se aplica en el archivo XLS|
 |CELLSNET-50380| La propiedad ImportTableOptions.IsHtmlString no genera enlaces correctamente|
 |CELLSNET-50418|Cargar HTML en el libro de trabajo no funciona|
-|CELLSNET-50494|Problema con el color de las celdas con formato condicional en el archivo XLSX de salida|
+|CELLSNET-50494|Problema con el color de las celdas con formato condicional en el archivo de salida XLSX|
 |CELLSNET-50563|Problema al configurar la licencia integrada para producir un archivo único en la aplicación .NET 6.0|
 |CELLSNET-50585|Sin barras diagonales hacia delante, pero sí hacia atrás para enlaces externos con URL|
 |CELLSNET-50390| System.ArgumentException: el número de fila o el número de columna no puede ser cero al importar datos JSON como tabla|

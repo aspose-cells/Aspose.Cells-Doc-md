@@ -20,7 +20,7 @@ Non è difficile eseguire l'aggiornamento all'ultimo componente Aspose.Cells.Gri
 
 {{% alert color="primary" %}}
 
-Ci sono alcune modifiche nell'API poiché le classi con i membri, le strutture, le enumerazioni ecc. Rimangono le stesse. La maggior parte delle modifiche è stata apportata agli spazi dei nomi del controllo e ad altri tag o attributi.
+Ci sono alcune modifiche nello API poiché le classi con i membri, le strutture, le enumerazioni ecc. Rimangono le stesse. La maggior parte delle modifiche è stata apportata agli spazi dei nomi del controllo e ad altri tag o attributi.
 
 {{% /alert %}}
 
@@ -29,7 +29,7 @@ Di seguito è riportato l'elenco degli spazi dei nomi e altri attributi/tag che 
 1. Lo spazio dei nomi Aspose.Grid.Web è stato rinominato in Aspose.Cells.GridWeb.
 1. Lo spazio dei nomi Aspose.Grid.Web.Data è stato rinominato Aspose.Cells.GridWeb.Data.
 1. Lo spazio dei nomi Aspose.Grid.Web.Design è stato rinominato Aspose.Cells.GridWeb.Design.
-1. Lo spazio dei nomi Aspose.Grid.Formula è stato rinominato in Aspose.Cells.GridFormula e, con le recenti versioni del componente, il suddetto spazio dei nomi è stato completamente rimosso dall'API pubblica.
+1. Lo spazio dei nomi Aspose.Grid.Formula è stato rinominato in Aspose.Cells.GridFormula e, con i recenti rilasci del componente, tale spazio dei nomi è stato completamente rimosso dal pubblico API.
 1. Il tag agw:GridWeb è stato modificato in acw:GridWeb nel formato aspx.
 1. Il vecchio percorso del client Aspose.Grid.Web, agw_client, è stato modificato in acw_client per Aspose.Cells.GridWeb .
 1.  L'impostazione del percorso del client nel file web.config, ad esempio:

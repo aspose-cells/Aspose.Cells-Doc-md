@@ -1,17 +1,17 @@
 ﻿---
-title: Her Çalışma Sayfasını xlsx4j'de Farklı PDF'ye Kaydet
+title: Her Çalışma Sayfasını xlsx4j'de Farklı PDF'e Kaydet
 type: docs
 weight: 50
 url: /tr/java/save-each-worksheet-to-different-pdf-in-xlsx4j/
 ---
-## **Aspose.Cells - Her Çalışma Sayfasını Farklı PDF'ye Kaydet**
-Aspose.Cells, XLS dosyalarının (resimler, çizelgeler vb. içeren) PDF belgelerine dönüştürülmesini destekler. Aspose.Cells for Java bir elektronik tabloyu pdf belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.Pdf for Java kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden, dönüştürme herhangi bir geçici dosya (lar) oluşturmayı / kullanmayı gerektirmez.
+## **Aspose.Cells - Her Çalışma Sayfasını Farklı PDF'e Kaydet**
+Aspose.Cells, XLS dosyasının (resim, çizelge vb. içeren) PDF belgesine dönüştürülmesini destekler. Aspose.Cells for Java bir elektronik tabloyu pdf belgesine dönüştürmek için bağımsız olarak çalışabilir ve artık dönüştürme için Aspose.Pdf for Java kullanmanıza gerek yoktur. Tüm işlem bellekte yapılabildiğinden, dönüştürme herhangi bir geçici dosya (lar) oluşturmayı / kullanmayı gerektirmez.
 
 **Java**
 
 {{< highlight "java" >}}
 
-//Excel dosya yolunu al
+ //Excel dosya yolunu al
 
 String filePath = dataDir + "workbook.xlsx";
 

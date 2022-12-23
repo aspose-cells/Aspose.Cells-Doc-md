@@ -30,7 +30,7 @@ HTML5 Elektronik Tablo Düzenleyicisi, aşağıdaki biçimlerdeki dosyaları aç
 - XLSM
 - XLSB
 - XLTX
-- E-tabloML
+- SpreadsheetML
 - özgeçmiş
 - Açık Belge
 ### **Yerel Dosyaları Aç**
@@ -44,7 +44,7 @@ Yerel bilgisayardan dosya yüklemek için:
 
 Dosya düzenleyicide açılacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](bwyl3xi.png)
+![yapılacaklar:resim_alternatif_metin](bwyl3xi.png)
 
 **Nasıl çalışır?**
 
@@ -86,7 +86,7 @@ Dosya düzenleyicide açılacaktır.
 
 **Yükleme ve boşaltma**
 
- yöntem***LoaderService.fromInputStream*** okur***Giriş Akışı*** fileUpload tarafından sağlanan***bileşen*** örneğini oluştur***com.aspose.cells.Workbook*** sınıf. Bu örnek, kullanıcı e-tabloyu web tarayıcısında görüntülemeye veya düzenlemeye devam ettiği sürece bellekte tutulur. Kullanıcı editörden ayrıldığında veya tarayıcıyı kapattığında, sunucuyu temiz tutmak için kullanılmayan örnekler otomatik olarak bellekten kaldırılır.
+ yöntem***LoaderService.fromInputStream*** okur***Giriş Akışı*** fileUpload tarafından sağlanan***bileşen*** örneğini oluştur***com.aspose.cells.Workbook***sınıf. Bu örnek, kullanıcı e-tabloyu web tarayıcısında görüntülemeye veya düzenlemeye devam ettiği sürece bellekte tutulur. Kullanıcı editörden ayrıldığında veya tarayıcıyı kapattığında, sunucuyu temiz tutmak için kullanılmayan örnekler otomatik olarak bellekten kaldırılır.
 
 
 
@@ -274,11 +274,11 @@ Dropbox'tan dosya açmak için:
 
 Seçtiğiniz dosya Dropbox'tan açılacaktır.
 
-![yapılacaklar:resim_alternatif_Metin](1e2sfo0.png)
+![yapılacaklar:resim_alternatif_metin](1e2sfo0.png)
 
 **Nasıl çalışır?**
 
- bu**Dropbox'tan aç** düğme kullanır**Dropbox JavaScript Seçici API**Dropbox Seçici iletişim kutusunu açmak için. Seçici, geri arama işlevi tarafından yakalanan ve sunucuya geri gönderilen seçili dosyanın URL'sini sağlar. Sunucu, URL'den bir elektronik tablo örneği oluşturur, bazı temizlik işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı HTML'yi işler ve yeniler ve kullanıcı yüklenen belgeyi düzenlemeye hazırdır.
+ bu**Dropbox'tan aç** düğme kullanır**Dropbox JavaScript Seçici API** Dropbox Seçici iletişim kutusunu açmak için. Seçici, geri arama işlevi tarafından yakalanan ve sunucuya geri gönderilen seçili dosyanın URL'sini sağlar. Sunucu, URL'den bir elektronik tablo örneği oluşturur, bazı temizlik işlerini başlatır ve DOM güncellemelerini tarayıcıya geri gönderir. Tarayıcı HTML'i oluşturur ve yeniler ve kullanıcı yüklenen belgeyi düzenlemeye hazırdır.
 ### **URL'den aç**
  Dosyalar doğrudan URL'lerden açılabilir. Bu, kullanıcının İnternet üzerindeki herkese açık herhangi bir dosyayı düzenlemesine izin verir. Dosya ekini açmak için**?url=konum** İstediğiniz değere sahip parametre**yer** editör yüklenirken. Örneğin:
 
@@ -288,7 +288,7 @@ Seçtiğiniz dosya Dropbox'tan açılacaktır.
 
 {{< /highlight >}}
 
-![yapılacaklar:resim_alternatif_Metin](exc9ckp.png)
+![yapılacaklar:resim_alternatif_metin](exc9ckp.png)
 
 **Nasıl çalışır?**
 
@@ -298,7 +298,7 @@ Seçtiğiniz dosya Dropbox'tan açılacaktır.
 
 **Önbelleğe almak**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache**elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+ Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
 
 **DOM güncellemeleri**
 
@@ -507,7 +507,7 @@ Yeni bir boş e-tablo oluşturmak için:
 
 Düzenleyici, varsa açılan elektronik tabloyu kapatır ve yeni bir hesap tablosu açar.
 
-![yapılacaklar:resim_alternatif_Metin](lnydmmf.png)
+![yapılacaklar:resim_alternatif_metin](lnydmmf.png)
 
 **Nasıl çalışır?**
 
@@ -517,7 +517,7 @@ Düzenleyici, varsa açılan elektronik tabloyu kapatır ve yeni bir hesap tablo
 
 **Önbelleğe almak**
 
- Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache**elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
+ Önbelleğe alma, elektronik tablo yüklendikten hemen sonra gerçekleşir. bu**Yükleyici Hizmeti** aramalar**LoaderService.buildCellsCache**, **LoaderService.buildColumnWidthCache** ve**LoaderService.buildRowHeightCache** elektronik tablonun içeriğini önbelleğe almak ve tüm işlemleri hızlı ve sorunsuz tutmak için tek tek.
 
 **DOM güncellemeleri**
 
@@ -704,8 +704,8 @@ Değiştirilen dosya indirilmek üzere dışa aktarılacaktır. Aşağıdaki bi�
 - Excel XLSM
 - Excel XLSB
 - Excel XLTX
-- Excel XL™
-- E-tabloML
+- Excel XLTM
+- SpreadsheetML
 - Taşınabilir Belge Formatı (PDF)
 - OpenDocument Elektronik Tablosu (ODS)
 

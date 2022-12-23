@@ -18,7 +18,7 @@ Los índices utilizados en los ejemplos comienzan desde 0.
 
 Agregar imágenes a una hoja de cálculo es muy fácil. Solo se necesitan unas pocas líneas de código.
 
- Simplemente llame al[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) método de la[**Fotos**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objeto). los[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) método toma los siguientes parámetros:
+ Simplemente llame al[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String) ) método de la[**Fotos**](https://reference.aspose.com/cells/java/com.aspose.cells/PictureCollection) colección (encapsulada en el[**Hoja de cálculo**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) objeto). Él[**agregar**](https://reference.aspose.com/cells/java/com.aspose.cells/picturecollection#add(int,%20int,%20java.lang.String)) método toma los siguientes parámetros:
 
 - **Índice de la fila superior izquierda**, el índice de la fila superior izquierda.
 - **Índice de la columna superior izquierda**, el índice de la columna superior izquierda.
@@ -34,7 +34,7 @@ Las imágenes se pueden colocar usando Aspose.Cells de la siguiente manera:
 
 ### **Posicionamiento absoluto**
 
- Los desarrolladores pueden posicionar las imágenes absolutamente usando el[**establecerUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) y[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) métodos de la[**Imagen**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objeto.
+ Los desarrolladores pueden posicionar las imágenes absolutamente usando el[**establecerUpperDeltaX**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaX) y[**setUpperDeltaY**](https://reference.aspose.com/cells/java/com.aspose.cells/picture#UpperDeltaY) métodos de la[**Fotografía**](https://reference.aspose.com/cells/java/com.aspose.cells/Picture)objeto.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-DrawingObjects-pictures-PositioningPictures-AbsolutePositioning-1.java" >}}
 

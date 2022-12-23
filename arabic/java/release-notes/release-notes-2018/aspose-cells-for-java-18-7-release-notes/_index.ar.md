@@ -14,12 +14,12 @@ url: /ar/java/aspose-cells-for-java-18-7-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42668|دعم قيم متعددة عند استخدام نمط الفصل (مرتبط بـ: CELLSJAVA-42635)|التعزيز|
 |CELLSJAVA-42627|تعذر استخراج صور Smart Art بشكل صحيح - تحويل الشكل إلى صورة (CELLSJAVA-42619)|التعزيز|
-|CELLSJAVA-42672|مستند PDF الناتج كبير جدًا|حشرة|
-|CELLSJAVA-42671|مشكلة الارتباطات التشعبية عند عرض ملف Excel الناتج في الإصدار الياباني من MS Excel|حشرة|
-|CELLSJAVA-42667|الحصول على "#NUM!" لخلية لها وظيفة IRR|حشرة|
-|CELLSJAVA-42658|تصبح المصنفات التي تحتوي على وحدات ماكرو XL4 (XLSM) تالفة بعد الحفظ|حشرة|
-|CELLSJAVA-42656|ترجع AlternativeText قيمة نص التعليق|حشرة|
-|CELLSJAVA-42635|HTML إلى XLS - تم تجاهل نمط CSS|حشرة|
+|CELLSJAVA-42672|مستند PDF الناتج كبير جدًا|خلل برمجي|
+|CELLSJAVA-42671|مشكلة الارتباطات التشعبية عند عرض ملف Excel الناتج في الإصدار الياباني من MS Excel|خلل برمجي|
+|CELLSJAVA-42667|الحصول على "#NUM!" لخلية لها وظيفة IRR|خلل برمجي|
+|CELLSJAVA-42658|تصبح المصنفات التي تحتوي على وحدات ماكرو XL4 (XLSM) تالفة بعد الحفظ|خلل برمجي|
+|CELLSJAVA-42656|ترجع AlternativeText قيمة نص التعليق|خلل برمجي|
+|CELLSJAVA-42635|HTML إلى XLS - تم تجاهل نمط CSS|خلل برمجي|
 |CELLSJAVA-42673|استثناء "java.lang.NumberFormatException" عند تحميل ملف Excel|استثناء|
 |CELLSJAVA-42669|استثناء "java.lang.NullPointerException" عند حساب الصيغ في المصنف|استثناء|
 |CELLSJAVA-42663|يطرح Chart.calculate () IndexOutOfBoundsException|استثناء|

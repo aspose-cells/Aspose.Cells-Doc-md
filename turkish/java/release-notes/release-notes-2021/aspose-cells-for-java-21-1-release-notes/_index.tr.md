@@ -13,14 +13,14 @@ url: /tr/java/aspose-cells-for-java-21-1-release-notes/
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-43375|Excel VBA şifresini kontrol edin|
-|CELLSJAVA-43371|XLSX'ten PDF'e dönüştürme askıda kalıyor|
+|CELLSJAVA-43371|XLSX - PDF dönüştürme kilitleniyor|
 |CELLSJAVA-43353|Excel'den pdf'ye farklı diyagramlar|
 |CELLSJAVA-43377|Excel'i Html'ye dönüştürürken görüntü yerleştirme sorunları|
 |CELLSJAVA-43381|DAYS işlevi hesaplama hatası|
 |CELLSJAVA-43342|Birleşik grafik excel'den pdf'ye doğru görüntülenemiyor|
 |CELLSJAVA-43354|Küçük histogramlarda yüzdeler gösterilmedi|
 |CELLSJAVA-40264|EXCEL olarak kaydederken form kontrollerinde veya ActiveX kontrollerinde hata_97_TO_2003|
-|CELLSJAVA-43372|ODS'yi XLSX'e dönüştürürken bozuk dosya oluşturuldu|
+|CELLSJAVA-43372|ODS, XLSX'e dönüştürülürken bozuk dosya oluşturuldu|
 |CELLSJAVA-43378|Çalışma kitabını klonladıktan sonra boş olarak görüntüle doğrudan yanlışa değişir|
 |CELLSJAVA-43379|Çalışma kitabı HTML olarak kaydedilirken özel durum oluştu|
 |CELLSJAVA-43376|Bir XLSX dosyası yüklenirken "java.lang.ClassCastException: int'den byte'a dönüştürmede taşma. int değeri: 144" istisnası|

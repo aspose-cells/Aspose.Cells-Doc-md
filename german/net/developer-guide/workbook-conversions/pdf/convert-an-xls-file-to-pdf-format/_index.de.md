@@ -6,11 +6,11 @@ url: /de/net/convert-an-xls-file-to-pdf-format/
 ---
 {{% alert color="primary" %}}
 
-PDF (Portable Document Format) repräsentiert Dokumente unabhängig von der Software, Hardware und dem Betriebssystem, die zum Erstellen dieser Dokumente verwendet werden. Eine PDF-Datei kann geräte- und auflösungsunabhängig ein Dokument mit beliebiger Kombination aus Text, Grafiken und Bildern sein. PDF-Dateien werden häufig komprimiert, sodass sie weniger Speicherplatz beanspruchen als die Originaldatei.
+PDF (Portable Document Format) repräsentiert Dokumente unabhängig von der Software, Hardware und dem Betriebssystem, die zum Erstellen dieser Dokumente verwendet werden. Eine PDF-Datei kann ein Dokument mit einer beliebigen Kombination aus Text, Grafiken und Bildern sein, und zwar geräte- und auflösungsunabhängig. PDF-Dateien werden häufig komprimiert, sodass sie weniger Speicherplatz beanspruchen als die Originaldatei.
 
-Manchmal müssen Sie eine Microsoft Excel-Datei in PDF konvertieren. Dazu benötigen Sie eine schnelle, sichere, genaue und zuverlässige Lösung, mit der Sie PDF-Dokumente weltweit verteilen können. Es gibt zahlreiche Konvertierungstools, die diese Aufgabe übernehmen können. Sie müssen jedoch darauf achten, dass das Layout des ursprünglichen Excel-Dokuments in der ausgegebenen PDF-Datei erhalten bleibt. Bilder, Datenformatierung, Schriftarten, Attribute, Farben, Seiteneinrichtungseinstellungen, Textausrichtung, Rahmen, Diagramme usw. sollten genau und präzise gerendert werden.[Aspose.Cells](https://products.aspose.com/cells/net/) gewährleistet eine High-Fidelity-Konvertierung.
+ Manchmal müssen Sie eine Microsoft-Excel-Datei in PDF konvertieren. Dazu benötigen Sie eine schnelle, sichere, genaue und zuverlässige Lösung, mit der Sie PDF-Dokumente weltweit verteilen können. Es gibt zahlreiche Konvertierungstools, die diese Aufgabe übernehmen können. Sie müssen jedoch darauf achten, dass das Layout des ursprünglichen Excel-Dokuments in der Ausgabedatei PDF erhalten bleibt. Bilder, Datenformatierung, Schriftarten, Attribute, Farben, Seiteneinrichtungseinstellungen, Textausrichtung, Rahmen, Diagramme usw. sollten genau und präzise gerendert werden.[Aspose.Cells](https://products.aspose.com/cells/net/) gewährleistet eine High-Fidelity-Konvertierung.
 
-Dieses Dokument soll ein umfassendes Verständnis dafür vermitteln, wie ein Microsoft Excel-Dokument (mit Bildern, Diagrammen, Formatierungen usw.) in PDF konvertiert werden kann. Zu diesem Zweck wird gezeigt, wie Sie eine einfache Konsolenanwendung in Visual Studio.Net erstellen, die eine Excel-Datei mit Aspose.Cells API in PDF konvertiert. Die Konvertierung wird mit einem hohen Maß an Präzision und Genauigkeit durchgeführt.
+Dieses Dokument soll ein umfassendes Verständnis dafür vermitteln, wie ein Microsoft-Excel-Dokument (das Bilder, Diagramme, Formatierungen usw. enthält) in PDF konvertiert werden kann. Zu diesem Zweck wird gezeigt, wie eine einfache Konsolenanwendung in Visual Studio.Net erstellt wird, die konvertiert eine Excel-Datei in PDF unter Verwendung von Aspose.Cells API. Die Konvertierung wird mit einem hohen Maß an Präzision und Genauigkeit durchgeführt.
 
 {{% /alert %}}
 
@@ -43,14 +43,14 @@ Die Vorlagendatei enthält drei Arbeitsblätter, darunter Diagramme und Bilder a
 
 {{% alert color="primary" %}}
 
-Wenn die Tabelle Formeln enthält, ist es am besten, Workbook.CalculateFormula() direkt vor dem Rendern der Tabelle in PDF aufzurufen. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet und die richtigen Werte im PDF wiedergegeben werden.
+Wenn die Tabelle Formeln enthält, ist es am besten, Workbook.CalculateFormula() kurz vor dem Rendern der Tabelle in PDF aufzurufen. Dadurch wird sichergestellt, dass formelabhängige Werte neu berechnet werden und die richtigen Werte in PDF gerendert werden.
 
 {{% /alert %}}
 
 ### **Ergebnis**
 
-Wenn der obige Code ausgeführt wurde, wird eine PDF-Datei im Ordner Dateien in Ihrem Anwendungsverzeichnis erstellt.
-Die folgenden Screenshots zeigen die PDF-Seiten. Beachten Sie, dass Kopf- und Fußzeilen auch in der ausgegebenen PDF-Datei erhalten bleiben.
+Wenn der obige Code ausgeführt wurde, wird eine PDF-Datei im Ordner Files in Ihrem Anwendungsverzeichnis erstellt.
+Die folgenden Screenshots zeigen die PDF-Seiten. Beachten Sie, dass Kopf- und Fußzeilen auch in der Ausgabedatei PDF beibehalten werden.
 
 |![todo: Bild_alt_Text](Convert_an_XLS_File_to_PDF_Converted1.png)|![todo: Bild_alt_Text](Convert_an_XLS_File_to_PDF_Converted2.png)|
 |:- |:- |

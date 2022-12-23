@@ -13,7 +13,7 @@ url: /fr/net/update-import-tool-for-dynamics-crm/
 - [Téléchargement](#UpdateImportToolforDynamicsCRM-Downloading)
 - [Installation ou désinstallation](#UpdateImportToolforDynamicsCRM-InstallingorUninstalling) 
   - [Demande de licence](#UpdateImportToolforDynamicsCRM-ApplyingLicense)
-- [Utilisant](#UpdateImportToolforDynamicsCRM-Using)
+- [En utilisant](#UpdateImportToolforDynamicsCRM-Using)
 - [Soutien](#UpdateImportToolforDynamicsCRM-Support)
 - [Prolonger et contribuer](#UpdateImportToolforDynamicsCRM-ExtendandContribute)
 ## **Introduction**
@@ -67,7 +67,7 @@ Ajoutez le code suivant dans le formulaire en indiquant le chemin d'accès au fi
  }
 
 {{< /highlight >}}
-## **Utilisant**
+## **En utilisant**
  Configurez et utilisez facilement l'outil d'importation de mise à jour Aspose .NET pour Dynamics CRM en suivant les instructions[ici](/cells/fr/net/using-and-configuring-crm-update-import-tool/).
 ## **Soutien**
 Nous offrons une assistance gratuite. Toute personne qui utilise notre produit, qu'elle l'ait acheté ou utilise une évaluation, mérite toute notre attention et notre respect.

@@ -9,6 +9,6 @@ Wenn Microsoft Excel 2002 oder Microsoft Excel 2000 Aspose.Cells.ReportingServic
 ##### **Lösung**
 {{% alert color="primary" %}} 
 
- Installieren**lockbackRegKey.msi**Dadurch wird das CLR-Problem auf Office-Computern behoben, die älter als Office 2003 sind.
+ Installieren**lockbackRegKey.msi**. Dadurch wird das CLR-Problem auf Office-Computern behoben, die älter als Office 2003 sind.
 
 {{% /alert %}}

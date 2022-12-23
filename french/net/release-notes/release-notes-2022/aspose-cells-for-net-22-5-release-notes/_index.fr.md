@@ -10,7 +10,7 @@ url: /fr/net/aspose-cells-for-net-22-5-release-notes/
 
 {{% /alert %}}
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-50663|Améliorer les performances de suppression des colonnes vides|
 |CELLSNET-50877|Initialiser la valeur calculée de la cellule lors de la définition de la formule de tableau dynamique|
@@ -28,13 +28,13 @@ url: /fr/net/aspose-cells-for-net-22-5-release-notes/
 |CELLSNET-50879|La valeur calculée de Cell n'était pas mise à jour lors de l'actualisation des formules de tableau dynamique avec la valeur vraie pour le paramètre "calculer"|
 |CELLSNET-50992|La valeur de la date et de l'heure a été modifiée pour les propriétés de document personnalisées après avoir été enregistrée dans ODS|
 |CELLSNET-50953|Désactiver le copier/coller du clavier dans GridDesktop|
-|CELLSNET-50771| La police devient grasse lors de la conversion d'Excel en PDF|
+|CELLSNET-50771| La police devient en gras lors de la conversion d'Excel en PDF|
 |CELLSNET-50924|Cell arrière-plan perdu après la conversion en html|
 |CELLSNET-50951|Conversion d'Excel en résultats HTML avec des problèmes|
-|CELLSNET-50962| Problème d'interruption du processus d'enregistrement avec l'option PdfSaveOptions.OnePagePerSheet pour un classeur volumineux|
+|CELLSNET-50962|Problème d'interruption du processus d'enregistrement avec l'option PdfSaveOptions.OnePagePerSheet pour un classeur volumineux|
 |CELLSNET-50997|Les contours de la boîte de cellules en pointillés se cassent sur le côté droit de la boîte dans le sens de la hauteur|
 |CELLSNET-50865|Graphique à image - rendu incorrect|
-|CELLSNET-50952|La conversion XLS en XLSX modifie le dégradé bicolore des formats conditionnels|
+|CELLSNET-50952|La conversion de XLS à XLSX modifie le dégradé bicolore des formats conditionnels|
 |CELLSNET-50989|La largeur des colonnes ajustées automatiquement n'est pas correcte si les cellules sont fusionnées.|
 |CELLSNET-50987|L'ajustement de la forme du trapèze entraîne "System.ArgumentOutOfRangeException"|
 |CELLSNET-50930| Le processus ne peut pas accéder à l'exception de fichier depuis Aspose.Cells 22.1|

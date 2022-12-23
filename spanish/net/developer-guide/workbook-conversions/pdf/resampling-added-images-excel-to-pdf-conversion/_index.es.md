@@ -1,12 +1,12 @@
 ﻿---
-title: Remuestreo de imágenes añadidas - Conversión de Excel a PDF
+title: "Remuestreo de imágenes añadidas: conversión de Excel a PDF"
 type: docs
 weight: 150
 url: /es/net/resampling-added-images-excel-to-pdf-conversion/
 ---
 {{% alert color="primary" %}}
 
-Mientras trabaja con grandes archivos de Excel Microsoft con muchas imágenes, es posible que deba comprimir las imágenes que se han agregado para reducir el tamaño del archivo PDF de salida y mejorar el rendimiento general de la conversión. Aspose.Cells admite el remuestreo de imágenes agregadas para reducir el tamaño del archivo PDF de salida y mejorar un poco el rendimiento.
+Mientras trabaja con archivos Microsoft grandes de Excel con muchas imágenes, es posible que deba comprimir las imágenes que se han agregado para reducir el tamaño del archivo PDF de salida y mejorar el rendimiento general de la conversión. Aspose.Cells admite el remuestreo de imágenes agregadas para reducir el tamaño del archivo PDF de salida y mejorar un poco el rendimiento.
 
 {{% /alert %}}
 
@@ -16,10 +16,10 @@ Consulte el siguiente código de muestra que describe cómo realizar la tarea co
 
 {{% alert color="primary" %}}
 
- usando el[**EstablecerImagenResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)La opción minimiza el tamaño del PDF de salida, pero puede afectar un poco la calidad de la imagen.
+ usando el[**EstablecerImagenResample**](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/methods/setimageresample)La opción minimiza el tamaño de la salida PDF pero puede afectar un poco la calidad de la imagen.
 
 {{% /alert %}} {{% alert color="primary" %}}
 
- Si su hoja de cálculo contiene fórmulas, es mejor llamar[**Libro de trabajo. Calcular fórmula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) justo antes de convertir la hoja de cálculo en formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
+Si su hoja de cálculo contiene fórmulas, es mejor llamar[**Libro de trabajo. Calcular fórmula ()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula)justo antes de renderizar la hoja de cálculo al formato PDF. Si lo hace, se asegurará de que los valores dependientes de la fórmula se vuelvan a calcular y los valores correctos se representen en el PDF.
 
 {{% /alert %}}

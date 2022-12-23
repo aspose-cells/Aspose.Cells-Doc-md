@@ -14,7 +14,7 @@ Microsoft Excel, çalışma sayfası verilerini otomatik olarak filtrelemek veya
 ## **Veri Doğrulama Türleri ve Yürütme**
 Microsoft Excel, bir dizi farklı veri doğrulama türünü destekler. Her tür, bir hücreye veya hücre aralığına ne tür verilerin girildiğini kontrol etmek için kullanılır. Aşağıda, kod parçacıkları şunun nasıl doğrulanacağını göstermektedir:
 
-- [Sayılar tamdır](/cells/tr/java/data-validation/)yani ondalık kısmı yoktur.
+- [Numbers bütündür](/cells/tr/java/data-validation/)yani ondalık kısmı yoktur.
 - [Ondalık sayılar doğru yapıyı takip eder](/cells/tr/java/data-validation/). Kod örneği, bir hücre aralığının iki ondalık boşluğa sahip olması gerektiğini tanımlar.
 - [Değerler, bir değerler listesiyle sınırlıdır](/cells/tr/java/data-validation/). Liste doğrulama, bir hücreye veya hücre aralığına uygulanabilen ayrı bir değer listesi tanımlar.
 - [Tarihler belirli bir aralığa giriyor](/cells/tr/java/data-validation/).
@@ -30,7 +30,7 @@ Microsoft Excel'i kullanarak doğrulama oluşturmak için:
 
    **Veri doğrulama ayarları** 
 
-![yapılacaklar:resim_alternatif_Metin](data-validation_1.png)
+![yapılacaklar:resim_alternatif_metin](data-validation_1.png)
 ### **Aspose.Cells ile Veri Doğrulama**
 Veri doğrulama, çalışma sayfalarına girilen bilgileri doğrulamak için güçlü bir özelliktir. Veri doğrulama ile geliştiriciler, kullanıcılara bir seçenek listesi sağlayabilir, veri girişlerini belirli bir tür veya boyutla kısıtlayabilir, vb.
  Aspose.Cells'de, her biri[Çalışma kağıdı](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)sınıfın bir[Doğrulamalar](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#Validations)koleksiyonunu temsil eden nesne[Doğrulama](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)nesneler. Doğrulamayı ayarlamak için bazılarını ayarlayın.[Doğrulama](https://reference.aspose.com/cells/java/com.aspose.cells/Validation)sınıfın özellikleri:
@@ -46,7 +46,7 @@ Veri doğrulama, yanlış girişlerin hata mesajlarına neden olması için her 
 
 bu[Doğrulama Türü](https://reference.aspose.com/cells/java/com.aspose.cells/ValidationType)numaralandırma aşağıdaki üyelere sahiptir:
 
-|**Üye adı**|**Tanım**|
+|**Üye adı**|**Açıklama**|
 |:- |:- |
 |[HERHANGİ BİR DEĞER](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#ANY_VALUE)|Herhangi bir türden bir değeri belirtir.|
 |[BÜTÜN SAYI](https://reference.aspose.com/cells/java/com.aspose.cells/Validationtype#WHOLE_NUMBER)|Tam sayılar için doğrulama türünü belirtir.|
@@ -112,7 +112,7 @@ Veri doğrulamaları uygulandığında, hücrelere farklı değerler atanarak do
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-CheckIfValidationInCellDropDown-1.java" >}}
 ## **CellArea'yı mevcut Doğrulamaya ekleyin**
-Eklemek isteyebileceğiniz durumlar olabilir.[hücre alanı](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)mevcut[Doğrulama](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). eklediğinizde[hücre alanı](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)kullanarak[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells, yeni alanın zaten var olup olmadığını görmek için tüm mevcut alanları kontrol eder. Dosyada çok sayıda doğrulama varsa, bu bir performans isabeti alır. Bunun üstesinden gelmek için API,[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) yöntem. bu*checkKavşak*parametresi, belirli bir alanın mevcut doğrulama alanlarıyla kesişiminin kontrol edilip edilmeyeceğini belirtir. ayarlanıyor**yanlış**diğer alanların kontrolünü devre dışı bırakacaktır. bu*checkEdge*parametre uygulanan alanların kontrol edilip edilmeyeceğini belirtir. Yeni alan sol üst alan olursa dahili ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz bu parametreyi şu şekilde ayarlayabilirsiniz:**yanlış**.
+Eklemek isteyebileceğiniz durumlar olabilir.[hücre alanı](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)mevcut[Doğrulama](https://reference.aspose.com/cells/java/com.aspose.cells/Validation). eklediğinizde[hücre alanı](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)kullanarak[Validation.AddArea(CellArea cellArea)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea\)), Aspose.Cells, yeni alanın zaten var olup olmadığını görmek için tüm mevcut alanları kontrol eder. Dosyada çok sayıda doğrulama varsa, bu bir performans isabeti alır. Bunun üstesinden gelmek için API,[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) yöntem. bu*checkKavşak*parametresi, belirli bir alanın mevcut doğrulama alanlarıyla kesişiminin kontrol edilip edilmeyeceğini belirtir. ayarlanıyor**YANLIŞ**diğer alanların kontrolünü devre dışı bırakacaktır. bu*checkEdge*parametre uygulanan alanların kontrol edilip edilmeyeceğini belirtir. Yeni alan sol üst alan olursa dahili ayarlar yeniden oluşturulur. Yeni alanın sol üst alan olmadığından eminseniz bu parametreyi şu şekilde ayarlayabilirsiniz:**YANLIŞ**.
 
 Aşağıdaki kod parçacığı,[Validation.AddAreaCellArea cellArea, bool checkIntersection, bool checkEdge)](https://reference.aspose.com/cells/java/com.aspose.cells/Validation#addArea\(com.aspose.cells.CellArea,%20boolean,%20boolean\)) yeni ekleme yöntemi[hücre alanı](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea)mevcut[Doğrulama](https://reference.aspose.com/cells/java/com.aspose.cells/Validation).
 

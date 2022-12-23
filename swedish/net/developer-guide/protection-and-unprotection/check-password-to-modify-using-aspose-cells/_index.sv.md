@@ -12,7 +12,7 @@ url: /sv/net/check-password-to-modify-using-aspose-cells/
 
 ## **Markera Lösenord för att ändra i Microsoft Excel**
 
-Du kan tilldela**Lösenord för att öppna** och**Lösenord att ändra** medan du skapar dina arbetsböcker i Microsoft Excel. Se den här skärmdumpen som visar gränssnittet Microsoft Excel tillhandahåller för att ange dessa lösenord.
+ Du kan tilldela**Lösenord för att öppna** och**Lösenord att ändra** medan du skapar dina arbetsböcker i Microsoft Excel. Se den här skärmdumpen som visar gränssnittet Microsoft Excel tillhandahåller för att ange dessa lösenord.
 
 |![todo:image_alt_text](check-password-to-modify-using-aspose-cells_1.png)|
 |:- |

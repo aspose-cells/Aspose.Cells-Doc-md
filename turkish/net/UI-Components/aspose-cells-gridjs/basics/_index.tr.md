@@ -8,9 +8,9 @@ url: /tr/net/aspose-cells-gridjs/basics/
 
  Aspose.Cells.GridJs, kullanıcıların elektronik tabloları hızlı ve kolay bir şekilde göstermek/düzenlemek için web uygulaması geliştirmelerine olanak tanıyan bir .NET standart kitaplığıdır.
 
-Aspose.Cells.GridJs, popüler elektronik tablo (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS) dosya biçimlerini içe aktarmayı destekler.
+Aspose.Cells.GridJs, popüler e-tablo (XLS, XLSX, XLSM, XLSB, CSV, SpreadsheetML, ODS) dosya biçimlerini içe aktarmayı destekler.
 
-Ayrıca Excel dosyalarının PDF, HTML .vb. formatlarında dışa aktarılmasına da izin verir. GridJ'lerin bir web uygulamasını geliştirmek için temel işlem adımları aşağıdadır.
+Ayrıca Excel dosyalarının PDF, HTML .etc'ye aktarılmasına da izin verir. GridJ'lerin bir web uygulamasını geliştirmek için temel işlem adımları aşağıdadır.
 
 - Önbellek depolaması için kendi iş mantığınızı yazmak üzere GridCacheForStream'i uygulayın.
 - Elektronik tablo dosyasından json almak için bir denetleyici eylemi ayarlayın. GridJsWorkbook.ImportExcelFile ve GridJsWorkbook.ExportToJson API'lerini kullanabilirsiniz, GridJ'ler forma dosyasını otomatik olarak önbellekte depolar.

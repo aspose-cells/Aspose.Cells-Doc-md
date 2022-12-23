@@ -10,7 +10,7 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-2-0-0-release-notes/
 
 {{% /alert %}} 
 
-Nous sommes heureux d'annoncer Aspose.Cells for SharePoint v2.0.0 !
+ Nous sommes heureux d'annoncer Aspose.Cells for SharePoint v2.0.0 !
 
  Quoi de neuf:
 

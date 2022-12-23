@@ -22,7 +22,7 @@ Wir stoßen heute auf dem Markt auf verschiedene Tabellenkalkulationskomponenten
 
 Aspose.Cells for Java ist eine flexible Komponente, die es Java Anwendungen ermöglicht, Excel-Tabellen zu erstellen und zu verwalten, ohne dass Microsoft Excel auf dem System (Client oder Server) installiert ist. Im Gegensatz zu ähnlichen Produkten anderer Anbieter unterstützt Aspose.Cells for Java nicht nur die Tabellenerstellung und grundlegende Dateiformatierungsfunktionen, sondern auch eine Reihe erweiterter Funktionen. Diese erweiterten Funktionen erleichtern Entwicklern die Bearbeitung von Tabelleninhalten, Zellenformatierungen und Dateischutzoptionen.
 
-Aspose.Cells for Java kann auch Daten aus verschiedenen Datenquellen in Tabellenkalkulationen importieren, allgemeine und komplexe mathematische, Datums-/Uhrzeit-, Finanz-, Textformeln und Funktionen hinzufügen, Bilder importieren (alle gängigen Formate werden unterstützt, einschließlich BMP, GIF, JPG, PNG, WMF, EMF und mehr), Kommentare erstellen, Zeichenobjekte und Steuerelemente erstellen und eine Reihe anderer Aufgaben ausführen.
+Aspose.Cells for Java kann auch Daten aus verschiedenen Datenquellen in Tabellenkalkulationen importieren, allgemeine und komplexe mathematische, Datums-/Zeit-, Finanz-, Textformeln und Funktionen hinzufügen, Bilder importieren (alle gängigen Formate werden unterstützt, einschließlich BMP, GIF, JPG, PNG, WMF, EMF und mehr), Kommentare erstellen, Zeichenobjekte und Steuerelemente erstellen und eine Reihe anderer Aufgaben ausführen.
 
 Aspose.Cells for Java unterstützt auch Add-Ins, VBA und Makros.
 
@@ -44,7 +44,7 @@ Aspose.Cells ermöglicht Entwicklern das automatische Anpassen von Zeilen und Sp
 
 ### **Einzigartige Funktionen**
 
-Es gibt auch eine Reihe einzigartiger Funktionen, die Entwickler nur in Aspose.Cells for Java finden, zum Beispiel Unterstützung für eine Vielzahl von Formaten, darunter XLS, XLT, XLSX, CSV, SpreadsheetML, Tabulatorgetrennt, TXT, XML und HTML.
+Es gibt auch eine Reihe einzigartiger Funktionen, die Entwickler nur in Aspose.Cells for Java finden, zum Beispiel Unterstützung für eine Vielzahl von Formaten, einschließlich XLS, XLT, XLSX, CSV, SpreadsheetML, Tabulatorgetrennt, TXT, XML und HTML.
 
 Mit API können Entwickler auch eine Kopie eines vorhandenen Arbeitsblatts (mit vollständigem Inhalt, Bildern und Diagrammen) zu einer Datei hinzufügen, einen Verlaufshintergrund für Diagramme über API festlegen, Kommentare erstellen, Gebietsschema- und Regionseinstellungen, automatische Filter und Seitenumbrüche festlegen , setze komplexe Formeln, bedingte Formatierung, alle Arten von Schutzoptionen, die in Microsoft Excel XP oder höher eingeführt wurden, und bearbeite benannte Bereiche.
 
@@ -62,11 +62,11 @@ Darüber hinaus fügt Aspose.Cells ein benutzerdefiniertes Diagramm API und eine
 
 JExcelAPI ist ein Java API, das zum Lesen, Schreiben und Ändern von Excel-Tabellen verwendet wird. Es ist eine Open Source Java API , die es Java Entwicklern ermöglicht, Excel-Tabellen zu lesen und Excel-Tabellen dynamisch zu generieren. Darüber hinaus enthält es einen Mechanismus, der es Java-Anwendungen ermöglicht, eine Tabelle zu lesen, Zellen zu ändern und die neue Tabelle zu schreiben.
 
-Zum Zeitpunkt des Schreibens hat es eine begrenzte Anzahl von Funktionen. Es unterstützt: Lesen und Schreiben von nativen Microsoft Excel-Dateien (Excel97-2003) nur im XLS-Dateiformat. Es hat eine begrenzte Unterstützung für Formelberechnungen. Es kann Schriftarten manipulieren, Zahlen- und Datumsformatierung unterstützen, vorhandene Arbeitsblätter ändern, Gebietsschemaeinstellungen ändern, Diagramme beibehalten (aber erlaubt Entwicklern nicht, Diagramme zu erstellen oder zu manipulieren), Bilder einzufügen und so weiter.
+Zum Zeitpunkt des Schreibens hat es eine begrenzte Anzahl von Funktionen. Es unterstützt: Lesen und Schreiben von nativen Microsoft-Excel-Dateien (Excel97-2003) nur im XLS-Dateiformat. Es hat eine begrenzte Unterstützung für Formelberechnungen. Es kann Schriftarten manipulieren, Zahlen- und Datumsformatierung unterstützen, vorhandene Arbeitsblätter ändern, Gebietsschemaeinstellungen ändern, Diagramme beibehalten (aber erlaubt Entwicklern nicht, Diagramme zu erstellen oder zu manipulieren), Bilder einzufügen und so weiter.
 
 #### **Eingeschränkte Kartenunterstützung**
 
-JExcelApi hat eingeschränkte Unterstützung für Diagramme: Es unterstützt nicht das Erstellen und Bearbeiten von Diagrammen. Beim Kopieren einer Tabellenkalkulation, die ein Diagramm enthält, wird das Diagramm in die generierte Tabellenkalkulation geschrieben (solange das Blatt, das das Diagramm enthält, andere Daten als das Diagramm enthält). Beim Kopieren von Excel-Dateien bleiben alle Bildinformationen erhalten, beim Hinzufügen eines Bilds zu einer Tabelle werden jedoch nur Bilder im PNG-Format unterstützt.
+JExcelApi hat eingeschränkte Unterstützung für Diagramme: Es unterstützt nicht das Erstellen und Bearbeiten von Diagrammen. Beim Kopieren einer Tabellenkalkulation, die ein Diagramm enthält, wird das Diagramm in die generierte Tabellenkalkulation geschrieben (solange das Blatt, das das Diagramm enthält, andere Daten als das Diagramm enthält). Beim Kopieren von Excel-Dateien bleiben alle Bildinformationen erhalten, beim Hinzufügen eines Bilds zu einer Tabelle werden jedoch nur Bilder im Format PNG unterstützt.
 
 #### **Arbeitsblätter können nicht kopiert werden**
 
@@ -102,12 +102,12 @@ HSSF API unterstützt auch keine PivotTables. Es verfügt über begrenzte Daten�
 
 Die folgende Tabelle versucht, einen Funktionsüberblick darüber zu geben, wie Aspose.Cells for Java mit den (oben erwähnten) Open-Source-Komponenten übereinstimmt, stellt jedoch nicht die Herausforderung dar, alle von den beteiligten Produkten bereitgestellten Funktionen abzudecken. Dies ist nur eine Skizze, die zu einem bestimmten Zeitpunkt aufgenommen wurde, und es ist durchaus möglich, dass die fehlenden Funktionen beim Vorlesen des Dokuments unterstützt werden.
 
-|**Feature** |**JExcelAPI** |**POIs HSSF** |**Aspose.Cells for Java** |
+|**Besonderheit** |**JExcelAPI** |**POIs HSSF** |**Aspose.Cells for Java** |
 |:- |:- |:- |:- |
 |**Dateiformate**||||
 | Dateiformate lesen und schreiben (XLS, XLT, XLSX, CSV, SpreadsheetML, Tabulatorgetrennt, TXT, XML und HTML)| Teilweise unterstützt| Teilweise unterstützt| Unterstützt|
 | Datei öffnen und in einem Stream speichern||| Unterstützt|
-| Konvertieren Sie eine Excel-Datei in ein PDF-Dokument||| Unterstützt|
+| Konvertieren Sie die Excel-Datei in das Dokument PDF||| Unterstützt|
 | Passwortgeschützte Dateien|| Unterstützt| Unterstützt|
 | Inhalte von Tabellenkalkulationen manipulieren||||
 | Ändern Sie die Dokumenteigenschaften von Excel-Dateien||| Unterstützt|

@@ -10,7 +10,7 @@ url: /ar/java/find-if-the-cell-value-starts-with-single-quote-mark/
 
 {{% /alert %}} 
 ## **ابحث عما إذا كانت قيمة الخلية تبدأ بعلامة اقتباس مفردة**
-يوضح نموذج التعليمات البرمجية التالي أنه لا يمكن التمييز بين السلاسل مثل العينة و "العينة"[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) منشأه. لذلك يجب أن نستخدم[النمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)خاصية لتمييزهم.
+يوضح نموذج التعليمات البرمجية التالي أنه لا يمكن التمييز بين السلاسل مثل العينة و "العينة"[Cell.StringValue](https://reference.aspose.com/cells/java/com.aspose.cells/cell#StringValue) خاصية. لذلك يجب أن نستخدم[النمط](https://reference.aspose.com/cells/java/com.aspose.cells/style#QuotePrefix)خاصية لتمييزهم.
 
 
 

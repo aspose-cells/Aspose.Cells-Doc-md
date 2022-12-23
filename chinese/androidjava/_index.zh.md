@@ -11,7 +11,7 @@ is_root: true
 
 **欢迎拨打Aspose.Cells for Android via Java**
 
-Aspose.Cells for Android via Java 是一个灵活的组件，它使 Android 应用程序无需 Microsoft Excel 即可创建和管理 Excel 电子表格。 Aspose.Cells for Android via Java 的最终目标是将 Aspose.Cells for Java 的所有惊人功能带到 Android 平台，从而可以在 Java 中使用 Android Studio 或任何支持 Android 开发的 IDE 进行原生 Android 开发。 Aspose.Cells for Android via Java 是一个类库，可让您的本机 Android 应用程序执行各种文档处理任务。 Aspose.Cells for Android via Java 支持XLS、XLSX、CSV、SpreadsheetML、ODS、Tab Delimited、HTML、PDF、XPS等格式。使用 Aspose.Cells for Android via Java，您可以生成、修改、转换和呈现电子表格。
+Aspose.Cells for Android via Java 是一个灵活的组件，它使 Android 应用程序无需 Microsoft Excel 即可创建和管理 Excel 电子表格。 Aspose.Cells for Android via Java 的最终目标是将 Aspose.Cells for Java 的所有惊人功能带到 Android 平台，从而可以在 Java 中使用 Android Studio 或任何支持 Android 开发的 IDE 进行原生 Android 开发。 Aspose.Cells for Android via Java 是一个类库，可让您的本机 Android 应用程序执行各种文档处理任务。 Aspose.Cells for Android via Java 支持XLS, XLSX, CSV, SpreadsheetML, ODS, Tab Delimited, HTML, PDF, XPS等格式。使用 Aspose.Cells for Android via Java，您可以生成、修改、转换和呈现电子表格。
 
 {{% /alert %}}
 

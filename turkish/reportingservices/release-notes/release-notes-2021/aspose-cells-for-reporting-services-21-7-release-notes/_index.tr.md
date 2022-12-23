@@ -12,7 +12,7 @@ Bu sayfa Aspose.Cells for Reporting Services 21.7 için sürüm notları içerir
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSRS-584 | İyileştirme Png/Emf oluşturma.| Gelişme|
-|CELLSRS-588 |İyileştirme Tiff oluşturma.| Gelişme|
+|CELLSRS-584 |İyileştirme Png/Emf oluşturma.| Gelişme|
+|CELLSRS-588 | İyileştirme Tiff oluşturma.| Gelişme|
 
 

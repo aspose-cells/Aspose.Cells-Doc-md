@@ -12,6 +12,6 @@ url: /fr/net/load-source-excel-file-without-charts/
 
 ## **Charger une feuille de calcul sans graphiques**
 
-L'exemple de code suivant charge l'exemple de fichier Excel sans graphiques et l'enregistre au format PDF de sortie.
+L'exemple de code suivant charge l'exemple de fichier Excel sans graphiques et l'enregistre au format de sortie PDF.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-LoadTemplateWithoutCharts.cs" >}}

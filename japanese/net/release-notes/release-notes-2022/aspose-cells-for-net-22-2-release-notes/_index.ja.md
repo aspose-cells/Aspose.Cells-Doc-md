@@ -15,25 +15,25 @@ url: /ja/net/aspose-cells-for-net-22-2-release-notes/
 |CELLSNET-50332|特定のワークシートのすべての NameCollection を抽出する|
 |CELLSNET-50353|Cells クラスに StandardHeightInch プロパティを追加|
 |CELLSNET-50152|Excel ファイルの PDF および HTML でのさまざまな書式設定およびその他の図形のレンダリングの問題|
-|CELLSNET-50300|Excel から PDF への変換で一部の図形が正しくレンダリングされない|
+|CELLSNET-50300|一部の図形が Excel から PDF への変換で正しくレンダリングされない|
 |CELLSNET-50301|ピボット テーブルの DataSource フィールドの外部参照の値が無効です|
 |CELLSNET-50241|リグレッション: CSV から PDF への変換が機能しない|
-|CELLSNET-50268|CSV/TSV ファイルに対して返される空の CellsArea 配列|
-|CELLSNET-50269|フィンランド語 - パーセントとして書式設定された数値で、パーセント記号の前にスペースがありません|
+|CELLSNET-50268|CSV/TSV ファイルに対して空の CellsArea 配列が返される|
+|CELLSNET-50269|フィンランド語 - パーセンテージとしてフォーマットされた Numbers では、パーセント記号の前にスペースがありません|
 |CELLSNET-50333|Aspose.cell はワークブックのリビジョン ログを収集できませんでした|
-|CELLSNET-50239|Excel ファイルを PDF に変換した後のページの欠落|
+|CELLSNET-50239|Excel ファイルを PDF に変換した後にページが見つからない|
 |CELLSNET-50255|Cell html にエクスポートし、エクスポートした html をリロードすると、型が正しくありません|
 |CELLSNET-50266|Chart.ToImage() スレッドの安全性の問題|
-|CELLSNET-50302|リグレッション: HTML 数値への変換が正しくレンダリングされない|
+|CELLSNET-50302|リグレッション: 正しくレンダリングされない HTML 番号への変換|
 |CELLSNET-50328|Cell pdfに変換したら背景が黒くなる|
 |CELLSNET-50225|Excel を PDF に保存すると、グラフの凡例が元に戻る|
 |CELLSNET-50247|シートに行を挿入すると、一連のチャートの XValue が失われます|
 |CELLSNET-50295|Chart.SetChartDataRange(area, false) は結合セルを認識しません|
-|CELLSNET-50308|PNG までの範囲: 出力が期待どおりにならない|
+|CELLSNET-50308|PNG までの範囲: 出力が期待どおりではありません|
 |CELLSNET-50240|保護されたシート上の保護されていない OLE オブジェクトは、保存後に保護されます|
 |CELLSNET-50273|特別なhtmlファイルのファイル形式を検出|
-|CELLSNET-50294|ActiveX コントロール ボタンが図形に変換され、XLS から XLSM へのファイルが破損し、XLS に戻る|
-|CELLSNET-50340|特定のファイルを HTML に変換するときに表の列の行が表示されない|
+|CELLSNET-50294|ActiveX コントロール ボタンが形状に変換され、ファイルが XLS から XLSM に壊れてから XLS に戻る|
+|CELLSNET-50340|特定のファイルを HTML に変換すると、表の列の行が表示されない|
 |CELLSNET-50286|Cells.RemoveDuplicates が「System.IndexOutOfRangeException: インデックスが配列の範囲外でした」をスローする|
 |CELLSNET-50270|入力文字列は、正しい形式ではありませんでした。 XLS ファイルを開くときの例外|
 |CELLSNET-50271|このファイルの形式はサポートされていないか、正しい形式を指定していません。 XLS ファイルを開くときの例外|

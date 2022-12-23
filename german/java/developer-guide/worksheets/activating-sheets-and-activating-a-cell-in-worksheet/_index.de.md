@@ -31,6 +31,6 @@ Das folgende Beispiel zeigt, wie Sie ein Arbeitsblatt aktivieren und eine aktive
 
 {{% alert color="primary" %}}
 
- Im**Auswertung** Modus, das heißt; Ohne das Festlegen einer gültigen Lizenz ist das aktive Arbeitsblatt immer dasjenige, das das Evaluierungswasserzeichen enthält. Dieses Verhalten kann nur durch das Setzen der Lizenz beim Start der Anwendung außer Kraft gesetzt werden.
+ In**Auswertung**Modus, das heißt; Ohne das Festlegen einer gültigen Lizenz ist das aktive Arbeitsblatt immer dasjenige, das das Evaluierungswasserzeichen enthält. Dieses Verhalten kann nur durch das Setzen der Lizenz beim Start der Anwendung außer Kraft gesetzt werden.
 
 {{% /alert %}}

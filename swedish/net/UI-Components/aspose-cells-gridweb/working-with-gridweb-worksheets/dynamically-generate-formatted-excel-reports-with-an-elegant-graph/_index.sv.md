@@ -22,7 +22,7 @@ Jag skulle ta tillfället i akt att presentera tre av dessa komponenter för dig
 ## **Aspose.Cells Grid Controls**
  Aspose.Cells Grid Controls är en komplett rutnätslösning. Aspose.Cells Grid Controls levereras med två olika GUI .NET-komponenter (Aspose.Cells.GridDesktop och Aspose.Cells.GridWeb): en för att stödja skrivbordsapplikationer och en annan för att stödja webbapplikationer. Båda versionerna är lika matchade för att göra implementering i båda plattformarna på ett kick. Aspose.Cells.GridWeb ger möjlighet att importera från och exportera till Excel-kalkylblad. Så alla som är bekanta med Excel (även slutanvändare) kan designa utseendet och känslan av ett rutnät. Aspose.Cells.GridWeb erbjuder också en lättanvänd, funktionsrik API som ger utvecklare fullständig kontroll över utseendet, känslan och beteendet i deras rutnät. För att veta mer om produkten, dess funktioner och för en programmerares guide, vänligen se sammanfattningen av Features List, Aspose.Cells.GridWeb Documentation and online featured[Demos](https://aspose.github.io/)
 ## **Aspose.Cells**
-**Aspose.Cells**är en Excel-kalkylbladsrapporteringskomponent som gör att du kan läsa och skriva Excel-kalkylblad utan att använda Microsoft Excel för att installeras antingen på klient- eller serversidan.**Aspose.Cells** är en funktionsrik komponent som erbjuder mycket mer än bara grundläggande export av data. Med**Aspose.Cells** utvecklare kan exportera data, formatera kalkylblad i varje detalj och på varje nivå, importera bilder, importera diagram, skapa diagram, manipulera diagram, strömma Excel-data, spara i olika format inklusive XLS, CSV, SpreadsheetML, TabDelimited, TXT, XML ([Aspose.Pdf](https://products.aspose.com/pdf/) integrerad) och många fler.**Aspose.Cells** erbjuder en lättanvänd, funktionsrik**API** för programmerarna. Den har en enorm lista med funktioner. För att veta mer om produkten, dess funktioner och för en programmerares guide, se sammanfattningen av**Funktionslista**, **Aspose.Cells Dokumentation** och demos online. Du får[ladda ner](https://downloads.aspose.com/cells) dess utvärderingsversion gratis.
+**Aspose.Cells**är en Excel-kalkylbladsrapporteringskomponent som gör att du kan läsa och skriva Excel-kalkylblad utan att använda Microsoft Excel för att installeras antingen på klient- eller serversidan.**Aspose.Cells** är en funktionsrik komponent som erbjuder mycket mer än bara grundläggande export av data. Med**Aspose.Cells** utvecklare kan exportera data, formatera kalkylblad i varje detalj och på varje nivå, importera bilder, importera diagram, skapa diagram, manipulera diagram, strömma Excel-data, spara i olika format inklusive XLS, CSV, SpreadsheetML, TabDelimited, 0816143 (XML)[Aspose.Pdf](https://products.aspose.com/pdf/) integrerad) och många fler.**Aspose.Cells** erbjuder en lättanvänd, funktionsrik**API** för programmerarna. Den har en enorm lista med funktioner. För att veta mer om produkten, dess funktioner och för en programmerares guide, se sammanfattningen av**Funktionslista**, **Aspose.Cells Dokumentation** och demos online. Du får[ladda ner](https://downloads.aspose.com/cells) dess utvärderingsversion gratis.
 ## **Designa gränssnittet**
 Vi börjar skapa en ny Asp.Net webbapplikation i Visual Studio.Net.
 
@@ -363,7 +363,7 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 
 {{< /highlight >}}
-## **Producera den formaterade rapporten (.XLS-fil) med Graph med komponenten Aspose.Cells**
+## **Att producera den formaterade rapporten (.XLS-fil) med Graph med komponenten Aspose.Cells**
 Nu ska jag skriva lite kod för att spara den formaterade rapporten med grafen på disken. jag använder**GridWeb** s**Spara**knappen, The**GridWeb** s**SaveCommand**händelsen aktiveras när du klickar på knappen Spara, så jag kommer att hantera det. Här använder jag**Aspose.Cells**komponent för att exportera den formaterade rapporten till MS Excel, generera diagram och bädda in den i utdata Excel-filen. Jag har inte infogat diagrambilden (skapad av**Aspose.Chart**komponent) skapa snarare ett liknande diagram med hjälp av API av**Aspose.Cells**så att du kan redigera diagram i MS Excel för dina behov.
 
 
@@ -572,7 +572,7 @@ Nu ska jag skapa diagrammet och klistra in det i kontrollen. Jag klickar på den
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-Slutligen kommer jag att exportera denna datarapport med graf till MS Excel. Jag klickar på**Spara**knapp (omringad med röd färg). Genom att klicka på**Spara**knappen visas**Filhämtning**dialog kan du antingen**Öppna**den resulterande rapporten (utdata excel-fil med graf) till MS Excel eller spara den på disken.
+Slutligen kommer jag att exportera denna datarapport med graf till MS Excel. Jag klickar på**Spara**knapp (omringad med röd färg). Genom att klicka på**Spara**knappen visas**Filhämtning**dialog kan du antingen**Öppen**den resulterande rapporten (utdata excel-fil med graf) till MS Excel eller spara den på disken.
 
 ![todo:image_alt_text](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 

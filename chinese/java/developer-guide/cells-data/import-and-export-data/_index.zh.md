@@ -65,10 +65,10 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 #### 从 JSON 导入数据
 
-Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)处理JSON的类。[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类有一个[**导入数据**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) 方法导入 JSON 数据。 Aspose.Cells还提供了[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)表示 JSON 布局选项的类。这[**导入数据**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) 方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)作为参数。这[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类提供以下属性。
+Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)处理类 JSON。[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)类有一个[**导入数据**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) 导入JSON数据的方法。 Aspose.Cells还提供了[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)表示 JSON 布局选项的类。这[**导入数据**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonutility#importData(java.lang.String,%20com.aspose.cells.Cells,%20int,%20int,%20com.aspose.cells.JsonLayoutOptions) 方法接受[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)作为参数。这[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)类提供以下属性。
 
 - [**ArrayAsTable**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ArrayAsTable)：表示数组中是否作为表格处理。
-- [**转换数字或日期**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate)：获取或设置一个值，该值表示将JSON中的字符串转换为数值型还是日期型。
+- [**转换数字或日期**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#ConvertNumericOrDate)获取或设置一个值，该值指示JSON中的字符串是转换为数字还是日期。
 - [**日期格式**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#DateFormat)：获取和设置日期值的格式。
 - [**忽略数组标题**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreArrayTitle)表示如果对象的属性是数组，是否忽略标题
 - [**忽略空值**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#IgnoreNull)：指示是否应忽略空值。
@@ -76,7 +76,7 @@ Aspose.Cells提供了[**Json工具**](https://reference.aspose.com/cells/java/co
 - [**数字格式**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#NumberFormat)：获取和设置数值的格式。
 - [**标题样式**](https://reference.aspose.com/cells/java/com.aspose.cells/jsonlayoutoptions#TitleStyle)获取和设置标题的样式。
 
-下面给出的示例代码演示了使用[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)和[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)用于导入 JSON 数据的类。
+下面给出的示例代码演示了使用[**Json工具**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonUtility)和[**JsonLayoutOptions**](https://reference.aspose.com/cells/java/com.aspose.cells/JsonLayoutOptions)导入 JSON 数据的类。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Data-ImportingFromJson-1.java" >}}
 

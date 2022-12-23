@@ -20,23 +20,23 @@ Aspose.Cells für for .NET enthält jetzt auch Aspose.Cells für iOS über Xamar
 |:- |:- |:- |
 |CELLSNET-45740|Suchen Sie die untergeordneten Pivot-Tabellen der übergeordneten übergeordneten Pivot-Tabelle|Neue Funktion|
 |CELLSNET-45771|Behandeln Sie automatische Achseinheiten wie Microsoft Excel|Neue Funktion|
-|CELLSNET-45668|Lesen und schreiben Sie tableSingleCells der XLSB-Datei|Neue Funktion|
+|CELLSNET-45668|Lesen und schreiben Sie tableSingleCells der Datei XLSB|Neue Funktion|
 |CELLSNET-45830|Fügen Sie Ereignisse hinzu, nachdem Sie Zeilen und Spalten in Aspose.Cells.GridDesktop gelöscht haben|Neue Funktion|
 |CELLSNET-45805|GridWeb gibt Bildlaufleisten nicht korrekt wieder|Neue Funktion|
 |CELLSNET-45845|Nicht unterstütztes externes Stylesheet während der Roundtrip-Konvertierung|Erweiterung|
-|CELLSNET-45803|Das XLS-Format sollte mit MS Excel 2016 übereinstimmen|Erweiterung|
+|CELLSNET-45803|XLS-Format sollte mit MS Excel 2016 übereinstimmen|Erweiterung|
 |CELLSNET-45842|FontSettings überschreiben sich gegenseitig, während MS Excel beide behält|Erweiterung|
 |CELLSNET-45653|Das Filtern in GridDesktop funktioniert nicht richtig oder wie Microsoft Excel|Erweiterung|
-|CELLSNET-45763|Formtext wird bei der Konvertierung von Excel in PDF gedreht|Insekt|
+|CELLSNET-45763|Shape-Text wird in Excel in PDF-Konvertierung gedreht|Insekt|
 |CELLSNET-45669|Zeichen überlappen sich beim Konvertieren in Bild|Insekt|
-|CELLSNET-45841|XLSB-Datei, die sich mit Power Pivot befasst, wird beim Öffnen und erneuten Speichern beschädigt|Insekt|
-|CELLSNET-45819|Beim Export von HTML nach Excel werden keine Rahmen angezeigt|Insekt|
+|CELLSNET-45841|XLSB Datei, die sich mit Power Pivot befasst, wird beim Öffnen und erneuten Speichern beschädigt|Insekt|
+|CELLSNET-45819|Beim Export von HTML nach Excel werden keine Ränder angezeigt|Insekt|
 |CELLSNET-45807|Gitternetzlinien werden nicht angezeigt, wenn die HtmlSaveOptions.ExportActiveWorksheetOnly-Eigenschaft auf „true“ gesetzt ist|Insekt|
 |CELLSNET-45788|Unterstützt das Exportieren des separaten Stylesheets für ein Dokument mit einer Registerkarte|Insekt|
 |CELLSNET-45826|Bildeigenschaften (Titel und Betreff) gehen nach der Konvertierung von XLSX in PDF verloren|Insekt|
 |CELLSNET-45811|Das Rendern von Excel schneidet den rechten Rand mit etwas Datenverlust ab|Insekt|
 |CELLSNET-45808|Das Konvertieren von Excel in PDF schneidet Wörter mit Apostrophen ab, wenn die RTL-Sprache verwendet wird|Insekt|
-|CELLSNET-45840|Diagramm wird nach dem Speichern im XLS-Format gestreckt - "mouseover event - embedded.xls"|Insekt|
+|CELLSNET-45840|Diagramm wird nach dem Speichern im Format XLS gestreckt - "mouseover event - embedded.xls"|Insekt|
 |CELLSNET-45815|Chart.Calculate hängt, wenn QAR_symbol auf „丿.兀“ gesetzt ist.|Insekt|
 |CELLSNET-45765|Diagramme konnten nicht exportiert werden, wenn das benutzerdefinierte Format das Format „mm“ verwendet|Insekt|
 |CELLSNET-45756|Blatt mit Diagramm zeigt Änderungen, wenn die Excel-Datei geöffnet und erneut gespeichert wird|Insekt|
@@ -51,13 +51,13 @@ Aspose.Cells für for .NET enthält jetzt auch Aspose.Cells für iOS über Xamar
 |CELLSNET-45837|Tabellenkalkulations-XML wird ungültig gemacht, da sie Elemente mit doppeltem Präfix enthält|Insekt|
 |CELLSNET-45835|Cell.R1C1Formula gibt null zurück, wenn auf benannte Bereiche verwiesen wird|Insekt|
 |CELLSNET-45834|Das eingebettete PDF-Bild ist nach dem Einfügen eines OLE-Objekts beschädigt|Insekt|
-|CELLSNET-45831|Teil der Rechenkette nach Konvertierung übersehen (XLSB -> XLSM)|Insekt|
+|CELLSNET-45831|Rechenkettenteil nach Konvertierung übersehen (XLSB -> XLSM)|Insekt|
 |CELLSNET-45827|ImportCustomObjects importiert keine Feldnamen, wenn die Listenanzahl Null ist|Insekt|
 |CELLSNET-45816|Ungültiger Formelfehler beim Öffnen der Datei|Insekt|
 |CELLSNET-45814|Die vertikale Ausrichtung gilt nicht für den Zellbereich|Insekt|
-|CELLSNET-45812|Der absolute Pfad wird beim erneuten Speichern einer XLSX-Datei in einen relativen Pfad geändert|Insekt|
+|CELLSNET-45812|Der absolute Pfad ändert sich in einen relativen Pfad, wenn eine XLSX-Datei erneut gespeichert wird|Insekt|
 |CELLSNET-45810|RGB(255, 0, 0) ist kein gültiger Wert für Int32 bei der HtmlString-Zuweisung|Insekt|
-|CELLSNET-44690|Durch erneutes Speichern des XLS wird das Diagramm vertikal gestreckt|Insekt|
+|CELLSNET-44690|Durch erneutes Speichern von XLS wird das Diagramm vertikal gestreckt|Insekt|
 |CELLSNET-44621|Konvertierung von XLSB zu XLSM: Die resultierende Datei enthält nicht xl\queryTables\queryTable1|Insekt|
 |CELLSNET-45800|Wenn Sie auf Zelle A1 klicken, springt sie zu einer anderen Zelle und die Position der fokussierten Zelle ist falsch|Insekt|
 |CELLSNET-45793|Der Gruppenstatus ist nach dem Reduzieren/Erweitern falsch – Aspose.Cells.GridDesktop|Insekt|

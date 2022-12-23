@@ -75,7 +75,7 @@ Este método es aplicable para su uso con JasperServer.
 
 ## **Verificar las obras de la licencia**
 
-Exporte cualquier informe a formato XLS y compruebe si el informe contiene un mensaje de evaluación. Si no hay un mensaje de evaluación, la licencia funciona correctamente.
+Exporte cualquier informe al formato XLS y verifique si el informe contiene un mensaje de evaluación. Si no hay un mensaje de evaluación, la licencia funciona correctamente.
 
 **Aspose.Cells for JasperReports inyecta una hoja de trabajo de evaluación en modo de evaluación** 
 

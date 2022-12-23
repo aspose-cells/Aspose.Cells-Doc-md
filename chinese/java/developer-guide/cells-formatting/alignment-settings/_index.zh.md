@@ -74,7 +74,7 @@ Aspose.Cells提供[**获取样式**](https://reference.aspose.com/cells/java/com
 
 ### **收缩以适应**
 
-在字段中换行文本的一个选项是缩小文本大小以适合单元格的尺寸。这是通过设置[**缩小以适合**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit)财产。至**真的**.
+在字段中换行文本的一个选项是缩小文本大小以适合单元格的尺寸。这是通过设置[**缩小到适合**](https://reference.aspose.com/cells/java/com.aspose.cells/style#ShrinkToFit)财产。到**真的**.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "ShrinkingToFit-1.java" >}}
 

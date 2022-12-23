@@ -3,6 +3,7 @@ title: Visa formler istället för värden i ett kalkylblad
 type: docs
 weight: 20
 url: /sv/net/show-formulas-instead-of-values-in-a-worksheet/
+description: Den här artikeln innehåller exempelkod för att använda biblioteket C# API eller .NET för att programmatiskt visa formler snarare än värden i ett Excel-kalkylblad eller kalkylblad.
 ---
 {{% alert color="primary" %}}
 

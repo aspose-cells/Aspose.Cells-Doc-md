@@ -6,7 +6,7 @@ url: /it/net/calculation-of-array-formula-of-data-tables/
 ---
 {{% alert color="primary" %}}
 
- È possibile creare una tabella dati in Microsoft Excel utilizzando Dati > Analisi what-if > Tabella dati.... Aspose.Cells ora consente di calcolare la formula di matrice di una tabella dati. Si prega di utilizzare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) come normale per il calcolo di qualsiasi tipo di formule.
+ È possibile creare una tabella dati in Microsoft Excel utilizzando Dati > Analisi what-if > Tabella dati.... Aspose.Cells consente ora di calcolare la formula di matrice di una tabella dati. Si prega di utilizzare[**Workbook.CalculateFormula()**](https://reference.aspose.com/cells/net/aspose.cells/workbook/methods/calculateformula) come normale per il calcolo di qualsiasi tipo di formule.
 
 {{% /alert %}}
 

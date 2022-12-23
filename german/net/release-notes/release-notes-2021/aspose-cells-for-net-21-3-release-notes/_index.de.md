@@ -21,22 +21,22 @@ url: /de/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47893|Signaturzeile in Bild umwandeln.|Erweiterung|
 |CELLSNET-47899|Unterstützt das Kopieren von QueryTable beim Kopieren von Arbeitsmappen.|Erweiterung|
 |CELLSNET-47842|Langsame Leistung beim Aktualisieren einer großen Pivot-Tabelle|Leistung|
-|CELLSNET-42846|Gleichung geht beim erneuten Speichern der ODS-Datei verloren|Insekt|
+|CELLSNET-42846|Gleichung geht beim erneuten Speichern der Datei ODS verloren|Insekt|
 |CELLSNET-47794|Größe und Position der Pfeilform sind falsch|Insekt|
 |CELLSNET-46469|Chart.RefreshPivotData() entfernt das Achsennummernformat|Insekt|
 |CELLSNET-47871|Falsche Überschriften beim Rendern des Druckbereichs|Insekt|
 |CELLSNET-47875| MS Excel muss die Datei nach dem erneuten Speichern über Aspose.Cells reparieren|Insekt|
 |CELLSNET-47829| Bei der Implementierung von Zirkelbezügen und Iterationen ergibt sich eine andere Formelberechnung|Insekt|
 |CELLSNET-47865|Aspose.Cells zeigt das Datum fälschlicherweise im japanischen Format an|Insekt|
-|CELLSNET-47872|MS Excel gibt eine Fehlermeldung aus, wenn eine neu gespeicherte XLTM-Datei von Aspose.Cells geöffnet wird|Insekt|
+|CELLSNET-47872|MS Excel zeigt eine Fehlermeldung an, wenn eine neu gespeicherte XLTM-Datei von Aspose.Cells geöffnet wird|Insekt|
 |CELLSNET-47897|Die Listenelementauswahl funktioniert nicht, wenn sie in die ASP.NET-Anwendung geladen wird|Insekt|
-|CELLSNET-47862|Excel Accounting Underline wird beim PDF-Export abgeschnitten|Insekt|
+|CELLSNET-47862|Excel Accounting Underline wird beim Export nach PDF abgeschnitten|Insekt|
 |CELLSNET-47881|Die Spaltenbreite ist kleiner als erwartet, während die XML-Datei in die Arbeitsmappe importiert/zugeordnet wird|Insekt|
 |CELLSNET-47804|Der Text der Diagrammlegende wird nicht richtig angezeigt|Insekt|
 |CELLSNET-47834|Chart.Calculate() in Diagrammen ändert die Diagrammformatierung|Insekt|
-|CELLSNET-47856|XLSX-zu-PDF-Konvertierungsproblem mit Pivot-Tabellen|Insekt|
+|CELLSNET-47856|XLSX bis PDF Konvertierungsproblem mit Pivot-Tabellen|Insekt|
 |CELLSNET-41275|Diagramme, die auf andere Blätter verweisen, werden nicht angezeigt|Insekt|
-|CELLSNET-42847|Das Diagramm geht beim erneuten Speichern der ODS-Datei verloren|Insekt|
+|CELLSNET-42847|Das Diagramm geht beim erneuten Speichern der Datei ODS verloren|Insekt|
 |CELLSNET-47861|Unterschied in der Berechnung der Zeilenhöhe|Insekt|
 |CELLSNET-47876|Zeilen automatisch anpassen und Standardhöhe funktionieren bei verbundenen Zellen nicht richtig|Insekt|
 |CELLSNET-47903|Durch das Einfügen einer Spalte in eine Tabelle wird die Arbeitsmappe beschädigt|Insekt|
@@ -47,9 +47,9 @@ url: /de/net/aspose-cells-for-net-21-3-release-notes/
 |CELLSNET-47866|Ausnahme beim Laden einer Html|Ausnahme|
 |CELLSNET-47882|Beim Importieren von HTML in eine Excel-Datei wurde eine Ausnahme ausgelöst|Ausnahme|
 |CELLSNET-47863|Das Hinzufügen von HTML-Tags zu Zellen löst System.FormatException aus|Ausnahme|
-|CELLSNET-47868|Ungültige Endzeilenindex-Ausnahme beim Öffnen der Office 2000 XLS-Datei|Ausnahme|
+|CELLSNET-47868|Ungültige Endzeilenindex-Ausnahme beim Öffnen der Office 2000-Datei XLS|Ausnahme|
 |CELLSNET-47869|Cells Fehler beim Laden der Arbeitsmappe mit Ausnahme|Ausnahme|
-|CELLSNET-47870|Ausnahme beim Laden der XLS-Datei ausgelöst|Ausnahme|
+|CELLSNET-47870|Ausnahme beim Laden der Datei XLS ausgelöst|Ausnahme|
 |
 
 

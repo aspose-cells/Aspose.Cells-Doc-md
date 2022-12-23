@@ -413,6 +413,6 @@ public static CTDrawing buildDrawingPartContentFromXmlString(String imageRelID) 
 
 {{% alert color="primary" %}} 
 
- Para más detalles, visite[Agregar hipervínculos de imágenes](/java/add-image-hyperlinks).
+ Para más detalles, visite[Agregar hipervínculos de imagen](/java/add-image-hyperlinks).
 
 {{% /alert %}}

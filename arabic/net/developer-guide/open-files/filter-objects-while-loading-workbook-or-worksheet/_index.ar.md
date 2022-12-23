@@ -5,7 +5,7 @@ weight: 330
 url: /ar/net/filter-objects-while-loading-workbook-or-worksheet/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
-يرجى استخدام[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)الخاصية أثناء تصفية البيانات من المصنف. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية ، فسيتعين عليك تجاوز[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)طريقة. يرجى تقديم قيمة مناسبة من[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)التعداد أثناء الإنشاء أو العمل مع[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
+الرجاء استخدام[LoadOptions.LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadoptions/properties/loadfilter)الخاصية أثناء تصفية البيانات من المصنف. ولكن إذا كنت ترغب في تصفية البيانات من أوراق العمل الفردية ، فسيتعين عليك تجاوز[LoadFilter.StartSheet](https://reference.aspose.com/cells/net/aspose.cells/loadfilter/methods/startsheet)طريقة. يرجى تقديم قيمة مناسبة من[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)التعداد أثناء الإنشاء أو العمل مع[LoadFilter](https://reference.aspose.com/cells/net/aspose.cells/loadfilter).
 
  ال[LoadDataFilterOptions](https://reference.aspose.com/cells/net/aspose.cells/loaddatafilteroptions)التعداد لديه القيم المحتملة التالية.
 
@@ -37,7 +37,7 @@ url: /ar/net/filter-objects-while-loading-workbook-or-worksheet/
 - VBA
 - XmlMap
 ## **تصفية الكائنات أثناء تحميل المصنف**
- يوضح نموذج التعليمات البرمجية التالي كيفية تصفية المخططات من المصنف. رجاء تاكد من[نموذج ملف اكسل](5115258.xlsx) المستخدمة في هذا الرمز و[إخراج PDF](5115257.pdf)ولدت به. كما ترى في ملف PDF الناتج ، تمت تصفية جميع المخططات من المصنف.
+ يوضح نموذج التعليمات البرمجية التالي كيفية تصفية المخططات من المصنف. رجاء تاكد من[نموذج ملف اكسل](5115258.xlsx) المستخدمة في هذا الرمز و[الإخراج PDF](5115257.pdf)ولدت به. كما ترى في الإخراج PDF ، تمت تصفية كافة المخططات من المصنف.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-FilteringObjectsAtLoadTime-FilteringObjects.cs" >}}
 ## **تصفية الكائنات أثناء تحميل ورقة العمل**

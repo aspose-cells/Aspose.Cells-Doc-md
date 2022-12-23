@@ -6,7 +6,7 @@ url: /it/java/managing-page-breaks-in-php/
 ---
 ## **Aspose.Cells - Gestione interruzioni di pagina**
 ### **Aggiunta di interruzioni di pagina**
- Per aggiungere interruzioni di pagina utilizzando**Aspose.Cells Giava for PHP** , chiamata**add_page_breaks** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+ Per aggiungere interruzioni di pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**add_page_breaks** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
@@ -30,7 +30,7 @@ $workbook->save($dataDir . "Add Page Breaks.xls");   
 
 {{< /highlight >}}
 ### **Cancellazione di tutte le interruzioni di pagina**
- Per cancellare tutte le interruzioni di pagina utilizzando**Aspose.Cells Giava for PHP** , chiamata**cancella_tutte_le_interruzioni_di_pagina** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+ Per cancellare tutte le interruzioni di pagina utilizzando**Aspose.Cells Java for PHP** , chiamata**cancella_tutte_le_interruzioni_di_pagina** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
@@ -46,7 +46,7 @@ $workbook->save($dataDir . "Clear All Page Breaks.xls");
 
 {{< /highlight >}}
 ### **Rimozione di un'interruzione di pagina specifica**
- Per rimuovere un'interruzione di pagina specifica utilizzando**Aspose.Cells Giava for PHP** , chiamata**remove_page_break** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
+ Per rimuovere un'interruzione di pagina specifica utilizzando**Aspose.Cells Java for PHP** , chiamata**remove_page_break** metodo di**interruzioni di pagina** modulo. Di seguito puoi vedere un esempio di codice.
 
 **Codice PHP**
 
@@ -70,6 +70,6 @@ $workbook->save($dataDir . "Remove Page Break.xls");
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
-Scarica**Gestione interruzioni di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
+Scaricamento**Gestione interruzioni di pagina (Aspose.Cells)**da uno qualsiasi dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_PHP/src/aspose/cells/WorkingWithWorksheets/ValueFeatures/ManagingPageBreaks.php)

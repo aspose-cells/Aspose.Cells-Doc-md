@@ -18,35 +18,35 @@ url: /es/net/aspose-cells-for-net-18-11-release-notes/
 |CELLSNET-46261|La sustitución de los textos en SmartArt no funciona|Nueva caracteristica|
 |CELLSNET-46435|GetValidationValue devuelve un valor incorrecto para números grandes|Mejora|
 |CELLSNET-46117|La posición del texto cambia un poco al desagrupar la forma.|Mejora|
-|CELLSNET-46400|Se cuelga al llamar a PivotTable.RefreshData|Actuación|
-|CELLSNET-46441|Cell.GetDisplayStyle() se bloquea para una celda|Actuación|
+|CELLSNET-46400|Se cuelga al llamar a PivotTable.RefreshData|Rendimiento|
+|CELLSNET-46441|Cell.GetDisplayStyle() se bloquea para una celda|Rendimiento|
 |CELLSNET-46423|Problemas de formato al convertir XLSX a PDF|Insecto|
 |CELLSNET-46410|El formato de la tabla dinámica se desordena después de la actualización|Insecto|
-|CELLSNET-46404|Procesamiento de diagramas de la misma manera que las imágenes al guardar HTML|Insecto|
+|CELLSNET-46404|Procesamiento de diagramas de la misma manera que imágenes al guardar HTML|Insecto|
 |CELLSNET-46388|El archivo está dañado después de cargar y volver a guardar un formato de archivo XLSX|Insecto|
 |CELLSNET-46387|Tabla dinámica de clasificación de problemas|Insecto|
 |CELLSNET-46366|Faltan los bordes y los colores de fondo al convertir HTML a XLSX|Insecto|
 |CELLSNET-46365|Hojas de estilo CSS referenciadas ignoradas al abrir HTML|Insecto|
 |CELLSNET-46431|El resultado de la fórmula VLookup es diferente al resultado de MS Excel|Insecto|
-|CELLSNET-46430|La fórmula de matriz no funciona después de Workbook.Combine en la conversión de XLSX a XLSB|Insecto|
+|CELLSNET-46430|La fórmula de matriz no funciona después de Workbook.Combine en la conversión XLSX a XLSB|Insecto|
 |CELLSNET-46428|Name.RefersTo no recupera el valor correcto|Insecto|
 |CELLSNET-46413|La creación de XLSX con formato condicional produce un archivo dañado|Insecto|
-|CELLSNET-46403|La fórmula de matriz no funciona después de Workbook.Combine para guardar en formato de archivo XLSB|Insecto|
+|CELLSNET-46403|La fórmula de matriz no funciona después de Workbook.Combine para guardar en el formato de archivo XLSB|Insecto|
 |CELLSNET-46396|El libro de trabajo guardado como SVG está dañado, ya que en realidad es un archivo TIFF|Insecto|
-|CELLSNET-46420|Gráfico en PDF con problema de picos|Insecto|
+|CELLSNET-46420|Gráfico en PDF obteniendo un problema de pico|Insecto|
 |CELLSNET-46411|Se cuelga al convertir XLSX a PDF|Insecto|
 |CELLSNET-46408|Faltan marcadores de datos en la imagen del gráfico de salida del archivo de MS Excel|Insecto|
 |CELLSNET-46393|Las etiquetas de los ejes están desalineadas después de convertir el gráfico de MS Excel al formato de imagen PNG|Insecto|
-|CELLSNET-46359|Variación en el tamaño de fuente para las etiquetas en el gráfico en el archivo SVG de salida|Insecto|
+|CELLSNET-46359|Variación en el tamaño de fuente para las etiquetas en el gráfico en el archivo de salida SVG|Insecto|
 |CELLSNET-46433|El formato condicional se elimina al eliminar el rango con nombre|Insecto|
 |CELLSNET-46427|MS Excel informa un problema después de abrir/guardar con Aspose.Cells|Insecto|
-|CELLSNET-46421|Cambios en la propiedad del documento CreatedTime después de guardarlos en la transmisión|Insecto|
+|CELLSNET-46421|Cambios en la propiedad del documento CreatedTime después de guardarlos en la secuencia|Insecto|
 |CELLSNET-46417|Ajustar el texto que no funciona junto con una línea vacía encima del texto|Insecto|
 |CELLSNET-46416|Datos de gráficos perdidos al cargar y guardar el archivo XLSX|Insecto|
 |CELLSNET-46409|Problema con la lista desplegable después de convertir de XML|Insecto|
 |CELLSNET-46407|La inicialización del libro de trabajo tarda demasiado cuando se carga un formato de archivo XLSM|Insecto|
 |CELLSNET-46397|El título del gráfico se pierde al convertir XLS a XLSM|Insecto|
-|CELLSNET-46401|ArgumentException mientras se trabaja con un archivo HTML generado|Excepción|
+|CELLSNET-46401|ArgumentException mientras se trabaja con el archivo HTML generado|Excepción|
 |CELLSNET-46426|Excepción al llamar a AutoFitColumns()|Excepción|
 |CELLSNET-46415|Excepción CellsException durante el guardado cuando ParsingFormulaOnOpen es falso|Excepción|
 |CELLSNET-46422|Excepción al procesar etiquetas inteligentes|Excepción|
@@ -57,13 +57,13 @@ Obtiene el nombre del usuario que actualizó la tabla dinámica por última vez.
 #### **Agrega la propiedad PivotTable.RefreshDate**
 Obtiene la fecha en la que se actualizó la tabla dinámica por última vez.
 #### **Agrega propiedades CalculationData.CellRow/CellColumn**
-Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de buscar el objeto Cell.
+Proporciona una manera eficiente para que el usuario obtenga los índices de fila y columna de la celda en lugar de obtener el objeto Cell.
 #### **Agrega la clase CalculationCell**
 Representa los datos de cálculo sobre una celda que se está calculando.
 #### **Agrega el método AbstractCalculationMonitor.OnCircular(IEnumerator circularCellsData)**
 Proporciona un método para que el usuario recopile y procese referencias circulares.
 #### **Agrega la propiedad TxtLoadOptions.TreatConsecutiveDelimitersAsOne**
-Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar un archivo CSV.
+Permite al usuario elegir si los delimitadores consecutivos deben tomarse como uno solo al importar el archivo CSV.
 #### **Agrega el método FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal)**
 Proporciona una manera eficiente y conveniente para que el usuario establezca fórmulas para FormatCondition.
 #### **Agrega el método Validation.GetListValue (fila int, columna int)**

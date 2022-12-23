@@ -14,7 +14,7 @@ url: /zh/java/public-api-changes-in-aspose-cells-8-2-1/
 
 {{% alert color="primary" %}} 
 
-请查看详细文章[在 Cell 上应用验证](https://docs.aspose.com/cells/java/get-validation-applied-on-a-cell/)了解更多信息。
+请查看详细文章[在 Cell 上应用验证](https://docs.aspose.com/cells/java/get-validation-applied-on-a-cell/)想要查询更多的信息。
 
 {{% /alert %}}
 ## **为 Cell 类添加了 getValidationValue() 方法**

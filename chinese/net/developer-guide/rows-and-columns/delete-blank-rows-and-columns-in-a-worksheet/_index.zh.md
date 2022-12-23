@@ -6,7 +6,7 @@ url: /zh/net/delete-blank-rows-and-columns-in-a-worksheet/
 ---
 {{% alert color="primary" %}}
 
-可以从工作表中删除所有空白行和列。这在例如从 Microsoft Excel 文件生成 PDF 文件并希望仅转换包含数据的行和列时很有用。
+可以从工作表中删除所有空白行和列。这在例如从 Microsoft Excel 文件生成 PDF 文件并且只想转换包含数据的行和列时很有用。
 
 使用以下 Aspose.Cells 方法删除空行和空列：
 

@@ -12,6 +12,6 @@ url: /zh/net/change-data-source-of-the-chart-to-destination-worksheet-while-copy
 
 下面的示例代码解释了[**复制选项.ReferToDestinationSheet**](https://reference.aspose.com/cells/net/aspose.cells/copyoptions/properties/refertodestinationsheet)将包含图表的行或范围复制到新工作表时的属性。该代码使用[示例 excel 文件](5113699.xlsx)并生成[输出excel文件](5113697.xlsx).
 
-![待办事项：图像_替代_文本](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
+![待办事项：图片_替代_文本](change-data-source-of-the-chart-to-destination-worksheet-while-copying-rows-or-range_1.png)
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingWorkbooksWorksheets-ChangeChartDataSource-1.cs" >}}

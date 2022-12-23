@@ -34,13 +34,13 @@ Noi siamo
 - Chart.CategoryAxis.TickLabels.RotationAngle non funziona dopo aver copiato i fogli di lavoro
 - Problema con l'eliminazione del titolo grafico/asse
 - La formattazione della legenda del grafico viene persa durante il salvataggio della cartella di lavoro
-- Problema con i grafici visualizzati nel PDF
+- Problema con i grafici renderizzati nel file PDF
 - Imposta i problemi relativi al colore sfumato
 - Il salvataggio del file MHT, la lettura in Aspose.Cells è un problema
 - Alcune formattazioni condizionali non vengono visualizzate correttamente
 - Posizionamento errato del testo in PDF con caratteri di dimensioni miste
-- L'esportazione in PDF da file Excel modifica le formule
-- Problemi di rendering di fogli di lavoro e PDF
+- L'esportazione in PDF dal file Excel modifica le formule
+- Foglio di lavoro e problemi di rendering PDF
 - Problema con colonne ad adattamento automatico
 - Problemi relativi al tema delle tabelle pivot
 - L'aggiornamento della tabella pivot non riesce
@@ -67,7 +67,7 @@ Noi siamo
 
 
 Nuovo
-Caratteristiche
+ Caratteristiche
 
 - GridDesktop Scrollbars - Come mostrare/nascondere le barre di scorrimento verticali e orizzontali
 - Inserisci eventi di riga/colonna

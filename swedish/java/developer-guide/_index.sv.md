@@ -17,11 +17,11 @@ url: /sv/java/developer-guide/
         <ul>
             <li><a href="/cells/sv/java/your-first-aspose-cells-application-hello-world/#code-sample-creating-a-new-workbook">Skapa en ny arbetsbok</a></li>
         </ul>
-        <p>Öppna</p>
+        <p>Öppen</p>
         <ul>
             <li><a href="/cells/sv/java/opening-files-with-different-formats/">Öppna filer med olika format</a></li>
             <li><a href="/cells/sv/java/get-warnings-while-loading-excel-file/">Få varningar när du laddar Excel-fil</a></li>
-            <li><a href="/cells/sv/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Läs Numbers-kalkylblad Utvecklat av Apple Inc. med Aspose.Cells</a></li>
+            <li><a href="/cells/sv/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/">Läs Numbers Kalkylblad Utvecklat av Apple Inc. med Aspose.Cells</a></li>
         </ul>
         <p>Spara</p>
         <ul>
@@ -137,7 +137,7 @@ url: /sv/java/developer-guide/
 						<li><a href="/cells/sv/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multiplication-sign-to-worksheet">Infoga ett multiplikationstecken i arbetsbladet</a></li>
 						<li><a href="/cells/sv/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-multidocument-to-worksheet">Infoga ett multidokument i kalkylblad</a></li>
 						<li><a href="/cells/sv/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-five-pointed-star-to-worksheet">Infoga en femuddig stjärna i arbetsbladet</a></li>
-						<li><a href="/cells/sv/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Infoga ett tankebubbelmoln i arbetsblad</a></li>
+						<li><a href="/cells/sv/java/insert-shapes-to-worksheet-in-aspose-cells/#inserting-a-thought-bubble-cloud-to-worksheet">Infogar ett tankebubbelmoln i arbetsblad</a></li>
         </ul>
 		    <p>Länkar</p>
         <ul>
@@ -325,7 +325,7 @@ url: /sv/java/developer-guide/
     <div class="col-md-6">
         <p>Ändringar</p>
         <ul>
-         <li><a href="/cells/sv/java/convert-revision-of-xlsb-to-xlsm/">Konvertera Revision av XLSB till XLSM</a></li>
+         <li><a href="/cells/sv/java/convert-revision-of-xlsb-to-xlsm/">Konvertera revision av XLSB till XLSM</a></li>
         </ul>
     </div>
 </div>
@@ -337,7 +337,7 @@ url: /sv/java/developer-guide/
         <ul>
          <li><a href="/cells/sv/java/worksheet-views/#page-break-preview">Förhandsvisning av sidbrytning</a></li>
         </ul>
-        <p>Show</p>
+        <p>Visa</p>
          <ul>
 		<li><a href="/cells/sv/java/show-and-hide-elements/">Visa och dölj element</a></li>
         </ul>

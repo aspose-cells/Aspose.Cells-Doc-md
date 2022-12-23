@@ -14,11 +14,11 @@ url: /zh/net/add-wordart-watermark-to-chart-in-aspose-cells/
 
 **输入文件** 
 
-![待办事项：图像_替代_文本](picture1.png)
+![待办事项：图片_替代_文本](picture1.png)
 
 **输出文件**
 
-![待办事项：图像_替代_文本](picture2.png)
+![待办事项：图片_替代_文本](picture2.png)
 
 **C#**
 

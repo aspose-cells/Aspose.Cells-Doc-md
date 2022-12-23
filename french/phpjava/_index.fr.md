@@ -11,7 +11,7 @@ is_root: true
 
 **Bienvenue au Aspose.Cells for PHP via Java**
 
-Aspose.Cells for PHP via Java fournit toutes les fonctionnalités utiles de Aspose.Cells for Java en utilisant JavaBridge. Aspose.Cells for PHP via Java est une bibliothèque de classes qui vous permet d'effectuer une large gamme de tâches de traitement de feuille de calcul. Aspose.Cells for PHP via Java est un API évolutif et riche en fonctionnalités qui offre la conversion du format de feuille de calcul, le style des feuilles de calcul au niveau le plus granulaire, la gestion et le rendu des graphiques, et notre moteur de calcul de formule fiable. Aspose.Cells for PHP via Java prend en charge XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS et d'autres formats. Avec Aspose.Cells for PHP via Java, vous pouvez générer, modifier, convertir et afficher des documents Excel.
+Aspose.Cells for PHP via Java fournit toutes les fonctionnalités utiles de Aspose.Cells for Java en utilisant JavaBridge. Aspose.Cells for PHP via Java est une bibliothèque de classes qui vous permet d'effectuer une large gamme de tâches de traitement de feuille de calcul. Aspose.Cells for PHP via Java est un API évolutif et riche en fonctionnalités qui offre la conversion du format de feuille de calcul, le style des feuilles de calcul au niveau le plus granulaire, la gestion et le rendu des graphiques, et notre moteur de calcul de formule fiable. Aspose.Cells for PHP via Java supports XLS, XLSX, ODS, SpreadsheetML, CSV, Tab Delimited, HTML/MHTML, PDF, XPS and other formats. Avec Aspose.Cells for PHP via Java vous pouvez générer, modifier, convertir et afficher des documents Excel.
 
 {{% /alert %}}
 

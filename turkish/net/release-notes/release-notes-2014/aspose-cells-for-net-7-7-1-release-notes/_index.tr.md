@@ -10,8 +10,8 @@ url: /tr/net/aspose-cells-for-net-7-7-1-release-notes/
 
 {{% /alert %}} 
 
- Aspose.Cells for .NET, 7.7.1 sürümüne güncellendi ve bu sürümün 80'den fazla yeni kullanışlı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
-Aspose.Cells for .NET'i kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
+ Aspose.Cells for .NET, 7.7.1 sürümüne güncellendi ve bu sürümün 80'den fazla yeni faydalı iyileştirme getirdiğini duyurmaktan mutluluk duyuyoruz.
+Aspose.Cells for .NET kullanarak uygulamalarınızda XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS ve diğer formatlarla çalışabilirsiniz. Ayrıca çalışma kitaplarını Microsoft Excel kullanmadan görüntüleyebilir, oluşturabilir, değiştirebilir, dönüştürebilir, işleyebilir ve yazdırabilirsiniz.
 Aspose.Cells for .NET ile nasıl başlayacağınızı öğrenmek için belgeleri ziyaret edin.
 Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, ancak bir lisans seti olmadan bazı sınırlamalarla değerlendirme modunda çalışacağını unutmayın. Aspose.Cells'i bu değerlendirme sınırlamaları olmadan test etmek için 30 günlük ücretsiz bir geçici lisans talep edebilirsiniz.
  Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulunmaktadır.
@@ -34,7 +34,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42116) - DataBars Koşullu Biçimlendirme için Minimum ve Maksimum değerleri hesapla
 
-(CELLSNET-40910) - Hafif hücreler modunda büyük MS Excel dosyalarını okuyun - (LightCells API)
+ (CELLSNET-40910) - Hafif hücreler modunda büyük MS Excel dosyalarını okuyun - (LightCells API)
 
  (CELLSNET-42230) - Sayfadan Görüntüye özelliğinde negatif değerler içeren Koşullu Biçimlendirme Veri Çubuklarını İşle
 
@@ -48,7 +48,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 ## **Geliştirmeler**
 
 
- (CELLSNET-42247) - PivotTable'daki koşullu biçimlendirme, Aspose.Cells ile işlendiğinde kayboluyor
+(CELLSNET-42247) - PivotTable'daki koşullu biçimlendirme, Aspose.Cells ile işlendiğinde kayboluyor
 
  (CELLSNET-42228) - DOC dosyasını bir XSLX formatına gömmek, gömülü DOC'u yüklemek için MS Word'ü başlatmıyor
 
@@ -66,7 +66,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42249) - Aspose.Cells, XLSB dosyasını bozar
 
-(CELLSNET-42217) - MS Excel "Okunamayan İçerik" mesajı gösteriyor
+ (CELLSNET-42217) - MS Excel "Okunamayan İçerik" mesajı gösteriyor
 
  (CELLSNET-42184) - Unicode/Çift bayt/JPN - HTML dönüştürme sorunları
 
@@ -76,7 +76,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-41363) - PivotField sorunu - Yanlış 'Öğe etiketlerini tekrarla' durumu (*.xlsb)
 
- (CELLSNET-41362) - PivotField sorunu - Yanlış 'IsCalculatedField' durumu (*.xlsb)
+(CELLSNET-41362) - PivotField sorunu - Yanlış 'IsCalculatedField' durumu (*.xlsb)
 
  (CELLSNET-41361) - PivotField sorunu - Sıralama alanlarının yanlış durumu (*.xlsb)
 
@@ -88,7 +88,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-41343) - PivotTable - Yanlış 'Alan başına tutulacak öğe sayısı' durumu (*.xlsb)
 
-(CELLSNET-41342) - PivotTable - 'RowHeaderCaption' alanı için eksik değer (*.xlsb)
+ (CELLSNET-41342) - PivotTable - 'RowHeaderCaption' alanı için eksik değer (*.xlsb)
 
  (CELLSNET-41341) - PivotTable - Birden çok konsolidasyon aralığına (*.xlsb) sahip Pivot Tablolar için kayıp veri kaynağı değeri
 
@@ -96,7 +96,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-41339) - Yanlış 'Satır/Sütun Başlıkları' durumu (*.xlsb)
 
- (CELLSNET-41338) - PivotTable - Yanlış 'Sıralama yaparken Özel Listeleri Kullan' durumu (*.xlsb)
+(CELLSNET-41338) - PivotTable - Yanlış 'Sıralama yaparken Özel Listeleri Kullan' durumu (*.xlsb)
 
  (CELLSNET-41337) - PivotTable - Yanlış 'Otomatik Biçim' değeri (*.xlsb)
 
@@ -108,37 +108,37 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-41331) - PivotTable - Satır/sütun için yanlış Genel Toplam durumu (*.xlsb)
 
-(CELLSNET-41330) - PivotTable - Yanlış 'Alan başına birden çok filtreye izin ver' durumu (*.xlsb)
+ (CELLSNET-41330) - PivotTable - Yanlış 'Alan başına birden çok filtreye izin ver' durumu (*.xlsb)
 
  (CELLSNET-41329) - PivotTable - Yanlış 'Değerler satırını göster' durumu (*.xlsb)
 
  (CELLSNET-42232) - Görüntülere dönüştürüldüğünde çok satırlı hücreler kesiliyor (Sayfadan Görüntüye)
 
- (CELLSNET-42231) - PDF'ye Aktar - Çok satırlı metin hücrelerde kesiliyor ve üst üste biniyor
+ (CELLSNET-42231) - PDF'e aktar - Çok satırlı metin hücrelerde kesiliyor ve üst üste biniyor
 
- (CELLSNET-42227) - XLSX'ten PDF'e: Sonucun Sol ve Sağ kenar boşlukları yok
+(CELLSNET-42227) - XLSX - PDF: Sonucun Sol ve Sağ kenar boşlukları yok
 
  (CELLSNET-42158) - Koşullu biçimlendirmede negatif değere sahip Veri Çubukları ile ilgili sorun
 
  (CELLSNET-41964) - Sırayı izlemeden yalnızca üçüncü sayfayı tiff'e dönüştürmek çalışmıyor
 
- (CELLSNET-41847) - Excel dosyası PDF formatına dönüştürüldüğünde veri kaybı ve yanlış etiket hizalama sorunu
+ (CELLSNET-41847) - Excel dosyası PDF biçimine dönüştürüldüğünde veri kaybı ve yanlış etiket hizalama sorunu
 
- (CELLSNET-42112) - Verilerle PDF oluşturma biçimlendirme sorunu
+ (CELLSNET-42112) - PDF verilerle oluşturma biçimlendirme sorunu
 
  (CELLSNET-42266) - Çıktı pdf'de ilk sayfada iki kez başlık satırları geliyor
 
- (CELLSNET-42097) - PDF oluşturma - Veri biçimlendirme sorunu
+ (CELLSNET-42097) - PDF üretimi - Veri biçimlendirme sorunu
 
-(CELLSNET-41435) - Koşullu olarak biçimlendirilmiş hücreler için Excel'den PNG görüntüsüne dönüştürülürken dikey hücre hizalaması korunmuyor
+ (CELLSNET-41435) - Koşullu olarak biçimlendirilmiş hücreler için Excel'i PNG görüntüsüne dönüştürürken dikey hücre hizalaması korunmuyor
 
  (CELLSNET-42267) - Grafiğin görüntüsü alınamıyor
 
- (CELLSNET-42221) - Çıktı HTML dosyası biçiminde Ok oluşturma sorunu
+ (CELLSNET-42221) - Çıktı HTML dosya biçiminde Ok oluşturma sorunu
 
  (CELLSNET-41892) - Asetatlarla birlikte SheetRender.ToImage kalitesinde gerileme
 
- (CELLSNET-41834) - Sütun grafiğinin şeffaflığında olası hata
+(CELLSNET-41834) - Sütun grafiğinin şeffaflığında olası hata
 
  (CELLSNET-41438) - Grafiklerin işlenmesi için ToTiff işlevi Sorunları (Genişletilmiş)
 
@@ -154,7 +154,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42239) - Çakışan stiller sorunu
 
-(CELLSNET-42238) - Bağlantılı hücre açılır listeden güncellenmiyor
+ (CELLSNET-42238) - Bağlantılı hücre açılır listeden güncellenmiyor
 
  (CELLSNET-42236) - SmartMarker etiketlerinde yükseklikleri sabitlenmiş olsa bile görüntülerin yüksekliği değişiyor
 
@@ -162,7 +162,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42135) - Koşullu biçimlendirme değerlendirmesi yanlış
 
- (CELLSNET-42119) - Koşullu biçimlendirme Iconset doğru simgeleri döndürmez
+(CELLSNET-42119) - Koşullu biçimlendirme Iconset doğru simgeleri döndürmez
 
  (CELLSNET-42113) - Worksheet.AutoFitRows() yöntemi çağrıldığında görüntü kısalıyor
 
@@ -172,11 +172,11 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-41824) - Pivot tablo bazı tarih sütunları için yeterince yeniden boyutlandırılmıyor
 
- (CELLSNET-41789) - Aspose.Cells ile XLSX Olarak Kaydet ve Open Xml SDK sorunu
+ (CELLSNET-41789) - Aspose.Cells tarafından XLSX Olarak Kaydet ve Open Xml SDK sorunu
 
  (CELLSNET-41636) - Bir XLSX dosyası kaydedildikten sonra koşullu biçimlendirme korunmuyor
 
-(CELLSNET-41595) - Çalışma kitabı Aspose Cells ile kaydedilirken İmza Satırı özelliği kayboldu
+ (CELLSNET-41595) - Çalışma kitabı Aspose Cells ile kaydedilirken İmza Satırı özelliği kayboldu
 
  (CELLSNET-41355) - XLSX karakter biçimlendirmesi çalışmıyor
 
@@ -186,9 +186,9 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-40789) - Çalışma Kitabı Kaydedildiğinde biçimlendirme kayboldu
 
- (CELLSNET-40527) - Bir XML Elektronik Tablosunu XLSX dosya biçimine dönüştürürken kenarlık stili ve arka plan değişiyor
+(CELLSNET-40527) - Bir XML Elektronik Tablosunu XLSX dosya biçimine dönüştürürken kenarlık stili ve arka plan değişiyor
 
- (CELLSNET-40321) - "PageSetup.FirstPageNumber" özelliği, yazdırma veya PDF biçiminde işleme için kullanılmaz
+ (CELLSNET-40321) - "PageSetup.FirstPageNumber" özelliği, PDF biçiminde yazdırma veya işleme için kullanılmaz
 
  (CELLSNET-40216) - Aspose.Cells bileşeni aracılığıyla dönüştürdüğümüzde Excel tarih biçimlendirmesi ve dize değeri kayboluyor
 
@@ -202,13 +202,13 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  (CELLSNET-42234) - Bir HTML dosyası yüklenirken sorun oluştu
 
-(CELLSNET-42257) - XLSX'i PDF'ye dönüştürürken GDI+'da genel bir hata oluştu
+ (CELLSNET-42257) - XLSX'i PDF'e dönüştürürken GDI+'da genel bir hata oluştu
 
  (CELLSNET-41299) - Geçersiz dosya istisnası için iyileştirmeler gerekiyor
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -232,7 +232,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  Bırakılan Destek for .NET Çerçeve 1.1
 
- Bu sürümden itibaren Aspose.Cells, .NET Framework 1.1'de kullanılmak üzere bir DLL ile birlikte dağıtılmamaktadır. Çerçevenin bu eski sürümüne bazı özellikler eklemek zor olduğundan, özellikleri ve düzeltmeleri daha iyi kolaylaştırmak için çerçevenin bu sürümüne yönelik destek kaldırıldı.
+Bu sürümden itibaren Aspose.Cells, .NET Framework 1.1'de kullanılmak üzere bir DLL ile birlikte dağıtılmamaktadır. Çerçevenin bu eski sürümüne bazı özellikler eklemek zor olduğundan, özellikleri ve düzeltmeleri daha iyi kolaylaştırmak için çerçevenin bu sürümüne yönelik destek kaldırıldı.
 
 
 
@@ -254,7 +254,7 @@ Bu yüklemenin, ürünün tamamen çalışan bir sürümünü içerdiğini, anca
 
  FindOptions.Style özelliği ekler
 
-Hücreleri biçimlendirerek aramayı destekler.
+ Hücreleri biçimlendirerek aramayı destekler.
 
 
 
@@ -272,7 +272,7 @@ Hücreleri biçimlendirerek aramayı destekler.
 
  PivotFieldCollection'a bir yöntem Clear() ekler
 
- Listedeki tüm pivot alanları kaldırmak için kullanılır.
+Listedeki tüm pivot alanları kaldırmak için kullanılır.
 
 
 

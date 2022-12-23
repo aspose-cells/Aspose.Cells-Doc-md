@@ -181,7 +181,7 @@ Aspose.Cells for .NET API har avslöjat metoden Workbook.GetNamedStyle som accep
 ### **Metod Cells.ImportTwoDimensionArray har lagts till**
 Aspose.Cells for .NET API har gjort det möjligt att importera tvådimensionella arrayer till kalkylbladsceller genom att exponera metoden Cells.ImportTwoDimensionArray(object[,], object[,], int, int, TxtLoadOptions)-metoden Den nämnda metoden importerar en tvådimensionell array av data till ett kalkylblad med mer flexibla alternativ definierade i TxtLoadOptions.
 ### **Egenskaper OnePagePerSheet, PageIndex & PageCount har lagts till**
-Aspose.Cells for .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida i XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
+Aspose.Cells for .NET 8.3.2 har exponerat egenskaperna OnePagePerSheet, PageIndex och PageCount för klassen XpsSaveOptions. Användaren kan anpassa allt innehåll i ett kalkylblad på en enda sida av XPS med hjälp av egenskapen OnePagePerSheet och/eller hämta antalet sidor som ska skrivas ut med egenskapen PageCount. Egenskapen PageIndex hämtar/ställer in det 0-baserade indexet för den första sidan som ska sparas.
 ### **Egenskaper NumberDecimalSeparator & NumberGroupSeparator tillagd**
 Aspose.Cells for .NET 8.3.2 har introducerat NumberDecimalSeparator & NumberGroupSeparator-egenskaper som kan hämta/ställa in de anpassade separatorer som används för att formatera och analysera de numeriska värdena i kalkylblad.
 

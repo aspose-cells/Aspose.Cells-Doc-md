@@ -12,43 +12,43 @@ url: /tr/reportingservices/using-msi-installer/
 - İndirilen dosyayı çalıştırın ve yükleyici talimatlarını izleyin.
 
 {{% /alert %}} 
-**Kurulum süreci**
+**Yükleme işlemi**
 MSI yükleyiciyi kullanarak Aspose.Cells'i yüklemek için:
 
 1.  Karşılama Ekranı, kurulumdaki ilk ekrandır. Tıklamak**Sonraki**.
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_1.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_1.png)
 
 
 
 
 1.  Lisans sözleşmesini okuyup kabul edin ve tıklayın**Sonraki**.
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_2.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_2.png)
 
 
 
 
 1.  Kurulum klasörünü seçin ve tıklayın.**Sonraki**. 
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_3.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_3.png)
 
 
 
 
 1.  Aspose.Cells for Reporting Services'i tıklayarak yüklemek istediğinizi onaylayın**Düzenlemek**. 
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_4.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_4.png)
 
 
 
  Kurulum ilerlemesi ekranda gösterilir.
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_5.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_5.png)
 
 
 
 
 1.  Kurulum tamamlandığında, tıklayın**Bitiş** yükleyiciyi kapatmak için
 
-![yapılacaklar:resim_alternatif_Metin](using-msi-installer_6.png)
+![yapılacaklar:resim_alternatif_metin](using-msi-installer_6.png)

@@ -6,7 +6,7 @@ url: /ar/java/change-cells-alignment-and-keep-existing-formatting/
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-في بعض الأحيان ، تريد تغيير محاذاة عدة خلايا ولكنك تريد أيضًا الاحتفاظ بالتنسيق الحالي. يسمح لك Aspose.Cells بالقيام بذلك باستخدام ملف[**StyleFlag. التحالفات**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) منشأه. إذا كنت ستقوم بتعيينه**حقيقي** ، ستحدث التغييرات في المحاذاة وإلا لم يحدث ذلك. يرجى الملاحظة،[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) يتم تمرير الكائن كمعامل إلى[**Range.applyStyle ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) الأسلوب الذي يطبق التنسيق فعليًا على نطاق الخلايا.
+في بعض الأحيان ، تريد تغيير محاذاة عدة خلايا ولكنك تريد أيضًا الاحتفاظ بالتنسيق الحالي. يسمح لك Aspose.Cells بالقيام بذلك باستخدام ملف[**StyleFlag. التحالفات**](https://reference.aspose.com/cells/java/com.aspose.cells/styleflag#Alignments) خاصية. إذا كنت ستقوم بتعيينه**حقيقي** ، ستحدث التغييرات في المحاذاة وإلا لم يحدث ذلك. يرجى الملاحظة،[**النمط**](https://reference.aspose.com/cells/java/com.aspose.cells/StyleFlag) يتم تمرير الكائن كمعامل إلى[**Range.applyStyle ()**](https://reference.aspose.com/cells/java/com.aspose.cells/range#applyStyle(com.aspose.cells.Style,%20com.aspose.cells.StyleFlag)) الأسلوب الذي يطبق التنسيق فعليًا على نطاق الخلايا.
 
 ## **قم بتغيير Cells المحاذاة والاحتفاظ بالتنسيق الموجود**
 

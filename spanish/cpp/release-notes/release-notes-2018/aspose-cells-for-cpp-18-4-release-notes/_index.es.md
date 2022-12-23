@@ -29,9 +29,9 @@ Esta página contiene notas de la versión Aspose.Cells para CPP 18.4.
 |CELLSCPP-89|Traducir y depurar caso de prueba en el directorio Charts/EnumTypes|Nueva caracteristica|
 |CELLSCPP-91|Traducir caso de prueba en Finds|Nueva caracteristica|
 |CELLSCPP-96|Traducir y depurar casos de prueba en el directorio Formulas/Hyperlinks/ImpHtml/ImportExports/Inserts|Nueva caracteristica|
-|CELLSCPP-97|Depurar y solucionar problemas relacionados con la representación de XLSX/XLS a PDF|Nueva caracteristica|
+|CELLSCPP-97|Depurar y corregir problemas relacionados con la representación XLSX/XLS a PDF|Nueva caracteristica|
 |CELLSCPP-98|Traducir y depurar caso de prueba en el directorio LightCells|Nueva caracteristica|
-|CELLSCPP-100|Traducir y depurar casos de prueba en el directorio Merges/OpenSaves/PageSetups/PDF|Nueva caracteristica|
+|CELLSCPP-100|Traducir y depurar el caso de prueba en el directorio Merges/OpenSaves/PageSetups/PDF|Nueva caracteristica|
 |CELLSCPP-101|Traducir y depurar casos de prueba en el directorio de tablas dinámicas|Nueva caracteristica|
 |CELLSCPP-102|Los gráficos no se analizan (retienen) cuando se abre/guarda un formato de archivo XLSX|Nueva caracteristica|
 |CELLSCPP-103|Traducir y depurar caso de prueba en el directorio Shapes|Nueva caracteristica|

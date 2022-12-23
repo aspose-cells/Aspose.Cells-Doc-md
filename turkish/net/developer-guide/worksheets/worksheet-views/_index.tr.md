@@ -3,6 +3,7 @@ title: Çalışma Sayfası Görünümleri
 type: docs
 weight: 40
 url: /tr/net/worksheet-views/
+description:  Bu makale, bir Excel çalışma kitabının ve çalışma sayfalarının sayfa sonu önizlemesiyle etkileşim kurmak için C# ve .NET API'in nasıl kullanılacağını açıklayacaktır. Bölünmüş bölmeler, dondurulmuş bölmeler ve yakınlaştırma faktörü ile de çalışın.
 ---
 ## **Sayfa Sonu Önizlemesi**
 
@@ -17,11 +18,11 @@ Normal görünüm, çalışma sayfasının varsayılan görünümüdür. Sayfa s
 
 Aspose.Cells bir sağlar[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) Microsoft Excel dosyasını temsil eden sınıf. bu[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook) sınıf bir içerir[**çalışma sayfaları**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets)bir Excel dosyasındaki her çalışma sayfasına erişim sağlayan koleksiyon.
 
- Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Emlak.[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya bir**yanlış** değer.
+ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf. bu[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) class, çalışma sayfalarını yönetmek için çok çeşitli özellikler ve yöntemler sağlar. Normal veya sayfa sonu önizleme modlarını etkinleştirmek için[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) Emlak.[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) bir Boolean özelliğidir, yani yalnızca bir**doğru** veya bir**YANLIŞ** değer.
 
 #### **Normal Görünümü Etkinleştirme**
 
- ayarlayarak bir çalışma sayfasını normal görünüme ayarlayın.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) mülkiyet**yanlış**.
+ ayarlayarak bir çalışma sayfasını normal görünüme ayarlayın.[**Çalışma kağıdı**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) sınıf[**IsPageBreakÖnizleme**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/ispagebreakpreview) mülkiyet**YANLIŞ**.
 
 #### **Sayfa Sonu Önizlemesini Etkinleştirme**
 
@@ -71,7 +72,7 @@ Bir çalışma sayfası şununla temsil edilir:[**Çalışma kağıdı**](https:
 - **Donmuş satırlar**, üst bölmedeki görünür satırların sayısı.
 - **Dondurulmuş sütunlar**, sol bölmedeki görünür sütunların sayısı
 
-book1.xls dosyası çağrılarak açılır.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıfın yapıcısı onu başlatırken ve birkaç satır ve sütun ilk çalışma sayfasında dondurulur. Değiştirilen dosya output.xls olarak kaydedilir.
+ book1.xls dosyası çağrılarak açılır.[**Çalışma kitabı**](https://reference.aspose.com/cells/net/aspose.cells/workbook)sınıfın yapıcısı onu başlatırken ve birkaç satır ve sütun ilk çalışma sayfasında dondurulur. Değiştirilen dosya output.xls olarak kaydedilir.
 
  nasıl kullanılacağını gösteren eksiksiz bir örnek aşağıda verilmiştir.[**Donma bölmeleri**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/methods/freezepanes/index)Excel dosyasının ilk çalışma sayfasının satırlarını ve sütunlarını dondurma yöntemi (C4'ten başlayarak, 4. satır ve 3. sütunla temsil edilir, burada satırlar ve sütunlar 0 dizininden başlar).
 

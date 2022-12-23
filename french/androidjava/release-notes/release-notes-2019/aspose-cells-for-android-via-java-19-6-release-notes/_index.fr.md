@@ -10,15 +10,15 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSJAVA-42914|Les grands formats conditionnels provoquent une exception OOM|Renforcement|
 |CELLSJAVA-42916|Problème de format de données après Workbook.save()|Renforcement|
 |CELLSJAVA-42930|Échec de chargement d'Excel95|Renforcement|
 |CELLSJAVA-42927|Le fichier enregistré s'ouvre lentement dans Excel après la suppression de colonnes|Renforcement|
 |CELLSJAVA-42857|Mauvaise valeur affichée pour les formes dans le PDF exporté|Punaise|
-|CELLSJAVA-42890|L'image est opaque et non transparente après conversion - Rendu Excel vers HTML|Punaise|
-|CELLSJAVA-42893|Le graphique est manquant dans le rendu Excel vers HTML|Punaise|
+|CELLSJAVA-42890|L'image est opaque et non transparente après conversion - Excel vers le rendu HTML|Punaise|
+|CELLSJAVA-42893|Le graphique est manquant dans Excel pour le rendu HTML|Punaise|
 |CELLSJAVA-42899|Problème Excel vers HTML|Punaise|
 |CELLSJAVA-42903|Problème de rendu Excel vers HTML sur CentOS|Punaise|
 |CELLSJAVA-42882|Impossible d'extraire les données d'un fichier MS Excel 95 XLS|Punaise|
@@ -27,18 +27,18 @@ Cette page contient les notes de version pour Aspose.Cells for Android via Java 
 |CELLSJAVA-42909|Problème avec la fonction DATEVALUE|Punaise|
 |CELLSJAVA-42910|Problème avec la fonction RECHERCHEV lorsqu'un caractère est présent dans la chaîne|Punaise|
 |CELLSJAVA-42911|Problème lors de l'utilisation de la fonction TEXT pour les dates|Punaise|
-|CELLSJAVA-42896|La conversion en PDF retourne les numéros de téléphone|Punaise|
+|CELLSJAVA-42896|La conversion en PDF transforme les numéros de téléphone|Punaise|
 |CELLSJAVA-42900|La conversion en PDF modifie l'ordre du texte|Punaise|
 |CELLSJAVA-42932|Erreur de mise en forme conditionnelle avec la méthode Style.getDisplayStyle|Punaise|
-|CELLSJAVA-42928|Certaines lignes ne sont pas reflétées dans la conversion XLSX en PDF|Punaise|
+|CELLSJAVA-42928|Certaines lignes ne sont pas reflétées dans la conversion XLSX à PDF|Punaise|
 |CELLSJAVA-42904|L'image d'en-tête corrompt apparemment le fichier|Punaise|
 |CELLSJAVA-42907|Filtre perdu après l'enregistrement du classeur|Punaise|
 |CELLSJAVA-42915|Les filtres sont modifiés après l'ajout d'une feuille au classeur|Punaise|
-|CELLSJAVA-42918|Graphique du fichier converti aplati (conversion XLS en XLSX)|Punaise|
+|CELLSJAVA-42918|Graphique du fichier converti aplati (conversion XLS à XLSX)|Punaise|
 |CELLSJAVA-42938|Le chargement du fichier XLSX arrête l'application|Punaise|
-|CELLSJAVA-42881|Exception "java.lang.IllegalStateException : Encodage non valide : null " lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
+|CELLSJAVA-42881|Exception "java.lang.IllegalStateException : Encodage invalide : null " lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
 |CELLSJAVA-42884|Exception "java.lang.ArrayIndexOutOfBoundsException" lors du chargement d'un fichier MS Excel 5.0/95 XLS|Exception|
-|CELLSJAVA-42859|CellsException pour le chargement du nom à partir du fichier ODS|Exception|
+|CELLSJAVA-42859|CellsException pour le chargement du nom du fichier ODS|Exception|
 |CELLSJAVA-42908|Exception lors de l'appel de Name.getRefersTo()|Exception|
 |CELLSJAVA-42926|IllegalStateException lors du chargement du classeur|Exception|
 ## **Public API et modifications incompatibles avec les versions antérieures**
@@ -50,11 +50,11 @@ Représente le fichier de graphique intégré.
 ### **Ajoute les propriétés ImportTableOptions.CheckMergedCells**
 Indique si la vérification des cellules fusionnées lors de l'importation de données.
 ### **Ajoute ODSCellFieldCollection, les classes ODSCellField et l'énumération ODSCellFieldType**
-Représente le champ cellulaire de l'ODS.
+Représente le champ de cellule de ODS.
 ### **Ajoute les propriétés Cells.ODSCellFields**
-Obtient la liste des champs de cellule d'ODS.
+Obtient la liste des champs de cellule de ODS.
 ### **Ajoute la classe ODSPageBackground et la propriété PageSetup.ODSPageBackground**
-Représente l'arrière-plan d'ODS.
+Représente l'arrière-plan de ODS.
 ### **Ajoute l'énumération FileFormatType.FODS, FileFormatType.SXC, LoadFormat.FODS, LoadFormat.SXC, SaveFormat.FODS et SaveFormat.SXC**
 Représente les types de format de fichier .FODS et .SXC.
 ### **Ajoute l'énumération WarningType.UnsupportedFileFormat**

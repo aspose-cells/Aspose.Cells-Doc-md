@@ -6,7 +6,7 @@ url: /ru/net/formatting-slicer/
 ---
 ## **Возможные сценарии использования**
 
-Вы можете отформатировать слайсер в Microsoft Excel, установив количество столбцов или установив его стиль и т. д. Aspose.Cells также позволяет вам сделать это с помощью[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)а также[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)характеристики.
+Вы можете отформатировать слайсер в Microsoft Excel, установив количество столбцов или установив его стиль и т. д. Aspose.Cells также позволяет вам сделать это с помощью[**Slicer.NumberOfColumns**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/numberofcolumns)и[**Slicer.StyleType**](https://reference.aspose.com/cells/net/aspose.cells.slicers/slicer/properties/styletype)характеристики.
 
 ## **Форматирование слайсера**
 

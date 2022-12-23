@@ -6,7 +6,7 @@ url: /ja/java/copy-page-setup-settings-from-source-worksheet-into-destination-wo
 ---
 ## **考えられる使用シナリオ**
 
-ワークブックに新しいシートを追加すると、既定のページ設定が含まれます。設定を転送する必要がある場合があります（[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)あるワークシートから別のワークシートへ。このドキュメントでは、Aspose.Cells API を使用して、あるワークシートから別のワークシートにページ設定の設定をコピーする方法について説明します。
+ワークブックに新しいシートを追加すると、既定のページ設定が含まれます。設定を転送する必要がある場合があります（[**ページ設定**](https://reference.aspose.com/cells/java/com.aspose.cells/PageSetup)) あるワークシートから別のワークシートへ。このドキュメントでは、Aspose.Cells API を使用して、あるワークシートから別のワークシートにページ設定の設定をコピーする方法について説明します。
 
 ## **ページ設定の設定をソース ワークシートからコピー先ワークシートにコピーする**
 

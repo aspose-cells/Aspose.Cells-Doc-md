@@ -4,20 +4,20 @@ type: docs
 weight: 20
 url: /tr/net/convert-between-excel-formats/
 ---
-## **Excel'i PDF'ye Dönüştürme**
+## **Excel'i PDF'e dönüştürme**
 
 **PDF** dosyalar, kuruluşlar, devlet sektörleri ve bireyler arasında belge alışverişi için yaygın olarak kullanılır. Standart bir belge biçimidir ve yazılım geliştiricilerden genellikle Microsoft Excel dosyalarını Excel'e dönüştürmenin bir yolunu bulmaları istenir.**PDF** belgeler.
-**Aspose.Cells** Excel dosyalarının PDF'ye dönüştürülmesini destekler ve dönüştürmede yüksek görsel doğruluğu korur.
+**Aspose.Cells** Excel dosyalarının PDF'e dönüştürülmesini destekler ve dönüştürmede yüksek görsel doğruluğu korur.
 
-Aspose.Cells for .NET, diğer yazılımlardan bağımsız olarak elektronik tablolardan PDF'ye dönüştürmeyi destekler. Workbook sınıfının Save yöntemini kullanarak bir Excel dosyasını PDF'ye kaydedin. Save yöntemi, yerel Excel dosyalarını PDF biçimine dönüştüren SaveFormat.Pdf enum üyesini sağlar.
+Aspose.Cells for .NET, diğer yazılımlardan bağımsız olarak elektronik tablolardan PDF'e dönüştürmeyi destekler. Workbook sınıfının Save yöntemini kullanarak bir Excel dosyasını PDF'e kaydedin. Save yöntemi, yerel Excel dosyalarını PDF biçimine dönüştüren SaveFormat.Pdf enum üyesini sağlar.
 
-**dönüştürme** üçüncü taraf bir araç veya harici API kullanmak yerine doğrudan e-tablodan PDF'ye**avantajlar**:
+**dönüştürme** üçüncü taraf bir araç veya harici API kullanmak yerine doğrudan e-tablodan PDF'e**avantajlar**:
 
 1. Tüm işlem bellekte yapılabildiğinden, doğrudan dönüştürme geçici dosyalar gerektirmez.
 1. Büyük dosyaların kolayca dönüştürülebilmesi için XML dosyası gerekmez.
 1. Dönüşüm hızı çok daha hızlı.
 
-**Dosyaları PDF'ye dönüştürmek için:**
+**Dosyaları PDF'e dönüştürmek için:**
 
 1.  nesnesinin örneğini oluşturun**Çalışma kitabı** boş kurucusunu çağırarak sınıf.
 1.  Yapabilirsin**aç/yükle** varolan bir şablon dosyası oluşturun veya çalışma kitabını sıfırdan oluşturuyorsanız bu adımı atlayın.
@@ -32,10 +32,10 @@ Aspose.Cells for .NET, diğer yazılımlardan bağımsız olarak elektronik tabl
 
 {{< /highlight >}}
 
-## **Excel'i MHTML'ye Dönüştürme**
+## **Excel'i MHTML'e dönüştürme**
 
-**MHTML** normal HTML'yi harici kaynaklarla (yani resimler, animasyonlar, ses vb. genellikle bağlantılı olan içerik) tek bir dosyada birleştirir. .mht dosya uzantılı e-postalar için kullanılırlar.
-Aspose.Cells, MHTML dosyalarını okumayı ve yazmayı destekler.
+**MHTML** normal HTML'i harici kaynaklarla (yani resimler, animasyonlar, ses vb. genellikle bağlantılı olan içerik) tek bir dosyada birleştirir. .mht dosya uzantılı e-postalar için kullanılırlar.
+Aspose.Cells, MHTML dosyalarının okunmasını ve yazılmasını destekler.
 
 {{< highlight "csharp" >}}
 
@@ -49,9 +49,9 @@ Aspose.Cells, MHTML dosyalarını okumayı ve yazmayı destekler.
 
 {{< /highlight >}}
 
-## **Excel'i XPS'ye Dönüştürme**
+## **Excel'i XPS'e dönüştürme**
 
-Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), varsayılan olarak hem Microsoft Excel hem de Aspose.Cells yalnızca etkin çalışma sayfasının içeriğini kaydeder.
+Bazen, birden çok çalışma sayfası içeren bir çalışma kitabını metin biçimine dönüştürmek veya kaydetmek istersiniz. Metin biçimleri için (örneğin TXT, TabDelim, CSV vb.), hem Microsoft Excel hem de Aspose.Cells varsayılan olarak yalnızca etkin çalışma sayfasının içeriğini kaydeder.
 
 {{< highlight "csharp" >}}
 

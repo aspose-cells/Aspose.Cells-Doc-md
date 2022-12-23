@@ -39,13 +39,13 @@ Questo articolo mostra come generare un rapporto annuale sulle vendite. La carte
 
 ### **Risultato**
 
-Dopo aver eseguito il codice precedente, viene generato un file Microsoft Excel con un nuovo foglio di lavoro formattato chiamato Report vendite.
+Dopo aver eseguito il codice precedente, viene generato un file Excel Microsoft con un nuovo foglio di lavoro formattato chiamato Report vendite.
 
 **Il file di output**
 
 ![cose da fare:immagine_alt_testo](format-worksheet-cells-in-a-workbook_1.png)
 
-## **Riepilogo**
+## **Sommario**
 
 {{% alert color="primary" %}}
 

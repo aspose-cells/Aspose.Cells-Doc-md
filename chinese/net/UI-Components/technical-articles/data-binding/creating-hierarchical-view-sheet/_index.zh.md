@@ -18,7 +18,7 @@ url: /zh/net/creating-hierarchical-view-sheet/
 
 **具有层次视图的表** 
 
-![待办事项：图像_替代_文本](creating-hierarchical-view-sheet_1.png)
+![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_1.png)
 
 {{% /alert %}} 
 ## **为数据表创建关系**
@@ -36,20 +36,20 @@ url: /zh/net/creating-hierarchical-view-sheet/
 
 1. 在DataTable Orders上创建外键，键字段为CustomerID
 
-![待办事项：图像_替代_文本](creating-hierarchical-view-sheet_2.png)
+![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_2.png)
 
 
 
 
 1. 在DataTable Order Details上创建外键，键字段为OrderID。
 
-![待办事项：图像_替代_文本](creating-hierarchical-view-sheet_3.png)
+![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_3.png)
 
 
 
 数据集设计器现在看起来像这样：
 
-![待办事项：图像_替代_文本](creating-hierarchical-view-sheet_4.png)
+![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_4.png)
 ### **绑定工作表**
 现在使用**工作表设计器**为工作表设置DataSource和DataMember，并配置数据字段绑定列。
 
@@ -59,7 +59,7 @@ url: /zh/net/creating-hierarchical-view-sheet/
 
 工作表到根父 DataTable Customers。
 
-![待办事项：图像_替代_文本](creating-hierarchical-view-sheet_5.png)
+![待办事项：图片_替代_文本](creating-hierarchical-view-sheet_5.png)
 ### **自定义子表绑定列**
 该控件提供了一个名为 GridWeb.BindingChildView 的事件，开发人员使用该事件自定义子表的绑定列。这个例子
 
@@ -124,7 +124,7 @@ Aspose.Grid.Web.Data.WebWorksheet 类有一些有用的属性。
 
 - 例如，属性 EnableCreateBindColumnHeader 用于在工作表或列中创建绑定列的标题
 
-headers 显示绑定的列名称。它需要值**真的**或者**错误的**. 
+headers 显示绑定的列名。它需要值**真的**要么**错误的**. 
 
 - 属性 BindStartRow 和 BindStartColumn 指定源应绑定到的 GridWeb 控件工作表中的位置。
 - 属性 EnableExpandChildView 用于禁用工作表的展开子视图。默认情况下，它设置为 true。

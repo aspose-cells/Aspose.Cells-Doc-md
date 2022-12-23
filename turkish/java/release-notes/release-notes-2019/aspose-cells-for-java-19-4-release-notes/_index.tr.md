@@ -13,23 +13,23 @@ Bu sayfa Aspose.Cells for Java 19.4 için sürüm notları içerir.
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-42838|Otomatik göster görev bölmesi özelliği devre dışı bırakılıyor.|Yeni özellik|
-|CELLSJAVA-42853|XLSX'i HTML'ye dönüştürürken performans sorunu|Artırma|
+|CELLSJAVA-42853|XLSX'i HTML'e dönüştürürken performans sorunu|Artırma|
 |CELLSJAVA-42852|Her iki eksendeki etiket gösterilmiyor|Böcek|
-|CELLSJAVA-42856|Excel'den HTML'ye dönüştürme sorunu|Böcek|
+|CELLSJAVA-42856|Excel'den HTML'e dönüştürme sorunu|Böcek|
 |CELLSJAVA-42872|Sayfanın resmi, sağ ve alt satırlar eksik|Böcek|
 |CELLSJAVA-42873|Önceden hazırlanmış Sayfada birkaç hücre arka planı ve metin eksik ve gizli.|Böcek|
-|CELLSJAVA-42874|Dosyayı HTML'ye dışa aktarırken sütun kaybı|Böcek|
+|CELLSJAVA-42874|Dosyayı HTML'e aktarırken sütun kaybı|Böcek|
 |CELLSJAVA-42875|Genişlik yanlış ve ekran şekilsiz|Böcek|
 |CELLSJAVA-42878|Formül hesaplama sonucu doğru değil|Böcek|
-|CELLSJAVA-40419|Excel'den PDF'ye dışa aktarırken etiketli PDF oluşturulamıyor|Böcek|
-|CELLSJAVA-40570|Farklı boyutlardaki sayfalar için yanlış PDF ve JPG dönüştürme|Böcek|
-|CELLSJAVA-42833|Aynı PDF dosyasını bir çalışma kitabındaki birden çok sayfaya katıştırırken sorun|Böcek|
+|CELLSJAVA-40419|Excel'den PDF'e dışa aktarırken etiketli PDF oluşturulamıyor|Böcek|
+|CELLSJAVA-40570|Farklı boyutlardaki sayfalar için PDF ve JPG'ye yanlış dönüştürme|Böcek|
+|CELLSJAVA-42833|Aynı PDF dosyasını bir çalışma kitabındaki birden çok sayfaya eklerken sorun|Böcek|
 |CELLSJAVA-42858|Picture:FitToCell seçeneğiyle akıllı işaretçileri kullanarak birleştirilmiş hücrelere görüntü eklerken sorun|Böcek|
-|CELLSJAVA-42862|Sayfa adı, CSV içe aktarma işleminden sonra formüllerde yeniden adlandırılıyor|Böcek|
-|CELLSJAVA-42865|ODS dosyasındaki bir hücreden yanlış zaman okuması|Böcek|
+|CELLSJAVA-42862|CSV içe aktarma işleminden sonra formüllerde sayfa adı yeniden adlandırılıyor|Böcek|
+|CELLSJAVA-42865|ODS dosyasındaki bir hücreden yanlış zaman okundu|Böcek|
 |CELLSJAVA-42879|Excel dosyası Aspose.Cells tarafından kaydedildikten sonra bozuluyor|Böcek|
-|CELLSJAVA-42860|Bir ODS dosya formatı yüklenirken java.lang.NullPointerException|İstisna|
-|CELLSJAVA-42871|java.lang.Exception: XLSX'i PDF'ye dönüştürürken desteklenen akış için desteklenmeyen klon|İstisna|
+|CELLSJAVA-42860|ODS dosya biçimini yüklerken java.lang.NullPointerException|İstisna|
+|CELLSJAVA-42871|java.lang.Exception: XLSX'i PDF'e dönüştürürken yedeklenen akış için desteklenmeyen klon|İstisna|
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
 Aşağıda, API numaralı telefon numarasına eklenen, yeniden adlandırılan, kaldırılan veya kullanımdan kaldırılan üyeler gibi genele açık olarak yapılan tüm değişikliklerin ve Aspose.Cells for Java numaralı telefona yapılan geriye dönük uyumlu olmayan değişikliklerin bir listesi bulunmaktadır. Listelenen herhangi bir değişiklikle ilgili endişeleriniz varsa lütfen şu adrese bildirin: Aspose.Cells destek forumu.
@@ -66,4 +66,4 @@ Yorumdaki zincirleme açıklamaları temsil eder.
 ### **CommentCollection.AddThreadedComment() ve CommentCollection.GetThreadedComments() yöntemlerini ekler.**
 Zincirleme yorumları ekler ve alır.
 ### **Chart.SubTitle özelliğini ekler.**
-Grafiğin alt başlığını alır. Yalnızca ODS biçimli dosya için.
+Grafiğin alt başlığını alır. Yalnızca ODS biçim dosyası için.

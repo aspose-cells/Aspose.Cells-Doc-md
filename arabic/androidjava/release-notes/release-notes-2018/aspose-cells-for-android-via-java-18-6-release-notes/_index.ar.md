@@ -22,52 +22,52 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42580|الحصول على / تعيين خاصية مستند اللغة|التعزيز|
 |CELLSJAVA-42565|لون المقدمة مقابل لون الخلفية مقابل لون التعبئة - استخدم طريقة واحدة تأخذ وسيطتين|التعزيز|
 |CELLSJAVA-42528|"\<Font>"ليست علامة HTML5 صالحة ، كما أن علامة الإغلاق الذاتي ومتصفحات الويب تحرف محتوياتها|التعزيز|
-|CELLSJAVA-42413|أدخل نوع صورة SVG في خلايا ورقة العمل بحلول Aspose.Cells|التعزيز|
+|CELLSJAVA-42413|أدخل نوع صورة SVG في خلايا ورقة العمل بواسطة Aspose.Cells|التعزيز|
 |CELLSJAVA-42594|كشف LoadFormat و FileFormatType من XLAM|التعزيز|
 |CELLSJAVA-42646|استثناء: "FormulaBuild Unknown Formula token 0" في Name.getRefersTo ()|التعزيز|
 |CELLSJAVA-42645|استثناء: "FormulaBuild أكثر من رمز مميز في المكدس ...." في Cell.getFormula ()|التعزيز|
 |CELLSJAVA-42516|Aspose.Cells يقبل ويصحح معادلة غير صالحة|التعزيز|
-|CELLSJAVA-42551|بعض الأشكال غير صحيحة في ملف PDF الناتج|حشرة|
-|CELLSJAVA-42578|يتم فقد التنسيق الشرطي أثناء حفظ Excel إلى HTML|حشرة|
-|CELLSJAVA-42571|لا يتطابق HTML الناتج مع MS-Excel|حشرة|
-|CELLSJAVA-42553|الروابط إلى المنطقة المسماة خاطئة بعد التصدير إلى HTML|حشرة|
-|CELLSJAVA-42530|لا تحتوي الجداول المحورية والمخططات المقابلة لها على تنسيق تاريخ صحيح|حشرة|
-|CELLSJAVA-42527|يحتوي الرسم البياني على العديد من القيم في المحور x وتتداخل القيم مع بعضها البعض|حشرة|
-|CELLSJAVA-42581|تقوم Aspose.Cells بإرجاع قيمة خاطئة للخلية A2|حشرة|
-|CELLSJAVA-42583|لا يُنشئ مخطط XML الجدول بشكل صحيح|حشرة|
-|CELLSJAVA-42577|الحصول على / استخراج القيم (0 لـ 0 وفارغ للفراغ) باستخدام طريقة DataPoint.getYValue () لمخطط معين|حشرة|
-|CELLSJAVA-42566|عكس الترجمات (إدخالات وسيلة الإيضاح) في مخطط MS Excel|حشرة|
-|CELLSJAVA-42560|الأسهم مفقودة في إخراج PNG من مخطط Excel|حشرة|
-|CELLSJAVA-42508|تعمل طريقة Java 'Shape.toImage' بشكل مختلف بنفس الطريقة في .NET|حشرة|
-|CELLSJAVA-42573|Aspose.Cells 18.3 دوران مربع نص لا يعمل مع EXCEL_97_TO_2003 حفظ التنسيق|حشرة|
-|CELLSJAVA-42570|يظهر سطر جديد فارغ داخل TextBox بعد معالجة ملف Excel وحفظه|حشرة|
-|CELLSJAVA-42604|تم تغيير تنسيق وسلوك Pivot Table بعد فتح / حفظ ملف القالب|حشرة|
-|CELLSJAVA-41918|جدول البيانات (XLS) تالف بعد التحميل والحفظ البسيط|حشرة|
-|CELLSJAVA-42616|Aspose.Cells يكسر واجهة المكرر عند استدعاء Iterator.hasnext () مرتين|حشرة|
-|CELLSJAVA-42607|قيم الخصائص مشوهة عند استخراج خصائص الوثيقة|حشرة|
-|CELLSJAVA-42601|المصنف تالف بعد إضافة علامة مائية|حشرة|
-|CELLSJAVA-42600|يتم تنفيذ نفس الكود بشكل أبطأ في الإصدارات الجديدة|حشرة|
-|CELLSJAVA-42598|لا يتم استخراج الخصائص في ملف القالب|حشرة|
-|CELLSJAVA-42589|NullPointerException عند إضافة HTML إلى خلية|حشرة|
-|CELLSJAVA-41414|اختفت الأسطر من المخطط عند إعادة حفظ ملف XLSX|حشرة|
-|CELLSJAVA-42636|يتم إزاحة بعض أشكال الرسم أو عرضها بشكل خاطئ في عرض Excel إلى HTML|حشرة|
-|CELLSJAVA-42627|CELLSJAVA-42619 غير قادر على استخراج صور الفن الذكي بشكل صحيح|حشرة|
-|CELLSJAVA-42618|يتم إزاحة الشكل لتغطية البيانات في Excel إلى عرض HTML|حشرة|
-|CELLSJAVA-42628|حساب الصيغ خاطئ ، على سبيل المثال أنه يولد # DIV / 0! أخطاء|حشرة|
-|CELLSJAVA-42615|تنسيق Cell A3 غير صحيح في HTML الناتج|حشرة|
-|CELLSJAVA-42621|أداء ضعيف عند إنشاء ملف PDF من ملف Excel|حشرة|
-|CELLSJAVA-42620|XLSX إلى TIFF - استثناء NoClassDefFoundError|حشرة|
-|CELLSJAVA-42599|تُفقد الصور عند تحويل ملف Excel إلى Pdf|حشرة|
-|CELLSJAVA-42630|يتسبب أسلوب Chart.calculate في حدوث OutOfMemoryError|حشرة|
-|CELLSJAVA-42623|تزداد الذاكرة في تحويل ملف Excel إلى تنسيق ملف PDF|حشرة|
-|CELLSJAVA-42592|تم تغيير حجم الخط في عنوان المخطط بسبب طريقة الأحرف ()|حشرة|
-|CELLSJAVA-41860|يتغير تأثير الظل أثناء إعادة حفظ XLS|حشرة|
-|CELLSJAVA-42654|تحويل Excel إلى PDF - لا يكتمل التحويل أبدًا|حشرة|
-|CELLSJAVA-42647|تعذر الحصول على نص بديل أو تعيينه لشكل التعليق|حشرة|
-|CELLSJAVA-42644|يتوقف Aspose.Cells عند تحويل ملف ML لجدول بيانات (xml) إلى PDF بعلامة أنماط الإغلاق الذاتي|حشرة|
-|CELLSJAVA-42632|تعذر تعيين نص بديل لشكل SmartArt|حشرة|
-|CELLSJAVA-42631|يقوم getFirstVisibleRow () و getFirstVisibleColumn () بإرجاع فهارس غير صالحة|حشرة|
-|CELLSJAVA-42624|الارتباطات التشعبية ذات الرموز المشفرة (مثل ، "٪ 5c") تقوم بفك تشفيرها بعد إعادة الحفظ|حشرة|
+|CELLSJAVA-42551|بعض الأشكال غير صحيحة في الإخراج PDF|خلل برمجي|
+|CELLSJAVA-42578|يتم فقد التنسيق الشرطي أثناء حفظ Excel بالرقم HTML|خلل برمجي|
+|CELLSJAVA-42571|الإخراج HTML لا يتطابق مع MS-Excel|خلل برمجي|
+|CELLSJAVA-42553|الروابط إلى المنطقة المحددة خاطئة بعد التصدير إلى HTML|خلل برمجي|
+|CELLSJAVA-42530|لا تحتوي الجداول المحورية والمخططات المقابلة لها على تنسيق تاريخ صحيح|خلل برمجي|
+|CELLSJAVA-42527|يحتوي الرسم البياني على العديد من القيم في المحور x وتتداخل القيم مع بعضها البعض|خلل برمجي|
+|CELLSJAVA-42581|تقوم Aspose.Cells بإرجاع قيمة خاطئة للخلية A2|خلل برمجي|
+|CELLSJAVA-42583|لا يُنشئ مخطط XML الجدول بشكل صحيح|خلل برمجي|
+|CELLSJAVA-42577|الحصول على / استخراج القيم (0 لـ 0 وفارغ للفراغ) باستخدام طريقة DataPoint.getYValue () لمخطط معين|خلل برمجي|
+|CELLSJAVA-42566|عكس الترجمات (إدخالات وسيلة الإيضاح) في مخطط MS Excel|خلل برمجي|
+|CELLSJAVA-42560|الأسهم مفقودة في إخراج PNG من مخطط Excel|خلل برمجي|
+|CELLSJAVA-42508|تعمل طريقة Java 'Shape.toImage' بشكل مختلف بنفس الطريقة في .NET|خلل برمجي|
+|CELLSJAVA-42573|Aspose.Cells 18.3 دوران مربع نص لا يعمل مع EXCEL_97_TO_2003 حفظ التنسيق|خلل برمجي|
+|CELLSJAVA-42570|يظهر سطر جديد فارغ داخل TextBox بعد معالجة ملف Excel وحفظه|خلل برمجي|
+|CELLSJAVA-42604|تم تغيير تنسيق وسلوك Pivot Table بعد فتح / حفظ ملف القالب|خلل برمجي|
+|CELLSJAVA-41918|جدول البيانات (XLS) تالف بعد تحميل وحفظ بسيط|خلل برمجي|
+|CELLSJAVA-42616|Aspose.Cells يكسر واجهة المكرر عند استدعاء Iterator.hasnext () مرتين|خلل برمجي|
+|CELLSJAVA-42607|قيم الخصائص مشوهة عند استخراج خصائص الوثيقة|خلل برمجي|
+|CELLSJAVA-42601|المصنف تالف بعد إضافة علامة مائية|خلل برمجي|
+|CELLSJAVA-42600|يتم تنفيذ نفس الكود بشكل أبطأ في الإصدارات الجديدة|خلل برمجي|
+|CELLSJAVA-42598|لا يتم استخراج الخصائص في ملف القالب|خلل برمجي|
+|CELLSJAVA-42589|NullPointerException عند إضافة HTML إلى خلية|خلل برمجي|
+|CELLSJAVA-41414|اختفت السطور من المخطط عند إعادة حفظ الملف XLSX|خلل برمجي|
+|CELLSJAVA-42636|يتم إزاحة بعض أشكال الرسم أو تقديمها بشكل خاطئ في Excel إلى عرض HTML|خلل برمجي|
+|CELLSJAVA-42627|CELLSJAVA-42619 غير قادر على استخراج صور الفن الذكي بشكل صحيح|خلل برمجي|
+|CELLSJAVA-42618|تم إزاحة الشكل لتغطية البيانات في Excel إلى عرض HTML|خلل برمجي|
+|CELLSJAVA-42628|حساب الصيغ خاطئ ، على سبيل المثال أنه يولد # DIV / 0! أخطاء|خلل برمجي|
+|CELLSJAVA-42615|تنسيق Cell A3 غير صحيح في الإخراج HTML|خلل برمجي|
+|CELLSJAVA-42621|ضعف الأداء عند إنشاء ملف PDF من ملف Excel|خلل برمجي|
+|CELLSJAVA-42620|XLSX إلى TIFF - استثناء NoClassDefFoundError|خلل برمجي|
+|CELLSJAVA-42599|تُفقد الصور عند تحويل ملف Excel إلى Pdf|خلل برمجي|
+|CELLSJAVA-42630|يتسبب أسلوب Chart.calculate في حدوث OutOfMemoryError|خلل برمجي|
+|CELLSJAVA-42623|تزداد الذاكرة في تحويل ملف Excel إلى تنسيق ملف PDF|خلل برمجي|
+|CELLSJAVA-42592|تم تغيير حجم الخط في عنوان المخطط بسبب طريقة الأحرف ()|خلل برمجي|
+|CELLSJAVA-41860|تم تغيير تأثير الظل أثناء إعادة حفظ XLS|خلل برمجي|
+|CELLSJAVA-42654|Excel إلى تحويل PDF - لا يكتمل التحويل أبدًا|خلل برمجي|
+|CELLSJAVA-42647|تعذر الحصول على نص بديل أو تعيينه لشكل التعليق|خلل برمجي|
+|CELLSJAVA-42644|توقف Aspose.Cells عند تحويل ملف ML لجدول بيانات (xml) إلى PDF بعلامة أنماط الإغلاق الذاتي|خلل برمجي|
+|CELLSJAVA-42632|تعذر تعيين نص بديل لشكل SmartArt|خلل برمجي|
+|CELLSJAVA-42631|يقوم getFirstVisibleRow () و getFirstVisibleColumn () بإرجاع فهارس غير صالحة|خلل برمجي|
+|CELLSJAVA-42624|الارتباطات التشعبية ذات الرموز المشفرة (مثل ، "٪ 5c") تقوم بفك تشفيرها بعد إعادة الحفظ|خلل برمجي|
 |CELLSJAVA-42563|استثناء "java.lang.NullPointerException" عند التوقيع الرقمي على ملف XLSX|استثناء|
 |CELLSJAVA-42602|استثناء "IndexOutOfBoundsException" عند دمج الخلايا في وضع الوزن الخفيف|استثناء|
 |CELLSJAVA-42610|استثناء "java.lang.IllegalStateException: ترميز غير صالح: فارغ" عند تحميل ملف XLS|استثناء|
@@ -76,7 +76,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 |CELLSJAVA-42595|يحدث "java.io.IOException: الملف تالف" عند فتح ملف Excel|استثناء|
 |CELLSJAVA-42591|"com.aspose.cells.CellsException: صيغة غير صالحة" عند تحميل ملف Excel|استثناء|
 |CELLSJAVA-42638|Cell.getDisplayStringValue () يطرح java.lang.NullPointerException|استثناء|
-|CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException حدث أثناء تحميل ملف XLS|استثناء|
+|CELLSJAVA-42652|java.lang.ArrayIndexOutOfBoundsException حدث عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42650|استثناء: "ترميز غير صالح: فارغ" عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42649|استثناء: "لا يمكن أن يكون عدد HPageBreaks أكبر من 1024" عند تحميل ملف XLS|استثناء|
 |CELLSJAVA-42648|استثناء: "فشل قراءة بيانات الصورة" على Picture.getData ()|استثناء|
@@ -87,11 +87,11 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **إضافة عنصر جديد "CrossHideRight" لتعداد HtmlCrossType**
 
-يعرض سلسلة HTML المتقاطعة ويخفي السلسلة الصحيحة عند تداخل النص.
+يعرض HTML السلسلة المتقاطعة ويخفي السلسلة اليمنى عند تراكب النص.
 
 ### **إضافة عنصر جديد "TSV" لتعدادات LoadFormat و SaveFormat و FileFormatType**
 
-يمثل ملف TSV (قيم مفصولة بعلامات جدولة) ، نفس الشيء مع "TabDelimited".
+يمثل ملف TSV (قيم مفصولة بعلامات جدولة) ، مثله مع "TabDelimited".
 
 ### **يضيف تعداد ImageType**
 
@@ -115,7 +115,7 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **يضيف طريقة التحميل الزائد Cell.GetHtmlString (System.Boolean)**
 
-الحصول على سلسلة HTML التي تحتوي على بيانات وبعض التنسيقات في هذه الخلية.
+الحصول على السلسلة HTML التي تحتوي على بيانات وبعض التنسيقات في هذه الخلية.
 
 ### **إضافة خاصية BuiltInDocumentPropertyCollection.Language**
 
@@ -139,11 +139,11 @@ url: /ar/java/aspose-cells-for-android-via-java-18-6-release-notes/
 
 ### **إضافة طريقة Chart.ToPdf (System.IO.Stream، System.Single، System.Single، Aspose.Cells.PageLayoutAlignmentType، Aspose.Cells.PageLayoutAlignmentType)**
 
-ينشئ ملف PDF للمخطط بحجم الصفحة المطلوب ويحفظه في التدفق.
+لتكوين PDF الرسم البياني بحجم الصفحة المطلوب وحفظه في التدفق.
 
 ### **إضافة طريقة Chart.ToPdf (System.String، System.Single، System.Single، Aspose.Cells.PageLayoutAlignmentType، Aspose.Cells.PageLayoutAlignmentType)**
 
-ينشئ ملف PDF للمخطط بحجم الصفحة المطلوب ويحفظه في ملف.
+لتكوين PDF الرسم البياني بحجم الصفحة المطلوب وحفظه في ملف.
 
 ### **يضيف خاصية PdfSaveOptions.OutputBlankPageWhenNothingToPrint**
 

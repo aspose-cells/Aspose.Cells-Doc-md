@@ -8,36 +8,36 @@ url: /es/net/aspose-cells-for-net-8-9-1-release-notes/
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
-|CELLSNET-44274 |Admite el tipo de fuente TTE al renderizar hojas de cálculo a PDF| Nueva caracteristica|
-|CELLSNET-42277 | Utilice caracteres privados en la representación de PDF| Mejora|
-|CELLSNET-44630 | Se pierde el formato de números (DateTime) al importar datos de DataGrid (.NET)| Mejora|
+|CELLSNET-44274 | Admite el tipo de fuente TTE al renderizar hojas de cálculo al PDF| Nueva caracteristica|
+|CELLSNET-42277 | Usar caracteres privados en la representación PDF| Mejora|
+|CELLSNET-44630 | Numbers formato (DateTime) perdido al importar datos de DataGrid (.NET)| Mejora|
 |CELLSNET-44626 | El gráfico copiado con CopyRows aún hace referencia a la hoja de trabajo de origen en el rango de datos del gráfico| Mejora|
 |CELLSNET-44619 | Convertir cadena de fecha a formato de fecha| Mejora|
-|CELLSNET-44625 | Colspan as 2 aumenta drásticamente el tiempo de carga y conversión de HTML| Actuación|
-|CELLSNET-44338 | Degradación del rendimiento al renderizar hojas de cálculo a PDF| Actuación|
+|CELLSNET-44625 | Colspan como 2 aumenta drásticamente el tiempo de carga y conversión HTML| Rendimiento|
+|CELLSNET-44338 | Degradación del rendimiento al renderizar hojas de cálculo al PDF| Rendimiento|
 |CELLSNET-44610 | El atributo de negrita se pierde al convertir HTML a XLSX| Insecto|
 |CELLSNET-44609 | La dirección del contenido se cambia al convertir HTML a XLSX| Insecto|
 |CELLSNET-44608 | Faltan bordes al convertir HTML a XLSX| Insecto|
 |CELLSNET-44607 | Falta el sombreado Cell al convertir HTML a XLSX| Insecto|
 |CELLSNET-44606 | Faltan contenidos al convertir HTML a XLSX| Insecto|
-|CELLSNET-44605 | Conversión incorrecta de HTML a XLSX| Insecto|
+|CELLSNET-44605 |Conversión incorrecta de HTML a XLSX| Insecto|
 |CELLSNET-44579 | MHTML a XLS/XLSX vuelve como documento en blanco| Insecto|
 |CELLSNET-44572 | Problema con hipervínculos que hacen referencia a una hoja de trabajo en el mismo documento| Insecto|
 |CELLSNET-44617 | La fórmula SumProduct no se calcula correctamente| Insecto|
-|CELLSNET-44604 |Texto faltante después de la conversión de XLS a Pdf/A| Insecto|
+|CELLSNET-44604 | Texto perdido después de la conversión XLS a Pdf/A| Insecto|
 |CELLSNET-44603 | Problema de alineación vertical con el contenido de la celda tocando el borde superior al representar hojas de cálculo en PDF| Insecto|
 |CELLSNET-44602 | Problema de alineación horizontal con valores precedidos por el signo $ al representar hojas de cálculo en PDF| Insecto|
 |CELLSNET-42715 | Fuentes perdidas en el PDF| Insecto|
 |CELLSNET-44637 | El resultado de CalculateTextSize es siempre la altura predeterminada si el texto en un cuadro de texto contiene líneas nuevas| Insecto|
-|CELLSNET-44635 | El gráfico no es correcto en la muestra 2.xlsx (conversión de Excel a PDF)| Insecto|
-|CELLSNET-44634 | Las tablas de datos no son correctas en el ejemplo 2.xlsx (conversión de Excel a PDF)| Insecto|
-|CELLSNET-44633 | Las tablas de datos no son correctas en el ejemplo 1.xlsx (conversión de Excel a PDF)| Insecto|
+|CELLSNET-44635 | El gráfico no es correcto en el ejemplo 2.xlsx (conversión de Excel a PDF)| Insecto|
+|CELLSNET-44634 | Las tablas de datos no son correctas en sample2.xlsx (conversión de Excel a PDF)| Insecto|
+|CELLSNET-44633 | Las tablas de datos no son correctas en sample1.xlsx (conversión de Excel a PDF)| Insecto|
 |CELLSNET-44623 | El marcador de gráfico de radar modificado no se convierte a PDF correctamente| Insecto|
-|CELLSNET-44601 | Faltan etiquetas de eje horizontal en la representación de gráfico a imagen| Insecto|
-|CELLSNET-44570 | Problema con el formato de la forma de WordArt en el archivo PDF representado| Insecto|
+|CELLSNET-44601 |Faltan etiquetas de eje horizontal en la representación de gráfico a imagen| Insecto|
+|CELLSNET-44570 | Problema con el formato de la forma de WordArt en el archivo renderizado PDF| Insecto|
 |CELLSNET-44655 | La alineación no funciona dentro de un cuadro de texto| Insecto|
 |CELLSNET-44646 | El archivo está dañado (el hipervínculo se convierte en texto normal) después de ser procesado por las API Aspose.Cells| Insecto|
-|CELLSNET-44639 |Volver a incrustar la diapositiva de presentación en XLS da como resultado la vista de presentación al hacer doble clic| Insecto|
+|CELLSNET-44639 | Volver a incrustar la diapositiva de presentación en XLS da como resultado la vista de presentación al hacer doble clic| Insecto|
 |CELLSNET-44631 | Error de Excel "No se puede iniciar la aplicación de origen para este objeto" después de volver a insertar el OleObject de tipo Bitmap| Insecto|
 |CELLSNET-44629 | La fórmula da como resultado un error #REF después de copiar las filas y calcular fórmulas| Insecto|
 |CELLSNET-44624 | El formato de fecha no se retiene al guardar como archivo de hoja de cálculo ML| Insecto|
@@ -45,16 +45,16 @@ url: /es/net/aspose-cells-for-net-8-9-1-release-notes/
 |CELLSNET-44614 | Problema de ruta con enlaces de datos externos para hojas de cálculo XLS| Insecto|
 |CELLSNET-44611 | Volver a guardar la hoja de cálculo con un tema personalizado provoca un error en Open XML SDK| Insecto|
 |CELLSNET-44649 | El motor de cálculo personalizado hace que el cálculo se realice solo una vez| Insecto|
-|CELLSNET-44584 | System.FormatException ocurrió al importar un archivo HTML| Excepción|
+|CELLSNET-44584 |System.FormatException ocurrió al importar un archivo HTML| Excepción|
 |CELLSNET-44643 | Excepción lanzada al abrir el archivo| Excepción|
-|CELLSNET-44612 | CellsException: Error en Cell: O93-Fórmula no válida al cargar XLSM que se guardó con Aspose.Cells| Excepción|
+|CELLSNET-44612 | CellsException: Error en Cell: O93: fórmula no válida al cargar XLSM que se guardó con Aspose.Cells| Excepción|
 |CELLSNET-44600 | System.ArgumentException en Workbook.Save| Excepción|
 ### **2) Aspose.Cells Suite de cuadrícula**
 
 |**Llave** |**Resumen** |**Categoría** |
 |:- |:- |:- |
 |CELLSNET-41833 | Problema al usar el formato de número de porcentaje2| Nueva caracteristica|
-|CELLSNET-44592 |La barra de desplazamiento vertical aparece para el contenedor cuando la altura de GridWeb se establece en 100%| Insecto|
+|CELLSNET-44592 | La barra de desplazamiento vertical aparece para el contenedor cuando la altura de GridWeb se establece en 100%| Insecto|
 |CELLSNET-44576 | El cursor no se mueve cuando ShowCellEditBox se establece como verdadero| Insecto|
 |CELLSNET-44575 | Fusionar celdas por segunda vez no funciona| Insecto|
 |CELLSNET-44555 | Problema al establecer el valor de una celda con formato de porcentaje| Insecto|

@@ -10,23 +10,23 @@ url: /fr/net/aspose-cells-for-net-18-8-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-42992|Appliquer l'alignement du texte au texte partiel à l'intérieur du TextBox|Nouvelle fonctionnalité|
 |CELLSNET-44155|Connexions en lecture/écriture du fichier XLSB|Nouvelle fonctionnalité|
 |CELLSNET-46123|Prise en charge des formules d'analyse des journaux de révision vers un tableau binaire|Nouvelle fonctionnalité|
 |CELLSNET-46220|Définir l'option ContentCopyForAccessibility lors de la conversion de la feuille de calcul au format de fichier PDF|Nouvelle fonctionnalité|
 |CELLSNET-43560|Chiffrer un fichier ODS|Nouvelle fonctionnalité|
-|CELLSNET-43556|Ouvrir le fichier ODS crypté|Nouvelle fonctionnalité|
-|CELLSNET-46209|Prise en charge de la lecture et de l'écriture DConn du fichier XLS|Nouvelle fonctionnalité|
+|CELLSNET-43556|Ouvrir le fichier chiffré ODS|Nouvelle fonctionnalité|
+|CELLSNET-46209|Prend en charge la lecture et l'écriture DConn du fichier XLS|Nouvelle fonctionnalité|
 |CELLSNET-43326|Ajouter des surcharges à CopyRows et CopyColumns avec les options Collage spécial|Nouvelle fonctionnalité|
 |CELLSNET-41637|Récupérer les paramètres de sous-total|Nouvelle fonctionnalité|
 |CELLSNET-46252|Argument pour ignorer les lignes/lignes en tant qu'en-têtes de données lors de l'exportation de la plage vers la table de données|Renforcement|
 |CELLSNET-46226|Les annotations manuscrites deviennent des images régulières après la conversion|Renforcement|
 |CELLSNET-41693|L'amélioration de l'ajustement automatique des colonnes est incluse|Renforcement|
 |CELLSNET-46263|L'application se bloque lors de la conversion de XLS en PDF|Performance|
-|CELLSNET-46262|Cell l'arrière-plan est incorrect lorsque l'orientation du texte de la cellule est inclinée dans le PDF de sortie|Punaise|
-|CELLSNET-44761|Le texte d'une forme n'a pas été rendu correctement dans le PDF|Punaise|
+|CELLSNET-46262|Cell l'arrière-plan est incorrect lorsque l'orientation du texte de la cellule est inclinée dans la sortie PDF|Punaise|
+|CELLSNET-44761|Le texte d'une forme n'a pas été rendu correctement dans PDF|Punaise|
 |CELLSNET-43916|L'ombre de la forme est manquante lors de la conversion de la feuille de calcul en HTML|Punaise|
 |CELLSNET-46251|L'application se bloque lors de la conversion de XLSX en HTML|Punaise|
 |CELLSNET-46241|Problème avec les multilignes en HTML|Punaise|
@@ -36,15 +36,15 @@ url: /fr/net/aspose-cells-for-net-18-8-release-notes/
 |CELLSNET-46264|La propriété R1C1Formula a changé de comportement|Punaise|
 |CELLSNET-46258|Problème de calcul de la formule matricielle RECHERCHEV inversée|Punaise|
 |CELLSNET-46197|Problème de validation des données - si l'insertion d'une valeur erronée et le fait de cliquer sur une autre cellule ne restaure pas automatiquement la cellule de validation à sa valeur précédente|Punaise|
-|CELLSNET-46276|Conversion Excel en PDF - une page vide est ajoutée|Punaise|
+|CELLSNET-46276|Conversion d'Excel en PDF - une page vide est ajoutée|Punaise|
 |CELLSNET-46275|Grand PDF créé à partir de XLS|Punaise|
 |CELLSNET-46259|La conversion d'Excel en PDF ajoute une ligne droite|Punaise|
-|CELLSNET-46255|Problème de numéro de page (dans le pied de page) dans le rendu Excel vers PDF|Punaise|
-|CELLSNET-46238|Échec du chargement du fichier ODS chiffré|Punaise|
-|CELLSNET-46231|Le texte dans les cellules de la colonne A n'est pas rendu correctement dans le PDF de sortie|Punaise|
+|CELLSNET-46255|Problème de numéro de page (dans le pied de page) dans Excel au rendu PDF|Punaise|
+|CELLSNET-46238|Échec du chargement du fichier chiffré ODS|Punaise|
+|CELLSNET-46231|Le texte dans les cellules de la colonne A n'est pas rendu correctement dans la sortie PDF|Punaise|
 |CELLSNET-46165|Aspose.Cells cesse de répondre lors de la tentative de conversion d'un fichier Excel au format de fichier PDF|Punaise|
 |CELLSNET-46236|Fichier MS Excel corrompu après anonymisation|Punaise|
-|CELLSNET-45192|Le fichier XLS enregistré est affiché en mode protégé|Punaise|
+|CELLSNET-45192|Le fichier XLS enregistré est affiché en mode de protection|Punaise|
 |CELLSNET-46235|L'image ne peut pas être affichée lors de l'enregistrement au format XLS|Punaise|
 |CELLSNET-46225|Gestion du retour chariot entre guillemets doubles|Punaise|
 |CELLSNET-46218|Après l'exécution d'AutoFitColumns, les mots de la colonne ne sont toujours pas entièrement rendus|Punaise|

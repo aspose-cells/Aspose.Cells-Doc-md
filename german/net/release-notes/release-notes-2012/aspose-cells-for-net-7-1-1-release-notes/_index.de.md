@@ -20,13 +20,13 @@ url: /de/net/aspose-cells-for-net-7-1-1-release-notes/
 
  Verbesserungen
 
-- Beim Speichern der Arbeitsmappe in XLSX wird ein Fehler ausgegeben
+- Das Speichern der Arbeitsmappe in XLSX löst einen Fehler aus
 - AutoFitColumn-Optionen
 - Gibt es die Methode GetDependents() in der Version .NET
 
- -Unterstützung von TH-Elementen in der HTML-Tabelle
+ -Unterstützen Sie TH-Elemente in der Tabelle HTML
 
-- Excel in PDF (Arabisch) - Falsche Wort-/Datumsformatierung bei der Konvertierung
+- Excel an PDF (Arabisch) - Falsche Wort-/Datumsformatierung bei der Konvertierung
 - Antivirensoftware entfernt Excel-Dateien aus E-Mails
 
  Ausnahmen
@@ -42,31 +42,31 @@ url: /de/net/aspose-cells-for-net-7-1-1-release-notes/
 
  -Button-Eigenschaften
 
-- Cells mit Fuß und Zoll sind bei der Konvertierung in PDF falsch
-- Problem beim Rendern von Bindestrichen in der PDF-Ausgabe
+- Cells mit Fuß und Zoll sind falsch, wenn sie in PDF umgewandelt werden
+- Problem beim Rendern von Bindestrichen in der Ausgabe von PDF
 - Seitenlayout in der zusammengeführten Arbeitsmappe geändert
-- Speichern als XLSX erzeugt manchmal eine ungültige Datei
+- Speichern unter XLSX erzeugt manchmal eine ungültige Datei
 
- -XLS-Datei wird nach Verwendung von Aspose.Cells im geschützten Modus geöffnet
+ -XLS Datei wird nach Verwendung von Aspose.Cells im geschützten Modus geöffnet
 
 - Cell.GetDependents() funktioniert nicht mit NamedRange
 - Problem mit AutoFitRow und IndentLevel
 - Problem mit dem benannten Bereich bei Verwendung des Combine-Vorgangs
 - TickLabels sind nicht sichtbar, wenn die Nr. der Anzahl von Ticklabels ist größer
-- Probleme beim Übersetzen von MS Excel-Diagrammen in PDF, fehlende Y-Achse
+- Probleme beim Übersetzen von MS Excel-Diagrammen in PDF, Y-Achse fehlt
 - Probleme mit der Linienbreite in Grafiken und leeren Textbereichen
 - Problem mit ADDRESS-, COUNTBLANK- und IF-Funktionen
 - SVERWEIS- UND OFFSET-FUNKTIONEN Probleme
 - Keine MS Excel-Formelvalidierung
-- Probleme mit der NETZWERKTAGE-Funktion in der XLS-Ausgabe
-- Probleme bei der HTML-zu-Excel-Konvertierung
+- Probleme mit der NETWORKDAYS-Funktion in der Ausgabe von XLS
+- HTML-zu-Excel-Konvertierungsprobleme
 
- ` ` – Probleme mit Zeilenspanne und Klassenattributen in HTML
+ ` `- HTML Probleme mit Rowspan und Klassenattributen
 
- -Unterstützt Cells datauri
+-Unterstützt Cells datauri
 
 - Benutzerdefinierte formatierte Rahmen gehen beim Konvertieren in PDF verloren
-- Gitternetzlinien im PDF-Export
+- Gitternetzlinien in PDF Export
 
  -Excel hat einen nicht lesbaren Inhaltsfehler gefunden
 

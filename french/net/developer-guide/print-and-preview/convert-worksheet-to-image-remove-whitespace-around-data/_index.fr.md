@@ -12,7 +12,7 @@ Parfois, vous devez présenter des images de feuille de calcul dans des applicat
 
 ## **Supprimer les espaces autour des données**
 
- La[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API convertit une feuille de calcul en un fichier image avec tous les attributs spécifiés, par exemple, format d'image, feuilles paginées, etc. Plusieurs formats d'image sont pris en charge, notamment BMP, GIF, JPG, TIFF et EMF.
+ Le[**Aspose.Cells.Rendering.SheetRender**](https://reference.aspose.com/cells/net/aspose.cells.rendering/sheetrender)API convertit une feuille de calcul en un fichier image avec tous les attributs spécifiés, par exemple, format d'image, feuilles paginées, etc. Plusieurs formats d'image sont pris en charge, notamment BMP, GIF, JPG, TIFF et EMF.
 
  Lorsque vous utilisez la fonction feuille vers image, l'image de sortie est entourée par défaut d'un espace, c'est-à-dire d'une bordure. Vous pouvez supprimer cela en définissant les marges de mise en page supérieure, inférieure, gauche et droite de la feuille de calcul source sur 0 et en spécifiant[**Aspose.Cells.Rendering.ImageOrPrintOptions**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions)attributs en conséquence.
 

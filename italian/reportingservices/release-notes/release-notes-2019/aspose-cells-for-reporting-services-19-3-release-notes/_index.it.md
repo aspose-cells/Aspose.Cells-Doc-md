@@ -10,7 +10,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Reporting Servic
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
-|CELLSRS-544|Aspose.Cells for Reporting Services supporta l'esportazione in formato XPS.|Nuova caratteristica|
+|CELLSRS-544|Aspose.Cells for Reporting Services supporta l'esportazione del formato XPS.|Nuova caratteristica|
 

@@ -12,12 +12,12 @@ Microsoft Visual Studio est un environnement de développement intégré (IDE) d
 
 Aspose.Cells for .NET fournit le groupe de composants le plus flexible qui permet aux applications .NET de créer, modifier, convertir, rendre et imprimer des feuilles de calcul Excel® sans nécessiter l'installation de Microsoft Excel® sur le serveur.
 
-Aspose.Cells for .NET prend en charge tous les principaux Microsoft Excel et d'autres formats de fichiers, y compris XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML et PDF, etc.
+Aspose.Cells for .NET supports all the major Microsoft Excel and other file formats including XLS, XLSX, XLSM, XLTX/XLTM, HTML, CSV, ODS, Tab Delimited, SpreadsheetML and PDF, etc.
  Pour plus de détails sur[Aspose.Cells for .NET API](https://products.aspose.com/cells/net/)
 
 ### **Explorer Aspose.Cells for .NET Exemples avec Visual Studio**
 
- Aspose Plug-in Visual Studio -**Explorer Aspose.Cells for .NET Exemples** est un excellent outil pour télécharger et explorer rapidement des exemples Aspose.Cells for .NET API. Il permet d'économiser beaucoup de temps et d'efforts en offrant une option très simple pour sélectionner, télécharger et ouvrir de manière transparente les derniers exemples de projets sans avoir à quitter votre Visual Studio.
+Aspose Plug-in Visual Studio -**Explorer Aspose.Cells for .NET Exemples** est un excellent outil pour télécharger et explorer rapidement des exemples Aspose.Cells for .NET API. Il permet d'économiser beaucoup de temps et d'efforts en offrant une option très simple pour sélectionner, télécharger et ouvrir de manière transparente les derniers exemples de projets sans avoir à quitter votre Visual Studio.
 
 Cette version offre les fonctionnalités suivantes :
 
@@ -25,7 +25,7 @@ Cette version offre les fonctionnalités suivantes :
 -  Facile à lancer depuis**Fichier > Aspose** menu dans Visual Studio
 - Gain de temps et réduction de la courbe d'apprentissage.
 - Vous permet de sélectionner et d'ouvrir les derniers exemples Aspose.Cells for .NET API hébergés sur Github.com.
--  Permet d'ouvrir**C#** ou**VB.NET** exemples de projet
+-  Permet d'ouvrir**C#** ou alors**VB.NET** exemples de projet
 - Un projet sélectionné est automatiquement ouvert dans Visual Studio avec toutes les références requises définies pour vous offrir un environnement prêt à être exécuté et exploré.
 -  Télécharge automatiquement les dernières bibliothèques API à partir de**NuGet** et des exemples de**GitHub**.
 
@@ -58,7 +58,7 @@ Vous obtiendrez une boîte de dialogue de réussite une fois l'installation term
 
 **Noter:** Assurez-vous de redémarrer Visual Studio pour que les modifications prennent effet.
 
-## **Utilisant**
+## **En utilisant**
 
 Une fois installé, vous pouvez facilement lancer et utiliser le plugin interactif comme décrit ci-dessous :
 **1.** Ouvrez le plugin en sélectionnant**Fichier > Aspose** suivie par**Nouveau Aspose.Cells Exemple de projet** dans Visual Studio.
@@ -69,11 +69,11 @@ Une fois installé, vous pouvez facilement lancer et utiliser le plugin interact
 
 ![tâche : image_autre_texte](aspose-cells-visual-studio-plugin_4)
 
-**3.** Dans la boîte de dialogue Sélectionner un API pour afficher les exemples, sélectionnez ou modifiez l'emplacement où les projets d'exemple seront créés et sélectionnez ou modifiez également le type de projet d'exemples comme**C#** ou**VB.NET** et cliquez**Continuer** pour ouvrir l'exemple de projet dans Visual Studio.
+**3.** Dans la boîte de dialogue Sélectionner un API pour afficher les exemples, sélectionnez ou modifiez l'emplacement où les projets d'exemple seront créés et sélectionnez ou modifiez également le type de projet d'exemples comme**C#** ou alors**VB.NET** et cliquez**Continuer** pour ouvrir l'exemple de projet dans Visual Studio.
 
 ![tâche : image_autre_texte](aspose-cells-visual-studio-plugin_1)
 
-**4.** Nouveaux exemples de projets selon la sélection du type de projet de**C#** ou**VB.NET** dans Visual Studio.
+**4.** Nouveaux exemples de projets selon la sélection du type de projet de**C#** ou alors**VB.NET** dans Visual Studio.
 
 |**C# Exemples** |**VB.NET Exemples** |
 |:- |:- |

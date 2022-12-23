@@ -10,12 +10,12 @@ url: /fr/net/aspose-cells-for-net-17-9-release-notes/
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSNET-45614|Déterminer quelle taille de pile est nécessaire pour un certain classeur|Nouvelle fonctionnalité|
 |CELLSNET-45649|Formatez la police de l'étiquette personnalisée et sa cellule avec des marqueurs intelligents|Nouvelle fonctionnalité|
 |CELLSNET-44353|Contrôler le chargement des ressources externes dans le classeur MS Excel|Nouvelle fonctionnalité|
-|CELLSNET-40787|Perdre le suivi des modifications après la conversion (XLS -> XLSM)|Nouvelle fonctionnalité|
+|CELLSNET-40787|Perdre le suivi des modifications après la conversion (XLS --> XLSM)|Nouvelle fonctionnalité|
 |CELLSNET-45607|Afficher le commentaire Cell sous forme d'info-bulle Excel - Aspose.Cells.GridWeb|Nouvelle fonctionnalité|
 |CELLSNET-45559|L'étiquette de la série de cours de l'action n'est pas correctement positionnée|Renforcement|
 |CELLSNET-45626|Exception : "Trop d'entrées. Envisagez de définir ZipOutputStream.Enable Zip64" lors de la fusion du ou des fichiers.|Renforcement|
@@ -24,32 +24,32 @@ url: /fr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45581|GridDesktop ne doit pas défiler au-delà de la dernière colonne|Renforcement|
 |CELLSNET-45577|GridDesktop ne doit pas défiler au-delà de la dernière ligne|Renforcement|
 |CELLSNET-45633|Problème de performances GetRanges lors de l'utilisation d'une fonction personnalisée avec de nombreuses fonctions à calculer|Performance|
-|CELLSNET-45592|La position de certains éléments de dessin est incorrecte dans le rendu Excel vers PDF|Punaise|
-|CELLSNET-45575|Le fond gris sur la boîte est manquant dans le PDF de sortie|Punaise|
-|CELLSNET-45516|Texte de forme dispersé/dispersé dans le rendu Excel vers PDF|Punaise|
+|CELLSNET-45592|La position de certains éléments de dessin est incorrecte dans Excel pour le rendu PDF|Punaise|
+|CELLSNET-45575|Le fond gris sur la boîte est manquant dans la sortie PDF|Punaise|
+|CELLSNET-45516|Texte de forme dispersé / dispersé dans Excel au rendu PDF|Punaise|
 |CELLSNET-45415|Le rendu feuille à image ignore les polices asiatiques dans TextBox avec référence de cellule|Punaise|
 |CELLSNET-45315|Certains textes (étiquettes) manquent de la forme dans le rendu feuille à image|Punaise|
 |CELLSNET-45655|Fournir une option pour contrôler si le format de précision numérique est conservé|Punaise|
-|CELLSNET-45630|La sortie HTML de "222.xlsx" n'est pas correcte|Punaise|
+|CELLSNET-45630|HTML la sortie de "222.xlsx" n'est pas correcte|Punaise|
 |CELLSNET-45621|Deux ressources d'image créées au lieu d'une lors de l'enregistrement au format de fichier HTML|Punaise|
 |CELLSNET-45597|"Numéro stocké sous forme de texte" pour les colonnes numériques|Punaise|
 |CELLSNET-45558|Lorsque le fichier MHtml est enregistré avec l'extension XLS, MS Excel affiche des erreurs lors de l'ouverture du fichier XLS|Punaise|
-|CELLSNET-45557|Formatage perdu après l'enregistrement du fichier au format XLS|Punaise|
-|CELLSNET-45556|Images perdues après l'enregistrement du fichier au format XLS|Punaise|
+|CELLSNET-45557|Formatage perdu après l'enregistrement du fichier sous XLS|Punaise|
+|CELLSNET-45556|Images perdues après l'enregistrement du fichier sous XLS|Punaise|
 |CELLSNET-45538|Les images sont perdues et les mises en forme sont supprimées lors de l'enregistrement d'un fichier MHTML au format XLS ou MHT|Punaise|
 |CELLSNET-45584|Boucle infinie lors de l'utilisation de PageSetup.GetCommands()|Punaise|
-|CELLSNET-45637|Trois traits d'union "---" sont rendus sous forme d'espace vide dans le PDF de sortie|Punaise|
-|CELLSNET-45612|Problème avec les lignes flottantes (soulignés simples, doubles) dans la conversion Excel en PDF|Punaise|
+|CELLSNET-45637|Trois traits d'union "---" sont rendus comme un espace vide dans la sortie PDF|Punaise|
+|CELLSNET-45612|Problème avec les lignes flottantes (soulignés simples, doubles) dans Excel vers la conversion PDF|Punaise|
 |CELLSNET-45608|Lorsque ImageOrPrintOptions.OnlyArea = true, les données sont corrompues|Punaise|
 |CELLSNET-45605|Caractères partiellement manquants lors de la conversion en image|Punaise|
 |CELLSNET-45571|Bordures de cellule grises par défaut converties en lignes pointillées|Punaise|
 |CELLSNET-45628|Le mot est renommé lors de la conversion en image|Punaise|
 |CELLSNET-45603|Problème avec la méthode Chart.Calculate()|Punaise|
 |CELLSNET-45602|Problème avec les équations de tendance dans le graphique|Punaise|
-|CELLSNET-45587|L'échelle est augmentée dans le PDF de sortie pour la carte radar|Punaise|
+|CELLSNET-45587|L'échelle est augmentée dans la sortie PDF pour la carte radar|Punaise|
 |CELLSNET-45573|L'image du graphique n'a pas de nombre à trois chiffres|Punaise|
 |CELLSNET-45569|Impossible de rendre l'image à partir du graphique via Aspose.Cells|Punaise|
-|CELLSNET-45563|PDF de graphique incorrect lorsque le tracé de lignes est comparé à la source Excel|Punaise|
+|CELLSNET-45563|Graphique incorrect PDF lorsque le traçage linéaire est comparé à la source Excel|Punaise|
 |CELLSNET-45561|L'image générée à partir de la feuille de calcul Sample.xlsm SampleCharts n'est pas correcte|Punaise|
 |CELLSNET-45441|La légende du graphique est rendue dans la mauvaise position lorsqu'elle est convertie en image|Punaise|
 |CELLSNET-45643|L'objet OLE change de taille après l'ouverture et la modification du fichier objet OLE|Punaise|
@@ -67,7 +67,7 @@ url: /fr/net/aspose-cells-for-net-17-9-release-notes/
 |CELLSNET-45537|L'icône d'image est perdue après la modification de la cellule B3|Punaise|
 |CELLSNET-45448|Les colonnes de groupe ne fonctionnent pas dans GridWeb|Punaise|
 |CELLSNET-45627|La méthode PivotTable.CalculateData() lève System.IndexOutOfRangeException|Exception|
-|CELLSNET-45610|NullReferenceException lors de la lecture de XLSX à l'aide de LoadFilter contenant un tableau croisé dynamique|Exception|
+|CELLSNET-45610|NullReferenceException lors de la lecture de XLSX à l'aide de LoadFilter contenant le tableau croisé dynamique|Exception|
 |CELLSNET-42702|Erreur "Contenu illisible" lors de la création du tableau croisé dynamique|Exception|
 |CELLSNET-45635|La chaîne d'entrée n'était pas dans un format correct - Exception lors de l'ouverture du fichier MS Excel|Exception|
 |CELLSNET-45589|L'article a déjà été ajouté. Clé dans le dictionnaire : 'Sheet1' Clé ajoutée : 'Sheet1'|Exception|
@@ -111,7 +111,7 @@ Obtient et définit le stockage du concepteur du projet VBA.
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
 - [Ajouter des signets PDF avec des destinations nommées](/cells/fr/net/add-pdf-bookmarks-with-named-destinations/)
-- [Contrôlez le chargement des ressources externes dans le classeur MS Excel lors du rendu au format PDF](/cells/fr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
+- [Contrôler le chargement des ressources externes dans le classeur MS Excel lors du rendu vers PDF](/cells/fr/net/control-loading-of-external-resources-in-ms-excel-workbook-while-rendering-to-pdf/)
 - [Copier la macro VBA UserForm DesignerStorage du modèle au classeur cible](/cells/fr/net/copy-vba-macro-userform-designerstorage-from-template-to-target-workbook/)
 - [Créer supprimer et obtenir des commentaires GridCell](/cells/fr/net/create-remove-and-get-gridcell-comments/)
 - [Envoyer la forme avant ou arrière dans la feuille de calcul](/cells/fr/net/send-shape-front-or-back-inside-the-worksheet/)

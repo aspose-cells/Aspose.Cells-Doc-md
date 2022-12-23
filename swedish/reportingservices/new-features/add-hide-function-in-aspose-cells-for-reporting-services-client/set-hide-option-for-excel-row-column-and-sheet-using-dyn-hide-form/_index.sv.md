@@ -8,7 +8,7 @@ Aspose.Cells for Reporting Services döljer alla specificerade rader, kolumner o
 
 - **SheetName** representerar ett kalkylblad som anger ett gömobjekt.
 - **Typ** representerar göm objekttypen. Den innehåller kalkylblad, rad och kolumn.
-- **Rad-/kolumnindex** representerar det angivna gömobjektet. När typen är kalkylblad är värdet null. Kolumnindex stöder tecken. Indexvärdet börjar från 1.
+- **Rad-/kolumnindex** representerar det angivna gömma objektet. När typen är kalkylblad är värdet null. Kolumnindex stöder tecken. Indexvärdet börjar från 1.
 - **Göm tillstånd** representerar hide state-värdet. Värdet är sant, falskt eller en Excel-formel. Parametern stöder endast Reporting Services-rapportparametrar.
 
 **Ange döljalternativ** 

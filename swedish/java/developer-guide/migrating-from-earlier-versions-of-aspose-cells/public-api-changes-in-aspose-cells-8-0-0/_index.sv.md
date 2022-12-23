@@ -121,9 +121,9 @@ RowCollection ärver inte CollectionBase längre eftersom det inte finns något 
 
 {{% /alert %}}
 ## **Cell.StringValue Beteende ändrat**
- I tidigare versioner, specialmönster_ignorerades vid formatering av cellvärden, där specialtecknet * alltid producerade ett tecken i det formaterade resultatet. Från den här versionen har vi ändrat logiken för att hantera specialtecken_ och* för att göra det formaterade resultatet samma som i Excel-applikationen. Till exempel det anpassade cellformatet "_(\$* #,##0.00_)" som används för att representera värde 123 gav resultatet som "$ 123.00". Med nya versioner kommer Cell.StringValue att innehålla resultatet som "$123.00", vilket är samma beteende som Excel-applikationen uppvisar när cellen kopieras att texta eller exportera till CSV.
+ I tidigare versioner, specialmönster_ignorerades vid formatering av cellvärden, där specialtecknet * alltid producerade ett tecken i det formaterade resultatet. Från den här versionen har vi ändrat logiken för att hantera specialtecken_ och* för att göra det formaterade resultatet samma som i Excel-applikationen. Till exempel det anpassade cellformatet "_(\$* #,##0.00_)" som används för att representera värde 123 gav resultatet som "$ 123.00". Med nya versioner kommer Cell.StringValue att innehålla resultatet som "$123.00", vilket är samma beteende som Excel-applikationen uppvisar när cellen kopieras att sms:a eller exportera till CSV.
 ## **Lade till CreatedTime till PdfSaveOptions**
-Nu kan användare hämta eller ställa in tid för att skapa PDF samtidigt som de sparar kalkylarket till PDF medan de använder klassen PdfSaveOptions.
+Nu kan användare få eller ställa in PDF skapandetid samtidigt som de sparar kalkylarket till PDF medan de använder klassen PdfSaveOptions.
 ## **Lade till ShowFormulas till arbetsbladet**
 Från och med nu kan användare använda den booleska egenskapen ShowFormulas som erbjuds av Worksheet för att växla vyn mellan formel och värde för ett givet kalkylblad.
 ## **Lade till Ooxml till FileFormatType**

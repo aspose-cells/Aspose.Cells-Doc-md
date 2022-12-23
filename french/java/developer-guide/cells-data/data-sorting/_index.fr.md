@@ -32,7 +32,7 @@ Généralement, le tri est effectué sur une liste - définie comme un groupe co
 
  Vous devez définir des clés et définir l'ordre de tri avant d'implémenter le tri des données. La classe fournit la[**trier**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) méthode utilisée pour effectuer le tri des données en fonction des données de cellule dans une feuille de calcul.
 
- La[**trier**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) accepte les paramètres suivants :
+ Le[**trier**](https://reference.aspose.com/cells/java/com.aspose.cells/datasorter#sort()) accepte les paramètres suivants :
 
 - [**Cells**](https://reference.aspose.com/cells/java/com.aspose.cells/Cells), les cellules de la feuille de calcul.
 - [**ZoneCellule**](https://reference.aspose.com/cells/java/com.aspose.cells/CellArea), la plage de cellules. Définissez la zone de cellule avant d'appliquer le tri des données.

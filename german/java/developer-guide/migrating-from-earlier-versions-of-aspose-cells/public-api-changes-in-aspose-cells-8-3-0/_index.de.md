@@ -76,8 +76,8 @@ System.out.println(settings.getRepairLoad());
 
 {{< /highlight >}}
 
-### **Eigenschaft TxtLoadOptions.KeepExactFormat Hinzugefügt**
-Der TxtLoadOptions-Klasse wurde die Eigenschaft KeepExactFormat hinzugefügt, die angibt, ob die exakte Formatierung für den Zellenwert beibehalten werden soll, wenn String/Text in Zahlen oder DateTime konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um dem Verhalten der MS Excel-Anwendung zum Laden von DateTime oder numerischen Werten aus CSV-Dateien zu entsprechen. Um das Verhalten von MS Excel zu simulieren, setzen Sie die KeepExactFormat-Eigenschaft auf „false“, während der Standardwert „true“ ist, sodass der Zellenwert als Zeichenfolge in der CSV-Datei formatiert wird.
+### **Eigenschaft TxtLoadOptions.KeepExactFormat hinzugefügt**
+Der TxtLoadOptions-Klasse wurde die Eigenschaft KeepExactFormat hinzugefügt, die angibt, ob die exakte Formatierung für den Zellenwert beibehalten werden soll, wenn String/Text in Zahlen oder DateTime konvertiert wird. Diese Eigenschaft wurde hinzugefügt, um dem Verhalten der MS Excel-Anwendung beim Laden von DateTime- oder numerischen Werten aus CSV-Dateien zu entsprechen. Um das Verhalten von MS Excel zu simulieren, setzen Sie die KeepExactFormat-Eigenschaft auf „false“, während der Standardwert „true“ ist, sodass der Zellenwert als Zeichenfolge in der Datei „CSV“ formatiert wird.
 
 **Java**
 

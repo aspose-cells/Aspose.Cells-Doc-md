@@ -38,7 +38,7 @@ url: /ja/java/filter-objects-while-loading-workbook-or-worksheet/
 - [VBA](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#VBA)
 - [スタイル](https://reference.aspose.com/cells/java/com.aspose.cells/loaddatafilteroptions#STYLE)
 ## **ワークブックの読み込み中にオブジェクトをフィルタリングする**
-次のサンプル コードは、ワークブックからグラフをフィルター処理する方法を示しています。を確認してください[サンプルエクセルファイル](5472489.xlsx)このコードと[PDF出力](5472488.pdf)それによって生成されます。出力 PDF でわかるように、すべてのグラフがワークブックから除外されています。
+次のサンプル コードは、ワークブックからグラフをフィルター処理する方法を示しています。を確認してください[サンプルエクセルファイル](5472489.xlsx)このコードと[出力 PDF](5472488.pdf)それによって生成されます。出力 PDF でわかるように、すべてのグラフがワークブックから除外されています。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FilterObjectsLoadingWorkbook-FilterObjectsLoadingWorkbook.java" >}}
 ## **ワークシートの読み込み中にオブジェクトをフィルタリングする**

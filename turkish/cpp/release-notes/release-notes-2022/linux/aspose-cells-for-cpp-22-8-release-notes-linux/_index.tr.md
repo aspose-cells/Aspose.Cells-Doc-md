@@ -15,6 +15,6 @@ Linux için Aspose.Cells for C++ 22.8 sürümünü duyurmaktan mutluluk duyuyoru
 |:- |:- |:- |
 |CELLSCPP-859| API referans sorununu düzeltin|Böcek|
 |CELLSCPP-880| Açık fos dosya formatı hatasını düzeltin|Böcek|
-|CELLSCPP-881| Özellikleri .Net sürümüyle senkronize edin|Destek|
+|CELLSCPP-881| Özellikleri .Net sürümüyle senkronize edin|Destek olmak|
 
 

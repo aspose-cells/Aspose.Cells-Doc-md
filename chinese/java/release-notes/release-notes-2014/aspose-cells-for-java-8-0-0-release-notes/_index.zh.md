@@ -23,7 +23,7 @@ Aspose.Cells for Java 已更新到版本 8.0.0，我们很高兴地宣布此版�
 
 其他改进和变化
 
-新的功能
+新功能
 
 (CELLSJAVA-40749) - 获取工作表页面的起始行/列和结束行/列索引
 (CELLSJAVA-40744) - 支持显示公式 MS Excel 功能
@@ -38,26 +38,26 @@ Aspose.Cells for Java 已更新到版本 8.0.0，我们很高兴地宣布此版�
 
 虫子
 
-(CELLSJAVA-40738) - setExportActiveWorksheetOnly 更改 HTML 中表格的对齐方式
+(CELLSJAVA-40738) - setExportActiveWorksheetOnly 更改表在 HTML 中的对齐方式
 (CELLSJAVA-40747) - 调用 Workbook.copy 时背景图像未复制到目标工作簿
-(CELLSJAVA-40276) - 将 excel 工作簿另存为 PDF 时，图像中的文本看起来是镜像的
-(CELLSJAVA-40573) - 保存为 PDF 时，某些单词被分开
+(CELLSJAVA-40276) - 将 excel 工作簿保存为 PDF 时，图像中的文本显示为镜像
+(CELLSJAVA-40573) - 保存到 PDF 时有些单词被分开
 (CELLSJAVA-40743) - 表自动过滤器在 xls 格式下不起作用，但在 xlsx 格式下工作正常
-(CELLSJAVA-40750) - 导出为 HTML 时，图像覆盖的单元格会丢失背景颜色
+(CELLSJAVA-40750) - 导出到 HTML 时，图像覆盖的单元格会丢失背景颜色
 (CELLSJAVA-40748) - 背景图像路径不正确
 (CELLSJAVA-40731) - 垂直文本问题
-(CELLSJAVA-40737) - Excel 到 PDF 转换中形状/控件的格式化问题
+(CELLSJAVA-40737) - Excel 中形状/控件到 PDF 转换的格式化问题
 (CELLSJAVA-40742) - 将 XLSX 转换为 PDF 时轴标签的包装不正确
-(CELLSJAVA-40757) - DateTime 列从 CSV 中错误地读取欧洲语言环境
+(CELLSJAVA-40757) - DateTime 列错误地从 CSV 读取欧洲语言环境
 (CELLSJAVA-40282) - 在将 Excel 工作表转换为 PDF 时镜像图像输出
-(CELLSJAVA-40585) - Aspose.Cells：嵌入式 sigma 绘图图表未正确呈现为 PDF/图像
+(CELLSJAVA-40585) - Aspose.Cells：嵌入式 sigma 绘图图表未正确呈现到 PDF/images
 (CELLSJAVA-40742) - 将 XLSX 转换为 PDF 时轴标签的包装不正确
 (CELLSJAVA-40758) - 输出 pdf 中的数据不正确
 (CELLSJAVA-40762) - Cell.getDependents(true) 问题 - Cells 来自不应该在列表中的其他工作表
 (CELLSJAVA-40756) - CellsException：Workbook.calculateFormula(false) 处为空
 (CELLSJAVA-40748) - 背景图像路径不正确
 (CELLSJAVA-40754) - 将形状导出到带有错误背景颜色的 html
-(CELLSJAVA-40766) - XLSX 到 HTML：hideColumn 在 HTML 中产生 Null 值的问题
+(CELLSJAVA-40766) - XLSX 到 HTML：hideColumn 在 HTML 中产生空值时出现问题
 (CELLSJAVA-40769) - 重新计算单元格的公式
 
 (CELLSJAVA-40771) - 行隐藏和行高问题
@@ -84,7 +84,7 @@ Aspose.Cells for Java 已更新到版本 8.0.0，我们很高兴地宣布此版�
 获取和设置生成pdf文档的时间。
 
 添加 FileFormatType.Ooxml 枚举
-表示加密的office open xml文件（如XLSX、DOCX、PPTX等）。
+表示加密后的office open xml文件（如XLSX、DOCX、PPTX等）。
 
 添加 LoadOptions.MemorySetting 属性和 WorkbookSettings.MemorySetting 属性
 从这个版本开始，我们为用户提供内存使用选项以供性能考虑。默认选项 MemorySetting.NORMAL 适用于所有版本。对于某些情况，例如构建包含大量单元格数据集的工作簿，MemorySetting.MEMORY_PREFERENCE 选项可以优化内存使用并降低用户应用程序的内存成本。但是，此选项在某些特殊情况下可能会降低性能，例如随机和重复访问单元格。

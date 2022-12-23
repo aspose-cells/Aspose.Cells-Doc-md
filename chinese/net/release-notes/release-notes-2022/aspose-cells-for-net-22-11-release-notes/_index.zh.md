@@ -14,11 +14,11 @@ url: /zh/net/aspose-cells-for-net-22-11-release-notes/
 |:- |:- |:- |
 |CELLSNET-52026|支持复制时间轴|
 |CELLSNET-52022|区分或区分 CSE 遗留数组公式和普通数组公式|
-|CELLSNET-52156|将 XLSX 保存为 HTML 时禁用合并的表格单元格|
+|CELLSNET-52156|将 XLSX 保存到 HTML 时禁用合并表格单元格|
 |CELLSNET-52159|支持在将 html 转换为 excel 时解析折叠属性|
 |CELLSNET-51939|XLSX 到 PDF：内容错位|
 |CELLSNET-51940|XLS 到 PDF：单元格中的内容未对齐|
-|CELLSNET-52068|XLSX 到 PDF：缺少形状/布局折叠|
+|CELLSNET-52068|XLSX 至 PDF：形状丢失/布局折叠|
 |CELLSNET-52092|Excel图形中的字符打印和间距被截断|
 |CELLSNET-52186|将 XLSX 文档转换为 PDF 时形状/框为空|
 |CELLSNET-52225|XLSX 到 PDF 文本框中的字符反转|
@@ -39,10 +39,10 @@ url: /zh/net/aspose-cells-for-net-22-11-release-notes/
 |CELLSNET-52151|保存 xlsb 用最后一条评论替换所有评论|
 |CELLSNET-52152|通过Aspose.Cells应用AutoFit行操作时行高值不正确|
 |CELLSNET-52155|范围复制后条件格式丢失|
-|CELLSNET-52181|XLSX 到 HTML：Cells 范围未正确导出|
+|CELLSNET-52181|XLSX 至 HTML：Cells 范围未正确导出|
 |CELLSNET-52214|最后一行内容在输出 Excel 文件中被截断|
 |CELLSNET-52236|智能标记（组：合并）不适用于合并的单元格|
-|CELLSNET-52241|文档中的框（形状）不会出现在输出 PDF 中|
+|CELLSNET-52241|文档中的框（形状）未出现在输出中 PDF|
 |CELLSNET-52243|保存工作簿时修改 VBA 项目会抛出错误|
 
 ## **公共 API 和向后不兼容的更改**

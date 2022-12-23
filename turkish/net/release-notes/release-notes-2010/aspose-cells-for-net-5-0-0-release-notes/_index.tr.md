@@ -16,8 +16,8 @@ url: /tr/net/aspose-cells-for-net-5-0-0-release-notes/
 
 - MS Excel 2007 XLSB dosya biçimi desteği içerir.
  Kopyala ve Yapıştır Özel özelliği sağlar.
- Akıllı İşaretleyicileri Sıralamayı Destekler.
-37 geliştirme ve düzeltmeler.
+Akıllı İşaretleyicileri Sıralamayı Destekler.
+ 37 geliştirme ve düzeltmeler.
 
  Aspose.Cells.GridWeb'de neler değişti:
 

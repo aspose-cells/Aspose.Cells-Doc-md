@@ -14,5 +14,5 @@ url: /fr/sharepoint/aspose-cells-for-sharepoint-1-0-0-release-notes/
 
  Quoi de neuf:
 
--  Prise en charge des formats d'entrée MS Excel : XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
+- Prise en charge des formats d'entrée MS Excel : XLS, XLSX, XLST, XLSM, CSV, ODS, SpreadsheetML, TXT.
 -  Prise en charge des formats de sortie : XLS, XLSX, CSV, HTML, ODS, PDF, SpreadsheetML, TXT.

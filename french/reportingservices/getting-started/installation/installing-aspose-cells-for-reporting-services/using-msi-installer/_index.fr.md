@@ -15,21 +15,21 @@ url: /fr/reportingservices/using-msi-installer/
 **Processus d'installation**
 Pour installer Aspose.Cells à l'aide du programme d'installation MSI :
 
-1.  L'écran de bienvenue est le premier écran de l'installation. Cliquez sur**Prochain**.
+1.  L'écran de bienvenue est le premier écran de l'installation. Cliquez sur**Suivant**.
 
 ![tâche : image_autre_texte](using-msi-installer_1.png)
 
 
 
 
-1.  Lisez et acceptez le contrat de licence et cliquez sur**Prochain**.
+1.  Lisez et acceptez le contrat de licence et cliquez sur**Suivant**.
 
 ![tâche : image_autre_texte](using-msi-installer_2.png)
 
 
 
 
-1.  Sélectionnez le dossier d'installation et cliquez sur**Prochain**. 
+1.  Sélectionnez le dossier d'installation et cliquez sur**Suivant**. 
 
 ![tâche : image_autre_texte](using-msi-installer_3.png)
 

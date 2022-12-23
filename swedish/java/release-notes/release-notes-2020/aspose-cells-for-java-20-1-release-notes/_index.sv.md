@@ -13,16 +13,16 @@ url: /sv/java/aspose-cells-for-java-20-1-release-notes/
 |**Nyckel**|**Sammanfattning**|**Kategori**|
 |:- |:- |:- |
 |CELLSJAVA-41325|Cell.getValidation-metoden returnerar null för ODS|Ny funktion|
-|CELLSJAVA-43074|XLSX till PDF, skillnad i PDF-utdata när du använder Oracle JDK vs Open JDK|Förbättring|
+|CELLSJAVA-43074|XLSX till PDF, skillnad i PDF utdata när du använder Oracle JDK vs Open JDK|Förbättring|
 |CELLSJAVA-43083|Opacitet tillämpas inte på kolumndiagram|Insekt|
 |CELLSJAVA-41879|%of, %of Row, %of ParentRowTotal, %ParentTotal, etc. fungerar inte i pivot excel-utdata|Insekt|
-|CELLSJAVA-43062|Cells standardbakgrundsfärg är fel i utdata-HTML|Insekt|
+|CELLSJAVA-43062|Cells standardbakgrundsfärg är fel i utdata HTML|Insekt|
 |CELLSJAVA-43063|Utdata från SheetRender.toImage() är felaktig|Insekt|
 |CELLSJAVA-43070|calculateFormula() beräknar inte värde|Insekt|
 |CELLSJAVA-43086|Formatformat för procent har tillämpats felaktigt under norsk språk|Insekt|
 |CELLSJAVA-43082|Mindre teckensnitt återges i varje första rad i tabellen|Insekt|
-|CELLSJAVA-41360|Cells med formler visas i PDF-filen medan de inte visas i ODS|Insekt|
-|CELLSJAVA-42786|ODS till XLSX - linjediagram förlorar linjer och teckenförklaringar|Insekt|
+|CELLSJAVA-41360|Cells med formler visas inuti PDF medan de inte visas i ODS|Insekt|
+|CELLSJAVA-42786|ODS till XLSX - linjediagram förlorar rader och teckenförklaringar|Insekt|
 |CELLSJAVA-42788|ODS till XLSX - cirkel blir kvadratisk|Insekt|
 |CELLSJAVA-43073|DataMashup-information är inte tillgänglig i arbetsboken|Insekt|
 |CELLSJAVA-43092|Kan inte bearbeta Excel-fil|Insekt|
@@ -38,7 +38,7 @@ Hämtar definitionen av power-frågeformeln.
 ### **Lägger till egenskapen DBConnection.PowerQueryFormula.**
 Hämtar definitionen av kraftfrågeformel.
 ### **Lägger till egenskapen HtmlSaveOptions.ExportHeadings.**
-Anger om rubriker exporteras när filen sparas till HTML. Standardvärdet är falskt. Om du vill importera HTML-filen till Excel, behåll standardvärdet.
+Anger om rubriker exporteras när filen sparas till HTML. Standardvärdet är falskt. Om du vill importera filen HTML till Excel, behåll standardvärdet.
 ### **Lägger till XAdESType-klass**
 Typ av XML Advanced Electronic Signature (XAdES).
 ### **Lägger till egenskapen DigitalSignature.XAdESType**

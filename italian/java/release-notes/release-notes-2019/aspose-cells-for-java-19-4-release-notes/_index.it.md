@@ -10,10 +10,10 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.4.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42838|Disattivazione della proprietà del riquadro delle attività di visualizzazione automatica.|Nuova caratteristica|
-|CELLSJAVA-42853|Problema di prestazioni durante la conversione di XLSX in HTML|Aumento|
+|CELLSJAVA-42853|Problema di prestazioni durante la conversione da XLSX a HTML|Aumento|
 |CELLSJAVA-42852|L'etichetta su entrambi gli assi non viene visualizzata|Insetto|
 |CELLSJAVA-42856|Problema di conversione da Excel a HTML|Insetto|
 |CELLSJAVA-42872|Immagine del foglio, mancano le righe destra e inferiore|Insetto|
@@ -29,10 +29,10 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 19.4.
 |CELLSJAVA-42865|Ora errata letta da una cella nel file ODS|Insetto|
 |CELLSJAVA-42879|Il file Excel viene danneggiato dopo il salvataggio da parte di Aspose.Cells|Insetto|
 |CELLSJAVA-42860|java.lang.NullPointerException durante il caricamento di un formato di file ODS|Eccezione|
-|CELLSJAVA-42871|java.lang.Exception: clone non supportato per il flusso di backup durante la conversione di XLSX in PDF|Eccezione|
+|CELLSJAVA-42871|java.lang.Exception: clone non supportato per il flusso di backup durante la conversione da XLSX a PDF|Eccezione|
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge le API per il salvataggio del documento Markdown: SaveFormat.Markdown, FileFormatType.Markdown, MarkdownSaveOptions**
 Supporta il salvataggio del contenuto delle celle come tabella markdown. Con il metodo Workbook.Save(), tutto il contenuto delle celle nel foglio attivo verrà esportato come tabella nel documento markdown.
 ### **Rimuove le proprietà obsolete di TxtLoadOptions**

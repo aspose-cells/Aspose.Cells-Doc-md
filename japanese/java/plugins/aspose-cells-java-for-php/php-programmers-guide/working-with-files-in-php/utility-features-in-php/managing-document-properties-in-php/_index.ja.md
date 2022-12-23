@@ -7,7 +7,7 @@ url: /ja/java/managing-document-properties-in-php/
 ## **Aspose.Cells - カスタム プロパティの追加**
 Aspose.Cells Java for PHP を使用してカスタム ドキュメント プロパティを追加するには、次のように呼び出します。**add_custom_property**の方法**書類**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

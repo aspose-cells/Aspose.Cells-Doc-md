@@ -9,10 +9,10 @@ La tabella seguente mostra le icone e gli strumenti delle barre dei comandi sull
 |**Comando** |**Immagine** |**Descrizione** |
 |:- |:- |:- |
 | Apri rapporto locale|![cose da fare:immagine_alt_testo](command-bars_1.png)| Apre un file RDL dal PC locale e carica il contesto del file.|
-| Apri rapporto remoto|![cose da fare:immagine_alt_testo](command-bars_2.png)|Apre un file RDL dal server di report e carica il contesto del file.|
+| Apri rapporto remoto|![cose da fare:immagine_alt_testo](command-bars_2.png)| Apre un file RDL dal server di report e carica il contesto del file.|
 | Salva report|![cose da fare:immagine_alt_testo](command-bars_3.png)| Salva il rapporto di progettazione localmente o sul server.|
 | Pubblica rapporto|![cose da fare:immagine_alt_testo](command-bars_4.png)| Carica il file RDL sul server.|
-| Visualizza rapporto|![cose da fare:immagine_alt_testo](command-bars_5.png)| Visualizza un'anteprima del report dal server.|
+|Visualizza rapporto|![cose da fare:immagine_alt_testo](command-bars_5.png)| Visualizza un'anteprima del report dal server.|
 | Crea set di dati e origine dati|![cose da fare:immagine_alt_testo](command-bars_6.png)| Crea set di dati e origini dati.|
 | Modifica parametro rapporto|![cose da fare:immagine_alt_testo](command-bars_7.png)| Modifica la relazione tra parametri di report e parametri di query.|
 | Inserisci formula|![cose da fare:immagine_alt_testo](command-bars_8.png)| Inserisce la formula nella cella attraverso le finestre dell'editor delle formule|

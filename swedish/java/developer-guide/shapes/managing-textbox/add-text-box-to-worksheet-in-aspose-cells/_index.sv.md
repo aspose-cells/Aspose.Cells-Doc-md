@@ -9,7 +9,7 @@ keywords: add/insert Text Box TextBox Worksheet Excel Aspose
 ---
 ## Lägg till textruta till kalkylblad i Excel
 
-I Excel-programmet (version 07 och högre) finns det två ställen där du kan infoga textrutor. En i "infoga-former", den andra är på höger sida av toppmenyn i alternativet "Infoga".
+Excel-programmet (version 07 och högre) finns det två ställen där du kan infoga textrutor. En i "infoga-former", den andra är på höger sida av toppmenyn i alternativet "Infoga".
 
 ### metod ett:
 

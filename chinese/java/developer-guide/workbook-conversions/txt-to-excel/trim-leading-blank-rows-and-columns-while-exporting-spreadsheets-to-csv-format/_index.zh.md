@@ -26,9 +26,9 @@ url: /zh/java/trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-t
 
 ## **将电子表格导出为 CSV 格式时修剪前导空白行和列**
 
-以下示例代码加载具有两个前导空白列的源 excel 文件。它首先将 excel 文件保存为 CSV 格式，不做任何更改，然后设置**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**财产给**真的**并再次保存。屏幕截图显示[源文件](sampleTrimBlankColumns.xlsx), [输出 CSV 文件而不修剪](outputWithoutTrimBlankColumns.csv)和[输出带修整的 CSV 文件](outputTrimBlankColumns.csv).
+以下示例代码加载具有两个前导空白列的源 excel 文件。它首先将 excel 文件保存为 CSV 格式，不做任何更改，然后设置**[TxtSaveOptions.TrimLeadingBlankRowAndColumn](https://reference.aspose.com/cells/java/com.aspose.cells/txtsaveoptions#TrimLeadingBlankRowAndColumn)**财产给**真的**并再次保存。屏幕截图显示[源文件](sampleTrimBlankColumns.xlsx), [不修剪输出 CSV 文件](outputWithoutTrimBlankColumns.csv)和[带修剪的输出 CSV 文件](outputTrimBlankColumns.csv).
 
-![待办事项：图像_替代_文本](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
+![待办事项：图片_替代_文本](trim-leading-blank-rows-and-columns-while-exporting-spreadsheets-to-csv-format_1.png)
 
 ## **示例代码**
 

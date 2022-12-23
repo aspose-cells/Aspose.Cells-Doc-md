@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.3.1
+title: Pubblico API Modifiche Aspose.Cells 8.3.1
 type: docs
 weight: 110
 url: /it/net/public-api-changes-in-aspose-cells-8-3-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.3.0 alla 8.3.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.3.0 alla 8.3.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -243,9 +243,9 @@ m_workbook.Save("ODF1.1.ods", options)
  Aspose.Cells Le API hanno esposto il metodo SparklineCollection.Add(string dataRange, int row, int column) per specificare l'intervallo di dati e la posizione del gruppo Sparkline. Si noti che Excel fornisce la stessa funzionalità attraverso i seguenti passaggi.
 
 1. Seleziona la cella contenente il tuo Sparkline.
-1.  Selezionare**Modifica i dati dalla sparkline** sezione all'interno del**Disegno** scheda
+1.  Selezionare**Modifica i dati dalla sparkline** sezione all'interno del**Design** scheda
 1.  Scegliere**Modifica la posizione e i dati del gruppo**.
-1. Specificare**Intervallo di dati** & **Posizione**.
+1.  Specificare**Intervallo di dati** & **Posizione**.
 
  Il seguente codice di esempio carica il foglio di calcolo di origine, accede al primo gruppo sparkline e aggiunge nuovi intervalli di dati e posizioni per il gruppo sparkline.
 

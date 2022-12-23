@@ -30,15 +30,15 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Hatalar**
 
 
- (CELLSNET-43581) - Excel dosyası PDF'ye dönüştürüldüğünde metin başlıktan dışarı taşınıyor
+ (CELLSNET-43581) - Excel dosyası PDF'e dönüştürüldüğünde metin başlığın dışına taşınıyor
 
  (CELLSNET-43639) - Filigranlar düzgün görüntülenmiyor
 
- (CELLSNET-43645) - Gömülü OLE nesnesi XLSX'ten HTML'ye kaydedilemiyor
+ (CELLSNET-43645) - Katıştırılmış OLE nesnesi XLSX'den HTML'e kaydedilemiyor
 
  (CELLSNET-43613) - Özel yazı tipi SheetRender ile çalışmıyor
 
- (CELLSNET-43573) - PDF'ye dönüştürülürken sütunlar sonraki sayfaya taşındı
+ (CELLSNET-43573) - PDF'e dönüştürülürken sütunlar sonraki sayfaya taşındı
 
  (CELLSNET-43571) - Aspose.Cells aracılığıyla oluşturulan PDF'de hatalı sayfa sonu
 
@@ -46,15 +46,15 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43591) - Yanlış Pasta Grafiğinin veri etiketi değeri
 
- (CELLSNET-43574) - Veri etiketlerinin metni, PDF'ye dönüştürüldüğünde grafik alanını aşıyor
+ (CELLSNET-43574) - Veri etiketlerinin metni, PDF'e dönüştürüldüğünde grafik alanını aşıyor
 
  (CELLSNET-43568) - Grafiği Görüntüye Dönüştürme ve görüntüyü ekleme
 
  (CELLSNET-43502) - Ana Izgara çizgileri kayboluyor ve seri efsanesi merkeze geliyor
 
- (CELLSNET-41716) - X Ekseni etiketleri düzgün görüntülenmiyor
+(CELLSNET-41716) - X Ekseni etiketleri düzgün görüntülenmiyor
 
-(CELLSNET-43641) - Yinelemeli hesaplama etkinleştirildiğinde formüllerin hesaplanmasıyla ilgili sorun
+ (CELLSNET-43641) - Yinelemeli hesaplama etkinleştirildiğinde formüllerin hesaplanmasıyla ilgili sorun
 
  (CELLSNET-43637) - YÜZDERANK işlevi için yanlış formül sonuçları
 
@@ -78,11 +78,11 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **İstisnalar**
 
 
- (CELLSNET-43585) - elektronik tabloyu PDF'ye dönüştürürken Aspose.Cells.CellsException
+ (CELLSNET-43585) - elektronik tabloyu PDF'e dönüştürürken Aspose.Cells.CellsException
 
- (CELLSNET-43609) - Bir Excel dosyasının PDF dosya biçimine dönüştürülmesine ilişkin istisna
+(CELLSNET-43609) - Bir Excel dosyasının PDF dosya biçimine dönüştürülmesine ilişkin istisna
 
-(CELLSNET-43583) - SheetRender.ToImage yönteminde GDI Hatası
+ (CELLSNET-43583) - SheetRender.ToImage yönteminde GDI Hatası
 
  (CELLSNET-43565) - xlsx'i pdf'ye kaydetme konusunda CellsException
 
@@ -104,11 +104,11 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43570) - ListObject.ConvertToRange, NullReferenceException'ı bir tabloya atar
 
- (CELLSNET-43564) - Bir XLSB dosyasını geri kaydederken NullReferenceException
+ (CELLSNET-43564) - XLSB dosyasını geri kaydederken NullReferenceException
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -116,9 +116,9 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Hatalar**
 
 
- (CELLSNET-43610) - SaveCommand olayı tetiklenmiyor
+(CELLSNET-43610) - SaveCommand olayı tetiklenmiyor
 
-(CELLSNET-43551) - IE8, Hollanda-Belçika özel biçimiyle düzgün çalışmıyor
+ (CELLSNET-43551) - IE8, Hollanda-Belçika özel biçimiyle düzgün çalışmıyor
 
 
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**
@@ -140,8 +140,8 @@ url: /tr/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-PasteType.Default ve PasteType.DefaultExceptBorders numaralandırmalarını ekler.
+ PasteType.Default ve PasteType.DefaultExceptBorders numaralandırmalarını ekler.
 
- MS Excel'de aralığı "Tümü" ve "Kenarlıklar hariç tümü" olarak kopyalamak için kullanılır.
+MS Excel'de aralığı "Tümü" ve "Kenarlıklar hariç tümü" olarak kopyalamak için kullanılır.
 
 

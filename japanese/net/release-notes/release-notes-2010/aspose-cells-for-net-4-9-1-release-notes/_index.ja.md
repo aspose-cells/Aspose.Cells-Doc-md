@@ -49,18 +49,18 @@ Aspose.Cells for .NET v4.9.1 で解決された問題
 |:- |:- |:- |
 |13526 |Chart2Image|Chart ToImage メソッドの問題|
 |14888 |Chart2Image|Chart.ToImage での PlotArea の配置の問題|
-|16011 |CSV|CSV を改行で読み取る|
+|16011 |CSV |CSV を改行で読む|
 |14183 | PDF|ヘッダー/フッターがページの余白に合わない|
 |14501 | PDF|Excelファイルをpdfに変換する際のエラー|
 |15741 | PDF|グリッド線が表示されない|
 |15910 | PDF|ブックマークとページ間のリンクがありません|
 |16207 | PDF|PDF ファイルの保存中にエラーが発生しました|
 |16260 | PDF|さまざまなファイル タイプを tif に変換する|
-|16328 | PDF|XLS から PDF への変換の問題|
+|16328 | PDF|XLS から PDF への変換 問題|
 |16377 | PDF|セル内の一部のテキストが消える|
-|16402 | PDF|XLS から PDF への変換の問題|
+|16402 | PDF|XLS から PDF への変換 問題|
 |16472 | PDF|フォーマットの問題|
-|16499 | PDF|PDF にフォントが埋め込まれていない|
+|16499 | PDF|PDF フォントが埋め込まれていません|
 |13606 |Worksheet2Image|印刷/保存されたExcelファイルのいくつかの違い|
 |16236 |Worksheet2Image| sheet2imagebypage の問題|
 |15981 |xls|数式計算に関する問題|

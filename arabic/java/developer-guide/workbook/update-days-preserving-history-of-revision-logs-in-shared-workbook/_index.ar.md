@@ -6,7 +6,7 @@ url: /ar/java/update-days-preserving-history-of-revision-logs-in-shared-workbook
 ---
 ## **سيناريوهات الاستخدام الممكنة**
 
-عند مشاركة مصنف ، تحصل على خيار يقول***احتفظ بسجل التغييرات لمدة N أيام***كما هو موضح في الصورة التالية. يمكنك تحديث عدد الأيام لحفظ المحفوظات باستخدام Aspose.Cells مع[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)منشأه.
+عند مشاركة مصنف ، تحصل على خيار يقول***احتفظ بسجل التغييرات لمدة N أيام***كما هو موضح في الصورة التالية. يمكنك تحديث عدد الأيام لحفظ المحفوظات باستخدام Aspose.Cells مع[**WorksheetCollection.RevisionLogs.DaysPreservingHistory**](https://reference.aspose.com/cells/java/com.aspose.cells/revisionlogcollection#DaysPreservingHistory)خاصية.
 
 ![ما يجب القيام به: image_بديل_نص](update-days-preserving-history-of-revision-logs-in-shared-workbook_1.png)
 

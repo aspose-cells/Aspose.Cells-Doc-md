@@ -33,7 +33,7 @@ Dieser Abschnitt enthält die folgenden Themen
   - [Konvertieren Sie Diagramme in Bilder](/cells/de/net/convert-charts-to-images/)
   - [Tabellen drucken](/cells/de/net/print-spreadsheets/)
   - [Geben Sie Bildauflösung, Qualität, Komprimierung und andere Optionen an](/cells/de/net/specify-image-resolution-quality-compression-and-other-options/)
-- [Speichern Sie die Arbeitsmappe mit Aspose.Cells im Text- oder CSV-Format](/cells/de/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
+- [Speichern Sie die Arbeitsmappe im Text- oder CSV-Format mit Aspose.Cells](/cells/de/net/save-workbook-to-text-or-csv-format-using-aspose-cells/)
 - [Setzen Sie externe Links in Formeln in Aspose.Cells](/cells/de/net/set-external-links-in-formulas-in-aspose-cells/)
 - [Festlegen des Formelberechnungsmodus der Arbeitsmappe in Aspose.Cells](/cells/de/net/setting-formula-calculation-mode-of-workbook-in-aspose-cells/)
 - [Festlegen der gemeinsamen Formel in Aspose.Cells](/cells/de/net/setting-shared-formula-in-aspose-cells/)

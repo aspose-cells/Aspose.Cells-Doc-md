@@ -20,7 +20,7 @@ Aspose.Cells له محرك حساب معادلة مضمنة. لا يمكنه ف�
 
 {{% alert color="primary" %}}
 
- ال**معادلة** الملكية و**SetFormula (...]** طرق[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)فئة العمل بشكل مختلف عن**احسب** طرق[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) و[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) الطبقات. ال**معادلة** الملكية و**SetFormula (...]** الطرق ببساطة تضيف الصيغة إلى خلية ولكن لا تحسب النتيجة في وقت التشغيل. للحصول على نتيجة الصيغ ، يرجى الاتصال**احسب** طُرق.
+ ال**معادلة** الملكية و**SetFormula (...]** طرق[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell)فئة العمل بشكل مختلف عن**احسب** طرق[**دفتر العمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook), [**ورقة عمل**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet) و[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) الطبقات. ال**معادلة** الملكية و**SetFormula (...]** الطرق ببساطة تضيف الصيغة إلى خلية ولكن لا تحسب النتيجة في وقت التشغيل. للحصول على نتيجة الصيغ ، يرجى الاتصال**احسب** أساليب.
 
 {{% /alert %}}
 

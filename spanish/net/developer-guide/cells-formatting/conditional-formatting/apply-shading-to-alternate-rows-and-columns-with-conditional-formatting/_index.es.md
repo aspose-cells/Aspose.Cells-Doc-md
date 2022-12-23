@@ -25,7 +25,7 @@ La siguiente instantánea muestra la hoja de cálculo resultante cargada en la a
 |![todo:imagen_alternativa_texto](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_1.png)|
 |:- |
 
- Para aplicar el sombreado a columnas alternativas, todo lo que tiene que hacer es cambiar la fórmula**=MOD(FILA(),2)=0** como**=MOD(COLUMNA(),2)=0** , eso es; en lugar de obtener el índice de la fila, modifique la fórmula para recuperar el índice de la columna.
+ Para aplicar el sombreado a columnas alternativas, todo lo que tiene que hacer es cambiar la fórmula**=MOD(FILA(),2)=0** como**=MOD(COLUMNA(),2)=0** , es decir; en lugar de obtener el índice de la fila, modifique la fórmula para recuperar el índice de la columna.
 La hoja de cálculo resultante, en este caso, tendrá el siguiente aspecto.
 
 |![todo:imagen_alternativa_texto](apply-shading-to-alternate-rows-and-columns-with-conditional-formatting_2.png)|

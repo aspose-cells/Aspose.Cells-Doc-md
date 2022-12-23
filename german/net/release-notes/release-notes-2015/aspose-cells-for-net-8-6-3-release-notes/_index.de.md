@@ -52,19 +52,19 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 (CELLSNET-43917) – Text wurde beim Konvertieren der Tabelle in HTML gekürzt
 
-(CELLSNET-43914) – Text überläuft das Feld, während die Tabelle in PDF gerendert wird
+(CELLSNET-43914) – Text überläuft das Feld, während die Tabelle auf PDF gerendert wird
 
 (CELLSNET-44111) – Hyperlinkadressen mit chinesischen Zeichen werden nicht richtig konvertiert
 
-(CELLSNET-44080) - Cells Text wurde während der Konvertierung in PDF leicht nach rechts verschoben
+(CELLSNET-44080) - Cells-Text wurde während der Konvertierung in PDF leicht nach rechts verschoben
 
-(CELLSNET-44125) – Das Speichern in PDF schlägt für ein Excel-Dokument fehl
+(CELLSNET-44125) – Das Speichern unter PDF schlägt für ein Excel-Dokument fehl
 
 (CELLSNET-44117) – Falsche Konvertierung für den Titel und die Legende des Diagramms
 
 (CELLSNET-44086) – Die horizontale Achse des Diagramms in der PDF-Datei ist falsch skaliert und umgekehrt
 
-(CELLSNET-44079) – Einige Einträge der Diagrammlegende fehlen beim Speichern als PDF
+(CELLSNET-44079) - Einige Einträge der Diagrammlegende fehlen beim Speichern unter PDF
 
 (CELLSNET-44046) – Chart.ToImage ändert die Ausrichtung der Etiketten
 
@@ -74,13 +74,13 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 (CELLSNET-44131) - Abhängig von der Anzahl der eingefügten Zeilen werden einige falsche Formeln angezeigt
 
-(CELLSNET-44128) - Speichern in XLSB bricht Formeln wie =SUM(Table[Col])
+(CELLSNET-44128) - Speichern unter XLSB bricht Formeln wie =SUM(Table[Col])
 
 (CELLSNET-44082) - Aspose.Cells zeigt beim Speichern ausgeblendete Stile an
 
 (CELLSNET-44081) – Beim Kombinieren von zwei Arbeitsmappen entsteht eine beschädigte Datei
 
-(CELLSNET-44076) – ListObject.ListColumns[i].Name ist falsch, wenn Workbook die XLS-Datei öffnet
+(CELLSNET-44076) – ListObject.ListColumns[i].Name ist falsch, wenn Workbook die Datei XLS öffnet
 
 (CELLSNET-44028) – Die Pivot-Tabelle wird nicht aktualisiert, wenn Sie auf die Schaltfläche „Daten“ > „Alle aktualisieren“ klicken
 
@@ -100,7 +100,7 @@ Im Folgenden finden Sie eine Liste der Verbesserungen und Änderungen in dieser 
 
 (CELLSNET-44099) – CalculateFormula löst eine Ausnahme aus
 
-(CELLSNET-44127) – Das Speichern in einer PDF-Datei/einem Speicherstream verursacht eine Ausnahme
+(CELLSNET-44127) – Das Speichern im Datei-/Speicherstream PDF verursacht eine Ausnahme
 
 (CELLSNET-44085) – System.Exception beim Laden von ODS
 

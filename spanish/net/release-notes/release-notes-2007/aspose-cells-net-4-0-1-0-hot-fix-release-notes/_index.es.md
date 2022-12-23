@@ -17,5 +17,5 @@ url: /es/net/aspose-cells-net-4-0-1-0-hot-fix-release-notes/
 - Se agregaron nuevas demostraciones de gráficos
 - Errores corregidos en el método InsertRows/DeleteRows
 - Se corrigió un error al cargar/guardar el archivo SpreadsheetML
-- Se corrigió un error al cargar un archivo CSV que contiene un solo punto (.) en una celda
+- Se corrigió el error al cargar el archivo CSV que contiene un solo punto (.) en una celda
 - Se corrigió un error en la función xls2pdf

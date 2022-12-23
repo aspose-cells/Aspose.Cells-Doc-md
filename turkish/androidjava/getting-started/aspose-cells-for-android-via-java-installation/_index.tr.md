@@ -42,11 +42,11 @@ Bu konu, Android Studio IDE'de Aspose.Cells for Android via Java'i kurmak için 
 
 {{% alert color="primary" %}} 
 
-Android Studio'yu henüz yüklemediyseniz, önce Android Studio'nun kurulumunu edinmeniz ve makinenize yüklemeniz gerekir. Android Studio'nun en son sürümünü adresinden indirebilirsiniz.[burada](https://developer.android.com/studio/index.html#win-bundle) oysa IDE'nin nasıl kurulacağına ilişkin ayrıntılar mevcuttur[burada](https://developer.android.com/studio/install.html).
+Android Studio'yu henüz yüklemediyseniz, önce Android Studio'nun kurulumunu edinmeniz ve makinenize yüklemeniz gerekir. Android Studio'nun en son sürümünü adresinden indirebilirsiniz.[Burada](https://developer.android.com/studio/index.html#win-bundle) oysa IDE'nin nasıl kurulacağına ilişkin ayrıntılar mevcuttur[Burada](https://developer.android.com/studio/install.html).
 
 {{% /alert %}} {{% alert color="primary" %}} 
 
- Aspose.Cells for Android via Java paket adresinden indirilebilir.[burada](https://downloads.aspose.com/cells/androidjava). Lütfen unutmayın, Aspose.Cells for Android via Java'in her bir sürüm paketi, aşağıda ayrıntıları verildiği gibi temel olarak 2 dosyadan oluşur.
+ Aspose.Cells for Android via Java paket adresinden indirilebilir.[Burada](https://downloads.aspose.com/cells/androidjava). Lütfen unutmayın, Aspose.Cells for Android via Java'in her bir sürüm paketi, aşağıda ayrıntıları verildiği gibi temel olarak 2 dosyadan oluşur.
 
 - **aspose-hücreleri-xxxjar** Aspose.Cells for Android via Java API'den tüm ad alanlarını içeren ana kitaplık dosyasıdır.
 - **aspose-cells-xxx-libs.apk** Aspose.Cells for Android via Java API tarafından sunulan şifreleme ve şifre çözme olanakları için kullanılan 3. taraf bcprov-jdk15-146.jar'ı içeren APK'dır.
@@ -55,35 +55,35 @@ Android Studio'yu henüz yüklemediyseniz, önce Android Studio'nun kurulumunu e
 ### **Android Studio'da Aspose.Cells for Android via Java ile Başlarken**
 Android Studio IDE yüklendikten sonra, aşağıda gösterildiği gibi Dosya > Yeni > Yeni Proje'ye tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_1.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_1.png)
 
 Aşağıda gösterildiği gibi Android Studio'nun Karşılama Ekranından da yeni bir proje oluşturabilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_2.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_2.png)
 
 Ardından, proje dosyalarını depolamak için uygulama adını, etki alanını ve konumu belirtmeniz istenecektir. Varsayılan değerleri seçiminize göre değiştirmeyi veya olduğu gibi bırakmayı seçebilir ve İleri'ye tıklayabilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_3.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_3.png)
 
 Bir sonraki adımda, uygulamanızı barındırmak/çalıştırmak istediğiniz Android Cihazı belirtmeniz gerekir. Seçildikten sonra İleri düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_4.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_4.png)
 
 Şimdi önceden tanımlanmış bir şablon listesinden Aktiviteyi seçmeniz gerekiyor. Gösterimi basit tutmak için aşağıda gösterildiği gibi Boş Etkinlik şablonunu seçtik.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_5.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_5.png)
 
 Tüm varsayılan ayarları olduğu gibi koruyacağımız için Etkinliği Özelleştir iletişim kutusunda Bitir düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_6.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_6.png)
 
 Önceki adımda Bitir düğmesine tıkladığınız anda, IDE aşağıda gösterildiği gibi projeyi oluşturmaya başlayacaktır. Bitmesine izin verin veya İptal düğmesine tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_7.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_7.png)
 
 Artık proje IDE'ye yüklenmiştir, ancak, proje dosyalarının tüm hiyerarşisini görüntüleyebilmek için görünümü Proje olarak değiştirmek isteyebilirsiniz. Görünümü değiştirmek için lütfen aşağıdaki anlık görüntüyü kontrol edin.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_8.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_8.png)
 
  Görünümü Proje olarak değiştirdikten sonra,**yapı.gradle** düzenleyicide dosya ve aşağıdaki parçacığı aşağıda gösterildiği gibi yapıştırın.
 
@@ -97,22 +97,22 @@ Artık proje IDE'ye yüklenmiştir, ancak, proje dosyalarının tüm hiyerarşis
 
 {{< /highlight >}}
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_9.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_9.png)
 
 Ardından Aspose.Cells for Android via Java Jar'ı projeye ekleyeceğiz. Aşağıda ayrıntıları verilen 2 önemli adım vardır.
 
--  Aspose.Cells for Android via Java Jar'ı manuel olarak şuraya kopyalayın:**\app\libs** dosya.
+-  Aspose.Cells for Android via Java Jar'ı manuel olarak şuraya kopyalayın:**\app\libs** Klasör.
 - Aspose.Cells for Android via Java Jar as Library'yi aşağıda gösterildiği gibi modüle ekleyin.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_10.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_10.png)
 
 Aspose.Cells for Java.Android Jar'ı kütüphane olarak eklemek istediğiniz modülü seçmeniz istenecektir. Lütfen uygun olanı seçin ve Tamam'ı tıklayın.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_11.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_11.png)
 
- APK dosyasını da projeye eklemeniz gerekiyor. APK'yı şuraya kopyalamanız gerekir:**\app\src\main\varlıklar**dosya. Ana klasörün altında varlıklar klasörünüz yoksa, Proje görünümünde ana düğüme sağ tıklayarak bir tane oluşturabilirsiniz. Yeni > Klasör > Varlık Klasörü'nü seçin.
+ APK dosyasını da projeye eklemeniz gerekiyor. APK'yı şuraya kopyalamanız gerekir:**\app\src\main\varlıklar**Klasör. Ana klasörün altında varlıklar klasörünüz yoksa, Proje görünümünde ana düğüme sağ tıklayarak bir tane oluşturabilirsiniz. Yeni > Klasör > Varlık Klasörü'nü seçin.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_12.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_12.png)
 
 APK projeye eklendikten sonra proje tarafından yüklenmesi gerekir. APK'yı aşağıdaki gibi yüklemenin 2 yolu vardır.
 
@@ -132,7 +132,7 @@ APK projeye eklendikten sonra proje tarafından yüklenmesi gerekir. APK'yı aş
 
 {{< /highlight >}}
 
-Artık kodu yazmaya hazırız. Gösterimin anlaşılmasını kolaylaştırmak için, düzene bir Düğme parçacığı ekledik ve tıklama olayını aşağıdaki gibi işleyeceğiz.
+Artık kodu yazmaya hazırız. Gösterimi kolay anlaşılır kılmak için mizanpaja bir Button parçacığı ekledik ve tıklama olayını aşağıdaki gibi işleyeceğiz.
 
 {{< highlight "java" >}}
 
@@ -174,12 +174,12 @@ Artık kodu yazmaya hazırız. Gösterimin anlaşılmasını kolaylaştırmak i�
 
 Uygulamayı IDE arayüzündeki oynat düğmesini kullanarak (veya SHIFT + F10 kullanarak) çalıştırdığınızda, öykünücü uygulamayı aşağıda gösterildiği gibi yükleyecektir.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_13.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_13.png)
 
 Öykünücü üzerindeki düğmeyi tıklatmak, öykünücünün harici depolama klasöründe yeni bir elektronik tablo oluşturmak için kodu yürütür. Dosyaya aşağıda gösterildiği gibi Android Cihaz Monitöründen erişebilirsiniz.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_14.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_14.png)
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-for-android-via-java-installation_15.png)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-for-android-via-java-installation_15.png)
 
 

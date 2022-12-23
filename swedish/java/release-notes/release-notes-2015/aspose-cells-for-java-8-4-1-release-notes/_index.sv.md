@@ -28,7 +28,7 @@ Flyttade huvudkodbasen till Java 6 (Java 7 och 8 stöds också). Tappat support 
 
 ### **Buggar**
 
-(CELLSJAVA-41229) - Aspose.Cells genererar inte individuella HTM:er och CSS-filer för arken i Excel till HTML-konvertering
+(CELLSJAVA-41229) - Aspose.Cells genererar inte individuella HTM:er och CSS-filer för arken i Excel till HTML konvertering
 
 (CELLSJAVA-41170) - SheetRender.toImage återger bilden med "(tom)"-etiketter på diagrammets x-axel
 
@@ -46,21 +46,21 @@ Flyttade huvudkodbasen till Java 6 (Java 7 och 8 stöds också). Tappat support 
 
 (CELLSJAVA-40993) - Horisontella rutnätslinjer saknas i tillväxtdiagrammet
 
-(CELLSJAVA-41259) - Inställning av Name.setRefersTo och omräkning av formler resulterar i felaktigt värde vid konvertering av kalkylblad till HTML
+(CELLSJAVA-41259) - Inställning av Name.setRefersTo och omräkning av formler resulterar i felaktigt värde när kalkylbladet konverteras till HTML
 
 (CELLSJAVA-41258) - Laddar och sparar XLSX med Aspose.Cells gör det resulterande kalkylarket korrupt
 
-(CELLSJAVA-41255) - Anpassad knapp blir bild och bildtexten försvinner i utgången XLSX
+(CELLSJAVA-41255) - Anpassad knapp blir bild och bildtext försvinner i utgången XLSX
 
-(CELLSJAVA-41254) - Microsoft Excel kraschar när XLSX-filen öppnas
+(CELLSJAVA-41254) - Microsoft Excel kraschar när utdatafilen XLSX öppnas
 
-(CELLSJAVA-41253) - Dropdown försvinner i XLSX-filen
+(CELLSJAVA-41253) - Dropdown försvinner i utdatafilen XLSX
 
 ### **Undantag**
 
-(CELLSJAVA-41266) - java.lang.NumberFormatException inträffade när mallen XLSX-fil öppnades
+(CELLSJAVA-41266) - java.lang.NumberFormatException inträffade när mallen XLSX öppnades
 
-(CELLSJAVA-41248) - Null-pekareundantag vid öppningskällans XLSX-fil
+(CELLSJAVA-41248) - Null-pekareundantag vid öppningsfilen XLSX
 
 (CELLSJAVA-41265) - Undantag: "java.lang.NullPointerException" vid öppning av en SpreadsheetML-fil
 

@@ -11,7 +11,7 @@ Cette page contient les notes de version pour Aspose.Cells for C++ 22.7 pour Lin
 {{% /alert %}}
 
 Nous sommes heureux d'annoncer la sortie de Aspose.Cells for C++ 22.7 pour Linux.
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |CELLSCPP-829| Ajouter l'interface IWarningCallback|Soutien|
 |CELLSCPP-839| Fonctionnalités de synchronisation avec la version .Net|Soutien|

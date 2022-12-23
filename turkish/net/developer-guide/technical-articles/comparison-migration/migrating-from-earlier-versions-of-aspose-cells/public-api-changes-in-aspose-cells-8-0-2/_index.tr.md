@@ -84,6 +84,6 @@ ConvertFormulasData özelliğinin varsayılan değeri yanlıştır.
 
 {{% /alert %}}
 ## **HtmlSaveOptions Sınıfına ImageOptions Özelliği eklendi**
-HtmlSaveOptions Sınıfına ImageOptions özelliği eklendi. ImageOptions özelliğinin gösterilmesi, geliştiricilerin elektronik tabloları dışa aktarırken HTML'ye katıştırılmış resimler için tercihleri belirlemesine olanak sağlamıştır.
+HtmlSaveOptions Sınıfına ImageOptions özelliği eklendi. ImageOptions özelliğinin gösterilmesi, geliştiricilerin e-tabloları dışa aktarırken HTML'e katıştırılmış resimler için tercihleri belirlemesine olanak sağlamıştır.
 ## **Eski HtmlSaveOptions.ExportChartImageFormat Özellik**
 HtmlSaveOptions.ExportChartImageFormat, Aspose.Cells for .NET 8.0.2'den başlayarak geçersiz olarak işaretlendi. Elektronik tabloları HTML formatına dışa aktarırken resim formatı ayarları yerine HtmlSaveOptions.ImageOptions kullanılması tavsiye edilir.

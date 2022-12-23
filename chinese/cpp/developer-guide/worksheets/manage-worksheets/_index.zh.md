@@ -20,7 +20,7 @@ url: /zh/cpp/manage-worksheets/
 1. 打电话给[添加](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection#aa2bb166f57a4d8eba8e25ce1f99d0c55)的方法[IWorksheet 集合](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)收藏。一个空工作表会自动添加到 Excel 文件中。可以通过将新工作表的工作表索引传递给[IWorksheet 集合](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_worksheet_collection)收藏。
 1. 获取工作表参考。
 1. 在工作表上执行工作。
-1. 通过调用[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)班级[节省](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)方法。
+1. 通过调用[工作簿](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook)班级[救球](https://reference.aspose.com/cells/cpp/class/aspose.cells.i_workbook#a77072cfb929787df9ad1f38b02f58349)方法。
 
 
 

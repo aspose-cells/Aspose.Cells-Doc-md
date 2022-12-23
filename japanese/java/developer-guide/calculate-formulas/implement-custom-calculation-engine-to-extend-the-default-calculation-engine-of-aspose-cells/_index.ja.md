@@ -16,7 +16,7 @@ Aspose.Cells には、ほとんどすべての Microsoft Excel 数式を計算�
 
 {{% /alert %}} 
 ## **カスタム計算エンジンの実装**
-次のコードは、カスタム計算エンジンを実装します。インターフェースを実装します[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)メソッドが 1 つしかない[calculate(CalculationData データ)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)）。このメソッドは、すべての数式に対して呼び出されます。このメソッド内で、**和**したがって、Aspose.Cells の計算値が 20 の場合、カスタム エンジンは 30 を加算して 50 にします。
+次のコードは、カスタム計算エンジンを実装します。インターフェースを実装します[AbstractCalculationEngine](https://reference.aspose.com/cells/java/com.aspose.cells/AbstractCalculationEngine)メソッドが 1 つしかない[calculate(CalculationDataデータ)](https://reference.aspose.com/cells/java/com.aspose.cells/abstractcalculationengine#calculate\(com.aspose.cells.CalculationData\)）。このメソッドは、すべての数式に対して呼び出されます。このメソッド内で、**和**したがって、Aspose.Cells の計算値が 20 の場合、カスタム エンジンは 30 を加算して 50 にします。
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ImplementCustomCalculationEngine-ImplementCustomCalculationEngine.java" >}}
 ## **コンソール出力**

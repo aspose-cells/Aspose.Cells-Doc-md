@@ -12,24 +12,24 @@ url: /ja/net/aspose-cells-for-net-17-6-release-notes/
 
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
-|CELLSNET-45356|HTML ですべての属性値を引用する|新機能|
+|CELLSNET-45356|HTML のすべての属性値を引用符で囲む|新機能|
 |CELLSNET-45394|Office 365 の新機能をサポート|新機能|
 |CELLSNET-45348|チャートのデータソースとしてテーブルをサポート|新機能|
 |CELLSNET-45317|force script_path や forcepath などの Aspose.Cells.GridWeb の古い Web.config 設定を削除します。|新機能|
 |CELLSNET-45370|例外メッセージが間違っています - ハイパーリンクの数は 66530 より大きくすることはできません|強化|
-|CELLSNET-45391|出力 PDF の Excel フッターが斜体ではない - Arial 9 で斜体にする必要があります|強化|
+|CELLSNET-45391|出力 PDF の Excel フッターが斜体ではありません - Arial 9 および斜体である必要があります|強化|
 |CELLSNET-45328|既存のワークシートから PageSetup 設定をコピーします。|強化|
 |CELLSNET-45345|下付きラベルの一部がカットされ、下の行にシフトされます|バグ|
-|CELLSNET-45344|下付きテキストが少し右にずれている - Excel から PDF へのレンダリング|バグ|
+|CELLSNET-45344|下付き文字が少し右にずれている - Excel to PDF レンダリング|バグ|
 |CELLSNET-44595|HTML ファイルを Excel ファイル形式に変換すると、Excel ファイルの出力がうまくいかない|バグ|
 |CELLSNET-44596|HTML ファイルを Excel ファイル形式に変換すると、Excel ファイルの出力がうまくいかない - I|バグ|
-|CELLSNET-45409|XLS ファイルを複数回読み込んで保存した後に例外がスローされる|バグ|
+|CELLSNET-45409|XLS ファイルを複数回ロードおよび保存した後にスローされる例外|バグ|
 |CELLSNET-45411|Excel ファイルの読み込み中に Load Filter が原因でクラッシュが発生する|バグ|
 |CELLSNET-45405|NPER で IFERROR を使用すると、正しく処理できません|バグ|
 |CELLSNET-45414|出力 PDF は 2 ページではなく 1 ページにする必要があります|バグ|
 |CELLSNET-45399|セルにアラビア語の通貨名が含まれていると、画像が正しく表示されない|バグ|
-|CELLSNET-45389|出力 PDF/画像で括弧の形状が正しく表示されない|バグ|
-|CELLSNET-45376|Aspose.Cells 保存された PDF は、MS Excel で保存された PDF とは異なります|バグ|
+|CELLSNET-45389|出力で括弧の形状が間違って表示される PDF/image|バグ|
+|CELLSNET-45376|Aspose.Cells 保存 PDF は MS Excel 保存 PDF とは異なります|バグ|
 |CELLSNET-45400|画像としてレンダリングするとスパークラインが正しく表示されない|バグ|
 |CELLSNET-45372|BankActionRatPie チャートが画像に変換されるときの凡例項目の色が正しくない|バグ|
 |CELLSNET-45371|TotalActionRatPie チャートが画像に変換されるときの凡例アイテムの色が正しくない|バグ|
@@ -53,10 +53,10 @@ url: /ja/net/aspose-cells-for-net-17-6-release-notes/
 |CELLSNET-45378|番目のワークシートのハイパーリンクが識別されない|バグ|
 |CELLSNET-45375|Aspose.Cells API 経由でテンプレート XLS ファイルを開く際の例外|バグ|
 |CELLSNET-45373|数式を含む ListObject の近くに行を追加すると、それらの数式が誤って上方に複製される|バグ|
-|CELLSNET-45369|XLS を読み込んで保存した後、テキスト形式が変更された (間隔が増加した)|バグ|
+|CELLSNET-45369|XLS を読み込んで保存した後、テキスト形式が変更されました (スペースが増加しました)。|バグ|
 |CELLSNET-45368|XLSM ファイルを読み込んで保存した後、コマンド ボタンの PrintObject プロパティが true に設定される|バグ|
 |CELLSNET-45365|PDF 形式にレンダリングした後にセルの書式設定が失われる|バグ|
-|CELLSNET-45361|チャートの背景画像を変更した後、XLSX ファイルが破損する|バグ|
+|CELLSNET-45361|XLSX グラフの背景画像を変更するとファイルが破損する|バグ|
 |CELLSNET-45360|範囲を挿入すると、上のグラフのサイズも拡張されます|バグ|
 |CELLSNET-45343|ListObject.ConvertToRange は合計行の数式を壊します|バグ|
 |CELLSNET-45320|一部の機能が動作していません|バグ|

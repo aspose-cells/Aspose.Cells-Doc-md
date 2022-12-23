@@ -11,7 +11,7 @@ url: /ja/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
 Aspose.Cells for .NET がバージョン 8.0.1 に更新されました。このリリースでは、30 を超える新しい便利な改善が追加されたことをお知らせします。
-Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式を操作できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
+Aspose.Cells for .NET を使用すると、アプリケーションで XLS、SpreadsheetML、OOXML、XLSB、CSV、HTML、ODS、PDF、XPS およびその他の形式で作業できます。 Microsoft Excel を使用せずに、ワークブックを表示、生成、変更、変換、レンダリング、および印刷することもできます。
 ドキュメントを参照して、Aspose.Cells for .NET の使用を開始する方法を確認してください。
 このダウンロードには、製品の完全に機能するバージョンが含まれていますが、ライセンス セットがないと、いくつかの制限付きで評価モードで実行されます。これらの評価制限なしで Aspose.Cells をテストするには、無料の 30 日間の一時ライセンスをリクエストできます。
 以下は、このバージョンの Aspose.Cells での変更点のリストです。
@@ -46,7 +46,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42516) - HTML にエクスポートすると、非表示のコメントが表示される
 
-(CELLSNET-42470) - Excel が Aspose.Cells で生成された XLSX で読み取り不能な内容のメッセージを検出しました
+(CELLSNET-42470) - Aspose.Cells で生成された XLSX で Excel が読み取り不能な内容のメッセージを検出しました
 
 (CELLSNET-42468) - Excel は、ピボットテーブルを追加した後、スプレッドシートに判読できないコンテンツを見つけました
 
@@ -62,7 +62,7 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42543) - PDF に保存すると画像がぼやける
 
-(CELLSNET-42502) - XLSX が PDF に変換されるときの折り返し行でのテキスト配置の問題
+(CELLSNET-42502) - XLSX を PDF に変換すると、折り返し行でテキストの配置の問題が発生する
 
 (CELLSNET-42501) - XLSX を PDF に変換すると、コンテンツの位置が維持されない
 
@@ -110,11 +110,11 @@ Aspose.Cells for .NET を使用すると、アプリケーションで XLS、Spr
 
 (CELLSNET-42534) - ファイルを開く際の System.ArgumentOutOfRangeException
 
- (CELLSNET-42520) - XLS の読み込み中に System.ArgumentOutOfRangeException が発生する
+ (CELLSNET-42520) - XLS のロード中に System.ArgumentOutOfRangeException が発生する
 
 
 
-\2) Aspose.Cells グリッドスイート
+ \2) Aspose.Cells グリッドスイート
 
 
 ## **その他の改善と変更**

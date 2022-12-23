@@ -14,13 +14,13 @@ url: /zh/java/create-transparent-image-of-excel-worksheet/
 
 **未应用透明度的工作表图像**
 
-![待办事项：图像_替代_文本](create-transparent-image-of-excel-worksheet_1.png)
+![待办事项：图片_替代_文本](create-transparent-image-of-excel-worksheet_1.png)
 
 同时，在下面的工作表图像中，应用了透明度。没有填充颜色的单元格是透明的。
 
 **应用透明度后的工作表图像**
 
-![待办事项：图像_替代_文本](create-transparent-image-of-excel-worksheet_2.png)
+![待办事项：图片_替代_文本](create-transparent-image-of-excel-worksheet_2.png)
 
 您可以使用以下示例代码生成 Excel 工作表的透明图像。
 

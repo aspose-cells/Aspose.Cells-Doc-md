@@ -16,11 +16,11 @@ url: /zh/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47168|支持过滤功能|新功能|
 |CELLSNET-47204|获取工作表唯一ID|新功能|
 |CELLSNET-47229|支持将 chart.series.dataLabables.TextDirection 设置为垂直|新功能|
-|CELLSNET-47092|在将文档保存为 HTML 时，使图标像通常的图像一样可用于 IStreamProvider|强化|
+|CELLSNET-47092|在将文档保存到 HTML 时，使图标像通常的图像一样可用于 IStreamProvider|强化|
 |CELLSNET-47094|减少 GridDesktop 中的闪烁以平滑调整大小|强化|
 |CELLSNET-47173|Aspose.Cells.GridDesktop 区分隐藏/非常隐藏的工作表|强化|
 |CELLSNET-47101|提高保存条件格式和整行验证的性能。|强化|
-|CELLSNET-47178|创建表格并转换为 HTML 时缩进丢失|漏洞|
+|CELLSNET-47178|创建表并转换为 HTML 时缩进丢失|漏洞|
 |CELLSNET-47199|将 CreateCalcChain 设置为 true 和 false 时命名范围计算的差异|漏洞|
 |CELLSNET-47077|将 Excel 文件导入 GridDesktop 时无法对单元格（包含数据）应用边框|漏洞|
 |CELLSNET-47172|应用条件格式时出现问题|漏洞|
@@ -30,7 +30,7 @@ url: /zh/net/aspose-cells-for-net-20-3-release-notes/
 |CELLSNET-47167|可见链接数量错误|漏洞|
 |CELLSNET-47184|带有西里尔文内容的 BIFF5 被错误地转换为 XLSX|漏洞|
 |CELLSNET-47205|列范围上的 Range.ApplyStyle() 大大增加了工作簿文件的大小|漏洞|
-|CELLSNET-47210|Apple Numbers'09 中单元格的富格式字符串值为空|漏洞|
+|CELLSNET-47210|Apple Numbers'09 单元格的富格式字符串值为空|漏洞|
 |CELLSNET-47213|将工作表复制到另一个工作簿 - 隐藏的单元格（行）消失|漏洞|
 |CELLSNETCORE-53|转换为 PDF 后删除 Excel 图表线上的数据点|漏洞|
 |CELLSNET-47212|将特定 XLSM 保存到 XLS 时出现 NullReferenceException|例外|

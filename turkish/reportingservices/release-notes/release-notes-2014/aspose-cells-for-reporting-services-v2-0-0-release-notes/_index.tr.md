@@ -37,7 +37,7 @@ Aspose.Cells for Reporting Services Rapor Tasarımcısı optimizasyonu.
 - ` `(SSRS-40131) Sütun genişliği, Aspose Yalnızca Veri işleyici için kasalara sarılmaz
 - ` `(SSRS-40130) Para Birimi Biçimlendirme Sorunları
 - ` `(SSRS-40129) Koşullu Sayfa Sonlandırma, Aspose Oluşturucularda çalışmıyor
-- ` `(SSRS-40128) XLSX daralan Sütun Başlıklarına SSRS Aktarımı
+- ` `(SSRS-40128) XLSX küçülen Sütun Başlıklarına SSRS Aktarımı
 - ` `(SSRS-40127) Aspose Yalnızca Veri Rapor Çıkışı - Sayfa 2, Rapor Başlığı için Yapılandır aracılığıyla kontrol edilmez
 - ` `(SSRS-40126) İlk Rapor Sütunu Çıktısı, İki Excel Sütununda birleştirildi
 - ` `(SSRS-40125) Excel ve Yalnızca Veri Excel ile Para Birimi Biçimlendirme Sorunları
@@ -53,7 +53,7 @@ Aspose.Cells for Reporting Services Rapor Tasarımcısı optimizasyonu.
 - ` `(SSRS-40114) Yatay Rapor Formatı
 - ` `(SSRS-40112) Dışa Aktarılan Çalışma Kitabına Fazladan Sayfa Ekleme
 - ` `(SSRS-40111) Raporu Dışa Aktarma Hatası
-- ` `(SSRS-40109) Excel 2007 XLSX oluşturma sorunları
+- ` `(SSRS-40109) Excel 2007 XLSX işleme sorunları
 - ` `(SSRS-40108) Excel Okunamayan İçerik Bulundu
 - ` `(SSRS-40107) Tablo, RDL'de Tablix olarak oluşturulmadı
 - ` `(SSRS-40106) Hata: Nesne referansı, bir nesne örneğine ayarlanmadı

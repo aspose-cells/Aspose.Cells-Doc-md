@@ -20,14 +20,14 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-12-release-notes/
 |CELLSJAVA-44967|Diagram getDataLabels().getText() som returnerar ett annat värde i v22.6.0 och senare versioner|
 |CELLSJAVA-44969|Konvertera Excel till HTML, dataetiketterna visar fel|
 |CELLSJAVA-44949|Transparens ändrades när Excel-intervall infogades som bild med annat format i PowerPoint slide|
-|CELLSJAVA-44985|Excel till HTML-konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
+|CELLSJAVA-44985|Excel till HTML konvertering - grafförklaringen visas inte och plotområdet är trunkerat|
 |CELLSJAVA-44952|Problem med DataBar.toImage-metoden angående bredd|
-|CELLSJAVA-44986|De importerade bilderna är inte justerade i en linje när bilderna är i Div|
+|CELLSJAVA-44986| De importerade bilderna är inte justerade i en linje när bilderna är i Div|
 |CELLSJAVA-44987|Vissa bilder täcks av andra när html laddas|
 |CELLSJAVA-44988|Text roteras inte när html laddas|
 |CELLSJAVA-44989|Teckensnittsinställningar i div går förlorade när html laddas|
 |CELLSJAVA-44997|Data och formatering förlorade i HTML till Excel-konvertering|
-|CELLSJAVA-44999| Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
+|CELLSJAVA-44999|Aspose.Cells Anpassade globaliseringsinställningar fungerar inte för större delen av pivottabellen|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

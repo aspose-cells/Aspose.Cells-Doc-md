@@ -20,12 +20,12 @@ Seiteneinrichtungsoptionen werden in Aspose.Cells vollständig unterstützt. Die
 
 ### **Seitenausrichtung**
 
- Die Seitenausrichtung kann mithilfe von auf Hoch- oder Querformat eingestellt werden[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) Klasse'[**Orientierung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Eigentum. Das[**Orientierung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Die Eigenschaft akzeptiert einen der vordefinierten Werte in der[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)Aufzählung, unten aufgeführt.
+Die Seitenausrichtung kann mithilfe von auf Hoch- oder Querformat eingestellt werden[**Seiteneinrichtung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup) Klasse'[**Orientierung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Eigentum. Das[**Orientierung**](https://reference.aspose.com/cells/net/aspose.cells/pagesetup/properties/orientation) Die Eigenschaft akzeptiert einen der vordefinierten Werte in der[**Seitenausrichtungstyp**](https://reference.aspose.com/cells/net/aspose.cells/pageorientationtype)Aufzählung, unten aufgeführt.
 
 |**Seitenausrichtungstypen**|**Beschreibung**|
 |:- |:- |
 |Landschaft|Landschaftsorientierung|
-|Porträt|Hochkant|
+|Porträt|Hochformat|
 
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "Examples-CSharp-Worksheets-PageSetupFeatures-PageOrientation-1.cs" >}}
 

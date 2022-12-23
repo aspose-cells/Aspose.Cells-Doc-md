@@ -10,7 +10,7 @@ url: /it/net/aspose-cells-for-net-19-12-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-44451|Applica l'ordinamento dei dati per il campo dati rispetto al campo Riga nella tabella pivot: simula i risultati in base al file previsto dall'utente|Nuova caratteristica|
 |CELLSNETCORE-45|Carica i dati da Datasource con l'opzione per saltare alcuni caratteri come Apostrophe|Nuova caratteristica|
@@ -18,23 +18,23 @@ url: /it/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-47016|Il testo a capo è diverso nell'ultima versione di Aspose.Cells|Aumento|
 |CELLSNET-47023|Grafico perso durante il caricamento e il salvataggio del file ODS|Aumento|
 |CELLSNET-47056|Grafici non visualizzati durante il caricamento e il salvataggio del file ODS|Aumento|
-|CELLSNET-46679|Rendering errato durante l'esportazione di XLSX in PDF|Insetto|
-|CELLSNET-46680|Il simbolo Wingding non è presente durante la conversione di XLSX in PDF|Insetto|
+|CELLSNET-46679|Rendering errato durante l'esportazione da XLSX a PDF|Insetto|
+|CELLSNET-46680|Il simbolo Wingwing manca durante la conversione da XLSX a PDF|Insetto|
 |CELLSNET-46740|Errore nelle immagini durante la conversione del file Excel in PDF|Insetto|
 |CELLSNET-46901|La posizione del modello 3D si sposta|Insetto|
 |CELLSNET-46936|Carattere non reso correttamente in HTML|Insetto|
-|CELLSNET-47013|I numeri sul grafico a imbuto scompaiono durante la conversione del file Excel in PDF|Insetto|
+|CELLSNET-47013|Numbers sul grafico a imbuto scompare durante la conversione del file Excel in PDF|Insetto|
 |CELLSNET-43846|La tabella pivot perde i nomi dei campi personalizzati e l'impostazione "Mostra valore come..."|Insetto|
 |CELLSNET-46444|Il valore della tabella pivot è stato modificato dopo aver chiamato PivotTable.CalculateData|Insetto|
 |CELLSNET-46484|RefreshData non ordina i dati prima di aprire il file in Excel|Insetto|
 |CELLSNET-47010|Un problema con la formattazione delle intestazioni dei gruppi di tabelle pivot|Insetto|
 |CELLSNET-47024|Ordinamento delle righe errato nelle tabelle pivot con riga Valori|Insetto|
-|CELLSNET-47034|Larghezze delle colonne e altezza delle righe ridotte durante la conversione da HTML a Excel|Insetto|
+|CELLSNET-47034|La larghezza delle colonne e l'altezza delle righe sono state compresse durante la conversione da HTML a Excel|Insetto|
 |CELLSNET-47007|L'errore di valore viene visualizzato durante la valutazione della formula|Insetto|
 |CELLSNET-47029|Valore errato TRUE recuperato da Cell invece del valore FALSE|Insetto|
 |CELLSNET-47052|DateTimeFormat danneggiato durante la conversione di Excel in PDF|Insetto|
-|CELLSNET-46757|Problemi durante la conversione di XLSX in PDF|Insetto|
-|CELLSNET-46976|Alcune linee di confine scompaiono nel rendering da Excel a PDF|Insetto|
+|CELLSNET-46757|Problemi durante la conversione da XLSX a PDF|Insetto|
+|CELLSNET-46976|Alcune linee di confine scompaiono in Excel al rendering PDF|Insetto|
 |CELLSNET-47000|Immagine del risultato inappropriata di SheetRender dal file .ods protetto da password|Insetto|
 |CELLSNET-47025|Macro per XLSM non rilevate|Insetto|
 |CELLSNET-47038|I grafici a linee nel file ODS non vengono visualizzati correttamente quando vengono aperti o salvati tramite Aspose.Cells|Insetto|
@@ -45,8 +45,8 @@ url: /it/net/aspose-cells-for-net-19-12-release-notes/
 |CELLSNET-46999|Viene generata un'eccezione durante il rendering del file .ods "Parametro non valido".|Eccezione|
 |CELLSNET-47017|OpenXML SDK genera un'eccezione all'apertura del file convertito|Eccezione|
 |CELLSNET-47022|Eccezione durante il caricamento di un formato di file XLSX|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Elimina la proprietà DataLabels.BaseField obsoleta**
 Utilizzare invece PivotField.BaseFieldIndex.
 #### **Elimina la proprietà DataLabels.BaseItem obsoleta**
@@ -86,7 +86,7 @@ Ottiene e imposta il tipo di testo a capo con adattamento automatico.
 #### **Aggiunge la classe EmfRenderSetting**
 Imposta per il rendering del metafile Emf.
 #### **Aggiunge la proprietà PdfSaveOptions.EmfRenderSetting**
-Imposta per il rendering del metafile EMF durante il rendering in un file PDF.
+Imposta il rendering del metafile EMF durante il rendering nel file PDF.
 #### **Aggiunge il metodo ShapeCollection.AddSvg()**
 Aggiunge l'immagine SVG.
 #### **Aggiunge la proprietà WorkbookSettings.QuotePrefixToStyle**

@@ -16,7 +16,7 @@ Microsoft Mit Excel können Sie den Formelberechnungsmodus festlegen, d. h. die 
 
 So stellen Sie den Formelberechnungsmodus in Microsoft Excel ein:
 
-1.  Auswählen**Formeln** und dann**Berechnungsoptionen**.
+1.  Wählen**Formeln** und dann**Berechnungsoptionen**.
 1. Wählen Sie eine der Optionen aus.
 
  Aspose.Cells können Sie auch die einstellen**Formelberechnungsmodus** Verwenden der Moduseigenschaft FormulaSettings.CalculationMode. Sie können ihm die Aufzählung CalcModeType zuweisen, die einen der folgenden Werte hat:
@@ -25,7 +25,7 @@ So stellen Sie den Formelberechnungsmodus in Microsoft Excel ein:
 - CalcModeType.AutomaticExceptTable
 - CalcModeType.Manual
 
- Der folgende Beispielcode erstellt zuerst eine Arbeitsmappe und setzt dann den Formelberechnungsmodus auf**Handbuch** und speichert die Arbeitsmappe als Excel-Ausgabedatei auf der Festplatte.
+Der folgende Beispielcode erstellt zuerst eine Arbeitsmappe und setzt dann den Formelberechnungsmodus auf**Handbuch** und speichert die Arbeitsmappe als Excel-Ausgabedatei auf der Festplatte.
 
 **C#**
 

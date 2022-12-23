@@ -1,16 +1,16 @@
 ﻿---
-title: Undvik tom sida i utdata-PDF när det inte finns något att skriva ut
+title: Undvik tom sida i utdata PDF när det inte finns något att skriva ut
 type: docs
 weight: 30
 url: /sv/java/avoid-blank-page-in-output-pdf-when-there-is-nothing-to-print/
 ---
 ## **Möjliga användningsscenarier**
 
-När Excel-filen är tom och användaren sparar den till PDF med Aspose.Cells, renderar den en tom sida i utdata-PDF. Ibland är detta standardbeteende oönskat. Aspose.Cells tillhandahåller[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) egendom för att hantera denna fråga. Om du ställer in det som**falsk**, då[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)kommer att inträffa när det inte finns något att skriva ut i den utgående PDF-filen.
+När Excel-filen är tom och användaren sparar den till PDF med Aspose.Cells, återger den en tom sida i utdata PDF. Ibland är detta standardbeteende oönskat. Aspose.Cells tillhandahåller[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) egendom för att hantera denna fråga. Om du ställer in det som**falsk**, då[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)kommer att inträffa när det inte finns något att skriva ut i utgången PDF.
 
-## **Undvik tom sida i utdata-PDF när det inte finns något att skriva ut**
+## **Undvik tom sida i utdata PDF när det inte finns något att skriva ut**
 
-Följande exempelkod skapar en tom arbetsbok och sparar den sedan som utdata-PDF efter att ha ställt in[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) egendom som**falsk**. Eftersom det inte finns något att skriva ut i den utgående PDF-filen,[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)sker enligt nedan.
+Följande exempelkod skapar en tom arbetsbok och sparar den sedan som utdata PDF efter att ha ställt in[**PdfSaveOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OutputBlankPageWhenNothingToPrint) egendom som**falsk**. Eftersom det inte finns något att skriva ut i utgången PDF,[**CellsException**](https://reference.aspose.com/cells/java/com.aspose.cells/CellsException)sker enligt nedan.
 
 ## **Exempelkod**
 

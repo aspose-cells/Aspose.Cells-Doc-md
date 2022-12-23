@@ -24,7 +24,7 @@ url: /ja/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43293|PivotTable.refreshData() 後のフィルター オプションに関する問題|バグ|
 |CELLSJAVA-43279|getStringValue() を使用して値が正しく取得されない|バグ|
 |CELLSJAVA-43291|グリッド コンテンツが表示されない|バグ|
-|CELLSJAVA-43037|PDF変換時のフォントの問題|バグ|
+|CELLSJAVA-43037|PDF 変換時のフォントの問題|バグ|
 |CELLSJAVA-43249|物理プリンター、XPS および PDF プリンター使用時の印刷の問題|バグ|
 |CELLSJAVA-43254|スプレッドシートを画像に変換する際のフォントの違い|バグ|
 |CELLSJAVA-43266|Java バージョンは、デフォルトで現在のユーザー フォント フォルダーからのフォントの読み込みをサポートしていません|バグ|
@@ -32,7 +32,7 @@ url: /ja/java/aspose-cells-for-java-20-9-release-notes/
 |CELLSJAVA-43275|Aspose.Cell for Java 20.8 com.aspose.cells.CellsException: ZipFile のエラー|バグ|
 |CELLSJAVA-43277|縦横比の問題|バグ|
 |CELLSJAVA-43245|Excel ファイルを PDF に変換した後、コンボ チャートが正しく表示されない|バグ|
-|CELLSJAVA-43276|XLSX から PDF への変換中の改行の問題|バグ|
+|CELLSJAVA-43276|XLSX を PDF に変換する際の改行の問題|バグ|
 |CELLSJAVA-43261|SmartMarker: group:merge を Number Format Percentage で使用すると、展開結果が正しくない|バグ|
 |CELLSJAVA-43265|XLSX ファイルを読み込めません|バグ|
 |CELLSJAVA-43270|ワークシートコピー時の内容重複（埋め込みWord）|バグ|

@@ -6,7 +6,7 @@ url: /es/java/managing-page-breaks-in-ruby/
 ---
 ## **Aspose.Cells - Gestión de saltos de página**
 ### **Adición de saltos de página**
- Para agregar saltos de página usando**Aspose.Cells Java para rubí** , llamar**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para agregar saltos de página usando**Aspose.Cells Java para rubí** , llamada**add_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **código rubí**
 
@@ -38,7 +38,7 @@ end   
 
 {{< /highlight >}}
 ### **Borrar todos los saltos de página**
- Para borrar todos los saltos de página usando**Aspose.Cells Java para rubí** , llamar**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para borrar todos los saltos de página usando**Aspose.Cells Java para rubí** , llamada**clear_all_page_breaks** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **código rubí**
 
@@ -60,7 +60,7 @@ end 
 
 {{< /highlight >}}
 ### **Eliminación de un salto de página específico**
- Para eliminar un salto de página específico usando**Aspose.Cells Java para rubí** , llamar**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
+ Para eliminar un salto de página específico usando**Aspose.Cells Java para rubí** , llamada**remove_page_break** método de**saltos de página** módulo. A continuación puede ver un ejemplo de código.
 
 **código rubí**
 

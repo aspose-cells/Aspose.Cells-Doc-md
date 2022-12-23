@@ -77,7 +77,7 @@ designer.Process(false);
 
 
 ### **添加方法 Chart.ToPdf**
- Aspose.Cells for .NET 8.6.2公开了Chart.ToPdf方法，可以用来[直接将图表形状渲染为 PDF 格式](/cells/zh/net/convert-an-excel-chart-to-image/).该方法目前接受字符串类型的参数作为文件路径位置，将生成的文件存储在磁盘上。
+ Aspose.Cells for .NET 8.6.2公开了Chart.ToPdf方法，可以用来[直接将 Chart 形状渲染为 PDF 格式](/cells/zh/net/convert-an-excel-chart-to-image/).该方法目前接受字符串类型的参数作为文件路径位置，将生成的文件存储在磁盘上。
 
 以下是简单的使用场景。
 

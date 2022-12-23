@@ -47,7 +47,7 @@ Excel アドインとして含めたいユーザー定義の数式をいくつ�
 
  Aspose.Cells は、アドイン関数を使用して登録する機能を提供します。[**Worksheets.RegisterAddInFunction()**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection#registerAddInFunction(java.lang.String,%20java.lang.String,%20boolean)）。その後、設定すると[**Cell.Formula**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Formula) anyFunctionFromAddIn の場合、出力 Excel ファイルには AddIn 関数から計算された値が含まれます。
 
-以下のサンプルコードのアドイン機能を登録するために、以下のXLAMファイルをダウンロードする必要があります。同様に、出力ファイル「test_udf.xlsx」をダウンロードして、出力を確認できます。
+以下のサンプルコードのアドイン機能を登録するために、XLAM以降のファイルをダウンロードする必要があります。同様に、出力ファイル「test_udf.xlsx」をダウンロードして、出力を確認できます。
 
 [TestUDF.xlam](TestUDF.xlam)
 

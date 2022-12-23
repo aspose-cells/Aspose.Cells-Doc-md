@@ -23,7 +23,7 @@ Allo stesso modo, supponiamo che C1 contenga la formula "=(B1*22)/(M2*N32)". Vog
 
 Potrebbe essere necessario tracciare la dipendenza di una particolare cella da altre celle. Se le regole aziendali sono incorporate nelle formule, vorremmo scoprire la dipendenza ed eseguire alcune regole basate su di essa. Allo stesso modo, se il valore di una particolare cella viene modificato, quali celle nel foglio di lavoro sono interessate da tale modifica?
 
-Microsoft Excel consente agli utenti di tracciare precedenti e dipendenti.
+Microsoft Excel consente agli utenti di rintracciare precedenti e dipendenti.
 
 1.  Sul**Visualizza la barra degli strumenti** , Selezionare**Controllo delle formule**.
  Viene visualizzata la finestra di dialogo Controllo formula.

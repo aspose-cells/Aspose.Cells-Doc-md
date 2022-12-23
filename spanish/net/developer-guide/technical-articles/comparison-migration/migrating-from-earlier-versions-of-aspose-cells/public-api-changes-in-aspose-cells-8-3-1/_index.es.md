@@ -244,8 +244,8 @@ m_workbook.Save("ODF1.1.ods", options)
 
 1. Seleccione la celda que contiene su minigráfico.
 1.  Seleccione**Editar datos desde el minigráfico** sección dentro de la**Diseño** pestaña
-1.  Elegir**Editar ubicación y datos del grupo**.
-1. Especificar**Rango de datos** & **Ubicación**.
+1.  Escoger**Editar ubicación y datos del grupo**.
+1.  Especificar**Rango de datos** & **Localización**.
 
  El siguiente código de ejemplo carga la hoja de cálculo de origen, accede al primer grupo de minigráficos y agrega nuevos rangos de datos y ubicaciones para el grupo de minigráficos.
 

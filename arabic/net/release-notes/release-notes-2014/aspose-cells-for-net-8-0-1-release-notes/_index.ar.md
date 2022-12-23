@@ -11,7 +11,7 @@ url: /ar/net/aspose-cells-for-net-8-0-1-release-notes/
 {{% /alert %}} 
 
  تم تحديث Aspose.Cells for .NET إلى الإصدار 8.0.1 ويسعدنا أن نعلن أن هذا الإصدار يجلب إضافة أكثر من 30 تحسينًا مفيدًا جديدًا.
-باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS و SpreadsheetML و OOXML و XLSB و CSV و HTML و ODS و PDF و XPS وغيرها من التنسيقات في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
+باستخدام Aspose.Cells for .NET يمكنك العمل مع XLS ، SpreadsheetML ، OOXML ، XLSB ، CSV ، HTML ، ODS ، PDF ، XPS وتنسيقات أخرى في تطبيقاتك. يمكنك أيضًا عرض وإنشاء وتعديل وتحويل وعرض وطباعة المصنفات كلها بدون استخدام Microsoft Excel.
 قم بزيارة الوثائق لمعرفة كيفية البدء مع Aspose.Cells for .NET.
 لاحظ أن هذا التنزيل يحتوي على إصدار كامل من المنتج ، ولكن بدون تعيين ترخيص ، سيتم تشغيله في وضع التقييم مع بعض القيود. لاختبار Aspose.Cells بدون قيود التقييم هذه ، يمكنك طلب ترخيص مؤقت مجاني لمدة 30 يومًا.
 فيما يلي قائمة بالتغييرات في هذا الإصدار من Aspose.Cells.
@@ -44,15 +44,15 @@ url: /ar/net/aspose-cells-for-net-8-0-1-release-notes/
 
  (CELLSNET-42533) - تعطل ملف الإخراج في MS Excel بعد إضافة التصفية المحورية
 
- (CELLSNET-42516) - يظهر التعليق المخفي عند تصديره إلى HTML
+ (CELLSNET-42516) - يظهر التعليق المخفي عند التصدير إلى HTML
 
- (CELLSNET-42470) - وجد Excel رسالة محتويات غير قابلة للقراءة على Aspose.Cells إنشاء XLSX
+ (CELLSNET-42470) - وجد Excel رسالة محتويات غير قابلة للقراءة على Aspose.Cells ولدت XLSX
 
  (CELLSNET-42468) - وجد Excel محتويات غير قابلة للقراءة في جدول البيانات بعد إضافة PivotTable
 
  (CELLSNET-42314) - لا يتم عرض العديد من عناصر VML (عناصر التحكم) بشكل صحيح (تحويل Excel إلى HTML)
 
-(CELLSNET-42259) - لا يتم عرض عناصر نموذج VML في تحويل HTML
+(CELLSNET-42259) - لا يتم تقديم عناصر نموذج VML في تحويل HTML
 
  (CELLSNET-42180) - لم تتم المحافظة على تنسيق النص المنسق.
 
@@ -62,13 +62,13 @@ url: /ar/net/aspose-cells-for-net-8-0-1-release-notes/
 
  (CELLSNET-42543) - تصبح الصورة ضبابية عند الحفظ في PDF
 
- (CELLSNET-42502) - مشكلة محاذاة النص عند التفاف الأسطر عند تحويل XLSX إلى PDF
+ (CELLSNET-42502) - مشكلة محاذاة النص في سطور الالتفاف عند تحويل XLSX إلى PDF
 
- (CELLSNET-42501) - لا تحتفظ المحتويات بمكانها عند تحويل XLSX إلى PDF
+ (CELLSNET-42501) - لا تحافظ المحتويات على وضعها عند تحويل XLSX إلى PDF
 
  (CELLSNET-42483) - مشكلة المحاذاة الأفقية والعرض
 
- (CELLSNET-42429) - أحرف مفقودة عند التحويل من XLSX إلى PDF
+ (CELLSNET-42429) - الأحرف المفقودة عند التحويل من XLSX إلى PDF
 
  (CELLSNET-41777) - فاصل صفحات إضافي في SaveAsPDF
 
@@ -110,11 +110,11 @@ url: /ar/net/aspose-cells-for-net-8-0-1-release-notes/
 
  (CELLSNET-42534) - System.ArgumentOutOfRangeException أثناء فتح الملف
 
- (CELLSNET-42520) - System.ArgumentOutOfRangeException أثناء تحميل XLS
+ (CELLSNET-42520) - System.ArgumentOutOfRangeException أثناء التحميل XLS
 
 
 
- 2) Aspose.Cells مجموعة الشبكة
+ \ 2) Aspose.Cells مجموعة الشبكة
 
 
 ## **تحسينات وتغييرات أخرى**
@@ -122,9 +122,9 @@ url: /ar/net/aspose-cells-for-net-8-0-1-release-notes/
 ## **البق**
 
 
- (CELLSNET-42522) - مشكلة GridWeb: ضبط عرض العمود لا يعمل في الكروم
+(CELLSNET-42522) - مشكلة GridWeb: ضبط عرض العمود لا يعمل في الكروم
 
-(CELLSNET-42509) - لا يتم عرض الأشكال بشكل صحيح في شبكة الويب
+ (CELLSNET-42509) - لا يتم عرض الأشكال بشكل صحيح في شبكة الويب
 
  (CELLSNET-42503) - النطاق غامض في مساحة الاسم Aspose.cells
 

@@ -1,12 +1,12 @@
 ﻿---
-title: Modifiche all'API pubblica in Aspose.Cells 8.8.1
+title: Pubblico API Modifiche Aspose.Cells 8.8.1
 type: docs
 weight: 270
 url: /it/net/public-api-changes-in-aspose-cells-8-8-1/
 ---
 {{% alert color="primary" %}} 
 
-Questo documento descrive le modifiche all'API Aspose.Cells dalla versione 8.8.0 alla 8.8.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
+Questo documento descrive le modifiche allo Aspose.Cells API dalla versione 8.8.0 alla 8.8.1 che potrebbero interessare gli sviluppatori di moduli/applicazioni. Include non solo metodi pubblici nuovi e aggiornati, classi aggiunte e rimosse ecc., ma anche una descrizione di eventuali cambiamenti nel comportamento dietro le quinte in Aspose.Cells.
 
 {{% /alert %}} 
 ## **API aggiunte**
@@ -64,7 +64,7 @@ var book = new Workbook(filePath, options);
 
 
 ### **Converti direttamente il grafico in PDF**
-Aspose.Cells Le API hanno già fornito la possibilità di eseguire il rendering dei grafici in PDF durante l'utilizzo del metodo Chart.ToPdf. Con questa versione, l'API ha esposto un'altra versione sovraccaricata del suddetto metodo che potrebbe accettare un'istanza di Stream, consentendo agli utenti di salvare il PDF del grafico in un'istanza di MemoryStream.
+Le API Aspose.Cells hanno già fornito la possibilità di eseguire il rendering dei grafici su PDF durante l'utilizzo del metodo Chart.ToPdf. Con questa versione, lo API ha esposto un'altra versione sovraccaricata del suddetto metodo che potrebbe accettare un'istanza di Stream, consentendo agli utenti di salvare lo PDF del grafico in un'istanza di MemoryStream.
 
 Di seguito è riportato il semplice scenario di utilizzo.
 
@@ -122,7 +122,7 @@ settings.PaperSize = PaperSizeType.PaperA4;
 
 
 ### **Aggiunta la proprietà Shape.TextBody**
-Questa versione dell'API Aspose.Cells for .NET ha esposto Shape.TextBody per manipolare gli aspetti del testo in una forma. Il seguente frammento utilizza la suddetta proprietà per impostare l'effetto ombra del testo in un TextBox.
+Questa versione di Aspose.Cells for .NET API ha esposto Shape.TextBody per manipolare gli aspetti del testo in una forma. Il seguente frammento utilizza la suddetta proprietà per impostare l'effetto ombra del testo in un TextBox.
 
 {{% alert color="primary" %}} 
 
@@ -134,7 +134,7 @@ Questa versione dell'API Aspose.Cells for .NET ha esposto Shape.TextBody per man
 
 {{< highlight "csharp" >}}
 
-//Crea un'istanza di Workbook
+ //Crea un'istanza di Workbook
 
 var libro = nuova cartella di lavoro();
 

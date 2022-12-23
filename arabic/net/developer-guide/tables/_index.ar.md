@@ -56,7 +56,7 @@ Aspose.Cells يدعم تكوين وإدارة القوائم.
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Tables-FormataListObject-1.cs" >}}
 
 ## **موضوعات مسبقة**
-- [تحويل الجدول إلى ODS](/cells/ar/net/convert-table-to-ods/)
+- [حوّل الجدول إلى ODS](/cells/ar/net/convert-table-to-ods/)
 - [البحث عن جداول الاستعلام وكائنات القائمة ذات الصلة باتصالات البيانات الخارجية](/cells/ar/net/find-query-tables-and-list-objects-related-to-external-data-connections/)
 - [قراءة وكتابة الجدول باستخدام مصدر بيانات جدول الاستعلام](/cells/ar/net/read-and-write-table-with-query-table-data-source/)
 - [قم بتعيين تعليق جدول أو قائمة كائن داخل ورقة العمل](/cells/ar/net/set-the-comment-of-table-or-list-object-inside-the-worksheet/)

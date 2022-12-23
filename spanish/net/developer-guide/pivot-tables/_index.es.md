@@ -51,6 +51,6 @@ Al asignar un rango de celdas como fuente de datos, el rango debe ir de arriba a
 - [Tabla dinámica y datos de origen](/cells/es/net/pivot-table-and-source-data/)
 - [Tabla dinámica Ocultar y ordenar datos](/cells/es/net/pivot-table-hide-and-sort-data/)
 - [Actualizar y calcular tabla dinámica con elementos calculados](/cells/es/net/refresh-and-calculate-pivot-table-having-calculated-items/)
-- [Guardar tabla dinámica en archivo ODS](/cells/es/net/save-pivot-table-in-ods-file/)
+- [Guardar tabla dinámica en el archivo ODS](/cells/es/net/save-pivot-table-in-ods-file/)
 - [Mostrar opción de páginas de filtro de informe](/cells/es/net/show-report-filter-pages-option/)
 - [Trabajar con formatos de visualización de datos de DataField en Pivot Table](/cells/es/net/working-with-data-display-formats-of-datafield-in-pivot-table/)

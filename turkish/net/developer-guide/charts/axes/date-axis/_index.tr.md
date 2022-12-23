@@ -13,6 +13,6 @@ Varsayılan olarak Aspose.cells, çalışma sayfası verilerindeki herhangi iki 
  Sonra bir grafik ekliyoruz ve türünü ayarlıyoruz.[**eksen**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis) 
  ile[**Zaman Ölçeği**](https://reference.aspose.com/cells/net/aspose.cells.charts/axis/categorytype/) ve ardından temel birimleri Gün olarak ayarlayın.
 
-![yapılacaklar:resim_alternatif_Metin](excel.png)
+![yapılacaklar:resim_alternatif_metin](excel.png)
 ## **Basit kod**
 {{< gist "aspose-cells-gists" "59a1901d62ea9ceb08456a818431a898" "DateAxis.cs" >}}

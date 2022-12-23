@@ -10,29 +10,29 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Java 18.12.
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-42745|Non ottiene i punti di connessione poiché il suo tipo restituito è 'zo[]'|Nuova caratteristica|
 |CELLSJAVA-42662|Fornire la possibilità di esportare l'intervallo come HTML|Nuova caratteristica|
 |CELLSJAVA-42746|Mancano le barre dei dati quando XLSX viene convertito in HTML|Nuova caratteristica|
-|CELLSJAVA-42747|Il valore esiste ancora quando XLSX viene convertito nel formato di file HTML|Nuova caratteristica|
-|CELLSJAVA-42748|L'API LightCells non riesce a caricare un file enorme|Aumento|
-|CELLSJAVA-42727|La formattazione del testo non è presente nell'output HTML dell'intervallo MS Excel|Insetto|
+|CELLSJAVA-42747|Il valore esiste ancora quando XLSX viene convertito nel formato file HTML|Nuova caratteristica|
+|CELLSJAVA-42748|LightCells API non riesce a caricare un file enorme|Aumento|
+|CELLSJAVA-42727|La formattazione del testo è mancante nell'output HTML dell'intervallo MS Excel|Insetto|
 |CELLSJAVA-42744|I set di icone diventano disallineati quando XLSX viene convertito in HTML|Insetto|
 |CELLSJAVA-42772|L'esportazione dei dati dell'intervallo denominato non viene visualizzata correttamente in HTML (Java)|Insetto|
 |CELLSJAVA-42753|Un problema riscontrato nell'intervallo denominato|Insetto|
 |CELLSJAVA-42764|La convalida restituisce sempre true per il metodo 'getInCellDropDown()'|Insetto|
 |CELLSJAVA-42768|Il formato personalizzato della cultura errato viene restituito per impostazioni locali diverse (Germania, francese, Italia e Spagna)|Insetto|
 |CELLSJAVA-42758|Conversione da Excel a PDF - Problema di rendering del grafico del misuratore|Insetto|
-|CELLSJAVA-42761|Il rendering PDF genera un'eccezione OutOfMemoryError|Insetto|
+|CELLSJAVA-42761|La resa PDF genera un'eccezione OutOfMemoryError|Insetto|
 |CELLSJAVA-42759|CellsException durante la conversione dei file|Eccezione|
 |CELLSJAVA-42755|Eccezione "NullPointerException" durante la creazione di un'istanza dei file XLSX|Eccezione|
 |CELLSJAVA-42762|NumberFormatException durante l'elaborazione dei file|Eccezione|
 |CELLSJAVA-42774|NullPointerException durante il caricamento di un CSV|Eccezione|
-|CELLSJAVA-42765|Eccezione "com.aspose.cells.CellsException" durante il rendering di un file Excel in formato file PDF|Eccezione|
+|CELLSJAVA-42765|Eccezione "com.aspose.cells.CellsException" durante il rendering di un file Excel nel formato file PDF|Eccezione|
 |CELLSJAVA-42754|"IllegalStateException: codifica non valida: null" quando si crea un'istanza di un formato di file XLS|Eccezione|
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. il forum di supporto Aspose.Cells.
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExportSingleTab**
 Indica se esportare la singola scheda quando il file contiene un solo foglio di lavoro. Il valore predefinito è false.
 ### **Aggiunge la proprietà HtmlSaveOptions.ExportPrintAreaOnly**
@@ -46,7 +46,7 @@ Usare invece il metodo WorkbookSettings.WriteProtection.ValidatePassword.
 ### **Aggiunge l'enumerazione LoadDataFilterOptions.VBA**
 L'opzione da utilizzare per ignorare i progetti VBA durante il caricamento del file modello.
 ### **Aggiunge la proprietà Style.InvariantCustom**
-Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero incorporato).
+Ottiene la stringa del modello indipendente dalle impostazioni cultura per il formato numerico (inclusa la stringa del modello per il numero predefinito).
 ### **Aggiunge la proprietà FindOptions.ValueTypeSensitive**
 Indica se il tipo di valore della cella cercata deve essere uguale alla chiave cercata.
 ### **Proprietà FindOptions.SearchNext obsoleta**

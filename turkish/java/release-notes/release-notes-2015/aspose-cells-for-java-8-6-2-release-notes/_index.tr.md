@@ -30,15 +30,15 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41554) - HTML'den EXCEL biçimine dönüştürülürken Görüntü Eksik
 
- (CELLSJAVA-41549) - XLSB, Aspose.Cells v8.6.1 tarafından kaydedildikten sonra Excel 2010'da bozuldu
+(CELLSJAVA-41549) - Aspose.Cells v8.6.1 tarafından kaydedildikten sonra Excel 2010'da bozulan XLSB
 
- (CELLSJAVA-41530) - Şablon XLSB dosyası yeniden kaydedildiğinde klasik PivotTable düzeni ayarı kayboldu
+ (CELLSJAVA-41530) - XLSB şablonu dosyası yeniden kaydedildiğinde klasik PivotTable düzeni ayarı kayboldu
 
  (CELLSJAVA-41558) - Ortalama Koşullu Biçimler Eklenen Formülleri Getirir
 
  (CELLSJAVA-41546) - Workbook.calculateFormula yöntemleri belirsiz bir süre takılıyor
 
-(CELLSJAVA-41544) - "XML Elektronik Tablo 2003"ten XLSX'e dönüştürürken Japonca tarih biçimi sorunu
+ (CELLSJAVA-41544) - "XML Elektronik Tablo 2003"ten XLSX'e dönüştürürken Japonca tarih biçimi sorunu
 
  (CELLSJAVA-41543) - Rus harfleri için CODE() işleviyle ilgili sorun
 
@@ -46,23 +46,23 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41538) - Elektronik tablonun yeniden kaydedilmesi, kontrolPr etiketi için sheet1.xml'den birkaç özelliği kaldırır
 
- (CELLSJAVA-41567) - Excel'den PDF'e dönüştürmelerde webdings yazı tipiyle ilgili sorun
+ (CELLSJAVA-41567) - Excel'de webdings yazı tipi ile PDF işlemelerinde sorun
 
- (CELLSJAVA-41559) - PDF'ye kaydetme, yanlış Renk Ölçeği Renkleri oluşturuyor
+ (CELLSJAVA-41559) - PDF'e kaydetmek, yanlış Renk Ölçeği Renkleri oluşturuyor
 
- (CELLSJAVA-41556) - Aspose.Cells tarafından oluşturulan PDF'nin yazdırılması, katıştırılmış barkodu bir dereceye kadar değiştirir
+ (CELLSJAVA-41556) - Oluşturulan Aspose.Cells'in yazdırılması PDF katıştırılmış barkodu bir ölçüde değiştirir
 
- (CELLSJAVA-41552) - Döndürülmüş bir metin değerinin Genişliği ve Yüksekliği yanlış görünüyor
+(CELLSJAVA-41552) - Döndürülmüş bir metin değerinin Genişliği ve Yüksekliği yanlış görünüyor
 
- (CELLSJAVA-41578) - Chart to PDF, chart.toPdf(fileName) yönteminin yürütülmesinden hemen sonra oluşturulmuyor
+ (CELLSJAVA-41578) - chart.toPdf(fileName) yönteminin yürütülmesinden hemen sonra PDF grafiği oluşturulmuyor
 
  (CELLSJAVA-41574) - Y ekseni ve Efsaneler arasındaki boşluk sorunu
 
- (CELLSJAVA-41557) - Tabloyu PDF'ye dönüştürürken eksen etiketi onay işaretleri arasındaki fark 10'dan 20'ye değiştirildi
+ (CELLSJAVA-41557) - Grafik oluşturulurken eksen etiketi onay işaretleri arasındaki fark 10'dan 20'ye PDF olarak değiştirildi
 
-(CELLSJAVA-41553) - Grafik renkleri, PDF çıktısında büyük kayma gösteriyor
+ (CELLSJAVA-41553) - Grafik renkleri, PDF çıktısında büyük değişiklik gösteriyor
 
- (CELLSJAVA-41539) - elektronik tabloyu PDF'ye dönüştürürken dikey eksen aralığı kaynak grafikle eşleşmiyor
+ (CELLSJAVA-41539) - elektronik tablo PDF'e dönüştürülürken dikey eksen aralığı kaynak grafikle eşleşmiyor
 
  (CELLSJAVA-41536) - MS Excel 2010/2013'e göre grafikteki seri doğrularının şekilleri ile ilgili problem
 
@@ -70,9 +70,9 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41520) - Grafik görüntüsü üstten ve sağdan kesiliyor
 
- (CELLSJAVA-41509) - Grafiği PDF'ye Dönüştürürken Grafik Kenarlıklarıyla İlgili Sorunlar
+ (CELLSJAVA-41509) - PDF'e Grafik İşlenirken Grafik Kenarlıklarıyla İlgili Sorunlar
 
- (CELLSJAVA-41505) - Grafiği PDF'ye Dönüştürürken Sağ ve Alt Kenarlıklar Kırpılıyor
+(CELLSJAVA-41505) - Grafiği PDF'e Dönüştürürken Sağ ve Alt Kenarlıklar Kırpılıyor
 
  (CELLSJAVA-41560) - Çalışma sayfasının varsayılan rengi nasıl alınır
 
@@ -86,11 +86,11 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  (CELLSJAVA-41550) - Workbook.combine'da java.lang.NullPointerException
 
-(CELLSJAVA-41564) - com.aspose.cells.Row'u çağıran NullPointerExceptions
+ (CELLSJAVA-41564) - com.aspose.cells.Row'u çağıran NullPointerExceptions
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -132,7 +132,7 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
 
 
- GridWeb'de AjaxCallFinished olayını ekler
+GridWeb'de AjaxCallFinished olayını ekler
 
  Kontrolün ajax güncellemesi bittiğinde tetiklenir (EnableAJAX true olarak ayarlanmalıdır).
 
@@ -148,4 +148,4 @@ url: /tr/java/aspose-cells-for-java-8-6-2-release-notes/
 
  Not
 
-Aspose.Cells for Java kod tabanı, ilgili .NET sürümünün koduyla eşleştiğinden, Aspose.Cells for .NET v8.6.2'de bulunan değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu bu Aspose.Cells for Java v8.6.2'de de yer almaktadır.
+ Aspose.Cells for Java kod tabanı, ilgili .NET sürümünün koduyla eşleştiğinden, Aspose.Cells for .NET v8.6.2'de bulunan değişikliklerin, geliştirmelerin ve düzeltmelerin çoğu bu Aspose.Cells for Java v8.6.2'de de yer almaktadır.

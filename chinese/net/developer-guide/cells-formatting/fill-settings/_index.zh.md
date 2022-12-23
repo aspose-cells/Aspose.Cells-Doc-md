@@ -46,11 +46,11 @@ Aspose.Cells提供了一个类，[**工作簿**](https://reference.aspose.com/ce
 
 {{% alert color="primary" %}}
 
-- 要设置单元格的前景色或背景色，请使用[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)对象的[**前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)或者[**背景颜色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor)特性。只有当[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)对象的[**图案**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)属性已配置。
+- 要设置单元格的前景色或背景色，请使用[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)对象的[**前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)要么[**背景颜色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/backgroundcolor)特性。只有当[**风格**](https://reference.aspose.com/cells/net/aspose.cells/style)对象的[**图案**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)属性已配置。
 - 这[**前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)属性设置单元格的阴影颜色。
 这[**图案**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)属性指定用于前景色或背景色的背景图案类型。 Aspose.Cells 提供枚举，[**背景类型**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype).包含一组预定义类型的背景图案。
 - 如果你选择*背景类型.无*价值来自[**背景类型**](https://reference.aspose.com/cells/net/aspose.cells/backgroundtype)枚举，不应用前景色。
-同样，如果您选择*背景类型.无*或者*背景类型.Solid*值。
+同样，如果您选择*背景类型.无*要么*背景类型.Solid*值。
 - 检索单元格的阴影/填充颜色时，如果[**样式.图案**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/pattern)是*背景类型.无*, [**样式.前景色**](https://reference.aspose.com/cells/net/aspose.cells/style/properties/foregroundcolor)将返回*颜色.空*.
 
 {{% /alert %}}

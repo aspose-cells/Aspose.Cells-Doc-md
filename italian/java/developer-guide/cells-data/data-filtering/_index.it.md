@@ -6,7 +6,7 @@ url: /it/java/data-filtering/
 ---
 {{% alert color="primary" %}}
 
-Microsoft Excel offre alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
+Microsoft Excel fornisce alcune buone funzionalità per filtrare automaticamente i dati del foglio di lavoro. Aspose.Cells supporta completamente le funzionalità di filtro automatico di Microsoft di Excel. Questo articolo spiega come utilizzare le funzionalità in Microsoft Excel e come codificarle utilizzando Aspose.Cells.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Il filtro automatico è il modo più rapido per selezionare dal foglio di lavoro
 Per attivare la funzione di filtro automatico in Microsoft Excel:
 
 1. Fare clic sulla riga dell'intestazione in un foglio di lavoro.
-1. Dal**Dati**menù, selezionare**Filtro**poi**Filtro automatico**.
+1. Dal**Dati**menù, selezionare**Filtro**e poi**Filtro automatico**.
 
 Quando applichi un filtro automatico a un foglio di lavoro, i parametri del filtro (frecce nere) vengono visualizzati a destra delle intestazioni di colonna.
 
@@ -29,7 +29,7 @@ Alcune delle opzioni di filtro automatico sono:
 
 |**Opzioni**|**Descrizione**|
 |:- |:- |
-|Tutto|Mostra tutti gli elementi nell'elenco una volta.|
+|Tutti|Mostra tutti gli elementi nell'elenco una volta.|
 |Costume|Personalizza i criteri di filtro come contiene/non contiene|
 |Filtra per colore|Filtri basati sul colore pieno|
 |Filtri data|Filtra le righe in base a diversi criteri in base alla data|
@@ -42,7 +42,7 @@ Gli utenti filtrano manualmente i dati del foglio di lavoro in Microsoft Excel u
 
 Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)che rappresenta un file Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook)la classe contiene un[**Raccolta di fogli di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection)che consente l'accesso a ciascun foglio di lavoro nel file Excel.
 
-Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)class fornisce un'ampia gamma di proprietà e metodi per gestire i fogli di lavoro. Per creare un filtro automatico, utilizzare il file[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)proprietà del[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Il[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)la proprietà è un oggetto di[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)classe, che fornisce il[**Gamma**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)proprietà per specificare l'intervallo di celle che compongono una riga di intestazione. Un filtro automatico viene applicato all'intervallo di celle che è la riga di intestazione.
+Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)class fornisce un'ampia gamma di proprietà e metodi per gestire i fogli di lavoro. Per creare un filtro automatico, utilizzare il file[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)proprietà del[**Foglio di lavoro**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet)classe. Il[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)la proprietà è un oggetto di[**Filtro automatico**](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#AutoFilter)classe, che fornisce il[**Allineare**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#Range)proprietà per specificare l'intervallo di celle che compongono una riga di intestazione. Un filtro automatico viene applicato all'intervallo di celle che è la riga di intestazione.
 
 In ogni foglio di lavoro è possibile specificare un solo intervallo di filtri. Questo è limitato da Microsoft Excel. Per il filtraggio dei dati personalizzati, utilizzare il file[**Filtro automatico.Personalizzato**](https://reference.aspose.com/cells/java/com.aspose.cells/autofilter#custom(int,%20int,%20java.lang.Object)) metodo.
 
@@ -151,6 +151,6 @@ Excel fornisce filtri personalizzati come righe di filtro che terminano con una 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-data-AutofilterData-AutofilterCustom-EndsWith.java" >}}
 
 ## **Argomenti avanzati**
-- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
+- [Applica il filtro avanzato di Microsoft Excel per visualizzare i record che soddisfano i criteri complessi](/cells/it/java/apply-advanced-filter-of-microsoft-excel-to-display-records-meeting-complex-criteria/)
 - [Ottieni tutti gli indici delle righe nascoste dopo l'aggiornamento del filtro automatico](/cells/it/java/get-all-hidden-rows-indices-after-refreshing-autofilter/)
 

@@ -25,8 +25,8 @@ Aspose.Cells bietet auch die Funktion zum Verwalten von Thread-Kommentaren.
 Führen Sie die folgenden Schritte aus, um Thread-Kommentare in Excel 365 hinzuzufügen.
 
 - Methode 1
- - Drücke den**Rezension** Tab
- - Drücke den**Neuer Kommentar** Taste
+ - Drücke den**Überprüfung** Tab
+ - Drücke den**Neuer Kommentar** Knopf
  - Dies öffnet einen Dialog zur Eingabe von Kommentaren in die aktive Zelle.
   - ![todo: Bild_alt_Text](threaded-comments_4.jpg)
 - Methode 2

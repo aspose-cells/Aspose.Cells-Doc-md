@@ -11,6 +11,6 @@ url: /it/net/using-workbookmetadata/
 
 {{% /alert %}}
 
- Il codice di esempio seguente utilizza[**Metadati della cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) class per modificare le proprietà del documento personalizzate di una cartella di lavoro. Una volta aperta la cartella di lavoro utilizzando[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)class, sarai in grado di leggere le proprietà del documento. Ecco un codice di esempio che utilizza il[**Metadati della cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)classe.
+ Il codice di esempio seguente utilizza[**Metadati della cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata) class per modificare le proprietà del documento personalizzate di una cartella di lavoro. Una volta aperta la cartella di lavoro utilizzando[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class, sarai in grado di leggere le proprietà del documento. Ecco un codice di esempio che utilizza il[**Metadati della cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells.metadata/workbookmetadata)classe.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-UsingWorkbookMetadata-1.cs" >}}

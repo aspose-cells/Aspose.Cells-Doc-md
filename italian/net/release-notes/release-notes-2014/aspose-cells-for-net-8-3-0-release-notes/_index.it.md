@@ -20,7 +20,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43112) - Ottieni il testo dell'equazione della linea di tendenza all'interno del grafico
 
-(CELLSNET-42303) - Conversione del grafico in immagine in formato SVG
+(CELLSNET-42303) - Conversione del grafico in immagine nel formato SVG
 
 (CELLSNET-43158) - Supporto per impostare la proprietà della cartella di lavoro di salvataggio automatico
 
@@ -30,7 +30,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-41755) - Problema con le immagini nella conversione da XLS a PDF
 
-(CELLSNET-43111) - Aggiunta di valori di cella ai preset di rimozione XLSB
+(CELLSNET-43111) - Aggiunta di valori di cella alle preimpostazioni di rimozione XLSB
 
 (CELLSNET-43110) - Errore "Excel ha trovato contenuto illeggibile" causato da pivotfield (doppio) nell'output XLSB
 
@@ -38,7 +38,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43095) - Il grafico sta cambiando posizione
 
-(CELLSNET-43053) - Errori durante la visualizzazione dell'HTML in Chrome e Safari
+(CELLSNET-43053) - Errori durante la visualizzazione di HTML in Chrome e Safari
 
 (CELLSNET-42984) - La luminosità dell'immagine viene persa durante il rendering dell'immagine da Excel
 
@@ -52,7 +52,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-40902) - La casella di testo di Excel viene ridimensionata in modo errato durante il rendering dell'immagine
 
-(CELLSNET-43138) - Il testo rosso viene reso in nero durante la conversione di SpreadsheetML in formato PDF
+(CELLSNET-43138) - Il testo rosso viene visualizzato in nero durante la conversione del formato SpreadsheetML nel formato PDF
 
 (CELLSNET-43133) - Problema di stampa di più copie
 
@@ -64,9 +64,9 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-42402) - Conformità PDF/A-1b non riuscita con Adobe X Pro Preflight
 
-(CELLSNET-41906) - Convalida PDF/A non riuscita e altri problemi relativi ai caratteri
+(CELLSNET-41906) - PDF/A Convalida non riuscita e altri problemi relativi ai caratteri
 
-(CELLSNET-41832) - PDF/A creato con Aspose Cells senza verifiche
+(CELLSNET-41832) - PDF/A creato con Aspose Cells verifiche fallite
 
 (CELLSNET-43103) - La linea di tendenza esce dall'area del grafico
 
@@ -74,7 +74,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43052) - Chart.Calculate non funziona correttamente
 
-(CELLSNET-43040) - Il grafico a linee risulta vuoto quando viene salvato in PNG utilizzando Chart.ToImage
+(CELLSNET-43040) - Il grafico a linee risulta vuoto se salvato in PNG utilizzando Chart.ToImage
 
 (CELLSNET-43039) - Le etichette dei dati del grafico sono posizionate in modo errato.
 
@@ -96,7 +96,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43120) - Calcolo errato della formula SumProduct
 
-(CELLSNET-43118) - L'API restituisce #N/D per una formula valida
+(CELLSNET-43118) - API restituisce #N/D per formula valida
 
 (CELLSNET-43116) - "CELLRANGE" viene visualizzato al posto delle etichette in Excel 2013
 
@@ -108,7 +108,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43094) - La formula del piano non viene calcolata correttamente
 
-(CELLSNET-43091) - Il layout del grafico è cambiato durante la conversione di ODS in formato XLSX
+(CELLSNET-43091) - Il layout del grafico è cambiato durante la conversione del formato ODS nel formato XLSX
 
 (CELLSNET-43087) - La conversione da ODS a XLSX produce un foglio di calcolo danneggiato
 
@@ -122,7 +122,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43142) - System.OverflowException all'apertura del file Excel
 
-(CELLSNET-43119) - Errore da forma a immagine durante la conversione di file Excel in PDF
+(CELLSNET-43119) - Errore da forma a immagine durante la conversione del file Excel in PDF
 
 (CELLSNET-43078) - Si è verificato un errore durante il caricamento del file CSV
 
@@ -154,11 +154,11 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43126) - TableItemStyle.Custom non funziona in GridWeb
 
-(CELLSNET-42745) - Problemi di allineamento e formato di visualizzazione durante l'importazione di file XLSX in GridWeb
+(CELLSNET-42745) - Problemi relativi all'allineamento e al formato di visualizzazione durante l'importazione del file XLSX in GridWeb
 
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà TxtLoadOptions.KeepExactFormat
 

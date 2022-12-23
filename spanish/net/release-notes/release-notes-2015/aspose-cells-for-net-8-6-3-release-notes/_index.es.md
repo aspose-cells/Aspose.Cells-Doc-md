@@ -36,7 +36,7 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-41482) - Compatibilidad con DateTime al fusionarse mediante marcadores inteligentes
 
-### **Actuación**
+### **Rendimiento**
 
 (CELLSNET-44096): Workbook.CalculateFormula se bloquea por tiempo indefinido
 
@@ -52,19 +52,19 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-43917): texto recortado al convertir la hoja de cálculo a HTML
 
-(CELLSNET-43914): el texto se desborda del cuadro al procesar la hoja de cálculo en PDF
+(CELLSNET-43914): el texto se desborda del cuadro al representar la hoja de cálculo en PDF
 
 (CELLSNET-44111): la dirección del hipervínculo que contiene caracteres chinos no se está convirtiendo correctamente
 
-(CELLSNET-44080) - Cells texto ligeramente desplazado hacia la derecha durante la conversión a PDF
+(CELLSNET-44080) - El texto Cells se desplazó ligeramente a la derecha durante la conversión a PDF
 
-(CELLSNET-44125) - Se produce un error al guardar en PDF para un documento de Excel
+(CELLSNET-44125): falla al guardar en PDF para un documento de Excel
 
 (CELLSNET-44117): conversión incorrecta para el título y la leyenda del gráfico.
 
 (CELLSNET-44086) - El eje horizontal del gráfico dentro del archivo pdf tiene una escala incorrecta y está invertido
 
-(CELLSNET-44079) - Algunas entradas de la leyenda del gráfico desaparecen al guardar en PDF
+(CELLSNET-44079): algunas entradas de la leyenda del gráfico desaparecen al guardar en PDF
 
 (CELLSNET-44046) - Chart.ToImage modifica la alineación de etiquetas
 
@@ -80,7 +80,7 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-44081) - Al combinar dos libros de trabajo se genera un archivo dañado
 
-(CELLSNET-44076) - ListObject.ListColumns[i].Name es incorrecto cuando Workbook abre un archivo XLS
+(CELLSNET-44076) - ListObject.ListColumns[i].Name es incorrecto cuando Workbook abre el archivo XLS
 
 (CELLSNET-44028) - La tabla dinámica no se actualiza al hacer clic en el botón Datos>Actualizar todo
 
@@ -100,9 +100,9 @@ La siguiente es una lista de mejoras y cambios en esta versión de Aspose.Cells
 
 (CELLSNET-44099) - CalculateFormula genera una excepción
 
-(CELLSNET-44127) - Guardar en archivo PDF/flujo de memoria provoca una excepción
+(CELLSNET-44127) - Guardar en PDF flujo de archivo/memoria provoca una excepción
 
-(CELLSNET-44085): System.Exception al cargar ODS
+(CELLSNET-44085) - System.Exception al cargar ODS
 
 (CELLSNET-43720): error de área desconocida al combinar libros de trabajo con tablas dinámicas
 

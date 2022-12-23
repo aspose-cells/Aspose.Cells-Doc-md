@@ -19,9 +19,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.4.
 |CELLSJAVA-42565|Color de primer plano frente a color de fondo frente a color de relleno: use un solo método que tome dos argumentos|Mejora|
 |CELLSJAVA-42528|"<Font>" no es una etiqueta válida de HTML5 y de cierre automático y los navegadores web tergiversan su contenido|Mejora|
 |CELLSJAVA-42413|Inserte el tipo de imagen SVG en las celdas de la hoja de trabajo por Aspose.Cells|Mejora|
-|CELLSJAVA-42551|Algunas formas no son correctas en el PDF de salida|Insecto|
+|CELLSJAVA-42551|Algunas formas no son correctas en la salida PDF|Insecto|
 |CELLSJAVA-42578|El formato condicional se pierde al guardar Excel en HTML|Insecto|
-|CELLSJAVA-42571|El HTML de salida no coincide con MS-Excel|Insecto|
+|CELLSJAVA-42571|La salida HTML no coincide con MS-Excel|Insecto|
 |CELLSJAVA-42553|Los enlaces al área nombrada son incorrectos después de exportar a HTML|Insecto|
 |CELLSJAVA-42530|Las tablas dinámicas y los gráficos correspondientes no tienen el formato de fecha correcto|Insecto|
 |CELLSJAVA-42527|El gráfico tiene muchos valores en el eje x y los valores se superponen entre sí|Insecto|
@@ -37,9 +37,9 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 18.4.
 # **Public API y cambios incompatibles con versiones anteriores**
 La siguiente es una lista de los cambios realizados al público API, como miembros agregados, renombrados, eliminados o obsoletos, así como cualquier cambio no compatible con versiones anteriores realizado en Aspose.Cells for Java. Si tiene inquietudes sobre cualquier cambio enumerado, plantéelo en el foro de soporte Aspose.Cells.
 #### **Agrega el nuevo elemento "CrossHideRight" para la enumeración HtmlCrossType**
-Muestra la cadena cruzada HTML y oculta la cadena correcta cuando el texto se superpone.
+Muestra HTML cadena cruzada y oculta la cadena derecha cuando el texto se superpone.
 #### **Agrega el nuevo elemento "TSV" para las enumeraciones LoadFormat, SaveFormat y FileFormatType**
-Representa un archivo TSV (valores separados por tabulaciones), igual que "TabDelimited".
+Representa un archivo TSV (valores separados por tabuladores), igual que "TabDelimited".
 #### **Agrega tipo de imagen de enumeración**
 Representa el tipo de la imagen.
 #### **Agrega las propiedades MsoTextFrame.RotateTextWithShape y ShapeTextAlignment.RotateTextWithShape**
@@ -63,8 +63,8 @@ Obtiene el tipo de valor Y del punto del gráfico.
 #### **Agrega enumeración PageLayoutAlignmentType**
 Representa los tipos de alineación de diseño de página.
 #### **Agrega el método Chart.ToPdf(System.IO.Stream,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
-Crea el PDF del gráfico con el tamaño de página deseado y lo guarda en una secuencia.
+Crea el gráfico PDF con el tamaño de página deseado y lo guarda en una secuencia.
 #### **Agrega el método Chart.ToPdf(System.String,System.Single,System.Single,Aspose.Cells.PageLayoutAlignmentType,Aspose.Cells.PageLayoutAlignmentType)**
-Crea el PDF del gráfico con el tamaño de página deseado y lo guarda en un archivo.
+Crea el gráfico PDF con el tamaño de página deseado y lo guarda en un archivo.
 #### **Agrega la propiedad PdfSaveOptions.OutputBlankPageWhenNothingToPrint**
 Indica si imprimir una página en blanco cuando no hay nada que imprimir.

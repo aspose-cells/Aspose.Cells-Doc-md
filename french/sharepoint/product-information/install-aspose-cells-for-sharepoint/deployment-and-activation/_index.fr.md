@@ -6,7 +6,7 @@ url: /fr/sharepoint/deployment-and-activation/
 ---
 {{% alert color="primary" %}} 
 
-[Installation Aspose.Cells for SharePoint](/cells/fr/sharepoint/installing-aspose-cells-for-sharepoint/)vous guide tout au long du processus d'installation. Cet article explique ce que le processus d'installation est déployé et activé.
+[Installation Aspose.Cells for SharePoint](/cells/fr/sharepoint/installing-aspose-cells-for-sharepoint/) vous guide tout au long du processus d'installation. Cet article explique ce que le processus d'installation est déployé et activé.
 
 {{% /alert %}} 
 ### **Déploiement**

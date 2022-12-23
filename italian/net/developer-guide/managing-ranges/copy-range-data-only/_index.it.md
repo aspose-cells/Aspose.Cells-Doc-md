@@ -6,7 +6,7 @@ url: /it/net/copy-range-data-only/
 ---
 {{% alert color="primary" %}}
 
-A volte, è necessario copiare i dati da un intervallo di celle a un altro, copiando solo i dati, non la formattazione. Aspose.Cells offre questa funzione.
+volte, è necessario copiare i dati da un intervallo di celle a un altro, copiando solo i dati, non la formattazione. Aspose.Cells offre questa funzione.
 
 In questo articolo viene fornito un codice di esempio che utilizza Aspose.Cells per copiare un intervallo di dati.
 
@@ -16,8 +16,8 @@ Questo esempio mostra come:
 
 1. Crea una cartella di lavoro.
 1. Aggiungi dati alle celle nel primo foglio di lavoro.
-1.  Creare un[**Gamma**](https://reference.aspose.com/cells/net/aspose.cells/range).
-1.  Creare un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style)oggetto con attributi di formattazione specificati.
+1.  Creare un[**Allineare**](https://reference.aspose.com/cells/net/aspose.cells/range).
+1.  Creare un[**Stile**](https://reference.aspose.com/cells/net/aspose.cells/style) oggetto con attributi di formattazione specificati.
 1. Applicare la formattazione dello stile all'intervallo.
 1. Crea un altro intervallo di celle.
 1. Copia i dati del primo intervallo in questo secondo intervallo.

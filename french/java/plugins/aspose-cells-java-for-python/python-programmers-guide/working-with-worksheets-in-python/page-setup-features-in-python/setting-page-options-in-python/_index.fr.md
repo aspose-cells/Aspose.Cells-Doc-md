@@ -6,7 +6,7 @@ url: /fr/java/setting-page-options-in-python/
 ---
 ## **Aspose.Cells - Paramètres des options de la page**
 ### **Orientation des pages**
- Pour appliquer les paramètres d'orientation de la page à l'aide de**Aspose.Cells Java pour rubis** , appel**page_orientation** méthode de**mise en page** module.
+ Pour appliquer les paramètres d'orientation de la page à l'aide de**Aspose.Cells Java pour rubis** , téléphoner à**page_orientation** méthode de**mise en page** module.
 
 **Code Python**
 
@@ -43,7 +43,7 @@ print "Set page orientation, please check the output file."
 
 {{< /highlight >}}
 ### **Facteur d'échelle**
- Pour appliquer une mise à l'échelle à l'aide de**Aspose.Cells Java for Python** , appel**mise à l'échelle** méthode de**mise en page** module.
+ Pour appliquer une mise à l'échelle à l'aide de**Aspose.Cells Java for Python** , téléphoner à**mise à l'échelle** méthode de**mise en page** module.
 
 **Code Python**
 

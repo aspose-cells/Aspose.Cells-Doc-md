@@ -5,11 +5,11 @@ weight: 80
 url: /it/java/data-formatting/
 ---
 ## **Si avvicina ai dati di formattazione in Cells**
-È un fatto comune che se le celle del foglio di lavoro sono formattate correttamente, diventa più facile per gli utenti leggere i contenuti (dati) della cella. Esistono molti modi per formattare le celle e il loro contenuto. Il modo più semplice consiste nel formattare le celle utilizzando Microsoft Excel in un ambiente WYSIWYG durante la creazione di un foglio di calcolo Designer. Dopo aver creato il foglio di calcolo del designer, puoi aprire il foglio di calcolo utilizzando Aspose.Cells mantenendo tutte le impostazioni di formato salvate con il foglio di calcolo. Un altro modo per formattare le celle e il loro contenuto è utilizzare l'API Aspose.Cells. In questo argomento, descriveremo due approcci per formattare le celle e il relativo contenuto con l'uso dell'API Aspose.Cells.
+È un fatto comune che se le celle del foglio di lavoro sono formattate correttamente, diventa più facile per gli utenti leggere i contenuti (dati) della cella. Esistono molti modi per formattare le celle e il loro contenuto. Il modo più semplice consiste nel formattare le celle utilizzando Microsoft Excel in un ambiente WYSIWYG durante la creazione di un foglio di calcolo Designer. Dopo aver creato il foglio di calcolo del designer, puoi aprire il foglio di calcolo utilizzando Aspose.Cells mantenendo tutte le impostazioni di formato salvate con il foglio di calcolo. Un altro modo per formattare le celle e il relativo contenuto consiste nell'usare Aspose.Cells API. In questo argomento, descriveremo due approcci per formattare le celle e il relativo contenuto con l'uso di Aspose.Cells API.
 ### **Formattazione Cells**
- Gli sviluppatori possono formattare le celle e il loro contenuto utilizzando l'API flessibile di Aspose.Cells. Aspose.Cells fornisce una classe,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class fornisce una raccolta Cells. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) collezione rappresenta un oggetto di**Cell** classe.
+ Gli sviluppatori possono formattare le celle e il loro contenuto utilizzando il flessibile API di Aspose.Cells. Aspose.Cells fornisce una classe,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) la classe contiene un[Raccolta di fogli di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheetcollection) che consente l'accesso a ciascun foglio di lavoro in un file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class fornisce una raccolta Cells. Ogni elemento del[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)collezione rappresenta un oggetto di**Cell** classe.
 
- Aspose.Cells fornisce il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style)proprietà nel[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class, utilizzato per impostare lo stile di formattazione di una cella. Inoltre, Aspose.Cells fornisce anche a[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) classe utilizzata per lo stesso scopo. Applica diversi tipi di stili di formattazione alle celle per impostare i colori di sfondo o di primo piano, i bordi, i caratteri, gli allineamenti orizzontali e verticali, il livello di rientro, la direzione del testo, l'angolo di rotazione e molto altro.
+ Aspose.Cells fornisce il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) proprietà nel[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) class, utilizzato per impostare lo stile di formattazione di una cella. Inoltre, Aspose.Cells fornisce anche a[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) classe utilizzata per lo stesso scopo. Applica diversi tipi di stili di formattazione alle celle per impostare i colori di sfondo o di primo piano, i bordi, i caratteri, gli allineamenti orizzontali e verticali, il livello di rientro, la direzione del testo, l'angolo di rotazione e molto altro.
 #### **Utilizzando il metodo setStyle**
  Quando si applicano diversi stili di formattazione a celle diverse, è meglio utilizzare il metodo setStyle di[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe. Di seguito viene fornito un esempio per dimostrare l'uso del metodo setStyle per applicare varie impostazioni di formattazione su una cella.
 
@@ -80,7 +80,7 @@ Tutte queste impostazioni di allineamento sono completamente supportate da Aspos
 
  La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe.
 
- Aspose.Cells fornisce il metodo setStyle nel file[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell)classe utilizzata per la formattazione di una cella. Il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) class fornisce proprietà utili per la configurazione delle impostazioni dei caratteri.
+Aspose.Cells fornisce il metodo setStyle nel file[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe utilizzata per la formattazione di una cella. Il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) class fornisce proprietà utili per la configurazione delle impostazioni dei caratteri.
 
 Selezionare qualsiasi tipo di allineamento del testo utilizzando l'enumerazione TextAlignmentType. I tipi di allineamento del testo predefiniti nell'enumerazione TextAlignmentType sono:
 
@@ -93,7 +93,7 @@ Selezionare qualsiasi tipo di allineamento del testo utilizzando l'enumerazione 
 |Riempire|Rappresenta l'allineamento del testo di riempimento|
 |Generale|Rappresenta l'allineamento generale del testo|
 |Giustificare|Rappresenta giustifica l'allineamento del testo|
-|Sono partiti|Rappresenta l'allineamento del testo a sinistra|
+|Sinistra|Rappresenta l'allineamento del testo a sinistra|
 |Destra|Rappresenta l'allineamento del testo a destra|
 |Superiore|Rappresenta l'allineamento del testo superiore|
 {{% alert color="primary" %}} 
@@ -102,7 +102,7 @@ Selezionare qualsiasi tipo di allineamento del testo utilizzando l'enumerazione 
 
 {{% /alert %}} 
 #### **Allineamento orizzontale**
- Utilizzare il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) metodo setHorizontalAlignment dell'oggetto per allineare il testo orizzontalmente.
+ Usa il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) metodo setHorizontalAlignment dell'oggetto per allineare il testo orizzontalmente.
 
 Il seguente output si ottiene eseguendo il codice di esempio riportato di seguito:
 
@@ -120,7 +120,7 @@ Il seguente output si ottiene eseguendo il codice di esempio riportato di seguit
 
 
 #### **Allineamento verticale**
- Utilizzare il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) metodo setVerticalAlignment dell'oggetto per allineare il testo verticalmente.
+ Usa il[Stile](https://reference.aspose.com/cells/java/com.aspose.cells/style) metodo setVerticalAlignment dell'oggetto per allineare il testo verticalmente.
 
 L'output seguente viene ottenuto quando VerticalAlignment è impostato su center.
 
@@ -222,7 +222,7 @@ L'output seguente si ottiene se le tre celle nella prima riga vengono unite per 
 
 ![cose da fare:immagine_alt_testo](data-formatting_9.png)
 
- Utilizzare il[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells)metodo Merge della raccolta per unire le celle. Il metodo Merge accetta i seguenti parametri:
+ Usa il[Cells](https://reference.aspose.com/cells/java/com.aspose.cells/cells) metodo Merge della raccolta per unire le celle. Il metodo Merge accetta i seguenti parametri:
 
 - Prima riga, la prima riga da cui iniziare l'unione.
 - Prima colonna, la prima colonna da cui iniziare l'unione.
@@ -270,7 +270,7 @@ Il seguente output si ottiene se l'ordine di lettura del testo è impostato da d
 
 Aspose.Cells supporta questa funzione. Questo argomento spiega come utilizzare questa funzione.
 ### **Formattazione dei caratteri selezionati**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Microsoft Excel. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) , che rappresenta un file Excel Microsoft. La classe Workbook contiene una raccolta di fogli di lavoro che consente l'accesso a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) classe. La classe Worksheet fornisce una raccolta Cells. Ogni articolo della collezione Cells rappresenta un oggetto della[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) classe.
 
 La classe Cell fornisce il metodo characters che accetta i seguenti parametri per selezionare un intervallo di caratteri in una cella:
 
@@ -305,9 +305,9 @@ volte, potrebbe essere necessario attivare un foglio di lavoro specifico in modo
 
 Un foglio attivo è il foglio su cui stai lavorando in una cartella di lavoro. Il nome sulla scheda del foglio attivo è in grassetto per impostazione predefinita. Una cella attiva, nel frattempo, è la cella selezionata e in cui vengono inseriti i dati quando inizi a digitare. È attiva solo una cella alla volta. La cella attiva è circondata da un bordo spesso per farla risaltare rispetto alle altre celle. Aspose.Cells consente inoltre di selezionare un intervallo di celle nel foglio di lavoro.
 ### **Attivare un foglio e rendere attivo uno Cell**
-Aspose.Cells fornisce un'API specifica per queste attività. Ad esempio, il metodo WorksheetCollection.setActiveSheetIndex è utile per impostare un foglio attivo. Allo stesso modo, il metodo Worksheet.setActiveCell viene utilizzato per impostare e ottenere una cella attiva in un foglio di lavoro.
+Aspose.Cells fornisce uno specifico API per questi compiti. Ad esempio, il metodo WorksheetCollection.setActiveSheetIndex è utile per impostare un foglio attivo. Allo stesso modo, il metodo Worksheet.setActiveCell viene utilizzato per impostare e ottenere una cella attiva in un foglio di lavoro.
 
-Se si desidera che le barre di scorrimento orizzontale e verticale scorrano fino alla posizione dell'indice di riga e colonna per fornire una buona visualizzazione dei dati selezionati quando il file viene aperto in Microsoft Excel, utilizzare le proprietà Worksheet.setFirstVisibleRow e Worksheet.setFirstVisibleColumn.
+Se si desidera che le barre di scorrimento orizzontale e verticale scorrano fino alla posizione dell'indice di riga e colonna per offrire una buona visualizzazione dei dati selezionati quando il file viene aperto in Microsoft Excel, utilizzare le proprietà Worksheet.setFirstVisibleRow e Worksheet.setFirstVisibleColumn.
 
 L'esempio seguente mostra come attivare un foglio di lavoro e rendere attiva una cella al suo interno. Le barre di scorrimento vengono fatte scorrere per rendere la seconda riga e la seconda colonna come prima riga e colonna visibili.
 
@@ -349,9 +349,9 @@ Tutte le classi e i metodi di cui sopra sono disponibili con la versione con lic
 ## **Formattazione di righe e colonne**
 La formattazione delle righe e delle colonne in un foglio di calcolo per dare un aspetto al report è probabilmente la funzionalità più utilizzata dell'applicazione Excel. Aspose.Cells Le API forniscono anche questa funzionalità attraverso il suo modello di dati esponendo la classe Style che gestisce principalmente tutte le funzionalità relative allo stile come carattere e suoi attributi, allineamento del testo, colori di sfondo/primo piano, bordi, formato di visualizzazione per numeri e data letterali e così via . Un'altra classe utile fornita dalle API Aspose.Cells è la StyleFlag che consente la riutilizzabilità dell'oggetto Style.
 
-In questo articolo, proveremo a spiegare come utilizzare l'API Aspose.Cells for Java per applicare la formattazione a righe e colonne.
+In questo articolo, proveremo a spiegare come utilizzare Aspose.Cells for Java API per applicare la formattazione a righe e colonne.
 ### **Formattazione di righe e colonne**
- Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Microsoft Excel. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class fornisce la raccolta Cells. La raccolta Cells fornisce una raccolta Righe.
+ Aspose.Cells offre un corso,[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) che rappresenta un file Excel Microsoft. Il[Cartella di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/workbook) class contiene un WorksheetCollection che consente l'accesso a ogni foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato dalla classe Worksheet. Il[Foglio di lavoro](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet) class fornisce la raccolta Cells. La raccolta Cells fornisce una raccolta Righe.
 #### **Formattazione di una riga**
 Ogni elemento nella raccolta Rows rappresenta un oggetto Row. L'oggetto Row offre il metodo applyStyle utilizzato per applicare la formattazione a una riga.
 
@@ -382,7 +382,7 @@ La raccolta Cells fornisce una raccolta Colonne. Ogni elemento nell'insieme Colu
 
 
 
-#### **Impostazione del formato di visualizzazione di numeri e date per righe e colonne**
+#### **Impostazione del formato di visualizzazione di Numbers e date per righe e colonne**
 Se il requisito è impostare il formato di visualizzazione di numeri e date per una riga o colonna completa, il processo è più o meno lo stesso discusso sopra, tuttavia, invece di impostare i parametri per i contenuti testuali, imposterai la formattazione per i numeri e le date utilizzando Style.Number o Style.Custom. Si noti che la proprietà Style.Number è di tipo integer e fa riferimento ai formati numerici e data incorporati, mentre la proprietà Style.Custom è di tipo stringa e accetta i modelli validi.
 
 
@@ -399,6 +399,6 @@ Se il requisito è impostare il formato di visualizzazione di numeri e date per 
 
 {{% alert color="primary" %}} 
 
- Si prega di controllare l'articolo dettagliato su[Impostazione dei formati di visualizzazione dei numeri e delle [date]](/cells/it/java/data-formatting/).
+ Si prega di controllare l'articolo dettagliato su[Impostazione dei formati di visualizzazione di Numbers e [Date]](/cells/it/java/data-formatting/).
 
 {{% /alert %}}

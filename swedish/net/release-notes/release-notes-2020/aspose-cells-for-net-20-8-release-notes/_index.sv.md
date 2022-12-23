@@ -18,42 +18,42 @@ url: /sv/net/aspose-cells-for-net-20-8-release-notes/
 |CELLSNET-47514|Lägg till egenskapen ShowAddButton för att stödja lägg till/ta bort kalkylblad för GridWeb|Ny funktion|
 |CELLSNET-43975|Stöd för OTF-teckensnittstyper med Aspose.Cells API:er för renderingsändamål|Ny funktion|
 |CELLSNET-47445|Pivottabellen visas inte när den sparas som ODS-fil|Ny funktion|
-|CELLSNET-47495|Stöd för att konvertera arbetsbok till PPTX vilka bilder är bild.|Ny funktion|
+|CELLSNET-47495|Stöd för att konvertera arbetsboken till PPTX där bilderna är bilder.|Ny funktion|
 |CELLSNET-47499|Sipport konverterar arbetsbok till DOCX vilka sidor är bilder.|Ny funktion|
 |CELLSNET-47538|Stödtabell för .ods-fil.|Ny funktion|
-|CELLSNET-47515|XLSX till HTML-konvertering tar ett antal minuter när du använder Aspose.Cells|Förbättring|
+|CELLSNET-47515|XLSX till HTML omvandlingen tar ett antal minuter när du använder Aspose.Cells|Förbättring|
 |CELLSNET-47483|Undantag "Maximal längd på teckensnittsnamnet är 31" när en XLS laddas|Förbättring|
 |CELLSNET-47489|Bestämmelse för att redigera PowerQueryFormulaParameters|Förbättring|
 |CELLSNET-47387|Beräkna formel på stora Excel-data med fler 140K rader som inte fungerar|Prestanda|
 |CELLSNET-47474|Sidan är inte samma som webbläsare|Insekt|
-|CELLSNET-47480|Stilar och innehåll saknas vid konvertering av kalkylblad till HTML/bilder|Insekt|
+|CELLSNET-47480|Stilar och innehåll saknas vid konvertering av kalkylblad till HTML/images|Insekt|
 |CELLSNET-47493|Problem med att konvertera XLSX till HTML|Insekt|
 |CELLSNET-47501|Vissa positiva talformateringsutrymme till höger saknas i utdata|Insekt|
 |CELLSNET-47503|Fält saknas vid konvertering av XLSX till HTML|Insekt|
 |CELLSNET-47516|Stöd linjär gradientbakgrund vid export av fil till HTML eller MHT|Insekt|
-|CELLSNET-47521|Felmeddelande vid öppning av utdatafil efter att ha sparat om en XLSX|Insekt|
+|CELLSNET-47521|Felmeddelande vid öppning av utdatafil efter att ha sparat en XLSX igen|Insekt|
 |CELLSNET-47475|CalculateFormula() beräknar annorlunda än MS Excel|Insekt|
 |CELLSNET-47504|Fel formatkonvertering i Excel till HTML-rendering|Insekt|
-|CELLSNET-47464|En rad bildas överst i dokumentet i Excel till PDF-konvertering|Insekt|
+|CELLSNET-47464|En rad bildas överst i dokumentet i Excel till PDF konvertering|Insekt|
 |CELLSNET-47481|Etikett saknas vid konvertering av kalkylblad till bilder|Insekt|
-|CELLSNET-47497|Excel till EMF-textjustering är inte konsekvent|Insekt|
+|CELLSNET-47497|Excel till EMF textjustering är inte konsekvent|Insekt|
 |CELLSNET-47522|Aspose renderade bilder har större mellanrum mellan kolumner jämfört med manuellt kopiera och klistra in|Insekt|
 |CELLSNET-47533|Bilder i Excel-filen renderas inte till PDF|Insekt|
-|CELLSNET-47484|XLSX till HTML-konverteringsproblem med diagram och unicode-tecken med noll bredd|Insekt|
-|CELLSNET-47509|XLS till PDF: Diagram X-Axis har felaktig skalning|Insekt|
+|CELLSNET-47484|XLSX till HTML omvandlingsproblem med diagram och unicode-tecken med noll bredd|Insekt|
+|CELLSNET-47509|XLS till PDF: Diagram X-axel har felaktig skalning|Insekt|
 |CELLSNET-47520|Cells.InsertRange gör att diagramtiteln försvinner|Insekt|
 |CELLSNET-47485|RelativeToOriginalPictureSize = false fungerar inte|Insekt|
 |CELLSNET-47507|Smart Marker sammanslagningsgruppering från json-data|Insekt|
 |CELLSNET-47511|Externa länkar finns fortfarande kvar efter att ha anropat RemoveExternalLinks|Insekt|
 |CELLSNETCORE-74|Formens position ändrades när XLS-filen laddades och sparades|Insekt|
-|CELLSNETCORE-75|Textramen blir mindre efter att XLS-filen laddats och sparats|Insekt|
-|CELLSNETCORE-76|Teckensnittet ändras när XLS-filen laddas och sparas|Insekt|
+|CELLSNETCORE-75|Textramen blir mindre efter att filen XLS har laddats och sparats|Insekt|
+|CELLSNETCORE-76|Teckensnittet ändras när filen XLS laddas och sparas|Insekt|
 |CELLSNET-47487|Form till bild Fel vid konvertering av XLSB till PDF|Undantag|
 |CELLSNET-47490|Konvertering av XLSX-filer med dolda element till HTML ger undantag|Undantag|
 |CELLSNET-47526|Ett undantag skapas om pivotfältet är datafält.|Undantag|
-|CELLSNET-47529|Undantag vid fullständig HTML-konvertering tur och retur med specifik fil|Undantag|
+|CELLSNET-47529|Undantag vid full tur och retur HTML konvertering med specifik fil|Undantag|
 |CELLSNET-47496|Undantag vid konvertering av diagram till bild|Undantag|
-|CELLSNET-47488|Undantag "Zoomvärdet ska vara mellan 10 och 400" när ODS-fil öppnas|Undantag|
+|CELLSNET-47488|Undantag "Zoomvärdet ska vara mellan 10 och 400" när du öppnar ODS-filen|Undantag|
 |CELLSNET-47491|FormatException kastas vid konvertering av vissa strikta XLSX-filer till HTML|Undantag|
 |CELLSNET-47494|Undantag "Ogiltig definition av pPower-frågeformel" vid hämtning av mashup-data från arbetsboken|Undantag|
 |CELLSNET-47500|StackOverflowException under konvertering av Excel till HTML|Undantag|

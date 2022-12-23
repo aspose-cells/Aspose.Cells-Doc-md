@@ -17,6 +17,6 @@ url: /ru/reportingservices/mismatch-chart-types/
 - Range-BoxPlot
 - Форма-воронка
 
- При отображении элементов диаграммы, которые не имеют эквивалентных параметров в Microsoft Excel, Aspose.Cells выводит их в изображения.
+При отображении элементов диаграммы, которые не имеют эквивалентных параметров в Microsoft Excel, Aspose.Cells выводит их в изображения.
 
 {{% /alert %}}

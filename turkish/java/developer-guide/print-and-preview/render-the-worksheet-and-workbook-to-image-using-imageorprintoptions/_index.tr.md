@@ -16,7 +16,7 @@ Bazen, çalışma sayfalarınızı resimli bir sunum olarak sunmanız gerekebili
 
 API, birkaç değerli sınıf sağlar, örneğin,[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender), [**ResimVeyaBaskıSeçenekleri**](https://reference.aspose.com/cells/java/com.aspose.cells/ImageOrPrintOptions), [**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender), vb.
 
- bu[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class, çalışma sayfası için görüntüleri işleme görevini üstlenirken,[**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)bir çalışma kitabı için aynısını yapar. Yukarıda bahsedilen sınıfların her ikisi de, birkaç aşırı yüklenmiş sürüme sahiptir.*Hayal etmek*bir çalışma sayfasını veya çalışma kitabını, istediğiniz nitelikler veya seçeneklerle belirtilen görüntü dosya(lar)ına doğrudan dönüştürebilen yöntem. Görüntü dosyasını diske/akışa kaydedebilirsiniz. BMP, PNG, GIFF, JPEG, TIFF, EMF vb. gibi desteklenen birkaç resim formatı vardır.
+ bu[**SheetRender**](https://reference.aspose.com/cells/java/com.aspose.cells/SheetRender) class, çalışma sayfası için görüntüleri işleme görevini üstlenirken,[**Çalışma KitabıRender**](https://reference.aspose.com/cells/java/com.aspose.cells/WorkbookRender)bir çalışma kitabı için aynısını yapar. Yukarıda bahsedilen sınıfların her ikisi de, birkaç aşırı yüklenmiş sürüme sahiptir.*Hayal etmek*bir çalışma sayfasını veya çalışma kitabını, istediğiniz nitelikler veya seçeneklerle belirtilen görüntü dosya(lar)ına doğrudan dönüştürebilen yöntem. Görüntü dosyasını diske/akışa kaydedebilirsiniz. BMP, PNG, GIFF, JPEG, TIFF, EMF gibi desteklenen birkaç görüntü formatı vardır.
 
 ### **Çalışma Sayfasını Resme Dönüştür**
 
@@ -47,6 +47,6 @@ Veya çalışma kitabında dolaşabilir ve içindeki her çalışma sayfasını 
 ## İlgili Makaleler
 
 - [Çalışma Sayfasını Farklı Görüntü Formatlarına Dönüştürme](/cells/tr/java/converting-worksheet-to-different-image-formats/)
-- [Grafiği viewBox özniteliğiyle SVG'ye aktar](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
+- [Grafiği viewBox özniteliğiyle SVG'e aktarın](/cells/tr/java/export-chart-to-svg-with-viewbox-attribute/)
 - [Çalışma Sayfasını veya Grafiği İstenilen Genişlik ve Yükseklikte Görüntüye Aktarın](/cells/tr/java/export-worksheet-or-chart-into-image-with-desired-width-and-height/)
 - [Çalışma Sayfasını Görüntüye ve Çalışma Sayfasını Görüntüye Sayfa Sayfa Dönüştürme](/cells/tr/java/converting-worksheet-to-image-and-worksheet-to-image-by-page/)

@@ -25,7 +25,7 @@ Macro desconocida: {...}
 - Verifique si la licencia se ha configurado, incluye soporte para obtener la fecha de vencimiento de su suscripción.
 - Se ha mejorado la operación de lectura/guardado de archivos de Excel 2007.
 - Se ha mejorado la función Gráfico a imagen.
-- Se ha mejorado la función directa de Excel a PDF.
+- Se ha mejorado la función Direct Excel to PDF.
 - Se ha mejorado la función de formato de valores Cell.
 - Se ha mejorado la operación de lectura/guardado de archivos de Excel 97-2003.
 - 21 correcciones y mejoras.
@@ -36,7 +36,7 @@ Macro desconocida: {...}
 |:- |:- |:- |
 |20158 | Fórmula| La función INDIRECTO no funciona correctamente con el rango con nombre|
 |20312 | xlsx| Leer archivo Excel2007|
-|20311 | Cuadro| Celdas vacías/invisibles|
+|20311 | Gráfico| Celdas vacías/invisibles|
 |20313 | xlsx| Leer archivo Excel2007|
 |20377 | xls| Agregar imagen vinculada|
 |20404 | Gráfico2Imagen| Formato de número de tabla de datos|
@@ -47,12 +47,12 @@ Macro desconocida: {...}
 |20653 | Gráfico2Imagen| NullPointerException para awt.Fuente|
 |20137 | xls| Guardar archivos grandes de Excel|
 |20501 | xlsx| Guardar archivos grandes de Excel|
-|20845 | Cuadro| Visibilidad de Axis y AxisLine|
+|20845 | Gráfico| Visibilidad de Axis y AxisLine|
 |20877 | xls| Eliminar columnas|
 |18342 | Fórmula| Parámetros de matriz en fórmula|
 |18535 | Fórmula| Parámetros de matriz en fórmula|
 |18805 | Fórmula| Parámetros de matriz en fórmula|
 |20913 | xlsx| Guardar filtros automáticos|
-|21006 | Cuadro| Formato de gráfico - Relleno degradado perdido|
+|21006 | Gráfico| Formato de gráfico - Relleno degradado perdido|
 |20979 | pdf| Imagen de OleObject|
 

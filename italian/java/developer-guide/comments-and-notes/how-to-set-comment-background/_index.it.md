@@ -9,7 +9,7 @@ keywords: add inset picture iamge color comment background excel
 ---
 {{% alert color="primary" %}}
 
- commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come funziona una formula, da dove proviene un valore o domande dei revisori. I commenti svolgono un ruolo estremamente importante quando più persone discutono o rivedono lo stesso documento in momenti diversi. Come distinguere i commenti di persone diverse? Sì, possiamo impostare un colore di sfondo diverso per ogni commento. Ma quando dobbiamo elaborare molti documenti e molti commenti, farlo manualmente è un disastro. per fortuna[**Aspose.Cells**](https://products.aspose.com/cells/java/) fornisce un'API che consente di eseguire questa operazione nel codice.
+ I commenti vengono aggiunti alle celle per registrare commenti, qualsiasi cosa, dai dettagli su come funziona una formula, da dove proviene un valore o domande dei revisori. I commenti svolgono un ruolo estremamente importante quando più persone discutono o rivedono lo stesso documento in momenti diversi. Come distinguere i commenti di persone diverse? Sì, possiamo impostare un colore di sfondo diverso per ogni commento. Ma quando dobbiamo elaborare molti documenti e molti commenti, farlo manualmente è un disastro. fortunatamente[**Aspose.Cells**](https://products.aspose.com/cells/java/) fornisce uno API che ti consente di farlo nel codice.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ Quando non hai bisogno del colore di sfondo predefinito per i commenti, potresti
 
  Il seguente codice ti guiderà come utilizzare[**Aspose.Cells**](https://products.aspose.com/cells/java/) per aggiungere il tuo colore di sfondo preferito ai commenti di tua scelta.
 
- Qui abbiamo preparato un[file di esempio](exmaple.xlsx)per te. Questo file viene utilizzato per inizializzare l'oggetto Workbook nel codice seguente.
+ Qui abbiamo preparato un[file di esempio](exmaple.xlsx) per te. Questo file viene utilizzato per inizializzare l'oggetto Workbook nel codice seguente.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "HowToChangeCommentBackgroundColor.java" >}}
 

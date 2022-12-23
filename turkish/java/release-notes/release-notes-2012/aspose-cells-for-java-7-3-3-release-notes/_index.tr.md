@@ -20,7 +20,7 @@ Biz
 
  Geliştirmeler
 
-- İle bir CSV'yi dışa aktarırken boş hücre değerlerine tırnak işaretleri ekleyin
+- Bir CSV ile dışa aktarırken boş hücre değerlerine tırnak işaretleri ekleyin
 
  seçenek
 
@@ -28,14 +28,14 @@ Biz
 
 - Unicode karakterlerle koşullu biçimlendirme başarısız oluyor
 - Koşullu biçimlendirme için alanlar eklemeden önce formül ayarlamak ve ardından çalışma sayfasını yeniden adlandırmak, çalışma kitabı kaydedilirken bir hataya neden oldu
-- Bir XLS şablon dosyasının yeniden kaydedilmesi
+- XLS şablon dosyasının yeniden kaydedilmesi
 
  Hatalar
 
 - Biçimlendirilmiş Tarih değeri, MS Excel'de gösterilenden farklıydı
 - CellCollection temizlenirse grafik serisi adları kaybolur
-- Boşluğu boşluklar/sıfırlar olarak görüntülemek XLSX dosyaları için çalışmıyor
+- XLSX dosyalarında boşluklar/sıfırlar olarak boş görüntülenme çalışmıyor
 - Grafikler için veri etiketi biçimlendirmesi iyi değil
 - Oluşturulan PDF dosyasında yazı tipi altı çizili kayboldu
 - Yazı tipi stillerinin ayarlanması, LightCells modunda XLSX için hiçbir etki yaratmadı
-- PDF'ye kaydederken alt bilginin bir kısmı kayboldu
+- PDF'e kaydederken altbilginin bir kısmı kayboldu

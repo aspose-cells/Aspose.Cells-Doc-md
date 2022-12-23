@@ -11,7 +11,7 @@ url: /sv/net/aspose-cells-for-net-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for .NET har uppdaterats till version 8.0.2 och vi är glada att kunna meddela att denna utgåva kommer med över 30 nya användbara förbättringar.
-Med Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, PDF, XPS och andra format i dina applikationer. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
+Genom att använda Aspose.Cells for .NET kan du arbeta med XLS, SpreadsheetML,OOXML,XLSB, CSV, HTML, ODS, 807.3s andra applikationer och 807.3s andra applikationer och 807.3. Du kan också visa, generera, ändra, konvertera, rendera och skriva ut arbetsböcker utan att använda Microsoft Excel.
 Besök dokumentationen för att lära dig hur du kommer igång med Aspose.Cells for .NET.
 Observera att den här nedladdningen innehåller en fullt fungerande version av produkten, men utan en licensuppsättning kommer den att köras i utvärderingsläge med vissa begränsningar. För att testa Aspose.Cells utan dessa utvärderingsbegränsningar kan du begära en gratis 30-dagars tillfällig licens.
 Följande är en lista över ändringar i denna version av Aspose.Cells.
@@ -30,17 +30,17 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Prestanda**
 
 
- (CELLSNET-42278) - System.OutOfMemoryException samtidigt som XLSX sparas till PDF där XLSX har massor av tomma celler med formatering
+ (CELLSNET-42278) - System.OutOfMemoryException samtidigt som du sparar XLSX till PDF där XLSX har massor av tomma celler med formatering
 
 
 ## **Buggar**
 
 
- (CELLSNET-42524) - CalculateTextSize-funktionen för Shape-objektproblemen
+(CELLSNET-42524) - CalculateTextSize-funktionen för Shape-objektproblemen
 
  (CELLSNET-42401) - CalculateTextSize() returnerar inte korrekt höjd
 
-(CELLSNET-42235) - Problem med TextBox AutoSizing
+ (CELLSNET-42235) - Problem med TextBox AutoSizing
 
  (CELLSNET-42104) - CalculateTextSize returnerar inte korrekt höjd
 
@@ -48,9 +48,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42562) - Formler fungerar inte med utländsk valuta
 
- (CELLSNET-42269) - Pivottabellformatering i utdata-XPS är inte korrekt
+ (CELLSNET-42269) - Pivottabellformatering i utdata XPS är inte korrekt
 
- (CELLSNET-42597) - AutoFitRows gör att den raderade texten döljs i resulterande PDF
+ (CELLSNET-42597) - AutoFitRows gör att den raderade texten gömmer sig i resulterande PDF
 
  (CELLSNET-42615) - SheetRender renderar inte upphöjd korrekt
 
@@ -60,11 +60,11 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42579) - Problem med sidbrytning vid rendering till PDF
 
- (CELLSNET-42498) - Border kopieras till nästa sida medan XLSX konverteras till PDF
+(CELLSNET-42498) - Border kopieras till nästa sida medan XLSX konverteras till PDF
 
  (CELLSNET-42495) - Pdf-rendering innehåller oönskade rader på sidan 2 och 3
 
-(CELLSNET-42567) - Grafen försvinner när den konverteras till PDF
+ (CELLSNET-42567) - Grafen försvinner när den konverteras till PDF
 
  (CELLSNET-42527) - Linjediagram och stapeldiagram i samma graf är inte i rätt position
 
@@ -78,9 +78,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-42586) - Kommentarstextjustering när den är inställd till höger fungerar inte
 
- (CELLSNET-42582) - Excel hittade oläsbart innehållsfel vid öppning av Aspose.Cells konverterad XLSM från XLSB
+ (CELLSNET-42582) - Excel hittade oläsbart innehållsfel vid öppning av Aspose.Cells konverterade XLSM från XLSB
 
- (CELLSNET-42581) - ArgumentOutOfRangeException - när du öppnar Excel XLSX-filen
+(CELLSNET-42581) - ArgumentOutOfRangeException - när du öppnar filen Excel XLSX
 
  (CELLSNET-42570) - Cell formler i de smarta markörerna expanderar inte
 
@@ -90,9 +90,9 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 ## **Undantag**
 
 
-(CELLSNET-42576) - Nullreferensundantag för att spara xls som pdf
+ (CELLSNET-42576) - Nullreferensundantag för att spara xls som pdf
 
- (CELLSNET-42628) - System.NullReferenceException när ett MHTML-kalkylblad laddas
+ (CELLSNET-42628) - System.NullReferenceException när ett MHTML kalkylblad laddas
 
  (CELLSNET-42609) - Cell.GetDispalyStyle() misslyckas för vissa villkorliga formateringsregler
 
@@ -104,7 +104,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
-\2) Aspose.Cells Grid Suite
+ \2) Aspose.Cells Grid Suite
 
 
 ## **Andra förbättringar och förändringar**
@@ -118,7 +118,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
  (CELLSNET-40531) - Formelproblem vid laddning av mallfil till GridWeb
 
- (CELLSNET-42571) - Talformat i kolumn H inne i GridWeb bevaras inte
+(CELLSNET-42571) - Talformat i kolumn H inne i GridWeb bevaras inte
 
  (CELLSNET-42553) - Lista objekt/tabellformatering/ stil förlorad vid import av Excel-fil till GridWeb
 
@@ -134,7 +134,7 @@ Följande är en lista över ändringar i denna version av Aspose.Cells.
 
 
 
-Lägger till egenskapen Shape.TextDirection
+ Lägger till egenskapen Shape.TextDirection
 
  Hämtar/ställer in textflödets riktning för formen.
 

@@ -9,6 +9,6 @@ Cuando Microsoft Excel 2002 o Microsoft Excel 2000 carga complementos Aspose.Cel
 ##### **Solución**
 {{% alert color="primary" %}} 
 
- Instalar**lockbackRegKey.msi**Esto soluciona el problema de CLR en máquinas de Office anteriores a Office 2003.
+ Instalar**lockbackRegKey.msi**. Esto soluciona el problema de CLR en máquinas de Office anteriores a Office 2003.
 
 {{% /alert %}}

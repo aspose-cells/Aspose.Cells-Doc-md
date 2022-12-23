@@ -50,7 +50,7 @@ end
 ### **Spalten kopieren**
 Aspose.Cells stellt die Methode copyColumn der Klasse Cells bereit. Diese Methode kopiert alle Arten von Daten, einschließlich Formeln – mit aktualisierten Verweisen – und Werten, Kommentaren, Zellformaten, ausgeblendeten Zellen, Bildern und anderen Zeichnungsobjekten aus der Quellspalte in die Zielspalte.
 
-Die copyColumn-Methode übernimmt die folgenden Parameter:
+Die copyColumn-Methode akzeptiert die folgenden Parameter:
 
 - das Quellobjekt Cells,
 - Quellspaltenindex und

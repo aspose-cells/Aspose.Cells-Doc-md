@@ -12,7 +12,7 @@ url: /de/cpp/aspose-cells-for-cpp-17-3-0-release-notes/
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-51|Verbesserte Leistung beim Schreiben von XLSX-Dateien|Verbesserung|
+|CELLSCPP-51|Verbesserte Leistung beim Schreiben der Datei XLSX|Verbesserung|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for C++ vorgenommen wurden das Aspose.Cells Support-Forum.
 

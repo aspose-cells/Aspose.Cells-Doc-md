@@ -1,5 +1,5 @@
 ﻿---
-title: Mostrar viñetas configurando el valor Cell usando HTML
+title: Mostrar viñetas configurando Cell Valor usando HTML
 type: docs
 weight: 130
 url: /es/net/display-bullets-by-setting-cell-value-using/
@@ -8,7 +8,7 @@ keywords: add bullets in excel, add bullets in excel c#, display bullets in exce
 ---
 {{% alert color="primary" %}}
 
- Aspose.Cells admite mostrar viñetas con código HTML. Este artículo explicará cómo mostrar viñetas configurando el valor de la celda usando HTML. Usaremos[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) propiedad para establecer el valor de la celda con nuestro HTML.
+Aspose.Cells admite viñetas con el código HTML. Este artículo explicará cómo mostrar viñetas configurando el valor de la celda usando HTML. Usaremos[**Cell.HtmlString**](https://reference.aspose.com/cells/net/aspose.cells/cell/properties/htmlstring) propiedad para establecer el valor de la celda con nuestro HTML.
 
 {{% /alert %}}
 

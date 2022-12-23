@@ -10,25 +10,25 @@ url: /it/net/aspose-cells-for-net-19-1-release-notes/
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSNET-46429|Aggiungi tabella pivot con l'opzione Mostra pagine filtro report|Nuova caratteristica|
-|CELLSNET-46014|Supporta la gestione del contenuto delle celle in eccesso durante il salvataggio come PDF e immagine|Nuova caratteristica|
-|CELLSNET-46490|Supporta file XLS Excel95/5.0|Nuova caratteristica|
+|CELLSNET-46014|Supporta la gestione del contenuto della cella in eccesso durante il salvataggio come PDF e immagine|Nuova caratteristica|
+|CELLSNET-46490|Supporta i file Excel95/5.0 XLS|Nuova caratteristica|
 |CELLSNET-46500|Ordina per colore di sfondo della cella|Nuova caratteristica|
 |CELLSNET-46544|Rileva se il file MHT generato è un foglio di lavoro o meno|Nuova caratteristica|
 |CELLSNET-46538|Quando XLSX viene salvato come PDF o TIFF, manca la parte inferiore del testo|Insetto|
 |CELLSNET-46509|Le formule R1C1 vengono lette in modo errato per alcune celle|Insetto|
 |CELLSNET-46513|Aspose.Cells il motore di calcolo delle formule calcola una formula per la cella come "0" invece di "#RIF!" errore|Insetto|
-|CELLSNET-46535|"#NOME?" per formule salvate in formato XLSB|Insetto|
+|CELLSNET-46535|"#NOME?" per le formule salvate nel formato XLSB|Insetto|
 |CELLSNET-46539|Formula con distinzione tra maiuscole e minuscole|Insetto|
 |CELLSNET-46531|La ridenominazione di ListColumns corrompe la cartella di lavoro (quando è presente una tabella pivot)|Insetto|
 |CELLSNET-46511|TIFF creato con pagine bianche aggiuntive|Insetto|
 |CELLSNET-46522|Applicazione delle impostazioni internazionali per stampare le intestazioni di configurazione|Insetto|
 |CELLSNET-46529|Immagine mancante dopo la conversione da XLSX a PDF|Insetto|
-|CELLSNET-46451|Problema durante il rendering del file modello in formato file PDF|Insetto|
-|CELLSNET-46518|Problema di layout (alcune etichette degli assi sono su due righe) durante il rendering del file modello in formato file PDF|Insetto|
-|CELLSNET-46113|Il formato del file non è supportato, ad eccezione del documento XLS|Insetto|
+|CELLSNET-46451|Problema durante il rendering del file modello nel formato file PDF|Insetto|
+|CELLSNET-46518|Problema di layout (alcune etichette degli assi sono su due righe) durante il rendering del file modello nel formato file PDF|Insetto|
+|CELLSNET-46113|Il formato file non è supportato, ad eccezione del documento XLS|Insetto|
 |CELLSNET-46504|Problema relativo al percorso dei collegamenti|Insetto|
 |CELLSNET-46506|Differenza con il metodo ImportObjectArray|Insetto|
 |CELLSNET-46541|Il grafico combinato non funziona con v18.12.x ma funziona con v18.4 e versioni precedenti|Insetto|
@@ -36,8 +36,8 @@ url: /it/net/aspose-cells-for-net-19-1-release-notes/
 |CELLSNET-46459|Viene sollevata un'eccezione durante la conversione nel formato Open Strict XML|Eccezione|
 |CELLSNET-46485|Eccezione durante il caricamento di un formato di file XLSB|Eccezione|
 |CELLSNET-46508|Eccezione durante il caricamento di un formato di file XLSM|Eccezione|
-### **API pubblica e modifiche non compatibili con le versioni precedenti**
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+### **Pubblico API e modifiche incompatibili con le versioni precedenti**
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByName(string fieldName).**
 Mostra tutte le pagine del filtro del report in base al nome del PivotField, il PivotField deve trovarsi nei PageField.
 #### **Aggiunge il metodo PivotTable.ShowReportFilterPageByIndex(int posIndex).**

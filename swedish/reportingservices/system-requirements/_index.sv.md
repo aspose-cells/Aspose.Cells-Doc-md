@@ -13,7 +13,7 @@ Aspose.Cells for Reporting Services (inklusive Aspose.Cells.ReportingServices-kl
 Följande Microsoft Excel-versioner stöds. Dessutom måste du installera ytterligare patchar för att övervinna vissa möjliga problem för Microsoft Office 2000, 2002, XP eller 2003.
 
 - Microsoft Excel 2000
- Installera**lockbackRegKey.msi** för att fixa ett CLR-problem på Microsoft Office-maskiner som är äldre än Office 2003.
+Installera**lockbackRegKey.msi** för att fixa ett CLR-problem på Microsoft Office-maskiner som är äldre än Office 2003.
 - Microsoft Excel 2002
  Installera**lockbackRegKey.msi** för att fixa ett CLR-problem på Microsoft Office-maskiner som är äldre än Office 2003.
 - Microsoft Excel 2003

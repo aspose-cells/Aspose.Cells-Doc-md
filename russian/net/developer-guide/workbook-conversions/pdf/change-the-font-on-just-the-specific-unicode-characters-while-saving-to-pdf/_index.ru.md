@@ -1,5 +1,5 @@
 ﻿---
-title: Измените шрифт только на определенные символы Unicode при сохранении в PDF
+title: Измените шрифт только на определенные символы Unicode при сохранении на PDF.
 type: docs
 weight: 260
 url: /ru/net/change-the-font-on-just-the-specific-unicode-characters-while-saving-to-pdf/

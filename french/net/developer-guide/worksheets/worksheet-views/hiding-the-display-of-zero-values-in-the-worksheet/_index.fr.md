@@ -12,7 +12,7 @@ Parfois, vous devez masquer les valeurs nulles dans une feuille de calcul. Il pe
 
 Pour masquer les valeurs nulles dans une feuille de calcul dans Microsoft Excel (par exemple Microsoft Excel 2003) :
 
-1.  Du**Outils** menu, sélectionnez**Choix** , puis sélectionnez le**Voir** languette.
+1.  Du**Outils** menu, sélectionnez**Choix** , puis sélectionnez le**Vue** languette.
 1.  Désélectionnez le**Valeurs nulles** option.
 1.  Cliquez sur**D'ACCORD**.
 

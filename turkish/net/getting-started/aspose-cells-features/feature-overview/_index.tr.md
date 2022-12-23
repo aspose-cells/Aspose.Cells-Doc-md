@@ -12,7 +12,7 @@ Aşağıdaki tablolar Aspose.Cells for .NET özelliklerini özetlemekte ve ayrı
 ## **Desteklenen Platformlar**
 Aspose.Cells for .NET ürünü, popüler geliştirme ortamlarının ve dağıtım platformlarının çoğunu kapsar.
 
-|**Özellik**|**Tanım**|
+|**Özellik**|**Açıklama**|
 |:- |:- |
 |[.NET Çerçeve](/cells/tr/net/system-requirements/#net-frameworks)|Aspose.Cells for .NET'i kullanarak ASP.NET, Web Hizmetleri, WinForms veya İstemci Profili sürümleri de dahil olmak üzere herhangi bir .NET Framework sürüm 2.0 veya üzeri için başka herhangi bir uygulama türü oluşturun. 32 bit ve 64 bit için tam destek.|
 |[.NET Standart 2.0](/cells/tr/net/system-requirements/#net-standard)|'netStandard' klasörü, .NET Core 2.1/3.1 gibi .NET Standard 2.0'ı uygulayan çerçeveyle kullanılacak derlemeyi içerir. Aspose.Cells API'in son sürümü ayrıca .NET 5.0 ve .NET 6.0'ı destekler.|
@@ -24,19 +24,19 @@ Aspose.Cells for .NET ürünü, popüler geliştirme ortamlarının ve dağıtı
 ## **Dosya Biçimleri ve Dönüşümler**
 Dünya çapındaki birçok müşteri, Aspose.Cells for .NET tarafından sağlanan kapsamlı belge içe ve dışa aktarma özelliklerine güveniyor.
 
-|**Özellik**|**Tanım**|**.NET**|**.NET Standart 2.0** |
+|**Özellik**|**Açıklama**|**.NET**|**.NET Standart 2.0** |
 |:- |:- |:- |:- |
 |Yüksek kaliteli dönüşümler|Çeşitli popüler belge biçimleri arasında hızlı ve güvenilir bir şekilde dönüştürme yapın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Microsoft Excel çalışma kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS biçimi uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Elektronik TabloML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Ayrıca, bileşen destekler<br>tüm önemli Excel 2007, 2010 ve 2013 dosya biçimleri, örneğin XLSX, XLTX, XLSM, XLTM vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşime geçmek için kapsamlı CSV biçimi desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Microsoft Excel çalışma kitabı (XLS)|Bulabileceğiniz en hızlı ve en eksiksiz XLS format uygulaması.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|SpreadsheetML (XLSX, XML)| Aspose.Cells, OOXML, Flat OPC ve ayrıca Excel 2003 XML'i destekler. Ayrıca, bileşen destekler<br>tüm önemli Excel 2007, 2010 ve 2013 dosya biçimleri, örneğin XLSX, XLTX, XLSM, XLTM vb.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Virgülle Ayrılmış Değer (CSV)|Çeşitli uygulamalarla etkileşim için CSV biçiminin kapsamlı desteği.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |TSV|Belgeleri TSV dosya biçiminde yükleyin ve kaydedin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML|HTML olarak kaydet kullanılabilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Açık Belge - ODS](/cells/tr/net/opendocument-ods/)|Aspose.Cells, belgeleri OpenDocument Elektronik Tablo (.ods) biçiminde yükleyebilir ve kaydedebilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|PDF dosyalarına dönüştürme|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'ye dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|PDF dosyalarına dönüştürülüyor|Herhangi bir Elektronik Tabloyu yüksek doğrulukla PDF'e dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Sekmeyle ayrılmış|Belgeleri sekmeyle ayrılmış dosya biçiminde yükleyin ve kaydedin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Düz metin (TXT)|Düz metin biçiminde kaydederek metni kolayca çıkarın.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XPS belgesi](/cells/tr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Excel elektronik tablosunu XPS belgesine dönüştürün|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XPS belge](/cells/tr/net/convert-workbook-to-different-formats/#convertworkbooktodifferentformats-convertingexcelworkbooktoxps)|Excel elektronik tablosunu XPS belgesine dönüştürün|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[Çalışma sayfasını resme ve çalışma sayfasını resme sayfa sayfa dönüştürme](/cells/tr/net/converting-worksheet-to-image-and-worksheet-to-image-by-page/)|Elektronik tablolar, istenen herhangi bir sıkıştırma türüyle Etiketli Görüntü Dosyası Biçimine (TIFF) de dışa aktarılabilir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 ## **Oluşturma ve Yazdırma**
 Aspose.Cells for .NET artık elektronik tablo sayfalarının aslına uygun olarak işlenmesini sağlıyor.
@@ -45,7 +45,7 @@ Aspose.Cells for .NET artık elektronik tablo sayfalarının aslına uygun olara
 |:- |:- |:- |
 |Belgeyi Microsoft Excel®'e yüksek doğrulukla sayfalara yerleştirin (aynı Microsoft Excel®'in yapacağı gibi).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Çalışma sayfası sayfalarını raster görüntülere dönüştürün (TIFF, çok sayfalı TIFF, PNG, JPEG, BMP).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Elektronik tablo sayfalarını vektör görüntülere (EMF) dönüştürün.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Elektronik tablo sayfalarını vektör görüntülere dönüştürün (EMF).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Görüntü çözünürlüğünü, kalitesini, sıkıştırmayı ve diğer seçenekleri belirtin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |.NET yazdırma altyapısını kullanarak elektronik tabloları yazdırın. Bileşen, çalışma sayfalarını Microsoft Excel'in Baskı Önizleme'de gösterildiği gibi yazdırmak için yerleşik bir yazdırma yöntemine sahiptir.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Oluşturmadan veya yazdırmadan önce sayfa numaralarını ve diğer alanları güncelleyin.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

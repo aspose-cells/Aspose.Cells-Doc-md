@@ -23,11 +23,11 @@ url: /zh/python-java/aspose-cells-for-python-via-java-22-8-release-notes/
 |CELLSJAVA-44781|调查调整到非常小的高度时的行调整大小问题|
 |CELLSJAVA-44787|工作簿最后一行的底部边框丢失|
 |CELLSJAVA-44761|将 Excel 文件转换为 HTML 时内存使用过多|
-|CELLSJAVA-44801|Excel转PDF使用Aspose.Cells for Java v22.7导致乱码|
+|CELLSJAVA-44801|excel到PDF转换使用Aspose.Cells for Java v22.7导致乱码|
 |CELLSJAVA-44741|将 html 字符串设置到单元格后，输出 xlsx 中的换行符不正确|
 |CELLSJAVA-44776|复制工作表时表格标题行样式丢失|
 |CELLSJAVA-44789|放置在 Excel 电子表格中的文本框的字符串替换问题|
-|CELLSJAVA-44792|将工作簿无限保存为 HTML 格式 (2892)|
+|CELLSJAVA-44792|无限保存工作簿为 HTML 格式 (2892)|
 |CELLSJAVA-44763|使用“org.apache.commons.io.input.AutoCloseInputStream”加载 Excel 文件时出现异常“java.lang.IllegalArgumentException：无法解析参数编号：1:X8”|
 |CELLSJAVA-44774|另存为 PDF 时出错 - 需要调查|
 

@@ -7,7 +7,7 @@ url: /zh/reportingservices/mapping-query-parameters-to-report-parameters/
 1. 打开 Microsoft Excel。
 1. 点击**构建数据集**在 Aspose.Cells.Report.Designer 工具栏上（
 
-![待办事项：图像_替代_文本](mapping-query-parameters-to-report-parameters_1.png)
+![待办事项：图片_替代_文本](mapping-query-parameters-to-report-parameters_1.png)
 
 ).
 
@@ -15,7 +15,7 @@ url: /zh/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **选择数据集** 
 
-![待办事项：图像_替代_文本](mapping-query-parameters-to-report-parameters_2.png)
+![待办事项：图片_替代_文本](mapping-query-parameters-to-report-parameters_2.png)
 
 
 
@@ -27,7 +27,7 @@ url: /zh/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **映射参数** 
 
-![待办事项：图像_替代_文本](mapping-query-parameters-to-report-parameters_3.png)
+![待办事项：图片_替代_文本](mapping-query-parameters-to-report-parameters_3.png)
 
 
 
@@ -36,6 +36,6 @@ url: /zh/reportingservices/mapping-query-parameters-to-report-parameters/
 
    **映射完成** 
 
-![待办事项：图像_替代_文本](mapping-query-parameters-to-report-parameters_4.png)
+![待办事项：图片_替代_文本](mapping-query-parameters-to-report-parameters_4.png)
 
 1. 点击**关**.

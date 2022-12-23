@@ -6,7 +6,7 @@ url: /ru/java/read-chart-subtitle-from-ods-file/
 ---
 ## **Читать подзаголовок диаграммы из файла ODS**
 
-Aspose.Cells предоставляет вам возможность читать субтитры диаграмм в файлах ODS с помощью[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)имущество. Следующий пример кода загружает[образец ODS-файла](SampleChart.ods)и читает подзаголовок диаграммы, используя[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)свойство и распечатывает его в окне консоли. Для справки см. консольный вывод кода, приведенного ниже.
+Aspose.Cells предоставляет вам возможность читать субтитры диаграмм в файлах ODS с помощью[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)имущество. Следующий пример кода загружает[образец файла ODS](SampleChart.ods)и читает подзаголовок диаграммы, используя[**Диаграмма.Подзаголовок**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#SubTitle)свойство и распечатывает его в окне консоли. Для справки см. консольный вывод кода, приведенного ниже.
 
 ## **Образец кода**
 

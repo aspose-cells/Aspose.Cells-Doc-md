@@ -14,7 +14,7 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-44415|Tusentals getResourceAsAStream-anrop orsakar hög CPU-belastning och minnesförbrukning under rapportgenerering|
 |CELLSJAVA-44490|lägg till GridWorkbookSetting för GridWeb|
-|CELLSJAVA-44455|När du konverterar XLSX-fil till PDF blir datumet i pivottabellen ett serienummer|
+|CELLSJAVA-44455|När du konverterar filen XLSX till PDF blir datumet i pivottabellen ett serienummer|
 |CELLSJAVA-44370|Excel-filen blir korrupt när den öppnas och sparas med Aspose.Cells|
 |CELLSJAVA-44381|Problem med villkorsformatering när raden eller kolumnen tas bort|
 |CELLSJAVA-44442|Att öppna och spara med Aspose.Cells förstör arbetsboken|
@@ -25,8 +25,8 @@ url: /sv/php-java/aspose-cells-for-php-via-java-22-4-release-notes/
 |CELLSJAVA-44466| ytterligare problem 3, setCalculateFormula till false fungerar inte|
 |CELLSJAVA-44496|Inkludera rubriktaggen/elementet för tabellen när du laddar html|
 |CELLSJAVA-44429|Effekten av Excel-diagram i excel skiljer sig från den i HTML|
-|CELLSJAVA-44414| Unicode i JSON kommer att bryta genererad XLSX och CSV|
-|CELLSJAVA-44404|Undantag "java.lang.IllegalArgumentException: Ogiltigt kolumnindex" när en XLSX-fil laddas in i GridWeb|
+|CELLSJAVA-44414| Unicode i JSON kommer att bryta genererade XLSX och CSV|
+|CELLSJAVA-44404|Undantag "java.lang.IllegalArgumentException: Ogiltigt kolumnindex" vid inläsning av en XLSX-fil i GridWeb|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

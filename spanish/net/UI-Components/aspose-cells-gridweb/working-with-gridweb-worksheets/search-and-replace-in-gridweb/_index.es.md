@@ -6,7 +6,7 @@ url: /es/net/search-and-replace-in-gridweb/
 ---
 {{% alert color="primary" %}} 
 
-Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es usar la función de buscar y reemplazar. Find lo ayuda a ubicar una cadena de texto o datos y replace los sustituye con un nuevo valor. Aspose.Cells. GridWeb proporciona esta función. Le permite buscar y reemplazar con una cadena de texto o valor específico en el lado del cliente de la hoja de trabajo a través de un cuadro de diálogo simple. Incluso te permite buscar datos parciales.
+Una de las formas más rápidas de realizar cambios repetitivos en una hoja de cálculo grande es usar la función de buscar y reemplazar. Find lo ayuda a ubicar una cadena de texto o datos y replace los sustituye con un nuevo valor. Aspose.Cells. GridWeb proporciona esta característica. Le permite buscar y reemplazar con una cadena de texto o valor específico en el lado del cliente de la hoja de trabajo a través de un cuadro de diálogo simple. Incluso te permite buscar datos parciales.
 
 {{% /alert %}} 
 ## **Trabajar con Buscar/Reemplazar**

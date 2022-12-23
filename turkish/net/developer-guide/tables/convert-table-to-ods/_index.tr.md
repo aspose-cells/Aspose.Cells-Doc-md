@@ -1,10 +1,10 @@
 ﻿---
-title: Tabloyu ODS'ye Dönüştür
+title: Tabloyu ODS'e Dönüştür
 type: docs
 weight: 70
 url: /tr/net/convert-table-to-ods/
 ---
-Aspose.Cells, tablo içeren bir Excel dosyasını ODS dosyasına dönüştürmeyi destekler. Dosyayı ODS formatında kaydetmeniz yeterlidir ve oluşturulan ODS dosyası çalışan bir tabloya sahip olacaktır.
+Aspose.Cells, tablo içeren bir Excel dosyasının ODS dosyasına dönüştürülmesini destekler. Dosyayı ODS biçiminde kaydetmeniz yeterlidir ve oluşturulan ODS dosyası çalışan bir tabloya sahip olacaktır.
 
 ## Basit kod
 
@@ -12,4 +12,4 @@ Aspose.Cells, tablo içeren bir Excel dosyasını ODS dosyasına dönüştürmey
 
 Örnek kod tarafından oluşturulan çıktı ODS dosyası, referansınız için eklenmiştir.
 
-[**Çıktı ODS Dosyası**](ConvertTableToOds_out.ods)
+[**Çıktı ODS Dosya**](ConvertTableToOds_out.ods)

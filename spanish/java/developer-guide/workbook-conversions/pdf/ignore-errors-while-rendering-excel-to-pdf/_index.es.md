@@ -6,7 +6,7 @@ url: /es/java/ignore-errors-while-rendering-excel-to-pdf/
 ---
 ## **Posibles escenarios de uso**
 
-A veces, cuando convierte su archivo de Excel a PDF, se producen errores o excepciones y el proceso de conversión finaliza. Puede ignorar todos esos errores durante el proceso de conversión usando el[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError)propiedad. De esta manera, el proceso de conversión se completará sin problemas sin arrojar ningún error o excepción, pero puede ocurrir la pérdida de datos. Por lo tanto, utilice esta propiedad solo si la pérdida de datos no es crítica para usted.
+A veces, cuando convierte su archivo de Excel a PDF, se producen errores o excepciones y finaliza el proceso de conversión. Puede ignorar todos esos errores durante el proceso de conversión usando el[**PdfSaveOptions.IgnoreError**](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#IgnoreError)propiedad. De esta manera, el proceso de conversión se completará sin problemas sin arrojar ningún error o excepción, pero puede ocurrir la pérdida de datos. Por lo tanto, utilice esta propiedad solo si la pérdida de datos no es crítica para usted.
 
 ## **Ignorar errores al renderizar Excel a PDF**
 

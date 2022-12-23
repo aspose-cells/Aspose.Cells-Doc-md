@@ -10,7 +10,7 @@ Bu belge, Aspose.Cells API sürümünde 8.1.1'den 8.1.2'ye modül/uygulama geli�
 
 {{% /alert %}} 
 ## **Yazı Tipi Değiştirme Oluşursa Uyarı İçin Destek Eklendi**
-Aspose.Cells for Java 8.1.2 ile WarningInfo ve WarningType sınıfları, IWarningCallback arabirimi ve SaveOptions.WarningCallback ve ImageOrPrintOptions.WarningCallback özellikleri, elektronik tabloları görüntülere, XPS ve PDF biçimlerine dönüştürürken yazı tipi değişikliği meydana geldiğinde geliştiricilerin uyarı almasına olanak sağlamak için eklenmiştir.
+Aspose.Cells for Java 8.1.2 ile, elektronik tabloları görüntülere, XPS & PDF biçimlerine dönüştürürken yazı tipi değişikliği meydana geldiğinde geliştiricilerin uyarı almasına izin vermek için WarningInfo ve WarningType sınıfları, IWarningCallback arayüzü ve SaveOptions.WarningCallback ve ImageOrPrintOptions.WarningCallback özellikleri eklendi.
 
 {{% alert color="primary" %}} 
 

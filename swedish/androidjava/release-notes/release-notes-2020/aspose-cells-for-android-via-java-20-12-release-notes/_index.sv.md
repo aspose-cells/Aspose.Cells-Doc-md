@@ -15,34 +15,34 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.12
 |CELLSJAVA-43322|Egenskapen Shape.getWorksheet() krävs|Ny funktion|
 |CELLSJAVA-43367|Stöd beräkning av ISFORMEL-funktionen|
 |CELLSJAVA-43191|Tillhandahåll sätt att hantera scenarier när du anger felaktiga teckensnittstyper|Förbättring|
-|CELLSJAVA-40913|Pilriktningen har ändrats i den resulterande PDF-filen|Insekt|
+|CELLSJAVA-40913|Pilriktningen har ändrats i den resulterande PDF|Insekt|
 |CELLSJAVA-43282|Uppdatera pivot fungerar inte och korrumperar utdatafilen|Insekt|
 |CELLSJAVA-43286|Aspose.Cells är i konflikt med HtmlHiddenRowDisplayType.REMOVE-inställningarna|Insekt|
 |CELLSJAVA-43302|Problem med att få Cells värde|Insekt|
-|CELLSJAVA-43308|HTML till Excel-konvertering med wrapText-egenskapen|Insekt|
+|CELLSJAVA-43308|HTML för att Excel-konvertering med wrapText-egenskapen|Insekt|
 |CELLSJAVA-43318|Cell värdeproblem efter uppdatering av pivottabellen|Insekt|
 |CELLSJAVA-43299|Problem med att få Cell-värdet|Insekt|
 |CELLSJAVA-43284|Tabellen skrivs inte ut när du använder Aspose.Cells för en viss fysisk skrivare|Insekt|
 |CELLSJAVA-43273|Text i förklaringsobjekt klipps ut i utdatabilden|Insekt|
 |CELLSJAVA-43274|Skillnad i diagramstapelns konturfärg|Insekt|
-|CELLSJAVA-43276|Radbrytningsproblem vid konvertering av XLSX till PDF|Insekt|
-|CELLSJAVA-43278|Genomstruken i Excel visas inte i PDF-fil|Insekt|
-|CELLSJAVA-43304|Vissa dataetiketter i diagrammet saknas i utdata-PDF-filen|Insekt|
+|CELLSJAVA-43276|Problem med radbrytning vid konvertering av XLSX till PDF|Insekt|
+|CELLSJAVA-43278|Genomstruken i Excel visas inte i filen PDF|Insekt|
+|CELLSJAVA-43304|Vissa dataetiketter i diagrammet saknas i utgången PDF|Insekt|
 |CELLSJAVA-43311|Diagram X-axeletiketter är vertikala istället för diagonala när de konverteras till bild|Insekt|
 |CELLSJAVA-40992|Problem med diagramtextposition när du sparar en Excel-fil igen|Insekt|
 |CELLSJAVA-43294|Färgtema för villkorlig formatering fungerar inte korrekt|Insekt|
 |CELLSJAVA-43307|Ändra storlek Problem med inbäddat OLE-objekt vid kopiering av kalkylblad|Insekt|
 |CELLSJAVA-43319|Problem med att få cellvärde med formel|Insekt|
 |CELLSJAVA-43330|Problem efter återlagring av XLSB-fil - skadad fil|Insekt|
-|CELLSJAVA-43333|Bilder och textpositionering fel vid rendering av Excel som HTML|Insekt|
+|CELLSJAVA-43333|Bilder och textpositionering är felaktig när Excel renderas som HTML|Insekt|
 |CELLSJAVA-43321|Problem med autofilter - tomma rader visas|Insekt|
 |CELLSJAVA-43335|Dödläge inträffade vid beräkning av formler på arbetsbok|Insekt|
 |CELLSJAVA-43313|Sjökortetiketten ändrar sin position när den skrivs ut|Insekt|
 |CELLSJAVA-43314|0/100 % rad skrivs inte ut för 100 % cirkeldiagram|Insekt|
 |CELLSJAVA-43316| Olika problem vid utskrift av diagram|Insekt|
 |CELLSJAVA-40582|Smart art-text renderas inte korrekt till PDF/bild|Insekt|
-|CELLSJAVA-41639|Kolumnbredder bevaras inte vid konvertering från "XML Spreadsheet 2003"-format till XLSX-format|Insekt|
-|CELLSJAVA-43315|Konvertering av XLS till XLSX gör filen korrupt och ger "Shape to Image"-fel vid konvertering av utdata XLSX till PDF|Insekt|
+|CELLSJAVA-41639|Kolumnbredder bevaras inte vid konvertering från formatet "XML Spreadsheet 2003" till formatet XLSX|Insekt|
+|CELLSJAVA-43315|Konvertering av XLS till XLSX gör filen korrupt och ger "Shape to Image" fel vid konvertering av utdata XLSX till PDF|Insekt|
 |CELLSJAVA-43334|Problem med autofilter på tabell|Insekt|
 |CELLSJAVA-43338|Skillnad i utdata vid konvertering av Excel-fil till PDF|
 |CELLSJAVA-43346|Utdatafilen är korrupt när fler än 12 fält läggs till i sidfiltren för pivottabellen|
@@ -51,17 +51,17 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Android via Java 20.12
 |CELLSJAVA-43341|Extra tomma kolumner vid export av CSV med LightCellsDataProvider|
 |CELLSJAVA-43352|Excel-fil konverterad till PDF ger ett problem med stora siffror|
 |CELLSJAVA-43339|Bilden är felplacerad när källfilen konverteras till pdf|
-|CELLSJAVA-43340|Saknat innehåll i XLS till PDF-konvertering|
+|CELLSJAVA-43340|Saknat innehåll i konverteringen XLS till PDF|
 |CELLSJAVA-43336| Sjökortsförklaringsposter renderas för långt till vänster|
 |CELLSJAVA-43356|Tomma värden/luckor på ett diagram respekteras inte mellan två värden|
 |CELLSJAVA-43344|Aktuellt användarnamn visas som författare till den senaste kommentaren|
-|CELLSJAVA-43349|Dolda rader underhålls inte från XML till XLS/XLSX-konvertering|
+|CELLSJAVA-43349|Dolda rader underhålls inte från XML till XLS/XLSX konvertering|
 |CELLSJAVA-43361|Fel cellfärg vid konvertering av xls till xlsx|
 |CELLSJAVA-43366|Egenskapen SetAsTotal uppdateras inte|
 |CELLSJAVA-43296|ArrayIndexOutOfBoundsException medan pivottabellen uppdateras|Undantag|
-|CELLSJAVA-43298|Aspose.Cells 20.8: Undantag vid spara till PDF.|Undantag|
-|CELLSJAVA-43348|XLSB till PDF-konvertering: CellsException: -2147483648|
-|CELLSJAVA-43343|Undantag vid export av en fil till PDF som inte har ett markerat objekt för en form|
+|CELLSJAVA-43298|Aspose.Cells 20.8: Undantag när du sparar till PDF.|Undantag|
+|CELLSJAVA-43348|XLSB till PDF konvertering: CellsException: -2147483648|
+|CELLSJAVA-43343| Undantag vid export av en fil till PDF som inte har ett valt objekt för en form|
 
 ## **Offentlig API och bakåtinkompatibla ändringar**
 

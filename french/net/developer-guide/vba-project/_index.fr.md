@@ -13,7 +13,7 @@ description: Ajoutez un module VBA et modifiez VBA ou une macro avec la biblioth
 
 {{% /alert %}}
 
-L'exemple de code suivant crée un nouveau classeur et ajoute un nouveau module VBA et un code de macro et enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier XLSM de sortie dans Microsoft Excel et cliquez sur le**Développeur > Visual Basic** commandes de menu, vous verrez un module nommé "TestModule" et à l'intérieur, vous verrez le code macro suivant.
+L'exemple de code suivant crée un nouveau classeur et ajoute un nouveau module VBA et un code de macro et enregistre la sortie au format XLSM. Une fois, vous ouvrirez le fichier de sortie XLSM dans Microsoft Excel et cliquez sur le**Développeur > Visual Basic** commandes de menu, vous verrez un module nommé "TestModule" et à l'intérieur, vous verrez le code macro suivant.
 
 {{< highlight "java" >}}
 
@@ -25,7 +25,7 @@ End Sub
 
 {{< /highlight >}}
 
-Voici l'exemple de code pour générer le fichier XLSM de sortie avec le module VBA et le code macro.
+Voici l'exemple de code pour générer le fichier de sortie XLSM avec le module VBA et le code macro.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-AddVBAModuleOrCode-AddVBAModuleOrCode.cs" >}}
 

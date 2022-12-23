@@ -12,6 +12,6 @@ url: /tr/net/check-if-vba-project-in-a-workbook-is-signed/
 
 ## **Bir Çalışma Kitabındaki VBA projesinin C#'de İmzalanıp İmzalanmadığını kontrol edin**
 
- Aşağıdaki kod, çalışma kitabını yükler ve VBA projesinin kullanılarak imzalanıp imzalanmadığını kontrol eder.[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned)Emlak. mülk geri dönecek**doğru** proje imzalanırsa aksi takdirde geri döner**yanlış**.
+ Aşağıdaki kod, çalışma kitabını yükler ve VBA projesinin kullanılarak imzalanıp imzalanmadığını kontrol eder.[**Workbook.VbaProject.IsSigned**](https://reference.aspose.com/cells/net/aspose.cells.vba/vbaproject/properties/issigned) Emlak. mülk geri dönecek**doğru** proje imzalanırsa aksi takdirde geri döner**YANLIŞ**.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-ManagingVBAModules-CheckVbaProjectSigned-1.cs" >}}

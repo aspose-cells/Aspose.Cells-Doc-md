@@ -5,7 +5,7 @@ weight: 50
 url: /zh/java/converting-to-mhtml-files-in-ruby/
 ---
 ## **Aspose.Cells - 转换为 MHTML 文件**
-要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_至_Converter 模块的 mhtml() 方法。
+要在 Ruby 中使用 Aspose.Cells for Java 将工作表转换为 MHTML 文件，只需调用工作表_到_Converter 模块的 mhtml() 方法。
 
 **红宝石代码**
 

@@ -28,6 +28,6 @@ url: /zh/reportingservices/render-chart-items-of-selected-report-to-excel-charts
 
 **Microsoft Excel中可以编辑Excel图表** 
 
-![待办事项：图像_替代_文本](render-chart-items-of-selected-report-to-excel-charts_1.png)
+![待办事项：图片_替代_文本](render-chart-items-of-selected-report-to-excel-charts_1.png)
 
 {{% /alert %}}

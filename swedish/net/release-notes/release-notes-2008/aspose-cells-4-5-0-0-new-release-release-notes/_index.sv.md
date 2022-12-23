@@ -15,7 +15,7 @@ url: /sv/net/aspose-cells-4-5-0-0-new-release-release-notes/
 
 
 - ` `Konvertera arbetsblad till bild.
-- ` `Stöd för att konvertera Excel-fil till HTML-filformat.
+- ` `Stöd för att konvertera Excel-fil till HTML filformat.
 - ` `Stöd för att sortera data från vänster till höger.
 
 
@@ -27,7 +27,7 @@ url: /sv/net/aspose-cells-4-5-0-0-new-release-release-notes/
 - ` `Stödde fler funktioner i formelberäkningsmotorn
 - ` `Stödde fler anpassade filter i autofilter.
 - ` `Förbättrad Excel2007 Xlsx-stöd
-- ` `Utökat stöd för SpreadsheetML
+- ` `Förbättrad SpreadsheetML-support
 - ` `Förbättrad xls2Pdf-konvertering
 - ` `Enhanced Charts2Image-konvertering.
 - ` `Förbättrad smart markör

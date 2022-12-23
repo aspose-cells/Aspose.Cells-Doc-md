@@ -40,7 +40,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 ## **Miglioramenti**
 
 
- (CELLSNET-43144) - Rendering HTML per ogni foglio con solo il contenuto dell'elemento
+ (CELLSNET-43144) - Render HTML per ogni foglio con il solo contenuto dell'elemento
 
  (CELLSNET-43282) - Importazione di un file CSV in un file Excel XLSX
 
@@ -66,19 +66,19 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 (CELLSNET-43271) - L'apertura e il salvataggio del foglio di calcolo lo danneggiano
 
- (CELLSNET-43266) - Il rendering del secondo foglio di lavoro non è corretto nel PDF di output
+ (CELLSNET-43266) - Il secondo foglio di lavoro non viene visualizzato correttamente nell'output PDF
 
  (CELLSNET-43262) - I metodi di IStreamProvider non vengono chiamati
 
- (CELLSNET-43248) - Le connessioni della tabella pivot sono state rimosse per l'affettatrice durante il nuovo salvataggio di un file XLSB
+ (CELLSNET-43248) - Rimosse le connessioni della tabella pivot per l'affettatrice quando si salva nuovamente un file XLSB
 
  (CELLSNET-43215) - PivotItem non si sposta nella posizione specificata durante l'utilizzo di PivotItem.Move
 
- (CELLSNET-43205) - Alcuni elementi grafici sono posizionati in modo errato nell'HTML di output
+ (CELLSNET-43205) - Alcuni elementi grafici sono fuori posto nell'output HTML
 
- (CELLSNET-43204) - Alcuni elementi grafici sono posizionati in modo errato nel PDF di output
+ (CELLSNET-43204) - Alcuni elementi grafici sono fuori posto nell'output PDF
 
- (CELLSNET-43051) - I punti dati del grafico vengono visualizzati sotto l'immagine nel formato di file HTML sottoposto a rendering
+ (CELLSNET-43051) - I punti dati del grafico vengono visualizzati sotto l'immagine nel formato file HTML renderizzato
 
  (CELLSNET-42878) - Il colore di sfondo della tabella pivot è impostato su nero
 
@@ -86,11 +86,11 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-43306) - Aspose.Cells non converte la linea tratteggiata in linea retta
 
- (CELLSNET-43288) - Le immagini non vengono visualizzate durante la conversione del foglio di calcolo in PDF
+(CELLSNET-43288) - Le immagini non vengono visualizzate durante la conversione del foglio di calcolo in PDF
 
-(CELLSNET-43263) - Problema relativo all'immagine di rendering
+ (CELLSNET-43263) - Problema relativo all'immagine di rendering
 
- (CELLSNET-43245) - Il layout viene ridotto e i bordi diventano più spessi nel PDF di output
+ (CELLSNET-43245) - Il layout viene ridotto e i bordi diventano più spessi nell'output PDF
 
  (CELLSNET-42973) - Problema di allineamento del piè di pagina
 
@@ -102,7 +102,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-43273) - La griglia principale dell'asse verticale (valore) non è più selezionabile
 
- (CELLSNET-43272) - Rotazione dell'immagine non utilizzata nel formato di file PDF sottoposto a rendering
+ (CELLSNET-43272) - Rotazione dell'immagine non utilizzata nel formato file PDF sottoposto a rendering
 
  (CELLSNET-43267) - Il testo ebraico è invertito nel grafico
 
@@ -112,9 +112,9 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-43210) - Pulsanti di campo mancanti nel grafico pivot
 
- (CELLSNET-43046) - Chart.ToImage non rende il formato della data conforme a CultureInfo
+(CELLSNET-43046) - Chart.ToImage non rende il formato della data conforme a CultureInfo
 
-(CELLSNET-42993) - Le etichette dei dati del grafico non vengono visualizzate durante il rendering in PDF
+ (CELLSNET-42993) - Le etichette dei dati del grafico non vengono visualizzate durante il rendering in PDF
 
  (CELLSNET-42893) - SheetRender.ToImage non esegue correttamente il rendering del grafico
 
@@ -136,13 +136,13 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-43280) - Impostazione del tipo di posizionamento di CommentShape su "Sposta"
 
- (CELLSNET-43275) - Documento Excel aperto con visualizzazione protetta bloccante
+(CELLSNET-43275) - Documento Excel aperto con visualizzazione protetta bloccante
 
-(CELLSNET-43270) - L'impostazione dello zoom per il foglio di lavoro di tipo grafico non ha effetto
+ (CELLSNET-43270) - L'impostazione dello zoom per il foglio di lavoro di tipo grafico non ha effetto
 
  (CELLSNET-43269) - UpdateLinkedDataSource non recupera nuovi dati dalla cartella di lavoro esterna
 
- (CELLSNET-43265) - Problema di conversione di SpreadsheetML del simbolo della sterlina Ansi
+ (CELLSNET-43265) - Ansi Pound sign SpreadsheetML problema di conversione
 
  (CELLSNET-43264) - Applicazione di bordi alle celle
 
@@ -166,9 +166,9 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  (CELLSNET-43323) - Eccezione sul metodo Workbook.CalculateFormula()
 
- (CELLSNET-43319) - System.ArgumentOutOfRangeException all'apertura del file XLA
+(CELLSNET-43319) - System.ArgumentOutOfRangeException all'apertura del file XLA
 
-(CELLSNET-43292) - Eccezione al salvataggio della cartella di lavoro con foglio grafico vuoto
+ (CELLSNET-43292) - Eccezione al salvataggio della cartella di lavoro con foglio grafico vuoto
 
  (CELLSNET-43278) - Errore durante il caricamento del documento Excel con grafici sparkline
 
@@ -178,7 +178,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 
 
-\2) Aspose.Cells Griglia Suite
+ \2) Aspose.Cells Griglia Suite
 
 
 ## **Altri miglioramenti e modifiche**
@@ -205,10 +205,10 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
  (CELLSNET-42264) - Problemi con le formule: MATCH, ADDRESS e INDIRECT in GridDesktop
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
 
- Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+ Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 
 
@@ -218,7 +218,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
 
 
- Aggiunge il metodo WorkbookSettings.CheckWriteProtectedPassword()
+Aggiunge il metodo WorkbookSettings.CheckWriteProtectedPassword()
 
  Controlla se la password è corretta password protetta da scrittura.
 
@@ -244,7 +244,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  Aggiunge il metodo PivotItem.Move(int count, bool isSameParent).
 
- Sposta l'elemento in alto o in basso.
+Sposta l'elemento in alto o in basso.
 
 
 
@@ -256,7 +256,7 @@ Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.C
 
  Aggiunge il metodo Workbook.GetNamedStyle(string name).
 
-Ottiene lo stile denominato nel pool di stili della cartella di lavoro in base al nome.
+ Ottiene lo stile denominato nel pool di stili della cartella di lavoro in base al nome.
 
 
 
@@ -296,7 +296,7 @@ Ottiene lo stile denominato nel pool di stili della cartella di lavoro in base a
 
 
 
-Aggiunge il metodo WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
+ Aggiunge il metodo WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount)
 
  Rende la cartella di lavoro alla stampante.
 
@@ -322,11 +322,11 @@ Aggiunge il metodo WorkbookRender.ToPrinter(string PrinterName, int PrintPageInd
 
  Metodo PivotItem.Move(int count) obsoleto.
 
- Usando invece il metodo PivotItem.Move(int count, bool isSameParent).
+Usando invece il metodo PivotItem.Move(int count, bool isSameParent).
 
 
 
-Elimina tutti i metodi Open() e Save() obsoleti di Workbook.
+ Elimina tutti i metodi Open() e Save() obsoleti di Workbook.
 
 
 
@@ -346,7 +346,7 @@ Elimina tutti i metodi Open() e Save() obsoleti di Workbook.
 
 
 
- Elimina le proprietà ReCalcOnOpen, Language, Encoding e ConvertNumericData obsolete di WorkbookSettings.
+Elimina le proprietà ReCalcOnOpen, Language, Encoding e ConvertNumericData obsolete di WorkbookSettings.
 
 
 
@@ -366,7 +366,7 @@ Elimina tutti i metodi Open() e Save() obsoleti di Workbook.
 
 
 
-Elimina DisplayHTMLCrossString ed ExportChartImageFormat obsoleti di HtmlSaveOptions.
+ Elimina DisplayHTMLCrossString ed ExportChartImageFormat obsoleti di HtmlSaveOptions.
 
 
 

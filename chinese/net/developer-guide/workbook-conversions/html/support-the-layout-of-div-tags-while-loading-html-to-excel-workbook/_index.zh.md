@@ -1,12 +1,12 @@
 ﻿---
-title: 支持加载HTML到excel工作簿时DIV标签的布局
+title: HTML excel工作簿加载时支持DIV标签布局
 type: docs
 weight: 50
 url: /zh/net/support-the-layout-of-div-tags-while-loading-html-to-excel-workbook/
 ---
 {{% alert color="primary" %}} 
 
-通常，在将 HTML 加载到 Excel 工作簿对象时忽略 div 标签的布局。但是，如果你想让布局中的div标签不被忽略，那么请设置[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)财产给**真的** .该属性的默认值为**错误的**.
+通常，将 HTML 加载到 Excel 工作簿对象时，会忽略 div 标签的布局。但是，如果你想让布局中的div标签不被忽略，那么请设置[HTMLLoadOptions.SupportDivTag](https://reference.aspose.com/cells/net/aspose.cells/htmlloadoptions/properties/supportdivtag)财产给**真的** .该属性的默认值为**错误的**.
 
 {{% /alert %}} 
 

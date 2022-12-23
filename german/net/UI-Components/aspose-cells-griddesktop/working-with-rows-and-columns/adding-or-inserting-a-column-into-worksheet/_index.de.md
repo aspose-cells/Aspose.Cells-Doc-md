@@ -14,7 +14,7 @@ Führen Sie die folgenden Schritte aus, um dem Arbeitsblatt eine neue Spalte hin
 
 -  Fügen Sie das Aspose.Cells.GridDesktop-Steuerelement zu Ihrer hinzu**Bilden**
 -  Greifen Sie beliebig zu**Arbeitsblatt**
--  Hinzufügen**Spalte** zum**Arbeitsblatt**
+-  Addieren**Spalte** zum**Arbeitsblatt**
 
 
 

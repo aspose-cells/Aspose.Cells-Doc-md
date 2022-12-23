@@ -40,7 +40,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 ## **Geliştirmeler**
 
 
- (CELLSNET-43144) - Her sayfa için HTML'yi yalnızca öğenin içeriğiyle oluştur
+ (CELLSNET-43144) - Her sayfa için yalnızca öğenin içeriğiyle HTML oluştur
 
  (CELLSNET-43282) - CSV dosyasını Excel XLSX dosyasına aktarma
 
@@ -66,7 +66,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 (CELLSNET-43271) - Elektronik tabloyu açıp kaydetmek tabloyu bozuyor
 
- (CELLSNET-43266) - İkinci çalışma sayfası çıktı PDF'sinde iyi işlenmemiş
+ (CELLSNET-43266) - İkinci çalışma sayfası PDF çıktısında düzgün işlenmedi
 
  (CELLSNET-43262) - IStreamProvider yöntemleri çağrılmaz
 
@@ -74,11 +74,11 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-43215) - PivotItem.Move kullanılırken PivotItem belirtilen konuma taşınmıyor
 
- (CELLSNET-43205) - Çıktı HTML'sinde bazı grafik öğeleri yanlış yerleştirilmiş
+ (CELLSNET-43205) - HTML çıktısında bazı grafik öğeleri yanlış yerleştirilmiş
 
- (CELLSNET-43204) - Çıktı PDF'sinde bazı grafik öğeleri yanlış yerleştirilmiş
+ (CELLSNET-43204) - PDF çıktısında bazı grafik öğeleri yanlış yerleştirilmiş
 
- (CELLSNET-43051) - Grafik veri noktaları, işlenmiş HTML dosyası biçiminde görüntünün altında görünür
+ (CELLSNET-43051) - Grafik veri noktaları, işlenmiş HTML dosya biçiminde görüntünün altında görünür
 
  (CELLSNET-42878) - Pivot tablonun arka plan rengi siyah olarak ayarlandı
 
@@ -86,11 +86,11 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-43306) - Aspose.Cells noktalı çizgiyi düz çizgiye çevirmiyor
 
- (CELLSNET-43288) - Elektronik tabloyu PDF'ye dönüştürürken resimler oluşturulmuyor
+(CELLSNET-43288) - Elektronik tablo PDF'e dönüştürülürken resimler oluşturulmuyor
 
-(CELLSNET-43263) - Görüntü İşleme Sorunu
+ (CELLSNET-43263) - Görüntü İşleme Sorunu
 
- (CELLSNET-43245) - Çıktı PDF'sinde düzen küçüldü ve kenarlıklar kalınlaştı
+ (CELLSNET-43245) - PDF çıktısında düzen küçüldü ve kenarlıklar kalınlaştı
 
  (CELLSNET-42973) - Altbilgi Hizalama Sorunu
 
@@ -108,13 +108,13 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-43255) - Grafik görüntüsü doğru şekilde oluşturulmadı
 
- (CELLSNET-43212) - Excel ve PDF'de oluşturulan zengin metin veri etiketlerindeki farklılıklar
+ (CELLSNET-43212) - Excel'de ve PDF'de oluşturulan zengin metin veri etiketlerindeki farklılıklar
 
  (CELLSNET-43210) - Pivot Grafikte Eksik Alan Düğmeleri
 
- (CELLSNET-43046) - Chart.ToImage, CultureInfo'ya uygun tarih biçimini oluşturmuyor
+(CELLSNET-43046) - Chart.ToImage, CultureInfo'ya uygun tarih biçimini oluşturmuyor
 
-(CELLSNET-42993) - PDF'ye dönüştürülürken grafik veri etiketleri gösterilmiyor
+ (CELLSNET-42993) - PDF'e dönüştürülürken grafik veri etiketleri gösterilmiyor
 
  (CELLSNET-42893) - SheetRender.ToImage Grafiği doğru şekilde oluşturmuyor
 
@@ -136,13 +136,13 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-43280) - CommentShape'in Yerleştirme türünü "Taşı" olarak ayarlama
 
- (CELLSNET-43275) - Korumalı Görünümü engelleyen Excel belgesi açıldı
+(CELLSNET-43275) - Korumalı Görünümü engelleyen Excel belgesi açıldı
 
-(CELLSNET-43270) - Grafik türü Çalışma Sayfası için Yakınlaştırma ayarı etkili olmuyor
+ (CELLSNET-43270) - Grafik türü Çalışma Sayfası için Yakınlaştırma ayarı etkili olmuyor
 
  (CELLSNET-43269) - UpdateLinkedDataSource, harici çalışma kitabından yeni veriler almıyor
 
- (CELLSNET-43265) - Ansi Pound, SpreadsheetML dönüştürme sorununu işaret ediyor
+ (CELLSNET-43265) - Ansi Pound işareti SpreadsheetML dönüştürme sorunu
 
  (CELLSNET-43264) - Hücrelere kenarlık uygulama
 
@@ -166,9 +166,9 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  (CELLSNET-43323) - Workbook.CalculateFormula() yönteminde istisna
 
- (CELLSNET-43319) - XLA dosyası açılırken System.ArgumentOutOfRangeException
+(CELLSNET-43319) - XLA dosyası açılırken System.ArgumentOutOfRangeException
 
-(CELLSNET-43292) - Çalışma kitabını boş grafik sayfasıyla kaydetme istisnası
+ (CELLSNET-43292) - Çalışma kitabını boş grafik sayfasıyla kaydetme istisnası
 
  (CELLSNET-43278) - Sparklines içeren Excel belgesi yüklenirken hata oluştu
 
@@ -178,7 +178,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
-\2) Aspose.Cells Izgara Takımı
+ \2) Aspose.Cells Izgara Takımı
 
 
 ## **Diğer İyileştirmeler ve Değişiklikler**
@@ -218,7 +218,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
- WorkbookSettings.CheckWriteProtectedPassword() yöntemini ekler
+WorkbookSettings.CheckWriteProtectedPassword() yöntemini ekler
 
  Parolanın doğru yazma korumalı parola olup olmadığını kontrol eder.
 
@@ -244,7 +244,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  PivotItem.Move(int count, bool isSameParent) yöntemini ekler.
 
- Öğeyi yukarı veya aşağı taşır.
+Öğeyi yukarı veya aşağı taşır.
 
 
 
@@ -256,7 +256,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
  Workbook.GetNamedStyle(dize adı) yöntemini ekler.
 
-Çalışma kitabının stil havuzundaki adlandırılmış stili ada göre alır.
+ Çalışma kitabının stil havuzundaki adlandırılmış stili ada göre alır.
 
 
 
@@ -296,7 +296,7 @@ Aşağıda, Aspose.Cells'in bu sürümündeki değişikliklerin bir listesi bulu
 
 
 
-WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemini ekler
+ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCount) yöntemini ekler
 
  Çalışma kitabını Yazıcıya işler.
 
@@ -322,11 +322,11 @@ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCo
 
  Eski PivotItem.Move(int count) yöntemi.
 
- Bunun yerine PivotItem.Move(int count, bool isSameParent) yöntemini kullanma.
+Bunun yerine PivotItem.Move(int count, bool isSameParent) yöntemini kullanma.
 
 
 
-Çalışma Kitabının tüm kullanılmayan Open() ve Save() yöntemlerini siler.
+ Çalışma Kitabının tüm kullanılmayan Open() ve Save() yöntemlerini siler.
 
 
 
@@ -346,7 +346,7 @@ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCo
 
 
 
- WorkbookSettings'in eskimiş ReCalcOnOpen,Language,Encoding ve ConvertNumericData özelliklerini siler.
+WorkbookSettings'in eskimiş ReCalcOnOpen,Language,Encoding ve ConvertNumericData özelliklerini siler.
 
 
 
@@ -366,7 +366,7 @@ WorkbookRender.ToPrinter(string PrinterName, int PrintPageIndex, int PrintPageCo
 
 
 
-HtmlSaveOptions'ın kullanılmayan DisplayHTMLCrossString ve ExportChartImageFormat öğelerini siler.
+ HtmlSaveOptions'ın kullanılmayan DisplayHTMLCrossString ve ExportChartImageFormat öğelerini siler.
 
 
 

@@ -34,7 +34,7 @@ Det är också enkelt att öppna en Excel-fil som en stream. För att göra det,
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-1.cs" >}}
 
-Här är genomförandet av*CustomnLoad*klass som hänvisas till i kodavsnittet ovan.
+Här är genomförandet av*CustomnLoad*klass som hänvisas till i ovanstående utdrag.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Files-Handling-LoadVisibleSheetsOnly-2.cs" >}}
 

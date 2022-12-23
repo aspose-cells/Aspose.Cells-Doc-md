@@ -13,7 +13,7 @@ Aspose.Cells, tek tek çalışma sayfası sekmelerinin rengini değiştirerek di
 1. Geçerli çalışma sayfasının altındaki sekme sayfasındaki bir sekmeyi sağ tıklayın.
 1.  Seçme**Sekme rengi**.
 1. Paletten bir renk seçin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 ## **Aspose.Cells ile Çalışma Sayfası Sekme Rengini Ayarlama**
 Aşağıdaki örnek kod, sekme renginin Aspose.Cells ile nasıl ayarlanacağını gösterir.
 

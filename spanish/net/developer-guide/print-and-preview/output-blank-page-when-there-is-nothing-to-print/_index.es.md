@@ -6,7 +6,7 @@ url: /es/net/output-blank-page-when-there-is-nothing-to-print/
 ---
 ## **Posibles escenarios de uso**
 
-Si la hoja está vacía, entonces Aspose.Cells no imprimirá nada cuando exporte la hoja de trabajo a la imagen. Puedes cambiar este comportamiento usando[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) propiedad. cuando lo vas a configurar**verdadero**, imprimirá la página en blanco.
+ Si la hoja está vacía, entonces Aspose.Cells no imprimirá nada cuando exporte la hoja de trabajo a la imagen. Puedes cambiar este comportamiento usando[**ImageOrPrintOptions.OutputBlankPageWhenNothingToPrint**](https://reference.aspose.com/cells/net/aspose.cells.rendering/imageorprintoptions/properties/outputblankpagewhennothingtoprint) propiedad. cuando lo vas a configurar**verdadero**, imprimirá la página en blanco.
 
 ## **Salida de página en blanco cuando no hay nada que imprimir**
 

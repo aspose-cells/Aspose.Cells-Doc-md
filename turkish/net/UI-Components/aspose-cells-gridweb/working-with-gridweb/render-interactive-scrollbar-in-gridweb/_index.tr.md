@@ -23,13 +23,13 @@ url: /tr/net/render-interactive-scrollbar-in-gridweb/
 ## **GridWeb'de Etkileşimli Kaydırma Çubuğu Oluşturma**
  Aşağıdaki örnek kod,[örnek excel dosyası](61767764.xlsx)aşağıdaki ekran görüntüsünde gösterildiği gibi kaydırma çubuğunu içerir. Diğer ekran görüntüleri, GridWeb'in etkileşimli kaydırma çubuğunu nasıl işlediğini ve kaydırma çubuğunun değerini B3 hücresinde nasıl görüntülediğini gösterir. Kaydırma çubuğunu her kaydırdığınızda, B3 hücresinin değeri sonuçta ortaya çıkan değeri gösterir.
 
-![yapılacaklar:resim_alternatif_Metin](render-interactive-scrollbar-in-gridweb_1.png)
+![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_1.png)
 
-![yapılacaklar:resim_alternatif_Metin](render-interactive-scrollbar-in-gridweb_2.png)
+![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_2.png)
 
-![yapılacaklar:resim_alternatif_Metin](render-interactive-scrollbar-in-gridweb_3.png)
+![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_3.png)
 
-![yapılacaklar:resim_alternatif_Metin](render-interactive-scrollbar-in-gridweb_4.png)
+![yapılacaklar:resim_alternatif_metin](render-interactive-scrollbar-in-gridweb_4.png)
 ## **Basit kod**
 {{< highlight "java" >}}
 

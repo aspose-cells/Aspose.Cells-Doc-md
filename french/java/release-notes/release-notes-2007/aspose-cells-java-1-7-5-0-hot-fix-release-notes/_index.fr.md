@@ -14,7 +14,7 @@ url: /fr/java/aspose-cells-java-1-7-5-0-hot-fix-release-notes/
 
  Nous avons publié Aspose.Cells for Java V1.7.5 ! Les améliorations et correctifs suivants sont inclus :
 
-- Prend en charge l'exportation vers un fichier HTML.
+- Prend en charge l'exportation vers le fichier HTML.
 Prend en charge l'ajustement automatique des lignes/colonnes.
  Prend en charge la recherche de chaîne/formule dans la feuille de calcul.
  Corrige un bug d'insertion de lignes/colonnes.

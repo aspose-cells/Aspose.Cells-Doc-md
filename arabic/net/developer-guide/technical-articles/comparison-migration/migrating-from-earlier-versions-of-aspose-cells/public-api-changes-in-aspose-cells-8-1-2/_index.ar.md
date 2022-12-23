@@ -10,7 +10,7 @@ url: /ar/net/public-api-changes-in-aspose-cells-8-1-2/
 
 {{% /alert %}} 
 ## **تمت إضافة دعم للتحذير في حالة حدوث استبدال للخط**
-مع Aspose.Cells for .NET 8.1.2 ، تمت إضافة خصائص WarningInfo وفئات WarningType وواجهة IWarningCallback و SaveOptions.WarningCallback و ImageOrPrintOptions.WarningCallback لتسهيل تلقي المستخدم تحذيرًا في حالة حدوث استبدال الخط أثناء تحويل جداول البيانات إلى صور أو تنسيق PDF.
+مع Aspose.Cells for .NET 8.1.2 ، تمت إضافة خصائص WarningInfo و WarningType وواجهة IWarningCallback و SaveOptions.WarningCallback و ImageOrPrintOptions.WarningCallback لتسهيل تلقي المستخدم تحذيرًا إذا حدث استبدال الخط أثناء تحويل جداول البيانات إلى صور أو PDF.
 
 {{% alert color="primary" %}} 
 

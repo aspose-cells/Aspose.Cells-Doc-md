@@ -3,6 +3,7 @@ title: Mostra e nascondi righe, colonne e barre di scorrimento
 type: docs
 weight: 20
 url: /it/net/show-and-hide-rows-columns-and-scroll-bars/
+description: Questo articolo illustra come visualizzare e nascondere a livello di codice le righe e le colonne del foglio di lavoro di Excel usando la lingua C# e la libreria .NET API. La visibilità delle barre di scorrimento può essere regolata e diverse righe e colonne possono essere nascoste.
 ---
 {{% alert color="primary" %}}
 
@@ -12,7 +13,7 @@ Aspose.Cells fornisce modi per controllare la visibilità di righe, colonne e ba
 
 ## **Mostra e nascondi righe e colonne**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Microsoft Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente agli sviluppatori di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) raccolta che rappresenta tutte le celle del foglio di lavoro. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) , che rappresenta un file Excel Microsoft. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) la classe contiene un[**Fogli di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook/properties/worksheets) raccolta che consente agli sviluppatori di accedere a ciascun foglio di lavoro nel file Excel. Un foglio di lavoro è rappresentato da[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) classe. Il[**Foglio di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) la classe fornisce a[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells) raccolta che rappresenta tutte le celle del foglio di lavoro. Il[**Cells**](https://reference.aspose.com/cells/net/aspose.cells/worksheet/properties/cells)collection fornisce diversi metodi per la gestione di righe o colonne in un foglio di lavoro. Alcuni di questi sono discussi di seguito.
 
 ### **Mostra righe e colonne**
 
@@ -58,7 +59,7 @@ Microsoft Excel fornisce anche barre di scorrimento orizzontali e verticali in m
 
 ### **Controllo della visibilità delle barre di scorrimento**
 
- Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) che rappresenta un file Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per controllare la visibilità delle barre di scorrimento, utilizzare il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) e[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible)proprietà.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) e[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sono proprietà booleane, il che significa che queste proprietà possono solo memorizzare**VERO** o**falso** i valori.
+ Aspose.Cells offre un corso,[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook)che rappresenta un file Excel. Il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) class fornisce un'ampia gamma di proprietà e metodi per la gestione di un file Excel. Per controllare la visibilità delle barre di scorrimento, utilizzare il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) e[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) proprietà.[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) e[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) sono proprietà booleane, il che significa che queste proprietà possono solo memorizzare**VERO** o**falso** i valori.
 
 #### **Rendere visibili le barre di scorrimento**
 
@@ -68,7 +69,7 @@ Microsoft Excel fornisce anche barre di scorrimento orizzontali e verticali in m
 
  Nascondere le barre di scorrimento impostando il[**Cartella di lavoro**](https://reference.aspose.com/cells/net/aspose.cells/workbook) classe'[**WorkbookSettings.IsVScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/isvscrollbarvisible) o[**WorkbookSettings.IsHScrollBarVisible**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/ishscrollbarvisible) proprietà a**falso**.
 
-**Codice di esempio**
+**Codice d'esempio**
 
 Di seguito è riportato un codice completo che apre un file Excel, book1.xls, nasconde entrambe le barre di scorrimento e quindi salva il file modificato come output.xls.
 

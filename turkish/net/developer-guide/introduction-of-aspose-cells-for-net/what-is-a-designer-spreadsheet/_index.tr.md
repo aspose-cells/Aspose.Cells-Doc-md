@@ -22,8 +22,8 @@ Bir tasarımcı elektronik tablosu, Microsoft Excel kullanılarak oluşturulan v
 
 |**Tasarımcı e-tablosu**|
 |:- |
-|![yapılacaklar:resim_alternatif_Metin](what-is-a-designer-spreadsheet_1.png)|
- Örnekler için, Örnek projeyi adresinden indirebilirsiniz.[burada](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
+|![yapılacaklar:resim_alternatif_metin](what-is-a-designer-spreadsheet_1.png)|
+ Örnekler için, Örnek projeyi adresinden indirebilirsiniz.[Burada](https://github.com/aspose-cells/Aspose.Cells-for-.NET).
 
 ### **Bu nasıl kullanılır?**
 

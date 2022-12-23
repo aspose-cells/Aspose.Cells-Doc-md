@@ -13,10 +13,10 @@ url: /it/java/password-protect-or-unprotect-the-shared-workbook/
 
 ## **Proteggi con password o rimuovi la protezione della cartella di lavoro condivisa**
 
-Il codice di esempio seguente crea una cartella di lavoro e la protegge mentre abilita la condivisione e la salva con nome[file Excel di output](55541800.xlsx). Lo screenshot mostra che quando provi a rimuovere la protezione, Microsoft Excel ti chiede di inserire la password per rimuovere la protezione.
+Il codice di esempio seguente crea una cartella di lavoro e la protegge mentre abilita la condivisione e la salva con nome[file Excel di output](55541800.xlsx). Lo screenshot mostra che quando si tenta di rimuovere la protezione, Microsoft Excel richiede di inserire la password per rimuovere la protezione.
 
 ![cose da fare:immagine_alt_testo](password-protect-or-unprotect-the-shared-workbook_2.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-Workbook-PasswordProtectOrUnprotectSharedWorkbook.java" >}}

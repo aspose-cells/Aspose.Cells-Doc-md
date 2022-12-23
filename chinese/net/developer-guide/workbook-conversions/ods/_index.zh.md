@@ -15,10 +15,10 @@ description: 如何使用 Aspose.Cells 将 Excel 转换为 Ods (OpenOffice / Lib
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-ODS-to-Excel.cs" >}}
 
 ## **将 Excel 转换为 Ods（OpenOffice / LibreOffice Calc）**
-Aspose.Cells 支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板](book1.xlsx)到 Ods、Sxc 和 Fods 文件。
+ Aspose.Cells 支持将Excel文件转换为Ods、Sxc和Fods文件。下面的代码示例显示了如何将[模板](book1.xlsx)到 Ods、Sxc 和 Fods 文件。
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Convert-Excel-to-ODS.cs" >}}
 
 ## **推进主题**
-- [以 ODF 1.1 和 1.2 规范保存 ODS 文件](/cells/zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
-- [在 ODS 文件中使用背景](/cells/zh/net/working-with-background-in-ods-files/)
+- [在 ODF 1.1 和 1.2 规范中保存 ODS 文件](/cells/zh/net/save-ods-file-in-odf-1-1-and-1-2-specifications/)
+- [使用 ODS 文件中的背景](/cells/zh/net/working-with-background-in-ods-files/)

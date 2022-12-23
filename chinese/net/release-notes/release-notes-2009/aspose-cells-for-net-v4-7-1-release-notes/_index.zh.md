@@ -36,18 +36,18 @@ Aspose.Cells 4.7.1 中已解决的问题
 |8114 |图表2图像|在 HTML 中保存带有图表的工作簿已损坏|
 |8119 |图表2图像|使用 FillFormat.Pattern|
 |8223 |图表2图像|未显示类别 X 轴标题|
-|8113 | HTML|包含空格的工作表名称上的 HTML 损坏|
-|8420 | HTML|HTML 导出格式问题|
+|8113 |HTML |包含空格的工作表名称上的 HTML 损坏|
+|8420 |HTML |HTML 导出格式问题|
 |7718 | PDF格式|支持直接将单元格转换为pdf的超链接|
 |7723 | PDF格式|Aspose.Cells 转换为 PDF 的字体问题|
 |7726 | PDF格式|Cells 4.7.0 保存到 PDF 流不起作用|
 |7727 | PDF格式|PDF 文件太大|
 |7730 | PDF格式|键已添加到字典异常|
-|7838 | PDF格式|Excel 到 PDF 会产生损坏的 pdf 文件|
+|7838 | PDF格式|Excel 到 PDF 生成损坏的 pdf 文件|
 |7978 | PDF格式|Aspose.Cells 一些保存问题|
 |7980 | PDF格式|输出差异|
 |7728 | SpreadML|索引超出范围|
-|8116 | SpreadML|删除工作表时出现错误的 SpreadsheetML|
+|8116 | SpreadML|删除工作表时出现错误 SpreadsheetML|
 |8118 | SpreadML|存在 PRINT_AREA 时出错|
 |7381 |Xls|excel2007 的 EndCellinRow 方法|
 |7722 |Xls|复制范围内的复制验证。|
@@ -80,7 +80,7 @@ Aspose.Cells 4.7.1 中已解决的问题
 |7937 | Xlsx|Aspose 中保存的 .xlsm 文件出现不可读内容错误|
 |8143 | Xlsx|PrintTitleRows 功能的问题|
 |8254 | Xlsx|缺少模板的背景图像。|
-|8255 | Xlsx| Outline.SummaryRowBelow 没有保存在 xlsx 文件中？|
+|8255 | Xlsx| Outline.SummaryRowBelow 不保存在 xlsx 文件中？|
 |8257 | Xlsx| SetFirstPageHeader 有什么方法|
 |8288 | Xlsx|无法让 WorkSheet.CustomProperties 工作|
 |8419 | Xlsx|无法读取 xlsx 文件|

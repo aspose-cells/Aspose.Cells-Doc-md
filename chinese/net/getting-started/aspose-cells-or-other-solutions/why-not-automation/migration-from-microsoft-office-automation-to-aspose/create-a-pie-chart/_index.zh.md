@@ -100,7 +100,7 @@ url: /zh/net/create-a-pie-chart/
 
 **使用 VSTO 创建的饼图** 
 
-![待办事项：图像_替代_文本](create-a-pie-chart_1.png)
+![待办事项：图片_替代_文本](create-a-pie-chart_1.png)
 
 ### **使用 Aspose.Cells for .NET 创建饼图**
 
@@ -180,4 +180,4 @@ url: /zh/net/create-a-pie-chart/
 
 **使用 Aspose.Cells for .NET 创建的饼图** 
 
-![待办事项：图像_替代_文本](create-a-pie-chart_2.png)
+![待办事项：图片_替代_文本](create-a-pie-chart_2.png)

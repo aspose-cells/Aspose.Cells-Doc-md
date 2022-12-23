@@ -15,7 +15,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 \1) Aspose.Cells 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43214) - 能够指定 PivotItem 的绝对位置
@@ -40,7 +40,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 ## **增强功能**
 
 
- (CELLSNET-43144) - 为每个仅包含元素内容的工作表呈现 HTML
+ (CELLSNET-43144) - 为每个仅包含元素内容的工作表渲染 HTML
 
  (CELLSNET-43282) - 将 CSV 文件导入 Excel XLSX 文件
 
@@ -70,15 +70,15 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43262) - 不调用 IStreamProvider 的方法
 
-(CELLSNET-43248) - 重新保存 XLSB 文件时为切片器删除了数据透视表连接
+(CELLSNET-43248) - 重新保存 XLSB 文件时，为切片器删除了数据透视表连接
 
 (CELLSNET-43215) - 使用 PivotItem.Move 时 PivotItem 不会移动到指定位置
 
-(CELLSNET-43205) - 某些图形元素在输出 HTML 中放错了位置
+(CELLSNET-43205) - 一些图形元素在输出中放错了位置 HTML
 
-(CELLSNET-43204) - 一些图形元素在输出 PDF 中放错了位置
+ (CELLSNET-43204) - 一些图形元素在输出中放错了位置 PDF
 
-(CELLSNET-43051) - 图表数据点出现在呈现的 HTML 文件格式中的图像下方
+ (CELLSNET-43051) - 图表数据点出现在呈现的 HTML 文件格式的图像下方
 
 (CELLSNET-42878) - 数据透视表的背景颜色设置为黑色
 
@@ -90,7 +90,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43263) - 渲染图像问题
 
-(CELLSNET-43245) - 输出 PDF 中的布局缩小且边框变粗
+(CELLSNET-43245) - 布局缩小，输出 PDF 中的边框变粗
 
 (CELLSNET-42973) - 页脚对齐问题
 
@@ -102,7 +102,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43273) - 垂直（值）轴主网格线不再可选
 
-(CELLSNET-43272) - 在呈现的 PDF 文件格式中未使用图像旋转
+(CELLSNET-43272) - 渲染的 PDF 文件格式中未使用图像旋转
 
 (CELLSNET-43267) - 希伯来文本在图表中颠倒
 
@@ -114,7 +114,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43046) - Chart.ToImage 不呈现符合 CultureInfo 的日期格式
 
-(CELLSNET-42993) - 渲染为 PDF 时不显示图形数据标签
+(CELLSNET-42993) - 渲染到 PDF 时不显示图形数据标签
 
 (CELLSNET-42893) - SheetRender.ToImage 未正确呈现图表
 
@@ -136,7 +136,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43280) - 将 CommentShape 的放置类型设置为“移动”
 
- (CELLSNET-43275) - 在阻止受保护的视图中打开 Excel 文档
+(CELLSNET-43275) - 在阻止受保护的视图中打开 Excel 文档
 
 (CELLSNET-43270) - 为图表类型工作表设置缩放不会生效
 
@@ -168,7 +168,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 (CELLSNET-43319) - 打开 XLA 文件时出现 System.ArgumentOutOfRangeException
 
-(CELLSNET-43292) - 保存带有空图表工作簿的异常
+ (CELLSNET-43292) - 保存带有空图表工作簿的异常
 
 (CELLSNET-43278) - 使用迷你图加载 Excel 文档时出错
 
@@ -183,7 +183,7 @@ url: /zh/net/aspose-cells-for-net-8-3-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
 (CELLSNET-43291) - Aspose.Cells.GridWeb 现在不支持创建/添加命名范围

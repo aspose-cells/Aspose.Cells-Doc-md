@@ -124,7 +124,7 @@ sw.Close();
 
 {{< /highlight >}}
 ## **Scarica il codice in esecuzione**
- Scarica**Imposta area di stampa** formare uno dei siti di social coding sotto indicati:
+ Scaricamento**Imposta area di stampa** formare uno dei siti di social coding sotto indicati:
 
 - [Git Hub](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/Aspose.Cells_vs_NPOI_1.0/Set.Print.Area.Aspose.Cells.zip)
 

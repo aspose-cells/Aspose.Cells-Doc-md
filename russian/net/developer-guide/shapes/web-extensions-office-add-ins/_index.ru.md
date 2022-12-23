@@ -10,9 +10,9 @@ Aspose.Cells также предоставляет возможность раб
 
 ## **Добавить веб-расширение**
 
- Вы можете добавить веб-расширения (надстройки Office) в Excel, щелкнув значок**Вставлять** вкладку, а затем нажмите кнопку**Хранить**/**Получить надстройки** ссылка на сайт. В поле «Надстройки» найдите нужную надстройку и добавьте ее.
+ Вы можете добавить веб-расширения (надстройки Office) в Excel, щелкнув значок**Вставлять** вкладку, а затем нажмите кнопку**Магазин**/**Получить надстройки** соединять. В поле «Надстройки» найдите нужную надстройку и добавьте ее.
 
-Aspose.Cells также предоставляет возможность добавлять веб-расширения с помощью[**Веб-расширение**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) а также[**Вебекстенсионтаскпане**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) классы. В следующем примере кода показано использование[**Веб-расширение**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) а также[**Вебекстенсионтаскпане**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)классы для добавления веб-расширения в файл Excel. Пожалуйста, смотрите[выходной файл Excel](89849869.xlsx)сгенерированный кодом для справки.
+Aspose.Cells также предоставляет возможность добавлять веб-расширения с помощью[**Веб-расширение**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) и[**Вебекстенсионтаскпане**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane) классы. В следующем примере кода показано использование[**Веб-расширение**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextension) и[**Вебекстенсионтаскпане**](https://reference.aspose.com/cells/net/aspose.cells.webextensions/webextensiontaskpane)классы для добавления веб-расширения в файл Excel. Пожалуйста, смотрите[выходной файл Excel](89849869.xlsx)сгенерированный кодом для справки.
 
 ### **Образец кода**
 

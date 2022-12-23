@@ -16,13 +16,13 @@ url: /zh/net/dynamically-generate-formatted-excel-reports-with-an-elegant-graph/
 
 它允许用户对如何创建业务报告有详细的了解，将数据输入到网格的工作表中，并对行和列中的单元格应用一些格式，在保存之前嵌入基于数据源范围的图表excel 报告到磁盘。
 ## **Aspose 组件**
-我用三个[Aspose](http://www.aspose.com/)的组件轻松执行任务。[Aspose](http://www.aspose.com/) , .NET 和Java Component Publisher，提供各种功能丰富的组件。[Aspose](http://www.aspose.com/)提供大量 .NET 和 Java 组件。这些产品受到全球数以千计客户的信赖，包括文件格式组件、报告产品、可视化组件和实用程序组件，允许以编程方式打开、修改、生成、保存、合并、转换等各种格式的文档，包括 DOC、RTF、WordML、 HTML、PDF、XLS、SpreadsheetML、Tab Delimited、CSV、PPT、SWF、EMF、WMF、MPX、MPD 等格式。
+我用三个[Aspose](http://www.aspose.com/)的组件轻松执行任务。[Aspose](http://www.aspose.com/) , .NET 和Java Component Publisher，提供各种功能丰富的组件。[Aspose](http://www.aspose.com/)提供大量 .NET 和 Java 组件。这些产品受到全球数以千计客户的信赖，包括文件格式组件、报告产品、可视化组件和实用程序组件，允许以编程方式打开、修改、生成、保存、合并、转换等各种格式的文档，包括 DOC、RTF、WordML、 HTML、PDF、XLS、SpreadsheetML、Tab Delimited、CSV、PPT、SWF、EMF、WMF、MPX、MPD等格式。
 
 我想借此机会向您介绍在这个任务中使用的三个组件。
 ## **Aspose.Cells 网格控件**
 Aspose.Cells 网格控件是一个完整的网格解决方案。 Aspose.Cells 网格控件与两个不同的 GUI .NET 组件（Aspose.Cells.GridDesktop 和 Aspose.Cells.GridWeb）打包在一起：一个用于支持桌面应用程序，另一个用于支持 Web 应用程序。两个版本同样匹配，以便在任一平台上轻松实现。 Aspose.Cells.GridWeb 提供从 Excel 电子表格导入和导出的功能。因此任何熟悉 Excel 的人（甚至最终用户）都可以设计网格的外观。 Aspose.Cells.GridWeb 还提供易于使用、功能丰富的 API，它使开发人员可以完全控制其网格的外观、感觉和行为。要了解有关该产品、其功能和程序员指南的更多信息，请查看功能列表摘要、Aspose.Cells。GridWeb 文档和在线精选[演示](https://aspose.github.io/)
 ## **Aspose.Cells**
-**Aspose.Cells**是一个 Excel 电子表格报告组件，使您能够读取和写入 Excel 电子表格，而无需使用 Microsoft 在客户端或服务器端安装 Excel。**Aspose.Cells**是一个功能丰富的组件，提供的不仅仅是基本的数据导出。和**Aspose.Cells**开发人员可以导出数据、在每个细节和每个级别格式化电子表格、导入图像、导入图表、创建图表、操作图表、流式传输 Excel 数据、以各种格式保存，包括 XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML ([Aspose.Pdf](https://products.aspose.com/pdf/)集成）等等。**Aspose.Cells**提供易于使用、功能丰富的**API**对于程序员。它有一个巨大的功能列表。要了解有关产品及其功能的更多信息以及程序员指南，请查看摘要**功能列表**, **Aspose.Cells 文档**和在线特色演示。您可以[下载](https://downloads.aspose.com/cells)它的评估版是免费的。
+**Aspose.Cells**是一个 Excel 电子表格报告组件，使您能够读取和写入 Excel 电子表格，而无需使用 Microsoft 在客户端或服务器端安装 Excel。**Aspose.Cells**是一个功能丰富的组件，提供的不仅仅是基本的数据导出。和**Aspose.Cells**开发人员可以导出数据，在每个细节和每个级别格式化电子表格，导入图像，导入图表，创建图表，操作图表，流式传输 Excel 数据，以各种格式保存，包括 XLS、CSV、SpreadsheetML、TabDelimited、TXT、XML（[Aspose.Pdf](https://products.aspose.com/pdf/)集成）等等。**Aspose.Cells**提供易于使用、功能丰富的**API**对于程序员。它有一个巨大的功能列表。要了解有关产品及其功能的更多信息以及程序员指南，请查看摘要**功能列表**, **Aspose.Cells 文档**和在线特色演示。你可以[下载](https://downloads.aspose.com/cells)它的评估版是免费的。
 ## **设计界面**
 我们开始在 Visual Studio.Net 中创建一个新的 Asp.Net Web 应用程序。
 
@@ -36,13 +36,13 @@ Aspose.Cells 网格控件是一个完整的网格解决方案。 Aspose.Cells �
 
 因此，自定义命令按钮已添加，您可能会在以下屏幕截图中看到它（用红色圈出）。
 
-|![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
+|![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_1.png)|
 |:- |
 
 
 最后，我为标签和命令按钮设置了一些字体属性（粗体）。我还调整控件的大小以获得最终外观。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_2.png)
 ## **从 XML 文件中检索数据**
 以下是项目中使用的 XML 文件结构。
 ### **XML文件结构**
@@ -232,7 +232,7 @@ GridWeb1.WebWorksheets.ImportDataView(dv, null, null,"Products",3,0);
 
 {{< /highlight >}}
 ## **格式化 Cells 中的数据**
-为了区分工作表上不同类型的信息，为了在工作表上以最佳方式显示数据并使工作表更易于扫描，您可以设置工作表的格式。一个**格式**表示一种样式并被定义为一组特征，例如字体和字体大小、数字格式、单元格边框、具有纯色背景或特定颜色模式的单元格底纹、缩进、对齐方式和单元格中的文本方向。
+为了区分工作表上不同类型的信息，为了在工作表上以最佳方式显示数据并使工作表更易于扫描，您可以设置工作表的格式。一种**格式**表示一种样式并被定义为一组特征，例如字体和字体大小、数字格式、单元格边框、具有纯色背景或特定颜色模式的单元格底纹、缩进、对齐方式和单元格中的文本方向。
 
 我将更多的代码行合并到上面。我放置报告的标题/子标题，对标题、子标题和详细信息单元格进行一些格式化。我还将数字格式应用于两个字段（将货币数字格式设置为 UnitPrice 和 Sale 字段）并使用调整行和列的高度/宽度**Aspose.Cells.GridWeb**API.
 
@@ -364,7 +364,7 @@ cells.SetColumnWidth(4, new Unit("50pt"));
 
 {{< /highlight >}}
 ## **使用 Aspose.Cells 组件生成带图形的格式化报告（.XLS 文件）**
-现在，我将编写一些代码来将带图形的格式化报告保存到磁盘。我利用**网格网**的**节省**按钮，**网格网**的**保存命令**单击“保存”按钮时会触发事件，因此，我会处理它。在这里，我使用**Aspose.Cells**组件将格式化报告导出到 MS Excel，生成图表并将其嵌入到输出 excel 文件中。我没有插入图表图像（由**Aspose.Chart**组件），而是使用 API 创建类似的图表**Aspose.Cells**这样您就可以根据需要在 MS Excel 中编辑图表。
+现在，我将编写一些代码来将带图形的格式化报告保存到磁盘。我利用**网格网**的**救球**按钮，**网格网**的**保存命令**单击“保存”按钮时会触发事件，因此，我会处理它。在这里，我使用**Aspose.Cells**组件将格式化报告导出到 MS Excel，生成图表并将其嵌入到输出 excel 文件中。我没有插入图表图像（由**Aspose.Chart**组件），而是使用 API 创建类似的图表**Aspose.Cells**这样您就可以根据需要在 MS Excel 中编辑图表。
 
 
 
@@ -534,52 +534,52 @@ chartIndex = sheet.Charts.Add(Aspose.Cells.ChartType.Pie,maxrow,0,maxrow+28,5);
 ## **运行应用程序**
 现在，我运行该应用程序。下拉列表中充满了不同的类别。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_3.png)
 
 我选择要显示销售报告的类别，然后单击“显示报告”按钮。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_4.png)
 
 因此，报告显示在**网格网**基于所选类别。该报告默认根据代码（较早编写）进行格式化。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_5.png)
 
 如果你想以所见即所得的方式将数据格式化到某些单元格中，你可以很容易地做到这一点。**Aspose.Cells.GridWeb**提供**格式 Cells**编辑器，选择您想要的单元格并右键单击它，单击“格式 Cell ...”选项。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_6.png)
 
 显示格式 Cell 对话框。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_7.png)
 
 我指定了一些字体属性并单击确定。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_8.png)
 
 并得到结果。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_9.png)
 
 除了单元格格式之外，您还可以编辑单元格值。双击所需的单元格并编辑值。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_10.png)
 
 为了提交编辑结果并重新计算所有公式，我单击相关按钮（红色圈出）更新报告。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_11.png)
 
 现在我将创建图表并将其粘贴到控件中。我单击自定义命令按钮（用红色圈出）以根据数据范围创建饼图。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_12.png)
 
-最后，我会将这个带有图表的数据报告导出到 MS Excel。我点击**节省**按钮（用红色包围）。点击**节省**按钮将显示**文件下载**对话，你可以**打开**将生成的报告（输出带图表的 excel 文件）导入 MS Excel 或将其保存到磁盘。
+最后，我会将这个带有图表的数据报告导出到 MS Excel。我点击**救球**按钮（用红色包围）。点击**救球**按钮将显示**文件下载**对话，你可以**打开**将生成的报告（输出带图表的 excel 文件）导入 MS Excel 或将其保存到磁盘。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_13.png)
 
 当我单击“打开”按钮（“文件下载”对话框）时，带有图表的 Excel 报告将导出到 MS Excel。显示报告的上半部分。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_14.png)
 
 显示 excel 报告的下半部分。
 
-![待办事项：图像_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)
+![待办事项：图片_替代_文本](dynamically-generate-formatted-excel-reports-with-an-elegant-graph_15.png)

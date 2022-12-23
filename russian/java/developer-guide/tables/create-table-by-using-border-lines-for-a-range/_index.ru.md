@@ -8,11 +8,11 @@ keywords: create table, range to table, range to table excel, excel range to tab
 ---
 {{% alert color="primary" %}}
 
- Иногда вы хотите создать таблицу, добавив линии границ для**Диапазон**/**CellArea** на основе адреса ячеек, которые у вас есть. Вы можете использовать[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) для создания диапазона ячеек.[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) метод возвращает[**Диапазон**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) объект. Вы можете создать[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объекта и соответственно укажите параметры границ (верхняя, левая, нижняя, правая). Позже вы можете получить клетки[**Диапазон**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)и примените желаемое форматирование к ячейкам.
+ Иногда вы хотите создать таблицу, добавив линии границ для**Спектр**/**CellArea** на основе адреса ячеек, которые у вас есть. Ты можешь использовать[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) для создания диапазона ячеек.[**Cells.createRange**](https://reference.aspose.com/cells/java/com.aspose.cells/cells#createRange(int,%20int,%20boolean) ) метод возвращает[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range) объект. Вы можете создать[**Стиль**](https://reference.aspose.com/cells/java/com.aspose.cells/Style) объекта и соответственно укажите параметры границ (верхняя, левая, нижняя, правая). Позже вы можете получить клетки[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)и примените желаемое форматирование к ячейкам.
 
 {{% /alert %}}
 
- В следующем примере показано, как создать[**Диапазон**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)и укажите границы для ячеек диапазона.
+ В следующем примере показано, как создать[**Спектр**](https://reference.aspose.com/cells/java/com.aspose.cells/Range)и укажите границы для ячеек диапазона.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-CreateTableforRange-CreateTableforRange.java" >}}
 

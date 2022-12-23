@@ -14,16 +14,16 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |:- |:- |:- |
 |CELLSJAVA-44721|Admite la clasificación de PivotField a través del campo calculado|
 |CELLSJAVA-44811|Soporte para especificar hojas para la salida al exportar a pdf/xps|
-|CELLSJAVA-44194|La forma del dibujo no se representa en la representación de Excel a PDF|
+|CELLSJAVA-44194|La forma del dibujo no se representa en Excel para la representación PDF|
 |CELLSJAVA-44733|Investigue las reglas de MS Excel para mostrar el borde de la celda cuando la columna adyacente está oculta: el borde de la celda no se ha sincronizado|
 |CELLSJAVA-44777|Exporte fórmulas a html solo según la opción HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|Mejorar el análisis de la cadena html en la celda|
-|CELLSJAVA-44695| Mala conversión a PDF desde XLS con Line Callout a la izquierda de la hoja|
+|CELLSJAVA-44695| Mala conversión a PDF desde XLS con llamada de línea a la izquierda de la hoja|
 |CELLSJAVA-44700|Los campos calculados de la tabla dinámica no se actualizan al actualizar la fuente de datos|
 |CELLSJAVA-44705|Cell.getDependents() arroja una excepción o no puede proporcionar todos los dependientes|
 |CELLSJAVA-44717|Problema con el estilo de borde (línea)|
 |CELLSJAVA-44707| la línea del borde no se muestra|
-|CELLSJAVA-44670| Problema con fórmulas en el HTML de salida: conversión de Excel a HTML|
+|CELLSJAVA-44670| Problema con fórmulas en la salida HTML: conversión de Excel a HTML|
 |CELLSJAVA-44202|Al exportar a HTML, la leyenda en el gráfico no es la misma que en MS Excel|
 |CELLSJAVA-44591|La rotación de texto de las etiquetas no coincide con Excel en la imagen de salida del gráfico|
 |CELLSJAVA-44655|No se puede mostrar el gráfico de diagrama de árbol con un valor negativo, lo que hace que la ejecución siga ejecutándose|
@@ -38,12 +38,12 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44773|Los datos se desordenan al abrir un documento de Excel con columnas ocultas en GridWeb (Java)|
 |CELLSJAVA-44781|investigar el problema de cambio de tamaño de fila cuando se cambia el tamaño a muy poca altura|
 |CELLSJAVA-44787|Borde inferior perdido en la última fila del libro|
-|CELLSJAVA-44761|Uso excesivo de memoria en la conversión de archivos de Excel a HTML|
+|CELLSJAVA-44761|Uso excesivo de memoria al convertir un archivo de Excel a HTML|
 |CELLSJAVA-44801|La conversión de Excel a PDF usando Aspose.Cells for Java v22.7 provoca caracteres ilegibles|
 |CELLSJAVA-44741|El salto de línea no es correcto en la salida xlsx después de establecer la cadena html en la celda|
 |CELLSJAVA-44776|El estilo de la fila del encabezado de la tabla se perdió al copiar la hoja|
 |CELLSJAVA-44789|Problema con el reemplazo de la cadena de caracteres del cuadro de texto colocado en la hoja de cálculo de Excel|
-|CELLSJAVA-44792| Guardar libro de trabajo sin fin en formato HTML (2892)|
+|CELLSJAVA-44792| Libro de trabajo para guardar sin fin en formato HTML (2892)|
 |CELLSJAVA-44864|La carga simultánea de libros de trabajo arroja errores falsos de "El archivo está dañado"|
 |CELLSJAVA-44327|Se muestran bordes y menos líneas en sectores circulares en blanco y negro en el gráfico para la representación de imágenes|
 |CELLSJAVA-44591|La rotación de texto de las etiquetas no coincide con Excel en la imagen de salida del gráfico|
@@ -51,14 +51,14 @@ Esta página contiene notas de la versión para Aspose.Cells for Android via Jav
 |CELLSJAVA-44860|la visualización del texto de la celda no es la misma que en Excel en algunas áreas combinadas|
 |CELLSJAVA-44832|Se imprimen varias páginas en lugar de una página como en Excel al convertir a pdf|
 |CELLSJAVA-44812|No se puede disminuir el área de trazado del gráfico|
-|CELLSJAVA-44831|MS Word muestra el error "Word encontró contenido ilegible en..." al abrir el archivo DOCX convertido desde XLSX por Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word muestra el error "Word encontró contenido ilegible en..." al abrir el archivo convertido DOCX desde XLSX por Aspose.Cells for Java|
 |CELLSJAVA-44833|El color del texto no se aplica a diferentes palabras o parte del contenido en el archivo de salida de Excel cuando se usa el método Cell.setHtmlString()|
 |CELLSJAVA-44852| El borde es incorrecto cuando el archivo de Excel estático se convierte a HTML|
 |CELLSJAVA-44856| Conversión de Excel a HTML: Sparkline (minigráfico) no se muestra/renderiza|
 |CELLSJAVA-44859|Algunos formatos Html no funcionan para las celdas de la hoja de cálculo en un archivo de Excel existente|
 |CELLSJAVA-44725| Excepción "java.util.zip.ZipException: tamaño de entrada no válido (se esperaba 0 pero obtuvo 1053 bytes)" al convertir XLSX a PDF|
 |CELLSJAVA-44763|Excepción "java.lang.IllegalArgumentException: no se puede analizar el número de argumento: 1:X8" al cargar el archivo de Excel usando "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Error al guardar como PDF: se requiere investigación|
+|CELLSJAVA-44774|Error al guardar como PDF - Se requiere investigación|
 |CELLSJAVA-44842|Excepción "java.lang.OutOfMemoryError: Java espacio de almacenamiento dinámico" al convertir un archivo XLSX a PDF|
 
 

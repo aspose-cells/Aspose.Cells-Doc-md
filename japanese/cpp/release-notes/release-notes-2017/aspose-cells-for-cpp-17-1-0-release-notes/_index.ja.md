@@ -7,7 +7,7 @@ url: /ja/cpp/aspose-cells-for-cpp-17-1-0-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSCPP-35|読み取り/書き込み XLSM ファイル形式|新機能|
-|CELLSCPP-36|CSVファイル形式の読み書き|新機能|
+|CELLSCPP-36|読み取り/書き込み CSV ファイル形式|新機能|
 |CELLSCPP-37|読み取り/書き込み XLSB ファイル形式|新機能|
 |CELLSCPP-38|名前付き範囲の作成と操作|新機能|
 |CELLSCPP-39|読み取り/書き込みタブ区切りファイル形式|新機能|

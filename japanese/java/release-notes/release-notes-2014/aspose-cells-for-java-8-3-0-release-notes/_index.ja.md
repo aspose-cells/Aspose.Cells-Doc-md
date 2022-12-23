@@ -25,35 +25,35 @@ url: /ja/java/aspose-cells-for-java-8-3-0-release-notes/
 
 (CELLSJAVA-41084) - スプレッドシートを Aspose.Cells で保存すると、負の値のチャート バーの色が失われる
 (CELLSJAVA-41082) - セルの計算エラー - 計算式の例外
-(CELLSJAVA-41070) - HTML から XLS への問題 - フォーマットされた数値が空白として表示される
+(CELLSJAVA-41070) - HTML から XLS の問題 - フォーマットされた数値が空白として表示される
 (CELLSJAVA-41034) - テキストボックスのテキストがチャート画像内に含まれていない
 (CELLSJAVA-41083) - Excel 関数 NOW() がロシア語の設定で機能しない
 (CELLSJAVA-41062) - Color.getBlack().equals(Color.getEmpty()) は true を返します。 false を返す必要があります
 (CELLSJAVA-41014) - DateTime 値が正しい形式で読み取られない
 (CELLSJAVA-41076) - XLA参照がExternalLink.setDataSourceによって正しく削除されませんでした
-(CELLSJAVA-41068) - Aspose.Cells API を使用してファイルを再保存すると、XLSX ファイルが破損する
+(CELLSJAVA-41068) - Aspose.Cells API 経由でファイルを再保存すると、XLSX ファイルが破損する
 (CELLSJAVA-41066) - ワークシートをコピーした後、チャート軸のステップが壊れました
-(CELLSJAVA-41060) - XLSX を XLS に保存しているときにワークブックのカラー パレットを変更すると、MS Excel で結果のスプレッドシートが保護されたビューで開かれる
-(CELLSJAVA-41059) - パレット変更で XLSX を XLS に保存する際の条件付き書式ルールの順序の変更
+(CELLSJAVA-41060) - XLSX を XLS に保存しているときにワークブックのカラー パレットを変更すると、MS Excel が結果のスプレッドシートを保護されたビューで開く
+(CELLSJAVA-41059) - パレット変更で XLSX を XLS に保存すると、条件付き書式ルールの順序が変更される
 (CELLSJAVA-41057) - 特定の名前付き範囲のクォートを失う
 (CELLSJAVA-41056) - Cells.copyRows() メソッドが XLSX ファイル形式のスパークラインをコピーしない
 (CELLSJAVA-41055) - セルのスタイルを読み取る際のテキスト形式の問題
 (CELLSJAVA-41049) - #VALUE を取得! RATE関数使用時のエラー
 (CELLSJAVA-41038) - ワークシートをコピーすると、凡例内の非表示のシリーズが再び表示されます。
 (CELLSJAVA-41036) - ワークブックを再保存すると、チャート軸のステップが壊れました
-(CELLSJAVA-41054) - 貼り付けた画像をコピーして PDF にレンダリングしない
-(CELLSJAVA-41044) - Aspose.Cells 生成された PDF が PDF/A-1b 準拠テストに合格しない
+(CELLSJAVA-41054) - コピー ペーストされた画像が PDF でレンダリングされない
+(CELLSJAVA-41044) - 生成された Aspose.Cells PDF は PDF/A-1b コンプライアンス テストに合格しません
 (CELLSJAVA-41015) - Aspose.Cells 生成された PD/A-1b ドキュメントがプリフライト検証に失敗する
-(CELLSJAVA-40951) - Excel テンプレート ファイルから変換した後、PDF ドキュメントが壊れており、Acrobat Reader で開くことができません
+(CELLSJAVA-40951) - PDF ドキュメントが破損しており、Excel テンプレート ファイルから変換した後、Acrobat Reader で開くことができません
 (CELLSJAVA-40725) - クリップアートが PDF に表示されない
-(CELLSJAVA-40692) - Adobe Preflight で PDF/A-1b の準拠に失敗しました
+(CELLSJAVA-40692) - Adobe Preflight でコンプライアンス PDF/A-1b が失敗する
 (CELLSJAVA-41086) - ユーザー定義のチャート系列名が空です
 (CELLSJAVA-41065) - チャートのタイトルがおかしくなる
-(CELLSJAVA-41047) - スプレッドシートを PDF 形式にレンダリングする際に、積み上げ縦棒グラフのデータ区切りの太さが異なる
-(CELLSJAVA-41045) - スプレッドシートを PDF 形式にレンダリングする際に、グラフの列が下の軸と重なる
-(CELLSJAVA-40989) - PDFとしてレンダリングすると、棒グラフの棒の右側に余分な垂直線が表示されます
-(CELLSJAVA-40988) - レンダリングされた PDF でグラフのデータ ラベルが切り取られる
-(CELLSJAVA-40987) - レンダリングされた PDF でグラフの軸ラベルと凡例が重なっている
+(CELLSJAVA-41047) - スプレッドシートを PDF 形式にレンダリングすると、積み上げ縦棒グラフのデータ区切りの太さが異なります
+(CELLSJAVA-41045) - スプレッドシートを PDF 形式にレンダリングすると、グラフの列が下の軸と重なる
+(CELLSJAVA-40989) - 棒グラフを PDF としてレンダリングすると、バーの右側に余分な垂直線が表示される
+(CELLSJAVA-40988) - グラフのデータ ラベルがレンダリングされた PDF で切り取られる
+(CELLSJAVA-40987) - グラフの軸ラベルと凡例がレンダリングで重なっている PDF
 (CELLSJAVA-40945) - グラフからテキスト ボックスが失われる
 
 例外

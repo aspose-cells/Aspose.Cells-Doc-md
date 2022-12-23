@@ -8,18 +8,18 @@ url: /de/java/aspose-cells-for-java-16-10-0-release-notes/
 
 |**Taste** |**Zusammenfassung** |**Kategorie** |
 |:- |:- |:- |
-|CELLSJAVA-41974 | Das Aktualisieren von PivotTable funktioniert in der gerenderten PDF-Datei nicht| Insekt|
+|CELLSJAVA-41974 | Das Aktualisieren von PivotTable funktioniert in der gerenderten Datei PDF nicht| Insekt|
 |CELLSJAVA-41900 | XLSM wird durch einfaches Laden und Speichern beschädigt| Insekt|
 |CELLSJAVA-41790 | Hyperlinks funktionieren nach dem Konvertieren der Tabelle in HTML nicht wie erwartet| Insekt|
-|CELLSJAVA-42010 | Einige Zeichen werden in der Ausgabe-PDF nicht gerendert| Insekt|
-|CELLSJAVA-41977 | Reihenfolge der Diagrammlegende im PDF des Diagramms geändert| Insekt|
-|CELLSJAVA-41972 | Die Z-Reihenfolge der High-Low-Zeilen ist im PDF nicht korrekt| Insekt|
-|CELLSJAVA-42015 | Die Tabelle wird nach dem erneuten Speichern mit Aspose.Cells beschädigt| Insekt|
+|CELLSJAVA-42010 | Einige Zeichen werden in der Ausgabe PDF nicht gerendert| Insekt|
+|CELLSJAVA-41977 | Reihenfolge der Diagrammlegende in Diagramm PDF geändert| Insekt|
+|CELLSJAVA-41972 | Die Z-Reihenfolge der High-Low-Linien ist in PDF nicht korrekt| Insekt|
+|CELLSJAVA-42015 |Die Tabelle wird nach dem erneuten Speichern mit Aspose.Cells beschädigt| Insekt|
 |CELLSJAVA-42005 | Die Formel wird nach dem Einfügen in eine Zelle geändert| Insekt|
 |CELLSJAVA-41997 | Seltsames Verhalten bei einfachen Beans mit Smart Markern| Insekt|
 |CELLSJAVA-41993 | NullPointerException beim Öffnen einer 7.xlsm-Datei| Ausnahme|
 |CELLSJAVA-41992 | NullPointerException beim Öffnen einer 6.xlsm-Datei| Ausnahme|
-|CELLSJAVA-41991 |NullPointerException beim Öffnen einer 5.xlsm-Datei| Ausnahme|
+|CELLSJAVA-41991 | NullPointerException beim Öffnen einer 5.xlsm-Datei| Ausnahme|
 |CELLSJAVA-41990 | NullPointerException beim Öffnen einer Datei a4.xlsm| Ausnahme|
 |CELLSJAVA-41989 | NullPointerException beim Öffnen einer 3.xlsm-Datei| Ausnahme|
 |CELLSJAVA-41988 | NullPointerException beim Öffnen einer Datei a2.xlsm| Ausnahme|

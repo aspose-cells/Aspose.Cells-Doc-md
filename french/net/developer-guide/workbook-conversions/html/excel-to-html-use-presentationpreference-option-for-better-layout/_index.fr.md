@@ -1,5 +1,5 @@
 ﻿---
-title: Excel vers HTML - Utilisez l'option PresentationPreference pour une meilleure mise en page
+title: Excel vers HTML - Utiliser l'option PresentationPreference pour une meilleure mise en page
 type: docs
 weight: 220
 url: /fr/net/excel-to-html-use-presentationpreference-option-for-better-layout/
@@ -10,7 +10,7 @@ Aspose.Cells fournit une propriété HtmlSaveOptions.PresentationPreference util
 
 {{% /alert %}} 
 
-Veuillez consulter l'exemple de code ci-dessous qui montre comment afficher un fichier HTML à partir d'un rapport Excel avec la préférence de présentation activée.
+Veuillez consulter l'exemple de code ci-dessous qui montre comment rendre un fichier HTML à partir d'un rapport Excel avec la préférence de présentation activée.
 
 
 

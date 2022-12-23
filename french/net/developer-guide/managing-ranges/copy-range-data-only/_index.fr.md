@@ -20,6 +20,6 @@ Cet exemple montre comment :
 1.  Créer un[**Style**](https://reference.aspose.com/cells/net/aspose.cells/style) objet avec les attributs de formatage spécifiés.
 1. Appliquez la mise en forme de style à la plage.
 1. Créez une autre plage de cellules.
-1. Copiez les données de la première plage dans cette deuxième plage.
+1. Copiez les données de la première plage dans cette seconde plage.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-CopyRangeDataOnly-1.cs" >}}

@@ -9,7 +9,7 @@ weight: 18
 Cette page contient les notes de version pour Aspose.Cells for Reporting Services 22.4
 {{% /alert %}} 
 ## **Liste complète des problèmes et améliorations couverts dans cette version**
-|**IDENTIFIANT**|**Sommaire**|**Catégorie**|
+|**IDENTIFIANT**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
 |29968 |Prise en charge du moteur de rendu SQL.|Nouvelle fonctionnalité|
 |29969 |Mettez à jour la version Aspose.Cells vers 22.4.|Nouvelle fonctionnalité|

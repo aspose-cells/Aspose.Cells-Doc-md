@@ -24,7 +24,7 @@ Es hat zwei Hauptinteressengebiete.
 
 Der obere Bereich der Symbolleiste mit Registerkarten wird technisch als Multifunktionsleiste bezeichnet. Es enthält Schaltflächen, Dropdown-Menüs, Optionsmenüs, Textfelder und einige versteckte Felder, die verwendet werden, um viele Operationen in der Tabelle auszuführen. Wenn diese Schaltflächen angeklickt werden, senden sie Befehle an den Server und aktualisieren das Blatt entsprechend.
 
-**Blech**
+**Blatt**
 
 Das Blatt besteht aus Zeilen und Spalten. Wenn auf Zellen geklickt wird, wird das Menüband entsprechend aktualisiert, ohne dass Anfragen an den Server gesendet werden, da alle vom Menüband benötigten Daten an jede Zelle angehängt werden. Die Multifunktionsleiste verfolgt auch die ausgewählte Zelle, Zeile und Spalte, wenn der Benutzer durch das Blatt navigiert.
 
@@ -36,7 +36,7 @@ Der WorkbookService ist eine JSF-Backend-Bean mit Ansichtsbereich. Es funktionie
 
 **drin**
 
- Das**drin** ist**PostKonstrukt** Methode, die unmittelbar nach Abschluss der Objekterstellung durch den Java Application Server ausgeführt wird. Es prüfen**URL**-Parameter in der Anforderungsparameterzuordnung und lädt die entsprechende Tabelle von der angegebenen Stelle, falls möglich.
+ Das**drin** ist**PostKonstrukt** Methode, die unmittelbar nach Abschluss der Objekterstellung durch den Java Application Server ausgeführt wird. Es prüfen**URL** -Parameter in der Anforderungsparameterzuordnung und lädt die entsprechende Tabelle von der angegebenen Stelle, falls möglich.
 
 **zerstören**
 

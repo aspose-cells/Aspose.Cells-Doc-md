@@ -1,12 +1,12 @@
 ﻿---
-title: Сохранить Excel в PDF со стандартным или минимальным размером
+title: Сохраните Excel в PDF со стандартным или минимальным размером
 type: docs
 weight: 510
 url: /ru/java/save-excel-into-pdf-with-standard-or-minimum-size/
 ---
 {{% alert color="primary" %}} 
 
- По умолчанию Aspose.Cells сохраняет Excel в PDF стандартного размера. Однако вы также можете сохранить его с минимальным размером, используя[PdfSaveOptions.ОптимизацияТип](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType) имущество. Он принимает следующие значения
+ По умолчанию Aspose.Cells сохраняет Excel в PDF со стандартным размером. Однако вы также можете сохранить его с минимальным размером, используя[PdfSaveOptions.ОптимизацияТип](https://reference.aspose.com/cells/java/com.aspose.cells/pdfsaveoptions#OptimizationType) имущество. Он принимает следующие значения
 
 - [PdfOptimizationType.STANDARD](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#STANDARD)
 - [PdfOptimizationType.MINIMUM_SIZE](https://reference.aspose.com/cells/java/com.aspose.cells/pdfoptimizationtype#MINIMUM_SIZE)

@@ -6,7 +6,7 @@ url: /tr/net/add-remove-comments-from-client-side/
 ---
 {{% alert color="primary" %}}
 
-Bu konuda, Aspose.Cells.GridWeb denetiminde istemci tarafında Yorum ekleme ve kaldırma açıklanmaktadır.
+Bu konuda, Aspose.Cells.GridWeb denetiminde istemci tarafında Yorum ekleme ve kaldırma açıklanır.
 
 {{% /alert %}}
 

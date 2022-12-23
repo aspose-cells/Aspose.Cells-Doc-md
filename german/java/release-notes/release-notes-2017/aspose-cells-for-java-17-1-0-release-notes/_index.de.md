@@ -8,31 +8,31 @@ url: /de/java/aspose-cells-for-java-17-1-0-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42132|GetPaperWidth- und GetPaperHeight-Methoden in PageSetup-Klasse hinzugefügt|Neue Funktion|
 |CELLSJAVA-41950|Unterstützung von Verlaufsfüllungen für WordArt beim Konvertieren von Tabellenkalkulationen in HTML|Neue Funktion|
-|CELLSJAVA-42129|Das Speichern in HTML ist falsch|Insekt|
+|CELLSJAVA-42129|Speichern auf HTML ist falsch|Insekt|
 |CELLSJAVA-42125|Gitternetzlinien hinter Formen werden bei der Konvertierung in HTML nicht exportiert|Insekt|
-|CELLSJAVA-42110|Einige CSS-Regeln werden beim Importieren von HTML ignoriert|Insekt|
-|CELLSJAVA-42094|Inhalte sind im konvertierten HTML durchgestrichen|Insekt|
-|CELLSJAVA-42091|Der Textstil einiger Zellen ist beim Speichern in HTML falsch|Insekt|
+|CELLSJAVA-42110|Einige CSS-Regeln werden beim Import von HTML ignoriert|Insekt|
+|CELLSJAVA-42094|Inhalte sind in der umgerechneten HTML durchgestrichen|Insekt|
+|CELLSJAVA-42091|Der Textstil einiger Zellen ist beim Speichern unter HTML falsch|Insekt|
 |CELLSJAVA-42088|DataBar falsch, wenn Zelle Hintergrundfarbe eingestellt hat|Insekt|
-|CELLSJAVA-42018|Das Diagrammbild wird nicht gespeichert, wenn das EMF- oder SVG-Format verwendet wird|Insekt|
+|CELLSJAVA-42018|Das Diagrammbild wird nicht gespeichert, wenn das Format EMF oder SVG verwendet wird|Insekt|
 |CELLSJAVA-41980|HtrmlSaveOptions.ExportGridLines scheint für eine bestimmte Tabelle nicht zu funktionieren|Insekt|
 |CELLSJAVA-42131|Die Neuberechnung einer Reihe von Formeln mit Aspose Cells APIs führt zu "#NUM!" Error|Insekt|
 |CELLSJAVA-42124|Problem mit dem Datumsformat beim Importieren von CSV mit ICustomParser|Insekt|
 |CELLSJAVA-42118|Name.getRanges() API führt zu unerwarteten Ergebnissen|Insekt|
 |CELLSJAVA-42117|Zugriff auf die Instanzvariable m_LoadDataFilterOptions beim Überschreiben der startSheet-Methode der LoadFilter-Klasse nicht möglich|Insekt|
 |CELLSJAVA-41882|Cell Stringwert- und Rundungsproblem basierend auf verschiedenen JDK-Versionen|Insekt|
-|CELLSJAVA-42142|Rechts-nach-links- und Links-nach-rechts-Steuerzeichen werden in PDF nicht korrekt wiedergegeben, wenn die Konvertierung unter Linux durchgeführt wird|Insekt|
+|CELLSJAVA-42142|Steuerzeichen von rechts nach links und von links nach rechts werden in PDF nicht korrekt gerendert, wenn die Konvertierung unter Linux erfolgt|Insekt|
 |CELLSJAVA-42136|Hebräisch - In der Tabelle sind die umgebrochenen Zeilen in PDF rechts ausgerichtet, während sie wie in Excel zentriert sein sollten|Insekt|
 |CELLSJAVA-42113|Falsche Konvertierung des arabischen Arbeitsblatts in SVG|Insekt|
 |CELLSJAVA-42135|Hebräisch - Umbrochener Text wird in PDF nicht wie in Excel rechtsbündig ausgerichtet|Insekt|
 |CELLSJAVA-42134|Hebräisch - Serienbeschriftungen mit Zeilenumbruch werden die Zeichen nicht in der richtigen Reihenfolge angezeigt|Insekt|
 |CELLSJAVA-42127|Shape to image Fehler beim Rendern von 03.xls in PDF|Insekt|
 |CELLSJAVA-42126|Shape to image Fehler beim Rendern von 02.xls in PDF|Insekt|
-|CELLSJAVA-42087|Das Diagrammbild im HTML-Code ist falsch|Insekt|
-|CELLSJAVA-42079|Ungleichmäßige Linienstärke an Schnittpunkten beim Rendern von Tabellenkalkulationen mit Diagrammen in PDF|Insekt|
-|CELLSJAVA-42078|Diagrammbeschriftungen werden in der PDF-Ausgabedatei nicht so angezeigt/gerendert (wie in der ursprünglichen Excel-Datei).|Insekt|
-|CELLSJAVA-42076|Der Winkel der X-Achsen-Beschriftungen ist in der PDF-Datei des Diagramms falsch|Insekt|
-|CELLSJAVA-42065|Falsches Rendern von Balkendiagrammen beim Rendern von Tabellenkalkulationen in HTML|Insekt|
+|CELLSJAVA-42087|Diagrammbild in HTML ist falsch|Insekt|
+|CELLSJAVA-42079|Ungleichmäßige Linienstärke an Schnittpunkten beim Rendern der Tabelle mit Diagramm auf PDF|Insekt|
+|CELLSJAVA-42078|Diagrammbeschriftungen werden in der Ausgabedatei PDF nicht gleich angezeigt/gerendert (wie in der ursprünglichen Excel-Datei).|Insekt|
+|CELLSJAVA-42076|Der Winkel der X-Achsen-Beschriftungen ist in Diagramm PDF falsch|Insekt|
+|CELLSJAVA-42065|Falsches Rendern von Balkendiagrammen beim Rendern der Tabelle auf HTML|Insekt|
 |CELLSJAVA-42152|Das Festlegen einer Formel, die sich auf eine externe Arbeitsmappe bezieht, erstellt eine 3D-Formel|Insekt|
 |CELLSJAVA-42146|Unlesbarer Inhaltsfehler in Excel 2007 nach dem erneuten Speichern einer Tabelle|Insekt|
 |CELLSJAVA-42121|Bedingter Formatausdruck ändert sich beim Löschen von Zeilen|Insekt|

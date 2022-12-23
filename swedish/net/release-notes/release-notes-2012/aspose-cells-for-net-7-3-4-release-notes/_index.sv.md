@@ -84,7 +84,7 @@ url: /sv/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Buggar
 
-40838 - GridWeb - Formateringen har inte sparats korrekt
+ 40838 - GridWeb - Formateringen har inte sparats korrekt
 
  41140 - Problem när du använder alternativet "Lägg till rad".
 

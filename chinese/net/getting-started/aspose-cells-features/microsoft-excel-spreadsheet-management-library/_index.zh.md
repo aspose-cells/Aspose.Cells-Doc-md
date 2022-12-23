@@ -7,7 +7,7 @@ url: /zh/net/microsoft-excel-spreadsheet-management-library/
 ## **Aspose.Cells – Microsoft Excel电子表格管理库**
 ### **文件特征**
 - 打开来自不同来源的普通或加密的 Microsft Excel 文件 (Excel97 - Excel2007/2010/2013)。
-- 以不同格式（XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、Tab Delimited、TSV、HTML 等）保存 Excel 文件 (Excel 97 - Excel2007/2010/2013)
+- 以不同的格式保存 Excel 文件 (Excel 97 - Excel2007/2010/2013) (XLS, XLSX/XLSM, XLTX, XLTM, XLSB, CSV, SpreadsheetML, Tab Delimited3817,8 等)
 - 将 Excel 文件转换为 PDF 文档。
 - 将 Excel 电子表格转换为 XPS 文档。
 - 转换为标记图像文件格式 (TIFF)。

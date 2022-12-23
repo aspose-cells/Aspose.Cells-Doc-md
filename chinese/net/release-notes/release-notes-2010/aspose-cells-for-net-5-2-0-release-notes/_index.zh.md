@@ -14,7 +14,7 @@ url: /zh/net/aspose-cells-for-net-5-2-0-release-notes/
 
  Aspose.Cells 中发生了什么变化：
 
-- 支持在 XLSX 文件中签署和验证数字签名。
+- 支持签署和验证 XLSX 文件中的数字签名。
 支持 XLS 和 XLSX 文件中的 R/W 数据透视表。
 将数据透视表数据计算到单元格。
  31 项增强和修复。

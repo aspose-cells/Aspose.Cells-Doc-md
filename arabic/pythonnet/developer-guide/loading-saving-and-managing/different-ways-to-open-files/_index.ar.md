@@ -30,7 +30,7 @@ url: /ar/python-net/different-ways-to-open-files/
 
 {{% alert color="primary" %}}
 
-سيتم طرح استثناء إذا حاولت فتح ملفات Excel غير أصلية أو تنسيقات ملفات أخرى (على سبيل المثال PPT / PPTX و DOC / DOCX وما إلى ذلك) بحلول Aspose.Cells.
+سيتم طرح استثناء إذا حاولت فتح ملفات Excel غير أصلية أو تنسيقات ملفات أخرى (على سبيل المثال PPT / PPTX ، DOC / DOCX ، إلخ) بحلول Aspose.Cells.
 
 {{% /alert %}} {{% alert color="primary" %}}
 

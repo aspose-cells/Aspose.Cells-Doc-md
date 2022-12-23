@@ -52,12 +52,12 @@ url: /de/net/aspose-cells-for-net-5-1-3-release-notes/
 |19246 | GridDesktop| Cells Datenformatproblem – Datumsangaben werden zu Zahlen|
 |19336 | GridDesktop| Beim Zusammenführen eines Bereichs von 0 Zeilen oder 0 Spalten wird eine Ausnahme ausgelöst.|
 |19411 | GridDesktop| Die SVERWEIS-Funktion unterstützt die Verwendung von Double- oder Int-Werten nicht|
-|19721 | HTML| Das Speichern von Excel-Dokumenten als HTML dauert sehr lange|
+|19721 | HTML| Das Speichern des Excel-Dokuments als HTML dauert sehr lange|
 |17485 | Pdf| Fehlendes Logo und unscharfer/heller Text|
-|18114 | Pdf| PDF-Konvertierungsproblem|
-|19237 | Pdf|Unterschied beim Drucken aus Excel und Ausgabe in PDF|
-|19392 | Pdf| Bildbreite bei Konvertierung in PDF geschrumpft|
-|19409 | Pdf| Aussehen und Verhalten von PDF unterscheiden sich von XLSX|
+|18114 | Pdf| PDF Konvertierungsproblem|
+|19237 | Pdf|Unterschied beim Drucken aus Excel und Ausgabe an PDF|
+|19392 | Pdf| Bildbreite bei Umstellung auf PDF geschrumpft|
+|19409 | Pdf| PDF Look and Feel unterscheidet sich von XLSX|
 |19420 | Pdf| Datumsformat|
 |19425 | Pdf| Dateigröße = 0 bei Konvertierung in PDF|
 |19546 | Pdf| Konvertieren Sie diese Datei in PDF|
@@ -66,7 +66,7 @@ url: /de/net/aspose-cells-for-net-5-1-3-release-notes/
 |19430 | PivotTable| 2003 XLS mit beschädigten PivotTables|
 |19542 | PivotTable| DataBordyRange gibt nicht den richtigen Bereich zurück|
 |19852 | PivotTable| Die Pivot-Tabelle verursacht Fehler in XLSX-Dateien, funktioniert aber in XLS einwandfrei|
-|19942 | SpreadML| Problem beim Öffnen von SpreadsheetML-Dokumenten mit Namespace-Attributen|
+|19942 | SpreadML| SpreadsheetML Problem beim Öffnen von Dokumenten mit Namespace-Attributen|
 |19052 | XLs| Kopieren Sie Excel mit Ereignishandler für die Befehlsschaltfläche|
 |19238 | XLs| getPrecedents gibt eine Spalte 164 zurück|
 |19541 | XLs| Fehler bei Formel für benanntes Bereichsarray|
@@ -76,8 +76,8 @@ url: /de/net/aspose-cells-for-net-5-1-3-release-notes/
 |19895 | XLs| Problem mit Passwörtern und Excel 2003|
 |19901 | XLs| Problem mit INDEX- UND LOOKUP-FORMELN in GridWeb.|
 |19911 | XLs| Verlust einzelner Datenpunktetikettenformate|
-|19931 | XLs| Problem beim Hinzufügen des Hyperlinks zu Cell|
-|19934 | XLs|ImportTwoDimensionArray scheint einige Zellen ungültig zu machen|
+|19931 | XLs|Problem beim Hinzufügen des Hyperlinks zu Cell|
+|19934 | XLs| ImportTwoDimensionArray scheint einige Zellen ungültig zu machen|
 |19250 | XLSX| Excel-Fehlerdialog für nicht lesbaren Inhalt gefunden|
 |19334 | XLSX| Excel-Arbeitsmappe mit Diagramm kann nicht geöffnet werden|
 |19341 | XLSX| Probleme mit Arbeitsblättern mit Kommazeichen|

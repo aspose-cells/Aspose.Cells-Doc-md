@@ -10,7 +10,7 @@ Cuando guarda su archivo de Excel en HTML, puede especificar diferentes tipos de
 
 ## **Ocultar contenido superpuesto con CrossHideRight mientras se guarda en Html**
 
- El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](64716894.xlsx) y lo guarda en[HTML de salida](64716893.zip) después de configurar el[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)como[**CruzOcultarDerecha**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). La captura de pantalla explica cómo[**CruzOcultarDerecha**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)afecta el HTML de salida desde la salida predeterminada.
+ El siguiente código de ejemplo carga el[ejemplo de archivo de Excel](64716894.xlsx) y lo guarda en[salida HTML](64716893.zip) después de configurar el[**HtmlSaveOptions.HtmlCrossStringType**](https://reference.aspose.com/cells/net/aspose.cells/htmlsaveoptions/properties/htmlcrossstringtype)como[**CruzOcultarDerecha**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype). La captura de pantalla explica cómo[**CruzOcultarDerecha**](https://reference.aspose.com/cells/net/aspose.cells/htmlcrosstype)afecta la salida HTML de la salida predeterminada.
 
 ![todo:imagen_alternativa_texto](hiding-overlaid-content-with-crosshideright-while-saving-to-html_1.png)
 

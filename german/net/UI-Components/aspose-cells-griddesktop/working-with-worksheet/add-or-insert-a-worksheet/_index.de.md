@@ -37,6 +37,6 @@ Um ein Arbeitsblatt mit Aspose.Cells.GridDesktop einzufügen, gehen Sie bitte wi
 
 {{% alert color="primary" %}} 
 
-WICHTIG: Microsoft Excel (97-2003 XLS) unterstützt Excel-Tabellen mit bis zu 65.536 Zeilen und 256 Spalten. Aspose.Cells.GridDesktop folgt denselben Standards. Im Aspose.Cells.GridDesktop-Steuerelement können Entwickler Arbeitsblätter mit mehr Zeilen und Spalten als das Standardlimit hinzufügen oder einfügen, aber wenn sie versuchen, die Grid-Daten in einer Excel-Datei zu speichern, wird eine Ausnahme ausgelöst. Das bedeutet, dass nur Daten, die in den 65.536 Zeilen und 256 Spalten enthalten sind, mit Aspose.Cells.GridDesktop in einer Excel-XLS-Datei gespeichert werden können, wenn Sie das XLSX-Dateiformat (MS Excel 2007/2010) verwenden, gibt es jedoch keine solche Einschränkung.
+WICHTIG: Microsoft Excel (97-2003 XLS) unterstützt Excel-Tabellen mit bis zu 65.536 Zeilen und 256 Spalten. Aspose.Cells.GridDesktop folgt denselben Standards. Im Aspose.Cells.GridDesktop-Steuerelement können Entwickler Arbeitsblätter mit mehr Zeilen und Spalten als das Standardlimit hinzufügen oder einfügen, aber wenn sie versuchen, die Grid-Daten in einer Excel-Datei zu speichern, wird eine Ausnahme ausgelöst. Das bedeutet, dass nur Daten, die in den 65.536 Zeilen und 256 Spalten enthalten sind, mit Aspose.Cells.GridDesktop in einer Excel-XLS-Datei gespeichert werden können, wenn Sie das Dateiformat XLSX (MS Excel 2007/2010) verwenden, gibt es jedoch keine solche Einschränkung.
 
 {{% /alert %}}

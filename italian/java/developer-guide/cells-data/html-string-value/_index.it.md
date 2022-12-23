@@ -1,5 +1,5 @@
 ﻿---
-title: Aggiunta di HTML Rich Text all'interno del Cell
+title: Aggiunta di HTML Rich Text all'interno di Cell
 linktitle: Valore stringa HTML
 type: docs
 weight: 90
@@ -7,15 +7,15 @@ url: /it/java/adding-html-rich-text-inside-the-cell/
 ---
 {{% alert color="primary" %}}
 
-Aspose.Cells supporta la conversione di HTML orientato a Microsoft Excel in formato XLS/XLSX. Significa che l'HTML generato da Microsoft Excel può essere riconvertito nel formato XLS/XLSX utilizzando Aspose.Cells.
+Aspose.Cells supporta la conversione di Microsoft orientato a Excel HTML nel formato XLS/XLSX. Significa che lo HTML generato da Microsoft Excel può essere riconvertito nel formato XLS/XLSX utilizzando Aspose.Cells.
 
- Allo stesso modo, se c'è del semplice HTML, Aspose.Cells può convertirlo in HTML Rich Text. Aspose.Cells fornisce[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) proprietà che può prendere un codice HTML così semplice e convertirlo in testo di cella formattato.
+ Allo stesso modo, se c'è un semplice HTML, Aspose.Cells può convertirlo in HTML Rich Text. Aspose.Cells fornisce[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString) proprietà che può prendere un semplice HTML e convertirlo in testo di cella formattato.
 
 {{% /alert %}}
 
 ## **Esempio**
 
- Lo screenshot seguente mostra il file Excel di output generato con Aspose.Cells. Come puoi vedere, mostra il rich text in formato HTML aggiunto all'interno della cella A1 utilizzando il[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)proprietà.
+ Lo screenshot seguente mostra il file Excel di output generato con Aspose.Cells. Come puoi vedere, mostra il rich text formattato HTML aggiunto all'interno della cella A1 utilizzando il[**Cell.setHtmlString()**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#HtmlString)proprietà.
 
 ![cose da fare:immagine_alt_testo](adding-html-rich-text-inside-the-cell_1.png)
 

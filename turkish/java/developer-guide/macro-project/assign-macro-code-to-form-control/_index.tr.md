@@ -10,7 +10,7 @@ url: /tr/java/assign-macro-code-to-form-control/
 
 {{% /alert %}} 
 ## **Aspose.Cells Kullanarak Form Kontrolüne Makro Kodu Atama**
-Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, Form Buttom'a Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Bir kez, çıktı XLSM dosyasını Microsoft Excel'de açacaksınız, aşağıdaki makro kodunu göreceksiniz.
+Aşağıdaki örnek kod, yeni bir çalışma kitabı oluşturur, Form Buttom'a Makro Kodu atar ve çıktıyı XLSM biçiminde kaydeder. Bir kez, XLSM çıktı dosyasını Microsoft Excel'de açacaksınız, aşağıdaki makro kodunu göreceksiniz.
 
 {{< highlight "java" >}}
 
@@ -22,6 +22,6 @@ End Sub
 
 {{< /highlight >}}
 
-İşte Makro Kodu ile çıktı XLSM dosyasını oluşturmak için örnek bir kod.
+İşte XLSM çıktı dosyasını Makro Kodu ile oluşturmak için örnek bir kod.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-AssignMacroToFormControl-AssignMacroToFormControl.java" >}}

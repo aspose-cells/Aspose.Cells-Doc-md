@@ -16,6 +16,6 @@ Quando l'immagine è piccola e non copre l'intera superficie della forma senza p
 
 ![cose da fare:immagine_alt_testo](tile-picture-as-a-texture-inside-the-shape_1.png)
 
-## **Codice di esempio**
+## **Codice d'esempio**
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-DrawingObjects-TilePictureAsTextureInsideShape.cs" >}}

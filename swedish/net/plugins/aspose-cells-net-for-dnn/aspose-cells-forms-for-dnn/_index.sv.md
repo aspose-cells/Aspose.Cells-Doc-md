@@ -5,7 +5,7 @@ weight: 40
 url: /sv/net/aspose-cells-forms-for-dnn/
 ---
 ## **Introduktion**
-Aspose.Cells Dynamic Forms for DNN Module låter användare skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen för att bygga kalkylblad som tillhandahålls av 07316236.1814.
+Aspose.Cells Dynamic Forms for DNN Module tillåter användare att skapa dynamiska frågeformulär och enkäter, spara användarinmatning i Excel-kalkylblad och exportera resultaten till Excel, Text, CSV och OpenDocument-kalkylblad med Aspose.Cells. Denna modul demonstrerar den kraftfulla funktionen 47123481 för att skapa kalkylblad 8.731 som tillhandahålls av 0731 8.31 401 401 8.3.
 ### **Modulfunktioner**
 Denna initiala version av modulen är berikad med följande funktioner för att göra formulärbyggandet och exportprocessen enkel och lätt att använda
 
@@ -18,7 +18,7 @@ Denna initiala version av modulen är berikad med följande funktioner för att 
 - Anpassa kolumner automatiskt till innehållets längd och använd formatering av rubrikkolumner som fet text
 - Exportera data till Microsoft Excel-dokument (.xls, .xlsx och .xlsb)
 - Exportera data till tabbavgränsat textdokument (*.txt)
-- Exportera data till CSV (kommaseparerad) (*.csv)
+- Exportera data till CSV (kommaavgränsad) (*.csv)
 - Exportera data till OpenDocument-kalkylblad (*.ods)
 - Möjlighet att välja önskat utdataformat innan export.
 - Exporterat dokument skickas automatiskt till webbläsaren för nedladdning.
@@ -47,7 +47,7 @@ När du har laddat ned, följ dessa steg för att installera modulen på din DNN
 1. Logga in på din webbplats som antingen värd eller ett annat konto på superanvändarnivå.
 1.  Navigera till**Värd** menyn och välj**Tillägg**.
 1.  Klick**Installera tilläggsguiden**.
-1. Bläddra enligt anvisningarna till platsen för den nedladdade zip-filen, välj den och klicka sedan**Öppna**.
+1. Bläddra enligt anvisningarna till platsen för den nedladdade zip-filen, välj den och klicka sedan**Öppen**.
 1.  Klick**Nästa** , acceptera licensen, fortsätt genom installationen. När du är klar klickar du på**Lämna tillbaka** knapp.
 
  Vänligen kontrollera[denna modulinstallationsvideo](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) från DNN för mer information.

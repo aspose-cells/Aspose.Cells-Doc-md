@@ -14,19 +14,19 @@ url: /zh/java/aspose-cells-for-java-17-12-release-notes/
 |:- |:- |:- |
 |CELLSJAVA-42479|改进了 LoadDataFilterOptions 枚举并消除了歧义|强化|
 |CELLSJAVA-42460|CSV 格式 - D2 和 D6 是 IsString 但 Aspose.Cells 将它们视为 IsNumeric|强化|
-|CELLSJAVA-42457|XLSX转PDF时，图表部分线条不一样|漏洞|
-|CELLSJAVA-42465|某些 CSS 类声明未在输出 HTML 中添加前缀|漏洞|
+|CELLSJAVA-42457|XLSX转换为PDF时，图表中有些线不一样|漏洞|
+|CELLSJAVA-42465|一些 CSS 类声明在输出中没有前缀 HTML|漏洞|
 |CELLSJAVA-42456|HTML 输出与源不一致 - Excel 到 HTML 的转换|漏洞|
 |CELLSJAVA-42478|从 HSQL DB 导入 long 值会抛出异常|漏洞|
-|CELLSJAVA-42466|输出 PDF 中的方程式未正确呈现|漏洞|
-|CELLSJAVA-42475|输出 PDF 中缺少图表|漏洞|
-|CELLSJAVA-42459|输出 PDF/图像中缺少图表的数据标签|漏洞|
+|CELLSJAVA-42466|输出中的方程未正确呈现 PDF|漏洞|
+|CELLSJAVA-42475|输出中缺少图表 PDF|漏洞|
+|CELLSJAVA-42459|输出 PDF/image 中缺少图表的数据标签|漏洞|
 |CELLSJAVA-42453|图表图像不一样 Microsoft Excel|漏洞|
 |CELLSJAVA-42447|数据标签在输出 HTML 文件格式中显示错误|漏洞|
 |CELLSJAVA-42481|设置组合框名称不适用于源 Excel 文件，但如果由 Microsoft Excel 重新保存，它可以正常工作|漏洞|
 |CELLSJAVA-42476|Microsoft 启用宏的 Excel 工作表 (.xlsm) 在通过 Aspose.Cells API 打开和保存后损坏|漏洞|
 |CELLSJAVA-42470|设置复选框链接单元格会导致 MS Excel 在打开输出文件时提示错误消息|漏洞|
-|CELLSJAVA-42462|读取 XLSB 文件会抛出 NullPointerException|例外|
+|CELLSJAVA-42462|读取 XLSB 文件抛出 NullPointerException|例外|
 ## **公共 API 和向后不兼容的更改**
 以下是对公众 API 所做的任何更改的列表，例如添加、重命名、删除或弃用成员，以及对 Aspose.Cells for Java 所做的任何非向后兼容更改。如果您对列出的任何更改有疑虑，请在Aspose.Cells 支持论坛。
 ### **添加 HtmlSaveOptions.TableCssId 属性**
@@ -63,7 +63,7 @@ LoadDataFilterOptions.None 给出了模棱两可的指示并造成了混乱。�
 请查看 Aspose.Cells Wiki 文档中添加的帮助主题列表：
 
 - [如果数据太大，自动将智能标记数据填充到其他工作表](/cells/zh/java/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [在输出 HTML 中单独导出工作表 CSS](/cells/zh/java/export-worksheet-css-separately-in-output-html/)
+- [在输出中单独导出工作表 CSS HTML](/cells/zh/java/export-worksheet-css-separately-in-output-html/)
 - [实施 Cell.FormulaLocal 类似于 Excel VBA Range.FormulaLocal](/cells/zh/java/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [使用 HtmlSaveOptions.TableCssId 属性为表元素样式添加前缀](/cells/zh/java/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [在将 Excel 转换为 Pdf 时呈现 Office 加载项](/cells/zh/java/render-office-add-ins-while-converting-excel-to-pdf/)

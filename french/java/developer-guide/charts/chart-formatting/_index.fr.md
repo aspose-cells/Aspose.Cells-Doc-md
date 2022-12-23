@@ -25,7 +25,7 @@ Dans l'exemple ci-dessous, nous avons appliqué différents paramètres de mise 
 
 - Superficie du terrain
 - Zone graphique
-- [**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) Région
+- [**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) surface
 - L'aire d'un seul point dans un[**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)
 
 Après avoir exécuté l'exemple de code, un histogramme sera ajouté à la feuille de calcul comme indiqué ci-dessous :
@@ -48,7 +48,7 @@ Après avoir exécuté l'exemple de code, un histogramme sera ajouté à la feui
 
 ### **Application des thèmes Microsoft Excel 2007/2010 aux graphiques**
 
- Les développeurs peuvent appliquer différents thèmes et couleurs Excel Microsoft au[**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)ou d'autres objets de graphique comme indiqué dans l'exemple ci-dessous.
+Les développeurs peuvent appliquer différents thèmes et couleurs Excel Microsoft au[**SérieCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection)ou d'autres objets de graphique comme indiqué dans l'exemple ci-dessous.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-charts-ApplyingThemes-ApplyingThemes.java" >}}
 
@@ -60,7 +60,7 @@ Vous pouvez utiliser Microsoft Excel pour définir les titres d'un graphique et 
 
 ![tâche : image_autre_texte](chart-formatting_3.png)
 
-Aspose.Cells permet également aux développeurs de définir les titres d'un graphique et ses axes lors de l'exécution. Tous les graphiques et leurs axes contiennent un[**Titre.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)méthode qui peut être utilisée pour définir leurs titres comme indiqué ci-dessous dans un exemple. Après avoir exécuté l'exemple de code, un histogramme sera ajouté à la feuille de calcul comme indiqué ci-dessous :
+ Aspose.Cells permet également aux développeurs de définir les titres d'un graphique et ses axes lors de l'exécution. Tous les graphiques et leurs axes contiennent un[**Titre.setText**](https://reference.aspose.com/cells/java/com.aspose.cells/title#Text)méthode qui peut être utilisée pour définir leurs titres comme indiqué ci-dessous dans un exemple. Après avoir exécuté l'exemple de code, un histogramme sera ajouté à la feuille de calcul comme indiqué ci-dessous :
 
 **Diagramme à colonnes après avoir défini les titres** 
 
@@ -72,9 +72,9 @@ Aspose.Cells permet également aux développeurs de définir les titres d'un gra
 
 #### **Masquer le quadrillage principal**
 
- Les développeurs peuvent contrôler la visibilité des principaux quadrillages en utilisant le[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) méthode de la[**Ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)objet. Après avoir masqué le quadrillage principal, un histogramme ajouté à la feuille de calcul a l'apparence suivante :
+ Les développeurs peuvent contrôler la visibilité des principaux quadrillages en utilisant le[**setVisible**](https://reference.aspose.com/cells/java/com.aspose.cells/line#IsVisible) méthode de la[**La ligne**](https://reference.aspose.com/cells/java/com.aspose.cells/Line)objet. Après avoir masqué le quadrillage principal, un histogramme ajouté à la feuille de calcul a l'apparence suivante :
 
-**Un histogramme avec un quadrillage principal caché** 
+**Un histogramme avec un quadrillage principal masqué** 
 
 ![tâche : image_autre_texte](chart-formatting_5.png)
 
@@ -100,7 +100,7 @@ L'exemple ci-dessous montre comment définir la bordure du flanc en utilisant di
 
 ## **Modifier la position et la taille du graphique**
 
- Parfois, vous souhaitez modifier la position ou la taille du graphique nouveau ou existant dans la feuille de calcul. Aspose.Cells fournit le[**Graphique.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject) propriété pour y parvenir. Vous pouvez utiliser ses sous-propriétés pour redimensionner le graphique avec de nouvelles**la taille** et**largeur** ou repositionnez-le avec de nouveaux** X** et**Coordonnées Y**.
+ Parfois, vous souhaitez modifier la position ou la taille du graphique nouveau ou existant dans la feuille de calcul. Aspose.Cells fournit le[**Graphique.getChartObject()**](https://reference.aspose.com/cells/java/com.aspose.cells/chart#ChartObject)propriété pour y parvenir. Vous pouvez utiliser ses sous-propriétés pour redimensionner le graphique avec de nouvelles**la taille** et**largeur** ou repositionnez-le avec de nouveaux** X** et**Coordonnées Y**.
 
 ### **Modification de la position et de la taille du graphique**
 

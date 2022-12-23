@@ -49,7 +49,7 @@ url: /ar/net/export-microsoft-excel-file/
 
 {{% alert color="primary" %}} 
 
- إذا كنت تعمل في Visual Studio ، يمكنك بسهولة إنشاء معالج حدث SaveCommand الخاص بالحدث عن طريق النقر نقرًا مزدوجًا فوق الحدث في**الخصائص** جزء. لمعرفة المزيد حول هذا ، يرجى الرجوع إلى[العمل مع أحداث GridWeb](/cells/ar/net/working-with-gridweb-events/)
+ إذا كنت تعمل في Visual Studio ، يمكنك بسهولة إنشاء معالج حدث SaveCommand الخاص بالحدث عن طريق النقر نقرًا مزدوجًا فوق الحدث في**ملكيات** جزء. لمعرفة المزيد حول هذا ، يرجى الرجوع إلى[العمل مع أحداث GridWeb](/cells/ar/net/working-with-gridweb-events/)
 
 {{% /alert %}} 
 ### **تصدير كتيار**

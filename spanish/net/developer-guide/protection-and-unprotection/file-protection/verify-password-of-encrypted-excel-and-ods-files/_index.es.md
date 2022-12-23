@@ -3,7 +3,7 @@ title: Verificar contraseña de archivos cifrados
 type: docs
 weight: 10
 url: /es/net/verify-password-of-encrypted-excel-and-ods-files/
-description: Verifique la contraseña de los archivos cifrados de Excel (xlsx, xlsb, xls, xlsm) y Open Office (ODS) utilizando códigos CShape.
+description: Verifique la contraseña de archivos cifrados de Excel (xlsx, xlsb, xls, xlsm) y Open office (ODS) usando códigos CShape.
 ---
 {{% alert color="primary" %}}
 Si los archivos de Excel (xlsx, xlsb, xls, xlsm) y Open office (ODS) están bloqueados con contraseña, Aspose admite la verificación de contraseña simple sin analizar datos específicos de los archivos.

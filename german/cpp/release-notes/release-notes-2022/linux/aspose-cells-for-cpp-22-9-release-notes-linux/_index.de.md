@@ -13,6 +13,6 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 22.9 für Linux.
 Wir freuen uns, die Veröffentlichung von Aspose.Cells for C++ 22.9 für Linux bekannt zu geben.
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-920| Synchronisierungsfunktionen mit der .Net-Version|Die Unterstützung|
+|CELLSCPP-920| Synchronisierungsfunktionen mit der .Net-Version|Unterstützung|
 
 

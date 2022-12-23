@@ -21,4 +21,4 @@ url: /it/net/aspose-cells-net-4-0-3-0-hot-fix-release-notes/
  Funzione TEXT supportata nel motore di calcolo delle formule.
  Aggiunti metodi ApplyStyle per righe e colonne
  Risolti bug nella copia dei fogli di lavoro.
-Risolti bug nella combinazione delle cartelle di lavoro
+ Risolti bug nella combinazione delle cartelle di lavoro

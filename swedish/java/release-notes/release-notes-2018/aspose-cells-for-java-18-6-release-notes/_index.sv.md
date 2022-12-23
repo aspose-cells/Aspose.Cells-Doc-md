@@ -18,19 +18,19 @@ Den här sidan innehåller utgåvor för Aspose.Cells for Java 18.6.
 |CELLSJAVA-42646|Undantag: "FormulaBuild](/p Okänd formel token0" på Name.getRefersTo()|Förbättring|
 |CELLSJAVA-42645|Undantag: "FormulaBuild More than one token in stack...." på Cell.getFormula()|Förbättring|
 |CELLSJAVA-42516|Aspose.Cells accepterar och korrigerar en ogiltig formel|Förbättring|
-|CELLSJAVA-42636|Vissa ritningsformer förskjuts eller återges felaktigt i Excel till HTML-rendering|Insekt|
+|CELLSJAVA-42636|Vissa ritningsformer är förskjutna eller återgivna felaktigt i Excel till HTML-rendering|Insekt|
 |CELLSJAVA-42627|CELLSJAVA-42619 - Det går inte att extrahera Smart Art-bilder korrekt|Insekt|
 |CELLSJAVA-42618|Formen förskjuts för att täcka data i Excel till HTML-rendering|Insekt|
 |CELLSJAVA-42628|Beräkning av formler är fel, t.ex. genererar #DIV/0! fel|Insekt|
-|CELLSJAVA-42615|Cell A3-formatet är inte korrekt i utdata-HTML|Insekt|
+|CELLSJAVA-42615|Cell A3-formatet är inte korrekt i utdata HTML|Insekt|
 |CELLSJAVA-42621|Dålig prestanda vid generering av PDF-fil från en MS Excel-fil|Insekt|
 |CELLSJAVA-42620|XLSX till TIFF - undantag NoClassDefFoundError|Insekt|
 |CELLSJAVA-42599|Bilder går förlorade när Excel-filen konverteras till PDF|Insekt|
 |CELLSJAVA-42630|Chart.calculate-metoden orsakar OutOfMemoryError|Insekt|
-|CELLSJAVA-42623|Minnet ökar vid rendering av Excel-fil till PDF-filformat|Insekt|
+|CELLSJAVA-42623|Minnet ökar när Excel-filen återges till filformatet PDF|Insekt|
 |CELLSJAVA-42592|Teckenstorleken har ändrats på diagramtiteln på grund av metoden characters().|Insekt|
-|CELLSJAVA-41860|Skuggeffekten ändras medan XLS sparas på nytt|Insekt|
-|CELLSJAVA-42654|Excel till PDF-konvertering - konverteringen slutförs aldrig|Insekt|
+|CELLSJAVA-41860|Skuggeffekten ändras medan XLS sparas igen|Insekt|
+|CELLSJAVA-42654|Excel till PDF konvertering - konverteringen slutförs aldrig|Insekt|
 |CELLSJAVA-42647|Det gick inte att hämta eller ställa in alternativ text för kommentarform|Insekt|
 |CELLSJAVA-42644|Aspose.Cells hänger sig vid konvertering av en kalkylarks ml-fil (xml) till PDF med självstängande Styles-tagg|Insekt|
 |CELLSJAVA-42632|Det gick inte att ställa in alternativ text för SmartArt-formen|Insekt|

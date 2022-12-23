@@ -8,7 +8,7 @@ url: /zh/java/how-aspose-cells-uses-truetype-fonts/
 
 Aspose.Cells 在将电子表格呈现为 PDF、XPS 和图像等格式时需要 TrueType 字体。
 
-当 Aspose.Cells 呈现电子表格时，它需要访问电子表格中使用的 TrueType 字体。这是 PDF、XPS 和图像生成过程中的常规做法，可确保转换后的文档或图像对任何查看者都相同。
+当 Aspose.Cells 呈现电子表格时，它需要访问电子表格中使用的 TrueType 字体。这是 PDF、XPS 和图像生成过程中的正常做法，可确保转换后的文档或图像对任何查看者都相同。
 
 {{% /alert %}}
 
@@ -31,7 +31,7 @@ Aspose.Cells 尝试在文件系统上自动查找 TrueType 字体。大多数时
 
 ### **典型的字体相关问题和解决方案**
 
-此表列出了使用 Aspose.Cells 将电子表格呈现为 PDF 时可能遇到的一些问题及其解决方案。
+此表列出了使用 Aspose.Cells 将电子表格呈现给 PDF 时可能遇到的一些问题及其解决方案。
 
 {{% alert color="primary" %}}
 

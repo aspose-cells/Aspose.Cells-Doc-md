@@ -25,7 +25,7 @@ url: /ru/sharepoint/convert-multiple-files/
 
 ![дело:изображение_альтернативный_текст](convert-multiple-files_2.png)
 ### **Использование кнопки ленты сервера в SharePoint 2010**
- В SharePoint 2010 кнопка ленты сервера доступна вместо пользовательского меню действий, используемого в SharePoint 2007/WSS 3.
+В SharePoint 2010 кнопка ленты сервера доступна вместо пользовательского меню действий, используемого в SharePoint 2007/WSS 3.
 
 **Преобразование документов с помощью Aspose.Cells for SharePoint в SharePoint 2010** 
 

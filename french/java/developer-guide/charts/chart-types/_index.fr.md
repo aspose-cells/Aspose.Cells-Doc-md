@@ -15,9 +15,9 @@ Aspose.Cells prend en charge presque tous les types de graphiques pris en charge
 - [Modèles standards](/cells/fr/java/chart-types/).
 - [Types personnalisés](/cells/fr/java/chart-types/).
 ### **Types standards**
-Les graphiques standard sont ceux normalement utilisés avec un formatage standard :
+Les graphiques standard sont ceux normalement utilisés avec le formatage standard :
 
-|<p>- [Colonne](/cells/fr/java/chart-types/)</p><p>- [Bar](/cells/fr/java/chart-types/)</p><p>- [Ligne](/cells/fr/java/chart-types/)</p><p>- [Tarte](/cells/fr/java/chart-types/)</p><p>- [Dispersion](/cells/fr/java/chart-types/)</p><p>- [Zone](/cells/fr/java/chart-types/)</p><p>- [Donut](/cells/fr/java/chart-types/)</p>|<p>- [Radar](/cells/fr/java/chart-types/)</p><p>- [Surface 3D](/cells/fr/java/chart-types/)</p><p>- [Bulle](/cells/fr/java/chart-types/)</p><p>- [Stocker](/cells/fr/java/chart-types/)</p><p>- [Cylindre](/cells/fr/java/chart-types/)</p><p>- [Cône](/cells/fr/java/chart-types/)</p><p>- [Pyramide](/cells/fr/java/chart-types/)</p><p>- [Treemap](/cells/fr/java/chart-types/)</p><p>- [Coup de soleil](/cells/fr/java/chart-types/)</p><p>- [Histogramme](/cells/fr/java/chart-types/)</p><p>- [Boîte et Moustache](/cells/fr/java/chart-types/)</p><p>- [Cascade](/cells/fr/java/chart-types/)</p>|
+|<p>- [Colonne](/cells/fr/java/chart-types/)</p><p>- [Bar](/cells/fr/java/chart-types/)</p><p>- [La ligne](/cells/fr/java/chart-types/)</p><p>- [Tarte](/cells/fr/java/chart-types/)</p><p>- [Dispersion](/cells/fr/java/chart-types/)</p><p>- [Surface](/cells/fr/java/chart-types/)</p><p>- [Donut](/cells/fr/java/chart-types/)</p>|<p>- [Radar](/cells/fr/java/chart-types/)</p><p>- [Surface 3D](/cells/fr/java/chart-types/)</p><p>- [Bulle](/cells/fr/java/chart-types/)</p><p>- [Stocker](/cells/fr/java/chart-types/)</p><p>- [Cylindre](/cells/fr/java/chart-types/)</p><p>- [Cône](/cells/fr/java/chart-types/)</p><p>- [Pyramide](/cells/fr/java/chart-types/)</p><p>- [Treemap](/cells/fr/java/chart-types/)</p><p>- [Coup de soleil](/cells/fr/java/chart-types/)</p><p>- [Histogramme](/cells/fr/java/chart-types/)</p><p>- [Boîte et Moustache](/cells/fr/java/chart-types/)</p><p>- [Cascade](/cells/fr/java/chart-types/)</p>|
 |:- |:- |
 Chacun des types de graphiques standard est décrit plus en détail ci-dessous.
 #### **Graphiques à colonnes**

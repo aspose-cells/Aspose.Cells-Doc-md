@@ -18,4 +18,4 @@ Geliştirmeler
 
 
 
-`   `PDF dönüştürmede şekiller için iyileştirmeler yapıldı
+`   `PDF dönüşümünde şekiller için iyileştirmeler yapıldı

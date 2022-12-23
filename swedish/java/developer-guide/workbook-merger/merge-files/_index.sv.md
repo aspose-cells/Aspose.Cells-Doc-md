@@ -6,7 +6,7 @@ url: /sv/java/merge-files/
 ---
 ## **Introduktion**
 
- Aspose.Cells ger olika sätt att sammanfoga filer. För enkla filer med data, formatering och formler,[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) ) metod kan användas för att kombinera flera arbetsböcker, och[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)metod kan användas för att kopiera arbetsblad till en ny arbetsbok. Dessa metoder är enkla att använda och effektiva, men om du har många filer att slå samman kan du upptäcka att de tar mycket systemresurser. För att undvika detta, använd den statiska metoden CellsHelper.mergeFiles, ett mer effektivt sätt att slå samman flera filer.
+ Aspose.Cells ger olika sätt att sammanfoga filer. För enkla filer med data, formatering och formler,[**Workbook.combine()**](https://reference.aspose.com/cells/java/com.aspose.cells/workbook#combine(com.aspose.cells.Workbook) metod kan användas för att kombinera flera arbetsböcker, och[**Worksheet.copy(**)](https://reference.aspose.com/cells/java/com.aspose.cells/worksheet#copy(com.aspose.cells.Worksheet)) metod kan användas för att kopiera arbetsblad till en ny arbetsbok. Dessa metoder är enkla att använda och effektiva, men om du har många filer att slå samman kan du upptäcka att de tar mycket systemresurser. För att undvika detta, använd den statiska metoden CellsHelper.mergeFiles, ett mer effektivt sätt att slå samman flera filer.
 
 ## **Slå ihop filer med Aspose.Cells**
 

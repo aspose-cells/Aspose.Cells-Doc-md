@@ -47,9 +47,9 @@ url: /ja/java/opening-files-with-different-formats/
 |Xltx|Excel 2007/2010/2013/2016/2019 および Office 365 テンプレート XLTX ファイルを表します|
 |Xltm|Excel 2007/2010/2013/2016/2019 および Office 365 マクロ有効 XLTM ファイルを表します|
 |Xlsb|Excel 2007/2010/2013/2016/2019 および Office 365 バイナリ XLSB ファイルを表します|
-|スプレッドシートML|SpreadsheetML ファイルを表します|
+|SpreadsheetML|SpreadsheetML ファイルを表します|
 |Tsv|タブ区切り値ファイルを表します|
-|タブ区切り|タブ区切りのテキスト ファイルを表します|
+|TabDelimited|タブ区切りのテキスト ファイルを表します|
 |オッズ|ODS ファイルを表します|
 |HTML|HTML ファイルを表します|
 |Mhtml|MHTML ファイルを表します|
@@ -64,7 +64,7 @@ url: /ja/java/opening-files-with-different-formats/
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-LoadingSavingConvertingAndManaging-OpeningExcel95_5_0XLSFiles-1.java" >}}
 
-### **Microsoft Excel 97 以降のバージョンの XLS ファイルを開く**
+### **Microsoft Excel 97 以降のバージョン XLS ファイルを開く**
 
 Microsoft Excel XLS 97 以降のバージョンの XLS ファイルを開くには、**[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**テンプレート ファイルのパスまたはストリームを持つインスタンス。または、**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**メソッドを選択し、**[EXCEL_97_TO_2003](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#EXCEL_97_TO_2003)**の値**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**列挙。
 
@@ -72,7 +72,7 @@ Microsoft Excel XLS 97 以降のバージョンの XLS ファイルを開くに�
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningMicrosoftExcel972003Files-OpeningMicrosoftExcel972003Files.java" >}}
 
-### **Microsoft Excel 2007 以降のバージョンの XLSX ファイルを開く**
+### **Microsoft Excel 2007 以降のバージョン XLSX ファイルを開く**
 
 Microsoft Excel 2007 以降のバージョンの XLSX ファイルを開くには、**[ワークブック](https://reference.aspose.com/cells/java/com.aspose.cells/Workbook)**テンプレート ファイルのパスまたはストリームを持つインスタンス。または、**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**クラスを選択し、**[XLSX](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#XLSX)**の値**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**列挙。
 
@@ -82,11 +82,11 @@ Microsoft Excel 2007 以降のバージョンの XLSX ファイルを開くに�
 
 ### **異なる形式のファイルを開く**
 
-Aspose.Cells を使用すると、開発者は SpreadsheetML、CSV、タブ区切りファイルなどのさまざまな形式のスプレッドシート ファイルを開くことができます。このようなファイルを開くために、開発者は異なる Microsoft Excel バージョンのファイルを開く場合と同じ方法を使用できます。
+Aspose.Cells を使用すると、開発者は、SpreadsheetML、CSV、タブ区切りファイルなど、さまざまな形式のスプレッドシート ファイルを開くことができます。このようなファイルを開くために、開発者は、異なる Microsoft Excel バージョンのファイルを開く場合と同じ方法を使用できます。
 
 ### **SpreadsheetML ファイルを開く**
 
-SpreadsheetML ファイルは、書式設定、数式など、スプレッドシートに関するすべての情報を含むスプレッドシートの XML 表現です。
+SpreadsheetML ファイルは、書式設定、数式など、スプレッドシートに関するすべての情報を含む、スプレッドシートの XML 表現です。
 
 SpreadsheetML ファイルを開くには、**[LoadOptions](https://reference.aspose.com/cells/java/com.aspose.cells/LoadOptions)**クラスを選択し、**[SPREADSHEET_ML](https://reference.aspose.com/cells/java/com.aspose.cells/loadformat#SPREADSHEET_ML)**の値**[LoadFormat](https://reference.aspose.com/cells/java/com.aspose.cells/LoadFormat)**列挙。
 
@@ -104,7 +104,7 @@ CSV ファイルを開くには、**[LoadOptions](https://reference.aspose.com/c
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-loading_saving-OpeningCSVFiles-OpeningCSVFiles.java" >}}
 
-### **CSV ファイルを開き、無効な文字を置き換える**
+### **CSV ファイルを開いて無効な文字を置き換える**
 
 Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動的に置き換えられます。以下のコード例で示されている Aspose.Cells API でも同じことが行われます。
 
@@ -114,7 +114,7 @@ Excel で、特殊文字を含む CSV ファイルを開くと、文字が自動
 
 ### **優先パーサーを使用して CSV ファイルを開く**
 
-これは、CSV ファイルを開くためにデフォルトのパーサー設定を使用するために常に必要なわけではありません。 CSV ファイルをインポートしても、日付形式が期待どおりでなかったり、空のフィールドが別の方法で処理されたりするなど、予期した出力が作成されないことがあります。この目的のために**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**要件に応じてさまざまなデータ型を解析するための独自の優先パーサーを提供することができます。次のサンプル コードは、優先パーサーの使用方法を示しています。
+これは、CSV ファイルを開くためにデフォルトのパーサー設定を使用するために常に必要なわけではありません。 CSV ファイルをインポートしても、日付形式が期待どおりでない、または空のフィールドが異なる方法で処理されるなど、期待される出力が作成されないことがあります。この目的のために**[TxtLoadOptions.PreferredParsers](https://reference.aspose.com/cells/java/com.aspose.cells/txtloadoptions#PreferredParsers)**要件に応じてさまざまなデータ型を解析するための独自の優先パーサーを提供することができます。次のサンプル コードは、優先パーサーの使用方法を示しています。
 
 この機能をテストするためのサンプル ソース ファイルと出力ファイルは、次のリンクからダウンロードできます。
 
@@ -154,7 +154,7 @@ Aspose.Cells は、パスワードで保護された MS Excel 2013 ファイル�
 
 ### **SXC ファイルを開く**
 
-StarOffice Calc は Microsoft Excel に似ており、数式、チャート、関数、およびマクロをサポートしています。このソフトウェアで作成されたスプレッドシートは、SXC 拡張子で保存されます。 SXC ファイルは、OpenOffice.org Calc スプレッドシート ファイルにも使用されます。 Aspose.Cells は、次のコード サンプルで示されているように、SXC ファイルを読み取ることができます。
+StarOffice Calc は Microsoft Excel に似ており、数式、チャート、関数、およびマクロをサポートしています。このソフトウェアで作成されたスプレッドシートは、拡張子 SXC で保存されます。 SXC ファイルは、OpenOffice.org Calc スプレッドシート ファイルにも使用されます。次のコード サンプルで示すように、Aspose.Cells は SXC ファイルを読み取ることができます。
 
 #### **例**
 
@@ -162,7 +162,7 @@ StarOffice Calc は Microsoft Excel に似ており、数式、チャート、�
 
 ### **FODS ファイルを開く**
 
-FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプレッドシートです。 Aspose.Cells は、次のコード サンプルで示されているように、FODS ファイルを読み取ることができます。
+FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプレッドシートです。次のコード サンプルで示すように、Aspose.Cells は FODS ファイルを読み取ることができます。
 
 #### **例**
 
@@ -172,11 +172,11 @@ FODS ファイルは、圧縮せずに OpenDocument XML で保存されたスプ
 - [ワークブックの読み込み中に定義された名前をフィルター処理する](/cells/ja/java/filter-defined-names-while-loading-workbook/)
 - [ワークブックまたはワークシートの読み込み中にオブジェクトをフィルタリングする](/cells/ja/java/filter-objects-while-loading-workbook-or-worksheet/)
 - [Excel ファイルの読み込み中に警告を受け取る](/cells/ja/java/get-warnings-while-loading-excel-file/)
-- [スプレッドシートを CSV 形式にエクスポートする際に空白行の区切り記号を保持する](/cells/ja/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
+- [スプレッドシートを CSV 形式にエクスポートする際に、空白行の区切り記号を保持する](/cells/ja/java/keep-separators-for-blank-rows-while-exporting-spreadsheets-to-csv-format/)
 - [指定したプリンター用紙サイズのワークブックを読み込む](/cells/ja/java/load-workbook-with-specified-printer-paper-size/)
 - [異なる Microsoft Excel バージョンのファイルを開く](/cells/ja/java/opening-different-microsoft-excel-versions-files/)
 - [大規模なデータセットを含む大きなファイルを操作する際のメモリ使用量の最適化](/cells/ja/java/optimizing-memory-usage-while-working-with-big-files-having-large-datasets/)
-- [Aspose.Cells を使用して Apple Inc. が開発した数値スプレッドシートを読む](/cells/ja/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
-- [複数のエンコーディングを含む CSV ファイルの読み取り](/cells/ja/java/reading-csv-file-with-multiple-encodings/)
+- [読み取り Numbers スプレッドシート Apple Inc. が Aspose.Cells を使用して開発](/cells/ja/java/read-numbers-spreadsheet-developed-by-apple-inc-using-aspose-cells/)
+- [複数のエンコーディングを持つ CSV ファイルの読み取り](/cells/ja/java/reading-csv-file-with-multiple-encodings/)
 - [時間がかかりすぎる場合は、InterruptMonitor を使用して変換またはロードを停止します](/cells/ja/java/stop-conversion-or-loading-using-interruptmonitor-when-it-is-taking-too-long/)
 - [LightCells の使用 API](/cells/ja/java/using-lightcells-api/)

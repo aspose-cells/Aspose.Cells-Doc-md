@@ -20,7 +20,7 @@ Aspose.Cells for Reporting Services与其他同类产品的区别总结如下。
 |数据透视表、交互式图表、VBA 和宏。|是的|是的|不|
 | Reporting Services 参数作为报表数据源。|是的|是的|是的|
 | Reporting Services 全局变量作为报表数据源。|是的|是的|是的|
-| Reporting Services 公式作为报表数据源。|是的|是的|是的|
+|Reporting Services 公式作为报表数据源。|是的|是的|是的|
 |在设计时指定表格的行组和页脚。|是的|不|是的|
 |动态公式|是（通过特殊的智能标记实现）。|不|不|
 |报表参数配置。|是的|不|是的|

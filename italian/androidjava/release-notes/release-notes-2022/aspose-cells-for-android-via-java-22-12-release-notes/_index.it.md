@@ -10,55 +10,55 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44890|supporta il file di importazione con openpassword per GridWeb|
 |CELLSJAVA-43645|L'attributo "formato 3D" del rettangolo non viene visualizzato correttamente|
-|CELLSJAVA-44936|Imposta le impostazioni DPI dell'immagine del grafico (PNG).|
+|CELLSJAVA-44936|Imposta immagine grafico (PNG) Impostazioni DPI|
 |CELLSJAVA-44937|Imposta le impostazioni DPI dell'immagine del grafico (JPG).|
 |CELLSJAVA-44998|Le virgolette doppie che causano lo stile in linea non sono riuscite in HTML|
 |CELLSJAVA-44884| I numeri di elenco non sono corretti dopo la conversione da XLSX a HTML o PDF|
-|CELLSJAVA-44883|La cartella di lavoro contenente la tabella pivot viene danneggiata dopo l'elaborazione della tabella pivot al suo interno|
+|CELLSJAVA-44883| La cartella di lavoro contenente la tabella pivot viene danneggiata dopo l'elaborazione della tabella pivot al suo interno|
 |CELLSJAVA-44879|Il risultato formattato per GridWeb era diverso da Cell.DisplayStringValue|
 |CELLSJAVA-44327|Bordi e meno linee mostrate nelle fette di torta in bianco e nero nel grafico per il rendering dell'immagine|
-|CELLSJAVA-44853|I dati sull'angolo dell'asse x non sono gli stessi di Excel nel grafico per il rendering dell'immagine|
+|CELLSJAVA-44853|dati sull'angolo dell'asse x non sono gli stessi di Excel nel grafico per il rendering dell'immagine|
 |CELLSJAVA-44854|I dati sul passaggio dell'asse y non sono gli stessi di Excel nel rendering da grafico a immagine|
 |CELLSJAVA-44904|Problemi durante il rendering dei grafici Excel nella conversione JPG|
 |CELLSJAVA-44850|Importando un file XLT, il testo non viene visualizzato completamente utilizzando le demo più recenti con l'ultima versione Aspose.Cells.GridWeb con i file di risorse più recenti|
 |CELLSJAVA-44857|Quando si utilizza la versione Aspose.Cells.GridWeb for Java v22.8 con i file di risorse più recenti per aprire un documento Excel, l'effetto delle celle è diverso dal documento originale|
-|CELLSJAVA-44903|La resa SVG non funziona come previsto|
+|CELLSJAVA-44903|SVG resa non funziona come previsto|
 |CELLSJAVA-44909| Quando più righe sono in grassetto, sembra che trabocchi inutilmente sulle altre righe|
-|CELLSJAVA-44888|"+" e "-" sono scomparsi dopo la conversione: rendering da Excel a HTML|
+|CELLSJAVA-44888|"+" e "-" sono scomparsi dopo la conversione - Rendering da Excel a HTML|
 |CELLSJAVA-44775|Etichette del grafico sovrapposte nel rendering del grafico all'immagine|
 |CELLSJAVA-44882|Rendering dal grafico all'immagine: una delle etichette si trova all'interno del grafico ad anello|
-|CELLSJAVA-44943|Da XLSX a PDF: le etichette dei grafici non sono visualizzate correttamente|
+|CELLSJAVA-44943|Da XLSX a PDF: il rendering delle etichette del grafico non è corretto|
 |CELLSJAVA-44928|Da XLS a PDF: dati insufficienti per un'immagine|
 |CELLSJAVA-44910|Converti Excel in HTML produce migliaia di piccole immagini simili|
 |CELLSJAVA-44944|Il ridimensionamento delle tabelle modifica la formattazione delle celle|
-|CELLSJAVA-44948| Le immagini non possono essere visualizzate nel foglio durante la conversione da HTML a Excel|
+|CELLSJAVA-44948| Le immagini non possono essere visualizzate nel foglio durante la conversione di HTML in Excel|
 |CELLSJAVA-44970|Ottimizza l'effetto ombra|
 |CELLSJAVA-44967|Grafico getDataLabels().getText() che restituisce un valore diverso nella versione 22.6.0 e successive|
 |CELLSJAVA-44969|Converti Excel in HTML, le etichette dati visualizzano errori|
-|CELLSJAVA-44949|La trasparenza è cambiata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva di PowerPoint|
+|CELLSJAVA-44949|Trasparenza modificata quando si inserisce l'intervallo di Excel come immagine con formato diverso nella diapositiva PowerPoint|
 |CELLSJAVA-44985|Conversione da Excel a HTML: la legenda del grafico non viene visualizzata e l'area del tracciato viene troncata|
 |CELLSJAVA-44952|Problema con il metodo DataBar.toImage relativo alla larghezza|
-|CELLSJAVA-44986|Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
+|CELLSJAVA-44986| Le immagini importate non sono allineate in linea quando le immagini sono in formato Div|
 |CELLSJAVA-44987|Alcune immagini sono coperte da altre durante il caricamento dell'html|
 |CELLSJAVA-44988|Il testo non viene ruotato durante il caricamento di html|
 |CELLSJAVA-44989|Le impostazioni dei caratteri in div vengono perse durante il caricamento di html|
 |CELLSJAVA-44997|Dati e formattazioni persi nella conversione da HTML a Excel|
-|CELLSJAVA-44999| Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
+|CELLSJAVA-44999|Aspose.Cells Le impostazioni di globalizzazione personalizzate non funzionano per la maggior parte della tabella pivot|
 |CELLSJAVA-44898|La lettura da GZIPInputStream a volte genera un falso errore "File danneggiato" nelle versioni 22.7 e successive|
 |CELLSJAVA-44881|Eccezione "java.lang.ArrayIndexOutOfBoundsException: 15070" durante il caricamento di un file XLS|
-|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante il caricamento di file XLSB di grandi dimensioni|
+|CELLSJAVA-44908|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante il caricamento di file XLSB di grandi dimensioni|
 |CELLSJAVA-44929|Regressione: "java.lang.NullPointerException" su Workbook.calculateFormula()|
-|CELLSJAVA-44927|Eccezione "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" durante la conversione di file Excel in HTML|
+|CELLSJAVA-44927|Eccezione "java.lang.IndexOutOfBoundsException: Index: 5, Size: 5" durante la conversione del file Excel in HTML|
 |CELLSJAVA-44939|Errore "java.lang.StringIndexOutOfBoundsException: Indice stringa fuori intervallo: 0" durante il tentativo di leggere un file Excel|
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Modificato il limite di spostamento delle celle fuori dal foglio per l'inserimento di righe**
 

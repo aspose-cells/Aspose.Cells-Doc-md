@@ -13,12 +13,12 @@ url: /es/net/aspose-cells-for-net-22-12-release-notes/
 |**Llave**|**Resumen**|**Categoría**|
 |:- |:- |:- |
 |CELLSNET-42315|Compatibilidad con archivos crtx: aplicación de plantillas de gráficos personalizadas|
-|CELLSNET-47895|Las imágenes están distorsionadas en la representación de Excel a PDF/HTML|
+|CELLSNET-47895|Las imágenes están distorsionadas en Excel a la representación PDF/HTML|
 |CELLSNET-47946|El efecto de rotación de imagen no se muestra correctamente en pdf/html|
 |CELLSNET-47947|El efecto de rotación de caja rectangular en el grupo de gráficos no se muestra correctamente en pdf/html|
-|CELLSNET-52126|Algunas formas se cambian después de convertir un archivo de Excel a PDF|
-|CELLSNET-52197|Los cuadros cambiaron al convertir un documento XLSX a PDF|
-|CELLSNET-52330|Las formas de dibujo no se representan bien en HTML|
+|CELLSNET-52126|Algunas formas se cambian después de convertir el archivo de Excel a PDF|
+|CELLSNET-52197|Las casillas cambiaron al convertir el documento XLSX a PDF|
+|CELLSNET-52330|Formas de dibujo no renderizadas bien en HTML|
 |CELLSNET-50042| El nombre definido se cambia después de volver a guardar|
 |CELLSNET-52270|La función YEARFRAC no se calcula correctamente|
 |CELLSNET-52305|MMULT con OFFSET no se calcula correctamente|
@@ -26,18 +26,18 @@ url: /es/net/aspose-cells-for-net-22-12-release-notes/
 |CELLSNET-52325| Workbook.CalculateFormula se cuelga en algunas circunstancias|
 |CELLSNET-52387|Cell las referencias a tablas dan como resultado errores #REF después de eliminar columnas|
 |CELLSNET-52290|El eje de los gráficos no se captura correctamente|
-|CELLSNET-52301|Gráfico XLSX a imagen: las barras de gráficos combinados personalizados se representan incorrectamente|
-|CELLSNET-52336|El gráfico de histograma no se representa correctamente en la conversión de XLSX a HTML/PDF|
-|CELLSNET-52292|El texto se muestra en la página incorrecta en el PDF de salida: conversión de Excel a PDF|
-|CELLSNET-52367|AutofitRows da como resultado texto recortado en la salida de conversión de PDF|
+|CELLSNET-52301|XLSX Gráfico a imagen: barras de gráficos combinados personalizadas representadas incorrectamente|
+|CELLSNET-52336|El gráfico de histograma no se representa correctamente en la conversión XLSX a HTML/PDF|
+|CELLSNET-52292|El texto se muestra en la página incorrecta en la salida PDF - Conversión de Excel a PDF|
+|CELLSNET-52367|AutofitRows da como resultado texto recortado en la salida de conversión PDF|
 |CELLSNET-52242|La jerarquía padre-hijo es incorrecta al convertir Excel a JSON y viceversa|
 |CELLSNET-52281|El encabezado Json no se puede ignorar|
 |CELLSNET-52289|El formato de número se pierde al convertir html a excel|
 |CELLSNET-52298|La opción AutoSort está habilitada para el campo dinámico al volver a guardar XLSX|
 |CELLSNET-52299| El atributo HasRevisions es incorrecto después de guardar un libro de trabajo|
-|CELLSNET-52332|Los números se muestran como '#' o número científico durante la conversión a html|
-|CELLSNET-52338| El HTML de salida no es determinista.|
-|CELLSNET-52344|Faltan hipervínculos en la conversión de HTML a JSON|
+|CELLSNET-52332|Numbers se muestran como '#' o número científico al convertir a html|
+|CELLSNET-52338| La salida HTML no es determinista|
+|CELLSNET-52344|Faltan hipervínculos en la conversión HTML a JSON|
 
 ## **Public API y cambios incompatibles con versiones anteriores**
 

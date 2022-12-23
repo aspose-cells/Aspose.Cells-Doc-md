@@ -21,14 +21,14 @@ url: /es/php-java/aspose-cells-for-php-via-java-21-6-release-notes/
 |CELLSJAVA-43491|El valor de la fórmula que utiliza la tabla de datos no se puede extraer correctamente|
 |CELLSJAVA-43498|El resultado formateado del valor numérico es incorrecto para la configuración regional zh_CN|
 |CELLSJAVA-43451|El contenido del archivo de Excel se muestra incorrectamente y la demostración de ChangeStyle (primavera) no funciona correctamente|
-|CELLSJAVA-43484|El diseño del contenido es inconsistente en la representación de Excel a PDF|
+|CELLSJAVA-43484|El diseño del contenido es inconsistente en Excel con la representación PDF|
 |CELLSJAVA-43465|Faltan algunas series de gráficos al convertir Excel a PDF|
-|CELLSJAVA-43468|Problema con la ecuación de la línea recta en la representación de Excel a PDF|
+|CELLSJAVA-43468|Problema con la ecuación de la línea recta en Excel para la representación PDF|
 |CELLSJAVA-43432|El contenido del gráfico no coincide al volver a guardar un formato de archivo XLS|
 |CELLSJAVA-43475|Regresión: las celdas envueltas en línea se cortan|
 |CELLSJAVA-43478|Regresión: NÚMEROS a PDF, faltan muchos datos|
 |CELLSJAVA-43485|Regresión: contenido adicional al renderizar PDF desde ODS|
-|CELLSJAVA-43492| La conversión de un archivo XML (SpreadsheetML) elimina la configuración Oculta en "Definición de nombre" en la salida XLS y XLSX|
+|CELLSJAVA-43492| La conversión de un archivo XML (SpreadsheetML) elimina la configuración oculta en "Definición de nombre" en la salida XLS y XLSX|
 |CELLSJAVA-43486|NullPointerException al convertir un documento HTML en un libro de trabajo|
 
 ## **Public API y cambios incompatibles con versiones anteriores**

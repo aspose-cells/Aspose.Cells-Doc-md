@@ -37,7 +37,7 @@ url: /tr/java/add-and-retrieve-data/
 
  Ayrıca, bir hücrede bulunan veri türü kullanılarak da kontrol edilebilir.[Tip](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) mülkiyeti[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf. Aslında,[Cell](https://reference.aspose.com/cells/java/com.aspose.cells/cell) sınıf'[Tip](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Type) mülkiyet dayanmaktadır[Hücre Değeri Türü](https://reference.aspose.com/cells/java/com.aspose.cells/CellValueType)önceden tanımlanmış değerleri aşağıda listelenen numaralandırma:
 
-|**Cell Değer Türleri**|**Tanım**|
+|**Cell Değer Türleri**|**Açıklama**|
 |:- |:- |
 |[IS_BOOL](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_BOOL)|Hücre değerinin Boolean olduğunu belirtir.|
 |[DIR-DİR_TARİH_ZAMAN](https://reference.aspose.com/cells/java/com.aspose.cells/cellvaluetype#IS_DATE_TIME)|Hücre değerinin tarih/saat olduğunu belirtir.|

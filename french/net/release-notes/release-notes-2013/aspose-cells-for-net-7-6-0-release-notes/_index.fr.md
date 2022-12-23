@@ -20,11 +20,11 @@ url: /fr/net/aspose-cells-for-net-7-6-0-release-notes/
 
  Performance
 
- Exceptions
+ Des exceptions
 
  42003 - Problème d'actualisation des tableaux croisés dynamiques
 
- 42050 - CellsException :
+42050 - CellsException :
 
  41956 - Exception lors de l'ouverture du fichier modèle
 
@@ -40,7 +40,7 @@ url: /fr/net/aspose-cells-for-net-7-6-0-release-notes/
 
  42012 - Problème de calcul de formule
 
-41997 - Problème d'affichage des polices japonaises
+ 41997 - Problème d'affichage des polices japonaises
 
  \2) Aspose.Cells.GridWeb
 

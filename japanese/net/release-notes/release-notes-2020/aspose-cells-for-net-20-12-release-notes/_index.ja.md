@@ -13,17 +13,17 @@ url: /ja/net/aspose-cells-for-net-20-12-release-notes/
 |**鍵**|**概要**|**カテゴリー**|
 |:- |:- |:- |
 |CELLSNET-47309|ASPOSE で保存した後、IFS 数式が中かっこで囲まれている|新機能|
-|CELLSNET-47710|Sheet() 関数で式をサポート|新機能|
-|CELLSNET-47672|HTML への変換時に出力サイズを縮小する|強化|
+|CELLSNET-47710|Sheet() 関数で数式をサポート|新機能|
+|CELLSNET-47672|HTML への変換時に出力サイズを縮小|強化|
 |CELLSNET-47674|テキストが次のセルに重なっている場合に追加の列を表示する|強化|
 |CELLSNET-47749|Workbook.RemoveMacro の ods マクロを削除します|強化|
 |CELLSNET-47759|Cell.HtmlString設定時のh1タグ対応|強化|
 |CELLSNET-47771|新しいワークシートに mc:Ignorable="x14ac xr xr2 xr3" がありません|強化|
-|CELLSNET-47758|複雑な XLSM から HTML への変換には多くの時間がかかります|パフォーマンス|
-|CELLSNET-47578|Cells ドキュメントを HTML に変換する際に、閉じられていない SPAN タグを含む無効なマークアップが生成される|バグ|
+|CELLSNET-47758|コンプレックス XLSM から HTML への変換に時間がかかる|パフォーマンス|
+|CELLSNET-47578|Cells ドキュメントを HTML に変換する際に、未開封の SPAN タグを含む無効なマークアップが生成される|バグ|
 |CELLSNET-47776|HTML を開こうとしているときに DirectoryNotFoundException が発生する|バグ|
-|CELLSNET-47643|Excel から HTML へのレンダリングでの新しい出力のいくつかの余分な列|バグ|
-|CELLSNET-47688|一部の TD では、HTML から PDF へのレンダリングで Wingdings フォントのフォント エラーが発生します。|バグ|
+|CELLSNET-47643|HTML レンダリングへの Excel の新しい出力のいくつかの余分な列|バグ|
+|CELLSNET-47688|一部の TD では、HTML から PDF のレンダリングで Wingdings フォントのフォント エラーが発生します。|バグ|
 |CELLSNET-47690|Html から Xlsx への変換で、html テーブルのスタイルが考慮されない|バグ|
 |CELLSNET-47718|ファイルを html にインポートするときに画像が正しく配置されない|バグ|
 |CELLSNET-47729|HTMLをExcelにインポートすると、画像がテキストに重なる|バグ|
@@ -33,9 +33,9 @@ url: /ja/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47731|不正な PPMT 式の実行結果|バグ|
 |CELLSNET-47734|列を挿入して数式を変更すると、他の数式が削除される|バグ|
 |CELLSNET-47738|オートフィルターが Excel のように機能しない|バグ|
-|CELLSNET-47764|XLSX から CSV への変換中に指数に変換された数値|バグ|
+|CELLSNET-47764|XLSX から CSV への変換時に指数に変換される数値|バグ|
 |CELLSNET-47740|行の自動調整時にカスタム フォントでテキストが切り取られる (最初の行が表示されない)|バグ|
-|CELLSNET-47753|Excel を PDF に変換する際のアイコンの周りに枠を付ける|バグ|
+|CELLSNET-47753|Excel を PDF に変換するときのアイコンの周りの境界線|バグ|
 |CELLSNETCORE-88|SetFontFolders がデータ系列ラベルで正しく機能しない|バグ|
 |CELLSNET-47739|凡例には、ラベル テキストの代わりにシリーズの名前が表示されます|バグ|
 |CELLSNET-47713|Excel ファイルに「非表示の名前の定義」が存在する場合のシートのコピーに関する問題|バグ|
@@ -48,9 +48,9 @@ url: /ja/net/aspose-cells-for-net-20-12-release-notes/
 |CELLSNET-47711|ODS ファイルを開くときの例外|例外|
 |CELLSNET-47712|添付文書を読み込もうとすると例外がスローされる|例外|
 |CELLSNET-47715|Xltx ファイルを読み込めません|例外|
-|CELLSNET-47735|XLSB を開くときの例外|例外|
+|CELLSNET-47735|XLSBを開くときの例外|例外|
 |CELLSNET-47741|DeleteBlankColumns を呼び出すとき、列インデックスはピボットテーブル レポートの例外内にあってはなりません|例外|
-|CELLSNET-47750|XLSX を開けません|例外|
+|CELLSNET-47750|開けません XLSX|例外|
 |CELLSNET-47751|XLSX を XLSM に変換できません|例外|
 |CELLSNET-47773|ワークシートを画像に変換するときの ArgumentOutOfRangeException|例外|
 |

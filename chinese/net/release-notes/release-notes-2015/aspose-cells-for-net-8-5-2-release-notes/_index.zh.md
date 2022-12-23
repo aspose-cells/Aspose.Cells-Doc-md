@@ -19,7 +19,7 @@ url: /zh/net/aspose-cells-for-net-8-5-2-release-notes/
 
 ## **其他改进和变化**
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-43758) - 渲染到图形上下文
@@ -52,7 +52,7 @@ url: /zh/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43806) - XY 散点图的绘图/曲线不同。
 
- (CELLSNET-43805) - 电子表格到 PDF 的转换：粗体样式丢失
+(CELLSNET-43805) - 电子表格到 PDF 的转换：粗体样式丢失
 
 (CELLSNET-43804) - 电子表格到 PDF 的转换：TextBox 中的内容呈现缩进
 
@@ -60,9 +60,9 @@ url: /zh/net/aspose-cells-for-net-8-5-2-release-notes/
 
 (CELLSNET-43772) - 绘图形状中的文本未正确换行
 
-(CELLSNET-43771) - 在将电子表格呈现为 PDF 后图片已移位
+(CELLSNET-43771) - 在将电子表格渲染到 PDF 后图片已经移位
 
-(CELLSNET-43748) - TextBox 文本在 Excel 中重叠为 PDF 渲染
+(CELLSNET-43748) - TextBox 文本在 Excel 中重叠到 PDF 呈现
 
 (CELLSNET-43820) - 包含切片器的电子表格在重新保存后损坏
 
@@ -103,7 +103,7 @@ url: /zh/net/aspose-cells-for-net-8-5-2-release-notes/
 \2) Aspose.Cells 网格套件
 
 
-## **新的功能**
+## **新功能**
 
 
  (CELLSNET-43809) - 为 griddesktop 添加异步回调事件

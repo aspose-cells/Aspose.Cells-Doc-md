@@ -7,7 +7,7 @@ url: /it/java/page-setup-fit-to-page-setting/
 ## **Aspose.Cells - Imposta pagina - Adatta alla pagina**
 Per adattare il contenuto del foglio di lavoro a un numero specifico di pagine, utilizzare il file[Impostazione della pagina](/cells/it/java/page-setup-fit-to-page-setting/)class' setFitToPagesTall e setFitToPagesWide. Questi metodi vengono utilizzati anche per ridimensionare i fogli di lavoro.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 
@@ -39,7 +39,7 @@ pageSetup.setFitToPagesWide(1);
 ## **Apache POI SS - HSSF e XSSF - Imposta pagina - Adatta alla pagina**
 Apache POI SS utilizza i metodi setFitHeight e setFitWidth per adattare le impostazioni alla pagina.
 
-**Giava**
+**Java**
 
 {{< highlight "java" >}}
 

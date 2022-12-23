@@ -15,7 +15,7 @@ Nous sommes
 
 \1) Aspose.Cells 
 
- Exceptions
+ Des exceptions
 
 - Fichiers corrompus avec la nouvelle version Aspose.Cells
 - Obtention d'une erreur lors de l'enregistrement du fichier Excel
@@ -38,9 +38,9 @@ Nous sommes
 - Définir les problèmes de couleur de dégradé
 - Enregistrement du fichier MHT, la lecture en Aspose.Cells est un problème
 - Certaines mises en forme conditionnelles ne sont pas rendues correctement
-- Mauvais positionnement du texte dans un PDF avec des polices de tailles mixtes
-- L'exportation au format PDF à partir d'un fichier Excel modifie les formules
-- Problèmes de rendu des feuilles de calcul et des PDF
+- Mauvais positionnement du texte dans PDF avec des polices de tailles mixtes
+- L'exportation vers PDF à partir d'un fichier Excel modifie les formules
+- Feuille de calcul et problèmes de rendu PDF
 - Problème avec les colonnes d'ajustement automatique
 - Problèmes liés au thème des tableaux croisés dynamiques
 - L'actualisation du tableau croisé dynamique échoue
@@ -67,7 +67,7 @@ Nous sommes
 
 
 Nouveau
-Fonctionnalités
+ Caractéristiques
 
 - GridDesktop Scrollbars - Comment afficher/masquer les barres de défilement verticales et horizontales
 - Insérer un ou plusieurs événements de ligne/colonne

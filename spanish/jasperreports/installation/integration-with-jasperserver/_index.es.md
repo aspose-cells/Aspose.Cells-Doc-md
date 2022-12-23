@@ -81,8 +81,8 @@ Para integrar Aspose.Cells for JasperReports con JasperServer, realice los pasos
 
 
 
-1.  Copie todas las imágenes GIF del**\lib** carpeta en el**aspose.cells.jasperreports.zip** hacia*<dirección de instalación>\apache-tomcat\webapps\jasperserver\images* carpeta.
-1.  Copia el**aspose.cells.jasperreports.jar** archivo de la**\lib** carpeta en el**aspose.cells.jasperreports.zip** hacia**<Dir de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** carpeta.
+1.  Copie todas las imágenes GIF del**\lib** carpeta en el**aspose.cells.jasperreports.zip** al*<dirección de instalación>\apache-tomcat\webapps\jasperserver\images* carpeta.
+1.  Copia el**aspose.cells.jasperreports.jar** archivo de la**\lib** carpeta en el**aspose.cells.jasperreports.zip** al**<Dir de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF\lib\.** carpeta.
 1.  Agregue las siguientes líneas al**<Dir de instalación>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** expediente.
  (Este bean puede contener varios ajustes de configuración destinados a configurar la exportación. Por ejemplo, puede usar la función de asignación de fuentes de JasperReports o especificar la ubicación del archivo de licencia Aspose.Cells for JasperReports).
 

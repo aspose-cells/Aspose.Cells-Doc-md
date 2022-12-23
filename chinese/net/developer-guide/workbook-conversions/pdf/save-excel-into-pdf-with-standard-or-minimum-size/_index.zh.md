@@ -1,5 +1,5 @@
 ﻿---
-title: 以标准或最小尺寸将 Excel 保存为 PDF
+title: 使用标准或最小尺寸将 Excel 保存到 PDF
 type: docs
 weight: 340
 url: /zh/net/save-excel-into-pdf-with-standard-or-minimum-size/
@@ -12,8 +12,8 @@ url: /zh/net/save-excel-into-pdf-with-standard-or-minimum-size/
 - PdfOptimizationType.MinimumSize
 
 {{% /alert %}} 
-## **使用 Aspose.Cells 将 Excel 保存为标准或最小尺寸的 PDF**
-以下示例代码显示了如何使用标准或最小尺寸将 Excel 保存为 PDF[PdfSaveOptions.优化类型](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)财产。
+## **使用 Aspose.Cells 以标准或最小大小将 Excel 保存到 PDF**
+以下示例代码显示了如何使用标准或最小大小将 Excel 保存到 PDF[PdfSaveOptions.优化类型](https://reference.aspose.com/cells/net/aspose.cells/pdfsaveoptions/properties/optimizationtype)财产。
 
 
 

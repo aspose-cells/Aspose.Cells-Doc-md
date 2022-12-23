@@ -4,7 +4,7 @@ type: docs
 weight: 30
 url: /zh/net/find-and-replace-in-spreadsheet/
 ---
-![待办事项：图像_替代_文本](Find_and_Replace.png)
+![待办事项：图片_替代_文本](Find_and_Replace.png)
 
 当我们点击查找按钮时，下面是代码：
 

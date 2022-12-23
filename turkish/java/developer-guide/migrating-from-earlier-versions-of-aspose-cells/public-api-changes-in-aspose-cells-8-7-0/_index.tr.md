@@ -10,8 +10,8 @@ Bu belge, modül/uygulama geliştiricilerinin ilgisini çekebilecek 8.6.3 sürü
 
 {{% /alert %}} 
 ## **Eklenen API'ler**
-### **PDF Optimizasyonu Desteği**
- Aspose.Cells API'ler, elektronik tabloları PDF'ye dönüştürme özelliğini zaten sağlıyor. API'in bu sürümüyle, kullanıcılar artık[ortaya çıkan PDF boyutunu optimize edin](/cells/tr/java/save-excel-into-pdf-with-standard-or-minimum-size/)ilave olarak. Aspose.Cells for Java 8.7.0, elektronik tabloları PDF formatına dışa aktarırken kullanıcıların istenen optimizasyon algoritmasını seçmesini kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğinin yanı sıra PdfOptimizationType numaralandırmasını kullanıma sundu. PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
+### **PDF Optimizasyon Desteği**
+ Aspose.Cells API'leri zaten e-tabloları PDF'e dönüştürme özelliğini sağlıyor. API'in bu sürümüyle, kullanıcılar artık[ortaya çıkan PDF boyutunu optimize edin](/cells/tr/java/save-excel-into-pdf-with-standard-or-minimum-size/)ilave olarak. Aspose.Cells for Java 8.7.0, elektronik tabloları PDF biçimine dışa aktarırken kullanıcıların istenen optimizasyon algoritmasını seçmesini kolaylaştırmak için PdfSaveOptions.OptimizationType özelliğinin yanı sıra PdfOptimizationType numaralandırmasını kullanıma sundu. PdfSaveOptions.OptimizationType özelliği için aşağıda ayrıntıları verilen 2 olası değer vardır.
 
 1. PdfOptimizationType.MINIMUM_SIZE: Ortaya çıkan dosya boyutu için kaliteden ödün verilir.
 1. PdfOptimizationType.STANDARD: Kaliteden ödün verilmez, bu nedenle ortaya çıkan dosya boyutu büyük olur.
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **Özellik TxtLoadOptions.HasFormula Eklendi**
- Aspose.Cells for Java 8.7.0 desteği sağladı[Sınırlandırılmış düz verilere sahip CSV/TXT dosyalarını yüklerken formülleri tanımlayın ve ayrıştırın](/cells/tr/java/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
+ Aspose.Cells for Java 8.7.0 desteği sağladı[sınırlandırılmış düz verilere sahip CSV/TXT dosyaları yüklenirken formülleri tanımlayın ve ayrıştırın](/cells/tr/java/load-or-import-csv-file-with-formulas/). Yeni kullanıma sunulan TxtLoadOptions.HasFormula özelliği true olarak ayarlandığında, API'i formülleri girişle ayrılmış dosyadan ayrıştırmaya ve herhangi bir ek işlem gerektirmeden ilgili hücrelere ayarlamaya yönlendirir.
 
 Basit kullanım senaryosu aşağıdadır.
 
@@ -246,7 +246,7 @@ book.save(outFilePath);
 
 {{< /highlight >}}
 ### **Özellik DataLabels.ResizeShapeToFitText Eklendi**
- Aspose.Cells for Java 8.7.0'ın kullanıma sunduğu diğer bir kullanışlı özellik,[metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/java/resize-chart-s-data-label-shape-to-fit-text/) grafiğin veri etiketleri için Excel uygulamasının özelliği.
+ Aspose.Cells for Java 8.7.0'ın kullanıma sunduğu diğer bir kullanışlı özellik,[metni sığdırmak için şekli yeniden boyutlandırma](/cells/tr/java/resize-chart-s-data-label-shape-to-fit-text/)grafiğin veri etiketleri için Excel uygulamasının özelliği.
 
 Basit kullanım senaryosu aşağıdadır.
 

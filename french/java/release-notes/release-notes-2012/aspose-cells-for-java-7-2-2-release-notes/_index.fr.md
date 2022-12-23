@@ -24,7 +24,7 @@ Nous sommes
 - Prend en charge ExportObjectListener pour enregistrer les fichiers HTML
 - Copier la mise en forme conditionnelle lors de la copie de lignes
 
- Exceptions
+ Des exceptions
 
 - Picture.isPrintable() pour Picture inPageSetup provoque NullPointerException
 - L'enregistrement d'un classeur chiffré avec un tableau croisé dynamique provoque une exception java.lang.NegativeArraySizeException
@@ -33,8 +33,8 @@ Nous sommes
 
 - Cells.importCustomObjects() avec le format DateTime spécifié ne fonctionne pas
 - Mauvais type de graphique du graphique en nuage de points
-- La double valeur perd en précision lors de la lecture à partir du fichier de modèle CSV
+- La double valeur perd en précision lors de la lecture du fichier de modèle CSV
 - La série de graphiques est inversée lors de sa conversion en image
 - Le fichier XLSX réenregistré provoque l'erreur "Excelfound unreadable content…"
 - Le tableau croisé dynamique enregistré a causé "ProtectionView" lors de son ouverture dans MS Excel
-- Utilisation de la validation de liste par Aspose.Cellscreates un fichier XLS qui ne fonctionne pas après avoir modifié le séparateur de listes du système
+- Utilisation de la validation de liste par Aspose.Cellscreates un fichier XLS qui ne fonctionne pas après la modification du séparateur de listes du système

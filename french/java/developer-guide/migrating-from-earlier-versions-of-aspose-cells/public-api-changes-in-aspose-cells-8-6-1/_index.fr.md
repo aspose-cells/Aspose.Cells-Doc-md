@@ -11,7 +11,7 @@ Ce document décrit les modifications apportées au Aspose.Cells API de la versi
 {{% /alert %}} 
 ## **API ajoutées**
 ### **Prise en charge du type de cible de lien HTML**
-Cette version de Aspose.Cells for Java API a exposé une énumération à savoir HtmlLinkTargetType avec une nouvelle propriété HtmlSaveOptions.LinkTargetType qui, ensemble, permet de[définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML](/cells/fr/java/change-the-html-link-target-type/). Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes, où la valeur par défaut est SELF.
+ Cette version de Aspose.Cells for Java API a exposé une énumération à savoir HtmlLinkTargetType avec une nouvelle propriété HtmlSaveOptions.LinkTargetType qui, ensemble, permet de[définir le type de cible pour les liens dans la feuille de calcul lors de la conversion au format HTML](/cells/fr/java/change-the-html-link-target-type/). Les valeurs possibles de l'énumération HtmlLinkTargetType sont les suivantes, où la valeur par défaut est SELF.
 
 1. HtmlLinkTargetType.BLANK : ouvre le document/la page liés dans une nouvelle fenêtre ou un nouvel onglet.
 1. HtmlLinkTargetType.PARENT : Ouvre le document/la page liés dans le cadre parent.
@@ -125,7 +125,7 @@ cell.setCharacters(settings);
 
 {{< /highlight >}}
 ### **Propriété VbaProject.isSigned ajoutée**
- Aspose.Cells for Java 8.6.1 a exposé la propriété VbaProject.isSigned qui peut être utilisée pour[tester si un VbaProject dans un classeur est signé ou non](/cells/fr/java/check-if-vba-project-in-a-workbook-is-signed/). La propriété de type booléen renvoie true si le projet est signé.
+ Aspose.Cells for Java 8.6.1 a exposé la propriété VbaProject.isSigned qui peut être utilisée pour[tester si un VbaProject dans un classeur est signé ou non](/cells/fr/java/check-if-vba-project-in-a-workbook-is-signed/)La propriété de type booléen renvoie true si le projet est signé.
 
 Voici le scénario d'utilisation simple.
 

@@ -10,15 +10,15 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 
 {{% /alert %}} 
 
-|**Chiave**|**Riepilogo**|**Categoria**|
+|**Chiave**|**Sommario**|**Categoria**|
 |:- |:- |:- |
 |CELLSJAVA-44721|Supporta l'ordinamento di PivotField tramite campo calcolato|
 |CELLSJAVA-44811|Supporto per specificare i fogli da produrre durante l'esportazione in pdf/xps|
-|CELLSJAVA-44194|La forma del disegno non viene visualizzata nel rendering da Excel a PDF|
+|CELLSJAVA-44194|La forma del disegno non viene visualizzata in Excel per il rendering PDF|
 |CELLSJAVA-44733|Esamina le regole di ms excel per visualizzare il bordo della cella quando la colonna adiacente è nascosta: il bordo della cella non è stato sincronizzato|
 |CELLSJAVA-44777|Esporta le formule in html solo in base all'opzione HtmlSaveOptions.Exportformula|
 |CELLSJAVA-44791|Migliora l'analisi della stringa html nella cella|
-|CELLSJAVA-44695| Conversione errata in PDF da XLS con Line Callout a sinistra del foglio|
+|CELLSJAVA-44695| Conversione errata a PDF da XLS con Line Callout a sinistra del foglio|
 |CELLSJAVA-44700|campi calcolati della tabella pivot non vengono aggiornati durante l'aggiornamento dell'origine dati|
 |CELLSJAVA-44705|Cell.getDependents() genera un'eccezione o non può fornire tutti i dipendenti|
 |CELLSJAVA-44717|Problema con lo stile del bordo (linea).|
@@ -43,7 +43,7 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44741|L'interruzione di riga non è corretta nell'output xlsx dopo aver impostato la stringa html nella cella|
 |CELLSJAVA-44776|Lo stile della riga dell'intestazione della tabella viene perso durante la copia del foglio|
 |CELLSJAVA-44789|Problema con la sostituzione della stringa di caratteri della casella di testo inserita nel foglio di calcolo di Excel|
-|CELLSJAVA-44792| Salvataggio infinito della cartella di lavoro in formato HTML (2892)|
+|CELLSJAVA-44792| Salvataggio infinito della cartella di lavoro nel formato HTML (2892)|
 |CELLSJAVA-44864|Il caricamento simultaneo di cartelle di lavoro genera errori "File danneggiato".|
 |CELLSJAVA-44327|Bordi e meno linee mostrate nelle fette di torta in bianco e nero nel grafico per il rendering dell'immagine|
 |CELLSJAVA-44591|La rotazione del testo delle etichette non corrisponde a Excel nell'immagine di output del grafico|
@@ -51,20 +51,20 @@ Questa pagina contiene le note di rilascio per Aspose.Cells for Android via Java
 |CELLSJAVA-44860|la visualizzazione del testo della cella non è la stessa di Excel in alcune aree unite|
 |CELLSJAVA-44832|Vengono emesse più pagine invece di una pagina come in Excel durante la conversione in pdf|
 |CELLSJAVA-44812|Impossibile ridurre l'area del tracciato per il grafico|
-|CELLSJAVA-44831|MS Word richiede un errore "Word ha trovato contenuto illeggibile in..." quando si apre il DOCX convertito dal file XLSX da Aspose.Cells for Java|
+|CELLSJAVA-44831|MS Word richiede un errore "Word ha trovato contenuto illeggibile in..." quando si apre il file DOCX convertito da XLSX da Aspose.Cells for Java|
 |CELLSJAVA-44833|Il colore del testo non viene applicato a parole diverse o parte del contenuto nel file Excel di output quando si utilizza il metodo Cell.setHtmlString()|
 |CELLSJAVA-44852| Il bordo non è corretto quando il file Excel statico viene convertito in HTML|
 |CELLSJAVA-44856| Conversione da Excel a HTML - Sparkline (mini grafico) non viene visualizzato/renderizzato|
 |CELLSJAVA-44859|Alcune formattazioni Html non funzionano per le celle del foglio di lavoro in un file Excel esistente|
-|CELLSJAVA-44725| Eccezione "java.util.zip.ZipException: dimensione voce non valida (previsto 0 ma ottenuto 1053 byte)" durante la conversione di XLSX in PDF|
+|CELLSJAVA-44725| Eccezione "java.util.zip.ZipException: dimensione voce non valida (previsto 0 ma ottenuto 1053 byte)" durante la conversione da XLSX a PDF|
 |CELLSJAVA-44763|Eccezione "java.lang.IllegalArgumentException: impossibile analizzare il numero dell'argomento: 1:X8" durante il caricamento del file Excel utilizzando "org.apache.commons.io.input.AutoCloseInputStream"|
-|CELLSJAVA-44774|Errore durante il salvataggio in formato PDF: è richiesta un'indagine|
-|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java heap space" durante la conversione di un file XLSX in PDF|
+|CELLSJAVA-44774|Errore durante il salvataggio come PDF - È richiesta un'indagine|
+|CELLSJAVA-44842|Eccezione "java.lang.OutOfMemoryError: Java spazio heap" durante la conversione di un file XLSX in PDF|
 
 
-## **API pubblica e modifiche non compatibili con le versioni precedenti**
+## **Pubblico API e modifiche incompatibili con le versioni precedenti**
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. sul forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for Android via Java. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo sul forum di supporto Aspose.Cells.
 
 ### **Aggiunge il metodo Cells.GetDependentsInCalculation(int,int,bool)**
 

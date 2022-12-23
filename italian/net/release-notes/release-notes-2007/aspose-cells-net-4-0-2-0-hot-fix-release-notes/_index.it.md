@@ -18,7 +18,7 @@ url: /it/net/aspose-cells-net-4-0-2-0-hot-fix-release-notes/
  Aggiunto nuovo metodo InsertRows/DeleteRows
  Supporta la creazione di file crittografati basati su file modello crittografati
  Metodo Shaped InsertRange
- Aggiunte nuove demo di grafici C#
+ Aggiunte nuove demo del grafico C#
  Risolto bug durante il caricamento di file con collegamenti ipertestuali UNC
  Risolto bug nella formattazione delle celle con un file Excel creato Aspose in alcuni casi
  Motore di calcolo delle formule sagomate

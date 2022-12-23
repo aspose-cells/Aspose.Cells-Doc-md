@@ -15,7 +15,7 @@ url: /ar/java/reading-and-writing-query-table-of-worksheet/
 
 {{% /alert %}} 
 ## **قراءة وكتابة جدول الاستعلام الخاص بورقة العمل**
- يقرأ نموذج التعليمات البرمجية التالي الأول[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)من ورقة العمل الأولى ثم طباعة ملف[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) الخصائص. ثم يقوم بتعيين ملف[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) إلى**حقيقي**.
+ يقرأ نموذج التعليمات البرمجية التالي الأول[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) من ورقة العمل الأولى ثم طباعة ملف[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable) الخصائص. ثم يقوم بتعيين ملف[QueryTable.PreserveFormatting](https://reference.aspose.com/cells/java/com.aspose.cells/querytable#PreserveFormatting) إلى**حقيقي**.
 
 تُظهر لقطة الشاشة التالية ملف[ملف اكسل المصدر](5472578.xlsx) المستخدمة في الكود وخصائصه تظهر كلا من[الاستعلام](https://reference.aspose.com/cells/java/com.aspose.cells/QueryTable)القيم.
 

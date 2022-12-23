@@ -12,11 +12,11 @@ keywords: apply cell validation in excel with java, apply validation on a cell i
 
 {{% /alert %}}
 
- Aşağıdaki anlık görüntü, aşağıdaki örnek kodda kullanılan örnek Microsoft Excel dosyasını göstermektedir. Cell**C1** sahip olmak**ondalık doğrulama** uygulanır ve yalnızca değer alabilir**10 ile 20 arasında**.
+ Aşağıdaki anlık görüntü, aşağıdaki örnek kodda kullanılan örnek Microsoft Excel dosyasını göstermektedir. Cell**C1** vardır**ondalık doğrulama** uygulanır ve yalnızca değer alabilir**10 ile 20 arasında**.
 
 **Doğrulamalı bir hücre**
 
-![yapılacaklar:resim_alternatif_Metin](get-validation-applied-on-a-cell_1.png)
+![yapılacaklar:resim_alternatif_metin](get-validation-applied-on-a-cell_1.png)
 
 Aşağıdaki örnek kod, C1'e uygulanan doğrulamayı alır ve çeşitli özelliklerini okur.
 

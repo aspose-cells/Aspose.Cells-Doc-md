@@ -37,6 +37,6 @@ Aspose.Cells.GridDesktop kullanarak bir çalışma sayfası eklemek için lütfe
 
 {{% alert color="primary" %}} 
 
-ÖNEMLİ: Microsoft Excel (97-2003 XLS), en fazla 65.536 satır ve 256 sütun içeren Excel sayfalarını destekler. Aspose.Cells.GridDesktop aynı standartları takip eder. Aspose.Cells.GridDesktop denetiminde, geliştiriciler standart sınırdan daha fazla satır ve sütun içeren çalışma sayfaları ekleyebilir veya ekleyebilir, ancak Grid verilerini bir Excel dosyasına kaydetmeye çalıştıklarında bir istisna atılır. Bu, yalnızca 65.536 satır ve 256 sütunda bulunan verilerin bir Excel XLS dosyasına Aspose.Cells.GridDesktop kullanılarak kaydedilebileceği anlamına gelir, XLSX (MS Excel 2007/2010) dosya biçimini kullanıyorsanız, ancak böyle bir sınırlama yoktur.
+ÖNEMLİ: Microsoft Excel (97-2003 XLS), en fazla 65.536 satır ve 256 sütun içeren Excel sayfalarını destekler. Aspose.Cells.GridDesktop aynı standartları takip eder. Aspose.Cells.GridDesktop denetiminde, geliştiriciler standart sınırdan daha fazla satır ve sütun içeren çalışma sayfaları ekleyebilir veya ekleyebilir, ancak Grid verilerini bir Excel dosyasına kaydetmeye çalıştıklarında bir istisna atılır. Bu, Aspose.Cells.GridDesktop kullanılarak bir Excel XLS dosyasına yalnızca 65.536 satır ve 256 sütunda bulunan verilerin kaydedilebileceği anlamına gelir, XLSX (MS Excel 2007/2010) dosya biçimini kullanıyorsanız, ancak böyle bir sınırlama yoktur.
 
 {{% /alert %}}

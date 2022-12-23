@@ -15,7 +15,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for Java 18.11.
 |CELLSJAVA-42738|Aus XLSX wird eine falsche Anzahl von Validierungswerten gelesen|Erweiterung|
 |CELLSJAVA-42734|Problem bei der Behandlung aufeinanderfolgender Trennzeichen als unterschiedlich|Erweiterung|
 |CELLSJAVA-42739|Aspose.Cells.GridWeb (Java) stürzt ab, wenn es gleichzeitig in einer Umgebung mit mehreren Benutzern verwendet wird|Insekt|
-|CELLSJAVA-42737|Bei der XLSX->PNG-Konvertierung fehlt die Diagrammlinie|Insekt|
+|CELLSJAVA-42737|Bei der Konvertierung von XLSX->PNG fehlt die Diagrammlinie|Insekt|
 |CELLSJAVA-42735|Problem mit der getActualChartSize-Methode|Insekt|
 |CELLSJAVA-40861|SmartArt kopiert nicht, wenn die Arbeitsmappe kopiert wird|Insekt|
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -31,7 +31,7 @@ Stellt die Berechnungsdaten zu einer Zelle dar, die berechnet wird.
 ### **Fügt die AbstractCalculationMonitor.OnCircular(IEnumerator kreisförmigeCellsData)-Methode hinzu**
 Bietet dem Benutzer eine Methode zum Sammeln und Verarbeiten von Zirkelverweisen.
 ### **Fügt die Eigenschaft TxtLoadOptions.TreatConsecutiveDelimitersAsOne hinzu**
-Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren einer CSV-Datei als eines verwendet werden sollen.
+Ermöglicht dem Benutzer zu wählen, ob aufeinanderfolgende Trennzeichen beim Importieren der CSV-Datei als eines verwendet werden sollen.
 ### **Fügt die Methode FormatCondition.SetFormulas(string formula1, string formula2, bool isR1C1, bool isLocal) hinzu**
 Bietet dem Benutzer eine effiziente und bequeme Möglichkeit, Formeln für FormatCondition festzulegen.
 ### **Fügt die Methode Validation.GetListValue(int row, int column) hinzu**

@@ -11,7 +11,7 @@ In diesem Artikel wird erläutert, wie Sie Bilder hinzufügen und wie Sie ein Bi
 ## **Bilder hinzufügen**
 
 Das Hinzufügen von Bildern zu einer Tabelle ist sehr einfach. Es dauert nur ein paar Zeilen Code:
- Einfach anrufen[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) Methode der[**Bilder**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) Sammlung (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Objekt). Das[**Hinzufügen**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)Die Methode nimmt die folgenden Parameter an:
+ Einfach anrufen[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index) Methode der[**Bilder**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection) Sammlung (eingekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/net/aspose.cells/worksheet) Objekt). Das[**Addieren**](https://reference.aspose.com/cells/net/aspose.cells.drawing/picturecollection/methods/add/index)Die Methode nimmt die folgenden Parameter an:
 
 - **Zeilenindex oben links**, der Index der oberen linken Zeile.
 - **Spaltenindex oben links**, der Index der oberen linken Spalte.

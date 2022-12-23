@@ -24,9 +24,9 @@ Microsoft Excel 97-2003'te bir stili güncellemek için:
 1.  bölümünden değiştirmek istediğiniz stili seçin.**Stil adı** liste.
 1.  Tıklamak**Değiştir**.
 1. Biçim Cells iletişim kutusundaki sekmeleri kullanarak istediğiniz stil seçeneklerini seçin.
-1.  Tıklamak**TAMAM**.
+1.  Tıklamak**Tamam**.
 1.  Altında**Stil içerir**, istediğiniz stil özelliklerini belirtin.
-1.  Tıklamak**TAMAM** stili kaydetmek ve seçilen aralığa uygulamak için.
+1.  Tıklamak**Tamam** stili kaydetmek ve seçilen aralığa uygulamak için.
 
 ## **Aspose.Cells'i kullanma**
 

@@ -12,7 +12,7 @@ Diese Seite enthält Versionshinweise für Aspose.Cells for C++ 19.11.
 
 |**Taste**|**Zusammenfassung**|**Kategorie**|
 |:- |:- |:- |
-|CELLSCPP-218|Unterstützung für das Hinzufügen einer Art Callback-Ereignis/Mechanismus, der den Konvertierungsfortschritt mitteilt (z. B. Excel in PDF)|Neue Funktion|
+|CELLSCPP-218|Unterstützung für das Hinzufügen einer Art Callback-Ereignis/Mechanismus, der den Konvertierungsfortschritt mitteilt (z. B. Excel an PDF)|Neue Funktion|
 |CELLSCPP-220|Fehler im x64-Debug-Modus beheben, während andere C++-Produkte integriert werden|Neue Funktion|
 ### **Öffentliche API und rückwärts inkompatible Änderungen**
 Im Folgenden finden Sie eine Liste aller Änderungen, die an der öffentlichen API vorgenommen wurden, z. B. hinzugefügte, umbenannte, entfernte oder veraltete Mitglieder, sowie alle nicht abwärtskompatiblen Änderungen, die an Aspose.Cells for C++ vorgenommen wurden das Aspose.Cells Support-Forum.

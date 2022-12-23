@@ -46,7 +46,7 @@ url: /de/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Ausnahmen
 
-- Ausnahme „Ungültige Formel“ beim Öffnen einer XLSX-Datei
+- Ausnahme „ungültige Formel“ beim Öffnen einer XLSX-Datei
 - Aspose.Cells löst beim Öffnen einer Vorlagendatei die Ausnahme „ArgumentNullException“ aus
 - Beim Speichern einer HTML-Datei ist das Einlesen von Aspose.Cells ein Problem
 
@@ -70,11 +70,11 @@ url: /de/net/aspose-cells-for-net-7-3-4-release-notes/
 - Problem mit benutzerdefinierten XML-Teilen
 - Diese Datei ist nach dem Speichern beschädigt
 
- - Beim Konvertieren von XLS in XLSX und zurück entsteht eine fehlerhafte XLS-Datei
+ -Konvertieren von XLS in XLSX und zurück erzeugt eine fehlerhafte XLS-Datei
 
- - Beim Konvertieren von XLS in XLSX wird ein fehlerhaftes Dokument erstellt
+ -Konvertieren von XLS in XLSX erstellt ein fehlerhaftes Dokument
 
-- Das Rendern einer MS-Excel-Datei in ein PDF-Dokument hat ein inhaltliches Problem
+- Beim Rendern einer MS Excel-Datei in das Dokument PDF tritt ein inhaltliches Problem auf
 
 
 
@@ -84,7 +84,7 @@ url: /de/net/aspose-cells-for-net-7-3-4-release-notes/
 
  Fehler
 
-40838 – GridWeb – Formatierung nicht korrekt gespeichert
+ 40838 – GridWeb – Formatierung nicht korrekt gespeichert
 
  41140 – Problem bei Verwendung der Option „Zeile hinzufügen“.
 

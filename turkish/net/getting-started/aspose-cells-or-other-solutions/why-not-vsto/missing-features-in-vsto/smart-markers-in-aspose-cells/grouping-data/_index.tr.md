@@ -20,7 +20,7 @@ Aralarından seçim yapabileceğiniz üç tür grubu destekliyoruz.
 - tekrar - Alanlara göre grup değeri ilgili kayıtlar için tekrarlanır.
 
 Birden fazla parametreniz varsa, bunları virgülle ayırın ancak boşluk kullanmayın: parameterA,parameterB,parameterC
-### **Örnek**
+### **Örnek vermek**
 Bu örnek, eylem halindeki bazı gruplandırma parametrelerini göstermektedir. Northwind.mdb Microsoft Access veritabanını kullanır ve "Sipariş Ayrıntıları" adlı tablodan veri çıkarır. Microsoft Excel'de SmartMarker_Designer.xls adlı bir tasarımcı dosyası oluşturuyoruz ve çalışma sayfalarında çeşitli hücrelere akıllı işaretleyiciler yerleştiriyoruz. İşaretçiler, çalışma sayfalarını doldurmak için işlenir. Veriler bir grup alanı tarafından yerleştirilir ve düzenlenir.
 
 Tasarımcı dosyasında iki çalışma sayfası vardır. İlkinde, aşağıdaki ekran görüntüsünde gösterildiği gibi gruplama parametrelerine sahip akıllı işaretçiler koyduk. Üç akıllı işaretçi (gruplama parametreleriyle birlikte) yerleştirilir:

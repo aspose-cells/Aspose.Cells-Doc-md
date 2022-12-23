@@ -3,7 +3,7 @@ title: حماية هيكل المصنف وإلغاء حمايته
 type: docs
 weight: 40
 url: /ar/java/protect-and-unprotect-workbook-structure/
-description: حماية وإلغاء حماية هيكل مصنف ملفات Excel باستخدام أكواد جافا. قم بإغلاق وفتح ملفات Excel (xlsx، xls، xsb) و Open office calc (ODS) باستخدام Aspose.Cells for Java.
+description: حماية وإلغاء حماية بنية المصنف لملفات Excel باستخدام أكواد جافا. قم بإغلاق ملفات Excel (xlsx، xls، xsb) وإلغاء تأمينها وفتح ملفات حساب Office (ODS) باستخدام Aspose.Cells for Java.
 ---
 {{% alert color="primary" %}}
 لمنع المستخدمين الآخرين من عرض أوراق العمل المخفية أو إضافة أوراق العمل أو نقلها أو حذفها أو إخفائها وإعادة تسمية أوراق العمل ، يمكنك حماية بنية مصنف Excel بكلمة مرور.

@@ -6,7 +6,7 @@ url: /it/java/avoid-exponential-notation-of-large-numbers-while-importing-from/
 ---
 {{% alert color="primary" %}} 
 
- volte il tuo HTML contiene numeri come 1234567890123456 che sono più lunghi di 15 cifre e quando importi il tuo HTML in un file excel, questi numeri vengono convertiti in notazione esponenziale come 1.23457E+15. Se lo desideri, il tuo numero dovrebbe essere importato così com'è e non convertito in notazione esponenziale, quindi utilizzalo[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) proprietà e impostarla**VERO** durante il caricamento del codice HTML.
+ volte il tuo HTML contiene numeri come 1234567890123456 che sono più lunghi di 15 cifre e quando importi il tuo HTML in un file excel, questi numeri vengono convertiti in notazione esponenziale come 1.23457E+15. Se lo desideri, il tuo numero dovrebbe essere importato così com'è e non convertito in notazione esponenziale, quindi utilizzalo[HtmlLoadOptions.KeepPrecision](https://reference.aspose.com/cells/java/com.aspose.cells/htmlloadoptions#KeepPrecision) proprietà e impostarla**VERO** durante il caricamento del tuo HTML.
 
 {{% /alert %}} 
 ## **Evita la notazione esponenziale di numeri grandi durante l'importazione da HTML**

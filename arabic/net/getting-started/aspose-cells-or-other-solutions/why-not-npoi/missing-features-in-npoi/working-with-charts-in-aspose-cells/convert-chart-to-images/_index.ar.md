@@ -63,7 +63,7 @@ Chart chart = charts[chartIndex];
 chart.ToImage("AsposeChartImage.png", ImageFormat.Png);
 
 {{< /highlight >}}
-## **تحميل كود الجري**
+## **قم بتنزيل كود التشغيل**
  تحميل**تحويل الرسم البياني إلى صور** من أي من مواقع الترميز الاجتماعي المذكورة أدناه:
 
 - [جيثب](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/download/AsposeCellsFeaturesMissinginNPOI_v1.0/Convert.Chart.To.Images.Aspose.Cells.zip)

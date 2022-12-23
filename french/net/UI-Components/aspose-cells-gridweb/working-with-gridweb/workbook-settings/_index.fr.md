@@ -11,7 +11,7 @@ Certains paramètres peuvent être spécifiés par set GridWorkbookSettings :
  
 - **[GridWorkbookSettings](https://reference.aspose.com/cells/net/aspose.cells.gridweb.data/GridWorkbookSettings)**
 
-|**Nom** |**La description** |
+|**Nom** |**Description** |
 |:- |:- |
 | MaxItération| Obtient ou définit le nombre maximal d'itérations pour résoudre une référence circulaire, la valeur par défaut est 100.|
 | Itération| Obtient ou définit si l'itération est utilisée pour résoudre les références circulaires.|
@@ -25,7 +25,7 @@ Certains paramètres peuvent être spécifiés par set GridWorkbookSettings :
  
 
 
-Par exemple, le code suivant définit ReCalculateOnOpen sur false pour arrêter le calcul à l'ouverture du fichier :
+Par exemple, le code suivant définit ReCalculateOnOpen sur false pour arrêter le calcul à l'ouverture du fichier :
 
 {{< gist "aspose-cells-gists" "7c644a93d33d24299a618c1dda1a2385" "GridWorkbookSettings-ReCalculateOnOpen.cs" >}}
 

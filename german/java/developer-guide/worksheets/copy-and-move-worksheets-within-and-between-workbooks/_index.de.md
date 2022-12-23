@@ -41,7 +41,7 @@ Die ersten Schritte sind für alle Beispiele gleich.
 1. Laden Sie Aspose.Cells herunter und installieren Sie es:
    1. [Herunterladen Aspose.Cells for Java](https://downloads.aspose.com/cells/java).
  1. Entpacken Sie es auf Ihrem Entwicklungscomputer.
- Alle[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
+ Alles[Aspose](http://www.aspose.com/) Komponenten arbeiten, wenn sie installiert sind, im Evaluierungsmodus. Der Bewertungsmodus ist zeitlich unbegrenzt und fügt nur Wasserzeichen in die produzierten Dokumente ein.
 1. Erstellen Sie ein Projekt:
  1. Erstellen Sie ein Projekt mit einem Java-Editor wie Eclipse oder erstellen Sie ein einfaches Programm mit einem Texteditor.
 1. Klassenpfad hinzufügen:
@@ -65,7 +65,7 @@ javac -classpath %classpath%;e:\Aspose.Cells.jar; ClassName .javajava -classpath
 {{% /alert %}}
 
 1. Arbeitsblatt innerhalb einer Arbeitsmappe kopieren:
- Unten ist der Code, der von verwendet wird, um die Aufgabe auszuführen. Es kopiert das Arbeitsblatt Copy innerhalb von FirstWorkbook.xls.
+Unten ist der Code, der von verwendet wird, um die Aufgabe auszuführen. Es kopiert das Arbeitsblatt Copy innerhalb von FirstWorkbook.xls.
 
 Durch Ausführen des Codes wird das Arbeitsblatt mit dem Namen „Copy“ innerhalb von „FirstWorkbook.xls“ mit dem neuen Namen „Last Sheet“ verschoben.
 

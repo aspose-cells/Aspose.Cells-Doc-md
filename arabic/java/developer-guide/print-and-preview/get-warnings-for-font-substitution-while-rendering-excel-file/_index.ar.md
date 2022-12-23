@@ -6,9 +6,9 @@ url: /ar/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 ---
 {{% alert color="primary" %}}
 
-في بعض الأحيان ، عند تحويل ملفات Excel Microsoft إلى PDF ، يقوم Aspose.Cells باستبدال الخطوط. يوفر Aspose.Cells ميزة تتيح للمطورين معرفة أنه تم استبدال خط معين بإطلاق تحذير. هذه ميزة مفيدة يمكن أن تساعدك في تحديد سبب اختلاف ملف PDF الذي تم عرضه Aspose.Cells عن ملف Excel الفعلي ويمكنك بعد ذلك اتخاذ الإجراءات المناسبة. على سبيل المثال ، يمكنك تثبيت الخطوط المفقودة بحيث تبدو نتائج العرض كما هي.
+في بعض الأحيان ، عند تحويل ملفات Excel Microsoft إلى PDF ، يقوم Aspose.Cells باستبدال الخطوط. يوفر Aspose.Cells ميزة تتيح للمطورين معرفة أنه تم استبدال خط معين بإطلاق تحذير. هذه ميزة مفيدة يمكن أن تساعدك في تحديد سبب اختلاف Aspose.Cells الذي تم تقديمه عن PDF عن ملف Excel الفعلي ويمكنك بعد ذلك اتخاذ الإجراءات المناسبة. على سبيل المثال ، يمكنك تثبيت الخطوط المفقودة بحيث تبدو نتائج العرض كما هي.
 
-إذا كنت ترغب في الحصول على التحذيرات لاستبدال الخط أثناء عرض ملف Excel على PDF ، فقم بتنفيذ واجهة IWarningCallback وقم بتعيين طريقة PdfSaveOptions.setWarningCallback () مع الواجهة التي تم تنفيذها.
+إذا كنت ترغب في الحصول على التحذيرات لاستبدال الخط أثناء تقديم ملف Excel إلى PDF ، فقم بتنفيذ واجهة IWarningCallback وقم بتعيين طريقة PdfSaveOptions.setWarningCallback () مع الواجهة التي تم تنفيذها.
 
 {{% /alert %}}
 
@@ -20,9 +20,9 @@ url: /ar/java/get-warnings-for-font-substitution-while-rendering-excel-file/
 
 ![ما يجب القيام به: image_بديل_نص](get-warnings-for-font-substitution-while-rendering-excel-file_2.png)
 
-## **تنزيل ملف المصدر وإخراج PDF**
+## **تنزيل الملف المصدر والإخراج PDF**
 
-يمكنك تنزيل ملف Excel المصدر و PDF الناتج من الروابط التالية
+يمكنك تنزيل ملف Excel المصدر والمخرج PDF من الروابط التالية
 
 - [المصدر. xlsx](5472700.xlsx)
 - [الإخراج. pdf](5472699.pdf)
@@ -83,6 +83,6 @@ WARNING INFO: Font substitution: Font [ B Traffic; Regular ]has been substituted
 
 {{% alert color="primary" %}}
 
- إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء طريقة Workbook.calculateFormula قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في ملف PDF.
+ إذا كان جدول البيانات الخاص بك يحتوي على صيغ ، فمن الأفضل استدعاء طريقة Workbook.calculateFormula قبل تحويل جدول البيانات إلى تنسيق PDF. سيؤدي القيام بذلك إلى ضمان إعادة حساب القيم التابعة للصيغة ، وتقديم القيم الصحيحة في PDF.
 
 {{% /alert %}}

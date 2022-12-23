@@ -8,7 +8,7 @@ url: /ja/java/display-or-hide-tabs-in-php/
 ### **タブを非表示にする**
 を使用してタブを非表示にするには**Aspose.Cells Java for PHP**、 電話**表示非表示タブ**モジュール。
 
-**PHPコード**
+**PHP コード**
 
 {{< highlight "php" >}}
 

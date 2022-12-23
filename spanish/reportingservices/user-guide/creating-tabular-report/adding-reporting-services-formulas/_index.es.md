@@ -17,7 +17,7 @@ Para agregar fórmulas de Reporting Services a la celda de datos de la tabla, si
 
 
 
--  Seleccione "Conjunto de datos" en el panel izquierdo, seleccione "EmpSalesDetail" en el panel central y haga doble clic en "Sum(EmpSalesDetail.OrderQty)" en el panel derecho. Aparece una expresión de fórmula en el cuadro de edición superior. Hacer clic**OK** para insertar la expresión en la celda.
+-  Seleccione "Conjunto de datos" en el panel izquierdo, seleccione "EmpSalesDetail" en el panel central y haga doble clic en "Sum(EmpSalesDetail.OrderQty)" en el panel derecho. Aparece una expresión de fórmula en el cuadro de edición superior. Hacer clic**DE ACUERDO** para insertar la expresión en la celda.
 
 ![todo:imagen_alternativa_texto](adding-reporting-services-formulas_3.png)
 

@@ -15,7 +15,7 @@ Aspose.Cells 是一个灵活的组件，它使 Android 应用程序能够创建�
 {{% /alert %}} 
 ## **文件特征**
 - 从不同来源打开普通或加密的 Excel 文件（Excel97 - Excel2007 及更高版本）
-- 以不同格式（XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、Tab Delimited、HTML 等）保存 Excel 文件（Excel97 - Excel2007 及更高版本）
+- 以不同格式（XLS、XLSX/XLSM、XLTX、XLTM、XLSB、CSV、SpreadsheetML、制表符分隔、HTML 等）保存 Excel 文件（Excel97 - Excel2007 及更高版本）
 - 将 Excel 文件转换为 PDF 文档
 - 将 Excel 电子表格转换为 XPS 文档
 - 读写 OpenDocument 电子表格 (ODS) 格式

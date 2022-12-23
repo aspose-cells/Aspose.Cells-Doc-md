@@ -4,8 +4,8 @@ type: docs
 weight: 40
 url: /tr/net/aspose-cells-forms-for-dnn/
 ---
-## **giriiş**
-Aspose.Cells DNN Modülü için Dinamik Formlar, kullanıcıların Dinamik Anket ve Araştırmalar Oluşturmasına, kullanıcı girdisini Excel Elektronik Tablosuna kaydetmesine ve Aspose.Cells'i kullanarak sonuçları Excel, Metin, CSV ve OpenDocument Elektronik Tablosuna Dışa Aktarmasına olanak tanır. Bu modül, Aspose.Cells for .NET tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini gösterir.
+## **Giriş**
+Aspose.Cells DNN Modülü için Dinamik Formlar, kullanıcıların Dinamik Anket ve Anketler Oluşturmasına, kullanıcı girdisini Excel Elektronik Tablosuna kaydetmesine ve Aspose.Cells kullanarak sonuçları Excel, Metin, CSV ve OpenDocument Elektronik Tablosuna Dışa Aktarmasına olanak tanır. Bu modül, Aspose.Cells for .NET tarafından sağlanan güçlü elektronik tablo oluşturma özelliğini gösterir.
 ### **Modül Özellikleri**
 Modülün bu ilk sürümü, Form Oluşturma ve Dışa Aktarma sürecini basit ve kullanımı kolay hale getirmek için aşağıdaki özelliklerle zenginleştirilmiştir.
 
@@ -18,12 +18,12 @@ Modülün bu ilk sürümü, Form Oluşturma ve Dışa Aktarma sürecini basit ve
 - Sütunları içeriğin uzunluğuna Otomatik Sığdır ve Başlık Sütunu biçimlendirmesini Kalın Metin olarak uygula
 - Verileri Microsoft Excel Belgelerine Aktar (.xls, .xlsx ve .xlsb)
 - Verileri Sekmeyle ayrılmış metin belgesine (*.txt) Aktar
-- Verileri CSV'ye Aktar (Virgülle ayrılmış) (*.csv)
+- Verileri CSV'e (Virgülle ayrılmış) (*.csv) Aktar
 - Verileri OpenDocument Elektronik Tablosuna Aktarın (*.ods)
 - Dışa aktarmadan önce istenen çıktı formatını seçme seçeneği.
 - Dışa aktarılan belge, indirilmek üzere otomatik olarak tarayıcıya gönderilir.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-forms-for-dnn_1)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-forms-for-dnn_1)
 ## **Sistem Gereksinimleri ve Desteklenen Platformlar**
 ### **sistem gereksinimleri**
 DNN modülleri için Aspose.Cells .NET'i kurmak için aşağıdaki gereksinimleri karşılamanız gerekir:
@@ -48,7 +48,7 @@ Aspose .NET Dynamic Forms Builder for DNN modülünü aşağıdaki konumlardan b
 1.  Şuraya git:**Ev sahibi** menü ve seçin**Uzantılar**.
 1.  Tıklamak**Uzantı Sihirbazını Kur**.
 1. Belirtildiği gibi, indirilen zip dosyasının konumuna göz atın, onu seçin ve ardından tıklayın**Açık**.
-1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Dönüş** buton.
+1.  Tıklamak**Sonraki** , lisansı kabul edin, kuruluma devam edin. Bittiğinde tıklayın**Geri dönmek** buton.
 
  lütfen kontrol edin[bu modül kurulum videosu](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) Daha fazla ayrıntı için DNN'den.
 ## **kullanma**
@@ -59,11 +59,11 @@ Aspose .NET Dynamic Forms Builder for DNN modülünü kurduktan sonra web siteni
 1.  Seçme**Modüller** bunu takiben**Yeni Modül Ekle** üst şeritten.
 1. Listeden 'Aspose.NET Dynamic Forms Builder'ı seçin ve konumuna sürükleyin.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-forms-for-dnn_2)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-forms-for-dnn_2)
 
 Aspose .NET Dynamic Forms Builder for DNN modülünü sayfanıza başarıyla eklediniz.
 
-![yapılacaklar:resim_alternatif_Metin](aspose-cells-forms-for-dnn_1)
+![yapılacaklar:resim_alternatif_metin](aspose-cells-forms-for-dnn_1)
 ### **Dinamik Form Ayarları**
 1. Giriş yaptığınızdan ve bir sayfa düzenleme modunda olduğunuzdan emin olun
 1.  Tıklamak**Ayarlar** modül başlığıyla birlikte sağ üst modül açılır menüsünde bulunan seçenek
@@ -90,7 +90,7 @@ Aspose .NET Dynamic Forms Builder for DNN modülünü sayfanıza başarıyla ekl
  lütfen kontrol edin[video](https://www.youtube.com/watch?v=yTNBfw1zUO4) modülü çalışırken görmek için aşağıdaki
 
 ## **Destekleyin, Genişletin ve Katkıda Bulunun**
-### **Destek**
+### **Destek olmak**
 Aspose'in ilk günlerinden itibaren müşterilerimize sadece iyi ürünler vermenin yeterli olmayacağını biliyorduk. Ayrıca iyi hizmet vermemiz gerekiyordu. Biz de geliştiriciyiz ve teknik bir sorun veya yazılımdaki bir tuhaflık, yapmanız gerekeni yapmanızı engellediğinde bunun ne kadar sinir bozucu olduğunu anlıyoruz. Sorunları çözmek için buradayız, onları yaratmak için değil.
 
 Bu nedenle ücretsiz destek sunuyoruz. İster satın almış olsun ister bir değerlendirme yapıyor olsun, ürünümüzü kullanan herkes, tüm dikkatimizi ve saygımızı hak ediyor.

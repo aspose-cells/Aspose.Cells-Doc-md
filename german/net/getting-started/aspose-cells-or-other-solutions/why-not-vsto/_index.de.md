@@ -24,7 +24,7 @@ Wenn Ihre dokumentenbezogenen Aufgaben beliebt sind, ist es sehr wahrscheinlich,
 
 {{% alert color="primary" %}}
 
- Entdecken[die Quellcodebeispiele von Aspose.Cells for .NET Features im Vergleich zu VSTO](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1). Um diese Quellcodebeispiele zu verwenden, müssen Sie in Ihrem Projekt auf Aspose.Cells for .NET verweisen.
+ Erkunden[die Quellcodebeispiele von Aspose.Cells for .NET Features im Vergleich zu VSTO](https://github.com/aspose-cells/Aspose.Cells-for-.NET/releases/tag/MissingFeaturesAsposeCellsForVSTO1.1). Um diese Quellcodebeispiele zu verwenden, müssen Sie in Ihrem Projekt auf Aspose.Cells for .NET verweisen.
 
 {{% /alert %}}
 

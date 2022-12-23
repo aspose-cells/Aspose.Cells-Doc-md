@@ -28,7 +28,7 @@ Der folgende Code legt ein Hintergrundbild mit einem Bild aus einem Stream fest.
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-Articles-SetBackgroundPicture-1.cs" >}}
 
-## In Verbindung stehende Artikel
+## Zum Thema passende Artikel
 
 - [Arbeiten mit dem Hintergrund in ODS-Dateien](/cells/de/net/working-with-background-in-ods-files/)
 

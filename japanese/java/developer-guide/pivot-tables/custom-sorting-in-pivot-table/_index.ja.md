@@ -13,6 +13,6 @@ Aspose.Cells API を使用すると、フィールド値でピボット テー�
 
 [出力 Excel ファイル](95584328.xlsx)
 
-[出力PDFファイル](95584329.pdf)
+[出力 PDF ファイル](95584329.pdf)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-AsposeCellsExamples-PivotTables-PivotTableCustomSort-1.java" >}}

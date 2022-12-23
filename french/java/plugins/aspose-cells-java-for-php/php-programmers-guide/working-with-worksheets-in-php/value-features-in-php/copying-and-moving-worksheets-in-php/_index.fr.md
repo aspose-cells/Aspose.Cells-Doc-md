@@ -6,7 +6,7 @@ url: /fr/java/copying-and-moving-worksheets-in-php/
 ---
 ## **Aspose.Cells - Copier et déplacer des feuilles de travail**
 ### **Copier des feuilles de calcul dans un classeur**
- Pour copier une feuille de calcul à l'aide de**Aspose.Cells for Java en PHP** , appel**copy_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
+ Pour copier une feuille de calcul à l'aide de**Aspose.Cells for Java en PHP** , téléphoner à**copy_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
 
 **Code PHP**
 
@@ -27,7 +27,7 @@ $workbook->save($dataDir . "Copy Worksheet.xls");
 
 {{< /highlight >}}
 ### **Déplacer des feuilles de calcul dans un classeur**
- Pour déplacer une feuille de calcul à l'aide de**Aspose.Cells for Java en PHP** , appel**move_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
+ Pour déplacer une feuille de calcul à l'aide de**Aspose.Cells for Java en PHP** , téléphoner à**move_worksheet** méthode de**copier des feuilles de travail** module. Ci-dessous, vous pouvez voir un exemple de code.
 
 **Code PHP**
 

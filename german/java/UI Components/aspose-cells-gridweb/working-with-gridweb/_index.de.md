@@ -40,7 +40,7 @@ Das folgende Codebeispiel veranschaulicht, wie Rasterinhalte in einer Excel-Date
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "examples-gridweb-SavingasFile-SavingasFile.jsp" >}}
 
- Das obige Code-Snippet kann auf verschiedene Weise verwendet werden. Eine gängige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt in einer Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells. GridWeb bietet einen einfacheren Ansatz für die Aufgabe. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, wodurch Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Taste.
+ Das obige Code-Snippet kann auf verschiedene Weise verwendet werden. Eine gängige Methode besteht darin, eine Schaltfläche hinzuzufügen, die den Rasterinhalt in einer Excel-Datei speichert, wenn darauf geklickt wird. Aspose.Cells. GridWeb bietet einen einfacheren Ansatz für die Aufgabe. Aspose.Cells.GridWeb hat ein Ereignis namens SaveCommand. Der obige Codeausschnitt kann dem Ereignishandler des SaveCommand-Ereignisses hinzugefügt werden, wodurch Benutzer ihre Arbeit speichern können, indem sie auf das integrierte Aspose.Cells.GridWeb klicken**Speichern** Knopf.
 
 ## **Größenänderung von Aspose.Cells.GridWeb und seiner Kopfleiste**
 
@@ -112,7 +112,7 @@ Aspose.Cells. Das GridWeb-Steuerelement unterstützt mehrere Ereignisse, die meh
 |Zeile eingefügt|Tritt auf, wenn ein Benutzer über das clientseitige Menü eine Zeile in das Arbeitsblatt einfügt.|
 |SaveCommand| Tritt auf, wenn die**Speichern** Schaltfläche angeklickt wird.|
 |SheetTabClick|Tritt auf, wenn auf eine Blattregisterkarte geklickt wird.|
-|SubmitCommand| Tritt auf, wenn die**Einreichen** Schaltfläche angeklickt wird.|
+|SubmitCommand| Tritt auf, wenn die**einreichen** Schaltfläche angeklickt wird.|
 |Rückgängig-Befehl| Tritt auf, wenn die**Rückgängig machen** Schaltfläche angeklickt wird.|
 |AjaxCallFertig|Wird ausgelöst, wenn das AJAX-Update des Steuerelements abgeschlossen ist. (EnableAJAX muss auf true gesetzt werden).|
 |CellModifiedOnAjax|Wird ausgelöst, wenn die Zelle im AJAX-Aufruf geändert wird.|
@@ -511,7 +511,7 @@ Entwickler können auch programmgesteuert in den Bearbeitungsmodus wechseln, ind
 
 ### **Ansichtsmodus**
 
-Wenn sich das GridWeb-Steuerelement im Ansichtsmodus befindet, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, was bedeutet, dass Benutzer den Rasterinhalt nur anzeigen können. Deshalb wird dieser Modus Ansichtsmodus genannt. Im Ansichtsmodus sind einige Schaltflächen (**Einreichen**, **Speichern** und**Rückgängig machen** ) sind ausgeblendet und das Menü, das beim Rechtsklick erscheint, enthält nur die**Kopieren** und**Finden** Möglichkeit.
+Wenn sich das GridWeb-Steuerelement im Ansichtsmodus befindet, können Benutzer den Rasterinhalt nicht bearbeiten oder ändern, was bedeutet, dass Benutzer den Rasterinhalt nur anzeigen können. Deshalb wird dieser Modus Ansichtsmodus genannt. Im Ansichtsmodus sind einige Schaltflächen (**einreichen**, **Speichern** und**Rückgängig machen** ) sind ausgeblendet und das Menü, das beim Rechtsklick erscheint, enthält nur die**Kopieren** und**Finden** Möglichkeit.
 
 **GridWeb-Steuerelement im Ansichtsmodus** 
 

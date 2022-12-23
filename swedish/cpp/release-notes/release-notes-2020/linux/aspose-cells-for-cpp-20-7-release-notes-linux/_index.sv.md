@@ -22,15 +22,15 @@ Vi är glada att kunna meddela lanseringen av Aspose.Cells for C++ 20.7 för Lin
 |CELLSCPP-12|Lägg till och manipulera pivottabeller i kalkylarken|Ny funktion|
 |CELLSCPP-13|Gruppera rader och kolumner i kalkylbladet|Ny funktion|
 |CELLSCPP-14|Lägg till tabell/listobjekt till kalkylbladet|Ny funktion|
-|CELLSCPP-20|Öppna/spara XLS, OOXML filformat|Ny funktion|
+|CELLSCPP-20|Öppna/Spara XLS, OOXML filformat|Ny funktion|
 |CELLSCPP-21|Ställ in stilar och formatering till kalkylbladsceller|Ny funktion|
 |CELLSCPP-22|Tillämpa datavalidering på cellerna|Ny funktion|
 |CELLSCPP-23|Ställ in data och formler till cellerna|Ny funktion|
 |CELLSCPP-24|Använd alternativ för sidinställningar|Ny funktion|
 |CELLSCPP-25|Filtrera data med hjälp av ett autofilter|Ny funktion|
-|CELLSCPP-35|Läs/skriv XLSM-filformat|Ny funktion|
-|CELLSCPP-36|Läs/skriv CSV-filformat|Ny funktion|
-|CELLSCPP-37|Läs/skriv XLSB-filformat|Ny funktion|
+|CELLSCPP-35|Läs/skriv XLSM filformat|Ny funktion|
+|CELLSCPP-36|Läs/skriv CSV filformat|Ny funktion|
+|CELLSCPP-37|Läs/skriv XLSB filformat|Ny funktion|
 |CELLSCPP-38|Skapa och manipulera namngivna intervall|Ny funktion|
 |CELLSCPP-39|Läs/skriv tabbavgränsat filformat|Ny funktion|
 |CELLSCPP-41|Beräkna formler i Excel-fil(er)|Ny funktion|

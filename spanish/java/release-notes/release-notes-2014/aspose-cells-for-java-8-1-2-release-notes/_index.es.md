@@ -10,7 +10,7 @@ url: /es/java/aspose-cells-for-java-8-1-2-release-notes/
 
 {{% /alert %}} 
 
-Aspose.Cells for Java se ha actualizado a la versión 8.1.2 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
+ Aspose.Cells for Java se ha actualizado a la versión 8.1.2 y nos complace anunciar que esta versión trae la adición de más de 20 nuevas mejoras útiles.
 Usando Aspose.Cells for Java puede trabajar con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS y otros formatos en sus aplicaciones. También puede generar, modificar, convertir, renderizar e imprimir libros de trabajo sin usar Microsoft Excel.
 Visite la documentación para saber cómo comenzar con Aspose.Cells for Java.
 Tenga en cuenta que esta descarga contiene una versión completamente funcional del producto; sin embargo, sin un conjunto de licencias, se ejecutará en modo de evaluación con algunas limitaciones. Para probar Aspose.Cells sin estas limitaciones de evaluación, puede solicitar una licencia temporal gratuita de 30 días.
@@ -35,21 +35,21 @@ Insectos
 
 (CELLSJAVA-40866): la conversión a HTML no respeta ImageFormat en SaveOptions
 (CELLSJAVA-40854): HtmlHiddenRowDisplayType.HIDDEN hace que las celdas se desplacen en el HTML resultante (problema de expansión)
-(CELLSJAVA-40835): problema de exportación de columnas ocultas en el archivo HTML representado
+(CELLSJAVA-40835): problema de exportación de columnas ocultas en el archivo renderizado HTML
 (CELLSJAVA-40879): problema al crear una imagen del rango de datos (hoja a imagen)
 (CELLSJAVA-40878) - La configuración de la resolución vertical y horizontal mientras se guarda la hoja de cálculo en una imagen Jpeg no tiene efecto
 (CELLSJAVA-40877) - Excel a PDF - Mala calidad de imagen representada por Aspose Cells 8.xx
-(CELLSJAVA-40910): las imágenes se pierden cuando el PDF se representa mediante PdfSaveOptions.setImageType(ImageFormat.getPng())
+(CELLSJAVA-40910): las imágenes se pierden cuando se procesa PDF mediante PdfSaveOptions.setImageType(ImageFormat.getPng())
 (CELLSJAVA-40907): faltan marcadores de puntos de datos en el gráfico cuando se guarda un archivo de plantilla de Excel como HTML
-(CELLSJAVA-40904): algunos gráficos no se representan correctamente en el formato de archivo HTML.
+(CELLSJAVA-40904): algunos gráficos no se representan correctamente en el formato de archivo HTML
 (CELLSJAVA-40899): problema de datos truncados en la hoja 18
 (CELLSJAVA-40898): problema de datos truncados en la hoja 17
 (CELLSJAVA-40886) - Marcas de serie rotas al volver a guardar un archivo de Excel
 (CELLSJAVA-40885): exportación de gráfico con forma de punto de datos faltante en el formato de imagen de salida
-(CELLSJAVA-40869): a las ecuaciones les faltan glifos y cierto texto formateado está truncado en el archivo PDF representado.
+(CELLSJAVA-40869): a las ecuaciones les faltan glifos y cierto texto formateado está truncado en el archivo PDF representado
 (CELLSJAVA-40865) - La imagen no está clara en el pdf de salida
-(CELLSJAVA-40860): las propiedades de las burbujas cambiaron en el gráfico al volver a guardar el archivo XLSX de la plantilla.
-(CELLSJAVA-40859): las propiedades de las burbujas cambiaron en el gráfico al volver a guardar el archivo XLSX de la plantilla.
+(CELLSJAVA-40860): las propiedades de la burbuja cambiaron en el gráfico al volver a guardar el archivo de plantilla XLSX
+(CELLSJAVA-40859): las propiedades de la burbuja cambiaron en el gráfico al volver a guardar el archivo de plantilla XLSX
 (CELLSJAVA-40858): se ha perdido la propiedad de la etiqueta Column100PercentStacked o Bar
 (CELLSJAVA-40817) - La imagen en el pdf de salida se vuelve borrosa
 (CELLSJAVA-40880): el tipo de fecha y hora no se detecta al agregar un valor de fecha y hora en tiempo de ejecución a través de Aspose.Cells
@@ -57,7 +57,7 @@ Insectos
 
 Excepciones
 
-(CELLSJAVA-40901) - Excepción: "¡Error de forma a imagen!" al procesar en formato de archivo PDF
+(CELLSJAVA-40901) - Excepción: "¡Error de forma a imagen!" al renderizar al formato de archivo PDF
 
 
 Public API y cambios incompatibles con versiones anteriores

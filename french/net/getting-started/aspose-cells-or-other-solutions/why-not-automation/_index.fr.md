@@ -17,15 +17,15 @@ Il y a deux questions que l'on entend le plus souvent ici au Aspose :
 1. **Vos produits nécessitent-ils l'installation de Microsoft Office pour fonctionner ?**
  La réponse simple est non. Les composants Aspose sont totalement indépendants et ne sont ni affiliés, ni autorisés, parrainés ou autrement approuvés par Microsoft Corporation.
 1. **Pourquoi devrions-nous utiliser les produits Aspose plutôt que d'utiliser la bureautique Microsoft ?**
-La réponse la plus courte que nous pourrions donner est qu'il existe de nombreuses raisons, la principale étant que Microsoft lui-même déconseille fortement la bureautique à partir de solutions logicielles :[Considérations pour l'automatisation côté serveur d'Office](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
+ La réponse la plus courte que nous pourrions donner est qu'il existe de nombreuses raisons, la principale étant que Microsoft lui-même déconseille fortement la bureautique à partir de solutions logicielles :[Considérations pour l'automatisation côté serveur d'Office](https://support.microsoft.com/en-us/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
 
 Il y a plusieurs raisons pour lesquelles les composants Aspose sont une meilleure alternative à l'automatisation. Certaines des principales raisons sont :
 
 - Sécurité
-- La stabilité
+- Stabilité
 - Évolutivité/Vitesse
 - Prix
-- Fonctionnalités
+- Caractéristiques
 
 Les points clés sont décrits ci-dessous. Assurez-vous également de visiter les liens à la fin de cette section.
 
@@ -37,7 +37,7 @@ Ce qui suit est une citation directe de l'article Microsoft référencé ci-dess
 
 Les produits Aspose sont très sécurisés. Les composants Aspose s'exécutent dans le même contexte utilisateur que toutes les applications ASP.NET, sous l'utilisateur ASPNET. Par conséquent, les composants Aspose ne présentent pas de risque potentiel pour les ressources système vitales. De plus, lorsqu'un document est ouvert par un composant Aspose, les macros ne sont pas automatiquement exécutées. Les composants Aspose ont été créés dans le but de permettre aux développeurs de créer, manipuler et enregistrer des fichiers Office. Aucun des risques associés au package Office Microsoft n'est inhérent aux composants Aspose.
 
-### **La stabilité**
+### **Stabilité**
 
 Ce qui suit est une citation directe de l'article Microsoft référencé ci-dessus :
 
@@ -59,9 +59,9 @@ Les composants Aspose sont hautement évolutifs et rapides comme l'éclair. Les 
 
 Lors de la création d'applications Web, il est important de savoir que les composants d'automatisation de bureau Microsoft ne sont pas tarifés ni concédés sous licence pour les solutions côté serveur ([Licence des composants Web Office 2000 et des extensions serveur Office](#)); par conséquent, il n'existe pas de bonne solution de licence pour déployer des applications Web qui utilisent les composants Office Microsoft. Aspose offre également une solution très rentable pour les applications basées sur serveur.
 
-### **Fonctionnalités**
+### **Caractéristiques**
 
- Les composants Aspose fournissent tout ce dont vous avez besoin pour gérer les fichiers Office, et bien plus encore. Ils sont conçus avec la philosophie de permettre aux développeurs d'obtenir les meilleurs résultats avec le moins de travail possible. Contrairement à la bureautique, les composants Aspose offrent de nombreuses fonctions puissantes et permettant de gagner du temps. Par exemple,[Aspose.Cells](https://products.aspose.com/cells/) offre aux développeurs la possibilité d'exporter à partir d'un**Tableau de données** ou**Affichage des données** directement dans un fichier Excel.[Aspose.Words](https://products.aspose.com/words/)offre une fonctionnalité similaire qui permet aux développeurs de remplir un document de publipostage Word directement à partir de n'importe quel objet de données .NET.[Chaque composant](https://products.aspose.com/total/) dans la famille Aspose offre son propre ensemble de fonctionnalités uniques et puissantes.
+ Les composants Aspose fournissent tout ce dont vous avez besoin pour gérer les fichiers Office, et bien plus encore. Ils sont conçus avec la philosophie de permettre aux développeurs d'obtenir les meilleurs résultats avec le moins de travail possible. Contrairement à la bureautique, les composants Aspose offrent de nombreuses fonctions puissantes et permettant de gagner du temps. Par exemple,[Aspose.Cells](https://products.aspose.com/cells/) offre aux développeurs la possibilité d'exporter à partir d'un**Tableau de données** ou alors**Affichage des données** directement dans un fichier Excel.[Aspose.Words](https://products.aspose.com/words/)offre une fonctionnalité similaire qui permet aux développeurs de remplir un document de publipostage Word directement à partir de n'importe quel objet de données .NET.[Chaque composant](https://products.aspose.com/total/) dans la famille Aspose offre son propre ensemble de fonctionnalités uniques et puissantes.
 
 La meilleure partie de l'achat d'un composant Aspose ou d'une suite de composants est d'avoir accès à nos équipes de développement. Nos équipes de développement se rendent compte que si votre entreprise a besoin d'une fonctionnalité, il est fort probable que d'autres entreprises en auront également besoin. Bien que toutes les demandes de fonctionnalités ne puissent pas être ajoutées, nos équipes essaient d'être très ouvertes d'esprit et flexibles lorsqu'elles fournissent une assistance. Cet état d'esprit est ce qui a aidé les composants Aspose à devenir aussi puissants qu'ils le sont. S'il y a des fonctionnalités supplémentaires dont vous avez besoin dans les objets Office Automation, vos chances de les avoir ajoutées sont très, très faibles.
 

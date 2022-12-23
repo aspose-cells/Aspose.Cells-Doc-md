@@ -7,10 +7,10 @@ url: /ja/net/spreadsheetml-xlsx-xml/
 ## **SpreadsheetMLについて**
 SpreadsheetML は、スプレッドシート ドキュメント用の XML ベースの形式のファミリの名前です。 SpreadsheetML にはいくつかのバージョンがあります。
 
-1. SpreadsheetML バージョン 2003 は、Microsoft Word 2003 で導入されました。SpreadsheetML は、Microsoft によってドキュメント形式をオープンにするための重要な一歩でした。
+1. SpreadsheetML バージョン 2003 は、Microsoft Word 2003 で導入されました。SpreadsheetML は、ドキュメント形式をオープンにするための Microsoft による重要なステップでした。
 1. [Office オープン XML](https://en.wikipedia.org/wiki/Office_Open_XML) (OOXML) は、Microsoft Office 2007 アプリケーションで導入された新しい XML ベースの形式です。 Office Open XML は、いくつかの特殊な XML ベースのマークアップ言語のコンテナー形式です。 SpreadsheetML バージョン 2007 は、ドキュメントを格納するために Microsoft Office Excel 2007 で使用されるマークアップ言語です。
-1. Microsoft Excel 2010 は、更新された OOXML 標準で定義されているように、ドキュメントを SpreadsheetML バージョン 2010 に保存します。
-## **SpreadsheetML in Aspose.Cells**
+1. Microsoft Excel 2010 は、更新された OOXML 標準で定義されている SpreadsheetML バージョン 2010 でドキュメントを保存します。
+## **Aspose.CellsのSpreadsheetML**
 利用可能な SpreadsheetML の 3 つの「バージョン」があります。
 
 |**SpreadsheetML「バージョン」**|**適用規格・仕様**|**Aspose.Cells for .NET でサポート**|
@@ -19,7 +19,7 @@ SpreadsheetML は、スプレッドシート ドキュメント用の XML ベー
 |Microsoft エクセル 2007|[OOXML ECMA-376](https://www.ecma-international.org/publications-and-standards/standards/ecma-376/)|はい|
 |Microsoft エクセル2010|OOXML ISO/IEC DIS 29500|はい|
 |Microsoft エクセル 2013|OOXML ISO/IEC DIS 29500|はい|
-OOXML SpreadsheetML ドキュメントは、ほとんどの場合、ZIP パッケージである XLSX ファイルとして提供されます。 XLSXに加えて。 Aspose.Cells は、SpreadsheetML ドキュメントの読み込み、保存、および変換を幅広くサポートします。 Aspose.Cells は Microsoft Excel ドキュメントの構造を念頭に置いて設計されているため、このような包括的な実装が可能です (また、SpreadsheetML は Microsoft Excel ドキュメントの内部表現を模倣することが知られています)。
+OOXML SpreadsheetML ドキュメントは、ほとんどの場合、ZIP パッケージである XLSX ファイルとして提供されます。 XLSX に加えて、Aspose.Cells は、SpreadsheetML ドキュメントの読み込み、保存、および変換を幅広くサポートします。 Aspose.Cells は Microsoft Excel ドキュメントの構造を念頭に置いて設計されているため、このような包括的な実装が可能です (SpreadsheetML は Microsoft Excel ドキュメントの内部表現を模倣することが知られています)。
 ### **OOXML はオープンですが、なぜ Aspose.Cells を使用するのですか?**
 確かに、Office Open XML テクノロジにより、Aspose.Cells などのサードパーティ ライブラリに依存することなく、XML クラスだけを使用してドキュメント処理および生成アプリケーションを構築できます。 XML やその他のライブラリを使用するのではなく、OOXML ドキュメントを処理します。
 
@@ -27,8 +27,8 @@ OOXML 仕様は、数千ページの長さです。オープンで標準的で�
 
 Aspose.Cells は、有効なドキュメントを正しく処理して生成することをより簡単にするだけでなく、XML または他のサードパーティ ライブラリを介して直接 OOXML ファイルを操作する場合にはない次の重要な機能を提供します。
 
-- PDF、HTML、TIFF、および印刷への変換を含む、多くの一般的な Excel 形式間の高品質の変換。
-- つまたは複数のドキュメントの断片からドキュメントを作成する機能。同時に、文体の書式設定、チャート、およびグラフィックスによってデータを自動的にマージします。
+- PDF、HTML、TIFF への変換や印刷など、多くの一般的な Excel 形式間の高品質な変換。
+- 1 つまたは複数のドキュメントの断片からドキュメントを作成する機能。同時に、文体の書式設定、チャート、およびグラフィックスによってデータを自動的にマージします。
 - Array、ArrayList、DataTable、DataColumn、DataGrid、DataView、DataReader などのさまざまなデータ ソースからデータをインポートしたり、データをエクスポートして DataTable または Array を 1 行のコードで埋めたりするなどの高レベル関数。
 - 標準および高度な Microsoft Excel 関数のほぼすべてをサポートする堅牢な数式計算エンジン。
 

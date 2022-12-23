@@ -1,11 +1,11 @@
 ﻿---
-title: Konvertieren von Arbeitsblättern in SVG in Ruby
+title: Konvertieren des Arbeitsblatts in SVG in Ruby
 type: docs
 weight: 70
 url: /de/java/converting-worksheet-to-svg-in-ruby/
 ---
-## **Aspose.Cells – Arbeitsblatt in SVG konvertieren**
-Um Worksheet mit Aspose.Cells for Java in Ruby in SVG zu konvertieren, rufen Sie einfach worksheet auf_zu_svg()-Methode des Converter-Moduls.
+## **Aspose.Cells - Konvertieren des Arbeitsblatts in SVG**
+Um Worksheet in SVG mit Aspose.Cells for Java in Ruby zu konvertieren, rufen Sie einfach worksheet auf_zu_svg()-Methode des Converter-Moduls.
 
 **Ruby-Code**
 
@@ -19,7 +19,7 @@ img_options = Rjb::import('com.aspose.cells.ImageOrPrintOptions').new
 
 save_format = Rjb::import('com.aspose.cells.SaveFormat')
 
-Bild_options.setSaveFormat(speichern_Format.SVG)
+Bild_options.setSaveFormat(speichern_format.SVG)
 
 img_options.setOnePagePerSheet(true)
 
@@ -55,6 +55,6 @@ end 
 
 {{< /highlight >}}
 ## **Laufcode herunterladen**
-Download**Arbeitsblatt in SVG konvertieren (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
+Download**Konvertieren des Arbeitsblatts in SVG (Aspose.Cells)**von einer der unten genannten Social-Coding-Sites:
 
 - [GitHub](https://github.com/aspose-cells/Aspose.Cells-for-Java/blob/master/Plugins/Aspose_Cells_Java_for_Ruby/lib/asposecellsjava/converter.rb)

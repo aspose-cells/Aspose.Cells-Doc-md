@@ -17,7 +17,7 @@ keywords: find cells with specific style, find cells with specific style excel, 
 هذه هي الخطوات المطلوبة للبحث في الخلايا ذات الأنماط المحددة في MS Excel.
 
 1.  يختار**بحث وتحديد** في ال**علامة التبويب الصفحة الرئيسية**.
-1.  يختار**تجد**.
+1.  يختار**يجد**.
 1.  انقر**خيارات**إذا كانت الخيارات المتقدمة غير مرئية.
 1.  يختار**اختر التنسيق من Cell ...** من**شكل** اسقاط.
 1. حدد الخلية ذات النمط الذي تريد البحث فيه.
@@ -25,11 +25,11 @@ keywords: find cells with specific style, find cells with specific style excel, 
 
 ## باستخدام Aspose.Cells for Java
 
- Aspose.Cells for Java يوفر خاصية البحث عن الخلايا في ورقة العمل بنمط معين. لهذا ، يوفر API[**FindOptions.setStyle ()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) منشأه.
+ Aspose.Cells for Java يوفر خاصية البحث عن الخلايا في ورقة العمل بنمط معين. لهذا ، يوفر API[**FindOptions.setStyle ()**](https://reference.aspose.com/cells/java/com.aspose.cells/findoptions#Style) خاصية.
 
 ### عينة من الرموز
 
- يجد مقتطف الشفرة التالي جميع الخلايا التي لها نفس نمط الخلية**أ 1** وتغيير النص داخل تلك الخلايا. يرجى الاطلاع على لقطة الشاشة للملفات المصدر والمخرجات لتحليل إخراج نموذج التعليمات البرمجية.
+ يجد مقتطف الشفرة التالي جميع الخلايا التي لها نفس نمط الخلية**أ 1** ويغير النص داخل تلك الخلايا. يرجى الاطلاع على لقطة الشاشة للملفات المصدر والمخرجات لتحليل إخراج نموذج التعليمات البرمجية.
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-FindCellsWithSpecificStyle-FindCellsWithSpecificStyle.java" >}}
 

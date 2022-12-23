@@ -24,4 +24,4 @@ url: /ar/java/aspose-cells-for-java-7-5-0-release-notes/
 
  40481 - XLS إلى PDF - مشكلة عرض خلية الجدول
 
-40519 - استثناء عند حفظ وثيقة XLSX
+ 40519 - استثناء عند حفظ وثيقة XLSX

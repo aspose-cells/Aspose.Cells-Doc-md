@@ -41,7 +41,7 @@ Esta configuración puede ser obligatoria en algunos casos/escenarios si está u
 
 {{% /alert %}}
 
-Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando la biblioteca Aspose.Cells. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En el archivo de imagen o PDF de salida por Aspose.Cells, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen. No puede ocultar la Advertencia de derechos de autor de evaluación (la hoja de trabajo adicional) en el control GridWeb también, siempre se agregará (al final en las pestañas de la hoja de trabajo) en el control.
+Además, una hoja de trabajo con marca de agua de evaluación siempre se mostrará como la hoja de trabajo activa en el archivo de Excel generado usando la biblioteca Aspose.Cells. Solo en la versión con licencia, puede configurar la hoja de trabajo activa en otras hojas de trabajo. En la salida PDF o el archivo de imagen por Aspose.Cells, se pegaría una marca de agua de evaluación en la parte superior del documento/imagen. No puede ocultar la Advertencia de derechos de autor de evaluación (la hoja de trabajo adicional) en el control GridWeb también, siempre se agregará (al final en las pestañas de la hoja de trabajo) en el control.
 
 {{% alert color="primary" %}}
 
@@ -145,10 +145,10 @@ Console.WriteLine(amountAfter);
 
 Otra forma ordenada de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso incrustado en uno de los ensamblados que llama al Aspose.Cells. Para incluir el archivo de licencia como un recurso incrustado, realice los siguientes pasos :
 
-1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto mediante la selección**Agregar elemento existente** desde el**Expediente** menú.
+1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto mediante la selección**Agregar elemento existente** desde el**Archivo** menú.
 1. Seleccione el archivo en el Explorador de soluciones y establezca**Acción de compilación** a**Recurso integrado** en la ventana Propiedades
 
- Para acceder a la licencia integrada en el ensamblado (como recurso integrado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly de Microsoft .NET Framework. Todo lo que se necesita hacer es simplemente agregar el archivo de licencia como un recurso incrustado a su proyecto y pasar el nombre del archivo de licencia al método SetLicense. los**Aspose.Cells.License** class encontrará automáticamente el archivo de licencia en los recursos incrustados. Revise el ejemplo que se proporciona a continuación para comprender este método de configuración de la licencia (incrustada) en sus aplicaciones.
+ Para acceder a la licencia integrada en el ensamblado (como recurso integrado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly de Microsoft .NET Framework. Todo lo que se necesita hacer es simplemente agregar el archivo de licencia como un recurso incrustado a su proyecto y pasar el nombre del archivo de licencia al método SetLicense. Él**Aspose.Cells.License** class encontrará automáticamente el archivo de licencia en los recursos incrustados. Revise el ejemplo que se proporciona a continuación para comprender este método de configuración de la licencia (incrustada) en sus aplicaciones.
 
 {{< highlight "csharp" >}}
 
@@ -214,7 +214,7 @@ license.SetLicense(myStream);
 
 Otra buena forma de empaquetar la licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso incrustado en uno de los ensamblados que llama al dll del componente (incluido en Aspose.Cells.GridDesktop). Para incluir el archivo de licencia como un recurso incrustado, realice los siguientes pasos:
 
-1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto usando el**Agregar elemento existente** opción en el**Expediente** menú.
+1.  En Visual Studio .NET, incluya el archivo de licencia (.lic) en el proyecto usando el**Agregar elemento existente** opción en el**Archivo** menú.
 1. Seleccione el archivo en el Explorador de soluciones y establezca Acción de compilación en Recurso incrustado en la ventana Propiedades.
 1. Para acceder a la licencia incrustada en el ensamblado (como recurso incrustado), no es necesario llamar a los métodos GetExecutingAssembly y GetManifestResourceStream de la clase System.Reflection.Assembly de Microsoft .NET Framework. En su lugar, agregue el archivo de licencia como un recurso incrustado en su proyecto y pase el nombre del archivo de licencia al método SetLicense. La clase de licencia encuentra automáticamente el archivo de licencia en los recursos integrados.
 

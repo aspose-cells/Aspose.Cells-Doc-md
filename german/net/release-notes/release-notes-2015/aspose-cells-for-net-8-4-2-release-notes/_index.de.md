@@ -30,17 +30,17 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Fehler**
 
 
- (CELLSNET-43581) – Text wird aus dem Banner verschoben, wenn eine Excel-Datei in PDF konvertiert wird
+ (CELLSNET-43581) – Text wird aus dem Banner verschoben, wenn die Excel-Datei in PDF konvertiert wird
 
  (CELLSNET-43639) – Wasserzeichen werden nicht korrekt angezeigt
 
- (CELLSNET-43645) – Eingebettetes OLE-Objekt kann nicht von XLSX in HTML gespeichert werden
+ (CELLSNET-43645) – Das eingebettete OLE-Objekt kann nicht von XLSX in HTML gespeichert werden
 
  (CELLSNET-43613) – Benutzerdefinierte Schriftart funktioniert nicht mit SheetRender
 
  (CELLSNET-43573) – Spalten wurden beim Konvertieren in PDF auf die nächste Seite verschoben
 
- (CELLSNET-43571) - Falscher Seitenumbruch im generierten PDF über Aspose.Cells
+ (CELLSNET-43571) – Falscher Seitenumbruch im generierten PDF über Aspose.Cells
 
  (CELLSNET-43525) – Bei dem von SheetRender.ToImage generierten Bild wird Text abgeschnitten
 
@@ -52,9 +52,9 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43502) – Wichtige Gitterlinien verschwinden und die Serienlegende erscheint in der Mitte
 
- (CELLSNET-41716) – Beschriftungen der X-Achse werden nicht richtig angezeigt
+(CELLSNET-41716) – Beschriftungen der X-Achse werden nicht richtig angezeigt
 
-(CELLSNET-43641) – Problem mit der Berechnung von Formeln, wenn die iterative Berechnung aktiviert ist
+ (CELLSNET-43641) – Problem mit der Berechnung von Formeln, wenn die iterative Berechnung aktiviert ist
 
  (CELLSNET-43637) – Falsche Formelergebnisse für die PERCENTRANK-Funktion
 
@@ -80,9 +80,9 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 
  (CELLSNET-43585) - Aspose.Cells.CellsException beim Konvertieren der Tabelle in PDF
 
- (CELLSNET-43609) – Ausnahme beim Rendern einer Excel-Datei in das PDF-Dateiformat
+(CELLSNET-43609) – Ausnahme beim Rendern einer Excel-Datei in das Dateiformat PDF
 
-(CELLSNET-43583) – GDI-Fehler bei der SheetRender.ToImage-Methode
+ (CELLSNET-43583) – GDI-Fehler bei der SheetRender.ToImage-Methode
 
  (CELLSNET-43565) – CellsException beim Speichern von xlsx als PDF
 
@@ -108,7 +108,7 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-\2) Aspose.Cells Grid-Suite
+ \2) Aspose.Cells Grid-Suite
 
 
 ## **Andere Verbesserungen und Änderungen**
@@ -116,9 +116,9 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 ## **Fehler**
 
 
- (CELLSNET-43610) – SaveCommand-Ereignis wird nicht ausgelöst
+(CELLSNET-43610) – SaveCommand-Ereignis wird nicht ausgelöst
 
-(CELLSNET-43551) – IE8 funktioniert nicht einwandfrei mit dem benutzerdefinierten Format Niederländisch-Belgien
+ (CELLSNET-43551) – IE8 funktioniert nicht einwandfrei mit dem benutzerdefinierten Format Niederländisch-Belgien
 
 
 ## **Öffentliche API und rückwärts inkompatible Änderungen**
@@ -140,8 +140,8 @@ url: /de/net/aspose-cells-for-net-8-4-2-release-notes/
 
 
 
-Fügt die Enumerationen PasteType.Default und PasteType.DefaultExceptBorders hinzu.
+ Fügt die Enumerationen PasteType.Default und PasteType.DefaultExceptBorders hinzu.
 
- Es wird verwendet, um den Bereich als "Alle" und "Alle außer Grenzen" in MS Excel zu kopieren.
+Es wird verwendet, um den Bereich als "Alle" und "Alle außer Grenzen" in MS Excel zu kopieren.
 
 

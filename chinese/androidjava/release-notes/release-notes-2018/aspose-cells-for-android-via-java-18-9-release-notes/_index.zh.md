@@ -18,14 +18,14 @@ url: /zh/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |CELLSJAVA-42627|无法正确提取 Smart Art 图像 - 形状到图像的转换 (CELLSJAVA-42619)|强化|
 |CELLSJAVA-42677|保存 XLSX 文件过程的中断问题|强化|
 |CELLSJAVA-42687|从其他工作表引用时超链接不起作用|强化|
-|CELLSJAVA-42672|输出的 PDF 文档太大|漏洞|
+|CELLSJAVA-42672|输出 PDF 文档太大|漏洞|
 |CELLSJAVA-42671|在 MS Excel 日文版中查看输出 Excel 文件时出现超链接问题|漏洞|
 |CELLSJAVA-42667|获取“#NUM！”对于具有 IRR 函数的单元格|漏洞|
-|CELLSJAVA-42658|包含 XL4 宏 (XLSM) 的工作簿在保存后损坏|漏洞|
+|CELLSJAVA-42658|带有 XL4 宏的工作簿 (XLSM) 在保存后损坏|漏洞|
 |CELLSJAVA-42656|AlternativeText 返回评论文本的值|漏洞|
 |CELLSJAVA-42635|HTML 到 XLS - 忽略 CSS 样式|漏洞|
 |CELLSJAVA-41176|将电子表格呈现为 PDF 格式时对齐不正确|漏洞|
-|CELLSJAVA-42676|从 HTML 转换为 MS Excel 文件格式时，表格数据转移到错误的行和列|漏洞|
+|CELLSJAVA-42676|从 HTML 转换为 MS Excel 文件格式时，表数据移动到错误的行和列|漏洞|
 |CELLSJAVA-41670|转换为 HTML 时，图表的图像位置在 Chrome 和 FireFox 中是错误的|漏洞|
 |CELLSJAVA-41245|将 Excel 文件转换为 HTML 文件格式时不呈现切片器控件|漏洞|
 |CELLSJAVA-42684|图表中心的垂直线在渲染图像中未正确绘制|漏洞|
@@ -35,10 +35,10 @@ url: /zh/java/aspose-cells-for-android-via-java-18-9-release-notes/
 |CELLSJAVA-42694|从 Excel 文件中读取水印|漏洞|
 |CELLSJAVA-42686|属性注释包含不必要的文本|漏洞|
 |CELLSJAVA-42685|属性“修订号”未正确检查|漏洞|
-|CELLSJAVA-41485|生成的 ODS 文件格式中不保留 ODS 文件中的宏|漏洞|
+|CELLSJAVA-41485|生成的ODS文件格式中没有保留ODS文件中的宏|漏洞|
 |CELLSJAVA-42715|公式的检索方式与 Excel 文件中的不同|漏洞|
 |CELLSJAVA-42711|PDF 中的图表不是从 Excel 模板生成的|漏洞|
-|CELLSJAVA-42710|Excel 到 PDF 转换中图表中的重复图例项文本|漏洞|
+|CELLSJAVA-42710|Excel 中图表中的重复图例项文本到 PDF 转换|漏洞|
 |CELLSJAVA-42706|PDF 输出不显示图表标签|漏洞|
 |CELLSJAVA-42700|更改图表数据后无法正确呈现瀑布图|漏洞|
 |CELLSJAVA-42717|Cells.deleteRow 工作不正确|漏洞|
@@ -158,7 +158,7 @@ url: /zh/java/aspose-cells-for-android-via-java-18-9-release-notes/
 
 ### **添加 PdfCustomPropertiesExport 枚举**
 
-指定将 CustomDocumentPropertyCollection 导出到 PDF 文件的方式。
+指定 CustomDocumentPropertyCollection 导出到 PDF 文件的方式。
 
 ### **添加 PdfSaveOptions.CustomPropertiesExport 属性**
 

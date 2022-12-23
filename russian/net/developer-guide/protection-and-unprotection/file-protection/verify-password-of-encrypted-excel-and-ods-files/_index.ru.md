@@ -3,7 +3,7 @@ title: Подтвердите пароль зашифрованных файло
 type: docs
 weight: 10
 url: /ru/net/verify-password-of-encrypted-excel-and-ods-files/
-description: Проверьте пароль зашифрованных файлов Excel (xlsx, xlsb, xls, xlsm) и Open Office (ODS) с помощью кодов CShape.
+description: Проверьте пароль зашифрованных файлов Excel (xlsx, xlsb, xls, xlsm) и Open Office (ODS), используя коды CShape.
 ---
 {{% alert color="primary" %}}
 Если файлы Excel (xlsx, xlsb, xls, xlsm) и Open office (ODS) заблокированы паролем, Aspose поддерживает простую проверку пароля без анализа конкретных данных файлов.

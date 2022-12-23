@@ -12,8 +12,8 @@ Bu sayfa Aspose.Cells for Java 18.5 için sürüm notları içerir.
 
 |**Anahtar**|**Özet**|**Kategori**|
 |:- |:- |:- |
-|CELLSJAVA-42550|Her çalışma kitabının kendi özel (özel) yazı tipi kümesi varken eşzamanlı olarak PDF'ye dönüştürme|Yeni özellik|
-|CELLSJAVA-42594|XLAM'ın LoadFormat ve FileFormatType'ını Algıla|Artırma|
+|CELLSJAVA-42550|Her çalışma kitabının kendi özel (özel) yazı tipi kümesi varken PDF'e eşzamanlı dönüştürme|Yeni özellik|
+|CELLSJAVA-42594|XLAM'in LoadFormat ve FileFormatType'ını Algıla|Artırma|
 |CELLSJAVA-42604|Şablon dosyasını açtıktan/kaydettikten sonra Pivot Tablonun biçimlendirmesi ve davranışı değişti|Böcek|
 |CELLSJAVA-41918|Elektronik tablo (XLS), basit yükleme ve kaydetme işleminden sonra bozuluyor|Böcek|
 |CELLSJAVA-42616|Aspose.Cells, Iterator.hasnext() işlevini iki kez çağırırken yineleyici arabirimini bozuyor|Böcek|
@@ -22,7 +22,7 @@ Bu sayfa Aspose.Cells for Java 18.5 için sürüm notları içerir.
 |CELLSJAVA-42600|Aynı kod yeni sürümlerde daha yavaş çalışır|Böcek|
 |CELLSJAVA-42598|Özellikler, şablon dosyasında ayıklanmıyor|Böcek|
 |CELLSJAVA-42589|Bir hücreye HTML eklerken NullPointerException|Böcek|
-|CELLSJAVA-41414|XLSX dosyası yeniden kaydedildiğinde çizgiler tablodan kayboldu|Böcek|
+|CELLSJAVA-41414|XLSX dosyası yeniden kaydedildiğinde satırlar grafikten kayboldu|Böcek|
 |CELLSJAVA-42602|Hafif modda hücreleri birleştirirken "IndexOutOfBoundsException" istisnası|İstisna|
 |CELLSJAVA-42610|Bir XLS dosyası yüklenirken "java.lang.IllegalStateException: Geçersiz kodlama: null" istisnası|İstisna|
 |CELLSJAVA-42608|ArrayIndexOutOfBoundsException bir Excel dosyasını açarken oluşuyor|İstisna|

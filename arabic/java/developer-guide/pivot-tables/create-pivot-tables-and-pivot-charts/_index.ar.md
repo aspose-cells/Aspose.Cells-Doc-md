@@ -1,5 +1,5 @@
 ﻿---
-title: إنشاء الجداول المحورية والمخططات المحورية
+title: إنشاء جداول محورية ومخططات محورية
 type: docs
 weight: 10
 url: /ar/java/create-pivot-tables-and-pivot-charts/

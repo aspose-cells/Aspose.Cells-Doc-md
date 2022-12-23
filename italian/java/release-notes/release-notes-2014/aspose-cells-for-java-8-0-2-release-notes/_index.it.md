@@ -11,7 +11,7 @@ url: /it/java/aspose-cells-for-java-8-0-2-release-notes/
 {{% /alert %}} 
 
  Aspose.Cells for Java è stato aggiornato alla versione 8.0.2 e siamo lieti di annunciare che questa versione porta l'aggiunta di oltre 10 nuovi utili miglioramenti.
-Utilizzando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, eseguire il rendering e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
+Usando Aspose.Cells for Java puoi lavorare con XLS, SpreadsheetML, OOXML, XLSB, CSV, HTML, ODS, PDF, XPS e altri formati nelle tue applicazioni. Puoi anche generare, modificare, convertire, visualizzare e stampare cartelle di lavoro senza utilizzare Microsoft Excel.
 Visita la documentazione per sapere come iniziare con Aspose.Cells for Java.
 Nota che questo download contiene una versione completamente funzionante del prodotto, tuttavia senza un set di licenze funzionerà in modalità di valutazione con alcune limitazioni. Per testare Aspose.Cells senza queste limitazioni di valutazione è possibile richiedere una licenza temporanea gratuita di 30 giorni.
 Di seguito è riportato un elenco delle modifiche in questa versione di Aspose.Cells for Java.
@@ -22,15 +22,15 @@ Altri miglioramenti e modifiche
 Miglioramenti
 
 (CELLSJAVA-40788) - Supporta il tema personalizzato per le proprietà delle forme
-(CELLSJAVA-40803) - Impostazione dei suggerimenti per il rendering delle immagini durante l'esportazione di fogli di calcolo in HTML
+(CELLSJAVA-40803) - Imposta i suggerimenti di rendering per le immagini durante l'esportazione dei fogli di calcolo su HTML
 
 Insetti
 
 (CELLSJAVA-40793) - L'intervallo non si riferisce all'area corretta
 (CELLSJAVA-40768) - Il metodo WorkbookRender.toPrinter() non stampa l'immagine
-(CELLSJAVA-40669) - Grande problema di rotazione della colonna durante il rendering di XLTX in PDF
-(CELLSJAVA-40801) - Cell problemi di allineamento nel file PDF renderizzato
-(CELLSJAVA-40406) - Conversione di file Excel con un numero elevato di colonne in file PDF
+(CELLSJAVA-40669) - Problema di rotazione della colonna principale durante il rendering da XLTX a PDF
+(CELLSJAVA-40801) - Cell problemi di allineamento nel file PDF sottoposto a rendering
+(CELLSJAVA-40406) - Conversione di file Excel con un numero elevato di colonne nel file PDF
 (CELLSJAVA-40794) - AutoFitColumns non funziona se utilizzato con impostazioni di carattere diverse
 (CELLSJAVA-40816) - Il cursore si sposta ancora sull'ultima colonna dopo aver utilizzato Cells.DeleteColumn() per eliminarlo
 (CELLSJAVA-40786) - La forma della fem generata non è la stessa dell'originale
@@ -42,9 +42,9 @@ Eccezioni
 (CELLSJAVA-40797) - Cell.getDependents() genera NullPointerException
 (CELLSJAVA-40800) - CellsException durante la conversione del foglio di calcolo in PDF su MAC OS
 
-API pubblica e modifiche non compatibili con le versioni precedenti
+Pubblico API e modifiche incompatibili con le versioni precedenti
 
-Di seguito è riportato un elenco di tutte le modifiche apportate all'API pubblica come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. il forum di supporto Aspose.Cells.
+Di seguito è riportato un elenco di eventuali modifiche apportate al pubblico API come membri aggiunti, rinominati, rimossi o deprecati, nonché qualsiasi modifica non compatibile con le versioni precedenti apportata a Aspose.Cells for .NET. In caso di dubbi su qualsiasi modifica elencata, si prega di segnalarlo su il forum di supporto Aspose.Cells.
 
 Aggiunge la proprietà Shape.TextDirection
 Ottiene/imposta la direzione del flusso di testo per Shape.

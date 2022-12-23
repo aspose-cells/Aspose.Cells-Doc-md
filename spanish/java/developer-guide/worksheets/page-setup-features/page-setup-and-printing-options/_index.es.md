@@ -45,12 +45,12 @@ Primero cree una hoja de trabajo simple en Microsoft Excel. Luego aplique las op
  1. Descomprímalo en su computadora de desarrollo.
  Todos[Aspose](http://www.aspose.com/) Los componentes, cuando están instalados, funcionan en modo de evaluación. El modo de evaluación no tiene límite de tiempo y solo inyecta marcas de agua en los documentos producidos.
 1. Crea un proyecto.
- Cree un proyecto usando un editor Java, por ejemplo, Eclipse, o cree un programa simple usando un editor de texto.
+Cree un proyecto usando un editor Java, por ejemplo, Eclipse, o cree un programa simple usando un editor de texto.
 1. Agregue una ruta de clase.
 1. Extraiga Aspose.Cells.jar y dom4j_1.6.1.jar de Aspose.Cells.zip.
  1. Establezca el classpath del proyecto en Eclipse:
  1. Seleccione su proyecto en Eclipse y luego haga clic en**Proyecto** seguido por**Propiedades**.
- 1. Seleccione**Java Ruta de construcción** la izquierda del cuadro de diálogo.
+ 1. Seleccione**Java Ruta de construcción** a la izquierda del cuadro de diálogo.
  1. Seleccione la pestaña Bibliotecas, haga clic en**Agregar JAR** o**Agregar JAR externos** para seleccionar Aspose.Cells.jar y dom4j_1.6.1.jar y agregarlos a las rutas de compilación.
  O puede configurarlo en tiempo de ejecución en un indicador de DOS en Windows:
 
@@ -69,7 +69,7 @@ Primero cree una hoja de trabajo simple en Microsoft Excel. Luego aplique las op
 
 Los ajustes de configuración de página también proporcionan varias opciones de impresión (también llamadas opciones de hoja) que permiten a los usuarios controlar cómo se imprimen las páginas de la hoja de trabajo. Permiten a los usuarios:
 
-- Seleccione un área de impresión específica de una hoja de cálculo.
+- Seleccione un área de impresión específica de una hoja de trabajo.
 - Imprimir títulos.
 - Imprimir líneas de cuadrícula.
 - Imprimir encabezados de fila/columna.

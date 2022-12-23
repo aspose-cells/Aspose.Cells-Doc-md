@@ -10,7 +10,7 @@ Tablo grubu eklemek için aşağıdaki adımları izleyin:
 
 1) Aşağıda gösterildiği gibi, tablo verileri satırının altında, tablo verileri sütununun ilk sütununun solunda bulunan grup etiketi hücresini seçin.
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-group_1.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-group_1.png)
 
 
 
@@ -22,7 +22,7 @@ Tablo grubu eklemek için aşağıdaki adımları izleyin:
 
 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-group_2.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-group_2.png)
 
 
 
@@ -30,7 +30,7 @@ Sonuç aşağıda gösterilmiştir.
 
 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-group_3.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-group_3.png)
 
 
 
@@ -38,7 +38,7 @@ Sonuç aşağıda gösterilmiştir.
 
 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-group_4.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-group_4.png)
 
 
 
@@ -46,7 +46,7 @@ Sonuç aşağıda gösterilmiştir.
 
 
 
-![yapılacaklar:resim_alternatif_Metin](adding-table-group_5.png)
+![yapılacaklar:resim_alternatif_metin](adding-table-group_5.png)
 
 
 

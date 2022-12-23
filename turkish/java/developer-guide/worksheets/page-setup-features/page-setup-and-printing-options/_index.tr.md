@@ -18,11 +18,11 @@ Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa 
 
 ### **Sayfa Yapısı Seçeneklerini Ayarlama**
 
-Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Düzeni seçeneklerini değiştirir.
+Önce Microsoft Excel'de basit bir çalışma sayfası oluşturun. Ardından ona sayfa yapısı seçeneklerini uygulayın. Kodu çalıştırmak, aşağıdaki ekran görüntüsündeki gibi Sayfa Yapısı seçeneklerini değiştirir.
 
 **Çıktı dosyası** 
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_1.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_1.png)
 
 1. Microsoft Excel'de bazı verilerle bir çalışma sayfası oluşturun:
  1. Microsoft Excel'de yeni bir çalışma kitabı açın.
@@ -31,26 +31,26 @@ Bu örnek için, Microsoft Excel'de bir çalışma kitabı oluşturduk ve sayfa 
 
       **Giriş dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_2.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_2.png)
 
 1. Sayfa kurulum seçeneklerini ayarlayın:
  Dosyaya sayfa yapısı seçeneklerini uygulayın. Yeni seçenekler uygulanmadan önce, varsayılan seçeneklerin ekran görüntüsü aşağıdadır.
 
    **Varsayılan sayfa kurulum seçenekleri**
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_3.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_3.png)
 
 1. Aspose.Cells'i indirin ve yükleyin:
    1. [İndirmek](https://downloads.aspose.com/cells/java) Aspose.Cells for Java.
  1. Geliştirme bilgisayarınızda sıkıştırılmış dosyayı açın.
  Herşey[Aspose](http://www.aspose.com/) bileşenler kurulduğunda değerlendirme modunda çalışır. Değerlendirme modunun zaman sınırı yoktur ve yalnızca üretilen belgelere filigran ekler.
 1. Bir proje oluşturun.
- Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
+Eclipse gibi bir Java düzenleyici kullanarak bir proje oluşturun veya bir metin düzenleyici kullanarak basit bir program oluşturun.
 1. Bir sınıf yolu ekleyin.
 1. Aspose.Cells.jar ve dom4j_1.6.1.jar'ı Aspose.Cells.zip'ten çıkarın.
  1. Eclipse'de projenin sınıf yolunu ayarlayın:
- 1. Eclipse'de projenizi seçin ve ardından tıklayın**proje** bunu takiben**Özellikleri**.
- 1. Seçin**Java Derleme Yolu**iletişim kutusunun solunda.
+ 1. Eclipse'de projenizi seçin ve ardından tıklayın**Proje** bunu takiben**Özellikler**.
+ 1. Seçin**Java Derleme Yolu** iletişim kutusunun solunda.
  1. Kitaplıklar sekmesini seçin, tıklayın**JAR ekle** veya**Harici JAR'lar Ekle** Aspose.Cells.jar ve dom4j_1.6.1.jar'ı seçip derleme yollarına eklemek için.
  Veya çalışma zamanında Windows'de bir DOS komut isteminde ayarlayabilirsiniz:
 
@@ -81,12 +81,12 @@ Sayfa yapısı ayarları ayrıca, kullanıcıların çalışma sayfası sayfalar
 Aşağıdaki örnek, yukarıdaki örnekte oluşturulan dosyaya (PageSetup.xls) yazdırma seçeneklerini uygular. Aşağıdaki ekran görüntüsü, yeni seçenekler uygulanmadan önceki varsayılan yazdırma seçeneklerini gösterir.
 **Giriş belgesi**
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_4.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_4.png)
 
 Kodun çalıştırılması yazdırma seçeneklerini değiştirir.
 **Çıktı dosyası**
 
-![yapılacaklar:resim_alternatif_Metin](page-setup-and-printing-options_5.png)
+![yapılacaklar:resim_alternatif_metin](page-setup-and-printing-options_5.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-SettingPrintoptions-SettingPrintoptions.java" >}}
 

@@ -19,7 +19,7 @@ Para editar una fórmula en una celda de Excel Microsoft:
 1.  Seleccione una categoría (usuario, parámetros, campos, etc.) de la**Campos de informe** lista (la lista de la izquierda).
 1.  Seleccione el tipo de la**Funciones** lista (en el medio).
 1.  Seleccione una opción de la**Operadores** lista (la lista de la derecha).
-1.  Hacer clic**Insertar**para agregar la expresión a la**Editar** área.
+1.  Hacer clic**Insertar**para agregar la expresión a la**Editar** zona.
 1.  Hacer clic**Insertar** cuando la expresión es completa.
  La fórmula se inserta en la celda.
 

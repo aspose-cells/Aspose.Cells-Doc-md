@@ -23,7 +23,7 @@ Esta página contiene notas de la versión para Aspose.Cells for Java 19.11.
 |CELLSJAVA-43033|La conversión a PDF no termina.|Insecto|
 |CELLSJAVA-43034|Se recupera una salida de formato de fecha rusa (personalizada) no válida|Insecto|
 |CELLSJAVA-43040|LoadFilter no considera la hoja requerida|Insecto|
-|CELLSJAVA-43035|Los bordes se pierden al convertir un archivo de Excel a EMF|Insecto|
+|CELLSJAVA-43035|Los bordes se pierden al convertir el archivo de Excel a EMF|Insecto|
 |CELLSJAVA-43016|Recuento de páginas no válido de SheetRender|Insecto|
 |CELLSJAVA-43026|Después de representar el gráfico en una imagen, las etiquetas de datos cambian de estilo y los valores no son los mismos|Insecto|
 |CELLSJAVA-43038|Los hipervínculos no se exportan con Cell.setHtmlString()|Insecto|

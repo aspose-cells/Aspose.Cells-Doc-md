@@ -11,7 +11,7 @@ url: /ja/java/public-api-changes-in-aspose-cells-8-7-0/
 {{% /alert %}} 
 ## **追加された API**
 ### **PDF 最適化のサポート**
-Aspose.Cells API は、スプレッドシートを PDF に変換する機能を既に提供しています。この API のリリースにより、ユーザーは次のことができるようになりました。[結果の PDF サイズを最適化する](/cells/ja/java/save-excel-into-pdf-with-standard-or-minimum-size/)同じように。 Aspose.Cells for Java 8.7.0 では、スプレッドシートを PDF 形式にエクスポートする際にユーザーが目的の最適化アルゴリズムを簡単に選択できるように、PdfOptimizationType 列挙とともに PdfSaveOptions.OptimizationType プロパティが公開されています。以下に詳述するように、PdfSaveOptions.OptimizationType プロパティには 2 つの可能な値があります。
+Aspose.Cells API は、スプレッドシートを PDF に変換する機能を既に提供しています。[結果の PDF サイズを最適化する](/cells/ja/java/save-excel-into-pdf-with-standard-or-minimum-size/)同じように。 Aspose.Cells for Java 8.7.0 では、スプレッドシートを PDF 形式にエクスポートする際に、ユーザーが目的の最適化アルゴリズムを簡単に選択できるように、PdfOptimizationType 列挙とともに PdfSaveOptions.OptimizationType プロパティが公開されています。以下に詳述するように、PdfSaveOptions.OptimizationType プロパティには 2 つの可能な値があります。
 
 1. PdfOptimizationType.MINIMUM_SIZE: 結果のファイル サイズに対して品質が低下します。
 1. PdfOptimizationType.STANDARD: 品質が損なわれないため、結果のファイル サイズが大きくなります。
@@ -212,7 +212,7 @@ formatCondition.getColorScale().setIs3ColorScale(false);
 
 {{< /highlight >}}
 ### **プロパティ TxtLoadOptions.HasFormula が追加されました**
-Aspose.Cells for Java 8.7.0 は[区切られたプレーンデータを含む CSV/TXT ファイルを読み込みながら、数式を識別して解析します](/cells/ja/java/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
+Aspose.Cells for Java 8.7.0 は[区切られたプレーンデータを含むCSV/TXTファイルをロードしながら、式を識別して解析します](/cells/ja/java/load-or-import-csv-file-with-formulas/).新しく公開された TxtLoadOptions.HasFormula プロパティを true に設定すると、API が入力区切りファイルから数式を解析し、追加の処理を必要とせずに関連するセルに設定するように指示されます。
 
 以下は、簡単な使用シナリオです。
 

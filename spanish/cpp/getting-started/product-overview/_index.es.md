@@ -50,7 +50,7 @@ Utilice Aspose.Cells for C++ para compilar cualquier tipo de aplicación C++ de 
 
 Aspose.Cells for C++ está diseñado para funcionar igualmente bien en el servidor o en el lado del cliente. Aspose.Cells for C++ es un ensamblado nativo que se puede implementar simplemente copiándolo. No tienes que preocuparte por otros servicios o módulos.
 
-## **Apoyo técnico**
+## **Soporte técnico**
 
 Aspose brinda soporte técnico ilimitado y gratuito para todos sus productos. El soporte está disponible para todos los usuarios, incluida la evaluación.
 

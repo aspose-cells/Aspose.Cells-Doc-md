@@ -75,7 +75,7 @@ Comme vous pouvez le constater, les deux approches mentionnées ci-dessus utilis
 
 ## **Conclusion**
 
-Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles dans lesquels les enquêteurs devraient être utilisés.
+Sur la base des faits mentionnés ci-dessus, voici les scénarios possibles dans lesquels les enquêteurs doivent être utilisés.
 
 1. Un accès en lecture seule à la collection de cellules est requis, c'est-à-dire ; l'exigence est d'inspecter uniquement les cellules.
 1. Un grand nombre de cellules sont à traverser.

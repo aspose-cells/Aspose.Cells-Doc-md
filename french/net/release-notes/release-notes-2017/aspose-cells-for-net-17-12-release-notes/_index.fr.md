@@ -10,11 +10,11 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.12.
 
 {{% /alert %}} 
 
-|**Clé**|**Sommaire**|**Catégorie**|
+|**Clé**|**Résumé**|**Catégorie**|
 |:- |:- |:- |
-|CELLSNET-45358|Obtenir le CSS séparément du balisage HTML lors de l'exportation au format HTML à l'aide de flux|Nouvelle fonctionnalité|
+|CELLSNET-45358|Obtenir le CSS séparément du balisage HTML lors de l'exportation vers HTML à l'aide de flux|Nouvelle fonctionnalité|
 |CELLSNET-45697|Implémenter Cell.FormulaLocal similaire à Microsoft Interop FormulaLocal|Nouvelle fonctionnalité|
-|CELLSNET-45801|Prise en charge des compléments Office dans le rendu Excel vers PDF|Nouvelle fonctionnalité|
+|CELLSNET-45801|Prise en charge des compléments Office dans Excel pour le rendu PDF|Nouvelle fonctionnalité|
 |CELLSNET-45796|Marqueurs intelligents - Comment remplir automatiquement les données dans la deuxième feuille de calcul si les données sont trop volumineuses et ne peuvent pas être insérées dans une seule feuille|Nouvelle fonctionnalité|
 |CELLSNET-45791|Mettre à jour "Conserver l'historique des modifications" lors du partage du classeur|Nouvelle fonctionnalité|
 |CELLSNET-45746|Le texte dans les cellules se chevauche avec d'autres cellules sur Aspose.Cells.GridDesktop|Nouvelle fonctionnalité|
@@ -23,7 +23,7 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.12.
 |CELLSNET-45794|La formule matricielle impliquant "MEDIAN" est calculée comme vide|Punaise|
 |CELLSNET-45779|Cell l'alignement du texte est modifié dans l'image convertie|Punaise|
 |CELLSNET-45772|Une page perdue lors de la conversion de la feuille de calcul en image|Punaise|
-|CELLSNET-45764|L'état des DataBars est incorrect dans le PDF de sortie|Punaise|
+|CELLSNET-45764|L'état des DataBars est incorrect dans la sortie PDF|Punaise|
 |CELLSNET-45785|Série "Nominale en Essere (mln)" Le positionnement des étiquettes de données est erroné|Punaise|
 |CELLSNET-45775|L'étiquette du deuxième axe vertical est manquante lors de la conversion du graphique en image|Punaise|
 |CELLSNET-45762|Chart.Calculate prend plus de temps et ne fonctionne pas|Punaise|
@@ -38,7 +38,7 @@ Cette page contient les notes de version pour Aspose.Cells for .NET 17.12.
 |CELLSNET-45768|Workbook.Save(Stream stream, SaveFormat saveFormat) échoue si le flux ne prend pas en charge Seek|Punaise|
 |CELLSNET-45780|Problème d'affichage des données de la feuille de calcul de droite à gauche|Punaise|
 |CELLSNET-45745|Erreur lors du clic sur la barre de défilement sur Aspose.Cells.GridDesktop|Punaise|
-|CELLSNET-45777|Une erreur de forme en image se produit lors de la conversion d'un fichier Excel en PDF|Exception|
+|CELLSNET-45777|Une erreur Shape to Image se produit lors de la conversion du fichier Excel en PDF|Exception|
 |CELLSNET-45804|Exception à l'ouverture d'un fichier Excel (Strict Open XML Spreadsheet)|Exception|
 |CELLSNET-45798|L'index était en dehors des limites du tableau - Exception lors du rendu du fichier Excel|Exception|
 |CELLSNET-45795|Vous devez entrer des données pour les critères de validation - une exception se produit lors de l'enregistrement du classeur|Exception|
@@ -79,7 +79,7 @@ Représente la forme de l'extension Web.
 Veuillez consulter la liste des rubriques d'aide ajoutées dans les documents Wiki Aspose.Cells :
 
 - [Remplir automatiquement les données du marqueur intelligent dans d'autres feuilles de calcul si les données sont trop volumineuses](/cells/fr/net/auto-populate-smart-marker-data-to-other-worksheets-if-data-is-too-large/)
-- [Exporter la feuille de calcul CSS séparément dans le HTML de sortie](/cells/fr/net/export-worksheet-css-separately-in-output/)
+- [Exporter la feuille de calcul CSS séparément dans la sortie HTML](/cells/fr/net/export-worksheet-css-separately-in-output/)
 - [Implémenter Cell.FormulaLocal similaire à Excel VBA Range.FormulaLocal](/cells/fr/net/implement-cell-formulalocal-similar-to-excel-vba-range-formulalocal/)
 - [Préfixer les styles d'éléments de table avec la propriété HtmlSaveOptions.TableCssId](/cells/fr/net/prefix-table-elements-styles-with-htmlsaveoptions-tablecssid-property/)
 - [Rendu des compléments Office lors de la conversion d'Excel en PDF](/cells/fr/net/render-office-add-ins-while-converting-excel-to-pdf/)

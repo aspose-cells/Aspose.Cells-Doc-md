@@ -11,7 +11,7 @@ url: /de/net/grid-faq/
 ## **Ich habe kürzlich meine Lizenz für Aspose.Cells Grid Controls erworben. Wie kann ich diese Lizenz in meiner Anwendung mit Aspose.Cells Grid Control verwenden?**
 Bitte wende dich an die[Lizenzierung](/cells/de/net/licensing/) Seite von Aspose.Cells Grid Controls. Es enthält vollständige Details zur Verwendung der Lizenz mit Aspose.Cells Grid Controls in Ihren Anwendungen.
 ## **Werden Aspose.Cells Grid Controls von Visual Studio.NET 2005 unterstützt?**
-Ja, Aspose.Cells-Rastersteuerelemente werden von Visual Studio.NET 2005 und höheren Versionen vollständig unterstützt.
+Ja, Aspose.Cells-Rastersteuerelemente werden von Visual Studio.NET 2005 und späteren Versionen vollständig unterstützt.
 ## **Ich verwende das Aspose.Cells.GridWeb-Steuerelement in meiner Website mit Visual Studio.NET 2005. Aber es funktioniert überhaupt nicht. Was ist das Problem?**
  Aspose.Cells. GridWeb unterstützt beides**Dateisystem** und**HTTP** Modi von Visual Studio.NET 2005. Wenn Sie immer noch verwirrt sind, werfen Sie bitte einen Blick auf eine Schritt-für-Schritt-Anleitung zum Arbeiten mit Aspose.Cells.GridWeb unter Verwendung von Visual Studio.NET 2005.
 ## **Wie kann ich mein Aspose.Cells.GridWeb-basiertes Webprojekt/ meine Lösung auf dem Server bereitstellen?**

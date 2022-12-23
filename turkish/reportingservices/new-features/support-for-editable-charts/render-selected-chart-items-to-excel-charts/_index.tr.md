@@ -31,10 +31,10 @@ Bir rapordaki yalnızca bazı grafikleri Excel grafiklerine dönüştürmek içi
 
 **Resim olarak dışa aktarılan bir grafik** 
 
-![yapılacaklar:resim_alternatif_Metin](render-selected-chart-items-to-excel-charts_1.png)
+![yapılacaklar:resim_alternatif_metin](render-selected-chart-items-to-excel-charts_1.png)
 
 **Düzenlenebilir bir Excel grafiği olarak dışa aktarılan bir grafik** 
 
-![yapılacaklar:resim_alternatif_Metin](render-selected-chart-items-to-excel-charts_2.png)
+![yapılacaklar:resim_alternatif_metin](render-selected-chart-items-to-excel-charts_2.png)
 
 {{% /alert %}}

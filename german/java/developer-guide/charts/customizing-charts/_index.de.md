@@ -33,7 +33,7 @@ Vor dem Erstellen von Diagrammen ist es wichtig, einige grundlegende Konzepte zu
 - [**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) , eine Sammlung von[**Diagramm**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart)Objekte.
 -  DataLabels, DataLabels für die angegebenen[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series), [**ChartPoint**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartPoint), [**Trendlinie**](https://reference.aspose.com/cells/java/com.aspose.cells/Trendline), etc.
 - [**Füllformat**](https://reference.aspose.com/cells/java/com.aspose.cells/FillFormat), Füllformat für eine Form.
-- [**Boden**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), der Boden eines 3D-Diagramms.
+- [**Umhauen**](https://reference.aspose.com/cells/java/com.aspose.cells/Floor), der Boden eines 3D-Diagramms.
 - [**Legende**](https://reference.aspose.com/cells/java/com.aspose.cells/Legend), die Diagrammlegende.
 - [**Linie**](https://reference.aspose.com/cells/java/com.aspose.cells/Line), die Diagrammlinie.
 - [**SerieSammlung**](https://reference.aspose.com/cells/java/com.aspose.cells/SeriesCollection) , eine Sammlung von[**Serie**](https://reference.aspose.com/cells/java/com.aspose.cells/Series)Objekte.
@@ -129,7 +129,7 @@ So erstellen Sie ein Diagramm mit Aspose.Cells:
 
 1.  Fügen Sie einige Daten zu Arbeitsblattzellen mit hinzu[**Cell**](https://reference.aspose.com/cells/java/com.aspose.cells/Cell) Objekt[**setValue**](https://reference.aspose.com/cells/java/com.aspose.cells/cell#Value)Methode.
  Dies wird als Datenquelle für das Diagramm verwendet.
-1.  Fügen Sie dem Arbeitsblatt ein Diagramm hinzu, indem Sie die aufrufen[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) Sammlung[*hinzufügen*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) )-Methode, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Objekt.
+1.  Fügen Sie dem Arbeitsblatt ein Diagramm hinzu, indem Sie die aufrufen[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection) Sammlung[*addieren*](https://reference.aspose.com/cells/java/com.aspose.cells/chartcollection#add(int,%20int,%20int,%20int,%20int) )-Methode, gekapselt in der[**Arbeitsblatt**](https://reference.aspose.com/cells/java/com.aspose.cells/Worksheet)Objekt.
 1.  Geben Sie den Diagrammtyp mit an[**Diagramm Typ**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartType)Aufzählung.
  Beispielsweise verwendet das Beispiel die[**ChartType.PYRAMID**](https://reference.aspose.com/cells/java/com.aspose.cells/charttype#PYRAMID)value als Diagrammtyp.
 1.  Greifen Sie auf das Neue zu[**Diagramm**](https://reference.aspose.com/cells/java/com.aspose.cells/Chart) Objekt aus der[**ChartCollection**](https://reference.aspose.com/cells/java/com.aspose.cells/ChartCollection)-Sammlung, indem ihr Index übergeben wird.

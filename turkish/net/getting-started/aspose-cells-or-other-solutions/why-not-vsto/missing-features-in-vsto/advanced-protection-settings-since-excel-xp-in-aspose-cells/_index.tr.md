@@ -21,12 +21,12 @@ Aspose.Cells, Excel XP veya sonraki sürümleri tarafından sunulan tüm gelişm
 
 Excel XP'de bulunan koruma ayarlarını görüntülemek için:
 
-1.  itibaren**Aletler** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**.
+1.  itibaren**Araçlar** menü, seç**Koruma** bunu takiben**Sayfayı Koruyun**.
  Bir iletişim kutusu görüntülenir.
 
    **Excel XP'de koruma seçeneklerini gösteren iletişim kutusu**
 
-![yapılacaklar:resim_alternatif_Metin](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
+![yapılacaklar:resim_alternatif_metin](advanced-protection-settings-since-excel-xp-in-aspose-cells_1.png)
 
 1. Çalışma sayfası özelliklerine izin verin veya bunları kısıtlayın ya da bir parola uygulayın.
 

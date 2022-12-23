@@ -16,7 +16,7 @@ url: /it/net/aspose-cells-for-net-7-1-0-release-notes/
 Aspose.Cells 
 
 Nuovo
-Caratteristiche
+ Caratteristiche
 
 - Supporto per applicare la formattazione condizionale alle tabelle pivot
 - Leggere la configurazione dei campi di gruppo nelle tabelle pivot
@@ -34,11 +34,11 @@ Caratteristiche
 
  -PivotField.ShowCompact: valore della proprietà errato nel formato XLS
 
- - Valore errato degli elementi del campo pivot nei campi raggruppati
+ Valore errato degli elementi del campo pivot nei campi raggruppati
 
  -Lettura di elementi dalla cache (Pivot Field)
 
-- Problemi durante l'apertura di un file SpreadsheetML
+- Problemi nell'apertura di un file SpreadsheetML
 
  Prestazione
 
@@ -55,7 +55,7 @@ Caratteristiche
 
  Insetti
 
--Impossibile aggiornare la tabella pivot in una cartella di lavoro di Excel
+ -Impossibile aggiornare la tabella pivot in una cartella di lavoro di Excel
 
 - Problema con il formato carta predefinito
 - Bordo destro sporco sull'immagine durante la conversione da XLS a PDF
@@ -65,11 +65,11 @@ Caratteristiche
 - Da Excel a Html: problema di a capo automatico
 - Gli attributi del carattere del pulsante vengono modificati dopo il salvataggio
 - La legenda del grafico viene ridotta utilizzando il metodo Shape.UpperLeftRow()
-- Errore nel documento PDF di output
-- Intestazioni su più righe non supportate durante il rendering in file PDF
+- Errore nel documento di output PDF
+- Intestazioni multilinea non supportate durante il rendering nel file PDF
 - Lettura di tutti i dati dai campi base della tabella pivot
 - L'esportazione del foglio Excel in DataTable restituisce un errore
-- Problema di apertura dei file ODS
+- Apertura del numero di file ODS
 - Il bordo Cell non viene visualizzato correttamente con Aspose.Cells v7.0.4.x
 
  -La formula risulta in #Ref
@@ -78,13 +78,13 @@ Caratteristiche
 - Errore durante l'apertura del file utilizzando Ms Excel
 - Problema con l'output HTML nella nuova DLL Aspose.Cells (versione)
 
--L'aggiornamento del file XLSX con la tabella pivot fa sì che Excel visualizzi un errore
+ -L'aggiornamento del file XLSX con la tabella pivot fa sì che Excel visualizzi un errore
 
  - Funzione ToImage che genera una colonna aggiuntiva nell'immagine generata (Sheet-to-Imageissue)
 
 - La cartella di lavoro di Excel 2007 con più tabelle colorate non viene visualizzata nel file PDF convertito
 
- -L'utilizzo dell'opzione Fitting Sheet su una pagina in Excel per la conversione in PDF non sembra funzionare
+ -L'utilizzo dell'opzione Fitting Sheet on One Page in Excel per la conversione in PDF non sembra funzionare
 
 - Diversi problemi durante l'aggiornamento da v5.2.1.0 a v7.0.3.0
 
@@ -100,5 +100,5 @@ Caratteristiche
 
  Insetti
 
-- L'importazione di un file XLSX nei problemi di GridWeb
+- Importazione di un file XLSX nei problemi di GridWeb
 - La formula non funziona bene

@@ -7,7 +7,7 @@ url: /it/net/using-smart-markers/
 description: Importazione e posizionamento intelligente dei dati in base ai file Excel modello con la libreria Aspose.Cells.
 ---
 ## **introduzione**
-**Marcatori intelligenti**vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo di Microsoft Excel designer. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
+**Marcatori intelligenti**vengono utilizzati per consentire a Aspose.Cells di sapere quali informazioni inserire in un foglio di calcolo Excel Designer Microsoft. I marcatori intelligenti consentono di creare modelli che contengono solo informazioni e formattazioni specifiche.
 ## **Foglio di calcolo per designer e marcatori intelligenti**
 I fogli di calcolo per designer sono file Excel standard che contengono formattazione visiva, formule e marcatori intelligenti. Possono contenere marcatori intelligenti che fanno riferimento a una o più origini dati, ad esempio informazioni da un progetto e informazioni per i contatti correlati. I marcatori intelligenti vengono scritti nelle celle in cui desideri le informazioni.
 
@@ -30,7 +30,7 @@ Sono ammessi i seguenti parametri:
 - **ascendente: n** o**discendente: n** - Ordina i dati in marcatori intelligenti. Se n è 1, la colonna è la prima chiave dell'ordinatore. I dati vengono ordinati dopo l'elaborazione dell'origine dati. Ad esempio: &=Tabella1.Campo3(crescente:1).
 - **orizzontale** - Scrivi i dati da sinistra a destra, invece che dall'alto verso il basso.
 - **numerico** - Converti testo in numero, se possibile.
-- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio, in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. Insomma, il**spostare** Il parametro svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
+- **spostare** - Sposta in basso oa destra, creando righe o colonne extra per adattare i dati. Il parametro shift funziona allo stesso modo di Microsoft Excel. Ad esempio in Microsoft Excel, quando selezioni un intervallo di celle, fai clic con il pulsante destro del mouse e seleziona**Inserire** e specificare**spostare le celle verso il basso**, **sposta le celle a destra** e altre opzioni. Insomma, il**spostare** Il parametro svolge la stessa funzione per gli smart marker verticali/normali (dall'alto verso il basso) o orizzontali (da sinistra a destra).
 - **copystyle** - Copia lo stile della cella di base in tutte le celle di quella colonna.
 
 parametri noadd e skip possono essere combinati per inserire dati su righe alternate. Poiché il modello viene elaborato dal basso verso l'alto, è necessario aggiungere noadd sulla prima riga per evitare l'inserimento di righe aggiuntive prima della riga alternativa.
@@ -87,7 +87,7 @@ Il seguente codice di esempio mostra come utilizzare gli array di variabili negl
 
 {{< gist "aspose-cells-gists" "88c9872508ec3150c552eb5155edf06e" "Examples-CSharp-SmartMarkers-UsingVariableArray-1.cs" >}}
 ## **Raggruppamento dei dati**
-In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ciascun gruppo di record.
+In alcuni report di Excel potrebbe essere necessario suddividere i dati in gruppi per facilitarne la lettura e l'analisi. Uno degli scopi principali per suddividere i dati in gruppi è eseguire calcoli (eseguire operazioni di riepilogo) su ogni gruppo di record.
 
 I marcatori intelligenti Aspose.Cells consentono di raggruppare i dati per campi e posizionare righe di riepilogo tra set di dati o gruppi di dati. Ad esempio, se si raggruppano i dati per Customers.CustomerID, è possibile aggiungere un record di riepilogo ogni volta che il gruppo cambia.
 ### **Parametri**
@@ -105,18 +105,18 @@ Salta un numero specificato di righe dopo ogni gruppo.
 
 Ad esempio, &=Employees.EmployeeID(group:normal,skip:1)
 #### **subtotaleN**
-Esegue un'operazione di riepilogo per i dati di un campo specificato relativi a un raggruppamento per campo. La N rappresenta i numeri compresi tra 1 e 11 che specificano la funzione utilizzata durante il calcolo dei subtotali all'interno di un elenco di dati. (1=MEDIA, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SOMMA ecc.) Fare riferimento al subtotale di riferimento nella guida di Microsoft Excel per ulteriori dettagli.
+Esegue un'operazione di riepilogo per i dati di un campo specificato relativi a un raggruppamento per campo. La N rappresenta i numeri compresi tra 1 e 11 che specificano la funzione utilizzata durante il calcolo dei subtotali all'interno di un elenco di dati. (1=MEDIA, 2=COUNT, 3=COUNTA, 4=MAX, 5=MIN,...9=SOMMA ecc.) Fare riferimento al riferimento Subtotale nella guida di Excel Microsoft per ulteriori dettagli.
 
 Il formato in realtà indica come:
 subtotalN:Ref dove Ref fa riferimento al gruppo per colonna.
 
 Per esempio,
 
--  &=Products.Units(subtotal9:Products.ProductID) specifica la funzione di riepilogo su**Unità** campo rispetto al**Numero identificativo del prodotto** campo nel**Prodotti** tavolo.
+-  &=Products.Units(subtotal9:Products.ProductID) specifica la funzione di riepilogo su**Unità** campo rispetto al**Codice prodotto** campo nel**Prodotti** tavolo.
 -  &=Tabx.Col3(subtotal9:Tabx.Col1) specifica la funzione di riepilogo su**Col3** raggruppamento di campi per**col.1** sul tavolo**Tabx**.
 -  &=Table1.ColumnD(subtotal9:Table1.ColumnA&Table1.ColumnB) specifica la funzione di riepilogo su**Colonna D** raggruppamento di campi per**Colonna A** e**Colonna B** sul tavolo**Tabella 1**.
 
-Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Microsoft Access Northwind.mdb ed estrae i dati dalla tabella denominata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo marcatori intelligenti in varie celle nei fogli di lavoro. I marcatori vengono elaborati per riempire i fogli di lavoro. I dati vengono inseriti e organizzati da un campo di gruppo.
+Questo esempio mostra alcuni dei parametri di raggruppamento in azione. Utilizza il database Northwind.mdb Microsoft Access ed estrae i dati dalla tabella denominata "Dettagli ordine". Creiamo un file designer chiamato SmartMarker_Designer.xls in Microsoft Excel e inseriamo marcatori intelligenti in varie celle nei fogli di lavoro. I marcatori vengono elaborati per riempire i fogli di lavoro. I dati vengono inseriti e organizzati da un campo di gruppo.
 
 Il file designer ha due fogli di lavoro. Nel primo inseriamo marcatori intelligenti con parametri di raggruppamento come mostrato nello screenshot qui sotto. Vengono posizionati tre marcatori intelligenti (con parametri di raggruppamento):
 &=[Dettagli ordine].IDOrdine(gruppo:unione,salta:1),
@@ -190,8 +190,8 @@ Aspose.Cells ora supporta anche l'utilizzo di un elenco generico come oggetto ni
 
 
 {{< gist "aspose-com-gists" "24a8eac23c3325e20dababecf735a43b" "Examples-CSharp-SmartMarkers-UsingGenericList-1.cs" >}}
-## **Utilizzo della proprietà HTML degli Smart Marker**
- Il seguente codice di esempio spiega l'uso della proprietà HTML degli Smart Marker. Quando verrà elaborato, mostrerà "Mondo" in "Hello World" in grassetto a causa dell'HTML<b>etichetta.
+## **Utilizzando la proprietà HTML di Smart Markers**
+ Il seguente codice di esempio spiega l'uso della proprietà HTML degli Smart Marker. Quando verrà elaborato, mostrerà "World" in "Hello World" in grassetto a causa di HTML<b> etichetta.
 
 
 

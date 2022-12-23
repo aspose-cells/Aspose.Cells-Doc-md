@@ -16,17 +16,17 @@ Bu sayfa Aspose.Cells for Java 18.1 için sürüm notları içerir.
 |CELLSJAVA-42491|Belge özelliklerinin dışa aktarılıp aktarılmayacağına karar vermek için bir seçenek sağlayın (üst sorun kimliği: CELLSJAVA-42471)|Yeni özellik|
 |CELLSJAVA-42498|Grafik sayfası için bir PdfBookmarkEntry oluşturun|Yeni özellik|
 |CELLSJAVA-42464|Tüm ActiveX denetimleri için gerekli düzeltme (ana sorun kimliği: CELLSJAVA-42442)|Artırma|
-|CELLSJAVA-42490|Excel dosyasını HTML'ye dışa aktarırken kullanılmayan stilleri hariç tutun (ana sorun kimliği: CELLSJAVA-42471)|Artırma|
+|CELLSJAVA-42490|Excel dosyasını HTML'e dışa aktarırken kullanılmayan stilleri hariç tutun (üst sorun kimliği: CELLSJAVA-42471)|Artırma|
 |CELLSJAVA-42473|Görüntülerin bazı bölümleri kesik veya eksik ve orijinal kaynak görüntülerle eşleşmiyor|Böcek|
-|CELLSJAVA-42469|Görüntü, çıktı PDF'sindeki Şekilden çıkıntı yapıyor|Böcek|
-|CELLSJAVA-42461|Çıktı HTML'sinde öğe şekli yanlış|Böcek|
+|CELLSJAVA-42469|Görüntü, PDF çıktısındaki Şekilden çıkıntı yapıyor|Böcek|
+|CELLSJAVA-42461|HTML çıktısında öğe şekli yanlış|Böcek|
 |CELLSJAVA-42495|Excel'den Html'ye - Metni kaydırma yoksayılır|Böcek|
 |CELLSJAVA-42489|XLSB dosyası açıldıktan ve kaydedildikten sonra bozuluyor|Böcek|
 |CELLSJAVA-42487|HTML çıktı tutarsızlığı - Boşluklarla ilgili sorun|Böcek|
-|CELLSJAVA-42471|HTML'ye kaydederken dahil edilen alakasız veriler|Böcek|
-|CELLSJAVA-42467|Yeniden kaydettikten sonra XLSB bozuldu|Böcek|
+|CELLSJAVA-42471|HTML'e kaydederken dahil edilen alakasız veriler|Böcek|
+|CELLSJAVA-42467|XLSB, yeniden kaydettikten sonra bozuldu|Böcek|
 |CELLSJAVA-42488|15 basamaklı sayılar MS Excel'dekilerle eşleşmiyor|Böcek|
-|CELLSJAVA-42499|Çıktı PDF'sini (Aspose.Cells'e göre) MS Excel tarafından oluşturulan PDF ile karşılaştırırken kenar boşlukları ve düzen farklılıkları|Böcek|
+|CELLSJAVA-42499|PDF çıktısı (Aspose.Cells'e göre) MS Excel tarafından oluşturulan PDF ile karşılaştırılırken kenar boşlukları ve düzen farklılıkları|Böcek|
 |CELLSJAVA-42486|Özellik Java'de çalışmıyor - ResultSet|Böcek|
 |CELLSJAVA-42500|MS Excel dosyası yüklenirken NullPointerException oluşuyor|İstisna|
 ## **Herkese Açık API ve Geriye Dönük Uyumsuz Değişiklikler**

@@ -19,8 +19,8 @@ Aspose.Cells提供[Shape.getGeometry().getShapeAdjustValues()](https://reference
 ## **更改形状的调整值**
 以下示例代码访问源 Excel 文件中第一个工作表的前三个形状，然后更改形状的调整值。下面的屏幕截图显示了更改调整值之前和更改调整值之后形状的外观。
 ### **更改调整值之前绘制形状**
-![待办事项：图像_替代_文本](change-adjustment-values-of-the-shape_1.png)
+![待办事项：图片_替代_文本](change-adjustment-values-of-the-shape_1.png)
 ### **更改调整值后绘制形状**
-![待办事项：图像_替代_文本](change-adjustment-values-of-the-shape_2.png)
+![待办事项：图片_替代_文本](change-adjustment-values-of-the-shape_2.png)
 
 {{< gist "aspose-cells-gists" "5876dc77e47649b66bdb5deefb4b5639" "Examples-src-main-java-com-aspose-cells-examples-articles-ChangeAdjustmentValuesOfShape-ChangeAdjustmentValuesOfShape.java" >}}

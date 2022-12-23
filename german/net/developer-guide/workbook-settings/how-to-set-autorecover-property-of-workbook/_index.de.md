@@ -6,13 +6,13 @@ url: /de/net/how-to-set-autorecover-property-of-workbook/
 ---
 {{% alert color="primary" %}}
 
- Sie können Aspose.Cells verwenden, um die AutoRecover-Eigenschaft der Arbeitsmappe festzulegen. Der Standardwert dieser Eigenschaft ist**Stimmt** . Wenn Sie es einstellen**FALSCH** In einer Arbeitsmappe deaktiviert Microsoft Excel die automatische Wiederherstellung (automatisches Speichern) für diese Excel-Datei.
+Sie können Aspose.Cells verwenden, um die AutoRecover-Eigenschaft der Arbeitsmappe festzulegen. Der Standardwert dieser Eigenschaft ist**wahr** . Wenn Sie es einstellen**FALSCH** In einer Arbeitsmappe deaktiviert Microsoft Excel die automatische Wiederherstellung (automatisches Speichern) für diese Excel-Datei.
 
  Aspose.Cells bietet[**Arbeitsmappe.Einstellungen.AutoWiederherstellen**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) -Eigenschaft, um diese Option zu aktivieren oder zu deaktivieren.
 
 {{% /alert %}}
 
- Der folgende Code erklärt die Verwendung[**Arbeitsmappe.Einstellungen.AutoWiederherstellen**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) Eigentum der Arbeitsmappe. Der Code liest zuerst den Standardwert dieser Eigenschaft, der ist**Stimmt** , dann setzt es es als**FALSCH** und speichert die Arbeitsmappe. Dann liest es die Arbeitsmappe erneut und liest den Wert dieser Eigenschaft, der lautet**FALSCH** zu dieser Zeit.
+ Der folgende Code erklärt die Verwendung[**Arbeitsmappe.Einstellungen.AutoWiederherstellen**](https://reference.aspose.com/cells/net/aspose.cells/workbooksettings/properties/autorecover) Eigentum der Arbeitsmappe. Der Code liest zuerst den Standardwert dieser Eigenschaft, der ist**wahr** , dann setzt es es als**FALSCH** und speichert die Arbeitsmappe. Dann liest es die Arbeitsmappe erneut und liest den Wert dieser Eigenschaft, der lautet**FALSCH** in diesem Moment.
 
 ## C#-Code zum Festlegen der AutoRecover-Eigenschaft von Workbook
 

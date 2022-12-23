@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /fr/java/cells-number-settings/
 ---
-## **Définition des formats d'affichage des nombres et des dates**
+## **Définition des formats d'affichage de Numbers et des dates**
 
 Une caractéristique très forte de Microsoft Excel est qu'il permet aux utilisateurs de définir les formats d'affichage des valeurs numériques et des dates. Nous savons que les données numériques peuvent être utilisées pour représenter différentes valeurs, notamment des valeurs décimales, monétaires, de pourcentage, de fraction ou comptables, etc. Toutes ces valeurs numériques sont affichées dans différents formats en fonction du type d'informations qu'elles représentent. De même, il existe de nombreux formats dans lesquels une date ou une heure peut être affichée.
 Aspose.Cells prend en charge cette fonctionnalité et permet aux développeurs de définir n'importe quel format d'affichage pour un nombre ou une date.
@@ -16,11 +16,11 @@ Pour définir les formats d'affichage dans Microsoft Excel :
 1. Cliquez avec le bouton droit sur n'importe quelle cellule.
 1.  Sélectionner**Format Cells**. Une boîte de dialogue apparaîtra qui est utilisée pour définir les formats d'affichage de tout type de valeur.
 
- Dans la partie gauche de la boîte de dialogue, il existe de nombreuses catégories de valeurs telles que**Général**, **Numéro**, **Devise**, **Comptabilité**, **Date**, **Temps**, **Pourcentage,**etc. Aspose.Cells prend en charge tous ces formats d'affichage.
+ Dans la partie gauche de la boîte de dialogue, il existe de nombreuses catégories de valeurs telles que**Général**, **Nombre**, **Devise**, **Comptabilité**, **Date**, **Temps**, **Pourcentage,**etc. Aspose.Cells prend en charge tous ces formats d'affichage.
 
 ## **Utilisation des formats numériques intégrés**
 
- Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au[**Numéro**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) méthode de la[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) objet pour appliquer le format d'affichage. Cette approche est rapide. Les formats numériques intégrés pris en charge par Aspose.Cells sont répertoriés ci-dessous.
+ Aspose.Cells propose des formats de nombres intégrés pour configurer les formats d'affichage des nombres et des dates. Tous les formats numériques intégrés reçoivent des valeurs numériques uniques. Les développeurs peuvent attribuer n'importe quelle valeur numérique souhaitée au[**Nombre**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number) méthode de la[**Style**](https://reference.aspose.com/cells/java/com.aspose.cells/style) objet pour appliquer le format d'affichage. Cette approche est rapide. Les formats numériques intégrés pris en charge par Aspose.Cells sont répertoriés ci-dessous.
 
 |**Évaluer**|**Taper**|**Formater la chaîne**|
 |:- |:- |:- |
@@ -81,7 +81,7 @@ Pour définir votre propre chaîne de format personnalisée pour définir le for
 
 {{% alert color="primary" %}}
 
- Si vous utilisez le[**Personnalisé**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) pour définir le format des nombres, tout format précédent défini à l'aide de[**Numéro**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） is overridden and vice versa.
+ Si vous utilisez le[**Personnalisé**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Custom) pour définir le format des nombres, tout format précédent défini à l'aide de[**Nombre**](https://reference.aspose.com/cells/java/com.aspose.cells/style#Number） is overridden and vice versa.
 
 {{% /alert %}}
 
